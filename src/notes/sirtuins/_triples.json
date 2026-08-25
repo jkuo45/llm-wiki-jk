@@ -532,10 +532,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "9322a2d1f5e2",
+    "id": "72439b51311c",
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "RelA/p65 (NF-κB subunit)",
+    "object": "NF-κB",
     "context": {
       "en-US": "SIRT1 deacetylates the RelA/p65 subunit of NF-κB, particularly at Lys310, reducing its ability to recruit the transcriptional machinery and activate pro-inflammatory genes. This post-translational modification dampens NF-κB target genes such as TNF-α, IL-1β, and IL-6, and also licenses p65 for ubiquitin-proteasomal degradation, further lowering inflammatory output. Directionally, SIRT1 acts enzymatically on RelA to inhibit inflammatory transcription. Because NF-κB drives chronic inflammation implicated in aging and disease, SIRT1's action is a key anti-inflammatory node, and loss of SIRT1 or its decline with age allows NF-κB activity to rise and perpetuate low-grade systemic inflammation.",
       "zh-TW": "SIRT1 去乙醯化 NF-κB 的 RelA/p65 亞基，特別是在 Lys310 位點，降低其招募轉錄機制和活化促發炎基因的能力。這種轉錄後修飾抑制 NF-κB 靶基因（如 TNF-α、IL-1β 和 IL-6），並使 p65 被泛素-蛋白酶體降解，進一步降低發炎輸出。在方向性上，SIRT1 在酶學上作用於 RelA 以抑制發炎轉錄。由於 NF-κB 驅動與衰老和疾病相關的慢性發炎，SIRT1 的作用是一個關鍵的抗發炎節點，SIRT1 的缺失或其隨年齡的下降使 NF-κB 活性升高並延續低度全身性發炎。"
@@ -1820,8 +1820,8 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "e9dcea282571",
-    "subject": "NMN (Nicotinamide Mononucleotide)",
+    "id": "61f7be869d27",
+    "subject": "Nicotinamide Mononucleotide",
     "predicate": "serves_as",
     "object": "Universal indirect pan-sirtuin activator",
     "context": {
@@ -1834,8 +1834,8 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "c17f411a91ac",
-    "subject": "NR (Nicotinamide Riboside)",
+    "id": "bc4c2ce908fb",
+    "subject": "Nicotinamide Riboside",
     "predicate": "serves_as",
     "object": "Universal indirect pan-sirtuin activator",
     "context": {
@@ -1848,10 +1848,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "f88a1dd42ef6",
+    "id": "678eb0fc5476",
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "NF-κB signaling pathway",
+    "object": "NF-κB",
     "context": {
       "en-US": "SIRT1 inhibits NF-κB transcriptional activity by deacetylating the p65/RelA subunit at Lys310, preventing optimal promoter engagement and coactivator recruitment. Directionally, SIRT1 sits upstream of suppressed NF-κB signaling. This lowers chronic inflammation linked to aging, atherosclerosis, and metabolic disease, and is complemented by SIRT6, SIRT2, and SIRT7 actions on the same pathway. It is one of the best-established anti-inflammatory mechanisms of SIRT1, and its decline with age is thought to permit the rise in NF-κB activity and inflammatory cytokine output that characterizes inflammaging.",
       "zh-TW": "SIRT1 通過在 Lys310 處去乙醯化 p65/RelA 亞基來抑制 NF-κB 轉錄活性，阻止最佳的啟動子結合和共活化因子招募。在方向性上，SIRT1 位於抑制的 NF-κB 信號上游。這降低與衰老、動脈粥樣硬化和代謝疾病相關的慢性發炎，並與 SIRT6、SIRT2 和 SIRT7 對同一通路的作用互補。這是 SIRT1 最確立的抗發炎機制之一，其隨年齡的下降被認為允許 NF-κB 活性和發炎細胞因子輸出的升高，這是炎性衰老的特徵。"
@@ -3374,10 +3374,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "e1e044b8b516",
+    "id": "a6a3bf6f974f",
     "subject": "NAMPT",
     "predicate": "converts",
-    "object": "Nicotinamide to NMN",
+    "object": "Nicotinamide Mononucleotide",
     "context": {
       "en-US": "NAMPT condenses nicotinamide with 5-phosphoribosyl-1-pyrophosphate (PRPP) to form NMN, the rate-limiting step of the NAD+ salvage pathway. Directionally, NAMPT sits upstream of NMN and NAD+ biosynthesis. This recovers nicotinamide that would otherwise feedback-inhibit sirtuins, and AMPK and SIRT1 both induce NAMPT, creating a positive loop for NAD+ and sirtuin activity. Because NAMPT is rate-limiting, its regulation largely determines NAD+ availability in most tissues. Preserving or inducing NAMPT is thus a central strategy for maintaining sirtuin function and NAD+-dependent metabolism.",
       "zh-TW": "NAMPT 將菸鹼醯胺與 5-磷酸核糖基-1-焦磷酸（PRPP）縮合形成 NMN，這是 NAD+ 補救途徑的限速步驟。在方向性上，NAMPT 位於 NMN 和 NAD+ 生物合成的上游。這回收了原本會回饋抑制 sirtuin 的菸鹼醯胺，而 AMPK 和 SIRT1 都能誘導 NAMPT，為 NAD+ 和 sirtuin 活性創造正反饋迴圈。由於 NAMPT 是限速酶，其調控在很大程度上決定了大多數組織中的 NAD+ 可用性。維護或誘導 NAMPT 因此是維護 sirtuin 功能和 NAD+ 依賴性代謝的核心策略。"
@@ -3920,10 +3920,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "78a8b4224e28",
+    "id": "35cebe7340b3",
     "subject": "Splitomicin",
     "predicate": "enhances_nuclear_translocation_of",
-    "object": "NF-κB p65",
+    "object": "NF-κB",
     "context": {
       "en-US": "Splitomicin reduces intracellular deacetylase activity, causing hyperacetylation and enhanced nuclear translocation of NF-κB p65, amplifying inflammatory transcription. Directionally, Splitomicin-mediated sirtuin inhibition sits upstream of increased NF-κB signaling. This demonstrates the converse of SIRT1's normal anti-inflammatory action and shows experimentally that sirtuin tone sets inflammatory set-points. By inhibiting SIRT1 and SIRT2, Splitomicin permits p65 hyperacetylation and nuclear accumulation, driving cytokine expression. This inverse relationship is important evidence that sirtuins restrain NF-κB and that their loss is pro-inflammatory.",
       "zh-TW": "Splitomicin 減少細胞內去乙醯酶活性，導致 NF-κB p65 的超乙醯化和增強的核轉位，放大炎症性轉錄。在方向性上，Splitomicin 介導的 sirtuin 抑制位於 NF-κB 訊號增強的上游。這展示了 SIRT1 正常抗發炎作用的反面，並實驗性地表明 sirtuin 基調設定發炎設定點。透過抑制 SIRT1 和 SIRT2，Splitomicin 允許 p65 超乙醯化和核積累，驅動細胞因子表達。這種反向關係是 sirtuin 抑制 NF-κB 以及其缺失具有促發炎作用的重要證據。"
@@ -4179,20 +4179,6 @@
     "context": {
       "en-US": "Administration of 78c to naturally aged male mice yields about a 14% lifespan extension, demonstrating in vivo geroprotective efficacy. Directionally, CD38 inhibition sits upstream of prolonged lifespan. This effect is attributed to restored NAD+ and sirtuin function, and it validates CD38 as a longevity drug target. The lifespan benefit in naturally aged animals, rather than in accelerated-aging models, provides particularly strong evidence for translational relevance. 78c's efficacy, combined with its NAD+-sparing mechanism, established CD38 inhibition as a leading pharmacological strategy in geroscience.",
       "zh-TW": "對自然衰老雄性小鼠施用 78c 可獲得約 14% 的壽命延長，展示了體內抗衰老療效。在方向性上，CD38 抑制位於延長壽命的上游。此效應歸因於恢復的 NAD+ 和 sirtuin 功能，驗證了 CD38 作為長壽藥物靶標。在自然衰老動物（而非加速衰老模型）中的壽命益處提供了特別強的轉化相關性證據。78c 的療效結合其 NAD+ 節省機制，確立了 CD38 抑制作為老年科學中領先的藥理學策略。"
-    },
-    "confidence": 0.95,
-    "source_document": "CD38 inhibitor 78c.md",
-    "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
-  },
-  {
-    "id": "3ba37b27fdb2",
-    "subject": "CD38 inhibitor 78c",
-    "predicate": "synergizes_with",
-    "object": "NMN and NR",
-    "context": {
-      "en-US": "78c enhances the efficacy of NAD+ precursors NMN and NR by preventing their rapid CD38-mediated degradation, combining supply and preservation. Directionally, 78c combined with precursors sits upstream of amplified NAD+ and sirtuin activation. This synergy is a rational anti-aging combination, overcoming the limited durability of precursors alone, and it is one of the most promising strategies for restoring NAD+ in aging. Because CD38 consumes both NAD+ and its precursors, inhibiting CD38 while supplying precursors maximizes the NAD+ pool available to sirtuins. This combination approach is now central to NAD+ restoration research.",
-      "zh-TW": "78c 透過防止 NAD+ 前驅物 NMN 和 NR 被 CD38 快速降解來增強其療效，結合了供應和保存。在方向性上，78c 與前驅物的結合位於放大 NAD+ 和 sirtuin 活化的上游。這種協同作用是合理的抗衰老組合，克服了單獨使用前驅物的有限持久性，是恢復衰老中 NAD+ 最有前景的策略之一。由於 CD38 同時消耗 NAD+ 及其前驅物，在供應前驅物的同時抑制 CD38 可最大化 sirtuin 可用的 NAD+ 池。這種組合方法現在是 NAD+ 恢復研究的核心。"
     },
     "confidence": 0.95,
     "source_document": "CD38 inhibitor 78c.md",
@@ -5209,12 +5195,12 @@
   },
   {
     "id": "945d4fdb6677",
-    "subject": "SIRT3/SIRT4 ratio",
+    "subject": "SIRT3-SIRT4 Ratio",
     "predicate": "determines",
-    "object": "Hormetic window",
+    "object": "Hormetic Window",
     "context": {
-      "en-US": "The SIRT3/SIRT4 ratio defines the hormetic window—the dose range over which mitochondrial stress triggers adaptive responses rather than damage. Directionally, the ratio sits upstream of the adaptive-versus-harmful threshold. Because SIRT3 is protective and SIRT4 is detrimental, a high ratio broadens resilience, and caloric restriction and youth raise this ratio while aging lowers it. By setting the balance between mitochondrial protection and oxidant stress, the SIRT3/SIRT4 ratio determines how cells respond to stress. Maintaining a high ratio is a proposed strategy for preserving mitochondrial health during aging.",
-      "zh-TW": "SIRT3/SIRT4 比率定義了激效窗口——粒線體壓力觸發適應性反應而非損傷的劑量範圍。在方向性上，該比率位於適應性與有害閾值的上游。由於 SIRT3 具有保護性而 SIRT4 具有害性，高比率擴大了韌性，限制熱量和年輕狀態提高此比率，而衰老降低它。透過設定粒線體保護和氧化壓力之間的平衡，SIRT3/SIRT4 比率決定了細胞如何回應壓力。維護高比率是衰老期間維護粒線體健康的擬議策略。"
+      "en-US": "The SIRT3/SIRT4 ratio determines the hormetic window: a high ratio (SIRT3-dominant) favors the adaptive branch, while a low ratio tilts toward the toxic branch of mitohormesis.",
+      "zh-TW": "SIRT3/SIRT4 比例決定激素性窗口：比例高（SIRT3 主導）傾向適應分支，比例低則傾向粒線體激素性的毒性分支。"
     },
     "confidence": 0.95,
     "source_document": "SIRT3-SIRT4 Ratio.md",
@@ -9800,20 +9786,6 @@
     "updated": "2026-08-20T08:12:22Z"
   },
   {
-    "id": "fb1eb7e98ea1",
-    "subject": "NAD-boosting molecules (NMN, NR)",
-    "predicate": "activate",
-    "object": "all seven sirtuins",
-    "context": {
-      "en-US": "NAD+-boosting molecules (NMN, NR) raise cellular NAD+, relieving nicotinamide feedback inhibition and activating all seven sirtuins (SIRT1-SIRT7).",
-      "zh-TW": "NAD+ 增強分子（NMN、NR）提高細胞 NAD+ 水平，解除菸鹼醯胺的回饋抑制，並活化所有七種 sirtuins（SIRT1-SIRT7）。"
-    },
-    "confidence": 0.9,
-    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
-    "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:12:22Z"
-  },
-  {
     "id": "9806e0aca0d3",
     "subject": "CD38 inhibitors (apigenin, quercetin)",
     "predicate": "boost",
@@ -13342,7 +13314,7 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "f5995071f648",
+    "id": "3757dc4af35c",
     "subject": "SIRT3",
     "predicate": "senses",
     "object": "Intracellular acetyl-CoA and NAD+ levels",
@@ -13356,7 +13328,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "5a61f66d622f",
+    "id": "e39976131dcf",
     "subject": "SIRT3",
     "predicate": "negatively_regulates",
     "object": "SASP (senescence-associated secretory phenotype)",
@@ -13370,7 +13342,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "3a533d59d105",
+    "id": "104b4236c632",
     "subject": "SIRT3",
     "predicate": "inhibits",
     "object": "p53/p21 axis (senescence initiation)",
@@ -13384,7 +13356,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "5d4f2fb8e2a7",
+    "id": "c68feb7b32c8",
     "subject": "SIRT3",
     "predicate": "is_most_abundantly_expressed_sirtuin_in",
     "object": "Central nervous system",
@@ -13398,7 +13370,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "baaca83b4e61",
+    "id": "6a9cd5a7e7ba",
     "subject": "PACAP (pituitary adenylate cyclase-activating polypeptide)",
     "predicate": "interacts_with",
     "object": "SIRT3 (neuroprotection against amyloid-beta)",
@@ -13412,7 +13384,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "f1e15a700797",
+    "id": "512bd9c6d15e",
     "subject": "miR-297 and miR-421",
     "predicate": "repress",
     "object": "SIRT3",
@@ -13426,7 +13398,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "a45a6a4cfb26",
+    "id": "27bd9ea7fa33",
     "subject": "SIRT3",
     "predicate": "deacetylates",
     "object": "Bcl-2 (preventing mitochondrial outer membrane permeabilization)",
@@ -13440,7 +13412,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "059556cc6ea4",
+    "id": "4551bfa1ed58",
     "subject": "SIRT3",
     "predicate": "suppresses",
     "object": "ox-LDL-induced foam cell formation (via AMPK and UCP1 modulation)",
@@ -13454,7 +13426,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "e041ba08b847",
+    "id": "9773a14380a0",
     "subject": "SIRT3/ATG5 axis",
     "predicate": "preserves",
     "object": "Endothelial nitric oxide bioavailability",
@@ -13468,7 +13440,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "d3b827f2d221",
+    "id": "46aafb667318",
     "subject": "FGF21 signaling",
     "predicate": "restores",
     "object": "SIRT3 expression (diabetic myocardium)",
@@ -13482,7 +13454,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "920f4e03c0e2",
+    "id": "1c611cfd8725",
     "subject": "SIRT3",
     "predicate": "inhibits",
     "object": "Src kinase oxidation (mammary carcinoma metastasis)",
@@ -13496,7 +13468,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "6b12168588af",
+    "id": "7542d0de3ec0",
     "subject": "SIRT3",
     "predicate": "recruits_to_viral_episomes",
     "object": "Histone methyltransferase complexes",
@@ -13510,7 +13482,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "cc13331f87b5",
+    "id": "139badc9f6e2",
     "subject": "SIRT3",
     "predicate": "deacetylates",
     "object": "PYCR1 at Lys228 (proline biosynthesis)",
@@ -13524,7 +13496,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "9fec56555754",
+    "id": "a9b6b7da9fb4",
     "subject": "SIRT3",
     "predicate": "deacetylates",
     "object": "SHMT2 at Lys95 (serine metabolism)",
@@ -13538,7 +13510,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "0202b04cd2f3",
+    "id": "9703ac6a36d6",
     "subject": "SIRT3",
     "predicate": "deacetylates",
     "object": "GLDC at Lys514 (nucleotide biosynthesis)",
@@ -13552,7 +13524,7 @@
     "updated": "2026-08-21T18:59:11Z"
   },
   {
-    "id": "c8d8b6bd5faf",
+    "id": "1202608a84d2",
     "subject": "SIRT3",
     "predicate": "deacetylates_IDH2_at",
     "object": "Lys143 (suppressing ROS-mediated mutagenesis)",
@@ -13564,5 +13536,103 @@
     "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
     "created": "2026-08-21T18:59:11Z",
     "updated": "2026-08-21T18:59:11Z"
+  },
+  {
+    "id": "842c3059393e",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "synergizes_with",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "CD38 inhibitor 78c prevents degradation of NMN, prolonging its availability as an NAD+ precursor and amplifying NAD+ and sirtuin activation.",
+      "zh-TW": "CD38 抑制劑 78c 防止 NMN 被降解，延長其作為 NAD+ 前體的可用性，放大 NAD+ 與 sirtuin 活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "CD38 inhibitor 78c.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "4235bacd1ad5",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "synergizes_with",
+    "object": "Nicotinamide Riboside",
+    "context": {
+      "en-US": "CD38 inhibitor 78c also spares nicotinamide riboside from CD38-mediated cleavage, synergizing with NR supplementation.",
+      "zh-TW": "CD38 抑制劑 78c 亦防止菸鹼醯胺核糖苷被 CD38 切割，與 NR 補充產生協同。"
+    },
+    "confidence": 0.95,
+    "source_document": "CD38 inhibitor 78c.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "18a6e35aec58",
+    "subject": "Nicotinamide Mononucleotide",
+    "predicate": "activates",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "As a direct NAD+ precursor, NMN raises NAD+ which supplies the obligate co-substrate for all seven sirtuins, indirectly activating them systemically.",
+      "zh-TW": "作為直接 NAD+ 前體，NMN 提升 NAD+，提供全部七種 sirtuin 必需的共用受質，進而在全身間接活化它們。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "321a4ab2b427",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "activates",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "NR is converted to NMN then NAD+, relieving nicotinamide feedback inhibition and activating all seven sirtuins (SIRT1-SIRT7).",
+      "zh-TW": "NR 轉化為 NMN 再成為 NAD+，解除菸鹼醯胺的回饋抑制並活化全部七種 sirtuin（SIRT1-SIRT7）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "fd92a2c878e9",
+    "subject": "SIRT3",
+    "predicate": "determines",
+    "object": "SIRT3-SIRT4 Ratio",
+    "context": {
+      "en-US": "SIRT3 deacetylase activity is the numerator of the SIRT3/SIRT4 ratio, a readout of the mitochondrial sirtuin balance that sets the adaptive-vs-toxic threshold of the hormetic window.",
+      "zh-TW": "SIRT3 去乙醯酶活性是 SIRT3/SIRT4 比例的分子，反映粒線體 sirtuin 平衡，決定激素性窗口中適應與毒性之間的閾值。"
+    },
+    "confidence": 0.9,
+    "source_document": "SIRT3-SIRT4 Ratio.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "31faf3250cd9",
+    "subject": "SIRT4",
+    "predicate": "determines",
+    "object": "SIRT3-SIRT4 Ratio",
+    "context": {
+      "en-US": "SIRT4 is the denominator of the SIRT3/SIRT4 ratio; its activity tilts the balance toward the toxicity branch of the hormetic window.",
+      "zh-TW": "SIRT4 是 SIRT3/SIRT4 比例的分母；其活性使平衡傾向激素性窗口的毒性分支。"
+    },
+    "confidence": 0.9,
+    "source_document": "SIRT3-SIRT4 Ratio.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "9bc305f64c92",
+    "subject": "SIRT3-SIRT4 Ratio",
+    "predicate": "correlates_with",
+    "object": "MnSOD",
+    "context": {
+      "en-US": "SIRT3 deacetylates and activates MnSOD (SOD2); the SIRT3/SIRT4 ratio therefore reflects mitochondrial ROS-buffering capacity and links the ratio node to its MnSOD substrate.",
+      "zh-TW": "SIRT3 去乙醯化並活化 MnSOD（SOD2）；因此 SIRT3/SIRT4 比例反映粒線體 ROS 緩衝能力，並將比例節點連結至其 MnSOD 基質。"
+    },
+    "confidence": 0.85,
+    "source_document": "SIRT3-SIRT4 Ratio.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
   }
 ]

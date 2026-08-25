@@ -5208,7 +5208,7 @@
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "279fa5d075ca",
+    "id": "c7b6bf567740",
     "subject": "Fisetin",
     "predicate": "targets_SCAPs_including",
     "object": "PI3K/Akt pathway",
@@ -5222,10 +5222,10 @@
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "56d5525e0269",
+    "id": "810daf9f2da5",
     "subject": "Fisetin",
     "predicate": "inhibits",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Beyond senolysis, Fisetin inhibits the activity of several pro-inflammatory cytokines (TNF-alpha, IL-6) and the transcription factor NF-kB, contributing to its anti-inflammatory profile and to reduced SASP factor expression in treated tissues.",
       "zh-TW": "除了 senolytic 作用外，Fisetin 還能抑制多種促發炎細胞激素（TNF-alpha、IL-6）以及轉錄因子 NF-kB 的活性，這有助於其抗炎特性，並降低治療後組織中 SASP 因子的表現。"
@@ -5264,7 +5264,7 @@
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "b5a596a1352d",
+    "id": "7b339f54fdad",
     "subject": "Fisetin",
     "predicate": "scavenges",
     "object": "Reactive Oxygen Species",
@@ -5278,7 +5278,7 @@
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "ab08df0478e8",
+    "id": "31a915096208",
     "subject": "Dasatinib plus Quercetin",
     "predicate": "is_a_type_of",
     "object": "Senolytics",
@@ -5292,7 +5292,7 @@
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "c04171540c05",
+    "id": "cfdfd590a16c",
     "subject": "Senescent Cells",
     "predicate": "resist_apoptosis_via",
     "object": "Senescent-Cell Anti-Apoptotic Pathways",

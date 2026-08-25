@@ -1,5 +1,5 @@
 {
-  "generated": "24_AUG_2026 01:25 PM PDT",
+  "generated": "24_AUG_2026 09:23 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,42 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
+          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json.",
+          "created": "2026-08-24",
+          "updated": "2026-08-24",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
+          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
+          "created": "2026-08-24",
+          "updated": "2026-08-24",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026_zh-TW.md"
         }
       }
     },
@@ -793,399 +829,6 @@
       }
     },
     {
-      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
-          "description": "Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.",
-          "created": "2026-07-27",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "fisetin",
-            "comt",
-            "senolytic",
-            "catecholamines",
-            "geraldol",
-            "flavonoid",
-            "longevity"
-          ],
-          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
-          "path": "tasks/en-US/task_output_comt_fisetin_senolytic_09_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "非瑟酮作為 COMT 抑制劑 — 衰老溶解交集與實驗計畫",
-          "description": "評估非瑟酮作為衰老溶解類黃酮與 COMT（兒茶酚-O-甲基轉移酶）受質-抑制劑的雙重活性（IC50 2.6–5.8 µM），包含其 O-甲基化為 Geraldol、依劑量與基因型而定的藥物動力學複雜性、對長壽方案的意涵，以及提出的實驗計畫。",
-          "created": "2026-07-27",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "fisetin",
-            "comt",
-            "senolytic",
-            "catecholamines",
-            "geraldol",
-            "flavonoid",
-            "longevity"
-          ],
-          "filename": "task_output_comt_fisetin_senolytic_09_July_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_comt_fisetin_senolytic_09_July_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Node-Level Network Analysis for Biological Prioritization",
-          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "pagerank",
-            "betweenness-centrality",
-            "k-core",
-            "drug-discovery",
-            "geroscience"
-          ],
-          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "用於生物學優先排序的節點層級網絡分析",
-          "description": "方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "pagerank",
-            "betweenness-centrality",
-            "k-core",
-            "drug-discovery",
-            "geroscience"
-          ],
-          "filename": "task_output_node_analysis_biology_16_AUG_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
-          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
-          "created": "2026-08-17",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "sirtuins",
-            "aging",
-            "substrates",
-            "personalized-pagerank",
-            "adamic-adar",
-            "effective-resistance",
-            "therapeutics"
-          ],
-          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
-          "description": "以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
-          "created": "2026-08-17",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "sirtuins",
-            "aging",
-            "substrates",
-            "personalized-pagerank",
-            "adamic-adar",
-            "effective-resistance",
-            "therapeutics"
-          ],
-          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_sirtuins_resveratrol",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol",
-            "sirt1",
-            "stacs",
-            "polyphenols"
-          ],
-          "filename": "task_output_sirtuins_resveratrol_en-US.md",
-          "path": "tasks/en-US/task_output_sirtuins_resveratrol_en-US.md"
-        },
-        "zh-TW": {
-          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
-          "created": "2026-07-02",
-          "updated": "2026-07-05",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol"
-          ],
-          "filename": "task_output_sirtuins_resveratrol_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
-          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
-          "created": "2026-08-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
-          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
-          "created": "2026-08-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_mitochondria_fusion_fission_27_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Research Gaps in Mitochondrial Fission & Fusion Mechanisms",
-          "description": "Comprehensive analysis of what is known and what remains unknown about the exact mechanisms of mitochondrial fission and fusion, drawn from ingested review documents and supporting literature.",
-          "created": "2026-07-27",
-          "updated": "2026-08-22",
-          "tags": [
-            "mitochondrial-dynamics",
-            "research-gaps",
-            "fission",
-            "fusion",
-            "drp1",
-            "mfn1",
-            "mfn2",
-            "opa1",
-            "mitophagy"
-          ],
-          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
-          "path": "tasks/en-US/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "粒線體分裂與融合機制的研究缺口",
-          "description": "關於粒線體分裂與融合確切機制中已知與未知之處的綜合分析，取材自攝入的回顧文獻與支援文獻。",
-          "created": "2026-07-27",
-          "updated": "2026-08-22",
-          "tags": [
-            "mitochondrial-dynamics",
-            "research-gaps",
-            "fission",
-            "fusion",
-            "drp1",
-            "mfn1",
-            "mfn2",
-            "opa1",
-            "mitophagy"
-          ],
-          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_comt_mao_15_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
-          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_comt_mao_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
-          "description": "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_comt_mao_15_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026",
-          "description": "Comparative node analysis of SIRT1/SIRT2/SIRT3 proximity to Adrenochrome in the wiki knowledge graph. Hop distance is non-discriminating (all 2 hops); path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, effective-resistance, personalized PageRank, and Fiedler analysis resolve a metric-dependent ranking where SIRT3 wins on route redundancy but SIRT1 wins on flow proximity.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "adrenochrome",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy — 15 August 2026",
-          "description": "SIRT1 / SIRT2 / SIRT3 與 Adrenochrome 在 wiki 知識圖譜中接近度的比較節點分析。跳數距離無鑑別力（皆為 2 跳）；路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、有效電阻、個人化 PageRank 與 Fiedler 分析解析出一個依指標而定的排名——SIRT3 在路線冗餘度上勝出，而 SIRT1 在流量接近度上勝出。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "adrenochrome",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
-          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
-          "description": "SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_acid_ceramidase_27_July_2026",
       "kind": "task",
       "langs": {
@@ -1378,6 +1021,48 @@
       }
     },
     {
+      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
+          "description": "Evaluation of fisetin's dual activity as a senolytic flavonoid and substrate-inhibitor of COMT (IC50 2.6–5.8 µM), including its O-methylation to Geraldol, dose- and genotype-dependent pharmacokinetic complexity, implications for longevity protocols, and a proposed experimental plan.",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "fisetin",
+            "comt",
+            "senolytic",
+            "catecholamines",
+            "geraldol",
+            "flavonoid",
+            "longevity"
+          ],
+          "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+          "path": "tasks/en-US/task_output_comt_fisetin_senolytic_09_July_2026.md"
+        },
+        "zh-TW": {
+          "title": "非瑟酮作為 COMT 抑制劑 — 衰老溶解交集與實驗計畫",
+          "description": "評估非瑟酮作為衰老溶解類黃酮與 COMT（兒茶酚-O-甲基轉移酶）受質-抑制劑的雙重活性（IC50 2.6–5.8 µM），包含其 O-甲基化為 Geraldol、依劑量與基因型而定的藥物動力學複雜性、對長壽方案的意涵，以及提出的實驗計畫。",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "fisetin",
+            "comt",
+            "senolytic",
+            "catecholamines",
+            "geraldol",
+            "flavonoid",
+            "longevity"
+          ],
+          "filename": "task_output_comt_fisetin_senolytic_09_July_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_comt_fisetin_senolytic_09_July_2026_zh-TW.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_cr_vs_spermidine_autophagy_15_July_2026",
       "kind": "task",
       "langs": {
@@ -1540,6 +1225,357 @@
           ],
           "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026_zh-TW.md",
           "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mitochondria_fusion_fission_27_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Research Gaps in Mitochondrial Fission & Fusion Mechanisms",
+          "description": "Comprehensive analysis of what is known and what remains unknown about the exact mechanisms of mitochondrial fission and fusion, drawn from ingested review documents and supporting literature.",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "mitochondrial-dynamics",
+            "research-gaps",
+            "fission",
+            "fusion",
+            "drp1",
+            "mfn1",
+            "mfn2",
+            "opa1",
+            "mitophagy"
+          ],
+          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+          "path": "tasks/en-US/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "粒線體分裂與融合機制的研究缺口",
+          "description": "關於粒線體分裂與融合確切機制中已知與未知之處的綜合分析，取材自攝入的回顧文獻與支援文獻。",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "mitochondrial-dynamics",
+            "research-gaps",
+            "fission",
+            "fusion",
+            "drp1",
+            "mfn1",
+            "mfn2",
+            "opa1",
+            "mitophagy"
+          ],
+          "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node-Level Network Analysis for Biological Prioritization",
+          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "用於生物學優先排序的節點層級網絡分析",
+          "description": "方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
+          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
+          "created": "2026-08-17",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+        },
+        "zh-TW": {
+          "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
+          "description": "以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
+          "created": "2026-08-17",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_comt_mao_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
+          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_comt_mao_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
+          "description": "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_comt_mao_15_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026",
+          "description": "Comparative node analysis of SIRT1/SIRT2/SIRT3 proximity to Adrenochrome in the wiki knowledge graph. Hop distance is non-discriminating (all 2 hops); path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, effective-resistance, personalized PageRank, and Fiedler analysis resolve a metric-dependent ranking where SIRT3 wins on route redundancy but SIRT1 wins on flow proximity.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "adrenochrome",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy — 15 August 2026",
+          "description": "SIRT1 / SIRT2 / SIRT3 與 Adrenochrome 在 wiki 知識圖譜中接近度的比較節點分析。跳數距離無鑑別力（皆為 2 跳）；路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、有效電阻、個人化 PageRank 與 Fiedler 分析解析出一個依指標而定的排名——SIRT3 在路線冗餘度上勝出，而 SIRT1 在流量接近度上勝出。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "adrenochrome",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
+          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
+          "description": "SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuins_resveratrol",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
+          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol",
+            "sirt1",
+            "stacs",
+            "polyphenols"
+          ],
+          "filename": "task_output_sirtuins_resveratrol_en-US.md",
+          "path": "tasks/en-US/task_output_sirtuins_resveratrol_en-US.md"
+        },
+        "zh-TW": {
+          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
+          ],
+          "filename": "task_output_sirtuins_resveratrol_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
+          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+        },
+        "zh-TW": {
+          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
+          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026_zh-TW.md"
         }
       }
     },
@@ -1960,50 +1996,6 @@
       }
     },
     {
-      "id": "task:task_output_nad_to_bnip3_trace_21_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Graph Trace: NAD+ to BNIP3 — Metabolic Signaling to Mitophagy",
-          "description": "Graphify shortest-path trace of how NAD+ Biosynthesis connects to BNIP3/BNIP3L via Autophagy and HIF1A in the src/ knowledge graph (2,733 files, 62,276 edges, 355 communities).",
-          "created": "2026-07-21",
-          "updated": "2026-07-22",
-          "tags": [
-            "graph-trace",
-            "nad",
-            "bnip3",
-            "mitophagy",
-            "autophagy",
-            "hif1a",
-            "hypoxia",
-            "mitochondria",
-            "aging"
-          ],
-          "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "圖譜追蹤：NAD+ 至 BNIP3 — 代謝訊號傳遞至粒線體自噬",
-          "description": "graphify 最短路徑追蹤，展示 NAD+ 生物合成如何透過自噬與 HIF1A 在 src/ 知識圖譜（2,733 個檔案、62,276 條邊、355 個社群）中連接至 BNIP3/BNIP3L。",
-          "created": "2026-07-21",
-          "updated": "2026-07-22",
-          "tags": [
-            "graph-trace",
-            "nad",
-            "bnip3",
-            "mitophagy",
-            "autophagy",
-            "hif1a",
-            "hypoxia",
-            "mitochondria",
-            "aging"
-          ],
-          "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026_zh-TW.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_ap1_trace_21_JUL_2026",
       "kind": "task",
       "langs": {
@@ -2044,6 +2036,50 @@
           ],
           "filename": "task_output_ap1_trace_21_JUL_2026_zh-TW.md",
           "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_nad_to_bnip3_trace_21_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Graph Trace: NAD+ to BNIP3 — Metabolic Signaling to Mitophagy",
+          "description": "Graphify shortest-path trace of how NAD+ Biosynthesis connects to BNIP3/BNIP3L via Autophagy and HIF1A in the src/ knowledge graph (2,733 files, 62,276 edges, 355 communities).",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "nad",
+            "bnip3",
+            "mitophagy",
+            "autophagy",
+            "hif1a",
+            "hypoxia",
+            "mitochondria",
+            "aging"
+          ],
+          "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "圖譜追蹤：NAD+ 至 BNIP3 — 代謝訊號傳遞至粒線體自噬",
+          "description": "graphify 最短路徑追蹤，展示 NAD+ 生物合成如何透過自噬與 HIF1A 在 src/ 知識圖譜（2,733 個檔案、62,276 條邊、355 個社群）中連接至 BNIP3/BNIP3L。",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "nad",
+            "bnip3",
+            "mitophagy",
+            "autophagy",
+            "hif1a",
+            "hypoxia",
+            "mitochondria",
+            "aging"
+          ],
+          "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026_zh-TW.md",
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026_zh-TW.md"
         }
       }
     },

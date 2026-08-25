@@ -1344,10 +1344,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "b6b3b36aac19",
+    "id": "b6c4b6814a53",
     "subject": "A20",
     "predicate": "terminates",
-    "object": "NF-kappa B signaling",
+    "object": "NF-κB",
     "context": {
       "en-US": "A20 terminates NF-kappaB signaling by removing K63-linked ubiquitin chains from RIP1 and TRAF6, thereby shutting down IKK activation and the downstream cascade. As a feedback inhibitor, A20 limits excessive inflammation and tissue damage. The directionality is deubiquitination to signal termination. A caveat is that A20 mutations or insufficiency are linked to chronic inflammatory and autoimmune diseases, showing its role is non-redundant in some tissues. Mice lacking A20 in specific tissues develop severe spontaneous inflammation, confirming its role as an essential inflammatory brake.",
       "zh-TW": "A20 透過從 RIP1 和 TRAF6 中移除 K63 連接的泛素鏈來終止 NF-kappaB 訊號傳導，從而關閉 IKK 活化和下游級聯。作為反饋抑制劑，A20 可以限制過度發炎和組織損傷。方向性是去泛素化到訊號終止。需要注意的是，A20 突變或不足與慢性發炎和自體免疫疾病有關，這表明​​它的作用在某些組織中是非冗餘的。特定組織中缺乏 A20 的小鼠會出現嚴重的自發性炎症，證實了其作為重要發炎制動劑的作用。"
@@ -3232,5 +3232,19 @@
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-24T21:25:02Z",
     "updated": "2026-08-24T21:25:02Z"
+  },
+  {
+    "id": "24d20680a6cb",
+    "subject": "Oxidative Stress",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Oxidative stress activates the canonical IKK-NF-kB pathway, driving inflammatory gene expression and the senescence-associated secretory phenotype (SASP).",
+      "zh-TW": "氧化壓力活化典型的 IKK–NF-kB 路徑，驅動發炎基因表現與衰老相關分泌表型（SASP）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
   }
 ]

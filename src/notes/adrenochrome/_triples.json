@@ -1265,13 +1265,13 @@
     "predicate": "inhibits",
     "object": "NF-κB",
     "context": {
-      "en-US": "The senomorphic hypothesis proposes that covalent modification of the p65 subunit of NF-κB and the IKK complex by the electrophile adrenochrome could permanently inhibit NF-κB signaling, blunting transcription of major SASP factors such as IL-6 and IL-8. NF-κB is the master transcription factor driving the pro-inflammatory secretory phenotype of senescent cells. Because NF-κB depends on cysteine residues for DNA binding, aminochrome alkylation offers a plausible route to suppress the SASP without killing the cell.",
-      "zh-TW": "衰老模仿假說提出，親電體腎上腺素色素對NF-κB的p65亞基和IKK複合物的共價修飾可能永久抑制NF-κB信號，削弱IL-6和IL-8等主要SASP因子的轉錄。NF-κB是驅動衰老細胞促炎分泌表型的主要轉錄因子。由於NF-κB依賴半胱氨酸殘基進行DNA結合，氨基色素烷基化提供了一種在不殺死細胞的情況下抑制SASP的合理途徑。"
+      "en-US": "Contested senomorphic hypothesis: in the SRAC/adrenochrome-protocol framing, adrenochrome-based complexes are proposed to suppress NF-kB-driven SASP, hence 'Adrenochrome inhibits NF-kB'. This is a protocol-specific assertion, NOT general biology - broadly, oxidative stress (where adrenochrome forms) ACTIVATES NF-kB, which then drives SASP/inflammation (see Oxidative Stress --activates--> NF-kB). Confidence lowered to reflect the contested status.",
+      "zh-TW": "具爭議的衰老相關分泌表型（senomorphic）假說：在 SRAC／腎上腺素紅協定架構中，主張以腎上腺素紅為基礎的複合物可抑制 NF-kB 驅動的 SASP，故謂「腎上腺素紅抑制 NF-kB」。此為協定專屬主張，並非普遍生物學——廣義而言，氧化壓力（腎上腺素紅生成的背景）會活化 NF-kB，進而驅動 SASP／發炎（見 Oxidative Stress --activates--> NF-kB）。信心值下調以反映其爭議性。"
     },
-    "confidence": 0.6,
+    "confidence": 0.5,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-08-25T04:10:14Z"
   },
   {
     "id": "80dfc4b9e0f0",
@@ -7152,5 +7152,257 @@
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T07:39:11Z"
+  },
+  {
+    "id": "effba47e3882",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "converts_to",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "Nicotinamide riboside is phosphorylated by NMRK1/NMRK2 to nicotinamide mononucleotide, the direct biosynthetic bridge linking the two major NAD+ precursors and completing the NR->NMN->NAD+ salvage sequence.",
+      "zh-TW": "菸鹼醯胺核糖苷經 NMRK1/NMRK2 磷酸化為菸鹼醯胺單核苷酸，是直接連接兩大 NAD+ 前體的生物合成橋樑，完成 NR→NMN→NAD+ 補救序列。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "aa59bbb411be",
+    "subject": "GlyNAC",
+    "predicate": "combines",
+    "object": "Glycine",
+    "context": {
+      "en-US": "GlyNAC combines glycine and N-acetylcysteine (NAC) to jointly support glutathione synthesis, overcoming the dual glycine-and-cysteine limitation that limits NAC alone.",
+      "zh-TW": "GlyNAC 由甘胺酸與 N-乙醯半胱胺酸（NAC）組成，共同支持穀胱甘肽合成，克服單用 NAC 時甘胺酸與半胱胺酸雙重限制的問題。"
+    },
+    "confidence": 0.95,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "fc57a909b8b8",
+    "subject": "GlyNAC",
+    "predicate": "combines",
+    "object": "N-Acetylcysteine",
+    "context": {
+      "en-US": "The NAC component of GlyNAC is deacetylated to cysteine, supplying the rate-limiting amino acid for glutathione synthesis.",
+      "zh-TW": "GlyNAC 中的 NAC 成分會去乙醯化為半胱胺酸，提供穀胱甘肽合成中限速的胺基酸來源。"
+    },
+    "confidence": 0.95,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "7d57e28e37ea",
+    "subject": "GlyNAC",
+    "predicate": "increases",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "GlyNAC produces the largest reported oral increases in intracellular glutathione (30-60%) in human trials, reversing multiple aging hallmarks.",
+      "zh-TW": "人體試驗中，GlyNAC 帶來口服干預中報告過最大幅度的細胞內穀胱甘肽提升（30–60%），逆轉多項老化特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "a49af45fb918",
+    "subject": "Glycine",
+    "predicate": "is_precursor_for",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glycine is the third residue of the gamma-glutamyl-cysteinyl-glycine tripeptide and becomes rate-limiting for glutathione synthesis under metabolic stress, aging, and methylglyoxal overload.",
+      "zh-TW": "甘胺酸是 γ-麩胺醯-半胱胺醯-甘胺酸三肽的第三個殘基，在代謝壓力、老化與甲基乙二醛過載下成為穀胱甘肽合成的限速因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "2bf84ab90c75",
+    "subject": "N-Acetylcysteine",
+    "predicate": "is_precursor_for",
+    "object": "Cysteine",
+    "context": {
+      "en-US": "N-acetylcysteine is deacetylated to cysteine, whose availability governs the activity of glutamate-cysteine ligase, the rate-limiting enzyme of glutathione synthesis.",
+      "zh-TW": "N-乙醯半胱胺酸去乙醯化為半胱胺酸，其可用性決定穀胱甘肽合成限速酶麩胺酸-半胱胺酸連接酶的活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "0848a400c10e",
+    "subject": "Cysteine",
+    "predicate": "is_precursor_for",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Cysteine supplied by NAC is condensed with glutamate and glycine by glutathione synthetase to form the glutathione tripeptide.",
+      "zh-TW": "由 NAC 提供的半胱胺酸經穀胱甘肽合成酶與麩胺酸及甘胺酸縮合，形成穀胱甘肽三肽。"
+    },
+    "confidence": 0.9,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "bdbf506758ad",
+    "subject": "GlyNAC",
+    "predicate": "reduces",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "In older adults, 24-week GlyNAC supplementation reduced plasma F2-isoprostanes by 40% and protein carbonyls by 35%, markers of oxidative damage.",
+      "zh-TW": "老年受試者中，24 週 GlyNAC 補充使血漿 F2-異前列腺素下降 40%、蛋白質羰基下降 35%，皆為氧化損傷指標。"
+    },
+    "confidence": 0.9,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "0fba937a4ab0",
+    "subject": "GlyNAC",
+    "predicate": "improves",
+    "object": "Mitochondrial Function",
+    "context": {
+      "en-US": "GlyNAC increased ATP production in PBMCs by 60% and improved mitochondrial membrane potential in a 24-week trial in older adults.",
+      "zh-TW": "老年受試者 24 週試驗中，GlyNAC 使周邊血單核細胞 ATP 生成增加 60%，並改善粒線體膜電位。"
+    },
+    "confidence": 0.85,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "7c00a1ccd15f",
+    "subject": "GlyNAC",
+    "predicate": "reduces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "GlyNAC lowered TNFalpha, IL-6, and CRP by 25-40% in aging trials, consistent with NRF2 activation and reduced oxidative stress.",
+      "zh-TW": "老化試驗中，GlyNAC 使 TNFα、IL-6 與 CRP 下降 25–40%，與 NRF2 活化及氧化壓力降低一致。"
+    },
+    "confidence": 0.85,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "d3bad2620da3",
+    "subject": "GlyNAC",
+    "predicate": "improves",
+    "object": "Insulin Sensitivity",
+    "context": {
+      "en-US": "GlyNAC reduced HOMA-IR by 30% and improved glucose handling in older adults and type 2 diabetes patients.",
+      "zh-TW": "GlyNAC 使 HOMA-IR 下降 30%，並改善老年受試者與第二型糖尿病患者之葡萄糖代謝。"
+    },
+    "confidence": 0.85,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "13399c1dc9ce",
+    "subject": "GlyNAC",
+    "predicate": "buffers",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Reducing systems maintain adrenochrome in its reduced (leuco) form, which is less redox-active; DT-diaphorase 2-electron reduction of adrenochrome to leukoaminochrome is proposed as a protective, detoxifying mechanism (PMID 2113029), and aminochromes deplete cellular glutathione through sulfhydryl interactions (PMID 2665188). GlyNAC-driven glutathione elevation therefore buffers the adrenochrome/leuco-adrenochrome equilibrium toward the reduced, less toxic form. The quantitative 2-fold-GSH shift in the Mitohormetic Redox-Relay model remains theoretical.",
+      "zh-TW": "還原系統將腎上腺素紅維持於其還原態（白形式），後者氧化還原活性較低；DT-diaphorase 將腎上腺素紅二電子還原為白胺基色體被視為一種保護性解毒機制（PMID 2113029），而胺基色體會透過與硫醇基交互作用耗竭細胞穀胱甘肽（PMID 2665188）。因此 GlyNAC 提升的穀胱甘肽將腎上腺素紅／白腎上腺素紅平衡推向還原、低毒的形式。粒線體激素性氧化還原繼電器模型中「2 倍 GSH 偏移」的具體數值仍屬理論推測。"
+    },
+    "confidence": 0.8,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:18:36Z"
+  },
+  {
+    "id": "92ee95f523a3",
+    "subject": "GlyNAC",
+    "predicate": "synergizes_with",
+    "object": "Carbazochrome",
+    "context": {
+      "en-US": "In the SASP-remodeling aminochrome complex (SRAC) strategy, GlyNAC supplies the reductive glutathione buffer while carbazochrome (a stabilized adrenochrome derivative) supplies the mitohormetic trigger, expanding the safety margin of the hormetic pulse. This is a protocol-design hypothesis (combo-therapy/SRAC documents), NOT directly established in primary biomedical literature; it rests on the separately grounded edges GlyNAC -> Glutathione and Carbazochrome -> Adrenochrom (is_derivative_of).",
+      "zh-TW": "在 SASP 重塑胺基色體複合物（SRAC）策略中，GlyNAC 提供穀胱甘肽還原緩衝，而卡巴可羅（穩定化的腎上腺素紅衍生物）提供粒線體激素性觸發，擴大激素性脈衝的安全邊際。這是一項協定設計假說（combo-therapy／SRAC 文件），並非直接由基礎醫學文獻確立；其依據來自各自獨立佐證的 GlyNAC → 穀胱甘肽 與 卡巴可羅 → 腎上腺素紅（is_derivative_of）邊。"
+    },
+    "confidence": 0.5,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:18:36Z"
+  },
+  {
+    "id": "02601e321b46",
+    "subject": "GlyNAC",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "The NAC moiety acts as a weak electrophile that activates NRF2 signaling, inducing phase-2 antioxidant enzymes independently of glutathione elevation.",
+      "zh-TW": "NAC 成分作為弱親電子試劑活化 NRF2 訊號，在穀胱甘肽提升之外獨立誘導第二相抗氧化酵素。"
+    },
+    "confidence": 0.75,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "611779566307",
+    "subject": "N-Acetylcysteine",
+    "predicate": "replenishes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "N-acetylcysteine replenishes the cysteine pool and raises glutathione 15-30% alone, plateauing as glycine becomes co-limiting - the rationale for combining it with glycine as GlyNAC.",
+      "zh-TW": "N-乙醯半胱胺酸補充半胱胺酸庫，單用提升穀胱甘肽 15–30%，因甘胺酸成為共同限制因子而進入瓶頸——這正是與甘胺酸組成 GlyNAC 的依據。"
+    },
+    "confidence": 0.9,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "0ab0275d677a",
+    "subject": "N-Acetylcysteine",
+    "predicate": "reduces",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "As a glutathione precursor and direct reducing agent, N-acetylcysteine lowers oxidative stress across multiple tissues.",
+      "zh-TW": "作為穀胱甘肽前體與直接還原劑，N-乙醯半胱胺酸在多種組織中降低氧化壓力。"
+    },
+    "confidence": 0.85,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "57ce58e9b6ff",
+    "subject": "Adrenochrome",
+    "predicate": "redox_cycles_at",
+    "object": "Complex I",
+    "context": {
+      "en-US": "Bovine heart submitochondrial particles show Complex I reduces adrenochrome to its semiquinone, which auto-oxidizes to superoxide, closing a redox cycle that amplifies ROS (Genova et al., Arch Biochem Biophys 2006, PMID 16487923; Bindoli et al., BBA Bioenergetics 1990, PMID 2158818). Adrenochrome is therefore an electron acceptor at Complex I.",
+      "zh-TW": "牛心亞粒線體顆粒顯示 Complex I 將腎上腺素紅還原為其半醌，後者自氧化產生超氧陰離子，形成放大 ROS 的氧化還原循環（Genova 等，Arch Biochem Biophys 2006，PMID 16487923；Bindoli 等，BBA Bioenergetics 1990，PMID 2158818）。因此腎上腺素紅是 Complex I 上的電子受體。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - The Adrenochrome Pathway.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:18:36Z"
+  },
+  {
+    "id": "7b4a74889284",
+    "subject": "Carbazochrome",
+    "predicate": "is_derivative_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Carbazochrome is the monosemicarbazone of adrenochrome (adrenochrome monosemicarbazone; PubChem CID 2557), formed by condensing adrenochrome's quinone carbonyl with semicarbazide to stabilize the otherwise labile molecule (US Patent 2506294; J Pharm Soc Jpn 1956). This stabilization reduces its redox activity relative to adrenochrome, so carbazochrome should NOT be assumed to redox-cycle at Complex I like adrenochrome.",
+      "zh-TW": "卡巴可羅是腎上腺素紅的一縮胺基脲（腎上腺素紅單縮胺基脲；PubChem CID 2557），由腎上腺素紅的醌羰基與縮胺基脲縮合而成，以穩定原本不穩定的分子（美國專利 2506294；日本藥學會誌 1956）。此穩定化降低了其相對於腎上腺素紅的氧化還原活性，因此不應假設卡巴可羅會像腎上腺素紅那樣在 Complex I 發生氧化還原循環。"
+    },
+    "confidence": 0.95,
+    "source_document": "Carbazochrome.md",
+    "created": "2026-08-25T04:18:36Z",
+    "updated": "2026-08-25T04:18:36Z"
   }
 ]

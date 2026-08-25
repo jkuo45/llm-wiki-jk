@@ -168,10 +168,10 @@
     "source": "task_output_ap1_trace_21_JUL_2026.md"
   },
   {
-    "id": "9c854f1917bd",
+    "id": "02638031e61c",
     "subject": "AP-1",
     "predicate": "co_regulates_with",
-    "object": "NF-kappaB",
+    "object": "NF-κB",
     "context": {
       "en-US": "AP-1 and NF-κB are co-regulators of inflammatory SASP genes. They share transcriptional targets including IL-6, IL-8, and TNFα.",
       "zh-TW": "AP-1 與 NF-κB 是發炎型 SASP 基因的共調節因子。它們共享包括 IL-6、IL-8 與 TNFα 在內的轉錄標的。"
@@ -700,10 +700,10 @@
     "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
   },
   {
-    "id": "73eea88d91b4",
+    "id": "72439b51311c",
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "NF-kappaB",
+    "object": "NF-κB",
     "context": {
       "en-US": "SIRT1 deacetylates RelA/p65 at Lys310, inhibiting NF-κB-dependent pro-inflammatory gene expression (TNF-α, IL-6, IL-1β). This is an established anti-inflammatory mechanism.",
       "zh-TW": "SIRT1 在 Lys310 去乙醯化 RelA/p65，抑制 NF-κB 依賴的促發炎基因表現（TNF-α、IL-6、IL-1β）。這是一個已確立的抗炎機制。"
@@ -2814,10 +2814,10 @@
     "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
   },
   {
-    "id": "5e64e3292e59",
+    "id": "6796e55d7179",
     "subject": "Ivermectin",
     "predicate": "suppresses",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "PAK1 facilitates NF-kB nuclear activation; ivermectin's PAK1 degradation therefore dampens NF-kB signaling. Because NF-kB is the master transcriptional regulator of the SASP, this overlaps with the senomorphic strategy — targeting SASP production without killing senescent cells.",
       "zh-TW": "PAK1 促進 NF-kB 核活化；ivermectin 的 PAK1 降解因此減弱 NF-kB 訊號。由於 NF-kB 是 SASP 的主控轉錄調節因子，這與 senomorphic 策略——標靶 SASP 產生而不殺死衰老細胞——重疊。"

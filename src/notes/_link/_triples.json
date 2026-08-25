@@ -5628,13 +5628,13 @@
     "updated": "2026-08-20T06:07:10Z"
   },
   {
-    "id": "825239a70060",
-    "subject": "NMN",
+    "id": "41261e88618b",
+    "subject": "Nicotinamide Mononucleotide",
     "predicate": "restores",
     "object": "Intestinal Stem Cell",
     "context": {
-      "en-US": "In intestinal stem cells, a high mtDNA mutation burden reduces LGR5+ cell function and organoid-forming capacity, mediated by ATF5-driven UPRmt activation, and this is reversible with NMN supplementation. NMN is an NAD+ precursor that restores NAD+ levels, thereby supporting sirtuin-dependent resilience and mitochondrial function in aged stem cell compartments. Alongside nicotinamide riboside, NMN represents a leading NAD+ repletion strategy for restoring stem cell regenerative potential and delaying senescence. The reversibility of mtDNA-mutation-associated stem cell dysfunction with NMN demonstrates that NAD+ replenishment can functionally counteract age-related mitochondrial decline.",
-      "zh-TW": "在腸道幹細胞中，高mtDNA突變負荷降低LGR5+細胞功能和類器官形成能力，由ATF5驅動的UPRmt激活介導，且可透過NMN補充逆轉。NMN是一種NAD+前體，可恢復NAD+水平，從而支持sirtuin依賴性恢復力和老年幹細胞 compartment 中的粒線體功能。與煙醯胺核糖苷並列，NMN是恢復幹細胞再生潛力和延緩衰老的領先NAD+補充策略。mtDNA突變相關幹細胞功能障礙對NMN的可逆性表明，NAD+補充可以在功能上對抗年齡相關的粒線體衰退。"
+      "en-US": "Nicotinamide mononucleotide (NMN), an NAD+ precursor, restores NAD+ in intestinal stem cells and reverses mtDNA-mutation-driven dysfunction via UPRmt, linking the NAD+ fuel line to stem-cell resilience.",
+      "zh-TW": "菸鹼醯胺單核苷酸（NMN）作為 NAD+ 前體，可恢復腸道幹細胞的 NAD+，並經 UPRmt 逆轉 mtDNA 突變驅動的功能障礙，將 NAD+ 燃料線與幹細胞韌性連結。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
@@ -7985,8 +7985,8 @@
     "predicate": "acts_in_parallel_with",
     "object": "GPX4",
     "context": {
-      "en-US": "FSP1 and GPX4 guard the same outcome — suppression of lethal lipid peroxidation — through independent chemistries and cofactor requirements. GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides; FSP1 is GSH-independent and maintains a preventive radical trap. Loss of either axis alone is survivable if the other is intact, so combined inhibition (e.g., iFSP1 + a GPX4 inhibitor) is strongly synergistic.",
-      "zh-TW": "FSP1 與 GPX4 守護同一結果——抑制致死的脂質過氧化——但透過各自獨立的化學機制與輔因子需求。GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物；FSP1 不依賴 GSH 並維持預防性的自由基陷阱。只要另一軸完整，單獨喪失任一軸都可存活，因此同時抑制兩者（例如 iFSP1 加上 GPX4 抑制劑）具有強烈協同效應。"
+      "en-US": "FSP1 and GPX4 guard the same outcome — suppression of lethal lipid peroxidation — through independent chemistries and cofactor requirements. GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides; FSP1 is GSH-independent and maintains a preventive radical trap. Loss of either axis alone is survivable if the other is intact, so combined inhibition (e.g., iFSP1 + a GPX4 inhibitor) is strongly synergistic. || GPX4 and FSP1 both suppress lethal lipid peroxidation but via independent chemistries: GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides, whereas FSP1 is GSH-independent and maintains a preventive ubiquinol radical trap. Loss of either axis alone is tolerable if the other is intact, so combined inhibition is strongly synergistic.",
+      "zh-TW": "FSP1 與 GPX4 守護同一結果——抑制致死的脂質過氧化——但透過各自獨立的化學機制與輔因子需求。GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物；FSP1 不依賴 GSH 並維持預防性的自由基陷阱。只要另一軸完整，單獨喪失任一軸都可存活，因此同時抑制兩者（例如 iFSP1 加上 GPX4 抑制劑）具有強烈協同效應。 || GPX4 與 FSP1 都抑制致死的脂質過氧化，但機制各自獨立：GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物，而 FSP1 不依賴 GSH 並維持預防性的泛醇自由基陷阱。只要另一軸完整，單獨喪失任一軸都可耐受，因此同時抑制兩者具有強烈協同效應。"
     },
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
