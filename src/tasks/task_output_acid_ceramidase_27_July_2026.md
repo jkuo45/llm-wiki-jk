@@ -18,6 +18,7 @@ tags:
   - enzyme
   - senolytic
 updated: 2026-08-22
+starred: true
 ---
 
 # Research Report: Acid Ceramidase in Ferroptosis & Cellular Senescence

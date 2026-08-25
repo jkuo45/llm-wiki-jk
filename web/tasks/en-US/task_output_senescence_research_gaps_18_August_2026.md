@@ -8,6 +8,7 @@ tags:
   - research-gaps
   - geroscience
   - literature-review
+starred: true
 ---
 
 # Research Gaps in Cellular Senescence Biology (Most Recent Documents)
@@ -158,62 +159,147 @@ Compiled 18 August 2026 via targeted web search (PubMed/DOI verification) agains
 
 ## Tier 1 — Direct Experimental / Mechanistic Fills (highest priority)
 
-| # | Gap addressed | Recommended paper | Why it fills the gap |
-|---|---|---|---|
-| 1 | **SAHF–SASP relationship & senescence heterogeneity (3D genome)** | **Olan I, et al. "HMGA1 orchestrates chromatin compartmentalization and sequesters genes into 3D networks coordinating senescence heterogeneity."** *Nat Commun.* 2024;15:6983. doi:10.1038/s41467-024-51153-8. PMID 39134516 | Experimental Hi-C/3D-network study of [[HMGA1]]-mediated compartmentalization in senescence; shows how 3D genome organization sequesters genes and coordinates senescence heterogeneity — the primary recent data directly addressing how SAHF-like compaction coexists with SASP euchromatin. |
-| 2 | **DNA hypomethylation → SASP loops + LINE-1 derepression (3D)** | **Dalgarno A, Evans SA, Kelsey MMG, et al. "Senescence-Associated Chromatin Rewiring Promotes Inflammation and Transposable Element Activation."** *bioRxiv* [Preprint]. 2025 Jun 17:2025.06.11.659151. doi:10.1101/2025.06.11.659151. PMID 40666907 | Highest-resolution (~2.75 kb) Hi-C maps of replicative senescence; ~6-fold increase in unique loops, hypomethylation-driven CTCF-independent loop formation, 67% of SASP genes within altered loops, and a LINE-1 structural hotspot (L1HS_14q23.2_3). Also shows quiescent controls are unexpectedly pro-inflammatory — a critical experimental-design caution. **Preprint — not yet peer-reviewed.** |
-| 3 | **mtDNA release during senescence (pore identity)** | **Victorelli S, et al. "Apoptotic stress causes mtDNA release during senescence and drives the SASP."** *Nature.* 2023;622:627-636. doi:10.1038/s41586-023-06621-4. PMID 37821702 | Definitive mechanistic fill for the mtDNA-release gap: [[BAX]]/[[BAK]] macropores (mitochondrial outer membrane permeabilization) — *not* mPTP — mediate mtDNA release driving cGAS-STING SASP in senescence; resolves part of the "which pore" question. |
-| 4 | **mtDNA release in postmitotic cells (VDAC1)** | **Li Y, et al. "mtDNA release promotes cGAS-STING activation and accelerated aging of postmitotic muscle cells."** *Cell Death Dis.* 2024;15:527. doi:10.1038/s41419-024-06863-8. PMID 39039044 | Fills the cell-type-specific pore question: [[VDAC1]] oligomerization (not BAX/BAK) releases mtDNA in Zmpste24-deficient postmitotic muscle; VBIT-4 (VDAC1 oligomerization inhibitor) blocks it — a direct counterpoint showing pore identity is trigger- and cell-type-dependent. |
-| 5 | **Extracellular mtDNA & immune heterogeneity (SASP amplification)** | **Lai P, et al. "Mitochondrial DNA released by senescent tumor cells enhances PMN-MDSC-driven immunosuppression through the cGAS-STING pathway."** *Immunity.* 2025. doi:10.1016/j.immuni.2025.03.005. PMID 40203808 | Connects senescent-cell mtDNA release to the immune microenvironment: senescent tumor cells release mtDNA (via extracellular vesicles) that drives [[Myeloid-Derived Suppressor Cells|PMN-MDSC]] immunosuppression through cGAS-STING — expands the mtDNA-DAMP gap beyond cell-autonomous SASP. |
-| 6 | **Nuclear cGAS noncanonical functions** | **Dvorkin S, et al. "New frontiers in the cGAS-STING intracellular DNA-sensing pathway."** *Immunity.* 2024:718-730. doi:10.1016/j.immuni.2024.02.019. PMID 38599167 | 2024 review by the Stetson lab covering nuclear cGAS–chromatin tethering, DDR, senescence, and aging — the most current synthesis of nuclear cGAS function filling the "further studies needed" gap. |
-| 7 | **Nuclear cGAS / mtDNA in senescence & aging (2026 state)** | **Tan S, et al. "The cGAS-STING pathway in senescence and aging-related diseases: mechanisms and therapeutic opportunities."** *Cell Commun Signal.* 2026:292. doi:10.1186/s12964-026-02855-7. PMID 41923153 | 2026 review consolidating cGAS-STING in senescence/aging biology and therapy — update layer for [[cGAS-STING Pathway]] covering both nuclear and cytosolic cGAS and mtDNA triggers. |
-| 8 | **SADS / pericentromeric heterochromatin (mechanism)** | **Mendez-Bermudez A, et al. "Selective pericentromeric heterochromatin dismantling caused by TP53 activation during senescence."** *Nucleic Acids Res.* 2022;50:7493-7510. doi:10.1093/nar/gkac603. PMID 35819196 | Direct molecular mechanism for [[Senescence-Associated Distension of Satellites|SADS]]: TP53 activation selectively dismantles pericentromeric heterochromatin at senescence onset — the best current mechanistic anchor for the SADS-universality gap. |
-| 9 | **SADS / heterochromatin loss & 3D genome (complement)** | **Zhang X, et al. "The loss of heterochromatin is associated with multiscale three-dimensional genome reorganization and aberrant transcription during cellular senescence."** *Genome Res.* 2021;31(7):1121-1135. doi:10.1101/gr.275235.121. PMID 34140314 | Genome-wide link between heterochromatin loss (including satellite regions), 3D reorganization, and aberrant transcription in senescence — complements #8 and the CCF/hypomethylation gaps. |
-| 10 | **TIS escape** | **Saleh T. "Therapy-induced senescence is finally escapable, what is next?"** *Cell Cycle.* 2024;23:713-721. doi:10.1080/15384101.2024.2364579. PMID 38879812 | Commentary consolidating breakthrough evidence that TIS cells can escape arrest and re-enter the cell cycle (tumor dormancy/recurrence); reframes TIS as escapable and argues for senolytic elimination of TIS cells — anchors the TIS-escape gap. |
-| 11 | **LINE-1 / NRTI senomorphic axis** | **Simon M, et al. "LINE1 Derepression in Aged Wild-Type and SIRT6-Deficient Mice Drives Inflammation."** *Cell Metab.* 2019;29:871-885.e5. doi:10.1016/j.cmet.2019.02.014. PMID 30853213 | Canonical mechanistic proof that [[LINE-1]] derepression drives age-related sterile inflammation and that NRTI treatment (lamivudine) suppresses it in mice — the experimental backbone for the LINE-1/NRTI senomorphic gap (no human NRTI trial published yet). |
-| 12 | **3D genome reorganization (review context)** | **Shaban HA, Gasser SM. "Dynamic 3D genome reorganization during senescence: defining cell states through chromatin."** *Cell Death Differ.* 2025;32:9-15. doi:10.1038/s41418-023-01197-y. PMID 37596440 | Authoritative review of 3D-genome changes across senescence types — contextual anchor for papers #1, #2, #8, #9 and the SAHF/CCF gaps. |
+### 1. SAHF–SASP relationship & senescence heterogeneity (3D genome)
+
+- **Paper:** Olan I, et al. "HMGA1 orchestrates chromatin compartmentalization and sequesters genes into 3D networks coordinating senescence heterogeneity." *Nat Commun.* 2024;15:6983. doi:10.1038/s41467-024-51153-8. PMID 39134516
+- **Why it fills the gap:** Experimental Hi-C/3D-network study of [[HMGA1]]-mediated compartmentalization in senescence; shows how 3D genome organization sequesters genes and coordinates senescence heterogeneity — the primary recent data directly addressing how SAHF-like compaction coexists with SASP euchromatin.
+
+### 2. DNA hypomethylation → SASP loops + LINE-1 derepression (3D)
+
+- **Paper:** Dalgarno A, Evans SA, Kelsey MMG, et al. "Senescence-Associated Chromatin Rewiring Promotes Inflammation and Transposable Element Activation." *bioRxiv* [Preprint]. 2025 Jun 17:2025.06.11.659151. doi:10.1101/2025.06.11.659151. PMID 40666907
+- **Why it fills the gap:** Highest-resolution (~2.75 kb) Hi-C maps of replicative senescence; ~6-fold increase in unique loops, hypomethylation-driven CTCF-independent loop formation, 67% of SASP genes within altered loops, and a LINE-1 structural hotspot (L1HS_14q23.2_3). Also shows quiescent controls are unexpectedly pro-inflammatory — a critical experimental-design caution. **Preprint — not yet peer-reviewed.**
+
+### 3. mtDNA release during senescence (pore identity)
+
+- **Paper:** Victorelli S, et al. "Apoptotic stress causes mtDNA release during senescence and drives the SASP." *Nature.* 2023;622:627-636. doi:10.1038/s41586-023-06621-4. PMID 37821702
+- **Why it fills the gap:** Definitive mechanistic fill for the mtDNA-release gap: [[BAX]]/[[BAK]] macropores (mitochondrial outer membrane permeabilization) — *not* mPTP — mediate mtDNA release driving cGAS-STING SASP in senescence; resolves part of the "which pore" question.
+
+### 4. mtDNA release in postmitotic cells (VDAC1)
+
+- **Paper:** Li Y, et al. "mtDNA release promotes cGAS-STING activation and accelerated aging of postmitotic muscle cells." *Cell Death Dis.* 2024;15:527. doi:10.1038/s41419-024-06863-8. PMID 39039044
+- **Why it fills the gap:** Fills the cell-type-specific pore question: [[VDAC1]] oligomerization (not BAX/BAK) releases mtDNA in Zmpste24-deficient postmitotic muscle; VBIT-4 (VDAC1 oligomerization inhibitor) blocks it — a direct counterpoint showing pore identity is trigger- and cell-type-dependent.
+
+### 5. Extracellular mtDNA & immune heterogeneity (SASP amplification)
+
+- **Paper:** Lai P, et al. "Mitochondrial DNA released by senescent tumor cells enhances PMN-MDSC-driven immunosuppression through the cGAS-STING pathway." *Immunity.* 2025. doi:10.1016/j.immuni.2025.03.005. PMID 40203808
+- **Why it fills the gap:** Connects senescent-cell mtDNA release to the immune microenvironment: senescent tumor cells release mtDNA (via extracellular vesicles) that drives [[Myeloid-Derived Suppressor Cells|PMN-MDSC]] immunosuppression through cGAS-STING — expands the mtDNA-DAMP gap beyond cell-autonomous SASP.
+
+### 6. Nuclear cGAS noncanonical functions
+
+- **Paper:** Dvorkin S, et al. "New frontiers in the cGAS-STING intracellular DNA-sensing pathway." *Immunity.* 2024:718-730. doi:10.1016/j.immuni.2024.02.019. PMID 38599167
+- **Why it fills the gap:** 2024 review by the Stetson lab covering nuclear cGAS–chromatin tethering, DDR, senescence, and aging — the most current synthesis of nuclear cGAS function filling the "further studies needed" gap.
+
+### 7. Nuclear cGAS / mtDNA in senescence & aging (2026 state)
+
+- **Paper:** Tan S, et al. "The cGAS-STING pathway in senescence and aging-related diseases: mechanisms and therapeutic opportunities." *Cell Commun Signal.* 2026:292. doi:10.1186/s12964-026-02855-7. PMID 41923153
+- **Why it fills the gap:** 2026 review consolidating cGAS-STING in senescence/aging biology and therapy — update layer for [[cGAS-STING Pathway]] covering both nuclear and cytosolic cGAS and mtDNA triggers.
+
+### 8. SADS / pericentromeric heterochromatin (mechanism)
+
+- **Paper:** Mendez-Bermudez A, et al. "Selective pericentromeric heterochromatin dismantling caused by TP53 activation during senescence." *Nucleic Acids Res.* 2022;50:7493-7510. doi:10.1093/nar/gkac603. PMID 35819196
+- **Why it fills the gap:** Direct molecular mechanism for [[Senescence-Associated Distension of Satellites|SADS]]: TP53 activation selectively dismantles pericentromeric heterochromatin at senescence onset — the best current mechanistic anchor for the SADS-universality gap.
+
+### 9. SADS / heterochromatin loss & 3D genome (complement)
+
+- **Paper:** Zhang X, et al. "The loss of heterochromatin is associated with multiscale three-dimensional genome reorganization and aberrant transcription during cellular senescence." *Genome Res.* 2021;31(7):1121-1135. doi:10.1101/gr.275235.121. PMID 34140314
+- **Why it fills the gap:** Genome-wide link between heterochromatin loss (including satellite regions), 3D reorganization, and aberrant transcription in senescence — complements #8 and the CCF/hypomethylation gaps.
+
+### 10. TIS escape
+
+- **Paper:** Saleh T. "Therapy-induced senescence is finally escapable, what is next?" *Cell Cycle.* 2024;23:713-721. doi:10.1080/15384101.2024.2364579. PMID 38879812
+- **Why it fills the gap:** Commentary consolidating breakthrough evidence that TIS cells can escape arrest and re-enter the cell cycle (tumor dormancy/recurrence); reframes TIS as escapable and argues for senolytic elimination of TIS cells — anchors the TIS-escape gap.
+
+### 11. LINE-1 / NRTI senomorphic axis
+
+- **Paper:** Simon M, et al. "LINE1 Derepression in Aged Wild-Type and SIRT6-Deficient Mice Drives Inflammation." *Cell Metab.* 2019;29:871-885.e5. doi:10.1016/j.cmet.2019.02.014. PMID 30853213
+- **Why it fills the gap:** Canonical mechanistic proof that [[LINE-1]] derepression drives age-related sterile inflammation and that NRTI treatment (lamivudine) suppresses it in mice — the experimental backbone for the LINE-1/NRTI senomorphic gap (no human NRTI trial published yet).
+
+### 12. 3D genome reorganization (review context)
+
+- **Paper:** Shaban HA, Gasser SM. "Dynamic 3D genome reorganization during senescence: defining cell states through chromatin." *Cell Death Differ.* 2025;32:9-15. doi:10.1038/s41418-023-01197-y. PMID 37596440
+- **Why it fills the gap:** Authoritative review of 3D-genome changes across senescence types — contextual anchor for papers #1, #2, #8, #9 and the SAHF/CCF gaps.
 
 ## Tier 2 — Biomarkers, Human Cohorts & Clinical Trials
 
-| # | Gap addressed | Recommended paper | Why it fills the gap |
-|---|---|---|---|
-| 13 | **No universal senescence marker (heterogeneity)** | **Anerillas C, et al. "SenCat: Cataloging human cell senescence through multi-omic profiling of multiple senescent primary cell types."** *Mol Cell.* 2026;86(13):2605-2616.e8. doi:10.1016/j.molcel.2026.05.017. PMID 42276073 | Landmark multi-omic catalog across 14 primary human cell types / 30+ senescence paradigms; shows no single marker is universal and defines cell-type-specific senescence signatures — the most direct experimental answer to the biomarker-universality gap (SenCat). |
-| 14 | **Circulating senescence signatures (clinical)** | **Olinger B, et al. "Circulating cell type senescence signatures track distinct dimensions of health status and trajectories in human longitudinal cohorts."** *Cell Rep.* 2026:117389. doi:10.1016/j.celrep.2026.117389. PMID 42276069 | Applications of the SenCat signatures to human longitudinal cohorts: circulating cell-type senescence signatures track health status/trajectories — first direct translational fill for the circulating-biomarker gap. |
-| 15 | **Single-cell senescence detection** | **Sanborn MA, et al. "Unveiling the cell-type-specific landscape of cellular senescence through single-cell transcriptomics using SenePy."** *Nat Commun.* 2025;16:1884. doi:10.1038/s41467-025-57047-7. PMID 39987255 | SenePy computational framework detects senescence programs in single-cell data across tissues/species — the tool layer for parsing senescence heterogeneity from existing atlases. |
-| 16 | **Senescence marker recommendations (consensus)** | **SenNet Biomarkers Working Group. "SenNet recommendations for detecting senescent cells in different tissues."** *Nat Rev Mol Cell Biol.* 2024;25(12):1001-1023. doi:10.1038/s41580-024-00738-8. PMID 38831121 | Consensus recommendations for senescence markers across 14 tissues (mouse/human) — fills the "how to actually detect senescent cells in tissues" gap and anchors the biomarker theme. |
-| 17 | **Computational senescence atlas (resource)** | **Li S, et al. "Advancing biological understanding of cellular senescence with computational multiomics."** *Nat Genet.* 2025:2381-2394. doi:10.1038/s41588-025-02314-y. PMID 40954249 | SenNet multi-omics analytics overview (data portal, signatures, standardization) — resource anchor for the [[SenNet]] initiative and its outputs. |
-| 18 | **Underpowered D+Q AD trials (primary data)** | **Gonzales MM, et al. "Senolytic therapy in mild Alzheimer's disease: a phase 1 feasibility trial."** *Nat Med.* 2023:2481-2488. doi:10.1038/s41591-023-02543-w. PMID 37679434 | SToMP-AD phase 1: D+Q safety/feasibility in 5 early AD patients; no cognition/MRI effects; dasatinib at the limit of quantitation in CSF — primary evidence documenting the underpowering flagged in the vault. |
-| 19 | **Underpowered D+Q AD trials (biomarker follow-up)** | **Garbarino VR, et al. "Evaluation of exploratory fluid biomarkers from a phase 1 senolytic trial in mild Alzheimer's disease."** *Neurotherapeutics.* 2025;22(4):e00591. doi:10.1016/j.neurot.2025.e00591. PMID 40274471 | Follow-up biomarker analysis (CSF/plasma) from SToMP-AD — documents which exploratory fluid biomarkers moved (or not) and defines the measurement toolkit for future powered trials. |
-| 20 | **Senolytics beyond D+Q (randomized phase 2)** | **Klier S, et al. "Safety and Efficacy of Senolytic UBX1325 in Diabetic Macular Edema."** *NEJM Evidence.* 2025:EVIDoa2400009. doi:10.1056/evidoa2400009. PMID 40261111 | Randomized phase 2 trial of the [[Bcl-xL]] inhibitor senolytic UBX1325 (foselutoclax) in diabetic macular edema — the most advanced non-D+Q senolytic clinical data, filling the "senolytics beyond pilot trials" gap. |
-| 21 | **Senolytic clinical modeling (fisetin OA)** | **Siewe N, Friedman A. "Modeling treatment of osteoarthritis with standard therapy and senolytic drugs."** *PLoS One.* 2025;20:e0332763. doi:10.1371/journal.pone.0332763. PMID 40982544 | Mathematical modeling of the randomized fisetin-in-OA trial (NCT04210986, Steadman Philippon) — quantifies intermittent senolytic scheduling alongside standard OA therapy; supports the intermittent-dosing design discussion. |
+### 13. No universal senescence marker (heterogeneity)
+
+- **Paper:** Anerillas C, et al. "SenCat: Cataloging human cell senescence through multi-omic profiling of multiple senescent primary cell types." *Mol Cell.* 2026;86(13):2605-2616.e8. doi:10.1016/j.molcel.2026.05.017. PMID 42276073
+- **Why it fills the gap:** Landmark multi-omic catalog across 14 primary human cell types / 30+ senescence paradigms; shows no single marker is universal and defines cell-type-specific senescence signatures — the most direct experimental answer to the biomarker-universality gap (SenCat).
+
+### 14. Circulating senescence signatures (clinical)
+
+- **Paper:** Olinger B, et al. "Circulating cell type senescence signatures track distinct dimensions of health status and trajectories in human longitudinal cohorts." *Cell Rep.* 2026:117389. doi:10.1016/j.celrep.2026.117389. PMID 42276069
+- **Why it fills the gap:** Applications of the SenCat signatures to human longitudinal cohorts: circulating cell-type senescence signatures track health status/trajectories — first direct translational fill for the circulating-biomarker gap.
+
+### 15. Single-cell senescence detection
+
+- **Paper:** Sanborn MA, et al. "Unveiling the cell-type-specific landscape of cellular senescence through single-cell transcriptomics using SenePy." *Nat Commun.* 2025;16:1884. doi:10.1038/s41467-025-57047-7. PMID 39987255
+- **Why it fills the gap:** SenePy computational framework detects senescence programs in single-cell data across tissues/species — the tool layer for parsing senescence heterogeneity from existing atlases.
+
+### 16. Senescence marker recommendations (consensus)
+
+- **Paper:** SenNet Biomarkers Working Group. "SenNet recommendations for detecting senescent cells in different tissues." *Nat Rev Mol Cell Biol.* 2024;25(12):1001-1023. doi:10.1038/s41580-024-00738-8. PMID 38831121
+- **Why it fills the gap:** Consensus recommendations for senescence markers across 14 tissues (mouse/human) — fills the "how to actually detect senescent cells in tissues" gap and anchors the biomarker theme.
+
+### 17. Computational senescence atlas (resource)
+
+- **Paper:** Li S, et al. "Advancing biological understanding of cellular senescence with computational multiomics." *Nat Genet.* 2025:2381-2394. doi:10.1038/s41588-025-02314-y. PMID 40954249
+- **Why it fills the gap:** SenNet multi-omics analytics overview (data portal, signatures, standardization) — resource anchor for the [[SenNet]] initiative and its outputs.
+
+### 18. Underpowered D+Q AD trials (primary data)
+
+- **Paper:** Gonzales MM, et al. "Senolytic therapy in mild Alzheimer's disease: a phase 1 feasibility trial." *Nat Med.* 2023:2481-2488. doi:10.1038/s41591-023-02543-w. PMID 37679434
+- **Why it fills the gap:** SToMP-AD phase 1: D+Q safety/feasibility in 5 early AD patients; no cognition/MRI effects; dasatinib at the limit of quantitation in CSF — primary evidence documenting the underpowering flagged in the vault.
+
+### 19. Underpowered D+Q AD trials (biomarker follow-up)
+
+- **Paper:** Garbarino VR, et al. "Evaluation of exploratory fluid biomarkers from a phase 1 senolytic trial in mild Alzheimer's disease." *Neurotherapeutics.* 2025;22(4):e00591. doi:10.1016/j.neurot.2025.e00591. PMID 40274471
+- **Why it fills the gap:** Follow-up biomarker analysis (CSF/plasma) from SToMP-AD — documents which exploratory fluid biomarkers moved (or not) and defines the measurement toolkit for future powered trials.
+
+### 20. Senolytics beyond D+Q (randomized phase 2)
+
+- **Paper:** Klier S, et al. "Safety and Efficacy of Senolytic UBX1325 in Diabetic Macular Edema." *NEJM Evidence.* 2025:EVIDoa2400009. doi:10.1056/evidoa2400009. PMID 40261111
+- **Why it fills the gap:** Randomized phase 2 trial of the [[Bcl-xL]] inhibitor senolytic UBX1325 (foselutoclax) in diabetic macular edema — the most advanced non-D+Q senolytic clinical data, filling the "senolytics beyond pilot trials" gap.
+
+### 21. Senolytic clinical modeling (fisetin OA)
+
+- **Paper:** Siewe N, Friedman A. "Modeling treatment of osteoarthritis with standard therapy and senolytic drugs." *PLoS One.* 2025;20:e0332763. doi:10.1371/journal.pone.0332763. PMID 40982544
+- **Why it fills the gap:** Mathematical modeling of the randomized fisetin-in-OA trial (NCT04210986, Steadman Philippon) — quantifies intermittent senolytic scheduling alongside standard OA therapy; supports the intermittent-dosing design discussion.
 
 ## Tier 3 — Therapeutic Landscape & Reviews
 
-| # | Gap addressed | Recommended paper | Why it fills the gap |
-|---|---|---|---|
-| 22 | **Senotherapies landscape (senolytics + senomorphics)** | **McHugh D, Durán I, Gil J. "Senescence as a therapeutic target in cancer and age-related diseases."** *Nat Rev Drug Discov.* 2025. doi:10.1038/s41573-024-01074-4. PMID 39548312 | 2025 authoritative review of senotherapy challenges/opportunities (selectivity, dosing, biomarkers, clinical trials) — anchor for the senolytic safety/intermittent-dosing and senomorphic themes. |
-| 23 | **Senolytics & senomorphics (mechanistic classes)** | **Saliev T, Singh PB. "Targeting Senescence: A Review of Senolytics and Senomorphics in Anti-Aging Interventions."** *Biomolecules.* 2025;15(6):860. doi:10.3390/biom15060860. PMID 40563501 | 2025 review of senolytic/senomorphic drug classes incl. epigenetic modulators — fills the model-independent senomorphic gap at review level with mechanistic framing. |
-| 24 | **cGAS-STING in neuroinflammation (therapeutic)** | **Dvorkin S, et al. (Immunity 2024)** as #6; **Tan S, et al. (Cell Commun Signal 2026)** as #7 | See Tier 1 — both double as therapeutic-landscape reviews for STING pharmacology. |
+### 22. Senotherapies landscape (senolytics + senomorphics)
+
+- **Paper:** McHugh D, Durán I, Gil J. "Senescence as a therapeutic target in cancer and age-related diseases." *Nat Rev Drug Discov.* 2025. doi:10.1038/s41573-024-01074-4. PMID 39548312
+- **Why it fills the gap:** 2025 authoritative review of senotherapy challenges/opportunities (selectivity, dosing, biomarkers, clinical trials) — anchor for the senolytic safety/intermittent-dosing and senomorphic themes.
+
+### 23. Senolytics & senomorphics (mechanistic classes)
+
+- **Paper:** Saliev T, Singh PB. "Targeting Senescence: A Review of Senolytics and Senomorphics in Anti-Aging Interventions." *Biomolecules.* 2025;15(6):860. doi:10.3390/biom15060860. PMID 40563501
+- **Why it fills the gap:** 2025 review of senolytic/senomorphic drug classes incl. epigenetic modulators — fills the model-independent senomorphic gap at review level with mechanistic framing.
+
+### 24. cGAS-STING in neuroinflammation (therapeutic)
+
+- **Paper:** Dvorkin S, et al. (Immunity 2024) as #6; Tan S, et al. (Cell Commun Signal 2026) as #7
+- **Why it fills the gap:** See Tier 1 — both double as therapeutic-landscape reviews for STING pharmacology.
 
 ## Coverage Summary Table
 
-| Gap (18 Aug list) | Status after these recommendations |
-|---|---|
-| SAHF–SASP necessity | Partially filled (Olan 2024; Shaban & Gasser 2025) — a definitive SAHF-ablation/in vivo necessity experiment is still missing |
-| DNA hypomethylation → enhancer/SASP activation | Partially filled (Dalgarno preprint: loop-level mechanism; hypomethylation–enhancer causality in vivo still untested) |
-| CCF formation & genome stability | **Unfilled** — no direct CCF-formation mechanism paper (DNA-SCARS→CCF transition, nuclear envelope rupture) located |
-| No universal senescence biomarker | **Filled at research level** (SenCat; SenNet recommendations; SenePy; SenNet multiomics) — clinical-grade single marker still open |
-| SASP composition/heterogeneity | **Filled** (SenCat multi-cell-type; Olinger circulating signatures; SenePy single-cell) |
-| mtDNA release pore identity | **Filled** (Victorelli BAX/BAK; Li VDAC1; Lai extracellular mtDNA) — trigger/cell-type specificity now better bounded but not exhausted |
-| Nuclear cGAS function | Partially filled (Dvorkin 2024; Tan 2026 reviews) — dedicated nuclear-cGAS mechanism in senescence still open |
-| Senolytic safety / intermittent dosing | Partially filled (UBX1325 phase 2; Siewe & Friedman modeling) — no intermittent-dosing RCT with biomarker endpoints |
-| Model-independent senomorphics | Partially filled (review level; apigenin preprint already in vault) — validated model-independent senomorphic still open |
-| TIS escape | **Filled at concept level** (Saleh 2024) — molecular biomarkers of escape still open |
-| OIS senolytic paradox | **Unfilled** — no dedicated experimental paper located; only note-level framing |
-| SADS universality | Partially filled (Mendez-Bermudez 2022; Zhang 2021) — systematic screen across inducers/cell types not yet published |
-| Underpowered D+Q AD trials | **Filled as evidence** (Gonzales 2023 + Garbarino 2025 document the underpowering) — larger powered trial results still not published |
-| LINE-1 / NRTI interventions | Partially filled (Simon 2019 canonical; Dalgarno preprint) — no human NRTI trial results located |
-| D+Q diabetic kidney disease trial | **Already covered** — [[Diabetic Kidney Disease]] documents NCT02848131 pilot; no newer DKD senolytic publication located (excluded to avoid duplication) |
+- **SAHF–SASP necessity** — Partially filled (Olan 2024; Shaban & Gasser 2025) — a definitive SAHF-ablation/in vivo necessity experiment is still missing
+- **DNA hypomethylation → enhancer/SASP activation** — Partially filled (Dalgarno preprint: loop-level mechanism; hypomethylation–enhancer causality in vivo still untested)
+- **CCF formation & genome stability** — **Unfilled** — no direct CCF-formation mechanism paper (DNA-SCARS→CCF transition, nuclear envelope rupture) located
+- **No universal senescence biomarker** — **Filled at research level** (SenCat; SenNet recommendations; SenePy; SenNet multiomics) — clinical-grade single marker still open
+- **SASP composition/heterogeneity** — **Filled** (SenCat multi-cell-type; Olinger circulating signatures; SenePy single-cell)
+- **mtDNA release pore identity** — **Filled** (Victorelli BAX/BAK; Li VDAC1; Lai extracellular mtDNA) — trigger/cell-type specificity now better bounded but not exhausted
+- **Nuclear cGAS function** — Partially filled (Dvorkin 2024; Tan 2026 reviews) — dedicated nuclear-cGAS mechanism in senescence still open
+- **Senolytic safety / intermittent dosing** — Partially filled (UBX1325 phase 2; Siewe & Friedman modeling) — no intermittent-dosing RCT with biomarker endpoints
+- **Model-independent senomorphics** — Partially filled (review level; apigenin preprint already in vault) — validated model-independent senomorphic still open
+- **TIS escape** — **Filled at concept level** (Saleh 2024) — molecular biomarkers of escape still open
+- **OIS senolytic paradox** — **Unfilled** — no dedicated experimental paper located; only note-level framing
+- **SADS universality** — Partially filled (Mendez-Bermudez 2022; Zhang 2021) — systematic screen across inducers/cell types not yet published
+- **Underpowered D+Q AD trials** — **Filled as evidence** (Gonzales 2023 + Garbarino 2025 document the underpowering) — larger powered trial results still not published
+- **LINE-1 / NRTI interventions** — Partially filled (Simon 2019 canonical; Dalgarno preprint) — no human NRTI trial results located
+- **D+Q diabetic kidney disease trial** — **Already covered** — [[Diabetic Kidney Disease]] documents NCT02848131 pilot; no newer DKD senolytic publication located (excluded to avoid duplication)
 
 ## Already Queued / Already Covered in the Vault
 

@@ -5,15 +5,15 @@
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [_link](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 24_AUG_2026 | 33 | 1681 | 1,032,069 | 9.19 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 24_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 24_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 24_AUG_2026 | 11 | 280 | 244,149 | 2.77 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 24_AUG_2026 | 2 | 44 | 25,881 | 0.46 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 24_AUG_2026 | 9 | 209 | 202,666 | 1.88 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 24_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 16_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 16_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 16_AUG_2026 | 11 | 280 | 244,149 | 2.77 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 16_AUG_2026 | 2 | 44 | 25,881 | 0.46 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 16_AUG_2026 | 9 | 209 | 202,666 | 1.88 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,999 | 0.98 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 24_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 24_AUG_2026 | 16 | 172 | 305,382 | 3.82 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 18_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 18_AUG_2026 | 16 | 172 | 305,382 | 3.82 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
 | **subtotal** | 24_AUG_2026 | **120** | **3121** | **2,486,428** | **26.24 MB** |
 <!-- END GENERATED: summary_table -->
@@ -248,9 +248,10 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (81 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (82 total)</strong> — click to expand</summary>
 
-- [`node_network_adrenochrome_24_AUG_2026/` task_output_adrenochrome_protocol_traces_round3_24_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md) [[src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md|wiki]] (24_AUG_2026 09:15 PM PDT)
+- [`node_network_adrenochrome_24_AUG_2026/` task_output_adrenochrome_protocol_traces_round3_24_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md) [[src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md|wiki]] (24_AUG_2026 09:33 PM PDT)
+- [`node_network_adrenochrome_24_AUG_2026/` task_output_adrenochrome_protocol_traces_round3_24_AUG_2026_zh-TW](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026_zh-TW.md) [[src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026_zh-TW.md|wiki]] (24_AUG_2026 09:33 PM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_adrenochrome_sirtuins_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md) [[src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_alphafold_report_NAD+_26_JUN_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md) [[src/tasks/task_output_alphafold_report_NAD+_26_JUN_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
