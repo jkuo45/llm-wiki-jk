@@ -154,7 +154,7 @@ datasetPanel.addEventListener('click', (e) => {
   }
 });
 document.addEventListener('click', (e) => {
-  if (!datasetPanel.contains(e.target) && !datasetBtn.contains(e.target)) {
+  if (!datasetPanel?.contains(e.target) && !datasetBtn?.contains(e.target)) {
     datasetPanel.classList.remove('visible');
     setActiveWindow(null);
   }
