@@ -4,15 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Articles — Index</title>
-<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, with en-US editions and zh-TW editions alongside.">
+<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, grouped by when they were created, with en-US editions and zh-TW editions alongside.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/index.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
 <script src="themes/theme-02/theme.js"></script>
 <script src="themes/theme-02/pages-core.js"></script>
 <style>
-.index {
-  padding: 28px 0 48px;
+.index { padding: 28px 0 48px; }
+
+.bucket-heading {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  margin: 34px 0 14px;
+}
+.bucket-heading:first-child { margin-top: 0; }
+.bucket-count {
+  font-family: var(--mono); font-size: 12px; color: var(--faint);
+  vertical-align: middle; margin-left: 8px;
 }
 
 .article-list {
@@ -89,6 +99,13 @@
 
 /* Badge base + fill/accent variants come from theme.css .badge.fill */
 
+/* Freshness badge mirrors the task outputs index buckets */
+.fresh { color: #15803d; }
+.recent { color: #b45309; }
+.old { color: var(--faint); }
+[data-theme="dark"] .fresh { color: #38c793; }
+[data-theme="dark"] .recent { color: #ffb020; }
+
 .empty-note {
   font-style: italic;
   color: var(--mute);
@@ -119,35 +136,68 @@
     return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  function relAge(created){
+    if (!created) return '';
+    const ms = Date.now() - new Date(created).getTime();
+    if (ms < 864e5) return 'today';
+    const days = Math.floor(ms / 864e5);
+    if (days < 7) return days + 'd';
+    if (days < 30) return Math.floor(days / 7) + 'w';
+    if (days < 365) return Math.floor(days / 30) + 'mo';
+    return (days / 365).toFixed(1) + 'y';
+  }
+  function bucket(created){
+    if (!created) return 2;
+    const days = (Date.now() - new Date(created).getTime()) / 864e5;
+    return days <= 7 ? 0 : days <= 30 ? 1 : 2;
+  }
+  const BUCKETS = [
+    ['Created this week', '本週建立', 'fresh'],
+    ['Created this month', '本月建立', 'recent'],
+    ['Older', '較早', 'old'],
+  ];
+
   fetch('../data/articles.json')
     .then(r => r.json())
     .then(data => {
       const articles = data
         .filter(a => a.active !== false && a.id !== 'articles-index' && a.langs && a.langs['en-US'])
-        .map(a => {
+        .map((a, ai) => {
           const en = a.langs['en-US'];
           const zh = a.langs['zh-TW'];
           return {
             id: a.id,
+            _idx: ai,
             display: en.title,
             starred: a.starred === true,
             zhTitle: zh ? zh.title : '',
             enPath: en.path.replace(/^pages\//, ''),
             zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
-            created: en.created || ''
+            created: en.created || '',
+            age: relAge(en.created || ''),
+            bucket: bucket(en.created || '')
           };
         })
         .sort((x, y) => (y.starred - x.starred) ||
           (y.created || '').localeCompare(x.created || ''));
 
-      list.innerHTML = articles.map((a, i) => `
-        <li class="article-card card ${ACCENTS[i % ACCENTS.length]}">
-          <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
-          <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${esc(a.display)}</a></h2>
-          <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${esc(a.zhTitle)}</a></p>
-          <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-          <p class="article-meta">created ${esc(a.created)}</p>
-        </li>`).join('');
+      let html = '';
+      BUCKETS.forEach(([label, zhLabel, cls], bi) => {
+        const group = articles.filter(a => a.bucket === bi);
+        if (!group.length) return;
+        html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
+                `<span class="bucket-count">${group.length}</span></h2><ul class="article-list">`;
+        html += group.map((a) => `
+          <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}">
+            <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
+            <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${esc(a.display)}</a></h2>
+            <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${esc(a.zhTitle)}</a></p>
+            <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
+            <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'created today' : `created ${esc(a.age)} ago`} (${esc(a.created)})</span></p>
+          </li>`).join('');
+        html += '</ul>';
+      });
+      list.innerHTML = html;
       emptyNote.hidden = articles.length > 0;
       if (!articles.length) emptyNote.textContent = 'No active articles found.';
 
