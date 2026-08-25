@@ -7,6 +7,7 @@ All indexes are built lazily and cached at module level.
 
 import logging
 import re
+from collections import OrderedDict
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -18,7 +19,12 @@ _MAX_EXCERPT = 600
 _MAX_DESCRIPTION = 1200
 
 _WIKI_INDEX: dict[str, dict] | None = None
-_TASK_INDEX: list[dict] | None = None
+# Task outputs are matched per query. We keep file paths (cheap) and lazily load
+# each file's text into a bounded LRU so a large src/tasks/ tree can't pin every
+# file's full text in memory forever (previously the whole index was loaded).
+_TASK_PATHS: list[Path] | None = None
+_TASK_TEXT_CACHE: "OrderedDict[Path, str]" = OrderedDict()
+_TASK_TEXT_CAP = 16
 
 _FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 _DESCRIPTION_RE = re.compile(r"(?m)^description:\s*(.*)$")
@@ -162,19 +168,35 @@ def match_wiki_node(node_id: str, label: str) -> dict | None:
     return None
 
 
+def _task_paths() -> list[Path]:
+    """Lazily list task-output files (paths only — cheap, cached once)."""
+    global _TASK_PATHS
+    if _TASK_PATHS is None:
+        _TASK_PATHS = (
+            sorted(TASKS_ROOT.glob("task_output_*.md"))
+            if TASKS_ROOT.is_dir()
+            else []
+        )
+    return _TASK_PATHS
+
+
+def _task_text(path: Path) -> str:
+    """Load a task file's body text, cached in a bounded LRU."""
+    text = _TASK_TEXT_CACHE.get(path)
+    if text is None:
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            text = ""
+        text = _FRONTMATTER_RE.sub("", text)
+        _TASK_TEXT_CACHE[path] = text
+        while len(_TASK_TEXT_CACHE) > _TASK_TEXT_CAP:
+            _TASK_TEXT_CACHE.popitem(last=False)
+    return text
+
+
 def search_task_outputs(label: str, limit: int = 3) -> list[dict]:
     """Find snippets mentioning the label across top-level task outputs."""
-    global _TASK_INDEX
-    if _TASK_INDEX is None:
-        _TASK_INDEX = []
-        if TASKS_ROOT.is_dir():
-            for path in sorted(TASKS_ROOT.glob("task_output_*.md")):
-                try:
-                    text = path.read_text(encoding="utf-8")
-                except OSError:
-                    continue
-                text = _FRONTMATTER_RE.sub("", text)
-                _TASK_INDEX.append({"path": str(path), "name": path.stem, "text": text})
     if not label:
         return []
     needle = re.compile(
@@ -182,8 +204,8 @@ def search_task_outputs(label: str, limit: int = 3) -> list[dict]:
         re.IGNORECASE,
     )
     found: list[dict] = []
-    for record in _TASK_INDEX:
-        text = record["text"]
+    for path in _task_paths():
+        text = _task_text(path)
         match = needle.search(text)
         if not match:
             continue
@@ -194,7 +216,7 @@ def search_task_outputs(label: str, limit: int = 3) -> list[dict]:
         snippet = snippet.strip("[]()|,;:-")
         if len(snippet) > 200:
             snippet = snippet[:200] + "..."
-        found.append({"file": record["name"], "snippet": snippet})
+        found.append({"file": path.stem, "snippet": snippet})
         if len(found) >= limit:
             break
     return found
