@@ -106,6 +106,39 @@
 [data-theme="dark"] .fresh { color: #38c793; }
 [data-theme="dark"] .recent { color: #ffb020; }
 
+/* Search bar — sticky so it stays reachable while scrolling buckets */
+.search-row {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 -4px 8px;
+  padding: 12px 4px;
+  background: var(--paper);
+}
+.search-row input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 9px 12px;
+}
+.search-row input:focus { outline: none; border-color: var(--oxblood); }
+.search-row input::placeholder { color: var(--faint); }
+.search-clear {
+  flex: none; width: 32px; height: 32px; line-height: 1;
+  font-size: 16px; color: var(--mute); background: var(--sheet);
+  border: 1px solid var(--rule); border-radius: 2px; cursor: pointer;
+}
+.search-clear:hover { color: var(--oxblood); border-color: var(--oxblood); }
+mark.search-hit { background: transparent; color: var(--oxblood); }
+
 .empty-note {
   font-style: italic;
   color: var(--mute);
@@ -121,7 +154,12 @@
 <body>
 <main class="index" id="content">
   <div class="wrap">
-    <ul class="article-list" id="articleList"></ul>
+    <div class="search-row" id="searchRow">
+      <input type="search" id="searchBox" placeholder="search articles… / 搜尋文章" autocomplete="off">
+      <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+    </div>
+    <div id="articleList"></div>
+    <p class="empty-note" id="noMatchNote" hidden></p>
     <p class="empty-note" id="emptyNote" hidden></p>
   </div>
 </main>
@@ -129,11 +167,40 @@
 <script>
 (function(){
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
+  const SEARCH_KEY = 'articles-index-search';
   const list = document.getElementById('articleList');
   const emptyNote = document.getElementById('emptyNote');
+  const noMatchNote = document.getElementById('noMatchNote');
+  const searchBox = document.getElementById('searchBox');
+  const searchClear = document.getElementById('searchClear');
+  /* Restore the query from a previous visit so returning from an article
+     keeps the active filter. */
+  try {
+    searchBox.value = sessionStorage.getItem(SEARCH_KEY) || '';
+  } catch { /* storage unavailable */ }
 
   function esc(s){
     return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function escRe(s){
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  /* Escape each split part so matches are highlighted on raw text (never
+     inside HTML entities), then wrap matched parts in <mark>. */
+  function highlight(text, tokens){
+    if (!tokens.length) return esc(text);
+    const re = new RegExp('(' + tokens.map(escRe).join('|') + ')', 'gi');
+    return text.split(re)
+      .map((part, i) => i % 2 ? '<mark class="search-hit">' + esc(part) + '</mark>' : esc(part))
+      .join('');
+  }
+  function parseQuery(q){
+    return q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  }
+  function matches(a, tokens){
+    if (!tokens.length) return true;
+    const hay = [a.display, a.zhTitle, a.desc, a.id].join('\n').toLowerCase();
+    return tokens.every(t => hay.includes(t));
   }
 
   function relAge(created){
@@ -172,6 +239,7 @@
             display: en.title,
             starred: a.starred === true,
             zhTitle: zh ? zh.title : '',
+            desc: en.description || '',
             enPath: en.path.replace(/^pages\//, ''),
             zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
             created: en.created || '',
@@ -182,23 +250,50 @@
         .sort((x, y) => (y.starred - x.starred) ||
           (y.created || '').localeCompare(x.created || ''));
 
-      let html = '';
-      BUCKETS.forEach(([label, zhLabel, cls], bi) => {
-        const group = articles.filter(a => a.bucket === bi);
-        if (!group.length) return;
-        html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
-                `<span class="bucket-count">${group.length}</span></h2><ul class="article-list">`;
-        html += group.map((a) => `
-          <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}">
-            <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
-            <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${esc(a.display)}</a></h2>
-            <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${esc(a.zhTitle)}</a></p>
-            <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-            <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'created today' : `created ${esc(a.age)} ago`} (${esc(a.created)})</span></p>
-          </li>`).join('');
-        html += '</ul>';
+      function render(){
+        const tokens = parseQuery(searchBox.value);
+        searchClear.hidden = !searchBox.value;
+        let shown = 0;
+        let html = '';
+        BUCKETS.forEach(([label, zhLabel, cls], bi) => {
+          const group = articles.filter(a => a.bucket === bi && matches(a, tokens));
+          if (!group.length) return;
+          shown += group.length;
+          html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
+                  `<span class="bucket-count">${group.length}</span></h2><ul class="article-list">`;
+          html += group.map((a) => `
+            <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}">
+              <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
+              <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
+              <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
+              <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
+              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'created today' : `created ${esc(a.age)} ago`} (${esc(a.created)})</span></p>
+            </li>`).join('');
+          html += '</ul>';
+        });
+        list.innerHTML = html;
+        noMatchNote.hidden = !(articles.length && !shown && tokens.length);
+        noMatchNote.textContent = `No articles match “${searchBox.value.trim()}” / 沒有符合的文章`;
+        try {
+          sessionStorage.setItem(SEARCH_KEY, searchBox.value);
+        } catch { /* storage unavailable */ }
+      }
+      render();
+
+      /* Debounced re-render on input; the query survives navigation via
+         sessionStorage so returning from an article keeps the filter. */
+      let debounceTimer = null;
+      searchBox.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(render, 150);
       });
-      list.innerHTML = html;
+      searchClear.addEventListener('click', () => {
+        searchBox.value = '';
+        clearTimeout(debounceTimer);
+        render();
+        searchBox.focus();
+      });
+
       emptyNote.hidden = articles.length > 0;
       if (!articles.length) emptyNote.textContent = 'No active articles found.';
 
