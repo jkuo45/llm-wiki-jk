@@ -715,7 +715,9 @@ export function animateCamera(targetPosition, lookAtTarget) {
 // sees. DOM labels (CSS2D) are excluded automatically.
 // ------------------------------------------------------------
 export const minimap = (() => {
-  const SIZE = 168;
+  // Rendered at the desktop size (220px) and CSS-scaled down on smaller
+  // viewports, so the backing store always has enough pixels to stay crisp.
+  const SIZE = 220;
   const CORE_ROLE = 'Core backbone';
   const MODES = ['community', 'degree', 'betweenness'];
   const MODE_LABEL = { community: 'Communities', degree: 'Degree', betweenness: 'Betweenness' };
