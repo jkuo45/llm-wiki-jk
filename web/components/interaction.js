@@ -7,7 +7,7 @@ import {
   container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeSegments,
   edgeList, edgePositions, edgePosAttr,
   edgeLabel, edgeLabelDiv, edgeOffColor, EDGE_ACCENT, setEdgeVisual, setEdgeFilter,
-  animateCamera, CAMERA_OFFSET, midpoint,
+  animateCamera, CAMERA_OFFSET, midpoint, requestRender,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
 } from './core.js';
@@ -392,6 +392,11 @@ function onMouseDrag(event) {
       }
       updateEdgesForNode(mesh);
     });
+
+    // Node positions changed outside the physics loop — mark the frame dirty
+    // so the main canvas and the minimap both track the drag (physics is off
+    // by default, so nothing else would trigger a redraw).
+    requestRender();
 
     tooltip.classList.remove('visible');
   }
