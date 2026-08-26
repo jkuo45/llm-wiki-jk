@@ -18,6 +18,32 @@ body {
 :root {
   --teal: #0F766E;
   --teal-hover: #0B5F59;
+
+  /* Palette token overrides — mirrors the :root block in three-graph.css.
+     Because the base sheet references these vars everywhere, components that
+     never got an explicit light override still theme correctly. Component-
+     specific rules below remain for cases where light needs a different
+     treatment, not just a different colour. */
+  --bg: #F6F3EC;
+  --surface: #FFFFFF;
+  --surface-raised: #FAF7F0;
+  --surface-sunken: #EFEAE0;
+  --line: #E2DCCE;
+  --line-strong: #CCC5B2;
+  --accent: #0F766E;
+  --link: #2563A8;
+  --link-bright: #0F766E;
+  --ink-hi: #22304A;
+  --ink: #33415C;
+  --ink-2: #3D4C63;
+  --ink-3: #4A5871;
+  --ink-4: #7C8698;
+  --ink-5: #7C8698;
+  --ink-6: #86909E;
+  --ink-7: #8B94A2;
+  --ink-8: #808A98;
+  --ink-9: #97A0AC;
+}
 }
 
 /* CSS2D labels on the graph canvas */
