@@ -743,10 +743,14 @@ export const minimap = (() => {
   miniRenderer.setSize(SIZE, SIZE, false);
   miniRenderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
 
-  // North-up ortho view: +x right, -z up on screen. Layer 1 keeps the mini
-  // content invisible to the main camera.
+  // Heading-following top-down view: the ortho camera sits above the graph
+  // centre, but its `up` vector tracks the main camera's horizontal viewing
+  // direction, so the map rotates as you orbit — your heading always points
+  // up-screen (GPS-style). Falls back to the last heading when looking
+  // straight down/up (no horizontal component).
   const miniCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, 1, 5000);
-  miniCamera.up.set(0, 0, -1);
+  const lastUp = new THREE.Vector3(0, 0, -1);
+  miniCamera.up.copy(lastUp);
   miniCamera.position.set(0, 1000, 0);
   miniCamera.lookAt(0, 0, 0);
   miniCamera.layers.enable(1);
@@ -964,6 +968,14 @@ export const minimap = (() => {
     miniCamera.left = -half; miniCamera.right = half;
     miniCamera.top = -half; miniCamera.bottom = half;
     miniCamera.position.set(center.x, 1000, center.z);
+    // Rotate the map with the current view: screen-up follows the main
+    // camera's horizontal forward direction (camera → orbit target).
+    const fwd = new THREE.Vector3().subVectors(t, p);
+    fwd.y = 0;
+    if (fwd.lengthSq() > 1e-6) {
+      lastUp.copy(fwd.normalize());
+    }
+    miniCamera.up.copy(lastUp);
     miniCamera.lookAt(center.x, 0, center.z);
     miniCamera.updateProjectionMatrix();
 
