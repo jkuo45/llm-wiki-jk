@@ -705,28 +705,186 @@ export function animateCamera(targetPosition, lookAtTarget) {
 
 // ------------------------------------------------------------
 // Minimap — label-free top-down overview (bottom-right)
-// Renders the same scene from an orthographic camera above the graph so the
-// global shape stays visible while navigating. An amber footprint line shows
-// where the main camera sits and what it aims at; it lives on layer 1, which
-// the main camera never sees. DOM labels (CSS2D) are excluded automatically.
+// A dedicated mini-scene (own points/lines geometry, updated from the live
+// node positions each render) so it can highlight graph structure three ways:
+//   • Community hulls — translucent convex hull per community (shape)
+//   • Backbone-only   — just edges touching a "Core backbone" node (skeleton)
+//   • Metric heat     — node tint by degree or betweenness (mass)
+// An amber footprint line shows where the main camera sits and what it aims
+// at; indicator + mini content live on layer 1, which the main camera never
+// sees. DOM labels (CSS2D) are excluded automatically.
 // ------------------------------------------------------------
 export const minimap = (() => {
   const SIZE = 168;
-  const el = document.createElement('canvas');
+  const CORE_ROLE = 'Core backbone';
+  const MODES = ['community', 'degree', 'betweenness'];
+  const MODE_LABEL = { community: 'Communities', degree: 'Degree', betweenness: 'Betweenness' };
+
+  const el = document.createElement('div');
   el.id = 'graph-minimap';
+  const canvas = document.createElement('canvas');
+  el.appendChild(canvas);
+  const controlsEl = document.createElement('div');
+  controlsEl.className = 'minimap-controls';
+  const modeBtn = document.createElement('button');
+  modeBtn.type = 'button';
+  modeBtn.className = 'minimap-mode-btn';
+  modeBtn.title = 'Minimap colouring';
+  const backBtn = document.createElement('button');
+  backBtn.type = 'button';
+  backBtn.className = 'minimap-backbone-btn';
+  backBtn.textContent = '⌁';
+  backBtn.title = 'Backbone-only edges';
+  controlsEl.append(modeBtn, backBtn);
+  el.appendChild(controlsEl);
   container.appendChild(el);
 
-  const miniRenderer = new THREE.WebGLRenderer({ canvas: el, antialias: true, alpha: true });
+  const miniRenderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
   miniRenderer.setSize(SIZE, SIZE, false);
   miniRenderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
 
-  // North-up ortho view: +x right, -z up on screen.
+  // North-up ortho view: +x right, -z up on screen. Layer 1 keeps the mini
+  // content invisible to the main camera.
   const miniCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, 1, 5000);
   miniCamera.up.set(0, 0, -1);
   miniCamera.position.set(0, 1000, 0);
   miniCamera.lookAt(0, 0, 0);
-  miniCamera.layers.enable(1); // see the indicator
+  miniCamera.layers.enable(1);
 
+  const miniScene = new THREE.Scene();
+  const layer1 = (o) => { o.layers.set(1); return o; };
+
+  // ---- Node points (one vertex per node; colours swapped per mode) ----
+  const nodes = RAW_NODES.filter((n) => nodeMap.has(n.id));
+  const nodeCount = nodes.length;
+  const positions = new Float32Array(nodeCount * 3);
+  const communityColors = new Float32Array(nodeCount * 3);
+  const degreeColors = new Float32Array(nodeCount * 3);
+  const betweennessColors = new Float32Array(nodeCount * 3);
+  const legendColor = new Map(LEGEND.map((l) => [l.cid, l.color]));
+  const tmpColor = new THREE.Color();
+
+  // Heat ramp for metric modes: muted steel → amber → hot red.
+  const HEAT_LOW = new THREE.Color('#5a6c8c');
+  const HEAT_MID = new THREE.Color('#E8A33D');
+  const HEAT_HIGH = new THREE.Color('#E4575E');
+
+  function heatColor(t) {
+    if (t < 0.6) return tmpColor.copy(HEAT_LOW).lerp(HEAT_MID, t / 0.6);
+    return tmpColor.copy(HEAT_MID).lerp(HEAT_HIGH, (t - 0.6) / 0.4);
+  }
+
+  const maxDegree = Math.max(...nodes.map((n) => n.degree || 0), 1);
+  const maxBetween = Math.max(...nodes.map((n) => n.betweenness || 0), 1e-12);
+  const isCore = nodes.map((n) => (n.roles || []).includes(CORE_ROLE));
+
+  nodes.forEach((n, i) => {
+    // Community colours come straight from the legend (matches main view).
+    tmpColor.set(legendColor.get(n.community) || '#888888');
+    communityColors.set([tmpColor.r, tmpColor.g, tmpColor.b], i * 3);
+    // Perceptual sqrt scaling — hubs pop without drowning the mid-field.
+    heatColor(Math.sqrt((n.degree || 0) / maxDegree));
+    degreeColors.set([tmpColor.r, tmpColor.g, tmpColor.b], i * 3);
+    heatColor(Math.sqrt((n.betweenness || 0) / maxBetween));
+    betweennessColors.set([tmpColor.r, tmpColor.g, tmpColor.b], i * 3);
+  });
+
+  const pointsGeo = new THREE.BufferGeometry();
+  pointsGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  const colorAttr = new THREE.BufferAttribute(communityColors, 3);
+  pointsGeo.setAttribute('color', colorAttr);
+  const nodePoints = layer1(new THREE.Points(pointsGeo, new THREE.PointsMaterial({
+    size: 3.5, sizeAttenuation: false, vertexColors: true, transparent: true, opacity: 0.95,
+  })));
+  miniScene.add(nodePoints);
+
+  // ---- Edges: full graph + backbone subset (either endpoint is core) ----
+  const edgePairs = [];
+  RAW_EDGES.forEach((e) => {
+    const a = nodeMap.get(e.from), b = nodeMap.get(e.to);
+    if (a && b) edgePairs.push([a.id, b.id]);
+  });
+
+  function makeEdgeLines(pairs, color, opacity) {
+    const arr = new Float32Array(pairs.length * 6);
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.BufferAttribute(arr, 3));
+    const lines = layer1(new THREE.LineSegments(geo, new THREE.LineBasicMaterial({
+      color, transparent: true, opacity,
+    })));
+    miniScene.add(lines);
+    return { lines, pairs, arr };
+  }
+
+  const allEdges = makeEdgeLines(edgePairs, 0x555f7a, 0.35);
+  const backboneEdges = makeEdgeLines(
+    edgePairs.filter(([a, b]) => {
+      const na = nodeMap.get(a), nb = nodeMap.get(b);
+      return (na.roles || []).includes(CORE_ROLE) || (nb.roles || []).includes(CORE_ROLE);
+    }),
+    0xE8A33D, 0.8
+  );
+  backboneEdges.lines.visible = false;
+
+  // ---- Community convex hulls (monotone chain over XZ, rebuilt per render) ----
+  const byCommunity = new Map();
+  nodes.forEach((n) => {
+    if (!byCommunity.has(n.community)) byCommunity.set(n.community, []);
+    byCommunity.get(n.community).push(n.id);
+  });
+
+  function convexHull(pts) {
+    if (pts.length < 3) return pts;
+    const p = [...pts].sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+    const lower = [];
+    for (const pt of p) {
+      while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], pt) <= 0) lower.pop();
+      lower.push(pt);
+    }
+    const upper = [];
+    for (let i = p.length - 1; i >= 0; i--) {
+      const pt = p[i];
+      while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], pt) <= 0) upper.pop();
+      upper.push(pt);
+    }
+    upper.pop(); lower.pop();
+    return lower.concat(upper);
+  }
+
+  const hullGroup = layer1(new THREE.Group());
+  miniScene.add(hullGroup);
+  const posOf = new Map(nodes.map((n) => [n.id, new THREE.Vector3()]));
+  const hullGeos = [];
+  byCommunity.forEach((ids, cid) => {
+    if (ids.length < 3) return;
+    const geo = new THREE.BufferGeometry();
+    hullGeos.push({ geo, ids, color: legendColor.get(cid) || '#888888' });
+  });
+
+  function refreshHulls() {
+    hullGeos.forEach(({ geo }) => { geo.setDrawRange(0, 0); });
+    hullGroup.children.forEach((c) => hullGroup.remove(c));
+    hullGeos.forEach(({ geo, ids, color }) => {
+      const pts = ids
+        .map((id) => posOf.get(id))
+        .filter(Boolean)
+        .map((v) => [v.x, v.z]);
+      const hull = convexHull(pts);
+      if (hull.length < 3) return;
+      const flat = [];
+      hull.forEach(([x, z]) => flat.push(x, 0, z));
+      flat.push(hull[0][0], 0, hull[0][1]); // close the loop
+      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(flat), 3));
+      geo.setDrawRange(0, hull.length + 1);
+      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
+        color: new THREE.Color(color), transparent: true, opacity: 0.35,
+      }));
+      hullGroup.add(line);
+    });
+  }
+
+  // ---- Camera footprint indicator (amber) ----
   const indicatorColor = 0xE8A33D;
   const indicator = new THREE.Group();
   const camLineGeo = new THREE.BufferGeometry().setFromPoints([
@@ -740,11 +898,60 @@ export const minimap = (() => {
   targetDot.rotation.x = -Math.PI / 2; // face up
   indicator.add(camLine, targetDot);
   indicator.traverse((o) => o.layers.set(1));
-  scene.add(indicator);
+  miniScene.add(indicator);
 
+  // ---- Controls wiring ----
+  let modeIdx = 0;
+  function applyMode() {
+    const mode = MODES[modeIdx];
+    modeBtn.textContent = MODE_LABEL[mode];
+    colorAttr.array = mode === 'community' ? communityColors
+      : mode === 'degree' ? degreeColors : betweennessColors;
+    colorAttr.needsUpdate = true;
+    hullGroup.visible = mode === 'community';
+    requestRender();
+  }
+  modeBtn.addEventListener('click', () => {
+    modeIdx = (modeIdx + 1) % MODES.length;
+    applyMode();
+  });
+  backBtn.addEventListener('click', () => {
+    state.minimapBackbone = !state.minimapBackbone;
+    backBtn.classList.toggle('active', state.minimapBackbone);
+    allEdges.lines.visible = !state.minimapBackbone;
+    backboneEdges.lines.visible = state.minimapBackbone;
+    requestRender();
+  });
+  applyMode();
+
+  // ---- Per-render update + draw ----
   const box = new THREE.Box3();
   const center = new THREE.Vector3();
   const sizeV = new THREE.Vector3();
+
+  function syncPositions() {
+    nodes.forEach((n, i) => {
+      const mesh = nodeObjects.get(n.id);
+      const v = mesh ? mesh.position : posOf.get(n.id);
+      if (!v) return;
+      posOf.get(n.id).copy(mesh ? mesh.position : v);
+      positions[i * 3] = v.x; positions[i * 3 + 1] = v.y; positions[i * 3 + 2] = v.z;
+    });
+    pointsGeo.attributes.position.needsUpdate = true;
+
+    const fill = ({ pairs, arr, lines }) => {
+      pairs.forEach(([a, b], j) => {
+        const va = posOf.get(a), vb = posOf.get(b);
+        const o = j * 6;
+        if (!va || !vb) { arr[o] = arr[o + 3] = NaN; return; }
+        arr[o] = va.x; arr[o + 1] = va.y; arr[o + 2] = va.z;
+        arr[o + 3] = vb.x; arr[o + 4] = vb.y; arr[o + 5] = vb.z;
+      });
+      lines.geometry.attributes.position.needsUpdate = true;
+    };
+    fill(allEdges);
+    fill(backboneEdges);
+  }
 
   function render() {
     box.makeEmpty();
@@ -760,6 +967,9 @@ export const minimap = (() => {
     miniCamera.lookAt(center.x, 0, center.z);
     miniCamera.updateProjectionMatrix();
 
+    syncPositions();
+    if (hullGroup.visible) refreshHulls();
+
     // Camera footprint: line from the main camera's XZ position to its target.
     const p = camera.position, t = controls.target;
     camLineGeo.setFromPoints([
@@ -768,7 +978,7 @@ export const minimap = (() => {
     ]);
     targetDot.position.set(t.x, 0, t.z);
 
-    miniRenderer.render(scene, miniCamera);
+    miniRenderer.render(miniScene, miniCamera);
   }
 
   return { render };
