@@ -736,6 +736,13 @@ export const minimap = (() => {
   backBtn.textContent = '⌁';
   backBtn.title = 'Backbone-only edges';
   controlsEl.append(modeBtn, backBtn);
+  // Fixed-orientation cue: the needle rotates opposite the map so it always
+  // points at world north (-Z), while the N stays upright and legible.
+  const northEl = document.createElement('div');
+  northEl.className = 'minimap-north';
+  northEl.innerHTML = '<div class="minimap-needle">▲</div><div class="minimap-n">N</div>';
+  el.appendChild(northEl);
+  const needleEl = northEl.querySelector('.minimap-needle');
   el.appendChild(controlsEl);
   container.appendChild(el);
 
@@ -970,6 +977,7 @@ export const minimap = (() => {
     miniCamera.position.set(center.x, 1000, center.z);
     // Rotate the map with the current view: screen-up follows the main
     // camera's horizontal forward direction (camera → orbit target).
+    const p = camera.position, t = controls.target;
     const fwd = new THREE.Vector3().subVectors(t, p);
     fwd.y = 0;
     if (fwd.lengthSq() > 1e-6) {
@@ -979,11 +987,15 @@ export const minimap = (() => {
     miniCamera.lookAt(center.x, 0, center.z);
     miniCamera.updateProjectionMatrix();
 
+    // North needle: world north (0,0,-1) in screen space sits at
+    // atan2(-up.x, -up.z) clockwise from screen-up — rotate the needle by
+    // exactly that so it always points at true north.
+    needleEl.style.transform = `rotate(${Math.atan2(-lastUp.x, -lastUp.z)}rad)`;
+
     syncPositions();
     if (hullGroup.visible) refreshHulls();
 
     // Camera footprint: line from the main camera's XZ position to its target.
-    const p = camera.position, t = controls.target;
     camLineGeo.setFromPoints([
       new THREE.Vector3(p.x, 0, p.z),
       new THREE.Vector3(t.x, 0, t.z),
