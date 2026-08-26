@@ -357,7 +357,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
    (#page-modal-overlay.light-theme is toggled by components/theme.js). */
 #page-modal-overlay.light-theme,
 #page-modal-overlay.light-theme #page-modal { background: #F6F3EC; }
-#page-modal-overlay.light-theme #page-modal-header { background: #FFFFFF; border-bottom-color: #E2DCCE; }
+#page-modal-overlay.light-theme #page-modal-header { background: #F6F3EC; border-bottom-color: var(--line); }
 #page-modal-overlay.light-theme #page-modal-header h2 { color: #22304A; }
 #page-modal-overlay.light-theme #page-modal-open,
 #page-modal-overlay.light-theme #page-modal-theme,
