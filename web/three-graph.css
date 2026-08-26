@@ -38,8 +38,8 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
    class — no per-label JS restyle needed on theme switch. */
 .node-label {
   color: var(--ink-hi);
-  font-size: 16px;
-  padding: 4px 10px;
+  font-size: 13px;
+  padding: 3px 8px;
   background: rgba(15, 15, 26, 0.8);
   border-radius: 4px;
   white-space: nowrap;
@@ -49,7 +49,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   text-align: center;
   line-height: 1.3;
 }
-.node-label .zh { color: var(--ink-3); font-size: 14px; }
+.node-label .zh { color: var(--ink-3); font-size: 11px; }
 .edge-label {
   color: #a0c4ff;
   font-size: 14px;

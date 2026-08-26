@@ -84,6 +84,17 @@ controls.maxDistance = 2000;
 controls.zoomSpeed = 1.2;
 controls.addEventListener('change', requestRender);
 
+// Screen-space label overlaps change with the camera, so recompute the
+// decluttering after each pan/zoom gesture settles (debounced — 'end' can
+// fire in bursts while damping). Skipped when a trace/selection owns labels.
+let declutterTimer = null;
+controls.addEventListener('end', () => {
+  clearTimeout(declutterTimer);
+  declutterTimer = setTimeout(() => {
+    if (!state.activeTrace && !state.selectedNode) setAllLabelVisibility();
+  }, 150);
+});
+
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
 scene.add(ambientLight);
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
@@ -500,6 +511,58 @@ export function updateStickyRings() {
 // ------------------------------------------------------------
 // Label visibility helpers
 // ------------------------------------------------------------
+
+// Rough on-screen half-extents (px) of a node's label box, matching the
+// 13px/11px CSS sizes in three-graph.css. Only used for overlap tests —
+// slight overestimates are fine since "some overlap is okay".
+function labelHalfExtents(nodeData) {
+  const hasZh = !!(TRANSLATIONS[nodeData.label] && TRANSLATIONS[nodeData.label] !== nodeData.label);
+  const hw = Math.min(nodeData.label.length, 14) * 3.4 + 8; // ~0.6 × font-size per char
+  const hh = hasZh ? 16 : 10;
+  return { hw, hh };
+}
+
+// Greedy screen-space decluttering: candidates (already gated by the degree
+// threshold) are kept in descending degree order; a label is dropped when its
+// projected box overlaps an already-kept one. The 0.85 shrink factor lets
+// near-misses through, so sparse areas keep every label and only crowded
+// clusters thin out.
+function declutteredLabelIds() {
+  const w = container.clientWidth;
+  const h = container.clientHeight;
+  const candidates = [];
+  labelObjects.forEach((label, id) => {
+    const nodeData = nodeMap.get(id);
+    const mesh = nodeObjects.get(id);
+    if (!state.showLabels || !nodeData || nodeData.degree < labelThreshold) return;
+    if (!mesh || !mesh.visible) return;
+    const v = mesh.position.clone().project(camera);
+    if (v.z > 1 || v.x < -1.2 || v.x > 1.2 || v.y < -1.2 || v.y > 1.2) return; // behind camera / far off-screen
+    const { hw, hh } = labelHalfExtents(nodeData);
+    candidates.push({
+      id,
+      degree: nodeData.degree,
+      x: (v.x * 0.5 + 0.5) * w,
+      y: (-v.y * 0.5 + 0.5) * h,
+      hw, hh,
+    });
+  });
+  candidates.sort((a, b) => b.degree - a.degree);
+  const kept = [];
+  const visible = new Set();
+  for (const c of candidates) {
+    const clash = kept.some((k) =>
+      Math.abs(k.x - c.x) < (k.hw + c.hw) * 0.85 &&
+      Math.abs(k.y - c.y) < (k.hh + c.hh)
+    );
+    if (!clash) {
+      kept.push(c);
+      visible.add(c.id);
+    }
+  }
+  return visible;
+}
+
 export function setLabelVisibility(visibleIds) {
   labelObjects.forEach((label, id) => {
     const mesh = nodeObjects.get(id);
@@ -509,10 +572,9 @@ export function setLabelVisibility(visibleIds) {
 }
 
 export function setAllLabelVisibility() {
+  const visibleIds = declutteredLabelIds();
   labelObjects.forEach((label, id) => {
-    const nodeData = nodeMap.get(id);
-    const mesh = nodeObjects.get(id);
-    label.visible = state.showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
+    label.visible = visibleIds.has(id);
   });
   requestRender();
 }
