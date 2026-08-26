@@ -1029,12 +1029,12 @@
     "ast_hash": "411a119b9328208c32c594c92463c4de",
     "semantic_hash": "411a119b9328208c32c594c92463c4de"
   },
-  "notes/_link/CEBP\u03b1.md": {
+  "notes/_link/CEBPα.md": {
     "mtime": 1784699265.174936,
     "ast_hash": "4799ac719875d3b57523fbe2dcf90a52",
     "semantic_hash": "4799ac719875d3b57523fbe2dcf90a52"
   },
-  "notes/_link/CEBP\u03b2.md": {
+  "notes/_link/CEBPβ.md": {
     "mtime": 1784699265.1750262,
     "ast_hash": "8797851e7b68c56d8f8e705909ebb882",
     "semantic_hash": "8797851e7b68c56d8f8e705909ebb882"
@@ -2759,7 +2759,7 @@
     "ast_hash": "5db61817356eed46348402f93891e4e1",
     "semantic_hash": "5db61817356eed46348402f93891e4e1"
   },
-  "notes/_link/HIF-1\u03b1.md": {
+  "notes/_link/HIF-1α.md": {
     "mtime": 1784699265.253161,
     "ast_hash": "0a9eb4438d8516775dabab13cc6595c7",
     "semantic_hash": "0a9eb4438d8516775dabab13cc6595c7"
@@ -3124,7 +3124,7 @@
     "ast_hash": "c14ace5bbd171395b4fd2350f4e32d3b",
     "semantic_hash": "c14ace5bbd171395b4fd2350f4e32d3b"
   },
-  "notes/_link/IFN-\u03b2.md": {
+  "notes/_link/IFN-β.md": {
     "mtime": 1784699265.2668524,
     "ast_hash": "3e3cdaa9e8ea285e670f4170c6a209d9",
     "semantic_hash": "3e3cdaa9e8ea285e670f4170c6a209d9"
@@ -3194,12 +3194,12 @@
     "ast_hash": "1e1599f509103febdd7f059a0f9327a2",
     "semantic_hash": "1e1599f509103febdd7f059a0f9327a2"
   },
-  "notes/_link/IL-1\u03b1.md": {
+  "notes/_link/IL-1α.md": {
     "mtime": 1784699265.269256,
     "ast_hash": "7d789242135ccc490464a666f5e96a50",
     "semantic_hash": "7d789242135ccc490464a666f5e96a50"
   },
-  "notes/_link/IL-1\u03b2.md": {
+  "notes/_link/IL-1β.md": {
     "mtime": 1784762140.5952168,
     "ast_hash": "b23e13139e0b4655d44e2bbec4050a4a",
     "semantic_hash": "b23e13139e0b4655d44e2bbec4050a4a"
@@ -3409,12 +3409,12 @@
     "ast_hash": "a3c60ca01f53c514c3f1134727ad0cf3",
     "semantic_hash": "a3c60ca01f53c514c3f1134727ad0cf3"
   },
-  "notes/_link/I\u03baB\u03b1.md": {
+  "notes/_link/IκBα.md": {
     "mtime": 1784699265.27557,
     "ast_hash": "a4151916e3e37711cae0d5e81c36b251",
     "semantic_hash": "a4151916e3e37711cae0d5e81c36b251"
   },
-  "notes/_link/I\u03baB\u03b6.md": {
+  "notes/_link/IκBζ.md": {
     "mtime": 1784699265.2757132,
     "ast_hash": "87718776e5c1a4a23c4e47450300921c",
     "semantic_hash": "87718776e5c1a4a23c4e47450300921c"
@@ -4989,7 +4989,7 @@
     "ast_hash": "3330eec30bddd5858a41eb93db4060dd",
     "semantic_hash": "3330eec30bddd5858a41eb93db4060dd"
   },
-  "notes/_link/PGC-1\u03b1.md": {
+  "notes/_link/PGC-1α.md": {
     "mtime": 1784699265.3357856,
     "ast_hash": "c5edcf420f312452763ca1953862c6f8",
     "semantic_hash": "c5edcf420f312452763ca1953862c6f8"
@@ -5039,12 +5039,12 @@
     "ast_hash": "916dcbf3b445227253dffab2d64a6cc8",
     "semantic_hash": "916dcbf3b445227253dffab2d64a6cc8"
   },
-  "notes/_link/PPAR\u03b1.md": {
+  "notes/_link/PPARα.md": {
     "mtime": 1784699265.3379662,
     "ast_hash": "62342d5c04cc7ae42c7ecbb8875c74bc",
     "semantic_hash": "62342d5c04cc7ae42c7ecbb8875c74bc"
   },
-  "notes/_link/PPAR\u03b3.md": {
+  "notes/_link/PPARγ.md": {
     "mtime": 1784699265.3381724,
     "ast_hash": "cbea3c3e42cadf3f6cf7c1aa066a1511",
     "semantic_hash": "cbea3c3e42cadf3f6cf7c1aa066a1511"
@@ -6104,7 +6104,7 @@
     "ast_hash": "623fb13fc21bfa6d4ee4fd901c66afbe",
     "semantic_hash": "623fb13fc21bfa6d4ee4fd901c66afbe"
   },
-  "notes/_link/TGF\u03b2.md": {
+  "notes/_link/TGFβ.md": {
     "mtime": 1784699265.3885057,
     "ast_hash": "87e7d91a26ab9c9161117940afcb1965",
     "semantic_hash": "87e7d91a26ab9c9161117940afcb1965"
@@ -6159,7 +6159,7 @@
     "ast_hash": "f3729450eb2deaca27df17bcd9b32580",
     "semantic_hash": "f3729450eb2deaca27df17bcd9b32580"
   },
-  "notes/_link/TNF\u03b1.md": {
+  "notes/_link/TNFα.md": {
     "mtime": 1784699265.3924594,
     "ast_hash": "4e4a62890a67701fcc6d68ef9610d582",
     "semantic_hash": "4e4a62890a67701fcc6d68ef9610d582"
@@ -6984,7 +6984,7 @@
     "ast_hash": "fa8c22bc9fcdd4c9f4ccb1964ba7a8f3",
     "semantic_hash": "fa8c22bc9fcdd4c9f4ccb1964ba7a8f3"
   },
-  "notes/_link/\u03b3H2AX.md": {
+  "notes/_link/γH2AX.md": {
     "mtime": 1784699265.460941,
     "ast_hash": "a17a282d3d5d175ab9afafcda46e391b",
     "semantic_hash": "a17a282d3d5d175ab9afafcda46e391b"
@@ -7564,7 +7564,7 @@
     "ast_hash": "a654519061e404d632f7feac7e0419d6",
     "semantic_hash": "a654519061e404d632f7feac7e0419d6"
   },
-  "notes/adrenochrome/Interleukin 1\u03b2.md": {
+  "notes/adrenochrome/Interleukin 1β.md": {
     "mtime": 1784699265.4878385,
     "ast_hash": "025699e76a2ae753033d77a2496e8553",
     "semantic_hash": "025699e76a2ae753033d77a2496e8553"
@@ -7774,7 +7774,7 @@
     "ast_hash": "64c7308cd7ffb99bdb382368e6d1221c",
     "semantic_hash": "64c7308cd7ffb99bdb382368e6d1221c"
   },
-  "notes/adrenochrome/NF-\u03baB.md": {
+  "notes/adrenochrome/NF-κB.md": {
     "mtime": 1784699265.4947832,
     "ast_hash": "934d727134dd82acbbfaa794e7bde82e",
     "semantic_hash": "934d727134dd82acbbfaa794e7bde82e"
@@ -7849,7 +7849,7 @@
     "ast_hash": "05d2a4f754d19eb54d4dcda47ace480e",
     "semantic_hash": "05d2a4f754d19eb54d4dcda47ace480e"
   },
-  "notes/adrenochrome/PGC1\u03b1.md": {
+  "notes/adrenochrome/PGC1α.md": {
     "mtime": 1784699265.4971783,
     "ast_hash": "79d2f1022a9f92a9638034f73018a960",
     "semantic_hash": "79d2f1022a9f92a9638034f73018a960"
@@ -7979,7 +7979,7 @@
     "ast_hash": "8ce45999ebec21567b7c6c1cc05d5e1a",
     "semantic_hash": "8ce45999ebec21567b7c6c1cc05d5e1a"
   },
-  "notes/adrenochrome/Retinoid X receptor \u03b1.md": {
+  "notes/adrenochrome/Retinoid X receptor α.md": {
     "mtime": 1784699265.5016794,
     "ast_hash": "dc2ec099da23e21a72781112b6d6a3ea",
     "semantic_hash": "dc2ec099da23e21a72781112b6d6a3ea"
@@ -8194,7 +8194,7 @@
     "ast_hash": "1054d0088d7f3806e3d66b4652510a73",
     "semantic_hash": "1054d0088d7f3806e3d66b4652510a73"
   },
-  "notes/adrenochrome/_document_ - Nicotinamide Riboside\u2014The Current State of Research and Therapeutic Uses.md": {
+  "notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md": {
     "mtime": 1784699265.512082,
     "ast_hash": "ef2082d5320e9f93bdc7d45fd2e8d6e0",
     "semantic_hash": "ef2082d5320e9f93bdc7d45fd2e8d6e0"
@@ -8274,7 +8274,7 @@
     "ast_hash": "ddc5fa1b6617b95fdac50519f0937720",
     "semantic_hash": "ddc5fa1b6617b95fdac50519f0937720"
   },
-  "notes/adrenochrome/eIF2\u03b1.md": {
+  "notes/adrenochrome/eIF2α.md": {
     "mtime": 1784699265.5221622,
     "ast_hash": "20df108031ed0cbef32ceab972b8503b",
     "semantic_hash": "20df108031ed0cbef32ceab972b8503b"
@@ -8684,7 +8684,7 @@
     "ast_hash": "9b23fd24972232a07b3dd4903f4fe364",
     "semantic_hash": "9b23fd24972232a07b3dd4903f4fe364"
   },
-  "notes/autophagy/GSK3\u03b2.md": {
+  "notes/autophagy/GSK3β.md": {
     "mtime": 1784699265.533556,
     "ast_hash": "62d24ae520cfead2bcd9ee9f7450f950",
     "semantic_hash": "62d24ae520cfead2bcd9ee9f7450f950"
@@ -8979,7 +8979,7 @@
     "ast_hash": "bf8d33ab8601a510b96d5d41f13e58a9",
     "semantic_hash": "bf8d33ab8601a510b96d5d41f13e58a9"
   },
-  "notes/autophagy/PGC1-\u03b1.md": {
+  "notes/autophagy/PGC1-α.md": {
     "mtime": 1784699265.550039,
     "ast_hash": "43d94a9e522081f9f24fa54ab69dbeba",
     "semantic_hash": "43d94a9e522081f9f24fa54ab69dbeba"
@@ -9229,12 +9229,12 @@
     "ast_hash": "7d673e552f0c63ad7300530ff4dc92a1",
     "semantic_hash": "7d673e552f0c63ad7300530ff4dc92a1"
   },
-  "notes/autophagy/TGF-\u03b2 Signaling.md": {
+  "notes/autophagy/TGF-β Signaling.md": {
     "mtime": 1784699265.5671887,
     "ast_hash": "3e264918171dcbe4b29355385ddb73f1",
     "semantic_hash": "3e264918171dcbe4b29355385ddb73f1"
   },
-  "notes/autophagy/TGF-\u03b2.md": {
+  "notes/autophagy/TGF-β.md": {
     "mtime": 1784699265.567269,
     "ast_hash": "2c2c95faef6b48cb698a8e8b8441fb45",
     "semantic_hash": "2c2c95faef6b48cb698a8e8b8441fb45"
@@ -9354,7 +9354,7 @@
     "ast_hash": "40028f4dbb32b5a1587780a1837cf029",
     "semantic_hash": "40028f4dbb32b5a1587780a1837cf029"
   },
-  "notes/autophagy/_document_ - Autophagy takes it all \u2013 autophagy inducers target immune aging.md": {
+  "notes/autophagy/_document_ - Autophagy takes it all – autophagy inducers target immune aging.md": {
     "mtime": 1784699265.5748436,
     "ast_hash": "4f1b583310075ad6738d217e8c3c52fa",
     "semantic_hash": "4f1b583310075ad6738d217e8c3c52fa"
@@ -9944,7 +9944,7 @@
     "ast_hash": "dc2187441d23178a1eedc5cba62f41f3",
     "semantic_hash": "dc2187441d23178a1eedc5cba62f41f3"
   },
-  "notes/cancer/HSP90\u03b2.md": {
+  "notes/cancer/HSP90β.md": {
     "mtime": 1784699265.6050549,
     "ast_hash": "fb2761b1f3b92b39a70b87ec0eeb4b62",
     "semantic_hash": "fb2761b1f3b92b39a70b87ec0eeb4b62"
@@ -9989,7 +9989,7 @@
     "ast_hash": "64c6b493673c12a9f6ea96eb8ff1eb85",
     "semantic_hash": "64c6b493673c12a9f6ea96eb8ff1eb85"
   },
-  "notes/cancer/IKK\u03b5.md": {
+  "notes/cancer/IKKε.md": {
     "mtime": 1784699265.6064782,
     "ast_hash": "c50eb1056b49652fd086e763f39eb344",
     "semantic_hash": "c50eb1056b49652fd086e763f39eb344"
@@ -10154,7 +10154,7 @@
     "ast_hash": "264b3c8db827819bf99f37da7dc5d566",
     "semantic_hash": "264b3c8db827819bf99f37da7dc5d566"
   },
-  "notes/cancer/NF\u03baB.md": {
+  "notes/cancer/NFκB.md": {
     "mtime": 1784699265.6130328,
     "ast_hash": "f7244b9e017d6857bdb25b65ec3aac3a",
     "semantic_hash": "f7244b9e017d6857bdb25b65ec3aac3a"
@@ -10259,17 +10259,17 @@
     "ast_hash": "561a157cf439e54620a01a8e7044bca2",
     "semantic_hash": "561a157cf439e54620a01a8e7044bca2"
   },
-  "notes/cancer/PKC\u03b4.md": {
+  "notes/cancer/PKCδ.md": {
     "mtime": 1784699265.617868,
     "ast_hash": "24e3ed0764fb7f459e26a48d729c6217",
     "semantic_hash": "24e3ed0764fb7f459e26a48d729c6217"
   },
-  "notes/cancer/PKC\u03b6.md": {
+  "notes/cancer/PKCζ.md": {
     "mtime": 1784699265.6179566,
     "ast_hash": "03f7d129fbe15732a1182c4fc629da53",
     "semantic_hash": "03f7d129fbe15732a1182c4fc629da53"
   },
-  "notes/cancer/PKC\u03b9.md": {
+  "notes/cancer/PKCι.md": {
     "mtime": 1784699265.6180375,
     "ast_hash": "dc6eef247a0680bc23f7b9ceb30f123b",
     "semantic_hash": "dc6eef247a0680bc23f7b9ceb30f123b"
@@ -10289,7 +10289,7 @@
     "ast_hash": "d521e4ccc73289933999e2da063b722a",
     "semantic_hash": "d521e4ccc73289933999e2da063b722a"
   },
-  "notes/cancer/PP1\u03b1.md": {
+  "notes/cancer/PP1α.md": {
     "mtime": 1784699265.6188436,
     "ast_hash": "740936f4ebd9d85ec318142335c88e67",
     "semantic_hash": "740936f4ebd9d85ec318142335c88e67"
@@ -10419,7 +10419,7 @@
     "ast_hash": "5e6472c53abaec290a27085d8cf2bff4",
     "semantic_hash": "5e6472c53abaec290a27085d8cf2bff4"
   },
-  "notes/cancer/Satoshi \u014cmura.md": {
+  "notes/cancer/Satoshi Ōmura.md": {
     "mtime": 1784699265.623068,
     "ast_hash": "cf8a8a3fa6176d5f6cf75921e64ad445",
     "semantic_hash": "cf8a8a3fa6176d5f6cf75921e64ad445"
@@ -10469,7 +10469,7 @@
     "ast_hash": "741021a4b4c977ed480d233302f526d7",
     "semantic_hash": "741021a4b4c977ed480d233302f526d7"
   },
-  "notes/cancer/TGF-\u03b23.md": {
+  "notes/cancer/TGF-β3.md": {
     "mtime": 1784699265.6240828,
     "ast_hash": "5d989a01ee23a5258ed93f3733971be1",
     "semantic_hash": "5d989a01ee23a5258ed93f3733971be1"
@@ -10594,7 +10594,7 @@
     "ast_hash": "c9331b2fe4c9ca7258a03cb9202f8d55",
     "semantic_hash": "c9331b2fe4c9ca7258a03cb9202f8d55"
   },
-  "notes/cancer/_document_ - Ivermectin, \u2018Wonder drug\u2019 from Japan the human use perspective.md": {
+  "notes/cancer/_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md": {
     "mtime": 1784699265.6291857,
     "ast_hash": "268245e08ebcc127d65c829e3b017099",
     "semantic_hash": "268245e08ebcc127d65c829e3b017099"
@@ -10784,7 +10784,7 @@
     "ast_hash": "13ec40215134a4365404212a5d7fd7f4",
     "semantic_hash": "13ec40215134a4365404212a5d7fd7f4"
   },
-  "notes/comt/CamKII\u03b1.md": {
+  "notes/comt/CamKIIα.md": {
     "mtime": 1784699265.6363854,
     "ast_hash": "f0c16c9c17df84253af2e40b2cf2fc62",
     "semantic_hash": "f0c16c9c17df84253af2e40b2cf2fc62"
@@ -11839,7 +11839,7 @@
     "ast_hash": "1d4aef142e1b1bd62d85785f4c2aeb00",
     "semantic_hash": "1d4aef142e1b1bd62d85785f4c2aeb00"
   },
-  "notes/epigenetics/_document_ - Epigenetic alterations\u2014The silent indicator for early aging and age\u2010associated health\u2010risks.md": {
+  "notes/epigenetics/_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md": {
     "mtime": 1784699265.701559,
     "ast_hash": "6349b2dfe3889185b2d5c4c6326774bc",
     "semantic_hash": "6349b2dfe3889185b2d5c4c6326774bc"
@@ -12399,7 +12399,7 @@
     "ast_hash": "586d85bd584598097a4369b85d1eca7f",
     "semantic_hash": "586d85bd584598097a4369b85d1eca7f"
   },
-  "notes/oxidative_stress/LXR\u03b1.md": {
+  "notes/oxidative_stress/LXRα.md": {
     "mtime": 1784699265.7893863,
     "ast_hash": "8f8cf940dec4e53766fb4d7012d35ce1",
     "semantic_hash": "8f8cf940dec4e53766fb4d7012d35ce1"
@@ -12779,7 +12779,7 @@
     "ast_hash": "6f26e0fbe4058f66b3f6877a3a15c875",
     "semantic_hash": "6f26e0fbe4058f66b3f6877a3a15c875"
   },
-  "notes/senescence/_document_ - Senolytic Treatment With Fisetin Reverses Age\u2010Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12.md": {
+  "notes/senescence/_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12.md": {
     "mtime": 1784699265.8118353,
     "ast_hash": "56d03aa8d87eb785df4bdc094c67148a",
     "semantic_hash": "56d03aa8d87eb785df4bdc094c67148a"
@@ -12899,7 +12899,7 @@
     "ast_hash": "c13247b78987a050c437cf467e4ab412",
     "semantic_hash": "c13247b78987a050c437cf467e4ab412"
   },
-  "notes/sirtuins/CaMKK\u03b2.md": {
+  "notes/sirtuins/CaMKKβ.md": {
     "mtime": 1784699265.8194344,
     "ast_hash": "539f7e0216500402b8d6d6ac7b0e6c17",
     "semantic_hash": "539f7e0216500402b8d6d6ac7b0e6c17"
@@ -13034,7 +13034,7 @@
     "ast_hash": "aa0cd444f5062abbc8fcc2a03aa8bb67",
     "semantic_hash": "aa0cd444f5062abbc8fcc2a03aa8bb67"
   },
-  "notes/sirtuins/HNF4\u03b1.md": {
+  "notes/sirtuins/HNF4α.md": {
     "mtime": 1784699265.8244383,
     "ast_hash": "55af294ac0d8449ab4176ee07f581f92",
     "semantic_hash": "55af294ac0d8449ab4176ee07f581f92"
@@ -13199,7 +13199,7 @@
     "ast_hash": "82abf45ed02c660cdb6babe220683983",
     "semantic_hash": "82abf45ed02c660cdb6babe220683983"
   },
-  "notes/sirtuins/PGC-1\u03b1.md": {
+  "notes/sirtuins/PGC-1α.md": {
     "mtime": 1784699265.8310487,
     "ast_hash": "9e3b7cb94a804c0b3ea9bf784993212a",
     "semantic_hash": "9e3b7cb94a804c0b3ea9bf784993212a"
@@ -13434,7 +13434,7 @@
     "ast_hash": "05aa4fe7ce8cbc9f01ed39050817a966",
     "semantic_hash": "05aa4fe7ce8cbc9f01ed39050817a966"
   },
-  "notes/sirtuins/\u03b3-H2AX.md": {
+  "notes/sirtuins/γ-H2AX.md": {
     "mtime": 1784699265.8514278,
     "ast_hash": "df03772f20f5c6ebea8e39d0bae10c1d",
     "semantic_hash": "df03772f20f5c6ebea8e39d0bae10c1d"
@@ -13744,7 +13744,7 @@
     "ast_hash": "617803a5b165a57c0a3859d684893d32",
     "semantic_hash": "617803a5b165a57c0a3859d684893d32"
   },
-  "notes/_link/_document_ - Fisetin\u2014In Search of Better Bioavailability\u2014From Macro to Nano Modifications A Review.md": {
+  "notes/_link/_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review.md": {
     "mtime": 1784699265.439115,
     "ast_hash": "71ff9186cb6ba8780ae6108e1bc90179",
     "semantic_hash": "71ff9186cb6ba8780ae6108e1bc90179"
@@ -13794,7 +13794,7 @@
     "ast_hash": "1ed381c72fb0619fcffebd8e5ff76d74",
     "semantic_hash": "1ed381c72fb0619fcffebd8e5ff76d74"
   },
-  "notes/adrenochrome/_document_ - NAD+\u2009Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md": {
+  "notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md": {
     "mtime": 1784699265.5115163,
     "ast_hash": "2b4b3e1b2ac91244a47ae0ae12cd2dd2",
     "semantic_hash": "2b4b3e1b2ac91244a47ae0ae12cd2dd2"
@@ -13844,7 +13844,7 @@
     "ast_hash": "2c9aefd5034be576ca659d509c4ebf79",
     "semantic_hash": "2c9aefd5034be576ca659d509c4ebf79"
   },
-  "notes/cancer/_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin\u2013RGD interactions.md": {
+  "notes/cancer/_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md": {
     "mtime": 1784699265.6304648,
     "ast_hash": "692d036cfc022217f7099d6484dca75d",
     "semantic_hash": "692d036cfc022217f7099d6484dca75d"
@@ -13879,7 +13879,7 @@
     "ast_hash": "c4fb84f18f2752b27993035d616b9636",
     "semantic_hash": "c4fb84f18f2752b27993035d616b9636"
   },
-  "notes/senescence/_document_ - Cellular senescence and senescence\u2010associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md": {
+  "notes/senescence/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md": {
     "mtime": 1784704278.924642,
     "ast_hash": "fcc0f47ca6ce209dc8d1924c847e0353",
     "semantic_hash": "fcc0f47ca6ce209dc8d1924c847e0353"
@@ -13908,5 +13908,2600 @@
     "mtime": 1784699265.8517158,
     "ast_hash": "64749f63d83c198b0f594f7d2ee3acab",
     "semantic_hash": "64749f63d83c198b0f594f7d2ee3acab"
+  },
+  "notes/senescence/Gut Dysbiosis.md": {
+    "mtime": 1786780807.50093,
+    "ast_hash": "47ae60bfb51fbdd39dd42078cea399d14c137e67da6899d3f49d248a6b6c6b7f",
+    "semantic_hash": "47ae60bfb51fbdd39dd42078cea399d14c137e67da6899d3f49d248a6b6c6b7f"
+  },
+  "notes/senescence/Lamins.md": {
+    "mtime": 1786780673.8070025,
+    "ast_hash": "843c5e7cb5bc9825f1fb73365bdbb6300b1733cba8c761b4cf1dbc05b3830a6e",
+    "semantic_hash": "843c5e7cb5bc9825f1fb73365bdbb6300b1733cba8c761b4cf1dbc05b3830a6e"
+  },
+  "notes/senescence/Myddosome.md": {
+    "mtime": 1786780701.8094556,
+    "ast_hash": "39ffa37cb1adf0c9dd7d3b8cff2adc3fc935d44a9d50fc5fdeb71c233019074c",
+    "semantic_hash": "39ffa37cb1adf0c9dd7d3b8cff2adc3fc935d44a9d50fc5fdeb71c233019074c"
+  },
+  "notes/senescence/Intestinal Barrier.md": {
+    "mtime": 1786780807.5013235,
+    "ast_hash": "dc3fc722aa330f8776452adf64dae8af1c0472227c4daeb199514b0fc695a288",
+    "semantic_hash": "dc3fc722aa330f8776452adf64dae8af1c0472227c4daeb199514b0fc695a288"
+  },
+  "notes/senescence/Diabetic Kidney Disease.md": {
+    "mtime": 1786780614.3536146,
+    "ast_hash": "db23f99f210c353d928f5e7df17ec127d66991c5decee3b258f9511a4e692f5c",
+    "semantic_hash": "db23f99f210c353d928f5e7df17ec127d66991c5decee3b258f9511a4e692f5c"
+  },
+  "notes/senescence/Adaptor Protein.md": {
+    "mtime": 1786780591.031596,
+    "ast_hash": "9416bc3f422e771f6641fe05682d468a3e18bb6a42905e6fcd5e2449dc48a07e",
+    "semantic_hash": "9416bc3f422e771f6641fe05682d468a3e18bb6a42905e6fcd5e2449dc48a07e"
+  },
+  "notes/senescence/Amifostine.md": {
+    "mtime": 1786780619.2080512,
+    "ast_hash": "e567be402f56f2d7a62197423289b6ceb37da460cc04c0b91f671f065f2b0811",
+    "semantic_hash": "e567be402f56f2d7a62197423289b6ceb37da460cc04c0b91f671f065f2b0811"
+  },
+  "notes/senescence/Follistatin.md": {
+    "mtime": 1786780626.1722844,
+    "ast_hash": "23c0a9f9c76b493cad3f437fe0652ac5169f3d1a3b6c196a3ce917455c244a3e",
+    "semantic_hash": "23c0a9f9c76b493cad3f437fe0652ac5169f3d1a3b6c196a3ce917455c244a3e"
+  },
+  "notes/senescence/MHC Class Ib.md": {
+    "mtime": 1786780694.2064164,
+    "ast_hash": "95b6c68dd82bbe5ed6526660243a51c74f5d09c5105f14b64031fc79ffd374a8",
+    "semantic_hash": "95b6c68dd82bbe5ed6526660243a51c74f5d09c5105f14b64031fc79ffd374a8"
+  },
+  "notes/senescence/Natalizumab (Tysabri).md": {
+    "mtime": 1786780709.4060981,
+    "ast_hash": "ef3eac7073f2594dfa82ea109dab369e5132a028acae1ab5e469e95ba46f8070",
+    "semantic_hash": "ef3eac7073f2594dfa82ea109dab369e5132a028acae1ab5e469e95ba46f8070"
+  },
+  "notes/senescence/_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md": {
+    "mtime": 1787069805.2294672,
+    "ast_hash": "8829c1fc0f8da22594ccddd6688011283b240f2a89f2893f6e8c98e31e0ba541",
+    "semantic_hash": "8829c1fc0f8da22594ccddd6688011283b240f2a89f2893f6e8c98e31e0ba541"
+  },
+  "notes/senescence/SAMD.md": {
+    "mtime": 1784965041.3095176,
+    "ast_hash": "4f7e9865d410c006acdb5df52a453e88c9f8e826e04555a9449bb9b2ae5e85f2",
+    "semantic_hash": "4f7e9865d410c006acdb5df52a453e88c9f8e826e04555a9449bb9b2ae5e85f2"
+  },
+  "notes/senescence/Innate Immune Defense.md": {
+    "mtime": 1786780659.1481273,
+    "ast_hash": "4079a348f82e53848a7ca2a5668497734cfad3748cf82409cb6987db1469d6b0",
+    "semantic_hash": "4079a348f82e53848a7ca2a5668497734cfad3748cf82409cb6987db1469d6b0"
+  },
+  "notes/senescence/Salmonella enterica.md": {
+    "mtime": 1786780780.293538,
+    "ast_hash": "5a22a40619bed067075a5d6f553cc9fb8fd0db1dcacf10e0125943c99479a1dd",
+    "semantic_hash": "5a22a40619bed067075a5d6f553cc9fb8fd0db1dcacf10e0125943c99479a1dd"
+  },
+  "notes/senescence/Stemness.md": {
+    "mtime": 1786780728.974117,
+    "ast_hash": "d1b013c40e4f932e061f6af9c2657f416ec5c6820dd8db139ac39ac4150ec2e5",
+    "semantic_hash": "d1b013c40e4f932e061f6af9c2657f416ec5c6820dd8db139ac39ac4150ec2e5"
+  },
+  "notes/senescence/Inflammatory Pain.md": {
+    "mtime": 1786900314.1208878,
+    "ast_hash": "752e6694322b754ce3d8171c2f64451e907fdb7187de48749703aae798fb96b1",
+    "semantic_hash": "752e6694322b754ce3d8171c2f64451e907fdb7187de48749703aae798fb96b1"
+  },
+  "notes/senescence/Autophagosome-lysosome fusion.md": {
+    "mtime": 1786780606.7984467,
+    "ast_hash": "e52ddf0e0182ec2a8b5b9bec37081fc448b3d938ea795e5713a74ce0751a73a8",
+    "semantic_hash": "e52ddf0e0182ec2a8b5b9bec37081fc448b3d938ea795e5713a74ce0751a73a8"
+  },
+  "notes/senescence/SADS.md": {
+    "mtime": 1784965055.9963758,
+    "ast_hash": "9d9baedf89c7aa3acd8ed8db9637607f52107e7244b17ad6638639e9b06c8018",
+    "semantic_hash": "9d9baedf89c7aa3acd8ed8db9637607f52107e7244b17ad6638639e9b06c8018"
+  },
+  "notes/senescence/Immune Complex.md": {
+    "mtime": 1786780743.6185198,
+    "ast_hash": "b0ea3ddef2da67d049542302d200dc42b407d134912efb2f1e43ea0ab4e3c86b",
+    "semantic_hash": "b0ea3ddef2da67d049542302d200dc42b407d134912efb2f1e43ea0ab4e3c86b"
+  },
+  "notes/senescence/Viral Replication.md": {
+    "mtime": 1786780779.4801793,
+    "ast_hash": "41062932dc1fec6ac02274b6495c837f2e962e242a4119b0038314b4938f607c",
+    "semantic_hash": "41062932dc1fec6ac02274b6495c837f2e962e242a4119b0038314b4938f607c"
+  },
+  "notes/senescence/Lymphopenia.md": {
+    "mtime": 1786780778.9162045,
+    "ast_hash": "fe32109be1f16ff3f1fba5375406f4f91075a1b25b33d5f0481baab24f9d0a82",
+    "semantic_hash": "fe32109be1f16ff3f1fba5375406f4f91075a1b25b33d5f0481baab24f9d0a82"
+  },
+  "notes/adrenochrome/Silver(I) Oxide.md": {
+    "mtime": 1784965110.8584166,
+    "ast_hash": "2479c558a261b2f77488cdab8a34f0b99a22fb6fe05b3d7ae07271bb1dc4d2c5",
+    "semantic_hash": "2479c558a261b2f77488cdab8a34f0b99a22fb6fe05b3d7ae07271bb1dc4d2c5"
+  },
+  "notes/adrenochrome/Ligand-conjugated Nanoparticles.md": {
+    "mtime": 1784965098.0219433,
+    "ast_hash": "a6d6e8f89bb9376d18ee49be4f1fda97f54dfed2cd78eebb1af2b46721e1eccf",
+    "semantic_hash": "a6d6e8f89bb9376d18ee49be4f1fda97f54dfed2cd78eebb1af2b46721e1eccf"
+  },
+  "notes/oxidative_stress/Melanoidins.md": {
+    "mtime": 1786781267.3324678,
+    "ast_hash": "6c2c4041e5f2063b487ecd98dea58c7ce1c1cf02019e19bdc725072c2e51a3cf",
+    "semantic_hash": "6c2c4041e5f2063b487ecd98dea58c7ce1c1cf02019e19bdc725072c2e51a3cf"
+  },
+  "notes/oxidative_stress/Cyanidin-3-glucoside.md": {
+    "mtime": 1786781267.3334384,
+    "ast_hash": "daa3893824145cda70a29f439e17b2331050333d74cab2cc86df4d990351caa6",
+    "semantic_hash": "daa3893824145cda70a29f439e17b2331050333d74cab2cc86df4d990351caa6"
+  },
+  "notes/oxidative_stress/Prodrug.md": {
+    "mtime": 1786781267.3339639,
+    "ast_hash": "63f0e1e6ca4efadae4c4c17abc17e66839fb38619298d0d62a8e8a9d318cf387",
+    "semantic_hash": "63f0e1e6ca4efadae4c4c17abc17e66839fb38619298d0d62a8e8a9d318cf387"
+  },
+  "notes/oxidative_stress/Gold.md": {
+    "mtime": 1786781267.334269,
+    "ast_hash": "dbe916ec5d82d768be78e5266a8334961bfba3c21f019a47acafe1414d11a21e",
+    "semantic_hash": "dbe916ec5d82d768be78e5266a8334961bfba3c21f019a47acafe1414d11a21e"
+  },
+  "notes/oxidative_stress/Silver sulfide albuminates.md": {
+    "mtime": 1786781267.3346503,
+    "ast_hash": "6c3c4e5067f91775f430dd81c31fe0eca6df66a90c75881749562e999ae02d58",
+    "semantic_hash": "6c3c4e5067f91775f430dd81c31fe0eca6df66a90c75881749562e999ae02d58"
+  },
+  "notes/oxidative_stress/Silver ion.md": {
+    "mtime": 1786781267.3349297,
+    "ast_hash": "45ab88de667f205becb18a55b1647ef9b59f85945d9f9b999e063be1accd28de",
+    "semantic_hash": "45ab88de667f205becb18a55b1647ef9b59f85945d9f9b999e063be1accd28de"
+  },
+  "notes/oxidative_stress/UV Light.md": {
+    "mtime": 1786781267.3357432,
+    "ast_hash": "7fb0d42077667cef3c9133893d01c34fca431fe415baae9ffea4f8f6984a85ac",
+    "semantic_hash": "7fb0d42077667cef3c9133893d01c34fca431fe415baae9ffea4f8f6984a85ac"
+  },
+  "notes/oxidative_stress/Guanylhydrazone.md": {
+    "mtime": 1786781267.3361125,
+    "ast_hash": "bdd500c85e80d09fbc32c106904a57fabf9e3cc5fcdf2d80333320dee278ebe7",
+    "semantic_hash": "bdd500c85e80d09fbc32c106904a57fabf9e3cc5fcdf2d80333320dee278ebe7"
+  },
+  "notes/oxidative_stress/Eosinophil Peroxidase.md": {
+    "mtime": 1786780587.205025,
+    "ast_hash": "c6c996de0e492423352dd6cb5b53787f0a04a02a10eb98ea30922e4f2fc2f449",
+    "semantic_hash": "c6c996de0e492423352dd6cb5b53787f0a04a02a10eb98ea30922e4f2fc2f449"
+  },
+  "notes/oxidative_stress/Silver nanoparticles.md": {
+    "mtime": 1786781267.3369133,
+    "ast_hash": "65262996ade5c9205bad1b8dc8bfde951dd9293c1e190a4067c96298f455b695",
+    "semantic_hash": "65262996ade5c9205bad1b8dc8bfde951dd9293c1e190a4067c96298f455b695"
+  },
+  "notes/oxidative_stress/Febuxostat.md": {
+    "mtime": 1786780592.43447,
+    "ast_hash": "65b6279a2ab901073e0df6c5be74b394aa40d217f55bde104658c4af2d8cdf91",
+    "semantic_hash": "65b6279a2ab901073e0df6c5be74b394aa40d217f55bde104658c4af2d8cdf91"
+  },
+  "notes/oxidative_stress/Protein Citrullination.md": {
+    "mtime": 1786780731.6419308,
+    "ast_hash": "bd0764fbc9c2350fa04f1f12a563715f5abff00e60509d1c766f03f30c194c1b",
+    "semantic_hash": "bd0764fbc9c2350fa04f1f12a563715f5abff00e60509d1c766f03f30c194c1b"
+  },
+  "notes/oxidative_stress/Acatalasemia.md": {
+    "mtime": 1786781267.3380919,
+    "ast_hash": "76406d46eeaa3e6260ae757e3be8e8c136c3a026d50eaabe2987ee8c4636d992",
+    "semantic_hash": "76406d46eeaa3e6260ae757e3be8e8c136c3a026d50eaabe2987ee8c4636d992"
+  },
+  "notes/oxidative_stress/Anti-TNF Therapy.md": {
+    "mtime": 1784967735.7646096,
+    "ast_hash": "db7aeb8d2b00282dfb601ba4dbd226caff7df2fd360e9561a94dc7043aef2470",
+    "semantic_hash": "db7aeb8d2b00282dfb601ba4dbd226caff7df2fd360e9561a94dc7043aef2470"
+  },
+  "notes/oxidative_stress/Guanidines.md": {
+    "mtime": 1786781267.3388555,
+    "ast_hash": "00425fe296fb3ab628f57ec9ed1f09a03a2fd0183c8e171fb58af6485ca580eb",
+    "semantic_hash": "00425fe296fb3ab628f57ec9ed1f09a03a2fd0183c8e171fb58af6485ca580eb"
+  },
+  "notes/oxidative_stress/Glutathione S-transferase π1.md": {
+    "mtime": 1786781267.3391285,
+    "ast_hash": "4d3ae0b9df2d74b26d1a96f8ff9ecfec524662bb766d89a6f4094480dc7bbdcf",
+    "semantic_hash": "4d3ae0b9df2d74b26d1a96f8ff9ecfec524662bb766d89a6f4094480dc7bbdcf"
+  },
+  "notes/oxidative_stress/Polyol Pathway.md": {
+    "mtime": 1786781267.339825,
+    "ast_hash": "3b86c729eba91dd2cfbe02928b5ec7003b5c642f8610dca8eae2ecda0205a74f",
+    "semantic_hash": "3b86c729eba91dd2cfbe02928b5ec7003b5c642f8610dca8eae2ecda0205a74f"
+  },
+  "notes/oxidative_stress/Formamide.md": {
+    "mtime": 1786781267.3406274,
+    "ast_hash": "55f6acf7e6840d7f32d536372dc038a38b437352a53a4b9faad7d665e5316909",
+    "semantic_hash": "55f6acf7e6840d7f32d536372dc038a38b437352a53a4b9faad7d665e5316909"
+  },
+  "notes/oxidative_stress/Fructose.md": {
+    "mtime": 1786781267.34095,
+    "ast_hash": "7df1e1c635bba96fc555b9b9e82f860ef6b183f31c64f622a8b3369bc457e384",
+    "semantic_hash": "7df1e1c635bba96fc555b9b9e82f860ef6b183f31c64f622a8b3369bc457e384"
+  },
+  "notes/oxidative_stress/Guanidine.md": {
+    "mtime": 1786781267.3415976,
+    "ast_hash": "6275f900f34b05c534de6423f6655dd604ce29c0bed2ce19ab5cfbcb70ae416a",
+    "semantic_hash": "6275f900f34b05c534de6423f6655dd604ce29c0bed2ce19ab5cfbcb70ae416a"
+  },
+  "notes/oxidative_stress/Silver salts.md": {
+    "mtime": 1786781267.3443825,
+    "ast_hash": "da50c443060b1026a00d43e3e2513f5b9f7b9707b27bd6724b2c5cceee1983b7",
+    "semantic_hash": "da50c443060b1026a00d43e3e2513f5b9f7b9707b27bd6724b2c5cceee1983b7"
+  },
+  "notes/oxidative_stress/Aldose reductase.md": {
+    "mtime": 1786781267.345084,
+    "ast_hash": "fb8beb4aba1a2276d3ee258925a7d147d6dfc9c44d272abcaeabcbd8d0f0c0ce",
+    "semantic_hash": "fb8beb4aba1a2276d3ee258925a7d147d6dfc9c44d272abcaeabcbd8d0f0c0ce"
+  },
+  "notes/oxidative_stress/Glycotoxins.md": {
+    "mtime": 1786781267.3458157,
+    "ast_hash": "d6861b57fd6f79aa07f848b598e20131d5d2fa4178d8fe26fafe7de27149610e",
+    "semantic_hash": "d6861b57fd6f79aa07f848b598e20131d5d2fa4178d8fe26fafe7de27149610e"
+  },
+  "notes/oxidative_stress/flavanone.md": {
+    "mtime": 1786780600.5679324,
+    "ast_hash": "59fb08761a2ad77c3345f05de5be39236e61867631e1398a8f348eaf6d2362cf",
+    "semantic_hash": "59fb08761a2ad77c3345f05de5be39236e61867631e1398a8f348eaf6d2362cf"
+  },
+  "notes/oxidative_stress/UDP-glucuronosyltransferases.md": {
+    "mtime": 1786781267.3471878,
+    "ast_hash": "ed2f2a6594741b825fc818d54dc3188db1c3d3bfbefda83cbe9cddc322458318",
+    "semantic_hash": "ed2f2a6594741b825fc818d54dc3188db1c3d3bfbefda83cbe9cddc322458318"
+  },
+  "notes/oxidative_stress/Keshan disease.md": {
+    "mtime": 1786780695.7728858,
+    "ast_hash": "44de9a3fd2718263bc79a4a7b334f5486d79a5c6b12594e22b5162afd4d51ac7",
+    "semantic_hash": "44de9a3fd2718263bc79a4a7b334f5486d79a5c6b12594e22b5162afd4d51ac7"
+  },
+  "notes/oxidative_stress/Silver compounds.md": {
+    "mtime": 1786781267.3484643,
+    "ast_hash": "f4759a2290155352092fe46f88c7fa7d4ec674b857b9b60ee97e2670d0468a3d",
+    "semantic_hash": "f4759a2290155352092fe46f88c7fa7d4ec674b857b9b60ee97e2670d0468a3d"
+  },
+  "notes/oxidative_stress/Methionine sulfoxide reductases.md": {
+    "mtime": 1786780709.5659623,
+    "ast_hash": "14dc55f171089ef10c0158d812718a800692a01fad4396b246c6c998158f0e81",
+    "semantic_hash": "14dc55f171089ef10c0158d812718a800692a01fad4396b246c6c998158f0e81"
+  },
+  "notes/oxidative_stress/Argyria.md": {
+    "mtime": 1786781267.3500044,
+    "ast_hash": "7b400579c99a8de185271cecdffe1566c0edcf5a8de62733ff6944a807193b3a",
+    "semantic_hash": "7b400579c99a8de185271cecdffe1566c0edcf5a8de62733ff6944a807193b3a"
+  },
+  "notes/oxidative_stress/Hydrazines.md": {
+    "mtime": 1786781267.3510492,
+    "ast_hash": "5df73c97234d2598202b88c8d7ec5488cbd3a91ca4b52d9bd7ceb38be69855a6",
+    "semantic_hash": "5df73c97234d2598202b88c8d7ec5488cbd3a91ca4b52d9bd7ceb38be69855a6"
+  },
+  "notes/oxidative_stress/Silver.md": {
+    "mtime": 1786781267.3530428,
+    "ast_hash": "9c9dd1a5a847a0d93b32fd63b49245c6023cfc8efe83f71a1f0410b424abf6c0",
+    "semantic_hash": "9c9dd1a5a847a0d93b32fd63b49245c6023cfc8efe83f71a1f0410b424abf6c0"
+  },
+  "notes/oxidative_stress/Indoles.md": {
+    "mtime": 1786781267.3534987,
+    "ast_hash": "213927c2e648140016b0cfb7cd1e57efa6037540c5c1f3d0130fd73bfd341f3d",
+    "semantic_hash": "213927c2e648140016b0cfb7cd1e57efa6037540c5c1f3d0130fd73bfd341f3d"
+  },
+  "notes/oxidative_stress/Hypobromous Acid.md": {
+    "mtime": 1786780678.3547442,
+    "ast_hash": "208240502cfbf3dc456822374d3bba789db03d0f35055cf7a069cc4800733cd4",
+    "semantic_hash": "208240502cfbf3dc456822374d3bba789db03d0f35055cf7a069cc4800733cd4"
+  },
+  "notes/oxidative_stress/Fructosamine.md": {
+    "mtime": 1786781267.355972,
+    "ast_hash": "ba06c2136285314b79bfc89bcb4b8f3c3d075eb44388e3bd19e25de2d814ea74",
+    "semantic_hash": "ba06c2136285314b79bfc89bcb4b8f3c3d075eb44388e3bd19e25de2d814ea74"
+  },
+  "notes/epigenetics/single nucleotide variation.md": {
+    "mtime": 1786780960.3095531,
+    "ast_hash": "fc392573bea0765e535c1ab48c7e04b382eeadcb7810a84a2fa4126b654bdee7",
+    "semantic_hash": "fc392573bea0765e535c1ab48c7e04b382eeadcb7810a84a2fa4126b654bdee7"
+  },
+  "notes/epigenetics/ICAD.md": {
+    "mtime": 1786780876.501184,
+    "ast_hash": "2201a691df3f35d2294061a60d8d727b5635267bc5ac7b95a0c002c05ffc2bd4",
+    "semantic_hash": "2201a691df3f35d2294061a60d8d727b5635267bc5ac7b95a0c002c05ffc2bd4"
+  },
+  "notes/epigenetics/Genome stability.md": {
+    "mtime": 1786781267.3600392,
+    "ast_hash": "ff85b004d17b7ede362be4ccb65e0cc80378e073d3c5d628205a2cbe3092a993",
+    "semantic_hash": "ff85b004d17b7ede362be4ccb65e0cc80378e073d3c5d628205a2cbe3092a993"
+  },
+  "notes/epigenetics/XIST.md": {
+    "mtime": 1786781267.3683677,
+    "ast_hash": "e4bce98e04ddfb665c66dcda522b9357913bb37a53bb2126dfad7d38834089e1",
+    "semantic_hash": "e4bce98e04ddfb665c66dcda522b9357913bb37a53bb2126dfad7d38834089e1"
+  },
+  "notes/epigenetics/Sas2p.md": {
+    "mtime": 1786781267.3713439,
+    "ast_hash": "d02edee87619dffa3d9850ffba1940f23c4146291679660db65e8f8b33f90a5f",
+    "semantic_hash": "d02edee87619dffa3d9850ffba1940f23c4146291679660db65e8f8b33f90a5f"
+  },
+  "notes/epigenetics/NRTI.md": {
+    "mtime": 1786781267.3720212,
+    "ast_hash": "3f868dc4c7dec853a577f8d40d83f2f5a6032245c0586418e797ad12a3eeb52a",
+    "semantic_hash": "3f868dc4c7dec853a577f8d40d83f2f5a6032245c0586418e797ad12a3eeb52a"
+  },
+  "notes/epigenetics/Gene Silencing.md": {
+    "mtime": 1786781267.3726547,
+    "ast_hash": "f721f922f14fb7cfe2097d6b678ec8b66d8d25da375a9d49f8a8c1500db39a34",
+    "semantic_hash": "f721f922f14fb7cfe2097d6b678ec8b66d8d25da375a9d49f8a8c1500db39a34"
+  },
+  "notes/epigenetics/ICF Syndrome.md": {
+    "mtime": 1786780887.1339731,
+    "ast_hash": "a3f619b142c06a97bea2c72ae98c2bf31f6feb58bbe212fd63b1a7a92c415ce6",
+    "semantic_hash": "a3f619b142c06a97bea2c72ae98c2bf31f6feb58bbe212fd63b1a7a92c415ce6"
+  },
+  "notes/epigenetics/HERV.md": {
+    "mtime": 1786781267.3795416,
+    "ast_hash": "6856e35f7465cd39429e14957fb7708a997ef2ea04dbd6bbb8a740fbb8192033",
+    "semantic_hash": "6856e35f7465cd39429e14957fb7708a997ef2ea04dbd6bbb8a740fbb8192033"
+  },
+  "notes/epigenetics/SAM.md": {
+    "mtime": 1786780938.2840724,
+    "ast_hash": "d7997815b0052d8eb85fab5346184267e17b6b388107adf3d4583b1387190386",
+    "semantic_hash": "d7997815b0052d8eb85fab5346184267e17b6b388107adf3d4583b1387190386"
+  },
+  "notes/epigenetics/Nucleolus.md": {
+    "mtime": 1786780906.7477272,
+    "ast_hash": "08ccbac5ced715450b8289341c38a5aca39eb6da65789f568b8a7dd5a69bdc68",
+    "semantic_hash": "08ccbac5ced715450b8289341c38a5aca39eb6da65789f568b8a7dd5a69bdc68"
+  },
+  "notes/epigenetics/Biological Age.md": {
+    "mtime": 1786781267.394404,
+    "ast_hash": "8424a858b95cf736af9d9a77887ca7c00df0a6b81048f9065d519f378036726e",
+    "semantic_hash": "8424a858b95cf736af9d9a77887ca7c00df0a6b81048f9065d519f378036726e"
+  },
+  "notes/epigenetics/Pericentromeric Satellite Repeats.md": {
+    "mtime": 1786780928.6114578,
+    "ast_hash": "24f4c1508f828a46984eeafc30825c614eb8f677bb229c19df18ac4f400c4a99",
+    "semantic_hash": "24f4c1508f828a46984eeafc30825c614eb8f677bb229c19df18ac4f400c4a99"
+  },
+  "notes/epigenetics/DNA-PKcs.md": {
+    "mtime": 1786781267.4000747,
+    "ast_hash": "5c97ecc1eb8fee07a34bd2c1a5a2f97d0933f5e6eeab04c7674c1420bdb7c9e0",
+    "semantic_hash": "5c97ecc1eb8fee07a34bd2c1a5a2f97d0933f5e6eeab04c7674c1420bdb7c9e0"
+  },
+  "notes/epigenetics/X-Chromosome Inactivation.md": {
+    "mtime": 1786781267.4016285,
+    "ast_hash": "b5533a89cacb9ec0a5b21a949511beaaa27f3dfee1ce0143c1a0170034222860",
+    "semantic_hash": "b5533a89cacb9ec0a5b21a949511beaaa27f3dfee1ce0143c1a0170034222860"
+  },
+  "notes/epigenetics/Homologous recombination repair.md": {
+    "mtime": 1786781267.4030411,
+    "ast_hash": "83e574e1e1e8c10ea73f09f527c1e4f5261673055779ad13aa11f6ee8ce3b05a",
+    "semantic_hash": "83e574e1e1e8c10ea73f09f527c1e4f5261673055779ad13aa11f6ee8ce3b05a"
+  },
+  "notes/epigenetics/PARylation.md": {
+    "mtime": 1786781267.4052687,
+    "ast_hash": "000a4f9284356306a848ec1ba74edb63cdd590e29bb6dd29e27910927ac660b5",
+    "semantic_hash": "000a4f9284356306a848ec1ba74edb63cdd590e29bb6dd29e27910927ac660b5"
+  },
+  "notes/epigenetics/UHRF1.md": {
+    "mtime": 1786780973.7916303,
+    "ast_hash": "4133d897582401cc358d4b94b47e1ca4531f54bd4443e2c0172b712050e28460",
+    "semantic_hash": "4133d897582401cc358d4b94b47e1ca4531f54bd4443e2c0172b712050e28460"
+  },
+  "notes/_link/Sorafenib.md": {
+    "mtime": 1787605187.757624,
+    "ast_hash": "e21f2152a7c34ca678247b74eb0a34cb00cf9477980e557c49d356579bba58c6",
+    "semantic_hash": "e21f2152a7c34ca678247b74eb0a34cb00cf9477980e557c49d356579bba58c6"
+  },
+  "notes/_link/Metabolic Flexibility.md": {
+    "mtime": 1785902261.3310018,
+    "ast_hash": "5b1b8bc7271edad9d552bd5f720356a2c721833089c703b3a6b4c6b81906f664",
+    "semantic_hash": "5b1b8bc7271edad9d552bd5f720356a2c721833089c703b3a6b4c6b81906f664"
+  },
+  "notes/_link/Neuroblastoma.md": {
+    "mtime": 1784879356.8436067,
+    "ast_hash": "37ce104a086ba041c41aa275b38040045ea844794a38b637c1f4bf10ac4c9591",
+    "semantic_hash": "37ce104a086ba041c41aa275b38040045ea844794a38b637c1f4bf10ac4c9591"
+  },
+  "notes/_link/IL-7.md": {
+    "mtime": 1785050446.20454,
+    "ast_hash": "632881602c670899234058709fbf66d70e3aafefc5c748e7b88ddfab1d313c16",
+    "semantic_hash": "632881602c670899234058709fbf66d70e3aafefc5c748e7b88ddfab1d313c16"
+  },
+  "notes/_link/Cochlea.md": {
+    "mtime": 1787074542.2440028,
+    "ast_hash": "230539c78ed27829330242e255634e8e44092ff6f5fe3a9aca7fde07da83373c",
+    "semantic_hash": "230539c78ed27829330242e255634e8e44092ff6f5fe3a9aca7fde07da83373c"
+  },
+  "notes/_link/Radiation Therapy.md": {
+    "mtime": 1785277866.7018101,
+    "ast_hash": "85e6af3c78a2abaefd0df5c596c5c0314b2120faf1c9fb23ba0821ca4f6424b4",
+    "semantic_hash": "85e6af3c78a2abaefd0df5c596c5c0314b2120faf1c9fb23ba0821ca4f6424b4"
+  },
+  "notes/_link/AKR1C1.md": {
+    "mtime": 1786464421.3269968,
+    "ast_hash": "03d488f76f36853a91958e513a6ec49c7b0c1e80a7f08ac88efb31c6904c7f7a",
+    "semantic_hash": "03d488f76f36853a91958e513a6ec49c7b0c1e80a7f08ac88efb31c6904c7f7a"
+  },
+  "notes/_link/Deferoxamine.md": {
+    "mtime": 1787605187.7515924,
+    "ast_hash": "43c0ff480a1d8f59ef26e5d0385982020d4c4d365847aaad24442e558a520a37",
+    "semantic_hash": "43c0ff480a1d8f59ef26e5d0385982020d4c4d365847aaad24442e558a520a37"
+  },
+  "notes/_link/HMG-CoA reductase.md": {
+    "mtime": 1787605187.7532413,
+    "ast_hash": "3feb02647151ee8e4d66151188e4e7ea0c63e46ce35a0be83effcd6beb702056",
+    "semantic_hash": "3feb02647151ee8e4d66151188e4e7ea0c63e46ce35a0be83effcd6beb702056"
+  },
+  "notes/_link/GRP75.md": {
+    "mtime": 1787074473.3396633,
+    "ast_hash": "012652caa7366efac030cc86afb7132b602be9db0268875dbd6d9256c05cf4d8",
+    "semantic_hash": "012652caa7366efac030cc86afb7132b602be9db0268875dbd6d9256c05cf4d8"
+  },
+  "notes/_link/MUC1.md": {
+    "mtime": 1787605187.7535386,
+    "ast_hash": "f1f3c4880878c0aa95449c1b7c4d51014e4919d9eca06e1003b9cf26c2113c8f",
+    "semantic_hash": "f1f3c4880878c0aa95449c1b7c4d51014e4919d9eca06e1003b9cf26c2113c8f"
+  },
+  "notes/_link/Epilepsy.md": {
+    "mtime": 1786464246.6009123,
+    "ast_hash": "0cae2f9092dd0739284350bb39ef8a3683074b24ef1210a458434863dcba4f94",
+    "semantic_hash": "0cae2f9092dd0739284350bb39ef8a3683074b24ef1210a458434863dcba4f94"
+  },
+  "notes/_link/Type 2 Diabetes.md": {
+    "mtime": 1787073628.7751813,
+    "ast_hash": "448e4519f3ebbf359fc1d269574c2b03fe38f0616d38fdad16f855759a6e0ba8",
+    "semantic_hash": "448e4519f3ebbf359fc1d269574c2b03fe38f0616d38fdad16f855759a6e0ba8"
+  },
+  "notes/_link/sjTREC.md": {
+    "mtime": 1785050446.2076142,
+    "ast_hash": "c3d990b108aa598d4ea454a455814acac632e35d9e3bcd7aacd78e91687391c0",
+    "semantic_hash": "c3d990b108aa598d4ea454a455814acac632e35d9e3bcd7aacd78e91687391c0"
+  },
+  "notes/_link/ADAM10.md": {
+    "mtime": 1785800048.629846,
+    "ast_hash": "c12b903d4b5f6f5dd81e83c4aec1efa0f107ae494a8dea8044b9752baedbffa8",
+    "semantic_hash": "c12b903d4b5f6f5dd81e83c4aec1efa0f107ae494a8dea8044b9752baedbffa8"
+  },
+  "notes/_link/mitoTALENs.md": {
+    "mtime": 1785515119.6223254,
+    "ast_hash": "0bad6b5cc271ca839eb4e93d53d1ddf652518e2fa3e577fcfec15e9d21c1f104",
+    "semantic_hash": "0bad6b5cc271ca839eb4e93d53d1ddf652518e2fa3e577fcfec15e9d21c1f104"
+  },
+  "notes/_link/_document_ - Ferroptosis past present and future.md": {
+    "mtime": 1787605187.7590928,
+    "ast_hash": "44f6acb76ff72d3098cf442007a621f6ceaf94584a453296a806181fd5731825",
+    "semantic_hash": "44f6acb76ff72d3098cf442007a621f6ceaf94584a453296a806181fd5731825"
+  },
+  "notes/_link/LPCAT3.md": {
+    "mtime": 1787605187.7534444,
+    "ast_hash": "77f1ac4963d5139ec392034d6f1688f7d26288f34eb61058fcebeacf090abc0f",
+    "semantic_hash": "77f1ac4963d5139ec392034d6f1688f7d26288f34eb61058fcebeacf090abc0f"
+  },
+  "notes/_link/Mitochondrial Translation.md": {
+    "mtime": 1785562584.8953621,
+    "ast_hash": "285c3067cad6099a80e7211cf22945980524d8d62bc17ed83623c66ad5c37346",
+    "semantic_hash": "285c3067cad6099a80e7211cf22945980524d8d62bc17ed83623c66ad5c37346"
+  },
+  "notes/_link/Dimethyl Sulfoxide.md": {
+    "mtime": 1785277401.4507372,
+    "ast_hash": "d9f1199bf4bd8c9059019198010e1070a56d25133c07220f049981b725947e2a",
+    "semantic_hash": "d9f1199bf4bd8c9059019198010e1070a56d25133c07220f049981b725947e2a"
+  },
+  "notes/_link/Radical-trapping Antioxidant.md": {
+    "mtime": 1787605187.7561865,
+    "ast_hash": "f51b03c9b9cc1cb3dbbcbe5dbbe1c571b9f0c2a382ac47f1b7f78734f231ab6f",
+    "semantic_hash": "f51b03c9b9cc1cb3dbbcbe5dbbe1c571b9f0c2a382ac47f1b7f78734f231ab6f"
+  },
+  "notes/_link/Myristoylation.md": {
+    "mtime": 1787605187.7540941,
+    "ast_hash": "b66c065fca072e2641c769f7eeb632dfb694fb7d2f6ec1d89f90f4784bfe892d",
+    "semantic_hash": "b66c065fca072e2641c769f7eeb632dfb694fb7d2f6ec1d89f90f4784bfe892d"
+  },
+  "notes/_link/Non-homologous End Joining.md": {
+    "mtime": 1787073658.4620245,
+    "ast_hash": "92362dc3c59349f116e8b8f5b8d0f4a2b99c0cba92e507fd58bdc8b5629a6284",
+    "semantic_hash": "92362dc3c59349f116e8b8f5b8d0f4a2b99c0cba92e507fd58bdc8b5629a6284"
+  },
+  "notes/_link/Apoptosis-Inducing Factor.md": {
+    "mtime": 1787605187.7508292,
+    "ast_hash": "ade7ffc8881c8cf2421d0598f8e4cf94756d0b8e8ca1bd5ac0b224259a92b0c8",
+    "semantic_hash": "ade7ffc8881c8cf2421d0598f8e4cf94756d0b8e8ca1bd5ac0b224259a92b0c8"
+  },
+  "notes/_link/Histone Crotonylation.md": {
+    "mtime": 1787074396.5322876,
+    "ast_hash": "48727bcd0ba0df8e28931ccc51c9cd1a69f393a16cb6d23c3886507f5cde9b21",
+    "semantic_hash": "48727bcd0ba0df8e28931ccc51c9cd1a69f393a16cb6d23c3886507f5cde9b21"
+  },
+  "notes/_link/ACLY.md": {
+    "mtime": 1786900314.1408749,
+    "ast_hash": "c6bc26d0f153f2c10151d52843061a5b661250c6bd6bb814e661733145e44989",
+    "semantic_hash": "c6bc26d0f153f2c10151d52843061a5b661250c6bd6bb814e661733145e44989"
+  },
+  "notes/_link/Doubly-Labelled Water.md": {
+    "mtime": 1785522776.257395,
+    "ast_hash": "76d72c42a9a19d3918dfc1a691c0d054be928f7ceb6f6ff43d569df57a003d70",
+    "semantic_hash": "76d72c42a9a19d3918dfc1a691c0d054be928f7ceb6f6ff43d569df57a003d70"
+  },
+  "notes/_link/System Xc-.md": {
+    "mtime": 1787605187.757969,
+    "ast_hash": "424564be234ba8ba2ceb8968ae6e50645769a857d399a66a8fb0cc1350f71196",
+    "semantic_hash": "424564be234ba8ba2ceb8968ae6e50645769a857d399a66a8fb0cc1350f71196"
+  },
+  "notes/_link/Taurine.md": {
+    "mtime": 1785515087.1569238,
+    "ast_hash": "100cf2bfcf6ff20c7689b2590b2790af94d7c2cf5c3e1e6280bd89e066f8987d",
+    "semantic_hash": "100cf2bfcf6ff20c7689b2590b2790af94d7c2cf5c3e1e6280bd89e066f8987d"
+  },
+  "notes/_link/Nitroimidazole.md": {
+    "mtime": 1785277881.5512,
+    "ast_hash": "249d1a9b5d57b49a8627eea5b4e83e7c1c7f0b1385a3e90f4bb191d97a92e489",
+    "semantic_hash": "249d1a9b5d57b49a8627eea5b4e83e7c1c7f0b1385a3e90f4bb191d97a92e489"
+  },
+  "notes/_link/_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md": {
+    "mtime": 1785545696.6324337,
+    "ast_hash": "803a9bf472438d0a5dd80c224cd0d75a09d708483a9654e6ddae6398e895c973",
+    "semantic_hash": "803a9bf472438d0a5dd80c224cd0d75a09d708483a9654e6ddae6398e895c973"
+  },
+  "notes/_link/Kidney Stones.md": {
+    "mtime": 1786464289.3863688,
+    "ast_hash": "c7c53042112e29e3e240e38272befc0ab2f756db397906ebe80dc502879568bc",
+    "semantic_hash": "c7c53042112e29e3e240e38272befc0ab2f756db397906ebe80dc502879568bc"
+  },
+  "notes/_link/FIN56.md": {
+    "mtime": 1787605187.7519917,
+    "ast_hash": "8c65851c5b5d53d1ec6788bc8a175bee03e0af4119edbcf4f4937677c0a1dead",
+    "semantic_hash": "8c65851c5b5d53d1ec6788bc8a175bee03e0af4119edbcf4f4937677c0a1dead"
+  },
+  "notes/_link/Thermic Effect of Food.md": {
+    "mtime": 1785522851.4563978,
+    "ast_hash": "7747a259bf7e7e313a334327ecefb8871cd09820342ab362c645d84660b04a1b",
+    "semantic_hash": "7747a259bf7e7e313a334327ecefb8871cd09820342ab362c645d84660b04a1b"
+  },
+  "notes/_link/Entacapone.md": {
+    "mtime": 1785384796.0661054,
+    "ast_hash": "7067bbfad31569bbc59f4443a895119240629e86dc1a8285b74ff8b8c24a5f5a",
+    "semantic_hash": "7067bbfad31569bbc59f4443a895119240629e86dc1a8285b74ff8b8c24a5f5a"
+  },
+  "notes/_link/ELK1.md": {
+    "mtime": 1786639250.404091,
+    "ast_hash": "5014edfe36a4eeff0cb539e784c7314df36d3ff9346b027732e97825ab382371",
+    "semantic_hash": "5014edfe36a4eeff0cb539e784c7314df36d3ff9346b027732e97825ab382371"
+  },
+  "notes/_link/Essential Amino Acids.md": {
+    "mtime": 1785546742.9886255,
+    "ast_hash": "648bccf0615018430cee45c05e950f89bd60cdecca5daa914a7665c3b6ffbd41",
+    "semantic_hash": "648bccf0615018430cee45c05e950f89bd60cdecca5daa914a7665c3b6ffbd41"
+  },
+  "notes/_link/miR-494-3p.md": {
+    "mtime": 1787074612.3842304,
+    "ast_hash": "81e59f4d1a70517148dcb6832c9df685c6bb2f008769172d826f83f51b3e9fbe",
+    "semantic_hash": "81e59f4d1a70517148dcb6832c9df685c6bb2f008769172d826f83f51b3e9fbe"
+  },
+  "notes/_link/Pazopanib.md": {
+    "mtime": 1785277418.1043897,
+    "ast_hash": "999da9ad0bab9831b96ce8db3b8fd5c00578cc06e413b24b3cf7ff1f267c976b",
+    "semantic_hash": "999da9ad0bab9831b96ce8db3b8fd5c00578cc06e413b24b3cf7ff1f267c976b"
+  },
+  "notes/_link/CRTC2.md": {
+    "mtime": 1785819130.0703669,
+    "ast_hash": "c3c9a7aaff6dc02ca6eefa227a4ec34a767dacf6db6b8dec93c5378f808cf0f9",
+    "semantic_hash": "c3c9a7aaff6dc02ca6eefa227a4ec34a767dacf6db6b8dec93c5378f808cf0f9"
+  },
+  "notes/_link/XBP1.md": {
+    "mtime": 1786897908.1410875,
+    "ast_hash": "b0822cd39fc5aeb74866d1a8cb594ef073c6506aaa0bcc88597a5a8dad1cefaf",
+    "semantic_hash": "b0822cd39fc5aeb74866d1a8cb594ef073c6506aaa0bcc88597a5a8dad1cefaf"
+  },
+  "notes/_link/TOM1.md": {
+    "mtime": 1787070002.9385645,
+    "ast_hash": "5de28526c1503dce1c9d8462ad6bf5c38d44ccad260284c81f9b6a95c51b0b97",
+    "semantic_hash": "5de28526c1503dce1c9d8462ad6bf5c38d44ccad260284c81f9b6a95c51b0b97"
+  },
+  "notes/_link/Glioblastoma.md": {
+    "mtime": 1786921078.0249343,
+    "ast_hash": "fdc5bf1601588166b6cbe09580f6c1fbc71a7504c9b5928e2c049c0dec3007c4",
+    "semantic_hash": "fdc5bf1601588166b6cbe09580f6c1fbc71a7504c9b5928e2c049c0dec3007c4"
+  },
+  "notes/_link/Fat-Free Mass.md": {
+    "mtime": 1785522808.2684486,
+    "ast_hash": "6f6241a510d279b4f672fdd6c591c302e247bb6679a3953fd62c033be15c7d2e",
+    "semantic_hash": "6f6241a510d279b4f672fdd6c591c302e247bb6679a3953fd62c033be15c7d2e"
+  },
+  "notes/_link/Liver Ischemia-Reperfusion Injury.md": {
+    "mtime": 1786464179.1379817,
+    "ast_hash": "e2789c3580c7bded13b35f3575099141a3504fb7af161da8838d72b68f499cc2",
+    "semantic_hash": "e2789c3580c7bded13b35f3575099141a3504fb7af161da8838d72b68f499cc2"
+  },
+  "notes/_link/TRIAD.md": {
+    "mtime": 1785260615.665735,
+    "ast_hash": "58af8452f86200ddf72d4c37c5f85ff3db78a32a3a26c56e5b5aee14dea57fef",
+    "semantic_hash": "58af8452f86200ddf72d4c37c5f85ff3db78a32a3a26c56e5b5aee14dea57fef"
+  },
+  "notes/_link/IGF-Akt Signaling.md": {
+    "mtime": 1784967194.214947,
+    "ast_hash": "5933c3114eacb5fc6c59c591010b8a09cacd827c6168cdb920d786cd0cb38e73",
+    "semantic_hash": "5933c3114eacb5fc6c59c591010b8a09cacd827c6168cdb920d786cd0cb38e73"
+  },
+  "notes/_link/Flubendazole.md": {
+    "mtime": 1785277861.0928812,
+    "ast_hash": "a9d07d72146429b6a4aa6bc29244acd5d2c3b4f0384470874f860b2c6fa6928b",
+    "semantic_hash": "a9d07d72146429b6a4aa6bc29244acd5d2c3b4f0384470874f860b2c6fa6928b"
+  },
+  "notes/_link/Protein Turnover.md": {
+    "mtime": 1785522965.566375,
+    "ast_hash": "cfdde5b81aa3d3f88ff18504acdb18e7526308fede2160b32bcd35ec23b5c075",
+    "semantic_hash": "cfdde5b81aa3d3f88ff18504acdb18e7526308fede2160b32bcd35ec23b5c075"
+  },
+  "notes/_link/Squalene synthase.md": {
+    "mtime": 1787605187.7577293,
+    "ast_hash": "94999327dc4810484ac1c5e6eccde41d07953767186ff31906fdf3a246566a06",
+    "semantic_hash": "94999327dc4810484ac1c5e6eccde41d07953767186ff31906fdf3a246566a06"
+  },
+  "notes/_link/NUCKS1.md": {
+    "mtime": 1787070002.9385757,
+    "ast_hash": "8bd4707f3d47542deb86505a8a95b0b8b3aecbc28e3482ccab52c492b6150c3c",
+    "semantic_hash": "8bd4707f3d47542deb86505a8a95b0b8b3aecbc28e3482ccab52c492b6150c3c"
+  },
+  "notes/_link/Immune Evasion.md": {
+    "mtime": 1784965054.4699113,
+    "ast_hash": "5bc5380cf0b4cc7ca2087a527ffc74de09a2c86ad42a803db3fbf155f69a57b7",
+    "semantic_hash": "5bc5380cf0b4cc7ca2087a527ffc74de09a2c86ad42a803db3fbf155f69a57b7"
+  },
+  "notes/_link/Tumor Antigen.md": {
+    "mtime": 1784967735.7212605,
+    "ast_hash": "51c4ca9d4c351f8d1b0341c93c0db0dfe014debc35609fae42b2378fdced4cbb",
+    "semantic_hash": "51c4ca9d4c351f8d1b0341c93c0db0dfe014debc35609fae42b2378fdced4cbb"
+  },
+  "notes/_link/c-KIT.md": {
+    "mtime": 1785277459.3820221,
+    "ast_hash": "9b7671c486a60a6fd8a59f396d4f40eef6242030e080a45129e8aa2f0fd9c6a6",
+    "semantic_hash": "9b7671c486a60a6fd8a59f396d4f40eef6242030e080a45129e8aa2f0fd9c6a6"
+  },
+  "notes/_link/TALE.md": {
+    "mtime": 1785562584.8965855,
+    "ast_hash": "b5888ca7dfd5f4eda853b01a613a9b7c0689e85bc385f74ff5debb2e9e498cab",
+    "semantic_hash": "b5888ca7dfd5f4eda853b01a613a9b7c0689e85bc385f74ff5debb2e9e498cab"
+  },
+  "notes/_link/UK5099.md": {
+    "mtime": 1786900314.1456804,
+    "ast_hash": "02af3e6a5ced5568f02eeb36b1da090a41378de7d0bdac0f0347ac36176e4717",
+    "semantic_hash": "02af3e6a5ced5568f02eeb36b1da090a41378de7d0bdac0f0347ac36176e4717"
+  },
+  "notes/_link/Anaplerosis.md": {
+    "mtime": 1785042045.5316293,
+    "ast_hash": "b9940152eb1bfddf456c6ff1ac114479658fe59d49363641ed39eb5113dadfda",
+    "semantic_hash": "b9940152eb1bfddf456c6ff1ac114479658fe59d49363641ed39eb5113dadfda"
+  },
+  "notes/_link/Succinate Dehydrogenase.md": {
+    "mtime": 1787074396.5376065,
+    "ast_hash": "6dbe53755959c7aadefcf66b598523e3085161c4fef4367099cbd46b7bb8ed8b",
+    "semantic_hash": "6dbe53755959c7aadefcf66b598523e3085161c4fef4367099cbd46b7bb8ed8b"
+  },
+  "notes/_link/DPP4.md": {
+    "mtime": 1787605187.7515152,
+    "ast_hash": "8512f9f3b90c7e619a205e72d62628f31685f2d13a48efc0679aa0bf9d719212",
+    "semantic_hash": "8512f9f3b90c7e619a205e72d62628f31685f2d13a48efc0679aa0bf9d719212"
+  },
+  "notes/_link/Vitamin K.md": {
+    "mtime": 1787605187.7587514,
+    "ast_hash": "d8634be190fe0180e933d4c8d72ffff94b6419c9a4edda745c1b8a94630b52e4",
+    "semantic_hash": "d8634be190fe0180e933d4c8d72ffff94b6419c9a4edda745c1b8a94630b52e4"
+  },
+  "notes/_link/Frailty Index.md": {
+    "mtime": 1786900314.1471062,
+    "ast_hash": "839cd6a3cb80aebdf1d2a35335a4313cfe973831f7bf727e696961c19779876d",
+    "semantic_hash": "839cd6a3cb80aebdf1d2a35335a4313cfe973831f7bf727e696961c19779876d"
+  },
+  "notes/_link/LKB1.md": {
+    "mtime": 1786899111.8691354,
+    "ast_hash": "a03e2afda18d0c16dd919e3a56d9ff56165c2b75f14e0060b987133b97c336d7",
+    "semantic_hash": "a03e2afda18d0c16dd919e3a56d9ff56165c2b75f14e0060b987133b97c336d7"
+  },
+  "notes/_link/NNMT.md": {
+    "mtime": 1785813145.7237983,
+    "ast_hash": "cd302b011e57399cfca005d6cf7372b3a3123ed872b3eff24078072c6917d959",
+    "semantic_hash": "cd302b011e57399cfca005d6cf7372b3a3123ed872b3eff24078072c6917d959"
+  },
+  "notes/_link/Glutaminolysis.md": {
+    "mtime": 1785042066.108306,
+    "ast_hash": "0d19c7024d1cad070a8a940c02466ac0fbdd99e9c4db15de34f57ac83648579c",
+    "semantic_hash": "0d19c7024d1cad070a8a940c02466ac0fbdd99e9c4db15de34f57ac83648579c"
+  },
+  "notes/_link/Cigarette Smoke.md": {
+    "mtime": 1784965038.512024,
+    "ast_hash": "1886dec72dc4067ec833073c9fad6c61e2129a0fcd04c0fac02aed2369c0ef84",
+    "semantic_hash": "1886dec72dc4067ec833073c9fad6c61e2129a0fcd04c0fac02aed2369c0ef84"
+  },
+  "notes/_link/Crown-like Structures.md": {
+    "mtime": 1785902323.7739036,
+    "ast_hash": "43bc0e7e7e88ac58f7acfbee07bf48141ce71e2af8c3c6682c00ae261b92e75f",
+    "semantic_hash": "43bc0e7e7e88ac58f7acfbee07bf48141ce71e2af8c3c6682c00ae261b92e75f"
+  },
+  "notes/_link/Mevalonate pathway.md": {
+    "mtime": 1787605187.7539175,
+    "ast_hash": "556be54c9155b7c455feb80fe4253fcbd8e56b16f1ffb1a12055602d82a2ffb2",
+    "semantic_hash": "556be54c9155b7c455feb80fe4253fcbd8e56b16f1ffb1a12055602d82a2ffb2"
+  },
+  "notes/_link/Thymopoiesis.md": {
+    "mtime": 1785050446.206738,
+    "ast_hash": "768dfa3991d7506547cf4d9d628e98fe5533910fccd7a7d945911322424c9da8",
+    "semantic_hash": "768dfa3991d7506547cf4d9d628e98fe5533910fccd7a7d945911322424c9da8"
+  },
+  "notes/_link/Proline.md": {
+    "mtime": 1785546003.4038193,
+    "ast_hash": "7f4413fbf895726f17b13b57528b1311f864d35ebad0fbd33744622b6e470baa",
+    "semantic_hash": "7f4413fbf895726f17b13b57528b1311f864d35ebad0fbd33744622b6e470baa"
+  },
+  "notes/_link/RAF.md": {
+    "mtime": 1787605187.754968,
+    "ast_hash": "04d6d9870dd8c4293f6ce1bd70db453742cfb1dfb909ab94043b9d730b3dc140",
+    "semantic_hash": "04d6d9870dd8c4293f6ce1bd70db453742cfb1dfb909ab94043b9d730b3dc140"
+  },
+  "notes/_link/_document_ - How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage.md": {
+    "mtime": 1787605187.7593577,
+    "ast_hash": "a99f8606b1a0a07d7c7f883826500bc48dc68fa23343c5d0e46e6c2913646148",
+    "semantic_hash": "a99f8606b1a0a07d7c7f883826500bc48dc68fa23343c5d0e46e6c2913646148"
+  },
+  "notes/_link/Rspo1.md": {
+    "mtime": 1786464462.7890236,
+    "ast_hash": "45b1cde3831def35bca26a212485952a01777c78478564c4b03982d16f021b23",
+    "semantic_hash": "45b1cde3831def35bca26a212485952a01777c78478564c4b03982d16f021b23"
+  },
+  "notes/_link/Intestinal Stem Cell.md": {
+    "mtime": 1785052589.2340271,
+    "ast_hash": "bfc8c7f240cd206a09e373449ac275f9af84621547503ca7bbe0b49536d4cdd8",
+    "semantic_hash": "bfc8c7f240cd206a09e373449ac275f9af84621547503ca7bbe0b49536d4cdd8"
+  },
+  "notes/_link/NFS1.md": {
+    "mtime": 1787605187.7543657,
+    "ast_hash": "8c65bcb89cccfb80ef7ff7cbe5c99a256a71341d6d03ac198106f31132375615",
+    "semantic_hash": "8c65bcb89cccfb80ef7ff7cbe5c99a256a71341d6d03ac198106f31132375615"
+  },
+  "notes/_link/STEAP3.md": {
+    "mtime": 1787605187.7568803,
+    "ast_hash": "444e8aec4f1f607849a872870f4e82b75404ccfc68ea79ec2a8cee086b2562f4",
+    "semantic_hash": "444e8aec4f1f607849a872870f4e82b75404ccfc68ea79ec2a8cee086b2562f4"
+  },
+  "notes/_link/Executioner Caspase.md": {
+    "mtime": 1784965777.134687,
+    "ast_hash": "be00059ed4f486a3441661f2d9fd3828825c68dcef7b442e72b8da6b93447048",
+    "semantic_hash": "be00059ed4f486a3441661f2d9fd3828825c68dcef7b442e72b8da6b93447048"
+  },
+  "notes/_link/iFSP1.md": {
+    "mtime": 1787605187.7597206,
+    "ast_hash": "d0c3924d089b2f8da7ef41db372fb24f36b8be898a0e894cd0ea3a3657c68c45",
+    "semantic_hash": "d0c3924d089b2f8da7ef41db372fb24f36b8be898a0e894cd0ea3a3657c68c45"
+  },
+  "notes/_link/Acid ceramidase.md": {
+    "mtime": 1785260606.6443295,
+    "ast_hash": "7fb8e7530f240970eba8355105218726a2279a8fbb7aee3e64624d1ea1af5d7d",
+    "semantic_hash": "7fb8e7530f240970eba8355105218726a2279a8fbb7aee3e64624d1ea1af5d7d"
+  },
+  "notes/_link/Drug Resistance.md": {
+    "mtime": 1785277451.3355901,
+    "ast_hash": "35f16b8274dc03245d2abc551a60fc3e18eb98f46150b8c274ef4f9aa1477687",
+    "semantic_hash": "35f16b8274dc03245d2abc551a60fc3e18eb98f46150b8c274ef4f9aa1477687"
+  },
+  "notes/_link/Chronic Lymphocytic Leukemia.md": {
+    "mtime": 1787074473.3396485,
+    "ast_hash": "db227b4db80226683bd33b583e17eb6ed786298917c78e7b80c679e161c58b04",
+    "semantic_hash": "db227b4db80226683bd33b583e17eb6ed786298917c78e7b80c679e161c58b04"
+  },
+  "notes/_link/Citrate.md": {
+    "mtime": 1786900314.150837,
+    "ast_hash": "b984163733b2e612696b3f385c4f43ce6fd05f0ff6c94600d081831c1aeb51d8",
+    "semantic_hash": "b984163733b2e612696b3f385c4f43ce6fd05f0ff6c94600d081831c1aeb51d8"
+  },
+  "notes/_link/Tamoxifen.md": {
+    "mtime": 1786464486.9200299,
+    "ast_hash": "2d7767bafe97151141335df237e3a4aa08def86f52550aca7e259b2344fc21d0",
+    "semantic_hash": "2d7767bafe97151141335df237e3a4aa08def86f52550aca7e259b2344fc21d0"
+  },
+  "notes/_link/CMS121.md": {
+    "mtime": 1786323612.8412127,
+    "ast_hash": "6b6fbbbdb85bc88e6cfd510305df689ac74397913a28e026daff49536e9951d3",
+    "semantic_hash": "6b6fbbbdb85bc88e6cfd510305df689ac74397913a28e026daff49536e9951d3"
+  },
+  "notes/_link/Isoleucine.md": {
+    "mtime": 1785546622.0809872,
+    "ast_hash": "f05e817dda9f84c84f9b4d2ef4b5c94d42a27563eb971d4e7eb971aa9720ce39",
+    "semantic_hash": "f05e817dda9f84c84f9b4d2ef4b5c94d42a27563eb971d4e7eb971aa9720ce39"
+  },
+  "notes/_link/Metastatic colonization.md": {
+    "mtime": 1787605187.7538207,
+    "ast_hash": "7602557d86e2b4f39c234c7f96afb9c50fab0e8cb337e5a465d9c9008c8b0c4c",
+    "semantic_hash": "7602557d86e2b4f39c234c7f96afb9c50fab0e8cb337e5a465d9c9008c8b0c4c"
+  },
+  "notes/_link/Farber disease.md": {
+    "mtime": 1785169624.456902,
+    "ast_hash": "83d08699d0835bfac0975659b6fa06a330544eb284fcc01db69c7779c29009df",
+    "semantic_hash": "83d08699d0835bfac0975659b6fa06a330544eb284fcc01db69c7779c29009df"
+  },
+  "notes/_link/Melanocyte.md": {
+    "mtime": 1787605187.7536304,
+    "ast_hash": "d11646ab414b1ae3890b5ecbacb53f3a1df6af1037443eec62c793cc73de4205",
+    "semantic_hash": "d11646ab414b1ae3890b5ecbacb53f3a1df6af1037443eec62c793cc73de4205"
+  },
+  "notes/_link/Ferroportin.md": {
+    "mtime": 1787605187.7526436,
+    "ast_hash": "fdde26f7cdc89558be5cf5e0a03c358179fb3101d5dedd51b7620773df8bf620",
+    "semantic_hash": "fdde26f7cdc89558be5cf5e0a03c358179fb3101d5dedd51b7620773df8bf620"
+  },
+  "notes/_link/ASAH1.md": {
+    "mtime": 1785169621.0039458,
+    "ast_hash": "aa2dc2da077e4140c812875f9669b2e960da47088778c00057720ae712c7dee3",
+    "semantic_hash": "aa2dc2da077e4140c812875f9669b2e960da47088778c00057720ae712c7dee3"
+  },
+  "notes/_link/Kidney Fibrosis.md": {
+    "mtime": 1786464278.8001187,
+    "ast_hash": "f89d371246efa405fb440abd2b3f4c3153139b3b545c433b1305ddf087dbf5be",
+    "semantic_hash": "f89d371246efa405fb440abd2b3f4c3153139b3b545c433b1305ddf087dbf5be"
+  },
+  "notes/_link/MMP-7.md": {
+    "mtime": 1787074473.3437154,
+    "ast_hash": "0fe927f9b30da097ce8f9489c58ffb15522c693a8b5d60cc53525e79dea4b337",
+    "semantic_hash": "0fe927f9b30da097ce8f9489c58ffb15522c693a8b5d60cc53525e79dea4b337"
+  },
+  "notes/_link/Lamivudine.md": {
+    "mtime": 1784965000.6690176,
+    "ast_hash": "38eabb8de7c9a14f69e5bc57f48728bdbd1413dbf921c54152da4b4d8d5c2bc5",
+    "semantic_hash": "38eabb8de7c9a14f69e5bc57f48728bdbd1413dbf921c54152da4b4d8d5c2bc5"
+  },
+  "notes/_link/Piceatannol.md": {
+    "mtime": 1786575372.9401755,
+    "ast_hash": "af92d2beec082b054653146802201c1d6faf6901877e84639cc84987fc8731f8",
+    "semantic_hash": "af92d2beec082b054653146802201c1d6faf6901877e84639cc84987fc8731f8"
+  },
+  "notes/_link/Mitochondrial Biogenesis.md": {
+    "mtime": 1786898717.428095,
+    "ast_hash": "453e6e01f94fb4cfd6b2b8ce4b40a0b7b207c9011b8eecf0e376e4bdc2a50d64",
+    "semantic_hash": "453e6e01f94fb4cfd6b2b8ce4b40a0b7b207c9011b8eecf0e376e4bdc2a50d64"
+  },
+  "notes/_link/PD-1.md": {
+    "mtime": 1784967735.7077632,
+    "ast_hash": "e75083ec0c198ece9397183470205556bdd1f559b0af2dff96f2097e2f5d168b",
+    "semantic_hash": "e75083ec0c198ece9397183470205556bdd1f559b0af2dff96f2097e2f5d168b"
+  },
+  "notes/_link/Thymic Epithelial Cells.md": {
+    "mtime": 1785050446.2063882,
+    "ast_hash": "b0903fc46b86ea1adc738fbc1a48dab840dd4f3ef609d21b7552cd5b7d8360a3",
+    "semantic_hash": "b0903fc46b86ea1adc738fbc1a48dab840dd4f3ef609d21b7552cd5b7d8360a3"
+  },
+  "notes/_link/Podophyllotoxin.md": {
+    "mtime": 1785277876.0363998,
+    "ast_hash": "ba2d447c8a9be3d8c72bcbd4f93bbc6bf7bf1daeb64e8f6c8420fc33c4f59471",
+    "semantic_hash": "ba2d447c8a9be3d8c72bcbd4f93bbc6bf7bf1daeb64e8f6c8420fc33c4f59471"
+  },
+  "notes/_link/MIP-2.md": {
+    "mtime": 1787074396.537634,
+    "ast_hash": "349048b93578eaeb952215a19bc9b8212996cdff6c4d72ef9643de91f0d644ba",
+    "semantic_hash": "349048b93578eaeb952215a19bc9b8212996cdff6c4d72ef9643de91f0d644ba"
+  },
+  "notes/_link/Checkpoint Inhibitor.md": {
+    "mtime": 1784965734.4990168,
+    "ast_hash": "8c1309c5acc226bab2240c8c9a06a55f66d29bf15fd3d32fabce8948f67faf2b",
+    "semantic_hash": "8c1309c5acc226bab2240c8c9a06a55f66d29bf15fd3d32fabce8948f67faf2b"
+  },
+  "notes/_link/Mst1.md": {
+    "mtime": 1787074542.2440498,
+    "ast_hash": "5df262d189e95e91f066643ba962b9f348cc5ae922c165844ee2d0d55acfdd31",
+    "semantic_hash": "5df262d189e95e91f066643ba962b9f348cc5ae922c165844ee2d0d55acfdd31"
+  },
+  "notes/_link/Bcl-xL.md": {
+    "mtime": 1786897979.1499999,
+    "ast_hash": "3f15cfd45fe8c26ab4930eb7ad36cabac0f138af97f90d62105fb479456f902a",
+    "semantic_hash": "3f15cfd45fe8c26ab4930eb7ad36cabac0f138af97f90d62105fb479456f902a"
+  },
+  "notes/_link/ARN14974.md": {
+    "mtime": 1785169241.4078984,
+    "ast_hash": "78b43e39fa7f30d1c3434d35e3cea58f96506c591766f77b6d04db2028ba9469",
+    "semantic_hash": "78b43e39fa7f30d1c3434d35e3cea58f96506c591766f77b6d04db2028ba9469"
+  },
+  "notes/_link/CD44.md": {
+    "mtime": 1787605187.7510128,
+    "ast_hash": "92fbaf582340c7fe5cfc2083fcf11f33dd8c16637950eddba96f69084403caee",
+    "semantic_hash": "92fbaf582340c7fe5cfc2083fcf11f33dd8c16637950eddba96f69084403caee"
+  },
+  "notes/_link/CtIP.md": {
+    "mtime": 1785800091.6897945,
+    "ast_hash": "a9c4b211e6de1f3ccccb7729053ed55faede251111699d2c2d17827aac1566d4",
+    "semantic_hash": "a9c4b211e6de1f3ccccb7729053ed55faede251111699d2c2d17827aac1566d4"
+  },
+  "notes/_link/FOS.md": {
+    "mtime": 1787074396.5323122,
+    "ast_hash": "d4672fc926574812751ec56c41ae9e9d27280268e465d9fc1dd7b17bb3e6385c",
+    "semantic_hash": "d4672fc926574812751ec56c41ae9e9d27280268e465d9fc1dd7b17bb3e6385c"
+  },
+  "notes/_link/Pulmonary Fibrosis.md": {
+    "mtime": 1786475530.1542125,
+    "ast_hash": "e556cfe1e66c32ee961d2b89c473f2506147e6ec5eaa11e24a0e22b3e90d8f6b",
+    "semantic_hash": "e556cfe1e66c32ee961d2b89c473f2506147e6ec5eaa11e24a0e22b3e90d8f6b"
+  },
+  "notes/_link/SAT1.md": {
+    "mtime": 1787605187.756272,
+    "ast_hash": "8a078b466ab5f4dff5f1819ca894d0f5e14a5b7f5e504e414b3c1edf291c5134",
+    "semantic_hash": "8a078b466ab5f4dff5f1819ca894d0f5e14a5b7f5e504e414b3c1edf291c5134"
+  },
+  "notes/_link/CISD2.md": {
+    "mtime": 1787605187.7512612,
+    "ast_hash": "ef2ade165f1dddd292d0731f2e6227c4a7ab0d2e2f39bf731ce3bc67f69574d9",
+    "semantic_hash": "ef2ade165f1dddd292d0731f2e6227c4a7ab0d2e2f39bf731ce3bc67f69574d9"
+  },
+  "notes/_link/eEFSec.md": {
+    "mtime": 1787605187.759636,
+    "ast_hash": "32aede49528e4a1f121fef1b330fb679b5aa49b025160d40ae464d09389269d5",
+    "semantic_hash": "32aede49528e4a1f121fef1b330fb679b5aa49b025160d40ae464d09389269d5"
+  },
+  "notes/_link/UCP3.md": {
+    "mtime": 1785522797.16372,
+    "ast_hash": "5872c7a2eae9184490276846e1cc887d545255a6f12d6da883807b48234b2581",
+    "semantic_hash": "5872c7a2eae9184490276846e1cc887d545255a6f12d6da883807b48234b2581"
+  },
+  "notes/_link/soluble epoxide hydrolase.md": {
+    "mtime": 1787074473.3450742,
+    "ast_hash": "574133f79a53e8aac194123912b2fb9e60ef2844eae335be033befd55742f8d8",
+    "semantic_hash": "574133f79a53e8aac194123912b2fb9e60ef2844eae335be033befd55742f8d8"
+  },
+  "notes/_link/NAPRT.md": {
+    "mtime": 1785902278.3793087,
+    "ast_hash": "ec698f067a6974b18fdbbc51e12b8015adb77ce0d1b830632ca0248977f012d1",
+    "semantic_hash": "ec698f067a6974b18fdbbc51e12b8015adb77ce0d1b830632ca0248977f012d1"
+  },
+  "notes/_link/Pembrolizumab.md": {
+    "mtime": 1785278023.1625588,
+    "ast_hash": "5eb0ec681679cb472e959fde840c5ece9c988aa3d2229178595220a1b863c677",
+    "semantic_hash": "5eb0ec681679cb472e959fde840c5ece9c988aa3d2229178595220a1b863c677"
+  },
+  "notes/_link/Indole-3-propionic acid.md": {
+    "mtime": 1787074473.3396685,
+    "ast_hash": "102bb784d7b9d35eee808fc1deff8934b4d91b564bc028949e24f5c345ede2c2",
+    "semantic_hash": "102bb784d7b9d35eee808fc1deff8934b4d91b564bc028949e24f5c345ede2c2"
+  },
+  "notes/_link/Beta-Adrenergic Receptor.md": {
+    "mtime": 1785522903.8072155,
+    "ast_hash": "ae8be705bc92dde8597f0e187c63e5d871adce8bedfd129d9ed223e23cbd2bc9",
+    "semantic_hash": "ae8be705bc92dde8597f0e187c63e5d871adce8bedfd129d9ed223e23cbd2bc9"
+  },
+  "notes/_link/Monoacylglycerol Lipase.md": {
+    "mtime": 1785819130.0721161,
+    "ast_hash": "2acf7adf2b319e87b46664fb86b48865c295e4c7ceb05e54bb713c060e451af1",
+    "semantic_hash": "2acf7adf2b319e87b46664fb86b48865c295e4c7ceb05e54bb713c060e451af1"
+  },
+  "notes/_link/Flavan-3-ols.md": {
+    "mtime": 1786757495.7307432,
+    "ast_hash": "f1945df0bc76c3d593a800f33809ebedb7522ff278c9cba0671d5957e89bff79",
+    "semantic_hash": "f1945df0bc76c3d593a800f33809ebedb7522ff278c9cba0671d5957e89bff79"
+  },
+  "notes/_link/Thymic Involution.md": {
+    "mtime": 1786897899.843373,
+    "ast_hash": "b5c043149c4a625415872db83e1903dfe5885188c3e66133eb1ad137b522dc55",
+    "semantic_hash": "b5c043149c4a625415872db83e1903dfe5885188c3e66133eb1ad137b522dc55"
+  },
+  "notes/_link/SLC7A11.md": {
+    "mtime": 1787605187.7568038,
+    "ast_hash": "80f9327cbfbe98cf5b1b07e8a48f1707a42d57a43113893001607ea16205553c",
+    "semantic_hash": "80f9327cbfbe98cf5b1b07e8a48f1707a42d57a43113893001607ea16205553c"
+  },
+  "notes/_link/_document_ - The role of mitochondrial dynamics in disease.md": {
+    "mtime": 1785012533.0988479,
+    "ast_hash": "e4e27afe8ecd5e589460c88ffb5f5648d8302551f9e93c4e1cf411ba4e0ee0b8",
+    "semantic_hash": "e4e27afe8ecd5e589460c88ffb5f5648d8302551f9e93c4e1cf411ba4e0ee0b8"
+  },
+  "notes/_link/UGA codon.md": {
+    "mtime": 1787605187.7583792,
+    "ast_hash": "2e01fb5454de4bd0f5fb5cd887691f008361c07ce7ebd0cf7d7fc1ae16cdb77a",
+    "semantic_hash": "2e01fb5454de4bd0f5fb5cd887691f008361c07ce7ebd0cf7d7fc1ae16cdb77a"
+  },
+  "notes/_link/ARN14794.md": {
+    "mtime": 1785169237.4802647,
+    "ast_hash": "793ca7a17bd4f31bce89d064f12f7f1daaafca46cee392826777bc5850585088",
+    "semantic_hash": "793ca7a17bd4f31bce89d064f12f7f1daaafca46cee392826777bc5850585088"
+  },
+  "notes/_link/5-Fluorouracil.md": {
+    "mtime": 1785277395.9685664,
+    "ast_hash": "3c256fbae2c35c5ca3db3ff9bdf9f163e2450e63404160335e6c1edd15142dc8",
+    "semantic_hash": "3c256fbae2c35c5ca3db3ff9bdf9f163e2450e63404160335e6c1edd15142dc8"
+  },
+  "notes/_link/Silybin.md": {
+    "mtime": 1787074542.2440655,
+    "ast_hash": "ae40311649d35b403a4b737f174ac0322863ede39e72f408374c39ff54b6db85",
+    "semantic_hash": "ae40311649d35b403a4b737f174ac0322863ede39e72f408374c39ff54b6db85"
+  },
+  "notes/_link/Periodontitis.md": {
+    "mtime": 1787074396.5429294,
+    "ast_hash": "86c4d34f81e438980cf3c20bf971ea93350f8c3460ec3b86ed65aac4e4fe33f6",
+    "semantic_hash": "86c4d34f81e438980cf3c20bf971ea93350f8c3460ec3b86ed65aac4e4fe33f6"
+  },
+  "notes/_link/Annexin A1.md": {
+    "mtime": 1787074612.3748217,
+    "ast_hash": "49818fe36dac564e34bd88c9cbe9b2ae6c9b1fd3392f42a565150eb25b9dc648",
+    "semantic_hash": "49818fe36dac564e34bd88c9cbe9b2ae6c9b1fd3392f42a565150eb25b9dc648"
+  },
+  "notes/_link/Imatinib.md": {
+    "mtime": 1785277483.4579506,
+    "ast_hash": "412165550a9a89d0bc4264f2fd7ef7fbc3538e2124d3ffde6a2941921b668168",
+    "semantic_hash": "412165550a9a89d0bc4264f2fd7ef7fbc3538e2124d3ffde6a2941921b668168"
+  },
+  "notes/_link/IGF1.md": {
+    "mtime": 1786897848.368809,
+    "ast_hash": "90fdaaba30ac58b95d3bafccdd21d38b878fea88eaa81fec32dd8bed246c1250",
+    "semantic_hash": "90fdaaba30ac58b95d3bafccdd21d38b878fea88eaa81fec32dd8bed246c1250"
+  },
+  "notes/_link/Um34.md": {
+    "mtime": 1787605187.758658,
+    "ast_hash": "8a7d8400fb058d91bb9fbf6ee347e2c70cf45b973e8c4aa9bb370793f7869dc2",
+    "semantic_hash": "8a7d8400fb058d91bb9fbf6ee347e2c70cf45b973e8c4aa9bb370793f7869dc2"
+  },
+  "notes/_link/Citrate Synthase.md": {
+    "mtime": 1785522936.674733,
+    "ast_hash": "8350f5900ff0c833edce0a08939360070d627a067ffff1fd694e64c504557898",
+    "semantic_hash": "8350f5900ff0c833edce0a08939360070d627a067ffff1fd694e64c504557898"
+  },
+  "notes/_link/Zinc Finger.md": {
+    "mtime": 1785562584.8968518,
+    "ast_hash": "fbaf8652fe2cc5caa244036fdd578b0e425eeb24be7b09cb64277aa4d02dcd34",
+    "semantic_hash": "fbaf8652fe2cc5caa244036fdd578b0e425eeb24be7b09cb64277aa4d02dcd34"
+  },
+  "notes/_link/Aurora Kinase.md": {
+    "mtime": 1786638538.182876,
+    "ast_hash": "7cc987db7dac5922c4b719c8bdabde7fd1c0ad4eeba39369f44e0ba8bf7b2d6c",
+    "semantic_hash": "7cc987db7dac5922c4b719c8bdabde7fd1c0ad4eeba39369f44e0ba8bf7b2d6c"
+  },
+  "notes/_link/Cristae.md": {
+    "mtime": 1784879161.9983482,
+    "ast_hash": "5664054d29f79f74991f07358cf8b9fe916629db68a74a887384f64c70b32a54",
+    "semantic_hash": "5664054d29f79f74991f07358cf8b9fe916629db68a74a887384f64c70b32a54"
+  },
+  "notes/_link/CTPI2.md": {
+    "mtime": 1786900314.1588585,
+    "ast_hash": "7140dd3c4d3f6f0d607be5b6367713e6075793a483d8d67d9a192d0795c1078e",
+    "semantic_hash": "7140dd3c4d3f6f0d607be5b6367713e6075793a483d8d67d9a192d0795c1078e"
+  },
+  "notes/_link/ChREBP.md": {
+    "mtime": 1786464357.4211586,
+    "ast_hash": "e11397c6141645b0aabfc6abed670718e68d6e018b00bcdd90241ef1fa11a2ac",
+    "semantic_hash": "e11397c6141645b0aabfc6abed670718e68d6e018b00bcdd90241ef1fa11a2ac"
+  },
+  "notes/_link/tRNA.md": {
+    "mtime": 1787605187.75989,
+    "ast_hash": "76fca59c8c0b4e0e441fe8f8ab1b722d557cac3b4892aba9905e8d9dc9fb4809",
+    "semantic_hash": "76fca59c8c0b4e0e441fe8f8ab1b722d557cac3b4892aba9905e8d9dc9fb4809"
+  },
+  "notes/_link/Thermogenesis.md": {
+    "mtime": 1785522820.1024249,
+    "ast_hash": "2d784d7aa335afc915860bcb6ce58362f76d65f0b4bbe0a413af276c68494962",
+    "semantic_hash": "2d784d7aa335afc915860bcb6ce58362f76d65f0b4bbe0a413af276c68494962"
+  },
+  "notes/_link/MPC.md": {
+    "mtime": 1786900314.159438,
+    "ast_hash": "e88a033e3bd5cbd4cd22d5a5f56808078f07db99689524d935771a1914fe2734",
+    "semantic_hash": "e88a033e3bd5cbd4cd22d5a5f56808078f07db99689524d935771a1914fe2734"
+  },
+  "notes/_link/NFATc2.md": {
+    "mtime": 1786464447.7031868,
+    "ast_hash": "2aac742d46516292b480144e009d1c5fbd33675fbb4d3d07d85f80504b31269d",
+    "semantic_hash": "2aac742d46516292b480144e009d1c5fbd33675fbb4d3d07d85f80504b31269d"
+  },
+  "notes/_link/mitoZFNs.md": {
+    "mtime": 1785515047.7877765,
+    "ast_hash": "7e7ab1906d1ff532d6a59d958abd10880de23bfa2535f54be90f40981b50bcee",
+    "semantic_hash": "7e7ab1906d1ff532d6a59d958abd10880de23bfa2535f54be90f40981b50bcee"
+  },
+  "notes/_link/Acute Kidney Injury.md": {
+    "mtime": 1786464139.839163,
+    "ast_hash": "ae78712b0a251bd92042d20d12a8c2fbb856a553379727f2e4788bfa83d9edce",
+    "semantic_hash": "ae78712b0a251bd92042d20d12a8c2fbb856a553379727f2e4788bfa83d9edce"
+  },
+  "notes/_link/Thymidylate Synthase.md": {
+    "mtime": 1785277455.60309,
+    "ast_hash": "40d51f063bf0ff97703ac010bbef8859ba7169fdae69c3a82060fce1de28fcc7",
+    "semantic_hash": "40d51f063bf0ff97703ac010bbef8859ba7169fdae69c3a82060fce1de28fcc7"
+  },
+  "notes/_link/Age-related Hearing Loss.md": {
+    "mtime": 1787073717.8275573,
+    "ast_hash": "2623168e0a4dbcf749c4958d8a7608d429075a71c0ea438d42f3d0507c49b442",
+    "semantic_hash": "2623168e0a4dbcf749c4958d8a7608d429075a71c0ea438d42f3d0507c49b442"
+  },
+  "notes/_link/miR-34a.md": {
+    "mtime": 1786992076.9521148,
+    "ast_hash": "a66285370cc08eacb2126294a34d9b4f4f9f50b465d023d8e79318b307c29f1e",
+    "semantic_hash": "a66285370cc08eacb2126294a34d9b4f4f9f50b465d023d8e79318b307c29f1e"
+  },
+  "notes/_link/Geraldol.md": {
+    "mtime": 1785384842.2127314,
+    "ast_hash": "5f9c730e96a3a5f338b2ab905c0c4a547177b84ac89ecff739a4ce2c0b07f1e9",
+    "semantic_hash": "5f9c730e96a3a5f338b2ab905c0c4a547177b84ac89ecff739a4ce2c0b07f1e9"
+  },
+  "notes/_link/Meteorin-like.md": {
+    "mtime": 1787074612.3748145,
+    "ast_hash": "cf1f4423a4a7dec49034cdca7445eb6de6d36cf8a230c4675e61cdf124e14301",
+    "semantic_hash": "cf1f4423a4a7dec49034cdca7445eb6de6d36cf8a230c4675e61cdf124e14301"
+  },
+  "notes/_link/Selenoprotein P.md": {
+    "mtime": 1787605187.7570627,
+    "ast_hash": "46fbcb67d701eddd5e8c28c9fe274e23b5434425f75538f9b5ef015bd87ce94b",
+    "semantic_hash": "46fbcb67d701eddd5e8c28c9fe274e23b5434425f75538f9b5ef015bd87ce94b"
+  },
+  "notes/_link/Pycnogenol.md": {
+    "mtime": 1786757510.7201107,
+    "ast_hash": "4098c03c14e0c0b8bc051a1ed00f033a3271a80d2a0d90a607f87432cd4b2878",
+    "semantic_hash": "4098c03c14e0c0b8bc051a1ed00f033a3271a80d2a0d90a607f87432cd4b2878"
+  },
+  "notes/_link/Flavin-containing Monooxygenase.md": {
+    "mtime": 1785277406.3542588,
+    "ast_hash": "520f152da79fecf6cfaac2f41bfd374b7a249aabfb104eb49fd4771b85f20618",
+    "semantic_hash": "520f152da79fecf6cfaac2f41bfd374b7a249aabfb104eb49fd4771b85f20618"
+  },
+  "notes/_link/VEGFR.md": {
+    "mtime": 1785277457.9581301,
+    "ast_hash": "7a04f967c0ac2f932b79cc993fe14f3d0f6c83810ff97daf9b4060db9f27f198",
+    "semantic_hash": "7a04f967c0ac2f932b79cc993fe14f3d0f6c83810ff97daf9b4060db9f27f198"
+  },
+  "notes/_link/Saposin-D.md": {
+    "mtime": 1785169230.2663467,
+    "ast_hash": "9bca192af4388c9bae45beb0bba4728c086db3a2b2ce972a8d90e04cf6b1ae4f",
+    "semantic_hash": "9bca192af4388c9bae45beb0bba4728c086db3a2b2ce972a8d90e04cf6b1ae4f"
+  },
+  "notes/_link/COL1A1.md": {
+    "mtime": 1787074473.3437145,
+    "ast_hash": "b9892231fe55990fa0ac974ec437a6e1e8dd618dc75acbe059d08405cf7aa0a7",
+    "semantic_hash": "b9892231fe55990fa0ac974ec437a6e1e8dd618dc75acbe059d08405cf7aa0a7"
+  },
+  "notes/_link/Salicylic acid.md": {
+    "mtime": 1785277467.2482374,
+    "ast_hash": "de5825c769f20669de6cf928fdad4cb5d384dd68ccca030b72631a754ebc453d",
+    "semantic_hash": "de5825c769f20669de6cf928fdad4cb5d384dd68ccca030b72631a754ebc453d"
+  },
+  "notes/_link/Mitochondrial Trifunctional Protein α.md": {
+    "mtime": 1785819130.0708342,
+    "ast_hash": "c03fdf5ba1222dc160edb54e31c05c05bc64eeb399eb3868743bd250f30d0178",
+    "semantic_hash": "c03fdf5ba1222dc160edb54e31c05c05bc64eeb399eb3868743bd250f30d0178"
+  },
+  "notes/_link/FKBP38.md": {
+    "mtime": 1784879142.5155468,
+    "ast_hash": "cde1b2f4b0885927e4930d0e84b9cbafa6f1a26d7a9eda81fb3044e1d0c8c43e",
+    "semantic_hash": "cde1b2f4b0885927e4930d0e84b9cbafa6f1a26d7a9eda81fb3044e1d0c8c43e"
+  },
+  "notes/_link/Selenocysteine.md": {
+    "mtime": 1787605187.7569754,
+    "ast_hash": "7d7b0dc29b5091e0e04d130a962da46267e860285efc3f322cd2240e1c3652ad",
+    "semantic_hash": "7d7b0dc29b5091e0e04d130a962da46267e860285efc3f322cd2240e1c3652ad"
+  },
+  "notes/_link/NIX.md": {
+    "mtime": 1784879338.602437,
+    "ast_hash": "ed23c9cd77662fb5dbca4d52ab62423b1678c5e48d90f7f52e6f7f82781458c9",
+    "semantic_hash": "ed23c9cd77662fb5dbca4d52ab62423b1678c5e48d90f7f52e6f7f82781458c9"
+  },
+  "notes/_link/CDO1.md": {
+    "mtime": 1787605187.7510996,
+    "ast_hash": "3c86fc0a9fcebd6f50cb8d7169f700e0391bcf8c84a5b6277516c09f245bc450",
+    "semantic_hash": "3c86fc0a9fcebd6f50cb8d7169f700e0391bcf8c84a5b6277516c09f245bc450"
+  },
+  "notes/_link/FTSJ1.md": {
+    "mtime": 1787605187.7525492,
+    "ast_hash": "67c88c11775f4b56cd7eb2e7b12fd6a47bc0a6732d6e0bb139e5bab87bf2f10e",
+    "semantic_hash": "67c88c11775f4b56cd7eb2e7b12fd6a47bc0a6732d6e0bb139e5bab87bf2f10e"
+  },
+  "notes/_link/AGO2.md": {
+    "mtime": 1787074612.3842356,
+    "ast_hash": "1594536885222a5dacae595fd41e1256bb7db1427272e65de915703e9a8d865c",
+    "semantic_hash": "1594536885222a5dacae595fd41e1256bb7db1427272e65de915703e9a8d865c"
+  },
+  "notes/_link/SLC1A5.md": {
+    "mtime": 1787605187.756633,
+    "ast_hash": "fd58b73cfbd64478aadb0129f3b5c8a7c636ddeca6082be881f042f75eaa1c53",
+    "semantic_hash": "fd58b73cfbd64478aadb0129f3b5c8a7c636ddeca6082be881f042f75eaa1c53"
+  },
+  "notes/_link/HIF-2α.md": {
+    "mtime": 1785819130.0722,
+    "ast_hash": "00f15d642294804fd7f6fb9aef1696ef78a37eb528256c2977f316772d91aa08",
+    "semantic_hash": "00f15d642294804fd7f6fb9aef1696ef78a37eb528256c2977f316772d91aa08"
+  },
+  "notes/_link/Pyruvate Dehydrogenase.md": {
+    "mtime": 1786900314.163271,
+    "ast_hash": "dc35f52bd4b580b638c40ebf74bf6453f861216ecb4f7c10d851798d47244141",
+    "semantic_hash": "dc35f52bd4b580b638c40ebf74bf6453f861216ecb4f7c10d851798d47244141"
+  },
+  "notes/_link/Fat Oxidation.md": {
+    "mtime": 1785522946.7046914,
+    "ast_hash": "0f5f88f3c8aaa1d22a57609331debd29f1e224b059cbdf4ae13e21a00684cc71",
+    "semantic_hash": "0f5f88f3c8aaa1d22a57609331debd29f1e224b059cbdf4ae13e21a00684cc71"
+  },
+  "notes/_link/Ghrelin.md": {
+    "mtime": 1785050446.2034914,
+    "ast_hash": "8c5da469d9dca9c3108b69321f467ec193c982f75485afbc37021bac4fa86a83",
+    "semantic_hash": "8c5da469d9dca9c3108b69321f467ec193c982f75485afbc37021bac4fa86a83"
+  },
+  "notes/_link/Spinal muscular atrophy with progressive myoclonic epilepsy.md": {
+    "mtime": 1785169627.6174722,
+    "ast_hash": "d4ab6ee026b80b47cf3e9ab2e958bfd540d80220202bb166f9da2f76445619d7",
+    "semantic_hash": "d4ab6ee026b80b47cf3e9ab2e958bfd540d80220202bb166f9da2f76445619d7"
+  },
+  "notes/_link/_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md": {
+    "mtime": 1785513566.452819,
+    "ast_hash": "6f6b4f94cd0529e54d732158675140af54a2a92924c2bd592cf7f262722df299",
+    "semantic_hash": "6f6b4f94cd0529e54d732158675140af54a2a92924c2bd592cf7f262722df299"
+  },
+  "notes/_link/JAK-STAT Signaling.md": {
+    "mtime": 1784965043.3195775,
+    "ast_hash": "ddd965e780bd0a6932b20a939ed9ceebd507d237562bf7c4f8a36d89bd95f30d",
+    "semantic_hash": "ddd965e780bd0a6932b20a939ed9ceebd507d237562bf7c4f8a36d89bd95f30d"
+  },
+  "notes/_link/IDH2.md": {
+    "mtime": 1785800057.4563131,
+    "ast_hash": "9f3fd4d94579ef426f957d40d1df65225a2a36f41c5f32cb79a596a2ddc94568",
+    "semantic_hash": "9f3fd4d94579ef426f957d40d1df65225a2a36f41c5f32cb79a596a2ddc94568"
+  },
+  "notes/_link/Excess Post-Exercise Oxygen Consumption.md": {
+    "mtime": 1785522765.0415127,
+    "ast_hash": "583616757add2e52f33a934fd0f80da704583c8b4b6e872564165b2ae95229b5",
+    "semantic_hash": "583616757add2e52f33a934fd0f80da704583c8b4b6e872564165b2ae95229b5"
+  },
+  "notes/_link/_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis.md": {
+    "mtime": 1787605187.7595382,
+    "ast_hash": "4baad779cd44dba0aaa81014f05f8c1307912ffcbf153b6746df0eb31fd8ac3a",
+    "semantic_hash": "4baad779cd44dba0aaa81014f05f8c1307912ffcbf153b6746df0eb31fd8ac3a"
+  },
+  "notes/_link/Sunitinib.md": {
+    "mtime": 1785277485.104532,
+    "ast_hash": "47320bf09c01b081d2f540a72fe6eddd8077dd68c08378430d134a59618b31e1",
+    "semantic_hash": "47320bf09c01b081d2f540a72fe6eddd8077dd68c08378430d134a59618b31e1"
+  },
+  "notes/_link/ALOX5.md": {
+    "mtime": 1787605187.750623,
+    "ast_hash": "c6de763c3eedc35ec8daedc88297782fc51fd9a0d2731a6115424d4b41181753",
+    "semantic_hash": "c6de763c3eedc35ec8daedc88297782fc51fd9a0d2731a6115424d4b41181753"
+  },
+  "notes/_link/Protein Restriction.md": {
+    "mtime": 1785546621.5311527,
+    "ast_hash": "223c7c623722da69a77ca374f4a33682cf2a8fcc16e7252f6918fcdb0b411c63",
+    "semantic_hash": "223c7c623722da69a77ca374f4a33682cf2a8fcc16e7252f6918fcdb0b411c63"
+  },
+  "notes/_link/ARIH1.md": {
+    "mtime": 1784879151.4755177,
+    "ast_hash": "f5dc3aa9f28bcd6a37858f6bceb20a6bf6ed547afc6abc639be555423f1dfcf6",
+    "semantic_hash": "f5dc3aa9f28bcd6a37858f6bceb20a6bf6ed547afc6abc639be555423f1dfcf6"
+  },
+  "notes/_link/Pulmonary Arterial Hypertension.md": {
+    "mtime": 1784879367.3743162,
+    "ast_hash": "714284a93ad9df0be773591dfcfdf0325dd6c8acae4f5657de810de92e6f991a",
+    "semantic_hash": "714284a93ad9df0be773591dfcfdf0325dd6c8acae4f5657de810de92e6f991a"
+  },
+  "notes/_link/GABPβ1.md": {
+    "mtime": 1785819889.9901664,
+    "ast_hash": "2a0f5fc7d2ef485e524bdc411ab13c4c46b842d35ab1bdbea0dfbf7b3ba5097a",
+    "semantic_hash": "2a0f5fc7d2ef485e524bdc411ab13c4c46b842d35ab1bdbea0dfbf7b3ba5097a"
+  },
+  "notes/_link/Liraglutide.md": {
+    "mtime": 1784879209.4711957,
+    "ast_hash": "696dfd94ff10880b479302405e516a2e773e8fc27bc98d594dcf47287525b405",
+    "semantic_hash": "696dfd94ff10880b479302405e516a2e773e8fc27bc98d594dcf47287525b405"
+  },
+  "notes/_link/T Cell Receptor.md": {
+    "mtime": 1786898931.645688,
+    "ast_hash": "b324ddfc0cb0307014e680510825b48c07cf4bb8671b6470fa554c97ef8d883b",
+    "semantic_hash": "b324ddfc0cb0307014e680510825b48c07cf4bb8671b6470fa554c97ef8d883b"
+  },
+  "notes/_link/Poricoic acid A.md": {
+    "mtime": 1787074542.249283,
+    "ast_hash": "5c7bbc61813fe7d29eba2d834e2da3080e7c0e0bb4cc1799e7abb9f8a7363562",
+    "semantic_hash": "5c7bbc61813fe7d29eba2d834e2da3080e7c0e0bb4cc1799e7abb9f8a7363562"
+  },
+  "notes/_link/SECISBP2.md": {
+    "mtime": 1787605187.7563555,
+    "ast_hash": "fd86e71eae3602d0d1b1b66d760b56afc24322d287f92bc7879a0853527f2695",
+    "semantic_hash": "fd86e71eae3602d0d1b1b66d760b56afc24322d287f92bc7879a0853527f2695"
+  },
+  "notes/_link/Hepatitis B Virus.md": {
+    "mtime": 1786464260.5302212,
+    "ast_hash": "eb319145c7dc01bce9aa66a9355cc6b7e75b6ce12bd775921e6c7634b85bda01",
+    "semantic_hash": "eb319145c7dc01bce9aa66a9355cc6b7e75b6ce12bd775921e6c7634b85bda01"
+  },
+  "notes/_link/Caspase.md": {
+    "mtime": 1784965031.5553775,
+    "ast_hash": "73b7a9c1c515a4c8a2fe56328b9df7ce0e32caf63b5a8fdf21b03372b89baf2c",
+    "semantic_hash": "73b7a9c1c515a4c8a2fe56328b9df7ce0e32caf63b5a8fdf21b03372b89baf2c"
+  },
+  "notes/_link/P66shc.md": {
+    "mtime": 1786992076.9519691,
+    "ast_hash": "aebf067ed7db0e039cb4fb6fc660f45c302bdc8ceed2d7706db1a3d06cdc71ed",
+    "semantic_hash": "aebf067ed7db0e039cb4fb6fc660f45c302bdc8ceed2d7706db1a3d06cdc71ed"
+  },
+  "notes/_link/Mitochondrial Dysfunction-Associated Senescence.md": {
+    "mtime": 1785515012.2227042,
+    "ast_hash": "416e38df53d70bbb36358ab14b050e9c3c20193d0ef61a960d62c3afb1a9741d",
+    "semantic_hash": "416e38df53d70bbb36358ab14b050e9c3c20193d0ef61a960d62c3afb1a9741d"
+  },
+  "notes/_link/Sphingomyelin.md": {
+    "mtime": 1784957836.5615835,
+    "ast_hash": "e28e7ff5061037766921cabbaaa687716d276b305c969edfb6e1eb5c38beb17b",
+    "semantic_hash": "e28e7ff5061037766921cabbaaa687716d276b305c969edfb6e1eb5c38beb17b"
+  },
+  "notes/_link/OX2R.md": {
+    "mtime": 1785800068.1952915,
+    "ast_hash": "d512cfdceb75e2af4a627901f6bf17e78c49fb73abcfef0aadd713ba779543ab",
+    "semantic_hash": "d512cfdceb75e2af4a627901f6bf17e78c49fb73abcfef0aadd713ba779543ab"
+  },
+  "notes/_link/Phospholipid.md": {
+    "mtime": 1784957841.9738994,
+    "ast_hash": "796efd12f6b69e1f9998b5d2a1867a2e18878457ee56667af87bf819537df727",
+    "semantic_hash": "796efd12f6b69e1f9998b5d2a1867a2e18878457ee56667af87bf819537df727"
+  },
+  "notes/_link/Heteroplasmy.md": {
+    "mtime": 1785562584.8948946,
+    "ast_hash": "85b53b5fdf3cdb35f052edd9b2620d4dfed19cabec283efac8419a37bb444ea6",
+    "semantic_hash": "85b53b5fdf3cdb35f052edd9b2620d4dfed19cabec283efac8419a37bb444ea6"
+  },
+  "notes/_link/Triiodothyronine.md": {
+    "mtime": 1785523019.1692307,
+    "ast_hash": "66452ba4dfe0cabc84104987bf4afa8bdf795b05e82cb9fbe52e53aac4fef491",
+    "semantic_hash": "66452ba4dfe0cabc84104987bf4afa8bdf795b05e82cb9fbe52e53aac4fef491"
+  },
+  "notes/_link/Cyclodextrin.md": {
+    "mtime": 1785278024.1736841,
+    "ast_hash": "57b51b30c0744b62fa61610ad410d765037fecc995a466fe9d043484c4700236",
+    "semantic_hash": "57b51b30c0744b62fa61610ad410d765037fecc995a466fe9d043484c4700236"
+  },
+  "notes/_link/SN011.md": {
+    "mtime": 1786900314.1670465,
+    "ast_hash": "e97029f6e8d641d249ab6350f446495262b961a48ded50e4c0fbbf048eeb5425",
+    "semantic_hash": "e97029f6e8d641d249ab6350f446495262b961a48ded50e4c0fbbf048eeb5425"
+  },
+  "notes/_link/Sphingolipid Metabolism.md": {
+    "mtime": 1784958217.933189,
+    "ast_hash": "541df6526c332fecac95557fbc2c89170d5ad8891542d4340869c2a418ca1ff3",
+    "semantic_hash": "541df6526c332fecac95557fbc2c89170d5ad8891542d4340869c2a418ca1ff3"
+  },
+  "notes/_link/Mitotane.md": {
+    "mtime": 1787605187.7539976,
+    "ast_hash": "745a7f727966dd8d891209d011d9d2ee0b07d61088d454ca3bbe28603ee9d5fc",
+    "semantic_hash": "745a7f727966dd8d891209d011d9d2ee0b07d61088d454ca3bbe28603ee9d5fc"
+  },
+  "notes/_link/Liquiritigenin.md": {
+    "mtime": 1787074542.2492929,
+    "ast_hash": "10e04eb2a379ae38da5a0bcd8db563dac6fb7a76cd31a2a3ed8e13f0fe5fcc69",
+    "semantic_hash": "10e04eb2a379ae38da5a0bcd8db563dac6fb7a76cd31a2a3ed8e13f0fe5fcc69"
+  },
+  "notes/_link/Resting Metabolic Rate.md": {
+    "mtime": 1785522661.3231277,
+    "ast_hash": "1b34bdf62af765c43b1e96f49b1a023c0f54ab0910fa0917f0653c14068d3281",
+    "semantic_hash": "1b34bdf62af765c43b1e96f49b1a023c0f54ab0910fa0917f0653c14068d3281"
+  },
+  "notes/_link/NBS1.md": {
+    "mtime": 1786992076.9517598,
+    "ast_hash": "ba2ad11c602591c7496b7ff11092ed119bc58d27df82f994c19ca3d70c2939b8",
+    "semantic_hash": "ba2ad11c602591c7496b7ff11092ed119bc58d27df82f994c19ca3d70c2939b8"
+  },
+  "notes/_link/AIFM2.md": {
+    "mtime": 1787605187.750308,
+    "ast_hash": "3af8743533aba489707e95f43dc7c2d5e1cc73c1c2f9b97623da505297e6b9fd",
+    "semantic_hash": "3af8743533aba489707e95f43dc7c2d5e1cc73c1c2f9b97623da505297e6b9fd"
+  },
+  "notes/_link/Senolytic Paradox.md": {
+    "mtime": 1786752542.277743,
+    "ast_hash": "c82143728815557337d37a1bab318b29a55153f227b7e182e880bb361882c25d",
+    "semantic_hash": "c82143728815557337d37a1bab318b29a55153f227b7e182e880bb361882c25d"
+  },
+  "notes/_link/HSL.md": {
+    "mtime": 1785819130.0719695,
+    "ast_hash": "2e8f01afb02b75e4e6598eac58bfe7e870095006804b0ad5c39cbe6d3340158a",
+    "semantic_hash": "2e8f01afb02b75e4e6598eac58bfe7e870095006804b0ad5c39cbe6d3340158a"
+  },
+  "notes/_link/SREBP2.md": {
+    "mtime": 1785800099.835792,
+    "ast_hash": "213cb69e434a85ded24f696561e8a972e1427bb1a05a0ab35838a5cc90e7aafa",
+    "semantic_hash": "213cb69e434a85ded24f696561e8a972e1427bb1a05a0ab35838a5cc90e7aafa"
+  },
+  "notes/_link/CPT2.md": {
+    "mtime": 1787070002.9384933,
+    "ast_hash": "f78aa4984d8274ba33768b11dedea00a83e58623efe9b7501c51f4dc8ee989e7",
+    "semantic_hash": "f78aa4984d8274ba33768b11dedea00a83e58623efe9b7501c51f4dc8ee989e7"
+  },
+  "notes/_link/CD94.md": {
+    "mtime": 1784967735.6800444,
+    "ast_hash": "8544ba63541a89e3ae45e1ca11784d6b28f322264c17d9703361ce844367c725",
+    "semantic_hash": "8544ba63541a89e3ae45e1ca11784d6b28f322264c17d9703361ce844367c725"
+  },
+  "notes/_link/Hair Cells.md": {
+    "mtime": 1787074473.3520977,
+    "ast_hash": "801f33f59c6d80ea5c3b83bb4133a8133d42983bbbabe3eaf08d7af04d6b078c",
+    "semantic_hash": "801f33f59c6d80ea5c3b83bb4133a8133d42983bbbabe3eaf08d7af04d6b078c"
+  },
+  "notes/_link/Radiosensitizer.md": {
+    "mtime": 1785277892.3855178,
+    "ast_hash": "d9add2086c46969f1995562cc544ef11dd6102ac997fd88fac06324e3f8d013e",
+    "semantic_hash": "d9add2086c46969f1995562cc544ef11dd6102ac997fd88fac06324e3f8d013e"
+  },
+  "notes/_link/AMPK-PGC-1α Pathway.md": {
+    "mtime": 1784965051.5519395,
+    "ast_hash": "c1bdf0e4a1d3ff170540768c7bf1de9d2c6f7172099bc8be03389e551611f1df",
+    "semantic_hash": "c1bdf0e4a1d3ff170540768c7bf1de9d2c6f7172099bc8be03389e551611f1df"
+  },
+  "notes/_link/Soluplus.md": {
+    "mtime": 1785277465.1817024,
+    "ast_hash": "a383bb5e51dc06ff0628d9109f25333f6d45e60b561e4bc9818f0ddb1bd544bf",
+    "semantic_hash": "a383bb5e51dc06ff0628d9109f25333f6d45e60b561e4bc9818f0ddb1bd544bf"
+  },
+  "notes/_link/LHRH.md": {
+    "mtime": 1785050446.205274,
+    "ast_hash": "3ff11136ccc60e5b3fa53f72e22e5fc600c1779cf38f5ce059f1978f99938446",
+    "semantic_hash": "3ff11136ccc60e5b3fa53f72e22e5fc600c1779cf38f5ce059f1978f99938446"
+  },
+  "notes/_link/p15INK4b.md": {
+    "mtime": 1784967735.7302325,
+    "ast_hash": "28ec38eed2d0c13a925544cf7f83eb0a679bd0d55ae2710a5a45f5828700aeaf",
+    "semantic_hash": "28ec38eed2d0c13a925544cf7f83eb0a679bd0d55ae2710a5a45f5828700aeaf"
+  },
+  "notes/_link/Vinblastine.md": {
+    "mtime": 1785277398.7352977,
+    "ast_hash": "a6b93c3391373e936f73e0e4ba25d8c02d5f7a7c14705d315caef70a47d91c6e",
+    "semantic_hash": "a6b93c3391373e936f73e0e4ba25d8c02d5f7a7c14705d315caef70a47d91c6e"
+  },
+  "notes/_link/Gasdermin D.md": {
+    "mtime": 1784965013.7355947,
+    "ast_hash": "66664374b570983bf882e18ce977e93212a575ec3e5aa5174cc89019af3e5415",
+    "semantic_hash": "66664374b570983bf882e18ce977e93212a575ec3e5aa5174cc89019af3e5415"
+  },
+  "notes/_link/SepSecS.md": {
+    "mtime": 1787605187.757239,
+    "ast_hash": "7e7cb82ca950db84512a69c099de54f2c3391c0f317fc0f6ed115e2c18d34f81",
+    "semantic_hash": "7e7cb82ca950db84512a69c099de54f2c3391c0f317fc0f6ed115e2c18d34f81"
+  },
+  "notes/_link/Coronary Artery Disease.md": {
+    "mtime": 1786464218.3961625,
+    "ast_hash": "c733d6c27bcf13875aed8e7c3f4da462a8c0e9dd939922214417ba853ce4e771",
+    "semantic_hash": "c733d6c27bcf13875aed8e7c3f4da462a8c0e9dd939922214417ba853ce4e771"
+  },
+  "notes/_link/NBR1.md": {
+    "mtime": 1784879124.3489044,
+    "ast_hash": "fdb87f2c924300645c3f5cbfb0ad17f58979d6f20103ecae2cbf015e63c96510",
+    "semantic_hash": "fdb87f2c924300645c3f5cbfb0ad17f58979d6f20103ecae2cbf015e63c96510"
+  },
+  "notes/_link/ALOX15.md": {
+    "mtime": 1787605187.7504563,
+    "ast_hash": "87a83e8739e18863786148c36117a422943fc550cc9e18a86a67e6bc7972e749",
+    "semantic_hash": "87a83e8739e18863786148c36117a422943fc550cc9e18a86a67e6bc7972e749"
+  },
+  "notes/_link/miR-137.md": {
+    "mtime": 1787605187.7598083,
+    "ast_hash": "fad17cb81902a83cfb7ae95ae87f0d517a88ef2fb1c6925e03f94a81ac8377e9",
+    "semantic_hash": "fad17cb81902a83cfb7ae95ae87f0d517a88ef2fb1c6925e03f94a81ac8377e9"
+  },
+  "notes/_link/DNA Ligase IV.md": {
+    "mtime": 1787074612.374879,
+    "ast_hash": "4070924e963549085f7d2ec68f654069106ad8faa2fbf9bc241545ef47a0fe78",
+    "semantic_hash": "4070924e963549085f7d2ec68f654069106ad8faa2fbf9bc241545ef47a0fe78"
+  },
+  "notes/_link/Artesunate.md": {
+    "mtime": 1787605187.7509189,
+    "ast_hash": "b38dbdec535a9fde6c0be6149bcaa3e5917b918eb4d488ee80d6d3b07ae759b8",
+    "semantic_hash": "b38dbdec535a9fde6c0be6149bcaa3e5917b918eb4d488ee80d6d3b07ae759b8"
+  },
+  "notes/_link/Glucose uptake.md": {
+    "mtime": 1785277448.8493662,
+    "ast_hash": "5046da030e108183c2cf54455d4150a406aff960e1d36ad4104213bea3a295c2",
+    "semantic_hash": "5046da030e108183c2cf54455d4150a406aff960e1d36ad4104213bea3a295c2"
+  },
+  "notes/_link/SEPHS2.md": {
+    "mtime": 1787605187.7565038,
+    "ast_hash": "c4fbc78e8fdf166430c012b01f53633c6bf284e75d5c0fdde444f10f75470f2d",
+    "semantic_hash": "c4fbc78e8fdf166430c012b01f53633c6bf284e75d5c0fdde444f10f75470f2d"
+  },
+  "notes/_link/Valine.md": {
+    "mtime": 1785545986.0000293,
+    "ast_hash": "5f9ed49538297a5d1d546ea379f254d39e1e3a8ea58873af254f788fde197a80",
+    "semantic_hash": "5f9ed49538297a5d1d546ea379f254d39e1e3a8ea58873af254f788fde197a80"
+  },
+  "notes/_link/Sphingosine-1-phosphate.md": {
+    "mtime": 1784958069.791176,
+    "ast_hash": "b3005193a8dd3408fb509b5b53576aecd4906736cbbad8cc961532d9de351f5b",
+    "semantic_hash": "b3005193a8dd3408fb509b5b53576aecd4906736cbbad8cc961532d9de351f5b"
+  },
+  "notes/_link/SENP1.md": {
+    "mtime": 1787073700.3670728,
+    "ast_hash": "4d8da82a4c84dcd559ed625e2d36fa1f4d78b5c0fcec58cb9a228fede16d2486",
+    "semantic_hash": "4d8da82a4c84dcd559ed625e2d36fa1f4d78b5c0fcec58cb9a228fede16d2486"
+  },
+  "notes/_link/Phosphatidylethanolamine.md": {
+    "mtime": 1787605187.7548347,
+    "ast_hash": "a3e72255f5ef18134f9deac0d2492f1161ba343d799b305d62fa705db2ce98c2",
+    "semantic_hash": "a3e72255f5ef18134f9deac0d2492f1161ba343d799b305d62fa705db2ce98c2"
+  },
+  "notes/_link/MTFP1.md": {
+    "mtime": 1784879115.0252955,
+    "ast_hash": "a434d048b17b1d619154b3c256aee4cac22b5de6cec36505d49bf5ba322c3f4f",
+    "semantic_hash": "a434d048b17b1d619154b3c256aee4cac22b5de6cec36505d49bf5ba322c3f4f"
+  },
+  "notes/_link/DdCBE.md": {
+    "mtime": 1785562584.8942914,
+    "ast_hash": "e0cdaaffb769a97c2fff22b7444216b9a18238140c4c36d23be41343396b0828",
+    "semantic_hash": "e0cdaaffb769a97c2fff22b7444216b9a18238140c4c36d23be41343396b0828"
+  },
+  "notes/_link/QPRT.md": {
+    "mtime": 1785902297.5388906,
+    "ast_hash": "a1fecc6f07255dee7b6720edd79324ba73678f718a4813f9005c4c863cc78030",
+    "semantic_hash": "a1fecc6f07255dee7b6720edd79324ba73678f718a4813f9005c4c863cc78030"
+  },
+  "notes/_link/DMT1.md": {
+    "mtime": 1787605187.7514358,
+    "ast_hash": "b32476e1fa020d0fd181c7ee23ebd39def1512abf429b003fed5ec91b7b56c58",
+    "semantic_hash": "b32476e1fa020d0fd181c7ee23ebd39def1512abf429b003fed5ec91b7b56c58"
+  },
+  "notes/_link/SLC3A2.md": {
+    "mtime": 1787605187.7567203,
+    "ast_hash": "4ff3201262e4995145a0f31f4f65e62f5b8b51cf9357ca08393b3f5ed287befd",
+    "semantic_hash": "4ff3201262e4995145a0f31f4f65e62f5b8b51cf9357ca08393b3f5ed287befd"
+  },
+  "notes/_link/Carmofur.md": {
+    "mtime": 1785169245.8945224,
+    "ast_hash": "f5f9ebe081a371f291274b24c94cac1f3038d712da8c44595845aa212e167043",
+    "semantic_hash": "f5f9ebe081a371f291274b24c94cac1f3038d712da8c44595845aa212e167043"
+  },
+  "notes/_link/Diabetic Cardiomyopathy.md": {
+    "mtime": 1787073642.7593837,
+    "ast_hash": "6a9a82ec0e00bc9dd64625b91838eeea1c5678b94c2b8f30802077f6f6b294d4",
+    "semantic_hash": "6a9a82ec0e00bc9dd64625b91838eeea1c5678b94c2b8f30802077f6f6b294d4"
+  },
+  "notes/_link/ATGL.md": {
+    "mtime": 1786897835.4872043,
+    "ast_hash": "611aa85a1db9e19e2dd150a33364d79bca8e4e6d65ee7eb3763fb3a4d0d4775e",
+    "semantic_hash": "611aa85a1db9e19e2dd150a33364d79bca8e4e6d65ee7eb3763fb3a4d0d4775e"
+  },
+  "notes/_link/Selenoprotein.md": {
+    "mtime": 1787605187.7571561,
+    "ast_hash": "2251b7923e3e855a9c8dbe58827670b8935a4ea491afa3b432b27075978342ab",
+    "semantic_hash": "2251b7923e3e855a9c8dbe58827670b8935a4ea491afa3b432b27075978342ab"
+  },
+  "notes/_link/Mitochondrial Function.md": {
+    "mtime": 1786900314.1707814,
+    "ast_hash": "91e75279a25e8557833323d0dd83b217e540f54ee096dffcac841567f832cd14",
+    "semantic_hash": "91e75279a25e8557833323d0dd83b217e540f54ee096dffcac841567f832cd14"
+  },
+  "notes/_link/α-Ketoglutarate.md": {
+    "mtime": 1785042034.8630319,
+    "ast_hash": "0982179e04220d37e4f09778f7e14fa66f6e8be576ca4c18eb9a83c73b9af3a0",
+    "semantic_hash": "0982179e04220d37e4f09778f7e14fa66f6e8be576ca4c18eb9a83c73b9af3a0"
+  },
+  "notes/_link/ACSS2.md": {
+    "mtime": 1786900314.1710525,
+    "ast_hash": "aaa4c32a612149698fc5f4b71bc54f98d26b3e3a2b5dfa80edeb0bd1e5f250e6",
+    "semantic_hash": "aaa4c32a612149698fc5f4b71bc54f98d26b3e3a2b5dfa80edeb0bd1e5f250e6"
+  },
+  "notes/_link/Lands cycle.md": {
+    "mtime": 1785169226.78012,
+    "ast_hash": "0b37b8cb5afdfac10d61a2c818e435676ecdee5d20c5c94d6bd554dfcf88f3e7",
+    "semantic_hash": "0b37b8cb5afdfac10d61a2c818e435676ecdee5d20c5c94d6bd554dfcf88f3e7"
+  },
+  "notes/_link/Stanniocalcin-1.md": {
+    "mtime": 1787074542.2492886,
+    "ast_hash": "d074a4b248cb0a3ae665fa89009a2e9e88e154a28291c24dc00e56b9afb82f80",
+    "semantic_hash": "d074a4b248cb0a3ae665fa89009a2e9e88e154a28291c24dc00e56b9afb82f80"
+  },
+  "notes/_link/Kinase.md": {
+    "mtime": 1786638804.3939679,
+    "ast_hash": "6cb340dc5d9d48dbb9edc46a467d7d774328fc8cd13704cc210b26451bde0feb",
+    "semantic_hash": "6cb340dc5d9d48dbb9edc46a467d7d774328fc8cd13704cc210b26451bde0feb"
+  },
+  "notes/_link/Hyperfunction Theory of Aging.md": {
+    "mtime": 1786752551.608391,
+    "ast_hash": "53ef733625225baf6b315a5048b29d09da57a3b0df706c0c4312b87aad4a2a12",
+    "semantic_hash": "53ef733625225baf6b315a5048b29d09da57a3b0df706c0c4312b87aad4a2a12"
+  },
+  "notes/_link/Keratinocyte Growth Factor.md": {
+    "mtime": 1785050446.2051253,
+    "ast_hash": "5d674b9051cc9d3a4b23a3582ff463cf7bbfe452cb81e725a3cec670bf089128",
+    "semantic_hash": "5d674b9051cc9d3a4b23a3582ff463cf7bbfe452cb81e725a3cec670bf089128"
+  },
+  "notes/_link/CISD1.md": {
+    "mtime": 1787605187.751181,
+    "ast_hash": "7f25437090318e35482f6ba6e1aa188403ea8de510e79dbcf6836a236c91edf9",
+    "semantic_hash": "7f25437090318e35482f6ba6e1aa188403ea8de510e79dbcf6836a236c91edf9"
+  },
+  "notes/_link/WI-38.md": {
+    "mtime": 1785169234.1836905,
+    "ast_hash": "066f309de8f895ac169581d1d6854d525e5ab5e55c02e5f8027830d40af0cd87",
+    "semantic_hash": "066f309de8f895ac169581d1d6854d525e5ab5e55c02e5f8027830d40af0cd87"
+  },
+  "notes/_link/ACSL4.md": {
+    "mtime": 1784958217.1145043,
+    "ast_hash": "ec87cdb1e4a18fea110f679a69ec3eb59916ba03934a3e953cffd0dbc17e652f",
+    "semantic_hash": "ec87cdb1e4a18fea110f679a69ec3eb59916ba03934a3e953cffd0dbc17e652f"
+  },
+  "notes/_link/_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md": {
+    "mtime": 1784958216.3043585,
+    "ast_hash": "c455f45c4526f7065fec165a42dba6f39f77a3bb02516edd98b60791fcc18013",
+    "semantic_hash": "c455f45c4526f7065fec165a42dba6f39f77a3bb02516edd98b60791fcc18013"
+  },
+  "notes/_link/Mitochondrial Dynamics.md": {
+    "mtime": 1785012521.1509614,
+    "ast_hash": "f16711fee1b41e781fc824dab7428a1248649a8412796070418e3297927555b7",
+    "semantic_hash": "f16711fee1b41e781fc824dab7428a1248649a8412796070418e3297927555b7"
+  },
+  "notes/_link/Proanthocyanidins.md": {
+    "mtime": 1786757529.4449658,
+    "ast_hash": "d6b492dbdbd058e26b95cb2e4b03fd1baaf22f7abc54ff7a1581edd16f5c22c6",
+    "semantic_hash": "d6b492dbdbd058e26b95cb2e4b03fd1baaf22f7abc54ff7a1581edd16f5c22c6"
+  },
+  "notes/_link/Branched-Chain Amino Acids.md": {
+    "mtime": 1785545966.425498,
+    "ast_hash": "0164dbdbf7e1f92d0ecc30439fcfa2f31c8d7f7c3b2ed05d0e608987d58c52df",
+    "semantic_hash": "0164dbdbf7e1f92d0ecc30439fcfa2f31c8d7f7c3b2ed05d0e608987d58c52df"
+  },
+  "notes/_link/Erastin.md": {
+    "mtime": 1787605187.7517745,
+    "ast_hash": "6e053b8f6a31993c2fe443add049d4af04daf1374f146c40311ca4e38fd26598",
+    "semantic_hash": "6e053b8f6a31993c2fe443add049d4af04daf1374f146c40311ca4e38fd26598"
+  },
+  "notes/_link/FokI.md": {
+    "mtime": 1785562584.8946295,
+    "ast_hash": "d0e0a623f6cc062242d9360c7bda4b7f20468de33e7409473c996a4364462896",
+    "semantic_hash": "d0e0a623f6cc062242d9360c7bda4b7f20468de33e7409473c996a4364462896"
+  },
+  "notes/_link/Nucleus Pulposus.md": {
+    "mtime": 1787073688.2218094,
+    "ast_hash": "836aa0df71e2f9b17e6b1f5d129c65f717897e894b60ef1a073c637ac7a887b0",
+    "semantic_hash": "836aa0df71e2f9b17e6b1f5d129c65f717897e894b60ef1a073c637ac7a887b0"
+  },
+  "notes/_link/Diabetic Retinopathy.md": {
+    "mtime": 1786464232.5082161,
+    "ast_hash": "421f90b36f473d7b0e8271dde3565c178433ac74a929f28f51c4524f1236a8ea",
+    "semantic_hash": "421f90b36f473d7b0e8271dde3565c178433ac74a929f28f51c4524f1236a8ea"
+  },
+  "notes/_link/SCAPs.md": {
+    "mtime": 1784965006.7283626,
+    "ast_hash": "b0a8d686ea6ec79d824338a63c54ef9ad149ed73483933024b6acba9302cf07e",
+    "semantic_hash": "b0a8d686ea6ec79d824338a63c54ef9ad149ed73483933024b6acba9302cf07e"
+  },
+  "notes/_link/Deiodinase.md": {
+    "mtime": 1787605187.751675,
+    "ast_hash": "c64ac156c3fe1647302de044bb6c9123080f77ac4bb3aa06f28f3a79e99ceade",
+    "semantic_hash": "c64ac156c3fe1647302de044bb6c9123080f77ac4bb3aa06f28f3a79e99ceade"
+  },
+  "notes/_link/Benign Tumor.md": {
+    "mtime": 1786752575.6526575,
+    "ast_hash": "186de4cff7526dcbf0b54ba28cde66d0bc04fb7366996685d6229113ece75506",
+    "semantic_hash": "186de4cff7526dcbf0b54ba28cde66d0bc04fb7366996685d6229113ece75506"
+  },
+  "notes/_link/β-Catenin.md": {
+    "mtime": 1786639152.3870149,
+    "ast_hash": "32163e70a5d36b54c528bdf736a9341c3cf9f83d0e3e19e453112809fa494777",
+    "semantic_hash": "32163e70a5d36b54c528bdf736a9341c3cf9f83d0e3e19e453112809fa494777"
+  },
+  "notes/_link/SLC25A1.md": {
+    "mtime": 1786900314.1740794,
+    "ast_hash": "5b3e3421ad7423ef898f2369e07d37fb4b8f7abe5a586fc9aacb0f8def22f9b5",
+    "semantic_hash": "5b3e3421ad7423ef898f2369e07d37fb4b8f7abe5a586fc9aacb0f8def22f9b5"
+  },
+  "notes/_link/Orexin.md": {
+    "mtime": 1785800466.5133,
+    "ast_hash": "44af034e8a118248d3171be67a021a5b0132791a41c690591199a72a0d62860f",
+    "semantic_hash": "44af034e8a118248d3171be67a021a5b0132791a41c690591199a72a0d62860f"
+  },
+  "notes/_link/IRS-2.md": {
+    "mtime": 1785819130.0701387,
+    "ast_hash": "56b3f44c392ea5560ec23f785060c8be19da81462d3948f1db6b29dad4ea1ad4",
+    "semantic_hash": "56b3f44c392ea5560ec23f785060c8be19da81462d3948f1db6b29dad4ea1ad4"
+  },
+  "notes/_link/IL-22.md": {
+    "mtime": 1785050446.204411,
+    "ast_hash": "58c4757d19c62e43c7d82acf1f8977d8f53fec7e9b763bc797970141e148aff7",
+    "semantic_hash": "58c4757d19c62e43c7d82acf1f8977d8f53fec7e9b763bc797970141e148aff7"
+  },
+  "notes/_link/Synthetic Lethality.md": {
+    "mtime": 1785042055.5981574,
+    "ast_hash": "79e18267ac125917332a764211f7c18ccfaa5df55f80c01aa553c10fdfdef97b",
+    "semantic_hash": "79e18267ac125917332a764211f7c18ccfaa5df55f80c01aa553c10fdfdef97b"
+  },
+  "notes/_link/PSTK.md": {
+    "mtime": 1787605187.7547038,
+    "ast_hash": "55dfd6fa61d16509cdc5832d1d91efbb7bdb39ce7ab3bfdb6dbad91e6d822e14",
+    "semantic_hash": "55dfd6fa61d16509cdc5832d1d91efbb7bdb39ce7ab3bfdb6dbad91e6d822e14"
+  },
+  "notes/_link/Head and neck cancer.md": {
+    "mtime": 1787605187.75334,
+    "ast_hash": "f46df21f4e0506097308ab69cb982598b08816c8341a70c280fab37e10e6748b",
+    "semantic_hash": "f46df21f4e0506097308ab69cb982598b08816c8341a70c280fab37e10e6748b"
+  },
+  "notes/_link/Acute Lung Injury.md": {
+    "mtime": 1786475563.55312,
+    "ast_hash": "ba72c52d4396711c8a523f09bb4bd043d89b5a3f39b5d890f62f8048ffd57505",
+    "semantic_hash": "ba72c52d4396711c8a523f09bb4bd043d89b5a3f39b5d890f62f8048ffd57505"
+  },
+  "notes/_link/NF-κB.md": {
+    "mtime": 1786322784.5138736,
+    "ast_hash": "b5e078b7d6a2d0c86f4073272a7a0f983d76f1fb394f5d95a8e1b1a2ac663513",
+    "semantic_hash": "b5e078b7d6a2d0c86f4073272a7a0f983d76f1fb394f5d95a8e1b1a2ac663513"
+  },
+  "notes/_link/NADPH oxidase.md": {
+    "mtime": 1787074473.3450518,
+    "ast_hash": "9e61029608981d6d1a2eff0086ab9b6369a3309727cbcb5235031943ef2ce968",
+    "semantic_hash": "9e61029608981d6d1a2eff0086ab9b6369a3309727cbcb5235031943ef2ce968"
+  },
+  "notes/_link/Energy Balance.md": {
+    "mtime": 1785522831.3374436,
+    "ast_hash": "e4c51fbadbb5749ae296c8c92a6b6412e71593966507354d6c32e7f7e8676dbe",
+    "semantic_hash": "e4c51fbadbb5749ae296c8c92a6b6412e71593966507354d6c32e7f7e8676dbe"
+  },
+  "notes/_link/BubR1.md": {
+    "mtime": 1786575382.2610862,
+    "ast_hash": "c7a6cbf2d5925c4fcefb4e2a4c4517fd0c25536117067352bf48c47c4ea4fc6e",
+    "semantic_hash": "c7a6cbf2d5925c4fcefb4e2a4c4517fd0c25536117067352bf48c47c4ea4fc6e"
+  },
+  "notes/_link/Optineurin.md": {
+    "mtime": 1784879134.0986366,
+    "ast_hash": "501250e014c0a3f979042a23398682029c45cd291f92065aa174f00f03e686c0",
+    "semantic_hash": "501250e014c0a3f979042a23398682029c45cd291f92065aa174f00f03e686c0"
+  },
+  "notes/_link/Matrine.md": {
+    "mtime": 1787074542.2493393,
+    "ast_hash": "0f9aaac32a5dfa1260dfc7288d22130e86e34b0cecf222c51d0828f721d870a4",
+    "semantic_hash": "0f9aaac32a5dfa1260dfc7288d22130e86e34b0cecf222c51d0828f721d870a4"
+  },
+  "notes/_link/ETS1.md": {
+    "mtime": 1787074396.5322409,
+    "ast_hash": "6aa159a77a906f4fd3a7ea4252bf61ca1282f2371971f4ab86a573a23bfaf65d",
+    "semantic_hash": "6aa159a77a906f4fd3a7ea4252bf61ca1282f2371971f4ab86a573a23bfaf65d"
+  },
+  "notes/_link/Withaferin A.md": {
+    "mtime": 1787074396.537532,
+    "ast_hash": "cbad616e8502d6b2170764096f9e46a78a59b606e60baab0ab826ab3c46a6ddc",
+    "semantic_hash": "cbad616e8502d6b2170764096f9e46a78a59b606e60baab0ab826ab3c46a6ddc"
+  },
+  "notes/_link/Valsartan.md": {
+    "mtime": 1784879200.8244133,
+    "ast_hash": "89697d0de97b0e732c49ae36ad56158a50e07477c1b2700fc73d72e2b9e0b079",
+    "semantic_hash": "89697d0de97b0e732c49ae36ad56158a50e07477c1b2700fc73d72e2b9e0b079"
+  },
+  "notes/_link/Energy Expenditure.md": {
+    "mtime": 1785522675.7246606,
+    "ast_hash": "1a997b859d60d7116f841bfd39edd6abea6068e4936563af47b021c8a482b769",
+    "semantic_hash": "1a997b859d60d7116f841bfd39edd6abea6068e4936563af47b021c8a482b769"
+  },
+  "notes/_link/Macrophage Polarization.md": {
+    "mtime": 1786464405.5545344,
+    "ast_hash": "041378fa98c06447f2ca97c3a5e9917a6add587b1cbc4e6a99fe3e744b415312",
+    "semantic_hash": "041378fa98c06447f2ca97c3a5e9917a6add587b1cbc4e6a99fe3e744b415312"
+  },
+  "notes/_link/B2M.md": {
+    "mtime": 1785177253.2038517,
+    "ast_hash": "2160e1e1de61080264a2d6bfcf5bb7a13f89df7d89d96b2860ffec0d7a60fcab",
+    "semantic_hash": "2160e1e1de61080264a2d6bfcf5bb7a13f89df7d89d96b2860ffec0d7a60fcab"
+  },
+  "notes/_link/Pyruvate.md": {
+    "mtime": 1786900314.1761088,
+    "ast_hash": "bc21595dc2a4c407e07c134b8ac32d248f3cd645d72087cc8353df0037e1b977",
+    "semantic_hash": "bc21595dc2a4c407e07c134b8ac32d248f3cd645d72087cc8353df0037e1b977"
+  },
+  "notes/_link/HMGCS2.md": {
+    "mtime": 1785819130.071173,
+    "ast_hash": "9f7f7d2cbc81f9c032445f349226b23a9d8c896c8beb3bd7b779cedad8ba33ab",
+    "semantic_hash": "9f7f7d2cbc81f9c032445f349226b23a9d8c896c8beb3bd7b779cedad8ba33ab"
+  },
+  "notes/_link/_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md": {
+    "mtime": 1785546395.9001372,
+    "ast_hash": "5a614078d08c770b015472ccffc73eae5ea8f26b836edeaf7021661b55a497af",
+    "semantic_hash": "5a614078d08c770b015472ccffc73eae5ea8f26b836edeaf7021661b55a497af"
+  },
+  "notes/_link/Ceramide.md": {
+    "mtime": 1784957827.689969,
+    "ast_hash": "719362e351ccc3cd5eb83c8e049e4eec306ae69c330a17f2b92702d41f7ce8f7",
+    "semantic_hash": "719362e351ccc3cd5eb83c8e049e4eec306ae69c330a17f2b92702d41f7ce8f7"
+  },
+  "notes/_link/Colchicine.md": {
+    "mtime": 1785277871.6879401,
+    "ast_hash": "65eb3d52f5015bfeffe9e8528d4873ba1dc3441cd31924774badc071f37bb79f",
+    "semantic_hash": "65eb3d52f5015bfeffe9e8528d4873ba1dc3441cd31924774badc071f37bb79f"
+  },
+  "notes/_link/CCR2.md": {
+    "mtime": 1786900314.176808,
+    "ast_hash": "5caeb3f3dce1a41d84e40e57d0c42fe549069aebb22a199a3bd2f7c3f90ec199",
+    "semantic_hash": "5caeb3f3dce1a41d84e40e57d0c42fe549069aebb22a199a3bd2f7c3f90ec199"
+  },
+  "notes/_link/Vascular Calcification.md": {
+    "mtime": 1786464324.812453,
+    "ast_hash": "8160c5575b9dfc1743db12991dfd983dae23ea9331e98efbefa9dc9d6e129fb3",
+    "semantic_hash": "8160c5575b9dfc1743db12991dfd983dae23ea9331e98efbefa9dc9d6e129fb3"
+  },
+  "notes/_link/Clear cell renal cell carcinoma.md": {
+    "mtime": 1787605187.7513516,
+    "ast_hash": "99f8e93e03c249748cb42b2784d71bbbc45147816f0cd612f23c89b63907555d",
+    "semantic_hash": "99f8e93e03c249748cb42b2784d71bbbc45147816f0cd612f23c89b63907555d"
+  },
+  "notes/_link/GKRP.md": {
+    "mtime": 1786464436.6353817,
+    "ast_hash": "c2e44a390bde681d4207a0ea0b2bb603403ac448a69d5ba37f399f7c36ec7b54",
+    "semantic_hash": "c2e44a390bde681d4207a0ea0b2bb603403ac448a69d5ba37f399f7c36ec7b54"
+  },
+  "notes/_link/1-Methylnicotinamide.md": {
+    "mtime": 1785819130.0718195,
+    "ast_hash": "0c3b376711c87f4cedc39ea35076dc1bb708a329cd978b141784bcf65051c62b",
+    "semantic_hash": "0c3b376711c87f4cedc39ea35076dc1bb708a329cd978b141784bcf65051c62b"
+  },
+  "notes/_link/Sigma-1 receptor.md": {
+    "mtime": 1787605187.757497,
+    "ast_hash": "633c832a53873633f5035fa5e94d249947fe29d831d41f51a7989482268c76a4",
+    "semantic_hash": "633c832a53873633f5035fa5e94d249947fe29d831d41f51a7989482268c76a4"
+  },
+  "notes/_link/Bronchopulmonary Dysplasia.md": {
+    "mtime": 1784879378.9061518,
+    "ast_hash": "b7b7a8f9a53d56790dd08fc8e801a70a2dc9e8c17fdc202bdfbac5e244c52964",
+    "semantic_hash": "b7b7a8f9a53d56790dd08fc8e801a70a2dc9e8c17fdc202bdfbac5e244c52964"
+  },
+  "notes/_link/PCSK9.md": {
+    "mtime": 1785819130.0716512,
+    "ast_hash": "764724a1d8eebabf272cad404ae5c89073fd96a729d7867c64a1c68ff41aadcd",
+    "semantic_hash": "764724a1d8eebabf272cad404ae5c89073fd96a729d7867c64a1c68ff41aadcd"
+  },
+  "notes/_link/Tolcapone.md": {
+    "mtime": 1785384805.9660418,
+    "ast_hash": "0fbdf597f61df107c4c7d0b838e1cb80acb01423356c163a535ef6a95437e430",
+    "semantic_hash": "0fbdf597f61df107c4c7d0b838e1cb80acb01423356c163a535ef6a95437e430"
+  },
+  "notes/_link/DACH1.md": {
+    "mtime": 1787074612.3774195,
+    "ast_hash": "17410886b05c48e02c40b1b497ac09262c39432ac796d6e82fb33cf94feb093e",
+    "semantic_hash": "17410886b05c48e02c40b1b497ac09262c39432ac796d6e82fb33cf94feb093e"
+  },
+  "notes/_link/_document_ - Could this enzyme help remove \"zombie\" cells from our tissues?.md": {
+    "mtime": 1784957533.2700253,
+    "ast_hash": "0319790fb09fd0b1593ecf23f4e621a5b1cee07f501c92046e244adeb75e2fad",
+    "semantic_hash": "0319790fb09fd0b1593ecf23f4e621a5b1cee07f501c92046e244adeb75e2fad"
+  },
+  "notes/_link/Intestinal Ischemia-Reperfusion Injury.md": {
+    "mtime": 1786464196.6155877,
+    "ast_hash": "d47583d55dbbd1d07747ed6f4cffdf1320d8a96f1ff0251c4dacf0416fdfa44f",
+    "semantic_hash": "d47583d55dbbd1d07747ed6f4cffdf1320d8a96f1ff0251c4dacf0416fdfa44f"
+  },
+  "notes/_link/Non-Exercise Activity Thermogenesis.md": {
+    "mtime": 1785522752.850041,
+    "ast_hash": "43bafa18e150a86eb8e69d7057bd8ee7dacb6e79e9b96551089d5f6772379592",
+    "semantic_hash": "43bafa18e150a86eb8e69d7057bd8ee7dacb6e79e9b96551089d5f6772379592"
+  },
+  "notes/_link/Intervertebral Disc Degeneration.md": {
+    "mtime": 1786464340.9444017,
+    "ast_hash": "bf18abfee6e76e92d3c2bbf939c0f6b57f556e0b5486612882260252a61a244b",
+    "semantic_hash": "bf18abfee6e76e92d3c2bbf939c0f6b57f556e0b5486612882260252a61a244b"
+  },
+  "notes/_link/Physical Activity Level.md": {
+    "mtime": 1785522841.460182,
+    "ast_hash": "b971d7af77dfd0e70bbb30013b3fa72317a6da02951ff3c1d7d78a1e0154b8f8",
+    "semantic_hash": "b971d7af77dfd0e70bbb30013b3fa72317a6da02951ff3c1d7d78a1e0154b8f8"
+  },
+  "notes/_link/SARM1.md": {
+    "mtime": 1786899133.8369236,
+    "ast_hash": "7e57ad08c1f3011272383d57dcb18fddc9ebcdd829fa14b135e7cb56fee876f7",
+    "semantic_hash": "7e57ad08c1f3011272383d57dcb18fddc9ebcdd829fa14b135e7cb56fee876f7"
+  },
+  "notes/_link/Adrenocortical carcinomas.md": {
+    "mtime": 1787605187.750725,
+    "ast_hash": "8097e74e954c81f75d22915d489b6ddbc6eb94f61a235513d1e5bb8db28995e1",
+    "semantic_hash": "8097e74e954c81f75d22915d489b6ddbc6eb94f61a235513d1e5bb8db28995e1"
+  },
+  "notes/_link/Sphingosine.md": {
+    "mtime": 1784957832.6045778,
+    "ast_hash": "510d3d0bb95e2bd292dd9d821152bcf0be09eff25eda557339ea6fa3a2ba4675",
+    "semantic_hash": "510d3d0bb95e2bd292dd9d821152bcf0be09eff25eda557339ea6fa3a2ba4675"
+  },
+  "notes/_link/Irisin.md": {
+    "mtime": 1787074396.5375817,
+    "ast_hash": "1baf2b49bed63533372b17f81232f31855bfa646cc8742c0234c51382662ac23",
+    "semantic_hash": "1baf2b49bed63533372b17f81232f31855bfa646cc8742c0234c51382662ac23"
+  },
+  "notes/_link/Methionine Restriction.md": {
+    "mtime": 1785545995.178695,
+    "ast_hash": "f1ecddf2471279d53ebde391c22cb6e142ba86261897b1b54163293082ef3dba",
+    "semantic_hash": "f1ecddf2471279d53ebde391c22cb6e142ba86261897b1b54163293082ef3dba"
+  },
+  "notes/_link/PUFA.md": {
+    "mtime": 1784957847.3554857,
+    "ast_hash": "ac0b5ad782d2a53f876b5bbce4f7b41b4449cf804c6fb6b1b3bce6b74c8b5e87",
+    "semantic_hash": "ac0b5ad782d2a53f876b5bbce4f7b41b4449cf804c6fb6b1b3bce6b74c8b5e87"
+  },
+  "notes/_link/Methyl-beta-cyclodextrin.md": {
+    "mtime": 1785277428.5065844,
+    "ast_hash": "7e5b94aef561a9c352669e69710a306751ffdce81b5df73607094e4f7b65e55a",
+    "semantic_hash": "7e5b94aef561a9c352669e69710a306751ffdce81b5df73607094e4f7b65e55a"
+  },
+  "notes/_link/Sclerostin.md": {
+    "mtime": 1786464387.4822032,
+    "ast_hash": "2a12ca94d00f986bfb071cdd4515b427ae3bc0fbcd912c10fb1dc80902059248",
+    "semantic_hash": "2a12ca94d00f986bfb071cdd4515b427ae3bc0fbcd912c10fb1dc80902059248"
+  },
+  "notes/_link/TXNIP.md": {
+    "mtime": 1786897940.4786346,
+    "ast_hash": "8c6c92c668ea885927f46435040a29b5974b57e352b46bbbd25d7d30209742d5",
+    "semantic_hash": "8c6c92c668ea885927f46435040a29b5974b57e352b46bbbd25d7d30209742d5"
+  },
+  "notes/_link/Intermedin.md": {
+    "mtime": 1787074542.253529,
+    "ast_hash": "8780d67f98c770fc6b6d880ece47225563a3754a5c010cf9373ae3a2665ce829",
+    "semantic_hash": "8780d67f98c770fc6b6d880ece47225563a3754a5c010cf9373ae3a2665ce829"
+  },
+  "notes/_link/Neurotoxicity.md": {
+    "mtime": 1784965027.1624806,
+    "ast_hash": "945f5c2dced81efc84c537968efb26933f17f25bfad1a06578e29bf2fe8d4b50",
+    "semantic_hash": "945f5c2dced81efc84c537968efb26933f17f25bfad1a06578e29bf2fe8d4b50"
+  },
+  "notes/_link/Myocardial Ischemia-Reperfusion Injury.md": {
+    "mtime": 1786464159.2100582,
+    "ast_hash": "3bdbce00b6b6966d883cc4774686ac07586ff7f21dc5e7c5db3a4fd83d2b8dbd",
+    "semantic_hash": "3bdbce00b6b6966d883cc4774686ac07586ff7f21dc5e7c5db3a4fd83d2b8dbd"
+  },
+  "notes/_link/Pancreatitis.md": {
+    "mtime": 1786464308.6674395,
+    "ast_hash": "df4844a180404f5d2d889464772e89b755a51171216f236b9a25e8501480347e",
+    "semantic_hash": "df4844a180404f5d2d889464772e89b755a51171216f236b9a25e8501480347e"
+  },
+  "notes/_link/Hamartoma.md": {
+    "mtime": 1786752535.17969,
+    "ast_hash": "07c9b5ec11940c1a1196b997a5660c0dda5ac68d051cd180a1853c50fdf93de3",
+    "semantic_hash": "07c9b5ec11940c1a1196b997a5660c0dda5ac68d051cd180a1853c50fdf93de3"
+  },
+  "notes/_link/Myxomatous Mitral Valve Disease.md": {
+    "mtime": 1785260626.5366554,
+    "ast_hash": "c43a526370b0b09b62e3c887c4846c514dc329eb2c9f96b00c4f950074da2657",
+    "semantic_hash": "c43a526370b0b09b62e3c887c4846c514dc329eb2c9f96b00c4f950074da2657"
+  },
+  "notes/_link/α-tubulin.md": {
+    "mtime": 1786992076.9522457,
+    "ast_hash": "031e91224ac27462691bcad681eab424a876b3cf594de8b5284d30458f52f6be",
+    "semantic_hash": "031e91224ac27462691bcad681eab424a876b3cf594de8b5284d30458f52f6be"
+  },
+  "notes/_link/Transferrin.md": {
+    "mtime": 1787605187.7581968,
+    "ast_hash": "685aba700d3e9c8daf6bfc0c1da4bb07b2561ade3216f156df442a6273391cf1",
+    "semantic_hash": "685aba700d3e9c8daf6bfc0c1da4bb07b2561ade3216f156df442a6273391cf1"
+  },
+  "notes/_link/Thymus.md": {
+    "mtime": 1785050446.2069232,
+    "ast_hash": "821faae65765b62bd49b67acdba3bc74f632187e6100957b47ae5bee9a787731",
+    "semantic_hash": "821faae65765b62bd49b67acdba3bc74f632187e6100957b47ae5bee9a787731"
+  },
+  "notes/_link/DNA-PK.md": {
+    "mtime": 1785277463.2226403,
+    "ast_hash": "a2b40cb3dde1f2d61c7540031dc859c48c3bac5b38987fe4b103b61ea0cfcc67",
+    "semantic_hash": "a2b40cb3dde1f2d61c7540031dc859c48c3bac5b38987fe4b103b61ea0cfcc67"
+  },
+  "notes/_link/Indirect Calorimetry.md": {
+    "mtime": 1785522955.964635,
+    "ast_hash": "bd17eddb88431d21658d0a527cd86546c1e9a48552629c540d973aeac9d5da00",
+    "semantic_hash": "bd17eddb88431d21658d0a527cd86546c1e9a48552629c540d973aeac9d5da00"
+  },
+  "notes/_link/Chloroquine.md": {
+    "mtime": 1786898647.1603105,
+    "ast_hash": "c3606987d7aacc701fef0a3ff4a51f2eeae66fc1cd46c5b19c6edc762522a0ba",
+    "semantic_hash": "c3606987d7aacc701fef0a3ff4a51f2eeae66fc1cd46c5b19c6edc762522a0ba"
+  },
+  "notes/_link/NKG2A.md": {
+    "mtime": 1784967735.7048688,
+    "ast_hash": "ad31619f4ed4fd3077ec973735cfd2f7d1cafcd4dcc73967ccd33158ba68da4d",
+    "semantic_hash": "ad31619f4ed4fd3077ec973735cfd2f7d1cafcd4dcc73967ccd33158ba68da4d"
+  },
+  "notes/_link/Cellular Senescence.md": {
+    "mtime": 1785169630.209667,
+    "ast_hash": "5075762c381a1d09517e98335fb12b91b0be7642edfb63c501e0a49b1a9fbf35",
+    "semantic_hash": "5075762c381a1d09517e98335fb12b91b0be7642edfb63c501e0a49b1a9fbf35"
+  },
+  "notes/_link/J147.md": {
+    "mtime": 1786323612.9152353,
+    "ast_hash": "b54443d2e082a8d562773376603cc71bf531ac439f223b712e2cd2d231f54cef",
+    "semantic_hash": "b54443d2e082a8d562773376603cc71bf531ac439f223b712e2cd2d231f54cef"
+  },
+  "notes/_link/Hypothalamus.md": {
+    "mtime": 1785800455.5667083,
+    "ast_hash": "b6f755b29c45f75a623300078b8b7be6d477173614424202163e693cc9bb73fe",
+    "semantic_hash": "b6f755b29c45f75a623300078b8b7be6d477173614424202163e693cc9bb73fe"
+  },
+  "notes/_link/Lactylation.md": {
+    "mtime": 1787074612.3842325,
+    "ast_hash": "fdb85783ff2665bd0ee274f83a43c3e51f54fae102fafd2ebe63ada076341bc7",
+    "semantic_hash": "fdb85783ff2665bd0ee274f83a43c3e51f54fae102fafd2ebe63ada076341bc7"
+  },
+  "notes/_link/Body Mass Index.md": {
+    "mtime": 1785522928.1050951,
+    "ast_hash": "f14c72169b24a226d599d1a3fea422e2bd1348fdbbfc242eec633c01ab748bc0",
+    "semantic_hash": "f14c72169b24a226d599d1a3fea422e2bd1348fdbbfc242eec633c01ab748bc0"
+  },
+  "notes/_link/Sex Steroid Ablation.md": {
+    "mtime": 1785050446.2055054,
+    "ast_hash": "3b64ba7216d57e207237a8a1abd5513e7f483d8405e3ef9e8b5f2fc77ecff9e9",
+    "semantic_hash": "3b64ba7216d57e207237a8a1abd5513e7f483d8405e3ef9e8b5f2fc77ecff9e9"
+  },
+  "notes/_link/DNA Helicase.md": {
+    "mtime": 1785277886.3202462,
+    "ast_hash": "6a7fd866dbb02218cdedc9c92f90a0b790b43a6fa610a48394c4e462018a8a3b",
+    "semantic_hash": "6a7fd866dbb02218cdedc9c92f90a0b790b43a6fa610a48394c4e462018a8a3b"
+  },
+  "notes/cancer/Pancreatic Ductal Adenocarcinoma.md": {
+    "mtime": 1786781292.0367124,
+    "ast_hash": "7d02e6a49048b56e9452983206ccbbfdee75ecaeae69c28855cd31a9f7b3c31c",
+    "semantic_hash": "7d02e6a49048b56e9452983206ccbbfdee75ecaeae69c28855cd31a9f7b3c31c"
+  },
+  "notes/cancer/_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+).md": {
+    "mtime": 1786323613.139216,
+    "ast_hash": "0eecef2bd2f4edf096b0b58ae269766d7f85c41bf3cd231fda9c41a369331227",
+    "semantic_hash": "0eecef2bd2f4edf096b0b58ae269766d7f85c41bf3cd231fda9c41a369331227"
+  },
+  "notes/cancer/R-CHOP.md": {
+    "mtime": 1785277461.162842,
+    "ast_hash": "102391d00e539ec5838a170765bcf78614dfc5e0139e2bb631799be0b0b896d2",
+    "semantic_hash": "102391d00e539ec5838a170765bcf78614dfc5e0139e2bb631799be0b0b896d2"
+  },
+  "notes/cancer/NRK2.md": {
+    "mtime": 1785052589.2377183,
+    "ast_hash": "548fa16215d466bddfd0ff0f88b1047e36e4a880b535d6e838773d921485e132",
+    "semantic_hash": "548fa16215d466bddfd0ff0f88b1047e36e4a880b535d6e838773d921485e132"
+  },
+  "notes/cancer/EMT6.md": {
+    "mtime": 1785277856.0971806,
+    "ast_hash": "9cc627b2b9211d26f8bba8282cdf9b017c129e216d5b86ab2e5df54cfe3799c3",
+    "semantic_hash": "9cc627b2b9211d26f8bba8282cdf9b017c129e216d5b86ab2e5df54cfe3799c3"
+  },
+  "notes/cancer/Xp11 translocation RCC.md": {
+    "mtime": 1786780710.5605128,
+    "ast_hash": "5ff531b57ba35907ae78f63b792a0436be127b3bd886459ce4c1aa1da6b43047",
+    "semantic_hash": "5ff531b57ba35907ae78f63b792a0436be127b3bd886459ce4c1aa1da6b43047"
+  },
+  "notes/cancer/Fenbendazole sulfone.md": {
+    "mtime": 1785277424.1018026,
+    "ast_hash": "10a9bd27b8676f37125756dd93a6f50763627ed8737e119cc28263102817eaba",
+    "semantic_hash": "10a9bd27b8676f37125756dd93a6f50763627ed8737e119cc28263102817eaba"
+  },
+  "notes/cancer/Mubritinib.md": {
+    "mtime": 1785042093.4382272,
+    "ast_hash": "ae5eaf5359315b3b33e099158667f435506b6dd7da45c3f564c7a171cad08147",
+    "semantic_hash": "ae5eaf5359315b3b33e099158667f435506b6dd7da45c3f564c7a171cad08147"
+  },
+  "notes/cancer/VEGF Family.md": {
+    "mtime": 1786780692.8903823,
+    "ast_hash": "2311b4f1c32842adcb5760f390cb8d1ca39f5cc1dabd76fe122b6d8aae3826f6",
+    "semantic_hash": "2311b4f1c32842adcb5760f390cb8d1ca39f5cc1dabd76fe122b6d8aae3826f6"
+  },
+  "notes/cancer/Immature Myeloid Cell.md": {
+    "mtime": 1786780596.6647751,
+    "ast_hash": "92278aab87fb8bcd094c5caf1a1de6369682757ce589de77094b8a5f8c9b0a2a",
+    "semantic_hash": "92278aab87fb8bcd094c5caf1a1de6369682757ce589de77094b8a5f8c9b0a2a"
+  },
+  "notes/cancer/Peutz-Jeghers syndrome.md": {
+    "mtime": 1786781267.524243,
+    "ast_hash": "10e62ccc14f85e4d50c5b690e4ae2929a90263e9bc5d1cbdfd40dec911b4e862",
+    "semantic_hash": "10e62ccc14f85e4d50c5b690e4ae2929a90263e9bc5d1cbdfd40dec911b4e862"
+  },
+  "notes/cancer/MCPIP1.md": {
+    "mtime": 1786780608.510935,
+    "ast_hash": "e017056ae06b7621c74039fecb97fd9f67469efc3635f37f5756cce3ee80ff4e",
+    "semantic_hash": "e017056ae06b7621c74039fecb97fd9f67469efc3635f37f5756cce3ee80ff4e"
+  },
+  "notes/cancer/ATM Kinase.md": {
+    "mtime": 1786780571.1393888,
+    "ast_hash": "88a357aac0fb34def3b1fff406b4f1bea0649666999c93a12c1a71fb1fc1f2ba",
+    "semantic_hash": "88a357aac0fb34def3b1fff406b4f1bea0649666999c93a12c1a71fb1fc1f2ba"
+  },
+  "notes/cancer/VEGFR3.md": {
+    "mtime": 1786780704.2097235,
+    "ast_hash": "18b4e04941e701dc1ad7ec2d99af776c4d6b123be9c2c4d0a6cfa607a5fc9f72",
+    "semantic_hash": "18b4e04941e701dc1ad7ec2d99af776c4d6b123be9c2c4d0a6cfa607a5fc9f72"
+  },
+  "notes/cancer/Sotorasib.md": {
+    "mtime": 1786780666.8604236,
+    "ast_hash": "a7dfa844b7421de95c62f0fa41370acab574b982f5771e1b03ce8ae8d4d829a4",
+    "semantic_hash": "a7dfa844b7421de95c62f0fa41370acab574b982f5771e1b03ce8ae8d4d829a4"
+  },
+  "notes/cancer/VEGFR2.md": {
+    "mtime": 1786780698.7204838,
+    "ast_hash": "d5b3525ce74c2fe04a1886bac84d4bef984792600fb2e2dfe0526950e7e0ba99",
+    "semantic_hash": "d5b3525ce74c2fe04a1886bac84d4bef984792600fb2e2dfe0526950e7e0ba99"
+  },
+  "notes/cancer/KPNB1.md": {
+    "mtime": 1785260635.0223598,
+    "ast_hash": "6554ad991ed1c1691051aeed3c904dc67d5d9b0eb0b833b24af8813890e378e0",
+    "semantic_hash": "6554ad991ed1c1691051aeed3c904dc67d5d9b0eb0b833b24af8813890e378e0"
+  },
+  "notes/cancer/_document_ - Chemotherapy NAD+ Loss Pöllänen 2026.md": {
+    "mtime": 1785052589.2384603,
+    "ast_hash": "565495369f34f7e6a2e31c9aaa1210398d5302792c4ff4a24bdfe5b46e5a0af4",
+    "semantic_hash": "565495369f34f7e6a2e31c9aaa1210398d5302792c4ff4a24bdfe5b46e5a0af4"
+  },
+  "notes/cancer/_document_ - Fenbendazole as a Potential Anticancer Drug.md": {
+    "mtime": 1785277992.7144792,
+    "ast_hash": "71b06cb42b386a50594b2e376bc64e0ffc9a526d850f40d9052f6a9122ce3ee4",
+    "semantic_hash": "71b06cb42b386a50594b2e376bc64e0ffc9a526d850f40d9052f6a9122ce3ee4"
+  },
+  "notes/cancer/TGFβ Superfamily.md": {
+    "mtime": 1786780673.349221,
+    "ast_hash": "73e60ab69b1d62fab64cc664760e275ff73fcbc9381bb3cc7a284ed3dc8854a6",
+    "semantic_hash": "73e60ab69b1d62fab64cc664760e275ff73fcbc9381bb3cc7a284ed3dc8854a6"
+  },
+  "notes/cancer/Thrombospondin-1.md": {
+    "mtime": 1786780679.2487817,
+    "ast_hash": "c271d21fc13ecf5d732ddae9ddc65e59d77556524c8ffcb95bd9dc336991b6bc",
+    "semantic_hash": "c271d21fc13ecf5d732ddae9ddc65e59d77556524c8ffcb95bd9dc336991b6bc"
+  },
+  "notes/cancer/BAY 87-2243.md": {
+    "mtime": 1785042102.4031956,
+    "ast_hash": "07e6a7564248486c8893857602bc8a9847aa18d36357e1f67794e80e7fec5ca4",
+    "semantic_hash": "07e6a7564248486c8893857602bc8a9847aa18d36357e1f67794e80e7fec5ca4"
+  },
+  "notes/cancer/Pancreatic Beta Cells.md": {
+    "mtime": 1786781267.5494132,
+    "ast_hash": "8813db9a693034514fdf4bd7c82803928edadfdbaff67bea78179a79acf6513a",
+    "semantic_hash": "8813db9a693034514fdf4bd7c82803928edadfdbaff67bea78179a79acf6513a"
+  },
+  "notes/cancer/N-Myc.md": {
+    "mtime": 1786781267.5508702,
+    "ast_hash": "0c97142bfe302dd533f49df4b8c4612630bd9cf281cd79a75296bbf0e33e24b9",
+    "semantic_hash": "0c97142bfe302dd533f49df4b8c4612630bd9cf281cd79a75296bbf0e33e24b9"
+  },
+  "notes/cancer/FOLFIRI.md": {
+    "mtime": 1785052589.2373028,
+    "ast_hash": "976bf8feb10a95863732fd4d91ed9e409b2426a9bde9cdb1c684dc9c6d742a50",
+    "semantic_hash": "976bf8feb10a95863732fd4d91ed9e409b2426a9bde9cdb1c684dc9c6d742a50"
+  },
+  "notes/cancer/Immune Checkpoint Inhibitors.md": {
+    "mtime": 1786780602.9973967,
+    "ast_hash": "9c837508537dd96054c848feae10aba08ac413e885754b2c318f5e596aaf69cc",
+    "semantic_hash": "9c837508537dd96054c848feae10aba08ac413e885754b2c318f5e596aaf69cc"
+  },
+  "notes/cancer/Cell Cycle Arrest.md": {
+    "mtime": 1786781267.5536454,
+    "ast_hash": "5f34f89e6fb804ed83d33e2ce2016053c3f88869586732311de8a44c527b5448",
+    "semantic_hash": "5f34f89e6fb804ed83d33e2ce2016053c3f88869586732311de8a44c527b5448"
+  },
+  "notes/cancer/FOLFOX.md": {
+    "mtime": 1785052589.2374306,
+    "ast_hash": "051fbe4f8d292800aa4f7790cfb46dfb7014896832d7d208d523d2dfb39d0564",
+    "semantic_hash": "051fbe4f8d292800aa4f7790cfb46dfb7014896832d7d208d523d2dfb39d0564"
+  },
+  "notes/cancer/Diffuse large B-cell lymphoma.md": {
+    "mtime": 1785277420.349415,
+    "ast_hash": "74c7bb2e949da24754de1fa92c3171d063361948c8dd5761b9aa90188a95983a",
+    "semantic_hash": "74c7bb2e949da24754de1fa92c3171d063361948c8dd5761b9aa90188a95983a"
+  },
+  "notes/cancer/fenbendazole_3725.full.md": {
+    "mtime": 1786323107.882007,
+    "ast_hash": "6692213f7516b1feed2e076f14446efca7edc799d77e29242325dcd75e33564c",
+    "semantic_hash": "6692213f7516b1feed2e076f14446efca7edc799d77e29242325dcd75e33564c"
+  },
+  "notes/cancer/Regulated Cell Death.md": {
+    "mtime": 1786781267.5599918,
+    "ast_hash": "8772d9e7838d459682b765398f024715daed9badbe499ab12992206d75c0ab3b",
+    "semantic_hash": "8772d9e7838d459682b765398f024715daed9badbe499ab12992206d75c0ab3b"
+  },
+  "notes/cancer/Cyclin D1.md": {
+    "mtime": 1786781267.560212,
+    "ast_hash": "5e13dbedcb1b2ac309e6fb0f84f975712f41d05ad4fe89dd0511133f147c33f5",
+    "semantic_hash": "5e13dbedcb1b2ac309e6fb0f84f975712f41d05ad4fe89dd0511133f147c33f5"
+  },
+  "notes/cancer/acute promyelocytic leukaemia.md": {
+    "mtime": 1786781267.5604377,
+    "ast_hash": "e6f2288bbc27244bc35b0da9b4739c3c7f4a75d4c01166ecd3ffdbbaa9390a07",
+    "semantic_hash": "e6f2288bbc27244bc35b0da9b4739c3c7f4a75d4c01166ecd3ffdbbaa9390a07"
+  },
+  "notes/cancer/Hydroxyfenbendazole.md": {
+    "mtime": 1785277426.1399448,
+    "ast_hash": "22d6c909eb14dccfc1d8e679d835ae07788d6b9d7a226ee48789eae86e7cbe45",
+    "semantic_hash": "22d6c909eb14dccfc1d8e679d835ae07788d6b9d7a226ee48789eae86e7cbe45"
+  },
+  "notes/cancer/Acute Myeloid Leukemia.md": {
+    "mtime": 1786780550.1532085,
+    "ast_hash": "a5ebbb15faa486a894ea6478630850976f063f01934f51dc508980cab09eed0b",
+    "semantic_hash": "a5ebbb15faa486a894ea6478630850976f063f01934f51dc508980cab09eed0b"
+  },
+  "notes/cancer/Oral squamous cell carcinoma.md": {
+    "mtime": 1786781267.563606,
+    "ast_hash": "793cd2569e6067ee0509307b70ca2316724564c2473f9fc7c73651941c4f4d1d",
+    "semantic_hash": "793cd2569e6067ee0509307b70ca2316724564c2473f9fc7c73651941c4f4d1d"
+  },
+  "notes/cancer/MEK.md": {
+    "mtime": 1786780614.9945893,
+    "ast_hash": "1cd946ea70a91a5614d0adc2ac2f9b4a6c4ab47ffecac460afa0ccf0917558c4",
+    "semantic_hash": "1cd946ea70a91a5614d0adc2ac2f9b4a6c4ab47ffecac460afa0ccf0917558c4"
+  },
+  "notes/cancer/Acute Pancreatitis.md": {
+    "mtime": 1786781292.0363293,
+    "ast_hash": "46ab7a1fee2e0a612de7b3508d218124f3cf1bf0e895db311567454a16454a07",
+    "semantic_hash": "46ab7a1fee2e0a612de7b3508d218124f3cf1bf0e895db311567454a16454a07"
+  },
+  "notes/neuromelanin/Proton Leak.md": {
+    "mtime": 1786780677.869155,
+    "ast_hash": "589630124c1d1d4f772d0b831430cd135df7424be127b2acd44ad7929ec97376",
+    "semantic_hash": "589630124c1d1d4f772d0b831430cd135df7424be127b2acd44ad7929ec97376"
+  },
+  "notes/neuromelanin/Noise-Induced Hearing Loss.md": {
+    "mtime": 1786780628.871561,
+    "ast_hash": "da12113f6cc88ed3742d8c8f2152afdba389f77a5f9b3a90d8edef0d3625db6f",
+    "semantic_hash": "da12113f6cc88ed3742d8c8f2152afdba389f77a5f9b3a90d8edef0d3625db6f"
+  },
+  "notes/neuromelanin/Glomerular Filtration Rate.md": {
+    "mtime": 1786780602.576872,
+    "ast_hash": "73740c8e5de6a4465cb2406298ab2a213f1dba43099cafb6c921ecd061abaa77",
+    "semantic_hash": "73740c8e5de6a4465cb2406298ab2a213f1dba43099cafb6c921ecd061abaa77"
+  },
+  "notes/neuromelanin/Thyroid Hormones.md": {
+    "mtime": 1786780714.383915,
+    "ast_hash": "dca63b5193d6eee698740e767d2198fe3b673c26e56df09735ddeda22f02b0d4",
+    "semantic_hash": "dca63b5193d6eee698740e767d2198fe3b673c26e56df09735ddeda22f02b0d4"
+  },
+  "notes/neuromelanin/Retinal Photoreceptors.md": {
+    "mtime": 1786780675.7376256,
+    "ast_hash": "18bc1f799a9f37ae0fcf50879bd33100cd119e95fd90a111a5ae4da8fb1f8457",
+    "semantic_hash": "18bc1f799a9f37ae0fcf50879bd33100cd119e95fd90a111a5ae4da8fb1f8457"
+  },
+  "notes/neuromelanin/Ventricular arrhythmias.md": {
+    "mtime": 1786780738.3950057,
+    "ast_hash": "2718ffd383b62c206b258cf7434b2d51e3efc6cf9979d0978c092c833e972003",
+    "semantic_hash": "2718ffd383b62c206b258cf7434b2d51e3efc6cf9979d0978c092c833e972003"
+  },
+  "notes/neuromelanin/Ifosfamide-induced Encephalopathy.md": {
+    "mtime": 1786780622.5365703,
+    "ast_hash": "cc5d2c5bd22708371b21bfd54bdf02c3823db06e52ad76c7d05939706db52d73",
+    "semantic_hash": "cc5d2c5bd22708371b21bfd54bdf02c3823db06e52ad76c7d05939706db52d73"
+  },
+  "notes/neuromelanin/Non-REM Sleep.md": {
+    "mtime": 1786900314.191694,
+    "ast_hash": "0b0e063320b364f3621e98d4003093dc346095747e5b00e43d8aadd773c22b0e",
+    "semantic_hash": "0b0e063320b364f3621e98d4003093dc346095747e5b00e43d8aadd773c22b0e"
+  },
+  "notes/neuromelanin/Cardiac Function.md": {
+    "mtime": 1786780570.4222023,
+    "ast_hash": "190589c111a7ea3a0751911353dd9e0fde7162e5e4258e95772e689af7d991c8",
+    "semantic_hash": "190589c111a7ea3a0751911353dd9e0fde7162e5e4258e95772e689af7d991c8"
+  },
+  "notes/neuromelanin/Dyslipidemia.md": {
+    "mtime": 1786780586.7155023,
+    "ast_hash": "8f53554e352109185f17c38f22df836b94caa213da60a536556f7d05221ef784",
+    "semantic_hash": "8f53554e352109185f17c38f22df836b94caa213da60a536556f7d05221ef784"
+  },
+  "notes/neuromelanin/Glutamic Acid Decarboxylase.md": {
+    "mtime": 1786900314.1919758,
+    "ast_hash": "9b88c107469bb7734c9455a2f6dd1da0d07370f024e780784dabd1006c9cc7a9",
+    "semantic_hash": "9b88c107469bb7734c9455a2f6dd1da0d07370f024e780784dabd1006c9cc7a9"
+  },
+  "notes/neuromelanin/Systolic Blood Pressure.md": {
+    "mtime": 1786780693.460088,
+    "ast_hash": "0e2d4d278abb0bc0f5e49d1136d8cabc915f549c0d844ff4c185c165bc18fbf6",
+    "semantic_hash": "0e2d4d278abb0bc0f5e49d1136d8cabc915f549c0d844ff4c185c165bc18fbf6"
+  },
+  "notes/neuromelanin/Proteinuria.md": {
+    "mtime": 1786780647.1192951,
+    "ast_hash": "dc26809bab4a0181e9f889617472dd06c0e57543f808c5576e4ff61f74c31277",
+    "semantic_hash": "dc26809bab4a0181e9f889617472dd06c0e57543f808c5576e4ff61f74c31277"
+  },
+  "notes/neuromelanin/Erβ.md": {
+    "mtime": 1786780593.3786178,
+    "ast_hash": "27cde1983192f18a8073d17b12e2f283b8235224c67eaefe209baec810f10282",
+    "semantic_hash": "27cde1983192f18a8073d17b12e2f283b8235224c67eaefe209baec810f10282"
+  },
+  "notes/neuromelanin/Arterial Thrombosis.md": {
+    "mtime": 1786900314.1923313,
+    "ast_hash": "14a5315fd39b4b54c9678aaf1e047704173ae632603af36a5fe9c8f9f682a4f9",
+    "semantic_hash": "14a5315fd39b4b54c9678aaf1e047704173ae632603af36a5fe9c8f9f682a4f9"
+  },
+  "notes/neuromelanin/Axonal Degeneration.md": {
+    "mtime": 1786780561.1482353,
+    "ast_hash": "0844c61c88680814e75c1032404d4cb44ef759e973c6e31d490a5d68563b9ecf",
+    "semantic_hash": "0844c61c88680814e75c1032404d4cb44ef759e973c6e31d490a5d68563b9ecf"
+  },
+  "notes/neuromelanin/Diazepam.md": {
+    "mtime": 1786900314.1925194,
+    "ast_hash": "5d99379a3ec6f9329ca5a1488ae802f2e38f22009d90eb6b047d2c270ad8ad5e",
+    "semantic_hash": "5d99379a3ec6f9329ca5a1488ae802f2e38f22009d90eb6b047d2c270ad8ad5e"
+  },
+  "notes/neuromelanin/Tangier disease.md": {
+    "mtime": 1786780700.2108557,
+    "ast_hash": "66b7647897ca59f223d3cb7fc5a70778047f9480758229fdca43094dc15bec34",
+    "semantic_hash": "66b7647897ca59f223d3cb7fc5a70778047f9480758229fdca43094dc15bec34"
+  },
+  "notes/autophagy/mTORC1-Lysosome Compartment.md": {
+    "mtime": 1784965071.3268936,
+    "ast_hash": "c66d09fa4b3d3eb21b31d072b7d0a993a02ff9f331f397bc6b9986dafe55fc07",
+    "semantic_hash": "c66d09fa4b3d3eb21b31d072b7d0a993a02ff9f331f397bc6b9986dafe55fc07"
+  },
+  "notes/autophagy/Arterial Aging.md": {
+    "mtime": 1784965083.7023299,
+    "ast_hash": "2d7a6512d32b19852f7eff951f665699e945e5f77b7bc9756cffc8fc028bdf11",
+    "semantic_hash": "2d7a6512d32b19852f7eff951f665699e945e5f77b7bc9756cffc8fc028bdf11"
+  },
+  "notes/sirtuins/_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md": {
+    "mtime": 1786575358.232714,
+    "ast_hash": "178b455aefba35efcbbdfb7c8c3c3255bebfef71d177f87b976da30bf2a62a0c",
+    "semantic_hash": "178b455aefba35efcbbdfb7c8c3c3255bebfef71d177f87b976da30bf2a62a0c"
+  },
+  "notes/sirtuins/_document_ - Sirtuins, a promising target in slowing down the ageing process.md": {
+    "mtime": 1786992076.9543087,
+    "ast_hash": "4a78f60e0acd6eac56e81c45d73fde689e06b0544c5f55b445f498f4dec89a5a",
+    "semantic_hash": "4a78f60e0acd6eac56e81c45d73fde689e06b0544c5f55b445f498f4dec89a5a"
+  },
+  "notes/sirtuins/Amurensin G.md": {
+    "mtime": 1786638582.9166298,
+    "ast_hash": "ad9a5063216c155c033dfd388cafa8a6370feb0bdbbb04e483e4af98b0366f0b",
+    "semantic_hash": "ad9a5063216c155c033dfd388cafa8a6370feb0bdbbb04e483e4af98b0366f0b"
+  },
+  "notes/sirtuins/Sirtuin Inhibitors.md": {
+    "mtime": 1786639382.347851,
+    "ast_hash": "a3eafd32a0170e478c6c7457f6d0373d1d5329576ddc3cf3175f1a9aee39d2e6",
+    "semantic_hash": "a3eafd32a0170e478c6c7457f6d0373d1d5329576ddc3cf3175f1a9aee39d2e6"
+  },
+  "notes/sirtuins/FOXO3.md": {
+    "mtime": 1786781267.6585584,
+    "ast_hash": "b5e97480767fa413c161e3acb7c5f3127026a79d258015fa9d3659964258403e",
+    "semantic_hash": "b5e97480767fa413c161e3acb7c5f3127026a79d258015fa9d3659964258403e"
+  },
+  "notes/sirtuins/CobB.md": {
+    "mtime": 1786781267.659908,
+    "ast_hash": "0e078e5bab298bc58cabc041b346edd9066ec0ad729ee6adf37f43d7a71e4ef1",
+    "semantic_hash": "0e078e5bab298bc58cabc041b346edd9066ec0ad729ee6adf37f43d7a71e4ef1"
+  },
+  "notes/sirtuins/ELK4.md": {
+    "mtime": 1786639275.122409,
+    "ast_hash": "24135e432b7cea63d15cfadb0030e7e45891e4ca310519c94f991fc4d51172ff",
+    "semantic_hash": "24135e432b7cea63d15cfadb0030e7e45891e4ca310519c94f991fc4d51172ff"
+  },
+  "notes/sirtuins/GDH (Glutamate Dehydrogenase).md": {
+    "mtime": 1786780607.70649,
+    "ast_hash": "b5eb89509ae8bdbac89e4660e1c864393cedc1560e5de7db5ae716b711fbb4be",
+    "semantic_hash": "b5eb89509ae8bdbac89e4660e1c864393cedc1560e5de7db5ae716b711fbb4be"
+  },
+  "notes/sirtuins/WRN.md": {
+    "mtime": 1786781267.6628304,
+    "ast_hash": "7a391f73d080251ad31cc777063922cef832eec3605260f5aedf2a8086318c0a",
+    "semantic_hash": "7a391f73d080251ad31cc777063922cef832eec3605260f5aedf2a8086318c0a"
+  },
+  "notes/sirtuins/_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md": {
+    "mtime": 1785902166.6308877,
+    "ast_hash": "2280514c178b0379cfbe23678f30034642e1bd1ded7b371186bdb39aba995042",
+    "semantic_hash": "2280514c178b0379cfbe23678f30034642e1bd1ded7b371186bdb39aba995042"
+  },
+  "notes/sirtuins/Tenovin-6.md": {
+    "mtime": 1784965094.73595,
+    "ast_hash": "980b0e0b1e658af3ab849d5626f0c3605324d5de716571e92a52f22e5b692639",
+    "semantic_hash": "980b0e0b1e658af3ab849d5626f0c3605324d5de716571e92a52f22e5b692639"
+  },
+  "notes/sirtuins/Dioxygenase.md": {
+    "mtime": 1786781267.6673722,
+    "ast_hash": "9ee929efc9abe5f9ffa8ffb22eba5b918f34ae34aa82867b514753f71c45de35",
+    "semantic_hash": "9ee929efc9abe5f9ffa8ffb22eba5b918f34ae34aa82867b514753f71c45de35"
+  },
+  "notes/sirtuins/SRT1460.md": {
+    "mtime": 1786639289.6026003,
+    "ast_hash": "c27d7b16a7ac164b3137da288b142e5c10def9c1e6fb2712bc43d339463cfa9e",
+    "semantic_hash": "c27d7b16a7ac164b3137da288b142e5c10def9c1e6fb2712bc43d339463cfa9e"
+  },
+  "notes/sirtuins/ETS.md": {
+    "mtime": 1786639284.280114,
+    "ast_hash": "185f0b6f6027a6de6f9b8e3b8c36ac41f615549865d931035680583b2c96a84e",
+    "semantic_hash": "185f0b6f6027a6de6f9b8e3b8c36ac41f615549865d931035680583b2c96a84e"
+  },
+  "notes/sirtuins/DLD (dihydrolipoamide dehydrogenase).md": {
+    "mtime": 1786781267.6737149,
+    "ast_hash": "ad3c6cd9b34ddb757bde5953f7590d52a4918ee726324255a9a03898d5a6b4fa",
+    "semantic_hash": "ad3c6cd9b34ddb757bde5953f7590d52a4918ee726324255a9a03898d5a6b4fa"
+  },
+  "notes/sirtuins/Glutamate dehydrogenase.md": {
+    "mtime": 1786780613.54686,
+    "ast_hash": "55f19b1bbcb8a42bb38604f3270dc0d6a30d8639dc0236e82365f66a9745643e",
+    "semantic_hash": "55f19b1bbcb8a42bb38604f3270dc0d6a30d8639dc0236e82365f66a9745643e"
+  },
+  "notes/sirtuins/FXR.md": {
+    "mtime": 1786781267.6762083,
+    "ast_hash": "0e98f3af1114adca35a031a626db484e16d39f6bccd33d1d6949d8534ddd7a0d",
+    "semantic_hash": "0e98f3af1114adca35a031a626db484e16d39f6bccd33d1d6949d8534ddd7a0d"
+  },
+  "notes/sirtuins/Pan-sirtuin Activator.md": {
+    "mtime": 1784965081.7557938,
+    "ast_hash": "073cdd1a99accb76373a0974afb32888786f42b17aafc6e8ae0d736db1bbd3c7",
+    "semantic_hash": "073cdd1a99accb76373a0974afb32888786f42b17aafc6e8ae0d736db1bbd3c7"
+  },
+  "notes/sirtuins/Tanikolide.md": {
+    "mtime": 1786638591.1362264,
+    "ast_hash": "6ce3a942642c2e618cd3a74a1c61b0115fa6a460a185dbb5b011cef18d96a32d",
+    "semantic_hash": "6ce3a942642c2e618cd3a74a1c61b0115fa6a460a185dbb5b011cef18d96a32d"
+  },
+  "notes/sirtuins/_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md": {
+    "mtime": 1786639387.3026824,
+    "ast_hash": "1d659efe20f7ef8a9d437594a7214d8f8f4811ce6ae5bf752fb5043faf103da2",
+    "semantic_hash": "1d659efe20f7ef8a9d437594a7214d8f8f4811ce6ae5bf752fb5043faf103da2"
+  },
+  "notes/sirtuins/2-APQC.md": {
+    "mtime": 1787073735.1211526,
+    "ast_hash": "d25cc7efea31ae9446f60b5abcab9ed61dc06cde26a052f38c7caaa5262291ca",
+    "semantic_hash": "d25cc7efea31ae9446f60b5abcab9ed61dc06cde26a052f38c7caaa5262291ca"
+  },
+  "notes/sirtuins/Deacetylases.md": {
+    "mtime": 1786781267.6817865,
+    "ast_hash": "f6b30ec063c722c77a71c18a1b2b9b3f744a6a9ca407f8a9dce97fc973af4982",
+    "semantic_hash": "f6b30ec063c722c77a71c18a1b2b9b3f744a6a9ca407f8a9dce97fc973af4982"
+  },
+  "notes/sirtuins/GW5074.md": {
+    "mtime": 1786638508.9644043,
+    "ast_hash": "91b6a57ac37424651ae9ef156b86a57691327b411f57d0a4b2000a7cd96e00e4",
+    "semantic_hash": "91b6a57ac37424651ae9ef156b86a57691327b411f57d0a4b2000a7cd96e00e4"
+  },
+  "notes/sirtuins/RELA.md": {
+    "mtime": 1786781267.6871545,
+    "ast_hash": "64e007a3babcefdd8cddfd8f6049758c5c11a9fd24e00167580745b764229604",
+    "semantic_hash": "64e007a3babcefdd8cddfd8f6049758c5c11a9fd24e00167580745b764229604"
+  },
+  "notes/sirtuins/Rifampicin.md": {
+    "mtime": 1786781267.6886103,
+    "ast_hash": "633b12f6d121a230305d5151cd43dda8a731d999d091aba69b25cb2f260572ca",
+    "semantic_hash": "633b12f6d121a230305d5151cd43dda8a731d999d091aba69b25cb2f260572ca"
+  },
+  "notes/sirtuins/Butein.md": {
+    "mtime": 1786638553.4998455,
+    "ast_hash": "e1924941954e20af443bfabb77c1f2e922b6d85cd93f7cabadf68c9ebe6c226e",
+    "semantic_hash": "e1924941954e20af443bfabb77c1f2e922b6d85cd93f7cabadf68c9ebe6c226e"
+  },
+  "notes/sirtuins/Tenovin-1 and Tenovin-6.md": {
+    "mtime": 1786781267.689188,
+    "ast_hash": "c27d0f294916558272aefce5b79534fc3af7871b9d6c7487ca9f6ce2d586a1f0",
+    "semantic_hash": "c27d0f294916558272aefce5b79534fc3af7871b9d6c7487ca9f6ce2d586a1f0"
+  },
+  "notes/sirtuins/Ro31-8220.md": {
+    "mtime": 1786638502.6091933,
+    "ast_hash": "0323405a0939894c1c6c6e1bae4e27cf9c8fab8931eb0f5d6d6dca6183e112ea",
+    "semantic_hash": "0323405a0939894c1c6c6e1bae4e27cf9c8fab8931eb0f5d6d6dca6183e112ea"
+  },
+  "notes/sirtuins/urea cycle.md": {
+    "mtime": 1786781267.692888,
+    "ast_hash": "99577816909bf9a47ddeabcca2c43201d25d16d0f1d5c69a4cca73cb183d03e5",
+    "semantic_hash": "99577816909bf9a47ddeabcca2c43201d25d16d0f1d5c69a4cca73cb183d03e5"
+  },
+  "notes/sirtuins/Sirtris Pharmaceuticals.md": {
+    "mtime": 1786639222.5971673,
+    "ast_hash": "972e135e5436985e219653c5bdaab83be464794b446ee06add025efdc1b18493",
+    "semantic_hash": "972e135e5436985e219653c5bdaab83be464794b446ee06add025efdc1b18493"
+  },
+  "notes/sirtuins/Phosphoglycerate Mutase.md": {
+    "mtime": 1786781205.1490943,
+    "ast_hash": "85602c27f26c3aa6dc3bc4064a80fa7d7f163418db9d55d2216e452003abf1c0",
+    "semantic_hash": "85602c27f26c3aa6dc3bc4064a80fa7d7f163418db9d55d2216e452003abf1c0"
+  },
+  "notes/sirtuins/_document_ - Sirtuins Guardians of Mammalian Healthspan.md": {
+    "mtime": 1786322736.9527676,
+    "ast_hash": "c7ddde2b45c35291ce323fd1a244e234be77bb1c8a7390f98bc3b94dd4a590ec",
+    "semantic_hash": "c7ddde2b45c35291ce323fd1a244e234be77bb1c8a7390f98bc3b94dd4a590ec"
+  },
+  "notes/sirtuins/XPA.md": {
+    "mtime": 1786781267.6951828,
+    "ast_hash": "7b0e4c6cece03489502d802b6bfe1ef2d91c8897fe3b1f0519fdbce779f1fe0c",
+    "semantic_hash": "7b0e4c6cece03489502d802b6bfe1ef2d91c8897fe3b1f0519fdbce779f1fe0c"
+  },
+  "notes/sirtuins/Sirtuin Fluorimetric Activity.md": {
+    "mtime": 1786639373.0170634,
+    "ast_hash": "cb0dbd7548e4469f5c6dd50b964dce343aaa827722dd285f2e117b1b7bb86749",
+    "semantic_hash": "cb0dbd7548e4469f5c6dd50b964dce343aaa827722dd285f2e117b1b7bb86749"
+  },
+  "notes/sirtuins/CCNDBP1.md": {
+    "mtime": 1786781267.7002316,
+    "ast_hash": "19b407a74e4f4ac49b7a8cb1fb25872adeab470f13cf2bddb071da787535a26a",
+    "semantic_hash": "19b407a74e4f4ac49b7a8cb1fb25872adeab470f13cf2bddb071da787535a26a"
+  },
+  "notes/sirtuins/SRT2183.md": {
+    "mtime": 1786639293.2975829,
+    "ast_hash": "644b9b692f8f53a1994a3073382c1a0db9d60ad3795ccda0fd60425d92ed94c1",
+    "semantic_hash": "644b9b692f8f53a1994a3073382c1a0db9d60ad3795ccda0fd60425d92ed94c1"
+  },
+  "notes/sirtuins/AC93253.md": {
+    "mtime": 1786638784.6203673,
+    "ast_hash": "015578ec6403b42480538f9b0c794eaf3f9d3e9465bcb329047e5084fa57b249",
+    "semantic_hash": "015578ec6403b42480538f9b0c794eaf3f9d3e9465bcb329047e5084fa57b249"
+  },
+  "notes/sirtuins/NAAD.md": {
+    "mtime": 1786781303.3232646,
+    "ast_hash": "afe30fc5d1ab4d5e39eee199a93ad99e5ee9968ca8981b85fc392ccd84e6ce47",
+    "semantic_hash": "afe30fc5d1ab4d5e39eee199a93ad99e5ee9968ca8981b85fc392ccd84e6ce47"
+  },
+  "notes/sirtuins/Purine Nucleoside Phosphorylase.md": {
+    "mtime": 1786781267.704831,
+    "ast_hash": "4840d28a3b8cc622f39f3a776d20df38b4744aede7795782d877d661d2fa3dd4",
+    "semantic_hash": "4840d28a3b8cc622f39f3a776d20df38b4744aede7795782d877d661d2fa3dd4"
+  },
+  "notes/sirtuins/_document_ - Roles of SIRT3 in aging and aging-related diseases.md": {
+    "mtime": 1787075190.752169,
+    "ast_hash": "1bb53e0677609ad10670d2a8562832d16a7091539d2a127407c9cbe9acf0bb5c",
+    "semantic_hash": "1bb53e0677609ad10670d2a8562832d16a7091539d2a127407c9cbe9acf0bb5c"
+  },
+  "notes/sirtuins/Aristoforin.md": {
+    "mtime": 1786638566.2805731,
+    "ast_hash": "a4380022bb88e4a158f251267ba383d360fd6190b3d9225a2098ec316f09c4de",
+    "semantic_hash": "a4380022bb88e4a158f251267ba383d360fd6190b3d9225a2098ec316f09c4de"
+  },
+  "notes/sirtuins/NF675.md": {
+    "mtime": 1786638516.8097076,
+    "ast_hash": "4d68a9f7392555cddbed3eff9db3741ba9aa3bd434b418916b465720b316e306",
+    "semantic_hash": "4d68a9f7392555cddbed3eff9db3741ba9aa3bd434b418916b465720b316e306"
+  },
+  "notes/sirtuins/Adenosine Kinase.md": {
+    "mtime": 1786781267.7101524,
+    "ast_hash": "62d907d8b45a43a018866ab91a6452385a449d7f032124e264108c39f9d1ae51",
+    "semantic_hash": "62d907d8b45a43a018866ab91a6452385a449d7f032124e264108c39f9d1ae51"
+  },
+  "notes/sirtuins/PCAF.md": {
+    "mtime": 1786780652.6918283,
+    "ast_hash": "e919ca1d0d307d4e8ab5f461e45df4ea89f5a9bcb761533b5c67321f6adc269d",
+    "semantic_hash": "e919ca1d0d307d4e8ab5f461e45df4ea89f5a9bcb761533b5c67321f6adc269d"
+  },
+  "notes/sirtuins/NMNH.md": {
+    "mtime": 1786781303.3233926,
+    "ast_hash": "3b4887769353b9c1b9ecf7c61e8eb1a5ccd662e635fbc3e3cd5a0fe2534a2db9",
+    "semantic_hash": "3b4887769353b9c1b9ecf7c61e8eb1a5ccd662e635fbc3e3cd5a0fe2534a2db9"
+  },
+  "notes/sirtuins/insulin-degrading enzyme (IDE).md": {
+    "mtime": 1786781267.712781,
+    "ast_hash": "cc8b8f53f7dd247ebaa634d76cd9e60c0cb64f646150ff41eebe5cba81a72362",
+    "semantic_hash": "cc8b8f53f7dd247ebaa634d76cd9e60c0cb64f646150ff41eebe5cba81a72362"
+  },
+  "notes/sirtuins/NRH.md": {
+    "mtime": 1786781303.323509,
+    "ast_hash": "ab9719c6adfc27be3b2bc0c7c8870467e7135f4218a8b6fa77b118361bab5e48",
+    "semantic_hash": "ab9719c6adfc27be3b2bc0c7c8870467e7135f4218a8b6fa77b118361bab5e48"
+  },
+  "notes/sirtuins/JGB1741.md": {
+    "mtime": 1786638495.4254746,
+    "ast_hash": "7a946b119fd1e3a0041049ed4de3eb2db2592ca12bb4012557ea78c5518bbedf",
+    "semantic_hash": "7a946b119fd1e3a0041049ed4de3eb2db2592ca12bb4012557ea78c5518bbedf"
+  },
+  "notes/sirtuins/PEPCK.md": {
+    "mtime": 1786781267.7168107,
+    "ast_hash": "4d1c936409d3ac07bc0e815c7cd492e2984ea8220eee7d9e1ea9721619de6c26",
+    "semantic_hash": "4d1c936409d3ac07bc0e815c7cd492e2984ea8220eee7d9e1ea9721619de6c26"
+  },
+  "notes/sirtuins/spliced X-box binding protein 1.md": {
+    "mtime": 1786780699.6165593,
+    "ast_hash": "a6c8a5abb7790fd7f6243c08f9a252e9ab1167e303110e37b11121deb9c17e38",
+    "semantic_hash": "a6c8a5abb7790fd7f6243c08f9a252e9ab1167e303110e37b11121deb9c17e38"
+  },
+  "notes/sirtuins/Malonyl-CoA decarboxylase.md": {
+    "mtime": 1786781267.7193851,
+    "ast_hash": "8a748be3fca2c14305cb7c371cf5899bf7f748af5afc228fcd6d15bd12a813b2",
+    "semantic_hash": "8a748be3fca2c14305cb7c371cf5899bf7f748af5afc228fcd6d15bd12a813b2"
+  },
+  "notes/comt/narcolepsy.md": {
+    "mtime": 1786780667.4661725,
+    "ast_hash": "3aa6a42f04ba37a606c112eb636aff8500c6394387f431addffebc4f8e21ef8b",
+    "semantic_hash": "3aa6a42f04ba37a606c112eb636aff8500c6394387f431addffebc4f8e21ef8b"
+  },
+  "notes/comt/Creatine Kinase.md": {
+    "mtime": 1786781267.7210662,
+    "ast_hash": "b3725dfcb314a2960efc94ada1a5c9996fe235fcab4a446257b1574c67cf0378",
+    "semantic_hash": "b3725dfcb314a2960efc94ada1a5c9996fe235fcab4a446257b1574c67cf0378"
+  },
+  "notes/comt/Phosphocreatine (PCr).md": {
+    "mtime": 1786781267.7224793,
+    "ast_hash": "25c6377c13a21f8b81130f6550154b62c009086ff81ff1193a47bb7b928010f6",
+    "semantic_hash": "25c6377c13a21f8b81130f6550154b62c009086ff81ff1193a47bb7b928010f6"
+  },
+  "notes/comt/Opicapone.md": {
+    "mtime": 1786780685.6601026,
+    "ast_hash": "bb07d08a453a3e0350bf458899472116f9e17ea2f413d2770fe8dc05d8911059",
+    "semantic_hash": "bb07d08a453a3e0350bf458899472116f9e17ea2f413d2770fe8dc05d8911059"
+  },
+  "notes/comt/Aerobic Capacity.md": {
+    "mtime": 1786781303.3229065,
+    "ast_hash": "0b943567c04e7fd00aed1f058ed324189e98cf56e8592d471b2c1368b509ee4c",
+    "semantic_hash": "0b943567c04e7fd00aed1f058ed324189e98cf56e8592d471b2c1368b509ee4c"
+  },
+  "notes/comt/Adiposity.md": {
+    "mtime": 1786781267.727128,
+    "ast_hash": "176769852f0044928939c22a2d4e9cd8780fc3226c82ee6512439347f7bb7498",
+    "semantic_hash": "176769852f0044928939c22a2d4e9cd8780fc3226c82ee6512439347f7bb7498"
+  },
+  "notes/comt/Alcohol-Induced Depression.md": {
+    "mtime": 1786781303.3231175,
+    "ast_hash": "4e21af1d12b64499cabf9487f65366184008b1ea70b191d66e559902b5bdb9a3",
+    "semantic_hash": "4e21af1d12b64499cabf9487f65366184008b1ea70b191d66e559902b5bdb9a3"
+  },
+  "notes/comt/Muscle Mass.md": {
+    "mtime": 1786781267.729174,
+    "ast_hash": "bb21f459b8a8662512814cfc47965354ff74dd9ce0c38263401cb435fa11bd2b",
+    "semantic_hash": "bb21f459b8a8662512814cfc47965354ff74dd9ce0c38263401cb435fa11bd2b"
+  },
+  "notes/comt/D1 receptor.md": {
+    "mtime": 1786780646.9989321,
+    "ast_hash": "a1e93c0c7266604270b9f6a1fa9ebf71eacd2825c040fa1ff768b027b4cf9633",
+    "semantic_hash": "a1e93c0c7266604270b9f6a1fa9ebf71eacd2825c040fa1ff768b027b4cf9633"
+  },
+  "notes/comt/nootropic.md": {
+    "mtime": 1786780676.9209185,
+    "ast_hash": "f5394ec706d564b7782fd62011cf85ba2a936d1d44883bf9234ed445e2e062eb",
+    "semantic_hash": "f5394ec706d564b7782fd62011cf85ba2a936d1d44883bf9234ed445e2e062eb"
   }
 }
