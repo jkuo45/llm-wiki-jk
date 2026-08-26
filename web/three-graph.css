@@ -38,12 +38,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
    surface comes from here so both themes style it via tokens. */
 #graph-minimap {
   position: absolute; right: 14px; bottom: 14px; z-index: 4;
-  width: 168px; height: 168px;
+  width: 220px; height: 220px;
   border: 1px solid var(--line-strong); border-radius: 10px;
   background: color-mix(in srgb, var(--surface-raised) 78%, transparent);
-}
-@media (min-width: 1200px) {
-  #graph-minimap { width: 220px; height: 220px; }
 }
 #graph-minimap canvas { width: 100%; height: 100%; display: block; border-radius: 9px; }
 .minimap-controls {
