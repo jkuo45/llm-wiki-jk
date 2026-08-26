@@ -1519,10 +1519,18 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   border-bottom: 1px solid var(--line); background: var(--surface-raised); flex-shrink: 0;
 }
 .notes-lb-topbar { display: flex; align-items: center; gap: 10px; }
-.notes-lb-top > button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
+.notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
   background: none; border: 1px solid var(--line-strong); color: var(--ink-4); border-radius: 6px;
   font-size: 12px; padding: 5px 10px; cursor: pointer; font-family: inherit;
 }
+/* The EN/中 toggle lives inside the top bar, so the nav-button chrome above
+   would leak onto its segments. Restore the plain segmented-toggle look
+   (mirrors .lang-toggle button near the top of this file). */
+.notes-lb-top .lang-toggle button {
+  background: transparent; border: none; border-radius: 0;
+  padding: 8px 12px; font-size: 12px;
+}
+.notes-lb-top .lang-toggle button.active { background: var(--accent); color: #fff; }
 /* Keep the Back button at a fixed size regardless of how long the note title
    is. Its right auto-margin (paired with the toggle's left auto-margin) splits
    the free space evenly, centering the Prev/Next cluster between them. */
@@ -1533,9 +1541,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
    Its left auto-margin pairs with #notes-lb-back's right auto-margin so the
    Prev/Next cluster stays centered. */
 #notes-lb-lang { flex: 0 0 auto; margin-left: auto; }
-.notes-lb-top > button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
+.notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: var(--accent); color: var(--ink-hi); }
-.notes-lb-top > button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
+.notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
 .notes-lb-title {
   /* Fixed 2-line slot so the lightbox top bar keeps a constant height
      regardless of title length — the page below (stage, pages, side) never

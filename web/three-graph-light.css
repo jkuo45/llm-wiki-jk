@@ -549,10 +549,13 @@ body {
 .notes-muted { color: #7C8698; }
 .notes-muted code { background: #F6F3EC; border-color: #E2DCCE; color: #22304A; }
 .notes-lb-top { border-bottom-color: #E2DCCE; background: #F6F3EC; }
-.notes-lb-top > button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
+.notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
   background: #FFFFFF; border-color: #CCC5B2; color: #7C8698;
 }
-.notes-lb-top > button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover,
+/* Keep the lang toggle's segments free of the nav-button chrome (white pill
+   + border) — the light .lang-toggle rules below handle its look. */
+.notes-lb-top .lang-toggle button { background: transparent; border: none; }
+.notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover,
 .notes-lb-pages button:hover:not(:disabled), .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #0F766E; color: #22304A; }
 .notes-lb-title { color: #22304A; }
 /* Language toggles (notes panel + lightbox) — match the reader's light chrome
