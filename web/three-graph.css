@@ -1496,7 +1496,7 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
   border-bottom: 1px solid #2a2a4e; background: #16162b; flex-shrink: 0;
 }
 .notes-lb-topbar { display: flex; align-items: center; gap: 10px; }
-.notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
+.notes-lb-top > button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
   background: none; border: 1px solid #3a3a5e; color: #9a9ab0; border-radius: 6px;
   font-size: 12px; padding: 5px 10px; cursor: pointer; font-family: inherit;
 }
@@ -1510,9 +1510,9 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
    Its left auto-margin pairs with #notes-lb-back's right auto-margin so the
    Prev/Next cluster stays centered. */
 #notes-lb-lang { flex: 0 0 auto; margin-left: auto; }
-.notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
+.notes-lb-top > button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
-.notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
+.notes-lb-top > button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
 .notes-lb-title {
   /* Fixed 2-line slot so the lightbox top bar keeps a constant height
      regardless of title length — the page below (stage, pages, side) never
