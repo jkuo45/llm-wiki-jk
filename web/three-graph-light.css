@@ -529,6 +529,13 @@ body {
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover,
 .notes-lb-pages button:hover:not(:disabled), .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #0F766E; color: #22304A; }
 .notes-lb-title { color: #22304A; }
+/* Language toggles (notes panel + lightbox) — match the reader's light chrome
+   (#page-modal-overlay.light-theme .lang-toggle in three-graph.css). */
+.lang-toggle { background: #F6F3EC; border-color: #CCC5B2; }
+.lang-toggle button { color: #7C8698; }
+.lang-toggle button + button { border-left-color: #CCC5B2; }
+.lang-toggle button:hover:not(.active) { color: #22304A; }
+.lang-toggle button.active { background: #0F766E; color: #fff; }
 .notes-lb-nav button { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(3px); }
 .notes-lb-imgwrap { background: #ECE8DD; }
 .notes-lb-zoom button { background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(3px); }

@@ -1506,6 +1506,10 @@ body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMac
 #notes-lb-back { flex: 0 0 auto; margin-right: auto; }
 #notes-lb-top-next { flex: 0 0 auto; white-space: nowrap; }
 #notes-lb-top-prev { flex: 0 0 auto; white-space: nowrap; }
+/* Language toggle sits in the usual top-right spot of the single-image view.
+   Its left auto-margin pairs with #notes-lb-back's right auto-margin so the
+   Prev/Next cluster stays centered. */
+#notes-lb-lang { flex: 0 0 auto; margin-left: auto; }
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover, .notes-lb-pages button:hover:not(:disabled),
 .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #4E79A7; color: #e0e0e0; }
 .notes-lb-top button:disabled, .notes-lb-nav button:disabled, .notes-lb-pages button:disabled { opacity: 0.4; cursor: default; }
