@@ -11,11 +11,11 @@
     "tags": [
       "cancer",
       "notes",
-      "cell-death",
       "mitochondria",
-      "lysosome",
       "ivermectin",
-      "fenbendazole"
+      "fenbendazole",
+      "cell-death",
+      "lysosome"
     ],
     "pages": [
       {
@@ -62,11 +62,11 @@
       "graph-analysis",
       "diagrams-charts",
       "cognition",
+      "methylene-blue",
       "mitochondria",
       "redox",
       "metabolism",
       "nad-metabolism",
-      "methylene-blue",
       "nervous-system",
       "hematopoietic",
       "endocrine",
@@ -106,11 +106,11 @@
       "graph-analysis",
       "diagrams-charts",
       "cognition",
+      "methylene-blue",
       "mitochondria",
       "growth",
       "nad-metabolism",
       "neurodegeneration",
-      "methylene-blue",
       "nervous-system"
     ],
     "pages": [
@@ -148,11 +148,11 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "autophagosome",
       "lysosome",
       "lc3",
       "ulk1",
-      "atg7"
+      "atg7",
+      "autophagosome"
     ],
     "pages": [
       {
@@ -190,15 +190,15 @@
     "tags": [
       "autophagy",
       "notes",
-      "metabolism",
       "metabolic-fasting",
-      "autophagosome",
-      "growth",
       "ampk",
       "mtorc1",
       "insulin",
       "fasting",
       "mtor",
+      "metabolism",
+      "autophagosome",
+      "growth",
       "endocrine"
     ],
     "pages": [
@@ -237,14 +237,14 @@
     "tags": [
       "cancer",
       "notes",
-      "metabolism",
-      "metabolic-fasting",
       "stem-cells",
-      "senescence",
       "intermittent-fasting",
       "caloric-restriction",
       "autophagy",
       "fasting",
+      "metabolism",
+      "metabolic-fasting",
+      "senescence",
       "nervous-system",
       "digestive",
       "immune-system"
@@ -285,11 +285,11 @@
       "adrenochrome",
       "notes",
       "catecholamines",
+      "oxidative-stress",
+      "epinephrine",
       "redox",
       "antioxidants",
       "leukocytes",
-      "oxidative-stress",
-      "epinephrine",
       "ros",
       "cardiovascular",
       "immune-system",
@@ -331,10 +331,10 @@
       "adrenochrome",
       "diagrams-charts",
       "catecholamines",
-      "redox",
       "epinephrine",
       "adrenaline-quinone",
       "leuco-adrenochrome",
+      "redox",
       "endocrine"
     ],
     "pages": [
@@ -446,12 +446,12 @@
     "tags": [
       "adrenochrome",
       "notes",
+      "phenethylamine",
       "monoamine",
       "polyamines",
       "circadian-rhythm",
       "physiology",
       "neurochemistry",
-      "phenethylamine",
       "cardiovascular",
       "digestive"
     ],
@@ -491,14 +491,14 @@
       "adrenochrome",
       "notes",
       "catecholamines",
+      "epinephrine",
+      "glutathione",
       "redox",
       "antioxidants",
       "sod",
       "oxidative-stress",
       "metal-chelation",
-      "epinephrine",
       "ros",
-      "glutathione",
       "integumentary"
     ],
     "pages": [
@@ -539,8 +539,6 @@
     "tags": [
       "blood-cells",
       "notes",
-      "leukocytes",
-      "hematology",
       "monocyte",
       "lymphocyte",
       "neutrophil",
@@ -549,6 +547,8 @@
       "macrophage",
       "erythrocytes",
       "platelets",
+      "leukocytes",
+      "hematology",
       "immune-system",
       "hematopoietic"
     ],
@@ -589,16 +589,16 @@
       "adrenochrome",
       "notes",
       "catecholamines",
+      "epinephrine",
+      "dopamine",
+      "superoxide",
+      "vitamin-c",
       "redox",
       "antioxidants",
       "adrenergic",
       "hematology",
       "oxidative-stress",
-      "epinephrine",
-      "dopamine",
       "ros",
-      "superoxide",
-      "vitamin-c",
       "hematopoietic",
       "endocrine"
     ],
@@ -638,13 +638,13 @@
       "adrenochrome",
       "notes",
       "catecholamines",
-      "redox",
-      "hematology",
-      "adrenergic",
       "epinephrine",
       "norepinephrine",
       "superoxide",
       "hemoglobin",
+      "redox",
+      "hematology",
+      "adrenergic",
       "hematopoietic",
       "endocrine"
     ],
@@ -684,16 +684,16 @@
     "tags": [
       "adrenochrome",
       "notes",
-      "hematology",
       "antioxidants",
-      "nad-metabolism",
-      "catecholamines",
-      "redox",
       "erythrocytes",
       "glutathione",
       "nadh",
       "hemoglobin",
       "catalase",
+      "hematology",
+      "nad-metabolism",
+      "catecholamines",
+      "redox",
       "hematopoietic",
       "endocrine"
     ],
@@ -735,8 +735,6 @@
     "tags": [
       "blood-cells",
       "diagrams-charts",
-      "leukocytes",
-      "hematology",
       "monocyte",
       "lymphocyte",
       "neutrophil",
@@ -745,6 +743,8 @@
       "macrophage",
       "erythrocytes",
       "platelets",
+      "leukocytes",
+      "hematology",
       "immune-system",
       "hematopoietic"
     ],
@@ -783,11 +783,11 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
-      "mutations",
       "genomic-instability",
       "dna-methylation",
       "histone",
-      "chromatin"
+      "chromatin",
+      "mutations"
     ],
     "pages": [
       {
@@ -829,12 +829,6 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
-      "senolytics",
-      "sasp",
-      "spermidine",
       "caloric-restriction",
       "rapamycin",
       "metformin",
@@ -843,6 +837,12 @@
       "sirt1",
       "foxo",
       "autophagy",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "senolytics",
+      "sasp",
+      "spermidine",
       "endocrine"
     ],
     "pages": [
@@ -883,17 +883,17 @@
       "adrenochrome",
       "diagrams-charts",
       "catecholamines",
+      "inflammation",
+      "oxidative-stress",
+      "epinephrine",
+      "neutrophils",
+      "chromaffin-cells",
       "redox",
       "leukocytes",
-      "inflammation",
       "neurochemistry",
       "cardiovascular",
       "neuromelanin",
-      "oxidative-stress",
-      "epinephrine",
       "ros",
-      "neutrophils",
-      "chromaffin-cells",
       "nervous-system",
       "immune-system",
       "endocrine",
@@ -935,14 +935,14 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
-      "ncrna",
-      "mutations",
-      "development",
       "dna-methylation",
       "histone",
       "non-coding-rna",
       "chromatin",
-      "gene-expression"
+      "gene-expression",
+      "ncrna",
+      "mutations",
+      "development"
     ],
     "pages": [
       {
@@ -1017,8 +1017,6 @@
     ],
     "tags": [
       "eye",
-      "vision",
-      "anatomy",
       "diagrams-charts",
       "retina",
       "photoreceptors",
@@ -1027,6 +1025,8 @@
       "cone-cells",
       "ganglion-cells",
       "choroid",
+      "vision",
+      "anatomy",
       "ocular"
     ],
     "pages": [
@@ -1066,17 +1066,17 @@
     ],
     "tags": [
       "autophagy",
-      "metabolism",
-      "metabolic-fasting",
       "mitochondria",
-      "growth",
-      "spermidine",
       "rapamycin",
       "metformin",
       "caloric-restriction",
       "mtorc1",
       "ampk",
-      "mtor"
+      "mtor",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "spermidine"
     ],
     "pages": [
       {
@@ -1119,13 +1119,13 @@
       "diagrams-charts",
       "autophagosome",
       "lysosome",
-      "growth",
       "ulk1",
       "vps34",
       "atg12",
       "atg16l1",
       "mtorc1",
-      "mtor"
+      "mtor",
+      "growth"
     ],
     "pages": [
       {
@@ -1213,18 +1213,18 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "metabolism",
-      "metabolic-fasting",
-      "cell-death",
       "metastasis",
-      "mutations",
       "caloric-restriction",
       "e-cadherin",
       "mmp",
       "caspase-3",
       "adiponectin",
       "leptin",
-      "fasting"
+      "fasting",
+      "metabolism",
+      "metabolic-fasting",
+      "cell-death",
+      "mutations"
     ],
     "pages": [
       {
@@ -1306,15 +1306,15 @@
     ],
     "tags": [
       "oxidative-stress",
-      "sod",
-      "redox",
-      "hematology",
       "catecholamines",
       "antioxidants",
       "superoxide",
       "hemoglobin",
       "erythrocytes",
       "epinephrine",
+      "sod",
+      "redox",
+      "hematology",
       "hematopoietic"
     ],
     "pages": [
@@ -1356,11 +1356,6 @@
     ],
     "tags": [
       "oxidative-stress",
-      "hematology",
-      "nad-metabolism",
-      "sod",
-      "redox",
-      "antioxidants",
       "catecholamines",
       "methemoglobin",
       "methemoglobin-reductase",
@@ -1370,6 +1365,11 @@
       "catalase",
       "epinephrine",
       "adrenochrome",
+      "hematology",
+      "nad-metabolism",
+      "sod",
+      "redox",
+      "antioxidants",
       "hematopoietic"
     ],
     "pages": [
@@ -1407,15 +1407,15 @@
     "tags": [
       "adrenochrome",
       "catecholamines",
+      "dopamine",
+      "norepinephrine",
+      "epinephrine",
+      "mao",
       "inflammation",
       "metabolism",
       "physiology",
       "comt",
       "neuromelanin",
-      "dopamine",
-      "norepinephrine",
-      "epinephrine",
-      "mao",
       "nervous-system",
       "immune-system",
       "endocrine"
@@ -1456,18 +1456,18 @@
     "tags": [
       "adrenochrome",
       "diagrams-charts",
-      "catecholamines",
-      "hematology",
-      "antioxidants",
-      "redox",
-      "cardiovascular",
-      "physiology",
       "epinephrine",
       "erythrocytes",
       "hemoglobin",
       "glutathione",
       "oxidative-stress",
       "methemoglobin",
+      "catecholamines",
+      "hematology",
+      "antioxidants",
+      "redox",
+      "cardiovascular",
+      "physiology",
       "hematopoietic"
     ],
     "pages": [
@@ -1506,13 +1506,13 @@
     "tags": [
       "oxidative-stress",
       "diagrams-charts",
-      "hematology",
-      "diagnosis",
       "methemoglobin",
       "hemoglobin",
       "methemoglobinemia",
       "pulse-oximetry",
       "erythrocytes",
+      "hematology",
+      "diagnosis",
       "hematopoietic"
     ],
     "pages": [
@@ -1552,17 +1552,17 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "cell-death",
-      "stem-cells",
-      "drug-resistance",
-      "growth",
       "cancer",
       "ivermectin",
       "pyroptosis",
       "mtor",
       "wnt",
       "mapk",
-      "cancer-stem-cells"
+      "cancer-stem-cells",
+      "cell-death",
+      "stem-cells",
+      "drug-resistance",
+      "growth"
     ],
     "pages": [
       {
@@ -1602,12 +1602,6 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "autophagosome",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
-      "physiology",
-      "cancer",
       "ampk",
       "mtorc1",
       "akt",
@@ -1615,6 +1609,12 @@
       "rapamycin",
       "tsc2",
       "mtor",
+      "autophagosome",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "physiology",
+      "cancer",
       "endocrine"
     ],
     "pages": [
@@ -1658,10 +1658,7 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "stem-cells",
       "mitochondria",
-      "drug-resistance",
-      "growth",
       "ivermectin",
       "wnt",
       "akt",
@@ -1672,6 +1669,9 @@
       "hsp27",
       "cancer-stem-cells",
       "multidrug-resistance",
+      "stem-cells",
+      "drug-resistance",
+      "growth",
       "nervous-system",
       "digestive",
       "hematopoietic",
@@ -1715,14 +1715,14 @@
     "tags": [
       "parasitology",
       "diagrams-charts",
-      "filariasis",
-      "vector-borne",
-      "cancer",
       "onchocerciasis",
       "ivermectin",
       "microfilariae",
       "simulium",
       "parasite-life-cycle",
+      "filariasis",
+      "vector-borne",
+      "cancer",
       "integumentary"
     ],
     "pages": [
@@ -1762,17 +1762,17 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-death",
-      "redox",
-      "metabolism",
-      "growth",
-      "pathology",
       "oxidative-stress",
       "fenbendazole",
       "microtubules",
       "tubulin",
       "mapk",
       "microtubule",
+      "cell-death",
+      "redox",
+      "metabolism",
+      "growth",
+      "pathology",
       "respiratory"
     ],
     "pages": [
@@ -1815,12 +1815,6 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "drug-resistance",
-      "stem-cells",
-      "mitochondria",
-      "metastasis",
-      "angiogenesis",
-      "growth",
       "ivermectin",
       "multidrug-resistance",
       "cancer-stem-cells",
@@ -1830,7 +1824,13 @@
       "yap1",
       "p-glycoprotein",
       "hsp27",
-      "p2x7"
+      "p2x7",
+      "drug-resistance",
+      "stem-cells",
+      "mitochondria",
+      "metastasis",
+      "angiogenesis",
+      "growth"
     ],
     "pages": [
       {
@@ -1866,14 +1866,14 @@
     ],
     "tags": [
       "metabolism",
-      "metabolic-fasting",
       "circadian-rhythm",
-      "adrenochrome",
       "oxidative-stress",
-      "spermidine",
       "ivermectin",
       "fenbendazole",
-      "caloric-restriction"
+      "caloric-restriction",
+      "metabolic-fasting",
+      "adrenochrome",
+      "spermidine"
     ],
     "pages": [
       {
@@ -1912,15 +1912,15 @@
     "tags": [
       "adrenochrome",
       "diagrams-charts",
-      "leukocytes",
-      "nad-metabolism",
-      "redox",
       "catecholamines",
       "inflammation",
       "neutrophils",
       "nadph-oxidase",
       "ros",
       "epinephrine",
+      "leukocytes",
+      "nad-metabolism",
+      "redox",
       "cardiovascular",
       "immune-system",
       "endocrine"
@@ -1964,9 +1964,6 @@
     "tags": [
       "blood-cells",
       "diagrams-charts",
-      "leukocytes",
-      "hematology",
-      "immunology",
       "neutrophil",
       "eosinophil",
       "basophil",
@@ -1976,6 +1973,9 @@
       "lymphocyte",
       "t-cells",
       "b-cells",
+      "leukocytes",
+      "hematology",
+      "immunology",
       "immune-system"
     ],
     "pages": [
@@ -2065,10 +2065,10 @@
       "senescence",
       "diagrams-charts",
       "microbiome",
+      "faecalibacterium",
       "cognition",
       "metabolism",
       "neurochemistry",
-      "faecalibacterium",
       "nervous-system",
       "digestive"
     ],
@@ -2106,12 +2106,12 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-adhesion",
-      "drug-delivery",
       "rgd-peptide",
       "integrins",
       "nanoparticles",
-      "endocytosis"
+      "endocytosis",
+      "cell-adhesion",
+      "drug-delivery"
     ],
     "pages": [
       {
@@ -2146,9 +2146,9 @@
     "tags": [
       "blood-cells",
       "leukocytes",
+      "hematology",
       "circadian-rhythm",
       "physiology",
-      "hematology",
       "immune-system",
       "reproductive"
     ],
@@ -2190,16 +2190,16 @@
       "adrenochrome",
       "diagrams-charts",
       "inflammation",
-      "redox",
-      "hocl",
-      "leukocytes",
-      "catecholamines",
-      "cardiovascular",
       "oxidative-stress",
       "ros",
       "myeloperoxidase",
       "neutrophils",
       "epinephrine",
+      "redox",
+      "hocl",
+      "leukocytes",
+      "catecholamines",
+      "cardiovascular",
       "immune-system",
       "endocrine"
     ],
@@ -2240,16 +2240,16 @@
     "tags": [
       "immunology",
       "inflammation",
-      "innate-immunity",
-      "leukocytes",
-      "vaccines",
-      "adjuvants",
-      "pathology",
       "immune-system",
       "dendritic-cells",
       "macrophages",
       "vaccination",
-      "cytokines"
+      "cytokines",
+      "innate-immunity",
+      "leukocytes",
+      "vaccines",
+      "adjuvants",
+      "pathology"
     ],
     "pages": [
       {
@@ -2291,10 +2291,6 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "lysosome",
-      "mitochondria",
-      "metabolism",
-      "growth",
       "mtor",
       "mtorc1",
       "ampk",
@@ -2304,7 +2300,11 @@
       "tsc1",
       "rheb",
       "tfeb",
-      "protein-synthesis"
+      "protein-synthesis",
+      "lysosome",
+      "mitochondria",
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -2344,8 +2344,6 @@
     ],
     "tags": [
       "autophagy",
-      "metabolism",
-      "growth",
       "mtor",
       "mtorc1",
       "mtorc2",
@@ -2355,6 +2353,8 @@
       "s6k1",
       "4e-bp1",
       "rapamycin",
+      "metabolism",
+      "growth",
       "endocrine"
     ],
     "pages": [
@@ -2394,13 +2394,13 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-death",
       "angiogenesis",
+      "proto-oncogene",
+      "tumor-suppressor",
+      "cell-death",
       "mutations",
       "inflammation",
       "growth",
-      "proto-oncogene",
-      "tumor-suppressor",
       "digestive",
       "immune-system",
       "hematopoietic",
@@ -2450,11 +2450,7 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-death",
-      "inflammation",
       "mitochondria",
-      "mutations",
-      "growth",
       "caspase-9",
       "caspase-3",
       "cytochrome-c",
@@ -2463,7 +2459,11 @@
       "death-receptor",
       "tnf-alpha",
       "fas",
-      "caspases"
+      "caspases",
+      "cell-death",
+      "inflammation",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -2507,10 +2507,7 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-death",
       "mitochondria",
-      "mutations",
-      "growth",
       "bcl-2",
       "bax",
       "bak",
@@ -2520,7 +2517,10 @@
       "apaf-1",
       "caspase-9",
       "caspases",
-      "intrinsic-pathway"
+      "intrinsic-pathway",
+      "cell-death",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -2558,12 +2558,12 @@
       "cancer",
       "cell-death",
       "neurodegeneration",
+      "viral-infection",
       "cardiovascular",
       "development",
       "pathology",
       "physiology",
       "immune-system",
-      "viral-infection",
       "reproductive"
     ],
     "pages": [
@@ -2604,15 +2604,15 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-death",
-      "mutations",
       "bcl-2",
       "bax",
       "bak",
       "p53",
       "iap",
       "caspase",
-      "caspases"
+      "caspases",
+      "cell-death",
+      "mutations"
     ],
     "pages": [
       {
@@ -2648,14 +2648,14 @@
     "tags": [
       "parasitology",
       "diagrams-charts",
-      "filariasis",
-      "dec",
-      "cancer",
-      "clinical-trial",
       "ivermectin",
       "microfilariae",
       "onchocerciasis",
-      "diethylcarbamazine"
+      "diethylcarbamazine",
+      "filariasis",
+      "dec",
+      "cancer",
+      "clinical-trial"
     ],
     "pages": [
       {
@@ -2698,10 +2698,6 @@
       "generated-image",
       "diagrams-charts",
       "leukocytes",
-      "innate-immunity",
-      "immunology",
-      "parasitology",
-      "hematology",
       "neutrophil",
       "eosinophil",
       "basophil",
@@ -2710,6 +2706,10 @@
       "lymphocyte",
       "natural-killer-cells",
       "immune-system",
+      "innate-immunity",
+      "immunology",
+      "parasitology",
+      "hematology",
       "hematopoietic"
     ],
     "pages": [
@@ -2748,16 +2748,16 @@
     ],
     "tags": [
       "adrenochrome",
-      "hocl",
       "catecholamines",
-      "nad-metabolism",
-      "redox",
       "inflammation",
-      "leukocytes",
       "myeloperoxidase",
       "epinephrine",
       "nadph-oxidase",
       "ros",
+      "hocl",
+      "nad-metabolism",
+      "redox",
+      "leukocytes",
       "immune-system",
       "endocrine",
       "integumentary"
@@ -2797,16 +2797,16 @@
     ],
     "tags": [
       "oxidative-stress",
-      "hocl",
-      "leukocytes",
-      "nad-metabolism",
-      "redox",
       "inflammation",
-      "innate-immunity",
       "myeloperoxidase",
       "neutrophils",
       "hypochlorous-acid",
       "nadph-oxidase",
+      "hocl",
+      "leukocytes",
+      "nad-metabolism",
+      "redox",
+      "innate-immunity",
       "ros",
       "cardiovascular",
       "immune-system"
@@ -2849,12 +2849,12 @@
     "tags": [
       "adrenochrome",
       "diagrams-charts",
-      "catecholamines",
       "redox",
       "leuco-adrenochrome",
       "adrenaline-quinone",
       "electrophile",
       "epinephrine",
+      "catecholamines",
       "endocrine"
     ],
     "pages": [
@@ -2900,17 +2900,17 @@
       "notes",
       "cell-death",
       "inflammation",
-      "mutations",
-      "growth",
-      "sasp",
-      "pathology",
       "oxidative-stress",
-      "senescence",
       "chromatin-condensation",
       "biological-process",
       "dna-damage",
       "caspase-1",
       "chromatin",
+      "mutations",
+      "growth",
+      "sasp",
+      "pathology",
+      "senescence",
       "immune-system"
     ],
     "pages": [
@@ -2954,11 +2954,7 @@
     "tags": [
       "cancer",
       "notes",
-      "mutations",
-      "cell-death",
       "mitochondria",
-      "inflammation",
-      "nf-kappab",
       "genomic-instability",
       "cell-cycle-arrest",
       "intrinsic-pathway",
@@ -2966,7 +2962,11 @@
       "bcl-2-family",
       "caspase-8",
       "tnf-alpha",
-      "caspases"
+      "caspases",
+      "mutations",
+      "cell-death",
+      "inflammation",
+      "nf-kappab"
     ],
     "pages": [
       {
@@ -3011,13 +3011,13 @@
       "notes",
       "cell-death",
       "mitochondria",
-      "pathology",
-      "physiology",
       "extrinsic-pathway",
       "death-receptor",
       "bcl-2-family",
       "caspase",
       "bcl-2",
+      "pathology",
+      "physiology",
       "immune-system"
     ],
     "pages": [
@@ -3062,16 +3062,16 @@
       "notes",
       "cell-death",
       "mitochondria",
-      "leukocytes",
       "redox",
-      "lysosome",
-      "neurochemistry",
-      "cognition",
       "macrophages",
       "euchromatin",
       "chromosome",
       "cytoplasm",
       "chromatin",
+      "leukocytes",
+      "lysosome",
+      "neurochemistry",
+      "cognition",
       "immune-system"
     ],
     "pages": [
@@ -3112,11 +3112,11 @@
       "cancer",
       "notes",
       "metastasis",
+      "caspases",
+      "caspase",
       "cell-death",
       "mutations",
-      "physiology",
-      "caspases",
-      "caspase"
+      "physiology"
     ],
     "pages": [
       {
@@ -3159,8 +3159,6 @@
     "tags": [
       "cancer",
       "notes",
-      "mutations",
-      "cell-death",
       "genomic-instability",
       "intrinsic-pathway",
       "gene-expression",
@@ -3168,7 +3166,9 @@
       "gene-silencing",
       "methylation",
       "hypoxia",
-      "bcl-2"
+      "bcl-2",
+      "mutations",
+      "cell-death"
     ],
     "pages": [
       {
@@ -3211,8 +3211,6 @@
       "cancer",
       "notes",
       "cell-death",
-      "mutations",
-      "growth",
       "gene-expression",
       "bcl-2-family",
       "lung-cancer",
@@ -3220,6 +3218,8 @@
       "bcl-2",
       "mcl-1",
       "p53",
+      "mutations",
+      "growth",
       "immune-system",
       "respiratory"
     ],
@@ -3267,14 +3267,14 @@
       "diagrams-charts",
       "cell-death",
       "mitochondria",
-      "inflammation",
       "oxidative-stress",
-      "iap",
       "extrinsic-pathway",
       "intrinsic-pathway",
       "cytochrome-c",
       "smac-diablo",
-      "omi-htra2"
+      "omi-htra2",
+      "inflammation",
+      "iap"
     ],
     "pages": [
       {
@@ -3317,9 +3317,7 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-death",
       "mitochondria",
-      "inflammation",
       "oxidative-stress",
       "extrinsic-pathway",
       "cytochrome-c",
@@ -3328,7 +3326,9 @@
       "hypoxia",
       "caspase",
       "disc",
-      "fadd"
+      "fadd",
+      "cell-death",
+      "inflammation"
     ],
     "pages": [
       {
@@ -3370,7 +3370,6 @@
     ],
     "tags": [
       "cancer",
-      "cell-death",
       "bcl-xl",
       "bcl-w",
       "bcl-2",
@@ -3379,7 +3378,8 @@
       "bmf",
       "bid",
       "bad",
-      "bik"
+      "bik",
+      "cell-death"
     ],
     "pages": [
       {
@@ -3421,7 +3421,6 @@
     ],
     "tags": [
       "cancer",
-      "cell-death",
       "caspases",
       "bcl-w",
       "mcl-1",
@@ -3432,7 +3431,8 @@
       "bad",
       "bik",
       "bax",
-      "bim"
+      "bim",
+      "cell-death"
     ],
     "pages": [
       {
@@ -3476,8 +3476,6 @@
       "cancer",
       "generated-image",
       "diagrams-charts",
-      "cell-death",
-      "growth",
       "bcl-2-family",
       "caspase-2",
       "caspases",
@@ -3486,7 +3484,9 @@
       "mcl-1",
       "noxa",
       "puma",
-      "bmf"
+      "bmf",
+      "cell-death",
+      "growth"
     ],
     "pages": [
       {
@@ -3528,12 +3528,7 @@
     "tags": [
       "autophagy",
       "notes",
-      "metabolism",
-      "leukocytes",
       "sasp",
-      "innate-immunity",
-      "immunology",
-      "senescence",
       "metabolic-reprogramming",
       "thymic-involution",
       "senescent-cells",
@@ -3541,6 +3536,11 @@
       "immune-system",
       "immune-aging",
       "antigens",
+      "metabolism",
+      "leukocytes",
+      "innate-immunity",
+      "immunology",
+      "senescence",
       "hematopoietic"
     ],
     "pages": [
@@ -3584,8 +3584,6 @@
       "autophagy",
       "notes",
       "inflammation",
-      "autophagosome",
-      "growth",
       "chaperone-mediated-autophagy",
       "age-related-diseases",
       "microautophagy",
@@ -3593,6 +3591,8 @@
       "er-stress",
       "mtorc1",
       "ampk",
+      "autophagosome",
+      "growth",
       "immune-system"
     ],
     "pages": [
@@ -3636,16 +3636,16 @@
       "autophagy",
       "notes",
       "mitochondria",
-      "development",
-      "polyamines",
-      "metabolism",
-      "growth",
-      "spermidine",
       "mitochondrial-dna",
       "drug-discovery",
       "cytoplasm",
       "exercise",
       "ampk",
+      "development",
+      "polyamines",
+      "metabolism",
+      "growth",
+      "spermidine",
       "digestive",
       "immune-system"
     ],
@@ -3688,15 +3688,15 @@
     "tags": [
       "autophagy",
       "notes",
-      "development",
       "autophagosome",
       "lysosome",
       "cell-death",
+      "chaperone-mediated-autophagy",
+      "adaptive-autophagy",
+      "development",
       "circadian-rhythm",
       "pathology",
       "physiology",
-      "chaperone-mediated-autophagy",
-      "adaptive-autophagy",
       "immune-system"
     ],
     "pages": [
@@ -3741,16 +3741,16 @@
       "autophagy",
       "notes",
       "cell-death",
-      "leukocytes",
       "lysosome",
-      "autophagosome",
-      "pathology",
       "endoplasmic-reticulum-stress",
       "excessive-autophagy",
       "amino-acids",
       "pyroptosis",
       "platelets",
-      "glucose"
+      "glucose",
+      "leukocytes",
+      "autophagosome",
+      "pathology"
     ],
     "pages": [
       {
@@ -3794,15 +3794,15 @@
       "autophagy",
       "notes",
       "lysosome",
-      "neurochemistry",
-      "cardiovascular",
-      "autophagosome",
       "cell-death",
-      "metabolism",
-      "metabolic-fasting",
       "extracellular-matrix",
       "phospholipid",
       "amino-acids",
+      "neurochemistry",
+      "cardiovascular",
+      "autophagosome",
+      "metabolism",
+      "metabolic-fasting",
       "nervous-system",
       "digestive",
       "immune-system",
@@ -3849,18 +3849,18 @@
     "tags": [
       "autophagy",
       "notes",
-      "metabolism",
-      "metabolic-fasting",
-      "innate-immunity",
       "inflammation",
       "metastasis",
-      "immunology",
       "caloric-restriction",
       "immune-system",
       "circulation",
       "amino-acids",
       "cytokines",
-      "glucose"
+      "glucose",
+      "metabolism",
+      "metabolic-fasting",
+      "innate-immunity",
+      "immunology"
     ],
     "pages": [
       {
@@ -3903,15 +3903,15 @@
       "notes",
       "cell-adhesion",
       "inflammation",
-      "cell-death",
-      "metabolism",
-      "metastasis",
-      "cancer",
       "extracellular-matrix",
       "e-cadherin",
       "caspase-3",
       "insulin",
       "leptin",
+      "cell-death",
+      "metabolism",
+      "metastasis",
+      "cancer",
       "immune-system",
       "endocrine"
     ],
@@ -3948,12 +3948,12 @@
     "tags": [
       "immunology",
       "diagrams-charts",
-      "vaccines",
-      "autophagy",
-      "spermidine",
       "vaccination",
       "metformin",
       "rapamycin",
+      "vaccines",
+      "autophagy",
+      "spermidine",
       "immune-system"
     ],
     "pages": [
@@ -3991,14 +3991,14 @@
     ],
     "tags": [
       "creatine",
-      "adjuvants",
-      "leukocytes",
-      "metabolism",
-      "cancer",
       "ascorbic-acid",
       "adjuvant",
       "kinase",
       "t-cell",
+      "adjuvants",
+      "leukocytes",
+      "metabolism",
+      "cancer",
       "immune-system"
     ],
     "pages": [
@@ -4040,7 +4040,6 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
-      "mutations",
       "transposable-elements",
       "transcriptional-drift",
       "dna-methylation",
@@ -4048,7 +4047,8 @@
       "methylation",
       "chromosome",
       "chromatin",
-      "histone"
+      "histone",
+      "mutations"
     ],
     "pages": [
       {
@@ -4089,12 +4089,6 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
-      "sasp",
-      "epigenetics",
-      "spermidine",
       "caloric-restriction",
       "heterochromatin",
       "dna-methylation",
@@ -4103,6 +4097,12 @@
       "rapamycin",
       "insulin",
       "stacs",
+      "metabolism",
+      "metabolic-fasting",
+      "growth",
+      "sasp",
+      "epigenetics",
+      "spermidine",
       "endocrine"
     ],
     "pages": [
@@ -4146,8 +4146,6 @@
       "autophagy",
       "diagrams-charts",
       "metabolism",
-      "growth",
-      "epigenetics",
       "glucose-metabolism",
       "insulin-signaling",
       "cytoplasm",
@@ -4157,6 +4155,8 @@
       "sirt1",
       "ampk",
       "mtor",
+      "growth",
+      "epigenetics",
       "endocrine"
     ],
     "pages": [
@@ -4239,17 +4239,17 @@
     "tags": [
       "epigenetics",
       "notes",
-      "mutations",
-      "ncrna",
-      "sasp",
-      "senescence",
       "epigenetic-information",
       "transposable-elements",
       "genomic-instability",
       "gene-expression",
       "non-coding-rna",
       "chromatin",
-      "histone"
+      "histone",
+      "mutations",
+      "ncrna",
+      "sasp",
+      "senescence"
     ],
     "pages": [
       {
@@ -4292,11 +4292,6 @@
     "tags": [
       "epigenetics",
       "notes",
-      "mitochondria",
-      "sasp",
-      "mutations",
-      "ncrna",
-      "cell-death",
       "mitochondrial-dysfunction",
       "global-hypomethylation",
       "age-related-diseases",
@@ -4308,6 +4303,11 @@
       "dna-methylation",
       "non-coding-rna",
       "methylation",
+      "mitochondria",
+      "sasp",
+      "mutations",
+      "ncrna",
+      "cell-death",
       "immune-system"
     ],
     "pages": [
@@ -4348,14 +4348,14 @@
     "tags": [
       "epigenetics",
       "notes",
-      "cell-death",
       "histone-acetylation",
       "dna-methylation",
       "rejuvenation",
       "methylation",
       "chromosome",
       "chromatin",
-      "histone"
+      "histone",
+      "cell-death"
     ],
     "pages": [
       {
@@ -4388,9 +4388,9 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
+      "gene-expression",
       "sasp",
-      "senescence",
-      "gene-expression"
+      "senescence"
     ],
     "pages": [
       {
@@ -4428,13 +4428,13 @@
     "tags": [
       "cancer",
       "notes",
-      "neurochemistry",
-      "parasitology",
       "oxidative-stress",
       "benzimidazole",
       "microtubules",
       "microtubule",
       "glucose",
+      "neurochemistry",
+      "parasitology",
       "digestive"
     ],
     "pages": [
@@ -4477,8 +4477,6 @@
     "tags": [
       "cancer",
       "notes",
-      "leukocytes",
-      "metabolism",
       "cell-membrane",
       "macrophages",
       "glycolysis",
@@ -4487,6 +4485,8 @@
       "lactate",
       "glucose",
       "atp",
+      "leukocytes",
+      "metabolism",
       "respiratory"
     ],
     "pages": [
@@ -4531,11 +4531,6 @@
       "cancer",
       "notes",
       "metabolism",
-      "cell-death",
-      "neurochemistry",
-      "growth",
-      "nad-metabolism",
-      "pathology",
       "cell-proliferation",
       "glucose-metabolism",
       "colorectal-cancer",
@@ -4543,6 +4538,11 @@
       "glycolysis",
       "caspase-3",
       "glucose",
+      "cell-death",
+      "neurochemistry",
+      "growth",
+      "nad-metabolism",
+      "pathology",
       "digestive"
     ],
     "pages": [
@@ -4580,13 +4580,13 @@
     ],
     "tags": [
       "nutrition",
-      "polyphenols",
       "kaempferol",
       "flavonoids",
       "quercetin",
       "genistein",
       "edamame",
-      "milk"
+      "milk",
+      "polyphenols"
     ],
     "pages": [
       {
@@ -4627,16 +4627,16 @@
       "nutrition",
       "diagrams-charts",
       "glycation",
-      "antioxidants",
-      "catecholamines",
-      "adrenochrome",
       "oxidative-stress",
       "aminoguanidine",
       "dicarbonyls",
       "glutathione",
-      "epinephrine",
       "prodrug",
       "ros",
+      "antioxidants",
+      "catecholamines",
+      "adrenochrome",
+      "epinephrine",
       "cardiovascular",
       "endocrine"
     ],
@@ -4840,9 +4840,6 @@
     "tags": [
       "cancer",
       "notes",
-      "leukocytes",
-      "cell-death",
-      "growth",
       "triple-negative-breast-cancer",
       "breast-cancer",
       "melanocytes",
@@ -4850,6 +4847,9 @@
       "brca1",
       "her2",
       "il-6",
+      "leukocytes",
+      "cell-death",
+      "growth",
       "hematopoietic",
       "respiratory",
       "reproductive",
@@ -4888,9 +4888,9 @@
     "tags": [
       "cancer",
       "notes",
+      "appetite",
       "diagnosis",
       "pancreatic-cancer",
-      "appetite",
       "digestive",
       "immune-system",
       "endocrine"
@@ -4939,16 +4939,16 @@
       "notes",
       "cell-adhesion",
       "angiogenesis",
-      "cell-death",
-      "immunology",
-      "growth",
-      "physiology",
-      "immune-system",
       "gene-expression",
       "vasculature",
       "integrins",
       "kinase",
       "pi3k",
+      "cell-death",
+      "immunology",
+      "growth",
+      "physiology",
+      "immune-system",
       "cardiovascular",
       "digestive"
     ],
@@ -4993,9 +4993,9 @@
       "stem-cells",
       "metastasis",
       "cell-death",
+      "chemotherapy",
       "growth",
       "parasitology",
-      "chemotherapy",
       "nervous-system",
       "digestive",
       "respiratory",
@@ -5044,16 +5044,16 @@
       "cancer",
       "notes",
       "cell-death",
-      "inflammation",
-      "immunology",
-      "mutations",
-      "growth",
       "breast-cancer",
-      "immune-system",
       "e-cadherin",
       "kinase",
       "pi3k",
       "yap1",
+      "inflammation",
+      "immunology",
+      "mutations",
+      "growth",
+      "immune-system",
       "digestive",
       "integumentary"
     ],
@@ -5098,15 +5098,15 @@
     "tags": [
       "cancer",
       "notes",
-      "metabolism",
-      "cell-death",
-      "growth",
       "hepatocellular-carcinoma",
       "renal-cell-carcinoma",
       "cholangiocarcinoma",
       "prostate-cancer",
       "atp-production",
       "caspase-3",
+      "metabolism",
+      "cell-death",
+      "growth",
       "digestive",
       "respiratory",
       "urinary",
@@ -5153,13 +5153,13 @@
       "cancer",
       "notes",
       "stem-cells",
-      "cell-death",
-      "mitochondria",
       "hematopoietic-stem-cells",
       "ovarian-cancer",
       "cisplatin",
       "caspase",
       "hematopoietic",
+      "cell-death",
+      "mitochondria",
       "reproductive"
     ],
     "pages": [
@@ -5204,16 +5204,16 @@
       "notes",
       "angiogenesis",
       "metastasis",
+      "microtubule",
+      "kinase",
+      "mtorc1",
+      "pkc",
       "immunology",
       "growth",
       "sasp",
       "diagnosis",
       "cancer",
       "immune-system",
-      "microtubule",
-      "kinase",
-      "mtorc1",
-      "pkc",
       "nervous-system",
       "cardiovascular",
       "digestive"
@@ -5260,14 +5260,14 @@
       "cancer",
       "notes",
       "neurodegeneration",
-      "metastasis",
-      "growth",
       "lung-cancer",
       "mapk-erk",
       "braf",
       "il-6",
       "mapk",
       "emt",
+      "metastasis",
+      "growth",
       "nervous-system",
       "respiratory",
       "integumentary"
@@ -5316,7 +5316,6 @@
       "notes",
       "mitochondria",
       "cell-death",
-      "lysosome",
       "mitochondrial-membrane-potential",
       "chromatin-condensation",
       "death-receptor",
@@ -5324,7 +5323,8 @@
       "apoptosome",
       "cytoplasm",
       "caspase-3",
-      "chromatin"
+      "chromatin",
+      "lysosome"
     ],
     "pages": [
       {
@@ -5366,11 +5366,11 @@
       "notes",
       "cell-death",
       "lysosome",
+      "chemotherapy",
+      "lkb1",
       "mitochondria",
       "growth",
       "cancer",
-      "chemotherapy",
-      "lkb1",
       "integumentary"
     ],
     "pages": [
@@ -5444,8 +5444,8 @@
     "tags": [
       "cancer",
       "notes",
-      "parasitology",
       "microfilariae",
+      "parasitology",
       "digestive",
       "integumentary",
       "ocular"
@@ -5488,14 +5488,14 @@
     "tags": [
       "cancer",
       "notes",
+      "inflammation",
+      "neurotransmitters",
+      "immune-system",
       "neurochemistry",
       "innate-immunity",
-      "inflammation",
       "immunology",
       "parasitology",
       "physiology",
-      "neurotransmitters",
-      "immune-system",
       "nervous-system",
       "integumentary",
       "musculoskeletal"
@@ -5576,18 +5576,18 @@
       "autophagy",
       "diagrams-charts",
       "inflammation",
-      "vaccines",
       "lysosome",
-      "growth",
-      "sasp",
-      "cancer",
-      "senescence",
-      "spermidine",
       "immune-aging",
       "vaccination",
       "metformin",
       "rapamycin",
       "mtorc1",
+      "vaccines",
+      "growth",
+      "sasp",
+      "cancer",
+      "senescence",
+      "spermidine",
       "immune-system"
     ],
     "pages": [
@@ -5631,19 +5631,19 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "drug-resistance",
       "angiogenesis",
       "metastasis",
       "cell-death",
-      "growth",
-      "stem-cells",
-      "cancer",
       "multidrug-resistance",
       "cell-cycle-arrest",
       "beta-catenin",
       "ivermectin",
       "mtor",
-      "mapk"
+      "mapk",
+      "drug-resistance",
+      "growth",
+      "stem-cells",
+      "cancer"
     ],
     "pages": [
       {
@@ -5679,11 +5679,11 @@
     "tags": [
       "parasitology",
       "diagrams-charts",
+      "microfilariae",
+      "simulium",
       "vector-borne",
       "filariasis",
       "cancer",
-      "microfilariae",
-      "simulium",
       "integumentary"
     ],
     "pages": [
@@ -5718,10 +5718,10 @@
     "tags": [
       "parasitology",
       "diagrams-charts",
-      "dec",
-      "cancer",
       "microfilariae",
-      "ivermectin"
+      "ivermectin",
+      "dec",
+      "cancer"
     ],
     "pages": [
       {
@@ -5765,11 +5765,8 @@
     "tags": [
       "blood-cells",
       "notes",
-      "innate-immunity",
       "inflammation",
       "leukocytes",
-      "hematology",
-      "immunology",
       "nucleic-acids",
       "immune-system",
       "neutrophils",
@@ -5779,6 +5776,9 @@
       "cytoplasm",
       "antigens",
       "nucleus",
+      "innate-immunity",
+      "hematology",
+      "immunology",
       "digestive",
       "hematopoietic",
       "respiratory",
@@ -5820,13 +5820,13 @@
       "blood-cells",
       "notes",
       "inflammation",
-      "leukocytes",
-      "immunology",
-      "parasitology",
       "neutrophils",
       "neurotoxin",
       "cytoplasm",
       "antigen",
+      "leukocytes",
+      "immunology",
+      "parasitology",
       "cardiovascular",
       "digestive",
       "immune-system",
@@ -5875,11 +5875,7 @@
       "blood-cells",
       "notes",
       "leukocytes",
-      "inflammation",
       "lysosome",
-      "immunology",
-      "neurochemistry",
-      "cognition",
       "peripheral-tissues",
       "dendritic-cells",
       "macrophages",
@@ -5890,6 +5886,10 @@
       "basophils",
       "platelets",
       "antigens",
+      "inflammation",
+      "immunology",
+      "neurochemistry",
+      "cognition",
       "cardiovascular",
       "immune-system",
       "hematopoietic"
@@ -5937,12 +5937,7 @@
       "blood-cells",
       "notes",
       "leukocytes",
-      "inflammation",
       "cell-death",
-      "immunology",
-      "neurochemistry",
-      "cognition",
-      "immune-system",
       "macrophages",
       "lymphocytes",
       "macrophage",
@@ -5951,6 +5946,11 @@
       "cytokines",
       "b-cells",
       "antigen",
+      "inflammation",
+      "immunology",
+      "neurochemistry",
+      "cognition",
+      "immune-system",
       "hematopoietic"
     ],
     "pages": [
@@ -6027,10 +6027,10 @@
       "autophagy",
       "diagrams-charts",
       "autophagosome",
-      "lysosome",
       "lipophagy",
       "hlh-30",
-      "mxl-3"
+      "mxl-3",
+      "lysosome"
     ],
     "pages": [
       {
@@ -6073,15 +6073,15 @@
       "autophagy",
       "diagrams-charts",
       "lysosome",
-      "development",
       "autophagosome",
-      "cell-adhesion",
       "phagocytic-lysosome-reformation",
       "autolysosome",
       "microtubule",
       "endocytosis",
       "phagophore",
-      "trpml1"
+      "trpml1",
+      "development",
+      "cell-adhesion"
     ],
     "pages": [
       {
@@ -6125,9 +6125,6 @@
       "autophagy",
       "diagrams-charts",
       "lysosome",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
       "signaling-molecules",
       "cytosol",
       "nucleus",
@@ -6135,7 +6132,10 @@
       "stub1",
       "gcn5",
       "tfeb",
-      "mtor"
+      "mtor",
+      "metabolism",
+      "metabolic-fasting",
+      "growth"
     ],
     "pages": [
       {
@@ -6176,13 +6176,13 @@
       "autophagy",
       "diagrams-charts",
       "stem-cells",
-      "development",
       "lysosome",
-      "mutations",
       "hematopoietic-stem-cells",
       "lifespan",
       "nucleus",
-      "hematopoietic"
+      "hematopoietic",
+      "development",
+      "mutations"
     ],
     "pages": [
       {
@@ -6224,13 +6224,13 @@
       "autophagy",
       "diagrams-charts",
       "autophagosome",
-      "cell-adhesion",
       "mitophagy",
       "lysosome",
       "adaptor-protein",
       "endocytosis",
       "phagophore",
-      "lc3"
+      "lc3",
+      "cell-adhesion"
     ],
     "pages": [
       {
@@ -6273,9 +6273,6 @@
     "tags": [
       "autophagy",
       "notes",
-      "lysosome",
-      "metabolism",
-      "growth",
       "protein-synthesis",
       "lysosomal-surface",
       "amino-acids",
@@ -6284,7 +6281,10 @@
       "leucine",
       "kinase",
       "mtorc1",
-      "pras40"
+      "pras40",
+      "lysosome",
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -6326,6 +6326,12 @@
     "tags": [
       "autophagy",
       "notes",
+      "cancer",
+      "stress-resistance",
+      "breast-cancer",
+      "antigen",
+      "egfr",
+      "mtor",
       "cell-death",
       "neurochemistry",
       "inflammation",
@@ -6333,12 +6339,6 @@
       "metabolism",
       "mutations",
       "growth",
-      "cancer",
-      "stress-resistance",
-      "breast-cancer",
-      "antigen",
-      "egfr",
-      "mtor",
       "nervous-system",
       "digestive",
       "immune-system",
@@ -6381,9 +6381,9 @@
       "autophagy",
       "notes",
       "cell-adhesion",
-      "metabolism",
       "cytoskeletal-organization",
-      "mitosis"
+      "mitosis",
+      "metabolism"
     ],
     "pages": [
       {
@@ -6427,7 +6427,6 @@
     "tags": [
       "autophagy",
       "notes",
-      "growth",
       "protein-synthesis",
       "cell-membrane",
       "akt",
@@ -6436,7 +6435,8 @@
       "pdcd4",
       "mtor",
       "s6k1",
-      "fak"
+      "fak",
+      "growth"
     ],
     "pages": [
       {
@@ -6477,16 +6477,16 @@
     "tags": [
       "autophagy",
       "notes",
-      "cell-death",
-      "mitochondria",
-      "metabolism",
-      "growth",
       "cholesterol",
       "rapamycin",
       "mtorc1",
       "mtorc2",
       "mtor",
-      "atp"
+      "atp",
+      "cell-death",
+      "mitochondria",
+      "metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -6530,11 +6530,6 @@
       "autophagy",
       "notes",
       "lysosome",
-      "autophagosome",
-      "mitochondria",
-      "metabolism",
-      "mutations",
-      "growth",
       "protein-synthesis",
       "rapamycin",
       "pyruvate",
@@ -6544,6 +6539,11 @@
       "lkb1",
       "tsc2",
       "rsk",
+      "autophagosome",
+      "mitochondria",
+      "metabolism",
+      "mutations",
+      "growth",
       "endocrine"
     ],
     "pages": [
@@ -6587,9 +6587,6 @@
     "tags": [
       "autophagy",
       "notes",
-      "mutations",
-      "metabolism",
-      "growth",
       "dna-damage-response",
       "mtor-signaling",
       "tumorigenesis",
@@ -6598,6 +6595,9 @@
       "insulin",
       "kinase",
       "mtorc1",
+      "mutations",
+      "metabolism",
+      "growth",
       "endocrine"
     ],
     "pages": [
@@ -6636,12 +6636,12 @@
     "tags": [
       "autophagy",
       "notes",
-      "growth",
       "amino-acids",
       "acetyl-coa",
       "cytoplasm",
       "glutamate",
-      "raptor"
+      "raptor",
+      "growth"
     ],
     "pages": [
       {
@@ -6688,8 +6688,6 @@
       "mitochondria",
       "inflammation",
       "mitophagy",
-      "nf-kappab",
-      "growth",
       "cytoskeletal-organization",
       "mitochondrial-biogenesis",
       "mitochondrial-function",
@@ -6699,7 +6697,9 @@
       "mtorc2",
       "lipid-synthesis",
       "mtor-signaling",
-      "amino-acids"
+      "amino-acids",
+      "nf-kappab",
+      "growth"
     ],
     "pages": [
       {
@@ -6743,12 +6743,6 @@
     "tags": [
       "oxidative-stress",
       "notes",
-      "catecholamines",
-      "antioxidants",
-      "hematology",
-      "redox",
-      "neurochemistry",
-      "physiology",
       "norepinephrine",
       "epinephrine",
       "glutathione",
@@ -6756,6 +6750,12 @@
       "hemoglobin",
       "superoxide",
       "catalase",
+      "catecholamines",
+      "antioxidants",
+      "hematology",
+      "redox",
+      "neurochemistry",
+      "physiology",
       "hematopoietic"
     ],
     "pages": [
@@ -6802,14 +6802,14 @@
       "notes",
       "redox",
       "mitochondria",
-      "metal-chelation",
-      "sod",
       "hydrogen-peroxide",
       "superoxide",
       "manganese",
       "cytosol",
       "nucleus",
       "iron",
+      "metal-chelation",
+      "sod",
       "immune-system",
       "hematopoietic",
       "endocrine"
@@ -6851,11 +6851,11 @@
     "tags": [
       "oxidative-stress",
       "notes",
-      "hematology",
-      "metal-chelation",
       "hemoglobin",
       "cyanosis",
       "iron",
+      "hematology",
+      "metal-chelation",
       "hematopoietic",
       "integumentary"
     ],
@@ -6900,9 +6900,6 @@
     "tags": [
       "cancer",
       "notes",
-      "cell-adhesion",
-      "drug-delivery",
-      "mitochondria",
       "cell-death",
       "oxidative-stress",
       "anti-cancer-activity",
@@ -6910,6 +6907,9 @@
       "lung-cancer",
       "melittin",
       "her2",
+      "cell-adhesion",
+      "drug-delivery",
+      "mitochondria",
       "nervous-system",
       "cardiovascular",
       "digestive",
@@ -6960,18 +6960,18 @@
       "autophagy",
       "diagrams-charts",
       "mitochondria",
+      "autophagosome",
+      "mitophagy",
+      "mitochondrial-quality-control",
+      "neuroinflammation",
+      "neuron",
+      "adp",
       "neurodegeneration",
       "pathology",
       "redox",
       "inflammation",
-      "autophagosome",
-      "mitophagy",
       "neurochemistry",
-      "mitochondrial-quality-control",
       "ros",
-      "neuroinflammation",
-      "neuron",
-      "adp",
       "nervous-system"
     ],
     "pages": [
@@ -7018,15 +7018,15 @@
       "redox",
       "mitochondria",
       "mitophagy",
-      "nad-metabolism",
-      "mitohormesis",
       "methylene-blue",
-      "atp-production",
       "redox-cycling",
       "urolithin-a",
       "superoxide",
       "complex-i",
-      "sirt1"
+      "sirt1",
+      "nad-metabolism",
+      "mitohormesis",
+      "atp-production"
     ],
     "pages": [
       {
@@ -7068,13 +7068,8 @@
     ],
     "tags": [
       "sirtuins",
-      "mitochondria",
       "antioxidants",
       "mitohormesis",
-      "polyphenols",
-      "metabolism",
-      "metabolic-fasting",
-      "clinical-trial",
       "mitochondrial-function",
       "stress-resistance",
       "stress-responses",
@@ -7083,6 +7078,11 @@
       "exercise",
       "lifespan",
       "hypoxia",
+      "mitochondria",
+      "polyphenols",
+      "metabolism",
+      "metabolic-fasting",
+      "clinical-trial",
       "nervous-system",
       "immune-system",
       "musculoskeletal"
@@ -7128,17 +7128,17 @@
     "tags": [
       "sirtuins",
       "antioxidants",
-      "mitochondria",
-      "sod",
-      "redox",
       "mitohormesis",
-      "cell-death",
-      "clinical-trial",
       "glutathione-peroxidase",
       "mitochondrial-stress",
       "glutathione",
       "superoxide",
       "vitamin-e",
+      "mitochondria",
+      "sod",
+      "redox",
+      "cell-death",
+      "clinical-trial",
       "cardiovascular"
     ],
     "pages": [
@@ -7183,15 +7183,7 @@
     "tags": [
       "oxidative-stress",
       "mitochondria",
-      "antioxidants",
-      "metabolism",
       "redox",
-      "mitophagy",
-      "mitohormesis",
-      "growth",
-      "nad-metabolism",
-      "neurochemistry",
-      "sirtuins",
       "mitochondrial-respiration",
       "mitochondrial-dysfunction",
       "mitochondrial-dynamics",
@@ -7201,6 +7193,14 @@
       "atp-production",
       "redox-cycling",
       "adrenochrome",
+      "antioxidants",
+      "metabolism",
+      "mitophagy",
+      "mitohormesis",
+      "growth",
+      "nad-metabolism",
+      "neurochemistry",
+      "sirtuins",
       "nervous-system"
     ],
     "pages": [
@@ -7241,9 +7241,6 @@
     "tags": [
       "sirtuins",
       "cardiovascular",
-      "metabolism",
-      "metabolic-fasting",
-      "angiogenesis",
       "parasympathetic-nervous-system",
       "sympathetic-nervous-system",
       "autonomic-nervous-system",
@@ -7251,6 +7248,9 @@
       "cardiovascular-system",
       "vagus-nerve",
       "fasting",
+      "metabolism",
+      "metabolic-fasting",
+      "angiogenesis",
       "nervous-system"
     ],
     "pages": [
@@ -7290,13 +7290,13 @@
       "sirtuins",
       "diagrams-charts",
       "mitochondria",
-      "metal-chelation",
-      "mitohormesis",
       "mitochondrial-stress",
       "cytosol",
       "nucleus",
       "atf4",
-      "iron"
+      "iron",
+      "metal-chelation",
+      "mitohormesis"
     ],
     "pages": [
       {
@@ -7382,8 +7382,6 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "metabolism",
-      "pathology",
       "mitochondria",
       "insulin-sensitivity",
       "hepatic-steatosis",
@@ -7394,6 +7392,8 @@
       "mtdna",
       "gdf15",
       "fgf21",
+      "metabolism",
+      "pathology",
       "digestive",
       "endocrine"
     ],
@@ -7440,6 +7440,13 @@
       "sirtuins",
       "diagrams-charts",
       "mitochondria",
+      "mitochondrial-protein-import",
+      "mitochondrial-dysfunction",
+      "tumor-microenvironment",
+      "extracellular-matrix",
+      "insulin-resistance",
+      "hepatic-steatosis",
+      "mitochondrial-ros",
       "neurodegeneration",
       "mitophagy",
       "metabolism",
@@ -7447,16 +7454,9 @@
       "nf-kappab",
       "inflammation",
       "mitohormesis",
-      "mitochondrial-protein-import",
-      "mitochondrial-dysfunction",
-      "tumor-microenvironment",
       "huntingtons-disease",
-      "extracellular-matrix",
       "alzheimers-disease",
       "parkinsons-disease",
-      "insulin-resistance",
-      "hepatic-steatosis",
-      "mitochondrial-ros",
       "nlrp3-inflammasome",
       "nervous-system",
       "immune-system",
@@ -7499,11 +7499,11 @@
       "sirtuins",
       "diagrams-charts",
       "mitochondria",
-      "metabolism",
       "mitochondrial-biogenesis",
       "age-related-diseases",
       "lifespan-extension",
       "lifespan",
+      "metabolism",
       "endocrine"
     ],
     "pages": [
@@ -7542,14 +7542,14 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "inflammation",
-      "microbiome",
-      "nad-metabolism",
-      "metabolism",
       "anti-inflammatory",
       "neuroprotection",
       "parps",
       "nmn",
+      "inflammation",
+      "microbiome",
+      "nad-metabolism",
+      "metabolism",
       "nervous-system",
       "cardiovascular",
       "digestive",
@@ -7591,14 +7591,14 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "nad-metabolism",
       "redox",
-      "metabolism",
       "nmn",
-      "nr",
       "parps",
       "nmnat",
-      "cd157"
+      "cd157",
+      "nad-metabolism",
+      "metabolism",
+      "nr"
     ],
     "pages": [
       {
@@ -7641,10 +7641,6 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "nad-metabolism",
-      "metabolism",
-      "mitochondria",
-      "redox",
       "nicotinamide-riboside",
       "histone-deacetylase",
       "quinolinic-acid",
@@ -7655,7 +7651,11 @@
       "cytoplasm",
       "histone",
       "obesity",
-      "nucleus"
+      "nucleus",
+      "nad-metabolism",
+      "metabolism",
+      "mitochondria",
+      "redox"
     ],
     "pages": [
       {
@@ -7697,12 +7697,6 @@
     ],
     "tags": [
       "sirtuins",
-      "metabolism",
-      "inflammation",
-      "nad-metabolism",
-      "neurochemistry",
-      "angiogenesis",
-      "cardiovascular",
       "fatty-acid-oxidation",
       "insulin-sensitivity",
       "insulin-secretion",
@@ -7711,6 +7705,12 @@
       "lipogenesis",
       "exercise",
       "insulin",
+      "metabolism",
+      "inflammation",
+      "nad-metabolism",
+      "neurochemistry",
+      "angiogenesis",
+      "cardiovascular",
       "nervous-system",
       "digestive",
       "immune-system",
@@ -7758,14 +7758,14 @@
     "tags": [
       "oxidative-stress",
       "diagrams-charts",
-      "nad-metabolism",
-      "sirtuins",
       "nampt",
       "nadph",
       "sirt1",
       "naad",
       "nadh",
-      "nmn"
+      "nmn",
+      "nad-metabolism",
+      "sirtuins"
     ],
     "pages": [
       {
@@ -7806,16 +7806,16 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "cardiovascular",
-      "nad-metabolism",
-      "growth",
       "heart-failure",
       "glucose",
       "nampt",
       "nmrk2",
       "ampk",
       "nmn",
-      "atp"
+      "atp",
+      "cardiovascular",
+      "nad-metabolism",
+      "growth"
     ],
     "pages": [
       {
@@ -7888,8 +7888,6 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "lysosome",
-      "spermidine",
       "methylation",
       "cytoplasm",
       "nucleus",
@@ -7897,7 +7895,9 @@
       "eif5a",
       "xbp1",
       "tfeb",
-      "myc"
+      "myc",
+      "lysosome",
+      "spermidine"
     ],
     "pages": [
       {
@@ -7936,15 +7936,15 @@
       "senescence",
       "diagrams-charts",
       "stem-cells",
-      "leukocytes",
-      "neurochemistry",
       "hematopoietic-stem-cells",
       "skeletal-muscle",
       "lymphocytes",
+      "hematopoietic",
+      "leukocytes",
+      "neurochemistry",
       "nervous-system",
       "digestive",
       "immune-system",
-      "hematopoietic",
       "reproductive",
       "musculoskeletal"
     ],
@@ -7981,12 +7981,12 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "sasp",
-      "mutations",
-      "growth",
       "extracellular-matrix",
       "quiescence",
-      "dna-damage"
+      "dna-damage",
+      "sasp",
+      "mutations",
+      "growth"
     ],
     "pages": [
       {
@@ -8024,16 +8024,16 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "redox",
       "mitochondria",
       "lysosome",
+      "ros",
+      "nucleus",
+      "redox",
       "cell-death",
       "metabolism",
       "growth",
       "development",
-      "senescence",
-      "ros",
-      "nucleus"
+      "senescence"
     ],
     "pages": [
       {
@@ -8076,10 +8076,7 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "metabolism",
-      "metabolic-fasting",
       "polyphenols",
-      "physiology",
       "caloric-restriction",
       "insulin-resistance",
       "recombinant-sirt1",
@@ -8090,6 +8087,9 @@
       "butein",
       "stacs",
       "sirt1",
+      "metabolism",
+      "metabolic-fasting",
+      "physiology",
       "endocrine"
     ],
     "pages": [
@@ -8133,16 +8133,7 @@
     "tags": [
       "sirtuins",
       "notes",
-      "sod",
-      "redox",
-      "inflammation",
       "angiogenesis",
-      "antioxidants",
-      "mitochondria",
-      "hematology",
-      "growth",
-      "nad-metabolism",
-      "cardiovascular",
       "cell-proliferation",
       "anti-inflammatory",
       "bioavailability",
@@ -8151,6 +8142,15 @@
       "vasodilation",
       "nitric-oxide",
       "superoxide",
+      "sod",
+      "redox",
+      "inflammation",
+      "antioxidants",
+      "mitochondria",
+      "hematology",
+      "growth",
+      "nad-metabolism",
+      "cardiovascular",
       "digestive",
       "immune-system",
       "musculoskeletal"
@@ -8195,13 +8195,6 @@
     ],
     "tags": [
       "sirtuins",
-      "leukocytes",
-      "cell-death",
-      "inflammation",
-      "metabolism",
-      "metastasis",
-      "growth",
-      "cardiovascular",
       "low-density-lipoprotein",
       "glucose-homeostasis",
       "angiotensin-ii",
@@ -8210,6 +8203,13 @@
       "cholesterol",
       "macrophage",
       "monocyte",
+      "leukocytes",
+      "cell-death",
+      "inflammation",
+      "metabolism",
+      "metastasis",
+      "growth",
+      "cardiovascular",
       "immune-system",
       "hematopoietic",
       "musculoskeletal"
@@ -8248,9 +8248,9 @@
     "tags": [
       "cancer",
       "notes",
+      "appetite",
       "diagnosis",
       "pancreatic-cancer",
-      "appetite",
       "digestive",
       "immune-system",
       "endocrine"
@@ -8297,20 +8297,20 @@
     "tags": [
       "cancer",
       "notes",
-      "mitochondria",
-      "sasp",
-      "mutations",
       "microbiome",
-      "innate-immunity",
       "inflammation",
-      "immunology",
-      "neurochemistry",
-      "cognition",
       "mitochondrial-function",
       "senescence",
       "genomic-instability",
       "immune-system",
       "proteostasis",
+      "mitochondria",
+      "sasp",
+      "mutations",
+      "innate-immunity",
+      "immunology",
+      "neurochemistry",
+      "cognition",
       "nervous-system",
       "digestive"
     ],
@@ -8353,13 +8353,13 @@
       "cancer",
       "notes",
       "cell-adhesion",
-      "drug-delivery",
       "angiogenesis",
-      "immunology",
-      "immune-system",
       "wound-healing",
       "nanoparticles",
       "integrins",
+      "drug-delivery",
+      "immunology",
+      "immune-system",
       "cardiovascular",
       "integumentary"
     ],
@@ -8401,15 +8401,15 @@
     "tags": [
       "cancer",
       "notes",
-      "leukocytes",
-      "angiogenesis",
       "metastasis",
-      "cell-adhesion",
-      "drug-delivery",
       "platelet-aggregation",
       "vasculature",
       "integrins",
       "platelets",
+      "leukocytes",
+      "angiogenesis",
+      "cell-adhesion",
+      "drug-delivery",
       "nervous-system",
       "immune-system",
       "hematopoietic",
@@ -8459,15 +8459,15 @@
       "notes",
       "cell-adhesion",
       "angiogenesis",
-      "immunology",
-      "growth",
-      "immune-system",
       "nitric-oxide",
       "rgd-peptide",
       "integrins",
       "kinase",
       "pi3k",
       "mapk",
+      "immunology",
+      "growth",
+      "immune-system",
       "cardiovascular",
       "integumentary"
     ],
@@ -8535,10 +8535,10 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "cell-adhesion",
-      "drug-delivery",
       "endocytosis",
-      "integrins"
+      "integrins",
+      "cell-adhesion",
+      "drug-delivery"
     ],
     "pages": [
       {
@@ -8620,13 +8620,13 @@
     "tags": [
       "cancer",
       "diagrams-charts",
+      "senescent-cells",
+      "chemotherapy",
       "leukocytes",
       "sasp",
       "cell-adhesion",
       "drug-delivery",
       "senescence",
-      "senescent-cells",
-      "chemotherapy",
       "immune-system"
     ],
     "pages": [
@@ -8669,15 +8669,6 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "innate-immunity",
-      "leukocytes",
-      "stem-cells",
-      "inflammation",
-      "immunology",
-      "growth",
-      "sasp",
-      "development",
-      "senescence",
       "tumor-microenvironment",
       "antigen-presentation",
       "neutrophil",
@@ -8687,6 +8678,15 @@
       "t-cell",
       "il-8",
       "il-6",
+      "innate-immunity",
+      "leukocytes",
+      "stem-cells",
+      "inflammation",
+      "immunology",
+      "growth",
+      "sasp",
+      "development",
+      "senescence",
       "immune-system"
     ],
     "pages": [
@@ -8730,8 +8730,6 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "mutations",
-      "sasp",
       "epigenetic-regulation",
       "methylation",
       "dna-damage",
@@ -8741,7 +8739,9 @@
       "h3k9me3",
       "h3k27ac",
       "h3k9ac",
-      "hmgb2"
+      "hmgb2",
+      "mutations",
+      "sasp"
     ],
     "pages": [
       {
@@ -8784,17 +8784,17 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "mitochondria",
-      "redox",
-      "nf-kappab",
-      "sasp",
       "electron-transport-chain",
-      "ros",
       "p16",
       "p21",
       "mtdna",
       "atm",
-      "jnk"
+      "jnk",
+      "mitochondria",
+      "redox",
+      "nf-kappab",
+      "sasp",
+      "ros"
     ],
     "pages": [
       {
@@ -8838,18 +8838,18 @@
       "senescence",
       "diagrams-charts",
       "mitochondria",
-      "redox",
-      "sasp",
       "mitophagy",
       "lysosome",
-      "nad-metabolism",
-      "metabolism",
-      "neurodegeneration",
-      "pathology",
       "mitochondrial-dysfunction",
       "electron-transport-chain",
       "ros",
       "adenosine-triphosphate",
+      "redox",
+      "sasp",
+      "nad-metabolism",
+      "metabolism",
+      "neurodegeneration",
+      "pathology",
       "nervous-system"
     ],
     "pages": [
@@ -8894,9 +8894,6 @@
       "senescence",
       "diagrams-charts",
       "sasp",
-      "leukocytes",
-      "mutations",
-      "growth",
       "cell-cycle-arrest",
       "senescent-cells",
       "dna-damage",
@@ -8906,6 +8903,9 @@
       "cdk2",
       "p53",
       "p16",
+      "leukocytes",
+      "mutations",
+      "growth",
       "immune-system"
     ],
     "pages": [
@@ -8950,7 +8950,6 @@
       "senescence",
       "diagrams-charts",
       "development",
-      "sasp",
       "embryonic-development",
       "paracrine-senescence",
       "wound-healing",
@@ -8960,6 +8959,7 @@
       "ccl2",
       "mmp",
       "wnt",
+      "sasp",
       "immune-system",
       "integumentary"
     ],
@@ -9005,14 +9005,14 @@
       "senescence",
       "diagrams-charts",
       "sasp",
-      "redox",
-      "mutations",
       "mitochondria",
       "nf-kappab",
-      "ros",
       "dna-damage-response",
       "dna-damage",
       "line-1",
+      "redox",
+      "mutations",
+      "ros",
       "immune-system"
     ],
     "pages": [
@@ -9054,20 +9054,20 @@
     ],
     "tags": [
       "adrenochrome",
+      "redox",
+      "mitochondrial-dysfunction",
+      "antioxidant-response",
+      "aminochrome",
       "mitochondria",
       "antioxidants",
       "mitophagy",
       "neurodegeneration",
       "cell-death",
       "nf-kappab",
-      "redox",
       "mutations",
       "sasp",
       "senescence",
-      "mitochondrial-dysfunction",
-      "antioxidant-response",
       "parkinsons-disease",
-      "aminochrome",
       "cardiovascular"
     ],
     "pages": [
@@ -9111,20 +9111,20 @@
     "tags": [
       "oxidative-stress",
       "sasp",
-      "leukocytes",
       "senolytics",
-      "mutations",
-      "inflammation",
-      "nf-kappab",
-      "growth",
-      "cardiovascular",
-      "senescence",
       "senescent-cells",
       "wound-healing",
       "neurogenesis",
       "dna-damage",
       "cytokines",
       "tnf-alpha",
+      "leukocytes",
+      "mutations",
+      "inflammation",
+      "nf-kappab",
+      "growth",
+      "cardiovascular",
+      "senescence",
       "immune-system",
       "integumentary"
     ],
@@ -9169,21 +9169,21 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "mitochondria",
       "cardiovascular",
       "antioxidants",
       "mitohormesis",
       "inflammation",
       "cell-death",
-      "redox",
-      "angiogenesis",
-      "growth",
       "mitochondrial-dysfunction",
       "cardiovascular-disease",
       "mitochondrial-ros",
-      "oxidative-stress",
       "muscle-mass",
       "vitamin-c",
+      "mitochondria",
+      "redox",
+      "angiogenesis",
+      "growth",
+      "oxidative-stress",
       "immune-system",
       "musculoskeletal"
     ],
@@ -9232,17 +9232,17 @@
       "development",
       "inflammation",
       "metastasis",
-      "leukocytes",
-      "pathology",
       "cell-death",
-      "angiogenesis",
-      "physiology",
-      "cardiovascular-disease",
       "embryonic-development",
       "osteoarthritis",
       "wound-healing",
       "macrophage",
       "fibrosis",
+      "leukocytes",
+      "pathology",
+      "angiogenesis",
+      "physiology",
+      "cardiovascular-disease",
       "immune-system",
       "integumentary",
       "musculoskeletal"
@@ -9281,11 +9281,11 @@
     "tags": [
       "senescence",
       "diagrams-charts",
-      "mutations",
       "dna-damage",
       "chromatin",
       "p16",
-      "p21"
+      "p21",
+      "mutations"
     ],
     "pages": [
       {
@@ -9326,12 +9326,12 @@
       "diagrams-charts",
       "sasp",
       "inflammation",
-      "mutations",
-      "pathology",
-      "senescence",
       "chronic-sasp",
       "dna-damage",
       "p53",
+      "mutations",
+      "pathology",
+      "senescence",
       "immune-system"
     ],
     "pages": [
@@ -9441,17 +9441,17 @@
       "diagrams-charts",
       "nf-kappab",
       "inflammation",
-      "nad-metabolism",
-      "growth",
       "protein-synthesis",
       "gene-expression",
-      "nf-kappab-p65",
       "cytokines",
       "tnf-alpha",
       "il-1beta",
       "sirt3",
       "parp1",
       "sirt1",
+      "nad-metabolism",
+      "growth",
+      "nf-kappab-p65",
       "immune-system"
     ],
     "pages": [
@@ -9496,13 +9496,8 @@
     "tags": [
       "sirtuins",
       "diagrams-charts",
-      "mitochondria",
       "metabolism",
-      "development",
-      "nad-metabolism",
       "inflammation",
-      "antioxidants",
-      "nf-kappab",
       "mitochondrial-biogenesis",
       "ammonia-detoxification",
       "mitochondrial-function",
@@ -9512,6 +9507,11 @@
       "adp-ribosylation",
       "deacetylation",
       "microtubule",
+      "mitochondria",
+      "development",
+      "nad-metabolism",
+      "antioxidants",
+      "nf-kappab",
       "immune-system",
       "endocrine"
     ],
@@ -9528,8 +9528,8 @@
     "draft": false,
     "translations": {
       "en-US": {
-        "title": "Sirutins form a coordinated, compartmentalized network linking N",
-        "ocr": "Title: Sirutins form a coordinated, compartmentalized network linking N\nNAD⁺ metabolism, transcriptional regulation, mitochondrial function, and cy\ncytoskeletal dynamics to maintain cellular and organismal metabolic homeostasis .\nDiagram 1: Sirutin Enzymatic Activity\nHeading: Sirutin Enzymatic Activity\nDescription: Shows various proteins with NAD⁺ input and describes\ntheir deacetylation, ADP-ribosylation, and other modifications.\nHistone\nPGC-1α\nFOXO-D\nSIRT1\nSIRT6\nSIRT2\nSIRT3\nSIRT4\nSIRT5\nNAD⁺ input: Illustrates the entry of NAD+ and its role in removing\nacetyl groups from proteins.\nDiagram 2: Compartmentalized Networks\nNucleus: Illustrates mitochondrial biogenesis, NF-κB gene expression , and inflammation reduction.\nCytosol: Illustrates α-tubulin microtubule dynamics, cell cycle regulation , oxidative metabolism, and other processes.\nKey Processes indicated: Fatty acid oxidation, B-oxidation, TCA Cycle , oxidative metabolism, antioxidant defense, energy production, insulin secretion, succinyl/malonyl/glutaryl removal, ketonegenesis, ammonia detoxification, adipocyte differentiation.\nOverall Diagram: A circular diagram with a central \"Integrated Metabolic Homeostasis\" section, demonstrating the interconnectedness of the\nthese processes."
+        "title": "Sirtuins form a coordinated, compartmentalized network linking N",
+        "ocr": "Title: Sirtuins form a coordinated, compartmentalized network linking N\nNAD⁺ metabolism, transcriptional regulation, mitochondrial function, and cy\ncytoskeletal dynamics to maintain cellular and organismal metabolic homeostasis .\nDiagram 1: Sirtuin Enzymatic Activity\nHeading: Sirtuin Enzymatic Activity\nDescription: Shows various proteins with NAD⁺ input and describes\ntheir deacetylation, ADP-ribosylation, and other modifications.\nHistone\nPGC-1α\nFOXO-D\nSIRT1\nSIRT6\nSIRT2\nSIRT3\nSIRT4\nSIRT5\nNAD⁺ input: Illustrates the entry of NAD+ and its role in removing\nacetyl groups from proteins.\nDiagram 2: Compartmentalized Networks\nNucleus: Illustrates mitochondrial biogenesis, NF-κB gene expression , and inflammation reduction.\nCytosol: Illustrates α-tubulin microtubule dynamics, cell cycle regulation , oxidative metabolism, and other processes.\nKey Processes indicated: Fatty acid oxidation, B-oxidation, TCA Cycle , oxidative metabolism, antioxidant defense, energy production, insulin secretion, succinyl/malonyl/glutaryl removal, ketonegenesis, ammonia detoxification, adipocyte differentiation.\nOverall Diagram: A circular diagram with a central \"Integrated Metabolic Homeostasis\" section, demonstrating the interconnectedness of the\nthese processes."
       },
       "zh-TW": {
         "title": "Sirtuin形成一個協調、區隔化的網絡，連結NAD⁺代謝、轉錄調控、粒線體功能與細胞骨架動力學，以維持細胞與個體的代謝恆定",
@@ -9559,14 +9559,7 @@
       "generated-image",
       "diagrams-charts",
       "neurodegeneration",
-      "pathology",
-      "mitochondria",
       "cardiovascular",
-      "mutations",
-      "metabolism",
-      "sasp",
-      "cell-death",
-      "nf-kappab",
       "mitochondrial-biogenesis",
       "cardiovascular-disease",
       "telomere-maintenance",
@@ -9576,6 +9569,13 @@
       "stress-resilience",
       "oxidative-stress",
       "type-2-diabetes",
+      "pathology",
+      "mitochondria",
+      "mutations",
+      "metabolism",
+      "sasp",
+      "cell-death",
+      "nf-kappab",
       "nervous-system",
       "immune-system",
       "endocrine"
@@ -9623,24 +9623,24 @@
       "oxidative-stress",
       "generated-image",
       "diagrams-charts",
+      "cardiovascular",
+      "mitochondrial-biogenesis",
+      "cardiovascular-disease",
+      "lipid-metabolism",
+      "resveratrol",
+      "dna-repair",
+      "senescence",
+      "superoxide",
       "sod",
       "redox",
       "mitochondria",
-      "cardiovascular",
       "nad-metabolism",
       "polyphenols",
       "mutations",
       "sasp",
       "cell-death",
-      "mitochondrial-biogenesis",
       "ros",
-      "cardiovascular-disease",
-      "lipid-metabolism",
       "nad-precursors",
-      "resveratrol",
-      "dna-repair",
-      "senescence",
-      "superoxide",
       "nervous-system",
       "immune-system"
     ],
@@ -9687,15 +9687,8 @@
       "oxidative-stress",
       "generated-image",
       "diagrams-charts",
-      "mitochondria",
       "cardiovascular",
-      "mutations",
-      "sasp",
-      "metabolism",
-      "nad-metabolism",
       "inflammation",
-      "cell-death",
-      "angiogenesis",
       "mitochondrial-biogenesis",
       "cardiovascular-disease",
       "telomere-maintenance",
@@ -9703,8 +9696,15 @@
       "insulin-sensitivity",
       "stress-resistance",
       "type-2-diabetes",
-      "nad-precursors",
       "dna-repair",
+      "mitochondria",
+      "mutations",
+      "sasp",
+      "metabolism",
+      "nad-metabolism",
+      "cell-death",
+      "angiogenesis",
+      "nad-precursors",
       "nervous-system",
       "immune-system",
       "endocrine"
@@ -9752,25 +9752,25 @@
       "oxidative-stress",
       "generated-image",
       "diagrams-charts",
-      "redox",
-      "hocl",
-      "leukocytes",
-      "nad-metabolism",
       "catecholamines",
       "inflammation",
-      "innate-immunity",
-      "sirtuins",
-      "ros",
       "hydrogen-peroxide",
       "respiratory-burst",
       "hypochlorous-acid",
       "myeloperoxidase",
-      "nad-depletion",
       "nadph-oxidase",
       "adrenochrome",
+      "respiratory",
+      "redox",
+      "hocl",
+      "leukocytes",
+      "nad-metabolism",
+      "innate-immunity",
+      "sirtuins",
+      "ros",
+      "nad-depletion",
       "immune-system",
       "hematopoietic",
-      "respiratory",
       "endocrine"
     ],
     "pages": [
@@ -9815,12 +9815,8 @@
       "oxidative-stress",
       "generated-image",
       "diagrams-charts",
-      "redox",
       "catecholamines",
       "mitochondria",
-      "hematology",
-      "leukocytes",
-      "sirtuins",
       "fenton-reaction",
       "erythrocytes",
       "autoxidation",
@@ -9828,6 +9824,10 @@
       "superoxide",
       "neutrophil",
       "nucleus",
+      "redox",
+      "hematology",
+      "leukocytes",
+      "sirtuins",
       "immune-system",
       "hematopoietic",
       "endocrine"
@@ -9874,14 +9874,9 @@
     "tags": [
       "sirtuins",
       "metabolism",
-      "metabolic-fasting",
       "neurodegeneration",
       "mitochondria",
-      "nad-metabolism",
       "inflammation",
-      "mutations",
-      "growth",
-      "neurochemistry",
       "caloric-restriction",
       "cell-proliferation",
       "glucose-metabolism",
@@ -9890,6 +9885,11 @@
       "gene-expression",
       "nicotinamide",
       "dna-repair",
+      "metabolic-fasting",
+      "nad-metabolism",
+      "mutations",
+      "growth",
+      "neurochemistry",
       "nervous-system",
       "digestive",
       "immune-system",
@@ -9939,19 +9939,19 @@
       "sirtuins",
       "cardiovascular",
       "neurodegeneration",
-      "nf-kappab",
       "inflammation",
-      "antioxidants",
-      "angiogenesis",
-      "growth",
       "cardiovascular-disease",
       "glucose-homeostasis",
       "biological-process",
-      "nf-kappab-p65",
       "beta-catenin",
       "hif-1alpha",
       "pgc1-alpha",
       "adiposity",
+      "nf-kappab",
+      "antioxidants",
+      "angiogenesis",
+      "growth",
+      "nf-kappab-p65",
       "ppargamma",
       "nervous-system",
       "immune-system"
@@ -9995,10 +9995,6 @@
     ],
     "tags": [
       "autophagy",
-      "mutations",
-      "growth",
-      "sasp",
-      "sirtuins",
       "chromatin-condensation",
       "base-excision-repair",
       "igf-akt-signaling",
@@ -10008,6 +10004,10 @@
       "chromatin",
       "telomere",
       "ubcs039",
+      "mutations",
+      "growth",
+      "sasp",
+      "sirtuins",
       "cardiovascular"
     ],
     "pages": [
@@ -10050,24 +10050,24 @@
       "Lung Cancer"
     ],
     "tags": [
-      "oxidative-stress",
+      "sirtuins",
       "diagrams-charts",
-      "development",
+      "necroptosis",
       "angiogenesis",
+      "oxidative-stress",
       "inflammation",
+      "breast-cancer",
+      "lung-cancer",
+      "gastric-cancer",
+      "colon-cancer",
+      "ovarian-cancer",
+      "prostate-cancer",
+      "pancreatic-cancer",
       "cell-death",
       "metabolism",
       "metastasis",
       "growth",
-      "sirtuins",
-      "pancreatic-cancer",
-      "prostate-cancer",
-      "gastric-cancer",
-      "ovarian-cancer",
-      "breast-cancer",
-      "colon-cancer",
-      "necroptosis",
-      "lung-cancer"
+      "development"
     ],
     "pages": [
       {
@@ -10077,13 +10077,13 @@
     ],
     "annotations": [],
     "created": "2026-08-19",
-    "updated": "2026-08-21",
+    "updated": "2026-08-25",
     "author": "you",
     "draft": false,
     "translations": {
       "en-US": {
-        "title": "Sirutins in Cancers",
-        "ocr": "Title: Sirutins in Cancers\nSubtitle: Protective effect / Adverse effect / Dual effect"
+        "title": "Sirtuins in Cancers",
+        "ocr": "Sirtuins in Cancers\nProtective effect / Adverse effect / Dual effect\nBreast cancer Initiation\nSIRTs1, SIRTs2, SIRTs3 Oxidative stress ↓\nSIRTs1, SIRTs2 Genomic instability ↓\nLymphatic and distant metastasis\nSIRTs1, SIRTs2, SIRTs3 Proliferation ↑\nSIRTs1, SIRTs6 Invasion ↑\nLung cancer Initiation\nSIRTs1, SIRTs2 Apoptosis ↓\nSIRTs1, SIRTs2 Necroptosis ↓\nMetastasis\nSIRTs1, SIRTs3 Proliferation ↑\nSIRTs1, SIRTs6 Angiogenesis ↑\nSIRTs1, SIRTs2 EMT ↑\nSIRTs1, SIRTs7 Apoptosis ↓\nSIRTs1, SIRTs7 Inflammation ↓\nGastric cancer Initiation\nSIRTs1, SIRTs2 Proliferation ↓\nApoptosis ↓\nSIRTs1, SIRTs4 Invasion ↓\nPancreatic cancer Initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 EMT ↑\nTumors of the digestive tract Initiation\nSIRTs1, SIRTs2 Apoptosis ↓\nSIRTs1, SIRTs3 Colony formation ↑\nColon cancer initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Invasion ↑\nOvarian cancer initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Apoptosis ↑\nSIRTs1, SIRTs7 EMT ↑\nEndometrial cancer initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Invasion ↑\nLiver cancer initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Angiogenesis ↑\nSIRTs1, SIRTs4 Apoptosis ↓\nSIRTs1, SIRTs4 Invasion ↓\nMetastasis\nSIRTs1, SIRTs6 Migration ↑\nSIRTs1, SIRTs7 Inflammation ↓\nCancer Initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Migration ↑\nCancer Initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Invasion ↑\nCancer Initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 EMT ↑\nCancer Initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Migration ↑\nCancer Initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Invasion ↑\nTumor initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 EMT ↑\nSmall cell lung cancer initiation\nSIRTs1, SIRTs2 Proliferation ↑\nSIRTs1, SIRTs6 Migration ↑"
       },
       "zh-TW": {
         "title": "Sirtuin與癌症",
@@ -10117,11 +10117,11 @@
       "anti-inflammatory",
       "tnf-alpha",
       "il-1beta",
-      "tgfbeta",
       "sirt3",
       "nlrp3",
       "sirt1",
       "tgf-beta",
+      "tgfbeta",
       "immune-system"
     ],
     "pages": [
@@ -10197,14 +10197,14 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "lysosome",
       "methylation",
       "cytoplasm",
       "nucleus",
       "pdcd4",
       "smad3",
       "tfeb",
-      "myc"
+      "myc",
+      "lysosome"
     ],
     "pages": [
       {
@@ -10244,13 +10244,13 @@
       "autophagy",
       "diagrams-charts",
       "lysosome",
-      "growth",
       "calcineurin",
       "cytoplasm",
       "nucleus",
       "mtorc1",
       "map4k3",
-      "tfeb"
+      "tfeb",
+      "growth"
     ],
     "pages": [
       {
@@ -10293,13 +10293,13 @@
       "generated-image",
       "diagrams-charts",
       "lysosome",
-      "growth",
       "gene-expression",
       "calcineurin",
       "nucleus",
       "mtorc1",
       "map4k3",
-      "tfeb"
+      "tfeb",
+      "growth"
     ],
     "pages": [
       {
@@ -10369,17 +10369,17 @@
       "autophagy",
       "diagrams-charts",
       "mitochondria",
-      "lysosome",
-      "mitophagy",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
       "pathogen-infection",
       "calcineurin",
       "ragulator",
       "er-stress",
       "mtorc1",
-      "parkin"
+      "parkin",
+      "lysosome",
+      "mitophagy",
+      "metabolism",
+      "metabolic-fasting",
+      "growth"
     ],
     "pages": [
       {
@@ -10422,24 +10422,24 @@
     "tags": [
       "autophagy",
       "diagrams-charts",
-      "mitochondria",
-      "lysosome",
-      "innate-immunity",
-      "leukocytes",
       "mitophagy",
-      "inflammation",
-      "immunology",
-      "neurochemistry",
-      "cardiovascular",
       "mitochondrial-biogenesis",
       "intracellular-signaling",
       "lysosomal-exocytosis",
       "antigen-presentation",
       "lysosomal-biogenesis",
       "lipid-catabolism",
-      "immune-system",
       "macrophages",
       "antigen",
+      "mitochondria",
+      "lysosome",
+      "innate-immunity",
+      "leukocytes",
+      "inflammation",
+      "immunology",
+      "neurochemistry",
+      "cardiovascular",
+      "immune-system",
       "nervous-system",
       "musculoskeletal"
     ],
@@ -10486,14 +10486,7 @@
       "sirtuins",
       "diagrams-charts",
       "inflammation",
-      "mitochondria",
-      "antioxidants",
-      "sod",
-      "redox",
       "metabolism",
-      "microbiome",
-      "cell-death",
-      "growth",
       "anti-inflammatory",
       "mitochondrial-function",
       "glutathione-peroxidase",
@@ -10501,6 +10494,13 @@
       "bifidobacterium",
       "gene-expression",
       "proteobacteria",
+      "mitochondria",
+      "antioxidants",
+      "sod",
+      "redox",
+      "microbiome",
+      "cell-death",
+      "growth",
       "digestive",
       "immune-system",
       "urinary",
@@ -10601,10 +10601,10 @@
     "tags": [
       "epigenetics",
       "notes",
-      "leukocytes",
       "lymphocytes",
       "collagen",
       "b-cells",
+      "leukocytes",
       "immune-system",
       "hematopoietic"
     ],
@@ -10640,13 +10640,13 @@
     ],
     "tags": [
       "eye",
-      "vision",
-      "anatomy",
       "diagrams-charts",
-      "epigenetics",
       "choroid",
       "macula",
       "retina",
+      "vision",
+      "anatomy",
+      "epigenetics",
       "ocular"
     ],
     "pages": [
@@ -10684,16 +10684,16 @@
     ],
     "tags": [
       "eye",
-      "vision",
-      "anatomy",
-      "development",
-      "nad-metabolism",
       "stem-cells",
-      "epigenetics",
       "nicotinamide",
       "activin-a",
       "ipsc",
       "wnt",
+      "vision",
+      "anatomy",
+      "development",
+      "nad-metabolism",
+      "epigenetics",
       "ocular"
     ],
     "pages": [
@@ -10731,15 +10731,15 @@
     ],
     "tags": [
       "eye",
-      "vision",
-      "anatomy",
       "diagrams-charts",
-      "epigenetics",
       "inner-nuclear-layer",
       "outer-nuclear-layer",
       "photoreceptors",
       "choroid",
       "retina",
+      "vision",
+      "anatomy",
+      "epigenetics",
       "ocular"
     ],
     "pages": [
@@ -10778,16 +10778,16 @@
     ],
     "tags": [
       "eye",
-      "vision",
-      "anatomy",
       "diagrams-charts",
-      "epigenetics",
       "retinal-pigment-epithelium",
       "inner-nuclear-layer",
       "outer-nuclear-layer",
       "photoreceptors",
       "choroid",
       "retina",
+      "vision",
+      "anatomy",
+      "epigenetics",
       "ocular"
     ],
     "pages": [
@@ -10823,13 +10823,13 @@
     ],
     "tags": [
       "eye",
-      "vision",
-      "anatomy",
       "diagrams-charts",
-      "epigenetics",
       "retinal-pigment-epithelium",
       "photoreceptors",
       "retina",
+      "vision",
+      "anatomy",
+      "epigenetics",
       "ocular"
     ],
     "pages": [
@@ -10872,9 +10872,6 @@
     "tags": [
       "cancer",
       "diagrams-charts",
-      "neurodegeneration",
-      "pathology",
-      "epigenetics",
       "cellular-reprogramming",
       "partial-reprogramming",
       "disease-modeling",
@@ -10884,6 +10881,9 @@
       "chemotherapy",
       "c-myc",
       "oct4",
+      "neurodegeneration",
+      "pathology",
+      "epigenetics",
       "nervous-system"
     ],
     "pages": [
@@ -10926,19 +10926,19 @@
     "tags": [
       "epigenetics",
       "diagrams-charts",
-      "sasp",
-      "mutations",
       "stem-cells",
-      "development",
       "senescence",
       "telomere-attrition",
-      "oxidative-stress",
       "dna-repair",
       "chromatin",
       "telomere",
       "c-myc",
       "oct4",
       "sox2",
+      "sasp",
+      "mutations",
+      "development",
+      "oxidative-stress",
       "immune-system"
     ],
     "pages": [
