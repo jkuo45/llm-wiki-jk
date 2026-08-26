@@ -5,7 +5,7 @@ import { RAW_NODES, RAW_EDGES, LEGEND, TRACES, GRAPH_META, nodeMap, I18N_COVERAG
 import { state } from './state.js';
 import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
-  applyForces, updateStickyRings, updateZoomBar, renderState,
+  applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
 import { parseHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.js';
@@ -280,6 +280,7 @@ function animate() {
   if (renderState.dirty || controlsChanged) {
     renderer.render(scene, camera);
     labelRenderer.render(scene, camera);
+    minimap.render();
     renderState.dirty = false;
   }
 }

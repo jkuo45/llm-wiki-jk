@@ -702,3 +702,74 @@ export function animateCamera(targetPosition, lookAtTarget) {
   }
   frame();
 }
+
+// ------------------------------------------------------------
+// Minimap — label-free top-down overview (bottom-right)
+// Renders the same scene from an orthographic camera above the graph so the
+// global shape stays visible while navigating. An amber footprint line shows
+// where the main camera sits and what it aims at; it lives on layer 1, which
+// the main camera never sees. DOM labels (CSS2D) are excluded automatically.
+// ------------------------------------------------------------
+export const minimap = (() => {
+  const SIZE = 168;
+  const el = document.createElement('canvas');
+  el.id = 'graph-minimap';
+  container.appendChild(el);
+
+  const miniRenderer = new THREE.WebGLRenderer({ canvas: el, antialias: true, alpha: true });
+  miniRenderer.setSize(SIZE, SIZE, false);
+  miniRenderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+  // North-up ortho view: +x right, -z up on screen.
+  const miniCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, 1, 5000);
+  miniCamera.up.set(0, 0, -1);
+  miniCamera.position.set(0, 1000, 0);
+  miniCamera.lookAt(0, 0, 0);
+  miniCamera.layers.enable(1); // see the indicator
+
+  const indicatorColor = 0xE8A33D;
+  const indicator = new THREE.Group();
+  const camLineGeo = new THREE.BufferGeometry().setFromPoints([
+    new THREE.Vector3(), new THREE.Vector3(),
+  ]);
+  const camLine = new THREE.Line(camLineGeo, new THREE.LineBasicMaterial({ color: indicatorColor }));
+  const targetDot = new THREE.Mesh(
+    new THREE.CircleGeometry(5, 16),
+    new THREE.MeshBasicMaterial({ color: indicatorColor })
+  );
+  targetDot.rotation.x = -Math.PI / 2; // face up
+  indicator.add(camLine, targetDot);
+  indicator.traverse((o) => o.layers.set(1));
+  scene.add(indicator);
+
+  const box = new THREE.Box3();
+  const center = new THREE.Vector3();
+  const sizeV = new THREE.Vector3();
+
+  function render() {
+    box.makeEmpty();
+    for (const m of nodeMeshes) if (m.visible) box.expandByObject(m);
+    if (box.isEmpty()) return;
+    box.getCenter(center);
+    box.getSize(sizeV);
+    // Square-fit the graph bounds with a small margin.
+    const half = Math.max(sizeV.x, sizeV.z) * 0.58 + 20;
+    miniCamera.left = -half; miniCamera.right = half;
+    miniCamera.top = -half; miniCamera.bottom = half;
+    miniCamera.position.set(center.x, 1000, center.z);
+    miniCamera.lookAt(center.x, 0, center.z);
+    miniCamera.updateProjectionMatrix();
+
+    // Camera footprint: line from the main camera's XZ position to its target.
+    const p = camera.position, t = controls.target;
+    camLineGeo.setFromPoints([
+      new THREE.Vector3(p.x, 0, p.z),
+      new THREE.Vector3(t.x, 0, t.z),
+    ]);
+    targetDot.position.set(t.x, 0, t.z);
+
+    miniRenderer.render(scene, miniCamera);
+  }
+
+  return { render };
+})();
