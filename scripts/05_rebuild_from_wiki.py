@@ -11,7 +11,7 @@ every note body and builds a directed graph where:
 
 Both graphs key nodes by norm(label), so the *same entity* gets the identical
 id in the triples graph and the wiki graph, and the two can be joined directly
-(see scripts/05_compare_graphs.py for the diff).
+(see scripts/05_build_combined.py for the diff).
 
 The schema of the emitted wiki-out/wiki-graph.json is byte-identical to
 graphify-out/graph.json (same node/edge attributes + metadata), so the existing
@@ -540,7 +540,7 @@ def main() -> int:
     # --- regenerate the combined (triples + wiki) web dataset ---
     try:
         subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "07_build_combined.py")],
+            [sys.executable, str(ROOT / "scripts" / "05_build_combined.py")],
             cwd=str(ROOT),
             check=True,
             timeout=300,
@@ -548,7 +548,7 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001
         print(
             f"combined build skipped ({e}); run manually: "
-            "uv run --with networkx python3 scripts/07_build_combined.py"
+            "uv run --with networkx python3 scripts/05_build_combined.py"
         )
     return 0
 

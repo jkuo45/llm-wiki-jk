@@ -323,25 +323,25 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "color": {"opacity": max(0.1, min(1.0, conf))},
         })
 
-    (DATA_DIR / "nodes.json").write_text(
+    (DATA_DIR / "triples-nodes.json").write_text(
         json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (DATA_DIR / "edges.json").write_text(
+    (DATA_DIR / "triples-edges.json").write_text(
         json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (DATA_DIR / "legend.json").write_text(
+    (DATA_DIR / "triples-legend.json").write_text(
         json.dumps(legend, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    (DATA_DIR / "node_roles.json").write_text(
+    (DATA_DIR / "triples-node_roles.json").write_text(
         json.dumps(node_roles_doc, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     # Client-facing slice of the role artifact (~1 KB): the full node table
-    # stays in node_roles.json (CLI-only); the web app only needs the rule
-    # catalog, live thresholds, and summary counts to explain role badges.
+    # stays in triples-node_roles.json (CLI-only); the web app only needs the
+    # rule catalog, live thresholds, and summary counts to explain role badges.
     roles_meta = {
         "generated_at": node_roles_doc["generated_at"],
         "graph_build": node_roles_doc["graph_build"],
@@ -349,7 +349,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
         "thresholds": node_roles_doc["thresholds"],
         "summary": node_roles_doc["summary"],
     }
-    (DATA_DIR / "roles-meta.json").write_text(
+    (DATA_DIR / "triples-roles-meta.json").write_text(
         json.dumps(roles_meta, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
@@ -873,14 +873,14 @@ def main() -> int:
     # --- inject graph-level metadata ---
     inject_graph_metadata(GP / "graph.json", graph_meta)
 
-    # --- emit the slim web-only metadata file (graph-meta.json) ---
+    # --- emit the slim web-only metadata file (triples-graph-meta.json) ---
     # Derived from the same graph_meta dict injected into the canonical
     # graphify-out/graph.json, so the frontend's metadata never goes stale.
-    (DATA_DIR / "graph-meta.json").write_text(
+    (DATA_DIR / "triples-graph-meta.json").write_text(
         json.dumps(graph_meta, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    print("Wrote web/data/graph-meta.json")
+    print("Wrote web/data/triples-graph-meta.json")
 
     print(
         f"FINAL: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges, {len(communities)} communities"
