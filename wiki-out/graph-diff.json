@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-27T16:05:53Z",
+  "generated_at": "2026-08-27T16:52:21Z",
   "triples_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/wiki-out/wiki-graph.json",
   "counts": {
-    "triples_nodes": 2624,
+    "triples_nodes": 2629,
     "wiki_nodes": 2995,
-    "shared_nodes": 1510,
-    "wiki_only_nodes": 1485,
-    "triples_only_nodes": 1114,
-    "triples_edges": 3768,
+    "shared_nodes": 1539,
+    "wiki_only_nodes": 1456,
+    "triples_only_nodes": 1090,
+    "triples_edges": 3832,
     "wiki_edges": 34851,
-    "wiki_only_edges": 33273,
-    "triples_only_edges": 2190
+    "wiki_only_edges": 33166,
+    "triples_only_edges": 2147
   },
   "top_wiki_only_nodes": [
     {
@@ -30,19 +30,14 @@
       "degree": 87
     },
     {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
-      "degree": 83
-    },
-    {
       "id": "sting",
       "label": "STING",
       "degree": 83
     },
     {
-      "id": "tgfbeta",
-      "label": "TGFβ",
-      "degree": 75
+      "id": "cell_cycle",
+      "label": "Cell Cycle",
+      "degree": 83
     },
     {
       "id": "macrophage",
@@ -53,6 +48,11 @@
       "id": "ubiquitination",
       "label": "Ubiquitination",
       "degree": 72
+    },
+    {
+      "id": "nmn",
+      "label": "NMN (Nicotinamide Mononucleotide)",
+      "degree": 71
     },
     {
       "id": "rheumatoid_arthritis",
@@ -95,11 +95,6 @@
       "degree": 61
     },
     {
-      "id": "il_1alpha",
-      "label": "IL-1α",
-      "degree": 60
-    },
-    {
       "id": "histone_variant",
       "label": "Histone Variant",
       "degree": 60
@@ -113,67 +108,22 @@
       "id": "unfolded_protein_response",
       "label": "Unfolded Protein Response",
       "degree": 57
+    },
+    {
+      "id": "calcium",
+      "label": "Calcium",
+      "degree": 56
     }
   ],
   "top_triples_only_nodes": [
-    {
-      "id": "nf_b",
-      "label": "NF-κB",
-      "degree": 48
-    },
     {
       "id": "adrenochrome_formation",
       "label": "Adrenochrome formation",
       "degree": 11
     },
     {
-      "id": "tgf",
-      "label": "TGFβ",
-      "degree": 11
-    },
-    {
-      "id": "il_1",
-      "label": "IL-1β",
-      "degree": 9
-    },
-    {
-      "id": "hif_1",
-      "label": "HIF-1α",
-      "degree": 8
-    },
-    {
-      "id": "lxr",
-      "label": "LXRα",
-      "degree": 6
-    },
-    {
-      "id": "ppar",
-      "label": "PPARγ",
-      "degree": 6
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
-      "degree": 4
-    },
-    {
-      "id": "tnf",
-      "label": "TNFα",
-      "degree": 4
-    },
-    {
-      "id": "pgc_1",
-      "label": "PGC-1α",
-      "degree": 4
-    },
-    {
       "id": "jak_stat3",
       "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
@@ -182,24 +132,14 @@
       "degree": 4
     },
     {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
-      "degree": 3
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
     },
     {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
-      "degree": 3
-    },
-    {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
-      "degree": 3
-    },
-    {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
-      "degree": 3
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
     },
     {
       "id": "pi3k_akt",
@@ -212,9 +152,69 @@
       "degree": 3
     },
     {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
+      "degree": 3
+    },
+    {
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
+    },
+    {
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
+      "degree": 3
+    },
+    {
       "id": "dietary_advanced_glycation_end_products",
       "label": "Dietary Advanced Glycation End Products",
       "degree": 3
+    },
+    {
+      "id": "h3k9",
+      "label": "H3K9",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "sirt2_inhibition",
+      "label": "SIRT2 inhibition",
+      "degree": 2
+    },
+    {
+      "id": "diabetic_complications",
+      "label": "diabetic complications",
+      "degree": 2
+    },
+    {
+      "id": "ampk_activation",
+      "label": "AMPK activation",
+      "degree": 2
+    },
+    {
+      "id": "universal_indirect_pan_sirtuin_activator",
+      "label": "Universal indirect pan-sirtuin activator",
+      "degree": 2
+    },
+    {
+      "id": "stress_responses",
+      "label": "stress responses",
+      "degree": 2
+    },
+    {
+      "id": "age_modified_proteins",
+      "label": "AGE-modified proteins",
+      "degree": 2
     }
   ],
   "top_wiki_only_edges": [
@@ -431,13 +431,6 @@
       "weight": 1
     },
     {
-      "source": "warburg_effect",
-      "target": "hif_1",
-      "source_label": "Warburg Effect",
-      "target_label": "HIF-1α",
-      "weight": 1
-    },
-    {
       "source": "vitamin_e",
       "target": "singlet_oxygen",
       "source_label": "Vitamin E",
@@ -498,6 +491,13 @@
       "target": "lymphangiogenesis",
       "source_label": "VEGFc",
       "target_label": "Lymphangiogenesis",
+      "weight": 1
+    },
+    {
+      "source": "vcam_1",
+      "target": "vla_4_alpha4beta1_integrin_on_leukocytes",
+      "source_label": "VCAM-1",
+      "target_label": "VLA-4 (alpha4beta1 integrin) on leukocytes",
       "weight": 1
     }
   ]
