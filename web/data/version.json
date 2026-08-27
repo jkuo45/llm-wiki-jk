@@ -1,8 +1,14 @@
 {
-  "generated": "2026-08-27 16:09:05",
-  "hash": "4c14a58a791fef18",
+  "generated": "2026-08-27 16:28:22",
+  "hash": "f12455e527638e0f",
   "files": [
     "articles.json",
+    "combined-edges.json",
+    "combined-graph-meta.json",
+    "combined-legend.json",
+    "combined-node_roles.json",
+    "combined-nodes.json",
+    "combined-roles-meta.json",
     "edges.json",
     "graph-meta.json",
     "i18n-coverage.json",

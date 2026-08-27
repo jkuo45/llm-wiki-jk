@@ -113,6 +113,19 @@ async function loadWikiData() {
   return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
 }
 
+// Backend-generated combined dataset (scripts/07_build_combined.py). Loaded
+// only in combined mode; the runtime merge below is the fallback when the
+// combined-*.json files are absent.
+async function loadCombinedData() {
+  const [N, E, L, M] = await Promise.all([
+    getJSON("combined-nodes.json", "combined-nodes"),
+    getJSON("combined-edges.json", "combined-edges"),
+    getJSON("combined-legend.json", "combined-legend"),
+    getJSON("combined-graph-meta.json", "combined-graph-meta"),
+  ]);
+  return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
+}
+
 // Union of two datasets by id (nodes) / by endpoint pair (edges). Shared nodes
 // keep triples attributes (description/community/color) but gain in_triples /
 // in_wiki flags; shared edges gain a `sources` list. Wiki community cids are
@@ -171,9 +184,16 @@ function mergeCombined(tN, tE, tL, tM, wiki) {
   return { nodes, edges, legend, meta: tM };
 }
 
-function pickDataset(mode, tN, tE, tL, tM, wiki) {
+function pickDataset(mode, tN, tE, tL, tM, wiki, combined) {
   if (mode === "wiki") return { nodes: wiki.nodes, edges: wiki.edges, legend: wiki.legend, meta: wiki.meta };
-  if (mode === "combined") return mergeCombined(tN, tE, tL, tM, wiki);
+  if (mode === "combined") {
+    // Prefer the backend-generated combined dataset (scripts/07_build_combined.py);
+    // fall back to an in-browser merge if it is not available yet.
+    if (combined && combined.nodes.length) {
+      return { nodes: combined.nodes, edges: combined.edges, legend: combined.legend, meta: combined.meta };
+    }
+    return mergeCombined(tN, tE, tL, tM, wiki);
+  }
   return { nodes: tN, edges: tE, legend: tL, meta: tM };
 }
 
@@ -211,7 +231,8 @@ PREDICATES = loaded.PREDICATES;
 // ---------------------------------------------------------------------------
 const _tN = RAW_NODES, _tE = RAW_EDGES, _tL = LEGEND, _tM = GRAPH_META;
 const _wiki = await loadWikiData();
-const _active = pickDataset(DATASET_MODE, _tN, _tE, _tL, _tM, _wiki);
+const _combined = DATASET_MODE === "combined" ? await loadCombinedData() : { nodes: [], edges: [], legend: [], meta: {} };
+const _active = pickDataset(DATASET_MODE, _tN, _tE, _tL, _tM, _wiki, _combined);
 RAW_NODES = _active.nodes;
 RAW_EDGES = _active.edges;
 LEGEND = _active.legend;
@@ -235,8 +256,11 @@ loadCacheTag().then(() => {
 let ROLES_META = null;
 export async function loadRolesMeta() {
   if (ROLES_META) return ROLES_META;
-  // Role Explorer is mode-aware: wiki/combined modes use the wiki role artifact.
-  const name = DATASET_MODE === 'triples' ? 'roles-meta.json' : 'wiki-roles-meta.json';
+  // Role Explorer is mode-aware: wiki -> wiki roles, combined -> combined roles
+  // (both emitted by the build scripts), triples -> canonical roles.
+  const name = DATASET_MODE === 'triples' ? 'roles-meta.json'
+    : DATASET_MODE === 'wiki' ? 'wiki-roles-meta.json'
+    : 'combined-roles-meta.json';
   ROLES_META = (await getJSON(name, 'roles-meta')) || {};
   return ROLES_META;
 }

@@ -536,6 +536,20 @@ def main() -> int:
             f"Orphan links (unresolved targets): {len(orphan_counts)} "
             f"({int(sum(orphan_counts.values()))} total) -- see orphan_links.json"
         )
+
+    # --- regenerate the combined (triples + wiki) web dataset ---
+    try:
+        subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "07_build_combined.py")],
+            cwd=str(ROOT),
+            check=True,
+            timeout=300,
+        )
+    except Exception as e:  # noqa: BLE001
+        print(
+            f"combined build skipped ({e}); run manually: "
+            "uv run --with networkx python3 scripts/07_build_combined.py"
+        )
     return 0
 
 
