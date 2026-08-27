@@ -1,5 +1,5 @@
 {
-  "generated": "26_AUG_2026 09:49 PM PDT",
+  "generated": "27_AUG_2026 06:49 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,40 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Comparative Review — Ferroptosis & Cancer vs. Apoptosis & Cancer",
+          "description": "Head-to-head comparison of how cancer evades and exploits ferroptotic versus apoptotic cell death, synthesized from wiki notes (Ferroptosis, Apoptosis, Cancer, apoptosis-in-cancer documents) with general-knowledge supplements.",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "ferroptosis",
+            "apoptosis",
+            "cancer",
+            "cell-death"
+          ],
+          "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+          "path": "tasks/en-US/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "比較綜述——鐵死亡與癌症 vs. 細胞凋亡與癌症",
+          "description": "就癌症如何規避並利用鐵死亡與細胞凋亡兩種死亡程序進行對照比較，內容綜整維基筆記（Ferroptosis、Apoptosis、Cancer 及調控凋亡相關文獻筆記），並輔以一般知識補充。",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "ferroptosis",
+            "apoptosis",
+            "cancer",
+            "cell-death"
+          ],
+          "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026_zh-TW.md"
         }
       }
     },

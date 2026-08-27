@@ -143,6 +143,11 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
   function escRe(s){
     return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
+  /* The registry generator can emit array-valued fields when a source
+     frontmatter scalar folds onto continuation lines (its simple YAML
+     parser returns them as lists) — flatten non-strings so downstream
+     .replace() calls never crash. */
+  const asStr = (v) => Array.isArray(v) ? v.join(' ') : String(v ?? '');
   /* Escape each split part so matches are highlighted on raw text (never
      inside HTML entities), then wrap matched parts in <mark>. */
   function highlight(text, tokens){
@@ -194,13 +199,13 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
           const created = en.created || zh?.created || '';
           return {
             id: t.id,
-            display: en.title,
+            display: asStr(en.title),
             starred: t.starred === true,
-            desc: en.description || '',
+            desc: asStr(en.description || ''),
             enPath: en.path,
-            file: en.filename || decodeURIComponent((en.path || '').split('/').pop()),
+            file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
             zhPath: zh ? zh.path : en.path,
-            zhTitle: zh ? zh.title : '',
+            zhTitle: zh ? asStr(zh.title) : '',
             created,
             age: relAge(created),
             bucket: t.starred === true ? 0 : bucket(created),

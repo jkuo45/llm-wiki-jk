@@ -231,6 +231,11 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
     ['Created this month', '本月建立', 'recent'],
     ['Older', '較早', 'old'],
   ];
+  /* The registry generator can emit array-valued fields when a source
+     frontmatter scalar folds onto continuation lines (its simple YAML
+     parser returns them as lists) — flatten non-strings so downstream
+     .replace() calls never crash. */
+  const asStr = (v) => Array.isArray(v) ? v.join(' ') : String(v ?? '');
 
   fetch('../data/articles.json')
     .then(r => r.json())
@@ -243,10 +248,10 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
           return {
             id: a.id,
             _idx: ai,
-            display: en.title,
+            display: asStr(en.title),
             starred: a.starred === true,
-            zhTitle: zh ? zh.title : '',
-            desc: en.description || '',
+            zhTitle: zh ? asStr(zh.title) : '',
+            desc: asStr(en.description || ''),
             enPath: en.path.replace(/^pages\//, ''),
             zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
             created: en.created || '',

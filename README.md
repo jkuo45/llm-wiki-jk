@@ -251,8 +251,9 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (83 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (84 total)</strong> — click to expand</summary>
 
+- [task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md) [[src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md|wiki]] (27_AUG_2026 06:46 AM PDT)
 - [task_output_graph_structure_conclusions_26_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md) [[src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md|wiki]] (26_AUG_2026 09:44 PM PDT)
 - [task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md) [[src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md|wiki]] (26_AUG_2026 09:44 PM PDT)
 - [task_output_node_analysis_biology_16_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md) [[src/tasks/task_output_node_analysis_biology_16_AUG_2026.md|wiki]] (26_AUG_2026 03:38 PM PDT)
