@@ -3,11 +3,9 @@
   "userIgnoreFilters": [
     "/.*README\\.md/",
     "/.*AGENTS\\.md/",
-    "/.*GEMINI\\.md/",
     "/.*index\\.md/",
     "/(^|\\/)(\\_document_).*/",
-    "/^tasks//",
-    "/^prompts//"
+    "/^tasks//"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
