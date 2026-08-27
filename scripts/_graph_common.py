@@ -241,20 +241,20 @@ def export_roles_json(
     source_graph: str = "",
 ) -> None:
     """Emit web/data-style node_roles.json (per-node biological roles) to
-    `out_path`. Uses scripts/node_roles_lib as the single source of truth, so
+    `out_path`. Uses scripts/_node_roles_lib as the single source of truth, so
     the classifier stays consistent with scripts/04_role_query.py."""
-    import node_roles_lib
+    import _node_roles_lib
 
     nodes = graph["nodes"]
-    fps = [node_roles_lib._fingerprint(n) for n in nodes]
-    thresholds = node_roles_lib.compute_thresholds(fps)
+    fps = [_node_roles_lib._fingerprint(n) for n in nodes]
+    thresholds = _node_roles_lib.compute_thresholds(fps)
 
     node_roles: dict[str, list[str]] = {}
-    role_counts = {name: 0 for name, _ in node_roles_lib.ROLE_DEFS}
+    role_counts = {name: 0 for name, _ in _node_roles_lib.ROLE_DEFS}
     multi = 0
     role_records = []
     for n, fp in zip(nodes, fps):
-        roles = node_roles_lib.classify(fp, thresholds)
+        roles = _node_roles_lib.classify(fp, thresholds)
         nid = n.get("id")
         node_roles[nid] = roles
         for r in roles:
@@ -287,7 +287,7 @@ def export_roles_json(
         "source_graph": source_graph,
         "rules": {
             name: {"definition": expr, "operational": True}
-            for name, expr in node_roles_lib.ROLE_DEFS
+            for name, expr in _node_roles_lib.ROLE_DEFS
         },
         "thresholds": {k: round(v, 10) for k, v in thresholds.items()},
         "summary": {

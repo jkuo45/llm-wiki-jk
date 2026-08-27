@@ -194,15 +194,15 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     # --- Classify per-node biological roles ---
     # Roles are derived from the same static fingerprint already on each node.
-    # The classifier lives in scripts/node_roles_lib.py (single source of truth,
+    # The classifier lives in scripts/_node_roles_lib.py (single source of truth,
     # shared with scripts/04_role_query.py) and computes all thresholds from the
     # live graph so it stays calibrated as the build evolves. The result is
     # baked into each node object (nodes.json) and also emitted as the standalone
     # web/data/node_roles.json artifact.
-    import node_roles_lib
+    import _node_roles_lib
 
-    fps = [node_roles_lib._fingerprint(n) for n in nodes]
-    thresholds = node_roles_lib.compute_thresholds(fps)
+    fps = [_node_roles_lib._fingerprint(n) for n in nodes]
+    thresholds = _node_roles_lib.compute_thresholds(fps)
     _pr_p90 = thresholds["pagerank_p90"]
     _pr_p95 = thresholds["pagerank_p95"]
     _out_p90 = thresholds["out_degree_p90"]
@@ -213,10 +213,10 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     # node_roles.json document in one pass.
     node_roles: dict[str, list[str]] = {}
     role_records = []
-    role_counts = {name: 0 for name, _ in node_roles_lib.ROLE_DEFS}
+    role_counts = {name: 0 for name, _ in _node_roles_lib.ROLE_DEFS}
     multi = 0
     for n, fp in zip(nodes, fps):
-        roles = node_roles_lib.classify(fp, thresholds)
+        roles = _node_roles_lib.classify(fp, thresholds)
         node_roles[n["id"]] = roles
         for r in roles:
             role_counts[r] += 1
@@ -260,7 +260,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
         "graph_build": graph.get("built_at_commit", ""),
         "rules": {
             name: {"definition": expr, "operational": True}
-            for name, expr in node_roles_lib.ROLE_DEFS
+            for name, expr in _node_roles_lib.ROLE_DEFS
         },
         "thresholds": {k: round(v, 10) for k, v in thresholds.items()},
         "summary": {

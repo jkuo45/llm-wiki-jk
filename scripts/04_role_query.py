@@ -10,7 +10,7 @@ Reads the role artifact emitted by scripts/03_rebuild_from_triples.py
           artifact's own embedded metrics and compare against the stored
           values (catches stale thresholds after a graph update).
        b. Consistency     : re-run the shared classifier
-          (scripts/node_roles_lib.py) over every node's fingerprint and
+          (scripts/_node_roles_lib.py) over every node's fingerprint and
           require stored roles to match exactly (catches classifier /
           artifact divergence).
        c. Semantic anchors: a handful of literature-anchored nodes are
@@ -38,7 +38,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import node_roles_lib as nrl
+import _node_roles_lib as nrl
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROLES = ROOT / "web" / "data" / "node_roles.json"
@@ -165,7 +165,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
     if mismatches:
         failures.append("classifier mismatch")
         print(f"   FAIL — {len(mismatches)} node(s) disagree with the "
-              f"classifier in scripts/node_roles_lib.py:")
+              f"classifier in scripts/_node_roles_lib.py:")
         for label, have, want in mismatches[:6]:
             print(f"    {label}: stored={have} recomputed={want}")
     else:
@@ -210,7 +210,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
     if failures:
         print(f"VALIDATION FAILED ({'; '.join(failures)}). If this follows a "
               f"genuine graph update, review whether the rule catalog in "
-              f"scripts/node_roles_lib.py still encodes the intended biology.")
+              f"scripts/_node_roles_lib.py still encodes the intended biology.")
         return 1
     print(f"All checks passed — artifact is internally consistent and "
           f"biologically anchored.")
