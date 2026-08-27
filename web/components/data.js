@@ -94,14 +94,26 @@ export const DATASET_MODE = getMode();
 function getMode() {
   const params = new URLSearchParams(location.hash.replace(/^#\/?/, ""));
   const m = params.get("mode");
-  return m === "wiki" || m === "combined" ? m : "triples";
+  return m === "wiki" || m === "triples" ? m : "combined"; // combined is default
 }
 
 export const DATASET_LABELS = {
   triples: "Triples graph (extracted relations)",
   wiki: "Wiki graph (Obsidian wikilinks)",
-  combined: "Combined (triples + wiki)",
+  combined: "Combined (triples + wiki)", // default dataset
 };
+
+// Source-specific datasets (triples keeps the descriptive `triples-*` files;
+// the canonical nodes.json/edges.json/... is the combined dataset).
+async function loadTriplesData() {
+  const [N, E, L, M] = await Promise.all([
+    getJSON("triples-nodes.json", "triples-nodes"),
+    getJSON("triples-edges.json", "triples-edges"),
+    getJSON("triples-legend.json", "triples-legend"),
+    getJSON("triples-graph-meta.json", "triples-graph-meta"),
+  ]);
+  return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
+}
 
 async function loadWikiData() {
   const [N, E, L, M] = await Promise.all([
@@ -113,89 +125,10 @@ async function loadWikiData() {
   return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
 }
 
-// Backend-generated combined dataset (scripts/07_build_combined.py). Loaded
-// only in combined mode; the runtime merge below is the fallback when the
-// combined-*.json files are absent.
-async function loadCombinedData() {
-  const [N, E, L, M] = await Promise.all([
-    getJSON("combined-nodes.json", "combined-nodes"),
-    getJSON("combined-edges.json", "combined-edges"),
-    getJSON("combined-legend.json", "combined-legend"),
-    getJSON("combined-graph-meta.json", "combined-graph-meta"),
-  ]);
-  return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
-}
-
-// Union of two datasets by id (nodes) / by endpoint pair (edges). Shared nodes
-// keep triples attributes (description/community/color) but gain in_triples /
-// in_wiki flags; shared edges gain a `sources` list. Wiki community cids are
-// offset by +1000 so the combined legend never collides with triples cids.
-function mergeCombined(tN, tE, tL, tM, wiki) {
-  // Offset wiki community ids past the max triples cid so node.community stays
-  // consistent with the combined legend (no collisions, wiki nodes cluster).
-  const maxCid = tL.reduce((m, c) => Math.max(m, c.cid), -1);
-  const off = maxCid + 1;
-
-  const nmap = new Map();
-  const nodes = [];
-  const pushNode = (n, src) => {
-    const ex = nmap.get(n.id);
-    if (ex) {
-      ex.in_triples = ex.in_triples || src === "triples";
-      ex.in_wiki = ex.in_wiki || src === "wiki";
-      ex.graph_sources = [...new Set([...(ex.graph_sources || []), src])];
-      if (src === "triples") {
-        if (!ex.description) ex.description = n.description;
-        ex.community = n.community; // prefer triples community for shared nodes
-        ex.community_name = n.community_name;
-        ex.color = n.color;
-      }
-      return;
-    }
-    const nn = Object.assign({}, n, {
-      in_triples: src === "triples", in_wiki: src === "wiki", graph_sources: [src],
-    });
-    if (src === "wiki") nn.community = (nn.community ?? 0) + off; // match offset legend
-    nmap.set(n.id, nn);
-    nodes.push(nn);
-  };
-  tN.forEach((n) => pushNode(n, "triples"));
-  wiki.nodes.forEach((n) => pushNode(n, "wiki"));
-
-  const emap = new Map();
-  const edges = [];
-  const pushEdge = (e, src) => {
-    const k = e.from + "|" + e.to;
-    const ex = emap.get(k);
-    if (ex) {
-      ex.sources = [...new Set([...(ex.sources || []), src])];
-      if (src === "wiki" && (ex.label === "links_to" || !ex.label)) ex.label = e.label;
-      return;
-    }
-    emap.set(k, Object.assign({}, e, { sources: [src] }));
-    edges.push(emap.get(k));
-  };
-  tE.forEach((e) => pushEdge(e, "triples"));
-  wiki.edges.forEach((e) => pushEdge(e, "wiki"));
-
-  const legend = tL.map((c) => Object.assign({}, c));
-  wiki.legend.forEach((c) => legend.push(Object.assign({}, c, { cid: c.cid + off, wiki: true })));
-
-  return { nodes, edges, legend, meta: tM };
-}
-
-function pickDataset(mode, tN, tE, tL, tM, wiki, combined) {
-  if (mode === "wiki") return { nodes: wiki.nodes, edges: wiki.edges, legend: wiki.legend, meta: wiki.meta };
-  if (mode === "combined") {
-    // Prefer the backend-generated combined dataset (scripts/07_build_combined.py);
-    // fall back to an in-browser merge if it is not available yet.
-    if (combined && combined.nodes.length) {
-      return { nodes: combined.nodes, edges: combined.edges, legend: combined.legend, meta: combined.meta };
-    }
-    return mergeCombined(tN, tE, tL, tM, wiki);
-  }
-  return { nodes: tN, edges: tE, legend: tL, meta: tM };
-}
+// The combined dataset is now the CANONICAL nodes.json / edges.json /
+// legend.json / graph-meta.json produced by scripts/05_build_combined.py. It
+// is loaded on the critical path for the default "combined" mode; the source
+// datasets (triples-* / wiki-*) are loaded only when that mode is selected.
 
 // Live bindings: importers see reassigned values because they reference the
 // exported name directly (no destructuring-into-const at their top level).
@@ -229,10 +162,16 @@ PREDICATES = loaded.PREDICATES;
 // derived lookup structures below are built, so nodeMap / adjacency always
 // describe the active dataset (and core.js builds the scene from them).
 // ---------------------------------------------------------------------------
-const _tN = RAW_NODES, _tE = RAW_EDGES, _tL = LEGEND, _tM = GRAPH_META;
-const _wiki = await loadWikiData();
-const _combined = DATASET_MODE === "combined" ? await loadCombinedData() : { nodes: [], edges: [], legend: [], meta: {} };
-const _active = pickDataset(DATASET_MODE, _tN, _tE, _tL, _tM, _wiki, _combined);
+let _active;
+if (DATASET_MODE === "wiki") {
+  _active = await loadWikiData();
+} else if (DATASET_MODE === "triples") {
+  _active = await loadTriplesData();
+} else {
+  // combined (the default): the critical-path load (nodes.json) IS the
+  // backend-generated combined dataset; nothing more to fetch.
+  _active = { nodes: RAW_NODES, edges: RAW_EDGES, legend: LEGEND, meta: GRAPH_META };
+}
 RAW_NODES = _active.nodes;
 RAW_EDGES = _active.edges;
 LEGEND = _active.legend;
@@ -256,11 +195,11 @@ loadCacheTag().then(() => {
 let ROLES_META = null;
 export async function loadRolesMeta() {
   if (ROLES_META) return ROLES_META;
-  // Role Explorer is mode-aware: wiki -> wiki roles, combined -> combined roles
-  // (both emitted by the build scripts), triples -> canonical roles.
-  const name = DATASET_MODE === 'triples' ? 'roles-meta.json'
+  // Role Explorer is mode-aware: triples -> triples roles, wiki -> wiki roles,
+  // combined (default) -> canonical roles.
+  const name = DATASET_MODE === 'triples' ? 'triples-roles-meta.json'
     : DATASET_MODE === 'wiki' ? 'wiki-roles-meta.json'
-    : 'combined-roles-meta.json';
+    : 'roles-meta.json';
   ROLES_META = (await getJSON(name, 'roles-meta')) || {};
   return ROLES_META;
 }
