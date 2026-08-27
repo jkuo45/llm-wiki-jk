@@ -25,66 +25,69 @@
 ## 📝 updates
 
 > [!NOTE]
-> 
+>
 > **Sirtuins, Cellular Senescence, `task_output`**:
+>
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 > - [Sirtuins - Biological Relevance](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|wiki]]
-> 
+>
 > **Graphify Rebuild From `_triples.json`**:
-> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/data/` (`nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). Note: `web/data/graph.json` has been retired — the frontend reads `nodes.json`/`edges.json`/`graph-meta.json` instead, and the backend reads the canonical `graphify-out/graph.json` directly, so there is a single source of truth (no duplicate copy to keep in sync). Web-root files (`index.html`, `components/`, `pages/`, `llms.txt`, `robots.txt`, `sitemap.xml`) are hand-maintained/committed, and `web/data/` also holds the hand-maintained `query.json`/`translations-zh-TW.json`/`articles.json` — all untouched by this script (it writes only under `graphify-out/` and `web/data/`). Entity summaries for node tooltips/modals come from each node's `description` field, carried into `nodes.json` from `graphify-out/graph.json` (`wiki-context.json` retired). Run with the graphify python: `python3 scripts/03_rebuild_from_triples.py`.  
-> 
+>
+> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/data/` (`nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). Note: `web/data/graph.json` has been retired — the frontend reads `nodes.json`/`edges.json`/`graph-meta.json` instead, and the backend reads the canonical `graphify-out/graph.json` directly, so there is a single source of truth (no duplicate copy to keep in sync).
 
 ---
+
 ### 📌 notable:
+
 `from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
 
 - 📝 Sirtuins tumor metabolism & therapeutics task output:
-    - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-        - [https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
-        - Synthesis of the pleiotropic roles of SIRT1–SIRT7 in tumor cell metabolism (glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis), the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents (STAC activators, SIRT1/2 inhibitors, SIRT3/SIRT6 activators, NAD⁺ precursors NMN/NR, CD38 inhibition) with development stage and indications.
-        - 🀄️ (zh-TW): 綜述七種去乙醯酶（SIRT1–SIRT7）在腫瘤細胞代謝中的多效性角色（糖解/Warburg效應、麩醯胺酸代謝/TCA回補、ROS/氧化還原、脂質恆定）、各成員雙重且依情境而定的腫瘤抑制與致癌行為，以及現有去乙醯酶標靶治療藥物比較表（STAC激活劑、SIRT1/2抑制劑、SIRT3/SIRT6激活劑、NAD⁺前驅物NMN/NR、CD38抑制），並註明開發階段與適應症。
+  - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
+    - [https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
+    - Synthesis of the pleiotropic roles of SIRT1–SIRT7 in tumor cell metabolism (glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis), the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents (STAC activators, SIRT1/2 inhibitors, SIRT3/SIRT6 activators, NAD⁺ precursors NMN/NR, CD38 inhibition) with development stage and indications.
+    - 🀄️ (zh-TW): 綜述七種去乙醯酶（SIRT1–SIRT7）在腫瘤細胞代謝中的多效性角色（糖解/Warburg效應、麩醯胺酸代謝/TCA回補、ROS/氧化還原、脂質恆定）、各成員雙重且依情境而定的腫瘤抑制與致癌行為，以及現有去乙醯酶標靶治療藥物比較表（STAC激活劑、SIRT1/2抑制劑、SIRT3/SIRT6激活劑、NAD⁺前驅物NMN/NR、CD38抑制），並註明開發階段與適應症。
 - 📝 Sirtuins disease complications task output:
-    - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-        - [https://graph.johnnykuo.com/pages/sirtuins_disease_complications](https://graph.johnnykuo.com/pages/sirtuins_disease_complications) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-        - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
-        - 🀄️ (zh-TW): 從去乙醯酶綜述（s41392-022-01257-8）整理的逐SIRT疾病全景——每個去乙醯酶（SIRT1–SIRT7）一個章節，列出其牽涉的每一種疾病/併發症、所扮演角色（保護性/有害性/雙重性）、表現變化與機制。
-    - [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
-        - Complication-by-complication excerpt compilation from the same review — organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic/biomarker value, and their mechanistic role in each condition.
-        - 🀄️ (zh-TW): 同一篇綜述的逐併發症彙編——依疾病系統與併發症分類，顯示各SIRT的上調/下調情形、其預後/生物標記價值，以及各疾病中的機制角色。
+  - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
+    - [https://graph.johnnykuo.com/pages/sirtuins_disease_complications](https://graph.johnnykuo.com/pages/sirtuins_disease_complications) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
+    - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
+    - 🀄️ (zh-TW): 從去乙醯酶綜述（s41392-022-01257-8）整理的逐SIRT疾病全景——每個去乙醯酶（SIRT1–SIRT7）一個章節，列出其牽涉的每一種疾病/併發症、所扮演角色（保護性/有害性/雙重性）、表現變化與機制。
+  - [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
+    - Complication-by-complication excerpt compilation from the same review — organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic/biomarker value, and their mechanistic role in each condition.
+    - 🀄️ (zh-TW): 同一篇綜述的逐併發症彙編——依疾病系統與併發症分類，顯示各SIRT的上調/下調情形、其預後/生物標記價值，以及各疾病中的機制角色。
 - ℹ️ Caloric Restriction/Spermidine/Rapamycin (trace):
-	- [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[task_output_cr_vs_spermidine_autophagy_15_July_2026|wiki]] [[task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW|wiki(zh-TW)]]
-		- Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
-		- 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
+  - [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[task_output_cr_vs_spermidine_autophagy_15_July_2026|wiki]] [[task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW|wiki(zh-TW)]]
+    - Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
+    - 🀄️ (zh-TW): CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤（CR+雷帕黴素、CR+亞精胺、三聯組合與運動）。
 - 🔎 Graphify queries: path, explain, trace:
-    - [https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-	- [https://graph.johnnykuo.com/](https://graph.johnnykuo.com/)
+  - [https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+  - [https://graph.johnnykuo.com/](https://graph.johnnykuo.com/)
     - [https://api.johnnykuo.com/v1/health](https://api.johnnykuo.com/v1/health)
     - 🔬 Explain (`graphify explain "Entity"`): surfaces a single entity's context - Use to inspect one gene/protein/disease node and understand its immediate biological environment.
     - 🛤️ Path (`graphify path "A" "B"`): traces the explicit hop-by-hop chain between two entities. Use to see how distant concepts connect, e.g., from a receptor/signaling node down to a downstream metabolic or disease node.
     - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.
     - 🀄️ (zh-TW): 三種知識圖譜查詢方式：Explain（解釋單一實體的來源位置、連結與社群）；Path（追蹤兩實體間一步步的關聯鏈）；Query/Trace（以自然語言或BFS檢索符合概念的相關節點子圖）。
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
-    - [MRR - mitohormetic window biomarkers](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md)[[task_output_mitohormetic_window_13_JUL_2026|wiki]]
-    - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
-    - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
-    - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
-    - 🀄️ (zh-TW): 目前尚無臨床驗證的比率檢測方法；SIRT3/SIRT4蛋白僅限研究環境以西方墨點法或ELISA測定，替代性指標（MnSOD乙醯化、MitoSOX、8-OHdG）可間接反映但尚未標準化，新興非侵入性替代指標包括循環游離粒線體DNA與血漿乙醯肉鹼圖譜。
+  - [MRR - mitohormetic window biomarkers](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md)[[task_output_mitohormetic_window_13_JUL_2026|wiki]]
+  - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
+  - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
+  - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
+  - 🀄️ (zh-TW): 目前尚無臨床驗證的比率檢測方法；SIRT3/SIRT4蛋白僅限研究環境以西方墨點法或ELISA測定，替代性指標（MnSOD乙醯化、MitoSOX、8-OHdG）可間接反映但尚未標準化，新興非侵入性替代指標包括循環游離粒線體DNA與血漿乙醯肉鹼圖譜。
 - 📚 [task_output_autophagy_and_cancer_13_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md) [[task_output_autophagy_and_cancer_13_JUL_2026|wiki]]
-    - Examines autophagy's dual role during cancer chemotherapy: primarily pro-survival in established tumours (shielding cancer cells from metabolic stress and treatment), yet context-dependent with emerging evidence for tumor-suppressive and treatment-enhancing roles.
-    - 🀄️ (zh-TW): 探討自噬在癌症化療中的雙重角色——主要為已建立腫瘤的存活機制（保護癌細胞免受代謝壓力與治療損傷），但具情境依賴性，新興證據顯示其亦具腫瘤抑制與治療增強作用。
+  - Examines autophagy's dual role during cancer chemotherapy: primarily pro-survival in established tumours (shielding cancer cells from metabolic stress and treatment), yet context-dependent with emerging evidence for tumor-suppressive and treatment-enhancing roles.
+  - 🀄️ (zh-TW): 探討自噬在癌症化療中的雙重角色——主要為已建立腫瘤的存活機制（保護癌細胞免受代謝壓力與治療損傷），但具情境依賴性，新興證據顯示其亦具腫瘤抑制與治療增強作用。
 - 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
-    - Comprehensive review of the seven mammalian sirtuins (SIRT1–7), NAD⁺-dependent deacetylases regulating inflammation, metabolism, oxidative stress, and apoptosis, with roles in cancer, CVD, and other diseases; surveys SIRT modulators in clinical trials.
-    - 🀄️ (zh-TW): 綜述七種哺乳動物去乙醯酶（SIRT1–7），為NAD⁺依賴性酵素，調控發炎、代謝、氧化壓力與細胞凋亡，在癌症、心血管疾病等病理中扮演角色，並回顧SIRT調節劑的臨床試驗。
+  - Comprehensive review of the seven mammalian sirtuins (SIRT1–7), NAD⁺-dependent deacetylases regulating inflammation, metabolism, oxidative stress, and apoptosis, with roles in cancer, CVD, and other diseases; surveys SIRT modulators in clinical trials.
+  - 🀄️ (zh-TW): 綜述七種哺乳動物去乙醯酶（SIRT1–7），為NAD⁺依賴性酵素，調控發炎、代謝、氧化壓力與細胞凋亡，在癌症、心血管疾病等病理中扮演角色，並回顧SIRT調節劑的臨床試驗。
 - 💊 [Nicotinamide Riboside — Current State of Research](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|wiki]]
-    - Reviews NR as an NAD⁺ precursor for treating metabolic, cardiovascular, and neurodegenerative disorders, covering bioavailability, safety, and potential against SARS-CoV-2.
-    - 🀄️ (zh-TW): 探討菸醯胺核醣苷（NR）作為NAD⁺前驅物，用於治療代謝、心血管及神經退化性疾病，涵蓋生物利用度、安全性及對抗SARS-CoV-2的潛力。
+  - Reviews NR as an NAD⁺ precursor for treating metabolic, cardiovascular, and neurodegenerative disorders, covering bioavailability, safety, and potential against SARS-CoV-2.
+  - 🀄️ (zh-TW): 探討菸醯胺核醣苷（NR）作為NAD⁺前驅物，用於治療代謝、心血管及神經退化性疾病，涵蓋生物利用度、安全性及對抗SARS-CoV-2的潛力。
 - ⚡ [Oxidative Stress: Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[_document_ - Oxidative Stress Harms and Benefits for Human Health|wiki]]
-    - Describes ROS as a double-edged sword: physiological roles in signaling/immunity vs. pathological roles in cancer, diabetes, and CVD; discusses therapeutic exploitation of oxidative stress.
-    - 🀄️ (zh-TW): 闡述活性氧（ROS）的雙面性——在訊息傳遞與免疫中的生理角色，與在癌症、糖尿病、心血管疾病中的病理作用，並討論氧化壓力的治療性應用。
+  - Describes ROS as a double-edged sword: physiological roles in signaling/immunity vs. pathological roles in cancer, diabetes, and CVD; discusses therapeutic exploitation of oxidative stress.
+  - 🀄️ (zh-TW): 闡述活性氧（ROS）的雙面性——在訊息傳遞與免疫中的生理角色，與在癌症、糖尿病、心血管疾病中的病理作用，並討論氧化壓力的治療性應用。
 - 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|wiki]]
-    - Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
-    - 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
+  - Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
+  - 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
 
 ---
 
@@ -93,24 +96,24 @@
 `from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
 
 - example: suggested schedule (Resveratrol, and Creatine)
-	[resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol_en-US|wiki]]
-	| Time   | Meal                         | Supplement             |
-	| ------ | ---------------------------- | ---------------------- |
-	| Lunch  | Chicken soup + rice          | Creatine 5 g           |
-	| Dinner | Butter chicken + garlic naan | Resveratrol 150–500 mg |
+  [resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol_en-US|wiki]]
+  | Time | Meal | Supplement |
+  | ------ | ---------------------------- | ---------------------- |
+  | Lunch | Chicken soup + rice | Creatine 5 g |
+  | Dinner | Butter chicken + garlic naan | Resveratrol 150–500 mg |
 
 - 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[_document_ - Creatine in Health and Disease|wiki]]
-	- Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
-	- 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
+  - Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
+  - 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
 - 🍇 [Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/_link/Resveratrol.md) [[Resveratrol|wiki]] (therapeutic levels, calculation):
-	- Polyphenolic stilbene and prototypical SIRT1 activator; therapeutic dose (500 mg) requires ~263 L of red wine (~351 bottles, ~1,778 glasses) or ~46–150 lbs of grapes — daily intake impossible from food alone, supplements required due to poor oral bioavailability (~1–2%).
-	- 🀄️ (zh-TW): 多酚類芪烯醇與原型SIRT1激活劑；治療劑量（500毫克）需約263公升紅酒（約351瓶、1,778杯）或46–150磅葡萄——每日攝入量無法從食物獲取，因口服生物利用度低（約1–2%），需依賴補充劑。
+  - Polyphenolic stilbene and prototypical SIRT1 activator; therapeutic dose (500 mg) requires ~263 L of red wine (~351 bottles, ~1,778 glasses) or ~46–150 lbs of grapes — daily intake impossible from food alone, supplements required due to poor oral bioavailability (~1–2%).
+  - 🀄️ (zh-TW): 多酚類芪烯醇與原型SIRT1激活劑；治療劑量（500毫克）需約263公升紅酒（約351瓶、1,778杯）或46–150磅葡萄——每日攝入量無法從食物獲取，因口服生物利用度低（約1–2%），需依賴補充劑。
 - 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md) [[task_output_sirtuins_recommendations_03_JULY_2026|wiki]]
-    - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
-    - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
+  - Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
+  - 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/src/notes/senescence/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|wiki]]
-    - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
-    - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
+  - Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
+  - 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
 
 ---
 
@@ -250,6 +253,8 @@
 <details>
 <summary><strong>Tasks (81 total)</strong> — click to expand</summary>
 
+- [task_output_node_analysis_biology_16_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md) [[src/tasks/task_output_node_analysis_biology_16_AUG_2026.md|wiki]] (26_AUG_2026 03:38 PM PDT)
+- [task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md) [[src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md|wiki]] (26_AUG_2026 03:38 PM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (25_AUG_2026 04:13 PM PDT)
 - [task_output_senescence_research_gaps_18_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_senescence_research_gaps_18_August_2026.md) [[src/tasks/task_output_senescence_research_gaps_18_August_2026.md|wiki]] (25_AUG_2026 04:13 PM PDT)
 - [`node_network_adrenochrome_24_AUG_2026/` task_output_adrenochrome_protocol_traces_round3_24_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md) [[src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md|wiki]] (24_AUG_2026 09:33 PM PDT)
@@ -268,8 +273,6 @@
 - [task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_mitochondria_fusion_fission_27_JUL_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md) [[src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_mitohormesis_antioxidants_05_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md) [[src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
-- [task_output_node_analysis_biology_16_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md) [[src/tasks/task_output_node_analysis_biology_16_AUG_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
-- [task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md) [[src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_node_comt_mao_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_comt_mao_15_August_2026.md) [[src/tasks/task_output_node_comt_mao_15_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_node_sirtuins_adrenochrome_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_node_sirtuins_catecholamines_15_August_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)

@@ -1,5 +1,5 @@
 {
-  "generated": "25_AUG_2026 04:20 PM PDT",
+  "generated": "26_AUG_2026 05:21 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -47,7 +47,7 @@
           "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
           "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
           "created": "2026-08-24",
-          "updated": "2026-08-25",
+          "updated": "2026-08-26",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -122,7 +122,7 @@
           "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
           "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
           "created": "2026-08-20",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -157,7 +157,7 @@
           "title": "GOPS - 糖氧化蛋白穩態防護盾",
           "description": "一個概念性的長壽方案，結合腎上腺紅質單胺基胍雜合分子、精胺（spermidine）自噬誘導，以及肌肽／EDTA 金屬螯合，以對抗老化與代謝壓力情境下的糖化（AGEs）、氧化壓力與受損的蛋白穩態。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "clippings",
             "glycation",
@@ -190,7 +190,7 @@
           "title": "一氧化氮路徑抑制劑 - Aminoguanidine 與 Methylene Blue",
           "description": "比較 aminoguanidine（上游 iNOS 抑制）與 methylene blue（下游可溶性鳥苷酸環化酶抑制）作為一氧化氮–cGMP 訊號級聯在發炎、休克與移植研究中機制互補的調節劑。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "clippings",
             "nitric-oxide",
@@ -223,7 +223,7 @@
           "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
           "description": "一個推測性的粒線體激效性堆疊，使用低劑量 carbazochrome 氧化還原脈衝、methylene blue 電子分流、NAD+ 前驅物（NR/NMN），以及 urolithin A 粒線體自噬，透過受控的氧化性良性壓力與生合成訊號來處理粒線體功能障礙。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "clippings",
             "mitohormesis",
@@ -255,7 +255,7 @@
           "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
           "description": "原始的 SRAC 衰老治療假說（已被取代），使用奈米顆粒遞送的腎上腺紅質來致敏衰老細胞，結合 rapamycin 的 SASP 抑制、fisetin 的衰老溶解，以及 GlyNAC 的氧化還原緩衝，以標靶細胞衰老與發炎老化。",
           "created": "2026-06-19",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "剪報",
             "老化",
@@ -285,7 +285,7 @@
           "title": "outline_adrenochrome_combo_therapy_gemini",
           "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
           "created": "2026-07-21",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "雙子座"
           ],
@@ -318,7 +318,7 @@
           "title": "大綱 - Adrenochrome (MB, AG) 協定",
           "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
           "created": "2026-06-27",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "大綱",
             "腎上腺素紅",
@@ -355,7 +355,7 @@
           "title": "SRAC 協定修訂日誌",
           "description": "記錄 SRAC 衰老治療協定兩項結構性變更的修訂日誌——序列性 rapamycin 至 fisetin 給藥以解決衰老修飾／衰老溶解的時程衝突，以及以 carbazochrome 取代腎上腺紅質以移除奈米顆粒遞送。",
           "created": "2026-07-08",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "senescence",
@@ -391,7 +391,7 @@
           "title": "差距分析 - _triples.json vs. 任務文件（Adrenochrome）",
           "description": "覆蓋率差距分析，將 adrenochrome triples 知識庫（184 個實體）與任務文件進行比較，揭示未探索的叢集，例如 methylene blue 雙重電子穿梭與解毒角色所構成的變性血紅素血症安全性悖論。",
           "created": "2026-07-09",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "knowledge-graph",
@@ -426,7 +426,7 @@
           "title": "人類腎上腺素紅補充的分析和方案（假設）",
           "description": "假設的補充方案是基於腎上腺素紅化學——不穩定性和氧化還原循環風險、富含嗜中性球的發炎部位的內源性產生、抗氧化劑的穩定和惰性氣氛儲存以及卡唑鉻作為穩定的遞送形式。",
           "created": "2026-05-25",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -461,7 +461,7 @@
           "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
           "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
           "created": "2026-05-25",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -496,7 +496,7 @@
           "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
           "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
           "created": "2026-07-13",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "methylene-blue",
@@ -532,7 +532,7 @@
           "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
           "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
           "created": "2026-06-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -569,7 +569,7 @@
           "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
           "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
           "created": "2026-07-04",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -605,7 +605,7 @@
           "title": "Adrenochrome → Inflammaging Trace",
           "description": "知識圖譜最短路徑追蹤，連結腎上腺色素至發炎性老化，辨識 DGCR8/Drosha miRNA 生成軸作為兒茶酚胺氧化產物與慢性發炎性老化之間的主導性兩跳表觀遺傳橋樑。",
           "created": "2026-07-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -641,7 +641,7 @@
           "title": "腎上腺色素協定網路追蹤，第二輪",
           "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
           "created": "2026-08-21",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -678,7 +678,7 @@
           "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
           "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
           "created": "2026-08-20",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "task-output",
             "adrenochrome",
@@ -714,7 +714,7 @@
           "title": "DGCR8 對微小 RNA 生成及胚胎幹細胞自我更新沉默至關重要",
           "description": "DGCR8 基因剔除的 ES 細胞顯示 miRNA 全面喪失、分化時無法沉默多潛能性、G1 期堆積以及群體倍增時間延長——確立 DGCR8/miRNA 對胚胎幹細胞自我更新沉默的必要性。",
           "created": "2026-07-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "adrenochrome-trace",
             "mirna",
@@ -748,7 +748,7 @@
           "title": "DROSHA 依賴性 AIM2 發炎體活化參與特發性肺纖維化期間的肺部發炎",
           "description": "在 IPF 中，DROSHA 在肺泡巨噬細胞中升高，並促進 AIM2 發炎體活化、caspase-1 切割以及 IL-1β/IL-18 釋放；DROSHA 缺失可抑制此肺部發炎。將微處理複體功能障礙連結至先天免疫發炎。",
           "created": "2026-07-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "adrenochrome-trace",
             "mirna",
@@ -782,7 +782,7 @@
           "title": "帶狀皰疹疫苗或可減緩生物性老化並降低發炎",
           "description": "一項美國基於族群的世代研究（HRS，n>3,800 名 70 歲以上成人）發現，帶狀皰疹疫苗接種與較慢的生物性老化、較低的慢性發炎（發炎性老化）以及較慢的表觀遺傳/轉錄體老化相關——效果持續至少 4 年。",
           "created": "2026-07-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "adrenochrome-trace",
             "inflammaging",
@@ -816,7 +816,7 @@
           "title": "人類迪喬治症候群關鍵區域基因 8 及其 D. melanogaster 同源基因對 miRNA 生成不可或缺",
           "description": "生化合與 RNAi 證據顯示，DGCR8（人類）與 dmDGCR8（果蠅）為不可或缺的微處理複體輔因子，可辨識 pri-miRNA、與 Drosha 交互作用，並對 pre-/成熟 miRNA 產生所需。",
           "created": "2026-07-16",
-          "updated": "2026-08-23",
+          "updated": "2026-08-24",
           "tags": [
             "adrenochrome-trace",
             "mirna",
@@ -827,6 +827,96 @@
           "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis_zh-TW.md"
         }
       }
+    },
+    {
+      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node-Level Network Analysis for Biological Prioritization",
+          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "用於生物學優先排序的節點層級網絡分析",
+          "description": "方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026_zh-TW.md"
+        }
+      },
+      "starred": true
+    },
+    {
+      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
+          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
+          "created": "2026-08-17",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+        },
+        "zh-TW": {
+          "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
+          "description": "以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
+          "created": "2026-08-17",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md"
+        }
+      },
+      "starred": true
     },
     {
       "id": "task:task_output_acid_ceramidase_27_July_2026",
@@ -1270,94 +1360,6 @@
           ],
           "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md",
           "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Node-Level Network Analysis for Biological Prioritization",
-          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "pagerank",
-            "betweenness-centrality",
-            "k-core",
-            "drug-discovery",
-            "geroscience"
-          ],
-          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "用於生物學優先排序的節點層級網絡分析",
-          "description": "方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "pagerank",
-            "betweenness-centrality",
-            "k-core",
-            "drug-discovery",
-            "geroscience"
-          ],
-          "filename": "task_output_node_analysis_biology_16_AUG_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026_zh-TW.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
-          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
-          "created": "2026-08-17",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "sirtuins",
-            "aging",
-            "substrates",
-            "personalized-pagerank",
-            "adamic-adar",
-            "effective-resistance",
-            "therapeutics"
-          ],
-          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
-          "description": "以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
-          "created": "2026-08-17",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "sirtuins",
-            "aging",
-            "substrates",
-            "personalized-pagerank",
-            "adamic-adar",
-            "effective-resistance",
-            "therapeutics"
-          ],
-          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026_zh-TW.md"
         }
       }
     },
