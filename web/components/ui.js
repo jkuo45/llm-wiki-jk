@@ -6,7 +6,7 @@ import * as THREE from 'three';
 
 import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
-  descriptionMap, githubSourceUrl, noteUrl, predicateZh,
+  descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
 } from './data.js';
 import { state } from './state.js';
 import {
@@ -25,6 +25,37 @@ import { setUiLang } from './i18n.js';
 // ------------------------------------------------------------
 const activeDatasetPanel = document.getElementById('dataset-panel');
 const activePromptPanel = document.getElementById('prompt-panel');
+
+// ------------------------------------------------------------
+// Dataset-mode toggle (Triples / Wiki / Combined). The mode is baked into the
+// current page via data.js (read from `mode=` in the URL hash), so switching
+// just updates the hash and reloads — the scene is rebuilt from the active
+// dataset at module load. This keeps the Three.js scene code untouched.
+// ------------------------------------------------------------
+const DATASET_MODE_ICONS = {
+  triples: '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><circle cx="8" cy="3.5" r="2.2"/><circle cx="3.5" cy="12.5" r="2.2"/><circle cx="12.5" cy="12.5" r="2.2"/></svg>',
+  wiki: '<svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.4 2.8 2 8l2.4 5.2"/><path d="M6.6 2.8 4.2 8l2.4 5.2"/><path d="M9.4 2.8 11.8 8l-2.4 5.2"/><path d="M11.6 2.8 14 8l-2.4 5.2"/></svg>',
+  combined: '<svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="5.8" cy="8" r="4.2"/><circle cx="10.2" cy="8" r="4.2"/></svg>',
+};
+
+export function setupDatasetToggle() {
+  const btn = document.getElementById('dataset-mode-toggle');
+  if (!btn) return;
+  const ORDER = ['triples', 'wiki', 'combined'];
+  const NAME = { triples: 'Triples', wiki: 'Wiki', combined: 'Combined' };
+  // Icon varies by current mode; visible label is always lowercase "mode".
+  btn.innerHTML = (DATASET_MODE_ICONS[DATASET_MODE] || '') + '<span class="mode-label">mode</span>';
+  btn.title = 'Graph source / 圖形來源: ' + NAME[DATASET_MODE];
+  btn.setAttribute('aria-label', 'Graph source / 圖形來源: ' + NAME[DATASET_MODE]);
+  btn.addEventListener('click', () => {
+    const i = ORDER.indexOf(DATASET_MODE);
+    const next = ORDER[(i + 1) % ORDER.length]; // cycles triples→wiki→combined
+    const params = new URLSearchParams(location.hash.replace(/^#\/?/, ''));
+    params.set('mode', next);
+    location.hash = '#' + params.toString();
+    location.reload();
+  });
+}
 
 export function setActiveWindow(name) {
   const panels = [activeDatasetPanel, activePromptPanel];

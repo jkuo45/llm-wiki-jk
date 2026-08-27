@@ -81,6 +81,102 @@ async function loadAllData() {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Dataset mode: triples | wiki | combined
+//
+// The vault yields two graphs that share node ids by norm(label): the triples
+// graph (from _triples.json extractions) and the wiki graph (from Obsidian
+// [[wikilinks]]). The deployed viewer can show either, or their union. The
+// mode is read from the URL hash (`mode=wiki`) so it is shareable/restorable.
+// ---------------------------------------------------------------------------
+export const DATASET_MODE = getMode();
+
+function getMode() {
+  const params = new URLSearchParams(location.hash.replace(/^#\/?/, ""));
+  const m = params.get("mode");
+  return m === "wiki" || m === "combined" ? m : "triples";
+}
+
+export const DATASET_LABELS = {
+  triples: "Triples graph (extracted relations)",
+  wiki: "Wiki graph (Obsidian wikilinks)",
+  combined: "Combined (triples + wiki)",
+};
+
+async function loadWikiData() {
+  const [N, E, L, M] = await Promise.all([
+    getJSON("wiki-nodes.json", "wiki-nodes"),
+    getJSON("wiki-edges.json", "wiki-edges"),
+    getJSON("wiki-legend.json", "wiki-legend"),
+    getJSON("wiki-graph-meta.json", "wiki-graph-meta"),
+  ]);
+  return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
+}
+
+// Union of two datasets by id (nodes) / by endpoint pair (edges). Shared nodes
+// keep triples attributes (description/community/color) but gain in_triples /
+// in_wiki flags; shared edges gain a `sources` list. Wiki community cids are
+// offset by +1000 so the combined legend never collides with triples cids.
+function mergeCombined(tN, tE, tL, tM, wiki) {
+  // Offset wiki community ids past the max triples cid so node.community stays
+  // consistent with the combined legend (no collisions, wiki nodes cluster).
+  const maxCid = tL.reduce((m, c) => Math.max(m, c.cid), -1);
+  const off = maxCid + 1;
+
+  const nmap = new Map();
+  const nodes = [];
+  const pushNode = (n, src) => {
+    const ex = nmap.get(n.id);
+    if (ex) {
+      ex.in_triples = ex.in_triples || src === "triples";
+      ex.in_wiki = ex.in_wiki || src === "wiki";
+      ex.graph_sources = [...new Set([...(ex.graph_sources || []), src])];
+      if (src === "triples") {
+        if (!ex.description) ex.description = n.description;
+        ex.community = n.community; // prefer triples community for shared nodes
+        ex.community_name = n.community_name;
+        ex.color = n.color;
+      }
+      return;
+    }
+    const nn = Object.assign({}, n, {
+      in_triples: src === "triples", in_wiki: src === "wiki", graph_sources: [src],
+    });
+    if (src === "wiki") nn.community = (nn.community ?? 0) + off; // match offset legend
+    nmap.set(n.id, nn);
+    nodes.push(nn);
+  };
+  tN.forEach((n) => pushNode(n, "triples"));
+  wiki.nodes.forEach((n) => pushNode(n, "wiki"));
+
+  const emap = new Map();
+  const edges = [];
+  const pushEdge = (e, src) => {
+    const k = e.from + "|" + e.to;
+    const ex = emap.get(k);
+    if (ex) {
+      ex.sources = [...new Set([...(ex.sources || []), src])];
+      if (src === "wiki" && (ex.label === "links_to" || !ex.label)) ex.label = e.label;
+      return;
+    }
+    emap.set(k, Object.assign({}, e, { sources: [src] }));
+    edges.push(emap.get(k));
+  };
+  tE.forEach((e) => pushEdge(e, "triples"));
+  wiki.edges.forEach((e) => pushEdge(e, "wiki"));
+
+  const legend = tL.map((c) => Object.assign({}, c));
+  wiki.legend.forEach((c) => legend.push(Object.assign({}, c, { cid: c.cid + off, wiki: true })));
+
+  return { nodes, edges, legend, meta: tM };
+}
+
+function pickDataset(mode, tN, tE, tL, tM, wiki) {
+  if (mode === "wiki") return { nodes: wiki.nodes, edges: wiki.edges, legend: wiki.legend, meta: wiki.meta };
+  if (mode === "combined") return mergeCombined(tN, tE, tL, tM, wiki);
+  return { nodes: tN, edges: tE, legend: tL, meta: tM };
+}
+
 // Live bindings: importers see reassigned values because they reference the
 // exported name directly (no destructuring-into-const at their top level).
 export let RAW_NODES = [];
@@ -107,6 +203,21 @@ ARTICLES = loaded.ARTICLES;
 TASKS = loaded.TASKS;
 PREDICATES = loaded.PREDICATES;
 
+// ---------------------------------------------------------------------------
+// Select the active dataset (triples / wiki / combined) by URL-hash mode.
+// RAW_NODES / RAW_EDGES / LEGEND / GRAPH_META are reassigned BEFORE the
+// derived lookup structures below are built, so nodeMap / adjacency always
+// describe the active dataset (and core.js builds the scene from them).
+// ---------------------------------------------------------------------------
+const _tN = RAW_NODES, _tE = RAW_EDGES, _tL = LEGEND, _tM = GRAPH_META;
+const _wiki = await loadWikiData();
+const _active = pickDataset(DATASET_MODE, _tN, _tE, _tL, _tM, _wiki);
+RAW_NODES = _active.nodes;
+RAW_EDGES = _active.edges;
+LEGEND = _active.legend;
+GRAPH_META = _active.meta;
+console.log(`[dataset] mode=${DATASET_MODE}: ${RAW_NODES.length} nodes, ${RAW_EDGES.length} edges`);
+
 // Fetch the heavier manifest in the background — it is not needed for first
 // paint, only for source-link resolution at runtime.
 loadCacheTag().then(() => {
@@ -124,7 +235,9 @@ loadCacheTag().then(() => {
 let ROLES_META = null;
 export async function loadRolesMeta() {
   if (ROLES_META) return ROLES_META;
-  ROLES_META = (await getJSON('roles-meta.json', 'roles-meta')) || {};
+  // Role Explorer is mode-aware: wiki/combined modes use the wiki role artifact.
+  const name = DATASET_MODE === 'triples' ? 'roles-meta.json' : 'wiki-roles-meta.json';
+  ROLES_META = (await getJSON(name, 'roles-meta')) || {};
   return ROLES_META;
 }
 
@@ -132,7 +245,8 @@ let LINK_PREDICTION = null;
 export async function loadLinkPrediction() {
   if (LINK_PREDICTION) return LINK_PREDICTION;
   const empty = { params: {}, summary: {}, candidates: [], ppr_similar: {} };
-  LINK_PREDICTION = (await getJSON('link-prediction.json', 'link-prediction')) || empty;
+  const name = DATASET_MODE === 'triples' ? 'link-prediction.json' : 'wiki-link-prediction.json';
+  LINK_PREDICTION = (await getJSON(name, 'link-prediction')) || empty;
   return LINK_PREDICTION;
 }
 

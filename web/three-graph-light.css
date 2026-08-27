@@ -263,6 +263,11 @@ body {
 .prompt-mode-tab { color: #7C8698; }
 .prompt-mode-tab:hover { color: #22304A; }
 .prompt-mode-tab.active { background: #0F766E; color: #fff; }
+#controls #dataset-mode-toggle { background: #FAF7EF; color: #22304A; border-color: #CCC5B2; }
+#controls #dataset-mode-toggle .mode-label { color: #7C8698; }
+#controls #dataset-mode-toggle:hover { background: #0F766E; color: #fff; }
+#controls #dataset-mode-toggle:hover .mode-label { color: #fff; }
+.dataset-mode { color: #7C8698; }
 .prompt-activity-dot { border-color: #FFFFFF; }
 .prompt-activity-dot.thinking { border-color: #FFFFFF; }
 

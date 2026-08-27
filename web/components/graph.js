@@ -1,14 +1,14 @@
 // Entry module: wires everything together, drives the render loop, handles
 // resize, dataset panel, and URL-hash restore.
 
-import { RAW_NODES, RAW_EDGES, LEGEND, TRACES, GRAPH_META, nodeMap, I18N_COVERAGE } from './data.js';
+import { RAW_NODES, RAW_EDGES, LEGEND, TRACES, GRAPH_META, nodeMap, I18N_COVERAGE, DATASET_MODE, DATASET_LABELS } from './data.js';
 import { state } from './state.js';
 import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
 import { parseHash } from './routing.js';
-import { activateTrace, activateRoute, clearTrace, setActiveWindow } from './ui.js';
+import { activateTrace, activateRoute, clearTrace, setActiveWindow, setupDatasetToggle } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
@@ -51,11 +51,13 @@ datasetScroll.innerHTML = `
   <button id="dataset-close" class="panel-close" title="Close / 關閉">&times;</button>
   <h2>About the Dataset / 關於資料集</h2>
 
+  <p class="dataset-mode"><b>Mode / 模式:</b> ${DATASET_LABELS[DATASET_MODE] || DATASET_MODE}</p>
+
   <h3>Stats / 資料統計</h3>
   <ul class="dataset-stats">
     <li><b>${RAW_NODES.length}</b> nodes &middot; <b>${RAW_EDGES.length}</b> edges</li>
     <li><b>${totalCommunities}</b> communities <small>(${LEGEND.length} shown, ${thinCount} thin omitted)</small></li>
-    <li><b>${sourceDocCount}</b> source documents</li>
+    <li><b>${sourceDocCount}</b> ${DATASET_MODE === 'triples' ? 'source documents' : 'source notes'}</li>
     <li><b>${confidencePct('EXTRACTED')}</b> EXTRACTED &middot; <b>${confidencePct('INFERRED')}</b> INFERRED &middot; <b>${confidencePct('AMBIGUOUS')}</b> AMBIGUOUS</li>
     ${i18nTotal ? `<li><b>${i18nTotal.toLocaleString()}</b> triples &middot; <b>${i18nStalePct}%</b> stale (note edited after extraction) &middot; <b>${i18nMissingZh}</b> missing zh-TW<small>${i18nGenerated ? ` · ${esc(i18nGenerated)}` : ''}</small></li>` : ''}
   </ul>
@@ -322,3 +324,6 @@ if (hashParams) {
   lastRestoredHash = window.location.hash;
   history.replaceState({ hash: window.location.hash }, '', window.location.href);
 }
+
+// Wire the Triples / Wiki / Combined dataset toggle (marks the active tab).
+setupDatasetToggle();

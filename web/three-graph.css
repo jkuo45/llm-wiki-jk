@@ -590,6 +590,22 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   animation: prompt-dot-pulse 1s ease-in-out infinite;
 }
 
+/* Dataset-mode toggle: a square button the same size as the reset-camera
+   button, stacked directly above it. Icon varies by mode; label is "mode". */
+#controls #dataset-mode-toggle {
+  order: 5; position: relative; flex: none; width: 44px; padding: 6px;
+  color: var(--ink-4); display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 2px; line-height: 1;
+}
+#controls #dataset-mode-toggle svg { width: 16px; height: 16px; display: block; }
+#controls #dataset-mode-toggle .mode-label {
+  font-size: 8px; text-transform: lowercase; letter-spacing: 0.3px;
+  color: var(--ink-5); white-space: nowrap;
+}
+#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); background: var(--accent); }
+#controls #dataset-mode-toggle:hover .mode-label { color: #fff; }
+.dataset-mode { color: var(--ink-5); font-size: 12px; margin: 0 0 8px; }
+
 /* Floating analysis button: green dot signals any active work in the panel. */
 .prompt-activity-dot {
   position: absolute; top: -3px; right: -3px;
