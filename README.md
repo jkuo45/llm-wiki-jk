@@ -251,8 +251,10 @@
 ## Tasks
 
 <details>
-<summary><strong>Tasks (81 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (83 total)</strong> — click to expand</summary>
 
+- [task_output_graph_structure_conclusions_26_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md) [[src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md|wiki]] (26_AUG_2026 09:44 PM PDT)
+- [task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md) [[src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md|wiki]] (26_AUG_2026 09:44 PM PDT)
 - [task_output_node_analysis_biology_16_AUG_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md) [[src/tasks/task_output_node_analysis_biology_16_AUG_2026.md|wiki]] (26_AUG_2026 03:38 PM PDT)
 - [task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md) [[src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md|wiki]] (26_AUG_2026 03:38 PM PDT)
 - [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (25_AUG_2026 04:13 PM PDT)

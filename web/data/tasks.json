@@ -1,5 +1,5 @@
 {
-  "generated": "26_AUG_2026 05:21 PM PDT",
+  "generated": "26_AUG_2026 09:49 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,92 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_graph_structure_conclusions_26_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Further Graph-Level Conclusions From graph.json",
+          "description": "Structural conclusions beyond the per-node metric fingerprint — degree distribution and giant-component dominance, centrality concentration as collection-strategy bias, community cohesion inversion, effector-arm fragility around acid ceramidase, entity-resolution debt, edge-direction semantics, ambiguity clustering, provenance staleness, and cross-document integration gaps. Derived from stored node metrics in graphify-out/graph.json, aggregate counters in GRAPH_REPORT.md, and recorded scripts/04_node_analysis.py runs.",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "graph-structure",
+            "curation"
+          ],
+          "filename": "task_output_graph_structure_conclusions_26_AUG_2026.md",
+          "path": "tasks/en-US/task_output_graph_structure_conclusions_26_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "graph.json 的進一步圖譜層級結論",
+          "description": "超越每節點指標指紋之外的結構性結論——度數分布與巨大連通分量主導性、中心性集中反映收集策略偏誤、社群凝聚度反轉、酸性神經醯胺酶周邊效應臂的脆弱性、實體解析債務、邊方向語意、模糊邊聚集，以及跨文件整合缺口。推導自 graphify-out/graph.json 中儲存的節點指標、GRAPH_REPORT.md 的彙總計數，以及 scripts/04_node_analysis.py 的既有執行紀錄。",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "graph-structure",
+            "curation"
+          ],
+          "filename": "task_output_graph_structure_conclusions_26_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_graph_structure_conclusions_26_AUG_2026_zh-TW.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node Analysis — Ivermectin, Fenbendazole & Mebendazole Against Cancer and Tumour Subtypes",
+          "description": "NetworkX multi-node analysis of the drug-repositioning cluster (ivermectin, fenbendazole, mebendazole) against the Cancer hub and three tumour subtypes using scripts/04_node_analysis.py — fingerprints, path multiplicity, Jaccard neighbourhoods, Adamic–Adar, effective resistance, and Personalized PageRank show single-edge fragile claims of unusually high link-prediction headroom, a mechanistically disjoint twin-pair among the benzimidazoles, tumour subtypes captured into the drug community rather than the Cancer community, and a PPR inversion that ranks Ivermectin #2 from the Cancer seed.",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "fenbendazole",
+            "mebendazole",
+            "personalized-pagerank",
+            "adamic-adar"
+          ],
+          "filename": "task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "節點分析——伊維菌素、芬苯達唑與甲苯達唑對上癌症及腫瘤亞型",
+          "description": "運用 scripts/04_node_analysis.py 對老藥新用藥物群集（伊維菌素、芬苯達唑、甲苯達唑）對上 Cancer 樞紐與三種腫瘤亞型所做的 NetworkX 多節點分析——指標指紋、路徑多重性、Jaccard 鄰域、Adamic–Adar、有效電阻與個人化 PageRank 顯示：單邊脆弱的主張卻帶有異常高的連結預測裕度、苯并咪唑之間是機制上不重疊的孿生對、腫瘤亞型被藥物社群捕獲而非歸入 Cancer 社群，以及一個使伊維菌素從 Cancer 種子排名第 #2 的 PPR 反轉。",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "cancer",
+            "drug-repositioning",
+            "ivermectin",
+            "fenbendazole",
+            "mebendazole",
+            "personalized-pagerank",
+            "adamic-adar"
+          ],
+          "filename": "task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026_zh-TW.md"
         }
       }
     },
