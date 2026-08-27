@@ -1,12 +1,10 @@
 {
-  "generated": "2026-08-22 17:21:34",
-  "hash": "735723dfbf371c56",
-  "graph_build": "867a5ae5fdb8a46c",
-  "graph_stats": "2,596 nodes / 3,737 edges",
+  "generated": "2026-08-27 16:09:05",
+  "hash": "4c14a58a791fef18",
   "files": [
     "articles.json",
     "edges.json",
-    "graph.json",
+    "graph-meta.json",
     "i18n-coverage.json",
     "legend.json",
     "link-prediction.json",
@@ -17,7 +15,15 @@
     "predicates-zh-TW.json",
     "query.json",
     "roles-meta.json",
+    "tasks.json",
     "topics.json",
-    "translations-zh-TW.json"
+    "translations-zh-TW.json",
+    "wiki-edges.json",
+    "wiki-graph-meta.json",
+    "wiki-legend.json",
+    "wiki-link-prediction.json",
+    "wiki-node_roles.json",
+    "wiki-nodes.json",
+    "wiki-roles-meta.json"
   ]
 }

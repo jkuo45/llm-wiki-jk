@@ -1,0 +1,504 @@
+{
+  "generated_at": "2026-08-27T16:05:53Z",
+  "triples_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/graphify-out/graph.json",
+  "wiki_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/wiki-out/wiki-graph.json",
+  "counts": {
+    "triples_nodes": 2624,
+    "wiki_nodes": 2995,
+    "shared_nodes": 1510,
+    "wiki_only_nodes": 1485,
+    "triples_only_nodes": 1114,
+    "triples_edges": 3768,
+    "wiki_edges": 34851,
+    "wiki_only_edges": 33273,
+    "triples_only_edges": 2190
+  },
+  "top_wiki_only_nodes": [
+    {
+      "id": "tp53",
+      "label": "TP53",
+      "degree": 184
+    },
+    {
+      "id": "cgas",
+      "label": "cGAS",
+      "degree": 96
+    },
+    {
+      "id": "phosphorylation",
+      "label": "Phosphorylation",
+      "degree": 87
+    },
+    {
+      "id": "cell_cycle",
+      "label": "Cell Cycle",
+      "degree": 83
+    },
+    {
+      "id": "sting",
+      "label": "STING",
+      "degree": 83
+    },
+    {
+      "id": "tgfbeta",
+      "label": "TGFβ",
+      "degree": 75
+    },
+    {
+      "id": "macrophage",
+      "label": "Macrophage",
+      "degree": 75
+    },
+    {
+      "id": "ubiquitination",
+      "label": "Ubiquitination",
+      "degree": 72
+    },
+    {
+      "id": "rheumatoid_arthritis",
+      "label": "Rheumatoid Arthritis",
+      "degree": 71
+    },
+    {
+      "id": "fibroblast",
+      "label": "Fibroblast",
+      "degree": 68
+    },
+    {
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
+      "degree": 68
+    },
+    {
+      "id": "type_i_interferon",
+      "label": "Type I Interferon",
+      "degree": 66
+    },
+    {
+      "id": "metabolism",
+      "label": "Metabolism",
+      "degree": 66
+    },
+    {
+      "id": "replicative_senescence",
+      "label": "Replicative Senescence",
+      "degree": 65
+    },
+    {
+      "id": "epigenetics_and_aging",
+      "label": "Epigenetics and aging",
+      "degree": 64
+    },
+    {
+      "id": "flavonoid",
+      "label": "Flavonoid",
+      "degree": 61
+    },
+    {
+      "id": "il_1alpha",
+      "label": "IL-1α",
+      "degree": 60
+    },
+    {
+      "id": "histone_variant",
+      "label": "Histone Variant",
+      "degree": 60
+    },
+    {
+      "id": "mitochondrial_permeability_transition_pore",
+      "label": "Mitochondrial Permeability Transition Pore",
+      "degree": 57
+    },
+    {
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
+      "degree": 57
+    }
+  ],
+  "top_triples_only_nodes": [
+    {
+      "id": "nf_b",
+      "label": "NF-κB",
+      "degree": 48
+    },
+    {
+      "id": "adrenochrome_formation",
+      "label": "Adrenochrome formation",
+      "degree": 11
+    },
+    {
+      "id": "tgf",
+      "label": "TGFβ",
+      "degree": 11
+    },
+    {
+      "id": "il_1",
+      "label": "IL-1β",
+      "degree": 9
+    },
+    {
+      "id": "hif_1",
+      "label": "HIF-1α",
+      "degree": 8
+    },
+    {
+      "id": "lxr",
+      "label": "LXRα",
+      "degree": 6
+    },
+    {
+      "id": "ppar",
+      "label": "PPARγ",
+      "degree": 6
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
+      "id": "tnf",
+      "label": "TNFα",
+      "degree": 4
+    },
+    {
+      "id": "pgc_1",
+      "label": "PGC-1α",
+      "degree": 4
+    },
+    {
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
+      "degree": 4
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
+    },
+    {
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    }
+  ],
+  "top_wiki_only_edges": [
+    {
+      "source": "zscan4",
+      "target": "tak1",
+      "source_label": "Zscan4",
+      "target_label": "TAK1",
+      "weight": 1.0
+    },
+    {
+      "source": "zscan4",
+      "target": "sasp",
+      "source_label": "Zscan4",
+      "target_label": "SASP",
+      "weight": 1.0
+    },
+    {
+      "source": "zscan4",
+      "target": "prdx6",
+      "source_label": "Zscan4",
+      "target_label": "PRDX6",
+      "weight": 1.0
+    },
+    {
+      "source": "zscan4",
+      "target": "hspa8",
+      "source_label": "Zscan4",
+      "target_label": "HSPA8",
+      "weight": 1.0
+    },
+    {
+      "source": "zscan4",
+      "target": "apigenin",
+      "source_label": "Zscan4",
+      "target_label": "Apigenin",
+      "weight": 1.0
+    },
+    {
+      "source": "zscan4",
+      "target": "acute_stress_associated_phenotype",
+      "source_label": "Zscan4",
+      "target_label": "Acute Stress-Associated Phenotype",
+      "weight": 1.0
+    },
+    {
+      "source": "zone_2_cardio",
+      "target": "mitochondria",
+      "source_label": "Zone 2 Cardio",
+      "target_label": "Mitochondria",
+      "weight": 1.0
+    },
+    {
+      "source": "zone_2_cardio",
+      "target": "metabolic_flexibility",
+      "source_label": "Zone 2 Cardio",
+      "target_label": "Metabolic Flexibility",
+      "weight": 1.0
+    },
+    {
+      "source": "zone_2_cardio",
+      "target": "hiit",
+      "source_label": "Zone 2 Cardio",
+      "target_label": "HIIT",
+      "weight": 1.0
+    },
+    {
+      "source": "zone_2_cardio",
+      "target": "heart_rate_variability",
+      "source_label": "Zone 2 Cardio",
+      "target_label": "Heart Rate Variability",
+      "weight": 1.0
+    },
+    {
+      "source": "zone_2_cardio",
+      "target": "autophagy",
+      "source_label": "Zone 2 Cardio",
+      "target_label": "Autophagy",
+      "weight": 1.0
+    },
+    {
+      "source": "zkscan3",
+      "target": "tfeb",
+      "source_label": "ZKSCAN3",
+      "target_label": "TFEB",
+      "weight": 1.0
+    },
+    {
+      "source": "zkscan3",
+      "target": "starvation",
+      "source_label": "ZKSCAN3",
+      "target_label": "Starvation",
+      "weight": 1.0
+    },
+    {
+      "source": "zkscan3",
+      "target": "lysosome",
+      "source_label": "ZKSCAN3",
+      "target_label": "Lysosome",
+      "weight": 1.0
+    },
+    {
+      "source": "zkscan3",
+      "target": "lc3",
+      "source_label": "ZKSCAN3",
+      "target_label": "LC3",
+      "weight": 1.0
+    },
+    {
+      "source": "zkscan3",
+      "target": "crm1",
+      "source_label": "ZKSCAN3",
+      "target_label": "CRM1",
+      "weight": 1.0
+    },
+    {
+      "source": "zkscan3",
+      "target": "autophagy",
+      "source_label": "ZKSCAN3",
+      "target_label": "Autophagy",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "tale",
+      "source_label": "Zinc Finger",
+      "target_label": "TALE",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitozfns",
+      "source_label": "Zinc Finger",
+      "target_label": "mitoZFNs",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitochondrial_targeting_sequence",
+      "source_label": "Zinc Finger",
+      "target_label": "Mitochondrial Targeting Sequence",
+      "weight": 1.0
+    }
+  ],
+  "top_triples_only_edges": [
+    {
+      "source": "zone_2_cardio",
+      "target": "mitochondrial_biogenesis",
+      "source_label": "Zone 2 Cardio",
+      "target_label": "Mitochondrial Biogenesis",
+      "weight": 1
+    },
+    {
+      "source": "zkscan3",
+      "target": "lysosomal_and_autophagy_genes",
+      "source_label": "ZKSCAN3",
+      "target_label": "Lysosomal and autophagy genes",
+      "weight": 1
+    },
+    {
+      "source": "zellweger_syndrome",
+      "target": "pex_gene_mutations",
+      "source_label": "Zellweger syndrome",
+      "target_label": "PEX gene mutations",
+      "weight": 1
+    },
+    {
+      "source": "yap1",
+      "target": "cancer",
+      "source_label": "YAP1",
+      "target_label": "Cancer",
+      "weight": 1
+    },
+    {
+      "source": "working_memory",
+      "target": "limited_capacity_cognitive_system",
+      "source_label": "Working Memory",
+      "target_label": "limited-capacity cognitive system",
+      "weight": 1
+    },
+    {
+      "source": "working_memory",
+      "target": "balanced_dopamine_in_prefrontal_cortex",
+      "source_label": "Working Memory",
+      "target_label": "balanced dopamine in Prefrontal Cortex",
+      "weight": 1
+    },
+    {
+      "source": "withaferin_a",
+      "target": "sirt3_for_anti_fibrotic_effect",
+      "source_label": "Withaferin A",
+      "target_label": "SIRT3 for anti-fibrotic effect",
+      "weight": 1
+    },
+    {
+      "source": "william_c_campbell",
+      "target": "nobel_prize_in_physiology_or_medicine",
+      "source_label": "William C. Campbell",
+      "target_label": "Nobel Prize in Physiology or Medicine",
+      "weight": 1
+    },
+    {
+      "source": "western_blot_analysis",
+      "target": "acetylated_p53_histone_3_and_gamma_tubulin",
+      "source_label": "Western blot analysis",
+      "target_label": "Acetylated p53, histone 3 and gamma-tubulin",
+      "weight": 1
+    },
+    {
+      "source": "warburg_effect",
+      "target": "p53",
+      "source_label": "Warburg Effect",
+      "target_label": "p53",
+      "weight": 1
+    },
+    {
+      "source": "warburg_effect",
+      "target": "hif_1",
+      "source_label": "Warburg Effect",
+      "target_label": "HIF-1α",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_e",
+      "target": "singlet_oxygen",
+      "source_label": "Vitamin E",
+      "target_label": "Singlet Oxygen",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_e",
+      "target": "prostate_cancer",
+      "source_label": "Vitamin E",
+      "target_label": "Prostate Cancer",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_e",
+      "target": "cancer_risk_in_slow_comt",
+      "source_label": "Vitamin E",
+      "target_label": "cancer risk in slow COMT",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_e",
+      "target": "cancer_in_fast_comt",
+      "source_label": "Vitamin E",
+      "target_label": "cancer in fast COMT",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_c",
+      "target": "mitochondrial_biogenesis",
+      "source_label": "Vitamin C",
+      "target_label": "Mitochondrial Biogenesis",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_c",
+      "target": "methemoglobin",
+      "source_label": "Vitamin C",
+      "target_label": "Methemoglobin",
+      "weight": 1
+    },
+    {
+      "source": "vitamin_b3",
+      "target": "acute_lung_injury",
+      "source_label": "Vitamin B3",
+      "target_label": "Acute Lung Injury",
+      "weight": 1
+    },
+    {
+      "source": "vegfc",
+      "target": "vegf_family",
+      "source_label": "VEGFc",
+      "target_label": "VEGF Family",
+      "weight": 1
+    },
+    {
+      "source": "vegfc",
+      "target": "lymphangiogenesis",
+      "source_label": "VEGFc",
+      "target_label": "Lymphangiogenesis",
+      "weight": 1
+    }
+  ]
+}
