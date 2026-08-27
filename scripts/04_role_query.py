@@ -281,6 +281,8 @@ def main() -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--graph-dir", type=Path, default=ROOT / "web" / "data",
                     help="directory containing node_roles.json")
+    ap.add_argument("--roles-file", type=Path, default=None,
+                    help="explicit path to a node_roles.json (overrides --graph-dir)")
     ap.add_argument("--roles", nargs="+", default=[],
                     help="require ALL of these roles")
     ap.add_argument("--exclude-role", nargs="+", default=[],
@@ -299,7 +301,7 @@ def main() -> int:
                     help="print role distribution summary")
     args = ap.parse_args()
 
-    path = args.graph_dir / "node_roles.json"
+    path = args.roles_file if args.roles_file else args.graph_dir / "node_roles.json"
     doc = load(path)
 
     if args.validate:

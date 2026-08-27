@@ -34,6 +34,17 @@ from graphify.cluster import cluster, score_all
 from graphify.export import to_json
 from graphify.report import generate
 
+# Shared graph-building helpers (norm, enrich_graph_metrics, ...).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _graph_common import (
+    PALETTE,
+    enrich_graph_metrics,
+    generate_community_colors,
+    inject_graph_metadata,
+    norm,
+    strip_wikilink,
+)
+
 ROOT = Path(__file__).resolve().parent.parent  # repo root
 GP = ROOT / "graphify-out"  # canonical graphify analysis artifacts
 WEB = ROOT / "web"  # standalone three-graph web app (deployed)
@@ -94,31 +105,6 @@ CONF_RANK = {
     "EXTRACTED": 0.7,  # >= this -> EXTRACTED, else AMBIGUOUS
 }
 
-# Color palette for communities (Tableau-inspired)
-PALETTE = [
-    "#4E79A7",
-    "#F28E2B",
-    "#E15759",
-    "#76B7B2",
-    "#59A14F",
-    "#EDC948",
-    "#B07AA1",
-    "#FF9DA7",
-    "#9C755F",
-    "#BAB0AC",
-    "#86BCB6",
-    "#D37295",
-    "#FABFD2",
-    "#B6992D",
-    "#F1CE63",
-    "#A0CBE8",
-    "#FFBE7D",
-    "#8CD17D",
-    "#D4A6C8",
-    "#B6992D",
-]
-
-
 def resolve_conf(t: dict) -> tuple[float, str]:
     """Return (confidence_score, conf_label) for a triple.
 
@@ -178,27 +164,6 @@ def _newer(updated: str, score: float, existing: dict) -> bool:
     if updated == existing["updated"] and score > existing["score"]:
         return True
     return False
-
-
-def strip_wikilink(s: str) -> str:
-    return re.sub(
-        r"\[\[([^\]]+)\]\]",
-        lambda m: m.group(1).split("|", 1)[1] if "|" in m.group(1) else m.group(1),
-        s,
-    ).strip()
-
-
-def norm(label: str) -> str:
-    s = strip_wikilink(label).strip().lower()
-    return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
-
-
-def generate_community_colors(legend: list[dict]) -> dict[int, str]:
-    """Assign colors to community IDs, rotating through palette."""
-    colors = {}
-    for i, entry in enumerate(legend):
-        colors[entry["cid"]] = PALETTE[i % len(PALETTE)]
-    return colors
 
 
 def export_three_json(gp: Path, labels: dict[int, str]) -> None:
@@ -581,103 +546,6 @@ def write_topics_json() -> None:
 # ------------------------------------------------------------------
 
 
-def enrich_graph_metrics(
-    G: nx.DiGraph,
-    communities: dict[int, list[str]],
-    new_labels: dict[int, str],
-    cohesion: dict[int, float],
-    gods: list[dict],
-    surprises: list[dict],
-) -> dict:
-    """Compute and attach node/edge metrics, return graph-level metadata.
-
-    Node attributes added: degree, in_degree, out_degree, pagerank,
-    betweenness_centrality, clustering_coefficient, k_core_number,
-    community_size, community_name.
-
-    Edge attributes added: weight (from confidence_score).
-
-    Returns a dict of graph-level metadata to inject into graph.json
-    after to_json writes it.
-    """
-    import time
-
-    t0 = time.time()
-
-    # --- undirected view for metrics that don't need direction ---
-    G_und = G.to_undirected()
-
-    # --- node metrics ---
-    print("  Computing node metrics...")
-
-    for n in G.nodes():
-        G.nodes[n]["degree"] = G.in_degree(n) + G.out_degree(n)
-        G.nodes[n]["in_degree"] = G.in_degree(n)
-        G.nodes[n]["out_degree"] = G.out_degree(n)
-
-    pr = nx.pagerank(G, alpha=0.85, max_iter=200)
-    for n in G.nodes():
-        G.nodes[n]["pagerank"] = round(pr.get(n, 0.0), 8)
-
-    bet = nx.betweenness_centrality(G_und)
-    for n in G.nodes():
-        G.nodes[n]["betweenness_centrality"] = round(bet.get(n, 0.0), 8)
-
-    clust = nx.clustering(G_und)
-    for n in G.nodes():
-        G.nodes[n]["clustering_coefficient"] = round(clust.get(n, 0.0), 8)
-
-    kcore = nx.core_number(G_und)
-    for n in G.nodes():
-        G.nodes[n]["k_core_number"] = kcore.get(n, 0)
-
-    community_sizes = {cid: len(members) for cid, members in communities.items()}
-    node_community = {}
-    for cid, members in communities.items():
-        for m in members:
-            node_community[m] = cid
-    for n in G.nodes():
-        cid = node_community.get(n)
-        G.nodes[n]["community_size"] = (
-            community_sizes.get(cid, 0) if cid is not None else 0
-        )
-        G.nodes[n]["community_name"] = (
-            new_labels.get(cid, f"Community {cid}") if cid is not None else ""
-        )
-
-    # --- edge weight from confidence_score ---
-    for u, v, d in G.edges(data=True):
-        d["weight"] = d.get("confidence_score", 0.7)
-
-    node_count = G.number_of_nodes()
-    edge_count = G.number_of_edges()
-    dt = time.time() - t0
-    print(f"  Node/edge metrics computed in {dt:.1f}s ({node_count}n/{edge_count}e)")
-
-    # --- graph-level metadata ---
-    graph_meta = {
-        "community_labels": {str(k): v for k, v in new_labels.items()},
-        "community_cohesion": {str(k): round(v, 4) for k, v in cohesion.items()},
-        "community_sizes": {str(k): v for k, v in community_sizes.items()},
-        "god_nodes": gods,
-        "surprising_connections": surprises,
-        "metrics_computed_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-    }
-    return graph_meta
-
-
-def inject_graph_metadata(gp: Path, metadata: dict) -> None:
-    """Post-process graph.json to add graph-level metadata."""
-    path = gp / "graph.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
-    data["metadata"] = metadata
-    path.write_text(
-        json.dumps(data, ensure_ascii=False, separators=(",", ":")),
-        encoding="utf-8",
-    )
-    print(f"Injected graph metadata: {len(metadata)} top-level keys")
-
-
 def _format_i18n_report(i18n: Counter) -> str:
     """Render the multilingual-coverage report appended to GRAPH_REPORT.md."""
     lines = [
@@ -1003,7 +871,7 @@ def main() -> int:
     print("to_json wrote:", wrote)
 
     # --- inject graph-level metadata ---
-    inject_graph_metadata(GP, graph_meta)
+    inject_graph_metadata(GP / "graph.json", graph_meta)
 
     # --- emit the slim web-only metadata file (graph-meta.json) ---
     # Derived from the same graph_meta dict injected into the canonical
