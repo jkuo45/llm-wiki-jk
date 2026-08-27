@@ -2,7 +2,7 @@
 
 ## Project Maintenance:
 
-- Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
+- Project timestamp format %d\_%b\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
   - Depending on task, they may or may not be included in context, counts.
 - `src/notes` directory:

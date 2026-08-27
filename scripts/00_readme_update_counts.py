@@ -437,26 +437,44 @@ def main():
             if os.path.basename(f).lower() not in ["readme.md", "index.md"]
         )
 
-        last_updated_ts = 0
-        if md_files:
-            last_updated_ts = max(os.path.getmtime(f) for f in md_files)
-            # GEMINI.md format: %d_%b_%Y %I:%M %p %Z
-            last_updated_str = (
-                datetime
-                .fromtimestamp(last_updated_ts)
-                .astimezone()
-                .strftime("%d_%b_%Y")
-                .upper()
+        # Date the topic's notes content was last updated. Prefer the latest
+        # git commit touching the topic's markdown files (so a bulk checkout
+        # or a _triples.json regeneration that retouches mtimes does not skew
+        # the date); fall back to filesystem mtime when git has no history
+        # (e.g. a brand-new, untracked topic). Restricting to **/*.md keeps
+        # derived artifacts such as _triples.json out of the calculation.
+        last_updated_dt = None
+        git_result = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--",
+             f":(glob){topic_path}/**/*.md"],
+            capture_output=True,
+            text=True,
+            cwd=repo_root,
+        )
+        if git_result.returncode == 0 and git_result.stdout.strip():
+            try:
+                last_updated_dt = datetime.fromisoformat(
+                    git_result.stdout.strip()
+                ).astimezone()
+            except ValueError:
+                last_updated_dt = None
+        if last_updated_dt is None and md_files:
+            last_updated_dt = max(
+                datetime.fromtimestamp(os.path.getmtime(f)).astimezone()
+                for f in md_files
             )
-        else:
-            last_updated_str = "---"
+
+        last_updated_str = (
+            last_updated_dt.strftime("%d_%b_%Y").upper()
+            if last_updated_dt else "---"
+        )
 
         topic_files, topic_size, topic_words = get_dir_size_and_count(topic_path)
 
         topic_data.append({
             "topic": topic,
             "last_updated": last_updated_str,
-            "last_updated_dt": datetime.fromtimestamp(last_updated_ts).astimezone(),
+            "last_updated_dt": last_updated_dt or datetime.fromtimestamp(0).astimezone(),
             "entities": entity_count,
             "documents": len(documents),
             "words": topic_words,
