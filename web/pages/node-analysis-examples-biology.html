@@ -125,28 +125,26 @@
     <section id="metrics">
       <p class="sec-label">02 · Metric atlas</p>
       <h2>What each number is asking the graph</h2>
-      <p>
-        Each card names the NetworkX call, the biological question, and the caveat that
-        most often misleads a reading. Values below are the definitions used in this implementation,
-        not generic textbook paraphrases.
-      </p>
-
       <div class="note">
         <h4>Scope of the fingerprint — metrics versus relation-aware methods</h4>
         <p>
-          Every card below is a <strong>single scalar stored on one node</strong>: a static,
-          per-node fingerprint of that entity's role in isolation — a source, a bottleneck,
-          a backbone, a module, or a leaf. The pattern across these numbers is what characterizes
-          <em>what kind of node</em> you are looking at. What a scalar cannot express is the
-          <em>relationship between</em> two named entities: <u><strong>how</strong> they connect
-          along labelled, confidence-weighted edges, <strong>whether</strong> they share a
-          neighbourhood, <strong>whether</strong> a missing edge is plausible, or
-          <strong>how far apart</strong> two pathways sit once low-confidence routes are
-          down-weighted.</u> Those questions are the job of the
-          <a href="#methods">relation-aware methods</a> in <code>scripts/04_node_analysis.py</code>,
-          which operate pairwise and multi-node on the same <code>graph.json</code>. Read the
-          fingerprint as the characterization layer; read the relation-aware methods as the
-          <em>how</em> and <em>why</em>.
+          Each card below names its NetworkX call, the biological question it poses, and the
+          caveat that most often misleads a reading. The values are the definitions used in this
+          implementation, not generic textbook paraphrases.
+        </p>
+        <p>
+          Every metric is a <strong>single scalar stored on one node</strong>: a static, per-node
+          fingerprint of that entity's role in isolation — a source, a bottleneck, a backbone, a
+          module, or a leaf. The pattern across these numbers characterizes <em>what kind of
+          node</em> you are looking at. What a scalar cannot express is the <em>relationship
+          between</em> two named entities: <u><strong>how</strong> they connect along labelled,
+          confidence-weighted edges, <strong>whether</strong> they share a neighbourhood,
+          <strong>whether</strong> a missing edge is plausible, or <strong>how far apart</strong>
+          two pathways sit once low-confidence routes are down-weighted.</u> Those questions are
+          the job of the <a href="#methods">relation-aware methods</a> in
+          <code>scripts/04_node_analysis.py</code>, which operate pairwise and multi-node on the
+          same <code>graph.json</code>. Read the fingerprint as the characterization layer; read
+          the relation-aware methods as the <em>how</em> and <em>why</em>.
         </p>
       </div>
 
