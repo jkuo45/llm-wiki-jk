@@ -602,8 +602,8 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   font-size: 8px; text-transform: lowercase; letter-spacing: 0.3px;
   color: var(--ink-5); white-space: nowrap;
 }
-#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); background: var(--accent); }
-#controls #dataset-mode-toggle:hover .mode-label { color: #fff; }
+#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
+#controls #dataset-mode-toggle:hover .mode-label { color: var(--ink-hi); }
 .dataset-mode { color: var(--ink-5); font-size: 12px; margin: 0 0 8px; }
 
 /* Floating analysis button: green dot signals any active work in the panel. */
