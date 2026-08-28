@@ -155,7 +155,10 @@ class PubmedAdapter(SourceAdapter):
         pmid = art.findtext(".//MedlineCitation/PMID")
         if not pmid:
             return None
-        title = _clean(art.findtext(".//Article/ArticleTitle"))
+        # itertext() keeps mixed-content titles intact ("SIRT1 <i>in vivo</i>"
+        # -> "SIRT1 in vivo roles"); findtext would drop the child elements.
+        title_el = art.find(".//Article/ArticleTitle")
+        title = _clean("".join(title_el.itertext())) if title_el is not None else ""
 
         abstract_parts = [
             _clean("".join(el.itertext()))

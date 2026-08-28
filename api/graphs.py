@@ -197,9 +197,9 @@ async def get_graph(gid: str, request: Request):
         {
             "id": n["id"],
             "entity_id": n["entity_id"],
-            "label": (n.get("entity") or {}).get("label") or n["custom_label"],
-            "custom_description": n["custom_description"],
-            "custom_type": n["custom_type"],
+            "label": (n.get("entity") or {}).get("label") or n.get("custom_label"),
+            "custom_description": n.get("custom_description"),
+            "custom_type": n.get("custom_type"),
         }
         for n in nodes
     ]
@@ -394,7 +394,7 @@ async def _load_user_nx(gid: str) -> tuple[nx.DiGraph, dict[str, str]]:
         raise HTTPException(status_code=500, detail="Database error") from e
 
     labels = {
-        n["id"]: (n.get("entity") or {}).get("label") or n["custom_label"] or n["id"]
+        n["id"]: (n.get("entity") or {}).get("label") or n.get("custom_label") or n["id"]
         for n in nodes
     }
     G = nx.DiGraph()

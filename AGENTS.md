@@ -224,6 +224,11 @@ uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.
 # incremental on version.json hash — needs SUPABASE_URL + SUPABASE_SERVICE_KEY
 # in env or repo .env, which is git-ignored). Run after any graph rebuild.
 uv run --no-build --with supabase --with pyyaml --with networkx python3 scripts/07_sync_to_db.py
+
+# Offline API test suite (tests/; no Supabase or opencode server needed)
+uv run --no-build --with pytest --with pytest-asyncio --with fastapi --with httpx \
+  --with networkx --with numpy --with scipy --with pydantic --with python-multipart \
+  --with pillow python3 -m pytest tests/ -q
 ```
 
 Notes:
