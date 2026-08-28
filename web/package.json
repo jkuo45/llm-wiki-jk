@@ -10,6 +10,7 @@
     "deploy": "vite build && wrangler deploy"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
     "three": "0.160.0"
   },
   "devDependencies": {

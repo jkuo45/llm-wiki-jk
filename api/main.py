@@ -34,6 +34,7 @@ from .graph_ops import (
     warm_index,
 )
 from .notes import router as notes_router
+from .auth import authorize_request, close_client as close_auth_client
 from .llm import (
     OpencodeUnavailable,
     close_client,
@@ -133,6 +134,7 @@ async def lifespan(app: FastAPI):
         for sid in ids:
             await delete_session(sid)
         await close_client()
+        await close_auth_client()
 
 
 app = FastAPI(
@@ -151,6 +153,15 @@ app.add_middleware(
 
 # All public endpoints live under the /v1 prefix.
 api_v1 = APIRouter(prefix="/v1")
+
+
+@app.middleware("http")
+async def auth_gate(request: Request, call_next):
+    """Require a verified super-admin Supabase token on mutating requests."""
+    denial = await authorize_request(request)
+    if denial is not None:
+        return denial
+    return await call_next(request)
 
 
 @app.middleware("http")
@@ -186,8 +197,9 @@ async def origin_gate(request: Request, call_next):
 # ---------------------------------------------------------------------------
 # Rate limiting (defense-in-depth on the PUBLIC write endpoints)
 # ---------------------------------------------------------------------------
-# The notes write routes are unauthenticated by design ("auth lands later"), so
-# we cap them per client IP. This is an in-process fixed-window limiter: correct
+# The notes write routes require a super-admin token (see auth_gate); this
+# per-IP limiter stays on as defense-in-depth. This is an in-process
+# fixed-window limiter: correct
 # for the single-worker deployment (see wiki-api.service). If the server is ever
 # scaled to multiple workers, swap this state for a shared store (e.g. Redis)
 # — the interface (keyed counters) stays the same.
