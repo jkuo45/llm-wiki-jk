@@ -94,10 +94,6 @@ def detect_lang(text: str) -> str:
     return "en"
 
 
-def _client(timeout: float | None = 30.0) -> httpx.AsyncClient:
-    return httpx.AsyncClient(base_url=OPENCODE_URL, auth=_AUTH, timeout=timeout)
-
-
 class OpencodeUnavailable(RuntimeError):
     """Raised when the opencode server cannot be reached."""
 

@@ -213,7 +213,6 @@ def make_client(monkeypatch, patch_db, fake_db):
         # Offline tests would trip the in-process per-IP rate limiter across
         # dozens of requests; disable it for the test app instance.
         import api.main as main_mod
-
         monkeypatch.setattr(main_mod, "_limit_for", lambda path: None)
         main_mod._RATE_STATE.clear()
 
@@ -222,7 +221,7 @@ def make_client(monkeypatch, patch_db, fake_db):
 
         monkeypatch.setattr(graphs, "get_user_id", fake_user)
         monkeypatch.setattr(research, "get_user_id", fake_user)
-        client = TestClient(app := __import__("api.main", fromlist=["app"]).app)
+        client = TestClient(main_mod.app)
         client.headers.update({"Origin": "http://localhost:5173"})
         return client
 
