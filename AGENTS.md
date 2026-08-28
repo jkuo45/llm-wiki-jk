@@ -226,9 +226,11 @@ uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.
 uv run --no-build --with supabase --with pyyaml --with networkx python3 scripts/07_sync_to_db.py
 
 # Offline API test suite (tests/; no Supabase or opencode server needed)
+# (--with graphifyy: scripts/ rebuild modules import graphify at module level)
+# (--with pyyaml: scripts/07_sync_to_db.py parses frontmatter with PyYAML)
 uv run --no-build --with pytest --with pytest-asyncio --with fastapi --with httpx \
   --with networkx --with numpy --with scipy --with pydantic --with python-multipart \
-  --with pillow python3 -m pytest tests/ -q
+  --with pillow --with graphifyy --with pyyaml python3 -m pytest tests/ -q
 ```
 
 Notes:

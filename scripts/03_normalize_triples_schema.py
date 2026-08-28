@@ -135,10 +135,12 @@ def main() -> int:
         except json.JSONDecodeError as e:
             print(f"  !! {rel}: invalid JSON ({e})")
             totals["invalid_files"] += 1
+            problems["invalid_files"] += 1
             continue
         if not isinstance(data, list):
             print(f"  !! {rel}: expected a JSON array")
             totals["invalid_files"] += 1
+            problems["invalid_files"] += 1
             continue
 
         seen: set = set()
@@ -195,6 +197,7 @@ def main() -> int:
     if problems:
         print("\n=== Coverage / validation problems (fix these) ===")
         for k in (
+            "invalid_files",
             "missing_zh",
             "missing_en",
             "missing_dates",
