@@ -48,11 +48,11 @@ from _graph_common import (
 ROOT = Path(__file__).resolve().parent.parent  # repo root
 GP = ROOT / "graphify-out"  # canonical graphify analysis artifacts
 WEB = ROOT / "web"  # standalone three-graph web app (deployed)
-DATA_DIR = WEB / "data"  # runtime data JSONs consumed by the web app
+DATA_DIR = WEB / "public" / "data"  # runtime data JSONs consumed by the web app (Vite publicDir)
 NOTES_DIR = ROOT / "src" / "notes"  # topic-scoped entity notes (topic = directory)
 
 # Hand-maintained data files the script does NOT produce but that must exist
-# alongside the generated ones in web/data/ (checked by ensure_manual_data_files).
+# alongside the generated ones in web/public/data/ (checked by ensure_manual_data_files).
 MANUAL_DATA_FILES = (
     "query.json",  # curated graph-query traces for the Trace panel
     "translations-zh-TW.json",  # zh-TW translation dictionary for UI/node labels
@@ -167,7 +167,7 @@ def _newer(updated: str, score: float, existing: dict) -> bool:
 
 
 def export_three_json(gp: Path, labels: dict[int, str]) -> None:
-    """Export nodes.json, edges.json, legend.json to web/data/ for the three-graph app.
+    """Export nodes.json, edges.json, legend.json to web/public/data/ for the three-graph app.
 
     Reads the canonical graph.json from graphify-out (gp) but writes the
     web-only data files into DATA_DIR.
@@ -198,7 +198,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     # shared with scripts/04_role_query.py) and computes all thresholds from the
     # live graph so it stays calibrated as the build evolves. The result is
     # baked into each node object (nodes.json) and also emitted as the standalone
-    # web/data/node_roles.json artifact.
+    # web/public/data/node_roles.json artifact.
     import _node_roles_lib
 
     fps = [_node_roles_lib._fingerprint(n) for n in nodes]
@@ -363,13 +363,13 @@ def ensure_manual_data_files() -> None:
     """Warn when hand-maintained data files expected by the web app are absent.
 
     query.json and translations-zh-TW.json are curated by hand (not generated
-    by this script) but must live in web/data/ for the deployed app.
+    by this script) but must live in web/public/data/ for the deployed app.
     """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     missing = [name for name in MANUAL_DATA_FILES if not (DATA_DIR / name).exists()]
     if missing:
         print(
-            "WARNING: hand-maintained data files missing from web/data/ "
+            "WARNING: hand-maintained data files missing from web/public/data/ "
             f"(add them manually): {', '.join(missing)}"
         )
 
@@ -377,7 +377,7 @@ def ensure_manual_data_files() -> None:
 # ------------------------------------------------------------------
 # Copy shared graphify JSON that the web app consumes at runtime.
 # These remain canonical in graphify-out (the source of truth) and are
-# copied verbatim into web/data/ so the deployed app is self-contained.
+# copied verbatim into web/public/data/ so the deployed app is self-contained.
 # ------------------------------------------------------------------
 
 # Graphify-standard artifacts the web app fetches (components/data.js).
@@ -387,7 +387,7 @@ WEB_SHARED_JSON = (
 
 
 def copy_shared_json() -> None:
-    """Copy canonical graphify JSON into web/data/ for the deployed app."""
+    """Copy canonical graphify JSON into web/public/data/ for the deployed app."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     copied = 0
     for name in WEB_SHARED_JSON:
@@ -399,7 +399,7 @@ def copy_shared_json() -> None:
 
         shutil.copy2(src, DATA_DIR / name)
         copied += 1
-    print(f"Copied {copied} shared graphify JSON files into web/data/")
+    print(f"Copied {copied} shared graphify JSON files into web/public/data/")
 
 
 # Keys dropped from the version hash. Two classes:
@@ -476,7 +476,7 @@ def _stable_bytes(obj) -> bytes:
 
 
 def write_version_file() -> None:
-    """Write web/data/version.json with a content hash (cache-busting).
+    """Write web/public/data/version.json with a content hash (cache-busting).
 
     The web app fetches this tiny file with a no-cache query string and uses
     the hash (`?v=...`) to cache-bust the larger data files, so browsers only
@@ -518,7 +518,7 @@ def write_version_file() -> None:
 
 
 def write_topics_json() -> None:
-    """Write web/data/topics.json: the controlled topic-slug vocabulary.
+    """Write web/public/data/topics.json: the controlled topic-slug vocabulary.
 
     The web notes panel (components/notes.js) derives a card's display topic
     from its tags by preferring a slug that is a real topic directory. Instead
@@ -538,7 +538,7 @@ def write_topics_json() -> None:
         json.dumps(topics, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Wrote web/data/topics.json ({len(topics)} topics)")
+    print(f"Wrote web/public/data/topics.json ({len(topics)} topics)")
 
 
 # ------------------------------------------------------------------
@@ -599,12 +599,12 @@ def _load_source_doc_mtimes() -> dict[str, str]:
 
 
 def run_link_prediction() -> None:
-    """Refresh web/data/link-prediction.json via scripts/04_link_prediction.py.
+    """Refresh web/public/data/link-prediction.json via scripts/04_link_prediction.py.
 
     Runs as a subprocess (same pattern as the graphify HTML export) so the
     networkx dependency stays isolated and a failure degrades to a warning
     instead of failing the rebuild. Must run BEFORE write_version_file(): the
-    version hash covers every web/data/*.json, so the artifact participates in
+    version hash covers every web/public/data/*.json, so the artifact participates in
     cache busting automatically. Output is deterministic (sorted candidates),
     so an unchanged topology keeps the hash stable.
     """
@@ -880,7 +880,7 @@ def main() -> int:
         json.dumps(graph_meta, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    print("Wrote web/data/triples-graph-meta.json")
+    print("Wrote web/public/data/triples-graph-meta.json")
 
     print(
         f"FINAL: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges, {len(communities)} communities"
@@ -898,7 +898,7 @@ def main() -> int:
     # --- export three-graph JSON (nodes.json, edges.json, legend.json) ---
     export_three_json(GP, new_labels)
 
-    # --- copy shared graphify JSON the web app needs into web/data/ ---
+    # --- copy shared graphify JSON the web app needs into web/public/data/ ---
     copy_shared_json()
 
     # --- regenerate the topic-slug vocabulary the notes panel consumes ---

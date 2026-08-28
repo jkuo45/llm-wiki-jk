@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Query and validate per-node biological roles (web/data/node_roles.json).
+"""Query and validate per-node biological roles (web/public/data/node_roles.json).
 
 Reads the role artifact emitted by scripts/03_rebuild_from_triples.py
 (export_three_json) and provides:
@@ -41,7 +41,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import _node_roles_lib as nrl
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_ROLES = ROOT / "web" / "data" / "node_roles.json"
+DEFAULT_ROLES = ROOT / "web" / "public" / "data" / "node_roles.json"
 
 THRESHOLD_TOL = 1e-9  # float round-trip tolerance for stored vs recomputed
 
@@ -279,7 +279,7 @@ def cmd_node(doc: dict, label: str, fuzzy: bool) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--graph-dir", type=Path, default=ROOT / "web" / "data",
+    ap.add_argument("--graph-dir", type=Path, default=ROOT / "web" / "public" / "data",
                     help="directory containing node_roles.json")
     ap.add_argument("--roles-file", type=Path, default=None,
                     help="explicit path to a node_roles.json (overrides --graph-dir)")

@@ -64,7 +64,7 @@ WIKI_OUT = ROOT / "wiki-out"  # wiki-graph analysis artifacts
 WIKI_GRAPH = WIKI_OUT / "wiki-graph.json"
 WIKI_LABELS = WIKI_OUT / ".wiki_labels.json"  # community-label continuity
 WIKI_ROLES = WIKI_OUT / "wiki-data" / "node_roles.json"
-DATA_DIR = ROOT / "web" / "data"  # deployed three-graph viewer data
+DATA_DIR = ROOT / "web" / "public" / "data"  # deployed three-graph viewer data
 
 # Filename prefix used for source-document notes. Links often reference a
 # document by its bare title (the part after this prefix), so resolution
@@ -477,7 +477,7 @@ def main() -> int:
     export_roles_json(graph, new_labels, WIKI_ROLES, source_graph=str(WIKI_GRAPH))
 
     # --- web-data export: wiki-prefixed files for the three-graph viewer ---
-    # (triples / wiki / combined toggle). Also bumps web/data/version.json so
+    # (triples / wiki / combined toggle). Also bumps web/public/data/version.json so
     # browsers re-fetch the new artifacts. Triples web data is NOT regenerated
     # here (that stays owned by scripts/03_rebuild_from_triples.py).
     export_wiki_three_json(graph, new_labels, DATA_DIR)

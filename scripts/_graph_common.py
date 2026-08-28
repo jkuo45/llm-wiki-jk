@@ -220,7 +220,7 @@ def inject_graph_metadata(path: Path, metadata: dict) -> None:
 # ----------------------------------------------------------------------
 # Standalone role artifact (mirrors the role-baking section of
 # 03_rebuild export_three_json, but writes only node_roles.json to an
-# arbitrary path so the wiki graph can live outside web/data/).
+# arbitrary path so the wiki graph can live outside web/public/data/).
 # ----------------------------------------------------------------------
 
 _EXEMPLAR_METRIC = {
@@ -240,7 +240,7 @@ def export_roles_json(
     out_path: Path,
     source_graph: str = "",
 ) -> None:
-    """Emit web/data-style node_roles.json (per-node biological roles) to
+    """Emit web/public/data-style node_roles.json (per-node biological roles) to
     `out_path`. Uses scripts/_node_roles_lib as the single source of truth, so
     the classifier stays consistent with scripts/04_role_query.py."""
     import _node_roles_lib
@@ -309,12 +309,12 @@ def export_roles_json(
 
 # ----------------------------------------------------------------------
 # Wiki web-data export (mirrors 03_rebuild export_three_json, but writes
-# wiki-prefixed files into web/data/ so the deployed three-graph viewer can
+# wiki-prefixed files into web/public/data/ so the deployed three-graph viewer can
 # show the wiki graph as an alternative / combined dataset).
 # ----------------------------------------------------------------------
 
 def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Path) -> None:
-    """Emit web/data/wiki-{nodes,edges,legend,graph-meta,node_roles,roles-meta}.json.
+    """Emit web/public/data/wiki-{nodes,edges,legend,graph-meta,node_roles,roles-meta}.json.
 
     The node/edge schema is identical to the triples nodes.json/edges.json so
     the front-end renders either dataset (or their union) without branching.
@@ -427,7 +427,7 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
 
 
 def write_web_version(web_data_dir: Path) -> None:
-    """Recompute web/data/version.json content hash over all data files.
+    """Recompute web/public/data/version.json content hash over all data files.
 
     Adding wiki-*.json files changes the hash so browsers re-fetch the new
     artifacts. Mirrors the cache-busting purpose of 03_rebuild's version file
@@ -449,4 +449,4 @@ def write_web_version(web_data_dir: Path) -> None:
         ),
         encoding="utf-8",
     )
-    print(f"Wrote web/data/version.json (hash {data_hash}, {len(files)} files)")
+    print(f"Wrote web/public/data/version.json (hash {data_hash}, {len(files)} files)")

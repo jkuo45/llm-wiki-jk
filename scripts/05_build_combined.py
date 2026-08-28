@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build the combined (triples + wiki) web dataset from the per-source exports.
 
-Reads `web/data/{nodes,edges,legend,graph-meta}.json` (triples) and
-`web/data/wiki-{nodes,edges,legend,graph-meta}.json` (wiki), and merges them
-into `web/data/combined-{nodes,edges,legend,graph-meta,node_roles,roles-meta}.json`.
+Reads `web/public/data/{nodes,edges,legend,graph-meta}.json` (triples) and
+`web/public/data/wiki-{nodes,edges,legend,graph-meta}.json` (wiki), and merges them
+into `web/public/data/combined-{nodes,edges,legend,graph-meta,node_roles,roles-meta}.json`.
 
 This gives the front-end's "combined" mode a single backend-generated dataset
 to load instead of re-implementing the merge in the browser (mirrors the JS
@@ -41,7 +41,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _graph_common import export_roles_json, generate_community_colors, write_web_version
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "web" / "data"
+DATA_DIR = ROOT / "web" / "public" / "data"
 
 # Fixed wiki-cid offset for the combined legend (smaller than any plausible
 # triples community id, so the two cid spaces never collide).
@@ -204,10 +204,10 @@ def main() -> int:
             pass
 
     if not tN:
-        print("Missing triples web data (web/data/triples-nodes.json) -- run 03_rebuild first.")
+        print("Missing triples web data (web/public/data/triples-nodes.json) -- run 03_rebuild first.")
         return 1
     if not wN:
-        print("Missing wiki web data (web/data/wiki-nodes.json) -- run 05_rebuild first.")
+        print("Missing wiki web data (web/public/data/wiki-nodes.json) -- run 05_rebuild first.")
         return 1
 
     # ------------------------------------------------------------------
@@ -293,7 +293,7 @@ def main() -> int:
     labels = {c["cid"]: c["label"] for c in legend}
     roles_path = DATA_DIR / "node_roles.json"
     export_roles_json({"nodes": nodes}, labels, roles_path,
-                      source_graph="web/data/nodes.json")
+                      source_graph="web/public/data/nodes.json")
     roles_doc = json.loads(roles_path.read_text(encoding="utf-8"))
     roles_meta = {
         "generated_at": roles_doc["generated_at"],

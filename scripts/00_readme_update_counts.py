@@ -159,8 +159,8 @@ def format_top_items(items, limit=5):
 
 
 # --- Web artifacts: task outputs for the reader panel -----------------------
-# While building the README this script also emits web/data/tasks.json and
-# copies task markdown into web/tasks/ so the site's reader can render them
+# While building the README this script also emits web/public/data/tasks.json and
+# copies task markdown into web/public/tasks/ so the site's reader can render them
 # client-side. tasks.json mirrors articles.json's shape ({id, langs}) with a
 # kind: "task" discriminator; dates prefer frontmatter, then git commit date,
 # then filesystem mtime.
@@ -225,7 +225,7 @@ def task_id_stem(basename):
 
 
 def scan_web_zh_tasks(args):
-    """Scan hand-maintained zh-TW translations in web/tasks/zh-TW/.
+    """Scan hand-maintained zh-TW translations in web/public/tasks/zh-TW/.
 
     Translated task outputs are stored web-only (not in src/tasks), so they
     are discovered directly at their serving location and registered in
@@ -253,9 +253,9 @@ def scan_web_zh_tasks(args):
 
 
 def build_web_tasks(task_data, args):
-    """Emit web/data/tasks.json and copy task markdown into web/tasks/<lang>/."""
+    """Emit web/public/data/tasks.json and copy task markdown into web/public/tasks/<lang>/."""
     # en-US content is fully generated from src/tasks: wipe it plus any stale
-    # flat copies from older builds. web/tasks/zh-TW is hand-maintained
+    # flat copies from older builds. web/public/tasks/zh-TW is hand-maintained
     # (translations are stored web-only) and must survive rebuilds.
     en_dir = os.path.join(args.web_tasks_dir, "en-US")
     if os.path.isdir(en_dir):
@@ -285,13 +285,13 @@ def build_web_tasks(task_data, args):
             "filename": basename,
         }
         if t.get("in_place"):
-            # zh-TW translations live only under web/tasks/zh-TW/ — already
+            # zh-TW translations live only under web/public/tasks/zh-TW/ — already
             # at their serving location; register but do not copy. The path
-            # relative to web/tasks already carries the zh-TW/ prefix.
+            # relative to web/public/tasks already carries the zh-TW/ prefix.
             dest_rel = os.path.relpath(t["path"], args.web_tasks_dir)
         else:
             # Preserve topical subfolders (relative to src/tasks) under the
-            # language dir: web/tasks/<lang>/<relative-subpath>.
+            # language dir: web/public/tasks/<lang>/<relative-subpath>.
             rel = os.path.relpath(t["path"], args.tasks_dir)
             dest_rel = os.path.join(lang, rel)
         entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
@@ -377,18 +377,18 @@ def main():
     )
     parser.add_argument(
         "--web_data_dir",
-        default="web/data",
-        help="Directory for generated web data files (default: web/data)",
+        default="web/public/data",
+        help="Directory for generated web data files (default: web/public/data)",
     )
     parser.add_argument(
         "--web_tasks_dir",
-        default="web/tasks",
-        help="Directory task markdown is copied to for the reader (default: web/tasks)",
+        default="web/public/tasks",
+        help="Directory task markdown is copied to for the reader (default: web/public/tasks)",
     )
     parser.add_argument(
         "--skip-web",
         action="store_true",
-        help="Only update the README; skip emitting web/tasks.json and copying markdown",
+        help="Only update the README; skip emitting web/public/tasks.json and copying markdown",
     )
     args = parser.parse_args()
 
@@ -533,7 +533,7 @@ def main():
     # --- Emit web artifacts for the reader panel (tasks.json + md copies) ---
     if not args.skip_web:
         # Hand-maintained zh-TW translations live web-only under
-        # web/tasks/zh-TW/; register them alongside the src/tasks scan.
+        # web/public/tasks/zh-TW/; register them alongside the src/tasks scan.
         build_web_tasks(task_data + scan_web_zh_tasks(args), args)
 
     # Prepare new content

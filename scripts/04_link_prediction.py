@@ -2,7 +2,7 @@
 """Predicted missing connections for the wiki knowledge graph (NetworkX).
 
 Reads graphify-out/graph.json (the canonical knowledge-graph artifact) and emits
-web/data/link-prediction.json: ranked non-adjacent entity pairs that the
+web/public/data/link-prediction.json: ranked non-adjacent entity pairs that the
 topology suggests are related but no document states yet. Surfaced in the
 Graph-mode "Predicted Connections" panel as a knowledge-gap finder.
 
@@ -18,7 +18,7 @@ Computed sections:
 
 Determinism: candidates are ordered by (-score, a, b) and PPR lists by
 (-score, id), so identical topology produces byte-stable output. The build
-(03_rebuild_from_triples.py) runs this script before hashing web/data/*.json,
+(03_rebuild_from_triples.py) runs this script before hashing web/public/data/*.json,
 so the artifact participates in the version cache tag without churning it.
 
 Run:
@@ -43,7 +43,7 @@ import networkx as nx
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_GRAPH = ROOT / "graphify-out" / "graph.json"
-DEFAULT_OUT = ROOT / "web" / "data" / "link-prediction.json"
+DEFAULT_OUT = ROOT / "web" / "public" / "data" / "link-prediction.json"
 
 MIN_DEGREE = 3          # candidate endpoints must both reach this degree
 MAX_CANDIDATES = 150    # cap emitted Adamic-Adar pairs
