@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>合併知識圖譜中的生物過程（wiki 與 triples）</title>
+<meta name="description" content="以生物學為中心的合併知識圖譜（triples + Obsidian wiki）導覽：合併拓撲新增了什麼、僅 wiki 的生物過程（cGAS–STING、TP53/細胞週期、NMN/NAD+、粒線體自噬）、跨社群橋樑與有趣連結，以及在合併後網路上重新計算指標的工作實例。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/wiki-and-triples-graph-biological-processes_zh-TW.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="themes/theme-02/theme.css">
+<script src="themes/theme-02/theme.js"></script>
+<script src="themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#composition">組成</a>
+      <a href="#hubs">中樞生物學</a>
+      <a href="#additions">wiki 新增</a>
+      <a href="#links">有趣連結</a>
+      <a href="#examples">過程實例</a>
+      <a href="#roles">角色</a>
+      <a href="#methods">方法</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">分析 · 合併知識圖譜 · 2026年8月27日</p>
+    <h1>合併知識圖譜中的生物過程（wiki 與 triples）</h1>
+    <p class="lede">
+      本倉庫的圖譜檢視器如今執行在一個<strong>合併資料集</strong>上——從 <code>_triples.json</code>
+      抽取出的「triples 圖」（具型別關係）與「wiki 圖」（實體筆記之間的 Obsidian
+      <code>[[wikilinks]]</code>）之聯集。合併兩者不只是外觀上的差異：在聯集拓撲上重新計算中心性，
+      會重新接線整個圖像。零散的 triples 片段被縫合成一張稠密網路（最大 k-core 由 6 躍升至 20），
+      一批僅 wiki 的生物學（cGAS–STING、TP53／細胞週期、NMN／NAD+、粒線體自噬）進入內核，而每個既有樞紐的
+      PageRank 都提升 2–5 倍。本頁逐一過程地導覽合併圖譜得以獨特呈現的生物學。
+    </p>
+    <div class="meta">
+      <p><strong>日期：</strong>2026年8月27日</p>
+      <p><strong>資料來源：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code>（合併，檢視器預設）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code>（triples）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code>（wiki）</p>
+      <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md" target="_blank">src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md" target="_blank">wiki-out/GRAPH_REPORT.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md" target="_blank">wiki-out/GRAPH_DIFF.md</a></code> · <code><a href="node-analysis-examples-biology.html">node-analysis-examples-biology.html</a></code></p>
+      <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_rebuild_from_wiki.py" target="_blank">05_rebuild_from_wiki.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_build_combined.py" target="_blank">05_build_combined.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">04_node_analysis.py</a></code></p>
+      <p><strong>指標：</strong>在聯集拓撲上重新計算（未加權、α = 0.85；無向中介性／聚類／k-core）——見<a href="#methods">方法</a></p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>內容</p>
+    <ol>
+      <li><a href="#composition">三個圖譜與聯集的變化</a></li>
+      <li><a href="#hubs">合併核心中樞生物學</a></li>
+      <li><a href="#additions">wiki 新增的生物學（僅 wiki 節點）</a></li>
+      <li><a href="#links">有趣的連結與意外連結</a></li>
+      <li><a href="#examples">生物過程實例</a></li>
+      <li><a href="#roles">角色分佈與注意事項</a></li>
+      <li><a href="#methods">方法與來源</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+    <section id="composition">
+      <p class="sec-label">01 · 組成</p>
+      <h2>一張稠密網路，由兩個稀疏視圖拼裝而成</h2>
+      <p class="drop">
+        triples 圖是一條小而具型別、零散的脊椎：2,629 個節點、僅 3,832 條邊。wiki 圖則是一張大型、
+        無型別、稠密的撰寫網路：2,995 個實體筆記與 34,851 條 <code>links_to</code> 邊。兩者的聯集就是
+        <strong>合併圖譜</strong>——4,085 個節點、36,998 條邊——也是檢視器預設顯示的內容。節點 id 以相同的
+        <code>norm()</code> 正規化（Unicode 正規化；<code>NF-κB</code> = <code>nf_kappab</code> 在三個圖中皆同），
+        因此兩個來源在實體層級能乾淨地併接。
+      </p>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><table>
+          <thead>
+            <tr>
+              <th>資料集</th>
+              <th class="num">節點</th>
+              <th class="num">邊</th>
+              <th>邊型別</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Triples</td><td class="num">2,629</td><td class="num">3,832</td><td>具型別關係（<code>promotes</code>、<code>inhibits</code>…）</td></tr>
+            <tr><td>Wiki</td><td class="num">2,995</td><td class="num">34,851</td><td>無型別 <code>links_to</code>（僅實體筆記）</td></tr>
+            <tr><td><strong>合併</strong>（預設）</td><td class="num"><strong>4,085</strong></td><td class="num"><strong>36,998</strong></td><td>3,832 條具型別 + 33,166 條 wiki + 1,685 條共享端點</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <p><strong>聯集節點組成</strong>——兩個圖皆有（shared）：<strong>1,539</strong> · 僅 wiki：<strong>1,456</strong> · 僅 triples：<strong>1,090</strong>。</p>
+      <p><strong>聯集邊來源</strong>——同時存在於兩個圖：1,685（4.6%）· 僅 wiki：33,166（89.6%）· 僅 triples：2,147（5.8%）。具型別的 triples 脊椎只占聯集的少數；wiki 邊主導了拓撲。</p>
+
+      <div class="note gold">
+        <h4>重點：wiki 連結將片段縫合在一起</h4>
+        <p>
+          在聯集（相對 triples 單獨）上重新計算的連通性：
+        </p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>指標</th><th class="num">Triples</th><th class="num">合併</th><th class="num">Δ</th></tr></thead>
+          <tbody>
+            <tr><td>連通分量數</td><td class="num">223</td><td class="num">123</td><td class="num">−100</td></tr>
+            <tr><td>最大連通分量</td><td class="num">2,147（81.7%）</td><td class="num">3,840（<strong>94.0%</strong>）</td><td class="num">+1,693</td></tr>
+            <tr><td>最大 k-core</td><td class="num">6</td><td class="num"><strong>20</strong></td><td class="num">+14</td></tr>
+            <tr><td>平均聚類係數</td><td class="num">—</td><td class="num">0.290</td><td class="num">—</td></tr>
+          </tbody>
+        </table></div>
+        <p>
+          triples 圖把 18% 的節點留在最大連通分量之外，並把內核停在 k-core 6。加上 wiki 邊後，這個外緣
+          被壓入單一稠密核心——這是本資料集最具方法論意義的訊息。任何「主幹」或「樞紐」的主張都必須
+          標明是在哪個圖上計算的。
+        </p>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1 · 連通性</span></div>
+        <div class="fig-canvas">
+          <svg viewBox="0 0 760 240" role="img" aria-label="Triples 相對合併的連通性柱狀圖">
+            <title>Triples 相對於合併的連通性</title>
+            <style>text { font-family: 'IBM Plex Sans','Heiti TC','PingFang TC','Microsoft JhengHei',sans-serif; }</style>
+            <rect x="0" y="0" width="760" height="240" fill="#fbf8f1"/>
+            <text x="24" y="30" fill="#2e4a5d" font-size="13" font-weight="600">Triples（藍灰）對比 合併（暗紅）</text>
+            <text x="120" y="70" text-anchor="middle" fill="#1c1915" font-size="13" font-weight="600">連通分量數</text>
+            <rect x="60" y="92" width="80" height="70" fill="#4c6e86"/>
+            <rect x="100" y="110" width="80" height="52" fill="#7a312c"/>
+            <text x="74" y="130" text-anchor="middle" fill="#fbf8f1" font-size="13" font-weight="600">223</text>
+            <text x="114" y="140" text-anchor="middle" fill="#fbf8f1" font-size="13" font-weight="600">123</text>
+            <text x="120" y="182" text-anchor="middle" fill="#6d665b" font-size="12">−100 座孤島</text>
+            <text x="340" y="70" text-anchor="middle" fill="#1c1915" font-size="13" font-weight="600">最大連通分量</text>
+            <rect x="280" y="92" width="70" height="70" fill="#4c6e86"/>
+            <rect x="310" y="74" width="70" height="88" fill="#7a312c"/>
+            <text x="295" y="130" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">82%</text>
+            <text x="325" y="128" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">94%</text>
+            <text x="340" y="182" text-anchor="middle" fill="#6d665b" font-size="12">3,840 節點</text>
+            <text x="560" y="70" text-anchor="middle" fill="#1c1915" font-size="13" font-weight="600">最大 k-core</text>
+            <rect x="500" y="92" width="46" height="70" fill="#4c6e86"/>
+            <rect x="526" y="28" width="46" height="134" fill="#7a312c"/>
+            <text x="513" y="130" text-anchor="middle" fill="#fbf8f1" font-size="13" font-weight="600">6</text>
+            <text x="539" y="86" text-anchor="middle" fill="#fbf8f1" font-size="13" font-weight="600">20</text>
+            <text x="560" y="182" text-anchor="middle" fill="#6d665b" font-size="12">內核深度</text>
+            <text x="24" y="220" fill="#6d665b" font-size="12">每對中較短的桿為 triples，較長者為合併（k-core 6 → 20）。</text>
+          </svg>
+        </div>
+        <figcaption>
+          <strong>Triples → 合併。</strong>連通分量數 223 → 123、最大連通分量 81.7% → 94.0%、
+          最大 k-core 6 → 20。wiki 連結把具型別的片段縫合成一張網路。
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="hubs">
+      <p class="sec-label">02 · 中樞生物學</p>
+      <h2>合併核心就是既有機制，受到加強</h2>
+      <p>
+        依合併後度數排名的前 15——每一個都是<strong>共享</strong>節點，位於 <strong>k-core 20</strong>
+        （聯集的內核）：
+      </p>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><table>
+          <thead>
+            <tr><th>節點</th><th class="num">度數</th><th class="num">k-core</th><th>聯集角色</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Oxidative Stress</td><td class="num">607</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>SIRT1</td><td class="num">579</td><td class="num">20</td><td>Spreader · Master regulator</td></tr>
+            <tr><td>Cancer</td><td class="num">573</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>SASP</td><td class="num">547</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Apoptosis</td><td class="num">444</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Autophagy</td><td class="num">423</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Aging</td><td class="num">395</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Senescence</td><td class="num">384</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>SIRT3</td><td class="num">370</td><td class="num">20</td><td>Spreader · Master regulator</td></tr>
+            <tr><td>NF-κB</td><td class="num">368</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Inflammation</td><td class="num">351</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Parkinson's Disease</td><td class="num">295</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>Mitochondria</td><td class="num">290</td><td class="num">20</td><td>Sink · Master regulator</td></tr>
+            <tr><td>SIRT6</td><td class="num">287</td><td class="num">20</td><td>Spreader · Master regulator</td></tr>
+            <tr><td>ROS</td><td class="num">284</td><td class="num">20</td><td>Sink · Bottleneck</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="note">
+        <h4>NF-κB 一致性——一個節點，三個圖</h4>
+        <p>
+          在 id 正規化重建之後，<code>NF-κB</code> 在 triples、wiki 與合併三個圖中都對應到同一個 id
+          （<code>nf_kappab</code>）。它現在以<strong>共享</strong>樞紐出現（度數 368、k-core 20、
+          Master regulator；聯集 PageRank 0.0055，排名第 10）。在舊的 <code>norm()</code> 之下，
+          triples（<code>nf_b</code>）與 wiki（<code>nf_kappab</code>）是兩個分離的節點，聯集分析會把
+          這個轉錄因子切成兩半。
+        </p>
+      </div>
+
+      <div class="note slate">
+        <h4>被 wiki 加持的 PageRank——既有樞紐提升 2–5 倍</h4>
+        <p>
+          共享節點的聯集 PageRank 減去 triples PageRank（變動最大的前幾名）：
+          <strong>Oxidative Stress</strong> 0.0115（triples 0.0032，+0.0083）· <strong>Cancer</strong> 0.0091（+0.0056）·
+          <strong>Inflammation</strong> 0.0061（+0.0055）· <strong>Apoptosis</strong> 0.0073（+0.0052）·
+          <strong>ROS</strong> 0.0053（+0.0050）· <strong>Mitochondria</strong> 0.0051（+0.0044）·
+          <strong>Autophagy</strong> 0.0083（+0.0041）· <strong>Senescence</strong> 0.0062（+0.0034）。
+          ROS、Inflammation 與 Mitochondria 在「僅 triples」的排名中幾乎不可見；wiki 的背書把她們拉進頂層。
+        </p>
+      </div>
+
+      <p>
+        聯集（無向）的最高中介性：<strong>SIRT1 0.080</strong>、Oxidative Stress 0.079、Cancer 0.069、
+        SIRT3 0.056、Apoptosis 0.048、Aging 0.045、Autophagy 0.043、SASP 0.043。在 triples 圖上，參考案例的
+        瓶頸是 <strong>SASP（0.0555）</strong>；被 wiki 縫合的網路把路徑中心性重新分配到 SIRT1 與
+        氧化還原／代謝軸。
+      </p>
+    </section>
+
+    <section id="additions">
+      <p class="sec-label">03 · 僅 wiki 的生物學</p>
+      <h2>wiki 新增的生物學——融入核心，而非懸枝</h2>
+      <p>
+        1,456 個僅 wiki 節點是那些跨筆記被連結、卻從未被抽為 triples 的實體。最顯著的發現：清單頂端
+        <strong>並非</strong>一堆垂掛的孤葉——每個領先的僅 wiki 節點都位於聯集核心<strong>之內</strong>
+        （k-core 15–20），透過 wiki 連結整合其中。機制上，這些是 triples 抽取低估的過程。
+      </p>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><table>
+          <thead>
+            <tr><th>節點</th><th class="num">度數</th><th class="num">k-core</th><th>角色（聯集）</th><th>生物學</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>TP53</td><td class="num">184</td><td class="num">20</td><td>Sink · Bottleneck</td><td>腫瘤抑制因子／衰老檢查點</td></tr>
+            <tr><td>cGAS</td><td class="num">96</td><td class="num">18</td><td>Sink · Bottleneck</td><td>胞質 DNA 感測器（cGAS–STING）</td></tr>
+            <tr><td>Phosphorylation</td><td class="num">87</td><td class="num">17</td><td>Spreader · Master regulator</td><td>訊息傳遞的轉譯後修飾主幹</td></tr>
+            <tr><td>STING</td><td class="num">83</td><td class="num">16</td><td>Sink · Bottleneck</td><td>先天免疫銜接蛋白</td></tr>
+            <tr><td>Cell Cycle</td><td class="num">83</td><td class="num">15</td><td>Sink · Bottleneck</td><td>增生／停滯控制</td></tr>
+            <tr><td>Macrophage</td><td class="num">75</td><td class="num">20</td><td>Spreader · Bottleneck</td><td>吞噬細胞／SASP 效應器</td></tr>
+            <tr><td>Ubiquitination</td><td class="num">72</td><td class="num">17</td><td>Spreader · Bottleneck</td><td>降解／訊息傳遞修飾</td></tr>
+            <tr><td>NMN</td><td class="num">71</td><td class="num">19</td><td>Sink · Bottleneck</td><td>NAD+ 前驅物</td></tr>
+            <tr><td>Rheumatoid Arthritis</td><td class="num">71</td><td class="num">20</td><td>Spreader · Bottleneck</td><td>自體免疫／發炎老化模型</td></tr>
+            <tr><td>Endothelial Cells</td><td class="num">68</td><td class="num">18</td><td>Bottleneck</td><td>血管衰老表面</td></tr>
+            <tr><td>Fibroblast</td><td class="num">68</td><td class="num">17</td><td>Sink · Bottleneck</td><td>衰老微環境細胞</td></tr>
+            <tr><td>Type I Interferon</td><td class="num">66</td><td class="num">16</td><td>Sink</td><td>cGAS–STING 效應器</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <p>
+        僅 wiki 的高 PageRank：<strong>TP53</strong>（0.00326）、Autophagosome、Epigenetic Aging、Atg1、
+        Epigenetic Alterations、Cell Cycle、PARK2、Mitochondrial Permeability Transition Pore、Histone
+        Variant、NMN。
+      </p>
+
+      <h3>wiki 獨自貢獻的過程</h3>
+      <ul class="practices">
+        <li>
+          <p class="ptag wiki">先天免疫 DNA 感測</p>
+          <h3>cGAS–STING —— 第一型干擾素軸</h3>
+          <p>
+            <strong>cGAS</strong>（96）、<strong>STING</strong>（83）、<strong>Type I Interferon</strong>
+            （66）、<strong>Macrophage</strong>（75），再加上共享樞紐 NF-κB、Inflammation、SASP，以及 wiki 圖
+            「cGAS-STING Pathway」社群中的僅 wiki 實體（<strong>Adaptive Immune System · AIM2 · 5xFAD</strong>；
+            見 <em>wiki-out/GRAPH_REPORT.md</em>）。這條軸正是 triples 抽取遺漏的那類生物學：胞質 DNA → cGAMP →
+            STING → IRF3/NF-κB → 第一型干擾素／SASP。它是粒線體 DNA 逸出、衰老與神經發炎之間的機制橋樑。
+          </p>
+        </li>
+        <li>
+          <p class="ptag wiki">腫瘤抑制控制</p>
+          <h3>TP53 與細胞週期檢查點</h3>
+          <p>
+            <strong>TP53</strong>（184、k-core 20、Sink·Bottleneck）是最大的僅 wiki 節點，落在聯集最內層。
+            它把 <strong>Cell Cycle</strong>（83）、<strong>Replicative Senescence</strong>（65）、
+            <strong>Epigenetics and aging</strong>（64）與 <strong>Histone Variant</strong>（60）帶入與
+            SASP 及衰老機制的單一連通分量。wiki 圖也顯示出缺口：<code>CDK4</code>／<code>CDK6</code>
+            在 wiki 報告中仍是<strong>孤立</strong>節點（≤1 條連線）——這是細胞週期停滯生物學的具體策展缺口。
+          </p>
+        </li>
+        <li>
+          <p class="ptag wiki">NAD+ 代謝</p>
+          <h3>NMN 與 NAD+ 補救軸</h3>
+          <p>
+            <strong>NMN（Nicotinamide Mononucleotide）</strong>（71、k-core 19）進入核心，連接到共享的
+            <strong>NAD+</strong>／<strong>SIRT1</strong>／SIRT3 樞紐，並在 wiki 圖中進入 <strong>NAD+</strong>
+            社群（77 個節點：1-Methylnicotinamide、BMAL1、Axon Degeneration…）。因此聯集把 NMN 的藥理學、
+            晝夜節律（BMAL1）、去乙醯酶與軸突退化脈絡在一步範圍內連在一起。
+          </p>
+        </li>
+        <li>
+          <p class="ptag wiki">粒線體品質控制</p>
+          <h3>PINK1/PARK2、mPTP 與粒線體自噬機制</h3>
+          <p>
+            僅 wiki 的 <strong>PARK2</strong>、<strong>Mitochondrial Permeability Transition Pore</strong>（57）、
+            <strong>Autophagosome</strong> 與 <strong>Atg1</strong> 加入共享的 <strong>Mitochondria</strong>／
+            <strong>DRP1</strong>／<strong>Mitophagy</strong> 社群，把帕金森氏症（α-synuclein、6-OHDA）與
+            神經退化脈絡接上分裂／融合與粒線體自噬。<code>04_node_analysis</code> 式的 PPR 以 <strong>Cancer</strong>
+            為種子時，把 <code>mitochondria</code> 與 <code>neurodegeneration</code> 排進最近鄰居——
+            粒線體—老化軸正是聯集的中央縫合線之一。
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="links">
+      <p class="sec-label">04 · 有趣的連結</p>
+      <h2>意外連結與預測邊</h2>
+
+      <h3>wiki 圖回報的意外連結（GRAPH_REPORT.md）</h3>
+      <div class="table-wrap"><div class="copy-host table-host"><table>
+        <thead><tr><th>邊</th><th>為什麼有趣</th></tr></thead>
+        <tbody>
+          <tr><td><code>NF-κB —links_to→ CD40L</code></td><td>轉錄因子樞紐連到 T 細胞共刺激配體——與發炎老化及抗體驅動免疫相關的 NF-κB→CD40/CD40L 回路。</td></tr>
+          <tr><td><code>mTORC1 —links_to→ YY1</code></td><td>養分感測激酶複合體連到 Polycomb 相關轉錄因子——mTORC1 訊號一個較少被探索的（表觀遺傳）支線。</td></tr>
+          <tr><td><code>α-tubulin —links_to→ Cellular Senescence</code></td><td>細胞骨架單體連到衰老狀態——微管動態是被忽略的衰老表現型（α-微管蛋白乙醯化正是 SIRT2 的受質）。</td></tr>
+          <tr><td><code>Antioxidant Response Element —links_to→ Oxidative Stress</code></td><td>ARE/Nrf2 順式作用元件直接接到語料庫最大的樞紐——氧化還原生物學的轉錄支臂被明確化。</td></tr>
+          <tr><td><code>Michael addition —links_to→ Glutamate-Cysteine Ligase</code></td><td>反應性親電體化學接到 GSH 合成的限速酶——電親性毒物興奮（Nrf2 活化）的化學生物學根源。</td></tr>
+        </tbody>
+      </table></div></div>
+
+      <h3>有趣的僅 wiki 邊（GRAPH_DIFF.md——可抽成 triples 的候選）</h3>
+      <div class="table-wrap"><div class="copy-host table-host"><table>
+        <thead><tr><th>邊</th><th>生物學解讀</th></tr></thead>
+        <tbody>
+          <tr><td><code>Zscan4 → TAK1 / SASP / PRDX6 / HSPA8</code></td><td>胚胎幹細胞的 Zscan4 接到壓力激酶（TAK1）、抗氧化（PRDX6）、伴護蛋白（HSPA8）與 SASP——一個非常規位置的壓力韌性樞紐。</td></tr>
+          <tr><td><code>ZKSCAN3 → TFEB / Lysosome / LC3 / Starvation</code></td><td>溶酶體抑制轉錄因子 ZKSCAN3 與 TFEB 對立——自噬基因程式的兩個極點，如今明確相連。</td></tr>
+          <tr><td><code>Zone 2 Cardio → Mitochondria / Metabolic Flexibility / HIIT</code></td><td>運動生理學接到粒線體生物學——實用的能量生物學橋樑（脂肪氧化↔粒線體呼吸）。</td></tr>
+          <tr><td><code>Zinc Finger → TALE / mitoZFNs / Mitochondrial Targeting Sequence</code></td><td>粒線體基因編輯工具鏈（鋅指核酸酶 + TALE + MTS）——粒線體編輯工具套件作為單一模組。</td></tr>
+        </tbody>
+      </table></div></div>
+
+      <h3>尚未反映為 wikilink 的僅 triples 邊</h3>
+      <div class="table-wrap"><div class="copy-host table-host"><table>
+        <thead><tr><th>邊</th><th>生物學解讀</th></tr></thead>
+        <tbody>
+          <tr><td><code>Warburg Effect → p53</code></td><td>代謝重程式與腫瘤抑制控制——有氧糖解／p53 軸。</td></tr>
+          <tr><td><code>YAP1 → Cancer</code></td><td>Hippo 路徑效應器到癌症樞紐——腫瘤發生中的機械轉導。</td></tr>
+          <tr><td><code>Zellweger syndrome → PEX gene mutations</code></td><td>過氧化物酶體生物發生疾病連到其基因基礎——胞器生物學的疾病連結。</td></tr>
+          <tr><td><code>Vitamin E → prostate cancer risk in slow/fast COMT</code></td><td>營養—修飾因子交互作用依 COMT 基因型分層——抗氧化劑的藥物基因體學角度。</td></tr>
+        </tbody>
+      </table></div></div>
+
+      <div class="note">
+        <h4>wiki 圖上的預測連結（04_link_prediction）</h4>
+        <p>
+          最高的 Adamic–Adar 候選（待查文獻的缺邊假設，非事實）：
+          <strong>Alzheimer's Disease ↔ Parkinson's Disease</strong>（aa 30.5）·
+          <strong>Mitochondria ↔ ROS</strong>（29.5）· <strong>IL-6 ↔ IL-8</strong>（24.3）·
+          <strong>Aging ↔ Neurodegeneration</strong>（22.0）· <strong>Cancer ↔ Neurodegeneration</strong>（21.3）·
+          <strong>Parkinson's Disease ↔ ROS</strong>（21.1）。反覆出現的配對是神經退化 ↔ 代謝／氧化還原
+          生物學——也正是聯集 PPR 分布所浮現的縫合線
+          （<code>oxidative_stress</code> → NAD／SIRT3；<code>cancer</code> → SIRT1／粒線體／神經退化；
+          <code>sasp</code> → 發炎／DNA 損傷／阿茲海默氏症）。
+        </p>
+      </div>
+    </section>
+
+    <section id="examples">
+      <p class="sec-label">05 · 生物學過程</p>
+      <h2>在合併資料集中的工作實例</h2>
+      <p>
+        下列每個實例挑選一個生物學過程，並從合併圖譜讀出網絡證據——標註哪個圖貢獻了哪些節點
+        （金色 = 僅 wiki 新增，藍灰 = 共享樞紐）。這些是對聯集拓撲的解讀；請把每個主張當成可對照筆記
+        檢驗的假說。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 2 · 合併圖譜中的 cGAS–STING 生物學</span></div>
+        <div class="fig-canvas">
+          <svg viewBox="0 0 780 300" role="img" aria-label="合併圖譜中的 cGAS-STING 軸流向">
+            <title>cGAS–STING 軸</title>
+            <style>text { font-family: 'IBM Plex Sans','Heiti TC','PingFang TC','Microsoft JhengHei',sans-serif; }</style>
+            <rect x="0" y="0" width="780" height="300" fill="#fbf8f1"/>
+            <defs>
+              <marker id="cg-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#6d665b"/>
+              </marker>
+            </defs>
+            <circle cx="70" cy="150" r="26" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="70" y="146" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">mtDNA /</text>
+            <text x="70" y="160" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">受損 DNA</text>
+            <circle cx="200" cy="150" r="30" fill="none" stroke="#9a7430" stroke-width="1.6" stroke-dasharray="4 3"/>
+            <circle cx="200" cy="150" r="26" fill="#9a7430" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="200" y="154" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">cGAS</text>
+            <line x1="96" y1="150" x2="170" y2="150" stroke="#6d665b" stroke-width="1.2" marker-end="url(#cg-arr)"/>
+            <circle cx="340" cy="150" r="30" fill="none" stroke="#9a7430" stroke-width="1.6" stroke-dasharray="4 3"/>
+            <circle cx="340" cy="150" r="26" fill="#9a7430" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="340" y="154" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">STING</text>
+            <line x1="226" y1="150" x2="310" y2="150" stroke="#6d665b" stroke-width="1.2" marker-end="url(#cg-arr)"/>
+            <circle cx="520" cy="80" r="30" fill="none" stroke="#9a7430" stroke-width="1.6" stroke-dasharray="4 3"/>
+            <circle cx="520" cy="80" r="26" fill="#9a7430" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="520" y="76" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">Type I</text>
+            <text x="520" y="90" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">Interferon</text>
+            <circle cx="520" cy="170" r="30" fill="none" stroke="#2e4a5d" stroke-width="1.0"/>
+            <circle cx="520" cy="170" r="26" fill="#2e4a5d" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="520" y="174" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">NF-κB</text>
+            <circle cx="520" cy="250" r="30" fill="none" stroke="#9a7430" stroke-width="1.6" stroke-dasharray="4 3"/>
+            <circle cx="520" cy="250" r="26" fill="#9a7430" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="520" y="254" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">Macrophage</text>
+            <circle cx="688" cy="120" r="30" fill="none" stroke="#2e4a5d" stroke-width="1.0"/>
+            <circle cx="688" cy="120" r="26" fill="#2e4a5d" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="688" y="124" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">SASP</text>
+            <circle cx="688" cy="210" r="30" fill="none" stroke="#2e4a5d" stroke-width="1.0"/>
+            <circle cx="688" cy="210" r="26" fill="#2e4a5d" stroke="#1c1915" stroke-width="0.8"/>
+            <text x="688" y="214" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">Inflamm-</text>
+            <text x="688" y="226" text-anchor="middle" fill="#fbf8f1" font-size="10" font-weight="600">ation</text>
+            <line x1="366" y1="145" x2="494" y2="84" stroke="#6d665b" stroke-width="1.1" marker-end="url(#cg-arr)"/>
+            <line x1="366" y1="152" x2="494" y2="168" stroke="#6d665b" stroke-width="1.1" marker-end="url(#cg-arr)"/>
+            <line x1="366" y1="158" x2="494" y2="246" stroke="#6d665b" stroke-width="1.1" marker-end="url(#cg-arr)"/>
+            <line x1="546" y1="85" x2="662" y2="118" stroke="#6d665b" stroke-width="1.1" marker-end="url(#cg-arr)"/>
+            <line x1="546" y1="176" x2="662" y2="204" stroke="#6d665b" stroke-width="1.1" marker-end="url(#cg-arr)"/>
+            <line x1="546" y1="244" x2="662" y2="216" stroke="#6d665b" stroke-width="1.1" marker-end="url(#cg-arr)"/>
+            <text x="16" y="28" fill="#9a7430" font-size="12" font-weight="600">金色虛線 = 僅 wiki 新增</text>
+            <text x="16" y="46" fill="#2e4a5d" font-size="12" font-weight="600">藍灰 = 共享樞紐</text>
+          </svg>
+        </div>
+        <figcaption>
+          <strong>合併圖譜組裝出的 cGAS–STING 軸。</strong>感測—效應器的一半（cGAS → STING → 第一型干擾素）
+          是僅 wiki；下游程式（NF-κB → SASP／Inflammation）是共享核心。合併資料集是第一張把整條軸視為
+          單一連通過程的視圖。
+        </figcaption>
+      </figure>
+
+      <div class="instance">
+        <h3>cGAS–STING → 第一型干擾素 → 衰老／SASP</h3>
+        <p>
+          合併圖譜的證據：<strong>cGAS</strong>（k18）· <strong>STING</strong>（k16）·
+          <strong>Type I Interferon</strong>（k16）——皆僅 wiki、皆在聯集核心內——級聯進入共享的
+          NF-κB（368、k20）／Inflammation（351、k20）／SASP（547、k20）樞紐。wiki 圖自己的社群視圖
+          確認一個 96 節點的「cGAS-STING Pathway」社群，包含阿茲海默氏症（5xFAD、APOE3 Christchurch），
+          支持神經發炎的詮釋。意義：胞質 <code>mtDNA</code> 逸出（粒線體自噬／粒線體毒物興奮失效）與
+          衰老相關 DNA 損傷都餵養此軸；合併讓「粒線體 → cGAS → SASP」路徑成為一條可一步連通的鏈。
+        </p>
+      </div>
+
+      <div class="instance">
+        <h3>鐵依賴性細胞凋亡（Ferroptosis）與脂質過氧化模組</h3>
+        <p>
+          wiki 圖的 <strong>Ferroptosis</strong> 社群（91 節點）與 <strong>Oxidative Stress</strong>（104 節點）
+          緊邻語料庫最大的樞紐 <strong>Oxidative Stress（607、k20）</strong>。模組的機制在聯集中完整：
+          <strong>GPX4</strong>（聚類係數 1.0——緊密氧化還原模組成員）、<strong>ACSL4</strong> 與
+          <strong>ALOX15</strong>（PUFA 過氧化）、<strong>4-Hydroxynonenal</strong>，以及播散者
+          <strong>Acid ceramidase</strong>（out ≫ in；衰老細胞膜重塑向促鐵之 PUFA 輪廓）。組合解讀：
+          聯集把酶的引擎（ACSL4/ALOX15/GPX4，triples 具型別）與氧化還原感測脈絡（cGAS-STING、Nrf2/ARE）
+          經由 wiki 連結耦合——兩個圖各攜帶一半的單一模組。
+        </p>
+      </div>
+
+      <div class="instance">
+        <h3>NAD+ → SIRT1 → 粒線體毒物興奮／自噬</h3>
+        <p>
+          <strong>SIRT1（579、k20、Spreader·Master）</strong>是聯集度數第 2、中介性最高（0.080）的節點。
+          圍繞它，聯集組裝出：<strong>NAD+</strong>（共享）、<strong>NMN</strong>（僅 wiki、k19）、
+          <strong>Nicotinamide Riboside</strong>、<strong>AMPK</strong>、<strong>mTORC1</strong>，以及 wiki 圖的
+          <strong>Mitohormesis</strong>（45 節點：ATF4、ATF5、cco-1、CHOP）與 <strong>DRP1</strong>（43 節點：
+          分裂／融合）社群。以 <code>oxidative_stress</code> 為種子的 PPR 把 NAD 與 SIRT3 排為最近鄰居——
+          氧化還原—SIRT 軸在聯集中是連貫的鄰域。生物重點：NAD+ 前驅藥理（NMN/NR）如今與粒線體、
+          粒線體毒物興奮、自噬位於同一連通分量，而線蟲毒物興奮社群（DAF-2 → HLH-30）只有幾跳之遙。
+        </p>
+      </div>
+
+      <div class="instance">
+        <h3>TP53、細胞週期停滯與衰老檢查點</h3>
+        <p>
+          <strong>TP53</strong> 是最大的僅 wiki 節點（184、k20、Sink·Bottleneck）：triples 圖從未把它抽為
+          樞紐，但 wiki 連結把它放在最內層，作為連接 <strong>Cell Cycle</strong>（83）、
+          <strong>Replicative Senescence</strong>（65）、<strong>Histone Variant</strong>（60）與 SASP 核心的
+          中介瓶頸。wiki 報告標出伴隨的缺口：<code>CDK4</code>／<code>CDK6</code> 孤立（≤1 條連線），
+          即執行 p53 依賴停滯的 p16/p21-CDK-RB 軸策展不足——這是建立筆記的具體下一個目標
+          （<em>Senomorphic Therapy</em> 社群，51 節點，含 BRD4／BET 抑制劑，已在此等待）。
+        </p>
+      </div>
+
+      <div class="instance">
+        <h3>帕金森氏症與粒線體品質控制</h3>
+        <p>
+          wiki 圖最大的社群是 <strong>Parkinson's Disease</strong>（202 節點：α-synuclein、A53T、6-OHDA、
+          5,6-indolequinone），也是聯集第 12 大樞紐（295、k20）。僅 wiki 的 <strong>PARK2</strong>、
+          <strong>mPTP</strong>（57）與 <strong>Autophagosome</strong> 把它橋接到共享的 <strong>Mitophagy</strong>／
+          <strong>DRP1</strong>（分裂）／<strong>Mitochondria</strong> 社群。搭配連結預測清單
+          （<strong>Parkinson's ↔ ROS</strong>、<strong>Alzheimer's ↔ Parkinson's</strong>），合併圖譜的
+          解讀是：多巴胺神經元的脆弱性 = 粒線體自噬失敗 + 氧化還原壓力 + 神經發炎（cGAS-STING），
+          全部在幾個合併跳數內可達。
+        </p>
+      </div>
+    </section>
+
+    <section id="roles">
+      <p class="sec-label">06 · 角色分佈</p>
+      <h2>當圖譜換成聯集時，角色會改變</h2>
+      <p>
+        相同的 <code>_node_roles_lib</code> 規則，而是度閾值依各圖重新校準。聯集的組成與「僅 triples」
+        的參考頁面有質性的不同：
+      </p>
+      <div class="table-wrap"><div class="copy-host table-host"><table>
+        <thead><tr><th>角色</th><th class="num">Triples（8/16）</th><th class="num">合併（聯集）</th><th>在聯集上的解讀</th></tr></thead>
+        <tbody>
+          <tr><td>Spreader</td><td class="num">205（7.9%）</td><td class="num">2,026（49.6%）</td><td>wiki <code>links_to</code> 是撰寫向的出邊 → 多數節點「對外播送」</td></tr>
+          <tr><td>Periphery</td><td class="num">1,925（74.2%）</td><td class="num">1,055（25.8%）</td><td>孤葉被拉進連通的核</td></tr>
+          <tr><td>Module member</td><td class="num">71（2.7%）</td><td class="num">799（19.6%）</td><td>wiki 共同連結形成稠密局部鄰域</td></tr>
+          <tr><td>Bottleneck</td><td class="num">260（10.0%）</td><td class="num">409（10.0%）</td><td>前十分位中介性（重新校準）</td></tr>
+          <tr><td>Sink</td><td class="num">—</td><td class="num">359（8.8%）</td><td>入邊主導（wiki 背書）</td></tr>
+          <tr><td>Core backbone</td><td class="num">99（3.8%）</td><td class="num">180（4.4%）</td><td>k-core ≥ max−1（現為 k-core 19–20）</td></tr>
+          <tr><td>Master regulator</td><td class="num">51（2.0%）</td><td class="num">89（2.2%）</td><td>既是來源又受背書</td></tr>
+        </tbody>
+      </table></div></div>
+
+      <div class="note gold">
+        <h4>影響詮釋的注意事項</h4>
+        <ul>
+          <li><strong>wiki 邊無型別。</strong>89.6% 的聯集邊是 <code>links_to</code>（方向 = 筆記撰寫，信心度 1.0）。度數、k-core 與連通性是穩健的；但這些邊上的<strong>具向角色語義</strong>（spreader／sink）是撰寫偽影——只有具型別的 triples 脊椎才值得這樣讀。</li>
+          <li><strong>儲存的指紋是各來源繼承來的。</strong>合併的 <code>nodes.json</code> 在共享節點上攜帶 triples 側指標、僅 wiki 節點上攜帶 wiki 側數值；本頁數值是在聯集上<strong>重新計算</strong>的（見方法）。</li>
+          <li><strong>閾值重新校準。</strong>上表角色計數是聯集的百分位，不能與 triples 頁表格 1:1 比較。</li>
+        </ul>
+      </div>
+
+      <p>
+        實務後果：在聯集上，用角色標籤找<em>結構</em>（核心／主幹、瓶頸、局部模組）。當問題是因果性的——
+        「這個酶對那條路徑做什麼？」——請把分析限制在 <code>sources ∋ triples</code> 的邊（具型別脊椎：
+        2,147 條僅 triples + 1,685 條共享端點 ≈ 全部 3,832 條具型別邊），即可在較稠密的拓撲上取回型別語義。
+      </p>
+    </section>
+
+    <section id="methods">
+      <p class="sec-label">07 · 方法與來源</p>
+      <h2>這些數字如何產生</h2>
+      <ol class="practices">
+        <li>
+          <p class="ptag implementation">本分析</p>
+          <h3>在聯集上重新計算</h3>
+          <p>
+            聯集 <code>DiGraph</code> 由 <code>web/data/nodes.json</code> + <code>edges.json</code>
+            （由 <code>scripts/05_build_combined.py</code> 產生的合併資料集）建立。指標：
+            <code>nx.pagerank(G, alpha=0.85, max_iter=200)</code>；無向投影 →
+            <code>betweenness_centrality</code>、<code>clustering</code>、<code>core_number</code>、
+            <code>connected_components</code>；角色由 <code>scripts/_node_roles_lib.py</code> 產生。
+            Triples 基準讀取 <code>graphify-out/graph.json</code>。完整細節與表格見任務輸出文件。
+            （一次性的分析，不是受追蹤的指令碼。）
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">配套產物</p>
+          <h3>各來源提供什麼</h3>
+          <p>
+            <code>wiki-out/GRAPH_REPORT.md</code> —— wiki 圖的 god nodes、68 個社群、意外連結、孤立節點缺口。
+            <code>wiki-out/GRAPH_DIFF.md</code> —— triples 與 wiki 的節點／邊差異（僅 wiki／僅 triples 清單）。
+            <code>web/data/wiki-link-prediction.json</code> —— wiki 圖上的 Adamic-Adar 缺邊候選。
+            <code>web/data/node_roles.json</code> —— 規範合併角色產物；注意其網頁節點欄位缺乏入／出度，
+            因此那裡的 Spreader／Sink 被低估（已知現象；上表由完整指紋重新計算）。
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">要引用的圖</p>
+          <h3>永遠標明是哪張圖</h3>
+          <p>
+           所有在 2026 年 8 月 27 日之前的分析文件（包括 <code>node-analysis-examples-biology.html</code>）
+            都是在 <strong>triples 圖</strong>上計算的。指標、角色與主幹主張都依圖而異：k-core 6（triples）
+            對比 20（合併）；最高中介性 SASP 對比 SIRT1。請標明某個數字出自哪個資料集。
+          </p>
+        </li>
+      </ol>
+
+      <h3>後續步驟</h3>
+      <ul>
+        <li>以 Leiden 重新分群，並輸出規範合併 <code>graph.json</code>（內含聯集指標＋角色），使
+        <code>04_node_analysis.py --graph combined-graph.json</code> 能在聯集上執行路徑／多重性／PPR 分析。</li>
+        <li>具型別脊椎分析：在聯集節點集合上的「僅 triples + 共享」邊集（≈3,832 條具型別邊）執行關係感知方法。</li>
+        <li>角色去偏：在具型別子集上重新計算角色，以區分「撰寫出度」與「生物播送」。</li>
+        <li>補上已標記的策展缺口（CDK4/CDK6 孤立；GRAPH_DIFF 中的僅 wiki 邊作為 triple 種子）。</li>
+      </ul>
+
+      <h3>參考文獻</h3>
+      <ol class="refs">
+        <li>倉庫任務輸出，2026 年 8 月 27 日。<em>合併知識圖譜的節點層級網絡分析。</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md"><code>src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</code></a>。</li>
+        <li>Wiki 圖報告，2026 年 8 月 27 日。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md"><code>wiki-out/GRAPH_REPORT.md</code></a>。</li>
+        <li>Triples-vs-wiki 差異，2026 年 8 月 27 日。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md"><code>wiki-out/GRAPH_DIFF.md</code></a>。</li>
+        <li>管線。<code>scripts/03_rebuild_from_triples.py</code> · <code>scripts/05_rebuild_from_wiki.py</code> · <code>scripts/05_build_combined.py</code> · <code>scripts/_node_roles_lib.py</code>。</li>
+        <li>分析指令碼。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> · <code>scripts/04_link_prediction.py</code> · <code>scripts/04_role_query.py</code>。</li>
+        <li>Triples 圖指標參考（2026 年 8 月 16 日）。<a href="node-analysis-examples-biology.html"><code>node-analysis-examples-biology.html</code></a>。</li>
+        <li>Jeong H, et al. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42.</li>
+        <li>Yu H, et al. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
+        <li>Wuchty S, Almaas E. Peeling the yeast protein network. <em>Proteomics</em> 2005;5:444–449.</li>
+      </ol>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      為 llm-wiki-jk 知識圖譜製作的合併圖譜生物學導覽。
+      指標是在聯集拓撲上重新計算（2026 年 8 月 27 日）。不是醫療建議；每個網絡解讀都是應該對照來源筆記
+      檢驗的假說。
+    </p>
+    <p><strong>圖譜建構：</strong>triples <code>2629n/3832e</code> · wiki <code>2995n/34851e</code> · 合併 <code>4085n/36998e</code></p>
+    <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
+</footer>
+
+<script>
+/* 靜態圖表；本頁不需要執行期圖表。 */
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="themes/theme-01/pages-svg.js"></script>
+</body>
+</html>
