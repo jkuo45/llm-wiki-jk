@@ -18,7 +18,7 @@
 - For translation tasks, prefer the Python `deep-translator` library using the Google Translate engine; review the output for biomedical terminology accuracy before publishing.
 - When new pages are created:
   - Check whether a language-specific version of the page already exists before adding a new one.
-  - Register the new articles in the site index artifacts: `web/sitemap.xml`, `web/data/articles.json`, `web/llms.txt`.
+  - Register the new articles in the site index artifacts: `web/public/sitemap.xml`, `web/public/data/articles.json`, `web/public/llms.txt`.
 - Commit messages use the style `chore(<scope>): <short lowercase description>` — single line, lowercase after the colon (e.g. `chore: rename chat to prompt`, `chore(analysis): query selection and node info to analysis panel`). Scope is optional; keep the whole subject under ~72 chars.
 
 ## Retrieval Guidelines:

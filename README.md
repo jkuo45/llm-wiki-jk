@@ -26,7 +26,7 @@
 
 The deployed viewer (`web/`) exposes **three graph datasets**, switchable via the single **mode** button in the Graph toolbar (cycles Triples → Wiki → Combined; the choice persists in the URL hash, e.g. `?mode=wiki`). **Combined is the default.**
 
-| Dataset | Source | `web/data/` files | Nodes | Edges |
+| Dataset | Source | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | :--- | ---: | ---: |
 | **Combined** *(default)* | union of triples + wiki | `nodes.json`, `edges.json`, `legend.json`, `graph-meta.json`, `node_roles.json`, `roles-meta.json` | 4,085 | 36,998 |
 | **Triples** | `src/**/_triples.json` extractions → `graphify-out/graph.json` | `triples-*.json` | 2,629 | 3,832 |
@@ -42,7 +42,7 @@ Node ids are canonicalised by `norm(label)` (Unicode-normalised; Greek letters t
 
 ### ⚠️ Calculation / analysis basis
 
-The node-network analyses in `src/tasks/`, the analysis articles in `web/pages/`, and the `04_node_analysis.py` / `04_link_prediction.py` / `04_role_query.py` outputs — were performed on the **triples graph** (`graphify-out/graph.json`), which predates the wiki and combined datasets. Any analysis run on the wiki or combined graph should state the graph (mode) explicitly.
+The node-network analyses in `src/tasks/`, the analysis articles in `web/public/pages/`, and the `04_node_analysis.py` / `04_link_prediction.py` / `04_role_query.py` outputs — were performed on the **triples graph** (`graphify-out/graph.json`), which predates the wiki and combined datasets. Any analysis run on the wiki or combined graph should state the graph (mode) explicitly.
 
 ---
 
@@ -58,7 +58,7 @@ The node-network analyses in `src/tasks/`, the analysis articles in `web/pages/`
 >
 > **Graphify Rebuild From `_triples.json`**:
 >
-> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/data/` (**`triples-nodes.json`/`triples-edges.json`/`triples-legend.json`/`triples-graph-meta.json`/roles** derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). The canonical `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` (the **combined** default dataset) is produced by `scripts/05_build_combined.py` from the `triples-*` + `wiki-*` sources. Note: `web/data/graph.json` has been retired — the frontend reads the canonical `web/data/*.json` and/or the `triples-*`/`wiki-*` source files per mode, and the backend reads `graphify-out/graph.json` directly (single source of truth).
+> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/public/data/` (**`triples-nodes.json`/`triples-edges.json`/`triples-legend.json`/`triples-graph-meta.json`/roles** derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). The canonical `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` (the **combined** default dataset) is produced by `scripts/05_build_combined.py` from the `triples-*` + `wiki-*` sources. Note: `web/public/data/graph.json` has been retired — the frontend reads the canonical `web/public/data/*.json` and/or the `triples-*`/`wiki-*` source files per mode, and the backend reads `graphify-out/graph.json` directly (single source of truth).
 
 ---
 
