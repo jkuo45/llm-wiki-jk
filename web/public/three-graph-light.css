@@ -123,21 +123,6 @@ body {
 #wiki-tooltip { background: #FFFFFF; border-color: #0F766E; color: #22304A; box-shadow: 0 4px 16px rgba(34, 48, 74, 0.16); }
 #wiki-tooltip b { color: #2563A8; }
 
-/* CSS2D node labels + hovered-edge label (created in core.js). Without these
-   overrides the labels keep their dark pill background while --ink-hi flips to
-   navy text — unreadable. Mirror the tooltip treatment: white pill, warm
-   border, soft navy shadow. */
-.node-label {
-  background: rgba(255, 255, 255, 0.88);
-  text-shadow: none;
-}
-.edge-label {
-  color: #22304A;
-  background: rgba(255, 255, 255, 0.95);
-  border-color: rgba(15, 118, 110, 0.45);
-  text-shadow: none;
-}
-
 /* Wiki modal */
 #wiki-modal-overlay { background: rgba(24, 28, 38, 0.55); }
 #wiki-modal { background: #FFFFFF; border-color: #CCC5B2; box-shadow: 0 12px 48px rgba(34, 48, 74, 0.22); }
