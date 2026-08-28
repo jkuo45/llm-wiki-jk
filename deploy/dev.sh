@@ -18,8 +18,23 @@ export OPENCODE_SERVER_USERNAME="${OPENCODE_SERVER_USERNAME:-opencode}"
 export OPENCODE_PROMPT_AGENT="${OPENCODE_PROMPT_AGENT:-wiki-prompt}"
 export ALLOWED_ORIGINS="${ALLOWED_ORIGINS:-http://localhost:8080,http://127.0.0.1:8080}"
 export LOG_LEVEL="${LOG_LEVEL:-INFO}"
-export SUPABASE_URL="${SUPABASE_URL:-https://xanedntifdehgkvogiqb.supabase.co}"
-export SUPABASE_ANON_KEY="${SUPABASE_ANON_KEY:-sb_publishable__e9J8fhCInKsa-VxlpKG6g_EAKdr7KR}"
+
+# Adapter port (bare port number, loopback host is fixed below).
+export API_PORT="${API_PORT:-8000}"
+
+# Publishable Supabase values come from the repo .env (gitignored) — no
+# hardcoded copies here. Exported vars set before this script still win
+# unless .env defines them (sourced values take precedence).
+if [[ -f "${ROOT}/.env" ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source "${ROOT}/.env"
+  set +a
+fi
+if [[ -z "${SUPABASE_URL:-}" || -z "${SUPABASE_ANON_KEY:-}" ]]; then
+  echo "ERROR: SUPABASE_URL / SUPABASE_ANON_KEY not set — add them to ${ROOT}/.env" >&2
+  exit 1
+fi
 
 PY="${ROOT}/.venv/bin/python"
 [[ -x "$PY" ]] || PY="$(command -v python3)"
@@ -45,13 +60,13 @@ for _ in $(seq 1 30); do
   sleep 1
 done
 
-echo "==> starting adapter on :8000"
-"$PY" -m uvicorn api.main:app --host 127.0.0.1 --port 8000 --reload &
+echo "==> starting adapter on :${API_PORT}"
+"$PY" -m uvicorn api.main:app --host 127.0.0.1 --port "$API_PORT" --reload &
 API_PID=$!
 
 cat <<EOF
 
-  adapter   http://127.0.0.1:8000/v1/health
+  adapter   http://127.0.0.1:${API_PORT}/v1/health
   opencode  ${OPENCODE_URL}/doc
 
   To point the graph UI at this backend, serve web/ and set:

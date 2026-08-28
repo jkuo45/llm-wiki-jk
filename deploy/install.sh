@@ -120,6 +120,22 @@ log "installing python dependencies"
 chown -R "$SERVICE_USER:$SERVICE_USER" "$VENV"
 
 # --- environment file --------------------------------------------------------
+# Publishable Supabase values must come from the repo .env (gitignored) —
+# there are no hardcoded fallbacks.
+env_val() { # env_val KEY  — read a value from ${WIKI_ROOT}/.env, ignoring quotes
+  local v=""
+  v="$(grep -E "^${1}=" "${WIKI_ROOT}/.env" 2>/dev/null | tail -n1 | cut -d= -f2- | tr -d '"')"
+  [[ -n "$v" ]] && { printf '%s' "$v"; return; }
+  v="$(grep -E "^VITE_${1}=" "${WIKI_ROOT}/.env" 2>/dev/null | tail -n1 | cut -d= -f2- | tr -d '"')"
+  printf '%s' "$v"
+}
+SUPABASE_URL_VAL="$(env_val SUPABASE_URL)"
+SUPABASE_ANON_KEY_VAL="$(env_val SUPABASE_ANON_KEY)"
+[[ -n "$SUPABASE_URL_VAL" ]] \
+  || die "SUPABASE_URL not set — add it (or VITE_SUPABASE_URL) to ${WIKI_ROOT}/.env"
+[[ -n "$SUPABASE_ANON_KEY_VAL" ]] \
+  || die "SUPABASE_ANON_KEY not set — add it (or VITE_SUPABASE_ANON_KEY) to ${WIKI_ROOT}/.env"
+
 # Generated inline rather than copied from deploy/env.example, because that
 # template is gitignored and will not exist in a fresh server clone.
 install -d -m 0750 -o root -g "$SERVICE_USER" "$ENV_DIR"
@@ -155,8 +171,8 @@ HEARTBEAT_SECONDS=15
 LOG_LEVEL=INFO
 
 # --- supabase auth (publishable values only — safe to expose) ----------------
-SUPABASE_URL=https://xanedntifdehgkvogiqb.supabase.co
-SUPABASE_ANON_KEY=sb_publishable__e9J8fhCInKsa-VxlpKG6g_EAKdr7KR
+SUPABASE_URL=${SUPABASE_URL_VAL}
+SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY_VAL}
 
 WIKI_ROOT=${WIKI_ROOT}
 EOF

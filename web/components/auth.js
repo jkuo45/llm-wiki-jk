@@ -4,12 +4,15 @@
 // opens from the chip or when a protected API call comes back 401/403, never
 // blocking the page on load. Mutating API calls carry the access token
 // (`authHeaders()`), which the FastAPI adapter verifies against Supabase.
-// Override the project via window.SUPABASE_URL / window.SUPABASE_ANON_KEY.
+// Project URL + anon key come from VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY
+// (repo .env, inlined at build time); window.SUPABASE_URL / window.SUPABASE_ANON_KEY
+// override them at runtime. There are no hardcoded fallbacks — vite.config.js
+// fails the build if the vars are missing.
 
 import { createClient } from '@supabase/supabase-js';
 
-const SUPABASE_URL = window.SUPABASE_URL || 'https://xanedntifdehgkvogiqb.supabase.co';
-const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY || 'sb_publishable__e9J8fhCInKsa-VxlpKG6g_EAKdr7KR';
+const SUPABASE_URL = window.SUPABASE_URL || import.meta.env.VITE_SUPABASE_URL;
+const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY || import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 

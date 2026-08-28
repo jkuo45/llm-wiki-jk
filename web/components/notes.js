@@ -8,7 +8,7 @@ import { state } from './state.js';
 import { openPromptComposer } from './prompt.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
 
-const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
+const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
 
 // GitHub-first image host. Every committed note image lives at the
