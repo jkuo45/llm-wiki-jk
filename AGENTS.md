@@ -219,6 +219,11 @@ uv run --with networkx python3 scripts/05_build_combined.py
 uv run --with networkx python3 scripts/04_node_analysis.py --graph wiki-out/wiki-graph.json --sources sirt1 --targets mtorc1
 uv run --with networkx python3 scripts/04_link_prediction.py --graph graphify-out/graph.json
 uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.json --role Spreader --top 10
+
+# Mirror base layer into Supabase (topics/entities/edges/metrics/predictions;
+# incremental on version.json hash — needs SUPABASE_URL + SUPABASE_SERVICE_KEY
+# in env or repo .env, which is git-ignored). Run after any graph rebuild.
+uv run --no-build --with supabase --with pyyaml --with networkx python3 scripts/07_sync_to_db.py
 ```
 
 Notes:
