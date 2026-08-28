@@ -37,6 +37,11 @@ const userMenu = document.getElementById('auth-user-menu');
 const userEmail = document.getElementById('auth-user-email');
 const signoutBtn = document.getElementById('auth-signout');
 
+const forgotBtn = document.getElementById('auth-forgot');
+const resetRow = document.getElementById('auth-reset-row');
+const newPasswordInput = document.getElementById('auth-new-password');
+const resetBtn = document.getElementById('auth-reset-btn');
+
 // ------------------------------------------------------------
 // Overlay (on-demand sign-in card)
 // ------------------------------------------------------------
@@ -60,8 +65,17 @@ document.addEventListener('keydown', (e) => {
 // ------------------------------------------------------------
 // Top-bar chip
 // ------------------------------------------------------------
+// Auth chip hidden for now. Auth is still enforced by the API, and sign-in
+// remains reachable via the on-demand overlay (promptSignIn on 401/403).
+// Flip to true to restore the top-right account button.
+const SHOW_AUTH_CHIP = false;
+
 function renderChip(session) {
   if (!chip) return;
+  if (!SHOW_AUTH_CHIP) {
+    chip.hidden = true;
+    return;
+  }
   chip.hidden = false;
   const user = session?.user;
   if (user) {
@@ -132,7 +146,7 @@ googleBtn?.addEventListener('click', async () => {
 
 form?.addEventListener('submit', async (e) => {
   e.preventDefault();
-  errorEl.textContent = '';
+  showMsg('');
   const submitBtn = form.querySelector('button[type="submit"]');
   submitBtn.disabled = true;
   const { error } = await supabase.auth.signInWithPassword({
@@ -140,9 +154,63 @@ form?.addEventListener('submit', async (e) => {
     password: passwordInput.value,
   });
   submitBtn.disabled = false;
-  if (error) errorEl.textContent = error.message;
+  if (error) showMsg(error.message, true);
 });
 
-supabase.auth.onAuthStateChange((_event, session) => setSession(session));
+// ------------------------------------------------------------
+// Password reset (email recovery link -> set-new-password form)
+// ------------------------------------------------------------
+function showMsg(text, isError = false) {
+  if (!errorEl) return;
+  errorEl.textContent = text;
+  errorEl.style.color = isError ? '#ff7a7a' : '#7ee2a8';
+}
+
+forgotBtn?.addEventListener('click', async () => {
+  const email = emailInput.value.trim();
+  if (!email) {
+    showMsg('Enter your email above first / 請先在上方輸入 Email', true);
+    emailInput.focus();
+    return;
+  }
+  forgotBtn.disabled = true;
+  const { error } = await supabase.auth.resetPasswordForEmail(email, {
+    redirectTo: window.location.origin,
+  });
+  forgotBtn.disabled = false;
+  showMsg(
+    error ? error.message : 'Reset link sent — check your email / 連結已寄出，請至信箱收信',
+    !!error,
+  );
+});
+
+resetBtn?.addEventListener('click', async () => {
+  const pw = newPasswordInput.value;
+  if (pw.length < 6) {
+    showMsg('Password must be at least 6 characters / 密碼至少 6 位', true);
+    return;
+  }
+  resetBtn.disabled = true;
+  const { error } = await supabase.auth.updateUser({ password: pw });
+  resetBtn.disabled = false;
+  if (error) {
+    showMsg(error.message, true);
+    return;
+  }
+  newPasswordInput.value = '';
+  if (resetRow) resetRow.style.display = 'none';
+  showMsg('Password updated / 密碼已更新');
+});
+
+supabase.auth.onAuthStateChange((event, session) => {
+  setSession(session);
+  // User came back via a recovery link: supabase-js has already exchanged it
+  // for a session — surface the new-password form so the old one gets replaced.
+  if (event === 'PASSWORD_RECOVERY') {
+    if (resetRow) resetRow.style.display = 'flex';
+    showMsg('Set a new password / 請設定新密碼');
+    newPasswordInput?.focus();
+  }
+});
 
 supabase.auth.getSession().then(({ data }) => setSession(data.session));
