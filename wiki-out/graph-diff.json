@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:11:00Z",
-  "triples_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/graphify-out/graph.json",
-  "wiki_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/wiki-out/wiki-graph.json",
+  "generated_at": "2026-08-28T09:37:48Z",
+  "triples_graph": "/Users/johnnykuo/projects/llm-wiki-jk/graphify-out/graph.json",
+  "wiki_graph": "/Users/johnnykuo/projects/llm-wiki-jk/wiki-out/wiki-graph.json",
   "counts": {
     "triples_nodes": 2629,
     "wiki_nodes": 2994,
@@ -25,13 +25,13 @@
       "degree": 87
     },
     {
-      "id": "sting",
-      "label": "STING",
+      "id": "cell_cycle",
+      "label": "Cell Cycle",
       "degree": 83
     },
     {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
+      "id": "sting",
+      "label": "STING",
       "degree": 83
     },
     {
@@ -45,13 +45,13 @@
       "degree": 72
     },
     {
-      "id": "rheumatoid_arthritis",
-      "label": "Rheumatoid Arthritis",
+      "id": "nmn",
+      "label": "NMN (Nicotinamide Mononucleotide)",
       "degree": 71
     },
     {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
+      "id": "rheumatoid_arthritis",
+      "label": "Rheumatoid Arthritis",
       "degree": 71
     },
     {
@@ -95,23 +95,23 @@
       "degree": 60
     },
     {
-      "id": "mitochondrial_permeability_transition_pore",
-      "label": "Mitochondrial Permeability Transition Pore",
-      "degree": 57
-    },
-    {
       "id": "unfolded_protein_response",
       "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
-      "id": "calcium",
-      "label": "Calcium",
-      "degree": 56
+      "id": "mitochondrial_permeability_transition_pore",
+      "label": "Mitochondrial Permeability Transition Pore",
+      "degree": 57
     },
     {
       "id": "extracellular_matrix",
       "label": "Extracellular Matrix",
+      "degree": 56
+    },
+    {
+      "id": "calcium",
+      "label": "Calcium",
       "degree": 56
     }
   ],
@@ -122,13 +122,13 @@
       "degree": 11
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
@@ -137,8 +137,8 @@
       "degree": 4
     },
     {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
@@ -147,13 +147,13 @@
       "degree": 3
     },
     {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
       "degree": 3
     },
     {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
       "degree": 3
     },
     {
@@ -167,18 +167,13 @@
       "degree": 3
     },
     {
-      "id": "h3k9",
-      "label": "H3K9",
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
       "degree": 3
     },
     {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
-      "degree": 3
-    },
-    {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
       "degree": 3
     },
     {
@@ -187,33 +182,38 @@
       "degree": 3
     },
     {
-      "id": "metallic_silver",
-      "label": "Metallic silver",
+      "id": "h3k9",
+      "label": "H3K9",
+      "degree": 3
+    },
+    {
+      "id": "gdh",
+      "label": "GDH",
       "degree": 2
     },
     {
-      "id": "sirtuin_deacetylation_reaction",
-      "label": "Sirtuin deacetylation reaction",
+      "id": "blood",
+      "label": "Blood",
       "degree": 2
     },
     {
-      "id": "kinase_inhibitor_scaffold",
-      "label": "Kinase-inhibitor scaffold",
+      "id": "age_modified_proteins",
+      "label": "AGE-modified proteins",
       "degree": 2
     },
     {
-      "id": "adrenochrome_synthesis",
-      "label": "adrenochrome synthesis",
+      "id": "h3k56",
+      "label": "H3K56",
       "degree": 2
     },
     {
-      "id": "glycemic_control",
-      "label": "Glycemic Control",
+      "id": "methyl_donor_supplements",
+      "label": "Methyl donor supplements",
       "degree": 2
     },
     {
-      "id": "meteorin_like_protein",
-      "label": "Meteorin-like protein",
+      "id": "carbohydrate_metabolism",
+      "label": "carbohydrate metabolism",
       "degree": 2
     }
   ],

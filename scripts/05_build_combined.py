@@ -290,9 +290,24 @@ def main() -> int:
 
     # Roles: classify the combined node table with the shared role lib. These
     # become the canonical roles-meta.json consumed by the default mode.
+    # The web node schema has no in_degree/out_degree, so recompute them from
+    # the merged edge list (the raw graphs carry them, but this table is the
+    # union of both web exports) — otherwise Spreader/Sink classify as 0.
+    from collections import Counter
+
+    in_deg: Counter = Counter()
+    out_deg: Counter = Counter()
+    for e in edges:
+        out_deg[e["from"]] += 1
+        in_deg[e["to"]] += 1
+    role_nodes = [
+        dict(n, in_degree=in_deg[n["id"]], out_degree=out_deg[n["id"]])
+        for n in nodes
+    ]
+
     labels = {c["cid"]: c["label"] for c in legend}
     roles_path = DATA_DIR / "node_roles.json"
-    export_roles_json({"nodes": nodes}, labels, roles_path,
+    export_roles_json({"nodes": role_nodes}, labels, roles_path,
                       source_graph="web/public/data/nodes.json")
     roles_doc = json.loads(roles_path.read_text(encoding="utf-8"))
     roles_meta = {
