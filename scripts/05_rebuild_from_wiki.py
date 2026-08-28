@@ -22,7 +22,7 @@ graphify-out/graph.json (same node/edge attributes + metadata), so the existing
   uv run --with networkx python3 scripts/04_link_prediction.py \
       --graph wiki-out/wiki-graph.json --out wiki-out/wiki-link-prediction.json
   uv run python3 scripts/04_role_query.py \
-      --roles-file wiki-out/wiki-data/node_roles.json --role Spreader --top 10
+      --roles-file wiki-out/node_roles.json --role Spreader --top 10
 
 Run:  uv run --with graphifyy --with networkx --with scipy \
           python3 scripts/05_rebuild_from_wiki.py
@@ -63,7 +63,7 @@ NOTES_DIR = ROOT / "src" / "notes"  # topic-scoped entity notes
 WIKI_OUT = ROOT / "wiki-out"  # wiki-graph analysis artifacts
 WIKI_GRAPH = WIKI_OUT / "wiki-graph.json"
 WIKI_LABELS = WIKI_OUT / ".wiki_labels.json"  # community-label continuity
-WIKI_ROLES = WIKI_OUT / "wiki-data" / "node_roles.json"
+WIKI_ROLES = WIKI_OUT / "node_roles.json"
 DATA_DIR = ROOT / "web" / "public" / "data"  # deployed three-graph viewer data
 
 # Filename prefix used for source-document notes. Links often reference a
