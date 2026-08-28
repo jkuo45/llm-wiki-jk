@@ -23,9 +23,9 @@ const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
 
 // Bilingual (zh-TW) display labels for the controlled tag vocabulary. The raw
 // slug remains the source of truth for filtering/search — only the rendered
-// text is localized via `tagLabel()`. Resolve relative to this module so it
-// works no matter where the server root is (same convention as components/data.js).
-const NOTES_DATA_BASE = new URL('../data/', import.meta.url).href;
+// text is localized via `tagLabel()`. Resolved against the Vite base URL
+// (same convention as components/data.js).
+const NOTES_DATA_BASE = import.meta.env.BASE_URL + 'data/';
 let TAG_LABELS = null;            // { <slug>: '繁體中文 label' } once loaded
 let tagLabelsPending = false;
 

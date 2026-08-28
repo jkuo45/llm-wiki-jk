@@ -2,10 +2,10 @@
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
-// JSON data files live in web/data/ (kept out of the app root so the root
-// only holds code, assets, and config). Resolve relative to this module so
-// it works no matter where the server root is.
-const DATA_BASE = new URL('../data/', import.meta.url).href;
+// JSON data files live in web/public/data/ (kept out of the app root so the
+// root only holds code, assets, and config). Resolved against the Vite base
+// URL so it works in dev, preview, and the bundled production build.
+const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 
 // Cache busting: the rebuild script writes data/version.json containing a
 // content hash. The tiny version file is fetched with a no-cache query

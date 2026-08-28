@@ -7,11 +7,12 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <link rel="stylesheet" href="three-graph.css">
-<link rel="stylesheet" href="three-graph-light.css" id="theme-light">
+<link rel="stylesheet" href="/three-graph-light.css" id="theme-light">
 <script>
   /* Site-wide theme bootstrap (light is the default; only an explicit 'dark'
      preference opts into dark). Runs before first paint so the light
-     stylesheet starts in the right state — mirrors web/pages/shared/page-theme.js
+     stylesheet starts in the right state — mirrors
+     web/public/pages/themes/theme-01/page-theme.js
      for the app shell. The value is driven by components/theme.js on demand. */
   (function () {
     var link = document.getElementById('theme-light');
@@ -367,14 +368,6 @@
   </div>
 </div>
 
-<script type="importmap">
-{
-  "imports": {
-    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-  }
-}
-</script>
 <script type="module" src="components/graph.js"></script>
 </body>
 </html>

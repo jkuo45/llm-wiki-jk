@@ -739,8 +739,8 @@ function buildHtmlModeDoc(text, title) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
-<link rel="stylesheet" href="pages/shared/pages.css">
-<link rel="stylesheet" href="pages/shared/pages-light.css" id="theme-light"${currentTheme() === 'light' ? '' : ' disabled'}>
+<link rel="stylesheet" href="pages/themes/theme-01/pages.css">
+<link rel="stylesheet" href="pages/themes/theme-01/pages-light.css" id="theme-light"${currentTheme() === 'light' ? '' : ' disabled'}>
 <style>
   body { background: var(--bg); }
   .wrap { padding-top: 32px; padding-bottom: 72px; }
