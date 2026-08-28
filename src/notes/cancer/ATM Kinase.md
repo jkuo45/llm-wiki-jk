@@ -16,7 +16,7 @@ ATM (ataxia telangiectasia mutated) is a serine/threonine protein kinase and the
 
 ## Mechanism of Action
 
-[[Ionizing Radiation]] causes DNA double-strand breaks that recruit and autophosphorylate ATM at the site of damage, converting it to an active monomer. Activated ATM phosphorylates a cascade of effectors — including [[CHK2]], [[TP53]], and [[BRCA1]] — to coordinate the damage response. This initiates [[Cell Cycle Arrest]] and [[DNA Repair]], and when damage is irreparable, promotes apoptosis.
+[[Ionizing Radiation]] causes DNA double-strand breaks that recruit and autophosphorylate ATM at the site of damage, converting it to an active monomer. Activated ATM phosphorylates a cascade of effectors — including [[CHK2]], [[p53]], and [[BRCA1]] — to coordinate the damage response. This initiates [[Cell Cycle Arrest]] and [[DNA Repair]], and when damage is irreparable, promotes apoptosis.
 
 > [!info] Master coordinator
 > The directionality is DNA break → kinase signaling cascade: ATM integrates cell-cycle arrest, repair, and apoptosis decisions into a coherent DNA-damage response.
@@ -41,7 +41,7 @@ ATM functions as a tumor suppressor; its loss drives genomic instability and pre
   - [[Ionizing Radiation]]: Primary exogenous trigger that generates the DSBs activating ATM.
   - [[Double-Strand Break]]: The DNA lesion that recruits and autophosphorylates ATM.
   - [[CHK2]]: Direct ATM substrate propagating the checkpoint signal.
-  - [[TP53]]: Key downstream effector mediating arrest and apoptosis.
+  - [[p53]]: Key downstream effector mediating arrest and apoptosis.
   - [[BRCA1]]: ATM substrate coordinating repair and genome integrity.
   - [[Cell Cycle Arrest]]: A principal functional output of ATM activation.
   - [[DNA Repair]]: The process ATM orchestrates following damage.
@@ -49,7 +49,7 @@ ATM functions as a tumor suppressor; its loss drives genomic instability and pre
 
 ## Linking Summary
 
-- New links added: [[Ionizing Radiation]], [[Double-Strand Break]], [[CHK2]], [[TP53]], [[BRCA1]], [[Cell Cycle Arrest]], [[DNA Repair]], [[Oxidative Stress]]
+- New links added: [[Ionizing Radiation]], [[Double-Strand Break]], [[CHK2]], [[p53]], [[BRCA1]], [[Cell Cycle Arrest]], [[DNA Repair]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Homologous Recombination]]
 - Strong connections to strengthen:
     - [[ATM Kinase]] ↔ [[Cell Cycle Arrest]]

@@ -26,12 +26,12 @@ CPEC belongs to the broader class of [[Nucleoside Analog]] antimetabolites. Its 
 
 - **CTP synthetase inhibition**: CPEC-TP binds to and inhibits [[CTP Synthetase]], reducing de novo CTP synthesis. Cells compensate by upregulating the salvage pathway, but the net pyrimidine pool collapses.
 - **Nucleotide pool imbalance**: Depletion of CTP and downstream dCTP disrupts DNA replication and RNA transcription fidelity.
-- **Senescence and apoptosis induction**: Sustained pyrimidine starvation activates DNA damage responses (including [[TP53]]-associated checkpoints), leading to growth arrest, [[Senescence]], and, at higher concentrations, [[Apoptosis]].
+- **Senescence and apoptosis induction**: Sustained pyrimidine starvation activates DNA damage responses (including [[p53]]-associated checkpoints), leading to growth arrest, [[Senescence]], and, at higher concentrations, [[Apoptosis]].
 - **Antiviral activity**: Viruses with high pyrimidine demand (e.g., cytomegalovirus, hepatitis B) are selectively vulnerable because they rely heavily on host or viral nucleotide metabolism.
 
 ## Cellular Effects and Senescence
 
-Exposure of cultured cancer cells and primary fibroblasts to CPEC results in sustained CTP depletion, leading to replication stress, S-phase arrest, and activation of the DNA damage checkpoint. CPEC induces a stable senescent phenotype characterized by enlarged flattened morphology, senescence-associated β-galactosidase (SA-β-gal) activity, upregulation of [[TP53]] and [[CDKN1A|p21]]^WAF1/CIP1, and secretion of [[SASP|senescence-associated secretory phenotype]] factors. The p53-p21 axis is a primary effector of CPEC-induced senescence, as p53-null cells resist both cell cycle arrest and the senescent phenotype following CPEC treatment.
+Exposure of cultured cancer cells and primary fibroblasts to CPEC results in sustained CTP depletion, leading to replication stress, S-phase arrest, and activation of the DNA damage checkpoint. CPEC induces a stable senescent phenotype characterized by enlarged flattened morphology, senescence-associated β-galactosidase (SA-β-gal) activity, upregulation of [[p53]] and [[CDKN1A|p21]]^WAF1/CIP1, and secretion of [[SASP|senescence-associated secretory phenotype]] factors. The p53-p21 axis is a primary effector of CPEC-induced senescence, as p53-null cells resist both cell cycle arrest and the senescent phenotype following CPEC treatment.
 
 ## Preclinical Anticancer Activity
 
@@ -61,7 +61,7 @@ List of documents that mention this entity
 - [[Chemotherapy]] - broader treatment modality context.
 - [[Senescence]] - cellular state induced by pyrimidine starvation.
 - [[Apoptosis]] - death pathway engaged at higher doses.
-- [[TP53]] - tumor suppressor linking nucleotide stress to arrest.
+- [[p53]] - tumor suppressor linking nucleotide stress to arrest.
 - [[DNA synthesis]] - impaired by CTP/dCTP depletion.
 - [[RNA synthesis]] - transcription fidelity compromised by pyrimidine imbalance.
 - [[Antimetabolite]] - mechanistic class of CPEC as a metabolic antagonist.
@@ -70,6 +70,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[CTP Synthetase]], [[Nucleoside Analog]], [[Senescence]], [[Apoptosis]], [[TP53]], [[Cancer]], [[Chemotherapy]], [[DNA synthesis]], [[RNA synthesis]], [[Antimetabolite]], [[Replication stress]], [[SASP|Senescence-Associated Secretory Phenotype]]
+- New links added: [[CTP Synthetase]], [[Nucleoside Analog]], [[Senescence]], [[Apoptosis]], [[p53]], [[Cancer]], [[Chemotherapy]], [[DNA synthesis]], [[RNA synthesis]], [[Antimetabolite]], [[Replication stress]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Suggested new entity notes to create: [[CTP Synthetase]], [[Uridine Rescue]], [[Uridine-Cytidine Kinase 2]], [[Senescence-Associated β-Galactosidase]]
 - Strong connections to strengthen: [[Cyclopentenyl cytosine]] ↔ [[CTP Synthetase]], [[Cyclopentenyl cytosine]] ↔ [[Senescence]], [[Cyclopentenyl cytosine]] ↔ [[Antimetabolite]]

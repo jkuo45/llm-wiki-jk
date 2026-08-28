@@ -336,7 +336,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TNF-alpha]] | Protein | Pro-inflammatory cytokine involved in systemic inflammation and the acute phase response. |
 | [[TNFα]] | Protein | Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammatory cytokine produced primarily by activated Macrophages, T Cells, and Natural Killer Cells. It is a master regulator of the inf... |
 | [[TOM20]] | Protein | Mitochondrial import receptor on the outer mitochondrial membrane that is targeted by α-synuclein in Parkinson's disease, blocking protein import and triggering mitophagy dysfunction. |
-| [[TP53]] | Protein | Overview: TP53 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
 | [[TRAF2]] | Protein | TRAF2 (TNF receptor-associated factor 2) is a protein recruited by the MAVS complex to activate an innate immune response following viral infection. |
 | [[TRAF3]] | Protein | TNF receptor-associated factor 3, an E3 ubiquitin ligase adaptor that links TLR/TRIF and antiviral receptors to IRF3-mediated interferon induction. |
 | [[TRAK1]] | Protein | Mitochondrial transport adaptor protein that forms a complex with OPTN and KIF5B for anterograde axonal mitochondrial transport. |

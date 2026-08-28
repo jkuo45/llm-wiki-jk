@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Biological Processes in the Combined Knowledge Graph (wiki and triples)</title>
-<meta name="description" content="A biology-focused tour of the combined knowledge graph (triples + Obsidian wiki): what the union topology adds, wiki-only processes (cGAS–STING, TP53/cell cycle, NMN/NAD+, mitophagy), cross-community bridges, and worked biological examples with recomputed network metrics.">
+<meta name="description" content="A biology-focused tour of the combined knowledge graph (triples + Obsidian wiki): what the union topology adds, wiki-only processes (cGAS–STING, cell cycle, NMN/NAD+, mitophagy), the p53/TP53 consolidation, cross-community bridges, and worked biological examples with recomputed network metrics.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/wiki-and-triples-graph-biological-processes.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
@@ -40,7 +40,7 @@
       (Obsidian <code>[[wikilinks]]</code> across entity notes). Merging the two is not cosmetic:
       recomputing centrality on the union topology re-wires the whole picture. Fragmented triples
       fragments get stitched into one dense network (max k-core 6 → 20), a wave of wiki-only biology
-      (cGAS–STING, TP53 / cell-cycle control, NMN / NAD+, mitophagy) enters the inner core, and every
+      (cGAS–STING, cell cycle, NMN / NAD+, mitophagy, p53/TP53) enters the inner core, and every
       established hub gains 2–5× PageRank. This page walks the biology the combined graph is uniquely
       positioned to show, process by process.
     </p>
@@ -74,9 +74,9 @@
       <h2>One dense network, assembled from two sparse views</h2>
       <p class="drop">
         The triples graph is a small, typed, fragmented spine: 2,629 nodes and only 3,832 edges.
-        The wiki graph is a large, untyped, dense authoring network: 2,995 entity notes and 34,851
-        <code>links_to</code> edges. Their union is the <strong>combined graph</strong> — 4,085 nodes and
-        36,998 edges — and it is what the viewer shows by default. Node ids are canonicalised with the
+        The wiki graph is a large, untyped, dense authoring network: 2,994 entity notes and 34,850
+        <code>links_to</code> edges. Their union is the <strong>combined graph</strong> — 4,084 nodes and
+        36,982 edges — and it is what the viewer shows by default. Node ids are canonicalised with the
         same <code>norm()</code> (Unicode-normalised; <code>NF-κB</code> = <code>nf_kappab</code> in all
         three), so the two sources join cleanly at the entity level.
       </p>
@@ -93,14 +93,14 @@
           </thead>
           <tbody>
             <tr><td>Triples</td><td class="num">2,629</td><td class="num">3,832</td><td>typed relations (<code>promotes</code>, <code>inhibits</code>, …)</td></tr>
-            <tr><td>Wiki</td><td class="num">2,995</td><td class="num">34,851</td><td>untyped <code>links_to</code> (entity notes only)</td></tr>
-            <tr><td><strong>Combined</strong> (default)</td><td class="num"><strong>4,085</strong></td><td class="num"><strong>36,998</strong></td><td>3,832 typed + 33,166 wiki + 1,685 shared endpoints</td></tr>
+            <tr><td>Wiki</td><td class="num">2,994</td><td class="num">34,850</td><td>untyped <code>links_to</code> (entity notes only)</td></tr>
+            <tr><td><strong>Combined</strong> (default)</td><td class="num"><strong>4,084</strong></td><td class="num"><strong>36,982</strong></td><td>3,832 typed + 33,150 wiki + 1,700 shared endpoints</td></tr>
           </tbody>
         </table></div>
       </div>
 
-      <p><strong>Union node composition</strong> — shared (both graphs): <strong>1,539</strong> · wiki-only: <strong>1,456</strong> · triples-only: <strong>1,090</strong>.</p>
-      <p><strong>Union edge provenance</strong> — present in both graphs: 1,685 (4.6%) · wiki-only: 33,166 (89.6%) · triples-only: 2,147 (5.8%). The typed triples spine is a minority of the union; the wiki edges dominate the topology.</p>
+      <p><strong>Union node composition</strong> — shared (both graphs): <strong>1,539</strong> · wiki-only: <strong>1,455</strong> · triples-only: <strong>1,090</strong>.</p>
+      <p><strong>Union edge provenance</strong> — present in both graphs: 1,700 (4.6%) · wiki-only: 33,150 (89.7%) · triples-only: 2,132 (5.8%). The typed triples spine is a minority of the union; the wiki edges dominate the topology.</p>
 
       <div class="note gold">
         <h4>The headline: wiki links stitch the fragments together</h4>
@@ -111,7 +111,7 @@
           <thead><tr><th>Metric</th><th class="num">Triples</th><th class="num">Combined</th><th class="num">Δ</th></tr></thead>
           <tbody>
             <tr><td>Connected components</td><td class="num">223</td><td class="num">123</td><td class="num">−100</td></tr>
-            <tr><td>Giant component</td><td class="num">2,147 (81.7%)</td><td class="num">3,840 (<strong>94.0%</strong>)</td><td class="num">+1,693</td></tr>
+            <tr><td>Giant component</td><td class="num">2,147 (81.7%)</td><td class="num">3,839 (<strong>94.0%</strong>)</td><td class="num">+1,692</td></tr>
             <tr><td>Max k-core</td><td class="num">6</td><td class="num"><strong>20</strong></td><td class="num">+14</td></tr>
             <tr><td>Average clustering</td><td class="num">—</td><td class="num">0.290</td><td class="num">—</td></tr>
           </tbody>
@@ -145,7 +145,7 @@
             <rect x="310" y="74" width="70" height="88" fill="#7a312c"/>
             <text x="295" y="130" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">82%</text>
             <text x="325" y="128" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">94%</text>
-            <text x="340" y="182" text-anchor="middle" fill="#6d665b" font-size="12">3,840 nodes</text>
+            <text x="340" y="182" text-anchor="middle" fill="#6d665b" font-size="12">3,839 nodes</text>
             <!-- Max k-core -->
             <text x="560" y="70" text-anchor="middle" fill="#1c1915" font-size="13" font-weight="600">Max k-core</text>
             <rect x="500" y="92" width="46" height="70" fill="#4c6e86"/>
@@ -233,7 +233,7 @@
       <p class="sec-label">03 · Wiki-only biology</p>
       <h2>Biology the wiki adds — core-integrated, not leaves</h2>
       <p>
-        The 1,456 wiki-only nodes are the entities linked across notes but never extracted as triples.
+        The 1,455 wiki-only nodes are the entities linked across notes but never extracted as triples.
         The striking finding: the top of that list is <strong>not</strong> a tail of dangling leaves —
         every leading wiki-only node sits <strong>inside</strong> the union core (k-core 15–20),
         integrated through the wiki links. Mechanistically these are processes the triples extraction
@@ -246,15 +246,14 @@
             <tr><th>Node</th><th class="num">Degree</th><th class="num">k-core</th><th>Roles (union)</th><th>Biology</th></tr>
           </thead>
           <tbody>
-            <tr><td>TP53</td><td class="num">184</td><td class="num">20</td><td>Sink · Bottleneck</td><td>tumor-suppressor / senescence checkpoint</td></tr>
             <tr><td>cGAS</td><td class="num">96</td><td class="num">18</td><td>Sink · Bottleneck</td><td>cytosolic DNA sensor (cGAS–STING)</td></tr>
-            <tr><td>Phosphorylation</td><td class="num">87</td><td class="num">17</td><td>Spreader · Master regulator</td><td>PTM backbone of signaling</td></tr>
+            <tr><td>Phosphorylation</td><td class="num">87</td><td class="num">17</td><td>Spreader · Master regulator · Bottleneck</td><td>PTM backbone of signaling</td></tr>
             <tr><td>STING</td><td class="num">83</td><td class="num">16</td><td>Sink · Bottleneck</td><td>innate immune adaptor</td></tr>
             <tr><td>Cell Cycle</td><td class="num">83</td><td class="num">15</td><td>Sink · Bottleneck</td><td>proliferation / arrest control</td></tr>
-            <tr><td>Macrophage</td><td class="num">75</td><td class="num">20</td><td>Spreader · Bottleneck</td><td>phagocyte / SASP effector</td></tr>
+            <tr><td>Macrophage</td><td class="num">75</td><td class="num">20</td><td>Spreader · Bottleneck · Core backbone</td><td>phagocyte / SASP effector</td></tr>
             <tr><td>Ubiquitination</td><td class="num">72</td><td class="num">17</td><td>Spreader · Bottleneck</td><td>degradation / signaling PTM</td></tr>
             <tr><td>NMN</td><td class="num">71</td><td class="num">19</td><td>Sink · Bottleneck</td><td>NAD+ precursor</td></tr>
-            <tr><td>Rheumatoid Arthritis</td><td class="num">71</td><td class="num">20</td><td>Spreader · Bottleneck</td><td>autoimmune / inflammaging model</td></tr>
+            <tr><td>Rheumatoid Arthritis</td><td class="num">71</td><td class="num">20</td><td>Spreader · Bottleneck · Core backbone</td><td>autoimmune / inflammaging model</td></tr>
             <tr><td>Endothelial Cells</td><td class="num">68</td><td class="num">18</td><td>Bottleneck</td><td>vascular senescence surface</td></tr>
             <tr><td>Fibroblast</td><td class="num">68</td><td class="num">17</td><td>Sink · Bottleneck</td><td>senescent niche cell</td></tr>
             <tr><td>Type I Interferon</td><td class="num">66</td><td class="num">16</td><td>Sink</td><td>cGAS–STING effector</td></tr>
@@ -263,9 +262,20 @@
       </div>
 
       <p>
-        Top wiki-only PageRank: <strong>TP53</strong> (0.00326), Autophagosome, Epigenetic Aging, Atg1,
-        Epigenetic Alterations, Cell Cycle, PARK2, Mitochondrial Permeability Transition Pore, Histone
-        Variant, NMN.
+        Top wiki-only PageRank (corrected): <strong>Autophagosome</strong> (0.00174), Epigenetic Aging,
+        Atg1, Epigenetic Alterations, Cell Cycle, Histone Variant, PARK2, Mitochondrial Permeability
+        Transition Pore, Phosphorylation, NMN.
+      </p>
+
+      <p class="ptag note">
+        <strong>p53/TP53 correction.</strong> The 2026-08-27 vault pass merged the duplicate
+        <code>TP53</code> note into <code>p53</code> — the two names name one entity (gene TP53 encodes
+        the p53 protein). The wiki had emitted them as two nodes and the <code>TP53</code> node's
+        <code>p53</code> alias was folding most <code>[[p53]]</code> links into the wrong (gene) node. After
+        consolidation p53 is a <strong>shared</strong> node, not wiki-only: union degree <strong>211</strong>,
+        k-core 20, PageRank 0.00341 (Sink · Bottleneck · Core backbone), and one of the largest union
+        PageRank gainers. It therefore leaves this wiki-only table — <strong>cGAS is now the largest
+        wiki-only node</strong> — and is covered in its own section below.
       </p>
 
       <h3>The processes the wiki alone contributes</h3>
@@ -285,15 +295,16 @@
         </li>
         <li>
           <p class="ptag wiki">Tumor-suppressor control</p>
-          <h3>TP53 and cell-cycle checkpoints</h3>
+          <h3>p53 (TP53) and cell-cycle checkpoints</h3>
           <p>
-            <strong>TP53</strong> (184, k-core 20, Sink·Bottleneck) is the largest wiki-only node and
-            lands in the union's innermost shell. It brings <strong>Cell Cycle</strong> (83),
+            After consolidation, <strong>p53</strong> is a <strong>shared</strong> core node — union
+            degree <strong>211</strong>, k-core 20, Sink · Bottleneck · Core backbone — sitting in the
+            union's innermost shell. It brings <strong>Cell Cycle</strong> (83),
             <strong>Replicative Senescence</strong> (65), <strong>Epigenetics and aging</strong> (64),
             and <strong>Histone Variant</strong> (60) into a single reachable component with SASP and
             the senescence machinery. The wiki graph also shows the gap: <code>CDK4</code> /
             <code>CDK6</code> are still <strong>isolated</strong> (≤1 connection) in the wiki report —
-            a concrete curation gap for cell-cycle arrest biology.
+            a concrete curation gap for cell-cycle-arrest biology downstream of p53.
           </p>
         </li>
         <li>
@@ -494,16 +505,17 @@
       </div>
 
       <div class="instance">
-        <h3>TP53, cell-cycle arrest, and the senescence checkpoint</h3>
+        <h3>p53 (TP53), cell-cycle arrest, and the senescence checkpoint</h3>
         <p>
-          <strong>TP53</strong> is the largest wiki-only node (184, k20, Sink·Bottleneck): the triples
-          graph never extracted it as a hub, yet the wiki links place it at the innermost shell, a
-          betweenness-bottleneck connecting <strong>Cell Cycle</strong> (83), <strong>Replicative
-          Senescence</strong> (65), <strong>Histone Variant</strong> (60), and the SASP core. The wiki
-          report flags the flanking gap: <code>CDK4</code>/<code>CDK6</code> are isolated (≤1 connection),
-          i.e. the p16/p21-CDK-RB axis that executes p53-dependent arrest is under-curated — a concrete
-          next target for note creation (the <em>Senomorphic Therapy</em> community, 51 nodes with BRD4 /
-          BET inhibitors, already awaits it).
+          Once the <code>TP53</code>/<code>p53</code> duplication is consolidated, <strong>p53</strong>
+          is a shared union core node (union degree <strong>211</strong>, k-core 20, Sink · Bottleneck ·
+          Core backbone): on the triples side it was a mid-degree suppressor, and the wiki links lift it
+          into the innermost shell, a betweenness-bottleneck connecting <strong>Cell Cycle</strong> (83),
+          <strong>Replicative Senescence</strong> (65), <strong>Histone Variant</strong> (60), and the
+          SASP core. The wiki report flags the flanking gap: <code>CDK4</code>/<code>CDK6</code> are
+          isolated (≤1 connection), i.e. the p16/p21-CDK-RB axis that executes p53-dependent arrest is
+          under-curated — a concrete next target for note creation (the <em>Senomorphic Therapy</em>
+          community, 51 nodes with BRD4 / BET inhibitors, already awaits it).
         </p>
       </div>
 
@@ -554,8 +566,8 @@
       <p>
         A practical consequence: on the union, use role labels to find <em>structure</em> (core/backbone,
         bottlenecks, local modules). When the question is causal — “what does this enzyme do to that
-        pathway?” — restrict to edges with <code>sources ∋ triples</code> (the typed spine: 2,147
-        triples-only + 1,685 shared-endpoint edges ≈ the full 3,832 typed edges), which recovers typed
+        pathway?” — restrict to edges with <code>sources ∋ triples</code> (the typed spine: 2,132
+        triples-only + 1,700 shared-endpoint edges ≈ the full 3,832 typed edges), which recovers typed
         semantics on the denser topology.
       </p>
     </section>

@@ -1,24 +1,19 @@
 {
-  "generated_at": "2026-08-27T16:52:21Z",
+  "generated_at": "2026-08-27T19:11:00Z",
   "triples_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Documents/llm-wiki-jk/wiki-out/wiki-graph.json",
   "counts": {
     "triples_nodes": 2629,
-    "wiki_nodes": 2995,
+    "wiki_nodes": 2994,
     "shared_nodes": 1539,
-    "wiki_only_nodes": 1456,
+    "wiki_only_nodes": 1455,
     "triples_only_nodes": 1090,
     "triples_edges": 3832,
-    "wiki_edges": 34851,
-    "wiki_only_edges": 33166,
-    "triples_only_edges": 2147
+    "wiki_edges": 34850,
+    "wiki_only_edges": 33150,
+    "triples_only_edges": 2132
   },
   "top_wiki_only_nodes": [
-    {
-      "id": "tp53",
-      "label": "TP53",
-      "degree": 184
-    },
     {
       "id": "cgas",
       "label": "cGAS",
@@ -50,23 +45,23 @@
       "degree": 72
     },
     {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
-      "degree": 71
-    },
-    {
       "id": "rheumatoid_arthritis",
       "label": "Rheumatoid Arthritis",
       "degree": 71
     },
     {
-      "id": "fibroblast",
-      "label": "Fibroblast",
-      "degree": 68
+      "id": "nmn",
+      "label": "NMN (Nicotinamide Mononucleotide)",
+      "degree": 71
     },
     {
       "id": "endothelial_cells",
       "label": "Endothelial Cells",
+      "degree": 68
+    },
+    {
+      "id": "fibroblast",
+      "label": "Fibroblast",
       "degree": 68
     },
     {
@@ -113,6 +108,11 @@
       "id": "calcium",
       "label": "Calcium",
       "degree": 56
+    },
+    {
+      "id": "extracellular_matrix",
+      "label": "Extracellular Matrix",
+      "degree": 56
     }
   ],
   "top_triples_only_nodes": [
@@ -127,8 +127,8 @@
       "degree": 4
     },
     {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
@@ -137,9 +137,14 @@
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
+    },
+    {
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
     },
     {
       "id": "pi3k_akt",
@@ -147,8 +152,23 @@
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    },
+    {
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     },
     {
@@ -167,53 +187,33 @@
       "degree": 3
     },
     {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
-      "degree": 3
-    },
-    {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
-      "degree": 3
-    },
-    {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
-    },
-    {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
-      "degree": 3
-    },
-    {
-      "id": "sirt2_inhibition",
-      "label": "SIRT2 inhibition",
+      "id": "metallic_silver",
+      "label": "Metallic silver",
       "degree": 2
     },
     {
-      "id": "diabetic_complications",
-      "label": "diabetic complications",
+      "id": "sirtuin_deacetylation_reaction",
+      "label": "Sirtuin deacetylation reaction",
       "degree": 2
     },
     {
-      "id": "ampk_activation",
-      "label": "AMPK activation",
+      "id": "kinase_inhibitor_scaffold",
+      "label": "Kinase-inhibitor scaffold",
       "degree": 2
     },
     {
-      "id": "universal_indirect_pan_sirtuin_activator",
-      "label": "Universal indirect pan-sirtuin activator",
+      "id": "adrenochrome_synthesis",
+      "label": "adrenochrome synthesis",
       "degree": 2
     },
     {
-      "id": "stress_responses",
-      "label": "stress responses",
+      "id": "glycemic_control",
+      "label": "Glycemic Control",
       "degree": 2
     },
     {
-      "id": "age_modified_proteins",
-      "label": "AGE-modified proteins",
+      "id": "meteorin_like_protein",
+      "label": "Meteorin-like protein",
       "degree": 2
     }
   ],
@@ -424,13 +424,6 @@
       "weight": 1
     },
     {
-      "source": "warburg_effect",
-      "target": "p53",
-      "source_label": "Warburg Effect",
-      "target_label": "p53",
-      "weight": 1
-    },
-    {
       "source": "vitamin_e",
       "target": "singlet_oxygen",
       "source_label": "Vitamin E",
@@ -498,6 +491,13 @@
       "target": "vla_4_alpha4beta1_integrin_on_leukocytes",
       "source_label": "VCAM-1",
       "target_label": "VLA-4 (alpha4beta1 integrin) on leukocytes",
+      "weight": 1
+    },
+    {
+      "source": "valine",
+      "target": "tca_cycle",
+      "source_label": "Valine",
+      "target_label": "TCA cycle",
       "weight": 1
     }
   ]

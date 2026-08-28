@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>合併知識圖譜中的生物過程（wiki 與 triples）</title>
-<meta name="description" content="以生物學為中心的合併知識圖譜（triples + Obsidian wiki）導覽：合併拓撲新增了什麼、僅 wiki 的生物過程（cGAS–STING、TP53/細胞週期、NMN/NAD+、粒線體自噬）、跨社群橋樑與有趣連結，以及在合併後網路上重新計算指標的工作實例。">
+<meta name="description" content="以生物學為中心的合併知識圖譜（triples + Obsidian wiki）導覽：合併拓撲新增了什麼、僅 wiki 的生物過程（cGAS–STING、細胞週期、NMN/NAD+、粒線體自噬）、p53/TP53 整併、跨社群橋樑與有趣連結，以及在合併後網路上重新計算指標的工作實例。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/wiki-and-triples-graph-biological-processes_zh-TW.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
@@ -39,7 +39,7 @@
       抽取出的「triples 圖」（具型別關係）與「wiki 圖」（實體筆記之間的 Obsidian
       <code>[[wikilinks]]</code>）之聯集。合併兩者不只是外觀上的差異：在聯集拓撲上重新計算中心性，
       會重新接線整個圖像。零散的 triples 片段被縫合成一張稠密網路（最大 k-core 由 6 躍升至 20），
-      一批僅 wiki 的生物學（cGAS–STING、TP53／細胞週期、NMN／NAD+、粒線體自噬）進入內核，而每個既有樞紐的
+      一批僅 wiki 的生物學（cGAS–STING、細胞週期、NMN／NAD+、粒線體自噬、p53/TP53）進入內核，而每個既有樞紐的
       PageRank 都提升 2–5 倍。本頁逐一過程地導覽合併圖譜得以獨特呈現的生物學。
     </p>
     <div class="meta">
@@ -72,8 +72,8 @@
       <h2>一張稠密網路，由兩個稀疏視圖拼裝而成</h2>
       <p class="drop">
         triples 圖是一條小而具型別、零散的脊椎：2,629 個節點、僅 3,832 條邊。wiki 圖則是一張大型、
-        無型別、稠密的撰寫網路：2,995 個實體筆記與 34,851 條 <code>links_to</code> 邊。兩者的聯集就是
-        <strong>合併圖譜</strong>——4,085 個節點、36,998 條邊——也是檢視器預設顯示的內容。節點 id 以相同的
+        無型別、稠密的撰寫網路：2,994 個實體筆記與 34,850 條 <code>links_to</code> 邊。兩者的聯集就是
+        <strong>合併圖譜</strong>——4,084 個節點、36,982 條邊——也是檢視器預設顯示的內容。節點 id 以相同的
         <code>norm()</code> 正規化（Unicode 正規化；<code>NF-κB</code> = <code>nf_kappab</code> 在三個圖中皆同），
         因此兩個來源在實體層級能乾淨地併接。
       </p>
@@ -90,14 +90,14 @@
           </thead>
           <tbody>
             <tr><td>Triples</td><td class="num">2,629</td><td class="num">3,832</td><td>具型別關係（<code>promotes</code>、<code>inhibits</code>…）</td></tr>
-            <tr><td>Wiki</td><td class="num">2,995</td><td class="num">34,851</td><td>無型別 <code>links_to</code>（僅實體筆記）</td></tr>
-            <tr><td><strong>合併</strong>（預設）</td><td class="num"><strong>4,085</strong></td><td class="num"><strong>36,998</strong></td><td>3,832 條具型別 + 33,166 條 wiki + 1,685 條共享端點</td></tr>
+            <tr><td>Wiki</td><td class="num">2,994</td><td class="num">34,850</td><td>無型別 <code>links_to</code>（僅實體筆記）</td></tr>
+            <tr><td><strong>合併</strong>（預設）</td><td class="num"><strong>4,084</strong></td><td class="num"><strong>36,982</strong></td><td>3,832 條具型別 + 33,150 條 wiki + 1,700 條共享端點</td></tr>
           </tbody>
         </table></div>
       </div>
 
-      <p><strong>聯集節點組成</strong>——兩個圖皆有（shared）：<strong>1,539</strong> · 僅 wiki：<strong>1,456</strong> · 僅 triples：<strong>1,090</strong>。</p>
-      <p><strong>聯集邊來源</strong>——同時存在於兩個圖：1,685（4.6%）· 僅 wiki：33,166（89.6%）· 僅 triples：2,147（5.8%）。具型別的 triples 脊椎只占聯集的少數；wiki 邊主導了拓撲。</p>
+      <p><strong>聯集節點組成</strong>——兩個圖皆有（shared）：<strong>1,539</strong> · 僅 wiki：<strong>1,455</strong> · 僅 triples：<strong>1,090</strong>。</p>
+      <p><strong>聯集邊來源</strong>——同時存在於兩個圖：1,700（4.6%）· 僅 wiki：33,150（89.7%）· 僅 triples：2,132（5.8%）。具型別的 triples 脊椎只占聯集的少數；wiki 邊主導了拓撲。</p>
 
       <div class="note gold">
         <h4>重點：wiki 連結將片段縫合在一起</h4>
@@ -108,7 +108,7 @@
           <thead><tr><th>指標</th><th class="num">Triples</th><th class="num">合併</th><th class="num">Δ</th></tr></thead>
           <tbody>
             <tr><td>連通分量數</td><td class="num">223</td><td class="num">123</td><td class="num">−100</td></tr>
-            <tr><td>最大連通分量</td><td class="num">2,147（81.7%）</td><td class="num">3,840（<strong>94.0%</strong>）</td><td class="num">+1,693</td></tr>
+            <tr><td>最大連通分量</td><td class="num">2,147（81.7%）</td><td class="num">3,839（<strong>94.0%</strong>）</td><td class="num">+1,692</td></tr>
             <tr><td>最大 k-core</td><td class="num">6</td><td class="num"><strong>20</strong></td><td class="num">+14</td></tr>
             <tr><td>平均聚類係數</td><td class="num">—</td><td class="num">0.290</td><td class="num">—</td></tr>
           </tbody>
@@ -139,7 +139,7 @@
             <rect x="310" y="74" width="70" height="88" fill="#7a312c"/>
             <text x="295" y="130" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">82%</text>
             <text x="325" y="128" text-anchor="middle" fill="#fbf8f1" font-size="12" font-weight="600">94%</text>
-            <text x="340" y="182" text-anchor="middle" fill="#6d665b" font-size="12">3,840 節點</text>
+            <text x="340" y="182" text-anchor="middle" fill="#6d665b" font-size="12">3,839 節點</text>
             <text x="560" y="70" text-anchor="middle" fill="#1c1915" font-size="13" font-weight="600">最大 k-core</text>
             <rect x="500" y="92" width="46" height="70" fill="#4c6e86"/>
             <rect x="526" y="28" width="46" height="134" fill="#7a312c"/>
@@ -224,7 +224,7 @@
       <p class="sec-label">03 · 僅 wiki 的生物學</p>
       <h2>wiki 新增的生物學——融入核心，而非懸枝</h2>
       <p>
-        1,456 個僅 wiki 節點是那些跨筆記被連結、卻從未被抽為 triples 的實體。最顯著的發現：清單頂端
+        1,455 個僅 wiki 節點是那些跨筆記被連結、卻從未被抽為 triples 的實體。最顯著的發現：清單頂端
         <strong>並非</strong>一堆垂掛的孤葉——每個領先的僅 wiki 節點都位於聯集核心<strong>之內</strong>
         （k-core 15–20），透過 wiki 連結整合其中。機制上，這些是 triples 抽取低估的過程。
       </p>
@@ -235,15 +235,14 @@
             <tr><th>節點</th><th class="num">度數</th><th class="num">k-core</th><th>角色（聯集）</th><th>生物學</th></tr>
           </thead>
           <tbody>
-            <tr><td>TP53</td><td class="num">184</td><td class="num">20</td><td>Sink · Bottleneck</td><td>腫瘤抑制因子／衰老檢查點</td></tr>
             <tr><td>cGAS</td><td class="num">96</td><td class="num">18</td><td>Sink · Bottleneck</td><td>胞質 DNA 感測器（cGAS–STING）</td></tr>
-            <tr><td>Phosphorylation</td><td class="num">87</td><td class="num">17</td><td>Spreader · Master regulator</td><td>訊息傳遞的轉譯後修飾主幹</td></tr>
+            <tr><td>Phosphorylation</td><td class="num">87</td><td class="num">17</td><td>Spreader · Master regulator · Bottleneck</td><td>訊息傳遞的轉譯後修飾主幹</td></tr>
             <tr><td>STING</td><td class="num">83</td><td class="num">16</td><td>Sink · Bottleneck</td><td>先天免疫銜接蛋白</td></tr>
             <tr><td>Cell Cycle</td><td class="num">83</td><td class="num">15</td><td>Sink · Bottleneck</td><td>增生／停滯控制</td></tr>
-            <tr><td>Macrophage</td><td class="num">75</td><td class="num">20</td><td>Spreader · Bottleneck</td><td>吞噬細胞／SASP 效應器</td></tr>
+            <tr><td>Macrophage</td><td class="num">75</td><td class="num">20</td><td>Spreader · Bottleneck · Core backbone</td><td>吞噬細胞／SASP 效應器</td></tr>
             <tr><td>Ubiquitination</td><td class="num">72</td><td class="num">17</td><td>Spreader · Bottleneck</td><td>降解／訊息傳遞修飾</td></tr>
             <tr><td>NMN</td><td class="num">71</td><td class="num">19</td><td>Sink · Bottleneck</td><td>NAD+ 前驅物</td></tr>
-            <tr><td>Rheumatoid Arthritis</td><td class="num">71</td><td class="num">20</td><td>Spreader · Bottleneck</td><td>自體免疫／發炎老化模型</td></tr>
+            <tr><td>Rheumatoid Arthritis</td><td class="num">71</td><td class="num">20</td><td>Spreader · Bottleneck · Core backbone</td><td>自體免疫／發炎老化模型</td></tr>
             <tr><td>Endothelial Cells</td><td class="num">68</td><td class="num">18</td><td>Bottleneck</td><td>血管衰老表面</td></tr>
             <tr><td>Fibroblast</td><td class="num">68</td><td class="num">17</td><td>Sink · Bottleneck</td><td>衰老微環境細胞</td></tr>
             <tr><td>Type I Interferon</td><td class="num">66</td><td class="num">16</td><td>Sink</td><td>cGAS–STING 效應器</td></tr>
@@ -252,9 +251,18 @@
       </div>
 
       <p>
-        僅 wiki 的高 PageRank：<strong>TP53</strong>（0.00326）、Autophagosome、Epigenetic Aging、Atg1、
-        Epigenetic Alterations、Cell Cycle、PARK2、Mitochondrial Permeability Transition Pore、Histone
-        Variant、NMN。
+        僅 wiki 的高 PageRank（已修正）：<strong>Autophagosome</strong>（0.00174）、Epigenetic Aging、
+        Atg1、Epigenetic Alterations、Cell Cycle、Histone Variant、PARK2、Mitochondrial Permeability
+        Transition Pore、Phosphorylation、NMN。
+      </p>
+
+      <p class="ptag note">
+        <strong>p53／TP53 修正。</strong>2026-08-27 的筆記整併把重複的 <code>TP53</code> 筆記併入
+        <code>p53</code>——兩個名稱指的是同一個實體（TP53 基因編碼 p53 蛋白）。wiki 原本把它們建成兩個節點，
+        且 <code>TP53</code> 節點上的 <code>p53</code> 別名把多數 <code>[[p53]]</code> 連結錯誤地折進了
+        （基因）節點。整併後，p53 變成<strong>共享</strong>節點而非僅 wiki：聯集度數 <strong>211</strong>、
+        k-core 20、PageRank 0.00341（Sink · Bottleneck · Core backbone），也是聯集 PageRank 增幅最大的節點之一。
+        因此它離開這張僅 wiki 表格——<strong>cGAS 現在是最大的僅 wiki 節點</strong>——並在下方另行專節討論。
       </p>
 
       <h3>wiki 獨自貢獻的過程</h3>
@@ -272,13 +280,14 @@
         </li>
         <li>
           <p class="ptag wiki">腫瘤抑制控制</p>
-          <h3>TP53 與細胞週期檢查點</h3>
+          <h3>p53（TP53）與細胞週期檢查點</h3>
           <p>
-            <strong>TP53</strong>（184、k-core 20、Sink·Bottleneck）是最大的僅 wiki 節點，落在聯集最內層。
-            它把 <strong>Cell Cycle</strong>（83）、<strong>Replicative Senescence</strong>（65）、
-            <strong>Epigenetics and aging</strong>（64）與 <strong>Histone Variant</strong>（60）帶入與
-            SASP 及衰老機制的單一連通分量。wiki 圖也顯示出缺口：<code>CDK4</code>／<code>CDK6</code>
-            在 wiki 報告中仍是<strong>孤立</strong>節點（≤1 條連線）——這是細胞週期停滯生物學的具體策展缺口。
+            整併後，<strong>p53</strong> 是<strong>共享</strong>核心節點——聯集度數 <strong>211</strong>、
+            k-core 20、Sink · Bottleneck · Core backbone——落在聯集最內層。它把 <strong>Cell Cycle</strong>
+            （83）、<strong>Replicative Senescence</strong>（65）、<strong>Epigenetics and aging</strong>
+            （64）與 <strong>Histone Variant</strong>（60）帶入與 SASP 及衰老機制的單一連通分量。wiki 圖也顯示出
+            缺口：<code>CDK4</code>／<code>CDK6</code> 在 wiki 報告中仍是<strong>孤立</strong>節點
+            （≤1 條連線）——這是 p53 下游細胞週期停滯生物學的具體策展缺口。
           </p>
         </li>
         <li>
@@ -464,10 +473,11 @@
       </div>
 
       <div class="instance">
-        <h3>TP53、細胞週期停滯與衰老檢查點</h3>
+        <h3>p53（TP53）、細胞週期停滯與衰老檢查點</h3>
         <p>
-          <strong>TP53</strong> 是最大的僅 wiki 節點（184、k20、Sink·Bottleneck）：triples 圖從未把它抽為
-          樞紐，但 wiki 連結把它放在最內層，作為連接 <strong>Cell Cycle</strong>（83）、
+          一旦把 <code>TP53</code>／<code>p53</code> 的重複實體整併後，<strong>p53</strong> 就是共享聯集核心節點
+          （聯集度數 <strong>211</strong>、k-core 20、Sink · Bottleneck · Core backbone）：在 triples 端它只是中度
+          度的抑制因子，而 wiki 連結把它抬升到最內層，作為連接 <strong>Cell Cycle</strong>（83）、
           <strong>Replicative Senescence</strong>（65）、<strong>Histone Variant</strong>（60）與 SASP 核心的
           中介瓶頸。wiki 報告標出伴隨的缺口：<code>CDK4</code>／<code>CDK6</code> 孤立（≤1 條連線），
           即執行 p53 依賴停滯的 p16/p21-CDK-RB 軸策展不足——這是建立筆記的具體下一個目標
@@ -521,7 +531,7 @@
       <p>
         實務後果：在聯集上，用角色標籤找<em>結構</em>（核心／主幹、瓶頸、局部模組）。當問題是因果性的——
         「這個酶對那條路徑做什麼？」——請把分析限制在 <code>sources ∋ triples</code> 的邊（具型別脊椎：
-        2,147 條僅 triples + 1,685 條共享端點 ≈ 全部 3,832 條具型別邊），即可在較稠密的拓撲上取回型別語義。
+        2,132 條僅 triples + 1,700 條共享端點 ≈ 全部 3,832 條具型別邊），即可在較稠密的拓撲上取回型別語義。
       </p>
     </section>
 

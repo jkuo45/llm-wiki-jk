@@ -13,7 +13,7 @@ aliases: []
 
 ## Biology
 
-SCLC is a high-grade neuroendocrine carcinoma. The neoplastic cells are small, round to fusiform, with scant cytoplasm, finely granular nuclear chromatin, and absent or inconspicuous nucleoli. The tumor cells express neuroendocrine markers including [[Synaptophysin]], [[Chromogranin A]], and [[CD56]] (NCAM). Genomically, SCLC is defined by near-universal inactivation of [[RB1]] and [[TP53]] — loss of both tumor suppressors occurs in approximately 90% of cases. [[MYC]] family amplification (MYC, MYCN, MYCL) is a frequent secondary event, driving proliferation and contributing to the aggressive phenotype. Delta-like ligand 3 ([[DLL3]]), an inhibitory [[Notch]] ligand, is aberrantly overexpressed on the cell surface of SCLC tumors in roughly 80% of cases and has emerged as a promising therapeutic target. Additional molecular features include frequent [[PTEN]] loss, [[BCL-2]] overexpression, and dysregulation of the [[PI3K]]/[[AKT]]/[[mTOR]] pathway.
+SCLC is a high-grade neuroendocrine carcinoma. The neoplastic cells are small, round to fusiform, with scant cytoplasm, finely granular nuclear chromatin, and absent or inconspicuous nucleoli. The tumor cells express neuroendocrine markers including [[Synaptophysin]], [[Chromogranin A]], and [[CD56]] (NCAM). Genomically, SCLC is defined by near-universal inactivation of [[RB1]] and [[p53]] — loss of both tumor suppressors occurs in approximately 90% of cases. [[MYC]] family amplification (MYC, MYCN, MYCL) is a frequent secondary event, driving proliferation and contributing to the aggressive phenotype. Delta-like ligand 3 ([[DLL3]]), an inhibitory [[Notch]] ligand, is aberrantly overexpressed on the cell surface of SCLC tumors in roughly 80% of cases and has emerged as a promising therapeutic target. Additional molecular features include frequent [[PTEN]] loss, [[BCL-2]] overexpression, and dysregulation of the [[PI3K]]/[[AKT]]/[[mTOR]] pathway.
 
 ## Staging
 
@@ -56,7 +56,7 @@ List of documents that mention this entity
 - [[Chromogranin A]]: Neuroendocrine marker expressed in SCLC.
 - [[CD56]]: NCAM; neuroendocrine marker used in SCLC diagnosis.
 - [[RB1]]: Tumor suppressor gene lost in ~90% of SCLC.
-- [[TP53]]: Tumor suppressor gene lost in ~90% of SCLC.
+- [[p53]]: Tumor suppressor gene lost in ~90% of SCLC.
 - [[MYC]]: Oncogene frequently amplified in SCLC.
 - [[DLL3]]: Notch ligand overexpressed on SCLC cells; emerging therapeutic target.
 - [[Cisplatin]]: Platinum agent used in LS-SCLC.
@@ -70,6 +70,6 @@ List of documents that mention this entity
 - [[PCI]]: Prophylactic cranial irradiation used in LS-SCLC.
 
 ## Linking Summary
-- New links added: [[Synaptophysin]], [[Chromogranin A]], [[CD56]], [[RB1]], [[TP53]], [[MYC]], [[DLL3]], [[Notch]], [[PTEN]], [[BCL-2]], [[PI3K]], [[AKT]], [[mTOR]], [[TNM]], [[Cisplatin]], [[Etoposide]], [[PCI]], [[Carboplatin]], [[PD-L1]], [[Atezolizumab]], [[Durvalumab]], [[Topotecan]], [[Lurbinectedin]], [[Neuroendocrine]], [[Chemotherapy]]
+- New links added: [[Synaptophysin]], [[Chromogranin A]], [[CD56]], [[RB1]], [[p53]], [[MYC]], [[DLL3]], [[Notch]], [[PTEN]], [[BCL-2]], [[PI3K]], [[AKT]], [[mTOR]], [[TNM]], [[Cisplatin]], [[Etoposide]], [[PCI]], [[Carboplatin]], [[PD-L1]], [[Atezolizumab]], [[Durvalumab]], [[Topotecan]], [[Lurbinectedin]], [[Neuroendocrine]], [[Chemotherapy]]
 - Suggested new entity notes to create: [[Synaptophysin]], [[Chromogranin A]], [[CD56]], [[DLL3]], [[Lurbinectedin]], [[PCI]], [[Neuroendocrine]]
 - Strong connections to strengthen: [[Lung Cancer]] ↔ [[Small-cell lung cancer]], [[Non-small-cell lung cancer]] ↔ [[Small-cell lung cancer]], [[PD-L1]] ↔ [[Small-cell lung cancer]], [[Chemotherapy]] ↔ [[Small-cell lung cancer]]

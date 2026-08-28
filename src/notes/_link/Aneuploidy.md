@@ -43,7 +43,7 @@ Aneuploid cells experience metabolic reprogramming as a secondary consequence of
 
 ### Tumor Suppression and Tumor Promotion
 
-Aneuploidy exerts a paradoxical dual role in cancer. In normal cells with intact [[TP53]], aneuploidy triggers p53-dependent growth arrest or apoptosis, acting as a tumor-suppressive barrier. However, in cells that have lost p53 function — a common early event in tumorigenesis — aneuploidy promotes further genomic instability, accelerates loss of heterozygosity at tumor suppressor loci, and enables the clonal evolution that drives cancer progression and drug resistance.
+Aneuploidy exerts a paradoxical dual role in cancer. In normal cells with intact [[p53]], aneuploidy triggers p53-dependent growth arrest or apoptosis, acting as a tumor-suppressive barrier. However, in cells that have lost p53 function — a common early event in tumorigenesis — aneuploidy promotes further genomic instability, accelerates loss of heterozygosity at tumor suppressor loci, and enables the clonal evolution that drives cancer progression and drug resistance.
 
 ## Trisomies and Clinical Conditions
 
@@ -82,19 +82,19 @@ List of documents that mention this entity
 
 - [[Cancer]] — Aneuploidy is present in ~90% of solid tumors and drives genomic instability and clonal evolution
 - [[Chromosomal Instability]] — The ongoing rate of chromosome missegregation that sustains aneuploidy in tumors
-- [[TP53]] — The primary checkpoint that suppresses growth of aneuploid cells; loss permits aneuploid expansion
+- [[p53]] — The primary checkpoint that suppresses growth of aneuploid cells; loss permits aneuploid expansion
 - [[Meiosis]] — Errors during meiotic chromosome segregation are the primary cause of constitutional aneuploidy
 - [[Alzheimer's Disease]] — Trisomy 21 elevates APP gene dosage, causing early-onset Alzheimer's pathology
 - [[APP]] — Located on chromosome 21; overexpression in Down syndrome drives amyloid plaque formation
 - [[BUB1]] — Spindle assembly checkpoint component; dysfunction promotes CIN and aneuploidy
 - [[BUBR1]] — Checkpoint kinase whose insufficiency causes mosaic variegated aneuploidy
 - [[Proteasome]] — Overwhelmed by excess protein production from aneuploid chromosomes
-- [[TP53]] — Loss of p53 function is required for aneuploid cells to proliferate and evolve
+- [[p53]] — Loss of p53 function is required for aneuploid cells to proliferate and evolve
 - [[Taxanes]] — Microtubule-targeting agents used therapeutically against aneuploid tumors
 - [[AURKA]] — Aurora kinase A inhibitor; synthetic lethal in specific aneuploid contexts
 
 ## Linking Summary
 
-- New links added: [[Meiosis]], [[Proteasome]], [[BUB1]], [[BUBR1]], [[AURKA]], [[PLK1]], [[Taxanes]], [[Chromosomal Instability]], [[TP53]]
+- New links added: [[Meiosis]], [[Proteasome]], [[BUB1]], [[BUBR1]], [[AURKA]], [[PLK1]], [[Taxanes]], [[Chromosomal Instability]], [[p53]]
 - Suggested new entity notes to create: [[Nondisjunction]], [[Mosaic Variegated Aneuploidy]]
-  - Strong connections to strengthen: [[Aneuploidy]] ↔ Cancer, [[Aneuploidy]] ↔ Chromosomal Instability, [[Aneuploidy]] ↔ [[TP53]]
+  - Strong connections to strengthen: [[Aneuploidy]] ↔ Cancer, [[Aneuploidy]] ↔ Chromosomal Instability, [[Aneuploidy]] ↔ [[p53]]

@@ -26,7 +26,7 @@ Nutlin-3a has a dual senescence role. (1) As a senescence inducer: by enforcing 
 
 ## Clinical / Pathological Relevance
 
-Clinical derivatives (RG7112, idasanutlin) advanced in trials for MDM2-amplified cancers (e.g., AML, liposarcoma). Efficacy requires wild-type [[TP53|TP53/p53]]; tumors with mutant p53 are resistant. Its senomorphic and senolytic potential remains preclinical but illustrates p53 as a master regulator of both senescence establishment and SASP restraint.
+Clinical derivatives (RG7112, idasanutlin) advanced in trials for MDM2-amplified cancers (e.g., AML, liposarcoma). Efficacy requires wild-type [[p53|TP53/p53]]; tumors with mutant p53 are resistant. Its senomorphic and senolytic potential remains preclinical but illustrates p53 as a master regulator of both senescence establishment and SASP restraint.
 
 ## Documents
 

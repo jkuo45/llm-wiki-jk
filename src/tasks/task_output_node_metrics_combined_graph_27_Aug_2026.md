@@ -1,6 +1,6 @@
 ---
 title: Node-Level Network Analysis for the Combined Knowledge Graph
-description: Metrics analysis of the combined (triples + wiki) knowledge graph — recomputed centrality on the union topology (4,085 nodes / 36,998 edges), role distribution, connectivity contrast vs the triples graph (components 223→123, k-core 6→20, giant component 82%→94%), wiki-only core integration (TP53, cGAS, STING…), and wiki-boosted shared hubs — with the caveat that the stored combined fingerprint inherits per-source values.
+description: Metrics analysis of the combined (triples + wiki) knowledge graph — recomputed centrality on the union topology (4,084 nodes / 36,982 edges), role distribution, connectivity contrast vs the triples graph (components 223→123, k-core 6→20, giant component 82%→94%), wiki-only core integration (cGAS, STING, Phosphorylation…), p53/TP53 consolidation, and wiki-boosted shared hubs — with the caveat that the stored combined fingerprint inherits per-source values. Correction note: the wiki previously split the single p53/TP53 entity into two nodes (p53 protein + TP53 gene); consolidated into p53, a shared union core node.
 created: 2026-08-27
 updated: 2026-08-27
 source: web/data/nodes.json + edges.json (combined, scripts/05_build_combined.py) + graphify-out/graph.json (triples)
@@ -33,20 +33,23 @@ The vault now exposes three graph datasets in the web viewer (**combined** is th
 | Dataset | Nodes | Edges | Source |
 | --- | ---: | ---: | --- |
 | Triples | 2,629 | 3,832 | `_triples.json` extractions → `graphify-out/graph.json` |
-| Wiki | 2,995 | 34,851 | Obsidian `[[wikilinks]]` (entity notes) → `wiki-out/wiki-graph.json` |
-| **Combined** | **4,085** | **36,998** | union of the two (`05_build_combined.py`) |
+| Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]` (entity notes) → `wiki-out/wiki-graph.json` |
+| **Combined** | **4,084** | **36,982** | union of the two (`05_build_combined.py`) |
 
 Composition of the combined node set (by node id — `norm()`-canonical, so `NF-κB` = `nf_kappab` in all three):
 
 - **shared (triples + wiki): 1,539**
-- **wiki-only: 1,456**
+- **wiki-only: 1,455**
 - **triples-only: 1,090**
+
+> [!note] Correction (this run)
+> The wiki previously emitted **two** nodes for a single entity — `p53` (protein) and `tp53` (the `TP53` gene note, which also carried the alias `p53` and hijacked most `[[p53]]` links because it sorted first at build time). The two notes were merged into the canonical `src/notes/_link/p53.md` (aliases: `TP53`, `Tumor protein p53`) and all `[[TP53]]` links were relinked to `[[p53]]`. After rebuild, **p53 is a shared union core node** (union degree 211, k-core 20, PageRank 0.00341) — it is *not* a wiki-only leaf. That is why "TP53" no longer appears in the §2.3 wiki-only table below.
 
 Edge sources in the union:
 
-- **both graphs: 1,685** (4.6%)
-- **wiki-only: 33,166** (89.6%)
-- **triples-only: 2,147** (5.8%)
+- **both graphs: 1,700** (4.6%)
+- **wiki-only: 33,150** (89.7%)
+- **triples-only: 2,132** (5.8%)
 
 > [!important] Fingerprint caveat
 > The `nodes.json` fingerprint stored on combined nodes is **inherited from each source graph**: triples nodes carry triples-side metrics, wiki-only nodes carry wiki-side metrics, and shared nodes carry triples values (community/color/description prefer triples). The union topology was **not** re-analyzed at build time. The numbers below are therefore **recomputed on the true union** (directed PageRank; undirected betweenness/clustering/k-core; roles via `_node_roles_lib`) so they are genuine combined-graph metrics, comparable to the triples-graph reference page.
@@ -62,7 +65,7 @@ Recomputing connectivity on the union versus the triples graph alone:
 | Metric | Triples | Combined (union) | Δ |
 | --- | ---: | ---: | ---: |
 | Connected components | **223** | **123** | −100 |
-| Giant component (nodes) | 2,147 (81.7%) | 3,840 (**94.0%**) | +1,693 |
+| Giant component (nodes) | 2,147 (81.7%) | 3,839 (**94.0%**) | +1,692 |
 | Max k-core | **6** | **20** | +14 |
 | Average clustering | — | 0.290 | — |
 
@@ -91,18 +94,22 @@ The top wiki-only nodes (present only in the wiki graph) are **integrated into t
 
 | Node | Degree (union) | k-core | Roles (union) |
 | --- | ---: | ---: | --- |
-| TP53 | 184 | 20 | Sink · Bottleneck |
 | cGAS | 96 | 18 | Sink · Bottleneck |
-| Phosphorylation | 87 | 17 | Spreader · Master regulator |
+| Phosphorylation | 87 | 17 | Spreader · Master regulator · Bottleneck |
 | STING | 83 | 16 | Sink · Bottleneck |
 | Cell Cycle | 83 | 15 | Sink · Bottleneck |
-| Macrophage | 75 | 20 | Spreader · Bottleneck |
+| Macrophage | 75 | 20 | Spreader · Bottleneck · Core backbone |
 | Ubiquitination | 72 | 17 | Spreader · Bottleneck |
 | NMN | 71 | 19 | Sink · Bottleneck |
-| Rheumatoid Arthritis | 71 | 20 | Spreader · Bottleneck |
+| Rheumatoid Arthritis | 71 | 20 | Spreader · Bottleneck · Core backbone |
 | Endothelial Cells | 68 | 18 | Bottleneck |
+| Fibroblast | 68 | 17 | Sink · Bottleneck |
+| Type I Interferon | 66 | 16 | Sink |
 
-Interpretation: the wiki corpus adds **mechanistic/process vocabulary** (cGAS–STING axis, ubiquitination, cell-cycle control, NMN) that the triples extraction had under-represented; these nodes attach deep inside the aging/senescence core. Top wiki-only PageRank: TP53 (0.00326), Autophagosome, Epigenetic Aging, Atg1, Epigenetic Alterations, Cell Cycle, PARK2, mPTP, Histone Variant, NMN.
+> [!note] p53/TP53 moved out of this table
+> After the Consolidation, **p53 is a *shared* node** (it now carries both triples and wiki edges), so it is no longer a wiki-only entry. On the union it is the graph's 3rd-largest single-entity hub by wiki in-degree: union degree **211** (k-core 20, PageRank 0.00341, Sink · Bottleneck · Core backbone) and a top union-PageRank gainer (see §2.4). The largest wiki-only node is now **cGAS** (96, k-core 18).
+
+Interpretation: the wiki corpus adds **mechanistic/process vocabulary** (cGAS–STING axis, ubiquitination, cell-cycle control, NMN/NAD+) that the triples extraction had under-represented; these nodes attach deep inside the aging/senescence core. Top wiki-only PageRank (corrected): Autophagosome (0.00174), Epigenetic Aging, Atg1, Epigenetic Alterations, Cell Cycle, Histone Variant, PARK2, mPTP, Phosphorylation, NMN.
 
 ### 2.4 Shared hubs are massively wiki-boosted
 
@@ -110,18 +117,19 @@ For shared nodes, union PageRank minus triples PageRank (top movers):
 
 | Node | union PR | triples PR | Δ |
 | --- | ---: | ---: | ---: |
-| Oxidative Stress | 0.01147 | 0.00321 | +0.00826 |
-| Cancer | 0.00907 | 0.00343 | +0.00564 |
-| Inflammation | 0.00607 | 0.00062 | +0.00545 |
-| Apoptosis | 0.00725 | 0.00202 | +0.00523 |
-| ROS | 0.00528 | 0.00026 | +0.00502 |
-| Mitochondria | 0.00506 | 0.00064 | +0.00443 |
-| Autophagy | 0.00829 | 0.00414 | +0.00415 |
-| Senescence | 0.00615 | 0.00277 | +0.00338 |
-| Inflammaging | 0.00455 | 0.00142 | +0.00313 |
-| Caloric Restriction | 0.00304 | 0.00075 | +0.00228 |
+| Oxidative Stress | 0.01143 | 0.00321 | +0.00822 |
+| Cancer | 0.00924 | 0.00343 | +0.00581 |
+| Apoptosis | 0.00745 | 0.00202 | +0.00543 |
+| Inflammation | 0.00604 | 0.00062 | +0.00542 |
+| ROS | 0.00537 | 0.00026 | +0.00511 |
+| Mitochondria | 0.00504 | 0.00064 | +0.00440 |
+| Autophagy | 0.00828 | 0.00414 | +0.00414 |
+| Senescence | 0.00632 | 0.00277 | +0.00355 |
+| Inflammaging | 0.00457 | 0.00142 | +0.00315 |
+| Caloric Restriction | 0.00305 | 0.00075 | +0.00230 |
+| p53 | 0.00341 | 0.00117 | +0.00225 |
 
-Every established hub gains 2–5× PageRank once wiki endorsements are counted; several (ROS, Inflammation, Mitochondria) were near-invisible in triples-only ranking.
+Every established hub gains 2–5× PageRank once wiki endorsements are counted; several (ROS, Inflammation, Mitochondria) were near-invisible in triples-only ranking. **p53** now appears on this list: once the merged `p53` note is recognized as the same entity (rather than split into a wiki-only `TP53` node), its union PageRank (0.00341, ≈3× the triples value) reflects the full weight of the wiki's 184-link endorsement cluster.
 
 ### 2.5 Bottleneck reshuffle
 
@@ -136,9 +144,9 @@ After the normalized-id rebuild, `NF-κB` = `nf_kappab` **in all three graphs**,
 | Node | Degree | k-core | Source | Roles (union) |
 | --- | ---: | ---: | --- | --- |
 | Oxidative Stress | 607 | 20 | both | Sink · Master regulator |
-| SIRT1 | 579 | 20 | both | Spreader · Master regulator |
-| Cancer | 573 | 20 | both | Sink · Master regulator |
-| SASP | 547 | 20 | both | Sink · Master regulator |
+| SIRT1 | 578 | 20 | both | Spreader · Master regulator |
+| Cancer | 572 | 20 | both | Sink · Master regulator |
+| SASP | 546 | 20 | both | Sink · Master regulator |
 | Apoptosis | 444 | 20 | both | Sink · Master regulator |
 | Autophagy | 423 | 20 | both | Sink · Master regulator |
 | Aging | 395 | 20 | both | Sink · Master regulator |
@@ -148,7 +156,7 @@ After the normalized-id rebuild, `NF-κB` = `nf_kappab` **in all three graphs**,
 | Inflammation | 351 | 20 | both | Sink · Master regulator |
 | Parkinson's Disease | 295 | 20 | both | Sink · Master regulator |
 | Mitochondria | 290 | 20 | both | Sink · Master regulator |
-| SIRT6 | 287 | 20 | both | Spreader · Master regulator |
+| SIRT6 | 286 | 20 | both | Spreader · Master regulator |
 | ROS | 284 | 20 | both | Sink · Bottleneck |
 
 All top-15 are shared nodes at k-core 20 — the union's inner shell is the established triples core with wiki reinforcement.
@@ -161,7 +169,7 @@ All top-15 are shared nodes at k-core 20 — the union's inner shell is the esta
 - **Repro (ad-hoc, not a tracked script).** Build the union `DiGraph` from `web/data/nodes.json` + `edges.json` (nodes: `id`/`label`/`in_triples`/`in_wiki`; edges: `from`→`to`), drop self-loops, then: `nx.pagerank(G, alpha=0.85, max_iter=200)`; undirected `G.to_undirected()` → `nx.betweenness_centrality`, `nx.clustering`, `nx.core_number`, `nx.connected_components`; roles via `scripts/_node_roles_lib.py` (`compute_thresholds` + `classify`). Triples comparison reads `graphify-out/graph.json` the same way.
 - **Communities.** Kept as the offset merged legend (triples cids + wiki cids +1000). Leiden was **not** re-run on the union; a re-cluster would produce genuinely new combined communities (a natural next step, see §5).
 - **Roles.** `_node_roles_lib` rules unchanged; thresholds are percentiles recalibrated to the union, so counts are comparable in spirit, not 1:1, with the triples page table.
-- **Edge typing.** 89.6% of union edges are untyped wiki `links_to`; directed role semantics on those edges are authoring artifacts (see §2.2 warning).
+- **Edge typing.** 89.7% of union edges are untyped wiki `links_to`; directed role semantics on those edges are authoring artifacts (see §2.2 warning).
 
 ---
 
@@ -169,8 +177,8 @@ All top-15 are shared nodes at k-core 20 — the union's inner shell is the esta
 
 1. **State the graph in every analysis.** Degrees, k-core, betweenness, and PageRank are all graph-dependent; the triples and combined graphs give *qualitatively different* readings (k-core 6 vs 20; SASP vs SIRT1 as top bottleneck). The triples-graph reference page (`node-analysis-examples-biology.html`) and earlier calculation documents were computed on the triples graph only.
 2. **The combined graph is the better connectivity picture** (94% giant component, k-core 20) — use it for *structural* questions (which entities bridge domains, what is the core).
-3. **The triples graph is the better *mechanism* picture** — only it carries typed, confidence-weighted relations (`promotes`, `inhibits`, …); use it for directional causal claims. Restricting union analyses to `sources` contains triples (2,147 triples-only + 1,685 both = typed spine) recovers typed semantics on the denser topology.
-4. **Wiki-only nodes are first-class core entities**, not curiosity leaves: TP53, cGAS, STING, Cell Cycle, Ubiquitination, NMN, PARK2 — many are k-core 15–20 in the union and merit the same deep-dive treatment as triples hubs.
+3. **The triples graph is the better *mechanism* picture** — only it carries typed, confidence-weighted relations (`promotes`, `inhibits`, …); use it for directional causal claims. Restricting union analyses to `sources` contains triples (2,132 triples-only + 1,700 both = typed spine) recovers typed semantics on the denser topology.
+4. **Wiki-only nodes are first-class core entities**, not curiosity leaves: cGAS, STING, Cell Cycle, Ubiquitination, NMN, PARK2 — many are k-core 15–20 in the union and merit the same deep-dive treatment as triples hubs. **p53** likewise earns deep-dive treatment, but now as a *shared* hub (union degree 211, k-core 20) after its gene/protein notes were consolidated.
 
 ---
 

@@ -15,7 +15,7 @@ protected: true
 
 ## Molecular Pathology
 
-High-grade serous carcinoma — the dominant subtype — is characterized by [[TP53]] mutation, [[BRCA1/2]] defects and homologous-recombination deficiency, and dysregulated survival signaling including [[PI3K]]/[[Akt]]/[[mTOR]], [[JAK2]]/[[STAT3]], and [[RAS]] pathways. These nodes are attractive for molecularly targeted intervention and for repurposing existing drugs.
+High-grade serous carcinoma — the dominant subtype — is characterized by [[p53]] mutation, [[BRCA1/2]] defects and homologous-recombination deficiency, and dysregulated survival signaling including [[PI3K]]/[[Akt]]/[[mTOR]], [[JAK2]]/[[STAT3]], and [[RAS]] pathways. These nodes are attractive for molecularly targeted intervention and for repurposing existing drugs.
 
 ## Clinical Presentation and Biomarkers
 
@@ -62,6 +62,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Akt]], [[Cisplatin]], [[Ivermectin]], [[JAK2]], [[KPNB1]], [[PAK1]], [[STAT3]], [[mTOR]], [[melittin]], [[paclitaxel]], [[VEGF]], [[TP53]], [[BRCA1/2]], [[Chemotherapy]], [[Metastasis]], [[Cancer]]
+- New links added: [[Akt]], [[Cisplatin]], [[Ivermectin]], [[JAK2]], [[KPNB1]], [[PAK1]], [[STAT3]], [[mTOR]], [[melittin]], [[paclitaxel]], [[VEGF]], [[p53]], [[BRCA1/2]], [[Chemotherapy]], [[Metastasis]], [[Cancer]]
 - Suggested new entity notes to create: [[KPNB1]], [[CA-125]], [[PARP inhibitor]]
 - Strong connections to strengthen: [[ovarian cancer]] ↔ [[paclitaxel]], [[ovarian cancer]] ↔ [[Ivermectin]], [[ovarian cancer]] ↔ [[Cisplatin]]

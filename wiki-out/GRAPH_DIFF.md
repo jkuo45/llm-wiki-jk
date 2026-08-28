@@ -1,34 +1,33 @@
 # Triples vs Wiki Graph Diff
 
 - Triples graph: `/Users/johnnykuo/Documents/llm-wiki-jk/graphify-out/graph.json` (2629 nodes, 3832 edges)
-- Wiki graph:    `/Users/johnnykuo/Documents/llm-wiki-jk/wiki-out/wiki-graph.json` (2995 nodes, 34851 edges)
+- Wiki graph:    `/Users/johnnykuo/Documents/llm-wiki-jk/wiki-out/wiki-graph.json` (2994 nodes, 34850 edges)
 
 ## Node overlap
 
 - **Shared** (in both): 1539
-- **Wiki-only** (linked, no triple): 1456
+- **Wiki-only** (linked, no triple): 1455
 - **Triples-only** (triple, no wikilink): 1090
 
 ## Edge overlap
 
-- **Wiki-only edges** (under-extracted triples / curation gaps): 33166
-- **Triples-only edges** (not surfaced as a wikilink): 2147
+- **Wiki-only edges** (under-extracted triples / curation gaps): 33150
+- **Triples-only edges** (not surfaced as a wikilink): 2132
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
-| TP53 | 184 |
 | cGAS | 96 |
 | Phosphorylation | 87 |
 | STING | 83 |
 | Cell Cycle | 83 |
 | Macrophage | 75 |
 | Ubiquitination | 72 |
-| NMN (Nicotinamide Mononucleotide) | 71 |
 | Rheumatoid Arthritis | 71 |
-| Fibroblast | 68 |
+| NMN (Nicotinamide Mononucleotide) | 71 |
 | Endothelial Cells | 68 |
+| Fibroblast | 68 |
 | Type I Interferon | 66 |
 | Metabolism | 66 |
 | Replicative Senescence | 65 |
@@ -38,6 +37,7 @@
 | Mitochondrial Permeability Transition Pore | 57 |
 | Unfolded Protein Response | 57 |
 | Calcium | 56 |
+| Extracellular Matrix | 56 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -45,24 +45,24 @@
 | --- | --- |
 | Adrenochrome formation | 11 |
 | JAK-STAT3 | 4 |
-| SIRT3 deficiency | 4 |
-| Physical Activity | 4 |
 | SIRT1 and SIRT2 | 4 |
-| PI3K/Akt | 3 |
+| Physical Activity | 4 |
+| SIRT3 deficiency | 4 |
 | catechol flavonoid | 3 |
+| PI3K/Akt | 3 |
+| SIRT7 depletion | 3 |
+| Advanced Glycation End Products formation | 3 |
+| Dietary Advanced Glycation End Products | 3 |
+| H3K9 | 3 |
 | SIRT6 overexpression | 3 |
 | Dietary AGEs | 3 |
 | Streptomyces avermectinius | 3 |
-| SIRT7 depletion | 3 |
-| Dietary Advanced Glycation End Products | 3 |
-| H3K9 | 3 |
-| Advanced Glycation End Products formation | 3 |
-| SIRT2 inhibition | 2 |
-| diabetic complications | 2 |
-| AMPK activation | 2 |
-| Universal indirect pan-sirtuin activator | 2 |
-| stress responses | 2 |
-| AGE-modified proteins | 2 |
+| Metallic silver | 2 |
+| Sirtuin deacetylation reaction | 2 |
+| Kinase-inhibitor scaffold | 2 |
+| adrenochrome synthesis | 2 |
+| Glycemic Control | 2 |
+| Meteorin-like protein | 2 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 
@@ -102,7 +102,6 @@
 | Withaferin A | SIRT3 for anti-fibrotic effect |
 | William C. Campbell | Nobel Prize in Physiology or Medicine |
 | Western blot analysis | Acetylated p53, histone 3 and gamma-tubulin |
-| Warburg Effect | p53 |
 | Vitamin E | Singlet Oxygen |
 | Vitamin E | Prostate Cancer |
 | Vitamin E | cancer risk in slow COMT |
@@ -113,3 +112,4 @@
 | VEGFc | VEGF Family |
 | VEGFc | Lymphangiogenesis |
 | VCAM-1 | VLA-4 (alpha4beta1 integrin) on leukocytes |
+| Valine | TCA cycle |

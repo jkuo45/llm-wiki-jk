@@ -83,7 +83,7 @@ List of documents that mention this entity
 - [[Immunotherapy]]: [[Checkpoint inhibitor|Checkpoint inhibitors]] (pembrolizumab, atezolizumab) and intravesical [[BCG]] represent key immunotherapeutic strategies in bladder cancer.
 - [[Schistosoma haematobium]]: Carcinogenic parasitic infection; leading cause of squamous cell carcinoma of the bladder in endemic regions.
 - [[PD-L1]]: Biomarker and therapeutic target for immune checkpoint inhibition in bladder cancer.
-- [[p53]]: [[TP53]] mutations are frequent in high-grade and muscle-invasive bladder cancer; associated with genomic instability and progression.
+- [[p53]]: [[p53]] mutations are frequent in high-grade and muscle-invasive bladder cancer; associated with genomic instability and progression.
 
 ## Linking Summary
 
