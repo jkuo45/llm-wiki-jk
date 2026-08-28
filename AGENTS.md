@@ -1,197 +1,245 @@
-# Wiki-style Knowledge Base
+# AGENTS.md — llm-wiki-jk
 
-## Project Maintenance:
-
-- Project timestamp format %d\_%b\_%Y %I:%M %p %Z (uppercase)
-  - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
-  - Depending on task, they may or may not be included in context, counts.
-- `src/notes` directory:
-  - Contains files for wiki, directories within represent topics.
-  - Each markdown file within that topic can be counted as a single entity.
-  - Each entity filename (`.md`) must be unique across all of `src/notes/` (including `src/notes/_link/` and all topic directories). Obsidian resolves wiki links globally by filename, so duplicates cause ambiguity.
-- `raw` directory:
-  - Contains documents that have not yet been ingested into `src/notes/`. These are waiting to be processed through the Document Ingestion Workflow.
-- `src/tasks` directory:
-  - Contains task outputs. Default to saving task outputs to this directory.
-- Execute python scripts using `uv run --with`.
-- Graphify is installed as a uv tool.
-- For translation tasks, prefer the Python `deep-translator` library using the Google Translate engine; review the output for biomedical terminology accuracy before publishing.
-- When new pages are created:
-  - Check whether a language-specific version of the page already exists before adding a new one.
-  - Register the new articles in the site index artifacts: `web/public/sitemap.xml`, `web/public/data/articles.json`, `web/public/llms.txt`.
-- Commit messages use the style `chore(<scope>): <short lowercase description>` — single line, lowercase after the colon (e.g. `chore: rename chat to prompt`, `chore(analysis): query selection and node info to analysis panel`). Scope is optional; keep the whole subject under ~72 chars.
-
-## Retrieval Guidelines:
-
-When answering questions about biomedical topics, prioritize information sources in this order:
-
-- **Notes** — Search the `src/notes/` directory (including `_link/`) for relevant entity notes. Use content from existing wiki notes as the primary basis for your answer.
-- **LLM knowledge & biomedical context** — If the notes do not fully address the question, supplement with general biomedical knowledge. Clearly distinguish between information sourced from the wiki and information drawn from general knowledge.
-- **Cross-reference** — Where possible, link back to relevant entity notes in your response (e.g., `[[Entity Name]]`) to reinforce the knowledge graph and surface related concepts.
-- **Graphify graph traversal** — When a knowledge graph exists (`graphify-out/graph.json`), use graphify's query tools to trace connections, explain entities, and find paths between concepts:
-  - **`graphify query "<question>"`** — BFS (broad context) or DFS (trace a specific chain with `--dfs`) traversal to answer questions from the graph. Use `--budget N` to cap token output.
-  - **`graphify path "EntityA" "EntityB"`** — Find the shortest path between two concepts, revealing how distant entities are connected through intermediate relationships.
-  - **`graphify explain "EntityName"`** — Get a plain-language explanation of a single node: all its connections, source locations, and significance within the graph.
-  - Always expand queries against the graph's vocabulary before traversal (see graphify skill for details). Answer using only what the graph contains; cite `source_location` for specific facts.
-
-## Document Ingestion Workflow:
-
-| Step                          | Action                                                                                                                                                                                                                                                                                                                                                                      | Output                                             |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter, callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file.                              |
-| **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.          | New/updated entity notes / enriched existing notes |
-| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `src/notes/_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                          | Resolved stubs, updated links between entities.    |
-| **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                             | Updated README with new entities.                  |
-
-### Wiki Link Markup Checklist (Step 1)
-
-When marking up wiki links in the ingested document, apply these rules systematically:
-
-- **Scan for all biomedical entities** — e.g. genes (`[[CDKN2A]]`), proteins (`[[p53]]`), enzymes (`[[COMT]]`), cytokines (`[[IL-6]]`), pathways (`[[NF-κB]]`), diseases (`[[Alzheimer's Disease]]`), drugs (`[[Rapamycin]]`), processes (`[[Apoptosis]]`), anatomical structures (`[[Adrenal gland]]`), cell types (`[[Macrophages]]`).
-- **Link first meaningful mention** — place the `[[wiki link]]` on the first occurrence that adds contextual value. Do not over-link every subsequent mention in the same paragraph. Only link to entities and terms that make sense contextually — avoid linking common words like 'cell' or 'protein' unless the linked note adds specific context.
-- **Use canonical note titles** — match exact filenames. If a note exists as `notes/_link/NAD+.md`, use `[[NAD+]]`, not `[[NAD⁺]]` or `[[Nicotinamide Adenine Dinucleotide]]` (unless an alias exists). Maintain consistency: use the same exact title for the same entity across files.
-- **Resolve existing notes first** — before creating a new `[[link]]`, check `src/notes/_link/` and `src/notes/<topic>/` for an existing note with that entity name. Use existing notes whenever possible.
-- **Flag new entities** — if no note exists, use a clear `[[New Entity Name]]` link anyway (Obsidian will show it as unresolved). Prefer space to underscore in the entity name. Note these at the end of the document for later creation in Step 3.
-- **No path-prefixed links** — always use bare `[[Entity]]`, never `[[notes/topic/Entity]]` — they break when entities are reorganized.
-- **No wiki links in data files** — never create wiki links inside triples JSON, dot, or SVG files. Only `.md` files are valid wiki link targets.
-- **Split composite entities** — `[[IIS (DAF-16/FOXO)]]` → `[[DAF-16]]`/`[[FOXO]]`. Each biological entity gets its own link. Keep as-single-linked cases where `/` denotes the same entity under alternative names (e.g., `[[p62/SQSTM1]]` → `[[p62]]`).
-- **Use display text when helpful** — `[[Retinoblastoma Protein|Rb]]` keeps readability while linking to the correct note.
-- **Callout key insights** — use `> [!info]`, `> [!tip]`, `> [!important]`, `> [!warning]` to highlight mechanistic details, clinical significance, and key experimental findings.
-- Add dedicated `Documents`,`Connections`, and `Linking Summary` sections listing important bidirectional connections with brief explanations.
-- **Outline format style** — remove enumeration from headings and subheadings. use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
-- **Maintain content consistency** - Ensure that all original content is intact (with wiki links).
-
-> [!note] Reference
-> General wiki link syntax and formatting rules are defined in [[#Linking Format]] below. The checklist above consolidates all linking rules for the ingestion workflow — steps 3–5 should follow the same conventions.
-
-### Enrich/Create entity (wiki) files (Step 2)
-
-- **Modification:** When modifying existing notes, preserve existing content, but reorganize or rewrite when necessary to improve coherence, accuracy, and flow. Prioritize accuracy and contextual relevance over strict preservation. Always update the `updated:` date in frontmatter.
-- **Content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
-- **Depth:** Scale depth according to topic importance and available literature. For well-established entities, provide comprehensive coverage with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. For narrower topics, focus on essential context. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
-- **Evidence-Based:** Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
-- **Neutral & Precise:** Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings. Make each note a hub that intelligently links to related concepts.
-
-### Examples
-
-#### Standard Structure for Gene / Protein / Enzyme:
-
-- **Overview**: A concise definition, biological role, and cellular localization.
-- **Structure & Domains**: Key structural features, active sites, and post-translational modifications (e.g., phosphorylation sites like [[Ser308]]).
-- **Mechanism of Action & Pathways**: Detailed biochemical pathways, upstream activators, downstream targets, and regulatory feedback loops.
-- **Physiological Function**: Its role in normal tissue development, homeostasis, or systemic physiology.
-- **Pathology & Clinical Relevance**: Associated mutations, overexpression/downregulation in diseases (e.g., cancer, neurodegeneration), and its viability as a therapeutic target.
-
-#### Standard Structure for Disease / Disorder:
-
-- **Etiology & Pathophysiology**: Molecular and cellular mechanisms driving the pathology, including genetic risk factors or environmental triggers.
-- **Clinical Presentation & Biomarkers**: Key symptoms, diagnostic criteria, and molecular biomarkers.
-- **Therapeutic Landscape**: Current standard-of-care treatments, mechanism of action of key drugs, and emerging clinical trials or therapeutic strategies.
-
-#### Standard Structure for Chemicals / Compounds / Drugs:
-
-- **Chemical Properties & Classification**: Basic structure, class, and target selectivity.
-- **Pharmacodynamics & Pharmacokinetics**: Mechanism of action at the molecular level, absorption, distribution, metabolism, and excretion (ADME) where relevant.
-- **Applications**: Research uses or clinical indications.
-
-### Semantic Metadata & Properties (Open Knowledge Format, OKF)
-
-#### **Frontmatter**
-
-- **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
-- **Quoting**: Prefer unquoted scalar values. Use quotes only when required (e.g., values containing colons or special characters).
-- **Duplicate YAML keys**: No key should appear twice at the same indentation level.
-- **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
-- **All tag values must be kebab-case** (lowercase, spaces replaced with hyphens). This applies to both the `entity_type_1` category tag and all topical/domain tags.
-- `entity_type_1` should be one of the tag values.
+An Obsidian-flavored biomedical knowledge base (mitohormesis, sirtuins, autophagy,
+senescence, oxidative stress, pharmacology, etc.) with a three-mode knowledge-graph
+viewer, a prompt backend, and graph-build tooling.
 
 ---
 
-**Entity frontmatter:**
+## 1. Repository Layout
 
-```
-title: # Name of entity, index of topic, name of document, etc.
-description: # Short description (if chat thread, summarize)
-protected: false # [true | false] Prevents relocation to _link/ when true
+| Path               | Purpose                                                                                                                               |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/notes/`       | The wiki. Subdirectories are **topics** (`_link/` holds cross-topic shared entities). Each `.md` is one entity or document note.      |
+| `src/tasks/`       | Task/analysis outputs. Default save location for task outputs.                                                                        |
+| `src/images/`      | Ingested images per `image-ingest` skill; `manifest.json` is the source of truth.                                                     |
+| `raw/`             | Unprocessed documents awaiting the Document Ingestion Workflow (§5).                                                                  |
+| `scripts/`         | Numbered pipeline: `00_` README counts, `03_` triples graph, `04_` analyses, `05_` wiki/combined graphs, `99_` utilities.             |
+| `graphify-out/`    | Triples-graph artifacts (`graph.json`, `GRAPH_REPORT.md`, `graph.html`).                                                              |
+| `wiki-out/`        | Wiki-graph artifacts (`wiki-graph.json`, diff/orphan/link-prediction reports).                                                        |
+| `web/`             | Vite + Three.js graph site. Static data in `web/public/data/`; built with `npm run build`, deployed with `npm run deploy` (wrangler). |
+| `api/`             | FastAPI adapter (SSE prompt bridge to headless `opencode serve`, networkx graph ops).                                                 |
+| `deploy/`          | `dev.sh` (local: opencode serve + API) and `install.sh` (server bootstrap, systemd units).                                            |
+| `.opencode/agent/` | `wiki-prompt.md` (read-only public agent), `wiki-util.md`.                                                                            |
+| `.agents/skills/`  | `obsidian-markdown`, `image-ingest`, `triples`, `graphify` helpers, persona skills.                                                   |
+
+Node IDs are canonicalised by `norm(label)` (Unicode-normalised, Greek letters
+transliterated), so the same entity joins cleanly across all three graph
+datasets: **Triples** (`_triples.json` → `graphify-out/graph.json`), **Wiki**
+(`[[wikilinks]]` → `wiki-out/wiki-graph.json`), and **Combined**
+(`web/public/data/nodes.json` — the default UI dataset, wiki community ids
+offset by +1000).
+
+---
+
+## 2. Conventions
+
+- **Timestamps** (README display, task outputs, file naming):
+  `%d_%b_%Y %I:%M %p %Z` — e.g. `27_Aug_2026 09:30 AM PDT`, uppercase.
+  Frontmatter dates are the exception: always `YYYY-MM-DD`.
+- **Filename uniqueness**: every `.md` filename must be unique across all of
+  `src/notes/` (topics _and_ `_link/`). Obsidian resolves wiki links globally
+  by filename; duplicates are ambiguous.
+- **Python**: run scripts with `uv run --with <deps>` (see script docstrings
+  for the exact deps, e.g. `uv run --with networkx --with scipy`).
+- **Graphify** is installed as a uv tool; builds knowledge graphs and answers
+  graph queries (§4).
+- **Translation**: prefer `deep-translator` (Google engine) via `uv run
+--with deep-translator`; review biomedical terminology before publishing.
+- **New pages**: check whether a language-specific version already exists
+  before adding one; register new articles in the site index artifacts —
+  `web/public/sitemap.xml`, `web/public/data/articles.json`, `web/public/llms.txt`.
+- **Commit messages**: `chore(<scope>): <short lowercase description>` —
+  single line, lowercase after the colon, ≤ ~72 chars. Scope optional.
+
+---
+
+## 3. Frontmatter (Open Knowledge Format)
+
+Rules:
+
+- `created:` / `updated:` use `YYYY-MM-DD` (never the display format).
+- Prefer unquoted scalars; quote only when required (colons, specials).
+- No duplicate YAML keys at the same level.
+- **Never put `[[wiki links]]` in frontmatter** — plain text only.
+- All tag values kebab-case; `entity_type_1` must be one of the `tags` values.
+- `protected: true` prevents relocation to `_link/` (see §7).
+
+**Entity note:**
+
+```yaml
+title: Entity Name
+description: Short description
+protected: false
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-tags: [] # Populate with entity_type_1, relevant biomedical tags
+tags: [entity_type_1, related-tag]
 url: #
 source: #
-aliases: [] # Alternative names, abbreviations, acronyms
+aliases: [Alt Name, ACRONYM]
 ```
 
-**Document frontmatter:**
+**Document note** (filename prefix `_document_ - `):
 
-```
-title: # Full title of the source document, if chat thread rename
-description: # Short summary of the document, if chat thread summarize
-published: YYYY-MM-DD # Original publication date
-created: YYYY-MM-DD # Date ingested into the vault
-source: # URL/DOI of the original source
-author: [] # List of authors
-tags: [] # Populate with relevant entity_type_1, biomedical tags
-
-```
-
-### Output Format (Step 2)
-
-For ingested documents return the FULL updated Markdown content with all new [[links]] inserted.
-For wiki entity notes, add a section as the end:
-
+```yaml
+title: Full title of the source document
+description: Short summary
+published: YYYY-MM-DD
+created: YYYY-MM-DD # date ingested into the vault
+source: URL or DOI
+author: []
+tags: [...]
 ```
 
-#
+---
 
-## Documents
+## 4. Retrieval Guidelines
 
-List of documents in the wiki that mention this entity
+When answering biomedical questions, in priority order:
 
-  - [[Document Filename|Document Short Name]]
-    - Short description of how entity is related to document. (~ 2-3 sentences)
+1. **Notes first** — search `src/notes/` (including `_link/`); wiki content is
+   the primary basis for answers.
+2. **Supplement** with general biomedical knowledge when notes fall short;
+   clearly distinguish the two sources.
+3. **Cross-reference** — link entities as `[[Entity Name]]` (canonical titles)
+   to reinforce the knowledge graph.
+4. **Graphify traversal** when `graphify-out/graph.json` exists:
+   - `graphify query "<question>"` — BFS context (add `--dfs` to trace a
+     specific chain; `--budget N` caps tokens).
+   - `graphify path "A" "B"` — shortest hop-by-hop path between two entities.
+   - `graphify explain "Entity"` — single node's connections, sources, role.
+   - Expand queries against the graph's vocabulary first. Answer only from
+     graph content; cite `source_location` for specific facts.
 
-## Connections
+---
 
-  - Entity Name: Short description
+## 5. Document Ingestion Workflow
 
-## Linking Summary
+| Step                            | Action                                                                                                                                                                                                                   | Output                   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| **1. Ingest**                   | Use the `obsidian-markdown` skill: convert the raw doc to Obsidian markdown in place — frontmatter, callouts for key insights, `[[wiki links]]` on biomedical entities (checklist below). Preserve all original content. | Linked markdown file     |
+| **2. Enrich / Create entities** | Existing notes: enrich with document-specific info; update `Documents`, `Connections`, `Linking Summary`; bump `updated:`. New notes: create in the topic dir with OKF frontmatter and the same three sections.          | New/updated entity notes |
+| **3. Review stubs & orphans**   | Cross-reference all entities against every topic + `_link/`. Create notes for high-frequency, well-defined concepts; normalize composites; apply Orphan Link Resolution (§6).                                            | Resolved stubs and links |
+| **4. Update README**            | Update the topic `README.md` (documents table + entity index).                                                                                                                                                           | Updated topic README     |
 
-- New links added: [[Entity1]], [[Entity2]], ...
-- Suggested new entity notes to create: [[Missing Concept]]
-- Strong connections to strengthen:
-    - [[Note A]] ↔ [[Note B]]
+### Wiki-link checklist (Step 1)
 
-  - Justification for suggested new entities and strong connections to strengthen.
+- Link **every distinct biomedical entity** on its **first meaningful
+  mention** — genes, proteins, enzymes, cytokines, pathways, diseases, drugs,
+  processes, anatomical structures, cell types. Don't over-link; skip common
+  words unless the note adds context.
+- **Canonical titles**: match exact filenames (`[[NAD+]]`, not `[[NAD⁺]]`).
+  Resolve against `_link/` and topic dirs before inventing new links.
+- New entities: still link them (`[[New Entity]]`, spaces not underscores) and
+  note them at the end of the document for Step 3.
+- Bare links only — no path prefixes (`[[Entity]]`, never `[[notes/topic/Entity]]`).
+- No wiki links in data files (triples JSON, dot, SVG) — `.md` targets only.
+- **Split composites** into one link per entity (`[[DAF-16]]`/`[[FOXO]]`);
+  keep alternative-names pairs single (`[[p62/SQSTM1]]` → `[[p62]]`).
+- Display text is fine: `[[Retinoblastoma Protein|Rb]]`.
+- Use callouts (`> [!info]`, `[!tip]`, `[!important]`, `[!warning]`) for
+  mechanisms, clinical significance, key findings.
+- Headings: drop enumeration unless it's meaningful (chronology, scale).
+- Entity notes end with `## Documents`, `## Connections`, `## Linking Summary`
+  (bidirectional connections with 2–3 sentence justifications).
 
+### Depth & evidence (Step 2)
+
+- Preserve existing content but reorganize for coherence; accuracy first.
+- Scale depth to the entity: 800–3000+ words for well-established entities —
+  mechanisms, landmark studies (PMIDs/DOIs), controversies, clinical relevance.
+- Clearly separate established knowledge from emerging findings.
+
+### Entity structure templates
+
+_Gene / protein / enzyme_: Overview → Structure & Domains → Mechanism of
+Action & Pathways → Physiological Function → Pathology & Clinical Relevance.
+
+_Disease / disorder_: Etiology & Pathophysiology → Clinical Presentation &
+Biomarkers → Therapeutic Landscape.
+
+_Chemical / compound / drug_: Chemical Properties & Classification →
+Pharmacodynamics & Pharmacokinetics → Applications.
+
+---
+
+## 6. Orphan Link Resolution
+
+Periodic audits, in priority order: (1) redirectable mismatches, (2)
+high-frequency true orphans (≥10 links), (3) note the rest for future
+enrichment.
+
+Normalizations (verify canonical filenames first):
+
+- **Capitalization**: `[[cisplatin]]` → `[[Cisplatin]]`.
+- **Pluralization**: `[[Concept]]` → `[[Concepts]]` if only the plural exists.
+- **Hyphen/space variants**: `[[Caspase 9]]` → `[[Caspase-9]]`, `[[IRS-1]]` → `[[IRS1]]`.
+- **Unicode/Greek**: `[[IKKβ]]` → `[[IKKbeta]]`, `[[NAD⁺]]` → `[[NAD+]]`,
+  `[[Ca²⁺]]` → `[[Calcium Ions]]`.
+- **Abbreviation expansion** (unambiguous only): `[[OXPHOS]]` →
+  `[[Oxidative Phosphorylation]]`, `[[PFC]]` → `[[Prefrontal Cortex]]`.
+- **Trailing punctuation**: `[[Merck & Co. Inc.]]` → `[[Merck & Co. Inc]]`.
+- **Escaped pipes** in tables: `[[Link\|Display]]` → `[[Link|Display]]`.
+- **Triple brackets**: `[[[rapamycin]]` → `[[Rapamycin]]`.
+- **Composite splitting**: see checklist in §5.
+
+---
+
+## 7. Overlapping Link Resolution (`_link/` semantics)
+
+- `src/notes/_link/` is the **single source of truth** for entities referenced
+  across multiple topics (e.g. `Inflammation.md`, `NAD+.md`). Topic dirs keep
+  their hub note (filename == directory name) and topic-specific entities only.
+- **Prevention check**: before creating any entity, verify no same-named file
+  exists anywhere in `src/notes/`.
+- Overlapping new entity → merge (append) its content into the `_link/`
+  version; keep only the consolidated file there. The note still stays listed
+  on the original topic's README.
+- **Protected entities**: frontmatter `protected: true` files are **never**
+  moved to `_link/` (topic hubs are protected by this flag too). Frontmatter
+  is the single source of truth — no hardcoded lists.
+
+---
+
+## 8. Graph & Site Pipeline
+
+Regenerating web data (all keyed by `norm(label)`):
+
+```bash
+# Triples graph + triples-* web files (graphify-out/, web/public/data/)
+uv run --with graphifyy --with networkx --with scipy python3 scripts/03_rebuild_from_triples.py
+
+# Wiki graph from [[wikilinks]] (wiki-out/) — auto-runs the combined build
+uv run --with graphifyy --with networkx --with scipy python3 scripts/05_rebuild_from_wiki.py
+
+# Combined default dataset + diff report (wiki-out/graph-diff.json, GRAPH_DIFF.md)
+uv run --with networkx python3 scripts/05_build_combined.py
+
+# Analyses (work on any graph schema-compatible file via --graph)
+uv run --with networkx python3 scripts/04_node_analysis.py --graph wiki-out/wiki-graph.json --sources sirt1 --targets mtorc1
+uv run --with networkx python3 scripts/04_link_prediction.py --graph graphify-out/graph.json
+uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.json --role Spreader --top 10
 ```
 
-## Orphan Link Resolution:
+Notes:
 
-Maintain link integrity by performing periodic audits:
+- `web/public/data/graph.json` is retired; the frontend reads the canonical
+  `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` plus the
+  `triples-*`/`wiki-*` source files per mode. The backend (`api/`) reads
+  `graphify-out/graph.json` directly.
+- Analyses/tasks written before the wiki graph existed were computed on the
+  **triples** graph; state the graph (mode) explicitly when running new analyses.
+- README counts/tables: `scripts/00_readme_update_counts.py`.
 
-- **Priority Tiers**: Fix in order — (1) redirectable mismatches, (2) high-frequency true orphans (≥10 links), (3) note low-frequency orphans for future enrichment.
-- **Scan & Normalize**:
-  - Identify wiki links `[[Link]]` without matching files.
-  - Capitalize all wiki links to match the actual filename (e.g., `[[cisplatin]]` → `[[Cisplatin]]`, `[[apoptosis]]` → `[[Apoptosis]]`). Proper nouns in scientific terms should always use title/proper case as defined by the canonical file.
-  - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
-  - **Hyphen/Space Normalization**: Resolve format variants where a file exists with different hyphenation or spacing (e.g., `[[Caspase 9]]` → `[[Caspase-9]]`, `[[TNF-α]]` → `[[TNFα]]`, `[[IRS-1]]` → `[[IRS1]]`).
-  - **Unicode/Greek Character Normalization**: Replace Greek letters and Unicode modifier characters with their English-name equivalents (e.g., `[[IKKβ]]` → `[[IKKbeta]]`, `[[IκBα]]` → `[[IkappaBalpha]]`, `[[NAD⁺]]` → `[[NAD+]]`, `[[ERRα]]` → `[[ERRalpha]]`, `[[Ca²⁺]]` → `[[Calcium Ions]]`). Verify canonical filenames first.
-  - **Abbreviation Expansion**: Resolve common abbreviations where the full form has a canonical file (e.g., `[[OXPHOS]]` → `[[Oxidative Phosphorylation]]`, `[[PFC]]` → `[[Prefrontal Cortex]]`, `[[ER]]` → `[[Endoplasmic Reticulum]]`, `[[Smac]]` → `[[Smac DIABLO]]`). Verify there is no ambiguity before expanding.
-  - **Trailing Punctuation**: Strip trailing periods from abbreviation wiki link targets (e.g., `[[Merck & Co. Inc.]]` → `[[Merck & Co. Inc]]`) to match filenames that omit trailing periods. Handle piped display-text variants (`[[Merck & Co. Inc.|Merck]]`) in the same pass.
-  - **Escaped Pipe Fix**: In table cells, `\|` escapes the pipe character. Strip the backslash from the link target so `[[Link\|Display]]` resolves as `[[Link|Display]]`.
-  - **Triple-Bracket Errors**: Fix malformed links like `[[[rapamycin]]` → `[[Rapamycin]]` (remove the extra opening bracket).
-  - **Composite Entity Splitting**: Detect single wiki links bundling multiple distinct entities via `/`, `&`, or parenthetical groupings (e.g., `[[IIS (DAF-16/FOXO)]]`). Split into separate `[[Entity1]]`/`[[Entity2]]` links. Keep as-single-linked cases where `/` denotes the same entity under alternative names (e.g., `[[p62/SQSTM1]]` → `[[p62]]`, `[[Smac/DIABLO]]` → `[[Smac DIABLO]]`). Handle piped display-text variants in the same pass.
+## 9. Running Locally
 
-## Overlapping Link Resolution:
+```bash
+./deploy/dev.sh                 # opencode serve + FastAPI adapter (foreground)
+cd web && npm run dev           # Vite dev server for the graph UI
+cd web && npm run deploy        # vite build && wrangler deploy (production)
+```
 
-- **Directory structure clarification**: `src/notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `src/notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
-- **Prevention check**: Before creating any new entity, verify a file with the same name does not already exist.
-- When a new entity is identified as overlapping, merge (append) its content into the `src/notes/_link/` version so that it is centrally linked in `src/notes/_link/` directory.
-- **Protected entities**: Entity files with `protected: true` in their frontmatter must NEVER be moved to `_link/`. This includes all topic hubs (files whose name matches their parent directory) plus any other files explicitly flagged. The frontmatter is the single source of truth — no hardcoded list is maintained.
-- If the entity already exists in `src/notes/_link/` directory, append/merge the wiki entries.
-- Although the entity file may be moved to `src/notes/_link/`, it should still remain on the README.md within that topic.
-- Maintain only the consolidated file in `src/notes/_link/` to ensure a single source of truth.
-  - Examples (since they are mentioned across topics in notes):
-    - `src/notes/_link/Inflammation.md`
-    - `src/notes/_link/HIF-1α.md`
-    - `src/notes/_link/NAD+.md`
+`api/main.py` is the only public-facing process; `opencode serve` binds to
+loopback and is never exposed. The `wiki-prompt` agent is strictly read-only
+(no bash/write/network tools) and answers in the user's language, referencing
+`[[Entity Name]]` links for UI highlighting.
