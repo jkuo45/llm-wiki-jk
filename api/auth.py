@@ -95,6 +95,43 @@ async def is_super_admin(token: str) -> bool:
     return ok
 
 
+_uid_cache: dict[str, tuple[float, str | None]] = {}
+
+
+async def get_user_id(request: Request) -> str | None:
+    """Verified Supabase user id for the request's bearer token, or None.
+
+    Multi-user counterpart to is_super_admin: any signed-in user qualifies.
+    Used by the /v1/graphs and /v1/research routers, which scope every row by
+    this id (the service-role PostgREST client bypasses RLS).
+    """
+    token = bearer_token(request)
+    if not token:
+        return None
+    key = hashlib.sha256(token.encode()).hexdigest()
+    now = time.monotonic()
+    cached = _uid_cache.get(key)
+    if cached and cached[0] > now:
+        return cached[1]
+
+    uid: str | None = None
+    client = await _get_client()
+    headers = {"apikey": SUPABASE_ANON_KEY, "Authorization": f"Bearer {token}"}
+    try:
+        user_resp = await client.get(f"{SUPABASE_URL}/auth/v1/user", headers=headers)
+        if user_resp.status_code == 200:
+            uid = user_resp.json().get("id") or None
+    except httpx.HTTPError as e:
+        logger.warning(f"Supabase user lookup failed: {e}")
+
+    _uid_cache[key] = (now + _CACHE_TTL, uid)
+    if len(_uid_cache) > 256:
+        stale = [k for k, v in _uid_cache.items() if v[0] <= now]
+        for k in stale:
+            _uid_cache.pop(k, None)
+    return uid
+
+
 async def authorize_request(request: Request) -> JSONResponse | None:
     """Gate mutating requests behind a verified super-admin token.
 

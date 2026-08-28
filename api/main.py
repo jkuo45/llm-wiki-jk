@@ -34,7 +34,10 @@ from .graph_ops import (
     warm_index,
 )
 from .notes import router as notes_router
+from .graphs import router as graphs_router
+from .research import router as research_router
 from .auth import authorize_request, close_client as close_auth_client
+from .db import close_client as close_db_client
 from .llm import (
     OpencodeUnavailable,
     close_client,
@@ -135,6 +138,7 @@ async def lifespan(app: FastAPI):
             await delete_session(sid)
         await close_client()
         await close_auth_client()
+        await close_db_client()
 
 
 app = FastAPI(
@@ -147,7 +151,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
     allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["GET", "POST", "OPTIONS", "PATCH", "DELETE"],
     allow_headers=["*"],
 )
 
@@ -157,7 +161,15 @@ api_v1 = APIRouter(prefix="/v1")
 
 @app.middleware("http")
 async def auth_gate(request: Request, call_next):
-    """Require a verified super-admin Supabase token on mutating requests."""
+    """Require a verified super-admin Supabase token on mutating requests.
+
+    /v1/graphs and /v1/research are carved out: they are multi-user routers
+    that verify ANY signed-in user per request and scope rows by auth.uid
+    (see api/auth.py::get_user_id). The historical super-admin gate still
+    protects every other mutating path (notes, metadata, ...).
+    """
+    if request.url.path.startswith(("/v1/graphs", "/v1/research")):
+        return await call_next(request)
     denial = await authorize_request(request)
     if denial is not None:
         return denial
@@ -225,14 +237,18 @@ _RATE_LIMITS: dict[str, tuple[int, int]] = {
     "/v1/intent": (40, 60),
     "/v1/execute/stream": (40, 60),
     "/v1/session/reset": (40, 60),
+    "/v1/research/topics": (10, 60),  # topic creation + search runs (LLM cost)
+    "/v1/research/": (30, 60),  # listing / review actions
+    "/v1/graphs/": (60, 60),  # user-graph CRUD + node/edge writes
 }
 
 
 def _limit_for(path: str) -> tuple[int, int] | None:
     if path in _RATE_LIMITS:
         return _RATE_LIMITS[path]
-    if path.startswith("/v1/notes/"):
-        return _RATE_LIMITS["/v1/notes/"]
+    for prefix in ("/v1/notes/", "/v1/research/", "/v1/graphs/"):
+        if path.startswith(prefix):
+            return _RATE_LIMITS[prefix]
     return None
 
 
@@ -679,3 +695,5 @@ async def execute_stream(request: ExecuteRequest):
 
 app.include_router(api_v1)
 app.include_router(notes_router)
+app.include_router(graphs_router)
+app.include_router(research_router)

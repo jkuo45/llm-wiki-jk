@@ -18,7 +18,7 @@ viewer, a prompt backend, and graph-build tooling.
 | `graphify-out/`    | Triples-graph artifacts (`graph.json`, `GRAPH_REPORT.md`, `graph.html`).                                                              |
 | `wiki-out/`        | Wiki-graph artifacts (`wiki-graph.json`, diff/orphan/link-prediction reports).                                                        |
 | `web/`             | Vite + Three.js graph site. Static data in `web/public/data/`; built with `npm run build`, deployed with `npm run deploy` (wrangler). |
-| `api/`             | FastAPI adapter (SSE prompt bridge to headless `opencode serve`, networkx graph ops).                                                 |
+| `api/`             | FastAPI adapter (SSE prompt bridge to headless `opencode serve`, networkx graph ops, user-built graphs `/v1/graphs`, pluggable research adapters + triple review queue `/v1/research`; mirrors the base graph layer from Supabase via `api/db.py`).                 |
 | `deploy/`          | `dev.sh` (local: opencode serve + API) and `install.sh` (server bootstrap, systemd units).                                            |
 | `.opencode/agent/` | `wiki-prompt.md` (read-only public agent), `wiki-util.md`.                                                                            |
 | `.agents/skills/`  | `obsidian-markdown`, `image-ingest`, `triples`, `graphify` helpers, persona skills.                                                   |
