@@ -164,7 +164,6 @@
   {
     "id": "articles-index",
     "active": true,
-    "default": true,
     "langs": {
       "en-US": {
         "title": "[index] articles",
