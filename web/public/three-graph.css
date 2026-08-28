@@ -474,7 +474,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #zoom-bar .zoom-label { color: var(--ink-7); font-size: 11px; margin-top: 6px; letter-spacing: 0.05em; text-transform: uppercase; user-select: none; flex-shrink: 0; }
 
 /* Controls overlay — vertical icon rail at the top-right. */
-#controls { position: absolute; top: 16px; right: 16px; left: auto; bottom: auto; display: flex; flex-direction: column; align-items: center; gap: 10px; z-index: 10; }
+#controls { position: absolute; top: 68px; right: 16px; left: auto; bottom: auto; display: flex; flex-direction: column; align-items: center; gap: 10px; z-index: 10; }
 #controls button { display: flex; align-items: center; justify-content: center; background: var(--surface); border: 1px solid var(--line-strong); color: var(--ink-hi); padding: 12px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; flex: 0 1 auto; min-width: 0; white-space: nowrap; }
 #controls button:hover { background: var(--line); border-color: var(--accent); }
 #controls button.active { background: var(--accent); border-color: var(--accent); }

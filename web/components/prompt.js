@@ -17,6 +17,7 @@ import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } fro
 import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
+import { authHeaders, promptSignIn } from './auth.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -95,6 +96,7 @@ const UI_STRINGS = {
     answering: 'Answering',
     translating: 'Translating',
     serverError: 'Server error',
+    signInRequired: 'Please sign in to use the analysis panel',
     streamError: 'Stream error. Please try again.',
     noResponse: 'No response received.',
     couldNotReach: 'Could not reach the prompt server.',
@@ -214,6 +216,7 @@ const UI_STRINGS = {
     answering: '回答中',
     translating: '翻譯中',
     serverError: '伺服器錯誤',
+    signInRequired: '請先登入以使用分析面板',
     streamError: '串流錯誤，請重試。',
     noResponse: '未收到回應。',
     couldNotReach: '無法連線至聊天伺服器。',
@@ -891,7 +894,7 @@ async function sendPromptMessage() {
     // Phase 1: Parse intent
     const intentResp = await fetch(INTENT_API, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
       body: JSON.stringify({
         message: withOutputSpec(clean),
         session_id: promptSessionId,
@@ -901,6 +904,12 @@ async function sendPromptMessage() {
     });
 
     if (!intentResp.ok) {
+      if (intentResp.status === 401 || intentResp.status === 403) {
+        promptSignIn();
+        promptMessages.removeChild(typingDiv);
+        addPromptMessage(t('signInRequired'), 'error');
+        return;
+      }
       promptMessages.removeChild(typingDiv);
       addPromptMessage(t('serverError'), 'error');
       return;
@@ -961,7 +970,7 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
   try {
     const resp = await fetch(EXECUTE_STREAM_API, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
       body: JSON.stringify({
         intent: intentData.intent,
         message: withOutputSpec(intentData.message),
@@ -1090,7 +1099,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   try {
     const resp = await fetch(EXECUTE_STREAM_API, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
       body: JSON.stringify({
         intent: intentData.intent,
         lang: intentData.lang,
@@ -1106,7 +1115,10 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
       }),
     });
 
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    if (!resp.ok) {
+      if (resp.status === 401 || resp.status === 403) promptSignIn();
+      throw new Error(`HTTP ${resp.status}`);
+    }
 
     const reader = resp.body.getReader();
     const decoder = new TextDecoder();
@@ -1527,7 +1539,7 @@ function resetPrompt() {
     promptSessionId = null;
     fetch(SESSION_RESET_API, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
       body: JSON.stringify({ message: 'reset', session_id: stale }),
       keepalive: true,
     }).catch(() => {});

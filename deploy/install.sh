@@ -154,6 +154,10 @@ MAX_SESSIONS=200
 HEARTBEAT_SECONDS=15
 LOG_LEVEL=INFO
 
+# --- supabase auth (publishable values only — safe to expose) ----------------
+SUPABASE_URL=https://xanedntifdehgkvogiqb.supabase.co
+SUPABASE_ANON_KEY=sb_publishable__e9J8fhCInKsa-VxlpKG6g_EAKdr7KR
+
 WIKI_ROOT=${WIKI_ROOT}
 EOF
   chmod 0640 "$ENV_FILE"

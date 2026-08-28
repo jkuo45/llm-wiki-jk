@@ -18,6 +18,9 @@ import { applyAnalysisUiLang } from './prompt.js';
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
 // Side-effect import: theme.js wires the settings popover theme toggle.
 import './theme.js';
+// Side-effect import: auth.js shows the login overlay until a session exists
+// and keeps the Supabase access token available to API callers.
+import './auth.js';
 
 // ------------------------------------------------------------
 // Dataset info panel (derived from data)

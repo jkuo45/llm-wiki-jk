@@ -18,6 +18,8 @@ export OPENCODE_SERVER_USERNAME="${OPENCODE_SERVER_USERNAME:-opencode}"
 export OPENCODE_PROMPT_AGENT="${OPENCODE_PROMPT_AGENT:-wiki-prompt}"
 export ALLOWED_ORIGINS="${ALLOWED_ORIGINS:-http://localhost:8080,http://127.0.0.1:8080}"
 export LOG_LEVEL="${LOG_LEVEL:-INFO}"
+export SUPABASE_URL="${SUPABASE_URL:-https://xanedntifdehgkvogiqb.supabase.co}"
+export SUPABASE_ANON_KEY="${SUPABASE_ANON_KEY:-sb_publishable__e9J8fhCInKsa-VxlpKG6g_EAKdr7KR}"
 
 PY="${ROOT}/.venv/bin/python"
 [[ -x "$PY" ]] || PY="$(command -v python3)"
