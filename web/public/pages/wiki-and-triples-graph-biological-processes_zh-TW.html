@@ -519,6 +519,15 @@
         </tbody>
       </table></div></div>
 
+      <p>
+        供參考，規範的 <code>roles-meta.json</code> 產物（同一分類器，但指紋繼承自各來源——共享節點攜帶
+        triples 側指標、僅 wiki 節點攜帶 wiki 側數值——入／出度則從合併邊清單重新計算）回報：Spreader
+        1,384（33.9%）· Sink 285（7.0%）· Master regulator 71（1.7%）· Bottleneck 409（10.0%）·
+        Module member 547（13.4%）· Core backbone 23（0.6%）· Periphery 1,949（47.7%）。與重算欄位的差距
+        （例如 Core backbone 23 對 180）來自繼承的 k-core——共享節點帶的是 triples 側的殼層數（最大 6），
+        而非聯集的 k-core 20。
+      </p>
+
       <div class="note gold">
         <h4>影響詮釋的注意事項</h4>
         <ul>
@@ -559,8 +568,9 @@
             <code>wiki-out/GRAPH_REPORT.md</code> —— wiki 圖的 god nodes、68 個社群、意外連結、孤立節點缺口。
             <code>wiki-out/GRAPH_DIFF.md</code> —— triples 與 wiki 的節點／邊差異（僅 wiki／僅 triples 清單）。
             <code>web/data/wiki-link-prediction.json</code> —— wiki 圖上的 Adamic-Adar 缺邊候選。
-            <code>web/data/node_roles.json</code> —— 規範合併角色產物；注意其網頁節點欄位缺乏入／出度，
-            因此那裡的 Spreader／Sink 被低估（已知現象；上表由完整指紋重新計算）。
+            <code>web/data/node_roles.json</code> —— 規範合併角色產物；自 8 月 28 日起，分類前會先從合併邊
+            清單重新計算入／出度，因此 Spreader／Sink 已正常填入（其 pagerank／中介性／聚類／k-core 仍繼承
+            各來源，故計數與上方聯集重算的表格不同）。
           </p>
         </li>
         <li>

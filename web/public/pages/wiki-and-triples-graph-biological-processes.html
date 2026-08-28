@@ -554,6 +554,16 @@
         </tbody>
       </table></div></div>
 
+      <p>
+        For reference, the canonical <code>roles-meta.json</code> artifact (same classifier, but
+        fingerprints inherited per-source — triples-side metrics on shared nodes, wiki-side on wiki-only
+        — with in/out degree recomputed from the merged edge list) reports: Spreader 1,384 (33.9%) ·
+        Sink 285 (7.0%) · Master regulator 71 (1.7%) · Bottleneck 409 (10.0%) · Module member 547
+        (13.4%) · Core backbone 23 (0.6%) · Periphery 1,949 (47.7%). The gaps vs the recompute column
+        (e.g. Core backbone 23 vs 180) come from the inherited k-core — shared nodes carry their
+        triples-side shell number (max 6), not the union's k-core 20.
+      </p>
+
       <div class="note gold">
         <h4>Caveats that matter for interpretation</h4>
         <ul>
@@ -598,9 +608,10 @@
             connections, isolated-node gaps. <code>wiki-out/GRAPH_DIFF.md</code> — triples-vs-wiki node and
             edge deltas (wiki-only / triples-only lists). <code>web/data/wiki-link-prediction.json</code> —
             Adamic-Adar missing-edge candidates on the wiki graph. <code>web/data/node_roles.json</code> —
-            canonical combined role artifact; note its web-node fields omit in/out degree, so
-            Spreader/Sink are under-counted there (a known artifact; the table above recomputes from full
-            fingerprints).
+            canonical combined role artifact; since 28 Aug it recomputes in/out degree from the merged
+            edge list before classifying, so Spreader/Sink are populated (it inherits per-source
+            pagerank/betweenness/clustering/k-core, so its counts differ from the full union recompute
+            in the table above).
           </p>
         </li>
         <li>
