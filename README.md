@@ -22,6 +22,30 @@
 
 ---
 
+## Knowledge Graphs (Triples · Wiki · Combined)
+
+The deployed viewer (`web/`) exposes **three graph datasets**, switchable via the single **mode** button in the Graph toolbar (cycles Triples → Wiki → Combined; the choice persists in the URL hash, e.g. `?mode=wiki`). **Combined is the default.**
+
+| Dataset | Source | `web/data/` files | Nodes | Edges |
+| :--- | :--- | :--- | ---: | ---: |
+| **Combined** *(default)* | union of triples + wiki | `nodes.json`, `edges.json`, `legend.json`, `graph-meta.json`, `node_roles.json`, `roles-meta.json` | 4,085 | 36,998 |
+| **Triples** | `src/**/_triples.json` extractions → `graphify-out/graph.json` | `triples-*.json` | 2,629 | 3,832 |
+| **Wiki** | Obsidian `[[wikilinks]]` in `src/notes/` → `wiki-out/wiki-graph.json` | `wiki-*.json` | 2,995 | 34,851 |
+
+Node ids are canonicalised by `norm(label)` (Unicode-normalised; Greek letters transliterated to their name, so `NF-κB` maps to the same id `nf_kappab` in **all three** graphs). Because every dataset uses the same id scheme, entities join cleanly across graphs.
+
+### Generating each graph
+
+- **`scripts/03_rebuild_from_triples.py`** — builds the **triples graph** (accumulates nodes/edges from `_triples.json`, prunes generic type hubs + pure document nodes, re-clusters with Leiden), records to `graphify-out/`, and exports the triples web files (`triples-*.json`).
+- **`scripts/05_rebuild_from_wiki.py`** — builds the **wiki graph** from `[[wikilinks]]` (entity notes only; `_document_` source and `task_output` notes are excluded and tallied as references), records to `wiki-out/`, and exports the wiki web files (`wiki-*.json`).
+- **`scripts/05_build_combined.py`** — merges triples + wiki into the canonical **combined** `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json`/roles (wiki community ids offset by +1000) and emits the triples-vs-wiki gap report (`wiki-out/graph-diff.json` + `wiki-out/GRAPH_DIFF.md`). It is auto-run at the end of `05_rebuild_from_wiki.py`.
+
+### ⚠️ Calculation / analysis basis
+
+The node-network analyses in `src/tasks/`, the analysis articles in `web/pages/`, and the `04_node_analysis.py` / `04_link_prediction.py` / `04_role_query.py` outputs — were performed on the **triples graph** (`graphify-out/graph.json`), which predates the wiki and combined datasets. Any analysis run on the wiki or combined graph should state the graph (mode) explicitly.
+
+---
+
 ## 📝 updates
 
 > [!NOTE]
@@ -34,7 +58,7 @@
 >
 > **Graphify Rebuild From `_triples.json`**:
 >
-> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/data/` (`nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). Note: `web/data/graph.json` has been retired — the frontend reads `nodes.json`/`edges.json`/`graph-meta.json` instead, and the backend reads the canonical `graphify-out/graph.json` directly, so there is a single source of truth (no duplicate copy to keep in sync).
+> - [`scripts/03_rebuild_from_triples.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/data/` (**`triples-nodes.json`/`triples-edges.json`/`triples-legend.json`/`triples-graph-meta.json`/roles** derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). The canonical `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` (the **combined** default dataset) is produced by `scripts/05_build_combined.py` from the `triples-*` + `wiki-*` sources. Note: `web/data/graph.json` has been retired — the frontend reads the canonical `web/data/*.json` and/or the `triples-*`/`wiki-*` source files per mode, and the backend reads `graphify-out/graph.json` directly (single source of truth).
 
 ---
 
