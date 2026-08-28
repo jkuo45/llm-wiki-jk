@@ -1,8 +1,8 @@
 ---
 title: TFEB 標靶調控機制跨疾病模型
 description: 依調控機制的 TFEB 標靶策略表格 — 基因治療（AAV／慢病毒 TFEB 過度表現）、轉錄誘導（PGC-1alpha），以及透過 mTORC1/MAPK-ERK/Akt/p38 MAPK 磷酸化與 SIRT1 去乙醯化的 PTM 調控 — 對應至疾病模型（龐貝氏症、氣喘、胱胺酸症、中風、胰臟炎、HD、NAFLD、阿茲海默症、帕金森氏症、MI、AKI），並列出表型改善與 PMID。
-created: 2026-08-23
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: TFEB review document table extraction (PMIDs cited per row)
 tags:
   - task-output
@@ -14,7 +14,6 @@ tags:
   - neurodegeneration
 author: []
 ---
-
 | TFEB 的標靶調控機制 | 疾病 | 疾病特徵 | 疾病模型 | TFEB 標靶方法 | 改善的表型 | 參考文獻（PMID） |
 | ------------------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |
 | **Gene therapy**                           | Pompe disease                      | An LSD and severe metabolic myopathy caused by the deficiency of acid alpha-glucosidase (GAA)                                        | GAA knockdown mice                                                                            | Intramuscular injection of AAV-TFEB                                                                             | Increasing clearance of glycogen stores and amelioration of muscle pathology                               | 23606558          |

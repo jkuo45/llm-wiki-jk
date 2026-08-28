@@ -2,6 +2,7 @@
 title: Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins
 description: Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.
 created: 2026-08-21
+updated: 2026-08-22
 tags: [triples, knowledge-graph, quality-control, adrenochrome, mitohormesis, autophagy, sirtuins]
 ---
 

@@ -2,8 +2,8 @@
 title: Strategic Research Recommendations — Sirtuin-Centric Longevity & Regenerative Medicine
 description: Five evidence-grounded research recommendations from network analysis of 1,521 sirtuin interaction triples — SIRT6 allosteric activation, opposing SIRT3 activation / SIRT4 inhibition for fibrosis and hypertrophy, the cytoplasmic SIRT2–TFEB autophagy axis, CD38 inhibition for NAD+ restoration, and SIRT1 derepression via microRNA antagomirs.
 published: 2026-07-03
-created: 2026-07-03
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: notes/sirtuins/task_output_triples_sirtuins.json (1,521 interaction triples)
 author:
   - Principal Investigator, Computational Systems Pharmacology & Longevity Medicine Lab

@@ -3,10 +3,11 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, graphData, loadRolesMeta, loadLinkPrediction } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, loadRolesMeta, loadLinkPrediction } from './data.js';
 import { state } from './state.js';
 import {
-  camera, nodeObjects, nodeMeshes, edgeObjects, edgeOffColor, animateCamera,
+  camera, nodeObjects, nodeMeshes, edgeSegments, edgeList, edgeOffColor, setEdgeFilter,
+  animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
@@ -653,7 +654,9 @@ function openWikiModal(wikiKey) {
   const title = wikiKey.replace(/_/g, ' ');
   wikiModalTitle.textContent = title;
   wikiModalBody.innerHTML = renderMarkdown(desc);
-  wikiModalLink.href = noteUrl(wikiKey) || '#';
+  const ghHref = noteUrl(wikiKey);
+  wikiModalLink.href = ghHref || '#';
+  wikiModalLink.toggleAttribute('disabled', !ghHref);
   wikiModalOverlay.classList.add('visible');
   hideWikiTooltip();
 }
@@ -1632,8 +1635,7 @@ function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
 
   // Highlight edges
   const edgePairSet = new Set(edgePairs.map(p => `${p[0]}::${p[1]}`));
-  applyEdgeState(line => {
-    const { edge } = line.userData;
+  applyEdgeState(edge => {
     const fwd = `${edge.from}::${edge.to}`;
     const rev = `${edge.to}::${edge.from}`;
     return edgePairSet.has(fwd) || edgePairSet.has(rev);
@@ -1703,9 +1705,8 @@ function applyPromptNodeFilter() {
   nodeMeshes.forEach(m => {
     m.visible = !enabled || idSet.has(m.userData.nodeId);
   });
-  edgeObjects.forEach(line => {
-    const { edge } = line.userData;
-    line.visible = !enabled || (idSet.has(edge.from) && idSet.has(edge.to));
+  edgeList.forEach(({ edge }) => {
+    setEdgeFilter(edge, !(idSet.has(edge.from) && idSet.has(edge.to)));
   });
 
   if (promptHighlightedNodes.length) {
@@ -1887,7 +1888,7 @@ function renderAnalysisTools() {
   const prRows = s.pagerankLeaders.slice(0, 40).map(n => atRowHTML(n, 'pr', s)).join('');
   const connRows = s.connectors.slice(0, 32).map(n => atRowHTML(n, 'btw', s)).join('');
 
-  const cohesionMap = (graphData.metadata && graphData.metadata.community_cohesion) || {};
+  const cohesionMap = (GRAPH_META && GRAPH_META.community_cohesion) || {};
   const commHTML = LEGEND.slice().sort((a, b) => b.count - a.count).map(c => {
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
@@ -2027,7 +2028,7 @@ function renderAnalysisTools() {
 }
 
 // ------------------------------------------------------------
-// Surprising Connections (graph.json build metadata)
+// Surprising Connections (graph build metadata, now in graph-meta.json)
 // ------------------------------------------------------------
 // metadata.surprising_connections stores LABELS ("NF-kappaB"), not ids.
 let labelToId = null;
@@ -2044,7 +2045,7 @@ function ensureLabelToId() {
 function hydrateSurpriseList() {
   const host = document.getElementById('at-surprise-list');
   if (!host) return;
-  const items = (graphData.metadata && graphData.metadata.surprising_connections) || [];
+  const items = (GRAPH_META && GRAPH_META.surprising_connections) || [];
   if (!items.length) {
     host.innerHTML = `<div class="at-empty">—</div>`;
     return;
@@ -2066,7 +2067,7 @@ function hydrateSurpriseList() {
 }
 
 // ------------------------------------------------------------
-// Predicted Connections (scripts/05_link_prediction.py artifact)
+// Predicted Connections (scripts/04_link_prediction.py artifact)
 // ------------------------------------------------------------
 async function hydratePredictedList() {
   const host = document.getElementById('at-predicted-list');

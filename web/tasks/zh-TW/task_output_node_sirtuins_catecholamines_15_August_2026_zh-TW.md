@@ -1,8 +1,8 @@
 ---
 title: Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026
 description: SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。
-created: 2026-08-15
-updated: 2026-08-15
+created: 2026-08-16
+updated: 2026-08-22
 tags:
   - task-output
   - knowledge-graph
@@ -19,7 +19,6 @@ tags:
 source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 author: []
 ---
-
 # Sirtuins × Catecholamines 綜合節點分析
 
 > 由圖譜衍生的比較節點分析。日期：15_August_2026

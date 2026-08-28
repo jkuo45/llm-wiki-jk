@@ -2,7 +2,7 @@
 title: Sirtuins in Health and Disease — SIRT-by-SIRT Disease Landscape
 description: Compiled excerpts from the sirtuins review (s41392-022-01257-8) organized by sirtuin (SIRT1–SIRT7), showing for each member the diseases and complications it is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-14
 tags:
   - task-output
   - sirtuins

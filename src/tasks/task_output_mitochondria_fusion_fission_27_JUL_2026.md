@@ -2,7 +2,7 @@
 title: "Research Gaps in Mitochondrial Fission & Fusion Mechanisms"
 description: "Comprehensive analysis of what is known and what remains unknown about the exact mechanisms of mitochondrial fission and fusion, drawn from ingested review documents and supporting literature."
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-08-22
 tags:
   - mitochondrial-dynamics
   - research-gaps

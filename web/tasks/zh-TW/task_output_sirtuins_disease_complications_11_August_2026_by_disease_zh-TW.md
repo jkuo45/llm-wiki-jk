@@ -1,8 +1,8 @@
 ---
 title: 健康與疾病中的 Sirtuins — 依併發症分類的節錄彙編
 description: 從 sirtuins 綜述（s41392-022-01257-8）中依疾病系統與併發症整理出的節錄彙編，顯示各 SIRT 的上升/下降調控、其預後價值，以及在各病症中的機制角色（腫瘤抑制因子/促癌因子、保護性/有害性）。
-created: 2026-08-11
-updated: 2026-08-11
+created: 2026-08-14
+updated: 2026-08-14
 tags:
   - task-output
   - sirtuins
@@ -18,7 +18,6 @@ tags:
   - review
 source: https://doi.org/10.1038/s41392-022-01257-8
 ---
-
 # 健康與疾病中的 Sirtuins — 依併發症分類的節錄彙編
 
 > 節錄自 `_document_ - sirtuins in health and disease s41392-022-01257-8.md`（Wu 等人，2022），依併發症/疾病及各自涉及的 SIRT 進行組織。

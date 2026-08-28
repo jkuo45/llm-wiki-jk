@@ -1,8 +1,8 @@
 ---
 title: 伴侶哺乳動物（犬/貓）中的自噬與壽命
 description: 關於家犬與家貓自噬–老化生物學的研究綜述，涵蓋轉譯介入、TRIAD 試驗脈絡、證據缺口，以及提出的實驗路線圖
-created: 2026-07-22
-updated: 2026-07-22
+created: 2026-07-23
+updated: 2026-08-22
 source: Wiki notes (autophagy/) + PubMed companion-animal literature + research-scientist synthesis
 tags:
   - autophagy
@@ -16,7 +16,6 @@ tags:
   - triad
   - dog-aging-project
 ---
-
 # 哺乳動物（犬/貓）中的自噬與壽命
 
 **任務輸出：** `22_JULY_2026 06:58 PM PDT`  

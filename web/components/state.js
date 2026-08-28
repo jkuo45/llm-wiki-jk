@@ -25,6 +25,8 @@ export const state = {
   notesPage: null,
   notesViewMode: false,
   notesUiLang: 'en-US', // panel/note content language ('en-US' | 'zh-TW')
+  // Minimap (graph overview, bottom-right).
+  minimapBackbone: false, // true → show only Core-backbone edges
 };
 
 export const stickyNodes = new Set();

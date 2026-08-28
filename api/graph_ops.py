@@ -26,6 +26,75 @@ def get_graph() -> nx.MultiDiGraph:
     return _G
 
 
+# --- Precomputed, graph-global indexes ---------------------------------------
+# Betweenness/closeness/clustering/pagerank are deterministic for a given graph
+# yet graph_analyze() used to recompute all four on EVERY request (~27s of pure
+# Python on the 2.6k-node graph). We compute them once at startup (or lazily,
+# thread-safe) and cache the per-node maps. analyze() then just looks them up.
+_METRICS_CACHE: dict[str, dict[str, float]] | None = None
+
+# match_nodes_in_text() previously compiled one regex per node + alias on every
+# call (~1.2s, thrashing Python's 512-entry regex cache). We build ONE
+# alternation regex once and map matched text back to a node id.
+_MATCHER: re.Pattern | None = None
+_NAME_TO_NODE: dict[str, str] | None = None
+
+
+def _compute_metrics(G: nx.MultiDiGraph) -> dict[str, dict[str, float]]:
+    """Graph-global centrality metrics, computed once.
+
+    Betweenness is sampled (k=500) — full O(VE) Brandes is the dominant cost,
+    and the sampled estimate is plenty for the ranking/display this feeds.
+    """
+    U = G.to_undirected()
+    k = min(500, len(U))
+    return {
+        "betweenness": nx.betweenness_centrality(U, k=k) if k else {},
+        "closeness": nx.closeness_centrality(U),
+        "clustering": nx.clustering(U),
+        "pagerank": nx.pagerank(U),
+    }
+
+
+def _build_matcher(G: nx.MultiDiGraph) -> None:
+    """Compile one alternation regex over every node label + alias."""
+    global _MATCHER, _NAME_TO_NODE
+    name_to_node: dict[str, str] = {}
+    alts: list[str] = []
+    for nid, ndata in G.nodes(data=True):
+        names = [ndata.get("label", "") or ""] + list(ndata.get("aliases") or [])
+        for n in names:
+            n = (n or "").strip()
+            if not n:
+                continue
+            key = n.lower()
+            if key not in name_to_node:
+                name_to_node[key] = nid
+                alts.append(re.escape(n))
+    # Longest alternatives first so "NAD+" wins over "NAD" at a shared offset.
+    alts.sort(key=len, reverse=True)
+    _MATCHER = re.compile(
+        r"(?<![a-z0-9])(?:" + "|".join(alts) + r")(?![a-z0-9])", re.IGNORECASE
+    )
+    _NAME_TO_NODE = name_to_node
+
+
+def warm_index() -> None:
+    """Build the metric cache and entity matcher. Idempotent; safe to call from
+    a background thread at startup. Falls back gracefully on metric errors so a
+    partial failure never leaves analyze() broken (it recomputes inline)."""
+    global _METRICS_CACHE
+    G = get_graph()
+    try:
+        _METRICS_CACHE = _compute_metrics(G)
+    except Exception as e:  # noqa: BLE001 - inline fallback covers this
+        logger.warning(f"graph metric warm failed: {e}")
+    try:
+        _build_matcher(G)
+    except Exception as e:  # noqa: BLE001 - lazy rebuild on first use
+        logger.warning(f"entity matcher warm failed: {e}")
+
+
 def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
     """Find best matching node by label. Returns node id or None."""
     term_lower = term.lower()
@@ -73,30 +142,39 @@ def match_nodes_in_text(text: str, query_text: str = "") -> dict:
     highlight_edges (list of [from, to] pairs between matched nodes).
     """
     G = get_graph()
+    if _MATCHER is None:
+        _build_matcher(G)
     blob = f"{query_text} {text}".lower()
     matched_ids = set()
 
-    for nid, ndata in G.nodes(data=True):
-        label = (ndata.get("label") or "").strip()
-        if not label:
-            continue
-        pattern = re.compile(
-            r"(^|[^a-z0-9])\s*" + re.escape(label) + r"\s*([^a-z0-9]|$)", re.IGNORECASE
-        )
-        if pattern.search(blob):
-            matched_ids.add(nid)
-            continue
-        for alias in ndata.get("aliases") or []:
-            alias = alias.strip()
-            if not alias:
+    if _MATCHER is not None and _NAME_TO_NODE is not None:
+        for m in _MATCHER.finditer(blob):
+            nid = _NAME_TO_NODE.get(m.group(0).lower())
+            if nid:
+                matched_ids.add(nid)
+    else:  # pragma: no cover - only when matcher build failed outright
+        for nid, ndata in G.nodes(data=True):
+            label = (ndata.get("label") or "").strip()
+            if not label:
                 continue
-            ap = re.compile(
-                r"(^|[^a-z0-9])\s*" + re.escape(alias) + r"\s*([^a-z0-9]|$)",
+            pattern = re.compile(
+                r"(^|[^a-z0-9])\s*" + re.escape(label) + r"\s*([^a-z0-9]|$)",
                 re.IGNORECASE,
             )
-            if ap.search(blob):
+            if pattern.search(blob):
                 matched_ids.add(nid)
-                break
+                continue
+            for alias in ndata.get("aliases") or []:
+                alias = alias.strip()
+                if not alias:
+                    continue
+                ap = re.compile(
+                    r"(^|[^a-z0-9])\s*" + re.escape(alias) + r"\s*([^a-z0-9]|$)",
+                    re.IGNORECASE,
+                )
+                if ap.search(blob):
+                    matched_ids.add(nid)
+                    break
 
     if not matched_ids:
         logger.info("match_nodes_in_text: no entities found in response")
@@ -442,16 +520,25 @@ def graph_analyze(nodes: list[str], analysis_text: str = "") -> dict:
     labels = [G.nodes[nid].get("label", nid) for nid in resolved]
     logger.info(f"graph_analyze: {' + '.join(labels)}")
 
-    # Global structural metrics (cheap for a ~2.5k node graph).
+    # Undirected view for pairwise common-neighbour / shortest-path work below.
     U = G.to_undirected()
-    try:
-        between = nx.betweenness_centrality(U)
-        close = nx.closeness_centrality(U)
-        cluster = nx.clustering(U)
-        pr = nx.pagerank(U)
-    except Exception as e:  # noqa: BLE001 - fall back to zeros if a metric fails
-        logger.warning(f"graph_analyze metrics partial failure: {e}")
-        between = close = cluster = pr = {}
+
+    # Graph-global centrality metrics, cached at startup (see warm_index()).
+    # Recompute inline only if the cache is missing (e.g. server warmed down).
+    between = _METRICS_CACHE.get("betweenness") if _METRICS_CACHE else None
+    close = _METRICS_CACHE.get("closeness") if _METRICS_CACHE else None
+    cluster = _METRICS_CACHE.get("clustering") if _METRICS_CACHE else None
+    pr = _METRICS_CACHE.get("pagerank") if _METRICS_CACHE else None
+    if between is None or close is None or cluster is None or pr is None:
+        logger.warning("graph_analyze: metrics cache cold; computing inline")
+        try:
+            between = nx.betweenness_centrality(U, k=min(500, len(U)))
+            close = nx.closeness_centrality(U)
+            cluster = nx.clustering(U)
+            pr = nx.pagerank(U)
+        except Exception as e:  # noqa: BLE001 - fall back to zeros if a metric fails
+            logger.warning(f"graph_analyze metrics partial failure: {e}")
+            between = close = cluster = pr = {}
 
     node_rows = []
     for nid in resolved:

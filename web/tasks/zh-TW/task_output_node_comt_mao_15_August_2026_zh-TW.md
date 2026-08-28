@@ -1,8 +1,8 @@
 ---
 title: COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026
 description: "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。"
-created: 2026-08-15
-updated: 2026-08-15
+created: 2026-08-16
+updated: 2026-08-22
 tags:
   - task-output
   - knowledge-graph
@@ -18,7 +18,6 @@ tags:
 source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 author: []
 ---
-
 # COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素
 
 > 由圖譜衍生的比較節點分析。日期：15_August_2026

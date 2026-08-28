@@ -74,8 +74,8 @@ const comboboxPopup = $('notes-combobox-popup');
 const notesCombobox = $('notes-combobox');
 const fieldsEl = document.querySelector('.notes-combobox-field');
 const notesSearchClear = $('notes-search-clear');
-const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-toggle'));
-const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang]'));
+const langToggles = Array.from(document.querySelectorAll('#notes-panel .lang-toggle, #notes-lightbox .lang-toggle'));
+const langBtns = Array.from(document.querySelectorAll('#notes-panel .lang-toggle [data-lang], #notes-lightbox .lang-toggle [data-lang]'));
 const galleryEl = $('notes-gallery');
 const emptyEl = $('notes-empty');
 
@@ -196,6 +196,7 @@ const UI_STRINGS = {
     colorBlue: 'Blue',
     colorRed: 'Red',
     colorPurple: 'Purple',
+    starred: 'Starred',
   },
   'zh-TW': {
     panelClose: '關閉面板',
@@ -253,6 +254,7 @@ const UI_STRINGS = {
     colorBlue: '藍色',
     colorRed: '紅色',
     colorPurple: '紫色',
+    starred: '已加星號',
   },
 };
 
@@ -573,6 +575,10 @@ function filteredNotes() {
     return d;
   };
   return list.sort((a, b) => {
+    // Starred notes float to the top regardless of the date-toggle direction,
+    // mirroring the reader/registry behavior for starred articles & tasks.
+    const starDiff = (b.starred ? 1 : 0) - (a.starred ? 1 : 0);
+    if (starDiff) return starDiff;
     const ad = dateKey(a);
     const bd = dateKey(b);
     if (ad !== bd) {
@@ -673,6 +679,7 @@ function cardHTML(n) {
     ? `<img class="notes-card-thumb" src="${esc(imageUrl(n, first.page, true))}" alt="${esc(activeTitle(n))}" loading="lazy" decoding="async">`
     : '';
   const topic = tagLabel(noteTopic(n)).toUpperCase();
+  const star = `<span class="notes-star ${n.starred ? 'on' : 'off'}" title="${n.starred ? esc(t('starred')) : ''}">${n.starred ? '★' : '☆'}</span>`;
   const tags = (n.tags || []).map((tag) =>
     `<span class="notes-badge topic tag-filter" data-tag="${esc(tag)}" title="${esc(t('filterByTagPrefix') + tagLabel(tag))}">${esc(tagLabel(tag))}</span>`).join('');
   const snip = (activeOcr(n) || '').replace(/--- Page \d+ ---\s*/g, ' ').slice(0, 800);
@@ -687,7 +694,7 @@ function cardHTML(n) {
   return `<div class="notes-card" data-id="${esc(n.id)}" title="${esc(activeTitle(n))}">
     <div class="img-wrap">${img}</div>
     <div class="notes-card-body">
-      <div class="fig-label">${esc(`Note · ${topic}`)}${monthYear ? `<span class="fig-label-date">${esc(monthYear)}</span>` : ''}</div>
+      <div class="fig-label"><span class="fig-label-text">${star}${esc(`Note · ${topic}`)}</span>${monthYear ? `<span class="fig-label-date">${esc(monthYear)}</span>` : ''}</div>
       <h3 class="notes-card-title">${esc(activeTitle(n))}</h3>
       ${snip ? `<p class="caption notes-ocr-snip">${esc(snip)}</p>` : ''}
       ${meta}
@@ -1002,7 +1009,8 @@ function looksLikeOcrFailure(text) {
 function renderLightbox() {
   const n = currentNote;
   if (!n) return;
-  lbTitle.textContent = activeTitle(n);
+  const star = n.starred ? `<span class="notes-star on" title="${esc(t('starred'))}">★</span>` : '';
+  lbTitle.innerHTML = `${star}${esc(activeTitle(n))}`;
   lbTitle.title = activeTitle(n);
   renderPagesStrip();
   setPage(currentPage);

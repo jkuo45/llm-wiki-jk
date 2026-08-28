@@ -1,8 +1,8 @@
 ---
 title: Adrenochrome → Sirtuins 反防禦追蹤 — 源自圖譜的機制圖譜
 description: 關於 sirtuins 如何對抗 adrenochrome 驅動的氧化壓力的完整追蹤，提取自 graphify 知識圖譜。涵蓋 mitohormesis/NAD+ 救援路線、SIRT3-MnSOD-PGC-1α 酵素防禦軸、凋亡失敗邊界，以及 redox-homeostasis 收斂節點。
-created: 2026-07-17
-updated: 2026-07-17
+created: 2026-07-21
+updated: 2026-08-09
 tags:
   - task-output
   - adrenochrome
@@ -15,7 +15,6 @@ tags:
   - knowledge-graph
 source: graphify graph query (path/bfs traversal) + notes/adrenochrome corpus
 ---
-
 # Adrenochrome → Sirtuins 反防禦追蹤
 
 > 透過 BFS/DFS 遍歷與節點解釋，從 wiki 知識圖譜中提取。

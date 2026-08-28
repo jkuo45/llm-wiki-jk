@@ -18,6 +18,31 @@ body {
 :root {
   --teal: #0F766E;
   --teal-hover: #0B5F59;
+
+  /* Palette token overrides — mirrors the :root block in three-graph.css.
+     Because the base sheet references these vars everywhere, components that
+     never got an explicit light override still theme correctly. Component-
+     specific rules below remain for cases where light needs a different
+     treatment, not just a different colour. */
+  --bg: #F6F3EC;
+  --surface: #FFFFFF;
+  --surface-raised: #FAF7F0;
+  --surface-sunken: #EFEAE0;
+  --line: #E2DCCE;
+  --line-strong: #CCC5B2;
+  --accent: #0F766E;
+  --link: #2563A8;
+  --link-bright: #0F766E;
+  --ink-hi: #22304A;
+  --ink: #33415C;
+  --ink-2: #3D4C63;
+  --ink-3: #4A5871;
+  --ink-4: #7C8698;
+  --ink-5: #7C8698;
+  --ink-6: #86909E;
+  --ink-7: #8B94A2;
+  --ink-8: #808A98;
+  --ink-9: #97A0AC;
 }
 
 /* CSS2D labels on the graph canvas */
@@ -105,6 +130,7 @@ body {
 #wiki-modal-header h2 { color: #22304A; }
 #wiki-modal-header .wiki-modal-link { color: #2563A8; border-color: #CCC5B2; }
 #wiki-modal-header .wiki-modal-link:hover { border-color: #0F766E; background: rgba(15, 118, 110, 0.08); }
+#wiki-modal-header .wiki-modal-link[disabled] { opacity: 0.45; cursor: default; pointer-events: none; }
 #wiki-modal-close { color: #7C8698; }
 #wiki-modal-close:hover { color: #22304A; }
 #wiki-modal-body { color: #4B5563; }
@@ -237,6 +263,11 @@ body {
 .prompt-mode-tab { color: #7C8698; }
 .prompt-mode-tab:hover { color: #22304A; }
 .prompt-mode-tab.active { background: #0F766E; color: #fff; }
+#controls #dataset-mode-toggle { background: #FAF7EF; color: #22304A; border-color: #CCC5B2; }
+#controls #dataset-mode-toggle .mode-label { color: #7C8698; }
+#controls #dataset-mode-toggle:hover { background: #0F766E; color: #fff; }
+#controls #dataset-mode-toggle:hover .mode-label { color: #fff; }
+.dataset-mode { color: #7C8698; }
 .prompt-activity-dot { border-color: #FFFFFF; }
 .prompt-activity-dot.thinking { border-color: #FFFFFF; }
 
@@ -321,6 +352,7 @@ body {
 #at-node-detail .info-connections { color: #22304A; }
 #at-node-detail .at-node-link { color: #2563A8; }
 #at-node-detail .at-node-link:hover { color: #0B5F59; }
+#at-node-detail .at-node-note-link { cursor: pointer; }
 #at-node-detail .node-type { color: #7C8698; }
 #at-node-detail .neighbor-link { background: #FFFFFF; border-color: #CCC5B2; color: #44648D; }
 #at-node-detail .neighbor-link:hover { border-color: #0F766E; color: #22304A; }
@@ -349,10 +381,15 @@ body {
 #controls #btn-settings:hover { color: #22304A; border-color: #0F766E; background: #ECE8DD; }
 #controls #btn-settings.active { color: #22304A; border-color: #0F766E; background: #ECE8DD; }
 #settings-popover { background: #FFFFFF; border-color: #E2DCCE; box-shadow: 0 16px 48px rgba(34,48,74,0.18); }
-#settings-popover h3 { color: #7C8698; }
-#settings-popover .display-grid button { background: #FFFFFF; border-color: #CCC5B2; color: #22304A; }
+#settings-popover h3 { color: #7C8698; border-bottom-color: #E2DCCE; }
+#settings-popover .display-grid button { background: #F6F3EC; border-color: #E2DCCE; color: #22304A; }
+#settings-popover .display-grid button::after { background: #DDD6C6; }
+#settings-popover .display-grid button::before { background: #B9B2A0; }
 #settings-popover .display-grid button:hover { background: #ECE8DD; border-color: #0F766E; }
-#settings-popover .display-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
+#settings-popover .display-grid button.active { background: rgba(15,118,110,0.08); border-color: #0F766E; color: #22304A; }
+#settings-popover .display-grid button.active::after { background: #0F766E; }
+#settings-popover .display-grid button.active::before { background: #FFFFFF; }
+#settings-popover #theme-grid button.active { background: #0F766E; border-color: #0F766E; color: #fff; }
 
 /* Prompt suggestions (Ask mode) */
 #prompt-new { border-color: #CCC5B2; color: #7C8698; }
@@ -462,9 +499,10 @@ body {
 #prompt-filter-toggle { color: #2563A8; border-color: #CCC5B2; }
 #prompt-filter-toggle input { accent-color: #2563A8; }
 
-/* Notes panel */
-#notes-panel::before { background: rgba(24, 28, 38, 0.45); }
-#notes-box { background: #FFFFFF; border-color: #CCC5B2; box-shadow: 0 12px 48px rgba(34, 48, 74, 0.22); }
+/* Notes panel — full-viewport overlay like the Reader / Analysis panel */
+#notes-panel { background: #FFFFFF; }
+#notes-panel::before { display: none; }
+#notes-box { background: #FFFFFF; border: none; border-radius: 0; box-shadow: none; }
 #notes-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
 #notes-header button#notes-close { color: #7C8698; }
 #notes-header button#notes-close:hover { color: #C0392B; background: rgba(192, 57, 43, 0.1); }
@@ -494,6 +532,8 @@ body {
 .notes-card .fig-label { color: var(--teal); }
 .notes-card-title { color: #22304A; }
 .notes-card .fig-label .fig-label-date { color: #7C8698; }
+.notes-star { color: #5b6172; }
+.notes-star.on { color: #E0A800; }
 .notes-card .caption { color: #7C8698; }
 .notes-card .context { color: #7C8698; border-top-color: #E2DCCE; }
 .notes-card-meta { color: #7C8698; }
@@ -516,9 +556,19 @@ body {
 .notes-lb-top button, .notes-lb-nav button, .notes-lb-zoom button, .notes-lb-pages button {
   background: #FFFFFF; border-color: #CCC5B2; color: #7C8698;
 }
+/* Keep the lang toggle's segments free of the nav-button chrome (white pill
+   + border) — the light .lang-toggle rules below handle its look. */
+.notes-lb-top .lang-toggle button { background: transparent; border: none; }
 .notes-lb-top button:hover, .notes-lb-nav button:hover:not(:disabled), .notes-lb-zoom button:hover,
 .notes-lb-pages button:hover:not(:disabled), .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: #0F766E; color: #22304A; }
 .notes-lb-title { color: #22304A; }
+/* Language toggles (notes panel + lightbox) — match the reader's light chrome
+   (#page-modal-overlay.light-theme .lang-toggle in three-graph.css). */
+.lang-toggle { background: #F6F3EC; border-color: #CCC5B2; }
+.lang-toggle button { color: #7C8698; }
+.lang-toggle button + button { border-left-color: #CCC5B2; }
+.lang-toggle button:hover:not(.active) { color: #22304A; }
+.lang-toggle button.active { background: #0F766E; color: #fff; }
 .notes-lb-nav button { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(3px); }
 .notes-lb-imgwrap { background: #ECE8DD; }
 .notes-lb-zoom button { background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(3px); }

@@ -1,8 +1,8 @@
 ---
 title: 伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現
 description: 關於伊維菌素抗癌老藥新用（repositioning）的追蹤發現，取自 wiki 知識圖譜（graphify 查詢 + 節點閱讀）。
-created: 2026-07-15
-updated: 2026-07-15
+created: 2026-07-21
+updated: 2026-07-21
 tags:
   - cancer
   - drug-repositioning
@@ -11,7 +11,6 @@ tags:
 source: graphify query on graphify-out/graph.json (existing graph)
 author: []
 ---
-
 # 伊維菌素作為預防性 / 抗癌措施
 
 > 透過 `/graphify` 在現有知識圖譜（`graphify-out/graph.json`）上產生。

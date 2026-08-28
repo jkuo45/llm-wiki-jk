@@ -20,8 +20,15 @@ Ferroptosis is initiated when the glutathione-dependent antioxidant enzyme [[GPX
 > [!info] Source: [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]
 > A newly identified, **GPX4/GSH- and iron-independent** ferroptosis axis: [[Acid ceramidase]] (ASAH1) is over-expressed 5- to 20-fold in replicatively [[Senescent Cells|senescent]] WI-38 fibroblasts. By cleaving [[Ceramide|ceramide]] into free fatty acids, ACase enriches membrane [[Phospholipid|phospholipids]] with [[PUFA|PUFAs]] (the peroxidation substrates), creating a pro-ferroptotic lipid profile. ACase knockdown/inhibition (ARN14794) protects cells from [[RSL3]] *without* changing [[ACSL4]], [[GPX4]], or labile [[Iron|Fe²⁺]]—acting upstream by shrinking the PUFA substrate pool. Critically, senescent-cell [[SASP]] ([[IL-6]]/[[IL-8]]) transmits ACase up-regulation and ferroptotic sensitization to neighboring cells.
 
+## FSP1–CoQ10–NAD(P)H: the parallel, GPX4-independent axis
+
+In addition to GPX4, cells deploy a **second, stand-alone ferroptosis-suppression system** centered on **[[FSP1]]** (ferroptosis suppressor protein 1, formerly AIFM2). Myristoylated FSP1 resides at the **[[Plasma Membrane]]**, where it uses **[[NADPH]]** to reduce **[[Ubiquinone]] (CoQ10)** to **ubiquinol (CoQ10H₂)**, a lipophilic **radical-trapping antioxidant** that terminates phospholipid peroxyl-radical chains (Doll et al., 2019; Bersuker et al., 2019). This **FSP1–CoQ10–NAD(P)H pathway** is **glutathione-independent** and cooperates with the GPX4–glutathione axis: loss of either axis alone is tolerable if the other is intact, but combined inhibition is strongly synergistic.
+
+> [!info] MVA-pathway convergence predicts ferroptosis sensitivity
+> The ubiquinone substrate of FSP1 is a **non-sterol product of the [[Mevalonate pathway]]**. Interventions that suppress MVA output toward cholesterol — [[Statins]] (HMG-CoA reductase inhibition) or squalene-synthase engagement (e.g., FIN56) — deplete ubiquinone and **converge on FSP1**, collapsing its radical trap and sensitizing cells to ferroptosis. Loss of ubiquinone therefore predicts ferroptosis sensitivity independently of GPX4, explaining the NAD(P)H-dependence of the MVA/CoQ10 axis. See the [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026|FSP1–CoQ10–NAD(P)H deep-dive]].
+
 ## Key Regulators
-- **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase), [[DHODH]], [[Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
+- **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase at the plasma membrane; uses NADPH to regenerate ubiquinol, a GPX4-independent radical trap), [[DHODH]], [[Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
 - **Positive regulators**: [[ACSL4]] (acyl-CoA synthetase that enriches membranes with oxidizable PUFAs), [[Acid ceramidase]] (ASAH1; cleaves [[Ceramide|ceramide]] to free fatty acids that feed membrane [[PUFA|PUFA]] incorporation—a GPX4/GSH/iron-independent sensitization axis in [[Senescent Cells|senescence]]), [[LPCAT3]] (remodels membrane phospholipids), [[NOX]] family NADPH oxidases, mitochondrial electron transport chain
 - **Iron regulators**: [[Transferrin receptor 1|TFR1]] (iron uptake), [[Ferritin]] (iron storage), [[NCOA4]] (ferritinophagy cargo receptor), [[HO-1]] (heme degradation liberating iron)
 ## Detection & Biomarkers
@@ -52,6 +59,12 @@ List of documents that mention this entity
   - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Salk press release — "Could this enzyme help remove 'zombie' cells…"]]
     - Public summary framing ACase as a druggable [[Senolytic|senotherapeutic]] target for clearing senescent "zombie" cells via ferroptosis.
 
+  - [[_document_ - Ferroptosis past present and future|Ferroptosis: past, present and future]]
+    - Landmark 2020 review (Li et al., *Cell Death & Disease*) systematically summarizing ferroptosis mechanisms — system Xc⁻/[[SLC7A11]] cystine uptake, [[GPX4]] inactivation, iron metabolism ([[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]]), lipid remodeling ([[ACSL4]], [[LPCAT3]], [[Phosphatidylethanolamine]]), the [[FSP1]]–[[Coenzyme Q10|CoQ10]] axis — and its roles across cancer, neurodegeneration, AKI, I/R injury and other diseases. Primary source for the entity notes created in this ingestion ([[Erastin]], [[SAT1]], [[ALOX15]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], etc.).
+
+  - [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026|FSP1–CoQ10–NAD(P)H Ferroptosis Axis (deep dive)]]
+    - Synthesis of the Doll et al. (2019) discovery that FSP1 uses NAD(P)H to regenerate CoQ10/ubiquinol at the plasma membrane, acting as a GPX4-independent parallel brake, and how MVA-pathway loss of ubiquinone converges on FSP1 to predict ferroptosis sensitivity.
+
 
 ## Connections
 
@@ -62,15 +75,29 @@ List of documents that mention this entity
 - [[Ferritin]] — interacts with
 - [[NCOA4]] — interacts with
 - [[FSP1]] — interacts with
+- [[Ubiquinone]] — FSP1 substrate regenerated to ubiquinol, the membrane radical trap
+- [[NADPH]] — Electron donor for FSP1-mediated ubiquinone reduction
 - [[DHODH]] — interacts with
-- [[System Xc⁻]] — interacts with
+- [[System Xc-]] — interacts with
 - [[ACSL4]] — interacts with
 - [[Acid ceramidase]] — Novel positive regulator in senescence: over-expression enriches membrane PL-PUFAs via ceramide catabolism, sensitizing cells to ferroptosis through a GPX4/GSH/iron-independent axis; knockdown protects
 - [[LPCAT3]] — interacts with
 - [[NOX]] — interacts with
 - [[Adrenochrome]] — Hypothesized dual ferroptosis inducer: generates ROS via redox cycling and may directly inhibit GPX4 via electrophilic arylation, analogous to RSL3
+- [[System Xc-]] — Core cystine/glutamate antiporter; inhibition (e.g., by [[Erastin]]) depletes [[Glutathione|GSH]] and is the classic ferroptosis trigger
+- [[SLC7A11]] — Catalytic light chain of system Xc-; transcriptionally repressed by [[p53]] to promote ferroptosis
+- [[Erastin]] — Prototype ferroptosis inducer; inhibits system Xc- and activates chaperone-mediated autophagy of [[GPX4]]
+- [[ALOX15]] — Arachidonate lipoxygenase downstream of the [[p53]]–SAT1 axis that amplifies lipid peroxidation
+- [[SAT1]] — Polyamine-catabolism enzyme, p53 transcriptional target, engages [[ALOX15]] to drive ferroptosis
+- [[Iron]] — Redox-active Fe²⁺ fuels the [[Fenton Reaction]] that propagates lipid radical chain reactions
+- [[Transferrin]] — Iron-delivery protein; endocytosis via [[Transferrin receptor 1]] supplies labile iron for ferroptosis
+- [[Sorafenib]] — HCC therapy whose ferroptosis induction is enabled by [[Retinoblastoma|Rb]] loss
+- [[Artesunate]] — Anti-malarial that activates ferroptosis in pancreatic, ovarian, and HNC models
+- [[Mitotane]] — ACC therapy; ACCs show exquisite sensitivity to ferroptosis induction
+- [[Apoptosis-Inducing Factor]] — Mitochondrial flavoprotein; FSP1 was formerly named AIFM2
+- [[Mevalonate pathway]] — Regulates selenocysteine tRNA maturation and thus [[GPX4]] levels
 
 ## Linking Summary
-- New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]]
+- New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc-]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]], [[SLC7A11]], [[Erastin]], [[SAT1]], [[ALOX15]], [[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], [[Phosphatidylethanolamine]], [[CISD1]], [[NFS1]], [[Clear cell renal cell carcinoma]], [[Head and neck cancer]], [[Adrenocortical carcinomas]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Gastric Cancer]], [[Colorectal Cancer]], [[Lung Cancer]], [[Stroke]], [[Traumatic Brain Injury]], [[Ubiquinone]], [[NADPH]], [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026]]
   - Strong connections to strengthen: [[Ferroptosis]] ↔ Lipid Peroxidation, [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ Fenton Reaction, [[Ferroptosis]] ↔ Ferritin, [[Ferroptosis]] ↔ [[Adrenochrome]] (dual mechanism hypothesis)
 

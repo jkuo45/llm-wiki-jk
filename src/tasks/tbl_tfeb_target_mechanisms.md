@@ -1,8 +1,8 @@
 ---
 title: TFEB Targeting Regulatory Mechanisms Across Disease Models
 description: Table of TFEB-targeting strategies by regulatory mechanism — gene therapy (AAV/lentiviral TFEB overexpression), transcriptional induction (PGC-1alpha), and PTM modulation via mTORC1/MAPK-ERK/Akt/p38 MAPK phosphorylation and SIRT1 deacetylation — mapped to disease models (Pompe, asthma, cystinosis, stroke, pancreatitis, HD, NAFLD, Alzheimer's, Parkinson's, MI, AKI) with phenotypic improvements and PMIDs.
-created: 2026-08-23
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: TFEB review document table extraction (PMIDs cited per row)
 tags:
   - task-output

@@ -1131,7 +1131,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "a36f3a646549",
@@ -1145,7 +1145,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "976dd073f5c7",
@@ -1159,7 +1159,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "47a459b3343e",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-08-24T20:00:00Z"
   },
   {
     "id": "1da347611cc5",
@@ -1344,10 +1344,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "b6b3b36aac19",
+    "id": "b6c4b6814a53",
     "subject": "A20",
     "predicate": "terminates",
-    "object": "NF-kappa B signaling",
+    "object": "NF-κB",
     "context": {
       "en-US": "A20 terminates NF-kappaB signaling by removing K63-linked ubiquitin chains from RIP1 and TRAF6, thereby shutting down IKK activation and the downstream cascade. As a feedback inhibitor, A20 limits excessive inflammation and tissue damage. The directionality is deubiquitination to signal termination. A caveat is that A20 mutations or insufficiency are linked to chronic inflammatory and autoimmune diseases, showing its role is non-redundant in some tissues. Mice lacking A20 in specific tissues develop severe spontaneous inflammation, confirming its role as an essential inflammatory brake.",
       "zh-TW": "A20 透過從 RIP1 和 TRAF6 中移除 K63 連接的泛素鏈來終止 NF-kappaB 訊號傳導，從而關閉 IKK 活化和下游級聯。作為反饋抑制劑，A20 可以限制過度發炎和組織損傷。方向性是去泛素化到訊號終止。需要注意的是，A20 突變或不足與慢性發炎和自體免疫疾病有關，這表明​​它的作用在某些組織中是非冗餘的。特定組織中缺乏 A20 的小鼠會出現嚴重的自發性炎症，證實了其作為重要發炎制動劑的作用。"
@@ -3218,5 +3218,33 @@
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c91dd48c59bc",
+    "subject": "Coenzyme Q10",
+    "predicate": "reduced_to_ubiquinol_by",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Ubiquinone (CoQ10, oxidized) is the direct electron acceptor for FSP1, a plasma-membrane flavoprotein that uses NAD(P)H to reduce CoQ10 to ubiquinol (CoQ10H2), a lipophilic radical-trapping antioxidant that terminates phospholipid peroxyl-radical chains and suppresses ferroptosis. This FSP1–CoQ10–NAD(P)H axis is glutathione-independent and acts in parallel to GPX4. Because CoQ10 is a non-sterol product of the mevalonate pathway, statin-mediated depletion starves FSP1 of substrate and sensitizes cells to ferroptosis.",
+      "zh-TW": "泛醌（CoQ10，氧化態）是 FSP1 的直接電子受體；FSP1 是一種質膜黃素蛋白，利用 NAD(P)H 將 CoQ10 還原為泛醇（CoQ10H2），後者是脂溶性自由基捕獲抗氧化劑，能終止磷脂過氧自由基鏈並抑制鐵死亡。這條 FSP1–CoQ10–NAD(P)H 軸不依賴谷胱甘肽，並與 GPX4 平行運作。由於 CoQ10 是甲羥戊酸路徑的非固醇產物，statin 介導的耗竭會使 FSP1 缺乏受質並使細胞對鐵死亡增敏。"
+    },
+    "confidence": 0.95,
+    "source_document": "Coenzyme Q10.md",
+    "created": "2026-08-24T21:25:02Z",
+    "updated": "2026-08-24T21:25:02Z"
+  },
+  {
+    "id": "24d20680a6cb",
+    "subject": "Oxidative Stress",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Oxidative stress activates the canonical IKK-NF-kB pathway, driving inflammatory gene expression and the senescence-associated secretory phenotype (SASP).",
+      "zh-TW": "氧化壓力活化典型的 IKK–NF-kB 路徑，驅動發炎基因表現與衰老相關分泌表型（SASP）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:10:14Z"
   }
 ]

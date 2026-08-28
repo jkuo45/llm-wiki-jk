@@ -3,8 +3,8 @@ title: 三元組人工審核報告 — 腎上腺色素、粒線體激效、自�
 description: 因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。
 created: 2026-08-21
 tags: [triples, knowledge-graph, quality-control, adrenochrome, mitohormesis, autophagy, sirtuins]
+updated: 2026-08-22
 ---
-
 # 三元組人工審核報告 — 腎上腺色素 / 粒線體激效 / 自噬 / Sirtuins
 
 **日期：** 21_August_2026

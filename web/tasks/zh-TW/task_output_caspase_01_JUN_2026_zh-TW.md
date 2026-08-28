@@ -2,7 +2,7 @@
 title: Caspase 與 Bcl-2 家族調控的分子機制
 description: 探討凋亡訊號網絡內五個關鍵分子連結的研究報告，聚焦於癌症與細胞存活中 caspase 與 Bcl-2 家族調控的生化機制。
 published: 2026-06-01
-created: 2026-07-16
+created: 2026-07-21
 source: tasks/task_output_caspase_01_JUN_2026.md
 author: []
 tags:
@@ -13,9 +13,8 @@ tags:
   - phosphorylation
   - phosphatase
   - cell-death
-updated: 2026-07-16
+updated: 2026-08-22
 ---
-
 # 研究報告：Caspase 與 Bcl-2 家族調控的分子機制
 
 本報告探討在凋亡訊號網絡中識別出的五個關鍵分子連結，聚焦於其生化機制及在癌症與細胞存活中的意涵。

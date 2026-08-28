@@ -1,7 +1,7 @@
 ---
 title: 热量限制 vs 亚精胺饮食自噬 — 差异与叠加效应
 description: CR诱导自噬与饮食自噬诱导剂（亚精胺、雷帕霉素）之间的机制差异分析，以及组合策略叠加效应的追踪
-created: 2026-07-15
+created: 2026-07-21
 source: Wiki知识图谱遍历 + 人工综合
 tags:
   - autophagy
@@ -9,9 +9,8 @@ tags:
   - spermidine
   - rapamycin
   - longevity
-updated: 2026-07-15
+updated: 2026-08-22
 ---
-
 # CR vs 亚精胺饮食自噬 — 差异与叠加效应
 
 ## 第一部分：机制差异

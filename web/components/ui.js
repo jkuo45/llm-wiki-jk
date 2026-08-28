@@ -6,18 +6,18 @@ import * as THREE from 'three';
 
 import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
-  descriptionMap, githubSourceUrl, noteUrl, predicateZh,
+  descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
 } from './data.js';
 import { state } from './state.js';
 import {
-  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeGroup, labelObjects,
+  container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeSegments, labelObjects,
   edgeOffColor, setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
 } from './core.js';
 import { selectNode, deselectNode } from './interaction.js';
 import { updateHash } from './routing.js';
-import { esc } from './markdown.js';
+import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
 
 // ------------------------------------------------------------
@@ -25,6 +25,37 @@ import { setUiLang } from './i18n.js';
 // ------------------------------------------------------------
 const activeDatasetPanel = document.getElementById('dataset-panel');
 const activePromptPanel = document.getElementById('prompt-panel');
+
+// ------------------------------------------------------------
+// Dataset-mode toggle (Triples / Wiki / Combined). The mode is baked into the
+// current page via data.js (read from `mode=` in the URL hash), so switching
+// just updates the hash and reloads — the scene is rebuilt from the active
+// dataset at module load. This keeps the Three.js scene code untouched.
+// ------------------------------------------------------------
+const DATASET_MODE_ICONS = {
+  triples: '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><circle cx="8" cy="3.5" r="2.2"/><circle cx="3.5" cy="12.5" r="2.2"/><circle cx="12.5" cy="12.5" r="2.2"/></svg>',
+  wiki: '<svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.4 2.8 2 8l2.4 5.2"/><path d="M6.6 2.8 4.2 8l2.4 5.2"/><path d="M9.4 2.8 11.8 8l-2.4 5.2"/><path d="M11.6 2.8 14 8l-2.4 5.2"/></svg>',
+  combined: '<svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="5.8" cy="8" r="4.2"/><circle cx="10.2" cy="8" r="4.2"/></svg>',
+};
+
+export function setupDatasetToggle() {
+  const btn = document.getElementById('dataset-mode-toggle');
+  if (!btn) return;
+  const ORDER = ['triples', 'wiki', 'combined'];
+  const NAME = { triples: 'Triples', wiki: 'Wiki', combined: 'Combined' };
+  // Icon varies by current mode; visible label is always lowercase "mode".
+  btn.innerHTML = (DATASET_MODE_ICONS[DATASET_MODE] || '') + '<span class="mode-label">mode</span>';
+  btn.title = 'Graph source / 圖形來源: ' + NAME[DATASET_MODE];
+  btn.setAttribute('aria-label', 'Graph source / 圖形來源: ' + NAME[DATASET_MODE]);
+  btn.addEventListener('click', () => {
+    const i = ORDER.indexOf(DATASET_MODE);
+    const next = ORDER[(i + 1) % ORDER.length]; // cycles triples→wiki→combined
+    const params = new URLSearchParams(location.hash.replace(/^#\/?/, ''));
+    params.set('mode', next);
+    location.hash = '#' + params.toString();
+    location.reload();
+  });
+}
 
 export function setActiveWindow(name) {
   const panels = [activeDatasetPanel, activePromptPanel];
@@ -61,6 +92,106 @@ document.addEventListener('focusin', (e) => {
 // Node / edge info card (inside the analysis panel)
 // ------------------------------------------------------------
 const infoCard = document.getElementById('at-node-detail');
+
+// ------------------------------------------------------------
+// Entity-note tooltip + modal. The DOM (#wiki-tooltip / #wiki-modal*) lives in
+// index.html and prompt.js wires the close handlers, so here we only populate
+// and show. Entity note links in the node/community cards render as tooltip
+// spans (.at-node-note-link) instead of navigating straight to GitHub.
+// ------------------------------------------------------------
+const wikiTooltipEl = document.getElementById('wiki-tooltip');
+const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
+const wikiModalTitle = document.getElementById('wiki-modal-title');
+const wikiModalBody = document.getElementById('wiki-modal-body');
+const wikiModalLink = document.getElementById('wiki-modal-link');
+let nodeWikiTooltipVisible = false;
+
+function nodeDescById(nid) {
+  const nd = nodeMap.get(nid);
+  if (!nd) return '';
+  const useZh = state.analysisUiLang === 'zh-TW';
+  return useZh ? (nd.description_zh_TW || nd.description || '') : (nd.description || '');
+}
+
+function positionNodeWikiTooltip(anchor) {
+  if (!nodeWikiTooltipVisible) return;
+  const r = anchor.getBoundingClientRect();
+  let left = r.left;
+  let top = r.bottom + 8;
+  const tw = wikiTooltipEl.offsetWidth || 340;
+  const th = wikiTooltipEl.offsetHeight || 160;
+  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
+  if (top + th > window.innerHeight - 8) top = r.top - th - 8;
+  if (left < 8) left = 8;
+  if (top < 8) top = 8;
+  wikiTooltipEl.style.left = left + 'px';
+  wikiTooltipEl.style.top = top + 'px';
+}
+
+function showNodeWikiTooltip(anchor) {
+  const title = anchor.dataset.wiki || '';
+  const gh = anchor.dataset.gh || '';
+  const desc = nodeDescById(anchor.dataset.nid);
+  if (!desc) {
+    if (!gh) return;
+    wikiTooltipEl.innerHTML = `<b>${esc(title)}</b><span class="wiki-tooltip-hint">View note on GitHub ↗</span>`;
+    nodeWikiTooltipVisible = true;
+    wikiTooltipEl.classList.add('visible');
+    positionNodeWikiTooltip(anchor);
+    return;
+  }
+  const excerpt = wikiExcerpt(desc);
+  if (!excerpt) return;
+  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
+  nodeWikiTooltipVisible = true;
+  wikiTooltipEl.classList.add('visible');
+  positionNodeWikiTooltip(anchor);
+}
+
+function hideNodeWikiTooltip() {
+  if (!nodeWikiTooltipVisible) return;
+  nodeWikiTooltipVisible = false;
+  wikiTooltipEl.classList.remove('visible');
+}
+
+function openNodeWikiModal(anchor) {
+  const title = anchor.dataset.wiki || '';
+  const gh = anchor.dataset.gh || '';
+  const desc = nodeDescById(anchor.dataset.nid);
+  wikiModalTitle.textContent = title.replace(/_/g, ' ');
+  if (desc) {
+    wikiModalBody.innerHTML = renderMarkdown(desc);
+  } else {
+    wikiModalBody.innerHTML = gh
+      ? '<p>No summary is stored for this entity. Open the full note on GitHub.</p>'
+      : '<p>No summary is stored for this entity.</p>';
+  }
+  wikiModalLink.href = gh || '#';
+  wikiModalLink.toggleAttribute('disabled', !gh);
+  wikiModalOverlay.classList.add('visible');
+  hideNodeWikiTooltip();
+}
+
+infoCard.addEventListener('mouseover', (e) => {
+  const a = e.target.closest('.at-node-note-link');
+  if (!a) { hideNodeWikiTooltip(); return; }
+  showNodeWikiTooltip(a);
+});
+infoCard.addEventListener('mousemove', (e) => {
+  if (!nodeWikiTooltipVisible) return;
+  const a = e.target.closest('.at-node-note-link');
+  if (a) positionNodeWikiTooltip(a);
+});
+infoCard.addEventListener('mouseleave', hideNodeWikiTooltip);
+infoCard.addEventListener('click', (e) => {
+  const a = e.target.closest('.at-node-note-link');
+  if (a) { e.preventDefault(); openNodeWikiModal(a); }
+});
+infoCard.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const a = e.target.closest('.at-node-note-link');
+  if (a) { e.preventDefault(); openNodeWikiModal(a); }
+});
 
 export function hideNodeInfo() {
   if (infoCard) infoCard.hidden = true;
@@ -205,10 +336,12 @@ function renderNodeInfo(nodeId, actions) {
     : '';
 
   // Source (node): deep link to the wiki note when one exists for the label
-  // (reconstructed from the manifest), else the triple-source file link.
+  // (reconstructed from the manifest), else the triple-source file link. The
+  // note renders as a tooltip span (not an outbound link) — the GitHub link
+  // moves into the shared entity modal opened on click/hover.
   const noteHref = noteUrl(n.label) || (n.source_file ? githubSourceUrl(n.source_file) : '');
   const wikiLink = noteHref
-    ? `<a href="${esc(noteHref)}" target="_blank" rel="noopener" class="at-node-link">${esc(n.label)} ${LINK_ICON}</a>`
+    ? `<span class="at-node-link at-node-note-link" data-wiki="${esc(n.label)}" data-nid="${esc(n.id)}" data-gh="${esc(noteHref)}" role="button" tabindex="0">${esc(n.label)} ${LINK_ICON}</span>`
     : '—';
 
   const edgeSourceLink = n.source_file
@@ -383,8 +516,9 @@ function renderCommunityInfo(cid, actions) {
     ? (useZh ? (descNode.description_zh_TW || descNode.description || '') : (descNode.description || ''))
     : '';
 
-  const wikiLink = (hub && (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')))
-    ? `<a href="${esc(noteUrl(hub.label) || githubSourceUrl(hub.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(hub.label)} ${LINK_ICON}</a>`
+  const hubNoteHref = hub ? (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')) : '';
+  const wikiLink = hubNoteHref
+    ? `<span class="at-node-link at-node-note-link" data-wiki="${esc(hub.label)}" data-nid="${esc(hub.id)}" data-gh="${esc(hubNoteHref)}" role="button" tabindex="0">${esc(hub.label)} ${LINK_ICON}</span>`
     : '—';
 
   const memberLinks = members.slice(0, 12).map(n => {
@@ -605,8 +739,7 @@ export function highlightTraceNodes(trace) {
 
   applyNodeState(traceIds, 1, 0.5, 0.08, 0.05);
 
-  applyEdgeState(line => {
-    const { edge } = line.userData;
+  applyEdgeState(edge => {
     const key = `${edge.from}::${edge.to}`;
     return traceEdges.has(key);
   }, 0x4E79A7, 0.8, edgeOffColor(), 0.02);
@@ -646,8 +779,7 @@ export function activateRoute(trace, routeIdx) {
     routePairs.add(`${route.path[i]}::${route.path[i + 1]}`);
     routePairs.add(`${route.path[i + 1]}::${route.path[i]}`);
   }
-  applyEdgeState(line => {
-    const { edge } = line.userData;
+  applyEdgeState(edge => {
     return routePairs.has(`${edge.from}::${edge.to}`);
   }, 0x7cb3d4, 1, edgeOffColor(), 0.02);
 
@@ -707,8 +839,9 @@ function closeSettings() {
   if (settingsBtn) settingsBtn.classList.remove('active');
 }
 
-if (settingsBtn && settingsPopover) {
-  settingsBtn.addEventListener('click', (e) => {
+  if (settingsBtn && settingsPopover) {
+    settingsPopover.addEventListener('click', (e) => e.stopPropagation());
+    settingsBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     settingsPopover.hidden = !settingsPopover.hidden;
     settingsBtn.classList.toggle('active', !settingsPopover.hidden);
@@ -883,8 +1016,8 @@ document.getElementById('btn-labels').addEventListener('click', (e) => {
 });
 
 document.getElementById('btn-edges').addEventListener('click', (e) => {
-  edgeGroup.visible = !edgeGroup.visible;
-  e.target.classList.toggle('active', edgeGroup.visible);
+  edgeSegments.visible = !edgeSegments.visible;
+  e.target.classList.toggle('active', edgeSegments.visible);
 });
 
 // Initialize button active states

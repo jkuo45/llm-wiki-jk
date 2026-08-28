@@ -2,7 +2,7 @@
 title: 節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質
 description: 以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。
 created: 2026-08-17
-updated: 2026-08-23
+updated: 2026-08-22
 source: graphify-out/graph.json (2506 nodes / 3213 edges) + scripts/04_node_analysis.py + Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017 (PMC5514220)
 tags:
   - task-output
@@ -17,7 +17,6 @@ tags:
   - therapeutics
 author: []
 ---
-
 # 節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 其標的與受質
 
 > [!NOTE]

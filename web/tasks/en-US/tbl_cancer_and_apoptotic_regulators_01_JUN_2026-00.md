@@ -2,8 +2,8 @@
 title: Cancer Connections of Apoptotic Regulators — Caspases, Bcl-2 Family & Phosphorylation Sites
 description: HTML table excerpt mapping protease enzymes (caspases) and Bcl-2 family proteins to their phosphorylation sites, responsible kinases/phosphatases, functional outcomes, and cancer connections (loss or amplification), extracted from an NCI/PMC source document.
 published: 2026-06-01
-created: 2026-06-01
-updated: 2026-08-23
+created: 2026-07-21
+updated: 2026-07-21
 source: PMC article table export (cancer and apoptotic regulators)
 tags:
   - task-output

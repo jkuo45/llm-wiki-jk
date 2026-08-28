@@ -4,15 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Articles — Index</title>
-<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, with en-US editions and zh-TW editions alongside.">
+<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, grouped by when they were created, with en-US editions and zh-TW editions alongside.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/index.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
 <script src="themes/theme-02/theme.js"></script>
 <script src="themes/theme-02/pages-core.js"></script>
 <style>
-.index {
-  padding: 28px 0 48px;
+.index { padding: 28px 0 48px; }
+
+.bucket-heading {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  margin: 34px 0 14px;
+}
+.bucket-heading:first-child { margin-top: 0; }
+.bucket-count {
+  font-family: var(--mono); font-size: 12px; color: var(--faint);
+  vertical-align: middle; margin-left: 8px;
 }
 
 .article-list {
@@ -23,6 +33,7 @@
 
 /* Card chrome (surface, border, accent variants) comes from theme.css .card */
 .article-card {
+  position: relative;
   padding: 20px 22px 16px;
   margin-bottom: 18px;
   transition: border-color 0.15s ease, transform 0.15s ease;
@@ -48,6 +59,17 @@
 }
 
 .article-title a:hover { color: var(--oxblood); }
+/* Star badge: gray outline when not starred, filled accent when starred */
+.star-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  font-size: 1rem;
+  line-height: 1;
+  pointer-events: none;
+}
+.star-badge.on { color: #d4a017; }
+.star-badge.off { color: var(--rule); -webkit-text-stroke: 0.5px var(--faint); }
 
 .article-zh {
   font-size: 1.02rem;
@@ -77,6 +99,53 @@
 
 /* Badge base + fill/accent variants come from theme.css .badge.fill */
 
+/* Freshness badge mirrors the task outputs index buckets */
+.fresh { color: #15803d; }
+.recent { color: #b45309; }
+.old { color: var(--faint); }
+[data-theme="dark"] .fresh { color: #38c793; }
+[data-theme="dark"] .recent { color: #ffb020; }
+
+/* Search bar — sticky so it stays reachable while scrolling buckets */
+.search-row {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 -4px 8px;
+  padding: 12px 4px;
+  background: var(--paper);
+}
+.search-row input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 9px 12px;
+}
+.search-row input:focus { outline: none; border-color: var(--oxblood); }
+.search-row input::placeholder { color: var(--faint); }
+.search-clear {
+  flex: none; width: 32px; height: 32px; line-height: 1;
+  font-size: 16px; color: var(--mute); background: var(--sheet);
+  border: 1px solid var(--rule); border-radius: 2px; cursor: pointer;
+}
+.search-clear:hover { color: var(--oxblood); border-color: var(--oxblood); }
+mark.search-hit { background: transparent; color: var(--oxblood); }
+
+/* Mobile: keep the bar in normal flow so opening the keyboard doesn't
+   snap the viewport — sticky elements re-anchor when the visual viewport
+   resizes for the on-screen keyboard. */
+@media (max-width: 640px) {
+  .search-row { position: static; padding-top: 8px; }
+}
+
 .empty-note {
   font-style: italic;
   color: var(--mute);
@@ -92,7 +161,12 @@
 <body>
 <main class="index" id="content">
   <div class="wrap">
-    <ul class="article-list" id="articleList"></ul>
+    <div class="search-row" id="searchRow">
+      <input type="search" id="searchBox" placeholder="search articles… / 搜尋文章" autocomplete="off">
+      <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+    </div>
+    <div id="articleList"></div>
+    <p class="empty-note" id="noMatchNote" hidden></p>
     <p class="empty-note" id="emptyNote" hidden></p>
   </div>
 </main>
@@ -100,39 +174,138 @@
 <script>
 (function(){
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
+  const SEARCH_KEY = 'articles-index-search';
   const list = document.getElementById('articleList');
   const emptyNote = document.getElementById('emptyNote');
+  const noMatchNote = document.getElementById('noMatchNote');
+  const searchBox = document.getElementById('searchBox');
+  const searchClear = document.getElementById('searchClear');
+  /* Restore the query from a previous visit so returning from an article
+     keeps the active filter. */
+  try {
+    searchBox.value = sessionStorage.getItem(SEARCH_KEY) || '';
+  } catch { /* storage unavailable */ }
 
   function esc(s){
     return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
+  function escRe(s){
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  /* Escape each split part so matches are highlighted on raw text (never
+     inside HTML entities), then wrap matched parts in <mark>. */
+  function highlight(text, tokens){
+    if (!tokens.length) return esc(text);
+    const re = new RegExp('(' + tokens.map(escRe).join('|') + ')', 'gi');
+    return text.split(re)
+      .map((part, i) => i % 2 ? '<mark class="search-hit">' + esc(part) + '</mark>' : esc(part))
+      .join('');
+  }
+  function parseQuery(q){
+    return q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  }
+  function matches(a, tokens){
+    if (!tokens.length) return true;
+    const hay = [a.display, a.zhTitle, a.desc, a.id].join('\n').toLowerCase();
+    return tokens.every(t => hay.includes(t));
+  }
+
+  function relAge(created){
+    if (!created) return '';
+    const ms = Date.now() - new Date(created).getTime();
+    if (ms < 864e5) return 'today';
+    const days = Math.floor(ms / 864e5);
+    if (days < 7) return days + 'd';
+    if (days < 30) return Math.floor(days / 7) + 'w';
+    if (days < 365) return Math.floor(days / 30) + 'mo';
+    return (days / 365).toFixed(1) + 'y';
+  }
+  function bucket(created){
+    if (!created) return 3;
+    const days = (Date.now() - new Date(created).getTime()) / 864e5;
+    return days <= 7 ? 1 : days <= 30 ? 2 : 3;
+  }
+  const BUCKETS = [
+    ['Starred', '星標', ''],
+    ['Created this week', '本週建立', 'fresh'],
+    ['Created this month', '本月建立', 'recent'],
+    ['Older', '較早', 'old'],
+  ];
+  /* The registry generator can emit array-valued fields when a source
+     frontmatter scalar folds onto continuation lines (its simple YAML
+     parser returns them as lists) — flatten non-strings so downstream
+     .replace() calls never crash. */
+  const asStr = (v) => Array.isArray(v) ? v.join(' ') : String(v ?? '');
 
   fetch('../data/articles.json')
     .then(r => r.json())
     .then(data => {
       const articles = data
         .filter(a => a.active !== false && a.id !== 'articles-index' && a.langs && a.langs['en-US'])
-        .map(a => {
+        .map((a, ai) => {
           const en = a.langs['en-US'];
           const zh = a.langs['zh-TW'];
           return {
             id: a.id,
-            display: en.title,
-            zhTitle: zh ? zh.title : '',
+            _idx: ai,
+            display: asStr(en.title),
+            starred: a.starred === true,
+            zhTitle: zh ? asStr(zh.title) : '',
+            desc: asStr(en.description || ''),
             enPath: en.path.replace(/^pages\//, ''),
             zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
-            created: en.created || ''
+            created: en.created || '',
+            age: relAge(en.created || ''),
+            bucket: a.starred === true ? 0 : bucket(en.created || '')
           };
         })
-        .sort((x, y) => (y.created || '').localeCompare(x.created || ''));
+        .sort((x, y) => (y.starred - x.starred) ||
+          (y.created || '').localeCompare(x.created || ''));
 
-      list.innerHTML = articles.map((a, i) => `
-        <li class="article-card card ${ACCENTS[i % ACCENTS.length]}">
-          <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${esc(a.display)}</a></h2>
-          <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${esc(a.zhTitle)}</a></p>
-          <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-          <p class="article-meta">created ${esc(a.created)}</p>
-        </li>`).join('');
+      function render(){
+        const tokens = parseQuery(searchBox.value);
+        searchClear.hidden = !searchBox.value;
+        let shown = 0;
+        let html = '';
+        BUCKETS.forEach(([label, zhLabel, cls], bi) => {
+          const group = articles.filter(a => a.bucket === bi && matches(a, tokens));
+          if (!group.length) return;
+          shown += group.length;
+          html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
+                  `<span class="bucket-count">${group.length}</span></h2><ul class="article-list">`;
+          html += group.map((a) => `
+            <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}">
+              <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
+              <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
+              <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
+              <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
+              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'created today' : `created ${esc(a.age)} ago`} (${esc(a.created)})</span></p>
+            </li>`).join('');
+          html += '</ul>';
+        });
+        list.innerHTML = html;
+        noMatchNote.hidden = !(articles.length && !shown && tokens.length);
+        noMatchNote.textContent = `No articles match “${searchBox.value.trim()}” / 沒有符合的文章`;
+        try {
+          sessionStorage.setItem(SEARCH_KEY, searchBox.value);
+        } catch { /* storage unavailable */ }
+      }
+      render();
+
+      /* Debounced re-render on input; the query survives navigation via
+         sessionStorage so returning from an article keeps the filter. */
+      let debounceTimer = null;
+      searchBox.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(render, 150);
+      });
+      searchClear.addEventListener('click', () => {
+        searchBox.value = '';
+        clearTimeout(debounceTimer);
+        render();
+        searchBox.focus();
+      });
+
       emptyNote.hidden = articles.length > 0;
       if (!articles.length) emptyNote.textContent = 'No active articles found.';
 

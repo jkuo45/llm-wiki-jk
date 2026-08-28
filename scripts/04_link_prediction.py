@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Predicted missing connections for the wiki knowledge graph (NetworkX).
 
-Reads web/data/graph.json (the same artifact the web app serves) and emits
+Reads graphify-out/graph.json (the canonical knowledge-graph artifact) and emits
 web/data/link-prediction.json: ranked non-adjacent entity pairs that the
 topology suggests are related but no document states yet. Surfaced in the
 Graph-mode "Predicted Connections" panel as a knowledge-gap finder.
@@ -22,11 +22,11 @@ Determinism: candidates are ordered by (-score, a, b) and PPR lists by
 so the artifact participates in the version cache tag without churning it.
 
 Run:
-  uv run --with networkx python3 scripts/05_link_prediction.py
-  uv run --with networkx python3 scripts/05_link_prediction.py --top 20
-  uv run --with networkx --with scipy python3 scripts/05_link_prediction.py \
+  uv run --with networkx python3 scripts/04_link_prediction.py
+  uv run --with networkx python3 scripts/04_link_prediction.py --top 20
+  uv run --with networkx --with scipy python3 scripts/04_link_prediction.py \
       --spectral
-  uv run --with networkx python3 scripts/05_link_prediction.py --validate
+  uv run --with networkx python3 scripts/04_link_prediction.py --validate
 """
 
 from __future__ import annotations
@@ -42,7 +42,7 @@ from pathlib import Path
 import networkx as nx
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_GRAPH = ROOT / "web" / "data" / "graph.json"
+DEFAULT_GRAPH = ROOT / "graphify-out" / "graph.json"
 DEFAULT_OUT = ROOT / "web" / "data" / "link-prediction.json"
 
 MIN_DEGREE = 3          # candidate endpoints must both reach this degree
@@ -237,7 +237,7 @@ def spectral_resistance(
 
 
 # ------------------------------------------------------------------
-# Validation (mirrors 05_role_query.py's drift-adaptive philosophy)
+# Validation (mirrors 04_role_query.py's drift-adaptive philosophy)
 # ------------------------------------------------------------------
 def validate(doc: dict, G: nx.Graph) -> list[str]:
     """Recompute checks against the artifact; no hardcoded expectations.
@@ -315,7 +315,7 @@ def build_doc(
 
     doc = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source_graph": "web/data/graph.json",
+        "source_graph": "graphify-out/graph.json",
         "graph_build": "",  # filled by caller when graph carries built_at_commit
         "params": {
             "method": "adamic_adar",
@@ -344,7 +344,7 @@ def main() -> int:
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
     ap.add_argument("--graph", type=Path, default=DEFAULT_GRAPH,
-                    help="input graph.json (default: web/data/graph.json)")
+                    help="input graph.json (default: graphify-out/graph.json)")
     ap.add_argument("--out", type=Path, default=None,
                     help="output path (default: <graph dir>/link-prediction.json)")
     ap.add_argument("--min-degree", type=int, default=MIN_DEGREE,
@@ -365,7 +365,7 @@ def main() -> int:
         if not args.quiet:
             print(msg)
 
-    out_path = args.out or args.graph.parent / "link-prediction.json"
+    out_path = args.out or DEFAULT_OUT
 
     if args.validate:
         G, _, _ = load_graph(args.graph)

@@ -4,7 +4,7 @@ source: Synthesis from vault knowledge base and primary literature
 author:
   - Research Scientist Agent
 published: 2026-07-06
-created: 2026-07-06
+created: 2026-07-21
 description: notes mapping the biochemical, cellular, and pharmacological connections between epinephrine metabolism, neutrophil/erythrocyte biology, and sirtuin signaling. Focuses on oxidative stress, NAD+ homeostasis, inflammaging, and therapeutic implications for longevity.
 tags:
   - epinephrine
@@ -15,7 +15,7 @@ tags:
   - oxidative-stress
   - longevity
   - nad
-updated: 2026-07-06
+updated: 2026-08-09
 ---
 
 # Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins

@@ -24,6 +24,7 @@ committed/pushed to GitHub (staged drafts in .staged.json) or on cache lag. It
 still serves every file locally so the client's onerror fallback always works.
 """
 
+import asyncio
 import json
 import logging
 import os
@@ -32,7 +33,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import APIRouter, File, Form, HTTPException, UploadFile
+from fastapi import APIRouter, BackgroundTasks, File, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse
 
 from .llm import OpencodeUnavailable, transcribe_image
@@ -92,6 +93,10 @@ _LOCALE_ALIASES = {
 }
 
 
+class _UploadTooLarge(Exception):
+    """Raised mid-stream when an uploaded image exceeds MAX_FILE_BYTES."""
+
+
 def _locale_of(code: str) -> str:
     """Map a loose language code to a canonical translations key (en-US default)."""
     return _LOCALE_ALIASES.get((code or "").strip().lower(), "en-US")
@@ -103,6 +108,28 @@ def _now_iso() -> str:
 
 def _today() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+# --- In-memory caches -------------------------------------------------------
+# manifest.json / .staged.json are re-read on every notes request (incl. each
+# GET /image). They're written only by this process, so we cache the parsed
+# payloads keyed by (mtime, size) and invalidate on write. The document index is
+# cheap but walks the whole src/notes tree every refresh, so it's mtime-cached.
+_committed_cache: tuple | None = None  # (key, data)
+_staged_cache: tuple | None = None     # (key, data)
+_documents_cache: tuple | None = None  # (mtime_ns, data)
+
+# Serializes staged/manifest read-modify-write so concurrent uploads or edits
+# don't clobber each other (single worker → asyncio lock is sufficient).
+_staged_lock = asyncio.Lock()
+
+
+def _file_key(path: Path) -> tuple | None:
+    try:
+        st = path.stat()
+        return (st.st_mtime_ns, st.st_size)
+    except OSError:
+        return None
 
 
 def _read_json(path: Path, default):
@@ -126,15 +153,29 @@ def _write_json(path: Path, data: list) -> None:
 
 
 def _committed_notes() -> list[dict]:
-    return _read_json(MANIFEST_FILE, [])
+    global _committed_cache
+    key = _file_key(MANIFEST_FILE)
+    if _committed_cache is not None and _committed_cache[0] == key:
+        return _committed_cache[1]
+    data = _read_json(MANIFEST_FILE, [])
+    _committed_cache = (key, data)
+    return data
 
 
 def _staged_notes() -> list[dict]:
-    return _read_json(STAGED_FILE, [])
+    global _staged_cache
+    key = _file_key(STAGED_FILE)
+    if _staged_cache is not None and _staged_cache[0] == key:
+        return _staged_cache[1]
+    data = _read_json(STAGED_FILE, [])
+    _staged_cache = (key, data)
+    return data
 
 
 def _write_staged(notes: list[dict]) -> None:
+    global _staged_cache
     _write_json(STAGED_FILE, notes)
+    _staged_cache = None  # force reload on next read
 
 
 def _note_lookup() -> dict[str, dict]:
@@ -224,14 +265,27 @@ def _make_thumbnail(page_path: Path, note: dict | None = None) -> None:
 
 
 def _list_documents() -> list[dict]:
-    """Index of paper/document notes in src/notes for the upload picker."""
+    """Index of paper/document notes in src/notes for the upload picker.
+
+    Cached by the directory's mtime so we don't re-walk the whole tree on every
+    gallery refresh."""
+    global _documents_cache
+    try:
+        mtime = NOTES_DIR.stat().st_mtime_ns
+    except OSError:
+        mtime = None
+    if _documents_cache is not None and _documents_cache[0] == mtime:
+        return _documents_cache[1]
     out = []
     if not NOTES_DIR.exists():
+        _documents_cache = (mtime, out)
         return out
     for p in sorted(NOTES_DIR.rglob("*.md")):
         if p.name.startswith("_document_"):
             rel = p.relative_to(REPO_ROOT).as_posix()
             out.append({"filename": p.name, "path": rel, "topic": p.parent.name})
+    _documents_cache = (mtime, out)
+    return out
     return out
 
 
@@ -263,6 +317,7 @@ def _public_note(n: dict, with_private: bool = False) -> dict:
         "updated": n.get("updated") or _today(),
         "author": n.get("author") or "you",
         "draft": n.get("draft", False),
+        "starred": bool(n.get("starred", False)),
     }
     if with_private:
         pub["image_dir"] = str(_note_dir(n["id"]))
@@ -304,11 +359,16 @@ async def get_image(note_id: str, page: int, thumb: bool = False) -> FileRespons
         tpath = _thumb_path(path, note)
         if tpath.exists():
             path = tpath
-    return FileResponse(path)
+    # Note images are append-only uploads; safe to let the browser/CDN cache
+    # them for an hour so the gallery (many per page) isn't re-fetched each load.
+    return FileResponse(
+        path, headers={"Cache-Control": "public, max-age=3600"}
+    )
 
 
 @router.post("/upload")
 async def upload_notes(
+    background_tasks: BackgroundTasks,
     files: list[UploadFile] = File(...),
     title: str = Form(""),
     topic: str = Form(""),
@@ -320,20 +380,15 @@ async def upload_notes(
     if not files or len(files) > MAX_PAGES:
         raise HTTPException(status_code=400, detail=f"1–{MAX_PAGES} images per note")
 
-    # Validate and buffer each file before touching disk.
-    buffered = []
+    # Validate type/content-type up front; the bytes are streamed to disk in
+    # chunks below (no full-file buffering) so a 24×30 MB upload can't blow up
+    # process memory.
     for f in files:
         ext = Path(f.filename or "").suffix.lower() or ".jpg"
         if ext not in ALLOWED_EXT:
             raise HTTPException(status_code=400, detail=f"Unsupported type: {ext}")
         if f.content_type not in _ALLOWED_CONTENT:
             raise HTTPException(status_code=400, detail=f"Unsupported content type: {f.content_type}")
-        data = await f.read()
-        if not data:
-            raise HTTPException(status_code=400, detail="Empty file")
-        if len(data) > MAX_FILE_BYTES:
-            raise HTTPException(status_code=400, detail="Image exceeds 30 MB")
-        buffered.append((ext, data))
 
     # Legacy topic field (empty when not provided) is folded into tags below;
     # no topic key is stored on notes anymore.
@@ -363,19 +418,40 @@ async def upload_notes(
         suffix += 1
 
     ngroup = _note_dir(note_id)
+    pages = []
     try:
         ngroup.mkdir(parents=True, exist_ok=True)
-        pages = []
-        for idx, (ext, data) in enumerate(buffered, start=1):
+        for idx, f in enumerate(files, start=1):
+            ext = Path(f.filename or "").suffix.lower() or ".jpg"
             fname = f"page-{idx}{ext}"
             page_path = ngroup / fname
-            page_path.write_bytes(data)
+            # Stream to disk in 64 KB chunks; enforce the per-image cap as we go.
+            total = 0
+            with open(page_path, "wb") as out:
+                while True:
+                    chunk = await f.read(65536)
+                    if not chunk:
+                        break
+                    total += len(chunk)
+                    if total > MAX_FILE_BYTES:
+                        raise _UploadTooLarge()
+                    out.write(chunk)
+            if total == 0:
+                raise HTTPException(status_code=400, detail="Empty file")
             pages.append({"page": idx, "file": fname})
-            # Generate a small thumbnail so the gallery (which requests
-            # `?thumb=1` for every card/page-strip) doesn't pull full-res.
-            _make_thumbnail(page_path)
+            # Thumbnails are best-effort and off the request path; the gallery
+            # already falls back to full-res when a thumb is absent.
+            background_tasks.add_task(_make_thumbnail, page_path)
+    except _UploadTooLarge:
+        import shutil
+
+        shutil.rmtree(ngroup, ignore_errors=True)
+        raise HTTPException(status_code=413, detail="Image exceeds 30 MB")
     except OSError as e:
         logger.exception("notes upload write failed for %s", note_id)
+        import shutil
+
+        shutil.rmtree(ngroup, ignore_errors=True)
         raise HTTPException(
             status_code=500,
             detail=(
@@ -404,23 +480,26 @@ async def upload_notes(
         "draft": True,
     }
 
-    staged = _staged_notes()
-    staged.append(note)
-    try:
-        _write_staged(staged)
-    except OSError as e:
-        logger.exception("notes staged manifest write failed for %s", note_id)
-        # Remove the just-written images so the failed upload leaves no orphan.
-        import shutil
-        shutil.rmtree(ngroup, ignore_errors=True)
-        raise HTTPException(
-            status_code=500,
-            detail=(
-                f"Could not register the note ({e}). "
-                "The API user needs write access to src/images "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
-            ),
-        )
+    # Register under the lock so a concurrent upload/edit can't clobber the
+    # staged manifest between our read and write.
+    async with _staged_lock:
+        staged = _staged_notes()
+        staged.append(note)
+        try:
+            _write_staged(staged)
+        except OSError as e:
+            logger.exception("notes staged manifest write failed for %s", note_id)
+            import shutil
+
+            shutil.rmtree(ngroup, ignore_errors=True)
+            raise HTTPException(
+                status_code=500,
+                detail=(
+                    f"Could not register the note ({e}). "
+                    "The API user needs write access to src/images "
+                    "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
+                ),
+            )
     logger.info(f"notes upload: {note_id} ({len(pages)} pages)")
     return _public_note(note)
 
@@ -449,29 +528,40 @@ async def transcribe_note(payload: dict) -> dict:
         return {"id": note_id, "ocr": existing, "cached": True}
 
     chunks = []
-    try:
-        for p in note.get("pages", []):
-            path = _note_dir(note_id) / p["file"]
-            if not path.exists():
-                chunks.append(f"--- Page {p['page']}: image missing ---")
-                continue
+    # OCR each page concurrently (bounded so we don't open a session per page
+    # all at once); a failed page aborts the whole note, matching the old
+    # sequential behaviour.
+    sem = asyncio.Semaphore(4)
+
+    async def _ocr(p: dict) -> str:
+        path = _note_dir(note_id) / p["file"]
+        if not path.exists():
+            return f"--- Page {p['page']}: image missing ---"
+        async with sem:
             text = await transcribe_image(str(path))
-            if not text or _looks_like_ocr_failure(text):
-                raise RuntimeError(
-                    "The OCR agent could not read the image — the wiki-util "
-                    "model may not support vision. Switch to a vision-capable "
-                    "model and try again."
-                )
-            chunks.append(f"--- Page {p['page']} ---\n{text}")
-    except OpencodeUnavailable as e:
+        if not text or _looks_like_ocr_failure(text):
+            raise RuntimeError(
+                "The OCR agent could not read the image — the wiki-util "
+                "model may not support vision. Switch to a vision-capable "
+                "model and try again."
+            )
+        return f"--- Page {p['page']} ---\n{text}"
+
+    try:
+        results = await asyncio.gather(
+            *(_ocr(p) for p in note.get("pages", [])), return_exceptions=True
+        )
+    except OpencodeUnavailable as e:  # pragma: no cover - swallowed by callee
         raise HTTPException(status_code=503, detail=f"OCR unavailable: {e}")
-    except RuntimeError as e:
-        raise HTTPException(status_code=502, detail=str(e))
+    failed = [r for r in results if isinstance(r, Exception)]
+    if failed:
+        raise HTTPException(status_code=502, detail=str(failed[0]))
+    chunks = [r for r in results if isinstance(r, str)]
 
     transcript = "\n\n".join(chunks)
     note.setdefault("translations", {}).setdefault(locale, {})["ocr"] = transcript
     note["updated"] = _today()
-    _persist_note(note)
+    await _persist_note(note)
     return {"id": note_id, "ocr": transcript, "cached": False}
 
 
@@ -500,7 +590,7 @@ async def save_annotations(note_id: str, payload: dict) -> dict:
             )
     note["annotations"] = cleaned
     note["updated"] = _today()
-    _persist_note(note)
+    await _persist_note(note)
     return {"id": note_id, "annotations": cleaned}
 
 
@@ -521,27 +611,31 @@ async def save_metadata(note_id: str, payload: dict) -> dict:
     if "tags" in payload and isinstance(payload["tags"], list):
         note["tags"] = [str(t).strip().lower().replace(" ", "-") for t in payload["tags"][:40] if str(t).strip()]
     note["updated"] = _today()
-    _persist_note(note)
+    await _persist_note(note)
     return _public_note(note)
 
 
-def _persist_note(note: dict) -> None:
+async def _persist_note(note: dict) -> None:
     """Write an edit back to wherever the note already lives.
 
     Committed notes update src/images/manifest.json; drafts and
-    new edits go to .staged.json.
+    new edits go to .staged.json. Serialized via ``_staged_lock`` so concurrent
+    edits can't lose each other's read-modify-write.
     """
-    committed = _committed_notes()
-    for i, n in enumerate(committed):
-        if n["id"] == note["id"]:
-            committed[i] = note
-            _write_json(MANIFEST_FILE, committed)
-            return
-    staged = _staged_notes()
-    for i, n in enumerate(staged):
-        if n["id"] == note["id"]:
-            staged[i] = note
-            _write_staged(staged)
-            return
-    staged.append(note)
-    _write_staged(staged)
+    async with _staged_lock:
+        committed = _committed_notes()
+        for i, n in enumerate(committed):
+            if n["id"] == note["id"]:
+                committed[i] = note
+                _write_json(MANIFEST_FILE, committed)
+                global _committed_cache
+                _committed_cache = None  # force reload on next read
+                return
+        staged = _staged_notes()
+        for i, n in enumerate(staged):
+            if n["id"] == note["id"]:
+                staged[i] = note
+                _write_staged(staged)
+                return
+        staged.append(note)
+        _write_staged(staged)

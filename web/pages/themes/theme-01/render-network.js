@@ -133,7 +133,7 @@ function renderNetwork(svgId, DATA, nodeColorFn, legendDefs){
   }
   render();
 
-  document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (web/data/graph.json)';
+  document.getElementById('netStats').textContent = DATA.nodes.length + ' nodes · ' + DATA.edges.length + ' edges (web/data/nodes.json + edges.json)';
   const lg = document.getElementById('netLegend');
   lg.innerHTML = legendDefs.map(([c,l])=>`<span><span class="sw" style="background:${wikiAccent(c)}"></span> ${l}</span>`).join('');
 

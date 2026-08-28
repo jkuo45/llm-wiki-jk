@@ -10,6 +10,12 @@ import { RAW_NODES, RAW_EDGES, LEGEND, TRANSLATIONS, nodeMap, adjacency } from '
 import { state, stickyNodes, velocities } from './state.js';
 import { esc } from './markdown.js';
 
+// On-demand rendering: the render loop only draws when something changed
+// (dirty flag, damping controls, or active physics) so the GPU/CPU is not
+// burned 60×/sec while the scene is idle.
+export const renderState = { dirty: true };
+export function requestRender() { renderState.dirty = true; }
+
 // ------------------------------------------------------------
 // Theme-driven 3D colors. The site defaults to light (matching the reader /
 // article pages); theme.js calls applyGraphTheme() at startup and on toggle
@@ -37,11 +43,10 @@ export function applyGraphTheme(light) {
   const newOff = edgeOffColor();
   // Only reset edges currently at the previous off color; highlighted/selected
   // edges keep their accent color across the switch.
-  edgeObjects.forEach(line => {
-    if (line.material.color.getHex() === oldOff) {
-      line.material.color.set(newOff);
-    }
-  });
+  for (let i = 0; i < edgeList.length; i++) {
+    if (edgeHex[i] === oldOff) setEdgeVisual(edgeList[i].edge, newOff, edgeAlphaVal[i]);
+  }
+  requestRender();
 }
 
 // ------------------------------------------------------------
@@ -57,7 +62,7 @@ camera.position.set(-120, 0, 500);
 
 export const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(container.clientWidth, container.clientHeight);
-renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
 container.appendChild(renderer.domElement);
 
 export const labelRenderer = new CSS2DRenderer();
@@ -77,6 +82,18 @@ controls.dampingFactor = 0.05;
 controls.minDistance = 50;
 controls.maxDistance = 2000;
 controls.zoomSpeed = 1.2;
+controls.addEventListener('change', requestRender);
+
+// Screen-space label overlaps change with the camera, so recompute the
+// decluttering after each pan/zoom gesture settles (debounced — 'end' can
+// fire in bursts while damping). Skipped when a trace/selection owns labels.
+let declutterTimer = null;
+controls.addEventListener('end', () => {
+  clearTimeout(declutterTimer);
+  declutterTimer = setTimeout(() => {
+    if (!state.activeTrace && !state.selectedNode) setAllLabelVisibility();
+  }, 150);
+});
 
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
 scene.add(ambientLight);
@@ -93,7 +110,7 @@ scene.add(backLight);
 export const nodeObjects = new Map();
 export const nodeMeshes = [];
 export const labelObjects = new Map();
-const labelThreshold = 15;
+const labelThreshold = 30;
 
 const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
 
@@ -144,29 +161,129 @@ RAW_NODES.forEach(n => {
 });
 
 // ------------------------------------------------------------
-// Edge objects
+// Edge objects — merged into a single THREE.LineSegments so all edges
+// render in ONE draw call (was one THREE.Line per edge = thousands of
+// draw calls). Per-edge visual state (color + alpha + filter) is stored in
+// typed arrays and pushed to vertex attributes on change.
 // ------------------------------------------------------------
-export const edgeObjects = [];
-export const edgeGroup = new THREE.Group();
-scene.add(edgeGroup);
+export const EDGE_ACCENT = 0x4E79A7;
+export const edgeList = [];            // [{ edge, fromMesh, toMesh }] indexed by segment
+export let edgeSegments = null;        // THREE.LineSegments (raycast target)
+const edgeToIndex = new Map();         // edge object -> segment index
+const edgeBaseAlpha = [];              // resting alpha per edge
+const edgeHex = [];                    // last-set color hex per edge (theme restore)
+const edgeAlphaVal = [];               // last-set alpha per edge
+const edgeFiltered = [];               // 1 = hidden by prompt node filter
+export let edgePositions, edgePosAttr;
+let edgeColors, edgeAlphas, edgeColorAttr, edgeAlphaAttr;
+const _edgeColor = new THREE.Color();
+
+function writeEdge(i) {
+  const p = i * 6;
+  const hidden = edgeFiltered[i];
+  _edgeColor.set(edgeHex[i]);
+  for (let k = 0; k < 2; k++) {
+    const o = p + k * 3;
+    edgeColors[o] = _edgeColor.r;
+    edgeColors[o + 1] = _edgeColor.g;
+    edgeColors[o + 2] = _edgeColor.b;
+  }
+  const a = hidden ? 0 : edgeAlphaVal[i];
+  edgeAlphas[i * 2] = a;
+  edgeAlphas[i * 2 + 1] = a;
+}
+
+export function setEdgeVisual(edge, hex, alpha) {
+  const i = edgeToIndex.get(edge);
+  if (i == null) return;
+  edgeHex[i] = hex;
+  edgeAlphaVal[i] = alpha;
+  writeEdge(i);
+  edgeColorAttr.needsUpdate = true;
+  edgeAlphaAttr.needsUpdate = true;
+  requestRender();
+}
+
+export function setEdgeFilter(edge, hidden) {
+  const i = edgeToIndex.get(edge);
+  if (i == null) return;
+  edgeFiltered[i] = hidden ? 1 : 0;
+  writeEdge(i);
+  edgeColorAttr.needsUpdate = true;
+  edgeAlphaAttr.needsUpdate = true;
+  requestRender();
+}
 
 RAW_EDGES.forEach(e => {
   const fromMesh = nodeObjects.get(e.from);
   const toMesh = nodeObjects.get(e.to);
   if (!fromMesh || !toMesh) return;
-
-  const geometry = new THREE.BufferGeometry().setFromPoints([fromMesh.position.clone(), toMesh.position.clone()]);
-  const material = new THREE.LineBasicMaterial({
-    color: EDGE_OFF_DARK,
-    transparent: true,
-    opacity: e.color.opacity * 0.6,
-    linewidth: 1,
-  });
-  const line = new THREE.Line(geometry, material);
-  line.userData = { edge: e, fromMesh, toMesh };
-  edgeGroup.add(line);
-  edgeObjects.push(line);
+  edgeList.push({ edge: e, fromMesh, toMesh });
 });
+
+const E = edgeList.length;
+edgePositions = new Float32Array(E * 6);
+edgeColors = new Float32Array(E * 6);
+edgeAlphas = new Float32Array(E * 2);
+const off = edgeOffColor();
+for (let i = 0; i < E; i++) {
+  const { fromMesh, toMesh, edge } = edgeList[i];
+  const p = i * 6;
+  edgePositions[p] = fromMesh.position.x;
+  edgePositions[p + 1] = fromMesh.position.y;
+  edgePositions[p + 2] = fromMesh.position.z;
+  edgePositions[p + 3] = toMesh.position.x;
+  edgePositions[p + 4] = toMesh.position.y;
+  edgePositions[p + 5] = toMesh.position.z;
+  const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
+  edgeBaseAlpha[i] = ba;
+  edgeHex[i] = off;
+  edgeAlphaVal[i] = ba;
+  edgeFiltered[i] = 0;
+  _edgeColor.set(off);
+  for (let k = 0; k < 2; k++) {
+    const o = p + k * 3;
+    edgeColors[o] = _edgeColor.r;
+    edgeColors[o + 1] = _edgeColor.g;
+    edgeColors[o + 2] = _edgeColor.b;
+  }
+  edgeAlphas[i * 2] = ba;
+  edgeAlphas[i * 2 + 1] = ba;
+  edgeToIndex.set(edge, i);
+}
+
+const edgeGeometry = new THREE.BufferGeometry();
+edgePosAttr = new THREE.BufferAttribute(edgePositions, 3);
+edgeColorAttr = new THREE.BufferAttribute(edgeColors, 3);
+edgeAlphaAttr = new THREE.BufferAttribute(edgeAlphas, 1);
+edgeGeometry.setAttribute('position', edgePosAttr);
+edgeGeometry.setAttribute('aColor', edgeColorAttr);
+edgeGeometry.setAttribute('aAlpha', edgeAlphaAttr);
+const edgeMaterial = new THREE.ShaderMaterial({
+  transparent: true,
+  depthWrite: false,
+  vertexShader: [
+    'attribute vec3 aColor;',
+    'attribute float aAlpha;',
+    'varying vec3 vColor;',
+    'varying float vAlpha;',
+    'void main() {',
+    '  vColor = aColor;',
+    '  vAlpha = aAlpha;',
+    '  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);',
+    '}',
+  ].join('\n'),
+  fragmentShader: [
+    'varying vec3 vColor;',
+    'varying float vAlpha;',
+    'void main() {',
+    '  gl_FragColor = vec4(vColor, vAlpha);',
+    '}',
+  ].join('\n'),
+});
+edgeSegments = new THREE.LineSegments(edgeGeometry, edgeMaterial);
+edgeSegments.frustumCulled = false;
+scene.add(edgeSegments);
 
 // ------------------------------------------------------------
 // Labels (only for high-degree nodes initially). Event handlers
@@ -266,8 +383,7 @@ export function applyForces() {
   }
 
   // Attraction along edges
-  edgeObjects.forEach(line => {
-    const { fromMesh, toMesh, edge } = line.userData;
+  edgeList.forEach(({ fromMesh, toMesh, edge }) => {
     const fromSticky = stickyNodes.has(edge.from);
     const toSticky = stickyNodes.has(edge.to);
     if (fromSticky && toSticky) return;
@@ -329,18 +445,23 @@ export function applyForces() {
   });
 
   // Update edge positions
-  edgeObjects.forEach(line => {
-    const { fromMesh, toMesh } = line.userData;
-    const positions = line.geometry.attributes.position;
-    positions.setXYZ(0, fromMesh.position.x, fromMesh.position.y, fromMesh.position.z);
-    positions.setXYZ(1, toMesh.position.x, toMesh.position.y, toMesh.position.z);
-    positions.needsUpdate = true;
-  });
+  for (let i = 0; i < edgeList.length; i++) {
+    const { fromMesh, toMesh } = edgeList[i];
+    const p = i * 6;
+    edgePositions[p] = fromMesh.position.x;
+    edgePositions[p + 1] = fromMesh.position.y;
+    edgePositions[p + 2] = fromMesh.position.z;
+    edgePositions[p + 3] = toMesh.position.x;
+    edgePositions[p + 4] = toMesh.position.y;
+    edgePositions[p + 5] = toMesh.position.z;
+  }
+  edgePosAttr.needsUpdate = true;
 
   // Update edge label position if hovering an edge
   if (state.hoveredEdge && edgeLabel.visible) {
-    const { fromMesh, toMesh } = state.hoveredEdge.userData;
-    edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
+    const fromMesh = nodeObjects.get(state.hoveredEdge.from);
+    const toMesh = nodeObjects.get(state.hoveredEdge.to);
+    if (fromMesh && toMesh) edgeLabel.position.copy(midpoint(fromMesh.position, toMesh.position));
   }
 
   physicsIterations++;
@@ -365,6 +486,7 @@ export function addStickyRing(mesh) {
   ring.lookAt(camera.position);
   scene.add(ring);
   stickyRings.set(mesh.userData.nodeId, ring);
+  requestRender();
 }
 
 export function removeStickyRing(nodeId) {
@@ -372,6 +494,7 @@ export function removeStickyRing(nodeId) {
   if (ring) {
     scene.remove(ring);
     stickyRings.delete(nodeId);
+    requestRender();
   }
 }
 
@@ -388,19 +511,72 @@ export function updateStickyRings() {
 // ------------------------------------------------------------
 // Label visibility helpers
 // ------------------------------------------------------------
+
+// Rough on-screen half-extents (px) of a node's label box, matching the
+// 13px/11px CSS sizes in three-graph.css. Only used for overlap tests —
+// slight overestimates are fine since "some overlap is okay".
+function labelHalfExtents(nodeData) {
+  const hasZh = !!(TRANSLATIONS[nodeData.label] && TRANSLATIONS[nodeData.label] !== nodeData.label);
+  const hw = Math.min(nodeData.label.length, 14) * 3.4 + 8; // ~0.6 × font-size per char
+  const hh = hasZh ? 16 : 10;
+  return { hw, hh };
+}
+
+// Greedy screen-space decluttering: candidates (already gated by the degree
+// threshold) are kept in descending degree order; a label is dropped when its
+// projected box overlaps an already-kept one. The 0.85 shrink factor lets
+// near-misses through, so sparse areas keep every label and only crowded
+// clusters thin out.
+function declutteredLabelIds() {
+  const w = container.clientWidth;
+  const h = container.clientHeight;
+  const candidates = [];
+  labelObjects.forEach((label, id) => {
+    const nodeData = nodeMap.get(id);
+    const mesh = nodeObjects.get(id);
+    if (!state.showLabels || !nodeData || nodeData.degree < labelThreshold) return;
+    if (!mesh || !mesh.visible) return;
+    const v = mesh.position.clone().project(camera);
+    if (v.z > 1 || v.x < -1.2 || v.x > 1.2 || v.y < -1.2 || v.y > 1.2) return; // behind camera / far off-screen
+    const { hw, hh } = labelHalfExtents(nodeData);
+    candidates.push({
+      id,
+      degree: nodeData.degree,
+      x: (v.x * 0.5 + 0.5) * w,
+      y: (-v.y * 0.5 + 0.5) * h,
+      hw, hh,
+    });
+  });
+  candidates.sort((a, b) => b.degree - a.degree);
+  const kept = [];
+  const visible = new Set();
+  for (const c of candidates) {
+    const clash = kept.some((k) =>
+      Math.abs(k.x - c.x) < (k.hw + c.hw) * 0.85 &&
+      Math.abs(k.y - c.y) < (k.hh + c.hh)
+    );
+    if (!clash) {
+      kept.push(c);
+      visible.add(c.id);
+    }
+  }
+  return visible;
+}
+
 export function setLabelVisibility(visibleIds) {
   labelObjects.forEach((label, id) => {
     const mesh = nodeObjects.get(id);
     label.visible = visibleIds.has(id) && mesh && mesh.visible && state.showLabels;
   });
+  requestRender();
 }
 
 export function setAllLabelVisibility() {
+  const visibleIds = declutteredLabelIds();
   labelObjects.forEach((label, id) => {
-    const nodeData = nodeMap.get(id);
-    const mesh = nodeObjects.get(id);
-    label.visible = state.showLabels && nodeData && nodeData.degree >= labelThreshold && mesh && mesh.visible;
+    label.visible = visibleIds.has(id);
   });
+  requestRender();
 }
 
 export function restoreDefaultLabels() {
@@ -416,6 +592,7 @@ export function showHoverLabels(nodeId) {
   const neighborIds = new Set(neighbors.map(n => n.target));
   neighborIds.add(nodeId);
   setLabelVisibility(neighborIds);
+  requestRender();
 }
 
 export function restoreSelectedLabels() {
@@ -427,6 +604,7 @@ export function restoreSelectedLabels() {
   const neighborIds = new Set(neighbors.map(n => n.target));
   neighborIds.add(state.selectedNode);
   setLabelVisibility(neighborIds);
+  requestRender();
 }
 
 // ------------------------------------------------------------
@@ -438,14 +616,15 @@ export function applyNodeState(onSet, onOpacity, onEmissive, offOpacity, offEmis
     m.material.opacity = on ? onOpacity : offOpacity;
     m.material.emissiveIntensity = on ? onEmissive : offEmissive;
   });
+  requestRender();
 }
 
 export function applyEdgeState(isOn, onColor, onOpacity, offColor, offOpacity) {
-  edgeObjects.forEach(line => {
-    const on = isOn(line);
-    line.material.color.set(on ? onColor : offColor);
-    line.material.opacity = on ? onOpacity : offOpacity;
+  edgeList.forEach(({ edge }) => {
+    const on = isOn(edge);
+    setEdgeVisual(edge, on ? onColor : offColor, on ? onOpacity : offOpacity);
   });
+  requestRender();
 }
 
 export function resetVisualState() {
@@ -453,11 +632,12 @@ export function resetVisualState() {
     m.material.emissiveIntensity = 0.15;
     m.material.opacity = 0.92;
   });
-  edgeObjects.forEach(line => {
-    line.material.opacity = line.userData.edge.color.opacity * 0.6;
-    line.material.color.set(edgeOffColor());
+  edgeList.forEach(({ edge }) => {
+    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
+    setEdgeVisual(edge, edgeOffColor(), ba);
   });
   restoreDefaultLabels();
+  requestRender();
 }
 
 // ------------------------------------------------------------
@@ -522,3 +702,310 @@ export function animateCamera(targetPosition, lookAtTarget) {
   }
   frame();
 }
+
+// ------------------------------------------------------------
+// Minimap — label-free top-down overview (bottom-right)
+// A dedicated mini-scene (own points/lines geometry, updated from the live
+// node positions each render) so it can highlight graph structure three ways:
+//   • Community hulls — translucent convex hull per community (shape)
+//   • Backbone-only   — just edges touching a "Core backbone" node (skeleton)
+//   • Metric heat     — node tint by degree or betweenness (mass)
+// An amber footprint line shows where the main camera sits and what it aims
+// at; indicator + mini content live on layer 1, which the main camera never
+// sees. DOM labels (CSS2D) are excluded automatically.
+// ------------------------------------------------------------
+export const minimap = (() => {
+  // Rendered at the desktop size (220px) and CSS-scaled down on smaller
+  // viewports, so the backing store always has enough pixels to stay crisp.
+  const SIZE = 220;
+  const CORE_ROLE = 'Core backbone';
+  const MODES = ['community', 'degree', 'betweenness'];
+  const MODE_LABEL = { community: 'Communities', degree: 'Degree', betweenness: 'Betweenness' };
+
+  const el = document.createElement('div');
+  el.id = 'graph-minimap';
+  const canvas = document.createElement('canvas');
+  el.appendChild(canvas);
+  const controlsEl = document.createElement('div');
+  controlsEl.className = 'minimap-controls';
+  const modeBtn = document.createElement('button');
+  modeBtn.type = 'button';
+  modeBtn.className = 'minimap-mode-btn';
+  modeBtn.title = 'Minimap colouring';
+  const backBtn = document.createElement('button');
+  backBtn.type = 'button';
+  backBtn.className = 'minimap-backbone-btn';
+  backBtn.textContent = '⌁';
+  backBtn.title = 'Backbone-only edges';
+  controlsEl.append(modeBtn, backBtn);
+  // Fixed-orientation cue: the needle rotates opposite the map so it always
+  // points at world north (-Z), while the N stays upright and legible.
+  const northEl = document.createElement('div');
+  northEl.className = 'minimap-north';
+  northEl.innerHTML = '<div class="minimap-needle">▲</div><div class="minimap-n">N</div>';
+  el.appendChild(northEl);
+  const needleEl = northEl.querySelector('.minimap-needle');
+  el.appendChild(controlsEl);
+  container.appendChild(el);
+
+  const miniRenderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+  miniRenderer.setSize(SIZE, SIZE, false);
+  miniRenderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+  // Heading-following top-down view: the ortho camera sits above the graph
+  // centre, but its `up` vector tracks the main camera's horizontal viewing
+  // direction, so the map rotates as you orbit — your heading always points
+  // up-screen (GPS-style). Falls back to the last heading when looking
+  // straight down/up (no horizontal component).
+  const miniCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, 1, 5000);
+  const lastUp = new THREE.Vector3(0, 0, -1);
+  miniCamera.up.copy(lastUp);
+  miniCamera.position.set(0, 1000, 0);
+  miniCamera.lookAt(0, 0, 0);
+  miniCamera.layers.enable(1);
+
+  const miniScene = new THREE.Scene();
+  const layer1 = (o) => { o.layers.set(1); return o; };
+
+  // ---- Node points (one vertex per node; colours swapped per mode) ----
+  const nodes = RAW_NODES.filter((n) => nodeMap.has(n.id));
+  const nodeCount = nodes.length;
+  const positions = new Float32Array(nodeCount * 3);
+  const communityColors = new Float32Array(nodeCount * 3);
+  const degreeColors = new Float32Array(nodeCount * 3);
+  const betweennessColors = new Float32Array(nodeCount * 3);
+  const legendColor = new Map(LEGEND.map((l) => [l.cid, l.color]));
+  const tmpColor = new THREE.Color();
+
+  // Heat ramp for metric modes: muted steel → amber → hot red.
+  const HEAT_LOW = new THREE.Color('#5a6c8c');
+  const HEAT_MID = new THREE.Color('#E8A33D');
+  const HEAT_HIGH = new THREE.Color('#E4575E');
+
+  function heatColor(t) {
+    if (t < 0.6) return tmpColor.copy(HEAT_LOW).lerp(HEAT_MID, t / 0.6);
+    return tmpColor.copy(HEAT_MID).lerp(HEAT_HIGH, (t - 0.6) / 0.4);
+  }
+
+  const maxDegree = Math.max(...nodes.map((n) => n.degree || 0), 1);
+  const maxBetween = Math.max(...nodes.map((n) => n.betweenness || 0), 1e-12);
+  const isCore = nodes.map((n) => (n.roles || []).includes(CORE_ROLE));
+
+  nodes.forEach((n, i) => {
+    // Community colours come straight from the legend (matches main view).
+    tmpColor.set(legendColor.get(n.community) || '#888888');
+    communityColors.set([tmpColor.r, tmpColor.g, tmpColor.b], i * 3);
+    // Perceptual sqrt scaling — hubs pop without drowning the mid-field.
+    heatColor(Math.sqrt((n.degree || 0) / maxDegree));
+    degreeColors.set([tmpColor.r, tmpColor.g, tmpColor.b], i * 3);
+    heatColor(Math.sqrt((n.betweenness || 0) / maxBetween));
+    betweennessColors.set([tmpColor.r, tmpColor.g, tmpColor.b], i * 3);
+  });
+
+  const pointsGeo = new THREE.BufferGeometry();
+  pointsGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  const colorAttr = new THREE.BufferAttribute(communityColors, 3);
+  pointsGeo.setAttribute('color', colorAttr);
+  const nodePoints = layer1(new THREE.Points(pointsGeo, new THREE.PointsMaterial({
+    size: 3.5, sizeAttenuation: false, vertexColors: true, transparent: true, opacity: 0.95,
+  })));
+  miniScene.add(nodePoints);
+
+  // ---- Edges: full graph + backbone subset (either endpoint is core) ----
+  const edgePairs = [];
+  RAW_EDGES.forEach((e) => {
+    const a = nodeMap.get(e.from), b = nodeMap.get(e.to);
+    if (a && b) edgePairs.push([a.id, b.id]);
+  });
+
+  function makeEdgeLines(pairs, color, opacity) {
+    const arr = new Float32Array(pairs.length * 6);
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.BufferAttribute(arr, 3));
+    const lines = layer1(new THREE.LineSegments(geo, new THREE.LineBasicMaterial({
+      color, transparent: true, opacity,
+    })));
+    miniScene.add(lines);
+    return { lines, pairs, arr };
+  }
+
+  const allEdges = makeEdgeLines(edgePairs, 0x555f7a, 0.35);
+  const backboneEdges = makeEdgeLines(
+    edgePairs.filter(([a, b]) => {
+      const na = nodeMap.get(a), nb = nodeMap.get(b);
+      return (na.roles || []).includes(CORE_ROLE) || (nb.roles || []).includes(CORE_ROLE);
+    }),
+    0xE8A33D, 0.8
+  );
+  backboneEdges.lines.visible = false;
+
+  // ---- Community convex hulls (monotone chain over XZ, rebuilt per render) ----
+  const byCommunity = new Map();
+  nodes.forEach((n) => {
+    if (!byCommunity.has(n.community)) byCommunity.set(n.community, []);
+    byCommunity.get(n.community).push(n.id);
+  });
+
+  function convexHull(pts) {
+    if (pts.length < 3) return pts;
+    const p = [...pts].sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+    const lower = [];
+    for (const pt of p) {
+      while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], pt) <= 0) lower.pop();
+      lower.push(pt);
+    }
+    const upper = [];
+    for (let i = p.length - 1; i >= 0; i--) {
+      const pt = p[i];
+      while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], pt) <= 0) upper.pop();
+      upper.push(pt);
+    }
+    upper.pop(); lower.pop();
+    return lower.concat(upper);
+  }
+
+  const hullGroup = layer1(new THREE.Group());
+  miniScene.add(hullGroup);
+  const posOf = new Map(nodes.map((n) => [n.id, new THREE.Vector3()]));
+  const hullGeos = [];
+  byCommunity.forEach((ids, cid) => {
+    if (ids.length < 3) return;
+    const geo = new THREE.BufferGeometry();
+    hullGeos.push({ geo, ids, color: legendColor.get(cid) || '#888888' });
+  });
+
+  function refreshHulls() {
+    hullGeos.forEach(({ geo }) => { geo.setDrawRange(0, 0); });
+    hullGroup.children.forEach((c) => hullGroup.remove(c));
+    hullGeos.forEach(({ geo, ids, color }) => {
+      const pts = ids
+        .map((id) => posOf.get(id))
+        .filter(Boolean)
+        .map((v) => [v.x, v.z]);
+      const hull = convexHull(pts);
+      if (hull.length < 3) return;
+      const flat = [];
+      hull.forEach(([x, z]) => flat.push(x, 0, z));
+      flat.push(hull[0][0], 0, hull[0][1]); // close the loop
+      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(flat), 3));
+      geo.setDrawRange(0, hull.length + 1);
+      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
+        color: new THREE.Color(color), transparent: true, opacity: 0.35,
+      }));
+      hullGroup.add(line);
+    });
+  }
+
+  // ---- Camera footprint indicator (amber) ----
+  const indicatorColor = 0xE8A33D;
+  const indicator = new THREE.Group();
+  const camLineGeo = new THREE.BufferGeometry().setFromPoints([
+    new THREE.Vector3(), new THREE.Vector3(),
+  ]);
+  const camLine = new THREE.Line(camLineGeo, new THREE.LineBasicMaterial({ color: indicatorColor }));
+  const targetDot = new THREE.Mesh(
+    new THREE.CircleGeometry(5, 16),
+    new THREE.MeshBasicMaterial({ color: indicatorColor })
+  );
+  targetDot.rotation.x = -Math.PI / 2; // face up
+  indicator.add(camLine, targetDot);
+  indicator.traverse((o) => o.layers.set(1));
+  miniScene.add(indicator);
+
+  // ---- Controls wiring ----
+  let modeIdx = 0;
+  function applyMode() {
+    const mode = MODES[modeIdx];
+    modeBtn.textContent = MODE_LABEL[mode];
+    colorAttr.array = mode === 'community' ? communityColors
+      : mode === 'degree' ? degreeColors : betweennessColors;
+    colorAttr.needsUpdate = true;
+    hullGroup.visible = mode === 'community';
+    requestRender();
+  }
+  modeBtn.addEventListener('click', () => {
+    modeIdx = (modeIdx + 1) % MODES.length;
+    applyMode();
+  });
+  backBtn.addEventListener('click', () => {
+    state.minimapBackbone = !state.minimapBackbone;
+    backBtn.classList.toggle('active', state.minimapBackbone);
+    allEdges.lines.visible = !state.minimapBackbone;
+    backboneEdges.lines.visible = state.minimapBackbone;
+    requestRender();
+  });
+  applyMode();
+
+  // ---- Per-render update + draw ----
+  const box = new THREE.Box3();
+  const center = new THREE.Vector3();
+  const sizeV = new THREE.Vector3();
+
+  function syncPositions() {
+    nodes.forEach((n, i) => {
+      const mesh = nodeObjects.get(n.id);
+      const v = mesh ? mesh.position : posOf.get(n.id);
+      if (!v) return;
+      posOf.get(n.id).copy(mesh ? mesh.position : v);
+      positions[i * 3] = v.x; positions[i * 3 + 1] = v.y; positions[i * 3 + 2] = v.z;
+    });
+    pointsGeo.attributes.position.needsUpdate = true;
+
+    const fill = ({ pairs, arr, lines }) => {
+      pairs.forEach(([a, b], j) => {
+        const va = posOf.get(a), vb = posOf.get(b);
+        const o = j * 6;
+        if (!va || !vb) { arr[o] = arr[o + 3] = NaN; return; }
+        arr[o] = va.x; arr[o + 1] = va.y; arr[o + 2] = va.z;
+        arr[o + 3] = vb.x; arr[o + 4] = vb.y; arr[o + 5] = vb.z;
+      });
+      lines.geometry.attributes.position.needsUpdate = true;
+    };
+    fill(allEdges);
+    fill(backboneEdges);
+  }
+
+  function render() {
+    box.makeEmpty();
+    for (const m of nodeMeshes) if (m.visible) box.expandByObject(m);
+    if (box.isEmpty()) return;
+    box.getCenter(center);
+    box.getSize(sizeV);
+    // Square-fit the graph bounds with a small margin.
+    const half = Math.max(sizeV.x, sizeV.z) * 0.58 + 20;
+    miniCamera.left = -half; miniCamera.right = half;
+    miniCamera.top = -half; miniCamera.bottom = half;
+    miniCamera.position.set(center.x, 1000, center.z);
+    // Rotate the map with the current view: screen-up follows the main
+    // camera's horizontal forward direction (camera → orbit target).
+    const p = camera.position, t = controls.target;
+    const fwd = new THREE.Vector3().subVectors(t, p);
+    fwd.y = 0;
+    if (fwd.lengthSq() > 1e-6) {
+      lastUp.copy(fwd.normalize());
+    }
+    miniCamera.up.copy(lastUp);
+    miniCamera.lookAt(center.x, 0, center.z);
+    miniCamera.updateProjectionMatrix();
+
+    // North needle: world north (0,0,-1) in screen space sits at
+    // atan2(-up.x, -up.z) clockwise from screen-up — rotate the needle by
+    // exactly that so it always points at true north.
+    needleEl.style.transform = `rotate(${Math.atan2(-lastUp.x, -lastUp.z)}rad)`;
+
+    syncPositions();
+    if (hullGroup.visible) refreshHulls();
+
+    // Camera footprint: line from the main camera's XZ position to its target.
+    camLineGeo.setFromPoints([
+      new THREE.Vector3(p.x, 0, p.z),
+      new THREE.Vector3(t.x, 0, t.z),
+    ]);
+    targetDot.position.set(t.x, 0, t.z);
+
+    miniRenderer.render(miniScene, miniCamera);
+  }
+
+  return { render };
+})();

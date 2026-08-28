@@ -2,7 +2,7 @@
 title: 抗氧化劑會阻斷粒線體荷爾蒙效應嗎？— 證據排名與時機
 description: 關於抗氧化補充是否干擾粒線體荷爾蒙適應的回答——按 NAC、維生素 C/E 與其他抗氧化劑的證據強度排名，並考量時機（長期每日使用 vs. 運動後急性使用）以及失敗臨床試驗（SELECT、HOPE、Bjelakovic 統合分析）所得到的啟示。
 created: 2026-08-05
-updated: 2026-08-23
+updated: 2026-08-05
 source: wiki knowledge base (_triples.json confidence-scored triples + Mitohormesis document corpus)
 tags:
   - task-output
@@ -15,7 +15,6 @@ tags:
   - mitochondrial-biogenesis
 author: []
 ---
-
 # 粒線體荷爾蒙效應與抗氧化劑干擾
 
 **日期：** 2026 年 8 月 5 日

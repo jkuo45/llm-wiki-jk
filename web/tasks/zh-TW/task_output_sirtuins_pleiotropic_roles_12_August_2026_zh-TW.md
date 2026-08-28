@@ -1,8 +1,8 @@
 ---
 title: SIRT 在腫瘤細胞代謝與治療標靶中的多效角色
 description: 綜合七種哺乳動物 sirtuin（SIRT1–SIRT7）在腫瘤細胞代謝中的多效角色 — 糖解/Warburg 效應、麩醯胺酸代謝/TCA 回補、ROS/氧化還原、脂質恆定 — 各亞型雙重、依脈絡而定的腫瘤抑制 vs. 致癌行為，以及當前 sirtuin 標靶治療藥物的比較表（含發展階段與適應症）。
-created: 2026-08-12
-updated: 2026-08-12
+created: 2026-08-13
+updated: 2026-08-13
 tags:
   - task-output
   - sirtuins
@@ -15,7 +15,6 @@ tags:
   - review
 source: https://doi.org/10.1038/s41392-022-01257-8
 ---
-
 # SIRT 在腫瘤細胞代謝中的多效角色
 
 ## 概述

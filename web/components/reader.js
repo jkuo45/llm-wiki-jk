@@ -65,15 +65,21 @@ function setSourceMode(mode) {
 function sortedGroups(rows) {
   const groupKey = new Map();
   rows.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
-  // Display order is derived here (not baked into the JSON): newest group
-  // first. Each group is a single dropdown option, so en/zh pairs always stay
-  // together regardless of per-entry `created` differences. Swap `created`
-  // for `updated` below if you'd rather sort by last-modified.
+  // Display order is derived here (not baked into the JSON): starred groups
+  // first, then newest group first. Each group is a single dropdown option,
+  // so en/zh pairs always stay together regardless of per-entry `created`
+  // differences. Swap `created` for `updated` below if you'd rather sort by
+  // last-modified.
   const groupCreated = (group) => rows
     .filter((a) => a.group === group)
     .reduce((max, a) => ((a.created || '') > max ? a.created : max), '');
   return Array.from(groupKey.keys())
-    .sort((a, b) => groupCreated(b).localeCompare(groupCreated(a)));
+    .sort((a, b) => {
+      const starDiff = (rows.find((r) => r.group === b)?.starred ? 1 : 0) -
+        (rows.find((r) => r.group === a)?.starred ? 1 : 0);
+      if (starDiff) return starDiff;
+      return groupCreated(b).localeCompare(groupCreated(a));
+    });
 }
 
 function latestUpdated(group) {
@@ -170,14 +176,15 @@ const BUCKET_LABELS = [
 
 function optionHTML(rows, group) {
   const title = groupTitle(rows, group);
+  const star = rows.find((r) => r.group === group)?.starred ? '★ ' : '';
   if (sourceMode !== 'tasks') {
-    return `<option value="${group}">${title}</option>`;
+    return `<option value="${group}">${star}${title}</option>`;
   }
   // Task outputs carry a relative-age suffix so freshness is visible in the
   // closed dropdown too; grouping into recency optgroups does the rest.
   const updated = latestUpdated(group);
   const suffix = updated ? ` · ${relativeAge(updated)}` : '';
-  return `<option value="${group}">${title}${suffix}</option>`;
+  return `<option value="${group}">${star}${title}${suffix}</option>`;
 }
 
 function buildOptions() {
@@ -269,11 +276,11 @@ export function isReaderOpen() {
 // section is persisted in the hash (`&section=<id>`) and restored
 // on reload / back navigation.
 // ------------------------------------------------------------
-const SECTION_POLL_MS = 150;
-let sectionTimer = null;
+let scrollRaf = null;
+let trackingDoc = null;
 
 function pollActiveSection() {
-  const doc = frame.contentDocument;
+  const doc = trackingDoc;
   if (!doc || !isReaderOpen()) return;
   const sections = Array.from(doc.querySelectorAll('section[id]'));
   if (!sections.length) return;
@@ -291,16 +298,33 @@ function pollActiveSection() {
   }
 }
 
+function onScroll() {
+  if (scrollRaf !== null) return;
+  scrollRaf = requestAnimationFrame(() => {
+    scrollRaf = null;
+    pollActiveSection();
+  });
+}
+
 function startSectionTracking() {
   stopSectionTracking();
-  sectionTimer = setInterval(pollActiveSection, SECTION_POLL_MS);
+  try {
+    trackingDoc = frame.contentDocument;
+    frame.contentWindow.addEventListener('scroll', onScroll, { passive: true });
+  } catch (e) {
+    /* cross-origin or inaccessible document */
+  }
 }
 
 function stopSectionTracking() {
-  if (sectionTimer) {
-    clearInterval(sectionTimer);
-    sectionTimer = null;
+  if (trackingDoc && frame.contentWindow) {
+    frame.contentWindow.removeEventListener('scroll', onScroll);
   }
+  if (scrollRaf !== null) {
+    cancelAnimationFrame(scrollRaf);
+    scrollRaf = null;
+  }
+  trackingDoc = null;
 }
 
 /* In-frame article links announce themselves via postMessage so the

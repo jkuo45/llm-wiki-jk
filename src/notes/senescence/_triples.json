@@ -5202,13 +5202,13 @@
       "en-US": "In a head-to-head screen of ten flavonoid polyphenols on senescent Ercc1-/- murine embryonic fibroblasts and etoposide-senescent IMR90 human fibroblasts, Fisetin at 5 uM was the most effective at reducing the SA-beta-gal-positive fraction, whereas Quercetin at the same dose was ineffective. This positioned Fisetin as the top senotherapeutic candidate for in vivo testing.",
       "zh-TW": "在針對十種類黃酮多酚的頭對頭篩選中，於衰老的 Ercc1-/- 小鼠胚胎纖維母細胞與 etoposide 誘導衰老的 IMR90 人類纖維母細胞中，5 uM 的 Fisetin 是降低 SA-beta-gal 陽性細胞比例最有效的化合物，而同劑量的 Quercetin 則無效果。這使 Fisetin 成為體內試驗的首選 senotherapeutic 候選藥物。"
     },
-    "confidence": "high",
+    "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "279fa5d075ca",
+    "id": "c7b6bf567740",
     "subject": "Fisetin",
     "predicate": "targets_SCAPs_including",
     "object": "PI3K/Akt pathway",
@@ -5216,21 +5216,21 @@
       "en-US": "Senescent cells resist apoptosis by upregulating Senescent-Cell Anti-Apoptotic Pathways (SCAPs). Like Quercetin, Fisetin targets SCAP members including the PI3K/Akt pro-survival axis, inducing selective death of some senescent cell types — e.g., caspase3/7-mediated apoptosis in senescent HUVECs.",
       "zh-TW": "衰老細胞透過上調 Senescent-Cell Anti-Apoptotic Pathways（SCAPs）抵抗凋亡。Fisetin 如同 Quercetin，會攻擊包括 PI3K/Akt 存活軸在內的 SCAP 成員，選擇性地殺死部分衰老細胞類型——例如在衰老的 HUVECs 中誘發 caspase3/7 介導的細胞凋亡。"
     },
-    "confidence": "high",
+    "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "56d5525e0269",
+    "id": "810daf9f2da5",
     "subject": "Fisetin",
     "predicate": "inhibits",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Beyond senolysis, Fisetin inhibits the activity of several pro-inflammatory cytokines (TNF-alpha, IL-6) and the transcription factor NF-kB, contributing to its anti-inflammatory profile and to reduced SASP factor expression in treated tissues.",
       "zh-TW": "除了 senolytic 作用外，Fisetin 還能抑制多種促發炎細胞激素（TNF-alpha、IL-6）以及轉錄因子 NF-kB 的活性，這有助於其抗炎特性，並降低治療後組織中 SASP 因子的表現。"
     },
-    "confidence": "medium",
+    "confidence": 0.75,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
@@ -5244,7 +5244,7 @@
       "en-US": "Fisetin increases the catalytic activity of human SIRT1 at least in vitro, one of several reported pleiotropic activities (alongside PI3K/Akt/mTOR inhibition and topoisomerase inhibition) that may contribute to its healthspan effects beyond senescent-cell clearance.",
       "zh-TW": "至少在體外實驗中，Fisetin 能提升人類 SIRT1 的催化活性。這是其多效性作用之一（與抑制 PI3K/Akt/mTOR 及 topoisomerase 並列），可能在清除衰老細胞之外，對健康壽命的延長有所貢獻。"
     },
-    "confidence": "medium",
+    "confidence": 0.75,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
@@ -5258,13 +5258,13 @@
       "en-US": "Fisetin treatment increased the ratio of reduced to oxidized glutathione (GSH:GSSG) in mouse liver, consistent with upregulation of glutathione synthesis. This endogenous antioxidant boost complements Fisetin's direct free-radical scavenging from its three hydroxyl groups.",
       "zh-TW": "Fisetin 治療可提升小鼠肝臟中還原型與氧化型麩胱甘肽的比例（GSH:GSSG），顯示其上調麩胱甘肽的合成。此內源性抗氧化能力的提升，與 Fisetin 因三個羥基而具備的直接自由基清除能力互補。"
     },
-    "confidence": "high",
+    "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "b5a596a1352d",
+    "id": "7b339f54fdad",
     "subject": "Fisetin",
     "predicate": "scavenges",
     "object": "Reactive Oxygen Species",
@@ -5272,13 +5272,13 @@
       "en-US": "As a high Trolox-equivalent antioxidant flavonol, Fisetin acts directly as a reducing agent: its electron-donating hydroxyl groups allow it to chemically react with and neutralize reactive oxygen species, complementing its indirect antioxidant effects via glutathione upregulation.",
       "zh-TW": "作為高 Trolox 當量抗氧化值的黃酮醇，Fisetin 可直接作為還原劑：其提供電子的羥基使其能與活性氧族群發生化學反應並將其中和，與其透過上調麩胱甘肽產生的間接抗氧化效果相輔相成。"
     },
-    "confidence": "high",
+    "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "ab08df0478e8",
+    "id": "31a915096208",
     "subject": "Dasatinib plus Quercetin",
     "predicate": "is_a_type_of",
     "object": "Senolytics",
@@ -5286,13 +5286,13 @@
       "en-US": "The combination of Dasatinib and Quercetin (D+Q) was the first rationally identified senolytic, targeting SCAPs such as Bcl-2 family members and PI3K-delta. Intermittent D+Q treatment improves frailty, osteoporosis, cardiovascular function, and pulmonary fibrosis in aged or progeroid mice, motivating the search for more potent single-agent flavonoids like Fisetin.",
       "zh-TW": "Dasatinib 與 Quercetin 的合併使用（D+Q）是首個以假說驅動方式發現的 senolytic，可攻擊 Bcl-2 家族成員及 PI3K-delta 等 SCAPs。間歇性 D+Q 治療能改善年老或早衰小鼠的衰弱、骨質疏鬆、心血管功能與肺纖維化，也因此促成尋找如 Fisetin 這類更強效單一成分類黃酮的研究。"
     },
-    "confidence": "high",
+    "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "c04171540c05",
+    "id": "cfdfd590a16c",
     "subject": "Senescent Cells",
     "predicate": "resist_apoptosis_via",
     "object": "Senescent-Cell Anti-Apoptotic Pathways",
@@ -5300,7 +5300,7 @@
       "en-US": "Senescent cells are resistant to apoptosis because they upregulate Senescent-Cell Anti-Apoptotic Pathways (SCAPs), including Bcl-2 family pro-survival proteins and the PI3K/Akt axis. Different senescent cell types rely on different SCAPs, which is why no single senolytic clears all senescent cells — and why SCAP-targeting drugs such as Fisetin, D+Q, and Navitoclax show cell-type selectivity.",
       "zh-TW": "衰老細胞因上調 Senescent-Cell Anti-Apoptotic Pathways（SCAPs，包括 Bcl-2 家族促存活蛋白與 PI3K/Akt 軸）而抵抗細胞凋亡。不同衰老細胞類型依賴不同的 SCAPs，因此沒有任何單一 senolytic 能清除所有衰老細胞——這也是為何攻擊 SCAPs 的藥物如 Fisetin、D+Q 與 Navitoclax 呈現細胞類型選擇性的原因。"
     },
-    "confidence": "high",
+    "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
     "updated": "2026-08-21T00:00:00Z"

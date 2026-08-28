@@ -41,7 +41,7 @@
     </p>
     <div class="meta">
       <p><strong>日期：</strong> 2026 年 8 月 16 日</p>
-      <p><strong>資料來源：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/graph.json" target="_blank">web/data/graph.json</a></code></p>
+      <p><strong>資料來源：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code></p>
       <p><strong>來源文件：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md" target="_blank">src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</a></code></p>
       <p><strong>程式碼：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">scripts/04_node_analysis.py</a></code></p>
       <p><strong>圖譜建構：</strong> <code>867a5ae5fdb8a46c</code></p>
@@ -107,14 +107,14 @@
     <section id="metrics">
       <p class="sec-label">02 · 指標圖譜</p>
       <h2>每個數字在問圖譜什麼</h2>
-      <p>
-        每個卡片都列出了 NetworkX 呼叫、對應的生物學問題，以及最常在排名中誤導人的注意事項。以下數值為本實作使用的定義，而非一般教科書的泛化轉述。
-      </p>
 
       <div class="note">
         <h4>指紋的範疇——指標對比關係感知方法</h4>
         <p>
-          下方每個卡片都是<strong>儲存在單一節點上的單一純量</strong>：該實體角色在隔離狀態下——一個源頭、一個瓶頸、一個骨幹、一個模組、或一個葉節點——的靜態、逐節點指紋。這些數字的型態才是<em>哪些</em>節點值得注意的分流工具。純量無法表達的是兩個具名實體之間的<em>關係</em>：<u><strong>它們如何</strong>沿著帶標籤、具信心加權的邊相連，<strong>是否</strong>共享鄰域，一條缺失的邊<strong>是否</strong>合理，或一旦低信心路徑被降權後，兩條路徑<strong>相距多遠</strong>。</u>那些問題是
+          下方每個卡片都列出了其 NetworkX 呼叫、所提出的生物學問題，以及最常在解讀中誤導人的注意事項。數值為本實作使用的定義，而非一般教科書的泛化轉述。
+        </p>
+        <p>
+          下方每個指標都是<strong>儲存在單一節點上的單一純量</strong>：該實體角色在隔離狀態下——一個源頭、一個瓶頸、一個骨幹、一個模組、或一個葉節點——的靜態、逐節點指紋。這些數字的型態才是<em>哪些</em>節點值得注意的分流工具。純量無法表達的是兩個具名實體之間的<em>關係</em>：<u><strong>它們如何</strong>沿著帶標籤、具信心加權的邊相連，<strong>是否</strong>共享鄰域，一條缺失的邊<strong>是否</strong>合理，或一旦低信心路徑被降權後，兩條路徑<strong>相距多遠</strong>。</u>那些問題是
           <a href="#methods">關係感知方法</a>（<code>scripts/04_node_analysis.py</code>）的職責，它們在相同的 <code>graph.json</code> 上成對、多節點地運作。請將指紋視為分流層；將關係感知方法視為<em>如何</em>與<em>為何</em>。
         </p>
       </div>

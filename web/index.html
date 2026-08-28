@@ -46,42 +46,38 @@
     <button id="btn-notes" title="Notes / 筆記" aria-label="Notes panel">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
-    <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
-    </button>
-    <button id="btn-dataset" title="About this dataset / 關於此資料集" aria-label="About this dataset">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="10"></circle>
-        <line x1="12" y1="16" x2="12" y2="12"></line>
-        <line x1="12" y1="8" x2="12.01" y2="8"></line>
-      </svg></span>
-    </button>
     <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></span>
     </button>
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions / 取消固定" aria-label="Reset all dragged nodes to physics positions" style="display:none">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg></span>
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1z"/></svg></span>
     </button>
-    <button id="btn-settings" hidden title="Settings / 設定" aria-label="Settings / 設定">
-      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
-    </button>
-    <div id="settings-popover" hidden>
-      <div id="display-panel">
-        <h3>Display / 顯示</h3>
-        <div class="display-grid">
-          <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
-          <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
-          <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+    <div id="settings-wrap" hidden>
+      <button id="btn-settings" title="Settings / 設定" aria-label="Settings / 設定">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+      </button>
+      <div id="settings-popover" hidden>
+        <div id="display-panel">
+          <h3>Display / 顯示</h3>
+          <div class="display-grid">
+            <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
+            <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
+            <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
+          </div>
         </div>
-      </div>
-      <div id="theme-panel">
-        <h3>Theme / 主題</h3>
-        <div class="display-grid" id="theme-grid">
-          <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
-          <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+        <div id="theme-panel">
+          <h3>Theme / 主題</h3>
+          <div class="display-grid" id="theme-grid">
+            <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
+            <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+          </div>
         </div>
       </div>
     </div>
+    <button id="dataset-mode-toggle" type="button" aria-label="Graph source / 圖形來源" title="Click to switch graph: Triples → Wiki → Combined"><span class="mode-label">mode</span></button>
+    <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
+    </button>
   </div>
   <div id="zoom-bar">
     <button id="zoom-in" title="Zoom in">+</button>
@@ -236,6 +232,10 @@
           <button id="notes-lb-back" title="Back to gallery" data-i18n="back" data-i18n-title="backToGallery" aria-label="Back to gallery">&larr; Gallery</button>
           <button id="notes-lb-top-prev" type="button" title="Previous image" data-i18n="prevNav" data-i18n-title="prevImg" disabled>&larr; Previous</button>
           <button id="notes-lb-top-next" type="button" title="Next image" data-i18n="nextNav" data-i18n-title="nextImg" aria-label="Next →" disabled>Next &rarr;</button>
+          <div class="lang-toggle" id="notes-lb-lang" role="group" aria-label="Language / 語言">
+            <button type="button" data-lang="en-US" title="English (US)">EN</button>
+            <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+          </div>
         </div>
         <div class="notes-lb-title" id="notes-lb-title"></div>
       </div>
@@ -309,7 +309,7 @@
     <div id="wiki-modal-header">
       <h2 id="wiki-modal-title"></h2>
       <div class="wiki-modal-actions">
-        <a id="wiki-modal-link" href="#" target="_blank" rel="noopener" class="wiki-modal-link">GitHub <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>
+        <a id="wiki-modal-link" href="#" target="_blank" rel="noopener" class="wiki-modal-link">Full Note <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg></a>
         <button id="wiki-modal-close" title="Close">&times;</button>
       </div>
     </div>

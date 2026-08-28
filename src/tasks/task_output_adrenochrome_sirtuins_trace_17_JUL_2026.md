@@ -1,8 +1,8 @@
 ---
 title: Adrenochrome → Sirtuins Counter-Defense Trace — Graph-Derived Mechanistic Map
 description: Comprehensive trace of how sirtuins counter adrenochrome-driven oxidative stress, extracted from the graphify knowledge graph. Covers the mitohormesis/NAD+ rescue route, the SIRT3-MnSOD-PGC-1α enzymatic defense axis, the apoptosis failure boundary, and the redox-homeostasis convergence node.
-created: 2026-07-17
-updated: 2026-07-17
+created: 2026-07-21
+updated: 2026-08-09
 tags:
   - task-output
   - adrenochrome

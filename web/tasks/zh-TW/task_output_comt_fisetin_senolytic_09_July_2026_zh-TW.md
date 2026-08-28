@@ -1,8 +1,8 @@
 ---
 title: 非瑟酮作為 COMT 抑制劑 — 衰老溶解交集與實驗計畫
 description: 評估非瑟酮作為衰老溶解類黃酮與 COMT（兒茶酚-O-甲基轉移酶）受質-抑制劑的雙重活性（IC50 2.6–5.8 µM），包含其 O-甲基化為 Geraldol、依劑量與基因型而定的藥物動力學複雜性、對長壽方案的意涵，以及提出的實驗計畫。
-created: 2026-07-09
-updated: 2026-08-23
+created: 2026-07-27
+updated: 2026-08-22
 source: wiki entity notes (COMT, Fisetin, Senolytic, Catecholamines) + primary literature synthesis
 tags:
   - task-output
@@ -15,7 +15,6 @@ tags:
   - longevity
 author: []
 ---
-
 # COMT × 非瑟酮：研究評估與實驗提案
 
 **主持人（Principal Investigator）報告**

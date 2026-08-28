@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1547 entities** across **110 categories** and **30 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1570 entities** across **110 categories** and **32 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1547 | Categories: 110 | Documents: 30
+> `_link` index. Total entities: 1563 | Categories: 110 | Documents: 32
 >
 
 ## Documents
@@ -47,13 +47,19 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[_document_ - mitohormesis, heart rate variability|Mitohormesis, Heart Rate Variability, and Recovery Tracking]] | A practical framework for visualizing and optimizing mitohormesis and heart rate variability (HRV) using wearables, plus a nutrition and supplementation protocol to support mitochondrial adaptation. |
 | [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing the plant-derived compound apigenin for senomorphic effect in antiaging pipelines]] | 2024 bioRxiv preprint that screens a natural-product library and identifies apigenin as a senomorphic agent. Apigenin targets peroxiredoxin 6 (PRDX6), suppresses its iPLA2 activity, and disrupts HSPA8 crosstalk with ATM/p38 MAPK, blocking the transition from the acute stress-associated phenotype (ASAP) to the SASP. Demonstrates geroprotection and chemosensitization in vivo. |
 | [[_document_ - speakman2003_Resting Metabolic Rate|Physical activity and resting metabolic rate]] | Speakman & Selman (2003) review examining the relationship between physical activity, exercise training, and resting metabolic rate (RMR), integrating animal and human studies on EPOC, NEAT, energy expenditure components, and the obesity epidemic. |
+| [[_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis|Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis]] | Nease et al. (Nature Cancer, 2024): FTSJ1 installs the Um34 modification on tRNA[Ser]Sec, required for efficient UGA recoding of selenocysteine; drives antioxidant selenoprotein translation and melanoma metastatic colonization. |
+| [[_document_ - How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage|How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage]] | Pace et al. (Biomolecules, 2025) narrative review contrasting cysteine (GSH precursor, redox switch) and selenocysteine (selenol, pKa ~5.2) redox defenses, and their age-related decline. |
 
 ## Entity Notes
 
-### Protein (305)
+### Protein (309)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[SECISBP2]] | Protein | RNA-binding protein that binds the SECIS element of selenoprotein mRNAs and, with eEFSec, directs recoding of UGA stop codons to insert selenocysteine. |
+| [[Selenoprotein]] | Protein | Proteins containing selenocysteine as a catalytic residue (GPx, TrxR, deiodinases); the human selenoproteome (~25 members) centers on redox functions. |
+| [[eEFSec]] | Protein | Selenocysteine-specific eukaryotic elongation factor (EEFSEC) that, with GTP and tRNA[Ser]Sec, delivers Sec to the ribosomal A site at recoded UGA codons; recruited by SECISBP2. |
+| [[Selenoprotein P]] | Protein | Selenium-rich extracellular glycoprotein (SELENOP) that transports selenium to tissues and provides antioxidant defense; carries up to 10 selenocysteine residues. |
 | [[14-3-3]] | Protein | 14-3-3 proteins are a family of conserved regulatory molecules that bind to phosphoserine/phosphothreonine motifs, influencing several pathways including Autophagy and apoptosis. |
 | [[AIM2]] | Protein | Cytosolic double-stranded DNA sensor that assembles an inflammasome, driving pyroptosis and inflammatory cell death. |
 | [[Akt]] | Protein | Akt (also known as Protein Kinase B or PKB) is a serine/threonine-specific protein kinase that plays a key role in multiple cellular processes such as glucose metabolism, apoptosis, cell prolif... |
@@ -143,7 +149,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[FoxO1]] | Protein | Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesis, and beta-cell function. |
 | [[FOXO3a]] | Protein | Forkhead box O3 (FOXO3A) is a transcription factor involved in regulating genes related to apoptosis, cell cycle progression, and oxidative stress resistance. Deacetylation of FOXO3A by sirtuins li... |
 | [[FOXO4]] | Protein | FOXO4 (Forkhead Box O4) is a transcription factor belonging to the FOXO family, involved in cellular senescence, stress response, and Autophagy. |
-| [[FSP1]] | Protein | Overview: FSP1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
+| [[FSP1]] | Protein | Ferroptosis suppressor protein 1 (formerly AIFM2), a plasma-membrane flavoprotein that uses NAD(P)H to reduce ubiquinone (CoQ10) to ubiquinol, a lipophilic radical-trapping antioxidant; a GPX4-independent, parallel brake on ferroptosis. |
+| [[AIFM2]] | Gene | AIFM2 (apoptosis-inducing factor mitochondria-associated 2) is the gene encoding FSP1; originally described as pro-apoptotic, renamed ferroptosis suppressor protein 1. |
 | [[FUNDC1]] | Protein | Outer mitochondrial membrane protein that functions as a receptor for ubiquitin-independent mitophagy, particularly under hypoxic conditions. |
 | [[Fzo]] | Protein | Drosophila fuzzy onion protein, the ancestral ortholog of mammalian MFN1 and MFN2. |
 | [[G3BP1]] | Protein | Ras-GAP SH3-domain-binding protein 1, a stress-granule scaffold that assists cGAS recognition of cytoplasmic chromatin fragments to trigger SASP via cGAS–STING. |
@@ -360,10 +367,16 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ZFP36L1]] | Protein | Zinc finger protein 36 C3H1-like 1 (TTP-family RNA-binding protein) that degrades AU-rich-element mRNAs; inhibited by MK2 to stabilize SASP transcripts. |
 | [[β-Catenin]] | Protein | β-Catenin is a dual-function protein central to canonical Wnt signaling as a transcriptional coactivator and to cell adhesion as a component of adherens junctions. Its transcriptional activity is s... |
 
-### Enzyme (187)
+### Enzyme (193)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[HMG-CoA reductase]] | Enzyme | Rate-limiting enzyme of the mevalonate pathway; statin target whose inhibition lowers CoQ10, converging on FSP1 to sensitize ferroptosis. |
+| [[FTSJ1]] | Enzyme | X-linked tRNA 2′-O-methyltransferase that installs the Um34 modification on tRNA[Ser]Sec, required for efficient UGA recoding of selenocysteine. |
+| [[Deiodinase]] | Enzyme | Iodothyronine deiodinases (DIO1–DIO3) — selenium-dependent selenoenzymes that activate/inactivate thyroid hormone; each contains an essential selenocysteine. |
+| [[PSTK]] | Enzyme | O-phosphoseryl-tRNA kinase that phosphorylates Ser-tRNA[Ser]Sec to O-phosphoseryl-tRNA[Ser]Sec in selenocysteine biosynthesis. |
+| [[SepSecS]] | Enzyme | Selenocysteine synthase (SEPSECS) that converts O-phosphoseryl-tRNA[Ser]Sec to Sec-tRNA[Ser]Sec using monoselenophosphate. |
+| [[SEPHS2]] | Enzyme | Selenophosphate synthetase 2 that generates monoselenophosphate from selenide and ATP, the selenium donor for SepSecS. |
 | [[Acetylation]] | Enzyme | Acetylation is a reversible post-translational modification involving the transfer of an acetyl group from Acetyl-CoA to a substrate, catalyzed by Histone Acetyltransferases (HATs) and removed by H... |
 | [[Acid ceramidase]] | Enzyme | Lysosomal hydrolase that cleaves ceramide into sphingosine and free fatty acid; overexpressed 5-20x in senescent cells, driving ferroptotic sensitivity via the Lands cycle. |
 | [[Acid Hydrolases]] | Enzyme | Enzymes that use water to break down macromolecules and are active in acidic environments, typical of Lysosome. |
@@ -632,10 +645,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[LKB1]] | Kinase | Liver kinase B1 (STK11) is a tumor suppressor serine/threonine kinase and the primary upstream kinase activating AMPK under energy stress; deacetylated by SIRT1 and SIRT3 to coordinate metabolic ad... |
 
-### Biological Molecule (78)
+### Biological Molecule (79)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Vitamin K]] | Biological Molecule | Naphthoquinone group (phylloquinone, menaquinone) whose reduced form (VKH2) is an FSP1-generated radical-trapping antioxidant via the non-canonical vitamin K cycle. |
 | [[Proteasome]] | Biological Molecule | The 20S Proteasome is a core catalytic particle of the ubiquitin-proteasome system that degrades oxidized, misfolded, and damaged proteins independently of ubiquitination, serving as a primary ... |
 | [[Acetate]] | Biological Molecule | Acetate is a two-carbon short-chain fatty acid and the most abundant SCFA in the gut, playing a role in lipid metabolism and systemic immune regulation. |
 | [[Acetyl-CoA]] | Biological Molecule | Acetyl-coenzyme A (Acetyl-CoA) is a central metabolic intermediate that serves as the acetyl group donor for Histone Acetylation. |
@@ -692,7 +706,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[N6-methyladenosine]] | Biological Molecule | The most abundant internal mRNA methylation mark (m6A), deposited by the METTL3-METTL14 writer complex and implicated in senescence-associated transcriptomic and 3D-genome remodeling. |
 | [[NADH]] | Biological Molecule | Biochemical properties: NADH is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux an... |
 | [[NADP+]] | Biological Molecule | NADP+ is the oxidized cousin of NAD+ that accepts electrons to form NADPH, fueling reductive biosynthesis and glutathione-dependent antioxidant defense. |
-| [[NADPH]] | Biological Molecule | Biochemical properties: NADPH is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux a... |
+| [[NADPH]] | Biological Molecule | Reduced nicotinamide adenine dinucleotide phosphate, the principal cellular reducing equivalent; fuels FSP1 (ubiquinone→ubiquinol) and glutathione reductase (GSH recycling), gating both ferroptosis-defense axes. |
 | [[Neurotransmitters]] | Biological Molecule | Neurotransmitters are endogenous chemical messengers that transmit signals across a Synapse from one neuron to another. |
 | [[Niacin]] | Biological Molecule | Biochemical properties: Niacin is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux ... |
 | [[Nicotinamide Riboside]] | Biological Molecule | Nicotinamide Riboside (NR) is a naturally occurring pyridine nucleoside form of vitamin B3 (niacin) and a direct precursor to NAD+ (nicotinamide adenine dinucleotide). NR is phosphorylated by nicot... |
@@ -711,14 +725,16 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Transposable Elements]] | Biological Molecule | Transposable elements ("jumping genes") are mobile DNA sequences whose age-related derepression drives genomic instability and inflammation. |
 | [[Triiodothyronine]] | Biological Molecule | The biologically active thyroid hormone, produced largely by peripheral deiodination of thyroxine (T4). T3 regulates basal metabolic rate via genomic and non-genomic actions across nearly all tissues. |
 | [[Trimethylamine N-oxide]] | Biological Molecule | Gut microbiota-derived metabolite (TMAO) implicated in cardiovascular inflammation; its effects are attenuated by SIRT1 in vascular smooth muscle cells. |
-| [[Ubiquinone]] | Biological Molecule | Biochemical properties: Ubiquinone is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic f... |
+| [[Ubiquinone]] | Biological Molecule | Oxidized coenzyme Q10 (CoQ10); the direct FSP1 substrate reduced to ubiquinol, the membrane radical trap, and a non-sterol product of the mevalonate pathway whose loss converges on FSP1. |
 | [[Uric Acid Crystals]] | Biological Molecule | Monosodium urate (MSU) and uric acid crystals are potent NLRP3 inflammasome activators that cause gouty inflammation through lysosomal rupture and IL-1β secretion. |
 | [[Very Low Density Lipoprotein]] | Biological Molecule | Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression to... |
 
-### Chemical Compound (151)
+### Chemical Compound (153)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[FIN56]] | Chemical Compound | Class III ferroptosis inducer that activates squalene synthase, depleting CoQ10 (FSP1 substrate) and promoting GPX4 degradation. |
+| [[iFSP1]] | Chemical Compound | First-in-class, human-specific FSP1 inhibitor (F360 pocket, IC50 ~103 nM) that synergizes with GPX4 inhibitors to induce ferroptosis. |
 | [[2-Chlorophenothiazine]] | Chemical Compound | 2-Chlorophenothiazine is a chlorinated phenothiazine nucleus lacking amine side chains; it is a direct mitochondrial ROS scavenger with nanomolar neuroprotection but no alternative electron-transfe... |
 | [[3-Hydroxykynurenine]] | Chemical Compound | 3-Hydroxykynurenine (3-HK) is a redox-active intermediate of the kynurenine pathway produced from kynurenine by kynurenine 3-monooxygenase, and serves as a precursor for quinolinic acid. |
 | [[5Z-7-oxozeaenol]] | Chemical Compound | A selective TAK1 inhibitor that diminishes the SASP by restraining the ATM-TRAF6-TAK1 axis; a pharmacological comparator for apigenin's ASAP→SASP blockade. |
@@ -965,10 +981,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[PDGFAA]] | Growth Factor | Platelet-derived growth factor AA is a SASP growth factor that induces myofibroblast differentiation and is required for optimal wound healing. |
 | [[TGFβ]] | Growth Factor | Transforming growth factor beta is an early SASP factor that drives paracrine senescence, EMT, fibrosis, and immune suppression via TGFBR-SMAD2/3 signaling. |
 
-### Cell Type (43)
+### Cell Type (44)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Melanocyte]] | Cell Type | Pigment-producing neural-crest-derived cells of skin/hair/eye; the cell of origin of melanoma. |
 | [[Alveolar Macrophages]] | Cell Type | Resident macrophages of the lung alveolus that sample airspace contents and drive inflammatory responses in fibrosis and infection. |
 | [[Alveolar Type II Cells]] | Cell Type | Surfactant-producing lung epithelial stem cells that regenerate alveolar epithelium; exquisitely vulnerable to stress-induced senescence in IPF. |
 | [[Astrocytes]] | Cell Type | Star-shaped glia that support neurons and, when activated via cGAS-STING, adopt neurotoxic A1/senescent states in neurodegeneration. |
@@ -1035,10 +1052,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Simian Virus 40]] | Organism | Simian Virus 40 (SV40) is a non-enveloped DNA virus belonging to the Polyomaviridae family. Its small (~5.2 kb) circular double-stranded DNA genome has been a foundational model in Molecular Bi... |
 | [[Verrucomicrobia]] | Organism | Verrucomicrobia is a phylum of bacteria that are ubiquitous in soil and water, and in the human gut they are represented primarily by the genus Akkermansia. |
 
-### Medical Condition (118)
+### Medical Condition (119)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Melanoma]] | Medical Condition | Malignant tumor of melanocytes; oxidative-stress-sensitive metastasis is supported by FTSJ1/Um34-dependent selenocysteine translation. |
 | [[Acute Respiratory Distress Syndrome]] | Medical Condition | ARDS is acute inflammatory lung injury causing hypoxemic respiratory failure; methylene blue has no proven role. |
 | [[Age-Related Diseases]] | Medical Condition | Diseases whose incidence and severity increase with chronological age, driven by fundamental aging processes such as cellular senescence, inflammation, and macromolecular damage. |
 | [[Albuminuria]] | Medical Condition | Albuminuria is the presence of excess albumin in the urine, most commonly reflecting glomerular damage and a hallmark of diabetic and hypertensive kidney disease. |
@@ -1172,10 +1190,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Serotonin-Norepinephrine Reuptake Inhibitors]] | Medical Product | Serotonin-norepinephrine reuptake inhibitors (SNRIs) are antidepressants raising synaptic serotonin and norepinephrine; dangerous with MAOIs. |
 | [[Tricyclic Antidepressant]] | Medical Product | Tricyclic antidepressants (TCAs) are an older antidepressant class with serotonergic and anticholinergic effects; dangerous with MAOIs. |
 
-### Biological Process (143)
+### Biological Process (145)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Myristoylation]] | Biological Process | N-terminal myristoyl attachment that tethers FSP1 to the plasma membrane, positioning its ubiquinol-regenerating activity where lipid peroxidation begins. |
+| [[Metastatic colonization]] | Biological Process | Final, rate-limiting step of metastasis — growth of disseminated cells into distant lesions; restricted by oxidative stress, supported by selenocysteine translation. |
 | [[Adaptive Immune System]] | Biological Process | Antigen-specific immunity (T/B cells) shaped by cGAS-STING priming and chemokine-driven CNS infiltration. |
 | [[adipogenesis]] | Biological Process | Biological process of differentiation of mesenchymal preadipocytes into lipid-accumulating mature adipocytes. |
 | [[Aging]] | Biological Process | The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre... |
@@ -1330,10 +1350,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Methylation]] | Chemical Process | Methylation is a fundamental biochemical and epigenetic process involving the transfer of a methyl group to a substrate. It is critical for the regulation of gene expression, neurotransmitter m... |
 | [[Oxidation]] | Chemical Process | Oxidation is a concept related to Adrenochrome and catecholamine metabolism. |
 
-### Scientific Concept (76)
+### Scientific Concept (77)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Radical-trapping Antioxidant]] | Scientific Concept | Molecule that terminates peroxidation chains by donating H to a lipid peroxyl radical; endogenous examples include ubiquinol, VKH2, and vitamin E. |
 | [[Alpha Diversity]] | Scientific Concept | Alpha diversity is a measure of the richness and evenness of species within a single community or sample, often used to describe the internal diversity of the gut microbiome. |
 | [[Antagonistic Pleiotropy]] | Scientific Concept | An evolutionary concept wherein a trait beneficial to early-life fitness becomes detrimental later in life, proposed as the reason RCM evolved as a short-term survival response that drives aging. |
 | [[Beta Diversity]] | Scientific Concept | Beta diversity is a measure of the difference in species composition between different communities or samples, allowing for comparisons across various stages of aging or environmental conditions. |
@@ -1471,10 +1492,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Beta-amyloid]] | Alzheimers Disease | Peptides of 36–43 amino acids that are the main component of the amyloid plaques found in the brains of people with Alzheimer's Disease. |
 | [[Tau]] | Alzheimers Disease | Microtubule-associated protein tau (MAPT) is an intrinsically disordered neuronal protein whose hyperphosphorylation and aggregation drive neurofibrillary tangle formation in Alzheimer's Disease an... |
 
-### Amino Acid (1)
+### Amino Acid (2)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Selenocysteine]] | Amino Acid | The 21st amino acid — a serine analog with selenium in place of oxygen; incorporated by UGA recoding and serving as the catalytic residue of selenoenzymes. |
 | [[Serine]] | Amino Acid | Amino acid bearing regulatory phosphorylation sites on DRP1 that govern mitochondrial fission. |
 
 ### Analytical Technique (9)
@@ -1908,16 +1930,19 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Mitochondrial Fission]] | Mitochondrial Process | Mitochondrial fission is the DRP1-mediated division of a mitochondrion into two, required for organelle segregation, quality control via mitophagy, and apoptosis. |
 | [[Mitochondrial Fusion]] | Mitochondrial Process | Mitochondrial fusion is the GTPase-driven joining of two mitochondria at the outer and inner membranes, enabling content mixing, stress resilience, and quality control. |
 
-### Molecular Biology (1)
+### Molecular Biology (3)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[Um34]] | Molecular Biology | 2′-O-methyluridine at position 34 of tRNA[Ser]Sec, installed by FTSJ1; required for efficient UGA recoding of selenocysteine and for melanoma metastasis. |
+| [[UGA codon]] | Molecular Biology | Canonical stop codon that is recoded to specify selenocysteine in selenoprotein mRNAs via the SECIS element, SECISBP2, and eEFSec. |
 | [[TALE]] | Molecular Biology | Transcription activator-like effectors, natural DNA-binding repeat arrays from Xanthomonas bacteria that can be reprogrammed to recognize specific DNA sequences; the DNA-binding domain used in mito... |
 
-### Nucleic Acid (2)
+### Nucleic Acid (3)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[tRNA]] | Nucleic Acid | Transfer RNA adaptors that decode mRNA codons; tRNA[Ser]Sec carries selenocysteine and, with Um34, enables UGA recoding. |
 | [[Messenger RNA]] | Nucleic Acid | Messenger RNA (mRNA), the ribonucleic acid transcript that conveys genetic information from DNA to the ribosome for protein synthesis. |
 | [[Z-DNA]] | Nucleic Acid | Left-handed, noncanonical double-helical DNA conformation recognized by cGAS and ZBP1 as a structural sensor of nucleic-acid stress. |
 

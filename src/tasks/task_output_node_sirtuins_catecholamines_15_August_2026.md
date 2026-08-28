@@ -1,8 +1,8 @@
 ---
 title: Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026
 description: Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.
-created: 2026-08-15
-updated: 2026-08-15
+created: 2026-08-16
+updated: 2026-08-22
 tags:
   - task-output
   - knowledge-graph

@@ -2,7 +2,7 @@
 title: Ivermectin, Yamanaka Factors & Aging — graphify exploration
 description: Multi-part exploration of ivermectin's intersection with aging biology — Yamanaka factors, mTOR/TFEB autophagy, STAT3/NF-κB inflammaging, SASP/senomorphic overlap, and the central paradox of pro-longevity vs. anti-rejuvenation mechanisms
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-22
 tags:
   - task-output
   - ivermectin

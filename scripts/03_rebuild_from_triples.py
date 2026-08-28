@@ -34,6 +34,17 @@ from graphify.cluster import cluster, score_all
 from graphify.export import to_json
 from graphify.report import generate
 
+# Shared graph-building helpers (norm, enrich_graph_metrics, ...).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _graph_common import (
+    PALETTE,
+    enrich_graph_metrics,
+    generate_community_colors,
+    inject_graph_metadata,
+    norm,
+    strip_wikilink,
+)
+
 ROOT = Path(__file__).resolve().parent.parent  # repo root
 GP = ROOT / "graphify-out"  # canonical graphify analysis artifacts
 WEB = ROOT / "web"  # standalone three-graph web app (deployed)
@@ -93,31 +104,6 @@ CONF_MAP = {
 CONF_RANK = {
     "EXTRACTED": 0.7,  # >= this -> EXTRACTED, else AMBIGUOUS
 }
-
-# Color palette for communities (Tableau-inspired)
-PALETTE = [
-    "#4E79A7",
-    "#F28E2B",
-    "#E15759",
-    "#76B7B2",
-    "#59A14F",
-    "#EDC948",
-    "#B07AA1",
-    "#FF9DA7",
-    "#9C755F",
-    "#BAB0AC",
-    "#86BCB6",
-    "#D37295",
-    "#FABFD2",
-    "#B6992D",
-    "#F1CE63",
-    "#A0CBE8",
-    "#FFBE7D",
-    "#8CD17D",
-    "#D4A6C8",
-    "#B6992D",
-]
-
 
 def resolve_conf(t: dict) -> tuple[float, str]:
     """Return (confidence_score, conf_label) for a triple.
@@ -180,27 +166,6 @@ def _newer(updated: str, score: float, existing: dict) -> bool:
     return False
 
 
-def strip_wikilink(s: str) -> str:
-    return re.sub(
-        r"\[\[([^\]]+)\]\]",
-        lambda m: m.group(1).split("|", 1)[1] if "|" in m.group(1) else m.group(1),
-        s,
-    ).strip()
-
-
-def norm(label: str) -> str:
-    s = strip_wikilink(label).strip().lower()
-    return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
-
-
-def generate_community_colors(legend: list[dict]) -> dict[int, str]:
-    """Assign colors to community IDs, rotating through palette."""
-    colors = {}
-    for i, entry in enumerate(legend):
-        colors[entry["cid"]] = PALETTE[i % len(PALETTE)]
-    return colors
-
-
 def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     """Export nodes.json, edges.json, legend.json to web/data/ for the three-graph app.
 
@@ -229,15 +194,15 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     # --- Classify per-node biological roles ---
     # Roles are derived from the same static fingerprint already on each node.
-    # The classifier lives in scripts/node_roles_lib.py (single source of truth,
-    # shared with scripts/05_role_query.py) and computes all thresholds from the
+    # The classifier lives in scripts/_node_roles_lib.py (single source of truth,
+    # shared with scripts/04_role_query.py) and computes all thresholds from the
     # live graph so it stays calibrated as the build evolves. The result is
     # baked into each node object (nodes.json) and also emitted as the standalone
     # web/data/node_roles.json artifact.
-    import node_roles_lib
+    import _node_roles_lib
 
-    fps = [node_roles_lib._fingerprint(n) for n in nodes]
-    thresholds = node_roles_lib.compute_thresholds(fps)
+    fps = [_node_roles_lib._fingerprint(n) for n in nodes]
+    thresholds = _node_roles_lib.compute_thresholds(fps)
     _pr_p90 = thresholds["pagerank_p90"]
     _pr_p95 = thresholds["pagerank_p95"]
     _out_p90 = thresholds["out_degree_p90"]
@@ -248,10 +213,10 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     # node_roles.json document in one pass.
     node_roles: dict[str, list[str]] = {}
     role_records = []
-    role_counts = {name: 0 for name, _ in node_roles_lib.ROLE_DEFS}
+    role_counts = {name: 0 for name, _ in _node_roles_lib.ROLE_DEFS}
     multi = 0
     for n, fp in zip(nodes, fps):
-        roles = node_roles_lib.classify(fp, thresholds)
+        roles = _node_roles_lib.classify(fp, thresholds)
         node_roles[n["id"]] = roles
         for r in roles:
             role_counts[r] += 1
@@ -266,7 +231,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     # Per-role exemplars: the top-3 nodes for each role, ranked by that
     # role's driving metric. Gives every role an at-a-glance sanity anchor
-    # in node_roles.json / roles-meta.json (mirrors 05_role_query.py --role).
+    # in node_roles.json / roles-meta.json (mirrors 04_role_query.py --role).
     _EXEMPLAR_METRIC = {
         "Spreader": "out_degree",
         "Sink": "in_degree",
@@ -291,11 +256,11 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     node_roles_doc = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "source_graph": "web/data/graph.json",
+        "source_graph": "graphify-out/graph.json",
         "graph_build": graph.get("built_at_commit", ""),
         "rules": {
             name: {"definition": expr, "operational": True}
-            for name, expr in node_roles_lib.ROLE_DEFS
+            for name, expr in _node_roles_lib.ROLE_DEFS
         },
         "thresholds": {k: round(v, 10) for k, v in thresholds.items()},
         "summary": {
@@ -358,25 +323,25 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "color": {"opacity": max(0.1, min(1.0, conf))},
         })
 
-    (DATA_DIR / "nodes.json").write_text(
+    (DATA_DIR / "triples-nodes.json").write_text(
         json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (DATA_DIR / "edges.json").write_text(
+    (DATA_DIR / "triples-edges.json").write_text(
         json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    (DATA_DIR / "legend.json").write_text(
+    (DATA_DIR / "triples-legend.json").write_text(
         json.dumps(legend, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    (DATA_DIR / "node_roles.json").write_text(
+    (DATA_DIR / "triples-node_roles.json").write_text(
         json.dumps(node_roles_doc, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     # Client-facing slice of the role artifact (~1 KB): the full node table
-    # stays in node_roles.json (CLI-only); the web app only needs the rule
-    # catalog, live thresholds, and summary counts to explain role badges.
+    # stays in triples-node_roles.json (CLI-only); the web app only needs the
+    # rule catalog, live thresholds, and summary counts to explain role badges.
     roles_meta = {
         "generated_at": node_roles_doc["generated_at"],
         "graph_build": node_roles_doc["graph_build"],
@@ -384,7 +349,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
         "thresholds": node_roles_doc["thresholds"],
         "summary": node_roles_doc["summary"],
     }
-    (DATA_DIR / "roles-meta.json").write_text(
+    (DATA_DIR / "triples-roles-meta.json").write_text(
         json.dumps(roles_meta, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
@@ -417,7 +382,6 @@ def ensure_manual_data_files() -> None:
 
 # Graphify-standard artifacts the web app fetches (components/data.js).
 WEB_SHARED_JSON = (
-    "graph.json",
     "manifest.json",
 )
 
@@ -582,103 +546,6 @@ def write_topics_json() -> None:
 # ------------------------------------------------------------------
 
 
-def enrich_graph_metrics(
-    G: nx.DiGraph,
-    communities: dict[int, list[str]],
-    new_labels: dict[int, str],
-    cohesion: dict[int, float],
-    gods: list[dict],
-    surprises: list[dict],
-) -> dict:
-    """Compute and attach node/edge metrics, return graph-level metadata.
-
-    Node attributes added: degree, in_degree, out_degree, pagerank,
-    betweenness_centrality, clustering_coefficient, k_core_number,
-    community_size, community_name.
-
-    Edge attributes added: weight (from confidence_score).
-
-    Returns a dict of graph-level metadata to inject into graph.json
-    after to_json writes it.
-    """
-    import time
-
-    t0 = time.time()
-
-    # --- undirected view for metrics that don't need direction ---
-    G_und = G.to_undirected()
-
-    # --- node metrics ---
-    print("  Computing node metrics...")
-
-    for n in G.nodes():
-        G.nodes[n]["degree"] = G.in_degree(n) + G.out_degree(n)
-        G.nodes[n]["in_degree"] = G.in_degree(n)
-        G.nodes[n]["out_degree"] = G.out_degree(n)
-
-    pr = nx.pagerank(G, alpha=0.85, max_iter=200)
-    for n in G.nodes():
-        G.nodes[n]["pagerank"] = round(pr.get(n, 0.0), 8)
-
-    bet = nx.betweenness_centrality(G_und)
-    for n in G.nodes():
-        G.nodes[n]["betweenness_centrality"] = round(bet.get(n, 0.0), 8)
-
-    clust = nx.clustering(G_und)
-    for n in G.nodes():
-        G.nodes[n]["clustering_coefficient"] = round(clust.get(n, 0.0), 8)
-
-    kcore = nx.core_number(G_und)
-    for n in G.nodes():
-        G.nodes[n]["k_core_number"] = kcore.get(n, 0)
-
-    community_sizes = {cid: len(members) for cid, members in communities.items()}
-    node_community = {}
-    for cid, members in communities.items():
-        for m in members:
-            node_community[m] = cid
-    for n in G.nodes():
-        cid = node_community.get(n)
-        G.nodes[n]["community_size"] = (
-            community_sizes.get(cid, 0) if cid is not None else 0
-        )
-        G.nodes[n]["community_name"] = (
-            new_labels.get(cid, f"Community {cid}") if cid is not None else ""
-        )
-
-    # --- edge weight from confidence_score ---
-    for u, v, d in G.edges(data=True):
-        d["weight"] = d.get("confidence_score", 0.7)
-
-    node_count = G.number_of_nodes()
-    edge_count = G.number_of_edges()
-    dt = time.time() - t0
-    print(f"  Node/edge metrics computed in {dt:.1f}s ({node_count}n/{edge_count}e)")
-
-    # --- graph-level metadata ---
-    graph_meta = {
-        "community_labels": {str(k): v for k, v in new_labels.items()},
-        "community_cohesion": {str(k): round(v, 4) for k, v in cohesion.items()},
-        "community_sizes": {str(k): v for k, v in community_sizes.items()},
-        "god_nodes": gods,
-        "surprising_connections": surprises,
-        "metrics_computed_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-    }
-    return graph_meta
-
-
-def inject_graph_metadata(gp: Path, metadata: dict) -> None:
-    """Post-process graph.json to add graph-level metadata."""
-    path = gp / "graph.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
-    data["metadata"] = metadata
-    path.write_text(
-        json.dumps(data, ensure_ascii=False, separators=(",", ":")),
-        encoding="utf-8",
-    )
-    print(f"Injected graph metadata: {len(metadata)} top-level keys")
-
-
 def _format_i18n_report(i18n: Counter) -> str:
     """Render the multilingual-coverage report appended to GRAPH_REPORT.md."""
     lines = [
@@ -732,7 +599,7 @@ def _load_source_doc_mtimes() -> dict[str, str]:
 
 
 def run_link_prediction() -> None:
-    """Refresh web/data/link-prediction.json via scripts/05_link_prediction.py.
+    """Refresh web/data/link-prediction.json via scripts/04_link_prediction.py.
 
     Runs as a subprocess (same pattern as the graphify HTML export) so the
     networkx dependency stays isolated and a failure degrades to a warning
@@ -741,7 +608,7 @@ def run_link_prediction() -> None:
     cache busting automatically. Output is deterministic (sorted candidates),
     so an unchanged topology keeps the hash stable.
     """
-    script = ROOT / "scripts" / "05_link_prediction.py"
+    script = ROOT / "scripts" / "04_link_prediction.py"
     if not script.exists():
         print(f"link prediction skipped (missing): {script.name}")
         return
@@ -760,7 +627,7 @@ def run_link_prediction() -> None:
         print(
             f"link prediction failed (exit {e.returncode}); artifact left as-is. "
             "Re-run manually: uv run --with networkx python3 "
-            "scripts/05_link_prediction.py"
+            "scripts/04_link_prediction.py"
         )
 
 
@@ -1004,7 +871,16 @@ def main() -> int:
     print("to_json wrote:", wrote)
 
     # --- inject graph-level metadata ---
-    inject_graph_metadata(GP, graph_meta)
+    inject_graph_metadata(GP / "graph.json", graph_meta)
+
+    # --- emit the slim web-only metadata file (triples-graph-meta.json) ---
+    # Derived from the same graph_meta dict injected into the canonical
+    # graphify-out/graph.json, so the frontend's metadata never goes stale.
+    (DATA_DIR / "triples-graph-meta.json").write_text(
+        json.dumps(graph_meta, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    print("Wrote web/data/triples-graph-meta.json")
 
     print(
         f"FINAL: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges, {len(communities)} communities"

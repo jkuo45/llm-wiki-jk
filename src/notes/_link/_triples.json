@@ -5628,13 +5628,13 @@
     "updated": "2026-08-20T06:07:10Z"
   },
   {
-    "id": "825239a70060",
-    "subject": "NMN",
+    "id": "41261e88618b",
+    "subject": "Nicotinamide Mononucleotide",
     "predicate": "restores",
     "object": "Intestinal Stem Cell",
     "context": {
-      "en-US": "In intestinal stem cells, a high mtDNA mutation burden reduces LGR5+ cell function and organoid-forming capacity, mediated by ATF5-driven UPRmt activation, and this is reversible with NMN supplementation. NMN is an NAD+ precursor that restores NAD+ levels, thereby supporting sirtuin-dependent resilience and mitochondrial function in aged stem cell compartments. Alongside nicotinamide riboside, NMN represents a leading NAD+ repletion strategy for restoring stem cell regenerative potential and delaying senescence. The reversibility of mtDNA-mutation-associated stem cell dysfunction with NMN demonstrates that NAD+ replenishment can functionally counteract age-related mitochondrial decline.",
-      "zh-TW": "在腸道幹細胞中，高mtDNA突變負荷降低LGR5+細胞功能和類器官形成能力，由ATF5驅動的UPRmt激活介導，且可透過NMN補充逆轉。NMN是一種NAD+前體，可恢復NAD+水平，從而支持sirtuin依賴性恢復力和老年幹細胞 compartment 中的粒線體功能。與煙醯胺核糖苷並列，NMN是恢復幹細胞再生潛力和延緩衰老的領先NAD+補充策略。mtDNA突變相關幹細胞功能障礙對NMN的可逆性表明，NAD+補充可以在功能上對抗年齡相關的粒線體衰退。"
+      "en-US": "Nicotinamide mononucleotide (NMN), an NAD+ precursor, restores NAD+ in intestinal stem cells and reverses mtDNA-mutation-driven dysfunction via UPRmt, linking the NAD+ fuel line to stem-cell resilience.",
+      "zh-TW": "菸鹼醯胺單核苷酸（NMN）作為 NAD+ 前體，可恢復腸道幹細胞的 NAD+，並經 UPRmt 逆轉 mtDNA 突變驅動的功能障礙，將 NAD+ 燃料線與幹細胞韌性連結。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
@@ -7922,5 +7922,383 @@
     "source_document": "glioblastoma.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T06:19:41Z"
+  },
+  {
+    "id": "a98b4f96e47e",
+    "subject": "FSP1",
+    "predicate": "is_a",
+    "object": "Ferroptosis Suppressor",
+    "context": {
+      "en-US": "FSP1 (ferroptosis suppressor protein 1, encoded by AIFM2) is a plasma-membrane flavoprotein NAD(P)H:ubiquinone oxidoreductase that constitutes the second major, glutathione-independent brake on ferroptosis, acting in parallel to GPX4. It was identified independently in 2019 by Doll et al. (Nature 575:693) and Bersuker et al. (Cell 177:1264) as a gene capable of rescuing cells from GPX4 loss.",
+      "zh-TW": "FSP1（ferroptosis suppressor protein 1，由 AIFM2 編碼）是一種位於質膜的黃素蛋白 NAD(P)H:泛醌氧化還原酶，構成第二個主要的、不依賴谷胱甘肽的鐵死亡抑制系統，與 GPX4 平行運作。Doll et al.（Nature 575:693）與 Bersuker et al.（Cell 177:1264）於 2019 年各自獨立發現它是一個能在 GPX4 缺失時挽救細胞的基因的。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "b98d3352a444",
+    "subject": "FSP1",
+    "predicate": "reduces_to_ubiquinol",
+    "object": "Ubiquinone",
+    "context": {
+      "en-US": "FSP1 catalyzes the reduction of oxidized ubiquinone (CoQ10) to ubiquinol (CoQ10H2) at the expense of NAD(P)H, regenerating the membrane-embedded radical-trapping antioxidant pool that terminates phospholipid peroxyl-radical chains during lipid peroxidation. This is mechanistically distinct from GPX4, which consumes Glutathione to repair pre-formed phospholipid hydroperoxides.",
+      "zh-TW": "FSP1 利用 NAD(P)H 將氧化的泛醌（CoQ10）還原為泛醇（CoQ10H2），重新生成膜內的自由基捕獲抗氧化劑池，終止脂質過氧化過程中的磷脂過氧自由基鏈。這在機制上不同於 GPX4——後者消耗 Glutathione 來修復已形成的磷脂氫過氧化物。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "c3bdeed99131",
+    "subject": "FSP1",
+    "predicate": "uses_as_electron_donor",
+    "object": "NADPH",
+    "context": {
+      "en-US": "FSP1's NAD(P)H-dependent ubiquinone oxidoreductase activity draws reducing equivalents from NAD(P)H to regenerate ubiquinol (CoQ10H2), the lipophilic radical trap that halts lipid peroxidation. NAD(P)H is therefore the obligate electron donor for the GPX4-independent FSP1 axis.",
+      "zh-TW": "FSP1 依賴 NAD(P)H 的泛醌氧化還原酶活性，從 NAD(P)H 取得還原當量以重新生成泛醇（CoQ10H2）——這個脂溶性自由基陷阱能中止脂質過氧化。因此 NAD(P)H 是 FSP1 這條不依賴 GPX4 的路徑所必需的電子供體。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "ff8b606f3c05",
+    "subject": "FSP1",
+    "predicate": "localized_to",
+    "object": "Plasma Membrane",
+    "context": {
+      "en-US": "FSP1 carries an N-terminal N-myristoylation motif that recruits it to the inner leaflet of the plasma membrane, positioning the enzyme precisely where phospholipid peroxidation is initiated and propagated. Membrane association is essential for its ferroptosis-suppressive function.",
+      "zh-TW": "FSP1 帶有 N 端 N-肉豆蔻酰化（myristoylation）基序，將其招募至質膜內葉，使酵素精確定位在磷脂過氧化起始與傳播的位置。膜結合對其抑制鐵死亡的功能不可或缺。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "9f7569bb65b8",
+    "subject": "FSP1",
+    "predicate": "acts_in_parallel_with",
+    "object": "GPX4",
+    "context": {
+      "en-US": "FSP1 and GPX4 guard the same outcome — suppression of lethal lipid peroxidation — through independent chemistries and cofactor requirements. GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides; FSP1 is GSH-independent and maintains a preventive radical trap. Loss of either axis alone is survivable if the other is intact, so combined inhibition (e.g., iFSP1 + a GPX4 inhibitor) is strongly synergistic. || GPX4 and FSP1 both suppress lethal lipid peroxidation but via independent chemistries: GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides, whereas FSP1 is GSH-independent and maintains a preventive ubiquinol radical trap. Loss of either axis alone is tolerable if the other is intact, so combined inhibition is strongly synergistic.",
+      "zh-TW": "FSP1 與 GPX4 守護同一結果——抑制致死的脂質過氧化——但透過各自獨立的化學機制與輔因子需求。GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物；FSP1 不依賴 GSH 並維持預防性的自由基陷阱。只要另一軸完整，單獨喪失任一軸都可存活，因此同時抑制兩者（例如 iFSP1 加上 GPX4 抑制劑）具有強烈協同效應。 || GPX4 與 FSP1 都抑制致死的脂質過氧化，但機制各自獨立：GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物，而 FSP1 不依賴 GSH 並維持預防性的泛醇自由基陷阱。只要另一軸完整，單獨喪失任一軸都可耐受，因此同時抑制兩者具有強烈協同效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "cb286b9db4b7",
+    "subject": "FSP1",
+    "predicate": "is_activated_by",
+    "object": "PPARα",
+    "context": {
+      "en-US": "PPARα positively drives FSP1 expression; PPARα activators such as fenofibrate and bezafibrate raise FSP1 levels and increase ferroptosis resistance. Conversely, the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity, lowering FSP1 and sensitizing cells to ferroptosis.",
+      "zh-TW": "PPARα 正向驅動 FSP1 的表現；PPARα 活化劑如 fenofibrate 與 bezafibrate 會提升 FSP1 含量並增加鐵死亡抗性。相反地，MDM2/MDMX 複合物透過抑制 PPARα 活性來壓低 FSP1，使細胞對鐵死亡更敏感。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "4fe400a0a608",
+    "subject": "FSP1",
+    "predicate": "depends_on_supply_from",
+    "object": "Mevalonate pathway",
+    "context": {
+      "en-US": "The substrate for FSP1 — ubiquinone/CoQ10 — is a non-sterol product of the mevalonate pathway. Perturbations that suppress mevalonate output toward cholesterol (e.g., statins / HMG-CoA reductase inhibition, or squalene-synthase engagement by FIN56) starve FSP1 of its ubiquinone substrate, collapsing the FSP1 axis and predicting ferroptosis sensitivity. This makes the mevalonate pathway intersect ferroptosis at two nodes: selenocysteine-tRNA maturation for GPX4 and CoQ10 supply for FSP1.",
+      "zh-TW": "FSP1 的受質——泛醌/CoQ10——是甲羥戊酸（mevalonate）路徑的非固醇產物。抑制甲羥戊酸流向膽固醇的擾動（例如 statins / 抑制 HMG-CoA reductase，或 FIN56 啟動角鯊烯合酶）會使 FSP1 缺乏泛醌受質，瓦解 FSP1 軸並預示鐵死亡敏感性。這使甲羥戊酸路徑在兩個節點與鐵死亡交會：GPX4 所需的硒半胱氨酸-tRNA 成熟，以及 FSP1 所需的 CoQ10 供應。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "70d143dbc067",
+    "subject": "FSP1",
+    "predicate": "inhibited_by",
+    "object": "iFSP1",
+    "context": {
+      "en-US": "iFSP1, the first-in-class FSP1 inhibitor (IC50 ≈ 103 nM), binds human FSP1 at a pocket centered on residue F360 and blocks its NAD(P)H-dependent reduction of ubiquinone to ubiquinol, removing the GPX4-independent radical trap. Alone it is often insufficient in high-GPX4 cells but strongly synergizes with GPX4 or system Xc- inhibition to trigger ferroptosis.",
+      "zh-TW": "iFSP1 是第一個 FSP1 抑制劑（IC50 ≈ 103 nM），結合於人類 FSP1 以 F360 殘基為中心的口袋，鎖定並阻斷其依賴 NAD(P)H 將泛醌還原為泛醇的活性，移除不依賴 GPX4 的自由基陷阱。單獨使用在 GPX4 高表現細胞中往往不足，但與 GPX4 或 system Xc- 抑制劑合併時強烈協同誘發鐵死亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "244c9897c6a9",
+    "subject": "FSP1",
+    "predicate": "reduces",
+    "object": "Vitamin K",
+    "context": {
+      "en-US": "A 2022 extension (Mishima et al., Nature 608:778) showed FSP1 is also a warfarin-resistant vitamin K reductase: it reduces vitamin K to its hydroquinone (VKH2), sustaining a non-canonical vitamin K redox cycle that, like the CoQ10 cycle, supplies a reduced radical-trapping antioxidant independent of GPX4. This broadens FSP1 into a general quinone-reductase ferroptosis suppressor and explains its antidotal activity against warfarin poisoning.",
+      "zh-TW": "2022 年的延伸研究（Mishima et al., Nature 608:778）顯示 FSP1 也是一種抗 warfarin 的維生素 K 還原酶：它將維生素 K 還原為其氫醌（VKH2），維持一個非典型的維生素 K 氧化還原循環，如同 CoQ10 循環一般，提供不依賴 GPX4 的還原型自由基捕獲抗氧化劑。這將 FSP1 擴展為廣義的醌還原酶型鐵死亡抑制劑，也解釋了它對 warfarin 中毒的解毒活性。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "8164dd6ae0dc",
+    "subject": "FSP1",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "By regenerating ubiquinol (CoQ10H2) at the plasma membrane, FSP1 maintains a lipophilic radical-trapping antioxidant that halts the propagation of phospholipid peroxyl radicals, suppressing ferroptotic cell death independently of glutathione. It fully rescues lethality in GPX4-null cells.",
+      "zh-TW": "FSP1 在質膜上重新生成泛醇（CoQ10H2），維持脂溶性自由基捕獲抗氧化劑，中止磷脂過氧自由基的傳播，從而不依賴谷胱甘肽地抑制鐵死亡性細胞死亡。它在 GPX4 缺失的細胞中能完全挽救致死效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "1cd9955ff192",
+    "subject": "iFSP1",
+    "predicate": "inhibits",
+    "object": "FSP1",
+    "context": {
+      "en-US": "iFSP1 is the first reported small-molecule FSP1 inhibitor (IC50 ≈ 103 nM, human-specific via the F360 pocket). It blocks FSP1's NAD(P)H-dependent ubiquinone reductase activity, removing the GPX4-independent radical trap and sensitizing cells to ferroptosis, especially when combined with GPX4 inhibition.",
+      "zh-TW": "iFSP1 是第一個被報導的 FSP1 小分子抑制劑（IC50 ≈ 103 nM，透過 F360 口袋特異於人類）。它阻斷 FSP1 依賴 NAD(P)H 的泛醌還原酶活性，移除不依賴 GPX4 的自由基陷阱並使細胞對鐵死亡敏感，尤其與 GPX4 抑制合併時。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "77366e054358",
+    "subject": "iFSP1",
+    "predicate": "synergizes_with",
+    "object": "GPX4 inhibitor",
+    "context": {
+      "en-US": "Because many therapy-resistant cancers rely on FSP1 for ferroptosis resistance, iFSP1 is being explored to sensitize tumors (e.g., hepatocellular carcinoma) to ferroptosis-based therapy, often in combination with GPX4 or system Xc- inhibitors rather than as monotherapy, reflecting the two-pillar ferroptosis-defense model.",
+      "zh-TW": "由於許多治療抗性腫瘤依賴 FSP1 來抵抗鐵死亡，iFSP1 被探索用於使腫瘤（例如肝細胞癌）對鐵死亡療法增敏，通常與 GPX4 或 system Xc- 抑制劑合併使用而非單藥，這反映鐵死亡的雙支柱防禦模型。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "5c38d0a32553",
+    "subject": "GPX4",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "GPX4 (glutathione peroxidase 4) is the master negative regulator of ferroptosis: its selenium-dependent activity reduces phospholipid hydroperoxides to alcohols using Glutathione as cofactor, preventing the iron-dependent lipid peroxidation that drives ferroptotic membrane rupture. Inactivation of GPX4 (genetic, RSL3/ML162, or GSH depletion) is sufficient to trigger ferroptosis.",
+      "zh-TW": "GPX4（glutathione peroxidase 4）是鐵死亡的主要負向調節因子：其依賴硒的活性利用 Glutathione 作為輔因子，將磷脂氫過氧化物還原為醇，防止驅動鐵死亡膜破裂的鐵依賴性脂質過氧化。GPX4 失活（基因缺失、RSL3/ML162、或 GSH 耗竭）即足以觸發鐵死亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "4d1ab6cb92ce",
+    "subject": "GPX4",
+    "predicate": "uses_as_cofactor",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "GPX4 uniquely reduces complex lipid hydroperoxides within membranes using Glutathione (GSH) as the reducing cofactor; its catalytic selenocysteine is essential (replacement with cysteine drops activity ~100-fold). This makes GPX4 the canonical, glutathione-dependent ferroptosis brake, distinct from the GSH-independent FSP1 axis.",
+      "zh-TW": "GPX4 獨特地利用 Glutathione（GSH）作為還原輔因子，在膜內還原複雜的脂質氫過氧化物；其催化性硒半胱氨酸不可或缺（替換為半胱氨酸會使活性下降約 100 倍）。這使 GPX4 成為典型的、依賴谷胱甘肽的鐵死亡制動器，不同於不依賴 GSH 的 FSP1 軸。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "6b0759b481bc",
+    "subject": "GPX4",
+    "predicate": "acts_in_parallel_with",
+    "object": "FSP1",
+    "context": {
+      "en-US": "GPX4 and FSP1 both suppress lethal lipid peroxidation but via independent chemistries: GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides, whereas FSP1 is GSH-independent and maintains a preventive ubiquinol radical trap. Loss of either axis alone is tolerable if the other is intact, so combined inhibition is strongly synergistic.",
+      "zh-TW": "GPX4 與 FSP1 都抑制致死的脂質過氧化，但機制各自獨立：GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物，而 FSP1 不依賴 GSH 並維持預防性的泛醇自由基陷阱。只要另一軸完整，單獨喪失任一軸都可耐受，因此同時抑制兩者具有強烈協同效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "4f8886cb044f",
+    "subject": "ACSL4",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "ACSL4 is a canonical positive regulator of ferroptosis. By charging long-chain PUFAs (e.g., arachidonic acid) to their acyl-CoA thioesters for re-esterification into membrane phospholipids (Lands cycle), ACSL4 enriches the sn-2 position of phosphatidylethanolamines with oxidizable PUFAs — the direct substrates of lipid peroxidation. ACSL4 overexpression raises ferroptosis sensitivity; knockdown protects against RSL3/GPX4 inhibition.",
+      "zh-TW": "ACSL4 是鐵死亡的典型正向調節因子。它將長鏈 PUFA（如花生四烯酸）活化為其醯基-CoA 硫酯，重新酯化進膜磷脂（Lands cycle），使磷脂醯乙醇胺的 sn-2 位置富含可氧化的 PUFA——也就是脂質過氧化的直接受質。ACSL4 過表現會提高鐵死亡敏感性；敲低則能抵抗 RSL3/GPX4 抑制。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "76eaa9fec40e",
+    "subject": "ACSL4",
+    "predicate": "enriches_with_PUFA",
+    "object": "Phospholipid",
+    "context": {
+      "en-US": "ACSL4 localizes to the outer mitochondrial membrane and ER and supplies PUFA-CoA for phospholipid remodeling via the Lands cycle (with PLA2), enriching membrane phospholipids with oxidizable polyunsaturated fatty acids that become the substrates of lipid peroxidation and, consequently, ferroptosis.",
+      "zh-TW": "ACSL4 定位於粒線體外膜與內質網，透過 Lands cycle（與 PLA2 配合）提供 PUFA-CoA 進行磷脂重塑，使膜磷脂富含可氧化的多不飽和脂肪酸，這些脂肪酸隨即成為脂質過氧化乃至鐵死亡的受質。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "38f7316f69b9",
+    "subject": "ACSL4",
+    "predicate": "upregulated_in",
+    "object": "Senescence",
+    "context": {
+      "en-US": "ACSL4 is up-regulated during cellular senescence, contributing to the pro-ferroptotic state of senescent cells and their vulnerability to ferroptosis. Its PUFA-charging activity converges with acid ceramidase on membrane PUFA-phospholipid abundance but through an independent mechanism (ACSL4 levels are unchanged by ACase knockdown).",
+      "zh-TW": "ACSL4 在細胞衰老過程中被上調，促成衰老細胞的促鐵死亡狀態及其對鐵死亡的脆弱性。它的 PUFA 活化活性與 acid ceramidase 在膜 PUFA-磷脂豐度上趨同，但機制各自獨立（ACase 敲低不改變 ACSL4 含量）。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "814d0121c5c5",
+    "subject": "ACSS2",
+    "predicate": "converts_to",
+    "object": "Acetyl-CoA",
+    "context": {
+      "en-US": "ACSS2 (acetyl-CoA synthetase 2) is a nuclear-cytosolic enzyme that ligates acetate to coenzyme A to form acetyl-CoA, providing a mitochondrial-independent route of acetyl-CoA production that supports histone acetylation and gene expression.",
+      "zh-TW": "ACSS2（acetyl-CoA synthetase 2）是一種核-胞質酵素，將乙酸（acetate）與輔酶 A 連接形成 acetyl-CoA，提供一條不依賴粒線體的 acetyl-CoA 生成路徑，以支持組蛋白乙醯化與基因表現。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "e2a3d3def16d",
+    "subject": "ACSS2",
+    "predicate": "restores",
+    "object": "SASP",
+    "context": {
+      "en-US": "In mitochondria-depleted senescent cells, acetate supplementation is converted into acetyl-CoA by ACSS2, restoring histone acetylation (including H3K27ac) and partially rescuing the mitochondrial-dependent SASP programme (IL6, IL8, IL1B, CCL2) without affecting p16/p21 cell-cycle regulators. This shows acetyl-CoA availability, not mitochondria themselves, gates SASP expression.",
+      "zh-TW": "在粒線體缺失的衰老細胞中，乙酸補充會被 ACSS2 轉化為 acetyl-CoA，恢復組蛋白乙醯化（包括 H3K27ac）並部分挽救依賴粒線體的 SASP 程序（IL6、IL8、IL1B、CCL2），且不影響 p16/p21 細胞週期調節因子。這顯示是 acetyl-CoA 的可及性、而非粒線體本身，在調控 SASP 表現。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "3dfdfb806175",
+    "subject": "Ubiquinone",
+    "predicate": "reduced_to_ubiquinol_by",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Ubiquinone (CoQ10, oxidized) is the direct electron acceptor for FSP1 at the plasma membrane; FSP1 reduces it to ubiquinol (CoQ10H2) using NAD(P)H. Ubiquinol then acts as the lipophilic radical-trapping antioxidant that terminates phospholipid peroxyl-radical chains, suppressing ferroptosis.",
+      "zh-TW": "泛醌（CoQ10，氧化態）是 FSP1 在質膜上的直接電子受體；FSP1 利用 NAD(P)H 將其還原為泛醇（CoQ10H2）。隨後泛醇作為脂溶性自由基捕獲抗氧化劑，終止磷脂過氧自由基鏈，抑制鐵死亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "3dcae73a12f9",
+    "subject": "Ubiquinone",
+    "predicate": "synthesized_via",
+    "object": "Mevalonate pathway",
+    "context": {
+      "en-US": "Ubiquinone/CoQ10 is a non-sterol product of the mevalonate pathway. Because FSP1 depends on this ubiquinone supply, interventions that suppress mevalonate flux toward cholesterol (statins / HMG-CoA reductase inhibition, or squalene-synthase engagement by FIN56) deplete the CoQ10 pool and converge on FSP1, predicting ferroptosis sensitivity.",
+      "zh-TW": "泛醌/CoQ10 是甲羥戊酸路徑的非固醇產物。由於 FSP1 依賴此泛醌供應，抑制甲羥戊酸流向膽固醇的介入（statins / 抑制 HMG-CoA reductase，或 FIN56 啟動角鯊烯合酶）會耗竭 CoQ10 池並在 FSP1 處交會，預示鐵死亡敏感性。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "4c5d7ae4f406",
+    "subject": "System Xc-",
+    "predicate": "feeds",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "System Xc- (SLC7A11/SLC3A2 cystine/glutamate antiporter) imports cystine in exchange for glutamate; intracellular cystine is reduced to cysteine, the rate-limiting precursor for Glutathione synthesis. Its inhibition (e.g., by erastin) depletes GSH and is the classic trigger of GPX4-dependent ferroptosis, defining the upstream node of the parallel GPX4 axis.",
+      "zh-TW": "System Xc-（SLC7A11/SLC3A2 胱氨酸/麩氨酸逆向轉運體）以麩氨酸交換導入胱氨酸；細胞內胱氨酸被還原為半胱氨酸，即 Glutathione 合成的速率限制前驅物。其抑制（例如被 erastin）會耗竭 GSH，是 GPX4 依賴性鐵死亡的典型觸發因子，界定了平行 GPX4 軸的上游節點。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "b4d2c661e892",
+    "subject": "PPARα",
+    "predicate": "activates_expression_of",
+    "object": "FSP1",
+    "context": {
+      "en-US": "PPARα positively drives FSP1 expression. PPARα activators (fenofibrate, bezafibrate) raise FSP1 levels and increase ferroptosis resistance, whereas the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity.",
+      "zh-TW": "PPARα 正向驅動 FSP1 的表現。PPARα 活化劑（fenofibrate、bezafibrate）會提升 FSP1 含量並增加鐵死亡抗性，而 MDM2/MDMX 複合物則透過抑制 PPARα 活性來壓低 FSP1。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "dc1d706043d0",
+    "subject": "Statins",
+    "predicate": "sensitize_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Statins inhibit HMG-CoA reductase, lowering flux through the mevalonate pathway and thereby depleting ubiquinone/CoQ10 — the substrate FSP1 requires to regenerate the membrane radical trap. By starving the FSP1–CoQ10–NAD(P)H axis, statins can sensitize cells to ferroptosis, an effect that converges with their GPX4-related effects via selenocysteine-tRNA maturation.",
+      "zh-TW": "Statins 抑制 HMG-CoA reductase，降低甲羥戊酸路徑的通量，從而耗竭泛醌/CoQ10——這正是 FSP1 重新生成膜自由基陷阱所需的受質。透過饑餓化 FSP1–CoQ10–NAD(P)H 軸，statins 可使細胞對鐵死亡增敏，此效應與它們經由硒半胱氨酸-tRNA 成熟對 GPX4 的相關效應交會。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "3edc7819e17d",
+    "subject": "FSP1",
+    "predicate": "tethered_to",
+    "object": "Plasma Membrane",
+    "context": {
+      "en-US": "N-myristoylation of FSP1 tethers the enzyme to the inner leaflet of the plasma membrane, positioning its ubiquinone-reductase activity exactly where phospholipid peroxidation is initiated and propagated — essential for its ferroptosis-suppressive function.",
+      "zh-TW": "FSP1 的 N-肉豆蔻酰化將酵素繫留於質膜內葉，使其泛醌還原酶活性精確定位在磷脂過氧化起始與傳播之處——對其抑制鐵死亡的功能不可或缺。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
+  },
+  {
+    "id": "e562495725af",
+    "subject": "Ferroptosis",
+    "predicate": "suppressed_by",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Ferroptosis is held in check by two parallel systems: the canonical GPX4–glutathione axis and the GPX4-independent FSP1–CoQ10–NAD(P)H axis. FSP1 suppresses ferroptosis by maintaining a ubiquinol radical trap at the plasma membrane, so loss of FSP1 alone is survivable only if GPX4 is intact.",
+      "zh-TW": "鐵死亡受到兩個平行系統的抑制：典型的 GPX4–glutathione 軸，以及不依賴 GPX4 的 FSP1–CoQ10–NAD(P)H 軸。FSP1 透過在質膜上維持泛醇自由基陷阱來抑制鐵死亡，因此只有在 GPX4 完整時，單獨喪失 FSP1 才可存活。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-08-24T21:24:43Z",
+    "updated": "2026-08-24T21:24:43Z"
   }
 ]

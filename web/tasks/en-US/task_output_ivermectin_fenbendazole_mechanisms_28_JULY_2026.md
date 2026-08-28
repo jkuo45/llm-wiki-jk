@@ -2,7 +2,7 @@
 title: "Anticancer Mechanisms: Ivermectin & Fenbendazole — Synergy and Combined Impact"
 description: Analysis of the complementary anticancer mechanisms of ivermectin and fenbendazole, focusing on synergy, convergent pathways, and rationale for combination use in drug repositioning.
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-22
 tags:
   - cancer
   - drug-repositioning

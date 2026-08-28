@@ -2,7 +2,7 @@
 title: "粒線體分裂與融合機制的研究缺口"
 description: "關於粒線體分裂與融合確切機制中已知與未知之處的綜合分析，取材自攝入的回顧文獻與支援文獻。"
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-08-22
 tags:
   - mitochondrial-dynamics
   - research-gaps
@@ -14,7 +14,6 @@ tags:
   - opa1
   - mitophagy
 ---
-
 # 粒線體分裂與融合機制的研究缺口
 
 ## 來源文獻

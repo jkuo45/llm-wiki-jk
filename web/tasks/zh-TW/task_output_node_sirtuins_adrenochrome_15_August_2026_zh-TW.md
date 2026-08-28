@@ -1,8 +1,8 @@
 ---
 title: Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy — 15 August 2026
 description: SIRT1 / SIRT2 / SIRT3 與 Adrenochrome 在 wiki 知識圖譜中接近度的比較節點分析。跳數距離無鑑別力（皆為 2 跳）；路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、有效電阻、個人化 PageRank 與 Fiedler 分析解析出一個依指標而定的排名——SIRT3 在路線冗餘度上勝出，而 SIRT1 在流量接近度上勝出。
-created: 2026-08-15
-updated: 2026-08-15
+created: 2026-08-16
+updated: 2026-08-22
 tags:
   - task-output
   - knowledge-graph
@@ -16,7 +16,6 @@ tags:
 source: graphify-out/graph.json + networkx/scipy analysis
 author: []
 ---
-
 # Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy
 
 > 由圖譜衍生的比較節點分析。日期：15_August_2026

@@ -10,7 +10,7 @@ Reads the role artifact emitted by scripts/03_rebuild_from_triples.py
           artifact's own embedded metrics and compare against the stored
           values (catches stale thresholds after a graph update).
        b. Consistency     : re-run the shared classifier
-          (scripts/node_roles_lib.py) over every node's fingerprint and
+          (scripts/_node_roles_lib.py) over every node's fingerprint and
           require stored roles to match exactly (catches classifier /
           artifact divergence).
        c. Semantic anchors: a handful of literature-anchored nodes are
@@ -22,12 +22,12 @@ updates and roles recalculate, validation adapts automatically and only
 fails when something is genuinely inconsistent.
 
 Run:
-  uv run python3 scripts/05_role_query.py --role Spreader --top 10
-  uv run python3 scripts/05_role_query.py \
+  uv run python3 scripts/04_role_query.py --role Spreader --top 10
+  uv run python3 scripts/04_role_query.py \
       --role Bottleneck --exclude-role Periphery --sort pagerank --top 20
-  uv run python3 scripts/05_role_query.py --node "Acid ceramidase"
-  uv run python3 scripts/05_role_query.py --validate
-  uv run python3 scripts/05_role_query.py --summary
+  uv run python3 scripts/04_role_query.py --node "Acid ceramidase"
+  uv run python3 scripts/04_role_query.py --validate
+  uv run python3 scripts/04_role_query.py --summary
 """
 
 from __future__ import annotations
@@ -38,7 +38,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import node_roles_lib as nrl
+import _node_roles_lib as nrl
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROLES = ROOT / "web" / "data" / "node_roles.json"
@@ -165,7 +165,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
     if mismatches:
         failures.append("classifier mismatch")
         print(f"   FAIL — {len(mismatches)} node(s) disagree with the "
-              f"classifier in scripts/node_roles_lib.py:")
+              f"classifier in scripts/_node_roles_lib.py:")
         for label, have, want in mismatches[:6]:
             print(f"    {label}: stored={have} recomputed={want}")
     else:
@@ -210,7 +210,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
     if failures:
         print(f"VALIDATION FAILED ({'; '.join(failures)}). If this follows a "
               f"genuine graph update, review whether the rule catalog in "
-              f"scripts/node_roles_lib.py still encodes the intended biology.")
+              f"scripts/_node_roles_lib.py still encodes the intended biology.")
         return 1
     print(f"All checks passed — artifact is internally consistent and "
           f"biologically anchored.")
@@ -281,6 +281,8 @@ def main() -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--graph-dir", type=Path, default=ROOT / "web" / "data",
                     help="directory containing node_roles.json")
+    ap.add_argument("--roles-file", type=Path, default=None,
+                    help="explicit path to a node_roles.json (overrides --graph-dir)")
     ap.add_argument("--roles", nargs="+", default=[],
                     help="require ALL of these roles")
     ap.add_argument("--exclude-role", nargs="+", default=[],
@@ -299,7 +301,7 @@ def main() -> int:
                     help="print role distribution summary")
     args = ap.parse_args()
 
-    path = args.graph_dir / "node_roles.json"
+    path = args.roles_file if args.roles_file else args.graph_dir / "node_roles.json"
     doc = load(path)
 
     if args.validate:

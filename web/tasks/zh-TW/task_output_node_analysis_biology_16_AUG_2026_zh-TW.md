@@ -2,7 +2,7 @@
 title: 用於生物學優先排序的節點層級網絡分析
 description: 方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。
 created: 2026-08-16
-updated: 2026-08-23
+updated: 2026-08-22
 source: graphify-out/graph.json node metrics + scripts/04_node_analysis.py + scripts/03_rebuild_from_triples.py
 tags:
   - task-output
@@ -15,7 +15,6 @@ tags:
   - geroscience
 author: []
 ---
-
 # 用於生物學優先排序的節點層級網絡分析
 
 > [!NOTE]

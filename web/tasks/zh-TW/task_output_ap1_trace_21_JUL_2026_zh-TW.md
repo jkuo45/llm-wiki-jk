@@ -3,9 +3,8 @@ title: '圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑'
 description: '關於 AP-1 如何經由 src/ 知識圖譜（2,711 個檔案、63,384 條邊、413 個社群）橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation 的 graphify 追蹤。建構於 21_JUL_2026，使用 --mode deep --directed。'
 tags: [graph-trace, ap-1, senescence, sasp, nrf2, autophagy, neuroinflammation, transcription-factor, aging]
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
-
 # 圖譜追蹤：AP-1 作為跨社群橋樑
 
 **追蹤的問題：** 為什麼 AP-1 會橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation？

@@ -2,7 +2,7 @@
 title: 健康與疾病中的 Sirtuins — 依 Sirtuin 分類的疾病圖景
 description: 從 sirtuins 綜述（s41392-022-01257-8）中依 sirtuin（SIRT1–SIRT7）整理出的節錄彙編，顯示每個成員所涉及的相關疾病與併發症、其角色（保護性/有害性/雙重）、表現變化與機制。
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-14
 tags:
   - task-output
   - sirtuins
@@ -17,7 +17,6 @@ tags:
   - review
 source: https://doi.org/10.1038/s41392-022-01257-8
 ---
-
 # 健康與疾病中的 Sirtuins — 依 Sirtuin 分類的疾病圖景
 
 > `task_output_sirtuins_disease_complications_11_August_2026_by_disease.md` 的姊妹篇。同一篇綜述（Wu 等人，2022，s41392-022-01257-8）從 sirtuin 的角度觀看：每一個 SIRT 成員一節，列出該 sirtuin 扮演角色的所有疾病/併發症。

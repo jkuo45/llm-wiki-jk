@@ -38,7 +38,16 @@ export function renderMarkdown(text, opts = {}) {
     callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${label}</div>${inner}</div>`);
     return `\u0000CALLOUT${callouts.length - 1}\u0000`;
   });
-  let html = esc(src);
+  // Fenced code blocks are extracted up front into placeholders so their real
+  // newlines survive the \n → <br> pipeline below (mermaid consumers read
+  // textContent and need actual line breaks, not <br> elements), and so their
+  // content is fully protected from inline-formatting replacements.
+  const codeBlocks = [];
+  const fenced = src.replace(/```(\w*)\n?([\s\S]*?)```/g, (m, lang, code) => {
+    codeBlocks.push({ lang, code: code.trim() });
+    return `\u0000CODE${codeBlocks.length - 1}\u0000`;
+  });
+  let html = esc(fenced);
   // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref
   html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, display) => {
     const label = target.trim();
@@ -48,8 +57,6 @@ export function renderMarkdown(text, opts = {}) {
       ? `<a class="wikilink" href="${href}" target="_blank" rel="noopener">${text}</a>`
       : `<span class="wikilink">${text}</span>`;
   });
-  // Code blocks: ```...```
-  html = html.replace(/```(\w*)\n?([\s\S]*?)```/g, (m, lang, code) => `<pre><code>${code.trim()}</code></pre>`);
   // Inline code: `...`
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
   // Headers: #### ... (must come before bold/italic); slugged ids so the
@@ -139,6 +146,13 @@ export function renderMarkdown(text, opts = {}) {
   const BLOCK = '(?:h[1-4]|ul|ol|table|pre|blockquote|div)';
   html = html.replace(new RegExp(`(<br>)+(?=<${BLOCK}[ >]|<hr>)`, 'g'), '');
   html = html.replace(new RegExp(`(</${BLOCK}>|<hr>)((<br>)+)`, 'g'), '$1');
+  // Restore extracted code blocks (unwrap placeholder-only paragraphs first).
+  // Content is escaped here — once — and real newlines are preserved.
+  html = html.replace(/<p>\s*\u0000CODE(\d+)\u0000\s*<\/p>/g, '\u0000CODE$1\u0000');
+  html = html.replace(/\u0000CODE(\d+)\u0000/g, (m, i) => {
+    const { lang, code } = codeBlocks[i];
+    return `<pre><code${lang ? ` class="language-${lang.toLowerCase()}"` : ''}>${esc(code)}</code></pre>`;
+  });
   // Restore extracted callouts (unwrap placeholder-only paragraphs first)
   html = html.replace(/<p>\s*\u0000CALLOUT(\d+)\u0000\s*<\/p>/g, '\u0000CALLOUT$1\u0000');
   html = html.replace(/\u0000CALLOUT(\d+)\u0000/g, (m, i) => callouts[i]);

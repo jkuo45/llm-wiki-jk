@@ -1,15 +1,14 @@
 ---
 title: 化療期間的自噬 — 衝突與一致的觀點
 description: 關於自噬在癌症化療中雙重角色的研究發現，編纂自 wiki 筆記與網路文獻（2013–2025）
-created: 2026-07-13
+created: 2026-07-21
 type: task-output
 tags:
   - autophagy
   - cancer
   - chemotherapy
-updated: 2026-07-13
+updated: 2026-08-22
 ---
-
 # 化療期間的自噬：衝突與一致的觀點
 
 > [!NOTE]
