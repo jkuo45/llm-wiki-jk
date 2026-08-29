@@ -27,6 +27,9 @@
   --ink-9: #555;
 
   --teal: #3EC9A7;
+  --ok: #3ad17a;              /* activity dot green */
+  --warning: #E8A33D;         /* thinking pulse, OCR warnings */
+  --warning-ink: #2a1f0a;
   --teal-hover: #5fe3c0;
 }
 html, body { height: 100%; }
@@ -361,27 +364,27 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #page-modal-overlay.light-theme,
 #page-modal-overlay.light-theme #page-modal { background: var(--paper, #F6F3EC); }
 #page-modal-overlay.light-theme #page-modal-header { background: var(--paper, #F6F3EC); border-bottom-color: var(--line); }
-#page-modal-overlay.light-theme #page-modal-header h2 { color: #22304A; }
+#page-modal-overlay.light-theme #page-modal-header h2 { color: var(--ink-hi, #22304A); }
 #page-modal-overlay.light-theme #page-modal-open,
 #page-modal-overlay.light-theme #page-modal-theme,
 #page-modal-overlay.light-theme #reader-prev,
 #page-modal-overlay.light-theme #reader-select,
 #page-modal-overlay.light-theme .lang-toggle {
-  background: #F6F3EC; border-color: #CCC5B2; color: #22304A;
+  background: var(--paper, #F6F3EC); border-color: var(--line-strong, #CCC5B2); color: var(--ink-hi, #22304A);
 }
-#page-modal-overlay.light-theme #page-modal-open { color: #2563A8; }
+#page-modal-overlay.light-theme #page-modal-open { color: var(--link, #2563A8); }
 #page-modal-overlay.light-theme #page-modal-open:hover,
 #page-modal-overlay.light-theme #page-modal-theme:hover,
 #page-modal-overlay.light-theme #reader-prev:hover:not(:disabled) {
-  background: #ECE8DD; border-color: #0F766E; color: #0F766E;
+  background: var(--paper-deep, #ECE8DD); border-color: var(--accent, #0F766E); color: var(--accent, #0F766E);
 }
-#page-modal-overlay.light-theme #reader-select:focus { border-color: #0F766E; }
-#page-modal-overlay.light-theme .lang-toggle button { color: #7C8698; }
-#page-modal-overlay.light-theme .lang-toggle button + button { border-left-color: #CCC5B2; }
-#page-modal-overlay.light-theme .lang-toggle button:hover:not(.active) { color: #22304A; }
-#page-modal-overlay.light-theme .lang-toggle button.active { background: #0F766E; color: #fff; }
-#page-modal-overlay.light-theme #page-modal-close { color: #7C8698; }
-#page-modal-overlay.light-theme #page-modal-close:hover { color: #22304A; }
+#page-modal-overlay.light-theme #reader-select:focus { border-color: var(--accent, #0F766E); }
+#page-modal-overlay.light-theme .lang-toggle button { color: var(--ink-4, #7C8698); }
+#page-modal-overlay.light-theme .lang-toggle button + button { border-left-color: var(--line-strong, #CCC5B2); }
+#page-modal-overlay.light-theme .lang-toggle button:hover:not(.active) { color: var(--ink-hi, #22304A); }
+#page-modal-overlay.light-theme .lang-toggle button.active { background: var(--accent, #0F766E); color: #fff; }
+#page-modal-overlay.light-theme #page-modal-close { color: var(--ink-4, #7C8698); }
+#page-modal-overlay.light-theme #page-modal-close:hover { color: var(--ink-hi, #22304A); }
 #page-modal-overlay.light-theme #page-modal-frame { background: var(--paper, #F6F3EC); }
 
 /* HTML mode overlay — renders a prompt response as a standalone pages.css page */
@@ -585,13 +588,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 /* Activity dot: lit when that panel has active work (prompt / selections). */
 .prompt-mode-tab .mode-dot {
   width: 7px; height: 7px; border-radius: 50%; margin-left: 4px;
-  background: #3ad17a; box-shadow: 0 0 6px rgba(58, 209, 122, 0.75);
+  background: var(--ok); box-shadow: 0 0 6px rgba(58, 209, 122, 0.75);
   display: none; flex: none;
 }
 .prompt-mode-tab.has-activity .mode-dot { display: inline-block; }
 .prompt-mode-tab.thinking .mode-dot {
   display: inline-block;
-  background: #E8A33D; box-shadow: 0 0 6px rgba(232,163,61,.85);
+  background: var(--warning); box-shadow: 0 0 6px rgba(232,163,61,.85);
   animation: prompt-dot-pulse 1s ease-in-out infinite;
 }
 
@@ -613,13 +616,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .prompt-activity-dot {
   position: absolute; top: -3px; right: -3px;
   width: 10px; height: 10px; border-radius: 50%;
-  background: #3ad17a; border: 2px solid var(--surface-raised);
+  background: var(--ok); border: 2px solid var(--surface-raised);
   box-shadow: 0 0 6px rgba(58, 209, 122, 0.75);
   display: none;
 }
 .prompt-activity-dot.on { display: block; }
 .prompt-activity-dot.thinking {
-  background: #E8A33D; border-color: #2a1f0a;
+  background: var(--warning); border-color: var(--warning-ink);
   box-shadow: 0 0 8px rgba(232,163,61,.9);
   animation: prompt-dot-pulse 1s ease-in-out infinite;
 }
@@ -1683,8 +1686,8 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   font-size: 12px; line-height: 1.5; color: #cfe3f5;
   white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; font-family: inherit;
 }
-.notes-lb-ocr.loading::after { content: '…'; color: #E8A33D; }
-.notes-lb-ocr.ocr-warn { color: #E8A33D; }
+.notes-lb-ocr.loading::after { content: '…'; color: var(--warning); }
+.notes-lb-ocr.ocr-warn { color: var(--warning); }
 
 /* Transcript "→ Prompt" send button + inline status hint */
 .at-h-right { display: inline-flex; align-items: center; gap: 8px; flex: none; min-width: 0; }
@@ -1697,7 +1700,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .notes-prompt-btn:disabled { opacity: 0.45; cursor: default; }
 .notes-prompt-btn:disabled:hover { background: none; color: #9ec1e8; }
 .notes-lb-status {
-  color: #E8A33D; font-size: 11px; line-height: 1.4; white-space: nowrap;
+  color: var(--warning); font-size: 11px; line-height: 1.4; white-space: nowrap;
   overflow: hidden; text-overflow: ellipsis; max-width: 220px;
 }
 
