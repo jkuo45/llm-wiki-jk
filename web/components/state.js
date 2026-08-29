@@ -18,6 +18,7 @@ export const state = {
   analysisOpen: false,
   analysisMode: 'graph',
   analysisUiLang: 'en-US', // analysis panel language ('en-US' | 'zh-TW')
+  chatOpen: false, // floating prompt/chat window (bottom-right launcher)
   // Notes panel (gallery / lightbox). Synced to the URL hash by
   // notes.js → routing.updateHash() so a note can be deep-linked.
   notesOpen: false,

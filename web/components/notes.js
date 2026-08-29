@@ -5,7 +5,7 @@
 import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
-import { openPromptComposer } from './prompt.js';
+import { openPromptComposer } from './analysis.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
 import { anyModalOpen } from './modal.js';
 

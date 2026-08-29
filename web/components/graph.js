@@ -12,8 +12,8 @@ import { activateTrace, activateRoute, clearTrace, setActiveWindow, setupDataset
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { esc } from './markdown.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
-// Side-effect import: prompt.js attaches its own listeners.
-import { applyAnalysisUiLang } from './prompt.js';
+// Side-effect import: analysis.js attaches its own listeners.
+import { applyAnalysisUiLang } from './analysis.js';
 // Notes panel (gallery / upload / lightbox).
 import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
 // Side-effect import: theme.js wires the settings popover theme toggle.
@@ -232,12 +232,24 @@ async function restoreFromHash(params) {
 
   if (shouldOpen && !panelOpen) {
     analysisBtn.click();
-    const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
-    const tab = document.querySelector(`.analysis-mode-tab[data-mode="${tabMode}"]`);
-    if (tab && !tab.classList.contains('active')) tab.click();
+    // Legacy deep links carrying `mode=prompt` (from the old Prompt/Graph tab
+    // switch) open the floating chat window instead of the tools panel.
+    if (params.mode === 'prompt') {
+      const chatBtn = document.getElementById('btn-chat');
+      if (chatBtn && !chatBtn.classList.contains('open')) chatBtn.click();
+    }
     applyAnalysisUiLang(params.uilang);
   } else if (shouldClose && panelOpen) {
     analysisBtn.click();
+  }
+  // Floating prompt/chat window (bottom-right launcher): `chat` in the hash
+  // means it was open. Close it when the marker is gone so back/forward and
+  // pasted links round-trip faithfully.
+  const chatBtnEl = document.getElementById('btn-chat');
+  if (chatBtnEl) {
+    const chatOpenNow = chatBtnEl.classList.contains('open');
+    if (params && params.chat && !chatOpenNow) chatBtnEl.click();
+    else if (params && !params.chat && chatOpenNow) chatBtnEl.click();
   }
   state.suppressHashUpdate = false;
 }

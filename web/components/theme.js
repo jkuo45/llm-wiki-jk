@@ -83,7 +83,7 @@ function applyTheme(theme) {
       : 'Switch to light theme / 切換為淺色主題');
   }
   syncReaderFrame(theme);
-  // 6) Notify in-app consumers (prompt.js rebuilds an open HTML-mode document).
+  // 6) Notify in-app consumers (analysis.js rebuilds an open HTML-mode document).
   window.dispatchEvent(new CustomEvent('site-theme-change', { detail: { theme } }));
   themeSubscribers.forEach((fn) => { try { fn(theme); } catch (err) {} });
 }

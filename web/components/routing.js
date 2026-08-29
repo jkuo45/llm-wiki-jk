@@ -44,9 +44,14 @@ export function updateHash(pushState = true) {
       parts.push(`section=${encodeURIComponent(state.readerSection)}`);
     }
   }
+  if (state.chatOpen) {
+    parts.push('chat');
+    if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
+      parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
+    }
+  }
   if (state.analysisOpen) {
     parts.push('analysis');
-    parts.push(`mode=${encodeURIComponent(state.analysisMode)}`);
     if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
     }
