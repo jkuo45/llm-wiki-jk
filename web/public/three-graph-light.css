@@ -25,6 +25,9 @@ body {
      specific rules below remain for cases where light needs a different
      treatment, not just a different colour. */
   --bg: #F6F3EC;
+  /* Paper: the cream page background shared by the three full-screen panels
+     (reader, analysis, notes) so their chrome is visually consistent. */
+  --paper: #F6F3EC;
   --surface: #FFFFFF;
   --surface-raised: #FAF7F0;
   --surface-sunken: #EFEAE0;
@@ -252,9 +255,9 @@ body {
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
    opaque so the graph never shows through, mirroring the reader. Background
    uses the reader's paper (#F6F3EC); cards stay white like the reader's sheets. */
-#prompt-panel { background: #F6F3EC; }
-#prompt-box { background: #F6F3EC; }
-#prompt-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
+#prompt-panel { background: var(--paper); }
+#prompt-box { background: var(--paper); }
+#prompt-header { background: var(--paper); border-bottom-color: #E2DCCE; }
 #prompt-header span { color: #4B5563; }
 #prompt-header .panel-title { color: #22304A; }
 #prompt-header .panel-title-zh { color: inherit; }
@@ -502,10 +505,10 @@ body {
 #prompt-filter-toggle input { accent-color: #2563A8; }
 
 /* Notes panel — full-viewport overlay like the Reader / Analysis panel */
-#notes-panel { background: #FFFFFF; }
+#notes-panel { background: var(--paper); }
 #notes-panel::before { display: none; }
-#notes-box { background: #FFFFFF; border: none; border-radius: 0; box-shadow: none; }
-#notes-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
+#notes-box { background: var(--paper); border: none; border-radius: 0; box-shadow: none; }
+#notes-header { background: var(--paper); border-bottom-color: #E2DCCE; }
 #notes-header button#notes-close { color: #7C8698; }
 #notes-header button#notes-close:hover { color: #C0392B; background: rgba(192, 57, 43, 0.1); }
 #notes-filters { border-bottom-color: #E2DCCE; }

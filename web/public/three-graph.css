@@ -354,10 +354,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #page-modal-frame { flex: 1; width: 100%; border: none; background: var(--bg); min-height: 0; }
 
 /* Reader light theme — header bar and chrome follow the article theme
-   (#page-modal-overlay.light-theme is toggled by components/theme.js). */
+   (#page-modal-overlay.light-theme is toggled by components/theme.js).
+   Background uses --paper (defined in three-graph-light.css) — the same cream
+   paper token as the analysis + notes panels. Falls back to the literal value
+   in case the light sheet isn't loaded. */
 #page-modal-overlay.light-theme,
-#page-modal-overlay.light-theme #page-modal { background: #F6F3EC; }
-#page-modal-overlay.light-theme #page-modal-header { background: #F6F3EC; border-bottom-color: var(--line); }
+#page-modal-overlay.light-theme #page-modal { background: var(--paper, #F6F3EC); }
+#page-modal-overlay.light-theme #page-modal-header { background: var(--paper, #F6F3EC); border-bottom-color: var(--line); }
 #page-modal-overlay.light-theme #page-modal-header h2 { color: #22304A; }
 #page-modal-overlay.light-theme #page-modal-open,
 #page-modal-overlay.light-theme #page-modal-theme,
@@ -379,7 +382,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #page-modal-overlay.light-theme .lang-toggle button.active { background: #0F766E; color: #fff; }
 #page-modal-overlay.light-theme #page-modal-close { color: #7C8698; }
 #page-modal-overlay.light-theme #page-modal-close:hover { color: #22304A; }
-#page-modal-overlay.light-theme #page-modal-frame { background: #F6F3EC; }
+#page-modal-overlay.light-theme #page-modal-frame { background: var(--paper, #F6F3EC); }
 
 /* HTML mode overlay — renders a prompt response as a standalone pages.css page */
 #html-mode-overlay {
