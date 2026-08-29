@@ -257,7 +257,7 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
     node_roles_doc = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "source_graph": "graphify-out/graph.json",
-        "graph_build": graph.get("built_at_commit", ""),
+        "graph_build": short_commit(graph.get("built_at_commit", "")),
         "rules": {
             name: {"definition": expr, "operational": True}
             for name, expr in _node_roles_lib.ROLE_DEFS
@@ -473,6 +473,30 @@ def _stable_bytes(obj) -> bytes:
         parts = sorted(_stable_bytes(v) for v in obj)
         return b"[" + b",".join(parts) + b"]"
     return json.dumps(obj, ensure_ascii=False, sort_keys=True).encode("utf-8")
+
+
+def short_commit(commit: str) -> str:
+    """Abbreviate a git commit hash to the canonical short form (git --short).
+
+    graphify-out/graph.json stores full 40-char SHAs in ``built_at_commit``,
+    while the wiki build uses ``git rev-parse --short HEAD`` (8 chars). Collapsing
+    both to the short form makes the two layers render matching-length
+    provenance hashes on pages and in artifacts.
+    """
+    if not commit:
+        return ""
+    try:
+        out = subprocess.run(
+            ["git", "rev-parse", "--short", commit],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        ).stdout.strip()
+        if out:
+            return out
+    except Exception:
+        pass
+    return commit[:8]
 
 
 def write_version_file() -> None:

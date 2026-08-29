@@ -33,6 +33,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -42,6 +43,31 @@ from pathlib import Path
 import networkx as nx
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def short_commit(commit: str) -> str:
+    """Abbreviate a git commit hash to the canonical short form (git --short).
+
+    graphify-out/graph.json stores full 40-char SHAs in ``built_at_commit``,
+    while the wiki build uses ``git rev-parse --short HEAD`` (8 chars). Collapsing
+    both to the short form makes the two layers render matching-length
+    provenance hashes on pages and in artifacts.
+    """
+    if not commit:
+        return ""
+    try:
+        out = subprocess.run(
+            ["git", "rev-parse", "--short", commit],
+            cwd=str(ROOT),
+            capture_output=True,
+            text=True,
+            timeout=10,
+        ).stdout.strip()
+        if out:
+            return out
+    except Exception:
+        pass
+    return commit[:8]
 DEFAULT_GRAPH = ROOT / "graphify-out" / "graph.json"
 DEFAULT_OUT = ROOT / "web" / "public" / "data" / "link-prediction.json"
 
@@ -382,7 +408,7 @@ def main() -> int:
     doc = build_doc(args.graph, args.min_degree, args.max_candidates, args.spectral)
     try:
         raw = json.loads(Path(args.graph).read_text(encoding="utf-8"))
-        doc["graph_build"] = raw.get("built_at_commit", "")
+        doc["graph_build"] = short_commit(raw.get("built_at_commit", ""))
     except (OSError, json.JSONDecodeError):
         pass
 
