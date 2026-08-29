@@ -469,14 +469,14 @@ window.addEventListener('resize', syncNotesKeyboard);
 notesBtn.addEventListener('click', () => {
   if (notesPanel.classList.contains('open')) { closeNotes(); return; }
   // Only one overlay at a time: close the analysis panel if it is open.
-  const promptClose = $('prompt-close');
-  const promptOpen = document.getElementById('prompt-panel')?.classList.contains('open');
+  const promptClose = $('analysis-close');
+  const promptOpen = document.getElementById('analysis-panel')?.classList.contains('open');
   if (promptOpen && promptClose) promptClose.click();
   openNotes();
 });
 // Conversely, if the analysis panel opens while notes are up, close notes first.
 document.addEventListener('click', (e) => {
-  if (notesPanel.classList.contains('open') && e.target.closest('#btn-prompt')) closeNotes();
+  if (notesPanel.classList.contains('open') && e.target.closest('#btn-analysis')) closeNotes();
 }, true);
 // The header close (×) doubles as the back-to-gallery control in the
 // single-image view. It always stays an × icon; only its help text reflects

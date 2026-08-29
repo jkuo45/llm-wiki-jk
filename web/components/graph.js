@@ -175,8 +175,8 @@ async function restoreFromHash(params) {
   if (params && (params.note || params.notes)) {
     // Notes wins over analysis when both are in the hash. Close the analysis
     // panel FIRST — clicking its button while notes is open would close notes
-    // via the notes panel's btn-prompt capture listener.
-    const analysisBtn = document.getElementById('btn-prompt');
+    // via the notes panel's btn-analysis capture listener.
+    const analysisBtn = document.getElementById('btn-analysis');
     if (analysisBtn.classList.contains('open')) analysisBtn.click();
     // Await the (possibly async) notes restore so hash updates stay suppressed
     // through the gallery fetch + lightbox opening (openLightbox etc. push
@@ -224,7 +224,7 @@ async function restoreFromHash(params) {
   // and is never auto-reopened.
   const notesActive = !!(params && (params.notes || params.note));
   const hasSelection = !!(params && (params.node || params.edge || params.trace));
-  const analysisBtn = document.getElementById('btn-prompt');
+  const analysisBtn = document.getElementById('btn-analysis');
   const panelOpen = analysisBtn.classList.contains('open');
   const hasAnalysisKey = !!(params && 'analysis' in params);
   const shouldOpen = !notesActive && (params.analysis === true || (!hasAnalysisKey && hasSelection));
@@ -233,7 +233,7 @@ async function restoreFromHash(params) {
   if (shouldOpen && !panelOpen) {
     analysisBtn.click();
     const tabMode = params.mode === 'prompt' ? 'ask' : 'explore';
-    const tab = document.querySelector(`.prompt-mode-tab[data-mode="${tabMode}"]`);
+    const tab = document.querySelector(`.analysis-mode-tab[data-mode="${tabMode}"]`);
     if (tab && !tab.classList.contains('active')) tab.click();
     applyAnalysisUiLang(params.uilang);
   } else if (shouldClose && panelOpen) {

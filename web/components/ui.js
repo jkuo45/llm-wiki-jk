@@ -1,6 +1,6 @@
 // Analysis-panel UI helpers: node/edge info card, Graph Query (trace) panel,
 // settings popover, controls, zoom bar. The old sidebar was removed — node
-// info and graph queries now live inside the analysis panel (#prompt-box).
+// info and graph queries now live inside the analysis panel (#analysis-box).
 
 import * as THREE from 'three';
 
@@ -25,7 +25,7 @@ import { registerModal, openModal } from './modal.js';
 // Active-window highlight (dataset panel vs prompt panel)
 // ------------------------------------------------------------
 const activeDatasetPanel = document.getElementById('dataset-panel');
-const activePromptPanel = document.getElementById('prompt-panel');
+const activePromptPanel = document.getElementById('analysis-panel');
 
 // ------------------------------------------------------------
 // Dataset-mode toggle (Triples / Wiki / Combined). The mode is baked into the
@@ -101,7 +101,7 @@ let lastLoadedNotifyId = null;
 function notifyDetailLoaded(nodeId, label) {
   if (!nodeId || nodeId === lastLoadedNotifyId) return;
   lastLoadedNotifyId = nodeId;
-  const dot = document.getElementById('prompt-activity-dot');
+  const dot = document.getElementById('analysis-activity-dot');
   if (dot) dot.classList.add('on');
   const useZh = state.analysisUiLang === 'zh-TW';
   let toast = document.getElementById('detail-loaded-toast');
@@ -228,7 +228,7 @@ export function hideNodeInfo() {
   // Nothing is loaded in the info card anymore — clear the analysis button's
   // loaded indicator (refreshActivity() re-lights it if prompt work is active).
   lastLoadedNotifyId = null;
-  const dot = document.getElementById('prompt-activity-dot');
+  const dot = document.getElementById('analysis-activity-dot');
   if (dot) dot.classList.remove('on');
 }
 

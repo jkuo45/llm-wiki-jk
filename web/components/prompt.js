@@ -23,22 +23,22 @@ import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from 
 // ------------------------------------------------------------
 // Elements + API endpoints
 // ------------------------------------------------------------
-const promptBtn = document.getElementById('btn-prompt');
-const promptActivityDot = document.getElementById('prompt-activity-dot');
-const promptPanel = document.getElementById('prompt-panel');
+const analysisBtn = document.getElementById('btn-analysis');
+const analysisActivityDot = document.getElementById('analysis-activity-dot');
+const analysisPanel = document.getElementById('analysis-panel');
 const promptMessages = document.getElementById('prompt-messages');
 const promptInput = document.getElementById('prompt-input');
 const promptSend = document.getElementById('prompt-send');
-const promptCloseBtn = document.getElementById('prompt-close');
-const promptLangBtns = Array.from(document.querySelectorAll('#prompt-panel .lang-toggle [data-lang]'));
+const analysisCloseBtn = document.getElementById('analysis-close');
+const promptLangBtns = Array.from(document.querySelectorAll('#analysis-panel .lang-toggle [data-lang]'));
 const promptFilterToggle = document.getElementById('prompt-filter-toggle');
 const promptFilterCheckbox = document.getElementById('prompt-filter-nodes');
 const promptFilterCount = document.getElementById('prompt-filter-count');
-const promptModes = document.getElementById('prompt-modes');
+const analysisModes = document.getElementById('analysis-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const promptTagPopup = document.getElementById('prompt-tag-popup');
 const promptTags = document.getElementById('prompt-tags');
-const promptModeSwitch = document.getElementById('prompt-mode-switch');
+const analysisModeSwitch = document.getElementById('analysis-mode-switch');
 const analysisTools = document.getElementById('analysis-tools');
 const htmlModeOverlay = document.getElementById('html-mode-overlay');
 const htmlModeFrame = document.getElementById('html-mode-frame');
@@ -130,7 +130,7 @@ const UI_STRINGS = {
     addCommToSetB: 'Add community to Set B',
     runCompare: 'A and B',
     runCompareTitle: 'Analyze Set A vs Set B — or press Enter',
-    promptBtn: '→ Prompt',
+    analysisBtn: '→ Prompt',
     promptBtnTitle: 'Send this selection to the Prompt panel as an analysis query',
     reset: 'Reset',
     resetTitle: 'Reset analysis',
@@ -249,7 +249,7 @@ const UI_STRINGS = {
     addCommToSetB: '將社群加入集合 B',
     runCompare: 'A 和 B',
     runCompareTitle: '分析集合 A 與 B — 或按 Enter',
-    promptBtn: '→ 提示',
+    analysisBtn: '→ 提示',
     promptBtnTitle: '將此選擇傳送至 Prompt 面板作為分析查詢',
     reset: '重設',
     resetTitle: '重設分析',
@@ -330,7 +330,7 @@ function graphifyEnabled() {
 
 function syncGraphifyUI() {
   const on = graphifyEnabled();
-  promptModes.classList.toggle('graphify-off', !on);
+  analysisModes.classList.toggle('graphify-off', !on);
   promptInput.placeholder = on
     ? t('inputPlaceholderGraphOn')
     : t('inputPlaceholderGraphOff');
@@ -354,18 +354,18 @@ function applyUiLang(lang) {
 
   promptLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
   [...promptLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
-  const langToggle = document.querySelector('#prompt-panel .lang-toggle');
+  const langToggle = document.querySelector('#analysis-panel .lang-toggle');
   if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
 
-  promptPanel.querySelectorAll('[data-i18n]').forEach((el) => {
+  analysisPanel.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
     if (key && t(key)) { el.textContent = t(key); el.setAttribute('aria-label', t(key)); }
   });
-  promptPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
+  analysisPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
     const key = el.dataset.i18nTitle;
     if (key && t(key)) el.title = t(key);
   });
-  promptCloseBtn.setAttribute('aria-label', t('panelClose'));
+  analysisCloseBtn.setAttribute('aria-label', t('panelClose'));
   // Response-mode button tooltips (chrome without data-i18n markers).
   document.querySelectorAll('#response-mode .resp-mode-btn').forEach((b) => {
     b.title = t(b.dataset.mode === 'md' ? 'respModeAskTitle' : 'respModeHtmlTitle');
@@ -441,10 +441,10 @@ syncGraphifyUI();
 // the other inline icons so they inherit the button's text color). The icon is
 // a static chart/diagram glyph; the button simply toggles the analysis panel.
 
-promptBtn.addEventListener('click', () => {
+analysisBtn.addEventListener('click', () => {
   promptOpen = !promptOpen;
-  promptPanel.classList.toggle('open', promptOpen);
-  promptBtn.classList.toggle('open', promptOpen);
+  analysisPanel.classList.toggle('open', promptOpen);
+  analysisBtn.classList.toggle('open', promptOpen);
   if (!promptOpen) setActiveWindow(null);
   if (promptOpen) promptInput.focus();
   syncPromptPanelKeyboard();
@@ -468,13 +468,13 @@ promptBtn.addEventListener('click', () => {
 // Android with `interactive-widget=resizes-content` already shrinks
 // `innerHeight`, so the offset self-corrects to zero there.
 function syncPromptPanelKeyboard() {
-  if (!promptPanel) return;
-  if (!promptPanel.classList.contains('open') || !window.visualViewport) {
-    promptPanel.style.bottom = '';
+  if (!analysisPanel) return;
+  if (!analysisPanel.classList.contains('open') || !window.visualViewport) {
+    analysisPanel.style.bottom = '';
     return;
   }
   const keyboard = Math.max(0, window.innerHeight - window.visualViewport.height);
-  promptPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
+  analysisPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
 }
 if (window.visualViewport) {
   window.visualViewport.addEventListener('resize', syncPromptPanelKeyboard);
@@ -484,14 +484,14 @@ syncPromptPanelKeyboard();
 
 function closePrompt() {
   promptOpen = false;
-  promptPanel.classList.remove('open');
-  promptBtn.classList.remove('open');
+  analysisPanel.classList.remove('open');
+  analysisBtn.classList.remove('open');
   setActiveWindow(null);
   state.analysisOpen = false;
   updateHash();
 }
 
-promptCloseBtn.addEventListener('click', closePrompt);
+analysisCloseBtn.addEventListener('click', closePrompt);
 
 // ------------------------------------------------------------
 // Message rendering
@@ -814,7 +814,7 @@ document.addEventListener('keydown', (e) => {
   if (anyModalOpen()) return; // modal.js closes the topmost overlay itself
   const nodeCard = document.getElementById('at-node-detail');
   if (nodeCard && !nodeCard.hidden) { closeNodeDetail(); return; }
-  if (promptPanel.classList.contains('open')) { closePrompt(); return; }
+  if (analysisPanel.classList.contains('open')) { closePrompt(); return; }
 });
 
 // Enter in Graph mode runs the Set A/B comparison (equivalent to the
@@ -825,7 +825,7 @@ document.addEventListener('keydown', (e) => {
   const t = e.target;
   if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
       t.tagName === 'SELECT' || t.isContentEditable)) return;
-  if (panelMode !== 'explore' || !promptPanel.classList.contains('open')) return;
+  if (panelMode !== 'explore' || !analysisPanel.classList.contains('open')) return;
   e.preventDefault();
   runCompare();
 });
@@ -1664,7 +1664,7 @@ function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
     // panel (large by default) occupies the right side, so keep the target
     // well inside the visible graph area.
     const hasSidebar = window.innerWidth >= 1200;
-    const promptOpen = promptPanel.classList.contains('open');
+    const promptOpen = analysisPanel.classList.contains('open');
     const dist = 320;
     const direction = targetPos.clone().sub(camera.position);
     if (direction.lengthSq() > 0.0001) direction.normalize();
@@ -1723,8 +1723,8 @@ let panelMode = 'explore'; // 'ask' (Prompt) | 'explore' (Graph) — Graph is th
 function setPanelMode(mode) {
   panelMode = mode;
   state.analysisMode = mode === 'explore' ? 'graph' : 'prompt';
-  promptPanel.classList.toggle('mode-explore', mode === 'explore');
-  promptModeSwitch.querySelectorAll('.prompt-mode-tab').forEach(t => {
+  analysisPanel.classList.toggle('mode-explore', mode === 'explore');
+  analysisModeSwitch.querySelectorAll('.analysis-mode-tab').forEach(t => {
     const active = t.dataset.mode === mode;
     t.classList.toggle('active', active);
     t.setAttribute('aria-selected', active ? 'true' : 'false');
@@ -1733,8 +1733,8 @@ function setPanelMode(mode) {
   updateHash();
 }
 
-promptModeSwitch.addEventListener('click', (e) => {
-  const tab = e.target.closest('.prompt-mode-tab');
+analysisModeSwitch.addEventListener('click', (e) => {
+  const tab = e.target.closest('.analysis-mode-tab');
   if (!tab) return;
   setPanelMode(tab.dataset.mode);
 });
@@ -1746,21 +1746,21 @@ function refreshActivity() {
   const conversationActive = promptActive ||
     (panelMode !== 'explore' && promptInput.value.trim().length > 0);
   const graphActive = compareA.length > 0 || compareB.length > 0;
-  const promptTab = promptPanel.querySelector('.prompt-mode-tab[data-mode="ask"]');
-  const graphTab = promptPanel.querySelector('.prompt-mode-tab[data-mode="explore"]');
+  const promptTab = analysisPanel.querySelector('.analysis-mode-tab[data-mode="ask"]');
+  const graphTab = analysisPanel.querySelector('.analysis-mode-tab[data-mode="explore"]');
   if (promptTab) promptTab.classList.toggle('has-activity', conversationActive);
   if (graphTab) graphTab.classList.toggle('has-activity', graphActive);
-  if (promptActivityDot) promptActivityDot.classList.toggle('on', conversationActive || graphActive);
+  if (analysisActivityDot) analysisActivityDot.classList.toggle('on', conversationActive || graphActive);
 }
 
 // Prompt indicator: yellow (pulsing) while the assistant is generating, green
 // when idle/ready. Drives the floating prompt button's dot and the Prompt tab dot.
 function setPromptThinking(on) {
-  if (promptActivityDot) {
-    promptActivityDot.classList.add('on');
-    promptActivityDot.classList.toggle('thinking', on);
+  if (analysisActivityDot) {
+    analysisActivityDot.classList.add('on');
+    analysisActivityDot.classList.toggle('thinking', on);
   }
-  const promptTab = promptPanel.querySelector('.prompt-mode-tab[data-mode="ask"]');
+  const promptTab = analysisPanel.querySelector('.analysis-mode-tab[data-mode="ask"]');
   if (promptTab) promptTab.classList.toggle('thinking', on);
 }
 
@@ -1974,7 +1974,7 @@ function renderAnalysisTools() {
       </div>
       <div class="at-actions">
         <button class="at-compare-btn" id="at-compare-go" title="${esc(t('runCompareTitle'))}"><span class="enter-ico">&#9166;</span> ${esc(t('runCompare'))}</button>
-        <button class="at-prompt-btn" id="at-send-prompt" title="${esc(t('promptBtnTitle'))}">${esc(t('promptBtn'))}</button>
+        <button class="at-prompt-btn" id="at-send-prompt" title="${esc(t('promptBtnTitle'))}">${esc(t('analysisBtn'))}</button>
         <button id="prompt-new" title="${esc(t('resetTitle'))}">${esc(t('reset'))}</button>
         <button class="at-export-json-btn" id="at-export-json" title="${esc(t('saveBtnTitle'))}">${esc(t('saveBtn'))}</button>
       </div>
@@ -2353,10 +2353,10 @@ export function openPromptComposer(text, tags = []) {
   }
   state.analysisOpen = true;
   setPanelMode('ask');
-  if (!promptPanel.classList.contains('open')) {
+  if (!analysisPanel.classList.contains('open')) {
     promptOpen = true;
-    promptPanel.classList.add('open');
-    promptBtn.classList.add('open');
+    analysisPanel.classList.add('open');
+    analysisBtn.classList.add('open');
     syncPromptPanelKeyboard();
     updateHash();
   }

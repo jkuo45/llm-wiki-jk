@@ -205,18 +205,18 @@ body {
 #controls #btn-reset,
 #controls #btn-dataset,
 #controls #btn-save-png,
-#controls #btn-prompt,
+#controls #btn-analysis,
 #controls #btn-notes,
 #controls #btn-unstick,
 #controls #dataset-mode-toggle { color: var(--ink-4); }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
-#controls #btn-prompt:hover,
+#controls #btn-analysis:hover,
 #controls #btn-notes:hover,
 #controls #btn-unstick:hover,
 #controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
-#controls #btn-prompt.open, #controls #btn-prompt.active,
+#controls #btn-analysis.open, #controls #btn-analysis.active,
 #controls #btn-notes.open { background: var(--paper-deep); border-color: var(--accent); color: var(--ink-hi); }
 #controls #btn-save-png.ok { color: #1E7A4E; border-color: #1E7A4E; }
 #controls #btn-save-png.err { color: #C0392B; border-color: #C0392B; }
@@ -261,22 +261,22 @@ body {
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
    opaque so the graph never shows through, mirroring the reader. Background
    uses the reader's paper (var(--paper)); cards stay white like the reader's sheets. */
-#prompt-panel { background: var(--paper-body); }
-#prompt-box { background: var(--paper-body); }
-#prompt-header { background: var(--paper); border-bottom-color: var(--line); }
-#prompt-header span { color: #4B5563; }
-#prompt-header .panel-title { color: var(--ink-hi); }
-#prompt-header .panel-title-zh { color: inherit; }
+#analysis-panel { background: var(--paper-body); }
+#analysis-box { background: var(--paper-body); }
+#analysis-header { background: var(--paper); border-bottom-color: var(--line); }
+#analysis-header span { color: #4B5563; }
+#analysis-header .panel-title { color: var(--ink-hi); }
+#analysis-header .panel-title-zh { color: inherit; }
 /* Notes panel header title — mirrors the Reader's light-theme h2 color. */
 #notes-header .panel-title { color: var(--ink-hi); }
-#prompt-mode-switch { border-color: var(--line-strong); }
-.prompt-mode-tab { color: var(--ink-4); }
-.prompt-mode-tab:hover { color: var(--ink-hi); }
-.prompt-mode-tab.active { background: var(--accent); color: var(--surface); }
+#analysis-mode-switch { border-color: var(--line-strong); }
+.analysis-mode-tab { color: var(--ink-4); }
+.analysis-mode-tab:hover { color: var(--ink-hi); }
+.analysis-mode-tab.active { background: var(--accent); color: var(--surface); }
 #controls #dataset-mode-toggle .mode-label { color: inherit; }
 .dataset-mode { color: var(--ink-4); }
-.prompt-activity-dot { border-color: var(--surface); }
-.prompt-activity-dot.thinking { border-color: var(--surface); }
+.analysis-activity-dot { border-color: var(--surface); }
+.analysis-activity-dot.thinking { border-color: var(--surface); }
 #detail-loaded-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
 
 /* Explore widgets */
@@ -402,7 +402,7 @@ body {
 /* Prompt suggestions (Ask mode) */
 #prompt-new { border-color: var(--line-strong); color: var(--ink-4); }
 #prompt-new:hover { border-color: var(--accent); color: var(--ink-hi); }
-#prompt-close { color: var(--ink-4); }
+#analysis-close { color: var(--ink-4); }
 
 /* Messages */
 .prompt-copy-btn { color: #9AA4B3; }
@@ -473,11 +473,11 @@ body {
 .route-mechanism { color: #4B5563; }
 
 /* Modes bar: graphify toggle + response-mode buttons */
-#prompt-modes { border-top-color: var(--line); }
+#analysis-modes { border-top-color: var(--line); }
 #graphify-toggle { color: #6D5BD0; }
 #graphify-toggle input { accent-color: #6D5BD0; }
 #graphify-off-hint { color: var(--accent); }
-#prompt-modes.graphify-off #graphify-toggle { color: #9AA4B3; }
+#analysis-modes.graphify-off #graphify-toggle { color: #9AA4B3; }
 .prompt-mode-divider { background: var(--line); }
 #response-mode { color: var(--ink-4); }
 .resp-mode-btn { background: var(--paper); border-color: var(--line-strong); color: var(--ink-4); }
