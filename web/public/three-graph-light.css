@@ -203,13 +203,15 @@ body {
 #controls #btn-save-png,
 #controls #btn-prompt,
 #controls #btn-notes,
-#controls #btn-unstick { color: #7C8698; }
+#controls #btn-unstick,
+#controls #dataset-mode-toggle { color: #7C8698; }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
 #controls #btn-prompt:hover,
 #controls #btn-notes:hover,
-#controls #btn-unstick:hover { color: #22304A; border-color: #0F766E; }
+#controls #btn-unstick:hover,
+#controls #dataset-mode-toggle:hover { color: #22304A; border-color: #0F766E; }
 #controls #btn-prompt.open, #controls #btn-prompt.active,
 #controls #btn-notes.open { background: #ECE8DD; border-color: #0F766E; color: #22304A; }
 #controls #btn-save-png.ok { color: #1E7A4E; border-color: #1E7A4E; }
@@ -267,10 +269,7 @@ body {
 .prompt-mode-tab { color: #7C8698; }
 .prompt-mode-tab:hover { color: #22304A; }
 .prompt-mode-tab.active { background: #0F766E; color: #fff; }
-#controls #dataset-mode-toggle { background: #FFFFFF; color: #7C8698; border-color: #CCC5B2; }
-#controls #dataset-mode-toggle .mode-label { color: #7C8698; }
-#controls #dataset-mode-toggle:hover { color: #22304A; border-color: #0F766E; }
-#controls #dataset-mode-toggle:hover .mode-label { color: #22304A; }
+#controls #dataset-mode-toggle .mode-label { color: inherit; }
 .dataset-mode { color: #7C8698; }
 .prompt-activity-dot { border-color: #FFFFFF; }
 .prompt-activity-dot.thinking { border-color: #FFFFFF; }

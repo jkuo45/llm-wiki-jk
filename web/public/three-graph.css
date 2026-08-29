@@ -498,11 +498,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #controls #btn-reset,
 #controls #btn-dataset,
 #controls #btn-save-png,
-#controls #btn-unstick { position: relative; flex: none; width: 44px; padding: 10px; color: var(--ink-4); }
+#controls #btn-unstick,
+#controls #dataset-mode-toggle { position: relative; flex: none; width: 44px; padding: 10px; color: var(--ink-4); }
 #controls #btn-reset:hover,
 #controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
-#controls #btn-unstick:hover { color: var(--ink-hi); border-color: var(--accent); }
+#controls #btn-unstick:hover,
+#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
 #controls #btn-save-png { display: none; }
 #controls #btn-save-png.ok { color: #58D68D; border-color: #58D68D; }
 #controls #btn-save-png.err { color: #E4575E; border-color: #E4575E; }
@@ -596,17 +598,15 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 /* Dataset-mode toggle: a square button the same size as the reset-camera
    button, stacked directly above it. Icon varies by mode; label is "mode". */
 #controls #dataset-mode-toggle {
-  order: 5; position: relative; flex: none; width: 44px; padding: 6px;
-  color: var(--ink-4); display: flex; flex-direction: column;
+  order: 5; display: flex; flex-direction: column;
   align-items: center; justify-content: center; gap: 2px; line-height: 1;
 }
 #controls #dataset-mode-toggle svg { width: 16px; height: 16px; display: block; }
 #controls #dataset-mode-toggle .mode-label {
   font-size: 8px; text-transform: lowercase; letter-spacing: 0.3px;
-  color: var(--ink-5); white-space: nowrap;
+  color: inherit; white-space: nowrap;
 }
-#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
-#controls #dataset-mode-toggle:hover .mode-label { color: var(--ink-hi); }
+#controls #dataset-mode-toggle:hover .mode-label { color: inherit; }
 .dataset-mode { color: var(--ink-5); font-size: 12px; margin: 0 0 8px; }
 
 /* Floating analysis button: green dot signals any active work in the panel. */
