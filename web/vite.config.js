@@ -1,7 +1,28 @@
 import { fileURLToPath } from 'node:url';
 import { defineConfig, loadEnv } from 'vite';
+import fs from 'node:fs';
 
 const envDir = fileURLToPath(new URL('..', import.meta.url));
+
+// The standalone public/pages/task-viewer.html is served outside the JS
+// bundle and imports '../components/markdown.js' (=> /components/markdown.js at
+// the deploy root). The bundled app imports the same module from web/components,
+// but Vite only copies publicDir — so emit it explicitly for production. Dev
+// already resolves it straight from web/components, so this is build-only.
+function emitStandaloneMarkdown() {
+  return {
+    name: 'emit-standalone-markdown',
+    apply: 'build',
+    generateBundle() {
+      const src = fileURLToPath(new URL('./components/markdown.js', import.meta.url));
+      this.emitFile({
+        type: 'asset',
+        fileName: 'components/markdown.js',
+        source: fs.readFileSync(src, 'utf-8'),
+      });
+    },
+  };
+}
 
 export default defineConfig(({ mode }) => {
   // VITE_* build-time env vars live in the repo-root .env (gitignored),
@@ -15,5 +36,5 @@ export default defineConfig(({ mode }) => {
         'Add them to the repo-root .env (see AGENTS.md / deploy docs).',
     );
   }
-  return { envDir };
+  return { envDir, plugins: [emitStandaloneMarkdown()] };
 });
