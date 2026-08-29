@@ -385,7 +385,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #page-modal-overlay.light-theme .lang-toggle button.active { background: var(--accent, #0F766E); color: #fff; }
 #page-modal-overlay.light-theme #page-modal-close { color: var(--ink-4, #7C8698); }
 #page-modal-overlay.light-theme #page-modal-close:hover { color: var(--ink-hi, #22304A); }
-#page-modal-overlay.light-theme #page-modal-frame { background: var(--paper, #F6F3EC); }
+#page-modal-overlay.light-theme #page-modal-frame { background: var(--paper-body, #f2ece1); }
 
 /* HTML mode overlay — renders a prompt response as a standalone pages.css page */
 #html-mode-overlay {
