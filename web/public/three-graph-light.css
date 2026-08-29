@@ -250,9 +250,10 @@ body {
    (components/theme.js toggles the .light-theme class on the overlay.) */
 
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
-   opaque so the graph never shows through, mirroring the reader. */
-#prompt-panel { background: #FFFFFF; }
-#prompt-box { background: #FFFFFF; }
+   opaque so the graph never shows through, mirroring the reader. Background
+   uses the reader's paper (#F6F3EC); cards stay white like the reader's sheets. */
+#prompt-panel { background: #F6F3EC; }
+#prompt-box { background: #F6F3EC; }
 #prompt-header { background: #F6F3EC; border-bottom-color: #E2DCCE; }
 #prompt-header span { color: #4B5563; }
 #prompt-header .panel-title { color: #22304A; }
