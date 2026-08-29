@@ -15,7 +15,7 @@ Type I interferons (IFN-I) are a family of pleiotropic cytokines — principally
 
 ## Signaling
 
-In the canonical [[cGAS-STING Pathway|cGAS-STING]] axis, detection of cytosolic dsDNA activates [[cGAS]] to produce [[cGAMP]], which engages [[STING]] and drives translocation to the [[Endoplasmic Reticulum|ER]]-Golgi. Activated STING recruits [[TBK1]], which phosphorylates and activates [[IRF3]] and [[NF-kappaB|NF-κB]], licensing transcription of IFN-I and [[Interferon-Stimulated Genes|ISGs]]. Vertebrate STING acquired a C-terminal tail that enabled robust TBK1/IRF3 recruitment, explaining the evolutionary expansion of IFN-I signaling capacity. IFN-I binds the heterodimeric [[IFNAR1]] receptor on target cells, triggering JAK-STAT signaling and a broad ISG transcriptional program.
+In the canonical [[cGAS-STING Pathway|cGAS-STING]] axis, detection of cytosolic dsDNA activates [[cGAS]] to produce [[cGAMP]], which engages [[STING]] and drives translocation to the [[Endoplasmic Reticulum|ER]]-Golgi. Activated STING recruits [[TBK1]], which phosphorylates and activates [[IRF3]] and [[NF-κB|NF-κB]], licensing transcription of IFN-I and [[Interferon-Stimulated Genes|ISGs]]. Vertebrate STING acquired a C-terminal tail that enabled robust TBK1/IRF3 recruitment, explaining the evolutionary expansion of IFN-I signaling capacity. IFN-I binds the heterodimeric [[IFNAR1]] receptor on target cells, triggering JAK-STAT signaling and a broad ISG transcriptional program.
 
 ## Clinical Relevance
 

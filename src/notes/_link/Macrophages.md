@@ -58,10 +58,10 @@ List of documents that mention this entity
 - [[Oxidative Stress]] — Impairs macrophage cholesterol efflux and ABCA1 expression
 - [[Resveratrol]] — Restores cholesterol efflux under oxidative stress; upregulates ABCA1
 - [[SR-BI]] — Bidirectional cholesterol transporter on macrophage surface
-- [[NF-kappaB]] — Pro-inflammatory transcription factor activated in macrophages during atherosclerosis
+- [[NF-κB]] — Pro-inflammatory transcription factor activated in macrophages during atherosclerosis
 - [[Macrophages]] — related entity
 
 ## Linking Summary
-- New links added: [[Atherosclerosis]], [[LDL]], [[HDL]], [[ABCA1]], [[ABCG1]], [[Cholesterol Efflux]], [[Foam Cells]], [[Oxidative Stress]], [[Resveratrol]], [[SR-BI]], [[NF-kappaB]]
+- New links added: [[Atherosclerosis]], [[LDL]], [[HDL]], [[ABCA1]], [[ABCG1]], [[Cholesterol Efflux]], [[Foam Cells]], [[Oxidative Stress]], [[Resveratrol]], [[SR-BI]], [[NF-κB]]
   - Strong connections to strengthen: [[Macrophages]] ↔ [[Foam Cells]], [[Macrophages]] ↔ [[Cholesterol Efflux]]
 

@@ -18,7 +18,7 @@ S-R learning depends critically on [[Dopamine]] signaling within the [[Striatum]
 
 ## Impact of COMT
 
-Because striatal dopamine tone is shaped locally by [[COMT]] ([[Catechol-O-methyltransferase]]) — given sparse [[Dopamine Transporter]] in this region — COMT activity strongly influences S-R acquisition. Studies in COMT-overexpressing (COMT-OE) mice show that elevated [[COMT]] activity accelerates dopamine clearance and leads to **slower acquisition** of stimulus-response tasks. Proposed mechanisms include reduced dopamine availability at MSN synapses (impairing reinforcement) and poorer top-down control over response selection, manifesting as increased impulsivity or perseveration. Conversely, slower COMT (Met allele) preserves dopamine and can facilitate habit formation, though at the cost of flexibility.
+Because striatal dopamine tone is shaped locally by [[COMT]] ([[COMT|Catechol-O-methyltransferase]]) — given sparse [[Dopamine Transporter]] in this region — COMT activity strongly influences S-R acquisition. Studies in COMT-overexpressing (COMT-OE) mice show that elevated [[COMT]] activity accelerates dopamine clearance and leads to **slower acquisition** of stimulus-response tasks. Proposed mechanisms include reduced dopamine availability at MSN synapses (impairing reinforcement) and poorer top-down control over response selection, manifesting as increased impulsivity or perseveration. Conversely, slower COMT (Met allele) preserves dopamine and can facilitate habit formation, though at the cost of flexibility.
 
 ## Relationship to Cognition and Pathology
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Striatum]], [[Medium spiny neurons]], [[MSNs]], [[Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Dopamine Transporter]], [[Parkinson's Disease]], [[Schizophrenia]].
+- New links added: [[Striatum]], [[Medium spiny neurons]], [[MSNs]], [[Dopamine]], [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine Transporter]], [[Parkinson's Disease]], [[Schizophrenia]].
 - Suggested new entity notes to create: [[Habit Learning]], [[Corticostriatal Plasticity]], [[Computational Psychiatry]].
 - Strong connections to strengthen: [[Stimulus-response learning]] ↔ [[COMT]]; [[Stimulus-response learning]] ↔ [[Striatum]].

@@ -14,7 +14,7 @@ aliases: [3,4-dihydroxyphenylethanol-elenolate dialdehyde]
 
 ## Chemical Structure
 
-Oleacein is the dialdehydic form of the elenolate linked to 3,4-dihydroxyphenylethanol (hydroxytyrosol). The catechol (ortho-dihydroxyphenyl) moiety in its structure is the key feature that engages [[COMT]] ([[Catechol-O-methyltransferase]]), since catechol-bearing phenols are classic substrates for O-methylation.
+Oleacein is the dialdehydic form of the elenolate linked to 3,4-dihydroxyphenylethanol (hydroxytyrosol). The catechol (ortho-dihydroxyphenyl) moiety in its structure is the key feature that engages [[COMT]] ([[COMT|Catechol-O-methyltransferase]]), since catechol-bearing phenols are classic substrates for O-methylation.
 
 ## Antioxidant and Anti-inflammatory Actions
 
@@ -22,7 +22,7 @@ Oleacein scavenges free radicals and upregulates antioxidant defenses (Nrf2/HO-1
 
 ## Interaction with COMT
 
-[[Oleacein]] is a **dual substrate-inhibitor** of [[COMT]]. It is itself O-methylated by the enzyme (consuming [[S-Adenosylmethionine]] and [[Methyl groups]]), and simultaneously competes with endogenous [[Catechols]] — [[Dopamine]], [[Epinephrine]], [[Norepinephrine]] — for the active site. At sufficient intake, oleacein can slow the methylation and clearance of these catecholamines, analogous to other polyphenols such as [[Luteolin]] and [[Rutin]]. In slow-[[COMT]] individuals this competitive inhibition may further elevate synaptic catechol tone.
+[[Oleacein]] is a **dual substrate-inhibitor** of [[COMT]]. It is itself O-methylated by the enzyme (consuming [[SAM|S-Adenosylmethionine]] and [[Methyl groups]]), and simultaneously competes with endogenous [[Catechols]] — [[Dopamine]], [[Epinephrine]], [[Norepinephrine]] — for the active site. At sufficient intake, oleacein can slow the methylation and clearance of these catecholamines, analogous to other polyphenols such as [[Luteolin]] and [[Rutin]]. In slow-[[COMT]] individuals this competitive inhibition may further elevate synaptic catechol tone.
 
 ## Physiological and Clinical Relevance
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[Catechols]], [[Anti-inflammatory]], [[Oxidative Stress]], [[Aging]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[S-Adenosylmethionine]], [[Methyl groups]], [[Methylation Cycle]], [[Luteolin]], [[Rutin]].
+- New links added: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Catechols]], [[Anti-inflammatory]], [[Oxidative Stress]], [[Aging]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[SAM|S-Adenosylmethionine]], [[Methyl groups]], [[Methylation Cycle]], [[Luteolin]], [[Rutin]].
 - Suggested new entity notes to create: [[Hydroxytyrosol]], [[Oleuropein]], [[Nrf2]].
 - Strong connections to strengthen: [[Oleacein]] ↔ [[COMT]]; [[Oleacein]] ↔ [[Catechols]].

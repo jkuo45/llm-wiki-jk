@@ -18,7 +18,7 @@ MTRR uses FAD and NADPH to reduce the oxidized (Co²⁺/Co³⁺) form of methion
 
 ## Role in the Methylation Cycle
 
-By keeping [[Methionine Synthase]] functional, [[MTRR]] ensures a steady supply of [[Methionine]] and, downstream, [[S-Adenosylmethionine]] ([[SAMe]]) — the universal methyl donor. SAMe is consumed by [[COMT]] ([[Catechol-O-methyltransferase]]) to O-methylate [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. MTRR activity therefore indirectly governs the methyl-group availability that sets the pace of catecholamine clearance in the [[Prefrontal Cortex]] and [[Striatum]].
+By keeping [[Methionine Synthase]] functional, [[MTRR]] ensures a steady supply of [[Methionine]] and, downstream, [[SAM|S-Adenosylmethionine]] ([[SAMe]]) — the universal methyl donor. SAMe is consumed by [[COMT]] ([[COMT|Catechol-O-methyltransferase]]) to O-methylate [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. MTRR activity therefore indirectly governs the methyl-group availability that sets the pace of catecholamine clearance in the [[Prefrontal Cortex]] and [[Striatum]].
 
 ## Genetic Variants
 
@@ -44,10 +44,10 @@ List of documents that mention this entity
 - [[MethylB12]]: Active B12 form feeding methionine synthase.
 - [[COMT]]: Indirectly supported by SAMe from MTRR activity.
 - [[MTHFR]]: Compounding gene in homocysteine metabolism.
-- [[S-Adenosylmethionine]]: Downstream methyl donor for COMT.
+- [[SAM|S-Adenosylmethionine]]: Downstream methyl donor for COMT.
 
 ## Linking Summary
 
-- New links added: [[Methionine Synthase]], [[Methylation Cycle]], [[Vitamin B12]], [[MethylB12]], [[Hydroxocobalamin]], [[COMT]], [[MTHFR]], [[S-Adenosylmethionine]], [[Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Homocysteine]], [[Prefrontal Cortex]], [[Striatum]], [[Schizophrenia]].
+- New links added: [[Methionine Synthase]], [[Methylation Cycle]], [[Vitamin B12]], [[MethylB12]], [[Hydroxocobalamin]], [[COMT]], [[MTHFR]], [[SAM|S-Adenosylmethionine]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Homocysteine]], [[Prefrontal Cortex]], [[Striatum]], [[Schizophrenia]].
 - Suggested new entity notes to create: [[Methionine Synthase]], [[Hyperhomocysteinemia]].
 - Strong connections to strengthen: [[MTRR]] ↔ [[COMT]]; [[MTRR]] ↔ [[Methylation Cycle]].

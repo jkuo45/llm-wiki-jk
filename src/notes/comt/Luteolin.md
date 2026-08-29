@@ -22,7 +22,7 @@ Luteolin exerts anti-inflammatory effects primarily through inhibition of pro-in
 
 ## Interaction with COMT
 
-Because luteolin and several of its co-occurring flavonoids carry catechol moieties, they are substrates for [[COMT]] ([[Catechol-O-methyltransferase]]). At supplemental doses, competing flavonoid catechols can inhibit [[COMT]] activity, slowing the methylation and clearance of endogenous [[Catechols]] such as [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. This COMT-inhibitory property is shared with other polyphenols (e.g., [[Rutin]], [[Quercetin]], [[Oleacein]]) and is mechanistically relevant to the "slow COMT" phenotype, where additional enzyme inhibition may elevate synaptic catecholamine tone.
+Because luteolin and several of its co-occurring flavonoids carry catechol moieties, they are substrates for [[COMT]] ([[COMT|Catechol-O-methyltransferase]]). At supplemental doses, competing flavonoid catechols can inhibit [[COMT]] activity, slowing the methylation and clearance of endogenous [[Catechols]] such as [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. This COMT-inhibitory property is shared with other polyphenols (e.g., [[Rutin]], [[Quercetin]], [[Oleacein]]) and is mechanistically relevant to the "slow COMT" phenotype, where additional enzyme inhibition may elevate synaptic catecholamine tone.
 
 ## Physiological and Neuroprotective Function
 
@@ -52,6 +52,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Flavonoids]], [[Catechol-O-methyltransferase]], [[Catechols]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Rutin]], [[Quercetin]], [[Oleacein]].
+- New links added: [[Flavonoids]], [[COMT|Catechol-O-methyltransferase]], [[Catechols]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Rutin]], [[Quercetin]], [[Oleacein]].
 - Suggested new entity notes to create: [[Nrf2]], [[NF-κB]], [[NLRP3 inflammasome]].
 - Strong connections to strengthen: [[Luteolin]] ↔ [[COMT]]; [[Luteolin]] ↔ [[Oxidative Stress]].

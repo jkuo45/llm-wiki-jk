@@ -15,7 +15,7 @@ cGAS inhibitors are a class of experimental small molecules that block the nucle
 
 ## Mechanism and Therapeutic Rationale
 
-By inhibiting cGAS, these molecules interrupt the [[cGAS-STING Pathway]] at its upstream enzymatic step, reducing [[Interferon-Stimulated Genes|ISG]] expression, [[NF-kappaB|NF-κB]]–driven cytokines, and maladaptive glial activation. Critically, cGAS inhibition selectively suppresses neurotoxic inflammatory programs while preserving beneficial microglial functions such as phagocytosis and recruitment to pathological aggregates. In tauopathy models, pharmacological cGAS inhibition phenocopies the protective [[APOE3 Christchurch]] (R136S) resilience allele, validating that suppression of cGAS-STING is sufficient to recapitulate genetic protection against tau toxicity.
+By inhibiting cGAS, these molecules interrupt the [[cGAS-STING Pathway]] at its upstream enzymatic step, reducing [[Interferon-Stimulated Genes|ISG]] expression, [[NF-κB|NF-κB]]–driven cytokines, and maladaptive glial activation. Critically, cGAS inhibition selectively suppresses neurotoxic inflammatory programs while preserving beneficial microglial functions such as phagocytosis and recruitment to pathological aggregates. In tauopathy models, pharmacological cGAS inhibition phenocopies the protective [[APOE3 Christchurch]] (R136S) resilience allele, validating that suppression of cGAS-STING is sufficient to recapitulate genetic protection against tau toxicity.
 
 ## Context-Dependent Considerations
 

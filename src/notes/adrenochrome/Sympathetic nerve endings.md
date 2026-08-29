@@ -43,7 +43,7 @@ Sympathetic neurotransmission proceeds through a stereotyped sequence:
 
 Signal termination is rapid and highly efficient:
 - **[[NET]] (Norepinephrine Transporter):** Approximately 80–90% of released norepinephrine is cleared by high-affinity reuptake into the presynaptic varicosity via [[NET]], where it is either repackaged into vesicles or metabolized.
-- **Enzymatic Metabolism:** The remainder is metabolized by [[COMT]] ([[Catechol-O-methyltransferase]]) and [[MAO]] ([[Monoamine oxidase]]). COMT methylates norepinephrine to normetanephrine, while MAO (primarily [[MAO-A]] in sympathetic neurons) oxidatively deaminates it to [[Dihydroxyphenylglycol]] ([[DHPG]]). The combined action produces [[Vanillylmandelic acid]] ([[VMA]]) as the major urinary metabolite.
+- **Enzymatic Metabolism:** The remainder is metabolized by [[COMT]] ([[COMT|Catechol-O-methyltransferase]]) and [[MAO]] ([[Monoamine oxidase]]). COMT methylates norepinephrine to normetanephrine, while MAO (primarily [[MAO-A]] in sympathetic neurons) oxidatively deaminates it to [[Dihydroxyphenylglycol]] ([[DHPG]]). The combined action produces [[Vanillylmandelic acid]] ([[VMA]]) as the major urinary metabolite.
 
 ## Adrenochrome Relevance
 

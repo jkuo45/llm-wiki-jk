@@ -62,7 +62,7 @@ Honokiol blocks [[NMDA receptor]]-, glutamate-, and K⁺-evoked cationic influx 
 
 ### NF-κB / inflammatory cascade suppression
 
-Honokiol inhibits [[NF-kappaB|NF-κB]] activation downstream of [[PKC]] and [[MAPK]], reducing [[TNF-alpha|TNFα]], [[Nitric Oxide|NO]], and [[COX-2]] expression in macrophages, microglia, astrocytes, and dendritic cells. It also suppresses [[NF-kappaB|NF-κB]]/TGF-β1 signaling (partly via SIRT3), limiting fibrotic and inflammatory responses. These actions drive its analgesic and anti-neuroinflammatory effects.
+Honokiol inhibits [[NF-κB|NF-κB]] activation downstream of [[PKC]] and [[MAPK]], reducing [[TNF-alpha|TNFα]], [[Nitric Oxide|NO]], and [[COX-2]] expression in macrophages, microglia, astrocytes, and dendritic cells. It also suppresses [[NF-κB|NF-κB]]/TGF-β1 signaling (partly via SIRT3), limiting fibrotic and inflammatory responses. These actions drive its analgesic and anti-neuroinflammatory effects.
 
 ### Pro-survival and metabolic / mitochondrial effects
 
@@ -122,7 +122,7 @@ List of documents in the wiki that mention this entity
 - [[Magnolol]] — Structural analog; overlapping GABA_A/NMDA/NF-κB activities, generally slightly less potent, but more effective than honokiol at low-dose substance P analgesia.
 - [[GABA_A receptor]] — Primary anxiolytic/sleep target; positive allosteric modulator, strongest at δ-subunit receptors.
 - [[NMDA receptor]] — Inhibited by honokiol; PSD95–nNOS uncoupling prevents ischemic neurotoxicity.
-- [[NF-kappaB]] — Suppressed by honokiol, reducing TNFα/NO/COX-2 in immune and glial cells.
+- [[NF-κB]] — Suppressed by honokiol, reducing TNFα/NO/COX-2 in immune and glial cells.
 - [[Blood-Brain Barrier]] — Readily crossed by honokiol, enabling CNS actions.
 - [[Alzheimer's Disease]] — Honokiol reduces Aβ toxicity and neuroinflammation.
 - [[Stroke]] — Infarct reduction via antioxidant, anti-inflammatory, and PSD95–nNOS mechanisms.
@@ -134,4 +134,4 @@ List of documents in the wiki that mention this entity
 
 - New links integrated: [[_document_ - Neuro-Modulating Effects of Honokiol A Review]], [[MnSOD]], [[OSCP]], [[Inflammation]], [[Non-REM Sleep]], [[Inflammatory Pain]]
 - Suggested new entity notes: [[OSCP]] (created), [[MnSOD]] (created)
-- Strong connections: [[Honokiol]] ↔ [[SIRT3]], [[Honokiol]] ↔ [[GABA_A receptor]], [[Honokiol]] ↔ [[NMDA receptor]], [[Honokiol]] ↔ [[NF-kappaB]], [[Honokiol]] ↔ [[Dihydromyricetin]]
+- Strong connections: [[Honokiol]] ↔ [[SIRT3]], [[Honokiol]] ↔ [[GABA_A receptor]], [[Honokiol]] ↔ [[NMDA receptor]], [[Honokiol]] ↔ [[NF-κB]], [[Honokiol]] ↔ [[Dihydromyricetin]]

@@ -11,7 +11,7 @@ aliases: [Toll-Like Receptor 9]
 
 ## Overview
 
-TLR9 (Toll-Like Receptor 9) is an endosomal Toll-like receptor that senses unmethylated CpG-rich DNA within the lumen of endosomes and lysosomes. Unlike the cytosolic DNA sensor [[cGAS]], TLR9 is confined to the endolysosomal compartment, where it detects pathogen-derived DNA and, in some contexts, endogenous self-DNA delivered to these vesicles. TLR9 activation triggers [[NF-kappaB]] and interferon regulatory factor signaling, linking endosomal DNA detection to [[Inflammation]] and [[Type I Interferon|type I IFN]] responses.
+TLR9 (Toll-Like Receptor 9) is an endosomal Toll-like receptor that senses unmethylated CpG-rich DNA within the lumen of endosomes and lysosomes. Unlike the cytosolic DNA sensor [[cGAS]], TLR9 is confined to the endolysosomal compartment, where it detects pathogen-derived DNA and, in some contexts, endogenous self-DNA delivered to these vesicles. TLR9 activation triggers [[NF-κB]] and interferon regulatory factor signaling, linking endosomal DNA detection to [[Inflammation]] and [[Type I Interferon|type I IFN]] responses.
 
 ## TLR9 and cGAS Crosstalk
 
@@ -30,15 +30,15 @@ The function of TLR9 in the brain is strikingly context dependent. In the [[Alzh
 
   - [[cGAS]]: Upregulated by TLR9 in some cell types, linking endosomal to cytosolic sensing
   - [[STING]]: Shared downstream of DNA sensing via the cGAS axis
-  - [[NF-kappaB]]: Transcription factor engaged by TLR9 signaling
+  - [[NF-κB]]: Transcription factor engaged by TLR9 signaling
   - [[TLR9|endosomes]]: Compartment where TLR9 detects DNA
   - [[Neuroinflammation]]: CNS consequence of dysregulated TLR9 activity
   - [[Alzheimer's Disease]]: Context where TLR9 is downregulated (protective)
 
 ## Linking Summary
 
-- New links added: [[TLR9]], [[cGAS]], [[STING]], [[NF-kappaB]], [[Neuroinflammation]], [[Alzheimer's Disease]]
+- New links added: [[TLR9]], [[cGAS]], [[STING]], [[NF-κB]], [[Neuroinflammation]], [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[TLR9|CpG DNA]], [[TLR9|endosomes]], [[Lysosome]]
 - Strong connections to strengthen:
     - [[TLR9]] ↔ [[cGAS]]
-    - [[TLR9]] ↔ [[NF-kappaB]]
+    - [[TLR9]] ↔ [[NF-κB]]

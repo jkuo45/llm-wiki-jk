@@ -88,7 +88,7 @@ List of documents that mention this entity
 - [[Oxidative Stress]] — Impairs HDL function and macrophage cholesterol efflux; accelerates atherogenesis
 - [[Foam Cells]] — Formed when macrophages accumulate cholesterol; hallmark of early atherosclerotic lesions
 - [[Resveratrol]] — Inhibits lipoprotein oxidation and enhances cholesterol efflux; atheroprotective
-- [[NF-kappaB]] — Pro-inflammatory transcription factor driving atherosclerotic inflammation
+- [[NF-κB]] — Pro-inflammatory transcription factor driving atherosclerotic inflammation
 - [[SIRT1]] — Endothelial overexpression protects in ApoE-KO mice; SRT1720 ameliorates endothelial dysfunction; reduces foam cell formation
 - [[SIRT2]] — Decreases plaque formation via macrophage polarization
 - [[SIRT3]] — Protects HUVECs from oxLDL dysfunction via SIRT3/SOD2 (circ_0003423)

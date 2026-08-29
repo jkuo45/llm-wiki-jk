@@ -2,7 +2,7 @@
 title: KAP1
 description: KRAB-associated protein 1 (TRIM28/TIF1β), a transcriptional corepressor mono-ADP-ribosylated by SIRT6 to silence LINE-1 retrotransposons via HP1α in aging and senescence.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-08-28
 tags:
   - protein
   - corepressor
@@ -41,19 +41,30 @@ The review places KAP1 on the retrotransposon-derepression axis that drives [[In
 
 Because KAP1/SIRT6 silencing of retrotransposons limits SASP, strategies that preserve SIRT6 activity or bolster KAP1 repression may be [[Senomorphic|senomorphic]]. Conversely, NRTIs such as emtricitabine (NCT04500847) blunt L1/HERV reverse-transcription inflammation and are candidate anti-inflammaging agents.
 
+## SIRT1 stability in the DNA damage response
+
+Beyond chromatin silencing, [[KAP1|TRIM28]] is the E3 ligase that controls [[SIRT1]] protein stability in the DNA damage response (Ouyang et al., *Int J Biol Sci* 2022 — [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response]]):
+
+- [[ATM]] phosphorylates KAP1/TRIM28 at **Ser824**, licensing poly-ubiquitination of SIRT1.
+- Caspases cleave SIRT1 at the C-terminal **DEPDVP(704–709)** motif; **cleaved SIRT1 binds TRIM28 more strongly**, accelerating proteasomal degradation — the two PTMs are reciprocal (proteasome inhibition reduces caspase cleavage).
+- Loss of SIRT1 (anti-apoptotic in DDR) enhances DNA-damage-induced cell death, making TRIM28 a pro-death regulator upstream of the caspase cascade — the degradation arm of the [[Sirtuin-Caspase Crosstalk]].
+
 ## Documents
 
 - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows SIRT6 mono-ADP-ribosylates KAP1 to recruit HP1α and package LINE-1 into heterochromatin; in senescence, SIRT6 depletion releases this repression, driving retrotransposon derepression and SASP/inflammaging.
 
 ## Connections
 
-- [[Sirtuin 6]]: mono-ADP-ribosylates KAP1 to activate repression
+- [[SIRT6]]: mono-ADP-ribosylates KAP1 to activate repression
 - [[HP1alpha]]: heterochromatin partner recruited by KAP1
 - [[LINE-1]]: retrotransposon silenced by KAP1
 - [[RB1]]: collaborates with KAP1/SIRT6 at L1 loci
+- [[SIRT1]]: poly-ubiquitinated by KAP1/TRIM28 in the DDR; caspase cleavage of SIRT1 enhances TRIM28 binding
+- [[ATM]]: phosphorylates KAP1 (Ser824) to license SIRT1 turnover
+- [[Sirtuin-Caspase Crosstalk]]: KAP1/TRIM28 is the degradation arm of the caspase→SIRT1 feedback
 
 ## Linking Summary
 
-- New links added: [[Sirtuin 6]], [[HP1alpha]], [[LINE-1]], [[RB1]], [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[Senomorphic]]
+- New links added: [[Sirtuin 6]], [[HP1alpha]], [[LINE-1]], [[RB1]], [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[Senomorphic]], [[SIRT1]], [[ATM]], [[Sirtuin-Caspase Crosstalk]]
 - Suggested new entity notes to create: [[SETDB1]], [[TRIM Family]], [[cGAS-STING Pathway]]
-- Strong connections to strengthen: [[KAP1]] ↔ [[Sirtuin 6]] (SIRT6 ribosylation), [[KAP1]] ↔ [[LINE-1]] (retrotransposon silencing)
+- Strong connections to strengthen: [[KAP1]] ↔ [[Sirtuin 6]] (SIRT6 ribosylation), [[KAP1]] ↔ [[LINE-1]] (retrotransposon silencing), [[KAP1]] ↔ [[SIRT1]] (DDR degradation axis)

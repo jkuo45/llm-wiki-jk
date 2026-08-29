@@ -34,7 +34,7 @@ All subunits share a conserved N-terminal Rel homology domain (RHD) responsible 
 
 ### Canonical Pathway
 
-Triggered by [[TNFα]], [[IL-1β]], [[LPS|bacterial lipopolysaccharide]], and [[Reactive Oxygen Species|ROS]], leading to activation of the IκB kinase (IKK) complex: [[IKKα]] (CHUK), [[IKKbeta]] (IKBKB), and the regulatory subunit [[NEMO]] (IKKγ). [[TAK1]] phosphorylates IKKβ, which then phosphorylates [[IkappaBalpha]] at Ser-32 and Ser-36, triggering K48-linked polyubiquitination and 26S proteasomal degradation. Freed NF-κB dimers (predominantly p50/RelA) translocate to the nucleus within minutes.
+Triggered by [[TNFα]], [[IL-1β]], [[LPS|bacterial lipopolysaccharide]], and [[Reactive Oxygen Species|ROS]], leading to activation of the IκB kinase (IKK) complex: [[IKKalpha|IKKα]] (CHUK), [[IKKbeta]] (IKBKB), and the regulatory subunit [[NEMO]] (IKKγ). [[TAK1]] phosphorylates IKKβ, which then phosphorylates [[IkappaBalpha]] at Ser-32 and Ser-36, triggering K48-linked polyubiquitination and 26S proteasomal degradation. Freed NF-κB dimers (predominantly p50/RelA) translocate to the nucleus within minutes.
 
 ### Non-Canonical Pathway
 
@@ -114,6 +114,6 @@ NF-κB hyperactivation is characteristic of [[Cancer]], [[Atherosclerosis]], rhe
 
 ## Linking Summary
 
-- New links added: [[RelA]], [[RelB]], [[c-Rel]], [[p50]], [[p52]], [[NFKB1]], [[NFKB2]], [[IKKα]], [[IKKbeta]], [[NEMO]], [[TAK1]], [[IkappaBalpha]], [[NIK]], [[TNFα]], [[IL-1β]], [[IL-6]], [[IL-8]], [[ICAM-1]], [[VCAM-1]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]], [[A20]], [[SASP]], [[Inflammaging]], [[RAGE]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]], [[NRF2]], [[p62]], [[HO-1]], [[p53]], [[Bortezomib]], [[VEGF]]
+- New links added: [[RelA]], [[RelB]], [[c-Rel]], [[p50]], [[p52]], [[NFKB1]], [[NFKB2]], [[IKKalpha|IKKα]], [[IKKbeta]], [[NEMO]], [[TAK1]], [[IkappaBalpha]], [[NIK]], [[TNFα]], [[IL-1β]], [[IL-6]], [[IL-8]], [[ICAM-1]], [[VCAM-1]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]], [[A20]], [[SASP]], [[Inflammaging]], [[RAGE]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]], [[NRF2]], [[p62]], [[HO-1]], [[p53]], [[Bortezomib]], [[VEGF]]
 - Suggested new entity notes to create: [[NEMO]], [[IkappaBalpha]], [[CYLD]], [[TAK1]]
 - Strong connections to strengthen: NF-κB ↔ [[Oxidative Stress]], NF-κB ↔ [[NRF2]], NF-κB ↔ [[SASP]], NF-κB ↔ [[SIRT1]]

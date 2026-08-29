@@ -37,7 +37,7 @@ Foam cells eventually undergo necrosis, releasing debris that fuels the necrotic
 
 - Foam cells are the predominant cell type in fatty streaks (early atherosclerotic lesions)
 - They contribute to plaque inflammation and progression
-- They produce pro-inflammatory cytokines via [[NF-kappaB]] signaling
+- They produce pro-inflammatory cytokines via [[NF-κB]] signaling
 - [[ABCA1]] and [[ABCG1]] prevent foam cell formation by promoting cholesterol efflux
 - Foam-cell necrosis and efferocytosis failure drive necrotic core expansion in advanced plaques
 
@@ -68,7 +68,7 @@ Foam cells eventually undergo necrosis, releasing debris that fuels the necrotic
 - [[HDL]] — Mediates cholesterol removal from foam cells
 - [[Oxidized LDL]] — Primary driver of cholesterol loading in macrophages
 - [[Resveratrol]] — Restores cholesterol efflux; prevents foam cell formation
-- [[NF-kappaB]] — Drives inflammatory signaling in foam cells
+- [[NF-κB]] — Drives inflammatory signaling in foam cells
 - [[Methylglyoxal]] — Glycating agent that modifies ApoB-100 and drives atherogenicity
 - [[Advanced Glycation End Products]] — AGEs on ApoB-100 render LDL a scavenger-receptor ligand
 - [[Oxidative Stress]] — Amplifies foam-cell formation via redox stress
@@ -76,7 +76,7 @@ Foam cells eventually undergo necrosis, releasing debris that fuels the necrotic
 
 ## Linking Summary
 
-- New links added: [[Macrophages]], [[Atherosclerosis]], [[LDL]], [[Cholesterol Efflux]], [[ABCA1]], [[ABCG1]], [[HDL]], [[Oxidized LDL]], [[Resveratrol]], [[NF-kappaB]], [[Methylglyoxal]], [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Autophagy]]
+- New links added: [[Macrophages]], [[Atherosclerosis]], [[LDL]], [[Cholesterol Efflux]], [[ABCA1]], [[ABCG1]], [[HDL]], [[Oxidized LDL]], [[Resveratrol]], [[NF-κB]], [[Methylglyoxal]], [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Autophagy]]
 - Suggested new entity notes to create: (none)
 - Strong connections to strengthen:
   - [[Foam Cells]] ↔ [[Macrophages]] — direct lineage relationship

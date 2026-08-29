@@ -27,7 +27,7 @@ Several MTHFD1 polymorphisms (e.g., the G1958A / R653Q missense variant) have be
 
 ## Interaction with COMT
 
-Because [[MTHFD1]] contributes to the folate-derived one-carbon pool that ultimately yields [[Methylfolate]], its activity influences the availability of [[S-Adenosylmethionine]] ([[SAMe]]) — the methyl donor consumed by [[COMT]] ([[Catechol-O-methyltransferase]]) to inactivate [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. Inefficient MTHFD1 therefore potentially compounds slow-[[COMT]] phenotypes.
+Because [[MTHFD1]] contributes to the folate-derived one-carbon pool that ultimately yields [[Methylfolate]], its activity influences the availability of [[SAM|S-Adenosylmethionine]] ([[SAMe]]) — the methyl donor consumed by [[COMT]] ([[COMT|Catechol-O-methyltransferase]]) to inactivate [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. Inefficient MTHFD1 therefore potentially compounds slow-[[COMT]] phenotypes.
 
 ## Clinical and Research Relevance
 
@@ -48,10 +48,10 @@ List of documents that mention this entity
 - [[Methylation Cycle]]: Pathway to which MTHFD1 contributes one-carbon units.
 - [[Methylfolate]]: End product whose synthesis MTHFD1 supports.
 - [[COMT]]: Indirectly supplied with SAMe via MTHFD1 outputs.
-- [[S-Adenosylmethionine]]: The methyl donor downstream of MTHFD1.
+- [[SAM|S-Adenosylmethionine]]: The methyl donor downstream of MTHFD1.
 
 ## Linking Summary
 
-- New links added: [[Folate]], [[MTHFR]], [[Methylation Cycle]], [[Methylfolate]], [[COMT]], [[S-Adenosylmethionine]], [[Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Homocysteine]].
+- New links added: [[Folate]], [[MTHFR]], [[Methylation Cycle]], [[Methylfolate]], [[COMT]], [[SAM|S-Adenosylmethionine]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Homocysteine]].
 - Suggested new entity notes to create: [[MTHFD2]], [[Thymidylate Synthase]], [[Neural Tube Defect]].
 - Strong connections to strengthen: [[MTHFD1]] ↔ [[Methylation Cycle]]; [[MTHFD1]] ↔ [[COMT]].

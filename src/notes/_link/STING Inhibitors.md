@@ -15,7 +15,7 @@ STING inhibitors are a class of experimental small molecules that block signalin
 
 ## Mechanism and Therapeutic Rationale
 
-By targeting STING itself, these inhibitors interrupt both canonical cGAS-dependent and noncanonical, cGAS-independentactivation (e.g., triggered by [[NPC1]] deficiency or [[C9orf72]] loss). In TDP-43 models, STING inhibition reduces motor neuron death, and in [[Induced Pluripotent Stem Cells|iPSC]]–derived motor neurons, it rescues TDP-43–mediated toxicity. STING inhibitors also dampen [[Neuroinflammation]] across proteinopathies by lowering [[NF-kappaB|NF-κB]]–driven cytokines and glial activation.
+By targeting STING itself, these inhibitors interrupt both canonical cGAS-dependent and noncanonical, cGAS-independentactivation (e.g., triggered by [[NPC1]] deficiency or [[C9orf72]] loss). In TDP-43 models, STING inhibition reduces motor neuron death, and in [[Induced Pluripotent Stem Cells|iPSC]]–derived motor neurons, it rescues TDP-43–mediated toxicity. STING inhibitors also dampen [[Neuroinflammation]] across proteinopathies by lowering [[NF-κB|NF-κB]]–driven cytokines and glial activation.
 
 ## Context-Dependent Effects
 

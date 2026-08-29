@@ -15,7 +15,7 @@ aliases: [leucovorin, 5-formyltetrahydrofolate, 5-formyl-THF]
 
 ## Chemical Properties & Metabolism
 
-As a 5-formyl substituted tetrahydrofolate, folinic acid is resistant to the dihydrofolate reductase (DHFR) step needed by folic acid and does not depend on MTHFR—the rate-limiting enzyme impaired in [[MTHFR]] variants (e.g., C677T, A1298C). Once converted, it contributes one-carbon units to the [[Methylation Cycle]], supporting the remethylation of homocysteine to methionine and the production of [[S-Adenosylmethionine]]. Because it is not delivered as the fully methylated end product, it provides folate *capacity* without an immediate "methyl hit."
+As a 5-formyl substituted tetrahydrofolate, folinic acid is resistant to the dihydrofolate reductase (DHFR) step needed by folic acid and does not depend on MTHFR—the rate-limiting enzyme impaired in [[MTHFR]] variants (e.g., C677T, A1298C). Once converted, it contributes one-carbon units to the [[Methylation Cycle]], supporting the remethylation of homocysteine to methionine and the production of [[SAM|S-Adenosylmethionine]]. Because it is not delivered as the fully methylated end product, it provides folate *capacity* without an immediate "methyl hit."
 
 ## Comparison with Methylfolate
 
@@ -41,10 +41,10 @@ List of documents that mention this entity
 - [[MTHFR]]: The enzyme folinic acid bypasses for initial activation.
 - [[COMT]]: Slow variants benefit from folinic acid's gentler methyl profile.
 - [[Hydroxocobalamin]]: A non-methylated B12 paired with folinic acid strategies.
-- [[S-Adenosylmethionine]]: The methyl donor ultimately supported by folate one-carbon units.
+- [[SAM|S-Adenosylmethionine]]: The methyl donor ultimately supported by folate one-carbon units.
 
 ## Linking Summary
 
-- New links added: [[Folate]], [[Methylation Cycle]], [[Methylfolate]], [[MTHFR]], [[COMT]], [[Hydroxocobalamin]], [[Adenosylcobalamin]], [[S-Adenosylmethionine]].
+- New links added: [[Folate]], [[Methylation Cycle]], [[Methylfolate]], [[MTHFR]], [[COMT]], [[Hydroxocobalamin]], [[Adenosylcobalamin]], [[SAM|S-Adenosylmethionine]].
 - Suggested new entity notes to create: [[Cerebral folate deficiency]], [[Methotrexate]], [[Homocysteine]].
 - Strong connections to strengthen: [[Folinic acid]] ↔ [[COMT]]; [[Folinic acid]] ↔ [[Methylation Cycle]].

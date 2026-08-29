@@ -17,7 +17,7 @@ aliases: [IκB Kinase Beta, IKBKB, IKK2]
 
 ## Structure and Function
 
-IKKβ contains an N-terminal [[Serine/Threonine Kinase Domain]], a [[Leucine Zipper]] (LZ) mediating dimerization, a [[Helix-Loop-Helix]] (HLH) domain for regulation, and a C-terminal [[NEMO-Binding Domain]] (NBD). It forms a heterodimer with [[IKKα]] and the regulatory scaffold [[NEMO]] (IKKγ). [[IKKbeta]] is the dominant IκB kinase in canonical NF-κB signaling, responding to [[TNFα]], [[Interleukin 1β]], [[LPS]], and [[DNA Damage]].
+IKKβ contains an N-terminal [[Serine/Threonine Kinase Domain]], a [[Leucine Zipper]] (LZ) mediating dimerization, a [[Helix-Loop-Helix]] (HLH) domain for regulation, and a C-terminal [[NEMO-Binding Domain]] (NBD). It forms a heterodimer with [[IKKalpha|IKKα]] and the regulatory scaffold [[NEMO]] (IKKγ). [[IKKbeta]] is the dominant IκB kinase in canonical NF-κB signaling, responding to [[TNFα]], [[Interleukin 1β]], [[LPS]], and [[DNA Damage]].
 
 ## Regulation
 
@@ -43,7 +43,7 @@ List of documents that mention this entity
 - [[NF-κB]] — IKKβ phosphorylates IκBα to activate NF-κB
 - [[IkappaBalpha]] — direct substrate of IKKβ; phosphorylation triggers its degradation
 - [[NEMO]] — regulatory subunit of the IKK complex; required for IKKβ activation
-- [[IKKα]] — IKKβ's catalytic partner in the IKK complex
+- [[IKKalpha|IKKα]] — IKKβ's catalytic partner in the IKK complex
 - [[TNFα]] — upstream activator of IKKβ via RIPK1-TRAF2-TAK1
 - [[Interleukin 1β]] — activates IKKβ via MyD88-IRAK-TRAF6-TAK1
 - [[TAK1]] — MAP3K that phosphorylates the IKKβ activation loop
@@ -54,6 +54,6 @@ List of documents that mention this entity
 - [[RIPK1]] / [[TRAF2]] / [[TRAF6]] — upstream signal transducers to IKKβ
 
 ## Linking Summary
-- New links added: [[IKK complex]], [[NF-κB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
+- New links added: [[IKK complex]], [[NF-κB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKalpha|IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
 - Suggested new entity notes to create: [[NEMO-binding domain]], [[IKK complex assembly]], [[Canonical NF-κB pathway]], [[IKKβ inhibitor]], [[TAK1 kinase]]
   - Strong connections to strengthen: [[IKKbeta]] ↔ NFκB, [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]

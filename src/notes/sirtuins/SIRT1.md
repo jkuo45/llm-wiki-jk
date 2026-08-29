@@ -5,7 +5,7 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-08-11
+updated: 2026-08-28
 protected: true
 tags:
   - gene
@@ -86,6 +86,10 @@ SIRT1 facilitates the formation of heterochromatin by deacetylating:
 - **FOXO transcription factors** ([[FoxO1]], [[FOXO3a]], [[FOXO4]]): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. [[FOXO4]] deacetylation enhances GADD45 expression and suppresses caspase-3/7.
 - **[[NF-κB|RelA/p65 (NF-κB)]]**: Deacetylation inhibits transactivation potential, sensitizing cells to TNFα-induced apoptosis.
 - **[[Smad7]]** (Lys⁶⁰/Lys⁷⁰): Deacetylation promotes ubiquitin-dependent proteasomal degradation via Smurf1, protecting glomerular mesangial cells from TGF-β-dependent apoptosis.
+- **[[Caspase-2]] (via 14-3-3ζ):** SIRT1 deacetylates 14-3-3ζ, a direct caspase-2 regulator; SIRT1 inhibition sensitizes cells to caspase-2-dependent death and overrides nutrient-mediated caspase-2 suppression (PMID 21884983).
+
+> [!important] SIRT1 is itself a caspase substrate (reciprocal feedback)
+> During apoptosis, **[[Caspase-9]]** (initiator) and **[[Caspase-3]]** (executioner) cleave SIRT1 at the C-terminal **DEPDVP(704–709)** motif, relocalizing it nucleus → cytoplasm (Ohsawa & Miura, FEBS Lett 2006). Under severe DNA damage this cleavage is coupled to poly-ubiquitination by the E3 ligase TRIM28 (ATM-dependent), accelerating degradation — a reciprocal PTM loop (PMID 35541916). Critically, **cytoplasmic SIRT1 is pro-apoptotic** (caspase-dependent, deacetylase-independent), flipping SIRT1 from a survival factor into a death promoter. Thus the SIRT1 → Caspase-3 suppression axis runs backwards as a caspase → SIRT1 cleavage switch.
 - **H2A.Z** (Lys¹¹⁵/Lys¹²¹): Deacetylation promotes ubiquitination and proteasomal degradation, protecting against cardiac hypertrophy.
 - **Androgen receptor** (Lys⁶³⁰): Deacetylation represses oncogenic signalling and inhibits prostate cancer cell growth.
 - **PARP-1**: Promotes PARP-1-mediated cell survival in response to DNA damage via AIF.
@@ -121,7 +125,7 @@ SIRT1's role in senescence is context-dependent:
 
 ## Subcellular Localisation
 
-Predominantly **nuclear** (associated with euchromatin); also has cytoplasmic functions (e.g., [[AceCS1]] deacetylation). During apoptosis, caspase-9 and Bcl-xL regulate SIRT1 cleavage, shifting localisation from nucleus to cytoplasm.
+Predominantly **nuclear** (associated with euchromatin); also has cytoplasmic functions (e.g., [[AceCS1]] deacetylation). During apoptosis, **[[Caspase-9]]** and **[[Bcl-xL]]** drive SIRT1 cleavage, relocalizing it from nucleus to cytoplasm. The cleavage site is the C-terminal **DEPDVP(704–709)** motif (cleaved by multiple caspases); cleaved SIRT1 is then poly-ubiquitinated by the E3 ligase TRIM28 (ATM-dependent) and degraded — a reciprocal PTM loop with the DNA-damage response (Ohsawa & Miura, FEBS Lett 2006; PMID 35541916). Because cytoplasmic SIRT1 is *pro*-apoptotic (caspase-dependent, deacetylase-independent), this cleavage flips SIRT1 from a survival factor into a death promoter.
 
 ## Knockout Phenotype
 
@@ -292,6 +296,15 @@ List of documents that mention this entity
 - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
   - Review (Grabowska et al., Biogerontology 2017) detailing SIRT1 deacetylation of p53 (K320/K373/K382), NBS1, XPA and LKB1, the p53–miR-34a–SIRT1 loop, P66shc repression, and SIRT1 as a senescence marker.
 
+- [[_document_ - Caspase-mediated changes in Sir2alpha during apoptosis|Caspase-mediated changes in Sir2α during apoptosis (Ohsawa & Miura, FEBS Lett 2006)]]
+  - Primary evidence that Caspase-9 and Caspase-3 directly cleave SIRT1 (Sir2α) and relocalize it nucleus→cytoplasm during apoptosis; blocked by dominant-negative caspase-9 or Bcl-xL.
+
+- [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response|SIRT1 stability in the DNA damage response (Ouyang et al., IJBS 2022)]]
+  - C-terminal caspase cleavage at DEPDVP(704–709) plus [[KAP1|TRIM28]]-mediated polyubiquitination/degradation under severe DNA damage; reciprocal PTMs on the ATM–TRIM28–SIRT1 axis that enhance DNA-damage-induced cell death.
+
+- [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2|SIRT1–14-3-3ζ metabolic regulation of caspase-2 (Andersen et al., Mol Cell 2011)]]
+  - SIRT1 deacetylates 14-3-3ζ (K49) to maintain caspase-2 suppression; PPP/G6P flux gates apoptotic sensitivity; SIRT1 inhibition sensitizes breast tumor cells to caspase-2-dependent death and paclitaxel.
+
 ## Connections
 
 - [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
@@ -326,6 +339,17 @@ List of documents that mention this entity
 - [[ADAM10]]: α-secretase activated by SIRT1→RARβ; shifts APP processing away from β-amyloid
 - [[TFAM]]: SIRT1-dependent expression maintains mtDNA gene expression; impaired by age-related NAD+ decline
 - [[Mitohormesis]]: SIRT1 is a key transducer of mitohormetic signals via PGC1-α deacetylation
+- [[Caspase-2]]: Gated by SIRT1 via 14-3-3ζ deacetylation (SIRT1 inhibition sensitizes to caspase-2-dependent death)
+- [[Caspase-3]]: Executioner that cleaves SIRT1 at DEPDVP(704-709), flipping it pro-apoptotic
+- [[Caspase-9]]: Initiator that cleaves SIRT1; blocked by Bcl-xL, driving nuclear→cytoplasmic relocalization
+- [[Bcl-xL]]: Inhibits caspase-9, preventing SIRT1 cleavage/relocalization
+- TRIM28: E3 ligase coupling SIRT1 caspase-cleavage to ubiquitination/degradation in the DDR
+
+## Linking Summary (Sirtuin–Caspase Crosstalk)
+
+- New links added: [[Caspase-2]], [[Caspase-3]], [[Caspase-9]], [[Bcl-xL]]
+- Suggested new entity notes to create: (TRIM28 = [[KAP1]]; 14-3-3ζ covered by [[14-3-3]] — no new notes required for the crosstalk)
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Caspase-3]], [[SIRT1]] ↔ [[Caspase-9]], [[SIRT1]] ↔ [[Sirtuin-Caspase Crosstalk]]
 - [[NAD+ Biosynthesis]]: NAD+ is the obligate co-substrate for SIRT1; NAD+ decline with age limits SIRT1 activity
 - [[SIRT3]]: Mitochondrial counterpart of SIRT1; NAD+-dependent regulation of ROS/HIF1A signaling##
 Linking Summary

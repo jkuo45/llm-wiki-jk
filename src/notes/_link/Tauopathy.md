@@ -19,7 +19,7 @@ A distinctive feature of tauopathy is the ability of pathogenic tau to directly 
 
 ## NF-κB and Tau Propagation
 
-Pathogenic tau also activates microglial [[NF-kappaB|NF-κB]] signaling, inducing a transcriptional program that alters tau handling and promotes release of seed-competent tau species. Genetic inhibition of microglial NF-κB traps tau intracellularly and markedly reduces extracellular tau seeding and in vivo propagation, establishing NF-κB as a key regulator of microglial tau export. The elevation of NF-κB likely stems from tau-induced cGAS-STING activation, creating a sustained IFN-I state that reinforces maladaptive inflammation and amplifies tau spread. Notably, microglial cGAS deletion reverses downregulation of neuronal [[MEF2C]], a resilience transcription factor, linking innate immune signaling to loss of cognitive resilience.
+Pathogenic tau also activates microglial [[NF-κB|NF-κB]] signaling, inducing a transcriptional program that alters tau handling and promotes release of seed-competent tau species. Genetic inhibition of microglial NF-κB traps tau intracellularly and markedly reduces extracellular tau seeding and in vivo propagation, establishing NF-κB as a key regulator of microglial tau export. The elevation of NF-κB likely stems from tau-induced cGAS-STING activation, creating a sustained IFN-I state that reinforces maladaptive inflammation and amplifies tau spread. Notably, microglial cGAS deletion reverses downregulation of neuronal [[MEF2C]], a resilience transcription factor, linking innate immune signaling to loss of cognitive resilience.
 
 ## Therapeutic Relevance
 
@@ -36,16 +36,16 @@ Pharmacological cGAS inhibition phenocopies the protective effects of the [[APOE
   - [[PQBP1]]: adaptor linking monomeric tau to cGAS independently of DNA.
   - [[cGAS-STING Pathway]]: central signaling axis activated by tau in microglia.
   - [[Disease-Associated Microglia]]: cGAS-driven IFN-I state is distinct from the canonical DAM program.
-  - [[NF-kappaB]]: promotes tau seeding/propagation through microglial export.
+  - [[NF-κB]]: promotes tau seeding/propagation through microglial export.
   - [[Microglia]]: active facilitators of tau spread and neuroinflammation.
   - [[MEF2C]]: neuronal resilience factor suppressed by microglial cGAS/IFN-I.
   - [[APOE3 Christchurch]]: resilience allele phenocopied by cGAS inhibition.
 
 ## Linking Summary
 
-- New links added: [[Tau]], [[PQBP1]], [[cGAS-STING Pathway]], [[Disease-Associated Microglia]], [[NF-kappaB]], [[Microglia]], [[MEF2C]], [[APOE3 Christchurch]], [[Type I Interferon]], [[mtDNA]]
+- New links added: [[Tau]], [[PQBP1]], [[cGAS-STING Pathway]], [[Disease-Associated Microglia]], [[NF-κB]], [[Microglia]], [[MEF2C]], [[APOE3 Christchurch]], [[Type I Interferon]], [[mtDNA]]
 - Suggested new entity notes to create: [[Frontotemporal Dementia]], [[MEF2C]], [[APOE3 Christchurch]]
 - Strong connections to strengthen:
     - [[Tauopathy]] ↔ [[Microglia]]
     - [[PQBP1]] ↔ [[cGAS]]
-    - [[NF-kappaB]] ↔ [[Tau]]
+    - [[NF-κB]] ↔ [[Tau]]
