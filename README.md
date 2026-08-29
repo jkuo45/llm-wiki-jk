@@ -275,8 +275,9 @@ The node-network analyses in `src/tasks/`, the analysis articles in `web/public/
 ## Tasks
 
 <details>
-<summary><strong>Tasks (85 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (86 total)</strong> — click to expand</summary>
 
+- [`node_network_caspase_28_AUG_2026/` task_output_caspase_graph_analysis_28_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md) [[src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md|wiki]] (28_AUG_2026 08:25 PM PDT)
 - [task_output_node_metrics_combined_graph_27_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md) [[src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md|wiki]] (27_AUG_2026 07:45 PM PDT)
 - [task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md) [[src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md|wiki]] (27_AUG_2026 06:53 AM PDT)
 - [task_output_graph_structure_conclusions_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md) [[src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md|wiki]] (26_AUG_2026 09:44 PM PDT)

@@ -1,5 +1,5 @@
 {
-  "generated": "28_AUG_2026 06:10 PM PDT",
+  "generated": "28_AUG_2026 09:44 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,12 +25,52 @@
       }
     },
     {
+      "id": "task:task_output_caspase_graph_analysis_28_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Caspases - Graph (wiki + triples) Analysis + Literature Synthesis",
+          "description": "Multi-metric network analysis of all caspase nodes on the combined triples+wiki graph (sources - 13 caspase entities; targets - cell-death, senescence, and apoptosis-regulator anchors), with per-layer decomposition, paired with a literature research deep-dive on caspase classification, substrates, aging biology, and pharmacology.",
+          "created": "2026-08-28",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "caspases",
+            "apoptosis",
+            "pyroptosis",
+            "network-analysis",
+            "inflammaging",
+            "senescence"
+          ],
+          "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
+          "path": "tasks/en-US/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "Caspases — 圖譜分析（wiki + triples）＋文獻綜述",
+          "description": "在合併的 triples+wiki 圖譜上對全部 caspase 節點的多指標網絡分析（來源：13 個 caspase 實體；標的：細胞死亡、衰老與凋亡調控錨點），含逐層分解，並附 caspase 分類、受質、老化生物學與藥理學的文獻研究深究。",
+          "created": "2026-08-28",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "caspases",
+            "apoptosis",
+            "pyroptosis",
+            "network-analysis",
+            "inflammaging",
+            "senescence"
+          ],
+          "filename": "task_output_caspase_graph_analysis_28_AUG_2026_zh-TW.md",
+          "path": "tasks/zh-TW/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026_zh-TW.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_node_metrics_combined_graph_27_Aug_2026",
       "kind": "task",
       "langs": {
         "en-US": {
           "title": "Graph Metrics (wiki + triples) - Combined",
-          "description": "Metrics analysis of the combined (triples + wiki) knowledge graph — recomputed centrality on the union topology (4,084 nodes / 36,982 edges), role distribution, connectivity contrast vs the triples graph (components 223→123, k-core 6→20, giant component 82%→94%), wiki-only core integration (cGAS, STING, Phosphorylation…), p53/TP53 consolidation, and wiki-boosted shared hubs — with the caveat that the stored combined fingerprint inherits per-source values. Correction note: the wiki previously split the single p53/TP53 entity into two nodes (p53 protein + TP53 gene); consolidated into p53, a shared union core node.",
+          "description": "Metrics analysis of the combined (triples + wiki) knowledge graph — recomputed centrality on the union topology (4,084 nodes / 36,982 edges), role distribution, connectivity contrast vs the triples graph (components 223→123, k-core 6→20, giant component 82%→94%), wiki-only core integration (cGAS, STING, Phosphorylation…), p53/TP53 consolidation, and wiki-boosted shared hubs — with the caveat that the stored combined fingerprint inherits per-source values. Correction note - the wiki previously split the single p53/TP53 entity into two nodes (p53 protein + TP53 gene); consolidated into p53, a shared union core node.",
           "created": "2026-08-27",
           "updated": "2026-08-27",
           "tags": [
@@ -47,8 +87,8 @@
           "path": "tasks/en-US/task_output_node_metrics_combined_graph_27_Aug_2026.md"
         },
         "zh-TW": {
-          "title": "圖指標（維基 + 三元組）— 綜合",
-          "description": "合併（triples + wiki）知識圖譜的指標分析——在聯集拓撲（4,084 節點 / 36,982 邊）上重新計算中心性、角色分布、相對 triples 圖的連通性對比（連通分量 223→123、k-core 6→20、巨型分量 82%→94%）、wiki 獨有核心節點的整合（cGAS、STING、Phosphorylation…）、p53/TP53 合併，以及獲得 wiki 加成的共享中樞——並附帶以下注意事項：儲存的合併指標指紋沿用了各來源圖的數值。勘誤說明：wiki 先前曾將單一的 p53/TP53 實體拆成兩個節點（p53 蛋白 + TP53 基因）；現已合併為 p53，成為共享的聯集核心節點。",
+          "title": "圖譜指標（wiki + triples）— 合併圖",
+          "description": "合併（triples + wiki）知識圖譜的指標分析——在聯集拓撲（4,084 節點 / 36,982 邊）上重新計算中心性、角色分布、相對 triples 圖的連通性對比（連通分量 223→123、k-core 6→20、巨型分量 82%→94%）、wiki 獨有核心節點的整合（cGAS、STING、Phosphorylation…）、p53/TP53 合併，以及獲得 wiki 加成的共享中樞——並附帶以下注意事項：儲存的合併指標指紋沿用了各來源圖的數值。勘誤說明——wiki 先前曾將單一的 p53/TP53 實體拆成兩個節點（p53 蛋白 + TP53 基因）；現已合併為 p53，成為共享的聯集核心節點。",
           "created": "2026-08-27",
           "updated": "2026-08-27",
           "tags": [
@@ -64,7 +104,8 @@
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026_zh-TW.md",
           "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026_zh-TW.md"
         }
-      }
+      },
+      "starred": true
     },
     {
       "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
