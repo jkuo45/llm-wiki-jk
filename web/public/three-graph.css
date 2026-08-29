@@ -82,6 +82,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   white-space: nowrap;
   pointer-events: auto;
   cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
   text-shadow: 0 0 4px rgba(0,0,0,0.8);
   text-align: center;
   line-height: 1.3;

@@ -138,7 +138,19 @@ function attachLabelHandlers() {
 
     div.addEventListener('click', (e) => {
       e.stopPropagation();
+      if (dragMoved) return; // a drag that started on the label shouldn't select
       selectNode(id);
+    });
+
+    // Start node dragging from the label itself (same flow as the node mesh:
+    // plain drag, Cmd/Ctrl for group drag, touch long-press for group drag).
+    div.addEventListener('pointerdown', (e) => {
+      if (e.button !== 0) return;
+      const mesh = nodeObjects.get(id);
+      if (!mesh) return;
+      e.stopPropagation();
+      e.preventDefault();
+      beginNodeDrag(e, mesh);
     });
   });
 }
@@ -313,6 +325,46 @@ function activateGroupDrag(mesh) {
   });
 }
 
+// Shared drag-start used by both the node mesh raycast and label pointerdown.
+// Computes pointer coords + drag plane and arms the drag (incl. group/long-press).
+function beginNodeDrag(event, mesh) {
+  const rect = container.getBoundingClientRect();
+  mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  isDragging = true;
+  draggedNode = mesh;
+  dragMoved = false;
+  dragStartPos.set(event.clientX, event.clientY);
+  controls.enabled = false;
+  container.style.cursor = 'grabbing';
+  dragPlane.setFromNormalAndCoplanarPoint(
+    camera.getWorldDirection(new THREE.Vector3()),
+    mesh.position
+  );
+  raycaster.setFromCamera(mouse, camera);
+  if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
+    dragOffset.copy(intersection).sub(mesh.position);
+  }
+
+  dragGroup = [];
+  longPressActive = false;
+  if (event.metaKey || event.ctrlKey) {
+    activateGroupDrag(mesh);
+  } else if (event.pointerType === 'touch') {
+    longPressTimer = setTimeout(() => {
+      longPressActive = true;
+      activateGroupDrag(mesh);
+      const mat = mesh.material;
+      const origEmissive = mat.emissiveIntensity;
+      mat.emissiveIntensity = 0.8;
+      setTimeout(() => { mat.emissiveIntensity = origEmissive; }, 200);
+      if (navigator.vibrate) navigator.vibrate(30);
+    }, 500);
+  }
+
+  event.preventDefault();
+}
+
 function onMouseDown(event) {
   if (event.target !== renderer.domElement) return;
   if (event.button !== 0) return;
@@ -322,38 +374,7 @@ function onMouseDown(event) {
   raycaster.setFromCamera(mouse, camera);
   const intersects = raycaster.intersectObjects(nodeMeshes);
   if (intersects.length > 0) {
-    const mesh = intersects[0].object;
-    isDragging = true;
-    draggedNode = mesh;
-    dragMoved = false;
-    dragStartPos.set(event.clientX, event.clientY);
-    controls.enabled = false;
-    container.style.cursor = 'grabbing';
-    dragPlane.setFromNormalAndCoplanarPoint(
-      camera.getWorldDirection(new THREE.Vector3()),
-      mesh.position
-    );
-    if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
-      dragOffset.copy(intersection).sub(mesh.position);
-    }
-
-    dragGroup = [];
-    longPressActive = false;
-    if (event.metaKey || event.ctrlKey) {
-      activateGroupDrag(mesh);
-    } else if (event.pointerType === 'touch') {
-      longPressTimer = setTimeout(() => {
-        longPressActive = true;
-        activateGroupDrag(mesh);
-        const mat = mesh.material;
-        const origEmissive = mat.emissiveIntensity;
-        mat.emissiveIntensity = 0.8;
-        setTimeout(() => { mat.emissiveIntensity = origEmissive; }, 200);
-        if (navigator.vibrate) navigator.vibrate(30);
-      }, 500);
-    }
-
-    event.preventDefault();
+    beginNodeDrag(event, intersects[0].object);
   }
 }
 

@@ -110,7 +110,15 @@ scene.add(backLight);
 export const nodeObjects = new Map();
 export const nodeMeshes = [];
 export const labelObjects = new Map();
-const labelThreshold = 30;
+// Label degree threshold is zoom-relative: zoomed out only hubs are labeled,
+// zooming in progressively reveals lower-degree labels.
+const LABEL_THRESHOLD_FAR = 60;   // zoomed out (min labels)
+const LABEL_THRESHOLD_NEAR = 10;  // zoomed in (max labels)
+
+function currentLabelThreshold() {
+  const frac = Math.max(0, Math.min(1, getZoomFraction())); // 0 = far, 1 = close
+  return LABEL_THRESHOLD_FAR + (LABEL_THRESHOLD_NEAR - LABEL_THRESHOLD_FAR) * frac;
+}
 
 const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
 
@@ -304,7 +312,7 @@ function createLabel(nodeData, mesh) {
   const label = new CSS2DObject(div);
   label.position.copy(mesh.position);
   label.position.y += mesh.scale.y + 2;
-  label.visible = state.showLabels && nodeData.degree >= labelThreshold;
+  label.visible = state.showLabels && nodeData.degree >= currentLabelThreshold();
   scene.add(label);
   labelObjects.set(nodeData.id, label);
 }
@@ -534,7 +542,7 @@ function declutteredLabelIds() {
   labelObjects.forEach((label, id) => {
     const nodeData = nodeMap.get(id);
     const mesh = nodeObjects.get(id);
-    if (!state.showLabels || !nodeData || nodeData.degree < labelThreshold) return;
+    if (!state.showLabels || !nodeData || nodeData.degree < currentLabelThreshold()) return;
     if (!mesh || !mesh.visible) return;
     const v = mesh.position.clone().project(camera);
     if (v.z > 1 || v.x < -1.2 || v.x > 1.2 || v.y < -1.2 || v.y > 1.2) return; // behind camera / far off-screen
