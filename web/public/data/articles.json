@@ -181,16 +181,16 @@
     },
     {
         "id": "wiki-and-triples-graph-biological-processes",
-        "active": true,
+        "active": false,
         "langs": {
             "en-US": {
-                "title": "Biological Processes in the Combined Knowledge Graph (wiki and triples)",
+                "title": "Biological Processes in the Combined Knowledge Graph (wiki + triples)",
                 "path": "pages/en-US/wiki-and-triples-graph-biological-processes.html",
                 "created": "2026-08-27",
                 "updated": "2026-08-27"
             },
             "zh-TW": {
-                "title": "合併知識圖譜中的生物過程（wiki 與 triples）",
+                "title": "合併知識圖譜中的生物過程（wiki + triples）",
                 "path": "pages/zh-TW/wiki-and-triples-graph-biological-processes.html",
                 "created": "2026-08-27",
                 "updated": "2026-08-27"
