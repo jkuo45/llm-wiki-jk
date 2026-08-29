@@ -111,26 +111,58 @@
 <div id="dataset-panel">
   <div class="panel-scroll" id="dataset-scroll"></div>
 </div>
+<!-- Analysis panel — graph (Explore) analytics tools only; the prompt/chat UI
+     lives in its own floating window (#chat-panel) below. -->
 <div id="analysis-panel">
   <div id="analysis-box">
   <div id="analysis-header">
     <div class="panel-header-left">
-      <span class="panel-title">Analysis / <span class="panel-title-zh">分析</span></span>
+      <span class="panel-title">Graph Analysis / <span class="panel-title-zh">圖譜分析</span></span>
     </div>
     <div class="panel-header-actions">
       <button id="analysis-close" title="Close panel / 關閉面板" aria-label="Close panel" data-i18n-title="panelClose">&times;</button>
     </div>
   </div>
-  <div id="prompt-filter-bar">
-    <div id="analysis-mode-switch" role="tablist" aria-label="Analysis mode" data-i18n-title="modeSwitchLabel">
-      <button type="button" class="analysis-mode-tab active" data-mode="ask" role="tab" aria-selected="true"><span data-i18n="modeAsk">Prompt</span><span class="mode-dot" aria-hidden="true"></span></button>
-      <button type="button" class="analysis-mode-tab" data-mode="explore" role="tab" aria-selected="false"><span data-i18n="modeGraph">Graph</span><span class="mode-dot" aria-hidden="true"></span></button>
+  <div id="analysis-header-subrow">
+    <div id="analysis-subrow-left">
+      <!-- Hidden state holders for the graph node filter; the visible "Filter (N)"
+           quantity pill is rendered into #gqf-pill-slot by analysis.js (refreshQuantityPill)
+           and floats above the full-screen detail card via the sub-row's z-index. -->
+      <input type="checkbox" id="prompt-filter-nodes" hidden disabled>
+      <span id="prompt-filter-count" hidden>0</span>
+      <span id="gqf-pill-slot"></span>
     </div>
+    <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
+      <button type="button" data-lang="en-US" title="English (US)">EN</button>
+      <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
+    </div>
+  </div>
+  <div id="analysis-tools"></div>
+  <!-- Node/edge info card — rendered by ui.js (showInfo / showEdgeInfo / route
+       mechanisms). Lives outside #analysis-tools so it works in both windows. -->
+  <div id="at-node-detail" class="at-node-detail" hidden></div>
+  </div>
+</div>
+
+<!-- Floating prompt/chat launcher — pinned to the bottom-right corner. -->
+<button id="btn-chat" title="Prompt chat / 提示對話" aria-label="Prompt chat">
+  <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span>
+  <span id="chat-activity-dot" class="analysis-activity-dot" aria-hidden="true"></span>
+</button>
+
+<!-- Floating prompt/chat window — opens nearly full-screen above the graph. -->
+<div id="chat-panel">
+  <div id="chat-box">
+  <div id="chat-header">
+    <div class="panel-header-left">
+      <span class="panel-title">Prompt / <span class="panel-title-zh">提示</span></span>
+    </div>
+    <div class="panel-header-actions">
+      <button id="chat-close" title="Close panel / 關閉面板" aria-label="Close panel" data-i18n-title="panelClose">&times;</button>
+    </div>
+  </div>
+  <div id="prompt-filter-bar">
     <div class="prompt-filter-right">
-      <label id="prompt-filter-toggle" data-i18n-title="filterTitle">
-        <input type="checkbox" id="prompt-filter-nodes" disabled>
-        <span><span data-i18n="filterLabel">Filter</span> (<span id="prompt-filter-count">0</span>)</span>
-      </label>
       <div class="lang-toggle panel-lang" role="group" aria-label="Language / 語言">
         <button type="button" data-lang="en-US" title="English (US)">EN</button>
         <button type="button" data-lang="zh-TW" title="繁體中文（台灣）">中</button>
@@ -138,10 +170,6 @@
     </div>
   </div>
   <div id="prompt-messages"></div>
-  <div id="analysis-tools"></div>
-  <!-- Node/edge info card — rendered by ui.js (showInfo / showEdgeInfo / route
-       mechanisms). Lives outside #analysis-tools so it works in both modes. -->
-  <div id="at-node-detail" class="at-node-detail" hidden></div>
   <div id="analysis-modes">
     <label id="graphify-toggle" data-i18n-title="graphifyTitle">
       <input type="checkbox" id="graphify-checkbox">

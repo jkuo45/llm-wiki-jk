@@ -261,10 +261,17 @@ body {
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
    opaque so the graph never shows through, mirroring the reader. Background
    uses the reader's paper (var(--paper)); cards stay white like the reader's sheets. */
-#analysis-panel { background: var(--paper-body); }
+#analysis-panel { background: transparent; }
 #analysis-box { background: var(--paper-body); }
 #analysis-header { background: var(--paper); border-bottom-color: var(--line); }
 #analysis-header span { color: #4B5563; }
+#analysis-header-subrow { background: var(--paper); border-bottom-color: var(--line); }
+#chat-box { background: var(--paper-body); }
+#chat-header { background: var(--paper); border-bottom-color: var(--line); }
+#chat-header span { color: #4B5563; }
+#chat-header .panel-title { color: var(--ink-hi); }
+#chat-header .panel-title-zh { color: inherit; }
+#btn-chat { box-shadow: 0 6px 24px rgba(34, 48, 74, 0.25); }
 #analysis-header .panel-title { color: var(--ink-hi); }
 #analysis-header .panel-title-zh { color: inherit; }
 /* Notes panel header title — mirrors the Reader's light-theme h2 color. */
@@ -348,6 +355,9 @@ body {
 .at-node-btn { background: var(--paper); border-color: var(--line-strong); color: var(--accent); }
 .at-node-btn:hover { border-color: var(--accent); color: var(--accent); }
 .at-node-btn.at-focus { border-color: var(--accent); color: var(--accent); }
+.gqf-btn { background: var(--surface-raised); border-color: var(--line-strong); color: var(--accent); }
+.gqf-btn:hover { border-color: var(--accent); }
+.gqf-btn.on { background: var(--accent); border-color: var(--accent); color: var(--surface); }
 #at-node-detail .at-node-actions .at-node-btn.on { font-weight: 600; }
 #at-node-detail .at-node-actions .at-node-btn.at-focus.on { background: var(--accent); border-color: var(--accent); color: var(--surface); }
 #at-node-detail .at-node-actions .at-node-btn.at-add[data-set="a"].on { background: var(--link); border-color: var(--link); color: var(--surface); }

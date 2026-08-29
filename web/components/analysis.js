@@ -1,5 +1,6 @@
-// Prompt interface: prompt panel, suggestion chips, wiki entity tooltips, wiki modal,
-// and graph highlighting for prompt turns.
+// Analysis interface: Graph Analysis panel (offline dataset analytics), the
+// floating prompt/chat window, suggestion chips, wiki entity tooltips/modal,
+// HTML-mode responses, and graph highlighting for prompt turns.
 
 import * as THREE from 'three';
 
@@ -11,7 +12,7 @@ import {
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, hideNodeInfo, setNodeActionBuilder } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
 import { updateHash } from './routing.js';
@@ -26,19 +27,24 @@ import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from 
 const analysisBtn = document.getElementById('btn-analysis');
 const analysisActivityDot = document.getElementById('analysis-activity-dot');
 const analysisPanel = document.getElementById('analysis-panel');
+const chatBtn = document.getElementById('btn-chat');
+const chatActivityDot = document.getElementById('chat-activity-dot');
+const chatPanel = document.getElementById('chat-panel');
+const chatCloseBtn = document.getElementById('chat-close');
 const promptMessages = document.getElementById('prompt-messages');
 const promptInput = document.getElementById('prompt-input');
 const promptSend = document.getElementById('prompt-send');
 const analysisCloseBtn = document.getElementById('analysis-close');
-const promptLangBtns = Array.from(document.querySelectorAll('#analysis-panel .lang-toggle [data-lang]'));
-const promptFilterToggle = document.getElementById('prompt-filter-toggle');
+const promptLangBtns = Array.from(
+  document.querySelectorAll('#analysis-panel .lang-toggle [data-lang], #chat-panel .lang-toggle [data-lang]'));
 const promptFilterCheckbox = document.getElementById('prompt-filter-nodes');
-const promptFilterCount = document.getElementById('prompt-filter-count');
+// Persistent quantity filter pill — rendered into the analysis sub-row slot and
+// floats above the full-screen detail card (the sub-row has a raised z-index).
+const gqfPillSlot = document.getElementById('gqf-pill-slot');
 const analysisModes = document.getElementById('analysis-modes');
 const graphifyCheckbox = document.getElementById('graphify-checkbox');
 const promptTagPopup = document.getElementById('prompt-tag-popup');
 const promptTags = document.getElementById('prompt-tags');
-const analysisModeSwitch = document.getElementById('analysis-mode-switch');
 const analysisTools = document.getElementById('analysis-tools');
 const htmlModeOverlay = document.getElementById('html-mode-overlay');
 const htmlModeFrame = document.getElementById('html-mode-frame');
@@ -53,7 +59,8 @@ const INTENT_API = `${API_BASE}/intent`;
 const EXECUTE_STREAM_API = `${API_BASE}/execute/stream`;
 const SESSION_RESET_API = `${API_BASE}/session/reset`;
 
-let promptOpen = false;
+let promptOpen = false; // floating chat window open
+let analysisPanelOpen = false; // graph-tools panel open
 let promptBusy = false;
 let promptHighlightedNodes = [];
 // Tracks whether a conversation has started (the message array contents are no
@@ -357,22 +364,28 @@ function applyUiLang(lang) {
   const langToggle = document.querySelector('#analysis-panel .lang-toggle');
   if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
 
-  analysisPanel.querySelectorAll('[data-i18n]').forEach((el) => {
+  // Apply i18n to both panels' chrome (graph tools + chat window).
+  document.querySelectorAll('#analysis-panel [data-i18n], #chat-panel [data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
     if (key && t(key)) { el.textContent = t(key); el.setAttribute('aria-label', t(key)); }
   });
-  analysisPanel.querySelectorAll('[data-i18n-title]').forEach((el) => {
+  document.querySelectorAll('#analysis-panel [data-i18n-title], #chat-panel [data-i18n-title]').forEach((el) => {
     const key = el.dataset.i18nTitle;
     if (key && t(key)) el.title = t(key);
   });
   analysisCloseBtn.setAttribute('aria-label', t('panelClose'));
+  if (chatCloseBtn) chatCloseBtn.setAttribute('aria-label', t('panelClose'));
+  const analysisLangToggle = document.querySelector('#analysis-panel .lang-toggle');
+  if (analysisLangToggle) analysisLangToggle.setAttribute('aria-label', t('panelLanguage'));
+  const chatLangToggle = document.querySelector('#chat-panel .lang-toggle');
+  if (chatLangToggle) chatLangToggle.setAttribute('aria-label', t('panelLanguage'));
   // Response-mode button tooltips (chrome without data-i18n markers).
   document.querySelectorAll('#response-mode .resp-mode-btn').forEach((b) => {
     b.title = t(b.dataset.mode === 'md' ? 'respModeAskTitle' : 'respModeHtmlTitle');
   });
 
   syncGraphifyUI();
-  if (panelMode === 'explore') renderAnalysisTools();
+  renderAnalysisTools();
   updateHash();
 }
 
@@ -441,57 +454,93 @@ syncGraphifyUI();
 // the other inline icons so they inherit the button's text color). The icon is
 // a static chart/diagram glyph; the button simply toggles the analysis panel.
 
+// The chat launcher lives in the analysis panel context: it is only visible
+// while the graph-tools panel is open (and hidden while the chat window
+// itself is up, since the window already fills the screen).
+function updateChatBtn() {
+  if (!chatBtn) return;
+  chatBtn.classList.toggle('visible', analysisPanelOpen && !promptOpen);
+}
+
 analysisBtn.addEventListener('click', () => {
-  promptOpen = !promptOpen;
-  analysisPanel.classList.toggle('open', promptOpen);
-  analysisBtn.classList.toggle('open', promptOpen);
-  if (!promptOpen) setActiveWindow(null);
-  if (promptOpen) promptInput.focus();
-  syncPromptPanelKeyboard();
-  state.analysisOpen = promptOpen;
+  analysisPanelOpen = !analysisPanelOpen;
+  analysisPanel.classList.toggle('open', analysisPanelOpen);
+  analysisBtn.classList.toggle('open', analysisPanelOpen);
+  if (!analysisPanelOpen) setActiveWindow(null);
+  state.analysisOpen = analysisPanelOpen;
+  state.analysisMode = 'graph';
+  updateChatBtn();
   // Surface the info card for whatever is already selected when the panel
   // opens (node/edge info now lives in the analysis panel, not a sidebar).
-  if (promptOpen) {
+  if (analysisPanelOpen) {
     if (state.selectedNode) showInfo(state.selectedNode);
     else if (state.selectedEdge) showEdgeInfo(state.selectedEdge);
   }
-  // Do NOT overwrite state.analysisMode here: setPanelMode already keeps it in
-  // canonical hash form ('graph' / 'prompt') synced with `panelMode`, while
-  // panelMode itself uses the UI tab names ('explore' / 'ask').
   updateHash();
 });
 
-// Fix for mobile keyboards: on iOS (and older Android) the virtual keyboard
-// overlays fixed elements instead of resizing the layout viewport, so the
-// composer's send button gets buried under it. `visualViewport` reports the
-// visible area above the keyboard — raise the panel's bottom edge to match.
-// Android with `interactive-widget=resizes-content` already shrinks
-// `innerHeight`, so the offset self-corrects to zero there.
-function syncPromptPanelKeyboard() {
-  if (!analysisPanel) return;
-  if (!analysisPanel.classList.contains('open') || !window.visualViewport) {
-    analysisPanel.style.bottom = '';
+// Floating chat window (bottom-right launcher): toggles the near-full-screen
+// prompt/chat surface independently of the graph-tools panel.
+// Mobile keyboards: on iOS (and older Android) the virtual keyboard overlays
+// fixed elements instead of resizing the layout viewport, so the composer's
+// send button gets buried under it. `visualViewport` reports the visible area
+// above the keyboard — raise the chat window's bottom edge to match. Android
+// with `interactive-widget=resizes-content` already shrinks `innerHeight`, so
+// the offset self-corrects to zero there.
+function syncChatPanelKeyboard() {
+  if (!chatPanel) return;
+  if (!chatPanel.classList.contains('open') || !window.visualViewport) {
+    chatPanel.style.bottom = '';
     return;
   }
   const keyboard = Math.max(0, window.innerHeight - window.visualViewport.height);
-  analysisPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
+  chatPanel.style.bottom = keyboard > 0 ? keyboard + 'px' : '';
 }
 if (window.visualViewport) {
-  window.visualViewport.addEventListener('resize', syncPromptPanelKeyboard);
+  window.visualViewport.addEventListener('resize', syncChatPanelKeyboard);
 }
-window.addEventListener('resize', syncPromptPanelKeyboard);
-syncPromptPanelKeyboard();
+window.addEventListener('resize', syncChatPanelKeyboard);
+syncChatPanelKeyboard();
 
-function closePrompt() {
+function openChatPanel() {
+  if (!chatPanel || promptOpen) return;
+  promptOpen = true;
+  chatPanel.classList.add('open');
+  chatBtn.classList.add('open');
+  state.chatOpen = true;
+  updateChatBtn();
+  syncChatPanelKeyboard();
+  promptInput.focus();
+  updateHash();
+}
+
+function closeChatPanel() {
   promptOpen = false;
+  chatPanel.classList.remove('open');
+  chatBtn.classList.remove('open');
+  state.chatOpen = false;
+  updateChatBtn();
+  syncChatPanelKeyboard();
+  setActiveWindow(null);
+  updateHash();
+}
+
+chatBtn.addEventListener('click', () => {
+  if (promptOpen) closeChatPanel();
+  else openChatPanel();
+});
+
+analysisCloseBtn.addEventListener('click', () => {
+  analysisPanelOpen = false;
   analysisPanel.classList.remove('open');
   analysisBtn.classList.remove('open');
   setActiveWindow(null);
   state.analysisOpen = false;
+  updateChatBtn();
   updateHash();
-}
+});
 
-analysisCloseBtn.addEventListener('click', closePrompt);
+if (chatCloseBtn) chatCloseBtn.addEventListener('click', closeChatPanel);
 
 // ------------------------------------------------------------
 // Message rendering
@@ -814,7 +863,10 @@ document.addEventListener('keydown', (e) => {
   if (anyModalOpen()) return; // modal.js closes the topmost overlay itself
   const nodeCard = document.getElementById('at-node-detail');
   if (nodeCard && !nodeCard.hidden) { closeNodeDetail(); return; }
-  if (analysisPanel.classList.contains('open')) { closePrompt(); return; }
+  if (chatPanel.classList.contains('open')) { closeChatPanel(); return; }
+  if (analysisPanel.classList.contains('open')) {
+    analysisCloseBtn.click();
+  }
 });
 
 // Enter in Graph mode runs the Set A/B comparison (equivalent to the
@@ -825,9 +877,10 @@ document.addEventListener('keydown', (e) => {
   const t = e.target;
   if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
       t.tagName === 'SELECT' || t.isContentEditable)) return;
-  if (panelMode !== 'explore' || !analysisPanel.classList.contains('open')) return;
-  e.preventDefault();
-  runCompare();
+  if (analysisPanel.classList.contains('open')) {
+    e.preventDefault();
+    runCompare();
+  }
 });
 
 // Delegate click on prompt entity links to open modal
@@ -1639,10 +1692,9 @@ function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
   setLabelVisibility(idSet);
 
   // Offer node filtering with a count of highlighted nodes
-  promptFilterToggle.classList.add('visible');
   promptFilterCheckbox.disabled = false;
-  promptFilterCount.textContent = nodeIds.length;
   applyPromptNodeFilter();
+  refreshQuantityPill();
 
   // Frame the camera on the primary node (if any), positioning it toward the
   // top-left of the viewport so the side panel on the right doesn't cover it.
@@ -1660,11 +1712,11 @@ function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
 
   if (targetPos) {
     // Camera flies in along the node's direction and looks slightly away from
-    // it, so the node sits in the upper-left quadrant of the view. The prompt
-    // panel (large by default) occupies the right side, so keep the target
-    // well inside the visible graph area.
+    // it, so the node sits in the upper-left quadrant of the view. The chat
+    // window (nearly full-screen when open) covers the viewport, so keep the
+    // target well inside the visible graph area.
     const hasSidebar = window.innerWidth >= 1200;
-    const promptOpen = analysisPanel.classList.contains('open');
+    const chatOpen = chatPanel.classList.contains('open');
     const dist = 320;
     const direction = targetPos.clone().sub(camera.position);
     if (direction.lengthSq() > 0.0001) direction.normalize();
@@ -1672,7 +1724,7 @@ function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
     const camPos = targetPos.clone().addScaledVector(direction, dist * 0.4)
       .addScaledVector(offsetDir, dist);
     const lookShift = hasSidebar
-      ? (promptOpen ? new THREE.Vector3(0.55, -0.3, 0) : new THREE.Vector3(0.35, -0.3, 0)).normalize()
+      ? (chatOpen ? new THREE.Vector3(0.55, -0.3, 0) : new THREE.Vector3(0.35, -0.3, 0)).normalize()
       : new THREE.Vector3(0, 0, 0);
     const lookTarget = targetPos.clone().addScaledVector(lookShift, dist * 0.4);
     animateCamera(camPos, lookTarget);
@@ -1681,11 +1733,10 @@ function highlightPromptNodes(nodeIds, edgePairs, primaryNodeId) {
 
 function clearPromptHighlights() {
   promptHighlightedNodes = [];
-  promptFilterToggle.classList.remove('visible');
   promptFilterCheckbox.checked = false;
   promptFilterCheckbox.disabled = true;
-  promptFilterCount.textContent = '0';
   applyPromptNodeFilter();
+  refreshQuantityPill();
 
   resetVisualState();
 }
@@ -1715,53 +1766,43 @@ function applyPromptNodeFilter() {
 
 promptFilterCheckbox.addEventListener('change', applyPromptNodeFilter);
 
-// ------------------------------------------------------------
-// Panel mode (Prompt / Graph) — the panel is always full-screen
-// ------------------------------------------------------------
-let panelMode = 'explore'; // 'ask' (Prompt) | 'explore' (Graph) — Graph is the default view
-
-function setPanelMode(mode) {
-  panelMode = mode;
-  state.analysisMode = mode === 'explore' ? 'graph' : 'prompt';
-  analysisPanel.classList.toggle('mode-explore', mode === 'explore');
-  analysisModeSwitch.querySelectorAll('.analysis-mode-tab').forEach(t => {
-    const active = t.dataset.mode === mode;
-    t.classList.toggle('active', active);
-    t.setAttribute('aria-selected', active ? 'true' : 'false');
+// Persistent "Filter (N)" quantity pill: crops the graph to just the highlighted
+// nodes + their links. Rendered into the analysis sub-row (left of the language
+// toggle) and floats above the detail card, so it stays visible after the card
+// closes. Shown whenever nodes are highlighted, hidden otherwise.
+function refreshQuantityPill() {
+  if (!gqfPillSlot) return;
+  const n = promptHighlightedNodes.length;
+  if (!n) { gqfPillSlot.innerHTML = ''; return; }
+  const active = !!(promptFilterCheckbox && promptFilterCheckbox.checked);
+  const icon = `<svg class="gqf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>`;
+  gqfPillSlot.innerHTML = `<button type="button" class="gqf-btn${active ? ' on' : ''}" title="Clear filter / 清除篩選">${icon} ${esc(t('filterLabel'))} (<span class="gqf-count">${n}</span>)</button>`;
+  gqfPillSlot.querySelector('.gqf-btn').addEventListener('click', () => {
+    clearPromptHighlights();
   });
-  if (mode === 'explore') renderAnalysisTools();
-  updateHash();
 }
 
-analysisModeSwitch.addEventListener('click', (e) => {
-  const tab = e.target.closest('.analysis-mode-tab');
-  if (!tab) return;
-  setPanelMode(tab.dataset.mode);
-});
+// ------------------------------------------------------------
+// Panel layout: the analysis panel is graph-tools only; the prompt/chat UI
+// lives in the floating chat window (see openChatPanel / closeChatPanel).
+// ------------------------------------------------------------
 
-// Activity dots: Prompt tab lights when a conversation is active; Graph tab
-// lights when there are selections (tags / compare sets). The floating
-// analysis button lights when either panel has active work.
+// Activity dots: the chat launcher lights when a conversation is active; the
+// graph-tools button lights when there are selections (tags / compare sets).
 function refreshActivity() {
-  const conversationActive = promptActive ||
-    (panelMode !== 'explore' && promptInput.value.trim().length > 0);
+  const conversationActive = promptActive || promptInput.value.trim().length > 0;
   const graphActive = compareA.length > 0 || compareB.length > 0;
-  const promptTab = analysisPanel.querySelector('.analysis-mode-tab[data-mode="ask"]');
-  const graphTab = analysisPanel.querySelector('.analysis-mode-tab[data-mode="explore"]');
-  if (promptTab) promptTab.classList.toggle('has-activity', conversationActive);
-  if (graphTab) graphTab.classList.toggle('has-activity', graphActive);
-  if (analysisActivityDot) analysisActivityDot.classList.toggle('on', conversationActive || graphActive);
+  if (chatActivityDot) chatActivityDot.classList.toggle('on', conversationActive);
+  if (analysisActivityDot) analysisActivityDot.classList.toggle('on', graphActive);
 }
 
 // Prompt indicator: yellow (pulsing) while the assistant is generating, green
-// when idle/ready. Drives the floating prompt button's dot and the Prompt tab dot.
+// when idle/ready. Drives the floating chat button's dot.
 function setPromptThinking(on) {
-  if (analysisActivityDot) {
-    analysisActivityDot.classList.add('on');
-    analysisActivityDot.classList.toggle('thinking', on);
+  if (chatActivityDot) {
+    chatActivityDot.classList.add('on');
+    chatActivityDot.classList.toggle('thinking', on);
   }
-  const promptTab = analysisPanel.querySelector('.analysis-mode-tab[data-mode="ask"]');
-  if (promptTab) promptTab.classList.toggle('thinking', on);
 }
 
 // ------------------------------------------------------------
@@ -1814,7 +1855,9 @@ function computeDatasetStats() {
   datasetStats = {
     N, E,
     communities: commIds.size,
-    avgDegree: (2 * E) / Math.max(1, N),
+    avgDegree: degrees.length
+      ? degrees.reduce((s, d) => s + d, 0) / degrees.length
+      : 0,
     density: (2 * E) / (N * Math.max(1, N - 1)),
     godNodes: hubs.slice(0, 10),
     meanPagerank,
@@ -1976,7 +2019,6 @@ function renderAnalysisTools() {
         <button class="at-compare-btn" id="at-compare-go" title="${esc(t('runCompareTitle'))}"><span class="enter-ico">&#9166;</span> ${esc(t('runCompare'))}</button>
         <button class="at-prompt-btn" id="at-send-prompt" title="${esc(t('promptBtnTitle'))}">${esc(t('analysisBtn'))}</button>
         <button id="prompt-new" title="${esc(t('resetTitle'))}">${esc(t('reset'))}</button>
-        <button class="at-export-json-btn" id="at-export-json" title="${esc(t('saveBtnTitle'))}">${esc(t('saveBtn'))}</button>
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
     </section>
@@ -2011,7 +2053,6 @@ function renderAnalysisTools() {
   });
   analysisTools.querySelector('#at-compare-go').addEventListener('click', runCompare);
   analysisTools.querySelector('#at-send-prompt').addEventListener('click', sendSelectionToPrompt);
-  analysisTools.querySelector('#at-export-json').addEventListener('click', exportSelectionJSON);
   analysisTools.querySelector('#prompt-new').addEventListener('click', resetPrompt);
   rebindTracePanel();
   wireAnalysisSearch(s);
@@ -2243,7 +2284,8 @@ function buildNodeDetailActions(id) {
     onFocus: () => {
       if (promptFilterCheckbox.checked && promptHighlightedNodes.length) clearPromptHighlights();
       else exploreFocusNode(id);
-      hideNodeInfo();
+      // Keep the detail card open so the focus/filter state stays visible
+      // (previously this called hideNodeInfo(), closing the card on every focus).
     },
     onAddA: () => toggleCompare(id, 'a'),
     onAddB: () => toggleCompare(id, 'b'),
@@ -2259,39 +2301,6 @@ setNodeActionBuilder(buildNodeDetailActions);
 function closeNodeDetail() {
   const wrap = document.getElementById('at-node-detail');
   if (wrap) wrap.hidden = true;
-}
-
-// Export the current Graph selection (Compare Sets A/B + selected nodes/edges)
-// as a standalone .json file.
-function exportSelectionJSON() {
-  const ids = new Set([...entryIds(compareA), ...entryIds(compareB)]);
-  if (!ids.size) {
-    alert(t('exportNeedSelection'));
-    return;
-  }
-  const safe = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
-  const nodes = RAW_NODES.filter(n => ids.has(n.id)).map(n => ({
-    id: n.id, label: n.label, community: n.community,
-    degree: n.degree, pagerank: n.pagerank, betweenness: n.betweenness,
-    description: n.description,
-  }));
-  const edges = RAW_EDGES.filter(e => ids.has(e.from) && ids.has(e.to)).map(e => ({
-    from: e.from, to: e.to, relation: e.relation, confidence: e.confidence,
-  }));
-  const data = {
-    exported_at: new Date().toISOString(),
-    selection: { node_count: ids.size, edge_count: edges.length },
-    sets: { A: compareA, B: compareB },
-    tagged_nodes: Array.from(promptTagSet.values()).map(n => ({ id: n.id, label: n.label })),
-    nodes,
-    edges,
-  };
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.download = `selection-${safe}.json`;
-  a.href = URL.createObjectURL(blob);
-  a.click();
-  URL.revokeObjectURL(a.href);
 }
 
 // Build a natural-language analysis prompt from the current Graph selection
@@ -2325,7 +2334,7 @@ function sendSelectionToPrompt() {
     const all = [...a, ...b];
     text = `Analyze the following nodes: ${all.map(l => '@' + l).join(', ')}.\nExplain their roles, interactions, and relevance to longevity and disease.`;
   }
-  setPanelMode('ask');
+  openChatPanel();
   promptInput.value = text;
   promptInput.style.height = 'auto';
   promptInput.style.height = Math.min(promptInput.scrollHeight, 160) + 'px';
@@ -2340,26 +2349,18 @@ function sendSelectionToPrompt() {
   refreshActivity();
 }
 
-// Open the analysis panel in Prompt (ask) mode with `text` pre-loaded into the
-// composer and `tags` (@-tagged graph node labels) pinned as structured context.
-// Used by the Notes panel to hand a note's transcript to the prompt agent — closes
-// Notes first (they share the full-screen overlay) so only Analysis is visible.
+// Open the floating chat window with `text` pre-loaded into the composer and
+// `tags` (@-tagged graph node labels) pinned as structured context. Used by the
+// Notes panel to hand a note's transcript to the prompt agent — closes Notes
+// first so only the chat window is visible.
 export function openPromptComposer(text, tags = []) {
-  // Both panels are full-viewport overlays — dismiss Notes before showing prompt.
+  // Both surfaces are overlays — dismiss Notes before showing the chat.
   const notesPanel = document.getElementById('notes-panel');
   const notesClose = document.getElementById('notes-close');
   if (notesPanel && notesPanel.classList.contains('open') && notesClose) {
     notesClose.click();
   }
-  state.analysisOpen = true;
-  setPanelMode('ask');
-  if (!analysisPanel.classList.contains('open')) {
-    promptOpen = true;
-    analysisPanel.classList.add('open');
-    analysisBtn.classList.add('open');
-    syncPromptPanelKeyboard();
-    updateHash();
-  }
+  openChatPanel();
   // Hide the suggestion chips only when we're handing over a real message to
   // review; an empty composer keeps them as a starting point.
   if (text) {
@@ -2445,8 +2446,6 @@ function renderCompareSets() {
     const b = el.querySelector('.set-b'); if (b) b.classList.toggle('on', compareB.some(e => e.type === 'community' && e.cid === cid));
   });
   const hasSelection = compareA.length > 0 || compareB.length > 0;
-  const exportBtn = document.getElementById('at-export-json');
-  if (exportBtn) exportBtn.disabled = !hasSelection;
   const atPromptBtn = document.getElementById('at-send-prompt');
   if (atPromptBtn) atPromptBtn.disabled = !hasSelection;
   refreshActivity();
@@ -2512,10 +2511,11 @@ function runCompare() {
 // ------------------------------------------------------------
 // Init
 // ------------------------------------------------------------
-// Sync the default mode (Graph/Explore) — sets the active tab and renders the
-// analytics tools so they're ready when the panel opens.
+// Render the graph analytics tools so they're ready when the panel opens, and
+// seed the chat window with the suggestion chips.
+state.analysisMode = 'graph';
 state.suppressHashUpdate = true;
-setPanelMode(panelMode);
+renderAnalysisTools();
 applyUiLang(uiLang);
 state.suppressHashUpdate = false;
 appendSuggestions(promptMessages);

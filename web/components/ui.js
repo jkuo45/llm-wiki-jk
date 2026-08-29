@@ -120,7 +120,7 @@ function notifyDetailLoaded(nodeId, label) {
 
 // ------------------------------------------------------------
 // Entity-note tooltip + modal. The DOM (#wiki-tooltip / #wiki-modal*) lives in
-// index.html and prompt.js wires the close handlers, so here we only populate
+// index.html and analysis.js wires the close handlers, so here we only populate
 // and show. Entity note links in the node/community cards render as tooltip
 // spans (.at-node-note-link) instead of navigating straight to GitHub.
 // ------------------------------------------------------------
@@ -129,7 +129,7 @@ const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
 const wikiModalTitle = document.getElementById('wiki-modal-title');
 const wikiModalBody = document.getElementById('wiki-modal-body');
 const wikiModalLink = document.getElementById('wiki-modal-link');
-// Shared with prompt.js (which wires the close handlers via modal.js).
+// Shared with analysis.js (which wires the close handlers via modal.js).
 registerModal('wiki-modal', wikiModalOverlay);
 let nodeWikiTooltipVisible = false;
 
@@ -225,11 +225,34 @@ export function hideNodeInfo() {
   routeCardRerender = null;
   detailHistory = [];
   currentView = null;
+  // NOTE: do NOT clear #analysis-subrow-left here — it now holds the hidden
+  // #prompt-filter-nodes state holder used by the graph quantity filter, which
+  // must persist independently of the detail card.
   // Nothing is loaded in the info card anymore — clear the analysis button's
   // loaded indicator (refreshActivity() re-lights it if prompt work is active).
   lastLoadedNotifyId = null;
   const dot = document.getElementById('analysis-activity-dot');
   if (dot) dot.classList.remove('on');
+}
+
+// "Filter (n)" action shown inside the detail card's action row (alongside the
+// A/B buttons). The card is a full-screen overlay (z-index 620) that covers the
+// analysis-panel sub-row, so the Filter action must live inside the card itself —
+// injecting it into #analysis-subrow-left (as older builds did) left it permanently
+// hidden behind the card.
+function filterBtnHTML(actions, filterLabel, filterActive) {
+  const fn = actions && (actions.onFocus || actions.onIsolate);
+  if (!fn) return '';
+  return `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>`;
+}
+function bindFilterBtn(infoCard, actions) {
+  const fn = actions && (actions.onFocus || actions.onIsolate);
+  const btn = infoCard.querySelector('.at-node-btn.at-focus');
+  if (!fn || !btn) return;
+  btn.addEventListener('click', () => {
+    fn();
+    if (actions.filterActive) btn.classList.toggle('on', !!actions.filterActive());
+  });
 }
 
 // ------------------------------------------------------------
@@ -284,7 +307,7 @@ function contextCard(text, max = 2800, footer = '') {
 
 // Render the merged node info card: identity + wiki/source links + context +
 // topology metrics + clickable connections. `actions` (optional) adds the
-// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by prompt.js.
+// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by analysis.js.
 // ---- Back-navigation history for the node/edge detail sheet ----
 // Records each node/edge card the user views so that clicking through
 // Connections (or selecting other nodes/edges) can be undone with Back.
@@ -293,10 +316,10 @@ let detailHistory = [];   // stack of earlier views (last entry = most recent)
 let currentView = null;   // { type:'node', id, actions } | { type:'edge', edge } | { type:'community', cid }
 let routeCardRerender = null; // re-render fn for the transient route card (not tracked in currentView)
 
-// Registered by prompt.js: builds the Graph-mode quick actions (Filter / A / B)
+// Registered by analysis.js: builds the Graph-mode quick actions (Filter / A / B)
 // for a node when the detail sheet is opened from a path that doesn't supply an
 // explicit `actions` object (panel open, graph node click). Kept here as a hook
-// to avoid introducing a circular import between ui.js and prompt.js.
+// to avoid introducing a circular import between ui.js and analysis.js.
 let nodeActionBuilder = null;
 export function setNodeActionBuilder(build) { nodeActionBuilder = build; }
 
@@ -392,7 +415,7 @@ function renderNodeInfo(nodeId, actions) {
   const filterActive = !!(actions && actions.filterActive && actions.filterActive());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
+      ${filterBtnHTML(actions, filterLabel, filterActive)}
       ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
@@ -432,9 +455,7 @@ function renderNodeInfo(nodeId, actions) {
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
   const backEl = infoCard.querySelector('.at-node-back');
   if (backEl) backEl.addEventListener('click', goBackDetail);
-  if (actions && actions.onFocus) {
-    infoCard.querySelector('.at-focus').addEventListener('click', actions.onFocus);
-  }
+  if (actions) bindFilterBtn(infoCard, actions);
   if (actions && (actions.onAddA || actions.onAddB)) {
     const btnA = infoCard.querySelector('.at-add[data-set="a"]');
     const btnB = infoCard.querySelector('.at-add[data-set="b"]');
@@ -516,7 +537,7 @@ function renderEdgeInfo(edge) {
 // Community card: rendered into the same slide-up detail sheet when clicking a
 // community row in the analysis panel. Surfaces the community's hub concept
 // (description + wiki note), topology metrics, and its most-connected members.
-// `actions` (optional) provides Isolate / Set A / Set B callbacks from prompt.js.
+// `actions` (optional) provides Isolate / Set A / Set B callbacks from analysis.js.
 export function showCommunityInfo(cid, actions) {
   const c = LEGEND.find(x => x.cid === cid);
   if (!c || !infoCard) return;
@@ -569,7 +590,7 @@ function renderCommunityInfo(cid, actions) {
   const filterActive = !!(actions && actions.filterActive && actions.filterActive());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
+      ${filterBtnHTML(actions, filterLabel, filterActive)}
       ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
@@ -606,9 +627,7 @@ function renderCommunityInfo(cid, actions) {
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
   const backEl = infoCard.querySelector('.at-node-back');
   if (backEl) backEl.addEventListener('click', goBackDetail);
-  if (actions && actions.onIsolate) {
-    infoCard.querySelector('.at-node-actions .at-node-btn:not(.at-add)').addEventListener('click', actions.onIsolate);
-  }
+  if (actions) bindFilterBtn(infoCard, actions);
   if (actions && (actions.onAddA || actions.onAddB)) {
     const btnA = infoCard.querySelector('.at-node-actions .at-add[data-set="a"]');
     const btnB = infoCard.querySelector('.at-node-actions .at-add[data-set="b"]');
@@ -629,7 +648,7 @@ document.addEventListener('click', e => {
   }
 });
 
-// Community focus cleanup — kept as a no-op-ish reset for prompt.js highlights
+// Community focus cleanup — kept as a no-op-ish reset for analysis.js highlights
 // (the old sidebar legend that drove it was removed).
 export function clearCommunityFocus() {
   state.focusedCommunity = null;
@@ -645,7 +664,7 @@ export function clearCommunityFocus() {
 }
 
 // ------------------------------------------------------------
-// Graph Query (trace panel) — rendered inside #analysis-tools by prompt.js.
+// Graph Query (trace panel) — rendered inside #analysis-tools by analysis.js.
 // Element refs are re-bound after every renderAnalysisTools() rebuild.
 // ------------------------------------------------------------
 let traceSelectEl = null;
@@ -1097,6 +1116,6 @@ window.addEventListener('pointerup', () => {
 
 updateZoomBar();
 
-// The trace card lives inside #analysis-tools, which prompt.js renders at
+// The trace card lives inside #analysis-tools, which analysis.js renders at
 // startup — rebind (no-op until those elements exist).
 rebindTracePanel();
