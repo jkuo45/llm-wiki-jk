@@ -1,0 +1,211 @@
+wiki graph: 2994 nodes / 30209 edges
+
+## Caspase-1  (deg 25) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.69  Senescence-Associated Secretory Phenotype shared=13
+     0.50  Gasdermin D                              shared=9
+     0.42  IL-1α                                    shared=8
+     0.34  NLRP3                                    shared=8
+     0.23  Oxidative Stress                         shared=6
+     0.21  Macrophages                              shared=4
+     0.18  cGAS-STING Pathway                       shared=6
+     0.15  Gout                                     shared=4
+     0.15  Atherosclerosis                          shared=5
+     0.15  Canakinumab                              shared=5
+     0.14  Mitochondrial DNA                        shared=6
+     0.14  Anakinra                                 shared=4
+
+## Caspases  (deg 16) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.24  Intrinsic Pathway                        shared=7
+     0.22  NF-κB                                    shared=8
+     0.22  Cancer                                   shared=8
+     0.21  Apoptosome                               shared=6
+     0.21  TRAIL                                    shared=6
+     0.19  Phosphorylation                          shared=7
+     0.17  FasL                                     shared=5
+     0.16  Breast Cancer                            shared=4
+     0.16  IKKepsilon                               shared=7
+     0.16  LYN                                      shared=4
+     0.16  Chemotherapy                             shared=3
+     0.13  Smac DIABLO                              shared=5
+
+## Caspase  (deg 20) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.40  Caspase-7                                shared=7
+     0.29  Extrinsic Pathway                        shared=5
+     0.28  Intrinsic Pathway                        shared=7
+     0.25  Caspase-9                                shared=6
+     0.20  XIAP                                     shared=4
+     0.20  Inhibitor of Apoptosis Proteins          shared=4
+     0.19  Bid                                      shared=7
+     0.19  TRAF2                                    shared=3
+     0.17  Endoplasmic Reticulum Pathway            shared=2
+     0.16  Necroptosis                              shared=2
+     0.16  Adrenochrome                             shared=2
+     0.16  p53                                      shared=4
+
+## Caspase-9  (deg 37) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.75  Chemotherapy                             shared=13
+     0.74  Cancer                                   shared=14
+     0.55  Hallmarks of Cancer                      shared=11
+     0.31  Bad                                      shared=9
+     0.31  BAX                                      shared=12
+     0.30  Bim                                      shared=10
+     0.29  NF-κB                                    shared=8
+     0.29  Extrinsic Pathway                        shared=7
+     0.25  Caspase                                  shared=6
+     0.24  Omi/HtrA2                                shared=6
+     0.23  p53                                      shared=6
+     0.22  Metastasis                               shared=4
+
+## Caspase-8  (deg 41) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.61  Cancer                                   shared=16
+     0.54  Chemotherapy                             shared=9
+     0.34  Smac DIABLO                              shared=11
+     0.29  XIAP                                     shared=10
+     0.25  Akt                                      shared=10
+     0.25  BH3 mimetics                             shared=9
+     0.24  p53                                      shared=9
+     0.23  Dasatinib                                shared=4
+     0.22  Metastasis                               shared=5
+     0.21  Executioner Caspase                      shared=5
+     0.21  ASK1                                     shared=8
+     0.21  Apigenin                                 shared=7
+
+## Caspase-3  (deg 55) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.65  Cancer                                   shared=17
+     0.60  Chemotherapy                             shared=10
+     0.56  Oxidative Stress                         shared=14
+     0.54  Cellular Senescence                      shared=12
+     0.44  NF-κB                                    shared=13
+     0.41  necrosis                                 shared=5
+     0.38  BAX                                      shared=12
+     0.32  Bid                                      shared=9
+     0.32  p53                                      shared=8
+     0.31  BAK                                      shared=10
+     0.31  Cytochrome c                             shared=9
+     0.30  Atherosclerosis                          shared=6
+
+## Caspase-2  (deg 14) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.82  Apoptosis                                shared=11
+     0.72  Cancer                                   shared=9
+     0.58  Hallmarks of Cancer                      shared=7
+     0.42  Chemotherapy                             shared=5
+     0.30  Mcl-1                                    shared=6
+     0.25  p53                                      shared=4
+     0.22  Mitochondrial outer membrane permeabilization shared=3
+     0.16  BH3 mimetics                             shared=3
+     0.14  Caspase-8                                shared=4
+     0.14  CDC20                                    shared=3
+     0.14  APC-C                                    shared=3
+     0.12  Cognition                                shared=1
+
+## Caspase-10  (deg 13) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.44  TRAIL                                    shared=8
+     0.32  TNFR1                                    shared=6
+     0.30  FasL                                     shared=7
+     0.26  Intrinsic Pathway                        shared=8
+     0.22  TRADD                                    shared=5
+     0.17  Common Pathway                           shared=6
+     0.16  TNF-α                                    shared=4
+     0.14  Smac DIABLO                              shared=5
+     0.14  Bid                                      shared=4
+     0.12  Caspase-6                                shared=5
+     0.12  TNFα                                     shared=4
+     0.12  Apoptosome                               shared=5
+
+## Executioner Caspase  (deg 10) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.23  Nucleus                                  shared=2
+     0.21  Caspase-8                                shared=5
+     0.20  Caspase-9                                shared=5
+     0.18  Lamin A                                  shared=3
+     0.16  Smac DIABLO                              shared=5
+     0.16  Common Pathway                           shared=4
+     0.15  p53                                      shared=3
+     0.15  Cancer                                   shared=4
+     0.12  Caspase-10                               shared=4
+     0.11  XIAP                                     shared=4
+     0.11  Intrinsic Pathway                        shared=4
+     0.11  chromatin condensation                   shared=3
+
+## Caspase-5  (deg 10) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.18  NLRP3 Inflammasome                       shared=4
+     0.15  IL-18                                    shared=5
+     0.15  cGAS-STING Pathway                       shared=6
+     0.13  Interleukin 1β                           shared=5
+     0.12  IL-1b                                    shared=4
+     0.12  Apoptosis                                shared=3
+     0.12  ASC                                      shared=4
+     0.12  AIM2                                     shared=4
+     0.10  Senescent Cells                          shared=5
+     0.10  NF-κB                                    shared=5
+     0.09  Paracrine Senescence                     shared=5
+     0.09  Mitochondrial DNA                        shared=4
+
+## Caspase-11  (deg 10) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.18  NLRP3 Inflammasome                       shared=4
+     0.15  IL-18                                    shared=5
+     0.15  cGAS-STING Pathway                       shared=6
+     0.13  Interleukin 1β                           shared=5
+     0.12  IL-1b                                    shared=4
+     0.12  Apoptosis                                shared=3
+     0.12  ASC                                      shared=4
+     0.12  AIM2                                     shared=4
+     0.10  Senescent Cells                          shared=5
+     0.10  NF-κB                                    shared=5
+     0.09  Paracrine Senescence                     shared=5
+     0.09  Mitochondrial DNA                        shared=4
+
+## Caspase-4  (deg 10) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.18  NLRP3 Inflammasome                       shared=4
+     0.15  IL-18                                    shared=5
+     0.15  cGAS-STING Pathway                       shared=6
+     0.13  Interleukin 1β                           shared=5
+     0.12  IL-1b                                    shared=4
+     0.12  Apoptosis                                shared=3
+     0.12  ASC                                      shared=4
+     0.12  AIM2                                     shared=4
+     0.10  Senescent Cells                          shared=5
+     0.10  NF-κB                                    shared=5
+     0.09  Paracrine Senescence                     shared=5
+     0.09  Mitochondrial DNA                        shared=4
+
+## Caspase-7  (deg 22) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.40  Caspase                                  shared=7
+     0.33  DISC                                     shared=8
+     0.26  Caspase-6                                shared=6
+     0.24  Akt                                      shared=8
+     0.22  DR5                                      shared=5
+     0.22  DR4                                      shared=5
+     0.22  Bid                                      shared=6
+     0.22  Fas                                      shared=5
+     0.22  Omi/HtrA2                                shared=5
+     0.21  SHP1                                     shared=5
+     0.20  BH3 mimetics                             shared=6
+     0.19  NF-κB                                    shared=5
+
+## Caspase-6  (deg 11) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.26  Caspase-7                                shared=6
+     0.18  Lamins                                   shared=4
+     0.17  ICAD                                     shared=4
+     0.17  Cellular Senescence                      shared=4
+     0.16  Intrinsic Pathway                        shared=5
+     0.15  Apoptosome                               shared=4
+     0.14  Extrinsic Pathway                        shared=4
+     0.13  Apoptosis-Inducing Factor                shared=3
+     0.13  necrosis                                 shared=2
+     0.13  AIF                                      shared=2
+     0.12  Histone H4                               shared=1
+     0.12  Caspase-10                               shared=5
+
+## Caspase-12  (deg 6) — top 12 predicted non-adjacent connections (Adamic-Adar):
+     0.29  Common Pathway                           shared=4
+     0.20  Hypoxia                                  shared=1
+     0.14  Caspase-8                                shared=4
+     0.14  Caspase-3                                shared=4
+     0.12  TNFR1                                    shared=3
+     0.12  Unfolded Protein Response                shared=3
+     0.11  Caspase-10                               shared=3
+     0.09  DISC                                     shared=3
+     0.09  Caspase-7                                shared=3
+     0.09  Bid                                      shared=3
+     0.08  Smac DIABLO                              shared=3
+     0.08  BAX                                      shared=3
