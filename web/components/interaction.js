@@ -505,9 +505,9 @@ export function selectNode(nodeId) {
 
   setLabelVisibility(neighborIds);
 
-  if (state.analysisOpen) {
-    showInfo(nodeId);
-  }
+  // Load the detail card even while the analysis panel is closed: the floating
+  // button's green dot + toast signal that something is loaded and waiting.
+  showInfo(nodeId);
 
   const targetPos = mesh.position.clone();
   animateCamera(targetPos.clone().add(CAMERA_OFFSET), targetPos);

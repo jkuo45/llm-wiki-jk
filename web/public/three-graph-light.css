@@ -270,6 +270,7 @@ body {
 .dataset-mode { color: #7C8698; }
 .prompt-activity-dot { border-color: #FFFFFF; }
 .prompt-activity-dot.thinking { border-color: #FFFFFF; }
+#detail-loaded-toast { background: #FFFFFF; color: #22304A; box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
 
 /* Explore widgets */
 .at-h { color: #7C8698; }

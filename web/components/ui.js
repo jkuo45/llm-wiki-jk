@@ -94,6 +94,30 @@ document.addEventListener('focusin', (e) => {
 // ------------------------------------------------------------
 const infoCard = document.getElementById('at-node-detail');
 
+// Analysis-button indicator: when a node detail is loaded into the info card,
+// light the floating analysis button's green dot and toast the user so they
+// know something is loaded in the (possibly closed) analysis panel.
+let lastLoadedNotifyId = null;
+function notifyDetailLoaded(nodeId, label) {
+  if (!nodeId || nodeId === lastLoadedNotifyId) return;
+  lastLoadedNotifyId = nodeId;
+  const dot = document.getElementById('prompt-activity-dot');
+  if (dot) dot.classList.add('on');
+  const useZh = state.analysisUiLang === 'zh-TW';
+  let toast = document.getElementById('detail-loaded-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'detail-loaded-toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = useZh
+    ? `「${label}」已載入分析面板`
+    : `“${label}” loaded in the analysis panel`;
+  toast.classList.add('visible');
+  clearTimeout(notifyDetailLoaded._t);
+  notifyDetailLoaded._t = setTimeout(() => toast.classList.remove('visible'), 2400);
+}
+
 // ------------------------------------------------------------
 // Entity-note tooltip + modal. The DOM (#wiki-tooltip / #wiki-modal*) lives in
 // index.html and prompt.js wires the close handlers, so here we only populate
@@ -201,6 +225,11 @@ export function hideNodeInfo() {
   routeCardRerender = null;
   detailHistory = [];
   currentView = null;
+  // Nothing is loaded in the info card anymore — clear the analysis button's
+  // loaded indicator (refreshActivity() re-lights it if prompt work is active).
+  lastLoadedNotifyId = null;
+  const dot = document.getElementById('prompt-activity-dot');
+  if (dot) dot.classList.remove('on');
 }
 
 // ------------------------------------------------------------
@@ -288,6 +317,8 @@ export function showInfo(nodeId, actions) {
   }
   currentView = { type: 'node', id: nodeId, actions };
   renderNodeInfo(nodeId, actions);
+  const n = nodeMap.get(nodeId);
+  notifyDetailLoaded(nodeId, n.label || nodeId);
 }
 
 export function goBackDetail() {
