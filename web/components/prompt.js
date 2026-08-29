@@ -1913,6 +1913,10 @@ function renderAnalysisTools() {
       <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
       <div class="at-cards">${cards}</div>
     </section>
+    <section class="at-section at-span-5">
+      <h4 class="at-h">${esc(t('networkTopology'))}</h4>
+      <div class="at-cards">${topoCards}</div>
+    </section>
     <div class="at-row-pair">
       <section class="at-section">
         <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
@@ -1944,10 +1948,6 @@ function renderAnalysisTools() {
       <h4 class="at-h"><span>${esc(t('predictedTitle'))}</span></h4>
       <p class="at-hint">${esc(t('predictedNote'))}</p>
       <div id="at-predicted-list" class="at-surprise-list"><div class="at-loading">…</div></div>
-    </section>
-    <section class="at-section at-span-5">
-      <h4 class="at-h">${esc(t('networkTopology'))}</h4>
-      <div class="at-cards">${topoCards}</div>
     </section>
     <section class="at-section at-span-7">
       <h4 class="at-h"><span>${esc(t('communities'))}</span><span class="at-note">${esc(t('communityNote'))}</span></h4>
