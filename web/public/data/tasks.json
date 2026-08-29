@@ -1,5 +1,5 @@
 {
-  "generated": "28_AUG_2026 05:46 PM PDT",
+  "generated": "28_AUG_2026 06:10 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -29,7 +29,7 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "Node-Level Network Analysis for the Combined Knowledge Graph",
+          "title": "Graph Metrics (wiki + triples) - Combined",
           "description": "Metrics analysis of the combined (triples + wiki) knowledge graph — recomputed centrality on the union topology (4,084 nodes / 36,982 edges), role distribution, connectivity contrast vs the triples graph (components 223→123, k-core 6→20, giant component 82%→94%), wiki-only core integration (cGAS, STING, Phosphorylation…), p53/TP53 consolidation, and wiki-boosted shared hubs — with the caveat that the stored combined fingerprint inherits per-source values. Correction note: the wiki previously split the single p53/TP53 entity into two nodes (p53 protein + TP53 gene); consolidated into p53, a shared union core node.",
           "created": "2026-08-27",
           "updated": "2026-08-27",
@@ -45,9 +45,26 @@
           ],
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
           "path": "tasks/en-US/task_output_node_metrics_combined_graph_27_Aug_2026.md"
+        },
+        "zh-TW": {
+          "title": "圖指標（維基 + 三元組）— 綜合",
+          "description": "合併（triples + wiki）知識圖譜的指標分析——在聯集拓撲（4,084 節點 / 36,982 邊）上重新計算中心性、角色分布、相對 triples 圖的連通性對比（連通分量 223→123、k-core 6→20、巨型分量 82%→94%）、wiki 獨有核心節點的整合（cGAS、STING、Phosphorylation…）、p53/TP53 合併，以及獲得 wiki 加成的共享中樞——並附帶以下注意事項：儲存的合併指標指紋沿用了各來源圖的數值。勘誤說明：wiki 先前曾將單一的 p53/TP53 實體拆成兩個節點（p53 蛋白 + TP53 基因）；現已合併為 p53，成為共享的聯集核心節點。",
+          "created": "2026-08-27",
+          "updated": "2026-08-27",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "combined-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "networkx"
+          ],
+          "filename": "task_output_node_metrics_combined_graph_27_Aug_2026_zh-TW.md",
+          "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026_zh-TW.md"
         }
-      },
-      "starred": true
+      }
     },
     {
       "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
