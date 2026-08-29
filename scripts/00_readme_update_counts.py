@@ -356,6 +356,41 @@ def build_web_tasks(task_data, args):
     print(f"Wrote {out_path} ({len(ordered)} tasks, {copied} files copied to {args.web_tasks_dir}/)")
 
 
+def read_env_file(path):
+    """Parse simple KEY=VALUE lines from a .env file into a dict."""
+    env = {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, _, value = line.partition("=")
+                env[key.strip()] = value.strip().strip("\"'")
+    except OSError:
+        pass
+    return env
+
+
+def resolve_github_config(cli_url, cli_branch):
+    """Resolve GitHub repo URL + branch: CLI args > env vars > repo .env > defaults."""
+    file_env = read_env_file(".env")
+    repo_url = (
+        cli_url
+        or os.environ.get("GITHUB_REPO_URL")
+        or file_env.get("GITHUB_REPO_URL")
+        or "https://github.com/jkuo45/llm-wiki"
+    )
+    branch = (
+        cli_branch
+        or os.environ.get("GITHUB_BRANCH")
+        or file_env.get("GITHUB_BRANCH")
+        or "dev"
+    )
+    repo_url = repo_url.rstrip("/").removesuffix(".git")
+    return repo_url, branch
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Update root README.md with topic counts and document lists."
@@ -390,7 +425,19 @@ def main():
         action="store_true",
         help="Only update the README; skip emitting web/public/tasks.json and copying markdown",
     )
+    parser.add_argument(
+        "--repo_url",
+        default=None,
+        help="GitHub repo URL for links (default: GITHUB_REPO_URL env/.env, else https://github.com/jkuo45/llm-wiki)",
+    )
+    parser.add_argument(
+        "--branch",
+        default=None,
+        help="Branch for GitHub links (default: GITHUB_BRANCH env/.env, else dev)",
+    )
     args = parser.parse_args()
+
+    args.repo_url, args.branch = resolve_github_config(args.repo_url, args.branch)
 
     notes_dir = args.notes_dir
     if not os.path.isdir(notes_dir):
@@ -547,7 +594,7 @@ def main():
     total_entities = 0
     total_docs = 0
     for t in topic_data:
-        topic_gh = f"https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')}"
+        topic_gh = f"{args.repo_url}/tree/{args.branch}/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')}"
         topic_obsidian = f"[[src/notes/{t['topic']}/README\\|wiki]]"
         topics_table.append(
             f"| [{t['topic']}]({topic_gh}) {topic_obsidian} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
@@ -577,7 +624,7 @@ def main():
         # Truncate to 100 characters if needed
         if len(display_name) > 100:
             display_name = display_name[:97].rstrip() + "..."
-        doc_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')}"
+        doc_gh = f"{args.repo_url}/blob/{args.branch}/{urllib.parse.quote(d['path'], safe='/')}"
         doc_wiki = f"[[{d['path']}|wiki]]"
         docs_list.append(
             f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']})"
@@ -595,7 +642,7 @@ def main():
         prefix = os.path.dirname(rel)
         if prefix:
             display_name = f"`{prefix}/` {display_name}"
-        task_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(t['path'], safe='/')}"
+        task_gh = f"{args.repo_url}/blob/{args.branch}/{urllib.parse.quote(t['path'], safe='/')}"
         task_wiki = f"[[{t['path']}|wiki]]"
         task_list_lines.append(
             f"- [{display_name}]({task_gh}) {task_wiki} ({t['date']})"
