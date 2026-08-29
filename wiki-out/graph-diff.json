@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-28T09:37:48Z",
-  "triples_graph": "/Users/johnnykuo/projects/llm-wiki-jk/graphify-out/graph.json",
-  "wiki_graph": "/Users/johnnykuo/projects/llm-wiki-jk/wiki-out/wiki-graph.json",
+  "generated_at": "2026-08-29T01:19:58Z",
+  "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
+  "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/wiki-graph.json",
   "counts": {
-    "triples_nodes": 2629,
-    "wiki_nodes": 2994,
-    "shared_nodes": 1539,
-    "wiki_only_nodes": 1455,
-    "triples_only_nodes": 1090,
-    "triples_edges": 3832,
-    "wiki_edges": 34850,
-    "wiki_only_edges": 33150,
-    "triples_only_edges": 2132
+    "triples_nodes": 2654,
+    "wiki_nodes": 3007,
+    "shared_nodes": 1563,
+    "wiki_only_nodes": 1444,
+    "triples_only_nodes": 1091,
+    "triples_edges": 3896,
+    "wiki_edges": 35150,
+    "wiki_only_edges": 33422,
+    "triples_only_edges": 2168
   },
   "top_wiki_only_nodes": [
     {
@@ -25,13 +25,13 @@
       "degree": 87
     },
     {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
+      "id": "sting",
+      "label": "STING",
       "degree": 83
     },
     {
-      "id": "sting",
-      "label": "STING",
+      "id": "cell_cycle",
+      "label": "Cell Cycle",
       "degree": 83
     },
     {
@@ -42,7 +42,7 @@
     {
       "id": "ubiquitination",
       "label": "Ubiquitination",
-      "degree": 72
+      "degree": 73
     },
     {
       "id": "nmn",
@@ -55,23 +55,23 @@
       "degree": 71
     },
     {
-      "id": "endothelial_cells",
-      "label": "Endothelial Cells",
-      "degree": 68
-    },
-    {
       "id": "fibroblast",
       "label": "Fibroblast",
       "degree": 68
     },
     {
-      "id": "type_i_interferon",
-      "label": "Type I Interferon",
-      "degree": 66
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
+      "degree": 68
     },
     {
       "id": "metabolism",
       "label": "Metabolism",
+      "degree": 66
+    },
+    {
+      "id": "type_i_interferon",
+      "label": "Type I Interferon",
       "degree": 66
     },
     {
@@ -100,18 +100,18 @@
       "degree": 57
     },
     {
-      "id": "mitochondrial_permeability_transition_pore",
-      "label": "Mitochondrial Permeability Transition Pore",
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
       "degree": 57
-    },
-    {
-      "id": "extracellular_matrix",
-      "label": "Extracellular Matrix",
-      "degree": 56
     },
     {
       "id": "calcium",
       "label": "Calcium",
+      "degree": 56
+    },
+    {
+      "id": "extracellular_matrix",
+      "label": "Extracellular Matrix",
       "degree": 56
     }
   ],
@@ -132,13 +132,13 @@
       "degree": 4
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -147,18 +147,23 @@
       "degree": 3
     },
     {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     },
     {
       "id": "advanced_glycation_end_products_formation",
       "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
+    },
+    {
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
       "degree": 3
     },
     {
@@ -172,28 +177,33 @@
       "degree": 3
     },
     {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
       "id": "sirt7_depletion",
       "label": "SIRT7 depletion",
       "degree": 3
     },
     {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
-      "degree": 3
-    },
-    {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
-    },
-    {
-      "id": "gdh",
-      "label": "GDH",
+      "id": "lipogenesis",
+      "label": "lipogenesis",
       "degree": 2
     },
     {
-      "id": "blood",
-      "label": "Blood",
+      "id": "chemotherapy_resistance",
+      "label": "Chemotherapy Resistance",
+      "degree": 2
+    },
+    {
+      "id": "reactive_oxygen_species_generation",
+      "label": "Reactive Oxygen Species generation",
+      "degree": 2
+    },
+    {
+      "id": "stress_responses",
+      "label": "stress responses",
       "degree": 2
     },
     {
@@ -202,18 +212,8 @@
       "degree": 2
     },
     {
-      "id": "h3k56",
-      "label": "H3K56",
-      "degree": 2
-    },
-    {
-      "id": "methyl_donor_supplements",
-      "label": "Methyl donor supplements",
-      "degree": 2
-    },
-    {
-      "id": "carbohydrate_metabolism",
-      "label": "carbohydrate metabolism",
+      "id": "synthetic_stac",
+      "label": "Synthetic STAC",
       "degree": 2
     }
   ],

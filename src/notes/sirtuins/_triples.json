@@ -13634,5 +13634,299 @@
     "source_document": "SIRT3-SIRT4 Ratio.md",
     "created": "2026-08-25T04:10:14Z",
     "updated": "2026-08-25T04:10:14Z"
+  },
+  {
+    "id": "178aa65c1efa",
+    "subject": "Caspase-9",
+    "predicate": "cleaves",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "During apoptosis the initiator caspase-9 directly cleaves SIRT1 (Sir2α), the NAD+-dependent deacetylase that normally restrains p53- and FOXO-driven death programs. Cleavage is caspase-dependent: dominant-negative caspase-9 blocks both the lower-molecular-weight SIRT1 band and its nuclear-to-cytoplasmic relocalization in TNF-α-treated HeLa cells. Because caspase-9 sits at the top of the intrinsic cascade, SIRT1 dismantling begins early in the apoptotic process rather than as a late cleanup event. This is the founding observation of the caspase-to-sirtuin feedback direction.",
+      "zh-TW": "在細胞凋亡過程中，起始半胱天冬酶-9（Caspase-9）會直接切割 SIRT1（Sir2α）——這個通常抑制 p53 與 FOXO 死亡程序的 NAD+ 依賴性去乙醯酶。切割是 caspase 依賴性的：顯性負向 Caspase-9 同時阻斷了 TNF-α 處理的 HeLa 細胞中較低分子量的 SIRT1 條帶及其由細胞核向細胞質的重新定位。由於 Caspase-9 位於內在級聯的頂端，SIRT1 的瓦解在細胞凋亡早期即已開始，而非晚期的清理事件。這是 caspase 至 sirtuin 回饋方向的奠基性觀察。"
+    },
+    "confidence": 0.97,
+    "source_document": "_document_ - Caspase-mediated changes in Sir2alpha during apoptosis.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "a09a1b23dece",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "The executioner caspase-3 also directly cleaves SIRT1 during apoptosis. Because both the initiator caspase-9 and executioner caspase-3 process Sir2α, cleavage and the accompanying nuclear-to-cytoplasmic dislocation occur throughout the apoptotic process, not at a single checkpoint. In Ara-C-treated embryonic mouse brain, over 130 of 150 cells with cytoplasmic Sir2α had pyknotic nuclei, confirming in vivo that the caspase-3-era SIRT1 fragments mark terminally dying cells. Cleavage therefore converts an anti-apoptotic survival factor into processed fragments precisely when the death program becomes irreversible.",
+      "zh-TW": "執行者半胱天冬酶-3（Caspase-3）在細胞凋亡期間同樣會直接切割 SIRT1。由於起始 Caspase-9 與執行者 Caspase-3 都會處理 Sir2α，切割與伴隨的核質易位發生在整個細胞凋亡過程中，而非單一檢查點。在 Ara-C 處理的胚胎小鼠腦中，150 個細胞質型 Sir2α 細胞裡有超過 130 個呈現核固縮，證實在體內帶 caspase-3 特徵的 SIRT1 片段標記著走向終末的死亡細胞。當死亡程序變得不可逆時，切割便將抗凋亡的存活因子轉化為處理後的片段。"
+    },
+    "confidence": 0.97,
+    "source_document": "_document_ - Caspase-mediated changes in Sir2alpha during apoptosis.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "c20b0e512bd9",
+    "subject": "Bcl-xL",
+    "predicate": "stabilizes",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Bcl-xL keeps SIRT1 intact and nuclear during apoptotic stimulation. In HeLa cells expressing Sir2α, TNF-α drove the deacetylase from nucleus to cytoplasm, but co-expression of Bcl-xL — like dominant-negative caspase-9 — held Sir2α in the nucleus and prevented cleavage. This places SIRT1 dismantling strictly downstream of apoptosome activation and mitochondrial outer membrane permeabilization: as long as the mitochondrial gate stays closed, the survival deacetylase survives.",
+      "zh-TW": "Bcl-xL 在凋亡刺激下維持 SIRT1 的完整與核內定位。在表達 Sir2α 的 HeLa 細胞中，TNF-α 會驅動此去乙醯酶由細胞核進入細胞質，但共同表達 Bcl-xL——如同顯性負向 Caspase-9——可將 Sir2α 保留在細胞核內並阻止切割。這表示 SIRT1 的瓦解嚴格位於凋亡體活化與粒線體外膜通透化之下游：只要粒線體閘門維持關閉，這個存活去乙醯酶就能存活。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Caspase-mediated changes in Sir2alpha during apoptosis.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "f57e1ef28c7e",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "SIRT1 suppresses the pro-apoptotic executioner caspase-3 through deacetylation of FOXO4. In transformed epithelial cells, SIRT1-FOXO4 interaction represses the apoptotic output of FOXO4 while preserving its cell-cycle-arrest and DNA-repair functions (for example GADD45 induction). When SIRT1 is silenced, FOXO4-driven caspase-3 and caspase-7 activation kills the cell — importantly, this control operates in transformed but not untransformed epithelial cells, which is why SIRT1 inhibition has been pursued as a cancer-selective strategy.",
+      "zh-TW": "SIRT1 透過對 FOXO4 的去乙醯化來抑制促凋亡的執行者半胱天冬酶-3。在轉化上皮細胞中，SIRT1-FOXO4 的交互作用會壓抑 FOXO4 的凋亡輸出，同時保留其細胞週期停滯與 DNA 修復功能（例如 GADD45 的誘導）。當 SIRT1 被沉默時，FOXO4 驅動的 Caspase-3 與 Caspase-7 活化會導致細胞死亡——重要的是，這種調控只存在於轉化細胞而非正常上皮細胞，這也是 SIRT1 抑制被視為癌症選擇性策略的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Caspase-mediated changes in Sir2alpha during apoptosis.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "70fa631e7555",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "Alongside caspase-3, the executioner caspase-7 is a downstream target of the SIRT1-FOXO4 survival axis. FOXO4 deacetylation by SIRT1 shifts FOXO output away from apoptosis (caspase-3/7 activation) toward stress resistance and repair gene expression. RNAi silencing of SIRT1 in p53-wildtype colorectal cancer cells produced caspase-3 and caspase-7 cleavage products and massive apoptosis, rescued by FOXO4 co-silencing — establishing caspase-7 as a co-executioner of the SIRT1-regulated death pathway.",
+      "zh-TW": "與 Caspase-3 並列，執行者半胱天冬酶-7 是 SIRT1-FOXO4 存活軸的下游目標。SIRT1 對 FOXO4 的去乙醯化會將 FOXO 的輸出由細胞凋亡（Caspase-3/7 活化）轉向壓力抗性與修復基因表達。在 p53 母源型大腸直腸癌細胞中以 RNAi 沉默 SIRT1 會產生 Caspase-3 與 Caspase-7 的切割片段並引發大量凋亡，而共同沉默 FOXO4 可 rescue——確立 Caspase-7 為 SIRT1 調控死亡路徑的共同執行者。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Caspase-mediated changes in Sir2alpha during apoptosis.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "bb90f1aa1bf3",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "SIRT1 is a stress-activated survival factor: Sir2α-deficient cells are hypersensitive to ionizing radiation, staurosporine, and oxidative stress. Mechanistically it deacetylates p53 (blunting transactivation) and FOXO3/FOXO4 (shifting output from death to repair), so cells with high SIRT1 activity resist pro-apoptotic stimuli. The 2006 Ohsawa-Miura study adds the inverse arm — once apoptosis does trigger, caspases cleave SIRT1 — making SIRT1 both a gatekeeper and, after cleavage, a casualty of the death program.",
+      "zh-TW": "SIRT1 是壓力誘導的存活因子：缺乏 Sir2α 的細胞對游離輻射、staurosporine 與氧化壓力高度敏感。機制上它去乙醯化 p53（減弱其轉錄活化）以及 FOXO3/FOXO4（將輸出由死亡轉向修復），因此高 SIRT1 活性的細胞能抵抗促凋亡刺激。2006 年 Ohsawa-Miura 的研究補上了反向的一臂——一旦細胞凋亡啟動，caspases 便會切割 SIRT1——使 SIRT1 既是守門者，也是切割後的犧牲品。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Caspase-mediated changes in Sir2alpha during apoptosis.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "69f6400fc42c",
+    "subject": "KAP1",
+    "predicate": "ubiquitinates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "The RING-domain E3 ligase TRIM28/KAP1 polyubiquitinates SIRT1 (K48-linked) and targets it for proteasomal degradation following severe DNA damage (doxorubicin, etoposide, camptothecin, UV). TRIM28 knockdown or CRISPR knockout stabilizes SIRT1 and reduces its ubiquitination; reconstitution of wild-type TRIM28 — but not the E3-dead C65/68A mutant — restores SIRT1 turnover in vivo and in a purified in vitro ubiquitination assay with UBE1/UBE2L6. TRIM28 is thus both necessary and sufficient as the damage-induced SIRT1 E3.",
+      "zh-TW": "RING 結構域 E3 泛素連接酶 TRIM28/KAP1 會對 SIRT1 進行 K48 型多泛素化，並在嚴重 DNA 損傷（doxorubicin、etoposide、camptothecin、UV）後將其送往蛋白酶體降解。TRIM28 的 knockdown 或 CRISPR 基因敲除會穩定 SIRT1 並降低其泛素化；重新表達野生型 TRIM28——但不含 E3 失活的 C65/68A 突變株——可在體內與以 UBE1/UBE2L6 進行的試管內泛素化試驗中恢復 SIRT1 的代謝。因此 TRIM28 對損傷誘導的 SIRT1 E3 角色既必要且充分。"
+    },
+    "confidence": 0.97,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "0b1ba26bf3de",
+    "subject": "ATM",
+    "predicate": "phosphorylates",
+    "object": "KAP1",
+    "context": {
+      "en-US": "ATM phosphorylates TRIM28/KAP1 at Ser824 in response to DNA double-strand breaks (and also during mitosis), a modification that relaxes chromatin and licenses the DDR functions of KAP1. In the SIRT1-stability axis, ATM activity restrains SIRT1 destruction: the ATM inhibitor KU-55933 lowered pATM(Ser1981) and pKAP1(Ser824), accelerated SIRT1 cleavage and degradation, and increased cell death — effects that were absent in TRIM28-knockout cells, establishing the ATM-TRIM28-SIRT1 signaling axis.",
+      "zh-TW": "ATM 會在 DNA 雙股斷裂時（有絲分裂期間亦然）將 TRIM28/KAP1 的 Ser824 磷酸化，此修飾可鬆弛染色質並賦予 KAP1 在 DNA 損傷反應中的功能。在 SIRT1 穩定性軸線中，ATM 活性會抑制 SIRT1 的破壞：ATM 抑制劑 KU-55933 降低了 pATM(Ser1981) 與 pKAP1(Ser824)，加速 SIRT1 的切割與降解並增加細胞死亡——這些效應在 TRIM28 基因敲除細胞中消失，確立了 ATM-TRIM28-SIRT1 訊號軸。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "0b1011185569",
+    "subject": "ATM",
+    "predicate": "stabilizes",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "ATM protects SIRT1 protein stability during the DNA damage response. Inhibiting ATM with KU-55933 caused a significant drop in SIRT1 protein even with shorter doxorubicin exposure, and enhanced SIRT1 degradation and cell death — but only in TRIM28-wildtype cells. Since both SIRT1 and TRIM28 are ATM-regulated, ATM functions as a pro-survival guardian that prevents the E3 ligase TRIM28 from dismantling the deacetylase while repair proceeds.",
+      "zh-TW": "在 DNA 損傷反應期間，ATM 保護 SIRT1 蛋白的穩定性。以 KU-55933 抑制 ATM 會使 SIRT1 蛋白顯著下降（即使縮短 doxorubicin 處理時間），並加劇 SIRT1 降解與細胞死亡——但只在 TRIM28 野生型細胞中如此。由於 SIRT1 與 TRIM28 皆受 ATM 調控，ATM 扮演促存活守門者的角色，在修復進行時防止 E3 連接酶 TRIM28 拆解此去乙醯酶。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "85c2b377670e",
+    "subject": "Caspases",
+    "predicate": "cleave",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Multiple caspases redundantly cleave SIRT1 at the C-terminal DEPDVP(704-709) motif under severe DNA damage. Only pan-caspase inhibitors (Q-VD-OPh, Boc-D-FMK, z-VAD) blocked cleavage, while individual knockdown of CASP1-9 failed — the cleavage is distributed across the cascade. The D707A point mutant resists cleavage and the ΔC703 truncation mimics the cleaved fragment. Caspase-mediated SIRT1 cleavage places it in the DDR-cleavage set alongside PARP, DNA-PKcs, and ATM itself — dismantling the repair machinery commits the cell to death.",
+      "zh-TW": "在嚴重 DNA 損傷下，多種 caspases 會以冗餘方式在 SIRT1 的 C 端 DEPDVP(704-709) 基序進行切割。只有廣效 caspase 抑制劑（Q-VD-OPh、Boc-D-FMK、z-VAD）能阻斷切割，個別沉默 CASP1-9 皆無效——切割分布在整個級聯中。D707A 點突變可抵抗切割，ΔC703 截斷則模擬被切割的片段。caspase 對 SIRT1 的切割使其與 PARP、DNA-PKcs 及 ATM 本身同列於 DDR 切割組——拆解修復機器等同讓細胞走向死亡。"
+    },
+    "confidence": 0.96,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "bf02c409ae9f",
+    "subject": "SIRT1",
+    "predicate": "is_degraded_via",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "DNA damage drives SIRT1 loss post-transcriptionally through the ubiquitin-proteasome system, not autophagy-lysosomes and not mRNA downregulation. Cycloheximide chase showed a shortened SIRT1 half-life under etoposide; qRT-PCR showed unchanged SIRT1 mRNA; and only the proteasome inhibitor MG132 — not bafilomycin A1 or chloroquine — restored SIRT1 levels while its K48-polyubiquitination rose. This establishes UPS-dependent turnover as the mechanism of SIRT1 downregulation in the DDR.",
+      "zh-TW": "DNA 損傷透過泛素-蛋白酶體系統（而非自噬-溶酶體、也非 mRNA 下調）以轉錄後方式造成 SIRT1 減少。cycloheximide chase 顯示 etoposide 下 SIRT1 半衰期縮短；qRT-PCR 顯示 SIRT1 mRNA 不變；且只有蛋白酶體抑制劑 MG132——而非 bafilomycin A1 或 chloroquine——能恢復 SIRT1 水平，同時其 K48 多泛素化上升。這確立了依賴 UPS 的代謝是 DDR 中 SIRT1 下調的機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "7ade13c5a64a",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "Genomic Instability",
+    "context": {
+      "en-US": "SIRT1 works as an anti-apoptotic, genome-protecting protein in the DNA damage response: it is recruited to break sites by ATM, deacetylates ATM itself (stimulating autophosphorylation and stabilization), and deacetylates DDR factors such as TIP60, NBS1, XPA, and XPC. The 2022 stability study shows that TRIM28-mediated degradation plus caspase cleavage of SIRT1 enhance DNA-damage-induced cell death while helping maintain genome stability — i.e., removing SIRT1 is part of the cell-fate decision between repair and death.",
+      "zh-TW": "在 DNA 損傷反應中，SIRT1 是抗凋亡且保護基因體的蛋白：它會被 ATM 召募到斷裂位置、去乙醯化 ATM 本身（促進其自體磷酸化與穩定），並去乙醯化 TIP60、NBS1、XPA、XPC 等 DDR 因子。2022 年的穩定性研究顯示，TRIM28 介導的降解加上 caspase 對 SIRT1 的切割會加劇 DNA 損傷誘導的細胞死亡，同時有助於維持基因體穩定——也就是說，移除 SIRT1 本身就是修復與死亡之間細胞命運決策的一部分。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "31bb955a30ef",
+    "subject": "Resveratrol",
+    "predicate": "protects_against",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Resveratrol — a SIRT1 activator — attenuated cell death caused by the topoisomerase poisons etoposide and camptothecin in HeLa cells, while the SIRT1 inhibitor Selisistat (EX-527) did the opposite. SIRT1 activity in these experiments was tracked by acetyl-p53 (Lys379) levels, a canonical SIRT1 substrate readout. Functionally this anchors the anti-apoptotic role of SIRT1 in the DDR: raising its activity protects against genotoxic death, and the protection is lost when TRIM28 can no longer be restrained.",
+      "zh-TW": "作為 SIRT1 活化劑的 Resveratrol 能減輕拓撲異構酶毒物 etoposide 與 camptothecin 在 HeLa 細胞中造成的細胞死亡，而 SIRT1 抑制劑 Selisistat（EX-527）則相反。實驗中以 acetyl-p53（Lys379）水平作為 SIRT1 活性指標。這在功能上確立了 SIRT1 在 DDR 中的抗凋亡角色：提高其活性可抵抗基因毒性死亡，而當 TRIM28 無法被抑制時保護作用便會消失。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "2d1e003a7da2",
+    "subject": "EX-527",
+    "predicate": "increases",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "The selective SIRT1 inhibitor EX-527 (Selisistat) enhanced DNA-damage-induced cell death in HeLa cells treated with etoposide or camptothecin, mirroring the effect of SIRT1 knockdown in TRIM28-deficient backgrounds. Combined with the reciprocal observation — TRIM28 knockout cells die more when SIRT1 is depleted, and re-expression rescues — this demonstrates that SIRT1 catalytic activity is protective during the DDR and that pharmacological SIRT1 inhibition removes that protection.",
+      "zh-TW": "選擇性 SIRT1 抑制劑 EX-527（Selisistat）會加劇 etoposide 或 camptothecin 處理之 HeLa 細胞的 DNA 損傷性死亡，與在 TRIM28 缺陷背景下沉默 SIRT1 的效果一致。結合反向觀察——TRIM28 基因敲除細胞在 SIRT1 缺失時死亡更多，而重新表達可 rescue——這證明 SIRT1 的催化活性在 DDR 中具有保護性，藥理性抑制 SIRT1 等於移除該保護。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "86ade078f4f4",
+    "subject": "Mitosis",
+    "predicate": "triggers",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "SIRT1 cleavage and ubiquitination-mediated degradation are not unique to DNA damage — they also occur during mitosis. Synchronized cells (double-thymidine block, nocodazole) lose SIRT1 as they enter M phase in an MG132-sensitive, Boc-D-FMK-sensitive, transcription-independent manner, with TRIM28-SIRT1 colocalization peaking in prometaphase/metaphase. ATM phosphorylates TRIM28 Ser824 in mitosis as well, dislodging it from heterochromatin — so the same destruction axis runs in dividing cells.",
+      "zh-TW": "SIRT1 的切割與泛素化降解並非 DNA 損傷所獨有——在有絲分裂期間也會發生。同步化細胞（雙重胸腺嘧啶阻斷、nocodazole）進入 M 期時會以 MG132 敏感、Boc-D-FMK 敏感且不依賴轉錄的方式失去 SIRT1，TRIM28-SIRT1 的共定位在前/中期達到高峰。ATM 在有絲分裂中同樣會將 TRIM28 Ser824 磷酸化，使其脫離異染色質——因此同一破壞軸也在分裂細胞中運作。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "6590e83f8c22",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "14-3-3",
+    "context": {
+      "en-US": "SIRT1 deacetylates the scaffold protein 14-3-3ζ (lysine 49), identified by a biotin-switch proteomics screen for cytoplasmic SIRT1 substrates. Deacetylated 14-3-3ζ maintains its phosphorylation-dependent binding to caspase-2, shielding caspase-2 Ser135 (phosphorylated by CaMKII) from dephosphorylation. When SIRT1 activity drops, 14-3-3ζ becomes acetylated and dissociates from caspase-2, allowing the apical caspase to activate. This is the first demonstration of cytoplasmic 14-3-3 acetylation as a death-regulatory modification.",
+      "zh-TW": "SIRT1 會去乙醯化支架蛋白 14-3-3ζ（離胺酸 49），此為針對細胞質 SIRT1 受質之 biotin-switch 蛋白質體學篩選的發現。去乙醯化的 14-3-3ζ 維持其與 caspase-2 之磷酸化依賴性結合，保護 Caspase-2 Ser135（由 CaMKII 磷酸化）不被去磷酸化。當 SIRT1 活性下降時，14-3-3ζ 被乙醯化並與 caspase-2 解離，使這個頂端 caspase 得以活化。這是首次證明細胞質 14-3-3 乙醯化具有死亡調控功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "0f8c3d2f5f49",
+    "subject": "14-3-3",
+    "predicate": "inhibits",
+    "object": "Caspase-2",
+    "context": {
+      "en-US": "14-3-3ζ directly inhibits caspase-2 by binding it in a phosphorylation-dependent manner and protecting the Ser135 phosphorylation (deposited by CaMKII) that keeps the apical caspase inactive. This shield is acetylation-sensitive: 14-3-3ζ deacetylated by SIRT1 binds caspase-2 robustly, whereas acetylated 14-3-3ζ dissociates. In Xenopus egg extract, glucose-6-phosphate — which promotes caspase-2/14-3-3ζ binding — enhanced 14-3-3ζ-directed sirtuin activity, while sirtuin inhibition promoted 14-3-3ζ release and caspase-2 activation in both extract and human cells.",
+      "zh-TW": "14-3-3ζ 以磷酸化依賴方式直接結合 caspase-2 並保護維持其不活化狀態的 Ser135 磷酸化（由 CaMKII 負責），藉此抑制 caspase-2。此保護罩對乙醯化敏感：被 SIRT1 去乙醯化的 14-3-3ζ 能穩固結合 caspase-2，而乙醯化的 14-3-3ζ 則會解離。在非洲爪蟾卵萃取液中，可促進 caspase-2/14-3-3ζ 結合的 glucose-6-phosphate 會增強 14-3-3ζ 導向的 sirtuin 活性；抑制 sirtuin 活性則促使 14-3-3ζ 釋出並活化 caspase-2（於萃取液與人類細胞皆然）。"
+    },
+    "confidence": 0.94,
+    "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "831f364603e2",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "Caspase-2",
+    "context": {
+      "en-US": "SIRT1 metabolically suppresses the apical caspase-2 through the 14-3-3ζ axis. SIRT1 inhibition in cancer cell lines — where the deacetylase is primarily cytoplasmic — sensitizes cells to caspase-2-dependent death and overrides the anti-apoptotic effect of nutrient abundance. In a breast tumor panel, SIRT1 inhibition caused rapid dissociation of caspase-2 from 14-3-3ζ and markedly enhanced paclitaxel sensitivity, positioning the SIRT1-14-3-3ζ-caspase-2 route as a chemotherapy-relevant death switch that operates during mitotic arrest when transcription is not ongoing.",
+      "zh-TW": "SIRT1 透過 14-3-3ζ 軸線在代謝層面抑制頂端半胱天冬酶-2。在癌細胞株（此去乙醯酶主要位於細胞質）中抑制 SIRT1，會使細胞對 caspase-2 依賴性死亡敏感，並凌駕養分充足所帶來的抗凋亡效果。在乳腺癌細胞面板實驗中，抑制 SIRT1 造成 caspase-2 迅速脫離 14-3-3ζ 並顯著增強 paclitaxel 敏感性，使 SIRT1-14-3-3ζ-Caspase-2 路徑成為在轉錄停止的有絲分裂阻斷期間仍能運作的化療相關死亡開關。"
+    },
+    "confidence": 0.94,
+    "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "6afd8fc6dadc",
+    "subject": "CaMKII",
+    "predicate": "phosphorylates",
+    "object": "Caspase-2",
+    "context": {
+      "en-US": "CaMKII phosphorylates caspase-2 on Ser135 — distinct from the Ser164 site regulated by CaMKII in the metabolic context — rendering the apical caspase inactive. This phosphorylation is itself shielded by 14-3-3ζ binding, and the shield's integrity depends on the acetylation state of 14-3-3ζ, which SIRT1 controls. The system layers a phospho-switch (CaMKII/Ser135) on top of an acetyl-switch (SIRT1/14-3-3ζ K49), so nutrient-driven PPP flux ultimately decides whether caspase-2 stays suppressed.",
+      "zh-TW": "CaMKII 會將 caspase-2 的 Ser135 磷酸化——與其在代謝脈絡中調控的 Ser164 位點不同——使頂端 caspase 處於不活化狀態。此磷酸化本身又被 14-3-3ζ 的結合所保護，而保護罩的完整性取決於 SIRT1 所控制的 14-3-3ζ 乙醯化狀態。整個系統在乙醯開關（SIRT1/14-3-3ζ K49）之上再疊加磷酸開關（CaMKII/Ser135），因此養分驅動的 PPP 通量最終決定 caspase-2 是否維持被抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "f85fbc51f2dc",
+    "subject": "Pentose Phosphate Pathway",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Pentose phosphate pathway flux gates the SIRT1-14-3-3ζ-caspase-2 axis: glucose-6-phosphate supplementation enhanced 14-3-3ζ-directed sirtuin activity in Xenopus egg extract, and high PPP activity (NADPH/G6P abundance) promotes the pro-survival, caspase-2-suppressed state. Conversely, when PPP activity declines, 14-3-3ζ acetylation rises, caspase-2 is released, and death follows. This makes SIRT1 a metabolic sensor whose apoptotic tone reflects cellular nutrient state rather than transcription.",
+      "zh-TW": "五碳糖磷酸途徑的通量調控 SIRT1-14-3-3ζ-Caspase-2 軸線：在非洲爪蟾卵萃取液中補充 glucose-6-phosphate 可增強 14-3-3ζ 導向的 sirtuin 活性，而高 PPP 活性（NADPH/G6P 充足）則促進存活、抑制 caspase-2 的狀態。相反地，當 PPP 活性下降時，14-3-3ζ 乙醯化上升、caspase-2 被釋放，細胞隨之死亡。這使 SIRT1 成為代謝感應器，其凋亡張力反映的是細胞養分狀態而非轉錄狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "5a95f074dea8",
+    "subject": "SIRT1",
+    "predicate": "localizes_to",
+    "object": "Cytoplasm",
+    "context": {
+      "en-US": "In breast tumor cell lines SIRT1 is found predominantly in the cytoplasm — very little nuclear signal — in contrast to the nuclear distribution seen in normal breast tissue. Cytoplasmic SIRT1 is the form that regulates the 14-3-3ζ-caspase-2 module, and cytoplasmic SIRT1 is also the form generated by caspase cleavage during apoptosis, where it behaves pro-apoptotically in a deacetylase-independent manner. Subcellular localization therefore flips SIRT1's functional valence: nuclear anti-apoptotic, cytoplasmic context-dependent.",
+      "zh-TW": "在乳腺癌細胞株中，SIRT1 主要分布於細胞質——核內訊號極少——與正常乳腺組織的細胞核分布形成對比。細胞質型 SIRT1 正是調控 14-3-3ζ-Caspase-2 模組的形式，也是細胞凋亡期間被 caspase 切割後產生的形式，此時它以不依賴去乙醯活性的方式促進凋亡。次細胞定位因此翻轉了 SIRT1 的功能極性：細胞核內抗凋亡，細胞質內則視情境而定。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
+    "created": "2026-08-29T01:30:00Z",
+    "updated": "2026-08-29T01:30:00Z"
   }
 ]

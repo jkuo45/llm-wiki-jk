@@ -1,18 +1,18 @@
 # Triples vs Wiki Graph Diff
 
-- Triples graph: `/Users/johnnykuo/projects/llm-wiki-jk/graphify-out/graph.json` (2629 nodes, 3832 edges)
-- Wiki graph:    `/Users/johnnykuo/projects/llm-wiki-jk/wiki-out/wiki-graph.json` (2994 nodes, 34850 edges)
+- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (2654 nodes, 3896 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/wiki-graph.json` (3007 nodes, 35150 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 1539
-- **Wiki-only** (linked, no triple): 1455
-- **Triples-only** (triple, no wikilink): 1090
+- **Shared** (in both): 1563
+- **Wiki-only** (linked, no triple): 1444
+- **Triples-only** (triple, no wikilink): 1091
 
 ## Edge overlap
 
-- **Wiki-only edges** (under-extracted triples / curation gaps): 33150
-- **Triples-only edges** (not surfaced as a wikilink): 2132
+- **Wiki-only edges** (under-extracted triples / curation gaps): 33422
+- **Triples-only edges** (not surfaced as a wikilink): 2168
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
@@ -20,24 +20,24 @@
 | --- | --- |
 | cGAS | 96 |
 | Phosphorylation | 87 |
-| Cell Cycle | 83 |
 | STING | 83 |
+| Cell Cycle | 83 |
 | Macrophage | 75 |
-| Ubiquitination | 72 |
+| Ubiquitination | 73 |
 | NMN (Nicotinamide Mononucleotide) | 71 |
 | Rheumatoid Arthritis | 71 |
-| Endothelial Cells | 68 |
 | Fibroblast | 68 |
-| Type I Interferon | 66 |
+| Endothelial Cells | 68 |
 | Metabolism | 66 |
+| Type I Interferon | 66 |
 | Replicative Senescence | 65 |
 | Epigenetics and aging | 64 |
 | Flavonoid | 61 |
 | Histone Variant | 60 |
 | Unfolded Protein Response | 57 |
-| Mitochondrial Permeability Transition Pore | 57 |
-| Extracellular Matrix | 56 |
+| Citric Acid Cycle | 57 |
 | Calcium | 56 |
+| Extracellular Matrix | 56 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -46,23 +46,23 @@
 | Adrenochrome formation | 11 |
 | SIRT3 deficiency | 4 |
 | JAK-STAT3 | 4 |
-| Physical Activity | 4 |
 | SIRT1 and SIRT2 | 4 |
+| Physical Activity | 4 |
 | catechol flavonoid | 3 |
-| Dietary AGEs | 3 |
-| SIRT6 overexpression | 3 |
+| H3K9 | 3 |
 | Advanced Glycation End Products formation | 3 |
+| Streptomyces avermectinius | 3 |
+| Dietary AGEs | 3 |
 | Dietary Advanced Glycation End Products | 3 |
 | PI3K/Akt | 3 |
+| SIRT6 overexpression | 3 |
 | SIRT7 depletion | 3 |
-| Streptomyces avermectinius | 3 |
-| H3K9 | 3 |
-| GDH | 2 |
-| Blood | 2 |
+| lipogenesis | 2 |
+| Chemotherapy Resistance | 2 |
+| Reactive Oxygen Species generation | 2 |
+| stress responses | 2 |
 | AGE-modified proteins | 2 |
-| H3K56 | 2 |
-| Methyl donor supplements | 2 |
-| carbohydrate metabolism | 2 |
+| Synthetic STAC | 2 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

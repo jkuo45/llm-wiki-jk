@@ -1,49 +1,24 @@
 {
-  "generated_at": "2026-08-28T02:10:59Z",
-  "node_count": 2994,
-  "edge_count": 34850,
+  "generated_at": "2026-08-29T08:19:57Z",
+  "node_count": 3007,
+  "edge_count": 35150,
   "reference_links": {
     "document_notes": {
-      "total_targets": 118,
-      "total_links": 4023
+      "total_targets": 122,
+      "total_links": 4053
     },
     "task_outputs": {
       "total_targets": 24,
       "total_links": 146
     }
   },
-  "total_orphan_targets": 4727,
-  "total_orphan_links": 11917,
+  "total_orphan_targets": 4731,
+  "total_orphan_links": 11677,
   "top_targets": [
-    {
-      "norm_id": "lysosomal_dysfunction",
-      "raw": "lysosomal_dysfunction",
-      "link_count": 56
-    },
-    {
-      "norm_id": "creatine_supplementation",
-      "raw": "creatine_supplementation",
-      "link_count": 54
-    },
     {
       "norm_id": "document_mitohormetic_redox_relay",
       "raw": "document_mitohormetic_redox_relay",
       "link_count": 51
-    },
-    {
-      "norm_id": "reprogramming",
-      "raw": "reprogramming",
-      "link_count": 51
-    },
-    {
-      "norm_id": "catechol_o_methyltransferase",
-      "raw": "catechol_o_methyltransferase",
-      "link_count": 32
-    },
-    {
-      "norm_id": "ikkalpha",
-      "raw": "ikkalpha",
-      "link_count": 30
     },
     {
       "norm_id": "dna_polymerase",
@@ -86,11 +61,6 @@
       "link_count": 20
     },
     {
-      "norm_id": "cb_839",
-      "raw": "cb_839",
-      "link_count": 19
-    },
-    {
       "norm_id": "cyclin_e",
       "raw": "cyclin_e",
       "link_count": 19
@@ -111,6 +81,11 @@
       "link_count": 18
     },
     {
+      "norm_id": "arginine_glycine_amidinotransferase",
+      "raw": "arginine_glycine_amidinotransferase",
+      "link_count": 17
+    },
+    {
       "norm_id": "regulatory_t_cell",
       "raw": "regulatory_t_cell",
       "link_count": 16
@@ -118,11 +93,6 @@
     {
       "norm_id": "heart",
       "raw": "heart",
-      "link_count": 16
-    },
-    {
-      "norm_id": "arginine_glycine_amidinotransferase",
-      "raw": "arginine_glycine_amidinotransferase",
       "link_count": 16
     },
     {
@@ -264,6 +234,36 @@
       "norm_id": "p47phox",
       "raw": "p47phox",
       "link_count": 13
+    },
+    {
+      "norm_id": "myosin",
+      "raw": "myosin",
+      "link_count": 12
+    },
+    {
+      "norm_id": "document_shingles_vaccine_may_slow_biological_aging_and_reduce_inflammation",
+      "raw": "document_shingles_vaccine_may_slow_biological_aging_and_reduce_inflammation",
+      "link_count": 12
+    },
+    {
+      "norm_id": "ctla_4",
+      "raw": "ctla_4",
+      "link_count": 12
+    },
+    {
+      "norm_id": "chromosome",
+      "raw": "chromosome",
+      "link_count": 12
+    },
+    {
+      "norm_id": "muscle",
+      "raw": "muscle",
+      "link_count": 12
+    },
+    {
+      "norm_id": "interferon",
+      "raw": "interferon",
+      "link_count": 12
     }
   ]
 }
