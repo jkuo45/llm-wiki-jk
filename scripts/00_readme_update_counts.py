@@ -378,25 +378,6 @@ def read_env_file(path):
     return env
 
 
-def resolve_github_config(cli_url, cli_branch):
-    """Resolve GitHub repo URL + branch: CLI args > env vars > repo .env > defaults."""
-    file_env = read_env_file(".env")
-    repo_url = (
-        cli_url
-        or os.environ.get("GITHUB_REPO_URL")
-        or file_env.get("GITHUB_REPO_URL")
-        or "https://github.com/jkuo45/llm-wiki"
-    )
-    branch = (
-        cli_branch
-        or os.environ.get("GITHUB_BRANCH")
-        or file_env.get("GITHUB_BRANCH")
-        or "dev"
-    )
-    repo_url = repo_url.rstrip("/").removesuffix(".git")
-    return repo_url, branch
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Update root README.md with topic counts and document lists."
@@ -431,19 +412,14 @@ def main():
         action="store_true",
         help="Only update the README; skip emitting web/public/tasks.json and copying markdown",
     )
-    parser.add_argument(
-        "--repo_url",
-        default=None,
-        help="GitHub repo URL for links (default: GITHUB_REPO_URL env/.env, else https://github.com/jkuo45/llm-wiki)",
-    )
-    parser.add_argument(
-        "--branch",
-        default=None,
-        help="Branch for GitHub links (default: GITHUB_BRANCH env/.env, else dev)",
-    )
     args = parser.parse_args()
 
-    args.repo_url, args.branch = resolve_github_config(args.repo_url, args.branch)
+    # GitHub repo/branch come from the repo .env (GITHUB_REPO_URL / GITHUB_BRANCH),
+    # falling back to the public repo on dev. The .git suffix is stripped so the
+    # link paths stay clean.
+    file_env = read_env_file(".env")
+    args.repo_url = (file_env.get("GITHUB_REPO_URL") or "https://github.com/jkuo45/llm-wiki-jk").rstrip("/").removesuffix(".git")
+    args.branch = file_env.get("GITHUB_BRANCH") or "dev"
 
     notes_dir = args.notes_dir
     if not os.path.isdir(notes_dir):

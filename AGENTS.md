@@ -225,6 +225,10 @@ uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.
 # in env or repo .env, which is git-ignored). Run after any graph rebuild.
 uv run --no-build --with supabase --with pyyaml --with networkx python3 scripts/07_sync_to_db.py
 
+# GitHub repo / branch for generated links: read from repo .env
+# (GITHUB_REPO_URL, GITHUB_BRANCH) > default (https://github.com/jkuo45/llm-wiki-jk, dev).
+uv run python3 scripts/00_readme_update_counts.py
+
 # Offline API test suite (tests/; no Supabase or opencode server needed)
 # (--with graphifyy: scripts/ rebuild modules import graphify at module level)
 # (--with pyyaml: scripts/07_sync_to_db.py parses frontmatter with PyYAML)
@@ -242,6 +246,12 @@ Notes:
 - Analyses/tasks written before the wiki graph existed were computed on the
   **triples** graph; state the graph (mode) explicitly when running new analyses.
 - README counts/tables: `scripts/00_readme_update_counts.py`.
+- Frontend build-time env (repo-root `.env`, inlined by Vite): `VITE_API_BASE`,
+  `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and the GitHub base vars
+  `VITE_GITHUB_BASE` (repo blob links) / `VITE_GITHUB_NOTES_IMAGE_BASE`
+  (raw.githubusercontent image host). Each falls back to the public repo/dev
+  when unset; `window.GITHUB_BASE` / `window.GRAPH_NOTES_IMAGE_BASE` can also
+  override at runtime.
 
 ## 9. Running Locally
 

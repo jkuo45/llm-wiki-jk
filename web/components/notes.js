@@ -17,10 +17,14 @@ const NOTES_API = `${API_BASE}/notes`;
 // this repo, so the browser loads it straight from raw.githubusercontent
 // instead of proxying image bytes through the API. The API `/v1/notes/image`
 // endpoint remains only as the onerror fallback (staged drafts, not-yet-pushed
-// images, or raw.githubusercontent cache lag). Override for local dev or a
-// different deploy branch with:  window.GRAPH_NOTES_IMAGE_BASE = '…';
-const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
-  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images').replace(/\/$/, '');
+// images, or raw.githubusercontent cache lag).
+// Externalized like the rest of the frontend: build-time VITE_GITHUB_NOTES_IMAGE_BASE
+// (repo-root .env) > runtime window.GRAPH_NOTES_IMAGE_BASE > default.
+const GH_NOTES_BASE = (
+  import.meta.env.VITE_GITHUB_NOTES_IMAGE_BASE ||
+  window.GRAPH_NOTES_IMAGE_BASE ||
+  'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images'
+).replace(/\/$/, '');
 
 // Bilingual (zh-TW) display labels for the controlled tag vocabulary. The raw
 // slug remains the source of truth for filtering/search — only the rendered
