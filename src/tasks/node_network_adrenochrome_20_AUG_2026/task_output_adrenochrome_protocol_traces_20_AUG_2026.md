@@ -15,7 +15,7 @@ tags:
 
 **Graph build:** `graphify-out/graph.json` — 2,596 nodes / 3,737 edges (giant component 2,110 / 3,295), metrics computed 2026-08-20 18:21:44 (build `867a5ae5fdb8a46c`)
 **Tooling:** `scripts/04_node_analysis.py` (RANDOM_SEED=1 convention)
-**Purpose:** Extend the 20 Aug four-node quartet study (adrenochrome ↔ mitohormesis/autophagy/sirtuins) to the full **adrenochrome protocol**: methylene blue (MB), aminoguanidine (AG), and the supporting stack (carbazochrome, ascorbic acid, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol). Feeds the living web page `web/pages/adrenochrome-protocol-node-network-analysis.html`.
+**Purpose:** Extend the 20 Aug four-node quartet study (adrenochrome ↔ mitohormesis/autophagy/sirtuins) to the full **adrenochrome protocol**: methylene blue (MB), aminoguanidine (AG), and the supporting stack (carbazochrome, ascorbic acid, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol). Feeds the living web page `web/pages/en-US/adrenochrome-protocol-node-network-analysis.html`.
 
 ## Run log
 

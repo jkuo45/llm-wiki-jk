@@ -20,7 +20,7 @@ starred: true
 # Node-Level Network Analysis for the Combined Knowledge Graph
 
 > [!NOTE]
-> **Task**: Run the same per-node metrics analysis that produced `web/pages/node-analysis-examples-biology.html` (a triples-graph reference) on the **combined graph** (triples + Obsidian-wiki links), recompute the centrality fingerprint on the actual union topology, and highlight anything that is specific to the combined graph.
+> **Task**: Run the same per-node metrics analysis that produced `web/pages/en-US/node-analysis-examples-biology.html` (a triples-graph reference) on the **combined graph** (triples + Obsidian-wiki links), recompute the centrality fingerprint on the actual union topology, and highlight anything that is specific to the combined graph.
 > **Date**: 27_Aug_2026 06:15 PM PDT
 > **Scope**: `web/data/nodes.json` + `web/data/edges.json` (canonical combined dataset, built by `scripts/05_build_combined.py`) · `graphify-out/graph.json` (triples, rebuilt with normalized ids 27_Aug_2026) · `scripts/04_node_analysis.py` conventions · recomputed union metrics (parameters in §3)
 
@@ -193,7 +193,7 @@ All top-15 are shared nodes at k-core 20 — the union's inner shell is the esta
 
 ## References
 
-- `web/pages/node-analysis-examples-biology.html` — triples-graph metrics/roles reference (16 Aug 2026).
+- `web/pages/en-US/node-analysis-examples-biology.html` — triples-graph metrics/roles reference (16 Aug 2026).
 - `src/tasks/task_output_node_analysis_biology_16_AUG_2026.md` — source analysis document (triples graph).
 - `scripts/03_rebuild_from_triples.py` — triples rebuild (`enrich_graph_metrics`, `DENYLIST`, Leiden).
 - `scripts/05_rebuild_from_wiki.py` — wiki graph build (entity notes, doc/task exclusion).

@@ -14,7 +14,7 @@ tags:
 # 研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins
 
 > [!NOTE]
-> **任務**：在當前知識圖譜上設計一項聚焦於四個節點——[[Adrenochrome]]、[[Mitohormesis]]、[[Autophagy]]、[[Sirtuins]]——的研究，使用 `web/pages/node-analysis-examples-biology.html` 中記錄、並由 `scripts/04_node_analysis.py` 實作的指標指紋與關係感知方法。以下所有基準指標均已針對即時圖譜**計算完成**；研究設計將其轉化為可證偽的假說、一項計算內擾動實驗、驗證臂，以及一項修復佇列。
+> **任務**：在當前知識圖譜上設計一項聚焦於四個節點——[[Adrenochrome]]、[[Mitohormesis]]、[[Autophagy]]、[[Sirtuins]]——的研究，使用 `web/pages/en-US/node-analysis-examples-biology.html` 中記錄、並由 `scripts/04_node_analysis.py` 實作的指標指紋與關係感知方法。以下所有基準指標均已針對即時圖譜**計算完成**；研究設計將其轉化為可證偽的假說、一項計算內擾動實驗、驗證臂，以及一項修復佇列。
 > **日期**：2026 年 8 月 20 日 07:43 PM PDT
 > **圖譜**：`graphify-out/graph.json` — 建構 `867a5ae5fdb8a46c`（指標計算於 2026-08-20 18:21:44）· 2,596 個節點 / 3,737 條邊 · 巨連通分量 2,110 個節點 / 3,295 條邊
 > **方法基礎**：每節點指紋（`degree`、`in/out_degree`、`pagerank`、`betweenness_centrality`、`clustering_coefficient`、`k_core_number`、`community_*`）+ 關係感知電池（最短路徑倍數、Jaccard、Adamic–Adar、k-core、Fiedler/eigh、有效電阻、Personalized PageRank）
@@ -296,7 +296,7 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 
 ## 參考文獻
 
-1. 知識庫方法簡報，2026 年 8 月 16 日。*Node-level network analysis for biological prioritization.* `web/pages/node-analysis-examples-biology.html`。
+1. 知識庫方法簡報，2026 年 8 月 16 日。*Node-level network analysis for biological prioritization.* `web/pages/en-US/node-analysis-examples-biology.html`。
 2. 多節點分析工具。`scripts/04_node_analysis.py` — 巨連通分量限制、路徑倍數、Jaccard、Adamic–Adar、稠密 `eigh` Fiedler、有效電阻、置信度加權 PPR。
 3. 重建管線。`scripts/03_rebuild_from_triples.py` — `DENYLIST`、`enrich_graph_metrics()`、Leiden 社群、角色標籤 → `web/data/node_roles.json`。
 4. Jeong H, et al. Lethality and centrality in protein networks. *Nature* 2001;411:41–42.

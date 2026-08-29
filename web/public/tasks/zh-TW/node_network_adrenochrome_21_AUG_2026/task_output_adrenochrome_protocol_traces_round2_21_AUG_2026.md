@@ -14,7 +14,7 @@ tags:
 
 **圖譜建構：** `graphify-out/graph.json` — 2,596 個節點 / 3,737 條邊（巨連通分量 2,110 / 3,295），建構 `867a5ae5fdb8a46c`（與第一輪相同，未變）
 **工具：** `scripts/04_node_analysis.py` + `supplementary_traces_F_G_H_I.py`（RANDOM_SEED=1 慣例）
-**目的：** 執行 `task_output_adrenochrome_protocol_traces_20_AUG_2026.md` 中排隊的五項追蹤：（E）將 NAD⁺ 燃料線併入追蹤集；（F）Phase 3 置信度加權 PPR 對完整階梯的重新排序；（G）MB ⇄ carbazochrome Complex-I 競爭子圖；（H）Hormetic Window / SIRT3-SIRT4 比值自我圖；（I）實體解析後的重跑（NF-κB 變體合併）。餵入即時頁面 `web/pages/adrenochrome-protocol-node-network-analysis.html`。
+**目的：** 執行 `task_output_adrenochrome_protocol_traces_20_AUG_2026.md` 中排隊的五項追蹤：（E）將 NAD⁺ 燃料線併入追蹤集；（F）Phase 3 置信度加權 PPR 對完整階梯的重新排序；（G）MB ⇄ carbazochrome Complex-I 競爭子圖；（H）Hormetic Window / SIRT3-SIRT4 比值自我圖；（I）實體解析後的重跑（NF-κB 變體合併）。餵入即時頁面 `web/pages/en-US/adrenochrome-protocol-node-network-analysis.html`。
 
 ## 執行紀錄
 

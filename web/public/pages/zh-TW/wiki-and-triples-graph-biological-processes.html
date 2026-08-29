@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>合併知識圖譜中的生物過程（wiki 與 triples）</title>
 <meta name="description" content="以生物學為中心的合併知識圖譜（triples + Obsidian wiki）導覽：合併拓撲新增了什麼、僅 wiki 的生物過程（cGAS–STING、細胞週期、NMN/NAD+、粒線體自噬）、p53/TP53 整併、跨社群橋樑與有趣連結，以及在合併後網路上重新計算指標的工作實例。">
-<link rel="canonical" href="https://graph.johnnykuo.com/pages/wiki-and-triples-graph-biological-processes_zh-TW.html">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/wiki-and-triples-graph-biological-processes.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
-<link rel="stylesheet" href="themes/theme-02/theme.css">
-<script src="themes/theme-02/theme.js"></script>
-<script src="themes/theme-02/pages-core.js"></script>
-<link rel="stylesheet" href="themes/theme-02/dark.css">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
 <body>
 <a class="skip" href="#content">跳到內容</a>
@@ -45,7 +45,7 @@
     <div class="meta">
       <p><strong>日期：</strong>2026年8月27日</p>
       <p><strong>資料來源：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code>（合併，檢視器預設）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code>（triples）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code>（wiki）</p>
-      <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md" target="_blank">src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md" target="_blank">wiki-out/GRAPH_REPORT.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md" target="_blank">wiki-out/GRAPH_DIFF.md</a></code> · <code><a href="node-analysis-examples-biology.html">node-analysis-examples-biology.html</a></code></p>
+      <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md" target="_blank">src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md" target="_blank">wiki-out/GRAPH_REPORT.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md" target="_blank">wiki-out/GRAPH_DIFF.md</a></code> · <code><a href="../en-US/node-analysis-examples-biology.html">node-analysis-examples-biology.html</a></code></p>
       <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_rebuild_from_wiki.py" target="_blank">05_rebuild_from_wiki.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_build_combined.py" target="_blank">05_build_combined.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">04_node_analysis.py</a></code></p>
       <p><strong>指標：</strong>在聯集拓撲上重新計算（未加權、α = 0.85；無向中介性／聚類／k-core）——見<a href="#methods">方法</a></p>
     </div>
@@ -600,7 +600,7 @@
         <li>Triples-vs-wiki 差異，2026 年 8 月 27 日。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md"><code>wiki-out/GRAPH_DIFF.md</code></a>。</li>
         <li>管線。<code>scripts/03_rebuild_from_triples.py</code> · <code>scripts/05_rebuild_from_wiki.py</code> · <code>scripts/05_build_combined.py</code> · <code>scripts/_node_roles_lib.py</code>。</li>
         <li>分析指令碼。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> · <code>scripts/04_link_prediction.py</code> · <code>scripts/04_role_query.py</code>。</li>
-        <li>Triples 圖指標參考（2026 年 8 月 16 日）。<a href="node-analysis-examples-biology.html"><code>node-analysis-examples-biology.html</code></a>。</li>
+        <li>Triples 圖指標參考（2026 年 8 月 16 日）。<a href="../en-US/node-analysis-examples-biology.html"><code>node-analysis-examples-biology.html</code></a>。</li>
         <li>Jeong H, et al. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42.</li>
         <li>Yu H, et al. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
         <li>Wuchty S, Almaas E. Peeling the yeast protein network. <em>Proteomics</em> 2005;5:444–449.</li>
@@ -638,6 +638,6 @@
   }
 })();
 </script>
-  <script src="themes/theme-01/pages-svg.js"></script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
 </body>
 </html>

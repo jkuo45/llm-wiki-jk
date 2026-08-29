@@ -19,7 +19,7 @@ author: []
 # 合併知識圖譜的節點層級網絡分析
 
 > [!NOTE]
-> **任務**：對**合併圖**（triples + Obsidian-wiki 連結）執行與產出 `web/pages/node-analysis-examples-biology.html`（triples 圖參考頁）相同的每節點指標分析，在實際的聯集拓撲上重新計算中心性指紋，並凸顯合併圖特有的發現。
+> **任務**：對**合併圖**（triples + Obsidian-wiki 連結）執行與產出 `web/pages/en-US/node-analysis-examples-biology.html`（triples 圖參考頁）相同的每節點指標分析，在實際的聯集拓撲上重新計算中心性指紋，並凸顯合併圖特有的發現。
 > **日期**：27_Aug_2026 06:15 PM PDT
 > **範圍**：`web/data/nodes.json` + `web/data/edges.json`（標準合併資料集，由 `scripts/05_build_combined.py` 建置）· `graphify-out/graph.json`（triples，27_Aug_2026 以正規化 id 重建）· `scripts/04_node_analysis.py` 慣例 · 重新計算的聯集指標（參數見 §3）
 
@@ -192,7 +192,7 @@ triples 圖低估了連通性：其 18% 的節點位於巨型分量之外，且�
 
 ## 參考資料
 
-- `web/pages/node-analysis-examples-biology.html` — triples 圖指標/角色參考（2026 年 8 月 16 日）。
+- `web/pages/en-US/node-analysis-examples-biology.html` — triples 圖指標/角色參考（2026 年 8 月 16 日）。
 - `src/tasks/task_output_node_analysis_biology_16_AUG_2026.md` — 來源分析文件（triples 圖）。
 - `scripts/03_rebuild_from_triples.py` — triples 重建（`enrich_graph_metrics`、`DENYLIST`、Leiden）。
 - `scripts/05_rebuild_from_wiki.py` — wiki 圖建置（實體筆記、doc/task 排除）。

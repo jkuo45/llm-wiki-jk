@@ -15,7 +15,7 @@ tags:
 
 **圖譜建構：** `graphify-out/graph.json` — 2,596 個節點 / 3,737 條邊（巨連通分量 2,110 / 3,295），指標計算於 2026-08-20 18:21:44（建構 `867a5ae5fdb8a46c`）
 **工具：** `scripts/04_node_analysis.py`（RANDOM_SEED=1 慣例）
-**目的：** 將 8 月 20 日的四節點四重奏研究（adrenochrome ↔ mitohormesis/autophagy/sirtuins）擴展至完整的**腎上腺色素協定**：亞甲藍（MB）、氨基胍（AG），以及支援堆疊（carbazochrome、ascorbic acid、urolithin A、spermidine、rapamycin、fisetin、creatine、resveratrol）。餵入即時網頁 `web/pages/adrenochrome-protocol-node-network-analysis.html`。
+**目的：** 將 8 月 20 日的四節點四重奏研究（adrenochrome ↔ mitohormesis/autophagy/sirtuins）擴展至完整的**腎上腺色素協定**：亞甲藍（MB）、氨基胍（AG），以及支援堆疊（carbazochrome、ascorbic acid、urolithin A、spermidine、rapamycin、fisetin、creatine、resveratrol）。餵入即時網頁 `web/pages/en-US/adrenochrome-protocol-node-network-analysis.html`。
 
 ## 執行紀錄
 

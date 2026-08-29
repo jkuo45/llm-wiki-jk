@@ -14,7 +14,7 @@ tags:
 # Study Design — One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins
 
 > [!NOTE]
-> **Task**: Design a study on the current knowledge graph focused on four nodes — [[Adrenochrome]], [[Mitohormesis]], [[Autophagy]], [[Sirtuins]] — using the metric fingerprint and relation-aware methods documented in `web/pages/node-analysis-examples-biology.html` and implemented in `scripts/04_node_analysis.py`. All baseline metrics below are **already computed** against the live graph; the study design turns them into falsifiable hypotheses, an in-silico perturbation experiment, validation arms, and a remediation queue.
+> **Task**: Design a study on the current knowledge graph focused on four nodes — [[Adrenochrome]], [[Mitohormesis]], [[Autophagy]], [[Sirtuins]] — using the metric fingerprint and relation-aware methods documented in `web/pages/en-US/node-analysis-examples-biology.html` and implemented in `scripts/04_node_analysis.py`. All baseline metrics below are **already computed** against the live graph; the study design turns them into falsifiable hypotheses, an in-silico perturbation experiment, validation arms, and a remediation queue.
 > **Date**: 20_August_2026 07:43 PM PDT
 > **Graph**: `graphify-out/graph.json` — build `867a5ae5fdb8a46c` (metrics computed 2026-08-20 18:21:44) · 2,596 nodes / 3,737 edges · giant component 2,110 nodes / 3,295 edges
 > **Methods basis**: per-node fingerprint (`degree`, `in/out_degree`, `pagerank`, `betweenness_centrality`, `clustering_coefficient`, `k_core_number`, `community_*`) + relation-aware battery (shortest-path multiplicity, Jaccard, Adamic–Adar, k-core, Fiedler/eigh, effective resistance, Personalized PageRank)
@@ -296,7 +296,7 @@ Environment: Python 3.14, NetworkX 3.x, SciPy 1.x (`uv run --with networkx --wit
 
 ## References
 
-1. Vault methods briefing, 16 August 2026. *Node-level network analysis for biological prioritization.* `web/pages/node-analysis-examples-biology.html`.
+1. Vault methods briefing, 16 August 2026. *Node-level network analysis for biological prioritization.* `web/pages/en-US/node-analysis-examples-biology.html`.
 2. Multi-node analytics tooling. `scripts/04_node_analysis.py` — giant-component restriction, path multiplicity, Jaccard, Adamic–Adar, dense-`eigh` Fiedler, effective resistance, confidence-weighted PPR.
 3. Rebuild pipeline. `scripts/03_rebuild_from_triples.py` — `DENYLIST`, `enrich_graph_metrics()`, Leiden communities, role tags → `web/data/node_roles.json`.
 4. Jeong H, et al. Lethality and centrality in protein networks. *Nature* 2001;411:41–42.

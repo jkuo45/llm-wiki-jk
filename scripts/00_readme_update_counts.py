@@ -272,6 +272,12 @@ def build_web_tasks(task_data, args):
     for t in task_data:
         basename = os.path.basename(t["path"])
         stem, lang = task_id_stem(basename)
+        if t.get("in_place"):
+            # Web-only zh-TW translations live under tasks/zh-TW/; the folder is
+            # authoritative for language (filenames no longer carry a _zh-TW
+            # suffix after the tasks/ reorganization), so don't rely on the
+            # suffix-based detection in task_id_stem.
+            lang = "zh-TW"
         fm = parse_frontmatter(t["path"])
         created_dt = parse_iso_date(fm.get("created"), t.get("datetime"))
         updated_dt = parse_iso_date(fm.get("updated"), t.get("datetime"))

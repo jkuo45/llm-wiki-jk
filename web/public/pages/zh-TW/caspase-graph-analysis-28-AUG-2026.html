@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Caspases — 圖譜分析（wiki + triples）</title>
 <meta name="description" content="任務輸出報告：在合併的 triples + wiki 知識圖譜上，對全部 caspase 節點進行多指標網絡分析——分層分解、社群結構、中心性與角色分類、最短路徑結構、跨死亡模式的個人化 PageRank、Adamic-Adar 連結預測、圖譜缺口與增補佇列——並附上 caspase 分類、受質、老化生物學與藥理學的文獻綜述。">
-<link rel="canonical" href="https://graph.johnnykuo.com/pages/caspase-graph-analysis-28-AUG-2026_zh-TW.html">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
-<link rel="stylesheet" href="themes/theme-02/theme.css">
-<script src="themes/theme-02/theme.js"></script>
-<script src="themes/theme-02/pages-core.js"></script>
-<link rel="stylesheet" href="themes/theme-02/dark.css">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
 <body>
 <a class="skip" href="#content">跳到內容</a>
@@ -51,8 +51,8 @@
       <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank">src/tasks/node_network_caspase_28_AUG_2026/</a></code>——含完整原始指標輸出</p>
       <p><strong>原始資料：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank">raw_caspases_combined_graph.txt</a></code>（合併聯集的完整多指標運行）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank">raw_caspases_wiki_graph_node.txt</a></code>（同一流程，wiki 層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank">raw_caspases_wiki_graph_link_prediction.txt</a></code>（wiki 層 Adamic-Adar 掃描）</p>
       <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">scripts/04_node_analysis.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_link_prediction.py" target="_blank">04_link_prediction.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py" target="_blank">04_role_query.py</a></code></p>
-      <p><strong>方法基礎：</strong><a href="node-analysis-examples-biology_zh-TW.html">用於生物學優先排序的節點層級網絡分析</a></p>
-      <p><strong>其他語言：</strong><a href="caspase-graph-analysis-28-AUG-2026.html">English</a></p>
+      <p><strong>方法基礎：</strong><a href="node-analysis-examples-biology.html">用於生物學優先排序的節點層級網絡分析</a></p>
+      <p><strong>其他語言：</strong><a href="../en-US/caspase-graph-analysis-28-AUG-2026.html">English</a></p>
     </div>
   </div>
 </header>
@@ -601,6 +601,6 @@ uv run python3 scripts/04_role_query.py --node "Caspase-3"</code></pre></div>
   }
 })();
 </script>
-  <script src="themes/theme-01/pages-svg.js"></script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
 </body>
 </html>
