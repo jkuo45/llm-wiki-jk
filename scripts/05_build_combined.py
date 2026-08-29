@@ -2,8 +2,10 @@
 """Build the combined (triples + wiki) web dataset from the per-source exports.
 
 Reads `web/public/data/{nodes,edges,legend,graph-meta}.json` (triples) and
-`web/public/data/wiki-{nodes,edges,legend,graph-meta}.json` (wiki), and merges them
-into `web/public/data/combined-{nodes,edges,legend,graph-meta,node_roles,roles-meta}.json`.
+`web/public/data/wiki-{nodes,edges,legend,graph-meta}.json` (wiki), and merges them into the canonical unprefixed web dataset
+`web/public/data/{nodes,edges,legend,graph-meta,node_roles,roles-meta}.json`
+(default "combined" mode). The deprecated `combined-*` files are removed
+if present; triples and wiki keep their source files (`triples-*` / `wiki-*`).
 
 This gives the front-end's "combined" mode a single backend-generated dataset
 to load instead of re-implementing the merge in the browser (mirrors the JS
