@@ -687,6 +687,13 @@ figcaption strong {
   box-shadow: var(--shadow);
 }
 
+/* New page template wraps tables in .table-host; give it the same
+   horizontal-scroll container behaviour so the frozen first column works. */
+.table-host {
+  overflow-x: auto;
+  min-width: 0;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -1093,20 +1100,25 @@ body {
 }
 
 .table-wrap table th:first-child,
-.table-wrap table td:first-child {
+.table-wrap table td:first-child,
+.table-host table th:first-child,
+.table-host table td:first-child {
   position: sticky;
   left: 0;
   z-index: 2;
   background: var(--sheet);
 }
 
-.table-wrap table th:first-child {
+.table-wrap table th:first-child,
+.table-host table th:first-child {
   background: var(--paper-deep);
   z-index: 3;
 }
 
 .table-wrap table th:first-child::after,
-.table-wrap table td:first-child::after {
+.table-wrap table td:first-child::after,
+.table-host table th:first-child::after,
+.table-host table td:first-child::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1117,7 +1129,8 @@ body {
   pointer-events: none;
 }
 
-.table-wrap table th:first-child::after {
+.table-wrap table th:first-child::after,
+.table-host table th:first-child::after {
   background: linear-gradient(to right, rgba(0,0,0,0.08), transparent);
 }
 
