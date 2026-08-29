@@ -5,6 +5,13 @@ import { state } from './state.js';
 export function updateHash(pushState = true) {
   if (state.suppressHashUpdate) return;
   const parts = [];
+  // Preserve the dataset mode (wiki / triples / combined). The mode is read
+  // from the hash once at page load (data.js), so every hash rewrite must
+  // carry it forward — otherwise any interaction (select, reset camera…)
+  // drops it and a reload falls back to the combined default.
+  const currentParams = new URLSearchParams(location.hash.replace(/^#\/?/, ""));
+  const mode = currentParams.get("mode");
+  if (mode) parts.push(`mode=${encodeURIComponent(mode)}`);
   // Notes panel first so the hash always opens with #notes when it's shown.
   if (state.notesOpen) {
     parts.push('notes');
