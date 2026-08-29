@@ -7,6 +7,7 @@ import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
 import { openPromptComposer } from './prompt.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
+import { anyModalOpen } from './modal.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -504,6 +505,7 @@ function setView(view) {
 
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
+  if (anyModalOpen()) return; // modal.js closes the topmost overlay itself
   if (!lightboxEl.hidden) { goBackToGallery(); return; }
   if (notesPanel.classList.contains('open')) closeNotes();
 });

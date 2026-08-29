@@ -5,6 +5,7 @@
 import { state } from './state.js';
 import { updateHash } from './routing.js';
 import { ARTICLES, TASKS } from './data.js';
+import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 
 // ------------------------------------------------------------
 // Article registry (semantic IDs, not file paths)
@@ -119,6 +120,7 @@ function currentArticle() {
 // DOM refs
 // ------------------------------------------------------------
 const overlay = document.getElementById('page-modal-overlay');
+registerModal('reader', overlay, { closeOnBackdrop: true, onClose: readerClosedCleanup });
 const frame = document.getElementById('page-modal-frame');
 const openLink = document.getElementById('page-modal-open');
 const select = document.getElementById('reader-select');
@@ -257,7 +259,7 @@ export function openReader(id, { restore = false, section = null } = {}) {
   }
   setSelectFor(article);
   setLangToggleFor(article);
-  overlay.classList.add('visible');
+  openModal('reader');
   state.readerId = article.id;
   state.readerSection = section;
   updatePrevBtn();
@@ -265,8 +267,13 @@ export function openReader(id, { restore = false, section = null } = {}) {
 }
 
 export function closeReader() {
+  closeModal('reader');
+}
+
+// Cleanup runs via the modal manager's onClose (covers ESC/backdrop/close
+// button and programmatic closes alike).
+function readerClosedCleanup() {
   stopSectionTracking();
-  overlay.classList.remove('visible');
   state.readerId = null;
   state.readerSection = null;
   readerStack.length = 0;
@@ -275,7 +282,7 @@ export function closeReader() {
 }
 
 export function isReaderOpen() {
-  return overlay.classList.contains('visible');
+  return isModalOpen('reader');
 }
 
 // ------------------------------------------------------------
@@ -458,15 +465,6 @@ modalTitle.addEventListener('click', () => {
   if (idx && idx.id !== state.readerId) openReader(idx.id);
 });
 
-overlay.addEventListener('click', (e) => {
-  if (e.target.id === 'page-modal-close' || e.target === overlay) {
-    closeReader();
-  }
-});
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && isReaderOpen()) {
-    closeReader();
-  }
-});
+// ESC / backdrop / close-button handling is delegated to modal.js
+// ('reader' is registered below with readerClosedCleanup as onClose).
 

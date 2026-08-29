@@ -21,6 +21,7 @@ import './theme.js';
 // Side-effect import: auth.js shows the login overlay until a session exists
 // and keeps the Supabase access token available to API callers.
 import './auth.js';
+import { registerModal, toggleModal, closeModal } from './modal.js';
 
 // ------------------------------------------------------------
 // Dataset info panel (derived from data)
@@ -147,21 +148,17 @@ datasetScroll.innerHTML = `
 
 const datasetPanel = document.getElementById('dataset-panel');
 const datasetBtn = document.getElementById('btn-dataset');
+// Escape/backdrop/close-button handling lives in modal.js; the outside-click
+// dismiss below stays because the dataset panel is a side panel, not a modal.
+registerModal('dataset', datasetPanel, { closeOnBackdrop: false, onClose: () => setActiveWindow(null) });
 
 datasetBtn?.addEventListener('click', (e) => {
   e.stopPropagation();
-  datasetPanel.classList.toggle('visible');
-});
-datasetPanel.addEventListener('click', (e) => {
-  if (e.target.id === 'dataset-close' || e.target === datasetPanel) {
-    datasetPanel.classList.remove('visible');
-    setActiveWindow(null);
-  }
+  toggleModal('dataset');
 });
 document.addEventListener('click', (e) => {
   if (!datasetPanel?.contains(e.target) && !datasetBtn?.contains(e.target)) {
-    datasetPanel.classList.remove('visible');
-    setActiveWindow(null);
+    closeModal('dataset');
   }
 });
 

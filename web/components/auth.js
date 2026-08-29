@@ -10,6 +10,7 @@
 // fails the build if the vars are missing.
 
 import { createClient } from '@supabase/supabase-js';
+import { registerModal, openModal, closeModal } from './modal.js';
 
 const SUPABASE_URL = window.SUPABASE_URL || import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY || import.meta.env.VITE_SUPABASE_ANON_KEY;
@@ -46,24 +47,15 @@ const newPasswordInput = document.getElementById('auth-new-password');
 const resetBtn = document.getElementById('auth-reset-btn');
 
 // ------------------------------------------------------------
-// Overlay (on-demand sign-in card)
+// Overlay (on-demand sign-in card) — via the shared modal manager.
+// Uses inline display toggling (mode: 'display') because #auth-overlay
+// carries its styling inline in index.html rather than via a CSS class.
 // ------------------------------------------------------------
+registerModal('auth', overlay, { mode: 'display', closeOnBackdrop: true });
+
 export function promptSignIn() {
-  if (overlay && !accessToken) overlay.style.display = 'flex';
+  if (overlay && !accessToken) openModal('auth');
 }
-
-function hideOverlay() {
-  if (overlay) overlay.style.display = 'none';
-}
-
-overlay?.addEventListener('click', (e) => {
-  // Click on the backdrop dismisses — browsing stays possible without auth.
-  if (e.target === overlay) hideOverlay();
-});
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && overlay?.style.display === 'flex') hideOverlay();
-});
 
 // ------------------------------------------------------------
 // Top-bar chip
@@ -128,7 +120,7 @@ signinBtn?.addEventListener('click', () => promptSignIn());
 function setSession(session) {
   accessToken = session?.access_token || null;
   renderChip(session);
-  if (session) hideOverlay();
+  if (session) closeModal('auth');
 }
 
 // Default path: Google OAuth. Redirects to Supabase, which bounces through

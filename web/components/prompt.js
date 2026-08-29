@@ -18,6 +18,7 @@ import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
 import { authHeaders, promptSignIn } from './auth.js';
+import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from './modal.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -42,8 +43,9 @@ const analysisTools = document.getElementById('analysis-tools');
 const htmlModeOverlay = document.getElementById('html-mode-overlay');
 const htmlModeFrame = document.getElementById('html-mode-frame');
 const htmlModeTitle = document.getElementById('html-mode-title');
-const htmlModeClose = document.getElementById('html-mode-close');
 const htmlModeDownload = document.getElementById('html-mode-download');
+registerModal('html-mode', htmlModeOverlay);
+registerModal('wiki-modal', document.getElementById('wiki-modal-overlay'));
 const responseModeWrap = document.getElementById('response-mode');
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
@@ -648,7 +650,6 @@ const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
 const wikiModalTitle = document.getElementById('wiki-modal-title');
 const wikiModalBody = document.getElementById('wiki-modal-body');
 const wikiModalLink = document.getElementById('wiki-modal-link');
-const wikiModalClose = document.getElementById('wiki-modal-close');
 
 function openWikiModal(wikiKey) {
   const zh = uiLang === 'zh-TW' ? descByLabelZh.get(wikiKey) : null;
@@ -660,18 +661,13 @@ function openWikiModal(wikiKey) {
   const ghHref = noteUrl(wikiKey);
   wikiModalLink.href = ghHref || '#';
   wikiModalLink.toggleAttribute('disabled', !ghHref);
-  wikiModalOverlay.classList.add('visible');
+  openModal('wiki-modal');
   hideWikiTooltip();
 }
 
 function closeWikiModal() {
-  wikiModalOverlay.classList.remove('visible');
+  closeModal('wiki-modal');
 }
-
-wikiModalClose.addEventListener('click', closeWikiModal);
-wikiModalOverlay.addEventListener('click', (e) => {
-  if (e.target === wikiModalOverlay) closeWikiModal();
-});
 
 // ------------------------------------------------------------
 // HTML mode — render a prompt response as a standalone page styled with pages.css
@@ -777,28 +773,21 @@ function openHtmlMode(text, title) {
   htmlModeDoc = buildHtmlModeDoc(text, title || 'Response');
   if (htmlModeTitle) htmlModeTitle.textContent = title || 'Response';
   htmlModeFrame.srcdoc = htmlModeDoc;
-  htmlModeOverlay.classList.add('visible');
+  openModal('html-mode');
 }
 
 function closeHtmlMode() {
   if (!htmlModeOverlay) return;
-  htmlModeOverlay.classList.remove('visible');
+  closeModal('html-mode');
   if (htmlModeFrame) htmlModeFrame.srcdoc = '';
   htmlModeDoc = '';
   htmlModeRaw = '';
-}
-
-if (htmlModeClose) htmlModeClose.addEventListener('click', closeHtmlMode);
-if (htmlModeOverlay) {
-  htmlModeOverlay.addEventListener('click', (e) => {
-    if (e.target === htmlModeOverlay) closeHtmlMode();
-  });
 }
 // Rebuild an open HTML-mode document when the site theme changes (theme.js
 // dispatches site-theme-change). The sandboxed frame cannot run a bootstrap
 // script, so the pages-light.css disabled state is baked in at build time.
 window.addEventListener('site-theme-change', () => {
-  if (!htmlModeOverlay || !htmlModeOverlay.classList.contains('visible') || !htmlModeFrame) return;
+  if (!isModalOpen('html-mode') || !htmlModeFrame) return;
   if (!htmlModeDoc) return;
   const title = htmlModeTitle ? htmlModeTitle.textContent : 'Response';
   htmlModeDoc = buildHtmlModeDoc(htmlModeRaw || htmlModeDoc, title);
@@ -822,16 +811,10 @@ window.addEventListener('message', (e) => {
 });
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
-  if (wikiModalOverlay.classList.contains('visible')) { closeWikiModal(); return; }
-  if (htmlModeOverlay && htmlModeOverlay.classList.contains('visible')) { closeHtmlMode(); return; }
+  if (anyModalOpen()) return; // modal.js closes the topmost overlay itself
   const nodeCard = document.getElementById('at-node-detail');
   if (nodeCard && !nodeCard.hidden) { closeNodeDetail(); return; }
   if (promptPanel.classList.contains('open')) { closePrompt(); return; }
-  const datasetPanelEl = document.getElementById('dataset-panel');
-  if (datasetPanelEl && datasetPanelEl.classList.contains('visible')) {
-    datasetPanelEl.classList.remove('visible');
-    setActiveWindow(null);
-  }
 });
 
 // Enter in Graph mode runs the Set A/B comparison (equivalent to the

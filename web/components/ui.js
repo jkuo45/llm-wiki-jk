@@ -19,6 +19,7 @@ import { selectNode, deselectNode } from './interaction.js';
 import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
+import { registerModal, openModal } from './modal.js';
 
 // ------------------------------------------------------------
 // Active-window highlight (dataset panel vs prompt panel)
@@ -104,6 +105,8 @@ const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
 const wikiModalTitle = document.getElementById('wiki-modal-title');
 const wikiModalBody = document.getElementById('wiki-modal-body');
 const wikiModalLink = document.getElementById('wiki-modal-link');
+// Shared with prompt.js (which wires the close handlers via modal.js).
+registerModal('wiki-modal', wikiModalOverlay);
 let nodeWikiTooltipVisible = false;
 
 function nodeDescById(nid) {
@@ -168,7 +171,7 @@ function openNodeWikiModal(anchor) {
   }
   wikiModalLink.href = gh || '#';
   wikiModalLink.toggleAttribute('disabled', !gh);
-  wikiModalOverlay.classList.add('visible');
+  openModal('wiki-modal');
   hideNodeWikiTooltip();
 }
 
