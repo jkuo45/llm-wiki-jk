@@ -55,7 +55,7 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, I18N_COVERAGE, TRACES, ARTICLES, TASKS, PREDICATES] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, I18N_COVERAGE, TRACES, ARTICLES, TASKS, PREDICATES, SUGGESTED_PROMPTS] = await Promise.all([
     getJSON('nodes.json', 'nodes'),
     getJSON('edges.json', 'edges'),
     getJSON('legend.json', 'legend'),
@@ -66,6 +66,7 @@ async function loadAllData() {
     getJSON('articles.json', 'articles'),
     getJSON('tasks.json', 'tasks'),
     getJSON('predicates-zh-TW.json', 'predicates'),
+    getJSON('suggested-prompts.json', 'suggested-prompts'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
@@ -78,6 +79,7 @@ async function loadAllData() {
     ARTICLES: ARTICLES || [],
     TASKS: (TASKS && TASKS.tasks) || [],
     PREDICATES: PREDICATES || {},
+    SUGGESTED_PROMPTS: SUGGESTED_PROMPTS || {},
   };
 }
 
@@ -143,6 +145,7 @@ export let ARTICLES = [];
 export let TASKS = [];
 export let PREDICATES = {};
 export let I18N_COVERAGE = {};
+export let SUGGESTED_PROMPTS = {}; // suggested chat prompts, keyed by UI language
 
 const loaded = await loadAllData();
 RAW_NODES = loaded.RAW_NODES;
@@ -155,6 +158,7 @@ TRACES = loaded.TRACES;
 ARTICLES = loaded.ARTICLES;
 TASKS = loaded.TASKS;
 PREDICATES = loaded.PREDICATES;
+SUGGESTED_PROMPTS = loaded.SUGGESTED_PROMPTS;
 
 // ---------------------------------------------------------------------------
 // Select the active dataset (triples / wiki / combined) by URL-hash mode.

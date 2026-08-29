@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, loadRolesMeta, loadLinkPrediction } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, nodeMeshes, edgeSegments, edgeList, edgeOffColor, setEdgeFilter,
@@ -386,6 +386,13 @@ function applyUiLang(lang) {
 
   syncGraphifyUI();
   renderAnalysisTools();
+  // Re-render suggestion chips in the new language (no-op once they've been
+  // removed after the first message).
+  const suggestionsDiv = document.getElementById('prompt-suggestions');
+  if (suggestionsDiv) {
+    suggestionOffset = 0;
+    suggestionsDiv.innerHTML = pageSuggestionsHTML();
+  }
   updateHash();
 }
 
@@ -1462,49 +1469,16 @@ promptTags.addEventListener('click', (e) => {
 // ------------------------------------------------------------
 // Suggestion chips
 // ------------------------------------------------------------
-const RECIPE_GROUPS = [
-  {
-    title: 'Trace a mechanism / 追蹤機制',
-    items: [
-      { q: "Analyze the mechanism from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed lysosomal stress", tags: ["Adrenochrome", "Neuromelanin", "Autophagy", "TFEB"] },
-      { q: "Trace how COMT channels catecholamines into the Adrenochrome Pathway, and where the Fisetin route loops back to ROS", tags: ["COMT", "Adrenochrome Pathway", "Fisetin", "ROS"] },
-      { q: "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？", tags: ["NRF2", "NF-κB", "Adrenochrome"] },
-    ],
-  },
-  {
-    title: 'Find drivers & connectors / 找出驅動因子',
-    items: [
-      { q: "Identify the top connector nodes bridging the NAD+ and Autophagy communities", tags: ["NAD+", "Autophagy"] },
-      { q: "Which nodes have the highest betweenness across the Sirtuin and mTOR networks?", tags: ["Sirtuins", "mTORC1"] },
-      { q: "Find the hubs that link CD38-driven NAD+ decline to SIRT1 and aging", tags: ["CD38", "NAD+", "SIRT1", "Aging"] },
-    ],
-  },
-  {
-    title: 'Compare interventions / 比較介入',
-    items: [
-      { q: "Compare the senolytic (Fisetin) versus senomorphic paths to senescent-cell clearance", tags: ["Fisetin", "mTORC1", "Autophagy"] },
-      { q: "Contrast NR conversion to NAD+ upstream of SIRT1 with Fisetin's direct senolytic action", tags: ["Nicotinamide Riboside", "NAD+", "SIRT1", "Fisetin"] },
-      { q: "NAD+ 為何是 Sirtuins 的必要條件，CD38 消耗 NAD+ 這一步如何成為老化關鍵開關？", tags: ["NAD+", "Sirtuins", "CD38"] },
-    ],
-  },
-  {
-    title: 'Enrich a node set / 擴充節點集合',
-    items: [
-      { q: "Given Creatine, SIRT1, FOXO and AMPK, map the autophagy handoff between them", tags: ["Creatine", "SIRT1", "FOXO", "AMPK", "Autophagy"] },
-      { q: "Expand the Methylene blue → MAO → Aminoguanidine → Methemoglobinemia enzyme-inhibitor web", tags: ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
-      { q: "Ivermectin 如何誘發自噬抑制 NF-κB，並與 Adrenochrome 在同一子圖上交會？", tags: ["Ivermectin", "Autophagy", "NF-κB", "Adrenochrome"] },
-    ],
-  },
-  {
-    title: 'Pathology & clinical / 病理與臨床',
-    items: [
-      { q: "Trace MOMP through the Intrinsic Pathway to Caspase-9 and place SIRT1 on that line", tags: ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
-      { q: "How does Honokiol protect MFN2 mitochondrial fusion and intersect Caspase-3 in cardiac hypertrophy?", tags: ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
-      { q: "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？", tags: ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] },
-    ],
-  },
-];
-const ALL_RECIPES = RECIPE_GROUPS.flatMap(g => g.items);
+// Recipes live in web/public/data/suggested-prompts.json, keyed by UI
+// language ('en-US' / 'zh-TW') and loaded via data.js. Keep every `tags`
+// entry a canonical node label so tagSuggestionNodes() can match RAW_NODES
+// in both languages.
+const RECIPE_GROUPS = SUGGESTED_PROMPTS;
+// Language-aware recipe pool: only the recipes for the active UI language.
+function currentRecipes() {
+  const groups = RECIPE_GROUPS[uiLang] || RECIPE_GROUPS['en-US'];
+  return groups.groups.flatMap(g => g.items);
+}
 const SUGGESTIONS_PER_PAGE = 7;
 let suggestionOffset = 0;
 
@@ -1514,9 +1488,10 @@ function suggestionHTML(q) {
 }
 
 function pageSuggestionsHTML() {
+  const recipes = currentRecipes();
   const items = [];
   for (let i = 0; i < SUGGESTIONS_PER_PAGE; i++) {
-    const q = ALL_RECIPES[(suggestionOffset + i) % ALL_RECIPES.length];
+    const q = recipes[(suggestionOffset + i) % recipes.length];
     items.push(suggestionHTML(q));
   }
   return `<div class="prompt-suggestion-group">${items.join('')}</div>` +
@@ -1538,7 +1513,8 @@ async function generateSuggestions() {
   if (!suggestionsDiv) return;
 
   // Advance by a full page, wrapping around the flattened recipe pool.
-  suggestionOffset = (suggestionOffset + SUGGESTIONS_PER_PAGE) % ALL_RECIPES.length;
+  const recipes = currentRecipes();
+  suggestionOffset = (suggestionOffset + SUGGESTIONS_PER_PAGE) % recipes.length;
   suggestionsDiv.innerHTML = pageSuggestionsHTML();
 }
 
