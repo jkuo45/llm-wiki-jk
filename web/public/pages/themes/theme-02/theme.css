@@ -147,12 +147,6 @@ a:hover {
   color: var(--oxblood);
 }
 
-/* Reader/iframe: the graph chrome already provides navigation, so drop this
-   page's standalone "← Back" link there. Full-page view shows it. */
-body.embedded .site-nav a.home {
-  display: none;
-}
-
 .nav-links {
   display: flex;
   gap: 4px;
