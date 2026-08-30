@@ -22,9 +22,8 @@ import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
 
 // ------------------------------------------------------------
-// Active-window highlight (dataset panel vs prompt panel)
+// Active-window highlight (analysis panel)
 // ------------------------------------------------------------
-const activeDatasetPanel = document.getElementById('dataset-panel');
 const activePromptPanel = document.getElementById('analysis-panel');
 
 // ------------------------------------------------------------
@@ -59,34 +58,24 @@ export function setupDatasetToggle() {
 }
 
 export function setActiveWindow(name) {
-  const panels = [activeDatasetPanel, activePromptPanel];
-  panels.forEach(el => el.classList.remove('active', 'dimmed'));
+  activePromptPanel.classList.remove('active', 'dimmed');
 
-  const activeEl = name === 'dataset' && activeDatasetPanel.classList.contains('visible')
-    ? activeDatasetPanel
-    : name === 'prompt' && activePromptPanel.classList.contains('open')
-      ? activePromptPanel
-      : null;
+  const activeEl = name === 'prompt' && activePromptPanel.classList.contains('open')
+    ? activePromptPanel
+    : null;
 
   if (activeEl) {
     activeEl.classList.add('active');
-    panels.forEach(el => {
-      const isVisible = el === activeDatasetPanel
-        ? el.classList.contains('visible')
-        : el.classList.contains('open');
-      if (el !== activeEl && isVisible) el.classList.add('dimmed');
-    });
+    activePromptPanel.classList.remove('dimmed');
   }
 }
 
 document.addEventListener('pointerdown', (e) => {
-  if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
-  else if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
+  if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
   else setActiveWindow(null);
 });
 document.addEventListener('focusin', (e) => {
-  if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
-  else if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
+  if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
 });
 
 // ------------------------------------------------------------

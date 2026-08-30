@@ -163,32 +163,6 @@ body {
 /* Top-left links */
 #top-links a, #top-links button { background: var(--surface); border-color: var(--line-strong); color: var(--ink-hi); }
 #top-links a:hover, #top-links button:hover { background: var(--paper-deep); border-color: var(--accent); }
-#controls #btn-dataset { color: var(--ink-4); }
-
-/* Dataset info panel */
-#dataset-panel { background: rgba(24, 28, 38, 0.55); }
-#dataset-panel .panel-scroll { background: var(--surface); border-color: var(--line-strong); box-shadow: 0 12px 48px rgba(34, 48, 74, 0.22); }
-#dataset-panel .panel-close { color: var(--ink-4); }
-#dataset-panel .panel-close:hover { color: var(--ink-hi); }
-#dataset-panel h2 { color: var(--ink-hi); }
-#dataset-panel h3 { color: #4B5563; }
-#dataset-panel .dataset-intro { color: #4B5563; }
-#dataset-panel .dataset-intro b { color: var(--ink-hi); }
-#dataset-panel .dataset-stats li, #dataset-panel .dataset-list li { color: #4B5563; }
-#dataset-panel .dataset-stats li b { color: var(--link); }
-#dataset-panel .dataset-stats small { color: var(--ink-4); }
-#dataset-panel .god-nodes li { color: #4B5563; }
-#dataset-panel .god-nodes .degree { color: var(--ink-4); }
-#dataset-panel .god-nodes .degree.muted { color: #9AA4B3; }
-#dataset-panel .dataset-source { border-top-color: var(--line); }
-#dataset-panel .dataset-source a { color: var(--link); }
-#dataset-panel .dataset-source a:hover { color: var(--accent); }
-#dataset-panel .dataset-table { color: #4B5563; }
-#dataset-panel .dataset-table th, #dataset-panel .dataset-table td { border-bottom-color: var(--line); }
-#dataset-panel .dataset-table th { background: var(--paper); color: var(--ink-4); }
-#dataset-panel .dataset-table tbody tr:hover { background: var(--paper); }
-#dataset-panel .dataset-table td:first-child { color: var(--link); }
-#dataset-panel .dataset-table code { background: #EFEBE1; }
 
 /* Zoom bar */
 #zoom-bar button { background: var(--surface); border-color: var(--line-strong); color: var(--ink-4); }
@@ -203,14 +177,12 @@ body {
 #controls button:hover { background: var(--paper-deep); border-color: var(--accent); }
 #controls button.active { background: var(--accent); border-color: var(--accent); color: var(--surface); }
 #controls #btn-reset,
-#controls #btn-dataset,
 #controls #btn-save-png,
 #controls #btn-analysis,
 #controls #btn-notes,
 #controls #btn-unstick,
 #controls #dataset-mode-toggle { color: var(--ink-4); }
 #controls #btn-reset:hover,
-#controls #btn-dataset:hover,
 #controls #btn-save-png:hover,
 #controls #btn-analysis:hover,
 #controls #btn-notes:hover,
@@ -281,7 +253,6 @@ body {
 .analysis-mode-tab:hover { color: var(--ink-hi); }
 .analysis-mode-tab.active { background: var(--accent); color: var(--surface); }
 #controls #dataset-mode-toggle .mode-label { color: inherit; }
-.dataset-mode { color: var(--ink-4); }
 .analysis-activity-dot { border-color: var(--surface); }
 .analysis-activity-dot.thinking { border-color: var(--surface); }
 #detail-loaded-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }

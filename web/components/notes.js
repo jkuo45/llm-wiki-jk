@@ -71,7 +71,6 @@ const notesPanel = $('notes-panel');
 const notesBtn = $('btn-notes');
 const notesClose = $('notes-close');
 const browseEl = $('notes-browse');
-const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const sortBtn = $('notes-sort');
@@ -496,12 +495,10 @@ notesClose.addEventListener('click', () => {
   closeNotes();
 });
 
-function setView(view) {
-  // The Upload screen is hidden (notes arrive via the backend); Browse is the
-  // only reachable view. Programmatic requests for upload snap back to browse.
-  if (view !== 'browse') view = 'browse';
-  browseEl.hidden = view !== 'browse';
-  uploadEl.hidden = view !== 'upload';
+function setView() {
+  // The Upload screen was removed (notes arrive via the backend); Browse is
+  // the only view. Kept as a no-op seam for view switching.
+  browseEl.hidden = false;
   lightboxEl.hidden = true;
   currentNote = null;
   updateCloseLabel();
@@ -970,7 +967,6 @@ function openLightbox(note) {
   currentNote = note;
   currentPage = (note.pages && note.pages[0] && note.pages[0].page) || 1;
   browseEl.hidden = true;
-  uploadEl.hidden = true;
   lightboxEl.hidden = false;
   updateCloseLabel();
   setViewMode(false);
@@ -983,7 +979,6 @@ function goBackToGallery() {
   pointers.clear(); pinch = null;
   lightboxEl.hidden = true;
   browseEl.hidden = false;
-  uploadEl.hidden = true;
   currentNote = null;
   updateCloseLabel();
   setViewMode(false);
@@ -1739,7 +1734,7 @@ export function isNotesOpen() {
 // Called by graph.js's restoreFromHash; updateHash is suppressed during restore.
 export async function restoreNotes(params) {
   if (!notesPanel.classList.contains('open')) openNotes();
-  setView('browse');
+  setView();
   if (params && params.uilang && params.uilang !== 'en-US') {
     applyUiLang(params.uilang);
   }
