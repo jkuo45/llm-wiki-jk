@@ -214,5 +214,23 @@
                 "updated": "2026-08-28"
             }
         }
+    },
+    {
+        "id": "neurodegeneration-ad-pd-hd-als-review",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Neurodegeneration Compared — AD, PD, HD, and the ALS–FTD Spectrum",
+                "path": "pages/en-US/neurodegeneration-ad-pd-hd-als-review.html",
+                "created": "2026-08-29",
+                "updated": "2026-08-29"
+            },
+            "zh-TW": {
+                "title": "神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系",
+                "path": "pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
     }
 ]

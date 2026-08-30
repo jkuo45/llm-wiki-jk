@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neurodegeneration Compared — AD, PD, HD, and the ALS–FTD Spectrum</title>
+<meta name="description" content="Comparative review of neurodegenerative disease — Alzheimer's, Parkinson's, Huntington's, and the ALS–FTD spectrum — synthesizing the llm-wiki-jk knowledge base (wiki graph: 3,007 nodes / 35,150 edges) with the 2024–2026 therapeutic and biomarker literature. Covers the shared mechanistic matrix (proteostasis, mitochondria, oxidative stress, innate immunity, senescence), disease-specific triggers, selective vulnerability, spread topology, and the therapeutic logic that follows from target topology.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#mechanisms">Shared mechanisms</a>
+      <a href="#diseases">Disease profiles</a>
+      <a href="#propagation">Propagation</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#vulnerability">Therapeutic logic</a>
+      <a href="#graph">Graph analysis</a>
+      <a href="#sources">Sources</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Review · Neurodegeneration · 29 Aug 2026</p>
+    <h1>Neurodegeneration Compared — AD, PD, HD, and the ALS–FTD Spectrum</h1>
+    <p class="lede">
+      The major neurodegenerative diseases share an aging-linked mechanistic matrix — proteostasis
+      collapse, mitochondrial dysfunction, oxidative and nitrative stress, innate immune activation,
+      and prion-like spread of misfolded proteins — yet they differ in the initial condition: which
+      protein misfolds, in which neuron, under which local chemistry. Those differences determine how
+      each disease begins, how it propagates, and why the therapeutic breakthroughs of 2023–2026
+      (anti-amyloid antibodies in Alzheimer's, gene silencing in Huntington's and SOD1-ALS) succeeded
+      only where the modality matched the target. This page synthesizes the
+      <strong>llm-wiki-jk knowledge base</strong> — including quantitative analysis of its own wiki
+      graph (3,007 nodes / 35,150 edges) — with the 2024–2026 clinical literature.
+    </p>
+    <div class="meta">
+      <p><strong>Date:</strong> 29 Aug 2026</p>
+      <p><strong>Source Document:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md" target="_blank">src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md</a></code></p>
+      <p><strong>Data Sources:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code> (Obsidian wikilink graph — degrees, communities, Jaccard overlaps) · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code> (triples graph) · wiki notes in <code>src/notes/</code> (_link, neuromelanin, oxidative_stress, sirtuins, autophagy, senescence, comt, epigenetics, adrenochrome)</p>
+      <p><strong>Literature:</strong> statements marked <strong>†</strong> derive from 2024–2026 web sources (FDA/EMA announcements, uniQure/Roche/Biogen disclosures, <em>JAMA Neurology</em>, <em>Nature Medicine</em>, <em>Molecular Psychiatry</em>, <em>Lancet Neurology</em>) — see <a href="#sources">Sources</a></p>
+      <p><strong>Note:</strong> informational synthesis, not medical advice.</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="On this page">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#overview">Four diseases, one matrix</a></li>
+      <li><a href="#mechanisms">The convergent mechanism matrix</a></li>
+      <li><a href="#diseases">Disease profiles and mechanism maps</a></li>
+      <li><a href="#propagation">Routes of propagation</a></li>
+      <li><a href="#comparison">Head-to-head comparison</a></li>
+      <li><a href="#vulnerability">Selective vulnerability and therapeutic logic</a></li>
+      <li><a href="#graph">What the knowledge base's graphs show</a></li>
+      <li><a href="#takeaways">Convergence and divergence</a></li>
+      <li><a href="#sources">Sources and methods</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <section id="overview">
+      <p class="sec-label">Overview</p>
+      <h2>Four diseases, one matrix, four different initial conditions</h2>
+      <p class="drop">
+        <strong>Alzheimer's disease (AD)</strong> is the most common cause of dementia: a progressive
+        amnestic syndrome defined by extracellular amyloid-β plaques and intracellular tau
+        neurofibrillary tangles. <strong>Parkinson's disease (PD)</strong> is the most common movement
+        disorder: loss of neuromelanin-rich dopaminergic neurons of the substantia nigra pars compacta
+        with α-synuclein Lewy pathology. <strong>Huntington's disease (HD)</strong> is the only one of
+        the four with a fully deterministic genetic cause — a CAG repeat expansion in
+        <em>HTT</em> — producing chorea, psychiatric disturbance, and cognitive decline.
+        <strong>Amyotrophic lateral sclerosis (ALS)</strong> and <strong>frontotemporal dementia
+        (FTD)</strong> are best understood as one spectrum: TDP-43 proteinopathy with different
+        anatomical epicenters, motor or behavioral.
+      </p>
+      <p>
+        All four are age-related, all four involve misfolded proteins, and all four ultimately destroy
+        neurons through overlapping stress biology. What distinguishes them clinically — and
+        therapeutically — is summarized in the tempo chart below: a decades-long silent phase in AD and
+        PD, a genotype known from birth in HD, and an abruptly fast course in ALS.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure · Typical onset and disease tempo (population-level ranges)</span></div>
+        <div class="copy-host">
+        <svg id="tempoSvg" viewBox="0 0 980 372" role="img" aria-label="Horizontal chart of prodromal phase and symptomatic course by age for Alzheimer's, Parkinson's, Huntington's and ALS">
+          <!-- legend -->
+          <rect x="90" y="10" width="26" height="14" fill="rgba(46,74,93,0.18)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="122" y="21" font-size="11.5" fill="#6d665b">prodromal / preclinical phase</text>
+          <rect x="310" y="10" width="26" height="14" fill="#2e4a5d"/>
+          <text x="342" y="21" font-size="11.5" fill="#6d665b">symptomatic course</text>
+          <rect x="500" y="10" width="26" height="14" fill="rgba(154,116,48,0.12)" stroke="#9a7430" stroke-dasharray="4 3"/>
+          <text x="532" y="21" font-size="11.5" fill="#6d665b">genotype known from birth (HD)</text>
+          <!-- decade gridlines -->
+          <line x1="90" y1="40" x2="90" y2="316" stroke="#d3c9b6"/>
+          <line x1="213" y1="40" x2="213" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="336" y1="40" x2="336" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="459" y1="40" x2="459" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="581" y1="40" x2="581" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="704" y1="40" x2="704" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="827" y1="40" x2="827" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="950" y1="40" x2="950" y2="316" stroke="#d3c9b6"/>
+          <!-- axis -->
+          <line x1="90" y1="316" x2="950" y2="316" stroke="#d3c9b6" stroke-width="1.4"/>
+          <text x="90" y="334" text-anchor="middle" font-size="11" fill="#8d8578">20</text>
+          <text x="213" y="334" text-anchor="middle" font-size="11" fill="#8d8578">30</text>
+          <text x="336" y="334" text-anchor="middle" font-size="11" fill="#8d8578">40</text>
+          <text x="459" y="334" text-anchor="middle" font-size="11" fill="#8d8578">50</text>
+          <text x="581" y="334" text-anchor="middle" font-size="11" fill="#8d8578">60</text>
+          <text x="704" y="334" text-anchor="middle" font-size="11" fill="#8d8578">70</text>
+          <text x="827" y="334" text-anchor="middle" font-size="11" fill="#8d8578">80</text>
+          <text x="950" y="334" text-anchor="middle" font-size="11" fill="#8d8578">90</text>
+          <text x="520" y="358" text-anchor="middle" font-size="12" fill="#6d665b">Age (years) →</text>
+
+          <!-- AD row -->
+          <text x="82" y="77" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">Alzheimer's</text>
+          <rect x="397" y="56" width="246" height="34" fill="rgba(46,74,93,0.18)" stroke="rgba(46,74,93,0.45)"/>
+          <rect x="643" y="56" width="160" height="34" fill="#2e4a5d"/>
+          <text x="723" y="77" text-anchor="middle" font-size="11" font-weight="600" fill="#fbf8f1">onset ≈65</text>
+          <text x="90" y="106" font-size="11" fill="#6d665b">preclinical amyloid phase ≈20 y · symptomatic decline ≈8–12 y</text>
+
+          <!-- PD row -->
+          <text x="82" y="139" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">Parkinson's</text>
+          <rect x="397" y="118" width="209" height="34" fill="rgba(122,49,44,0.18)" stroke="rgba(122,49,44,0.45)"/>
+          <rect x="606" y="118" width="197" height="34" fill="#7a312c"/>
+          <text x="704" y="139" text-anchor="middle" font-size="11" font-weight="600" fill="#fbf8f1">onset ≈60</text>
+          <text x="90" y="168" font-size="11" fill="#6d665b">decade-plus prodrome (REM-sleep behaviour disorder, anosmia) · survival ≈10–20 y</text>
+
+          <!-- HD row -->
+          <text x="82" y="201" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">Huntington's</text>
+          <rect x="90" y="180" width="246" height="34" fill="rgba(154,116,48,0.12)" stroke="#9a7430" stroke-dasharray="4 3"/>
+          <rect x="336" y="180" width="221" height="34" fill="#9a7430"/>
+          <text x="446" y="201" text-anchor="middle" font-size="11" font-weight="600" fill="#fbf8f1">onset 30–50</text>
+          <text x="90" y="230" font-size="11" fill="#6d665b">CAG genotype predictive at birth · course 15–20 y · anticipation with paternal transmission</text>
+
+          <!-- ALS row -->
+          <text x="82" y="263" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">ALS</text>
+          <rect x="557" y="242" width="62" height="34" fill="#345443"/>
+          <text x="90" y="292" font-size="11" fill="#6d665b">median survival 2–5 y from diagnosis — the fastest of the four · FTD shares the TDP-43 pathology with a slower, behavioural course</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>The four diseases occupy different windows of the lifespan.</strong> Bars are
+          population-typical ranges; individual variation is wide. HD is drawn with a dashed
+          "genotype-known" band because the mutation is detectable from birth decades before onset.
+          The tempo difference matters therapeutically: long prodromes create a biomarker window
+          (amyloid PET, α-syn seed amplification, NfL), while ALS's speed compresses trial timelines
+          and makes functional endpoints unforgiving.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="mechanisms">
+      <p class="sec-label">Shared mechanisms</p>
+      <h2>The convergent matrix: five failure modes, weighted differently</h2>
+      <p>
+        Across the knowledge base's notes, four mechanistic themes recur in every disease, with a fifth
+        — cellular senescence — acting as the aging bridge. Each disease carries its own weighting of
+        these axes, which is why no single "anti-neurodegeneration" therapy exists.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure · Convergence map — five shared failure modes feeding neuronal loss</span></div>
+        <div class="copy-host">
+        <svg id="convergeSvg" viewBox="0 0 980 646" role="img" aria-label="Ring diagram of five shared mechanisms around neuronal loss with disease-dominance chips">
+          <!-- connectors -->
+          <line x1="490" y1="120" x2="490" y2="200" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="318" y1="248" x2="382" y2="294" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="662" y1="248" x2="598" y2="294" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="216" y1="500" x2="392" y2="384" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="764" y1="500" x2="588" y2="384" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <!-- center -->
+          <circle cx="490" cy="316" r="118" fill="rgba(122,49,44,0.08)" stroke="#7a312c" stroke-width="1.5"/>
+          <text x="490" y="304" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1915">Neuronal loss</text>
+          <text x="490" y="326" text-anchor="middle" font-size="11.5" fill="#6d665b">shared endpoint,</text>
+          <text x="490" y="342" text-anchor="middle" font-size="11.5" fill="#6d665b">distinct clinical syndromes</text>
+
+          <!-- top: proteostasis -->
+          <rect x="338" y="16" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="354" y="40" font-size="13.5" font-weight="700" fill="#1c1915">Proteostasis collapse</text>
+          <text x="354" y="60" font-size="11.5" fill="#6d665b">Misfolded protein burden exceeds</text>
+          <text x="354" y="76" font-size="11.5" fill="#6d665b">autophagy–lysosome and proteasome clearance</text>
+          <rect x="354" y="88" width="42" height="18" rx="9" fill="#2e4a5d"/><text x="375" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">AD</text>
+          <rect x="404" y="88" width="42" height="18" rx="9" fill="#7a312c"/><text x="425" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="454" y="88" width="42" height="18" rx="9" fill="#9a7430"/><text x="475" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">HD</text>
+          <rect x="504" y="88" width="42" height="18" rx="9" fill="#345443"/><text x="525" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">ALS</text>
+
+          <!-- left: mitochondria -->
+          <rect x="14" y="196" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="30" y="220" font-size="13.5" font-weight="700" fill="#1c1915">Mitochondrial dysfunction</text>
+          <text x="30" y="240" font-size="11.5" fill="#6d665b">Complex I loss, impaired PINK1/Parkin</text>
+          <text x="30" y="256" font-size="11.5" fill="#6d665b">mitophagy, fission–fusion imbalance</text>
+          <rect x="30" y="268" width="42" height="18" rx="9" fill="none" stroke="#2e4a5d"/><text x="51" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#2e4a5d">AD</text>
+          <rect x="80" y="268" width="42" height="18" rx="9" fill="#7a312c"/><text x="101" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="130" y="268" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="151" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="180" y="268" width="42" height="18" rx="9" fill="none" stroke="#345443"/><text x="201" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#345443">ALS</text>
+
+          <!-- right: oxidative -->
+          <rect x="662" y="196" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="678" y="220" font-size="13.5" font-weight="700" fill="#1c1915">Oxidative &amp; nitrative stress</text>
+          <text x="678" y="240" font-size="11.5" fill="#6d665b">Fenton chemistry, dopamine autoxidation,</text>
+          <text x="678" y="256" font-size="11.5" fill="#6d665b">peroxynitrite, lipid peroxidation (4-HNE, MDA)</text>
+          <rect x="678" y="268" width="42" height="18" rx="9" fill="#2e4a5d"/><text x="699" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">AD</text>
+          <rect x="728" y="268" width="42" height="18" rx="9" fill="#7a312c"/><text x="749" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="778" y="268" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="799" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="828" y="268" width="42" height="18" rx="9" fill="none" stroke="#345443"/><text x="849" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#345443">ALS</text>
+
+          <!-- bottom-left: neuroinflammation -->
+          <rect x="64" y="500" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="80" y="524" font-size="13.5" font-weight="700" fill="#1c1915">Neuroinflammation &amp; cGAS–STING</text>
+          <text x="80" y="544" font-size="11.5" fill="#6d665b">Microglial ROS / NO; cytosolic mtDNA engages</text>
+          <text x="80" y="560" font-size="11.5" fill="#6d665b">cGAS–STING → type-I interferon signalling</text>
+          <rect x="80" y="572" width="42" height="18" rx="9" fill="#2e4a5d"/><text x="101" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">AD</text>
+          <rect x="130" y="572" width="42" height="18" rx="9" fill="none" stroke="#7a312c"/><text x="151" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#7a312c">PD</text>
+          <rect x="180" y="572" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="201" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="230" y="572" width="42" height="18" rx="9" fill="#345443"/><text x="251" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">ALS</text>
+
+          <!-- bottom-right: senescence -->
+          <rect x="612" y="500" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="628" y="524" font-size="13.5" font-weight="700" fill="#1c1915">Senescence &amp; SASP (inflammaging)</text>
+          <text x="628" y="544" font-size="11.5" fill="#6d665b">Aging glia secrete IL-6 / IL-1β; senescence</text>
+          <text x="628" y="560" font-size="11.5" fill="#6d665b">feeds forward into proteinopathy and inflammation</text>
+          <rect x="628" y="572" width="42" height="18" rx="9" fill="none" stroke="#2e4a5d"/><text x="649" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#2e4a5d">AD</text>
+          <rect x="678" y="572" width="42" height="18" rx="9" fill="#7a312c"/><text x="699" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="728" y="572" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="749" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="778" y="572" width="42" height="18" rx="9" fill="none" stroke="#345443"/><text x="799" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#345443">ALS</text>
+
+          <text x="490" y="636" text-anchor="middle" font-size="11" fill="#8d8578">filled chip = dominant driver · outlined chip = contributing context (weightings per the knowledge base's notes)</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>All four diseases converge on neuronal loss through the same five failure modes, but
+          with different dominant drivers.</strong> PD is the chemistry-dominant disease (dopamine
+          autoxidation plus Complex I deficit); AD and the ALS–FTD spectrum are the immune-innate
+          axis diseases (cGAS–STING organises their cluster in the wiki graph); HD is the
+          metabolism/epigenetics disease (SIRT1 community). Senescence acts as the aging bridge in all
+          four.
+        </figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Shared mechanism</th>
+              <th>Alzheimer's</th>
+              <th>Parkinson's</th>
+              <th>Huntington's</th>
+              <th>ALS / FTD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Proteostasis collapse</strong> — misfolded protein vs. autophagy–lysosome and ubiquitin–proteasome clearance; TFEB is the shared transcriptional lever</td>
+              <td>Aβ plaques + tau tangles</td>
+              <td>α-synuclein (Lewy bodies)</td>
+              <td>mutant huntingtin inclusions</td>
+              <td>TDP-43, SOD1 aggregates</td>
+            </tr>
+            <tr>
+              <td><strong>Mitochondrial dysfunction</strong> — Complex I loss, impaired mitophagy, fission–fusion imbalance (DRP1/MFN)</td>
+              <td>Aβ–mitochondria interaction</td>
+              <td>Complex I deficit 30–40% in SNpc; all five PD genes mitochondrial</td>
+              <td>mHTT suppresses PGC-1α</td>
+              <td>SOD1 / TDP-43 mitochondrial impairment</td>
+            </tr>
+            <tr>
+              <td><strong>Oxidative &amp; nitrative stress</strong> — Fenton chemistry, autoxidation, peroxynitrite, lipid peroxidation, ferroptosis</td>
+              <td>Aβ–metal redox cycling; PP2A oxidation</td>
+              <td>dopamine autoxidation; neuromelanin iron; nitrated α-syn</td>
+              <td>ferroptosis linkage</td>
+              <td>NOX2, peroxynitrite, 4-HNE</td>
+            </tr>
+            <tr>
+              <td><strong>Neuroinflammation &amp; innate immunity</strong> — microglial ROS/NO, reactive astrocytes, cGAS–STING → type-I interferon</td>
+              <td>Aβ-activated microglia; tau–microglia axis</td>
+              <td>TLR2/TLR4 α-syn sensing; SASP-driven</td>
+              <td>contributory</td>
+              <td>dominant glial contribution (C9orf72, TDP-43)</td>
+            </tr>
+            <tr>
+              <td><strong>Senescence &amp; SASP</strong> — aging glia, inflammaging, epigenetic drift</td>
+              <td>epigenetic-age acceleration documented</td>
+              <td>circulating SASP signature distinguishes patients</td>
+              <td>contributory</td>
+              <td>aging is the main sporadic risk factor</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note gold">
+        <h4>The graph's independent verdict</h4>
+        <p>
+          In the wiki graph, PD sits in one community with α-synuclein, neuromelanin and the
+          catecholamine-oxidation machinery, while AD, tau, tauopathy, TDP-43, C9orf72 and FTD cluster
+          together in a community literally named <strong>cGAS–STING Pathway</strong>. ALS falls in the
+          "Inflammation" community and HD in the "SIRT1" community. Community detection on the vault's
+          own links recovered the modern mechanistic taxonomy without being told to.
+        </p>
+      </div>
+    </section>
+
+    <section id="diseases">
+      <p class="sec-label">Disease profiles</p>
+      <h2>What drives each disease</h2>
+      <p>
+        The grid below compresses each disease's core mechanism into its strongest wiki-grounded
+        causal chain; the profiles that follow add the clinical and therapeutic detail.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure · Mechanism maps — the causal spine of each disease</span></div>
+        <div class="copy-host">
+        <svg id="mechGridSvg" viewBox="0 0 980 700" role="img" aria-label="Two-by-two grid of mechanism maps for Alzheimer's, Parkinson's, Huntington's and ALS">
+          <defs>
+            <marker id="arrM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(109,102,91,0.75)"/></marker>
+          </defs>
+
+          <!-- AD quadrant -->
+          <rect x="20" y="16" width="465" height="320" rx="10" fill="rgba(46,74,93,0.06)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="38" y="46" font-size="14.5" font-weight="700" fill="#2e4a5d">Alzheimer's disease</text>
+          <text x="38" y="66" font-size="11.5" fill="#6d665b">amyloid-β + tau (± TDP-43 / LATE co-pathology)</text>
+          <rect x="38" y="84" width="210" height="46" rx="8" fill="#fbf8f1" stroke="rgba(46,74,93,0.6)"/>
+          <text x="143" y="103" text-anchor="middle" font-size="11" fill="#1c1915">Aβ₁₋₄₂ binds Cu²⁺ / Fe³⁺</text>
+          <text x="143" y="119" text-anchor="middle" font-size="11" fill="#1c1915">(histidines 6, 13, 14)</text>
+          <rect x="38" y="168" width="210" height="46" rx="8" fill="#fbf8f1" stroke="rgba(46,74,93,0.6)"/>
+          <text x="143" y="187" text-anchor="middle" font-size="11" fill="#1c1915">Fenton chemistry → H₂O₂,</text>
+          <text x="143" y="203" text-anchor="middle" font-size="11" fill="#1c1915">superoxide, hydroxyl radicals</text>
+          <rect x="300" y="120" width="168" height="54" rx="8" fill="rgba(46,74,93,0.16)" stroke="#2e4a5d"/>
+          <text x="384" y="140" text-anchor="middle" font-size="11" fill="#1c1915">PP2A oxidised → tau</text>
+          <text x="384" y="155" text-anchor="middle" font-size="11" fill="#1c1915">hyperphosphorylation → tangles</text>
+          <rect x="300" y="214" width="168" height="46" rx="8" fill="#fbf8f1" stroke="rgba(46,74,93,0.6)"/>
+          <text x="384" y="233" text-anchor="middle" font-size="11" fill="#1c1915">lipid peroxidation</text>
+          <text x="384" y="249" text-anchor="middle" font-size="11" fill="#1c1915">(4-HNE, MDA)</text>
+          <line x1="143" y1="130" x2="143" y2="168" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="248" y1="180" x2="300" y2="156" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="248" y1="198" x2="300" y2="228" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <text x="38" y="290" font-size="10.5" font-style="italic" fill="#8d8578">Aβ is extracellular → antibody-accessible; tau is intracellular → ASO / immunotherapy trials.</text>
+          <text x="38" y="306" font-size="10.5" font-style="italic" fill="#8d8578">Oxidised tau seeds propagate trans-synaptically (prion-like) over ≈20 subclinical years.</text>
+
+          <!-- PD quadrant -->
+          <rect x="495" y="16" width="465" height="320" rx="10" fill="rgba(122,49,44,0.06)" stroke="rgba(122,49,44,0.5)"/>
+          <text x="513" y="46" font-size="14.5" font-weight="700" fill="#7a312c">Parkinson's disease</text>
+          <text x="513" y="66" font-size="11.5" fill="#6d665b">α-synuclein (Lewy bodies) · neuromelanin-rich SNpc neurons</text>
+          <rect x="513" y="84" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(122,49,44,0.6)"/>
+          <text x="613" y="103" text-anchor="middle" font-size="11" fill="#1c1915">dopamine autoxidation →</text>
+          <text x="613" y="119" text-anchor="middle" font-size="11" fill="#1c1915">quinones adduct α-syn Cys</text>
+          <rect x="513" y="168" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(122,49,44,0.6)"/>
+          <text x="613" y="187" text-anchor="middle" font-size="11" fill="#1c1915">Complex I deficit 30–40%</text>
+          <text x="613" y="203" text-anchor="middle" font-size="11" fill="#1c1915">(MPTP / rotenone model)</text>
+          <rect x="740" y="168" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(122,49,44,0.6)"/>
+          <text x="840" y="187" text-anchor="middle" font-size="11" fill="#1c1915">microglia NO + O₂⁻ →</text>
+          <text x="840" y="203" text-anchor="middle" font-size="11" fill="#1c1915">peroxynitrite (ONOO⁻)</text>
+          <rect x="740" y="84" width="200" height="46" rx="8" fill="rgba(122,49,44,0.16)" stroke="#7a312c"/>
+          <text x="840" y="103" text-anchor="middle" font-size="11" fill="#1c1915">nitrated α-syn</text>
+          <text x="840" y="119" text-anchor="middle" font-size="11" fill="#1c1915">→ Lewy bodies</text>
+          <line x1="713" y1="107" x2="740" y2="107" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="840" y1="168" x2="840" y2="130" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <!-- neuromelanin threshold mini-curve -->
+          <line x1="513" y1="240" x2="513" y2="300" stroke="#d3c9b6"/>
+          <line x1="513" y1="300" x2="713" y2="300" stroke="#d3c9b6"/>
+          <path d="M513,252 C 570,252 610,256 640,262 C 668,268 692,286 712,296" fill="none" stroke="#7a312c" stroke-width="1.8"/>
+          <line x1="640" y1="244" x2="640" y2="300" stroke="#9a7430" stroke-dasharray="3 3"/>
+          <text x="646" y="252" font-size="9.5" fill="#9a7430">threshold</text>
+          <text x="519" y="252" font-size="9.5" fill="#8d8578">resilience</text>
+          <text x="613" y="314" text-anchor="middle" font-size="9.5" fill="#8d8578">intracellular neuromelanin burden (age) →</text>
+          <text x="513" y="330" font-size="10.5" font-style="italic" fill="#8d8578">Neuromelanin buffers toxins until a late-life ceiling; beyond it, proteostasis and lysosomes fail.</text>
+
+          <!-- HD quadrant -->
+          <rect x="20" y="356" width="465" height="320" rx="10" fill="rgba(154,116,48,0.07)" stroke="rgba(154,116,48,0.5)"/>
+          <text x="38" y="386" font-size="14.5" font-weight="700" fill="#9a7430">Huntington's disease</text>
+          <text x="38" y="406" font-size="11.5" fill="#6d665b">mutant huntingtin (polyQ expansion) · deterministic</text>
+          <rect x="38" y="424" width="210" height="46" rx="8" fill="#fbf8f1" stroke="rgba(154,116,48,0.7)"/>
+          <text x="143" y="443" text-anchor="middle" font-size="11" fill="#1c1915">CAG &gt; 36 · HTT exon 1</text>
+          <text x="143" y="459" text-anchor="middle" font-size="11" fill="#1c1915">→ mHTT toxic gain of function</text>
+          <rect x="280" y="424" width="185" height="46" rx="8" fill="rgba(154,116,48,0.18)" stroke="#9a7430" stroke-width="1.8"/>
+          <text x="372" y="443" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">striatal medium-spiny-</text>
+          <text x="372" y="459" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">neuron degeneration</text>
+          <rect x="38" y="508" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(154,116,48,0.6)"/>
+          <text x="138" y="527" text-anchor="middle" font-size="11" fill="#1c1915">proteostasis overload:</text>
+          <text x="138" y="543" text-anchor="middle" font-size="11" fill="#1c1915">autophagy / TFEB, UPS</text>
+          <rect x="280" y="508" width="185" height="46" rx="8" fill="#fbf8f1" stroke="rgba(154,116,48,0.6)"/>
+          <text x="372" y="527" text-anchor="middle" font-size="11" fill="#1c1915">CRTC1–CREB → BDNF</text>
+          <text x="372" y="543" text-anchor="middle" font-size="11" fill="#1c1915">cortico-striatal support ↓</text>
+          <line x1="248" y1="447" x2="280" y2="447" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="143" y1="470" x2="143" y2="508" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="238" y1="520" x2="292" y2="474" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="372" y1="508" x2="372" y2="470" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <text x="38" y="590" font-size="10.5" font-style="italic" fill="#8d8578">SIRT1 protective (CRTC1–CREB–BDNF rescue) · SIRT2 harmful; AMT-130 (AAV-miRNA) silences HTT†.</text>
+          <text x="38" y="606" font-size="10.5" font-style="italic" fill="#8d8578">Chorea, psychiatric disturbance and cognitive decline; the genotype fully predicts disease.</text>
+
+          <!-- ALS quadrant -->
+          <rect x="495" y="356" width="465" height="320" rx="10" fill="rgba(52,84,67,0.07)" stroke="rgba(52,84,67,0.5)"/>
+          <text x="513" y="386" font-size="14.5" font-weight="700" fill="#345443">ALS / FTD spectrum</text>
+          <text x="513" y="406" font-size="11.5" fill="#6d665b">TDP-43 proteinopathy in ≈97% of ALS and ≈45% of FTD</text>
+          <rect x="513" y="424" width="215" height="54" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.7)"/>
+          <text x="620" y="443" text-anchor="middle" font-size="11" fill="#1c1915">TDP-43 mislocalisation →</text>
+          <text x="620" y="459" text-anchor="middle" font-size="11" fill="#1c1915">cryptic exons: STMN2, UNC13A</text>
+          <rect x="745" y="424" width="195" height="46" rx="8" fill="rgba(52,84,67,0.18)" stroke="#345443" stroke-width="1.8"/>
+          <text x="842" y="443" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">axonal collapse</text>
+          <text x="842" y="459" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">(SARM1 NADase)</text>
+          <rect x="513" y="508" width="215" height="46" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.6)"/>
+          <text x="620" y="527" text-anchor="middle" font-size="11" fill="#1c1915">C9orf72: RNA foci +</text>
+          <text x="620" y="543" text-anchor="middle" font-size="11" fill="#1c1915">dipeptide-repeat proteins</text>
+          <rect x="513" y="566" width="215" height="46" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.6)"/>
+          <text x="620" y="585" text-anchor="middle" font-size="11" fill="#1c1915">EAAT2 loss → excitotoxic</text>
+          <text x="620" y="601" text-anchor="middle" font-size="11" fill="#1c1915">Ca²⁺ overload (motor neurons)</text>
+          <rect x="745" y="508" width="195" height="46" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.6)"/>
+          <text x="842" y="527" text-anchor="middle" font-size="11" fill="#1c1915">mtDNA rupture →</text>
+          <text x="842" y="543" text-anchor="middle" font-size="11" fill="#1c1915">cGAS–STING</text>
+          <line x1="620" y1="508" x2="620" y2="478" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="728" y1="447" x2="745" y2="447" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="842" y1="508" x2="842" y2="470" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="728" y1="578" x2="772" y2="474" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <text x="513" y="640" font-size="10.5" font-style="italic" fill="#8d8578">SOD1 toxic gain of function in a familial subset; ALS and FTD form one clinicopathological continuum.</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>Each disease has a different causal spine, but every spine terminates in the same
+          place.</strong> AD runs through an amyloid–metal redox engine into tau; PD through three
+          converging oxidative inputs into α-synuclein aggregation; HD through a single repeat
+          expansion into transcriptional and proteostatic failure of striatal neurons; ALS through
+          RNA-binding proteostasis failure into axonal collapse. Derived from the knowledge base's
+          Neurodegeneration, Alzheimer's, Parkinson's, Huntington's, TDP-43 and C9orf72 notes.
+        </figcaption>
+      </figure>
+
+      <h3>Alzheimer's disease — the amyloid/tau (± TDP-43) dementia</h3>
+      <p>
+        AD begins in the medial temporal lobe and spreads limbic-to-association-cortex across roughly
+        two decades of preclinical biomarker positivity. The wiki's redox account is distinctive: Aβ
+        binds redox-active copper and iron, catalyses Fenton chemistry, and the resulting H₂O₂
+        oxidatively inactivates PP2A — the principal tau phosphatase — locking tau into its
+        hyperphosphorylated, seed-competent state. Epigenetic drift (global hypomethylation, histone
+        deacetylation, miRNA dysregulation) and sirtuin biology (SIRT1/SIRT3 protective, SIRT2 harmful)
+        modulate the trajectory. TDP-43 proteinopathy of aging (LATE) is now recognised as a common
+        co-pathology that mimics or compounds AD and predicts poorer anti-amyloid response†.
+      </p>
+      <p>
+        <strong>Status 2025–2026†:</strong> lecanemab (traditional FDA approval 2023; maintenance and
+        subcutaneous dosing 2025) and donanemab (2024; ≈35% slowing on iADRS at 76 weeks) are approved
+        for early symptomatic AD with confirmed amyloid; both carry ARIA risk, highest in APOE ε4
+        homozygotes. Plasma p-tau217 assays received FDA clearance in 2025, shifting diagnosis toward
+        blood-based staging; anti-tau immunotherapies and MAPT-ASOs (e.g. diranersen) are in
+        mid-stage trials.
+      </p>
+
+      <h3>Parkinson's disease — the self-poisoning dopamine neuron</h3>
+      <p>
+        PD selectively kills the neuromelanin-laden dopaminergic neurons of the substantia nigra pars
+        compacta. The wiki's synthesis identifies three intersecting mechanisms: dopamine's intrinsic
+        autoxidation to quinones that covalently modify α-synuclein; a 30–40% Complex I deficit
+        (pharmacologically reproduced by MPTP and rotenone); and microglial peroxynitrite that nitrates
+        α-synuclein, accelerating Lewy body formation. The <em>pathogenic threshold of neuromelanin</em>
+        model explains the selectivity: the pigment buffers catechols and metals beneficially until a
+        late-life ceiling, beyond which lysosomal and proteostatic capacity fail. A circulating SASP
+        signature distinguishes PD patients, placing PD within senescence-associated neurodegeneration.
+      </p>
+      <p>
+        <strong>Status 2025–2026†:</strong> no disease-modifying therapy is approved. The pipeline is
+        the broadest in neurology: prasinezumab (anti-α-synuclein) entered Phase 3 (PARAISO, ≈900
+        participants, late 2025) after Phase 2 slowing in biomarker-defined rapid progressors;
+        ambroxol (GCase chaperone) is in Phase 3 (ASPro-PD, GBA1-enriched); brain-penetrant LRRK2
+        inhibitors advance with GPNMB as a lysosomal-stress pharmacodynamic marker; the α-synuclein
+        seed amplification assay is qualified for trial enrichment. Dopaminergic replacement
+        (levodopa, COMT and MAO-B inhibitors, deep-brain stimulation) remains symptomatic.
+      </p>
+
+      <h3>Huntington's disease — the deterministic repeat expansion</h3>
+      <p>
+        A CAG expansion beyond 36 repeats in exon 1 of <em>HTT</em> produces mutant huntingtin with a
+        toxic gain of function; the genotype fully predicts disease, with onset inversely tracking
+        repeat length. Striatal medium-spiny neurons of the indirect pathway degenerate first, driven
+        by proteostatic overload (autophagy is the principal clearance route; TFEB/PGC-1α activation is
+        protective) and by disruption of the CRTC1–CREB axis that supplies trophic BDNF from cortex to
+        striatum. In the wiki's sirtuin layer, SIRT1 is strongly protective — brain-specific knockout
+        worsens the phenotype — while SIRT2 inhibition is neuroprotective.
+      </p>
+      <p>
+        <strong>Status 2025–2026†:</strong> September 2025 brought the first positive disease-modifying
+        pivotal result in HD: AMT-130, a one-time AAV5-microRNA therapy infused into the striatum,
+        slowed decline on the composite cUHDRS by 75% at 36 months against a propensity-matched
+        external control, with CSF neurofilament light below baseline. A biologics licence application
+        was targeted for Q1 2026. Caveats: a small treated sample and an external-control comparison.
+        Tominersen (HTT ASO) continues in a restricted trial after its Phase 3 failure; VMAT2
+        inhibitors remain the symptomatic standard for chorea.
+      </p>
+
+      <h3>ALS and the ALS–FTD spectrum — RNA-binding proteostasis failure</h3>
+      <p>
+        TDP-43, a nuclear RNA-binding protein, mislocalises to the cytoplasm in ≈97% of ALS and ≈45% of
+        FTD, releasing cryptic exons in transcripts such as <em>STMN2</em> and <em>UNC13A</em> that
+        destabilise axons and synaptic transmission. C9orf72 repeat expansions — the most common
+        genetic cause — add toxic RNA foci and dipeptide-repeat proteins on top of haploinsufficiency of
+        a protein that itself regulates autophagy. Motor-neuron selectivity reflects local chemistry:
+        weak astrocytic EAAT2 glutamate clearance permits excitotoxic calcium overload (NOX2, calpain),
+        and SARM1-mediated NAD⁺ depletion executes axon destruction. Mitochondrial rupture engages
+        cGAS–STING, making innate immunity a therapeutic axis.
+      </p>
+      <p>
+        <strong>Status 2025–2026†:</strong> four FDA-approved drugs exist — riluzole (1995), edaravone
+        (2017), sodium phenylbutyrate/taurursodiol (withdrawn April 2024 after Phase 3 failure), and
+        tofersen (2023), the first precision neurodegenerative therapy: an intrathecal SOD1-ASO
+        approved on biomarker grounds (plasma NfL −55%) and now tested presymptomatically in the ATLAS
+        trial. The ASO wave extends to C9orf72 (allele-selective WVE-004), FUS (ION363), and —
+        applicable in principle to ≈97% of ALS — ATXN2 and UNC13A targeting; masitinib entered a
+        confirmatory Phase 3 in 2025. Plasma NfL is the field's validated pharmacodynamic surrogate.
+      </p>
+    </section>
+
+    <section id="propagation">
+      <p class="sec-label">Propagation</p>
+      <h2>Routes of spread: templated misfolding along anatomical circuits</h2>
+      <p>
+        Each disease propagates its misfolded protein in a prion-like manner, but along different
+        anatomical rails — a property first systematised by Braak staging and now mechanistically
+        supported by seeding assays. The route determines the symptom sequence; the tempo determines
+        how quickly it unfolds.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure · Spread topology — anatomical stage chains</span></div>
+        <div class="copy-host">
+        <svg id="spreadSvg" viewBox="0 0 980 452" role="img" aria-label="Stage chains of anatomical propagation for each disease">
+          <defs>
+            <marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(109,102,91,0.75)"/></marker>
+          </defs>
+
+          <!-- AD row -->
+          <text x="82" y="55" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">Alzheimer's</text>
+          <rect x="98" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.12)" stroke="rgba(46,74,93,0.6)"/>
+          <text x="188" y="55" text-anchor="middle" font-size="11.5" fill="#1c1915">Entorhinal cortex</text>
+          <rect x="306" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.12)" stroke="rgba(46,74,93,0.6)"/>
+          <text x="396" y="47" text-anchor="middle" font-size="11.5" fill="#1c1915">Hippocampus /</text>
+          <text x="396" y="63" text-anchor="middle" font-size="11.5" fill="#1c1915">medial temporal</text>
+          <rect x="514" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.12)" stroke="rgba(46,74,93,0.6)"/>
+          <text x="604" y="55" text-anchor="middle" font-size="11.5" fill="#1c1915">Limbic system</text>
+          <rect x="722" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.28)" stroke="#2e4a5d"/>
+          <text x="812" y="55" text-anchor="middle" font-size="11.5" fill="#1c1915">Association neocortex</text>
+          <line x1="278" y1="51" x2="306" y2="51" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="486" y1="51" x2="514" y2="51" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="694" y1="51" x2="722" y2="51" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="96" font-size="10.5" fill="#8d8578">≈20 y subclinical phase; tau seeds spread trans-synaptically over decades</text>
+
+          <!-- PD row -->
+          <text x="82" y="161" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">Parkinson's</text>
+          <rect x="98" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="170" y="153" text-anchor="middle" font-size="10.5" fill="#1c1915">Dorsal motor vagus /</text>
+          <text x="170" y="169" text-anchor="middle" font-size="10.5" fill="#1c1915">olfactory bulb</text>
+          <rect x="271" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="343" y="161" text-anchor="middle" font-size="10.5" fill="#1c1915">Locus coeruleus</text>
+          <rect x="444" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.28)" stroke="#7a312c"/>
+          <text x="516" y="161" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1c1915">Substantia nigra</text>
+          <rect x="617" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="689" y="161" text-anchor="middle" font-size="10.5" fill="#1c1915">Limbic system</text>
+          <rect x="790" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="862" y="161" text-anchor="middle" font-size="10.5" fill="#1c1915">Neocortex</text>
+          <line x1="243" y1="157" x2="271" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="416" y1="157" x2="444" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="589" y1="157" x2="617" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="762" y1="157" x2="790" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="202" font-size="10.5" fill="#8d8578">Braak caudal-to-rostral sequence; gut and olfactory entry hypotheses; prodrome spans a decade or more</text>
+
+          <!-- HD row -->
+          <text x="82" y="267" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">Huntington's</text>
+          <rect x="98" y="238" width="260" height="50" rx="8" fill="rgba(154,116,48,0.28)" stroke="#9a7430"/>
+          <text x="228" y="259" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1c1915">Striatum — caudate &amp; putamen</text>
+          <text x="228" y="275" text-anchor="middle" font-size="10.5" fill="#1c1915">(medium spiny neurons, indirect pathway)</text>
+          <rect x="386" y="238" width="260" height="50" rx="8" fill="rgba(154,116,48,0.12)" stroke="rgba(154,116,48,0.6)"/>
+          <text x="516" y="267" text-anchor="middle" font-size="11.5" fill="#1c1915">Diffuse cortical involvement (late)</text>
+          <line x1="358" y1="263" x2="386" y2="263" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="308" font-size="10.5" fill="#8d8578">striatum-centric degeneration; cortical spread follows; motor, psychiatric and cognitive signs evolve together</text>
+
+          <!-- ALS row -->
+          <text x="82" y="373" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">ALS / FTD</text>
+          <rect x="98" y="344" width="180" height="50" rx="8" fill="rgba(52,84,67,0.12)" stroke="rgba(52,84,67,0.6)"/>
+          <text x="188" y="373" text-anchor="middle" font-size="11.5" fill="#1c1915">Motor cortex</text>
+          <rect x="306" y="344" width="180" height="50" rx="8" fill="rgba(52,84,67,0.12)" stroke="rgba(52,84,67,0.6)"/>
+          <text x="396" y="373" text-anchor="middle" font-size="11.5" fill="#1c1915">Cranial motor nuclei</text>
+          <rect x="514" y="344" width="180" height="50" rx="8" fill="rgba(52,84,67,0.28)" stroke="#345443"/>
+          <text x="604" y="373" text-anchor="middle" font-size="11.5" fill="#1c1915">Spinal cord (anterior horn)</text>
+          <rect x="722" y="344" width="180" height="50" rx="8" fill="none" stroke="#345443" stroke-dasharray="4 3"/>
+          <text x="812" y="369" text-anchor="middle" font-size="11.5" fill="#1c1915">± FTD: frontal &amp;</text>
+          <text x="812" y="385" text-anchor="middle" font-size="11.5" fill="#1c1915">temporal lobes</text>
+          <line x1="278" y1="369" x2="306" y2="369" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="486" y1="369" x2="514" y2="369" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="694" y1="369" x2="722" y2="369" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="414" font-size="10.5" fill="#8d8578">fastest course of the four; the same TDP-43 pathology produces behavioural-variant FTD when it stays frontotemporal</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>Different rails, same mechanism.</strong> In AD and PD, pathology ascends
+          anatomically connected circuits (Braak staging); in HD it is seeded genetically in the
+          striatum; in ALS it follows the corticospinal axis with an FTD exit. Shaded boxes mark the
+          clinically dominant epicentre of each disease.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="comparison">
+      <p class="sec-label">Comparison</p>
+      <h2>Head-to-head</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:15%">Dimension</th>
+              <th style="width:21%">Alzheimer's</th>
+              <th style="width:21%">Parkinson's</th>
+              <th style="width:21%">Huntington's</th>
+              <th style="width:22%">ALS / FTD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Core proteinopathy</strong></td>
+              <td>amyloid-β (extracellular) + tau (intracellular); TDP-43 (LATE) and Lewy co-pathology in subsets</td>
+              <td>α-synuclein (Lewy bodies)</td>
+              <td>mutant huntingtin (polyQ) nuclear / inclusion pathology</td>
+              <td>TDP-43 (≈97% ALS, ≈45% FTD); SOD1, FUS, C9orf72 dipeptide repeats in subsets; tau in FTD-tau</td>
+            </tr>
+            <tr>
+              <td><strong>Primary trigger</strong></td>
+              <td>age-driven redundant proteinopathies; APOE ε4; metal–redox amplification</td>
+              <td>dopamine autoxidation + Complex I defect + neuromelanin threshold</td>
+              <td>deterministic CAG expansion (&gt;36) in <em>HTT</em></td>
+              <td>repeat expansions and RNA-binding proteostasis failure; mostly sporadic</td>
+            </tr>
+            <tr>
+              <td><strong>Heritability</strong></td>
+              <td>~1–5% Mendelian (PSEN1/2, APP); APOE ε4 a common risk allele</td>
+              <td>~5–10% monogenic (SNCA, LRRK2, GBA1, PRKN, PINK1, DJ-1); mostly sporadic</td>
+              <td>100% autosomal dominant</td>
+              <td>~10% familial; C9orf72 accounts for ~40% of familial ALS</td>
+            </tr>
+            <tr>
+              <td><strong>Vulnerable cell type</strong></td>
+              <td>hippocampal / entorhinal and association-cortex glutamatergic neurons</td>
+              <td>neuromelanin-rich dopaminergic neurons of the SNpc</td>
+              <td>striatal medium-spiny neurons (indirect pathway)</td>
+              <td>upper and lower motor neurons (ALS); frontal / temporal neurons (FTD)</td>
+            </tr>
+            <tr>
+              <td><strong>Why that cell</strong></td>
+              <td>Aβ–metal Fenton chemistry; PP2A oxidation → tau; synaptic-plasticity dependence</td>
+              <td>dopamine oxidation chemistry is unavoidable in dopamine neurons; neuromelanin threshold model</td>
+              <td>mHTT transcriptional dysregulation (CRTC1–CREB → BDNF), proteostasis, cortico-striatal glutamate</td>
+              <td>highest metabolic demand; weakest EAAT2 glutamate clearance → excitotoxicity; long axons / SARM1</td>
+            </tr>
+            <tr>
+              <td><strong>Spread topology</strong></td>
+              <td>trans-entorhinal → limbic → neocortical (Braak); tau prion-like</td>
+              <td>caudal brainstem → locus coeruleus → SNpc → limbic → cortex; gut / vagal entry hypotheses</td>
+              <td>striatum-centric; cortical spread late</td>
+              <td>motor cortex + spinal cord (ALS); frontal–temporal (FTD); TDP-43 across the spectrum</td>
+            </tr>
+            <tr>
+              <td><strong>Prodrome / tempo</strong></td>
+              <td>≈20 y silent amyloid phase; decline over decades</td>
+              <td>decade-plus prodrome (REM-sleep behaviour disorder, anosmia, constipation)</td>
+              <td>genotype known from birth; onset 30–50; course 15–20 y</td>
+              <td>abrupt onset; fastest of the four (median 2–5 y from diagnosis)</td>
+            </tr>
+            <tr>
+              <td><strong>Key biomarkers †</strong></td>
+              <td>amyloid / tau PET; CSF Aβ42/40 and p-tau181/Aβ42; plasma p-tau217 (FDA-cleared 2025)</td>
+              <td>α-synuclein seed amplification assay (qualification opinion 2024); DAT imaging; neuromelanin MRI; GPNMB</td>
+              <td>CAG genotype; CSF / plasma NfL; striatal volumetric MRI</td>
+              <td>plasma NfL (validated surrogate); genetics; STMN2 / UNC13A cryptic-exon assays (emerging)</td>
+            </tr>
+            <tr>
+              <td><strong>Approved disease-modifying †</strong></td>
+              <td>lecanemab (2023), donanemab (2024) — ≈25–35% slowing; ARIA risk</td>
+              <td><strong>none</strong></td>
+              <td><strong>none</strong> (AMT-130 BLA filed Q1 2026)</td>
+              <td>tofersen (2023, SOD1-ALS only, biomarker-based approval)</td>
+            </tr>
+            <tr>
+              <td><strong>Symptomatic standard</strong></td>
+              <td>cholinesterase inhibitors, memantine</td>
+              <td>levodopa/carbidopa, MAO-B and COMT inhibitors, dopamine agonists, DBS</td>
+              <td>VMAT2 inhibitors for chorea</td>
+              <td>riluzole, edaravone (sodium phenylbutyrate/taurursodiol withdrawn 2024)</td>
+            </tr>
+            <tr>
+              <td><strong>Late-stage pipeline †</strong></td>
+              <td>anti-tau immunotherapies and ASOs (incl. diranersen); biomarker-guided early treatment</td>
+              <td>prasinezumab Ph3 (PARAISO); ambroxol Ph3 (ASPro-PD); LRRK2 inhibitors; stem-cell approaches</td>
+              <td>AMT-130; tominersen (restricted); oral HTT-lowering programmes</td>
+              <td>C9orf72 / FUS / ATXN2 / UNC13A ASOs; masitinib Ph3; STMN2 restoration</td>
+            </tr>
+            <tr>
+              <td><strong>Emphasis in this knowledge base</strong></td>
+              <td>oxidative stress, epigenetics, sirtuins, autophagy</td>
+              <td>neuromelanin, adrenochrome / COMT, senescence / SASP</td>
+              <td>sirtuins (SIRT1), autophagy / TFEB</td>
+              <td>inflammation, cGAS–STING, oxidative stress</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:.85rem;color:var(--mute)">† 2024–2026 web-derived claims; see <a href="#sources">Sources</a>.</p>
+    </section>
+
+    <section id="vulnerability">
+      <p class="sec-label">Therapeutic logic</p>
+      <h2>Selective vulnerability and the rule that therapy follows target topology</h2>
+      <p>
+        The sharpest question in comparative neurodegeneration is why one neuron population dies while
+        its neighbours survive, given that the responsible protein is usually widely expressed. The
+        knowledge base's answer is local chemistry: <em>the protein is the tinder, and the cell's
+        local biochemistry is the spark</em>. Dopamine neurons are poisoned by the neurotransmitter
+        they carry; motor neurons are killed by their own excitatory drive once EAAT2-dependent
+        glutamate clearance fails; striatal spiny neurons die of a transcriptional and trophic
+        shortfall; hippocampal neurons succumb to the slow metal–redox/tau cascade seeded by Aβ.
+      </p>
+      <p>
+        Therapy succeeds only when the modality matches where the toxic species resides. Extracellular
+        aggregates are antibody-accessible; intracellular, genetically defined toxins require
+        nucleic-acid therapeutics; and where no dominant species exists, only shared-axis interventions
+        remain. The 2023–2026 record follows this rule precisely†.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure · Therapeutic logic — modality determined by target location</span></div>
+        <div class="copy-host">
+        <svg id="therapySvg" viewBox="0 0 980 470" role="img" aria-label="Decision tree mapping toxic-species location to therapeutic modality">
+          <defs>
+            <marker id="arrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(109,102,91,0.75)"/></marker>
+          </defs>
+          <rect x="340" y="14" width="300" height="46" rx="10" fill="#fbf8f1" stroke="rgba(28,25,21,0.45)"/>
+          <text x="490" y="42" text-anchor="middle" font-size="13" font-weight="600" fill="#1c1915">Where does the toxic species reside?</text>
+          <line x1="490" y1="60" x2="170" y2="106" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="490" y1="60" x2="490" y2="106" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="490" y1="60" x2="810" y2="106" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+
+          <rect x="30" y="108" width="280" height="48" rx="8" fill="rgba(46,74,93,0.10)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="170" y="137" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1915">Extracellular aggregates</text>
+          <rect x="350" y="108" width="280" height="48" rx="8" fill="rgba(46,74,93,0.10)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="490" y="137" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1915">Intracellular &amp; monogenic</text>
+          <rect x="670" y="108" width="280" height="48" rx="8" fill="rgba(46,74,93,0.10)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="810" y="137" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1915">No dominant species</text>
+
+          <line x1="170" y1="156" x2="170" y2="184" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="490" y1="156" x2="490" y2="184" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="810" y1="156" x2="810" y2="184" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+
+          <rect x="30" y="186" width="280" height="66" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="44" y="206" font-size="10" font-weight="700" fill="#2e4a5d">ALZHEIMER'S — immunotherapy</text>
+          <text x="44" y="224" font-size="11" fill="#1c1915">lecanemab (2023), donanemab (2024) —</text>
+          <text x="44" y="240" font-size="11" fill="#1c1915">approved; ≈25–35% slowing; ARIA risk†</text>
+
+          <rect x="30" y="266" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="44" y="286" font-size="10" font-weight="700" fill="#7a312c">PARKINSON'S — antibody in trial</text>
+          <text x="44" y="304" font-size="11" fill="#1c1915">prasinezumab (anti-α-synuclein) —</text>
+          <text x="44" y="318" font-size="11" fill="#1c1915">Phase 3 PARAISO, enrolled 2025†</text>
+
+          <rect x="350" y="186" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="364" y="206" font-size="10" font-weight="700" fill="#345443">ALS — SOD1 ASO, approved</text>
+          <text x="364" y="224" font-size="11" fill="#1c1915">tofersen (2023): plasma NfL −55%;†</text>
+          <text x="364" y="238" font-size="11" fill="#1c1915">presymptomatic ATLAS trial ongoing†</text>
+
+          <rect x="350" y="258" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="364" y="278" font-size="10" font-weight="700" fill="#9a7430">HUNTINGTON'S — AAV-miRNA</text>
+          <text x="364" y="296" font-size="11" fill="#1c1915">AMT-130: 75% slowing at 36 months;†</text>
+          <text x="364" y="310" font-size="11" fill="#1c1915">BLA filed Q1 2026†</text>
+
+          <rect x="350" y="330" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="364" y="350" font-size="10" font-weight="700" fill="#6d665b">PIPELINE ASOs</text>
+          <text x="364" y="368" font-size="11" fill="#1c1915">tominersen (HTT), WVE-004 (C9orf72),</text>
+          <text x="364" y="382" font-size="11" fill="#1c1915">ION363 (FUS), ATXN2 / UNC13A†</text>
+
+          <rect x="670" y="186" width="280" height="116" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="684" y="206" font-size="10" font-weight="700" fill="#6d665b">SHARED-AXIS INTERVENTIONS</text>
+          <text x="684" y="224" font-size="11" fill="#1c1915">proteostasis support (autophagy / TFEB),</text>
+          <text x="684" y="240" font-size="11" fill="#1c1915">mitochondrial cofactors (CoQ10, creatine),</text>
+          <text x="684" y="256" font-size="11" fill="#1c1915">anti-inflammatories (masitinib),</text>
+          <text x="684" y="272" font-size="11" fill="#1c1915">senolytics / senomorphics,</text>
+          <text x="684" y="288" font-size="11" fill="#1c1915">lifestyle measures (exercise, fasting)</text>
+
+          <rect x="30" y="410" width="920" height="44" rx="8" fill="rgba(154,116,48,0.10)" stroke="rgba(154,116,48,0.5)"/>
+          <text x="490" y="437" text-anchor="middle" font-size="11.5" fill="#1c1915">Biomarker gating: amyloid PET / plasma p-tau217 → antibody eligibility · genotype + NfL → silencing trials · α-syn SAA → trial enrichment†</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>The unifying rule of the 2023–2026 record.</strong> Antibodies reached approval only
+          where the target is extracellular (Aβ); nucleic-acid therapeutics reached approval and
+          pivotal success only where a single dominant intracellular toxin is genetically defined
+          (SOD1, HTT). Diseases without a dominant species — sporadic AD, sporadic ALS, PD — fall back
+          on shared-axis approaches, which remain investigational.
+        </figcaption>
+      </figure>
+
+      <div class="note slate">
+        <h4>Why co-pathology dilutes anti-amyloid benefit</h4>
+        <p>
+          AD brains frequently carry TDP-43 (LATE), Lewy and vascular co-pathologies that progress
+          independently of amyloid. Clearing Aβ therefore removes only one of several clocks. This is
+          the mechanistic rationale behind amyloid-positive-but-decline-heterogeneous trial outcomes,
+          and behind the emerging practice of staging patients with plasma p-tau217 and tau PET before
+          treatment†.
+        </p>
+      </div>
+    </section>
+
+    <section id="graph">
+      <p class="sec-label">Graph analysis</p>
+      <h2>What the knowledge base's own graphs show</h2>
+      <p>
+        The vault's wiki graph contains 3,007 nodes joined by 35,150 wikilink edges. Node degree — how
+        many entity notes reference an entity — is a direct map of where the corpus concentrates its
+        biology. Diseases are shown in red, mechanism and molecule nodes in blue.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure · Wiki-graph node degrees for disease and mechanism hubs</span></div>
+        <div class="copy-host">
+        <svg id="degreeSvg" viewBox="0 0 980 434" role="img" aria-label="Horizontal bar chart of wiki-graph degrees">
+          <rect x="90" y="8" width="14" height="14" fill="#7a312c"/>
+          <text x="110" y="19" font-size="11.5" fill="#6d665b">disease nodes</text>
+          <rect x="240" y="8" width="14" height="14" fill="#4c6e86"/>
+          <text x="260" y="19" font-size="11.5" fill="#6d665b">mechanism / molecule nodes</text>
+          <line x1="330.3" y1="30" x2="330.3" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="438.6" y1="30" x2="438.6" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="546.9" y1="30" x2="546.9" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="655.2" y1="30" x2="655.2" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="763.5" y1="30" x2="763.5" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="871.8" y1="30" x2="871.8" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="222" y1="28" x2="222" y2="392" stroke="#d3c9b6" stroke-width="1.4"/>
+          <text x="330" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">100</text>
+          <text x="439" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">200</text>
+          <text x="547" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">300</text>
+          <text x="655" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">400</text>
+          <text x="764" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">500</text>
+          <text x="872" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">600</text>
+          <text x="222" y="426" text-anchor="middle" font-size="11" fill="#6d665b">wikilink degree (edges) →</text>
+
+          <text x="212" y="51" text-anchor="end" font-size="12" fill="#1c1915">Oxidative Stress</text>
+          <rect x="222" y="38" width="640" height="18" fill="#4c6e86"/>
+          <text x="869" y="51" font-size="11" fill="#6d665b">591</text>
+          <text x="212" y="79" text-anchor="end" font-size="12" fill="#1c1915">Parkinson's Disease</text>
+          <rect x="222" y="66" width="317" height="18" fill="#7a312c"/>
+          <text x="546" y="79" font-size="11" fill="#6d665b">293</text>
+          <text x="212" y="107" text-anchor="end" font-size="12" fill="#1c1915">Alzheimer's Disease</text>
+          <rect x="222" y="94" width="220" height="18" fill="#7a312c"/>
+          <text x="449" y="107" font-size="11" fill="#6d665b">203</text>
+          <text x="212" y="135" text-anchor="end" font-size="12" fill="#1c1915">Neurodegeneration</text>
+          <rect x="222" y="122" width="205" height="18" fill="#7a312c"/>
+          <text x="434" y="135" font-size="11" fill="#6d665b">189</text>
+          <text x="212" y="163" text-anchor="end" font-size="12" fill="#1c1915">Mitochondrial Dysfunction</text>
+          <rect x="222" y="150" width="147" height="18" fill="#4c6e86"/>
+          <text x="376" y="163" font-size="11" fill="#6d665b">136</text>
+          <text x="212" y="191" text-anchor="end" font-size="12" fill="#1c1915">Neuromelanin</text>
+          <rect x="222" y="178" width="145" height="18" fill="#4c6e86"/>
+          <text x="374" y="191" font-size="11" fill="#6d665b">134</text>
+          <text x="212" y="219" text-anchor="end" font-size="12" fill="#1c1915">Dopamine</text>
+          <rect x="222" y="206" width="134" height="18" fill="#4c6e86"/>
+          <text x="363" y="219" font-size="11" fill="#6d665b">124</text>
+          <text x="212" y="247" text-anchor="end" font-size="12" fill="#1c1915">COMT</text>
+          <rect x="222" y="234" width="132" height="18" fill="#4c6e86"/>
+          <text x="361" y="247" font-size="11" fill="#6d665b">122</text>
+          <text x="212" y="275" text-anchor="end" font-size="12" fill="#1c1915">Tau</text>
+          <rect x="222" y="262" width="75" height="18" fill="#4c6e86"/>
+          <text x="304" y="275" font-size="11" fill="#6d665b">69</text>
+          <text x="212" y="303" text-anchor="end" font-size="12" fill="#1c1915">Alpha-synuclein</text>
+          <rect x="222" y="290" width="70" height="18" fill="#4c6e86"/>
+          <text x="299" y="303" font-size="11" fill="#6d665b">65</text>
+          <text x="212" y="331" text-anchor="end" font-size="12" fill="#1c1915">ALS</text>
+          <rect x="222" y="318" width="54" height="18" fill="#7a312c"/>
+          <text x="283" y="331" font-size="11" fill="#6d665b">50</text>
+          <text x="212" y="359" text-anchor="end" font-size="12" fill="#1c1915">Huntington's Disease</text>
+          <rect x="222" y="346" width="41" height="18" fill="#7a312c"/>
+          <text x="270" y="359" font-size="11" fill="#6d665b">38</text>
+          <text x="212" y="387" text-anchor="end" font-size="12" fill="#1c1915">Frontotemporal Dementia</text>
+          <rect x="222" y="374" width="27" height="18" fill="#7a312c"/>
+          <text x="256" y="387" font-size="11" fill="#6d665b">25</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>The corpus is structurally a PD-and-oxidation-centric knowledge base with AD as its
+          cognitive mirror.</strong> Oxidative Stress is the largest hub in the entire vault (591
+          edges), and PD's degree (293) is more than five times HD's (38) and six times FTD's (25) —
+          a measurable statement of where the wiki's depth lies, and a gap map for future enrichment.
+        </figcaption>
+      </figure>
+
+      <p>
+        Shared-neighbour (Jaccard) overlap between disease neighbourhoods quantifies how entangled the
+        four diseases are in the vault's own linking. The AD–PD pair is the most entangled; HD is the
+        most distinct; and the TDP-43–C9orf72–FTD triad is essentially inseparable — an accurate
+        rendering of the ALS–FTD spectrum.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Pair</th><th class="num">Shared neighbours</th><th class="num">Jaccard</th><th>Most overlapping concepts</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Alzheimer's &amp; Parkinson's</td><td class="num">94</td><td class="num" style="background:rgba(122,49,44,0.42)"><strong>0.263</strong></td><td>oxidative stress, SIRT1, autophagy, aging, SIRT3, inflammaging, cGAS–STING, ferroptosis, mitophagy</td></tr>
+            <tr><td>TDP-43 &amp; C9orf72</td><td class="num">7</td><td class="num" style="background:rgba(122,49,44,0.40)"><strong>0.250</strong></td><td>cGAS–STING, cGAS, STING, type-I interferon, ALS, FTD</td></tr>
+            <tr><td>Parkinson's &amp; α-synuclein</td><td class="num">58</td><td class="num" style="background:rgba(122,49,44,0.34)">0.216</td><td>autophagy, TFEB, neuromelanin, dopamine, SNpc, peroxynitrite</td></tr>
+            <tr><td>TDP-43 &amp; tauopathy</td><td class="num">6</td><td class="num" style="background:rgba(122,49,44,0.29)">0.182</td><td>cGAS–STING, mtDNA, type-I interferon, proteinopathy, FTD</td></tr>
+            <tr><td>Alzheimer's &amp; ALS</td><td class="num">29</td><td class="num" style="background:rgba(122,49,44,0.23)">0.143</td><td>SIRT1, SIRT3, SIRT6, cGAS–STING, DNA damage, lipid peroxidation</td></tr>
+            <tr><td>Alzheimer's &amp; Huntington's</td><td class="num">25</td><td class="num" style="background:rgba(122,49,44,0.20)">0.128</td><td>SIRT1, autophagy, TFEB, PGC-1α, SIRT2, unfolded protein response</td></tr>
+            <tr><td>Huntington's &amp; ALS</td><td class="num">6</td><td class="num" style="background:rgba(122,49,44,0.13)">0.080</td><td>SIRT1, cGAS–STING, UPR, proteinopathy, phenylbutyrate</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Where each disease is referenced across the repo's topics completes the picture — PD's depth
+        comes from the neuromelanin and adrenochrome topics; AD is the most evenly distributed; HD is
+        sirtuin- and autophagy-skewed; ALS is concentrated in shared cross-topic entities.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Wiki topic</th><th class="num">AD</th><th class="num">PD</th><th class="num">HD</th><th class="num">ALS</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>_link/ (shared entities)</td><td class="num" style="background:rgba(46,74,93,0.46)">158</td><td class="num" style="background:rgba(46,74,93,0.45)">156</td><td class="num" style="background:rgba(46,74,93,0.16)">40</td><td class="num" style="background:rgba(46,74,93,0.14)">30</td></tr>
+            <tr><td>oxidative_stress</td><td class="num" style="background:rgba(46,74,93,0.46)">27</td><td class="num" style="background:rgba(46,74,93,0.45)">26</td><td class="num" style="background:rgba(46,74,93,0.08)">1</td><td class="num" style="background:rgba(46,74,93,0.10)">3</td></tr>
+            <tr><td>sirtuins</td><td class="num" style="background:rgba(46,74,93,0.42)">17</td><td class="num" style="background:rgba(46,74,93,0.46)">19</td><td class="num" style="background:rgba(46,74,93,0.33)">13</td><td class="num" style="background:rgba(46,74,93,0.19)">6</td></tr>
+            <tr><td>adrenochrome</td><td class="num" style="background:rgba(46,74,93,0.30)">16</td><td class="num" style="background:rgba(46,74,93,0.46)">27</td><td class="num">—</td><td class="num" style="background:rgba(46,74,93,0.08)">1</td></tr>
+            <tr><td>epigenetics</td><td class="num" style="background:rgba(46,74,93,0.46)">16</td><td class="num" style="background:rgba(46,74,93,0.44)">15</td><td class="num" style="background:rgba(46,74,93,0.19)">5</td><td class="num" style="background:rgba(46,74,93,0.24)">7</td></tr>
+            <tr><td>autophagy</td><td class="num" style="background:rgba(46,74,93,0.46)">15</td><td class="num" style="background:rgba(46,74,93,0.46)">15</td><td class="num" style="background:rgba(46,74,93,0.27)">8</td><td class="num" style="background:rgba(46,74,93,0.11)">2</td></tr>
+            <tr><td><strong>neuromelanin</strong></td><td class="num" style="background:rgba(46,74,93,0.08)">4</td><td class="num" style="background:rgba(46,74,93,0.46)"><strong>74</strong></td><td class="num" style="background:rgba(46,74,93,0.07)">2</td><td class="num">—</td></tr>
+            <tr><td>comt</td><td class="num" style="background:rgba(46,74,93,0.13)">2</td><td class="num" style="background:rgba(46,74,93,0.46)">11</td><td class="num">—</td><td class="num">—</td></tr>
+            <tr><td>senescence</td><td class="num" style="background:rgba(46,74,93,0.30)">3</td><td class="num" style="background:rgba(46,74,93,0.46)">5</td><td class="num" style="background:rgba(46,74,93,0.22)">2</td><td class="num" style="background:rgba(46,74,93,0.14)">1</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:.85rem;color:var(--mute)">Cell shading is proportional to each row's maximum. Totals across all topics: PD 352 files · AD 264 · HD 72 · ALS 50.</p>
+    </section>
+
+    <section id="takeaways">
+      <p class="sec-label">Takeaways</p>
+      <h2>Convergence and divergence</h2>
+      <div class="note forest">
+        <h4>The one-sentence synthesis</h4>
+        <p>
+          Neurodegenerative diseases share a matrix — aging, proteostasis failure, mitochondrial and
+          oxidative stress, innate immune activation — but differ in the initial condition, and therapy
+          succeeds only when matched to that initial condition: extracellular aggregates receive
+          antibodies; genetically defined intracellular toxins receive gene silencing; everything else
+          receives shared-axis support.
+        </p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th style="width:50%">Convergent (shared)</th><th style="width:50%">Divergent (disease-specific)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>proteostasis collapse; autophagy–lysosome and proteasome failure</td><td>which protein misfolds, and whether it is extracellular or intracellular</td></tr>
+            <tr><td>mitochondrial dysfunction and impaired mitophagy</td><td>Complex I (PD) vs. mtDNA rupture / TDP-43 (ALS) vs. Δψm / PGC-1α (HD) vs. Aβ–ETC (AD)</td></tr>
+            <tr><td>oxidative and nitrative stress, lipid peroxidation, ferroptosis</td><td>dopamine autoxidation (PD) vs. Fenton-metal Aβ (AD) vs. NOX2 / calpain excitotoxicity (ALS)</td></tr>
+            <tr><td>neuroinflammation, microglia and astrocytes, cGAS–STING</td><td>immune-dominant (ALS / FTD / tau) vs. chemistry-dominant (PD) vs. epigenetic-dominant (HD)</td></tr>
+            <tr><td>senescence / SASP / inflammaging bridged through aging glia</td><td>symptom topology: cognition (AD) vs. movement (PD, HD) vs. motor-neuron loss (ALS)</td></tr>
+            <tr><td>prion-like templated spread of misfolded proteins</td><td>route and tempo: Braak limbic-cortical (AD, PD) vs. striatal (HD) vs. corticospinal (ALS)</td></tr>
+            <tr><td>biomarkers as the common trial enabler (NfL, PET, SAA, p-tau217)</td><td>which biomarker gates which therapy: amyloid PET → antibodies; genotype + NfL → silencing</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="sources">
+      <p class="sec-label">Sources</p>
+      <h2>Sources and methods</h2>
+      <h3>Knowledge base (primary)</h3>
+      <p>
+        Entity notes in <code>src/notes/</code>: <code>_link/</code> (Neurodegeneration, Alzheimer's
+        Disease, Parkinson's Disease, Huntington's Disease, Amyotrophic Lateral Sclerosis, Tau,
+        Tauopathy, TDP-43, C9orf72, SOD1, HTT, Alpha-synuclein, Frontotemporal Dementia, cGAS-STING
+        Pathway, SARM1, Amyloid Beta); <code>neuromelanin/</code> (Neuromelanin, Pathogenic Threshold
+        of Neuromelanin, Lewy Bodies, Glucocerebrosidase, Ambroxol, Substantia Nigra Pars Compacta,
+        MPTP); <code>oxidative_stress/</code> (Oxidative Stress, Reactive Nitrogen Species,
+        4-Hydroxynonenal, Malondialdehyde, Ferroptosis); <code>senescence/</code> (mitochondrial
+        dysfunction in cellular senescence document, Hruby &amp; Higuchi-Sanabria 2025); plus the
+        sirtuins, autophagy, comt, epigenetics and adrenochrome topics.
+      </p>
+      <h3>Graph methods</h3>
+      <p>
+        Degrees, community membership and direct disease interlocks computed on
+        <code>wiki-out/wiki-graph.json</code> (3,007 nodes / 35,150 edges). Jaccard coefficients are
+        |neighbours(A) ∩ neighbours(B)| / |neighbours(A) ∪ neighbours(B)| on that graph. Topic mention
+        counts are the number of <code>.md</code> files per topic containing each disease term.
+        Triples-graph statements derive from a BFS traversal of <code>graphify-out/graph.json</code>.
+      </p>
+      <h3>Literature (2024–2026; claims marked †)</h3>
+      <ul>
+        <li>FDA approval of Kisunla (donanemab), July 2024; lecanemab traditional approval (2023) with maintenance and subcutaneous dosing (2025); EMA authorisations 2025–2026; aducanumab withdrawal (2024); plasma p-tau217 clearance (2025) — FDA / EMA / sponsor announcements.</li>
+        <li>Gao et al., "The mechanisms underlying TDP-43-associated neurodegeneration in Alzheimer's disease and related dementias," <em>Molecular Psychiatry</em> 30:5500–5512 (2025); Wolk et al., clinical criteria for LATE, <em>Alzheimer's &amp; Dementia</em> (2025); LATE reviews, <em>Acta Neuropathologica</em> (2026).</li>
+        <li>Pagano et al., "Prasinezumab slows motor progression in rapidly progressing early-stage Parkinson's disease," <em>Nature Medicine</em> (2024/2025); Roche PARAISO Phase 3 launch (late 2025, ≈900 participants).</li>
+        <li>Silveira et al., "Ambroxol as a Treatment for Parkinson Disease Dementia," <em>JAMA Neurology</em> (2025); Cure Parkinson's ASPro-PD Phase 3 (UCL, 330 participants, 2025); Critical Path Institute α-syn SAA qualification opinion (2024); LRRK2 inhibitor and GPNMB biomarker reports (2025).</li>
+        <li>uniQure, "Positive topline results from the pivotal Phase I/II study of AMT-130," 24 Sep 2025 (75% cUHDRS slowing at 36 months, p=0.003; 60% TFC slowing, p=0.033; CSF NfL −8.2%; BLA planned Q1 2026); <em>Scientific American</em> coverage (Oct 2025).</li>
+        <li>ALS record: tofersen approval on plasma NfL (2023) and ATLAS presymptomatic trial; C9orf72 (WVE-004), FUS (ION363), ATXN2 and UNC13A ASO programmes; masitinib confirmatory Phase 3 (2025); RELYVRIO withdrawal (Apr 2024); ≈295 active ALS trials (mid-2026).</li>
+        <li>PSP platform trial (AADvac1, AZP2006) and NIO752 / LM11A-31 Phase 3 advancement; diranersen (BIIB080) Phase 2 in AD; DLB epidemiology (up to 25% of dementia autopsies; 4–5% diagnosed) — CurePSP, Alzforum, <em>Lancet Neurology</em> DLB Series (2025).</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      Comparative neurodegeneration review for the llm-wiki-jk knowledge graph. Graph metrics computed
+      on the wiki layer (29 Aug 2026); literature claims flagged † derive from 2024–2026 sources.
+      Informational synthesis — not medical advice; every mechanism reading is a hypothesis to check
+      against the source notes.
+    </p>
+    <p><strong>Graph:</strong> wiki layer <code>3007n / 35150e</code> · source document <code>src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md</code></p>
+    <p><a href="https://graph.johnnykuo.com">Return to the graph</a></p>
+  </div>
+</footer>
+
+<script>
+/* Static diagrams only; no runtime charts needed for this page. */
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

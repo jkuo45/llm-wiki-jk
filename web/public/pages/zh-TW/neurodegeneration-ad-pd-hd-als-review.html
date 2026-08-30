@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系</title>
+<meta name="description" content="四大神經退化性疾病的比較回顧——阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系——整合 llm-wiki-jk 知識庫（wiki 圖譜：3,007 節點 / 35,150 邊）與 2024–2026 治療與生物標記文獻。涵蓋共同機制矩陣（蛋白質恆定、粒線體、氧化壓力、先天免疫、細胞老化）、疾病特異性觸發條件、選擇性脆弱性、傳播拓撲，以及「療法跟隨標的拓撲」的治療邏輯。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#overview">總覽</a>
+      <a href="#mechanisms">共同機制</a>
+      <a href="#diseases">疾病剖析</a>
+      <a href="#propagation">傳播途徑</a>
+      <a href="#comparison">對照比較</a>
+      <a href="#vulnerability">治療邏輯</a>
+      <a href="#graph">圖譜分析</a>
+      <a href="#sources">來源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">文獻回顧 · 神經退化 · 2026年8月29日</p>
+    <h1>神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系</h1>
+    <p class="lede">
+      四大神經退化性疾病共享一組與老化連動的機制矩陣——蛋白質恆定崩潰、粒線體功能異常、
+      氧化與硝化壓力、先天免疫活化，以及錯摺疊蛋白的類普里昂式傳播——但它們的
+      <strong>初始條件</strong>各不相同：是哪一種蛋白質錯摺疊、在哪一種神經元內、處於何種局部生化環境。
+      這些差異決定了疾病的起點、傳播路徑，也決定了 2023–2026 年的治療突破
+      （阿茲海默症的抗類澱粉抗體、亨丁頓氏症與 SOD1-ALS 的基因靜默）為何只在
+      「療法模式與標的位置匹配」時成功。本頁整合 <strong>llm-wiki-jk 知識庫</strong>——
+      包括對其 wiki 圖譜（3,007 節點 / 35,150 邊）的量化分析——與 2024–2026 年的臨床文獻。
+    </p>
+    <div class="meta">
+      <p><strong>日期：</strong>2026年8月29日</p>
+      <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md" target="_blank">src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md</a></code></p>
+      <p><strong>資料來源：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code>（Obsidian wikilink 圖譜——度數、社群、Jaccard 重疊）· <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code>（triples 圖譜）· <code>src/notes/</code> 各主題筆記（_link、neuromelanin、oxidative_stress、sirtuins、autophagy、senescence、comt、epigenetics、adrenochrome）</p>
+      <p><strong>文獻：</strong>標註 <strong>†</strong> 的陳述推導自 2024–2026 年網路文獻（FDA/EMA 公告、uniQure/Roche/Biogen 揭露、<em>JAMA Neurology</em>、<em>Nature Medicine</em>、<em>Molecular Psychiatry</em>、<em>Lancet Neurology</em>）——見<a href="#sources">來源</a></p>
+      <p><strong>備註：</strong>資訊性綜述，非醫療建議。</p>
+      <p><strong>其他語言：</strong><a href="../en-US/neurodegeneration-ad-pd-hd-als-review.html">English</a></p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>內容</p>
+    <ol>
+      <li><a href="#overview">四種疾病、同一矩陣</a></li>
+      <li><a href="#mechanisms">趨同的機制矩陣</a></li>
+      <li><a href="#diseases">疾病剖析與機制地圖</a></li>
+      <li><a href="#propagation">傳播路徑</a></li>
+      <li><a href="#comparison">正面對照</a></li>
+      <li><a href="#vulnerability">選擇性脆弱性與治療邏輯</a></li>
+      <li><a href="#graph">知識庫圖譜顯示了什麼</a></li>
+      <li><a href="#takeaways">趨同與分歧</a></li>
+      <li><a href="#sources">來源與方法</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <section id="overview">
+      <p class="sec-label">總覽</p>
+      <h2>四種疾病、同一矩陣、四種不同的初始條件</h2>
+      <p class="drop">
+        <strong>阿茲海默症（AD）</strong>是最常見的失智症成因：一種漸進的失憶症候群，
+        病理上由細胞外類澱粉樣蛋白（Aβ）斑塊與細胞內 tau 神經纖維纏結所定義。
+        <strong>巴金森氏症（PD）</strong>是最常見的動作障礙疾病：黑質緻密部富含神經黑色素之
+        多巴胺神經元死亡，伴隨 α-突觸核蛋白（α-synuclein）路易體病理。
+        <strong>亨丁頓氏症（HD）</strong>是四者中唯一具完全決定性遺傳成因者——
+        <em>HTT</em> 基因第一外顯子的 CAG 重複擴增——臨床表現為舞蹈症、精神症狀與認知退化。
+        <strong>肌萎縮性側索硬化症（ALS）</strong>與<strong>額顳葉失智症（FTD）</strong>
+        應理解為同一譜系：TDP-43 蛋白病變在不同解剖中心的表現，一個影響運動、一個影響行為。
+      </p>
+      <p>
+        四者皆與老化相關、皆涉及錯摺疊蛋白、最終皆透過重疊的壓力生物學摧毀神經元。
+        區分它們的——以及決定治療策略的——是下方病程圖所呈現的時間結構：
+        AD 與 PD 有長達數十年的無症狀期、HD 的基因型自出生即已確定、而 ALS 的病程極為急速。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · 各疾病典型發病年齡與病程速度（族群層級範圍）</span></div>
+        <div class="copy-host">
+        <svg id="tempoSvg" viewBox="0 0 980 372" role="img" aria-label="四種疾病的前驅期與症狀期病程（依年齡）橫條圖">
+          <!-- legend -->
+          <rect x="90" y="10" width="26" height="14" fill="rgba(46,74,93,0.18)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="122" y="21" font-size="11.5" fill="#6d665b">前驅期 / 臨床前期</text>
+          <rect x="266" y="10" width="26" height="14" fill="#2e4a5d"/>
+          <text x="298" y="21" font-size="11.5" fill="#6d665b">症狀期病程</text>
+          <rect x="432" y="10" width="26" height="14" fill="rgba(154,116,48,0.12)" stroke="#9a7430" stroke-dasharray="4 3"/>
+          <text x="464" y="21" font-size="11.5" fill="#6d665b">出生即知基因型（HD）</text>
+          <!-- decade gridlines -->
+          <line x1="90" y1="40" x2="90" y2="316" stroke="#d3c9b6"/>
+          <line x1="213" y1="40" x2="213" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="336" y1="40" x2="336" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="459" y1="40" x2="459" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="581" y1="40" x2="581" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="704" y1="40" x2="704" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="827" y1="40" x2="827" y2="316" stroke="#d3c9b6" opacity="0.55"/>
+          <line x1="950" y1="40" x2="950" y2="316" stroke="#d3c9b6"/>
+          <!-- axis -->
+          <line x1="90" y1="316" x2="950" y2="316" stroke="#d3c9b6" stroke-width="1.4"/>
+          <text x="90" y="334" text-anchor="middle" font-size="11" fill="#8d8578">20</text>
+          <text x="213" y="334" text-anchor="middle" font-size="11" fill="#8d8578">30</text>
+          <text x="336" y="334" text-anchor="middle" font-size="11" fill="#8d8578">40</text>
+          <text x="459" y="334" text-anchor="middle" font-size="11" fill="#8d8578">50</text>
+          <text x="581" y="334" text-anchor="middle" font-size="11" fill="#8d8578">60</text>
+          <text x="704" y="334" text-anchor="middle" font-size="11" fill="#8d8578">70</text>
+          <text x="827" y="334" text-anchor="middle" font-size="11" fill="#8d8578">80</text>
+          <text x="950" y="334" text-anchor="middle" font-size="11" fill="#8d8578">90</text>
+          <text x="520" y="358" text-anchor="middle" font-size="12" fill="#6d665b">年齡（歲）→</text>
+
+          <!-- AD row -->
+          <text x="82" y="77" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">阿茲海默症</text>
+          <rect x="397" y="56" width="246" height="34" fill="rgba(46,74,93,0.18)" stroke="rgba(46,74,93,0.45)"/>
+          <rect x="643" y="56" width="160" height="34" fill="#2e4a5d"/>
+          <text x="723" y="77" text-anchor="middle" font-size="11" font-weight="600" fill="#fbf8f1">發病 ≈65</text>
+          <text x="90" y="106" font-size="11" fill="#6d665b">臨床前澱粉樣期 ≈20 年 · 症狀期退化 ≈8–12 年</text>
+
+          <!-- PD row -->
+          <text x="82" y="139" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">巴金森氏症</text>
+          <rect x="397" y="118" width="209" height="34" fill="rgba(122,49,44,0.18)" stroke="rgba(122,49,44,0.45)"/>
+          <rect x="606" y="118" width="197" height="34" fill="#7a312c"/>
+          <text x="704" y="139" text-anchor="middle" font-size="11" font-weight="600" fill="#fbf8f1">發病 ≈60</text>
+          <text x="90" y="168" font-size="11" fill="#6d665b">十年以上前驅期（REM 睡眠行為障礙、嗅覺減退）· 存活期 ≈10–20 年</text>
+
+          <!-- HD row -->
+          <text x="82" y="201" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">亨丁頓氏症</text>
+          <rect x="90" y="180" width="246" height="34" fill="rgba(154,116,48,0.12)" stroke="#9a7430" stroke-dasharray="4 3"/>
+          <rect x="336" y="180" width="221" height="34" fill="#9a7430"/>
+          <text x="446" y="201" text-anchor="middle" font-size="11" font-weight="600" fill="#fbf8f1">發病 30–50</text>
+          <text x="90" y="230" font-size="11" fill="#6d665b">CAG 基因型自出生即可預測 · 病程 15–20 年 · 經父系傳遞出現遺傳早發</text>
+
+          <!-- ALS row -->
+          <text x="82" y="263" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">ALS</text>
+          <rect x="557" y="242" width="62" height="34" fill="#345443"/>
+          <text x="90" y="292" font-size="11" fill="#6d665b">確診後中位存活 2–5 年——四者中最快 · 相同的 TDP-43 病理停留於額顳葉時即為病程較慢的 FTD</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>四種疾病佔據生命周期中不同的時間窗口。</strong>橫條為族群典型範圍，個別變異很大。
+          HD 以虛線帶標示「出生即知基因型」，因為突變可在發病前數十年偵測。
+          時間結構的差異具有治療意涵：漫長的前驅期留下生物標記窗口（澱粉樣 PET、α-syn 種子擴增試驗、NfL），
+          而 ALS 的急速病程壓縮了試驗時間軸，使功能性終點更難達成。
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="mechanisms">
+      <p class="sec-label">共同機制</p>
+      <h2>趨同矩陣：五種失效模式，加權各異</h2>
+      <p>
+        縱覽知識庫的筆記，四種機制主題在每個疾病中反覆出現，第五種——細胞老化（senescence）——
+        則扮演老化的橋梁。每種疾病對這些軸線的權重不同，這正是不存在單一
+        「廣效抗神經退化療法」的原因。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · 趨同地圖——五種共享失效模式匯入神經元死亡</span></div>
+        <div class="copy-host">
+        <svg id="convergeSvg" viewBox="0 0 980 646" role="img" aria-label="環狀圖：五種共享機制圍繞神經元死亡，附疾病優勢標籤">
+          <!-- connectors -->
+          <line x1="490" y1="120" x2="490" y2="200" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="318" y1="248" x2="382" y2="294" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="662" y1="248" x2="598" y2="294" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="216" y1="500" x2="392" y2="384" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <line x1="764" y1="500" x2="588" y2="384" stroke="rgba(109,102,91,0.55)" stroke-width="1.5"/>
+          <!-- center -->
+          <circle cx="490" cy="316" r="118" fill="rgba(122,49,44,0.08)" stroke="#7a312c" stroke-width="1.5"/>
+          <text x="490" y="304" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1915">神經元死亡</text>
+          <text x="490" y="326" text-anchor="middle" font-size="11.5" fill="#6d665b">共同終點，</text>
+          <text x="490" y="342" text-anchor="middle" font-size="11.5" fill="#6d665b">相異臨床症候群</text>
+
+          <!-- top: proteostasis -->
+          <rect x="338" y="16" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="354" y="40" font-size="13.5" font-weight="700" fill="#1c1915">蛋白質恆定崩潰（proteostasis）</text>
+          <text x="354" y="60" font-size="11.5" fill="#6d665b">錯摺疊蛋白負荷超出</text>
+          <text x="354" y="76" font-size="11.5" fill="#6d665b">自噬–溶酶體與泛素–蛋白酶體的清除能力</text>
+          <rect x="354" y="88" width="42" height="18" rx="9" fill="#2e4a5d"/><text x="375" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">AD</text>
+          <rect x="404" y="88" width="42" height="18" rx="9" fill="#7a312c"/><text x="425" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="454" y="88" width="42" height="18" rx="9" fill="#9a7430"/><text x="475" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">HD</text>
+          <rect x="504" y="88" width="42" height="18" rx="9" fill="#345443"/><text x="525" y="101" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">ALS</text>
+
+          <!-- left: mitochondria -->
+          <rect x="14" y="196" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="30" y="220" font-size="13.5" font-weight="700" fill="#1c1915">粒線體功能異常</text>
+          <text x="30" y="240" font-size="11.5" fill="#6d665b">複合體 I 缺損、PINK1/Parkin 粒線體自噬受損、</text>
+          <text x="30" y="256" font-size="11.5" fill="#6d665b">分裂–融合失衡</text>
+          <rect x="30" y="268" width="42" height="18" rx="9" fill="none" stroke="#2e4a5d"/><text x="51" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#2e4a5d">AD</text>
+          <rect x="80" y="268" width="42" height="18" rx="9" fill="#7a312c"/><text x="101" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="130" y="268" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="151" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="180" y="268" width="42" height="18" rx="9" fill="none" stroke="#345443"/><text x="201" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#345443">ALS</text>
+
+          <!-- right: oxidative -->
+          <rect x="662" y="196" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="678" y="220" font-size="13.5" font-weight="700" fill="#1c1915">氧化與硝化壓力</text>
+          <text x="678" y="240" font-size="11.5" fill="#6d665b">芬頓化學、多巴胺自氧化、</text>
+          <text x="678" y="256" font-size="11.5" fill="#6d665b">過氧亞硝酸鹽、脂質過氧化（4-HNE、MDA）</text>
+          <rect x="678" y="268" width="42" height="18" rx="9" fill="#2e4a5d"/><text x="699" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">AD</text>
+          <rect x="728" y="268" width="42" height="18" rx="9" fill="#7a312c"/><text x="749" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="778" y="268" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="799" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="828" y="268" width="42" height="18" rx="9" fill="none" stroke="#345443"/><text x="849" y="281" text-anchor="middle" font-size="10" font-weight="600" fill="#345443">ALS</text>
+
+          <!-- bottom-left: neuroinflammation -->
+          <rect x="64" y="500" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="80" y="524" font-size="13.5" font-weight="700" fill="#1c1915">神經發炎與 cGAS–STING</text>
+          <text x="80" y="544" font-size="11.5" fill="#6d665b">微膠細胞 ROS／NO；細胞質粒線體 DNA 啟動</text>
+          <text x="80" y="560" font-size="11.5" fill="#6d665b">cGAS–STING → 第一型干擾素訊息傳遞</text>
+          <rect x="80" y="572" width="42" height="18" rx="9" fill="#2e4a5d"/><text x="101" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">AD</text>
+          <rect x="130" y="572" width="42" height="18" rx="9" fill="none" stroke="#7a312c"/><text x="151" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#7a312c">PD</text>
+          <rect x="180" y="572" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="201" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="230" y="572" width="42" height="18" rx="9" fill="#345443"/><text x="251" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">ALS</text>
+
+          <!-- bottom-right: senescence -->
+          <rect x="612" y="500" width="304" height="104" rx="10" fill="rgba(46,74,93,0.07)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="628" y="524" font-size="13.5" font-weight="700" fill="#1c1915">細胞老化與 SASP（發炎老化）</text>
+          <text x="628" y="544" font-size="11.5" fill="#6d665b">老化膠質細胞分泌 IL-6／IL-1β；</text>
+          <text x="628" y="560" font-size="11.5" fill="#6d665b">老化訊號回饋放大蛋白病變與發炎</text>
+          <rect x="628" y="572" width="42" height="18" rx="9" fill="none" stroke="#2e4a5d"/><text x="649" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#2e4a5d">AD</text>
+          <rect x="678" y="572" width="42" height="18" rx="9" fill="#7a312c"/><text x="699" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#fbf8f1">PD</text>
+          <rect x="728" y="572" width="42" height="18" rx="9" fill="none" stroke="#9a7430"/><text x="749" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#9a7430">HD</text>
+          <rect x="778" y="572" width="42" height="18" rx="9" fill="none" stroke="#345443"/><text x="799" y="585" text-anchor="middle" font-size="10" font-weight="600" fill="#345443">ALS</text>
+
+          <text x="490" y="636" text-anchor="middle" font-size="11" fill="#8d8578">實心標籤 = 主要驅動 · 空心標籤 = 情境脈絡（權重依知識庫筆記）</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>四種疾病經由相同的五種失效模式匯入神經元死亡，但主要驅動各異。</strong>
+          PD 是化學主導的疾病（多巴胺自氧化加上複合體 I 缺損）；AD 與 ALS–FTD 譜系是先天免疫軸疾病
+          （在 wiki 圖譜中，它們的叢集即以 cGAS–STING 命名）；HD 屬代謝／表觀遺傳疾病（SIRT1 社群）。
+          細胞老化則是貫穿四者的老化橋梁。
+        </figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>共享機制</th>
+              <th>阿茲海默症</th>
+              <th>巴金森氏症</th>
+              <th>亨丁頓氏症</th>
+              <th>ALS / FTD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>蛋白質恆定崩潰</strong>——錯摺疊蛋白對抗自噬–溶酶體與泛素–蛋白酶體清除；TFEB 為共同的轉錄槓桿</td>
+              <td>Aβ 斑塊 + tau 纖維纏結</td>
+              <td>α-突觸核蛋白（路易體）</td>
+              <td>突變亨丁頓蛋白包涵體</td>
+              <td>TDP-43、SOD1 聚集物</td>
+            </tr>
+            <tr>
+              <td><strong>粒線體功能異常</strong>——複合體 I 缺損、粒線體自噬受損、分裂–融合失衡（DRP1/MFN）</td>
+              <td>Aβ–粒線體交互作用</td>
+              <td>黑質複合體 I 缺損 30–40%；五個 PD 基因皆具粒線體角色</td>
+              <td>mHTT 抑制 PGC-1α</td>
+              <td>SOD1 / TDP-43 之粒線體損害</td>
+            </tr>
+            <tr>
+              <td><strong>氧化與硝化壓力</strong>——芬頓化學、自氧化、過氧亞硝酸鹽、脂質過氧化、鐵死亡（ferroptosis）</td>
+              <td>Aβ–金屬氧化還原循環；PP2A 氧化</td>
+              <td>多巴胺自氧化；神經黑色素鐵；硝化 α-syn</td>
+              <td>鐵死亡連結</td>
+              <td>NOX2、過氧亞硝酸鹽、4-HNE</td>
+            </tr>
+            <tr>
+              <td><strong>神經發炎與先天免疫</strong>——微膠細胞 ROS/NO、反應性星形膠質細胞、cGAS–STING → 第一型干擾素</td>
+              <td>Aβ 活化之微膠細胞；tau–微膠細胞軸</td>
+              <td>TLR2/TLR4 偵測 α-syn；SASP 驅動</td>
+              <td>輔助性角色</td>
+              <td>膠質貢獻具主導性（C9orf72、TDP-43）</td>
+            </tr>
+            <tr>
+              <td><strong>細胞老化與 SASP</strong>——老化膠質、發炎老化、表觀遺傳漂移</td>
+              <td>已證實表觀遺傳年齡加速</td>
+              <td>循環 SASP 特徵可區分病人</td>
+              <td>輔助性角色</td>
+              <td>老化為散發病例之主要風險因子</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note gold">
+        <h4>圖譜的獨立印證</h4>
+        <p>
+          在 wiki 圖譜中，PD 與 α-突觸核蛋白、神經黑色素及兒茶酚胺氧化機器共用一個社群，
+          而 AD、tau、tauopathy、TDP-43、C9orf72 與 FTD 共同聚在字面上即命名為
+          <strong>cGAS–STING 路徑</strong>的社群。ALS 落在「發炎（Inflammation）」社群，
+          HD 落在「SIRT1」社群。對知識庫自身的連結進行社群偵測，便自行還原了當代的機制分類法。
+        </p>
+      </div>
+    </section>
+
+    <section id="diseases">
+      <p class="sec-label">疾病剖析</p>
+      <h2>各疾病的驅動機制</h2>
+      <p>
+        下方的機制網格將每個疾病的核心機制壓縮為其最強、且有知識庫依據的因果鏈；
+        其後的剖析補充臨床與治療細節。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · 機制地圖——各疾病的因果主幹</span></div>
+        <div class="copy-host">
+        <svg id="mechGridSvg" viewBox="0 0 980 700" role="img" aria-label="二乘二網格：阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS 的機制地圖">
+          <defs>
+            <marker id="arrM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(109,102,91,0.75)"/></marker>
+          </defs>
+
+          <!-- AD quadrant -->
+          <rect x="20" y="16" width="465" height="320" rx="10" fill="rgba(46,74,93,0.06)" stroke="rgba(46,74,93,0.5)"/>
+          <text x="38" y="46" font-size="14.5" font-weight="700" fill="#2e4a5d">阿茲海默症</text>
+          <text x="38" y="66" font-size="11.5" fill="#6d665b">類澱粉樣蛋白 + tau（± TDP-43 / LATE 共病變）</text>
+          <rect x="38" y="84" width="210" height="46" rx="8" fill="#fbf8f1" stroke="rgba(46,74,93,0.6)"/>
+          <text x="143" y="103" text-anchor="middle" font-size="11" fill="#1c1915">Aβ₁₋₄₂ 結合 Cu²⁺ / Fe³⁺</text>
+          <text x="143" y="119" text-anchor="middle" font-size="11" fill="#1c1915">（組胺酸 6、13、14）</text>
+          <rect x="38" y="168" width="210" height="46" rx="8" fill="#fbf8f1" stroke="rgba(46,74,93,0.6)"/>
+          <text x="143" y="187" text-anchor="middle" font-size="11" fill="#1c1915">芬頓反應 → H₂O₂、</text>
+          <text x="143" y="203" text-anchor="middle" font-size="11" fill="#1c1915">超氧與羥自由基</text>
+          <rect x="300" y="120" width="168" height="54" rx="8" fill="rgba(46,74,93,0.16)" stroke="#2e4a5d"/>
+          <text x="384" y="140" text-anchor="middle" font-size="11" fill="#1c1915">PP2A 氧化失活 → tau</text>
+          <text x="384" y="155" text-anchor="middle" font-size="11" fill="#1c1915">過度磷酸化 → 纖維纏結</text>
+          <rect x="300" y="214" width="168" height="46" rx="8" fill="#fbf8f1" stroke="rgba(46,74,93,0.6)"/>
+          <text x="384" y="233" text-anchor="middle" font-size="11" fill="#1c1915">脂質過氧化</text>
+          <text x="384" y="249" text-anchor="middle" font-size="11" fill="#1c1915">（4-HNE、MDA）</text>
+          <line x1="143" y1="130" x2="143" y2="168" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="248" y1="180" x2="300" y2="156" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="248" y1="198" x2="300" y2="228" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <text x="38" y="290" font-size="10.5" font-style="italic" fill="#8d8578">Aβ 位於細胞外 → 抗體可及；tau 位於細胞內 → ASO／免疫療法試驗中。</text>
+          <text x="38" y="306" font-size="10.5" font-style="italic" fill="#8d8578">氧化 tau 種子以類普里昂方式跨突觸傳播，亞臨床期長達約 20 年。</text>
+
+          <!-- PD quadrant -->
+          <rect x="495" y="16" width="465" height="320" rx="10" fill="rgba(122,49,44,0.06)" stroke="rgba(122,49,44,0.5)"/>
+          <text x="513" y="46" font-size="14.5" font-weight="700" fill="#7a312c">巴金森氏症</text>
+          <text x="513" y="66" font-size="11.5" fill="#6d665b">α-突觸核蛋白（路易體）· 黑質緻密部之神經黑色素富含神經元</text>
+          <rect x="513" y="84" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(122,49,44,0.6)"/>
+          <text x="613" y="103" text-anchor="middle" font-size="11" fill="#1c1915">多巴胺自氧化 → 醌類</text>
+          <text x="613" y="119" text-anchor="middle" font-size="11" fill="#1c1915">加成至 α-syn 半胱胺酸</text>
+          <rect x="513" y="168" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(122,49,44,0.6)"/>
+          <text x="613" y="187" text-anchor="middle" font-size="11" fill="#1c1915">複合體 I 缺損 30–40%</text>
+          <text x="613" y="203" text-anchor="middle" font-size="11" fill="#1c1915">（MPTP / rotenone 模型）</text>
+          <rect x="740" y="168" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(122,49,44,0.6)"/>
+          <text x="840" y="187" text-anchor="middle" font-size="11" fill="#1c1915">微膠細胞 NO + O₂⁻ →</text>
+          <text x="840" y="203" text-anchor="middle" font-size="11" fill="#1c1915">過氧亞硝酸鹽（ONOO⁻）</text>
+          <rect x="740" y="84" width="200" height="46" rx="8" fill="rgba(122,49,44,0.16)" stroke="#7a312c"/>
+          <text x="840" y="103" text-anchor="middle" font-size="11" fill="#1c1915">硝化 α-syn</text>
+          <text x="840" y="119" text-anchor="middle" font-size="11" fill="#1c1915">→ 路易體</text>
+          <line x1="713" y1="107" x2="740" y2="107" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="840" y1="168" x2="840" y2="130" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <!-- neuromelanin threshold mini-curve -->
+          <line x1="513" y1="240" x2="513" y2="300" stroke="#d3c9b6"/>
+          <line x1="513" y1="300" x2="713" y2="300" stroke="#d3c9b6"/>
+          <path d="M513,252 C 570,252 610,256 640,262 C 668,268 692,286 712,296" fill="none" stroke="#7a312c" stroke-width="1.8"/>
+          <line x1="640" y1="244" x2="640" y2="300" stroke="#9a7430" stroke-dasharray="3 3"/>
+          <text x="646" y="252" font-size="9.5" fill="#9a7430">閾值</text>
+          <text x="519" y="252" font-size="9.5" fill="#8d8578">韌性</text>
+          <text x="613" y="314" text-anchor="middle" font-size="9.5" fill="#8d8578">細胞內神經黑色素負荷（年齡）→</text>
+          <text x="513" y="330" font-size="10.5" font-style="italic" fill="#8d8578">神經黑色素在閾值下具緩衝保護；跨越晚期天花板後，蛋白酶體與溶酶體相繼失效。</text>
+
+          <!-- HD quadrant -->
+          <rect x="20" y="356" width="465" height="320" rx="10" fill="rgba(154,116,48,0.07)" stroke="rgba(154,116,48,0.5)"/>
+          <text x="38" y="386" font-size="14.5" font-weight="700" fill="#9a7430">亨丁頓氏症</text>
+          <text x="38" y="406" font-size="11.5" fill="#6d665b">突變亨丁頓蛋白（polyQ 擴增）· 基因型完全決定</text>
+          <rect x="38" y="424" width="210" height="46" rx="8" fill="#fbf8f1" stroke="rgba(154,116,48,0.7)"/>
+          <text x="143" y="443" text-anchor="middle" font-size="11" fill="#1c1915">CAG &gt; 36 · HTT 第一外顯子</text>
+          <text x="143" y="459" text-anchor="middle" font-size="11" fill="#1c1915">→ mHTT 毒性功能獲得</text>
+          <rect x="280" y="424" width="185" height="46" rx="8" fill="rgba(154,116,48,0.18)" stroke="#9a7430" stroke-width="1.8"/>
+          <text x="372" y="443" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">紋狀體中型多棘</text>
+          <text x="372" y="459" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">神經元退化</text>
+          <rect x="38" y="508" width="200" height="46" rx="8" fill="#fbf8f1" stroke="rgba(154,116,48,0.6)"/>
+          <text x="138" y="527" text-anchor="middle" font-size="11" fill="#1c1915">蛋白質恆定超載：</text>
+          <text x="138" y="543" text-anchor="middle" font-size="11" fill="#1c1915">自噬 / TFEB、UPS</text>
+          <rect x="280" y="508" width="185" height="46" rx="8" fill="#fbf8f1" stroke="rgba(154,116,48,0.6)"/>
+          <text x="372" y="527" text-anchor="middle" font-size="11" fill="#1c1915">CRTC1–CREB → BDNF</text>
+          <text x="372" y="543" text-anchor="middle" font-size="11" fill="#1c1915">皮質–紋狀體養分供應↓</text>
+          <line x1="248" y1="447" x2="280" y2="447" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="143" y1="470" x2="143" y2="508" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="238" y1="520" x2="292" y2="474" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="372" y1="508" x2="372" y2="470" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <text x="38" y="590" font-size="10.5" font-style="italic" fill="#8d8578">SIRT1 具保護性（CRTC1–CREB–BDNF 挽救）· SIRT2 有害；AMT-130（AAV-miRNA）靜默 HTT†。</text>
+          <text x="38" y="606" font-size="10.5" font-style="italic" fill="#8d8578">舞蹈症、精神症狀與認知退化並進；基因型完全預測疾病。</text>
+
+          <!-- ALS quadrant -->
+          <rect x="495" y="356" width="465" height="320" rx="10" fill="rgba(52,84,67,0.07)" stroke="rgba(52,84,67,0.5)"/>
+          <text x="513" y="386" font-size="14.5" font-weight="700" fill="#345443">ALS / FTD 譜系</text>
+          <text x="513" y="406" font-size="11.5" fill="#6d665b">TDP-43 蛋白病變：≈97% 的 ALS、≈45% 的 FTD</text>
+          <rect x="513" y="424" width="215" height="54" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.7)"/>
+          <text x="620" y="443" text-anchor="middle" font-size="11" fill="#1c1915">TDP-43 誤位至細胞質 →</text>
+          <text x="620" y="459" text-anchor="middle" font-size="11" fill="#1c1915">隱秘外顯子：STMN2、UNC13A</text>
+          <rect x="745" y="424" width="195" height="46" rx="8" fill="rgba(52,84,67,0.18)" stroke="#345443" stroke-width="1.8"/>
+          <text x="842" y="443" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">軸突崩潰</text>
+          <text x="842" y="459" text-anchor="middle" font-size="11" font-weight="600" fill="#1c1915">（SARM1 NADase）</text>
+          <rect x="513" y="508" width="215" height="46" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.6)"/>
+          <text x="620" y="527" text-anchor="middle" font-size="11" fill="#1c1915">C9orf72：RNA 灶 +</text>
+          <text x="620" y="543" text-anchor="middle" font-size="11" fill="#1c1915">二肽重複蛋白（DPR）</text>
+          <rect x="513" y="566" width="215" height="46" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.6)"/>
+          <text x="620" y="585" text-anchor="middle" font-size="11" fill="#1c1915">EAAT2 缺失 → 興奮性毒性</text>
+          <text x="620" y="601" text-anchor="middle" font-size="11" fill="#1c1915">Ca²⁺ 超載（運動神經元）</text>
+          <rect x="745" y="508" width="195" height="46" rx="8" fill="#fbf8f1" stroke="rgba(52,84,67,0.6)"/>
+          <text x="842" y="527" text-anchor="middle" font-size="11" fill="#1c1915">粒線體 DNA 破裂 →</text>
+          <text x="842" y="543" text-anchor="middle" font-size="11" fill="#1c1915">cGAS–STING</text>
+          <line x1="620" y1="508" x2="620" y2="478" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="728" y1="447" x2="745" y2="447" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="842" y1="508" x2="842" y2="470" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <line x1="728" y1="578" x2="772" y2="474" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrM)"/>
+          <text x="513" y="640" font-size="10.5" font-style="italic" fill="#8d8578">SOD1 毒性功能獲得見於家族性亞群；ALS 與 FTD 構成同一臨床病理連續體。</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>每種疾病的因果主幹不同，但所有主幹都通往同一終點。</strong>AD 經由
+          類澱粉–金屬氧化還原引擎進入 tau；PD 經由三股匯聚的氧化輸入進入 α-突觸核蛋白聚集；
+          HD 經由單一重複擴增進入紋狀體神經元的轉錄與蛋白質恆定失效；
+          ALS 經由 RNA 結合蛋白的蛋白質恆定失效進入軸突崩潰。內容取自知識庫的
+          Neurodegeneration、Alzheimer's、Parkinson's、Huntington's、TDP-43 與 C9orf72 筆記。
+        </figcaption>
+      </figure>
+
+      <h3>阿茲海默症——類澱粉／tau（± TDP-43）失智症</h3>
+      <p>
+        AD 始於內側顳葉，沿邊緣系統向聯合皮質蔓延，臨床前生物標記陽性期長達約二十年。
+        知識庫的氧化還原論述別具特色：Aβ 結合具氧化還原活性的銅與鐵、催化芬頓化學，
+        產生的 H₂O₂ 氧化失活 PP2A——tau 的主要去磷酸酶——將 tau 鎖定於過度磷酸化、
+        具種子能力的狀態。表觀遺傳漂移（全域低甲基化、組織蛋白去乙醯化、miRNA 失調）
+        與 sirtuin 生物學（SIRT1／SIRT3 具保護性、SIRT2 有害）調控病程。
+        老化腦中的 TDP-43 蛋白病變（LATE）現已被認定為常見共病變：
+        它會模擬或加重 AD，並預示較差的抗類澱粉療效†。
+      </p>
+      <p>
+        <strong>2025–2026 現況†：</strong>lecanemab（2023 年取得 FDA 傳統核准；2025 年核准
+        維持劑量與皮下劑型）與 donanemab（2024 年核准；TRAILBLAZER-ALZ 2 試驗中 76 週
+        iADRS 減緩約 35%）已核准用於經澱粉樣確認的早期症狀性 AD；兩者皆有 ARIA
+        （水腫／微出血）風險，APOE ε4 同型合子者最高，須以 MRI 監測。血漿 p-tau217
+        檢測於 2025 年獲 FDA 核准，診斷正轉向血液分期；抗 tau 免疫療法與 MAPT-ASO
+        （如 diranersen）則處於中期試驗。
+      </p>
+
+      <h3>巴金森氏症——自我毒化的多巴胺神經元</h3>
+      <p>
+        PD 選擇性地殺死黑質緻密部富含神經黑色素的多巴胺神經元。知識庫的綜合論述指出三股
+        交織的機制：多巴胺固有的自氧化生成醌類、共價修飾 α-突觸核蛋白；30–40% 的複合體 I
+        缺損（可由 MPTP 與 rotenone 藥理重現）；以及微膠細胞的過氧亞硝酸鹽硝化 α-突觸核蛋白、
+        加速路易體形成。<em>神經黑色素致病閾值</em>模型解釋了這種選擇性：
+        色素在閾值以下緩衝兒茶酚與金屬而有益，跨越晚年天花板後，溶酶體與蛋白質恆定容量失效。
+        循環 SASP 特徵可區分 PD 病人與對照組，將 PD 置於老化相關神經退化的光譜之內。
+      </p>
+      <p>
+        <strong>2025–2026 現況†：</strong>目前尚無已核准的疾病修飾療法。其研發管線為神經學界最廣：
+        prasinezumab（抗 α-突觸核蛋白抗體）於 2025 年末進入第三期（PARAISO，約 900 人），
+        先前第二期在生物標記定義的快速進展者中顯示減緩；ambroxol（GCase 分子伴護蛋白）
+        於 GBA1 富集的第三期（ASPro-PD，UCL，330 人）持續；可入腦的 LRRK2 抑制劑推進中，
+        並以 GPNMB 作為溶酶體壓力藥效學標記；α-突觸核蛋白種子擴增試驗（SAA）已取得試驗收案
+        富集的資格認定。多巴胺補充療法（levodopa、COMT 與 MAO-B 抑制劑、深腦刺激術）仍屬症狀治療。
+      </p>
+
+      <h3>亨丁頓氏症——決定性的重複擴增疾病</h3>
+      <p>
+        <em>HTT</em> 第一外顯子的 CAG 重複超過 36 次即產生具毒性功能獲得的突變亨丁頓蛋白；
+        基因型完全預測疾病，發病年齡與重複次數成反比。紋狀體間接路徑的中型多棘神經元最先退化，
+        機制為蛋白質恆定超載（自噬為主要清除途徑；TFEB／PGC-1α 活化具保護性），以及
+        供應皮質至紋狀體營養支持的 CRTC1–CREB 軸受損。在知識庫的 sirtuin 層中，
+        SIRT1 具強保護性——腦特異性剔除會惡化表現型——而抑制 SIRT2 則具神經保護性。
+      </p>
+      <p>
+        <strong>2025–2026 現況†：</strong>2025 年 9 月，HD 迎來首個陽性的疾病修飾關鍵試驗結果：
+        AMT-130——一次性的 AAV5-microRNA 療法，經 MRI 導航對流遞送至紋狀體——
+        相對於以 Enroll-HD 傾向分數配對的外部對照組，36 個月時 cUHDRS 退化減緩 75%
+        （p=0.003），CSF 神經絲輕鏈低於基線（−8.2%，對照預期 +30–45%）。BLA
+        （生物藥品許可申請）預計於 2026 年第一季提交。但須附註：治療樣本數小（高劑量組 12 人）
+        且為開放標籤對外部對照。Roche 的 tominersen（HTT ASO）於第三期失敗後在限縮族群繼續；
+        舞蹈症的症狀標準治療（VMAT2 抑制劑）維持不變。
+      </p>
+
+      <h3>ALS 與 ALS–FTD 譜系——RNA 結合蛋白的蛋白質恆定失效</h3>
+      <p>
+        核內 RNA 結合蛋白 TDP-43 誤位至細胞質的情形見於約 97% 的 ALS 與約 45% 的 FTD，
+        並在 <em>STMN2</em>、<em>UNC13A</em> 等轉錄本釋出隱秘外顯子，破壞軸突穩定與突觸傳遞。
+        C9orf72 六核苷酸重複擴增——最常見的遺傳成因——除了單倍體不足（正常蛋白質本身即調控自噬）
+        之外，還加入毒性 RNA 灶與二肽重複蛋白。運動神經元的選擇性脆弱反映局部化學：
+        星形膠質細胞 EAAT2 麩胺酸清除不足導致興奮性毒性鈣超載（NOX2、calpain），
+        SARM1 介導的 NAD⁺ 耗竭則執行軸突毀滅。粒線體破裂會啟動 cGAS–STING，
+        使先天免疫成為可治療的軸線。
+      </p>
+      <p>
+        <strong>2025–2026 現況†：</strong>FDA 已核准四種藥物——riluzole（1995）、edaravone（2017）、
+        sodium phenylbutyrate/taurursodiol（2024 年 4 月因第三期失敗下市），以及 tofersen（2023）——
+        後者是首個精準神經退化療法：鞘內注射的 SOD1-ASO，以生物標記為準核準
+        （血漿 NfL −55%），目前正在 ATLAS 試驗中對 NfL 升高的無症狀 SOD1 帶因者進行
+        前症狀期治療。ASO 浪潮延伸至 C9orf72（對偶基因選擇性 WVE-004）、FUS（ION363），以及
+        原則上適用於約 97% ALS 的 ATXN2 與 UNC13A 標的；masitinib 於 2025 年進入確認性第三期。
+        血漿 NfL 已是本領域經驗證的藥效學替代指標。
+      </p>
+    </section>
+
+    <section id="propagation">
+      <p class="sec-label">傳播途徑</p>
+      <h2>傳播路徑：沿解剖迴路的類普里昂式錯摺疊</h2>
+      <p>
+        每種疾病的錯摺疊蛋白皆以類普里昂方式沿不同的解剖路徑傳播——此性質由 Braak 分期
+        首先系統化，如今已有種子增殖試驗的機制支持。路徑決定症狀順序，速度決定展開的快慢。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · 傳播拓撲——解剖學分期鏈</span></div>
+        <div class="copy-host">
+        <svg id="spreadSvg" viewBox="0 0 980 452" role="img" aria-label="各疾病的解剖學傳播分期鏈">
+          <defs>
+            <marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(109,102,91,0.75)"/></marker>
+          </defs>
+
+          <!-- AD row -->
+          <text x="82" y="55" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">阿茲海默症</text>
+          <rect x="98" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.12)" stroke="rgba(46,74,93,0.6)"/>
+          <text x="188" y="55" text-anchor="middle" font-size="11.5" fill="#1c1915">內嗅皮質</text>
+          <rect x="306" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.12)" stroke="rgba(46,74,93,0.6)"/>
+          <text x="396" y="47" text-anchor="middle" font-size="11.5" fill="#1c1915">海馬迴 /</text>
+          <text x="396" y="63" text-anchor="middle" font-size="11.5" fill="#1c1915">內側顳葉</text>
+          <rect x="514" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.12)" stroke="rgba(46,74,93,0.6)"/>
+          <text x="604" y="55" text-anchor="middle" font-size="11.5" fill="#1c1915">邊緣系統</text>
+          <rect x="722" y="26" width="180" height="50" rx="8" fill="rgba(46,74,93,0.28)" stroke="#2e4a5d"/>
+          <text x="812" y="55" text-anchor="middle" font-size="11.5" fill="#1c1915">聯合新皮質</text>
+          <line x1="278" y1="51" x2="306" y2="51" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="486" y1="51" x2="514" y2="51" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="694" y1="51" x2="722" y2="51" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="96" font-size="10.5" fill="#8d8578">≈20 年亞臨床期；tau 種子以跨突觸方式傳播數十年</text>
+
+          <!-- PD row -->
+          <text x="82" y="161" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">巴金森氏症</text>
+          <rect x="98" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="170" y="153" text-anchor="middle" font-size="10.5" fill="#1c1915">迷走神經背運動核 /</text>
+          <text x="170" y="169" text-anchor="middle" font-size="10.5" fill="#1c1915">嗅球</text>
+          <rect x="271" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="343" y="161" text-anchor="middle" font-size="10.5" fill="#1c1915">藍斑核</text>
+          <rect x="444" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.28)" stroke="#7a312c"/>
+          <text x="516" y="161" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1c1915">黑質</text>
+          <rect x="617" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="689" y="161" text-anchor="middle" font-size="10.5" fill="#1c1915">邊緣系統</text>
+          <rect x="790" y="132" width="145" height="50" rx="8" fill="rgba(122,49,44,0.12)" stroke="rgba(122,49,44,0.6)"/>
+          <text x="862" y="161" text-anchor="middle" font-size="10.5" fill="#1c1915">新皮質</text>
+          <line x1="243" y1="157" x2="271" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="416" y1="157" x2="444" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="589" y1="157" x2="617" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="762" y1="157" x2="790" y2="157" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="202" font-size="10.5" fill="#8d8578">Braak 尾側→吻側序列；腸道／嗅覺進入假說；前驅期長達十年以上</text>
+
+          <!-- HD row -->
+          <text x="82" y="267" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">亨丁頓氏症</text>
+          <rect x="98" y="238" width="260" height="50" rx="8" fill="rgba(154,116,48,0.28)" stroke="#9a7430"/>
+          <text x="228" y="259" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1c1915">紋狀體——尾核與殼核</text>
+          <text x="228" y="275" text-anchor="middle" font-size="10.5" fill="#1c1915">（中型多棘神經元，間接路徑）</text>
+          <rect x="386" y="238" width="260" height="50" rx="8" fill="rgba(154,116,48,0.12)" stroke="rgba(154,116,48,0.6)"/>
+          <text x="516" y="267" text-anchor="middle" font-size="11.5" fill="#1c1915">瀰漫性皮質侵犯（晚期）</text>
+          <line x1="358" y1="263" x2="386" y2="263" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="308" font-size="10.5" fill="#8d8578">以紋狀體為中心退化；皮質侵犯隨後；動作、精神與認知症狀共同演化</text>
+
+          <!-- ALS row -->
+          <text x="82" y="373" text-anchor="end" font-size="13" font-weight="600" fill="#1c1915">ALS / FTD</text>
+          <rect x="98" y="344" width="180" height="50" rx="8" fill="rgba(52,84,67,0.12)" stroke="rgba(52,84,67,0.6)"/>
+          <text x="188" y="373" text-anchor="middle" font-size="11.5" fill="#1c1915">運動皮質</text>
+          <rect x="306" y="344" width="180" height="50" rx="8" fill="rgba(52,84,67,0.12)" stroke="rgba(52,84,67,0.6)"/>
+          <text x="396" y="373" text-anchor="middle" font-size="11.5" fill="#1c1915">腦幹運動神經核</text>
+          <rect x="514" y="344" width="180" height="50" rx="8" fill="rgba(52,84,67,0.28)" stroke="#345443"/>
+          <text x="604" y="373" text-anchor="middle" font-size="11.5" fill="#1c1915">脊髓（前角）</text>
+          <rect x="722" y="344" width="180" height="50" rx="8" fill="none" stroke="#345443" stroke-dasharray="4 3"/>
+          <text x="812" y="369" text-anchor="middle" font-size="11.5" fill="#1c1915">± FTD：額葉與</text>
+          <text x="812" y="385" text-anchor="middle" font-size="11.5" fill="#1c1915">顳葉</text>
+          <line x1="278" y1="369" x2="306" y2="369" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="486" y1="369" x2="514" y2="369" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <line x1="694" y1="369" x2="722" y2="369" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrS)"/>
+          <text x="98" y="414" font-size="10.5" fill="#8d8578">四者中病程最快；相同的 TDP-43 病理停留於額顳葉時，即表現為行為變異型 FTD</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>路徑不同，機制相同。</strong>AD 與 PD 的病理沿解剖連結的迴路逐級上升
+          （Braak 分期）；HD 由基因在紋狀體播種；ALS 沿皮質脊髓軸推進，並可能出口至 FTD。
+          底色較深的方塊標示各疾病的臨床優勢病灶。
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="comparison">
+      <p class="sec-label">對照比較</p>
+      <h2>正面對照</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:15%">面向</th>
+              <th style="width:21%">阿茲海默症</th>
+              <th style="width:21%">巴金森氏症</th>
+              <th style="width:21%">亨丁頓氏症</th>
+              <th style="width:22%">ALS / FTD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>核心蛋白病變</strong></td>
+              <td>Aβ（細胞外）+ tau（細胞內）；部分病例合併 TDP-43（LATE）或路易體共病變</td>
+              <td>α-突觸核蛋白（路易體）</td>
+              <td>突變亨丁頓蛋白（polyQ）核內／包涵體病理</td>
+              <td>TDP-43（≈97% ALS、≈45% FTD）；部分亞群有 SOD1、FUS、C9orf72 二肽重複；FTD-tau 含 tau</td>
+            </tr>
+            <tr>
+              <td><strong>主要觸發條件</strong></td>
+              <td>老化驅動的多重蛋白病變；APOE ε4；金屬–氧化還原放大</td>
+              <td>多巴胺自氧化 + 複合體 I 缺損 + 神經黑色素閾值</td>
+              <td><em>HTT</em> 的決定性 CAG 擴增（&gt;36）</td>
+              <td>重複擴增與 RNA 結合蛋白質恆定失效；多為散發</td>
+            </tr>
+            <tr>
+              <td><strong>遺傳比例</strong></td>
+              <td>約 1–5% 為孟德爾遺傳（PSEN1/2、APP）；APOE ε4 為常見風險對偶基因</td>
+              <td>約 5–10% 單基因（SNCA、LRRK2、GBA1、PRKN、PINK1、DJ-1）；多為散發</td>
+              <td>100% 體染色體顯性</td>
+              <td>約 10% 家族性；C9orf72 約占家族性 ALS 的 40%</td>
+            </tr>
+            <tr>
+              <td><strong>脆弱細胞類型</strong></td>
+              <td>海馬迴／內嗅皮質與聯合皮質之麩胺酸神經元</td>
+              <td>黑質緻密部富含神經黑色素之多巴胺神經元</td>
+              <td>紋狀體中型多棘神經元（間接路徑）</td>
+              <td>上與下運動神經元（ALS）；額／顳葉神經元（FTD）</td>
+            </tr>
+            <tr>
+              <td><strong>為何是這些細胞</strong></td>
+              <td>Aβ–金屬芬頓化學；PP2A 氧化 → tau；依賴突觸可塑性</td>
+              <td>多巴胺氧化化學在多巴胺神經元內無可避免；神經黑色素閾值模型</td>
+              <td>mHTT 轉錄失調（CRTC1–CREB → BDNF）、蛋白質恆定、皮質–紋狀體麩胺酸</td>
+              <td>代謝需求最高；EAAT2 麩胺酸清除最弱 → 興奮性毒性；長軸突 / SARM1</td>
+            </tr>
+            <tr>
+              <td><strong>傳播拓撲</strong></td>
+              <td>經內嗅皮質 → 邊緣系統 → 新皮質（Braak）；tau 類普里昂式傳播</td>
+              <td>尾側腦幹 → 藍斑核 → 黑質 → 邊緣系統 → 皮質；腸道／迷走神經進入假說</td>
+              <td>以紋狀體為中心；晚期才侵犯皮質</td>
+              <td>運動皮質 + 脊髓（ALS）；額顳葉（FTD）；TDP-43 貫穿整個譜系</td>
+            </tr>
+            <tr>
+              <td><strong>前驅期 / 病程</strong></td>
+              <td>≈20 年無症狀澱粉樣期；退化歷時數十年</td>
+              <td>十年以上前驅期（REM 睡眠行為障礙、嗅覺減退、便秘）</td>
+              <td>出生即知基因型；發病 30–50 歲；病程 15–20 年</td>
+              <td>突然發病；四者中最快（確診後中位存活 2–5 年）</td>
+            </tr>
+            <tr>
+              <td><strong>關鍵生物標記 †</strong></td>
+              <td>澱粉樣／tau PET；CSF Aβ42/40 與 p-tau181/Aβ42；血漿 p-tau217（2025 年 FDA 核准）</td>
+              <td>α-突觸核蛋白種子擴增試驗（2024 年資格認定）；DAT 影像；神經黑色素 MRI；GPNMB</td>
+              <td>CAG 基因型；CSF／血漿 NfL；紋狀體體積 MRI</td>
+              <td>血漿 NfL（經驗證替代指標）；基因檢測；STMN2／UNC13A 隱秘外顯子檢測（新興）</td>
+            </tr>
+            <tr>
+              <td><strong>已核准之疾病修飾療法 †</strong></td>
+              <td>lecanemab（2023）、donanemab（2024）——減緩約 25–35%；ARIA 風險</td>
+              <td><strong>無</strong></td>
+              <td><strong>無</strong>（AMT-130 已於 2026 年第一季提交 BLA）</td>
+              <td>tofersen（2023，僅限 SOD1-ALS，以生物標記為基礎的核准）</td>
+            </tr>
+            <tr>
+              <td><strong>症狀治療標準</strong></td>
+              <td>膽鹼酶抑制劑、memantine</td>
+              <td>levodopa/carbidopa、MAO-B 與 COMT 抑制劑、多巴胺促效劑、深腦刺激術</td>
+              <td>VMAT2 抑制劑（舞蹈症）</td>
+              <td>riluzole、edaravone（sodium phenylbutyrate/taurursodiol 已於 2024 年下市）</td>
+            </tr>
+            <tr>
+              <td><strong>後期研發管線 †</strong></td>
+              <td>抗 tau 免疫療法與 ASO（含 diranersen）；以血液生物標記引導的早期治療</td>
+              <td>prasinezumab 第三期（PARAISO）；ambroxol 第三期（ASPro-PD）；LRRK2 抑制劑；幹細胞療法</td>
+              <td>AMT-130；tominersen（限縮族群）；口服 HTT 降低療法</td>
+              <td>C9orf72／FUS／ATXN2／UNC13A ASO；masitinib 第三期；STMN2 修復</td>
+            </tr>
+            <tr>
+              <td><strong>本知識庫的著重點</strong></td>
+              <td>氧化壓力、表觀遺傳、sirtuins、自噬</td>
+              <td>神經黑色素、腎上腺色素／COMT、細胞老化／SASP</td>
+              <td>sirtuins（SIRT1）、自噬／TFEB</td>
+              <td>發炎、cGAS–STING、氧化壓力</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:.85rem;color:var(--mute)">† 2024–2026 網路文獻推導之主張；見<a href="#sources">來源</a>。</p>
+    </section>
+
+    <section id="vulnerability">
+      <p class="sec-label">治療邏輯</p>
+      <h2>選擇性脆弱性，以及「療法跟隨標的拓撲」的規則</h2>
+      <p>
+        比較神經退化學最尖銳的問題是：既然致病蛋白通常廣泛表現，為何只有某一群神經元死亡、
+        其鄰居卻存活？知識庫給出的答案是局部化學：<em>蛋白質是火種，細胞的局部生化環境才是火花</em>。
+        多巴胺神經元被自己所攜帶的神經傳遞物毒殺；運動神經元在 EAAT2 依賴的麩胺酸清除失效後，
+        被自身的興奮性驅動殺死；紋狀體多棘神經元死於轉錄與營養的短缺；
+        海馬迴神經元則臣服於 Aβ 播種的緩慢金屬–氧化還原／tau 級聯。
+      </p>
+      <p>
+        療法只有在「模式與毒性物質所在位置匹配」時才會成功。細胞外聚集物可被抗體觸及；
+        細胞內且基因定義明確的毒素需要核酸療法；而當不存在單一優勢物種時，只剩共享軸線的介入。
+        2023–2026 年的臨床紀錄完全遵循這條規則†。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · 治療邏輯——療法模式由標的所在位置決定</span></div>
+        <div class="copy-host">
+        <svg id="therapySvg" viewBox="0 0 980 470" role="img" aria-label="決策樹：依毒性物質位置對應療法模式">
+          <defs>
+            <marker id="arrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(109,102,91,0.75)"/></marker>
+          </defs>
+          <rect x="340" y="14" width="300" height="46" rx="10" fill="#fbf8f1" stroke="rgba(28,25,21,0.45)"/>
+          <text x="490" y="42" text-anchor="middle" font-size="13" font-weight="600" fill="#1c1915">毒性物質位於何處？</text>
+          <line x1="490" y1="60" x2="170" y2="106" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="490" y1="60" x2="490" y2="106" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="490" y1="60" x2="810" y2="106" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+
+          <rect x="30" y="108" width="280" height="48" rx="8" fill="rgba(46,74,93,0.10)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="170" y="137" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1915">細胞外聚集物</text>
+          <rect x="350" y="108" width="280" height="48" rx="8" fill="rgba(46,74,93,0.10)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="490" y="137" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1915">細胞內且單基因</text>
+          <rect x="670" y="108" width="280" height="48" rx="8" fill="rgba(46,74,93,0.10)" stroke="rgba(46,74,93,0.55)"/>
+          <text x="810" y="137" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1915">無單一優勢物種</text>
+
+          <line x1="170" y1="156" x2="170" y2="184" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="490" y1="156" x2="490" y2="184" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+          <line x1="810" y1="156" x2="810" y2="184" stroke="rgba(109,102,91,0.7)" marker-end="url(#arrT)"/>
+
+          <rect x="30" y="186" width="280" height="66" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="44" y="206" font-size="10" font-weight="700" fill="#2e4a5d">阿茲海默症——免疫療法</text>
+          <text x="44" y="224" font-size="11" fill="#1c1915">lecanemab（2023）、donanemab（2024）</text>
+          <text x="44" y="240" font-size="11" fill="#1c1915">已核准；減緩 ≈25–35%；ARIA 風險†</text>
+
+          <rect x="30" y="266" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="44" y="286" font-size="10" font-weight="700" fill="#7a312c">巴金森氏症——抗體試驗中</text>
+          <text x="44" y="304" font-size="11" fill="#1c1915">prasinezumab（抗 α-synuclein）——</text>
+          <text x="44" y="318" font-size="11" fill="#1c1915">第三期 PARAISO（2025 年收案）†</text>
+
+          <rect x="350" y="186" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="364" y="206" font-size="10" font-weight="700" fill="#345443">ALS——SOD1 ASO，已核准</text>
+          <text x="364" y="224" font-size="11" fill="#1c1915">tofersen（2023）：血漿 NfL −55%；†</text>
+          <text x="364" y="238" font-size="11" fill="#1c1915">前症狀期 ATLAS 試驗進行中†</text>
+
+          <rect x="350" y="258" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="364" y="278" font-size="10" font-weight="700" fill="#9a7430">亨丁頓氏症——AAV-miRNA</text>
+          <text x="364" y="296" font-size="11" fill="#1c1915">AMT-130：36 個月減緩 75%；†</text>
+          <text x="364" y="310" font-size="11" fill="#1c1915">BLA 於 2026 年第一季提交†</text>
+
+          <rect x="350" y="330" width="280" height="58" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="364" y="350" font-size="10" font-weight="700" fill="#6d665b">研發中的 ASO</text>
+          <text x="364" y="368" font-size="11" fill="#1c1915">tominersen（HTT）、WVE-004（C9orf72）、</text>
+          <text x="364" y="382" font-size="11" fill="#1c1915">ION363（FUS）、ATXN2／UNC13A†</text>
+
+          <rect x="670" y="186" width="280" height="116" rx="8" fill="#fbf8f1" stroke="#d3c9b6"/>
+          <text x="684" y="206" font-size="10" font-weight="700" fill="#6d665b">共享軸線介入</text>
+          <text x="684" y="224" font-size="11" fill="#1c1915">蛋白質恆定支持（自噬 / TFEB），</text>
+          <text x="684" y="240" font-size="11" fill="#1c1915">粒線體輔因子（CoQ10、肌酸），</text>
+          <text x="684" y="256" font-size="11" fill="#1c1915">抗發炎藥（masitinib），</text>
+          <text x="684" y="272" font-size="11" fill="#1c1915">senolytic / senomorphic，</text>
+          <text x="684" y="288" font-size="11" fill="#1c1915">生活型態介入（運動、禁食）</text>
+
+          <rect x="30" y="410" width="920" height="44" rx="8" fill="rgba(154,116,48,0.10)" stroke="rgba(154,116,48,0.5)"/>
+          <text x="490" y="437" text-anchor="middle" font-size="11.5" fill="#1c1915">生物標記把關：澱粉樣 PET／血漿 p-tau217 → 抗體資格 · 基因型 + NfL → 靜默試驗 · α-syn SAA → 收案富集†</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>2023–2026 年紀錄的統一規則。</strong>抗體只有在標的位於細胞外時核准成功（Aβ）；
+          核酸療法只有在單一優勢細胞內毒素且基因定義明確時取得核准與關鍵試驗成功（SOD1、HTT）。
+          沒有優勢物種的疾病——散發性 AD、散發性 ALS、PD——只能依靠共享軸線介入，
+          而這些介入仍屬研究性質。
+        </figcaption>
+      </figure>
+
+      <div class="note slate">
+        <h4>為何共病變會稀釋抗類澱粉的療效</h4>
+        <p>
+          AD 腦中經常同時存在 TDP-43（LATE）、路易體與血管病變，它們的進展與類澱粉彼此獨立。
+          清除 Aβ 因此只拆除了好幾個時鐘中的一個。這正是「澱粉樣陽性但退化程度異質」的
+          臨床試驗結果的機制基礎，也是新興實務——先以血漿 p-tau217 與 tau PET 為病人分期、
+          再決定治療——的依據†。
+        </p>
+      </div>
+    </section>
+
+    <section id="graph">
+      <p class="sec-label">圖譜分析</p>
+      <h2>知識庫自身的圖譜顯示了什麼</h2>
+      <p>
+        本知識庫的 wiki 圖譜含 3,007 個節點、35,150 條 wikilink 邊。節點度數——
+        一個實體被多少實體筆記引用——直接呈現語料集中生物學的密度分布。
+        疾病節點以紅色表示，機制與分子節點以藍色表示。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · wiki 圖譜中疾病與機制樞紐的度數</span></div>
+        <div class="copy-host">
+        <svg id="degreeSvg" viewBox="0 0 980 434" role="img" aria-label="wiki 圖譜度數橫條圖">
+          <rect x="90" y="8" width="14" height="14" fill="#7a312c"/>
+          <text x="110" y="19" font-size="11.5" fill="#6d665b">疾病節點</text>
+          <rect x="240" y="8" width="14" height="14" fill="#4c6e86"/>
+          <text x="260" y="19" font-size="11.5" fill="#6d665b">機制 / 分子節點</text>
+          <line x1="330.3" y1="30" x2="330.3" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="438.6" y1="30" x2="438.6" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="546.9" y1="30" x2="546.9" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="655.2" y1="30" x2="655.2" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="763.5" y1="30" x2="763.5" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="871.8" y1="30" x2="871.8" y2="392" stroke="#d3c9b6" opacity="0.6"/>
+          <line x1="222" y1="28" x2="222" y2="392" stroke="#d3c9b6" stroke-width="1.4"/>
+          <text x="330" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">100</text>
+          <text x="439" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">200</text>
+          <text x="547" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">300</text>
+          <text x="655" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">400</text>
+          <text x="764" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">500</text>
+          <text x="872" y="408" text-anchor="middle" font-size="10.5" fill="#8d8578">600</text>
+          <text x="222" y="426" text-anchor="middle" font-size="11" fill="#6d665b">wikilink 度數（邊）→</text>
+
+          <text x="212" y="51" text-anchor="end" font-size="12" fill="#1c1915">氧化壓力</text>
+          <rect x="222" y="38" width="640" height="18" fill="#4c6e86"/>
+          <text x="869" y="51" font-size="11" fill="#6d665b">591</text>
+          <text x="212" y="79" text-anchor="end" font-size="12" fill="#1c1915">巴金森氏症</text>
+          <rect x="222" y="66" width="317" height="18" fill="#7a312c"/>
+          <text x="546" y="79" font-size="11" fill="#6d665b">293</text>
+          <text x="212" y="107" text-anchor="end" font-size="12" fill="#1c1915">阿茲海默症</text>
+          <rect x="222" y="94" width="220" height="18" fill="#7a312c"/>
+          <text x="449" y="107" font-size="11" fill="#6d665b">203</text>
+          <text x="212" y="135" text-anchor="end" font-size="12" fill="#1c1915">神經退化</text>
+          <rect x="222" y="122" width="205" height="18" fill="#7a312c"/>
+          <text x="434" y="135" font-size="11" fill="#6d665b">189</text>
+          <text x="212" y="163" text-anchor="end" font-size="12" fill="#1c1915">粒線體功能異常</text>
+          <rect x="222" y="150" width="147" height="18" fill="#4c6e86"/>
+          <text x="376" y="163" font-size="11" fill="#6d665b">136</text>
+          <text x="212" y="191" text-anchor="end" font-size="12" fill="#1c1915">神經黑色素</text>
+          <rect x="222" y="178" width="145" height="18" fill="#4c6e86"/>
+          <text x="374" y="191" font-size="11" fill="#6d665b">134</text>
+          <text x="212" y="219" text-anchor="end" font-size="12" fill="#1c1915">多巴胺</text>
+          <rect x="222" y="206" width="134" height="18" fill="#4c6e86"/>
+          <text x="363" y="219" font-size="11" fill="#6d665b">124</text>
+          <text x="212" y="247" text-anchor="end" font-size="12" fill="#1c1915">COMT</text>
+          <rect x="222" y="234" width="132" height="18" fill="#4c6e86"/>
+          <text x="361" y="247" font-size="11" fill="#6d665b">122</text>
+          <text x="212" y="275" text-anchor="end" font-size="12" fill="#1c1915">Tau</text>
+          <rect x="222" y="262" width="75" height="18" fill="#4c6e86"/>
+          <text x="304" y="275" font-size="11" fill="#6d665b">69</text>
+          <text x="212" y="303" text-anchor="end" font-size="12" fill="#1c1915">α-突觸核蛋白</text>
+          <rect x="222" y="290" width="70" height="18" fill="#4c6e86"/>
+          <text x="299" y="303" font-size="11" fill="#6d665b">65</text>
+          <text x="212" y="331" text-anchor="end" font-size="12" fill="#1c1915">ALS</text>
+          <rect x="222" y="318" width="54" height="18" fill="#7a312c"/>
+          <text x="283" y="331" font-size="11" fill="#6d665b">50</text>
+          <text x="212" y="359" text-anchor="end" font-size="12" fill="#1c1915">亨丁頓氏症</text>
+          <rect x="222" y="346" width="41" height="18" fill="#7a312c"/>
+          <text x="270" y="359" font-size="11" fill="#6d665b">38</text>
+          <text x="212" y="387" text-anchor="end" font-size="12" fill="#1c1915">額顳葉失智症</text>
+          <rect x="222" y="374" width="27" height="18" fill="#7a312c"/>
+          <text x="256" y="387" font-size="11" fill="#6d665b">25</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>從結構上看，這個語料庫是一個以 PD 與氧化為中心、以 AD 為認知鏡像的知識庫。</strong>
+          氧化壓力是整個知識庫最大的樞紐（591 邊），PD 的度數（293）超過 HD（38）的五倍、
+          FTD（25）的六倍——這是對知識庫深度所在的可量化陳述，同時也是未來增補的缺口地圖。
+        </figcaption>
+      </figure>
+
+      <p>
+        疾病鄰域之間的共享鄰居（Jaccard）重疊，量化了四種疾病在知識庫自身連結中的糾纏程度。
+        AD–PD 是糾纏最深的一對；HD 最為獨特；而 TDP-43–C9orf72–FTD 三元組在圖譜中幾乎不可分離——
+        這正是對 ALS–FTD 譜系的忠實呈現。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>疾病對</th><th class="num">共享鄰居</th><th class="num">Jaccard</th><th>重疊最多的概念</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>阿茲海默症 &amp; 巴金森氏症</td><td class="num">94</td><td class="num" style="background:rgba(122,49,44,0.42)"><strong>0.263</strong></td><td>氧化壓力、SIRT1、自噬、老化、SIRT3、發炎老化、cGAS–STING、鐵死亡、粒線體自噬</td></tr>
+            <tr><td>TDP-43 &amp; C9orf72</td><td class="num">7</td><td class="num" style="background:rgba(122,49,44,0.40)"><strong>0.250</strong></td><td>cGAS–STING、cGAS、STING、第一型干擾素、ALS、FTD</td></tr>
+            <tr><td>巴金森氏症 &amp; α-突觸核蛋白</td><td class="num">58</td><td class="num" style="background:rgba(122,49,44,0.34)">0.216</td><td>自噬、TFEB、神經黑色素、多巴胺、黑質緻密部、過氧亞硝酸鹽</td></tr>
+            <tr><td>TDP-43 &amp; tauopathy</td><td class="num">6</td><td class="num" style="background:rgba(122,49,44,0.29)">0.182</td><td>cGAS–STING、粒線體 DNA、第一型干擾素、蛋白病變、FTD</td></tr>
+            <tr><td>阿茲海默症 &amp; ALS</td><td class="num">29</td><td class="num" style="background:rgba(122,49,44,0.23)">0.143</td><td>SIRT1、SIRT3、SIRT6、cGAS–STING、DNA 損傷、脂質過氧化</td></tr>
+            <tr><td>阿茲海默症 &amp; 亨丁頓氏症</td><td class="num">25</td><td class="num" style="background:rgba(122,49,44,0.20)">0.128</td><td>SIRT1、自噬、TFEB、PGC-1α、SIRT2、未摺疊蛋白反應</td></tr>
+            <tr><td>亨丁頓氏症 &amp; ALS</td><td class="num">6</td><td class="num" style="background:rgba(122,49,44,0.13)">0.080</td><td>SIRT1、cGAS–STING、UPR、蛋白病變、phenylbutyrate</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        各疾病在知識庫各主題中被引用的分布完成了這幅圖像——PD 的深度來自神經黑色素與
+        腎上腺色素主題；AD 的分布最為均勻；HD 偏向 sirtuin 與自噬；ALS 則集中於跨主題的共享實體。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>wiki 主題</th><th class="num">AD</th><th class="num">PD</th><th class="num">HD</th><th class="num">ALS</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>_link/（共享實體）</td><td class="num" style="background:rgba(46,74,93,0.46)">158</td><td class="num" style="background:rgba(46,74,93,0.45)">156</td><td class="num" style="background:rgba(46,74,93,0.16)">40</td><td class="num" style="background:rgba(46,74,93,0.14)">30</td></tr>
+            <tr><td>oxidative_stress</td><td class="num" style="background:rgba(46,74,93,0.46)">27</td><td class="num" style="background:rgba(46,74,93,0.45)">26</td><td class="num" style="background:rgba(46,74,93,0.08)">1</td><td class="num" style="background:rgba(46,74,93,0.10)">3</td></tr>
+            <tr><td>sirtuins</td><td class="num" style="background:rgba(46,74,93,0.42)">17</td><td class="num" style="background:rgba(46,74,93,0.46)">19</td><td class="num" style="background:rgba(46,74,93,0.33)">13</td><td class="num" style="background:rgba(46,74,93,0.19)">6</td></tr>
+            <tr><td>adrenochrome</td><td class="num" style="background:rgba(46,74,93,0.30)">16</td><td class="num" style="background:rgba(46,74,93,0.46)">27</td><td class="num">—</td><td class="num" style="background:rgba(46,74,93,0.08)">1</td></tr>
+            <tr><td>epigenetics</td><td class="num" style="background:rgba(46,74,93,0.46)">16</td><td class="num" style="background:rgba(46,74,93,0.44)">15</td><td class="num" style="background:rgba(46,74,93,0.19)">5</td><td class="num" style="background:rgba(46,74,93,0.24)">7</td></tr>
+            <tr><td>autophagy</td><td class="num" style="background:rgba(46,74,93,0.46)">15</td><td class="num" style="background:rgba(46,74,93,0.46)">15</td><td class="num" style="background:rgba(46,74,93,0.27)">8</td><td class="num" style="background:rgba(46,74,93,0.11)">2</td></tr>
+            <tr><td><strong>neuromelanin</strong></td><td class="num" style="background:rgba(46,74,93,0.08)">4</td><td class="num" style="background:rgba(46,74,93,0.46)"><strong>74</strong></td><td class="num" style="background:rgba(46,74,93,0.07)">2</td><td class="num">—</td></tr>
+            <tr><td>comt</td><td class="num" style="background:rgba(46,74,93,0.13)">2</td><td class="num" style="background:rgba(46,74,93,0.46)">11</td><td class="num">—</td><td class="num">—</td></tr>
+            <tr><td>senescence</td><td class="num" style="background:rgba(46,74,93,0.30)">3</td><td class="num" style="background:rgba(46,74,93,0.46)">5</td><td class="num" style="background:rgba(46,74,93,0.22)">2</td><td class="num" style="background:rgba(46,74,93,0.14)">1</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:.85rem;color:var(--mute)">儲存格底色與各列最大值成比例。全部主題合計：PD 352 檔 · AD 264 · HD 72 · ALS 50。</p>
+    </section>
+
+    <section id="takeaways">
+      <p class="sec-label">結語</p>
+      <h2>趨同與分歧</h2>
+      <div class="note forest">
+        <h4>一句話的綜合</h4>
+        <p>
+          神經退化性疾病共享一個矩陣——老化、蛋白質恆定失效、粒線體與氧化壓力、先天免疫活化——
+          但初始條件各異；療法只有在與該初始條件匹配時才會成功：細胞外聚集物接受抗體、
+          基因定義的細胞內毒素接受基因靜默、其餘一切接受共享軸線的支持性介入。
+        </p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th style="width:50%">趨同（共享）</th><th style="width:50%">分歧（疾病特異）</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>蛋白質恆定崩潰；自噬–溶酶體與蛋白酶體失效</td><td>哪種蛋白質錯摺疊，以及它位於細胞外或細胞內</td></tr>
+            <tr><td>粒線體功能異常與粒線體自噬受損</td><td>複合體 I（PD）vs. 粒線體 DNA 破裂／TDP-43（ALS）vs. Δψm／PGC-1α（HD）vs. Aβ–電子傳遞鏈（AD）</td></tr>
+            <tr><td>氧化與硝化壓力、脂質過氧化、鐵死亡</td><td>多巴胺自氧化（PD）vs. 芬頓金屬 Aβ（AD）vs. NOX2／calpain 興奮性毒性（ALS）</td></tr>
+            <tr><td>神經發炎、微膠細胞與星形膠質細胞、cGAS–STING</td><td>免疫主導（ALS／FTD／tau）vs. 化學主導（PD）vs. 表觀遺傳主導（HD）</td></tr>
+            <tr><td>細胞老化／SASP／發炎老化經老化膠質 bridging</td><td>症狀拓撲：認知（AD）vs. 動作（PD、HD）vs. 運動神經元死亡（ALS）</td></tr>
+            <tr><td>錯摺疊蛋白的類普里昂式模板傳播</td><td>路徑與速度：Braak 邊緣–皮質（AD、PD）vs. 紋狀體（HD）vs. 皮質脊髓（ALS）</td></tr>
+            <tr><td>生物標記作為共同的試驗賦能者（NfL、PET、SAA、p-tau217）</td><td>哪種生物標記把關哪種療法：澱粉樣 PET → 抗體；基因型 + NfL → 靜默療法</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="sources">
+      <p class="sec-label">來源</p>
+      <h2>來源與方法</h2>
+      <h3>知識庫（主要）</h3>
+      <p>
+        <code>src/notes/</code> 的實體筆記：<code>_link/</code>（Neurodegeneration、Alzheimer's
+        Disease、Parkinson's Disease、Huntington's Disease、Amyotrophic Lateral Sclerosis、Tau、
+        Tauopathy、TDP-43、C9orf72、SOD1、HTT、Alpha-synuclein、Frontotemporal Dementia、
+        cGAS-STING Pathway、SARM1、Amyloid Beta）；<code>neuromelanin/</code>（Neuromelanin、
+        Pathogenic Threshold of Neuromelanin、Lewy Bodies、Glucocerebrosidase、Ambroxol、
+        Substantia Nigra Pars Compacta、MPTP）；<code>oxidative_stress/</code>（Oxidative Stress、
+        Reactive Nitrogen Species、4-Hydroxynonenal、Malondialdehyde、Ferroptosis）；
+        <code>senescence/</code>（粒線體功能異常與細胞老化文獻，Hruby &amp; Higuchi-Sanabria 2025）；
+        以及 sirtuins、autophagy、comt、epigenetics、adrenochrome 主題。
+      </p>
+      <h3>圖譜方法</h3>
+      <p>
+        度數、社群與疾病之間的直接連結在 <code>wiki-out/wiki-graph.json</code>
+        （3,007 節點 / 35,150 邊）上計算。Jaccard 係數定義為
+        |鄰居(A) ∩ 鄰居(B)| / |鄰居(A) ∪ 鄰居(B)|。主題提及計數為各主題目錄中
+        含有該疾病詞彙的 <code>.md</code> 檔案數。triples 圖譜的陳述來自
+        <code>graphify-out/graph.json</code> 的 BFS 走訪。
+      </p>
+      <h3>文獻（2024–2026；標註 † 的主張）</h3>
+      <ul>
+        <li>FDA 核准 Kisunla（donanemab，2024 年 7 月）；lecanemab 傳統核准（2023）與維持、皮下劑型（2025）；EMA 核准 2025–2026；aducanumab 下市（2024）；血漿 p-tau217 核准（2025）——FDA／EMA／藥廠公告。</li>
+        <li>Gao 等人，「The mechanisms underlying TDP-43-associated neurodegeneration in Alzheimer's disease and related dementias」，<em>Molecular Psychiatry</em> 30:5500–5512（2025）；Wolk 等人，LATE 臨床準則，<em>Alzheimer's &amp; Dementia</em>（2025）；LATE 回顧，<em>Acta Neuropathologica</em>（2026）。</li>
+        <li>Pagano 等人，「Prasinezumab slows motor progression in rapidly progressing early-stage Parkinson's disease」，<em>Nature Medicine</em>（2024/2025）；Roche PARAISO 第三期啟動（2025 年末，約 900 人）。</li>
+        <li>Silveira 等人，「Ambroxol as a Treatment for Parkinson Disease Dementia」，<em>JAMA Neurology</em>（2025）；Cure Parkinson's ASPro-PD 第三期（UCL，330 人，2025）；Critical Path Institute α-syn SAA 資格認定（2024）；LRRK2 抑制劑與 GPNMB 生物標記報告（2025）。</li>
+        <li>uniQure，「AMT-130 關鍵第一期/第二期試驗正向頂線結果」，2025 年 9 月 24 日（36 個月 cUHDRS 減緩 75%，p=0.003；TFC 減緩 60%，p=0.033；CSF NfL −8.2%；BLA 預計 2026 年第一季）；<em>Scientific American</em> 報導（2025 年 10 月）。</li>
+        <li>ALS 紀錄：tofersen 以血漿 NfL 獲准（2023）與 ATLAS 前症狀期試驗；C9orf72（WVE-004）、FUS（ION363）、ATXN2 與 UNC13A 的 ASO 計畫；masitinib 確認性第三期（2025）；RELYVRIO 下市（2024 年 4 月）；約 295 項進行中的 ALS 試驗（2026 年中）。</li>
+        <li>PSP 平台試驗（AADvac1、AZP2006）與 NIO752／LM11A-31 邁向第三期；diranersen（BIIB080）於 AD 的第二期；DLB 流行病學（屍檢失智腦中最高 25%；臨床診斷僅 4–5%）——CurePSP、Alzforum、<em>Lancet Neurology</em> DLB 系列（2025）。</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      llm-wiki-jk 知識圖譜的神經退化性疾病比較回顧。圖譜指標於 wiki 層計算（2026年8月29日）；
+      標註 † 的文獻主張推導自 2024–2026 年來源。資訊性綜述——非醫療建議；
+      每一項機制解讀都是假說，請對照原始筆記查核。
+    </p>
+    <p><strong>圖譜：</strong>wiki 層 <code>3007n / 35150e</code> · 來源文件 <code>src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md</code></p>
+    <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
+</footer>
+
+<script>
+/* 靜態圖表；本頁不需要執行時期圖表。 */
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>
