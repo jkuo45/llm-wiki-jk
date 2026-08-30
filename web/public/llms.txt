@@ -29,7 +29,6 @@ Open the Analysis panel (chart icon) on [graph.johnnykuo.com](https://graph.john
 - Pre-computed graph context (god nodes, surprising connections, community cohesion) surfaces high-leverage entities before drilling in.
 - **Predicted Connections** — Adamic-Adar link prediction over non-adjacent entities (`web/data/link-prediction.json`, regenerated each build): shared-neighbour pairs whose implied biology no document states yet, with cross-community flags and personalized-PageRank similarity profiles for hub seeds.
 - **Role Explorer** — per-node biological roles (Spreader, Master regulator, Bottleneck, Module member, Core backbone) auto-classified from live percentile fingerprints, with the rule catalog and thresholds exposed (`web/data/roles-meta.json`).
-- **Assumptions Lab** — scenario analysis over curated knowledge-graph conflicts ([pages/en-US/assumptions.html](https://graph.johnnykuo.com/pages/en-US/assumptions.html), [中文版](https://graph.johnnykuo.com/pages/zh-TW/assumptions.html)): pick assumption A/B per contradiction distilled from the human-review reports (e.g. "rapamycin suppresses vs reverses immunosenescence"), and degrees, PageRank, and shortest paths recompute client-side over the modified edge set with a baseline-vs-scenario diff.
 - Full-text node search, physics / label / edge toggles, camera reset, and PNG export of the current view.
 
 ## Notes Panel
@@ -61,8 +60,6 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [用於生物學優先排序的節點層級網絡分析](https://graph.johnnykuo.com/pages/zh-TW/node-analysis-examples-biology.html): 一篇方法論簡報——運用 NetworkX 中心性指紋（度數、PageRank、中介中心性、聚類係數、k-core、社群）在具向知識圖譜中篩選生物醫學實體，並以本知識庫真實節點作為實作成例。
 - [Caspases — 圖譜分析（wiki + triples）](https://graph.johnnykuo.com/pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html)：在合併的 triples + wiki 圖譜上，對全部 13 個 caspase 節點的多指標分析——兩社群家族結構（死亡程序 vs 發炎老化楔形）、Caspase-8 為唯一主調控者、跨死亡模式的 PPR 簽名、分層分解顯示 PIDDosome 軸僅存在於 triples 層、經文獻裁決的連結預測（Caspase-9 → Cancer AA 0.90；Caspase-3 → Apoptosis AA 15.9），以及針對未接線的 senolytic 與衰老–caspase 軸的增補佇列。
 - [合併知識圖譜中的生物過程（wiki 與 triples）](https://graph.johnnykuo.com/pages/zh-TW/wiki-and-triples-graph-biological-processes.html): 以生物學為中心的合併（triples + wiki）圖譜導覽——聯集連通性（k-core 6 → 20、最大連通分量 94%）、僅 wiki 的過程（cGAS–STING／第一型干擾素、細胞週期、p53/TP53 整併、NMN／NAD+、粒線體自噬）、意外連結與預測邊，以及以聯集拓撲重新計算指標的工作生物學過程實例。
-- [腎上腺素紅方案：作用劑—觸發器網絡追蹤](https://graph.johnnykuo.com/pages/zh-TW/adrenochrome-protocol-node-network-analysis.html): 一份常駐的網絡追蹤圖譜，針對亞甲藍＋胺基胍的腎上腺素紅方案——逐一追蹤各作用劑與腎上腺素紅觸發器的關聯（直接化學邊 vs 共享氧化還原／損傷橋接）、耦合階梯、光譜接縫跨化學層與程式層、更新後的適應性分支基準、可證偽假說 H1–H8，並隨每次追蹤新增而持續更新。
-- [假設實驗室 — 圖譜衝突的 A/B 情境分析](https://graph.johnnykuo.com/pages/zh-TW/assumptions.html): 為知識圖譜審查報告整理出的每個矛盾選定假設 A/B（例如「雷帕霉素抑制 vs 逆轉免疫老化」），度數、PageRank 與最短路徑即時在修改後的邊集合上重新計算，並與基準逐項比較。
 - [神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系](https://graph.johnnykuo.com/pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html): 四大神經退化性症候群的比較回顧——共享機制矩陣（蛋白質恆定、粒線體、氧化壓力、cGAS–STING 先天免疫、細胞老化）對比疾病特異的觸發條件、脆弱細胞類型、傳播拓撲與病程速度；治療邏輯跟隨標的拓撲（AD 的抗類澱粉抗體、HD／SOD1-ALS 的基因靜默）；包含 wiki 圖譜的度數、Jaccard 重疊與主題提及熱圖。
 
 ## Data & Source

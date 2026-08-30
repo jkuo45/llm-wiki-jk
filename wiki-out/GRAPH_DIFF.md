@@ -24,20 +24,20 @@
 | Cell Cycle | 83 |
 | Macrophage | 75 |
 | Ubiquitination | 73 |
-| Rheumatoid Arthritis | 71 |
 | NMN (Nicotinamide Mononucleotide) | 71 |
-| Fibroblast | 68 |
+| Rheumatoid Arthritis | 71 |
 | Endothelial Cells | 68 |
-| Type I Interferon | 66 |
+| Fibroblast | 68 |
 | Metabolism | 66 |
+| Type I Interferon | 66 |
 | Replicative Senescence | 65 |
 | Epigenetics and aging | 64 |
 | Flavonoid | 61 |
 | Histone Variant | 60 |
-| Citric Acid Cycle | 57 |
 | Unfolded Protein Response | 57 |
-| Calcium | 56 |
+| Citric Acid Cycle | 57 |
 | Extracellular Matrix | 56 |
+| Calcium | 56 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -45,24 +45,24 @@
 | --- | --- |
 | Adrenochrome formation | 11 |
 | JAK-STAT3 | 4 |
-| Physical Activity | 4 |
 | SIRT3 deficiency | 4 |
+| Physical Activity | 4 |
 | SIRT1 and SIRT2 | 4 |
-| H3K9 | 3 |
 | Streptomyces avermectinius | 3 |
+| Dietary Advanced Glycation End Products | 3 |
 | Advanced Glycation End Products formation | 3 |
+| catechol flavonoid | 3 |
+| PI3K/Akt | 3 |
+| SIRT6 overexpression | 3 |
+| H3K9 | 3 |
 | SIRT7 depletion | 3 |
 | Dietary AGEs | 3 |
-| catechol flavonoid | 3 |
-| SIRT6 overexpression | 3 |
-| PI3K/Akt | 3 |
-| Dietary Advanced Glycation End Products | 3 |
-| Methyl donor supplements | 2 |
-| Ac2-26 | 2 |
-| Meteorin-like protein | 2 |
-| AGE-modified proteins | 2 |
-| DNA Hypomethylation | 2 |
-| ETS transcription factor | 2 |
+| SIRT2 inhibition | 2 |
+| Muscle Wasting | 2 |
+| SIRT1 overexpression | 2 |
+| anti-inflammatory properties | 2 |
+| Universal indirect pan-sirtuin activator | 2 |
+| Lifespan extension | 2 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

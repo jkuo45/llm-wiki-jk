@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T13:59:27Z",
+  "generated_at": "2026-08-30T15:12:44Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/wiki-graph.json",
   "counts": {
@@ -45,19 +45,14 @@
       "degree": 73
     },
     {
-      "id": "rheumatoid_arthritis",
-      "label": "Rheumatoid Arthritis",
-      "degree": 71
-    },
-    {
       "id": "nmn",
       "label": "NMN (Nicotinamide Mononucleotide)",
       "degree": 71
     },
     {
-      "id": "fibroblast",
-      "label": "Fibroblast",
-      "degree": 68
+      "id": "rheumatoid_arthritis",
+      "label": "Rheumatoid Arthritis",
+      "degree": 71
     },
     {
       "id": "endothelial_cells",
@@ -65,13 +60,18 @@
       "degree": 68
     },
     {
-      "id": "type_i_interferon",
-      "label": "Type I Interferon",
-      "degree": 66
+      "id": "fibroblast",
+      "label": "Fibroblast",
+      "degree": 68
     },
     {
       "id": "metabolism",
       "label": "Metabolism",
+      "degree": 66
+    },
+    {
+      "id": "type_i_interferon",
+      "label": "Type I Interferon",
       "degree": 66
     },
     {
@@ -95,23 +95,23 @@
       "degree": 60
     },
     {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
-      "degree": 57
-    },
-    {
       "id": "unfolded_protein_response",
       "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
-      "id": "calcium",
-      "label": "Calcium",
-      "degree": 56
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
+      "degree": 57
     },
     {
       "id": "extracellular_matrix",
       "label": "Extracellular Matrix",
+      "degree": 56
+    },
+    {
+      "id": "calcium",
+      "label": "Calcium",
       "degree": 56
     }
   ],
@@ -127,13 +127,13 @@
       "degree": 4
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -142,18 +142,38 @@
       "degree": 4
     },
     {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
-    },
-    {
       "id": "streptomyces_avermectinius",
       "label": "Streptomyces avermectinius",
       "degree": 3
     },
     {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    },
+    {
       "id": "advanced_glycation_end_products_formation",
       "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     },
     {
@@ -167,53 +187,33 @@
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
-      "degree": 3
-    },
-    {
-      "id": "methyl_donor_supplements",
-      "label": "Methyl donor supplements",
+      "id": "sirt2_inhibition",
+      "label": "SIRT2 inhibition",
       "degree": 2
     },
     {
-      "id": "ac2_26",
-      "label": "Ac2-26",
+      "id": "muscle_wasting",
+      "label": "Muscle Wasting",
       "degree": 2
     },
     {
-      "id": "meteorin_like_protein",
-      "label": "Meteorin-like protein",
+      "id": "sirt1_overexpression",
+      "label": "SIRT1 overexpression",
       "degree": 2
     },
     {
-      "id": "age_modified_proteins",
-      "label": "AGE-modified proteins",
+      "id": "anti_inflammatory_properties",
+      "label": "anti-inflammatory properties",
       "degree": 2
     },
     {
-      "id": "dna_hypomethylation",
-      "label": "DNA Hypomethylation",
+      "id": "universal_indirect_pan_sirtuin_activator",
+      "label": "Universal indirect pan-sirtuin activator",
       "degree": 2
     },
     {
-      "id": "ets_transcription_factor",
-      "label": "ETS transcription factor",
+      "id": "lifespan_extension",
+      "label": "Lifespan extension",
       "degree": 2
     }
   ],

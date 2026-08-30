@@ -1160,15 +1160,3 @@ Context fields are stored as a BCP-47 map (`en-US`, `zh-TW`); `en-US` is canonic
 | Missing zh-TW context (falls back to en-US) | 0 |
 | Missing created/updated timestamps | 0 |
 | Stale triples (`updated` < source note mtime) | 860 |
-
-## Assumption State
-
-Curated exclusions (`excludedSources`) and canonical conflict selections
-(`selections`, synced from Supabase by scripts/07_sync_assumptions.py)
-applied to this build. See web/public/data/assumptions-build.json.
-
-- Excluded source documents: 0
-- Triples excluded by document: 0
-- Triples rescued via keepTripleIds: 0
-- Canonical edges removed (selections): 0
-- Canonical edges added (selections): 0

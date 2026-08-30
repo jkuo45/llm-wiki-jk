@@ -1,10 +1,8 @@
 {
-  "generated": "2026-08-30 13:59:26",
-  "hash": "af9fea352d5bcb33",
+  "generated": "2026-08-30 15:12:44",
+  "hash": "6630016217a7c680",
   "files": [
     "articles.json",
-    "assumptions-build.json",
-    "assumptions.json",
     "edges.json",
     "graph-meta.json",
     "i18n-coverage.json",

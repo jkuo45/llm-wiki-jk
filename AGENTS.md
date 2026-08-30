@@ -225,13 +225,6 @@ uv run --with networkx python3 scripts/04_node_analysis.py --graph wiki-out/wiki
 uv run --with networkx python3 scripts/04_link_prediction.py --graph graphify-out/graph.json
 uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.json --role Spreader --top 10
 
-# Assumptions Lab (web/public/pages/en-US/assumptions.html + zh-TW shell):
-# curated A/B conflict registry web/public/data/assumptions.json is validated
-# against the freshly built triples-edges.json/nodes.json during 03
-# (validate_assumptions_file).
-# Curation aid — map a review report's triple ids to web edge keys:
-uv run python3 scripts/03_triple_lookup.py <triple_id> ...
-
 # Mirror base layer into Supabase (topics/entities/edges/metrics/predictions;
 # incremental on version.json hash — needs SUPABASE_URL + SUPABASE_SERVICE_KEY
 # in env or repo .env, which is git-ignored). Run after any graph rebuild.
