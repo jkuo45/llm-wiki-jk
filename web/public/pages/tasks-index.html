@@ -54,6 +54,9 @@
 .task-zh a:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
 .task-meta { font-family: var(--mono); font-size: 12px; color: var(--faint); margin: 0 0 4px; }
 .task-meta:last-child { margin-bottom: 0; }
+/* Descriptions are hidden by default (compact card list); the toggle in the
+   search row flips this class on. Search still matches desc text either way. */
+.no-desc .task-desc { display: none; }
 .task-desc { color: var(--mute); font-size: .92rem; margin: 0 0 10px; }
 
 /* Freshness badge mirrors the reader's updated chip buckets */
@@ -94,6 +97,8 @@
   border: 1px solid var(--rule); border-radius: 2px; cursor: pointer;
 }
 .search-clear:hover { color: var(--oxblood); border-color: var(--oxblood); }
+/* Descriptions toggle: reads as "off" when dimmed, "on" when accented */
+.desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 mark.search-hit { background: transparent; color: var(--oxblood); }
 
 /* Mobile: keep the bar in normal flow so opening the keyboard doesn't
@@ -114,6 +119,7 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
     <div class="search-row" id="searchRow">
       <input type="search" id="searchBox" placeholder="search task outputs… / 搜尋任務輸出" autocomplete="off">
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+      <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
     </div>
     <div id="taskIndex"></div>
   </div>
@@ -130,7 +136,13 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
   const noMatchNote = document.getElementById('noMatchNote');
   const searchBox = document.getElementById('searchBox');
   const searchClear = document.getElementById('searchClear');
+  const descToggle = document.getElementById('descToggle');
   const SEARCH_KEY = 'tasks-index-search';
+  const DESC_KEY = 'tasks-index-desc';
+  /* Descriptions hidden by default; the ¶ toggle flips them and remembers
+     the choice for the session. */
+  let showDesc = false;
+  try { showDesc = sessionStorage.getItem(DESC_KEY) === '1'; } catch { /* storage unavailable */ }
   /* Restore the query from a previous visit so returning from an article
      keeps the active filter. */
   try {
@@ -267,6 +279,8 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
           html += '</ul>';
         });
         list.innerHTML = html;
+        list.classList.toggle('no-desc', !showDesc);
+        descToggle.setAttribute('aria-pressed', showDesc ? 'true' : 'false');
         noMatchNote.hidden = !(tasks.length && !shown && tokens.length);
         noMatchNote.textContent = `No task outputs match “${searchBox.value.trim()}” / 沒有符合的任務輸出`;
         try {
@@ -290,6 +304,13 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
         clearTimeout(debounceTimer);
         render();
         searchBox.focus();
+      });
+
+      descToggle.addEventListener('click', () => {
+        showDesc = !showDesc;
+        try { sessionStorage.setItem(DESC_KEY, showDesc ? '1' : '0'); }
+        catch { /* storage unavailable */ }
+        render();
       });
 
       /* Embedded in the Reader: announce navigation so the parent dropdown
