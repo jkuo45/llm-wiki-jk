@@ -33,19 +33,27 @@ export function edgeOffColor() {
   return state.theme === 'light' ? EDGE_OFF_LIGHT : EDGE_OFF_DARK;
 }
 
-// Apply the active theme to the 3D scene (background + resting edges). DOM
-// surfaces (node labels, tooltips, panels) are themed by the light
-// stylesheet, so only the canvas needs JS here.
+// Resting edge colours by edge kind: wikilink edges (`links_to`, from the
+// wiki graph) render blue; triples-extracted relation edges render orange.
+// Both rest at 70% opacity regardless of theme (dimming/hover states on top
+// of these still use edgeOffColor()).
+const WIKI_EDGE_HEX = 0x4E79A7;   // blue — links_to
+const TRIPLE_EDGE_HEX = 0xE8833A; // orange — triples-extracted edges
+export const EDGE_RESTING_ALPHA = 0.7;
+
+export function edgeRestingStyle(edge) {
+  return edge && edge.label === 'links_to'
+    ? { hex: WIKI_EDGE_HEX, alpha: EDGE_RESTING_ALPHA }
+    : { hex: TRIPLE_EDGE_HEX, alpha: EDGE_RESTING_ALPHA };
+}
+
+// Apply the active theme to the 3D scene (background). Resting edge colours
+// (blue/orange by edge kind) are theme-invariant, so edges need no recolour on
+// switch — highlighted/selected edges keep their accent across the toggle. DOM
+// surfaces (node labels, tooltips, panels) are themed by the light stylesheet.
 export function applyGraphTheme(light) {
   state.theme = light ? 'light' : 'dark';
   scene.background = new THREE.Color(light ? SCENE_BG_LIGHT : SCENE_BG_DARK);
-  const oldOff = light ? EDGE_OFF_DARK : EDGE_OFF_LIGHT;
-  const newOff = edgeOffColor();
-  // Only reset edges currently at the previous off color; highlighted/selected
-  // edges keep their accent color across the switch.
-  for (let i = 0; i < edgeList.length; i++) {
-    if (edgeHex[i] === oldOff) setEdgeVisual(edgeList[i].edge, newOff, edgeAlphaVal[i]);
-  }
   requestRender();
 }
 
@@ -236,7 +244,6 @@ const E = edgeList.length;
 edgePositions = new Float32Array(E * 6);
 edgeColors = new Float32Array(E * 6);
 edgeAlphas = new Float32Array(E * 2);
-const off = edgeOffColor();
 for (let i = 0; i < E; i++) {
   const { fromMesh, toMesh, edge } = edgeList[i];
   const p = i * 6;
@@ -246,19 +253,20 @@ for (let i = 0; i < E; i++) {
   edgePositions[p + 3] = toMesh.position.x;
   edgePositions[p + 4] = toMesh.position.y;
   edgePositions[p + 5] = toMesh.position.z;
-  const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-  edgeHex[i] = off;
-  edgeAlphaVal[i] = ba;
+  // Resting style: blue for links_to (wikilinks), orange for triples edges.
+  const rest = edgeRestingStyle(edge);
+  edgeHex[i] = rest.hex;
+  edgeAlphaVal[i] = rest.alpha;
   edgeFiltered[i] = 0;
-  _edgeColor.set(off);
+  _edgeColor.set(rest.hex);
   for (let k = 0; k < 2; k++) {
     const o = p + k * 3;
     edgeColors[o] = _edgeColor.r;
     edgeColors[o + 1] = _edgeColor.g;
     edgeColors[o + 2] = _edgeColor.b;
   }
-  edgeAlphas[i * 2] = ba;
-  edgeAlphas[i * 2 + 1] = ba;
+  edgeAlphas[i * 2] = rest.alpha;
+  edgeAlphas[i * 2 + 1] = rest.alpha;
   edgeToIndex.set(edge, i);
   let segs = edgeSegmentsByNode.get(edge.from);
   if (!segs) { segs = []; edgeSegmentsByNode.set(edge.from, segs); }
@@ -650,8 +658,8 @@ export function resetVisualState() {
     m.material.opacity = 0.92;
   });
   edgeList.forEach(({ edge }) => {
-    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-    setEdgeVisual(edge, edgeOffColor(), ba);
+    const rest = edgeRestingStyle(edge);
+    setEdgeVisual(edge, rest.hex, rest.alpha);
   });
   restoreDefaultLabels();
   requestRender();

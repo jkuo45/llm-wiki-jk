@@ -10,6 +10,7 @@ import {
   animateCamera, CAMERA_OFFSET, midpoint, requestRender,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
+  edgeRestingStyle,
 } from './core.js';
 import { state, stickyNodes, velocities } from './state.js';
 import { nodeMap, adjacency, TRANSLATIONS, predicateZh } from './data.js';
@@ -112,8 +113,8 @@ function resetEdgeStyle(edge) {
     const sel = edge === state.selectedEdge;
     setEdgeVisual(edge, sel ? EDGE_ACCENT : edgeOffColor(), sel ? 0.9 : 0.05);
   } else {
-    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-    setEdgeVisual(edge, edgeOffColor(), ba);
+    const rest = edgeRestingStyle(edge);
+    setEdgeVisual(edge, rest.hex, rest.alpha);
   }
 }
 
