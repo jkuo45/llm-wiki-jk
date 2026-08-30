@@ -12,7 +12,6 @@ tags:
   - graph-structure
   - curation
 author: []
-starred: false
 ---
 
 # Further Graph-Level Conclusions From graph.json

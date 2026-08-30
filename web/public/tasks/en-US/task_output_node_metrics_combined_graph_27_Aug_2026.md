@@ -14,7 +14,6 @@ tags:
   - k-core
   - networkx
 author: []
-starred: true
 ---
 
 # Node-Level Network Analysis for the Combined Knowledge Graph

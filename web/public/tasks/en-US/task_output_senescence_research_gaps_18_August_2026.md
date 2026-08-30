@@ -8,7 +8,6 @@ tags:
   - research-gaps
   - geroscience
   - literature-review
-starred: true
 ---
 
 # Research Gaps in Cellular Senescence Biology (Most Recent Documents)

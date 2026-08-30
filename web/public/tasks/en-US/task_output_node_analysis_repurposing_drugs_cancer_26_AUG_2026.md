@@ -17,7 +17,6 @@ tags:
   - personalized-pagerank
   - adamic-adar
 author: []
-starred: false
 ---
 
 # Node Analysis — Ivermectin, Fenbendazole & Mebendazole Against Cancer and Tumour Subtypes

@@ -16,7 +16,6 @@ tags:
   - network-medicine
   - discovery-lifecycle
 author: []
-starred: false
 ---
 
 # Reading a Discovery Arrival: How Graph Metrics and Typed Edges Behave When New Entities Enter the Graph

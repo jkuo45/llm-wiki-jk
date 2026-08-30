@@ -16,7 +16,6 @@ tags:
   - effective-resistance
   - therapeutics
 author: []
-starred: true
 ---
 
 # Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Their Targets & Substrates

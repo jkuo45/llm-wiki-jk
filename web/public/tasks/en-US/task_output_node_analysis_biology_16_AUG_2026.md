@@ -14,7 +14,6 @@ tags:
   - drug-discovery
   - geroscience
 author: []
-starred: true
 ---
 
 # Node-Level Network Analysis for Biological Prioritization
