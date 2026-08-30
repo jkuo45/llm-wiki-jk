@@ -102,8 +102,7 @@ class EdgeCreate(BaseModel):
     evidence_url: str | None = Field(None, max_length=500)
 
 
-class TripleReview(BaseModel):
-    status: str = Field(..., pattern="^(approved|rejected)$")
+# (TripleReview lives in research.py — the only consumer.)
 
 
 # ---------------------------------------------------------------------------

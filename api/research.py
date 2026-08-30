@@ -16,6 +16,7 @@ sources need only an adapter and a registry row.
 """
 
 import logging
+import uuid
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Request
 from pydantic import BaseModel, Field
@@ -47,7 +48,17 @@ async def _require_user(request: Request) -> str:
     return uid
 
 
+def _require_uuid(value: str, what: str) -> None:
+    """Reject non-UUID ids with 400 before they reach PostgREST (an invalid
+    uuid literal would surface as a PostgREST 22P02 error -> 500)."""
+    try:
+        uuid.UUID(value)
+    except (ValueError, AttributeError, TypeError):
+        raise HTTPException(status_code=400, detail=f"Invalid {what} id") from None
+
+
 async def _owned_topic(tid: str, uid: str) -> dict:
+    _require_uuid(tid, "topic")
     try:
         topic = await select_one("research_topics", eq={"id": tid})
     except DBError as e:
@@ -90,6 +101,7 @@ async def create_topic(body: TopicCreate, request: Request):
     uid = await _require_user(request)
 
     if body.user_graph_id:
+        _require_uuid(body.user_graph_id, "user graph")
         try:
             g = await select_one("user_graphs", columns="id", eq={"id": body.user_graph_id})
         except DBError as e:
@@ -246,6 +258,13 @@ async def start_search(tid: str, body: SearchRun, bg: BackgroundTasks, request: 
         return {"status": "researching", "detail": "run already in progress"}
 
     sources = [s for s in body.sources if s in ADAPTERS] or list(DEFAULT_SOURCES)
+    # Flip to 'researching' BEFORE scheduling the run so concurrent POSTs see
+    # the guard above instead of both spawning a duplicate background run.
+    try:
+        await update("research_topics", {"status": "researching"}, eq={"id": tid})
+    except DBError as e:
+        logger.error(f"start_search status update failed: {e}")
+        raise HTTPException(status_code=500, detail="Database error") from e
     bg.add_task(run_research, tid, topic["query"], sources, body.limit, body.extract_limit)
     return {"status": "researching", "sources": sources}
 
@@ -319,6 +338,9 @@ async def _ensure_node(gid: str, label: str) -> str:
 async def review_triple(triple_id: str, body: TripleReview, request: Request):
     _require_db()
     uid = await _require_user(request)
+    _require_uuid(triple_id, "triple")
+    if body.user_graph_id:
+        _require_uuid(body.user_graph_id, "user graph")
     try:
         triple = await select_one(
             "extracted_triples",
@@ -334,7 +356,11 @@ async def review_triple(triple_id: str, body: TripleReview, request: Request):
         raise HTTPException(status_code=400, detail=f"Triple already {triple['status']}")
 
     if body.status == "rejected":
-        await update("extracted_triples", {"status": "rejected"}, eq={"id": triple_id})
+        try:
+            await update("extracted_triples", {"status": "rejected"}, eq={"id": triple_id})
+        except DBError as e:
+            logger.error(f"triple reject update failed: {e}")
+            raise HTTPException(status_code=500, detail="Database error") from e
         return {"status": "rejected"}
 
     gid = body.user_graph_id or (triple.get("topic") or {}).get("user_graph_id")
@@ -353,16 +379,20 @@ async def review_triple(triple_id: str, body: TripleReview, request: Request):
 
     from_id = await _ensure_node(gid, triple["subject"])
     to_id = await _ensure_node(gid, triple["object"])
-    dupes = await select(
-        "user_edges",
-        columns="id",
-        eq={
-            "graph_id": gid,
-            "from_node": from_id,
-            "to_node": to_id,
-            "relation": triple["predicate"],
-        },
-    )
+    try:
+        dupes = await select(
+            "user_edges",
+            columns="id",
+            eq={
+                "graph_id": gid,
+                "from_node": from_id,
+                "to_node": to_id,
+                "relation": triple["predicate"],
+            },
+        )
+    except DBError as e:
+        logger.error(f"user_edges dedupe check failed: {e}")
+        raise HTTPException(status_code=500, detail="Database error") from e
     if not dupes:
         evidence_url = None
         try:
@@ -372,19 +402,27 @@ async def review_triple(triple_id: str, body: TripleReview, request: Request):
             evidence_url = rec and rec.get("url")
         except DBError:
             pass
-        await insert(
-            "user_edges",
-            [{
-                "graph_id": gid,
-                "from_node": from_id,
-                "to_node": to_id,
-                "relation": triple["predicate"],
-                "note": triple["rationale"],
-                "evidence_url": evidence_url,
-            }],
-        )
+        try:
+            await insert(
+                "user_edges",
+                [{
+                    "graph_id": gid,
+                    "from_node": from_id,
+                    "to_node": to_id,
+                    "relation": triple["predicate"],
+                    "note": triple["rationale"],
+                    "evidence_url": evidence_url,
+                }],
+            )
+        except DBError as e:
+            logger.error(f"user_edges insert failed: {e}")
+            raise HTTPException(status_code=500, detail="Database error") from e
 
-    await update("extracted_triples", {"status": "approved", "user_graph_id": gid},
-                 eq={"id": triple_id})
+    try:
+        await update("extracted_triples", {"status": "approved", "user_graph_id": gid},
+                     eq={"id": triple_id})
+    except DBError as e:
+        logger.error(f"triple approve update failed: {e}")
+        raise HTTPException(status_code=500, detail="Database error") from e
     logger.info(f"triple {triple_id} approved into graph {gid}")
     return {"status": "approved", "graph_id": gid}

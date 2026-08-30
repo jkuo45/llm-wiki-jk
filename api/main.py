@@ -15,7 +15,7 @@ import json
 import logging
 import os
 import time
-from collections.abc import AsyncGenerator
+from collections.abc import AsyncGenerator, Awaitable, Callable
 from contextlib import asynccontextmanager
 
 from fastapi import APIRouter, FastAPI, HTTPException, Request
@@ -40,6 +40,7 @@ from .auth import authorize_request, close_client as close_auth_client
 from .db import close_client as close_db_client
 from .llm import (
     OpencodeUnavailable,
+    abort_session,
     close_client,
     create_session,
     delete_session,
@@ -505,9 +506,16 @@ SSE_HEADERS = {
 
 
 async def _with_heartbeat(
-    gen: AsyncGenerator[str, None], interval: int = HEARTBEAT_SECONDS
+    gen: AsyncGenerator[str, None],
+    interval: int = HEARTBEAT_SECONDS,
+    on_abort: Callable[[], Awaitable[None]] | None = None,
 ) -> AsyncGenerator[str, None]:
-    """Interleave SSE comment frames so proxies keep the connection open."""
+    """Interleave SSE comment frames so proxies keep the connection open.
+
+    on_abort (optional) is awaited when the client disconnects before the
+    stream finished — used to abort the in-flight opencode turn so the model
+    stops generating (and burning tokens) for a listener that is gone.
+    """
     queue: asyncio.Queue = asyncio.Queue()
     DONE = object()
 
@@ -522,6 +530,7 @@ async def _with_heartbeat(
             await queue.put(DONE)
 
     task = asyncio.create_task(pump())
+    finished = False
     try:
         while True:
             try:
@@ -530,10 +539,16 @@ async def _with_heartbeat(
                 yield ": ping\n\n"
                 continue
             if item is DONE:
+                finished = True
                 return
             yield item
     finally:
         task.cancel()
+        if not finished and on_abort is not None:
+            try:
+                await on_abort()
+            except Exception as e:  # noqa: BLE001 - best-effort teardown
+                logger.warning(f"on_abort callback failed: {e}")
 
 
 @api_v1.post("/execute/stream")
@@ -611,7 +626,10 @@ async def execute_stream(request: ExecuteRequest):
                     yield _sse({"type": "highlight", **highlights})
 
         return StreamingResponse(
-            _with_heartbeat(_prompt()),
+            _with_heartbeat(
+                _prompt(),
+                on_abort=lambda: abort_session(session_id),
+            ),
             media_type="text/event-stream",
             headers=SSE_HEADERS,
         )
