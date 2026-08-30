@@ -250,5 +250,23 @@
                 "updated": "2026-08-30"
             }
         }
+    },
+    {
+        "id": "discovery-arrival-graph-metrics",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Reading a Discovery Arrival — Graph Metrics and Typed Edges (Ferroptosis & COVID)",
+                "path": "pages/en-US/discovery-arrival-graph-metrics.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            },
+            "zh-TW": {
+                "title": "解讀一次新發現的抵達 — 圖譜指標與型別化邊（鐵死亡與 COVID）",
+                "path": "pages/zh-TW/discovery-arrival-graph-metrics.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
     }
 ]

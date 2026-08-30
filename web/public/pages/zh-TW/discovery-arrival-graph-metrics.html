@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>解讀一次新發現的抵達 — 圖譜指標與型別化邊（鐵死亡與 COVID）</title>
+<meta name="description" content="當新發現進入知識圖譜時，各項圖譜指標如何表現：以鐵死亡（ferroptosis，2012→2026）與 COVID／疫苗（2020→2026）的逐年重播，逐指標追蹤五階段發現生命週期；以及型別化、有向的邊如何把「共同提及」轉化為「推論」——屬性轉移、型別路徑合成、符號三元組推論，與經過校準的連結預測。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/discovery-arrival-graph-metrics.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+<style>
+  .table-wrap caption { caption-side: bottom; text-align: left; font-size: .85rem; padding: .5rem .25rem; opacity: .75; }
+  .table-wrap tr.hl td { background: var(--bg-soft, rgba(0,0,0,.04)); }
+  .table-wrap td strong { font-weight: 700; }
+  figcaption { margin-top: .5rem; }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#framing">定位</a>
+      <a href="#lifecycle">生命週期</a>
+      <a href="#ferroptosis">鐵死亡</a>
+      <a href="#covid">COVID</a>
+      <a href="#typed">型別化邊</a>
+      <a href="#external">案例研究</a>
+      <a href="#calibration">校準</a>
+      <a href="#scorecard">計分板</a>
+      <a href="#playbook">手冊</a>
+      <a href="#references">文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">方法論隨筆 · 知識圖譜 · 發現生命週期</p>
+    <h1>解讀一次新發現的抵達：新實體進入圖譜時的圖譜指標與型別化邊</h1>
+    <p class="lede">
+      新發現不會一口氣進入知識圖譜。它以<strong>孤兒節點</strong>的姿態抵達，累積種子邊、被鄰近領域吸收、開始<strong>橋接</strong>領域，
+      若夠多產，最終<strong>核化出自己的社群</strong>。本頁透過對本知識庫圖譜的兩次重播——<strong>鐵死亡
+      （ferroptosis）</strong>（2012 年命名，如今已是 141 條邊的樞紐）與 <strong>COVID／疫苗</strong>（2019–2021）——逐指標
+      追蹤這個生命週期，接著展示圖譜的 <strong>3,895 條型別化、有向邊</strong>如何把「共同提及」轉化為「推論」：
+      那些還沒有人明說的連結，是被計算出來的，而非猜測的。
+    </p>
+    <div class="meta">
+      <p><strong>日期：</strong>2026年8月30日</p>
+      <p><strong>資料來源：</strong><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a>（triples：型別化、有向、帶信心分數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json"><code>wiki-out/wiki-graph.json</code></a>（wiki：共同提及 <code>links_to</code>）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併：37,318 邊 = 3,895 條型別有向邊 + 33,423 條共同提及邊）</p>
+      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py"><code>04_role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
+      <p><strong>讀者：</strong>生物學家與資料分析師。僅供資訊參考——非醫療建議。</p>
+      <p><strong>其他語言：</strong><a href="../en-US/discovery-arrival-graph-metrics.html">English</a></p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>內容</p>
+    <ol>
+      <li><a href="#framing">定位：指標應該「看見」什麼？</a></li>
+      <li><a href="#lifecycle">五階段發現生命週期</a></li>
+      <li><a href="#ferroptosis">實例 A — 鐵死亡重播（2012→2026）</a></li>
+      <li><a href="#covid">實例 B — COVID／疫苗（2020→2026）</a></li>
+      <li><a href="#typed">邊具有語義：四種推論機制</a></li>
+      <li><a href="#external">來自圖譜之外的案例研究</a></li>
+      <li><a href="#calibration">校準：該信任圖譜預測到什麼程度</a></li>
+      <li><a href="#scorecard">指標計分板</a></li>
+      <li><a href="#playbook">操作手冊</a></li>
+      <li><a href="#references">參考文獻</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ============ 1. FRAMING ============ -->
+    <section id="framing">
+      <p class="sec-label">定位</p>
+      <h2>當發現抵達時，指標應該「看見」什麼？</h2>
+      <p>
+        問題的起點：假設有新實體抵達——一個新機制（<em>鐵死亡</em>，2012 年一篇 Cell 論文中命名）、一個新的疾病加介入措施
+        群集（<em>COVID-19 與疫苗</em>，2019–2021）。那麼在實體初次引入時、隨著它成熟、以及隨著推論不斷累積時，
+        <em>計算結果</em>會發生什麼？另外——因為這個圖譜的邊帶有<strong>關係類型、方向、信心分數與出處</strong>——
+        指標能否浮現出還沒有人明確指出的連結？
+      </p>
+      <p>
+        簡短的答案（下文展開）：<strong>(1)</strong> 每個指標都是指向同一條成熟曲線的不同儀器——介數是成熟訊號，
+        k-core 是深度訊號，Adamic-Adar 是<em>預見力</em>訊號（誕生時最高，隨節點填滿而衰減），
+        PageRank 則是<em>後視鏡</em>。<strong>(2)</strong> 拓撲提出，語義裁決：無向指標告訴你推論會<em>落在哪裡</em>；
+        型別化邊告訴你它們<em>是什麼</em>——是因果、療法，還是僅僅相關。<strong>(3)</strong> 圖譜輸出是一個帶有經校準
+        基礎率的分流儀器（排名最高的候選命中率約 10–30%，無引導時僅 0.8%），永遠不是神諭。
+      </p>
+      <div class="note">
+        <p><strong>為什麼要重播？</strong>你無法回溯性地觀察一次發現的指標——今天的圖譜已經包含了成熟的節點。
+        所以運行採用<em>反事實重播</em>：把鐵死亡節點清空，按文獻時間線分批（2012、2015、2017、2019、2020、2022、2024）
+        重新加回它的邊，每批重算所有指標。得到的不是快照，而是指標的<em>軌跡</em>。</p>
+      </div>
+    </section>
+
+    <!-- ============ 2. LIFECYCLE ============ -->
+    <section id="lifecycle">
+      <p class="sec-label">生命週期</p>
+      <h2>五階段發現生命週期</h2>
+      <p>
+        真實概念的文獻計量呈現一條反覆出現的曲線：<strong>滯後期</strong>（鐵死亡：2012 年 1 篇論文，到 2016 年每年數十篇；
+        PROTAC：2001 年命名，沉睡至約 2014 年）、一次<strong>拐點</strong>（某篇橋接論文或試驗）、
+        <strong>爆炸性邊增長</strong>（鐵死亡到 2021 年每年逾 1,000 篇論文，指數擬合 R² = 0.95），
+        然後是<strong>飽和與碎片化</strong>。每個圖譜指標在不同的階段觸發。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1 · 五階段生命週期，以及各階段觸發的計算</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 420" role="img" aria-label="五階段發現生命週期示意圖：孤兒、種子附著、吸收、橋接、核化，以及各階段觸發的指標" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <!-- phase band background -->
+          <rect x="20"  y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="206" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="392" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="578" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="764" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+
+          <!-- Phase titles -->
+          <g text-anchor="middle" font-size="15" font-weight="700">
+            <text x="108" y="58">0 · 孤兒</text>
+            <text x="294" y="58">1 · 種子附著</text>
+            <text x="480" y="58">2 · 吸收</text>
+            <text x="666" y="58">3 · 橋接</text>
+            <text x="852" y="58">4 · 核化</text>
+          </g>
+
+          <!-- mini-network cartoons -->
+          <!-- Phase 0: isolated node -->
+          <g stroke="var(--fg-dim,#999)" fill="none">
+            <circle cx="70" cy="150" r="26" fill="var(--accent,#4a6fa5)" stroke="none"/>
+            <circle cx="160" cy="120" r="9"/><circle cx="165" cy="200" r="9"/><circle cx="120" cy="240" r="8"/>
+          </g>
+          <text x="70" y="155" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+
+          <!-- Phase 1: few dashed seeds -->
+          <g stroke="var(--fg-dim,#999)" fill="none" stroke-dasharray="4 3">
+            <line x1="270" y1="150" x2="330" y2="112"/><line x1="272" y1="158" x2="338" y2="196"/><line x1="266" y1="164" x2="300" y2="244"/>
+          </g>
+          <circle cx="270" cy="150" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="270" y="155" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <circle cx="338" cy="108" r="9" fill="var(--fg-soft,#888)" stroke="none"/><circle cx="344" cy="200" r="9" fill="var(--fg-soft,#888)" stroke="none"/><circle cx="304" cy="248" r="8" fill="var(--fg-soft,#888)" stroke="none"/>
+
+          <!-- Phase 2: inside a community blob -->
+          <ellipse cx="480" cy="165" rx="78" ry="80" fill="none" stroke="var(--fg-dim,#999)" stroke-dasharray="6 4"/>
+          <circle cx="480" cy="160" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="480" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <g fill="var(--fg-soft,#888)" stroke="none">
+            <circle cx="440" cy="115" r="9"/><circle cx="525" cy="120" r="9"/><circle cx="430" cy="205" r="9"/><circle cx="520" cy="210" r="9"/><circle cx="480" cy="100" r="8"/>
+          </g>
+          <g stroke="var(--fg-dim,#999)">
+            <line x1="480" y1="160" x2="440" y2="115"/><line x1="480" y1="160" x2="525" y2="120"/><line x1="480" y1="160" x2="430" y2="205"/><line x1="480" y1="160" x2="520" y2="210"/>
+          </g>
+
+          <!-- Phase 3: bridge between two blobs -->
+          <ellipse cx="630" cy="120" rx="55" ry="52" fill="none" stroke="var(--fg-dim,#999)" stroke-dasharray="6 4"/>
+          <ellipse cx="702" cy="222" rx="55" ry="52" fill="none" stroke="var(--fg-dim,#999)" stroke-dasharray="6 4"/>
+          <g fill="var(--fg-soft,#888)" stroke="none">
+            <circle cx="610" cy="105" r="8"/><circle cx="650" cy="130" r="8"/><circle cx="685" cy="205" r="8"/><circle cx="722" cy="235" r="8"/>
+          </g>
+          <circle cx="666" cy="168" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="666" y="173" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <g stroke="var(--accent,#4a6fa5)" stroke-width="2">
+            <line x1="650" y1="135" x2="662" y2="152"/><line x1="686" y1="207" x2="672" y2="186"/>
+          </g>
+
+          <!-- Phase 4: own cluster with satellites -->
+          <circle cx="852" cy="160" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="852" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <ellipse cx="852" cy="160" rx="80" ry="72" fill="none" stroke="var(--accent,#4a6fa5)" stroke-width="1.5" stroke-dasharray="6 4"/>
+          <g fill="var(--fg-soft,#888)" stroke="none">
+            <circle cx="800" cy="112" r="8"/><circle cx="906" cy="118" r="8"/><circle cx="790" cy="210" r="8"/><circle cx="912" cy="205" r="8"/><circle cx="852" cy="95" r="7"/><circle cx="852" cy="228" r="7"/>
+          </g>
+          <g stroke="var(--accent,#4a6fa5)" stroke-width="1.5">
+            <line x1="852" y1="160" x2="800" y2="112"/><line x1="852" y1="160" x2="906" y2="118"/><line x1="852" y1="160" x2="790" y2="210"/><line x1="852" y1="160" x2="912" y2="205"/>
+          </g>
+
+          <!-- metrics row -->
+          <g font-size="11.5">
+            <rect x="34"  y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="109" y="308" text-anchor="middle" font-weight="700">無指標觸發 —</text>
+            <text x="109" y="323" text-anchor="middle">圖譜「無法思考」它</text>
+            <text x="109" y="338" text-anchor="middle">（警訊）</text>
+
+            <rect x="220" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="295" y="308" text-anchor="middle" font-weight="700">型別化種子 ·</text>
+            <text x="295" y="323" text-anchor="middle">Adamic-Adar · PPR</text>
+            <text x="295" y="338" text-anchor="middle">→ 分流佇列</text>
+
+            <rect x="406" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="481" y="308" text-anchor="middle" font-weight="700">社群 ·</text>
+            <text x="481" y="323" text-anchor="middle">k-core · 對錨點的</text>
+            <text x="481" y="338" text-anchor="middle">電阻</text>
+
+            <rect x="592" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="667" y="308" text-anchor="middle" font-weight="700">介數 ·</text>
+            <text x="667" y="323" text-anchor="middle">跨社群型別路徑 ·</text>
+            <text x="667" y="338" text-anchor="middle">三元組</text>
+
+            <rect x="778" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="853" y="308" text-anchor="middle" font-weight="700">模組度 Δ ·</text>
+            <text x="853" y="323" text-anchor="middle">衛星 PageRank ·</text>
+            <text x="853" y="338" text-anchor="middle">角色晉級</text>
+          </g>
+
+          <!-- arrow along the bottom -->
+          <line x1="40" y1="382" x2="920" y2="382" stroke="var(--fg,#333)" stroke-width="1.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+          <text x="480" y="404" text-anchor="middle" font-size="12">時間 · 文獻累積 →（鐵死亡：2012 → 2026 · PROTAC：2001 → 2019）</text>
+        </svg>
+        </div>
+        <figcaption>
+          每個指標都是指向成熟曲線的儀器。第 0 階段本身就是一個發現：沒有基質的發現，圖譜無法<em>思考</em>它。
+          真實軌跡：鐵死亡約 8 年從孤兒變樞紐；PROTAC 以「邊緣、k-core 1」的狀態沉睡了約 18 年，
+          同時卻是一個尚未實現的橋樑。
+        </figcaption>
+      </figure>
+
+      <p>重播結果支持的兩條規則：</p>
+      <div class="note">
+        <p><strong>規則一——可預見性隨成熟度衰減。</strong>以 2012 年那個單薄的鐵死亡節點做 Adamic-Adar，
+        預測了它最終邊集的 <strong>80%</strong>（precision@10 = 0.8），到 2024 年階段降至 0.6，完全接上後為 0.0——
+        「容易」的連結會先被畫出來。<em>趁早</em>對發現的鄰域做分流。</p>
+        <p><strong>規則二——拓撲提出，語義裁決。</strong>無向計算（AA、PPR、k-core）告訴你推論會<em>落在哪裡</em>；
+        型別化邊上的關係類型、方向、信心分數與出處，才告訴你它們<em>是什麼</em>。</p>
+      </div>
+    </section>
+
+    <!-- ============ 3. FERROPTOSIS ============ -->
+    <section id="ferroptosis">
+      <p class="sec-label">實例 A</p>
+      <h2>「如果現在是 2012 年？」——鐵死亡重播</h2>
+      <p>
+        鐵死亡由 <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012</a> 從早已存在的詞彙中命名——
+        system x꜀⁻（1980）、「oxytosis」（2001）、erastin（2003）、RSL3（2008）、GPX4、麩胱甘肽、鐵。重播把節點清空，
+        再按文獻時間線分批加回邊。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <caption>重播軌跡 — wiki 圖譜，逐邊批次（AA = Adamic-Adar 對最終 141 個鄰居集合的精確度）</caption>
+          <thead>
+            <tr><th>階段（加入的邊）</th><th>deg</th><th>k-core</th><th>btw ×10⁻³</th><th>社群</th><th>AA@10 / @25</th><th>PPR 流向</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>2012</strong> — Iron、Lipid Peroxidation、Glutathione、GPX4、ROS、Erastin、Regulated Cell Death、Mitochondria</td><td>8</td><td>8</td><td>0.01</td><td>氧化壓力巨型社群 [508]</td><td><strong>0.8</strong> / 0.8</td><td>Lipid Peroxidation、GPX4、ROS、Glutathione</td></tr>
+            <tr><td><strong>2015</strong> — + System Xc⁻、p53、PUFA、Phospholipid</td><td>12</td><td>11</td><td>0.09</td><td>[516] 同一世界</td><td>0.8 / 0.9</td><td>不變 — 純局部</td></tr>
+            <tr><td><strong>2017</strong> — + ACSL4、Fenton Reaction、Lipid hydroperoxide</td><td>15</td><td>11</td><td>0.09</td><td>[516]</td><td>0.8 / 0.8</td><td>不變</td></tr>
+            <tr><td><strong>2019</strong> — + FSP1、CoQ10、Ubiquinone、Mevalonate pathway、NADPH、Statins、Vitamin E</td><td>22</td><td>14</td><td>0.14</td><td>[515]</td><td>0.9 / 0.8</td><td>不變</td></tr>
+            <tr class="hl"><td><strong>2020</strong> — + NCOA4、Ferritin、SASP、Senescent Cells、Deferoxamine</td><td>27</td><td>15</td><td><strong>1.56</strong></td><td>[514]</td><td>0.8 / 0.8</td><td>不變</td></tr>
+            <tr><td><strong>2022</strong> — + Ischemia-reperfusion、Alzheimer's、Parkinson's、Huntington's、Stroke</td><td>32</td><td>15</td><td>1.86</td><td>[509]</td><td>0.7 / 0.6</td><td>不變</td></tr>
+            <tr><td><strong>2024</strong> — + Acid Ceramidase、Senolytic、Artesunate、DPP4、Mitotane、MS、HMG-CoA reductase</td><td>40</td><td>17</td><td>2.88</td><td>[503]</td><td>0.6 / 0.6</td><td>不變</td></tr>
+            <tr><td><strong>今日</strong> — 實際圖譜，141 邊</td><td>141</td><td>19</td><td><strong>9.86</strong></td><td>同一巨型世界 [548]</td><td>0.0 / 0.0</td><td>+ Oxidative Stress、<strong>Cancer</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 2 · 介數是成熟訊號（約 1,000 倍成長）；k-core 追蹤深度；AA 可預見性衰減</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 360" role="img" aria-label="鐵死亡重播折線圖：介數從 0.01 升至 9.86，2020 年有 11 倍跳升；k-core 由 8 升至 19；Adamic-Adar 精確度由 0.8 衰減至 0" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <!-- axes -->
+          <line x1="80" y1="40" x2="80" y2="290" stroke="var(--border,#ccc)"/>
+          <line x1="80" y1="290" x2="900" y2="290" stroke="var(--border,#ccc)"/>
+          <!-- y ticks -->
+          <g font-size="11" text-anchor="end" fill="var(--fg-dim,#777)">
+            <text x="72" y="294">0</text><text x="72" y="219">2.5</text><text x="72" y="144">5.0</text><text x="72" y="69">7.5</text><text x="72" y="44" fill="none">10</text>
+          </g>
+          <text x="30" y="165" font-size="12" transform="rotate(-90 30 165)" text-anchor="middle" fill="var(--fg-dim,#777)">介數 ×10⁻³ / k-core（縮放）</text>
+
+          <!-- x labels -->
+          <g font-size="11.5" text-anchor="middle" fill="var(--fg-dim,#777)">
+            <text x="110" y="308">2012</text><text x="226" y="308">2015</text><text x="342" y="308">2017</text><text x="458" y="308">2019</text><text x="574" y="308">2020</text><text x="690" y="308">2022</text><text x="806" y="308">2024</text><text x="895" y="308">今日</text>
+          </g>
+
+          <!-- betweenness line -->
+          <polyline fill="none" stroke="var(--accent,#4a6fa5)" stroke-width="2.5"
+            points="110,288.8 226,284.3 342,284.3 458,282.9 574,235.2 690,227.1 806,204.9 895,50"/>
+          <g fill="var(--accent,#4a6fa5)">
+            <circle cx="110" cy="288.8" r="4"/><circle cx="226" cy="284.3" r="4"/><circle cx="342" cy="284.3" r="4"/><circle cx="458" cy="282.9" r="4"/><circle cx="574" cy="235.2" r="5"/><circle cx="690" cy="227.1" r="4"/><circle cx="806" cy="204.9" r="4"/><circle cx="895" cy="50" r="5"/>
+          </g>
+          <text x="585" y="228" font-size="11.5" font-weight="700" fill="var(--accent,#4a6fa5)">×11 跳升：鐵—自噬 + 衰老邊落地</text>
+          <text x="820" y="42" font-size="12" font-weight="700" fill="var(--accent,#4a6fa5)">9.86</text>
+
+          <!-- k-core scaled -->
+          <polyline fill="none" stroke="var(--warn,#b8860b)" stroke-width="2" stroke-dasharray="7 4"
+            points="110,286 226,234 342,234 458,182 574,143 690,143 806,91 895,25"/>
+          <g fill="var(--warn,#b8860b)">
+            <circle cx="110" cy="286" r="3.5"/><circle cx="226" cy="234" r="3.5"/><circle cx="342" cy="234" r="3.5"/><circle cx="458" cy="182" r="3.5"/><circle cx="574" cy="143" r="3.5"/><circle cx="690" cy="143" r="3.5"/><circle cx="806" cy="91" r="3.5"/><circle cx="895" cy="25" r="3.5"/>
+          </g>
+          <text x="240" y="226" font-size="11.5" fill="var(--warn,#b8860b)">k-core 8 → 19（最高核心層，與 SIRT1 / NAD+ / SASP 並列）</text>
+
+          <!-- AA precision -->
+          <polyline fill="none" stroke="var(--ok,#2e8b57)" stroke-width="2" stroke-dasharray="2 3"
+            points="110,90 226,90 342,90 458,65 574,90 690,115 806,140 895,290"/>
+          <g fill="var(--ok,#2e8b57)">
+            <circle cx="110" cy="90" r="3.5"/><circle cx="226" cy="90" r="3.5"/><circle cx="342" cy="90" r="3.5"/><circle cx="458" cy="65" r="3.5"/><circle cx="574" cy="90" r="3.5"/><circle cx="690" cy="115" r="3.5"/><circle cx="806" cy="140" r="3.5"/><circle cx="895" cy="290" r="3.5"/>
+          </g>
+          <text x="130" y="80" font-size="11.5" fill="var(--ok,#2e8b57)">AA 可預見性誕生時 0.8 → 0.6（2024）→ 0.0（完全接上）</text>
+
+          <!-- legend -->
+          <g font-size="12">
+            <line x1="80" y1="336" x2="112" y2="336" stroke="var(--accent,#4a6fa5)" stroke-width="2.5"/><text x="118" y="340">介數</text>
+            <line x1="230" y1="336" x2="262" y2="336" stroke="var(--warn,#b8860b)" stroke-width="2" stroke-dasharray="7 4"/><text x="268" y="340">k-core</text>
+            <line x1="350" y1="336" x2="382" y2="336" stroke="var(--ok,#2e8b57)" stroke-width="2" stroke-dasharray="2 3"/><text x="388" y="340">Adamic-Adar precision@10</text>
+          </g>
+        </svg>
+        </div>
+        <figcaption>
+          2020 年的拐點，是圖譜在說「這個節點現在承載著對其他領域的推論」——鐵死亡從細胞死亡的子題，
+          開始橋接進鐵代謝（NCOA4 鐵蛋白自噬、Deferoxamine）與衰老（SASP、Senescent Cells）的那一刻。
+        </figcaption>
+      </figure>
+
+      <p>把它當成儀表板來解讀：</p>
+      <ul>
+        <li><strong>介數約 1,000 倍成長（0.01 → 9.86 ×10⁻³）</strong>，最大的一次跳升（×11）在 2020 年階段——橋接 = 節點開始承載對其他領域的推論。</li>
+        <li><strong>k-core 8 → 19</strong>：晉級到 wiki 圖譜的最高核心層。角色分類器也同意——鐵死亡 = 匯點（Sink）+ 主調控者 + 瓶頸 + 核心骨幹。</li>
+        <li><strong>AA 可預見性在誕生時最高（0.8）</strong>，隨節點填滿而衰減。2012 年快照 top-25 的<em>漏項</em>，恰好就是 2012 年之後的文獻：FSP1（+7 年）、ALOX15/ALOX5、ASAH1/Acid Ceramidase（+12 年）、Artesunate、CD44、STEAP3。<strong>漏項清單就是研究議程。</strong></li>
+        <li><strong>PPR 在成熟前一直停留在局部</strong>——流量跟著度數走，所以「影響力能到哪裡」只有在推論邊存在<em>之後</em>才回答得了。流量指標量測的是已累積的推論；局部相似度指標量測的是未來的推論。</li>
+        <li><strong>鏡像實驗</strong>（刪除成熟節點）：13 個衛星節點從 triples 巨型連通分量中脫落；PageRank 移轉到防禦帶（triples 上 NADPH −1,159、Statins −977；wiki 上 Vitamin K −315、HMG-CoA reductase −279）。一項發現的推論，就顯現在沒有它就會懸空的衛星帶上。</li>
+      </ul>
+
+      <h3 id="typed-ferroptosis">型別化邊的加值：從「有連結」到「連結意味著什麼」</h3>
+      <p>
+        在合併圖譜的型別化層，每條邊都帶有方向、關係標籤、<code>confidence_score</code> 與 <code>sources</code> 出處。
+        同一個鐵死亡鄰域，如今能把治療槓桿與毒性負債分開——而無向的 wiki 圖譜把這些融成一團無差別的泡泡：
+      </p>
+      <div class="table-wrap">
+        <table>
+          <caption>指向鐵死亡的型別化入邊（合併層節選）</caption>
+          <thead><tr><th>來源</th><th>關係</th><th>標的</th><th>信心</th><th>極性／解讀</th></tr></thead>
+          <tbody>
+            <tr><td><code>statins</code></td><td><code>sensitize_to</code></td><td><code>ferroptosis</code></td><td>0.75</td><td><strong>促鐵死亡</strong> — 毒性負債（mevalonate → CoQ10/GPX4 耗竭）</td></tr>
+            <tr><td><code>sirt3</code></td><td><code>suppresses</code></td><td><code>ferroptosis</code></td><td>0.87</td><td>抗 — 防禦臂（全圖 SIRT3 有 25 條 ANTI 對 19 條 PRO 入邊）</td></tr>
+            <tr><td><code>mitohormesis</code></td><td><code>protects_against</code></td><td><code>ferroptosis</code></td><td>0.82</td><td>抗 — 防禦（出處：triples + wiki）</td></tr>
+            <tr><td><code>mitophagy</code></td><td><code>inhibits</code></td><td><code>ferroptosis</code></td><td>0.88</td><td>抗 — 防禦</td></tr>
+            <tr><td><code>glutathione</code></td><td><code>protects_against</code></td><td><code>ferroptosis</code></td><td>0.90</td><td>抗 — 防禦</td></tr>
+            <tr><td><code>ho_1</code></td><td><code>regulates</code></td><td><code>ferroptosis</code></td><td>0.85</td><td>調節 — 符號依情境而定</td></tr>
+            <tr><td><code>cellular_senescence</code></td><td><code>transmits</code></td><td><code>ferroptosis_susceptibility</code></td><td>0.80</td><td>促 — 易感性在衰老雲中傳播</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        triples 層的極性普查：鐵死亡帶有 8 條促對 6 條抗的入邊；CoQ10 是純抗（0 PRO / 2 ANTI）；
+        而<strong>metformin 需要兩種符號同時存在</strong>——在腫瘤中是鐵死亡誘導劑（經 SLC7A11-UFMylation），
+        在糖尿病腎病中卻是抑制劑（經 NRF2）。一條真正雙極的邊，絕不能被平均掉。
+      </p>
+      <div class="note">
+        <p><strong>臨床現實錨點。</strong>儘管累積了 8,000 多篇論文，至今沒有任何專門設計的鐵死亡藥物通過一期臨床——
+        唯一候選 CNSI-Fe(II)（NCT06048367，n=19）於 2025 年 2 月完成
+        （<a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a>）。
+        圖譜連通性量的是想法的流動，不是臨床可及性。</p>
+      </div>
+    </section>
+
+    <!-- ============ 4. COVID ============ -->
+    <section id="covid">
+      <p class="sec-label">實例 B</p>
+      <h2>COVID／疫苗——一個<em>疾病群集</em>抵達長壽圖譜</h2>
+      <p>
+        病原體以<strong>群集</strong>的姿態抵達——病毒 + 疾病 + 症狀 + 共病 + 最終是一整個介入措施家族——
+        而臨床邊比機制邊先落地。wiki 圖譜上的重播：
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <caption>COVID 群集重播 — wiki 圖譜</caption>
+          <thead><tr><th>階段</th><th>deg</th><th>k-core</th><th>btw ×10⁻³</th><th>社群 [規模]</th><th>PPR 流向</th></tr></thead>
+          <tbody>
+            <tr><td><strong>2020a</strong> 臨床 — COVID-19、Inflammation、Cytokines、IFN-γ、Immune System</td><td>5</td><td>5</td><td>0.04</td><td>衰老／發炎世界 [325]</td><td>Inflammation、Immune System、IFN-γ</td></tr>
+            <tr><td><strong>2020b</strong> 共病 — Diabetes、Obesity、Hypertension、Aging</td><td>9</td><td>8</td><td>0.15</td><td>[325]</td><td>Inflammation、Aging、Immune System、Obesity</td></tr>
+            <tr class="hl"><td><strong>2021</strong> 機制 — CD38、NAD+、PARP、NF-κB、NLRP3、Viral Replication</td><td>15</td><td>12</td><td>0.27</td><td><strong>老化／NAD+ 世界 [419] — 翻轉</strong></td><td>Inflammation、<strong>NAD+</strong>、Aging、NF-κB</td></tr>
+            <tr class="hl"><td><strong>2021b</strong> 衰老 — + Cell-Fusion-Induced Senescence、ALI、Sepsis</td><td>18</td><td>13</td><td>0.32</td><td>衰老世界 [326] — 翻轉<strong>回去</strong></td><td>Inflammation、NAD+、NF-κB、Aging</td></tr>
+            <tr><td><strong>2023</strong> 長新冠 — + Long COVID、Mitochondrial Dysfunction、ATP、Complex I/III、Methylene blue</td><td>24</td><td>15</td><td>0.69</td><td>[326]</td><td>不變</td></tr>
+            <tr><td><strong>今日</strong> — 實際，20 邊</td><td>20</td><td>11</td><td>0.34</td><td>老化／NAD+ 世界 [399]</td><td>Inflammation、NF-κB、Aging、Immune System</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 3 · 社群振盪 = 跨界者特徵</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 250" role="img" aria-label="帶狀圖：COVID 群集的社群歸屬在 2020 至 2026 年間於衰老-發炎世界與老化-NAD 世界之間翻轉" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <g font-size="12" text-anchor="middle" fill="var(--fg-dim,#777)">
+            <text x="140" y="40">2020a</text><text x="280" y="40">2020b</text><text x="420" y="40">2021</text><text x="560" y="40">2021b</text><text x="700" y="40">2023</text><text x="840" y="40">今日</text>
+          </g>
+          <!-- lane A -->
+          <rect x="60" y="55" width="840" height="60" rx="8" fill="var(--bg-soft,#eee)" opacity="0.6"/>
+          <text x="66" y="90" font-size="12.5" font-weight="600">衰老／發炎世界</text>
+          <!-- lane B -->
+          <rect x="60" y="135" width="840" height="60" rx="8" fill="var(--bg-soft,#eee)" opacity="0.6"/>
+          <text x="66" y="170" font-size="12.5" font-weight="600">老化／NAD+ 世界</text>
+          <!-- markers -->
+          <g>
+            <circle cx="140" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="140" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="280" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="280" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="420" cy="165" r="13" fill="var(--accent,#4a6fa5)"/><text x="420" y="170" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="560" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="560" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="700" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="700" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="840" cy="165" r="13" fill="var(--accent,#4a6fa5)"/><text x="840" y="170" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+          </g>
+          <!-- flip arrows -->
+          <g stroke="var(--warn,#b8860b)" stroke-width="1.6" fill="none">
+            <path d="M 288 88 C 340 40, 380 40, 414 158" marker-end="url(#arrow3)"/>
+            <path d="M 428 158 C 480 40, 520 40, 552 88" marker-end="url(#arrow3)"/>
+            <path d="M 848 88 C 890 120, 890 130, 852 158" marker-end="url(#arrow3)"/>
+          </g>
+          <text x="480" y="228" text-anchor="middle" font-size="12.5">不穩定的社群歸屬 = 節點位於領域邊界上——對長壽圖譜而言，病原體就該坐在那裡</text>
+        </svg>
+        </div>
+        <figcaption>
+          群集的 Louvain 歸屬隨哪一批邊佔主導而在兩個世界之間翻轉——這是一項將把單向邊重塑為回饋環的發現的指紋：
+          重症 COVID → CD38↑ → NAD+↓ → sirtuin 失能 → 炎性老化 → 更差的預後 → 更多 CD38。
+          （注意：不同工具的 Louvain 種子／標籤不同——比較的是歸屬的<em>描述</em>，不是 id。）
+        </figcaption>
+      </figure>
+
+      <p>三個值得內化的解讀：</p>
+      <ol>
+        <li><strong>一條種子邊能打開或關閉整條機制走廊。</strong>只給 2020 年那個單薄節點一項臨床觀察——
+        <strong>淋巴球減少症（Lymphopenia）</strong>——就讓 <strong>CD38 衝到預測排名第 6、NAD+ 第 7</strong>
+        （Adamic-Adar，2,995 個候選中）；沒有那顆種子，兩者都跌出 top-25。重症 COVID 中由 CD38-NADase 驅動的
+        NAD+ 耗竭隨後被文獻證實（Heer et al., JBC 2020；Physiol Rev 2021）。要記錄當時授予了哪些<em>種子關係類型</em>——它們決定了走廊的閘門。</li>
+        <li><strong>圖譜預測了科學後來創造、而 wiki 至今仍未畫出的邊。</strong>預測是對<em>文獻</em>驗證的，不是對今天的邊清單。
+        圖譜與文獻是兩個不同的 ground truth；兩者的差距就是一份待辦清單。</li>
+        <li><strong>重播與實際佈線的差距量化了缺什麼。</strong>2021 機制重播（CD38/NAD+/PARP 直接連線）達到 k-core 15／介數 0.69，
+        而實際圖譜靠經由 <code>[[Lymphopenia]]</code>/<code>[[Viral Replication]]</code> 的間接佈線只有 k-core 11／0.34。
+        在 triples 層，SARS-CoV-2 只有 2 條邊，甚至不在巨型連通分量裡
+        （<code>graphify path "SARS-CoV-2" "NAD+"</code> → 無路徑）；而合併層有
+        <code>sars_cov_2 --[disrupts]--> NAD+_metabolism</code>。同一批語料、三個層、三種結論——
+        <strong>永遠先確認指標跑在哪一層。</strong></li>
+      </ol>
+
+      <div class="note">
+        <p><strong>分層的教訓（疫苗）。</strong>wiki 只有唯一一個疫苗節點（<code>shingles_vaccine</code>）——
+        沒有 mRNA/LNP/PEG/IgG4/心肌炎/ACE2/spike 節點；未來的疫苗發現將以孤兒之姿抵達。而且 2024–26 年
+        最高品質的證據是<em>有條件的</em>：12–15 歲男性第二劑後心肌炎約 150/10⁶，且有陡峭的年齡梯度；
+        IgG4 類別轉換依劑次而定，第三劑後趨於平台。單一條被平均的「疫苗→心肌炎」邊<strong>會把恰恰是臨床真相的
+        異質性洗掉</strong>——圖譜需要邊屬性（劑次 × 年齡 × 性別 × 證據層級）或超邊
+        （<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">心肌炎統合分析，Epidemiol Rev 2025</a>；
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4，Sci Immunol 2023</a>）。</p>
+      </div>
+    </section>
+
+    <!-- ============ 5. TYPED EDGES ============ -->
+    <section id="typed">
+      <p class="sec-label">型別化邊</p>
+      <h2>邊具有語義與方向：四種推出未明說連結的機制</h2>
+      <p>
+        合併層在 37,318 條總邊中攜帶 <strong>3,895 條型別化、有向邊</strong>——1,033 種不同的關係標籤，
+        最常見的是 <code>inhibits</code>（220）、<code>activates</code>（170）、<code>deacetylates</code>（111）、
+        <code>promotes</code>（104）、<code>reduces</code>（79）、<code>induces</code>（65）、<code>causes</code>（64）、
+        <code>suppresses</code>（56）、<code>regulates</code>（43）——每條都帶 <code>confidence_score</code> 與
+        <code>sources</code>。這就是把圖譜從索引變成推論引擎的關鍵。
+      </p>
+
+      <h3>4.1 · 屬性轉移——一條新邊搬動整團屬性雲</h3>
+      <p>
+        當 <code>statins --[sensitize_to]--> ferroptosis</code> 被萃取出來時，statins 不只是多了一個鄰居：
+        它們<strong>繼承了鐵死亡的整團屬性雲</strong>——鐵過載、脂質過氧化、PUFA 膜、GPX4/CoQ10 防禦、NCOA4 鐵蛋白自噬——
+        這些在 statin 筆記裡一個都沒提。那團雲裡任何<em>新的</em>發現（比如 2024 年的 7-DHC）都與 statins 一跳之遙。
+        這就是「我們不知道 X 與癌症有關」的通式：<strong>一條通向樞紐的新邊，悄悄地把 X 預先接到該樞紐已知的所有東西。</strong>
+        COVID 在本 repo 內就展示了這一點：單一條型別化邊
+        <code>sars_cov_2 --[disrupts]--> NAD+_metabolism</code> 就把病毒拉進了 CD38/PARP/sirtuin/炎性老化的屬性空間，無需任何其他邊。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 4 · 經由一條新樞紐邊的屬性轉移</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 320" role="img" aria-label="屬性轉移示意圖：statins 節點獲得一條通向鐵死亡樞紐的型別化邊，因而與鐵、脂質過氧化、GPX4、CoQ10、NCOA4 均一跳之遙" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <!-- ferroptosis hub -->
+          <circle cx="700" cy="140" r="46" fill="var(--accent,#4a6fa5)"/>
+          <text x="700" y="137" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">ferroptosis</text>
+          <text x="700" y="153" text-anchor="middle" font-size="10" fill="#dbe4f0">樞紐 · 141 邊</text>
+          <!-- attribute cloud -->
+          <g font-size="12">
+            <g><ellipse cx="870" cy="50" rx="62" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="870" y="55" text-anchor="middle">鐵過載</text></g>
+            <g><ellipse cx="890" cy="110" rx="70" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="890" y="115" text-anchor="middle">脂質過氧化</text></g>
+            <g><ellipse cx="898" cy="170" rx="58" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="898" y="175" text-anchor="middle">PUFA 膜</text></g>
+            <g><ellipse cx="880" cy="230" rx="78" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="880" y="235" text-anchor="middle">GPX4 / CoQ10 防禦</text></g>
+            <g><ellipse cx="820" cy="285" rx="66" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="820" y="290" text-anchor="middle">NCOA4 鐵蛋白自噬</text></g>
+          </g>
+          <g stroke="var(--fg-dim,#999)" stroke-width="1.4">
+            <line x1="735" y1="115" x2="815" y2="60"/><line x1="745" y1="130" x2="825" y2="112"/><line x1="746" y1="152" x2="840" y2="170"/><line x1="736" y1="172" x2="810" y2="228"/><line x1="716" y1="184" x2="790" y2="275"/>
+          </g>
+          <!-- statins -->
+          <circle cx="200" cy="140" r="40" fill="var(--panel,#fff)" stroke="var(--accent,#4a6fa5)" stroke-width="2"/>
+          <text x="200" y="145" text-anchor="middle" font-size="13" font-weight="700">statins</text>
+          <!-- the single new typed edge -->
+          <path d="M 242 128 C 420 60, 520 60, 656 122" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" marker-end="url(#arrow4)"/>
+          <text x="440" y="52" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--warn,#b8860b)">一條型別化邊：statins --[sensitize_to]--> ferroptosis</text>
+          <!-- inherited shadow connections -->
+          <g stroke="var(--ok,#2e8b57)" stroke-width="1.3" stroke-dasharray="4 4" fill="none">
+            <path d="M 215 105 C 320 20, 560 5, 815 42" />
+            <path d="M 222 100 C 400 -5, 700 -10, 833 92"/>
+            <path d="M 200 180 C 260 300, 520 330, 762 288"/>
+          </g>
+          <text x="360" y="298" font-size="12" fill="var(--ok,#2e8b57)">虛線 = 繼承而來、對整團屬性雲的一跳可達（沒有新增任何邊）</text>
+          <text x="200" y="220" text-anchor="middle" font-size="12" fill="var(--fg-dim,#777)">之前：筆記裡完全沒提鐵、</text>
+          <text x="200" y="237" text-anchor="middle" font-size="12" fill="var(--fg-dim,#777)">脂質或 GPX4</text>
+        </svg>
+        </div>
+        <figcaption>
+          計算上：從 statins 出發的 PPR 與路徑，如今能抵達鐵／脂質過氧化機器。推論——樞紐品質很重要；
+          連到垃圾樞紐的邊會散播垃圾雲。
+        </figcaption>
+      </figure>
+
+      <h3>4.2 · 型別路徑合成——預測兩層中都不存在的連結</h3>
+      <p>
+        關係類型會<strong>沿路徑合成</strong>，產生新的型別化假說。來自本 repo 型別化邊的真實鏈：
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 5 · COVID → SIRT3 → 鐵死亡的兩跳推論</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 230" role="img" aria-label="型別路徑合成示意圖：covid_19 與 sirt3 is_associated_with（信心 0.85），sirt3 suppresses ferroptosis（信心 0.87），合成出 covid_19 解除鐵死亡剎車的假說" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <circle cx="110" cy="90" r="42" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="110" y="95" text-anchor="middle" font-size="13" font-weight="700">covid_19</text>
+          <circle cx="480" cy="90" r="38" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="480" y="95" text-anchor="middle" font-size="13" font-weight="700">sirt3</text>
+          <circle cx="850" cy="90" r="44" fill="var(--accent,#4a6fa5)"/>
+          <text x="850" y="95" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">ferroptosis</text>
+          <line x1="154" y1="90" x2="440" y2="90" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow5)"/>
+          <text x="297" y="72" text-anchor="middle" font-size="12.5" font-weight="600">--[is_associated_with]--></text>
+          <text x="297" y="112" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">信心 0.85</text>
+          <line x1="520" y1="90" x2="804" y2="90" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow5)"/>
+          <text x="662" y="72" text-anchor="middle" font-size="12.5" font-weight="600">--[suppresses]--></text>
+          <text x="662" y="112" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">信心 0.87</text>
+          <!-- composed hypothesis -->
+          <path d="M 130 148 C 380 210, 600 210, 830 138" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow5)"/>
+          <text x="480" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn,#b8860b)">⟹ 合成假說：covid_19 --[解除對鐵死亡的剎車]--> ferroptosis</text>
+          <text x="480" y="216" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">最低信心 0.85 · 任一層都不存在 covid_19 ↔ ferroptosis 邊 · 文獻確認：Qiu et al., Nat Commun 15:3816 (2024)</text>
+        </svg>
+        </div>
+        <figcaption>
+          兩條本就存在於圖譜的型別化邊，<em>蘊含</em>了 COVID—肺—鐵死亡的連結——而實驗文獻直到 2024 年才確立它
+          （<a href="https://www.nature.com/articles/s41467-024-48055-0">致命 COVID 肺中的鐵死亡特徵</a>）。
+          通式：<code>X --[r1]--> Y --[r2]--> cancer</code> 合成為 <code>X --[推論的 r1∘r2]--> cancer</code>——
+          例如 <code>X inhibits Y</code> + <code>Y promotes cancer</code> ⇒ <code>X --[候選抑制者]--> cancer</code>。
+        </figcaption>
+      </figure>
+
+      <p>
+        這正是 Hetionet 的 DWPC 特徵與 ROBOKOP 的模板查詢背後的 metapath 概念：<strong>關係型別化的路徑，
+        而非無向相似度，才是藥物重定位的特徵引擎。</strong>Adamic-Adar（無向、無型別）無法表達
+        「抑制了一個活化劑的東西」；型別路徑列舉可以——這是現行 <code>04_link_prediction.py</code> 缺少的一道 pass。
+      </p>
+
+      <h3>4.3 · 方向性區分槓桿與後果</h3>
+      <p>
+        有了方向，入邊與出邊回答的是不同的問題。以鐵死亡為例：促鐵死亡的<strong>入邊</strong>
+        （ACSL4、NCOA4、p53、Iron、Lipid Peroxidation——以及依 §4.2 推論的 COVID-19）是<strong>可成藥的上游槓桿</strong>；
+        抗鐵死亡的入邊（GPX4、FSP1、SIRT3、Glutathione、Mitohormesis）則是<strong>防禦系統</strong>——
+        抑制它們是<em>腫瘤</em>策略、支持它們是<em>健康老化</em>策略。同一個節點、兩套相反的治療方案，
+        只有靠邊的符號與方向才能分辨。有向的 PageRank/PPR（wiki 層為每個節點儲存入/出度：鐵死亡入 105／出 83）
+        近似「它驅動什麼」vs「什麼驅動它」。
+      </p>
+
+      <h3>4.4 · 符號三元組——推論未知邊的符號</h3>
+      <p>
+        型別化的符號使平衡式推論成為可能：若 A 抑制 B、B 又抑制 C，A 很可能<em>緩解</em>了 C 上的壓力
+        （「我敵人的敵人」）。本 repo 的實例：<code>statins --[sensitize_to]--> ferroptosis</code>（+）
+        與 <code>mitohormesis --[protects_against]--> ferroptosis</code>（−）⇒ 預測一條
+        <strong>statin↔mitohormesis 拮抗</strong>邊（CoQ10 耗竭侵蝕激效防禦）——圖譜中沒有這條邊，
+        也沒有論文直接陳述它，而且它可以被檢驗。這是經典的符號化連結預測
+        （<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>）
+        移植到生物學，也是 <strong>Assumptions-Lab 衝突</strong>的天然產生器：當策展立場解決了一個衝突，
+        修正會<em>實體化進圖譜本身</em>（經 <code>07_sync_assumptions.py</code> → <code>03_rebuild_from_triples.py</code>），
+        所有下游指標——包括上述重播指標——都會對修正後的拓撲重算。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 6 · 在現行圖譜邊上的符號三元組（「敵人的敵人」）推論</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 720 300" role="img" aria-label="符號三元組示意圖：statins sensitize_to ferroptosis（正），mitohormesis protects_against ferroptosis（負），預測一條 statin-mitohormesis 拮抗邊" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <circle cx="360" cy="80" r="46" fill="var(--accent,#4a6fa5)"/>
+          <text x="360" y="85" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">ferroptosis</text>
+          <circle cx="170" cy="220" r="42" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="170" y="225" text-anchor="middle" font-size="13" font-weight="700">statins</text>
+          <circle cx="550" cy="220" r="52" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="550" y="218" text-anchor="middle" font-size="13" font-weight="700">mitohormesis</text>
+          <text x="550" y="236" text-anchor="middle" font-size="10.5" fill="var(--fg-dim,#777)">protects against</text>
+          <!-- edge statins -> ferroptosis (+) -->
+          <line x1="200" y1="185" x2="325" y2="112" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow6)"/>
+          <text x="235" y="130" font-size="12.5" font-weight="600">sensitize_to</text>
+          <text x="235" y="147" font-size="15" font-weight="700" fill="var(--bad,#b0413e)">(+)</text>
+          <!-- edge mitohormesis -> ferroptosis (−) -->
+          <line x1="522" y1="180" x2="398" y2="114" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow6)"/>
+          <text x="462" y="128" font-size="12.5" font-weight="600">protects_against</text>
+          <text x="472" y="146" font-size="15" font-weight="700" fill="var(--ok,#2e8b57)">(−)</text>
+          <!-- inferred edge -->
+          <line x1="214" y1="228" x2="496" y2="228" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow6)" marker-start="url(#arrow6)"/>
+          <text x="355" y="216" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--warn,#b8860b)">⟹ 推論的拮抗關係</text>
+          <text x="355" y="254" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">敵人的敵人：CoQ10 耗竭侵蝕激效防禦</text>
+          <text x="355" y="272" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">圖譜中無此邊 · 沒有論文直接陳述 · 可檢驗</text>
+        </svg>
+        </div>
+        <figcaption>
+          三元組只是<em>暗示</em>，從不證明——符號來自萃取。合成的路徑應以最低邊信心加權；
+          高信心的衝突應登錄在 <code>assumptions.json</code>，讓建構流程套用它們。
+        </figcaption>
+      </figure>
+
+      <h3>4.5 · 讓型別推論保持誠實的注意事項</h3>
+      <ul>
+        <li><strong>萃取雜訊</strong>：型別化邊來自 LLM 萃取；信心 0.5 的邊（例如
+        <code>covid_19 --[ameliorates]--> NMN</code>，一個病例系列產物）會像紮實的邊一樣沿路徑傳播——
+        路徑應以最低邊信心加權。</li>
+        <li><strong>合成不是演繹</strong>：兩條真邊不保證合成邊為真（情境、劑量、組織都被丟掉了）。
+        校準後的基礎率：排名最高的候選約 10–30% 精確度，無引導時 0.8%（§ 校準）。</li>
+        <li><strong>層的紀律</strong>：經典中心性腳本跑在無向投影上——方向在那些計算中被<em>折疊</em>。
+        wiki 層確實對極性視而不見（<code>links_to</code>）；合併層則否。每個數字都要附上它跑在哪一層。</li>
+      </ul>
+    </section>
+
+    <!-- ============ 6. EXTERNAL ============ -->
+    <section id="external">
+      <p class="sec-label">外部案例研究</p>
+      <h2>四段真實的發現軌跡，用同一副鏡片解讀</h2>
+
+      <div class="table-wrap">
+        <table>
+          <caption>更廣文獻中的發現軌跡，以及各自貢獻的指標教訓</caption>
+          <thead><tr><th>案例</th><th>軌跡</th><th>指標教訓</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Baricitinib</strong></td>
+              <td>BenevolentAI 2020 年 2 月的查詢，是把型別路徑合成付諸運轉：[內吞模組]—被…抑制—[已核准藥物]—抑制—[細胞激素模組]。Baricitinib 是唯一在可達暴露量下同時橋接兩個型別化模組的已核准化合物：16 個雙重抑制劑 → 7 個通過 PK 過濾 → 1 個贏家。假說發表於 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">Lancet，2020 年 2 月 4 日</a>；FDA EUA 2020 年 11 月 19 日；COV-BARRIER 死亡率降低 38%。<strong>從圖譜假說到授權約 9.5 個月。</strong></td>
+              <td>型別化合成可以做為產品運作。注意圖譜<em>沒有</em>包含什麼：藥物動力學——決定性的過濾是圖譜之外的屬性，由人來套用。</td>
+            </tr>
+            <tr>
+              <td><strong>GLP-1 促效劑</strong></td>
+              <td>2005–2015：內分泌的葉節點。之後每個臨床結果試驗加一條社群邊：心臟（LEADER 2016，MACE −13%）、肥胖（STEP 2021）、無糖尿病的心臟（SELECT 2023，MACE −20%）、腎臟（FLOW 2024，−24%）、睡眠醫學（首個 OSA 藥物，2024 年 12 月）、肝臟（MASH 緩解，FDA 適應症 2025 年 8 月）、成癮（semaglutide 在 AUD 中使重飲酒天數減少 &gt;70%，Lancet 2026）。到 2026 年，semaglutide 已是醫學上度數最高、橋接最強的藥物節點之一。</td>
+              <td>度數在<em>五個社群</em>間爆炸。但最脆弱的邊是<strong>類比的</strong>（肥胖→阿茲海默症）：一測就斷——EVOKE/EVOKE+ 陰性（2025 年 11 月）；exenatide 在巴金森氏症三期同樣失敗。<strong>類比邊是圖譜最賺錢也最容易斷的連結</strong>——在 §4.2 的合成規則中把它們標記出來。</td>
+            </tr>
+            <tr>
+              <td><strong>SGLT2 抑制劑</strong></td>
+              <td>Empagliflozin 原是葡萄糖排泄的葉節點，直到 EMPA-REG（2015）交出 −38% 心血管死亡；心臟衰竭（DAPA-HF 2019，約半數非糖尿病患）、HFpEF（2021）、腎臟（EMPA-KIDNEY 2022，−28%）接連而至。拓撲上，該節點與心肌<strong>原本完全沒有邊</strong>。最新的邊——失智症——重複同一模式：觀察性 OR 0.45–0.62，合併 RCT 為零（23 個 RCT，n≈16 萬，2025）。</td>
+              <td>方向無法從網路距離預測。<strong>觀察性共現邊會過度加權受混淆的連結；RCT 級的邊晚數年才到，而且可能抹除它們</strong>——這是給邊加上證據層級屬性的理由。</td>
+            </tr>
+            <tr>
+              <td><strong>PROTAC</strong></td>
+              <td>2001 年命名；沉睡約 18 年（度數 ≈ 10，零臨床邊）。2019 年首度人體試驗，2022 年概念驗證，2026 年進入三期——而且該機制引入了一種<strong>新的關係類型</strong>（「降解」），把化學↔泛素↔腫瘤學重新接線成自己的社群。</td>
+              <td><strong>低度數是一種狀態，不是判決。</strong>沉睡期指標說「邊緣、k-core 1」；正確的解讀是「未實現的橋樑」——單靠拓撲無法與「死路」區分。節點出處（誰在做、有哪些工具）必須與度數一起讀。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 7. CALIBRATION ============ -->
+    <section id="calibration">
+      <p class="sec-label">校準</p>
+      <h2>該信任圖譜預測到什麼程度</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>任何推論主張可引用的校準數字</caption>
+          <thead><tr><th>方法</th><th>驗證方式</th><th>數字</th></tr></thead>
+          <tbody>
+            <tr><td><a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al.，12 條管線，PNAS 2021</a></td><td>918 種藥物篩選</td><td>大多數管線 AUC 0.52–0.66，<strong>各自的 top 清單互不相關</strong>；共識 62% 命中 vs 無引導 0.8%</td></tr>
+            <tr><td><a href="https://elifesciences.org/articles/26726">Rephetio / Hetionet，eLife 2017</a></td><td>事後適應症／試驗</td><td>AUROC 85.5% / 70.0%（在自己的訓練集上 97.4% = 循環論證）</td></tr>
+            <tr><td><a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a></td><td>4 項鄰近性預測，2.2 億病人 EHR</td><td>4 項中 2 項獲證實</td></tr>
+            <tr><td>DRKG 嵌入（2020）</td><td>為 COVID 排序所有 FDA 藥物</td><td>dexamethasone 排名 5（獲證實）——<strong>排名 1–2 的 ribavirin/azathioprine 失敗</strong></td></tr>
+            <tr><td>BenevolentAI（2020）</td><td>baricitinib 入圍名單</td><td>16 → 7（PK）→ 1 個贏家</td></tr>
+            <tr><td><strong>失敗欄</strong></td><td>ivermectin、famotidine、hydroxychloroquine、azithromycin</td><td>被<em>多個</em> KG 管線排進頂端；全部無效——不論有無型別，鄰近性找到的是<em>主題式</em>鄰居，不是療效</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        <p><strong>工作先驗：</strong>top-K 圖譜輸出是一條約 10–30% 精確度的假說流，對比無引導的 0.8%——
+        約 10–40 倍的富集，對分流很有價值，但永遠不是神諭。組合多條互不相關的管線；
+        在相信任何東西之前，先套用圖譜外的過濾器（PK、安全性）。</p>
+      </div>
+    </section>
+
+    <!-- ============ 8. SCORECARD ============ -->
+    <section id="scorecard">
+      <p class="sec-label">計分板</p>
+      <h2>所以——這些指標（加上型別化邊）有助於理解推論嗎？</h2>
+      <p><strong>有——做為分流儀器、缺口偵測器與型別推論引擎；沒有——做為神諭。</strong></p>
+      <div class="table-wrap">
+        <table>
+          <caption>每種計算真正揭示了什麼，以及它如何失效</caption>
+          <thead><tr><th>計算</th><th>真正揭示</th><th>失效模式</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Adamic-Adar／資源分配</strong>（單薄節點）</td><td>可預見的鄰域——分流佇列；誕生時 80%，隨節點填滿而衰減</td><td>對極性與方向盲目；缺乏度數匹配的零模型時有樞紐偏誤；需要一顆臨床橋接種子（Lymphopenia 教訓）</td></tr>
+            <tr><td><strong>型別路徑合成</strong></td><td><strong>帶有繼承語義的未知連結</strong>（COVID→SIRT3→解除鐵死亡剎車；X→Y→cancer）</td><td>合成 ≠ 演繹；萃取雜訊會傳播；要標記類比 vs 機制路徑（EVOKE）</td></tr>
+            <tr><td><strong>經由新樞紐邊的屬性轉移</strong></td><td>單一條新邊就把節點預接到樞紐的整團屬性雲</td><td>取決於樞紐品質；連到垃圾樞紐的邊散播垃圾</td></tr>
+            <tr><td><strong>符號三元組／平衡</strong></td><td>未知邊的符號；Assumptions-Lab 衝突探勘</td><td>符號來自萃取；三元組只是暗示，從不證明</td></tr>
+            <tr><td><strong>方向（入/出邊）</strong></td><td>上游槓桿 vs 下游後果；同一節點上兩套相反的治療方案</td><td>只與萃取的方向標記一樣好（<code>is_inhibited_by</code> vs <code>inhibits</code> 的記帳）</td></tr>
+            <tr><td><strong>從節點出發的 PPR</strong></td><td>領域重力井；影響力累積在哪（Statins→Ferroptosis，2,996 個中排第 3）</td><td>量的是已累積、而非未來的推論；成熟前停在局部</td></tr>
+            <tr><td><strong>介數軌跡</strong></td><td>成熟／橋接（鐵死亡-2020 的 ×11 跳升；baricitinib 式的受限橋接）</td><td>百分位攪動會在每次插入時重評 21–111 個節點；需要零模型</td></tr>
+            <tr><td><strong>社群振盪</strong></td><td>跨界者指紋（COVID 在衰老↔NAD+ 世界間翻轉）</td><td>不同工具的 Louvain 種子／標籤不同——比較歸屬描述，不是 id</td></tr>
+            <tr><td><strong>k-core</strong></td><td>結構深度（鐵死亡 8→19）</td><td>繼承鄰域的核心；對證據品質隻字未提</td></tr>
+            <tr><td><strong>對錨點的有效電阻 z</strong></td><td>未接線樞紐偵測器（Long COVID z = +0.4 = 內容缺口警報）</td><td>對層／密度差異敏感（triples 與 wiki 在 COVID 上完全相左）</td></tr>
+            <tr><td><strong>衛星 PageRank 增量</strong></td><td>依賴網（NADPH/CoQ10/HMG-CoA-reductase/Vitamin-K 防禦帶）</td><td>歸一化偽影（樞紐被刪時 RSL3 +629）</td></tr>
+            <tr><td><strong>成長曲線階段</strong></td><td>分流何時有價值（早期）、樞紐地位何時膨脹偏誤（晚期）</td><td>低度數 ≠ 低價值（PROTAC，18 年）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        <strong>哪些仍需要屬性而非拓撲：</strong>效應量、劑量／組織／年齡情境、證據層級、藥物動力學
+        （baricitinib 的過濾器），以及只使用 wiki 層時的極性。合併圖譜的型別化子集已經攜帶
+        關係 + 方向 + 信心 + 出處——基質已就位；欠缺的是利用它的計算（型別路徑 pass、符號三元組探勘）。
+      </p>
+    </section>
+
+    <!-- ============ 9. PLAYBOOK ============ -->
+    <section id="playbook">
+      <p class="sec-label">手冊</p>
+      <h2>本知識庫的操作清單</h2>
+      <ol>
+        <li><strong>每當新增筆記／實體：</strong><em>立即</em>跑單薄節點的 AA 附著 + PPR 場域指派（可預見性會衰減）；
+        把 top-25 記錄為審查佇列；記錄當時授予了哪些<em>種子關係類型</em>——它們是機制走廊的閘門（Lymphopenia 效應）。</li>
+        <li><strong>加一道型別路徑 pass</strong>（<code>04_</code> 候選）：在合併圖譜的 3,895 條型別化邊上列舉兩跳合成
+        （最低信心加權、標記類比路徑），以合成信心 × AA 支持度排名——這就是「未知連結」引擎（X→cancer 類），
+        它本可提早兩年把 COVID→ferroptosis 排上來。</li>
+        <li><strong>探勘符號三元組</strong>以尋找 Assumptions-Lab 衝突（敵人的敵人與雙正三角形）；
+        登錄到 <code>assumptions.json</code> 並解決立場——已解決的衝突會實體化進圖譜
+        （選擇 → 有向邊的增刪；<code>excludedSources</code> 用於雜訊文件）。
+        任何 triples／假設變更的運行順序：<code>03_normalize_triples_schema.py</code> →
+        <code>07_sync_assumptions.py</code> → <code>03_rebuild_from_triples.py</code> →
+        <code>05_build_combined.py</code> / <code>05_rebuild_from_wiki.py</code> → <code>07_sync_to_db.py</code> +
+        <code>07_sync_content.py</code>。</li>
+        <li><strong>跨重建追蹤每個實體的介數/k-core 軌跡</strong>（擴充 <code>graph-diff.json</code>）——
+        正是它標出了鐵死亡-2020 的成熟訊號。</li>
+        <li><strong>補上這些運行暴露的文獻—圖譜缺口：</strong>直接的 SARS-CoV-2↔CD38/NAD+/PARP 邊
+        （k-core 11→15、介數 ×2）、SARS-CoV-2↔ferroptosis（Nat Commun 2024——目前只是兩跳的型別化推論）、
+        Metformin↔長新冠預防（COVID-OUT）、COVID-19↔NMN 的負面 RCT 標註。</li>
+        <li><strong>在新增疫苗／分層節點之前先攜帶屬性</strong>（劑次×年齡×性別、證據層級）——
+        平均化會抹掉發現本身。</li>
+        <li><strong>用校準先驗為每個預測的推論加權：</strong>top-K 圖譜輸出是一條約 10–30% 精確度的假說流，
+        對比無引導的 0.8%——有價值，但永遠不是神諭。</li>
+      </ol>
+    </section>
+
+    <!-- ============ 10. REFERENCES ============ -->
+    <section id="references">
+      <p class="sec-label">參考文獻</p>
+      <div class="refs">
+        <p><strong>本 repo 產物與工具</strong>：<code>graphify-out/graph.json</code> · <code>wiki-out/wiki-graph.json</code> ·
+        <code>web/public/data/edges.json</code>（合併；3,895 條型別化邊）· <code>web/public/data/link-prediction.json</code> ·
+        <code>web/public/data/assumptions.json</code>（+ 已套用狀態：<code>assumptions-build.json</code>）·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>04_node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py"><code>04_role_query.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_triple_lookup.py"><code>03_triple_lookup.py</code></a> ·
+        重播／反事實 harness（若採用可晉級至 <code>scripts/</code>）。來源任務輸出：
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
+        <p><strong>型別化邊與藥物重定位方法</strong>：
+        <a href="https://elifesciences.org/articles/26726">Rephetio/Hetionet（DWPC metapaths），eLife 2017</a> ·
+        <a href="https://www.nature.com/articles/ncomms10331">Guney et al., Nat Commun 2016</a> ·
+        <a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a> ·
+        <a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al., PNAS 2021</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/">ROBOKOP</a> ·
+        <a href="https://github.com/gnn4dr/DRKG">DRKG</a> ·
+        <a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">符號化連結預測，Leskovec et al. 2010</a></p>
+        <p><strong>發現軌跡</strong>：
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">baricitinib 假說，Lancet 2020</a> ·
+        <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00331-3/fulltext">COV-BARRIER, Lancet Respir Med 2021</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563">SELECT, NEJM 2023</a> ·
+        <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2403347">FLOW, NEJM 2024</a> ·
+        <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea">FDA OSA 2024</a> ·
+        <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash">FDA MASH 2025</a> ·
+        <a href="https://www.alz.org/news/2025/alzheimers-association-statement-oral-semaglutide-phase-3-topline-data-release">EVOKE 陰性，2025 年 11 月</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1507524">EMPA-REG, NEJM 2015</a> ·
+        <a href="https://link.springer.com/article/10.1007/s40120-025-00832-9">SGLT2-失智症綜述 2025</a> ·
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405844023061583">鐵死亡文獻計量，Heliyon 2023</a></p>
+        <p><strong>生物學錨點</strong>：
+        <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012（鐵死亡）</a> ·
+        <a href="https://www.nature.com/articles/s41467-024-48055-0">COVID 肺鐵死亡, Nat Commun 2024</a> ·
+        <a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a> ·
+        <a href="https://www.nature.com/articles/s41586-023-06983-9">7-DHC, Nature 2024</a> ·
+        <a href="https://www.nature.com/articles/s41582-022-00771-1">deferiprone 於 PD, Nat Rev Neurol 2022</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8805734/">CD38/NAD 於 COVID</a> ·
+        <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext">metformin 長新冠預防, Lancet ID 2023</a> ·
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">心肌炎統合分析, Epidemiol Rev 2025</a> ·
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4, Sci Immunol 2023</a></p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>
