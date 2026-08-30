@@ -6,7 +6,7 @@ import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
 import { openPromptComposer } from './analysis.js';
-import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
+import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
 import { anyModalOpen } from './modal.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
@@ -142,129 +142,8 @@ let viewMode = false;        // fullscreen image view (side details hidden)
 // Sibling of the Reader's article language toggle: `uiLang` picks both the
 // panel's own labels and, per note, `note.translations[uiLang]` when present
 // (falling back to `note.translations['en-US']`, then to legacy root fields).
+// The string table itself lives in i18n.js (shared with the analysis panel).
 // ------------------------------------------------------------
-const UI_STRINGS = {
-  'en-US': {
-    panelClose: 'Close panel',
-    searchPlaceholder: '🔎 Search notes, transcripts, tags, etc.',
-    done: 'Done',
-    sectionNotes: 'Notes',
-    filterByTopic: 'Filter by topic',
-    allTopics: 'All topics',
-    filterByDocument: 'Filter by document',
-    allDocuments: 'All documents',
-    sortDesc: 'Sort by created date — newest first',
-    sortAsc: 'Sort by created date — oldest first',
-    filterByTagPrefix: 'Filter by tag: ',
-    panelLanguage: 'Panel language',
-    langEn: 'English (US)',
-    langZh: '繁體中文（台灣）',
-    galleryLoading: 'Loading notes…',
-    galleryApiDown: 'Notes API unreachable — could not load notes.',
-    galleryNoMatch: 'No notes match your filters.',
-    galleryEmpty: 'No notes yet.',
-    removeTagFilter: 'Remove tag filter',
-    back: '← Gallery',
-    backToGallery: 'Back to gallery',
-    prevImg: 'Previous image',
-    prevNav: '← Previous',
-    nextNav: 'Next →',
-    nextImg: 'Next image',
-    viewLabel: '⛶ Full',
-    detailsLabel: '⛶ Details',
-    viewFull: 'Fullscreen view of the note',
-    viewDetails: 'Show details panel',
-    annDownload: 'Download this page as a PNG with the annotations drawn in',
-    transcript: 'Transcript',
-    tags: 'Tags',
-    annotations: 'Annotations',
-    none: 'none',
-    noTranscript: 'No transcript yet.',
-    ocrFailed: 'The existing transcription failed — the OCR model could not read the image (it may not support vision).',
-    sendPromptBtn: '→ Prompt',
-    sendPrompt: 'Send this transcript to the analysis Prompt',
-    noUsableTranscript: 'This note has no usable transcript yet',
-    openNoteToSend: 'Open a note to send its transcript',
-    toolCircle: 'Circle highlight',
-    toolCircleLabel: '∘ Circle',
-    toolRect: 'Rectangle highlight',
-    toolRectLabel: '▭ Rect',
-    toolArrow: 'Arrow',
-    toolArrowLabel: '→ Arrow',
-    toolLabel: 'Text label',
-    toolLabelLabel: 'A Label',
-    clearAnn: 'Clear',
-    clearAnnTitle: 'Clear annotations on current page',
-    colorYellow: 'Yellow',
-    colorGreen: 'Green',
-    colorBlue: 'Blue',
-    colorRed: 'Red',
-    colorPurple: 'Purple',
-    starred: 'Starred',
-  },
-  'zh-TW': {
-    panelClose: '關閉面板',
-    searchPlaceholder: '搜尋轉錄筆記、標籤',
-    done: '完成',
-    sectionNotes: '筆記',
-    filterByTopic: '主題篩選',
-    allTopics: '全部主題',
-    filterByDocument: '文件篩選',
-    allDocuments: '全部文件',
-    sortDesc: '依建立日期排序 — 最新在前',
-    sortAsc: '依建立日期排序 — 最舊在前',
-    filterByTagPrefix: '以標籤篩選: ',
-    panelLanguage: '面板語言',
-    langEn: '英語（美國）',
-    langZh: '繁體中文（台灣）',
-    galleryLoading: '載入筆記中…',
-    galleryApiDown: '無法連線 Notes API — 無法載入筆記。',
-    galleryNoMatch: '沒有符合篩選條件的筆記。',
-    galleryEmpty: '尚無任何筆記。',
-    removeTagFilter: '移除標籤篩選',
-    back: '← 圖庫',
-    backToGallery: '返回圖庫',
-    prevImg: '上一張',
-    prevNav: '← 上一張',
-    nextNav: '下一張 →',
-    nextImg: '下一張',
-    viewLabel: '⛶ 全螢幕',
-    detailsLabel: '⛶ 詳情',
-    viewFull: '筆記全螢幕檢視',
-    viewDetails: '顯示詳情面板',
-    annDownload: '將此頁及標註下載為 PNG',
-    transcript: '文字稿',
-    tags: '標籤',
-    annotations: '標註',
-    none: '無',
-    noTranscript: '尚無文字稿。',
-    ocrFailed: '既有的文字稿轉錄失敗 — OCR 模型無法讀取圖片（可能不支援視覺）。',
-    sendPromptBtn: '→ 傳送至提示',
-    sendPrompt: '將此文字稿傳送至分析提示',
-    noUsableTranscript: '此筆記尚無可用的文字稿',
-    openNoteToSend: '開啟筆記以傳送其文字稿',
-    toolCircle: '圓形標註',
-    toolCircleLabel: '∘ 圓形',
-    toolRect: '矩形標註',
-    toolRectLabel: '▭ 矩形',
-    toolArrow: '箭頭',
-    toolArrowLabel: '→ 箭頭',
-    toolLabel: '文字標籤',
-    toolLabelLabel: 'A 標籤',
-    clearAnn: '清除',
-    clearAnnTitle: '清除目前頁面的標註',
-    colorYellow: '黃色',
-    colorGreen: '綠色',
-    colorBlue: '藍色',
-    colorRed: '紅色',
-    colorPurple: '紫色',
-    starred: '已加星號',
-  },
-};
-
-function t(key) {
-  return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
-}
 
 // Manifest notes carry per-language content in `note.translations`
 // (e.g. translations.en-US.title/ocr). Prefer the active language, then fall
@@ -306,7 +185,7 @@ function applyUiLang(lang) {
   notesClose.setAttribute('aria-label', t('panelClose'));
   langToggles.forEach((el) => el.setAttribute('aria-label', t('panelLanguage')));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
-  searchInput.placeholder = t('searchPlaceholder');
+  searchInput.placeholder = t('notesSearchPlaceholder');
   closeCombobox();
 
   renderGallery();

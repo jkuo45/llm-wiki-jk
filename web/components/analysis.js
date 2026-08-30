@@ -14,11 +14,13 @@ import {
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
-import { esc, renderMarkdown, wikiExcerpt, escapeRegex, labelBoundaryRegex } from './markdown.js';
+import { esc, renderMarkdown, wikiExcerpt, escapeRegex } from './markdown.js';
 import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
-import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
-import { authHeaders, promptSignIn } from './auth.js';
+import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
+import { INTENT_API, EXECUTE_STREAM_API, postJSON, resetSession, sseEvents } from './api.js';
+import { matchNodesInText, edgesBetween, bfsFromSets, computeDatasetStats } from './analytics.js';
+import { promptSignIn } from './auth.js';
 import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from './modal.js';
 
 // ------------------------------------------------------------
@@ -54,11 +56,6 @@ registerModal('html-mode', htmlModeOverlay);
 registerModal('wiki-modal', document.getElementById('wiki-modal-overlay'));
 const responseModeWrap = document.getElementById('response-mode');
 
-const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
-const INTENT_API = `${API_BASE}/intent`;
-const EXECUTE_STREAM_API = `${API_BASE}/execute/stream`;
-const SESSION_RESET_API = `${API_BASE}/session/reset`;
-
 let promptOpen = false; // floating chat window open
 let analysisPanelOpen = false; // graph-tools panel open
 let promptBusy = false;
@@ -80,249 +77,8 @@ let promptSessionId = null;
 // ------------------------------------------------------------
 let uiLang = getUiLang(); // analysis/graph panel language; shared across screens
 
-const UI_STRINGS = {
-  'en-US': {
-    panelClose: 'Close panel',
-    panelLanguage: 'Panel language',
-    langEn: 'English (US)',
-    langZh: '繁體中文（台灣）',
-    modeSwitchLabel: 'Analysis mode',
-    modeAsk: 'Prompt',
-    modeGraph: 'Graph',
-    filterLabel: 'Filter',
-    filterTitle: 'Only show the highlighted nodes and their links',
-    graphifyLabel: 'Graphify',
-    graphifyTitle: 'On: run graph operations (explain / trace / path). Off: answer from the wiki.',
-    graphifyOff: 'Wiki retrieval',
-    respModeLabel: 'MODE',
-    respModeAskTitle: 'Render response as inline markdown',
-    respModeHtmlTitle: 'Render response as a standalone HTML page',
-    sendLabel: 'Send',
-    sendTitle: 'Send',
-    inputPlaceholderGraphOn: 'Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)',
-    inputPlaceholderGraphOff: 'Analyze the wiki — type @ to tag nodes (e.g. @NAD+ @SIRT1)',
-    thinking: 'Thinking',
-    answering: 'Answering',
-    translating: 'Translating',
-    serverError: 'Server error',
-    signInRequired: 'Please sign in to use the analysis panel',
-    streamError: 'Stream error. Please try again.',
-    noResponse: 'No response received.',
-    couldNotReach: 'Could not reach the prompt server.',
-    copy: 'Copy to clipboard',
-    copied: 'Copied',
-    openHtmlPage: 'Open HTML page ↗',
-    openHtmlTitle: 'Open this response as a standalone HTML page',
-    removeTag: 'Remove tag',
-    tagHint: 'Remove tag',
-    suggestMore: 'Suggest more analyses',
-    // Explore / Graph analytics
-    datasetOverview: 'Dataset Overview',
-    networkTopology: 'Network Topology',
-    communities: 'Communities',
-    communityNote: 'by community',
-    topHubs: 'Top Hubs',
-    hubsNote: 'by degree — click to focus, A/B to compare',
-    connectors: 'Connectors / Bridges',
-    connectorsNote: 'by betweenness',
-    pagerankLeaders: 'PageRank Leaders',
-    pagerankNote: 'by pagerank',
-    compareTitle: 'Compare Two Node Sets',
-    compareHint: 'Add nodes — or entire communities — to Set A (blue) or Set B (purple) via the A/B buttons, then compare their shared neighborhood, Jaccard similarity, and shortest connecting paths. Press Enter to run the comparison.',
-    setALabel: 'Set A',
-    setBLabel: 'Set B',
-    addToSetA: 'Add to Set A',
-    addToSetB: 'Add to Set B',
-    addCommToSetA: 'Add community to Set A',
-    addCommToSetB: 'Add community to Set B',
-    runCompare: 'A and B',
-    runCompareTitle: 'Analyze Set A vs Set B — or press Enter',
-    analysisBtn: '→ Prompt',
-    promptBtnTitle: 'Send this selection to the Prompt panel as an analysis query',
-    reset: 'Reset',
-    resetTitle: 'Reset analysis',
-    saveBtn: 'Save',
-    saveBtnTitle: 'Export this selection as JSON',
-    graphQuery: 'Graph Query',
-    graphQueryNote: 'curated multi-hop traces — each with its question, routes, key nodes, and source doc',
-    graphQuerySelect: 'Select a query…',
-    traceClear: 'Clear Trace',
-    searchNodes: 'Search & Filter',
-    searchNodesNote: 'by label — click to focus, A/B to compare',
-    searchPlaceholder: 'Search nodes…',
-    searchEmpty: 'No matching nodes',
-    clearHighlights: 'Clear highlights',
-    metricNodes: 'Nodes',
-    metricEdges: 'Edges',
-    metricCommunities: 'Communities',
-    metricAvgDegree: 'Avg degree',
-    metricDensity: 'Density',
-    metricGodNodes: 'God nodes',
-    topoMeanClustering: 'Mean clustering',
-    topoMaxKCore: 'Max k-core',
-    topoMeanPagerank: 'Mean pagerank',
-    topoMedianDegree: 'Median degree',
-    topoBridges: 'Bridging nodes',
-    compareEmpty: 'Add at least one node or community to both Set A and Set B.',
-    compareSetA: 'Set A',
-    compareSetB: 'Set B',
-    compareNeighborhoodA: 'Neighborhood (incl. neighbors) A',
-    compareNeighborhoodB: 'Neighborhood (incl. neighbors) B',
-    compareSharedNeighborhood: 'Shared neighborhood',
-    compareJaccard: 'Jaccard',
-    compareShortestPath: 'Shortest A → B',
-    compareSteps: 'Steps',
-    compareNoPath: 'No direct path within 6 steps.',
-    exportNeedSelection: 'Add nodes or communities to Set A / Set B before exporting.',
-    promptNeedSelection: 'Add nodes or communities to Set A / Set B before sending to Prompt.',
-    nodeInfoLabel: 'Details',
-    focusNode: 'Focus',
-    // Per-node topology labels
-    propertyCommunity: 'Community',
-    propertyDegree: 'Degree',
-    propertyPagerank: 'Pagerank',
-    propertyBetweenness: 'Betweenness',
-    propertyClustering: 'Clustering',
-    propertyKCore: 'k-core',
-    propertySource: 'Source file',
-    // Analysis download actions
-    downloadJson: 'Download analysis as JSON',
-    downloadPng: 'Download highlighted subgraph as PNG',
-    roleExplorer: 'Role Explorer',
-    roleExplorerNote: 'auto-classified from the metric fingerprint — click to list, again to clear',
-    roleRule: 'Rule',
-    roleThresholds: 'Live thresholds',
-    predictedTitle: 'Predicted Connections',
-    predictedNote: 'Adamic-Adar link prediction — non-adjacent entities whose shared neighbours imply unstated biology',
-    predictedVia: 'via',
-    crossCommFlag: 'cross-community',
-    surprisingTitle: 'Surprising Connections',
-    surprisingNote: 'cross-community anomalies flagged at build time',
-    looseCommunity: 'loose',
-    looseCommunityTitle: 'Low intra-community cohesion (edge density) — members are mostly wired to other communities',
-  },
-  'zh-TW': {
-    panelClose: '關閉面板',
-    panelLanguage: '面板語言',
-    langEn: '英語（美國）',
-    langZh: '繁體中文（台灣）',
-    modeSwitchLabel: '分析模式',
-    modeAsk: '提示',
-    modeGraph: '圖譜',
-    filterLabel: '篩選',
-    filterTitle: '只顯示被高亮的節點及其連結',
-    graphifyLabel: '圖譜化',
-    graphifyTitle: '開啟：執行圖譜操作（說明 / 追蹤 / 路徑）。關閉：由 wiki 回答。',
-    graphifyOff: 'Wiki 檢索',
-    respModeLabel: '模式',
-    respModeAskTitle: '以內嵌 Markdown 呈現回應',
-    respModeHtmlTitle: '以獨立 HTML 頁面呈現回應',
-    sendLabel: '傳送',
-    sendTitle: '傳送',
-    inputPlaceholderGraphOn: '分析圖譜 — 輸入 @ 標記節點（例如 @NAD+ @SIRT1）',
-    inputPlaceholderGraphOff: '分析 wiki — 輸入 @ 標記節點（例如 @NAD+ @SIRT1）',
-    thinking: '思考中',
-    answering: '回答中',
-    translating: '翻譯中',
-    serverError: '伺服器錯誤',
-    signInRequired: '請先登入以使用分析面板',
-    streamError: '串流錯誤，請重試。',
-    noResponse: '未收到回應。',
-    couldNotReach: '無法連線至聊天伺服器。',
-    copy: '複製到剪貼簿',
-    copied: '已複製',
-    openHtmlPage: '以 HTML 頁面開啟 ↗',
-    openHtmlTitle: '以獨立 HTML 頁面開啟此回應',
-    removeTag: '移除標記',
-    tagHint: '移除標記',
-    suggestMore: '產生更多分析建議',
-    datasetOverview: '資料集概覽',
-    networkTopology: '網路拓撲',
-    communities: '社群',
-    communityNote: '依社群',
-    topHubs: '高樞紐節點',
-    hubsNote: '依度數 — 點擊聚焦，A/B 比較',
-    connectors: '橋接節點',
-    connectorsNote: '依介數',
-    pagerankLeaders: 'PageRank 領袖',
-    pagerankNote: '依 PageRank',
-    compareTitle: '比較兩個節點集合',
-    compareHint: '透過 A/B 按鈕將節點——或整個社群——加入集合 A（藍色）或集合 B（紫色），比較它們的共同鄰域、Jaccard 相似度與最短路徑。按 Enter 執行比較。',
-    setALabel: '集合 A',
-    setBLabel: '集合 B',
-    addToSetA: '加入集合 A',
-    addToSetB: '加入集合 B',
-    addCommToSetA: '將社群加入集合 A',
-    addCommToSetB: '將社群加入集合 B',
-    runCompare: 'A 和 B',
-    runCompareTitle: '分析集合 A 與 B — 或按 Enter',
-    analysisBtn: '→ 提示',
-    promptBtnTitle: '將此選擇傳送至 Prompt 面板作為分析查詢',
-    reset: '重設',
-    resetTitle: '重設分析',
-    saveBtn: '儲存',
-    saveBtnTitle: '匯出選擇為 JSON',
-    graphQuery: '圖形查詢',
-    graphQueryNote: '精選多跳追蹤查詢 — 各附問題、路徑、關鍵節點與來源文件',
-    graphQuerySelect: '選擇查詢…',
-    traceClear: '清除追蹤',
-    searchNodes: '搜尋與篩選',
-    searchNodesNote: '依名稱 — 點擊聚焦，A/B 比較',
-    searchPlaceholder: '搜尋節點…',
-    searchEmpty: '沒有相符的節點',
-    clearHighlights: '清除高亮',
-    metricNodes: '節點',
-    metricEdges: '邊',
-    metricCommunities: '社群',
-    metricAvgDegree: '平均度數',
-    metricDensity: '密度',
-    metricGodNodes: '關鍵節點',
-    topoMeanClustering: '平均聚類係數',
-    topoMaxKCore: '最大 k-core',
-    topoMeanPagerank: '平均 PageRank',
-    topoMedianDegree: '中位數度數',
-    topoBridges: '橋接節點',
-    compareEmpty: '請在集合 A 與集合 B 中至少各加入一個節點或社群。',
-    compareSetA: '集合 A',
-    compareSetB: '集合 B',
-    compareNeighborhoodA: '鄰域（含鄰居）A',
-    compareNeighborhoodB: '鄰域（含鄰居）B',
-    compareSharedNeighborhood: '共同鄰域',
-    compareJaccard: 'Jaccard',
-    compareShortestPath: 'A → B 最短路徑',
-    compareSteps: '步數',
-    compareNoPath: '在 6 步內無直接路徑。',
-    exportNeedSelection: '請先在集合 A / B 加入節點或社群再匯出。',
-    promptNeedSelection: '請先在集合 A / B 加入節點或社群再傳送至提示。',
-    nodeInfoLabel: '詳情',
-    focusNode: '聚焦',
-    propertyCommunity: '社群',
-    propertyDegree: '度數',
-    propertyPagerank: 'PageRank',
-    propertyBetweenness: '介數',
-    propertyClustering: '聚類',
-    propertyKCore: 'k-core',
-    propertySource: '來源檔案',
-    downloadJson: '下載分析 JSON',
-    downloadPng: '下載高亮子圖 PNG',
-    roleExplorer: '角色探索',
-    roleExplorerNote: '由指標指紋自動分類 — 點擊列出，再點清除',
-    roleRule: '規則',
-    roleThresholds: '即時閾值',
-    predictedTitle: '預測連結',
-    predictedNote: 'Adamic-Adar 連結預測 — 無直接相連但共用鄰居暗示尚未記錄的生物學關聯之實體',
-    predictedVia: '經由',
-    crossCommFlag: '跨社群',
-    surprisingTitle: '意外連結',
-    surprisingNote: '建構時標記的跨社群異常連結',
-    looseCommunity: '鬆散',
-    looseCommunityTitle: '社群內聚度（邊密度）偏低 — 成員大多與其他社群相連',
-  },
-};
-
-function t(key) {
-  return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
-}
+// Panel chrome strings (UI_STRINGS) and the shared t() lookup live in
+// i18n.js — one dictionary shared with the Notes panel.
 
 // ------------------------------------------------------------
 // Graphify routing switch
@@ -554,10 +310,10 @@ if (chatCloseBtn) chatCloseBtn.addEventListener('click', closeChatPanel);
 // ------------------------------------------------------------
 function sanitizePromptInput(text) {
   if (!text || typeof text !== 'string') return '';
-  let t = text.replace(/<[^>]+>/g, '');
-  t = t.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
-  t = t.replace(/\s+/g, ' ').trim();
-  return t.slice(0, 4000);
+  let clean = text.replace(/<[^>]+>/g, '');
+  clean = clean.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
+  clean = clean.replace(/\s+/g, ' ').trim();
+  return clean.slice(0, 4000);
 }
 
 function addPromptMessage(text, type) {
@@ -764,9 +520,9 @@ function renderInlineHtml(html) {
 // text run (tags stripped), capped to a sane length. When the response yields
 // nothing usable, fall back to the user's question (query), then "Response".
 function suggestPageTitle(text, query) {
-  const t = String(text || '').replace(/<script[\s\S]*?<\/script>/gi, '');
-  const h = t.match(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/i);
-  let title = h ? h[1] : t.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const stripped = String(text || '').replace(/<script[\s\S]*?<\/script>/gi, '');
+  const h = stripped.match(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/i);
+  let title = h ? h[1] : stripped.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   title = title.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
   if (!title && query) {
     title = String(query)
@@ -881,9 +637,9 @@ document.addEventListener('keydown', (e) => {
 // which already have native Enter behavior.
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Enter' || e.shiftKey) return;
-  const t = e.target;
-  if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
-      t.tagName === 'SELECT' || t.isContentEditable)) return;
+  const target = e.target;
+  if (target && (target.tagName === 'BUTTON' || target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' ||
+      target.tagName === 'SELECT' || target.isContentEditable)) return;
   if (analysisPanel.classList.contains('open')) {
     e.preventDefault();
     runCompare();
@@ -935,15 +691,11 @@ async function sendPromptMessage() {
 
   try {
     // Phase 1: Parse intent
-    const intentResp = await fetch(INTENT_API, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({
-        message: withOutputSpec(clean),
-        session_id: promptSessionId,
-        graphify: graphifyEnabled(),
-        tags,
-      }),
+    const intentResp = await postJSON(INTENT_API, {
+      message: withOutputSpec(clean),
+      session_id: promptSessionId,
+      graphify: graphifyEnabled(),
+      tags,
     });
 
     if (!intentResp.ok) {
@@ -1011,45 +763,18 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
   let serverHighlightEdges = [];
 
   try {
-    const resp = await fetch(EXECUTE_STREAM_API, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({
-        intent: intentData.intent,
-        message: withOutputSpec(intentData.message),
-        session_id: promptSessionId,
-        tags,
-      }),
+    const resp = await postJSON(EXECUTE_STREAM_API, {
+      intent: intentData.intent,
+      message: withOutputSpec(intentData.message),
+      session_id: promptSessionId,
+      tags,
     });
 
     if (!resp.ok) {
       throw new Error(`HTTP ${resp.status}`);
     }
 
-    const reader = resp.body.getReader();
-    const decoder = new TextDecoder();
-    let sseBuf = '';
-
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-
-      sseBuf += decoder.decode(value, { stream: true });
-      const lines = sseBuf.split('\n');
-      sseBuf = lines.pop(); // keep incomplete line
-
-      for (const line of lines) {
-        if (!line.startsWith('data: ')) continue;
-        const payload = line.slice(6);
-        if (!payload.trim()) continue;
-
-        let evt;
-        try {
-          evt = JSON.parse(payload);
-        } catch {
-          continue;
-        }
-
+    for await (const evt of sseEvents(resp)) {
         if (evt.type === 'reasoning' && evt.text) {
           reasoningBuf += evt.text;
           labelEl.textContent = t('thinking');
@@ -1083,7 +808,6 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
         } else if (evt.type === 'error') {
           throw new Error(evt.text || 'Stream error');
         }
-      }
     }
   } catch (e) {
     if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
@@ -1140,22 +864,18 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   let analysisData = null;
 
   try {
-    const resp = await fetch(EXECUTE_STREAM_API, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({
-        intent: intentData.intent,
-        lang: intentData.lang,
-        question: intentData.question,
-        node: intentData.node,
-        from_node: intentData.from_node,
-        to_node: intentData.to_node,
-        nodes: intentData.nodes,
-        analysis: intentData.analysis,
-        message: withOutputSpec(intentData.message || clean),
-        session_id: promptSessionId,
-        tags,
-      }),
+    const resp = await postJSON(EXECUTE_STREAM_API, {
+      intent: intentData.intent,
+      lang: intentData.lang,
+      question: intentData.question,
+      node: intentData.node,
+      from_node: intentData.from_node,
+      to_node: intentData.to_node,
+      nodes: intentData.nodes,
+      analysis: intentData.analysis,
+      message: withOutputSpec(intentData.message || clean),
+      session_id: promptSessionId,
+      tags,
     });
 
     if (!resp.ok) {
@@ -1163,27 +883,13 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
       throw new Error(`HTTP ${resp.status}`);
     }
 
-    const reader = resp.body.getReader();
-    const decoder = new TextDecoder();
-    let sseBuf = '';
-
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      sseBuf += decoder.decode(value, { stream: true });
-      const lines = sseBuf.split('\n');
-      sseBuf = lines.pop();
-      for (const line of lines) {
-        if (!line.startsWith('data: ')) continue;
-        let evt;
-        try { evt = JSON.parse(line.slice(6)); } catch { continue; }
-        if (evt.type === 'text') {
-          textBuf = evt.text || '';
-          highlightNodes = evt.highlight_nodes || [];
-          highlightEdges = evt.highlight_edges || [];
-          primaryNode = evt.primary_node || null;
-          analysisData = evt.analysis_data || null;
-        }
+    for await (const evt of sseEvents(resp)) {
+      if (evt.type === 'text') {
+        textBuf = evt.text || '';
+        highlightNodes = evt.highlight_nodes || [];
+        highlightEdges = evt.highlight_edges || [];
+        primaryNode = evt.primary_node || null;
+        analysisData = evt.analysis_data || null;
       }
     }
   } catch (e) {
@@ -1549,12 +1255,7 @@ function resetPrompt() {
   if (promptSessionId) {
     const stale = promptSessionId;
     promptSessionId = null;
-    fetch(SESSION_RESET_API, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({ message: 'reset', session_id: stale }),
-      keepalive: true,
-    }).catch(() => {});
+    resetSession(stale);
   }
   promptActive = false;
   promptMessages.innerHTML = '';
@@ -1572,46 +1273,8 @@ function resetPrompt() {
 // ------------------------------------------------------------
 // Prompt Graph Highlighting
 // ------------------------------------------------------------
-// A lowercase word-boundary index of node labels -> node id. Used to find the
-// nodes "most related" to a query/response locally whenever the server does
-// not (or does not fully) specify which nodes a prompt turn touches.
-const labelDataIndex = new Map();
-RAW_NODES.forEach(n => {
-  const label = String(n.label || '').toLowerCase().trim();
-  if (label) labelDataIndex.set(label, n.id);
-});
-
-// Find nodes whose canonical label (or Chinese translation) appears in a blob
-// of text (the user's question + the assistant's response).
-function matchNodesInText(blob) {
-  const text = ' ' + String(blob || '').toLowerCase() + ' ';
-  const matchedIds = new Set();
-  // Prefer exact English labels; skip empty ones.
-  labelDataIndex.forEach((nodeId, label) => {
-    if (!label) return;
-    if (labelBoundaryRegex(label).test(text)) matchedIds.add(nodeId);
-  });
-  // Also match against translated labels where available.
-  RAW_NODES.forEach(n => {
-    const zh = TRANSLATIONS[n.label];
-    if (!zh || !n.id || matchedIds.has(n.id)) return;
-    if (labelBoundaryRegex(String(zh)).test(text)) matchedIds.add(n.id);
-  });
-  return matchedIds;
-}
-
-// Return only the set of edges whose endpoints are BOTH in the node set.
-function edgesBetween(nodeIds) {
-  const present = new Set(nodeIds);
-  const pairs = new Map();
-  RAW_EDGES.forEach(e => {
-    if (present.has(e.from) && present.has(e.to)) {
-      const key = [e.from, e.to].sort().join('::');
-      if (!pairs.has(key)) pairs.set(key, [e.from, e.to]);
-    }
-  });
-  return Array.from(pairs.values());
-}
+// matchNodesInText / edgesBetween / computeDatasetStats / bfsFromSets live in
+// analytics.js (pure graph math over the active dataset).
 
 // Combine server-declared highlights (nodes + edges) with a local relevance
 // match over the user query and assistant response, then return a canonical
@@ -1784,10 +1447,7 @@ function setPromptThinking(on) {
 // ------------------------------------------------------------
 // Explore mode — instant, offline dataset analytics
 // ------------------------------------------------------------
-// Memoized derived metrics computed once from the loaded graph. No server call:
-// nodes already carry degree / pagerank / betweenness / community, and the
-// LEGEND array describes communities.
-let datasetStats = null;
+// Metrics come from analytics.computeDatasetStats() (memoized there).
 // Compare sets hold entries: {type:'node', id} | {type:'community', cid, label, ids:[]}
 let compareA = [];
 let compareB = [];
@@ -1799,51 +1459,6 @@ function entryIds(entries) {
     else (e.ids || []).forEach(id => set.add(id));
   });
   return set;
-}
-
-function computeDatasetStats() {
-  if (datasetStats) return datasetStats;
-  const N = RAW_NODES.length, E = RAW_EDGES.length;
-  const commIds = new Set(RAW_NODES.map(n => n.community));
-  const nodesByCommunity = new Map();
-  RAW_NODES.forEach(n => {
-    if (!nodesByCommunity.has(n.community)) nodesByCommunity.set(n.community, []);
-    nodesByCommunity.get(n.community).push(n);
-  });
-  const hubs = RAW_NODES.slice().sort((a, b) => (b.degree || 0) - (a.degree || 0));
-  const connectors = RAW_NODES.slice().sort((a, b) => (b.betweenness || 0) - (a.betweenness || 0));
-  const pagerankLeaders = RAW_NODES.slice().sort((a, b) => (b.pagerank || 0) - (a.pagerank || 0));
-  const meanPagerank = RAW_NODES.reduce((s, n) => s + (n.pagerank || 0), 0) / Math.max(1, N);
-  const meanClustering = RAW_NODES.reduce((s2, n) => s2 + (n.clustering || 0), 0) / Math.max(1, N);
-  const maxKCore = RAW_NODES.reduce((m, n) => Math.max(m, n.k_core || 0), 0);
-  const degrees = RAW_NODES.map(n => n.degree || 0).sort((a, b) => a - b);
-  const medianDegree = degrees.length ? degrees[Math.floor(degrees.length / 2)] : 0;
-  const crossComm = new Map();
-  RAW_NODES.forEach(n => {
-    const comms = new Set();
-    (adjacency.get(n.id) || []).forEach(a => {
-      const tn = nodeMap.get(a.target);
-      if (tn) comms.add(tn.community);
-    });
-    crossComm.set(n.id, comms.size);
-  });
-  const bridgingCount = RAW_NODES.filter(n => (crossComm.get(n.id) || 1) >= 2).length;
-  datasetStats = {
-    N, E,
-    communities: commIds.size,
-    avgDegree: degrees.length
-      ? degrees.reduce((s, d) => s + d, 0) / degrees.length
-      : 0,
-    density: (2 * E) / (N * Math.max(1, N - 1)),
-    godNodes: hubs.slice(0, 10),
-    meanPagerank,
-    meanClustering,
-    maxKCore,
-    medianDegree,
-    bridgingCount,
-    hubs, connectors, pagerankLeaders, nodesByCommunity, crossComm,
-  };
-  return datasetStats;
 }
 
 function atRowHTML(n, kind, s) {
@@ -2425,27 +2040,6 @@ function renderCompareSets() {
   const atPromptBtn = document.getElementById('at-send-prompt');
   if (atPromptBtn) atPromptBtn.disabled = !hasSelection;
   refreshActivity();
-}
-
-function bfsFromSets(seedIds) {
-  const distance = new Map();
-  const from = new Map();
-  const q = [];
-  seedIds.forEach(id => { if (!distance.has(id)) { distance.set(id, 0); from.set(id, id); q.push(id); } });
-  let head = 0; const MAX = 6;
-  while (head < q.length) {
-    const cur = q[head++];
-    const d = distance.get(cur);
-    if (d >= MAX) break;
-    (adjacency.get(cur) || []).forEach(a => {
-      if (!distance.has(a.target)) {
-        distance.set(a.target, d + 1);
-        from.set(a.target, from.get(cur));
-        q.push(a.target);
-      }
-    });
-  }
-  return { distance, from };
 }
 
 function runCompare() {

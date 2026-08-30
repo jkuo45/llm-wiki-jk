@@ -15,7 +15,7 @@ import {
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
 } from './core.js';
-import { selectNode, deselectNode } from './interaction.js';
+import { selectNode, deselectNode, setUiHooks } from './interaction.js';
 import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
@@ -1108,3 +1108,8 @@ updateZoomBar();
 // The trace card lives inside #analysis-tools, which analysis.js renders at
 // startup — rebind (no-op until those elements exist).
 rebindTracePanel();
+
+// Register the selection/info renderers with interaction.js (dependency
+// inversion — see setUiHooks in interaction.js). These are hoisted function
+// declarations, so they exist even though this runs at module-eval time.
+setUiHooks({ showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes });

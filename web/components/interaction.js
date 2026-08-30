@@ -13,9 +13,21 @@ import {
 } from './core.js';
 import { state, stickyNodes, velocities } from './state.js';
 import { nodeMap, adjacency, TRANSLATIONS, predicateZh } from './data.js';
-import { showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes } from './ui.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
+
+// ------------------------------------------------------------
+// ui.js hooks (dependency inversion)
+// ------------------------------------------------------------
+// ui.js renders the node/edge info cards and trace panels. Importing it here
+// directly would create a circular dependency (ui.js already imports
+// selectNode/deselectNode from this module), so ui.js registers those
+// renderers at import time via setUiHooks() and all call sites go through
+// uiHooks below.
+const uiHooks = {};
+export function setUiHooks(hooks) {
+  Object.assign(uiHooks, hooks);
+}
 
 // ------------------------------------------------------------
 // Raycaster + hover state
@@ -528,7 +540,7 @@ export function selectNode(nodeId) {
 
   // Load the detail card even while the analysis panel is closed: the floating
   // button's green dot + toast signal that something is loaded and waiting.
-  showInfo(nodeId);
+  uiHooks.showInfo?.(nodeId);
 
   const targetPos = mesh.position.clone();
   animateCamera(targetPos.clone().add(CAMERA_OFFSET), targetPos);
@@ -550,17 +562,17 @@ export function deselectNode() {
   // If a trace is active, restore to trace highlighting
   if (state.activeTrace) {
     if (state.activeRouteIdx >= 0) {
-      activateRoute(state.activeTrace, state.activeRouteIdx);
+      uiHooks.activateRoute?.(state.activeTrace, state.activeRouteIdx);
     } else {
-      highlightTraceNodes(state.activeTrace);
+      uiHooks.highlightTraceNodes?.(state.activeTrace);
     }
-    hideNodeInfo();
+    uiHooks.hideNodeInfo?.();
     return;
   }
 
   resetVisualState();
   hideEdgeLabel();
-  hideNodeInfo();
+  uiHooks.hideNodeInfo?.();
   updateHash();
 }
 
@@ -585,7 +597,7 @@ export function selectEdge(edge) {
 
   // Show relation info in the analysis-panel card
   if (state.analysisOpen) {
-    showEdgeInfo(edge);
+    uiHooks.showEdgeInfo?.(edge);
   }
 
   // Focus camera on midpoint of edge
