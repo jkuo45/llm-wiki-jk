@@ -303,14 +303,6 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .reader-source-toggle button:hover:not(.active) { color: var(--ink-hi); }
 .reader-source-toggle button.active { background: var(--line); color: var(--link-bright); }
 
-/* "Last modified" freshness chip next to the reader title */
-#page-modal-overlay.light-theme .reader-source-toggle {
-  background: #F6F3EC; border-color: #CCC5B2; color: #22304A;
-}
-#page-modal-overlay.light-theme .reader-source-toggle button.active {
-  background: #E4EDF0; color: #0F766E;
-}
-
 #page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; margin-left: auto; }
 #page-modal-open {
   background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px;
@@ -356,36 +348,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #page-modal-close:hover { color: var(--ink-hi); }
 #page-modal-frame { flex: 1; width: 100%; border: none; background: var(--bg); min-height: 0; }
 
-/* Reader light theme — header bar and chrome follow the article theme
-   (#page-modal-overlay.light-theme is toggled by components/theme.js).
-   Background uses --paper (defined in three-graph-light.css) — the same cream
-   paper token as the analysis + notes panels. Falls back to the literal value
-   in case the light sheet isn't loaded. */
-#page-modal-overlay.light-theme,
-#page-modal-overlay.light-theme #page-modal { background: var(--paper, #F6F3EC); }
-#page-modal-overlay.light-theme #page-modal-header { background: var(--paper, #F6F3EC); border-bottom-color: var(--line); }
-#page-modal-overlay.light-theme #page-modal-header h2 { color: var(--ink-hi, #22304A); }
-#page-modal-overlay.light-theme #page-modal-open,
-#page-modal-overlay.light-theme #page-modal-theme,
-#page-modal-overlay.light-theme #reader-prev,
-#page-modal-overlay.light-theme #reader-select,
-#page-modal-overlay.light-theme .lang-toggle {
-  background: var(--paper, #F6F3EC); border-color: var(--line-strong, #CCC5B2); color: var(--ink-hi, #22304A);
-}
-#page-modal-overlay.light-theme #page-modal-open { color: var(--link, #2563A8); }
-#page-modal-overlay.light-theme #page-modal-open:hover,
-#page-modal-overlay.light-theme #page-modal-theme:hover,
-#page-modal-overlay.light-theme #reader-prev:hover:not(:disabled) {
-  background: var(--paper-deep, #ECE8DD); border-color: var(--accent, #0F766E); color: var(--accent, #0F766E);
-}
-#page-modal-overlay.light-theme #reader-select:focus { border-color: var(--accent, #0F766E); }
-#page-modal-overlay.light-theme .lang-toggle button { color: var(--ink-4, #7C8698); }
-#page-modal-overlay.light-theme .lang-toggle button + button { border-left-color: var(--line-strong, #CCC5B2); }
-#page-modal-overlay.light-theme .lang-toggle button:hover:not(.active) { color: var(--ink-hi, #22304A); }
-#page-modal-overlay.light-theme .lang-toggle button.active { background: var(--accent, #0F766E); color: #fff; }
-#page-modal-overlay.light-theme #page-modal-close { color: var(--ink-4, #7C8698); }
-#page-modal-overlay.light-theme #page-modal-close:hover { color: var(--ink-hi, #22304A); }
-#page-modal-overlay.light-theme #page-modal-frame { background: var(--paper-body, #f2ece1); }
+/* Reader light theme lives in three-graph-light.css — the .light-theme class
+   on #page-modal-overlay is toggled by components/theme.js in lockstep with
+   the #theme-light link, so it can only be active when that sheet is enabled. */
 
 /* HTML mode overlay — renders a prompt response as a standalone pages.css page */
 #html-mode-overlay {

@@ -226,9 +226,42 @@ body {
 #html-mode-close:hover { color: var(--ink-hi); }
 #html-mode-frame { background: var(--paper); }
 
-/* Reader chrome — the existing #page-modal-overlay.light-theme block in
-   three-graph.css already themes the reader; keep it as the single source.
-   (components/theme.js toggles the .light-theme class on the overlay.) */
+/* Reader chrome — header bar and controls follow the site-wide theme.
+   (components/theme.js toggles the .light-theme class on #page-modal-overlay
+   in lockstep with the #theme-light link, so these rules are only active when
+   this sheet is enabled — no literal fallbacks needed for the paper tokens.) */
+#page-modal-overlay.light-theme,
+#page-modal-overlay.light-theme #page-modal { background: var(--paper); }
+#page-modal-overlay.light-theme #page-modal-header { background: var(--paper); border-bottom-color: var(--line); }
+#page-modal-overlay.light-theme #page-modal-header h2 { color: var(--ink-hi); }
+#page-modal-overlay.light-theme #page-modal-open,
+#page-modal-overlay.light-theme #page-modal-theme,
+#page-modal-overlay.light-theme #reader-prev,
+#page-modal-overlay.light-theme #reader-select,
+#page-modal-overlay.light-theme .lang-toggle {
+  background: var(--paper); border-color: var(--line-strong); color: var(--ink-hi);
+}
+#page-modal-overlay.light-theme #page-modal-open { color: var(--link); }
+#page-modal-overlay.light-theme #page-modal-open:hover,
+#page-modal-overlay.light-theme #page-modal-theme:hover,
+#page-modal-overlay.light-theme #reader-prev:hover:not(:disabled) {
+  background: var(--paper-deep); border-color: var(--accent); color: var(--accent);
+}
+#page-modal-overlay.light-theme #reader-select:focus { border-color: var(--accent); }
+#page-modal-overlay.light-theme .lang-toggle button { color: var(--ink-4); }
+#page-modal-overlay.light-theme .lang-toggle button + button { border-left-color: var(--line-strong); }
+#page-modal-overlay.light-theme .lang-toggle button:hover:not(.active) { color: var(--ink-hi); }
+#page-modal-overlay.light-theme .lang-toggle button.active { background: var(--accent); color: #fff; }
+#page-modal-overlay.light-theme #page-modal-close { color: var(--ink-4); }
+#page-modal-overlay.light-theme #page-modal-close:hover { color: var(--ink-hi); }
+#page-modal-overlay.light-theme #page-modal-frame { background: var(--paper-body); }
+/* "Last modified" freshness chip next to the reader title */
+#page-modal-overlay.light-theme .reader-source-toggle {
+  background: var(--paper); border-color: var(--line-strong); color: var(--ink-hi);
+}
+#page-modal-overlay.light-theme .reader-source-toggle button.active {
+  background: #E4EDF0; color: var(--accent);
+}
 
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
    opaque so the graph never shows through, mirroring the reader. Background
@@ -552,7 +585,7 @@ body {
 .notes-lb-pages button:hover:not(:disabled), .notes-ann-tools button:hover, .notes-ann-tools button.active { border-color: var(--accent); color: var(--ink-hi); }
 .notes-lb-title { color: var(--ink-hi); }
 /* Language toggles (notes panel + lightbox) — match the reader's light chrome
-   (#page-modal-overlay.light-theme .lang-toggle in three-graph.css). */
+   (#page-modal-overlay.light-theme .lang-toggle, earlier in this file). */
 .lang-toggle { background: var(--paper); border-color: var(--line-strong); }
 .lang-toggle button { color: var(--ink-4); }
 .lang-toggle button + button { border-left-color: var(--line-strong); }
