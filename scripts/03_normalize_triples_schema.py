@@ -4,6 +4,9 @@
 Converts the legacy flat triple format to the current one:
 
   - `context`: plain string  ->  {"en-US": <string>, "zh-TW": <string-or-"">}
+  - `source` (legacy key)    ->  renamed to `source_document` (v2 schema; the
+    03 rebuild reads `source_document` and silently falls back to the
+    container path when it is missing)
   - adds a stable `id`  = sha1(norm(subject)|predicate|norm(object))[:12]
   - adds `created` / `updated` (ISO-8601 UTC) when missing, backfilled from the
     file's mtime on the first migration only; future edits set them properly
@@ -150,6 +153,12 @@ def main() -> int:
                 problems["non_object_triple"] += 1
                 continue
             t = dict(t)
+            # legacy `source` key -> v2 `source_document`
+            if "source_document" not in t and t.get("source"):
+                t["source_document"] = t.pop("source")
+            elif "source" in t and "source_document" in t:
+                # both present: prefer the v2 key, drop the legacy alias
+                t.pop("source")
             # context -> multilingual map
             t["context"] = normalize_context(t)
             # stable id
@@ -169,6 +178,11 @@ def main() -> int:
                 problems["missing_en"] += 1
             if not t["context"]["zh-TW"]:
                 problems["missing_zh"] += 1
+            if not (t.get("source_document") or "").strip():
+                problems["missing_source_document"] += 1
+            conf = t.get("confidence")
+            if isinstance(conf, (int, float)) and not 0 <= float(conf) <= 1:
+                problems["confidence_out_of_range"] += 1
             if not ISO_RE.match(t["created"]) or not ISO_RE.match(t["updated"]):
                 problems["bad_timestamp"] += 1
             elif t["updated"] < t["created"]:
@@ -204,6 +218,8 @@ def main() -> int:
             "bad_timestamp",
             "updated_before_created",
             "duplicate_id",
+            "missing_source_document",
+            "confidence_out_of_range",
             "missing_subject",
             "missing_predicate",
             "missing_object",

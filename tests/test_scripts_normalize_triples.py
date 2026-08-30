@@ -128,3 +128,39 @@ class TestMainPipeline:
 
     def test_no_triples_files_returns_error(self, tmp_path, monkeypatch):
         assert self._main(monkeypatch, tmp_path) == 1
+
+    def test_renames_legacy_source_key(self, tmp_path, monkeypatch, capsys):
+        t = legacy_triple(source="task_output_sirtuins_11_August_2026.md")
+        self._write(tmp_path, [t])
+        assert self._main(monkeypatch, tmp_path, capsys=capsys) == 0
+        out = json.loads(
+            (tmp_path / "src" / "topic" / "_triples.json").read_text(
+                encoding="utf-8")
+        )
+        assert out[0]["source_document"] == "task_output_sirtuins_11_August_2026.md"
+        assert "source" not in out[0]
+
+    def test_prefers_source_document_when_both_present(self, tmp_path, monkeypatch):
+        t = legacy_triple(
+            source="legacy.md", source_document="v2.md")
+        self._write(tmp_path, [t])
+        self._main(monkeypatch, tmp_path)
+        out = json.loads(
+            (tmp_path / "src" / "topic" / "_triples.json").read_text(
+                encoding="utf-8")
+        )
+        assert out[0]["source_document"] == "v2.md"
+        assert "source" not in out[0]
+
+    def test_reports_missing_source_document(self, tmp_path, monkeypatch, capsys):
+        self._write(tmp_path, [legacy_triple()])  # no source at all
+        self._main(monkeypatch, tmp_path, capsys=capsys)
+        assert "missing_source_document" in capsys.readouterr().out
+
+    def test_reports_confidence_out_of_range(self, tmp_path, monkeypatch, capsys):
+        self._write(
+            tmp_path,
+            [legacy_triple(source="a.md", confidence=1.5)],
+        )
+        self._main(monkeypatch, tmp_path, capsys=capsys)
+        assert "confidence_out_of_range" in capsys.readouterr().out
