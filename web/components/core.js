@@ -34,12 +34,12 @@ export function edgeOffColor() {
 }
 
 // Resting edge colours by edge kind: wikilink edges (`links_to`, from the
-// wiki graph) render blue; triples-extracted relation edges render orange.
-// Both rest at 70% opacity regardless of theme (dimming/hover states on top
+// wiki graph) render gray; triples-extracted relation edges render orange.
+// Both rest at 25% opacity regardless of theme (dimming/hover states on top
 // of these still use edgeOffColor()).
-const WIKI_EDGE_HEX = 0x4E79A7;   // blue — links_to
+const WIKI_EDGE_HEX = 0x9AA3B2;   // gray — links_to
 const TRIPLE_EDGE_HEX = 0xE8833A; // orange — triples-extracted edges
-export const EDGE_RESTING_ALPHA = 0.7;
+export const EDGE_RESTING_ALPHA = 0.25;
 
 export function edgeRestingStyle(edge) {
   return edge && edge.label === 'links_to'
@@ -48,7 +48,7 @@ export function edgeRestingStyle(edge) {
 }
 
 // Apply the active theme to the 3D scene (background). Resting edge colours
-// (blue/orange by edge kind) are theme-invariant, so edges need no recolour on
+// (gray/orange by edge kind) are theme-invariant, so edges need no recolour on
 // switch — highlighted/selected edges keep their accent across the toggle. DOM
 // surfaces (node labels, tooltips, panels) are themed by the light stylesheet.
 export function applyGraphTheme(light) {
@@ -128,7 +128,10 @@ function currentLabelThreshold() {
   return LABEL_THRESHOLD_FAR + (LABEL_THRESHOLD_NEAR - LABEL_THRESHOLD_FAR) * frac;
 }
 
-const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
+// Low segment count: at graph scale the spheres are tiny, and halving the
+// vertex cost across ~2.6k draw calls matters far more than silhouette
+// smoothness (16x12 → 10x8 ≈ 50% fewer triangles).
+const sphereGeometry = new THREE.SphereGeometry(1, 10, 8);
 
 function createNodeMesh(nodeData) {
   const radius = Math.max(1.5, nodeData.size * 0.4);
@@ -253,7 +256,7 @@ for (let i = 0; i < E; i++) {
   edgePositions[p + 3] = toMesh.position.x;
   edgePositions[p + 4] = toMesh.position.y;
   edgePositions[p + 5] = toMesh.position.z;
-  // Resting style: blue for links_to (wikilinks), orange for triples edges.
+  // Resting style: gray for links_to (wikilinks), orange for triples edges.
   const rest = edgeRestingStyle(edge);
   edgeHex[i] = rest.hex;
   edgeAlphaVal[i] = rest.alpha;
