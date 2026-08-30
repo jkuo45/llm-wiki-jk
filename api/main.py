@@ -149,14 +149,6 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
-    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
-    allow_methods=["GET", "POST", "OPTIONS", "PATCH", "DELETE"],
-    allow_headers=["*"],
-)
-
 # All public endpoints live under the /v1 prefix.
 api_v1 = APIRouter(prefix="/v1")
 
@@ -206,6 +198,19 @@ async def origin_gate(request: Request, call_next):
 
     logger.warning(f"Blocked request from origin={origin!r} referer={referer!r}")
     return JSONResponse(status_code=403, content={"detail": "Origin not allowed"})
+
+
+# Registered LAST so it is the OUTERMOST middleware: add_middleware stacks each
+# new layer outside the previous ones, and CORS must wrap every response —
+# including 401/403 denials from the auth/origin gates above — or the browser
+# misreports auth failures as opaque CORS errors.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
+    allow_methods=["GET", "POST", "OPTIONS", "PATCH", "DELETE"],
+    allow_headers=["*"],
+)
 
 
 # ---------------------------------------------------------------------------
