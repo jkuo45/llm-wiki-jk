@@ -95,6 +95,11 @@
 #wiki-modal-body th { background:var(--card); text-align:left; }
 #wiki-modal-body a { color:var(--teal); text-decoration:underline; text-decoration-style:dotted; }
 .task-meta { color:var(--dim); font-size:.85rem; margin:2px 0 18px; }
+/* Assumptions Lab cross-link banner (curated scenario registries) */
+.lab-banner { border:1px solid var(--amber-border); background:var(--amber-bg); border-radius:10px;
+  padding:10px 16px; margin:6px 0 18px; font-size:.88rem; color:var(--text); }
+.lab-banner a { color:var(--teal); font-weight:700; }
+.lab-banner b { color:var(--amber); }
 .loading { color:var(--dim); padding-top:48px; }
 .error { color:#ff6b6b; padding-top:48px; }
 /* Sticky-nav section picker (replaces the horizontal-scrolling link list) */
@@ -374,6 +379,36 @@ function structureSections(container) {
 }
 
 const src = safeSrc();
+
+// Assumptions Lab cross-link: when the viewed task is the source document of a
+// curated scenario registry (web/public/data/assumptions.json), surface the
+// page where readers can pick assumption A/B per conflict and re-run graph
+// analyses. Silent no-op when the registry is absent or has no match.
+// zh-TW task outputs link to the zh-TW Lab shell.
+async function injectAssumptionsBanner(contentEl, srcPath) {
+  try {
+    const base = srcPath.split('/').pop().replace(/\.md$/, '');
+    const resp = await fetch('../data/assumptions.json');
+    if (!resp.ok) return;
+    const doc = await resp.json();
+    const sc = (doc.scenarios || []).find((s) => s.sourceTask === base);
+    if (!sc) return;
+    const nConf = (sc.conflicts || []).length;
+    if (!nConf) return;
+    const zh = srcPath.includes('/zh-TW/');
+    const href = zh ? 'zh-TW/assumptions.html' : 'en-US/assumptions.html';
+    const text = zh
+      ? `⚖️ 本報告在<a href="${href}">假設實驗室</a>有 <b>${nConf}</b> 個整理好的決策點——為每個衝突選定假設 A/B，即可在修改後的邊集合上重新執行圖譜分析。`
+      : `⚖️ This report has <b>${nConf}</b> curated decision point${nConf === 1 ? '' : 's'} in the
+      <a href="${href}">Assumptions Lab</a> — pick assumption A/B per conflict and re-run
+      graph analyses on the modified edge set.`;
+    const bar = document.createElement('div');
+    bar.className = 'lab-banner';
+    bar.innerHTML = text;
+    contentEl.insertBefore(bar, contentEl.firstChild);
+  } catch (e) { /* registry unavailable → no banner */ }
+}
+
 if (!src) {
   document.getElementById('content').innerHTML =
     '<p class="error">Invalid or missing ?src= parameter.</p>';
@@ -391,6 +426,7 @@ if (!src) {
     // Fire-and-forget: fences swap to SVG figures in place; the fallback
     // <pre><code> stays until (and if) the CDN import/render succeeds.
     renderMermaidDiagrams(content);
+    injectAssumptionsBanner(content, src);
 
     // Upgrade [[Entity]] links that have a graphify-out/graph.json description into
     // tooltip-enabled entity links (the rest keep their GitHub fallback).

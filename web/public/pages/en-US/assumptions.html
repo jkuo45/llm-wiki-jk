@@ -1,0 +1,113 @@
+<!--
+  Assumptions Lab (en-US shell) — scenario analysis over the triples graph.
+
+  The engine lives in the shared module pages/assumptions.js; the styles live
+  in themes/theme-01/pages.css ("Assumptions Lab" section, token-based so
+  pages-light.css themes them automatically). This shell only supplies
+  navigation, the language strings, and URL bases. The zh-TW counterpart is
+  pages/zh-TW/assumptions.html (curated conflict content carries *_zh_TW
+  fields in web/public/data/assumptions.json; node/predicate labels come from
+  the site dictionaries with English fallback).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assumptions Lab</title>
+<meta name="description" content="Pick a stance per knowledge-graph conflict (assumption A/B) and re-run graph analyses — metric deltas, path recomputation, impact diff — against the baseline.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script defer src="../themes/theme-01/pages-core.js"></script>
+</head>
+<body style="--wrap-width:1100px;">
+
+<nav>
+  <div class="wrap">
+    <a class="back-home" href="../tasks-index.html" title="Back to task outputs index">&#8592; Back</a>
+    <a class="n" href="../../index.html#mode=triples" title="Open the triples graph view">Graph &#8599;</a>
+    <a class="n" id="nav-source" href="#" style="display:none;" title="Open the source review document">Review report &#8599;</a>
+    <a class="n" href="../zh-TW/assumptions.html" lang="zh-TW" title="中文版">中文</a>
+  </div>
+</nav>
+
+<div class="wrap lab-body" id="content">
+  <p class="loading">Loading…</p>
+</div>
+
+<script type="module">
+import { boot } from '../assumptions.js';
+
+boot({
+  lang: 'en-US',
+  locale: 'en-US',
+  // URL bases (relative to pages/en-US/)
+  dataBase: '../../data/',
+  indexUrl: '../../index.html#mode=triples',
+  taskViewerUrl: '../task-viewer.html',
+  t: {
+    loading: 'Loading…',
+    errorPrefix: 'Failed to load the Assumptions Lab: ',
+    subTail: 'Select a stance per conflict, then <b>Run analysis</b> — degrees, PageRank, and shortest paths are recomputed over the modified edge set and compared with the baseline. Selections are session-only.',
+    meta: '{conflicts} conflicts · {edits} edit operations across options · baseline {edges} edges / {nodes} nodes',
+    dataBuild: 'data build',
+    countBase: 'Baseline (unresolved) — {sel}/{total} selected',
+    countDecided: '{sel}/{total} conflicts decided',
+    reset: 'Reset',
+    run: 'Run analysis',
+    tierLabel: 'Tier {n}',
+    tierNote1: 'factual errors & direct contradictions',
+    tierNote2: 'predicate mis-extraction & speculation-as-fact',
+    tierNote3: 'consistency, duplication & coverage gaps',
+    baselinePill: 'Baseline — leave unresolved',
+    appliedWhenRun: 'Applied when run: −{rm} edge(s), +{add} edge(s) — {detail}',
+    noBaselineEdge: 'No baseline edge — missing-edge finding from the review.',
+    contextToggle: 'context',
+    confLabel: 'conf',
+    resultsTitle: 'Results',
+    chipsApplied: 'conflicts applied',
+    chipsRemoved: 'edges removed',
+    chipsAdded: 'edges added',
+    chipsWatched: 'nodes watched',
+    chipsDisconnected: 'disconnected: {names}{more}',
+    metricTitle: 'Node metrics — baseline vs scenario',
+    metricNote: 'Top {top} of {total} watched nodes (conflict anchors + edited-edge endpoints), sorted by |Δ PageRank|. Degree counts parallel edges.',
+    thNode: 'Node',
+    thDegBase: 'Deg base',
+    thDegScn: 'Deg scn',
+    thDegDelta: 'Δ deg',
+    thPrBase: 'PageRank base',
+    thPrScn: 'PageRank scn',
+    thPrDelta: 'Δ PR',
+    noChanges: 'No changes',
+    moreNodes: '…and {n} more unchanged/low-delta nodes.',
+    pathTitle: 'Path recomputation',
+    pathNote: 'Shortest paths weighted by 1 − confidence (fewer-hops tie-break). {mode}',
+    pathModeDirected: 'Directed (following edge arrows).',
+    pathModeUndirected: 'Undirected (the scripts/04_node_analysis convention).',
+    directedToggle: 'directed',
+    hopsNote: '· orange hops are new relative to the baseline route.',
+    noPresets: 'No path endpoints configured for this scenario.',
+    pheadBase: 'Baseline',
+    pheadScn: 'Scenario',
+    noPath: 'No path',
+    customTag: '(custom)',
+    fromPlaceholder: 'From (e.g. Adrenochrome)',
+    toPlaceholder: 'To (e.g. SIRT1)',
+    addPath: 'Add path',
+    verdictNone: 'no path in either',
+    verdictSame: 'unchanged · {n} hops',
+    verdictRerouted: 'rerouted · {a} → {b} hops',
+    verdictNew: 'connected by scenario · {n} hops',
+    verdictBroken: 'broken · was {n} hops',
+    openGraphTitle: 'Open {label} in the graph view',
+    resolvedHeader: 'Already resolved upstream (not offered as choices):',
+  },
+  footerHtml: `Assumptions Lab · curated from
+      <a href="#" id="foot-source">the triples human-review report</a>.
+      Not sure what to pick? Keep the baseline — unresolved conflicts are legitimate open questions.`,
+});
+</script>
+</body>
+</html>

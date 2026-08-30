@@ -1,8 +1,9 @@
 {
-  "generated": "2026-08-29 01:19:57",
-  "hash": "8105f4f263170631",
+  "generated": "2026-08-30 00:50:35",
+  "hash": "c32acf2780a15029",
   "files": [
     "articles.json",
+    "assumptions.json",
     "edges.json",
     "graph-meta.json",
     "i18n-coverage.json",
@@ -15,6 +16,7 @@
     "predicates-zh-TW.json",
     "query.json",
     "roles-meta.json",
+    "suggested-prompts.json",
     "tasks.json",
     "topics.json",
     "translations-zh-TW.json",

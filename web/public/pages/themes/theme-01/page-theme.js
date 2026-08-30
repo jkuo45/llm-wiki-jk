@@ -16,7 +16,12 @@
   var KEY = 'llm-wiki-theme';
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'themes/theme-01/pages-light.css';
+  // Resolve relative to THIS script's URL (not the page) so nested pages
+  // (pages/en-US/, pages/zh-TW/…) resolve themes/theme-01/pages-light.css
+  // correctly instead of 404ing.
+  var base = document.currentScript && document.currentScript.src;
+  link.href = base ? new URL('pages-light.css', base).href
+                   : 'themes/theme-01/pages-light.css';
   link.id = 'theme-light';
   try {
     link.disabled = localStorage.getItem(KEY) === 'dark';

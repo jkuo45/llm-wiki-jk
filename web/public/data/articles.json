@@ -216,6 +216,24 @@
         }
     },
     {
+        "id": "assumptions-lab",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Assumptions Lab — A/B Scenario Analysis over Graph Conflicts",
+                "path": "pages/en-US/assumptions.html",
+                "created": "2026-08-29",
+                "updated": "2026-08-30"
+            },
+            "zh-TW": {
+                "title": "假設實驗室 — 圖譜衝突的 A/B 情境分析",
+                "path": "pages/zh-TW/assumptions.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
+    },
+    {
         "id": "neurodegeneration-ad-pd-hd-als-review",
         "active": true,
         "langs": {

@@ -1,0 +1,961 @@
+{
+ "dataset": "triples",
+ "generated": "29_Aug_2026 10:00 AM PDT",
+ "scenarios": [
+  {
+   "id": "triples-review-2026-08-21",
+   "title": "Triples Human-Review — Adrenochrome / Mitohormesis / Autophagy / Sirtuins",
+   "sourceTask": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
+   "description": "Decision points distilled from the Tier 1–3 triples review report. Pick a stance per conflict and re-run graph analyses against the modified edge set.",
+   "pathPresets": [
+    [
+     "rapamycin",
+     "longevity"
+    ],
+    [
+     "adrenochrome",
+     "parkinson_s_disease"
+    ],
+    [
+     "mitohormesis",
+     "sirtuins"
+    ],
+    [
+     "resveratrol",
+     "sirt1"
+    ],
+    [
+     "senescence",
+     "cancer"
+    ]
+   ],
+   "conflicts": [
+    {
+     "id": "T1-1",
+     "tier": 1,
+     "title": "Adrenochrome is_a Aminochrome — class membership vs molecule identity",
+     "summary": "Aminochrome is specifically the oxidation product of dopamine; adrenochrome is the corresponding product of epinephrine. As written, is_a asserts identity between two distinct molecules — the source context means adrenochrome belongs to the aminochrome class of compounds. Collides with the other is_a edges on this 69-degree hub.",
+     "anchor": [
+      "adrenochrome",
+      "aminochrome"
+     ],
+     "evidence": [
+      {
+       "from": "adrenochrome",
+       "label": "is_a",
+       "to": "aminochrome",
+       "confidence_score": 0.95,
+       "source": "_document_ - as senotherapeutic agent.md",
+       "context": "Adrenochrome is an aminochrome, the class of oxidized, colored products formed from catecholamines. Aminochromes, specifically adrenochrome, are examined here as candidate senotherapeutics, and their chemistry, ortho-quinone electrophilicity and redox …",
+       "context_zh_TW": "腎上腺素色素是一種氨基色素，即由兒茶酚胺形成的氧化有色產物類。氨基色素，特別是腎上腺素色素，在此被研究為候選衰老治療藥物，其化學性質、鄰醌親電性和氧化還原循環決定了其潛在的溶細胞和衰老模仿活性，以及其神經毒性和心臟毒性。作為兒茶酚胺如腎上腺素和多巴胺的氧化產物，氨基色素是內源性壓力代謝物，在氧化條件下積累。"
+      },
+      {
+       "from": "adrenochrome",
+       "label": "is_a",
+       "to": "oxidation_product_of_epinephrine",
+       "confidence_score": 0.95,
+       "source": null,
+       "context": "Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a catecholamine stress hormone. In humans it arises as a minor oxidative metabolite or byproduct rather than through a dedicated biosynthetic pathway. Oxidation converts …",
+       "context_zh_TW": "Adrenochrome 是由兒茶酚胺壓力荷爾蒙 epinephrine（adrenaline）氧化形成的化學化合物。在人體中，它是作為次要的氧化代謝物或副產物出現，而非透過專一的生物合成途徑。氧化將腎上腺素的兒茶酚環轉化為 o-quinone，隨後內部環化形成 indoline-5,6-dione 結構。此過程在體內由超氧陰離子與過氧化氫等活性氧物種驅動，亦發生於體外。由於此反應與主要的 COMT 與 MAO 降解途徑競爭，adrenochrome 形成在氧化壓力、發炎以及腎上腺素濃度高的情況下更為顯著，且被視為恆定失調的標記，而非正常的豐富產物。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Keep as class membership",
+       "detail": "Read is_a loosely (aminochrome class of compounds). No edit.",
+       "edits": {},
+       "label_zh_TW": "保留——視為類別歸屬",
+       "detail_zh_TW": "將 is_a 寬鬆解讀為「氨基色素類化合物」。不做修改。"
+      },
+      {
+       "key": "B",
+       "label": "Remove — distinct molecules",
+       "detail": "Identity is already covered by is_a → oxidation_product_of_epinephrine; the aminochrome edge stays removed.",
+       "edits": {
+        "remove": [
+         [
+          "adrenochrome",
+          "is_a",
+          "aminochrome"
+         ]
+        ]
+       },
+       "label_zh_TW": "移除——兩者是不同分子",
+       "detail_zh_TW": "身分已由 is_a → 腎上腺素氧化產物 涵蓋；氨基色素邊維持移除。"
+      },
+      {
+       "key": "C",
+       "label": "Recast as class membership edge",
+       "detail": "Drop the identity claim, add an explicit class-membership edge instead.",
+       "edits": {
+        "remove": [
+         [
+          "adrenochrome",
+          "is_a",
+          "aminochrome"
+         ]
+        ],
+        "add": [
+         {
+          "from": "adrenochrome",
+          "label": "is_class_member_of",
+          "to": "aminochrome",
+          "confidence_score": 0.9,
+          "context": "Adrenochrome belongs to the aminochrome class (catecholamine oxidation products); class membership, not molecule identity.",
+          "context_zh_TW": "腎上腺素紅屬於氨基色素類（兒茶酚胺氧化產物）；這是類別成員關係，而非分子身分。"
+         }
+        ]
+       },
+       "label_zh_TW": "改寫為類別成員邊",
+       "detail_zh_TW": "移除身分主張，改加入明確的類別成員邊。"
+      }
+     ],
+     "title_zh_TW": "腎上腺素紅 is_a 氨基色素——類別歸屬 vs 分子身分",
+     "summary_zh_TW": "氨基色素（aminochrome）是多巴胺的氧化產物，而腎上腺素紅是腎上腺素的對應氧化產物。is_a 邊等於主張兩個不同分子是同一物——來源語境想說的其實是「腎上腺素紅屬於氨基色素類化合物」。這也與這個 69 度樞紐上的其他 is_a 邊相互衝突。"
+    },
+    {
+     "id": "T1-2",
+     "tier": 1,
+     "title": "Adrenochrome detectability: never detected vs detected in synovial fluid",
+     "summary": "Direct cross-paper conflict: one source states adrenochrome has never been detected in biological fluids (central to its controversial clinical significance); another reports detection in rheumatoid synovial fluid. Likely resolution: undetectable systemically in health, detectable locally under high-oxidative inflammatory conditions.",
+     "anchor": [
+      "adrenochrome",
+      "biological_fluids",
+      "rheumatoid_synovial_fluid"
+     ],
+     "evidence": [
+      {
+       "from": "adrenochrome",
+       "label": "is_undetectable_in",
+       "to": "biological_fluids",
+       "confidence_score": 0.9,
+       "source": "_document_ - The Adrenochrome Pathway.md",
+       "context": "Despite decades of interest in the adrenochrome pathway, adrenochrome has never been detected in biological fluids, and no established method for its formation in vivo has been demonstrated; this is the central reason the clinical significance of the compound …",
+       "context_zh_TW": "儘管數十年來對 adrenochrome 途徑感興趣，adrenochrome 從未在生物液體中被檢測到，也尚未建立證明其在體內形成的既成方法；這是該化合物臨床意義仍具爭議性的核心原因。檢測的困難與該分子的化學性質一致，包括其在水溶液中的不穩定性與短半衰期、迅速聚合成 melanins，以及對蛋白質和 DNA 的反應性，這些都會阻止其累積。體內形成最強的證據是間接的，例如在富含中性粒細胞的生物液體中檢測到與 adrenochrome 具有相同 HPLC 滯留時間的化合物，以及心肌梗塞後血清中出現氧化酶活性。然而，它明顯不存在於生物液體中，助長了對該途徑是否在人類疾病中真正重要的懷疑。"
+      },
+      {
+       "from": "adrenochrome",
+       "label": "detected_in",
+       "to": "rheumatoid_synovial_fluid",
+       "confidence_score": 0.75,
+       "source": "_document_ - neutrophils role in adrenochrome production.md",
+       "context": "Researchers have detected adrenochrome-like compounds in neutrophil-rich fluids such as synovial fluid from rheumatoid arthritis patients, where neutrophil activation and ROS release are prominent. This suggests a role for neutrophil-mediated catecholamine …",
+       "context_zh_TW": "Researchers已在neutrophil-rich fluids中，例如rheumatoid arthritis患者的synovial fluid，detected adrenochrome-like compounds，此處neutrophil activation與ROS release顯著。這suggests a role for neutrophil-mediated catecholamine oxidation in inflammatory或stress-related conditions，且有一項study proposed它可能是inflammatory diseases中adrenaline的potential catabolic route。在此類fluids中detected的adrenochrome reflects inflammation部位catecholamines的local oxidation，consistent with the observation that activated neutrophils的cell-free medium retains adrenaline-oxidizing ability。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Keep both — qualified reading",
+       "detail": "Undetectable systemically; detectable locally under oxidative inflammation. Both edges stay.",
+       "edits": {},
+       "label_zh_TW": "兩者皆留——限定式解讀",
+       "detail_zh_TW": "全身性無法檢出；局部氧化發炎下可檢出。兩個邊都保留。"
+      },
+      {
+       "key": "B",
+       "label": "Never detectable",
+       "detail": "Favor the systemic claim; remove the synovial-fluid detection.",
+       "edits": {
+        "remove": [
+         [
+          "adrenochrome",
+          "detected_in",
+          "rheumatoid_synovial_fluid"
+         ]
+        ]
+       },
+       "label_zh_TW": "從未可檢出",
+       "detail_zh_TW": "採納全身性主張；移除滑液檢出。"
+      },
+      {
+       "key": "C",
+       "label": "Local detection wins",
+       "detail": "Remove the blanket undetectability claim; keep the synovial-fluid detection.",
+       "edits": {
+        "remove": [
+         [
+          "adrenochrome",
+          "is_undetectable_in",
+          "biological_fluids"
+         ]
+        ]
+       },
+       "label_zh_TW": "以局部檢出為準",
+       "detail_zh_TW": "移除「全面無法檢出」主張；保留滑液檢出。"
+      }
+     ],
+     "title_zh_TW": "腎上腺素紅的可檢出性：從未檢出 vs 於關節滑液檢出",
+     "summary_zh_TW": "直接的跨文獻矛盾：一篇文獻指出腎上腺素紅從未在生物體液中檢出（這是其臨床意義具爭議性的核心）；另一篇則報告在類風濕性關節炎滑液中檢出。可能的調和解讀：健康狀態下全身體液無法檢出，但在高氧化壓力的發炎環境中可局部檢出。"
+    },
+    {
+     "id": "T1-3",
+     "tier": 1,
+     "title": "Autophagy impairs Parkinson's Disease — inverted predicate direction",
+     "summary": "Autophagy does not impair PD; autophagic dysfunction contributes to PD. The source context itself admits the phrasing can be misread. Attached to the Autophagy (43°) and Parkinson's Disease (39°) hubs, this corrupts any BFS/path answer about autophagy–neurodegeneration. The correct protective edge (autophagy protects_against alpha-synuclein aggregation) already exists.",
+     "anchor": [
+      "autophagy",
+      "parkinson_s_disease"
+     ],
+     "evidence": [
+      {
+       "from": "autophagy",
+       "label": "impairs",
+       "to": "parkinson_s_disease",
+       "confidence_score": 0.95,
+       "source": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
+       "context": "Autophagy impairs Parkinson's Disease when its deficiency or dysfunction weakens the target pathway. Mechanistically, reduced flux through the impaired system permits aggregate and organelle buildup that drives degeneration. This is significant because …",
+       "context_zh_TW": "當 Autophagy 的缺陷或功能障礙削弱目標途徑時，Autophagy 就會損害 Parkinson's Disease。從機制上講，通過受損系統的通量減少會導致聚集體和細胞器積聚，從而導致退化。這很重要，因為降解或能量途徑的損害是 Parkinson's disease 發病機制的核心特徵。需要注意的是，措辭可能會被誤讀。第一個實體的喪失或功能障礙是有害的，過度的活動也可能是有害的。"
+      },
+      {
+       "from": "autophagy",
+       "label": "protects_against",
+       "to": "alpha_synuclein_aggregation",
+       "confidence_score": 0.95,
+       "source": null,
+       "context": "Autophagy protects against Alpha-Synuclein Aggregation by neutralizing, scavenging, or removing the threatening species or condition. Mechanistically, Autophagy acts as a sink or reductant that limits oxidative, toxic, or aggregate burden within …",
+       "context_zh_TW": "Autophagy 透過中和、清除或消除威脅物種或狀況來防禦 Alpha-Synuclein Aggregation。從機制上講，Autophagy 充當水槽或還原劑，限制兒茶酚胺能神經元內的氧化、毒性或聚集負擔。這種保護作用很重要，因為它可以解釋為什麼色素神經元在高代謝壓力（至少低於致病閾值）下仍能存活。需要注意的是，這種保護是有條件的；在過載、氧化還原擾動或 iron 釋放同一實體的情況下，可能會造成損害而不是預防。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Remove the inverted edge",
+       "detail": "Drop it; the existing protects_against → alpha_synuclein_aggregation edge carries the protective direction.",
+       "edits": {
+        "remove": [
+         [
+          "autophagy",
+          "impairs",
+          "parkinson_s_disease"
+         ]
+        ]
+       },
+       "label_zh_TW": "移除方向顛倒的邊",
+       "detail_zh_TW": "直接移除；既有的 protects_against → α-突觸核蛋白聚集 邊已承載保護方向。"
+      },
+      {
+       "key": "B",
+       "label": "Recast: autophagy is impaired in PD",
+       "detail": "Replace with a well-formed dysfunction claim using the existing disease node.",
+       "edits": {
+        "remove": [
+         [
+          "autophagy",
+          "impairs",
+          "parkinson_s_disease"
+         ]
+        ],
+        "add": [
+         {
+          "from": "autophagy",
+          "label": "is_impaired_in",
+          "to": "parkinson_s_disease",
+          "confidence_score": 0.9,
+          "context": "Autophagic dysfunction contributes to Parkinson's Disease pathology; autophagy itself is impaired in the disease.",
+          "context_zh_TW": "自噬功能失調促成帕金森氏症的病理；自噬本身在該病中是受損的。"
+         }
+        ]
+       },
+       "label_zh_TW": "改寫：自噬在帕金森氏症中受損",
+       "detail_zh_TW": "以既有疾病節點改寫成語境正確的功能失調主張。"
+      },
+      {
+       "key": "C",
+       "label": "Keep as-is",
+       "detail": "Leave the edge untouched (not recommended — the context field concedes the misreading).",
+       "edits": {},
+       "label_zh_TW": "維持原狀",
+       "detail_zh_TW": "不建議——來源語境自己承認措辭會被誤讀。"
+      }
+     ],
+     "title_zh_TW": "自噬損害帕金森氏症——述詞方向顛倒",
+     "summary_zh_TW": "自噬不會損害帕金森氏症；是自噬功能失調促成帕金森氏症。來源語境自己也承認這個措辭容易被誤讀。此邊掛在自噬（43 度）與帕金森氏症（39 度）兩個樞紐上，會污染任何關於自噬–神經退化的 BFS／路徑答案。正確的保護方向邊（自噬保護免受 α-突觸核蛋白聚集）已存在。"
+    },
+    {
+     "id": "T1-4",
+     "tier": 1,
+     "title": "Rapamycin and the immune system: suppresses vs reverses immunosenescence",
+     "summary": "Classic conflicting-views case. mTOR inhibition is immunosuppressive (transplant literature) yet improves immune function in aged animals (immunosenescence reversal). Both edges are individually defensible but contradictory without an age-context qualifier. Unresolved, downstream queries return whichever document was traversed last.",
+     "anchor": [
+      "rapamycin",
+      "immune_system",
+      "immune_aging"
+     ],
+     "evidence": [
+      {
+       "from": "rapamycin",
+       "label": "suppresses",
+       "to": "immune_system",
+       "confidence_score": 0.9,
+       "source": "_document_ - Rapamycin for longevity the pros, the cons, and future perspectives.md",
+       "context": "In clinical settings, rapamycin's immunosuppressive mechanisms increase infection risk and impair wound healing, especially in otherwise healthy individuals without clinical manifestations that outweigh the risk of side effects. Some early clinical studies …",
+       "context_zh_TW": "在臨床環境中，rapamycin的免疫抑製機制增加感染風險並損害傷口癒合，特別是在其他方面健康、沒有臨床表現的個體中，其風險超過副作用的風險。一些早期臨床研究表明，短期rapamycin或rapalogs可能改善老年人免疫功能的某些方面，但這些研究依賴於對流感疫苗接種的血清學反應，這對更廣泛的免疫能力的預測價值有限。更廣泛的措施，包括T細胞庫多樣性、先天免疫活性和現實世界的感染抵抗力，仍然研究不足。"
+      },
+      {
+       "from": "rapamycin",
+       "label": "delays",
+       "to": "immune_aging",
+       "confidence_score": 0.95,
+       "source": "_document_ - Rapamycin for longevity opinion article.md",
+       "context": "Rapamycin delays immune aging by inhibiting mTORC1, an intervention shown to restore hematopoietic stem cell function and enhance the generation and persistence of memory CD8+ T cells in aged subjects. Mechanistically, mTORC1 inhibition shifts lymphocytes …",
+       "context_zh_TW": "Rapamycin透過抑制mTORC1來延緩免疫老化，此介入已被證明可恢復造血幹細胞功能並增強老年個體中記憶性CD8+ T細胞的生成與持續。在機制上，mTORC1抑制將淋巴細胞推向更初始、較不耗竭的狀態，並促進免疫細胞內自噬介導的品質控制。在臨床前和臨床研究中，短暫的rapamycin治療改善了老年人對疫苗的免疫反應。這些效應說明了標靶mTOR—自噬軸如何能在功能上使老化的免疫系統恢復年輕。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Immunostimulatory in aged animals",
+       "detail": "Keep the immunosenescence-reversal edge; remove the systemic immunosuppression edge.",
+       "edits": {
+        "remove": [
+         [
+          "rapamycin",
+          "suppresses",
+          "immune_system"
+         ]
+        ]
+       },
+       "label_zh_TW": "對老年動物具免疫刺激性",
+       "detail_zh_TW": "保留免疫老化逆轉邊；移除全身性免疫抑制邊。"
+      },
+      {
+       "key": "B",
+       "label": "Immunosuppressive",
+       "detail": "Keep the transplant-context suppression edge; remove the immune-aging edge.",
+       "edits": {
+        "remove": [
+         [
+          "rapamycin",
+          "delays",
+          "immune_aging"
+         ]
+        ]
+       },
+       "label_zh_TW": "具免疫抑制性",
+       "detail_zh_TW": "保留移植語境的抑制邊；移除免疫老化邊。"
+      },
+      {
+       "key": "C",
+       "label": "Keep both — context-dependent",
+       "detail": "The disagreement is the scientifically valuable content: suppression in transplant settings, restoration in aged animals.",
+       "edits": {},
+       "label_zh_TW": "兩者皆留——取決於語境",
+       "detail_zh_TW": "矛盾本身正是有價值的科學內容：移植情境下抑制，老年動物中恢復。"
+      }
+     ],
+     "title_zh_TW": "雷帕霉素與免疫系統：抑制 vs 逆轉免疫老化",
+     "summary_zh_TW": "經典的觀點衝突案例。mTOR 抑制具免疫抑制作用（移植文獻），但在老年動物中能改善免疫功能（免疫老化逆轉）。兩個邊各自都有依據，但缺少年齡語境限定時相互矛盾。不處理的話，下游查詢會回傳「最後被遍歷到的那份文獻」的說法。"
+    },
+    {
+     "id": "T2-1",
+     "tier": 2,
+     "title": "SOD / Catalase inhibit Adrenochrome — mis-extracted predicate",
+     "summary": "Context shows SOD and catalase inhibit the oxidation of adrenaline → adrenochrome by scavenging neutrophil ROS — not adrenochrome itself. Predicate mis-extraction on a 69-degree hub.",
+     "anchor": [
+      "superoxide_dismutase",
+      "catalase",
+      "adrenochrome"
+     ],
+     "evidence": [
+      {
+       "from": "superoxide_dismutase",
+       "label": "inhibits",
+       "to": "adrenochrome",
+       "confidence_score": 0.75,
+       "source": "_document_ - neutrophils role in adrenochrome production.md",
+       "context": "Superoxide dismutase (SOD), along with catalase and azide, inhibits the oxidation of adrenaline to adrenochrome in experiments with stimulated neutrophils, confirming that reactive oxygen species are responsible for the conversion. SOD specifically scavenges …",
+       "context_zh_TW": "Superoxide dismutase（SOD）與catalase及azide一同，在stimulated neutrophils的experiments中inhibits adrenaline oxidation to adrenochrome，confirming that reactive oxygen species are responsible for the conversion。SOD specifically scavenges由neutrophil NADPH oxidase system生成的superoxide radicals，而由於這些radicals驅動了大部分的adrenaline oxidation（在低micromolar concentrations下超過80%），removing them blocks adrenochrome formation。此enzyme-based inhibition是neutrophil-mediated adrenochrome production的ROS-dependent mechanism的key experimental evidence。"
+      },
+      {
+       "from": "catalase",
+       "label": "inhibits",
+       "to": "adrenochrome",
+       "confidence_score": 0.75,
+       "source": "_document_ - neutrophils role in adrenochrome production.md",
+       "context": "Catalase, along with superoxide dismutase and azide, inhibits the oxidation of adrenaline to adrenochrome in stimulated-neutrophil experiments, confirming that reactive oxygen species mediate the conversion. Catalase scavenges hydrogen peroxide, which both is …",
+       "context_zh_TW": "Catalase與superoxide dismutase及azide一同，在stimulated-neutrophil experiments中inhibits adrenaline oxidation to adrenochrome，confirming that reactive oxygen species mediate the conversion。Catalase scavenges hydrogen peroxide，而hydrogen peroxide本身既是一種reactive oxygen species，亦作為myeloperoxidase的substrate。由於hydrogen peroxide與myeloperoxidase-driven oxidation與superoxide一同contribute to catecholamine oxidation，catalase-mediated inhibition demonstrates that在此system中驅動adrenaline-to-adrenochrome conversion的是完整的ROS cascade，而非single species。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Recast as formation-prevention",
+       "detail": "Remove both inhibits edges; add explicit prevents_formation_of edges via superoxide scavenging.",
+       "edits": {
+        "remove": [
+         [
+          "superoxide_dismutase",
+          "inhibits",
+          "adrenochrome"
+         ],
+         [
+          "catalase",
+          "inhibits",
+          "adrenochrome"
+         ]
+        ],
+        "add": [
+         {
+          "from": "superoxide_dismutase",
+          "label": "prevents_formation_of",
+          "to": "adrenochrome",
+          "confidence_score": 0.75,
+          "context": "SOD limits adrenaline oxidation to adrenochrome by scavenging neutrophil-derived superoxide.",
+          "context_zh_TW": "SOD 藉由清除中性球衍生的超氧化物，限制腎上腺素氧化為腎上腺素紅。"
+         },
+         {
+          "from": "catalase",
+          "label": "prevents_formation_of",
+          "to": "adrenochrome",
+          "confidence_score": 0.75,
+          "context": "Catalase limits adrenaline oxidation to adrenochrome by scavenging neutrophil-derived peroxide.",
+          "context_zh_TW": "過氧化氫酶藉由清除中性球衍生的過氧化物，限制腎上腺素氧化為腎上腺素紅。"
+         }
+        ]
+       },
+       "label_zh_TW": "改寫為「防止生成」",
+       "detail_zh_TW": "移除兩個 inhibits 邊；加入明確的 prevents_formation_of 邊（經超氧化物清除）。"
+      },
+      {
+       "key": "B",
+       "label": "Keep as-is",
+       "detail": "Leave the inhibits edges untouched.",
+       "edits": {},
+       "label_zh_TW": "維持原狀",
+       "detail_zh_TW": "保留 inhibits 邊。"
+      }
+     ],
+     "title_zh_TW": "SOD／過氧化氫酶抑制腎上腺素紅——述詞誤萃取",
+     "summary_zh_TW": "語境顯示 SOD 與過氧化氫酶是透過清除中性球 ROS 來抑制「腎上腺素氧化為腎上腺素紅」的過程——而非抑制腎上腺素紅本身。這是掛在 69 度樞紐上的述詞誤萃取。"
+    },
+    {
+     "id": "T2-2",
+     "tier": 2,
+     "title": "Adrenochrome inhibits NF-κB — speculative hypothesis at face value",
+     "summary": "Lowest-confidence edge on the 55-degree NF-κB hub (0.5). Source is explicitly hypothetical (SRAC protocol framing: 'proposes… could permanently inhibit… plausible route') and contradicts the pro-inflammatory/redox-active characterization elsewhere — adrenochrome induces oxidative stress and modifies the IKK complex in the same corpus.",
+     "anchor": [
+      "adrenochrome",
+      "nf_kappab",
+      "oxidative_stress",
+      "ikk_complex"
+     ],
+     "evidence": [
+      {
+       "from": "adrenochrome",
+       "label": "inhibits",
+       "to": "nf_kappab",
+       "confidence_score": 0.5,
+       "source": "_document_ - as senotherapeutic agent.md",
+       "context": "Contested senomorphic hypothesis: in the SRAC/adrenochrome-protocol framing, adrenochrome-based complexes are proposed to suppress NF-kB-driven SASP, hence 'Adrenochrome inhibits NF-kB'. This is a protocol-specific assertion, NOT general biology - broadly, …",
+       "context_zh_TW": "具爭議的衰老相關分泌表型（senomorphic）假說：在 SRAC／腎上腺素紅協定架構中，主張以腎上腺素紅為基礎的複合物可抑制 NF-kB 驅動的 SASP，故謂「腎上腺素紅抑制 NF-kB」。此為協定專屬主張，並非普遍生物學——廣義而言，氧化壓力（腎上腺素紅生成的背景）會活化 NF-kB，進而驅動 SASP／發炎（見 Oxidative Stress --activates--> NF-kB）。信心值下調以反映其爭議性。"
+      },
+      {
+       "from": "adrenochrome",
+       "label": "induces",
+       "to": "oxidative_stress",
+       "confidence_score": 0.85,
+       "source": "_document_ - as senotherapeutic agent.md",
+       "context": "Through catalytic redox cycling, adrenochrome continuously regenerates its quinone form while reducing oxygen to superoxide, thereby fueling oxidative stress in exposed cells. Because the quinone is not consumed, aminochrome redox cycling amplifies reactive …",
+       "context_zh_TW": "通過催化氧化還原循環，腎上腺素色素持續再生其醌形式，同時將氧氣還原為超氧陰離子，從而在暴露細胞中 fuel 氧化應激。由於醌未被消耗，氨基色素氧化還原循環將活性氧產生放大遠超化學計量。在健康細胞中，NQO1的雙電子還原為穩定的氫醌繞過此循環，但NQO1和GSTM2活性低的細胞，如衰老細胞，假定選擇性脆弱。"
+      },
+      {
+       "from": "adrenochrome",
+       "label": "modifies",
+       "to": "ikk_complex",
+       "confidence_score": 0.75,
+       "source": "_document_ - as senotherapeutic agent.md",
+       "context": "Aminochromes such as adrenochrome can covalently modify the IKK complex (IkappaB kinase), a key upstream activator of NF-kappaB, via Michael addition to critical cysteine residues. IKK relies on cysteine residues for its activation, so alkylation would impair …",
+       "context_zh_TW": "氨基色素如腎上腺素色素可通過麥克爾加成共價修飾IKK複合物（IκB激酶），NF-κB的關鍵上游激活因子，針對關鍵半胱氨酸殘基。IKK依賴半胱氨酸殘基進行激活，因此烷基化會損害其激酶功能並阻止NF-κB的磷酸化依賴性激活。通過禁用此上游調節因子，假定低濃度的腎上腺素色素抑制NF-κB驅動的SASP轉錄，將衰老細胞轉變為較少炎症的衰老模仿狀態，而非直接殺死。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Remove — speculation, contradicted context",
+       "detail": "Keep the established oxidative-stress/IKK edges only.",
+       "edits": {
+        "remove": [
+         [
+          "adrenochrome",
+          "inhibits",
+          "nf_kappab"
+         ]
+        ]
+       },
+       "label_zh_TW": "移除——推測性且語境矛盾",
+       "detail_zh_TW": "只保留既有的氧化壓力／IKK 邊。"
+      },
+      {
+       "key": "B",
+       "label": "Keep — track the hypothesis",
+       "detail": "Retain the low-confidence edge so the contested hypothesis is represented.",
+       "edits": {},
+       "label_zh_TW": "保留——追蹤此假說",
+       "detail_zh_TW": "保留低信心邊，讓這個有爭議的假說在圖上有立足點。"
+      }
+     ],
+     "title_zh_TW": "腎上腺素紅抑制 NF-κB——推測性假說當作事實",
+     "summary_zh_TW": "NF-κB 這個 55 度樞紐上信心值最低的邊（0.5）。來源明確是假說性質（SRAC 協定架構：「提議……可能永久抑制……合理路徑」），且與語料庫其餘部分對腎上腺素紅的促發炎／氧化還原活性描述相矛盾——同一語料中腎上腺素紅會誘導氧化壓力並修飾 IKK 複合體。"
+    },
+    {
+     "id": "T2-3",
+     "tier": 2,
+     "title": "Mitohormesis requires Heart Rate Variability — biomarker as requirement",
+     "summary": "Context describes HRV as a recovery-monitoring biomarker that correlates with successful adaptation — not a mechanistic requirement. High confidence (0.92) makes this especially dangerous for traversal-based answers.",
+     "anchor": [
+      "mitohormesis",
+      "heart_rate_variability"
+     ],
+     "evidence": [
+      {
+       "from": "mitohormesis",
+       "label": "requires",
+       "to": "heart_rate_variability",
+       "confidence_score": 0.92,
+       "source": "_document_ - mitohormesis, heart rate variability.md",
+       "context": "Mitohormesis is about the dose-response relationship to stress, applying acute stressors such as exercise, fasting, and heat or cold to trigger mitochondrial adaptation. However, mitochondrial adaptation does not happen during the stressor; it happens during …",
+       "context_zh_TW": "粒線體促效應與壓力的劑量反應關係有關，應用急性壓力源如運動、禁食和冷熱來觸發粒線體適應。然而，粒線體適應並非發生在壓力源期間；而是發生在隨後的深度恢復期間。如果施加壓力源且恢復足夠，基線 HRV 會穩定或在數週和數月內緩慢上升，表明神經系統處理了壓力並以更大的容量適應。如果同時施加太多壓力源，HRV 會長期下降，粒線體促效應讓位於粒線體功能障礙和系統性炎症。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Recast: monitored by HRV",
+       "detail": "Drop the requirement claim; add an is_monitored_by edge.",
+       "edits": {
+        "remove": [
+         [
+          "mitohormesis",
+          "requires",
+          "heart_rate_variability"
+         ]
+        ],
+        "add": [
+         {
+          "from": "mitohormesis",
+          "label": "is_monitored_by",
+          "to": "heart_rate_variability",
+          "confidence_score": 0.85,
+          "context": "HRV is a recovery-monitoring biomarker correlating with successful mitohormetic adaptation — an indicator, not a mechanistic requirement."
+         }
+        ]
+       },
+       "label_zh_TW": "改寫：以 HRV 監測",
+       "detail_zh_TW": "移除需求主張；加入 is_monitored_by 邊。"
+      },
+      {
+       "key": "B",
+       "label": "Keep as-is",
+       "detail": "Leave the requires edge (and its 0.92 confidence) untouched.",
+       "edits": {},
+       "label_zh_TW": "維持原狀",
+       "detail_zh_TW": "保留 requires 邊（含 0.92 信心值）。"
+      }
+     ],
+     "title_zh_TW": "粒線體激效效應需要心率變異性——把生物標記當作機制需求",
+     "summary_zh_TW": "語境將 HRV 描述為與適應成功相關的恢復監測生物標記——而非機制需求。0.92 的高信心值讓它對遍歷式答案格外危險。"
+    },
+    {
+     "id": "T2-4",
+     "tier": 2,
+     "title": "SIRT3/SIRT5 in cancer: garbled dual-role predicates and opposite-polarity edges",
+     "summary": "sirt3 --suppresses_tumor_suppressive_in--> cancer is a garbled compound predicate; the context describes a well-supported context-dependent dual role (tumor-suppressor via HIF-1α/IDH2/OGG1, oncogenic via SHMT2/PYCR1/GLDC desuccinylation). Related tension: SIRT5 suppresses HCC via bile acid metabolism vs promotes HCC growth via glycolysis reprogramming — both from the same document. Recommend explicit dual-role framing instead of opposite-polarity edges.",
+     "anchor": [
+      "sirt3",
+      "sirt5",
+      "cancer"
+     ],
+     "evidence": [
+      {
+       "from": "sirt3",
+       "label": "suppresses_tumor_suppressive_in",
+       "to": "cancer",
+       "confidence_score": 0.95,
+       "source": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
+       "context": "SIRT3 exerts context-dependent roles in cancer: as a tumor suppressor it stabilizes chromosomal integrity via OGG1-mediated DNA repair potentiation, facilitates H3K56 deacetylation for NHEJ fidelity, destabilizes HIF-1alpha to attenuate the Warburg effect, …",
+       "context_zh_TW": "SIRT3 在癌症中發揮情境依賴性角色：作為腫瘤抑制因子，它透過 OGG1 介導的 DNA 修復增強穩定染色體完整性，促進 H3K56 去乙醯化以維持 NHEJ 精準度，不穩定化 HIF-1alpha 以減輕 Warburg 效應，並在 K143 處去乙醯化 IDH2 以抑制活性氧介導的致突變作用。然而它也可以是致癌性的（pyroline-5-carboxylate reductase 1 Lys228、SHMT2 Lys95、glycine decarboxylase Lys514 去乙醯化），並在 CLL 中透過活性氧緩衝賦予化療抗性。"
+      },
+      {
+       "from": "sirt5",
+       "label": "suppresses_hcc_development_via",
+       "to": "bile_acid_metabolism_orchestration",
+       "confidence_score": 0.95,
+       "source": "_document_ - sirtuins in health and disease s41392-022-01257-8.md",
+       "context": "SIRT5 prevents tumor immune evasion and suppresses the development of hepatocellular carcinoma by orchestrating bile acid metabolism. Directionally, SIRT5 sits upstream of anti-tumor immunity and restrained HCC growth. By shaping the bile acid milieu, SIRT5 …",
+       "context_zh_TW": "SIRT5透過協調膽汁酸代謝來預防腫瘤免疫逃逸並抑制肝細胞癌的發展。方向上，SIRT5位於抗腫瘤免疫和HCC生長抑制的上游。透過塑造膽汁酸環境，SIRT5影響肝腫瘤的免疫微環境，降低HCC逃避免疫破壞的能力。此腫瘤抑制性代謝功能與SIRT5促進HCC生長的糖解重編程角色形成對比，反映了SIRT5在肝癌中的環境依賴性效果。"
+      },
+      {
+       "from": "sirt5",
+       "label": "promotes",
+       "to": "hcc_growth_and_metastasis_via_glycolysis_reprogramming",
+       "confidence_score": 0.95,
+       "source": "_document_ - sirtuins in health and disease s41392-022-01257-8.md",
+       "context": "Activation of mitochondrial SIRT5 promotes the growth and metastasis of hepatocellular carcinoma cells via glucose metabolism reprogramming from oxidative phosphorylation to glycolysis. Directionally, SIRT5 sits upstream of the glycolytic switch that fuels …",
+       "context_zh_TW": "粒線體SIRT5的活化透過從氧化磷酸化到糖解作用的葡萄糖代謝重編程促進肝細胞癌細胞的生長和轉移。方向上，SIRT5位於驅動肝癌進展的糖解轉換的上游。透過有利於糖解作用，SIRT5為快速生長的HCC細胞提供生物合成和生物能量需求，支持腫瘤的侵襲性。此致癌角色與SIRT5透過膽汁酸代謝介導的HCC抑制相對抗，突顯了SIRT5在肝癌中的雙重、環境依賴性功能。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Drop the garbled edge, keep explicit polarity",
+       "detail": "Remove the malformed SIRT3 predicate; keep both SIRT5 edges as the dual-role representation.",
+       "edits": {
+        "remove": [
+         [
+          "sirt3",
+          "suppresses_tumor_suppressive_in",
+          "cancer"
+         ]
+        ]
+       },
+       "label_zh_TW": "移除混亂邊，保留明確極性",
+       "detail_zh_TW": "移除格式錯誤的 SIRT3 述詞；保留兩個 SIRT5 邊作為雙重角色的呈現。"
+      },
+      {
+       "key": "B",
+       "label": "Keep as-is",
+       "detail": "Retain all three edges including the garbled predicate.",
+       "edits": {},
+       "label_zh_TW": "維持原狀",
+       "detail_zh_TW": "三個邊（含混亂述詞）都保留。"
+      }
+     ],
+     "title_zh_TW": "SIRT3／SIRT5 與癌症：混亂的雙重角色述詞與極性相反的邊",
+     "summary_zh_TW": "sirt3 --suppresses_tumor_suppressive_in--> cancer 是混亂的複合述詞；語境描述的是證據充分的語境依賴雙重角色（經 HIF-1α/IDH2/OGG1 抑制腫瘤；經 SHMT2/PYCR1/GLDC 去琥珀釀化促癌並與 CLL 化療耐藥相關）。相關張力：SIRT5 經膽汁酸代謝抑制 HCC vs 經糖解重編程促進 HCC 生長與轉移——出自同一份文獻。建議以明確的雙重角色框架取代相反極性的邊。"
+    },
+    {
+     "id": "T2-5",
+     "tier": 2,
+     "title": "Resveratrol is COMT — nonsense copula",
+     "summary": "Context says resveratrol is suitable for slow-COMT individuals because it does not interact with COMT — stored instead as a copula identity claim. (The other self-loops from the review — SIRT6 enhance-self, COMT predominates_in-self, Val158Met is-self — were already fixed in a later build.)",
+     "anchor": [
+      "resveratrol",
+      "comt"
+     ],
+     "evidence": [
+      {
+       "from": "resveratrol",
+       "label": "is",
+       "to": "comt",
+       "confidence_score": 0.72,
+       "source": "COMT.md",
+       "context": "Resveratrol is an alternative anti-inflammatory agent for slow COMT individuals because it is not a catechol and does not donate methyl groups, so it does not perturb COMT-dependent catechol metabolism. Its anti-inflammatory and sirtuin-modulating actions …",
+       "context_zh_TW": "Resveratrol 是慢速 COMT 個體的替代抗發炎劑，因為它不是兒茶酚並且不捐贈 methyl groups，因此它不會擾亂 COMT 依賴性兒茶酚代謝。其抗發炎和沈默調節蛋白調節作用獨立於 methylation cycle 發揮作用，活化 SIRT1 和 AMPK 等路徑。這使其成為需要避免 COMT 相互作用或甲基負擔的安全選擇。它存在於葡萄和紅酒中，因其對心臟代謝和長壽的影響而被廣泛研究。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Recast: does not inhibit COMT",
+       "detail": "Remove the identity claim; add the does_not_inhibit edge the context actually describes.",
+       "edits": {
+        "remove": [
+         [
+          "resveratrol",
+          "is",
+          "comt"
+         ]
+        ],
+        "add": [
+         {
+          "from": "resveratrol",
+          "label": "does_not_inhibit",
+          "to": "comt",
+          "confidence_score": 0.75,
+          "context": "Resveratrol is suitable for slow-COMT individuals because it does not interact with COMT.",
+          "context_zh_TW": "白藜蘆醇適合慢型 COMT 個體，因為它不與 COMT 交互作用。"
+         }
+        ]
+       },
+       "label_zh_TW": "改寫：不抑制 COMT",
+       "detail_zh_TW": "移除身分主張；加入語境真正描述的 does_not_inhibit 邊。"
+      },
+      {
+       "key": "B",
+       "label": "Remove only",
+       "detail": "Drop the nonsense edge without a replacement.",
+       "edits": {
+        "remove": [
+         [
+          "resveratrol",
+          "is",
+          "comt"
+         ]
+        ]
+       },
+       "label_zh_TW": "僅移除",
+       "detail_zh_TW": "移除無意義邊，不加替代。"
+      },
+      {
+       "key": "C",
+       "label": "Keep as-is",
+       "detail": "Leave the edge untouched.",
+       "edits": {},
+       "label_zh_TW": "維持原狀",
+       "detail_zh_TW": "不修改。"
+      }
+     ],
+     "title_zh_TW": "白藜蘆醇 is COMT——無意義的繫詞",
+     "summary_zh_TW": "語境是「白藜蘆醇適合慢型 COMT 個體，因為它不與 COMT 交互作用」——卻被存成繫詞身分主張。（審查報告中的其他自環——SIRT6 enhance-self、COMT predominates_in-self、Val158Met is-self——已在後續建置中修掉，只剩這一條。）"
+    },
+    {
+     "id": "T2-6",
+     "tier": 2,
+     "title": "Erythrocytes do not produce Adrenochrome — negation scope",
+     "summary": "Negated claim whose own context concedes hemoglobin can catalyze epinephrine oxidation and the RBC membrane can convert adrenaline to aminochromes. The contrast is with neutrophils as the primary production site — 'not a primary production site' vs 'cannot generate any'.",
+     "anchor": [
+      "erythrocytes",
+      "adrenochrome"
+     ],
+     "evidence": [
+      {
+       "from": "erythrocytes",
+       "label": "does_not_produce",
+       "to": "adrenochrome",
+       "confidence_score": 0.85,
+       "source": "_document_ - neutrophil and erthrocyte.md",
+       "context": "Erythrocytes (red blood cells) are not a normal site of adrenochrome storage or production. They lack the organelles and major oxidative enzymes found in neutrophils or adrenal cells that actively generate adrenochrome, so any adrenochrome in red blood cells …",
+       "context_zh_TW": "紅血球（red blood cells）並非adrenochrome儲存或生成的常態位置。它們缺乏neutrophils或adrenal cells所具有、能主動生成adrenochrome的胞器與主要氧化酶，因此紅血球中任何的adrenochrome都會是微量、短暫的，或是blood plasma中external oxidation的結果。然而，Hemoglobin能在血液中催化epinephrine oxidation，且erythrocyte plasma membrane能將adrenaline轉化為aminochromes，因此對紅血球而言，adrenochrome更像是可能損害cell membranes的潛在反應物或副產物，而非正常存在的cellular component。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Keep — not a primary site",
+       "detail": "Retain the negation as a contrast with neutrophil production.",
+       "edits": {},
+       "label_zh_TW": "保留——非主要位置",
+       "detail_zh_TW": "保留否定，作為與中性球生成的對比。"
+      },
+      {
+       "key": "B",
+       "label": "Remove — RBCs can generate some",
+       "detail": "Hemoglobin-catalyzed oxidation makes the absolute negation indefensible.",
+       "edits": {
+        "remove": [
+         [
+          "erythrocytes",
+          "does_not_produce",
+          "adrenochrome"
+         ]
+        ]
+       },
+       "label_zh_TW": "移除——紅血球能生成一些",
+       "detail_zh_TW": "血紅素催化的氧化使絕對否定站不住腳。"
+      }
+     ],
+     "title_zh_TW": "紅細胞不產生腎上腺素紅——否定範圍問題",
+     "summary_zh_TW": "這個否定主張自己的語境都承認：血紅素可催化腎上腺素氧化、紅血球膜可將腎上腺素轉為氨基色素。重點是與中性球對比（誰是主要生成處）——「不是主要生成位置」不等於「完全無法生成」。"
+    },
+    {
+     "id": "T3-3a",
+     "tier": 3,
+     "title": "Resveratrol activates SIRT1 — direct-activation controversy unrepresented",
+     "summary": "The corpus stores Resveratrol activates SIRT1 (0.95) but no capture of the well-known challenge to direct activation at physiological doses (e.g. Park et al. 2012) — even though does_not_* negation predicates exist elsewhere. Given resveratrol's hub status, add a qualified counter-edge or lower confidence.",
+     "anchor": [
+      "resveratrol",
+      "sirt1"
+     ],
+     "evidence": [
+      {
+       "from": "resveratrol",
+       "label": "activates",
+       "to": "sirt1",
+       "confidence_score": 0.95,
+       "source": "SIRT1.md",
+       "context": "Resveratrol, a red-wine polyphenol, was the first widely studied small-molecule activator of mammalian SIRT1 and is a prototypical sirtuin-activating compound (STAC) (Howitz et al., 2003, Nature 425:191-196, PMID 12805428; Baur et al., 2006, Nature …",
+       "context_zh_TW": "白藜蘆醇（Resveratrol）是一種紅酒多酚，是第一個被廣泛研究的哺乳動物 SIRT1 小分子活化因子，是典型的 sirtuin 活化化合物（STAC）（Howitz et al., 2003, Nature 425:191-196, PMID 12805428; Baur et al., 2006, Nature 444:337-342, PMID 17086191）。它結合 SIRT1 N 端結構域附近的 Glu230，降低酶對肽和 NAD+ 受質的 Km（K 型變構活化），此外還啟動間接的 cAMP/PDE4/Epac1/AMPK/NAD+ 級聯反應。這種活化在酵母、線蟲、果蠅和高熱量飲食小鼠中延長壽命，但口服生物利用度差限制了體內相關性。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Add the counter-evidence edge",
+       "detail": "Keep the activation edge and add a qualified does_not_activate_at_physiological_dose edge.",
+       "edits": {
+        "add": [
+         {
+          "from": "resveratrol",
+          "label": "does_not_directly_activate_at_physiological_dose",
+          "to": "sirt1",
+          "confidence_score": 0.6,
+          "context": "In vitro SIRT1 activation by resveratrol is an artifact of fluorescent substrates (e.g. Park et al. 2012); direct activation at physiological doses is contested.",
+          "context_zh_TW": "體外實驗中白藜蘆醇對 SIRT1 的活化是螢光受質造成的假象（如 Park et al. 2012）；生理劑量下的直接活化仍有爭議。"
+         }
+        ]
+       },
+       "label_zh_TW": "加入反方證據邊",
+       "detail_zh_TW": "保留活化邊，並加入限定的 does_not_directly_activate_at_physiological_dose 邊。"
+      },
+      {
+       "key": "B",
+       "label": "Keep as-is",
+       "detail": "Leave the corpus with only the positive activation claim.",
+       "edits": {},
+       "label_zh_TW": "維持原狀",
+       "detail_zh_TW": "語料只留正向活化主張。"
+      }
+     ],
+     "title_zh_TW": "白藜蘆醇活化 SIRT1——直接活化的爭議未被呈現",
+     "summary_zh_TW": "語料庫存有 Resveratrol activates SIRT1（0.95），卻沒有捕捉生理劑量下「直接活化」這個廣為人知的質疑（如 Park et al. 2012）——儘管語料其他處存在 does_not_* 否定述詞。鑑於白藜蘆醇的樞紐地位，應加入限定式反方邊或降低信心值。"
+    },
+    {
+     "id": "T3-3b",
+     "tier": 3,
+     "title": "Missing edge: Mitohormesis ↔ Sirtuins",
+     "summary": "SIRT1/SIRT3 are central mediators of mitochondrial-stress adaptation (NAD+ dependence, PGC-1α axis) in the source literature, but the region connects them only indirectly via ROS / NAD+ precursors — no direct mitohormesis↔sirtuins edge exists.",
+     "anchor": [
+      "mitohormesis",
+      "sirtuins"
+     ],
+     "evidence": [],
+     "options": [
+      {
+       "key": "A",
+       "label": "Add the missing edge",
+       "detail": "Add mitohormesis is_mediated_by sirtuins.",
+       "edits": {
+        "add": [
+         {
+          "from": "mitohormesis",
+          "label": "is_mediated_by",
+          "to": "sirtuins",
+          "confidence_score": 0.8,
+          "context": "SIRT1/SIRT3 are central mediators of mitochondrial-stress adaptation (NAD+ dependence, PGC-1α axis); mitohormetic signaling runs through sirtuin activation.",
+          "context_zh_TW": "SIRT1／SIRT3 是粒線體壓力適應的核心媒介（NAD+ 依賴、PGC-1α 軸）；粒線體激效訊號經去乙醯化酶傳導。"
+         }
+        ]
+       },
+       "label_zh_TW": "加入缺漏的邊",
+       "detail_zh_TW": "加入 mitohormesis is_mediated_by sirtuins。"
+      },
+      {
+       "key": "B",
+       "label": "Leave indirect",
+       "detail": "Keep the connection implicit via ROS and NAD+ precursor paths only.",
+       "edits": {},
+       "label_zh_TW": "維持間接",
+       "detail_zh_TW": "只保留經 ROS 與 NAD+ 前體路徑的隱性連接。"
+      }
+     ],
+     "title_zh_TW": "缺邊：粒線體激效效應 ↔ 去乙醯化酶",
+     "summary_zh_TW": "原始文獻中 SIRT1／SIRT3 是粒線體壓力適應的核心媒介（NAD+ 依賴、PGC-1α 軸），但此區域只透過 ROS／NAD+ 前體間接連接——沒有直接的 mitohormesis↔sirtuins 邊。"
+    },
+    {
+     "id": "T3-4a",
+     "tier": 3,
+     "title": "Senescence ↔ Cancer: promote-only data vs dual-role literature",
+     "summary": "Three-way divergence in the review (senescence can_promote cancer 0.72; paracrine senescence suppresses_tumor cancer 0.7; paracrine senescence can_promote cancer 0.68) reflects the real, immune-clearance-dependent duality. The current build kept only the two promote edges — the tumor-suppressive side is now unrepresented.",
+     "anchor": [
+      "senescence",
+      "paracrine_senescence",
+      "cancer"
+     ],
+     "evidence": [
+      {
+       "from": "senescence",
+       "label": "can_promote",
+       "to": "cancer",
+       "confidence_score": 0.72,
+       "source": "Senescence.md",
+       "context": "In established tumors and chronically, senescence can paradoxically promote cancer through its SASP, which is rich in growth factors, angiogenic cues, and EMT-inducing cytokines. The SASP can stimulate survival, therapy resistance, cancer stemness, and immune …",
+       "context_zh_TW": "在已建立的腫瘤中以及慢性情況下，衰老可矛盾地透過其富含生長因子、血管生成訊號與 EMT 誘發細胞激素的 SASP 促進癌症。SASP 能刺激存活、治療抗藥性、癌症幹性以及免疫抑制的微環境，有利惡性進展。此雙重性——急性時腫瘤抑制、慢性時腫瘤促進——是衰老生物學的核心主題。促進效應的強度取決於脈絡、SASP 組成以及免疫監視是否完好。"
+      },
+      {
+       "from": "paracrine_senescence",
+       "label": "can_promote",
+       "to": "cancer",
+       "confidence_score": 0.68,
+       "source": "Paracrine Senescence.md",
+       "context": "In established tumors, paracrine senescence from therapy-induced senescent (TIS) cells can promote cancer progression via a tumor-supportive SASP rich in growth factors and EMT inducers. The spread of senescence-associated remodeling can enhance stemness, …",
+       "context_zh_TW": "在已建立腫瘤中，來自治療誘發衰老（TIS）細胞的旁分泌衰老可透過富含生長因子與 EMT 誘發因子的促腫瘤 SASP 促進癌症進展。衰老相關重塑的擴散可增強鄰近惡性細胞的幹性、侵襲性與治療抗藥性，且慢性 SASP（IL-6、IL-8 經 JAK/STAT3）擴大癌症幹細胞特徵。此雙重性反映衰老與癌症整體的兩面關係。促進效應取決於 SASP 組成與免疫脈絡。"
+      }
+     ],
+     "options": [
+      {
+       "key": "A",
+       "label": "Restore the dual role",
+       "detail": "Keep both promote edges and re-add the deduped-away tumor-suppressive edge.",
+       "edits": {
+        "add": [
+         {
+          "from": "paracrine_senescence",
+          "label": "suppresses_tumor",
+          "to": "cancer",
+          "confidence_score": 0.7,
+          "context": "Paracrine senescence can suppress tumors (immune-clearance-dependent duality of senescence–cancer interactions).",
+          "context_zh_TW": "旁分泌衰老可以抑制腫瘤（細胞衰老–癌症交互作用中依賴免疫清除的雙重性）。"
+         }
+        ]
+       },
+       "label_zh_TW": "恢復雙重角色",
+       "detail_zh_TW": "保留兩個促癌邊，並把被去重刪掉的腫瘤抑制邊加回來。"
+      },
+      {
+       "key": "B",
+       "label": "Keep promote-only",
+       "detail": "Leave the graph with only the tumor-promoting direction.",
+       "edits": {},
+       "label_zh_TW": "維持只有促癌面",
+       "detail_zh_TW": "圖上只保留促進腫瘤的方向。"
+      },
+      {
+       "key": "C",
+       "label": "Drop the low-confidence paracrine edge",
+       "detail": "Remove paracrine_senescence can_promote cancer (0.68); keep the senescence-level edge.",
+       "edits": {
+        "remove": [
+         [
+          "paracrine_senescence",
+          "can_promote",
+          "cancer"
+         ]
+        ]
+       },
+       "label_zh_TW": "移除低信心的旁分泌邊",
+       "detail_zh_TW": "移除 paracrine_senescence can_promote cancer（0.68）；保留 senescence 層級的邊。"
+      }
+     ],
+     "title_zh_TW": "細胞衰老 ↔ 癌症：資料只有促癌面，文獻是雙重角色",
+     "summary_zh_TW": "審查報告中的三方分歧（senescence can_promote cancer 0.72；paracrine senescence suppresses_tumor cancer 0.7；paracrine senescence can_promote cancer 0.68）反映真實的、依賴免疫清除的雙重性。目前建置只留下兩個促癌邊——腫瘤抑制面已無表示。"
+    }
+   ],
+   "resolvedUpstream": [
+    {
+     "ref": "T1-5",
+     "note": "NR improves vs fails_to_improve insulin sensitivity — resolved by edge dedupe (fails_to_improve won).",
+     "note_zh_TW": "NR 改善 vs 無法改善胰島素敏感性——由邊去重解決（fails_to_improve 勝出）。"
+    },
+    {
+     "ref": "T2-5 self-loops",
+     "note": "SIRT6 enhance-self, COMT predominates_in-self, Val158Met is-self — dropped from later builds; only Resveratrol is COMT remains (conflict T2-5).",
+     "note_zh_TW": "SIRT6 enhance-self、COMT predominates_in-self、Val158Met is-self——已在後續建置中移除；僅剩 Resveratrol is COMT（衝突 T2-5）。"
+    },
+    {
+     "ref": "T3-1",
+     "note": "Predicate duplicates (induces/activates etc.) — resolved by dedupe to canonical predicates.",
+     "note_zh_TW": "述詞重複（induces/activates 等）——已由去重收斂為規範述詞。"
+    },
+    {
+     "ref": "T3-2",
+     "note": "SIRT1 brain-specific vs global overexpression lifespan predicates — dedupe kept the global one; compound-predicate fragility noted in the review.",
+     "note_zh_TW": "SIRT1 腦特異性 vs 全身過表達延壽述詞——去重保留全身版；複合述詞的脆弱性已記錄於審查報告。"
+    },
+    {
+     "ref": "T3-3c",
+     "note": "ROS-mediated chain — mitohormesis relies_on mitochondrial_ros and mitochondrial_ros activates autophagy both exist now; chain is represented.",
+     "note_zh_TW": "ROS 傳遞鏈——mitohormesis relies_on mitochondrial_ros 與 mitochondrial_ros activates autophagy 現已存在；鏈條已有表示。"
+    },
+    {
+     "ref": "T3-4 Adrenolutin",
+     "note": "Duplicate metabolite edges — dedupe kept is_a_metabolite_of.",
+     "note_zh_TW": "重複的代謝物邊——去重保留 is_a_metabolite_of。"
+    }
+   ],
+   "title_zh_TW": "Triples 人類審查報告——腎上腺素紅／粒線體激效效應／自噬／去乙醯化酶",
+   "description_zh_TW": "由 Tier 1–3 triples 審查報告整理出的決策點。為每個衝突選定立場，即可在修改後的邊集合上重新執行圖譜分析。"
+  }
+ ]
+}

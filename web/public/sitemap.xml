@@ -228,6 +228,25 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/wiki-and-triples-graph-biological-processes.html"/>
   </url>
 
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/assumptions.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/assumptions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/assumptions.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/assumptions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
+  </url>
 
 <url>
     <loc>https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html</loc>

@@ -1,0 +1,112 @@
+<!--
+  假設實驗室（zh-TW shell）— triples 知識圖譜的情境分析。
+
+  引擎位於共用模組 pages/assumptions.js；樣式在
+  themes/theme-01/pages.css 的「Assumptions Lab」段落（全以 CSS 變數撰寫，
+  由 pages-light.css 自動切換淺色主題）。此 shell 只提供導覽、語言字串與
+  URL 基底。英文版為 pages/en-US/assumptions.html。衝突內容的中文譯文以
+  *_zh_TW 欄位內嵌於 web/public/data/assumptions.json；節點／述詞標籤取自
+  網站字典（translations-zh-TW / predicates-zh-TW），無譯文時回退英文。
+-->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>假設實驗室 — 圖譜衝突的 A/B 情境分析</title>
+<meta name="description" content="為每個知識圖譜衝突選定假設 A/B，重新執行圖譜分析——指標差異、最短路徑重算、影響摘要——並與基準比較。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script defer src="../themes/theme-01/pages-core.js"></script>
+</head>
+<body style="--wrap-width:1100px;">
+
+<nav>
+  <div class="wrap">
+    <a class="back-home" href="../tasks-index.html" title="返回任務輸出索引">&#8592; 返回</a>
+    <a class="n" href="../../index.html#mode=triples" title="開啟 triples 圖譜視圖">圖譜 &#8599;</a>
+    <a class="n" id="nav-source" href="#" style="display:none;" title="開啟原始審查文件">審查報告 &#8599;</a>
+    <a class="n" href="../en-US/assumptions.html" lang="en" title="English version">English</a>
+  </div>
+</nav>
+
+<div class="wrap lab-body" id="content">
+  <p class="loading">載入中…</p>
+</div>
+
+<script type="module">
+import { boot } from '../assumptions.js';
+
+boot({
+  lang: 'zh-TW',
+  locale: 'zh-TW',
+  // URL bases（相對於 pages/zh-TW/）
+  dataBase: '../../data/',
+  indexUrl: '../../index.html#mode=triples',
+  taskViewerUrl: '../task-viewer.html',
+  t: {
+    loading: '載入中…',
+    errorPrefix: '無法載入假設實驗室：',
+    subTail: '為每個衝突選定立場，然後「<b>執行分析</b>」——度數、PageRank 與最短路徑會在修改後的邊集合上重新計算，並與基準比較。選擇僅保留於本次工作階段。',
+    meta: '{conflicts} 個衝突 · 各選項共 {edits} 個編輯操作 · 基準 {edges} 條邊 / {nodes} 個節點',
+    dataBuild: '資料建置',
+    countBase: '基準（未決）——已選 {sel}/{total}',
+    countDecided: '已決定 {sel}/{total} 個衝突',
+    reset: '重設',
+    run: '執行分析',
+    tierLabel: '第 {n} 層',
+    tierNote1: '事實錯誤與直接矛盾',
+    tierNote2: '述詞誤萃取與推測當作事實',
+    tierNote3: '一致性、重複與覆蓋缺口',
+    baselinePill: '基準——保持未決',
+    appliedWhenRun: '執行時生效：−{rm} 條邊、+{add} 條邊——{detail}',
+    noBaselineEdge: '無基準邊——審查發現的缺漏邊。',
+    contextToggle: '語境',
+    confLabel: '信心',
+    resultsTitle: '分析結果',
+    chipsApplied: '個衝突已套用',
+    chipsRemoved: '條邊已移除',
+    chipsAdded: '條邊已加入',
+    chipsWatched: '個節點受觀測',
+    chipsDisconnected: '個節點失去連結：{names}{more}',
+    metricTitle: '節點指標——基準 vs 情境',
+    metricNote: '受觀測節點共 {total} 個（衝突錨點＋被編輯邊的端點），按 |Δ PageRank| 排序，顯示前 {top} 名。度數計入平行邊。',
+    thNode: '節點',
+    thDegBase: '基準度數',
+    thDegScn: '情境度數',
+    thDegDelta: 'Δ 度數',
+    thPrBase: '基準 PageRank',
+    thPrScn: '情境 PageRank',
+    thPrDelta: 'Δ PR',
+    noChanges: '無變化',
+    moreNodes: '……另有 {n} 個無變化／低差異節點。',
+    pathTitle: '路徑重算',
+    pathNote: '最短路徑以 1 − 信心值加權（同成本時偏好較少跳數）。{mode}',
+    pathModeDirected: '有向（沿邊的箭頭方向）。',
+    pathModeUndirected: '無向（scripts/04_node_analysis 慣例）。',
+    directedToggle: '有向',
+    hopsNote: '· 橘色跳段是相對基準路線的新路徑。',
+    noPresets: '此情境未設定路徑端點。',
+    pheadBase: '基準',
+    pheadScn: '情境',
+    noPath: '無路徑',
+    customTag: '（自訂）',
+    fromPlaceholder: '從（例：腎上腺素紅）',
+    toPlaceholder: '到（例：去乙醯化酶1）',
+    addPath: '加入路徑',
+    verdictNone: '兩者皆無路徑',
+    verdictSame: '不變 · {n} 跳',
+    verdictRerouted: '改道 · {a} → {b} 跳',
+    verdictNew: '因情境而連通 · {n} 跳',
+    verdictBroken: '中斷 · 原為 {n} 跳',
+    openGraphTitle: '在圖譜視圖中開啟 {label}',
+    resolvedHeader: '已在上游解決（不列為選項）：',
+  },
+  footerHtml: `假設實驗室 · 內容整理自
+      <a href="#" id="foot-source">triples 人類審查報告</a>。
+      不知道選哪個？保留基準——未決的衝突本身就是合理的開放問題。`,
+});
+</script>
+</body>
+</html>

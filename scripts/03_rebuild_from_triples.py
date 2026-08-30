@@ -59,6 +59,7 @@ MANUAL_DATA_FILES = (
     "predicates-zh-TW.json",  # zh-TW relationship-predicate labels (display only)
     "articles.json",  # article registry for the Reader (EN + zh-TW)
     "notes-tags-zh-TW.json",  # zh-TW tag labels for the Notes panel gallery
+    "assumptions.json",  # curated A/B conflict registry for the Assumptions Lab
 )
 
 # generic type/category vocabulary to drop (abstract ontology hubs)
@@ -372,6 +373,89 @@ def ensure_manual_data_files() -> None:
             "WARNING: hand-maintained data files missing from web/public/data/ "
             f"(add them manually): {', '.join(missing)}"
         )
+
+
+def validate_assumptions_file() -> None:
+    """Fail the build when the curated assumptions registry drifts from data.
+
+    The Assumptions Lab (web/public/pages/en-US/assumptions.html, zh-TW
+    shell under pages/zh-TW/) re-runs graph
+    analyses over a modified edge set derived from web/public/data/
+    assumptions.json. Every edge key, node id, and path endpoint it references
+    must resolve against the freshly built triples-edges.json /
+    triples-nodes.json, or the derived scenario silently diverges from the
+    graph it claims to analyze. Curation aid: scripts/03_triple_lookup.py maps
+    a review report's triple ids to web edge keys.
+    """
+    path = DATA_DIR / "assumptions.json"
+    if not path.exists():
+        return
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise SystemExit(f"assumptions.json is not valid JSON: {e}") from e
+
+    edges = json.loads((DATA_DIR / "triples-edges.json").read_text(encoding="utf-8"))
+    edge_keys = {(e["from"], e["label"], e["to"]) for e in edges}
+    node_ids = {n["id"] for n in json.loads((DATA_DIR / "triples-nodes.json").read_text(encoding="utf-8"))}
+
+    def edge_key(key) -> tuple[str, str, str]:
+        # stored as [from, label, to] (JSON arrays) — tolerate 3-tuples
+        if not isinstance(key, (list, tuple)) or len(key) != 3:
+            raise SystemExit(f"assumptions.json: bad edge key {key!r} (want [from, label, to])")
+        return (key[0], key[1], key[2])
+
+    errors: list[str] = []
+    scenario_ids: set[str] = set()
+    for sc in doc.get("scenarios", []):
+        sid = sc.get("id", "?")
+        if sid in scenario_ids:
+            errors.append(f"duplicate scenario id {sid!r}")
+        scenario_ids.add(sid)
+        for preset in sc.get("pathPresets", []):
+            if len(preset) != 2:
+                errors.append(f"{sid}: pathPreset {preset!r} must be [source, target]")
+                continue
+            for nid in preset:
+                if nid not in node_ids:
+                    errors.append(f"{sid}: pathPreset endpoint {nid!r} is not a known node")
+        conflict_ids: set[str] = set()
+        for c in sc.get("conflicts", []):
+            cid = c.get("id", "?")
+            if cid in conflict_ids:
+                errors.append(f"{sid}: duplicate conflict id {cid!r}")
+            conflict_ids.add(cid)
+            where = f"{sid}/{cid}"
+            for nid in c.get("anchor", []):
+                if nid not in node_ids:
+                    errors.append(f"{where}: anchor {nid!r} is not a known node")
+            for e in c.get("evidence", []):
+                k = (e.get("from"), e.get("label"), e.get("to"))
+                if k not in edge_keys:
+                    errors.append(f"{where}: evidence edge {k} not in triples-edges.json")
+            for opt in c.get("options", []):
+                okey = opt.get("key", "?")
+                edits = opt.get("edits") or {}
+                for key in edits.get("remove", []):
+                    if edge_key(key) not in edge_keys:
+                        errors.append(f"{where}/{okey}: remove key {key} not in triples-edges.json")
+                for add in edits.get("add", []):
+                    k = (add.get("from"), add.get("label"), add.get("to"))
+                    if k[0] not in node_ids or k[2] not in node_ids:
+                        errors.append(f"{where}/{okey}: add edge {k} references unknown node(s)")
+                    conf = add.get("confidence_score")
+                    if not isinstance(conf, (int, float)) or not 0 <= conf <= 1:
+                        errors.append(f"{where}/{okey}: add edge {k} has bad confidence_score {conf!r}")
+                    if not str(k[1]).strip():
+                        errors.append(f"{where}/{okey}: add edge {k} has an empty label")
+
+    if errors:
+        print("assumptions.json validation failed:")
+        for err in errors:
+            print(f"  - {err}")
+        raise SystemExit(1)
+    n_conf = sum(len(sc.get("conflicts", [])) for sc in doc.get("scenarios", []))
+    print(f"assumptions.json OK: {len(doc.get('scenarios', []))} scenario(s), {n_conf} conflict(s)")
 
 
 # ------------------------------------------------------------------
@@ -930,6 +1014,7 @@ def main() -> int:
 
     # --- sanity-check hand-maintained data files (query.json, translations) ---
     ensure_manual_data_files()
+    validate_assumptions_file()
 
     # --- write the i18n coverage report the web app can surface ---
     DATA_DIR.mkdir(parents=True, exist_ok=True)
