@@ -1,5 +1,5 @@
 {
-  "generated": "28_AUG_2026 09:44 PM PDT",
+  "generated": "30_AUG_2026 03:45 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,242 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Reading a Discovery Arrival - How Graph Metrics and Typed Edges Behave When New Entities Enter a Knowledge Graph (Ferroptosis 2012 and COVID/Vaccine as Worked Examples)",
+          "description": "What happens to knowledge-graph calculations when a discovery is introduced and matures — the five-phase lifecycle traced metric-by-metric through a year-by-year replay of Ferroptosis 2012→2026 (betweenness ×1000, k-core 8→19, AA foreseeability 0.8→0.6) and COVID/Vaccine 2020→2026 (community boundary-straddling, the Lymphopenia seed as the single CD38/NAD+ bridge). Edges carry semantics and direction — the combined graph's 3,895 typed edges (inhibits/activates/promotes/protects_against + confidence + provenance) turn co-mention into implication - attribute transfer (statins inherit ferroptosis's iron/CoQ10 cloud), typed-path composition predicting unknown connections (COVID-19→SIRT3→(brake release)→ferroptosis, inferable years before the 2024 COVID-lung-ferroptosis paper), upstream/downstream lever analysis, and signed-triad inference. External worked examples (baricitinib KG win, GLP-1 degree explosion + EVOKE failure, SGLT2i, PROTACs), calibration numbers (Gysi 62% vs 0.8%), and what metrics can and cannot reveal.",
+          "created": "2026-08-30",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "graph-metrics",
+            "typed-edges",
+            "ferroptosis",
+            "covid-19",
+            "link-prediction",
+            "metapath",
+            "network-medicine",
+            "discovery-lifecycle"
+          ],
+          "filename": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
+          "path": "tasks/en-US/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
+        },
+        "zh-TW": {
+          "title": "解讀一個發現的降臨 — 當新實體進入知識圖譜時，圖譜指標與型別化邊如何運作（以鐵死亡 2012 與 COVID/疫苗為實例）",
+          "description": "當一個發現被引入並逐步成熟時，知識圖譜的計算會發生什麼——以逐年重播的方式對鐵死亡 2012→2026（介數中心性 ×1000、k-core 8→19、AA 可預見性 0.8→0.6）與 COVID/疫苗 2020→2026（社群跨越、以 Lymphopenia 種子作為通往 CD38/NAD+ 的唯一橋樑）逐項追蹤五階段生命週期。邊帶有語意與方向——合併圖譜的 3,895 條型別化邊（inhibits/activates/promotes/protects_against + confidence + provenance）將共同提及轉化為蘊含——屬性轉移（statins 繼承鐵死亡的鐵/CoQ10 屬性雲）、型別化路徑組合預測未知連結（COVID-19→SIRT3→（煞車釋放）→鐵死亡，早於 2024 年 COVID-肺-鐵死亡論文即可推得）、上游/下游杠杆分析，以及帶符號三元組推論。外部實例（baricitinib 的 KG 成功、GLP-1 度數爆炸 + EVOKE 失敗、SGLT2i、PROTAC）、校準數字（Gysi 62% 對 0.8%），以及各項指標能與不能揭示的內容。",
+          "created": "2026-08-30",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "graph-metrics",
+            "typed-edges",
+            "ferroptosis",
+            "covid-19",
+            "link-prediction",
+            "metapath",
+            "network-medicine",
+            "discovery-lifecycle"
+          ],
+          "filename": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
+          "path": "tasks/zh-TW/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Neurodegeneration Review: AD, PD, HD, ALS/FTD — Comparative Synthesis from the Wiki, Graphs, and 2025–2026 Literature",
+          "description": "Comparative review of neurodegenerative disease (Alzheimer's, Parkinson's, Huntington's, ALS/FTD spectrum) synthesizing the wiki's notes, triples-graph and wiki-graph analyses, and web research on the 2025–2026 therapeutic and biomarker landscape. Focuses on shared convergent mechanisms versus disease-specific differences in trigger, vulnerable cell type, spread, and therapeutic logic.",
+          "created": "2026-08-29",
+          "updated": "2026-08-29",
+          "tags": [
+            "neurodegeneration",
+            "alzheimers-disease",
+            "parkinsons-disease",
+            "huntingtons-disease",
+            "als",
+            "tauopathy",
+            "proteinopathy",
+            "comparative-review"
+          ],
+          "filename": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+          "path": "tasks/en-US/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "神經退化性疾病綜述：AD、PD、HD、ALS/FTD — 來自 Wiki、圖譜與 2025–2026 文獻的比較綜合",
+          "description": "神經退化性疾病（阿茲海默症、帕金森氏症、亨丁頓舞蹈症、ALS/FTD 譜系）的比較綜述，整合 wiki 筆記、triples 圖譜與 wiki 圖譜分析，以及 2025–2026 年治療與生物標記版圖的網路文獻研究。聚焦共享的收斂機制，與疾病特異的觸發、易損細胞類型、擴散與治療邏輯差異。",
+          "created": "2026-08-29",
+          "updated": "2026-08-29",
+          "tags": [
+            "neurodegeneration",
+            "alzheimers-disease",
+            "parkinsons-disease",
+            "huntingtons-disease",
+            "als",
+            "tauopathy",
+            "proteinopathy",
+            "comparative-review"
+          ],
+          "filename": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+          "path": "tasks/zh-TW/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sirtuin_caspase_crosstalk_28_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuin-Caspase Crosstalk — Research Synthesis (Wiki, Graph, Web)",
+          "description": "Cross-source research report on the bidirectional regulation between sirtuins and caspases, combining the wiki vault notes, the graphify knowledge graph, and current web literature (with PMIDs).",
+          "created": "2026-08-28",
+          "updated": "2026-08-28",
+          "tags": [
+            "sirtuin",
+            "caspase",
+            "apoptosis",
+            "cell-death",
+            "research-synthesis"
+          ],
+          "filename": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+          "path": "tasks/en-US/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuin–Caspase 串擾 — 研究綜合（Wiki、圖譜、Web）",
+          "description": "跨來源研究報告，探討 sirtuins 與 caspases 之間的雙向調控，結合 wiki 知識庫筆記、graphify 知識圖譜與當前網路文獻（附 PMID）。",
+          "created": "2026-08-28",
+          "updated": "2026-08-28",
+          "tags": [
+            "sirtuin",
+            "caspase",
+            "apoptosis",
+            "cell-death",
+            "research-synthesis"
+          ],
+          "filename": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+          "path": "tasks/zh-TW/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
+          "created": "2026-08-20",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
+          "created": "2026-08-20",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 2",
+          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
+          "created": "2026-08-21",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素協定網路追蹤，第二輪",
+          "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
+          "created": "2026-08-21",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_20_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
+          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
+          "created": "2026-08-20",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
+          "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
+          "created": "2026-08-20",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
         }
       }
     },
@@ -104,8 +340,7 @@
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
           "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026.md"
         }
-      },
-      "starred": true
+      }
     },
     {
       "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
@@ -178,44 +413,6 @@
           ],
           "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
           "path": "tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
-          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
-          "created": "2026-08-20",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
-          "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
-          "created": "2026-08-20",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
         }
       }
     },
@@ -702,80 +899,6 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces, Round 2",
-          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
-          "created": "2026-08-21",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺色素協定網路追蹤，第二輪",
-          "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
-          "created": "2026-08-21",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_protocol_traces_20_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
-          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
-          "created": "2026-08-20",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "methylene-blue",
-            "aminoguanidine",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
-          "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
-          "created": "2026-08-20",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "methylene-blue",
-            "aminoguanidine",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
       "kind": "task",
       "langs": {
@@ -912,40 +1035,6 @@
       }
     },
     {
-      "id": "task:task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Comparative Review — Ferroptosis & Cancer vs. Apoptosis & Cancer",
-          "description": "Head-to-head comparison of how cancer evades and exploits ferroptotic versus apoptotic cell death, synthesized from wiki notes (Ferroptosis, Apoptosis, Cancer, apoptosis-in-cancer documents) with general-knowledge supplements.",
-          "created": "2026-08-26",
-          "updated": "2026-08-26",
-          "tags": [
-            "ferroptosis",
-            "apoptosis",
-            "cancer",
-            "cell-death"
-          ],
-          "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
-          "path": "tasks/en-US/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "比較綜述——鐵死亡與癌症 vs. 細胞凋亡與癌症",
-          "description": "就癌症如何規避並利用鐵死亡與細胞凋亡兩種死亡程序進行對照比較，內容綜整維基筆記（Ferroptosis、Apoptosis、Cancer 及調控凋亡相關文獻筆記），並輔以一般知識補充。",
-          "created": "2026-08-26",
-          "updated": "2026-08-26",
-          "tags": [
-            "ferroptosis",
-            "apoptosis",
-            "cancer",
-            "cell-death"
-          ],
-          "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_graph_structure_conclusions_26_AUG_2026",
       "kind": "task",
       "langs": {
@@ -1032,6 +1121,78 @@
       }
     },
     {
+      "id": "task:task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Comparative Review — Ferroptosis & Cancer vs. Apoptosis & Cancer",
+          "description": "Head-to-head comparison of how cancer evades and exploits ferroptotic versus apoptotic cell death, synthesized from wiki notes (Ferroptosis, Apoptosis, Cancer, apoptosis-in-cancer documents) with general-knowledge supplements.",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "ferroptosis",
+            "apoptosis",
+            "cancer",
+            "cell-death"
+          ],
+          "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+          "path": "tasks/en-US/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "比較綜述——鐵死亡與癌症 vs. 細胞凋亡與癌症",
+          "description": "就癌症如何規避並利用鐵死亡與細胞凋亡兩種死亡程序進行對照比較，內容綜整維基筆記（Ferroptosis、Apoptosis、Cancer 及調控凋亡相關文獻筆記），並輔以一般知識補充。",
+          "created": "2026-08-26",
+          "updated": "2026-08-26",
+          "tags": [
+            "ferroptosis",
+            "apoptosis",
+            "cancer",
+            "cell-death"
+          ],
+          "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+          "path": "tasks/zh-TW/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_acid_ceramidase_27_July_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Acid Ceramidase in Ferroptosis & Cellular Senescence",
+          "description": "Research synthesis on acid ceramidase (ASAH1) as a novel GPX4/GSH/iron-independent regulator of ferroptosis in senescent cells, including paracrine propagation via SASP, mechanistic model via the Lands cycle, and therapeutic implications as a senolytic/senomorphic target.",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "ferroptosis",
+            "senescence",
+            "lipid-metabolism",
+            "sphingolipid-metabolism",
+            "enzyme",
+            "senolytic"
+          ],
+          "filename": "task_output_acid_ceramidase_27_July_2026.md",
+          "path": "tasks/en-US/task_output_acid_ceramidase_27_July_2026.md"
+        },
+        "zh-TW": {
+          "title": "酸性神經醯胺酶在鐵死亡與細胞衰老中的角色",
+          "description": "關於酸性神經醯胺酶（ASAH1）作為衰老細胞中一種新型、不依賴 GPX4/GSH/鐵的鐵死亡調節因子的研究綜述，包含透過 SASP 的旁分泌傳播、經由 Lands cycle 的機制模型，以及作為 senolytic/senomorphic 標的的治療意涵。",
+          "created": "2026-07-27",
+          "updated": "2026-08-22",
+          "tags": [
+            "ferroptosis",
+            "senescence",
+            "lipid-metabolism",
+            "sphingolipid-metabolism",
+            "enzyme",
+            "senolytic"
+          ],
+          "filename": "task_output_acid_ceramidase_27_July_2026.md",
+          "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_node_analysis_biology_16_AUG_2026",
       "kind": "task",
       "langs": {
@@ -1071,8 +1232,7 @@
           "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
           "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026.md"
         }
-      },
-      "starred": true
+      }
     },
     {
       "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
@@ -1118,47 +1278,7 @@
           "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
           "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
         }
-      },
-      "starred": true
-    },
-    {
-      "id": "task:task_output_acid_ceramidase_27_July_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Acid Ceramidase in Ferroptosis & Cellular Senescence",
-          "description": "Research synthesis on acid ceramidase (ASAH1) as a novel GPX4/GSH/iron-independent regulator of ferroptosis in senescent cells, including paracrine propagation via SASP, mechanistic model via the Lands cycle, and therapeutic implications as a senolytic/senomorphic target.",
-          "created": "2026-07-27",
-          "updated": "2026-08-22",
-          "tags": [
-            "ferroptosis",
-            "senescence",
-            "lipid-metabolism",
-            "sphingolipid-metabolism",
-            "enzyme",
-            "senolytic"
-          ],
-          "filename": "task_output_acid_ceramidase_27_July_2026.md",
-          "path": "tasks/en-US/task_output_acid_ceramidase_27_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "酸性神經醯胺酶在鐵死亡與細胞衰老中的角色",
-          "description": "關於酸性神經醯胺酶（ASAH1）作為衰老細胞中一種新型、不依賴 GPX4/GSH/鐵的鐵死亡調節因子的研究綜述，包含透過 SASP 的旁分泌傳播、經由 Lands cycle 的機制模型，以及作為 senolytic/senomorphic 標的的治療意涵。",
-          "created": "2026-07-27",
-          "updated": "2026-08-22",
-          "tags": [
-            "ferroptosis",
-            "senescence",
-            "lipid-metabolism",
-            "sphingolipid-metabolism",
-            "enzyme",
-            "senolytic"
-          ],
-          "filename": "task_output_acid_ceramidase_27_July_2026.md",
-          "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md"
-        }
-      },
-      "starred": true
+      }
     },
     {
       "id": "task:task_output_autophagy_and_cancer_13_JUL_2026",
@@ -1817,8 +1937,7 @@
           "filename": "task_output_senescence_research_gaps_18_August_2026.md",
           "path": "tasks/zh-TW/task_output_senescence_research_gaps_18_August_2026.md"
         }
-      },
-      "starred": true
+      }
     },
     {
       "id": "task:task_output_sirtuin_research_gaps_14_August_2026",
