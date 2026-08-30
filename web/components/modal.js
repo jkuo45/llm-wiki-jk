@@ -51,6 +51,12 @@ export function registerModal(name, elOrId, opts = {}) {
     lastFocus: null,
   };
   if (!entry.el) throw new Error(`modal.js: no element for "${name}"`);
+  // Dialog semantics + focus-trap anchor. Overlays are application-modal
+  // surfaces (reader, wiki modal, HTML mode), so expose them as dialogs and
+  // keep Tab cycling inside while open.
+  entry.el.setAttribute('role', 'dialog');
+  entry.el.setAttribute('aria-modal', 'true');
+  if (!entry.el.hasAttribute('tabindex')) entry.el.setAttribute('tabindex', '-1');
   registry.set(name, entry);
 
   // Backdrop dismissal: a click landing on the overlay itself (not its
@@ -75,12 +81,20 @@ export function registerModal(name, elOrId, opts = {}) {
 // ------------------------------------------------------------
 // Open / close / query
 // ------------------------------------------------------------
+// Focusable elements inside an overlay, in DOM order (Tab/Shift+Tab cycle).
+const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), ' +
+  'select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
 export function openModal(name) {
   const entry = registry.get(name);
   if (!entry || elVisible(entry)) return;
   entry.lastFocus = document.activeElement;
   showEl(entry, true);
   stack.push(name);
+  // Establish a focus context inside the overlay so the Tab trap below works
+  // immediately (focusing the container itself doesn't disturb the caret or
+  // scroll position, and screen readers announce the dialog is open).
+  try { entry.el.focus({ preventScroll: true }); } catch (err) {}
 }
 
 export function closeModal(name) {
@@ -114,9 +128,34 @@ export function anyModalOpen() {
 // Keyboard: one listener for all registered overlays. Escape closes
 // the topmost open overlay; when one is open the event is consumed so
 // per-panel handlers (analysis panel, notes gallery) don't also fire.
+// Tab is trapped inside the topmost overlay while it is open.
 // ------------------------------------------------------------
 document.addEventListener('keydown', (e) => {
-  if (e.key !== 'Escape' || stack.length === 0) return;
-  e.preventDefault();
-  closeModal(stack[stack.length - 1]);
+  if (stack.length === 0) return;
+  if (e.key === 'Escape') {
+    e.preventDefault();
+    closeModal(stack[stack.length - 1]);
+    return;
+  }
+  if (e.key !== 'Tab') return;
+  const entry = registry.get(stack[stack.length - 1]);
+  if (!entry || !entry.el) return;
+  const focusables = Array.from(entry.el.querySelectorAll(FOCUSABLE))
+    .filter((el) => el.offsetParent !== null || el === document.activeElement);
+  if (!focusables.length) return;
+  const first = focusables[0];
+  const last = focusables[focusables.length - 1];
+  const active = document.activeElement;
+  const inside = entry.el.contains(active);
+  if (!inside) {
+    // Focus drifted outside (e.g. click on the canvas) — pull it back in.
+    e.preventDefault();
+    (e.shiftKey ? last : first).focus({ preventScroll: true });
+  } else if (e.shiftKey && active === first) {
+    e.preventDefault();
+    last.focus({ preventScroll: true });
+  } else if (!e.shiftKey && active === last) {
+    e.preventDefault();
+    first.focus({ preventScroll: true });
+  }
 });

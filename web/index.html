@@ -52,8 +52,8 @@
     <h2>Loading Graph Data</h2>
     <p id="load-status">Initializing...</p>
   </div>
-  <div id="tooltip"></div>
-  <div id="wiki-tooltip"></div>
+  <div id="tooltip" role="tooltip"></div>
+  <div id="wiki-tooltip" role="tooltip"></div>
   <div id="controls">
     <div class="controls-spacer" aria-hidden="true"></div>
     <button id="btn-analysis" title="Analysis panel / 分析面板" aria-label="Analysis panel">
@@ -97,12 +97,12 @@
     </button>
   </div>
   <div id="zoom-bar">
-    <button id="zoom-in" title="Zoom in">+</button>
-    <div id="zoom-slider-track">
+    <button id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+    <div id="zoom-slider-track" role="slider" tabindex="0" aria-label="Zoom" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-orientation="vertical">
       <div id="zoom-slider-fill"></div>
       <div id="zoom-slider-thumb"></div>
     </div>
-    <button id="zoom-out" title="Zoom out">&minus;</button>
+    <button id="zoom-out" title="Zoom out" aria-label="Zoom out">&minus;</button>
     <span class="zoom-label">Zoom</span>
   </div>
 </div>
@@ -165,7 +165,7 @@
       </div>
     </div>
   </div>
-  <div id="prompt-messages"></div>
+  <div id="prompt-messages" aria-live="polite"></div>
   <div id="analysis-modes">
     <label id="graphify-toggle" data-i18n-title="graphifyTitle">
       <input type="checkbox" id="graphify-checkbox">
@@ -181,7 +181,7 @@
   </div>
   <div id="prompt-tags"></div>
   <div id="prompt-input-wrap">
-    <div id="prompt-tag-popup"></div>
+    <div id="prompt-tag-popup" role="listbox" aria-label="Node suggestions"></div>
     <textarea id="prompt-input" rows="3" enterkeyhint="send" maxlength="4000" placeholder="Analyze the graph — type @ to tag nodes (e.g. @NAD+ @SIRT1)"></textarea>
     <button id="prompt-send" data-i18n="sendLabel" data-i18n-title="sendTitle">Send</button>
   </div>
@@ -415,9 +415,9 @@
       or email / 或使用 Email
       <span style="flex:1; height:1px; background:rgba(255,255,255,0.1);"></span>
     </div>
-    <input id="auth-email" type="email" placeholder="Email" required autocomplete="username"
+    <input id="auth-email" type="email" placeholder="Email" required autocomplete="username" aria-label="Email"
       style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); background:#0c0f16; color:#e8eaf0; font-size:0.95rem;">
-    <input id="auth-password" type="password" placeholder="Password" required autocomplete="current-password"
+    <input id="auth-password" type="password" placeholder="Password" required autocomplete="current-password" aria-label="Password"
       style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); background:#0c0f16; color:#e8eaf0; font-size:0.95rem;">
     <div id="auth-error" style="color:#ff7a7a; font-size:0.85rem; min-height:1.2em;"></div>
     <button type="submit"
@@ -426,7 +426,7 @@
       style="background:none; border:none; color:#6b7280; font-size:0.8rem; text-decoration:underline; cursor:pointer; padding:0;">Forgot password? / 忘記密碼</button>
     <div id="auth-reset-row" style="display:none; flex-direction:column; gap:10px; padding-top:10px; border-top:1px solid rgba(255,255,255,0.1);">
       <span style="font-size:0.85rem; color:#9aa3b2;">Set a new password / 設定新密碼</span>
-      <input id="auth-new-password" type="password" placeholder="New password / 新密碼" required autocomplete="new-password"
+      <input id="auth-new-password" type="password" placeholder="New password / 新密碼" required autocomplete="new-password" aria-label="New password / 新密碼"
         style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); background:#0c0f16; color:#e8eaf0; font-size:0.95rem;">
       <button id="auth-reset-btn" type="button"
         style="padding:10px 12px; border-radius:8px; border:none; background:#4f7cff; color:#fff; font-size:0.95rem; font-weight:600; cursor:pointer;">Update password</button>

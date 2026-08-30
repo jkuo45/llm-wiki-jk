@@ -178,12 +178,15 @@ export const EDGE_ACCENT = 0x4E79A7;
 export const edgeList = [];            // [{ edge, fromMesh, toMesh }] indexed by segment
 export let edgeSegments = null;        // THREE.LineSegments (raycast target)
 const edgeToIndex = new Map();         // edge object -> segment index
-const edgeBaseAlpha = [];              // resting alpha per edge
 const edgeHex = [];                    // last-set color hex per edge (theme restore)
 const edgeAlphaVal = [];               // last-set alpha per edge
 const edgeFiltered = [];               // 1 = hidden by prompt node filter
 export let edgePositions, edgePosAttr;
 let edgeColors, edgeAlphas, edgeColorAttr, edgeAlphaAttr;
+// For each node id, the segment indexes of the edges touching it. Lets
+// interaction.js update only the edges that actually move during a drag
+// instead of scanning every edge on each pointermove.
+export const edgeSegmentsByNode = new Map();
 const _edgeColor = new THREE.Color();
 
 function writeEdge(i) {
@@ -244,7 +247,6 @@ for (let i = 0; i < E; i++) {
   edgePositions[p + 4] = toMesh.position.y;
   edgePositions[p + 5] = toMesh.position.z;
   const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-  edgeBaseAlpha[i] = ba;
   edgeHex[i] = off;
   edgeAlphaVal[i] = ba;
   edgeFiltered[i] = 0;
@@ -258,6 +260,12 @@ for (let i = 0; i < E; i++) {
   edgeAlphas[i * 2] = ba;
   edgeAlphas[i * 2 + 1] = ba;
   edgeToIndex.set(edge, i);
+  let segs = edgeSegmentsByNode.get(edge.from);
+  if (!segs) { segs = []; edgeSegmentsByNode.set(edge.from, segs); }
+  segs.push(i);
+  segs = edgeSegmentsByNode.get(edge.to);
+  if (!segs) { segs = []; edgeSegmentsByNode.set(edge.to, segs); }
+  segs.push(i);
 }
 
 const edgeGeometry = new THREE.BufferGeometry();
@@ -539,12 +547,13 @@ function declutteredLabelIds() {
   const w = container.clientWidth;
   const h = container.clientHeight;
   const candidates = [];
+  const _proj = new THREE.Vector3();
   labelObjects.forEach((label, id) => {
     const nodeData = nodeMap.get(id);
     const mesh = nodeObjects.get(id);
     if (!state.showLabels || !nodeData || nodeData.degree < currentLabelThreshold()) return;
     if (!mesh || !mesh.visible) return;
-    const v = mesh.position.clone().project(camera);
+    const v = _proj.copy(mesh.position).project(camera);
     if (v.z > 1 || v.x < -1.2 || v.x > 1.2 || v.y < -1.2 || v.y > 1.2) return; // behind camera / far off-screen
     const { hw, hh } = labelHalfExtents(nodeData);
     candidates.push({
@@ -680,6 +689,9 @@ export function updateZoomBar() {
   const thumb = document.getElementById('zoom-slider-thumb');
   fill.style.height = pct + '%';
   thumb.style.bottom = `calc(${pct}% - 6px)`;
+  // Keep the slider's ARIA state in sync with the visual position.
+  const track = document.getElementById('zoom-slider-track');
+  if (track) track.setAttribute('aria-valuenow', rounded);
 }
 
 // ------------------------------------------------------------
@@ -694,6 +706,13 @@ export function midpoint(a, b) {
 export function animateCamera(targetPosition, lookAtTarget) {
   const startPos = camera.position.clone();
   const startTarget = controls.target.clone();
+  // Respect prefers-reduced-motion: skip the eased flight entirely.
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    camera.position.copy(targetPosition);
+    controls.target.copy(lookAtTarget);
+    controls.update();
+    return;
+  }
   const duration = 800;
   const startTime = Date.now();
 
@@ -876,41 +895,50 @@ export const minimap = (() => {
   const hullGroup = layer1(new THREE.Group());
   miniScene.add(hullGroup);
   const posOf = new Map(nodes.map((n) => [n.id, new THREE.Vector3()]));
-  const hullGeos = [];
+  // Preallocated per-community hull lines: position buffers are sized for the
+  // worst-case hull (every member + the closing point) and reused every
+  // render — refreshHulls only rewrites the used prefix and adjusts the draw
+  // range, so steady-state rendering allocates nothing. (The buffers contain
+  // stale zeros beyond the draw range, so culling is disabled.)
+  const hullLines = [];
   byCommunity.forEach((ids, cid) => {
     if (ids.length < 3) return;
+    const arr = new Float32Array((ids.length + 1) * 3);
     const geo = new THREE.BufferGeometry();
-    hullGeos.push({ geo, ids, color: legendColor.get(cid) || '#888888' });
+    geo.setAttribute('position', new THREE.BufferAttribute(arr, 3));
+    geo.setDrawRange(0, 0);
+    const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
+      color: new THREE.Color(legendColor.get(cid) || '#888888'), transparent: true, opacity: 0.35,
+    }));
+    line.frustumCulled = false;
+    hullGroup.add(line);
+    hullLines.push({ geo, ids, arr });
   });
 
   function refreshHulls() {
-    hullGeos.forEach(({ geo }) => { geo.setDrawRange(0, 0); });
-    hullGroup.children.forEach((c) => hullGroup.remove(c));
-    hullGeos.forEach(({ geo, ids, color }) => {
-      const pts = ids
-        .map((id) => posOf.get(id))
-        .filter(Boolean)
-        .map((v) => [v.x, v.z]);
+    for (const { geo, ids, arr } of hullLines) {
+      const pts = [];
+      for (const id of ids) {
+        const v = posOf.get(id);
+        if (v) pts.push([v.x, v.z]);
+      }
       const hull = convexHull(pts);
-      if (hull.length < 3) return;
-      const flat = [];
-      hull.forEach(([x, z]) => flat.push(x, 0, z));
-      flat.push(hull[0][0], 0, hull[0][1]); // close the loop
-      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(flat), 3));
+      if (hull.length < 3) { geo.setDrawRange(0, 0); continue; }
+      let o = 0;
+      for (const [x, z] of hull) { arr[o++] = x; arr[o++] = 0; arr[o++] = z; }
+      arr[o] = hull[0][0]; arr[o + 1] = 0; arr[o + 2] = hull[0][1]; // close the loop
       geo.setDrawRange(0, hull.length + 1);
-      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
-        color: new THREE.Color(color), transparent: true, opacity: 0.35,
-      }));
-      hullGroup.add(line);
-    });
+      geo.attributes.position.needsUpdate = true;
+    }
   }
 
   // ---- Camera footprint indicator (amber) ----
   const indicatorColor = 0xE8A33D;
   const indicator = new THREE.Group();
-  const camLineGeo = new THREE.BufferGeometry().setFromPoints([
-    new THREE.Vector3(), new THREE.Vector3(),
-  ]);
+  // Preallocated two-point buffer — rewritten (not reallocated) each render.
+  const camLineArr = new Float32Array(6);
+  const camLineGeo = new THREE.BufferGeometry();
+  camLineGeo.setAttribute('position', new THREE.BufferAttribute(camLineArr, 3));
   const camLine = new THREE.Line(camLineGeo, new THREE.LineBasicMaterial({ color: indicatorColor }));
   const targetDot = new THREE.Mesh(
     new THREE.CircleGeometry(5, 16),
@@ -949,6 +977,7 @@ export const minimap = (() => {
   const box = new THREE.Box3();
   const center = new THREE.Vector3();
   const sizeV = new THREE.Vector3();
+  const _miniFwd = new THREE.Vector3();
 
   function syncPositions() {
     nodes.forEach((n, i) => {
@@ -988,10 +1017,10 @@ export const minimap = (() => {
     // Rotate the map with the current view: screen-up follows the main
     // camera's horizontal forward direction (camera → orbit target).
     const p = camera.position, t = controls.target;
-    const fwd = new THREE.Vector3().subVectors(t, p);
-    fwd.y = 0;
-    if (fwd.lengthSq() > 1e-6) {
-      lastUp.copy(fwd.normalize());
+    _miniFwd.subVectors(t, p);
+    _miniFwd.y = 0;
+    if (_miniFwd.lengthSq() > 1e-6) {
+      lastUp.copy(_miniFwd.normalize());
     }
     miniCamera.up.copy(lastUp);
     miniCamera.lookAt(center.x, 0, center.z);
@@ -1006,10 +1035,9 @@ export const minimap = (() => {
     if (hullGroup.visible) refreshHulls();
 
     // Camera footprint: line from the main camera's XZ position to its target.
-    camLineGeo.setFromPoints([
-      new THREE.Vector3(p.x, 0, p.z),
-      new THREE.Vector3(t.x, 0, t.z),
-    ]);
+    camLineArr[0] = p.x; camLineArr[1] = 0; camLineArr[2] = p.z;
+    camLineArr[3] = t.x; camLineArr[4] = 0; camLineArr[5] = t.z;
+    camLineGeo.attributes.position.needsUpdate = true;
     targetDot.position.set(t.x, 0, t.z);
 
     miniRenderer.render(miniScene, miniCamera);

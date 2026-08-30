@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 import {
   container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeSegments,
-  edgeList, edgePositions, edgePosAttr,
+  edgeList, edgePositions, edgePosAttr, edgeSegmentsByNode,
   edgeLabel, edgeLabelDiv, edgeOffColor, EDGE_ACCENT, setEdgeVisual, setEdgeFilter,
   animateCamera, CAMERA_OFFSET, midpoint, requestRender,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
@@ -321,7 +321,6 @@ let dragMoved = false;
 let dragStartPos = new THREE.Vector2();
 let dragGroup = [];
 let longPressTimer = null;
-let longPressActive = false;
 
 function activateGroupDrag(mesh) {
   dragGroup = [];
@@ -359,12 +358,10 @@ function beginNodeDrag(event, mesh) {
   }
 
   dragGroup = [];
-  longPressActive = false;
   if (event.metaKey || event.ctrlKey) {
     activateGroupDrag(mesh);
   } else if (event.pointerType === 'touch') {
     longPressTimer = setTimeout(() => {
-      longPressActive = true;
       activateGroupDrag(mesh);
       const mat = mesh.material;
       const origEmissive = mat.emissiveIntensity;
@@ -457,24 +454,25 @@ function onMouseUp() {
   isDragging = false;
   draggedNode = null;
   dragGroup = [];
-  longPressActive = false;
   controls.enabled = true;
   container.style.cursor = 'default';
 }
 
 function updateEdgesForNode(mesh) {
-  const nodeId = mesh.userData.nodeId;
-  for (let i = 0; i < edgeList.length; i++) {
-    const { edge, fromMesh, toMesh } = edgeList[i];
-    if (edge.from === nodeId || edge.to === nodeId) {
-      const p = i * 6;
-      edgePositions[p] = fromMesh.position.x;
-      edgePositions[p + 1] = fromMesh.position.y;
-      edgePositions[p + 2] = fromMesh.position.z;
-      edgePositions[p + 3] = toMesh.position.x;
-      edgePositions[p + 4] = toMesh.position.y;
-      edgePositions[p + 5] = toMesh.position.z;
-    }
+  // Only the segments touching this node can move — walk the adjacency index
+  // (edge segment indexes per node id, built in core.js) instead of scanning
+  // every edge on each pointermove.
+  const segs = edgeSegmentsByNode.get(mesh.userData.nodeId);
+  if (!segs) return;
+  for (const i of segs) {
+    const { fromMesh, toMesh } = edgeList[i];
+    const p = i * 6;
+    edgePositions[p] = fromMesh.position.x;
+    edgePositions[p + 1] = fromMesh.position.y;
+    edgePositions[p + 2] = fromMesh.position.z;
+    edgePositions[p + 3] = toMesh.position.x;
+    edgePositions[p + 4] = toMesh.position.y;
+    edgePositions[p + 5] = toMesh.position.z;
   }
   edgePosAttr.needsUpdate = true;
 }

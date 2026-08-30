@@ -87,24 +87,33 @@ const infoCard = document.getElementById('at-node-detail');
 // light the floating analysis button's green dot and toast the user so they
 // know something is loaded in the (possibly closed) analysis panel.
 let lastLoadedNotifyId = null;
+
+// Transient bottom-center toast. Shared surface: node-detail notifications and
+// (via analysis.js) validation messages that used to use alert().
+let toastTimer = null;
+export function showToast(text) {
+  let toast = document.getElementById('detail-loaded-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'detail-loaded-toast';
+    toast.setAttribute('role', 'status');
+    document.body.appendChild(toast);
+  }
+  toast.textContent = text;
+  toast.classList.add('visible');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('visible'), 2400);
+}
+
 function notifyDetailLoaded(nodeId, label) {
   if (!nodeId || nodeId === lastLoadedNotifyId) return;
   lastLoadedNotifyId = nodeId;
   const dot = document.getElementById('analysis-activity-dot');
   if (dot) dot.classList.add('on');
   const useZh = state.analysisUiLang === 'zh-TW';
-  let toast = document.getElementById('detail-loaded-toast');
-  if (!toast) {
-    toast = document.createElement('div');
-    toast.id = 'detail-loaded-toast';
-    document.body.appendChild(toast);
-  }
-  toast.textContent = useZh
+  showToast(useZh
     ? `「${label}」已載入分析面板`
-    : `“${label}” loaded in the analysis panel`;
-  toast.classList.add('visible');
-  clearTimeout(notifyDetailLoaded._t);
-  notifyDetailLoaded._t = setTimeout(() => toast.classList.remove('visible'), 2400);
+    : `“${label}” loaded in the analysis panel`);
 }
 
 // ------------------------------------------------------------
@@ -1093,6 +1102,21 @@ zoomTrack.addEventListener('pointerdown', (e) => {
   zoomDragging = true;
   zoomFromPointer(e);
   e.preventDefault();
+});
+
+// Keyboard operation for the slider (role="slider" in index.html): Up/Right
+// zoom in, Down/Left zoom out, Home/End jump to the extremes.
+zoomTrack.addEventListener('keydown', (e) => {
+  const step = 0.05;
+  let handled = true;
+  switch (e.key) {
+    case 'ArrowUp': case 'ArrowRight': setZoomFromFraction(getZoomFraction() + step); break;
+    case 'ArrowDown': case 'ArrowLeft': setZoomFromFraction(getZoomFraction() - step); break;
+    case 'Home': setZoomFromFraction(0); break;
+    case 'End': setZoomFromFraction(1); break;
+    default: handled = false;
+  }
+  if (handled) { e.preventDefault(); updateZoomBar(); }
 });
 
 window.addEventListener('pointermove', (e) => {

@@ -12,7 +12,7 @@ import {
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
   restoreDefaultLabels,
 } from './core.js';
-import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder } from './ui.js';
+import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder, showToast } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
 import { esc, renderMarkdown, wikiExcerpt, escapeRegex } from './markdown.js';
 import { updateHash } from './routing.js';
@@ -1055,12 +1055,14 @@ function renderTagPopup() {
   promptTagPopup.innerHTML = tagMatches.map((n, i) => {
     const zh = TRANSLATIONS[n.label] || '';
     const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
-    return `<div class="prompt-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}">
+    return `<div class="prompt-tag-item${i === tagActiveIdx ? ' active' : ''}" data-idx="${i}" role="option" aria-selected="${i === tagActiveIdx}" id="prompt-tag-item-${i}">
       <span class="tag-kind">@</span>
       <span>${esc(n.label)}${zhText}</span>
       <span class="tag-degree">${n.degree}</span>
     </div>`;
   }).join('');
+  const active = promptTagPopup.querySelector('.active');
+  if (active) promptTagPopup.setAttribute('aria-activedescendant', active.id);
   promptTagPopup.classList.add('visible');
 }
 
@@ -1079,6 +1081,7 @@ function closeTagPopup() {
   tagActiveIdx = -1;
   promptTagPopup.classList.remove('visible');
   promptTagPopup.innerHTML = '';
+  promptTagPopup.removeAttribute('aria-activedescendant');
 }
 
 function renderTagChips() {
@@ -1477,7 +1480,7 @@ function atRowHTML(n, kind, s) {
       <button class="set-a" data-set="a" title="${esc(t('addToSetA'))}">A</button>
       <button class="set-b" data-set="b" title="${esc(t('addToSetB'))}">B</button>
     </span>`;
-  return `<li class="at-row" data-id="${n.id}">
+  return `<li class="at-row" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.label)}">
     <span class="at-name">${esc(n.label)}${zhText}</span>
     <span class="at-meta">${meta}</span>${ab}
   </li>`;
@@ -1807,6 +1810,14 @@ function bindAtRow(row) {
     if (e.target.closest('.at-ab')) return;
     openNodeDetail(id);
   });
+  // Keyboard path: Enter/Space activate a focused row (the A/B buttons inside
+  // are real <button>s and already keyboard-operable).
+  row.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    if (e.target.closest('.at-ab')) return;
+    e.preventDefault();
+    openNodeDetail(id);
+  });
   row.querySelectorAll('.at-ab button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -1913,7 +1924,7 @@ function entryLabels(entries) {
 function sendSelectionToPrompt() {
   const ids = new Set([...entryIds(compareA), ...entryIds(compareB)]);
   if (!ids.size) {
-    alert(t('promptNeedSelection'));
+    showToast(t('promptNeedSelection'));
     return;
   }
   const a = entryLabels(compareA);

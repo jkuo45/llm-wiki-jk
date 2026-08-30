@@ -737,6 +737,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; }
 .at-row { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-row:hover { background: rgba(120,120,140,0.12); }
+.at-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; background: rgba(120,120,140,0.12); }
 .at-row .at-name { color: #cfe6f5; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .at-row .at-meta { color: var(--ink-6); font-size: 11px; margin-left: auto; flex-shrink: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .at-ab { display: inline-flex; gap: 3px; margin-left: 6px; flex-shrink: 0; }
@@ -1807,4 +1808,17 @@ button.notes-chip { font-family: inherit; line-height: inherit; }
     height: 240px; width: auto; border-radius: 14px 14px 0 0; padding: 14px;
   }
   #notes-gallery .notes-card-body { padding: 14px 16px 16px; }
+}
+
+/* ---------------------------------------------------------------------------
+   Reduced motion: users who ask the OS for fewer animations get an instant
+   UI — panel slide-ins, modal pops, typing dots and activity pulses are
+   suppressed. (The 3D camera flight checks matchMedia in core.js.)
+   --------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
