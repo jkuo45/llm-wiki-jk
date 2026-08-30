@@ -75,7 +75,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
    class — no per-label JS restyle needed on theme switch. */
 .node-label {
   color: var(--ink-hi);
-  font-size: 13px;
+  /* Base size driven by the settings modal (core.applyLabelSize sets the
+     custom property); 13px is the default. */
+  font-size: var(--node-label-size, 13px);
   padding: 3px 8px;
   background: rgba(15, 15, 26, 0.8);
   border-radius: 4px;
@@ -89,7 +91,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   text-align: center;
   line-height: 1.3;
 }
-.node-label .zh { color: var(--ink-3); font-size: 11px; }
+.node-label .zh { color: var(--ink-3); font-size: calc(var(--node-label-size, 13px) * 0.846); }
 .edge-label {
   color: #a0c4ff;
   font-size: 14px;
@@ -413,9 +415,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #controls #btn-analysis { order: 2; }
 #controls #btn-notes { order: 3; }
 #controls #btn-settings { order: 4; }
-#controls #settings-wrap { position: relative; order: 4; flex: none; width: 44px; height: 44px; }
+#controls #settings-wrap { position: relative; order: 5; flex: none; width: 44px; height: 44px; }
 #controls #settings-wrap[hidden] { display: none; }
-#controls #btn-reset { order: 5; }
+#controls #btn-reset { order: 6; }
 #controls #btn-unstick { order: 6; }
 .controls-spacer { width: 44px; height: 44px; flex: none; }
 /* Icon buttons in the controls rail — uniform compact squares, muted color,
@@ -598,7 +600,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 /* Dataset-mode toggle: a square button the same size as the reset-camera
    button, stacked directly above it. Icon varies by mode; label is "mode". */
 #controls #dataset-mode-toggle {
-  order: 5; display: flex; flex-direction: column;
+  order: 4; display: flex; flex-direction: column;
   align-items: center; justify-content: center; gap: 2px; line-height: 1;
 }
 #controls #dataset-mode-toggle svg { width: 16px; height: 16px; display: block; }
@@ -983,25 +985,88 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #controls #btn-settings[hidden] { display: none; }
 #controls #btn-settings:hover { color: var(--ink-hi); border-color: var(--accent); }
 #controls #btn-settings.active { background: var(--line); border-color: var(--accent); color: var(--ink-hi); }
-#settings-popover { position: absolute; top: 50%; right: calc(100% + 12px); transform: translateY(-50%); z-index: 60; width: max-content; max-width: min(280px, calc(100vw - 80px)); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 10px; box-shadow: 0 16px 48px rgba(0,0,0,0.6); padding: 14px; }
-#settings-popover[hidden] { display: none; }
-#settings-popover h3 { font-size: 11px; font-weight: 600; color: var(--ink-4); text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
-#settings-popover #display-panel { margin-bottom: 14px; }
-#settings-popover .display-grid { display: grid; grid-template-columns: 1fr; gap: 6px; }
-#settings-popover .display-grid button { position: relative; display: flex; align-items: center; background: var(--surface-raised); border: 1px solid var(--line); color: #cfcfe2; border-radius: 8px; padding: 8px 48px 8px 12px; font-size: 12px; line-height: 1.3; text-align: left; cursor: pointer; transition: all 0.15s; min-width: 0; white-space: normal; word-break: break-word; }
-#settings-popover .display-grid button:hover { border-color: var(--accent); color: #fff; }
-/* Switch indicator */
-#settings-popover .display-grid button::before { content: ''; position: absolute; top: 50%; right: 24px; width: 10px; height: 10px; border-radius: 50%; background: #55556a; transform: translateY(-50%); transition: all 0.15s; }
-#settings-popover .display-grid button::after { content: ''; position: absolute; top: 50%; right: 10px; width: 30px; height: 16px; border-radius: 8px; background: var(--line); transform: translateY(-50%); transition: background 0.15s; }
-#settings-popover .display-grid button.active { background: rgba(78,121,167,0.12); border-color: var(--accent); color: #fff; }
+/* Settings — full-screen slide-up bottom sheet (~92vh, slides up from the
+   bottom over a dimmed backdrop). Hoisted to <body> at runtime (see ui.js) so
+   position:fixed is viewport-relative and its z-index isn't trapped under
+   #controls / #graph. Kept in the DOM when closed (display:block) so the
+   transform transition can play; visibility/opacity hide it instead. */
+#settings-backdrop {
+  position: fixed; inset: 0; z-index: 690;
+  background: rgba(0,0,0,0.55); -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+#settings-backdrop:not([hidden]) { opacity: 1; visibility: visible; transition: opacity 0.3s ease; }
+#settings-popover {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 700;
+  width: auto; height: 92vh; max-height: 92vh;
+  overflow-y: auto; scrollbar-width: thin;
+  background: var(--surface); border: 1px solid var(--line-strong); border-bottom: 0;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -20px 60px rgba(0,0,0,0.6);
+  padding: 0 24px 28px; font-size: 14px;
+  transform: translateY(100%); visibility: hidden; opacity: 0;
+  transition: transform 0.34s cubic-bezier(0.22,1,0.36,1), opacity 0.25s ease, visibility 0s linear 0.34s;
+}
+#settings-popover[hidden] { display: block; }
+#settings-popover:not([hidden]) {
+  transform: translateY(0); visibility: visible; opacity: 1;
+  transition: transform 0.36s cubic-bezier(0.22,1,0.36,1), opacity 0.25s ease, visibility 0s;
+}
+/* Centered content column so the wide sheet stays readable on large screens */
+#settings-popover .settings-inner { max-width: 860px; margin: 0 auto; }
+/* Sheet header: grab handle + title + close button (sticky while scrolling) */
+#settings-popover .settings-sheet-header { position: sticky; top: 0; z-index: 2; background: var(--surface); padding: 6px 0 14px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
+#settings-popover .settings-grab { width: 40px; height: 4px; border-radius: 2px; background: var(--line-strong); margin: 0 auto 12px; }
+#settings-popover .settings-sheet-head-row { display: flex; align-items: center; gap: 12px; }
+#settings-popover .settings-sheet-title { flex: 1 1 auto; margin: 0; font-size: 15px; font-weight: 600; color: var(--ink-hi); }
+#settings-popover .settings-sheet-close { flex: none; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--line-strong); color: var(--ink-hi); border-radius: 8px; font-size: 20px; line-height: 1; cursor: pointer; transition: background 0.15s, border-color 0.15s, color 0.15s; }
+#settings-popover .settings-sheet-close:hover { background: rgba(255,255,255,0.06); border-color: var(--accent); color: #fff; }
+/* Section headers */
+#settings-popover h3 { font-size: 12px; font-weight: 600; color: var(--ink-4); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 10px; padding-bottom: 7px; border-bottom: 1px solid var(--line); }
+/* Grouped cards — each settings section is a bordered, slightly-raised card */
+#settings-popover .settings-panel { margin-bottom: 16px; background: var(--surface-raised); border: 1px solid var(--line-strong); border-radius: 12px; padding: 16px 18px; box-shadow: 0 1px 2px rgba(0,0,0,0.25); }
+#settings-popover .settings-panel:last-of-type { margin-bottom: 0; }
+/* Row system — every control is exactly one of:
+   • boolean row : label left, mini switch right      (.display-grid button)
+   • slider row  : label+value header, full-width range
+                   below                              (.settings-slider-row)
+   • select row  : label left, select/colour right    (.settings-row)        */
+/* Boolean toggle rows — plain on/off switch: label left, iOS-style switch right,
+   each stacked vertically with breathing room. */
+#settings-popover .display-grid { display: grid; grid-template-columns: 1fr; gap: 3px; margin-bottom: 10px; }
+#settings-popover .display-grid button { position: relative; display: flex; align-items: center; width: 100%; background: transparent; border: 0; border-radius: 8px; padding: 10px 72px 10px 0; font-size: 14px; line-height: 1.35; color: #cfcfe2; text-align: left; cursor: pointer; transition: background 0.15s, color 0.15s; min-width: 0; min-height: 46px; }
+#settings-popover .display-grid button:hover { background: rgba(255,255,255,0.06); color: #fff; }
+/* iOS-style switch (track + knob) pinned to the right edge */
+#settings-popover .display-grid button::after { content: ''; position: absolute; top: 50%; right: 14px; width: 50px; height: 28px; border-radius: 14px; background: #3c3c4e; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.18); transform: translateY(-50%); z-index: 0; transition: background 0.15s; }
+/* Knob — a circle that sits ABOVE the track (z-index) and slides to indicate on/off */
+#settings-popover .display-grid button::before { content: ''; position: absolute; top: 50%; right: 38px; width: 22px; height: 22px; border-radius: 50%; background: #e6e6ef; box-shadow: 0 1px 2px rgba(0,0,0,0.35); transform: translateY(-50%); z-index: 1; transition: right 0.18s ease, background 0.15s; }
+/* On: track turns accent, knob slides to the right */
 #settings-popover .display-grid button.active::after { background: var(--accent); }
-#settings-popover .display-grid button.active::before { right: 12px; background: #fff; }
-#settings-popover #theme-panel h3 { margin-top: 2px; }
-#settings-popover #theme-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
-#settings-popover #theme-grid button { justify-content: center; padding: 8px 6px; text-align: center; background: var(--surface-raised); border-color: var(--line); color: #cfcfe2; }
-#settings-popover #theme-grid button::before,
-#settings-popover #theme-grid button::after { display: none; }
-#settings-popover #theme-grid button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+#settings-popover .display-grid button.active::before { right: 18px; background: #fff; }
+/* Slider rows */
+#settings-popover .settings-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 30px; margin-bottom: 10px; }
+#settings-popover .settings-row > label { flex: 1 1 auto; min-width: 0; font-size: 13px; line-height: 1.35; color: #cfcfe2; }
+#settings-popover .settings-slider-row { display: block; min-height: 0; }
+#settings-popover .settings-slider-row .settings-row-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+#settings-popover .settings-row-head output { flex: none; font-size: 13px; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+/* accent-color themes the range track + thumb across engines without custom
+   pseudo-element styling. */
+#settings-popover input[type="range"] { display: block; width: 100%; height: 20px; margin: 0; accent-color: var(--accent, #4E79A7); cursor: pointer; }
+/* Selects + colour swatch: one shared 30 px control height */
+#settings-popover select { flex: 0 1 auto; max-width: 180px; height: 30px; background: var(--surface-raised); border: 1px solid var(--line-strong); color: #cfcfe2; border-radius: 6px; padding: 0 10px; font-size: 13px; line-height: 1.2; outline: none; cursor: pointer; }
+#settings-popover select:focus { border-color: var(--accent); }
+#settings-popover .settings-inline { display: flex; align-items: center; gap: 8px; flex: none; }
+#settings-popover input[type="color"] { width: 38px; height: 30px; padding: 2px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface-raised); cursor: pointer; }
+/* Theme: segmented control (sits above the Display toggles) */
+#settings-popover .segmented { display: flex; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
+#settings-popover .segmented button { flex: 1; background: transparent; border: 0; border-radius: 0; padding: 7px 8px; font-size: 13px; line-height: 1.35; color: #cfcfe2; text-align: center; cursor: pointer; transition: background 0.15s, color 0.15s; }
+#settings-popover .segmented button + button { border-left: 1px solid var(--line-strong); }
+#settings-popover .segmented button:hover { background: rgba(255,255,255,0.06); color: #fff; }
+#settings-popover .segmented button.active { background: var(--accent); color: #fff; }
+/* Reset (scoped to the sheet; the popover is hoisted to <body> at runtime) */
+#settings-popover #btn-settings-reset { width: 100%; margin-top: 16px; background: transparent; border: 1px solid var(--line-strong); color: #cfcfe2; border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.35; cursor: pointer; transition: background 0.15s, border-color 0.15s, color 0.15s; }
+#settings-popover #btn-settings-reset:hover { background: rgba(255,255,255,0.06); border-color: var(--accent); color: #fff; }
 .at-compare-sets { display: flex; gap: 10px; margin-bottom: 8px; }
 .at-set { flex: 1; border: 1px solid var(--line-strong); border-radius: 8px; padding: 6px 8px; min-height: 42px; }
 .at-set.a { border-color: var(--accent); }

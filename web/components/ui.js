@@ -8,12 +8,16 @@ import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
   descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
 } from './data.js';
-import { state } from './state.js';
+import { state, persistSettings, resetSettings } from './state.js';
 import {
   container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeSegments, labelObjects,
   edgeOffColor, setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
+  applyRestingEdges, setNodeSizeScale, applyLabelSize, applyNodeVisibility,
+  refreshLabelLayout, visibilityRegistry,
+  setSizeMetric, setAutoRotate, setAutoRotateSpeed, setZoomSpeed,
+  setReduceMotion, setRenderQuality, applyLabelLanguage,
 } from './core.js';
 import { selectNode, deselectNode, setUiHooks } from './interaction.js';
 import { updateHash } from './routing.js';
@@ -880,23 +884,46 @@ export function activateRoute(trace, routeIdx) {
 }
 
 // ------------------------------------------------------------
-// Settings popover (standalone gear button, bottom right)
+// Settings — full-screen slide-up bottom sheet (gear button toggles it; a
+// dimmed backdrop sits behind). The sheet is hoisted to <body> at runtime so
+// position:fixed is viewport-relative and its z-index isn't trapped under
+// #controls / #graph.
 // ------------------------------------------------------------
 const settingsBtn = document.getElementById('btn-settings');
 const settingsPopover = document.getElementById('settings-popover');
 
+// Hoist the sheet + a backdrop to body level so the fixed positioning and high
+// z-index apply against the viewport, not the controls rail's stacking context.
+let settingsBackdrop = null;
+if (settingsPopover && settingsPopover.parentElement) {
+  settingsBackdrop = document.createElement('div');
+  settingsBackdrop.id = 'settings-backdrop';
+  settingsBackdrop.hidden = true;
+  document.body.appendChild(settingsBackdrop);
+  document.body.appendChild(settingsPopover);
+}
+
+function openSettings() {
+  if (!settingsPopover) return;
+  settingsPopover.hidden = false;
+  if (settingsBackdrop) settingsBackdrop.hidden = false;
+  if (settingsBtn) settingsBtn.classList.add('active');
+}
 function closeSettings() {
   if (settingsPopover) settingsPopover.hidden = true;
+  if (settingsBackdrop) settingsBackdrop.hidden = true;
   if (settingsBtn) settingsBtn.classList.remove('active');
 }
 
-  if (settingsBtn && settingsPopover) {
-    settingsPopover.addEventListener('click', (e) => e.stopPropagation());
-    settingsBtn.addEventListener('click', (e) => {
+if (settingsBtn && settingsPopover) {
+  settingsPopover.addEventListener('click', (e) => e.stopPropagation());
+  settingsBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    settingsPopover.hidden = !settingsPopover.hidden;
-    settingsBtn.classList.toggle('active', !settingsPopover.hidden);
+    if (settingsPopover.hidden) openSettings(); else closeSettings();
   });
+  const settingsClose = document.getElementById('settings-close');
+  if (settingsClose) settingsClose.addEventListener('click', closeSettings);
+  if (settingsBackdrop) settingsBackdrop.addEventListener('click', closeSettings);
   document.addEventListener('click', (e) => {
     if (settingsPopover.hidden) return;
     if (!settingsPopover.contains(e.target) && e.target !== settingsBtn) closeSettings();
@@ -1062,18 +1089,278 @@ document.getElementById('btn-physics').addEventListener('click', (e) => {
 
 document.getElementById('btn-labels').addEventListener('click', (e) => {
   state.showLabels = !state.showLabels;
+  state.settings.showLabels = state.showLabels;
+  persistSettings();
   e.target.classList.toggle('active', state.showLabels);
   setAllLabelVisibility();
 });
 
 document.getElementById('btn-edges').addEventListener('click', (e) => {
   edgeSegments.visible = !edgeSegments.visible;
+  state.settings.showEdges = edgeSegments.visible;
+  persistSettings();
   e.target.classList.toggle('active', edgeSegments.visible);
 });
 
-// Initialize button active states
-document.getElementById('btn-labels').classList.add('active');
-document.getElementById('btn-edges').classList.add('active');
+// Initialize toggle active states from the (persisted) settings.
+document.getElementById('btn-labels').classList.toggle('active', state.showLabels);
+document.getElementById('btn-edges').classList.toggle('active', edgeSegments.visible);
+
+// ------------------------------------------------------------
+// Settings — appearance / labels / filters controls (persisted)
+// Every control reads and writes state.settings (see state.js); changes are
+// applied immediately to the scene and persisted on 'change' (the final
+// commit for a slider drag) plus on the reset button.
+// ------------------------------------------------------------
+
+// True when no highlight state owns the edge colours — re-applying the
+// resting style during a selection/trace/prompt-highlight would clobber it.
+function edgesAtRest() {
+  return !state.selectedNode && !state.selectedEdge && !state.activeTrace &&
+    !visibilityRegistry.promptEnabled &&
+    !(visibilityRegistry.promptIds && visibilityRegistry.promptIds.size);
+}
+
+const edgeOpacityInput = document.getElementById('set-edge-opacity');
+const edgeOpacityOut = document.getElementById('set-edge-opacity-val');
+const edgeColorModeSel = document.getElementById('set-edge-color-mode');
+const edgeColorInput = document.getElementById('set-edge-color');
+const nodeSizeInput = document.getElementById('set-node-size');
+const nodeSizeOut = document.getElementById('set-node-size-val');
+const labelSensInput = document.getElementById('set-label-sensitivity');
+const labelSensOut = document.getElementById('set-label-sensitivity-val');
+const labelSizeInput = document.getElementById('set-label-size');
+const labelSizeOut = document.getElementById('set-label-size-val');
+const minDegreeInput = document.getElementById('set-min-degree');
+const minDegreeOut = document.getElementById('set-min-degree-val');
+const minConfInput = document.getElementById('set-min-confidence');
+const minConfOut = document.getElementById('set-min-confidence-val');
+const sizeMetricSel = document.getElementById('set-size-metric');
+const labelLangSel = document.getElementById('set-label-lang');
+const autorotateBtn = document.getElementById('btn-autorotate');
+const reduceMotionBtn = document.getElementById('btn-reduce-motion');
+const rotateSpeedInput = document.getElementById('set-rotate-speed');
+const rotateSpeedOut = document.getElementById('set-rotate-speed-val');
+const zoomSpeedInput = document.getElementById('set-zoom-speed');
+const zoomSpeedOut = document.getElementById('set-zoom-speed-val');
+const renderQualitySel = document.getElementById('set-render-quality');
+const settingsResetBtn = document.getElementById('btn-settings-reset');
+
+function syncEdgeColorVisibility() {
+  if (edgeColorInput) edgeColorInput.hidden = state.settings.edgeColorMode !== 'mono';
+}
+
+// Auto-rotate is only effective when reduce-motion is off; the toggle reflects
+// the effective state.
+function autorotateEffective() {
+  return !!state.settings.autoRotate && !state.settings.reduceMotion;
+}
+
+// Push current settings into every control + its readout (used on init/reset).
+function syncSettingsInputs() {
+  const s = state.settings;
+  if (edgeOpacityInput) {
+    edgeOpacityInput.value = s.edgeOpacity;
+    edgeOpacityOut.textContent = Math.round(s.edgeOpacity * 100) + '%';
+  }
+  if (edgeColorModeSel) {
+    edgeColorModeSel.value = s.edgeColorMode;
+    syncEdgeColorVisibility();
+    if (edgeColorInput) edgeColorInput.value = s.edgeColor;
+  }
+  if (nodeSizeInput) {
+    nodeSizeInput.value = s.nodeSizeScale;
+    nodeSizeOut.textContent = Number(s.nodeSizeScale).toFixed(1) + '\u00d7';
+  }
+  if (sizeMetricSel) sizeMetricSel.value = s.sizeMetric;
+  if (labelSensInput) {
+    labelSensInput.value = s.labelSensitivity;
+    labelSensOut.textContent = s.labelSensitivity + '%';
+  }
+  if (labelSizeInput) {
+    labelSizeInput.value = s.labelSize;
+    labelSizeOut.textContent = s.labelSize + 'px';
+  }
+  if (labelLangSel) labelLangSel.value = s.labelLang;
+  if (minDegreeInput) {
+    minDegreeInput.value = s.minDegree;
+    minDegreeOut.textContent = '\u2265 ' + s.minDegree;
+  }
+  if (minConfInput) {
+    minConfInput.value = s.edgeMinConfidence;
+    minConfOut.textContent = '\u2265 ' + Math.round(s.edgeMinConfidence * 100) + '%';
+  }
+  if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
+  if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!s.reduceMotion);
+  if (rotateSpeedInput) {
+    rotateSpeedInput.value = s.autoRotateSpeed;
+    rotateSpeedOut.textContent = Number(s.autoRotateSpeed).toFixed(1);
+  }
+  if (zoomSpeedInput) {
+    zoomSpeedInput.value = s.zoomSpeed;
+    zoomSpeedOut.textContent = Number(s.zoomSpeed).toFixed(1) + '\u00d7';
+  }
+  if (renderQualitySel) renderQualitySel.value = s.renderQuality;
+}
+
+if (edgeOpacityInput) {
+  edgeOpacityInput.addEventListener('input', () => {
+    const v = parseFloat(edgeOpacityInput.value);
+    state.settings.edgeOpacity = v;
+    edgeOpacityOut.textContent = Math.round(v * 100) + '%';
+    if (edgesAtRest()) applyRestingEdges();
+  });
+  edgeOpacityInput.addEventListener('change', persistSettings);
+}
+
+if (edgeColorModeSel && edgeColorInput) {
+  edgeColorModeSel.addEventListener('change', () => {
+    state.settings.edgeColorMode = edgeColorModeSel.value;
+    syncEdgeColorVisibility();
+    if (edgesAtRest()) applyRestingEdges();
+    persistSettings();
+  });
+  edgeColorInput.addEventListener('input', () => {
+    state.settings.edgeColor = edgeColorInput.value;
+    if (state.settings.edgeColorMode === 'mono' && edgesAtRest()) applyRestingEdges();
+  });
+  edgeColorInput.addEventListener('change', persistSettings);
+}
+
+if (nodeSizeInput) {
+  nodeSizeInput.addEventListener('input', () => {
+    setNodeSizeScale(parseFloat(nodeSizeInput.value));
+    nodeSizeOut.textContent = Number(nodeSizeInput.value).toFixed(1) + '\u00d7';
+  });
+  nodeSizeInput.addEventListener('change', persistSettings);
+}
+
+if (labelSensInput) {
+  labelSensInput.addEventListener('input', () => {
+    state.settings.labelSensitivity = parseInt(labelSensInput.value, 10);
+    labelSensOut.textContent = labelSensInput.value + '%';
+    refreshLabelLayout();
+  });
+  labelSensInput.addEventListener('change', persistSettings);
+}
+
+if (labelSizeInput) {
+  labelSizeInput.addEventListener('input', () => {
+    const v = parseInt(labelSizeInput.value, 10);
+    state.settings.labelSize = v;
+    applyLabelSize(v);
+    labelSizeOut.textContent = v + 'px';
+    refreshLabelLayout(); // declutter half-extents depend on the font size
+  });
+  labelSizeInput.addEventListener('change', persistSettings);
+}
+
+if (minDegreeInput) {
+  minDegreeInput.addEventListener('input', () => {
+    const v = parseInt(minDegreeInput.value, 10);
+    state.settings.minDegree = v;
+    minDegreeOut.textContent = '\u2265 ' + v;
+    applyNodeVisibility();
+    refreshLabelLayout();
+  });
+  minDegreeInput.addEventListener('change', persistSettings);
+}
+
+if (minConfInput) {
+  minConfInput.addEventListener('input', () => {
+    const v = parseFloat(minConfInput.value);
+    state.settings.edgeMinConfidence = v;
+    minConfOut.textContent = '\u2265 ' + Math.round(v * 100) + '%';
+    applyNodeVisibility();
+  });
+  minConfInput.addEventListener('change', persistSettings);
+}
+
+if (sizeMetricSel) {
+  sizeMetricSel.addEventListener('change', () => {
+    setSizeMetric(sizeMetricSel.value);
+    persistSettings();
+  });
+}
+
+if (labelLangSel) {
+  labelLangSel.addEventListener('change', () => {
+    state.settings.labelLang = labelLangSel.value;
+    applyLabelLanguage();
+    persistSettings();
+  });
+}
+
+if (autorotateBtn) {
+  autorotateBtn.addEventListener('click', () => {
+    setAutoRotate(!state.settings.autoRotate);
+    autorotateBtn.classList.toggle('active', autorotateEffective());
+    persistSettings();
+  });
+}
+
+if (reduceMotionBtn) {
+  reduceMotionBtn.addEventListener('click', () => {
+    setReduceMotion(!state.settings.reduceMotion);
+    reduceMotionBtn.classList.toggle('active', state.settings.reduceMotion);
+    // Auto-rotate is force-disabled by reduce-motion — reflect that.
+    if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
+    persistSettings();
+  });
+}
+
+if (rotateSpeedInput) {
+  rotateSpeedInput.addEventListener('input', () => {
+    setAutoRotateSpeed(parseFloat(rotateSpeedInput.value));
+    rotateSpeedOut.textContent = Number(rotateSpeedInput.value).toFixed(1);
+  });
+  rotateSpeedInput.addEventListener('change', persistSettings);
+}
+
+if (zoomSpeedInput) {
+  zoomSpeedInput.addEventListener('input', () => {
+    setZoomSpeed(parseFloat(zoomSpeedInput.value));
+    zoomSpeedOut.textContent = Number(zoomSpeedInput.value).toFixed(1) + '\u00d7';
+  });
+  zoomSpeedInput.addEventListener('change', persistSettings);
+}
+
+if (renderQualitySel) {
+  renderQualitySel.addEventListener('change', () => {
+    setRenderQuality(renderQualitySel.value);
+    persistSettings();
+  });
+}
+
+if (settingsResetBtn) {
+  settingsResetBtn.addEventListener('click', () => {
+    resetSettings();
+    syncSettingsInputs();
+    // The Display toggles live in settings as well — re-sync them.
+    state.showLabels = state.settings.showLabels !== false;
+    edgeSegments.visible = state.settings.showEdges !== false;
+    document.getElementById('btn-labels').classList.toggle('active', state.showLabels);
+    document.getElementById('btn-edges').classList.toggle('active', edgeSegments.visible);
+    if (edgesAtRest()) applyRestingEdges();
+    setNodeSizeScale(state.settings.nodeSizeScale);
+    setSizeMetric(state.settings.sizeMetric);
+    applyLabelSize(state.settings.labelSize);
+    applyLabelLanguage();
+    applyNodeVisibility();
+    refreshLabelLayout();
+    setAutoRotate(state.settings.autoRotate);
+    setAutoRotateSpeed(state.settings.autoRotateSpeed);
+    setZoomSpeed(state.settings.zoomSpeed);
+    setReduceMotion(state.settings.reduceMotion);
+    setRenderQuality(state.settings.renderQuality);
+    // Toggle buttons reflect the effective (post-reduce-motion) state.
+    if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
+    if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!state.settings.reduceMotion);
+  });
+}
+
+// Initialize control positions from the persisted settings.
+syncSettingsInputs();
 
 // ------------------------------------------------------------
 // Zoom Bar

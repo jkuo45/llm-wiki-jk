@@ -402,16 +402,28 @@ body {
 #controls #btn-settings { background: var(--surface); border-color: var(--line-strong); color: var(--ink-4); }
 #controls #btn-settings:hover { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
 #controls #btn-settings.active { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
-#settings-popover { background: var(--surface); border-color: var(--line); box-shadow: 0 16px 48px rgba(34,48,74,0.18); }
+#settings-popover { background: var(--surface); border-color: var(--line); box-shadow: 0 -16px 48px rgba(34,48,74,0.22); }
+#settings-popover .settings-sheet-header { background: var(--surface); }
 #settings-popover h3 { color: var(--ink-4); border-bottom-color: var(--line); }
-#settings-popover .display-grid button { background: var(--paper); border-color: var(--line); color: var(--ink-hi); }
-#settings-popover .display-grid button::after { background: #DDD6C6; }
-#settings-popover .display-grid button::before { background: #B9B2A0; }
-#settings-popover .display-grid button:hover { background: var(--paper-deep); border-color: var(--accent); }
-#settings-popover .display-grid button.active { background: rgba(15,118,110,0.08); border-color: var(--accent); color: var(--ink-hi); }
+#settings-popover .settings-row > label { color: var(--ink-hi); }
+#settings-popover .settings-row-head output { color: var(--ink-4); }
+#settings-popover .display-grid button { color: var(--ink-hi); }
+#settings-popover .display-grid button:hover { background: var(--paper-deep); color: var(--ink-hi); }
+#settings-popover .display-grid button.active { color: var(--ink-hi); }
+#settings-popover .display-grid button::after { background: #D8D1C0; }
+#settings-popover .display-grid button::before { background: #A49C89; }
 #settings-popover .display-grid button.active::after { background: var(--accent); }
 #settings-popover .display-grid button.active::before { background: var(--surface); }
-#settings-popover #theme-grid button.active { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+#settings-popover select { background: var(--paper); border-color: var(--line); color: var(--ink-hi); }
+#settings-popover select:focus { border-color: var(--accent); }
+#settings-popover input[type="color"] { background: var(--paper); border-color: var(--line); }
+#settings-popover .segmented { border-color: var(--line-strong); }
+#settings-popover .segmented button { color: var(--ink-hi); }
+#settings-popover .segmented button:hover { background: var(--paper-deep); color: var(--ink-hi); }
+#settings-popover .segmented button + button { border-left-color: var(--line); }
+#settings-popover .segmented button.active { background: var(--accent); color: var(--surface); }
+#settings-popover #btn-settings-reset { background: var(--paper); border-color: var(--line); color: var(--ink-hi); }
+#settings-popover #btn-settings-reset:hover { background: var(--paper-deep); border-color: var(--accent); color: var(--ink-hi); }
 
 /* Prompt suggestions (Ask mode) */
 #prompt-new { border-color: var(--line-strong); color: var(--ink-4); }

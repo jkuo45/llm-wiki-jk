@@ -69,25 +69,139 @@
     <button id="btn-unstick" title="Reset all dragged nodes to physics positions / 取消固定" aria-label="Reset all dragged nodes to physics positions" style="display:none">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1z"/></svg></span>
     </button>
-    <div id="settings-wrap" hidden>
+    <div id="settings-wrap">
       <button id="btn-settings" title="Settings / 設定" aria-label="Settings / 設定">
         <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
       </button>
       <div id="settings-popover" hidden>
-        <div id="display-panel">
+        <div class="settings-inner">
+        <div class="settings-sheet-header">
+          <div class="settings-grab" aria-hidden="true"></div>
+          <div class="settings-sheet-head-row">
+            <h2 class="settings-sheet-title">Settings / 設定</h2>
+            <button id="settings-close" class="settings-sheet-close" type="button" title="Close / 關閉" aria-label="Close / 關閉">&times;</button>
+          </div>
+        </div>
+        <div id="display-panel" class="settings-panel">
           <h3>Display / 顯示</h3>
+          <div class="segmented" id="theme-grid">
+            <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
+            <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+          </div>
           <div class="display-grid">
             <button id="btn-physics" title="Toggle physics simulation">Physics / 物理</button>
             <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
             <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
           </div>
         </div>
-        <div id="theme-panel">
-          <h3>Theme / 主題</h3>
-          <div class="display-grid" id="theme-grid">
-            <button id="btn-theme-light" type="button" data-theme="light" title="Light theme / 切換淺色主題" aria-pressed="true">Light / 淺色</button>
-            <button id="btn-theme-dark" type="button" data-theme="dark" title="Dark theme / 切換深色主題" aria-pressed="false">Dark / 深色</button>
+        <div id="appearance-panel" class="settings-panel">
+          <h3>Appearance / 外觀</h3>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-edge-opacity">Edge opacity / 邊緣不透明度</label>
+              <output id="set-edge-opacity-val" for="set-edge-opacity">25%</output>
+            </div>
+            <input type="range" id="set-edge-opacity" min="0.05" max="1" step="0.05" value="0.25" aria-label="Edge opacity">
           </div>
+          <div class="settings-row">
+            <label for="set-edge-color-mode">Edge colour / 邊緣顏色</label>
+            <span class="settings-inline">
+              <select id="set-edge-color-mode" aria-label="Edge colour mode">
+                <option value="source">By source / 依來源</option>
+                <option value="mono">Single / 單色</option>
+              </select>
+              <input type="color" id="set-edge-color" value="#9aa3b2" title="Edge colour / 邊緣顏色" aria-label="Edge colour" hidden>
+            </span>
+          </div>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-node-size">Node size / 節點大小</label>
+              <output id="set-node-size-val" for="set-node-size">1.0&times;</output>
+            </div>
+            <input type="range" id="set-node-size" min="0.5" max="2" step="0.1" value="1" aria-label="Node size">
+          </div>
+          <div class="settings-row">
+            <label for="set-size-metric">Size metric / 大小依據</label>
+            <select id="set-size-metric" aria-label="Node size metric">
+              <option value="default">Default / 預設</option>
+              <option value="degree">Degree / 度數</option>
+              <option value="pagerank">PageRank</option>
+              <option value="uniform">Uniform / 統一</option>
+            </select>
+          </div>
+        </div>
+        <div id="labels-panel" class="settings-panel">
+          <h3>Labels / 標籤</h3>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-label-sensitivity">Sensitivity / 敏感度</label>
+              <output id="set-label-sensitivity-val" for="set-label-sensitivity">50%</output>
+            </div>
+            <input type="range" id="set-label-sensitivity" min="0" max="100" step="5" value="50" aria-label="Label sensitivity">
+          </div>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-label-size">Size / 大小</label>
+              <output id="set-label-size-val" for="set-label-size">13px</output>
+            </div>
+            <input type="range" id="set-label-size" min="10" max="20" step="1" value="13" aria-label="Label size">
+          </div>
+          <div class="settings-row">
+            <label for="set-label-lang">Language / 語言</label>
+            <select id="set-label-lang" aria-label="Label language">
+              <option value="both">Both / 雙語</option>
+              <option value="en">English</option>
+              <option value="zh">中文</option>
+            </select>
+          </div>
+        </div>
+        <div id="filters-panel" class="settings-panel">
+          <h3>Filters / 篩選</h3>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-min-degree">Min degree / 最小度數</label>
+              <output id="set-min-degree-val" for="set-min-degree">&ge; 0</output>
+            </div>
+            <input type="range" id="set-min-degree" min="0" max="30" step="1" value="0" aria-label="Minimum degree">
+          </div>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-min-confidence" title="Hide extracted edges below this confidence score / 隱藏低信心度的抽取邊">Min confidence / 最小信心度</label>
+              <output id="set-min-confidence-val" for="set-min-confidence">&ge; 0%</output>
+            </div>
+            <input type="range" id="set-min-confidence" min="0" max="1" step="0.05" value="0" aria-label="Minimum edge confidence">
+          </div>
+        </div>
+        <div id="interaction-panel" class="settings-panel">
+          <h3>Interaction / 互動</h3>
+          <div class="display-grid">
+            <button id="btn-autorotate" title="Slowly rotate the camera / 緩慢旋轉視角">Auto-rotate / 自動旋轉</button>
+            <button id="btn-reduce-motion" title="Skip camera flights, disable spin / 略過鏡頭動畫">Reduce motion / 減少動態</button>
+          </div>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-rotate-speed">Spin speed / 旋轉速度</label>
+              <output id="set-rotate-speed-val" for="set-rotate-speed">2.0</output>
+            </div>
+            <input type="range" id="set-rotate-speed" min="0.5" max="6" step="0.5" value="2" aria-label="Auto-rotate speed">
+          </div>
+          <div class="settings-row settings-slider-row">
+            <div class="settings-row-head">
+              <label for="set-zoom-speed">Zoom speed / 縮放速度</label>
+              <output id="set-zoom-speed-val" for="set-zoom-speed">1.2&times;</output>
+            </div>
+            <input type="range" id="set-zoom-speed" min="0.5" max="3" step="0.1" value="1.2" aria-label="Zoom speed">
+          </div>
+          <div class="settings-row">
+            <label for="set-render-quality">Render quality / 渲染品質</label>
+            <select id="set-render-quality" aria-label="Render quality">
+              <option value="retina">Retina (2&times;)</option>
+              <option value="standard">Standard (1&times;)</option>
+              <option value="performance">Performance (0.75&times;)</option>
+            </select>
+          </div>
+        </div>
+        <button id="btn-settings-reset" type="button" title="Reset all settings to defaults / 重設所有設定">Reset defaults / 重設</button>
         </div>
       </div>
     </div>

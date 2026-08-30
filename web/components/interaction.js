@@ -39,6 +39,14 @@ raycaster.params.Line = { threshold: 5 };
   const mouse = new THREE.Vector2();
   const tooltip = document.getElementById('tooltip');
 
+  // three.js raycasts invisible meshes too (Raycaster never checks .visible),
+  // so nodes hidden by the min-degree setting or the prompt node filter must
+  // be filtered out of hit results manually — otherwise they stay hoverable,
+  // clickable and draggable while not being rendered.
+  function intersectVisibleNodes() {
+    return raycaster.intersectObjects(nodeMeshes).filter(h => h.object.visible);
+  }
+
   // Map a LineSegments raycast hit to its edge object (hit.index is the first
   // vertex of the segment; two vertices per edge => segment = index / 2).
   function edgeFromIntersect(hit) {
@@ -195,7 +203,7 @@ function processHover(event) {
       }
     }
 
-    const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+    const nodeIntersects = intersectVisibleNodes();
     if (nodeIntersects.length > 0) {
       const mesh = nodeIntersects[0].object;
       if (mesh.userData.nodeData) {
@@ -274,7 +282,7 @@ function onClick(event) {
   );
   raycaster.setFromCamera(clickMouse, camera);
 
-  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  const nodeIntersects = intersectVisibleNodes();
   const clickedMesh = nodeIntersects.length > 0 ? nodeIntersects[0].object : null;
   const clickedNodeId = clickedMesh ? clickedMesh.userData.nodeId : null;
 
@@ -382,7 +390,7 @@ function onMouseDown(event) {
   mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
   mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
   raycaster.setFromCamera(mouse, camera);
-  const intersects = raycaster.intersectObjects(nodeMeshes);
+  const intersects = intersectVisibleNodes();
   if (intersects.length > 0) {
     beginNodeDrag(event, intersects[0].object);
   }

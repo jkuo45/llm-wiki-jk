@@ -7,10 +7,10 @@ import * as THREE from 'three';
 import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS } from './data.js';
 import { state } from './state.js';
 import {
-  camera, nodeObjects, nodeMeshes, edgeSegments, edgeList, edgeOffColor, setEdgeFilter,
+  camera, nodeObjects, edgeSegments, edgeOffColor,
   animateCamera,
   applyNodeState, applyEdgeState, setLabelVisibility, resetVisualState,
-  restoreDefaultLabels,
+  restoreDefaultLabels, applyNodeVisibility, visibilityRegistry,
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder, showToast } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
@@ -1385,17 +1385,15 @@ function clearPromptHighlights() {
 
 // Toggle whether the graph is cropped down to just the highlighted nodes (and
 // the edges between them). OFF keeps the full graph with the highlight styling;
-// ON hides every node/edge outside the highlighted set.
+// ON hides every node/edge outside the highlighted set. Visibility itself is
+// computed by core.applyNodeVisibility(), which composes this filter with the
+// settings modal's min-degree filter (they share the same visible flags).
 function applyPromptNodeFilter() {
   const enabled = !!(promptFilterCheckbox && promptFilterCheckbox.checked);
   const idSet = new Set(promptHighlightedNodes);
-
-  nodeMeshes.forEach(m => {
-    m.visible = !enabled || idSet.has(m.userData.nodeId);
-  });
-  edgeList.forEach(({ edge }) => {
-    setEdgeFilter(edge, !(idSet.has(edge.from) && idSet.has(edge.to)));
-  });
+  visibilityRegistry.promptEnabled = enabled;
+  visibilityRegistry.promptIds = idSet;
+  applyNodeVisibility();
 
   if (promptHighlightedNodes.length) {
     // Whatever the filter state, labels track the highlighted set (visibility
