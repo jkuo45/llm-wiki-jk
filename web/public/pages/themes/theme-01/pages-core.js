@@ -4,6 +4,33 @@ if (window.self !== window.top) {
   document.body.classList.add('embedded');
 }
 
+/* ============================= BACK LINK =============================
+   Article shells ship a static back link targeting the in-reader
+   destination (the articles index). Embedded in the Reader that href is
+   already correct; standalone (opened in a new tab / direct link), point
+   it at the graph home instead. */
+(function(){
+  if (window.self === window.top) {
+    var back = document.querySelector('nav a.back-home');
+    if (back) {
+      // Only rewire links that resolve to the articles index (article
+      // pages); any other back target keeps its destination as written.
+      var target = new URL(back.getAttribute('href'), location.href);
+      if (/\/pages\/index\.html$/.test(target.pathname)) {
+        var dir = location.pathname.replace(/\/[^\/]*$/, '');
+        var i = dir.lastIndexOf('/pages');
+        if (i !== -1) {
+          var root = dir.slice(i + 1).split('/').filter(Boolean) // ['pages', 'en-US']
+            .map(function(){ return '../'; }).join('');
+          back.setAttribute('href', root + 'index.html');
+          var zh = (document.documentElement.lang || '').toLowerCase().indexOf('zh') === 0;
+          back.setAttribute('title', zh ? '返回圖譜首頁' : 'Back to graph home');
+        }
+      }
+    }
+  }
+})();
+
 /* ============================= THEME =============================
    The <head> bootstrap (themes/theme-01/page-theme.js) starts pages-light.css in the
    right state before first paint. Here we listen for parent 'wiki-theme'

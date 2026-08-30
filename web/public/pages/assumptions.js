@@ -102,8 +102,7 @@ async function loadAll() {
     const langKey = zh && entry?.langs?.['zh-TW'] ? 'zh-TW' : 'en-US';
     const p = entry?.langs?.[langKey]?.path;
     if (p) {
-      $('#nav-source').href = `${I18N.taskViewerUrl}?src=${encodeURIComponent('../' + p)}`;
-      $('#nav-source').style.display = '';
+      S.sourceUrl = `${I18N.taskViewerUrl}?src=${encodeURIComponent('../' + p)}`;
     }
   }
 }
@@ -330,7 +329,7 @@ function renderHeader() {
     <footer><div class="wrap" style="padding:0;">${I18N.footerHtml}</div></footer>`;
   $('#foot-source').addEventListener('click', (ev) => {
     ev.preventDefault();
-    $('#nav-source').click();
+    if (S.sourceUrl) window.open(S.sourceUrl, '_blank', 'noopener');
   });
 }
 

@@ -244,11 +244,6 @@ svg[role="img"]{ cursor: zoom-in; touch-action: manipulation; }
   display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
 .action-bar .count { color:var(--dim); font-size:.85rem; }
 .action-bar .count b { color:var(--teal); }
-.action-bar .sync-status { font-size:.75rem; color:var(--mute); min-width:5.5em; }
-.action-bar .sync-status[data-state="ok"] { color:var(--teal); }
-.action-bar .sync-status[data-state="err"] { color:#e5484d; }
-.canonical-note { margin:8px 0 0; font-size:.78rem; color:var(--teal);
-  border:1px dashed var(--line2); border-radius:6px; padding:5px 10px; display:inline-block; }
 .action-bar .spacer { flex:1; }
 .btn-ghost { display:inline-block; background:var(--card); color:var(--text); font-weight:600;
   padding:7px 14px; border-radius:8px; font-size:.82rem; cursor:pointer; border:1px solid var(--line2); }

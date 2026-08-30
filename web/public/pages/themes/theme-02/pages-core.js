@@ -15,20 +15,41 @@ window.T2 = (function () {
 
   var NS = "http://www.w3.org/2000/svg";
 
-  /* Reader / full-page detection: when a page loads inside the graph's
-     Reader iframe (self !== top), the parent chrome already provides
-     navigation, so mark <body class="embedded"> — CSS hides the standalone
-     "← Back" link. In full-page view the link stays visible.
+  /* Reader / full-page detection + back-link wiring for the article
+     pages' "← Back" link (.site-nav a.home):
+     - Embedded in the Reader iframe (self !== top): the link must keep
+       navigation inside the frame, so it leads to the articles index
+       (mirrors the theme-01 pages) — never the absolute graph URL, which
+       would load the whole SPA inside the iframe.
+     - Standalone (opened in its own tab / direct link): the graph home is
+       the right destination — as a host-relative URL, without the #reader
+       side effect that auto-opens the Reader modal.
+     Also marks <body class="embedded"> for context-aware styling.
      This file loads synchronously in <head>, so wait for <body>. */
-  function markEmbedded() {
+  function initPageContext() {
     if (window.self !== window.top) {
       document.body.classList.add("embedded");
     }
+    var back = document.querySelector(".site-nav a.home");
+    if (!back) return; // index pages have no back link
+    var dir = window.location.pathname.replace(/\/[^\/]*$/, "");
+    var i = dir.lastIndexOf("/pages");
+    if (i === -1) return;
+    var below = dir.slice(i + 1).split("/").filter(Boolean); // e.g. ["pages", "en-US"]
+    var zh = (document.documentElement.lang || "").toLowerCase().indexOf("zh") === 0;
+    if (window.self === window.top) {
+      back.setAttribute("href", below.map(function () { return "../"; }).join("") + "index.html");
+      back.setAttribute("title", zh ? "返回圖譜首頁" : "Back to graph home");
+    } else {
+      // Articles index: one ../ per path segment below pages/.
+      back.setAttribute("href", below.slice(1).map(function () { return "../"; }).join("") + "index.html");
+      back.setAttribute("title", zh ? "返回文章索引" : "Back to articles index");
+    }
   }
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", markEmbedded);
+    document.addEventListener("DOMContentLoaded", initPageContext);
   } else {
-    markEmbedded();
+    initPageContext();
   }
 
   /* ——— SVG diagram helpers ——— */
