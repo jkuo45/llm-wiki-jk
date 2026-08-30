@@ -188,30 +188,58 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
     ['Older', '較早', 'old'],
   ];
 
-  fetch('../data/tasks.json')
-    .then(r => r.json())
-    .then(data => {
-      const tasks = (data.tasks || [])
-        .filter(t => t.active !== false && t.id !== 'tasks-index' && t.langs && t.langs['en-US'])
-        .map(t => {
-          const en = t.langs['en-US'];
-          const zh = t.langs['zh-TW'];
-          const created = en.created || zh?.created || '';
-          return {
-            id: t.id,
-            display: asStr(en.title),
-            starred: t.starred === true,
-            desc: asStr(en.description || ''),
-            enPath: en.path,
-            file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
-            zhPath: zh ? zh.path : en.path,
-            zhTitle: zh ? asStr(zh.title) : '',
-            created,
-            age: relAge(created),
-            bucket: t.starred === true ? 0 : bucket(created),
-          };
-        })
-        .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
+  /* DB-backed flag overlay (content_flags via the FastAPI adapter). Static
+     frontmatter-derived flags stay as the offline fallback; a DB value wins
+     whenever the API is reachable.
+     NOTE: overlay currently OFF — static flags only. Flip to true (and run
+     deploy/supabase/content_flags.sql + scripts/07_sync_content.py
+     --backfill-stars) to re-enable the DB overlay. */
+  const FLAGS_OVERLAY_ENABLED = false;
+  const FLAGS_API = (window.LLM_WIKI_API_BASE || 'https://api.johnnykuo.com/v1')
+    .replace(/\/$/, '') + '/flags';
+
+  Promise.all([
+    fetch('../data/tasks.json').then(r => r.json()),
+    FLAGS_OVERLAY_ENABLED
+      ? fetch(FLAGS_API).then(r => r.json()).catch(() => null)
+      : Promise.resolve(null),
+  ])
+  .then(([data, flagData]) => {
+    const dbFlags = (flagData && flagData.flags && flagData.flags.task_output) || {};
+    /* The DB (and the admin panel) key task flags by the markdown filename;
+       tasks.json ids are `task:<filename-without-.md>`. */
+    const taskIdOf = (t) => {
+      const en = t.langs?.['en-US'] || {};
+      return asStr(en.filename) || t.id.replace(/^task:/, '') + '.md';
+    };
+    const dbStarred = (t, key) => {
+      const f = dbFlags[key];
+      return f && Object.prototype.hasOwnProperty.call(f, 'starred')
+        ? f.starred === true : t.starred === true;
+    };
+    const tasks = (data.tasks || [])
+      .filter(t => t.active !== false && t.id !== 'tasks-index' && t.langs && t.langs['en-US'])
+      .map(t => {
+        const en = t.langs['en-US'];
+        const zh = t.langs['zh-TW'];
+        const created = en.created || zh?.created || '';
+        const key = taskIdOf(t);
+        const starred = dbStarred(t, key);
+        return {
+          id: t.id,
+          display: asStr(en.title),
+          starred,
+          desc: asStr(en.description || ''),
+          enPath: en.path,
+          file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
+          zhPath: zh ? zh.path : en.path,
+          zhTitle: zh ? asStr(zh.title) : '',
+          created,
+          age: relAge(created),
+          bucket: starred ? 0 : bucket(created),
+        };
+      })
+      .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
 
       const viewerHref = (path) =>
         'task-viewer.html?src=' + encodeURIComponent('../' + path);

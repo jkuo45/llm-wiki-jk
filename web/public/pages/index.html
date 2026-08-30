@@ -237,30 +237,51 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
      .replace() calls never crash. */
   const asStr = (v) => Array.isArray(v) ? v.join(' ') : String(v ?? '');
 
-  fetch('../data/articles.json')
-    .then(r => r.json())
-    .then(data => {
-      const articles = data
-        .filter(a => a.active !== false && a.id !== 'articles-index' && a.langs && a.langs['en-US'])
-        .map((a, ai) => {
-          const en = a.langs['en-US'];
-          const zh = a.langs['zh-TW'];
-          return {
-            id: a.id,
-            _idx: ai,
-            display: asStr(en.title),
-            starred: a.starred === true,
-            zhTitle: zh ? asStr(zh.title) : '',
-            desc: asStr(en.description || ''),
-            enPath: en.path.replace(/^pages\//, ''),
-            zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
-            created: en.created || '',
-            age: relAge(en.created || ''),
-            bucket: a.starred === true ? 0 : bucket(en.created || '')
-          };
-        })
-        .sort((x, y) => (y.starred - x.starred) ||
-          (y.created || '').localeCompare(x.created || ''));
+  /* DB-backed flag overlay (content_flags via the FastAPI adapter). The
+     static `starred` flags baked into articles.json remain the offline
+     fallback; a DB value wins whenever the API is reachable.
+     NOTE: overlay currently OFF — static flags only. Flip to true (and run
+     deploy/supabase/content_flags.sql + scripts/07_sync_content.py
+     --backfill-stars) to re-enable the DB overlay. */
+  const FLAGS_OVERLAY_ENABLED = false;
+  const FLAGS_API = (window.LLM_WIKI_API_BASE || 'https://api.johnnykuo.com/v1')
+    .replace(/\/$/, '') + '/flags';
+
+  Promise.all([
+    fetch('../data/articles.json').then(r => r.json()),
+    FLAGS_OVERLAY_ENABLED
+      ? fetch(FLAGS_API).then(r => r.json()).catch(() => null)
+      : Promise.resolve(null),
+  ])
+  .then(([data, flagData]) => {
+    const dbFlags = (flagData && flagData.flags && flagData.flags.article) || {};
+    const dbStarred = (a) => {
+      const f = dbFlags[a.id];
+      return f && Object.prototype.hasOwnProperty.call(f, 'starred')
+        ? f.starred === true : a.starred === true;
+    };
+    const articles = data
+      .filter(a => a.active !== false && a.id !== 'articles-index' && a.langs && a.langs['en-US'])
+      .map((a, ai) => {
+        const en = a.langs['en-US'];
+        const zh = a.langs['zh-TW'];
+        const starred = dbStarred(a);
+        return {
+          id: a.id,
+          _idx: ai,
+          display: asStr(en.title),
+          starred,
+          zhTitle: zh ? asStr(zh.title) : '',
+          desc: asStr(en.description || ''),
+          enPath: en.path.replace(/^pages\//, ''),
+          zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
+          created: en.created || '',
+          age: relAge(en.created || ''),
+          bucket: starred ? 0 : bucket(en.created || '')
+        };
+      })
+      .sort((x, y) => (y.starred - x.starred) ||
+        (y.created || '').localeCompare(x.created || ''));
 
       function render(){
         const tokens = parseQuery(searchBox.value);

@@ -36,6 +36,7 @@ from .graph_ops import (
 from .notes import router as notes_router
 from .graphs import router as graphs_router
 from .research import router as research_router
+from .flags import router as flags_router
 from .auth import authorize_request, close_client as close_auth_client
 from .db import close_client as close_db_client
 from .llm import (
@@ -241,6 +242,7 @@ _RATE_LIMITS: dict[str, tuple[int, int]] = {
     "/v1/research/topics": (10, 60),  # topic creation + search runs (LLM cost)
     "/v1/research/": (30, 60),  # listing / review actions
     "/v1/graphs/": (60, 60),  # user-graph CRUD + node/edge writes
+    "/v1/flags": (60, 60),  # content flag toggles (admin panel)
 }
 
 
@@ -715,3 +717,4 @@ app.include_router(api_v1)
 app.include_router(notes_router)
 app.include_router(graphs_router)
 app.include_router(research_router)
+app.include_router(flags_router)

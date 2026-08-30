@@ -403,6 +403,25 @@ async function loadIndex() {
     const data = await resp.json();
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
+    // DB-backed flag overlay: manifest `starred` stays the fallback, but a
+    // content_flags value wins when the flags endpoint is reachable.
+    // NOTE: overlay currently OFF — static flags only. Flip
+    // FLAGS_OVERLAY_ENABLED to true (plus the Supabase setup) to re-enable.
+    const FLAGS_OVERLAY_ENABLED = false;
+    if (FLAGS_OVERLAY_ENABLED) {
+      try {
+        const sResp = await fetch(`${API_BASE}/flags`);
+        if (sResp.ok) {
+          const dbFlags = (await sResp.json()).flags?.image_note || {};
+          for (const n of notes) {
+            const f = dbFlags[n.id];
+            if (f && Object.prototype.hasOwnProperty.call(f, 'starred')) {
+              n.starred = f.starred === true;
+            }
+          }
+        }
+      } catch { /* keep manifest stars */ }
+    }
     // If the user opened the combobox before the fetch resolved, fill it now.
     if (!comboboxPopup.hidden) renderCombobox();
     loaded = true;

@@ -37,6 +37,11 @@ offset by +1000).
 - **Timestamps** (README display, task outputs, file naming):
   `%d_%b_%Y %I:%M %p %Z` — e.g. `27_Aug_2026 09:30 AM PDT`, uppercase.
   Frontmatter dates are the exception: always `YYYY-MM-DD`.
+- **Starring**: the Supabase `content_flags` table is the runtime source of
+  truth (managed via the SPA admin panel + `api/flags.py`; schema in
+  `deploy/supabase/content_flags.sql`). Frontmatter `starred:` in
+  `src/tasks/*.md` and the static flags in `articles.json`/manifest.json are
+  legacy fallbacks only — prefer the DB/admin panel for new changes.
 - **Filename uniqueness**: every `.md` filename must be unique across all of
   `src/notes/` (topics _and_ `_link/`). Obsidian resolves wiki links globally
   by filename; duplicates are ambiguous.
@@ -220,10 +225,27 @@ uv run --with networkx python3 scripts/04_node_analysis.py --graph wiki-out/wiki
 uv run --with networkx python3 scripts/04_link_prediction.py --graph graphify-out/graph.json
 uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.json --role Spreader --top 10
 
+# Assumptions Lab (web/public/pages/en-US/assumptions.html + zh-TW shell):
+# curated A/B conflict registry web/public/data/assumptions.json is validated
+# against the freshly built triples-edges.json/nodes.json during 03
+# (validate_assumptions_file).
+# Curation aid — map a review report's triple ids to web edge keys:
+uv run python3 scripts/03_triple_lookup.py <triple_id> ...
+
 # Mirror base layer into Supabase (topics/entities/edges/metrics/predictions;
 # incremental on version.json hash — needs SUPABASE_URL + SUPABASE_SERVICE_KEY
 # in env or repo .env, which is git-ignored). Run after any graph rebuild.
 uv run --no-build --with supabase --with pyyaml --with networkx python3 scripts/07_sync_to_db.py
+
+# Mirror the CONTENT layer into Supabase (content_registry: articles/tasks/
+# image notes/documents; wiki notes live in `entities` from 07). Flags:
+#   --backfill-stars  seed content_flags from legacy starred frontmatter/manifest
+#   --prune           drop registry rows whose content is gone
+#   --dry-run         counts only
+# content_flags is the runtime source of truth for curation flags (starred /
+# active) via api/flags.py + the SPA admin panel; frontmatter/static flags
+# remain offline fallbacks.
+uv run --no-build --with supabase --with pyyaml python3 scripts/07_sync_content.py
 
 # GitHub repo / branch for generated links: read from repo .env
 # (GITHUB_REPO_URL, GITHUB_BRANCH) > default (https://github.com/jkuo45/llm-wiki-jk, dev).

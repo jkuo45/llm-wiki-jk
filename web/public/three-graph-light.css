@@ -180,16 +180,19 @@ body {
 #controls #btn-save-png,
 #controls #btn-analysis,
 #controls #btn-notes,
+#controls #btn-admin,
 #controls #btn-unstick,
 #controls #dataset-mode-toggle { color: var(--ink-4); }
 #controls #btn-reset:hover,
 #controls #btn-save-png:hover,
 #controls #btn-analysis:hover,
 #controls #btn-notes:hover,
+#controls #btn-admin:hover,
 #controls #btn-unstick:hover,
 #controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
 #controls #btn-analysis.open, #controls #btn-analysis.active,
-#controls #btn-notes.open { background: var(--paper-deep); border-color: var(--accent); color: var(--ink-hi); }
+#controls #btn-notes.open,
+#controls #btn-admin.open { background: var(--paper-deep); border-color: var(--accent); color: var(--ink-hi); }
 #controls #btn-save-png.ok { color: #1E7A4E; border-color: #1E7A4E; }
 #controls #btn-save-png.err { color: #C0392B; border-color: #C0392B; }
 

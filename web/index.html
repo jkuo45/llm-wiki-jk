@@ -63,6 +63,9 @@
     <button id="btn-notes" title="Notes / 筆記" aria-label="Notes panel">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></span>
     </button>
+    <button id="btn-admin" title="Admin / 管理" aria-label="Admin panel" hidden>
+      <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></span>
+    </button>
     <button id="btn-save-png" title="Save as PNG / 另存為 PNG" aria-label="Save as PNG" hidden>
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></span>
     </button>
@@ -432,6 +435,56 @@
     </div>
     <div id="wiki-modal-body"></div>
   </div>
+</div>
+
+<!-- Admin panel — DB-backed star flags for articles/tasks/wiki notes/
+     documents/image notes. Toolbar button is revealed by components/admin.js
+     once a session exists; non-admins get 403 from the API on toggle. -->
+<style>
+  #admin-panel { position: fixed; z-index: 60; inset: auto 16px 16px auto; width: min(560px, calc(100vw - 32px)); height: min(72vh, 780px); background: var(--panel-bg, #16181d); color: var(--panel-fg, #e8e6e0); border: 1px solid var(--rule, #2c2f36); border-radius: 14px; display: none; flex-direction: column; overflow: hidden; box-shadow: 0 18px 60px rgba(0,0,0,.45); }
+  #admin-panel.open { display: flex; }
+  #admin-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid var(--rule, #2c2f36); }
+  #admin-tabs { display: flex; gap: 4px; padding: 8px 10px 0; flex-wrap: wrap; }
+  #admin-tabs button { background: none; border: 1px solid transparent; color: inherit; opacity: .65; padding: 4px 10px; border-radius: 999px; font: inherit; font-size: 12px; cursor: pointer; }
+  #admin-tabs button.active { opacity: 1; border-color: var(--rule, #2c2f36); background: var(--panel-bg-2, #1e2128); }
+  #admin-toolbar { display: flex; gap: 8px; padding: 8px 14px; align-items: center; }
+  #admin-search { flex: 1; background: var(--panel-bg-2, #1e2128); border: 1px solid var(--rule, #2c2f36); color: inherit; border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 13px; }
+  #admin-status { font-size: 11px; opacity: .6; white-space: nowrap; }
+  #admin-list { flex: 1; overflow-y: auto; padding: 4px 8px 12px; }
+  .admin-row { display: flex; align-items: center; gap: 10px; padding: 7px 8px; border-radius: 8px; }
+  .admin-row:hover { background: var(--panel-bg-2, #1e2128); }
+  .admin-row .admin-meta { font-size: 11px; opacity: .55; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .admin-row .admin-title { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .admin-row .admin-main { flex: 1; min-width: 0; }
+  .admin-star, .admin-active { background: none; border: none; cursor: pointer; font-size: 17px; line-height: 1; color: var(--rule, #555a64); padding: 2px 4px; flex: none; display: inline-flex; align-items: center; }
+  .admin-star.on { color: #d4a017; }
+  .admin-active.on { color: #7ee2a8; }
+  .admin-row.inactive .admin-title, .admin-row.inactive .admin-meta { opacity: .45; }
+  #admin-empty, #admin-error { padding: 18px 16px; font-size: 13px; opacity: .7; }
+</style>
+<div id="admin-panel">
+  <div id="admin-header">
+    <div class="panel-header-left">
+      <span class="panel-title">Admin / <span class="panel-title-zh">管理</span></span>
+    </div>
+    <div class="panel-header-actions">
+      <button id="admin-close" aria-label="Close panel" title="Close panel">&times;</button>
+    </div>
+  </div>
+  <div id="admin-tabs" role="tablist">
+    <button type="button" data-tab="article" class="active">Articles / 文章</button>
+    <button type="button" data-tab="task_output">Tasks / 任務</button>
+    <button type="button" data-tab="wiki_note">Wiki / 節點</button>
+    <button type="button" data-tab="document">Docs / 文獻</button>
+    <button type="button" data-tab="image_note">Notes / 筆記</button>
+  </div>
+  <div id="admin-toolbar">
+    <input id="admin-search" type="text" autocomplete="off" placeholder="Filter… / 篩選…">
+    <span id="admin-status"></span>
+  </div>
+  <div id="admin-list"></div>
+  <div id="admin-empty" hidden>Nothing to show.</div>
+  <div id="admin-error" hidden></div>
 </div>
 
 <!-- Reader modal (loads articles in iframe) -->

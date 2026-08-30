@@ -414,6 +414,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #controls .controls-spacer { order: 1; }
 #controls #btn-analysis { order: 2; }
 #controls #btn-notes { order: 3; }
+#controls #btn-admin { order: 4; }
 #controls #btn-settings { order: 4; }
 #controls #settings-wrap { position: relative; order: 5; flex: none; width: 44px; height: 44px; }
 #controls #settings-wrap[hidden] { display: none; }
@@ -1413,6 +1414,12 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #controls #btn-notes { position: relative; flex: none; width: 44px; padding: 10px; color: var(--ink-4); }
 #controls #btn-notes:hover { color: var(--ink-hi); border-color: var(--accent); }
 #controls #btn-notes.open { background: var(--line); border-color: var(--accent); color: var(--ink-hi); }
+/* Admin shield — same compact icon-button treatment; the [hidden] override
+   is required because #controls button { display:flex } beats the UA rule. */
+#controls #btn-admin { position: relative; flex: none; width: 44px; height: 44px; padding: 10px; color: var(--ink-4); }
+#controls #btn-admin:hover { color: var(--ink-hi); border-color: var(--accent); }
+#controls #btn-admin.open { background: var(--line); border-color: var(--accent); color: var(--ink-hi); }
+#controls #btn-admin[hidden] { display: none; }
 
 #notes-panel {
   position: fixed; inset: 0; z-index: 490;

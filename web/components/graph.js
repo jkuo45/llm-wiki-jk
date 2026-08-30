@@ -20,6 +20,8 @@ import './theme.js';
 // Side-effect import: auth.js shows the login overlay until a session exists
 // and keeps the Supabase access token available to API callers.
 import './auth.js';
+// Side-effect import: admin.js wires the DB-backed star-flag panel.
+import './admin.js';
 
 // ------------------------------------------------------------
 // Hash restore (also used by popstate)

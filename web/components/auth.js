@@ -23,6 +23,18 @@ export function authHeaders() {
   return accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
 }
 
+// Signed-in probe + subscription for UI that only makes sense authenticated
+// (e.g. the admin panel). Listeners fire on every session change with the
+// boolean signed-in state.
+let sessionListeners = [];
+export function isSignedIn() {
+  return !!accessToken;
+}
+export function onSessionChange(cb) {
+  sessionListeners.push(cb);
+  cb(isSignedIn());
+}
+
 const overlay = document.getElementById('auth-overlay');
 const form = document.getElementById('auth-form');
 const googleBtn = document.getElementById('auth-google');
@@ -121,6 +133,7 @@ function setSession(session) {
   accessToken = session?.access_token || null;
   renderChip(session);
   if (session) closeModal('auth');
+  sessionListeners.forEach((cb) => { try { cb(isSignedIn()); } catch { /* listener errors are non-fatal */ } });
 }
 
 // Default path: Google OAuth. Redirects to Supabase, which bounces through

@@ -22,6 +22,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from fastapi.testclient import TestClient  # noqa: E402
 
+import api.flags as flags_mod  # noqa: E402
 import api.graphs as graphs  # noqa: E402
 import api.research as research  # noqa: E402
 
@@ -208,7 +209,7 @@ def make_client(monkeypatch, patch_db, fake_db):
     """TestClient factory; every request passes origin/auth gates offline."""
 
     def _make(uid: str = USER_A) -> TestClient:
-        patch_db(graphs, research)
+        patch_db(graphs, research, flags_mod)
 
         # Offline tests would trip the in-process per-IP rate limiter across
         # dozens of requests; disable it for the test app instance.
@@ -221,6 +222,7 @@ def make_client(monkeypatch, patch_db, fake_db):
 
         monkeypatch.setattr(graphs, "get_user_id", fake_user)
         monkeypatch.setattr(research, "get_user_id", fake_user)
+        monkeypatch.setattr(flags_mod, "get_user_id", fake_user)
         client = TestClient(main_mod.app)
         client.headers.update({"Origin": "http://localhost:5173"})
         return client
