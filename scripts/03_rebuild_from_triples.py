@@ -375,7 +375,185 @@ def ensure_manual_data_files() -> None:
         )
 
 
-def validate_assumptions_file() -> None:
+def load_assumption_state(path: Path | None = None) -> dict:
+    """Load the curated assumption state from web/public/data/assumptions.json.
+
+    Returns a tolerant, always-well-formed dict:
+
+        {
+            "excluded_docs": set[str],      # basenames excluded from the build
+            "keep_triples": set[str],       # triple ids rescued from excluded docs
+            "exclusion_records": list[dict],
+            "removed_keys": set[tuple],     # canonical (from,label,to) removals
+            "added_edges": list[dict],      # canonical directional add edges
+            "selection_keys": dict,         # scenario -> conflict -> option key
+            "schema_version": int,
+        }
+
+    Missing file / sections degrade to an empty state so the build stays
+    offline-first and deterministic (the DB->file sync, scripts/
+    07_sync_assumptions.py, is what materializes DB selections into the file).
+    """
+    path = path or (DATA_DIR / "assumptions.json")
+    empty = {
+        "excluded_docs": set(),
+        "keep_triples": set(),
+        "exclusion_records": [],
+        "removed_keys": set(),
+        "added_edges": [],
+        "selection_keys": {},
+        "schema_version": 1,
+    }
+    if not path.exists():
+        return empty
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as e:
+        print(f"WARNING: assumptions.json unreadable ({e}); no exclusions applied")
+        return empty
+
+    def basename(s: str) -> str:
+        return str(s).rsplit("/", 1)[-1].strip()
+
+    state = dict(empty)
+    state["schema_version"] = doc.get("schemaVersion", 1)
+    for rec in doc.get("excludedSources") or []:
+        doc_name = basename(rec.get("document", ""))
+        if not doc_name:
+            continue
+        state["exclusion_records"].append(rec)
+        state["excluded_docs"].add(doc_name)
+        for tid in rec.get("keepTripleIds") or []:
+            state["keep_triples"].add(str(tid))
+
+    # Machine-managed selections block (written by 07_sync_assumptions.py):
+    # {scenario_id: {conflict_id: {key, addedEdges[], removedEdges[], updatedAt}}}
+    for sid, conflicts in (doc.get("selections") or {}).items():
+        if not isinstance(conflicts, dict):
+            continue
+        for cid, sel in conflicts.items():
+            if not isinstance(sel, dict):
+                continue
+            state["selection_keys"].setdefault(sid, {})[cid] = sel.get("key")
+            for key in sel.get("removedEdges") or []:
+                if isinstance(key, (list, tuple)) and len(key) == 3:
+                    state["removed_keys"].add((key[0], key[1], key[2]))
+            for add in sel.get("addedEdges") or []:
+                if isinstance(add, dict) and add.get("from") and add.get("to"):
+                    state["added_edges"].append({**add, "_scenario": sid, "_conflict": cid})
+    return state
+
+
+def assumption_excludes(t: dict, state: dict, sid: str, tid: str) -> bool:
+    """True when a triple comes from an excluded source document and is not
+    rescued via keepTripleIds."""
+    if not state["excluded_docs"]:
+        return False
+    src = (t.get("source_document") or t.get("source") or "").rsplit("/", 1)[-1]
+    if src not in state["excluded_docs"]:
+        return False
+    return str(t.get("id", "")) not in state["keep_triples"]
+
+
+def apply_selection_edits(
+    edge_records: dict, state: dict, node_ok: set | None = None
+) -> tuple[int, int, int]:
+    """Apply canonical conflict selections to the accumulated edge records.
+
+    Removals win over any same-key corpus triple (a remove is applied after
+    accumulation, so extraction can never resurrect a removed edge). Adds are
+    injected unconditionally with `updated` stamped from the selection
+    timestamp so they deterministically win the `_newer()` dedupe rule
+    (a human decision beats extraction on equal keys).
+
+    When `node_ok` is given, adds referencing nodes absent from the built
+    graph are skipped (warned) instead of creating bare undescribed nodes.
+
+    Returns (n_removed, n_added, n_skipped_adds).
+    """
+    for key in state["removed_keys"]:
+        edge_records.pop(key, None)
+
+    applied = 0
+    skipped = 0
+    for add in state["added_edges"]:
+        key = (norm(add["from"]), add.get("label", ""), norm(add["to"]))
+        if node_ok is not None and (key[0] not in node_ok or key[2] not in node_ok):
+            print(
+                f"WARNING: canonical add {key} references unknown node(s); skipped"
+            )
+            skipped += 1
+            continue
+        updated = add.get("updatedAt") or ""
+        rec = {
+            "relation": add.get("label", ""),
+            "confidence": add.get("confidence", "EXTRACTED"),
+            "confidence_score": float(add.get("confidence_score", 0.6)),
+            "score": float(add.get("confidence_score", 0.6)),
+            "source_file": f"assumptions:{add.get('_scenario', '?')}:{add.get('_conflict', '?')}",
+            "source_triples": "web/public/data/assumptions.json",
+            "context": add.get("context", ""),
+            "created": updated,
+            "updated": updated,
+        }
+        if add.get("context_zh_TW"):
+            rec["context_zh_TW"] = add["context_zh_TW"]
+        edge_records[key] = rec  # unconditional: selection wins dedupe
+        applied += 1
+    return len(state["removed_keys"]), applied, skipped
+
+
+def write_assumptions_build_artifact(
+    astate: dict,
+    excl_by_doc: Counter,
+    kept_by_doc: Counter,
+    n_removed: int,
+    n_added: int,
+) -> None:
+    """Write web/public/data/assumptions-build.json: what the build applied.
+
+    Machine-readable provenance for the Assumptions Lab and the sync scripts:
+    which source documents were excluded (per-document triple counts, incl.
+    keepTripleIds rescues) and which canonical conflict selections were
+    materialized into the graph. Participates in the version.json cache-bust
+    hash automatically (it lives in DATA_DIR).
+    """
+    excluded = [
+        {
+            "id": rec.get("id", ""),
+            "document": rec.get("document", ""),
+            "topic": rec.get("topic", ""),
+            "excludedTriples": excl_by_doc.get(
+                str(rec.get("document", "")).rsplit("/", 1)[-1], 0
+            ),
+            "keptTriples": kept_by_doc.get(
+                str(rec.get("document", "")).rsplit("/", 1)[-1], 0
+            ),
+        }
+        for rec in astate["exclusion_records"]
+    ]
+    doc = {
+        "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "schemaVersion": astate["schema_version"],
+        "excluded": excluded,
+        "canonicalSelections": astate["selection_keys"],
+        "applied": {"removedEdges": n_removed, "addedEdges": n_added},
+    }
+    (DATA_DIR / "assumptions-build.json").write_text(
+        json.dumps(doc, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(
+        "Wrote web/public/data/assumptions-build.json "
+        f"({len(excluded)} excluded doc(s), {n_removed} removed, {n_added} added)"
+    )
+
+
+def validate_assumptions_file(
+    ok_remove_keys: set | None = None,
+    corpus_docs: set | None = None,
+    ok_node_ids: set | None = None,
+) -> None:
     """Fail the build when the curated assumptions registry drifts from data.
 
     The Assumptions Lab (web/public/pages/en-US/assumptions.html, zh-TW
@@ -386,6 +564,13 @@ def validate_assumptions_file() -> None:
     triples-nodes.json, or the derived scenario silently diverges from the
     graph it claims to analyze. Curation aid: scripts/03_triple_lookup.py maps
     a review report's triple ids to web edge keys.
+
+    Applied-state awareness: the build applies exclusions + canonical
+    selections BEFORE validation, so a conflict option whose `remove` key is
+    missing from the built graph is only an error when the key is not already
+    covered by canonical selections or source exclusions (`ok_remove_keys`,
+    passed by main()). The same tolerance applies to `add` edges that
+    canonical selections already injected.
     """
     path = DATA_DIR / "assumptions.json"
     if not path.exists():
@@ -399,6 +584,9 @@ def validate_assumptions_file() -> None:
     edge_keys = {(e["from"], e["label"], e["to"]) for e in edges}
     node_ids = {n["id"] for n in json.loads((DATA_DIR / "triples-nodes.json").read_text(encoding="utf-8"))}
 
+    ok_remove = ok_remove_keys or set()
+    ok_nodes = ok_node_ids or set()
+
     def edge_key(key) -> tuple[str, str, str]:
         # stored as [from, label, to] (JSON arrays) — tolerate 3-tuples
         if not isinstance(key, (list, tuple)) or len(key) != 3:
@@ -406,18 +594,70 @@ def validate_assumptions_file() -> None:
         return (key[0], key[1], key[2])
 
     errors: list[str] = []
+    infos: list[str] = []
     scenario_ids: set[str] = set()
+    file_scenario_ids: set[str] = set()
+
+    # --- excludedSources: documents must be known corpus sources; keep ids
+    # must be well-formed triple ids (12 hex chars) ---
+    for i, rec in enumerate(doc.get("excludedSources") or []):
+        where = f"excludedSources[{i}]"
+        doc_name = str(rec.get("document", "")).rsplit("/", 1)[-1].strip()
+        if not doc_name:
+            errors.append(f"{where}: missing document")
+        elif corpus_docs is not None and doc_name not in corpus_docs:
+            errors.append(f"{where}: document {doc_name!r} is not a source of any triples container")
+        for tid in rec.get("keepTripleIds") or []:
+            if not (isinstance(tid, str) and len(tid) == 12 and all(c in "0123456789abcdef" for c in tid)):
+                errors.append(f"{where}: keepTripleIds entry {tid!r} is not a 12-hex triple id")
+        if not str(rec.get("id", "")).strip():
+            errors.append(f"{where}: missing id")
+
+    # --- machine-managed selections block: keys must resolve to curated
+    # scenario/conflict/option ids ---
+    for sid, conflicts in (doc.get("selections") or {}).items():
+        scenario_ids.add(sid)
+        sc = next((s for s in doc.get("scenarios", []) if s.get("id") == sid), None)
+        if sc is None:
+            errors.append(f"selections: unknown scenario id {sid!r}")
+            continue
+        for cid, sel in conflicts.items():
+            conflict = next((c for c in sc.get("conflicts", []) if c.get("id") == cid), None)
+            if conflict is None:
+                errors.append(f"selections/{sid}: unknown conflict id {cid!r}")
+                continue
+            key = sel.get("key")
+            opt = next((o for o in conflict.get("options", []) if o.get("key") == key), None)
+            if opt is None:
+                errors.append(f"selections/{sid}/{cid}: key {key!r} is not an option of this conflict")
+                continue
+            # resolved edges must match the option's curated edits
+            opt_removed = {edge_key(k) for k in (opt.get("edits") or {}).get("remove", [])}
+            sel_removed = {edge_key(k) for k in sel.get("removedEdges") or []}
+            if sel_removed != opt_removed:
+                errors.append(f"selections/{sid}/{cid}: removedEdges diverge from option {key!r} edits")
+            opt_added = {
+                (norm(a.get("from", "")), a.get("label", ""), norm(a.get("to", "")))
+                for a in (opt.get("edits") or {}).get("add", [])
+            }
+            sel_added = {
+                (norm(a.get("from", "")), a.get("label", ""), norm(a.get("to", "")))
+                for a in sel.get("addedEdges") or []
+            }
+            if sel_added != opt_added:
+                errors.append(f"selections/{sid}/{cid}: addedEdges diverge from option {key!r} edits")
+
     for sc in doc.get("scenarios", []):
         sid = sc.get("id", "?")
-        if sid in scenario_ids:
+        if sid in file_scenario_ids:
             errors.append(f"duplicate scenario id {sid!r}")
-        scenario_ids.add(sid)
+        file_scenario_ids.add(sid)
         for preset in sc.get("pathPresets", []):
             if len(preset) != 2:
                 errors.append(f"{sid}: pathPreset {preset!r} must be [source, target]")
                 continue
             for nid in preset:
-                if nid not in node_ids:
+                if nid not in node_ids and nid not in ok_nodes:
                     errors.append(f"{sid}: pathPreset endpoint {nid!r} is not a known node")
         conflict_ids: set[str] = set()
         for c in sc.get("conflicts", []):
@@ -427,20 +667,25 @@ def validate_assumptions_file() -> None:
             conflict_ids.add(cid)
             where = f"{sid}/{cid}"
             for nid in c.get("anchor", []):
-                if nid not in node_ids:
+                if nid not in node_ids and nid not in ok_nodes:
                     errors.append(f"{where}: anchor {nid!r} is not a known node")
             for e in c.get("evidence", []):
                 k = (e.get("from"), e.get("label"), e.get("to"))
-                if k not in edge_keys:
-                    errors.append(f"{where}: evidence edge {k} not in triples-edges.json")
+                if k not in edge_keys and k not in ok_remove:
+                    infos.append(f"{where}: evidence edge {k} absent from built graph (excluded/removed)")
+                elif k not in edge_keys:
+                    pass  # tolerated: covered by canonical removals/exclusions
             for opt in c.get("options", []):
                 okey = opt.get("key", "?")
                 edits = opt.get("edits") or {}
                 for key in edits.get("remove", []):
-                    if edge_key(key) not in edge_keys:
+                    if edge_key(key) not in edge_keys and edge_key(key) not in ok_remove:
                         errors.append(f"{where}/{okey}: remove key {key} not in triples-edges.json")
                 for add in edits.get("add", []):
                     k = (add.get("from"), add.get("label"), add.get("to"))
+                    if k in edge_keys:
+                        infos.append(f"{where}/{okey}: add edge {k} already in built graph (canonical)")
+                        continue
                     if k[0] not in node_ids or k[2] not in node_ids:
                         errors.append(f"{where}/{okey}: add edge {k} references unknown node(s)")
                     conf = add.get("confidence_score")
@@ -455,7 +700,14 @@ def validate_assumptions_file() -> None:
             print(f"  - {err}")
         raise SystemExit(1)
     n_conf = sum(len(sc.get("conflicts", [])) for sc in doc.get("scenarios", []))
-    print(f"assumptions.json OK: {len(doc.get('scenarios', []))} scenario(s), {n_conf} conflict(s)")
+    n_excl = len(doc.get("excludedSources") or [])
+    n_sel = sum(len(c) for c in (doc.get("selections") or {}).values())
+    print(
+        f"assumptions.json OK: {len(doc.get('scenarios', []))} scenario(s), "
+        f"{n_conf} conflict(s), {n_excl} excluded source(s), {n_sel} canonical selection(s)"
+    )
+    for info in infos:
+        print(f"  ℹ {info}")
 
 
 # ------------------------------------------------------------------
@@ -673,6 +925,44 @@ def _format_i18n_report(i18n: Counter) -> str:
     return "\n".join(lines)
 
 
+def _format_assumptions_report(
+    astate: dict,
+    excl_by_doc: Counter,
+    kept_by_doc: Counter,
+    n_removed: int,
+    n_added: int,
+) -> str:
+    """Render the assumption-state section appended to GRAPH_REPORT.md."""
+    lines = [
+        "",
+        "## Assumption State",
+        "",
+        "Curated exclusions (`excludedSources`) and canonical conflict selections",
+        "(`selections`, synced from Supabase by scripts/07_sync_assumptions.py)",
+        "applied to this build. See web/public/data/assumptions-build.json.",
+        "",
+        f"- Excluded source documents: {len(astate['excluded_docs'])}",
+        f"- Triples excluded by document: {sum(excl_by_doc.values())}",
+        f"- Triples rescued via keepTripleIds: {sum(kept_by_doc.values())}",
+        f"- Canonical edges removed (selections): {n_removed}",
+        f"- Canonical edges added (selections): {n_added}",
+        "",
+    ]
+    if astate["exclusion_records"]:
+        lines += [
+            "| Document | Topic | Excluded | Kept |",
+            "| --- | --- | ---: | ---: |",
+        ]
+        for rec in astate["exclusion_records"]:
+            base = str(rec.get("document", "")).rsplit("/", 1)[-1]
+            lines.append(
+                f"| {base} | {rec.get('topic', '')} "
+                f"| {excl_by_doc.get(base, 0)} | {kept_by_doc.get(base, 0)} |"
+            )
+        lines.append("")
+    return "\n".join(lines)
+
+
 def _load_source_doc_mtimes() -> dict[str, str]:
     """Basename -> ISO mtime for every .md tracked in graphify-out/manifest.json.
 
@@ -752,6 +1042,20 @@ def main() -> int:
     i18n = Counter()
     src_doc_mtime = _load_source_doc_mtimes()
     stale_basis = Counter()  # doc | container — how staleness was judged
+    corpus_docs: set[str] = set()  # all source_document basenames (validation)
+    excluded_node_ids: set[str] = set()  # nodes seen (only) via excluded triples
+    # --- curated assumption state (exclusions + canonical selections) ---
+    astate = load_assumption_state()
+    excluded_edge_keys: set[tuple] = set()  # pre-application universe, for validation tolerance
+    excl_by_doc: Counter = Counter()
+    kept_by_doc: Counter = Counter()
+    if astate["excluded_docs"] or astate["removed_keys"] or astate["added_edges"]:
+        print(
+            "Assumption state: "
+            f"{len(astate['excluded_docs'])} excluded doc(s), "
+            f"{len(astate['removed_keys'])} canonical removal(s), "
+            f"{len(astate['added_edges'])} canonical add(s)"
+        )
     print("=== Iterating topics ===")
     for f in topics:
         rel = str(Path(f).relative_to(ROOT))
@@ -765,15 +1069,34 @@ def main() -> int:
             f_mtime_iso = ""
         for t in triples:
             total_triples += 1
-            i18n["triples_total"] += 1
             subj = strip_wikilink(t["subject"])
             obj = strip_wikilink(t["object"])
             sid, tid = norm(subj), norm(obj)
+            pre_key = (sid, t.get("predicate", ""), tid)
+            # every source_document basename, incl. excluded docs (validation)
+            src_base = (t.get("source_document") or t.get("source") or "").rsplit("/", 1)[-1]
+            if src_base:
+                corpus_docs.add(src_base)
+            # --- document-level exclusion (with keepTripleIds exceptions) ---
+            if assumption_excludes(t, astate, sid, tid):
+                excluded_edge_keys.add(pre_key)
+                excluded_node_ids.update((sid, tid))
+                if str(t.get("id", "")) in astate["keep_triples"]:
+                    kept_by_doc[src_base] += 1
+                else:
+                    excl_by_doc[src_base] += 1
+                    continue
+            i18n["triples_total"] += 1
             if not sid or not tid or sid == tid:
                 continue
             src = t.get("source_document", "") or rel
+            corpus_docs.add(str(src).rsplit("/", 1)[-1])
             en = get_context(t, "en-US")
             if not en:
+                continue
+            # canonical conflict removals drop the edge — and keep the removed
+            # triple's context from feeding node descriptions either
+            if pre_key in astate["removed_keys"]:
                 continue
             zh = get_context(t, "zh-TW")
             has_zh = has_translation(t, "zh-TW")
@@ -836,6 +1159,17 @@ def main() -> int:
                 edge_records[key] = edge
         print(f"  {rel}: +{G.number_of_nodes() - n0}n (running {G.number_of_nodes()}n)")
 
+    # --- apply canonical conflict selections (removals win; adds win dedupe) ---
+    n_sel_removed, n_sel_added, n_sel_skipped = apply_selection_edits(
+        edge_records, astate, node_ok=set(G.nodes())
+    )
+    if n_sel_removed or n_sel_added or n_sel_skipped:
+        print(
+            f"Applied canonical selections: -{n_sel_removed} edge(s), "
+            f"+{n_sel_added} edge(s)"
+            + (f", {n_sel_skipped} add(s) skipped" if n_sel_skipped else "")
+        )
+
     # --- add edges (latest-`updated` triple wins for an identical edge key) ---
     for (sid, _pred, tid), rec in edge_records.items():
         G.add_edge(
@@ -847,7 +1181,7 @@ def main() -> int:
             source_file=rec["source_file"],
             source_triples=rec["source_triples"],
             context=rec["context"],
-            context_zh_TW=rec["context_zh_TW"],
+            context_zh_TW=rec.get("context_zh_TW", ""),
             created=rec["created"],
             updated=rec["updated"],
         )
@@ -967,6 +1301,11 @@ def main() -> int:
     i18n_report = _format_i18n_report(i18n)
     with open(GP / "GRAPH_REPORT.md", "a", encoding="utf-8") as fh:
         fh.write(i18n_report)
+    assumptions_report = _format_assumptions_report(
+        astate, excl_by_doc, kept_by_doc, n_sel_removed, n_sel_added
+    )
+    with open(GP / "GRAPH_REPORT.md", "a", encoding="utf-8") as fh:
+        fh.write(assumptions_report)
     print(i18n_report.strip())
     Path(GP / ".graphify_labels.json").write_text(
         json.dumps({str(k): v for k, v in new_labels.items()}, ensure_ascii=False),
@@ -1014,7 +1353,15 @@ def main() -> int:
 
     # --- sanity-check hand-maintained data files (query.json, translations) ---
     ensure_manual_data_files()
-    validate_assumptions_file()
+    # --- assumption-state provenance + validation (exclusion/selection aware) ---
+    write_assumptions_build_artifact(
+        astate, excl_by_doc, kept_by_doc, n_sel_removed, n_sel_added
+    )
+    validate_assumptions_file(
+        ok_remove_keys=astate["removed_keys"] | excluded_edge_keys,
+        corpus_docs=corpus_docs,
+        ok_node_ids=excluded_node_ids,
+    )
 
     # --- write the i18n coverage report the web app can surface ---
     DATA_DIR.mkdir(parents=True, exist_ok=True)

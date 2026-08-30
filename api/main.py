@@ -37,6 +37,14 @@ from .notes import router as notes_router
 from .graphs import router as graphs_router
 from .research import router as research_router
 from .flags import router as flags_router
+# PARKED (assumptions DB persistence): api/assumptions.py + the
+# assumption_selections table are intentionally NOT wired up yet — the
+# Assumptions Lab runs session-only until the DB layer is set up. To enable:
+# uncomment this import, the include_router line below, and the
+# "/v1/assumptions" carve-out in auth_gate, then apply
+# deploy/supabase/assumption_selections.sql and set
+# ASSUMPTIONS_CANONICAL_OWNER in .env (see scripts/07_sync_assumptions.py).
+# from .assumptions import router as assumptions_router
 from .auth import authorize_request, close_client as close_auth_client
 from .db import close_client as close_db_client
 from .llm import (
@@ -161,6 +169,7 @@ async def auth_gate(request: Request, call_next):
     that verify ANY signed-in user per request and scope rows by auth.uid
     (see api/auth.py::get_user_id). The historical super-admin gate still
     protects every other mutating path (notes, metadata, ...).
+    (PARKED: /v1/assumptions joins this list when the DB layer is enabled.)
     """
     if request.url.path.startswith(("/v1/graphs", "/v1/research")):
         return await call_next(request)
@@ -723,3 +732,4 @@ app.include_router(notes_router)
 app.include_router(graphs_router)
 app.include_router(research_router)
 app.include_router(flags_router)
+# PARKED: app.include_router(assumptions_router)  # see import note above

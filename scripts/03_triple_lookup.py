@@ -12,6 +12,7 @@ current web data.
 Usage:
   uv run python3 scripts/03_triple_lookup.py 0ad00fdc47e2 c260ca387ad5
   uv run python3 scripts/03_triple_lookup.py --all     # dump id -> key table
+  uv run python3 scripts/03_triple_lookup.py --doc-stats  # per-document stats
 """
 
 import glob
@@ -44,9 +45,9 @@ def norm(label: str) -> str:
 
 
 def index_triples() -> dict[str, dict]:
-    """id -> triple record, across every topic _triples.json."""
+    """id -> triple record, across every topic _triples.json (incl. tasks)."""
     triples: dict[str, dict] = {}
-    for path in glob.glob(str(ROOT / "src" / "notes" / "*" / "_triples.json")):
+    for path in glob.glob(str(ROOT / "src" / "**" / "_triples.json"), recursive=True):
         for t in json.loads(Path(path).read_text(encoding="utf-8")):
             triples[t["id"]] = t
     return triples
@@ -57,9 +58,41 @@ def web_keys() -> set[tuple[str, str, str]]:
     return {(e["from"], e["label"], e["to"]) for e in edges}
 
 
+def doc_stats() -> int:
+    """Per-document triple statistics — curation aid for excludedSources.
+
+    Surfaces which documents contribute most triples and how speculative they
+    look (share of sub-0.6 confidence), so assumption-prone sources can be
+    shortlisted for web/public/data/assumptions.json excludedSources.
+    """
+    rows: dict[tuple, dict] = {}
+    for path in sorted(glob.glob(str(ROOT / "src" / "**" / "_triples.json"), recursive=True)):
+        container = str(Path(path).relative_to(ROOT))
+        parts = container.split("/")
+        topic = "tasks" if parts[1] == "tasks" else (parts[2] if len(parts) > 3 else parts[1])
+        for t in json.loads(Path(path).read_text(encoding="utf-8")):
+            doc = (t.get("source_document") or t.get("source") or "?").rsplit("/", 1)[-1]
+            r = rows.setdefault((doc, topic), {"n": 0, "low": 0, "conf": []})
+            r["n"] += 1
+            c = t.get("confidence")
+            if isinstance(c, (int, float)):
+                r["conf"].append(float(c))
+                if float(c) < 0.6:
+                    r["low"] += 1
+    out = sorted(rows.items(), key=lambda kv: (-kv[1]["n"], kv[0][0]))
+    print(f"{'triples':>7} {'low-conf':>8} {'mean':>5}  document  (topic)")
+    for (doc, topic), r in out:
+        mean = sum(r["conf"]) / len(r["conf"]) if r["conf"] else float("nan")
+        print(f"{r['n']:>7} {r['low']:>8} {mean:>5.2f}  {doc}  ({topic})")
+    print(f"\n{len(out)} document(s); 'low-conf' = triples with confidence < 0.6")
+    return 0
+
+
 def main() -> int:
     args = sys.argv[1:]
     dump_all = "--all" in args
+    if "--doc-stats" in args:
+        return doc_stats()
     ids = [a for a in args if not a.startswith("--")]
     triples = index_triples()
     keys = web_keys()
