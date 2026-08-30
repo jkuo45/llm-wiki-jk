@@ -1,6 +1,21 @@
 {
  "dataset": "triples",
- "generated": "29_Aug_2026 10:00 AM PDT",
+ "schemaVersion": 2,
+ "generated": "30_Aug_2026 08:45 PM PDT",
+ "excludedSources": [],
+ "parkedExclusions": [
+  {
+   "id": "exc-senotherapeutic-agent",
+   "document": "_document_ - as senotherapeutic agent.md",
+   "topic": "adrenochrome",
+   "reason": "SRAC protocol framing — assertions are protocol-specific (adrenochrome-based complexes proposed to suppress NF-kB-driven SASP), not established general biology; conflicts with the pro-inflammatory/redox-active characterization elsewhere in the corpus (see conflict T2-2).",
+   "reason_zh_TW": "SRAC 協定架構——主張屬協定專屬（提議以腎上腺素紅為基礎的複合物抑制 NF-kB 驅動的 SASP），並非普遍生物學；與語料庫其他處的促發炎／氧化還原活性描述相矛盾（見衝突 T2-2）。",
+   "keepTripleIds": [],
+   "added": "2026-08-30",
+   "note": "parked 2026-08-30 — move back into excludedSources to activate"
+  }
+ ],
+ "selections": {},
  "scenarios": [
   {
    "id": "triples-review-2026-08-21",

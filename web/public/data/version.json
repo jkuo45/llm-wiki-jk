@@ -1,8 +1,9 @@
 {
-  "generated": "2026-08-30 00:50:35",
-  "hash": "c32acf2780a15029",
+  "generated": "2026-08-30 13:59:26",
+  "hash": "af9fea352d5bcb33",
   "files": [
     "articles.json",
+    "assumptions-build.json",
     "assumptions.json",
     "edges.json",
     "graph-meta.json",

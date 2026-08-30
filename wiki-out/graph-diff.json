@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T01:19:58Z",
+  "generated_at": "2026-08-30T13:59:27Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/wiki-graph.json",
   "counts": {
@@ -45,13 +45,13 @@
       "degree": 73
     },
     {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
+      "id": "rheumatoid_arthritis",
+      "label": "Rheumatoid Arthritis",
       "degree": 71
     },
     {
-      "id": "rheumatoid_arthritis",
-      "label": "Rheumatoid Arthritis",
+      "id": "nmn",
+      "label": "NMN (Nicotinamide Mononucleotide)",
       "degree": 71
     },
     {
@@ -65,13 +65,13 @@
       "degree": 68
     },
     {
-      "id": "metabolism",
-      "label": "Metabolism",
+      "id": "type_i_interferon",
+      "label": "Type I Interferon",
       "degree": 66
     },
     {
-      "id": "type_i_interferon",
-      "label": "Type I Interferon",
+      "id": "metabolism",
+      "label": "Metabolism",
       "degree": 66
     },
     {
@@ -95,13 +95,13 @@
       "degree": 60
     },
     {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
       "degree": 57
     },
     {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
@@ -122,18 +122,8 @@
       "degree": 11
     },
     {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
-      "degree": 4
-    },
-    {
       "id": "jak_stat3",
       "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
@@ -142,18 +132,18 @@
       "degree": 4
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
-      "degree": 3
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
+      "degree": 4
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
     },
     {
       "id": "h3k9",
       "label": "H3K9",
-      "degree": 3
-    },
-    {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
       "degree": 3
     },
     {
@@ -162,23 +152,8 @@
       "degree": 3
     },
     {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
-      "degree": 3
-    },
-    {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
       "degree": 3
     },
     {
@@ -187,23 +162,43 @@
       "degree": 3
     },
     {
-      "id": "lipogenesis",
-      "label": "lipogenesis",
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
+      "degree": 3
+    },
+    {
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    },
+    {
+      "id": "methyl_donor_supplements",
+      "label": "Methyl donor supplements",
       "degree": 2
     },
     {
-      "id": "chemotherapy_resistance",
-      "label": "Chemotherapy Resistance",
+      "id": "ac2_26",
+      "label": "Ac2-26",
       "degree": 2
     },
     {
-      "id": "reactive_oxygen_species_generation",
-      "label": "Reactive Oxygen Species generation",
-      "degree": 2
-    },
-    {
-      "id": "stress_responses",
-      "label": "stress responses",
+      "id": "meteorin_like_protein",
+      "label": "Meteorin-like protein",
       "degree": 2
     },
     {
@@ -212,8 +207,13 @@
       "degree": 2
     },
     {
-      "id": "synthetic_stac",
-      "label": "Synthetic STAC",
+      "id": "dna_hypomethylation",
+      "label": "DNA Hypomethylation",
+      "degree": 2
+    },
+    {
+      "id": "ets_transcription_factor",
+      "label": "ETS transcription factor",
       "degree": 2
     }
   ],

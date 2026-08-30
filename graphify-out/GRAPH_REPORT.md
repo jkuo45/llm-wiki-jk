@@ -1,4 +1,4 @@
-# Graph Report - llm-wiki-jk  (2026-08-29)
+# Graph Report - llm-wiki-jk  (2026-08-30)
 
 ## Corpus Check
 - 11 files · ~479,280 words
@@ -404,16 +404,16 @@
 10. `NF-κB` - 55 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Catechin` --activates_via_k_type--> `SIRT1`  [AMBIGUOUS]
-  src/tasks/_triples.json → _document_ - Mitohormesis - 2014_FEB.md
-- `Proanthocyanidins` --modulates--> `SIRT1`  [AMBIGUOUS]
-  src/tasks/_triples.json → _document_ - Mitohormesis - 2014_FEB.md
-- `SIRT1` --is_protective_in--> `Kidney Fibrosis`  [EXTRACTED]
-  _document_ - Mitohormesis - 2014_FEB.md → src/tasks/_triples.json
-- `SIRT1` --is_protective_in--> `Osteoporosis`  [EXTRACTED]
-  _document_ - Mitohormesis - 2014_FEB.md → src/tasks/_triples.json
-- `SIRT1` --deacetylates--> `ChREBP`  [EXTRACTED]
-  _document_ - Mitohormesis - 2014_FEB.md → src/tasks/_triples.json
+- `Senomorphic` --targets--> `KDM4`  [AMBIGUOUS]
+  _document_ - repurposing_apigen_senomorphic.09.09.611999v1.full.md → H3K9me3.md
+- `Cancer` --can_be_induced_by--> `Paracrine Senescence`  [AMBIGUOUS]
+  _document_ - Rapamycin for longevity opinion article.md → SASP.md
+- `Creatine` --suppresses--> `Cancer`  [AMBIGUOUS]
+  _document_ - Creatine in Health and Disease.md → _document_ - Rapamycin for longevity opinion article.md
+- `DNA Methylation` --regulates_expression_of--> `PEX genes`  [AMBIGUOUS]
+  _document_ - creatine anti-cancer trace.md → _document_ - peroxisomes, autophagy.md
+- `Fisetin` --reduces--> `SASP`  [AMBIGUOUS]
+  _document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review.md → _document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP.md
 
 ## Import Cycles
 - None detected.
@@ -1062,21 +1062,21 @@ Nodes (3): SRT1460, SRT2183, Synthetic STAC
 - `DNA Methylation` → `PEX genes`  [AMBIGUOUS]
   _document_ - peroxisomes, autophagy.md · relation: regulates_expression_of
 - `Fisetin` → `SASP`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: reduces
+  task_output_comt_fisetin_senolytic_09_July_2026.md · relation: reduces
 - `Methylene blue` → `Tau`  [AMBIGUOUS]
   _document_ - Methylene Blue Dosage What Actually Works (And What's Too Much).md · relation: reduces
 - `Nicotinamide Mononucleotide` → `COVID-19`  [AMBIGUOUS]
   _document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md · relation: ameliorates
 - `PINK1` → `DRP1`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: promotes
+  task_output_mitochondria_fusion_fission_27_JUL_2026.md · relation: promotes
 - `SIRT1` → `Adrenochrome`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: has_single_bridge_to
+  task_output_node_sirtuins_adrenochrome_15_August_2026.md · relation: has_single_bridge_to
 - `SIRT1` → `Dopamine`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: is_route_rich_to
+  task_output_node_sirtuins_catecholamines_15_August_2026.md · relation: is_route_rich_to
 - `SIRT3` → `Adrenochrome`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: has_stronger_latent_link_to
+  task_output_node_sirtuins_adrenochrome_15_August_2026.md · relation: has_stronger_latent_link_to
 - `SIRT3` → `Dopamine`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: has_redox_link_to
+  task_output_node_sirtuins_catecholamines_15_August_2026.md · relation: has_redox_link_to
 - `Fenbendazole` → `Renal Cell Carcinoma`  [AMBIGUOUS]
   Renal Cell Carcinoma.md · relation: inhibits
 - `Fenbendazole` → `Glioblastoma`  [AMBIGUOUS]
@@ -1088,15 +1088,15 @@ Nodes (3): SRT1460, SRT2183, Synthetic STAC
 - `Mebendazole` → `Cholangiocarcinoma`  [AMBIGUOUS]
   Cholangiocarcinoma.md · relation: inhibits
 - `SIRT2` → `TFEB`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: stabilizes
+  task_output_sirtuins_recommendations_03_JULY_2026.md · relation: stabilizes
 - `Adrenochrome` → `NF-κB`  [AMBIGUOUS]
   _document_ - as senotherapeutic agent.md · relation: inhibits
 - `MAO` → `Dopamine`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: is_peripheral_relative_to
+  task_output_node_comt_mao_15_August_2026.md · relation: is_peripheral_relative_to
 - `COMT` → `Epinephrine`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: is_direct_metabolic_hub_for
+  task_output_node_comt_mao_15_August_2026.md · relation: is_direct_metabolic_hub_for
 - `COMT` → `Dopamine`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: is_direct_metabolic_gateway_to
+  task_output_node_sirtuins_catecholamines_15_August_2026.md · relation: is_direct_metabolic_gateway_to
 - `Adrenochrome monoaminoguanidine` → `Prodrug`  [AMBIGUOUS]
   _document_ - glyco-oxidative modulation.md · relation: may_act_as
 - `GlyNAC` → `Carbazochrome`  [AMBIGUOUS]
@@ -1122,15 +1122,15 @@ Nodes (3): SRT1460, SRT2183, Synthetic STAC
 - `Immunosenescence` → `Spermidine`  [AMBIGUOUS]
   Immunosenescence.md · relation: is_partially_reversed_by
 - `Daratumumab` → `CD38`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: targets
+  task_output_sirtuins_recommendations_03_JULY_2026.md · relation: targets
 - `Catechin` → `SIRT1`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: activates_via_k_type
+  task_output_sirt1_ktype_allosteric_activation_14_August_2026.md · relation: activates_via_k_type
 - `Proanthocyanidins` → `SIRT1`  [AMBIGUOUS]
-  src/tasks/_triples.json · relation: modulates
+  task_output_sirt1_ktype_allosteric_activation_14_August_2026.md · relation: modulates
 
 ## Knowledge Gaps
 - **1783 isolated node(s):** `2-Chlorophenothiazine`, `Acetate`, `Ceramide`, `PUFA`, `Senolytic Drug Target` (+1778 more)
-  These have ≤1 connection - possible missing edges or undocumented components.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 1783 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **222 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
@@ -1159,4 +1159,16 @@ Context fields are stored as a BCP-47 map (`en-US`, `zh-TW`); `en-US` is canonic
 | Triples processed | 4151 |
 | Missing zh-TW context (falls back to en-US) | 0 |
 | Missing created/updated timestamps | 0 |
-| Stale triples (`updated` < source note mtime) | 916 |
+| Stale triples (`updated` < source note mtime) | 860 |
+
+## Assumption State
+
+Curated exclusions (`excludedSources`) and canonical conflict selections
+(`selections`, synced from Supabase by scripts/07_sync_assumptions.py)
+applied to this build. See web/public/data/assumptions-build.json.
+
+- Excluded source documents: 0
+- Triples excluded by document: 0
+- Triples rescued via keepTripleIds: 0
+- Canonical edges removed (selections): 0
+- Canonical edges added (selections): 0
