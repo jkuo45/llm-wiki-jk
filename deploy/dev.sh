@@ -17,6 +17,8 @@ export OPENCODE_SERVER_PASSWORD="${OPENCODE_SERVER_PASSWORD:-devpassword}"
 export OPENCODE_SERVER_USERNAME="${OPENCODE_SERVER_USERNAME:-opencode}"
 export OPENCODE_PROMPT_AGENT="${OPENCODE_PROMPT_AGENT:-wiki-prompt}"
 export ALLOWED_ORIGINS="${ALLOWED_ORIGINS:-http://localhost:8080,http://127.0.0.1:8080}"
+# Auth kill-switch (see api/auth.py): set AUTH_DISABLED=1 to open the API.
+export AUTH_DISABLED="${AUTH_DISABLED:-1}"
 export LOG_LEVEL="${LOG_LEVEL:-INFO}"
 
 # Adapter port (bare port number, loopback host is fixed below).

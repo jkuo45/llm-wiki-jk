@@ -23,7 +23,12 @@ logger = logging.getLogger(__name__)
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_ANON_KEY = os.environ.get("SUPABASE_ANON_KEY", "")
 
-AUTH_ENABLED = bool(SUPABASE_URL)
+# Explicit kill-switch: SUPABASE_URL enables auth by default, but the auth gate
+# can be turned off without also losing the db.py features that share
+# SUPABASE_URL (user-built graphs, flags). Set AUTH_DISABLED=1 to open the API.
+AUTH_DISABLED = os.environ.get("AUTH_DISABLED", "").strip().lower() in ("1", "true", "yes")
+
+AUTH_ENABLED = bool(SUPABASE_URL) and not AUTH_DISABLED
 
 # Verified tokens are cached briefly so every keystroke of an SSE conversation
 # does not cost two round-trips to Supabase. Tokens themselves expire in ~1h.

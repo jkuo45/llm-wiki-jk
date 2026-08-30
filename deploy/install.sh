@@ -131,6 +131,7 @@ env_val() { # env_val KEY  — read a value from ${WIKI_ROOT}/.env, ignoring quo
 }
 SUPABASE_URL_VAL="$(env_val SUPABASE_URL)"
 SUPABASE_ANON_KEY_VAL="$(env_val SUPABASE_ANON_KEY)"
+AUTH_DISABLED_VAL="$(grep -E '^AUTH_DISABLED=' "${WIKI_ROOT}/.env" 2>/dev/null | tail -n1 | cut -d= -f2- | tr -d '"')"
 [[ -n "$SUPABASE_URL_VAL" ]] \
   || die "SUPABASE_URL not set — add it (or VITE_SUPABASE_URL) to ${WIKI_ROOT}/.env"
 [[ -n "$SUPABASE_ANON_KEY_VAL" ]] \
@@ -173,6 +174,9 @@ LOG_LEVEL=INFO
 # --- supabase auth (publishable values only — safe to expose) ----------------
 SUPABASE_URL=${SUPABASE_URL_VAL}
 SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY_VAL}
+
+# Auth kill-switch: 1 = open API, no sign-in required anywhere (auth.py).
+AUTH_DISABLED=${AUTH_DISABLED_VAL:-1}
 
 WIKI_ROOT=${WIKI_ROOT}
 EOF
