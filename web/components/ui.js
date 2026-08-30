@@ -55,8 +55,17 @@ export function setupDatasetToggle() {
     const i = ORDER.indexOf(DATASET_MODE);
     const next = ORDER[(i + 1) % ORDER.length]; // cycles triples→wiki→combined
     const params = new URLSearchParams(location.hash.replace(/^#\/?/, ''));
-    params.set('mode', next);
-    location.hash = '#' + params.toString();
+    if (next === 'combined') {
+      params.delete('mode'); // combined is the default — no mode in the hash
+    } else {
+      params.set('mode', next);
+    }
+    const qs = params.toString();
+    if (qs) {
+      location.hash = '#' + qs;
+    } else {
+      history.pushState(null, '', location.pathname + location.search);
+    }
     location.reload();
   });
 }
