@@ -61,7 +61,7 @@ A corollary of the classic [[Warburg Effect]], metabolic plasticity recognizes t
 ### Microenvironmental conditions
 
 - **Hypoxia:** low oxygen stabilizes HIF-1α (glycolysis); SIRT3's HIF-1α destabilization competes with hypoxia-driven stabilization — the outcome depends on oxygen tension and SIRT3 abundance.
-- **Nutrient/scavenging pressure:** acetate and serine scavenging ([[AceCS1]], [[SHMT2]]) and glutamine/glutamate utilization ([[GDH (Glutamate Dehydrogenase)|GDH]], SLC25A22) let SIRT3-reprogrammed cells adapt carbon sourcing to the niche.
+- **Nutrient/scavenging pressure:** acetate and serine scavenging ([[AceCS1]], [[SHMT2]]) and glutamine/glutamate utilization ([[Glutamate Dehydrogenase (GDH)|GDH]], SLC25A22) let SIRT3-reprogrammed cells adapt carbon sourcing to the niche.
 - **Tumor-associated macrophage (TAM) crosstalk:** SENP1–SIRT3–cholesterol axis polarizes TAMs toward M2, suppressing CD8⁺ T cells — immune-microenvironment plasticity mediated by mitochondrial metabolism.
 - **Lactate/acidosis:** high lactate feeds [[Lactylation]] of metabolic enzymes (e.g., ME2) that SIRT3 may reverse (delactylation), dynamically gating glycolysis–OXPHOS balance and redox.
 - **Iron/redox load:** under ferroptotic or oxidizing stress, SIRT3 stabilizes pro-survival redox programs ([[SLC25A22]]/glutathione; [[SOD2]]), favoring survival over death in metabolically constrained tumors (LUAD, GBM).

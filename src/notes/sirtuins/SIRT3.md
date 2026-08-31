@@ -181,7 +181,7 @@ SIRT3 sits at the intersection of **[[Metabolic Plasticity]]** (the tumor cell's
 
 2. **Developmental stage / stem-cell status.** Slow-cycling, therapy-resistant **cancer stem cells / leukemia stem cells (LSCs)** depend on FAO-supported OXPHOS for ATP; SIRT3 supports that oxidative engine and the anti-ferroptotic redox shield. In AML, SIRT3 is required for LSC survival via FAO→OXPHOS but is dispensable for normal hematopoietic stem/progenitor cells — a developmental-stage-specific therapeutic window. Metabolic plasticity is likewise stage-dependent: proliferating bulk cells favor glycolysis, while dormant/metastasis-seeding or stem-like cells favor OXPHOS and lipid metabolism.
 
-3. **Microenvironmental conditions.** Hypoxia stabilizes HIF-1α (glycolysis) in competition with SIRT3. Nutrient/scavenging pressure routes carbon through acetate ([[AceCS1]]), serine ([[SHMT2]]), and glutamine/glutamate ([[GDH (Glutamate Dehydrogenase)|GDH]], [[SLC25A22]]) scavenging. Lactate-rich niches fuel [[Lactylation]] of enzymes such as [[ME2]] (erased by SIRT3 as a delactylase). Immune cross-talk — SENP1–SIRT3–cholesterol in tumor-associated macrophages — reprograms host immunity. And high iron/oxidizing load (ferroptotic niche) makes the SIRT3 redox shield a survival necessity (LUAD, GBM).
+3. **Microenvironmental conditions.** Hypoxia stabilizes HIF-1α (glycolysis) in competition with SIRT3. Nutrient/scavenging pressure routes carbon through acetate ([[AceCS1]]), serine ([[SHMT2]]), and glutamine/glutamate ([[Glutamate Dehydrogenase (GDH)|GDH]], [[SLC25A22]]) scavenging. Lactate-rich niches fuel [[Lactylation]] of enzymes such as [[ME2]] (erased by SIRT3 as a delactylase). Immune cross-talk — SENP1–SIRT3–cholesterol in tumor-associated macrophages — reprograms host immunity. And high iron/oxidizing load (ferroptotic niche) makes the SIRT3 redox shield a survival necessity (LUAD, GBM).
 
 > [!info] SIRT3 as delactylase of ME2 (tumor suppressor in CRC)
 > Source: Chen et al., *Cancer Cell Int* 2025 (doi:10.1007/s13402-025-01058-5). SIRT3 removes **K352 lactylation** from mitochondrial [[ME2]] (malic enzyme 2), inhibiting ME2 and disrupting tumor redox balance (raised ROS, higher NADP⁺/NADPH) to suppress colorectal cancer growth. This is a newer, non-canonical deacetylase ("delactylase") action of SIRT3 that operates squarely on the metabolic-plasticity/redox interface.
@@ -407,7 +407,7 @@ SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosy
 ## Connections
 
 - [[Human aging]] — SIRT3 locus polymorphisms associate with elderly survival
-- [[GDH (Glutamate Dehydrogenase)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
+- [[Glutamate Dehydrogenase (GDH)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
 - [[HIF-1α]] — SIRT3 destabilizes HIF1α, inhibiting glycolysis
 - [[Cardiac Hypertrophy]] — SIRT3 prevents cardiac hypertrophy during ageing
 
