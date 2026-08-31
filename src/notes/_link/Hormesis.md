@@ -24,6 +24,9 @@ Hormesis is thought to be an evolutionary adaptation to environmental stress, wh
 ## Related Concepts
 - [[Mitohormesis]]
 - [[Xenohormesis]]
+- [[Hormesis in Non-Mitochondrial Systems]]
+- [[Antioxidant Supplementation Paradox]]
+- [[Hormetic Window]]
 - [[Oxidative Stress]]
 - [[Longevity]]
 ## Historical Development
@@ -52,6 +55,11 @@ Multiple conserved signaling cascades mediate hormetic effects:
 - **Caloric restriction**: Reduced energy intake imposes a mild metabolic stress that extends lifespan across taxa via [[AMPK]] and sirtuin activation.
 - **Phytochemicals**: [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], and [[Epicatechin]] act as hormetic stressors, activating [[NRF2]] and [[HSF1]] at low doses.
 - **Temperature**: Heat shock (sauna) and cold exposure (cryotherapy) trigger adaptive thermoregulatory and cytoprotective responses.
+- **Psychological stress**: Moderate, manageable adversity builds cognitive resilience via BDNF and dendritic remodeling — the [[Yerkes-Dodson Law]] is the psychological parallel of the hormetic inverted-U.
+- **Microbial exposure**: The "Old Friends" mechanism trains immune tolerance through commensal bacteria and helminths; helminth therapy achieves 79% remission in Crohn's disease.
+- **Mechanical loading**: Wolff's Law describes bone remodeling as a hormetic response — disuse causes fragility while progressive loading strengthens architecture.
+- **Intermittent hypoxia**: Controlled low-oxygen exposure activates HIF-1α → mitochondrial ROS → AMPK → PGC-1α, nearly identical to the mitohormetic cascade.
+- See [[Hormesis in Non-Mitochondrial Systems]] for a comprehensive synthesis of cross-domain evidence.
 ## Biphasic Dose-Response Modeling
 The hormetic dose-response curve is best modeled by non-linear functions:
 - **J-shaped curve**: For endpoints such as mortality or tumor incidence (low dose reduces risk below control, high dose increases risk).
@@ -61,6 +69,14 @@ Quantitative features:
 - The maximal stimulatory response typically does not exceed 30–60% above the control.
 - The hormetic zone spans approximately one order of magnitude on the dose axis.
 - The transition from stimulation to inhibition is often abrupt, reflecting threshold effects in stress response pathway activation.
+## Radiation Hormesis
+Low-dose ionizing radiation (<10 cGy) represents the most controversial application of hormetic thinking. The Linear No-Threshold (LNT) model dominates regulatory policy, yet inhabitants of Ramsar, Iran receive up to 260 mSv/year (100× global average) with no excess cancer or DNA damage — and show *enhanced* DNA repair capacity and immune priming (elevated CD69 on CD4+ T cells, increased serum IgE). LDR activates the same ATM → DNA damage response → FOXO → antioxidant defense cascade seen in [[Mitohormesis]], with ionizing radiation as the signal rather than mitochondrial ROS. NASA has investigated LDR-induced adaptive responses for enhancing astronaut resilience during long-term spaceflight. The field remains stalled by regulatory and cultural resistance to the idea that radiation can be beneficial.
+## Psychological Stress Inoculation
+The [[Yerkes-Dodson Law]] (1008) predicted that moderate arousal enhances performance — the inverted-U is the psychological equivalent of the hormetic dose-response curve. Stress inoculation training (SIT) applies this principle clinically: controlled, graduated exposure to manageable stressors builds resilience. In primate studies, inoculated animals developed higher cognitive control, greater curiosity, and measurably larger prefrontal cortex volume than controls — literal brain structure changes from moderate stress. Approximately 50% of trauma survivors report post-traumatic growth (PTG), and the 2026 "Breakpoint Neuroplasticity" hypothesis proposes that extreme adversity creates a hyper-plastic neural state comparable to post-stroke reorganization. The critical distinction: chronic, overwhelming stress causes hippocampal atrophy and HPA dysregulation (allostatic overload), while acute, recoverable stress builds cognitive reserve — identical to the dose-dependency of [[Mitohormesis]].
+## The Hygiene Hypothesis / Old Friends Mechanism
+The immune system co-evolved with commensal bacteria, saprophytic mycobacteria, and helminths that serve as training signals for regulatory T cell development. Without these "old friends," the immune system becomes hyperresponsive — driving the modern epidemic of autoimmune and allergic diseases. This is [[Xenohormesis]] at the immunological level: the mild "toxin" (helminth, commensal) provides a calibrating signal. Clinical trials using *Trichuris suis* (pig whipworm) showed 79% remission/response in Crohn's disease versus 17% with placebo. Children raised on farms with diverse microbial exposure have dramatically lower asthma rates. The modern hygiene paradigm treats all microbial exposure as a threat, missing the hormetic distinction between training signals and pathogens.
+## Thermal Hormesis
+Heat and cold exposure trigger complementary adaptive cascades. Finnish sauna use (4–7x/week) is associated with 50% reduction in fatal cardiovascular disease, 40% all-cause mortality reduction, and 65% lower dementia risk in a 20-year prospective cohort (Laukkanen et al.). Heat stress activates [[Heat Shock Proteins|HSP70/90]] — molecular chaperones that restore [[Proteostasis]], the same pathway engaged by [[Caloric Restriction]] and [[Mitohormesis]]. Cold exposure activates brown adipose tissue (BAT) via UCP1 mitochondrial uncoupling, increases sustained dopamine 250%, and induces Cold Shock Protein RBM3, which regenerates synaptic connections. Contrast therapy — alternating heat and cold — trains endothelial function through hemodynamic hormesis. See [[Hormesis in Non-Mitochondrial Systems]] for detailed evidence across thermal modalities.
 ## Implications for Drug Development and Toxicology
 - **Therapeutic index re-evaluation**: Compounds previously abandoned due to toxicity at high doses may show benefit at substantially lower doses through hormetic mechanisms.
 - **Preconditioning strategies**: Controlled exposure to low-dose stressors (ischemic preconditioning, [[Mithridatism]]) before a major insult (surgery, chemotherapy) can reduce tissue damage.
@@ -113,4 +129,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[Hsp90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]], [[Hormetic Window]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[IC50]], [[Kinase Inhibitor]]
 - Suggested new entity notes to create: [[Arndt-Schulz Law]], [[Biphasic dose response]], [[Overcompensation Hypothesis]]
-  - Strong connections to strengthen: [[Hormesis]] ↔ Evolutionary Biology, [[Hormesis]] ↔ Mithridatism, [[Hormesis]] ↔ Hormetic Window, [[Hormesis]] <-> [[Oxidative Stress]]
+  - Strong connections to strengthen: [[Hormesis]] ↔ Evolutionary Biology, [[Hormesis]] ↔ Mithridatism, [[Hormesis]] ↔ Hormetic Window, [[Hormesis]] ↔ [[Oxidative Stress]], [[Hormesis]] ↔ [[Hormesis in Non-Mitochondrial Systems]], [[Hormesis]] ↔ [[Antioxidant Supplementation Paradox]]
