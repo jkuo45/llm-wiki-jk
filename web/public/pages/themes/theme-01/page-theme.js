@@ -14,19 +14,28 @@
    the dark theme. */
 (function () {
   var KEY = 'llm-wiki-theme';
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  // Resolve relative to THIS script's URL (not the page) so nested pages
-  // (pages/en-US/, pages/zh-TW/…) resolve themes/theme-01/pages-light.css
-  // correctly instead of 404ing.
-  var base = document.currentScript && document.currentScript.src;
-  link.href = base ? new URL('pages-light.css', base).href
-                   : 'themes/theme-01/pages-light.css';
+  // Reuse a statically-included #theme-light link when the page ships one
+  // (a static <link> is render-blocking, so first paint already has the
+  // correct theme — no dark→light flash). Only inject dynamically when the
+  // page has no static light stylesheet (legacy pages).
+  var link = document.getElementById('theme-light');
+  var injected = false;
+  if (!link) {
+    link = document.createElement('link');
+    link.rel = 'stylesheet';
+    // Resolve relative to THIS script's URL (not the page) so nested pages
+    // (pages/en-US/, pages/zh-TW/…) resolve themes/theme-01/pages-light.css
+    // correctly instead of 404ing.
+    var base = document.currentScript && document.currentScript.src;
+    link.href = base ? new URL('pages-light.css', base).href
+                     : 'themes/theme-01/pages-light.css';
+    injected = true;
+  }
   link.id = 'theme-light';
   try {
     link.disabled = localStorage.getItem(KEY) === 'dark';
   } catch (err) {
     link.disabled = false; // storage unavailable -> stay light (default)
   }
-  document.head.appendChild(link);
+  if (injected) document.head.appendChild(link);
 })();
