@@ -33,7 +33,6 @@
       <a href="#external">案例研究</a>
       <a href="#calibration">校準</a>
       <a href="#scorecard">計分板</a>
-      <a href="#playbook">手冊</a>
       <a href="#references">文獻</a>
     </div>
   </div>
@@ -41,7 +40,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <p class="kicker">方法論隨筆 · 知識圖譜 · 發現生命週期</p>
+    <p class="kicker">知識圖譜 · 發現生命週期</p>
     <h1>解讀一次新發現的抵達：新實體進入圖譜時的圖譜指標與型別化邊</h1>
     <p class="lede">
       新發現不會一口氣進入知識圖譜。它以<strong>孤兒節點</strong>的姿態抵達，累積種子邊、被鄰近領域吸收、開始<strong>橋接</strong>領域，
@@ -54,7 +53,6 @@
       <p><strong>日期：</strong>2026年8月30日</p>
       <p><strong>資料來源：</strong><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a>（triples：型別化、有向、帶信心分數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a>（wiki：共同提及 <code>links_to</code>）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併：37,318 邊 = 3,895 條型別有向邊 + 33,423 條共同提及邊）</p>
       <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
-      <p><strong>讀者：</strong>生物學家與資料分析師。僅供資訊參考——非醫療建議。</p>
       <p><strong>其他語言：</strong><a href="../en-US/discovery-arrival-graph-metrics.html">English</a></p>
     </div>
   </div>
@@ -72,7 +70,6 @@
       <li><a href="#external">來自圖譜之外的案例研究</a></li>
       <li><a href="#calibration">校準：該信任圖譜預測到什麼程度</a></li>
       <li><a href="#scorecard">指標計分板</a></li>
-      <li><a href="#playbook">操作手冊</a></li>
       <li><a href="#references">參考文獻</a></li>
     </ol>
   </aside>
@@ -538,7 +535,7 @@
       <figure class="fig">
         <div class="fig-head"><span class="fig-num">圖 5 · COVID → SIRT3 → 鐵死亡的兩跳推論</span></div>
         <div class="fig-canvas">
-        <svg viewBox="0 0 960 230" role="img" aria-label="型別路徑合成示意圖：covid_19 與 sirt3 is_associated_with（信心 0.85），sirt3 suppresses ferroptosis（信心 0.87），合成出 covid_19 解除鐵死亡剎車的假說" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+        <svg viewBox="0 0 960 290" role="img" aria-label="型別路徑合成示意圖：covid_19 與 sirt3 is_associated_with（信心 0.85），sirt3 suppresses ferroptosis（信心 0.87），合成出 covid_19 解除鐵死亡剎車的假說" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
           <defs>
             <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
               <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
@@ -557,9 +554,9 @@
           <text x="662" y="72" text-anchor="middle" font-size="12.5" font-weight="600">--[suppresses]--></text>
           <text x="662" y="112" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">信心 0.87</text>
           <!-- composed hypothesis -->
-          <path d="M 130 148 C 380 210, 600 210, 830 138" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow5)"/>
-          <text x="480" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn,#b8860b)">⟹ 合成假說：covid_19 --[解除對鐵死亡的剎車]--> ferroptosis</text>
-          <text x="480" y="216" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">最低信心 0.85 · 任一層都不存在 covid_19 ↔ ferroptosis 邊 · 文獻確認：Qiu et al., Nat Commun 15:3816 (2024)</text>
+          <path d="M 130 148 C 380 230, 600 230, 830 138" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow5)"/>
+          <text x="480" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn,#b8860b)">⟹ 合成假說：covid_19 --[解除對鐵死亡的剎車]--> ferroptosis</text>
+          <text x="480" y="272" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">最低信心 0.85 · 任一層都不存在 covid_19 ↔ ferroptosis 邊 · 文獻確認：Qiu et al., Nat Commun 15:3816 (2024)</text>
         </svg>
         </div>
         <figcaption>
@@ -740,45 +737,14 @@
       </p>
     </section>
 
-    <!-- ============ 9. PLAYBOOK ============ -->
-    <section id="playbook">
-      <p class="sec-label">手冊</p>
-      <h2>本知識庫的操作清單</h2>
-      <ol>
-        <li><strong>每當新增筆記／實體：</strong><em>立即</em>跑單薄節點的 AA 附著 + PPR 場域指派（可預見性會衰減）；
-        把 top-25 記錄為審查佇列；記錄當時授予了哪些<em>種子關係類型</em>——它們是機制走廊的閘門（Lymphopenia 效應）。</li>
-        <li><strong>加一道型別路徑 pass</strong>（<code>04_</code> 候選）：在合併圖譜的 3,895 條型別化邊上列舉兩跳合成
-        （最低信心加權、標記類比路徑），以合成信心 × AA 支持度排名——這就是「未知連結」引擎（X→cancer 類），
-        它本可提早兩年把 COVID→ferroptosis 排上來。</li>
-        <li><strong>探勘符號三元組</strong>以尋找 Assumptions-Lab 衝突（敵人的敵人與雙正三角形）；
-        登錄到 <code>assumptions.json</code> 並解決立場——已解決的衝突會實體化進圖譜
-        （選擇 → 有向邊的增刪；<code>excludedSources</code> 用於雜訊文件）。
-        任何 triples／假設變更的運行順序：<code>scripts/triples/normalize.py</code> →
-        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code> →
-        <code>scripts/combined/build.py</code> / <code>scripts/wiki/rebuild.py</code> → <code>scripts/sync/graph_to_db.py</code> +
-        <code>scripts/sync/content_to_db.py</code>。</li>
-        <li><strong>跨重建追蹤每個實體的介數/k-core 軌跡</strong>（擴充 <code>graph-diff.json</code>）——
-        正是它標出了鐵死亡-2020 的成熟訊號。</li>
-        <li><strong>補上這些運行暴露的文獻—圖譜缺口：</strong>直接的 SARS-CoV-2↔CD38/NAD+/PARP 邊
-        （k-core 11→15、介數 ×2）、SARS-CoV-2↔ferroptosis（Nat Commun 2024——目前只是兩跳的型別化推論）、
-        Metformin↔長新冠預防（COVID-OUT）、COVID-19↔NMN 的負面 RCT 標註。</li>
-        <li><strong>在新增疫苗／分層節點之前先攜帶屬性</strong>（劑次×年齡×性別、證據層級）——
-        平均化會抹掉發現本身。</li>
-        <li><strong>用校準先驗為每個預測的推論加權：</strong>top-K 圖譜輸出是一條約 10–30% 精確度的假說流，
-        對比無引導的 0.8%——有價值，但永遠不是神諭。</li>
-      </ol>
-    </section>
-
     <!-- ============ 10. REFERENCES ============ -->
     <section id="references">
       <p class="sec-label">參考文獻</p>
       <div class="refs">
-        <p><strong>本 repo 產物與工具</strong>：<code>graphify-out/graph.json</code> · <code>wiki-out/graph.json</code> ·
-        <code>web/public/data/edges.json</code>（合併；3,895 條型別化邊）· <code>web/public/data/link-prediction.json</code> ·
-        <code>web/public/data/assumptions.json</code>（+ 已套用狀態：<code>assumptions-build.json</code>）·
+        <p><strong>本 repo 產物與工具</strong>：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併；3,895 條型別化邊）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json"><code>web/public/data/link-prediction.json</code></a> ·
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
-        <code>03_triple_lookup.py</code> (since removed) ·
         重播／反事實 harness（若採用可晉級至 <code>scripts/</code>）。來源任務輸出：
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
         <p><strong>型別化邊與藥物重定位方法</strong>：

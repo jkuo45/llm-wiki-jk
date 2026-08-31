@@ -32,8 +32,7 @@
       <a href="#typed">Typed edges</a>
       <a href="#external">Case studies</a>
       <a href="#calibration">Calibration</a>
-      <a href="#scorecard">Scorecard</a>
-      <a href="#playbook">Playbook</a>
+      <a href="#metrics">Metrics</a>
       <a href="#references">Refs</a>
     </div>
   </div>
@@ -41,7 +40,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <p class="kicker">Methods Essay · Knowledge Graphs · Discovery Lifecycle</p>
+    <p class="kicker">Knowledge Graphs · Discovery Lifecycle</p>
     <h1>Reading a Discovery Arrival: Graph Metrics and Typed Edges When New Entities Enter the Graph</h1>
     <p class="lede">
       A new discovery does not enter a knowledge graph all at once. It arrives as an <strong>orphan</strong>,
@@ -55,7 +54,6 @@
       <p><strong>Date:</strong> 30 August 2026</p>
       <p><strong>Data sources:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> (triples: typed, directed, confidence-scored) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> (wiki: co-mention <code>links_to</code>) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined: 37,318 edges = 3,895 typed-directed + 33,423 co-mention)</p>
       <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
-      <p><strong>Audience:</strong> biologists and data analysts. Informational — not medical advice.</p>
     </div>
   </div>
 </header>
@@ -71,8 +69,7 @@
       <li><a href="#typed">Edges have semantics: four inference mechanisms</a></li>
       <li><a href="#external">Case studies from outside the graph</a></li>
       <li><a href="#calibration">Calibration: how much to trust a graph prediction</a></li>
-      <li><a href="#scorecard">Metric scorecard</a></li>
-      <li><a href="#playbook">Playbook</a></li>
+      <li><a href="#metrics">Metrics</a></li>
       <li><a href="#references">References</a></li>
     </ol>
   </aside>
@@ -557,7 +554,7 @@
       <figure class="fig">
         <div class="fig-head"><span class="fig-num">Figure 5 · The COVID → SIRT3 → ferroptosis two-hop inference</span></div>
         <div class="fig-canvas">
-        <svg viewBox="0 0 960 230" role="img" aria-label="Typed path composition diagram: covid_19 is_associated_with sirt3 with confidence 0.85, sirt3 suppresses ferroptosis with confidence 0.87, composing to the hypothesis that covid_19 relieves the brake on ferroptosis" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+        <svg viewBox="0 0 960 290" role="img" aria-label="Typed path composition diagram: covid_19 is_associated_with sirt3 with confidence 0.85, sirt3 suppresses ferroptosis with confidence 0.87, composing to the hypothesis that covid_19 relieves the brake on ferroptosis" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
           <defs>
             <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
               <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
@@ -576,9 +573,9 @@
           <text x="662" y="72" text-anchor="middle" font-size="12.5" font-weight="600">--[suppresses]--></text>
           <text x="662" y="112" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">conf 0.87</text>
           <!-- composed hypothesis -->
-          <path d="M 130 148 C 380 210, 600 210, 830 138" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow5)"/>
-          <text x="480" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn,#b8860b)">⟹ composed hypothesis: covid_19 --[relieves the brake on]--> ferroptosis</text>
-          <text x="480" y="216" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">min-confidence 0.85 · no covid_19 ↔ ferroptosis edge exists in either layer · literature confirmation: Qiu et al., Nat Commun 15:3816 (2024)</text>
+          <path d="M 130 148 C 380 230, 600 230, 830 138" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow5)"/>
+          <text x="480" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn,#b8860b)">⟹ composed hypothesis: covid_19 --[relieves the brake on]--> ferroptosis</text>
+          <text x="480" y="272" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">min-confidence 0.85 · no covid_19 ↔ ferroptosis edge exists in either layer · literature confirmation: Qiu et al., Nat Commun 15:3816 (2024)</text>
         </svg>
         </div>
         <figcaption>
@@ -733,8 +730,8 @@
     </section>
 
     <!-- ============ 8. SCORECARD ============ -->
-    <section id="scorecard">
-      <p class="sec-label">Scorecard</p>
+    <section id="metrics">
+      <p class="sec-label">Metrics</p>
       <h2>So — do the metrics (plus typed edges) aid understanding of implications?</h2>
       <p><strong>Yes, as triage instruments, gap detectors, and typed-inference engines — no, as oracles.</strong></p>
       <div class="table-wrap">
@@ -765,47 +762,14 @@
       </p>
     </section>
 
-    <!-- ============ 9. PLAYBOOK ============ -->
-    <section id="playbook">
-      <p class="sec-label">Playbook</p>
-      <h2>Operational checklist for this vault</h2>
-      <ol>
-        <li><strong>On every new note/entity:</strong> run thin-node AA attachment + PPR field assignment
-        <em>immediately</em> (foreseeability decays); log the top-25 as the review queue; record which <em>seed relation
-        types</em> were granted — they gate the mechanistic corridor (the Lymphopenia effect).</li>
-        <li><strong>Add a typed-path pass</strong> (<code>04_</code> candidate): enumerate 2-hop compositions over the
-        combined graph's 3,895 typed edges (min-confidence-weighted, analogical flagged), rank by composed confidence ×
-        AA support — the "unknown connection" engine (X→cancer class) that would have ranked COVID→ferroptosis two
-        years early.</li>
-        <li><strong>Mine signed triads</strong> for Assumptions-Lab conflicts (enemy-of-enemy and double-positive
-        triangles); register in <code>assumptions.json</code> and resolve stances — resolved conflicts are materialized
-        into the graph (selections → directional edge adds/removals; <code>excludedSources</code> for noisy documents).
-        Run order for any triples/assumption change: <code>scripts/triples/normalize.py</code> →
-        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code> →
-        <code>scripts/combined/build.py</code> / <code>scripts/wiki/rebuild.py</code> → <code>scripts/sync/graph_to_db.py</code> +
-        <code>scripts/sync/content_to_db.py</code>.</li>
-        <li><strong>Track betweenness/k-core trajectory per entity across rebuilds</strong> (extend
-        <code>graph-diff.json</code>) — the maturation signal that flagged ferroptosis-2020.</li>
-        <li><strong>Close the literature-vs-graph gaps the runs exposed:</strong> direct SARS-CoV-2↔CD38/NAD+/PARP
-        edges (k-core 11→15, betweenness ×2), SARS-CoV-2↔ferroptosis (Nat Commun 2024 — currently only a 2-hop typed
-        implication), Metformin↔Long-COVID-prevention (COVID-OUT), negative-RCT annotation on COVID-19↔NMN.</li>
-        <li><strong>Carry attributes before adding vaccine/stratified nodes</strong> (dose×age×sex, evidence tier) —
-        averaging erases the finding.</li>
-        <li><strong>Weight every predicted implication by the calibration priors:</strong> top-K graph output is a
-        ~10–30%-precision hypothesis stream vs 0.8% unguided — valuable, never oracular.</li>
-      </ol>
-    </section>
-
     <!-- ============ 10. REFERENCES ============ -->
     <section id="references">
       <p class="sec-label">References</p>
       <div class="refs">
-        <p><strong>Repo artifacts &amp; tools</strong>: <code>graphify-out/graph.json</code> · <code>wiki-out/graph.json</code> ·
-        <code>web/public/data/edges.json</code> (combined; 3,895 typed edges) · <code>web/public/data/link-prediction.json</code> ·
-        <code>web/public/data/assumptions.json</code> (+ applied state: <code>assumptions-build.json</code>) ·
+        <p><strong>Repo artifacts &amp; tools</strong>: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined; 3,895 typed edges) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json"><code>web/public/data/link-prediction.json</code></a> ·
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
-        <code>03_triple_lookup.py</code> (since removed) ·
         replay/counterfactual harnesses (promote to <code>scripts/</code> if adopted). Source task output:
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
         <p><strong>Typed-edge &amp; repurposing methods</strong>:
