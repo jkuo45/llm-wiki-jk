@@ -32,7 +32,7 @@ The vault now exposes three graph datasets in the web viewer (**combined** is th
 | Dataset | Nodes | Edges | Source |
 | --- | ---: | ---: | --- |
 | Triples | 2,629 | 3,832 | `_triples.json` extractions → `graphify-out/graph.json` |
-| Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]` (entity notes) → `wiki-out/wiki-graph.json` |
+| Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]` (entity notes) → `wiki-out/graph.json` |
 | **Combined** | **4,084** | **36,982** | union of the two (`05_build_combined.py`) |
 
 Composition of the combined node set (by node id — `norm()`-canonical, so `NF-κB` = `nf_kappab` in all three):

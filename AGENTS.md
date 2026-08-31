@@ -16,7 +16,7 @@ viewer, a prompt backend, and graph-build tooling.
 | `raw/`             | Unprocessed documents awaiting the Document Ingestion Workflow (§5).                                                                  |
 | `scripts/`         | Domain-packaged pipeline: `lib/` shared helpers, `triples/` + `wiki/` + `combined/` graph builds, `analysis/`, `sync/` (Supabase), `vault/`, `tools/`. Run via `python -m scripts <command>` (see §8 and `scripts/README.md`). |
 | `graphify-out/`    | Triples-graph artifacts (`graph.json`, `GRAPH_REPORT.md`, `graph.html`).                                                              |
-| `wiki-out/`        | Wiki-graph artifacts (`wiki-graph.json`, diff/orphan/link-prediction reports).                                                        |
+| `wiki-out/`        | Wiki-graph artifacts (`graph.json`, diff/orphan/link-prediction reports).                                                              |
 | `web/`             | Vite + Three.js graph site. Static data in `web/public/data/`; built with `npm run build`, deployed with `npm run deploy` (wrangler). |
 | `api/`             | FastAPI adapter (SSE prompt bridge to headless `opencode serve`, networkx graph ops, user-built graphs `/v1/graphs`, pluggable research adapters + triple review queue `/v1/research`; mirrors the base graph layer from Supabase via `api/db.py`).                 |
 | `deploy/`          | `dev.sh` (local: opencode serve + API) and `install.sh` (server bootstrap, systemd units).                                            |
@@ -26,7 +26,7 @@ viewer, a prompt backend, and graph-build tooling.
 Node IDs are canonicalised by `norm(label)` (Unicode-normalised, Greek letters
 transliterated), so the same entity joins cleanly across all three graph
 datasets: **Triples** (`_triples.json` → `graphify-out/graph.json`), **Wiki**
-(`[[wikilinks]]` → `wiki-out/wiki-graph.json`), and **Combined**
+(`[[wikilinks]]` → `wiki-out/graph.json`), and **Combined**
 (`web/public/data/nodes.json` — the default UI dataset, wiki community ids
 offset by +1000).
 
@@ -221,7 +221,7 @@ uv run --with graphifyy --with networkx --with scipy python3 -m scripts rebuild-
 uv run --with networkx python3 -m scripts build-combined
 
 # Analyses (work on any graph schema-compatible file via --graph)
-uv run --with networkx python3 -m scripts analyze-nodes --graph wiki-out/wiki-graph.json --sources sirt1 --targets mtorc1
+uv run --with networkx python3 -m scripts analyze-nodes --graph wiki-out/graph.json --sources sirt1 --targets mtorc1
 uv run --with networkx python3 -m scripts predict-links --graph graphify-out/graph.json
 uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.json --role Spreader --top 10
 

@@ -3,7 +3,7 @@ title: "解讀一個發現的降臨 — 當新實體進入知識圖譜時，圖�
 description: "當一個發現被引入並逐步成熟時，知識圖譜的計算會發生什麼——以逐年重播的方式對鐵死亡 2012→2026（介數中心性 ×1000、k-core 8→19、AA 可預見性 0.8→0.6）與 COVID/疫苗 2020→2026（社群跨越、以 Lymphopenia 種子作為通往 CD38/NAD+ 的唯一橋樑）逐項追蹤五階段生命週期。邊帶有語意與方向——合併圖譜的 3,895 條型別化邊（inhibits/activates/promotes/protects_against + confidence + provenance）將共同提及轉化為蘊含——屬性轉移（statins 繼承鐵死亡的鐵/CoQ10 屬性雲）、型別化路徑組合預測未知連結（COVID-19→SIRT3→（煞車釋放）→鐵死亡，早於 2024 年 COVID-肺-鐵死亡論文即可推得）、上游/下游杠杆分析，以及帶符號三元組推論。外部實例（baricitinib 的 KG 成功、GLP-1 度數爆炸 + EVOKE 失敗、SGLT2i、PROTAC）、校準數字（Gysi 62% 對 0.8%），以及各項指標能與不能揭示的內容。"
 created: 2026-08-30
 updated: 2026-08-30
-source: 反事實 + 分階段重播模擬（graphify-out/graph.json、wiki-out/wiki-graph.json 與 web/public/data/edges.json 合併層）；scripts/analysis/node_analysis.py、scripts/analysis/role_query.py、graphify CLI；網路文獻（Cell、Nature、NEJM、Lancet、eLife、PNAS、FDA 2012-2026）
+source: 反事實 + 分階段重播模擬（graphify-out/graph.json、wiki-out/graph.json 與 web/public/data/edges.json 合併層）；scripts/analysis/node_analysis.py、scripts/analysis/role_query.py、graphify CLI；網路文獻（Cell、Nature、NEJM、Lancet、eLife、PNAS、FDA 2012-2026）
 tags:
   - task-output
   - knowledge-graph
@@ -23,7 +23,7 @@ author: []
 > [!note]
 > **任務**：假設有新實體到來——一個新機制（鐵死亡 ferroptosis，2012 年命名）、一個新疾病 + 介入群集（COVID/疫苗，2019-2021）。當這個發現被引入、逐步成熟、且蘊含不斷累積時，各項*計算*會發生什麼？指標——以及**邊帶有語意與方向**這一事實——能否幫助我們理解蘊含，包括那些尚未有人明確指出的連結（例如：某實體 X 與癌症之間先前未知的關聯）？
 > **日期**：30_Aug_2026 12:40 PM PDT
-> **使用的圖譜層**：Triples `graphify-out/graph.json`（型別化、有向、帶置信度評分的抽取結果）· Wiki `wiki-out/wiki-graph.json`（共同提及召回層，`links_to`）· **合併層** `web/public/data/edges.json`（37,318 條邊 = 3,895 條型別化有向邊 + 33,423 條共同提及邊；預設 UI 資料集，亦是 Assumptions Lab 驗證所依據的基底）。
+> **使用的圖譜層**：Triples `graphify-out/graph.json`（型別化、有向、帶置信度評分的抽取結果）· Wiki `wiki-out/graph.json`（共同提及召回層，`links_to`）· **合併層** `web/public/data/edges.json`（37,318 條邊 = 3,895 條型別化有向邊 + 33,423 條共同提及邊；預設 UI 資料集，亦是 Assumptions Lab 驗證所依據的基底）。
 > **方法**：分階段的逐年重播模擬（發現節點初始為空，依文獻時間軸分批加入邊，每批重新計算指標）、本 repo 自有工具（`scripts/analysis/node_analysis.py`、`scripts/analysis/role_query.py`、`graphify path/explain`）、從合併層抽取型別化邊，以及針對真實發現軌跡的網路文獻研究。
 
 ---
@@ -211,7 +211,7 @@ sirt3    --[suppresses]----------> ferroptosis    (conf 0.87)
 
 ## 8 · 來源
 
-**Repo 產物與工具**：`graphify-out/graph.json` · `wiki-out/wiki-graph.json` · `web/public/data/edges.json`（合併層；3,895 條型別化邊已驗證）· `web/public/data/link-prediction.json` · `web/public/data/assumptions.json`（含套用狀態：`assumptions-build.json`、GRAPH_REPORT「Assumption State」；canonical selections 由 `07_sync_assumptions.py` 同步）· `scripts/analysis/node_analysis.py` · `scripts/analysis/role_query.py` · `03_triple_lookup.py` · 重播/反事實工具（暫存 `replay_growth.py`、`sim_new_discovery.py`——若採用應晉級至 `scripts/`）。
+**Repo 產物與工具**：`graphify-out/graph.json` · `wiki-out/graph.json` · `web/public/data/edges.json`（合併層；3,895 條型別化邊已驗證）· `web/public/data/link-prediction.json` · `web/public/data/assumptions.json`（含套用狀態：`assumptions-build.json`、GRAPH_REPORT「Assumption State」；canonical selections 由 `07_sync_assumptions.py` 同步）· `scripts/analysis/node_analysis.py` · `scripts/analysis/role_query.py` · `03_triple_lookup.py` · 重播/反事實工具（暫存 `replay_growth.py`、`sim_new_discovery.py`——若採用應晉級至 `scripts/`）。
 
 **型別化邊與老藥新用方法**：[Rephetio/Hetionet（DWPC metapaths），eLife 2017](https://elifesciences.org/articles/26726) · [Guney 等人，Nat Commun 2016](https://www.nature.com/articles/ncomms10331) · [Cheng 等人，Nat Commun 2018](https://www.nature.com/articles/s41467-018-05116-5) · [Gysi 等人，PNAS 2021](https://www.pnas.org/doi/10.1073/pnas.2025581118) · [ROBOKOP（範本查詢、抗性排序）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/) · [DRKG](https://github.com/gnn4dr/DRKG) · [SPOKE](https://spoke.ucsf.edu/) · [帶符號連結預測，Leskovec 等人 2010](https://cs.stanford.edu/people/jure/pubs/signpsw.pdf) · [Insilico 第 3 期 IPF，2026](https://insilico.com/news/xmjsn4l091-insilico-initiates-phase-iii-clinical-tr)
 

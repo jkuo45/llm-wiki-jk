@@ -23,7 +23,7 @@ Merge rules:
 
 This script ALSO folds in the former scripts/05_compare_graphs.py logic: it
 compares the canonical triples graph (graphify-out/graph.json) and wiki graph
-(wiki-out/wiki-graph.json) by node id and emits the curation-gap report
+(wiki-out/graph.json) by node id and emits the curation-gap report
 `wiki-out/graph-diff.json` + `wiki-out/GRAPH_DIFF.md` (shared / wiki-only /
 triples-only nodes + edge deltas).
 
@@ -70,7 +70,7 @@ def write(name: str, data, compact: bool = True) -> None:
 # Triples-vs-wiki comparison (folded in from the removed scripts/05_compare_graphs.py)
 # ---------------------------------------------------------------------------
 TRIPLES_GRAPH = ROOT / "graphify-out" / "graph.json"   # canonical triples graph
-WIKI_GRAPH = ROOT / "wiki-out" / "wiki-graph.json"     # canonical wiki graph
+WIKI_GRAPH = ROOT / "wiki-out" / "graph.json"          # canonical wiki graph
 OUT_JSON = ROOT / "wiki-out" / "graph-diff.json"
 OUT_MD = ROOT / "wiki-out" / "GRAPH_DIFF.md"
 COMPARE_TOP = 20
@@ -99,7 +99,7 @@ def write_compare_report(top: int = COMPARE_TOP) -> None:
     """Compare the canonical triples graph vs the wiki graph (by node id) and
     emit the curation-gap report (wiki-out/graph-diff.json + GRAPH_DIFF.md)."""
     if not TRIPLES_GRAPH.exists() or not WIKI_GRAPH.exists():
-        print("compare report skipped (graphify-out/graph.json or wiki-out/wiki-graph.json missing)")
+        print("compare report skipped (graphify-out/graph.json or wiki-out/graph.json missing)")
         return
     tg = load_graph(TRIPLES_GRAPH)
     wg = load_graph(WIKI_GRAPH)

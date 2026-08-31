@@ -20,7 +20,7 @@ src/**/_triples.json          src/notes/**/*.md ([[wikilinks]])
         │                              │
         ▼                              ▼
   triples/rebuild.py ──────►  wiki/rebuild.py
-  (graphify-out/graph.json,   (wiki-out/wiki-graph.json,
+  (graphify-out/graph.json,   (wiki-out/graph.json,
    triples-* web files,        wiki-* web files,
    auto-runs predict-links)    auto-runs build-combined)
         │                              │

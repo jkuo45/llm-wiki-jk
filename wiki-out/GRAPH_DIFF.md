@@ -1,7 +1,7 @@
 # Triples vs Wiki Graph Diff
 
 - Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (2654 nodes, 3896 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/wiki-graph.json` (3007 nodes, 35150 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3007 nodes, 35150 edges)
 
 ## Node overlap
 

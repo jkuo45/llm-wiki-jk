@@ -32,7 +32,7 @@ vault 現在在網頁檢視器中提供三個圖譜資料集（**combined** 為�
 | 資料集 | 節點 | 邊 | 來源 |
 | --- | ---: | ---: | --- |
 | Triples | 2,629 | 3,832 | `_triples.json` 萃取 → `graphify-out/graph.json` |
-| Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]`（實體筆記）→ `wiki-out/wiki-graph.json` |
+| Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]`（實體筆記）→ `wiki-out/graph.json` |
 | **Combined** | **4,084** | **36,982** | 兩者的聯集（`scripts/combined/build.py`） |
 
 合併節點集的組成（以 node id 計——皆經 `norm()` 正規化，因此 `NF-κB` 在三個圖中都是 `nf_kappab`）：

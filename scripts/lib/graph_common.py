@@ -210,7 +210,7 @@ def enrich_graph_metrics(
 def inject_graph_metadata(path: Path, metadata: dict) -> None:
     """Post-process a graph.json-style file to add graph-level metadata.
 
-    `path` is the actual JSON file (e.g. wiki-out/wiki-graph.json), unlike the
+    `path` is the actual JSON file (e.g. wiki-out/graph.json), unlike the
     original which hardcoded graph.json under a directory."""
     data = json.loads(path.read_text(encoding="utf-8"))
     data["metadata"] = metadata

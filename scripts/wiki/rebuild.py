@@ -13,14 +13,14 @@ Both graphs key nodes by norm(label), so the *same entity* gets the identical
 id in the triples graph and the wiki graph, and the two can be joined directly
 (see scripts/combined/build.py for the diff).
 
-The schema of the emitted wiki-out/wiki-graph.json is byte-identical to
+The schema of the emitted wiki-out/graph.json is byte-identical to
 graphify-out/graph.json (same node/edge attributes + metadata), so the
 scripts/analysis tools work unchanged via --graph:
 
   uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
-      --graph wiki-out/wiki-graph.json --sources sirt1 nad --targets mtorc1
+      --graph wiki-out/graph.json --sources sirt1 nad --targets mtorc1
   uv run --with networkx python3 -m scripts.analysis.link_prediction \
-      --graph wiki-out/wiki-graph.json --out wiki-out/wiki-link-prediction.json
+      --graph wiki-out/graph.json --out wiki-out/wiki-link-prediction.json
   uv run python3 -m scripts.analysis.role_query \
       --roles-file wiki-out/node_roles.json --role Spreader --top 10
 
@@ -63,7 +63,7 @@ from scripts.lib.graph_common import (  # noqa: E402
 ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 NOTES_DIR = ROOT / "src" / "notes"  # topic-scoped entity notes
 WIKI_OUT = ROOT / "wiki-out"  # wiki-graph analysis artifacts
-WIKI_GRAPH = WIKI_OUT / "wiki-graph.json"
+WIKI_GRAPH = WIKI_OUT / "graph.json"
 WIKI_LABELS = WIKI_OUT / ".wiki_labels.json"  # community-label continuity
 WIKI_ROLES = WIKI_OUT / "node_roles.json"
 DATA_DIR = ROOT / "web" / "public" / "data"  # deployed three-graph viewer data

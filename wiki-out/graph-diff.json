@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-30T15:12:44Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
-  "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/wiki-graph.json",
+  "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
     "triples_nodes": 2654,
     "wiki_nodes": 3007,

@@ -30,7 +30,7 @@ The deployed viewer (`web/`) exposes **three graph datasets**, switchable via th
 | :--- | :--- | :--- | ---: | ---: |
 | **Combined** *(default)* | union of triples + wiki | `nodes.json`, `edges.json`, `legend.json`, `graph-meta.json`, `node_roles.json`, `roles-meta.json` | 4,085 | 36,998 |
 | **Triples** | `src/**/_triples.json` extractions → `graphify-out/graph.json` | `triples-*.json` | 2,629 | 3,832 |
-| **Wiki** | Obsidian `[[wikilinks]]` in `src/notes/` → `wiki-out/wiki-graph.json` | `wiki-*.json` | 2,995 | 34,851 |
+| **Wiki** | Obsidian `[[wikilinks]]` in `src/notes/` → `wiki-out/graph.json` | `wiki-*.json` | 2,995 | 34,851 |
 
 Node ids are canonicalised by `norm(label)` (Unicode-normalised; Greek letters transliterated to their name, so `NF-κB` maps to the same id `nf_kappab` in **all three** graphs). Because every dataset uses the same id scheme, entities join cleanly across graphs.
 
