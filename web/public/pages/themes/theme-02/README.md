@@ -5,7 +5,11 @@ Used by the standalone article pages:
 - `web/pages/index.html`
 - `node-analysis-examples-biology.html` (+ `_zh-TW`)
 - `adrenochrome-protocol-node-network-analysis.html` (+ `_zh-TW`)
-- `beyond-mitohormesis-overlooked-paradigms.html` (EN only)
+- `beyond-mitohormesis-overlooked-paradigms.html` (+ `_zh-TW`)
+- `discovery-arrival-graph-metrics.html` (+ `_zh-TW`)
+- `wiki-and-triples-graph-biological-processes.html` (+ `_zh-TW`)
+- `neurodegeneration-ad-pd-hd-als-review.html` (+ `_zh-TW`)
+- `caspase-graph-analysis-28-AUG-2026.html` (+ `_zh-TW`)
 
 Structure mirrors `themes/theme-01/`: shared base assets live here;
 page-specific styles/scripts stay inline in each page.
@@ -14,9 +18,10 @@ page-specific styles/scripts stay inline in each page.
 
 | File | Purpose |
 |---|---|
-| `theme.css` | Shared base: font imports, `:root` light palette, reset, nav/hero primitives **and** shared article chrome (notes, figures, tables, metrics, lightbox…). Loaded BEFORE each page's inline `<style>`. |
+| `theme.css` | Shared base: font imports, `:root` light palette, reset, nav/hero primitives **and** shared article chrome (notes, figures, tables, metrics, lightbox…). Loaded BEFORE each page's inline `<style>`. Includes the mobile table readability guard (prose columns get a `min-width` so wide tables scroll horizontally instead of collapsing to narrow columns). |
 | `pages-core.js` | Shared behaviors as global `T2`: SVG diagram helpers (`el`, `text`, `svgRoot`, `arrowHead`, `wrapText`), scroll-spy, chart tooltip, figure lightbox, nav scroll-hint, Reader/iframe detection. Synchronous in `<head>`. |
 | `theme.js` | Pre-paint theme bootstrap (no flash) + resident listener for `storage` events / `wiki-theme` postMessages. |
+| `pages-svg.js` | Copy-to-clipboard / PNG export for diagram SVGs and data tables (`resolveCssVars`, `svgToPngBlob`, copy-button sweep). Theme-agnostic — kept as a local copy so theme-02 pages don't depend on theme-01 assets. Loaded at the end of `<body>` (after page figure scripts). |
 | `dark.css` | `[data-theme="dark"]` token overrides + attribute-selector remaps for hardcoded SVG fill/stroke hexes. Loaded AFTER inline `<style>` so overrides win. |
 
 ## Page head/body template
