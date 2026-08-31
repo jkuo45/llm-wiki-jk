@@ -4,6 +4,11 @@
    data-URL SVGs are rendered in isolation, where stylesheets and CSS variables
    don't exist — without this, copied/diagram PNGs fall back to default black
    regardless of the current light/dark mode. */
+
+/* CJK codepoints (Han, Hiragana/Katakana, Hangul, Full-width punctuation) that
+   may wrap at any character — used for caption line-breaking, since CJK text
+   has no spaces. Latin/whitespace tokens break at spaces instead. */
+const CJK_RE = /[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF\u3000-\u303F\u3040-\u30FF\u31F0-\u31FF\uAC00-\uD7AF\u3130-\u318F\uA960-\uA97F\uD7B0-\uD7FF]/;
 function resolveCssVars(clone, src){
   const cloneEls = [clone].concat(Array.from(clone.querySelectorAll('*')));
   const srcEls = [src].concat(Array.from(src.querySelectorAll('*')));
@@ -34,7 +39,8 @@ function svgToPngBlob(svgId, scale, opts){
   }
   const bodyH = h; // diagram height stays fixed — caption space is canvas-only
   // optional figcaption: measured against the LIVE element's computed style,
-  // then rendered as wrapped text below the diagram
+  // then rendered as wrapped text below the diagram. Wrapping is CJK-aware
+  // (CJK text has no spaces) and preserves inline <strong>/<em> emphasis.
   const capEl = opts && opts.captionEl;
   let cap = null;
   if (capEl){
@@ -45,20 +51,85 @@ function svgToPngBlob(svgId, scale, opts){
     const padBot = parseFloat(capCS.paddingBottom) || 12;
     const weight = capCS.fontWeight || '400';
     const family = capCS.fontFamily || 'sans-serif';
-    const fontSpec = weight + ' ' + font + 'px ' + family;
-    const mctx = document.createElement('canvas').getContext('2d');
-    mctx.font = fontSpec;
+    const baseF = parseFloat(weight) || 400;
+    const baseItalic = capCS.fontStyle === 'italic';
     const maxW = w - 32;
-    const lines = [];
-    capEl.textContent.replace(/\s+/g, ' ').trim().split(' ').forEach(word => {
-      const last = lines.length - 1;
-      const test = last >= 0 ? lines[last] + ' ' + word : word;
-      if (last >= 0 && mctx.measureText(test).width <= maxW) lines[last] = test;
-      else lines.push(word);
+    const mctx = document.createElement('canvas').getContext('2d');
+    function fontFor(bold, italic){
+      return (bold ? 600 : 400) + ' ' + font + 'px ' + family;
+    }
+
+    // Flatten the caption into styled runs (text + bold/italic) so inline
+    // emphasis survives into the exported PNG.
+    const runs = [];
+    (function walk(node, bold, italic){
+      if (node.nodeType === 3){
+        runs.push({ text: node.textContent, bold: bold, italic: italic });
+        return;
+      }
+      if (node.nodeType !== 1 || !node.childNodes) return;
+      let nb = bold, ni = italic;
+      const cs = getComputedStyle(node);
+      if (cs.fontWeight === 'bold' || (parseFloat(cs.fontWeight) >= 600)) nb = true;
+      if (cs.fontStyle === 'italic') ni = true;
+      node.childNodes.forEach(function(c){ walk(c, nb, ni); });
+    })(capEl, baseF >= 600, baseItalic);
+
+    // Tokenize into words (Latin) and single CJK characters (which may break
+    // anywhere). Whitespace is preserved as its own token for measurement.
+    const tokens = [];
+    function pushWords(s, bold, italic){
+      s.split(/(\s+)/).forEach(function(seg){
+        if (seg) tokens.push({ text: seg, bold: bold, italic: italic, cjk: false });
+      });
+    }
+    runs.forEach(function(r){
+      if (!r.text) return;
+      r.text.replace(/\s+/g, ' ').split(/([\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF\u3000-\u303F\u3040-\u30FF\u31F0-\u31FF\uAC00-\uD7AF\u3130-\u318F\uA960-\uA97F\uD7B0-\uD7FF])/).forEach(function(part){
+        if (!part) return;
+        if (CJK_RE.test(part)){
+          // each CJK run is one token; a multi-char run breaks only when it
+          // overflows, but per-char tokens give natural mid-sentence wrapping
+          part.split('').forEach(function(ch){ tokens.push({ text: ch, bold: r.bold, italic: r.italic, cjk: true }); });
+        } else {
+          pushWords(part, r.bold, r.italic);
+        }
+      });
     });
+
+    // Greedy line fill: CJK breaks between characters, Latin breaks at spaces.
+    const lines = [];
+    let cur = [], curW = 0;
+    for (let t = 0; t < tokens.length; t++){
+      const tok = tokens[t];
+      if (!cur.length && /^\s+$/.test(tok.text)) continue; // no leading whitespace
+      mctx.font = fontFor(tok.bold, tok.italic);
+      const tw = mctx.measureText(tok.text).width;
+      if (curW + tw > maxW && cur.length){
+        lines.push(cur); cur = []; curW = 0;
+        if (/^\s+$/.test(tok.text)) continue; // drop whitespace at line start
+      }
+      cur.push(tok); curW += tw;
+    }
+    if (cur.length) lines.push(cur);
+
+    // Clamp caption height; truncate with an ellipsis if it would overflow.
+    const maxH = (opts && typeof opts.maxCaptionH === 'number') ? opts.maxCaptionH : 240;
+    const maxLines = Math.max(1, Math.floor((maxH - padTop - padBot) / lineH));
+    if (lines.length > maxLines){
+      lines.length = maxLines;
+      let last = lines[lines.length - 1];
+      while (last.length && /^\s+$/.test(last[last.length - 1].text)) last.pop();
+      if (!last.length){
+        lines.pop();
+        last = lines.length ? lines[lines.length - 1] : null;
+      }
+      if (last && last.length) last[last.length - 1].text += '…';
+    }
+
     h += padTop + lines.length * lineH + padBot;
-    cap = { lines: lines, fontSpec: fontSpec, font: font, lineH: lineH,
-            padTop: padTop, padBot: padBot, color: capCS.color };
+    cap = { lines: lines, font: font, family: family, fontFor: fontFor,
+            lineH: lineH, padTop: padTop, padBot: padBot, color: capCS.color, maxW: maxW };
   }
   clone.setAttribute('width', w);
   clone.setAttribute('height', bodyH);
@@ -86,11 +157,20 @@ function svgToPngBlob(svgId, scale, opts){
       else { ctx.fillStyle = '#ffffff'; ctx.fillRect(0,0,w,h); }
       ctx.drawImage(img, 0, 0, w, bodyH);
       if (cap){
-        ctx.fillStyle = cap.color;
-        ctx.font = cap.fontSpec;
         ctx.textBaseline = 'top';
         let ty = h - cap.padBot - cap.lines.length * cap.lineH;
-        cap.lines.forEach(line => { ctx.fillText(line, 16, ty); ty += cap.lineH; });
+        cap.lines.forEach(function(line){
+          let tx = 16;
+          line.forEach(function(tok){
+            ctx.font = cap.fontFor(tok.bold, tok.italic);
+            ctx.fillStyle = cap.color;
+            ctx.fillText(tok.text, tx, ty);
+            // Whitespace is its own token (so Latin words split at spaces and
+            // CJK chars break between chars); advance by each token's width.
+            tx += ctx.measureText(tok.text).width;
+          });
+          ty += cap.lineH;
+        });
       }
       canvas.toBlob(b=> b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
     };
@@ -161,8 +241,11 @@ function bindSvgCopyBtn(btn){
     e.stopPropagation(); // keep diagram lightbox / fullscreen handlers from firing
     const svgId = btn.getAttribute('data-copy');
     const svgEl = document.getElementById(svgId);
-    const figureEl = svgEl && svgEl.closest('figure');
-    const caption = figureEl ? figureEl.querySelector('figcaption') : null;
+    // Locate the figure that wraps this diagram. Prefer <figure>, then fall
+    // back to the .fig shell / .fig-canvas, so a caption is attached even if
+    // the SVG is rendered into a host that isn't strictly a <figure>.
+    const figEl = svgEl && (svgEl.closest('figure') || svgEl.closest('.fig') || svgEl.closest('.fig-canvas, .copy-host'));
+    const caption = figEl ? figEl.querySelector('figcaption') : null;
     const pngOpts = { captionEl: caption || null };
     withFeedback(btn,
       async ()=>{
