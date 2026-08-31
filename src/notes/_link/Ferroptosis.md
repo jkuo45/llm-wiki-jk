@@ -27,6 +27,15 @@ In addition to GPX4, cells deploy a **second, stand-alone ferroptosis-suppressio
 > [!info] MVA-pathway convergence predicts ferroptosis sensitivity
 > The ubiquinone substrate of FSP1 is a **non-sterol product of the [[Mevalonate pathway]]**. Interventions that suppress MVA output toward cholesterol — [[Statins]] (HMG-CoA reductase inhibition) or squalene-synthase engagement (e.g., FIN56) — deplete ubiquinone and **converge on FSP1**, collapsing its radical trap and sensitizing cells to ferroptosis. Loss of ubiquinone therefore predicts ferroptosis sensitivity independently of GPX4, explaining the NAD(P)H-dependence of the MVA/CoQ10 axis. See the [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026|FSP1–CoQ10–NAD(P)H deep-dive]].
 
+## SIRT3–SLC25A22: the mitochondrial SIRT3 ferroptosis-defense axis
+
+> [!info] Source: Wei et al., *Antioxidants* 2025;14(4):403 (doi:10.3390/antiox14040403); reviewed in "SIRT3 at the crossroads of ferroptosis" (2026)
+> The mitochondrial deacetylase **[[SIRT3]]** is a central anti-ferroptotic checkpoint that operates through both enzymatic and non-enzymatic arms:
+> - **Non-enzymatic arm (SLC25A22):** SIRT3 deacetylates the mitochondrial glutamate transporter **[[SLC25A22]]** at K83, preventing its ubiquitination and proteasomal degradation. The stabilized transporter sustains mitochondrial [[Glutamate]]/[[Glutathione]] supply and AMPK-driven monounsaturated-fatty-acid synthesis, blocking ferroptosis in [[Lung Cancer|lung adenocarcinoma (LUAD)]] and other metabolically constrained tumors.
+> - **Enzymatic arm:** SIRT3 deacetylates/activates [[IDH2]] (NADPH), [[SOD2]] (ROS scavenging), [[MTHFD2]] (NADPH), and [[Catalase]], and supports [[GPX4]] by regenerating the NADPH/GSH reducing buffer.
+> - **Iron control:** by suppressing mitochondrial ROS, SIRT3 keeps IRP1 in its aconitase form, restricting [[Transferrin receptor 1|TfR1]]-mediated iron import and the labile iron pool that fuels [[Fenton Reaction|Fenton]] chemistry.
+> Because SIRT3's redox shield is exploited by OXPHOS-prone, high-stress tumors (LUAD, glioblastoma), SIRT3 inhibition can **sensitize** such tumors to ferroptosis-inducing therapy — a tumor-selective vulnerability. Note the context-dependence: in some settings SIRT3 instead *promotes* ferroptosis (via mitophagy, as in glioblastoma), so the net effect is tumor- and context-specific.
+
 ## Key Regulators
 - **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase at the plasma membrane; uses NADPH to regenerate ubiquinol, a GPX4-independent radical trap), [[DHODH]], [[Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
 - **Positive regulators**: [[ACSL4]] (acyl-CoA synthetase that enriches membranes with oxidizable PUFAs), [[Acid ceramidase]] (ASAH1; cleaves [[Ceramide|ceramide]] to free fatty acids that feed membrane [[PUFA|PUFA]] incorporation—a GPX4/GSH/iron-independent sensitization axis in [[Senescent Cells|senescence]]), [[LPCAT3]] (remodels membrane phospholipids), [[NOX]] family NADPH oxidases, mitochondrial electron transport chain
@@ -96,6 +105,11 @@ List of documents that mention this entity
 - [[Mitotane]] — ACC therapy; ACCs show exquisite sensitivity to ferroptosis induction
 - [[Apoptosis-Inducing Factor]] — Mitochondrial flavoprotein; FSP1 was formerly named AIFM2
 - [[Mevalonate pathway]] — Regulates selenocysteine tRNA maturation and thus [[GPX4]] levels
+- [[SIRT3]] — Mitochondrial deacetylase; central anti-ferroptotic checkpoint via NADPH-GSH regeneration, IRP1/TfR1 iron control, and stabilization of the glutamate transporter [[SLC25A22]]
+- [[SLC25A22]] — Mitochondrial glutamate transporter stabilized by SIRT3 (K83 deacetylation); supplies glutamate for GSH synthesis and blocks ferroptosis
+- [[IDH2]] — Deacetylated/activated by SIRT3 to regenerate NADPH/GSH, supporting ferroptosis resistance
+- [[MTHFD2]] — NADPH-generating one-carbon enzyme in the SIRT3 ferroptosis-defense network
+- [[Catalase]] — ROS-scavenging enzyme in the SIRT3 anti-ferroptotic arm
 
 ## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc-]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]], [[SLC7A11]], [[Erastin]], [[SAT1]], [[ALOX15]], [[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], [[Phosphatidylethanolamine]], [[CISD1]], [[NFS1]], [[Clear cell renal cell carcinoma]], [[Head and neck cancer]], [[Adrenocortical carcinomas]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Gastric Cancer]], [[Colorectal Cancer]], [[Lung Cancer]], [[Stroke]], [[Traumatic Brain Injury]], [[Ubiquinone]], [[NADPH]], [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026]]

@@ -3,7 +3,7 @@ title: SIRT3
 description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
   within the Mitochondria.
 created: 2026-07-04
-updated: 2026-08-30
+updated: 2026-08-31
 tags:
   - enzyme
   - nad-plus
@@ -88,9 +88,73 @@ SIRT3 **decreases mitochondrial membrane potential** and **reduces reactive oxyg
 
 A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5** — correlates with **male lifespan beyond 90 years**, directly implicating SIRT3 in human longevity.
 
-## Cancer
+## Cancer — Dual (Janus) Roles
+
+SIRT3 has a well-established **dual role** in cancer: it acts as a tumor suppressor in many contexts (via ROS suppression, HIF-1α destabilization, SOD2/IDH2 activation) but functions as an **oncogene** in others, particularly through [[Post-translational Modification|post-translational modification]] of metabolic enzymes and stress-response proteins.
+
+### Tumor-Suppressive Activities
+
+- Deacetylates and activates [[SOD2]] and [[IDH2]], suppressing mitochondrial ROS
+- Destabilizes [[HIF-1α]], inhibiting the Warburg effect and glycolytic reprogramming
+- Stimulates [[Pyruvate Dehydrogenase]] to promote mitochondrial respiration over aerobic glycolysis
+- Overexpression suppresses [[Breast Cancer|breast cancer]] proliferation and [[ovarian cancer]] metastasis
+
+### Oncogenic Activities
+
+> [!warning]
+> SIRT3 can promote tumor growth in specific genetic or microenvironmental contexts, often through deacetylation of metabolic enzymes that fuel cancer cell proliferation.
+
+> [!info]
+> Source: Chen et al., *Neoplasia* 2019;21(7):665–675 (via [[_document_ - Roles of SIRT3 in aging and aging-related diseases|Roles of SIRT3 in Aging]])
+> SIRT3 catalyzes **Lys228 deacetylation** on [[PYCR1]] (pyrroline-5-carboxylate reductase 1), enhancing its enzymatic activity and facilitating [[Proline]] biosynthesis — a critical process for tumor cell proliferation.
+
+> [!info]
+> Source: Wei et al., *Nature Communications* 2018;9:4468 (PMID: 30367038)
+> In [[Colorectal Cancer]], SIRT3 deacetylates [[SHMT2]] (serine hydroxymethyltransferase 2) at **Lys95**, enhancing its activity and promoting serine metabolism. This increases serine consumption, NADPH levels, and nucleotide precursor availability — driving colorectal carcinogenesis.
+
+- SIRT3 also promotes [[cervical cancer]] invasion by reprogramming fatty acid synthesis (ACC1 upregulation)
+- In [[Glioma|glioma]], SIRT3 promotes cell viability via Ku70–Bax stabilization
+- The oncogenic effects are context-dependent: the same deacetylase activity that protects normal cells (via SOD2/IDH2) can promote tumor growth when directed at [[PYCR1]] or [[SHMT2]]
+
+### SIRT3 as a Cancer Therapeutic Target
+
+Given the dual role, therapeutic strategies must consider cancer type and stage:
+- In cancers where SIRT3 is tumor-suppressive (e.g., HCC, some breast cancers): **SIRT3 activators** (honokiol, resveratrol, melatonin) may be beneficial
+- In cancers where SIRT3 is oncogenic (e.g., CRC, some breast cancers): **SIRT3 inhibitors** could be therapeutic
+- The SIRT3–[[PYCR1]] and SIRT3–[[SHMT2]] axes represent potential combination targets
 
 SIRT3 (along with [[SIRT7]]) is highly transcribed in **lymph-node positive breast biopsies** (a stage where cancer has spread to lymph nodes), suggesting a potential role in breast cancer progression.
+
+## Metabolic Plasticity × Redox Equilibrium: A Dynamic Interplay
+
+SIRT3 sits at the intersection of **[[Metabolic Plasticity]]** (the tumor cell's ability to switch between [[Glycolysis]] and [[Oxidative Phosphorylation|OXPHOS]]) and **[[Redox Homeostasis]]** (the balance of oxidants and antioxidants). Its defining feature is that **one deacetylase couples both axes**: SIRT3 simultaneously (1) propels an oxidative mitochondrial phenotype (TCA/ETC/FAO activation) and (2) neutralizes the ROS that oxidative flux would otherwise generate (via [[SOD2]], [[IDH2]], [[MTHFD2]], [[Catalase]]). Because these two functions are fused, SIRT3's net role in a tumor is decided by *which* metabolic state the tumor is locked into, *where* it sits on its developmental/stem trajectory, and *what* its [[Tumor Microenvironment]] demands.
+
+### The coupling mechanism
+
+> [!important] Metabolic-Oxidative Coupling
+> SIRT3 deacetylates and activates OXPHOS and TCA-cycle enzymes — [[Pyruvate Dehydrogenase]], [[Succinate Dehydrogenase|SDH/complex II]], [[AceCS2]], FAO enzymes, [[OPA1]] (fusion) — while simultaneously deacetylating/activating the antioxidant arm ([[SOD2]], [[IDH2]], [[MTHFD2]], [[Catalase]]). The result is that SIRT3 can sustain high mitochondrial flux *without* oxidative collapse. It is this dual control that makes SIRT3 both a tumor suppressor (in glycolysis-addicted tumors it dismantles the [[Warburg Effect]] by destabilizing [[HIF-1α]]) and an oncogene (in OXPHOS-addicted tumors it powers oxidative metabolism *and* the redox defenses that keep ROS sublethal).
+> Redox input also feeds back: the **NAD⁺/NADH ratio** is the obligatory sirtuin co-substrate, so cellular redox state directly gates SIRT3 activity — a genuine two-way coupling.
+
+### Context axes that set the phenotype
+
+1. **Tumor type / basal metabolic state.** Glycolytic, HIF-1α-driven solid tumors (breast, pancreatic, kidney) are suppressed by SIRT3 restoration. OXPHOS-addicted tumors (glioblastoma, neuroblastoma, DLBCL, AML, chronic lymphocytic leukemia) are supported by SIRT3 and harmed by its inhibition (3-TYP, YC8-02). Proteomics directly demonstrate this: SIRT3 inhibition enriches oxidative-metabolism programs in OXPHOS-biased (A549) lung cells but drives metabolic reprogramming in glycolytic (MCF7) breast cells.
+
+2. **Developmental stage / stem-cell status.** Slow-cycling, therapy-resistant **cancer stem cells / leukemia stem cells (LSCs)** depend on FAO-supported OXPHOS for ATP; SIRT3 supports that oxidative engine and the anti-ferroptotic redox shield. In AML, SIRT3 is required for LSC survival via FAO→OXPHOS but is dispensable for normal hematopoietic stem/progenitor cells — a developmental-stage-specific therapeutic window. Metabolic plasticity is likewise stage-dependent: proliferating bulk cells favor glycolysis, while dormant/metastasis-seeding or stem-like cells favor OXPHOS and lipid metabolism.
+
+3. **Microenvironmental conditions.** Hypoxia stabilizes HIF-1α (glycolysis) in competition with SIRT3. Nutrient/scavenging pressure routes carbon through acetate ([[AceCS1]]), serine ([[SHMT2]]), and glutamine/glutamate ([[GDH (Glutamate Dehydrogenase)|GDH]], [[SLC25A22]]) scavenging. Lactate-rich niches fuel [[Lactylation]] of enzymes such as [[ME2]] (erased by SIRT3 as a delactylase). Immune cross-talk — SENP1–SIRT3–cholesterol in tumor-associated macrophages — reprograms host immunity. And high iron/oxidizing load (ferroptotic niche) makes the SIRT3 redox shield a survival necessity (LUAD, GBM).
+
+> [!info] SIRT3 as delactylase of ME2 (tumor suppressor in CRC)
+> Source: Chen et al., *Cancer Cell Int* 2025 (doi:10.1007/s13402-025-01058-5). SIRT3 removes **K352 lactylation** from mitochondrial [[ME2]] (malic enzyme 2), inhibiting ME2 and disrupting tumor redox balance (raised ROS, higher NADP⁺/NADPH) to suppress colorectal cancer growth. This is a newer, non-canonical deacetylase ("delactylase") action of SIRT3 that operates squarely on the metabolic-plasticity/redox interface.
+
+> [!info] SIRT3 and ferroptosis defense (SLC25A22)
+> Source: Wei et al., *Antioxidants* 2025;14(4):403. SIRT3 deacetylates and stabilizes the mitochondrial glutamate transporter [[SLC25A22]] (K83), preventing its ubiquitination/proteasomal degradation and sustaining mitochondrial [[Glutathione]] supply. This protects [[Lung Cancer|lung adenocarcinoma]] from [[Ferroptosis]] — a microenvironment- and redox-dependent survival role.
+
+> [!info] SIRT3 in tumor-associated macrophage metabolism
+> Source: Hu & Zhou et al., *Cancer Letters* 2025 (doi:10.1016/j.canlet.2025.217728). The SENP1–SIRT3 axis drives cholesterol biosynthesis in [[Tumor-Associated Macrophage|tumor-associated macrophages]], promoting immunosuppressive M2 polarization and suppressing [[CD8 T cells|CD8⁺ T cells]] — SIRT3 shaping the immune microenvironment through mitochondrial metabolism.
+
+### Net conceptual model
+
+SIRT3 does not have a single "on" or "off" effect in cancer; it is a **metabolic-oxidative rheostat** whose contribution is determined by the tumor's intrinsic metabolic state, its developmental/stem position, and its niche. Activators or inhibitors must therefore be matched to tumor type, stage, and metabolic signature — the rationale for biomarker- and metabolism-guided (rather than generic) sirtuin-based therapy.
 
 ## Ion Channel Regulation
 
@@ -245,10 +309,28 @@ List of documents that mention this entity
 - [[Indole-3-propionic acid]] — gut-derived metabolite that restores cardiac SIRT3 expression via AhR and boosts NAD⁺ via NNMT suppression; necessary mediator of IPA's protection against HFpEF
 - [[Aryl Hydrocarbon Receptor]] — nuclear receptor through which IPA induces Sirt3 transcription
 - [[NNMT]] — NAD+-consuming enzyme suppressed by IPA; its inhibition spares nicotinamide for the salvage pathway that feeds SIRT3
+- [[PYCR1]] — SIRT3 deacetylates PYCR1 at Lys228, activating proline biosynthesis; an oncogenic axis in cancer
+- [[SHMT2]] — SIRT3 deacetylates SHMT2 at Lys95, promoting serine metabolism and colorectal carcinogenesis
+- [[Post-translational Modification]] — SIRT3 is a major mitochondrial PTM regulator via deacetylation of >100 substrates
 
 
 
 - [[Pyruvate Dehydrogenase|PDH]]: SIRT3 deacetylates PDH E1α, maintaining glucose oxidation and metabolic flexibility in muscle
+- [[Metabolic Plasticity]] — SIRT3 couples the glycolysis↔OXPHOS switch to the redox setpoint; context-dependent tumor suppressor/oncogene
+- [[ME2]] — SIRT3 delactylates ME2 (K352), suppressing tumor redox maintenance and CRC growth
+- [[SLC25A22]] — SIRT3 deacetylates/stabilizes SLC25A22 (K83), protecting LUAD from ferroptosis
+- [[Tumor-Associated Macrophage]] — SENP1-SIRT3-cholesterol axis polarizes TAMs immunosuppressively
+- [[SENP1]] — deSUMOylates/activates SIRT3 in TAMs and in AKI (AMPK/SUMO axis)
+- [[Lactylation]] — non-canonical acyl mark that SIRT3 erases (ME2 delactylation)
+- [[Ferroptosis]] — cell-death modality gated by the SIRT3-SLC25A22/NADPH-GSH redox arm
+- [[CD8 T cells]] — cytotoxic effectors suppressed by SIRT3-driven cholesterol-polarized TAMs
+
+## Linking Summary (Oncogenic Cancer Roles)
+
+- New links added: [[PYCR1]], [[SHMT2]], [[Post-translational Modification]], [[Proline]], [[Serine]]
+- Suggested new entity notes to create: [[PYCR1]], [[SHMT2]], [[Post-translational Modification]] (all created 2026-08-31)
+- Strong connections to strengthen: [[SIRT3]] ↔ [[PYCR1]] (Lys228 deacetylation in proline biosynthesis), [[SIRT3]] ↔ [[SHMT2]] (Lys95 deacetylation in serine metabolism), [[SIRT3]] ↔ [[Post-translational Modification]] (SIRT3 as a major mitochondrial PTM eraser)
+
 ## Linking Summary
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue|Brown Adipose Tissue (BAT)]]
@@ -280,4 +362,16 @@ SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosy
 - [[GDH (Glutamate Dehydrogenase)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
 - [[HIF-1α]] — SIRT3 destabilizes HIF1α, inhibiting glycolysis
 - [[Cardiac Hypertrophy]] — SIRT3 prevents cardiac hypertrophy during ageing
+
+## Linking Summary (Metabolic Plasticity × Redox Equilibrium)
+
+2026-08-31 enrichment cross-referencing SIRT3's modulation of metabolic plasticity and redox equilibrium, influenced by tumor type, developmental stage, and microenvironment.
+
+- New links added: [[Metabolic Plasticity]], [[ME2]], [[SLC25A22]], [[Tumor-Associated Macrophage]], [[SENP1]], [[Lactylation]], [[Ferroptosis]], [[CD8 T cells]]
+- New entity notes created (2026-08-31, in `src/notes/_link/`): [[Metabolic Plasticity]], [[ME2]], [[SLC25A22]], [[Tumor-Associated Macrophage]]
+- Strong connections to strengthen:
+  - [[SIRT3]] ↔ [[Metabolic Plasticity]] — metabolic-oxidative coupling; the glycolysis↔OXPHOS switch tied to the redox setpoint
+  - [[SIRT3]] ↔ [[ME2]] — SIRT3 as delactylase suppressing tumor redox maintenance (CRC)
+  - [[SIRT3]] ↔ [[SLC25A22]] — deacetylation-ubiquitination crosstalk; ferroptosis defense (LUAD)
+  - [[SIRT3]] ↔ [[Tumor-Associated Macrophage]] — SENP1-SIRT3-cholesterol axis polarizing TAMs immunosuppressively
 

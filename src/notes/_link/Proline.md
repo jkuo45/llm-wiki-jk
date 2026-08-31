@@ -20,6 +20,18 @@ aliases:
 
 Proline is conditionally required for collagen (a proline- and glycine-rich protein). Beyond its structural role, the proline catabolic pathway (proline → P5C → glutamate) transfers electrons to the [[Mitochondria|mitochondrial]] electron transport chain, linking proline metabolism to cellular energetics. Impairment in the proline catabolic pathway leads to shortened lifespan through impaired mitochondrial function.
 
+## Proline Biosynthesis and Cancer
+
+The proline biosynthetic pathway is a key node of [[Cancer]] metabolic reprogramming:
+
+- **[[PYCR1]]** (pyrroline-5-carboxylate reductase 1) catalyzes the final and rate-limiting step: the NAD(P)H-dependent reduction of P5C to proline. PYCR1 is overexpressed in breast cancer, lung adenocarcinoma, hepatocellular carcinoma, colorectal cancer, and melanoma, and high expression correlates with poor prognosis.
+- Proline biosynthesis consumes mitochondrial NADH, which can shift the NAD⁺/NADH ratio and reduce the drive for OXPHOS — potentially supporting the **Warburg effect** in tumor cells.
+- Proline-derived collagen supports tumor microenvironment remodeling and metastasis.
+- Proline can be catabolized back to P5C and then glutamate, feeding into the TCA cycle — a metabolic loop that generates ATP under nutrient stress.
+
+> [!warning]
+> [[SIRT3]] deacetylates PYCR1 at Lys228, activating proline biosynthesis and promoting tumor cell proliferation. This is a key oncogenic mechanism — the same sirtuin that protects normal cells from oxidative stress can drive cancer through metabolic enzyme regulation.
+
 ## Role in Aging
 
 - Proline levels in plasma, muscle, and skin are reduced in aged organisms
@@ -43,11 +55,17 @@ Proline is conditionally required for collagen (a proline- and glycine-rich prot
 - [[Reactive Oxygen Species]] — Proline may extend lifespan through ROS scavenging
 - [[Cellular Senescence]] — Proline levels decline in senescent cells; supplementation reduces senescence of MSCs
 - [[Collagen]] — Proline is a major component of collagen
+- [[PYCR1]] — The biosynthetic enzyme that converts P5C to proline; overexpressed in multiple cancers
+- [[SIRT3]] — Deacetylates PYCR1 at Lys228, activating proline biosynthesis in cancer cells
+- [[Cancer]] — Proline metabolism is reprogrammed in tumors; PYCR1 overexpression fuels proliferation
+- [[NAD+]] — Proline biosynthesis consumes NAD(P)H; the SIRT3-PYCR1 axis links NAD+ status to proline production
 
 ## Linking Summary
 
-- New links added: [[Polyamine]], [[Spermidine]], [[Collagen]]
+- New links added: [[Polyamine]], [[Spermidine]], [[Collagen]], [[PYCR1]], [[SIRT3]], [[Cancer]], [[NAD+]]
 - Suggested new entity notes to create: [[Polyamine]], [[Collagen]]
 - Strong connections to strengthen:
     - [[Proline]] ↔ [[Polyamine]]
     - [[Proline]] ↔ [[Cellular Senescence]]
+    - [[Proline]] ↔ [[PYCR1]] (biosynthetic enzyme)
+    - [[Proline]] ↔ [[SIRT3]] (indirect via PYCR1 deacetylation)

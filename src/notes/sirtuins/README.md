@@ -344,3 +344,33 @@ Entities created from the [[_document_ - Roles of SIRT3 in aging and aging-relat
 | [[Liquiritigenin]] | Chemical Compound | Licorice flavanone; Nrf2-driven SIRT3 potentiation in AKI |
 | [[Poricoic acid A]] | Chemical Compound | Poria triterpenoid; SIRT3 upregulation and β-catenin K49 deacetylation |
 | [[2-APQC]] | Chemical Compound | Small-molecule SIRT3 agonist; anti-hypertrophic/fibrotic via AKT/mTOR and JNK/TGF-β/Smad3 suppression |
+
+### 2026-08-31 SIRT3 Oncogenic Metabolism Additions
+
+Entities documenting the oncogenic (tumor-promoting) roles of SIRT3 via deacetylation of amino-acid metabolic enzymes; cross-topic entities live in `src/notes/_link/`.
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[PYCR1]] | Enzyme | Pyrroline-5-carboxylate reductase 1; final enzyme of proline biosynthesis; SIRT3 deacetylates Lys228 to activate proline synthesis and tumor proliferation |
+| [[SHMT2]] | Enzyme | Serine hydroxymethyltransferase 2; mitochondrial one-carbon metabolism entry point; SIRT3 deacetylation at Lys95 promotes colorectal carcinogenesis via serine metabolism |
+| [[One-Carbon Metabolism]] | Biological Process | THF-dependent one-carbon transfer network; mitochondrial SHMT2/MTHFD2 branch fuels nucleotide synthesis, NADPH, and methylation in cancer |
+| [[Post-translational Modification]] | Scientific Concept | Covalent protein modifications regulating activity and stability; SIRT3 is a major mitochondrial deacetylase (PTM eraser) |
+| [[Serine]] | Amino Acid | Substrate of SHMT2-driven one-carbon metabolism and common phosphorylation site; reprogrammed in cancer |
+| [[Proline]] | Amino Acid | Product of PYCR1 biosynthesis; proline metabolism supports proliferation and redox balance |
+| [[Colorectal Cancer]] | Disease | CRC cells rely on SIRT3-SHMT2 serine metabolism and PYCR1 proline metabolism for proliferation and chemoresistance |
+
+### 2026-08-31 SIRT3 Metabolic Plasticity × Redox Equilibrium Additions
+
+Web-research cross-reference (2026) on the dynamic interplay between SIRT3's modulation of metabolic plasticity and redox equilibrium, influenced by tumor type, developmental stage, and microenvironmental conditions. Cross-topic entities live in `src/notes/_link/`.
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[Metabolic Plasticity]] | Concept | The glycolysis↔OXPHOS switch available to tumor cells/CSCs; SIRT3 couples this switch to the redox setpoint — tumor suppressor in glycolytic tumors, oncogene in OXPHOS-addicted tumors |
+| [[ME2]] | Enzyme | Malic enzyme 2; mitochondrial NADPH/pyruvate generator delactylated (K352) and suppressed by SIRT3, disrupting tumor redox balance in CRC |
+| [[SLC25A22]] | Transporter | Mitochondrial glutamate transporter stabilized by SIRT3 (K83 deacetylation-ubiquitination crosstalk), protecting LUAD from ferroptosis |
+| [[Tumor-Associated Macrophage]] | Cell Type | TAMs; SENP1-SIRT3-cholesterol axis drives M2 polarization and suppresses CD8⁺ T cells in the TME |
+| [[Ferroptosis]] | Biological Process | Iron/redox cell death gated by the SIRT3 network (SLC25A22, IDH2, MTHFD2, SOD2) |
+
+The central [[SIRT3]] note was enriched with a "Metabolic Plasticity × Redox Equilibrium" section covering the metabolic-oxidative coupling mechanism and the three context axes (tumor type, developmental stage/stem status, microenvironment). Links were also added from [[SIRT3]] to [[SENP1]], [[Lactylation]], and [[CD8 T cells]].
+
+

@@ -7,10 +7,10 @@ updated: 2026-08-31
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1571 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1575 entities** across **110 categories** and **32 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1564 | Categories: 110 | Documents: 32
+> `_link` index. Total entities: 1568 | Categories: 110 | Documents: 32
 >
 
 ## Documents
@@ -369,7 +369,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ZFP36L1]] | Protein | Zinc finger protein 36 C3H1-like 1 (TTP-family RNA-binding protein) that degrades AU-rich-element mRNAs; inhibited by MK2 to stabilize SASP transcripts. |
 | [[β-Catenin]] | Protein | β-Catenin is a dual-function protein central to canonical Wnt signaling as a transcriptional coactivator and to cell adhesion as a component of adherens junctions. Its transcriptional activity is s... |
 
-### Enzyme (193)
+### Enzyme (195)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -547,9 +547,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[PTEN]] | Enzyme | PTEN (Phosphatase and Tensin homolog) is a powerful tumor suppressor protein that is found in almost all tissues in the body. It acts as a ''brake' on cellular growth and division.' |
 | [[PTPN5]] | Enzyme | Protein tyrosine phosphatase non-receptor type 5 (STEP); dephosphorylates and activates BAK, serving as a licensing signal for mitochondrial apoptosis. |
 | [[Pyruvate Dehydrogenase]] | Enzyme | Mitochondrial enzyme complex that converts pyruvate to acetyl-CoA, the committed step feeding the TCA cycle. Its activity gates glucose-derived carbon entry into the mitochondrial citrate–acetyl-Co... |
+| [[PYCR1]] | Enzyme | Pyrroline-5-carboxylate reductase 1, the mitochondrial final enzyme in proline biosynthesis (P5C → L-proline); overexpressed in many cancers where SIRT3-dependent Lys228 deacetylation activates it, fueling tumor proliferation. |
 | [[QPRT]] | Enzyme | Quinolinate Phosphoribosyltransferase; enzyme converting quinolinic acid to nicotinic acid mononucleotide in de novo NAD+ biosynthesis via the kynurenine pathway |
 | [[Respiratory Chain Complex I]] | Enzyme | Complex I (NADH:ubiquinone oxidoreductase) is the largest ETC enzyme; it oxidizes NADH, reduces ubiquinone, pumps protons, and is a major superoxide source. |
 | [[Ribonuclease III]] | Enzyme | Family of double-stranded RNA-specific endoribonucleases, including Drosha and Dicer, that catalyze microRNA and siRNA precursor processing. |
+| [[SHMT2]] | Enzyme | Serine hydroxymethyltransferase 2, a mitochondrial PLP-dependent enzyme converting serine to glycine and feeding mitochondrial one-carbon metabolism; SIRT3 deacetylation at Lys95 activates it, promoting colorectal carcinogenesis. |
 | [[S Phase]] | Enzyme | S Phase (Synthesis Phase) is the phase of the Cell Cycle during which DNA Replication occurs, producing two copies of the genome. It follows G1 Phase and precedes G2 Phase. S Phase is initiated by ... |
 | [[S-Nitrosoglutathione Reductase]] | Enzyme | The enzyme that metabolizes S-nitrosoglutathione and regulates protein S-nitrosylation; its reduced activity in senescent cells causes excessive Parkin S-nitrosylation, inhibiting mitophagy and pro... |
 | [[SK61_2]] | Enzyme | Ribosomal protein S6 kinase 1 and 2 are AGC-family kinases downstream of mTORC1 that drive translation and exert negative feedback on insulin/PI3K signaling; in the rapamycin-hormesis model their m... |
@@ -1204,11 +1206,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Serotonin-Norepinephrine Reuptake Inhibitors]] | Medical Product | Serotonin-norepinephrine reuptake inhibitors (SNRIs) are antidepressants raising synaptic serotonin and norepinephrine; dangerous with MAOIs. |
 | [[Tricyclic Antidepressant]] | Medical Product | Tricyclic antidepressants (TCAs) are an older antidepressant class with serotonergic and anticholinergic effects; dangerous with MAOIs. |
 
-### Biological Process (145)
+### Biological Process (146)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Myristoylation]] | Biological Process | N-terminal myristoyl attachment that tethers FSP1 to the plasma membrane, positioning its ubiquinol-regenerating activity where lipid peroxidation begins. |
+| [[One-Carbon Metabolism]] | Biological Process | Network of THF-dependent reactions transferring one-carbon units between metabolites; the mitochondrial SHMT2/MTHFD2 branch supplies nucleotide synthesis, NADPH, and methylation in proliferating cells and is reprogrammed in cancer. |
 | [[Metastatic colonization]] | Biological Process | Final, rate-limiting step of metastasis — growth of disseminated cells into distant lesions; restricted by oxidative stress, supported by selenocysteine translation. |
 | [[Adaptive Immune System]] | Biological Process | Antigen-specific immunity (T/B cells) shaped by cGAS-STING priming and chemokine-driven CNS infiltration. |
 | [[adipogenesis]] | Biological Process | Biological process of differentiation of mesenchymal preadipocytes into lipid-accumulating mature adipocytes. |
@@ -1364,11 +1367,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Methylation]] | Chemical Process | Methylation is a fundamental biochemical and epigenetic process involving the transfer of a methyl group to a substrate. It is critical for the regulation of gene expression, neurotransmitter m... |
 | [[Oxidation]] | Chemical Process | Oxidation is a concept related to Adrenochrome and catecholamine metabolism. |
 
-### Scientific Concept (77)
+### Scientific Concept (78)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Radical-trapping Antioxidant]] | Scientific Concept | Molecule that terminates peroxidation chains by donating H to a lipid peroxyl radical; endogenous examples include ubiquinol, VKH2, and vitamin E. |
+| [[Post-translational Modification]] | Scientific Concept | Covalent modifications of proteins after ribosomal synthesis (phosphorylation, acetylation, methylation, ubiquitination, SUMOylation, etc.) that rapidly alter protein function, localization, stability and interactions; >650 types known, regulated by writer-eraser-reader systems and central to metabolic control via sirtuins. |
 | [[Alpha Diversity]] | Scientific Concept | Alpha diversity is a measure of the richness and evenness of species within a single community or sample, often used to describe the internal diversity of the gut microbiome. |
 | [[Antagonistic Pleiotropy]] | Scientific Concept | An evolutionary concept wherein a trait beneficial to early-life fitness becomes detrimental later in life, proposed as the reason RCM evolved as a short-term survival response that drives aging. |
 | [[Beta Diversity]] | Scientific Concept | Beta diversity is a measure of the difference in species composition between different communities or samples, allowing for comparisons across various stages of aging or environmental conditions. |

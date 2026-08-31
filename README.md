@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 30_AUG_2026 | 34 | 1695 | 1,061,052 | 9.45 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1702 | 1,074,016 | 9.55 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 29_AUG_2026 | 11 | 280 | 244,374 | 2.77 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.46 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 29_AUG_2026 | 9 | 210 | 203,228 | 1.88 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 31_AUG_2026 | 9 | 210 | 203,354 | 1.88 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,999 | 0.98 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 30_AUG_2026 | 19 | 175 | 308,744 | 3.87 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 19 | 175 | 309,370 | 3.88 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 30_AUG_2026 | **124** | **3139** | **2,519,560** | **26.57 MB** |
+| **subtotal** | 31_AUG_2026 | **124** | **3146** | **2,533,276** | **26.67 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -27,18 +27,15 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,098 | 37,318 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,107 | 37,521 |
 | **Triples** | `triples-*.json` | 2,654 | 3,896 |
-| **Wiki** | `wiki-*.json` | 3,007 | 35,150 |
+| **Wiki** | `wiki-*.json` | 3,016 | 35,353 |
 
-Build: 30_AUG_2026 · hash `7e170d4`
+Build: 31_AUG_2026 · hash `c992da5`
 
-> [!NOTE] 
->
-> **Combined merge**:
->
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,007 wiki − 1,563 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
-
+> [!info] Combined merge
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,016 wiki − 1,563 shared → 4,107); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> Wiki-only community ids are offset by +1000 in the combined legend so the cid spaces never collide; wiki-only nodes keep that offset on their `community` field.
 <!-- END GENERATED: graph_datasets -->
 
 ---
@@ -276,8 +273,9 @@ Build: 30_AUG_2026 · hash `7e170d4`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (89 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (90 total)</strong> — click to expand</summary>
 
+- [task_output_hormesis_overlooked_paradigms_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md) [[src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md|wiki]] (30_AUG_2026 11:34 PM PDT)
 - [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)
 - [task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md) [[src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)
 - [task_output_node_metrics_combined_graph_27_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md) [[src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)
