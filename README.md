@@ -33,9 +33,9 @@
 
 Build: 30_AUG_2026 · hash `7e170d4`
 
-> [!INFO] 
+> [!NOTE] 
 >
-> Combined merge
+> **Combined merge**:
 >
 > The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,007 wiki − 1,563 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 

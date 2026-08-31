@@ -260,7 +260,8 @@ Notes:
   `graphify-out/graph.json` directly.
 - Analyses/tasks written before the wiki graph existed were computed on the
   **triples** graph; state the graph (mode) explicitly when running new analyses.
-- README counts/tables: `python -m scripts readme-counts`.
+- README counts/tables: `python -m scripts readme-counts`. 
+  - Update notes below the knowledge graphs detailing the difference in subtotals (merging and deduplication).
 - New scripts go in a domain subpackage with a `python -m scripts` command
   registered in `scripts/cli.py`; the full pipeline map lives in
   `scripts/README.md`.
