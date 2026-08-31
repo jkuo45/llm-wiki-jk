@@ -3,7 +3,7 @@ Visualize triples from a JSON file using Graphviz with color-coded nodes and edg
 Generates PNG, SVG, and DOT output.
 
 Usage:
-    uv run scripts/03_visualize_triples.py <input.json> <output_base> [--max-nodes N] [--min-edges N]
+    uv run python3 -m scripts.triples.visualize <input.json> <output_base> [--max-nodes N] [--min-edges N]
 """
 
 import argparse

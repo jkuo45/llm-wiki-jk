@@ -17,7 +17,7 @@ Idempotent — safe to run after any ingest/edit. Missing zh-TW contexts are
 reported (NOT auto-translated) so they can be filled by a re-extraction or by a
 translation pass over the opencode serve adapter (api/llm.translate_text).
 
-Run:  python3 scripts/03_normalize_triples_schema.py [--check]
+Run:  python3 -m scripts.triples.normalize [--check]
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 
 # Canonical serialization order for a normalized triple.
 KEY_ORDER = [
@@ -57,7 +57,7 @@ def strip_wikilink(s: str) -> str:
 
 
 def norm(label: str) -> str:
-    """Stable snake_case node id (mirrors scripts/03_rebuild_from_triples.py)."""
+    """Stable snake_case node id (mirrors scripts/triples/rebuild.py)."""
     s = strip_wikilink(label).strip().lower()
     return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
 

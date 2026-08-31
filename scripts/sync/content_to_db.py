@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Sync the public content registry into Supabase + backfill star flags.
 
-Companion to scripts/07_sync_to_db.py (graph base layer). This script mirrors
+Companion to scripts/sync/graph_to_db.py (graph base layer). This script mirrors
 the *content* layer into the content_registry table and can seed the
 content_flags table from the legacy markdown/static star sources:
 
@@ -9,16 +9,16 @@ content_flags table from the legacy markdown/static star sources:
     task_output  <- web/public/data/tasks.json     (generated from src/tasks/)
     image_note   <- src/images/manifest.json
     document     <- src/notes/**/_document_ *.md scan
-    (wiki_note is intentionally absent: the entities table from 07 already
-     covers wiki notes keyed by norm_id, which content_flags reuses)
+    (wiki_note is intentionally absent: the entities table from the graph sync
+     already covers wiki notes keyed by norm_id, which content_flags reuses)
 
 Usage:
     uv run --no-build --with supabase --with pyyaml \
-        python3 scripts/07_sync_content.py              # registry upsert
-    python3 scripts/07_sync_content.py --dry-run        # counts only
-    python3 scripts/07_sync_content.py --backfill-stars # + seed flags from
+        python3 -m scripts.sync.content_to_db              # registry upsert
+    python3 -m scripts.sync.content_to_db --dry-run        # counts only
+    python3 -m scripts.sync.content_to_db --backfill-stars # + seed flags from
                               # src/tasks frontmatter + manifest starred=true
-    python3 scripts/07_sync_content.py --prune          # delete registry rows
+    python3 -m scripts.sync.content_to_db --prune          # delete registry rows
                               # whose content no longer exists in the repo
 
 Star semantics: content_flags (DB) is the runtime source of truth once the
@@ -38,7 +38,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 DATA_DIR = ROOT / "web" / "public" / "data"
 NOTES_DIR = ROOT / "src" / "notes"
 MANIFEST_FILE = ROOT / "src" / "images" / "manifest.json"

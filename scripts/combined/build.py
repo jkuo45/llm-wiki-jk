@@ -27,9 +27,9 @@ compares the canonical triples graph (graphify-out/graph.json) and wiki graph
 `wiki-out/graph-diff.json` + `wiki-out/GRAPH_DIFF.md` (shared / wiki-only /
 triples-only nodes + edge deltas).
 
-Run AFTER scripts/03_rebuild_from_triples.py AND scripts/05_rebuild_from_wiki.py:
+Run AFTER scripts/triples/rebuild.py AND scripts/wiki/rebuild.py:
 
-  uv run --with networkx python3 scripts/05_build_combined.py
+  uv run --with networkx python3 -m scripts.combined.build
 """
 
 from __future__ import annotations
@@ -39,10 +39,12 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _graph_common import export_roles_json, generate_community_colors, write_web_version
+# Bootstrap the repo root so this file also runs directly
+# (python3 scripts/combined/build.py) and not only via `python -m`.
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from scripts.lib.graph_common import export_roles_json, generate_community_colors, write_web_version
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 DATA_DIR = ROOT / "web" / "public" / "data"
 
 # Fixed wiki-cid offset for the combined legend (smaller than any plausible
@@ -206,10 +208,10 @@ def main() -> int:
             pass
 
     if not tN:
-        print("Missing triples web data (web/public/data/triples-nodes.json) -- run 03_rebuild first.")
+        print("Missing triples web data (web/public/data/triples-nodes.json) -- run the triples rebuild first.")
         return 1
     if not wN:
-        print("Missing wiki web data (web/public/data/wiki-nodes.json) -- run 05_rebuild first.")
+        print("Missing wiki web data (web/public/data/wiki-nodes.json) -- run the wiki rebuild first.")
         return 1
 
     # ------------------------------------------------------------------

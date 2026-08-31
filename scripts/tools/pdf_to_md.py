@@ -41,10 +41,14 @@ def parse_pdf(pdf_path: str, output_dir: str = None) -> None:
     print(f"Successfully converted {pdf_file.name} to Markdown.")
     print(f"Output saved to: {out_file}")
 
-if __name__ == "__main__":
+def main() -> None:
     parser = argparse.ArgumentParser(description="Parse PDF to Markdown (ideal for Obsidian)")
     parser.add_argument("pdf_path", help="Path to the input PDF file")
     parser.add_argument("--outdir", "-o", help="Optional output directory. Defaults to the same directory as the PDF.", default=None)
-    
+
     args = parser.parse_args()
     parse_pdf(args.pdf_path, args.outdir)
+
+
+if __name__ == "__main__":
+    main()

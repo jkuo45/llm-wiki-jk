@@ -12,12 +12,12 @@ Usage:
     export SUPABASE_SERVICE_KEY=<service-role key>   # or put both in .env
 
     uv run --no-build --with supabase --with pyyaml --with networkx \
-        python3 scripts/07_sync_to_db.py            # incremental
-    python3 scripts/07_sync_to_db.py --dry-run      # counts only, no writes
-    python3 scripts/07_sync_to_db.py --force        # re-sync even if hash matches
-    python3 scripts/07_sync_to_db.py --prune        # also delete entities gone from the vault
+        python3 -m scripts.sync.graph_to_db            # incremental
+    python3 -m scripts.sync.graph_to_db --dry-run      # counts only, no writes
+    python3 -m scripts.sync.graph_to_db --force        # re-sync even if hash matches
+    python3 -m scripts.sync.graph_to_db --prune        # also delete entities gone from the vault
 
-What is synced (all keyed by norm(label) from scripts/_graph_common.py):
+What is synced (all keyed by norm(label) from scripts/lib/graph_common.py):
     topics            <- web/public/data/topics.json
     entities          <- union of combined/triples/wiki node files + note frontmatter
     entity_edges      <- triples-edges.json (graph_source='triples')
@@ -45,7 +45,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 
 DATA_DIR = ROOT / "web" / "public" / "data"
 NOTES_DIR = ROOT / "src" / "notes"

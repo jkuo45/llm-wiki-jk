@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Rebuild a knowledge graph from Obsidian wikilinks in src/notes/**/*.md.
 
-This is the wiki-graph counterpart to scripts/03_rebuild_from_triples.py.
+This is the wiki-graph counterpart to scripts/triples/rebuild.py.
 Instead of reading per-topic _triples.json, it parses `[[wiki links]]` out of
 every note body and builds a directed graph where:
 
@@ -11,21 +11,21 @@ every note body and builds a directed graph where:
 
 Both graphs key nodes by norm(label), so the *same entity* gets the identical
 id in the triples graph and the wiki graph, and the two can be joined directly
-(see scripts/05_build_combined.py for the diff).
+(see scripts/combined/build.py for the diff).
 
 The schema of the emitted wiki-out/wiki-graph.json is byte-identical to
-graphify-out/graph.json (same node/edge attributes + metadata), so the existing
-04_ analysis scripts work unchanged via --graph:
+graphify-out/graph.json (same node/edge attributes + metadata), so the
+scripts/analysis tools work unchanged via --graph:
 
-  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+  uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
       --graph wiki-out/wiki-graph.json --sources sirt1 nad --targets mtorc1
-  uv run --with networkx python3 scripts/04_link_prediction.py \
+  uv run --with networkx python3 -m scripts.analysis.link_prediction \
       --graph wiki-out/wiki-graph.json --out wiki-out/wiki-link-prediction.json
-  uv run python3 scripts/04_role_query.py \
+  uv run python3 -m scripts.analysis.role_query \
       --roles-file wiki-out/node_roles.json --role Spreader --top 10
 
 Run:  uv run --with graphifyy --with networkx --with scipy \
-          python3 scripts/05_rebuild_from_wiki.py
+          python3 -m scripts.wiki.rebuild
 """
 
 from __future__ import annotations
@@ -46,9 +46,11 @@ from graphify.export import to_json
 from graphify.report import generate
 
 # Shared graph-building helpers (norm, parse_wikilink_target, enrich_graph_metrics,
-# inject_graph_metadata, export_roles_json) -- kept in sync with 03_rebuild.
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _graph_common import (  # noqa: E402
+# inject_graph_metadata, export_roles_json) -- kept in sync with the triples rebuild.
+# Bootstrap the repo root so this file also runs directly
+# (python3 scripts/wiki/rebuild.py) and not only via `python -m`.
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from scripts.lib.graph_common import (  # noqa: E402
     enrich_graph_metrics,
     export_roles_json,
     export_wiki_three_json,
@@ -58,7 +60,7 @@ from _graph_common import (  # noqa: E402
     write_web_version,
 )
 
-ROOT = Path(__file__).resolve().parent.parent  # repo root
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 NOTES_DIR = ROOT / "src" / "notes"  # topic-scoped entity notes
 WIKI_OUT = ROOT / "wiki-out"  # wiki-graph analysis artifacts
 WIKI_GRAPH = WIKI_OUT / "wiki-graph.json"
@@ -341,7 +343,7 @@ def build_graph() -> tuple[nx.DiGraph, Counter, int, Counter, Counter]:
 
 
 # ----------------------------------------------------------------------
-# Community-label continuity (mirrors 03_rebuild)
+# Community-label continuity (mirrors the triples rebuild)
 # ----------------------------------------------------------------------
 
 def load_label_continuity() -> tuple[dict, dict[int, list[str]]]:
@@ -422,7 +424,7 @@ def main() -> int:
         G, communities, new_labels, cohesion, gods, surprises
     )
 
-    # --- write GRAPH_REPORT.md (mirrors 03_rebuild) ---
+    # --- write GRAPH_REPORT.md (mirrors the triples rebuild) ---
     total_words = 0
     docs = []
     for p in sorted(NOTES_DIR.rglob("*.md")):
@@ -472,14 +474,14 @@ def main() -> int:
     print("to_json wrote:", wrote)
     inject_graph_metadata(WIKI_GRAPH, graph_meta)
 
-    # --- standalone role artifact (for 04_role_query.py --roles-file) ---
+    # --- standalone role artifact (for scripts/analysis/role_query.py --roles-file) ---
     graph = json.loads(WIKI_GRAPH.read_text(encoding="utf-8"))
     export_roles_json(graph, new_labels, WIKI_ROLES, source_graph=str(WIKI_GRAPH))
 
     # --- web-data export: wiki-prefixed files for the three-graph viewer ---
     # (triples / wiki / combined toggle). Also bumps web/public/data/version.json so
     # browsers re-fetch the new artifacts. Triples web data is NOT regenerated
-    # here (that stays owned by scripts/03_rebuild_from_triples.py).
+    # here (that stays owned by scripts/triples/rebuild.py).
     export_wiki_three_json(graph, new_labels, DATA_DIR)
     write_web_version(DATA_DIR)
 
@@ -540,7 +542,7 @@ def main() -> int:
     # --- regenerate the combined (triples + wiki) web dataset ---
     try:
         subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "05_build_combined.py")],
+            [sys.executable, "-m", "scripts.combined.build"],
             cwd=str(ROOT),
             check=True,
             timeout=300,
@@ -548,7 +550,7 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001
         print(
             f"combined build skipped ({e}); run manually: "
-            "uv run --with networkx python3 scripts/05_build_combined.py"
+            "uv run --with networkx python3 -m scripts.combined.build"
         )
     return 0
 

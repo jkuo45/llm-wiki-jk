@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Query and validate per-node biological roles (web/public/data/node_roles.json).
 
-Reads the role artifact emitted by scripts/03_rebuild_from_triples.py
+Reads the role artifact emitted by scripts/triples/rebuild.py
 (export_three_json) and provides:
 
   1. Role queries   -- filter/sort/top-N over the role-tagged node table.
@@ -10,7 +10,7 @@ Reads the role artifact emitted by scripts/03_rebuild_from_triples.py
           artifact's own embedded metrics and compare against the stored
           values (catches stale thresholds after a graph update).
        b. Consistency     : re-run the shared classifier
-          (scripts/_node_roles_lib.py) over every node's fingerprint and
+          (scripts/lib/node_roles.py) over every node's fingerprint and
           require stored roles to match exactly (catches classifier /
           artifact divergence).
        c. Semantic anchors: a handful of literature-anchored nodes are
@@ -22,12 +22,12 @@ updates and roles recalculate, validation adapts automatically and only
 fails when something is genuinely inconsistent.
 
 Run:
-  uv run python3 scripts/04_role_query.py --role Spreader --top 10
-  uv run python3 scripts/04_role_query.py \
+  uv run python3 -m scripts.analysis.role_query --role Spreader --top 10
+  uv run python3 -m scripts.analysis.role_query \
       --role Bottleneck --exclude-role Periphery --sort pagerank --top 20
-  uv run python3 scripts/04_role_query.py --node "Acid ceramidase"
-  uv run python3 scripts/04_role_query.py --validate
-  uv run python3 scripts/04_role_query.py --summary
+  uv run python3 -m scripts.analysis.role_query --node "Acid ceramidase"
+  uv run python3 -m scripts.analysis.role_query --validate
+  uv run python3 -m scripts.analysis.role_query --summary
 """
 
 from __future__ import annotations
@@ -37,10 +37,12 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import _node_roles_lib as nrl
+# Bootstrap the repo root so this file also runs directly
+# (python3 scripts/analysis/role_query.py) and not only via `python -m`.
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from scripts.lib import node_roles as nrl  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 DEFAULT_ROLES = ROOT / "web" / "public" / "data" / "node_roles.json"
 
 THRESHOLD_TOL = 1e-9  # float round-trip tolerance for stored vs recomputed
@@ -101,7 +103,7 @@ SORT_KEYS = ("pagerank", "betweenness", "clustering", "k_core", "degree",
 def load(path: Path) -> dict:
     if not path.exists():
         sys.exit(f"roles artifact not found at {path} "
-                 f"(run scripts/03_rebuild_from_triples.py first)")
+                 f"(run scripts/triples/rebuild.py first)")
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -148,7 +150,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
         print(f"   FAIL — stored thresholds do not match the embedded metrics:")
         for s in stale[:6]:
             print(s)
-        print("    -> rerun scripts/03_rebuild_from_triples.py to refresh")
+        print("    -> rerun scripts/triples/rebuild.py to refresh")
     else:
         print(f"   PASS — {len(live)} thresholds match recomputed values")
     print()
@@ -165,7 +167,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
     if mismatches:
         failures.append("classifier mismatch")
         print(f"   FAIL — {len(mismatches)} node(s) disagree with the "
-              f"classifier in scripts/_node_roles_lib.py:")
+              f"classifier in scripts/lib/node_roles.py:")
         for label, have, want in mismatches[:6]:
             print(f"    {label}: stored={have} recomputed={want}")
     else:
@@ -210,7 +212,7 @@ def cmd_validate(doc: dict, verbose: bool = False) -> int:
     if failures:
         print(f"VALIDATION FAILED ({'; '.join(failures)}). If this follows a "
               f"genuine graph update, review whether the rule catalog in "
-              f"scripts/_node_roles_lib.py still encodes the intended biology.")
+              f"scripts/lib/node_roles.py still encodes the intended biology.")
         return 1
     print(f"All checks passed — artifact is internally consistent and "
           f"biologically anchored.")

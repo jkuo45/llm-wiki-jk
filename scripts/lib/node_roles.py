@@ -2,9 +2,9 @@
 """Shared biological role classifier over the per-node metric fingerprint.
 
 Single source of truth for the auto-role rules used by:
-  - scripts/03_rebuild_from_triples.py (bakes roles into nodes.json /
+  - scripts/triples/rebuild.py (bakes roles into nodes.json /
     web/public/data/node_roles.json at rebuild time)
-  - scripts/04_role_query.py (queries + live-consistency validation)
+  - scripts/analysis/role_query.py (queries + live-consistency validation)
 
 All thresholds are percentiles computed from the LIVE node table at call
 time — no absolute constants — so the classifier stays calibrated as the

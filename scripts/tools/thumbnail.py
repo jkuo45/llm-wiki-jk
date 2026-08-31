@@ -12,7 +12,7 @@ image under src/images/: manifest.json (committed curation) plus .staged.json
 unless `--force` is passed.
 
 Usage:
-    uv run --with pillow python scripts/99_generate_thumbnail.py [--thumb-size 400] [--force]
+    uv run --with pillow python -m scripts.tools.thumbnail [--thumb-size 400] [--force]
 
 New uploads also generate a thumbnail at upload time (see api/notes.py), so
 running this is only needed as a backfill or after a server deploy without
@@ -29,7 +29,7 @@ try:
 except ImportError as exc:  # pragma: no cover - hard to trigger deterministically
     sys.exit(f"Pillow is required: run with  uv run --with pillow python {Path(__file__).name}  ({exc})")
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 IMAGES_DIR = REPO_ROOT / "src" / "images"
 MANIFEST = IMAGES_DIR / "manifest.json"
 STAGED = IMAGES_DIR / ".staged.json"

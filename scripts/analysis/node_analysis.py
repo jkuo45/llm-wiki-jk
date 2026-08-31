@@ -31,10 +31,10 @@ Works on any graphify-out/graph.json. Node arguments accept either entity
 label ("SIRT3") or graph id ("sirt3"), matched case-insensitively.
 
 Run:
-  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py
-  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+  uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis
+  uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
       --sources comt mao --targets dopamine epinephrine
-  uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+  uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
       --graph other-vault/graphify-out/graph.json
 """
 
@@ -48,7 +48,7 @@ from pathlib import Path
 import networkx as nx
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 DEFAULT_GRAPH = ROOT / "graphify-out" / "graph.json"
 RANDOM_SEED = 1
 PPR_ALPHA = 0.85

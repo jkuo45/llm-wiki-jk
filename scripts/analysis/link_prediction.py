@@ -13,7 +13,7 @@ Computed sections:
   2. Personalized-PageRank similarity profiles -- seeded at each metadata
      god node, ranking similar non-neighbour entities.
   3. (--spectral, optional) Effective-resistance z-scores between god-node
-     pairs against a random-pair null. Ported from scripts/04_node_analysis.py;
+     pairs against a random-pair null. Ported from scripts/analysis/node_analysis.py;
      too heavy for routine rebuilds -- run manually for case studies.
 
 Determinism: candidates are ordered by (-score, a, b) and PPR lists by
@@ -22,11 +22,11 @@ Determinism: candidates are ordered by (-score, a, b) and PPR lists by
 so the artifact participates in the version cache tag without churning it.
 
 Run:
-  uv run --with networkx python3 scripts/04_link_prediction.py
-  uv run --with networkx python3 scripts/04_link_prediction.py --top 20
-  uv run --with networkx --with scipy python3 scripts/04_link_prediction.py \
+  uv run --with networkx python3 -m scripts.analysis.link_prediction
+  uv run --with networkx python3 -m scripts.analysis.link_prediction --top 20
+  uv run --with networkx --with scipy python3 -m scripts.analysis.link_prediction \
       --spectral
-  uv run --with networkx python3 scripts/04_link_prediction.py --validate
+  uv run --with networkx python3 -m scripts.analysis.link_prediction --validate
 """
 
 from __future__ import annotations
@@ -42,7 +42,7 @@ from pathlib import Path
 
 import networkx as nx
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 
 
 def short_commit(commit: str) -> str:
@@ -80,7 +80,7 @@ TOL = 1e-9              # eigenvalue threshold for the pseudoinverse
 
 
 # ------------------------------------------------------------------
-# Graph loading (same conventions as scripts/04_node_analysis.py)
+# Graph loading (same conventions as scripts/analysis/node_analysis.py)
 # ------------------------------------------------------------------
 def load_graph(path: Path) -> tuple[nx.Graph, dict[str, str], dict]:
     """Load the undirected giant component + id->label map + metadata."""
@@ -218,7 +218,7 @@ def spectral_resistance(
 ) -> list[dict]:
     """God-node pair effective resistances z-scored against a null sample.
 
-    Ported from scripts/04_node_analysis.py: dense eigh on the giant-component
+    Ported from scripts/analysis/node_analysis.py: dense eigh on the giant-component
     Laplacian (scipy eigsh(which='SM') returns the trivial zero mode; svds is
     not a valid commute-time proxy), pseudoinverse from thresholded
     eigenvalues.

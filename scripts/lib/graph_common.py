@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Shared graph-building helpers used by both graph rebuild pipelines.
 
-Extracted from scripts/03_rebuild_from_triples.py so the triples-graph and
-wiki-graph builders stay schema-identical and cannot drift:
+Extracted from the triples-graph rebuild so the triples-graph and wiki-graph
+builders stay schema-identical and cannot drift:
 
   - norm / strip_wikilink / parse_wikilink_target  -- id + wikilink parsing
   - generate_community_colors                     -- palette assignment
@@ -10,8 +10,12 @@ wiki-graph builders stay schema-identical and cannot drift:
   - inject_graph_metadata                        -- post-write metadata inject
   - export_roles_json                            -- standalone node_roles.json
 
-The wiki builder (scripts/05_rebuild_from_wiki.py) and the triples builder
-(scripts/03_rebuild_from_triples.py) both import from here.
+The wiki builder (scripts/wiki/rebuild.py) and the triples builder
+(scripts/triples/rebuild.py) both import from here.
+
+NOTE: importing this module requires the repo root on sys.path (the rebuild
+scripts bootstrap it; tests use tests/script_loader.py). Imports use the
+`scripts.lib.*` package namespace.
 """
 
 from __future__ import annotations
@@ -241,9 +245,9 @@ def export_roles_json(
     source_graph: str = "",
 ) -> None:
     """Emit web/public/data-style node_roles.json (per-node biological roles) to
-    `out_path`. Uses scripts/_node_roles_lib as the single source of truth, so
-    the classifier stays consistent with scripts/04_role_query.py."""
-    import _node_roles_lib
+    `out_path`. Uses scripts/lib/node_roles.py as the single source of truth, so
+    the classifier stays consistent with scripts/analysis/role_query.py."""
+    from scripts.lib import node_roles as _node_roles_lib
 
     nodes = graph["nodes"]
     fps = [_node_roles_lib._fingerprint(n) for n in nodes]
