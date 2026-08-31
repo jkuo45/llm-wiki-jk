@@ -2,7 +2,7 @@
 title: Type 2 Diabetes
 description: Chronic metabolic disorder characterized by insulin resistance and progressive pancreatic beta-cell dysfunction, driving hyperglycemia and multiorgan complications.
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-31
 tags:
   - disease
   - diabetes
@@ -31,6 +31,15 @@ Type 2 Diabetes (T2DM) is a chronic metabolic disorder defined by peripheral [[I
 - Chronic hyperglycemia suppresses hippocampal SIRT3, contributing to cognitive deficits through mitochondrial Ca2+ overload and neuronal [[Apoptosis|apoptosis]].
 - SIRT3 also preserves pancreatic β-cell viability and mediates the redox-modulating effects of [[Irisin|irisin]] in diabetic periodontitis models, establishing SIRT3 as a convergent therapeutic target across diabetic complications.
 
+## Irisin and Metabolic Regulation in T2DM
+
+The myokine [[Irisin]], secreted from [[Skeletal Muscle|skeletal muscle]] during exercise, plays a central but complex role in T2DM:
+
+- **Circulating levels:** Irisin is frequently reduced in established T2DM compared with healthy or prediabetic individuals, and correlates inversely with HOMA-IR, fasting glucose, and HbA1c. Some cohorts show elevated irisin in early dysglycemia, interpreted as a compensatory response that fails as [[PGC-1α]] activation and skeletal-muscle mitochondrial function decline.
+- **Mechanism of action:** Irisin improves insulin sensitivity by activating AMPK-dependent GLUT4 translocation in muscle, enhancing PI3K/AKT insulin signaling, and reducing hepatic gluconeogenesis. It also promotes adipose tissue browning and increases energy expenditure.
+- **Pharmacological modulation:** [[Metformin]], sitagliptin (DPP-4 inhibitor), exenatide (GLP-1 agonist), and omega-3 PUFAs have all been shown to elevate circulating irisin in T2DM patients, suggesting irisin upregulation may contribute to their metabolic benefits.
+- **"Irisin resistance":** Analogous to insulin resistance, chronic metabolic stress may impair irisin signaling under obesity/T2DM, though the precise contribution remains debated given assay limitations (see [[Irisin#Measurement Controversy and Assay Limitations|measurement controversy]]).
+
 ## Documents
 
 - [[_document_ - Roles of SIRT3 in aging and aging-related diseases|Roles of SIRT3 in Aging and Aging-Related Diseases (You & Wang 2025)]]
@@ -43,10 +52,14 @@ Type 2 Diabetes (T2DM) is a chronic metabolic disorder defined by peripheral [[I
 - [[Diabetic Cardiomyopathy]]: Cardiac complication improved by SIRT3 activation.
 - [[Mitochondria]]: Mitochondrial dysfunction bridges T2DM and aging.
 - [[FGF21]]: Restores SIRT3 expression via lifestyle/gene therapy paradigms.
+- [[Irisin]]: Myokine with reduced levels in T2DM; improves insulin sensitivity via AMPK/GLUT4 and PI3K/AKT.
+- [[AMPK]]: Kinase mediating irisin's glucose-uptake and insulin-sensitizing effects.
+- [[Metformin]]: Upregulates irisin; may contribute to its antidiabetic action.
+- [[PGC-1α]]: Transcriptional driver of FNDC5/irisin; declines in diabetic muscle.
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[Insulin Resistance]], [[Hyperglycemia]], [[Mitochondrial Dysfunction]], [[NAD+]], [[Skeletal Muscle]], [[Insulin]], [[Gluconeogenesis]], [[Diabetic Cardiomyopathy]], [[FGF21]], [[Irisin]], [[Periodontitis]]
+- New links added: [[SIRT3]], [[Insulin Resistance]], [[Hyperglycemia]], [[Mitochondrial Dysfunction]], [[NAD+]], [[Skeletal Muscle]], [[Insulin]], [[Gluconeogenesis]], [[Diabetic Cardiomyopathy]], [[FGF21]], [[Irisin]], [[Periodontitis]], [[AMPK]], [[Metformin]], [[PGC-1α]]
 - Suggested new entity notes to create: [[AGO2]], [[GRP75]]
 - Strong connections to strengthen:
     - [[SIRT3]] ↔ [[Type 2 Diabetes]] (SIRT3 loss drives insulin resistance; activation is a candidate therapy)

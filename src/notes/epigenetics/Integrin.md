@@ -2,7 +2,7 @@
 title: Integrin
 description: Integrins are heterodimeric transmembrane receptors mediating cell-ECM adhesion and bidirectional outside-in/inside-out signaling.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-08-31
 tags:
   - receptor
 aliases: []
@@ -29,6 +29,10 @@ Integrins thus integrate adhesion with [[Cell Cycle]] control, mechanotransducti
 
 Integrins are essential for embryogenesis, tissue morphogenesis, hemostasis (platelet αIIbβ3), immune trafficking (αLβ2/α4β1), and maintenance of the stem-cell niche. They anchor cells to basement membranes, sense tissue stiffness, and direct [[Cell Migration]] during development and wound healing. In muscle, integrins couple [[Satellite Cells]] to the [[Extracellular Matrix]] for regenerative responses.
 
+## Integrin αVβ5 as a Peptide Hormone Receptor
+
+Beyond classical ECM ligands, integrin αVβ5 has been identified as the high-affinity receptor for the myokine [[Irisin]] (Perakakis et al. 2018, *Cell*). Biophysical studies mapped the interacting surfaces between irisin and the αVβ5 heterodimer, and chemical inhibition of αV integrins blocks irisin signaling in osteocytes and adipocytes. A 2023 cryo-EM study further revealed a two-step activation mechanism: extracellular heat shock protein 90α (eHsp90α), co-secreted from muscle during exercise, primes αVβ5 for high-affinity irisin binding, forming an Hsp90α/αVβ5/irisin ternary complex. This establishes integrin αVβ5 as a genuine endocrine receptor linking exercise biology to metabolic, bone, and neurotrophic signaling.
+
 ## Pathology & Clinical Relevance
 
 Dysregulated integrin expression or activation promotes [[Cancer]] invasion, metastasis, and angiogenesis (αvβ3/αvβ5 targeted by integrin inhibitors such as [[Vedolizumab]]-class agents and cilengitide). Integrins are therapeutic targets in thrombosis (αIIbβ3 antagonists like abciximab) and autoimmunity (α4 integrin blockade by natalizumab). They are also exploited for cell-capture in [[Regenerative Medicine]] and as markers of [[Mesenchymal Stromal Cells]] identity (e.g., α2β1, α5β1). Integrin-linked [[Focal Adhesion]] signaling interacts with chromatin remodelers, tying adhesion to [[Epigenetic Remodeling]] and [[Pluripotency]] state transitions.
@@ -49,9 +53,10 @@ List of documents that mention this entity
 - [[Cell Migration]] — integrin dynamics drive adhesion turnover during movement.
 - [[c-Met]] — growth-factor receptor that crosstalks with integrin signaling.
 - [[Satellite Cells]] — integrins anchor muscle stem cells to their niche.
+- [[Irisin]] — the myokine for which integrin αVβ5 serves as the high-affinity receptor; Hsp90α primes signaling.
 
 ## Linking Summary
 
-- New links added: [[Focal Adhesion]], [[Extracellular Matrix]], [[FAK Signaling]], [[Cell Migration]], [[Cell Cycle]], [[Differentiation]], [[c-Met]], [[EGFR]], [[RAS]], [[MAPK]], [[PI3K]], [[AKT]], [[Src]], [[Rho GTPase]], [[Wnt signaling]], [[Satellite Cells]], [[Cancer]], [[Pluripotency]], [[Epigenetic Remodeling]], [[Regenerative Medicine]], [[Mesenchymal Stromal Cells]], [[Vedolizumab]], [[Cilengitide]]
+- New links added: [[Focal Adhesion]], [[Extracellular Matrix]], [[FAK Signaling]], [[Cell Migration]], [[Cell Cycle]], [[Differentiation]], [[c-Met]], [[EGFR]], [[RAS]], [[MAPK]], [[PI3K]], [[AKT]], [[Src]], [[Rho GTPase]], [[Wnt signaling]], [[Satellite Cells]], [[Cancer]], [[Pluripotency]], [[Epigenetic Remodeling]], [[Regenerative Medicine]], [[Mesenchymal Stromal Cells]], [[Vedolizumab]], [[Cilengitide]], [[Irisin]]
 - Suggested new entity notes to create: [[Talin]], [[Kindlin]], [[Metal-Ion-Dependent Adhesion Site]]
-- Strong connections to strengthen: [[Integrin]] ↔ [[Metabolism]], [[Integrin]] ↔ [[Extracellular Matrix]]
+- Strong connections to strengthen: [[Integrin]] ↔ [[Metabolism]], [[Integrin]] ↔ [[Extracellular Matrix]], [[Integrin]] ↔ [[Irisin]]

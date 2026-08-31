@@ -321,7 +321,8 @@ Entities created from the [[_document_ - Roles of SIRT3 in aging and aging-relat
 | [[DNA Ligase IV]] | Enzyme | LIG4; terminal NHEJ ligase in the SIRT3-associated DNA repair network |
 | [[Mst1]] | Enzyme | STK4 kinase; inhibited by melatonin alongside SIRT3 upregulation in DCM |
 | [[MIP-2]] | Protein | CXCL2 chemokine; expression suppressed downstream of SIRT3 activation |
-| [[Irisin]] | Protein | FNDC5-derived myokine; osteoprotection and redox control require SIRT3 |
+| [[Irisin]] | Protein | FNDC5-derived myokine; exercise/thermogenesis, bone, neurotrophic, and SIRT3-dependent redox/bone protection |
+| [[FNDC5]] | Protein | Fibronectin type III domain-containing 5; transmembrane precursor of irisin; linked to SIRT3 in oxidative stress and bone contexts |
 | [[GRP75]] | Protein | Mortalin/HSPA9; VDAC1/IP3R calcium bridge inhibited by SIRT3 in diabetic neurotoxicity |
 | [[COL1A1]] | Gene | Type I collagen α1; pro-fibrotic gene deacetylated/suppressed by SIRT3 |
 | [[ETS1]] | Gene | ETS transcription factor; promoter H3K27 crotonylation controlled by SIRT3 |

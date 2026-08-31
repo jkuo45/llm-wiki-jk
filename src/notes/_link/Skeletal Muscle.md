@@ -2,7 +2,7 @@
 title: Skeletal Muscle
 description: 'Overview: Skeletal Muscle is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.'
 created: 2026-07-04
-updated: 2026-07-26
+updated: 2026-08-31
 tags:
   - anatomy
 aliases: [Striated Muscle]
@@ -18,6 +18,10 @@ aliases: [Striated Muscle]
 **Physiological function:** Skeletal Muscle contributes to tissue homeostasis through specific mechanical, secretory, signaling, or barrier functions. Its activity is integrated with surrounding cells and systems.
 
 **Pathological relevance:** Dysfunction or loss of Skeletal Muscle underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
+
+## Endocrine Function of Skeletal Muscle
+
+Beyond its mechanical and structural roles, skeletal muscle is a major endocrine organ releasing **myokines** — signaling peptides that communicate with distant tissues. The most extensively studied is [[Irisin]], the cleaved ectodomain of the membrane protein [[FNDC5]]. Exercise induces [[PGC-1α]] in muscle, which drives FNDC5 transcription; the FNDC5 ectodomain is then proteolytically cleaved and secreted as irisin. From muscle, irisin travels via the circulation to act on adipose tissue (browning via [[UCP1]]), bone (osteoblast promotion and [[SIRT3]]-dependent osteoprotection), the brain ([[BDNF]] upregulation), and the vasculature (endothelial NO production). Irisin is therefore a central mediator of the "muscle–adipose," "muscle–bone," and "muscle–brain" axes that link physical activity to systemic metabolic, skeletal, and cognitive health.
 
 ## Chemotherapy-Induced Muscle Wasting
 
@@ -62,8 +66,11 @@ List of documents that mention this entity
 - [[Sarcopenia]] — Age-related muscle loss
 - [[Mitochondria]] — Mitochondrial dysfunction contributes to muscle wasting
 - [[PARP]] — NAD+ consuming enzymes in muscle
+- [[Irisin]] — Myokine secreted by muscle during exercise; cleaved from FNDC5
+- [[FNDC5]] — Transmembrane precursor of irisin, expressed at high levels in muscle
+- [[PGC-1α]] — Transcriptional driver of FNDC5 expression in response to exercise
 
 ## Linking Summary
-- New links added: [[Skeletal Muscle]]
-  - Strong connections to strengthen: Skeletal Muscle ↔ Skeletal Muscle
+- New links added: [[Skeletal Muscle]], [[Irisin]], [[FNDC5]], [[PGC-1α]], [[UCP1]], [[SIRT3]], [[BDNF]]
+  - Strong connections to strengthen: Skeletal Muscle ↔ Skeletal Muscle, Skeletal Muscle ↔ [[Irisin]]
 

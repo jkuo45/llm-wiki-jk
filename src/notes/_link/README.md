@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-08-24
+updated: 2026-08-31
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1570 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1571 entities** across **110 categories** and **32 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1563 | Categories: 110 | Documents: 32
+> `_link` index. Total entities: 1564 | Categories: 110 | Documents: 32
 >
 
 ## Documents
@@ -146,6 +146,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[FKBP12]] | Protein | Overview: FKBP12 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern ce... |
 | [[FKBP38]] | Protein | FK506 binding protein 38 (FKBP38/FKBP8), an OMM protein that induces Parkin-independent mitophagy through LC3A aggregation |
 | [[FKBP8]] | Protein | Parkin-independent mitophagy receptor with a unique escape mechanism that avoids proteasomal degradation and preferentially binds LC3A. |
+| [[FNDC5]] | Protein | Fibronectin type III domain-containing protein 5, the type I transmembrane precursor of the myokine Irisin; expression is driven by PGC-1α in response to exercise. |
 | [[FoxM1]] | Protein | Forkhead box protein M1 (FoxM1) is a proliferation-associated transcription factor that drives cell-cycle genes, DNA repair, and senescence bypass; it is frequently overexpressed in cancer and is r... |
 | [[FOXO]] | Protein | A family of transcription factors (Forkhead box O) that regulate the expression of genes involved in cell cycle, Apoptosis, and Autophagy. |
 | [[FoxO1]] | Protein | Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesis, and beta-cell function. |
