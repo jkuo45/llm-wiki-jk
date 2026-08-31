@@ -13,7 +13,7 @@ The original wiki-page theme, coupled to the graph app chrome.
   then reuses that link and sets `disabled = stored theme === 'dark'` before
   paint. Legacy behavior (dynamic injection) is kept only as a fallback for
   pages without the static link — those still flash dark→light.
-- Shared rule: the page-world decision lives on `window.WikiTheme`
+- Shared rule: the page-world decision lives on `window.AppTheme`
   (`currentTheme()`/`isDark()`), defined (define-once) by `page-theme.js` for
   theme-01 and `themes/theme-02/theme.js` for theme-02. `pages-core.js`
   consumes it at runtime, so the pre-paint and post-paint states can never

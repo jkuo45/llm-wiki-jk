@@ -47,7 +47,7 @@ page-specific styles/scripts stay inline in each page.
   `localStorage['llm-wiki-theme']` opts into dark — same key as theme-01,
   so one toggle controls everything. Dark palette matches the graph app's
   navy theme.
-- The page-world rule lives on `window.WikiTheme`
+- The page-world rule lives on `window.AppTheme`
   (`currentTheme()`/`isDark()`), defined (define-once) by `theme.js` and by
   `themes/theme-01/page-theme.js`; `themes/theme-01/pages-core.js` consumes
   it at runtime. `components/theme.js` mirrors the same rule for the bundle.

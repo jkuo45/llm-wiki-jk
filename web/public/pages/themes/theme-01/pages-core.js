@@ -45,8 +45,8 @@ if (window.self !== window.top) {
     // by page-theme.js (<head>), so it can never drift from the pre-paint
     // state. Fall back to the same rule (light default; only explicit 'dark'
     // opts in) if the helper is somehow absent.
-    if (window.WikiTheme && typeof window.WikiTheme.currentTheme === 'function') {
-      return window.WikiTheme.currentTheme();
+    if (window.AppTheme && typeof window.AppTheme.currentTheme === 'function') {
+      return window.AppTheme.currentTheme();
     }
     try { return localStorage.getItem(KEY) === 'dark' ? 'dark' : 'light'; }
     catch (e) { return 'light'; }

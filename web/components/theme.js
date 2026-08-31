@@ -25,7 +25,7 @@ const ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" st
 // Current theme ('light' | 'dark'). Light is the default when no preference is
 // stored (or storage is unavailable); only an explicit 'dark' opts in.
 // NOTE: this is the SPA's copy of the same page-world rule exposed as
-// window.WikiTheme.currentTheme() by pages/themes/theme-01/page-theme.js and
+// window.AppTheme.currentTheme() by pages/themes/theme-01/page-theme.js and
 // themes/theme-02/theme.js. The bundled module can't load that classic global,
 // so keep this rule in sync with those two (the `=== 'dark'` default test is
 // the single source of truth for "light is the default").

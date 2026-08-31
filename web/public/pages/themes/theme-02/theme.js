@@ -6,7 +6,7 @@
    localStorage 'llm-wiki-theme' = 'dark' | 'light'. Light is the default;
    only an explicit 'dark' opts into the dark palette defined in dark.css.
 
-   The page-world theme rule lives on window.WikiTheme (currentTheme()/isDark());
+   The page-world theme rule lives on window.AppTheme (currentTheme()/isDark());
    themes/theme-01/page-theme.js exposes the identical define-once object and
    themes/theme-01/pages-core.js consumes it through the same helper. The
    bundled app module components/theme.js carries its own copy of the rule —
@@ -22,7 +22,7 @@
   // Canonical defining helper for the page world (define-once). Identical to
   // themes/theme-01/page-theme.js — the "explicit 'dark' opts in, light is
   // the default" decision lives here for theme-02 pages.
-  window.WikiTheme = window.WikiTheme || {
+  window.AppTheme = window.AppTheme || {
     THEME_KEY: KEY,
     isDark: function () {
       try { return localStorage.getItem(this.THEME_KEY) === 'dark'; }
@@ -35,7 +35,7 @@
     document.documentElement.dataset.theme = theme === 'dark' ? 'dark' : 'light';
   }
 
-  apply(window.WikiTheme.currentTheme());
+  apply(window.AppTheme.currentTheme());
 
   window.addEventListener('storage', function (e) {
     if (e.key === KEY) apply(e.newValue);

@@ -8,7 +8,7 @@
    re-applies this link, and re-renders SVG diagrams. Keep both files in the
    page template.
 
-   The single shared rule for the page world lives on window.WikiTheme
+   The single shared rule for the page world lives on window.AppTheme
    (currentTheme()/isDark()); themes/theme-02/theme.js exposes the identical
    define-once object and pages-core.js consumes it via the same helper. Only
    an explicit 'dark' opts into the dark theme; light is the default when no
@@ -19,7 +19,7 @@
   // Canonical defining helper for the page world (define-once). This is the
   // ONLY place the "explicit 'dark' opts in, light is the default" decision is
   // made for theme-01 pages; pages-core.js and theme-02/theme.js call it.
-  window.WikiTheme = window.WikiTheme || {
+  window.AppTheme = window.AppTheme || {
     THEME_KEY: 'llm-wiki-theme',
     isDark: function () {
       try { return localStorage.getItem(this.THEME_KEY) === 'dark'; }
@@ -46,6 +46,6 @@
     injected = true;
   }
   link.id = 'theme-light';
-  link.disabled = window.WikiTheme.isDark();
+  link.disabled = window.AppTheme.isDark();
   if (injected) document.head.appendChild(link);
 })();
