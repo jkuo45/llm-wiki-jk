@@ -1072,7 +1072,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
-| [[Melanoma]] | Medical Condition | Malignant tumor of melanocytes; oxidative-stress-sensitive metastasis is supported by FTSJ1/Um34-dependent selenocysteine translation. |
 | [[Acute Respiratory Distress Syndrome]] | Medical Condition | ARDS is acute inflammatory lung injury causing hypoxemic respiratory failure; methylene blue has no proven role. |
 | [[Age-Related Diseases]] | Medical Condition | Diseases whose incidence and severity increase with chronological age, driven by fundamental aging processes such as cellular senescence, inflammation, and macromolecular damage. |
 | [[Albuminuria]] | Medical Condition | Albuminuria is the presence of excess albumin in the urine, most commonly reflecting glomerular damage and a hallmark of diabetic and hypertensive kidney disease. |

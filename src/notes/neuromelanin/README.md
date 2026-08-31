@@ -146,7 +146,6 @@ updated: 2026-08-16
 | [[Ventricular arrhythmias]] | disease | Ventricular arrhythmias are abnormal rapid heart rhythms originating in the ventricles; resveratrol reduces them in preclinical models via antioxidant, ion-channel, and eNOS-modulating actions. |
 | [[Cardiac Function]] | concept | Cardiac function describes the pumping performance of the heart, which is preserved by NAD+ precursor supplementation in heart failure and dilated cardiomyopathy models through maintained NAD+ homeostasis. |
 | [[Tangier disease]] | disease | Tangier disease is a rare autosomal-recessive disorder caused by loss-of-function ABCA1 mutations, characterized by extremely low HDL, cholesterol ester accumulation in macrophages, orange tonsils, and neuropathy. |
-| [[Cutaneous Melanoma]] | medical-condition | Epidemiological studies have revealed a significant and reciprocal link between cutaneous melanoma and Parkinson's Disease. |
 | [[Ifosfamide-induced Encephalopathy]] | disease | Ifosfamide-induced encephalopathy is a neurotoxic adverse effect of the alkylating agent ifosfamide, treated off-label with intravenous methylene blue. |
 | [[Addiction]] | medical-condition | Addiction is a chronic, relapsing disorder characterized by compulsive drug seeking, continued use despite harmful consequences, and long-lasting changes in the brain. |
 | [[Non-REM Sleep]] | process | Non-REM (NREM) sleep is the restorative phase of sleep characterized by slow-wave activity, which honokiol promotes by acting at the benzodiazepine site of GABA-A receptors. |

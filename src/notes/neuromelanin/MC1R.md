@@ -14,7 +14,7 @@ aliases: []
 
 ## Structure and Canonical Function
 
-MC1R is a seven-transmembrane [[Receptor]] coupled to Gsα, stimulating adenylyl cyclase and cAMP upon binding α-melanocyte-stimulating hormone (α-MSH). High cAMP activates [[Tyrosinase]] and the eumelanogenic program in [[Melanogenesis]], producing protective dark pigment. Loss-of-function variants (e.g., R151C, R160W, D294H) typical of red hair/fair skin reduce signaling, shifting synthesis toward [[Pheomelanin]]. These variants also raise [[Cutaneous Melanoma]] risk.
+MC1R is a seven-transmembrane [[Receptor]] coupled to Gsα, stimulating adenylyl cyclase and cAMP upon binding α-melanocyte-stimulating hormone (α-MSH). High cAMP activates [[Tyrosinase]] and the eumelanogenic program in [[Melanogenesis]], producing protective dark pigment. Loss-of-function variants (e.g., R151C, R160W, D294H) typical of red hair/fair skin reduce signaling, shifting synthesis toward [[Pheomelanin]]. These variants also raise [[Melanoma]] risk.
 
 ## MC1R in the Brain and Parkinson's Disease
 
@@ -29,13 +29,13 @@ MC1R agonists (e.g., α-MSH analogs, [[Melanocortins]]) are being explored precl
 - [[Melanocytes]] - cutaneous cells whose pigmentation is controlled by MC1R.
 - [[Melanogenesis]] - pathway regulated by MC1R via cAMP/Tyrosinase.
 - [[Parkinson's Disease]] - risk increased by loss-of-function MC1R variants.
-- [[Cutaneous Melanoma]] - malignancy linked to the same MC1R variants.
+- [[Melanoma]] - malignancy linked to the same MC1R variants.
 - [[Tyrosinase]] - downstream effector of MC1R signaling.
 - [[Neuromelanin]] - brain pigment whose neuron survival may be MC1R-modulated.
 - [[Neuroinflammation]] - dampened by MC1R activation.
 - [[Neuroprotection]] - therapeutic target via MC1R agonists.
 
 ## Linking Summary
-- New links added: [[Cutaneous Melanoma]], [[Parkinson's Disease]], [[Melanocytes]], [[Melanogenesis]], [[Tyrosinase]], [[Neuromelanin]], [[Neuroinflammation]], [[Neuroprotection]].
+- New links added: [[Melanoma]], [[Parkinson's Disease]], [[Melanocytes]], [[Melanogenesis]], [[Tyrosinase]], [[Neuromelanin]], [[Neuroinflammation]], [[Neuroprotection]].
 - Suggested new entity notes to create: [[G Protein-Coupled Receptors]], [[α-MSH]], [[Pheomelanin]].
-- Strong connections to strengthen: [[MC1R]] ↔ [[Cutaneous Melanoma]].
+- Strong connections to strengthen: [[MC1R]] ↔ [[Melanoma]].

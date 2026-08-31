@@ -10,7 +10,7 @@ aliases: []
 
 # Melanocytes
 
-[[Melanocytes]] are dendritic, neural-crest-derived pigment cells residing in the basal layer of the epidermis, the hair follicle, the uvea of the eye, and the inner ear. They synthesize melanin pigments—[[Eumelanin]] (black/brown) and [[Pheomelanin]] (red/yellow)—within membrane-bound organelles called melanosomes, via the pathway of [[Melanogenesis]] catalyzed by [[Tyrosinase]]. Because melanocytes and neuromelanin-containing neurons share a neural-crest ancestry and the same catechol-oxidation chemistry, studying cutaneous melanocytes illuminates brain pigment biology and the epidemiology linking [[Cutaneous Melanoma]] to [[Parkinson's Disease]].
+[[Melanocytes]] are dendritic, neural-crest-derived pigment cells residing in the basal layer of the epidermis, the hair follicle, the uvea of the eye, and the inner ear. They synthesize melanin pigments—[[Eumelanin]] (black/brown) and [[Pheomelanin]] (red/yellow)—within membrane-bound organelles called melanosomes, via the pathway of [[Melanogenesis]] catalyzed by [[Tyrosinase]]. Because melanocytes and neuromelanin-containing neurons share a neural-crest ancestry and the same catechol-oxidation chemistry, studying cutaneous melanocytes illuminates brain pigment biology and the epidemiology linking [[Melanoma]] to [[Parkinson's Disease]].
 
 ## Development and Distribution
 
@@ -36,10 +36,10 @@ Melanocyte dysfunction underlies albinism, vitiligo, and melanoma. Insights from
 - [[Tyrosinase]] - rate-limiting enzyme of melanogenesis.
 - [[MC1R]] - receptor controlling eumelanin vs. pheomelanin switching.
 - [[Neuromelanin]] - brain pigment sharing catechol-oxidation chemistry.
-- [[Cutaneous Melanoma]] - malignancy of melanocytes, epidemiologically linked to PD.
+- [[Melanoma]] - malignancy of melanocytes, epidemiologically linked to PD.
 - [[Parkinson's Disease]] - shared genetic/epidemiologic associations with melanocyte biology.
 
 ## Linking Summary
-- New links added: [[Eumelanin]], [[Pheomelanin]], [[Melanogenesis]], [[Tyrosinase]], [[MC1R]], [[Cutaneous Melanoma]], [[Parkinson's Disease]], [[Neuromelanin]].
+- New links added: [[Eumelanin]], [[Pheomelanin]], [[Melanogenesis]], [[Tyrosinase]], [[MC1R]], [[Melanoma]], [[Parkinson's Disease]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Neural Crest]], [[Melanosomes]].
-- Strong connections to strengthen: [[Melanocytes]] ↔ [[Cutaneous Melanoma]].
+- Strong connections to strengthen: [[Melanocytes]] ↔ [[Melanoma]].

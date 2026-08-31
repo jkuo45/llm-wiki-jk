@@ -22,7 +22,7 @@ Although neuromelanin forms largely by non-enzymatic dopamine oxidation (via [[A
 
 ## Links to Disease
 
-Genetic variation and expression of tyrosinase-family enzymes influence pigmentation phenotypes and, by extension, the melanoma–PD association (see [[Cutaneous Melanoma]]). In [[Parkinson's Disease]], altered neuromelanin quality (rather than quantity) may reflect shifted melanogenic enzyme activity, contributing to [[Oxidative Stress]] and [[Alpha-Synuclein Aggregation]]. TRP-2 is also a melanoma antigen, linking pigment enzymes to immune recognition.
+Genetic variation and expression of tyrosinase-family enzymes influence pigmentation phenotypes and, by extension, the melanoma–PD association (see [[Melanoma]]). In [[Parkinson's Disease]], altered neuromelanin quality (rather than quantity) may reflect shifted melanogenic enzyme activity, contributing to [[Oxidative Stress]] and [[Alpha-Synuclein Aggregation]]. TRP-2 is also a melanoma antigen, linking pigment enzymes to immune recognition.
 
 ## Pathology & Clinical Relevance
 
@@ -44,11 +44,11 @@ List of documents that mention this entity
 - [[Aminochrome]]: Dopamine oxidation intermediate feeding pigment.
 - [[5,6-indolequinone]]: Indolic polymerization unit of neuromelanin.
 - [[Benzothiazine]]: Pheomelanic motif in pigment.
-- [[Cutaneous Melanoma]]: Cancer expressing DCT as antigen.
+- [[Melanoma]]: Cancer expressing DCT as antigen.
 - [[Parkinson's Disease]]: Disorder of neuromelanin neurons.
 
 ## Linking Summary
 
-- New links added: [[Tyrosinase-related protein-2]], [[Tyrosinase]], [[Neuromelanin]], [[Aminochrome]], [[5,6-indolequinone]], [[Benzothiazine]], [[Cutaneous Melanoma]], [[Parkinson's Disease]].
+- New links added: [[Tyrosinase-related protein-2]], [[Tyrosinase]], [[Neuromelanin]], [[Aminochrome]], [[5,6-indolequinone]], [[Benzothiazine]], [[Melanoma]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Dopachrome]], [[DHICA]], [[MITF]].
 - Strong connections to strengthen: [[Dopachrome tautomerase]] ↔ [[Tyrosinase-related protein-2]]; [[Dopachrome tautomerase]] ↔ [[Neuromelanin]].

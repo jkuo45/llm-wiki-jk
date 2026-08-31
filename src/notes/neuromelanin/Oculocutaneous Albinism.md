@@ -33,7 +33,7 @@ OCA is classified into at least seven subtypes (OCA1–7), each arising from bia
 
 ## Clinical Presentation
 
-**Skin and hair:** Hypopigmentation is the hallmark, ranging from complete absence of pigment (OCA1A) to nearly normal skin tone (some OCA2 and OCA4). Affected individuals are exquisitely sensitive to ultraviolet (UV) radiation, with sunburns occurring after minimal sun exposure. Chronic sun damage leads to solar elastosis, lentigines, and actinic keratoses. The lifetime risk of both [[Cutaneous Melanoma]] and non-melanoma skin cancer (basal cell carcinoma, squamous cell carcinoma) is substantially elevated, necessitating lifelong dermatologic surveillance.
+**Skin and hair:** Hypopigmentation is the hallmark, ranging from complete absence of pigment (OCA1A) to nearly normal skin tone (some OCA2 and OCA4). Affected individuals are exquisitely sensitive to ultraviolet (UV) radiation, with sunburns occurring after minimal sun exposure. Chronic sun damage leads to solar elastosis, lentigines, and actinic keratoses. The lifetime risk of both [[Melanoma]] and non-melanoma skin cancer (basal cell carcinoma, squamous cell carcinoma) is substantially elevated, necessitating lifelong dermatologic surveillance.
 
 **Ocular manifestations** are present in all OCA subtypes and include:
 - **Nystagmus** — involuntary, usually horizontal, pendular or jerk nystagmus that may improve slightly with age.
@@ -65,12 +65,12 @@ There is no curative therapy. Management is multidisciplinary and lifelong:
 - [[Melanogenesis]] — Entire biosynthetic pathway disrupted in OCA.
 - [[Melanin]] — The pigment deficient in all forms of OCA.
 - [[Neuromelanin]] — Though distinct from cutaneous melanin, links albinism to broader pigment biology in the CNS.
-- [[Cutaneous Melanoma]] — Elevated skin cancer risk in OCA due to absent photoprotection.
+- [[Melanoma]] — Elevated skin cancer risk in OCA due to absent photoprotection.
 - [[Nystagmus]] — Universal ocular feature of OCA.
 - [[Vision]] — Ocular albinism causes lifelong visual impairment from foveal hypoplasia and optic misrouting.
 
 ## Linking Summary
 
-- New links added: [[Oculocutaneous Albinism]], [[Tyrosinase]], [[Melanogenesis]], [[Melanin]], [[Neuromelanin]], [[Cutaneous Melanoma]], [[Nystagmus]], [[Vision]], [[Tyrosinase-related protein-1]], [[Dopachrome tautomerase]], [[L-Tyrosine]], [[L-DOPA]], [[Foveal hypoplasia]].
+- New links added: [[Oculocutaneous Albinism]], [[Tyrosinase]], [[Melanogenesis]], [[Melanin]], [[Neuromelanin]], [[Melanoma]], [[Nystagmus]], [[Vision]], [[Tyrosinase-related protein-1]], [[Dopachrome tautomerase]], [[L-Tyrosine]], [[L-DOPA]], [[Foveal hypoplasia]].
 - Suggested new entity notes to create: [[SLC45A2]], [[LRMDA]], [[SLC24A5]], [[Hair bulb tyrosinase assay]], [[Kestenbaum procedure]].
 - Strong connections to strengthen: [[Tyrosinase]] ↔ [[Oculocutaneous Albinism]], [[Melanogenesis]] ↔ [[Oculocutaneous Albinism]].
