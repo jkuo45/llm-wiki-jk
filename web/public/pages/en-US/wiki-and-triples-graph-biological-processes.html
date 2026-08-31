@@ -48,7 +48,7 @@
       <p><strong>Date:</strong> 27 Aug 2026</p>
       <p><strong>Data Sources:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code> (combined, default viewer), <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code> (triples), <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code> (wiki)</p>
       <p><strong>Source Documents:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md" target="_blank">src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md" target="_blank">wiki-out/GRAPH_REPORT.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md" target="_blank">wiki-out/GRAPH_DIFF.md</a></code> · <code><a href="node-analysis-examples-biology.html">node-analysis-examples-biology.html</a></code></p>
-      <p><strong>Code:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_rebuild_from_wiki.py" target="_blank">05_rebuild_from_wiki.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_build_combined.py" target="_blank">05_build_combined.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">04_node_analysis.py</a></code></p>
+      <p><strong>Code:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank">scripts/triples/rebuild.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/wiki/rebuild.py" target="_blank">scripts/wiki/rebuild.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/combined/build.py" target="_blank">scripts/combined/build.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code></p>
       <p><strong>Metrics:</strong> recomputed on the union topology (unweighted, α = 0.85; undirected betweenness / clustering / k-core) — see <a href="#methods">Methods</a></p>
     </div>
   </div>
@@ -326,7 +326,7 @@
             (57), <strong>Autophagosome</strong>, and <strong>Atg1</strong> join the shared
             <strong>Mitochondria</strong> / <strong>DRP1</strong> / <strong>Mitophagy</strong> communities,
             wiring the Parkinson's (α-synuclein, 6-OHDA) and neurodegeneration context into fission/fusion
-            and mitophagy. <code>04_node_analysis</code>-style PPR seeded on <strong>Cancer</strong> ranks
+            and mitophagy. <code>scripts/analysis/node_analysis</code>-style PPR seeded on <strong>Cancer</strong> ranks
             <code>mitochondria</code> and <code>neurodegeneration</code> among its nearest neighbours —
             the mitochondrial-aging axis is one of the union's central seams.
           </p>
@@ -373,7 +373,7 @@
       </table></div></div>
 
       <div class="note">
-        <h4>Predicted connections on the wiki graph (04_link_prediction)</h4>
+        <h4>Predicted connections on the wiki graph (scripts/analysis/link_prediction)</h4>
         <p>
           Highest Adamic–Adar candidates (missing-edge hypotheses to check in literature, not facts):
           <strong>Alzheimer's Disease ↔ Parkinson's Disease</strong> (aa 30.5) ·
@@ -538,7 +538,7 @@
       <p class="sec-label">06 · Role landscape</p>
       <h2>Roles shift when the graph is the union</h2>
       <p>
-        Same <code>_node_roles_lib</code> rules, thresholds recalibrated per graph. The composition of
+        Same <code>scripts/lib/node_roles.py</code> rules, thresholds recalibrated per graph. The composition of
         the union is qualitatively different from the triples-only reference:
       </p>
       <div class="table-wrap"><div class="copy-host table-host"><table>
@@ -592,10 +592,10 @@
           <p>
             The union <code>DiGraph</code> is built from <code>web/data/nodes.json</code> +
             <code>edges.json</code> (canonical combined dataset from
-            <code>scripts/05_build_combined.py</code>). Metrics: <code>nx.pagerank(G, alpha=0.85,
+            <code>scripts/combined/build.py</code>). Metrics: <code>nx.pagerank(G, alpha=0.85,
             max_iter=200)</code>; undirected projection → <code>betweenness_centrality</code>,
             <code>clustering</code>, <code>core_number</code>, <code>connected_components</code>; roles via
-            <code>scripts/_node_roles_lib.py</code>. Triples baseline reads
+            <code>scripts/lib/node_roles.py</code>. Triples baseline reads
             <code>graphify-out/graph.json</code>. Full details and tables: the task output document.
             (Ad-hoc analysis, not a tracked script.)
           </p>
@@ -628,7 +628,7 @@
 
       <h3>Next steps</h3>
       <ul>
-        <li>Re-cluster the union with Leiden and emit a canonical combined <code>graph.json</code> (union metrics + roles baked in) so <code>04_node_analysis.py --graph combined-graph.json</code> runs path / multiplicity / PPR analyses on the union.</li>
+        <li>Re-cluster the union with Leiden and emit a canonical combined <code>graph.json</code> (union metrics + roles baked in) so <code>scripts/analysis/node_analysis.py --graph combined-graph.json</code> runs path / multiplicity / PPR analyses on the union.</li>
         <li>Typed-spine analyses: relation-aware methods over the triples-only + shared edge set (≈3,832 typed edges) on the union node set.</li>
         <li>Role de-biasing: recompute roles on the typed subset to separate authoring out-degree from biological broadcasting.</li>
         <li>Close the flagged curation gaps (CDK4/CDK6 isolation; wiki-only edges in GRAPH_DIFF as triple seeds).</li>
@@ -639,8 +639,8 @@
         <li>Vault task output, 27 Aug 2026. <em>Node-level network analysis for the combined knowledge graph.</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md"><code>src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</code></a>.</li>
         <li>Wiki graph report, 27 Aug 2026. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md"><code>wiki-out/GRAPH_REPORT.md</code></a>.</li>
         <li>Triples-vs-wiki diff, 27 Aug 2026. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md"><code>wiki-out/GRAPH_DIFF.md</code></a>.</li>
-        <li>Pipeline. <code>scripts/03_rebuild_from_triples.py</code> · <code>scripts/05_rebuild_from_wiki.py</code> · <code>scripts/05_build_combined.py</code> · <code>scripts/_node_roles_lib.py</code>.</li>
-        <li>Analysis scripts. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> · <code>scripts/04_link_prediction.py</code> · <code>scripts/04_role_query.py</code>.</li>
+        <li>Pipeline. <code>scripts/triples/rebuild.py</code> · <code>scripts/wiki/rebuild.py</code> · <code>scripts/combined/build.py</code> · <code>scripts/lib/node_roles.py</code>.</li>
+        <li>Analysis scripts. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <code>scripts/analysis/link_prediction.py</code> · <code>scripts/analysis/role_query.py</code>.</li>
         <li>Triples-graph metrics reference (16 Aug 2026). <a href="node-analysis-examples-biology.html"><code>node-analysis-examples-biology.html</code></a>.</li>
         <li>Jeong H, et al. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42.</li>
         <li>Yu H, et al. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>

@@ -53,7 +53,7 @@
     <div class="meta">
       <p><strong>日期：</strong>2026年8月30日</p>
       <p><strong>資料來源：</strong><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a>（triples：型別化、有向、帶信心分數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json"><code>wiki-out/wiki-graph.json</code></a>（wiki：共同提及 <code>links_to</code>）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併：37,318 邊 = 3,895 條型別有向邊 + 33,423 條共同提及邊）</p>
-      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py"><code>04_role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
+      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
       <p><strong>讀者：</strong>生物學家與資料分析師。僅供資訊參考——非醫療建議。</p>
       <p><strong>其他語言：</strong><a href="../en-US/discovery-arrival-graph-metrics.html">English</a></p>
     </div>
@@ -776,8 +776,8 @@
         <p><strong>本 repo 產物與工具</strong>：<code>graphify-out/graph.json</code> · <code>wiki-out/wiki-graph.json</code> ·
         <code>web/public/data/edges.json</code>（合併；3,895 條型別化邊）· <code>web/public/data/link-prediction.json</code> ·
         <code>web/public/data/assumptions.json</code>（+ 已套用狀態：<code>assumptions-build.json</code>）·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>04_node_analysis.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py"><code>04_role_query.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> ·
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_triple_lookup.py"><code>03_triple_lookup.py</code></a> ·
         重播／反事實 harness（若採用可晉級至 <code>scripts/</code>）。來源任務輸出：
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>

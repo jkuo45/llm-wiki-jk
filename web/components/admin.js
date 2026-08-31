@@ -42,7 +42,7 @@ const panel = document.getElementById('admin-panel');
 const btn = document.getElementById('btn-admin');
 
 // Kill-switch: content_flags isn't live yet (see deploy/supabase/
-// content_flags.sql + scripts/07_sync_content.py). Flip to true once the SQL
+// content_flags.sql + scripts/sync/content_to_db.py). Flip to true once the SQL
 // has run and the backfill is seeded to surface the admin panel.
 const ADMIN_ENABLED = false;
 const closeBtn = document.getElementById('admin-close');

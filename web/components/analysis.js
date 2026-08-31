@@ -1524,7 +1524,7 @@ function renderAnalysisTools() {
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
     // Intra-community edge density from the build's Leiden scoring. Values
     // < 0.15 flag "spaghetti" communities whose members are wired mostly
-    // elsewhere — the same threshold scripts/04 reports on.
+    // elsewhere — the same threshold scripts/analysis reports on.
     const coh = cohesionMap[String(c.cid)];
     const loose = typeof coh === 'number' && coh < 0.15;
     return `<div class="at-comm" data-cid="${c.cid}">
@@ -1695,7 +1695,7 @@ function hydrateSurpriseList() {
 }
 
 // ------------------------------------------------------------
-// Predicted Connections (scripts/04_link_prediction.py artifact)
+// Predicted Connections (scripts/analysis/link_prediction.py artifact)
 // ------------------------------------------------------------
 async function hydratePredictedList() {
   const host = document.getElementById('at-predicted-list');

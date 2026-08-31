@@ -396,7 +396,7 @@ function renderNodeInfo(nodeId, actions) {
   const commColor = LEGEND.find(c => c.cid === n.community);
 
   // Biological role badges (from the auto-role classifier baked into
-  // nodes.json by scripts/03_rebuild_from_triples.py). Periphery is omitted
+  // nodes.json by scripts/triples/rebuild.py). Periphery is omitted
   // from display — at ~74% of nodes it carries no signal.
   const roles = (Array.isArray(n.roles) ? n.roles : []).filter(r => r && r !== 'Periphery');
   const rolesHTML = roles.length

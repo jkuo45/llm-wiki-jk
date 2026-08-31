@@ -260,7 +260,7 @@ lbImg.addEventListener('error', () => {
 // Derive a display topic from the tags list (prefer the topic-style
 // tag when present, otherwise the first tag). The controlled vocabulary
 // of valid topic slugs is auto-derived from the src/notes/*/ directory
-// layout and exported to web/data/topics.json by 03_rebuild_from_triples.py,
+// layout and exported to web/data/topics.json by scripts/triples/rebuild.py,
 // so adding a topic folder needs no code change. Until that JSON loads
 // (null), fall back to the tag list as before.
 let KNOWN_TOPICS = null;        // string[] once loaded from topics.json

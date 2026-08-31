@@ -46,7 +46,7 @@
       <p><strong>日期：</strong>2026年8月27日</p>
       <p><strong>資料來源：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code>（合併，檢視器預設）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code>（triples）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code>（wiki）</p>
       <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md" target="_blank">src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md" target="_blank">wiki-out/GRAPH_REPORT.md</a></code> · <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md" target="_blank">wiki-out/GRAPH_DIFF.md</a></code> · <code><a href="../en-US/node-analysis-examples-biology.html">node-analysis-examples-biology.html</a></code></p>
-      <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_rebuild_from_wiki.py" target="_blank">05_rebuild_from_wiki.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/05_build_combined.py" target="_blank">05_build_combined.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">04_node_analysis.py</a></code></p>
+      <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank">scripts/triples/rebuild.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/wiki/rebuild.py" target="_blank">scripts/wiki/rebuild.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/combined/build.py" target="_blank">scripts/combined/build.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code></p>
       <p><strong>指標：</strong>在聯集拓撲上重新計算（未加權、α = 0.85；無向中介性／聚類／k-core）——見<a href="#methods">方法</a></p>
     </div>
   </div>
@@ -307,7 +307,7 @@
             僅 wiki 的 <strong>PARK2</strong>、<strong>Mitochondrial Permeability Transition Pore</strong>（57）、
             <strong>Autophagosome</strong> 與 <strong>Atg1</strong> 加入共享的 <strong>Mitochondria</strong>／
             <strong>DRP1</strong>／<strong>Mitophagy</strong> 社群，把帕金森氏症（α-synuclein、6-OHDA）與
-            神經退化脈絡接上分裂／融合與粒線體自噬。<code>04_node_analysis</code> 式的 PPR 以 <strong>Cancer</strong>
+            神經退化脈絡接上分裂／融合與粒線體自噬。<code>scripts/analysis/node_analysis</code> 式的 PPR 以 <strong>Cancer</strong>
             為種子時，把 <code>mitochondria</code> 與 <code>neurodegeneration</code> 排進最近鄰居——
             粒線體—老化軸正是聯集的中央縫合線之一。
           </p>
@@ -503,7 +503,7 @@
       <p class="sec-label">06 · 角色分佈</p>
       <h2>當圖譜換成聯集時，角色會改變</h2>
       <p>
-        相同的 <code>_node_roles_lib</code> 規則，而是度閾值依各圖重新校準。聯集的組成與「僅 triples」
+        相同的 <code>scripts/lib/node_roles.py</code> 規則，而是度閾值依各圖重新校準。聯集的組成與「僅 triples」
         的參考頁面有質性的不同：
       </p>
       <div class="table-wrap"><div class="copy-host table-host"><table>
@@ -553,10 +553,10 @@
           <h3>在聯集上重新計算</h3>
           <p>
             聯集 <code>DiGraph</code> 由 <code>web/data/nodes.json</code> + <code>edges.json</code>
-            （由 <code>scripts/05_build_combined.py</code> 產生的合併資料集）建立。指標：
+            （由 <code>scripts/combined/build.py</code> 產生的合併資料集）建立。指標：
             <code>nx.pagerank(G, alpha=0.85, max_iter=200)</code>；無向投影 →
             <code>betweenness_centrality</code>、<code>clustering</code>、<code>core_number</code>、
-            <code>connected_components</code>；角色由 <code>scripts/_node_roles_lib.py</code> 產生。
+            <code>connected_components</code>；角色由 <code>scripts/lib/node_roles.py</code> 產生。
             Triples 基準讀取 <code>graphify-out/graph.json</code>。完整細節與表格見任務輸出文件。
             （一次性的分析，不是受追蹤的指令碼。）
           </p>
@@ -587,7 +587,7 @@
       <h3>後續步驟</h3>
       <ul>
         <li>以 Leiden 重新分群，並輸出規範合併 <code>graph.json</code>（內含聯集指標＋角色），使
-        <code>04_node_analysis.py --graph combined-graph.json</code> 能在聯集上執行路徑／多重性／PPR 分析。</li>
+        <code>scripts/analysis/node_analysis.py --graph combined-graph.json</code> 能在聯集上執行路徑／多重性／PPR 分析。</li>
         <li>具型別脊椎分析：在聯集節點集合上的「僅 triples + 共享」邊集（≈3,832 條具型別邊）執行關係感知方法。</li>
         <li>角色去偏：在具型別子集上重新計算角色，以區分「撰寫出度」與「生物播送」。</li>
         <li>補上已標記的策展缺口（CDK4/CDK6 孤立；GRAPH_DIFF 中的僅 wiki 邊作為 triple 種子）。</li>
@@ -598,8 +598,8 @@
         <li>倉庫任務輸出，2026 年 8 月 27 日。<em>合併知識圖譜的節點層級網絡分析。</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md"><code>src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md</code></a>。</li>
         <li>Wiki 圖報告，2026 年 8 月 27 日。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_REPORT.md"><code>wiki-out/GRAPH_REPORT.md</code></a>。</li>
         <li>Triples-vs-wiki 差異，2026 年 8 月 27 日。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/GRAPH_DIFF.md"><code>wiki-out/GRAPH_DIFF.md</code></a>。</li>
-        <li>管線。<code>scripts/03_rebuild_from_triples.py</code> · <code>scripts/05_rebuild_from_wiki.py</code> · <code>scripts/05_build_combined.py</code> · <code>scripts/_node_roles_lib.py</code>。</li>
-        <li>分析指令碼。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> · <code>scripts/04_link_prediction.py</code> · <code>scripts/04_role_query.py</code>。</li>
+        <li>管線。<code>scripts/triples/rebuild.py</code> · <code>scripts/wiki/rebuild.py</code> · <code>scripts/combined/build.py</code> · <code>scripts/lib/node_roles.py</code>。</li>
+        <li>分析指令碼。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <code>scripts/analysis/link_prediction.py</code> · <code>scripts/analysis/role_query.py</code>。</li>
         <li>Triples 圖指標參考（2026 年 8 月 16 日）。<a href="../en-US/node-analysis-examples-biology.html"><code>node-analysis-examples-biology.html</code></a>。</li>
         <li>Jeong H, et al. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42.</li>
         <li>Yu H, et al. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>

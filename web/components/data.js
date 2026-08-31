@@ -159,7 +159,7 @@ loadCacheTag().then(() => {
 // than at page load. roles-meta.json (~1 KB) carries the role rule
 // catalog + live thresholds; link-prediction.json holds the
 // Adamic-Adar missing-link candidates and god-node PPR profiles
-// emitted by scripts/04_link_prediction.py.
+// emitted by scripts/analysis/link_prediction.py.
 // ------------------------------------------------------------
 let ROLES_META = null;
 export async function loadRolesMeta() {

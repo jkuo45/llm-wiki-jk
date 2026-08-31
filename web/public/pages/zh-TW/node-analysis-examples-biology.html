@@ -43,7 +43,7 @@
       <p><strong>日期：</strong> 2026 年 8 月 16 日</p>
       <p><strong>資料來源：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code></p>
       <p><strong>來源文件：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md" target="_blank">src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</a></code></p>
-      <p><strong>程式碼：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">scripts/04_node_analysis.py</a></code></p>
+      <p><strong>程式碼：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank">scripts/triples/rebuild.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code></p>
       <p><strong>圖譜建構：</strong> <code>867a5ae5fdb8a46c</code></p>
     </div>
   </div>
@@ -115,7 +115,7 @@
         </p>
         <p>
           下方每個指標都是<strong>儲存在單一節點上的單一純量</strong>：該實體角色在隔離狀態下——一個源頭、一個瓶頸、一個骨幹、一個模組、或一個葉節點——的靜態、逐節點指紋。這些數字的型態才是<em>哪些</em>節點值得注意的分流工具。純量無法表達的是兩個具名實體之間的<em>關係</em>：<u><strong>它們如何</strong>沿著帶標籤、具信心加權的邊相連，<strong>是否</strong>共享鄰域，一條缺失的邊<strong>是否</strong>合理，或一旦低信心路徑被降權後，兩條路徑<strong>相距多遠</strong>。</u>那些問題是
-          <a href="#methods">關係感知方法</a>（<code>scripts/04_node_analysis.py</code>）的職責，它們在相同的 <code>graph.json</code> 上成對、多節點地運作。請將指紋視為分流層；將關係感知方法視為<em>如何</em>與<em>為何</em>。
+          <a href="#methods">關係感知方法</a>（<code>scripts/analysis/node_analysis.py</code>）的職責，它們在相同的 <code>graph.json</code> 上成對、多節點地運作。請將指紋視為分流層；將關係感知方法視為<em>如何</em>與<em>為何</em>。
         </p>
       </div>
 
@@ -146,7 +146,7 @@
               在有向圖上、阻尼係數 0.85 的隨機遊走。當其他高分節點連向某節點時，該節點得分高。在本實作中，Aging（0.00739）勝過 SASP（0.00712），儘管 SASP 度數較大——Aging 受到其餘重要核心的背書。
             </p>
             <p>
-              <strong>注意。</strong> PageRank 目前計算時<em>未</em>使用 <code>weight=</code>。信心分數儲存在邊上，但在本次呼叫之後才附加。個人化 PageRank（在 <code>04_node_analysis.py</code> 中的種子遊走）才是當問題是「與<em>此</em>節點相關」，而非「全局重要」時的正確工具。
+              <strong>注意。</strong> PageRank 目前計算時<em>未</em>使用 <code>weight=</code>。信心分數儲存在邊上，但在本次呼叫之後才附加。個人化 PageRank（在 <code>scripts/analysis/node_analysis.py</code> 中的種子遊走）才是當問題是「與<em>此</em>節點相關」，而非「全局重要」時的正確工具。
             </p>
             <p class="method-ex"><em>範例：</em>全局 PageRank 透過重要核心的連結，讓 Aging（0.00739）勝過 SASP（0.00712）——若要篩選「根本性」樞紐而非驅動者，跟著被背書的節點走，而不是度數最高的節點。</p>
           </div>
@@ -236,10 +236,10 @@
       <p class="sec-label">03 · 超越靜態指紋</p>
       <h2>儲存庫中已有的關係感知方法</h2>
       <p>
-        <code>scripts/04_node_analysis.py</code> 運行於相同的 <code>graph.json</code>
+        <code>scripts/analysis/node_analysis.py</code> 運行於相同的 <code>graph.json</code>
         上，並回答每節點向量無法回答的問題：兩個實體<em>如何</em>連接、它們是否共享鄰域、一條缺失的邊是否合理，以及一旦低信心路徑被降權後，兩條路徑究竟相距多遠。
       </p>
-      <pre><code>uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+      <pre><code>uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
     --sources sirt1 sirt3 --targets adrenochrome</code></pre>
 
       <div class="methods">
@@ -725,7 +725,7 @@
           <h3>說明你實際計算所用的圖</h3>
           <p>
             保留一個 <code>DiGraph</code> 用於入／出度與 PageRank。以
-            <code>G.to_undirected()</code> 投影，用於聚類、中介中心性與 k-core。<code>04_node_analysis.py</code> 中的多節點分析進一步在移除自環後，限制於最大連通分量。否則在斷開圖上的路徑指標會未定義，或靜默地變成諧波風格（harmonic-flavoured）。
+            <code>G.to_undirected()</code> 投影，用於聚類、中介中心性與 k-core。<code>scripts/analysis/node_analysis.py</code> 中的多節點分析進一步在移除自環後，限制於最大連通分量。否則在斷開圖上的路徑指標會未定義，或靜默地變成諧波風格（harmonic-flavoured）。
           </p>
           <pre><code>G_und = G.to_undirected()
 cc = max(nx.connected_components(G_und), key=len)
@@ -762,7 +762,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
           <p class="ptag general">一般做法</p>
           <h3>以保留度數的零模型檢驗</h3>
           <p>
-            高度數節點在幾乎所有指標上都得分高。配置模型集成（<code>nx.configuration_model</code> / 有向變體，100–1,000 次抽樣）可給出 z 分數或經驗 p 值。<code>04_node_analysis.py</code> 中的有效電阻（effective resistance）已對照隨機節點零樣本，對交換距離做 z 分數標準化；在將某節點稱為瓶頸之前，相同的習慣也應套用於中介中心性與聚類係數。
+            高度數節點在幾乎所有指標上都得分高。配置模型集成（<code>nx.configuration_model</code> / 有向變體，100–1,000 次抽樣）可給出 z 分數或經驗 p 值。<code>scripts/analysis/node_analysis.py</code> 中的有效電阻（effective resistance）已對照隨機節點零樣本，對交換距離做 z 分數標準化；在將某節點稱為瓶頸之前，相同的習慣也應套用於中介中心性與聚類係數。
           </p>
         </li>
         <li>
@@ -802,8 +802,8 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       <h2>知識庫分析與相關文獻</h2>
       <ol class="refs">
         <li>知識庫任務輸出，2026 年 8 月 16 日。<em>用於生物學優先排序的節點層級網絡分析。</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md"><code>src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</code></a>。</li>
-        <li>重建管線。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py"><code>scripts/03_rebuild_from_triples.py</code></a> — <code>DENYLIST</code>、<code>enrich_graph_metrics()</code>、Leiden 標籤、邊 <code>weight = confidence_score</code>。</li>
-        <li>多節點分析。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> — 最大連通分量、路徑多重性、Jaccard、Adamic–Adar、k-core、Fiedler（稠密 <code>eigh</code>）、有效電阻、個人化 PageRank。</li>
+        <li>重建管線。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/triples/rebuild.py</code></a> — <code>DENYLIST</code>、<code>enrich_graph_metrics()</code>、Leiden 標籤、邊 <code>weight = confidence_score</code>。</li>
+        <li>多節點分析。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> — 最大連通分量、路徑多重性、Jaccard、Adamic–Adar、k-core、Fiedler（稠密 <code>eigh</code>）、有效電阻、個人化 PageRank。</li>
         <li>Jeong H, Mason SP, Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/35075138">Lethality and centrality in protein networks</a>. <em>Nature</em> 2001;411:41–42.</li>
         <li>Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/nrg1272">Network biology: understanding the cell’s functional organization</a>. <em>Nat Rev Genet</em> 2004;5:101–113.</li>
         <li>Wuchty S, Almaas E. <a href="https://doi.org/10.1002/pmic.200400962">Peeling the yeast protein network</a>. <em>Proteomics</em> 2005;5:444–449.</li>
@@ -976,7 +976,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       stroke: C.mute, "stroke-width": 1.2,
       "marker-end": "url(#pipe-arr)"
     }, svg);
-    text(svg, 24, 28, "scripts/03_rebuild_from_triples.py  ·  enrich_graph_metrics()", {
+    text(svg, 24, 28, "scripts/triples/rebuild.py  ·  enrich_graph_metrics()", {
       size: 14, fill: C.mute, mono: true
     });
   }

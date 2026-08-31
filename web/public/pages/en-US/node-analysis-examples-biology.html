@@ -47,7 +47,7 @@
       <p><strong>Date:</strong> 16 August 2026</p>
       <p><strong>Data Source:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code></p>
       <p><strong>Source Document:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md" target="_blank">src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</a></code></p>
-      <p><strong>Code:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py" target="_blank">scripts/03_rebuild_from_triples.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py" target="_blank">scripts/04_node_analysis.py</a></code></p>
+      <p><strong>Code:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank">scripts/triples/rebuild.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code></p>
       <p><strong>Graph build:</strong> <code>867a5ae5fdb8a46c</code></p>
     </div>
   </div>
@@ -142,7 +142,7 @@
           <strong>whether</strong> a missing edge is plausible, or <strong>how far apart</strong>
           two pathways sit once low-confidence routes are down-weighted.</u> Those questions are
           the job of the <a href="#methods">relation-aware methods</a> in
-          <code>scripts/04_node_analysis.py</code>, which operate pairwise and multi-node on the
+          <code>scripts/analysis/node_analysis.py</code>, which operate pairwise and multi-node on the
           same <code>graph.json</code>. Read the fingerprint as the characterization layer; read
           the relation-aware methods as the <em>how</em> and <em>why</em>.
         </p>
@@ -188,7 +188,7 @@
             <p>
               <strong>Caveat.</strong> PageRank is currently computed <em>without</em>
               <code>weight=</code>. Confidence scores are stored on edges but attached after
-              this call. Personalized PageRank (seeded walks in <code>04_node_analysis.py</code>)
+              this call. Personalized PageRank (seeded walks in <code>scripts/analysis/node_analysis.py</code>)
               is the right tool when the question is “relevant to <em>this</em> node,” not
               “important globally.”
             </p>
@@ -329,13 +329,13 @@
       <p class="sec-label">03 · Beyond the static fingerprint</p>
       <h2>Relation-aware methods in this repository/implementation.</h2>
       <p>
-        <code>scripts/04_node_analysis.py</code> runs on the same <code>graph.json</code>
+        <code>scripts/analysis/node_analysis.py</code> runs on the same <code>graph.json</code>
         and answers questions the per-node vector cannot: <em>how</em> two entities
         connect, whether they share a neighbourhood, whether a missing edge is
         plausible, and how far apart two pathways really are once low-confidence
         routes are down-weighted.
       </p>
-      <pre><code>uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+      <pre><code>uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
     --sources sirt1 sirt3 --targets adrenochrome</code></pre>
 
       <div class="methods">
@@ -957,7 +957,7 @@
           <p>
             Keep a <code>DiGraph</code> for in/out-degree and PageRank. Project with
             <code>G.to_undirected()</code> for clustering, betweenness, and k-core.
-            Multi-node analytics in <code>04_node_analysis.py</code> further restrict
+            Multi-node analytics in <code>scripts/analysis/node_analysis.py</code> further restrict
             to the giant component after dropping self-loops. Path metrics on a
             disconnected graph are otherwise undefined or silently harmonic-flavoured.
           </p>
@@ -1012,7 +1012,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
             High-degree nodes score high on almost everything. A configuration-model
             ensemble (<code>nx.configuration_model</code> / directed variants, 100–1,000
             draws) gives z-scores or empirical p-values. Effective-resistance in
-            <code>04_node_analysis.py</code> already z-scores commute distance against
+            <code>scripts/analysis/node_analysis.py</code> already z-scores commute distance against
             a random-node null sample; the same habit should apply to betweenness
             and clustering before a node is called a bottleneck.
           </p>
@@ -1069,8 +1069,8 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       <h2>Vault analysis and the surrounding literature</h2>
       <ol class="refs">
         <li>Vault task output, 16 August 2026. <em>Node-level network analysis for biological prioritization.</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md"><code>src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</code></a>.</li>
-        <li>Rebuild pipeline. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_rebuild_from_triples.py"><code>scripts/03_rebuild_from_triples.py</code></a> — <code>DENYLIST</code>, <code>enrich_graph_metrics()</code>, Leiden labels, edge <code>weight = confidence_score</code>.</li>
-        <li>Multi-node analytics. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>scripts/04_node_analysis.py</code></a> — giant component, path multiplicity, Jaccard, Adamic–Adar, k-core, Fiedler (dense <code>eigh</code>), effective resistance, Personalized PageRank.</li>
+        <li>Rebuild pipeline. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/triples/rebuild.py</code></a> — <code>DENYLIST</code>, <code>enrich_graph_metrics()</code>, Leiden labels, edge <code>weight = confidence_score</code>.</li>
+        <li>Multi-node analytics. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> — giant component, path multiplicity, Jaccard, Adamic–Adar, k-core, Fiedler (dense <code>eigh</code>), effective resistance, Personalized PageRank.</li>
         <li>Jeong H, Mason SP, Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/35075138">Lethality and centrality in protein networks</a>. <em>Nature</em> 2001;411:41–42.</li>
         <li>Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/nrg1272">Network biology: understanding the cell’s functional organization</a>. <em>Nat Rev Genet</em> 2004;5:101–113.</li>
         <li>Wuchty S, Almaas E. <a href="https://doi.org/10.1002/pmic.200400962">Peeling the yeast protein network</a>. <em>Proteomics</em> 2005;5:444–449.</li>
@@ -1244,7 +1244,7 @@ bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pr
       stroke: C.mute, "stroke-width": 1.2,
       "marker-end": "url(#pipe-arr)"
     }, svg);
-    text(svg, 24, 28, "scripts/03_rebuild_from_triples.py  ·  enrich_graph_metrics()", {
+    text(svg, 24, 28, "scripts/triples/rebuild.py  ·  enrich_graph_metrics()", {
       size: 14, fill: C.mute, mono: true
     });
   }

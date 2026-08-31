@@ -54,7 +54,7 @@
     <div class="meta">
       <p><strong>Date:</strong> 30 August 2026</p>
       <p><strong>Data sources:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> (triples: typed, directed, confidence-scored) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json"><code>wiki-out/wiki-graph.json</code></a> (wiki: co-mention <code>links_to</code>) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined: 37,318 edges = 3,895 typed-directed + 33,423 co-mention)</p>
-      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py"><code>04_role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
+      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
       <p><strong>Audience:</strong> biologists and data analysts. Informational — not medical advice.</p>
     </div>
   </div>
@@ -803,8 +803,8 @@
         <p><strong>Repo artifacts &amp; tools</strong>: <code>graphify-out/graph.json</code> · <code>wiki-out/wiki-graph.json</code> ·
         <code>web/public/data/edges.json</code> (combined; 3,895 typed edges) · <code>web/public/data/link-prediction.json</code> ·
         <code>web/public/data/assumptions.json</code> (+ applied state: <code>assumptions-build.json</code>) ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_node_analysis.py"><code>04_node_analysis.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/04_role_query.py"><code>04_role_query.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> ·
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_triple_lookup.py"><code>03_triple_lookup.py</code></a> ·
         replay/counterfactual harnesses (promote to <code>scripts/</code> if adopted). Source task output:
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
