@@ -2,8 +2,10 @@
 
 The original wiki-page theme, coupled to the graph app chrome.
 
-- **Default: dark** (`pages.css`). Light is a second stylesheet
-  (`pages-light.css`) toggled via the `disabled` attribute.
+- **Default: light**. `pages.css` is the dark baseline; `pages-light.css` is
+  the second stylesheet (`#theme-light`) toggled via its `disabled` attribute.
+  Only an explicit `'dark'` in `localStorage['llm-wiki-theme']` opts into
+  dark — light is the default when no (or a stored) light preference exists.
 - **No-flash theming**: pages ship `pages-light.css` as a *static* head link
   (`<link rel="stylesheet" href="…/pages-light.css" id="theme-light">`,
   enabled by default). A static link is render-blocking, so first paint
@@ -11,6 +13,11 @@ The original wiki-page theme, coupled to the graph app chrome.
   then reuses that link and sets `disabled = stored theme === 'dark'` before
   paint. Legacy behavior (dynamic injection) is kept only as a fallback for
   pages without the static link — those still flash dark→light.
+- Shared rule: the page-world decision lives on `window.WikiTheme`
+  (`currentTheme()`/`isDark()`), defined (define-once) by `page-theme.js` for
+  theme-01 and `themes/theme-02/theme.js` for theme-02. `pages-core.js`
+  consumes it at runtime, so the pre-paint and post-paint states can never
+  drift. The bundled app module `components/theme.js` mirrors the same rule.
 - Pre-paint bootstrap: `page-theme.js` injects the light stylesheet in the
   correct state from `localStorage['llm-wiki-theme']` (set by the reader
   header toggle in `web/components/theme.js`).

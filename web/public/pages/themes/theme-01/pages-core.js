@@ -41,8 +41,15 @@ if (window.self !== window.top) {
   var link = document.getElementById('theme-light');
   var last = null;
   function cur(){
-    try { return localStorage.getItem(KEY) === 'light' ? 'light' : 'dark'; }
-    catch (e) { return 'dark'; }
+    // Resolve the active theme through the single page-world helper defined
+    // by page-theme.js (<head>), so it can never drift from the pre-paint
+    // state. Fall back to the same rule (light default; only explicit 'dark'
+    // opts in) if the helper is somehow absent.
+    if (window.WikiTheme && typeof window.WikiTheme.currentTheme === 'function') {
+      return window.WikiTheme.currentTheme();
+    }
+    try { return localStorage.getItem(KEY) === 'dark' ? 'dark' : 'light'; }
+    catch (e) { return 'light'; }
   }
   function sync(theme){
     if (theme === last) return;
@@ -59,7 +66,7 @@ if (window.self !== window.top) {
     }
   });
   window.addEventListener('storage', function(e){
-    if (e.key === KEY) sync(e.newValue === 'light' ? 'light' : 'dark');
+    if (e.key === KEY) sync(e.newValue === 'dark' ? 'dark' : 'light');
   });
   sync(cur());
 })();
