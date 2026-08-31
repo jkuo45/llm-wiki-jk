@@ -25,7 +25,7 @@ The release of extracellular [[Neuromelanin]] from dying dopaminergic neurons ac
 Microglia are the **dominant source of [[cGAS]] expression in the diseased brain**, making microglial [[cGAS-STING Pathway|cGAS-STING]] signaling a major upstream regulator of [[Type I Interferon|IFN-I]] responses that drive [[Neuroinflammation]].
 
 > [!info] Source: [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
-> Pathogenic proteins ([[Tau|tau]], [[Amyloid Beta|Aβ]], [[Alpha-synuclein|α-synuclein]]) activate microglial cGAS—via [[mtDNA]] leakage or the [[Tau|tau]]–[[PQBP1]] complex—triggering sustained [[IRF3]]/[[NF-kappaB|NF-κB]] inflammatory output. This generates a distinct IFN-I–enriched microglial subpopulation, separate from the canonical [[Disease-Associated Microglia|DAM]] program, that correlates with synapse loss and cognitive impairment.
+> Pathogenic proteins ([[Tau|tau]], [[Amyloid Beta|Aβ]], [[Alpha-synuclein|α-synuclein]]) activate microglial cGAS—via [[mtDNA]] leakage or the [[Tau|tau]]–[[PQBP1]] complex—triggering sustained [[IRF3]]/[[NF-κB|NF-κB]] inflammatory output. This generates a distinct IFN-I–enriched microglial subpopulation, separate from the canonical [[Disease-Associated Microglia|DAM]] program, that correlates with synapse loss and cognitive impairment.
 
 > [!important] Therapeutic uncoupling
 > Genetic or pharmacological cGAS/STING inhibition suppresses the **neurotoxic** inflammatory program while **preserving or augmenting phagocytosis**—cGAS deletion increases microglial recruitment to plaques and enhances [[Amyloid Beta|Aβ]] clearance. Pathogenic tau also drives microglial NF-κB to promote seed-competent [[Tau|tau]] export and propagation. AD risk alleles [[APOE4]] and [[TREM2]] R47H amplify cGAS-associated microglial [[Senescence|senescence]] ([[SASP]]).
@@ -53,6 +53,6 @@ Microglia are the **dominant source of [[cGAS]] expression in the diseased brain
 - [[Tau]] — pathogenic tau activates microglial cGAS-STING and NF-κB-driven tau export
 - [[TREM2]] / [[APOE4]] — AD risk alleles amplifying cGAS-associated microglial senescence
 ## Linking Summary
-- New links added: [[cGAS]], [[cGAS-STING Pathway]], [[Type I Interferon]], [[IRF3]], [[NF-kappaB]], [[Disease-Associated Microglia]], [[PQBP1]], [[Tau]], [[Amyloid Beta]], [[Alpha-synuclein]], [[mtDNA]], [[TREM2]], [[APOE4]], [[SASP]]
+- New links added: [[cGAS]], [[cGAS-STING Pathway]], [[Type I Interferon]], [[IRF3]], [[NF-κB]], [[Disease-Associated Microglia]], [[PQBP1]], [[Tau]], [[Amyloid Beta]], [[Alpha-synuclein]], [[mtDNA]], [[TREM2]], [[APOE4]], [[SASP]]
 - Suggested new entity notes to create: [[Macrophage]], [[Microgliosis]]
   - Strong connections to strengthen: [[Microglia]] ↔ [[cGAS-STING Pathway]], [[Microglia]] ↔ [[Type I Interferon]], [[Microglia]] ↔ [[Disease-Associated Microglia]].

@@ -10,7 +10,7 @@ aliases: []
 
 # IKK
 
-**IKK** (IκB kinase, also known as the IKK complex or IKK signalosome) is a multi-subunit protein kinase complex that serves as the central regulatory node of the [[NF-κB]] signaling pathway. The complex is composed of two catalytic subunits, [[IKKα]] (IKK1) and [[IKKβ]] (IKK2), and a regulatory scaffold subunit, IKKγ (also called NEMO). Beyond its canonical role in phosphorylating the inhibitor IκBα to release NFκB, IKK directly phosphorylates pro-apoptotic Bcl-2 family members including [[Puma]] and [[Bad]], thereby modulating their activity and linking inflammatory signaling to cell-survival decisions.
+**IKK** (IκB kinase, also known as the IKK complex or IKK signalosome) is a multi-subunit protein kinase complex that serves as the central regulatory node of the [[NF-κB]] signaling pathway. The complex is composed of two catalytic subunits, [[IKKalpha|IKKα]] (IKK1) and [[IKKβ]] (IKK2), and a regulatory scaffold subunit, IKKγ (also called NEMO). Beyond its canonical role in phosphorylating the inhibitor IκBα to release NFκB, IKK directly phosphorylates pro-apoptotic Bcl-2 family members including [[Puma]] and [[Bad]], thereby modulating their activity and linking inflammatory signaling to cell-survival decisions.
 
 ## Structure & Composition
 
@@ -39,7 +39,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[NF-κB]] - The transcription factor whose activation is directly controlled by IKK phosphorylation of IκBα.
-- [[IKKα]] - Catalytic subunit involved in canonical and alternative NFκB signaling.
+- [[IKKalpha|IKKα]] - Catalytic subunit involved in canonical and alternative NFκB signaling.
 - [[IKKβ]] - Principal inflammatory-stimulus-responsive catalytic subunit.
 - [[Puma]] - Pro-apoptotic BH3-only protein phosphorylated by IKK.
 - [[Bad]] - Pro-apoptotic Bcl-2 family member modulated by IKK phosphorylation.
@@ -49,6 +49,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[IKKα]], [[IKKβ]], [[NF-κB]], [[Puma]], [[Bad]], [[Apoptosis]], [[Inflammation]], [[Colorectal Cancer]], [[Angiogenesis]], [[Chemotherapy]], [[Hallmarks of Cancer]], [[BCL-XL]], [[XIAP]], [[c-FLIP]]
+- New links added: [[IKKalpha|IKKα]], [[IKKβ]], [[NF-κB]], [[Puma]], [[Bad]], [[Apoptosis]], [[Inflammation]], [[Colorectal Cancer]], [[Angiogenesis]], [[Chemotherapy]], [[Hallmarks of Cancer]], [[BCL-XL]], [[XIAP]], [[c-FLIP]]
 - Suggested new entity notes to create: [[NEMO]], [[TAK1]], [[IκBα]]
 - Strong connections to strengthen: [[IKK]] ↔ [[NF-κB]], [[IKK]] ↔ [[Puma]], [[IKK]] ↔ [[Bad]]

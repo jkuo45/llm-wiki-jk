@@ -1,0 +1,74 @@
+# llm-wiki-jk — Longevity-Focused Biomedical Wiki & Knowledge Graph
+
+> An interactive biomedical knowledge graph with a longevity focus, built from a personal Obsidian-style wiki of curated research. Explore thousands of interconnected concepts — sirtuins and NAD⁺ metabolism, autophagy, mitohormesis, cellular senescence, oxidative stress, adrenochrome/neuromelanin chemistry, and cancer prevention — then use the Prompt panel to ask questions and analyze the wiki and the graph in a bilingual (EN / 中文) interface.
+
+## Wiki Focus
+
+The wiki is a personal research corpus organized around three intersecting themes:
+
+- **Adrenochrome & catecholamine oxidation** — the chemistry and biology of oxidized catecholamines: adrenaline → adrenochrome → neuromelanin, COMT/MAO clearance, oxidative-stress links, and protective chemistry (e.g. methylene blue, aminoguanidine). Includes speculative protocols that are clearly labeled — not medical advice.
+- **Mitohormesis** — hormetic mitochondrial stress signaling: ROS as a signaling currency, the SIRT3/SIRT4 redox dial, mitochondrial dynamics and NAD⁺ metabolism, and how exercise, caloric restriction, and compounds like nicotinamide riboside act through adaptive mitochondrial responses.
+- **Autophagy** — cellular self-clearance and recycling: the TFEB/TFE3–lysosome axis, mTOR/rapamycin signaling, caloric restriction and fasting, mitophagy, and autophagy's dual role in cancer and aging.
+
+Supporting these themes is the wider entity network the graph maps: sirtuins (SIRT1–SIRT7), cellular senescence/SASP, oxidative stress, cancer prevention, and cross-topic hubs such as NAD⁺ and inflammation.
+
+## Prompt & Graph (Analysis Panel)
+
+Open the Analysis panel (chart icon) on [graph.johnnykuo.com](https://graph.johnnykuo.com/) to ask questions and explore the wiki:
+
+- **Prompt mode** — ask open questions; answers are grounded in wiki retrieval or graphify graph operations (explain / path / trace). Tag entities with `@` (e.g. `@NAD+ @SIRT1`), hover `[[wiki links]]` for entity summaries, and watch the graph highlight the nodes behind each answer.
+- **Graph mode** — run graph operations directly against the knowledge graph; results are traced node-by-node on the 3D view.
+- Bilingual (English / 繁體中文); responses render as inline markdown or a downloadable standalone HTML page.
+
+## Graph Analysis
+
+- Interactive 3D knowledge-graph view of ~2,600 concept nodes and ~3,700 links derived from the wiki's cross-linked entity notes.
+- Topic communities (Leiden clustering) with a color-coded legend; click any node to inspect its description, degree, PageRank, and betweenness centrality.
+- Curated graph-query traces (e.g. "What connects NAD⁺ metabolism to inflammation?") that replay as highlighted node/edge routes.
+- **Quantitative multi-node analysis** — compare any set of source entities against anchor targets across the full entity network: shortest-path multiplicity and first-hop bridge nodes; neighborhood distinctness (degree, pairwise Jaccard overlap, signature neighbors); Adamic-Adar link-prediction proximity between every source–target pair; k-core nesting depth; spectral geometry (algebraic connectivity, Fiedler vector); effective-resistance / commute distance z-scored against random-node null samples; and personalized PageRank flow seeded at each target.
+- Pre-computed graph context (god nodes, surprising connections, community cohesion) surfaces high-leverage entities before drilling in.
+- **Predicted Connections** — Adamic-Adar link prediction over non-adjacent entities (`web/data/link-prediction.json`, regenerated each build): shared-neighbour pairs whose implied biology no document states yet, with cross-community flags and personalized-PageRank similarity profiles for hub seeds.
+- **Role Explorer** — per-node biological roles (Spreader, Master regulator, Bottleneck, Module member, Core backbone) auto-classified from live percentile fingerprints, with the rule catalog and thresholds exposed (`web/data/roles-meta.json`).
+- Full-text node search, physics / label / edge toggles, camera reset, and PNG export of the current view.
+- **Assumptions Lab** *(work in progress — conflict resolution and metric recalculation still being tuned)* — scenario analysis over curated knowledge-graph conflicts ([pages/en-US/assumptions.html](https://graph.johnnykuo.com/pages/en-US/assumptions.html), [中文版](https://graph.johnnykuo.com/pages/zh-TW/assumptions.html)): pick assumption A/B per contradiction distilled from the human-review reports, and degrees, PageRank, and shortest paths recompute client-side over the modified edge set with a baseline-vs-scenario diff. Selections are session-only and are not applied to the canonical graph build.
+
+## Notes Panel
+
+Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's research workflow — filterable by topic and tag, with a full transcript viewer.
+
+## Articles (English)
+
+- [Sirtuins - Pleiotropy in Tumor Cell Metabolism](https://graph.johnnykuo.com/pages/en-US/sirtuins_pleiotropic_roles.html): The seven mammalian sirtuins as compartmentalized, context-dependent metabolic rheostats in tumor cell metabolism and therapeutic targeting.
+- [Sirtuins - Disease Complications](https://graph.johnnykuo.com/pages/en-US/sirtuins_disease_complications.html): Sirtuins (SIRT1–SIRT7) in health and disease, examined complication by complication across cancer, metabolic, cardiovascular, and neurodegenerative contexts.
+- [[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)](https://graph.johnnykuo.com/pages/en-US/ivermectin-fenbendazole-anticancer.html): Complementary anticancer mechanisms of ivermectin and fenbendazole and their connections to sirtuin biology (preclinical evidence).
+- [[Speculative] Adrenochrome MB/AG Protocol](https://graph.johnnykuo.com/pages/en-US/adrenochrome-protocol.html): Interactive explorer of a speculative adrenochrome methylene-blue / ascorbate-glutathione protocol — clearly labeled as speculative, not medical advice.
+- [Sirtuins - Articles, figures, images (index)](https://graph.johnnykuo.com/pages/en-US/sirtuins-articles-and-figures.html): Index of sirtuin-related article figures and images from the wiki.
+- [Senescence - Articles, figures, images (index)](https://graph.johnnykuo.com/pages/en-US/senescence-articles-and-figures.html): Index of senescence-related article figures and images from the wiki.
+- [Node-level Network Analysis for Biological Knowledge Graph](https://graph.johnnykuo.com/pages/en-US/node-analysis-examples-biology.html): Methods briefing on using NetworkX centrality fingerprints (degree, PageRank, betweenness, clustering, k-core, community) to triage biomedical entities in the directed knowledge graph — worked examples on real nodes in this vault.
+- [Biological Processes in the Combined Knowledge Graph](https://graph.johnnykuo.com/pages/en-US/wiki-and-triples-graph-biological-processes.html): Biology-focused tour of the combined triples + wiki graph — union connectivity (k-core 6 → 20, giant component 94%), wiki-only processes (cGAS–STING / type I IFN, cell cycle, p53/TP53 consolidation, NMN / NAD+, mitophagy), surprising links and predicted edges, and worked biological process examples with metrics recomputed on the union topology.
+- [Caspases — Graph Analysis (wiki + triples)](https://graph.johnnykuo.com/pages/en-US/caspase-graph-analysis-28-AUG-2026.html): Multi-metric analysis of all 13 caspase nodes on the combined triples + wiki graph — two-community family structure (death program vs inflammaging wedge), Caspase-8 as the only master regulator, PPR death-modality signatures, layer decomposition showing the PIDDosome axis exists only in the triples layer, adjudicated link predictions (Caspase-9 → Cancer AA 0.90; Caspase-3 → Apoptosis AA 15.9), and a prioritized enrichment queue for the unwired senolytic and senescence–caspase axes.
+- [The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy](https://graph.johnnykuo.com/pages/en-US/adrenochrome-protocol-node-network-analysis.html): A network-trace atlas for the methylene blue + aminoguanidine adrenochrome protocol on this knowledge graph — how each protocol agent is wired to the adrenochrome trigger (direct chemical edges vs shared redox/injury bridges), the walk-mass coupling ladder, the spectral seam across the chemistry and program layers, refreshed adaptive-arm baseline, falsifiable hypotheses H1–H8, and a trace log that grows as more runs land.
+- [Neurodegeneration Compared — AD, PD, HD, and the ALS–FTD Spectrum](https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html): Comparative review of the four major neurodegenerative syndromes — shared mechanistic matrix (proteostasis, mitochondria, oxidative stress, cGAS–STING innate immunity, senescence) versus disease-specific triggers, vulnerable cell types, spread topology and tempo; therapeutic logic follows target topology (anti-amyloid antibodies in AD, gene silencing in HD/SOD1-ALS); includes graph-derived degrees, Jaccard overlaps and topic-mention heatmaps from the wiki graph.
+- [Reading a Discovery Arrival — Graph Metrics and Typed Edges (Ferroptosis & COVID)](https://graph.johnnykuo.com/pages/en-US/discovery-arrival-graph-metrics.html): How graph metrics behave when a discovery enters the graph — the five-phase lifecycle traced metric-by-metric through year-by-year replays of ferroptosis (betweenness ×1,000, k-core 8→19, Adamic-Adar foreseeability 0.8→0) and COVID/vaccines (community oscillation, the Lymphopenia seed effect), plus how the combined graph's 3,895 typed edges turn co-mention into implication: attribute transfer, typed-path composition (COVID→SIRT3→ferroptosis, inferred two years before the 2024 literature), signed-triad inference, and calibrated link prediction (Gysi 62% vs 0.8%).
+
+## Articles (Traditional Chinese / 中文)
+
+- [腫瘤細胞代謝中的多效性](https://graph.johnnykuo.com/pages/zh-TW/sirtuins_pleiotropic_roles.html): 腫瘤代謝與治療中的 SIRT 多效性角色。
+- [疾病併發症](https://graph.johnnykuo.com/pages/zh-TW/sirtuins_disease_complications.html): 健康與疾病中的 SIRT，逐併發症檢視。
+- [伊維菌素 × 芬苯達唑（互補抗癌機制）](https://graph.johnnykuo.com/pages/zh-TW/ivermectin-fenbendazole-anticancer.html): 互補的抗癌機制與 Sirtuin 連結（臨床前證據）。
+- [腎上腺色素 亞甲藍/銀 方案（推測性）](https://graph.johnnykuo.com/pages/zh-TW/adrenochrome-protocol.html): 互動式解說器 — 推測性方案，非醫療建議。
+- [Sirtuins — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/zh-TW/sirtuins-articles-and-figures.html): Sirtuin 相關文章圖像與圖表的索引。
+- [細胞衰老 — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/zh-TW/senescence-articles-and-figures.html): 細胞衰老相關文章圖像與圖表的索引。
+- [用於生物學優先排序的節點層級網絡分析](https://graph.johnnykuo.com/pages/zh-TW/node-analysis-examples-biology.html): 一篇方法論簡報——運用 NetworkX 中心性指紋（度數、PageRank、中介中心性、聚類係數、k-core、社群）在具向知識圖譜中篩選生物醫學實體，並以本知識庫真實節點作為實作成例。
+- [Caspases — 圖譜分析（wiki + triples）](https://graph.johnnykuo.com/pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html)：在合併的 triples + wiki 圖譜上，對全部 13 個 caspase 節點的多指標分析——兩社群家族結構（死亡程序 vs 發炎老化楔形）、Caspase-8 為唯一主調控者、跨死亡模式的 PPR 簽名、分層分解顯示 PIDDosome 軸僅存在於 triples 層、經文獻裁決的連結預測（Caspase-9 → Cancer AA 0.90；Caspase-3 → Apoptosis AA 15.9），以及針對未接線的 senolytic 與衰老–caspase 軸的增補佇列。
+- [合併知識圖譜中的生物過程（wiki 與 triples）](https://graph.johnnykuo.com/pages/zh-TW/wiki-and-triples-graph-biological-processes.html): 以生物學為中心的合併（triples + wiki）圖譜導覽——聯集連通性（k-core 6 → 20、最大連通分量 94%）、僅 wiki 的過程（cGAS–STING／第一型干擾素、細胞週期、p53/TP53 整併、NMN／NAD+、粒線體自噬）、意外連結與預測邊，以及以聯集拓撲重新計算指標的工作生物學過程實例。
+- [神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系](https://graph.johnnykuo.com/pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html): 四大神經退化性症候群的比較回顧——共享機制矩陣（蛋白質恆定、粒線體、氧化壓力、cGAS–STING 先天免疫、細胞老化）對比疾病特異的觸發條件、脆弱細胞類型、傳播拓撲與病程速度；治療邏輯跟隨標的拓撲（AD 的抗類澱粉抗體、HD／SOD1-ALS 的基因靜默）；包含 wiki 圖譜的度數、Jaccard 重疊與主題提及熱圖。
+
+- [假設實驗室 — 圖譜衝突的 A/B 情境分析](https://graph.johnnykuo.com/pages/zh-TW/assumptions.html)（製作中——衝突解析與指標重新計算仍在調整）: 為知識圖譜審查報告整理出的每個矛盾選定假設 A/B，度數、PageRank 與最短路徑即時在修改後的邊集合上重新計算，並與基準逐項比較；選擇僅存於當前工作階段，不會套用到正式圖譜建置。
+
+- [解讀一次新發現的抵達 — 圖譜指標與型別化邊（鐵死亡與 COVID）](https://graph.johnnykuo.com/pages/zh-TW/discovery-arrival-graph-metrics.html): 以鐵死亡（2012→2026，介數 ×1,000、k-core 8→19、Adamic-Adar 可預見性 0.8→0）與 COVID／疫苗（社群振盪、Lymphopenia 種子效應）的逐年反事實重播，逐指標追蹤五階段發現生命週期；並說明合併圖譜的 3,895 條型別化邊如何把共同提及轉為推論——屬性轉移、型別路徑合成（COVID→SIRT3→鐵死亡，早於 2024 年文獻兩年）、符號三元組推論，以及經校準的連結預測（Gysi 62% vs 0.8%）。
+## Data & Source
+
+- Wiki source and the curated document corpus (100+ papers and reviews) live in the [llm-wiki-jk GitHub repository](https://github.com/jkuo45/llm-wiki-jk).
+- Machine-readable graph data (nodes / links / communities with per-node descriptions) is served as JSON under the app's `/data/` path — see `web/data/` in the repository.
+- This is a personal research wiki, not medical advice; speculative protocol pages are explicitly labeled.

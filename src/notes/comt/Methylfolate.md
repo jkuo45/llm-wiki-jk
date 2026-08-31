@@ -18,7 +18,7 @@ Methylfolate is a reduced tetrahydrofolate bearing a methyl group at the N5 posi
 
 ## Mechanism in the Methylation Cycle
 
-[[Methylfolate]] donates its methyl group to [[Homocysteine]] via [[Methionine Synthase]] (using [[MethylB12]] as cofactor), producing [[Methionine]] and regenerating tetrahydrofolate. Methionine is then converted to [[S-Adenosylmethionine]] ([[SAMe]]), the universal methyl donor for [[COMT]] and all other methyltransferases. Thus methylfolate sits upstream of the methyl-group pool that [[COMT]] ([[Catechol-O-methyltransferase]]) consumes to inactivate catecholamines.
+[[Methylfolate]] donates its methyl group to [[Homocysteine]] via [[Methionine Synthase]] (using [[MethylB12]] as cofactor), producing [[Methionine]] and regenerating tetrahydrofolate. Methionine is then converted to [[SAM|S-Adenosylmethionine]] ([[SAMe]]), the universal methyl donor for [[COMT]] and all other methyltransferases. Thus methylfolate sits upstream of the methyl-group pool that [[COMT]] ([[COMT|Catechol-O-methyltransferase]]) consumes to inactivate catecholamines.
 
 ## Interaction with COMT and Sensitivity
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Folate]], [[MTHFR]], [[Methylation Cycle]], [[COMT]], [[MethylB12]], [[Val158Met]], [[Homocysteine]], [[Methionine]], [[S-Adenosylmethionine]], [[Catechol-O-methyltransferase]], [[Neurotransmitters]].
+- New links added: [[Folate]], [[MTHFR]], [[Methylation Cycle]], [[COMT]], [[MethylB12]], [[Val158Met]], [[Homocysteine]], [[Methionine]], [[SAM|S-Adenosylmethionine]], [[COMT|Catechol-O-methyltransferase]], [[Neurotransmitters]].
 - Suggested new entity notes to create: [[Tetrahydrofolate]], [[Homocysteine]].
 - Strong connections to strengthen: [[Methylfolate]] ↔ [[COMT]]; [[Methylfolate]] ↔ [[Methylation Cycle]].

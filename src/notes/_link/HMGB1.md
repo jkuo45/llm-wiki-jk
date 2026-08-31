@@ -88,7 +88,7 @@ In the ivermectin anticancer-repositioning literature, [[Ivermectin]] induces **
 - [[Ivermectin]] — Induces ICD with HMGB1 release; mechanistic bridge to SASP/DAMP signaling
 - [[SASP]] — HMGB1 is a key SASP component that amplifies the inflammatory secretome
 - [[Senescent Cells]] — Source of extracellular HMGB1 via p53-dependent release
-- [[NF-kappaB]] — HMGB1 activates NF-κB through TLR4/RAGE signaling, sustaining SASP
+- [[NF-κB]] — HMGB1 activates NF-κB through TLR4/RAGE signaling, sustaining SASP
 - [[p53]] — p53-dependent HMGB1 nuclear export and release during senescence
 - [[Inflammaging]] — Chronic HMGB1 elevation contributes to age-related sterile inflammation
 - [[Inflammasome]] — HMGB1 activates NLRP3 inflammasome, amplifying IL-1β production
@@ -111,6 +111,6 @@ In the ivermectin anticancer-repositioning literature, [[Ivermectin]] induces **
 - Suggested new entity notes to create: [[Calreticulin]], [[ATP]]
 - Strong connections to strengthen:
     - [[HMGB1]] ↔ [[SASP]]
-    - [[HMGB1]] ↔ [[NF-kappaB]]
+    - [[HMGB1]] ↔ [[NF-κB]]
     - [[HMGB1]] ↔ [[Senescent Cells]]
     - [[HMGB1]] ↔ [[Ivermectin]] (ivermectin-induced ICD with HMGB1 release)

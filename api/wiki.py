@@ -140,11 +140,16 @@ def build_wiki_index() -> dict[str, dict]:
             for key in {record["title"], path.stem} | set(record["aliases"]):
                 key = key.lower()
                 existing = index.get(key)
+                # record["path"] is absolute; compare on the filename so the
+                # entity-beats-document preference actually fires
+                existing_is_doc = Path(existing.get("path", "")).name.startswith(
+                    "_document_"
+                ) if existing else False
                 if existing is None:
                     index[key] = record
-                elif existing.get("path", "").startswith("_document_") and not is_document:
+                elif existing_is_doc and not is_document:
                     index[key] = record
-                elif not existing.get("path", "").startswith("_document_") and not is_document:
+                elif not existing_is_doc and not is_document:
                     if len(record["description"]) > len(existing["description"]):
                         index[key] = record
     _WIKI_INDEX = index

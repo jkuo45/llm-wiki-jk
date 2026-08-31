@@ -14,7 +14,7 @@ aliases: [IGFBP3, IGF-binding protein 3, IBP3]
 
 # IGFBP3
 
-**IGFBP3 (insulin-like growth factor-binding protein 3)** is the major circulating binding protein for [[IGF1]] and a direct [[p53]] ([[TP53]]) target gene. It is a hallmark of the p53-dependent arm of the [[SASP|Senescence-Associated Secretory Phenotype]] and contributes to immunosurveillance of senescent cells.
+**IGFBP3 (insulin-like growth factor-binding protein 3)** is the major circulating binding protein for [[IGF1]] and a direct [[p53]] ([[p53]]) target gene. It is a hallmark of the p53-dependent arm of the [[SASP|Senescence-Associated Secretory Phenotype]] and contributes to immunosurveillance of senescent cells.
 
 ## Mechanism of Action & Signaling
 
@@ -44,5 +44,5 @@ IGFBP3 is transcriptionally induced by p53 after DNA damage and during oncogene-
 
 ## Linking Summary
 
-- New links added: [[p53]], [[TP53]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF1]], [[IGF1R]], [[Apoptosis]]
+- New links added: [[p53]], [[p53]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF1]], [[IGF1R]], [[Apoptosis]]
   - Strong connections to strengthen: [[IGFBP3]] ↔ [[p53]], [[IGFBP3]] ↔ immunosurveillance, [[IGFBP3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

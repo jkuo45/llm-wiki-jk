@@ -19,7 +19,7 @@ Progression through G1 is driven by [[Cyclin-Dependent Kinase]] (CDK) complexes,
 
 ## Checkpoints & Surveillance
 
-G1 contains a key DNA-damage checkpoint. Stress or genome damage activates [[TP53]], which induces p21^CIP1^, a CDK inhibitor that halts cyclin–CDK activity and arrests the cell, allowing repair or triggering [[Senescence]]/apoptosis. Measurement of cell size and biomass via nutrient-sensing pathways (mTOR, AMPK) likewise gates G1 progression, linking metabolism to proliferation.
+G1 contains a key DNA-damage checkpoint. Stress or genome damage activates [[p53]], which induces p21^CIP1^, a CDK inhibitor that halts cyclin–CDK activity and arrests the cell, allowing repair or triggering [[Senescence]]/apoptosis. Measurement of cell size and biomass via nutrient-sensing pathways (mTOR, AMPK) likewise gates G1 progression, linking metabolism to proliferation.
 
 ## Physiological Function
 
@@ -44,10 +44,10 @@ List of documents that mention this entity
 - [[Restriction Point]] - commitment point late in G1
 - [[RB1]] - tumor suppressor phosphorylated to permit E2F release
 - [[Quiescence]] - G0 arrest state entered/exited around G1
-- [[TP53]] - damage sensor enforcing G1 arrest
+- [[p53]] - damage sensor enforcing G1 arrest
 
 ## Linking Summary
 
-- New links added: [[Cell Cycle]], [[Cyclin-Dependent Kinase]], [[Restriction Point]], [[RB1]], [[Quiescence]], [[TP53]], [[Senescence]], [[Progenitor Cell]]
+- New links added: [[Cell Cycle]], [[Cyclin-Dependent Kinase]], [[Restriction Point]], [[RB1]], [[Quiescence]], [[p53]], [[Senescence]], [[Progenitor Cell]]
 - Suggested new entity notes to create: [[Cyclin D]], [[S Phase]], [[CDK4/6 Inhibitors]]
 - Strong connections to strengthen: [[G1 Phase]] ↔ [[Quiescence]], [[G1 Phase]] ↔ [[RB1]]

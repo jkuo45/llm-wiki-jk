@@ -34,7 +34,7 @@ Symptoms include tenesmus (sensation of incomplete evacuation), rectal bleeding,
 
 ## Molecular Pathology
 
-Rectal cancers harbor a higher frequency of [[APC]] mutations and lower rates of microsatellite instability ([[MSI]]) compared to right-sided colon cancers. [[TP53]] mutations are common, and the [[Wnt signaling pathway]] is nearly universally dysregulated.
+Rectal cancers harbor a higher frequency of [[APC]] mutations and lower rates of microsatellite instability ([[MSI]]) compared to right-sided colon cancers. [[p53]] mutations are common, and the [[Wnt signaling pathway]] is nearly universally dysregulated.
 
 ## Documents
 
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[APC]], [[MSI]], [[TP53]], [[Wnt signaling pathway]], [[5-FU]], [[Capecitabine]], [[FOLFOX]], [[MRI]], [[neoadjuvant]], [[Neoadjuvant chemoradiation]], [[TME]]
+- New links added: [[APC]], [[MSI]], [[p53]], [[Wnt signaling pathway]], [[5-FU]], [[Capecitabine]], [[FOLFOX]], [[MRI]], [[neoadjuvant]], [[Neoadjuvant chemoradiation]], [[TME]]
 - Suggested new entity notes to create: [[Total Neoadjuvant Therapy]], [[Watch-and-Wait]], [[Mesorectal Fascia]]
 - Strong connections to strengthen: [[Rectal Cancer]] ↔ [[Colon Cancer]], [[Rectal Cancer]] ↔ [[XIAP]]

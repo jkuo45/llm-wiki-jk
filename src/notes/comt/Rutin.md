@@ -14,7 +14,7 @@ aliases: [Quercetin-3-O-rutinoside, Rutoside]
 
 ## Chemical Structure
 
-Rutin consists of the flavonol aglycone [[Quercetin]] bonded to a rutinose (rhamnose-glucose) disaccharide at the 3-position. Critically, quercetin's B-ring carries a catechol (3′,4′-dihydroxy) moiety, making rutin (after deglycosylation) a catechol-bearing polyphenol that engages [[COMT]] ([[Catechol-O-methyltransferase]]).
+Rutin consists of the flavonol aglycone [[Quercetin]] bonded to a rutinose (rhamnose-glucose) disaccharide at the 3-position. Critically, quercetin's B-ring carries a catechol (3′,4′-dihydroxy) moiety, making rutin (after deglycosylation) a catechol-bearing polyphenol that engages [[COMT]] ([[COMT|Catechol-O-methyltransferase]]).
 
 ## Antioxidant and Vascular Actions
 
@@ -22,7 +22,7 @@ Rutin scavenges free radicals, inhibits lipid peroxidation, and strengthens capi
 
 ## Interaction with COMT
 
-Like other catechol flavonoids, [[Rutin]] (via its quercetin aglycone) is O-methylated by [[COMT]], consuming [[S-Adenosylmethionine]] and [[Methyl groups]]. At high supplemental doses it can competitively inhibit [[COMT]], slowing methylation and clearance of endogenous [[Catechols]] such as [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. This places rutin in the same COMT-modulating class as [[Luteolin]] and [[Oleacein]], relevant to slow-[[COMT]] individuals monitoring methyl-donor load.
+Like other catechol flavonoids, [[Rutin]] (via its quercetin aglycone) is O-methylated by [[COMT]], consuming [[SAM|S-Adenosylmethionine]] and [[Methyl groups]]. At high supplemental doses it can competitively inhibit [[COMT]], slowing methylation and clearance of endogenous [[Catechols]] such as [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. This places rutin in the same COMT-modulating class as [[Luteolin]] and [[Oleacein]], relevant to slow-[[COMT]] individuals monitoring methyl-donor load.
 
 ## Physiological and Clinical Relevance
 
@@ -48,6 +48,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[Quercetin]], [[Flavonoids]], [[Catechols]], [[Oxidative Stress]], [[S-Adenosylmethionine]], [[Methyl groups]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Luteolin]], [[Oleacein]].
+- New links added: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Quercetin]], [[Flavonoids]], [[Catechols]], [[Oxidative Stress]], [[SAM|S-Adenosylmethionine]], [[Methyl groups]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Luteolin]], [[Oleacein]].
 - Suggested new entity notes to create: [[Quercetin]], [[Venous Insufficiency]], [[Nrf2]].
 - Strong connections to strengthen: [[Rutin]] ↔ [[COMT]]; [[Rutin]] ↔ [[Quercetin]].

@@ -15,7 +15,7 @@ Hepatocellular carcinoma (HCC) is the most common primary malignancy of the live
 
 ## Etiology & Pathophysiology
 
-Major risk factors include chronic hepatitis B and C virus infection, alcoholic and non-alcoholic steatohepatitis (NASH), aflatoxin B1 exposure ([[TP53]] R249S mutation), and inherited metabolic diseases. Persistent [[Inflammation]] and [[Oxidative Stress]] drive cirrhosis, creating a pro-tumorigenic niche. Molecular drivers include activation of the [[Wnt]]/β-catenin, [[PI3K]]/[[Akt]]/[[mTOR]], and [[YAP1]]/TAZ pathways, [[TP53]] loss, and telomerase reactivation. The [[Tumor Microenvironment]] of HCC is rich in cancer-associated fibroblasts, myeloid-derived suppressors, and neovessels via [[Angiogenesis]].
+Major risk factors include chronic hepatitis B and C virus infection, alcoholic and non-alcoholic steatohepatitis (NASH), aflatoxin B1 exposure ([[p53]] R249S mutation), and inherited metabolic diseases. Persistent [[Inflammation]] and [[Oxidative Stress]] drive cirrhosis, creating a pro-tumorigenic niche. Molecular drivers include activation of the [[Wnt]]/β-catenin, [[PI3K]]/[[Akt]]/[[mTOR]], and [[YAP1]]/TAZ pathways, [[p53]] loss, and telomerase reactivation. The [[Tumor Microenvironment]] of HCC is rich in cancer-associated fibroblasts, myeloid-derived suppressors, and neovessels via [[Angiogenesis]].
 
 ## Clinical Presentation & Biomarkers
 
@@ -117,7 +117,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
+- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[p53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
 - Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]], [[Therapy-Induced Senescence]], [[Cytoplasmic Chromatin Fragments]]
 - Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]
 

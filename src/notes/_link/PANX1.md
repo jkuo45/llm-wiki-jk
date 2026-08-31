@@ -32,14 +32,14 @@ By converting intracellular cGAMP into an extracellular alarm signal, PANX1 brid
   - [[cGAMP]]: substrate released extracellularly
   - [[STING]]: engaged in distant receiver cells
   - [[IRF3]]: downstream signaling in recipients
-  - [[NF-kappaB]]: inflammatory program disseminated
+  - [[NF-κB]]: inflammatory program disseminated
   - [[Gap Junction]]: complementary contact-dependent route
   - [[Pyroptosis]]: PANX1 pore role in inflammatory death
   - [[Neuroinflammation]]: amplification of network inflammation
 
 ## Linking Summary
 
-- New links added: [[PANX1]], [[cGAS-STING Pathway]], [[cGAMP]], [[STING]], [[IRF3]], [[NF-kappaB]], [[Gap Junction]], [[Pyroptosis]], [[Neuroinflammation]]
+- New links added: [[PANX1]], [[cGAS-STING Pathway]], [[cGAMP]], [[STING]], [[IRF3]], [[NF-κB]], [[Gap Junction]], [[Pyroptosis]], [[Neuroinflammation]]
 - Suggested new entity notes to create: [[PANX1|pannexin family]], [[PANX1|ATP release]]
 - Strong connections to strengthen:
     - [[PANX1]] ↔ [[Gap Junction]]

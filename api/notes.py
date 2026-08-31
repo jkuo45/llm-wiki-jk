@@ -238,7 +238,7 @@ def _make_thumbnail(page_path: Path, note: dict | None = None) -> None:
     Pillow/JPEG robustness lets us generate a small thumbnail here, but we treat
     the import as optional so an upload never fails just because the deploy
     hasn't installed it yet — missing thumbs fall back to full-res (see
-    get_image) and scripts/99_generate_thumbnail.py can backfill later.
+    get_image) and scripts/tools/thumbnail.py can backfill later.
     Keeping the source format means the served content-type stays correct."""
     try:
         from PIL import Image, ImageOps  # noqa: PLC0415 - deferred optional dep

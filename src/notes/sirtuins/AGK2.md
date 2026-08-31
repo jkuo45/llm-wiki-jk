@@ -4,7 +4,7 @@ description: AGK2 is a potent, cell-permeable, and selective small-molecule inhi
   of SIRT2. It is widely utilized in neurobiology and oncology research to study the
   pathogenic consequences of SIRT2 activity...
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-28
 tags:
   - chemical-compound
 aliases:
@@ -50,6 +50,10 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 
 ---
 
+## Caspase-independent cell death (platelets)
+
+AGK2 is not always pro-survival via caspase blockade: in anucleate platelets, AGK2 (with sirtinol and EX-527) induces **apoptosis-like changes** — phosphatidylserine exposure, ROS generation, and mitochondrial depolarization — driven by the **p53–Bax** axis and **calpain**, with **no caspase-3 activation** (PMC4424360). This is a key caveat for the [[Sirtuin-Caspase Crosstalk]]: sirtuin inhibition triggers caspase-*independent* death in some cell types, while in nucleated cells it liberates caspase-2/3-dependent apoptosis.
+
 ## Documents
 
 List of documents that mention this entity
@@ -81,8 +85,9 @@ List of documents that mention this entity
 - [[p53]]: This prevents the deacetylation of primary cytosolic targets of SIRT2, including microtubule-associated $\alpha$-tubu...
 - [[SirReal2]]: - **SirReal2** — fellow, highly selective SIRT2 inhibitor.
 - [[Alzheimer's Disease]]: - **Alzheimer's Disease** — neurological context where SIRT2 inhibition shows therapeutic promise.
+- [[Sirtuin-Caspase Crosstalk]]: AGK2 liberates caspase-2/3-dependent apoptosis in nucleated cells, but triggers caspase-independent (calpain) death in platelets
 
 ## Linking Summary
 - **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[Alzheimer's Disease]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Synuclein Toxicity]], [[Microtubule Acetylation]]
-- **Strong Connections to Strengthen**: [[AGK2]] ↔ [[SIRT2]], [[AGK2]] ↔ [[FOXO3a]]
+- **Strong Connections to Strengthen**: [[AGK2]] ↔ [[SIRT2]], [[AGK2]] ↔ [[FOXO3a]], [[AGK2]] ↔ [[Sirtuin-Caspase Crosstalk]]

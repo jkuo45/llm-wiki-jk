@@ -2,7 +2,7 @@
 """Supplementary traces F-I for the adrenochrome protocol trace atlas (round 2).
 
 Run against graphify-out/graph.json build 867a5ae5fdb8a46c, RANDOM_SEED convention
-of scripts/04_node_analysis.py (seed unused here except where nulls are drawn).
+of scripts/analysis/node_analysis.py (seed unused here except where nulls are drawn).
 
 F. Confidence-weighted PPR re-rank of the full coupling ladder
    (Phase 3 / Phase 1 method: weight = confidence_score on undirected projection).

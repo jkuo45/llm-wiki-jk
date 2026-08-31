@@ -18,7 +18,7 @@ NET is a 12-transmembrane-domain glycoprotein that couples the inward transport 
 
 ## Role in the Prefrontal Cortex
 
-In the [[Prefrontal Cortex]] (PFC), where the [[Dopamine Transporter]] ([[DAT]]) is sparsely expressed, NET assumes an outsized role. Crucially, NET has appreciable affinity for [[Dopamine]] and, in the PFC, clears a substantial fraction of extracellular dopamine in addition to norepinephrine. This makes NET a critical determinant of catecholamine tone in the frontal lobes, working alongside [[COMT]] ([[Catechol-O-methyltransferase]]), which methylates the fraction of dopamine that escapes reuptake. The complementary actions of NET (uptake) and COMT (enzymatic inactivation) define prefrontal dopamine dynamics.
+In the [[Prefrontal Cortex]] (PFC), where the [[Dopamine Transporter]] ([[DAT]]) is sparsely expressed, NET assumes an outsized role. Crucially, NET has appreciable affinity for [[Dopamine]] and, in the PFC, clears a substantial fraction of extracellular dopamine in addition to norepinephrine. This makes NET a critical determinant of catecholamine tone in the frontal lobes, working alongside [[COMT]] ([[COMT|Catechol-O-methyltransferase]]), which methylates the fraction of dopamine that escapes reuptake. The complementary actions of NET (uptake) and COMT (enzymatic inactivation) define prefrontal dopamine dynamics.
 
 ## Interaction with COMT
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Norepinephrine]], [[Dopamine]], [[Prefrontal Cortex]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Catechol-O-methyltransferase]], [[Val158Met]], [[Modafinil]], [[ADHD]], [[SLC6A2]].
+- New links added: [[Norepinephrine]], [[Dopamine]], [[Prefrontal Cortex]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Val158Met]], [[Modafinil]], [[ADHD]], [[SLC6A2]].
 - Suggested new entity notes to create: [[Norepinephrine Reuptake Inhibitor]], [[Atomoxetine]], [[Orthostatic Hypotension]].
 - Strong connections to strengthen: [[Norepinephrine transporter]] ↔ [[COMT]]; [[Norepinephrine transporter]] ↔ [[Prefrontal Cortex]].

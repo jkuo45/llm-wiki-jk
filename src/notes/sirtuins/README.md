@@ -27,6 +27,10 @@ updated: 2026-08-18
 | [[_document_ - Sirtuins, a promising target in slowing down the ageing process\|Sirtuins: A Promising Target in Slowing Ageing (Grabowska et al., 2017)]] | Review arguing sirtuins are promising anti-ageing targets; details NAD+-dependent deacetylation, chromatin/DNA-repair roles, senescence modulation via p53/FOXO/NF-κB/AMPK/P66shc, the p53–miR-34a–SIRT1 loop, and curcumin as a candidate regulator |
 | [[_document_ - Roles of SIRT3 in aging and aging-related diseases\|Roles of SIRT3 in Aging & Aging-Related Diseases (You & Wang 2025)]] | Int J Biol Sci review: SIRT3 as the only sirtuin directly linked to human longevity — mitochondrial metabolism (TCA/β-oxidation/OXPHOS), IDH2-NADPH & SOD2 antioxidant axes, nuclear roles (H3K56, 53BP1/NHEJ, decrotonylation), apoptosis (GSK-3β, AMPK/SENP1), anti-fibrotic GSK-3β-Lys15 mechanism; disease coverage (AD/PD/ALS/HD, CVD, diabetes/DCM, cancer, AKI/CKD, AHL, COPD, IDD/OA) and SIRT3 activators (honokiol, resveratrol, melatonin, 2-APQC, silybin, matrine, liquiritigenin, poricoic acid A) |
 
+| [[_document_ - Caspase-mediated changes in Sir2alpha during apoptosis\|Sir2α Cleavage (Ohsawa & Miura 2006)]] | FEBS Lett primary study: caspase-9/-3 directly cleave SIRT1 (Sir2α) and relocalize it nucleus→cytoplasm during apoptosis; blocked by caspase-9 DN or Bcl-xL — the caspase→sirtuin feedback arm |
+| [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response\|SIRT1 Stability in DDR (Ouyang et al. 2022)]] | Int J Biol Sci: severe DNA damage triggers reciprocal SIRT1 PTMs — TRIM28 polyubiquitination and caspase cleavage at DEPDVP(704–709) (ATM–TRIM28–SIRT1 axis) — enhancing DNA-damage-induced cell death |
+| [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2\|SIRT1–14-3-3ζ–Caspase-2 (Andersen et al. 2011)]] | Mol Cell cover story: SIRT1 deacetylates 14-3-3ζ (K49) to maintain caspase-2 suppression; PPP/G6P flux gates apoptotic sensitivity; SIRT1 inhibition sensitizes breast tumor cells to paclitaxel |
+
 ## Entity Notes
 
 ### Sirtuin Proteins (SIRT1–7)

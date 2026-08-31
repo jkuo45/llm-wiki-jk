@@ -27,7 +27,7 @@ Optimal PFC performance follows an inverted-U relationship with [[Dopamine]]: to
 
 A defining biochemical feature of the [[Prefrontal Cortex]] is the scarcity of the [[Dopamine Transporter]] ([[DAT]]). Unlike the [[Striatum]], where DAT rapidly clears dopamine, the PFC relies principally on two mechanisms:
 
-1. **[[COMT]] ([[Catechol-O-methyltransferase]])** — locally methylates dopamine and norepinephrine at the synapse, the dominant clearance route.
+1. **[[COMT]] ([[COMT|Catechol-O-methyltransferase]])** — locally methylates dopamine and norepinephrine at the synapse, the dominant clearance route.
 2. **[[Norepinephrine transporter]] ([[NET]])** — also clears dopamine in this region because DAT is sparse.
 
 Consequently, genetic variation in [[COMT]], especially the [[Val158Met]] polymorphism, strongly influences PFC dopamine tone. The Met (slow) allele preserves higher dopamine, benefiting certain memory tasks but increasing anxiety risk; the Val (fast) allele lowers dopamine, impairing efficiency unless boosted (e.g., by [[Modafinil]]).
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Prefrontal Cortex|PFC]], [[Working Memory]], [[Executive Function]], [[Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]], [[Val158Met]], [[Modafinil]], [[Striatum]], [[Schizophrenia]], [[ADHD]], [[Aging]], [[Methylfolate]], [[MethylB12]], [[S-Adenosylmethionine]].
+- New links added: [[Prefrontal Cortex|PFC]], [[Working Memory]], [[Executive Function]], [[Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]], [[Val158Met]], [[Modafinil]], [[Striatum]], [[Schizophrenia]], [[ADHD]], [[Aging]], [[Methylfolate]], [[MethylB12]], [[SAM|S-Adenosylmethionine]].
 - Suggested new entity notes to create: [[Orbitofrontal Cortex]], [[Dorsolateral Prefrontal Cortex]], [[Hypofrontality]].
 - Strong connections to strengthen: [[Prefrontal Cortex]] ↔ [[COMT]]; [[Prefrontal Cortex]] ↔ [[Val158Met]].

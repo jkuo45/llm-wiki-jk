@@ -18,7 +18,7 @@ Cell cycle arrest is a conserved cellular response that halts proliferation in r
 
 The plant flavone [[Apigenin]] halts cell cycle progression in cancer cells at either the G1 or G2/M phase depending on cell type. In breast, colon, bladder, and lung cancer cells it induces G2/M arrest associated with decreased [[Cyclin B]] and [[CDK1]] (cdc2) expression and kinase activity, whereas in prostate and cervical cells it produces G1 arrest with reduced [[Cyclin D]], cyclin E, and [[CDK2]]/[[CDK4]]/[[CDK6]] levels.
 
-These blocks are linked to induction of the CDK inhibitors [[p21]] and [[p27]], inhibition of [[Rb]] phosphorylation, and can occur through both [[TP53]]-dependent and TP53-independent pathways.
+These blocks are linked to induction of the CDK inhibitors [[p21]] and [[p27]], inhibition of [[Rb]] phosphorylation, and can occur through both [[p53]]-dependent and TP53-independent pathways.
 
 > [!info] Checkpoint logic
 > Arrest at G2/M removes cyclin B–CDK1 drive, while G1 arrest preserves Rb in its active, growth-suppressive form — both outcomes converge on halting DNA replication and division.
@@ -43,12 +43,12 @@ Cell cycle arrest is a reversible safeguard central to [[DNA Repair]] and genome
   - [[Rb]]: Its dephosphorylation maintains G1 arrest.
   - [[CDK1]]: G2/M driver downregulated during G2/M arrest.
   - [[CDK2]]/[[CDK4]]/[[CDK6]]: G1 CDKs suppressed during G1 arrest.
-  - [[TP53]]: Upstream regulator of p21 and arrest, though arrest can be p53-independent.
+  - [[p53]]: Upstream regulator of p21 and arrest, though arrest can be p53-independent.
   - [[DNA Repair]]: Arrest provides time for repair of damage.
 
 ## Linking Summary
 
-- New links added: [[Apigenin]], [[Cell Cycle]], [[p21]], [[p27]], [[Rb]], [[CDK1]], [[CDK2]], [[CDK4]], [[CDK6]], [[TP53]], [[DNA Repair]], [[Cancer Chemoprevention]]
+- New links added: [[Apigenin]], [[Cell Cycle]], [[p21]], [[p27]], [[Rb]], [[CDK1]], [[CDK2]], [[CDK4]], [[CDK6]], [[p53]], [[DNA Repair]], [[Cancer Chemoprevention]]
 - Suggested new entity notes to create: [[Cyclin E]]
 - Strong connections to strengthen:
     - [[Apigenin]] ↔ [[Cell Cycle Arrest]]

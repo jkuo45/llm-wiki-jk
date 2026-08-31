@@ -5,6 +5,7 @@
 import { state } from './state.js';
 import { updateHash } from './routing.js';
 import { ARTICLES, TASKS } from './data.js';
+import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 
 // ------------------------------------------------------------
 // Article registry (semantic IDs, not file paths)
@@ -14,7 +15,7 @@ import { ARTICLES, TASKS } from './data.js';
 // one row per item × lang, with `id` derived (en-US → the item id, other
 // langs → <id>-<lang>) so existing URLs like #reader=<id>-zh keep
 // resolving. Lang-level fields (title/path/dates) override group
-// defaults; `active`/`default` are group-level.
+// defaults; `active` is group-level.
 // Only entries with `active: true` are listed/opened by the reader —
 // set `active: false` while an entry is being edited so it stays hidden.
 // Task outputs (tasks.json) carry kind: "task" and ids prefixed
@@ -26,15 +27,11 @@ import { ARTICLES, TASKS } from './data.js';
 
 const flattenRegistry = (rows, kind) => rows.flatMap((a) => {
   const langs = Object.entries(a.langs || {});
-  return langs.map(([lang, l], i) => ({
+  return langs.map(([lang, l]) => ({
     ...a, ...l, // lang-level title/path/dates override group defaults
     id: lang === 'en-US' ? a.id : `${a.id}-${lang.split('-')[0].toLowerCase()}`,
     group: a.id,
     lang,
-    // `active`/`default` are group-level in the JSON; keep `default`
-    // on the first language row only so getDefaultArticle() is deterministic
-    // (matches the old flat-schema behavior where default marked one entry).
-    default: i === 0 ? a.default : undefined,
   }));
 }).map((row) => ({ ...row, kind }))
   .filter((a) => a.active !== false);
@@ -44,8 +41,14 @@ const ACTIVE_TASKS = flattenRegistry(TASKS, 'task');
 const ALL_ROWS = [...ACTIVE_ARTICLES, ...ACTIVE_TASKS];
 
 const getArticle = (id) => ALL_ROWS.find((a) => a.id === id) || null;
+
+// Index entry for a source mode — the reader's default landing entry (opened
+// by tab clicks, the modal title, and whenever no specific article applies).
+// Fixed here in code rather than flagged in the registry JSON.
+const indexIdForMode = (mode) => (mode === 'tasks' ? 'tasks-index' : 'articles-index');
+
 const getDefaultArticle = () =>
-  ALL_ROWS.find((a) => a.default) || ACTIVE_ARTICLES[0] || ACTIVE_TASKS[0];
+  getArticle(indexIdForMode('articles')) || ACTIVE_ARTICLES[0] || ACTIVE_TASKS[0];
 
 // ------------------------------------------------------------
 // Source mode (Articles vs Task Outputs tabs)
@@ -117,6 +120,7 @@ function currentArticle() {
 // DOM refs
 // ------------------------------------------------------------
 const overlay = document.getElementById('page-modal-overlay');
+registerModal('reader', overlay, { closeOnBackdrop: true, onClose: readerClosedCleanup });
 const frame = document.getElementById('page-modal-frame');
 const openLink = document.getElementById('page-modal-open');
 const select = document.getElementById('reader-select');
@@ -192,18 +196,24 @@ function buildOptions() {
   const groups = sortedGroups(rows);
   if (sourceMode !== 'tasks') {
     select.innerHTML = groups.map((g) => optionHTML(rows, g)).join('');
-    return;
+  } else {
+    // Group task options by recency of their last modification.
+    const buckets = [[], [], []];
+    groups.forEach((g) => buckets[recencyBucket(latestUpdated(g))].push(g));
+    select.innerHTML = buckets
+      .map((bucket, i) => bucket.length
+        ? `<optgroup label="${BUCKET_LABELS[i]} (${bucket.length})">` +
+          bucket.map((g) => optionHTML(rows, g)).join('') +
+          '</optgroup>'
+        : '')
+      .join('');
   }
-  // Group task options by recency of their last modification.
-  const buckets = [[], [], []];
-  groups.forEach((g) => buckets[recencyBucket(latestUpdated(g))].push(g));
-  select.innerHTML = buckets
-    .map((bucket, i) => bucket.length
-      ? `<optgroup label="${BUCKET_LABELS[i]} (${bucket.length})">` +
-        bucket.map((g) => optionHTML(rows, g)).join('') +
-        '</optgroup>'
-      : '')
-    .join('');
+  // Nothing opened yet → preselect the source's index entry so the Reader
+  // button opens the index by default (openReader re-selects afterwards).
+  if (!state.readerId) {
+    const idx = rows.find((r) => r.group === indexIdForMode(sourceMode));
+    if (idx) select.value = idx.group;
+  }
 }
 
 function setSelectFor(article) {
@@ -249,7 +259,7 @@ export function openReader(id, { restore = false, section = null } = {}) {
   }
   setSelectFor(article);
   setLangToggleFor(article);
-  overlay.classList.add('visible');
+  openModal('reader');
   state.readerId = article.id;
   state.readerSection = section;
   updatePrevBtn();
@@ -257,8 +267,13 @@ export function openReader(id, { restore = false, section = null } = {}) {
 }
 
 export function closeReader() {
+  closeModal('reader');
+}
+
+// Cleanup runs via the modal manager's onClose (covers ESC/backdrop/close
+// button and programmatic closes alike).
+function readerClosedCleanup() {
   stopSectionTracking();
-  overlay.classList.remove('visible');
   state.readerId = null;
   state.readerSection = null;
   readerStack.length = 0;
@@ -267,7 +282,7 @@ export function closeReader() {
 }
 
 export function isReaderOpen() {
-  return overlay.classList.contains('visible');
+  return isModalOpen('reader');
 }
 
 // ------------------------------------------------------------
@@ -411,10 +426,6 @@ readerBtn.addEventListener('click', openSelected);
 
 select.addEventListener('change', openSelected);
 
-// Index entry for a source mode — opened when its tab is clicked and when
-// the modal title is clicked (mirrors the articles behavior).
-const indexIdForMode = (mode) => (mode === 'tasks' ? 'tasks-index' : 'articles-index');
-
 // Source tabs: swap the dropdown between articles and task outputs. If the
 // reader is already open, jump straight to that source's index page.
 sourceBtns.forEach((btn) => {
@@ -454,15 +465,6 @@ modalTitle.addEventListener('click', () => {
   if (idx && idx.id !== state.readerId) openReader(idx.id);
 });
 
-overlay.addEventListener('click', (e) => {
-  if (e.target.id === 'page-modal-close' || e.target === overlay) {
-    closeReader();
-  }
-});
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && isReaderOpen()) {
-    closeReader();
-  }
-});
+// ESC / backdrop / close-button handling is delegated to modal.js
+// ('reader' is registered below with readerClosedCleanup as onClose).
 

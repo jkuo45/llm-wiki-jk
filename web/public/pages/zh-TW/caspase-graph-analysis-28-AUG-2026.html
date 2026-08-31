@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caspases — 圖譜分析（wiki + triples）</title>
+<meta name="description" content="任務輸出報告：在合併的 triples + wiki 知識圖譜上，對全部 caspase 節點進行多指標網絡分析——分層分解、社群結構、中心性與角色分類、最短路徑結構、跨死亡模式的個人化 PageRank、Adamic-Adar 連結預測、圖譜缺口與增補佇列——並附上 caspase 分類、受質、老化生物學與藥理學的文獻綜述。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#biological-role">生物學</a>
+      <a href="#scope">範圍</a>
+      <a href="#communities">社群</a>
+      <a href="#layers">分層</a>
+      <a href="#centrality">中心性</a>
+      <a href="#paths">路徑</a>
+      <a href="#ppr">PPR</a>
+      <a href="#predictions">連結預測</a>
+      <a href="#gaps">缺口</a>
+      <a href="#enrichment">增補</a>
+      <a href="#literature">文獻</a>
+      <a href="#method">方法</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">任務輸出 · 網絡分析 · 2026年8月28日</p>
+    <h1>Caspases — 圖譜分析（wiki + triples）</h1>
+    <p class="lede">
+      在合併的 triples ∪ wiki 圖譜（4,084 節點 / 31,842 邊）上，對全部 13 個 caspase
+      實體進行多指標網絡分析，並附分層分解——搭配 caspase 分類、活化平台、受質、老化生物學與
+      藥理學的文獻綜述。
+    </p>
+    <div class="meta">
+      <p><strong>日期：</strong>2026年8月28日</p>
+      <p><strong>圖譜建構：</strong>triples <code>9f8805f7</code> · wiki <code>5b257720</code>（合併 = 兩者聯集）</p>
+      <p><strong>資料來源：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code>（合併，逐邊標記來源層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank">wiki-out/graph.json</a></code>（wiki 層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/node_roles.json" target="_blank">web/public/data/node_roles.json</a></code>（角色）</p>
+      <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank">src/tasks/node_network_caspase_28_AUG_2026/</a></code>——含完整原始指標輸出</p>
+      <p><strong>原始資料：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank">raw_caspases_combined_graph.txt</a></code>（合併聯集的完整多指標運行）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank">raw_caspases_wiki_graph_node.txt</a></code>（同一流程，wiki 層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank">raw_caspases_wiki_graph_link_prediction.txt</a></code>（wiki 層 Adamic-Adar 掃描）</p>
+      <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">scripts/analysis/link_prediction.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">scripts/analysis/role_query.py</a></code></p>
+      <p><strong>方法基礎：</strong><a href="node-analysis-examples-biology.html">用於生物學優先排序的節點層級網絡分析</a></p>
+      <p><strong>其他語言：</strong><a href="../en-US/caspase-graph-analysis-28-AUG-2026.html">English</a></p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>內容</p>
+    <ol>
+      <li><a href="#biological-role">Caspases 的生物學角色</a></li>
+      <li><a href="#scope">範圍</a></li>
+      <li><a href="#communities">結構地圖：兩個社群、一個家族</a></li>
+      <li><a href="#layers">分層分解：triples 層補足了什麼</a></li>
+      <li><a href="#centrality">中心性、k-core 巢套與生物學角色</a></li>
+      <li><a href="#paths">最短路徑結構：誰橋接到誰</a></li>
+      <li><a href="#ppr">跨模式的死亡路徑（以各標的為種子的 PPR 流量）</a></li>
+      <li><a href="#predictions">預測的缺失連結（連結預測）</a></li>
+      <li><a href="#gaps">圖譜缺口（候選增補標的）</a></li>
+      <li><a href="#enrichment">增補佇列（按文獻支持 × 圖譜影響排序）</a></li>
+      <li><a href="#literature">文獻深究：caspases</a></li>
+      <li><a href="#method">方法與可重現性</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <section id="biological-role">
+      <p class="sec-label">生物學</p>
+      <h2>Caspases 的生物學角色</h2>
+      <p class="drop">
+        Caspases（半胱胺酸—天門冬胺酸蛋白酶）是「訊號型蛋白酶」：在特定的天門冬胺酸殘基後進行一、兩次
+        精準切割，使標的蛋白獲得或失去功能，而非將其降解（McIlwain, Berger &amp; Mak 2013，PMID
+        23545416）。人類基因體編碼 14 個 caspases：<strong>起始者</strong>（CASP-8/9/10/2）藉 DED/CARD
+        前驅結構域停泊到活化平台上——死亡受體的 DISC、粒線體外膜通透後的 Apaf-1 apoptosome、或
+        inflammasome；<strong>執行者</strong>（CASP-3/6/7）負責拆解細胞；<strong>發炎性 caspases</strong>
+        （CASP-1/4/5/11）成熟 IL-1β/IL-18 並切割 Gasdermin D 以引發細胞焦亡（pyroptosis）。CASP-2（基因體
+        穩定）、CASP-12（內質網壓力）與 CASP-14（皮膚分化）補完整個家族。
+      </p>
+      <p>
+        活化是<strong>由平台支架決定的</strong>——平台身分決定哪個 caspase 在哪種細胞中被活化、產生什麼
+        結局。Caspases 也在細胞死亡之外發揮作用（非凋亡性的 CASP-3 強化衰老、CASP-1 作為 SASP
+        擴大器）：這些非典型角色正是下方網絡分析要在圖譜上檢驗的主軸。
+      </p>
+    </section>
+
+    <section id="scope">
+      <p class="sec-label">範圍</p>
+      <h2>兩個部分</h2>
+      <p>
+        <strong>網絡分析。</strong>多指標——分層分解、社群偵測、中心性、角色分類、路徑結構、個人化
+        PageRank、連結預測——在<strong>合併圖譜</strong>（triples ∪ wiki 的聯集，逐邊標記來源層）上，
+        以 13 個 caspase 來源 × 15 個標錨點（死亡模式、衰老樞紐、凋亡機械）進行。
+      </p>
+      <p>
+        <strong>文獻深究</strong>補充圖譜之外的既有與新興 caspase 生物學。
+      </p>
+      <div class="note">
+        <h4>圖譜模式</h4>
+        <p>
+          全篇以<strong>合併圖譜為主要受質</strong>；僅 wiki 或僅 triples 的數字會以分層分解形式呈現。
+          triples 層對 caspases 的代表性嚴重不足（Caspase-1/4/12 與 Executioner Caspase 在該層的度數只有
+          0–1），因此合併視圖才能讓家族分析站得住腳——而且它揭露了僅看 wiki 層會遺漏的邊。
+        </p>
+      </div>
+    </section>
+
+    <section id="communities">
+      <p class="sec-label">網絡分析</p>
+      <h2>結構地圖：兩個社群、一個家族</h2>
+      <p>
+        在 wiki 層上進行的 Louvain 社群偵測，恰好沿著 caspases 的生物學分類邊界切開：c16
+        <strong>Apoptosis</strong>（57 節點——Apoptosis、Caspase、Executioner Caspase、Apoptosome、XIAP）
+        包含 Caspase-2/3/6/7/8/9/10/12；c22 <strong>Inflammaging</strong>（54 節點——Pyroptosis、
+        Inflammasome、Gasdermin D）包含 Caspase-1/4/5/11。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 · 兩個社群、一個家族（合併聯集度數與角色）</span></div>
+        <div class="copy-host">
+        <svg viewBox="0 0 980 430" role="img" aria-label="caspase 家族的兩區塊地圖，標示合併度數與角色">
+          <rect x="20" y="30" width="440" height="370" rx="12" fill="rgba(110,160,220,0.10)" stroke="rgba(110,160,220,0.55)"/>
+          <text x="240" y="58" text-anchor="middle" font-size="17" font-weight="700">死亡程序 · Apoptosis</text>
+          <rect x="50" y="90" width="170" height="64" rx="8" fill="rgba(200,80,80,0.18)" stroke="rgba(200,80,80,0.8)"/>
+          <text x="135" y="116" text-anchor="middle" font-size="15" font-weight="700">Caspase-3</text>
+          <text x="135" y="138" text-anchor="middle" font-size="12">度 57 · Sink · 樞紐</text>
+          <rect x="260" y="90" width="170" height="64" rx="8" fill="rgba(200,140,60,0.18)" stroke="rgba(200,140,60,0.8)"/>
+          <text x="345" y="116" text-anchor="middle" font-size="15" font-weight="700">Caspase-8</text>
+          <text x="345" y="138" text-anchor="middle" font-size="12">度 41 · 主調控者</text>
+          <rect x="50" y="185" width="170" height="56" rx="8" fill="rgba(150,150,160,0.14)" stroke="rgba(150,150,160,0.6)"/>
+          <text x="135" y="209" text-anchor="middle" font-size="14" font-weight="600">Caspase-9</text>
+          <text x="135" y="228" text-anchor="middle" font-size="12">度 37 · Sink</text>
+          <rect x="260" y="185" width="170" height="56" rx="8" fill="rgba(150,150,160,0.10)" stroke="rgba(150,150,160,0.5)"/>
+          <text x="345" y="209" text-anchor="middle" font-size="14" font-weight="600">Caspase-7 · -6 · -10</text>
+          <text x="345" y="228" text-anchor="middle" font-size="12">度 22 / 12 / 14</text>
+          <rect x="50" y="272" width="170" height="56" rx="8" fill="rgba(150,150,160,0.10)" stroke="rgba(150,150,160,0.5)"/>
+          <text x="135" y="296" text-anchor="middle" font-size="14" font-weight="600">Caspase-2</text>
+          <text x="135" y="315" text-anchor="middle" font-size="12">度 14 · 瓶頸</text>
+          <rect x="260" y="272" width="170" height="56" rx="8" fill="rgba(150,150,160,0.08)" stroke="rgba(150,150,160,0.4)"/>
+          <text x="345" y="296" text-anchor="middle" font-size="14" font-weight="600">Apoptosome · XIAP</text>
+          <text x="345" y="315" text-anchor="middle" font-size="12">活化 / 抑制</text>
+          <text x="240" y="372" text-anchor="middle" font-size="12" fill="rgba(128,128,128,0.9)">外源＋內源＋執行者：單一緊密互連模組（k-core 15–16）</text>
+
+          <rect x="520" y="30" width="440" height="370" rx="12" fill="rgba(210,120,90,0.10)" stroke="rgba(210,120,90,0.55)"/>
+          <text x="740" y="58" text-anchor="middle" font-size="17" font-weight="700">發炎楔形 · Inflammaging</text>
+          <rect x="550" y="90" width="170" height="64" rx="8" fill="rgba(210,120,90,0.22)" stroke="rgba(210,120,90,0.8)"/>
+          <text x="635" y="116" text-anchor="middle" font-size="15" font-weight="700">Caspase-1</text>
+          <text x="635" y="138" text-anchor="middle" font-size="12">度 25 · inflammasome 錨點</text>
+          <rect x="760" y="90" width="170" height="64" rx="8" fill="rgba(150,150,160,0.10)" stroke="rgba(150,150,160,0.5)"/>
+          <text x="845" y="116" text-anchor="middle" font-size="14" font-weight="600">Caspase-4 / -5 / -11</text>
+          <text x="845" y="138" text-anchor="middle" font-size="12">度皆 10 · Jaccard 0.82</text>
+          <rect x="550" y="185" width="170" height="56" rx="8" fill="rgba(150,150,160,0.10)" stroke="rgba(150,150,160,0.5)"/>
+          <text x="635" y="209" text-anchor="middle" font-size="14" font-weight="600">Pyroptosis</text>
+          <text x="635" y="228" text-anchor="middle" font-size="12">距 Caspase-1 一跳</text>
+          <rect x="760" y="185" width="170" height="56" rx="8" fill="rgba(150,150,160,0.10)" stroke="rgba(150,150,160,0.5)"/>
+          <text x="845" y="209" text-anchor="middle" font-size="14" font-weight="600">Inflammasome · GSDMD</text>
+          <text x="845" y="228" text-anchor="middle" font-size="12">距 Caspase-1 一跳</text>
+          <text x="740" y="290" text-anchor="middle" font-size="12" fill="rgba(128,128,128,0.9)">CASP-1 → pyroptosis / inflammasome 為直接邊；</text>
+          <text x="740" y="308" text-anchor="middle" font-size="12" fill="rgba(128,128,128,0.9)">→ Cellular Senescence 僅經 5 個敘事型橋接</text>
+          <text x="740" y="372" text-anchor="middle" font-size="12" fill="rgba(128,128,128,0.9)">Caspase-14：知識庫中缺席（增補佇列）</text>
+
+          <path d="M 460 200 C 490 200, 490 200, 520 200" stroke="rgba(128,128,128,0.6)" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+          <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(128,128,128,0.6)"/></marker></defs>
+          <text x="490" y="188" text-anchor="middle" font-size="11" fill="rgba(128,128,128,0.9)">GSDMD</text>
+        </svg>
+        </div>
+        <figcaption>
+          <strong>家族沿生物學分類邊界切成兩個區塊。</strong>節點標示合併聯集度數與角色類別。
+          Caspase-8（主調控者）與 Caspase-3（樞紐 Sink）是脊椎；發炎楔形由 Caspase-1 錨定，
+          Caspase-4/5/11 三人組互為近重複（兩兩 Jaccard 0.82）。
+        </figcaption>
+      </figure>
+
+      <p>
+        Apoptosis 社群內部<em>沒有</em>再細分起始者／執行者——外源（CASP-8/10）、內源（CASP-9）與執行者
+        （CASP-3/6/7）同屬一個社群，正確反映 wiki 將凋亡視為一個緊密互連的模組。<strong>Caspase-2 在
+        wiki 層是離群值</strong>：它落在一個微小的「Phosphorylation」社群中，而非凋亡模組。合併圖譜修正了
+        這個圖像——見下方分層分解。
+      </p>
+      <p>
+        合併資料集自帶的社群標籤（合併時優先採用 triples 層的後設資料）切得更細：<strong>Caspase-2/7/10/12/Caspase
+        自成一個「Caspase-2」社群</strong>，Caspase-1/11 與 Pyroptosis/Inflammasome 一起歸入「Senescent
+        Cells」，只有 Caspase-3/6/9 與 Apoptosome/XIAP 位於「Apoptosis」。無論哪種切法，「死亡程序 vs
+        發炎楔形」的兩區塊結構在三種視圖中都穩定存在。
+      </p>
+    </section>
+
+    <section id="layers">
+      <p class="sec-label">網絡分析</p>
+      <h2>分層分解：triples 層補足了什麼</h2>
+      <p>合併聯集上的逐節點度數分解（T = triples 邊，W = wiki 邊）：</p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Caspase</th><th class="num">triples 度</th><th class="num">wiki 度</th><th class="num">合併度</th><th>合併社群</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Caspase-3</td><td class="num">7</td><td class="num">50</td><td class="num"><strong>57</strong></td><td>Apoptosis</td></tr>
+          <tr><td>Caspase-8</td><td class="num">4</td><td class="num">37</td><td class="num"><strong>41</strong></td><td>Caspase-8</td></tr>
+          <tr><td>Caspase-9</td><td class="num">7</td><td class="num">30</td><td class="num"><strong>37</strong></td><td>Apoptosis</td></tr>
+          <tr><td>Caspase-7</td><td class="num">1</td><td class="num">21</td><td class="num">22</td><td>Caspase-2</td></tr>
+          <tr><td>Caspase-2</td><td class="num">4</td><td class="num">10</td><td class="num">14</td><td>Caspase-2</td></tr>
+          <tr><td>Caspase-10</td><td class="num">2</td><td class="num">12</td><td class="num">14</td><td>Caspase-2</td></tr>
+          <tr><td>Caspases</td><td class="num">2</td><td class="num">16</td><td class="num">18</td><td>Apoptosis</td></tr>
+          <tr><td>Caspase-6</td><td class="num">3</td><td class="num">9</td><td class="num">12</td><td>Apoptosis</td></tr>
+          <tr><td>Caspase-1</td><td class="num">1</td><td class="num">24</td><td class="num">25</td><td>Senescent Cells</td></tr>
+          <tr><td>Caspase-5 / -11</td><td class="num">2 / 1</td><td class="num">8 / 9</td><td class="num">10 / 10</td><td>Paracrine Senescence / Senescent Cells</td></tr>
+          <tr><td>Caspase-4、Caspase-12、Executioner Caspase</td><td class="num">0–0–0</td><td class="num">10 / 6 / 10</td><td class="num">10</td><td>Inflammaging / Caspase-2 / Apoptosis</td></tr>
+        </tbody>
+      </table></div>
+      <p>
+        （合併規則對共享節點優先採用 triples 層的社群標籤，因此例如 Caspase-1 帶著其 triples 指派的
+        「Senescent Cells」——wiki 層的 Inflammaging 楔形在拓撲上不變。）
+      </p>
+      <p><strong>只有合併視圖看得到的邊</strong>（T 標記，wiki 層缺席）：</p>
+      <ul>
+        <li>
+          <strong><code>Caspase-2 → PIDDosome / PIDD / RAIDD</code>（各為度 2）與 <code>→ CDK1</code></strong>
+          ——PIDDosome 活化軸<strong>確實存在於知識庫中，但只在 triples 層</strong>。Caspase-2 在 wiki 層的
+          社群離群因此是<em>分層假象</em>，不是知識缺漏。
+        </li>
+        <li>
+          <code>Caspase-9 → c-ABL / ERK / Akt</code>、<code>Caspase-8 → SHP1 / SRC/LYN kinases</code>、
+          <code>Caspase-3 → Ivermectin / melittin</code>（重新定位藥物群）、<code>Caspase-6 → Lamins</code>
+          ——磷酸化／激酶接線是 triples 層的獨特貢獻。
+        </li>
+        <li>
+          <code>Caspase-1 / -11 / -5 → Inflammasome / Noncanonical Inflammasome / IL-1α</code>——僅有的
+          triples 層 inflammasome 邊；CASP-1 在該層只有度 1。
+        </li>
+      </ul>
+      <div class="note">
+        <h4>要點</h4>
+        <p>
+          triples 層貢獻 caspases 的<em>調控／激酶與 inflammasome 支架</em>邊；wiki 層貢獻
+          <em>死亡程序</em>邊。任何只用單一層的 caspase 分析都會系統性地漏掉一半的故事——例如僅 wiki
+          的運行會誤報「沒有 PIDDosome」。
+        </p>
+      </div>
+    </section>
+
+    <section id="centrality">
+      <p class="sec-label">網絡分析</p>
+      <h2>中心性、k-core 巢套與生物學角色</h2>
+      <p>
+        角色類別來自知識庫的逐節點分類器（<code>scripts/lib/node_roles.py</code>）；角色是在 triples 層
+        計算的，因此角色的<em>類別</em>（而非量級）才是訊號。出處說明：合併資料集<em>內建</em>的
+        degree/PageRank/k-core 欄位承載 triples 層的數值（合併時優先 triples 後設資料），因此此處的度數
+        欄是真正的合併聯集，而 PageRank/k-core 是分層產物——原始輸出中的聯集重算確認了同樣的排序：
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Caspase</th><th class="num">度</th><th class="num">k-core</th><th>角色</th><th>解讀</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Caspase-3</strong></td><td class="num">57</td><td class="num">16</td><td><strong>Sink</strong>、Bottleneck</td><td>家族中最高度數、PageRank 最高（0.00129）——家族樞紐；萬物匯入的終端拆解蛋白酶</td></tr>
+          <tr><td><strong>Caspase-8</strong></td><td class="num">41</td><td class="num">15</td><td><strong>Sink、Master regulator、Bottleneck</strong></td><td>最高出度（30）；唯一被評為主調控者的 caspase——整個家族匯流的死亡受體收斂點</td></tr>
+          <tr><td><strong>Caspase-9</strong></td><td class="num">37</td><td class="num">15</td><td><strong>Sink</strong>、Bottleneck</td><td>PageRank 僅次於 CASP-3（0.00120）；apoptosome 錨點，內源臂上與 CASP-3 相同的 Sink 簽名</td></tr>
+          <tr><td>Caspase-1</td><td class="num">25</td><td class="num">13</td><td>Periphery</td><td>發炎側的錨點；「Periphery」反映其度 1 的 triples 殘段——triples 層最大的 caspase 盲點（合併度 25）</td></tr>
+          <tr><td>Caspase-7</td><td class="num">22</td><td class="num">12</td><td>Spreader</td><td>嵌在凋亡核心中</td></tr>
+          <tr><td>Caspase-2</td><td class="num">14</td><td class="num">10</td><td>Bottleneck</td><td>小而非冗餘的連接器——合併圖譜還原了它的 PIDDosome 軸，與其 DDR 定位一致</td></tr>
+          <tr><td>Caspases</td><td class="num">18</td><td class="num">12</td><td>Spreader</td><td>外向的定義性樞紐</td></tr>
+          <tr><td>Caspase-10</td><td class="num">14</td><td class="num">10</td><td>Spreader、Bottleneck</td><td>廣播多於接收（與其偏弱的 Adamic-Adar 表現一致）</td></tr>
+          <tr><td>Caspase-5 / -11 / -4</td><td class="num">10</td><td class="num">10</td><td>Spreader (5)、Periphery (11)、Spreader+Module (4)</td><td>近重複（兩兩 Jaccard 0.82）——非典型 inflammasome 三人組是同一塊語境</td></tr>
+          <tr><td>Caspase-6</td><td class="num">12</td><td class="num">9</td><td>Spreader</td><td>執行者臂的邊緣</td></tr>
+          <tr><td>Caspase-12</td><td class="num">6</td><td class="num">5</td><td>Spreader</td><td>圖譜中最弱的 caspase</td></tr>
+        </tbody>
+      </table></div>
+      <p>
+        <strong>Caspase-4/5/11 的 Jaccard = 0.818</strong>——整個來源集合中最高的冗餘度。三者的筆記在連結
+        拓撲上可以互換；若未來要整併，這三者是天然的合併候選（不過保留各自獨立筆記在生物學上也站得住腳：
+        4/5 為人類、11 為小鼠直系同源）。
+      </p>
+      <p>
+        <strong>跨層一致性：</strong>CASP-8/3/9 在兩層的指標中都是承重脊柱，而 CASP-1——發炎老化的旗艦——
+        則是 triples 層近乎缺席的 <code>_triples.json</code> 接線所造成的產物。任何 triples 重建都應優先補強
+        inflammasome 楔形。
+      </p>
+    </section>
+
+    <section id="paths">
+      <p class="sec-label">網絡分析</p>
+      <h2>最短路徑結構：誰橋接到誰</h2>
+      <p>
+        在<strong>合併巨型連通分量</strong>（3,839 節點）上計算；路由與 wiki 層一致——triples 層新增的
+        caspase 邊都落在以下最短路徑之外。
+      </p>
+      <ul>
+        <li>
+          <strong>Caspase-1 → Pyroptosis / Inflammasome</strong>：直接一跳（其主場）。抵達
+          <strong>Ferroptosis</strong> 需要經過約 20 個橋接節點的 81 條不同最短路徑（NLRP3 Inflammasome、
+          IL-1β/IL-18、AIM2、Cardiolipin、MCC950…），而抵達 <strong>Cellular Senescence</strong> 只經 5
+          個橋接（Inflammaging、Inflammation、Paracrine Senescence、Idiopathic Pulmonary Fibrosis、
+          Drosha）。稀疏的衰老橋接集是真正的圖譜發現：<strong>CASP-1 與衰老的連結幾乎完全由發炎老化的敘事
+          所中介</strong>，而非直接的分子連結。
+        </li>
+        <li>
+          <strong>Caspase-3/8/9 → Apoptosis</strong>：合併 Adamic-Adar 親近度主導（CASP-3 15.9、CASP-8
+          12.3、CASP-9 10.7、CASP-7 6.6）——死亡模組的脊柱覆蓋良好，且聯集把 CASP-3 <em>推上</em>首位
+          （triples 層的激酶邊強化了其共享鄰居重疊）。
+        </li>
+        <li>
+          <strong>最弱的凋亡接線</strong>：Caspase-12（AA 1.94，與 inflammasome/pyroptosis 完全沒有親近度）；
+          Caspase-10（AA 4.3 但度數低，與 CASP-8 的 Jaccard 僅 0.26）。
+        </li>
+        <li>
+          <strong>Caspase-2 在合併圖上最強的錨點是 Apoptosis 本身（AA 4.18）</strong>——領先 p53（1.38）與
+          SASP（0.33）。攜帶其 PIDDosome/CDK1 邊的聯集確認 CASP-2 屬於死亡程序；缺的是通往 Apoptosis 的
+          直接邊——這是缺陷，不是生物學問題。
+        </li>
+      </ul>
+    </section>
+
+    <section id="ppr">
+      <p class="sec-label">網絡分析</p>
+      <h2>跨模式的死亡路徑（以各標的為種子的 PPR 流量）</h2>
+      <p>
+        在<strong>合併巨型連通分量</strong>上的個人化 PageRank 顯示，每種死亡模式把「行走質量」流向哪些
+        caspases：
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>種子節點</th><th>領先 caspases（排名 / 分數）</th><th>解讀</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Pyroptosis</td><td><strong>CASP-1 #5 (0.0095)</strong>、CASP-4 #10、CASP-11 #11、CASP-5 #12</td><td>乾淨的發炎性 caspase 簽名</td></tr>
+          <tr><td>Inflammasome</td><td>CASP-1 #7 (0.0075)、CASP-4 #16、CASP-11 #18、CASP-5 #19</td><td>同一楔形</td></tr>
+          <tr><td>Apoptosis</td><td>CASP-3 #22 (0.0023)、CASP-8 #29、CASP-9 #47</td><td>乾淨的凋亡簽名；CASP-4/5/11 沉降至約 #1400 名之外</td></tr>
+          <tr><td>Necroptosis</td><td><strong>CASP-8 #25 (0.0029)</strong></td><td>正確——CASP-8 是已知的 necroptosis 守門者（抑制 RIPK1/RIPK3）；湧現捕捉</td></tr>
+          <tr><td>Gasdermin D</td><td>CASP-4 #7 (0.0148)、CASP-11 #8、CASP-5 #9、CASP-1 #16</td><td>GSDMD 切割夥伴正確分組</td></tr>
+          <tr><td>Apoptosome / XIAP / Executioner Caspase</td><td>CASP-3 #3、CASP-7 #5–8、CASP-9 #5–6</td><td>內源路徑機械被完整還原</td></tr>
+          <tr><td>Ferroptosis</td><td>所有 caspases 排名 #286–2167</td><td><strong>沒有任何 caspase 擁有 ferroptosis</strong>——正確（鐵死亡不依賴 caspase），但文獻中 CASP-8/GSDMD/caspase-3 促進鐵死亡的段落是覆蓋缺口</td></tr>
+          <tr><td>Senescence / SASP / Autophagy</td><td>所有 caspases 排名 #278–2167，最佳始終是 CASP-3（#278/#411/#455）</td><td><strong>衰老–caspase 連結是圖譜最弱的區域</strong></td></tr>
+        </tbody>
+      </table></div>
+      <p>
+        合併圖的排名與 wiki 層運行相差僅數名——結論對分層穩健；聯集的新增邊只會強化分數，不會重排名次。
+      </p>
+    </section>
+
+    <section id="predictions">
+      <p class="sec-label">網絡分析</p>
+      <h2>預測的缺失連結（連結預測）</h2>
+      <p>
+        對非相鄰節點對計算 Adamic-Adar，來自互補的視角：正典產物
+        （<code>scripts/analysis/link_prediction.py</code> → <code>web/public/data/link-prediction.json</code>，triples
+        層的全球前 150 對）、wiki 層掃描，以及<strong>主要的合併圖掃描</strong>（完整逐 caspase 清單見原始
+        輸出）。以下回報合併聯集分數；它們吸收了 wiki 層的數字（例如 wiki 掃描的
+        CASP-3→Senescence 0.54 在聯集上成為 0.52（12），CASP-1→SASP 0.69（13）不變）。完整合併運行還補上了
+        分層運行看不到的頭條：<strong>Caspase-3 → Apoptosis AA 15.9——全圖最高的 caspase–標的親近度</strong>。
+      </p>
+      <p><strong>來自正典產物</strong>（僅 4 個含 caspase 的對擠進前 150 名）：</p>
+      <ol>
+        <li><strong>Caspase-3 ↔ Caspase-6</strong>（AA 2.31，共享：Caspase-9/8、Lamins）——真實生物學；CASP-6 由 CASP-3 活化並切割 Lamins</li>
+        <li><strong>Inhibitor of Apoptosis Proteins ↔ XIAP</strong>（AA 2.08）——XIAP 是 IAP 家族原型；值得一條 <code>is_member_of</code> 邊</li>
+        <li><strong>Cancer ↔ Caspase-3</strong>（AA 1.82，跨社群）——以及 <strong>Ivermectin ↔ melittin</strong>（AA 2.00，跨社群；兩者都是 CASP-3 在合併圖上的直接鄰居）——癌症重新定位群再次指向 caspase-3 介導的凋亡作為機制橋樑</li>
+      </ol>
+      <p><strong>來自合併圖掃描</strong>，經文獻裁決後最可行的預測：</p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>預測</th><th class="num">AA（共享）</th><th>裁決</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Caspase-9 → Cancer</strong></td><td class="num">0.90 (16)</td><td>全圖最強的 caspase 預測；臨床相關性完全由傳遞路徑承載（見跨切模式）</td></tr>
+          <tr><td><strong>Caspase-3 → Cancer / Chemotherapy</strong></td><td class="num">0.82 (20) / 0.60 (10)</td><td>強——榜首未連結鄰居；整併邊候選</td></tr>
+          <tr><td><strong>Caspase-2 → Apoptosis</strong></td><td class="num">0.82 (11)</td><td>強。CASP-2 的凋亡／DDR 角色有文獻支持；它缺的是通往 Apoptosis 的直接邊——是正規化缺陷，不是知識缺漏</td></tr>
+          <tr><td><strong>Caspase-1 → SASP</strong></td><td class="num">0.69 (13)</td><td><strong>強。</strong>CASP-1 是核心的 SASP 擴大器（IL-1β→NF-κB）。目前只經 Inflammaging 傳遞連結</td></tr>
+          <tr><td><strong>Caspase-3 → 氧化壓力 / 衰老 / NF-κB</strong></td><td class="num">0.53 (14) / 0.52 (12) / 0.46 (15)</td><td><strong>強。</strong>CASP-3 的非凋亡性衰老強化角色（Tang 2012，PMID 22863278）；ROS–caspase 放大迴路文獻充分。直接填補分子橋接缺口</td></tr>
+          <tr><td>Caspase-9 → BAX / Bim / Bad</td><td class="num">0.33 / 0.30 / 0.31 (9–13)</td><td>內源臂缺少通往 BCL-2 家族的顯式上游接線；BH3 類似物（ABT-263）senolytic 路徑應由此經過</td></tr>
+          <tr><td>Caspase-8 → BH3 mimetics / Dasatinib</td><td class="num">0.24 / 0.23</td><td>Senolytic 邊候選：D+Q 重新接通 CASP-8/3；dasatinib 是等待直接連結的圖譜鄰居</td></tr>
+          <tr><td>Caspase-10 → TRAIL</td><td class="num">0.44 (9)</td><td>TRAIL-R/DISC 生物學；TRAIL 路徑的起始者竟未被直接引用</td></tr>
+          <tr><td>Caspase-12 → Unfolded Protein Response</td><td class="num">0.12 (3)</td><td>分數低但屬教科書級 ER 壓力 caspase；連向圖上已存在的 UPR 節點</td></tr>
+          <tr><td>Caspase-4/5/11 → NLRP3 Inflammasome、IL-18、cGAS-STING</td><td class="num">0.17 / 0.15 / 0.14</td><td>三人組的上游感測器（NLRP3、cGAS-STING→非典型引動）與 IL-18 受質皆共享鄰居豐富但未連結</td></tr>
+          <tr><td>Caspase-1 → Canakinumab / Anakinra</td><td class="num">0.15 / 0.14</td><td>治療臂：IL-1β/IL-1R 阻斷劑（CANTOS 語境）已存在為節點，但與其標的路徑效應蛋白酶沒有邊</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note">
+        <h4>跨切模式</h4>
+        <p>
+          <strong>「Cancer」與「Chemotherapy」同時是 CASP-2、-3、-8、-9 的榜首未連結鄰居</strong>
+          （CASP-9→Cancer AA 0.90 是合併 caspase 掃描中最強的單一分數）——凋亡執行臂的臨床相關性完全由
+          傳遞路徑承載。加入 <code>Caspase-3 --executes--> Cancer cell death</code> /
+          <code>Chemotherapy --activates--> Caspase-9/3</code> 類型的邊，能把四條弱分數路徑整併成一個有
+          證據支持的模組。
+        </p>
+      </div>
+    </section>
+
+    <section id="gaps">
+      <p class="sec-label">網絡分析</p>
+      <h2>圖譜缺口（候選增補標的）</h2>
+      <ol>
+        <li><strong>PIDDosome 只存在於 triples 層</strong>——<code>Caspase-2 → PIDDosome/PIDD/RAIDD</code> 軸存在於該層，但 wiki 層沒有代表；任何僅 wiki 的視圖都會誤報其缺席。wiki 筆記應交叉連結此軸。</li>
+        <li><strong>沒有 Caspase-14 節點</strong>——表皮分化 caspase 完全缺席。</li>
+        <li><strong>鐵死亡–caspase 交叉對話缺失</strong>：文獻支持的邊（CASP-8 經抑制性磷酸化情境促進鐵死亡；CASP-3 切割 GSDME 將凋亡轉為焦亡並調控鐵死亡）皆未收錄。<strong>Gasdermin E</strong> 沒有節點。</li>
+        <li><strong>衰老橋接僅停在敘事層級</strong>（Inflammaging、Paracrine Senescence）——CASP-3→GSDME、CASP-1→IL-1α（非典型 SASP 驅動者）、CASP-8/RIPK1 衰老出口等分子橋接缺席。</li>
+        <li><strong>衰老細胞的凋亡抗性</strong>——BCL-2/BCL-xL/ABT-263（navitoclax）senolytic 臂存在（Bcl-2 family 節點，k-core 15），但與 caspases <strong>拓撲上不連通</strong>（CASP-4/5/11 vs Bcl-2 family 的 Jaccard = 0.000；CASP-3 對 Bcl-2 family 的 AA 很低）。senolytic 重新接通凋亡的故事沒有被接成邊路徑。</li>
+        <li><strong>Caspase-3 (at Ser150)</strong> 在 triples 圖中以度 1 殘段存在（PAK2 磷酸化失活語境）——正規化候選。</li>
+      </ol>
+    </section>
+
+    <section id="enrichment">
+      <p class="sec-label">網絡分析</p>
+      <h2>增補佇列（按文獻支持 × 圖譜影響排序）</h2>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th class="num">#</th><th>行動</th><th>依據</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="num">1</td><td><code>Caspase-2 → Apoptosis</code> 直接連結</td><td>修復離群相鄰缺陷</td></tr>
+          <tr><td class="num">2</td><td><code>Caspase-3 ↔ Cellular Senescence</code></td><td>非凋亡角色；PMID 22863278</td></tr>
+          <tr><td class="num">3</td><td><code>Caspase-1 → SASP</code></td><td>IL-1β/NF-κB 擴大器；PMID 23562091</td></tr>
+          <tr><td class="num">4</td><td>內源臂的 BCL-2 家族接線：<code>Caspase-9 → BAX/Bim/Bad</code>、<code>BH3 mimetics → Caspase-9</code></td><td>senolytic 橋樑</td></tr>
+          <tr><td class="num">5</td><td><code>Caspase-8 → Necroptosis</code></td><td>RIPK1 守門者——PPR 已偵測到（#25），卻沒有邊陳述它</td></tr>
+          <tr><td class="num">6</td><td>非典型三人組上游：<code>NLRP3 / cGAS-STING → Caspase-4/5/11</code>、<code>Caspase-1 → IL-18</code></td><td>共享鄰居豐富，未連結</td></tr>
+          <tr><td class="num">7</td><td>新實體：Gasdermin E、Caspase-14</td><td>PIDDosome 已存在於 triples 層——改為從 wiki 的 Caspase-2 筆記交叉連結</td></tr>
+          <tr><td class="num">8</td><td>治療邊：Canakinumab/Anakinra → IL-1β 軸；Dasatinib → Caspase-8</td><td>治療臂與效應蛋白酶脫鉤</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="literature">
+      <p class="sec-label">文獻</p>
+      <h2>文獻深究：caspases</h2>
+
+      <h3>分類</h3>
+      <p>14 個人類 caspases（半胱胺酸—天門冬胺酸蛋白酶，CASP1–CASP14）按功能與序列同源性分組：</p>
+      <ul>
+        <li><strong>起始者</strong>——CASP-8、-9、-10、-2。長的 N 端前驅結構域把它們招募到活化平台；活化靠誘導接近的<strong>二聚化</strong>，而非蛋白酶解。</li>
+        <li><strong>執行者</strong>——CASP-3、-6、-7。短前驅結構域、非活性酶原二聚體；由起始者切割其間域連結子而活化。</li>
+        <li><strong>發炎性</strong>——CASP-1、-4、-5、-11（小鼠 11 為人類 4/5 的直系同源）、-12。CASP-12 在多數人類中為截斷假基因，並負調控 CASP-1。</li>
+        <li><strong>CASP-14</strong>——表皮分化；既非凋亡也非發炎。</li>
+      </ul>
+
+      <h3>結構域與活化平台</h3>
+      <p>
+        保守架構：前驅結構域（CASP-1/2/4/5/9/12 為 CARD；CASP-8/10 為 DED；執行者皆無）＋大（p20）＋小
+        （p10）催化次單元；活性酶為 (p20/p10)₂ 異四聚體。三個活化平台：
+      </p>
+      <ol>
+        <li><strong>Apoptosome</strong>（內源）：Cytochrome c + Apaf-1 + dATP → 七聚體平台 → 以 CARD–CARD 招募 pro-CASP-9（Li et al. 2000，PMID 10529249；Riedl &amp; Salvesen 2007，PMID 17344876）。</li>
+        <li><strong>DISC</strong>（外源）：死亡受體（FasL/TRAIL/TNF-α）→ FADD → pro-CASP-8/10 的 DED 聚集；第二型細胞經 CASP-8 切割 Bid 放大（Li et al. 1998，PMID 9808642）。</li>
+        <li><strong>Inflammasomes</strong>：NLRP3/NLRP1/NLRC4/AIM2/pyrin + ASC → pro-CASP-1；<strong>非典型</strong>的 CASP-4/5/11 藉 CARD 直接結合細胞質 LPS（Shi et al. 2014，PMID 25043016）。</li>
+      </ol>
+      <p>
+        <strong>調控：</strong>XIAP 抑制 CASP-3/-7/-9；粒線體釋出的 Smac/DIABLO 中和 XIAP；病毒 serpins
+        CrmA/SPI-2 標的 CASP-1/-8。
+      </p>
+
+      <h3>關鍵受質</h3>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>受質</th><th>Caspase</th><th>後果</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Bid</td><td>CASP-8</td><td>tBid → MOMP，內源放大</td></tr>
+          <tr><td>PARP1</td><td>CASP-3/-7</td><td>89 kDa 片段；DNA 修復失效；凋亡標記（PMID 8168123）</td></tr>
+          <tr><td>Gasdermin D</td><td>CASP-1/4/5/11</td><td>GSDMD-N 成孔 → 細胞焦亡（PMID 26375003）</td></tr>
+          <tr><td>Pro-IL-1β / Pro-IL-18</td><td>CASP-1</td><td>細胞激素成熟</td></tr>
+          <tr><td>ROCK1</td><td>CASP-3</td><td>起泡／凋亡小體（PMID 11792848）</td></tr>
+          <tr><td>Tau</td><td>CASP-6（-3）</td><td>D402 截斷，阿茲海默聚集體（PMID 29398122）</td></tr>
+          <tr><td>ICAD</td><td>CASP-3</td><td>釋出 CAD → DNA 片段化</td></tr>
+          <tr><td>Lamin A/B、gelsolin</td><td>CASP-3/6</td><td>細胞骨架／細胞核崩解</td></tr>
+          <tr><td>p62/SQSTM1、Beclin-1</td><td>CASP-3/-8/-2</td><td>凋亡–自噬交叉對話</td></tr>
+        </tbody>
+      </table></div>
+      <p>
+        N 端蛋白體學已編錄 1,000+ 個 caspase 受質（Mahrus et al. 2008，PMID 18636095；CASBAH 資料庫）。
+        執行者的非典型角色（CASP-3 參與巨噬細胞替代活化、肌母細胞分化）持續浮現。
+      </p>
+
+      <h3>老化生物學中的 caspases</h3>
+      <p>
+        <strong>衰老細胞的凋亡抗性</strong>——衰老細胞上調 BCL-2/BCL-xL/BCL-W、下調 Bim/Puma/Noxa，並呈現
+        鈍化的 CASP-8/3 活化；senolytics（dasatinib+quercetin、navitoclax/ABT-263）部分正是靠重新接通這套
+        機械起效（de Keizer 2017，PMID 28266040）。<em>圖譜呼應：這條軸即使在合併圖上也未接線。</em>
+      </p>
+      <p>
+        <strong>CASP-3 / 衰老</strong>——CASP-3 在癌基因誘導衰老早期被活化，發揮非凋亡性的衰老強化功能
+        （Tang et al. 2012，PMID 22863278）；仍有爭議、仍在研究中。這與 CASP-3 是<em>唯一</em>對
+        Senescence/SASP/Autophagy 有非平凡 PPR 流量的 caspase 相符。
+      </p>
+      <p>
+        <strong>CASP-1 / NLRP3 / 發炎老化</strong>——NLRP3→CASP-1→IL-1β 訊號隨年齡增強，驅動發炎老化與免疫
+        衰老（Youm et al. 2013，PMID 23562091）、動脈粥狀硬化（PMID 31153200）、代謝衰退（PMID 21802169）
+        與阿茲海默病理（Heneka et al. 2013，PMID 23233273）。CASP-1 經 IL-1β→NF-κB→IL-6/IL-8 成為核心的
+        SASP 擴大器。<em>圖譜呼應：「Inflammaging」社群正是這塊楔形。</em>
+      </p>
+      <p>
+        <strong>CASP-2</strong>——真正的腫瘤抑制者（基因敲除小鼠：中心體過剩、非整倍性、致癌物敏感的腫瘤
+        發生）；切割 Beclin-1，串起腫瘤抑制、自噬抑制與凋亡；並涉及卵母細胞流失與 p53 上游的 DDR（PMID
+        19339967、31209125、22940864）。<em>圖譜呼應：其離群社群狀態是 wiki 層假象——聯集還原了 PIDDosome 軸。</em>
+      </p>
+      <p>
+        <strong>CASP-14</strong>——角質細胞分化、filaggrin 加工、UVB 防護（PMID 17481861）；在老化／光老化
+        皮膚中減少（標記或驅動未定）。知識庫中缺席。
+      </p>
+
+      <h3>藥理學</h3>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>藥劑</th><th>標的</th><th>狀態</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Emricasan（IDN-6556）</strong></td><td>泛 caspase</td><td>臨床進展最深；NASH 纖維化的 Phase 2b ENCORE-NFH <strong>未達主要終點</strong>；無核准適應症</td></tr>
+          <tr><td><strong>VX-765（belnacasan）</strong></td><td>CASP-1/4</td><td>Phase 2（癲癇、類風濕性關節炎、乾癬；近期拓展 CNS 適應症）；未核准</td></tr>
+          <tr><td>Pralnacasan（VX-740）</td><td>CASP-1</td><td>已中止（藥動／安全性）</td></tr>
+          <tr><td>Z-VAD-FMK、Ac-YVAD-CMK</td><td>泛 / CASP-1</td><td>僅限研究工具（脫靶含 calpain）</td></tr>
+          <tr><td>MCC950、dapansutrile（OLT1177）</td><td>NLRP3（上游）</td><td>間接調控 CASP-1；dapansutrile 進入 Phase 2（骨關節炎、心衰竭）</td></tr>
+          <tr><td>Disulfiram、necrosulfonamide</td><td>GSDMD</td><td>caspase 下游的焦亡阻斷劑</td></tr>
+          <tr><td>Navitoclax / D+Q senolytics</td><td>BCL-2 家族</td><td>間接恢復衰老細胞中 caspase-3/8 的敏感性</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note">
+        <h4>轉譯缺口</h4>
+        <p>
+          <strong>截至 2026 年，沒有任何 caspase 抑制劑取得藥證。</strong>泛 caspase 抑制可能同時削弱受損
+          細胞的凋亡清除；臨床上最活躍的戰場是 NLRP3/inflammasome 調控，而非直接標靶 caspase。「senolytic
+          重新活化 caspase」仍是願景，不是已實現的藥理學。
+        </p>
+      </div>
+
+      <h3>關鍵結論</h3>
+      <ol>
+        <li>Caspases 不只是死亡蛋白酶——發炎（1/4/5/11）、分化（14）、腫瘤抑制（2）與衰老調控（3）皆有角色。</li>
+        <li>活化由平台支架決定（apoptosome/DISC/inflammasome）——平台身分決定結局。</li>
+        <li>老化生物學在三條軸上與 caspase 糾纏：CASP-1 發炎老化、CASP-2 基因體穩定、衰老細胞的凋亡抗性。</li>
+        <li>合併圖譜忠實重現家族的兩社群結構與 pyroptosis/necroptosis/apoptosis 的角色指派，但在 CASP-14、GSDME、鐵死亡交叉對話與 senolytic BCL-2↔caspase 軸上偏薄——這些都是具體的增補標的。PIDDosome 軸存在，但只在 triples 層。</li>
+      </ol>
+    </section>
+
+    <section id="method">
+      <p class="sec-label">方法</p>
+      <h2>可重現性</h2>
+      <p>
+        所有指標都在<strong>合併圖譜</strong>（<code>web/data/nodes.json</code> /
+        <code>edges.json</code>，triples ∪ wiki 的正典聯集，逐邊標記來源層）上計算；wiki 層與 triples 層的
+        數字在有差異處以分解形式呈現。
+      </p>
+      <div class="copy-host"><pre><code># 多指標 來源×標的 分析（路徑、Jaccard、Adamic-Adar、k-core、
+# 光譜、有效電阻、PPR）——合併聯集 + wiki 層
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
+  --graph &lt;序列化為 graph.json schema 的合併聯集&gt; \
+  --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
+            caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
+  --targets apoptosis pyroptosis necroptosis inflammasome ferroptosis senescence \
+            sasp p53 bcl_2_family autophagy caspase executioner_caspase \
+            gasdermin_d apoptosome xiap
+
+# 正典連結預測產物 + 角色類別
+uv run --with networkx python3 scripts/analysis/link_prediction.py
+uv run python3 scripts/analysis/role_query.py --node "Caspase-3"</code></pre></div>
+      <p>
+        光譜參數：合併巨型連通分量 <strong>λ₂ = 0.188</strong>（4,084 節點 / 3,839 巨型分量節點 / 31,719
+        邊）；wiki 層巨型連通分量 λ₂ = 0.802；PPR 阻尼 α = 0.85；有效電阻虛無樣本 n = 300。原始指標輸出位於
+        <code><a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_caspase_28_AUG_2026" target="_blank">src/tasks/node_network_caspase_28_AUG_2026/</a></code>。
+      </p>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      llm-wiki-jk 知識圖譜的 caspase 家族深究。
+      指標於合併 triples ∪ wiki 聯集上計算（2026年8月28日）。非醫療建議；
+      每個網絡解讀與預測邊都是假說，請對照原始筆記查核。
+    </p>
+    <p><strong>圖譜建構：</strong>合併 <code>4084n / 31842e</code> · 巨型分量 <code>3839n / 31719e</code> · 來源 13 caspases × 15 錨點</p>
+    <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
+</footer>
+
+<script>
+/* 靜態圖表；本頁不需要執行期圖表。 */
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

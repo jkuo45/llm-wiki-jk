@@ -15,7 +15,7 @@ aliases: [creatine monohydrate, N-carbamimidoyl-N-methylglycine]
 
 ## Biosynthesis & Methyl Demand
 
-Creatine is formed in a two-step pathway. First, arginine and glycine are condensed by L-arginine:glycine amidinotransferase (AGAT) to guanidinoacetate in kidney. Then, in the liver, guanidinoacetate *N*-methyltransferase (GAMT) methylates guanidinoacetate using [[S-Adenosylmethionine]] (SAM) as the methyl donor, producing creatine. This methylation step is enormous: whole-body creatine synthesis consumes an estimated 40% of the body's daily [[Methyl groups]] flux, making it the single largest sink in the [[Methylation Cycle]].
+Creatine is formed in a two-step pathway. First, arginine and glycine are condensed by L-arginine:glycine amidinotransferase (AGAT) to guanidinoacetate in kidney. Then, in the liver, guanidinoacetate *N*-methyltransferase (GAMT) methylates guanidinoacetate using [[SAM|S-Adenosylmethionine]] (SAM) as the methyl donor, producing creatine. This methylation step is enormous: whole-body creatine synthesis consumes an estimated 40% of the body's daily [[Methyl groups]] flux, making it the single largest sink in the [[Methylation Cycle]].
 
 ## Physiological & Cognitive Role
 
@@ -44,7 +44,7 @@ List of documents that mention this entity
 
 - [[Methylation Cycle]]: Creatine synthesis is the largest consumer of methyl groups.
 - [[Methyl groups]]: The chemical units required to produce creatine via GAMT.
-- [[S-Adenosylmethionine]]: The methyl donor consumed in creatine biosynthesis.
+- [[SAM|S-Adenosylmethionine]]: The methyl donor consumed in creatine biosynthesis.
 - [[COMT]]: Supplementing creatine can indirectly support COMT by sparing methyl groups.
 - [[MTHFR]]: A slow variant that limits methyl availability alongside COMT.
 - [[Aging]]: Context where creatine's bioenergetic support is relevant.
@@ -52,6 +52,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Methylation Cycle]], [[Methyl groups]], [[S-Adenosylmethionine]], [[COMT]], [[MTHFR]], [[Aging]], [[Oxidative Stress]].
+- New links added: [[Methylation Cycle]], [[Methyl groups]], [[SAM|S-Adenosylmethionine]], [[COMT]], [[MTHFR]], [[Aging]], [[Oxidative Stress]].
 - Suggested new entity notes to create: [[Guanidinoacetate]], [[GAMT]], [[Phosphocreatine]].
 - Strong connections to strengthen: [[Creatine]] ↔ [[Methylation Cycle]]; [[Creatine]] ↔ [[COMT]].

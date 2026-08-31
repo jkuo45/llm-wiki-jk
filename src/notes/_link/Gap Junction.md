@@ -15,7 +15,7 @@ aliases: [Gap Junctions]
 
 ## Gap Junctions in cGAS-STING Propagation
 
-Gap junctions provide a direct, contact-dependent route for intercellular transfer of [[cGAMP]], the second messenger produced by [[cGAS]] upon DNA sensing. Once cGAMP diffuses through connexin channels such as CX36 into a neighboring cell, it can engage [[STING]] and activate the downstream [[IRF3]] and [[NF-kappaB|NF-κB]] programs without that cell having sensed DNA itself. This mechanism allows cGAS-STING signaling to spread network-wide, amplifying [[Neuroinflammation]] far beyond the initiating insult.
+Gap junctions provide a direct, contact-dependent route for intercellular transfer of [[cGAMP]], the second messenger produced by [[cGAS]] upon DNA sensing. Once cGAMP diffuses through connexin channels such as CX36 into a neighboring cell, it can engage [[STING]] and activate the downstream [[IRF3]] and [[NF-κB|NF-κB]] programs without that cell having sensed DNA itself. This mechanism allows cGAS-STING signaling to spread network-wide, amplifying [[Neuroinflammation]] far beyond the initiating insult.
 
 ## Functional Implications
 
@@ -32,14 +32,14 @@ By coupling cells metabolically and immunologically, gap junctions transform loc
   - [[cGAMP]]: small-molecule second messenger transferred via channels
   - [[STING]]: receives cGAMP in neighboring cells
   - [[IRF3]]: downstream transcriptional activation
-  - [[NF-kappaB]]: inflammatory amplification in receiver cells
+  - [[NF-κB]]: inflammatory amplification in receiver cells
   - [[Microglia]]: coupled to neurons via connexins
   - [[Neuron]]: connexin-expressing partner cell
   - [[Neuroinflammation]]: network-wide signaling amplification
 
 ## Linking Summary
 
-- New links added: [[Gap Junction]], [[cGAS-STING Pathway]], [[cGAMP]], [[STING]], [[IRF3]], [[NF-kappaB]], [[Microglia]], [[Neuron]], [[Neuroinflammation]]
+- New links added: [[Gap Junction]], [[cGAS-STING Pathway]], [[cGAMP]], [[STING]], [[IRF3]], [[NF-κB]], [[Microglia]], [[Neuron]], [[Neuroinflammation]]
 - Suggested new entity notes to create: [[Gap Junction|connexin 36]], [[Gap Junction|CX36]]
 - Strong connections to strengthen:
     - [[Gap Junction]] ↔ [[cGAS-STING Pathway]]

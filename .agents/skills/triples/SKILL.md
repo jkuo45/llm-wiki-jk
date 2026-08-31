@@ -42,7 +42,7 @@ Each triple is authored in **English (`en-US`)** with a **`zh-TW` translation** 
 Run the schema normalizer after authoring/editing triples — it idempotently fills `id` / `created` / `updated` and validates the schema:
 
 ```
-uv run scripts/03_normalize_triples_schema.py [--check]
+uv run python3 -m scripts.triples.normalize [--check]
 ```
 
 See [TRIPLE_RULES.md](references/TRIPLE_RULES.md) for detailed extraction guidelines.
@@ -63,7 +63,7 @@ Unless otherwise instructed, keep each `.json` file in sync with the documents i
 Generate directed graph visualizations using the triples script:
 
 ```
-uv run scripts/03_visualize_triples.py src/notes/<topic>/_triples.json <output_base> [--max-nodes N] [--min-edges N]
+uv run python3 -m scripts.triples.visualize src/notes/<topic>/_triples.json <output_base> [--max-nodes N] [--min-edges N]
 ```
 
 This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, save to `src/tasks/task_output_[timestamp].svg` (and `.png`, `.dot`).
@@ -79,7 +79,7 @@ This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, 
 - **Timestamps**: set `created` (first appearance, immutable) and `updated` (on change) as ISO-8601 UTC. Never regress `updated` below `created`.
 - **Context field must describe the relationship, not just one entity** — see below
 
-The `context` field is used as the node description in the graph visualization. When the rebuild script (`03_rebuild_from_triples.py`) builds `graph.json`, it assigns each node a description drawn from one of its triples' `context` fields. If the context only describes one entity's perspective, the other entity gets a misleading description.
+The `context` field is used as the node description in the graph visualization. When the rebuild script (`scripts/triples/rebuild.py`) builds `graph.json`, it assigns each node a description drawn from one of its triples' `context` fields. If the context only describes one entity's perspective, the other entity gets a misleading description.
 
 - **The context must be usable as a standalone description for EITHER entity in the triple.** Before writing context, ask: "If this text were assigned as the subject's node description, would it be accurate? What about the object's?"
 - **One canonical name per entity.** If a document refers to the same entity by multiple names (e.g., "DJ-1" and "PARK7", "mTOR" and "mechanistic target of rapamycin"), pick ONE canonical name and use it consistently in all triples.

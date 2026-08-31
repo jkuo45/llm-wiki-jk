@@ -1,9 +1,9 @@
 ---
 title: Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review
-description: Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.
+description: Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/analysis/node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.
 created: 2026-08-17
 updated: 2026-08-22
-source: graphify-out/graph.json (2506 nodes / 3213 edges) + scripts/04_node_analysis.py + Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017 (PMC5514220)
+source: graphify-out/graph.json (2506 nodes / 3213 edges) + scripts/analysis/node_analysis.py + Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017 (PMC5514220)
 tags:
   - task-output
   - knowledge-graph
@@ -16,13 +16,12 @@ tags:
   - effective-resistance
   - therapeutics
 author: []
-starred: true
 ---
 
 # Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Their Targets & Substrates
 
 > [!NOTE]
-> **Task**: Run `scripts/04_node_analysis.py` on the seven mammalian sirtuins against the intracellular **targets and substrates** catalogued in the target/substrate table of the source review _"Sirtuins, a promising target in slowing down the ageing process"_ ([[Sirtuins, a promising target in slowing down the ageing process]]; Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017; [PMC5514220](https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/); DOI 10.1007/s10522-017-9685-9) — organized by the review's three target columns: **Modification**, **Activation**, **Inhibition** — supplemented with web research.
+> **Task**: Run `scripts/analysis/node_analysis.py` on the seven mammalian sirtuins against the intracellular **targets and substrates** catalogued in the target/substrate table of the source review _"Sirtuins, a promising target in slowing down the ageing process"_ ([[Sirtuins, a promising target in slowing down the ageing process]]; Grabowska, Sikora & Bielak-Zmijewska, Biogerontology 2017; [PMC5514220](https://pmc.ncbi.nlm.nih.gov/articles/PMC5514220/); DOI 10.1007/s10522-017-9685-9) — organized by the review's three target columns: **Modification**, **Activation**, **Inhibition** — supplemented with web research.
 > **Date**: 17_AUGUST_2026 10:20 AM PDT
 > **Graph**: `graphify-out/graph.json` — 2506 nodes / 2055 giant-component nodes / 3213 edges
 > **Runs**: 3 (one per target category from the source document), full reproducible commands in Reproducibility.
@@ -289,17 +288,17 @@ The source review (2017) already notes the field's shift from "deacetylases" to 
 
 ```bash
 # Modification
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --sources SIRT1 SIRT2 SIRT3 SIRT6 SIRT7 \
   --targets p53 Tubulin "Histone H4" H3K9 H4K16 H3K56 H2BK12 WRN H2A H2B H3K18ac
 
 # Activation
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --sources SIRT1 SIRT2 SIRT3 SIRT5 SIRT6 SIRT7 \
   --targets SUV39H1 LKB1 AMPK NBS1 XPA MnSOD Ku70 FOXO PGC-1α Catalase IDH2 PARP1 CtIP "SOD1 (via desuccinylation)"
 
 # Inhibition
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --sources SIRT1 SIRT2 SIRT3 SIRT4 SIRT6 SIRT7 \
   --targets NF-κB P300 p66Shc mTOR HIF-1α IGF-1 GDH "RNA Polymerase I" p53
 ```

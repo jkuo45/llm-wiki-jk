@@ -15,7 +15,7 @@ aliases: []
 
 ## Determinants
 
-Tumorigenic potential arises from the acquisition of cancer hallmarks. Driver events include activating [[Oncogene]] mutations (e.g., RAS, MYC) and loss of [[Tumor Suppressor Gene]] function (e.g., [[TP53]], [[RB1]]), which together overcome [[Tumor-Suppressor Loss-Induced Senescence]] and [[Oncogene-Induced Senescence]]. Additional contributors are telomerase reactivation, angiogenic signaling, evasion of immune surveillance, and epigenetic destabilization (e.g., aberrant [[H3K27me3]] domains). The degree of dedifferentiation correlates with tumorigenicity: more primitive, less committed cells generally form tumors more readily.
+Tumorigenic potential arises from the acquisition of cancer hallmarks. Driver events include activating [[Oncogene]] mutations (e.g., RAS, MYC) and loss of [[Tumor Suppressor Gene]] function (e.g., [[p53]], [[RB1]]), which together overcome [[Tumor-Suppressor Loss-Induced Senescence]] and [[Oncogene-Induced Senescence]]. Additional contributors are telomerase reactivation, angiogenic signaling, evasion of immune surveillance, and epigenetic destabilization (e.g., aberrant [[H3K27me3]] domains). The degree of dedifferentiation correlates with tumorigenicity: more primitive, less committed cells generally form tumors more readily.
 
 ## Assays & Measurement
 
@@ -40,6 +40,6 @@ Minimizing tumorigenicity is central to regenerative medicine: strategies includ
 
 ## Linking Summary
 
-- New links added: [[Cancer]], [[Teratoma]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Induced Pluripotent Stem Cells]], [[Progenitor Cell]], [[TP53]], [[RB1]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Oncogene-Induced Senescence]], [[H3K27me3]], [[Senolytic Drugs]], [[HLA Haplobank]]
+- New links added: [[Cancer]], [[Teratoma]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Induced Pluripotent Stem Cells]], [[Progenitor Cell]], [[p53]], [[RB1]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Oncogene-Induced Senescence]], [[H3K27me3]], [[Senolytic Drugs]], [[HLA Haplobank]]
 - Suggested new entity notes to create: [[Teratoma Assay]], [[Telomerase]], [[Soft-Agar Assay]]
 - Strong connections to strengthen: [[Tumorigenicity]] ↔ [[Cancer]], [[Tumorigenicity]] ↔ [[Induced Pluripotent Stem Cells]]

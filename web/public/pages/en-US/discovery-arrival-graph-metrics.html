@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading a Discovery Arrival — Graph Metrics and Typed Edges from Ferroptosis to COVID</title>
+<meta name="description" content="How knowledge-graph metrics behave when a new discovery enters the graph: the five-phase discovery lifecycle traced metric-by-metric through a year-by-year replay of ferroptosis (2012→2026) and COVID/vaccines (2020→2026), and how typed, directed edges turn co-mention into implication — attribute transfer, typed-path composition, signed-triad inference, and calibrated link prediction.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/discovery-arrival-graph-metrics.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+<style>
+  .table-wrap caption { caption-side: bottom; text-align: left; font-size: .85rem; padding: .5rem .25rem; opacity: .75; }
+  .table-wrap tr.hl td { background: var(--bg-soft, rgba(0,0,0,.04)); }
+  .table-wrap td strong { font-weight: 700; }
+  figcaption { margin-top: .5rem; }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#framing">Framing</a>
+      <a href="#lifecycle">Lifecycle</a>
+      <a href="#ferroptosis">Ferroptosis</a>
+      <a href="#covid">COVID</a>
+      <a href="#typed">Typed edges</a>
+      <a href="#external">Case studies</a>
+      <a href="#calibration">Calibration</a>
+      <a href="#metrics">Metrics</a>
+      <a href="#references">Refs</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Knowledge Graphs · Discovery Lifecycle</p>
+    <h1>Reading a Discovery Arrival: Graph Metrics and Typed Edges When New Entities Enter the Graph</h1>
+    <p class="lede">
+      A new discovery does not enter a knowledge graph all at once. It arrives as an <strong>orphan</strong>,
+      accretes seed edges, gets absorbed by a neighboring field, starts <strong>bridging</strong> fields, and — if
+      productive — <strong>nucleates its own community</strong>. This page traces that lifecycle metric-by-metric through two
+      replays on this vault's graphs — <strong>ferroptosis</strong> (named 2012, now a 141-edge hub) and
+      <strong>COVID/vaccines</strong> (2019–2021) — and then shows how the graph's <strong>3,895 typed, directed
+      edges</strong> turn co-mention into implication: connections nobody has stated yet, computed rather than guessed.
+    </p>
+    <div class="meta">
+      <p><strong>Date:</strong> 30 August 2026</p>
+      <p><strong>Data sources:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> (triples: typed, directed, confidence-scored) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> (wiki: co-mention <code>links_to</code>) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined: 37,318 edges = 3,895 typed-directed + 33,423 co-mention)</p>
+      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="On this page">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#framing">Framing: what should a metric "see"?</a></li>
+      <li><a href="#lifecycle">The five-phase discovery lifecycle</a></li>
+      <li><a href="#ferroptosis">Worked example A — ferroptosis replayed (2012→2026)</a></li>
+      <li><a href="#covid">Worked example B — COVID/vaccines (2020→2026)</a></li>
+      <li><a href="#typed">Edges have semantics: four inference mechanisms</a></li>
+      <li><a href="#external">Case studies from outside the graph</a></li>
+      <li><a href="#calibration">Calibration: how much to trust a graph prediction</a></li>
+      <li><a href="#metrics">Metrics</a></li>
+      <li><a href="#references">References</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ============ 1. FRAMING ============ -->
+    <section id="framing">
+      <p class="sec-label">Framing</p>
+      <h2>What should a metric "see" when a discovery arrives?</h2>
+      <p>
+        The motivating question: suppose new entities arrive — a new mechanism (<em>ferroptosis</em>, named in one
+        Cell paper in 2012), a new disease-plus-intervention cluster (<em>COVID-19 and vaccines</em>, 2019–2021).
+        What happens to the <em>calculations</em> at introduction, as the entities mature, and as implications accrete?
+        And — because edges in this graph carry <strong>relation type, direction, confidence, and provenance</strong> —
+        can the metrics surface connections that nobody has explicitly stated yet?
+      </p>
+      <p>
+        The short answers, developed below: <strong>(1)</strong> each metric is a different instrument pointed at the
+        same maturation curve — betweenness is the maturation signal, k-core the depth signal, Adamic-Adar the
+        <em>foresight</em> signal (highest at birth, decaying as the node fills in), PageRank the <em>rear-view mirror</em>.
+        <strong>(2)</strong> Topology proposes, semantics dispose: undirected metrics tell you <em>where</em> implications
+        will land; the typed edges tell you <em>what</em> they are — cause, cure, or mere association.
+        <strong>(3)</strong> Graph output is a triage instrument with a calibrated base rate (top-ranked candidates hit
+        ~10–30% vs 0.8% unguided), never an oracle.
+      </p>
+      <div class="note">
+        <p><strong>Why replay?</strong> You cannot observe a discovery's metrics retrospectively — today's graph already
+        contains the mature node. So the runs used <em>counterfactual replay</em>: the ferroptosis node was emptied,
+        its edges re-added in literature-timeline batches (2012, 2015, 2017, 2019, 2020, 2022, 2024), and every metric
+        recomputed per batch. The result is a metric <em>trajectory</em>, not a snapshot.</p>
+      </div>
+    </section>
+
+    <!-- ============ 2. LIFECYCLE ============ -->
+    <section id="lifecycle">
+      <p class="sec-label">Lifecycle</p>
+      <h2>The five-phase discovery lifecycle</h2>
+      <p>
+        Bibliometrics of real concepts show a recurring curve: a <strong>lag phase</strong> (ferroptosis: 1 paper in
+        2012, dozens/year through 2016; PROTACs: named 2001, dormant until ~2014), an <strong>inflection</strong>
+        (one bridging paper or trial), <strong>explosive edge growth</strong> (ferroptosis &gt;1,000 papers/year by
+        2021, exponential fit R² = 0.95), then <strong>saturation and fragmentation</strong>. Each graph metric fires
+        at a different phase.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 1 · The five-phase lifecycle and which calculations fire in each</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 420" role="img" aria-label="Five-phase discovery lifecycle diagram: orphan, seed attachment, absorption, bridging, nucleation, with the metrics that fire at each phase" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <!-- phase band background -->
+          <rect x="20"  y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="206" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="392" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="578" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+          <rect x="764" y="30" width="176" height="250" rx="10" fill="var(--bg-soft, #f4f4f6)"/>
+
+          <!-- Phase titles -->
+          <g text-anchor="middle" font-size="15" font-weight="700">
+            <text x="108" y="58">0 · Orphan</text>
+            <text x="294" y="58">1 · Seed attach</text>
+            <text x="480" y="58">2 · Absorption</text>
+            <text x="666" y="58">3 · Bridging</text>
+            <text x="852" y="58">4 · Nucleation</text>
+          </g>
+
+          <!-- mini-network cartoons -->
+          <!-- Phase 0: isolated node -->
+          <g stroke="var(--fg-dim,#999)" fill="none">
+            <circle cx="70" cy="150" r="26" fill="var(--accent,#4a6fa5)" stroke="none"/>
+            <circle cx="160" cy="120" r="9"/><circle cx="165" cy="200" r="9"/><circle cx="120" cy="240" r="8"/>
+          </g>
+          <text x="70" y="155" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+
+          <!-- Phase 1: few dashed seeds -->
+          <g stroke="var(--fg-dim,#999)" fill="none" stroke-dasharray="4 3">
+            <line x1="270" y1="150" x2="330" y2="112"/><line x1="272" y1="158" x2="338" y2="196"/><line x1="266" y1="164" x2="300" y2="244"/>
+          </g>
+          <circle cx="270" cy="150" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="270" y="155" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <circle cx="338" cy="108" r="9" fill="var(--fg-soft,#888)" stroke="none"/><circle cx="344" cy="200" r="9" fill="var(--fg-soft,#888)" stroke="none"/><circle cx="304" cy="248" r="8" fill="var(--fg-soft,#888)" stroke="none"/>
+
+          <!-- Phase 2: inside a community blob -->
+          <ellipse cx="480" cy="165" rx="78" ry="80" fill="none" stroke="var(--fg-dim,#999)" stroke-dasharray="6 4"/>
+          <circle cx="480" cy="160" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="480" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <g fill="var(--fg-soft,#888)" stroke="none">
+            <circle cx="440" cy="115" r="9"/><circle cx="525" cy="120" r="9"/><circle cx="430" cy="205" r="9"/><circle cx="520" cy="210" r="9"/><circle cx="480" cy="100" r="8"/>
+          </g>
+          <g stroke="var(--fg-dim,#999)">
+            <line x1="480" y1="160" x2="440" y2="115"/><line x1="480" y1="160" x2="525" y2="120"/><line x1="480" y1="160" x2="430" y2="205"/><line x1="480" y1="160" x2="520" y2="210"/>
+          </g>
+
+          <!-- Phase 3: bridge between two blobs -->
+          <ellipse cx="630" cy="120" rx="55" ry="52" fill="none" stroke="var(--fg-dim,#999)" stroke-dasharray="6 4"/>
+          <ellipse cx="702" cy="222" rx="55" ry="52" fill="none" stroke="var(--fg-dim,#999)" stroke-dasharray="6 4"/>
+          <g fill="var(--fg-soft,#888)" stroke="none">
+            <circle cx="610" cy="105" r="8"/><circle cx="650" cy="130" r="8"/><circle cx="685" cy="205" r="8"/><circle cx="722" cy="235" r="8"/>
+          </g>
+          <circle cx="666" cy="168" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="666" y="173" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <g stroke="var(--accent,#4a6fa5)" stroke-width="2">
+            <line x1="650" y1="135" x2="662" y2="152"/><line x1="686" y1="207" x2="672" y2="186"/>
+          </g>
+
+          <!-- Phase 4: own cluster with satellites -->
+          <circle cx="852" cy="160" r="26" fill="var(--accent,#4a6fa5)"/>
+          <text x="852" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">NEW</text>
+          <ellipse cx="852" cy="160" rx="80" ry="72" fill="none" stroke="var(--accent,#4a6fa5)" stroke-width="1.5" stroke-dasharray="6 4"/>
+          <g fill="var(--fg-soft,#888)" stroke="none">
+            <circle cx="800" cy="112" r="8"/><circle cx="906" cy="118" r="8"/><circle cx="790" cy="210" r="8"/><circle cx="912" cy="205" r="8"/><circle cx="852" cy="95" r="7"/><circle cx="852" cy="228" r="7"/>
+          </g>
+          <g stroke="var(--accent,#4a6fa5)" stroke-width="1.5">
+            <line x1="852" y1="160" x2="800" y2="112"/><line x1="852" y1="160" x2="906" y2="118"/><line x1="852" y1="160" x2="790" y2="210"/><line x1="852" y1="160" x2="912" y2="205"/>
+          </g>
+
+          <!-- metrics row -->
+          <g font-size="11.5">
+            <rect x="34"  y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="109" y="308" text-anchor="middle" font-weight="700">none fire —</text>
+            <text x="109" y="323" text-anchor="middle">un-thinkable by</text>
+            <text x="109" y="338" text-anchor="middle">the graph (alarm)</text>
+
+            <rect x="220" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="295" y="308" text-anchor="middle" font-weight="700">typed seeds ·</text>
+            <text x="295" y="323" text-anchor="middle">Adamic-Adar · PPR</text>
+            <text x="295" y="338" text-anchor="middle">→ triage queue</text>
+
+            <rect x="406" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="481" y="308" text-anchor="middle" font-weight="700">community ·</text>
+            <text x="481" y="323" text-anchor="middle">k-core · resistance</text>
+            <text x="481" y="338" text-anchor="middle">vs anchors</text>
+
+            <rect x="592" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="667" y="308" text-anchor="middle" font-weight="700">betweenness ·</text>
+            <text x="667" y="323" text-anchor="middle">cross-community</text>
+            <text x="667" y="338" text-anchor="middle">typed paths · triads</text>
+
+            <rect x="778" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
+            <text x="853" y="308" text-anchor="middle" font-weight="700">modularity Δ ·</text>
+            <text x="853" y="323" text-anchor="middle">satellite PageRank ·</text>
+            <text x="853" y="338" text-anchor="middle">role graduation</text>
+          </g>
+
+          <!-- arrow along the bottom -->
+          <line x1="40" y1="382" x2="920" y2="382" stroke="var(--fg,#333)" stroke-width="1.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+          <text x="480" y="404" text-anchor="middle" font-size="12">time · literature accretion →  (ferroptosis: 2012 → 2026 · PROTACs: 2001 → 2019)</text>
+        </svg>
+        </div>
+        <figcaption>
+          Each metric is an instrument pointed at the maturation curve. Phase 0 is itself a finding: a discovery with
+          no substrate cannot be <em>thought</em> by the graph. Real arcs: ferroptosis went orphan→hub in ~8 years;
+          PROTACs sat at "peripheral, k-core 1" for ~18 years while being an unrealized bridge.
+        </figcaption>
+      </figure>
+
+      <p>Two rules the replays support:</p>
+      <div class="note">
+        <p><strong>Rule 1 — Foreseeability decays with maturity.</strong> Adamic-Adar against the thin 2012 ferroptosis
+        node predicted <strong>80%</strong> of its eventual edge set (precision@10 = 0.8), falling to 0.6 by the 2024
+        stage and 0.0 when fully attached — the "easy" attachments get drawn first. Triage a discovery's neighborhood
+        <em>early</em>.</p>
+        <p><strong>Rule 2 — Topology proposes, semantics dispose.</strong> Undirected calculations (AA, PPR, k-core)
+        say <em>where</em> implications will land; the relation type, direction, confidence, and provenance on typed
+        edges say <em>what</em> they are.</p>
+      </div>
+    </section>
+
+    <!-- ============ 3. FERROPTOSIS ============ -->
+    <section id="ferroptosis">
+      <p class="sec-label">Worked example A</p>
+      <h2>"What if it were 2012?" — ferroptosis replayed</h2>
+      <p>
+        Ferroptosis was named by <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012</a>
+        from vocabulary that already existed — system x꜀⁻ (1980), "oxytosis" (2001), erastin (2003), RSL3 (2008),
+        GPX4, glutathione, iron. The replay empties the node and re-adds edges in literature-timeline batches.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <caption>Replay trajectory — wiki graph, per edge batch (AA = Adamic-Adar precision vs the final 141-entity neighbor set)</caption>
+          <thead>
+            <tr><th>Stage (edges added)</th><th>deg</th><th>k-core</th><th>btw ×10⁻³</th><th>Community</th><th>AA@10 / @25</th><th>PPR flows to</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>2012</strong> — Iron, Lipid Peroxidation, Glutathione, GPX4, ROS, Erastin, Regulated Cell Death, Mitochondria</td><td>8</td><td>8</td><td>0.01</td><td>oxidative-stress mega-community [508]</td><td><strong>0.8</strong> / 0.8</td><td>Lipid Peroxidation, GPX4, ROS, Glutathione</td></tr>
+            <tr><td><strong>2015</strong> — + System Xc⁻, p53, PUFA, Phospholipid</td><td>12</td><td>11</td><td>0.09</td><td>[516] same world</td><td>0.8 / 0.9</td><td>unchanged — purely local</td></tr>
+            <tr><td><strong>2017</strong> — + ACSL4, Fenton Reaction, Lipid hydroperoxide</td><td>15</td><td>11</td><td>0.09</td><td>[516]</td><td>0.8 / 0.8</td><td>unchanged</td></tr>
+            <tr><td><strong>2019</strong> — + FSP1, CoQ10, Ubiquinone, Mevalonate pathway, NADPH, Statins, Vitamin E</td><td>22</td><td>14</td><td>0.14</td><td>[515]</td><td>0.9 / 0.8</td><td>unchanged</td></tr>
+            <tr class="hl"><td><strong>2020</strong> — + NCOA4, Ferritin, SASP, Senescent Cells, Deferoxamine</td><td>27</td><td>15</td><td><strong>1.56</strong></td><td>[514]</td><td>0.8 / 0.8</td><td>unchanged</td></tr>
+            <tr><td><strong>2022</strong> — + Ischemia-reperfusion, Alzheimer's, Parkinson's, Huntington's, Stroke</td><td>32</td><td>15</td><td>1.86</td><td>[509]</td><td>0.7 / 0.6</td><td>unchanged</td></tr>
+            <tr><td><strong>2024</strong> — + Acid Ceramidase, Senolytic, Artesunate, DPP4, Mitotane, MS, HMG-CoA reductase</td><td>40</td><td>17</td><td>2.88</td><td>[503]</td><td>0.6 / 0.6</td><td>unchanged</td></tr>
+            <tr><td><strong>TODAY</strong> — actual graph, 141 edges</td><td>141</td><td>19</td><td><strong>9.86</strong></td><td>same mega-world [548]</td><td>0.0 / 0.0</td><td>+ Oxidative Stress, <strong>Cancer</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 2 · Betweenness is the maturation signal (~1,000× growth); k-core tracks depth; AA foreseeability decays</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 360" role="img" aria-label="Line chart of ferroptosis replay: betweenness rising from 0.01 to 9.86 with an 11-fold jump at 2020; k-core rising 8 to 19; Adamic-Adar precision decaying from 0.8 to 0" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <!-- axes -->
+          <line x1="80" y1="40" x2="80" y2="290" stroke="var(--border,#ccc)"/>
+          <line x1="80" y1="290" x2="900" y2="290" stroke="var(--border,#ccc)"/>
+          <!-- y ticks: betweenness scale 0..10 x1e-3 -->
+          <g font-size="11" text-anchor="end" fill="var(--fg-dim,#777)">
+            <text x="72" y="294">0</text><text x="72" y="219">2.5</text><text x="72" y="144">5.0</text><text x="72" y="69">7.5</text><text x="72" y="44" fill="none">10</text>
+          </g>
+          <text x="30" y="165" font-size="12" transform="rotate(-90 30 165)" text-anchor="middle" fill="var(--fg-dim,#777)">betweenness ×10⁻³ / k-core (scaled)</text>
+
+          <!-- x labels -->
+          <g font-size="11.5" text-anchor="middle" fill="var(--fg-dim,#777)">
+            <text x="110" y="308">2012</text><text x="226" y="308">2015</text><text x="342" y="308">2017</text><text x="458" y="308">2019</text><text x="574" y="308">2020</text><text x="690" y="308">2022</text><text x="806" y="308">2024</text><text x="895" y="308">today</text>
+          </g>
+
+          <!-- betweenness line: values .01 .09 .09 .14 1.56 1.86 2.88 9.86 -->
+          <polyline fill="none" stroke="var(--accent,#4a6fa5)" stroke-width="2.5"
+            points="110,288.8 226,284.3 342,284.3 458,282.9 574,235.2 690,227.1 806,204.9 895,50"/>
+          <g fill="var(--accent,#4a6fa5)">
+            <circle cx="110" cy="288.8" r="4"/><circle cx="226" cy="284.3" r="4"/><circle cx="342" cy="284.3" r="4"/><circle cx="458" cy="282.9" r="4"/><circle cx="574" cy="235.2" r="5"/><circle cx="690" cy="227.1" r="4"/><circle cx="806" cy="204.9" r="4"/><circle cx="895" cy="50" r="5"/>
+          </g>
+          <text x="585" y="228" font-size="11.5" font-weight="700" fill="var(--accent,#4a6fa5)">×11 leap: iron-autophagy + senescence edges land</text>
+          <text x="820" y="42" font-size="12" font-weight="700" fill="var(--accent,#4a6fa5)">9.86</text>
+
+          <!-- k-core scaled (8..19 mapped): y = 290 - (k-8)*13 -->
+          <polyline fill="none" stroke="var(--warn,#b8860b)" stroke-width="2" stroke-dasharray="7 4"
+            points="110,286 226,234 342,234 458,182 574,143 690,143 806,91 895,25"/>
+          <g fill="var(--warn,#b8860b)">
+            <circle cx="110" cy="286" r="3.5"/><circle cx="226" cy="234" r="3.5"/><circle cx="342" cy="234" r="3.5"/><circle cx="458" cy="182" r="3.5"/><circle cx="574" cy="143" r="3.5"/><circle cx="690" cy="143" r="3.5"/><circle cx="806" cy="91" r="3.5"/><circle cx="895" cy="25" r="3.5"/>
+          </g>
+          <text x="240" y="226" font-size="11.5" fill="var(--warn,#b8860b)">k-core 8 → 19 (max core tier, alongside SIRT1 / NAD+ / SASP)</text>
+
+          <!-- AA precision: 0.8,0.8,0.8,0.9,0.8,0.7,0.6,0.0 mapped y = 290 - v*250 -->
+          <polyline fill="none" stroke="var(--ok,#2e8b57)" stroke-width="2" stroke-dasharray="2 3"
+            points="110,90 226,90 342,90 458,65 574,90 690,115 806,140 895,290"/>
+          <g fill="var(--ok,#2e8b57)">
+            <circle cx="110" cy="90" r="3.5"/><circle cx="226" cy="90" r="3.5"/><circle cx="342" cy="90" r="3.5"/><circle cx="458" cy="65" r="3.5"/><circle cx="574" cy="90" r="3.5"/><circle cx="690" cy="115" r="3.5"/><circle cx="806" cy="140" r="3.5"/><circle cx="895" cy="290" r="3.5"/>
+          </g>
+          <text x="130" y="80" font-size="11.5" fill="var(--ok,#2e8b57)">AA foreseeability 0.8 at birth → 0.6 (2024) → 0.0 (fully attached)</text>
+
+          <!-- legend -->
+          <g font-size="12">
+            <line x1="80" y1="336" x2="112" y2="336" stroke="var(--accent,#4a6fa5)" stroke-width="2.5"/><text x="118" y="340">betweenness</text>
+            <line x1="230" y1="336" x2="262" y2="336" stroke="var(--warn,#b8860b)" stroke-width="2" stroke-dasharray="7 4"/><text x="268" y="340">k-core</text>
+            <line x1="350" y1="336" x2="382" y2="336" stroke="var(--ok,#2e8b57)" stroke-width="2" stroke-dasharray="2 3"/><text x="388" y="340">Adamic-Adar precision@10</text>
+          </g>
+        </svg>
+        </div>
+        <figcaption>
+          The 2020 inflection is the graph saying "this node now carries implications for other fields" — the moment
+          ferroptosis stopped being a cell-death subtopic and started bridging into iron handling (NCOA4
+          ferritinophagy, Deferoxamine) and senescence (SASP, Senescent Cells).
+        </figcaption>
+      </figure>
+
+      <p>Read as an instrument panel:</p>
+      <ul>
+        <li><strong>Betweenness ≈ 1,000× growth (0.01 → 9.86 ×10⁻³)</strong>, largest leap (×11) at the 2020 stage — bridging = the node now carries implications for other fields.</li>
+        <li><strong>k-core 8 → 19</strong>: graduation into the wiki graph's maximum core tier. The role classifier agrees — Ferroptosis = Sink + Master regulator + Bottleneck + Core backbone.</li>
+        <li><strong>AA foreseeability was highest at birth (0.8)</strong> and decayed as the node filled in. The top-25 <em>misses</em> at the 2012 snapshot are exactly the post-2012 literature: FSP1 (+7 yr), ALOX15/ALOX5, ASAH1/Acid Ceramidase (+12 yr), Artesunate, CD44, STEAP3. <strong>The miss list is the research agenda.</strong></li>
+        <li><strong>PPR stayed local until maturity</strong> — flow follows degree, so "where does influence reach" is answerable only <em>after</em> implication edges exist. Flow metrics measure accumulated implications; local-similarity metrics measure future ones.</li>
+        <li><strong>Mirror experiment</strong> (delete the matured node): 13 satellite nodes drop out of the triples giant component; PageRank shifts onto the defense belt (NADPH −1,159, Statins −977 on triples; Vitamin K −315, HMG-CoA reductase −279 on wiki). A discovery's implications are visible as the satellite belt that would dangle without it.</li>
+      </ul>
+
+      <h3 id="typed-ferroptosis">What the typed edges add: from "linked to" to "what the link means"</h3>
+      <p>
+        In the combined graph's typed layer, every edge carries a direction, a relation label, a
+        <code>confidence_score</code>, and <code>sources</code> provenance. The same ferroptosis neighborhood now
+        separates therapeutic levers from toxic liabilities — which the undirected wiki graph merges into one
+        undifferentiated bubble:
+      </p>
+      <div class="table-wrap">
+        <table>
+          <caption>Typed in-edges to Ferroptosis (combined layer excerpt)</caption>
+          <thead><tr><th>Source</th><th>Relation</th><th>Target</th><th>Conf.</th><th>Polarity / reading</th></tr></thead>
+          <tbody>
+            <tr><td><code>statins</code></td><td><code>sensitize_to</code></td><td><code>ferroptosis</code></td><td>0.75</td><td><strong>Pro-ferroptotic</strong> — toxic liability (mevalonate → CoQ10/GPX4 depletion)</td></tr>
+            <tr><td><code>sirt3</code></td><td><code>suppresses</code></td><td><code>ferroptosis</code></td><td>0.87</td><td>Anti — defense arm (SIRT3 25 ANTI vs 19 PRO in-edges graph-wide)</td></tr>
+            <tr><td><code>mitohormesis</code></td><td><code>protects_against</code></td><td><code>ferroptosis</code></td><td>0.82</td><td>Anti — defense (sources: triples + wiki)</td></tr>
+            <tr><td><code>mitophagy</code></td><td><code>inhibits</code></td><td><code>ferroptosis</code></td><td>0.88</td><td>Anti — defense</td></tr>
+            <tr><td><code>glutathione</code></td><td><code>protects_against</code></td><td><code>ferroptosis</code></td><td>0.90</td><td>Anti — defense</td></tr>
+            <tr><td><code>ho_1</code></td><td><code>regulates</code></td><td><code>ferroptosis</code></td><td>0.85</td><td>Modulatory — sign is context-dependent</td></tr>
+            <tr><td><code>cellular_senescence</code></td><td><code>transmits</code></td><td><code>ferroptosis_susceptibility</code></td><td>0.80</td><td>Pro — susceptibility propagates across the senescence cloud</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Polarity census on the triples layer: Ferroptosis carries 8 pro- vs 6 anti-ferroptotic in-edges; CoQ10 is
+        purely anti- (0 PRO / 2 ANTI); and <strong>metformin needs both signs at once</strong> — ferroptosis inducer
+        in tumors (via SLC7A11-UFMylation) yet suppressor in diabetic kidney disease (via NRF2). A genuinely bipolar
+        edge that must never be averaged.
+      </p>
+      <div class="note">
+        <p><strong>Clinical reality anchor.</strong> Despite 8,000+ cumulative papers, no purpose-built ferroptosis drug
+        has passed Phase 1 — the sole candidate, CNSI-Fe(II) (NCT06048367, n=19), completed Feb 2025
+        (<a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a>).
+        Graph connectivity measures idea flow, not clinical tractability.</p>
+      </div>
+    </section>
+
+    <!-- ============ 4. COVID ============ -->
+    <section id="covid">
+      <p class="sec-label">Worked example B</p>
+      <h2>COVID/vaccines — a <em>disease cluster</em> arriving into a longevity graph</h2>
+      <p>
+        A pathogen arrives as a <strong>cluster</strong> — virus + disease + symptoms + comorbidities + eventually an
+        intervention family — with clinical edges landing before mechanistic ones. Replay on the wiki graph:
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <caption>COVID cluster replay — wiki graph</caption>
+          <thead><tr><th>Stage</th><th>deg</th><th>k-core</th><th>btw ×10⁻³</th><th>Community [size]</th><th>PPR flows to</th></tr></thead>
+          <tbody>
+            <tr><td><strong>2020a</strong> clinical — COVID-19, Inflammation, Cytokines, IFN-γ, Immune System</td><td>5</td><td>5</td><td>0.04</td><td>senescence/inflammation world [325]</td><td>Inflammation, Immune System, IFN-γ</td></tr>
+            <tr><td><strong>2020b</strong> comorbidity — Diabetes, Obesity, Hypertension, Aging</td><td>9</td><td>8</td><td>0.15</td><td>[325]</td><td>Inflammation, Aging, Immune System, Obesity</td></tr>
+            <tr class="hl"><td><strong>2021</strong> mechanism — CD38, NAD+, PARP, NF-κB, NLRP3, Viral Replication</td><td>15</td><td>12</td><td>0.27</td><td><strong>aging/NAD+ world [419] — flips</strong></td><td>Inflammation, <strong>NAD+</strong>, Aging, NF-κB</td></tr>
+            <tr class="hl"><td><strong>2021b</strong> senescence — + Cell-Fusion-Induced Senescence, ALI, Sepsis</td><td>18</td><td>13</td><td>0.32</td><td>senescence world [326] — flips <strong>back</strong></td><td>Inflammation, NAD+, NF-κB, Aging</td></tr>
+            <tr><td><strong>2023</strong> long-covid — + Long COVID, Mitochondrial Dysfunction, ATP, Complex I/III, Methylene blue</td><td>24</td><td>15</td><td>0.69</td><td>[326]</td><td>unchanged</td></tr>
+            <tr><td><strong>TODAY</strong> — actual, 20 edges</td><td>20</td><td>11</td><td>0.34</td><td>aging/NAD+ world [399]</td><td>Inflammation, NF-κB, Aging, Immune System</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 3 · Community oscillation = the boundary-straddler signature</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 250" role="img" aria-label="Strip diagram showing the COVID cluster's community assignment flipping between the senescence-inflammation world and the aging-NAD world across 2020 to 2026" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <g font-size="12" text-anchor="middle" fill="var(--fg-dim,#777)">
+            <text x="140" y="40">2020a</text><text x="280" y="40">2020b</text><text x="420" y="40">2021</text><text x="560" y="40">2021b</text><text x="700" y="40">2023</text><text x="840" y="40">today</text>
+          </g>
+          <!-- lane A: senescence/inflammation -->
+          <rect x="60" y="55" width="840" height="60" rx="8" fill="var(--bg-soft,#eee)" opacity="0.6"/>
+          <text x="66" y="90" font-size="12.5" font-weight="600">senescence / inflammation world</text>
+          <!-- lane B: aging/NAD+ -->
+          <rect x="60" y="135" width="840" height="60" rx="8" fill="var(--bg-soft,#eee)" opacity="0.6"/>
+          <text x="66" y="170" font-size="12.5" font-weight="600">aging / NAD+ world</text>
+          <!-- markers: A = filled circle in lane A, B in lane B -->
+          <g>
+            <circle cx="140" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="140" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="280" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="280" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="420" cy="165" r="13" fill="var(--accent,#4a6fa5)"/><text x="420" y="170" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="560" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="560" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="700" cy="85" r="13" fill="var(--accent,#4a6fa5)"/><text x="700" y="90" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+            <circle cx="840" cy="165" r="13" fill="var(--accent,#4a6fa5)"/><text x="840" y="170" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">C</text>
+          </g>
+          <!-- flip arrows -->
+          <g stroke="var(--warn,#b8860b)" stroke-width="1.6" fill="none">
+            <path d="M 288 88 C 340 40, 380 40, 414 158" marker-end="url(#arrow3)"/>
+            <path d="M 428 158 C 480 40, 520 40, 552 88" marker-end="url(#arrow3)"/>
+            <path d="M 848 88 C 890 120, 890 130, 852 158" marker-end="url(#arrow3)"/>
+          </g>
+          <text x="480" y="228" text-anchor="middle" font-size="12.5">Unstable community assignment = node on a field boundary — for a longevity graph, exactly where a pathogen should sit</text>
+        </svg>
+        </div>
+        <figcaption>
+          The cluster's Louvain membership flips between worlds depending on which edge batch dominates — the
+          fingerprint of a discovery that will reframe one-way edges as a feedback loop: severe COVID → CD38↑ →
+          NAD+↓ → sirtuin loss → inflammaging → worse outcomes → more CD38. (Caveat: Louvain seeds/labels differ
+          between tools — compare membership <em>descriptions</em>, not ids.)
+        </figcaption>
+      </figure>
+
+      <p>Three readings worth internalizing:</p>
+      <ol>
+        <li><strong>One seed edge opens or closes an entire mechanistic corridor.</strong> Granting the thin 2020 node a
+        single clinical observation — <strong>Lymphopenia</strong> — put <strong>CD38 at predicted-rank #6 and NAD+ at
+        #7</strong> (Adamic-Adar, out of 2,995 candidates); without that seed both fall out of the top-25. CD38-NADase-driven
+        NAD+ depletion in severe COVID was then confirmed by the literature (Heer et al., JBC 2020; Physiol Rev 2021).
+        Record which seed relation types were granted — they gate the corridor.</li>
+        <li><strong>The graph predicted edges that science later created and the wiki still has not drawn.</strong>
+        The prediction was validated against the <em>literature</em>, not today's edge list. Graph and literature are
+        two different ground truths; the gap between them is a to-do list.</li>
+        <li><strong>Replayed vs actual wiring quantifies what's missing.</strong> The 2021-mechanism replay (CD38/NAD+/PARP
+        wired directly) reaches k-core 15 / betweenness 0.69 vs the actual graph's k-core 11 / 0.34 with indirect wiring
+        via <code>[[Lymphopenia]]</code>/<code>[[Viral Replication]]</code>. In the triples layer SARS-CoV-2 has 2 edges
+        and is not even in the giant component (<code>graphify path "SARS-CoV-2" "NAD+"</code> → no path), while the
+        combined layer carries <code>sars_cov_2 --[disrupts]--> NAD+_metabolism</code>. Same corpus, three layers,
+        three verdicts — <strong>always check which layer a metric ran on.</strong></li>
+      </ol>
+
+      <div class="note">
+        <p><strong>The stratification lesson (vaccines).</strong> The wiki has exactly one vaccine node
+        (<code>shingles_vaccine</code>) — no mRNA/LNP/PEG/IgG4/myocarditis/ACE2/spike nodes; a future vaccine discovery
+        would arrive as an orphan. And the highest-quality 2024–26 evidence is <em>conditioned</em>: myocarditis
+        ~150/10⁶ second doses in males 12–15 with a steep age gradient; IgG4 class-switching is dose-count-dependent
+        and plateaus after dose 3. A single averaged vaccine→myocarditis edge <strong>washes out exactly the
+        heterogeneity that is the clinical truth</strong> — the graph needs edge attributes (dose × age × sex ×
+        evidence tier) or hyperedges (<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">myocarditis meta, Epidemiol Rev 2025</a>;
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4, Sci Immunol 2023</a>).</p>
+      </div>
+    </section>
+
+    <!-- ============ 5. TYPED EDGES ============ -->
+    <section id="typed">
+      <p class="sec-label">Typed edges</p>
+      <h2>Edges have semantics and direction: four mechanisms for unstated connections</h2>
+      <p>
+        The combined layer carries <strong>3,895 typed, directed edges</strong> among 37,318 total — 1,033 distinct
+        relation labels, the most common being <code>inhibits</code> (220), <code>activates</code> (170),
+        <code>deacetylates</code> (111), <code>promotes</code> (104), <code>reduces</code> (79), <code>induces</code>
+        (65), <code>causes</code> (64), <code>suppresses</code> (56), <code>regulates</code> (43) — each with
+        <code>confidence_score</code> and <code>sources</code>. This is what turns the graph from an index into an
+        inference engine.
+      </p>
+
+      <h3>4.1 · Attribute transfer — a new edge moves an entire attribute cloud</h3>
+      <p>
+        When <code>statins --[sensitize_to]--> ferroptosis</code> was extracted, statins did not merely gain one
+        neighbor: they <strong>inherited ferroptosis's attribute cloud</strong> — iron overload, lipid peroxidation,
+        PUFA membranes, GPX4/CoQ10 defense, NCOA4 ferritinophagy — none of which the statin note mentions. Any
+        <em>new</em> discovery in that cloud (say, 7-DHC in 2024) is instantly one hop from statins. This is the
+        general form of "we didn't know X was connected to cancer": <strong>a new edge to a hub silently pre-wires X
+        to everything the hub already knows.</strong> COVID demonstrates it in-repo: the single typed edge
+        <code>sars_cov_2 --[disrupts]--> NAD+_metabolism</code> pulls the virus into the CD38/PARP/sirtuin/inflammaging
+        attribute space with no further edges.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 4 · Attribute transfer through one new hub edge</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 320" role="img" aria-label="Diagram of attribute transfer: a statins node gains one typed edge to the ferroptosis hub and thereby becomes one hop from iron, lipid peroxidation, GPX4, CoQ10, and NCOA4" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <!-- ferroptosis hub -->
+          <circle cx="700" cy="140" r="46" fill="var(--accent,#4a6fa5)"/>
+          <text x="700" y="137" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">ferroptosis</text>
+          <text x="700" y="153" text-anchor="middle" font-size="10" fill="#dbe4f0">hub · 141 edges</text>
+          <!-- attribute cloud -->
+          <g font-size="12">
+            <g><ellipse cx="870" cy="50" rx="62" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="870" y="55" text-anchor="middle">iron overload</text></g>
+            <g><ellipse cx="890" cy="110" rx="70" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="890" y="115" text-anchor="middle">lipid peroxidation</text></g>
+            <g><ellipse cx="898" cy="170" rx="58" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="898" y="175" text-anchor="middle">PUFA membranes</text></g>
+            <g><ellipse cx="880" cy="230" rx="78" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="880" y="235" text-anchor="middle">GPX4 / CoQ10 defense</text></g>
+            <g><ellipse cx="820" cy="285" rx="66" ry="20" fill="var(--panel,#fff)" stroke="var(--border,#ccc)"/><text x="820" y="290" text-anchor="middle">NCOA4 ferritinophagy</text></g>
+          </g>
+          <g stroke="var(--fg-dim,#999)" stroke-width="1.4">
+            <line x1="735" y1="115" x2="815" y2="60"/><line x1="745" y1="130" x2="825" y2="112"/><line x1="746" y1="152" x2="840" y2="170"/><line x1="736" y1="172" x2="810" y2="228"/><line x1="716" y1="184" x2="790" y2="275"/>
+          </g>
+          <!-- statins -->
+          <circle cx="200" cy="140" r="40" fill="var(--panel,#fff)" stroke="var(--accent,#4a6fa5)" stroke-width="2"/>
+          <text x="200" y="145" text-anchor="middle" font-size="13" font-weight="700">statins</text>
+          <!-- the single new typed edge -->
+          <path d="M 242 128 C 420 60, 520 60, 656 122" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" marker-end="url(#arrow4)"/>
+          <text x="440" y="52" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--warn,#b8860b)">one typed edge: statins --[sensitize_to]--> ferroptosis</text>
+          <!-- inherited shadow connections -->
+          <g stroke="var(--ok,#2e8b57)" stroke-width="1.3" stroke-dasharray="4 4" fill="none">
+            <path d="M 215 105 C 320 20, 560 5, 815 42" />
+            <path d="M 222 100 C 400 -5, 700 -10, 833 92"/>
+            <path d="M 200 180 C 260 300, 520 330, 762 288"/>
+          </g>
+          <text x="360" y="298" font-size="12" fill="var(--ok,#2e8b57)">dashed = inherited one-hop reach into the whole attribute cloud (no new edges added)</text>
+          <text x="200" y="220" text-anchor="middle" font-size="12" fill="var(--fg-dim,#777)">before: no mention of iron,</text>
+          <text x="200" y="237" text-anchor="middle" font-size="12" fill="var(--fg-dim,#777)">lipids, or GPX4 in the note</text>
+        </svg>
+        </div>
+        <figcaption>
+          Computationally: PPR and paths from statins now reach the iron/lipid-peroxidation machinery. Corollary —
+          hub quality matters; a garbage-hub edge spreads a garbage cloud.
+        </figcaption>
+      </figure>
+
+      <h3>4.2 · Typed-path composition — predicting connections that exist in neither layer</h3>
+      <p>
+        Relation types <strong>compose along paths</strong>, generating new typed hypotheses. Real chain from the
+        repo's typed edges:
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 5 · The COVID → SIRT3 → ferroptosis two-hop inference</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 960 290" role="img" aria-label="Typed path composition diagram: covid_19 is_associated_with sirt3 with confidence 0.85, sirt3 suppresses ferroptosis with confidence 0.87, composing to the hypothesis that covid_19 relieves the brake on ferroptosis" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <circle cx="110" cy="90" r="42" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="110" y="95" text-anchor="middle" font-size="13" font-weight="700">covid_19</text>
+          <circle cx="480" cy="90" r="38" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="480" y="95" text-anchor="middle" font-size="13" font-weight="700">sirt3</text>
+          <circle cx="850" cy="90" r="44" fill="var(--accent,#4a6fa5)"/>
+          <text x="850" y="95" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">ferroptosis</text>
+          <line x1="154" y1="90" x2="440" y2="90" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow5)"/>
+          <text x="297" y="72" text-anchor="middle" font-size="12.5" font-weight="600">--[is_associated_with]--></text>
+          <text x="297" y="112" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">conf 0.85</text>
+          <line x1="520" y1="90" x2="804" y2="90" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow5)"/>
+          <text x="662" y="72" text-anchor="middle" font-size="12.5" font-weight="600">--[suppresses]--></text>
+          <text x="662" y="112" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">conf 0.87</text>
+          <!-- composed hypothesis -->
+          <path d="M 130 148 C 380 230, 600 230, 830 138" fill="none" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow5)"/>
+          <text x="480" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn,#b8860b)">⟹ composed hypothesis: covid_19 --[relieves the brake on]--> ferroptosis</text>
+          <text x="480" y="272" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">min-confidence 0.85 · no covid_19 ↔ ferroptosis edge exists in either layer · literature confirmation: Qiu et al., Nat Commun 15:3816 (2024)</text>
+        </svg>
+        </div>
+        <figcaption>
+          Two typed edges that existed in the graph <em>imply</em> the COVID-lung-ferroptosis connection that the
+          experimental literature established only in 2024 (<a href="https://www.nature.com/articles/s41467-024-48055-0">ferroptosis signature in fatal COVID lungs</a>).
+          Generic form: <code>X --[r1]--> Y --[r2]--> cancer</code> composes to <code>X --[inferred r1∘r2]--> cancer</code> —
+          e.g. <code>X inhibits Y</code> + <code>Y promotes cancer</code> ⇒ <code>X --[candidate suppressor]--> cancer</code>.
+        </figcaption>
+      </figure>
+
+      <p>
+        This is the metapath idea behind Hetionet's DWPC features and ROBOKOP's template queries: <strong>relation-typed
+        paths, not undirected similarity, are the feature engine of drug repurposing.</strong> Adamic-Adar (undirected,
+        untyped) cannot express "inhibits-an-activator-of"; typed path enumeration can — a missing pass in the current
+        <code>scripts/analysis/link_prediction.py</code>.
+      </p>
+
+      <h3>4.3 · Direction separates levers from consequences</h3>
+      <p>
+        With direction, in-edges and out-edges answer different questions. For ferroptosis: the pro-ferroptotic
+        <strong>in-edges</strong> (ACSL4, NCOA4, p53, Iron, Lipid Peroxidation — and, inferred, COVID-19 via §4.2) are
+        the <strong>druggable upstream levers</strong>; the anti- in-edges (GPX4, FSP1, SIRT3, Glutathione, Mitohormesis)
+        are the <strong>defense system</strong> — whose inhibition is a <em>tumor</em> strategy and whose support is a
+        <em>healthy-aging</em> strategy. The same node, two opposite therapeutic programs, disambiguated only by edge
+        sign and direction. Directed PageRank/PPR (the wiki layer stores in/out degree per node: Ferroptosis in 105 /
+        out 83) approximates "what does this drive" vs "what drives this."
+      </p>
+
+      <h3>4.4 · Signed triads — inferring the sign of unknown edges</h3>
+      <p>
+        Typed signs enable balance-style inference: if A inhibits B and B inhibits C, A likely <em>relieves</em>
+        pressure on C ("enemy of my enemy"). Repo instance: <code>statins --[sensitize_to]--> ferroptosis</code> (+)
+        and <code>mitohormesis --[protects_against]--> ferroptosis</code> (−) ⇒ predict a
+        <strong>statin↔mitohormesis antagonism</strong> edge (CoQ10 depletion undermining the hormetic defense) — no
+        such edge exists in the graph, no paper states it directly, and it is checkable. This is classic signed link
+        prediction (<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>)
+        transplanted to biology, and it is a natural generator of <strong>Assumptions-Lab conflicts</strong>: when a
+        curated stance resolves a conflict, the correction is <em>materialized into the graph itself</em> (via
+        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code>), and every downstream metric —
+        including the replay metrics above — recomputes against the corrected topology.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 6 · Signed-triad ("enemy of my enemy") inference on live graph edges</span></div>
+        <div class="fig-canvas">
+        <svg viewBox="0 0 720 300" role="img" aria-label="Signed triad diagram: statins sensitizes to ferroptosis (positive), mitohormesis protects against ferroptosis (negative), predicting an antagonistic statin-mitohormesis edge" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+          <defs>
+            <marker id="arrow6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+            </marker>
+          </defs>
+          <circle cx="360" cy="80" r="46" fill="var(--accent,#4a6fa5)"/>
+          <text x="360" y="85" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">ferroptosis</text>
+          <circle cx="170" cy="220" r="42" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="170" y="225" text-anchor="middle" font-size="13" font-weight="700">statins</text>
+          <circle cx="550" cy="220" r="52" fill="var(--panel,#fff)" stroke="var(--border,#bbb)" stroke-width="2"/>
+          <text x="550" y="218" text-anchor="middle" font-size="13" font-weight="700">mitohormesis</text>
+          <text x="550" y="236" text-anchor="middle" font-size="10.5" fill="var(--fg-dim,#777)">protects against</text>
+          <!-- edge statins -> ferroptosis (+) -->
+          <line x1="200" y1="185" x2="325" y2="112" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow6)"/>
+          <text x="235" y="130" font-size="12.5" font-weight="600">sensitize_to</text>
+          <text x="235" y="147" font-size="15" font-weight="700" fill="var(--bad,#b0413e)">(+)</text>
+          <!-- edge mitohormesis -> ferroptosis (−) -->
+          <line x1="522" y1="180" x2="398" y2="114" stroke="var(--fg,#555)" stroke-width="2.5" marker-end="url(#arrow6)"/>
+          <text x="462" y="128" font-size="12.5" font-weight="600">protects_against</text>
+          <text x="472" y="146" font-size="15" font-weight="700" fill="var(--ok,#2e8b57)">(−)</text>
+          <!-- inferred edge -->
+          <line x1="214" y1="228" x2="496" y2="228" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow6)" marker-start="url(#arrow6)"/>
+          <text x="355" y="216" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--warn,#b8860b)">⟹ inferred antagonism</text>
+          <text x="355" y="254" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">enemy of my enemy: CoQ10 depletion undermines the hormetic defense</text>
+          <text x="355" y="272" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">no such edge in the graph · no paper states it directly · checkable</text>
+        </svg>
+        </div>
+        <figcaption>
+          Triads <em>suggest</em>, never prove — signs are extraction-derived. Weight composed paths by minimum edge
+          confidence; register confident conflicts in <code>assumptions.json</code> so the build applies them.
+        </figcaption>
+      </figure>
+
+      <h3>4.5 · Caveats that keep typed inference honest</h3>
+      <ul>
+        <li><strong>Extraction noise</strong>: typed edges come from LLM extraction; confidence-0.5 edges (e.g.
+        <code>covid_19 --[ameliorates]--> NMN</code>, a case-series artifact) propagate through paths just like solid
+        ones — weight paths by minimum edge confidence.</li>
+        <li><strong>Composition is not deduction</strong>: two true edges do not guarantee a true composed edge
+        (context, dose, tissue drop out). Calibrated base rate: ~10–30% precision of top-ranked candidates vs 0.8%
+        unguided (§ Calibration).</li>
+        <li><strong>Layer discipline</strong>: classic centrality scripts run on undirected projections — direction is
+        collapsed <em>in those calculations</em>. The wiki-only layer is genuinely polarity-blind (<code>links_to</code>);
+        the combined layer is not. State the layer with every number.</li>
+      </ul>
+    </section>
+
+    <!-- ============ 6. EXTERNAL ============ -->
+    <section id="external">
+      <p class="sec-label">External case studies</p>
+      <h2>Four real discovery arcs, read through the same lens</h2>
+
+      <div class="table-wrap">
+        <table>
+          <caption>Discovery arcs from the wider literature and the metric lesson each contributes</caption>
+          <thead><tr><th>Case</th><th>Arc</th><th>Metric lesson</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Baricitinib</strong></td>
+              <td>BenevolentAI's Feb-2020 query was typed-path composition operationalized: [endocytosis module]—inhibited-by—[approved drug]—inhibits—[cytokine module]. Baricitinib was the only approved compound bridging both typed modules at achievable exposure: 16 dual-inhibitors → 7 survived the PK filter → 1 winner. Hypothesis published <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">Lancet, Feb 4 2020</a>; FDA EUA Nov 19 2020; COV-BARRIER 38% mortality reduction. <strong>~9.5 months from graph hypothesis to authorization.</strong></td>
+              <td>Typed composition works as a product. Note what the graph did <em>not</em> contain: pharmacokinetics — the decisive filter was an attribute outside the graph, applied by humans.</td>
+            </tr>
+            <tr>
+              <td><strong>GLP-1 agonists</strong></td>
+              <td>2005–2015: endocrine leaves. Then one community edge per outcomes trial: cardiology (LEADER 2016, MACE −13%), obesity (STEP 2021), cardiology without diabetes (SELECT 2023, MACE −20%), nephrology (FLOW 2024, −24%), sleep medicine (first OSA drug, Dec 2024), hepatology (MASH resolution, FDA indication Aug 2025), addiction (semaglutide cut heavy-drinking days &gt;70% in AUD, Lancet 2026). By 2026 semaglutide is one of the highest-degree, highest-bridging drug nodes in medicine.</td>
+              <td>Degree explosion <em>across five communities</em>. But the most fragile edge was <strong>analogical</strong> (obesity→Alzheimer's): it snapped when tested — EVOKE/EVOKE+ negative (Nov 2025); exenatide failed Phase 3 in Parkinson's the same way. <strong>Analogical edges are a graph's most profitable and most breakable links</strong> — flag them in §4.2's composition rule.</td>
+            </tr>
+            <tr>
+              <td><strong>SGLT2 inhibitors</strong></td>
+              <td>Empagliflozin was a glucose-excretion leaf when EMPA-REG (2015) delivered −38% CV death; heart failure (DAPA-HF 2019, ~half non-diabetics), HFpEF (2021), kidney (EMPA-KIDNEY 2022, −28%) followed. Topologically the node had <strong>no edge to myocardium at all</strong>. The newest edge — dementia — repeats the pattern: observational ORs 0.45–0.62, pooled RCT null (23 RCTs, n≈160k, 2025).</td>
+              <td>Direction is not predictable from network distance. <strong>Observational co-occurrence edges overweight confounded links; RCT-grade edges arrive years later and can erase them</strong> — an argument for evidence-tier attributes on edges.</td>
+            </tr>
+            <tr>
+              <td><strong>PROTACs</strong></td>
+              <td>Named 2001; ~18 years dormant (degree ≈ 10, zero clinical edges). First-in-human 2019, proof-of-concept 2022, Phase 3 by 2026 — and the mechanism introduced a <strong>new relation type</strong> ("degrades") that rewired chemistry↔ubiquitin↔oncology into its own community.</td>
+              <td><strong>Low degree is a state, not a verdict.</strong> During dormancy the metrics said "peripheral, k-core 1"; the correct reading was "unrealized bridge" — indistinguishable from "dead end" by topology alone. Node provenance (who works on it, what tools exist) must be read alongside degree.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 7. CALIBRATION ============ -->
+    <section id="calibration">
+      <p class="sec-label">Calibration</p>
+      <h2>How much to trust a graph prediction</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Calibration numbers for any implication claim</caption>
+          <thead><tr><th>Method</th><th>Validation</th><th>Number</th></tr></thead>
+          <tbody>
+            <tr><td><a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al., 12 pipelines, PNAS 2021</a></td><td>918 drugs screened</td><td>most pipelines AUC 0.52–0.66, <strong>mutually uncorrelated top lists</strong>; consensus 62% hit vs 0.8% unguided</td></tr>
+            <tr><td><a href="https://elifesciences.org/articles/26726">Rephetio / Hetionet, eLife 2017</a></td><td>post-hoc indications / trials</td><td>AUROC 85.5% / 70.0% (97.4% on own training = circular)</td></tr>
+            <tr><td><a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a></td><td>4 proximity predictions, 220M-patient EHR</td><td>2 of 4 confirmed</td></tr>
+            <tr><td>DRKG embeddings (2020)</td><td>all FDA drugs ranked for COVID</td><td>dexamethasone rank 5 (validated) — <strong>ribavirin/azathioprine at ranks 1–2 failed</strong></td></tr>
+            <tr><td>BenevolentAI (2020)</td><td>baricitinib shortlist</td><td>16 → 7 (PK) → 1 winner</td></tr>
+            <tr><td><strong>Failure column</strong></td><td>ivermectin, famotidine, hydroxychloroquine, azithromycin</td><td>top-ranked by <em>several</em> KG pipelines; all null — typed or not, proximity finds <em>thematic</em> neighbors, not efficacy</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        <p><strong>Working prior:</strong> top-K graph output is a ~10–30%-precision hypothesis stream vs 0.8% unguided —
+        a ~10–40× enrichment that is valuable for triage and never oracular. Combine multiple uncorrelated pipelines;
+        apply out-of-graph filters (PK, safety) before believing anything.</p>
+      </div>
+    </section>
+
+    <!-- ============ 8. SCORECARD ============ -->
+    <section id="metrics">
+      <p class="sec-label">Metrics</p>
+      <h2>So — do the metrics (plus typed edges) aid understanding of implications?</h2>
+      <p><strong>Yes, as triage instruments, gap detectors, and typed-inference engines — no, as oracles.</strong></p>
+      <div class="table-wrap">
+        <table>
+          <caption>What each calculation genuinely reveals, and how it fails</caption>
+          <thead><tr><th>Calculation</th><th>Genuinely reveals</th><th>Failure mode</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Adamic-Adar / resource allocation</strong> (thin node)</td><td>foreseeable neighborhood — the triage queue; 80% at birth, decays as the node fills</td><td>polarity- and direction-blind; hub bias without degree-matched nulls; needs one clinically bridging seed (the Lymphopenia lesson)</td></tr>
+            <tr><td><strong>Typed-path composition</strong></td><td><strong>unknown connections with inherited semantics</strong> (COVID→SIRT3→ferroptosis-brake-release; X→Y→cancer)</td><td>composition ≠ deduction; extraction noise propagates; flag analogical vs mechanistic paths (EVOKE)</td></tr>
+            <tr><td><strong>Attribute transfer via a new hub edge</strong></td><td>a single new edge pre-wires the node to the hub's whole cloud</td><td>depends on hub quality; garbage-hub edges spread garbage</td></tr>
+            <tr><td><strong>Signed triads / balance</strong></td><td>sign of unknown edges; Assumptions-Lab conflict mining</td><td>signs are extraction-derived; triads suggest, never prove</td></tr>
+            <tr><td><strong>Direction (in/out edges)</strong></td><td>upstream levers vs downstream consequences; two opposite therapeutic programs on one node</td><td>only as good as the extraction's orientation (<code>is_inhibited_by</code> vs <code>inhibits</code> bookkeeping)</td></tr>
+            <tr><td><strong>PPR from the node</strong></td><td>field gravity well; where influence accumulates (Statins→Ferroptosis #3 of 2,996)</td><td>accumulated, not future, implications; local until mature</td></tr>
+            <tr><td><strong>Betweenness trajectory</strong></td><td>maturation/bridging (×11 leap at ferroptosis-2020; baricitinib-style constrained bridging)</td><td>percentile churn re-grades 21–111 nodes per insertion; needs a null</td></tr>
+            <tr><td><strong>Community oscillation</strong></td><td>boundary-straddler fingerprint (COVID flipping senescence↔NAD+ worlds)</td><td>Louvain seeds/labels differ between tools — compare membership descriptions, not ids</td></tr>
+            <tr><td><strong>k-core</strong></td><td>structural depth (ferroptosis 8→19)</td><td>inherits the neighborhood's core; says nothing about evidence quality</td></tr>
+            <tr><td><strong>Effective resistance z vs anchors</strong></td><td>unwired-hub detector (Long COVID z = +0.4 = content-gap alarm)</td><td>sensitive to layer/density differences (triples vs wiki disagreed entirely on COVID)</td></tr>
+            <tr><td><strong>Satellite PageRank deltas</strong></td><td>dependence web (NADPH/CoQ10/HMG-CoA-reductase/Vitamin-K belt)</td><td>renormalization artifacts (RSL3 +629 when the hub is deleted)</td></tr>
+            <tr><td><strong>Growth-curve phase</strong></td><td>when triage is valuable (early) and when hub-status inflates bias (late)</td><td>low degree ≠ low value (PROTACs, 18 yr)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        <strong>What still requires attributes, not topology:</strong> effect size, dose/tissue/age context, evidence
+        tier, pharmacokinetics (the baricitinib filter), and polarity when only the wiki layer is used. The combined
+        graph's typed subset already carries relation + direction + confidence + provenance — the substrate is in
+        place; the calculations that exploit it (typed-path passes, signed-triad mining) are the missing pieces.
+      </p>
+    </section>
+
+    <!-- ============ 10. REFERENCES ============ -->
+    <section id="references">
+      <p class="sec-label">References</p>
+      <div class="refs">
+        <p><strong>Repo artifacts &amp; tools</strong>: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined; 3,895 typed edges) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json"><code>web/public/data/link-prediction.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
+        replay/counterfactual harnesses (promote to <code>scripts/</code> if adopted). Source task output:
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
+        <p><strong>Typed-edge &amp; repurposing methods</strong>:
+        <a href="https://elifesciences.org/articles/26726">Rephetio/Hetionet (DWPC metapaths), eLife 2017</a> ·
+        <a href="https://www.nature.com/articles/ncomms10331">Guney et al., Nat Commun 2016</a> ·
+        <a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a> ·
+        <a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al., PNAS 2021</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/">ROBOKOP</a> ·
+        <a href="https://github.com/gnn4dr/DRKG">DRKG</a> ·
+        <a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">signed link prediction, Leskovec et al. 2010</a></p>
+        <p><strong>Discovery arcs</strong>:
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">baricitinib hypothesis, Lancet 2020</a> ·
+        <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00331-3/fulltext">COV-BARRIER, Lancet Respir Med 2021</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563">SELECT, NEJM 2023</a> ·
+        <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2403347">FLOW, NEJM 2024</a> ·
+        <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea">FDA OSA 2024</a> ·
+        <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash">FDA MASH 2025</a> ·
+        <a href="https://www.alz.org/news/2025/alzheimers-association-statement-oral-semaglutide-phase-3-topline-data-release">EVOKE negative, Nov 2025</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1507524">EMPA-REG, NEJM 2015</a> ·
+        <a href="https://link.springer.com/article/10.1007/s40120-025-00832-9">SGLT2-dementia review 2025</a> ·
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405844023061583">ferroptosis bibliometrics, Heliyon 2023</a></p>
+        <p><strong>Biology anchors</strong>:
+        <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012 (ferroptosis)</a> ·
+        <a href="https://www.nature.com/articles/s41467-024-48055-0">COVID lung ferroptosis, Nat Commun 2024</a> ·
+        <a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a> ·
+        <a href="https://www.nature.com/articles/s41586-023-06983-9">7-DHC, Nature 2024</a> ·
+        <a href="https://www.nature.com/articles/s41582-022-00771-1">deferiprone in PD, Nat Rev Neurol 2022</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8805734/">CD38/NAD in COVID</a> ·
+        <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext">metformin LC prevention, Lancet ID 2023</a> ·
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">myocarditis meta, Epidemiol Rev 2025</a> ·
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4, Sci Immunol 2023</a></p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

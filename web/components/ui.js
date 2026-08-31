@@ -1,6 +1,6 @@
 // Analysis-panel UI helpers: node/edge info card, Graph Query (trace) panel,
 // settings popover, controls, zoom bar. The old sidebar was removed — node
-// info and graph queries now live inside the analysis panel (#prompt-box).
+// info and graph queries now live inside the analysis panel (#analysis-box).
 
 import * as THREE from 'three';
 
@@ -8,23 +8,27 @@ import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
   descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
 } from './data.js';
-import { state } from './state.js';
+import { state, persistSettings, resetSettings } from './state.js';
 import {
   container, scene, camera, renderer, nodeObjects, nodeMeshes, edgeSegments, labelObjects,
   edgeOffColor, setLabelVisibility, setAllLabelVisibility, applyNodeState, applyEdgeState,
   resetVisualState, animateCamera, CAMERA_OFFSET, setPhysics,
   getZoomFraction, setZoomFromFraction, updateZoomBar,
+  applyRestingEdges, setNodeSizeScale, applyLabelSize, applyNodeVisibility,
+  refreshLabelLayout, visibilityRegistry,
+  setSizeMetric, setAutoRotate, setAutoRotateSpeed, setZoomSpeed,
+  setReduceMotion, setRenderQuality, applyLabelLanguage,
 } from './core.js';
-import { selectNode, deselectNode } from './interaction.js';
+import { selectNode, deselectNode, setUiHooks } from './interaction.js';
 import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
+import { registerModal, openModal } from './modal.js';
 
 // ------------------------------------------------------------
-// Active-window highlight (dataset panel vs prompt panel)
+// Active-window highlight (analysis panel)
 // ------------------------------------------------------------
-const activeDatasetPanel = document.getElementById('dataset-panel');
-const activePromptPanel = document.getElementById('prompt-panel');
+const activePromptPanel = document.getElementById('analysis-panel');
 
 // ------------------------------------------------------------
 // Dataset-mode toggle (Triples / Wiki / Combined). The mode is baked into the
@@ -51,41 +55,40 @@ export function setupDatasetToggle() {
     const i = ORDER.indexOf(DATASET_MODE);
     const next = ORDER[(i + 1) % ORDER.length]; // cycles triples→wiki→combined
     const params = new URLSearchParams(location.hash.replace(/^#\/?/, ''));
-    params.set('mode', next);
-    location.hash = '#' + params.toString();
+    if (next === 'combined') {
+      params.delete('mode'); // combined is the default — no mode in the hash
+    } else {
+      params.set('mode', next);
+    }
+    const qs = params.toString();
+    if (qs) {
+      location.hash = '#' + qs;
+    } else {
+      history.pushState(null, '', location.pathname + location.search);
+    }
     location.reload();
   });
 }
 
 export function setActiveWindow(name) {
-  const panels = [activeDatasetPanel, activePromptPanel];
-  panels.forEach(el => el.classList.remove('active', 'dimmed'));
+  activePromptPanel.classList.remove('active', 'dimmed');
 
-  const activeEl = name === 'dataset' && activeDatasetPanel.classList.contains('visible')
-    ? activeDatasetPanel
-    : name === 'prompt' && activePromptPanel.classList.contains('open')
-      ? activePromptPanel
-      : null;
+  const activeEl = name === 'prompt' && activePromptPanel.classList.contains('open')
+    ? activePromptPanel
+    : null;
 
   if (activeEl) {
     activeEl.classList.add('active');
-    panels.forEach(el => {
-      const isVisible = el === activeDatasetPanel
-        ? el.classList.contains('visible')
-        : el.classList.contains('open');
-      if (el !== activeEl && isVisible) el.classList.add('dimmed');
-    });
+    activePromptPanel.classList.remove('dimmed');
   }
 }
 
 document.addEventListener('pointerdown', (e) => {
-  if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
-  else if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
+  if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
   else setActiveWindow(null);
 });
 document.addEventListener('focusin', (e) => {
-  if (activeDatasetPanel.contains(e.target)) setActiveWindow('dataset');
-  else if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
+  if (activePromptPanel.contains(e.target)) setActiveWindow('prompt');
 });
 
 // ------------------------------------------------------------
@@ -93,9 +96,42 @@ document.addEventListener('focusin', (e) => {
 // ------------------------------------------------------------
 const infoCard = document.getElementById('at-node-detail');
 
+// Analysis-button indicator: when a node detail is loaded into the info card,
+// light the floating analysis button's green dot and toast the user so they
+// know something is loaded in the (possibly closed) analysis panel.
+let lastLoadedNotifyId = null;
+
+// Transient bottom-center toast. Shared surface: node-detail notifications and
+// (via analysis.js) validation messages that used to use alert().
+let toastTimer = null;
+export function showToast(text) {
+  let toast = document.getElementById('detail-loaded-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'detail-loaded-toast';
+    toast.setAttribute('role', 'status');
+    document.body.appendChild(toast);
+  }
+  toast.textContent = text;
+  toast.classList.add('visible');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('visible'), 2400);
+}
+
+function notifyDetailLoaded(nodeId, label) {
+  if (!nodeId || nodeId === lastLoadedNotifyId) return;
+  lastLoadedNotifyId = nodeId;
+  const dot = document.getElementById('analysis-activity-dot');
+  if (dot) dot.classList.add('on');
+  const useZh = state.analysisUiLang === 'zh-TW';
+  showToast(useZh
+    ? `「${label}」已載入分析面板`
+    : `“${label}” loaded in the analysis panel`);
+}
+
 // ------------------------------------------------------------
 // Entity-note tooltip + modal. The DOM (#wiki-tooltip / #wiki-modal*) lives in
-// index.html and prompt.js wires the close handlers, so here we only populate
+// index.html and analysis.js wires the close handlers, so here we only populate
 // and show. Entity note links in the node/community cards render as tooltip
 // spans (.at-node-note-link) instead of navigating straight to GitHub.
 // ------------------------------------------------------------
@@ -104,6 +140,8 @@ const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
 const wikiModalTitle = document.getElementById('wiki-modal-title');
 const wikiModalBody = document.getElementById('wiki-modal-body');
 const wikiModalLink = document.getElementById('wiki-modal-link');
+// Shared with analysis.js (which wires the close handlers via modal.js).
+registerModal('wiki-modal', wikiModalOverlay);
 let nodeWikiTooltipVisible = false;
 
 function nodeDescById(nid) {
@@ -168,7 +206,7 @@ function openNodeWikiModal(anchor) {
   }
   wikiModalLink.href = gh || '#';
   wikiModalLink.toggleAttribute('disabled', !gh);
-  wikiModalOverlay.classList.add('visible');
+  openModal('wiki-modal');
   hideNodeWikiTooltip();
 }
 
@@ -198,6 +236,34 @@ export function hideNodeInfo() {
   routeCardRerender = null;
   detailHistory = [];
   currentView = null;
+  // NOTE: do NOT clear #analysis-subrow-left here — it now holds the hidden
+  // #prompt-filter-nodes state holder used by the graph quantity filter, which
+  // must persist independently of the detail card.
+  // Nothing is loaded in the info card anymore — clear the analysis button's
+  // loaded indicator (refreshActivity() re-lights it if prompt work is active).
+  lastLoadedNotifyId = null;
+  const dot = document.getElementById('analysis-activity-dot');
+  if (dot) dot.classList.remove('on');
+}
+
+// "Filter (n)" action shown inside the detail card's action row (alongside the
+// A/B buttons). The card is a full-screen overlay (z-index 620) that covers the
+// analysis-panel sub-row, so the Filter action must live inside the card itself —
+// injecting it into #analysis-subrow-left (as older builds did) left it permanently
+// hidden behind the card.
+function filterBtnHTML(actions, filterLabel, filterActive) {
+  const fn = actions && (actions.onFocus || actions.onIsolate);
+  if (!fn) return '';
+  return `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>`;
+}
+function bindFilterBtn(infoCard, actions) {
+  const fn = actions && (actions.onFocus || actions.onIsolate);
+  const btn = infoCard.querySelector('.at-node-btn.at-focus');
+  if (!fn || !btn) return;
+  btn.addEventListener('click', () => {
+    fn();
+    if (actions.filterActive) btn.classList.toggle('on', !!actions.filterActive());
+  });
 }
 
 // ------------------------------------------------------------
@@ -252,7 +318,7 @@ function contextCard(text, max = 2800, footer = '') {
 
 // Render the merged node info card: identity + wiki/source links + context +
 // topology metrics + clickable connections. `actions` (optional) adds the
-// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by prompt.js.
+// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by analysis.js.
 // ---- Back-navigation history for the node/edge detail sheet ----
 // Records each node/edge card the user views so that clicking through
 // Connections (or selecting other nodes/edges) can be undone with Back.
@@ -261,10 +327,10 @@ let detailHistory = [];   // stack of earlier views (last entry = most recent)
 let currentView = null;   // { type:'node', id, actions } | { type:'edge', edge } | { type:'community', cid }
 let routeCardRerender = null; // re-render fn for the transient route card (not tracked in currentView)
 
-// Registered by prompt.js: builds the Graph-mode quick actions (Filter / A / B)
+// Registered by analysis.js: builds the Graph-mode quick actions (Filter / A / B)
 // for a node when the detail sheet is opened from a path that doesn't supply an
 // explicit `actions` object (panel open, graph node click). Kept here as a hook
-// to avoid introducing a circular import between ui.js and prompt.js.
+// to avoid introducing a circular import between ui.js and analysis.js.
 let nodeActionBuilder = null;
 export function setNodeActionBuilder(build) { nodeActionBuilder = build; }
 
@@ -285,6 +351,8 @@ export function showInfo(nodeId, actions) {
   }
   currentView = { type: 'node', id: nodeId, actions };
   renderNodeInfo(nodeId, actions);
+  const n = nodeMap.get(nodeId);
+  notifyDetailLoaded(nodeId, n.label || nodeId);
 }
 
 export function goBackDetail() {
@@ -328,7 +396,7 @@ function renderNodeInfo(nodeId, actions) {
   const commColor = LEGEND.find(c => c.cid === n.community);
 
   // Biological role badges (from the auto-role classifier baked into
-  // nodes.json by scripts/03_rebuild_from_triples.py). Periphery is omitted
+  // nodes.json by scripts/triples/rebuild.py). Periphery is omitted
   // from display — at ~74% of nodes it carries no signal.
   const roles = (Array.isArray(n.roles) ? n.roles : []).filter(r => r && r !== 'Periphery');
   const rolesHTML = roles.length
@@ -358,7 +426,7 @@ function renderNodeInfo(nodeId, actions) {
   const filterActive = !!(actions && actions.filterActive && actions.filterActive());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onFocus ? `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
+      ${filterBtnHTML(actions, filterLabel, filterActive)}
       ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
@@ -398,9 +466,7 @@ function renderNodeInfo(nodeId, actions) {
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
   const backEl = infoCard.querySelector('.at-node-back');
   if (backEl) backEl.addEventListener('click', goBackDetail);
-  if (actions && actions.onFocus) {
-    infoCard.querySelector('.at-focus').addEventListener('click', actions.onFocus);
-  }
+  if (actions) bindFilterBtn(infoCard, actions);
   if (actions && (actions.onAddA || actions.onAddB)) {
     const btnA = infoCard.querySelector('.at-add[data-set="a"]');
     const btnB = infoCard.querySelector('.at-add[data-set="b"]');
@@ -482,7 +548,7 @@ function renderEdgeInfo(edge) {
 // Community card: rendered into the same slide-up detail sheet when clicking a
 // community row in the analysis panel. Surfaces the community's hub concept
 // (description + wiki note), topology metrics, and its most-connected members.
-// `actions` (optional) provides Isolate / Set A / Set B callbacks from prompt.js.
+// `actions` (optional) provides Isolate / Set A / Set B callbacks from analysis.js.
 export function showCommunityInfo(cid, actions) {
   const c = LEGEND.find(x => x.cid === cid);
   if (!c || !infoCard) return;
@@ -535,7 +601,7 @@ function renderCommunityInfo(cid, actions) {
   const filterActive = !!(actions && actions.filterActive && actions.filterActive());
   const actionsHTML = actions ? `
     <div class="at-node-actions">
-      ${actions.onIsolate ? `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>` : ''}
+      ${filterBtnHTML(actions, filterLabel, filterActive)}
       ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
       ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
     </div>` : '';
@@ -572,9 +638,7 @@ function renderCommunityInfo(cid, actions) {
   infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
   const backEl = infoCard.querySelector('.at-node-back');
   if (backEl) backEl.addEventListener('click', goBackDetail);
-  if (actions && actions.onIsolate) {
-    infoCard.querySelector('.at-node-actions .at-node-btn:not(.at-add)').addEventListener('click', actions.onIsolate);
-  }
+  if (actions) bindFilterBtn(infoCard, actions);
   if (actions && (actions.onAddA || actions.onAddB)) {
     const btnA = infoCard.querySelector('.at-node-actions .at-add[data-set="a"]');
     const btnB = infoCard.querySelector('.at-node-actions .at-add[data-set="b"]');
@@ -595,7 +659,7 @@ document.addEventListener('click', e => {
   }
 });
 
-// Community focus cleanup — kept as a no-op-ish reset for prompt.js highlights
+// Community focus cleanup — kept as a no-op-ish reset for analysis.js highlights
 // (the old sidebar legend that drove it was removed).
 export function clearCommunityFocus() {
   state.focusedCommunity = null;
@@ -611,7 +675,7 @@ export function clearCommunityFocus() {
 }
 
 // ------------------------------------------------------------
-// Graph Query (trace panel) — rendered inside #analysis-tools by prompt.js.
+// Graph Query (trace panel) — rendered inside #analysis-tools by analysis.js.
 // Element refs are re-bound after every renderAnalysisTools() rebuild.
 // ------------------------------------------------------------
 let traceSelectEl = null;
@@ -829,23 +893,46 @@ export function activateRoute(trace, routeIdx) {
 }
 
 // ------------------------------------------------------------
-// Settings popover (standalone gear button, bottom right)
+// Settings — full-screen slide-up bottom sheet (gear button toggles it; a
+// dimmed backdrop sits behind). The sheet is hoisted to <body> at runtime so
+// position:fixed is viewport-relative and its z-index isn't trapped under
+// #controls / #graph.
 // ------------------------------------------------------------
 const settingsBtn = document.getElementById('btn-settings');
 const settingsPopover = document.getElementById('settings-popover');
 
+// Hoist the sheet + a backdrop to body level so the fixed positioning and high
+// z-index apply against the viewport, not the controls rail's stacking context.
+let settingsBackdrop = null;
+if (settingsPopover && settingsPopover.parentElement) {
+  settingsBackdrop = document.createElement('div');
+  settingsBackdrop.id = 'settings-backdrop';
+  settingsBackdrop.hidden = true;
+  document.body.appendChild(settingsBackdrop);
+  document.body.appendChild(settingsPopover);
+}
+
+function openSettings() {
+  if (!settingsPopover) return;
+  settingsPopover.hidden = false;
+  if (settingsBackdrop) settingsBackdrop.hidden = false;
+  if (settingsBtn) settingsBtn.classList.add('active');
+}
 function closeSettings() {
   if (settingsPopover) settingsPopover.hidden = true;
+  if (settingsBackdrop) settingsBackdrop.hidden = true;
   if (settingsBtn) settingsBtn.classList.remove('active');
 }
 
-  if (settingsBtn && settingsPopover) {
-    settingsPopover.addEventListener('click', (e) => e.stopPropagation());
-    settingsBtn.addEventListener('click', (e) => {
+if (settingsBtn && settingsPopover) {
+  settingsPopover.addEventListener('click', (e) => e.stopPropagation());
+  settingsBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    settingsPopover.hidden = !settingsPopover.hidden;
-    settingsBtn.classList.toggle('active', !settingsPopover.hidden);
+    if (settingsPopover.hidden) openSettings(); else closeSettings();
   });
+  const settingsClose = document.getElementById('settings-close');
+  if (settingsClose) settingsClose.addEventListener('click', closeSettings);
+  if (settingsBackdrop) settingsBackdrop.addEventListener('click', closeSettings);
   document.addEventListener('click', (e) => {
     if (settingsPopover.hidden) return;
     if (!settingsPopover.contains(e.target) && e.target !== settingsBtn) closeSettings();
@@ -1011,18 +1098,278 @@ document.getElementById('btn-physics').addEventListener('click', (e) => {
 
 document.getElementById('btn-labels').addEventListener('click', (e) => {
   state.showLabels = !state.showLabels;
+  state.settings.showLabels = state.showLabels;
+  persistSettings();
   e.target.classList.toggle('active', state.showLabels);
   setAllLabelVisibility();
 });
 
 document.getElementById('btn-edges').addEventListener('click', (e) => {
   edgeSegments.visible = !edgeSegments.visible;
+  state.settings.showEdges = edgeSegments.visible;
+  persistSettings();
   e.target.classList.toggle('active', edgeSegments.visible);
 });
 
-// Initialize button active states
-document.getElementById('btn-labels').classList.add('active');
-document.getElementById('btn-edges').classList.add('active');
+// Initialize toggle active states from the (persisted) settings.
+document.getElementById('btn-labels').classList.toggle('active', state.showLabels);
+document.getElementById('btn-edges').classList.toggle('active', edgeSegments.visible);
+
+// ------------------------------------------------------------
+// Settings — appearance / labels / filters controls (persisted)
+// Every control reads and writes state.settings (see state.js); changes are
+// applied immediately to the scene and persisted on 'change' (the final
+// commit for a slider drag) plus on the reset button.
+// ------------------------------------------------------------
+
+// True when no highlight state owns the edge colours — re-applying the
+// resting style during a selection/trace/prompt-highlight would clobber it.
+function edgesAtRest() {
+  return !state.selectedNode && !state.selectedEdge && !state.activeTrace &&
+    !visibilityRegistry.promptEnabled &&
+    !(visibilityRegistry.promptIds && visibilityRegistry.promptIds.size);
+}
+
+const edgeOpacityInput = document.getElementById('set-edge-opacity');
+const edgeOpacityOut = document.getElementById('set-edge-opacity-val');
+const edgeColorModeSel = document.getElementById('set-edge-color-mode');
+const edgeColorInput = document.getElementById('set-edge-color');
+const nodeSizeInput = document.getElementById('set-node-size');
+const nodeSizeOut = document.getElementById('set-node-size-val');
+const labelSensInput = document.getElementById('set-label-sensitivity');
+const labelSensOut = document.getElementById('set-label-sensitivity-val');
+const labelSizeInput = document.getElementById('set-label-size');
+const labelSizeOut = document.getElementById('set-label-size-val');
+const minDegreeInput = document.getElementById('set-min-degree');
+const minDegreeOut = document.getElementById('set-min-degree-val');
+const minConfInput = document.getElementById('set-min-confidence');
+const minConfOut = document.getElementById('set-min-confidence-val');
+const sizeMetricSel = document.getElementById('set-size-metric');
+const labelLangSel = document.getElementById('set-label-lang');
+const autorotateBtn = document.getElementById('btn-autorotate');
+const reduceMotionBtn = document.getElementById('btn-reduce-motion');
+const rotateSpeedInput = document.getElementById('set-rotate-speed');
+const rotateSpeedOut = document.getElementById('set-rotate-speed-val');
+const zoomSpeedInput = document.getElementById('set-zoom-speed');
+const zoomSpeedOut = document.getElementById('set-zoom-speed-val');
+const renderQualitySel = document.getElementById('set-render-quality');
+const settingsResetBtn = document.getElementById('btn-settings-reset');
+
+function syncEdgeColorVisibility() {
+  if (edgeColorInput) edgeColorInput.hidden = state.settings.edgeColorMode !== 'mono';
+}
+
+// Auto-rotate is only effective when reduce-motion is off; the toggle reflects
+// the effective state.
+function autorotateEffective() {
+  return !!state.settings.autoRotate && !state.settings.reduceMotion;
+}
+
+// Push current settings into every control + its readout (used on init/reset).
+function syncSettingsInputs() {
+  const s = state.settings;
+  if (edgeOpacityInput) {
+    edgeOpacityInput.value = s.edgeOpacity;
+    edgeOpacityOut.textContent = Math.round(s.edgeOpacity * 100) + '%';
+  }
+  if (edgeColorModeSel) {
+    edgeColorModeSel.value = s.edgeColorMode;
+    syncEdgeColorVisibility();
+    if (edgeColorInput) edgeColorInput.value = s.edgeColor;
+  }
+  if (nodeSizeInput) {
+    nodeSizeInput.value = s.nodeSizeScale;
+    nodeSizeOut.textContent = Number(s.nodeSizeScale).toFixed(1) + '\u00d7';
+  }
+  if (sizeMetricSel) sizeMetricSel.value = s.sizeMetric;
+  if (labelSensInput) {
+    labelSensInput.value = s.labelSensitivity;
+    labelSensOut.textContent = s.labelSensitivity + '%';
+  }
+  if (labelSizeInput) {
+    labelSizeInput.value = s.labelSize;
+    labelSizeOut.textContent = s.labelSize + 'px';
+  }
+  if (labelLangSel) labelLangSel.value = s.labelLang;
+  if (minDegreeInput) {
+    minDegreeInput.value = s.minDegree;
+    minDegreeOut.textContent = '\u2265 ' + s.minDegree;
+  }
+  if (minConfInput) {
+    minConfInput.value = s.edgeMinConfidence;
+    minConfOut.textContent = '\u2265 ' + Math.round(s.edgeMinConfidence * 100) + '%';
+  }
+  if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
+  if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!s.reduceMotion);
+  if (rotateSpeedInput) {
+    rotateSpeedInput.value = s.autoRotateSpeed;
+    rotateSpeedOut.textContent = Number(s.autoRotateSpeed).toFixed(1);
+  }
+  if (zoomSpeedInput) {
+    zoomSpeedInput.value = s.zoomSpeed;
+    zoomSpeedOut.textContent = Number(s.zoomSpeed).toFixed(1) + '\u00d7';
+  }
+  if (renderQualitySel) renderQualitySel.value = s.renderQuality;
+}
+
+if (edgeOpacityInput) {
+  edgeOpacityInput.addEventListener('input', () => {
+    const v = parseFloat(edgeOpacityInput.value);
+    state.settings.edgeOpacity = v;
+    edgeOpacityOut.textContent = Math.round(v * 100) + '%';
+    if (edgesAtRest()) applyRestingEdges();
+  });
+  edgeOpacityInput.addEventListener('change', persistSettings);
+}
+
+if (edgeColorModeSel && edgeColorInput) {
+  edgeColorModeSel.addEventListener('change', () => {
+    state.settings.edgeColorMode = edgeColorModeSel.value;
+    syncEdgeColorVisibility();
+    if (edgesAtRest()) applyRestingEdges();
+    persistSettings();
+  });
+  edgeColorInput.addEventListener('input', () => {
+    state.settings.edgeColor = edgeColorInput.value;
+    if (state.settings.edgeColorMode === 'mono' && edgesAtRest()) applyRestingEdges();
+  });
+  edgeColorInput.addEventListener('change', persistSettings);
+}
+
+if (nodeSizeInput) {
+  nodeSizeInput.addEventListener('input', () => {
+    setNodeSizeScale(parseFloat(nodeSizeInput.value));
+    nodeSizeOut.textContent = Number(nodeSizeInput.value).toFixed(1) + '\u00d7';
+  });
+  nodeSizeInput.addEventListener('change', persistSettings);
+}
+
+if (labelSensInput) {
+  labelSensInput.addEventListener('input', () => {
+    state.settings.labelSensitivity = parseInt(labelSensInput.value, 10);
+    labelSensOut.textContent = labelSensInput.value + '%';
+    refreshLabelLayout();
+  });
+  labelSensInput.addEventListener('change', persistSettings);
+}
+
+if (labelSizeInput) {
+  labelSizeInput.addEventListener('input', () => {
+    const v = parseInt(labelSizeInput.value, 10);
+    state.settings.labelSize = v;
+    applyLabelSize(v);
+    labelSizeOut.textContent = v + 'px';
+    refreshLabelLayout(); // declutter half-extents depend on the font size
+  });
+  labelSizeInput.addEventListener('change', persistSettings);
+}
+
+if (minDegreeInput) {
+  minDegreeInput.addEventListener('input', () => {
+    const v = parseInt(minDegreeInput.value, 10);
+    state.settings.minDegree = v;
+    minDegreeOut.textContent = '\u2265 ' + v;
+    applyNodeVisibility();
+    refreshLabelLayout();
+  });
+  minDegreeInput.addEventListener('change', persistSettings);
+}
+
+if (minConfInput) {
+  minConfInput.addEventListener('input', () => {
+    const v = parseFloat(minConfInput.value);
+    state.settings.edgeMinConfidence = v;
+    minConfOut.textContent = '\u2265 ' + Math.round(v * 100) + '%';
+    applyNodeVisibility();
+  });
+  minConfInput.addEventListener('change', persistSettings);
+}
+
+if (sizeMetricSel) {
+  sizeMetricSel.addEventListener('change', () => {
+    setSizeMetric(sizeMetricSel.value);
+    persistSettings();
+  });
+}
+
+if (labelLangSel) {
+  labelLangSel.addEventListener('change', () => {
+    state.settings.labelLang = labelLangSel.value;
+    applyLabelLanguage();
+    persistSettings();
+  });
+}
+
+if (autorotateBtn) {
+  autorotateBtn.addEventListener('click', () => {
+    setAutoRotate(!state.settings.autoRotate);
+    autorotateBtn.classList.toggle('active', autorotateEffective());
+    persistSettings();
+  });
+}
+
+if (reduceMotionBtn) {
+  reduceMotionBtn.addEventListener('click', () => {
+    setReduceMotion(!state.settings.reduceMotion);
+    reduceMotionBtn.classList.toggle('active', state.settings.reduceMotion);
+    // Auto-rotate is force-disabled by reduce-motion — reflect that.
+    if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
+    persistSettings();
+  });
+}
+
+if (rotateSpeedInput) {
+  rotateSpeedInput.addEventListener('input', () => {
+    setAutoRotateSpeed(parseFloat(rotateSpeedInput.value));
+    rotateSpeedOut.textContent = Number(rotateSpeedInput.value).toFixed(1);
+  });
+  rotateSpeedInput.addEventListener('change', persistSettings);
+}
+
+if (zoomSpeedInput) {
+  zoomSpeedInput.addEventListener('input', () => {
+    setZoomSpeed(parseFloat(zoomSpeedInput.value));
+    zoomSpeedOut.textContent = Number(zoomSpeedInput.value).toFixed(1) + '\u00d7';
+  });
+  zoomSpeedInput.addEventListener('change', persistSettings);
+}
+
+if (renderQualitySel) {
+  renderQualitySel.addEventListener('change', () => {
+    setRenderQuality(renderQualitySel.value);
+    persistSettings();
+  });
+}
+
+if (settingsResetBtn) {
+  settingsResetBtn.addEventListener('click', () => {
+    resetSettings();
+    syncSettingsInputs();
+    // The Display toggles live in settings as well — re-sync them.
+    state.showLabels = state.settings.showLabels !== false;
+    edgeSegments.visible = state.settings.showEdges !== false;
+    document.getElementById('btn-labels').classList.toggle('active', state.showLabels);
+    document.getElementById('btn-edges').classList.toggle('active', edgeSegments.visible);
+    if (edgesAtRest()) applyRestingEdges();
+    setNodeSizeScale(state.settings.nodeSizeScale);
+    setSizeMetric(state.settings.sizeMetric);
+    applyLabelSize(state.settings.labelSize);
+    applyLabelLanguage();
+    applyNodeVisibility();
+    refreshLabelLayout();
+    setAutoRotate(state.settings.autoRotate);
+    setAutoRotateSpeed(state.settings.autoRotateSpeed);
+    setZoomSpeed(state.settings.zoomSpeed);
+    setReduceMotion(state.settings.reduceMotion);
+    setRenderQuality(state.settings.renderQuality);
+    // Toggle buttons reflect the effective (post-reduce-motion) state.
+    if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
+    if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!state.settings.reduceMotion);
+  });
+}
+
+// Initialize control positions from the persisted settings.
+syncSettingsInputs();
 
 // ------------------------------------------------------------
 // Zoom Bar
@@ -1053,6 +1400,21 @@ zoomTrack.addEventListener('pointerdown', (e) => {
   e.preventDefault();
 });
 
+// Keyboard operation for the slider (role="slider" in index.html): Up/Right
+// zoom in, Down/Left zoom out, Home/End jump to the extremes.
+zoomTrack.addEventListener('keydown', (e) => {
+  const step = 0.05;
+  let handled = true;
+  switch (e.key) {
+    case 'ArrowUp': case 'ArrowRight': setZoomFromFraction(getZoomFraction() + step); break;
+    case 'ArrowDown': case 'ArrowLeft': setZoomFromFraction(getZoomFraction() - step); break;
+    case 'Home': setZoomFromFraction(0); break;
+    case 'End': setZoomFromFraction(1); break;
+    default: handled = false;
+  }
+  if (handled) { e.preventDefault(); updateZoomBar(); }
+});
+
 window.addEventListener('pointermove', (e) => {
   if (zoomDragging) zoomFromPointer(e);
 });
@@ -1063,6 +1425,11 @@ window.addEventListener('pointerup', () => {
 
 updateZoomBar();
 
-// The trace card lives inside #analysis-tools, which prompt.js renders at
+// The trace card lives inside #analysis-tools, which analysis.js renders at
 // startup — rebind (no-op until those elements exist).
 rebindTracePanel();
+
+// Register the selection/info renderers with interaction.js (dependency
+// inversion — see setUiHooks in interaction.js). These are hoisted function
+// declarations, so they exist even though this runs at module-eval time.
+setUiHooks({ showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes });

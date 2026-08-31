@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>氧化兒茶酚胺誘發溶酶體壓力（推測性）</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/oxidized-catecholamines-feed-lysosomal-stress.html">
+  <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/oxidized-catecholamines-feed-lysosomal-stress.html">
+  <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html">
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#overview">總覽</a>
+    <a class="n" href="#mechanism-flow">機制流程</a>
+    <a class="n" href="#step-by-step">逐步解說</a>
+    <a class="n" href="#double-edged">雙面性色素</a>
+    <a class="n" href="#tfeb-regulation">TFEB 調控</a>
+    <a class="n" href="#synthesis">綜合總結</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">互動式解說 · llm-wiki-jk</div>
+    <h1>氧化兒茶酚胺誘發溶酶體壓力 <span class="badge speculative">推測性</span></h1>
+    <p class="lead" style="margin-top:14px;">
+      機制鏈：<b style="color:var(--text)">Adrenochrome</b> → <b style="color:var(--text)">Neuromelanin</b> → 溶酶體滯留 →
+      <b style="color:var(--text)">TFEB</b> 調控的 <b style="color:var(--text)">Autophagy</b>。
+      此頁取自 <code>src/notes</code>（含 <code>_link/</code>）共 19 篇維基筆記，並輔以一般氧化還原/溶酶體生物學。
+    </p>
+    <div class="meta">
+      來源：維基筆記 [[Adrenochrome]]、[[Neuromelanin]]、[[TFEB]]、[[Autophagy]] · 一般溶酶體/氧化還原生物學
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">兒茶酚胺 → 胺基色素 → 神經黑色素</span>
+      <span class="badge red">溶酶體壓力</span>
+      <span class="badge">TFEB / CLEAR 網絡</span>
+      <span class="badge red">AMPK 磷酸化 TFEB（adrenochrome 關聯 ⚠）</span>
+      <span class="badge">氧化還原循環鄰醌</span>
+    </div>
+  </div>
+</header>
+
+<!-- 總覽 -->
+<section id="overview">
+  <div class="wrap">
+    <h2>從兒茶酚胺氧化到溶酶體衰竭</h2>
+    <p class="lead" style="margin-bottom:20px;">
+      兒茶酚胺類（如 <b style="color:var(--text)">[[Dopamine]]</b> 與 <b style="color:var(--text)">[[Epinephrine]]</b>）在氧化條件下會自發性自氧化，形成具反應性的
+      <b style="color:var(--text)">胺基色素（aminochromes）</b>——epinephrine 形成 <b style="color:var(--text)">[[Adrenochrome]]</b>，dopamine 則形成 <b style="color:var(--text)">[[Dopaminochrome]]</b>。
+      這些 <span style="color:var(--teal); font-weight:600;">o-醌（o-quinone）</span>物種會進行氧化還原循環以產生超氧化物並耗竭 <b style="color:var(--text)">[[Glutathione]]</b>，
+      隨後聚合為 <b style="color:var(--text)">[[Neuromelanin]]</b>。
+      Neuromelanin 在低負荷時具保護作用（螯合鐵、捕捉醌類），但一旦超過
+      <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b>，便會累積於無法將其分解的自體溶酶體（autolysosomes）內，
+      耗盡囊泡容量並損害自噬流——即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>。
+      此壓力通常會招募 <b style="color:var(--text)">[[TFEB]]</b>（溶酶體/自噬的主轉錄因子）以恢復清除；
+      慢性氧化兒茶酚胺負荷可能使此軸失調，並在 <b style="color:var(--text)">[[Parkinson's Disease]]</b> 中驅動神經退化。
+    </p>
+  </div>
+</section>
+
+<!-- 機制流程 -->
+<section id="mechanism-flow">
+  <div class="wrap">
+    <h2>機制流程</h2>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <div class="copy-host"><svg id="mechSvg" viewBox="0 0 1000 380" role="img" aria-label="從兒茶酚胺到 TFEB 與自噬的機制流程">
+          <defs>
+            <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+              <path d="M0,0 L8,3 L0,6 Z" fill="#c5c9e0"/>
+            </marker>
+            <marker id="arrR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+              <path d="M0,0 L8,3 L0,6 Z" fill="#E4575E"/>
+            </marker>
+            <marker id="arrT" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+              <path d="M0,0 L8,3 L0,6 Z" fill="#3EC9A7"/>
+            </marker>
+          </defs>
+
+          <!-- nodes row 1 -->
+          <rect x="20" y="40" width="150" height="80" rx="10" fill="#1a1a2e" stroke="#9D8DF1" stroke-width="1.5"/>
+          <text x="95" y="68" text-anchor="middle" fill="#e0e0e0" font-size="14" font-weight="600">Catecholamines</text>
+          <text x="95" y="88" text-anchor="middle" fill="#9aa0c0" font-size="11.5">Dopamine · Epinephrine</text>
+          <text x="95" y="104" text-anchor="middle" fill="#9aa0c0" font-size="11.5">cytosolic, unstored</text>
+
+          <rect x="200" y="40" width="160" height="80" rx="10" fill="#1a1a2e" stroke="#E4575E" stroke-width="1.5"/>
+          <text x="280" y="66" text-anchor="middle" fill="#e0e0e0" font-size="14" font-weight="600">Adrenochrome</text>
+          <text x="280" y="84" text-anchor="middle" fill="#9aa0c0" font-size="11.5">/ Aminochrome (o-quinone)</text>
+          <text x="280" y="100" text-anchor="middle" fill="#9aa0c0" font-size="11.5">redox-cycling · ROS</text>
+
+          <rect x="390" y="40" width="150" height="80" rx="10" fill="#1a1a2e" stroke="#E8A33D" stroke-width="1.5"/>
+          <text x="465" y="68" text-anchor="middle" fill="#e0e0e0" font-size="14" font-weight="600">Neuromelanin</text>
+          <text x="465" y="86" text-anchor="middle" fill="#9aa0c0" font-size="11.5">polymerized pigment</text>
+          <text x="465" y="102" text-anchor="middle" fill="#9aa0c0" font-size="11.5">binds Fe²⁺ · quinones</text>
+
+          <rect x="570" y="40" width="170" height="80" rx="10" fill="#1a1a2e" stroke="#5DA8FF" stroke-width="1.5"/>
+          <text x="655" y="66" text-anchor="middle" fill="#e0e0e0" font-size="14" font-weight="600">Lysosomal trapping</text>
+          <text x="655" y="84" text-anchor="middle" fill="#9aa0c0" font-size="11.5">autolysosomes</text>
+          <text x="655" y="100" text-anchor="middle" fill="#9aa0c0" font-size="11.5">insoluble · undegraded</text>
+
+          <rect x="770" y="40" width="150" height="80" rx="10" fill="#1a1a2e" stroke="#E4575E" stroke-width="1.5"/>
+          <text x="845" y="66" text-anchor="middle" fill="#e0e0e0" font-size="14" font-weight="600">Lysosomal stress</text>
+          <text x="845" y="84" text-anchor="middle" fill="#9aa0c0" font-size="11.5">impaired flux · LMP</text>
+          <text x="845" y="100" text-anchor="middle" fill="#9aa0c0" font-size="11.5">proteostasis failure</text>
+
+          <!-- node row 2 -->
+          <rect x="770" y="200" width="150" height="80" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.5"/>
+          <text x="845" y="226" text-anchor="middle" fill="#e0e0e0" font-size="14" font-weight="600">TFEB → Autophagy</text>
+          <text x="845" y="244" text-anchor="middle" fill="#9aa0c0" font-size="11.5">CLEAR network</text>
+          <text x="845" y="260" text-anchor="middle" fill="#9aa0c0" font-size="11.5">lysosomal biogenesis</text>
+
+          <!-- arrows -->
+          <line x1="170" y1="80" x2="196" y2="80" stroke="#c5c9e0" stroke-width="1.5" marker-end="url(#arr)"/>
+          <line x1="360" y1="80" x2="386" y2="80" stroke="#c5c9e0" stroke-width="1.5" marker-end="url(#arr)"/>
+          <line x1="540" y1="80" x2="566" y2="80" stroke="#c5c9e0" stroke-width="1.5" marker-end="url(#arr)"/>
+          <line x1="740" y1="80" x2="766" y2="80" stroke="#c5c9e0" stroke-width="1.5" marker-end="url(#arr)"/>
+          <line x1="845" y1="120" x2="845" y2="196" stroke="#c5c9e0" stroke-width="1.5" marker-end="url(#arr)"/>
+
+          <!-- feedback loop (vicious cycle) -->
+          <path d="M 770 80 C 770 340, 20 340, 20 122" fill="none" stroke="#E4575E" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrR)"/>
+          <text x="400" y="358" text-anchor="middle" fill="#E4575E" font-size="12">Vicious cycle: ROS · GSH depletion · redox cycling → more catecholamine oxidation</text>
+
+          <!-- attempted clearance branch -->
+          <path d="M 770 240 C 700 280, 700 100, 660 80" fill="none" stroke="#3EC9A7" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#arrT)"/>
+          <text x="690" y="300" text-anchor="middle" fill="#3EC9A7" font-size="11.5">attempted clearance of NM</text>
+        </svg><button class="copy-btn" data-copy="mechSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:#9D8DF1"></span>來源兒茶酚胺</span>
+        <span><span class="sw" style="background:#E4575E"></span>氧化劑 / 壓力</span>
+        <span><span class="sw" style="background:#E8A33D"></span>色素</span>
+        <span><span class="sw" style="background:#5DA8FF"></span>溶酶體區室</span>
+        <span><span class="sw" style="background:#3EC9A7"></span>保護 / 修復</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 逐步解說 -->
+<section id="step-by-step">
+  <div class="wrap">
+    <h2>逐步解說</h2>
+    <div class="grid g2">
+      <div class="card" style="border-top:3px solid var(--red);">
+        <span class="badge red">氧化劑</span>
+        <h3>[[Adrenochrome]] —— 胺基色素</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          由 epinephrine 自氧化/環化形成的 indoline-5,6-dione <span style="color:var(--teal); font-weight:600;">o-醌</span>（dopamine 則形成對應的 dopaminochrome）。
+          它會<b style="color:var(--text)">進行氧化還原循環</b>，產生需由 <b style="color:var(--text)">[[MnSOD]]</b> 歧化的超氧化物，並耗竭 <b style="color:var(--text)">[[Glutathione]]</b>。
+          依筆記所述，adrenochrome 驅動的氧化壓力會對糖化/抗氧化防禦造成「雙重打擊」，並透過 Fenton 化學與羥基自由基形成正回饋迴路。
+        </p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--amber);">
+        <span class="badge amber">色素</span>
+        <h3>[[Neuromelanin]] —— 聚合的沉積槽</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          由胺基色素聚合而成：<code>Dopamine → Dopaminochrome → Neuromelanin</code> 與 <code>Epinephrine → Adrenochrome → Neuromelanin</code>。
+          低負荷時它是具保護作用的「海綿」，螯合鐵並捕捉醌類；超過 <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b> 後，則轉變為氧化與蛋白質恆態衰竭的驅動者。
+        </p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--blue);">
+        <span class="badge" style="color:var(--blue); border-color:var(--blue);">溶酶體</span>
+        <h3>溶酶體滯留與壓力</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Neuromelanin 累積於<b style="color:var(--text)">溶酶體-自噬結構（自體溶酶體）</b>內。
+          因其不可溶而無法被降解，只能永久滯留，耗盡囊泡儲存容量、干擾溶酶體蛋白酶與囊泡運輸，
+          並同時損害自噬與泛素-蛋白酶體系統——此即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>的核心。
+        </p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--teal);">
+        <span class="badge teal">修復性</span>
+        <h3>[[TFEB]] 與 [[Autophagy]]</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          TFEB 是透過 <b style="color:var(--text)">[[CLEAR Element]]</b> 網絡調控溶酶體生成與自噬的主調控因子。
+          溶酶體壓力通常會觸發 TFEB 核轉位以恢復清除。
+          筆記確認 <b style="color:var(--text)">[[AMPK]] 會磷酸化 TFEB</b>（S466/S467/S469）以增強其轉錄活性，
+          但「adrenochrome 透過 AMPK 驅動 TFEB 核轉位」這個特定關聯，是未記載於維基筆記中的推測性外推。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 雙面性色素 -->
+<section id="double-edged">
+  <div class="wrap">
+    <h2>雙面性色素：保護 vs 致病</h2>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <div class="copy-host"><svg id="thresholdSvg" viewBox="0 0 1000 320" role="img" aria-label="神經黑色素累積對比神經元韌性曲線">
+          <!-- axes -->
+          <line x1="80" y1="40" x2="80" y2="260" stroke="#2a2a4e" stroke-width="1.5"/>
+          <line x1="80" y1="260" x2="920" y2="260" stroke="#2a2a4e" stroke-width="1.5"/>
+          <text x="40" y="150" fill="#c5c9e0" font-size="12" transform="rotate(-90 40 150)" text-anchor="middle">Neuronal resilience / degradative capacity</text>
+          <text x="500" y="295" fill="#c5c9e0" font-size="12" text-anchor="middle">Neuromelanin accumulation (age / catecholamine burden) →</text>
+
+          <!-- protective region shading -->
+          <rect x="80" y="40" width="480" height="220" fill="rgba(88,214,141,.07)"/>
+          <!-- pathogenic region shading -->
+          <rect x="560" y="40" width="360" height="220" fill="rgba(228,87,94,.08)"/>
+
+          <!-- curve -->
+          <path d="M 80 60 L 300 78 Q 470 100 560 140 L 700 215 Q 820 248 920 244"
+                fill="none" stroke="#E8A33D" stroke-width="3"/>
+
+          <!-- threshold line -->
+          <line x1="560" y1="40" x2="560" y2="260" stroke="#E8A33D" stroke-width="1.5" stroke-dasharray="6 4"/>
+          <text x="560" y="34" fill="#E8A33D" font-size="12" text-anchor="middle">Pathogenic Threshold</text>
+
+          <!-- labels -->
+          <text x="300" y="120" fill="#58D68D" font-size="12.5" text-anchor="middle">Protective sink</text>
+          <text x="300" y="138" fill="#9aa0c0" font-size="11" text-anchor="middle">Fe²⁺ / quinone chelation</text>
+          <text x="740" y="150" fill="#E4575E" font-size="12.5" text-anchor="middle">Overwhelms lysosomal</text>
+          <text x="740" y="168" fill="#9aa0c0" font-size="11" text-anchor="middle">&amp; proteostatic clearance</text>
+        </svg><button class="copy-btn" data-copy="thresholdSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+      </div>
+      <p style="font-size:.82rem; color:var(--dim); font-style:italic; margin-top:10px;">
+        曲線概念源自 <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b> 假說：
+        低於閾值有益，高於閾值有害。在帕金森氏症中，含神經黑色素（而非未黑色素化）的腦區顯示出自噬與 UPS 受損。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- TFEB 調控 -->
+<section id="tfeb-regulation">
+  <div class="wrap">
+    <h2>兒茶酚胺壓力下的 TFEB 調控</h2>
+    <div class="spectrum-card">
+      <div style="position:relative;">
+        <div class="copy-host"><svg id="tfebSvg" viewBox="0 0 1000 360" role="img" aria-label="TFEB 調控輸入與輸出">
+          <!-- central TFEB -->
+          <rect x="420" y="140" width="160" height="80" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.5"/>
+          <text x="500" y="172" text-anchor="middle" fill="#e0e0e0" font-size="15" font-weight="600">TFEB</text>
+          <text x="500" y="192" text-anchor="middle" fill="#9aa0c0" font-size="11.5">MiT/TFE family</text>
+          <text x="500" y="208" text-anchor="middle" fill="#9aa0c0" font-size="11.5">CLEAR transactivator</text>
+
+          <!-- activating inputs (left) -->
+          <rect x="40" y="55" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
+          <text x="120" y="78" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">AMPK</text>
+          <text x="120" y="93" text-anchor="middle" fill="#9aa0c0" font-size="10.5">phosphorylates TFEB S466/S467/S469</text>
+          <text x="120" y="107" text-anchor="middle" fill="#E8A33D" font-size="9.5">⚠ adrenochrome link speculative</text>
+
+          <rect x="40" y="150" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#58D68D" stroke-width="1.3"/>
+          <text x="120" y="173" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">ACAT1 acetylation</text>
+          <text x="120" y="188" text-anchor="middle" fill="#9aa0c0" font-size="10.5">K91/K103/K116/K430 → nuclear</text>
+          <text x="120" y="202" text-anchor="middle" fill="#E8A33D" font-size="9.5">⚠ not in wiki notes</text>
+
+          <rect x="40" y="210" width="160" height="50" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
+          <text x="120" y="231" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">SIRT1 deacetylation</text>
+          <text x="120" y="246" text-anchor="middle" fill="#9aa0c0" font-size="10.5">K116 → promotes nuclear TFEB</text>
+
+          <rect x="40" y="275" width="160" height="50" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
+          <text x="120" y="296" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">CaMKKβ / Ca²⁺</text>
+          <text x="120" y="311" text-anchor="middle" fill="#9aa0c0" font-size="10.5">energy/calcium sensor</text>
+
+          <!-- inhibitory inputs (right) -->
+          <rect x="800" y="55" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#E4575E" stroke-width="1.3"/>
+          <text x="880" y="80" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">mTORC1 / MAP4K3</text>
+          <text x="880" y="98" text-anchor="middle" fill="#9aa0c0" font-size="10.5">S3→S211/S142 → 14-3-3 trap</text>
+
+          <rect x="800" y="150" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#E4575E" stroke-width="1.3"/>
+          <text x="880" y="173" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">SUMOylation K316</text>
+          <text x="880" y="188" text-anchor="middle" fill="#9aa0c0" font-size="10.5">attenuates transcription</text>
+          <text x="880" y="202" text-anchor="middle" fill="#E8A33D" font-size="9.5">⚠ not in wiki notes</text>
+
+          <!-- output -->
+          <rect x="420" y="270" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#58D68D" stroke-width="1.5"/>
+          <text x="500" y="295" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">CLEAR → Autophagy</text>
+          <text x="500" y="313" text-anchor="middle" fill="#9aa0c0" font-size="10.5">&amp; lysosomal biogenesis</text>
+
+          <!-- arrows into TFEB -->
+          <line x1="200" y1="84" x2="416" y2="160" stroke="#3EC9A7" stroke-width="1.3" marker-end="url(#arrT)"/>
+          <line x1="200" y1="179" x2="416" y2="180" stroke="#58D68D" stroke-width="1.3" marker-end="url(#arrT)"/>
+          <line x1="200" y1="235" x2="416" y2="195" stroke="#3EC9A7" stroke-width="1.3" marker-end="url(#arrT)"/>
+          <line x1="200" y1="300" x2="416" y2="210" stroke="#3EC9A7" stroke-width="1.3" marker-end="url(#arrT)"/>
+          <line x1="800" y1="84" x2="584" y2="160" stroke="#E4575E" stroke-width="1.3" marker-end="url(#arrR)"/>
+          <line x1="800" y1="179" x2="584" y2="180" stroke="#E4575E" stroke-width="1.3" marker-end="url(#arrR)"/>
+          <line x1="500" y1="220" x2="500" y2="266" stroke="#58D68D" stroke-width="1.5" marker-end="url(#arrT)"/>
+        </svg><button class="copy-btn" data-copy="tfebSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+        <div id="netTip"></div>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:#3EC9A7"></span>活化輸入</span>
+        <span><span class="sw" style="background:#58D68D"></span>乙醯化 / 輸出</span>
+        <span><span class="sw" style="background:#E4575E"></span>抑制性輸入</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 綜合總結 -->
+<section id="synthesis">
+  <div class="wrap">
+    <h2>綜合總結：氧化兒茶酚胺如何誘發溶酶體壓力</h2>
+    <div class="card">
+
+      <!-- 步驟 1 -->
+      <p><b style="color:var(--teal)">1. 氧化來源。</b> 胞質中自囊泡逸出的兒茶酚胺自氧化為胺基色素——
+        <b style="color:var(--text)">[[Adrenochrome]]</b> 來自 <b style="color:var(--text)">[[Epinephrine]]</b>、
+        <b style="color:var(--text)">[[Dopaminochrome]]</b> 來自 <b style="color:var(--text)">[[Dopamine]]</b>。
+        這些 <span style="color:var(--teal); font-weight:600;">o-醌</span>物種進行氧化還原循環：單電子還原為半醌自由基，
+        再與 O₂ 反應再生醌並產生超氧化物（O₂⁻）。
+        超氧化物由 <b style="color:var(--text)">[[MnSOD]]</b> 歧化為 H₂O₂，後者再經 Fenton 化學產生羥基自由基——
+        形成自我放大的迴路。
+        o-醌的親電子特性也會直接結合並耗竭 <b style="color:var(--text)">[[Glutathione]]</b>，
+        侵蝕細胞的主要氧化還原緩衝。
+        <span style="color:var(--green); font-size:.82rem;">✅ 由 [[Adrenochrome]]、[[Adrenochrome Pathway]]、[[AMPK]] 筆記支持。</span></p>
+
+      <!-- 步驟 2：雙面性色素 -->
+      <p style="margin-top:28px;"><b style="color:var(--amber)">2. 雙面性色素：神經黑色素。</b>
+        胺基色素聚合為 <b style="color:var(--text)">[[Neuromelanin]]</b>——
+        <code>Epinephrine → Adrenochrome → Neuromelanin</code> 與
+        <code>Dopamine → Dopaminochrome → Neuromelanin</code>。
+        此轉換不只是廢物處理；它創造了一個隨年齡與負荷轉變其雙重身分的分子。</p>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:10px 0 14px;">
+        <div style="background:rgba(88,214,141,.06); border:1px solid rgba(88,214,141,.2); border-radius:8px; padding:12px;">
+          <p style="margin:0 0 6px;"><b style="color:#58D68D;">🛡 保護性（低於閾值）</b></p>
+          <ul style="margin:0; padding-left:16px; font-size:.85rem; color:var(--dim);">
+            <li><b>鐵螯合：</b>Neuromelanin 對 Fe²⁺ 的高親和力結合可防止 Fenton 產生的羥基自由基——對富含鐵的黑質神經元是關鍵保護。</li>
+            <li><b>醌類海綿：</b>在其聚合物晶格內捕捉具反應性的胺基色素中間體（adrenochrome、dopaminochrome），將親電子物隔離於蛋白質與 DNA 之外。</li>
+            <li><b>自由基清除：</b>黑色素聚合物可直接淬滅 ROS，補強酵素性抗氧化防禦。</li>
+            <li><b>解毒：</b>將胞質兒茶酚聚合，可有效將具毒性醌類自細胞質移除。</li>
+          </ul>
+        </div>
+        <div style="background:rgba(228,87,94,.06); border:1px solid rgba(228,87,94,.2); border-radius:8px; padding:12px;">
+          <p style="margin:0 0 6px;"><b style="color:#E4575E;">⚡ 致病性（高於閾值）</b></p>
+          <ul style="margin:0; padding-left:16px; font-size:.85rem; color:var(--dim);">
+            <li><b>不可溶累積：</b>Neuromelanin 無法被任何已知溶酶體酵素水解；一旦送入自體溶酶體便永久滯留。</li>
+            <li><b>溶酶體膨脹：</b>持續累積耗盡囊泡儲存容量，物理性脹大溶酶體，損害蛋白酶活性與囊泡運輸。</li>
+            <li><b>蛋白質恆態崩潰：</b>自噬流與泛素-蛋白酶體系統（UPS）同時受損，造成雙重降解衰竭。</li>
+            <li><b>神經發炎誘發：</b>神經元死亡時，釋出的 neuromelanin 激活 [[Microgliosis]] 與胞外 TLR 依賴的 [[Inflammation]]，以旁分泌惡性循環放大神經退化。</li>
+          </ul>
+        </div>
+      </div>
+
+      <p style="font-size:.88rem; color:var(--dim);">
+        Neuromelanin 在出生時幾乎不存在，終其一生持續累積，於中老年達到高峰。
+        <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b> 假說主張存在一個關鍵濃度，超過後便發生從保護到致病的轉變。
+        關鍵的是，在 [[Parkinson's Disease]] 中，優先退化的是黑質緻密部與藍斑核中<i>富含神經黑色素</i>的神經元
+        ——而非未黑色素化的腦區——顯示該色素本身即為易損性標記。
+        <span style="color:var(--green); font-size:.82rem;">✅ 由 [[Neuromelanin]]、[[Pathogenic Threshold of Neuromelanin]]、[[Adrenochrome]] 筆記支持。</span></p>
+
+      <!-- 步驟 3 -->
+      <p style="margin-top:28px;"><b style="color:var(--blue)">3. 溶酶體包埋與壓力。</b>
+        Neuromelanin 經由黑色素化胞器的自噬被送入並困於自體溶酶體內。
+        因其不可溶且不可降解，它填滿降解區室、鈍化溶酶體蛋白酶（cathepsins）、擾亂囊泡運輸，
+        並同時阻塞自噬與 UPS 流——即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>的核心。
+        超過 <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b> 後即成為蛋白質恆態災難：
+        無法經由粒線體自噬清除的受損粒線體、無法降解的 α-synuclein 聚集物，
+        以及本身即具細胞毒性、持續升高的未折疊蛋白反應。
+        <span style="color:var(--green); font-size:.82rem;">✅ 由 [[Neuromelanin]]、[[Pathogenic Threshold of Neuromelanin]] 筆記支持。</span></p>
+
+      <!-- 步驟 4：TFEB 擴充 -->
+      <p style="margin-top:28px;"><b style="color:var(--teal)">4. TFEB 招募——及其失敗。</b>
+        溶酶體壓力通常會激活 <b style="color:var(--text)">[[TFEB]]</b>——
+        <b style="color:var(--text)">[[CLEAR Element]]</b> 網絡的主轉錄因子，可上調溶酶體生成、自噬體形成與自噬流相關基因。
+        TFEB 活性由整合營養、能量與壓力訊號的複雜轉譯後調控網絡所支配：</p>
+
+      <div style="background:rgba(62,201,167,.05); border:1px solid rgba(62,201,167,.15); border-radius:8px; padding:12px 16px; margin:8px 0 12px; font-size:.85rem;">
+        <p style="margin:0 0 6px;"><b style="color:var(--teal);">文獻所確立的：</b></p>
+        <ul style="margin:0; padding-left:16px; color:var(--dim);">
+          <li><b>mTORC1 磷酸化（S122/S142/S211）</b>——在營養充足條件下，mTORC1 磷酸化 TFEB，產生 14-3-3 結合位點將其困於細胞質。
+            這是主要的「關閉開關」。去磷酸化（如飢餓或溶酶體壓力期間由 calcineurin 進行）則釋放 TFEB 使之轉位至細胞核。
+            <span style="color:var(--green);">✅ 由 [[TFEB]]、[[AMPK]] 筆記支持。</span></li>
+          <li><b>AMPK 磷酸化（S466/S467/S469）</b>——AMPK 磷酸化保守的 C 端絲胺酸簇，據報導對 TFEB 轉錄活性至關重要
+            （Paquette et al., 2021, PMID: 33734022）。
+            然而 2024 年的一項研究（bioRxiv: 2024.10.22.619589）對此提出挑戰，顯示 AMPK 激活實際上會導致這些位點<i>去</i>磷酸化，
+            且 AMPK 對 mTORC1 介導的 TFEB 激活並非必要——這是學界真實存在的爭議。
+            <span style="color:var(--green);">✅ 由 [[AMPK]] 筆記支持；<span style="color:var(--amber);">⚠ 機制細節於文獻中有爭議。</span></span></li>
+          <li><b>SIRT1 去乙醯化（K116）</b>——SIRT1 於離胺酸 116 去乙醯化 TFEB，<i>促進</i>其核轉位與轉錄活性
+            （Bao et al., 2016, PMID: 27209302；Zheng et al., 2021, PMID: 33569549）。
+            此為確立的活化性修飾。
+            <span style="color:var(--green);">✅ 由 [[TFEB]] 筆記支持。</span></li>
+          <li><b>ACAT1 乙醯化（K91/K103/K116/K430）</b>——ACAT1 於多個離胺酸殘基乙醯化 TFEB。
+            總體效應據報導促進核轉位與 DNA 結合（Zhang et al., 2018, PMID: 30059277），
+            但 K116 乙醯化特別可能阻礙 DNA 結合——與 SIRT1 於同一位點的去乙醯化形成微妙互動。
+            <span style="color:var(--amber);">⚠ 未記載於維基筆記。</span></li>
+          <li><b>SUMOylation K316</b>——據報導會衰減 TFEB 轉錄活性，但未記載於維基筆記。
+            <span style="color:var(--amber);">⚠ 未見於維基筆記；獨立佐證有限。</span></li>
+        </ul>
+      </div>
+
+      <p style="font-size:.88rem; color:var(--dim);">
+        核心弔詭：本應清除富含神經黑色素溶酶體的系統，本身卻被它試圖修復的條件所抑制。
+        慢性氧化兒茶酚胺負荷壓垮調控平衡——mTORC1 持續活化、能量感應的 AMPK 軸備受爭議、
+        色素負荷則在物理上耗盡 TFEB 試圖建立的降解機制。
+        結果是自噬清除失敗、受損粒線體累積、α-synuclein 聚集，
+        最終黑質中選擇性神經元死亡——即 <b style="color:var(--text)">[[Parkinson's Disease]]</b> 的基礎。
+        <span style="color:var(--green); font-size:.82rem;">✅ 核心路徑由 [[TFEB]]、[[Autophagy]]、[[Parkinson's Disease]] 筆記支持。</span></p>
+
+      <!-- 推測性內容聲明 -->
+      <div style="background:rgba(232,163,61,.08); border:1px solid rgba(232,163,61,.3); border-radius:8px; padding:12px 16px; margin-top:14px; font-size:.85rem;">
+        <b style="color:var(--amber);">⚠ 推測性內容聲明</b><br>
+        <span style="color:var(--dim);">以下頁面內容是維基筆記（<code>src/notes</code>）未直接支持的外推，或在主要文獻中仍積極爭論中：</span>
+        <ul style="margin:6px 0 0 18px; color:var(--dim); font-size:.82rem;">
+          <li><b>Adrenochrome → AMPK → TFEB：</b>AMPK 筆記確認 AMPK 磷酸化 TFEB，但沒有任何筆記（或經審查論文）直接將 adrenochrome 連結至 AMPK 激活。
+            此為推論性外推：adrenochrome 產生 ROS 並耗竭 ATP → AMPK 感知能量壓力 → AMPK 激活 TFEB。
+            個別步驟皆有記載；特定鏈結則無。</li>
+          <li><b>ACAT1 對 TFEB 的乙醯化：</b>真實生物學（Zhang et al., 2018），但未記載於任何維基筆記。
+            文獻亦有其微妙之處：ACAT1 於 K91/K103/K430 的乙醯化促進核轉位，但 K116 乙醯化可能阻礙 DNA 結合。</li>
+          <li><b>SVG 圖中 SIRT1 被繪為抑制性：</b>與維基筆記及已發表文獻皆矛盾。
+            SIRT1 於 K116 的去乙醯化<i>促進</i> TFEB 核轉位與轉錄活性（Bao et al., 2016）。
+            SVG 圖不正確地將 SIRT1 顯示為抑制性輸入——此應被修正。</li>
+          <li><b>SUMOylation K316：</b>見於 TFEB 調控回顧，但獨立驗證有限；未見於任何維基筆記。</li>
+          <li><b>AMPK → TFEB S466/S467/S469：</b>原始研究（Paquette et al., 2021）被 2024 年預印本反駁，後者顯示 AMPK 激活會導致這些位點<i>去</i>磷酸化。
+            此為積極爭論中的科學議題。</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>來源</b></p>
+    <p>llm-wiki-jk 筆記：[[Adrenochrome]]、[[Adrenochrome Pathway]]、[[AMPK]]、[[Autophagy]]、[[CLEAR Element]]、[[Dopamine]]、[[Dopaminochrome]]、[[Epinephrine]]、[[Glutathione]]、[[Inflammation]]、[[Locus Coeruleus]]、[[Microgliosis]]、[[MnSOD]]、[[mTORC1]]、[[Neuromelanin]]、[[Parkinson's Disease]]、[[Pathogenic Threshold of Neuromelanin]]、[[Substantia Nigra]]、[[TFEB]]。</p>
+    <p>一般溶酶體/氧化還原生物學——在維基筆記未涵蓋處補充。</p>
+    <p style="margin-top:10px; color:var(--mute);">所有圖表皆為客戶端渲染的 SVG/CSS——無外部依賴，可離線使用。</p>
+  </div>
+</footer>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/context-tooltip.js"></script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

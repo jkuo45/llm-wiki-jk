@@ -22,7 +22,7 @@ aliases: []
 - **[[Smoking]]:** Triggers systemic release of adrenaline and increases ROS, promoting its oxidation.
 ## Metabolism
 [[Epinephrine]] is a catecholamine and is primary metabolized by:
-1. [[COMT]] ([[Catechol-O-methyltransferase]])
+1. [[COMT]] ([[COMT|Catechol-O-methyltransferase]])
 2. [[Monoamine oxidase]] ([[MAO]])
 ## Functions
 It increases heart rate, constricts blood vessels, and dilates air passages, participating in the sympathetic nervous system's response to stress.
@@ -71,5 +71,5 @@ List of documents that mention this entity
 - [[Norepinephrine]]: The precursor to epinephrine.
 
 ## Linking Summary
-- New links added: [[Epinephrine]], [[Adrenochrome]], [[Oxidative Stress]], [[Oxidation]], [[Myeloperoxidase]], [[COMT]], [[MAO]], [[Inflammation]], [[Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]], [[Neurotransmitters]], [[Catechol-O-methyltransferase]], [[Norepinephrine]]., [[Norepinephrine]]
+- New links added: [[Epinephrine]], [[Adrenochrome]], [[Oxidative Stress]], [[Oxidation]], [[Myeloperoxidase]], [[COMT]], [[MAO]], [[Inflammation]], [[Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]], [[Neurotransmitters]], [[COMT|Catechol-O-methyltransferase]], [[Norepinephrine]]., [[Norepinephrine]]
   - Strong connections to strengthen: [[Epinephrine]] ↔ Adrenochrome

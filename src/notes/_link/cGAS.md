@@ -49,7 +49,7 @@ Beyond cytosolic DNA sensing, cGAS carries out DNA-independent and nuclear roles
 Microglia are the dominant source of cGAS in the diseased brain. Tau, [[Amyloid Beta|Aβ]], [[Alpha-synuclein|α-synuclein]], [[TDP-43]], and mutant [[Huntingtin|huntingtin]] converge on [[mtDNA]] leakage (or, for tau, PQBP1) to activate microglial cGAS, driving chronic [[Type I Interferon|IFN-I]] signaling and [[Neuroinflammation]].
 
 > [!important] Therapeutic uncoupling
-> Genetic ablation or pharmacological inhibition of cGAS (e.g., RU.521, TDI inhibitors) selectively suppresses the neurotoxic, [[IRF3]]/[[NF-kappaB|NF-κB]]-driven inflammatory program while **preserving—or augmenting—microglial phagocytosis** (increased [[Amyloid Beta|Aβ]] plaque clearance). In tauopathy, microglial cGAS deletion restores neuronal [[MEF2C]] cognitive-resilience programs, and cGAS inhibition phenocopies the protective [[APOE3 Christchurch]] (R136S) allele.
+> Genetic ablation or pharmacological inhibition of cGAS (e.g., RU.521, TDI inhibitors) selectively suppresses the neurotoxic, [[IRF3]]/[[NF-κB|NF-κB]]-driven inflammatory program while **preserving—or augmenting—microglial phagocytosis** (increased [[Amyloid Beta|Aβ]] plaque clearance). In tauopathy, microglial cGAS deletion restores neuronal [[MEF2C]] cognitive-resilience programs, and cGAS inhibition phenocopies the protective [[APOE3 Christchurch]] (R136S) allele.
 
 ## Documents
 

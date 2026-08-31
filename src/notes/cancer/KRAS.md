@@ -23,7 +23,7 @@ KRAS is the most frequently mutated [[oncogene]] in human cancer. Common hotspot
 - **[[Pancreatic Cancer]]**: ~90% KRAS mutations (G12D most common)
 - **[[Colorectal Cancer]]**: ~40% (G12V, G12D, G13D)
 - **[[Lung Cancer]]** ([[non-small-cell lung cancer|NSCLC]]): ~30% (G12C most common in adenocarcinomas)
-- **Co-occurring mutations**: KRAS mutations often co-occur with [[LKB1]]/[[STK11]] loss, [[KEAP1]]/[[NRF2]] alterations, or [[TP53]] mutations.
+- **Co-occurring mutations**: KRAS mutations often co-occur with [[LKB1]]/[[STK11]] loss, [[KEAP1]]/[[NRF2]] alterations, or [[p53]] mutations.
 
 ## Role in Senescence & STING
 

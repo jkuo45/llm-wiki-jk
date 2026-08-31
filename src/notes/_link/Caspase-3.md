@@ -3,7 +3,7 @@ title: Caspase-3
 description: Primary executioner (effector) caspase of apoptosis; cleaves a wide array of cellular substrates to dismantle the cell and serves as the convergence point of intrinsic and extrinsic apoptotic pathways and the gold-standard apoptosis marker.
 protected: false
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-08-28
 tags:
   - enzyme
   - protein
@@ -72,6 +72,15 @@ Caspase-3 is essential for normal development, immune system homeostasis, and ti
 - **Therapeutic Induction**: Many chemotherapeutic agents (including [[Cisplatin]], [[Taxol]], [[Doxorubicin]]) ultimately kill cancer cells through Caspase-3-dependent apoptosis.
 - **Melittin Study**: [[melittin]] treatment has been shown to induce cleaved caspase-3 in [[triple-negative breast cancer]] cells.
 
+## Relationship to SIRT1 (caspase → sirtuin feedback)
+
+> [!info] Reciprocal to SIRT1's suppression of Caspase-3
+> Beyond SIRT1 suppressing Caspase-3 (via FOXO4 deacetylation), the axis runs backwards: **Caspase-3 and [[Caspase-9]] directly cleave SIRT1** during apoptosis. The cleavage site is the C-terminal **DEPDVP(704–709)** motif; cleaved SIRT1 relocalizes from nucleus to cytoplasm and is then poly-ubiquitinated by the E3 ligase TRIM28 (ATM-dependent) and degraded, reinforcing the death program (Ohsawa & Miura, FEBS Lett 2006; PMID 35541916, Int J Biol Sci 2022). Notably, cytoplasmic SIRT1 becomes *pro*-apoptotic — an effect that is caspase-dependent but deacetylase-independent — so caspase cleavage flips SIRT1 from survival factor to death promoter.
+
+- [[SIRT1]]: Cleaved by Caspase-3/-9 at DEPDVP(704-709); nuclear SIRT1 is anti-apoptotic, cytoplasmic cleaved SIRT1 is pro-apoptotic.
+- TRIM28: E3 ligase coupling SIRT1 caspase-cleavage to ubiquitination/degradation in the DNA-damage response.
+- [[Bcl-xL]]: Blocks caspase-9, preventing SIRT1 cleavage/relocalization.
+
 ## Documents
 
 - [[task_output_caspase_01_JUN_2026|Molecular Mechanisms of Caspase and Bcl-2 Family Regulation]]
@@ -95,6 +104,12 @@ Caspase-3 is essential for normal development, immune system homeostasis, and ti
 - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
   - SIRT1 acting via FOXO4 suppresses the proapoptotic proteases Caspase-3 and Caspase-7 in transformed, but not untransformed, epithelial cells.
 
+  - [[_document_ - Caspase-mediated changes in Sir2alpha during apoptosis|Caspase-mediated changes in Sir2α during apoptosis (Ohsawa & Miura, FEBS Lett 2006)]]
+    - Caspase-9 and Caspase-3 directly cleave SIRT1 (Sir2α) and relocalize it nucleus→cytoplasm during apoptosis; blocked by dominant-negative caspase-9 or Bcl-xL.
+
+  - [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response|SIRT1 stability in the DNA damage response (Ouyang et al., IJBS 2022)]]
+    - C-terminal cleavage at DEPDVP(704-709) plus [[KAP1|TRIM28]]-mediated polyubiquitination/degradation under severe DNA damage; reciprocal PTMs that enhance DNA-damage-induced cell death.
+
 - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
   - An extract of Anoectochilus roxburghii flavonoids reduced neuron apoptosis by positively regulating SIRT1 expression, reducing expression of apoptosis-related molecules including Caspase-3.
 
@@ -112,13 +127,17 @@ Caspase-3 is essential for normal development, immune system homeostasis, and ti
 - [[PKCδ]] / [[p38 MAPK]]: Regulatory kinases for Caspase-3.
 - [[PP2A]]: Phosphatase that reverses p38 MAPK-mediated inhibition.
 - [[melittin]]: Induces cleaved Caspase-3 in breast cancer cells.
+- [[SIRT1]]: Cleaved by Caspase-3/-9 at DEPDVP(704-709) during apoptosis; reciprocal arm of the SIRT1→Caspase-3 suppression axis
+- [[Bcl-xL]]: Inhibits caspase-9, preventing SIRT1 cleavage/relocalization
+- TRIM28: E3 ligase coupling SIRT1 caspase-cleavage to degradation (DNA-damage response)
 
 ## Linking Summary
 
-- New links added: [[Caspase-9]], [[Caspase-8]], [[Caspase-7]], [[XIAP]], [[TBK1]], [[Akt]], [[Apoptosis]], [[p38 MAPK]], [[PP2A]], [[Phosphorylation]], [[PARP1]], [[melittin]]
+- New links added: [[Caspase-9]], [[Caspase-8]], [[Caspase-7]], [[XIAP]], [[TBK1]], [[Akt]], [[Apoptosis]], [[p38 MAPK]], [[PP2A]], [[Phosphorylation]], [[PARP1]], [[melittin]], [[SIRT1]], [[Bcl-xL]]
 - Suggested new entity notes to create: [[PARP]], [[ICAD]], [[Apaf-1]], [[DFF45]], [[DISC (Death-Inducing Signalling Complex)]], [[CAD]]
 - Strong connections to strengthen:
     - [[Caspase-3]] ↔ [[XIAP]]
     - [[Caspase-3]] ↔ [[Caspase-9]]
     - [[Caspase-3]] ↔ [[PKCδ]]
     - [[Caspase-3]] ↔ [[p38 MAPK]]
+    - [[Caspase-3]] ↔ [[SIRT1]]

@@ -24,7 +24,7 @@ Biologically significant catechols include:
 
 ## Metabolism by COMT
 
-The [[COMT]] enzyme transfers a [[Methyl groups|methyl group]] from [[S-Adenosylmethionine]] to one hydroxyl of the catechol, yielding an *O*-methylated, usually less active and more excretable metabolite. This is a major inactivation and detoxification route in liver and brain. Because COMT activity is genetically variable ([[Val158Met]]), the rate of catechol clearance differs across individuals, influencing neurotransmitter tone, flavonoid half-life, and sensitivity to catechol-containing supplements.
+The [[COMT]] enzyme transfers a [[Methyl groups|methyl group]] from [[SAM|S-Adenosylmethionine]] to one hydroxyl of the catechol, yielding an *O*-methylated, usually less active and more excretable metabolite. This is a major inactivation and detoxification route in liver and brain. Because COMT activity is genetically variable ([[Val158Met]]), the rate of catechol clearance differs across individuals, influencing neurotransmitter tone, flavonoid half-life, and sensitivity to catechol-containing supplements.
 
 ## Implications for Slow COMT
 
@@ -43,13 +43,13 @@ List of documents that mention this entity
 - [[COMT]]: The primary enzyme that *O*-methylates catechol structures.
 - [[Catecholamines]]: The major endogenous catechol neurotransmitter family.
 - [[Dopamine]]: A key catechol terminated by COMT methylation.
-- [[S-Adenosylmethionine]]: The methyl donor for COMT reactions.
+- [[SAM|S-Adenosylmethionine]]: The methyl donor for COMT reactions.
 - [[Quercetin]]: A dietary catechol that can inhibit COMT.
 - [[Val158Met]]: The polymorphism determining catechol clearance rate.
 - [[Methylation Cycle]]: Consumes methyl groups during catechol inactivation.
 
 ## Linking Summary
 
-- New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Flavonoids]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[S-Adenosylmethionine]], [[Val158Met]], [[Methylation Cycle]].
+- New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Flavonoids]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[SAM|S-Adenosylmethionine]], [[Val158Met]], [[Methylation Cycle]].
 - Suggested new entity notes to create: [[Metanephrine]], [[Catechol estrogen]], [[Normetanephrine]].
 - Strong connections to strengthen: [[Catechols]] ↔ [[COMT]]; [[Catechols]] ↔ [[Methylation Cycle]].

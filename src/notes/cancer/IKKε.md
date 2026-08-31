@@ -10,7 +10,7 @@ aliases: []
 
 # IKKε
 
-**IKKε** (IκB kinase epsilon, also termed IKK-i) is an inducible member of the IκB kinase family distantly related to [[IKKα]] and [[IKKβ]]. Unlike the classical IKK complex, IKKε is not a stable component of the NEMO-associated signalosome but is transcriptionally induced by type I interferons and viral infection. It functions in both innate antiviral immunity and oncogenic signaling, and it can phosphorylate the key inhibitor of apoptosis [[XIAP]], driving its degradation and thereby lowering the threshold for [[Apoptosis]].
+**IKKε** (IκB kinase epsilon, also termed IKK-i) is an inducible member of the IκB kinase family distantly related to [[IKKalpha|IKKα]] and [[IKKβ]]. Unlike the classical IKK complex, IKKε is not a stable component of the NEMO-associated signalosome but is transcriptionally induced by type I interferons and viral infection. It functions in both innate antiviral immunity and oncogenic signaling, and it can phosphorylate the key inhibitor of apoptosis [[XIAP]], driving its degradation and thereby lowering the threshold for [[Apoptosis]].
 
 ## Structure & Regulation
 
@@ -40,7 +40,7 @@ List of documents that mention this entity
 
 - [[XIAP]] - Anti-apoptotic protein phosphorylated and degraded by IKKε.
 - [[Apoptosis]] - Cell-death program potentiated by IKKε-mediated XIAP loss.
-- [[IKKα]] - Closely related IKK family kinase.
+- [[IKKalpha|IKKα]] - Closely related IKK family kinase.
 - [[IKKβ]] - Classical IKK catalytic subunit.
 - [[TBK1]] - Paralog sharing antiviral and oncogenic functions with IKKε.
 - [[EMT]] - Metastatic program promoted by IKKε in cancer.
@@ -49,6 +49,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[IKKε]], [[XIAP]], [[Apoptosis]], [[IKKα]], [[IKKβ]], [[TBK1]], [[EMT]], [[Metastasis]], [[Chemotherapy]]
+- New links added: [[IKKε]], [[XIAP]], [[Apoptosis]], [[IKKalpha|IKKα]], [[IKKβ]], [[TBK1]], [[EMT]], [[Metastasis]], [[Chemotherapy]]
 - Suggested new entity notes to create: [[IRF3]], [[IRF7]], [[amlexanox]]
 - Strong connections to strengthen: [[IKKε]] ↔ [[XIAP]], [[IKKε]] ↔ [[TBK1]]

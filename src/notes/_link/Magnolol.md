@@ -17,7 +17,7 @@ aliases: []
 
 ## Overview
 
-[[Magnolol]] is a naturally occurring **biphenyl-type neolignan** found in the bark of *Magnolia* species (*Magnolia officinalis*, *Magnolia grandiflora*). It is the structural analog and regio-isomer of [[Honokiol]] (the two differ only in the position of one phenolic hydroxyl group) and shares honokiol's lipid solubility and poly-phenolic, aromatic scaffold. Like honokiol, magnolol acts as a positive allosteric modulator of the [[GABA_A receptor]], an [[NMDA receptor]] inhibitor, and an [[NF-kappaB|NF-κB]] suppressor, though it is generally slightly less potent than honokiol in several neuro-modulating assays.
+[[Magnolol]] is a naturally occurring **biphenyl-type neolignan** found in the bark of *Magnolia* species (*Magnolia officinalis*, *Magnolia grandiflora*). It is the structural analog and regio-isomer of [[Honokiol]] (the two differ only in the position of one phenolic hydroxyl group) and shares honokiol's lipid solubility and poly-phenolic, aromatic scaffold. Like honokiol, magnolol acts as a positive allosteric modulator of the [[GABA_A receptor]], an [[NMDA receptor]] inhibitor, and an [[NF-κB|NF-κB]] suppressor, though it is generally slightly less potent than honokiol in several neuro-modulating assays.
 
 ## Chemical Properties and Classification
 
@@ -33,7 +33,7 @@ Magnolol, together with [[Honokiol]], increases [[Muscimol|[<sup>3</sup>H]muscim
 
 ### Anti-inflammatory signaling
 
-Magnolol inhibits [[NF-kappaB|NF-κB]] activation and [[COX-2]] expression in macrophage-like cells, paralleling honokiol's suppression of [[TNF-alpha|TNFα]] and [[Nitric Oxide|NO]].
+Magnolol inhibits [[NF-κB|NF-κB]] activation and [[COX-2]] expression in macrophage-like cells, paralleling honokiol's suppression of [[TNF-alpha|TNFα]] and [[Nitric Oxide|NO]].
 
 ### Analgesia
 
@@ -51,7 +51,7 @@ In inflammatory and glutamatergic pain models, magnolol reduces formalin-induced
 - [[Honokiol]] — Regio-isomeric analog with overlapping but generally more potent neuro-modulating activities.
 - [[GABA_A receptor]] — Shared positive allosteric modulation, strongest at δ-subunit receptors.
 - [[NMDA receptor]] — Shared inhibition; contributes to antiseizure and analgesic effects.
-- [[NF-kappaB]] — Shared suppression, reducing inflammatory mediators.
+- [[NF-κB]] — Shared suppression, reducing inflammatory mediators.
 - [[Alzheimer's Disease]] — Reduces Aβ-induced neuronal death alongside honokiol.
 
 ## Linking Summary

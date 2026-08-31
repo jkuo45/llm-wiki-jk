@@ -9,9 +9,9 @@
       "zh-TW": "酸性神經醯胺酶（ACase、aCDase）由 ASAH1 編碼。它是一種溶酶體水解酶，可將神經醯胺裂解為鞘氨醇與游離脂肪酸。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f81e7134ce4c",
@@ -23,9 +23,9 @@
       "zh-TW": "ACase 催化主要反應：Ceramide + H2O → Sphingosine + Free fatty acid。它是一種半胱氨酸醯胺酶，其活性可被針對 Cys143 的硫醇反應性試劑阻斷。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0fdd3023e32f",
@@ -37,9 +37,9 @@
       "zh-TW": "酸甘油酯酶 (ACase/ASAH1) 在複製衰老的人類 WI-38  fibroblasts 中，與增生細胞相比，表達量明顯上調，Western blot 驗證表達量高出 5-20 倍。與鐵蛋白死亡 (ferroptosis) 調節因子 ACSL4 一起，ACase 在衰老中被上調表達的脂質代謝酶之一。ACase 下調顯著降低了衰老細胞中的其水平（儘管未完全，與衰老中 ACase 的增加穩定性一致），並且衰老表型本身——p21 表現、SA-β-gal 活性和 IL-6/IL-8 的分泌——在下調後仍然保持完整。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T04:58:59Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T04:58:59Z"
   },
   {
     "id": "dad7f52d6f5a",
@@ -51,9 +51,9 @@
       "zh-TW": "ACase 過度表現產生一種不依賴 GPX4/GSH 與鐵軸的促鐵蛋白死亡（ferroptotic）膜脂質輪廓，使衰老細胞對鐵蛋白死亡敏感。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f8afeeec0fde",
@@ -65,9 +65,9 @@
       "zh-TW": "SASP 細胞激素 IL-6 與 IL-8 透過旁分泌訊號，誘導鄰近增生細胞中 ACase 的上調與鐵蛋白死亡（ferroptosis）敏感化。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "660ac05299e8",
@@ -79,9 +79,9 @@
       "zh-TW": "ARN14794 對酸性神經醯胺酶的 IC50 約為 100 nM，並在 Soriano-Castell 2026 年的鐵蛋白死亡研究中被專門用於降低膜磷脂中 PL-PUFA 的含量。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "019b47f415f8",
@@ -93,9 +93,9 @@
       "zh-TW": "Carmofur 對酸性神經醯胺酶的 IC50 為 29 nM，已在日本獲臨床核准，可穿過血腦屏障（BBB），是去衰老（senolytic）治療的再利用候選藥物。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cab9f6ae5e5a",
@@ -107,9 +107,9 @@
       "zh-TW": "Adrenochrome 的氧化還原循環在生理條件下產生活性氧物種並耗竭麩胱甘肽等細胞抗氧化劑，這是其心臟毒性的基礎。其 indoline-dione（o-quinone）核心的反覆還原與再氧化會產生超氧陰離子與下游氧化劑，損害細胞組分。由於游離、未共軛的 adrenochrome 極不穩定，此促氧化活性通常透過共軛（如 adrenochrome monoaminoguanidine）而減緩。若該共軛物發生顯著的全身性水解，局部釋出的游離 adrenochrome 可能無意間促進而非緩解氧化壓力。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T06:56:15Z",
-    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+    "updated": "2026-08-20T06:56:15Z"
   },
   {
     "id": "321a4ab2b427",
@@ -121,9 +121,9 @@
       "zh-TW": "NR（nicotinamide riboside）是一種 NAD+ 前驅物，可恢復 SIRT 活性。透過 NR 補充 NAD+ 能恢復被 adrenochrome 氧化還原循環耗竭的 sirtuin 功能。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5a9052addc1f",
@@ -135,9 +135,9 @@
       "zh-TW": "SIRT3 去乙醯化並活化 MnSOD（manganese superoxide dismutase，錳超氧化物歧化酶），即粒線體超氧化物清除劑，作用位點為 K68 與 K122 殘基。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "56093cf33822",
@@ -149,9 +149,9 @@
       "zh-TW": "PGC-1α 驅動 MnSOD 的表現，進而供養 sirtuin。這是 SIRT3 介導的活化軸，構成對抗 adrenochrome 所產生活性氧物種的酵素防禦。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "af2b0e636f71",
@@ -163,9 +163,9 @@
       "zh-TW": "AP-1 作為先鋒因子，在 SASP 超級增強子處打開緻密染色質，並與 BRD4 和 C/EBPα 共同結合。它驅動衰老細胞中的 SASP 增強子活性。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ap1_trace_21_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "02638031e61c",
@@ -177,9 +177,9 @@
       "zh-TW": "AP-1 與 NF-κB 是發炎型 SASP 基因的共調節因子。它們共享包括 IL-6、IL-8 與 TNFα 在內的轉錄標的。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ap1_trace_21_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8a5ea7b9accb",
@@ -191,9 +191,9 @@
       "zh-TW": "AP-1 轉活化 CXCL5（一種 SASP 趨化因子），促成發炎性老化（inflammaging）。熱量限制可抑制發炎性老化，並透過 mTOR/AMPK 活化自噬。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ap1_trace_21_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ff49386371e6",
@@ -205,9 +205,9 @@
       "zh-TW": "BRD4 與 AP-1 一起，在 SASP 超級增強子處共結合 H3K27ac，促進衰老相關分泌表型（SASP）程序。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ap1_trace_21_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "70b706f6ae82",
@@ -219,9 +219,9 @@
       "zh-TW": "在既成的腫瘤中，自噬作為一種存活機制，使癌細胞能在營養貧乏與缺氧條件下存活。這是以多項使用 HCQ 的臨床試驗為支持的普遍觀點。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_autophagy_and_cancer_13_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_and_cancer_13_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c5f0f637c13a",
@@ -233,9 +233,9 @@
       "zh-TW": "HCQ 阻斷癌細胞中的細胞保護性自噬，並在臨床試驗中與化療合併使用。其結果在不同癌種間溫和且不一致。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_autophagy_and_cancer_13_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_and_cancer_13_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "aa69a2403ce0",
@@ -247,9 +247,9 @@
       "zh-TW": "包括熱量限制在內的長壽介入需要自噬——在模式生物中，若自噬被阻斷，則 CR 所帶來的壽命延長即被取消。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cea4b04f013b",
@@ -261,9 +261,9 @@
       "zh-TW": "SQSTM1/p62 介導的選擇性自噬直接降解 p16 與 p21（不依賴 UPS），逆轉犬隻 MMVD 瓣膜細胞中的衰老表型。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9064a2b8af00",
@@ -275,9 +275,9 @@
       "zh-TW": "TRIAD（Test of Rapamycin In Aging Dogs）是一項平行分組、雙盲、隨機、安慰劑對照的試驗，測試 rapamycin 對伴侶犬壽命與健康壽命的影響。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "865492a9cf54",
@@ -289,9 +289,9 @@
       "zh-TW": "Mitophagy 是選擇性自噬的一個亞型，僅靶向受損／功能異常的粒線體。它匯聚於相同的終端步驟（自噬體 → 溶酶體），但在選擇性與起始機制上有所不同。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6e3d9a54570e",
@@ -303,9 +303,9 @@
       "zh-TW": "PINK1 在去極化粒線體上的穩定化，觸發 Parkin 招募的正回饋閾值，起始 mitophagy。未達閾值的壓力則不會啟動該途徑。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3286e95ce8dc",
@@ -317,9 +317,9 @@
       "zh-TW": "DRP1 介導的粒線體分裂是 mitophagy 的先決步驟——它將受損片段切斷以供自噬體包吞。然而，心臟專一性 DRP1-KO 顯示 mitophagy 可在缺乏它時仍發生。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e1f682bc58ee",
@@ -331,9 +331,9 @@
       "zh-TW": "SHP1（PTPN6）移除 Caspase-8 在 Tyr380/397/465 的抑制性磷酸基團，恢復細胞對死亡配體 TRAIL 與 FasL 的敏感性。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_caspase_01_JUN_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "adf7251ff229",
@@ -345,9 +345,9 @@
       "zh-TW": "PAK2 直接結合並在 Ser30、Thr173 與 Ser239 磷酸化 Caspase-7，中和其效應器功能並在乳癌中促進存活。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_caspase_01_JUN_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5e355e8d9cd3",
@@ -359,9 +359,9 @@
       "zh-TW": "Pin1 與磷酸化的 BAX（Thr167）結合，催化構形變化，將 Bax 鎖定於不活化狀態，阻止粒線體轉位與 MOMP。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_caspase_01_JUN_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a04c01d47f96",
@@ -373,9 +373,9 @@
       "zh-TW": "PTPN5（STEP）與 PTPN2、PTPN23 一起，在 Tyr108 去磷酸化 BAK，使其獲得粒線體外膜通透化與凋亡的許可。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_caspase_01_JUN_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "08d2f1989b24",
@@ -387,9 +387,9 @@
       "zh-TW": "TBK1 與 IKKε 在 XIAP 的 RING 指狀結構域內的 Ser430 磷酸化，觸發 Lys48 連結的自身泛素化與蛋白酶體降解，使細胞對凋亡敏感。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_caspase_01_JUN_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d447b7968dc8",
@@ -401,9 +401,9 @@
       "zh-TW": "在 K-RAS 突變的癌症中，過度活化的 ERK1/2 磷酸化並使 PTPN5 失活，將 BAK 鎖定於其不活化的磷酸化狀態，從而產生對凋亡的抗性。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_caspase_01_JUN_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "acebdf6045e2",
@@ -415,9 +415,9 @@
       "zh-TW": "Fisetin 是一種混合型 COMT 抑制劑，IC50 為 2.6–5.8 µM。它也是 COMT 受質——本身被 O-甲基化為 geraldol——使得抑制呈濃度依賴且對基因型敏感。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fdeb50e5eff9",
@@ -429,9 +429,9 @@
       "zh-TW": "Fisetin 被 COMT 代謝為 geraldol（3'-O-methylfisetin）。此代謝活化呈濃度依賴，並消耗 SAMe，生成 SAH。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "51852e76042c",
@@ -443,9 +443,9 @@
       "zh-TW": "Fisetin 結合抗凋亡 Bcl-2 家族蛋白的疏水溝，使衰老細胞對凋亡敏感。Bcl-2:fisetin 結合能為 -22.2 至 -35.1 kcal/mol。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0d08f51778f0",
@@ -457,9 +457,9 @@
       "zh-TW": "CR 透過能量虧損誘導自噬——AMP/ATP 比值上升活化 AMPK，後者磷酸化並活化 ULK1，同時抑制 mTORC1。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a44bc64a41d0",
@@ -471,9 +471,9 @@
       "zh-TW": "Spermidine 在無熱量虧損下，透過直接抑制組蛋白乙醯轉移酶 p300 誘導自噬，造成全域去乙醯化並上調 Atg 基因的轉錄。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "58ded96148b4",
@@ -485,9 +485,9 @@
       "zh-TW": "Spermidine 驅動 eIF5A 的 hypusination，促進 TFEB 轉譯，進而引發自噬與溶酶體生成。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4ac121b7ca82",
@@ -499,9 +499,9 @@
       "zh-TW": "DJ-1 是一種不依賴麩胱甘肽的乙二醛酶，立體專一性地將甲基乙二醛解毒為 L-lactate，繞過典型乙二醛酶系統對麩胱甘肽的需求。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a5c10465f8b0",
@@ -513,9 +513,9 @@
       "zh-TW": "DJ-1 透過阻斷 KEAP1 穩定 Nrf2，驅動 GLO1/GLO2 轉錄以增強二羰基清除，以及 HO-1/NQO1 以進行抗氧化防禦。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6cdf47ceac51",
@@ -527,9 +527,9 @@
       "zh-TW": "PARK7 突變（L166P、M26I）造成早發性體染色體隱性遺傳帕金森氏症。DJ-1 缺失的神經元呈現粒線體碎片化、Complex I 功能受損與 α-synuclein 聚集加速。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "35184ca2b8a9",
@@ -541,9 +541,9 @@
       "zh-TW": "Nrf2 透過其啟動子中的 ARE 驅動 SIRT6 轉錄。SIRT6 共活化 Nrf2，形成抗氧化防禦的前饋放大迴路。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e4646cbfa826",
@@ -555,9 +555,9 @@
       "zh-TW": "Ivermectin 透過泛素—蛋白酶體途徑促進 PAK1 的蛋白酶體降解，且不影響 PAK1 mRNA 水平。這是其抗癌作用的主要宿主激酶標的。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_cancer_14_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5aa049f4eb40",
@@ -569,9 +569,9 @@
       "zh-TW": "Ivermectin 是一種強效的 P-glycoprotein 抑制劑，透過阻斷藥物外排逆轉多重抗藥性。亦抑制 MRP1/2/3。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_cancer_14_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d896dc0244c8",
@@ -583,9 +583,9 @@
       "zh-TW": "Fenbendazole 結合 β-tubulin 的 colchicine 位點，阻止聚合為微管。這造成有絲分裂紡錘體破壞、G2/M 停滯與有絲分裂災難。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1f0ecacd235a",
@@ -597,9 +597,9 @@
       "zh-TW": "Fenbendazole 降低 GLUT1 的表面表現——GLUT1 是在癌細胞中過度表現的主要葡萄糖轉運蛋白——直接損害葡萄糖攝取並使腫瘤挨餓。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4a70e785c766",
@@ -611,9 +611,9 @@
       "zh-TW": "Fenbendazole 下調／抑制 HK2，瓦解糖解通量，並經由將 HK2 從 VDAC 脫離，在粒線體層級去抑制凋亡。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "34f72a06a8fe",
@@ -625,9 +625,9 @@
       "zh-TW": "Fenbendazole 下調 MDM2 與 MdmX，防止 p53 降解，使穩定的 p53 能轉活化促凋亡標的（Bax、PUMA、Noxa）。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a54dcd3f97dc",
@@ -639,9 +639,9 @@
       "zh-TW": "OPA1 是內粒線體膜融合 GTPase，具有 8 個剪接變異體，由 OMA1（壓力下）與 YME1L（組成性）加工。Cardiolipin 是 OPA1 介導融合所必需的。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d026ccf0255d",
@@ -653,9 +653,9 @@
       "zh-TW": "Cardiolipin 刺激 DRP1 的 GTPase 活性以進行使分裂，同時也是 OPA1 介導融合所必需的——依情境不同，它具有促融合與促分裂的雙重角色。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1ce90f57d727",
@@ -667,9 +667,9 @@
       "zh-TW": "SIRT3 在 Lys926/Lys931 去乙醯化 OPA1 以活化粒線體融合。mtSIRT 對自噬的作用機制仍不明確。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5e4f08f7e1b5",
@@ -681,9 +681,9 @@
       "zh-TW": "CD38 是哺乳動物組織在老化過程中主要的 NAD+ 酵素消耗者。慢性發炎性老化造成嗜中性球與巨噬細胞上 CD38 上調，使 sirtuin 飢餓。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2efdb9ac65b5",
@@ -695,9 +695,9 @@
       "zh-TW": "Neutrophils are polymorphonuclear leukocytes whose respiratory burst generates large amounts of reactive oxygen species, including superoxide and hydroxyl radicals。Both stimulated neutrophils and cell-free granulocyte homogenates oxidize epinephrine to adrenochrome through a radical chain process, and medium released from activated cells can oxidize adrenaline extracellularly。This oxidation can account for more than 80% of adrenaline breakdown in certain inflammatory conditions, far outpacing the normal enzymatic routes such as catechol-O-methyltransferase and monoamine oxidase。Superoxide dismutase and catalase inhibit the reaction, confirming its dependence on reactive oxygen species。This mechanism provides a cellular basis for adrenochrome formation wherever neutrophils accumulate。"
     },
     "confidence": 0.5,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T06:43:53Z",
-    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+    "updated": "2026-08-20T06:43:53Z"
   },
   {
     "id": "72439b51311c",
@@ -709,9 +709,9 @@
       "zh-TW": "SIRT1 在 Lys310 去乙醯化 RelA/p65，抑制 NF-κB 依賴的促發炎基因表現（TNF-α、IL-6、IL-1β）。這是一個已確立的抗炎機制。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "825d7e88d152",
@@ -723,9 +723,9 @@
       "zh-TW": "雄性轉基因小鼠過度表現 SIRT6 顯示約 30% 的壽命延長。SIRT6 KO 小鼠在約 4 週內死亡，呈現顯著的早老表型。[ESTABLISHED: 動物數據]"
     },
     "confidence": 0.9,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cff2dc3bac8d",
@@ -737,9 +737,9 @@
       "zh-TW": "SIRT3 在 K68 與 K122 去乙醯化 MnSOD，大幅提升其清除 ROS 的活性。Honokiol 可增強此去乙醯化作用。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_sirtuins_recommendations_03_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "aadfa53316b4",
@@ -751,9 +751,9 @@
       "zh-TW": "胞質 SIRT2 直接結合 TFEB mRNA 的 3'-UTR 並促進其穩定性，推動溶酶體生成與自噬體—溶酶體融合。[HYPOTHESIS: 來自三元資料庫的新發現]"
     },
     "confidence": 0.5,
+    "source_document": "task_output_sirtuins_recommendations_03_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8a3b1c01fc91",
@@ -765,9 +765,9 @@
       "zh-TW": "Daratumumab 是一種臨床核准的 IgG1 抗體，用於多發性骨髓瘤，可結合並中和 CD38。在低劑量下具有用於 NAD+ 保存的再利用潛力。[HYPOTHESIS: 再利用提案]"
     },
     "confidence": 0.4,
+    "source_document": "task_output_sirtuins_recommendations_03_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_recommendations_03_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cb0b6b98ec10",
@@ -779,9 +779,9 @@
       "zh-TW": "Resveratrol 作為 cAMP 磷酸二酯酶（PDE4）的競爭性抑制劑，導致 cAMP 累積、Epac1 活化、Ca2+ 釋放與 AMPK 活化。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_resveratrol_en-US.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_resveratrol_en-US.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "86ce1113b929",
@@ -793,9 +793,9 @@
       "zh-TW": "CDK1/CYCLIN B1 在 Ser308 磷酸化 Caspase-2，抑制 caspase 活性並抑制有絲分裂細胞死亡。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9ebf15aea4a7",
@@ -807,9 +807,9 @@
       "zh-TW": "AKT 在 Ser196（人類專一）磷酸化 Caspase-9，在攝護腺與大腸癌細胞中抑制 caspase 活性。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1e6755692bfd",
@@ -821,9 +821,9 @@
       "zh-TW": "ERK 在 Ser55/Ser65/Ser100 磷酸化 BIM，在細胞激素 IL3 的控制下造成不活化。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6c91e08f6c89",
@@ -835,9 +835,9 @@
       "zh-TW": "JNK 與 p38 MAPK 在 Ser65 磷酸化 BIM，活化其促凋亡功能。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c20feaa190f9",
@@ -849,9 +849,9 @@
       "zh-TW": "ERK1/2 在 Thr167 磷酸化 BAX，經由與 Pin1 的交互作用造成不活化。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7eeabd0a5187",
@@ -863,9 +863,9 @@
       "zh-TW": "CDK5 在 Ser13 磷酸化 NOXA，在代謝調節的 T 細胞白血病細胞中造成不活化。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5f833c3046fd",
@@ -877,9 +877,9 @@
       "zh-TW": "Trehalose 透過抑制 Akt 活化 TFEB，增加 Batten 疾病中蛋白脂質聚集體的清除，並降低慢性 MI 模型中的心臟肥大／纖維化。"
     },
     "confidence": 0.9,
+    "source_document": "tbl_tfeb_target_mechanisms.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_tfeb_target_mechanisms.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e08200fdd6a0",
@@ -891,9 +891,9 @@
       "zh-TW": "Celastrol 透過抑制 mTORC1 活化 TFEB，減少不溶性磷酸化 Tau 聚集體，並改善阿茲海默症模型中的記憶缺陷。"
     },
     "confidence": 0.9,
+    "source_document": "tbl_tfeb_target_mechanisms.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_tfeb_target_mechanisms.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3308aaaff9b3",
@@ -905,9 +905,9 @@
       "zh-TW": "Doxorubicin 透過 DNA 嵌入與 topoisomerase II 毒化，在多種細胞株中誘發早衰。其效應可為 p53 依賴或非依賴。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_senescent_compounds_normalized.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_senescent_compounds_normalized.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4704fc4df763",
@@ -919,9 +919,9 @@
       "zh-TW": "Cisplatin 透過 DNA 鏈內交聯誘發早衰。其機制涉及 p53-p21 路徑活化與 ROS 依賴的訊號傳遞。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_senescent_compounds_normalized.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_senescent_compounds_normalized.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3ab7e1b7f039",
@@ -933,9 +933,9 @@
       "zh-TW": "Bleomycin 透過 DNA 斷裂誘發早衰，活化 p53-p21 與 p16 路徑並伴隨 SASP 分泌。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_senescent_compounds_normalized.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_senescent_compounds_normalized.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3d8ea6d0ac7f",
@@ -947,9 +947,9 @@
       "zh-TW": "Sodium butyrate（HDAC 抑制劑）透過 p21 上調誘發類衰老狀態，可為 p53 依賴或非依賴。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_senescent_compounds_normalized.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_senescent_compounds_normalized.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "24f5fa8aad54",
@@ -961,9 +961,9 @@
       "zh-TW": "AMPK 直接交互作用並活化 sirtuin（SIRT1/SIRT3）。兩者皆為營養感測的長壽路徑，匯聚於自噬與粒線體生成。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_dj1_glycation_trace_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "efb8bfab9b72",
@@ -975,9 +975,9 @@
       "zh-TW": "Fisetin 降低循環中的 SASP 因子，包括 CXCL12，部分挽救年齡相關的內皮功能障礙。[HYPOTHESIS: 有限的體內數據]"
     },
     "confidence": 0.5,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_comt_fisetin_senolytic_09_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1333bd33247a",
@@ -989,9 +989,9 @@
       "zh-TW": "Catechol-O-methyltransferase（COMT）是兒茶酚胺代謝中的主要酶，它甲基化 epinephrine 的其中一個兒茶酚羥基，使用 S-adenosylmethionine 作為甲基供體將其轉化為 metanephrine。COMT 介導的甲基化是終止 adrenaline 訊號並為其排泄做準備的兩大主要途徑之一，與 MAO 介導的氧化脫胺並行。由於 COMT 迅速清除 adrenaline，epinephrine 氧化為 adrenochrome 在正常條件下仍是次要的旁路。抑制 COMT 會升高兒茶酚胺濃度，並可使更大比例的 epinephrine 轉向氧化轉化為 adrenochrome。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T06:56:15Z",
-    "source": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+    "updated": "2026-08-20T06:56:15Z"
   },
   {
     "id": "da4f4321f563",
@@ -1003,9 +1003,9 @@
       "zh-TW": "Rapamycin 透過 mTOR 依賴的自噬誘導減緩衰老，降低 CDKN2A/p16 與 CDKN1A/p21，並在犬隻 MMVD 瓣膜間質細胞中減少 SASP。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3081674f958b",
@@ -1017,9 +1017,9 @@
       "zh-TW": "Lands cycle 將脂肪酸交換至膜磷脂的 sn-2 位置。ACase 釋放的脂肪酸進入此循環，富集含 PUFA 的種類。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b2b087dbe588",
@@ -1031,9 +1031,9 @@
       "zh-TW": "ACase 過度表現提高 sphingosine/S1P 水平，此在經典上為抗凋亡，並透過 SCAP 路徑幫助衰老細胞抵抗凋亡。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_acid_ceramidase_27_July_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2c3cf3e05722",
@@ -1045,9 +1045,9 @@
       "zh-TW": "PINK1 透過 DRP1 S616 磷酸化促進分裂，但也支持融合（穩定 OPA1、調節 MFN2）。其效應依物種／細胞類型而異。[HYPOTHESIS: 情境依賴的矛盾]"
     },
     "confidence": 0.5,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fa2e10abbf0c",
@@ -1059,9 +1059,9 @@
       "zh-TW": "突變 huntingtin（mHTT）使分裂與降解脫鉤，同時破壞自噬流。若下游運輸仍受阻，則 rapamycin 等廣譜自噬活化劑可能不足。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7298710e3935",
@@ -1073,9 +1073,9 @@
       "zh-TW": "GSK3、JNK 與 p38 MAPK 在 Thr167 磷酸化 BAX，在肝細胞癌細胞中造成活化。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "845593f7bf65",
@@ -1087,9 +1087,9 @@
       "zh-TW": "PLK3 在 Ser49 磷酸化 BCL-XL，在淋巴瘤細胞中造成細胞週期 G2 停滯。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1742a4e9f8a8",
@@ -1101,9 +1101,9 @@
       "zh-TW": "c-ABL 在 Tyr153 磷酸化 Caspase-9，促進 caspase 活化與 DNA 損傷誘發的凋亡。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e0b84cd387ed",
@@ -1115,9 +1115,9 @@
       "zh-TW": "AKT 在 Ser87 磷酸化 XIAP，防止泛素化與降解，在卵巢癌細胞中促進腫瘤存活。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "50bcf20346dc",
@@ -1129,9 +1129,9 @@
       "zh-TW": "RSK 在 Ser268 磷酸化 APAF-1，在攝護腺癌細胞中造成抑制。"
     },
     "confidence": 0.95,
+    "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a263865c93f1",
@@ -1143,9 +1143,9 @@
       "zh-TW": "SIRT1 在乳癌組織中相較於鄰近正常組織升高，並預測不良預後。在三陰性乳癌中，它調節驅動侵犯與轉移的 EMT 相關編程，同時也抑制 ER-alpha 介導的雌激素增生反應。它促進 metadherin 驅動的化療抗性，並透過 FoxO1 去乙醯化上調 MRP2 造成 tamoxifen 抗性，因此抑制 SIRT1 可增強 paclitaxel 與 doxorubicin 的細胞毒性。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8a6a56facbe8",
@@ -1157,9 +1157,9 @@
       "zh-TW": "SIRT2 在乳癌組織中下調，且表現增加與較長存活相關，顯示主要為腫瘤抑制角色。它透過促進 BRCA1-BARD1 異二聚體化與同源重組 DNA 修復，作為腫瘤抑制因子。然而，SIRT2 在基底樣乳癌中亦有促進角色，去乙醯化並穩定 Slug 以驅動腫瘤發生與侵犯，呈現二元角色。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "13cbe316cb5a",
@@ -1171,9 +1171,9 @@
       "zh-TW": "血清 SIRT3 區分肺癌患者與健康對照，AUC 為 0.918，敏感度 86.4%，特異度 94%。SIRT1-3 高度表現與 NSCLC 不良存活相關。在腫瘤中 SIRT3 透過 FoxO3/CDT1 軸降低 cisplatin 抗性，並經由 ATM-Chk2 促進 DNA 修復與放射抗性，說明單一 sirtuin 如何同時影響診斷與治療反應。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8ec09701712a",
@@ -1185,9 +1185,9 @@
       "zh-TW": "SIRT3 在 HCC 組織中的表現低於鄰近組織。調節 SIRT3 可增強 sorafenib 治療，且 SIRT3 下調 GST-pi1 以增強化療與 sorafenib 誘發的凋亡。因此，其缺失與肝細胞癌中的腫瘤侵襲性與治療效能降低相關。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8672ef124906",
@@ -1199,9 +1199,9 @@
       "zh-TW": "SIRT4 是一種粒線體 ADP-ribosyl 轉移酶，在乳癌、HCC、大腸癌與胃癌中，透過抑制麩醯胺代謝作為其中心的腫瘤抑制機制。在乳癌中，這透過粒線體—核交互作用抑制 SIRT1 活性；在大腸癌中，它上調 E-cadherin 同時抑制增生、遷移與侵犯。SIRT4 亦透過抑制細胞週期增加對 5-fluorouracil 的敏感性。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1bccb227dc97",
@@ -1213,9 +1213,9 @@
       "zh-TW": "SIRT4 在 HCC 組織中表現較低，且腫瘤低水平預測存活下降。它透過抑制麩醯胺代謝作為腫瘤抑制因子，並上調 p16 與 p21，同時抑制 CyclinB1、Cdc2 與 Cdc25c 以誘發凋亡。因此低 SIRT4 標記出侵襲性、治療抗性的 HCC 表型。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "45455e1196de",
@@ -1227,9 +1227,9 @@
       "zh-TW": "SIRT6 透過去乙醯化 hnRNP A1 抑制肝細胞癌中的糖解與代謝重編程，且 USP48 穩定的 SIRT6 進一步減弱糖解。在肺癌中，相同的代謝抑制增強放射敏感性，儘管 SIRT6 在該處透過 snail 依賴的 KLF4 轉錄抑制（驅動 EMT 與轉移）具有促癌的雙重角色。整體而言，SIRT6 在多數癌症中作為代謝腫瘤抑制因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7ffb62594378",
@@ -1241,9 +1241,9 @@
       "zh-TW": "SIRT7 在乳癌組織中上調，且表現增加預測不良預後。耗竭 SIRT7 透過 p38/MAPK 活化抑制腫瘤生長，將其定位為致癌驅動因子。這與該核仁 sirtuin 在核糖體生成與 rRNA 轉錄中的角色形成對比，將增生與腫瘤進展連結。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "10526f2be5ca",
@@ -1255,9 +1255,9 @@
       "zh-TW": "SIRT1 在血管張力素 II 誘發的心臟肥大中具有劑量依賴的雙重效應：低（2.5 倍）與中（7.5 倍）度過度表現減輕肥大，而高（12.5 倍）度過度表現加劇之。保護機制包括減少凋亡、促進自噬以及 PKC-zeta 抑制，而有害臂則透過 Akt/PDK1 膜定位運作。因此 SIRT1 依表現水平保護或傷害心臟。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4f260051c788",
@@ -1269,9 +1269,9 @@
       "zh-TW": "SIRT6 透過多條平行路徑抑制 isoproterenol 誘發的心臟肥大：經由 Akt 減弱導致 FoxO3 核保留而促進自噬、降低 p300 與 NF-kB p65 乙醯化、透過 c-Jun 阻斷 IGF-Akt 訊號，以及抑制 STAT3。這些輸入皆匯聚於減弱病理性生長反應，使 SIRT6 在心臟肥大中始終為保護因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ca946eaf036a",
@@ -1283,9 +1283,9 @@
       "zh-TW": "SIRT4 過度表現透過抑制 MnSOD 活性加劇血管張力素 II 誘發的心臟肥大，且全球性 SIRT4 基因敲除賦予對血管張力素 II 灌注的抗性，伴隨心臟纖維化減少。因此 SIRT4 是與不良心臟效應最明確相關的 sirtuin，不同於 SIRT3 的保護性粒線體角色。此心臟有害作用在 sirtuin 中十分少見。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6a87b07d29c9",
@@ -1297,9 +1297,9 @@
       "zh-TW": "SIRT7 透過去乙醯化轉錄因子 GATA4 改善壓力誘發的心臟肥大。此保護作用與 SIRT7 在心臟纖維化中的促纖維化角色形成對比，後者中增強的表現透過 Smad2/ERK 訊號促進纖維化。同一核仁 sirtuin 因此具有分歧、情境依賴的心血管效應。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9fecb1acb722",
@@ -1311,9 +1311,9 @@
       "zh-TW": "SIRT1 透過多種機制保護對抗動脈粥樣硬化：內皮 SIRT1 過度表現活化 eNOS、SRT1720 活化改善內皮功能障礙，且 SIRT1 經由 NF-kB 減少 Lox-1 介導的泡沫細胞形成。它亦透過 NBS1 保護血管平滑肌細胞免於 DNA 損傷。整體而言，SIRT1 在內皮與血管中是穩定的抗動脈粥樣硬化因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fef2b8680384",
@@ -1325,9 +1325,9 @@
       "zh-TW": "SIRT6 在慢性心臟衰竭中下降，其過度表現透過涉及 TERT 與 TRF1 的端粒酶活化，增加 TAC 誘發心臟衰竭後的存活。SIRT6 因此將端粒維護與基因體穩定性連結至壓力超負荷下的心臟韌性，使其成為心臟衰竭治療的候選標的。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0687eaf33e58",
@@ -1339,9 +1339,9 @@
       "zh-TW": "SIRT1 在心肌缺血—再灌流損傷中受保護：基因敲除增加梗塞面積，而過度表現上調 FoxO1 與 MnSOD 並下調 caspase-3 與 Bax。SIRT1 上游的訊號包括 miR-132 抑制導致 PGC-1alpha/Nrf2，以及 lncRNA Oip5-as1 經由 SIRT1/AMPK/PGC-1alpha 軸作用。SIRT1 因此是對抗再灌流損傷的內源性心臟保護因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d123f656cd0a",
@@ -1353,9 +1353,9 @@
       "zh-TW": "SIRT3 缺失加劇心肌缺血—再灌流損傷，且 SIRT3 透過粒線體品質控制與氧化壓力防禦保護心臟。作為主要的粒線體去乙醯酶，它維持 OXPHOS 與 SOD2 等抗氧化酵素，因此其缺失放大再灌流損傷。這使 SIRT3 成為關鍵的粒線體心臟保護因子。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a1db3154e027",
@@ -1367,9 +1367,9 @@
       "zh-TW": "SIRT1 在 COPD 與肺氣腫肺中大幅減少，經由涉及 NF-kB、FoxO3 與 p53 的抗發炎、抗凋亡與抗氧化效應喪失而促成疾病致病機轉。以 SRT1720 藥理活化可抑制 COPD 周邊血單核細胞中的 LPS 誘發細胞激素釋放，支持將 SIRT1 恢復作為 COPD 的治療策略。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ce80435f1896",
@@ -1381,9 +1381,9 @@
       "zh-TW": "血清 SIRT3 水平與 COVID-19 的臨床結果和預後相關，在重症患者中明顯較低。這將血清 SIRT3 定位為潛在預後生物標記，反映全身性病毒性發炎期間的粒線體健康與抗氧化儲備，類似其在肺癌中的診斷價值。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "67887772ac4a",
@@ -1395,9 +1395,9 @@
       "zh-TW": "SIRT2 增強過敏性氣喘發炎：藥理去除減弱表型，而基因過度表現誇大之，且 SIRT2 透過 Th2 反應與巨噬細胞極化加劇氣喘。不同於氣喘中保護性的 SIRT1 與 SIRT3，SIRT2 是有害的，體現了過敏性氣道疾病中 SIRT2 與保護性 sirtuin 之間的相反調節關係。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3a56cd87a0db",
@@ -1409,9 +1409,9 @@
       "zh-TW": "SIRT3 促進 MnSOD 表現以對抗高氧誘發的急性肺損傷，且 SIRT3 缺失小鼠透過巨噬細胞中 NLRP3 活化發展更嚴重的 ALI。SIRT3 因此透過維持粒線體抗氧化能力，防禦肺上皮免於氧化與發炎損傷。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "651f35b8587c",
@@ -1423,9 +1423,9 @@
       "zh-TW": "SIRT1 去乙醯化脂生成轉錄因子 ChREBP 與 SREBP-1c 以維持肝臟脂質穩態，從而對抗 NAFLD 與肝臟脂肪變性。SIRT1 亦阻斷肝星狀細胞活化以發揮抗纖維化效應。然而，SIRT1 在酒精性肝炎中是有害的，其中骨髓性 SIRT1 阻止 p-FoxO3 驅動的凋亡，而腸道 SIRT1 透過來自腸道菌叢的肝臟鐵蛋白死亡與發炎而有害，使 SIRT1 在脂肪肝疾病中具有雙重角色。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e2fce7491a31",
@@ -1437,9 +1437,9 @@
       "zh-TW": "SIRT6 去乙醯化 ChREBP 與 SREBP-1c 以抑制肝臟脂生成，且肝細胞專一性 SIRT6 基因敲除在 NASH 小鼠中升高纖維化與氧化壓力。SIRT6 亦透過阻斷肝星狀細胞活化來對抗肝纖維化。這些作用將 SIRT6 定位為 NAFLD 與 NASH 中的保護性代謝調節因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "bdfeb85cd9e9",
@@ -1451,9 +1451,9 @@
       "zh-TW": "SIRT3 保護對抗肝缺血—再灌流損傷：全身性 GPCR5 基因敲除抑制 SIRT3，驅動促發炎巨噬細胞與加劇的損傷。作為優勢的粒線體 sirtuin，SIRT3 在再灌流壓力下維持肝細胞的粒線體功能。此保護角色平行於 SIRT3 在心肌缺血—再灌流損傷中的心臟保護功能。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9fca71980fba",
@@ -1465,9 +1465,9 @@
       "zh-TW": "SIRT3 在 HBV 陽性患者中下調，並經由 cccDNA 上的 H3K9 去乙醯化抑制 HBV 複製。這種在染色質層級對病毒基因體的表觀遺傳靜默，提供了抗病毒防禦中粒線體至核的連結。SIRT6 在 cccDNA 上施加類似的 H3K9 去乙醯化介導的 HBV 抑制。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "86e9f012ed9e",
@@ -1479,9 +1479,9 @@
       "zh-TW": "SIRT3 透過去乙醯化 peroxiredoxin 3，減輕腸缺血—再灌流損傷中的粒線體氧化損傷與凋亡。去乙醯化恢復 peroxiredoxin 3 在粒線體內的抗氧化活性，限制再灌流時的氧化爆發。這是 SIRT3 粒線體品質控制功能保護腸道的典型例子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1b241f5facfa",
@@ -1493,9 +1493,9 @@
       "zh-TW": "SIRT1 在急性胰臟炎中透過 p53 與 HSF1 去乙醯化具有保護性，減弱腺泡細胞損傷。然而在慢性胰臟炎中，SIRT1 上調並透過 miR-278 軸驅動發炎誘發的 EMT，體現同一器官內從保護到致病的情境依賴轉換。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ff82c2e99a0d",
@@ -1507,9 +1507,9 @@
       "zh-TW": "SIRT2 抑制透過網狀蛋白 4B（reticulon 4B）去乙醯化抑制 beta-secretase 1（BACE1），減輕阿茲海默症的類澱粉-beta 病理與認知缺陷。核 SIRT2 在 AD 中過度活化，被 FoxO1 招募至 Fzd1 與 Fzd7 啟動子以降低 H4K16ac，且 SIRT2 抑制可恢復微管穩定與自噬流。SIRT2 因此是 AD 中一個有害、可藥物化的標的，對抗保護性的 SIRT1 與 SIRT3。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a4259386915e",
@@ -1521,9 +1521,9 @@
       "zh-TW": "SIRT3 保護對抗阿茲海默症中的類澱粉-beta 病理與興奮毒性，其功能不全導致粒線體與神經元損傷。間歇性禁食以 SIRT3 依賴的方式有益，且 SIRT3 在 AD 顳葉新皮質中上調，反映類澱粉-beta 沉積。SIRT3 因此將粒線體品質控制與 AD 神經保護連結。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1e0b30dcaa62",
@@ -1535,9 +1535,9 @@
       "zh-TW": "SIRT1 透過去乙醯化 LC3 改善 alpha-synuclein 的自噬降解，並改善帕金森氏症的運動缺陷。這將 sirtuin 活性直接連結至 PD 核心病理蛋白聚集體的清除。SIRT1 此處的促自噬作用與介導加劇 alpha-synuclein 毒性的 SIRT2 形成對比。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "aada0f065abc",
@@ -1549,9 +1549,9 @@
       "zh-TW": "SIRT2 介導帕金森氏症中 alpha-synuclein 毒性的加劇，且 SIRT2 缺失具保護性。NAD+ 代謝改變活化 SIRT2，後者降低乙醯化 alpha-tubulin 並促成細胞骨架功能障礙。這是在 PD 中測試 SIRT2 抑制劑（如 AK-7 與 SirReal2）的理據，儘管結果仍處於臨床前階段。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "55c417b07a0e",
@@ -1563,9 +1563,9 @@
       "zh-TW": "腦專一性 SIRT1 基因敲除加劇亨廷頓氏症，而 SIRT1 過度表現透過恢復 CREB-CRTC1 交互作用以重建 BDNF 轉錄來挽救。SIRT1 因此支持 HD 中的神經元存活與轉錄韌性。SIRT2 抑制亦透過模擬固醇生物合成操縱的有益效應，在 HD 模型中達成神經保護。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7c3c7ab2e4cd",
@@ -1577,9 +1577,9 @@
       "zh-TW": "血清 SIRT2 在急性缺血性腦中風中上升，並作為風險與預後標記。抑制 SIRT2 透過下調 Akt/FoxO3a 與 MAPK 路徑，在腦損傷後具神經保護性。因此 SIRT2 在中風中為有害因子，不同於在腦缺血中具有神經保護性的 SIRT1 與 SIRT3。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1ad338aafd8e",
@@ -1591,9 +1591,9 @@
       "zh-TW": "SIRT3 在缺血性腦中風中是透過星形細胞中 HIF-1alpha/VEGF 訊號的促存活保護因子，且其在腦缺血—再灌流損傷中下調，其中提議以 Wnt/beta-catenin 增強 SIRT3 作為治療標的。這將 SIRT3 的粒線體保護軸延伸至神經血管單元。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "461e74457443",
@@ -1605,9 +1605,9 @@
       "zh-TW": "SIRT1 與阿茲海默症呈現相反的血清與唾液關係，賦予其作為周邊生物標記的診斷潛力。較低的周邊 SIRT1 伴隨 AD 病理，而腦 SIRT1 減少類澱粉-beta 誘發的衰老與粒線體功能障礙。SIRT6 與 AD 呈現相同的血清／唾液反比關係，暗示保護性 sirtuin 共享的周邊讀數。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "134fe02abd7a",
@@ -1619,9 +1619,9 @@
       "zh-TW": "SIRT1 在糖尿病 mellitus 中具有雙重角色：過度表現改善胰島素敏感性，而肝 SIRT1 敲低透過增加肝臟胰島素反應性防止空腹高血糖。SIRT1 因此既增強全身性胰島素作用，又限制肝臟葡萄糖輸出。此情境依賴性是其作為代謝疾病主控調節因子的特徵。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "705a833a7d55",
@@ -1633,9 +1633,9 @@
       "zh-TW": "SIRT3 在糖尿病 mellitus 中具有保護性：基因敲除損害胰島素刺激的肌肉葡萄糖攝取，導致胰島素抗性。在糖尿病性心肌病中，SIRT3 調節纖維化、發炎、凋亡與氧化壓力，經由降低 p53 乙醯化與 PFKFB3 上調來減弱損傷。缺失加劇高血糖粒線體損傷、ROS、壞死性凋亡與 NLRP3 活化。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "16b6109e51b6",
@@ -1647,9 +1647,9 @@
       "zh-TW": "SIRT5 促進糖尿病 mellitus 的進展：其抑制促進胰島 beta 細胞增生與胰島素分泌，且 SIRT5 負調節 PDX1 轉錄以加劇 DM。作為去琥珀醯酶，它將 beta 細胞代謝重編程為受損的胰島素生產。此促疾病立場與 SIRT1、SIRT3 與 SIRT6 在 DM 中的保護角色形成對比。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "dec9d2917bb3",
@@ -1661,9 +1661,9 @@
       "zh-TW": "SIRT6 在糖尿病 mellitus 中具有保護性，透過誘發 PGC-1alpha 乙醯化並抑制肝臟葡萄糖生成，且透過與 p53 合作去乙醯化 FoxO1 並抑制糖質新生基因。透過這些轉錄控制，SIRT6 減少驅動高血糖的病理性肝臟葡萄糖輸出。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8a63f12c8cbc",
@@ -1675,9 +1675,9 @@
       "zh-TW": "SIRT3 透過 AMPK-ULK1 路徑活化巨自噬以產生較小的脂滴，並誘發 perilipin-1-Hsc71-LAMP2 複合體以驅動伴侶介導的自噬，從而抑制肥胖。這些粒線體—自噬作用促進脂質分解與能量消耗，對抗脂肪堆積。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "3bb2fec2ca5b",
@@ -1689,9 +1689,9 @@
       "zh-TW": "SIRT6 過度表現透過降低 STAT3 乙醯化並降低下視丘中 proopiomelanocortin，加劇飲食誘發的肥胖。此下視丘作用減少飽足訊號，促進體重增加。因此儘管在大多數其他疾病系統中具保護性，SIRT6 在 CNS 中具有不尋常的促肥胖立場。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ba84fe01ff58",
@@ -1703,9 +1703,9 @@
       "zh-TW": "SIRT1 在糖尿病腎臟疾病中具保護性，透過去乙醯化 p53 並活化 FoxO3a 與 Nrf2，且 resveratrol 透過 Nrf2 促進對糖尿病腎纖維化的抗性。這些抗氧化與抗凋亡作用防禦足細胞與腎小管間質免於高血糖損傷。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "aabd7a2dab11",
@@ -1717,9 +1717,9 @@
       "zh-TW": "SIRT3 在急性腎損傷中具有核心保護角色：缺失加劇敗血症誘發的管狀損傷與凋亡，伴隨 Bax 與 caspase-3 增加、Bcl-2 減少，並加劇脂肪酸氧化功能障礙。Honokiol 活化增加 ATP 並減少 ROS 與脂質過氧化，而過度表現減弱腎臟中的缺血—再灌流粒線體損傷。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "f509505acb0f",
@@ -1731,9 +1731,9 @@
       "zh-TW": "SIRT2 在急性腎損傷中是有害的：全身性 SIRT2 基因敲除改善 cisplatin 誘發的腎損傷，而轉基因過度表現加劇之，透過 MAPK 磷酸酶-1 去乙醯化導致持續 MAPK 活化與增加的發炎和細胞死亡。SIRT2 因此對抗腎臟中保護性的 SIRT1 與 SIRT3。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "e0a034ab46f8",
@@ -1745,9 +1745,9 @@
       "zh-TW": "SIRT6 在慢性腎病與血管鈣化患者中明顯下調，且它透過 runt-related transcription factor 2 抑制血管平滑肌細胞的成骨轉分化。MSC 外泌體透過 SIRT6-HMGB1 去乙醯化抑制高磷酸血 aortic 鈣化，且近曲小管專一性 SIRT6 基因敲除加劇 UUO 纖維化。SIRT6 因此保護 CKD 中的腎臟與血管。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b1fb37a608e4",
@@ -1759,9 +1759,9 @@
       "zh-TW": "SIRT1 過度表現透過抑制 CTGF 廢除 TGF-beta1 誘發的凋亡與纖維化，且 SRT1720 減弱 UUO 纖維化，而 SIRT1 抑制 HIF2alpha。然而，SIRT1 下調亦可經由 EGFR/PDGFR-beta 抑制纖維母細胞活化，造成治療上的曖昧。其優勢角色為腎保護，對抗小管間質纖維化。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b65e6365a245",
@@ -1773,9 +1773,9 @@
       "zh-TW": "SIRT1 在骨關節炎中具保護性，透過 Wnt/beta-catenin 訊號減少軟骨細胞凋亡與 ECM 降解，經由 PGC-1alpha/PPAR-gamma 級聯逆轉同半胱氨酸誘發的變化，抑制 EGFR 泛素化，並抑制軟骨細胞衰老。SIRT1 因此在多軸線上維持軟骨穩態。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "dd5ce8e9688f",
@@ -1787,9 +1787,9 @@
       "zh-TW": "SIRT3 在骨關節炎中具有雙重角色：它透過恢復 SOD2 乙醯化以粒線體穩態抑制退化，但 SIRT3 過度表現促進軟骨細胞凋亡與增生減少，加速 OA 進展。因此保護性粒線體臂依賴平衡的 SIRT3 活性，而非簡單的上調。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "185a62689a38",
@@ -1801,9 +1801,9 @@
       "zh-TW": "SIRT1 在骨質疏鬆症中具保護性：SIRT1 基因敲除小鼠骨量低，SIRT1 透過 FoxO3a 增加造骨細胞成骨，且去乙醯化 sclerostin 以促進 Wnt/beta-catenin 訊號。Resveratrol 透過 NF-kB 恢復鹼性磷酸酶與骨鈣素。SIRT1 因此支持骨形成並對抗年齡相關骨流失。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a58a43512967",
@@ -1815,9 +1815,9 @@
       "zh-TW": "SIRT6 透過在前成骨細胞中穩定 estrogen receptor alpha 抑制年齡相關骨流失，維持隨年齡衰退的成骨能力。此雌激素依賴機制補充 SIRT1 的 FoxO3a 驅動成骨，賦予 SIRT6 在骨質疏鬆保護中獨特但互補的角色。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4a72e8dc3fb2",
@@ -1829,9 +1829,9 @@
       "zh-TW": "SIRT6 抑制透過端粒 H3K9 過乙醯化與 53BP1 結合縮短血管平滑肌細胞壽命並誘發衰老，而 SIRT6 過度表現維持端粒完整性。SIRT6 去乙醯化 Pol-beta 以賦予 DNA 損傷抗性並防止早老病理。SIRT6 因此是基因體穩定性守護者，其缺失驅動衰老，而其增益延長細胞壽命。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4f9570fdef03",
@@ -1843,9 +1843,9 @@
       "zh-TW": "SIRT1 在 ER-alpha 陽性乳癌中透過 FoxO1 去乙醯化上調多重抗藥性蛋白 2（MRP2），造成 tamoxifen 抗性。因此 SIRT1 抑制增強 paclitaxel 與 doxorubicin 細胞毒性，而 SIRT4 透過 STAT3 抑制增強 tamoxifen 敏感性。這使 SIRT1 狀態成為乳癌內分泌治療反應的決定因子。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4d9ced7bb036",
@@ -1857,9 +1857,9 @@
       "zh-TW": "SIRT1 在肺癌中透過 VEGF-A 訊號促進 cisplatin 抗性，而 SIRT2 上調與 SIRT3（經由 FoxO3/CDT1 軸）各自增加 cisplatin 敏感性。SIRT3 亦透過 ATM-Chk2 促進 DNA 修復與放射抗性。相反的 SIRT1 對 SIRT2/SIRT3 作用定義了 NSCLC 中的化療抗性平衡。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c6abea36b59a",
@@ -1871,9 +1871,9 @@
       "zh-TW": "SIRT2 透過去乙醯化 AKR1C1 並抑制 STAT3 抑制 NSCLC 遷移。在一條相抗的致癌軸中，SIRT2 在 K100 去乙醯化 phosphoglycerate mutase 以生成 NADPH 並加速腫瘤生長，賦予 SIRT2 在肺癌中情境依賴的雙重角色。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a0a8ab374844",
@@ -1885,9 +1885,9 @@
       "zh-TW": "SIRT6 在肺癌中透過 CHD4 協調（使染色質鬆弛與 DNA 修復成為可能）而抗癌，但透過 snail 依賴的 KLF4 轉錄抑制（驅動 EMT 與轉移）而促癌。SIRT6 亦抑制糖解以增強放射敏感性，因此其整體效應取決於腫瘤的 EMT／代謝狀態。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "dc2f049a504c",
@@ -1899,9 +1899,9 @@
       "zh-TW": "SIRT4 在大腸癌中上調 E-cadherin，同時透過抑制麩醯胺代謝抑制增生、遷移與侵犯。SIRT4 亦透過抑制細胞週期增加對 5-fluorouracil 的敏感性，鞏固其在 CRC 中的腫瘤抑制角色。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "022e57214a09",
@@ -1913,9 +1913,9 @@
       "zh-TW": "SIRT5 以去戊二醯化依賴的方式增強大腸癌中的麩醯胺分解，驅動大腸癌發生，且去乙醯化 lactate dehydrogenase B 以誘發過度活化的自噬與腫瘤發生。SIRT5 過度表現與 CRC 不良預後相關，與保護性 SIRT6 形成對比。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "8255c5e0713c",
@@ -1927,9 +1927,9 @@
       "zh-TW": "SIRT6 在胃癌中下調，其中低表現與腫瘤大小與病理分級負相關，並預測不良預後。它抑制 JAK2/STAT3 路徑以抑制生長，且 SIRT6 靜默透過促進鐵蛋白死亡克服 sorafenib 抗性。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "eec8f22889e4",
@@ -1941,9 +1941,9 @@
       "zh-TW": "SIRT3 過度表現透過 Twist 下調驅動的 EMT 抑制，抑制卵巢癌轉移。相對地，SIRT3 在膠質瘤中透過穩定 Ku70-Bax 交互作用促進存活，而在子宮頸癌中透過 ACC1 上調重編程脂肪酸合成來促進侵犯與轉移。因此 SIRT3 的轉移效應依腫瘤類型而異。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d480e5d82321",
@@ -1955,9 +1955,9 @@
       "zh-TW": "SIRT5 在卵巢癌中透過 Nrf2/HO-1 介導的 ROS 依賴 DNA 損傷抑制促進 cisplatin 抗性，而 SIRT2 過度表現在抗性卵巢癌細胞中增強 cisplatin 敏感性。儘管如此，卵巢癌中高 SIRT5 表現與有利存活相關。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "98f5fb9a80c4",
@@ -1969,9 +1969,9 @@
       "zh-TW": "SIRT1 在 HPV 感染的子宮頸癌細胞中過度表現，並使 AIM2 發炎體介導的免疫失效，與不良臨床結果相關。此免疫抑制作用使子宮頸癌細胞逃避免炎體驅動的清除，將 SIRT1 定位為 HPV 驅動子宮頸癌中的致癌因子。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "eb419b39e91e",
@@ -1983,9 +1983,9 @@
       "zh-TW": "SIRT1 透過去乙醯化 CDK2 促進 T-ALL 進展，後者驅動 p27 磷酸化與降解，且 SIRT1 敲低使 AML 對酪胺酸激酶抑制劑治療敏感。SIRT2 經由 NAMPT 活化透過 Akt/GSK-3beta/beta-catenin 軸減少增生並誘發 AML 母細胞凋亡，顯示兩個 sirtuin 相反的白血病角色。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2f55fe2dc9c1",
@@ -1997,9 +1997,9 @@
       "zh-TW": "SIRT2 在心肌肥大中具保護性，透過去乙醯化 NFATc2，且 SIRT2 缺失減少 AMPK 以促進老化相關與血管張力素 II 誘發的肥大。SIRT2 亦透過去乙醯化 LKB1 活化 AMPK 來對抗心臟纖維化。這些心血管角色與 SIRT2 在神經退化疾病中的有害作用形成對比。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "98c13c58af0a",
@@ -2011,9 +2011,9 @@
       "zh-TW": "SIRT1 透過在 K492 去乙醯化恢復衰竭心臟中 SERCA2a 活性，恢復鈣處理與收縮性。SIRT1 在晚期心臟衰竭中減少，其缺失減弱由 MnSOD、thioredoxin 1、Bcl-xL 與 FoxO1 核轉位介導的抗氧化、抗凋亡防禦。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "137ebe483723",
@@ -2025,9 +2025,9 @@
       "zh-TW": "SIRT4 抑制 PI3K/Akt/NF-kB 路徑以緩解 oxLDL 誘發的 HUVEC 損傷，保護動脈粥樣硬化中的內皮。SIRT4 在心肌缺血／再灌流後下調，其過度表現透過粒線體保存與減少凋亡降低梗塞面積。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "994f92f5a745",
@@ -2039,9 +2039,9 @@
       "zh-TW": "SIRT5 缺失透過蛋白質琥珀醯化調節增加心肌梗塞面積，且 SIRT5 基因敲除小鼠相較於年齡匹配野生型顯示增加的心臟纖維化。SIRT5 亦防止年齡相關心臟肥大，賦予其廣泛保護的心血管特徵。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5ae250b319f6",
@@ -2053,9 +2053,9 @@
       "zh-TW": "SIRT1 基因多型性與冠狀動脈疾病風險相關，且 SIRT1 表現在 CAD 患者中減少，其下調與 CAD 單核細胞中乙醯化 p53 相關。lncRNA C2dat1 促進 SIRT1 以抑制 miR-34a，驅動血管壁中 VSMC 增生與遷移。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d6fe1b645335",
@@ -2067,9 +2067,9 @@
       "zh-TW": "SIRT6 表現減少透過香菸煙霧暴露期間自噬不足與細胞衰老促成 COPD，而 SIRT6 過度表現經由 IGF-Akt-mTOR 軸減弱自噬。SIRT3 抑制氣道上皮粒線體氧化壓力以減緩 COPD 進展，且 SIRT1 在 COPD 與肺氣腫肺中大幅減少。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "90ef3723cb08",
@@ -2081,9 +2081,9 @@
       "zh-TW": "SIRT6 使 TGF-beta1/Smad2 訊號失效以阻止肌纖維母細胞分化，抑制 TGF-beta 誘發的細胞衰老，並在 IPF 中透過 TGF-beta1/Smad3 阻斷 EMT。SIRT6 因此是肺纖維化中纖維化級聯的主抑制因子，而 SIRT7 下降透過 Smad3 變化具有促纖維化效應。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c81b1ee39108",
@@ -2095,9 +2095,9 @@
       "zh-TW": "SIRT6 使 TGF-beta1/Smad2 訊號失效以阻止肌纖維母細胞分化，抑制 TGF-beta 誘發的細胞衰老，並在 IPF 中透過 TGF-beta1/Smad3 阻斷 EMT。SIRT6 因此是肺纖維化中纖維化級聯的主抑制因子，而 SIRT7 下降透過 Smad3 變化具有促纖維化效應。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "816ff9cfc0d9",
@@ -2109,9 +2109,9 @@
       "zh-TW": "SIRT6 調節巨噬細胞極化以透過自噬依賴與自噬獨立機制減輕敗血症誘發的急性呼吸窘迫症候群。在氣喘中，SIRT6 在支氣管上皮細胞中上調並經由 EMT 調節改善氣道重塑，而 SIRT2 透過 Th2 反應與巨噬細胞極化增強過敏性氣喘發炎。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "39f33dcfc064",
@@ -2123,9 +2123,9 @@
       "zh-TW": "SIRT2 透過去乙醯化肝細胞核因子 4 alpha 防止 NAFLD，但在肝纖維化中透過 SIRT2/ERK/c-Myc 軸是有害的。SIRT4 上調透過 SIRT4/Smad4 軸抑制高脂飲食誘發的脂質堆積、發炎與纖維生成，儘管 SIRT4 在 NAFLD 中因不穩定粒線體三功能蛋白質 alpha 而有害。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6ba50968f63c",
@@ -2137,9 +2137,9 @@
       "zh-TW": "SIRT1 與 SIRT6 皆去乙醯化脂生成轉錄因子 ChREBP 與 SREBP-1c 以維持肝臟脂質穩態並對抗脂肪肝疾病。SIRT1 亦透過阻斷肝星狀細胞活化對抗肝纖維化，而肝細胞專一性 SIRT6 基因敲除在 NASH 小鼠中升高纖維化與氧化壓力。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d1370c84354b",
@@ -2151,9 +2151,9 @@
       "zh-TW": "SIRT2 在肝缺血—再灌流損傷中是有害的：它去乙醯化 MAPK 磷酸酶-1 以活化 MAPK 並加劇發炎反應與細胞死亡，而 SIRT1 與 SIRT3 具保護性。SIRT1 在 IRI 後減少，且其高水平透過 MFN2 抑制粒線體功能障礙預測人類肝移植的優越存活。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9b8e0edf19b9",
@@ -2165,9 +2165,9 @@
       "zh-TW": "SIRT6 維持 Rspo1 表現以賦予發炎性腸道疾病中腸上皮損傷抗性，且 SIRT6 缺失透過 NF-kB 促進發炎。SIRT2 同樣抑制 Wnt/beta-catenin 以維持腸道穩態，而 SIRT3、SIRT5 與 SIRT7 基因敲除小鼠易罹結腸炎。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "094023554e3e",
@@ -2179,9 +2179,9 @@
       "zh-TW": "SIRT1 抑制缺血—再灌流後的腸上皮 ROS 累積與凋亡，且 resveratrol 透過 SIRT1-NF-kB-iNOS-NO 路徑保護。SIRT3 經由 peroxiredoxin 3 去乙醯化減輕粒線體氧化損傷與凋亡，而 SIRT6 經由 miR-351-5p 下調加劇腸 IRI 損傷。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "46f9db828bf3",
@@ -2193,9 +2193,9 @@
       "zh-TW": "SIRT1 在阿茲海默症中透過 CREB 減少 tau 的 O-GlcNAcylation，且 SIRT3 在 tau 乙醯化中扮演角色，作為潛在治療標的。SIRT2 影響 tau 磷酸化與自噬流，核 SIRT2 在 AD 中過度活化，其中 FoxO1 將其招募至 Fzd1/Fzd7 啟動子以降低 H4K16ac。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2792dcc1fe6f",
@@ -2207,9 +2207,9 @@
       "zh-TW": "SIRT1 透過去乙醯化 Beclin-1 增強阿茲海默症中的有益自噬，且在帕金森氏症中改善 LC3 去乙醯化介導的 alpha-synuclein 自噬降解以改進運動缺陷。促自噬的 SIRT1 作用因此有助清除神經退化中的病理蛋白聚集體。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d073f713ed81",
@@ -2221,9 +2221,9 @@
       "zh-TW": "SIRT5 透過 occludin 降解增加血腦屏障通透性介導缺血—再灌流誘發的腦損傷，而 SIRT1 與 SIRT3 在缺血性中風中具有神經保護性。血清 SIRT2 在急性缺血性中風患者中上升作為風險與預後標記，且 SIRT2 抑制透過下調 Akt/FoxO3a 與 MAPK 具神經保護性。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7fd265632fc9",
@@ -2235,9 +2235,9 @@
       "zh-TW": "增強的 SIRT6 活性消除 ALS 連結突變 SOD1 星狀細胞的神經毒性，使 SIRT6 成為 ALS 的治療標的。SIRT1 在 SOD1-G93A 小鼠中增加，SIRT3 在 ALS 脊髓中增加，功能意義仍不明，而 SIRT6 上調亦減輕脊髓損傷後的發炎、氧化壓力與凋亡。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "c1d55fc9bf3a",
@@ -2249,9 +2249,9 @@
       "zh-TW": "SIRT3 透過抑制 miR-134-5p 保護對抗癲癇中的 kainic acid 興奮毒性，且 SIRT5 缺失增加死亡率與癲癇嚴重度，顯示神經保護角色。SIRT1 是挽救晝夜節律基因與 SIRT1 促效劑 CAY10602 對抗癲癇相關損傷具神經保護性的治療標的。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5b1bbf438eef",
@@ -2263,9 +2263,9 @@
       "zh-TW": "SIRT2 透過在 K126 去乙醯化 GKRP 促進葡萄糖依賴的肝臟葡萄糖攝取，且其下調改善降低的 Akt 活性，同時在胰島素抗性 neuro-2a 細胞中增加胰島素刺激的葡萄糖攝取。SIRT1 過度表現改善胰島素敏感性，但肝 SIRT1 敲低透過增加肝臟胰島素反應性防止空腹高血糖，體現 SIRT1 在糖尿病中的雙重角色。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1686ba0aad22",
@@ -2277,9 +2277,9 @@
       "zh-TW": "SIRT4 過度表現導致血脂異常、脂肪生成與脂肪酸氧化減少，同時使 AMPK 失活並抑制胰島素分泌，然而被描述為對抗糖尿病 mellitus 進展的保護性。SIRT5 透過負調節 PDX1 轉錄促進 DM 進展，且 SIRT6 透過誘發 PGC-1alpha 乙醯化抑制肝臟葡萄糖生成而保護。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "468c52ce6b58",
@@ -2291,9 +2291,9 @@
       "zh-TW": "SIRT1 過度表現防止糖尿病視網膜病變中的微血管細胞凋亡與退行性微血管形成，減少 DM 誘發的視網膜發炎，並改善視覺功能。在糖尿病性心肌病中，SIRT1 活化抑制 ROS 誘發的氧化壓力與纖維化，而 SIRT3 調節糖尿病心肌中的纖維化、發炎、凋亡與氧化壓力。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "80a9b37f9f05",
@@ -2305,9 +2305,9 @@
       "zh-TW": "SIRT5 透過調節近曲小管上皮細胞中粒線體與過氧化體脂肪酸氧化的平衡保護對抗急性腎損傷，且 SIRT6 抑制 LPS 誘發的凋亡同時在 HK-2 細胞中促進自噬。SIRT7 缺失小鼠免受 AKI 保護，顯示 SIRT7 促進小管損傷與腎臟發炎。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d5924690b0cd",
@@ -2319,9 +2319,9 @@
       "zh-TW": "SIRT3 基因敲除小鼠因 PDH E1alpha 在 K385 過乙醯化而易罹嚴重腎纖維化，且 SIRT6 近曲小管敲除加劇 UUO 纖維化，而 MDL-800 活化劑減輕之。SIRT1 過度表現透過 CTGF 抑制廢除 TGF-beta1 誘發的凋亡與纖維化，且 SRT1720 減弱 UUO 誘發的纖維化。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a9f6d84b4b59",
@@ -2333,9 +2333,9 @@
       "zh-TW": "SIRT3 在腎結石患者中下調，並透過 Nrf2/heme oxygenase-1 路徑保護，而抑制 SIRT1 促進草酸鈣晶體—細胞黏附並加劇損傷。SIRT1 亦透過 HIF-1alpha 去乙醯化對抗老化誘發的腎損傷中的小管間質損傷。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "0f029e94b246",
@@ -2347,9 +2347,9 @@
       "zh-TW": "SIRT6 在 CKD 與血管鈣化患者中明顯下調，並透過 runt-related transcription factor 2 抑制血管平滑肌細胞的成骨轉分化。MSC 外泌體透過 SIRT6-HMGB1 去乙醯化抑制高磷酸血 aortic 鈣化，且 soluble epoxide hydrolase 不穩定 SIRT3 以加速 VSMC 鈣化。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6d28d605ce6e",
@@ -2361,9 +2361,9 @@
       "zh-TW": "SIRT2 在骨關節炎中具保護性，透過防止 p65 乙醯化以抑制 ECM 降解，且 SIRT6 透過負調節 NF-kB 介導的發炎反應抑制軟骨細胞衰老。SIRT1 透過 Wnt/beta-catenin 減少軟骨細胞凋亡與 ECM 降解，而 SIRT3 具有依賴 SOD2 乙醯化狀態的雙重角色。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "110a51c460fd",
@@ -2375,9 +2375,9 @@
       "zh-TW": "SIRT1 去乙醯化 sclerostin 以活化 Wnt/beta-catenin 訊號並增加骨合成代謝，且 SIRT1 基因敲除小鼠具有低骨量表型，而 SIRT1 過度表現透過 FoxO3a 增加造骨細胞成骨。SIRT6 透過在前成骨細胞中穩定 estrogen receptor alpha 抑制年齡相關骨流失。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a31ba97192ed",
@@ -2389,9 +2389,9 @@
       "zh-TW": "SIRT1 在退行性髓核組織中隨嚴重程度減少，並抑制 NF-kB 轉錄活性同時抑制 c-Fos/c-Jun 磷酸化。SIRT2 透過抑制 p53/p21 路徑逆轉 IL-1beta 作用，SIRT3 維持髓核細胞穩態，且 SIRT6 在 IDD 中透過 NF-kB 抑制發炎反應與衰老。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9a7ea21e77f6",
@@ -2403,9 +2403,9 @@
       "zh-TW": "SIRT3 缺失造成板層相關域脫離、染色質可及性增加與異常重複序列轉錄，導致人類 MSC 的衰老。SIRT1 活化 La Ribonucleoprotein 7 減弱 p53 與 NF-kB p65 轉錄活性以改善細胞衰老，而 SIRT6 維持端粒完整性並去乙醯化 Pol-beta 以賦予 DNA 損傷抗性。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "2b5853ae3013",
@@ -2417,9 +2417,9 @@
       "zh-TW": "致癌基因誘發衰老（OIS）是在帶有 BRAF/RAS/MYC 突變的細胞中觸發的永久性細胞週期停滯。良性黑色素細胞痣（痣）是 OIS 的體內體現，並防止黑色素瘤；經由 p53/PTEN 缺失或 TERT 活化繞過 OIS 是惡性化所必需的。受封頂、停滯的生長因此是腫瘤抑制性的。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cc2e726e6469",
@@ -2431,9 +2431,9 @@
       "zh-TW": "致癌性 BRAF（V600E）、RAS 或 MYC 驅動高增生爆發，造成 DNA 複製壓力與 DNA 損傷反應，經由 p53/p21 與 p16/Rb 永久性停滯細胞。OIS 因此由致癌訊號誘發，卻在良性病灶中以腫瘤抑制屏障對抗之。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "85edcda14326",
@@ -2445,9 +2445,9 @@
       "zh-TW": "OIS 去抑制 CDKN2A 基因座以上調 p16INK4A，強化將良性病灶鎖定於永久性凍結、腫瘤抑制狀態的 p16/Rb 細胞週期停滯。此 p16 介導的停滯是保護性良性痣的機制骨幹。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a936ff50c258",
@@ -2459,9 +2459,9 @@
       "zh-TW": "良性／癌前病灶中的 OIS 細胞易受 Navitoclax 類去衰老藥物攻擊。清除它們可能矛盾地透過移除細胞自主的癌症屏障而促進腫瘤生長——即去衰老悖論——因此保留某些良性腫瘤在功能上對抗癌症具保護性。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "250b4931fda2",
@@ -2473,9 +2473,9 @@
       "zh-TW": "良性腫瘤具有雙重本質：OIS 型停滯病灶（痣）是長壽正向的癌症屏障，而由生長訊號驅動的良性生長（如 TSC1/TSC2 缺失 mTORC1 錯構瘤）本身即是疾病（結節性硬化症、血管肌脂肪瘤、癲癇）。停滯的生長是好的；持續的生長是壞的。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b77fa0e0a39c",
@@ -2487,9 +2487,9 @@
       "zh-TW": "TSC1 或 TSC2 缺失移除抑制 Rheb 的 GAP，造成組成性 mTORC1 過度活化，驅動良性錯構瘤（結節性硬化症、腎血管肌脂肪瘤、癲癇、自閉症）。此處良性生長本身就是疾病，與保護性 OIS 型良性病灶形成對比。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "be9d6a44c97d",
@@ -2501,9 +2501,9 @@
       "zh-TW": "老化的功能亢進理論主張，老化是發育生長訊號的準程式化延續；mTOR 是老化的引擎，而 Rapamycin 透過抑制 mTOR 延長壽命。這框定了關鍵區分：停滯的生長（OIS）具保護性，而持續、無對抗的生長訊號具致病性。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "7646a7f84757",
@@ -2515,9 +2515,9 @@
       "zh-TW": "畸胎瘤形成是分化多能性的黃金標準檢定，驗證誘導性多能幹細胞（iPSC）與胚胎幹細胞（ESC）用於回春醫學。這是良性腫瘤的器械性、研究層級益處，而非生物體層級的長壽益處。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "4f4410fc733a",
@@ -2529,9 +2529,9 @@
       "zh-TW": "免疫系統清除良性病灶中的致癌基因誘發衰老細胞；監測失敗加速腫瘤發生。p16/p21 雙重基因敲除提高癌症率，證明良性／癌前病灶中的衰老具腫瘤抑制性，且保留它是有益的。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_benign_tumor_longevity_14_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b04a0c0897bb",
@@ -2543,9 +2543,9 @@
       "zh-TW": "SIRT4 是最明確的抗麩醯胺 sirtuin：它單-ADP-核糖基化 glutamate dehydrogenase（GDH），限制麩胺酸至 alpha-ketoglutarate 的通量，並限制麩醯胺依賴癌細胞所依賴的 TCA 循環回補碳供應。SIRT4 缺失在 HCC、胃、CRC、膀胱與乳癌中常見，標記其為代謝腫瘤抑制因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6702a6d76c74",
@@ -2557,9 +2557,9 @@
       "zh-TW": "SIRT3 間接透過氧化還原對抗有氧糖解：它活化 MnSOD/SOD2 與 IDH2，降低 ROS，進而不穩定 HIF-1alpha 並切斷主控糖解轉錄因子。SIRT3 缺失因此使細胞偏向前 Warburg 效應並支持腫瘤代謝。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a642c2c535c4",
@@ -2571,9 +2571,9 @@
       "zh-TW": "SIRT6 是最明確的抗 Warburg sirtuin：它共抑制 HIF-1alpha 並抑制糖解酵素（葡萄糖轉運蛋白、Hexokinase 2）的轉錄，並在 ERK1/2 啟動子去乙醯化 histones H3。SIRT6 缺失容許 Warburg 樣有氧糖解；其恢復抑制 HCC／神經膠質瘤中的糖解並增強肺癌中的放射敏感性。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "fd79b92e7ccc",
@@ -2585,9 +2585,9 @@
       "zh-TW": "SIRT7 透過在 rDNA 活化 RNA Pol I 並經由 H3K18 去乙醯化抑制 p21，驅動核糖體生成，供應腫瘤所需的生物合成能力；它在乳癌、甲狀腺與 HCC 中過度表現。此增生性、生物合成驅動角色使 SIRT7 成為致癌 sirtuin。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "84a10af23007",
@@ -2599,9 +2599,9 @@
       "zh-TW": "SIRT2 在某些情境下透過在 Lys100 去乙醯化 phosphoglycerate mutase 促進腫瘤糖解，將碳引導至 NADPH 生成並加速肺癌中的腫瘤生長。這體現 SIRT2 相對於保護性 SIRT1/3/6 軸、常為有害的、情境依賴的代謝面貌。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "15af73d47985",
@@ -2613,9 +2613,9 @@
       "zh-TW": "SIRT5 在 CRC、HCC 與 NSCLC 中透過將代謝重編程為糖解與麩醯胺分解而促腫瘤；它去琥珀醯化 lactate dehydrogenase B（LDHB）以過度活化自噬，供養癌細胞回收的營養。SIRT5 是主要對菸鹼醯胺抑制具抗性的去琥珀醯酶。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "baa1d13f4de5",
@@ -2627,9 +2627,9 @@
       "zh-TW": "Resveratrol 是一種 SIRT1 活化化合物（STAC），臨床評估結果好壞參半，現在主要為研究／營養保健品。作為 SIRT1 活化劑，它改善胰島素敏感性並對抗多種年齡相關疾病，儘管在整體相（bulk-phase）生理學中它保護表觀基因組而不抑制 COMT。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b12ec93f0cf4",
@@ -2641,9 +2641,9 @@
       "zh-TW": "EX-527（Selisistat）是最先進的異構型選擇性 SIRT1 抑制劑，在亨廷頓氏症中進入第一期／二期，並探討用於腫瘤學化療增敏。它是少數進入人體試驗的 sirtuin 導向藥劑之一，與純粹臨床前的 SIRT2/3/4/5/6/7 化學品形成對比。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "bd422206facf",
@@ -2655,9 +2655,9 @@
       "zh-TW": "Sirtuin 家族（SIRT1-SIRT7）是 NAD+ 依賴的醯基轉移酶，其產出受 NAD+ 可用性節制。腫瘤代謝狀態（Complex I 活性、麩醯胺分解、NAMPT/CD38）直接設定 sirtuin 活性，這就是為何在 MYC 高與麩醯胺依賴癌中，NAD+ 耗竭正成為合成致死槓桿。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "d7998a111fa0",
@@ -2669,9 +2669,9 @@
       "zh-TW": "粒線體促效應需要短暫、急性的 ROS 脈衝作為觸發適應性細胞保護反應（catalase 上調、伴侶表現、UPRmt、粒線體生成）的訊號。粒線體 ROS 是活躍的訊號分子而非單純的損傷因子；熄滅此脈衝會阻斷整個適應程序。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ed14c153b758",
@@ -2683,9 +2683,9 @@
       "zh-TW": "長期抗氧化補充可抑制促效應反應，從而阻斷粒線體促效應通常誘導的細胞保護適應。這可能解釋了抗氧化臨床試驗令人失望的結果，大型薈萃分析通常未能顯示益處，在某些情況下甚至顯示死亡率增加。支持性證據來自人體研究，顯示抗氧化補充劑抑制運動的有益效果，而運動本身被視為輕度壓力源。抗氧化劑可能阻止觸發適應性反應所需的粒線體 ROS 升高。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T06:05:15Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T06:05:15Z"
   },
   {
     "id": "1aac7721362c",
@@ -2697,9 +2697,9 @@
       "zh-TW": "在 C. elegans 中，葡萄糖限制通常升高粒線體呼吸與 ROS，誘發 catalase 並延長壽命；NAC 預處理完全廢除 ROS 升高與長壽益處。NAC 是最強的直接證據，顯示清除 ROS 訊號會阻斷粒線體促效應。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "90bd3a51b415",
@@ -2711,9 +2711,9 @@
       "zh-TW": "Gomez-Cabrera 等人（2008，PMID 18175748）顯示口服維生素 C 降低肌肉粒線體生成並妨礙訓練誘發的耐力適應。這是最乾淨的人體研究之一，顯示抗氧化劑干擾促效應壓力源（運動），減弱必要的急性 ROS 訊號。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "39562da4abf6",
@@ -2725,9 +2725,9 @@
       "zh-TW": "SELECT 試驗（Lippman 等人，2009，JAMA，PMID 19066370）發現維生素 E 補充（400 IU/天）在健康男性中將攝護腺癌風險增加 17%，被引為抗氧化補充失敗的關鍵例子。HOPE 試驗同樣顯示無心血管益處且有心臟衰竭增加的趨勢。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "905892bef0bd",
@@ -2739,9 +2739,9 @@
       "zh-TW": "外源性抗氧化劑防止運動通常經由 NRF2 誘發的內生防禦酵素（SOD、GPx）上調。Ristow 2009 研究顯示補充抗氧化劑的受試者未能上調內生 SOD/GPx，並喪失運動的胰島素增敏益處。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "1a51ddae1112",
@@ -2753,9 +2753,9 @@
       "zh-TW": "熱量限制是典型粒線體促效應壓力源：短暫的能量虧損活化 AMPK、PGC-1alpha、SIRT1 與 NRF2，驅動粒線體生成、mitophagy 與內生抗氧化防禦。葡萄糖限制與 CR 是最確立的促效應長壽反應觸發因子之一。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "70f290910fa1",
@@ -2767,9 +2767,9 @@
       "zh-TW": "運動產生急性 ROS 爆發，透過 NRF2 與 PGC-1alpha 驅動粒線體生成、抗氧化上調與代謝適應。運動後高劑量合成抗氧化劑（維生素 C/E）減弱此必要的 ROS 訊號，因此讓內生適應發生是治療目標。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "451f92bc6991",
@@ -2781,9 +2781,9 @@
       "zh-TW": "除 ROS 清除外，NAC 是 PRDX6 過氧化物酶活性的選擇性抑制劑（IC50 ~15.5 uM），一種不同的抗氧化酵素交互作用。此雙重作用說明為何在促效應方案中使用作為定時 redox 緩衝的 NAC，長期服用時亦能減弱適應性訊號。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "32f6776baf4e",
@@ -2795,9 +2795,9 @@
       "zh-TW": "粒線體促效應觸發因子活化包括 AMPK、PGC-1alpha、SIRT1 與 NRF2 在內的關鍵營養感測與壓力反應路徑。AMPK 接著驅動粒線體生成與自噬，留下具韌性的代謝引擎；這就是為何溫和、脈衝式壓力增強長壽與代謝效率。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_mitohormesis_antioxidants_05_August_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "264d9bfa32d5",
@@ -2809,9 +2809,9 @@
       "zh-TW": "Ivermectin 促進 PAK1 的蛋白酶體降解，後者進而抑制 STAT3。這減弱 IL-6 轉錄、老化 CD4+ T 細胞中的 Th17 發炎性老化，以及 OCT4/NANOG/SOX2 幹性迴路——進入 metformin 標靶的相同發炎性老化／SASP 軸，但經由 PAK1 而非 AMPK。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "6796e55d7179",
@@ -2823,9 +2823,9 @@
       "zh-TW": "PAK1 促進 NF-kB 核活化；ivermectin 的 PAK1 降解因此減弱 NF-kB 訊號。由於 NF-kB 是 SASP 的主控轉錄調節因子，這與 senomorphic 策略——標靶 SASP 產生而不殺死衰老細胞——重疊。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "96b05bab8933",
@@ -2837,9 +2837,9 @@
       "zh-TW": "Ivermectin 經由 PAK1-STAT3 軸抑制癌幹細胞中 Nanog、Oct4 與 Sox2 的表現。由於 Oct4 與 Sox2 是核心 Yamanaka 因子，這降低重編程能力並對抗部分重編程，同時在治療上對抗 CSC 是理想的。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "cc83e05124d5",
@@ -2851,9 +2851,9 @@
       "zh-TW": "Ivermectin 經由 PAK1-STAT3 下調 Sox2（與 Oct4 和 Nanog 一起），抑制回春所需的轉錄因子開啟。這在機制上對抗 Yamanaka 因子回春，儘管外源 OSKM 遞送可能部分繞過此抑制。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "50d56e0bca92",
@@ -2865,9 +2865,9 @@
       "zh-TW": "Ivermectin 透過抑制 Oct4 與 Sox2（經由 PAK1-STAT3）降低重編程能力並對抗部分重編程。其分開的 mTOR 抑制／自噬誘發位於與 rapamycin 相同的長壽空間，但 OSKM 抑制性作用對表觀遺傳回春適得其反。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "a5cdd147b9f8",
@@ -2879,9 +2879,9 @@
       "zh-TW": "Ivermectin 抑制 PAK1/Akt/mTOR 軸，使 calcineurin 能去磷酸化 TFEB（Ser142/211）並驅動其核轉位至 CLEAR 網絡，誘發溶酶體生成與自噬流。這與 rapamycin、metformin、spermidine 與 CR 用於健康壽命的同一軸，獨立於 Yamanaka 因子。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "5115f878340f",
@@ -2893,9 +2893,9 @@
       "zh-TW": "Fenbendazole 下調 MDM2/MdmX，穩定 p53，後者使被轉導（具重編程能力）的細胞停滯或凋亡——p53 是 iPSC 誘發的主要上游障礙。這比 ivermectin 下游 Oct4/Sox2 抑制更直接的對抗回春。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9bfb54f8be7b",
@@ -2907,9 +2907,9 @@
       "zh-TW": "p53 是高效 iPSC 誘發最重要的生物屏障：損傷活化 p53，後者啟動轉導細胞中的凋亡或衰老，大幅降低重編程產量。Fenbendazole 的 p53 穩定因此直接破壞需要重編程的表觀遺傳回春策略。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "85df7fe83ca7",
@@ -2921,9 +2921,9 @@
       "zh-TW": "Ivermectin 優先標靶並抑制癌幹細胞，透過 PAK1-STAT3 軸抑制 Nanog、Oct4 與 Sox2 表現。這在乳癌中治療性地殺死 CSC，但同時降低 Yamanaka 因子回春所需的重編程因子。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "b3204b8b60bd",
@@ -2935,9 +2935,9 @@
       "zh-TW": "Berberine 活化 AMPK 以管理血糖並在高熱量整體期間防止過度糖化，模擬熱量限制。作為 AMPK 活化劑，它支持驅動自噬與代謝健康的營養感測軸。"
     },
     "confidence": 0.85,
+    "source_document": "task_output_physiologist_shred_vs_bulk.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_physiologist_shred_vs_bulk.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "44441c9a3ffc",
@@ -2949,9 +2949,9 @@
       "zh-TW": "高兒茶酚類黃酮如 quercetin、fisetin 與 luteolin 可抑制 COMT，導致兒茶酚胺累積與整體期間的憂慮者型（worrier-type）症狀。慢 COMT 個體特別建議在高兒茶酚胺周轉期間避免這些，以防止 adrenochrome 路徑燃料供應。"
     },
     "confidence": 0.8,
+    "source_document": "task_output_physiologist_shred_vs_bulk.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_physiologist_shred_vs_bulk.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "78534c709bf6",
@@ -2963,9 +2963,9 @@
       "zh-TW": "在整體（合成代謝）期間，高營養可用性活化 mTORC1，促進蛋白質合成與生長但自然抑制自噬。削減（shred）情境則利用營養匱乏抑制 mTOR 並最大化自噬清理與脂肪氧化。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_physiologist_shred_vs_bulk.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z",
-    "source": "task_output_physiologist_shred_vs_bulk.md"
+    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "9c5d2ab7d1c7",
@@ -2977,9 +2977,9 @@
       "zh-TW": "間歇性斷食誘導自噬，作為對其所施加的週期性營養和能量虧損的早期細胞適應。在體外，斷食模擬條件活化自噬機制並同時下調胞外核苷酸酶CD73，改變細胞外腺苷代謝。此誘導主要透過AMPK活化和mTORC1抑制介導，因為在斷食窗口期間營養和胰島素訊號下降。這種自噬的參與被認為是歸因於IF方案的許多細胞保護和抗老化效應的基礎。"
     },
     "confidence": 0.9,
+    "source_document": "task_output_physiologist_shred_vs_bulk.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T07:39:11Z",
-    "source": "task_output_physiologist_shred_vs_bulk.md"
+    "updated": "2026-08-20T07:39:11Z"
   },
   {
     "id": "a37154f76010",
@@ -2991,9 +2991,9 @@
       "zh-TW": "STACs（sirtuin 活化化合物）透過 K 型別構機制活化 sirtuins，降低 NAD+ 與乙醯化受質胜肽的米氏常數（Km），在不改變 Vmax 的情況下提升催化效率。這是一打化學類別 STACs 的典型機制，不同於 NAD+ 提升策略（NMN/NR/CD38 抑制）——後者是恢復輔受質的可及性。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "dfe677650611",
@@ -3005,9 +3005,9 @@
       "zh-TW": "Quercetin 是一種黄酮醇，透過 K 型別構機制（降低 NAD+ 與受質的 Km）直接活化 SIRT1，與白藜蘆醇、piceatannol、butein、fisetin、kaempferol 同屬天然多酚類 STACs。它也能透過抑制 CD38、提升 NAD+ 來獨立增強 SIRT1，因此兼具雙重角色（直接 STAC + NAD+ 調節劑）。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "b52021231119",
@@ -3019,9 +3019,9 @@
       "zh-TW": "Butein 是一種查耳酮，是最早被報導的 SIRT1 多酚類 STACs 之一（與白藜蘆醇、piceatannol、quercetin、myricetin 並列），透過 K 型別構降低 Km 來活化 SIRT1。它透過 SIRT1 訊號減緩敗血症誘發的腦損傷。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "441c25e307c6",
@@ -3033,9 +3033,9 @@
       "zh-TW": "Fisetin 是一種黄酮醇，透過 K 型別構機制活化 SIRT1，同時也是 wiki 中特徵明確的 senolytic；在來源文獻中可將酵母複製壽命延長約 33%。其 SIRT1 活化屬於天然多酚類 STAC 群集。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "e19986159240",
@@ -3047,9 +3047,9 @@
       "zh-TW": "Kaempferol 是一種黄酮醇（3,5,7,4'-四羥基黄酮），是 quercetin/apigenin 的姊妹化合物，作為天然多酚類 STAC 透過 K 型別構降低 Km 直接活化 SIRT1，常與抗老化和降低癌症風險的研究並提。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "5d3d7cb5b5c7",
@@ -3061,9 +3061,9 @@
       "zh-TW": "Catechin（茶類黃烷-3-醇，EGCG 的前體）是一種天然多酚類 STAC，透過 K 型別構機制活化 SIRT1，是其抗氧化/抗發炎與抗老化特性的來源之一。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "d1ec131f3a24",
@@ -3075,9 +3075,9 @@
       "zh-TW": "除了直接 K 型活化 SIRT1，quercetin（與 apigenin）還抑制 CD38（一種 NAD+ 水解酶），從而提升細胞 NAD+ 可及性——這是不同於別構的 NAD+ 提升機制。此雙重角色使 quercetin 同時處於直接 STAC 與 NAD+ 調節劑兩個陣營。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "d3da39281574",
@@ -3089,9 +3089,9 @@
       "zh-TW": "Proanthocyanidins（來自葡萄籽、可可的寡聚/多聚黃烷-3-醇）在原始文獻中是被記載的 SIRT1 調節劑，具有血管/神經保護作用，但缺少專屬 wiki 條目——這是一個已標記的缺口。它們與 catechins 同屬天然多酚類 STAC 群集。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "c1a1e15a11c0",
@@ -3103,9 +3103,9 @@
       "zh-TW": "AlphaFold 預測 SIRT1 的整體 pLDDT 僅 65.0，其中 46.6% 的殘基位於極低置信度（<50）區域——即確信結構的催化結構域與廣泛的內在無序 N 端、C 端區域混合。這種無序性使基於結構的 STAC 結合 N 端活化結構域建模變得困難，也有助於解釋從結構上解析別構活化的難度。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_alphafold_report_NAD+_26_JUN_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "4c89b4421330",
@@ -3117,9 +3117,9 @@
       "zh-TW": "在 AlphaFold 評估的九個 NAD+ 代謝蛋白中，SIRT1 的預測置信度最低（整體 pLDDT 65.0，46.6% 極低），而 SIRT6 預測信心高（pLDDT 87.5，78.6% 極高）。此排序在選擇 NAD+ 標的蛋白結構進行同源性建模或 sirtuin 活化劑對接時十分重要。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z",
-    "source": "task_output_alphafold_report_NAD+_26_JUN_2026.md"
+    "updated": "2026-08-24T21:29:14Z"
   },
   {
     "id": "ea798462cfe7",
@@ -3131,9 +3131,9 @@
       "zh-TW": "SIRT1 是主要的 H3K9 去乙醯酶（Vaquero et al., 2007）。vault 圖譜原本缺少直接的 SIRT1→H3K9 邊，需經 19 條三跳路徑繞行；此三元組填補該策展缺口，與來源回顧的受質目錄一致。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "e9278d4c7eec",
@@ -3145,9 +3145,9 @@
       "zh-TW": "SIRT6 去乙醯化 H3K9（Michishita et al., 2008/2009），參與其染色質/DNA 修復程序。此直接邊原本缺漏，依節點分析的策展缺口標記在此補回。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "5ed42fd5f2ed",
@@ -3159,9 +3159,9 @@
       "zh-TW": "SIRT6 去乙醯化 H3K56（Yang et al., 2009），此標記亦受 SIRT1 作用；節點分析將缺失的 SIRT6→H3K56 直接邊標記為應補回的策展缺口。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "f8a148237046",
@@ -3173,9 +3173,9 @@
       "zh-TW": "SIRT1 去乙醯化 α-tubulin（來源回顧中置信度約 0.9），是節點分析從 sirtuin 受質目錄中還原的直接受質邊。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "5955b10dd932",
@@ -3187,9 +3187,9 @@
       "zh-TW": "SIRT2 是主要的 α-tubulin/H4K16 去乙醯酶（置信度約 0.95），由節點分析還原為直接邊；其 Tubulin–SIRT2 軸現為活躍的藥物開發熱點（選擇性抑制劑/降解劑）。"
     },
     "confidence": 0.95,
+    "source_document": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "214fe1a804a3",
@@ -3201,9 +3201,9 @@
       "zh-TW": "SIRT5 在 CRC、HCC 與 NSCLC 中具促癌性，將代謝重新編程朝向糖酵解與谷氨酰胺分解；它去琥珀酰化 LDHB 以過度活化自噬，為腫瘤細胞提供回收營養。其去琥珀酰酶化學特性使其對煙鹼醯胺抑制具抗性。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "1ab4046bced2",
@@ -3215,9 +3215,9 @@
       "zh-TW": "SIRT6 透過在 SREBP 啟動子處去乙醯化組蛋白 H3 來抑制從頭脂肪生成，進而抑制 SREBP1/2 與 ChREBP——強化其抗 Warburg、抗癌的代謝程序。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "a653e6482a10",
@@ -3229,9 +3229,9 @@
       "zh-TW": "SIRT6 是最明確的抗 Warburg sirtuin：它協同抑制 HIF-1α 並抑制糖酵解酶（葡萄糖轉運體、Hexokinase 2）的轉錄，其缺失會容許 Warburg 樣的有氧糖酵解。恢復 SIRT6 可抑制 HCC/神經膠質瘤中的糖酵解。"
     },
     "confidence": 0.75,
+    "source_document": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "30675a39143a",
@@ -3243,9 +3243,9 @@
       "zh-TW": "圖譜節點分析（networkx/scipy，2026-08-15）：COMT 距 Dopamine 與 Epinephrine 皆 1 跳，具最高的 Adamic-Adar 潛在連結拉力（0.51–0.72）與兩者皆 #3 的個人化 PageRank 排名——是兒茶酚胺處理的直接酵素樞紐/閘門，相對於周邊的 MAO。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_comt_mao_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_comt_mao_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "9e6d224da904",
@@ -3257,9 +3257,9 @@
       "zh-TW": "圖譜節點分析：COMT 直接連結 Epinephrine（1 跳）並帶有所有來源–標的對中最強的潛在連結拉力（Adamic-Adar 0.721），在 wiki 圖譜中居於系統性兒茶酚胺代謝樞紐。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_comt_mao_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_comt_mao_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "9222efe20aa8",
@@ -3271,9 +3271,9 @@
       "zh-TW": "圖譜節點分析：MAO（degree 2、k-core 2）僅能透過 Epinephrine 到達 Dopamine（無直接邊），通勤距離約大 3–4 倍且阻力 z 近於零（Dopamine z = −0.70）——相對於 COMT 的樞紐地位，它是周邊的代謝輻條。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_comt_mao_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_comt_mao_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "0836dd888b2a",
@@ -3285,9 +3285,9 @@
       "zh-TW": "圖譜節點分析（及兒茶酚胺生化）：MAO 與 Epinephrine 有直接邊，且是 MAO 連結兒茶酚胺譜系的唯一實質圖譜足跡（與 Hydrogen Peroxide 並列）；其對 Dopamine 的拉力僅經由 Epinephrine 間接產生。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_comt_mao_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_comt_mao_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "6b41e7ab32d9",
@@ -3299,9 +3299,9 @@
       "zh-TW": "圖譜節點分析（2026-08-15）：SIRT3 經由兩條獨立最短路徑（透過 Oxidative Stress 與 NF-κB）到達 Adrenochrome，相對於 SIRT1/SIRT2 單一 NF-κB 橋樑——即 SIRT3 以路徑冗餘/穩健性被編入 Adrenochrome 的壓力區。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "7107706dc731",
@@ -3313,9 +3313,9 @@
       "zh-TW": "圖譜節點分析：SIRT1 依賴單一橋樑（NF-κB）到達 Adrenochrome，為單點失效；而 SIRT3 有兩條獨立路徑。然而依流量指標（PPR #63、最低有效電阻 0.094）SIRT1 仍是距 Adrenochrome 最近的 sirtuin。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "51d59dbc1cba",
@@ -3327,9 +3327,9 @@
       "zh-TW": "圖譜節點分析：SIRT3 對 Adrenochrome 展現最強的潛在（缺失邊）連結拉力（Adamic-Adar 0.556，對 SIRT1 的 0.268），與其雙路徑冗餘一致——圖譜將此 sirtuin 編碼為「屬於」adrenochrome 鄰域。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "9194f49ccf94",
@@ -3341,9 +3341,9 @@
       "zh-TW": "圖譜節點分析：SIRT1→Dopamine 是 sirtuin×兒茶酚酚胺組中路徑最豐富的關係（7 條經由 Aging、Parkinson's Disease、Senescence、Tau、Resveratrol 的不同最短路徑）——其多巴胺連結是間接且老化/神經退化脈絡性的，而非酵素性的。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_sirtuins_catecholamines_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "41d3c665b52e",
@@ -3355,9 +3355,9 @@
       "zh-TW": "圖譜節點分析：SIRT3→Dopamine 僅有一條路徑，經由 Oxidative Stress——任何 sirtuin 對兒茶酚胺持有的唯一潛在氧化還原邊——使 SIRT3 成為與多巴胺具真正氧化還原/基因毒性連結的 sirtuin。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_sirtuins_catecholamines_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   },
   {
     "id": "39eb9bbce724",
@@ -3369,8 +3369,8 @@
       "zh-TW": "圖譜節點分析（sirtuin/兒茶酚胺合併演練）：COMT 是通往 Dopamine 的真正酵素閘門（1 跳相鄰、Dopamine 種子 #3 PageRank、最高 Adamic-Adar），而 sirtuins 的多巴胺相關性是老化/神經退化脈絡現象。"
     },
     "confidence": 0.4,
+    "source_document": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-08-24T21:33:07Z",
-    "source": "task_output_node_sirtuins_catecholamines_15_August_2026.md"
+    "updated": "2026-08-24T21:33:07Z"
   }
 ]

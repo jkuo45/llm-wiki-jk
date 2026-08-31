@@ -20,7 +20,7 @@ The MET locus on chromosome 7q31 encodes a single-pass transmembrane receptor sy
 
 ## Mechanism of Action & Downstream Pathways
 
-HGF binding induces MET dimerization and activation of its kinase, phosphorylating the multi-substrate docking site. This recruits GRB2/SOS (activating [[RAS]]–[[MAPK]]), PI3K–AKT (survival and growth), SHC, STAT3, and SRC family kinases, collectively producing the "invasive growth" program: branching morphogenesis, migration, and [[Epithelial-to-Mesenchymal Transition]]-like scattering. MET cross-talks with Wnt, Notch, and integrin signaling and cooperates with [[TP53]] loss and [[RB1]] pathway alterations in tumor evolution.
+HGF binding induces MET dimerization and activation of its kinase, phosphorylating the multi-substrate docking site. This recruits GRB2/SOS (activating [[RAS]]–[[MAPK]]), PI3K–AKT (survival and growth), SHC, STAT3, and SRC family kinases, collectively producing the "invasive growth" program: branching morphogenesis, migration, and [[Epithelial-to-Mesenchymal Transition]]-like scattering. MET cross-talks with Wnt, Notch, and integrin signaling and cooperates with [[p53]] loss and [[RB1]] pathway alterations in tumor evolution.
 
 ## Physiological Function
 
@@ -37,10 +37,10 @@ MET is activated in cancer by gene amplification (notably gastric and esophageal
 - [[Cancer]] - disease context of MET activation
 - [[Receptor Tyrosine Kinase]] - enzyme class of c-Met
 - [[Epithelial-to-Mesenchymal Transition]] - program driven by MET
-- [[TP53]] - cooperating alteration in MET-driven tumors
+- [[p53]] - cooperating alteration in MET-driven tumors
 
 ## Linking Summary
 
-- New links added: [[MET gene]], [[c-Met]], [[Hepatocyte Growth Factor]], [[Cancer]], [[Receptor Tyrosine Kinase]], [[Tyrosine Kinase]], [[Epithelial-to-Mesenchymal Transition]], [[TP53]], [[RB1]], [[Tumorigenicity]], [[Progenitor Cell]]
+- New links added: [[MET gene]], [[c-Met]], [[Hepatocyte Growth Factor]], [[Cancer]], [[Receptor Tyrosine Kinase]], [[Tyrosine Kinase]], [[Epithelial-to-Mesenchymal Transition]], [[p53]], [[RB1]], [[Tumorigenicity]], [[Progenitor Cell]]
 - Suggested new entity notes to create: [[HGF]], [[MET Exon 14 Skipping]], [[RAS]]
 - Strong connections to strengthen: [[MET gene]] ↔ [[Cancer]], [[MET gene]] ↔ [[c-Met]]

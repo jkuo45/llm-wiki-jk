@@ -18,7 +18,7 @@ Tumorigenesis (carcinogenesis) is the process by which normal cells acquire gene
 
 ## Stages
 
-1. **Initiation**: Irreversible [[DNA damage]] (mutations) in proto-oncogenes (e.g., [[KRAS]], [[MYC]]) or tumor suppressor genes (e.g., [[TP53]], [[RB1]], [[APC]]).
+1. **Initiation**: Irreversible [[DNA damage]] (mutations) in proto-oncogenes (e.g., [[KRAS]], [[MYC]]) or tumor suppressor genes (e.g., [[p53]], [[RB1]], [[APC]]).
 2. **Promotion**: Clonal expansion of initiated cells driven by [[growth factors]], [[cytokines]], and [[inflammatory]] signals.
 3. **Progression**: Accumulation of additional mutations, [[genomic instability]], [[angiogenic]] switch, [[EMT]], and acquisition of invasive and [[metastatic]] capacity.
 

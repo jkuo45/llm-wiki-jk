@@ -15,14 +15,14 @@ protected: false
 
 # NEMO
 
-[[NEMO]] (NF-κB Essential Modulator, also known as IKKγ) is the regulatory subunit of the [[IKK complex|IκB kinase (IKK) complex]] and an obligate scaffold for [[NF-kappaB|NF-κB]] activation. It integrates diverse upstream inputs—including cytokine receptors, pattern-recognition receptors, and genotoxic stress—to phosphorylate [[IkappaBalpha|IκBα]] and liberate active NF-κB dimers.
+[[NEMO]] (NF-κB Essential Modulator, also known as IKKγ) is the regulatory subunit of the [[IKK complex|IκB kinase (IKK) complex]] and an obligate scaffold for [[NF-κB|NF-κB]] activation. It integrates diverse upstream inputs—including cytokine receptors, pattern-recognition receptors, and genotoxic stress—to phosphorylate [[IkappaBalpha|IκBα]] and liberate active NF-κB dimers.
 
 ## Role in DNA Damage Response and Senescence
 
-NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to inflammatory signaling. In the context of [[Senescence|cellular senescence]], activation of [[ATM]] within the DDR pathway promotes [[NF-kappaB|NF-κB]] signaling through **NEMO-dependent mechanisms**, thereby initiating transcription of pro-inflammatory [[SASP|SASP]] mediators.
+NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to inflammatory signaling. In the context of [[Senescence|cellular senescence]], activation of [[ATM]] within the DDR pathway promotes [[NF-κB|NF-κB]] signaling through **NEMO-dependent mechanisms**, thereby initiating transcription of pro-inflammatory [[SASP|SASP]] mediators.
 
 > [!info] Source: [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
-> Activation of [[ATM]] within the [[DNA Damage|DDR pathway]] promotes [[NF-kappaB|NF-κB]] signaling through NEMO-dependent mechanisms, thereby initiating the transcription of pro-inflammatory mediators that constitute the [[SASP]].
+> Activation of [[ATM]] within the [[DNA Damage|DDR pathway]] promotes [[NF-κB|NF-κB]] signaling through NEMO-dependent mechanisms, thereby initiating the transcription of pro-inflammatory mediators that constitute the [[SASP]].
 
 ## Mechanism
 
@@ -32,7 +32,7 @@ NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to 
 
 ## Connections
 
-- [[NF-kappaB]] — NEMO is the essential modulator that activates the IKK complex upstream of NF-κB.
+- [[NF-κB]] — NEMO is the essential modulator that activates the IKK complex upstream of NF-κB.
 - [[ATM]] — DDR kinase that engages NEMO to relay DNA damage into NF-κB signaling.
 - [[IKK complex]] / [[IKKbeta]] — Core kinase partners scaffolded by NEMO.
 - [[SASP]] — NEMO-dependent NF-κB activation initiates SASP mediator transcription in senescence.
@@ -40,6 +40,6 @@ NEMO is a critical node linking the [[DNA Damage|DNA damage response (DDR)]] to 
 
 ## Linking Summary
 
-- New links added: [[NF-kappaB]], [[ATM]], [[IKK complex]], [[IKKbeta]], [[SASP]], [[Senescence]], [[DNA Damage]], [[TAK1]]
+- New links added: [[NF-κB]], [[ATM]], [[IKK complex]], [[IKKbeta]], [[SASP]], [[Senescence]], [[DNA Damage]], [[TAK1]]
 - Suggested new entity notes to create: [[IKK complex]], [[IKKbeta]], [[TAK1]]
-- Strong connections to strengthen: [[NEMO]] ↔ [[NF-kappaB]], [[NEMO]] ↔ [[SASP]]
+- Strong connections to strengthen: [[NEMO]] ↔ [[NF-κB]], [[NEMO]] ↔ [[SASP]]

@@ -29,11 +29,11 @@ export function currentTheme() {
   catch (err) { return 'light'; }
 }
 
-function getTheme() {
+export function getTheme() {
   return currentTheme();
 }
 
-function setTheme(theme) {
+export function setTheme(theme) {
   const t = theme === 'light' ? 'light' : 'dark';
   try { localStorage.setItem(THEME_KEY, t); } catch (err) {}
   applyTheme(t);
@@ -83,8 +83,23 @@ function applyTheme(theme) {
       : 'Switch to light theme / 切換為淺色主題');
   }
   syncReaderFrame(theme);
-  // 6) Notify in-app consumers (prompt.js rebuilds an open HTML-mode document).
+  // 6) Notify in-app consumers (analysis.js rebuilds an open HTML-mode document).
   window.dispatchEvent(new CustomEvent('site-theme-change', { detail: { theme } }));
+  themeSubscribers.forEach((fn) => { try { fn(theme); } catch (err) {} });
+}
+
+// Public API: other modules (reader chrome, pages) toggle or observe the
+// theme without reaching into internals. Subscribers fire on every applied
+// change, including cross-tab storage events.
+export function toggleTheme() {
+  setTheme(getTheme() === 'light' ? 'dark' : 'light');
+}
+
+const themeSubscribers = new Set();
+export function subscribeTheme(fn) {
+  themeSubscribers.add(fn);
+  fn(getTheme());
+  return () => themeSubscribers.delete(fn);
 }
 
 // Settings tab Theme buttons.
@@ -98,7 +113,7 @@ if (themeGrid) {
 
 // Reader header sun/moon toggle.
 if (themeBtn) {
-  themeBtn.addEventListener('click', () => setTheme(getTheme() === 'light' ? 'dark' : 'light'));
+  themeBtn.addEventListener('click', toggleTheme);
 }
 
 // Sync across tabs (article pages sync themselves via the same storage event).

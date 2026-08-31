@@ -54,7 +54,7 @@ List of documents that mention this entity
 - [[MPTP]] — interacts with Mitochondrial Dysfunction
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[PINK1]]: PINK1 deficiency underlies mitochondrial dysfunction in IPF senescence
-- [[NF-kappaB|NF-κB]]: Mitochondrial ROS activate NF-κB to drive SASP
+- [[NF-κB|NF-κB]]: Mitochondrial ROS activate NF-κB to drive SASP
 ## Linking Summary
 - New links added: [[TFEB]], [[Mitochondria]], [[Mitophagy]], [[Parkinson's Disease]], [[Substantia Nigra]], [[Oxidative Stress]], [[Neuromelanin]], [[MPTP]].
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]], [[ATP]], [[Complex I]], [[Mitophagy]].

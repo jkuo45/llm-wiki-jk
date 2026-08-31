@@ -15,7 +15,7 @@ Glutaminase (GLS) is a mitochondrial enzyme that catalyzes the hydrolytic deamid
 
 ## Structure & Isoforms
 
-Two major kidney-type isoforms exist: GLS1 (encoded by GLS, with alternatively spliced variants kidney-type glutaminase KGA and glutaminase C GAC) and GLS2 (liver-type, encoded by GLS2). GLS1 is the predominant isoform in most proliferating cells and is allosterically activated by inorganic phosphate and by the product glutamate at high concentrations, while the broadly conserved tumor suppressor [[TP53]] transcriptionally induces GLS2. Both isoforms are mitochondrial matrix enzymes requiring oligomerization for catalytic activity.
+Two major kidney-type isoforms exist: GLS1 (encoded by GLS, with alternatively spliced variants kidney-type glutaminase KGA and glutaminase C GAC) and GLS2 (liver-type, encoded by GLS2). GLS1 is the predominant isoform in most proliferating cells and is allosterically activated by inorganic phosphate and by the product glutamate at high concentrations, while the broadly conserved tumor suppressor [[p53]] transcriptionally induces GLS2. Both isoforms are mitochondrial matrix enzymes requiring oligomerization for catalytic activity.
 
 ## Mechanism of Action
 
@@ -45,11 +45,11 @@ List of documents that mention this entity
 - [[Pancreatic Cancer]]: Tumor context where TFEB-driven glutaminase supports metabolic reprogramming and resistance.
 - [[Cancer]]: Glutamine-addiction target; GLS inhibitors sensitize tumors to therapy.
 - [[Oxidative Stress]]: Glutamate feeds glutathione synthesis, buffering reactive oxygen species.
-- [[TP53]]: Induces the GLS2 isoform, linking tumor suppression to glutaminolysis.
+- [[p53]]: Induces the GLS2 isoform, linking tumor suppression to glutaminolysis.
 - [[Aging]]: Metabolism-autophagy coupling relevant to senescence and longevity.
 - [[α-Ketoglutarate]]: TCA-cycle intermediate replenished by glutaminolysis.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[Pancreatic Cancer]], [[Autophagy]], [[Cancer]], [[Oxidative Stress]], [[TP53]], [[Aging]], [[α-Ketoglutarate]]
+- New links added: [[TFEB]], [[Pancreatic Cancer]], [[Autophagy]], [[Cancer]], [[Oxidative Stress]], [[p53]], [[Aging]], [[α-Ketoglutarate]]
 - Suggested new entity notes to create: [[Glutamine Metabolism]], [[Glutaminolysis]], [[CB-839]]
 - Strong connections to strengthen: [[Glutaminase]] ↔ [[TFEB]], [[Glutaminase]] ↔ [[Autophagy]]

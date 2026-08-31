@@ -28,7 +28,7 @@ Have you ever taken a supplement, such as [[Methylfolate]] or [[MethylB12]], and
 
 ### What is the [[COMT]] Enzyme?
 
-The [[COMT]] gene encodes an enzyme called [[Catechol-O-methyltransferase]], which breaks down [[Catechols]].
+The [[COMT]] gene encodes an enzyme called [[COMT|Catechol-O-methyltransferase]], which breaks down [[Catechols]].
 
 *What are catechols — and why do we need to break them down?*
 
@@ -42,7 +42,7 @@ Without the [[COMT]]-controlled [[Methylation]] reaction, [[Catecholamines]] can
 
 ### How does COMT relate to methylation?
 
-The **methyl** in [[Catechol-O-methyltransferase]] ([[COMT]]) is because [[COMT]] uses a [[Methyl groups|methyl group]] in the process of metabolizing [[Catechols]]. [[Methyl groups|Methyl groups]] are used in hundreds of reactions in the body, and adding a methyl group can change one substance into another. For example, [[Serotonin]] is converted into [[Melatonin]] through a process that involves adding a methyl group.
+The **methyl** in [[COMT|Catechol-O-methyltransferase]] ([[COMT]]) is because [[COMT]] uses a [[Methyl groups|methyl group]] in the process of metabolizing [[Catechols]]. [[Methyl groups|Methyl groups]] are used in hundreds of reactions in the body, and adding a methyl group can change one substance into another. For example, [[Serotonin]] is converted into [[Melatonin]] through a process that involves adding a methyl group.
 
 ### COMT Variants: Slow COMT vs. Fast COMT ([[Val158Met]])
 
@@ -233,6 +233,6 @@ Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety fro
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
-- Suggested new entity notes to create: [[COMT]], [[Catechol-O-methyltransferase]], [[Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
+- New links added: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- Suggested new entity notes to create: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
 - Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[Dopamine]].

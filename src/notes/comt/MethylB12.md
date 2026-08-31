@@ -18,11 +18,11 @@ Methylcobalamin consists of a central cobalt ion held in a corrin ring, with a m
 
 ## Mechanism and Role in Methylation
 
-[[MethylB12]] functions as the prosthetic group of [[Methionine Synthase]] ([[MTR]]), which remethylates [[Homocysteine]] to [[Methionine]] using the methyl group supplied by [[Methylfolate]] (5-methyl-THF). This reaction simultaneously regenerates tetrahydrofolate for nucleotide synthesis and produces [[Methionine]], the precursor of [[S-Adenosylmethionine]] ([[SAMe]]) — the universal methyl donor consumed by [[COMT]] and other methyltransferases. The enzyme [[MTRR]] (methionine synthase reductase) maintains MTR in its active reduced state by reducing the cobalt center.
+[[MethylB12]] functions as the prosthetic group of [[Methionine Synthase]] ([[MTR]]), which remethylates [[Homocysteine]] to [[Methionine]] using the methyl group supplied by [[Methylfolate]] (5-methyl-THF). This reaction simultaneously regenerates tetrahydrofolate for nucleotide synthesis and produces [[Methionine]], the precursor of [[SAM|S-Adenosylmethionine]] ([[SAMe]]) — the universal methyl donor consumed by [[COMT]] and other methyltransferases. The enzyme [[MTRR]] (methionine synthase reductase) maintains MTR in its active reduced state by reducing the cobalt center.
 
 ## Interaction with COMT
 
-Because [[MethylB12]] feeds the production of [[SAMe]], it indirectly influences the rate of [[COMT]] ([[Catechol-O-methyltransferase]])-mediated methylation of catecholamines. Individuals homozygous for slow [[COMT]] variants ([[Val158Met]] Met/Met) are unusually sensitive to high-dose methyl-donor supplementation: a sudden surge in methyl groups can over-drive catecholamine methylation and rapid shifting of [[Neurotransmitters]], manifesting as anxiety, irritability, insomnia, or mood lability ("overmethylation" reaction).
+Because [[MethylB12]] feeds the production of [[SAMe]], it indirectly influences the rate of [[COMT]] ([[COMT|Catechol-O-methyltransferase]])-mediated methylation of catecholamines. Individuals homozygous for slow [[COMT]] variants ([[Val158Met]] Met/Met) are unusually sensitive to high-dose methyl-donor supplementation: a sudden surge in methyl groups can over-drive catecholamine methylation and rapid shifting of [[Neurotransmitters]], manifesting as anxiety, irritability, insomnia, or mood lability ("overmethylation" reaction).
 
 ## Alternatives for Slow COMT
 
@@ -51,6 +51,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Vitamin B12]], [[Methyl Donor]], [[Methylation Cycle]], [[Methionine Synthase]], [[MTRR]], [[COMT]], [[Methylfolate]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[Val158Met]], [[Homocysteine]], [[Methionine]], [[S-Adenosylmethionine]], [[Neurotransmitters]].
+- New links added: [[Vitamin B12]], [[Methyl Donor]], [[Methylation Cycle]], [[Methionine Synthase]], [[MTRR]], [[COMT]], [[Methylfolate]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[Val158Met]], [[Homocysteine]], [[Methionine]], [[SAM|S-Adenosylmethionine]], [[Neurotransmitters]].
 - Suggested new entity notes to create: [[Methionine Synthase]], [[Pernicious Anemia]], [[Homocysteine]].
 - Strong connections to strengthen: [[MethylB12]] ↔ [[COMT]]; [[MethylB12]] ↔ [[Methylation Cycle]].

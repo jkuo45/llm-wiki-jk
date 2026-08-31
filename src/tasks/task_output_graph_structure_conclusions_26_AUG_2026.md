@@ -1,9 +1,9 @@
 ---
 title: Further Graph-Level Conclusions From graph.json
-description: Structural conclusions beyond the per-node metric fingerprint — degree distribution and giant-component dominance, centrality concentration as collection-strategy bias, community cohesion inversion, effector-arm fragility around acid ceramidase, entity-resolution debt, edge-direction semantics, ambiguity clustering, provenance staleness, and cross-document integration gaps. Derived from stored node metrics in graphify-out/graph.json, aggregate counters in GRAPH_REPORT.md, and recorded scripts/04_node_analysis.py runs.
+description: Structural conclusions beyond the per-node metric fingerprint — degree distribution and giant-component dominance, centrality concentration as collection-strategy bias, community cohesion inversion, effector-arm fragility around acid ceramidase, entity-resolution debt, edge-direction semantics, ambiguity clustering, provenance staleness, and cross-document integration gaps. Derived from stored node metrics in graphify-out/graph.json, aggregate counters in GRAPH_REPORT.md, and recorded scripts/analysis/node_analysis.py runs.
 created: 2026-08-26
 updated: 2026-08-26
-source: graphify-out/graph.json + graphify-out/GRAPH_REPORT.md + recorded outputs of scripts/04_node_analysis.py
+source: graphify-out/graph.json + graphify-out/GRAPH_REPORT.md + recorded outputs of scripts/analysis/node_analysis.py
 tags:
   - task-output
   - knowledge-graph
@@ -12,7 +12,6 @@ tags:
   - graph-structure
   - curation
 author: []
-starred: false
 ---
 
 # Further Graph-Level Conclusions From graph.json
@@ -20,16 +19,16 @@ starred: false
 > [!NOTE]
 > **Task**: Export the second-round structural conclusions drawn after the node-analysis reference work — moving past the per-node fingerprint toward graph-level architecture, bias sources, and curation priorities.
 > **Date**: 26_AUG_2026
-> **Basis**: Everything below derives from the stored per-node fingerprints in `graphify-out/graph.json`, the aggregate counters in `graphify-out/GRAPH_REPORT.md`, and the recorded `scripts/04_node_analysis.py` runs (16–17 August 2026 task outputs). No fresh execution is claimed; each section carries the exact NetworkX command that would confirm or extend its reading.
+> **Basis**: Everything below derives from the stored per-node fingerprints in `graphify-out/graph.json`, the aggregate counters in `graphify-out/GRAPH_REPORT.md`, and the recorded `scripts/analysis/node_analysis.py` runs (16–17 August 2026 task outputs). No fresh execution is claimed; each section carries the exact NetworkX command that would confirm or extend its reading.
 
 ---
 
 ## Basis of Derivation
 
 - Sources read together:
-  - Per-node fingerprint stored on every node (`degree`, `in_degree`, `out_degree`, `pagerank`, `betweenness_centrality`, `clustering_coefficient`, `k_core_number`, `community_size`, `community_name`) — computed by `scripts/03_rebuild_from_triples.py` (`enrich_graph_metrics()`).
+  - Per-node fingerprint stored on every node (`degree`, `in_degree`, `out_degree`, `pagerank`, `betweenness_centrality`, `clustering_coefficient`, `k_core_number`, `community_size`, `community_name`) — computed by `scripts/triples/rebuild.py` (`enrich_graph_metrics()`).
   - Aggregate counters in `graphify-out/GRAPH_REPORT.md` (2,624 nodes / 3,768 edges / 398 communities / god nodes / isolated-node list / ambiguous edges).
-  - Recorded multi-node analytics results (path multiplicity, Jaccard, Adamic–Adar, effective resistance, PPR) from the sirtuin run of `scripts/04_node_analysis.py`.
+  - Recorded multi-node analytics results (path multiplicity, Jaccard, Adamic–Adar, effective resistance, PPR) from the sirtuin run of `scripts/analysis/node_analysis.py`.
 - No live queries against graphify were used; graphify's query tools were deliberately bypassed so every conclusion here rests on quantities reproducible with plain NetworkX.
 
 ---
@@ -125,7 +124,7 @@ PY
 - Confirmation command:
 
 ```bash
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources acid_ceramidase --targets ferroptosis
 ```
 
@@ -214,4 +213,4 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
   - `src/tasks/task_output_node_analysis_biology_16_AUG_2026.md` — fingerprint methodology and worked examples.
   - `src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md` — recorded multi-node analytics (PPR, Jaccard, Adamic–Adar, effective resistance, λ₂).
 - Graph metadata: `graphify-out/GRAPH_REPORT.md` (god nodes, communities, isolated list, ambiguous edges).
-- Multi-node script: `scripts/04_node_analysis.py`; rebuild pipeline: `scripts/03_rebuild_from_triples.py`.
+- Multi-node script: `scripts/analysis/node_analysis.py`; rebuild pipeline: `scripts/triples/rebuild.py`.

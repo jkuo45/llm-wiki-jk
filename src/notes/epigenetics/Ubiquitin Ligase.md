@@ -20,7 +20,7 @@ E3 ligases fall into major families defined by catalytic domain. **RING (Really 
 
 ## Substrate Circuits
 
-The [[Anaphase Promoting Complex-Cyclosome]] (APC/C), a multisubunit RING E3, drives mitotic exit by ordering degradation of securin and cyclins, thereby controlling [[Mitosis]] and the [[Cell Cycle]]. The SCF (SKP1–CUL1–F-box) family targets canonical inhibitors (e.g., phospho-IκB, phospho-β-catenin) for destruction, integrating with Wnt and NF-κB pathways. MDM2 ubiquitinates [[TP53]], a key node in senescence and tumor suppression (see [[Tumor-Suppressor Loss-Induced Senescence]]).
+The [[Anaphase Promoting Complex-Cyclosome]] (APC/C), a multisubunit RING E3, drives mitotic exit by ordering degradation of securin and cyclins, thereby controlling [[Mitosis]] and the [[Cell Cycle]]. The SCF (SKP1–CUL1–F-box) family targets canonical inhibitors (e.g., phospho-IκB, phospho-β-catenin) for destruction, integrating with Wnt and NF-κB pathways. MDM2 ubiquitinates [[p53]], a key node in senescence and tumor suppression (see [[Tumor-Suppressor Loss-Induced Senescence]]).
 
 ## Physiological Function
 
@@ -36,11 +36,11 @@ E3 ligase dysfunction underlies [[Cancer]] (MDM2 amplification stabilizing oncop
 - [[Protein Degradation]] - the principal outcome of ubiquitination
 - [[Anaphase Promoting Complex-Cyclosome]] - mitotic E3 controlling division
 - [[E3 Ubiquitin Ligase]] - the enzyme class itself
-- [[TP53]] - substrate of the MDM2 E3
+- [[p53]] - substrate of the MDM2 E3
 - [[Cancer]] - disease context of E3 dysfunction
 
 ## Linking Summary
 
-- New links added: [[Proteasome]], [[Protein Degradation]], [[Anaphase Promoting Complex-Cyclosome]], [[E3 Ubiquitin Ligase]], [[Mitosis]], [[Cell Cycle]], [[TP53]], [[Cancer]], [[RB1]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Translation]]
+- New links added: [[Proteasome]], [[Protein Degradation]], [[Anaphase Promoting Complex-Cyclosome]], [[E3 Ubiquitin Ligase]], [[Mitosis]], [[Cell Cycle]], [[p53]], [[Cancer]], [[RB1]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Translation]]
 - Suggested new entity notes to create: [[PROTAC]], [[MDM2]], [[Deubiquitinase]]
 - Strong connections to strengthen: [[Ubiquitin Ligase]] ↔ [[Proteasome], [Ubiquitin Ligase] ↔ [[Cell Cycle]]

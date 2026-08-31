@@ -5,10 +5,11 @@
 import { esc } from './markdown.js';
 import { updateHash, parseHash } from './routing.js';
 import { state } from './state.js';
-import { openPromptComposer } from './prompt.js';
-import { getUiLang, setUiLang, persistUiLang, onUiLangChange } from './i18n.js';
+import { openPromptComposer } from './analysis.js';
+import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
+import { anyModalOpen } from './modal.js';
 
-const API_BASE = (window.GRAPH_API_BASE || 'https://api.johnnykuo.com/v1').replace(/\/$/, '');
+const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
 
 // GitHub-first image host. Every committed note image lives at the
@@ -16,16 +17,20 @@ const NOTES_API = `${API_BASE}/notes`;
 // this repo, so the browser loads it straight from raw.githubusercontent
 // instead of proxying image bytes through the API. The API `/v1/notes/image`
 // endpoint remains only as the onerror fallback (staged drafts, not-yet-pushed
-// images, or raw.githubusercontent cache lag). Override for local dev or a
-// different deploy branch with:  window.GRAPH_NOTES_IMAGE_BASE = '…';
-const GH_NOTES_BASE = (window.GRAPH_NOTES_IMAGE_BASE
-  || 'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images').replace(/\/$/, '');
+// images, or raw.githubusercontent cache lag).
+// Externalized like the rest of the frontend: build-time VITE_GITHUB_NOTES_IMAGE_BASE
+// (repo-root .env) > runtime window.GRAPH_NOTES_IMAGE_BASE > default.
+const GH_NOTES_BASE = (
+  import.meta.env.VITE_GITHUB_NOTES_IMAGE_BASE ||
+  window.GRAPH_NOTES_IMAGE_BASE ||
+  'https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images'
+).replace(/\/$/, '');
 
 // Bilingual (zh-TW) display labels for the controlled tag vocabulary. The raw
 // slug remains the source of truth for filtering/search — only the rendered
-// text is localized via `tagLabel()`. Resolve relative to this module so it
-// works no matter where the server root is (same convention as components/data.js).
-const NOTES_DATA_BASE = new URL('../data/', import.meta.url).href;
+// text is localized via `tagLabel()`. Resolved against the Vite base URL
+// (same convention as components/data.js).
+const NOTES_DATA_BASE = import.meta.env.BASE_URL + 'data/';
 let TAG_LABELS = null;            // { <slug>: '繁體中文 label' } once loaded
 let tagLabelsPending = false;
 
@@ -66,7 +71,6 @@ const notesPanel = $('notes-panel');
 const notesBtn = $('btn-notes');
 const notesClose = $('notes-close');
 const browseEl = $('notes-browse');
-const uploadEl = $('notes-upload');
 const lightboxEl = $('notes-lightbox');
 const searchInput = $('notes-search');
 const sortBtn = $('notes-sort');
@@ -138,129 +142,8 @@ let viewMode = false;        // fullscreen image view (side details hidden)
 // Sibling of the Reader's article language toggle: `uiLang` picks both the
 // panel's own labels and, per note, `note.translations[uiLang]` when present
 // (falling back to `note.translations['en-US']`, then to legacy root fields).
+// The string table itself lives in i18n.js (shared with the analysis panel).
 // ------------------------------------------------------------
-const UI_STRINGS = {
-  'en-US': {
-    panelClose: 'Close panel',
-    searchPlaceholder: '🔎 Search notes, transcripts, tags, etc.',
-    done: 'Done',
-    sectionNotes: 'Notes',
-    filterByTopic: 'Filter by topic',
-    allTopics: 'All topics',
-    filterByDocument: 'Filter by document',
-    allDocuments: 'All documents',
-    sortDesc: 'Sort by created date — newest first',
-    sortAsc: 'Sort by created date — oldest first',
-    filterByTagPrefix: 'Filter by tag: ',
-    panelLanguage: 'Panel language',
-    langEn: 'English (US)',
-    langZh: '繁體中文（台灣）',
-    galleryLoading: 'Loading notes…',
-    galleryApiDown: 'Notes API unreachable — could not load notes.',
-    galleryNoMatch: 'No notes match your filters.',
-    galleryEmpty: 'No notes yet.',
-    removeTagFilter: 'Remove tag filter',
-    back: '← Gallery',
-    backToGallery: 'Back to gallery',
-    prevImg: 'Previous image',
-    prevNav: '← Previous',
-    nextNav: 'Next →',
-    nextImg: 'Next image',
-    viewLabel: '⛶ Full',
-    detailsLabel: '⛶ Details',
-    viewFull: 'Fullscreen view of the note',
-    viewDetails: 'Show details panel',
-    annDownload: 'Download this page as a PNG with the annotations drawn in',
-    transcript: 'Transcript',
-    tags: 'Tags',
-    annotations: 'Annotations',
-    none: 'none',
-    noTranscript: 'No transcript yet.',
-    ocrFailed: 'The existing transcription failed — the OCR model could not read the image (it may not support vision).',
-    sendPromptBtn: '→ Prompt',
-    sendPrompt: 'Send this transcript to the analysis Prompt',
-    noUsableTranscript: 'This note has no usable transcript yet',
-    openNoteToSend: 'Open a note to send its transcript',
-    toolCircle: 'Circle highlight',
-    toolCircleLabel: '∘ Circle',
-    toolRect: 'Rectangle highlight',
-    toolRectLabel: '▭ Rect',
-    toolArrow: 'Arrow',
-    toolArrowLabel: '→ Arrow',
-    toolLabel: 'Text label',
-    toolLabelLabel: 'A Label',
-    clearAnn: 'Clear',
-    clearAnnTitle: 'Clear annotations on current page',
-    colorYellow: 'Yellow',
-    colorGreen: 'Green',
-    colorBlue: 'Blue',
-    colorRed: 'Red',
-    colorPurple: 'Purple',
-    starred: 'Starred',
-  },
-  'zh-TW': {
-    panelClose: '關閉面板',
-    searchPlaceholder: '搜尋轉錄筆記、標籤',
-    done: '完成',
-    sectionNotes: '筆記',
-    filterByTopic: '主題篩選',
-    allTopics: '全部主題',
-    filterByDocument: '文件篩選',
-    allDocuments: '全部文件',
-    sortDesc: '依建立日期排序 — 最新在前',
-    sortAsc: '依建立日期排序 — 最舊在前',
-    filterByTagPrefix: '以標籤篩選: ',
-    panelLanguage: '面板語言',
-    langEn: '英語（美國）',
-    langZh: '繁體中文（台灣）',
-    galleryLoading: '載入筆記中…',
-    galleryApiDown: '無法連線 Notes API — 無法載入筆記。',
-    galleryNoMatch: '沒有符合篩選條件的筆記。',
-    galleryEmpty: '尚無任何筆記。',
-    removeTagFilter: '移除標籤篩選',
-    back: '← 圖庫',
-    backToGallery: '返回圖庫',
-    prevImg: '上一張',
-    prevNav: '← 上一張',
-    nextNav: '下一張 →',
-    nextImg: '下一張',
-    viewLabel: '⛶ 全螢幕',
-    detailsLabel: '⛶ 詳情',
-    viewFull: '筆記全螢幕檢視',
-    viewDetails: '顯示詳情面板',
-    annDownload: '將此頁及標註下載為 PNG',
-    transcript: '文字稿',
-    tags: '標籤',
-    annotations: '標註',
-    none: '無',
-    noTranscript: '尚無文字稿。',
-    ocrFailed: '既有的文字稿轉錄失敗 — OCR 模型無法讀取圖片（可能不支援視覺）。',
-    sendPromptBtn: '→ 傳送至提示',
-    sendPrompt: '將此文字稿傳送至分析提示',
-    noUsableTranscript: '此筆記尚無可用的文字稿',
-    openNoteToSend: '開啟筆記以傳送其文字稿',
-    toolCircle: '圓形標註',
-    toolCircleLabel: '∘ 圓形',
-    toolRect: '矩形標註',
-    toolRectLabel: '▭ 矩形',
-    toolArrow: '箭頭',
-    toolArrowLabel: '→ 箭頭',
-    toolLabel: '文字標籤',
-    toolLabelLabel: 'A 標籤',
-    clearAnn: '清除',
-    clearAnnTitle: '清除目前頁面的標註',
-    colorYellow: '黃色',
-    colorGreen: '綠色',
-    colorBlue: '藍色',
-    colorRed: '紅色',
-    colorPurple: '紫色',
-    starred: '已加星號',
-  },
-};
-
-function t(key) {
-  return (UI_STRINGS[uiLang] && UI_STRINGS[uiLang][key]) || UI_STRINGS['en-US'][key] || '';
-}
 
 // Manifest notes carry per-language content in `note.translations`
 // (e.g. translations.en-US.title/ocr). Prefer the active language, then fall
@@ -302,7 +185,7 @@ function applyUiLang(lang) {
   notesClose.setAttribute('aria-label', t('panelClose'));
   langToggles.forEach((el) => el.setAttribute('aria-label', t('panelLanguage')));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
-  searchInput.placeholder = t('searchPlaceholder');
+  searchInput.placeholder = t('notesSearchPlaceholder');
   closeCombobox();
 
   renderGallery();
@@ -377,7 +260,7 @@ lbImg.addEventListener('error', () => {
 // Derive a display topic from the tags list (prefer the topic-style
 // tag when present, otherwise the first tag). The controlled vocabulary
 // of valid topic slugs is auto-derived from the src/notes/*/ directory
-// layout and exported to web/data/topics.json by 03_rebuild_from_triples.py,
+// layout and exported to web/data/topics.json by scripts/triples/rebuild.py,
 // so adding a topic folder needs no code change. Until that JSON loads
 // (null), fall back to the tag list as before.
 let KNOWN_TOPICS = null;        // string[] once loaded from topics.json
@@ -468,14 +351,14 @@ window.addEventListener('resize', syncNotesKeyboard);
 notesBtn.addEventListener('click', () => {
   if (notesPanel.classList.contains('open')) { closeNotes(); return; }
   // Only one overlay at a time: close the analysis panel if it is open.
-  const promptClose = $('prompt-close');
-  const promptOpen = document.getElementById('prompt-panel')?.classList.contains('open');
+  const promptClose = $('analysis-close');
+  const promptOpen = document.getElementById('analysis-panel')?.classList.contains('open');
   if (promptOpen && promptClose) promptClose.click();
   openNotes();
 });
 // Conversely, if the analysis panel opens while notes are up, close notes first.
 document.addEventListener('click', (e) => {
-  if (notesPanel.classList.contains('open') && e.target.closest('#btn-prompt')) closeNotes();
+  if (notesPanel.classList.contains('open') && e.target.closest('#btn-analysis')) closeNotes();
 }, true);
 // The header close (×) doubles as the back-to-gallery control in the
 // single-image view. It always stays an × icon; only its help text reflects
@@ -491,12 +374,10 @@ notesClose.addEventListener('click', () => {
   closeNotes();
 });
 
-function setView(view) {
-  // The Upload screen is hidden (notes arrive via the backend); Browse is the
-  // only reachable view. Programmatic requests for upload snap back to browse.
-  if (view !== 'browse') view = 'browse';
-  browseEl.hidden = view !== 'browse';
-  uploadEl.hidden = view !== 'upload';
+function setView() {
+  // The Upload screen was removed (notes arrive via the backend); Browse is
+  // the only view. Kept as a no-op seam for view switching.
+  browseEl.hidden = false;
   lightboxEl.hidden = true;
   currentNote = null;
   updateCloseLabel();
@@ -504,6 +385,7 @@ function setView(view) {
 
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
+  if (anyModalOpen()) return; // modal.js closes the topmost overlay itself
   if (!lightboxEl.hidden) { goBackToGallery(); return; }
   if (notesPanel.classList.contains('open')) closeNotes();
 });
@@ -521,6 +403,25 @@ async function loadIndex() {
     const data = await resp.json();
     notes = Array.isArray(data.notes) ? data.notes : [];
     documents = Array.isArray(data.documents) ? data.documents : [];
+    // DB-backed flag overlay: manifest `starred` stays the fallback, but a
+    // content_flags value wins when the flags endpoint is reachable.
+    // NOTE: overlay currently OFF — static flags only. Flip
+    // FLAGS_OVERLAY_ENABLED to true (plus the Supabase setup) to re-enable.
+    const FLAGS_OVERLAY_ENABLED = false;
+    if (FLAGS_OVERLAY_ENABLED) {
+      try {
+        const sResp = await fetch(`${API_BASE}/flags`);
+        if (sResp.ok) {
+          const dbFlags = (await sResp.json()).flags?.image_note || {};
+          for (const n of notes) {
+            const f = dbFlags[n.id];
+            if (f && Object.prototype.hasOwnProperty.call(f, 'starred')) {
+              n.starred = f.starred === true;
+            }
+          }
+        }
+      } catch { /* keep manifest stars */ }
+    }
     // If the user opened the combobox before the fetch resolved, fill it now.
     if (!comboboxPopup.hidden) renderCombobox();
     loaded = true;
@@ -964,7 +865,6 @@ function openLightbox(note) {
   currentNote = note;
   currentPage = (note.pages && note.pages[0] && note.pages[0].page) || 1;
   browseEl.hidden = true;
-  uploadEl.hidden = true;
   lightboxEl.hidden = false;
   updateCloseLabel();
   setViewMode(false);
@@ -977,7 +877,6 @@ function goBackToGallery() {
   pointers.clear(); pinch = null;
   lightboxEl.hidden = true;
   browseEl.hidden = false;
-  uploadEl.hidden = true;
   currentNote = null;
   updateCloseLabel();
   setViewMode(false);
@@ -1733,7 +1632,7 @@ export function isNotesOpen() {
 // Called by graph.js's restoreFromHash; updateHash is suppressed during restore.
 export async function restoreNotes(params) {
   if (!notesPanel.classList.contains('open')) openNotes();
-  setView('browse');
+  setView();
   if (params && params.uilang && params.uilang !== 'en-US') {
     applyUiLang(params.uilang);
   }

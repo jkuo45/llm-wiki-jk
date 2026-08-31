@@ -27,7 +27,7 @@ This D1/D2 segregation is the cellular substrate of basal ganglia control over a
 
 ## COMT Expression
 
-[[COMT]] ([[Catechol-O-methyltransferase]]) immunoreactivity has been detected in the cell bodies and dendritic spines of [[MSNs]] in the human striatum. Because the striatum is densely innervated by [[Dopamine]] terminals from the substantia nigra but is relatively poor in the [[Dopamine Transporter]], extracellular dopamine in this region is cleared substantially by diffusion and local enzymatic methylation by [[COMT]]. MSN-associated COMT therefore shapes the temporal and spatial profile of dopaminergic signaling that gates corticostriatal plasticity and [[Stimulus-response learning]].
+[[COMT]] ([[COMT|Catechol-O-methyltransferase]]) immunoreactivity has been detected in the cell bodies and dendritic spines of [[MSNs]] in the human striatum. Because the striatum is densely innervated by [[Dopamine]] terminals from the substantia nigra but is relatively poor in the [[Dopamine Transporter]], extracellular dopamine in this region is cleared substantially by diffusion and local enzymatic methylation by [[COMT]]. MSN-associated COMT therefore shapes the temporal and spatial profile of dopaminergic signaling that gates corticostriatal plasticity and [[Stimulus-response learning]].
 
 ## Pathological Relevance
 
@@ -52,6 +52,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Striatum]], [[Dopamine]], [[D1 receptor]], [[D2 receptor]], [[COMT]], [[Catechol-O-methyltransferase]], [[Dopamine Transporter]], [[Stimulus-response learning]], [[Parkinson's Disease]], [[Schizophrenia]].
+- New links added: [[Striatum]], [[Dopamine]], [[D1 receptor]], [[D2 receptor]], [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine Transporter]], [[Stimulus-response learning]], [[Parkinson's Disease]], [[Schizophrenia]].
 - Suggested new entity notes to create: [[Globus Pallidus]], [[Substantia Nigra]], [[Basal Ganglia]].
 - Strong connections to strengthen: [[Medium spiny neurons]] ↔ [[COMT]]; [[Medium spiny neurons]] ↔ [[Stimulus-response learning]].

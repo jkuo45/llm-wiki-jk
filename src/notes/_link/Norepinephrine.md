@@ -12,7 +12,7 @@ A [[Catecholamines|catecholamine]] that functions as both a hormone and a neurot
 **[[Norepinephrine]]** (also known as noradrenaline) is a chemical that functions in the brain and body as both a hormone and a [[Neurotransmitters]].
 ## Metabolism
 As a catecholamine, [[Norepinephrine]] is degraded by:
-1. [[COMT]] ([[Catechol-O-methyltransferase]])
+1. [[COMT]] ([[COMT|Catechol-O-methyltransferase]])
 2. [[Monoamine oxidase]] ([[MAO]])
 In the [[Prefrontal Cortex]], its clearance is also facilitated by the [[Norepinephrine transporter]] ([[NET]]).
 ## Functions
@@ -42,4 +42,4 @@ List of documents that mention this entity
 - [[Epinephrine]]: Norepinephrine is the precursor to epinephrine.
 
 ## Linking Summary
-- New links added: [[Catecholamines]], [[Epinephrine]], [[Adrenal medulla]], [[Adrenochrome]], [[Neurotransmitters]], [[COMT]], [[Catechol-O-methyltransferase]], [[MAO]], [[Prefrontal Cortex]], [[Norepinephrine transporter]], [[NET]], [[Dopamine]], [[Epinephrine]].
+- New links added: [[Catecholamines]], [[Epinephrine]], [[Adrenal medulla]], [[Adrenochrome]], [[Neurotransmitters]], [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[MAO]], [[Prefrontal Cortex]], [[Norepinephrine transporter]], [[NET]], [[Dopamine]], [[Epinephrine]].

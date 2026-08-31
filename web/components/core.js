@@ -10,6 +10,10 @@ import { RAW_NODES, RAW_EDGES, LEGEND, TRANSLATIONS, nodeMap, adjacency } from '
 import { state, stickyNodes, velocities } from './state.js';
 import { esc } from './markdown.js';
 
+// Restore the persisted view toggles BEFORE the scene builds, so the initial
+// creation passes (createLabel visibility, edgeSegments visibility) honour them.
+state.showLabels = state.settings.showLabels !== false;
+
 // On-demand rendering: the render loop only draws when something changed
 // (dirty flag, damping controls, or active physics) so the GPU/CPU is not
 // burned 60×/sec while the scene is idle.
@@ -33,19 +37,33 @@ export function edgeOffColor() {
   return state.theme === 'light' ? EDGE_OFF_LIGHT : EDGE_OFF_DARK;
 }
 
-// Apply the active theme to the 3D scene (background + resting edges). DOM
-// surfaces (node labels, tooltips, panels) are themed by the light
-// stylesheet, so only the canvas needs JS here.
+// Resting edge colours by edge kind: wikilink edges (`links_to`, from the
+// wiki graph) render gray; triples-extracted relation edges render orange.
+// The resting alpha and (optionally) a single override colour come from the
+// persisted user settings (state.settings — see state.js). Highlight code
+// paths (hover, selection, traces) call edgeOffColor() instead so dimming
+// states read correctly on either background.
+const WIKI_EDGE_HEX = 0x9AA3B2;   // gray — links_to
+const TRIPLE_EDGE_HEX = 0xE8833A; // orange — triples-extracted edges
+
+export function edgeRestingStyle(edge) {
+  const s = state.settings;
+  if (s.edgeColorMode === 'mono') {
+    const hex = parseInt(String(s.edgeColor).replace('#', ''), 16);
+    if (!Number.isNaN(hex)) return { hex, alpha: s.edgeOpacity };
+  }
+  return edge && edge.label === 'links_to'
+    ? { hex: WIKI_EDGE_HEX, alpha: s.edgeOpacity }
+    : { hex: TRIPLE_EDGE_HEX, alpha: s.edgeOpacity };
+}
+
+// Apply the active theme to the 3D scene (background). Resting edge colours
+// (gray/orange by edge kind) are theme-invariant, so edges need no recolour on
+// switch — highlighted/selected edges keep their accent across the toggle. DOM
+// surfaces (node labels, tooltips, panels) are themed by the light stylesheet.
 export function applyGraphTheme(light) {
   state.theme = light ? 'light' : 'dark';
   scene.background = new THREE.Color(light ? SCENE_BG_LIGHT : SCENE_BG_DARK);
-  const oldOff = light ? EDGE_OFF_DARK : EDGE_OFF_LIGHT;
-  const newOff = edgeOffColor();
-  // Only reset edges currently at the previous off color; highlighted/selected
-  // edges keep their accent color across the switch.
-  for (let i = 0; i < edgeList.length; i++) {
-    if (edgeHex[i] === oldOff) setEdgeVisual(edgeList[i].edge, newOff, edgeAlphaVal[i]);
-  }
   requestRender();
 }
 
@@ -60,9 +78,25 @@ scene.background = new THREE.Color(SCENE_BG_LIGHT);
 export const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 10000);
 camera.position.set(-120, 0, 500);
 
+// Render-quality presets: devicePixelRatio caps. 'retina' is the default;
+// 'performance' renders below 1× and upscales (GPU-bound scenes only).
+const RENDER_QUALITY_PR = { retina: 2, standard: 1, performance: 0.75 };
+function pixelRatioFor(quality) {
+  const cap = RENDER_QUALITY_PR[quality] != null ? RENDER_QUALITY_PR[quality] : RENDER_QUALITY_PR.retina;
+  return Math.min(window.devicePixelRatio || 1, cap);
+}
+export function setRenderQuality(quality) {
+  state.settings.renderQuality = quality;
+  const pr = pixelRatioFor(quality);
+  renderer.setPixelRatio(pr);
+  if (minimap.setQuality) minimap.setQuality(pr);
+  requestRender();
+}
+
 export const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(container.clientWidth, container.clientHeight);
-renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+// Persisted render-quality setting (see pixelRatioFor / setRenderQuality).
+renderer.setPixelRatio(pixelRatioFor(state.settings.renderQuality));
 container.appendChild(renderer.domElement);
 
 export const labelRenderer = new CSS2DRenderer();
@@ -81,7 +115,10 @@ controls.enableDamping = true;
 controls.dampingFactor = 0.05;
 controls.minDistance = 50;
 controls.maxDistance = 2000;
-controls.zoomSpeed = 1.2;
+// Camera interaction settings (settings modal).
+controls.zoomSpeed = state.settings.zoomSpeed || 1.2;
+controls.autoRotate = !!state.settings.autoRotate && !state.settings.reduceMotion;
+controls.autoRotateSpeed = state.settings.autoRotateSpeed || 2;
 controls.addEventListener('change', requestRender);
 
 // Screen-space label overlaps change with the camera, so recompute the
@@ -110,12 +147,59 @@ scene.add(backLight);
 export const nodeObjects = new Map();
 export const nodeMeshes = [];
 export const labelObjects = new Map();
-const labelThreshold = 30;
+// Live sticky-node indicator rings (torus meshes), keyed by node id. Declared
+// here so visibility recompute (applyNodeVisibility) can hide rings of hidden
+// nodes from the very first module-init call.
+const stickyRings = new Map();
 
-const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
+// Label degree threshold is zoom-relative: zoomed out only hubs are labeled,
+// zooming in progressively reveals lower-degree labels. The user's label
+// sensitivity setting (0–100, 50 = these defaults) scales the whole range:
+// higher sensitivity → lower thresholds → more labels on screen.
+const LABEL_THRESHOLD_FAR = 60;   // zoomed out (min labels)
+const LABEL_THRESHOLD_NEAR = 10;  // zoomed in (max labels)
+
+function labelThresholdScale() {
+  // sensitivity 0   → ×2 (hubs only)
+  // sensitivity 50  → ×1 (original behaviour)
+  // sensitivity 100 → ×0 (every node is a candidate, decluttering still applies)
+  return Math.max(0, 1 - (state.settings.labelSensitivity - 50) / 50);
+}
+
+function currentLabelThreshold() {
+  const frac = Math.max(0, Math.min(1, getZoomFraction())); // 0 = far, 1 = close
+  const m = labelThresholdScale();
+  const far = LABEL_THRESHOLD_FAR * m;
+  const near = LABEL_THRESHOLD_NEAR * m;
+  return far + (near - far) * frac;
+}
+
+// Low segment count: at graph scale the spheres are tiny, and halving the
+// vertex cost across ~2.6k draw calls matters far more than silhouette
+// smoothness (16x12 → 10x8 ≈ 50% fewer triangles).
+const sphereGeometry = new THREE.SphereGeometry(1, 10, 8);
+
+// Upper bound for sqrt-normalised PageRank sizing (sizeMetric = 'pagerank').
+const MAX_PAGERANK = Math.max(...RAW_NODES.map(n => n.pagerank || 0), 1e-12);
+
+// Base (unscaled) node radius per the size-metric setting. The persisted
+// node-size multiplier is applied on top (see applyNodeSizes).
+function baseRadiusFor(nodeData) {
+  switch (state.settings.sizeMetric) {
+    case 'degree':
+      return 1.5 + Math.sqrt(nodeData.degree || 0) * 1.8;
+    case 'pagerank':
+      return 1.5 + 12 * Math.sqrt((nodeData.pagerank || 0) / MAX_PAGERANK);
+    case 'uniform':
+      return 3;
+    default:
+      return Math.max(1.5, nodeData.size * 0.4); // precomputed combined metric
+  }
+}
 
 function createNodeMesh(nodeData) {
-  const radius = Math.max(1.5, nodeData.size * 0.4);
+  const baseRadius = baseRadiusFor(nodeData);
+  const radius = baseRadius * (state.settings.nodeSizeScale || 1);
   const material = new THREE.MeshPhongMaterial({
     color: new THREE.Color(nodeData.color.background),
     emissive: new THREE.Color(nodeData.color.background),
@@ -126,7 +210,7 @@ function createNodeMesh(nodeData) {
   });
   const mesh = new THREE.Mesh(sphereGeometry, material);
   mesh.scale.set(radius, radius, radius);
-  mesh.userData = { nodeId: nodeData.id, nodeData };
+  mesh.userData = { nodeId: nodeData.id, nodeData, baseRadius };
   return mesh;
 }
 
@@ -170,12 +254,15 @@ export const EDGE_ACCENT = 0x4E79A7;
 export const edgeList = [];            // [{ edge, fromMesh, toMesh }] indexed by segment
 export let edgeSegments = null;        // THREE.LineSegments (raycast target)
 const edgeToIndex = new Map();         // edge object -> segment index
-const edgeBaseAlpha = [];              // resting alpha per edge
 const edgeHex = [];                    // last-set color hex per edge (theme restore)
 const edgeAlphaVal = [];               // last-set alpha per edge
 const edgeFiltered = [];               // 1 = hidden by prompt node filter
 export let edgePositions, edgePosAttr;
 let edgeColors, edgeAlphas, edgeColorAttr, edgeAlphaAttr;
+// For each node id, the segment indexes of the edges touching it. Lets
+// interaction.js update only the edges that actually move during a drag
+// instead of scanning every edge on each pointermove.
+export const edgeSegmentsByNode = new Map();
 const _edgeColor = new THREE.Color();
 
 function writeEdge(i) {
@@ -214,6 +301,124 @@ export function setEdgeFilter(edge, hidden) {
   requestRender();
 }
 
+// ------------------------------------------------------------
+// Central node/edge visibility. Two filters compose here so they can never
+// fight over the same `visible` flag:
+//   • min-degree setting  (state.settings.minDegree — settings modal)
+//   • analysis prompt filter (analysis.js registers its highlighted id-set
+//     here instead of writing mesh.visible / edge filters directly)
+// Labels follow automatically — every label pass checks mesh.visible.
+// ------------------------------------------------------------
+export const visibilityRegistry = { promptEnabled: false, promptIds: null };
+
+function degreeVisible(id) {
+  const n = nodeMap.get(id);
+  return !n || (n.degree || 0) >= state.settings.minDegree;
+}
+
+function promptVisible(id) {
+  const p = visibilityRegistry;
+  return !p.promptEnabled || !!(p.promptIds && p.promptIds.has(id));
+}
+
+// Edge confidence gate (settings modal): hides extraction edges whose score
+// falls below the threshold. Edges without a score (or threshold 0) pass.
+function edgeConfidenceVisible(edge) {
+  const min = state.settings.edgeMinConfidence;
+  if (!min) return true;
+  return edge.confidence_score == null || edge.confidence_score >= min;
+}
+
+// Recompute mesh.visible for every node and the hidden flag for every edge
+// from the composing filters. Safe to call during an active trace or
+// selection: highlight styling lives in the material/edge visual arrays and
+// is untouched; only visibility changes.
+export function applyNodeVisibility() {
+  nodeMeshes.forEach(m => {
+    m.visible = degreeVisible(m.userData.nodeId) && promptVisible(m.userData.nodeId);
+  });
+  edgeList.forEach(({ edge }) => {
+    const endsOK = degreeVisible(edge.from) && promptVisible(edge.from) &&
+      degreeVisible(edge.to) && promptVisible(edge.to);
+    setEdgeFilter(edge, !endsOK || !edgeConfidenceVisible(edge));
+  });
+  // A sticky (dragged) node that gets hidden by a filter must not leave its
+  // indicator ring floating in place.
+  stickyRings.forEach((ring, nodeId) => {
+    const mesh = nodeObjects.get(nodeId);
+    if (mesh) ring.visible = mesh.visible;
+  });
+  requestRender();
+}
+
+// Re-apply the resting edge style (settings-driven colour/alpha) to every
+// edge. Callers must guard against clobbering active highlight states —
+// see edgesAtRest() in ui.js.
+export function applyRestingEdges() {
+  edgeList.forEach(({ edge }) => {
+    const rest = edgeRestingStyle(edge);
+    setEdgeVisual(edge, rest.hex, rest.alpha);
+  });
+  requestRender();
+}
+
+// Recompute every node's base radius (size metric) and scale (size slider),
+// then refresh label offsets (they ride on mesh.scale) and sticky rings.
+function applyNodeSizes() {
+  nodeMeshes.forEach(m => {
+    m.userData.baseRadius = baseRadiusFor(m.userData.nodeData);
+    const r = m.userData.baseRadius * (state.settings.nodeSizeScale || 1);
+    m.scale.set(r, r, r);
+    const label = labelObjects.get(m.userData.nodeId);
+    if (label) {
+      label.position.copy(m.position);
+      label.position.y += r + 2;
+    }
+  });
+  stickyRings.forEach((ring, nodeId) => {
+    const mesh = nodeObjects.get(nodeId);
+    if (mesh) ring.scale.set(mesh.scale.x * 1.5, mesh.scale.x * 1.5, mesh.scale.x * 1.5);
+  });
+  requestRender();
+}
+
+// Re-derive node radii from the persisted scale (slider 0.5–2×).
+export function setNodeSizeScale(scale) {
+  state.settings.nodeSizeScale = scale;
+  applyNodeSizes();
+}
+
+// Switch the sizing basis (default combined metric / degree / pagerank / uniform).
+export function setSizeMetric(metric) {
+  state.settings.sizeMetric = metric;
+  applyNodeSizes();
+}
+
+// Apply the label size setting as a CSS custom property (base .node-label
+// font-size); the .zh sub-label scales via calc() in the stylesheet.
+export function applyLabelSize(px) {
+  document.documentElement.style.setProperty('--node-label-size', `${px}px`);
+}
+
+// Re-run the default label layout after a setting that affects it (label
+// sensitivity, label size, min-degree). Respects active traces/selections.
+export function refreshLabelLayout() {
+  if (state.activeTrace) return;
+  if (state.selectedNode) { restoreSelectedLabels(); return; }
+  setAllLabelVisibility();
+}
+
+// Re-render every label's text for the label-language setting and re-run the
+// declutter layout (line count affects the overlap heuristic).
+export function applyLabelLanguage() {
+  labelObjects.forEach((label, id) => {
+    const nd = nodeMap.get(id);
+    if (nd && label.element) label.element.innerHTML = labelHtmlFor(nd);
+  });
+  refreshLabelLayout();
+  requestRender();
+}
+
 RAW_EDGES.forEach(e => {
   const fromMesh = nodeObjects.get(e.from);
   const toMesh = nodeObjects.get(e.to);
@@ -225,7 +430,6 @@ const E = edgeList.length;
 edgePositions = new Float32Array(E * 6);
 edgeColors = new Float32Array(E * 6);
 edgeAlphas = new Float32Array(E * 2);
-const off = edgeOffColor();
 for (let i = 0; i < E; i++) {
   const { fromMesh, toMesh, edge } = edgeList[i];
   const p = i * 6;
@@ -235,21 +439,27 @@ for (let i = 0; i < E; i++) {
   edgePositions[p + 3] = toMesh.position.x;
   edgePositions[p + 4] = toMesh.position.y;
   edgePositions[p + 5] = toMesh.position.z;
-  const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-  edgeBaseAlpha[i] = ba;
-  edgeHex[i] = off;
-  edgeAlphaVal[i] = ba;
+  // Resting style: gray for links_to (wikilinks), orange for triples edges.
+  const rest = edgeRestingStyle(edge);
+  edgeHex[i] = rest.hex;
+  edgeAlphaVal[i] = rest.alpha;
   edgeFiltered[i] = 0;
-  _edgeColor.set(off);
+  _edgeColor.set(rest.hex);
   for (let k = 0; k < 2; k++) {
     const o = p + k * 3;
     edgeColors[o] = _edgeColor.r;
     edgeColors[o + 1] = _edgeColor.g;
     edgeColors[o + 2] = _edgeColor.b;
   }
-  edgeAlphas[i * 2] = ba;
-  edgeAlphas[i * 2 + 1] = ba;
+  edgeAlphas[i * 2] = rest.alpha;
+  edgeAlphas[i * 2 + 1] = rest.alpha;
   edgeToIndex.set(edge, i);
+  let segs = edgeSegmentsByNode.get(edge.from);
+  if (!segs) { segs = []; edgeSegmentsByNode.set(edge.from, segs); }
+  segs.push(i);
+  segs = edgeSegmentsByNode.get(edge.to);
+  if (!segs) { segs = []; edgeSegmentsByNode.set(edge.to, segs); }
+  segs.push(i);
 }
 
 const edgeGeometry = new THREE.BufferGeometry();
@@ -284,27 +494,41 @@ const edgeMaterial = new THREE.ShaderMaterial({
 edgeSegments = new THREE.LineSegments(edgeGeometry, edgeMaterial);
 edgeSegments.frustumCulled = false;
 scene.add(edgeSegments);
+// Persisted Edges toggle (settings modal).
+edgeSegments.visible = state.settings.showEdges !== false;
+// Honour the persisted min-degree filter from the first frame (labels are
+// created after this, and createLabel checks mesh.visible).
+applyNodeVisibility();
 
 // ------------------------------------------------------------
 // Labels (only for high-degree nodes initially). Event handlers
 // are attached by interaction.js via attachLabelHandlers().
 // ------------------------------------------------------------
+// Node label text per the label-language setting. 'both' (default) stacks the
+// Chinese translation under the English label; 'en'/'zh' show one line (zh
+// falls back to the English label when no translation exists).
+function labelHtmlFor(nodeData) {
+  const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
+  const hasZh = !!(zhTWLabel && zhTWLabel !== nodeData.label);
+  const lang = state.settings.labelLang;
+  if (lang === 'zh' && hasZh) return esc(zhTWLabel);
+  if (lang !== 'en' && hasZh) {
+    return `${esc(nodeData.label)}<br><span class="zh">${esc(zhTWLabel)}</span>`;
+  }
+  return esc(nodeData.label);
+}
+
 function createLabel(nodeData, mesh) {
   const div = document.createElement('div');
   div.className = 'node-label';
   div.dataset.nodeId = nodeData.id;
-
-  const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
-  if (zhTWLabel && zhTWLabel !== nodeData.label) {
-    div.innerHTML = `${esc(nodeData.label)}<br><span class="zh">${esc(zhTWLabel)}</span>`;
-  } else {
-    div.textContent = nodeData.label;
-  }
+  div.innerHTML = labelHtmlFor(nodeData);
 
   const label = new CSS2DObject(div);
   label.position.copy(mesh.position);
   label.position.y += mesh.scale.y + 2;
-  label.visible = state.showLabels && nodeData.degree >= labelThreshold;
+  // mesh.visible honours the min-degree / prompt filters (applyNodeVisibility).
+  label.visible = state.showLabels && nodeData.degree >= currentLabelThreshold() && mesh.visible;
   scene.add(label);
   labelObjects.set(nodeData.id, label);
 }
@@ -313,6 +537,9 @@ RAW_NODES.forEach(n => {
   const mesh = nodeObjects.get(n.id);
   if (mesh) createLabel(n, mesh);
 });
+
+// Apply the persisted label size before the first render.
+applyLabelSize(state.settings.labelSize);
 
 // ------------------------------------------------------------
 // Edge label (reusable, appears on hover)
@@ -476,7 +703,6 @@ export function applyForces() {
 // ------------------------------------------------------------
 const stickyRingGeometry = new THREE.TorusGeometry(1, 0.06, 8, 32);
 const stickyRingMaterial = new THREE.MeshBasicMaterial({ color: 0x4E79A7, transparent: true, opacity: 0.7 });
-const stickyRings = new Map();
 
 export function addStickyRing(mesh) {
   if (stickyRings.has(mesh.userData.nodeId)) return;
@@ -513,12 +739,17 @@ export function updateStickyRings() {
 // ------------------------------------------------------------
 
 // Rough on-screen half-extents (px) of a node's label box, matching the
-// 13px/11px CSS sizes in three-graph.css. Only used for overlap tests —
-// slight overestimates are fine since "some overlap is okay".
+// .node-label CSS sizes (base 13px / .zh 11px, scaled by the --node-label-size
+// setting). Only used for overlap tests — slight overestimates are fine since
+// "some overlap is okay".
 function labelHalfExtents(nodeData) {
-  const hasZh = !!(TRANSLATIONS[nodeData.label] && TRANSLATIONS[nodeData.label] !== nodeData.label);
-  const hw = Math.min(nodeData.label.length, 14) * 3.4 + 8; // ~0.6 × font-size per char
-  const hh = hasZh ? 16 : 10;
+  const fs = (state.settings.labelSize || 13) / 13;
+  const zhTWLabel = TRANSLATIONS[nodeData.label] || '';
+  const hasZh = !!(zhTWLabel && zhTWLabel !== nodeData.label);
+  // Only 'both' renders a second line; 'en'/'zh' are single-line.
+  const hasZhLine = state.settings.labelLang !== 'en' && hasZh && state.settings.labelLang !== 'zh';
+  const hw = (Math.min(nodeData.label.length, 14) * 3.4 + 8) * fs; // ~0.6 × font-size per char
+  const hh = (hasZhLine ? 16 : 10) * fs;
   return { hw, hh };
 }
 
@@ -531,12 +762,13 @@ function declutteredLabelIds() {
   const w = container.clientWidth;
   const h = container.clientHeight;
   const candidates = [];
+  const _proj = new THREE.Vector3();
   labelObjects.forEach((label, id) => {
     const nodeData = nodeMap.get(id);
     const mesh = nodeObjects.get(id);
-    if (!state.showLabels || !nodeData || nodeData.degree < labelThreshold) return;
+    if (!state.showLabels || !nodeData || nodeData.degree < currentLabelThreshold()) return;
     if (!mesh || !mesh.visible) return;
-    const v = mesh.position.clone().project(camera);
+    const v = _proj.copy(mesh.position).project(camera);
     if (v.z > 1 || v.x < -1.2 || v.x > 1.2 || v.y < -1.2 || v.y > 1.2) return; // behind camera / far off-screen
     const { hw, hh } = labelHalfExtents(nodeData);
     candidates.push({
@@ -633,8 +865,8 @@ export function resetVisualState() {
     m.material.opacity = 0.92;
   });
   edgeList.forEach(({ edge }) => {
-    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-    setEdgeVisual(edge, edgeOffColor(), ba);
+    const rest = edgeRestingStyle(edge);
+    setEdgeVisual(edge, rest.hex, rest.alpha);
   });
   restoreDefaultLabels();
   requestRender();
@@ -672,12 +904,41 @@ export function updateZoomBar() {
   const thumb = document.getElementById('zoom-slider-thumb');
   fill.style.height = pct + '%';
   thumb.style.bottom = `calc(${pct}% - 6px)`;
+  // Keep the slider's ARIA state in sync with the visual position.
+  const track = document.getElementById('zoom-slider-track');
+  if (track) track.setAttribute('aria-valuenow', rounded);
 }
 
 // ------------------------------------------------------------
 // Camera animation + vector helpers
 // ------------------------------------------------------------
 export const CAMERA_OFFSET = new THREE.Vector3(160, 40, 80);
+
+// Camera interaction setters (settings modal). The render loop calls
+// controls.update() every frame, so auto-rotate keeps rendering on its own
+// once enabled (update() reports movement → dirty frame).
+export function setAutoRotate(enabled) {
+  state.settings.autoRotate = !!enabled;
+  controls.autoRotate = !!enabled && !state.settings.reduceMotion;
+  requestRender();
+}
+
+export function setAutoRotateSpeed(speed) {
+  state.settings.autoRotateSpeed = speed;
+  controls.autoRotateSpeed = speed;
+}
+
+export function setZoomSpeed(speed) {
+  state.settings.zoomSpeed = speed;
+  controls.zoomSpeed = speed;
+}
+
+export function setReduceMotion(on) {
+  state.settings.reduceMotion = !!on;
+  // A spinning camera is exactly what reduce-motion exists to stop.
+  if (on) controls.autoRotate = false;
+  requestRender();
+}
 
 export function midpoint(a, b) {
   return new THREE.Vector3().addVectors(a, b).multiplyScalar(0.5);
@@ -686,6 +947,16 @@ export function midpoint(a, b) {
 export function animateCamera(targetPosition, lookAtTarget) {
   const startPos = camera.position.clone();
   const startTarget = controls.target.clone();
+  // Respect prefers-reduced-motion and the settings-modal Reduce-motion
+  // toggle: skip the eased flight entirely.
+  const reduceMotion = state.settings.reduceMotion ||
+    (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  if (reduceMotion) {
+    camera.position.copy(targetPosition);
+    controls.target.copy(lookAtTarget);
+    controls.update();
+    return;
+  }
   const duration = 800;
   const startTime = Date.now();
 
@@ -868,41 +1139,50 @@ export const minimap = (() => {
   const hullGroup = layer1(new THREE.Group());
   miniScene.add(hullGroup);
   const posOf = new Map(nodes.map((n) => [n.id, new THREE.Vector3()]));
-  const hullGeos = [];
+  // Preallocated per-community hull lines: position buffers are sized for the
+  // worst-case hull (every member + the closing point) and reused every
+  // render — refreshHulls only rewrites the used prefix and adjusts the draw
+  // range, so steady-state rendering allocates nothing. (The buffers contain
+  // stale zeros beyond the draw range, so culling is disabled.)
+  const hullLines = [];
   byCommunity.forEach((ids, cid) => {
     if (ids.length < 3) return;
+    const arr = new Float32Array((ids.length + 1) * 3);
     const geo = new THREE.BufferGeometry();
-    hullGeos.push({ geo, ids, color: legendColor.get(cid) || '#888888' });
+    geo.setAttribute('position', new THREE.BufferAttribute(arr, 3));
+    geo.setDrawRange(0, 0);
+    const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
+      color: new THREE.Color(legendColor.get(cid) || '#888888'), transparent: true, opacity: 0.35,
+    }));
+    line.frustumCulled = false;
+    hullGroup.add(line);
+    hullLines.push({ geo, ids, arr });
   });
 
   function refreshHulls() {
-    hullGeos.forEach(({ geo }) => { geo.setDrawRange(0, 0); });
-    hullGroup.children.forEach((c) => hullGroup.remove(c));
-    hullGeos.forEach(({ geo, ids, color }) => {
-      const pts = ids
-        .map((id) => posOf.get(id))
-        .filter(Boolean)
-        .map((v) => [v.x, v.z]);
+    for (const { geo, ids, arr } of hullLines) {
+      const pts = [];
+      for (const id of ids) {
+        const v = posOf.get(id);
+        if (v) pts.push([v.x, v.z]);
+      }
       const hull = convexHull(pts);
-      if (hull.length < 3) return;
-      const flat = [];
-      hull.forEach(([x, z]) => flat.push(x, 0, z));
-      flat.push(hull[0][0], 0, hull[0][1]); // close the loop
-      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(flat), 3));
+      if (hull.length < 3) { geo.setDrawRange(0, 0); continue; }
+      let o = 0;
+      for (const [x, z] of hull) { arr[o++] = x; arr[o++] = 0; arr[o++] = z; }
+      arr[o] = hull[0][0]; arr[o + 1] = 0; arr[o + 2] = hull[0][1]; // close the loop
       geo.setDrawRange(0, hull.length + 1);
-      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
-        color: new THREE.Color(color), transparent: true, opacity: 0.35,
-      }));
-      hullGroup.add(line);
-    });
+      geo.attributes.position.needsUpdate = true;
+    }
   }
 
   // ---- Camera footprint indicator (amber) ----
   const indicatorColor = 0xE8A33D;
   const indicator = new THREE.Group();
-  const camLineGeo = new THREE.BufferGeometry().setFromPoints([
-    new THREE.Vector3(), new THREE.Vector3(),
-  ]);
+  // Preallocated two-point buffer — rewritten (not reallocated) each render.
+  const camLineArr = new Float32Array(6);
+  const camLineGeo = new THREE.BufferGeometry();
+  camLineGeo.setAttribute('position', new THREE.BufferAttribute(camLineArr, 3));
   const camLine = new THREE.Line(camLineGeo, new THREE.LineBasicMaterial({ color: indicatorColor }));
   const targetDot = new THREE.Mesh(
     new THREE.CircleGeometry(5, 16),
@@ -941,6 +1221,7 @@ export const minimap = (() => {
   const box = new THREE.Box3();
   const center = new THREE.Vector3();
   const sizeV = new THREE.Vector3();
+  const _miniFwd = new THREE.Vector3();
 
   function syncPositions() {
     nodes.forEach((n, i) => {
@@ -980,10 +1261,10 @@ export const minimap = (() => {
     // Rotate the map with the current view: screen-up follows the main
     // camera's horizontal forward direction (camera → orbit target).
     const p = camera.position, t = controls.target;
-    const fwd = new THREE.Vector3().subVectors(t, p);
-    fwd.y = 0;
-    if (fwd.lengthSq() > 1e-6) {
-      lastUp.copy(fwd.normalize());
+    _miniFwd.subVectors(t, p);
+    _miniFwd.y = 0;
+    if (_miniFwd.lengthSq() > 1e-6) {
+      lastUp.copy(_miniFwd.normalize());
     }
     miniCamera.up.copy(lastUp);
     miniCamera.lookAt(center.x, 0, center.z);
@@ -998,14 +1279,18 @@ export const minimap = (() => {
     if (hullGroup.visible) refreshHulls();
 
     // Camera footprint: line from the main camera's XZ position to its target.
-    camLineGeo.setFromPoints([
-      new THREE.Vector3(p.x, 0, p.z),
-      new THREE.Vector3(t.x, 0, t.z),
-    ]);
+    camLineArr[0] = p.x; camLineArr[1] = 0; camLineArr[2] = p.z;
+    camLineArr[3] = t.x; camLineArr[4] = 0; camLineArr[5] = t.z;
+    camLineGeo.attributes.position.needsUpdate = true;
     targetDot.position.set(t.x, 0, t.z);
 
     miniRenderer.render(miniScene, miniCamera);
   }
 
-  return { render };
+  // Main-renderer quality changes propagate here so the overview stays crisp.
+  function setQuality(pr) {
+    miniRenderer.setPixelRatio(pr);
+  }
+
+  return { render, setQuality };
 })();

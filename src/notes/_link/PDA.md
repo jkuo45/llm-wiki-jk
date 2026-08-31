@@ -14,7 +14,7 @@ Pancreatic Ductal Adenocarcinoma (PDAC) is the most common type of [[Pancreatic 
 
 ## Molecular Pathogenesis
 
-The molecular landscape of PDAC is defined by a relatively small number of recurrently mutated driver genes. Activating mutations in [[KRAS]] are found in over 90% of cases and are considered an early, initiating event. The predominant variants — G12D, G12V, and G12R — constitutively activate the [[MAPK]] and [[PI3K]] signaling cascades, driving uncontrolled proliferation, survival, and metabolic reprogramming. In parallel, biallelic inactivation of the [[TP53]] tumor suppressor occurs in more than 70% of PDAC, abrogating cell-cycle checkpoint control and apoptotic signaling. Homozygous deletion or epigenetic silencing of [[CDKN2A]] (encoding p16^INK4a^) is observed in approximately 90% of cases, removing a critical brake on [[Cyclin-Dependent Kinases]] 4 and 6. Loss of [[SMAD4]] (DPC4), a key mediator of [[TGFβ]] signaling, occurs in roughly 55% of advanced tumors and is associated with poor prognosis and metastatic propensity. Mutations in [[APC]] are found in approximately 10% of cases, linking a subset of PDAC to [[Wnt Signaling]] pathway dysregulation.
+The molecular landscape of PDAC is defined by a relatively small number of recurrently mutated driver genes. Activating mutations in [[KRAS]] are found in over 90% of cases and are considered an early, initiating event. The predominant variants — G12D, G12V, and G12R — constitutively activate the [[MAPK]] and [[PI3K]] signaling cascades, driving uncontrolled proliferation, survival, and metabolic reprogramming. In parallel, biallelic inactivation of the [[p53]] tumor suppressor occurs in more than 70% of PDAC, abrogating cell-cycle checkpoint control and apoptotic signaling. Homozygous deletion or epigenetic silencing of [[CDKN2A]] (encoding p16^INK4a^) is observed in approximately 90% of cases, removing a critical brake on [[Cyclin-Dependent Kinases]] 4 and 6. Loss of [[SMAD4]] (DPC4), a key mediator of [[TGFβ]] signaling, occurs in roughly 55% of advanced tumors and is associated with poor prognosis and metastatic propensity. Mutations in [[APC]] are found in approximately 10% of cases, linking a subset of PDAC to [[Wnt Signaling]] pathway dysregulation.
 
 PDAC develops through well-characterized precursor lesions. The most common is pancreatic intraepithelial neoplasia (PanIN), which progresses through low-grade (PanIN-1, PanIN-2) to high-grade (PanIN-3, carcinoma in situ) stages before invading the basement membrane. Intraductal papillary mucinous neoplasm (IPMN) and mucinous cystic neoplasm (MCN) represent additional precursor pathways, often identifiable on cross-sectional imaging and carrying variable malignant potential. The stepwise accumulation of genetic hits — KRAS activation followed by CDKN2A loss, TP53 inactivation, and SMAD4 deletion — mirrors the histopathological progression from PanIN to invasive carcinoma.
 
@@ -64,7 +64,7 @@ List of documents that mention this entity
 - [[Cancer]] — PDAC is a subset of pancreatic malignancies with distinct molecular and clinical features
 - [[TFEB]] — Transcription factor EB is a master regulator of lysosomal biogenesis and autophagy; implicated in PDAC metabolic adaptation and drug resistance
 - [[KRAS]] — Oncogenic driver mutated in >90% of PDAC; G12D, G12V, and G12R are the most common variants
-- [[TP53]] — Tumor suppressor inactivated in >70% of PDAC; loss promotes genomic instability and immune evasion
+- [[p53]] — Tumor suppressor inactivated in >70% of PDAC; loss promotes genomic instability and immune evasion
 - [[BRCA2]] — Germline mutations confer PDAC susceptibility; predictive biomarker for [[PARP Inhibitor]] sensitivity
 - [[Gemcitabine]] — Nucleoside analog; backbone of PDAC chemotherapy for decades
 - [[CA19-9]] — Serum tumor marker used for monitoring treatment response and recurrence in PDAC
@@ -78,6 +78,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[KRAS]], [[TP53]], [[CDKN2A]], [[SMAD4]], [[BRCA2]], [[BRCA1]], [[PALB2]], [[CA19-9]], [[Gemcitabine]], [[Sotorasib]], [[Adagrasib]], [[Olaparib]], [[Pembrolizumab]], [[Pancreatic Cancer]], [[Desmoplasia]], [[Type 2 Diabetes Mellitus]], [[Wnt Signaling]], [[PARP Inhibitor]]
+- New links added: [[KRAS]], [[p53]], [[CDKN2A]], [[SMAD4]], [[BRCA2]], [[BRCA1]], [[PALB2]], [[CA19-9]], [[Gemcitabine]], [[Sotorasib]], [[Adagrasib]], [[Olaparib]], [[Pembrolizumab]], [[Pancreatic Cancer]], [[Desmoplasia]], [[Type 2 Diabetes Mellitus]], [[Wnt Signaling]], [[PARP Inhibitor]]
 - Suggested new entity notes to create: [[FOLFIRINOX]], [[Whipple Procedure]], [[Pancreatic Intraepithelial Neoplasia (PanIN)]], [[Intraductal Papillary Mucinous Neoplasm (IPMN)]], [[Cancer-Associated Fibroblasts]], [[Nab-Paclitaxel]]
   - Strong connections to strengthen: [[PDA]] ↔ KRAS, [[PDA]] ↔ Autophagy, [[PDA]] ↔ Desmoplasia

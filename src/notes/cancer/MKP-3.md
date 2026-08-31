@@ -14,7 +14,7 @@ aliases: []
 
 ## Overview and Structure
 
-MKP-3 is a serine/threonine/tyrosine dual-specificity phosphatase characterized by an N-terminal CH2/kinase-interaction motif (KIM) and a C-terminal catalytic domain. It shows strong substrate preference for [[ERK1/2]] ([[MAPK]]) and localizes prominently in the cytoplasm, positioning it to intersect both growth-factor signaling and mitochondrial apoptosis machinery.
+MKP-3 is a serine/threonine/tyrosine dual-specificity phosphatase characterized by an N-terminal CH2/kinase-interaction motif (KIM) and a C-terminal catalytic domain. It shows strong substrate preference for [[ERK1_2|ERK1/2]] ([[MAPK]]) and localizes prominently in the cytoplasm, positioning it to intersect both growth-factor signaling and mitochondrial apoptosis machinery.
 
 ## Mechanism of Action
 
@@ -39,7 +39,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Bcl-2]]: Direct substrate; dephosphorylation by MKP-3 stabilizes and protects it from degradation.
-- [[ERK1/2]]: Canonical MAPK substrate of MKP-3 phosphatase activity.
+- [[ERK1_2|ERK1/2]]: Canonical MAPK substrate of MKP-3 phosphatase activity.
 - [[Apoptosis]]: Outcome modulated by MKP-3–Bcl-2 stabilization.
 - [[MAPK]]: Pathway shut off by MKP-3 dephosphorylation.
 - [[Cancer]]: Context where MKP-3 promotes survival.
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Bcl-2]], [[ERK1/2]], [[MAPK]], [[Apoptosis]], [[Cancer]], [[Chemotherapy]], [[DUSP6]], [[Phosphorylation]]
-- Suggested new entity notes to create: [[DUSP6]], [[ERK1/2]]
+- New links added: [[Bcl-2]], [[ERK1_2|ERK1/2]], [[MAPK]], [[Apoptosis]], [[Cancer]], [[Chemotherapy]], [[DUSP6]], [[Phosphorylation]]
+- Suggested new entity notes to create: [[DUSP6]], [[ERK1_2|ERK1/2]]
 - Strong connections to strengthen: [[MKP-3]] ↔ [[Bcl-2]], [[MKP-3]] ↔ [[MAPK]]

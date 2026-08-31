@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用於生物學優先排序的節點層級網絡分析</title>
+<meta name="description" content="一本參考，說明如何在具向知識圖譜中分析生物節點：NetworkX 管線、中心性指標（度數、PageRank、中介中心性、聚類係數、k-core、社群），以及關係感知的方法，還有如何解讀每個節點的角色。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/node-analysis-examples-biology.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#fingerprint">指紋</a>
+      <a href="#metrics">指標</a>
+      <a href="#methods">方法</a>
+      <a href="#examples">實例</a>
+      <a href="#operations">節點角色</a>
+      <a href="#practices">NetworkX</a>
+      <a href="#references">參考文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">參考 · 計算生物學方法論</p>
+    <h1>生物知識圖譜的節點層級網絡分析</h1>
+    <p class="lede">
+      知識圖譜中的每個實體都帶有一套指標指紋——
+      <code>入度與出度</code>、<code>PageRank</code>、<code>中介中心性</code>、<code>聚類係數</code>、<code>k-core</code>、<code>社群</code>——
+      可將其解讀為一種生物學角色。本頁是關於分析管線、各項指標及其 NetworkX 呼叫，以及將節點指紋轉化為可執行解讀之關係感知方法，的一份可重用參考。同一套流程適用於任何生物節點：從 <code>graph.json</code> 讀取其指紋，與同儕比較，並以下方方法加以檢驗。
+    </p>
+    <div class="meta">
+      <p><strong>日期：</strong> 2026 年 8 月 16 日</p>
+      <p><strong>資料來源：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank">graphify-out/graph.json</a></code></p>
+      <p><strong>來源文件：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md" target="_blank">src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</a></code></p>
+      <p><strong>程式碼：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank">scripts/triples/rebuild.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code></p>
+      <p><strong>圖譜建構：</strong> <code>867a5ae5fdb8a46c</code></p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁內容">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#fingerprint">指紋</a></li>
+      <li><a href="#metrics">指標圖譜</a></li>
+      <li><a href="#methods">分析方法</a></li>
+      <li><a href="#operations">節點角色</a></li>
+      <li><a href="#examples">實作成例</a></li>
+      <li><a href="#practices">NetworkX</a></li>
+      <li><a href="#references">參考文獻</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+    <section id="fingerprint">
+      <p class="sec-label">01 · 框架</p>
+      <h2>每個節點的指紋是一種角色，而非分數</h2>
+      <p class="drop">
+        中心性常被當成一種排名：越高越重要，挑出前十名即可。但對於一個具向、帶有關係類型的生物醫學圖譜來說，這是錯誤的對象。一個將弱點擴散到許多脂質節點的源頭酵素，在 PageRank 下看似不重要，在出度下卻舉足輕重。一個坐落在粒線體、表觀遺傳與發炎之間最短路徑上的分泌程式，用聚類係數看很普通，用中介中心性看卻非比尋常。指紋是指標之間的「型態」，須對照圖譜中既有的生物學來解讀。
+      </p>
+      <p>
+        在本語料中，指紋由 <code>enrich_graph_metrics()</code> 附加，並儲存在 <code>graph.json</code> 的每個節點上：
+        <code>degree</code>、<code>in_degree</code>、<code>out_degree</code>、
+        <code>pagerank</code>、<code>betweenness_centrality</code>、
+        <code>clustering_coefficient</code>、<code>k_core_number</code>、
+        <code>community_size</code>、<code>community_name</code>。
+      </p>
+      <div class="note gold">
+        <p class="lede">有兩個管線選擇讓這些數字可作為生物學來使用，而非共現的人為產物。</p>
+        <ul>
+          <li>
+            <strong>類型中樞拒絕名單（denylist）。</strong> 抽象類別
+            （<code>chemical</code>、<code>protein</code>、<code>enzyme</code>、<code>gene</code>，
+            以及 <code>DENYLIST</code> 的其餘項目）會在計算中心性之前被剪除。否則一個通用的「protein」巨塊會主導每個排名，而使具體實體
+            （ACSL4、GPX4、鐵死亡 ferroptosis）消失。
+          </li>
+          <li>
+            <strong>有向圖、無向指標。</strong> 入度、出度與 PageRank 在 <code>DiGraph</code> 上計算。中介中心性、聚類係數與 k-core 在
+            無向投影上計算——這是當方向不完整，或當問題是模組歸屬而非因果流向時，NetworkX 的常見模式。
+          </li>
+        </ul>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1 · 管線</span></div>
+        <div class="fig-canvas" data-chart="pipeline"></div>
+        <figcaption>
+          <strong>指紋如何產生。</strong>
+          帶類型的三元組先剔除本體中樞，載入為有向圖，投影為無向以計算無向指標，以 Leiden 聚類，再寫回每個節點。邊的 <code>weight</code> 目前附加在中心性計算<em>之後</em>——詳見 NetworkX 小節中的權重說明。
+        </figcaption>
+      </figure>
+
+    </section>
+
+    <section id="metrics">
+      <p class="sec-label">02 · 指標圖譜</p>
+      <h2>每個數字在問圖譜什麼</h2>
+
+      <div class="note">
+        <h4>指紋的範疇——指標對比關係感知方法</h4>
+        <p>
+          下方每個卡片都列出了其 NetworkX 呼叫、所提出的生物學問題，以及最常在解讀中誤導人的注意事項。數值為本實作使用的定義，而非一般教科書的泛化轉述。
+        </p>
+        <p>
+          下方每個指標都是<strong>儲存在單一節點上的單一純量</strong>：該實體角色在隔離狀態下——一個源頭、一個瓶頸、一個骨幹、一個模組、或一個葉節點——的靜態、逐節點指紋。這些數字的型態才是<em>哪些</em>節點值得注意的分流工具。純量無法表達的是兩個具名實體之間的<em>關係</em>：<u><strong>它們如何</strong>沿著帶標籤、具信心加權的邊相連，<strong>是否</strong>共享鄰域，一條缺失的邊<strong>是否</strong>合理，或一旦低信心路徑被降權後，兩條路徑<strong>相距多遠</strong>。</u>那些問題是
+          <a href="#methods">關係感知方法</a>（<code>scripts/analysis/node_analysis.py</code>）的職責，它們在相同的 <code>graph.json</code> 上成對、多節點地運作。請將指紋視為分流層；將關係感知方法視為<em>如何</em>與<em>為何</em>。
+        </p>
+      </div>
+
+      <div class="atlas">
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge directed">有向</p>
+          <p class="op">G.in_degree / G.out_degree</p>
+          <h3>入度與出度</h3>
+          <p class="q">調節者還是標的？上游驅動者還是下游效應者？</p>
+          <div class="more">
+            <p>
+              此處的總 <code>degree</code> 是有向圖上的 <code>in_degree + out_degree</code>，而非無向的鄰居計數。不對稱性才是訊號：出 ≫ 入 是源頭；入 ≫ 出 是匯點；兩者皆高則是一個既收集又廣播的程式。
+            </p>
+            <p>
+              <strong>注意。</strong> 度數偏向註釋完整的實體。拒絕名單可移除類型中樞，但文獻中受研究的節點仍會累積邊。務必搭配第二個指標一起看。
+            </p>
+            <p class="method-ex"><em>範例：</em>Acid ceramidase（出 17／入 3）是向脂質與鐵死亡節點廣播的源頭；Aging（入 35／出 13）是彙集觸發因子的匯點。關鍵在於不對稱性——而非總數——決定要打哪一個、要讀哪一個。</p>
+          </div>
+        </button>
+
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge directed">有向</p>
+          <p class="op">nx.pagerank(G, alpha=0.85, max_iter=200)</p>
+          <h3>PageRank</h3>
+          <p class="q">根本性重要度，由<em>誰</em>連接到它來加權。</p>
+          <div class="more">
+            <p>
+              在有向圖上、阻尼係數 0.85 的隨機遊走。當其他高分節點連向某節點時，該節點得分高。在本實作中，Aging（0.00739）勝過 SASP（0.00712），儘管 SASP 度數較大——Aging 受到其餘重要核心的背書。
+            </p>
+            <p>
+              <strong>注意。</strong> PageRank 目前計算時<em>未</em>使用 <code>weight=</code>。信心分數儲存在邊上，但在本次呼叫之後才附加。個人化 PageRank（在 <code>scripts/analysis/node_analysis.py</code> 中的種子遊走）才是當問題是「與<em>此</em>節點相關」，而非「全局重要」時的正確工具。
+            </p>
+            <p class="method-ex"><em>範例：</em>全局 PageRank 透過重要核心的連結，讓 Aging（0.00739）勝過 SASP（0.00712）——若要篩選「根本性」樞紐而非驅動者，跟著被背書的節點走，而不是度數最高的節點。</p>
+          </div>
+        </button>
+
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">無向</p>
+          <p class="op">nx.betweenness_centrality(G.to_undirected())</p>
+          <h3>中介中心性</h3>
+          <p class="q">瓶頸或橋樑——系統性槓桿靶點？</p>
+          <div class="more">
+            <p>
+              在無向投影上，經過該節點的最短路徑佔比。高中介中心性是一個將原本分離的社群縫合起來的過程的網絡特徵。SASP（0.0555）是實作成例中最高者；它座落於從粒線體、表觀遺傳通往發炎與旁分泌擴散的路徑上。
+            </p>
+            <p>
+              <strong>注意。</strong> 無向中介中心性會喪失因果方向。加權中介中心性將權重視為<em>距離</em>，因此信心分數在作為 <code>weight</code> 傳入前必須先反轉（<code>1/confidence</code> 或 <code>−log</code>）。在大型圖上，使用 <code>k=</code> 抽樣近似。
+            </p>
+            <p class="method-ex"><em>範例：</em>SASP（中介中心性 0.0555）是樣本中最關鍵的橋樑——從粒線體、表觀遺傳通往發炎與旁分泌擴散的路徑都穿過它。切斷這麼核心的橋樑槓桿高，但風險也高。</p>
+          </div>
+        </button>
+
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">無向</p>
+          <p class="op">nx.clustering(G.to_undirected())</p>
+          <h3>聚類係數</h3>
+          <p class="q">緊密模組（複合體、級聯）還是連接者（訊號中樞）？</p>
+          <div class="more">
+            <p>
+              局部傳遞性：一個節點的鄰居對中，彼此也有連結的比例。<code>C = 1.0</code> 表示鄰居間形成完全連結的團（clique）——本圖中的 GPX4、inducible NOS（可誘發一氧化氮合酶）、Cataract（白內障）。<span class="inst-inline">Acid ceramidase 座落於 <code>C ≈ 0.04</code> 附近：它的鄰居分布在不同區域。</span>
+            </p>
+            <p>
+              <strong>注意。</strong> 高聚類係數並不代表「更重要」。它標記的是一種不同的可藥性策略：破壞一個緊密機制，對比切斷一座橋樑。請與全局傳遞性以及保留度數的零模型比較；生物網絡通常比配置模型（configuration model）更具聚類性。
+            </p>
+            <p class="method-ex"><em>範例：</em>GPX4、inducible NOS 與 Cataract 形成一個團（C = 1.0）——應整個停用的緊密氧化還原模組；Acid ceramidase（C ≈ 0.04）則相反，是該切斷而非拆解的橋樑。</p>
+          </div>
+        </button>
+
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">無向</p>
+          <p class="op">nx.core_number(G.to_undirected())</p>
+          <h3>k-core 數</h3>
+          <p class="q">具韌性的骨幹，還是偶然的周邊？</p>
+          <div class="more">
+            <p>
+              最大的 <em>k</em>，使得在反覆刪除所有度數 &lt; <em>k</em> 的節點後，該節點仍然存在。在本圖中，<span class="inst-inline">內層殼為 <code>k = 6</code>：Aging、SASP、Senescent cells（衰老細胞）。位於 <code>k = 1</code> 的葉節點（Acetate、Alagebrium、2-Chlorophenothiazine）掛在該核心之外。</span>
+            </p>
+            <p>
+              <strong>注意。</strong> NetworkX 在有向圖上預設的 core number 使用總度數；本實作正確地在無向視圖上計算。在古典 PPI 研究中，內層核心會富集必需蛋白（Wuchty &amp; Almaas 2005）。它們是篩選過濾器，而非必需性的證明。
+            </p>
+            <p class="method-ex"><em>範例：</em>Aging、SASP 與 Senescent cells 位於 k = 6 的內層殼，而 Acetate、Alagebrium 則在 k = 1——先篩內層殼：葉節點是脈絡，核心才是機制。</p>
+          </div>
+        </button>
+
+        <button class="metric is-open" type="button" aria-expanded="true">
+          <p class="badge undirected">無向</p>
+          <p class="op">Leiden 聚類 + 最高度數社群標籤</p>
+          <h3>社群名稱與大小</h3>
+          <p class="q">該節點屬於哪個浮現出的路徑或過程？</p>
+          <div class="more">
+            <p>
+              Leiden 對圖進行分割；每個社群以其度數最高的成員命名。<span class="inst-inline">Acid ceramidase 錨定了一個大小為 17、以其自身命名的社群——一個局部過程模組。</span> SASP 與 Aging 則位於較大的衰老軸（senescence axis）中。一個鄰居大多位於<em>其他</em>社群的節點，是社群橋樑，與中介中心性互補。
+            </p>
+            <p>
+              <strong>注意。</strong> 社群標籤在多輪重建間以多數重疊方式保留，但它們並非路徑資料庫。Leiden 與 Fiedler（譜）切分的差異本身即是一項發現：那些節點座落於過程之間。
+            </p>
+            <p class="method-ex"><em>範例：</em>Acid ceramidase 錨定一個大小 18、以自身命名的社群——一個局部脂質過氧化模組——而 SASP 與 Aging 位於較大的衰老軸；鄰居大多在他社群的節點，就是應優先處理的橋樑。</p>
+          </div>
+        </button>
+      </div>
+
+      <div class="note slate">
+        <h4>文獻脈絡，而非知識庫指標</h4>
+        <p>
+          度數–必需性（Jeong et al., 2001）、瓶頸蛋白（Yu et al., 2007），以及必需蛋白的 k-shell 富集（Wuchty &amp; Almaas, 2005）是將這些指標視為生物學的古典 PPI 依據。本實作是一個源自文獻的知識圖譜，而非物理交互組（interactome）：相同的數學適用，但邊是帶有策展者信心的類型化關係，而非結合事件。請將排名視為假說，並對照來源筆記進行驗證。
+        </p>
+      </div>
+      <div class="note">
+        <h4>解讀陷阱</h4>
+        <p class="inst-tag">Acid ceramidase vs Aging · graph 867a5ae5fdb8a46c</p>
+        <p>
+          PageRank 與出度回答的是相反的問題。PageRank 獎勵被其他重要節點<em>指向</em>的節點。出度標記的是一個<em>向外指向</em>的節點。Acid ceramidase 是擴散者（出度 17，PageRank 0.000758）。Aging 是吸引子（入度 35，PageRank 0.00739）。若單獨使用任一指標，都會顛倒生物學的解讀。
+        </p>
+      </div>
+    </section>
+
+    <section id="methods">
+      <p class="sec-label">03 · 超越靜態指紋</p>
+      <h2>儲存庫中已有的關係感知方法</h2>
+      <p>
+        <code>scripts/analysis/node_analysis.py</code> 運行於相同的 <code>graph.json</code>
+        上，並回答每節點向量無法回答的問題：兩個實體<em>如何</em>連接、它們是否共享鄰域、一條缺失的邊是否合理，以及一旦低信心路徑被降權後，兩條路徑究竟相距多遠。
+      </p>
+      <pre><code>uv run --with networkx --with scipy python3 -m scripts.analysis.node_analysis \
+    --sources sirt1 sirt3 --targets adrenochrome</code></pre>
+
+      <div class="methods">
+        <article class="method">
+          <p class="op">nx.all_shortest_paths · edge relation / confidence</p>
+          <h3>最短路徑多重性</h3>
+          <p>
+            不只 A 能否到達 B，還有帶標籤的鏈
+            （<span class="inst-inline"><code>Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis</code></span>），
+            以及跨多條等長最短路徑共享的第一跳橋樑。
+          </p>
+          <p class="method-bio">
+            在驅動子與效應子之間、等長且關係上各自不同的鏈的計數，從無向圖讀取。高多重性是專為繞道而建構之模組的網絡特徵：任何單一跳點上的阻斷都會被平行補償吸收，而非傳播失效。SIRT1 透過三條鏈到達 NF-κB（NAD+ 競爭、直接 RelA 去乙醯化、一個染色質接力），因此增強 SIRT1 只能透過冗餘線路部分地抑制 NF-κB。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 多重性為一是一個真實、限速的瓶頸點，其單一因果邊才是精確的介入標的。將只有少數稀缺橋樑的連結讀作交互作用——兩個模組透過罕見的中介耦合，而非共享線性路徑。
+          </p>
+          <p class="method-ex"><em>範例：</em>問 SIRT1 是透過一條還是多條路線到達 NF-κB——如果三條等長鏈（NAD+ 競爭、直接 RelA 去乙醯化、一個染色質接力）連接兩者，增強 SIRT1 將部分被平行線路吸收，而非乾淨地沉默 NF-κB。</p>
+        </article>
+        <article class="method">
+          <p class="op">neighbour-set Jaccard</p>
+          <h3>鄰域相似性</h3>
+          <p>
+            共享鄰居的實體是機制類比物或脫靶孿生體。與高度數夥伴間的低 Jaccard，是截然不同的鄰域，而非對同一模組的重述。
+          </p>
+          <p class="method-bio">
+            兩實體間共享鄰居的比例（Jaccard），在無向投影上計算。高重疊是互為迴響之實體的網絡特徵——共複合、共調控、或有功（paralogous）——因此命中其一會被另一者聽聞。PARP1 與 PARP2 共享 NAD+ 周轉、PARP 抑制劑與 DNA 修復夥伴，所以號稱 PARP1 選擇性的抑制劑很可能會波及 PARP2。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 相對於高度數夥伴的低 Jaccard 並非同一生物學的弱複製，而是真正不同的地址——這是區分真正功能孿生與脫靶混雜的關鍵。分離讀作機制獨立：兩個名稱相鄰、卻未共享實際交互者的節點，論證了各自的機制。
+          </p>
+          <p class="method-ex"><em>範例：</em>PARP1 與 PARP2 共享 NAD+ 周轉、PARP 抑制劑與 DNA 修復夥伴——因此高 Jaccard 警告：一個號稱 PARP1 選擇性的抑制劑很可能會波及 PARP2，這是在優先排序之前的一項去風險檢查。</p>
+        </article>
+        <article class="method">
+          <p class="op">nx.adamic_adar_index</p>
+          <h3>連結預測</h3>
+          <p>
+            共享鄰居依 log 度數降權。將合理的缺失邊呈現為假說佇列，而非事實。在寫回三元組之前，需經人工文獻查核。
+          </p>
+          <p class="method-bio">
+            由共享鄰居（依 log 度數降權，Adamic–Adar）所得的合理缺失邊分數，在無向投影上計算。高分是真實、但紀錄不足之交互的網絡特徵：一個安靜的共享鄰居是強烈暗示，因為一個濫交的樞紐會使該訊號失去意義。SIRT1 與一個未連接、僅共享單一罕見支架的激酶，在被判定為無關之前，值得一次鎖定的文獻搜尋。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 產生一項預測的同一種稀疏性，也會製造假的孿生體——策展不足會同時產生缺失的邊與人為產物。請將每筆呼籲都視為待讀清單，絕非發現：在寫回三元組之前，必須先做一次初級文獻查核。
+          </p>
+          <p class="method-ex"><em>範例：</em>如果 SIRT1 與一個未連接的激酶只共享單一罕見支架、且沒有策展過的邊，那麼這個配對在被判定為無關之前，值得一次鎖定的文獻搜尋。</p>
+        </article>
+        <article class="method">
+          <p class="op">scipy.linalg.eigh on the Laplacian</p>
+          <h3>譜切分（Fiedler）</h3>
+          <p>
+            該腳本使用稠密 <code>eigh</code>，因為 <code>eigsh(which="SM")</code> 在奇異（singular）Laplacian 上會回傳無意義的零模態，使 Fiedler 向量失效。
+          </p>
+          <p class="method-bio">
+            代數連通度 λ<sub>2</sub> 與 Fiedler 向量在無向投影的 Laplacian 上計算，將圖切分為兩個連貫的子系統。該切分是網絡中最弱機能接縫的特徵：它將分解代謝與合成代謝程式、或壓力反應與維持代謝切開。在衰老語料上，接縫落在脂質過氧化／分泌程式與維持代謝之間，使像 Acid ceramidase 這樣的橋樑正好卡在切口上。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 趨近零的 λ<sub>2</sub> 暴露一個近乎碎裂、易於分離的架構；較大的值則描述緊密交織的狀態。深深座落於一半的節點，僅臣服於該程式——是局部專家，而非跨程式槓桿。
+          </p>
+          <p class="method-ex"><em>範例：</em>在衰老語料上，接縫往往落在脂質過氧化／分泌程式與維持代謝之間，使像 Acid ceramidase 這樣的橋樑正好卡在切口上——這是尋找跨程式調節者的第一站。</p>
+        </article>
+        <article class="method">
+          <p class="op">Laplacian pseudoinverse</p>
+          <h3>有效電阻</h3>
+          <p>
+            自電阻（self-resistance）是一項健全性檢查，應約為 0。截斷 SVD 在此<em>並非</em>有效的交換時間（commute-time）代理；該腳本從篩選後的特徵值建構偽逆。
+          </p>
+          <p class="method-bio">
+            從 Laplacian 偽逆所得的、能感知指標的距離，會降權長程、低信心的路徑，並對照隨機節點零樣本做 z 分數標準化。低電阻是豐富平行線路的網絡特徵：兩個過程之所以電性相近，是因為許多冗餘路線並行，而非單一優越的邊連接它們。Ferroptosis 儘管沒有單一主導邊，仍與 Inflammation 電性相近，所以多條平行路線意味著低電阻；僅由一條單薄、低信心鏈可達的驅動子，才是脆弱、可成藥的例外。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 與中介中心性相同，請傳入反轉的信心（1/confidence 或 −log）作為距離，絕不傳入原始分數。
+          </p>
+          <p class="method-ex"><em>範例：</em>Ferroptosis 儘管沒有單一主導邊，仍可與 Inflammation 電性相近——許多平行路線意味著低電阻；僅由一條單薄、低信心鏈可達的驅動子，才是脆弱、可成藥的例外。</p>
+        </article>
+        <article class="method">
+          <p class="op">nx.pagerank(..., personalization=)</p>
+          <h3>個人化 PageRank</h3>
+          <p>
+            播種一個感興趣的節點，並依從該播種節點流出的遊走質量，對圖的其餘部分排名。當指紋已指名一個骨幹節點時，這是正確的從全局到局部的移動。
+          </p>
+          <p class="method-bio">
+            從播種節點（<code>personalization=</code>）所得的遊走質量排名，在無向圖上計算。高局部排名是一個過程實際驅動之效應者的網絡特徵，透過沿著該節點自己的線路重新分配機率，而非那些著名的全局樞紐來浮現。播種 Senescent cells，並與 Ferroptosis 和 SASP 的播種取交集，會浮現共享的效應子——脂質過氧化、IL-6——那些通才排行會埋沒它們。
+          </p>
+          <p class="method-caveat">
+            <strong>注意。</strong> 單一種子的頂級排名反映的是起源的選擇，與底層網絡一樣多，切勿過度解讀一次遊走。請播種數個獨立節點並對頂級排名取交集；跨種子反覆出現的效應子，才是強健、與機制相關的生物學。
+          </p>
+          <p class="method-ex"><em>範例：</em>在 Senescent cells 上播種 PPR，並與在 Ferroptosis 和 SASP 上的種子交集，會浮現共享的效應子——脂質過氧化、IL-6——那些通才排行會埋沒它們。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="operations">
+      <p class="sec-label">04 · 節點角色</p>
+      <h2>疊加於指紋之上的一層規則</h2>
+      <p>
+        節點角色是位於指紋之上的解讀層。一套精簡的規則集讀取每個節點的指標型態——度數不對稱性、中介中心性、k-core 深度、聚類——並指派一個或多個角色：擴散者（spreader）、瓶頸（bottleneck）、核心骨幹（core backbone）、模組成員（module member）、主控調節子（master regulator），以及周邊（periphery）。角色是關於功能的宣稱，而不只是排名；正因如此，角色會重疊而非分割整張圖：單一節點可以同時是擴散者與主控調節子，因此各角色的佔比總和不到 100%。同一套角色映射可用於任何下游問題——標的排序、假說生成、比較性節點研究、文獻策展檢核——而下方的表格列出此一分類法及其數量，其下的卡片則展示觸發的規則，以及具現每個角色的實作成例。
+      </p>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable">
+          <thead>
+            <tr>
+              <th>角色</th>
+              <th class="num">節點</th>
+              <th class="num">佔圖譜%</th>
+              <th>解讀</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>周邊</td><td class="num">1,925</td><td class="num">74.2%</td><td>情境性葉節點——支援證據，非首輪標的。</td></tr>
+            <tr><td>瓶頸</td><td class="num">260</td><td class="num">10.0%</td><td>頂級十分位中介中心性——系統性槓桿與副作用風險。</td></tr>
+            <tr><td>擴散者</td><td class="num">205</td><td class="num">7.9%</td><td>出度 ≫ 入度——向外的控制點。</td></tr>
+            <tr><td>核心骨幹</td><td class="num">99</td><td class="num">3.8%</td><td>k-core ≥ 5——衰老／老化內層殼。</td></tr>
+            <tr><td>模組成員</td><td class="num">71</td><td class="num">2.7%</td><td>聚類係數 &gt; 0.5——凝聚機制的參與者。</td></tr>
+            <tr><td>主控調節者</td><td class="num">51</td><td class="num">2.0%</td><td>高出度 ∧ 高 PageRank——源頭兼受背書的吸引子。</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="panel">
+        <p class="panel-head">角色分布</p>
+        <div class="roles">
+          <article class="role-card">
+            <h3>擴散者</h3>
+            <p class="rule">out_degree ≫ in_degree</p>
+            <p>向許多效應者廣播的控制點。當社群是一個損傷程式時，即為衰老溶解／衰老調節（senomorphic）候選者。</p>
+            <p class="hits">205 節點（7.9%）· Acid ceramidase（出 17／入 3）</p>
+          </article>
+          <article class="role-card">
+            <h3>主控調節者</h3>
+            <p class="rule">high out_degree ∧ high pagerank</p>
+            <p>同時是源頭與受背書的吸引子。在整圖規模上有 51 個節點符合——包括 SASP 與 Aging，這兩者在三節點調查中曾被標記為「負向控制」。51 個中有 38 個也是核心骨幹。</p>
+            <p class="hits">51 節點（2.0%）· SASP、Aging、SIRT1、NF-κB</p>
+          </article>
+          <article class="role-card">
+            <h3>瓶頸</h3>
+            <p class="rule">betweenness in the top decile</p>
+            <p>系統性槓桿，也是系統性副作用風險。SASP 是此圖中的典型代表。</p>
+            <p class="hits">260 節點（10.0%）· SASP（0.055）、Aging（0.042）</p>
+          </article>
+          <article class="role-card">
+            <h3>模組成員</h3>
+            <p class="rule">clustering &gt; 0.5</p>
+            <p>一個凝聚機制的參與者。策略：破壞複合體，而非切斷橋樑。</p>
+            <p class="hits">71 節點（2.7%）· GPX4、Inducible NOS、Cataract（C = 1.0）</p>
+          </article>
+          <article class="role-card">
+            <h3>核心骨幹</h3>
+            <p class="rule">k_core ≥ 5</p>
+            <p>衰老／老化軸的內層殼。一等實體筆記；個人化 PageRank 掃描的種子。</p>
+            <p class="hits">99 節點（3.8%）· Aging、SASP、Senescent cells</p>
+          </article>
+          <article class="role-card">
+            <h3>周邊</h3>
+            <p class="rule">k_core == 1</p>
+            <p>情境性葉節點。保留作為支援證據；勿優先投入深入探究的筆記。</p>
+            <p class="hits">1,925 節點（74.2%）· Acetate、Alagebrium、2-Chlorophenothiazine</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="note gold">
+        <h4>複合衰老溶解分數——一項可驗證的下一步</h4>
+        <p class="inst-tag">Acid ceramidase · graph 867a5ae5fdb8a46c</p>
+        <p>
+          結合出度（擴散控制）、中介中心性（槓桿）、社群橋樑狀態（鄰居位於不同的 Leiden 社群），以及低至中等聚類係數（模組可破壞性對比橋樑切斷）。排名後，將前 N 名寫入任務輸出，並要求 Acid ceramidase 浮現在接近頂端的位置。若沒有，則是分數有誤，而非生物學有誤。
+        </p>
+        <p>
+          以權重 0.30 來源不對稱性 · 0.20 中介中心性 ·
+          0.30 橋樑比例 · 0.20 低聚類係數在整圖上運行，該分數讓已知的
+          長壽／衰老溶解機制浮現在頂端（SIRT1、SIRT3、Rapamycin、Caloric
+          Restriction、Urolithin A、Nicotinamide Riboside），並將
+          <strong>Acid ceramidase 置於 2,596 個中的第 107 名——前 4.1%</strong>，如規則所要求的接近頂端。
+        </p>
+        <div class="table-wrap">
+          <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable1" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable1">
+            <thead>
+              <tr>
+                <th>排名</th>
+                <th>候選者</th>
+                <th class="num">分數</th>
+                <th class="num">出</th>
+                <th class="num">橋樑</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>SIRT1</td><td class="num">0.787</td><td class="num">187</td><td class="num">0.42</td></tr>
+              <tr><td>2</td><td>SIRT3</td><td class="num">0.733</td><td class="num">153</td><td class="num">0.43</td></tr>
+              <tr><td>3</td><td>Superoxide Dismutase</td><td class="num">0.725</td><td class="num">4</td><td class="num">0.75</td></tr>
+              <tr><td>4</td><td>Alpha-Lipoic Acid</td><td class="num">0.722</td><td class="num">5</td><td class="num">0.80</td></tr>
+              <tr><td>5</td><td>Ascorbic Acid</td><td class="num">0.701</td><td class="num">6</td><td class="num">0.83</td></tr>
+              <tr><td>6</td><td>Nicotinamide Riboside</td><td class="num">0.680</td><td class="num">50</td><td class="num">0.58</td></tr>
+              <tr><td>107</td><td><strong>Acid ceramidase</strong></td><td class="num">0.568</td><td class="num">17</td><td class="num">0.37</td></tr>
+            </tbody>
+          </table></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="examples">
+      <p class="sec-label">05 · 實作成例</p>
+      <h2>圖譜中已存在的成功解讀</h2>
+      <p>
+        以下五個案例並非演算法的圖解示範。它們是指紋還原出一個底層文件已經支持的「角色」的案例——這才是專業讀者在對陌生節點套用相同讀法之前，應該要求的驗證。
+      </p>
+
+      <div class="instance" data-node="acid">
+                <h3>Acid ceramidase — 出度擴散者</h3>
+        <p>
+          度數 20，<strong>出度 17 / 入度 3</strong>，PageRank 0.000758，
+          中介中心性 0.00798，k-core 4，社群「Acid ceramidase」（大小 17）。
+          此不對稱性標記出一個源頭：它將效應推送到脂質與鐵死亡節點，而非被動接受作用。在來源文件中，衰老細胞中偏高的 acid
+          ceramidase 使膜重塑為富含 PUFA（多元不飽和脂肪酸）、易致鐵死亡的輪廓；而 knockdown（基因靜默）或 ARN14794 可保護細胞。
+          <strong>來源：</strong><em>Acid ceramidase modulates the lipid profile and
+          exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells</em>
+          （Soriano-Castell, Goujon, Dar, Currais &amp; Maher, <em>Cell Death and Disease</em>,
+          2026；DOI <a href="https://doi.org/10.1038/s41419-026-09108-y">10.1038/s41419-026-09108-y</a>）。
+          註：<code>src/notes/_link/_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md</code>。
+          圖譜中還有一個指向它的「Senolytic Drug Target（衰老溶解藥物標的）」節點。高出度、中等中介中心性，以及以自身命名的社群錨點，是擴散型衰老溶解或衰老調節（senomorphic）候選者的特徵。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 2 · 擴散者</span></div>
+          <div class="fig-canvas">
+            <div class="copy-host"><svg id="AcidceramidaseSvg" viewBox="0 0 520 340" role="img" aria-label="Acid ceramidase 作為出度擴散者">
+              <title>Acid ceramidase 作為出度擴散者</title>
+              <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
+              <rect x="0" y="0" width="520" height="340" fill="#fbf8f1"/>
+              <defs>
+                <marker id="sp-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#6d665b"/>
+                </marker>
+                <marker id="sp-ar-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#9a7430"/>
+                </marker>
+              </defs>
+
+              <!-- 傳入驅動者 -> AC：SASP、ARN14794（金色標示）、Carmofur -->
+              <line x1="118" y1="146" x2="219" y2="146" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+              <line x1="118" y1="182" x2="205" y2="182" stroke="#9a7430" stroke-width="2" opacity="0.9" marker-end="url(#sp-ar-gold)"/>
+              <line x1="118" y1="218" x2="219" y2="210" stroke="#4c6e86" stroke-width="1.1" opacity="0.85" marker-end="url(#sp-ar)"/>
+              <circle cx="112" cy="146" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="112" cy="182" r="11" fill="none" stroke="#9a7430" stroke-width="1.4" opacity="0.9"/>
+              <circle cx="112" cy="182" r="7" fill="#9a7430" stroke="#1c1915" stroke-width="1.4"/>
+              <circle cx="112" cy="218" r="5.5" fill="#4c6e86" stroke="#1c1915" stroke-width="0.8"/>
+              <text x="100" y="150" text-anchor="end" fill="#6d665b" font-size="11">SASP</text>
+              <text x="100" y="186" text-anchor="end" fill="#9a7430" font-size="11" font-weight="600">ARN14794</text>
+              <text x="100" y="222" text-anchor="end" fill="#6d665b" font-size="11">Carmofur</text>
+
+              <!-- 傳出擴散：AC -> 效應者 -->
+              <line x1="277" y1="146" x2="355" y2="95" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="287" y1="158" x2="395" y2="127" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="292" y1="174" x2="413" y2="167" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="290" y1="190" x2="408" y2="208" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="283" y1="204" x2="379" y2="245" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="271" y1="214" x2="332" y2="272" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+              <line x1="240" y1="219" x2="210" y2="284" stroke="#7a312c" stroke-width="1.15" opacity="0.9" marker-end="url(#sp-ar)"/>
+
+              <circle cx="359" cy="90" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="400" cy="124" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="419" cy="166" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="413" cy="210" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="384" cy="249" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="335" cy="278" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <circle cx="209" cy="290" r="5.5" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+
+              <text x="368" y="94" fill="#1c1915" font-size="11">PUFA 脂質</text>
+              <text x="409" y="128" fill="#1c1915" font-size="11">脂質過氧化</text>
+              <text x="428" y="170" fill="#1c1915" font-size="11">Ferroptosis</text>
+              <text x="422" y="214" fill="#1c1915" font-size="11">膜重塑</text>
+              <text x="393" y="253" fill="#1c1915" font-size="11">旁觀者細胞</text>
+              <text x="344" y="282" fill="#1c1915" font-size="11">衰老細胞</text>
+              <text x="218" y="294" fill="#1c1915" font-size="11">衰老溶解標的</text>
+
+              <!-- AC 節點 -->
+              <circle cx="250" cy="178" r="40" fill="#7a312c" stroke="#1c1915" stroke-width="0.8"/>
+              <text x="250" y="182" text-anchor="middle" fill="#fbf8f1" font-size="11" font-weight="600">AC</text>
+              <text x="250" y="190" text-anchor="middle" fill="#fbf8f1" font-size="9" opacity="0.9">out 17</text>
+
+              <text x="16" y="28" fill="#2e4a5d" font-size="11" font-weight="600">入度 3</text>
+              <text x="16" y="44" fill="#6d665b" font-size="11">上游驅動者</text>
+              <text x="360" y="28" fill="#7a312c" font-size="11" font-weight="600">出度 17</text>
+              <text x="360" y="44" fill="#6d665b" font-size="11">下游擴散</text>
+            </svg><button class="copy-btn" data-copy="AcidceramidaseSvg" title="Copy as PNG" aria-label="Copy diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+          </div>
+          <figcaption>
+            <strong>Acid ceramidase 作為源頭節點。</strong>
+            三個傳入驅動者，多個傳出效應者。PageRank 保持低值，因為幾乎沒有節點指向<em>它</em>；其生物學意義在於出向星狀結構（out-star）。
+            <a href="https://x.com/i/grok/share/f39c23c7740d438db8181ff33b4ea809">Grok ref →</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="sasp">
+                <h3>SASP — 收斂與發散的分泌中樞</h3>
+        <p>
+          度數 101，<strong>入度 56 / 出度 45</strong>，PageRank 0.00712，
+          中介中心性 0.0555，k-core 6。在受調查集合中中介中心性最高：SASP
+          座落於粒線體、表觀遺傳、發炎與衰老之間的最短路徑上。它是上游觸發因子的匯點，也是旁分泌細胞因子（IL-6、IL-8）的源頭——在 acid-ceramidase 文件中，這些細胞因子會在旁觀者細胞中誘發該酵素。高入度、高出度、頂級中介中心性：一個主控程式。擾動它會在整個網絡中迴盪——這既是治療吸引力，也是靶上風險。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 3 · 樞紐</span></div>
+          <div class="fig-canvas" data-chart="nexus"></div>
+          <figcaption>
+            <strong>中介中心性即路徑集中。</strong>
+            左側的社群必須跨越 SASP，才能抵達右側的效應者。
+            <strong>註：</strong>金色虛線標示出其中一條路線——
+            <em>粒線體 → SASP → 旁分泌擴散</em>——用以示範一個左側社群唯有穿過此樞紐才能抵達右側效應者，
+            這正是 SASP 中介中心性偏高的原因。
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="aging">
+                <h3>Aging — PageRank 與核心骨幹</h3>
+        <p>
+          度數 48，入度 35，出度 13，<strong>PageRank 0.00739</strong>
+          （樣本中最高），中介中心性 0.0421，k-core 6。PageRank 高，因為
+          Aging 連接到<em>其他重要</em>節點，而不只是連到很多節點。
+          k-core 6 將它與 SASP 及 Senescent cells（衰老細胞）一同置於最緻密、相互強化的殼層中。頂級 PageRank 加上內層核心成員身份，即「共同土壤（common soil）」的解讀：下游疾病社群附著於此。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 4 · PageRank 背書</span></div>
+          <div class="fig-canvas" data-chart="pagerank"></div>
+          <figcaption>
+            <strong>重要性由鄰居繼承而來。</strong>
+            其他高分節點的粗箭頭抬高了 Aging 的 PageRank。一個具有相同原始度數的周邊葉節點則不會。
+            Acid ceramidase PR = 0.000758 — 來源不會被入鏈背書。
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="gpx4">
+                <h3>GPX4、inducible NOS、Cataract — 聚類係數 = 1.0</h3>
+        <p>
+          聚類係數 1.0 表示節點的每個鄰居都與其他每個鄰居相連：一個氧化還原複合體、一個 NO 級聯、一個 AGE 交聯叢集。GPX4 也位於 k-core 2，符合小型團（clique）而非全局骨幹。對比聚類係數 ≈ 0.04 的 Acid ceramidase：那是一個連接者。這兩種型態是互補的可藥性策略——破壞模組，或切斷橋樑。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 5 · 聚類</span></div>
+          <div class="fig-canvas" data-chart="clustering"></div>
+          <figcaption>
+            <strong>團（clique）對比橋樑。</strong>
+            左：一個 C = 1.0 的三節點模組（GPX4 型態）。右：低聚類的連接者，其鄰居分布於不同叢集（Acid ceramidase 型態）。
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="instance" data-node="core">
+                <h3>k-core 6 骨幹</h3>
+        <p>
+          位於 k-core 6 的節點——Aging、SASP、Senescent cells（衰老細胞）——構成衰老／老化軸中具韌性的內層機制。其他一切都依附於它。k-core 分解是指紋中速度最快的「必需對偶然」排名，也是判斷哪些節點值得撰寫深入實體筆記的正確過濾器。
+        </p>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 6 · k-core 洋蔥</span></div>
+          <div class="fig-canvas" data-chart="onion"></div>
+          <figcaption>
+            <strong>嵌套殼層，而非扁平排名。</strong>
+            內層 k = 6 是衰老骨幹。Acid ceramidase 位於 k = 4（近核心控制）。GPX4 位於 k = 2（局部模組）。具名的葉節點位於 k = 1。
+          </figcaption>
+        </figure>
+      </div>
+      <h3>相同的三個節點，並列對照</h3>
+      <p>
+        數字唯有在比較時才成為指紋。表格是真相來源；圖表則在本樣本內重新縮放各指標，以使型態可見。SASP 在量體與中介中心性上居冠。Aging 在 PageRank 上居冠，並在內層核心與 SASP 相當。Acid ceramidase 規模小、向外導向，且局部稀疏。
+      </p>
+
+      <div class="instance" data-node="worked">
+                <div class="table-wrap">
+          <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable2" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable2">
+            <thead>
+              <tr>
+                <th>節點</th>
+                <th>角色解讀</th>
+                <th class="num">入</th>
+                <th class="num">出</th>
+                <th class="num">度數</th>
+                <th class="num">PageRank</th>
+                <th class="num">中介中心性</th>
+                <th class="num">聚類係數</th>
+                <th class="num">k-core</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-node="acid" data-tip="源頭 / 擴散者。出度主導，低 PageRank。">
+                <td>Acid ceramidase</td>
+                <td><span class="role spreader">擴散者</span></td>
+                <td class="num">3</td>
+                <td class="num">17</td>
+                <td class="num">20</td>
+                <td class="num">0.000758</td>
+                <td class="num">0.00798</td>
+                <td class="num">≈ 0.04</td>
+                <td class="num">4</td>
+              </tr>
+              <tr data-node="sasp" data-tip="收斂—發散分泌中樞。中介中心性最高。">
+                <td>SASP</td>
+                <td><span class="role nexus">樞紐</span></td>
+                <td class="num">56</td>
+                <td class="num">45</td>
+                <td class="num">101</td>
+                <td class="num">0.00712</td>
+                <td class="num">0.0555</td>
+                <td class="num">—</td>
+                <td class="num">6</td>
+              </tr>
+              <tr data-node="aging" data-tip="共同土壤吸引子。PageRank 最高，位於內層核心。">
+                <td>Aging</td>
+                <td><span class="role backbone">骨幹</span></td>
+                <td class="num">35</td>
+                <td class="num">13</td>
+                <td class="num">48</td>
+                <td class="num">0.00739</td>
+                <td class="num">0.0421</td>
+                <td class="num">—</td>
+                <td class="num">6</td>
+              </tr>
+              <tr data-node="gpx4" data-tip="凝聚的局部機制，而非全局中樞。">
+                <td>GPX4</td>
+                <td><span class="role module">模組</span></td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.0</td>
+                <td class="num">2</td>
+              </tr>
+              <tr data-node="leaf" data-tip="情境性葉節點。勿優先深入探究。">
+                <td>Acetate、Alagebrium、2-Chlorophenothiazine</td>
+                <td><span class="role leaf">周邊</span></td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1</td>
+              </tr>
+            </tbody>
+          </table></div>
+        </div>
+
+        <figure class="fig">
+          <div class="fig-head"><span class="fig-num">圖 7 · 度數組成</span></div>
+          <div class="fig-canvas" data-chart="composition"></div>
+          <figcaption>
+            <strong>方向是第一步切割。</strong>
+            堆疊長條顯示入度（slate 藍）與出度（oxblood 暗紅）的對比。SASP 是平衡中樞；Aging 是匯點；Acid ceramidase 有 85% 向外導向。
+          </figcaption>
+        </figure>
+
+        <figure class="fig">
+          <div class="fig-head">
+            <span class="fig-num">圖 8 · 指紋（樣本正規化）</span>
+          </div>
+          <div class="fig-canvas" data-chart="fingerprint"></div>
+          <figcaption>
+            <strong>每個指標皆縮放至本三節點樣本中的最大值</strong>
+            ，以便比較型態。四個指標一律全部顯示。原始數值仍保留於表格中。PageRank 顯示為 ×10³；中介中心性 ×10³。
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="practices">
+      <p class="sec-label">06 · NetworkX</p>
+      <h2>NetworkX</h2>
+      <p>
+        NetworkX 是一個用於建立、操作與研究複雜網絡之結構、動態與功能的 Python 套件。它提供研究社交、生物與基礎設施網絡之結構與動態的工具，以及適用於多種應用的標準程式介面與圖形實作。
+      </p>
+      <p>
+        本簡報倚重此職責中的生物學一半。一個由生物醫學實體及其類型化關係組成的知識圖譜——一個重塑膜的酵素、一個驅動發炎的細胞因子、一個廣播分泌程式的衰老細胞——正是 NetworkX 被建構來描述的複雜網絡類型。中心性、最短路徑、社群偵測與核心分解在這裡都是一等公民操作，而非附加元件，這也是為何繪製社交網絡的相同呼叫，也能用來篩選衰老軸。
+      </p>
+      <ol class="practices">
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>說明你實際計算所用的圖</h3>
+          <p>
+            保留一個 <code>DiGraph</code> 用於入／出度與 PageRank。以
+            <code>G.to_undirected()</code> 投影，用於聚類、中介中心性與 k-core。<code>scripts/analysis/node_analysis.py</code> 中的多節點分析進一步在移除自環後，限制於最大連通分量。否則在斷開圖上的路徑指標會未定義，或靜默地變成諧波風格（harmonic-flavoured）。
+          </p>
+          <pre><code>G_und = G.to_undirected()
+cc = max(nx.connected_components(G_und), key=len)
+U = G_und.subgraph(cc).copy()</code></pre>
+        </li>
+        <li>
+          <p class="ptag implementation">本實作</p>
+          <h3>在任何中心性計算之前，先剪除類型中樞</h3>
+          <p>
+            PPI 中的研究偏誤（TP53 因被廣泛研究而累積交互作用）在知識圖譜中有對應：本體類別從每個實例中收集邊。重建腳本中的 <code>DENYLIST</code> 是正確的第一道過濾器。切勿將高度數的「protein」節點解讀為標的。
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>切勿將信心分數作為中介中心性的距離</h3>
+          <p>
+            PageRank 需要的是<em>強度</em>：高信心應承載更多遊走質量（<code>weight="weight"</code>）。中介中心性與其他最短路徑指標需要的是<em>距離</em>：高信心應是短跳。先反轉。當前的重建將 <code>weight = confidence_score</code> 儲存於中心性計算<em>之後</em>，因此儲存的指紋是無權重的拓撲。這是已記載的限制，而非秘密。
+          </p>
+          <pre><code>for u, v, d in G.edges(data=True):
+    d["weight"] = d.get("confidence_score", 0.7)
+    d["distance"] = 1.0 / max(d["weight"], 1e-9)
+
+pr = nx.pagerank(G, alpha=0.85, weight="weight")
+bt = nx.betweenness_centrality(U, weight="distance", normalized=True)</code></pre>
+        </li>
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>絕不單靠一個指標排名</h3>
+          <p>
+            在古典酵母 PPI 中，度數可預測必需性（Jeong et al., 2001），但會錯過度數普通卻是瓶頸的節點（Yu et al., 2007）。本實作中的實作成例之所以存在，<em>正是因為</em>指紋以富含資訊的方式與自身相左。組合使用：高出度加中等中介中心性（擴散者）；高入度高出度加頂級中介中心性（樞紐）；頂級 PageRank 加內層 k-core（骨幹）。
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>以保留度數的零模型檢驗</h3>
+          <p>
+            高度數節點在幾乎所有指標上都得分高。配置模型集成（<code>nx.configuration_model</code> / 有向變體，100–1,000 次抽樣）可給出 z 分數或經驗 p 值。<code>scripts/analysis/node_analysis.py</code> 中的有效電阻（effective resistance）已對照隨機節點零樣本，對交換距離做 z 分數標準化；在將某節點稱為瓶頸之前，相同的習慣也應套用於中介中心性與聚類係數。
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>近似中介中心性，但勿略過</h3>
+          <p>
+            Brandes 演算法為 <code>O(nm)</code>。在本實作上沒問題。在經過篩選的人類交互組上，傳入 <code>k=</code>（抽樣源）與種子。寧可採用此近似，也不要捨棄該指標。限制於 k-core 或最大連通分量，是另一個正當的加速方式。
+          </p>
+          <pre><code>bt = nx.betweenness_centrality(U, k=100, seed=1, normalized=True)</code></pre>
+        </li>
+        <li>
+          <p class="ptag implementation">本實作</p>
+          <h3>將聚類與 k-core 視為互補，而非多餘</h3>
+          <p>
+            聚類是局部傳遞性。k-core 是嵌套的全局剝離。GPX4 可以是一個完美三角（C = 1，k = 2），卻仍位於衰老骨幹（k = 6）之外。在 PPI 中，內層核心常與複合體重合；在此則與老化／SASP 程式重合。應同時報告核心數分布與主核心的大小。
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>當問題是局部的，對 PageRank 播種</h3>
+          <p>
+            全局 PageRank 回答「在整個圖中很重要」。從感興趣的過程做標的優先排序，是個人化 PageRank：<code>personalization={seed: 1.0}</code>，alpha 0.85。從每個 k-core-6 節點掃描 PPR 並取前幾名的交集，是下方提出的操作化下一步。
+          </p>
+        </li>
+        <li>
+          <p class="ptag general">一般做法</p>
+          <h3>固定版本、種子與邊清單</h3>
+          <p>
+            PPI 與知識圖譜會隨資料庫版本與信心門檻而改變。記錄 NetworkX 版本、拒絕名單、最大連通分量規則、<code>RANDOM_SEED = 1</code>，以及邊上的來源檔案溯源。若審閱者需要 Cytoscape，則匯出 GraphML / GEXF；切勿依賴 NetworkX 的繪圖來產生此規模的出版級圖表。
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="references">
+      <p class="sec-label">07 · 來源</p>
+      <h2>知識庫分析與相關文獻</h2>
+      <ol class="refs">
+        <li>知識庫任務輸出，2026 年 8 月 16 日。<em>用於生物學優先排序的節點層級網絡分析。</em> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md"><code>src/tasks/task_output_node_analysis_biology_16_AUG_2026.md</code></a>。</li>
+        <li>重建管線。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/triples/rebuild.py</code></a> — <code>DENYLIST</code>、<code>enrich_graph_metrics()</code>、Leiden 標籤、邊 <code>weight = confidence_score</code>。</li>
+        <li>多節點分析。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> — 最大連通分量、路徑多重性、Jaccard、Adamic–Adar、k-core、Fiedler（稠密 <code>eigh</code>）、有效電阻、個人化 PageRank。</li>
+        <li>Jeong H, Mason SP, Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/35075138">Lethality and centrality in protein networks</a>. <em>Nature</em> 2001;411:41–42.</li>
+        <li>Barabási A-L, Oltvai ZN. <a href="https://doi.org/10.1038/nrg1272">Network biology: understanding the cell’s functional organization</a>. <em>Nat Rev Genet</em> 2004;5:101–113.</li>
+        <li>Wuchty S, Almaas E. <a href="https://doi.org/10.1002/pmic.200400962">Peeling the yeast protein network</a>. <em>Proteomics</em> 2005;5:444–449.</li>
+        <li>Yu H, Kim PM, Sprecher E, Trifonov V, Gerstein M. <a href="https://doi.org/10.1371/journal.pcbi.0030059">The importance of bottlenecks in protein networks</a>. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
+        <li>NetworkX developers. Centrality, clustering, core number, PageRank, Adamic–Adar. <a href="https://networkx.org/documentation/stable/reference/algorithms/centrality.html">networkx.org 文件</a>。</li>
+      </ol>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      llm-wiki-jk 知識圖譜的獨立方法論簡報。
+      獨立的樣式表與腳本——非共享的文章外觀。
+      非醫療建議；排名是針對策展筆記的假說。
+    </p>
+    <p><strong>圖譜建構：</strong> <code>867a5ae5fdb8a46c</code></p>
+    <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
+</footer>
+<script>
+/* 節點層級網絡分析 — 原生圖表與圖解。 */
+(function () {
+  "use strict";
+
+  // 讀取器／全頁偵測：當本頁載入於圖譜的 Reader iframe 內（self !== top）時，
+  // 上層外觀已提供導覽，因此我們標記 <body class="embedded">，CSS 會隱藏
+  // 獨立的「← 返回」連結。在全頁檢視下，連結保持可見。
+
+  var C = {
+    acid: "#7a312c",
+    sasp: "#2e4a5d",
+    aging: "#345443",
+    forest: "#345443",
+    gpx4: "#9a7430",
+    periphery: "#8a8174",
+    ink: "#1c1915",
+    mute: "#6d665b",
+    faint: "#8d8578",
+    rule: "#d3c9b6",
+    sheet: "#fbf8f1",
+    paper: "#f2ece1",
+    gold: "#9a7430",
+    oxblood: "#7a312c",
+    slateSoft: "#4c6e86"
+  };
+
+  /* Shared SVG helpers & behaviors live in themes/theme-02/pages-core.js */
+  var el = T2.el, text = T2.text, svgRoot = T2.svgRoot,
+      arrowHead = T2.arrowHead, wrapText = T2.wrapText;
+
+  var NODES = {
+    acid: {
+      id: "acid",
+      label: "Acid ceramidase",
+      degree: 20, in: 3, out: 17,
+      pagerank: 0.000758, betweenness: 0.00798,
+      clustering: 0.04, kCore: 4,
+      community: "Acid ceramidase", communitySize: 17,
+      role: "spreader",
+      color: C.acid
+    },
+    sasp: {
+      id: "sasp",
+      label: "SASP",
+      degree: 101, in: 56, out: 45,
+      pagerank: 0.00712, betweenness: 0.0555,
+      clustering: null, kCore: 6,
+      community: "senescence axis",
+      role: "nexus",
+      color: C.sasp
+    },
+    aging: {
+      id: "aging",
+      label: "Aging",
+      degree: 48, in: 35, out: 13,
+      pagerank: 0.00739, betweenness: 0.0421,
+      clustering: null, kCore: 6,
+      community: "senescence axis",
+      role: "backbone",
+      color: C.aging
+    },
+    gpx4: {
+      id: "gpx4",
+      label: "GPX4",
+      degree: null, in: null, out: null,
+      pagerank: null, betweenness: null,
+      clustering: 1.0, kCore: 2,
+      role: "module",
+      color: C.gpx4
+    }
+  };
+
+
+  function nodeCircle(svg, x, y, r, fill, label, sub) {
+    el("circle", {
+      cx: x, cy: y, r: r,
+      fill: fill,
+      stroke: C.ink,
+      "stroke-width": 0.8
+    }, svg);
+    if (label) {
+      text(svg, x, y + (sub ? -1 : 4), label, {
+        anchor: "middle", size: 14, weight: 600, fill: "#fbf8f1"
+      });
+    }
+    if (sub) {
+      text(svg, x, y + 12, sub, {
+        anchor: "middle", size: 14, fill: "#fbf8f1", opacity: 0.9
+      });
+    }
+  }
+
+  /* ——— Pipeline ——— */
+  function drawPipeline() {
+    var host = document.querySelector('[data-chart="pipeline"]');
+    if (!host) return;
+    var boxW = 132, boxH = 72, gap = 22;
+    var startX = 24;
+    var rowTop = 40, vGap = 64, rowPitch = boxH + vGap;
+    var colIdx = [0, 1, 2, 2, 3, 4];   // second row starts under the third box
+    var w = startX + colIdx[5] * (boxW + gap) + boxW + 24;
+    var h = rowTop + boxH + rowPitch + 24;
+    var svg = svgRoot(host, w, h, "指標計算管線");
+    var steps = [
+      { t: "帶類型三元組", s: "主詞–關係–受詞" },
+      { t: "拒絕名單剪除", s: "剔除類型中樞" },
+      { t: "DiGraph G", s: "入 / 出 / PageRank" },
+      { t: "無向 U", s: "betweenness, C, k-core" },
+      { t: "Leiden", s: "社群標籤" },
+      { t: "指紋", s: "每節點向量" }
+    ];
+    arrowHead(svg, "pipe-arr", C.mute);
+    var pos = steps.map(function (_, i) {
+      return {
+        x: startX + colIdx[i] * (boxW + gap),
+        y: rowTop + (i < 3 ? 0 : rowPitch)
+      };
+    });
+    pos.forEach(function (p, i) {
+      el("rect", {
+        x: p.x, y: p.y, width: boxW, height: boxH,
+        fill: i === steps.length - 1 ? C.ink : C.paper,
+        stroke: C.rule, "stroke-width": 1
+      }, svg);
+      text(svg, p.x + 12, p.y + 30, steps[i].t, {
+        size: 16, weight: 600,
+        fill: i === steps.length - 1 ? C.sheet : C.ink
+      });
+      text(svg, p.x + 12, p.y + 50, steps[i].s, {
+        size: 14,
+        fill: i === steps.length - 1 ? C.rule : C.mute
+      });
+    });
+    // horizontal arrows within each row
+    [[0, 1], [1, 2], [3, 4], [4, 5]].forEach(function (pr) {
+      var a = pos[pr[0]], b = pos[pr[1]];
+      el("line", {
+        x1: a.x + boxW, y1: a.y + boxH / 2,
+        x2: b.x - 2, y2: b.y + boxH / 2,
+        stroke: C.mute, "stroke-width": 1.2,
+        "marker-end": "url(#pipe-arr)"
+      }, svg);
+    });
+    // vertical connector: box 2 (row 1) drops straight down to box 3 (row 2)
+    el("line", {
+      x1: pos[2].x + boxW / 2, y1: pos[2].y + boxH,
+      x2: pos[3].x + boxW / 2, y2: pos[3].y,
+      stroke: C.mute, "stroke-width": 1.2,
+      "marker-end": "url(#pipe-arr)"
+    }, svg);
+    text(svg, 24, 28, "scripts/triples/rebuild.py  ·  enrich_graph_metrics()", {
+      size: 14, fill: C.mute, mono: true
+    });
+  }
+
+  /* ——— SASP nexus ——— */
+  function drawNexus() {
+    var host = document.querySelector('[data-chart="nexus"]');
+    if (!host) return;
+    var w = 520, h = 340;
+    var svg = svgRoot(host, w, h, "SASP 作為中介中心性樞紐");
+    arrowHead(svg, "nx-arr", C.mute);
+    var cx = 260, cy = 168, r = 44;
+    var lcx = 176;                          // left-community column, pulled inward
+    var rcx = 344;                          // right-community column, mirrored inward
+    var left = [
+      { l: "粒線體", y: 104 },
+      { l: "表觀遺傳", y: 146 },
+      { l: "DNA 損傷", y: 190 },
+      { l: "衰老細胞", y: 232 }
+    ];
+    var right = [
+      { l: "IL-6 / IL-8", y: 70 },
+      { l: "發炎", y: 130 },
+      { l: "Acid ceramidase", y: 190 },
+      { l: "旁分泌擴散", y: 250 }
+    ];
+    /* Endpoint lands on SASP's LEFT perimeter (fanned vertically) instead of
+       every arrow piling onto one sharp central point. */
+    function leftEnd(ySrc) {
+      var dy = Math.max(-(r - 8), Math.min(r - 8, ySrc - cy));
+      var x = cx - Math.sqrt(Math.max(1, r * r - dy * dy)) - 1;
+      return { x: x, y: cy + dy };
+    }
+    /* Start point on SASP's RIGHT perimeter, fanned so outgoing arrows no
+       longer all leave from one central point. */
+    function rightStart(i) {
+      var span = r - 6;
+      var t = i / (right.length - 1);
+      var dy = (t * 2 - 1) * span * 0.85;
+      var x = cx + Math.sqrt(Math.max(1, r * r - dy * dy)) + 1;
+      return { x: x, y: cy + dy };
+    }
+    left.forEach(function (n) {
+      var e = leftEnd(n.y);
+      el("line", {
+        x1: lcx + 7, y1: n.y, x2: e.x, y2: e.y,
+        stroke: C.sasp, "stroke-width": 1.2, opacity: 0.8,
+        "marker-end": "url(#nx-arr)"
+      }, svg);
+      el("circle", { cx: lcx, cy: n.y, r: 5.5, fill: C.sasp }, svg);
+      text(svg, lcx - 12, n.y + 4, n.l, { size: 14, fill: C.ink, anchor: "end" });
+    });
+    right.forEach(function (n, i) {
+      var s = rightStart(i);
+      el("line", {
+        x1: s.x, y1: s.y, x2: rcx - 7, y2: n.y,
+        stroke: C.oxblood || C.acid, "stroke-width": 1.2, opacity: 0.7,
+        "marker-end": "url(#nx-arr)"
+      }, svg);
+      el("circle", { cx: rcx, cy: n.y, r: 5.5, fill: C.acid }, svg);
+      text(svg, rcx + 12, n.y + 4, n.l, { size: 14, fill: C.ink });
+    });
+    /* crossing dashed shortest-path hint: Mitochondria -> SASP -> Paracrine spread */
+    el("path", {
+      d: "M " + lcx + " 104 C 214 120, 228 150, 260 168 C 300 190, 322 232, " + rcx + " 250",
+      fill: "none",
+      stroke: C.gold,
+      "stroke-width": 1.4,
+      "stroke-dasharray": "4 3",
+      opacity: 0.9
+    }, svg);
+    nodeCircle(svg, cx, cy, r, C.sasp, "SASP", "btw 0.0555");
+    text(svg, 16, 28, "入度 56  ·  觸發因子匯點", { size: 16, fill: C.mute });
+  }
+
+  /* ——— PageRank attractor ——— */
+  function drawPageRank() {
+    var host = document.querySelector('[data-chart="pagerank"]');
+    if (!host) return;
+    var w = 520, h = 300;
+    var svg = svgRoot(host, w, h, "PageRank 作為重要性加權背書");
+    arrowHead(svg, "pr-arr", C.mute);
+    var cx = 360, cy = 158;
+    var donors = [
+      { l: "SASP", pr: "0.00712", x: 120, y: 70, c: C.sasp },
+      { l: "Senescent cells", pr: "core", x: 90, y: 150, c: C.aging },
+      { l: "Inflammation", pr: "hub", x: 130, y: 230, c: C.gold }
+    ];
+    donors.forEach(function (d) {
+      var dx = cx - d.x, dy = cy - d.y;
+      var len = Math.sqrt(dx * dx + dy * dy);
+      var ux = dx / len, uy = dy / len;
+      // start on the donor node's perimeter, end on Aging's perimeter
+      var sx = d.x + ux * 34;
+      var sy = d.y + uy * 34;
+      var ex = cx - ux * 50;
+      var ey = cy - uy * 50;
+      el("line", {
+        x1: sx, y1: sy, x2: ex, y2: ey,
+        stroke: d.c, "stroke-width": 2.2, opacity: 0.8,
+        "marker-end": "url(#pr-arr)"
+      }, svg);
+      el("circle", { cx: d.x, cy: d.y, r: 34, fill: d.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, d.x, d.y + 4, d.l.split(" ")[0], {
+        anchor: "middle", size: 11, weight: 600, fill: C.sheet
+      });
+    });
+    nodeCircle(svg, cx, cy, 48, C.aging, "Aging", "PR 0.00739");
+    text(svg, 16, 28, "PageRank 高的鄰居投票較強", { size: 12, fill: C.mute });
+  }
+
+  /* ——— Clique vs bridge ——— */
+  function drawCliqueVsBridge() {
+    var host = document.querySelector('[data-chart="clustering"]');
+    if (!host) return;
+    var w = 980, h = 300;
+    var svg = svgRoot(host, w, h, "聚類係數：模組成員對比橋樑");
+    function triangle(ox) {
+      var pts = [
+        { x: ox + 110, y: 80, l: "GPX4" },
+        { x: ox + 50, y: 200, l: "GSH" },
+        { x: ox + 170, y: 200, l: "Lipid-OOH" }
+      ];
+      el("polygon", {
+        points: pts.map(function (p) { return p.x + "," + p.y; }).join(" "),
+        fill: "rgba(154,116,48,0.16)",
+        stroke: C.gold,
+        "stroke-width": 1.6
+      }, svg);
+      pts.forEach(function (p) {
+        el("circle", { cx: p.x, cy: p.y, r: 22, fill: C.gold, stroke: C.ink, "stroke-width": 0.8 }, svg);
+        text(svg, p.x, p.y + 4, p.l, { anchor: "middle", size: 14, weight: 600, fill: C.sheet });
+      });
+    }
+    triangle(40);
+    text(svg, 150, 36, "模組成員  ·  C = 1.0", { size: 16, weight: 600, anchor: "middle" });
+    text(svg, 150, 270, "每個鄰居都與其他每個相連。", {
+      size: 16, fill: C.mute, anchor: "middle"
+    });
+
+    /* bridge */
+    var bx = 700, by = 150;
+    var leftCluster = [
+      { x: 520, y: 80 }, { x: 560, y: 130 }, { x: 515, y: 190 }
+    ];
+    var rightCluster = [
+      { x: 880, y: 80 }, { x: 920, y: 140 }, { x: 870, y: 210 }
+    ];
+    function cliqueSmall(pts, color) {
+      pts.forEach(function (a, i) {
+        pts.forEach(function (b, j) {
+          if (j <= i) return;
+          el("line", {
+            x1: a.x, y1: a.y, x2: b.x, y2: b.y,
+            stroke: color, "stroke-width": 1.1, opacity: 0.7
+          }, svg);
+        });
+        el("circle", { cx: a.x, cy: a.y, r: 8, fill: color }, svg);
+      });
+    }
+    cliqueSmall(leftCluster, C.sasp);
+    cliqueSmall(rightCluster, C.aging);
+    leftCluster.forEach(function (p) {
+      el("line", {
+        x1: p.x, y1: p.y, x2: bx - 22, y2: by,
+        stroke: C.acid, "stroke-width": 1.15, opacity: 0.8
+      }, svg);
+    });
+    rightCluster.forEach(function (p) {
+      el("line", {
+        x1: bx + 22, y1: by, x2: p.x, y2: p.y,
+        stroke: C.acid, "stroke-width": 1.15, opacity: 0.8
+      }, svg);
+    });
+    el("circle", { cx: bx, cy: by, r: 22, fill: C.acid, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, bx, by + 4, "AC", { anchor: "middle", size: 14, weight: 600, fill: C.sheet });
+    text(svg, 720, 36, "橋樑 / 連接者  ·  C ≈ 0.04", { size: 16, weight: 600, anchor: "middle" });
+    text(svg, 720, 270, "鄰居之間彼此並無連結。", {
+      size: 16, fill: C.mute, anchor: "middle"
+    });
+  }
+
+  /* ——— k-core onion ——— */
+  function drawOnion() {
+    var host = document.querySelector('[data-chart="onion"]');
+    if (!host) return;
+    var w = 980, h = 420;
+    var svg = svgRoot(host, w, h, "衰老骨幹的 k-core 洋蔥");
+    var cx = 340, cy = 215;
+    var rings = [
+      { k: 1, r: 180, c: "rgba(138,129,116,0.18)" },
+      { k: 2, r: 148, c: "rgba(154,116,48,0.16)" },
+      { k: 4, r: 108, c: "rgba(122,49,44,0.14)" },
+      { k: 6, r: 62, c: "rgba(52,84,67,0.28)" }
+    ];
+    rings.forEach(function (ring) {
+      el("circle", {
+        cx: cx, cy: cy, r: ring.r,
+        fill: ring.c, stroke: C.rule, "stroke-width": 1
+      }, svg);
+    });
+    function place(x, y, color, label) {
+      el("circle", { cx: x, cy: y, r: 7, fill: color, stroke: C.ink, "stroke-width": 0.7 }, svg);
+      text(svg, x + 10, y + 4, label, { size: 14, fill: C.ink });
+    }
+    place(cx - 18, cy - 8, C.aging, "Aging");
+    place(cx + 14, cy + 16, C.sasp, "SASP");
+    place(cx - 6, cy + 28, C.forest || C.aging, "Senescent cells");
+    place(cx + 70, cy - 40, C.acid, "Acid ceramidase (k=4)");
+    place(cx - 90, cy + 90, C.gpx4, "GPX4 (k=2)");
+    place(cx + 110, cy + 130, C.periphery, "Acetate");
+    place(cx - 150, cy - 120, C.periphery, "Alagebrium");
+    place(cx + 150, cy - 110, C.periphery, "2-Chlorophenothiazine");
+
+    text(svg, 560, 48, "嵌套殼層", { size: 16, weight: 600 });
+    var legend = [
+      { k: "k = 6", d: "具韌性的內層核心。相互強化的衰老 / 老化機制。", c: C.aging },
+      { k: "k = 4", d: "近核心控制點。Acid ceramidase 以此作為擴散者。", c: C.acid },
+      { k: "k = 2", d: "局部模組（氧化還原三角）。凝聚但非全局必需。", c: C.gpx4 },
+      { k: "k = 1", d: "周邊 / 葉節點。有用的脈絡，極少是首輪標的。", c: C.periphery }
+    ];
+    legend.forEach(function (row, i) {
+      var y = 80 + i * 72;
+      el("rect", { x: 560, y: y, width: 8, height: 48, fill: row.c }, svg);
+      text(svg, 580, y + 16, row.k, { size: 14, weight: 600, mono: true });
+      wrapText(svg, 580, y + 34, row.d, 360, 14);
+    });
+  }
+
+  /* ——— Degree composition ——— */
+  function drawComposition() {
+    var host = document.querySelector('[data-chart="composition"]');
+    if (!host) return;
+    var w = 980, h = 280;
+    var svg = svgRoot(host, w, h, "入度對比出度組成");
+    var rows = [NODES.acid, NODES.sasp, NODES.aging];
+    var max = 101;
+    var left = 210, top = 48, barH = 36, gap = 52, usable = 620;
+    text(svg, left, 28, "入度", { size: 14, fill: C.sasp, weight: 600 });
+    text(svg, left + 90, 28, "出度", { size: 14, fill: C.acid, weight: 600 });
+    rows.forEach(function (n, i) {
+      var y = top + i * gap;
+      text(svg, 16, y + 24, n.label, { size: 16, weight: 600 });
+      var inW = (n.in / max) * usable;
+      var outW = (n.out / max) * usable;
+      el("rect", { x: left, y: y, width: inW, height: barH, fill: C.sasp }, svg);
+      el("rect", { x: left + inW, y: y, width: outW, height: barH, fill: C.acid }, svg);
+      text(svg, left + 8, y + 23, String(n.in), { size: 14, fill: C.sheet, weight: 600 });
+      text(svg, left + inW + outW + 10, y + 23, String(n.out) + "  (" + Math.round(100 * n.out / n.degree) + "% out)", {
+        size: 14, fill: C.ink
+      });
+    });
+    wrapText(svg, 16, 248, "SASP 平衡。Aging 是匯點。Acid ceramidase 是源頭——擴散型控制點的網絡特徵。", 940, 14);
+  }
+
+  /* ——— Fingerprint grouped bars ——— */
+  var FINGERPRINT_METRICS = ["degree", "pagerank", "betweenness", "kCore"];
+  var FINGERPRINT_LABELS = {
+    degree: "度數",
+    pagerank: "PageRank ×10³",
+    betweenness: "中介中心性 ×10³",
+    kCore: "k-core"
+  };
+
+  function rawForChart(node, metric) {
+    if (metric === "pagerank") return node.pagerank * 1000;
+    if (metric === "betweenness") return node.betweenness * 1000;
+    return node[metric];
+  }
+
+  function drawFingerprint(active) {
+    var host = document.querySelector('[data-chart="fingerprint"]');
+    if (!host) return;
+    active = active || FINGERPRINT_METRICS.slice();
+    var w = 980, h = 360;
+    var svg = svgRoot(host, w, h, "比較性指標指紋");
+    var series = [NODES.acid, NODES.sasp, NODES.aging];
+    var metrics = FINGERPRINT_METRICS.filter(function (m) { return active.indexOf(m) !== -1; });
+    if (!metrics.length) metrics = FINGERPRINT_METRICS.slice();
+
+    var maxima = {};
+    metrics.forEach(function (m) {
+      maxima[m] = Math.max.apply(null, series.map(function (n) { return rawForChart(n, m); })) || 1;
+    });
+
+    var left = 70, top = 36, bottom = 80, right = 36;
+    var plotW = w - left - right;
+    var plotH = h - top - bottom;
+    var groupW = plotW / metrics.length;
+    var barW = Math.min(28, (groupW - 24) / series.length);
+
+    el("line", {
+      x1: left, y1: top, x2: left, y2: top + plotH,
+      stroke: C.rule, "stroke-width": 1
+    }, svg);
+    el("line", {
+      x1: left, y1: top + plotH, x2: w - right, y2: top + plotH,
+      stroke: C.rule, "stroke-width": 1
+    }, svg);
+
+    [0.25, 0.5, 0.75, 1].forEach(function (f) {
+      var y = top + plotH * (1 - f);
+      el("line", {
+        x1: left, y1: y, x2: w - right, y2: y,
+        stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "3 4", opacity: 0.7
+      }, svg);
+      text(svg, left - 8, y + 4, String(Math.round(f * 100)) + "%", {
+        size: 14, fill: C.faint, anchor: "end"
+      });
+    });
+
+    metrics.forEach(function (m, gi) {
+      var gx = left + gi * groupW;
+      text(svg, gx + groupW / 2, h - 48, FINGERPRINT_LABELS[m], {
+        size: 14, fill: C.ink, anchor: "middle"
+      });
+      series.forEach(function (n, si) {
+        var val = rawForChart(n, m);
+        var hBar = (val / maxima[m]) * (plotH - 8);
+        var x = gx + 18 + si * (barW + 6);
+        var y = top + plotH - hBar;
+        var rect = el("rect", {
+          x: x, y: y, width: barW, height: hBar,
+          fill: n.color
+        }, svg);
+        rect.setAttribute("data-tip", n.label + " · " + FINGERPRINT_LABELS[m] + " = " + formatRaw(m, n));
+        text(svg, x + barW / 2, y - 6, formatShort(m, n), {
+          size: 14, fill: C.mute, anchor: "middle", mono: true
+        });
+      });
+    });
+
+    series.forEach(function (n, i) {
+      el("rect", { x: left + i * 150, y: h - 28, width: 10, height: 10, fill: n.color }, svg);
+      text(svg, left + 16 + i * 150, h - 19, n.label, { size: 14, fill: C.ink });
+    });
+  }
+
+  function formatRaw(metric, node) {
+    if (metric === "pagerank") return node.pagerank.toFixed(5);
+    if (metric === "betweenness") return node.betweenness.toFixed(4);
+    return String(node[metric]);
+  }
+
+  function formatShort(metric, node) {
+    if (metric === "pagerank") return (node.pagerank * 1000).toFixed(2);
+    if (metric === "betweenness") return (node.betweenness * 1000).toFixed(1);
+    return String(node[metric]);
+  }
+
+  /* ——— Nav scroll spy ——— */
+  /* ——— Diagram lightbox (click any chart for full size) ——— */
+  /* ——— Nav scroll-hint: hide fade when scrolled to end ——— */
+  function ready() {
+    drawPipeline();
+    drawNexus();
+    drawPageRank();
+    drawCliqueVsBridge();
+    drawOnion();
+    drawComposition();
+    drawFingerprint();
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", ready);
+  } else {
+    ready();
+  }
+})();
+</script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

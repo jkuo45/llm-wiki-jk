@@ -14,11 +14,11 @@ tags:
 # Study Design — One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins
 
 > [!NOTE]
-> **Task**: Design a study on the current knowledge graph focused on four nodes — [[Adrenochrome]], [[Mitohormesis]], [[Autophagy]], [[Sirtuins]] — using the metric fingerprint and relation-aware methods documented in `web/pages/node-analysis-examples-biology.html` and implemented in `scripts/04_node_analysis.py`. All baseline metrics below are **already computed** against the live graph; the study design turns them into falsifiable hypotheses, an in-silico perturbation experiment, validation arms, and a remediation queue.
+> **Task**: Design a study on the current knowledge graph focused on four nodes — [[Adrenochrome]], [[Mitohormesis]], [[Autophagy]], [[Sirtuins]] — using the metric fingerprint and relation-aware methods documented in `web/pages/en-US/node-analysis-examples-biology.html` and implemented in `scripts/analysis/node_analysis.py`. All baseline metrics below are **already computed** against the live graph; the study design turns them into falsifiable hypotheses, an in-silico perturbation experiment, validation arms, and a remediation queue.
 > **Date**: 20_August_2026 07:43 PM PDT
 > **Graph**: `graphify-out/graph.json` — build `867a5ae5fdb8a46c` (metrics computed 2026-08-20 18:21:44) · 2,596 nodes / 3,737 edges · giant component 2,110 nodes / 3,295 edges
 > **Methods basis**: per-node fingerprint (`degree`, `in/out_degree`, `pagerank`, `betweenness_centrality`, `clustering_coefficient`, `k_core_number`, `community_*`) + relation-aware battery (shortest-path multiplicity, Jaccard, Adamic–Adar, k-core, Fiedler/eigh, effective resistance, Personalized PageRank)
-> **Runs**: 2 canonical `04_node_analysis.py` runs (both directions) + 3 supplementary computations (composite score, configuration-model nulls, bridge-perturbation sweep). Full commands in §12 Reproducibility.
+> **Runs**: 2 canonical `scripts/analysis/node_analysis.py` runs (both directions) + 3 supplementary computations (composite score, configuration-model nulls, bridge-perturbation sweep). Full commands in §12 Reproducibility.
 
 ---
 
@@ -66,7 +66,7 @@ Readings per the briefing's rule layer:
 - **Mitohormesis** is a near-pure source (in 7 / out 27): interventions (Exercise, Caloric Restriction, Metformin, AMPK, NRF2) flow *in*, adaptive outputs (ISR, ATF4, GDF15, FGF21, Mitochondrial Biogenesis, Longevity) flow *out*.
 - **Sirtuins** is the most balanced (in 11 / out 13) — a family-level hub collecting NAD+/inhibitor edges and broadcasting functional annotations.
 
-### 3.2 Pairwise relation-aware results (`scripts/04_node_analysis.py`, both directions)
+### 3.2 Pairwise relation-aware results (`scripts/analysis/node_analysis.py`, both directions)
 
 | Metric | Mitohormesis–Adrenochrome | Autophagy–Adrenochrome | Sirtuins–Adrenochrome |
 | :--- | :--- | :--- | :--- |
@@ -213,10 +213,10 @@ Decision rules:
 | Phase | Work | Tooling | Output |
 | :--- | :--- | :--- | :--- |
 | **0a. Direction audit** | Re-state every study-cited path with stored edge directions; fix the Arm C inversion in prose and flag the triple for curator review (AMBIGUOUS, 0.6) | manual + `graph.json` link inspection | Corrected path table (done in §4.2) |
-| **0b. Entity resolution** | Merge NF-κB variants (≥ 7 nodes listed in §4.3) into canonical `NF-κB`; audit analogous fragments (e.g., ROS vs. Reactive Oxygen Species vs. Mitochondrial ROS) | extend `03_normalize_triples_schema.py` / rebuild pipeline | Rebuilt graph; re-run §3.2 battery; quantify ΔH3 |
-| **1. Weighted re-analysis** | Pass `weight="weight"` into PageRank (strength) and inverted confidence `1/confidence` as `distance` into betweenness/effective-resistance (the briefing's documented open limitation) | modify `04_node_analysis.py` flags | Weighted vs. unweighted comparison table |
+| **0b. Entity resolution** | Merge NF-κB variants (≥ 7 nodes listed in §4.3) into canonical `NF-κB`; audit analogous fragments (e.g., ROS vs. Reactive Oxygen Species vs. Mitochondrial ROS) | extend `scripts/triples/normalize.py` / rebuild pipeline | Rebuilt graph; re-run §3.2 battery; quantify ΔH3 |
+| **1. Weighted re-analysis** | Pass `weight="weight"` into PageRank (strength) and inverted confidence `1/confidence` as `distance` into betweenness/effective-resistance (the briefing's documented open limitation) | modify `scripts/analysis/node_analysis.py` flags | Weighted vs. unweighted comparison table |
 | **2. Full null envelope** | Extend configuration-model z-scores (30 → 100–1,000 draws) to clustering and PageRank, not just betweenness | supplementary script (seeded, versioned) | Null-envelope table for all four nodes |
-| **3. Formal PPR intersection** | Confidence-weighted PPR from all four seeds; intersect top-K (K ∈ {25, 40, 100}); report stability across K | `04_node_analysis.py` + wrapper | Recurrent-effector list with robustness notes |
+| **3. Formal PPR intersection** | Confidence-weighted PPR from all four seeds; intersect top-K (K ∈ {25, 40, 100}); report stability across K | `scripts/analysis/node_analysis.py` + wrapper | Recurrent-effector list with robustness notes |
 | **4. Literature adjudication** | Check the six bridge triples (§4.1) plus AMPK-shared-neighborhood claims against primary sources; PMIDs/DOIs recorded per AGENTS.md | manual review queue | Confirmed/corrected/deleted verdicts; triple write-backs |
 | **5. Empirical mapping** | Bind each arm to measurable biomarkers (§5 table); specify direction and magnitude expectations from the perturbation magnitudes (−20% to −33% coupling) | vault notes + external literature | Pre-registered predictions document |
 
@@ -277,9 +277,9 @@ If H1–H5 survive remediation, the study delivers:
 
 ```bash
 # Canonical relation-aware battery (both directions)
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources mitohormesis autophagy sirtuins --targets adrenochrome
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources adrenochrome --targets mitohormesis autophagy sirtuins
 
 # Supplementary computations (this document):
@@ -288,7 +288,7 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 #   - configuration-model betweenness nulls (30 draws, seeds 2..31)
 #   - bridge edge/node removal sweep with confidence-weighted PPR
 # Implemented as inline scripts against graphify-out/graph.json,
-# RANDOM_SEED=1 convention matching scripts/04_node_analysis.py.
+# RANDOM_SEED=1 convention matching scripts/analysis/node_analysis.py.
 # Raw outputs archived as run_log_A..D in src/task_output/.
 ```
 
@@ -296,9 +296,9 @@ Environment: Python 3.14, NetworkX 3.x, SciPy 1.x (`uv run --with networkx --wit
 
 ## References
 
-1. Vault methods briefing, 16 August 2026. *Node-level network analysis for biological prioritization.* `web/pages/node-analysis-examples-biology.html`.
-2. Multi-node analytics tooling. `scripts/04_node_analysis.py` — giant-component restriction, path multiplicity, Jaccard, Adamic–Adar, dense-`eigh` Fiedler, effective resistance, confidence-weighted PPR.
-3. Rebuild pipeline. `scripts/03_rebuild_from_triples.py` — `DENYLIST`, `enrich_graph_metrics()`, Leiden communities, role tags → `web/data/node_roles.json`.
+1. Vault methods briefing, 16 August 2026. *Node-level network analysis for biological prioritization.* `web/pages/en-US/node-analysis-examples-biology.html`.
+2. Multi-node analytics tooling. `scripts/analysis/node_analysis.py` — giant-component restriction, path multiplicity, Jaccard, Adamic–Adar, dense-`eigh` Fiedler, effective resistance, confidence-weighted PPR.
+3. Rebuild pipeline. `scripts/triples/rebuild.py` — `DENYLIST`, `enrich_graph_metrics()`, Leiden communities, role tags → `web/data/node_roles.json`.
 4. Jeong H, et al. Lethality and centrality in protein networks. *Nature* 2001;411:41–42.
 5. Yu H, et al. The importance of bottlenecks in protein networks. *PLoS Comput Biol* 2007;3:e59.
 6. Wuchty S, Almaas E. Peeling the yeast protein network. *Proteomics* 2005;5:444–449.

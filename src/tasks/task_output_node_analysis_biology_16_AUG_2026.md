@@ -1,9 +1,9 @@
 ---
 title: Node-Level Network Analysis for Biological Prioritization
-description: Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.
+description: Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/triples/rebuild.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.
 created: 2026-08-16
 updated: 2026-08-22
-source: graphify-out/graph.json node metrics + scripts/04_node_analysis.py + scripts/03_rebuild_from_triples.py
+source: graphify-out/graph.json node metrics + scripts/analysis/node_analysis.py + scripts/triples/rebuild.py
 tags:
   - task-output
   - knowledge-graph
@@ -14,7 +14,6 @@ tags:
   - drug-discovery
   - geroscience
 author: []
-starred: true
 ---
 
 # Node-Level Network Analysis for Biological Prioritization
@@ -22,13 +21,13 @@ starred: true
 > [!NOTE]
 > **Task**: Synthesize how the per-node centrality metrics in `graphify-out/graph.json` can be used to triage biomedical entities, walk through concrete worked examples already present in the vault's graph, document the analysis methods available, and propose concrete next steps to push this line of work forward.
 > **Date**: 16_AUG_2026
-> **Scope**: `graphify-out/graph.json` node metrics + `scripts/04_node_analysis.py` + `scripts/03_rebuild_from_triples.py`
+> **Scope**: `graphify-out/graph.json` node metrics + `scripts/analysis/node_analysis.py` + `scripts/triples/rebuild.py`
 
 ---
 
 ## Objective
 
-The vault's knowledge graph is not just a lookup table — each node carries a **metric fingerprint** computed in `scripts/03_rebuild_from_triples.py:441` (`enrich_graph_metrics`):
+The vault's knowledge graph is not just a lookup table — each node carries a **metric fingerprint** computed in `scripts/triples/rebuild.py:441` (`enrich_graph_metrics`):
 
 `degree`, `in_degree`, `out_degree`, `pagerank`, `betweenness_centrality`, `clustering_coefficient`, `k_core_number`, `community_size`, `community_name`.
 
@@ -84,7 +83,7 @@ Two pipeline choices make these readings trustworthy for biology:
 
 ## Analysis Methods Already Available
 
-Beyond the static fingerprint, `scripts/04_node_analysis.py` (referenced in README "Node Analysis") adds multi-node, relation-aware analytics on top of the same `graph.json`:
+Beyond the static fingerprint, `scripts/analysis/node_analysis.py` (referenced in README "Node Analysis") adds multi-node, relation-aware analytics on top of the same `graph.json`:
 
 - **Shortest-path multiplicity with edge relations** — not just _whether_ A reaches B, but the _labeled_ chain (e.g. `Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis`).
 - **Neighborhood Jaccard similarity** — finds entities that share the same biological neighborhood (candidate mechanistic analogs / off-target twins).
@@ -95,7 +94,7 @@ Beyond the static fingerprint, `scripts/04_node_analysis.py` (referenced in READ
 - **Personalized PageRank** — seed with a node of interest (e.g. `sirt1`) to rank the rest of the graph by relevance to _that_ starting point.
 
 Run form (from README):
-`uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`
+`uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`
 
 ---
 
@@ -130,4 +129,4 @@ Run form (from README):
 
 ## Summary
 
-The `graph.json` node fingerprint is biologically meaningful because it runs on a **directed, relation-typed, confidence-weighted** graph and explicitly removes abstract type hubs. The worked examples (Acid ceramidase's out-degree spread, SASP's betweenness nexus, Aging's PageRank/core backbone, GPX4/iNOS/Cataract's unit clustering, the k-core-6 senescence core) show the fingerprint already recovers real, literature-backed biological roles. Pairing the static fingerprint with `scripts/04_node_analysis.py`'s relation-aware analytics — and adding the role classifier, senolytic score, PPR sweep, and link-prediction queue above — would turn the graph from a navigation aid into an active target-prioritization engine for the vault's longevity research.
+The `graph.json` node fingerprint is biologically meaningful because it runs on a **directed, relation-typed, confidence-weighted** graph and explicitly removes abstract type hubs. The worked examples (Acid ceramidase's out-degree spread, SASP's betweenness nexus, Aging's PageRank/core backbone, GPX4/iNOS/Cataract's unit clustering, the k-core-6 senescence core) show the fingerprint already recovers real, literature-backed biological roles. Pairing the static fingerprint with `scripts/analysis/node_analysis.py`'s relation-aware analytics — and adding the role classifier, senolytic score, PPR sweep, and link-prediction queue above — would turn the graph from a navigation aid into an active target-prioritization engine for the vault's longevity research.

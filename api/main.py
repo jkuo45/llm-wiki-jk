@@ -15,7 +15,7 @@ import json
 import logging
 import os
 import time
-from collections.abc import AsyncGenerator
+from collections.abc import AsyncGenerator, Awaitable, Callable
 from contextlib import asynccontextmanager
 
 from fastapi import APIRouter, FastAPI, HTTPException, Request
@@ -34,8 +34,14 @@ from .graph_ops import (
     warm_index,
 )
 from .notes import router as notes_router
+from .graphs import router as graphs_router
+from .research import router as research_router
+from .flags import router as flags_router
+from .auth import authorize_request, close_client as close_auth_client
+from .db import close_client as close_db_client
 from .llm import (
     OpencodeUnavailable,
+    abort_session,
     close_client,
     create_session,
     delete_session,
@@ -133,6 +139,8 @@ async def lifespan(app: FastAPI):
         for sid in ids:
             await delete_session(sid)
         await close_client()
+        await close_auth_client()
+        await close_db_client()
 
 
 app = FastAPI(
@@ -141,16 +149,25 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
-    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["*"],
-)
-
 # All public endpoints live under the /v1 prefix.
 api_v1 = APIRouter(prefix="/v1")
+
+
+@app.middleware("http")
+async def auth_gate(request: Request, call_next):
+    """Require a verified super-admin Supabase token on mutating requests.
+
+    /v1/graphs and /v1/research are carved out: they are multi-user routers
+    that verify ANY signed-in user per request and scope rows by auth.uid
+    (see api/auth.py::get_user_id). The historical super-admin gate still
+    protects every other mutating path (notes, metadata, ...).
+    """
+    if request.url.path.startswith(("/v1/graphs", "/v1/research")):
+        return await call_next(request)
+    denial = await authorize_request(request)
+    if denial is not None:
+        return denial
+    return await call_next(request)
 
 
 @app.middleware("http")
@@ -183,11 +200,25 @@ async def origin_gate(request: Request, call_next):
     return JSONResponse(status_code=403, content={"detail": "Origin not allowed"})
 
 
+# Registered LAST so it is the OUTERMOST middleware: add_middleware stacks each
+# new layer outside the previous ones, and CORS must wrap every response —
+# including 401/403 denials from the auth/origin gates above — or the browser
+# misreports auth failures as opaque CORS errors.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=sorted(ALLOWED_ORIGINS) + ["null"],
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$",
+    allow_methods=["GET", "POST", "OPTIONS", "PATCH", "DELETE"],
+    allow_headers=["*"],
+)
+
+
 # ---------------------------------------------------------------------------
 # Rate limiting (defense-in-depth on the PUBLIC write endpoints)
 # ---------------------------------------------------------------------------
-# The notes write routes are unauthenticated by design ("auth lands later"), so
-# we cap them per client IP. This is an in-process fixed-window limiter: correct
+# The notes write routes require a super-admin token (see auth_gate); this
+# per-IP limiter stays on as defense-in-depth. This is an in-process
+# fixed-window limiter: correct
 # for the single-worker deployment (see wiki-api.service). If the server is ever
 # scaled to multiple workers, swap this state for a shared store (e.g. Redis)
 # — the interface (keyed counters) stays the same.
@@ -213,14 +244,19 @@ _RATE_LIMITS: dict[str, tuple[int, int]] = {
     "/v1/intent": (40, 60),
     "/v1/execute/stream": (40, 60),
     "/v1/session/reset": (40, 60),
+    "/v1/research/topics": (10, 60),  # topic creation + search runs (LLM cost)
+    "/v1/research/": (30, 60),  # listing / review actions
+    "/v1/graphs/": (60, 60),  # user-graph CRUD + node/edge writes
+    "/v1/flags": (60, 60),  # content flag toggles (admin panel)
 }
 
 
 def _limit_for(path: str) -> tuple[int, int] | None:
     if path in _RATE_LIMITS:
         return _RATE_LIMITS[path]
-    if path.startswith("/v1/notes/"):
-        return _RATE_LIMITS["/v1/notes/"]
+    for prefix in ("/v1/notes/", "/v1/research/", "/v1/graphs/"):
+        if path.startswith(prefix):
+            return _RATE_LIMITS[prefix]
     return None
 
 
@@ -477,9 +513,16 @@ SSE_HEADERS = {
 
 
 async def _with_heartbeat(
-    gen: AsyncGenerator[str, None], interval: int = HEARTBEAT_SECONDS
+    gen: AsyncGenerator[str, None],
+    interval: int = HEARTBEAT_SECONDS,
+    on_abort: Callable[[], Awaitable[None]] | None = None,
 ) -> AsyncGenerator[str, None]:
-    """Interleave SSE comment frames so proxies keep the connection open."""
+    """Interleave SSE comment frames so proxies keep the connection open.
+
+    on_abort (optional) is awaited when the client disconnects before the
+    stream finished — used to abort the in-flight opencode turn so the model
+    stops generating (and burning tokens) for a listener that is gone.
+    """
     queue: asyncio.Queue = asyncio.Queue()
     DONE = object()
 
@@ -494,6 +537,7 @@ async def _with_heartbeat(
             await queue.put(DONE)
 
     task = asyncio.create_task(pump())
+    finished = False
     try:
         while True:
             try:
@@ -502,10 +546,16 @@ async def _with_heartbeat(
                 yield ": ping\n\n"
                 continue
             if item is DONE:
+                finished = True
                 return
             yield item
     finally:
         task.cancel()
+        if not finished and on_abort is not None:
+            try:
+                await on_abort()
+            except Exception as e:  # noqa: BLE001 - best-effort teardown
+                logger.warning(f"on_abort callback failed: {e}")
 
 
 @api_v1.post("/execute/stream")
@@ -583,7 +633,10 @@ async def execute_stream(request: ExecuteRequest):
                     yield _sse({"type": "highlight", **highlights})
 
         return StreamingResponse(
-            _with_heartbeat(_prompt()),
+            _with_heartbeat(
+                _prompt(),
+                on_abort=lambda: abort_session(session_id),
+            ),
             media_type="text/event-stream",
             headers=SSE_HEADERS,
         )
@@ -667,3 +720,6 @@ async def execute_stream(request: ExecuteRequest):
 
 app.include_router(api_v1)
 app.include_router(notes_router)
+app.include_router(graphs_router)
+app.include_router(research_router)
+app.include_router(flags_router)

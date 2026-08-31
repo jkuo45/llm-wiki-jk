@@ -68,7 +68,7 @@ Pulmonary IRI contributes to acute respiratory distress syndrome (ARDS) after ca
 
 ### Ischemic Conditioning
 
-Ischemic preconditioning (IPC) — brief, repeated ischemic episodes before a sustained insult — activates endogenous protective pathways (adenosine, [[PKC]], KATP channels, [[PI3K]]/[[Akt]], [[ERK1/2]]). Ischemic postconditioning applies similar intermittent occlusion at the onset of reperfusion. Remote ischemic conditioning (RIPC) applies brief ischemia to a distant limb, providing protection via humoral and neural mediators. These approaches have shown promise in cardiac and renal IRI in preclinical models, with mixed but evolving clinical evidence.
+Ischemic preconditioning (IPC) — brief, repeated ischemic episodes before a sustained insult — activates endogenous protective pathways (adenosine, [[PKC]], KATP channels, [[PI3K]]/[[Akt]], [[ERK1_2|ERK1/2]]). Ischemic postconditioning applies similar intermittent occlusion at the onset of reperfusion. Remote ischemic conditioning (RIPC) applies brief ischemia to a distant limb, providing protection via humoral and neural mediators. These approaches have shown promise in cardiac and renal IRI in preclinical models, with mixed but evolving clinical evidence.
 
 ### Pharmacological Interventions
 
@@ -110,9 +110,9 @@ List of documents that mention this entity
 - [[Cyclosporin A]] — mPTP inhibitor investigated for cardiac and renal IRI protection
 - [[GPX4]] — glutathione peroxidase; key enzyme preventing ferroptosis by reducing lipid peroxides
 - [[PKC]] — protein kinase C; activated in ischemic preconditioning signaling
-- [[ERK1/2]] — MAP kinases involved in preconditioning-mediated cardioprotection
+- [[ERK1_2|ERK1/2]] — MAP kinases involved in preconditioning-mediated cardioprotection
 
 ## Linking Summary
-- New links added: [[Reactive Oxygen Species]], [[NF-κB]], [[ICAM-1]], [[TNF-α]], [[IL-1β]], [[Myocardial Infarction]], [[PI3K]], [[Cyclosporin A]], [[GPX4]], [[PKC]], [[ERK1/2]], [[ATP]], [[Glycolysis]], [[Lactate]], [[NADPH Oxidase]], [[Damage-Associated Molecular Patterns]], [[P-Selectin]], [[E-Selectin]], [[Bcl-2]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Glutathione]], [[NLRP3 Inflammasome]], [[PARP1]], [[tPA]], [[Myocardial Stunning]], [[N-Acetylcysteine]], [[Edaravone]], [[Anakinra]], [[SOD2]], [[HIF-1α]], [[Cytochrome c]], [[Blood-Brain Barrier]], [[Hemorrhagic Transformation]], [[Calpain]], [[IL-6]]
+- New links added: [[Reactive Oxygen Species]], [[NF-κB]], [[ICAM-1]], [[TNF-α]], [[IL-1β]], [[Myocardial Infarction]], [[PI3K]], [[Cyclosporin A]], [[GPX4]], [[PKC]], [[ERK1_2|ERK1/2]], [[ATP]], [[Glycolysis]], [[Lactate]], [[NADPH Oxidase]], [[Damage-Associated Molecular Patterns]], [[P-Selectin]], [[E-Selectin]], [[Bcl-2]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Glutathione]], [[NLRP3 Inflammasome]], [[PARP1]], [[tPA]], [[Myocardial Stunning]], [[N-Acetylcysteine]], [[Edaravone]], [[Anakinra]], [[SOD2]], [[HIF-1α]], [[Cytochrome c]], [[Blood-Brain Barrier]], [[Hemorrhagic Transformation]], [[Calpain]], [[IL-6]]
 - Suggested new entity notes to create: [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[No-Reflow Phenomenon]], [[Ischemic Preconditioning]], [[mPTP]]
   - Strong connections to strengthen: Ischemia-reperfusion Injury ↔ Autophagy, Ischemia-reperfusion Injury ↔ Reactive Oxygen Species, Ischemia-reperfusion Injury ↔ NF-κB, Ischemia-reperfusion Injury ↔ Myocardial Infarction

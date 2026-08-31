@@ -5,17 +5,30 @@ import * as THREE from 'three';
 
 import {
   container, camera, renderer, controls, nodeObjects, nodeMeshes, labelObjects, edgeSegments,
-  edgeList, edgePositions, edgePosAttr,
+  edgeList, edgePositions, edgePosAttr, edgeSegmentsByNode,
   edgeLabel, edgeLabelDiv, edgeOffColor, EDGE_ACCENT, setEdgeVisual, setEdgeFilter,
   animateCamera, CAMERA_OFFSET, midpoint, requestRender,
   addStickyRing, removeStickyRing, restoreDefaultLabels, restoreSelectedLabels,
   showHoverLabels, setLabelVisibility, applyNodeState, applyEdgeState, resetVisualState,
+  edgeRestingStyle,
 } from './core.js';
 import { state, stickyNodes, velocities } from './state.js';
 import { nodeMap, adjacency, TRANSLATIONS, predicateZh } from './data.js';
-import { showInfo, showEdgeInfo, hideNodeInfo, activateRoute, highlightTraceNodes } from './ui.js';
 import { updateHash } from './routing.js';
 import { esc } from './markdown.js';
+
+// ------------------------------------------------------------
+// ui.js hooks (dependency inversion)
+// ------------------------------------------------------------
+// ui.js renders the node/edge info cards and trace panels. Importing it here
+// directly would create a circular dependency (ui.js already imports
+// selectNode/deselectNode from this module), so ui.js registers those
+// renderers at import time via setUiHooks() and all call sites go through
+// uiHooks below.
+const uiHooks = {};
+export function setUiHooks(hooks) {
+  Object.assign(uiHooks, hooks);
+}
 
 // ------------------------------------------------------------
 // Raycaster + hover state
@@ -25,6 +38,14 @@ raycaster.params.Points = { threshold: 2 };
 raycaster.params.Line = { threshold: 5 };
   const mouse = new THREE.Vector2();
   const tooltip = document.getElementById('tooltip');
+
+  // three.js raycasts invisible meshes too (Raycaster never checks .visible),
+  // so nodes hidden by the min-degree setting or the prompt node filter must
+  // be filtered out of hit results manually — otherwise they stay hoverable,
+  // clickable and draggable while not being rendered.
+  function intersectVisibleNodes() {
+    return raycaster.intersectObjects(nodeMeshes).filter(h => h.object.visible);
+  }
 
   // Map a LineSegments raycast hit to its edge object (hit.index is the first
   // vertex of the segment; two vertices per edge => segment = index / 2).
@@ -100,8 +121,8 @@ function resetEdgeStyle(edge) {
     const sel = edge === state.selectedEdge;
     setEdgeVisual(edge, sel ? EDGE_ACCENT : edgeOffColor(), sel ? 0.9 : 0.05);
   } else {
-    const ba = (edge.color && edge.color.opacity != null ? edge.color.opacity : 1) * 0.6;
-    setEdgeVisual(edge, edgeOffColor(), ba);
+    const rest = edgeRestingStyle(edge);
+    setEdgeVisual(edge, rest.hex, rest.alpha);
   }
 }
 
@@ -138,7 +159,19 @@ function attachLabelHandlers() {
 
     div.addEventListener('click', (e) => {
       e.stopPropagation();
+      if (dragMoved) return; // a drag that started on the label shouldn't select
       selectNode(id);
+    });
+
+    // Start node dragging from the label itself (same flow as the node mesh:
+    // plain drag, Cmd/Ctrl for group drag, touch long-press for group drag).
+    div.addEventListener('pointerdown', (e) => {
+      if (e.button !== 0) return;
+      const mesh = nodeObjects.get(id);
+      if (!mesh) return;
+      e.stopPropagation();
+      e.preventDefault();
+      beginNodeDrag(e, mesh);
     });
   });
 }
@@ -170,7 +203,7 @@ function processHover(event) {
       }
     }
 
-    const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+    const nodeIntersects = intersectVisibleNodes();
     if (nodeIntersects.length > 0) {
       const mesh = nodeIntersects[0].object;
       if (mesh.userData.nodeData) {
@@ -249,7 +282,7 @@ function onClick(event) {
   );
   raycaster.setFromCamera(clickMouse, camera);
 
-  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  const nodeIntersects = intersectVisibleNodes();
   const clickedMesh = nodeIntersects.length > 0 ? nodeIntersects[0].object : null;
   const clickedNodeId = clickedMesh ? clickedMesh.userData.nodeId : null;
 
@@ -297,7 +330,6 @@ let dragMoved = false;
 let dragStartPos = new THREE.Vector2();
 let dragGroup = [];
 let longPressTimer = null;
-let longPressActive = false;
 
 function activateGroupDrag(mesh) {
   dragGroup = [];
@@ -313,6 +345,44 @@ function activateGroupDrag(mesh) {
   });
 }
 
+// Shared drag-start used by both the node mesh raycast and label pointerdown.
+// Computes pointer coords + drag plane and arms the drag (incl. group/long-press).
+function beginNodeDrag(event, mesh) {
+  const rect = container.getBoundingClientRect();
+  mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  isDragging = true;
+  draggedNode = mesh;
+  dragMoved = false;
+  dragStartPos.set(event.clientX, event.clientY);
+  controls.enabled = false;
+  container.style.cursor = 'grabbing';
+  dragPlane.setFromNormalAndCoplanarPoint(
+    camera.getWorldDirection(new THREE.Vector3()),
+    mesh.position
+  );
+  raycaster.setFromCamera(mouse, camera);
+  if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
+    dragOffset.copy(intersection).sub(mesh.position);
+  }
+
+  dragGroup = [];
+  if (event.metaKey || event.ctrlKey) {
+    activateGroupDrag(mesh);
+  } else if (event.pointerType === 'touch') {
+    longPressTimer = setTimeout(() => {
+      activateGroupDrag(mesh);
+      const mat = mesh.material;
+      const origEmissive = mat.emissiveIntensity;
+      mat.emissiveIntensity = 0.8;
+      setTimeout(() => { mat.emissiveIntensity = origEmissive; }, 200);
+      if (navigator.vibrate) navigator.vibrate(30);
+    }, 500);
+  }
+
+  event.preventDefault();
+}
+
 function onMouseDown(event) {
   if (event.target !== renderer.domElement) return;
   if (event.button !== 0) return;
@@ -320,40 +390,9 @@ function onMouseDown(event) {
   mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
   mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
   raycaster.setFromCamera(mouse, camera);
-  const intersects = raycaster.intersectObjects(nodeMeshes);
+  const intersects = intersectVisibleNodes();
   if (intersects.length > 0) {
-    const mesh = intersects[0].object;
-    isDragging = true;
-    draggedNode = mesh;
-    dragMoved = false;
-    dragStartPos.set(event.clientX, event.clientY);
-    controls.enabled = false;
-    container.style.cursor = 'grabbing';
-    dragPlane.setFromNormalAndCoplanarPoint(
-      camera.getWorldDirection(new THREE.Vector3()),
-      mesh.position
-    );
-    if (raycaster.ray.intersectPlane(dragPlane, intersection)) {
-      dragOffset.copy(intersection).sub(mesh.position);
-    }
-
-    dragGroup = [];
-    longPressActive = false;
-    if (event.metaKey || event.ctrlKey) {
-      activateGroupDrag(mesh);
-    } else if (event.pointerType === 'touch') {
-      longPressTimer = setTimeout(() => {
-        longPressActive = true;
-        activateGroupDrag(mesh);
-        const mat = mesh.material;
-        const origEmissive = mat.emissiveIntensity;
-        mat.emissiveIntensity = 0.8;
-        setTimeout(() => { mat.emissiveIntensity = origEmissive; }, 200);
-        if (navigator.vibrate) navigator.vibrate(30);
-      }, 500);
-    }
-
-    event.preventDefault();
+    beginNodeDrag(event, intersects[0].object);
   }
 }
 
@@ -424,24 +463,25 @@ function onMouseUp() {
   isDragging = false;
   draggedNode = null;
   dragGroup = [];
-  longPressActive = false;
   controls.enabled = true;
   container.style.cursor = 'default';
 }
 
 function updateEdgesForNode(mesh) {
-  const nodeId = mesh.userData.nodeId;
-  for (let i = 0; i < edgeList.length; i++) {
-    const { edge, fromMesh, toMesh } = edgeList[i];
-    if (edge.from === nodeId || edge.to === nodeId) {
-      const p = i * 6;
-      edgePositions[p] = fromMesh.position.x;
-      edgePositions[p + 1] = fromMesh.position.y;
-      edgePositions[p + 2] = fromMesh.position.z;
-      edgePositions[p + 3] = toMesh.position.x;
-      edgePositions[p + 4] = toMesh.position.y;
-      edgePositions[p + 5] = toMesh.position.z;
-    }
+  // Only the segments touching this node can move — walk the adjacency index
+  // (edge segment indexes per node id, built in core.js) instead of scanning
+  // every edge on each pointermove.
+  const segs = edgeSegmentsByNode.get(mesh.userData.nodeId);
+  if (!segs) return;
+  for (const i of segs) {
+    const { fromMesh, toMesh } = edgeList[i];
+    const p = i * 6;
+    edgePositions[p] = fromMesh.position.x;
+    edgePositions[p + 1] = fromMesh.position.y;
+    edgePositions[p + 2] = fromMesh.position.z;
+    edgePositions[p + 3] = toMesh.position.x;
+    edgePositions[p + 4] = toMesh.position.y;
+    edgePositions[p + 5] = toMesh.position.z;
   }
   edgePosAttr.needsUpdate = true;
 }
@@ -505,9 +545,9 @@ export function selectNode(nodeId) {
 
   setLabelVisibility(neighborIds);
 
-  if (state.analysisOpen) {
-    showInfo(nodeId);
-  }
+  // Load the detail card even while the analysis panel is closed: the floating
+  // button's green dot + toast signal that something is loaded and waiting.
+  uiHooks.showInfo?.(nodeId);
 
   const targetPos = mesh.position.clone();
   animateCamera(targetPos.clone().add(CAMERA_OFFSET), targetPos);
@@ -529,17 +569,17 @@ export function deselectNode() {
   // If a trace is active, restore to trace highlighting
   if (state.activeTrace) {
     if (state.activeRouteIdx >= 0) {
-      activateRoute(state.activeTrace, state.activeRouteIdx);
+      uiHooks.activateRoute?.(state.activeTrace, state.activeRouteIdx);
     } else {
-      highlightTraceNodes(state.activeTrace);
+      uiHooks.highlightTraceNodes?.(state.activeTrace);
     }
-    hideNodeInfo();
+    uiHooks.hideNodeInfo?.();
     return;
   }
 
   resetVisualState();
   hideEdgeLabel();
-  hideNodeInfo();
+  uiHooks.hideNodeInfo?.();
   updateHash();
 }
 
@@ -564,7 +604,7 @@ export function selectEdge(edge) {
 
   // Show relation info in the analysis-panel card
   if (state.analysisOpen) {
-    showEdgeInfo(edge);
+    uiHooks.showEdgeInfo?.(edge);
   }
 
   // Focus camera on midpoint of edge

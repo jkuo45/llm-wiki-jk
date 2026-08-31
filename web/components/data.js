@@ -2,10 +2,10 @@
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
-// JSON data files live in web/data/ (kept out of the app root so the root
-// only holds code, assets, and config). Resolve relative to this module so
-// it works no matter where the server root is.
-const DATA_BASE = new URL('../data/', import.meta.url).href;
+// JSON data files live in web/public/data/ (kept out of the app root so the
+// root only holds code, assets, and config). Resolved against the Vite base
+// URL so it works in dev, preview, and the bundled production build.
+const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 
 // Cache busting: the rebuild script writes data/version.json containing a
 // content hash. The tiny version file is fetched with a no-cache query
@@ -55,17 +55,23 @@ async function loadAllData() {
   const status = document.getElementById('load-status');
   if (status) status.textContent = 'Loading data...';
   await loadCacheTag();
-  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, I18N_COVERAGE, TRACES, ARTICLES, TASKS, PREDICATES] = await Promise.all([
-    getJSON('nodes.json', 'nodes'),
-    getJSON('edges.json', 'edges'),
-    getJSON('legend.json', 'legend'),
-    getJSON('graph-meta.json', 'graph-meta'),
+  // The critical path fetches only the core files of the ACTIVE dataset
+  // (mode from the URL hash). In wiki/triples mode the combined nodes.json /
+  // edges.json (~22 MB raw) are never consumed — the mode toggle reloads the
+  // page with the other mode's files — so they are skipped entirely.
+  const mode = DATASET_MODE;
+  const prefix = mode === 'triples' ? 'triples-' : mode === 'wiki' ? 'wiki-' : '';
+  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, TRACES, ARTICLES, TASKS, PREDICATES, SUGGESTED_PROMPTS] = await Promise.all([
+    getJSON(prefix + 'nodes.json', 'nodes'),
+    getJSON(prefix + 'edges.json', 'edges'),
+    getJSON(prefix + 'legend.json', 'legend'),
+    getJSON(prefix + 'graph-meta.json', 'graph-meta'),
     getJSON('translations-zh-TW.json', 'translations'),
-    getJSON('i18n-coverage.json', 'i18n-coverage'),
     getJSON('query.json', 'traces'),
     getJSON('articles.json', 'articles'),
     getJSON('tasks.json', 'tasks'),
     getJSON('predicates-zh-TW.json', 'predicates'),
+    getJSON('suggested-prompts.json', 'suggested-prompts'),
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
@@ -73,11 +79,11 @@ async function loadAllData() {
     LEGEND: LEGEND || [],
     GRAPH_META: GRAPH_META || {},
     TRANSLATIONS: TRANSLATIONS || {},
-    I18N_COVERAGE: I18N_COVERAGE || {},
     TRACES: TRACES || [],
     ARTICLES: ARTICLES || [],
     TASKS: (TASKS && TASKS.tasks) || [],
     PREDICATES: PREDICATES || {},
+    SUGGESTED_PROMPTS: SUGGESTED_PROMPTS || {},
   };
 }
 
@@ -103,32 +109,10 @@ export const DATASET_LABELS = {
   combined: "Combined (triples + wiki)", // default dataset
 };
 
-// Source-specific datasets (triples keeps the descriptive `triples-*` files;
-// the canonical nodes.json/edges.json/... is the combined dataset).
-async function loadTriplesData() {
-  const [N, E, L, M] = await Promise.all([
-    getJSON("triples-nodes.json", "triples-nodes"),
-    getJSON("triples-edges.json", "triples-edges"),
-    getJSON("triples-legend.json", "triples-legend"),
-    getJSON("triples-graph-meta.json", "triples-graph-meta"),
-  ]);
-  return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
-}
-
-async function loadWikiData() {
-  const [N, E, L, M] = await Promise.all([
-    getJSON("wiki-nodes.json", "wiki-nodes"),
-    getJSON("wiki-edges.json", "wiki-edges"),
-    getJSON("wiki-legend.json", "wiki-legend"),
-    getJSON("wiki-graph-meta.json", "wiki-graph-meta"),
-  ]);
-  return { nodes: N || [], edges: E || [], legend: L || [], meta: M || {} };
-}
-
-// The combined dataset is now the CANONICAL nodes.json / edges.json /
-// legend.json / graph-meta.json produced by scripts/05_build_combined.py. It
-// is loaded on the critical path for the default "combined" mode; the source
-// datasets (triples-* / wiki-*) are loaded only when that mode is selected.
+// Source-specific datasets use the descriptive `triples-*` / `wiki-*` files;
+// the canonical nodes.json / edges.json / ... is the combined dataset. The
+// ACTIVE dataset's files are fetched directly in loadAllData() (mode-prefixed
+// paths), so no second fetch is needed here.
 
 // Live bindings: importers see reassigned values because they reference the
 // exported name directly (no destructuring-into-const at their top level).
@@ -142,7 +126,7 @@ export let TRANSLATIONS = {};
 export let ARTICLES = [];
 export let TASKS = [];
 export let PREDICATES = {};
-export let I18N_COVERAGE = {};
+export let SUGGESTED_PROMPTS = {}; // suggested chat prompts, keyed by UI language
 
 const loaded = await loadAllData();
 RAW_NODES = loaded.RAW_NODES;
@@ -150,32 +134,17 @@ RAW_EDGES = loaded.RAW_EDGES;
 LEGEND = loaded.LEGEND;
 GRAPH_META = loaded.GRAPH_META;
 TRANSLATIONS = loaded.TRANSLATIONS;
-I18N_COVERAGE = loaded.I18N_COVERAGE;
 TRACES = loaded.TRACES;
 ARTICLES = loaded.ARTICLES;
 TASKS = loaded.TASKS;
 PREDICATES = loaded.PREDICATES;
+SUGGESTED_PROMPTS = loaded.SUGGESTED_PROMPTS;
 
-// ---------------------------------------------------------------------------
-// Select the active dataset (triples / wiki / combined) by URL-hash mode.
-// RAW_NODES / RAW_EDGES / LEGEND / GRAPH_META are reassigned BEFORE the
-// derived lookup structures below are built, so nodeMap / adjacency always
-// describe the active dataset (and core.js builds the scene from them).
-// ---------------------------------------------------------------------------
-let _active;
-if (DATASET_MODE === "wiki") {
-  _active = await loadWikiData();
-} else if (DATASET_MODE === "triples") {
-  _active = await loadTriplesData();
-} else {
-  // combined (the default): the critical-path load (nodes.json) IS the
-  // backend-generated combined dataset; nothing more to fetch.
-  _active = { nodes: RAW_NODES, edges: RAW_EDGES, legend: LEGEND, meta: GRAPH_META };
-}
-RAW_NODES = _active.nodes;
-RAW_EDGES = _active.edges;
-LEGEND = _active.legend;
-GRAPH_META = _active.meta;
+// The active dataset (triples / wiki / combined, from the URL-hash mode) was
+// already fetched by loadAllData(); RAW_NODES / RAW_EDGES / LEGEND /
+// GRAPH_META describe it directly, so the derived lookup structures below
+// always describe the active dataset (and core.js builds the scene from
+// them).
 console.log(`[dataset] mode=${DATASET_MODE}: ${RAW_NODES.length} nodes, ${RAW_EDGES.length} edges`);
 
 // Fetch the heavier manifest in the background — it is not needed for first
@@ -190,7 +159,7 @@ loadCacheTag().then(() => {
 // than at page load. roles-meta.json (~1 KB) carries the role rule
 // catalog + live thresholds; link-prediction.json holds the
 // Adamic-Adar missing-link candidates and god-node PPR profiles
-// emitted by scripts/04_link_prediction.py.
+// emitted by scripts/analysis/link_prediction.py.
 // ------------------------------------------------------------
 let ROLES_META = null;
 export async function loadRolesMeta() {

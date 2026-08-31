@@ -1,9 +1,9 @@
 ---
 title: Node Analysis — Ivermectin, Fenbendazole & Mebendazole Against Cancer and Tumour Subtypes
-description: NetworkX multi-node analysis of the drug-repositioning cluster (ivermectin, fenbendazole, mebendazole) against the Cancer hub and three tumour subtypes using scripts/04_node_analysis.py — fingerprints, path multiplicity, Jaccard neighbourhoods, Adamic–Adar, effective resistance, and Personalized PageRank show single-edge fragile claims of unusually high link-prediction headroom, a mechanistically disjoint twin-pair among the benzimidazoles, tumour subtypes captured into the drug community rather than the Cancer community, and a PPR inversion that ranks Ivermectin #2 from the Cancer seed.
+description: NetworkX multi-node analysis of the drug-repositioning cluster (ivermectin, fenbendazole, mebendazole) against the Cancer hub and three tumour subtypes using scripts/analysis/node_analysis.py — fingerprints, path multiplicity, Jaccard neighbourhoods, Adamic–Adar, effective resistance, and Personalized PageRank show single-edge fragile claims of unusually high link-prediction headroom, a mechanistically disjoint twin-pair among the benzimidazoles, tumour subtypes captured into the drug community rather than the Cancer community, and a PPR inversion that ranks Ivermectin #2 from the Cancer seed.
 created: 2026-08-26
 updated: 2026-08-26
-source: graphify-out/graph.json (2624 nodes / 2127 giant-component nodes / 3318 edges) + scripts/04_node_analysis.py
+source: graphify-out/graph.json (2624 nodes / 2127 giant-component nodes / 3318 edges) + scripts/analysis/node_analysis.py
 tags:
   - task-output
   - knowledge-graph
@@ -17,13 +17,12 @@ tags:
   - personalized-pagerank
   - adamic-adar
 author: []
-starred: false
 ---
 
 # Node Analysis — Ivermectin, Fenbendazole & Mebendazole Against Cancer and Tumour Subtypes
 
 > [!NOTE]
-> **Task**: Run `scripts/04_node_analysis.py` on the vault's repurposed-antiparasitic cluster against the oncology corpus — characterizing each drug's metric fingerprint, testing how strongly the graph supports the drug→cancer claims, and reading the metrics jointly as biology rather than as rankings.
+> **Task**: Run `scripts/analysis/node_analysis.py` on the vault's repurposed-antiparasitic cluster against the oncology corpus — characterizing each drug's metric fingerprint, testing how strongly the graph supports the drug→cancer claims, and reading the metrics jointly as biology rather than as rankings.
 > **Date**: 26_AUG_2026
 > **Graph**: `graphify-out/graph.json` — 2,624 nodes / 2,127 giant-component nodes / 3,318 edges (newer build than the 16 August reference page)
 > **Scope**: `[[Ivermectin]]`, `[[Fenbendazole]]`, `[[Mebendazole]]` (sources) × `[[Cancer]]`, `[[Glioblastoma]]`, `[[Cholangiocarcinoma]]`, `[[Renal Cell Carcinoma]]` (targets)
@@ -33,7 +32,7 @@ starred: false
 ## Reproducibility
 
 ```bash
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources ivermectin fenbendazole mebendazole \
     --targets cancer glioblastoma cholangiocarcinoma "renal cell carcinoma"
 ```

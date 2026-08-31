@@ -14,13 +14,13 @@ aliases: [-CH3]
 
 ## Biochemistry of Methyl Transfer
 
-The transfer of [[Methyl groups]] is the reaction known as [[Methylation]], catalyzed by methyltransferases that use a high-energy methyl donor. The universal activated donor is [[S-Adenosylmethionine]] ([[SAMe]]), generated from [[Methionine]] and [[ATP]] by methionine adenosyltransferase. After donating its methyl group, SAMe becomes S-adenosylhomocysteine, which is hydrolyzed to [[Homocysteine]] and recycled back to methionine via the [[Methylation Cycle]] (requiring [[Methylfolate]] and [[MethylB12]]).
+The transfer of [[Methyl groups]] is the reaction known as [[Methylation]], catalyzed by methyltransferases that use a high-energy methyl donor. The universal activated donor is [[SAM|S-Adenosylmethionine]] ([[SAMe]]), generated from [[Methionine]] and [[ATP]] by methionine adenosyltransferase. After donating its methyl group, SAMe becomes S-adenosylhomocysteine, which is hydrolyzed to [[Homocysteine]] and recycled back to methionine via the [[Methylation Cycle]] (requiring [[Methylfolate]] and [[MethylB12]]).
 
 ## Roles in the Body
 
 Methylation reactions involving [[Methyl groups]] are fundamental to:
 
-- **Catechol inactivation via [[COMT]]:** [[COMT]] ([[Catechol-O-methyltransferase]]) transfers a methyl group from SAMe to the meta-hydroxyl of catecholamines ([[Dopamine]], [[Epinephrine]], [[Norepinephrine]]), producing inactive O-methylated metabolites (e.g., HVA, MHPG, metanephrines).
+- **Catechol inactivation via [[COMT]]:** [[COMT]] ([[COMT|Catechol-O-methyltransferase]]) transfers a methyl group from SAMe to the meta-hydroxyl of catecholamines ([[Dopamine]], [[Epinephrine]], [[Norepinephrine]]), producing inactive O-methylated metabolites (e.g., HVA, MHPG, metanephrines).
 - **Monoamine synthesis:** [[Methylation]] converts [[Serotonin]] to [[Melatonin]] via hydroxyindole-O-methyltransferase.
 - **Epigenetics:** DNA and histone methylation regulates gene expression without changing the DNA sequence.
 - **Detoxification:** Phase II methylation (catechols, phenols, metals) enhances water solubility and excretion.
@@ -46,13 +46,13 @@ List of documents that mention this entity
 
 - [[Methylation]]: The transfer process utilizing methyl groups.
 - [[COMT]]: The enzyme that consumes methyl groups to inactivate catechols.
-- [[S-Adenosylmethionine]]: The primary methyl donor in the body.
+- [[SAM|S-Adenosylmethionine]]: The primary methyl donor in the body.
 - [[Methylfolate]] / [[MethylB12]]: Nutrients feeding the methylation cycle.
 - [[Val158Met]]: COMT variant altering methyl-transfer rate.
 - [[Serotonin]] / [[Melatonin]]: Substrate/product of a methylation step.
 
 ## Linking Summary
 
-- New links added: [[Methylation]], [[Catechol-O-methyltransferase]], [[S-Adenosylmethionine]], [[Methionine]], [[Homocysteine]], [[Methylation Cycle]], [[Methylfolate]], [[MethylB12]], [[COMT]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[MTHFR]].
+- New links added: [[Methylation]], [[COMT|Catechol-O-methyltransferase]], [[SAM|S-Adenosylmethionine]], [[Methionine]], [[Homocysteine]], [[Methylation Cycle]], [[Methylfolate]], [[MethylB12]], [[COMT]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[MTHFR]].
 - Suggested new entity notes to create: [[Methionine Adenosyltransferase]], [[S-adenosylhomocysteine]].
 - Strong connections to strengthen: [[Methyl groups]] ↔ [[COMT]]; [[Methyl groups]] ↔ [[Methylation Cycle]].

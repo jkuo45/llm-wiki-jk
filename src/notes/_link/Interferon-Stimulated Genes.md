@@ -15,7 +15,7 @@ Interferon-stimulated genes (ISGs) are the aggregated transcriptional output of 
 
 ## Signaling
 
-ISGs are induced downstream of the [[cGAS-STING Pathway|cGAS-STING]] axis: cytosolic dsDNA activates [[cGAS]] to produce [[cGAMP]], engaging [[STING]], which recruits [[TBK1]] and activates [[IRF3]] and [[NF-kappaB|NF-κB]] to drive IFN-I and ISG transcription. Elevated ISG expression is therefore a downstream effector signature of sustained IFN-I signaling across neurodegenerative contexts. ISGs mark pro-inflammatory glial subpopulations and are co-induced with pro-inflammatory cytokines in activated [[Microglia]] and [[Astrocytes]].
+ISGs are induced downstream of the [[cGAS-STING Pathway|cGAS-STING]] axis: cytosolic dsDNA activates [[cGAS]] to produce [[cGAMP]], engaging [[STING]], which recruits [[TBK1]] and activates [[IRF3]] and [[NF-κB|NF-κB]] to drive IFN-I and ISG transcription. Elevated ISG expression is therefore a downstream effector signature of sustained IFN-I signaling across neurodegenerative contexts. ISGs mark pro-inflammatory glial subpopulations and are co-induced with pro-inflammatory cytokines in activated [[Microglia]] and [[Astrocytes]].
 
 ## Clinical Relevance
 
