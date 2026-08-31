@@ -252,6 +252,24 @@
         }
     },
     {
+        "id": "sirt3-aging-aging-related-diseases",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "SIRT3 — The Mitochondrial Deacetylase at the Center of Aging",
+                "path": "pages/en-US/sirt3-aging-aging-related-diseases.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            },
+            "zh-TW": {
+                "title": "SIRT3 — 居於老化核心的粒線體去乙醯酶",
+                "path": "pages/zh-TW/sirt3-aging-aging-related-diseases.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
+    },
+    {
         "id": "discovery-arrival-graph-metrics",
         "active": true,
         "langs": {

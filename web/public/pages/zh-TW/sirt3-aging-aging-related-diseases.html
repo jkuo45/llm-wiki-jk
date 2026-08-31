@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIRT3 — 居於老化核心的粒線體去乙醯酶</title>
+<meta name="description" content="SIRT3 視覺化深度解析——唯一與人類長壽直接相關的 SIRT 蛋白：蛋白結構與粒線體／細胞核雙重定位、七大調控軸（代謝、氧化壓力、表觀遺傳、細胞凋亡、纖維化、發炎、自噬）、神經退化、心血管疾病、糖尿病、癌症、腎臟病、COPD 與脊椎／關節退化的疾病 × 機制重疊矩陣，以及治療性活化劑（厚朴酚、白藜蘆醇、褪黑激素、2-APQC）全景。改編自 You & Wang, Int J Biol Sci 2025 與 llm-wiki-jk 知識庫。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/
+     (pages-article.css: callouts, figure shells, diagram palette;
+      pages-gallery.css: figure gallery cards, mobile table stacking) */
+  /* tighter section rhythm for this page (theme default: 56px 0) */
+  section{padding:25px 0;}
+  /* therapeutics table: mobile stacked-card labels (pages-gallery.css) */
+  #therapeutics .tbl-wrap{
+    --tbl-col-1:"藥劑"; --tbl-col-2:"類別";
+    --tbl-col-3:"SIRT3 機制"; --tbl-col-4:"疾病模式";
+  }
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#overview">總覽</a>
+    <a class="n" href="#structure">結構</a>
+    <a class="n" href="#axes">七大調控軸</a>
+    <a class="n" href="#senescence">細胞老化</a>
+    <a class="n" href="#matrix">疾病矩陣</a>
+    <a class="n" href="#cvd">心臟與血管</a>
+    <a class="n" href="#diseases">其他疾病</a>
+    <a class="n" href="#figures">原文圖表</a>
+    <a class="n" href="#therapeutics">活化劑</a>
+    <a class="n" href="#perspective">展望</a>
+    <a class="n" href="#sources">資料來源</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">視覺化深度解析 · 老化科學 · 2026 年 8 月 30 日</div>
+    <h1>SIRT3 — 居於老化核心的粒線體去乙醯酶</h1>
+    <p class="lead" style="margin-top:14px;">
+      <b style="color:var(--text)">SIRT3（Sirtuin 3）</b>是粒線體基質中主要的 NAD<sup>+</sup> 依賴型去乙醯酶，
+      也是<b style="color:var(--text)">唯一與人類長壽直接相關的 SIRT 異構體</b>——透過對數十種代謝酶的去乙醯化，
+      它調節 TCA 循環、脂肪酸 β-氧化與電子傳遞鏈；透過活化 SOD2 與 IDH2 掌控粒線體 ROS；
+      更令人驚訝的是，它也會易位到細胞核以維持異染色質與 DNA 修復。當 SIRT3 下降——幾乎在所有老化組織中皆是如此——
+      便會出現一套共通的病理劇本：粒線體蛋白過度乙醯化、氧化壓力、NLRP3 發炎體活化、纖維化，
+      以及粒線體自噬品質管制失靈。本頁解析其生物學、呈現各疾病模型間<b style="color:var(--text)">機制的高度重疊</b>，
+      並盤點治療性活化劑的全景。
+    </p>
+    <div class="meta">
+      主要來源：You Y, Wang Z. <i>Roles of SIRT3 in aging and aging-related diseases.</i>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">Int J Biol Sci 2025;21(11):5135–5163</a>
+      （CC BY 4.0） · 知識庫筆記：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Roles%20of%20SIRT3%20in%20aging%20and%20aging-related%20diseases.md"><code>_document_ - Roles of SIRT3 in aging and aging-related diseases.md</code></a>
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">SIRT3</span>
+      <span class="badge">粒線體基質＋細胞核</span>
+      <span class="badge teal">唯一與長壽直接相關的 SIRT</span>
+      <span class="badge">NAD<sup>+</sup> 依賴型去乙醯酶</span>
+      <span class="badge red">心衰竭 · CKD · COPD · AD · DCM 中皆下降</span>
+      <span class="badge amber">活化劑：厚朴酚 · 白藜蘆醇 · 褪黑激素 · 2-APQC</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 總覽 ============ -->
+<section id="overview">
+  <div class="wrap">
+    <h2>為何 SIRT3 站在老化地圖的中心</h2>
+    <p class="lead">
+      哺乳類 SIRT 家族（SIRT1–7）各有其細胞區室：SIRT1、6、7 主要在細胞核，SIRT2 在細胞質，
+      SIRT3、4、5 則在粒線體。其中 SIRT3 擁有獨特地位——它是粒線體離胺酸乙醯化體（acetylome）的主調控者，
+      且 <i>SIRT3</i> 基因內一個常見的 VNTR 增強子多型性與最長壽的存活年齡相關，
+      使其成為唯一具備人類長壽直接證據的 SIRT。
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">1 · 代謝守門人</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          感測 <b style="color:var(--text)">NAD<sup>+</sup></b> 與 <b style="color:var(--text)">乙醯輔酶 A</b>，
+          並將這些訊號轉譯為對 TCA 循環酶、β-氧化酶與 ETC／OXPHOS 複合體的去乙醯化。
+          在禁食與熱量限制下，NAD<sup>+</sup> 升高會啟動 SIRT3——這正是熱量限制在多個組織中
+          依賴 SIRT3 的分子原因。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--green);">2 · 氧化還原哨兵</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          直接去乙醯化並活化抗氧化陣容——<b style="color:var(--text)">SOD2/MnSOD、IDH2、觸酶、GPX</b>——
+          同時維持 ETC 效率，讓更少的電子洩漏給氧氣。失去 SIRT3 ＝ 過度乙醯化、反應遲緩的抗氧化酶
+          ＋ 過度還原的 ETC ＝ ROS。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">3 · 細胞核裡的第二份工作</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          在壓力下，SIRT3 會易位到細胞核：在間質幹細胞中維持<b style="color:var(--text)">異染色質</b>、
+          對組織蛋白去巴豆醯化、招募 <b style="color:var(--text)">53BP1</b> 進行 NHEJ 雙股斷裂修復，
+          並支援 OGG1 介導的 mtDNA 修復。一位雙區室的基因體穩定哨兵。
+        </p>
+      </div>
+    </div>
+
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--teal); font-weight:700;">7</div>
+        <div style="color:var(--dim); font-size:.85rem;">大調控軸——代謝、氧化還原、表觀遺傳、細胞凋亡、纖維化、發炎、自噬</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--amber); font-weight:700;">~14</div>
+        <div style="color:var(--dim); font-size:.85rem;">類老化相關疾病在 2025 年綜述中有明確的 SIRT3 參與證據</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--purple); font-weight:700;">1</div>
+        <div style="color:var(--dim); font-size:.85rem;">種去乙醯酶——一個酶、同一套功能缺失模式，在每個器官重演</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 結構 ============ -->
+<section id="structure">
+  <div class="wrap">
+    <h2>結構與雙重定位</h2>
+    <p class="lead">
+      人類 SIRT3 是一條 399 個殘基的多肽。N 端粒線體標靶序列在導入基質後被蛋白水解除去，
+      露出催化核心：結合 NAD<sup>+</sup> 的 N 端 <b style="color:var(--text)">Rossmann 摺疊</b>，
+      以及穩定結構的 C 端 <b style="color:var(--text)">鋅指模組</b>。除了去乙醯化，
+      SIRT3 也能催化 ADP-核糖化、去丙二醯化與去琥珀醯化。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg viewBox="0 0 1000 480" role="img" aria-label="SIRT3 結構域與粒線體—細胞核雙重定位示意圖">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" class="s-dim"/>
+          </marker>
+        </defs>
+        <text x="500" y="30" text-anchor="middle" font-size="15" letter-spacing="2" font-weight="600" class="s-dim">SIRT3 — 一個基因，兩個區室</text>
+
+        <!-- domain bar -->
+        <text x="500" y="66" text-anchor="middle" font-size="13" class="s-mute">399 aa · 前驅體（MTS 切割後為活性短型）</text>
+        <rect x="120" y="84" width="150" height="46" rx="8" class="panel-f stroke-line2" stroke-width="1" stroke-dasharray="4 3"/>
+        <text x="195" y="104" text-anchor="middle" font-size="12" font-weight="700" class="s-mute">MTS</text>
+        <text x="195" y="120" text-anchor="middle" font-size="10.5" class="s-mute">粒線體標靶序列</text>
+        <rect x="270" y="84" width="300" height="46" rx="8" class="panel-f s-teal-s" stroke-width="1.6"/>
+        <text x="420" y="104" text-anchor="middle" font-size="12" font-weight="700" class="s-teal">Rossmann 摺疊</text>
+        <text x="420" y="120" text-anchor="middle" font-size="10.5" class="s-dim">NAD⁺ 輔因子結合 · 催化核心</text>
+        <rect x="570" y="84" width="230" height="46" rx="8" class="panel-f s-purple-s" stroke-width="1.6"/>
+        <text x="685" y="104" text-anchor="middle" font-size="12" font-weight="700" class="s-purple">鋅指</text>
+        <text x="685" y="120" text-anchor="middle" font-size="10.5" class="s-dim">結構穩定</text>
+        <text x="840" y="104" font-size="10.5" class="s-mute">亦具：ADP-核糖酶 ·</text>
+        <text x="840" y="118" font-size="10.5" class="s-mute">去丙二醯酶 · 去琥珀醯酶</text>
+
+        <!-- split arrows -->
+        <path d="M 420 132 C 300 170 220 180 190 218" fill="none" class="s-teal-s" stroke-width="1.6" marker-end="url(#arr)"/>
+        <path d="M 500 132 C 640 170 730 180 770 218" fill="none" class="s-purple-s" stroke-width="1.6" marker-end="url(#arr)"/>
+        <text x="255" y="175" font-size="11" class="s-teal">導入 → 成熟基質酶</text>
+        <text x="640" y="175" font-size="11" class="s-purple">壓力應答的核轉位</text>
+
+        <!-- mitochondrion panel -->
+        <rect x="60" y="222" width="420" height="220" rx="14" class="card-f s-teal-s" stroke-width="1.6"/>
+        <text x="270" y="248" text-anchor="middle" font-size="13" font-weight="700" class="s-teal">粒線體基質（經典角色）</text>
+        <text x="80" y="274" font-size="11.5" class="s-text">▸ TCA 循環 · SDH/複合體 II · IDH2 → NADPH</text>
+        <text x="80" y="294" font-size="11.5" class="s-text">▸ β-氧化 · 酮體生成 · ATP 合成酶</text>
+        <text x="80" y="314" font-size="11.5" class="s-text">▸ ETC 複合體 I/III — 減少電子洩漏</text>
+        <text x="80" y="334" font-size="11.5" class="s-text">▸ SOD2 (K68/K122) · 觸酶 · GPX 活化</text>
+        <text x="80" y="354" font-size="11.5" class="s-text">▸ OPA1 皺褶 · PINK1/Parkin 粒線體自噬</text>
+        <text x="80" y="374" font-size="11.5" class="s-text">▸ Bcl-2 / caspase-9 凋亡抑制</text>
+        <text x="80" y="404" font-size="11" class="s-mute">由禁食、運動、熱量限制提升的 NAD⁺ 驅動；</text>
+        <text x="80" y="420" font-size="11" class="s-mute">並感測基質的乙醯輔酶 A 荷載</text>
+
+        <!-- nucleus panel -->
+        <rect x="520" y="222" width="420" height="220" rx="14" class="card-f s-purple-s" stroke-width="1.6"/>
+        <text x="730" y="248" text-anchor="middle" font-size="13" font-weight="700" class="s-purple">細胞核（新興角色）</text>
+        <text x="540" y="274" font-size="11.5" class="s-text">▸ 維持 hMSCs 的異染色質</text>
+        <text x="540" y="294" font-size="11.5" class="s-text">▸ H3K56 去乙醯化 ＋ 53BP1 → NHEJ 修復</text>
+        <text x="540" y="314" font-size="11.5" class="s-text">▸ OGG1 活化 → mtDNA 損傷修復</text>
+        <text x="540" y="334" font-size="11.5" class="s-text">▸ 組織蛋白去巴豆醯化（如 ETS1 的 H3K27cr）</text>
+        <text x="540" y="354" font-size="11.5" class="s-text">▸ FOXO3a DNA 結合親和力 ↑ → 壓力基因</text>
+        <text x="540" y="374" font-size="11.5" class="s-text">▸ 靜默重複序列 — 抗老化</text>
+        <text x="540" y="404" font-size="11" class="s-mute">缺失 → 核膜結構異常、</text>
+        <text x="540" y="420" font-size="11" class="s-mute">異染色質紊亂、過早老化</text>
+
+        <text x="500" y="468" text-anchor="middle" font-size="11.5" class="s-mute">雙重定位使 SIRT3 成為粒線體—細胞核串擾的哨兵：下方管生物能量學，上方管基因體穩定。</text>
+      </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 1 — SIRT3 的結構。</b>粒線體導入切除 MTS 後，成熟酶對基質乙醯化體進行去乙醯化；
+      在基因毒性或氧化壓力下，它也會重新分佈到染色質，維持異染色質與雙股斷裂修復。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 七大調控軸 ============ -->
+<section id="axes">
+  <div class="wrap">
+    <h2>一個中樞，七大調控軸</h2>
+    <p class="lead">
+      綜述將 SIRT3 的抗老化版圖整理為七個相互交織的計畫。每一軸都是獨立的機制——
+      但它們共享受質、並匯流到同一個結果：更低的粒線體壓力、更少的發炎訊號、更好的組織修復。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg id="axesSvg" viewBox="0 0 1000 620" role="img" aria-label="SIRT3 七大調控軸的中樞輻射圖，附代表性受質與下游結果"></svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 2 — SIRT3 中樞。</b>各軸列出綜述（第 1.1–1.7 節）中的代表性去乙醯化標靶。
+      實線連結 ＝ 直接去乙醯化；各軸結果互相回饋（例如：粒線體自噬 ↓ ROS → 發炎體 ↓）。</figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="callout teal">
+        <span class="callout-tag">重點摘錄 · 氧化壓力（第 1.2 節）</span>
+        <p>在熱量限制下，SIRT3 去乙醯化並活化粒線體 <b>IDH2</b>，驅動 <b>NADPH</b> 的合成以供抗氧化系統再生，
+        並防止 ETC 過載——這是 SIRT3 將營養感測與粒線體氧化還原恆定耦合的核心機制。</p>
+      </div>
+      <div class="callout">
+        <span class="callout-tag">重點摘錄 · 表觀遺傳（第 1.3 節）</span>
+        <p>超越粒線體去乙醯化，SIRT3 透過組織蛋白離胺酸去巴豆醯化、hMSCs 的異染色質維持，
+        以及招募 <b>53BP1</b> 促進 <b>NHEJ</b> 雙股斷裂修復來維護基因體完整性——確立其在老化表觀遺傳控制中的細胞核角色。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 細胞老化 ============ -->
+<section id="senescence">
+  <div class="wrap">
+    <h2>抗細胞老化的協調者</h2>
+    <p class="lead">
+      細胞老化——伴有 SASP 分泌、巨分子損傷與代謝失調的永久性細胞週期停滯——是老化的細胞面貌，
+      而 SIRT3 同時協調多個抗老化計畫：
+    </p>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card">
+        <h3>老化標記</h3>
+        <p style="color:var(--dim); font-size:.9rem;">去乙醯化驅動的抗氧化能力將 DNA 損傷降到最低，
+        延遲 SA-β-gal 陽性的出現；SIRT3 抑制執行停滯的 <b style="color:var(--text)">p53/p21</b> 軸。</p>
+      </div>
+      <div class="card">
+        <h3>SASP 抑制</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 缺失會透過粒線體功能障礙增加 SASP 成分——
+        <b style="color:var(--red)">TNF-α、IL-1β、MMP9</b>；活化 SIRT3 則能減輕發炎性組織損傷。
+        氧化壓力下，miR-494-3p ↓ SIRT3 的回饋迴路會加劇老化。</p>
+      </div>
+      <div class="card">
+        <h3>幹細胞儲備</h3>
+        <p style="color:var(--dim); font-size:.9rem;">在 hMSCs 與造血幹細胞中，SIRT3 維持異染色質，
+        並支撐「自噬—SIRT3 正回饋迴路」（FOXO3a → SIRT3 → PINK1/Parkin 粒線體自噬 → mtROS 降低
+        → 幹細胞重建能力得以維持）。</p>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:20px;">
+      <span class="callout-tag">重點摘錄 · 自噬（第 1.7 節）</span>
+      <p>自噬透過 <b>FOXO3a</b> 誘導 SIRT3，而 SIRT3 轉而促進 <b>PINK1/Parkin</b> 介導的
+      <b>粒線體自噬</b>以降低粒線體 ROS——恢復造血幹細胞的重建效率，
+      將粒線體自噬品質管制與老化過程中的幹細胞維持連結起來。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 疾病矩陣 ============ -->
+<section id="matrix">
+  <div class="wrap">
+    <h2>重疊之處：一個模式，多種疾病</h2>
+    <p class="lead">
+      綜述中最醒目的主題是<b style="color:var(--text)">趨同</b>。橫跨十四類疾病，同一小撮機制反覆出現——
+      粒線體功能障礙、氧化壓力、NLRP3 驅動的發炎、TGF-β/Smad 纖維化、細胞凋亡，
+      以及失靈的粒線體自噬。下方的矩陣依綜述本身的著重程度，編碼每個機制在各疾病中的參與強度；
+      長條圖則統計每種疾病涉及的機制數。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg id="matrixSvg" viewBox="0 0 1000 640" role="img" aria-label="SIRT3 的疾病 × 機制參與矩陣"></svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 3 — 疾病 × 機制矩陣。</b>實心圓點 ＝ 強烈參與；半透明 ＝ 中等／情境依賴；
+      空心 ＝ 綜述未強調。心血管、代謝與腎臟列幾乎涉及每一欄——SIRT3 位於所有這些機制的上游。</figcaption>
+    </figure>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg id="barsSvg" viewBox="0 0 1000 560" role="img" aria-label="各疾病涉及機制數的長條圖，心血管與腎臟疾病居首"></svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 4 — 各疾病的機制廣度</b>（取自圖 3 中「強烈＋中等」參與的機制數）。
+      心衰竭、CKD、DCM 與動脈粥狀硬化是 SIRT3 缺失表現最全面的表型；
+      神經退化性疾病則聚焦於「粒線體—ROS—自噬」三件套。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 心血管深入解析 ============ -->
+<section id="cvd">
+  <div class="wrap">
+    <h2>深入解析 — 心衰竭與心血管疾病</h2>
+    <p class="lead">
+      心血管疾病是全球死亡的首要成因，而心臟 SIRT3 在心衰竭病程中<b style="color:var(--text)">持續下降</b>，
+      伴隨粒線體蛋白體的過度乙醯化、氧化代謝受損與 ROS 升高。在第三類 HDAC 中獨樹一幟的是，
+      SIRT3 透過 <b style="color:var(--text)">FOXO3a</b> 活化來減輕病理性心臟重塑。
+      在臨床前模型中，SIRT3 過表現能減輕心臟肥厚與纖維化；SIRT3 基因剔除小鼠則出現肥厚型心肌病變
+      與漸進性心室功能障礙。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg viewBox="0 0 1000 560" role="img" aria-label="心衰竭中心肌細胞的 SIRT3 缺失與救援路徑">
+        <text x="500" y="28" text-anchor="middle" font-size="14" letter-spacing="2" font-weight="600" class="s-dim">受壓心肌細胞中的 SIRT3</text>
+
+        <!-- top: triggers -->
+        <rect x="80" y="48" width="840" height="44" rx="10" class="panel-f s-red-s" stroke-width="1.2"/>
+        <text x="500" y="75" text-anchor="middle" font-size="12.5" class="s-red">HF 壓力超負荷 · 缺血 · 高血壓 · 糖尿病 — 心臟 SIRT3 表現 ↓</text>
+
+        <line x1="500" y1="92" x2="500" y2="118" class="stroke-line2" stroke-width="1.4" marker-end="url(#arr)"/>
+
+        <!-- central lesion -->
+        <rect x="330" y="122" width="340" height="52" rx="10" class="panel-f s-amber-s" stroke-width="1.6"/>
+        <text x="500" y="144" text-anchor="middle" font-size="12.5" font-weight="700" class="s-amber">粒線體過度乙醯化</text>
+        <text x="500" y="162" text-anchor="middle" font-size="11" class="s-dim">代謝酶與抗氧化酶帶著乙醯基運轉遲緩</text>
+
+        <!-- left branch: bioenergetics -->
+        <line x1="380" y1="174" x2="220" y2="212" class="stroke-line2" stroke-width="1.4" marker-end="url(#arr)"/>
+        <rect x="70" y="216" width="270" height="118" rx="10" class="card-f s-red-s" stroke-width="1.2"/>
+        <text x="205" y="240" text-anchor="middle" font-size="12" font-weight="700" class="s-red">生物能量崩潰</text>
+        <text x="205" y="262" text-anchor="middle" font-size="11" class="s-dim">SOD2 / IDH2 去乙醯化喪失</text>
+        <text x="205" y="280" text-anchor="middle" font-size="11" class="s-dim">TCA 流量 ↓ · ETC 過載 → ROS ↑</text>
+        <text x="205" y="298" text-anchor="middle" font-size="11" class="s-dim">FOXO3a → MnSOD/CAT 轉錄 ↓</text>
+        <text x="205" y="316" text-anchor="middle" font-size="11" class="s-dim">CypD 乙醯化 → mPTP 開啟 ↑</text>
+
+        <!-- right branch: remodeling -->
+        <line x1="620" y1="174" x2="780" y2="212" class="stroke-line2" stroke-width="1.4" marker-end="url(#arr)"/>
+        <rect x="660" y="216" width="270" height="118" rx="10" class="card-f s-red-s" stroke-width="1.2"/>
+        <text x="795" y="240" text-anchor="middle" font-size="12" font-weight="700" class="s-red">適應不良性重塑</text>
+        <text x="795" y="262" text-anchor="middle" font-size="11" class="s-dim">GSK-3β 乙醯化 → Smad3 複合體 ↑</text>
+        <text x="795" y="280" text-anchor="middle" font-size="11" class="s-dim">p53 乙醯化 → 纖維化 ＋ 鐵死亡</text>
+        <text x="795" y="298" text-anchor="middle" font-size="11" class="s-dim">COL1A1 / TGF-β1 → ECM 沉積 ↑</text>
+        <text x="795" y="316" text-anchor="middle" font-size="11" class="s-dim">OPA1 去乙醯化喪失 → 皺褶受損</text>
+
+        <!-- convergence -->
+        <line x1="205" y1="334" x2="420" y2="372" class="s-red-s" stroke-width="1.4" marker-end="url(#arr)"/>
+        <line x1="795" y1="334" x2="580" y2="372" class="s-red-s" stroke-width="1.4" marker-end="url(#arr)"/>
+        <rect x="330" y="376" width="340" height="46" rx="10" class="panel-f s-red-s" stroke-width="1.6"/>
+        <text x="500" y="398" text-anchor="middle" font-size="12.5" font-weight="700" class="s-red">肥厚 · 纖維化 · 心肌細胞凋亡 · 舒張功能障礙</text>
+        <text x="500" y="414" text-anchor="middle" font-size="10.5" class="s-mute">HF 表型 — 包括經由微生物體軸的 HFpEF</text>
+
+        <!-- rescue band -->
+        <rect x="80" y="446" width="840" height="86" rx="12" class="card-f s-green-s" stroke-width="1.4"/>
+        <text x="500" y="470" text-anchor="middle" font-size="12" font-weight="700" class="s-green">SIRT3 救援路徑</text>
+        <text x="110" y="492" font-size="11" class="s-text">▸ NAD⁺ 依賴性增強（禁食/熱量限制、NMN/NR）</text>
+        <text x="110" y="510" font-size="11" class="s-text">▸ 厚朴酚（HKL）— 阻斷並逆轉肥厚，SIRT3 依賴</text>
+        <text x="110" y="528" font-size="11" class="s-text">▸ 2-APQC — 抗肥厚效果在 SIRT3-KO 中消失</text>
+        <text x="590" y="492" font-size="11" class="s-text">▸ 吲哚-3-丙酸（腸道菌代謝物）→ HFpEF 舒張功能</text>
+        <text x="590" y="510" font-size="11" class="s-text">▸ 褪黑激素 → TFAM K154 去乙醯化 → 自噬流量</text>
+        <text x="590" y="528" font-size="11" class="s-text">▸ FOXO3a → MnSOD ＋ CAT 抗氧化轉錄</text>
+      </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 5 — 心衰竭模式。</b>SIRT3 缺失使心臟粒線體蛋白體過度乙醯化；
+      生物能量與重塑兩條分支匯流至肥厚／纖維化。圖中每條救援路徑都是 SIRT3 依賴的——
+      在 SIRT3 基因剔除模型中效果全部消失。</figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="card">
+        <h3>動脈粥狀硬化 — 血管側的故事</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          SIRT3 缺失會提高氧化壓力並促進斑塊形成。它經由 AMPK/UCP1 抑制
+          <b style="color:var(--text)">ox-LDL 驅动的泡沫細胞</b>形成，透過 SIRT3/ATG5 軸維持內皮粒線體與
+          <b style="color:var(--text)">一氧化氮</b>，抑制內皮的 NLRP3 發炎體活化，並去乙醯化 FOXO3a → 觸酶。
+          腸道菌代謝物則餵養 SIRT3/SOD2/FOXO3a 軸以對抗 SREBP1c/FAS/DGAT2 產脂級聯。
+          <i>注意：</i>一項 LDL 受體剔除研究顯示 SIRT3 刪除不影響病灶——情境決定一切。
+        </p>
+      </div>
+      <div class="callout teal" style="margin:0;">
+        <span class="callout-tag">重點摘錄 · HFpEF 與微生物體（第 2.2.2 節）</span>
+        <p>腸道菌代謝物如<b>吲哚-3-丙酸</b>可增強 SIRT3，改善保留射出分率心衰竭（HFpEF）的心肌生物能量與舒張功能——
+        一條具轉譯潛力的<b>微生物體—粒線體軸</b>。</p>
+      </div>
+    </div>
+
+    <div class="grid g2" style="margin-top:16px;">
+      <div class="card">
+        <h3>糖尿病心肌病變（DCM）</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 活化透過 <b style="color:var(--text)">AGO2/細胞色素 b</b> 軸
+        改善粒線體呼吸能力——將高血糖與 ETC 功能障礙脫鉤。褪黑激素在 DCM 中的保護經由 Mst1 抑制與 SIRT3 上調；
+        FGF21–SIRT3 軸則中介運動對心臟粒線體的益處。</p>
+      </div>
+      <div class="card">
+        <h3>高血壓與血管壁</h3>
+        <p style="color:var(--dim); font-size:.9rem;">本態性高血壓中 SIRT3 的耗竭與血管發炎及 SOD2 過度乙醯化相關；
+        <b style="color:var(--text)">CypD</b> 的去乙醯化可防止內皮 mPTP 驅动的功能障礙；
+        Ang-II 誘導的腎與心臟纖維化皆對 SIRT3 敏感。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 其他疾病 ============ -->
+<section id="diseases">
+  <div class="wrap">
+    <h2>地圖的其餘部分 — 每種疾病一段話</h2>
+    <p class="lead">節錄自綜述第 2 節；徽章標示各疾病借用共享模式中的哪個主導機制。</p>
+
+    <div class="grid g2" style="margin-top:18px;">
+      <div class="card">
+        <h3>阿茲海默症 <span class="badge teal">粒線體自噬</span> <span class="badge">tau</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 是中樞神經系統中表現最豐富的 SIRT，
+        其濃度與 <b style="color:var(--text)">tau 沉積</b>呈反比。它將粒線體 <b style="color:var(--text)">p53 的 Lys320</b>
+        去乙醯化，以在 Aβ 毒性下維持生物能量；支援 PINK1/Parkin 對受損粒線體的自噬清除（同時抑制類澱粉生成與 tau 病理）；
+        活化 MnSOD；並經由 PACAP 橋接神經營養訊號。</p>
+      </div>
+      <div class="card">
+        <h3>巴金森氏症 <span class="badge teal">粒線體動態</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 將分裂蛋白 <b style="color:var(--text)">DRP1（K711）</b>去乙醯化，
+        恢復粒線體動態並保護多巴胺神經元；活化 PGC-1α 驅動的粒線體生成；
+        清除 <b style="color:var(--text)">α-突觸核蛋白</b>聚集體；並抑制 NLRP3 發炎體的神經發炎。</p>
+      </div>
+      <div class="card">
+        <h3>漸凍人症（ALS） <span class="badge teal">OXPHOS</span> <span class="badge">NAD⁺ 回收</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 缺失導致粒線體蛋白異常過度乙醯化，
+        破壞 OXPHOS 複合體的計量化學與 ETC 容量。過表現可改善 SOD1(G93A) 表型；
+        NAD<sup>+</sup> 回收途徑的強化（菸鹼醯胺）可保存神經元超微結構。
+        骨骼肌中 NAD<sup>+</sup> 回收的保真度同樣退化——形成神經肌肉代謝迴圈。</p>
+      </div>
+      <div class="card">
+        <h3>亨丁頓氏症 <span class="badge teal">生物能量學</span> <span class="badge">AMPK</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 過表現可改善症狀、支持紋狀體神經元對抗突變亨丁頓蛋白的存活；
+        缺失則放大麩胺酸興奮性毒性的脆弱性。AMPK 磷酸化驅動 PGC-1α 計畫；
+        Drp1/Fis1 的抑制保護軸突運輸。在果蟲模型中，SIRT3 直系同源 dSirt2 延長壽命並限制神經纖維網退化。</p>
+      </div>
+      <div class="card">
+        <h3>糖尿病 <span class="badge teal">胰島素敏感性</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 在糖尿病組織中一致下調，與胰島素抗性相關。
+        骨骼肌 SIRT3 缺失損害胰島素刺激的葡萄糖攝取；β 細胞專一性剔除擾亂葡萄糖刺激的胰島素分泌
+        （血清素依賴）；海馬回的高血糖壓抑 SIRT3 → VDAC1/GRP75/IP3R 介導的神經元凋亡；
+        irisin 在糖尿病牙周炎中的骨保護作用亦為 SIRT3 所必需。</p>
+      </div>
+      <div class="card">
+        <h3>癌症 <span class="badge red">情境依賴</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">多為腫瘤抑制：去穩定 HIF-1α（抗 Warburg 效應）、
+        經 OGG1 與 H3K56 去乙醯化維護基因體完整性、IDH2 K143 去乙醯化抑制 ROS 驅动的致突變。
+        但也可能致癌——PYCR1 K228（脯胺酸）、SHMT2 K95（絲胺酸）、GLDC K514（核苷酸），
+        以及賦予 CLL 化療抗藥性的 ROS 緩衝。調節劑必須依情境設計。</p>
+      </div>
+      <div class="card">
+        <h3>腎臟 — AKI → CKD <span class="badge teal">纖維化</span> <span class="badge red">細胞凋亡</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">各類腎病中 SIRT3 皆下降，且與組織學損傷嚴重度負相關。
+        在膿毒症與缺血再灌注 AKI 中，SIRT3-KO 加劇腎小管凋亡（BAX 寡聚化、caspase-3）與脂肪酸氧化衰竭；
+        活化則恢復 OXPHOS、Nrf2 訊號與皺褶完整性。缺失經早期 TGF-β/Smad3 活化加速 AKI→CKD 轉換；
+        在 CKD 中它抑制 EMT、β-catenin 驅动的纖維母細胞活化與血管鈣化（PGC-1α/TFAM、sEH 依賴的穩定性）。</p>
+      </div>
+      <div class="card">
+        <h3>慢性阻塞性肺病（COPD） <span class="badge teal">細胞老化</span> <span class="badge">鐵死亡</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">PGC-1α/SIRT3 軸維持氣道上皮的粒線體生成與氧化還原平衡；
+        SIRT3 缺失經 SOD2 過度乙醯化與 Nrf2/iNOS 失衡（香菸誘導的鐵死亡）加劇肺泡破壞與菸害損傷。
+        氧化壓力上調 <b style="color:var(--text)">miR-494-3p</b>，直接標靶 SIRT3 → p27 ↑ → 氣道上皮加速老化。
+        mtDNA 洩漏則啟動 cGAS-STING 軸。</p>
+      </div>
+      <div class="card">
+        <h3>椎間盤退化 <span class="badge red">鐵死亡</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">退化椎間盤中 SIRT3 明顯降低；剔除會惡化髓核細胞在氧化壓力下的衰退。
+        乳酸下調 SIRT3 → ACSL4 乳酸化 → 鐵死亡。SIRT3 過表現可減輕 IDD 的體內嚴重度；
+        共同遞送 SIRT3/SOD2 的水膠微球可維持髓核細胞存活；AMPK/PGC-1α 對抗 AGEs 維持粒線體恆定。</p>
+      </div>
+      <div class="card">
+        <h3>骨關節炎 <span class="badge teal">粒線體自噬</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 去乙醯化 COX4I2 以維持呼吸鏈；剔除會在人與動物模型中加劇 OA。
+        它促進 PINK1/Parkin 粒線體自噬與 FOXO3a 調控的軟骨細胞氧化還原恆定，
+        經 PI3K/Akt/mTOR 抑制凋亡；其 SUMO 化介導的抑制則會加速軟骨退化。
+        SIRT3 促進的粒線體融合支援 mtDNA 互補。</p>
+      </div>
+      <div class="card">
+        <h3>老年性聽力損失 <span class="badge teal">熱量限制依賴</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">熱量限制透過減少耳蝸細胞的氧化損傷減緩 AHL——
+        這一效果在 <b style="color:var(--text)">SIRT3 缺陷小鼠中完全消失</b>。
+        SIRT3 驅动的 IDH2 活化提升粒線體 NADPH 與 ROS 清除，保護耳蝸毛細胞。
+        「SIRT3–IDH2–NADPH」軸最純粹的展示。</p>
+      </div>
+      <div class="card">
+        <h3>纖維化（跨疾病） <span class="badge teal">GSK-3β Lys15</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">在腹膜、心臟、肺與肝臟纖維化模型中，SIRT3 將
+        <b style="color:var(--text)">GSK-3β 的 Lys15</b> 去乙醯化以阻斷 Smad3 轉錄複合體，
+        並抑制心肌細胞的 FOS/AP-1 與 STAT3/NFATc2。Withaferin A 的肝臟抗纖維化效果在 SIRT3-KO 小鼠中消失——
+        SIRT3 是多種藥理抗纖維化劑的必要效應子。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 原文圖表 ============ -->
+<section id="figures">
+  <div class="wrap">
+    <h2>來自原文綜述的圖表</h2>
+    <p class="lead">
+      綜述本身的圖表為開放取用（CC BY 4.0），嵌入如下。圖 3 的 D 面板（心血管病理）與圖 4 的 C 面板
+      與心衰竭／CVD 主題最相關。
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">開啟全文 →</a>
+    </p>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg" alt="綜述圖 1：SIRT3 的多維度調控網絡" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">綜述圖 1</div>
+          <h3>多維度調控網絡</h3>
+          <p class="caption">A：抗氧化防禦（MnSOD2、CAT、GPX、PRDX）。B：經 NHEJ 的 DNA 修復（PARP1、Ku70/80、XRCC1、DNA ligase 4）。C：凋亡傾向（Bcl-2、Cyt-C、caspases）。D：代謝流（TCA、FAO、AMPK、酮體）。</p>
+          <span class="context">來源：You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/e064bc1c6b0a/ijbsv21p5135g002.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/e064bc1c6b0a/ijbsv21p5135g002.jpg" alt="綜述圖 2：SIRT3 在自噬、發炎與纖維化中的角色" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">綜述圖 2</div>
+          <h3>自噬 · 發炎 · 纖維化</h3>
+          <p class="caption">A：經 FOXO1/3a、LKB1/AMPK/mTOR、MnSOD 的自噬調控。B：NF-κB/AP-1 去乙醯化、NLRP3 發炎體抑制、TGF-β1 調節。C：經組織蛋白 H3 去乙醯化與 TGF-β1 抑制調節纖維化標記。</p>
+          <span class="context">來源：You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg" alt="綜述圖 3：SIRT3 在神經退化、腎臟、心血管、代謝疾病與癌症中的角色" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">綜述圖 3 · D 面板＝心血管</div>
+          <h3>老化病理 A–F</h3>
+          <p class="caption"><b>D — 心血管病理：</b>SIRT3 透過 ROS 控制、OXPHOS 與 Ku70 保護心肌細胞；
+          經 PINK1 介導的粒線體品質管制抑制病理性肥厚與凋亡。另含：老化（A）、神經退化與聽力（B）、腎臟（C）、
+          代謝失調（E）、致癌過程（F）。</p>
+          <span class="context">來源：You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/ec6c9a3510f5/ijbsv21p5135g004.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/ec6c9a3510f5/ijbsv21p5135g004.jpg" alt="綜述圖 4：SIRT3 在 COPD、椎間盤退化與骨關節炎中的角色" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">綜述圖 4</div>
+          <h3>COPD · IDD · OA</h3>
+          <p class="caption">A：COPD — mtROS 與 mtDNA 洩漏活化 cGAS-STING → IL-6/TNF → 老化/SASP；SOD2 去乙醯化減弱。
+          B：IDD — AMPK–SIRT3–PGC-1α 軸、AGE 累積。C：OA — PINK1/Parkin 自噬失靈、軟骨細胞凋亡。</p>
+          <span class="context">來源：You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 治療 ============ -->
+<section id="therapeutics">
+  <div class="wrap">
+    <h2>治療性活化劑全景</h2>
+    <p class="lead">
+      藥理學增強 SIRT3 是老化科學（geroscience）中迅速崛起的前沿。整理自綜述第 3 節——
+      以下每個項目在被測試的 SIRT3 缺陷模型中都會失去療效，這是該領域的因果關係標準。
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:16%;">藥劑</th>
+            <th style="width:12%;">類別</th>
+            <th style="width:42%;">SIRT3 機制</th>
+            <th style="width:30%;">疾病模式</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b style="color:var(--teal);">厚朴酚（HKL）</b></td>
+            <td>天然 · 木脂素（《本草》厚朴）</td>
+            <td>上調 SIRT3 並增強酶活性；SIRT3/AMPK 粒線體融合訊號；GPX4 去乙醯化（抗鐵死亡）</td>
+            <td>心臟肥厚（阻斷並逆轉）、矽肺纖維化（cGAS/STING）、蜘蛛膜下腔出血與腦缺血再灌注、術後神經認知障礙、腎纖維化</td>
+          </tr>
+          <tr>
+            <td><b style="color:var(--teal);">白藜蘆醇</b></td>
+            <td>天然 · 植物抗毒素</td>
+            <td>使 SIRT3 積累於粒線體 → FOXO3a 轉錄 ATP6/CO1/Cytb/ND2/ND5；AMPK/PGC-1α/ERRα → SIRT3 轉錄</td>
+            <td>內皮氧化損傷、心肌缺血再灌注（Mfn2/Parkin 自噬流量）、鎘腎毒性、膿毒症 AKI（SIRT3/SOD2 依賴）</td>
+          </tr>
+          <tr>
+            <td><b style="color:var(--teal);">褪黑激素</b></td>
+            <td>生物活性 · 荷爾蒙</td>
+            <td>活化 28 kDa 的 SIRT3 異構體；TFAM K154 去乙醯化作為自噬開關；SOD2 去乙醯化；AMPK/PGC-1α/SIRT3 軸</td>
+            <td>膿毒症多器官功能障礙、對比劑 AKI（SIRT3-KO 中完全消失）、糖尿病心肌病變（Mst1）、T1D 心肌缺血再灌注</td>
+          </tr>
+          <tr>
+            <td><b style="color:var(--teal);">2-APQC</b></td>
+            <td>合成小分子</td>
+            <td>直接 SIRT3 促效劑；抑制 AKT/mTOR/p70S6K 與 JNK/TGF-β/Smad3 重塑路徑</td>
+            <td>異丙腎上腺素誘導的肥厚與纖維化 — 療效在 SIRT3-KO 中<b style="color:var(--red);">完全消失</b>；被 NAM 抑制所阻斷</td>
+          </tr>
+          <tr>
+            <td>薑黃素</td>
+            <td>天然 · 多酚</td>
+            <td>協調粒線體品質管制——生物能量、動態、選擇性自噬、氧化還原</td>
+            <td>順鉑腎生物能量損傷</td>
+          </tr>
+          <tr>
+            <td>水飛薊賓（Silybin）</td>
+            <td>天然 · 黃酮木脂素</td>
+            <td>SIRT3 介導的腎小管完整性與生物能量保存</td>
+            <td>順鉑腎毒性</td>
+          </tr>
+          <tr>
+            <td>苦參鹼（Matrine）</td>
+            <td>天然 · 生物鹼（苦參）</td>
+            <td>SIRT3/OPA1 粒線體膜動態；AMPK/SIRT3 心肌細胞存活</td>
+            <td>順鉑 AKI；心肌缺血再灌注</td>
+          </tr>
+          <tr>
+            <td>甘草素（Liquiritigenin）</td>
+            <td>天然 · 甘草黃烷酮</td>
+            <td>Nrf2 轉位 → SIRT3 活性 ↑ → 生成＋抗凋亡</td>
+            <td>順鉑 AKI</td>
+          </tr>
+          <tr>
+            <td>兒茶素</td>
+            <td>天然 · 綠茶多酚</td>
+            <td>PPAR-α → SIRT3/SOD2；酮體生成—SIRT3 串擾。<i>情境依賴：</i>在癌細胞中可經 ERRα 抑制 SIRT3</td>
+            <td>糖尿病腎病變（對口腔癌細胞則為促氧化）</td>
+          </tr>
+          <tr>
+            <td>芹菜素（Apigenin）</td>
+            <td>天然 · 膳食黃酮</td>
+            <td>NAD<sup>+</sup>/NADH 比 ↑ → CD38 ↓ → SIRT3 活性恢復</td>
+            <td>糖尿病腎病變（腎小管氧化壓力）</td>
+          </tr>
+          <tr>
+            <td>茯苓酸 A</td>
+            <td>天然 · 三萜類（茯苓）</td>
+            <td>SIRT3 上調 → β-catenin K49 去乙醯化 → 纖維母細胞活化 ↓</td>
+            <td>腎間質纖維化（UUO，體內＋體外）</td>
+          </tr>
+          <tr>
+            <td>二甲雙胍 <span class="badge">間接</span></td>
+            <td>雙胍類</td>
+            <td>AMPK 活化 → SENP1 介導的 SIRT3 去 SUMO 化 → 粒線體定位與活性 ↑</td>
+            <td>AKI 代謝壓力下的腎小管凋亡</td>
+          </tr>
+          <tr>
+            <td>大環磺醯胺 2a</td>
+            <td>合成 · 仿天然</td>
+            <td>SIRT3 依賴的神經保護（螺旋接枝大環）</td>
+            <td>巴金森氏症 — 自發運動缺損與運動協調改善</td>
+          </tr>
+          <tr>
+            <td>斯鈣素-1 / Intermedin / Meteorin-like / Ac2-26</td>
+            <td>內生性胜肽</td>
+            <td>激效性 AMPK/SIRT3 軸；PGC-1α/SIRT3 伴 UCP1 質子漏；皺褶重塑；轉錄性 SIRT3 上調</td>
+            <td>糖尿病腎病變、血管鈣化、缺血性腎損傷</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout teal" style="margin-top:20px;">
+      <span class="callout-tag">因果關係標準</span>
+      <p>表中最強的化合物——厚朴酚、褪黑激素、2-APQC——在 SIRT3 基因剔除或菸鹼醯胺阻斷模型中
+      完全喪失保護效果。這種<b>依賴性</b>（而非僅是相關性），正是 SIRT3 活化劑有別於泛用
+      「粒線體保護」化合物的關鍵。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 展望 ============ -->
+<section id="perspective">
+  <div class="wrap">
+    <h2>展望 — SIRT3 療法的下一步</h2>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">臨床缺口</h3>
+        <p style="color:var(--dim); font-size:.9rem;">尚缺乏穩健的隨機人體試驗與老化專屬臨床終點。
+        優先方向：採用複合老年結果的適應性試驗設計、以體學平台對患者分層並監測 SIRT3 活性，
+        以及縱向安全登記。</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">情境依賴</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 在多數組織具細胞保護性，但在特定情境可能致癌
+        （脯胺酸／絲胺酸／核苷酸代謝、ROS 緩衝）。需要單細胞多體學來剖析細胞型別專一的 SIRT3 活性，
+        之後才適合對癌症康復者進行全身性促效。</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">遞送</h3>
+        <p style="color:var(--dim); font-size:.9rem;">PD／HD 需要腦部穿透性活化劑；
+        HF 需要心肌細胞與纖維母細胞的標靶遞送；椎間盤用水膠微球；
+        HFpEF 則可經腸道菌代謝物（吲哚-3-丙酸）的飲食途徑受益。</p>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">一句話總結</span>
+      <p>SIRT3 是一個<b>主調控樞紐</b>：一個感測 NAD⁺ 的去乙醯酶，整合代謝、氧化還原、表觀遺傳、
+      發炎、自噬、凋亡與纖維化。它的缺失在各個器官重演同一套老化模式——
+      而在臨床前模型中，恢復它就能可靠地改寫這套模式。選擇性活化 SIRT3 是近未來最可信的
+      延長<b>健康壽命</b>的老化科學策略之一。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 資料來源 ============ -->
+<footer id="sources">
+  <div class="wrap">
+    <h2 style="font-size:1.1rem;">資料來源與方法</h2>
+    <p style="margin-top:10px;">主要來源：You Y, Wang Z. <i>Roles of SIRT3 in aging and aging-related diseases.</i>
+    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">Int J Biol Sci 2025;21(11):5135–5163</a> ·
+    doi:<a href="https://doi.org/10.7150/ijbs.115518" target="_blank" rel="noopener">10.7150/ijbs.115518</a> ·
+    PMCID:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">PMC12374834</a> ·
+    PMID:40860195。以 CC BY 4.0 開放取用——圖 1–4 自原文 CDN 嵌入並標示出處。</p>
+    <p>llm-wiki-jk 知識庫：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Roles%20of%20SIRT3%20in%20aging%20and%20aging-related%20diseases.md"><code>_document_ - Roles of SIRT3 in aging and aging-related diseases.md</code></a> ·
+    相關筆記：[[SIRT3]]、[[Sirtuins]]、[[NAD+]]、[[SOD2]]、[[MnSOD]]、[[IDH2]]、[[FOXO3a]]、[[PGC-1α]]、[[AMPK]]、[[PINK1]]、[[Parkin]]、[[GSK3β]]、[[SMAD3]]、[[TGF-beta1]]、[[NLRP3]]、[[NF-κB]]、[[Heart Failure]]、[[Atherosclerosis]]、[[Diabetic Cardiomyopathy]]、[[Alzheimer's Disease]]、[[Parkinson's Disease]]、[[Honokiol]]、[[Resveratrol]]、[[Melatonin]]、[[2-APQC]]。</p>
+    <p>知識圖譜：<code>graphify-out/graph.json</code>（triples） · <code>wiki-out/graph.json</code>（wikilinks） · 所有圖表皆為客戶端 SVG，使用 theme-01 的 CSS 變數——無外部依賴，隨網站深／淺色切換自動重上色，可離線運作。</p>
+    <p style="margin-top:8px; color:var(--mute);">資訊性綜述，非醫療建議。機制參與矩陣（圖 3）與廣度統計（圖 4）為對綜述著重程度編輯性編碼——並非量化統合分析。</p>
+  </div>
+</footer>
+
+<div id="netTip"></div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
+<script>
+"use strict";
+/* shared arrow marker (theme-aware via CSS classes) */
+function markerDefs(){
+  return '<defs><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" class="s-dim"/></marker></defs>';
+}
+
+/* ===================== 七大調控軸中樞圖 ===================== */
+(function(){
+  const svg = document.getElementById('axesSvg');
+  if(!svg) return;
+  let s = markerDefs();
+  const cx = 500, cy = 320;
+  const axes = [
+    {x:cx-150, y:64,  w:300, h:88,  c:'teal',   t:'1 · 代謝調控',
+     lines:['TCA 循環 · SDH/複合體 II · β-氧化','ETC/OXPHOS 複合體 · 酮體生成','感測 NAD⁺ ＋ 乙醯輔酶 A（禁食、熱量限制）']},
+    {x:cx+185, y:120, w:290, h:104, c:'green',  t:'2 · 氧化壓力',
+     lines:['SOD2/MnSOD (K68/K122) · 觸酶','IDH2 → NADPH · GPX · PRDX','FOXO3a → mtDNA 表現 · 減少 ETC 洩漏']},
+    {x:cx+200, y:356, w:280, h:104, c:'purple', t:'3 · 表觀遺傳調控',
+     lines:['H3K56 去乙醯化 → NHEJ · 53BP1','OGG1 → mtDNA 修復 · 去巴豆醯化','異染色質維持（hMSCs）']},
+    {x:60, y:478, w:380, h:88,  c:'red',    t:'4 · 細胞凋亡',
+     lines:['GSK-3β/Bax · Bax/Bcl-2 · caspase-9','AMPK/SENP1/SIRT3 → SOD2','壓力下抗凋亡；癌症中促凋亡']},
+    {x:cx-485, y:356, w:280, h:104, c:'amber',  t:'5 · 纖維化',
+     lines:['GSK-3β Lys15 → 阻斷 Smad3 複合體','FOS/AP-1 · STAT3/NFATc2 ↓','TGF-β1/Smad3、β-catenin · ECM 基因 ↓']},
+    {x:cx-490, y:120, w:280, h:104, c:'blue',   t:'6 · 發炎',
+     lines:['IκBα 穩定 → NF-κB ↓','NLRP3 發炎體組裝 ↓','TNF-α、IL-6、MIP-2 ↓ · 持久性重編程']},
+    {x:560, y:478, w:380, h:88,  c:'pink',   t:'7 · 自噬',
+     lines:['LKB1/AMPK → mTOR 抑制 · ULK1','FOXO3a → PINK1/Parkin 粒線體自噬','正回饋：自噬 ↑ SIRT3']},
+  ];
+  // 中樞
+  s += '<circle cx="'+cx+'" cy="'+cy+'" r="86" class="panel-f s-teal-s" stroke-width="2.4"/>';
+  s += '<text x="'+cx+'" y="'+(cy-14)+'" text-anchor="middle" font-size="26" font-weight="800" class="s-teal">SIRT3</text>';
+  s += '<text x="'+cx+'" y="'+(cy+10)+'" text-anchor="middle" font-size="10.5" class="s-dim">NAD⁺ 依賴型</text>';
+  s += '<text x="'+cx+'" y="'+(cy+26)+'" text-anchor="middle" font-size="10.5" class="s-dim">去乙醯酶</text>';
+  s += '<text x="'+cx+'" y="'+(cy+44)+'" text-anchor="middle" font-size="10.5" class="s-mute">基質 · 細胞核</text>';
+  axes.forEach(a=>{
+    s += '<rect x="'+a.x+'" y="'+a.y+'" width="'+a.w+'" height="'+a.h+'" rx="10" class="panel-f s-'+a.c+'-s" stroke-width="1.5"/>';
+    s += '<text x="'+(a.x+a.w/2)+'" y="'+(a.y+22)+'" text-anchor="middle" font-size="12" font-weight="700" class="s-'+a.c+'">'+a.t+'</text>';
+    a.lines.forEach((l,i)=>{
+      s += '<text x="'+(a.x+a.w/2)+'" y="'+(a.y+42+i*17)+'" text-anchor="middle" font-size="10.5" class="s-dim">'+l+'</text>';
+    });
+    // 連至中樞 — 由框邊至中樞圓周（r=86，留 8px 間距）
+    const bx = Math.max(a.x, Math.min(a.x+a.w, cx));
+    const by = Math.max(a.y, Math.min(a.y+a.h, cy));
+    const dx = bx-cx, dy = by-cy, dist = Math.hypot(dx,dy) || 1;
+    const ex = cx + dx/dist*(86+8), ey = cy + dy/dist*(86+8);
+    s += '<line x1="'+bx+'" y1="'+by+'" x2="'+ex+'" y2="'+ey+'" class="stroke-line2" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr2)"/>';
+  });
+  // 底部註記
+  s += '<text x="500" y="600" text-anchor="middle" font-size="11.5" class="s-mute">各軸相互交織：粒線體自噬 ↓ mtROS → 發炎體 ↓ · 代謝 ↑ → ETC 洩漏減少 → 氧化壓力 ↓ · 異染色質維持 → 老化 ↓</text>';
+  svg.innerHTML = s;
+})();
+
+/* ===================== 疾病 × 機制矩陣 ===================== */
+(function(){
+  const svg = document.getElementById('matrixSvg');
+  if(!svg) return;
+  const mechs = ['粒線體\n功能','氧化壓力\n/ ROS','發炎\n/ NLRP3','纖維化\n/ TGF-β','細胞凋亡','自噬 /\n粒線體自噬','代謝\n重塑'];
+  // 2 = 強烈, 1 = 中等, 0 = 未強調（對綜述著重程度的編輯性編碼）
+  const rows = [
+    {d:"阿茲海默症",           v:[2,2,2,0,1,2,2]},
+    {d:"巴金森氏症",           v:[2,2,2,0,1,2,2]},
+    {d:"漸凍人症（ALS）",       v:[2,1,0,0,1,0,2]},
+    {d:"亨丁頓氏症",           v:[2,2,0,0,1,0,2]},
+    {d:"動脈粥狀硬化",          v:[1,2,2,0,0,2,2]},
+    {d:"心衰竭",               v:[2,2,1,2,2,2,2]},
+    {d:"糖尿病心肌病變",        v:[2,2,1,1,2,1,2]},
+    {d:"糖尿病",               v:[2,2,1,0,2,0,2]},
+    {d:"癌症",                 v:[1,2,0,0,2,2,2]},
+    {d:"急性腎損傷",            v:[2,2,2,1,2,1,2]},
+    {d:"慢性腎臟病",            v:[2,2,1,2,1,0,1]},
+    {d:"慢性阻塞性肺病",        v:[2,2,1,1,0,0,0]},
+    {d:"椎間盤退化／骨關節炎",   v:[2,2,1,0,2,2,1]},
+    {d:"老年性聽力損失",        v:[1,2,0,0,0,0,1]},
+  ];
+  const x0 = 160, y0 = 96, cw = 115, rh = 32, pad = 12;
+  let s = '';
+  s += '<text x="500" y="30" text-anchor="middle" font-size="14" letter-spacing="2" font-weight="600" class="s-dim">疾病 × 機制 — 模式在哪裡重演</text>';
+  // 欄標題
+  mechs.forEach((m,j)=>{
+    const x = x0 + j*cw + cw/2;
+    m.split('\n').forEach((ln,i)=>{
+      s += '<text x="'+x+'" y="'+(y0-16-(mechs[j].split('\n').length-1-i)*13)+'" text-anchor="middle" font-size="10" class="s-mute">'+ln+'</text>';
+    });
+    s += '<line x1="'+x+'" y1="'+(y0-2)+'" x2="'+x+'" y2="'+(y0+rows.length*rh)+'" class="stroke-line" stroke-width="0.6" stroke-dasharray="2 4"/>';
+  });
+  // 列
+  rows.forEach((r,i)=>{
+    const y = y0 + i*rh + rh/2;
+    if(i%2===0) s += '<rect x="'+(x0-10)+'" y="'+(y0+i*rh+3)+'" width="'+(7*cw+20)+'" height="'+(rh-6)+'" rx="6" class="rowh-f"/>';
+    s += '<text x="'+(x0-16)+'" y="'+(y+4)+'" text-anchor="end" font-size="11.5" font-weight="600" class="s-text">'+r.d+'</text>';
+    r.v.forEach((v,j)=>{
+      const cx2 = x0 + j*cw + cw/2;
+      if(v===2){
+        s += '<circle class="matrix-cell teal-f" cx="'+cx2+'" cy="'+y+'" r="8" data-d="'+r.d+'" data-m="'+mechs[j].replace('\n',' ')+'" data-v="strong"><title>'+r.d+' — '+mechs[j].replace('\n',' ')+': 強烈參與</title></circle>';
+      } else if(v===1){
+        s += '<circle class="matrix-cell amber-f" cx="'+cx2+'" cy="'+y+'" r="8" fill-opacity="0.45" data-d="'+r.d+'" data-m="'+mechs[j].replace('\n',' ')+'" data-v="moderate"><title>'+r.d+' — '+mechs[j].replace('\n',' ')+': 中等／情境依賴</title></circle>';
+      } else {
+        s += '<circle class="matrix-cell" cx="'+cx2+'" cy="'+y+'" r="5" fill="none" stroke-width="1" data-d="'+r.d+'" data-m="'+mechs[j].replace('\n',' ')+'" data-v="not emphasized"><title>'+r.d+' — '+mechs[j].replace('\n',' ')+': 綜述未強調</title></circle>';
+      }
+    });
+  });
+  // 邊框
+  s += '<line x1="'+(x0-10)+'" y1="'+(y0-4)+'" x2="'+(x0-10)+'" y2="'+(y0+rows.length*rh+4)+'" class="stroke-line2" stroke-width="1"/>';
+  // 圖例（格線下方）
+  const ly = y0 + rows.length*rh + 34;
+  s += '<circle cx="'+(x0+12)+'" cy="'+ly+'" r="7" class="teal-f"/><text x="'+(x0+26)+'" y="'+(ly+4)+'" font-size="11" class="s-dim">強烈參與</text>';
+  s += '<circle cx="'+(x0+190)+'" cy="'+ly+'" r="7" class="amber-f" fill-opacity="0.45"/><text x="'+(x0+204)+'" y="'+(ly+4)+'" font-size="11" class="s-dim">中等／情境依賴</text>';
+  s += '<circle cx="'+(x0+430)+'" cy="'+ly+'" r="7" class="panel-f stroke-line2"/><text x="'+(x0+444)+'" y="'+(ly+4)+'" font-size="11" class="s-dim">綜述未強調</text>';
+  s += '<text x="500" y="'+(y0+rows.length*rh+66)+'" text-anchor="middle" font-size="11" class="s-mute">You &amp; Wang 2025（第 2 節）著重程度的編輯性編碼 — 圓點 ＝ 綜述為該疾病強調的機制</text>';
+  svg.innerHTML = s;
+})();
+
+/* ===================== 廣度長條圖 ===================== */
+(function(){
+  const svg = document.getElementById('barsSvg');
+  if(!svg) return;
+  const data = [
+    {d:'心衰竭', n:7, c:'red'},
+    {d:'慢性腎臟病', n:6, c:'red'},
+    {d:'糖尿病心肌病變', n:6, c:'red'},
+    {d:'動脈粥狀硬化', n:5, c:'red'},
+    {d:'急性腎損傷', n:6, c:'red'},
+    {d:'阿茲海默症', n:6, c:'blue'},
+    {d:'巴金森氏症', n:6, c:'blue'},
+    {d:'糖尿病', n:5, c:'purple'},
+    {d:'癌症', n:5, c:'purple'},
+    {d:'椎間盤退化／骨關節炎', n:5, c:'amber'},
+    {d:'慢性阻塞性肺病', n:4, c:'amber'},
+    {d:'亨丁頓氏症', n:4, c:'blue'},
+    {d:'漸凍人症（ALS）', n:4, c:'blue'},
+    {d:'老年性聽力損失', n:3, c:'green'},
+  ];
+  data.sort((a,b)=>b.n-a.n || a.d.localeCompare(b.d,'zh-Hant'));
+  const x0=225, y0=44, bw=725, rh=34;
+  let s = '';
+  s += '<text x="500" y="26" text-anchor="middle" font-size="14" letter-spacing="2" font-weight="600" class="s-dim">機制廣度 — 每種疾病涉及的機制數（共 7 項）</text>';
+  // 格線
+  for(let g=0; g<=7; g++){
+    const x = x0 + g*(bw/7);
+    s += '<line x1="'+x+'" y1="'+(y0-8)+'" x2="'+x+'" y2="'+(y0+data.length*rh)+'" class="stroke-line" stroke-width="0.7" stroke-opacity="0.7"/>';
+    s += '<text x="'+x+'" y="'+(y0+data.length*rh+18)+'" text-anchor="middle" font-size="10.5" class="s-mute">'+g+'</text>';
+  }
+  s += '<text x="'+(x0+bw/2)+'" y="'+(y0+data.length*rh+38)+'" text-anchor="middle" font-size="11" class="s-mute">涉及的機制數（強烈＋中等）</text>';
+  data.forEach((r,i)=>{
+    const y = y0 + i*rh;
+    const w = r.n*(bw/7);
+    if(i%2===0) s += '<rect x="'+(x0-8)+'" y="'+(y+3)+'" width="'+(bw+16)+'" height="'+(rh-6)+'" rx="6" class="rowh-f"/>';
+    s += '<text x="'+(x0-14)+'" y="'+(y+rh/2+4)+'" text-anchor="end" font-size="11.5" font-weight="600" class="s-text">'+r.d+'</text>';
+    s += '<rect x="'+x0+'" y="'+(y+8)+'" width="'+Math.max(w,4)+'" height="'+(rh-16)+'" rx="5" class="'+r.c+'-f" fill-opacity="0.75"/>';
+    s += '<text x="'+(x0+Math.max(w,4)+8)+'" y="'+(y+rh/2+4)+'" font-size="11.5" font-weight="700" class="s-'+r.c+'">'+r.n+'/7</text>';
+  });
+  // 圖例
+  const leg = [['red','心血管／腎臟'],['blue','神經退化'],['purple','代謝／癌症'],['amber','肌肉骨骼／肺部'],['green','感覺系統']];
+  let lx = x0;
+  leg.forEach(([c,l])=>{
+    s += '<rect x="'+lx+'" y="'+(y0+data.length*rh+52)+'" width="10" height="10" rx="2" class="'+c+'-f"/>';
+    s += '<text x="'+(lx+16)+'" y="'+(y0+data.length*rh+61)+'" font-size="10.5" class="s-dim">'+l+'</text>';
+    lx += 24 + l.length*13;
+  });
+  svg.innerHTML = s;
+})();
+</script>
+</body>
+</html>
