@@ -124,47 +124,6 @@ class TestTaskIdStem:
 
 
 # ----------------------------------------------------------------------
-# Triple metrics
-# ----------------------------------------------------------------------
-
-class TestComputeTripleMetrics:
-    def test_metrics(self):
-        triples = [
-            {"subject": "A", "predicate": "activates", "object": "B",
-             "confidence": "high"},
-            {"subject": "B", "predicate": "inhibits", "object": "C",
-             "confidence": "low"},
-            {"subject": "C", "predicate": "has_type", "object": "gene",
-             "confidence": "high"},
-        ]
-        m = rc.compute_triple_metrics(triples, exclude_has_type=True)
-        assert m["nodes"] == 3 and m["edges"] == 2
-        assert m["predicates"] == 2
-        assert m["high_confidence"] == 1
-        assert m["high_pct"] == pytest.approx(50.0)
-        assert m["top_subjects"][0] == ("A", 1)
-        full = rc.compute_triple_metrics(triples, exclude_has_type=False)
-        assert full["edges"] == 3 and full["predicates"] == 3
-
-    def test_empty(self):
-        m = rc.compute_triple_metrics([])
-        assert m["nodes"] == 0 and m["high_pct"] == 0.0
-        assert m["top_subjects"] == []
-
-
-class TestLoadTriples:
-    def test_loads_and_defaults(self, tmp_path):
-        topic = tmp_path / "topic"
-        topic.mkdir()
-        f = topic / "_triples_topic.json"
-        f.write_text('[{"subject": "A"}]', encoding="utf-8")
-        assert rc.load_triples(topic) == [{"subject": "A"}]
-        empty = tmp_path / "other"
-        empty.mkdir()
-        assert rc.load_triples(empty) == []
-
-
-# ----------------------------------------------------------------------
 # build_web_tasks integration
 # ----------------------------------------------------------------------
 

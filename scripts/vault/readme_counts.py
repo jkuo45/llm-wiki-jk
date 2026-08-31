@@ -6,7 +6,7 @@ import re
 import shutil
 import subprocess
 import urllib.parse
-from collections import Counter, OrderedDict
+from collections import OrderedDict
 from datetime import datetime
 
 
@@ -93,69 +93,6 @@ def get_dir_size_and_count(directory):
                     if f.endswith(".md"):
                         total_words += count_words(fp)
     return total_files, total_size, total_words
-
-
-def load_triples(topic_path):
-    """Load triples from _triples_<topic>.json"""
-    triples_file = os.path.join(
-        topic_path, f"_triples_{os.path.basename(topic_path)}.json"
-    )
-    if os.path.exists(triples_file):
-        with open(triples_file, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
-
-
-def compute_triple_metrics(triples, exclude_has_type=True):
-    """Compute metrics from triples, optionally excluding has_type."""
-    if exclude_has_type:
-        triples = [t for t in triples if t.get("predicate") != "has_type"]
-
-    if not triples:
-        return {
-            "nodes": 0,
-            "edges": 0,
-            "predicates": 0,
-            "high_confidence": 0,
-            "high_pct": 0.0,
-            "top_subjects": [],
-            "top_objects": [],
-            "top_predicates": [],
-        }
-
-    # Collect all entities (subjects + objects)
-    entities = set()
-    for t in triples:
-        entities.add(t.get("subject", ""))
-        entities.add(t.get("object", ""))
-
-    # Count predicates
-    predicate_counts = Counter(t.get("predicate", "") for t in triples)
-
-    # Count subjects and objects
-    subject_counts = Counter(t.get("subject", "") for t in triples)
-    object_counts = Counter(t.get("object", "") for t in triples)
-
-    # High confidence count
-    high_conf = sum(1 for t in triples if t.get("confidence") == "high")
-
-    return {
-        "nodes": len(entities),
-        "edges": len(triples),
-        "predicates": len(predicate_counts),
-        "high_confidence": high_conf,
-        "high_pct": (high_conf / len(triples) * 100) if triples else 0,
-        "top_subjects": subject_counts.most_common(5),
-        "top_objects": object_counts.most_common(5),
-        "top_predicates": predicate_counts.most_common(5),
-    }
-
-
-def format_top_items(items, limit=5):
-    """Format top items as string."""
-    if not items:
-        return "N/A"
-    return ", ".join(f"{k} ({v})" for k, v in items[:limit])
 
 
 # --- Web artifacts: task outputs for the reader panel -----------------------
