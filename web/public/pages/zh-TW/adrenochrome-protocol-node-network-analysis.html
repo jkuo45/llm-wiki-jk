@@ -41,7 +41,7 @@
 <div class="meta">
 <p><strong>日期：</strong>2026 年 8 月 20 日（更新）</p>
 <p><strong>資料來源：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a>- 建造<code>867a5ae5fdb8a46c</code>（2,596 個節點/3,737 個邊）</p>
-<p><strong>代碼：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/04_node_analysis.py</code></a>，針對建構的補充掃描</p>
+<p><strong>代碼：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a>，針對建構的補充掃描</p>
 <p><strong>方法依據：</strong> <a href="../en-US/node-analysis-examples-biology.html">用於生物優先排序的節點級網路分析</a></p>
 <p><strong>狀態：</strong>追蹤日誌將隨每次新追蹤而更新（參見<a href="#log">§09</a>)</p>
 <p><strong>方案文件</strong>（repo · <em>dev</em>）：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md">US4501923A</a></p>
@@ -515,20 +515,20 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--&gt; SASP &lt;--is_r
 <p class="sec-label">10 · 再現性與下一個追蹤</p>
 <h2>種子，腳本化、版本綁定</h2>
 <pre><code># Protocol-agent traces (both directions)
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources methylene_blue aminoguanidine --targets adrenochrome
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources adrenochrome --targets methylene_blue aminoguanidine
 
 # Adaptive-arm refresh and stack sweep
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources mitohormesis autophagy sirtuins --targets adrenochrome
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid \
     --targets adrenochrome</code></pre>
 <p>補充計算（綜合得分、PPR 種子交集、配置模型空值、
         橋移除掃描）作為內聯腳本運行在<code>graphify-out/graph.json</code>下
-        與<code>RANDOM_SEED=1</code>相同的<code>scripts/04_node_analysis.py</code>約定。
+        與<code>RANDOM_SEED=1</code>相同的<code>scripts/analysis/node_analysis.py</code>約定。
         環境：Python 3.14、NetworkX 3.x、SciPy 1.x。頁面綁定建構<code>867a5ae5fdb8a46c</code>；任何重建都會使舊行無效<a href="#log">§09</a>.
       </p>
 </section>
@@ -542,7 +542,7 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 <li>先前任務輸出：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"><code>adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"><code>task_output_research-scientist_combo_therapy_11_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"><code>task_output_mitohormetic_window_13_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"><code>task_output_adrenochrome_gap_analysis_09_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"><code>task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"><code>task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md</code></a>.</li>
 <li>四方基線研究。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md</code></a>.</li>
 <li>此協定追蹤集。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"><code>src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md</code></a>和<a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_adrenochrome_20_AUG_2026"><code>run_log_A…D_*.txt</code></a>檔案。</li>
-<li>多節點分析工具。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/04_node_analysis.py</code></a>；重建管道<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/03_rebuild_from_triples.py</code></a>.</li>
+<li>多節點分析工具。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a>；重建管道<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/triples/rebuild.py</code></a>.</li>
 <li>Jeong H 等人。蛋白質網絡中的致死性和中心性。<em>Nature</em>2001；411：41–42。於 H 等人。蛋白質網絡中瓶頸的重要性。<em>PLoS Comput Biol</em>2007；3:e59。</li>
 </ol>
 </section>

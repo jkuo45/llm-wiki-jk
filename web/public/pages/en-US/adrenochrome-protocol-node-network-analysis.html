@@ -49,7 +49,7 @@
     <div class="meta">
       <p><strong>Date:</strong> 20 August 2026 (updated)</p>
       <p><strong>Data Source:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> — build <code>867a5ae5fdb8a46c</code> (2,596 nodes / 3,737 edges)</p>
-      <p><strong>Code:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/04_node_analysis.py</code></a>, supplementary scans against the build</p>
+      <p><strong>Code:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a>, supplementary scans against the build</p>
       <p><strong>Methods basis:</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Prioritization</a></p>
       <p><strong>Protocol documents</strong> (repo · <em>dev</em>): <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md">US4501923A</a></p>
     </div>
@@ -636,21 +636,21 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
       <p class="sec-label">10 · Reproducibility &amp; next traces</p>
       <h2>Seeded, scripted, version-bound</h2>
       <pre><code># Protocol-agent traces (both directions)
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources methylene_blue aminoguanidine --targets adrenochrome
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources adrenochrome --targets methylene_blue aminoguanidine
 
 # Adaptive-arm refresh and stack sweep
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources mitohormesis autophagy sirtuins --targets adrenochrome
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid \
     --targets adrenochrome</code></pre>
       <p>
         Supplementary computations (composite score, PPR seed-intersection, configuration-model nulls,
         bridge removal sweep) run as inline scripts against <code>graphify-out/graph.json</code> under
-        the same <code>RANDOM_SEED=1</code> convention as <code>scripts/04_node_analysis.py</code>.
+        the same <code>RANDOM_SEED=1</code> convention as <code>scripts/analysis/node_analysis.py</code>.
         Environment: Python 3.14, NetworkX 3.x, SciPy 1.x. Page is bound to build
         <code>867a5ae5fdb8a46c</code>; any rebuild invalidates old rows in <a href="#log">§09</a>.
       </p>
@@ -666,7 +666,7 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
         <li>Prior task outputs: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"><code>adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"><code>task_output_research-scientist_combo_therapy_11_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"><code>task_output_mitohormetic_window_13_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"><code>task_output_adrenochrome_gap_analysis_09_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"><code>task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"><code>task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md</code></a>.</li>
         <li>Quartet baseline study. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md</code></a>.</li>
         <li>This protocol trace set. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"><code>src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md</code></a> and the <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_adrenochrome_20_AUG_2026"><code>run_log_A…D_*.txt</code></a> archives.</li>
-        <li>Multi-node analytics tooling. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/04_node_analysis.py</code></a>; rebuild pipeline <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/03_rebuild_from_triples.py</code></a>.</li>
+        <li>Multi-node analytics tooling. <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a>; rebuild pipeline <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py"><code>scripts/triples/rebuild.py</code></a>.</li>
         <li>Jeong H, et al. Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42. Yu H, et al. The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
       </ol>
     </section>

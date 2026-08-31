@@ -53,7 +53,7 @@
     <div class="meta">
       <p><strong>日期：</strong>2026年8月30日</p>
       <p><strong>資料來源：</strong><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a>（triples：型別化、有向、帶信心分數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json"><code>wiki-out/wiki-graph.json</code></a>（wiki：共同提及 <code>links_to</code>）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併：37,318 邊 = 3,895 條型別有向邊 + 33,423 條共同提及邊）</p>
-      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
+      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
       <p><strong>讀者：</strong>生物學家與資料分析師。僅供資訊參考——非醫療建議。</p>
       <p><strong>其他語言：</strong><a href="../en-US/discovery-arrival-graph-metrics.html">English</a></p>
     </div>
@@ -573,7 +573,7 @@
       <p>
         這正是 Hetionet 的 DWPC 特徵與 ROBOKOP 的模板查詢背後的 metapath 概念：<strong>關係型別化的路徑，
         而非無向相似度，才是藥物重定位的特徵引擎。</strong>Adamic-Adar（無向、無型別）無法表達
-        「抑制了一個活化劑的東西」；型別路徑列舉可以——這是現行 <code>04_link_prediction.py</code> 缺少的一道 pass。
+        「抑制了一個活化劑的東西」；型別路徑列舉可以——這是現行 <code>scripts/analysis/link_prediction.py</code> 缺少的一道 pass。
       </p>
 
       <h3>4.3 · 方向性區分槓桿與後果</h3>
@@ -595,7 +595,7 @@
         也沒有論文直接陳述它，而且它可以被檢驗。這是經典的符號化連結預測
         （<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>）
         移植到生物學，也是 <strong>Assumptions-Lab 衝突</strong>的天然產生器：當策展立場解決了一個衝突，
-        修正會<em>實體化進圖譜本身</em>（經 <code>07_sync_assumptions.py</code> → <code>03_rebuild_from_triples.py</code>），
+        修正會<em>實體化進圖譜本身</em>（經 <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code>），
         所有下游指標——包括上述重播指標——都會對修正後的拓撲重算。
       </p>
 
@@ -753,10 +753,10 @@
         <li><strong>探勘符號三元組</strong>以尋找 Assumptions-Lab 衝突（敵人的敵人與雙正三角形）；
         登錄到 <code>assumptions.json</code> 並解決立場——已解決的衝突會實體化進圖譜
         （選擇 → 有向邊的增刪；<code>excludedSources</code> 用於雜訊文件）。
-        任何 triples／假設變更的運行順序：<code>03_normalize_triples_schema.py</code> →
-        <code>07_sync_assumptions.py</code> → <code>03_rebuild_from_triples.py</code> →
-        <code>05_build_combined.py</code> / <code>05_rebuild_from_wiki.py</code> → <code>07_sync_to_db.py</code> +
-        <code>07_sync_content.py</code>。</li>
+        任何 triples／假設變更的運行順序：<code>scripts/triples/normalize.py</code> →
+        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code> →
+        <code>scripts/combined/build.py</code> / <code>scripts/wiki/rebuild.py</code> → <code>scripts/sync/graph_to_db.py</code> +
+        <code>scripts/sync/content_to_db.py</code>。</li>
         <li><strong>跨重建追蹤每個實體的介數/k-core 軌跡</strong>（擴充 <code>graph-diff.json</code>）——
         正是它標出了鐵死亡-2020 的成熟訊號。</li>
         <li><strong>補上這些運行暴露的文獻—圖譜缺口：</strong>直接的 SARS-CoV-2↔CD38/NAD+/PARP 邊
@@ -776,9 +776,9 @@
         <p><strong>本 repo 產物與工具</strong>：<code>graphify-out/graph.json</code> · <code>wiki-out/wiki-graph.json</code> ·
         <code>web/public/data/edges.json</code>（合併；3,895 條型別化邊）· <code>web/public/data/link-prediction.json</code> ·
         <code>web/public/data/assumptions.json</code>（+ 已套用狀態：<code>assumptions-build.json</code>）·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_triple_lookup.py"><code>03_triple_lookup.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
+        <code>03_triple_lookup.py</code> (since removed) ·
         重播／反事實 harness（若採用可晉級至 <code>scripts/</code>）。來源任務輸出：
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
         <p><strong>型別化邊與藥物重定位方法</strong>：

@@ -50,7 +50,7 @@
       <p><strong>資料來源：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code>（合併，逐邊標記來源層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code>（wiki 層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/node_roles.json" target="_blank">web/public/data/node_roles.json</a></code>（角色）</p>
       <p><strong>來源文件：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank">src/tasks/node_network_caspase_28_AUG_2026/</a></code>——含完整原始指標輸出</p>
       <p><strong>原始資料：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank">raw_caspases_combined_graph.txt</a></code>（合併聯集的完整多指標運行）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank">raw_caspases_wiki_graph_node.txt</a></code>（同一流程，wiki 層）、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank">raw_caspases_wiki_graph_link_prediction.txt</a></code>（wiki 層 Adamic-Adar 掃描）</p>
-      <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/04_node_analysis.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">04_link_prediction.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">04_role_query.py</a></code></p>
+      <p><strong>程式碼：</strong><code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">scripts/analysis/link_prediction.py</a></code>、<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">scripts/analysis/role_query.py</a></code></p>
       <p><strong>方法基礎：</strong><a href="node-analysis-examples-biology.html">用於生物學優先排序的節點層級網絡分析</a></p>
       <p><strong>其他語言：</strong><a href="../en-US/caspase-graph-analysis-28-AUG-2026.html">English</a></p>
     </div>
@@ -255,7 +255,7 @@
       <p class="sec-label">網絡分析</p>
       <h2>中心性、k-core 巢套與生物學角色</h2>
       <p>
-        角色類別來自知識庫的逐節點分類器（<code>scripts/_node_roles_lib.py</code>）；角色是在 triples 層
+        角色類別來自知識庫的逐節點分類器（<code>scripts/lib/node_roles.py</code>）；角色是在 triples 層
         計算的，因此角色的<em>類別</em>（而非量級）才是訊號。出處說明：合併資料集<em>內建</em>的
         degree/PageRank/k-core 欄位承載 triples 層的數值（合併時優先 triples 後設資料），因此此處的度數
         欄是真正的合併聯集，而 PageRank/k-core 是分層產物——原始輸出中的聯集重算確認了同樣的排序：
@@ -355,7 +355,7 @@
       <h2>預測的缺失連結（連結預測）</h2>
       <p>
         對非相鄰節點對計算 Adamic-Adar，來自互補的視角：正典產物
-        （<code>04_link_prediction.py</code> → <code>web/public/data/link-prediction.json</code>，triples
+        （<code>scripts/analysis/link_prediction.py</code> → <code>web/public/data/link-prediction.json</code>，triples
         層的全球前 150 對）、wiki 層掃描，以及<strong>主要的合併圖掃描</strong>（完整逐 caspase 清單見原始
         輸出）。以下回報合併聯集分數；它們吸收了 wiki 層的數字（例如 wiki 掃描的
         CASP-3→Senescence 0.54 在聯集上成為 0.52（12），CASP-1→SASP 0.69（13）不變）。完整合併運行還補上了
@@ -551,7 +551,7 @@
       </p>
       <div class="copy-host"><pre><code># 多指標 來源×標的 分析（路徑、Jaccard、Adamic-Adar、k-core、
 # 光譜、有效電阻、PPR）——合併聯集 + wiki 層
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --graph &lt;序列化為 graph.json schema 的合併聯集&gt; \
   --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
             caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
@@ -560,8 +560,8 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
             gasdermin_d apoptosome xiap
 
 # 正典連結預測產物 + 角色類別
-uv run --with networkx python3 scripts/04_link_prediction.py
-uv run python3 scripts/04_role_query.py --node "Caspase-3"</code></pre></div>
+uv run --with networkx python3 scripts/analysis/link_prediction.py
+uv run python3 scripts/analysis/role_query.py --node "Caspase-3"</code></pre></div>
       <p>
         光譜參數：合併巨型連通分量 <strong>λ₂ = 0.188</strong>（4,084 節點 / 3,839 巨型分量節點 / 31,719
         邊）；wiki 層巨型連通分量 λ₂ = 0.802；PPR 阻尼 α = 0.85；有效電阻虛無樣本 n = 300。原始指標輸出位於

@@ -50,7 +50,7 @@
       <p><strong>Data Sources:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/nodes.json" target="_blank">web/data/nodes.json</a></code> + <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/data/edges.json" target="_blank">edges.json</a></code> (combined, per-edge source tags), <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json" target="_blank">wiki-out/wiki-graph.json</a></code> (wiki layer), <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/node_roles.json" target="_blank">web/public/data/node_roles.json</a></code> (roles)</p>
       <p><strong>Source Document:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank">src/tasks/node_network_caspase_28_AUG_2026/</a></code> — with full raw metric runs</p>
       <p><strong>Raw Data:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank">raw_caspases_combined_graph.txt</a></code> (full multi-metric run, combined union), <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank">raw_caspases_wiki_graph_node.txt</a></code> (same pipeline, wiki layer), <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank">raw_caspases_wiki_graph_link_prediction.txt</a></code> (wiki Adamic-Adar sweep)</p>
-      <p><strong>Code:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/04_node_analysis.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">04_link_prediction.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">04_role_query.py</a></code></p>
+      <p><strong>Code:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">scripts/analysis/node_analysis.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">scripts/analysis/link_prediction.py</a></code>, <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">scripts/analysis/role_query.py</a></code></p>
       <p><strong>Methods basis:</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Knowledge Graphs</a></p>
     </div>
   </div>
@@ -273,7 +273,7 @@
       <p class="sec-label">Centrality</p>
       <h2>Centrality, k-core nesting, and biological roles</h2>
       <p>
-        Role classes come from the vault's per-node classifier (<code>scripts/_node_roles_lib.py</code>);
+        Role classes come from the vault's per-node classifier (<code>scripts/lib/node_roles.py</code>);
         roles are computed on the triples layer, so role <em>classes</em> (not magnitudes) are the
         signal. Note on provenance: the combined dataset's <em>stored</em> degree/PageRank/k-core fields
         carry the triples layer's values (the merge prefers triples metadata), so the degree column here
@@ -382,7 +382,7 @@
       <h2>Predicted missing connections (link prediction)</h2>
       <p>
         Adamic-Adar over non-adjacent pairs, from complementary views: the canonical artifact
-        (<code>04_link_prediction.py</code> → <code>web/public/data/link-prediction.json</code>, top-150
+        (<code>scripts/analysis/link_prediction.py</code> → <code>web/public/data/link-prediction.json</code>, top-150
         global pairs over the triples layer), the wiki-layer sweep, and the
         <strong>primary combined-graph sweep</strong> (full per-caspase lists in the raw run).
         Combined-union scores are reported below; they absorb the wiki-layer figures (e.g. the wiki
@@ -592,7 +592,7 @@
       </p>
       <div class="copy-host"><pre><code># Multi-metric source×target analysis (paths, Jaccard, Adamic-Adar, k-core,
 # spectral, effective-resistance, PPR) — combined union + wiki layer
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --graph &lt;combined union serialized to graph.json schema&gt; \
   --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
             caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
@@ -601,8 +601,8 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
             gasdermin_d apoptosome xiap
 
 # Canonical link-prediction artifact + role classes
-uv run --with networkx python3 scripts/04_link_prediction.py
-uv run python3 scripts/04_role_query.py --node "Caspase-3"</code></pre></div>
+uv run --with networkx python3 scripts/analysis/link_prediction.py
+uv run python3 scripts/analysis/role_query.py --node "Caspase-3"</code></pre></div>
       <p>
         Spectral parameters: combined giant component <strong>λ₂ = 0.188</strong> (4,084 nodes / 3,839
         giant-component nodes / 31,719 edges); wiki-layer giant component λ₂ = 0.802; PPR damping

@@ -54,7 +54,7 @@
     <div class="meta">
       <p><strong>Date:</strong> 30 August 2026</p>
       <p><strong>Data sources:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> (triples: typed, directed, confidence-scored) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/wiki-graph.json"><code>wiki-out/wiki-graph.json</code></a> (wiki: co-mention <code>links_to</code>) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined: 37,318 edges = 3,895 typed-directed + 33,423 co-mention)</p>
-      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
+      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
       <p><strong>Audience:</strong> biologists and data analysts. Informational — not medical advice.</p>
     </div>
   </div>
@@ -593,7 +593,7 @@
         This is the metapath idea behind Hetionet's DWPC features and ROBOKOP's template queries: <strong>relation-typed
         paths, not undirected similarity, are the feature engine of drug repurposing.</strong> Adamic-Adar (undirected,
         untyped) cannot express "inhibits-an-activator-of"; typed path enumeration can — a missing pass in the current
-        <code>04_link_prediction.py</code>.
+        <code>scripts/analysis/link_prediction.py</code>.
       </p>
 
       <h3>4.3 · Direction separates levers from consequences</h3>
@@ -617,7 +617,7 @@
         prediction (<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>)
         transplanted to biology, and it is a natural generator of <strong>Assumptions-Lab conflicts</strong>: when a
         curated stance resolves a conflict, the correction is <em>materialized into the graph itself</em> (via
-        <code>07_sync_assumptions.py</code> → <code>03_rebuild_from_triples.py</code>), and every downstream metric —
+        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code>), and every downstream metric —
         including the replay metrics above — recomputes against the corrected topology.
       </p>
 
@@ -780,10 +780,10 @@
         <li><strong>Mine signed triads</strong> for Assumptions-Lab conflicts (enemy-of-enemy and double-positive
         triangles); register in <code>assumptions.json</code> and resolve stances — resolved conflicts are materialized
         into the graph (selections → directional edge adds/removals; <code>excludedSources</code> for noisy documents).
-        Run order for any triples/assumption change: <code>03_normalize_triples_schema.py</code> →
-        <code>07_sync_assumptions.py</code> → <code>03_rebuild_from_triples.py</code> →
-        <code>05_build_combined.py</code> / <code>05_rebuild_from_wiki.py</code> → <code>07_sync_to_db.py</code> +
-        <code>07_sync_content.py</code>.</li>
+        Run order for any triples/assumption change: <code>scripts/triples/normalize.py</code> →
+        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code> →
+        <code>scripts/combined/build.py</code> / <code>scripts/wiki/rebuild.py</code> → <code>scripts/sync/graph_to_db.py</code> +
+        <code>scripts/sync/content_to_db.py</code>.</li>
         <li><strong>Track betweenness/k-core trajectory per entity across rebuilds</strong> (extend
         <code>graph-diff.json</code>) — the maturation signal that flagged ferroptosis-2020.</li>
         <li><strong>Close the literature-vs-graph gaps the runs exposed:</strong> direct SARS-CoV-2↔CD38/NAD+/PARP
@@ -803,9 +803,9 @@
         <p><strong>Repo artifacts &amp; tools</strong>: <code>graphify-out/graph.json</code> · <code>wiki-out/wiki-graph.json</code> ·
         <code>web/public/data/edges.json</code> (combined; 3,895 typed edges) · <code>web/public/data/link-prediction.json</code> ·
         <code>web/public/data/assumptions.json</code> (+ applied state: <code>assumptions-build.json</code>) ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>04_node_analysis.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>04_role_query.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/03_triple_lookup.py"><code>03_triple_lookup.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
+        <code>03_triple_lookup.py</code> (since removed) ·
         replay/counterfactual harnesses (promote to <code>scripts/</code> if adopted). Source task output:
         <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
         <p><strong>Typed-edge &amp; repurposing methods</strong>:
