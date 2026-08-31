@@ -1214,6 +1214,13 @@ body {
   color: var(--gold-soft);
 }
 
+/* Programmatic focus on open + global :focus-visible ring paints a double
+   (red + blue) circle — suppress it for this transient overlay control. */
+.lb-close:focus,
+.lb-close:focus-visible {
+  outline: none;
+}
+
 .lb-cap {
   color: var(--sheet);
   font-family: var(--sans);
