@@ -217,7 +217,7 @@
     },
     {
         "id": "assumptions-lab",
-        "active": true,
+        "active": false,
         "langs": {
             "en-US": {
                 "title": "[WIP] Assumptions Lab — A/B Scenario Analysis over Graph Conflicts",
