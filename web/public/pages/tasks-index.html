@@ -204,7 +204,7 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
      frontmatter-derived flags stay as the offline fallback; a DB value wins
      whenever the API is reachable.
      NOTE: overlay currently OFF — static flags only. Flip to true (and run
-     deploy/supabase/content_flags.sql + scripts/07_sync_content.py
+     deploy/supabase/content_flags.sql + scripts/sync/content_to_db.py
      --backfill-stars) to re-enable the DB overlay. */
   const FLAGS_OVERLAY_ENABLED = false;
   const FLAGS_API = (window.LLM_WIKI_API_BASE || 'https://api.johnnykuo.com/v1')

@@ -121,7 +121,7 @@ def generate_community_colors(legend: list[dict]) -> dict[int, str]:
 
 
 # ----------------------------------------------------------------------
-# Metric enrichment (mirrors 03_rebuild enrich_graph_metrics)
+# Metric enrichment (mirrors the triples rebuild's enrich_graph_metrics)
 # ----------------------------------------------------------------------
 
 def enrich_graph_metrics(
@@ -223,7 +223,7 @@ def inject_graph_metadata(path: Path, metadata: dict) -> None:
 
 # ----------------------------------------------------------------------
 # Standalone role artifact (mirrors the role-baking section of
-# 03_rebuild export_three_json, but writes only node_roles.json to an
+# triples-rebuild export_three_json, but writes only node_roles.json to an
 # arbitrary path so the wiki graph can live outside web/public/data/).
 # ----------------------------------------------------------------------
 
@@ -312,7 +312,7 @@ def export_roles_json(
 
 
 # ----------------------------------------------------------------------
-# Wiki web-data export (mirrors 03_rebuild export_three_json, but writes
+# Wiki web-data export (mirrors the triples rebuild's export_three_json, but writes
 # wiki-prefixed files into web/public/data/ so the deployed three-graph viewer can
 # show the wiki graph as an alternative / combined dataset).
 # ----------------------------------------------------------------------
@@ -434,7 +434,7 @@ def write_web_version(web_data_dir: Path) -> None:
     """Recompute web/public/data/version.json content hash over all data files.
 
     Adding wiki-*.json files changes the hash so browsers re-fetch the new
-    artifacts. Mirrors the cache-busting purpose of 03_rebuild's version file
+    artifacts. Mirrors the cache-busting purpose of the triples rebuild's version file
     without re-running the full triples rebuild."""
     import hashlib
 

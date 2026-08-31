@@ -86,8 +86,8 @@ When updating an existing `_triples.json`, do not duplicate identical triples (s
 - Keep the **existing `id` and `created`**, bump **`updated`** with the newer content.
 - Different context → keep the updated triple's context (both languages) as the canonical entry; retain any alternates as supplementary text if still valued.
 - Different confidence → keep the higher confidence level.
-- At graph-build time, `03_rebuild_from_triples.py` resolves cross-file edge collisions as **most-recent `updated` wins** (tie-break higher confidence, then first-seen). The schema normalizer enforces unique `id` within each file and drops later duplicates.
+- At graph-build time, `scripts/triples/rebuild.py` resolves cross-file edge collisions as **most-recent `updated` wins** (tie-break higher confidence, then first-seen). The schema normalizer enforces unique `id` within each file and drops later duplicates.
 
 ## Normalization
 
-Run `scripts/03_normalize_triples_schema.py` (idempotent) after any triples edit — it fills `id`/`created`/`updated`, upgrades a legacy string `context` to the `en-US`/`zh-TW` map, validates the schema, and reports missing `zh-TW` coverage.
+Run `python3 -m scripts.triples.normalize` (idempotent) after any triples edit — it fills `id`/`created`/`updated`, upgrades a legacy string `context` to the `en-US`/`zh-TW` map, validates the schema, and reports missing `zh-TW` coverage.

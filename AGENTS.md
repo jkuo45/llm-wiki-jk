@@ -14,7 +14,7 @@ viewer, a prompt backend, and graph-build tooling.
 | `src/tasks/`       | Task/analysis outputs. Default save location for task outputs.                                                                        |
 | `src/images/`      | Ingested images per `image-ingest` skill; `manifest.json` is the source of truth.                                                     |
 | `raw/`             | Unprocessed documents awaiting the Document Ingestion Workflow (§5).                                                                  |
-| `scripts/`         | Numbered pipeline: `00_` README counts, `03_` triples graph, `04_` analyses, `05_` wiki/combined graphs, `99_` utilities.             |
+| `scripts/`         | Domain-packaged pipeline: `lib/` shared helpers, `triples/` + `wiki/` + `combined/` graph builds, `analysis/`, `sync/` (Supabase), `vault/`, `tools/`. Run via `python -m scripts <command>` (see §8 and `scripts/README.md`). |
 | `graphify-out/`    | Triples-graph artifacts (`graph.json`, `GRAPH_REPORT.md`, `graph.html`).                                                              |
 | `wiki-out/`        | Wiki-graph artifacts (`wiki-graph.json`, diff/orphan/link-prediction reports).                                                        |
 | `web/`             | Vite + Three.js graph site. Static data in `web/public/data/`; built with `npm run build`, deployed with `npm run deploy` (wrangler). |
@@ -212,41 +212,41 @@ Regenerating web data (all keyed by `norm(label)`):
 
 ```bash
 # Triples graph + triples-* web files (graphify-out/, web/public/data/)
-uv run --with graphifyy --with networkx --with scipy python3 scripts/03_rebuild_from_triples.py
+uv run --with graphifyy --with networkx --with scipy python3 -m scripts rebuild-triples
 
 # Wiki graph from [[wikilinks]] (wiki-out/) — auto-runs the combined build
-uv run --with graphifyy --with networkx --with scipy python3 scripts/05_rebuild_from_wiki.py
+uv run --with graphifyy --with networkx --with scipy python3 -m scripts rebuild-wiki
 
 # Combined default dataset + diff report (wiki-out/graph-diff.json, GRAPH_DIFF.md)
-uv run --with networkx python3 scripts/05_build_combined.py
+uv run --with networkx python3 -m scripts build-combined
 
 # Analyses (work on any graph schema-compatible file via --graph)
-uv run --with networkx python3 scripts/04_node_analysis.py --graph wiki-out/wiki-graph.json --sources sirt1 --targets mtorc1
-uv run --with networkx python3 scripts/04_link_prediction.py --graph graphify-out/graph.json
-uv run python3 scripts/04_role_query.py --roles-file web/public/data/node_roles.json --role Spreader --top 10
+uv run --with networkx python3 -m scripts analyze-nodes --graph wiki-out/wiki-graph.json --sources sirt1 --targets mtorc1
+uv run --with networkx python3 -m scripts predict-links --graph graphify-out/graph.json
+uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.json --role Spreader --top 10
 
 # Mirror base layer into Supabase (topics/entities/edges/metrics/predictions;
 # incremental on version.json hash — needs SUPABASE_URL + SUPABASE_SERVICE_KEY
 # in env or repo .env, which is git-ignored). Run after any graph rebuild.
-uv run --no-build --with supabase --with pyyaml --with networkx python3 scripts/07_sync_to_db.py
+uv run --no-build --with supabase --with pyyaml --with networkx python3 -m scripts sync-graph
 
 # Mirror the CONTENT layer into Supabase (content_registry: articles/tasks/
-# image notes/documents; wiki notes live in `entities` from 07). Flags:
+# image notes/documents; wiki notes live in `entities` from sync-graph). Flags:
 #   --backfill-stars  seed content_flags from legacy starred frontmatter/manifest
 #   --prune           drop registry rows whose content is gone
 #   --dry-run         counts only
 # content_flags is the runtime source of truth for curation flags (starred /
 # active) via api/flags.py + the SPA admin panel; frontmatter/static flags
 # remain offline fallbacks.
-uv run --no-build --with supabase --with pyyaml python3 scripts/07_sync_content.py
+uv run --no-build --with supabase --with pyyaml python3 -m scripts sync-content
 
 # GitHub repo / branch for generated links: read from repo .env
 # (GITHUB_REPO_URL, GITHUB_BRANCH) > default (https://github.com/jkuo45/llm-wiki-jk, dev).
-uv run python3 scripts/00_readme_update_counts.py
+uv run python3 -m scripts readme-counts
 
 # Offline API test suite (tests/; no Supabase or opencode server needed)
 # (--with graphifyy: scripts/ rebuild modules import graphify at module level)
-# (--with pyyaml: scripts/07_sync_to_db.py parses frontmatter with PyYAML)
+# (--with pyyaml: scripts/sync/graph_to_db.py parses frontmatter with PyYAML)
 uv run --no-build --with pytest --with pytest-asyncio --with fastapi --with httpx \
   --with networkx --with numpy --with scipy --with pydantic --with python-multipart \
   --with pillow --with graphifyy --with pyyaml python3 -m pytest tests/ -q
@@ -260,7 +260,10 @@ Notes:
   `graphify-out/graph.json` directly.
 - Analyses/tasks written before the wiki graph existed were computed on the
   **triples** graph; state the graph (mode) explicitly when running new analyses.
-- README counts/tables: `scripts/00_readme_update_counts.py`.
+- README counts/tables: `python -m scripts readme-counts`.
+- New scripts go in a domain subpackage with a `python -m scripts` command
+  registered in `scripts/cli.py`; the full pipeline map lives in
+  `scripts/README.md`.
 - Frontend build-time env (repo-root `.env`, inlined by Vite): `VITE_API_BASE`,
   `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and the GitHub base vars
   `VITE_GITHUB_BASE` (repo blob links) / `VITE_GITHUB_NOTES_IMAGE_BASE`

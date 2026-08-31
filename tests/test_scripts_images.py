@@ -1,4 +1,4 @@
-"""Tests for scripts/tools/thumbnail.py and 99_sort_manifest_tags_relevance.py."""
+"""Tests for scripts/tools/thumbnail.py and scripts/tools/sort_manifest_tags.py."""
 
 import json
 

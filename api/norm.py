@@ -1,4 +1,4 @@
-"""Canonical entity id normalization — mirrors scripts/_graph_common.py::norm().
+"""Canonical entity id normalization — mirrors scripts/lib/graph_common.py::norm().
 
 The base layer (entities/entity_edges) keys every row by norm(label), so the
 API uses the same function to link user-supplied names (e.g. from an approved

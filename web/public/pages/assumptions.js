@@ -2,8 +2,8 @@
 // Assumptions Lab — shared engine for the en-US and zh-TW shells.
 //
 // Conflicts/decision points are curated in web/public/data/assumptions.json
-// (validated at build time by scripts/03_rebuild_from_triples.py; curation aid
-// scripts/03_triple_lookup.py maps a review report's triple ids to edge keys).
+// (validated at build time by scripts/triples/rebuild.py; curation aid
+// scripts/03_triple_lookup.py mapped a review report's triple ids to edge keys).
 // Picking a stance per conflict derives a modified edge set from
 // web/public/data/triples-edges.json; graph analyses (degree/PageRank deltas,
 // shortest-path recomputation, impact diff) re-run client-side and compare
@@ -179,7 +179,7 @@ function pageRank(edges, nodes, damping = 0.85, maxIter = 60, tol = 1e-10) {
 
 // Shortest path (Dijkstra) over the given edge list. weight = 1 - confidence
 // (+ tiny hop bias so equal-cost routes prefer fewer hops). Undirected matches
-// the scripts/04_node_analysis convention; directed restricts to from→to.
+// the scripts/analysis/node_analysis convention; directed restricts to from→to.
 function shortestPath(edges, src, tgt, directed = false) {
   const adj = new Map();
   const push = (a, e) => {

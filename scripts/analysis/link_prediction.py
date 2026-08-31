@@ -18,7 +18,7 @@ Computed sections:
 
 Determinism: candidates are ordered by (-score, a, b) and PPR lists by
 (-score, id), so identical topology produces byte-stable output. The build
-(03_rebuild_from_triples.py) runs this script before hashing web/public/data/*.json,
+(scripts/triples/rebuild.py) runs this script before hashing web/public/data/*.json,
 so the artifact participates in the version cache tag without churning it.
 
 Run:
@@ -263,7 +263,7 @@ def spectral_resistance(
 
 
 # ------------------------------------------------------------------
-# Validation (mirrors 04_role_query.py's drift-adaptive philosophy)
+# Validation (mirrors scripts/analysis/role_query.py's drift-adaptive philosophy)
 # ------------------------------------------------------------------
 def validate(doc: dict, G: nx.Graph) -> list[str]:
     """Recompute checks against the artifact; no hardcoded expectations.
