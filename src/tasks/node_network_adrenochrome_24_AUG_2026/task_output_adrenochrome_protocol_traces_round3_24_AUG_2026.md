@@ -12,9 +12,9 @@ tags:
 
 # Task Output - Adrenochrome Protocol Network Traces, Round 3 (triples remediation) - 24 August 2026
 
-**Scope:** Round-2 follow-up tickets (a)–(e) plus a 6th NF-κB-adjudication item, implemented **only** in `src/**/_triples.json`. No manual graph.json edits. Rebuild is triggered by the Graphify plugin (not reproducible from bash here, since `graphify` is an opencode plugin and `scripts/03_rebuild_from_triples.py` imports a module not installed in this env).
+**Scope:** Round-2 follow-up tickets (a)–(e) plus a 6th NF-κB-adjudication item, implemented **only** in `src/**/_triples.json`. No manual graph.json edits. Rebuild is triggered by the Graphify plugin (not reproducible from bash here, since `graphify` is an opencode plugin and `scripts/triples/rebuild.py` imports a module not installed in this env).
 
-**Verification method:** emulated Graphify's node normalization (`norm(label) = lower, non-alnum → '_'`), rebuilt node/edge sets from all 11 `_triples.json` files, and confirmed each Round-2 defect is resolved. `scripts/03_normalize_triples_schema.py` runs clean (4084 triples, 0 validation problems, 0 dup ids).
+**Verification method:** emulated Graphify's node normalization (`norm(label) = lower, non-alnum → '_'`), rebuilt node/edge sets from all 11 `_triples.json` files, and confirmed each Round-2 defect is resolved. `scripts/triples/normalize.py` runs clean (4084 triples, 0 validation problems, 0 dup ids).
 
 ## What changed (by ticket)
 
@@ -56,7 +56,7 @@ tags:
 | NF-κB direction | single AMBIGUOUS edge carries 7/8 NR paths | contested edge flagged (0.5) + canonical `Oxidative Stress → NF-κB` added |
 | NF-κB fragments | 6 bare variants | merged to canonical `nf_b` (degree 64) |
 
-**Recommended re-trace for the next build:** `scripts/04_node_analysis.py --sources nicotinamide_riboside nicotinamide_mononucleotide n_acetylcysteine glynac methylene_blue carbazochrome --targets adrenochrome`, followed by the confidence-weighted PPR re-rank (F) to confirm the top tier (AG #4 / MB #8) stays stable and that NR's multi-path count no longer rides the contested NF-κB edge.
+**Recommended re-trace for the next build:** `scripts/analysis/node_analysis.py --sources nicotinamide_riboside nicotinamide_mononucleotide n_acetylcysteine glynac methylene_blue carbazochrome --targets adrenochrome`, followed by the confidence-weighted PPR re-rank (F) to confirm the top tier (AG #4 / MB #8) stays stable and that NR's multi-path count no longer rides the contested NF-κB edge.
 
 ## Residual gaps / recommendations (not changed here)
 

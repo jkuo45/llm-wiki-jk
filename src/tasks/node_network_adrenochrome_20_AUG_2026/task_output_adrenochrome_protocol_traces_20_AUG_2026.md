@@ -14,17 +14,17 @@ tags:
 # Task Output - Adrenochrome Protocol Network Traces (MB + AG + stack) - 20 August 2026
 
 **Graph build:** `graphify-out/graph.json` — 2,596 nodes / 3,737 edges (giant component 2,110 / 3,295), metrics computed 2026-08-20 18:21:44 (build `867a5ae5fdb8a46c`)
-**Tooling:** `scripts/04_node_analysis.py` (RANDOM_SEED=1 convention)
+**Tooling:** `scripts/analysis/node_analysis.py` (RANDOM_SEED=1 convention)
 **Purpose:** Extend the 20 Aug four-node quartet study (adrenochrome ↔ mitohormesis/autophagy/sirtuins) to the full **adrenochrome protocol**: methylene blue (MB), aminoguanidine (AG), and the supporting stack (carbazochrome, ascorbic acid, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol). Feeds the living web page `web/pages/en-US/adrenochrome-protocol-node-network-analysis.html`.
 
 ## Run log
 
 | Log | Command |
 | --- | --- |
-| `run_log_A_sources_mb_ag_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources methylene_blue aminoguanidine --targets adrenochrome` |
-| `run_log_B_sources_adrenochrome_targets_mb_ag.txt` | `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources adrenochrome --targets methylene_blue aminoguanidine` |
-| `run_log_C_sources_arms_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources mitohormesis autophagy sirtuins --targets adrenochrome` |
-| `run_log_D_sources_protocol_stack_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid --targets adrenochrome` |
+| `run_log_A_sources_mb_ag_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources methylene_blue aminoguanidine --targets adrenochrome` |
+| `run_log_B_sources_adrenochrome_targets_mb_ag.txt` | `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources adrenochrome --targets methylene_blue aminoguanidine` |
+| `run_log_C_sources_arms_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources mitohormesis autophagy sirtuins --targets adrenochrome` |
+| `run_log_D_sources_protocol_stack_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid --targets adrenochrome` |
 
 ## Headline findings
 

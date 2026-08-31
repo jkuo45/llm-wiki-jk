@@ -14,11 +14,11 @@ tags:
 # 研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins
 
 > [!NOTE]
-> **任務**：在當前知識圖譜上設計一項聚焦於四個節點——[[Adrenochrome]]、[[Mitohormesis]]、[[Autophagy]]、[[Sirtuins]]——的研究，使用 `web/pages/en-US/node-analysis-examples-biology.html` 中記錄、並由 `scripts/04_node_analysis.py` 實作的指標指紋與關係感知方法。以下所有基準指標均已針對即時圖譜**計算完成**；研究設計將其轉化為可證偽的假說、一項計算內擾動實驗、驗證臂，以及一項修復佇列。
+> **任務**：在當前知識圖譜上設計一項聚焦於四個節點——[[Adrenochrome]]、[[Mitohormesis]]、[[Autophagy]]、[[Sirtuins]]——的研究，使用 `web/pages/en-US/node-analysis-examples-biology.html` 中記錄、並由 `scripts/analysis/node_analysis.py` 實作的指標指紋與關係感知方法。以下所有基準指標均已針對即時圖譜**計算完成**；研究設計將其轉化為可證偽的假說、一項計算內擾動實驗、驗證臂，以及一項修復佇列。
 > **日期**：2026 年 8 月 20 日 07:43 PM PDT
 > **圖譜**：`graphify-out/graph.json` — 建構 `867a5ae5fdb8a46c`（指標計算於 2026-08-20 18:21:44）· 2,596 個節點 / 3,737 條邊 · 巨連通分量 2,110 個節點 / 3,295 條邊
 > **方法基礎**：每節點指紋（`degree`、`in/out_degree`、`pagerank`、`betweenness_centrality`、`clustering_coefficient`、`k_core_number`、`community_*`）+ 關係感知電池（最短路徑倍數、Jaccard、Adamic–Adar、k-core、Fiedler/eigh、有效電阻、Personalized PageRank）
-> **執行**：2 次正典 `04_node_analysis.py` 執行（雙向）+ 3 次補充計算（綜合分數、組態模型虛無值、橋接擾動掃描）。完整指令見 §12 可重現性。
+> **執行**：2 次正典 `scripts/analysis/node_analysis.py` 執行（雙向）+ 3 次補充計算（綜合分數、組態模型虛無值、橋接擾動掃描）。完整指令見 §12 可重現性。
 
 ---
 
@@ -66,7 +66,7 @@ tags:
 - **Mitohormesis** 是近乎純粹的來源（入 7／出 27）：介入（Exercise、Caloric Restriction、Metformin、AMPK、NRF2）流入，適應性輸出（ISR、ATF4、GDF15、FGF21、Mitochondrial Biogenesis、Longevity）流出。
 - **Sirtuins** 最為平衡（入 11／出 13）——一個家族層級的中樞，收集 NAD+/抑制劑邊並廣播功能性註釋。
 
-### 3.2 成對關係感知結果（`scripts/04_node_analysis.py`，雙向）
+### 3.2 成對關係感知結果（`scripts/analysis/node_analysis.py`，雙向）
 
 | 指標 | Mitohormesis–Adrenochrome | Autophagy–Adrenochrome | Sirtuins–Adrenochrome |
 | :--- | :--- | :--- | :--- |
@@ -213,10 +213,10 @@ Arm A 與 B 短、高置信度且機制直接。Arm C 較長，穿過圖譜中�
 | 階段 | 工作 | 工具 | 輸出 |
 | :--- | :--- | :--- | :--- |
 | **0a. 方向審計** | 以儲存邊方向重新表述每條研究引用的路徑；在行文中修正 Arm C 反轉並將三元組標記供策展者審查（AMBIGUOUS，0.6） | 手動 + `graph.json` 連結檢視 | 修正後的路徑表（已於 §4.2 完成） |
-| **0b. 實體解析** | 將 NF-κB 變體（§4.3 列出 ≥ 7 個節點）合併為正典 `NF-κB`；審計類似碎片（例如 ROS 對 Reactive Oxygen Species 對 Mitochondrial ROS） | 擴充 `03_normalize_triples_schema.py` / 重建管線 | 重建後圖譜；重跑 §3.2 電池；量化 ΔH3 |
-| **1. 加權重分析** | 將 `weight="weight"` 傳入 PageRank（強度），並將反向置信度 `1/confidence` 作為 `distance` 傳入介數／有效電阻（簡報中記錄的既有開放限制） | 修改 `04_node_analysis.py` 旗標 | 加權對未加權比較表 |
+| **0b. 實體解析** | 將 NF-κB 變體（§4.3 列出 ≥ 7 個節點）合併為正典 `NF-κB`；審計類似碎片（例如 ROS 對 Reactive Oxygen Species 對 Mitochondrial ROS） | 擴充 `scripts/triples/normalize.py` / 重建管線 | 重建後圖譜；重跑 §3.2 電池；量化 ΔH3 |
+| **1. 加權重分析** | 將 `weight="weight"` 傳入 PageRank（強度），並將反向置信度 `1/confidence` 作為 `distance` 傳入介數／有效電阻（簡報中記錄的既有開放限制） | 修改 `scripts/analysis/node_analysis.py` 旗標 | 加權對未加權比較表 |
 | **2. 完整虛無包絡** | 將組態模型 z 分數（30 → 100–1,000 次抽樣）擴展至聚類與 PageRank，而非僅介數 | 補充腳本（已種子、版本化） | 四個節點的虛無包絡表 |
-| **3. 正式 PPR 交集** | 來自全部四個種子的置信度加權 PPR；交集 top-K（K ∈ {25, 40, 100}）；報告跨 K 的穩定性 | `04_node_analysis.py` + 包裝器 | 帶穩健性註記的反覆效應物清單 |
+| **3. 正式 PPR 交集** | 來自全部四個種子的置信度加權 PPR；交集 top-K（K ∈ {25, 40, 100}）；報告跨 K 的穩定性 | `scripts/analysis/node_analysis.py` + 包裝器 | 帶穩健性註記的反覆效應物清單 |
 | **4. 文獻裁決** | 將六條橋接三元組（§4.1）加上 AMPK 共享鄰域宣稱對照原典來源；依 AGENTS.md 記錄 PMID/DOI | 手動審查佇列 | 確認／修正／刪除裁決；三元組回寫 |
 | **5. 經驗映射** | 將每個臂綁定至可測量生物標記（§5 表）；依擾動幅度（耦合 −20% 至 −33%）指定方向與量級預期 | 知識庫筆記 + 外部文獻 | 預先註冊的預測文件 |
 
@@ -277,9 +277,9 @@ Arm A 與 B 短、高置信度且機制直接。Arm C 較長，穿過圖譜中�
 
 ```bash
 # 正典關係感知電池（雙向）
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources mitohormesis autophagy sirtuins --targets adrenochrome
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources adrenochrome --targets mitohormesis autophagy sirtuins
 
 # 補充計算（本文件）：
@@ -288,7 +288,7 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 #   - 組態模型介數虛無值（30 次抽樣，種子 2..31）
 #   - 橋接邊／節點移除掃描（含置信度加權 PPR）
 # 實作為針對 graphify-out/graph.json 的內聯腳本，
-# 採用與 scripts/04_node_analysis.py 一致的 RANDOM_SEED=1 慣例。
+# 採用與 scripts/analysis/node_analysis.py 一致的 RANDOM_SEED=1 慣例。
 # 原始輸出封存為 src/task_output/ 中的 run_log_A..D。
 ```
 
@@ -297,8 +297,8 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 ## 參考文獻
 
 1. 知識庫方法簡報，2026 年 8 月 16 日。*Node-level network analysis for biological prioritization.* `web/pages/en-US/node-analysis-examples-biology.html`。
-2. 多節點分析工具。`scripts/04_node_analysis.py` — 巨連通分量限制、路徑倍數、Jaccard、Adamic–Adar、稠密 `eigh` Fiedler、有效電阻、置信度加權 PPR。
-3. 重建管線。`scripts/03_rebuild_from_triples.py` — `DENYLIST`、`enrich_graph_metrics()`、Leiden 社群、角色標籤 → `web/data/node_roles.json`。
+2. 多節點分析工具。`scripts/analysis/node_analysis.py` — 巨連通分量限制、路徑倍數、Jaccard、Adamic–Adar、稠密 `eigh` Fiedler、有效電阻、置信度加權 PPR。
+3. 重建管線。`scripts/triples/rebuild.py` — `DENYLIST`、`enrich_graph_metrics()`、Leiden 社群、角色標籤 → `web/data/node_roles.json`。
 4. Jeong H, et al. Lethality and centrality in protein networks. *Nature* 2001;411:41–42.
 5. Yu H, et al. The importance of bottlenecks in protein networks. *PLoS Comput Biol* 2007;3:e59.
 6. Wuchty S, Almaas E. Peeling the yeast protein network. *Proteomics* 2005;5:444–449.

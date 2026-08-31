@@ -3,7 +3,7 @@ title: 圖譜指標（wiki + triples）— 合併圖
 description: 合併（triples + wiki）知識圖譜的指標分析——在聯集拓撲（4,084 節點 / 36,982 邊）上重新計算中心性、角色分布、相對 triples 圖的連通性對比（連通分量 223→123、k-core 6→20、巨型分量 82%→94%）、wiki 獨有核心節點的整合（cGAS、STING、Phosphorylation…）、p53/TP53 合併，以及獲得 wiki 加成的共享中樞——並附帶以下注意事項：儲存的合併指標指紋沿用了各來源圖的數值。勘誤說明——wiki 先前曾將單一的 p53/TP53 實體拆成兩個節點（p53 蛋白 + TP53 基因）；現已合併為 p53，成為共享的聯集核心節點。
 created: 2026-08-27
 updated: 2026-08-27
-source: web/data/nodes.json + edges.json (combined, scripts/05_build_combined.py) + graphify-out/graph.json (triples)
+source: web/data/nodes.json + edges.json (combined, scripts/combined/build.py) + graphify-out/graph.json (triples)
 tags:
   - task-output
   - knowledge-graph
@@ -21,7 +21,7 @@ author: []
 > [!NOTE]
 > **任務**：對**合併圖**（triples + Obsidian-wiki 連結）執行與產出 `web/pages/en-US/node-analysis-examples-biology.html`（triples 圖參考頁）相同的每節點指標分析，在實際的聯集拓撲上重新計算中心性指紋，並凸顯合併圖特有的發現。
 > **日期**：27_Aug_2026 06:15 PM PDT
-> **範圍**：`web/data/nodes.json` + `web/data/edges.json`（標準合併資料集，由 `scripts/05_build_combined.py` 建置）· `graphify-out/graph.json`（triples，27_Aug_2026 以正規化 id 重建）· `scripts/04_node_analysis.py` 慣例 · 重新計算的聯集指標（參數見 §3）
+> **範圍**：`web/data/nodes.json` + `web/data/edges.json`（標準合併資料集，由 `scripts/combined/build.py` 建置）· `graphify-out/graph.json`（triples，27_Aug_2026 以正規化 id 重建）· `scripts/analysis/node_analysis.py` 慣例 · 重新計算的聯集指標（參數見 §3）
 
 ---
 
@@ -33,7 +33,7 @@ vault 現在在網頁檢視器中提供三個圖譜資料集（**combined** 為�
 | --- | ---: | ---: | --- |
 | Triples | 2,629 | 3,832 | `_triples.json` 萃取 → `graphify-out/graph.json` |
 | Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]`（實體筆記）→ `wiki-out/wiki-graph.json` |
-| **Combined** | **4,084** | **36,982** | 兩者的聯集（`05_build_combined.py`） |
+| **Combined** | **4,084** | **36,982** | 兩者的聯集（`scripts/combined/build.py`） |
 
 合併節點集的組成（以 node id 計——皆經 `norm()` 正規化，因此 `NF-κB` 在三個圖中都是 `nf_kappab`）：
 
@@ -51,7 +51,7 @@ vault 現在在網頁檢視器中提供三個圖譜資料集（**combined** 為�
 - **triples 獨有：2,132**（5.8%）
 
 > [!important] 指紋注意事項
-> 合併節點上儲存的 `nodes.json` 指紋是**沿用各來源圖**：triples 節點帶 triples 側指標，wiki 獨有節點帶 wiki 側指標，共享節點帶 triples 數值（community/color/description 優先採用 triples）。聯集拓撲在建置時**並未**重新分析。因此下列數字是**在真正的聯集上重新計算的**（有向 PageRank；無向 betweenness/clustering/k-core；角色經由 `_node_roles_lib`），是真正的合併圖指標，可與 triples 圖參考頁相互比較。
+> 合併節點上儲存的 `nodes.json` 指紋是**沿用各來源圖**：triples 節點帶 triples 側指標，wiki 獨有節點帶 wiki 側指標，共享節點帶 triples 數值（community/color/description 優先採用 triples）。聯集拓撲在建置時**並未**重新分析。因此下列數字是**在真正的聯集上重新計算的**（有向 PageRank；無向 betweenness/clustering/k-core；角色經由 `scripts/lib/node_roles`），是真正的合併圖指標，可與 triples 圖參考頁相互比較。
 
 ---
 
@@ -72,7 +72,7 @@ triples 圖低估了連通性：其 18% 的節點位於巨型分量之外，且�
 
 ### 2.2 角色分布在聯集上劇烈變動
 
-在聯集上重新計算的角色（相同的 `_node_roles_lib` 規則，門檻值重新校準至聯集——見注意事項）：
+在聯集上重新計算的角色（相同的 `scripts/lib/node_roles` 規則，門檻值重新校準至聯集——見注意事項）：
 
 | 角色 | Triples（參考頁） | Combined（聯集） | 解讀 |
 | --- | ---: | ---: | --- |
@@ -165,9 +165,9 @@ triples 圖低估了連通性：其 18% 的節點位於巨型分量之外，且�
 ## 3 · 方法筆記
 
 - **重新計算，而非沿用。** 上述數字是在聯集的無向投影上重新計算 degree / PageRank（α = 0.85、未加權，依 `enrich_graph_metrics` 慣例）以及 betweenness/clustering/k-core。儲存的 `nodes.json` 指紋屬各來源，不應被解讀為聯集指標。
-- **重現（臨時操作，非追蹤的腳本）。** 由 `web/data/nodes.json` + `edges.json` 建立聯集 `DiGraph`（nodes：`id`/`label`/`in_triples`/`in_wiki`；edges：`from`→`to`），移除自環，然後：`nx.pagerank(G, alpha=0.85, max_iter=200)`；無向 `G.to_undirected()` → `nx.betweenness_centrality`、`nx.clustering`、`nx.core_number`、`nx.connected_components`；角色經由 `scripts/_node_roles_lib.py`（`compute_thresholds` + `classify`）。triples 比較以相同方式讀取 `graphify-out/graph.json`。
+- **重現（臨時操作，非追蹤的腳本）。** 由 `web/data/nodes.json` + `edges.json` 建立聯集 `DiGraph`（nodes：`id`/`label`/`in_triples`/`in_wiki`；edges：`from`→`to`），移除自環，然後：`nx.pagerank(G, alpha=0.85, max_iter=200)`；無向 `G.to_undirected()` → `nx.betweenness_centrality`、`nx.clustering`、`nx.core_number`、`nx.connected_components`；角色經由 `scripts/lib/node_roles.py`（`compute_thresholds` + `classify`）。triples 比較以相同方式讀取 `graphify-out/graph.json`。
 - **社群。** 沿用偏移合併的 legend（triples cids + wiki cids +1000）。Leiden **並未**在聯集上重新執行；重新分群會產生真正新的合併社群（自然的下一步，見 §5）。
-- **角色。** `_node_roles_lib` 規則不變；門檻值是重新校準至聯集的百分位數，因此與 triples 頁面表格的計數僅在精神上可比，並非 1:1。
+- **角色。** `scripts/lib/node_roles` 規則不變；門檻值是重新校準至聯集的百分位數，因此與 triples 頁面表格的計數僅在精神上可比，並非 1:1。
 - **邊類型。** 聯集 89.7% 的邊是無類型的 wiki `links_to`；這些邊上的有向角色語意是撰寫假象（見 §2.2 警告）。
 
 ---
@@ -183,8 +183,8 @@ triples 圖低估了連通性：其 18% 的節點位於巨型分量之外，且�
 
 ## 5 · 建議的後續步驟
 
-- **用 Leiden 對聯集重新分群**，並產出標準的 `combined graph.json`（節點內建聯集指標 + 角色，比照 triples 管線），讓 `04_node_analysis.py --graph combined-graph.json` 能在聯集上執行 path/multiplicity/PPR 分析。
-- **類型化主幹分析：** 在聯集節點集上，對 triples 獨有 + 共享的邊集（約 3,832 條類型化邊）執行關係感知方法（`04_node_analysis.py`），以比較路徑結構與完整聯集。
+- **用 Leiden 對聯集重新分群**，並產出標準的 `combined graph.json`（節點內建聯集指標 + 角色，比照 triples 管線），讓 `scripts/analysis/node_analysis.py --graph combined-graph.json` 能在聯集上執行 path/multiplicity/PPR 分析。
+- **類型化主幹分析：** 在聯集節點集上，對 triples 獨有 + 共享的邊集（約 3,832 條類型化邊）執行關係感知方法（`scripts/analysis/node_analysis.py`），以比較路徑結構與完整聯集。
 - **wiki 角色去偏：** 在類型化子集上重新計算角色，把撰寫產生的 out-degree 與生物學上的廣播區分開來。
 - **調和參考頁**（`node-analysis-examples-biology.html`）：加入合併圖章節或建立姊妹頁，並標明兩個圖譜。
 
@@ -194,8 +194,8 @@ triples 圖低估了連通性：其 18% 的節點位於巨型分量之外，且�
 
 - `web/pages/en-US/node-analysis-examples-biology.html` — triples 圖指標/角色參考（2026 年 8 月 16 日）。
 - `src/tasks/task_output_node_analysis_biology_16_AUG_2026.md` — 來源分析文件（triples 圖）。
-- `scripts/03_rebuild_from_triples.py` — triples 重建（`enrich_graph_metrics`、`DENYLIST`、Leiden）。
-- `scripts/05_rebuild_from_wiki.py` — wiki 圖建置（實體筆記、doc/task 排除）。
-- `scripts/05_build_combined.py` — 合併資料集融合 + triples-vs-wiki 差異報告（`wiki-out/graph-diff.json`、`GRAPH_DIFF.md`）。
-- `scripts/_node_roles_lib.py` — 共享角色分類器（`ROLE_DEFS`）。
+- `scripts/triples/rebuild.py` — triples 重建（`enrich_graph_metrics`、`DENYLIST`、Leiden）。
+- `scripts/wiki/rebuild.py` — wiki 圖建置（實體筆記、doc/task 排除）。
+- `scripts/combined/build.py` — 合併資料集融合 + triples-vs-wiki 差異報告（`wiki-out/graph-diff.json`、`GRAPH_DIFF.md`）。
+- `scripts/lib/node_roles.py` — 共享角色分類器（`ROLE_DEFS`）。
 - 重新計算的聯集指標 — 方法見本任務輸出之 §3。

@@ -1,6 +1,6 @@
 ---
 title: COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026
-description: "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。"
+description: "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/analysis/node_analysis.py 重現。"
 created: 2026-08-16
 updated: 2026-08-22
 tags:
@@ -15,13 +15,13 @@ tags:
   - dopamine
   - epinephrine
   - graph-theory
-source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
+source: graphify-out/graph.json + scripts/analysis/node_analysis.py (networkx/scipy)
 author: []
 ---
 # COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素
 
 > 由圖譜衍生的比較節點分析。日期：15_August_2026
-> 方法：`uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources comt mao --targets dopamine epinephrine`
+> 方法：`uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources comt mao --targets dopamine epinephrine`
 > 語料：`graphify-out/graph.json`（2479 節點 / 3388 條有向連結），無向投影，移除自環，分析巨成分（2028 節點，共 209 個成分）。
 
 ## 資料簡化說明
@@ -124,7 +124,7 @@ author: []
 - Fiedler 特徵向量的符號是任意的；請比較大小 / 相對位置，而非符號。
 - 刻意避免使用 `eigsh(which='SM')` 與截斷的 `svds`（見 task_output_sirtuins_adrenochrome_node_analysis_15_August_2026.md）。
 - Adamic-Adar 為 0.000 表示共同鄰居為零，未必表示相關性為零。
-- 數值可經 `scripts/04_node_analysis.py` 重現；預設種子 1。
+- 數值可經 `scripts/analysis/node_analysis.py` 重現；預設種子 1。
 
 ## 建議後續行動
 

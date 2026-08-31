@@ -13,14 +13,14 @@ tags:
 # 任務輸出 — 腎上腺色素協定網路追蹤，第二輪（燃料線、放大器衝突、生物標記、加權重排序、NF-κB 去重）— 2026 年 8 月 21 日
 
 **圖譜建構：** `graphify-out/graph.json` — 2,596 個節點 / 3,737 條邊（巨連通分量 2,110 / 3,295），建構 `867a5ae5fdb8a46c`（與第一輪相同，未變）
-**工具：** `scripts/04_node_analysis.py` + `supplementary_traces_F_G_H_I.py`（RANDOM_SEED=1 慣例）
+**工具：** `scripts/analysis/node_analysis.py` + `supplementary_traces_F_G_H_I.py`（RANDOM_SEED=1 慣例）
 **目的：** 執行 `task_output_adrenochrome_protocol_traces_20_AUG_2026.md` 中排隊的五項追蹤：（E）將 NAD⁺ 燃料線併入追蹤集；（F）Phase 3 置信度加權 PPR 對完整階梯的重新排序；（G）MB ⇄ carbazochrome Complex-I 競爭子圖；（H）Hormetic Window / SIRT3-SIRT4 比值自我圖；（I）實體解析後的重跑（NF-κB 變體合併）。餵入即時頁面 `web/pages/en-US/adrenochrome-protocol-node-network-analysis.html`。
 
 ## 執行紀錄
 
 | 紀錄 | 指令 / 方法 |
 | --- | --- |
-| `run_log_E_sources_fuel_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources nicotinamide_riboside nad n_acetylcysteine methylene_blue carbazochrome --targets adrenochrome` |
+| `run_log_E_sources_fuel_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources nicotinamide_riboside nad n_acetylcysteine methylene_blue carbazochrome --targets adrenochrome` |
 | `run_log_F_G_H_I_supplementary.txt` | `uv run --with networkx --with scipy python3 supplementary_traces_F_G_H_I.py`（執行 F–I，單一已種子腳本封存於此目錄） |
 
 ## 重要發現

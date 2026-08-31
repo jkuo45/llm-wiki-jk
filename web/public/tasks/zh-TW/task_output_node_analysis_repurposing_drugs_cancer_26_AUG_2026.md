@@ -1,9 +1,9 @@
 ---
 title: 節點分析——伊維菌素、芬苯達唑與甲苯達唑對上癌症及腫瘤亞型
-description: 運用 scripts/04_node_analysis.py 對老藥新用藥物群集（伊維菌素、芬苯達唑、甲苯達唑）對上 Cancer 樞紐與三種腫瘤亞型所做的 NetworkX 多節點分析——指標指紋、路徑多重性、Jaccard 鄰域、Adamic–Adar、有效電阻與個人化 PageRank 顯示：單邊脆弱的主張卻帶有異常高的連結預測裕度、苯并咪唑之間是機制上不重疊的孿生對、腫瘤亞型被藥物社群捕獲而非歸入 Cancer 社群，以及一個使伊維菌素從 Cancer 種子排名第 #2 的 PPR 反轉。
+description: 運用 scripts/analysis/node_analysis.py 對老藥新用藥物群集（伊維菌素、芬苯達唑、甲苯達唑）對上 Cancer 樞紐與三種腫瘤亞型所做的 NetworkX 多節點分析——指標指紋、路徑多重性、Jaccard 鄰域、Adamic–Adar、有效電阻與個人化 PageRank 顯示：單邊脆弱的主張卻帶有異常高的連結預測裕度、苯并咪唑之間是機制上不重疊的孿生對、腫瘤亞型被藥物社群捕獲而非歸入 Cancer 社群，以及一個使伊維菌素從 Cancer 種子排名第 #2 的 PPR 反轉。
 created: 2026-08-26
 updated: 2026-08-26
-source: graphify-out/graph.json (2624 nodes / 2127 giant-component nodes / 3318 edges) + scripts/04_node_analysis.py
+source: graphify-out/graph.json (2624 nodes / 2127 giant-component nodes / 3318 edges) + scripts/analysis/node_analysis.py
 tags:
   - task-output
   - knowledge-graph
@@ -23,7 +23,7 @@ starred: false
 # 節點分析——伊維菌素、芬苯達唑與甲苯達唑對上癌症及腫瘤亞型
 
 > [!NOTE]
-> **任務**：針對 vault 的老藥新用抗寄生蟲藥群集對上腫瘤學語料執行 `scripts/04_node_analysis.py`——刻畫每個藥物的指標指紋、檢驗圖譜支持「藥物→癌症」主張的強度，並將指標聯合閱讀為生物學而非排名。
+> **任務**：針對 vault 的老藥新用抗寄生蟲藥群集對上腫瘤學語料執行 `scripts/analysis/node_analysis.py`——刻畫每個藥物的指標指紋、檢驗圖譜支持「藥物→癌症」主張的強度，並將指標聯合閱讀為生物學而非排名。
 > **日期**：26_AUG_2026
 > **圖譜**：`graphify-out/graph.json` — 2,624 節點 / 2,127 巨大連通分量節點 / 3,318 邊（較 8 月 16 日參考頁面更新的建構）
 > **範圍**：`[[Ivermectin]]`、`[[Fenbendazole]]`、`[[Mebendazole]]`（來源）× `[[Cancer]]`、`[[Glioblastoma]]`、`[[Cholangiocarcinoma]]`、`[[Renal Cell Carcinoma]]`（標的）
@@ -33,7 +33,7 @@ starred: false
 ## 可重現性
 
 ```bash
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources ivermectin fenbendazole mebendazole \
     --targets cancer glioblastoma cholangiocarcinoma "renal cell carcinoma"
 ```

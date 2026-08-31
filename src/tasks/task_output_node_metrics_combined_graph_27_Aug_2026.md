@@ -3,7 +3,7 @@ title: Graph Metrics (wiki + triples) - Combined
 description: Metrics analysis of the combined (triples + wiki) knowledge graph — recomputed centrality on the union topology (4,084 nodes / 36,982 edges), role distribution, connectivity contrast vs the triples graph (components 223→123, k-core 6→20, giant component 82%→94%), wiki-only core integration (cGAS, STING, Phosphorylation…), p53/TP53 consolidation, and wiki-boosted shared hubs — with the caveat that the stored combined fingerprint inherits per-source values. Correction note - the wiki previously split the single p53/TP53 entity into two nodes (p53 protein + TP53 gene); consolidated into p53, a shared union core node.
 created: 2026-08-27
 updated: 2026-08-27
-source: web/data/nodes.json + edges.json (combined, scripts/05_build_combined.py) + graphify-out/graph.json (triples)
+source: web/data/nodes.json + edges.json (combined, scripts/combined/build.py) + graphify-out/graph.json (triples)
 tags:
   - task-output
   - knowledge-graph
@@ -21,7 +21,7 @@ author: []
 > [!NOTE]
 > **Task**: Run the same per-node metrics analysis that produced `web/pages/en-US/node-analysis-examples-biology.html` (a triples-graph reference) on the **combined graph** (triples + Obsidian-wiki links), recompute the centrality fingerprint on the actual union topology, and highlight anything that is specific to the combined graph.
 > **Date**: 27_Aug_2026 06:15 PM PDT
-> **Scope**: `web/data/nodes.json` + `web/data/edges.json` (canonical combined dataset, built by `scripts/05_build_combined.py`) · `graphify-out/graph.json` (triples, rebuilt with normalized ids 27_Aug_2026) · `scripts/04_node_analysis.py` conventions · recomputed union metrics (parameters in §3)
+> **Scope**: `web/data/nodes.json` + `web/data/edges.json` (canonical combined dataset, built by `scripts/combined/build.py`) · `graphify-out/graph.json` (triples, rebuilt with normalized ids 27_Aug_2026) · `scripts/analysis/node_analysis.py` conventions · recomputed union metrics (parameters in §3)
 
 ---
 
@@ -33,7 +33,7 @@ The vault now exposes three graph datasets in the web viewer (**combined** is th
 | --- | ---: | ---: | --- |
 | Triples | 2,629 | 3,832 | `_triples.json` extractions → `graphify-out/graph.json` |
 | Wiki | 2,994 | 34,850 | Obsidian `[[wikilinks]]` (entity notes) → `wiki-out/wiki-graph.json` |
-| **Combined** | **4,084** | **36,982** | union of the two (`05_build_combined.py`) |
+| **Combined** | **4,084** | **36,982** | union of the two (`scripts/combined/build.py`) |
 
 Composition of the combined node set (by node id — `norm()`-canonical, so `NF-κB` = `nf_kappab` in all three):
 
@@ -51,7 +51,7 @@ Edge sources in the union:
 - **triples-only: 2,132** (5.8%)
 
 > [!important] Fingerprint caveat
-> The `nodes.json` fingerprint stored on combined nodes is **inherited from each source graph**: triples nodes carry triples-side metrics, wiki-only nodes carry wiki-side metrics, and shared nodes carry triples values (community/color/description prefer triples). The union topology was **not** re-analyzed at build time. The numbers below are therefore **recomputed on the true union** (directed PageRank; undirected betweenness/clustering/k-core; roles via `_node_roles_lib`) so they are genuine combined-graph metrics, comparable to the triples-graph reference page.
+> The `nodes.json` fingerprint stored on combined nodes is **inherited from each source graph**: triples nodes carry triples-side metrics, wiki-only nodes carry wiki-side metrics, and shared nodes carry triples values (community/color/description prefer triples). The union topology was **not** re-analyzed at build time. The numbers below are therefore **recomputed on the true union** (directed PageRank; undirected betweenness/clustering/k-core; roles via `scripts/lib/node_roles`) so they are genuine combined-graph metrics, comparable to the triples-graph reference page.
 
 ---
 
@@ -72,7 +72,7 @@ The triples graph understates connectivity: 18% of its nodes sit outside the gia
 
 ### 2.2 Role distribution shifts dramatically on the union
 
-Roles recomputed on the union (same `_node_roles_lib` rules, thresholds recalibrated to the union — see caveats):
+Roles recomputed on the union (same `scripts/lib/node_roles` rules, thresholds recalibrated to the union — see caveats):
 
 | Role | Triples (reference page) | Combined (union) | Reading |
 | --- | ---: | ---: | --- |
@@ -165,9 +165,9 @@ All top-15 are shared nodes at k-core 20 — the union's inner shell is the esta
 ## 3 · Method notes
 
 - **Recomputed, not inherited.** Numbers above recompute degree / PageRank (α = 0.85, unweighted, per `enrich_graph_metrics` convention) and betweenness/clustering/k-core on the undirected projection of the union. The stored `nodes.json` fingerprint is per-source and should not be read as union metrics.
-- **Repro (ad-hoc, not a tracked script).** Build the union `DiGraph` from `web/data/nodes.json` + `edges.json` (nodes: `id`/`label`/`in_triples`/`in_wiki`; edges: `from`→`to`), drop self-loops, then: `nx.pagerank(G, alpha=0.85, max_iter=200)`; undirected `G.to_undirected()` → `nx.betweenness_centrality`, `nx.clustering`, `nx.core_number`, `nx.connected_components`; roles via `scripts/_node_roles_lib.py` (`compute_thresholds` + `classify`). Triples comparison reads `graphify-out/graph.json` the same way.
+- **Repro (ad-hoc, not a tracked script).** Build the union `DiGraph` from `web/data/nodes.json` + `edges.json` (nodes: `id`/`label`/`in_triples`/`in_wiki`; edges: `from`→`to`), drop self-loops, then: `nx.pagerank(G, alpha=0.85, max_iter=200)`; undirected `G.to_undirected()` → `nx.betweenness_centrality`, `nx.clustering`, `nx.core_number`, `nx.connected_components`; roles via `scripts/lib/node_roles.py` (`compute_thresholds` + `classify`). Triples comparison reads `graphify-out/graph.json` the same way.
 - **Communities.** Kept as the offset merged legend (triples cids + wiki cids +1000). Leiden was **not** re-run on the union; a re-cluster would produce genuinely new combined communities (a natural next step, see §5).
-- **Roles.** `_node_roles_lib` rules unchanged; thresholds are percentiles recalibrated to the union, so counts are comparable in spirit, not 1:1, with the triples page table.
+- **Roles.** `scripts/lib/node_roles` rules unchanged; thresholds are percentiles recalibrated to the union, so counts are comparable in spirit, not 1:1, with the triples page table.
 - **Edge typing.** 89.7% of union edges are untyped wiki `links_to`; directed role semantics on those edges are authoring artifacts (see §2.2 warning).
 
 ---
@@ -183,8 +183,8 @@ All top-15 are shared nodes at k-core 20 — the union's inner shell is the esta
 
 ## 5 · Recommended next steps
 
-- **Re-cluster the union with Leiden** and emit a canonical `combined graph.json` (nodes with union metrics + roles baked in, like the triples pipeline), so `04_node_analysis.py --graph combined-graph.json` can run path/multiplicity/PPR analyses on the union.
-- **Typed-spine analysis:** run the relation-aware methods (`04_node_analysis.py`) on the triples-only + shared edge set over the union node set (≈3,832 typed edges) to compare path structure vs full union.
+- **Re-cluster the union with Leiden** and emit a canonical `combined graph.json` (nodes with union metrics + roles baked in, like the triples pipeline), so `scripts/analysis/node_analysis.py --graph combined-graph.json` can run path/multiplicity/PPR analyses on the union.
+- **Typed-spine analysis:** run the relation-aware methods (`scripts/analysis/node_analysis.py`) on the triples-only + shared edge set over the union node set (≈3,832 typed edges) to compare path structure vs full union.
 - **Wiki-role de-biasing:** recompute roles on the typed subset to separate authoring-out-degree from biological broadcasting.
 - **Reconcile the reference page** (`node-analysis-examples-biology.html`) with a combined-graph section or a companion page, labeling both graphs.
 
@@ -194,8 +194,8 @@ All top-15 are shared nodes at k-core 20 — the union's inner shell is the esta
 
 - `web/pages/en-US/node-analysis-examples-biology.html` — triples-graph metrics/roles reference (16 Aug 2026).
 - `src/tasks/task_output_node_analysis_biology_16_AUG_2026.md` — source analysis document (triples graph).
-- `scripts/03_rebuild_from_triples.py` — triples rebuild (`enrich_graph_metrics`, `DENYLIST`, Leiden).
-- `scripts/05_rebuild_from_wiki.py` — wiki graph build (entity notes, doc/task exclusion).
-- `scripts/05_build_combined.py` — combined dataset merge + triples-vs-wiki gap report (`wiki-out/graph-diff.json`, `GRAPH_DIFF.md`).
-- `scripts/_node_roles_lib.py` — shared role classifier (`ROLE_DEFS`).
+- `scripts/triples/rebuild.py` — triples rebuild (`enrich_graph_metrics`, `DENYLIST`, Leiden).
+- `scripts/wiki/rebuild.py` — wiki graph build (entity notes, doc/task exclusion).
+- `scripts/combined/build.py` — combined dataset merge + triples-vs-wiki gap report (`wiki-out/graph-diff.json`, `GRAPH_DIFF.md`).
+- `scripts/lib/node_roles.py` — shared role classifier (`ROLE_DEFS`).
 - Recomputed union metrics — method in §3 of this task output.

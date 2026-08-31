@@ -71,7 +71,7 @@ Louvain 社群偵測恰好沿著 caspases 的生物學分類邊界切開：
 
 ### 1.2 中心性、k-core 巢套與生物學角色
 
-角色類別來自知識庫的逐節點分類器（`scripts/_node_roles_lib.py`）；角色在 triples 層計算，因此角色的*類別*（而非量級）才是訊號——請與下方中心性層級一併解讀。出處說明：合併資料集*內建*的 degree/PageRank/k-core 欄位承載 triples 層的數值（合併時優先 triples 後設資料），因此此處的度數欄是真正的合併聯集（§1.1b），而 PageRank/k-core 是分層產物——`raw_caspases_combined_graph.txt` 中的聯集重算確認了同樣的排序：
+角色類別來自知識庫的逐節點分類器（`scripts/lib/node_roles.py`）；角色在 triples 層計算，因此角色的*類別*（而非量級）才是訊號——請與下方中心性層級一併解讀。出處說明：合併資料集*內建*的 degree/PageRank/k-core 欄位承載 triples 層的數值（合併時優先 triples 後設資料），因此此處的度數欄是真正的合併聯集（§1.1b），而 PageRank/k-core 是分層產物——`raw_caspases_combined_graph.txt` 中的聯集重算確認了同樣的排序：
 
 | Caspase | 度 | k-core | 角色 | 解讀 |
 | --- | --- | --- | --- | --- |
@@ -119,7 +119,7 @@ Louvain 社群偵測恰好沿著 caspases 的生物學分類邊界切開：
 
 ### 1.5 預測的缺失連結（連結預測）
 
-對非相鄰節點對計算 Adamic-Adar，來自互補的視角：正典產物（`04_link_prediction.py` → `web/public/data/link-prediction.json`，triples 層的全球前 150 對）、wiki 層掃描（`raw_caspases_wiki_graph_link_prediction.txt`），以及**主要的合併圖掃描**（`raw_caspases_combined_graph.txt`，完整逐 caspase 清單）。以下回報合併聯集分數（完整流程運行：`raw_caspases_combined_graph.txt`）；它們吸收了 wiki 層的數字（例如 wiki 掃描的 CASP-3→Senescence 0.54 在聯集上成為 0.52（12），CASP-1→SASP 0.69（13）不變）。完整合併運行還補上了分層運行看不到的頭條：**Caspase-3 → Apoptosis AA 15.9 —— 全圖最高的 caspase–標的親近度**。
+對非相鄰節點對計算 Adamic-Adar，來自互補的視角：正典產物（`scripts/analysis/link_prediction.py` → `web/public/data/link-prediction.json`，triples 層的全球前 150 對）、wiki 層掃描（`raw_caspases_wiki_graph_link_prediction.txt`），以及**主要的合併圖掃描**（`raw_caspases_combined_graph.txt`，完整逐 caspase 清單）。以下回報合併聯集分數（完整流程運行：`raw_caspases_combined_graph.txt`）；它們吸收了 wiki 層的數字（例如 wiki 掃描的 CASP-3→Senescence 0.54 在聯集上成為 0.52（12），CASP-1→SASP 0.69（13）不變）。完整合併運行還補上了分層運行看不到的頭條：**Caspase-3 → Apoptosis AA 15.9 —— 全圖最高的 caspase–標的親近度**。
 
 **來自正典產物**（僅 4 個含 caspase 的對擠進前 150 名）：
 
@@ -243,14 +243,14 @@ Louvain 社群偵測恰好沿著 caspases 的生物學分類邊界切開：
 
 ## 方法
 
-所有指標都在**合併圖譜**（`web/public/data/nodes.json` / `edges.json`，triples ∪ wiki 的正典聯集，逐邊標記來源層——整個 `scripts/04_` 系列的 schema 相容輸入）上計算；wiki 層與 triples 層的數字在有差異處以分解形式呈現：
+所有指標都在**合併圖譜**（`web/public/data/nodes.json` / `edges.json`，triples ∪ wiki 的正典聯集，逐邊標記來源層——整個 `scripts/analysis/` 系列的 schema 相容輸入）上計算；wiki 層與 triples 層的數字在有差異處以分解形式呈現：
 
 ```bash
 # 多指標 來源×標的 分析（最短路徑多重性、鄰居 Jaccard/簽名、
 # Adamic-Adar、k-core、光譜、有效電阻、個人化 PageRank）
 # —— 完整原始輸出：raw_caspases_combined_graph.txt（合併聯集）與
 # raw_caspases_wiki_graph_node.txt（wiki 層）
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --graph <序列化為 graph.json schema 的合併聯集> \
   --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
             caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
@@ -262,11 +262,11 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 # + wiki 層與合併圖上的 caspase 專屬 AA 掃描
 # （raw_caspases_wiki_graph_link_prediction.txt 與
 # raw_caspases_combined_graph.txt，含逐層度數分解）
-uv run --with networkx python3 scripts/04_link_prediction.py
+uv run --with networkx python3 scripts/analysis/link_prediction.py
 
 # 生物學角色類別（Sink/Spreader/Bottleneck 等，triples 圖分類器，
-# 經 scripts/_node_roles_lib.py）—— web/public/data/node_roles.json
-uv run python3 scripts/04_role_query.py --node "Caspase-3"
+# 經 scripts/lib/node_roles.py）—— web/public/data/node_roles.json
+uv run python3 scripts/analysis/role_query.py --node "Caspase-3"
 ```
 
 光譜參數：合併巨型連通分量 λ₂ = 0.188（4,084 節點 / 3,839 巨型分量節點 / 31,719 邊）；wiki 層巨型連通分量 λ₂ = 0.802；PPR 阻尼 α = 0.85；有效電阻虛無樣本 n = 300。

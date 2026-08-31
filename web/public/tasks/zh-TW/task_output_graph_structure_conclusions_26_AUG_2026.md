@@ -1,9 +1,9 @@
 ---
 title: graph.json 的進一步圖譜層級結論
-description: 超越每節點指標指紋之外的結構性結論——度數分布與巨大連通分量主導性、中心性集中反映收集策略偏誤、社群凝聚度反轉、酸性神經醯胺酶周邊效應臂的脆弱性、實體解析債務、邊方向語意、模糊邊聚集，以及跨文件整合缺口。推導自 graphify-out/graph.json 中儲存的節點指標、GRAPH_REPORT.md 的彙總計數，以及 scripts/04_node_analysis.py 的既有執行紀錄。
+description: 超越每節點指標指紋之外的結構性結論——度數分布與巨大連通分量主導性、中心性集中反映收集策略偏誤、社群凝聚度反轉、酸性神經醯胺酶周邊效應臂的脆弱性、實體解析債務、邊方向語意、模糊邊聚集，以及跨文件整合缺口。推導自 graphify-out/graph.json 中儲存的節點指標、GRAPH_REPORT.md 的彙總計數，以及 scripts/analysis/node_analysis.py 的既有執行紀錄。
 created: 2026-08-26
 updated: 2026-08-26
-source: graphify-out/graph.json + graphify-out/GRAPH_REPORT.md + recorded outputs of scripts/04_node_analysis.py
+source: graphify-out/graph.json + graphify-out/GRAPH_REPORT.md + recorded outputs of scripts/analysis/node_analysis.py
 tags:
   - task-output
   - knowledge-graph
@@ -20,16 +20,16 @@ starred: false
 > [!NOTE]
 > **任務**：在節點分析參考工作之後，匯出第二輪結構性結論——超越每節點指標指紋，邁向圖譜層級架構、偏誤來源與策展優先順序。
 > **日期**：26_AUG_2026
-> **依據**：以下所有內容均衍生自 `graphify-out/graph.json` 中儲存的每節點指標指紋、`graphify-out/GRAPH_REPORT.md` 中的彙總計數，以及 `scripts/04_node_analysis.py` 的既有執行紀錄（2026 年 8 月 16–17 日任務輸出）。未宣稱任何全新執行；每一節都附上可確認或延伸其解讀的確切 NetworkX 指令。
+> **依據**：以下所有內容均衍生自 `graphify-out/graph.json` 中儲存的每節點指標指紋、`graphify-out/GRAPH_REPORT.md` 中的彙總計數，以及 `scripts/analysis/node_analysis.py` 的既有執行紀錄（2026 年 8 月 16–17 日任務輸出）。未宣稱任何全新執行；每一節都附上可確認或延伸其解讀的確切 NetworkX 指令。
 
 ---
 
 ## 推導依據
 
 - 共同閱讀的來源：
-  - 儲存在每個節點上的指標指紋（`degree`、`in_degree`、`out_degree`、`pagerank`、`betweenness_centrality`、`clustering_coefficient`、`k_core_number`、`community_size`、`community_name`）——由 `scripts/03_rebuild_from_triples.py`（`enrich_graph_metrics()`）計算。
+  - 儲存在每個節點上的指標指紋（`degree`、`in_degree`、`out_degree`、`pagerank`、`betweenness_centrality`、`clustering_coefficient`、`k_core_number`、`community_size`、`community_name`）——由 `scripts/triples/rebuild.py`（`enrich_graph_metrics()`）計算。
   - `graphify-out/GRAPH_REPORT.md` 中的彙總計數（2,624 節點 / 3,768 邊 / 398 社群 / god nodes / 孤立節點清單 / 模糊邊）。
-  - `scripts/04_node_analysis.py` sirtuin 執行的既有多節點分析結果（路徑多重性、Jaccard、Adamic–Adar、有效電阻、PPR）。
+  - `scripts/analysis/node_analysis.py` sirtuin 執行的既有多節點分析結果（路徑多重性、Jaccard、Adamic–Adar、有效電阻、PPR）。
 - 未使用任何針對 graphify 的即時查詢；刻意繞過 graphify 的查詢工具，使此處的每個結論都只奠基於可用純 NetworkX 重現的量值。
 
 ---
@@ -125,7 +125,7 @@ PY
 - 確認指令：
 
 ```bash
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources acid_ceramidase --targets ferroptosis
 ```
 
@@ -214,4 +214,4 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
   - `src/tasks/task_output_node_analysis_biology_16_AUG_2026.md`——指紋方法學與演練實例。
   - `src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md`——既有的多節點分析（PPR、Jaccard、Adamic–Adar、有效電阻、λ₂）。
 - 圖譜詮釋資料：`graphify-out/GRAPH_REPORT.md`（god nodes、社群、孤立清單、模糊邊）。
-- 多節點腳本：`scripts/04_node_analysis.py`；重建管線：`scripts/03_rebuild_from_triples.py`。
+- 多節點腳本：`scripts/analysis/node_analysis.py`；重建管線：`scripts/triples/rebuild.py`。

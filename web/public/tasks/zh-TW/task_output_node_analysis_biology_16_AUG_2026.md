@@ -1,9 +1,9 @@
 ---
 title: 用於生物學優先排序的節點層級網絡分析
-description: 方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。
+description: 方法指南：運用 scripts/triples/rebuild.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。
 created: 2026-08-16
 updated: 2026-08-22
-source: graphify-out/graph.json node metrics + scripts/04_node_analysis.py + scripts/03_rebuild_from_triples.py
+source: graphify-out/graph.json node metrics + scripts/analysis/node_analysis.py + scripts/triples/rebuild.py
 tags:
   - task-output
   - knowledge-graph
@@ -20,13 +20,13 @@ author: []
 > [!NOTE]
 > **任務**：綜述如何運用 `graphify-out/graph.json` 中每節點的中心性指標來分診生醫實體，逐步演練 vault 知識圖譜中既有的具體實例，記錄可用的分析方法，並提出推動此研究主線向前發展的具體後續步驟。
 > **日期**：16_AUG_2026
-> **範圍**：`graphify-out/graph.json` 節點指標 + `scripts/04_node_analysis.py` + `scripts/03_rebuild_from_triples.py`
+> **範圍**：`graphify-out/graph.json` 節點指標 + `scripts/analysis/node_analysis.py` + `scripts/triples/rebuild.py`
 
 ---
 
 ## 目標
 
-vault 的知識圖譜不只是一張查詢表——每個節點都帶有一組在 `scripts/03_rebuild_from_triples.py:441`（`enrich_graph_metrics`）中計算出來的**指標指紋（metric fingerprint）**：
+vault 的知識圖譜不只是一張查詢表——每個節點都帶有一組在 `scripts/triples/rebuild.py:441`（`enrich_graph_metrics`）中計算出來的**指標指紋（metric fingerprint）**：
 
 `degree`、`in_degree`、`out_degree`、`pagerank`、`betweenness_centrality`、`clustering_coefficient`、`k_core_number`、`community_size`、`community_name`。
 
@@ -81,7 +81,7 @@ vault 的知識圖譜不只是一張查詢表——每個節點都帶有一組�
 
 ## 已可用的分析方法
 
-除了靜態指紋外，`scripts/04_node_analysis.py`（於 README「Node Analysis」中引用）在相同的 `graph.json` 之上增添了多節點、關係感知的分析：
+除了靜態指紋外，`scripts/analysis/node_analysis.py`（於 README「Node Analysis」中引用）在相同的 `graph.json` 之上增添了多節點、關係感知的分析：
 
 - **帶邊關係的最短路徑多重度**——不僅是 A 是否到達 B，而是*有標籤*的鏈（例如 `Acid ceramidase —promotes→ Lipid Peroxidation —drives→ Ferroptosis`）。
 - **鄰域 Jaccard 相似度**——找出共享相同生物學鄰域的實體（機制類似物 / off-target 孿生體的候選者）。
@@ -92,7 +92,7 @@ vault 的知識圖譜不只是一張查詢表——每個節點都帶有一組�
 - **個人化 PageRank（Personalized PageRank）**——以感興趣的節點（例如 `sirt1`）為種子，依與*該*起點的相關性對圖的其餘部分排序。
 
 執行形式（取自 README）：
-`uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`
+`uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources sirt1 sirt3 --targets adrenochrome`
 
 ---
 
@@ -127,4 +127,4 @@ vault 的知識圖譜不只是一張查詢表——每個節點都帶有一組�
 
 ## 總結
 
-`graph.json` 的節點指紋在生物學上是有意義的，因為它運行於一個**有向、帶關係類型、信心加權**的圖譜上，並明確移除抽象的類型中樞。這些演練實例（酸性神經醯胺酶的 out-degree 散播、SASP 的 betweenness 聯結點、Aging 的 PageRank / 核心骨幹、GPX4 / iNOS / Cataract 的單位 clustering、k-core-6 的衰老核心）顯示該指紋已能復原真實、有文獻背書的生物學角色。將靜態指紋與 `scripts/04_node_analysis.py` 關係感知的分析相結合——再加上上述的角色分類器、senolytic 評分、PPR 掃描與連結預測佇列——將使圖譜從導航輔助工具轉變為 vault 長壽研究中的主動標的優先排序引擎。
+`graph.json` 的節點指紋在生物學上是有意義的，因為它運行於一個**有向、帶關係類型、信心加權**的圖譜上，並明確移除抽象的類型中樞。這些演練實例（酸性神經醯胺酶的 out-degree 散播、SASP 的 betweenness 聯結點、Aging 的 PageRank / 核心骨幹、GPX4 / iNOS / Cataract 的單位 clustering、k-core-6 的衰老核心）顯示該指紋已能復原真實、有文獻背書的生物學角色。將靜態指紋與 `scripts/analysis/node_analysis.py` 關係感知的分析相結合——再加上上述的角色分類器、senolytic 評分、PPR 掃描與連結預測佇列——將使圖譜從導航輔助工具轉變為 vault 長壽研究中的主動標的優先排序引擎。

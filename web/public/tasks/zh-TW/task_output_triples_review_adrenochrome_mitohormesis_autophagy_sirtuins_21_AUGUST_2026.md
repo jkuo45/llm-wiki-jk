@@ -122,7 +122,7 @@ updated: 2026-08-22
 ## 建議審核流程
 
 1. **首先針對來源文件驗證** — 每個被標記的三元組皆帶有 `source_document`；編輯前請開啟被引用的章節。
-2. 對於層級 1 項目，編輯主詞/謂詞/受詞並更新 `updated:`（保留 `id`/`created`）；之後執行 `uv run scripts/03_normalize_triples_schema.py`。
+2. 對於層級 1 項目，編輯主詞/謂詞/受詞並更新 `updated:`（保留 `id`/`created`）；之後執行 `uv run scripts/triples/normalize.py`。
 3. 對於衝突觀點對（T1-4、T1-5、T2-4），偏好加入脈絡限定詞而非刪除任一側 — 分歧往往正是科學上有價值的內容。
 4. 修正後，為受影響主題（sirtuins、adrenochrome）重新生成視覺化，因為樞紐節點描述係取自三元組脈絡。
 

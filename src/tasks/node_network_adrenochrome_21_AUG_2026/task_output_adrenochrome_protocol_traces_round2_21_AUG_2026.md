@@ -13,14 +13,14 @@ tags:
 # Task Output - Adrenochrome Protocol Network Traces, Round 2 (fuel line, amplifier conflict, biomarker, weighted re-rank, NF-κB dedup) - 21 August 2026
 
 **Graph build:** `graphify-out/graph.json` — 2,596 nodes / 3,737 edges (giant component 2,110 / 3,295), build `867a5ae5fdb8a46c` (unchanged from round 1)
-**Tooling:** `scripts/04_node_analysis.py` + `supplementary_traces_F_G_H_I.py` (RANDOM_SEED=1 convention)
+**Tooling:** `scripts/analysis/node_analysis.py` + `supplementary_traces_F_G_H_I.py` (RANDOM_SEED=1 convention)
 **Purpose:** Execute the five queued traces from `task_output_adrenochrome_protocol_traces_20_AUG_2026.md`: (E) fold the NAD⁺ fuel line into the trace set; (F) Phase 3 confidence-weighted PPR re-rank of the full ladder; (G) MB ⇄ carbazochrome Complex-I competition subgraph; (H) Hormetic Window / SIRT3-SIRT4 ratio ego-graphs; (I) post-entity-resolution re-run (NF-κB variant merge). Feeds the living page `web/pages/en-US/adrenochrome-protocol-node-network-analysis.html`.
 
 ## Run log
 
 | Log | Command / method |
 | --- | --- |
-| `run_log_E_sources_fuel_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources nicotinamide_riboside nad n_acetylcysteine methylene_blue carbazochrome --targets adrenochrome` |
+| `run_log_E_sources_fuel_targets_adrenochrome.txt` | `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources nicotinamide_riboside nad n_acetylcysteine methylene_blue carbazochrome --targets adrenochrome` |
 | `run_log_F_G_H_I_supplementary.txt` | `uv run --with networkx --with scipy python3 supplementary_traces_F_G_H_I.py` (runs F–I, single seeded script archived in this directory) |
 
 ## Headline findings

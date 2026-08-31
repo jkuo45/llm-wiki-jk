@@ -12,9 +12,9 @@ tags:
 
 # 任務輸出 - 腎上腺素紅協定網路追蹤，第三輪（三元組修復）- 2026年8月24日
 
-**範圍：** 第二輪的後續事項 (a)–(e)，外加第 6 項 NF-κB 裁決，全部**僅**實作於 `src/**/_triples.json`。未手動編輯 graph.json。圖譜重建由 Graphify 外掛觸發（此處無法從 bash 重現，因為 `graphify` 是 opencode 外掛，而 `scripts/03_rebuild_from_triples.py` 會匯入一個未安裝於此環境的模組）。
+**範圍：** 第二輪的後續事項 (a)–(e)，外加第 6 項 NF-κB 裁決，全部**僅**實作於 `src/**/_triples.json`。未手動編輯 graph.json。圖譜重建由 Graphify 外掛觸發（此處無法從 bash 重現，因為 `graphify` 是 opencode 外掛，而 `scripts/triples/rebuild.py` 會匯入一個未安裝於此環境的模組）。
 
-**驗證方式：** 模擬 Graphify 的節點正規化（`norm(label) = lower, non-alnum → '_'`），從全部 11 個 `_triples.json` 檔重建節點／邊集合，並確認第二輪的每個缺陷都已解決。`scripts/03_normalize_triples_schema.py` 執行乾淨（4084 個三元組，0 個驗證問題，0 個重複 id）。
+**驗證方式：** 模擬 Graphify 的節點正規化（`norm(label) = lower, non-alnum → '_'`），從全部 11 個 `_triples.json` 檔重建節點／邊集合，並確認第二輪的每個缺陷都已解決。`scripts/triples/normalize.py` 執行乾淨（4084 個三元組，0 個驗證問題，0 個重複 id）。
 
 ## 依事項的變更內容
 
@@ -56,7 +56,7 @@ tags:
 | NF-κB 方向 | 單一 AMBIGUOUS 邊承載 NR 的 7/8 路徑 | 具爭議邊已標註（0.5）+ 新增正規 `Oxidative Stress → NF-κB` |
 | NF-κB 碎片 | 6 個裸變體 | 合併為正規 `nf_b`（度數 64） |
 
-**對下一次建構的建議重追蹤：** `scripts/04_node_analysis.py --sources nicotinamide_riboside nicotinamide_mononucleotide n_acetylcysteine glynac methylene_blue carbazochrome --targets adrenochrome`，接續信心加權的 PPR 重新排名（F），以確認頂層（AG #4／MB #8）保持穩定，且 NR 的多路徑計數不再依賴具爭議的 NF-κB 邊。
+**對下一次建構的建議重追蹤：** `scripts/analysis/node_analysis.py --sources nicotinamide_riboside nicotinamide_mononucleotide n_acetylcysteine glynac methylene_blue carbazochrome --targets adrenochrome`，接續信心加權的 PPR 重新排名（F），以確認頂層（AG #4／MB #8）保持穩定，且 NR 的多路徑計數不再依賴具爭議的 NF-κB 邊。
 
 ## 殘餘缺口／建議（此處未變更）
 

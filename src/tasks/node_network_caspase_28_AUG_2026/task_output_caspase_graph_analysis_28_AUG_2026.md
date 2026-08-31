@@ -69,7 +69,7 @@ Per-node degree decomposition over the combined union (T = triples edge, W = wik
 
 ### 1.2 Centrality, k-core nesting, and biological roles
 
-Role classes come from the vault's per-node classifier (`scripts/_node_roles_lib.py`); roles are computed on the triples layer, so role *classes* (not magnitudes) are the signal — read them alongside the centrality tiers below. Note on provenance: the combined dataset's *stored* degree/PageRank/k-core fields carry the triples layer's values (the merge prefers triples metadata), so the degree column here is the true combined union (§1.1b) while PageRank/k-core are layer artifacts — the union recomputation in `raw_caspases_combined_graph.txt` confirms the same ordering:
+Role classes come from the vault's per-node classifier (`scripts/lib/node_roles.py`); roles are computed on the triples layer, so role *classes* (not magnitudes) are the signal — read them alongside the centrality tiers below. Note on provenance: the combined dataset's *stored* degree/PageRank/k-core fields carry the triples layer's values (the merge prefers triples metadata), so the degree column here is the true combined union (§1.1b) while PageRank/k-core are layer artifacts — the union recomputation in `raw_caspases_combined_graph.txt` confirms the same ordering:
 
 | Caspase | Degree | k-core | Roles | Reading |
 | --- | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ Combined-graph ranks track the wiki-layer run within a few places throughout —
 
 ### 1.5 Predicted missing connections (link prediction)
 
-Adamic-Adar over non-adjacent pairs, from complementary views: the canonical artifact (`04_link_prediction.py` → `web/public/data/link-prediction.json`, top-150 global pairs over the triples layer), the wiki-layer sweep (`raw_caspases_wiki_graph_link_prediction.txt`), and the **primary combined-graph sweep** (`raw_caspases_combined_graph.txt`, full per-caspase lists). Combined-union scores are reported below (full pipeline run: `raw_caspases_combined_graph.txt`); they absorb the wiki-layer figures (e.g. the wiki sweep's CASP-3→Senescence 0.54 becomes 0.52 (12) over the union, CASP-1→SASP 0.69 (13) unchanged). The full combined run also adds a headline the layer runs could not see: **Caspase-3 → Apoptosis AA 15.9 — the highest caspase–target proximity in the graph**.
+Adamic-Adar over non-adjacent pairs, from complementary views: the canonical artifact (`scripts/analysis/link_prediction.py` → `web/public/data/link-prediction.json`, top-150 global pairs over the triples layer), the wiki-layer sweep (`raw_caspases_wiki_graph_link_prediction.txt`), and the **primary combined-graph sweep** (`raw_caspases_combined_graph.txt`, full per-caspase lists). Combined-union scores are reported below (full pipeline run: `raw_caspases_combined_graph.txt`); they absorb the wiki-layer figures (e.g. the wiki sweep's CASP-3→Senescence 0.54 becomes 0.52 (12) over the union, CASP-1→SASP 0.69 (13) unchanged). The full combined run also adds a headline the layer runs could not see: **Caspase-3 → Apoptosis AA 15.9 — the highest caspase–target proximity in the graph**.
 
 **From the global artifact** (4 caspase-involving pairs survive the top-150 cutoff):
 
@@ -241,14 +241,14 @@ Conserved architecture: prodomain (CARD in CASP-1/2/4/5/9/12; DED in CASP-8/10; 
 
 ## Method
 
-All metrics were computed on the **combined graph** (`web/public/data/nodes.json` / `edges.json`, the canonical triples ∪ wiki union with per-edge source tags — the schema-compatible input for the whole `scripts/04_` series), with wiki-layer and triples-layer figures given as decompositions where they differ:
+All metrics were computed on the **combined graph** (`web/public/data/nodes.json` / `edges.json`, the canonical triples ∪ wiki union with per-edge source tags — the schema-compatible input for the whole `scripts/analysis/` series), with wiki-layer and triples-layer figures given as decompositions where they differ:
 
 ```bash
 # Multi-metric source×target analysis (shortest-path multiplicity, neighbor
 # Jaccard/signature, Adamic-Adar, k-core, spectral, effective-resistance,
 # personalized PageRank) — full raw outputs: raw_caspases_combined_graph.txt
 # (combined union) and raw_caspases_wiki_graph_node.txt (wiki layer)
-uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
+uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
   --graph <combined union serialized to graph.json schema> \
   --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
             caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
@@ -260,11 +260,11 @@ uv run --with networkx --with scipy python3 scripts/04_node_analysis.py \
 # triples layer) + caspase-targeted AA sweeps on the wiki layer
 # (raw_caspases_wiki_graph_link_prediction.txt) and the combined graph
 # (raw_caspases_combined_graph.txt, incl. per-layer degree decomposition)
-uv run --with networkx python3 scripts/04_link_prediction.py
+uv run --with networkx python3 scripts/analysis/link_prediction.py
 
 # Biological role classes (Sink/Spreader/Bottleneck/etc., triples-graph
-# classifier via scripts/_node_roles_lib.py) — web/public/data/node_roles.json
-uv run python3 scripts/04_role_query.py --node "Caspase-3"
+# classifier via scripts/lib/node_roles.py) — web/public/data/node_roles.json
+uv run python3 scripts/analysis/role_query.py --node "Caspase-3"
 ```
 
 Spectral parameters: combined giant component λ₂ = 0.188 (4084 nodes / 3839 giant-component nodes / 31,719 edges); wiki-layer giant component λ₂ = 0.802; PPR damping α = 0.85; effective-resistance null sample n = 300.

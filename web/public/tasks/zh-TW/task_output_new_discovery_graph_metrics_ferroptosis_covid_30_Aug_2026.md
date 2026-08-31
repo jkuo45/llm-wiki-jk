@@ -3,7 +3,7 @@ title: "解讀一個發現的降臨 — 當新實體進入知識圖譜時，圖�
 description: "當一個發現被引入並逐步成熟時，知識圖譜的計算會發生什麼——以逐年重播的方式對鐵死亡 2012→2026（介數中心性 ×1000、k-core 8→19、AA 可預見性 0.8→0.6）與 COVID/疫苗 2020→2026（社群跨越、以 Lymphopenia 種子作為通往 CD38/NAD+ 的唯一橋樑）逐項追蹤五階段生命週期。邊帶有語意與方向——合併圖譜的 3,895 條型別化邊（inhibits/activates/promotes/protects_against + confidence + provenance）將共同提及轉化為蘊含——屬性轉移（statins 繼承鐵死亡的鐵/CoQ10 屬性雲）、型別化路徑組合預測未知連結（COVID-19→SIRT3→（煞車釋放）→鐵死亡，早於 2024 年 COVID-肺-鐵死亡論文即可推得）、上游/下游杠杆分析，以及帶符號三元組推論。外部實例（baricitinib 的 KG 成功、GLP-1 度數爆炸 + EVOKE 失敗、SGLT2i、PROTAC）、校準數字（Gysi 62% 對 0.8%），以及各項指標能與不能揭示的內容。"
 created: 2026-08-30
 updated: 2026-08-30
-source: 反事實 + 分階段重播模擬（graphify-out/graph.json、wiki-out/wiki-graph.json 與 web/public/data/edges.json 合併層）；scripts/04_node_analysis.py、04_role_query.py、graphify CLI；網路文獻（Cell、Nature、NEJM、Lancet、eLife、PNAS、FDA 2012-2026）
+source: 反事實 + 分階段重播模擬（graphify-out/graph.json、wiki-out/wiki-graph.json 與 web/public/data/edges.json 合併層）；scripts/analysis/node_analysis.py、scripts/analysis/role_query.py、graphify CLI；網路文獻（Cell、Nature、NEJM、Lancet、eLife、PNAS、FDA 2012-2026）
 tags:
   - task-output
   - knowledge-graph
@@ -24,7 +24,7 @@ author: []
 > **任務**：假設有新實體到來——一個新機制（鐵死亡 ferroptosis，2012 年命名）、一個新疾病 + 介入群集（COVID/疫苗，2019-2021）。當這個發現被引入、逐步成熟、且蘊含不斷累積時，各項*計算*會發生什麼？指標——以及**邊帶有語意與方向**這一事實——能否幫助我們理解蘊含，包括那些尚未有人明確指出的連結（例如：某實體 X 與癌症之間先前未知的關聯）？
 > **日期**：30_Aug_2026 12:40 PM PDT
 > **使用的圖譜層**：Triples `graphify-out/graph.json`（型別化、有向、帶置信度評分的抽取結果）· Wiki `wiki-out/wiki-graph.json`（共同提及召回層，`links_to`）· **合併層** `web/public/data/edges.json`（37,318 條邊 = 3,895 條型別化有向邊 + 33,423 條共同提及邊；預設 UI 資料集，亦是 Assumptions Lab 驗證所依據的基底）。
-> **方法**：分階段的逐年重播模擬（發現節點初始為空，依文獻時間軸分批加入邊，每批重新計算指標）、本 repo 自有工具（`04_node_analysis.py`、`04_role_query.py`、`graphify path/explain`）、從合併層抽取型別化邊，以及針對真實發現軌跡的網路文獻研究。
+> **方法**：分階段的逐年重播模擬（發現節點初始為空，依文獻時間軸分批加入邊，每批重新計算指標）、本 repo 自有工具（`scripts/analysis/node_analysis.py`、`scripts/analysis/role_query.py`、`graphify path/explain`）、從合併層抽取型別化邊，以及針對真實發現軌跡的網路文獻研究。
 
 ---
 
@@ -133,7 +133,7 @@ sirt3    --[suppresses]----------> ferroptosis    (conf 0.87)
 ⟹  假說：covid_19 --[解除對……的煞車]--> ferroptosis
 ```
 
-兩條既存於圖譜中的型別化邊*蘊含*了 COVID-肺-鐵死亡連結——而實驗文獻直到 2024 年才確立它（[Qiu 等人，Nat Commun 15:3816](https://www.nature.com/articles/s41467-024-48055-0)——致命 COVID 肺中的鐵死亡特徵）。兩個 repo 層中都不存在 `covid_19 ↔ ferroptosis` 邊；這個連結是一個**兩跳型別化推論**。使用者範例的通用形式：`X --[r1]--> Y --[r2]--> cancer` 組合為 `X --[推論的 r1∘r2]--> cancer`——例如 `X 抑制 Y` + `Y 促進癌症` ⇒ `X --[候選抑制劑]--> cancer`（metformin/SLC7A11 正是這個形狀；baricitinib 亦然，§5）。這是 Hetionet 的 DWPC 特徵與 ROBOKOP 範本查詢背後的 metapath 概念：**關係型別化路徑，而非無向相似度，才是老藥新用的特徵引擎。** Adamic-Adar（無向、無型別）無法表達「抑制一個啟動子」；型別化路徑枚舉可以——這是現行 `04_link_prediction.py` 缺失的一道工序。
+兩條既存於圖譜中的型別化邊*蘊含*了 COVID-肺-鐵死亡連結——而實驗文獻直到 2024 年才確立它（[Qiu 等人，Nat Commun 15:3816](https://www.nature.com/articles/s41467-024-48055-0)——致命 COVID 肺中的鐵死亡特徵）。兩個 repo 層中都不存在 `covid_19 ↔ ferroptosis` 邊；這個連結是一個**兩跳型別化推論**。使用者範例的通用形式：`X --[r1]--> Y --[r2]--> cancer` 組合為 `X --[推論的 r1∘r2]--> cancer`——例如 `X 抑制 Y` + `Y 促進癌症` ⇒ `X --[候選抑制劑]--> cancer`（metformin/SLC7A11 正是這個形狀；baricitinib 亦然，§5）。這是 Hetionet 的 DWPC 特徵與 ROBOKOP 範本查詢背後的 metapath 概念：**關係型別化路徑，而非無向相似度，才是老藥新用的特徵引擎。** Adamic-Adar（無向、無型別）無法表達「抑制一個啟動子」；型別化路徑枚舉可以——這是現行 `scripts/analysis/link_prediction.py` 缺失的一道工序。
 
 ### 4.3 方向區分杠杆與後果
 
@@ -141,13 +141,13 @@ sirt3    --[suppresses]----------> ferroptosis    (conf 0.87)
 
 ### 4.4 帶符號三元組——推論未知邊的符號
 
-型別化符號使**未知**邊的平衡式推論成為可能：若 A 抑制 B 且 B 抑制 C，A 很可能*減輕*了 C 所受的壓力（「我敵人的敵人是朋友」）。Repo 實例：`statins --[sensitize_to]--> ferroptosis`（+）與 `mitohormesis --[protects_against]--> ferroptosis`（−）⇒ 預測一條 **statin↔mitohormesis 拮抗**邊（CoQ10 耗竭侵蝕激效性防禦）——圖譜中無此邊、無論文直接陳述，且可檢驗。這是經典的帶符號連結預測任務（Leskovec 等人 2010）移植到生物學，也是 **Assumptions Lab 衝突**的天然產生器。這個實驗室已從單純的註冊表變成*應用*機制：策展情境存於 `assumptions.json`，而建構流程**在任何指標計算之前就把它們套用到圖譜上**——文件層級的 `excludedSources`（附 `keepTripleIds` 例外）剔除噪訊三元組，機器管理的 `selections` 區塊（canonical 衝突立場，解析為有向邊）增刪邊（刪除優先於抽取，新增贏過去重）。Canonical selections 由 `07_sync_assumptions.py` 在 `03_rebuild_from_triples.py` *之前*自資料庫物化；出處記錄落在 `web/public/data/assumptions-build.json` 與 GRAPH_REPORT.md 的「Assumption State」區段。策展輔助：`03_triple_lookup.py <id>` 將三元組 id 映射到 web 邊鍵；`03_triple_lookup.py --doc-stats` 勘察文件以尋找排除候選。對本報告的後果：當策展立場說「這條抽取邊是錯的」或「這兩條型別化邊蘊含一條缺失的邊」時，修正會*物化進圖譜本身*——包括上述重播指標在內的所有下游指標，都會對修正後的拓撲重新計算。
+型別化符號使**未知**邊的平衡式推論成為可能：若 A 抑制 B 且 B 抑制 C，A 很可能*減輕*了 C 所受的壓力（「我敵人的敵人是朋友」）。Repo 實例：`statins --[sensitize_to]--> ferroptosis`（+）與 `mitohormesis --[protects_against]--> ferroptosis`（−）⇒ 預測一條 **statin↔mitohormesis 拮抗**邊（CoQ10 耗竭侵蝕激效性防禦）——圖譜中無此邊、無論文直接陳述，且可檢驗。這是經典的帶符號連結預測任務（Leskovec 等人 2010）移植到生物學，也是 **Assumptions Lab 衝突**的天然產生器。這個實驗室已從單純的註冊表變成*應用*機制：策展情境存於 `assumptions.json`，而建構流程**在任何指標計算之前就把它們套用到圖譜上**——文件層級的 `excludedSources`（附 `keepTripleIds` 例外）剔除噪訊三元組，機器管理的 `selections` 區塊（canonical 衝突立場，解析為有向邊）增刪邊（刪除優先於抽取，新增贏過去重）。Canonical selections 由 `07_sync_assumptions.py` 在 `scripts/triples/rebuild.py` *之前*自資料庫物化；出處記錄落在 `web/public/data/assumptions-build.json` 與 GRAPH_REPORT.md 的「Assumption State」區段。策展輔助：`03_triple_lookup.py <id>` 將三元組 id 映射到 web 邊鍵；`03_triple_lookup.py --doc-stats` 勘察文件以尋找排除候選。對本報告的後果：當策展立場說「這條抽取邊是錯的」或「這兩條型別化邊蘊含一條缺失的邊」時，修正會*物化進圖譜本身*——包括上述重播指標在內的所有下游指標，都會對修正後的拓撲重新計算。
 
 ### 4.5 讓型別化推論保持誠實的注意事項
 
 - **抽取噪訊**：型別化邊來自 LLM 抽取；置信度 0.5 的邊（例如 `covid_19 --[ameliorates]--> NMN`，一個病例系列假象）與扎實的邊一樣會沿路徑傳播。請以路徑上的最小邊置信度加權。
 - **組合不是演繹**：兩條真邊不保證組合邊為真（情境、劑量、組織全部丟失）。型別化路徑是*假說產生器*，並有校準過的基準率（§5，Gysi：前段排名候選約 10-30% 精度 vs 0.8% 無引導）。
-- **層紀律**：經典中心性腳本（`04_node_analysis.py`）在無向投影上執行——方向在那些計算中被折疊，儘管型別化層仍可用於路徑層級的工序。Wiki 層是真正極性盲的（`links_to`）；合併層不是。每個數字都必須註明所屬層。
+- **層紀律**：經典中心性腳本（`scripts/analysis/node_analysis.py`）在無向投影上執行——方向在那些計算中被折疊，儘管型別化層仍可用於路徑層級的工序。Wiki 層是真正極性盲的（`links_to`）；合併層不是。每個數字都必須註明所屬層。
 
 ---
 
@@ -201,7 +201,7 @@ sirt3    --[suppresses]----------> ferroptosis    (conf 0.87)
 
 1. **每篇新筆記/實體**：立即執行稀疏節點的 AA 附著 + PPR 領域歸屬（可預見性會衰減）；記錄前 25 名作為審核佇列——並記錄獲准了哪些*種子關係型別*，因為它們決定了機制走廊的閘門（Lymphopenia 效應）。
 2. **加入型別化路徑工序**（`04_` 候選）：在合併圖譜的 3,895 條型別化邊上枚舉兩跳組合（以最小置信度加權、標記類比），以組合置信度 × AA 支持度排名——這就是「未知連結」引擎（X→癌症類），而且它會提前兩年就排出 COVID→鐵死亡。
-3. **探勘帶符號三元組**以尋找 Assumptions-Lab 衝突（敵人的敵人與雙正三角）；註冊進 `assumptions.json` 並解析立場——建構流程如今會把實驗室*套用*到圖譜上（selections → 有向邊增刪；噪訊文件用 `excludedSources`），因此已解析的衝突會改變所有下游指標。任何 triples/假設變更的執行順序：`03_normalize_triples_schema.py` → `07_sync_assumptions.py`（物化 canonical selections）→ `03_rebuild_from_triples.py` → `05_build_combined.py` / `05_rebuild_from_wiki.py` → `07_sync_to_db.py` + `07_sync_content.py`。策展輔助：`03_triple_lookup.py <id>`（三元組 → web 邊鍵）與 `03_triple_lookup.py --doc-stats`（排除候選）。目前註冊表：1 個情境，鐵死亡/COVID 覆蓋為零。
+3. **探勘帶符號三元組**以尋找 Assumptions-Lab 衝突（敵人的敵人與雙正三角）；註冊進 `assumptions.json` 並解析立場——建構流程如今會把實驗室*套用*到圖譜上（selections → 有向邊增刪；噪訊文件用 `excludedSources`），因此已解析的衝突會改變所有下游指標。任何 triples/假設變更的執行順序：`scripts/triples/normalize.py` → `07_sync_assumptions.py`（物化 canonical selections）→ `scripts/triples/rebuild.py` → `scripts/combined/build.py` / `scripts/wiki/rebuild.py` → `scripts/sync/graph_to_db.py` + `scripts/sync/content_to_db.py`。策展輔助：`03_triple_lookup.py <id>`（三元組 → web 邊鍵）與 `03_triple_lookup.py --doc-stats`（排除候選）。目前註冊表：1 個情境，鐵死亡/COVID 覆蓋為零。
 4. **跨重建追蹤每個實體的介數/k-core 軌跡**（擴充 `graph-diff.json`）——正是這個成熟訊號標記了鐵死亡-2020 與 baricitinib 式橋接。
 5. **彌合本次執行所暴露的文獻-vs-圖譜缺口**：直接的 SARS-CoV-2↔CD38/NAD+/PARP 邊（k-core 11→15，介數 ×2）、SARS-CoV-2↔鐵死亡（Nat Commun 2024——目前僅是兩跳型別化蘊含）、Metformin↔長新冠預防（COVID-OUT）、以及 COVID-19↔NMN 上的陰性-RCT 註記。
 6. **在加入疫苗/分層節點之前先具備屬性**（劑量×年齡×性別、證據層級）——平均化會抹掉發現本身。
@@ -211,7 +211,7 @@ sirt3    --[suppresses]----------> ferroptosis    (conf 0.87)
 
 ## 8 · 來源
 
-**Repo 產物與工具**：`graphify-out/graph.json` · `wiki-out/wiki-graph.json` · `web/public/data/edges.json`（合併層；3,895 條型別化邊已驗證）· `web/public/data/link-prediction.json` · `web/public/data/assumptions.json`（含套用狀態：`assumptions-build.json`、GRAPH_REPORT「Assumption State」；canonical selections 由 `07_sync_assumptions.py` 同步）· `04_node_analysis.py` · `04_role_query.py` · `03_triple_lookup.py` · 重播/反事實工具（暫存 `replay_growth.py`、`sim_new_discovery.py`——若採用應晉級至 `scripts/`）。
+**Repo 產物與工具**：`graphify-out/graph.json` · `wiki-out/wiki-graph.json` · `web/public/data/edges.json`（合併層；3,895 條型別化邊已驗證）· `web/public/data/link-prediction.json` · `web/public/data/assumptions.json`（含套用狀態：`assumptions-build.json`、GRAPH_REPORT「Assumption State」；canonical selections 由 `07_sync_assumptions.py` 同步）· `scripts/analysis/node_analysis.py` · `scripts/analysis/role_query.py` · `03_triple_lookup.py` · 重播/反事實工具（暫存 `replay_growth.py`、`sim_new_discovery.py`——若採用應晉級至 `scripts/`）。
 
 **型別化邊與老藥新用方法**：[Rephetio/Hetionet（DWPC metapaths），eLife 2017](https://elifesciences.org/articles/26726) · [Guney 等人，Nat Commun 2016](https://www.nature.com/articles/ncomms10331) · [Cheng 等人，Nat Commun 2018](https://www.nature.com/articles/s41467-018-05116-5) · [Gysi 等人，PNAS 2021](https://www.pnas.org/doi/10.1073/pnas.2025581118) · [ROBOKOP（範本查詢、抗性排序）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/) · [DRKG](https://github.com/gnn4dr/DRKG) · [SPOKE](https://spoke.ucsf.edu/) · [帶符號連結預測，Leskovec 等人 2010](https://cs.stanford.edu/people/jure/pubs/signpsw.pdf) · [Insilico 第 3 期 IPF，2026](https://insilico.com/news/xmjsn4l091-insilico-initiates-phase-iii-clinical-tr)
 
