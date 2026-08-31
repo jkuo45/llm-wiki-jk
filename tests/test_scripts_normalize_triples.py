@@ -1,10 +1,10 @@
-"""Tests for scripts/03_normalize_triples_schema.py (v2 multilingual schema)."""
+"""Tests for scripts/triples/normalize.py (v2 multilingual schema)."""
 
 import json
 
 from script_loader import load_script
 
-norm_mod = load_script("03_normalize_triples_schema")
+norm_mod = load_script("triples/normalize")
 
 
 def legacy_triple(**overrides):

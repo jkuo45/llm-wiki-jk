@@ -1,4 +1,4 @@
-"""Tests for scripts/00_readme_update_counts.py (README markers + web tasks)."""
+"""Tests for scripts/vault/readme_counts.py (README markers + web tasks)."""
 
 import argparse
 import json
@@ -9,7 +9,7 @@ import pytest
 
 from script_loader import load_script
 
-rc = load_script("00_readme_update_counts")
+rc = load_script("vault/readme_counts")
 
 
 # ----------------------------------------------------------------------

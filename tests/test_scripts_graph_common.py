@@ -1,4 +1,4 @@
-"""Tests for scripts/_graph_common.py — shared graph-build helpers."""
+"""Tests for scripts/lib/graph_common.py — shared graph-build helpers."""
 
 import json
 
@@ -7,8 +7,8 @@ import pytest
 
 from script_loader import load_script
 
-gc = load_script("_graph_common")
-nrl = load_script("_node_roles_lib")
+gc = load_script("lib/graph_common")
+nrl = load_script("lib/node_roles")
 
 
 # ----------------------------------------------------------------------

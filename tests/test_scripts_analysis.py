@@ -1,4 +1,4 @@
-"""Tests for the scripts/04_* analysis tools.
+"""Tests for the scripts/analysis tools.
 
 Uses a small synthetic graph.json (the same schema graphify-out/graph.json uses)
 with two hubs that share neighbours but are not adjacent — the canonical
@@ -14,10 +14,10 @@ import pytest
 
 from script_loader import load_script
 
-ana = load_script("04_node_analysis")
-lp = load_script("04_link_prediction")
-rq = load_script("04_role_query")
-nrl = load_script("_node_roles_lib")
+ana = load_script("analysis/node_analysis")
+lp = load_script("analysis/link_prediction")
+rq = load_script("analysis/role_query")
+nrl = load_script("lib/node_roles")
 
 
 # ----------------------------------------------------------------------
@@ -74,7 +74,7 @@ def G(graph_path):
 
 
 # ======================================================================
-# 04_node_analysis
+# analysis/node_analysis
 # ======================================================================
 
 class TestNodeAnalysisHelpers:
@@ -115,7 +115,7 @@ class TestNodeAnalysisHelpers:
 
     def test_main_end_to_end(self, graph_path, monkeypatch, capsys):
         monkeypatch.setattr(sys, "argv", [
-            "04_node_analysis.py", "--graph", str(graph_path),
+            "analysis/node_analysis.py", "--graph", str(graph_path),
             "--sources", "hub1", "--targets", "Hub Two", "--seed", "1",
         ])
         ana.main()  # exercises every report_* section incl. spectral
@@ -127,7 +127,7 @@ class TestNodeAnalysisHelpers:
 
 
 # ======================================================================
-# 04_link_prediction
+# analysis/link_prediction
 # ======================================================================
 
 class TestCandidatePairs:
@@ -217,7 +217,7 @@ class TestValidate:
 
 
 # ======================================================================
-# 04_role_query
+# analysis/role_query
 # ======================================================================
 
 def role_record(nid, label, **metrics):

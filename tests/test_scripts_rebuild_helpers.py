@@ -1,17 +1,17 @@
 """Tests for pure helpers in the two graph rebuild pipelines:
 
-- scripts/03_rebuild_from_triples.py (triple confidence/context/timestamps)
-- scripts/05_rebuild_from_wiki.py   (frontmatter + wikilink text handling)
+- scripts/triples/rebuild.py (triple confidence/context/timestamps)
+- scripts/wiki/rebuild.py   (frontmatter + wikilink text handling)
 """
 
 from script_loader import load_script
 
-rb = load_script("03_rebuild_from_triples")
-wiki = load_script("05_rebuild_from_wiki")
+rb = load_script("triples/rebuild")
+wiki = load_script("wiki/rebuild")
 
 
 # ======================================================================
-# 03_rebuild_from_triples
+# triples/rebuild
 # ======================================================================
 
 class TestResolveConf:
@@ -83,7 +83,7 @@ class TestNewer:
 
 
 # ======================================================================
-# 05_rebuild_from_wiki
+# wiki/rebuild
 # ======================================================================
 
 class TestStripDocPrefix:

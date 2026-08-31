@@ -1,4 +1,4 @@
-"""Tests for scripts/99_generate_thumbnail.py and 99_sort_manifest_tags_relevance.py."""
+"""Tests for scripts/tools/thumbnail.py and 99_sort_manifest_tags_relevance.py."""
 
 import json
 
@@ -6,16 +6,16 @@ import pytest
 
 from script_loader import load_script
 
-th = load_script("99_generate_thumbnail")
-ms = load_script("99_sort_manifest_tags_relevance")
+th = load_script("tools/thumbnail")
+ms = load_script("tools/sort_manifest_tags")
 
-pytest.importorskip("PIL", reason="99_generate_thumbnail requires Pillow")
+pytest.importorskip("PIL", reason="tools/thumbnail requires Pillow")
 
 from PIL import Image  # noqa: E402
 
 
 # ----------------------------------------------------------------------
-# 99_generate_thumbnail
+# tools/thumbnail
 # ----------------------------------------------------------------------
 
 def make_image(path, size=(800, 600), color=(200, 30, 30), fmt="PNG"):
@@ -141,7 +141,7 @@ class TestSaveThumbnail:
 class TestMain:
     def _run(self, monkeypatch, *flags):
         import sys
-        monkeypatch.setattr(sys, "argv", ["99_generate_thumbnail.py", *flags])
+        monkeypatch.setattr(sys, "argv", ["tools/thumbnail.py", *flags])
         return th.main()
 
     def test_generate_then_skip_then_force(self, images_env, monkeypatch):
@@ -179,7 +179,7 @@ class TestMain:
 
 
 # ----------------------------------------------------------------------
-# 99_sort_manifest_tags_relevance
+# tools/sort_manifest_tags
 # ----------------------------------------------------------------------
 
 class TestKebab:

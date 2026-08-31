@@ -1,4 +1,4 @@
-"""Tests for scripts/05_build_combined.py — triples+wiki merge and graph diff."""
+"""Tests for scripts/combined/build.py — triples+wiki merge and graph diff."""
 
 import json
 
@@ -6,7 +6,7 @@ import pytest
 
 from script_loader import load_script
 
-cb = load_script("05_build_combined")
+cb = load_script("combined/build")
 
 
 def triples_web_data():

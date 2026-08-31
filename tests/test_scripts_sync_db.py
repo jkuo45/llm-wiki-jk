@@ -1,4 +1,4 @@
-"""Tests for scripts/07_sync_to_db.py pure row builders (no Supabase needed)."""
+"""Tests for scripts/sync/graph_to_db.py pure row builders (no Supabase needed)."""
 
 import json
 
@@ -6,9 +6,9 @@ import pytest
 
 from script_loader import load_script
 
-sync = load_script("07_sync_to_db")
+sync = load_script("sync/graph_to_db")
 
-pytest.importorskip("yaml", reason="07_sync_to_db imports PyYAML")
+pytest.importorskip("yaml", reason="sync/graph_to_db imports PyYAML")
 
 
 # ----------------------------------------------------------------------

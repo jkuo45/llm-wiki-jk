@@ -1,10 +1,10 @@
-"""Tests for scripts/_node_roles_lib.py — the shared biological role classifier."""
+"""Tests for scripts/lib/node_roles.py — the shared biological role classifier."""
 
 import pytest
 
 from script_loader import load_script
 
-nrl = load_script("_node_roles_lib")
+nrl = load_script("lib/node_roles")
 
 
 # ----------------------------------------------------------------------
@@ -192,6 +192,6 @@ class TestClassifyAll:
     def test_ids_stable_across_graph_modes(self):
         # norm() is the join key between triples/wiki/combined graphs
         from script_loader import load_script as _
-        gc = _("_graph_common")
+        gc = _("lib/graph_common")
         assert gc.norm("SIRT1") == "sirt1"
         assert gc.norm("[[SIRT1]]") == "sirt1"

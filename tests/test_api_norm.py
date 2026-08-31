@@ -1,10 +1,10 @@
-"""api.norm — canonical id normalization must mirror scripts/_graph_common.py."""
+"""api.norm — canonical id normalization must mirror scripts/lib/graph_common.py."""
 
 from api.norm import norm
 
 from script_loader import load_script
 
-pipeline_norm = load_script("_graph_common").norm
+pipeline_norm = load_script("lib/graph_common").norm
 
 
 class TestNorm:
