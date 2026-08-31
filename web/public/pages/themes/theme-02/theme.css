@@ -552,6 +552,22 @@ figcaption strong {
   font-weight: 600;
 }
 
+/* Muted italic aside within figure captions */
+.fig-note {
+  color: var(--mute);
+  font-style: italic;
+  display: inline-block;
+  margin-top: 4px;
+}
+.fig-note strong {
+  color: var(--mute);
+  font-style: normal;
+  font-weight: 600;
+}
+
+sup { font-size: 0.7em; }
+sub { font-size: 0.7em; }
+
 .fig-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1352,7 +1368,8 @@ body.lb-open {
   }
 
   /* Table: reduce padding and font size */
-  .table-wrap table {
+  .table-wrap table,
+  .table-host table {
     font-size: 12.5px;
   }
 
@@ -1361,8 +1378,20 @@ body.lb-open {
   }
 
   .table-wrap table th:first-child,
-  .table-wrap table td:first-child {
+  .table-wrap table td:first-child,
+  .table-host table th:first-child,
+  .table-host table td:first-child {
     min-width: 110px;
+  }
+
+  /* Long prose columns (CJK wraps at any character) get a comfortable width so
+     the table scrolls horizontally instead of collapsing to narrow, hard-to-read
+     columns. Numeric (.num) columns and the sticky first column keep defaults. */
+  .table-wrap table th:not(:first-child),
+  .table-host table th:not(:first-child),
+  .table-wrap table td:not(:first-child):not(.num),
+  .table-host table td:not(:first-child):not(.num) {
+    min-width: 150px;
   }
 
   /* Notes: reduce padding */

@@ -286,5 +286,23 @@
                 "updated": "2026-08-30"
             }
         }
+    },
+    {
+        "id": "beyond-mitohormesis-overlooked-paradigms",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Beyond Mitohormesis — 12 Overlooked Hormetic Domains",
+                "path": "pages/en-US/beyond-mitohormesis-overlooked-paradigms.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            },
+            "zh-TW": {
+                "title": "超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域",
+                "path": "pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
     }
 ]

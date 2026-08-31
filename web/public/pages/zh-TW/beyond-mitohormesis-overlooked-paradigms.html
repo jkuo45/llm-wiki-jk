@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>超越粒線體毒物興奮效應 — 被忽視的「一點壞反而是好」生物學範疇</title>
+<meta name="description" content="數據驅動的十二大生物領域綜述，呈現毒物興奮效應（hormesis）劑量反應——低劑量壓力源產生適應性益處——因負面框架而系統性被忽視。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<style>
+  /* page-specific palette for SVGs */
+  :root {
+    --teal: #2a9d8f;
+    --red: #c1121f;
+    --amber: #e9c46a;
+    --green: #345443;
+    --blue: #264653;
+    --purple: #7b2cbf;
+  }
+  .domain-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 18px 0 22px; }
+  @media (min-width: 720px) { .domain-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 960px) { .domain-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .domain-card { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px 12px; position: relative; }
+  .domain-card h3 { margin: 0 0 6px; font-size: 0.95rem; }
+  .domain-card p { font-size: 0.88rem; color: var(--ink-soft); margin: 0; }
+  .domain-num { font-family: var(--mono); font-size: 11px; color: var(--oxblood); position: absolute; top: 14px; right: 16px; }
+  .evidence-tag { display: inline-block; font-family: var(--mono); font-size: 10px; padding: 1px 6px; border: 1px solid currentColor; border-radius: 2px; margin-top: 6px; }
+  .evidence-tag.strong { color: var(--green); }
+  .evidence-tag.emerging { color: var(--gold); }
+  .evidence-tag.contested { color: var(--red); }
+  .key-stat { font-family: var(--mono); font-size: 1.6rem; font-weight: 700; color: var(--oxblood); }
+  .comparison-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin: 18px 0 22px; }
+  @media (max-width: 720px) { .comparison-row { grid-template-columns: 1fr; } }
+  .comparison-cell { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; text-align: center; }
+  .comparison-cell .label { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); margin-bottom: 6px; }
+  .flow-line { border-top: 1px solid var(--rule); margin: 24px 0; }
+  /* Remove the extra bottom padding on this page's main grid (shared .page
+     default is 36px 0 80px; links up against the footer instead). */
+  .wrap.page { padding-bottom: 0; }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳至內容</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#overview">總覽</a>
+      <a href="#landscape">十二領域</a>
+      <a href="#radiation">輻射</a>
+      <a href="#ros">ROS 訊號</a>
+      <a href="#inflammation">發炎反應</a>
+      <a href="#hypoxia">缺氧</a>
+      <a href="#fasting">禁食</a>
+      <a href="#immune">免疫教育</a>
+      <a href="#thermal">溫度暴露</a>
+      <a href="#psych">心理壓力</a>
+      <a href="#xeno">異體毒物興奮</a>
+      <a href="#alcohol">酒精 J 曲線</a>
+      <a href="#gut">腸道微生物</a>
+      <a href="#bone">骨骼／機械力</a>
+      <a href="#synthesis">綜合分析</a>
+      <a href="#refs">參考文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">研究綜述 · llm-wiki-jk</p>
+    <h1>超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域</h1>
+    <p class="lede">
+      毒物興奮效應的核心論點——亞毒性壓力觸發適應性韌性——在運動生理學和熱量限制中早已被確立。然而，<b style="color:var(--oxblood)">至少另外十二個生物領域</b>展現了相同的雙相模式，其中有益的低劑量反應被系統性忽視，原因在於壓力源本身帶有壓倒性的負面意涵。本綜述以證據、機制與定量劑量反應數據描繪每個領域。
+    </p>
+    <div class="meta">
+      <p><strong>來源：</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md" target="_blank">src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md</a></code></p>
+      <p><strong>文獻：</strong> 2024–2026 原始文獻 · 統合分析 · 前瞻性世代資料</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#overview">總覽</a></li>
+      <li><a href="#landscape">12 大領域概覽</a></li>
+      <li><a href="#radiation">輻射毒物興奮</a></li>
+      <li><a href="#ros">ROS 訊號</a></li>
+      <li><a href="#inflammation">發炎反應</a></li>
+      <li><a href="#hypoxia">間歇性缺氧</a></li>
+      <li><a href="#fasting">熱量壓力</a></li>
+      <li><a href="#immune">免疫教育</a></li>
+      <li><a href="#thermal">溫度暴露</a></li>
+      <li><a href="#psych">心理壓力</a></li>
+      <li><a href="#xeno">異體毒物興奮</a></li>
+      <li><a href="#alcohol">酒精 J 曲線</a></li>
+      <li><a href="#gut">腸道微生物</a></li>
+      <li><a href="#bone">骨骼／機械力</a></li>
+      <li><a href="#synthesis">綜合分析</a></li>
+      <li><a href="#refs">參考文獻</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== OVERVIEW ==================== -->
+    <section id="overview">
+      <p class="sec-label">框架</p>
+      <h2>30–60% 特徵值：毒物興奮效應的通用定量標記</h2>
+      <p class="drop">
+        Calabrese 的統合分析工作涵蓋超過 800 個劑量反應數據集——跨越細菌、酵母、植物與動物——揭示最大毒物興奮刺激始終為<strong>基準線以上 30–60%</strong>，不論壓力源類型、物種或終點指標。這個定量上限界定了生物可塑性的極限，是判斷某一反應屬於毒物興奮效應而非藥理或毒理效應的最可靠標記。
+      </p>
+      <p>
+        Li 等人於 2024 年發表於《Nature》的綜述（101 次引用、36k 次存取）與 2026 年 Springer「韌性熔爐」論文皆指出，<strong>80–90% 的毒物興奮研究在標準搜尋詞下不可見</strong>，因為不同領域使用不同的語言——「適應性反應」、「預處理」、「反覆訓練效應」、「正向壓力」——卻未意識到它們共享相同的生物基底。
+      </p>
+
+      <!-- FIGURE 1: Hormetic Dose-Response Curve -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 1 · 劑量–反應</span>
+        </div>
+        <div class="fig-canvas" id="fig1Canvas"></div>
+        <figcaption>
+          <strong>經典毒物興奮雙相劑量–反應曲線。</strong>
+          亞毒性劑量產生 30–60% 的刺激性過衝（綠色陰影區域），在較高劑量時反應逆轉。<em>x</em> 軸代表壓力源強度（輻射、ROS、缺氧、溫度、毒素濃度）；<em>y</em> 軸代表相對於對照組（1.0）的生物反應。灰色陰影區域標示跨物種觀察到的典型毒物興奮窗口。Calabrese &amp; Baldwin（2001），<em>Human &amp; Experimental Toxicology</em>，被引用 460+ 次。
+        </figcaption>
+      </figure>
+
+      <div class="comparison-row">
+        <div class="comparison-cell">
+          <div class="label">壓力源類別</div>
+          <div class="key-stat">12</div>
+          <p style="font-size:.85rem; color:var(--mute); margin-top:6px;">輻射 · ROS · 發炎 · 缺氧 · 禁食 · 微生物 · 溫度 · 心理 · 毒素 · 酒精 · 腸道 · 機械力</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">最大刺激範圍</div>
+          <div class="key-stat">30–60%</div>
+          <p style="font-size:.85rem; color:var(--mute); margin-top:6px;">高於基準線——跨物種、性別與終點指標一致。此上限為毒物興奮效應的定量特徵（Calabrese, 2011，被引用 338 次）。</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">文獻不可見性</div>
+          <div class="key-stat">80–90%</div>
+          <p style="font-size:.85rem; color:var(--mute); margin-top:6px;">毒物興奮相關研究因各領域術語碎片化，在標準搜尋詞下被遺漏（Li et al., 2024, <em>Nature</em>）。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 12-DOMAIN LANDSCAPE ==================== -->
+    <section id="landscape">
+      <p class="sec-label">概覽</p>
+      <h2>12 個被忽視的毒物興奮領域 — 證據強度 vs. 被忽視程度</h2>
+      <p>
+        以下每個領域由兩個軸映射：<strong>證據強度</strong>（雙相劑量–反應的文獻支持程度）和<strong>被忽視程度</strong>（壓力源的負面框架在多大程度上壓制了對其毒物興奮益處的認知）。位於右上象限的領域——高證據、高忽視——代表當前臨床與研究典範中最顯著的盲區。
+      </p>
+
+      <!-- FIGURE 2: 12-Domain Radar/Overview -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 2 · 領域概覽</span>
+        </div>
+        <div class="fig-canvas" id="fig2Canvas"></div>
+        <figcaption>
+          <strong>12 個被忽視的毒物興奮領域，按證據強度與臨床忽視程度排序。</strong>
+          x 軸為臨床忽視程度（越右 = 越被忽視），y 軸為證據強度（越上 = 越強）——因此<em>右上</em>區域為高證據、高忽視的盲區。氣泡大小反映支持文獻基礎的估算量；顏色編碼<strong>證據等級</strong>——綠色 = 已確立、琥珀色 = 新興、紅色 = 有爭議。虛線標示各軸中點以利四區域判讀。
+          <em class="fig-note"><strong>附註：</strong>群聚位於右上而非中央——根據本論文定義，此處每個領域在臨床上已實質被忽視（忽視程度 ≥ 軸中點），且多數證據充分，故少有落點出現在低忽視或低證據區域。有爭議（紅色）領域位於證據中線下方。</em>
+        </figcaption>
+      </figure>
+
+      <div class="domain-grid">
+        <div class="domain-card">
+          <span class="domain-num">01</span>
+          <h3>低劑量輻射</h3>
+          <p>LDR 激活 ATM → DNA 修復 → FOXO → 抗氧化防禦。拉姆薩爾居民：每年最高 260 mSv，無 DNA 損傷增加。LNT 模型阻礙了監管認可。</p>
+          <span class="evidence-tag contested">有爭議</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">02</span>
+          <h3>ROS 訊號</h3>
+          <p>ROS 是 NRF2、AMPK、HIF-1α 的關鍵第二信使。高劑量抗氧化劑在大型隨機對照試驗中增加死亡率（ATBC、CARET）。「自由基理論」框架仍然盛行。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">03</span>
+          <h3>發炎反應</h3>
+          <p>急性發炎驅動組織修復。NSAIDs 抑制衛星細胞增殖與反覆訓練效應。抗發炎藥物的過度使用在臨床上普遍存在。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">04</span>
+          <h3>間歇性缺氧</h3>
+          <p>IHC 改善老年人認知功能（5 項已註冊試驗）。HIF-1α 穩定化與粒線體毒物興奮途徑趨同。缺氧 = 臨床恐懼。</p>
+          <span class="evidence-tag emerging">新興</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">05</span>
+          <h3>熱量壓力／禁食</h3>
+          <p>禁食時間（而非僅熱量減少）觸發自噬 + BDNF + mTORC1 抑制。禁食在臨床上被框架為營養不良風險。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">06</span>
+          <h3>衛生假說／老朋友</h3>
+          <p>微生物暴露訓練 Treg 細胞。農場兒童：氣喘大幅降低。蠕蟲療法：RCT 結果不一致但機制已驗證。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">07</span>
+          <h3>熱／冷暴露</h3>
+          <p>三溫暖：每週 4–7 次 → 心血管死亡率降低 50%（Laukkanen, n=2,315, 20.7 年）。寒冷：BAT 激活 + RBM3 突觸再生。無藥物等價物 → 研究有限。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">08</span>
+          <h3>心理壓力</h3>
+          <p>SIT → 靈長類前額葉皮質體積增大。Yerkes-Dodson 倒 U 型 = 心理毒物興奮。心理健康領域專注於減壓，而非壓力滴定。</p>
+          <span class="evidence-tag emerging">新興</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">09</span>
+          <h3>異體毒物興奮／植物化學物質</h3>
+          <p>蘿蔔硫素 → NRF2 激活效率為飲食抗氧化劑的 10–100 倍。低生物利用度可能使化合物維持在毒物興奮窗口內。「抗氧化」框架掩蓋了機制。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">10</span>
+          <h3>低劑量酒精</h3>
+          <p>J 曲線：Copenhagen Heart Study 中每日 3–5 杯，心血管 RR 0.51。孟德爾隨機化挑戰因果關係。公共衛生「無安全劑量」框架。</p>
+          <span class="evidence-tag contested">有爭議</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">11</span>
+          <h3>腸道微生物定殖</h3>
+          <p>FMT 對復發性<em>困難梭菌</em>治癒率 >80%。無菌動物：免疫力低下、BDNF 減少。SCFAs 激活 GPR41/43 與自噬。</p>
+          <span class="evidence-tag strong">已確立</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">12</span>
+          <h3>骨骼機械壓力</h3>
+          <p>Wolff 定律：骨骼適應負荷。微重力 → 快速骨質流失；負荷 → 重塑。骨折預防著重於 Ca²⁺/D 而非漸進式負荷訓練。</p>
+          <span class="evidence-tag emerging">新興</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RADIATION ==================== -->
+    <section id="radiation">
+      <p class="sec-label">低劑量輻射毒物興奮</p>
+      <h2>最具爭議性的盲區</h2>
+      <p>
+        輻射被普遍框架為有害。<strong>線性無閾值模型（LNT）</strong>——假設零安全劑量——主導全球輻射防護法規，儘管反證日益增多。承認毒物興奮效應將需要重構安全標準以及公眾對核能、醫學影像和背景輻射的溝通方式。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>研究群組</th>
+              <th class="num">劑量</th>
+              <th>發現</th>
+              <th>機制</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>伊朗拉姆薩爾</strong>（Ghiassi-Nejad et al., 2004; Kanani, 2025）</td>
+              <td class="num">最高 260 mSv/yr</td>
+              <td>與正常背景輻射人群相比，DNA 損傷無顯著增加。DNA 修復能力增強。</td>
+              <td>↑ CD4⁺ T 細胞上的 CD69、↑ 血清 IgE、增強淋巴細胞修復</td>
+            </tr>
+            <tr>
+              <td><strong>原爆外圍倖存者</strong></td>
+              <td class="num">~10–100 mSv</td>
+              <td>癌症死亡率反常降低，平均壽命延長。</td>
+              <td>透過 ATM → p53 的毒物興奮免疫/修復激活</td>
+            </tr>
+            <tr>
+              <td><strong>NASA / Mortazavi 研究</strong></td>
+              <td class="num">~5–50 mSv</td>
+              <td>適應性反應可能增強太空人對太空飛行中感染的抵抗力。</td>
+              <td>NF-κB、NRF2/ARE 抗氧化防禦</td>
+            </tr>
+            <tr>
+              <td><strong>統合分析證據</strong>（Calabrese）</td>
+              <td class="num">&lt;10 cGy</td>
+              <td>雙相：低劑量有益，超過閾值有害。</td>
+              <td>ATM → MAPK/ERK/JNK → p53 介導的修復</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note slate">
+        <h4>機制趨同</h4>
+        <p>
+          低劑量輻射毒物興奮透過與粒線體毒物興奮相同的<strong>ATM → DNA 損傷反應 → FOXO → 抗氧化防禦級聯</strong>運作。「壓力訊號」是游離輻射而非粒線體 ROS，但下游適應性架構是保守的。兩者皆匯聚於 AMPK、NRF2 與 SIRT1——相同的營養/壓力感知網路。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== ROS SIGNALING ==================== -->
+    <section id="ros">
+      <p class="sec-label">ROS 訊號</p>
+      <h2>自由基衰老理論的崩塌</h2>
+      <p>
+        數十年來，活性氧（ROS）被塑造成明確的細胞反派。「自由基衰老理論」（FRTA）催生了一個龐大的抗氧化補充劑產業，建立在「消除 ROS = 健康」的假設上。數據壓倒性地反駁了這一框架：<strong>高劑量抗氧化補充劑增加大型隨機對照試驗中的死亡率</strong>。
+      </p>
+
+      <!-- FIGURE 3: Antioxidant Supplement Meta-Analyses -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 3 · 抗氧化補充劑 × 死亡率</span>
+        </div>
+        <div class="fig-canvas" id="fig3Canvas"></div>
+        <figcaption>
+          <strong>抗氧化補充劑全因死亡率統合分析風險比（RCT，低偏倚試驗）。</strong>
+          條形圖顯示相對風險及 95% CI。數值 &gt;1.0 表示死亡風險增加。β-胡蘿蔔素（RR 1.06）、維生素 A（RR 1.16）和維生素 E（RR 1.04）在低偏倚試驗中顯著增加死亡率。維生素 C 和硒無顯著效果。數據來自 Bjelakovic et al.（2007），<em>JAMA</em>；47 項低偏倚試驗，180,938 名受試者。
+        </figcaption>
+      </figure>
+
+      <div class="note gold">
+        <h4>運動–抗氧化悖論</h4>
+        <p>
+          運動在中等水平產生 ROS，協調粒線體生物合成、抗氧化防禦、神經可塑性與血管恆定（Dimauro et al., 2026, <em>Free Radical Biology and Medicine</em>）。運動期間共同補充抗氧化劑<strong>削弱了這些適應性益處</strong>——與同時給予抗氧化劑會減弱 metformin 延壽效果的發現完全一致。這就是經典的粒線體毒物興奮級聯：運動誘導的粒線體 ROS → AMPK → PGC-1α → 粒線體生物合成。
+        </p>
+      </div>
+
+      <p>
+        從「ROS = 損傷」到「ROS = 訊號」的轉變之所以緩慢，是因為氧化壓力 → 疾病的敘事在醫學教育、行銷與患者溝通中根深蒂固。2025 年《Signal Transduction and Targeted Therapy》綜述呼籲<strong>「精準氧化還原醫學」</strong>——調節而非消除 ROS。
+      </p>
+    </section>
+
+    <!-- ==================== INFLAMMATION ==================== -->
+    <section id="inflammation">
+      <p class="sec-label">發炎反應</p>
+      <h2>治癒敵人</h2>
+      <p>
+        「發炎」在公共衛生訊息中幾乎已成為疾病的同義詞。慢性發炎確實有害，但<strong>急性發炎反應是組織修復與免疫防禦的基本機制</strong>。抗發炎藥物的過度使用（NSAIDs、類固醇）會抑制驅動適應的途徑，反而損害癒合。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>現象</th>
+              <th>毒物興奮機制</th>
+              <th>臨床意義</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>運動誘導的肌肉損傷（EIMD）</strong></td>
+              <td>離心運動 → 暫時性 TNF-α、IL-6、IP-10、MCP-1 → 衛星細胞激活 → 肌肉再生</td>
+              <td>運動後 NSAIDs<strong>抑制衛星細胞增殖</strong>（Mikkelsen et al., 2009），損害長期適應</td>
+            </tr>
+            <tr>
+              <td><strong>反覆訓練效應</strong></td>
+              <td>初始損傷性訓練 → 神經、結構、分子適應 → 後續訓練損傷逐漸減少</td>
+              <td>預處理運動（高強度前的低強度離心運動）代表一種未被充分利用的毒物興奮策略</td>
+            </tr>
+            <tr>
+              <td><strong>發燒作為免疫放大器</strong></td>
+              <td>輕度發燒 → ↑ 免疫細胞活性、↑ T 細胞增殖、改善病原體清除</td>
+              <td>感染期間常規使用退燒藥可能延長病程（嚴重發燒仍然危險）</td>
+            </tr>
+            <tr>
+              <td><strong>急性 vs. 慢性發炎</strong></td>
+              <td>相同的分子因子根據時機和幅度執行相反功能（Zhang et al., 2026）</td>
+              <td>臨床抗發炎干預往往未區分適應性發炎與病理性發炎</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ==================== HYPOXIA ==================== -->
+    <section id="hypoxia">
+      <p class="sec-label">間歇性缺氧</p>
+      <h2>低氧作為大腦和心臟的刺激劑</h2>
+      <p>
+        缺氧是令人恐懼的臨床事件——中風、高原反應、睡眠呼吸中止。但<strong>間歇性、可控的輕度缺氧</strong>能激活極具益處的適應途徑。「低氧」的負面框架遮蔽了一個與粒線體毒物興奮幾乎完全平行的治療窗口。
+      </p>
+
+      <div class="note">
+        <h4>機制趨同</h4>
+        <p>
+          間歇性缺氧 → <strong>HIF-1α → 粒線體 ROS → AMPK → PGC-1α</strong> 與粒線體毒物興奮級聯幾乎相同。「訊號」是氧氣缺乏而非電子傳輸鏈抑制，但適應性迴路高度重疊。在<em>線蟲</em>中，輕度缺氧 → 暫時性 mtROS → HIF-1 → ROS 正回饋 → AMPK 負回饋 → ROS 穩態與壽命延長及免疫力增強（Li et al., 2024）。
+        </p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>研究／綜述</th>
+              <th>介入措施</th>
+              <th>結果</th>
+              <th class="num">n</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Boulares et al. (2024), <em>J Alzheimer's Disease</em></td>
+              <td>老年人 IHT / IHHT</td>
+              <td>認知功能改善，包括輕度認知障礙</td>
+              <td class="num">7 項研究 + 5 項已註冊試驗</td>
+            </tr>
+            <tr>
+              <td>Burtscher et al. (2026), <em>AIMS Neuroscience</em></td>
+              <td>間歇性缺氧訓練</td>
+              <td>多項先導研究顯示認知與心理健康改善</td>
+              <td class="num">多項先導研究</td>
+            </tr>
+            <tr>
+              <td>Coimbra-Costa et al. (2021)</td>
+              <td>間歇性低壓缺氧預處理</td>
+              <td>透過 ↑ 抗氧化活性、↑ EPO、↓ 細胞凋亡實現神經保護</td>
+              <td class="num">動物模型</td>
+            </tr>
+            <tr>
+              <td>Li et al. (2024), <em>Nature</em></td>
+              <td><em>線蟲</em>輕度缺氧</td>
+              <td>壽命延長 + 免疫力增強（HIF-1/AMPK/mtROS 回饋）</td>
+              <td class="num">模式生物</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        臨床情境中的缺氧（睡眠呼吸中止、中風、圍手術期事件）是災難性的。受過預防缺氧訓練的臨床醫師認為<em>受控</em>低氧可能具有治療作用，似乎違背直覺。該領域也受困於混淆的術語——「治療性缺氧」vs.「間歇性缺氧訓練」vs.「高原訓練」——使文獻碎片化。
+      </p>
+    </section>
+
+    <!-- ==================== FASTING ==================== -->
+    <section id="fasting">
+      <p class="sec-label">熱量壓力與禁食</p>
+      <h2>飢餓作為細胞清理</h2>
+      <p>
+        禁食在臨床上被框架為缺乏狀態——低血糖、肌肉流失和代謝壓力的風險因子。然而間歇性禁食和熱量限制是跨物種最強健的長壽介入措施之一。2026 年《Frontiers in Nutrition》論文明確將間歇性禁食框架為<strong>適應的毒物興奮訊號</strong>（Strilbytska &amp; Lushchak, 2026）。
+      </p>
+
+      <div class="note forest">
+        <h4>能量赤字本身就是訊號</h4>
+        <p>
+          2025 年《Nature Communications》一項針對 3×Tg 阿茲海默小鼠的研究發現，<strong>能量限制配合長時間禁食</strong>——而不僅是減少熱量——是認知改善、Aβ 斑塊減少、tau 病理減少和 mTORC1 抑制所必需的。<em>禁食時間</em>才是毒物興奮觸發因子。另有一項 2025 年 DZD 研究顯示，無熱量減少的間歇性禁食（等熱量限時進食）轉移了生理時鐘但<strong>未</strong>改善心臟代謝健康——表明代謝壓力成分（而非僅進食時間）驅動毒物興奮反應。
+        </p>
+      </div>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="domain-card">
+          <h3>代謝轉換（12–36 小時）</h3>
+          <p>大腦從葡萄糖轉向 β-羥基丁酸（BHB）。BHB 透過組蛋白去乙醯酶抑制誘導 BDNF 表現，增強海馬迴神經新生與突觸可塑性（Seidler &amp; Barrow, 2022）。</p>
+        </div>
+        <div class="domain-card">
+          <h3>自噬激活</h3>
+          <p>AMPK → TFEB → 溶酶體生物合成 → 自噬。清除受損粒線體和蛋白質聚集物。與粒線體毒物興奮的 UPR<sub>mt</sub> 和粒線體自噬臂直接重疊。</p>
+        </div>
+      </div>
+
+      <p>
+        臨床營養指南著重於吃<em>什麼</em>，而非<em>何時</em>或<em>間歇性少吃</em>。發現禁食狀態本身是一種毒物興奮壓力源——啟動自噬、粒線體品質控制和神經營養途徑——意味著週期性熱量赤字可以像運動一樣被刻意處方。
+      </p>
+    </section>
+
+    <!-- ==================== IMMUNE EDUCATION ==================== -->
+    <section id="immune">
+      <p class="sec-label">衛生假說／老朋友</p>
+      <h2>感染作為免疫教育</h2>
+      <p>
+        現代衛生雖然對傳染病預防至關重要，但無意中剝奪了免疫系統數百萬年來共同進化的微生物訓練訊號。由此引發的自體免疫和過敏疾病流行，代表了一項大規模的群體實驗——當毒物興奮輸入（微生物暴露）被移除時會發生什麼。
+      </p>
+
+      <div class="note gold">
+        <h4>「老朋友」假說（Graham Rook）</h4>
+        <p>
+          並非關於感染本身，而是關於共生菌、腐生分枝桿蟲和蠕蟲——人類與之共同進化的生物體——它們訓練調節性 T 細胞（Treg）並校準免疫耐受（PMC 10524266, 2023）。在農場長大、接觸多樣微生物的兒童氣喘和過敏率大幅降低。接觸穀倉灰塵、動物微生物群和環境微生物創造了「耐受性黏膜共生」，具有平衡的抗發炎環境。
+        </p>
+      </div>
+
+      <div class="note" style="border-left-color: var(--gold);">
+        <h4>蠕蟲療法 — 感染即藥物</h4>
+        <p>
+          一項早期的<em>豬鞭蟲</em>卵（TSO）治療克隆氏症的開放標籤研究顯示<strong>79% 臨床反應率</strong>，72% 患者達到臨床緩解（Summers et al., 2005）。然而後續的第二期 RCT（TRUST-I: n=250; TRUST-II: n=252）未能顯示優於安慰劑的主要終點。差異可能反映開放標籤與對照環境的差異、伴隨用藥效應或 IBD 的自然緩解率。TSO 確實顯示<strong>劑量依賴性免疫反應</strong>——確認了生物機制——即使未達臨床分離。透過 Bacteroides sp. 和 Clostridium clusters IV/XIVa 進行的 Treg 教育在機制上仍被驗證為關鍵途徑。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== THERMAL ==================== -->
+    <section id="thermal">
+      <p class="sec-label">溫度壓力</p>
+      <h2>冷熱暴露作為細胞維護</h2>
+      <p>
+        極端高溫和低溫都是致命的。臨床和公共衛生的回應是將<em>所有</em>溫度壓力最小化，而非認識到受控的間歇性暴露能激活深度保守的保護性級聯。2026 年《Frontiers in Rehabilitation Science》論文稱此為「康復中未被開發的潛力」（Alito et al., 2026）。
+      </p>
+
+      <!-- FIGURE 4: Sauna Dose-Response (Hazard Ratios) -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 4 · 三溫暖 × 心血管死亡率</span>
+        </div>
+        <div class="fig-canvas" id="fig4Canvas"></div>
+        <figcaption>
+          <strong>芬蘭 Kuopio 缺血性心臟病研究 — 按三溫暖頻率分列的心血管死亡率危害比。</strong>
+          與每週 1 次相比，每週 4–7 次使心血管死亡風險降低<strong>50%</strong>（HR 0.50, 95% CI 0.33–0.77）於男性（n=2,315, 20.7 年追蹤），以及<strong>77%</strong>（HR 0.23, 95% CI 0.08–0.65）於男女合計（n=1,688, 15 年追蹤）。觀察到線性劑量–反應且無閾值效應。數據：Laukkanen et al. (2015), <em>JAMA Internal Medicine</em>; Laukkanen et al. (2018), <em>BMC Medicine</em>。
+        </figcaption>
+      </figure>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="domain-card" style="border-left: 3px solid var(--oxblood);">
+          <h3>🜁 熱（三溫暖／高溫）</h3>
+          <p><strong>HSP70/HSP90</strong> → 分子伴侶修復錯誤折疊蛋白質——與長壽科學核心的蛋白質恆定網路相同。正腎上腺素釋放量與最大運動相當。HSPs 被熱量限制、運動和粒線體毒物興奮訊號激活——是蛋白質恆定的核心，也是衰老的標誌之一。</p>
+          <span class="evidence-tag strong">證據已確立</span>
+        </div>
+        <div class="domain-card" style="border-left: 3px solid var(--slate);">
+          <h3>❄ 冷（冷療／冷水浸泡）</h3>
+          <p><strong>棕色脂肪組織（BAT）</strong>激活 → UCP1 → ↑ 能量消耗 + 胰島素敏感性。冷休克蛋白 <strong>RBM3</strong> 再生流失的突觸。暴露後多巴胺持續增加 250%——與藥物介入相當。Søberg 方案：每週 11 分鐘冷 + 57 分鐘熱，以冷結束。</p>
+          <span class="evidence-tag emerging">新興證據</span>
+        </div>
+      </div>
+
+      <p>
+        <strong>對比療法</strong>——交替熱（血管擴張）和冷（血管收縮）——訓練內皮功能和自主神經系統靈活性，本質上是利用毒物興奮原理的「血管訓練」。無論熱或冷暴露都無藥物等價物，因此產業缺乏研究或推廣的動力。
+      </p>
+    </section>
+
+    <!-- ==================== PSYCHOLOGICAL STRESS ==================== -->
+    <section id="psych">
+      <p class="sec-label">心理壓力接種</p>
+      <h2>逆境作為認知訓練</h2>
+      <p>
+        心理壓力被壓倒性地框架為病理性的。「正向壓力」（eustress）概念在心理學中存在，但很少在臨床上應用。Yerkes-Dodson 倒 U 型（1908）在一個世紀前就預見了這一點，但大多數心理健康介入專注於壓力<em>減輕</em>而非壓力<em>滴定</em>。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>發現</th>
+              <th>證據</th>
+              <th>啟示</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Yerkes-Dodson 定律</strong></td>
+              <td>表現隨喚醒度提升至最佳值後下降。倒 U 型 = 心理毒物興奮曲線。</td>
+              <td>最佳壓力區間是可訓練的，而非固定的。</td>
+            </tr>
+            <tr>
+              <td><strong>壓力接種訓練（SIT）</strong></td>
+              <td>接種的猴子發展出更高的認知控制、更強的好奇心和<strong>更大的前額葉皮質體積</strong>（Lyons &amp; Parker, 2007）。</td>
+              <td>適度、受管理的壓力帶來可測量的腦結構變化。</td>
+            </tr>
+            <tr>
+              <td><strong>創傷後成長（PTG）</strong></td>
+              <td>約 50% 的創傷倖存者報告有意義的正面心理變化（Tedeschi &amp; Calhoun, 1996）。</td>
+              <td>極端創傷可能創造一種高可塑狀態，類似中風後的神經重組。</td>
+            </tr>
+            <tr>
+              <td><strong>認知儲備</strong></td>
+              <td>適度的人生逆境，在妥善管理下，比無困難的生活建立更強的認知韌性。</td>
+              <td>樹突分支、突觸發生和海馬迴體積隨挑戰而增加。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note" style="border-left-color: var(--red);">
+        <h4 style="color: var(--red);">劑量很重要</h4>
+        <p>
+          慢性、壓倒性的壓力會物理性地縮小海馬迴、使 HPA 軸失調並導致恆定負載過度。毒物興奮益處<strong>僅在可管理、可恢復的範圍內</strong>適用。這與粒線體毒物興奮原理完全相同：亞致死粒線體壓力延長壽命；致死粒線體壓力殺死細胞。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== XENOHORMESIS ==================== -->
+    <section id="xeno">
+      <p class="sec-label">低劑量毒素暴露</p>
+      <h2>異體毒物興奮與植物化學物質</h2>
+      <p>
+        「毒素」一詞引發即時迴避。但植物產生數千種溫和的有毒化合物——多酚、生物鹼、異硫氰酸酯——動物已進化出感知這些環境挑戰訊號的能力。我們的<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Xenohormesis.md" target="_blank">異體毒物興奮</a>筆記在 wiki 中涵蓋此主題，但臨床意涵尚未充分探索。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>化合物</th>
+              <th>來源</th>
+              <th>毒物興奮機制</th>
+              <th>關鍵洞見</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>蘿蔔硫素</strong></td>
+              <td>花椰菜苗</td>
+              <td>在亞毒性劑量下激活 NRF2</td>
+              <td>上調內源性抗氧化酶的效率比飲食抗氧化劑高 10–100 倍</td>
+            </tr>
+            <tr>
+              <td><strong>白藜蘆醇</strong></td>
+              <td>紅酒、葡萄</td>
+              <td>激活 SIRT1 和 AMPK</td>
+              <td>高劑量補充劑的敘事 largely 已被推翻；毒物興奮微劑量概念仍然有效</td>
+            </tr>
+            <tr>
+              <td><strong>薑黃素</strong></td>
+              <td>薑黃</td>
+              <td>激活 HSF1 和 NRF2</td>
+              <td>低生物利用度可能是優勢——使組織濃度維持在毒物興奮窗口內</td>
+            </tr>
+            <tr>
+              <td><strong>4-HNE</strong></td>
+              <td>脂質過氧化產物</td>
+              <td>作為適應性訊號激活 NRF2</td>
+              <td>傳統上是「損傷標記物」——實際上是低濃度下的毒物興奮誘導劑</td>
+            </tr>
+            <tr>
+              <td><strong>Metformin</strong></td>
+              <td>藥物</td>
+              <td>Complex I 抑制 → SIRT1/PGC-1α/FOXO</td>
+              <td>共同給予抗氧化劑減弱益處——經典的藥物毒物興奮範例</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        植物化學物質到健康的管道以「抗氧化」框架為主導——彷彿這些化合物透過清除自由基起作用。實際上，大多數植物化學物質透過<strong>輕度毒性</strong>起作用，觸發細胞自身更強大的內源性防禦系統。這是異體毒物興奮的洞見，但很少向患者或公眾傳達。
+      </p>
+    </section>
+
+    <!-- ==================== ALCOHOL ==================== -->
+    <section id="alcohol">
+      <p class="sec-label">低劑量酒精</p>
+      <h2>有爭議的 J 曲線</h2>
+      <p>
+        「J 型曲線」——低至中度酒精攝取與較低的心血管和全因死亡率相關（低於完全不飲酒）——一直是流行病學中最具爭議的現象之一。近期孟德爾隨機化研究挑戰了因果解釋，但雙相效應的機制證據仍然令人信服。
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>研究</th>
+              <th class="num">n</th>
+              <th>發現</th>
+              <th>限制</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Copenhagen City Heart Study</strong></td>
+              <td class="num">13,285</td>
+              <td>紅酒：心血管死亡率穩定 ↓，每日 3–5 杯達到 RR 0.51（12 年追蹤）</td>
+              <td>觀察性研究；生活方式因子混雜</td>
+            </tr>
+            <tr>
+              <td><strong>孟德爾隨機化</strong>（Kember et al., 2024, <em>MVP</em>）</td>
+              <td class="num">&gt;250,000</td>
+              <td>J 曲線可能部分反映系統性偏差——「因病戒酒」的戒酒群組、社會經濟混雜因素</td>
+              <td>遺傳工具可能未完全滿足排除限制</td>
+            </tr>
+            <tr>
+              <td><strong>毒物興奮詮釋</strong></td>
+              <td class="num">—</td>
+              <td>若酒精激活低劑量適應途徑（輕度 ER 壓力 → UPR、輕度 ROS → NRF2），效應會很小且易被混雜</td>
+              <td>理論性質；毒物興奮窗口（基準線以上 30–60%）在嘈雜的流行病學資料中容易被淹沒</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        公共衛生訊息無法安全地建議飲酒（WHO 2023「無安全劑量」），因此 J 曲線被系統性淡化。毒物興奮框架——某種物質在高劑量有害、在低劑量透過適應性壓力反應激活而輕度有益——理論上一致，但實際上無法轉化為臨床指引。
+      </p>
+    </section>
+
+    <!-- ==================== GUT MICROBIOME ==================== -->
+    <section id="gut">
+      <p class="sec-label">微生物定殖</p>
+      <h2>菌群失調作為訊號</h2>
+      <p>
+        現代醫學將所有細菌過度生長框架為需要消除的感染。但腸道微生物群存在於一個連續體上，適度的微生物挑戰驅動免疫成熟、代謝調節，甚至神經遞質的產生。
+      </p>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="domain-card">
+          <h3>無菌動物研究</h3>
+          <p>在無微生物環境中長大的動物具有發育不全的免疫系統、受損的腸道屏障功能、減少的 BDNF 和異常的腦部發育。重新引入共生菌可恢復這些缺陷——證明微生物定殖是發育必需，而非可選輸入。</p>
+        </div>
+        <div class="domain-card">
+          <h3>糞便微生物群移植</h3>
+          <p>FMT 對復發性<em>困難梭菌</em>的治癒率 >80%——本質上是「重新播種」生態系統。治療因子是<strong>活菌</strong>——感染即治癒。抗生素後的恢復既代表脆弱窗口，也代表適應機會。</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <h4>微生物代謝物作為毒物興奮訊號</h4>
+        <p>
+          腸道發酵產生的短鏈脂肪酸（丁酸、丙酸）激活 GPR41/43 受體、調節自噬並影響全身發炎。這些是具有適應性益處的輕度代謝壓力產物。整個抗生素處方典範都可以受益於毒物興奮思維：在控制病原體的同時保留共生菌群的「最低有效劑量」方法，將維持免疫系統所需的訓練訊號。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== BONE / MECHANICAL ==================== -->
+    <section id="bone">
+      <p class="sec-label">骨骼機械壓力</p>
+      <h2>Wolff 定律作為毒物興奮</h2>
+      <p>
+        太空中的骨質流失、廢用性骨質疏鬆和脆性骨折廣為人知。但正面的另一面——毒物興奮窗口內的機械負荷是<strong>骨重塑和肌腱強化的主要訊號</strong>——獲得的臨床關注遠少於鈣/維生素 D 補充和跌倒預防。
+      </p>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div class="domain-card">
+          <h3>Wolff 定律</h3>
+          <p>骨骼根據承受的負荷調整其結構。BMD 隨負重運動增加，在微重力下減少——教科書級的毒物興奮反應。</p>
+        </div>
+        <div class="domain-card">
+          <h3>肌腱適應</h3>
+          <p>肌腱隨漸進式負荷增強，但因突然過載或完全休息而退化。「最佳點」涉及適度的機械挑戰加上充分恢復——倒 U 型。</p>
+        </div>
+        <div class="domain-card">
+          <h3>肌肉–骨骼串擾</h3>
+          <p>肌肉的機械負荷釋放肌肉因子（IL-6、IGF-1、irisin），直接刺激成骨細胞活性——另一個產生全身適應性益處的輕度壓力源。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SYNTHESIS ==================== -->
+    <section id="synthesis">
+      <p class="sec-label">綜合分析</p>
+      <h2>所有領域的共同架構</h2>
+      <p>
+        儘管這十二個領域多樣化，它們都共享趨同的生物邏輯。相同的營養/壓力感知器（AMPK、HIF-1α、NRF2、SIRT1）偵測不同的壓力源類型，並激活相同的下游適應效應器。30–60% 的上限是其定量特徵。
+      </p>
+
+      <!-- FIGURE 5: Convergent Signaling Cascade -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 5 · 趨同級聯</span>
+        </div>
+        <div class="fig-canvas" id="fig5Canvas"></div>
+        <figcaption>
+          <strong>趨同的毒物興奮訊號架構。</strong>
+          多樣的壓力源類型（輻射、ROS、缺氧、毒素、禁食、溫度壓力、機械負荷、感染）全部匯入相同的保守感知器網路（AMPK、HIF-1α、NRF2、SIRT1），並激活相同的下游效應器（PGC-1α、HSP70/90、BDNF、內源性抗氧化劑、Treg 擴增、BAT 激活、骨重塑）。先前列壓的記憶以表觀遺傳、免疫或結構方式編碼。
+        </figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>特徵</th>
+              <th>粒線體毒物興奮</th>
+              <th>所有其他領域</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>壓力訊號</strong></td>
+              <td>粒線體 ROS / ETC 干擾</td>
+              <td>游離輻射、缺氧、毒素、溫度壓力、感染、機械負荷、心理挑戰</td>
+            </tr>
+            <tr>
+              <td><strong>感知器</strong></td>
+              <td>AMPK、HIF-1α、NRF2、SIRT1</td>
+              <td>相同的保守營養/壓力感知器</td>
+            </tr>
+            <tr>
+              <td><strong>適應效應器</strong></td>
+              <td>PGC-1α → 粒線體生物合成、UPR<sub>mt</sub>、抗氧化酶</td>
+              <td>HSP70/90、內源性抗氧化劑、Treg 擴增、BDNF、BAT 激活、骨重塑</td>
+            </tr>
+            <tr>
+              <td><strong>記憶</strong></td>
+              <td>壓力防禦基因的表觀遺傳重編程</td>
+              <td>免疫記憶、反覆訓練效應、認知儲備、BAT 招募</td>
+            </tr>
+            <tr>
+              <td><strong>劑量窗口</strong></td>
+              <td class="num">~30–60%</td>
+              <td class="num">30–60% — 跨物種一致（Calabrese）</td>
+            </tr>
+            <tr>
+              <td><strong>過量後果</strong></td>
+              <td>細胞死亡、SAMD、炎性老化</td>
+              <td>疾病、組織損傷、認知退化、免疫失調</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <h4>統一原則</h4>
+        <p>
+          生命在一個持續、多變的壓力環境中進化。消除所有壓力源——無論是透過抗氧化補充劑、抗發炎藥物、抗生素過度使用、溫度舒適、缺乏運動還是壓力迴避——剝奪了細胞維持恆定能力所需的訓練訊號。由此產生的病理不是健康的缺失，而是<strong>挑戰的缺失</strong>。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== REFERENCES ==================== -->
+    <section id="refs">
+      <p class="sec-label">參考文獻</p>
+      <h2>關鍵來源</h2>
+      <ul class="refs">
+        <li>Calabrese, E.J. &amp; Baldwin, L.A. (2001). The frequency of U-shaped dose responses in the toxicological literature. <em>Toxicol. Sci.</em> 62: 330–338.（被引用 460+ 次）</li>
+        <li>Calabrese, E.J. (2011). Hormesis provides a generalized quantitative estimate of biology, toxicology and medicine. <em>Dose-Response</em> 9: 85–91.（被引用 338 次）</li>
+        <li>Li, X. et al. (2024). Current advances and future trends of hormesis in disease. <em>Nature</em>. 101 次引用，36k 次存取。</li>
+        <li>Calabrese, E.J. et al. (2026). The crucible of resilience: hormesis as the unifying explanatory principle of life. <em>Archives of Toxicology</em>.</li>
+        <li>Ghiassi-Nejad, M. et al. (2004). Health status of the residents of high natural background radiation. <em>Radiat. Prot. Dosimetry</em>.</li>
+        <li>Kanani, A. (2025). Adaptive Response: A Scoping Review. <em>Dose-Response</em>.</li>
+        <li>Ansari, W.A. et al. (2025). ROS: sources, generation, disease pathophysiology. <em>Discover Chemistry</em>.</li>
+        <li>Dimauro, I. et al. (2026). ROS in exercise biology. <em>Free Radical Biology and Medicine</em>.</li>
+        <li>Bjelakovic, G. et al. (2007). Mortality in randomized trials of antioxidant supplements. <em>JAMA</em> 297(8): 842–857. 47 項低偏倚試驗，n=180,938。</li>
+        <li>Mikkelsen, U.R. et al. (2009). NSAIDs and satellite cell proliferation post-exercise.</li>
+        <li>Zhang, Q. et al. (2026). Systems integrative mechanisms in exercise-induced skeletal muscle damage. <em>IJMS</em>.</li>
+        <li>Boulares, A. et al. (2024). Intermittent hypoxia protocols on cognitive performance in older adults. <em>J Alzheimer's Disease</em>. 7 項研究，5 項已註冊試驗。</li>
+        <li>Burtscher, M. et al. (2026). Combining exercise and hypoxia for brain health. <em>AIMS Neuroscience</em>.</li>
+        <li>Strilbytska, O. &amp; Lushchak, O. (2026). Intermittent fasting as a hormetic signal for adaptation. <em>Frontiers in Nutrition</em>.</li>
+        <li>Rook, G.A.W. et al. (2023). The old friends hypothesis: evolution, immunoregulation. PMC 10524266.</li>
+        <li>Laukkanen, T. et al. (2015). Association between sauna bathing and fatal cardiovascular and all-cause mortality events. <em>JAMA Internal Medicine</em> 175(4): 542–548. n=2,315, 20.7 年追蹤。</li>
+        <li>Laukkanen, T. et al. (2018). Sauna bathing is associated with reduced cardiovascular mortality in men and women. <em>BMC Medicine</em>. n=1,688, 15 年追蹤。</li>
+        <li>Laukkanen, J.A. et al. (2018). Cardiovascular and other health benefits of sauna bathing: a review of the evidence. <em>Mayo Clinic Proceedings</em> 93(8): 1111–1121.</li>
+        <li>Alito, A. et al. (2026). Thermal stress: untapped potential in rehabilitation. <em>Frontiers in Rehabilitation Science</em>.</li>
+        <li>Lyons, D.M. &amp; Parker, K.J. (2007). Seeding stress resilience through inoculation. PMC 4736400.</li>
+        <li>Summers, R.W. et al. (2005). Trichuris suis therapy for active ulcerative colitis. <em>NEJM</em>. Open-label Crohn's: 79% response.</li>
+        <li>Schölmerich, J. et al. (2017). Randomised, double-blind, placebo-controlled trial of TSO in active Crohn's disease. <em>J Crohn's Colitis</em> 11(4): 390–399. n=252.</li>
+        <li>Miller, A.P. (2025). Still rethinking the J-shaped curve. <em>Alcohol: Clinical and Experimental Research</em>.</li>
+        <li>Kember, R. et al. (2024). Mendelian randomization analysis of alcohol and mortality. <em>MVP</em>. n&gt;250,000.</li>
+        <li>Mattson, M.P. et al. (2024). The hormesis principle of neuroplasticity and neuroprotection. <em>Cell Metabolism</em>.</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      建構自 <code>src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md</code> ·
+      llm-wiki-jk · 於 2026 年 8 月 30 日生成 · 面向生物學家與分析師的數據驅動綜述
+    </p>
+  </div>
+</footer>
+
+<!-- ===== PAGE-SPECIFIC FIGURE CODE ===== -->
+<script>
+(function () {
+  "use strict";
+
+  var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead, wrapText = T2.wrapText;
+  var W = 1000; // default viewBox width
+
+  // Multi-line centered text within a box (alphabetic baseline, vertically centred on cy)
+  function boxLines(svg, cx, cy, lines, opts) {
+    opts = opts || {};
+    var size = opts.size || 12;
+    var gap = opts.lineGap || 2;
+    var totalH = lines.length * size + (lines.length - 1) * gap;
+    var y0 = cy - totalH / 2 + size / 2;
+    lines.forEach(function (line, i) {
+      text(svg, cx, y0 + i * (size + gap), line, opts);
+    });
+  }
+  // Label above a bubble: one or two centred lines anchored at topY
+  function domLabel(svg, cx, topY, lines, opts) {
+    opts = opts || {};
+    var size = opts.size || 12;
+    lines = lines.filter(function (l) { return l && l.length > 0; });
+    if (lines.length === 1) {
+      text(svg, cx, topY, lines[0], opts);
+    } else if (lines.length > 1) {
+      text(svg, cx, topY, lines[0], opts);
+      text(svg, cx, topY + size + 3, lines[1], opts);
+    }
+  }
+
+  // --- FIGURE 1: Hormetic Dose-Response Curve ---
+  (function () {
+    var host = document.getElementById("fig1Canvas");
+    if (!host) return;
+    var H = 400;
+    var svg = svgRoot(host, W, H, "毒物興奮雙相劑量–反應曲線");
+
+    // axes
+    var gx = 90, gy = 42, gw = W - 120, gh = H - 100;
+    el("line", { x1: gx, y1: gy + gh, x2: gx + gw, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    el("line", { x1: gx, y1: gy, x2: gx, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+
+    // baseline at y = 55% of gh (response = 1.0)
+    var baseY = gy + gh * 0.55;
+    el("line", { x1: gx, y1: baseY, x2: gx + gw, y2: baseY, stroke: "#6d665b", "stroke-width": 1, "stroke-dasharray": "4,4" }, svg);
+    text(svg, gx + gw + 4, baseY + 5, "基準線（1.0）", { size: 13, fill: "#6d665b", mono: true });
+
+    // hormetic zone (shaded)
+    var zoneLeft = gx + gw * 0.08;
+    var zoneRight = gx + gw * 0.42;
+    el("rect", { x: zoneLeft, y: gy + 12, width: zoneRight - zoneLeft, height: baseY - gy - 12, fill: "#345443", opacity: 0.08 }, svg);
+    text(svg, (zoneLeft + zoneRight) / 2, gy + 28, "毒物興奮區", { size: 15, fill: "#345443", weight: 600, anchor: "middle" });
+    text(svg, (zoneLeft + zoneRight) / 2, gy + 50, "30–60% ↑", { size: 13, fill: "#345443", anchor: "middle", mono: true });
+
+    // curve path
+    var points = [];
+    for (var i = 0; i <= 100; i++) {
+      var t = i / 100;
+      var x = gx + t * gw;
+      // hormetic: rise then fall below baseline
+      var y;
+      if (t < 0.22) {
+        y = baseY - Math.sin(t / 0.22 * Math.PI * 0.5) * gh * 0.28;
+      } else if (t < 0.42) {
+        var tt = (t - 0.22) / 0.2;
+        y = baseY - gh * 0.28 + tt * gh * 0.28;
+      } else {
+        var tt2 = (t - 0.42) / 0.58;
+        y = baseY + tt2 * tt2 * gh * 0.25;
+      }
+      points.push(x + "," + y);
+    }
+    el("polyline", { points: points.join(" "), fill: "none", stroke: "#7a312c", "stroke-width": 2.5, "stroke-linejoin": "round" }, svg);
+
+    // peak marker
+    var peakX = gx + gw * 0.18;
+    var peakY = baseY - gh * 0.28;
+    el("circle", { cx: peakX, cy: peakY, r: 5, fill: "#7a312c" }, svg);
+    text(svg, peakX, peakY - 14, "峰值：基準線以上 30–60%", { size: 13, fill: "#7a312c", weight: 600, anchor: "middle" });
+
+    // axis labels
+    text(svg, gx + gw / 2, gy + gh + 46, "壓力源強度 →", { size: 15, fill: "#1c1915", weight: 500, anchor: "middle" });
+    text(svg, gx - 12, gy - 10, "反應 ↑", { size: 15, fill: "#1c1915", weight: 500, anchor: "end" });
+
+    // zone labels
+    text(svg, gx + gw * 0.06, gy + gh + 22, "適應性", { size: 13, fill: "#345443", anchor: "middle" });
+    text(svg, gx + gw * 0.65, gy + gh + 22, "毒性／病理性", { size: 13, fill: "#7a312c", anchor: "middle" });
+
+    // ZEP marker (zero-equivalent point)
+    var noaelX = gx + gw * 0.42;
+    el("line", { x1: noaelX, y1: baseY, x2: noaelX, y2: gy + gh + 8, stroke: "#6d665b", "stroke-width": 1, "stroke-dasharray": "3,3" }, svg);
+    text(svg, noaelX, gy + gh + 20, "ZEP", { size: 12, fill: "#6d665b", anchor: "middle", mono: true });
+  })();
+
+  // --- FIGURE 2: 12-Domain Landscape (Bubble Chart) ---
+  (function () {
+    var host = document.getElementById("fig2Canvas");
+    if (!host) return;
+    var H = 560;
+    var svg = svgRoot(host, W, H, "12 個被忽視的毒物興奮領域：證據 vs. 忽視");
+
+    var gx = 170, gy = 80, gw = W - 170 - 50, gh = 410;
+
+    // axes
+    el("line", { x1: gx, y1: gy + gh, x2: gx + gw, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    el("line", { x1: gx, y1: gy, x2: gx, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+
+    text(svg, gx + gw / 2, gy + gh + 42, "臨床忽視程度 →", { size: 15, fill: "#1c1915", weight: 500, anchor: "middle" });
+    text(svg, gx - 14, gy - 10, "證據強度 ↑", { size: 15, fill: "#1c1915", weight: 500, anchor: "end" });
+
+    // domain data: [labelLines, evidence, oversight, radius, color]
+    var domains = [
+      [["低劑量", "輻射"], 0.44, 0.90, 19, "#c1121f"],
+      [["ROS", "訊號"], 0.95, 0.76, 22, "#345443"],
+      [["發炎"], 0.86, 0.81, 21, "#345443"],
+      [["間歇性", "缺氧"], 0.55, 0.68, 16, "#9a7430"],
+      [["熱量", "壓力"], 0.90, 0.66, 21, "#345443"],
+      [["免疫", "教育"], 0.80, 0.74, 19, "#345443"],
+      [["溫度", "暴露"], 0.81, 0.88, 20, "#345443"],
+      [["心理", "壓力"], 0.56, 0.84, 15, "#9a7430"],
+      [["異體毒物興奮"], 0.74, 0.65, 18, "#345443"],
+      [["酒精", "J 曲線"], 0.38, 0.82, 14, "#c1121f"],
+      [["腸道", "微生物"], 0.77, 0.53, 18, "#345443"],
+      [["骨骼／", "機械力"], 0.58, 0.56, 15, "#9a7430"]
+    ];
+
+    // draw bubbles first (so labels sit on top without being hidden)
+    domains.forEach(function (d) {
+      var cx = gx + d[2] * gw;
+      var cy = gy + gh - d[1] * gh;
+      el("circle", { cx: cx, cy: cy, r: d[3], fill: d[4], opacity: 0.22, stroke: d[4], "stroke-width": 1.5 }, svg);
+      domLabel(svg, cx, cy - d[3] - 10, d[0], { size: 12, fill: "#1c1915", weight: 500, anchor: "middle" });
+    });
+
+    // dashed quadrant dividers
+    el("line", { x1: gx + gw * 0.5, y1: gy, x2: gx + gw * 0.5, y2: gy + gh, stroke: "#d3c9b6", "stroke-width": 1, "stroke-dasharray": "4,4" }, svg);
+    el("line", { x1: gx, y1: gy + gh * 0.5, x2: gx + gw, y2: gy + gh * 0.5, stroke: "#d3c9b6", "stroke-width": 1, "stroke-dasharray": "4,4" }, svg);
+  })();
+
+  // --- FIGURE 3: Antioxidant Supplement Meta-Analyses (Bar Chart) ---
+  (function () {
+    var host = document.getElementById("fig3Canvas");
+    if (!host) return;
+    var H = 400;
+    var svg = svgRoot(host, W, H, "抗氧化補充劑死亡風險比");
+
+    var gx = 150, gy = 30, gw = W - 170, gh = H - 85;
+    var barH = 36, gap = 18;
+
+    // baseline at RR=1.0
+    var baseline = gx + gw * 0.45;
+    var scale = gw * 0.45 / 0.20;
+
+    el("line", { x1: baseline, y1: gy, x2: baseline, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    text(svg, baseline, gy + gh + 20, "RR = 1.0（無效應）", { size: 13, fill: "#6d665b", anchor: "middle", mono: true });
+
+    var data = [
+      ["β-胡蘿蔔素（單獨）", 1.06, 1.02, 1.10, "#c1121f"],
+      ["維生素 A", 1.16, 1.10, 1.24, "#c1121f"],
+      ["維生素 E（單獨）", 1.04, 1.01, 1.07, "#c1121f"],
+      ["維生素 C", 1.01, 0.97, 1.05, "#345443"],
+      ["硒", 0.998, 0.997, 1.00, "#345443"]
+    ];
+
+    data.forEach(function (d, i) {
+      var y = gy + i * (barH + gap);
+      var barStart = baseline;
+      var barEnd = baseline + (d[1] - 1.0) * scale;
+      if (barEnd < baseline) barEnd = baseline;
+
+      var ciStart = baseline + (d[2] - 1.0) * scale;
+      var ciEnd = baseline + (d[3] - 1.0) * scale;
+      el("line", { x1: ciStart, y1: y + barH / 2, x2: ciEnd, y2: y + barH / 2, stroke: d[4], "stroke-width": 2 }, svg);
+      el("line", { x1: ciStart, y1: y + barH / 2 - 8, x2: ciStart, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+      el("line", { x1: ciEnd, y1: y + barH / 2 - 8, x2: ciEnd, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+
+      if (d[1] > 1.0) {
+        el("rect", { x: baseline, y: y, width: Math.max(2, (d[1] - 1.0) * scale), height: barH, fill: d[4], opacity: 0.25 }, svg);
+        el("rect", { x: baseline, y: y, width: Math.max(2, (d[1] - 1.0) * scale), height: barH, fill: "none", stroke: d[4], "stroke-width": 1.5 }, svg);
+      } else {
+        el("rect", { x: baseline - Math.max(2, (1.0 - d[1]) * scale), y: y, width: Math.max(2, (1.0 - d[1]) * scale), height: barH, fill: d[4], opacity: 0.25 }, svg);
+        el("rect", { x: baseline - Math.max(2, (1.0 - d[1]) * scale), y: y, width: Math.max(2, (1.0 - d[1]) * scale), height: barH, fill: "none", stroke: d[4], "stroke-width": 1.5 }, svg);
+      }
+
+      text(svg, gx - 8, y + barH / 2, d[0], { size: 14, fill: "#1c1915", anchor: "end", baseline: "middle" });
+      var valX = d[1] > 1.0 ? baseline + (d[1] - 1.0) * scale + 8 : baseline - (1.0 - d[1]) * scale - 8;
+      var valAnchor = d[1] > 1.0 ? "start" : "end";
+      text(svg, valX, y + barH / 2 + 5, "RR " + d[1], { size: 13, fill: d[4], anchor: valAnchor, mono: true, baseline: "middle" });
+    });
+
+    text(svg, baseline + (1.06 - 1.0) * scale + 4, gy + barH / 2 - 12, "*", { size: 18, fill: "#c1121f", anchor: "middle" });
+    text(svg, baseline + (1.16 - 1.0) * scale + 4, gy + (barH + gap) + barH / 2 - 12, "**", { size: 18, fill: "#c1121f", anchor: "middle" });
+    text(svg, baseline + (1.04 - 1.0) * scale + 4, gy + 2 * (barH + gap) + barH / 2 - 12, "*", { size: 18, fill: "#c1121f", anchor: "middle" });
+
+    text(svg, baseline + 20, gy + gh + 20, "← 傾向有害", { size: 13, fill: "#c1121f", weight: 500 });
+    text(svg, baseline - 20, gy + gh + 20, "傾向有益 →", { size: 13, fill: "#345443", weight: 500, anchor: "end" });
+  })();
+
+  // --- FIGURE 4: Sauna Dose-Response (Hazard Ratios) ---
+  (function () {
+    var host = document.getElementById("fig4Canvas");
+    if (!host) return;
+    var H = 460;
+    var svg = svgRoot(host, W, H, "三溫暖頻率與心血管死亡危害比");
+
+    var gx = 130, gy = 34, gh = 380;
+    var barH = 36, gap = 14;
+
+    var baseline = 740;
+    var scale = 652;
+
+    el("line", { x1: baseline, y1: gy, x2: baseline, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    text(svg, baseline, gy + gh + 20, "HR = 1.0（參考值）", { size: 13, fill: "#6d665b", anchor: "middle", mono: true });
+
+    var menData = [
+      ["1×/週", 1.0, 1.0, 1.0, "#6d665b"],
+      ["2–3×/週", 0.78, 0.57, 1.07, "#2a9d8f"],
+      ["4–7×/週", 0.37, 0.18, 0.75, "#2a9d8f"]
+    ];
+
+    var combinedData = [
+      ["1×/週", 1.0, 1.0, 1.0, "#6d665b"],
+      ["2–3×/週", 0.75, 0.52, 1.08, "#264653"],
+      ["4–7×/週", 0.23, 0.08, 0.65, "#264653"]
+    ];
+
+    function drawBars(data, offsetX, color1) {
+      data.forEach(function (d, i) {
+        var y = gy + offsetX + i * (barH + gap);
+        var barWidth = (1.0 - d[1]) * scale;
+
+        if (d[1] < 1.0) {
+          el("rect", { x: baseline - barWidth, y: y, width: barWidth, height: barH, fill: d[4], opacity: 0.3 }, svg);
+          el("rect", { x: baseline - barWidth, y: y, width: barWidth, height: barH, fill: "none", stroke: d[4], "stroke-width": 1.5 }, svg);
+        } else {
+          el("rect", { x: baseline - 3, y: y, width: 6, height: barH, fill: d[4], opacity: 0.3 }, svg);
+        }
+
+        if (d[2] < d[3]) {
+          var ciStartX = baseline - (1.0 - d[2]) * scale;
+          var ciEndX = d[3] < 1.0 ? baseline - (1.0 - d[3]) * scale : baseline + (d[3] - 1.0) * scale;
+          el("line", { x1: ciStartX, y1: y + barH / 2, x2: ciEndX, y2: y + barH / 2, stroke: d[4], "stroke-width": 2 }, svg);
+          el("line", { x1: ciStartX, y1: y + barH / 2 - 8, x2: ciStartX, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+          el("line", { x1: ciEndX, y1: y + barH / 2 - 8, x2: ciEndX, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+        }
+
+        text(svg, gx - 8, y + barH / 2, d[0], { size: 14, fill: "#1c1915", anchor: "end", baseline: "middle" });
+
+        if (d[1] < 1.0) {
+          text(svg, baseline - barWidth - 8, y + barH / 2 + 5, "HR " + d[1].toFixed(2), { size: 13, fill: d[4], anchor: "end", mono: true, baseline: "middle" });
+        } else {
+          text(svg, baseline + 12, y + barH / 2 + 5, "參考", { size: 13, fill: "#6d665b", anchor: "start", mono: true, baseline: "middle" });
+        }
+      });
+    }
+
+    text(svg, gx, gy + 8, "男性（Laukkanen 2015）", { size: 13, fill: "#2a9d8f", weight: 600 });
+    drawBars(menData, 48, "#2a9d8f");
+
+    text(svg, gx, gy + 8 + (barH + gap) * 3 + 36, "男性 + 女性（Laukkanen 2018）", { size: 13, fill: "#264653", weight: 600 });
+    drawBars(combinedData, 48 + (barH + gap) * 3 + 36, "#264653");
+  })();
+
+  // --- FIGURE 5: Convergent Signaling Cascade (Flow Diagram) ---
+  (function () {
+    var host = document.getElementById("fig5Canvas");
+    if (!host) return;
+    var H = 560;
+    var svg = svgRoot(host, W, H, "橫跨 12 個領域的趨同毒物興奮訊號級聯");
+
+    var arrowId = "arrowFlow";
+    arrowHead(svg, arrowId, "#1c1915");
+
+    // Layout: 3 columns - Stressors → Sensors → Effectors
+    var col1x = 48, col2x = 365, col3x = 682, colW = 196;
+
+    // Column headers
+    text(svg, col1x + colW / 2, 32, "壓力源", { size: 14, fill: "#7a312c", weight: 700, anchor: "middle", mono: true });
+    text(svg, col2x + colW / 2, 32, "感知器", { size: 14, fill: "#2e4a5d", weight: 700, anchor: "middle", mono: true });
+    text(svg, col3x + colW / 2, 32, "效應器", { size: 14, fill: "#345443", weight: 700, anchor: "middle", mono: true });
+
+    // Stressor boxes
+    var stressors = [
+      ["游離輻射"],
+      ["粒線體 ROS"],
+      ["缺氧／", "O₂ 缺乏"],
+      ["溫度壓力"],
+      ["毒素／", "植物化學物"],
+      ["機械負荷"],
+      ["禁食／", "能量赤字"],
+      ["微生物", "挑戰"],
+      ["心理", "壓力"]
+    ];
+    var sBoxH = 34, sGap = 6;
+    var sStartY = 56;
+    stressors.forEach(function (lines, i) {
+      var y = sStartY + i * (sBoxH + sGap);
+      el("rect", { x: col1x, y: y, width: colW, height: sBoxH, fill: "#7a312c", opacity: 0.1, stroke: "#7a312c", "stroke-width": 1 }, svg);
+      boxLines(svg, col1x + colW / 2, y + sBoxH / 2, lines, { size: 12, fill: "#7a312c", anchor: "middle", weight: 500 });
+    });
+
+    // Sensor boxes
+    var sensors = ["AMPK", "NRF2", "HIF-1α", "SIRT1"];
+    var sBoxH2 = 48, sGap2 = 16;
+    var sStartY2 = 100;
+    sensors.forEach(function (s, i) {
+      var y = sStartY2 + i * (sBoxH2 + sGap2);
+      el("rect", { x: col2x, y: y, width: colW, height: sBoxH2, fill: "#2e4a5d", opacity: 0.15, stroke: "#2e4a5d", "stroke-width": 1.5 }, svg);
+      text(svg, col2x + colW / 2, y + sBoxH2 / 2 + 1, s, { size: 17, fill: "#2e4a5d", anchor: "middle", baseline: "middle", weight: 600, mono: true });
+    });
+
+    // Effector boxes
+    var effectors = [
+      ["PGC-1α →", "粒線體生物合成"],
+      ["HSP70 / HSP90 →", "蛋白質恆定"],
+      ["內源性", "抗氧化酶"],
+      ["BDNF →", "神經可塑性"],
+      ["Treg 擴增 →", "免疫耐受"],
+      ["BAT 激活 →", "產熱"],
+      ["骨重塑", "→ Wolff 定律"],
+      ["自噬／", "粒線體自噬"],
+      ["表觀遺傳", "重編程"]
+    ];
+    var eBoxH = 32, eGap = 6;
+    var eStartY = 56;
+    effectors.forEach(function (lines, i) {
+      var y = eStartY + i * (eBoxH + eGap);
+      el("rect", { x: col3x, y: y, width: colW, height: eBoxH, fill: "#345443", opacity: 0.12, stroke: "#345443", "stroke-width": 1 }, svg);
+      boxLines(svg, col3x + colW / 2, y + eBoxH / 2, lines, { size: 11.5, fill: "#345443", anchor: "middle", weight: 500 });
+    });
+
+    // Arrows: stressors → sensors
+    var sEndX = col1x + colW;
+    var s2StartX = col2x;
+    for (var i = 0; i < stressors.length; i++) {
+      var sy = sStartY + i * (sBoxH + sGap) + sBoxH / 2;
+      [0, 1, 2, 3].forEach(function (si) {
+        var ty = sStartY2 + si * (sBoxH2 + sGap2) + sBoxH2 / 2;
+        var opacity = (i % 3 === si % 3) ? 0.4 : 0.14;
+        el("line", { x1: sEndX + 2, y1: sy, x2: s2StartX - 2, y2: ty, stroke: "#6d665b", "stroke-width": 1, opacity: opacity, "marker-end": "url(#" + arrowId + ")" }, svg);
+      });
+    }
+
+    // Arrows: sensors → effectors
+    var s2EndX = col2x + colW;
+    var eStartX = col3x;
+    for (var si = 0; si < sensors.length; si++) {
+      var sy = sStartY2 + si * (sBoxH2 + sGap2) + sBoxH2 / 2;
+      for (var ei = 0; ei < effectors.length; ei++) {
+        var ey = eStartY + ei * (eBoxH + eGap) + eBoxH / 2;
+        var opacity = (si === ei % 4 || si === Math.floor(ei / 2) % 4) ? 0.4 : 0.12;
+        el("line", { x1: s2EndX + 2, y1: sy, x2: eStartX - 2, y2: ey, stroke: "#345443", "stroke-width": 1, opacity: opacity, "marker-end": "url(#" + arrowId + ")" }, svg);
+      }
+    }
+
+    // Memory label
+    text(svg, W / 2, H - 18, "記憶：表觀遺傳重編程 · 免疫記憶 · 反覆訓練效應 · 認知儲備", {
+      size: 13, fill: "#6d665b", anchor: "middle", mono: true
+    });
+  })();
+
+  // Initialize shared behaviors
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+})();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
+     data table (incl. the JS-rendered figures above), with PNG + TSV export. -->
+<script src="../themes/theme-02/pages-svg.js"></script>
+
+</body>
+</html>

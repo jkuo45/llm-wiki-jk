@@ -5,6 +5,7 @@ Used by the standalone article pages:
 - `web/pages/index.html`
 - `node-analysis-examples-biology.html` (+ `_zh-TW`)
 - `adrenochrome-protocol-node-network-analysis.html` (+ `_zh-TW`)
+- `beyond-mitohormesis-overlooked-paradigms.html` (EN only)
 
 Structure mirrors `themes/theme-01/`: shared base assets live here;
 page-specific styles/scripts stay inline in each page.
