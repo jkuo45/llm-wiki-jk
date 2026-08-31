@@ -567,6 +567,99 @@ def main():
             f"- [{display_name}]({task_gh}) {task_wiki} ({t['date']})"
         )
 
+    # Build the graph-datasets table (Combined / Triples / Wiki) from the
+    # web/public/data artifacts. Counts come from the *_nodes.json /
+    # *_edges.json files; build date + short hash come from version.json
+    # (the content hash written by the graph rebuild pipeline).
+    def _json_len(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return len(json.load(f))
+        except Exception:
+            return None
+
+    graph_meta = {}
+    try:
+        with open(os.path.join(args.web_data_dir, "version.json"), "r", encoding="utf-8") as f:
+            graph_meta = json.load(f)
+    except Exception:
+        pass
+    build_hash = (graph_meta.get("hash") or "")[:7]
+    build_dt = None
+    if graph_meta.get("generated"):
+        try:
+            build_dt = datetime.strptime(str(graph_meta["generated"])[:10], "%Y-%m-%d")
+        except ValueError:
+            build_dt = None
+    build_str = build_dt.strftime("%d_%b_%Y").upper() if build_dt else "---"
+
+    dataset_rows = [
+        (
+            "**Combined** *(default)*",
+            "nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json",
+            "nodes.json", "edges.json",
+        ),
+        ("**Triples**", "triples-*.json", "triples-nodes.json", "triples-edges.json"),
+        ("**Wiki**", "wiki-*.json", "wiki-nodes.json", "wiki-edges.json"),
+    ]
+    datasets_table = [
+        "| Dataset | `web/public/data/` files | Nodes | Edges |",
+        "| :--- | :--- | ---: | ---: |",
+    ]
+    counts = {}
+    for name, files, nodes_f, edges_f in dataset_rows:
+        n = _json_len(os.path.join(args.web_data_dir, nodes_f))
+        e = _json_len(os.path.join(args.web_data_dir, edges_f))
+        counts[nodes_f] = n
+        datasets_table.append(
+            f"| {name} | `{files}` | "
+            f"{format_number(n) if n is not None else '---'} | "
+            f"{format_number(e) if e is not None else '---'} |"
+        )
+    # Overlap stats for the merge note (shared ids / edge pairs across the
+    # triples and wiki sources that the combined build deduplicates).
+    def _json_ids(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return {x.get("id") for x in json.load(f)}
+        except Exception:
+            return None
+
+    def _json_pairs(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return {(e.get("from"), e.get("to")) for e in json.load(f)}
+        except Exception:
+            return None
+
+    t_ids = _json_ids(os.path.join(args.web_data_dir, "triples-nodes.json"))
+    w_ids = _json_ids(os.path.join(args.web_data_dir, "wiki-nodes.json"))
+    shared_nodes = len(t_ids & w_ids) if t_ids and w_ids else None
+    t_pairs = _json_pairs(os.path.join(args.web_data_dir, "triples-edges.json"))
+    w_pairs = _json_pairs(os.path.join(args.web_data_dir, "wiki-edges.json"))
+    both_edges = len(t_pairs & w_pairs) if t_pairs and w_pairs else None
+
+    graph_datasets_content = (
+        "\n".join(datasets_table)
+        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
+        + "\n\n> [!info] Combined merge\n"
+        + "> The combined dataset is the union of the triples and wiki graphs, "
+        "deduplicated by canonical id (`norm(label)`). "
+        + (
+            f"{format_number(shared_nodes)} entities appear in both sources "
+            f"({format_number(len(t_ids))} triples + {format_number(len(w_ids))} wiki "
+            f"− {format_number(shared_nodes)} shared → {format_number(counts['nodes.json'])}); "
+            f"edges are unioned by (`from`, `to`) pair — "
+            f"{format_number(both_edges)} edge pairs are shared, and an edge present "
+            "in both graphs is emitted once with both sources recorded.\n"
+            "> Wiki-only community ids are offset by +1000 in the combined legend "
+            "so the cid spaces never collide; wiki-only nodes keep that offset on "
+            "their `community` field."
+            if shared_nodes is not None and both_edges is not None
+            else "> Overlap stats unavailable (missing source files)."
+        )
+    )
+
     # Build marker-delimited sections
     summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
     doc_list_content = (
@@ -588,6 +681,7 @@ def main():
         "summary_table": summary_table_content,
         "document_list": doc_list_content,
         "task_list": task_list_content,
+        "graph_datasets": graph_datasets_content,
     }
 
     # Read existing README if present

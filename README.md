@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 29_AUG_2026 | 34 | 1693 | 1,059,264 | 9.44 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 30_AUG_2026 | 34 | 1695 | 1,061,052 | 9.45 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 29_AUG_2026 | 11 | 280 | 244,374 | 2.77 MB |
@@ -13,9 +13,9 @@
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,999 | 0.98 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 29_AUG_2026 | 19 | 175 | 308,584 | 3.87 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 30_AUG_2026 | 19 | 175 | 308,744 | 3.87 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 29_AUG_2026 | **124** | **3137** | **2,517,612** | **26.55 MB** |
+| **subtotal** | 30_AUG_2026 | **124** | **3139** | **2,519,560** | **26.57 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -24,28 +24,22 @@
 
 ## Knowledge Graphs (Triples · Wiki · Combined)
 
-The deployed viewer (`web/`) exposes **three graph datasets**, switchable via the single **mode** button in the Graph toolbar (cycles Triples → Wiki → Combined; the choice persists in the URL hash, e.g. `?mode=wiki`). **Combined is the default.**
+<!-- GENERATED: graph_datasets -->
+| Dataset | `web/public/data/` files | Nodes | Edges |
+| :--- | :--- | ---: | ---: |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,098 | 37,318 |
+| **Triples** | `triples-*.json` | 2,654 | 3,896 |
+| **Wiki** | `wiki-*.json` | 3,007 | 35,150 |
 
-| Dataset | Source | `web/public/data/` files | Nodes | Edges |
-| :--- | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | union of triples + wiki | `nodes.json`, `edges.json`, `legend.json`, `graph-meta.json`, `node_roles.json`, `roles-meta.json` | 4,085 | 36,998 |
-| **Triples** | `src/**/_triples.json` extractions → `graphify-out/graph.json` | `triples-*.json` | 2,629 | 3,832 |
-| **Wiki** | Obsidian `[[wikilinks]]` in `src/notes/` → `wiki-out/graph.json` | `wiki-*.json` | 2,995 | 34,851 |
+Build: 30_AUG_2026 · hash `7e170d4`
 
-Node ids are canonicalised by `norm(label)` (Unicode-normalised; Greek letters transliterated to their name, so `NF-κB` maps to the same id `nf_kappab` in **all three** graphs). Because every dataset uses the same id scheme, entities join cleanly across graphs.
+> [!INFO] 
+>
+> Combined merge
+>
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,007 wiki − 1,563 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 
-### Generating each graph
-
-- **`scripts/triples/rebuild.py`** (`python -m scripts rebuild-triples`) — builds the **triples graph** (accumulates nodes/edges from `_triples.json`, prunes generic type hubs + pure document nodes, re-clusters with Leiden), records to `graphify-out/`, and exports the triples web files (`triples-*.json`).
-- **`scripts/wiki/rebuild.py`** (`python -m scripts rebuild-wiki`) — builds the **wiki graph** from `[[wikilinks]]` (entity notes only; `_document_` source and `task_output` notes are excluded and tallied as references), records to `wiki-out/`, and exports the wiki web files (`wiki-*.json`).
-- **`scripts/combined/build.py`** (`python -m scripts build-combined`) — merges triples + wiki into the canonical **combined** `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json`/roles (wiki community ids offset by +1000) and emits the triples-vs-wiki gap report (`wiki-out/graph-diff.json` + `wiki-out/GRAPH_DIFF.md`). It is auto-run at the end of `scripts/wiki/rebuild.py`.
-
-> The full pipeline map (all 14 commands, dependencies, and the build DAG)
-> lives in [`scripts/README.md`](scripts/README.md).
-
-### ⚠️ Calculation / analysis basis
-
-The node-network analyses in `src/tasks/`, the analysis articles in `web/public/pages/`, and the `scripts/analysis/` outputs (`node_analysis.py` / `link_prediction.py` / `role_query.py`) — were performed on the **triples graph** (`graphify-out/graph.json`), which predates the wiki and combined datasets. Any analysis run on the wiki or combined graph should state the graph (mode) explicitly.
+<!-- END GENERATED: graph_datasets -->
 
 ---
 
@@ -284,22 +278,25 @@ The node-network analyses in `src/tasks/`, the analysis articles in `web/public/
 <details>
 <summary><strong>Tasks (89 total)</strong> — click to expand</summary>
 
-- [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_graph_structure_conclusions_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md) [[src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md) [[src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_node_analysis_biology_16_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md) [[src/tasks/task_output_node_analysis_biology_16_AUG_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md) [[src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md) [[src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_node_metrics_combined_graph_27_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md) [[src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_senescence_research_gaps_18_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_research_gaps_18_August_2026.md) [[src/tasks/task_output_senescence_research_gaps_18_August_2026.md|wiki]] (30_AUG_2026 03:44 PM PDT)
-- [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (30_AUG_2026 12:22 AM PDT)
+- [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)
+- [task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md) [[src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)
+- [task_output_node_metrics_combined_graph_27_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md) [[src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)
+- [task_output_graph_structure_conclusions_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md) [[src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_node_analysis_biology_16_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md) [[src/tasks/task_output_node_analysis_biology_16_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md) [[src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md) [[src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_node_comt_mao_15_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_comt_mao_15_August_2026.md) [[src/tasks/task_output_node_comt_mao_15_August_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_node_sirtuins_catecholamines_15_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md) [[src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [`node_network_caspase_28_AUG_2026/` task_output_caspase_graph_analysis_28_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md) [[src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [`node_network_adrenochrome_sirtuins_20_AUG_2026/` task_output_node_network_study_adrenochrome_defense_programs_20_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md) [[src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [`node_network_adrenochrome_24_AUG_2026/` task_output_adrenochrome_protocol_traces_round3_24_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md) [[src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [`node_network_adrenochrome_21_AUG_2026/` task_output_adrenochrome_protocol_traces_round2_21_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md) [[src/tasks/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [`node_network_adrenochrome_20_AUG_2026/` task_output_adrenochrome_protocol_traces_20_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md) [[src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md|wiki]] (30_AUG_2026 05:36 PM PDT)
+- [task_output_acid_ceramidase_27_July_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md) [[src/tasks/task_output_acid_ceramidase_27_July_2026.md|wiki]] (30_AUG_2026 04:05 PM PDT)
+- [task_output_senescence_research_gaps_18_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_research_gaps_18_August_2026.md) [[src/tasks/task_output_senescence_research_gaps_18_August_2026.md|wiki]] (30_AUG_2026 04:05 PM PDT)
 - [task_output_sirtuin_caspase_crosstalk_28_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md) [[src/tasks/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md|wiki]] (29_AUG_2026 12:56 AM PDT)
-- [`node_network_adrenochrome_sirtuins_20_AUG_2026/` task_output_node_network_study_adrenochrome_defense_programs_20_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md) [[src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md|wiki]] (28_AUG_2026 10:11 PM PDT)
-- [`node_network_adrenochrome_21_AUG_2026/` task_output_adrenochrome_protocol_traces_round2_21_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md) [[src/tasks/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md|wiki]] (28_AUG_2026 10:11 PM PDT)
-- [`node_network_adrenochrome_20_AUG_2026/` task_output_adrenochrome_protocol_traces_20_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md) [[src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md|wiki]] (28_AUG_2026 10:11 PM PDT)
-- [`node_network_caspase_28_AUG_2026/` task_output_caspase_graph_analysis_28_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md) [[src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md|wiki]] (28_AUG_2026 08:25 PM PDT)
 - [task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md) [[src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md|wiki]] (27_AUG_2026 06:53 AM PDT)
-- [`node_network_adrenochrome_24_AUG_2026/` task_output_adrenochrome_protocol_traces_round3_24_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md) [[src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md|wiki]] (24_AUG_2026 09:33 PM PDT)
 - [task_output_adrenochrome_sirtuins_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md) [[src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_alphafold_report_NAD+_26_JUN_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md) [[src/tasks/task_output_alphafold_report_NAD+_26_JUN_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_ap1_trace_21_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ap1_trace_21_JUL_2026.md) [[src/tasks/task_output_ap1_trace_21_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
@@ -315,9 +312,7 @@ The node-network analyses in `src/tasks/`, the analysis articles in `web/public/
 - [task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md) [[src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_mitochondria_fusion_fission_27_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md) [[src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_mitohormesis_antioxidants_05_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md) [[src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
-- [task_output_node_comt_mao_15_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_comt_mao_15_August_2026.md) [[src/tasks/task_output_node_comt_mao_15_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_node_sirtuins_adrenochrome_15_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
-- [task_output_node_sirtuins_catecholamines_15_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md) [[src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_physiologist_shred_vs_bulk](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_physiologist_shred_vs_bulk.md) [[src/tasks/task_output_physiologist_shred_vs_bulk.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_review_notes_epinephrine_sirtuins_06_July_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md) [[src/tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md|wiki]] (24_AUG_2026 01:25 PM PDT)
@@ -325,7 +320,6 @@ The node-network analyses in `src/tasks/`, the analysis articles in `web/public/
 - [task_output_sirtuins_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_sirtuins_recommendations_03_JULY_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md) [[src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_sirtuins_resveratrol_en-US](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_resveratrol_en-US.md) [[src/tasks/task_output_sirtuins_resveratrol_en-US.md|wiki]] (24_AUG_2026 01:25 PM PDT)
-- [task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md) [[src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md) [[src/tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [tbl_senescent_compounds_normalized](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_senescent_compounds_normalized.md) [[src/tasks/tbl_senescent_compounds_normalized.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [tbl_tfeb_target_mechanisms](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_tfeb_target_mechanisms.md) [[src/tasks/tbl_tfeb_target_mechanisms.md|wiki]] (24_AUG_2026 01:25 PM PDT)
