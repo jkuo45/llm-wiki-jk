@@ -3,7 +3,7 @@ title: SIRT3
 description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
   within the Mitochondria.
 created: 2026-07-04
-updated: 2026-08-18
+updated: 2026-08-30
 tags:
   - enzyme
   - nad-plus
@@ -34,6 +34,12 @@ protected: true
 ## Function
 
 SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[SOD2]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
+
+## IPA–AhR–NAD Axis (Gut–Heart Crosstalk)
+
+> [!info]
+> Source: Wang et al., *Circ Res* 2024;134:371–389 (via [[_document_ - Roles of SIRT3 in aging and aging-related diseases]])
+> In HFpEF ("two-hit" diet model), the gut-microbiota metabolite [[Indole-3-propionic acid]] binds the [[Aryl Hydrocarbon Receptor|AhR]], translocates to the nucleus, and **restores cardiac SIRT3 transcription**; *Sirt3* knockdown abolished IPA's protective effect. IPA also suppresses [[NNMT]], preserving nicotinamide and boosting the **NAD salvage pathway** — raising NAD⁺ available for SIRT3 deacetylase activity. This is the first microbiota-derived metabolite shown to regulate SIRT3 *expression* in vivo, and IPA was reduced in HFpEF patients in two independent human cohorts.
 
 ### Regulation of Mitochondrial Dynamics
 
@@ -236,6 +242,9 @@ List of documents that mention this entity
 - [[HIF-1α]] — destabilized by SIRT3; links SIRT3 loss to protumorigenic metabolic reprogramming
 - [[Pyruvate Dehydrogenase]] — PDC activity stimulated by SIRT3 to promote mitochondrial respiration
 - [[Akt]] — SIRT3 suppresses AKT signaling in cardiac hypertrophy
+- [[Indole-3-propionic acid]] — gut-derived metabolite that restores cardiac SIRT3 expression via AhR and boosts NAD⁺ via NNMT suppression; necessary mediator of IPA's protection against HFpEF
+- [[Aryl Hydrocarbon Receptor]] — nuclear receptor through which IPA induces Sirt3 transcription
+- [[NNMT]] — NAD+-consuming enzyme suppressed by IPA; its inhibition spares nicotinamide for the salvage pathway that feeds SIRT3
 
 
 
