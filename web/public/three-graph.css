@@ -282,28 +282,33 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .page-modal-controls #reader-select { display: none; /* selection moved to the source index pages */ }
 .page-modal-controls .lang-toggle { flex-shrink: 0; }
 
-/* Reader source tabs (Articles vs Task Outputs) — top-left, language
-   toggle pushed to the right of the same row via the spacer; sized to
-   match the toggle's height. The dropdown stays hidden since selection
-   happens on the source index pages. */
+/* Reader source tabs (Articles vs Task Outputs) — underline tabs,
+    not a segmented pill. The active tab is indicated by an accent
+    underline (like #sidebar-tabs) so the control reads as tabs rather
+    than buttons. Language toggle stays as a pill on the right. */
 .reader-source-toggle {
-  display: inline-flex; flex: 0 1 auto; height: 30px; min-width: 0;
-  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px;
-  overflow: hidden;
+  display: inline-flex; align-items: center; gap: 22px; flex: 0 1 auto; min-width: 0;
+  height: auto;
+  background: transparent; border: none; border-radius: 0;
+  overflow: visible;
 }
 .page-modal-controls .controls-spacer { flex: 1 1 auto; }
 .reader-source-toggle button {
-  background: transparent; border: none; color: var(--ink-5);
-  font-size: 11px; line-height: 1; white-space: nowrap;
-  padding: 0 10px; cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  position: relative;
+  background: transparent; border: none; border-bottom: 2px solid transparent;
+  color: var(--ink-5);
+  font-size: 13px; font-weight: 600; line-height: 1; white-space: nowrap;
+  padding: 9px 2px 10px; cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  border-radius: 0;
 }
 @media (max-width: 640px) {
-  .reader-source-toggle button { font-size: 10px; padding: 0 6px; letter-spacing: -0.02em; }
+  .reader-source-toggle { gap: 14px; }
+  .reader-source-toggle button { font-size: 12px; padding: 8px 1px 9px; letter-spacing: -0.01em; }
 }
-.reader-source-toggle button + button { border-left: 1px solid var(--line-strong); }
-.reader-source-toggle button:hover:not(.active) { color: var(--ink-hi); }
-.reader-source-toggle button.active { background: var(--line); color: var(--link-bright); }
+.reader-source-toggle button + button { border-left: none; }
+.reader-source-toggle button:hover:not(.active) { color: var(--ink-hi); border-bottom-color: var(--line-strong); }
+.reader-source-toggle button.active { background: transparent; color: var(--ink-hi); border-bottom-color: var(--accent); }
 
 #page-modal-header .page-modal-actions { display: flex; gap: 10px; align-items: center; margin-left: auto; }
 #page-modal-open {

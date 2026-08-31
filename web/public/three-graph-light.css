@@ -258,12 +258,13 @@ body {
 #page-modal-overlay.light-theme #page-modal-close { color: var(--ink-4); }
 #page-modal-overlay.light-theme #page-modal-close:hover { color: var(--ink-hi); }
 #page-modal-overlay.light-theme #page-modal-frame { background: var(--paper-body); }
-/* "Last modified" freshness chip next to the reader title */
 #page-modal-overlay.light-theme .reader-source-toggle {
-  background: var(--paper); border-color: var(--line-strong); color: var(--ink-hi);
+  background: transparent; border: none; color: var(--ink-hi);
 }
+#page-modal-overlay.light-theme .reader-source-toggle button { color: var(--ink-4); border-bottom-color: transparent; background: transparent; }
+#page-modal-overlay.light-theme .reader-source-toggle button:hover:not(.active) { color: var(--ink-hi); border-bottom-color: var(--line-strong); }
 #page-modal-overlay.light-theme .reader-source-toggle button.active {
-  background: #E4EDF0; color: var(--accent);
+  background: transparent; color: var(--ink-hi); border-bottom-color: var(--accent);
 }
 
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
