@@ -14,12 +14,19 @@ const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 // re-downloading ~11 MB on every page load.
 let CACHE_HASH = '';
 
+// Graph build identity (from data/version.json) shown in the analysis subrow.
+export const BUILD_INFO = { hash: '', generated: '' };
+
 async function loadCacheTag() {
   try {
     const resp = await fetch(DATA_BASE + 'version.json?x=' + Date.now());
     if (resp.ok) {
       const v = await resp.json();
       CACHE_HASH = (v && (v.hash || v.tag || v.generated)) || '';
+      if (v) {
+        BUILD_INFO.hash = v.hash || '';
+        BUILD_INFO.generated = v.generated || '';
+      }
     }
   } catch (e) {
     /* version.json missing -> fall back to Date.now() busting below */

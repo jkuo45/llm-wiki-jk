@@ -302,7 +302,6 @@ body {
 .at-card .v { color: var(--ink-hi); }
 .at-card .k { color: var(--ink-4); }
 .at-card .at-card-tip { background: var(--surface); border-color: var(--accent); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28,39,66,0.14); }
-.at-metric-bar { background: var(--line); }
 .at-mode-badge { color: var(--accent); background: rgba(15,118,110,0.08); border-color: rgba(15,118,110,0.18); }
 .at-reset { border-color: var(--line-strong); color: var(--ink-4); }
 .at-reset:hover { border-color: var(--accent); color: var(--ink-hi); }

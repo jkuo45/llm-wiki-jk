@@ -549,8 +549,21 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 /* margin-left:auto keeps the toggle pinned right whether or not the filter
    slot is populated (space-between would left-align it when the slot is empty). */
 #analysis-header-subrow .lang-toggle { margin-left: auto; }
-#analysis-subrow-left { display: flex; align-items: center; }
+#analysis-subrow-left { display: flex; align-items: center; gap: 8px; }
 #analysis-subrow-left:empty { display: none; }
+.build-info {
+  font-size: 11px; letter-spacing: 0.01em;
+  color: var(--ink-5); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  max-width: 46vw;
+}
+.build-info[hidden] { display: none; }
+.build-info code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10.5px; font-variant-numeric: tabular-nums; letter-spacing: 0;
+  color: var(--ink-4); background: color-mix(in srgb, var(--line) 60%, transparent);
+  padding: 1px 5px; border-radius: 4px;
+}
+.build-info-sep { color: var(--ink-6); margin: 0 1px; }
 /* Persistent quantity filter pill — sits in the analysis sub-row (left of the
    language toggle) and floats above the full-screen detail card via the sub-row's
    raised z-index, so it stays visible after the card closes. */
@@ -743,9 +756,6 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-card.has-tip:focus-visible { outline: 2px solid var(--accent); outline-offset: -1px; }
 .at-card .at-card-tip { position: absolute; left: 6px; right: 6px; top: calc(100% + 8px); bottom: auto; background: var(--surface); border: 1px solid var(--accent); color: var(--ink-hi); padding: 7px 8px; border-radius: 7px; font-size: 11px; line-height: 1.45; box-shadow: 0 6px 20px rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transform: translateY(-4px); transition: opacity .16s ease, transform .16s ease; z-index: 3; }
 .at-card.has-tip:hover .at-card-tip, .at-card.has-tip:focus .at-card-tip, .at-card.has-tip:focus-visible .at-card-tip { opacity: 1; transform: none; pointer-events: auto; }
-.at-metric-bar { height: 3px; background: color-mix(in srgb, var(--line-strong) 85%, transparent); border-radius: 999px; margin-top: 7px; overflow: hidden; }
-.at-metric-bar span { display: block; height: 100%; background: var(--accent); border-radius: inherit; transition: width .5s ease; }
-.at-cards--topo .at-metric-bar span { background: #a78bfa; }
 .at-mode-badge { font-size: 10px; font-weight: 600; letter-spacing: 0.03em; text-transform: none; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent); padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
 @media (max-width: 640px) { .at-card .at-card-tip { left: 0; right: 0; } }
 .at-reset { margin-top: 10px; background: none; border: 1px solid var(--line-strong); color: var(--ink-5); border-radius: 4px; font-size: 12px; padding: 4px 10px; cursor: pointer; }
@@ -754,6 +764,9 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-row { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-row:hover { background: rgba(120,120,140,0.12); }
 .at-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; background: rgba(120,120,140,0.12); }
+.at-row .sw { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; background: var(--comm, var(--line-strong)); }
+.at-row .at-row-bar { height: 3px; border-radius: 999px; background: color-mix(in srgb, var(--comm, var(--line-strong)) 20%, transparent); overflow: hidden; flex: 1 1 40px; min-width: 10px; }
+.at-row .at-row-bar-fill { display: block; height: 100%; border-radius: inherit; background: var(--comm, var(--line-strong)); transition: width .4s ease; }
 .at-row .at-name { color: #cfe6f5; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .at-row .at-meta { color: var(--ink-6); font-size: 11px; margin-left: auto; flex-shrink: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .at-ab { display: inline-flex; gap: 3px; margin-left: 6px; flex-shrink: 0; }
@@ -762,17 +775,17 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-ab button.set-a.on { background: var(--accent); color: #fff; border-color: var(--accent); }
 .at-ab button.set-b.on { background: #a78bfa; color: #fff; border-color: #a78bfa; }
 .at-communities { display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; overflow-x: hidden; }
-.at-comm { display: flex; flex-direction: column; gap: 3px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+/* Single-row community rows, consistent with the other section lists (.at-row):
+   swatch + name (with zh) + magnitude bar + member count/preview + A/B. */
+.at-comm { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-comm:hover { background: rgba(120,120,140,0.12); }
-.at-comm .at-comm-bar { height: 5px; background: color-mix(in srgb, var(--line-strong) 82%, transparent); border-radius: 999px; overflow: hidden; margin-left: 20px; }
-.at-comm .at-comm-bar-fill { display: block; height: 100%; border-radius: inherit; }
-/* Name on its own full-width line so long community names aren't squeezed. */
-.at-comm .at-comm-main { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.at-comm .at-comm-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-left: 20px; }
-.at-comm .sw { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
-.at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; line-height: 1.35; flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
-.at-comm .at-comm-count { color: var(--ink-6); font-size: 11px; flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; text-align: left; }
-.at-comm .at-ab { margin-left: auto; flex-shrink: 0; }
+.at-comm:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; background: rgba(120,120,140,0.12); }
+.at-comm .sw { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+.at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.at-comm .at-comm-bar { height: 3px; border-radius: 999px; background: color-mix(in srgb, var(--comm, var(--line-strong)) 20%, transparent); overflow: hidden; flex: 1 1 40px; min-width: 10px; }
+.at-comm .at-comm-bar-fill { display: block; height: 100%; border-radius: inherit; background: var(--comm, var(--line-strong)); transition: width .4s ease; }
+.at-comm .at-comm-count { color: var(--ink-6); font-size: 11px; white-space: nowrap; flex: 0 1 auto; font-variant-numeric: tabular-nums; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.at-comm .at-ab { flex-shrink: 0; }
 
 /* Per-node detail sheet (full-page, internally scrollable) — slides up from the
    bottom to cover the whole viewport over the analysis panel; the body scrolls

@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, DATASET_MODE, DATASET_LABELS, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, DATASET_MODE, DATASET_LABELS, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS, BUILD_INFO } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, edgeSegments, edgeOffColor,
@@ -1462,7 +1462,7 @@ function entryIds(entries) {
   return set;
 }
 
-function atRowHTML(n, kind, s) {
+function atRowHTML(n, kind, s, barPct) {
   const zh = TRANSLATIONS[n.label] || '';
   const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
   let meta;
@@ -1474,14 +1474,32 @@ function atRowHTML(n, kind, s) {
   } else {
     meta = `deg ${n.degree}`;
   }
+  // Community color swatch + magnitude bar — mirrors the Communities cards.
+  // Using the node's community color lets the same entity carry the same color
+  // across Top Hubs / PageRank Leaders / Connectors AND matches its card in the
+  // Communities section, so colors group consistently across the whole panel.
+  const color = commColorOf(n) || 'var(--line-strong)';
+  const bar = barPct != null
+    ? `<span class="at-row-bar" aria-hidden="true"><span class="at-row-bar-fill" style="width:${barPct}%"></span></span>`
+    : '';
   const ab = `<span class="at-ab">
       <button class="set-a" data-set="a" title="${esc(t('addToSetA'))}">A</button>
       <button class="set-b" data-set="b" title="${esc(t('addToSetB'))}">B</button>
     </span>`;
-  return `<li class="at-row" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.label)}">
+  return `<li class="at-row" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.label)}" style="--comm:${color}">
+    <span class="sw"></span>
     <span class="at-name">${esc(n.label)}${zhText}</span>
+    ${bar}
     <span class="at-meta">${meta}</span>${ab}
   </li>`;
+}
+
+// Color of a node's community (community palette from LEGEND), used to color
+// the role-list rows consistently with the Communities section.
+function commColorOf(n) {
+  if (!n || typeof n.community !== 'number') return '';
+  const c = LEGEND.find(l => l.cid === n.community);
+  return c ? c.color : '';
 }
 
 function exploreFocusNode(id) {
@@ -1503,60 +1521,59 @@ function renderAnalysisTools() {
   // Mode badge label for the current dataset (e.g. "Combined — triples + wiki")
   const modeLabel = DATASET_LABELS[DATASET_MODE] || DATASET_MODE;
   const modeShort = DATASET_MODE.charAt(0).toUpperCase() + DATASET_MODE.slice(1);
-  const pct = (v, max) => Math.max(4, Math.min(100, Math.round((v / Math.max(1, max)) * 100)));
-  const cardWithTip = (k, v, tipKey, barPct) =>
+  const cardWithTip = (k, v, tipKey) =>
     `<div class="at-card has-tip" tabindex="0"><div class="v">${typeof v === 'number' ? v.toLocaleString() : esc(String(v))}</div><div class="k">${esc(k)}</div>` +
-    (barPct != null ? `<div class="at-metric-bar" aria-hidden="true"><span style="width:${barPct}%"></span></div>` : '') +
     `<span class="at-card-tip" role="tooltip">${esc(t(tipKey))}</span></div>`;
 
-  // Dataset Overview: explanatory tooltips + micro bars to surface magnitude.
-  // Bars use fixed cross-mode ceiling scores (wiki ~ densest) so the value reads
-  // consistently when the dataset mode changes.
-  const densityBar = pct(s.density, 0.008); // wiki ~0.0052 vs triples ~0.0011; combined ~0.00044
+  // Dataset Overview: explanatory tooltips only (magnitude micro-bars removed —
+  // they used arbitrary cross-mode ceilings and didn't convey real meaning).
   const cards = [
-    cardWithTip(t('metricNodes'), s.N, 'metricNodesTip', pct(s.N, 4500)),
-    cardWithTip(t('metricEdges'), s.E, 'metricEdgesTip', pct(s.E, 38000)),
-    cardWithTip(t('metricCommunities'), s.communities, 'metricCommunitiesTip', pct(s.communities, 400)),
-    cardWithTip(t('metricAvgDegree'), s.avgDegree.toFixed(2), 'metricAvgDegreeTip', pct(s.avgDegree, 25)),
-    cardWithTip(t('metricDensity'), s.density.toFixed(4), 'metricDensityTip', densityBar),
-    cardWithTip(t('metricGodNodes'), s.godNodes.length, 'metricGodNodesTip', pct(s.godNodes.length, 10)),
+    cardWithTip(t('metricNodes'), s.N, 'metricNodesTip'),
+    cardWithTip(t('metricEdges'), s.E, 'metricEdgesTip'),
+    cardWithTip(t('metricCommunities'), s.communities, 'metricCommunitiesTip'),
+    cardWithTip(t('metricAvgDegree'), s.avgDegree.toFixed(2), 'metricAvgDegreeTip'),
+    cardWithTip(t('metricDensity'), s.density.toFixed(4), 'metricDensityTip'),
+    cardWithTip(t('metricGodNodes'), s.godNodes.length, 'metricGodNodesTip'),
   ].join('');
 
   const topoCards = [
-    cardWithTip(t('topoMeanClustering'), s.meanClustering.toFixed(3), 'topoMeanClusteringTip', pct(s.meanClustering, 0.5)),
-    cardWithTip(t('topoMaxKCore'), s.maxKCore, 'topoMaxKCoreTip', pct(s.maxKCore, 30)),
-    cardWithTip(t('topoMeanPagerank'), s.meanPagerank.toFixed(5), 'topoMeanPagerankTip', pct(s.meanPagerank, 0.008)),
-    cardWithTip(t('topoMedianDegree'), s.medianDegree, 'topoMedianDegreeTip', pct(s.medianDegree, 25)),
-    cardWithTip(t('topoBridges'), s.bridgingCount, 'topoBridgesTip', pct(s.bridgingCount, s.N)),
+    cardWithTip(t('topoMeanClustering'), s.meanClustering.toFixed(3), 'topoMeanClusteringTip'),
+    cardWithTip(t('topoMaxKCore'), s.maxKCore, 'topoMaxKCoreTip'),
+    cardWithTip(t('topoMeanPagerank'), s.meanPagerank.toFixed(5), 'topoMeanPagerankTip'),
+    cardWithTip(t('topoMedianDegree'), s.medianDegree, 'topoMedianDegreeTip'),
+    cardWithTip(t('topoBridges'), s.bridgingCount, 'topoBridgesTip'),
   ].join('');
 
-  const hubRows = s.hubs.slice(0, 40).map(n => atRowHTML(n, 'deg', s)).join('');
-  const prRows = s.pagerankLeaders.slice(0, 40).map(n => atRowHTML(n, 'pr', s)).join('');
-  const connRows = s.connectors.slice(0, 32).map(n => atRowHTML(n, 'btw', s)).join('');
+  // Role list rows reuse the community card motif (swatch + magnitude bar).
+  // The bar is scaled relative to the list's own max so each section reads
+  // consistently; the swatch uses the node's community color (see atRowHTML).
+  const listWithBars = (nodes, kind, valFn) => {
+    const max = Math.max(1, ...nodes.map(valFn));
+    return nodes.map(n =>
+      atRowHTML(n, kind, s, Math.max(6, Math.round((valFn(n) / max) * 100)))
+    ).join('');
+  };
+  const hubRows = listWithBars(s.hubs.slice(0, 40), 'deg', n => n.degree || 0);
+  const prRows = listWithBars(s.pagerankLeaders.slice(0, 40), 'pr', n => n.pagerank || 0);
+  const connRows = listWithBars(s.connectors.slice(0, 32), 'btw', n => n.betweenness || 0);
 
-  const cohesionMap = (GRAPH_META && GRAPH_META.community_cohesion) || {};
   const sortedLegend = LEGEND.slice().sort((a, b) => b.count - a.count);
   const maxCommCount = Math.max(1, ...sortedLegend.map(c => c.count || 0));
   const commHTML = sortedLegend.map(c => {
+    const barPct = Math.max(6, Math.round((c.count / maxCommCount) * 100));
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
-    const coh = cohesionMap[String(c.cid)];
-    const loose = typeof coh === 'number' && coh < 0.15;
-    const barPct = Math.max(3, Math.round((c.count / maxCommCount) * 100));
-    return `<div class="at-comm" data-cid="${c.cid}">
-      <div class="at-comm-main">
-        <span class="sw" style="background:${esc(c.color)}"></span>
-        <span class="at-comm-name">${esc(c.label)}</span>
-        ${loose ? `<span class="at-comm-loose" title="${esc(t('looseCommunityTitle'))}">${esc(t('looseCommunity'))}</span>` : ''}
-      </div>
-      <div class="at-comm-bar" aria-hidden="true" title="${esc(c.label)}: ${c.count} nodes"><span class="at-comm-bar-fill" style="width:${barPct}%;background:${esc(c.color)}"></span></div>
-      <div class="at-comm-foot">
-        <span class="at-comm-count">${c.count} · ${esc(top)}</span>
-        <span class="at-ab">
-          <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
-          <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
-        </span>
-      </div>
+    const zh = TRANSLATIONS[c.label] || '';
+    const zhText = zh && zh !== c.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
+    return `<div class="at-comm" data-cid="${c.cid}" tabindex="0" role="button" aria-label="${esc(c.label)}" style="--comm:${esc(c.color)}">
+      <span class="sw" style="background:${esc(c.color)}"></span>
+      <span class="at-comm-name" title="${esc(c.label)}">${esc(c.label)}${zhText}</span>
+      <span class="at-comm-bar" aria-hidden="true"><span class="at-comm-bar-fill" style="width:${barPct}%"></span></span>
+      <span class="at-comm-count" title="${c.count} ${esc(t('communityCount'))}">${(c.count).toLocaleString()} · ${esc(top)}</span>
+      <span class="at-ab">
+        <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
+        <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
+      </span>
     </div>`;
   }).join('');
 
@@ -1670,6 +1687,20 @@ function renderAnalysisTools() {
   hydrateSurpriseList();
   hydratePredictedList();
   hydrateRoleExplorer(s);
+  renderBuildInfo();
+}
+
+// Show the graph build hash + generated datetime in the analysis subrow.
+function renderBuildInfo() {
+  const el = document.getElementById('build-info');
+  if (!el) return;
+  const { hash, generated } = BUILD_INFO;
+  if (!hash && !generated) { el.textContent = ''; el.hidden = true; return; }
+  el.hidden = false;
+  const parts = [];
+  if (hash) parts.push(`build <code>${esc(hash)}</code>`);
+  if (generated) parts.push(`<code>${esc(generated)}</code>`);
+  el.innerHTML = parts.join(' <span class="build-info-sep">·</span> ');
 }
 
 // ------------------------------------------------------------
