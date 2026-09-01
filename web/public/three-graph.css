@@ -659,32 +659,39 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   50% { transform: scale(1.4); opacity: .65; }
 }
 
-/* Transient toast: node detail loaded into the analysis panel info card. */
-#detail-loaded-toast {
+/* Toasts (ui/Toast.js) — shared stacked notification surface. */
+#ui-toasts {
   position: fixed;
   left: 50%;
   bottom: 88px;
-  transform: translateX(-50%) translateY(8px);
-  background: var(--surface-raised, #16181f);
-  color: var(--ink, #e8e9ef);
-  border: 1px solid rgba(58, 209, 122, 0.55);
-  border-radius: var(--r-lg);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 900;
+  pointer-events: none;
+}
+.ui-toast {
+  background: var(--surface-1);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--r-md);
   padding: 8px 14px;
   font-size: 12.5px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35), 0 0 10px rgba(58, 209, 122, 0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
   opacity: 0;
-  pointer-events: none;
-  transition: opacity .25s ease, transform .25s ease;
-  z-index: 900;
+  transform: translateY(8px);
+  transition: opacity .2s ease, transform .2s ease;
   max-width: min(80vw, 420px);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-#detail-loaded-toast.visible {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
-}
+.ui-toast.visible { opacity: 1; transform: translateY(0); }
+.ui-toast--ok { border-left-color: var(--ok); }
+.ui-toast--err { border-left-color: #ff7a7a; }
 
 /* Explore tools are the panel's only surface now — the prompt/chat UI moved
    to its own floating window (#chat-panel). Show the grid whenever open. */

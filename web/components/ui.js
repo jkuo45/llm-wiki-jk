@@ -25,6 +25,7 @@ import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
+import { toast } from './ui/Toast.js';
 
 // ------------------------------------------------------------
 // Active-window highlight (analysis panel)
@@ -102,21 +103,13 @@ const infoCard = document.getElementById('at-node-detail');
 // know something is loaded in the (possibly closed) analysis panel.
 let lastLoadedNotifyId = null;
 
-// Transient bottom-center toast. Shared surface: node-detail notifications and
-// (via analysis.js) validation messages that used to use alert().
-let toastTimer = null;
+// ------------------------------------------------------------
+// Shared toast (see ui/Toast.js). The old single #detail-loaded-toast
+// element is retired — toasts now stack, support variants, and live in
+// one persistent aria-live region.
+// ------------------------------------------------------------
 export function showToast(text) {
-  let toast = document.getElementById('detail-loaded-toast');
-  if (!toast) {
-    toast = document.createElement('div');
-    toast.id = 'detail-loaded-toast';
-    toast.setAttribute('role', 'status');
-    document.body.appendChild(toast);
-  }
-  toast.textContent = text;
-  toast.classList.add('visible');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => toast.classList.remove('visible'), 2400);
+  toast.show(text);
 }
 
 function notifyDetailLoaded(nodeId, label) {

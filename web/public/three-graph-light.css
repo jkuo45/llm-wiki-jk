@@ -292,7 +292,17 @@ body {
 #controls #dataset-mode-toggle .mode-label { color: inherit; }
 .analysis-activity-dot { border-color: var(--surface); }
 .analysis-activity-dot.thinking { border-color: var(--surface); }
-#detail-loaded-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
+#ui-toasts .ui-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
+
+/* Boot gate — error / empty states rendered by graph.js via ui/AsyncState.js. */
+.boot-state { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 24px; max-width: min(90vw, 480px); }
+.boot-state .boot-state-icon { color: #ff7a7a; }
+.boot-state--empty .boot-state-icon { color: var(--ink-5); }
+.boot-state h2 { font-size: 1.05rem; color: var(--ink-hi); }
+.boot-state-detail { font-size: 13px; color: var(--ink-4); word-break: break-word; }
+.boot-state-btn { margin-top: 6px; padding: 8px 18px; border-radius: var(--r-md); border: 1px solid var(--line-strong); background: var(--surface-1); color: var(--ink-hi); font: inherit; font-size: 13px; cursor: pointer; transition: border-color .15s, color .15s; }
+.boot-state-btn:hover { border-color: var(--accent); color: #fff; }
+#loading[data-mode="error"] .spinner, #loading[data-mode="error"] > h2, #loading[data-mode="error"] > p { display: none; }
 
 /* Explore widgets */
 .at-h { color: var(--ink-4); }

@@ -1,7 +1,9 @@
 // Entry module: wires everything together, drives the render loop, handles
 // resize, dataset panel, and URL-hash restore.
 
-import { RAW_EDGES, TRACES } from './data.js';
+import { RAW_EDGES, RAW_NODES, TRACES, DATA_ERROR } from './data.js';
+import { h } from './ui/dom.js';
+import { createAsyncState } from './ui/AsyncState.js';
 import { state } from './state.js';
 import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
@@ -130,9 +132,45 @@ window.addEventListener('popstate', () => restoreFromHashEvent(parseHash()));
 window.addEventListener('hashchange', () => restoreFromHashEvent(parseHash()));
 
 // ------------------------------------------------------------
-// Loading overlay
+// Boot gate: error / empty / ready. On a critical dataset failure
+// (DATA_ERROR from data.js) or a loaded-but-empty dataset, the
+// #loading overlay becomes an explicit error / empty screen with
+// a Retry action instead of the app silently rendering nothing.
 // ------------------------------------------------------------
-document.getElementById('loading').classList.add('hidden');
+const loadingEl = document.getElementById('loading');
+
+if (DATA_ERROR || RAW_NODES.length === 0) {
+  const boot = createAsyncState({
+    loading: () => null, // initial overlay markup already shows the spinner
+    error: (err, retry) => h('div', { class: 'boot-state boot-state--error' }, [
+      h('div', { class: 'boot-state-icon', html: '<svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>' }),
+      h('h2', {}, 'Failed to load graph data / 圖形資料載入失敗'),
+      h('p', { class: 'boot-state-detail' }, String((err && err.message) || err)),
+      h('button', { class: 'boot-state-btn', type: 'button', onclick: retry }, 'Retry / 重試'),
+    ]),
+    empty: () => h('div', { class: 'boot-state boot-state--empty' }, [
+      h('h2', {}, 'This dataset is empty / 此資料集為空'),
+      h('p', { class: 'boot-state-detail' },
+        'The graph data loaded successfully but contains no nodes — check the latest graph rebuild.'),
+      h('button', { class: 'boot-state-btn', type: 'button', onclick: () => location.reload() }, 'Reload / 重新載入'),
+    ]),
+  });
+  loadingEl.replaceChildren(boot.el);
+  if (DATA_ERROR) {
+    boot.set('error', DATA_ERROR);
+    console.error('[boot] dataset error:', DATA_ERROR);
+  } else {
+    boot.set('empty');
+    console.warn('[boot] dataset loaded but contains zero nodes');
+  }
+  loadingEl.classList.remove('hidden');
+  loadingEl.dataset.mode = 'error';
+} else {
+  loadingEl.classList.add('hidden');
+}
+// eslint-disable-next-line no-unused-vars -- boot gate ends here; fallthrough below only runs when data is healthy
+var BOOT_FAILED = !!(DATA_ERROR || RAW_NODES.length === 0);
+if (!BOOT_FAILED) {
 
 // ------------------------------------------------------------
 // Animation loop (on-demand: only draws when dirty / damping / physics)
@@ -200,3 +238,4 @@ if (hashParams) {
 
 // Wire the Triples / Wiki / Combined dataset toggle (marks the active tab).
 setupDatasetToggle();
+} // end boot-healthy guard (boot gate above skips the scene loop on error/empty)
