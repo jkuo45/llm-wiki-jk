@@ -737,9 +737,17 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-hint { font-size: 12px; color: var(--ink-5); margin: 0 0 8px; line-height: 1.5; }
 .at-hint kbd { background: var(--line); border: 1px solid #4a4a6e; border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; font-family: inherit; font-size: 10px; color: #cfe3f5; }
 .at-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
-.at-card { background: var(--surface-sunken); border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 10px; }
+.at-card { background: var(--surface-sunken); border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 10px; position: relative; }
 .at-card .v { font-size: 18px; color: var(--ink-hi); font-variant-numeric: tabular-nums; }
 .at-card .k { font-size: 11px; color: var(--ink-5); margin-top: 2px; }
+.at-card.has-tip:focus-visible { outline: 2px solid var(--accent); outline-offset: -1px; }
+.at-card .at-card-tip { position: absolute; left: 6px; right: 6px; top: calc(100% + 8px); bottom: auto; background: var(--surface); border: 1px solid var(--accent); color: var(--ink-hi); padding: 7px 8px; border-radius: 7px; font-size: 11px; line-height: 1.45; box-shadow: 0 6px 20px rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transform: translateY(-4px); transition: opacity .16s ease, transform .16s ease; z-index: 3; }
+.at-card.has-tip:hover .at-card-tip, .at-card.has-tip:focus .at-card-tip, .at-card.has-tip:focus-visible .at-card-tip { opacity: 1; transform: none; pointer-events: auto; }
+.at-metric-bar { height: 3px; background: color-mix(in srgb, var(--line-strong) 85%, transparent); border-radius: 999px; margin-top: 7px; overflow: hidden; }
+.at-metric-bar span { display: block; height: 100%; background: var(--accent); border-radius: inherit; transition: width .5s ease; }
+.at-cards--topo .at-metric-bar span { background: #a78bfa; }
+.at-mode-badge { font-size: 10px; font-weight: 600; letter-spacing: 0.03em; text-transform: none; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent); padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+@media (max-width: 640px) { .at-card .at-card-tip { left: 0; right: 0; } }
 .at-reset { margin-top: 10px; background: none; border: 1px solid var(--line-strong); color: var(--ink-5); border-radius: 4px; font-size: 12px; padding: 4px 10px; cursor: pointer; }
 .at-reset:hover { border-color: var(--accent); color: var(--ink-hi); }
 .at-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; }
@@ -756,6 +764,8 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-communities { display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; overflow-x: hidden; }
 .at-comm { display: flex; flex-direction: column; gap: 3px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-comm:hover { background: rgba(120,120,140,0.12); }
+.at-comm .at-comm-bar { height: 5px; background: color-mix(in srgb, var(--line-strong) 82%, transparent); border-radius: 999px; overflow: hidden; margin-left: 20px; }
+.at-comm .at-comm-bar-fill { display: block; height: 100%; border-radius: inherit; }
 /* Name on its own full-width line so long community names aren't squeezed. */
 .at-comm .at-comm-main { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .at-comm .at-comm-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-left: 20px; }

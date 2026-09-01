@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, DATASET_MODE, DATASET_LABELS, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, edgeSegments, edgeOffColor,
@@ -1500,39 +1500,56 @@ function exploreIsolate(ids) {
 
 function renderAnalysisTools() {
   const s = computeDatasetStats();
+  // Mode badge label for the current dataset (e.g. "Combined — triples + wiki")
+  const modeLabel = DATASET_LABELS[DATASET_MODE] || DATASET_MODE;
+  const modeShort = DATASET_MODE.charAt(0).toUpperCase() + DATASET_MODE.slice(1);
+  const pct = (v, max) => Math.max(4, Math.min(100, Math.round((v / Math.max(1, max)) * 100)));
+  const cardWithTip = (k, v, tipKey, barPct) =>
+    `<div class="at-card has-tip" tabindex="0"><div class="v">${typeof v === 'number' ? v.toLocaleString() : esc(String(v))}</div><div class="k">${esc(k)}</div>` +
+    (barPct != null ? `<div class="at-metric-bar" aria-hidden="true"><span style="width:${barPct}%"></span></div>` : '') +
+    `<span class="at-card-tip" role="tooltip">${esc(t(tipKey))}</span></div>`;
+
+  // Dataset Overview: explanatory tooltips + micro bars to surface magnitude.
+  // Bars use fixed cross-mode ceiling scores (wiki ~ densest) so the value reads
+  // consistently when the dataset mode changes.
+  const densityBar = pct(s.density, 0.008); // wiki ~0.0052 vs triples ~0.0011; combined ~0.00044
   const cards = [
-    [t('metricNodes'), s.N], [t('metricEdges'), s.E], [t('metricCommunities'), s.communities],
-    [t('metricAvgDegree'), s.avgDegree.toFixed(2)], [t('metricDensity'), s.density.toFixed(4)],
-    [t('metricGodNodes'), s.godNodes.length],
-  ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
+    cardWithTip(t('metricNodes'), s.N, 'metricNodesTip', pct(s.N, 4500)),
+    cardWithTip(t('metricEdges'), s.E, 'metricEdgesTip', pct(s.E, 38000)),
+    cardWithTip(t('metricCommunities'), s.communities, 'metricCommunitiesTip', pct(s.communities, 400)),
+    cardWithTip(t('metricAvgDegree'), s.avgDegree.toFixed(2), 'metricAvgDegreeTip', pct(s.avgDegree, 25)),
+    cardWithTip(t('metricDensity'), s.density.toFixed(4), 'metricDensityTip', densityBar),
+    cardWithTip(t('metricGodNodes'), s.godNodes.length, 'metricGodNodesTip', pct(s.godNodes.length, 10)),
+  ].join('');
 
   const topoCards = [
-    [t('topoMeanClustering'), s.meanClustering.toFixed(3)],
-    [t('topoMaxKCore'), s.maxKCore],
-    [t('topoMeanPagerank'), s.meanPagerank.toFixed(5)],
-    [t('topoMedianDegree'), s.medianDegree],
-    [t('topoBridges'), s.bridgingCount],
-  ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
+    cardWithTip(t('topoMeanClustering'), s.meanClustering.toFixed(3), 'topoMeanClusteringTip', pct(s.meanClustering, 0.5)),
+    cardWithTip(t('topoMaxKCore'), s.maxKCore, 'topoMaxKCoreTip', pct(s.maxKCore, 30)),
+    cardWithTip(t('topoMeanPagerank'), s.meanPagerank.toFixed(5), 'topoMeanPagerankTip', pct(s.meanPagerank, 0.008)),
+    cardWithTip(t('topoMedianDegree'), s.medianDegree, 'topoMedianDegreeTip', pct(s.medianDegree, 25)),
+    cardWithTip(t('topoBridges'), s.bridgingCount, 'topoBridgesTip', pct(s.bridgingCount, s.N)),
+  ].join('');
 
   const hubRows = s.hubs.slice(0, 40).map(n => atRowHTML(n, 'deg', s)).join('');
   const prRows = s.pagerankLeaders.slice(0, 40).map(n => atRowHTML(n, 'pr', s)).join('');
   const connRows = s.connectors.slice(0, 32).map(n => atRowHTML(n, 'btw', s)).join('');
 
   const cohesionMap = (GRAPH_META && GRAPH_META.community_cohesion) || {};
-  const commHTML = LEGEND.slice().sort((a, b) => b.count - a.count).map(c => {
+  const sortedLegend = LEGEND.slice().sort((a, b) => b.count - a.count);
+  const maxCommCount = Math.max(1, ...sortedLegend.map(c => c.count || 0));
+  const commHTML = sortedLegend.map(c => {
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
-    // Intra-community edge density from the build's Leiden scoring. Values
-    // < 0.15 flag "spaghetti" communities whose members are wired mostly
-    // elsewhere — the same threshold scripts/analysis reports on.
     const coh = cohesionMap[String(c.cid)];
     const loose = typeof coh === 'number' && coh < 0.15;
+    const barPct = Math.max(3, Math.round((c.count / maxCommCount) * 100));
     return `<div class="at-comm" data-cid="${c.cid}">
       <div class="at-comm-main">
         <span class="sw" style="background:${esc(c.color)}"></span>
         <span class="at-comm-name">${esc(c.label)}</span>
         ${loose ? `<span class="at-comm-loose" title="${esc(t('looseCommunityTitle'))}">${esc(t('looseCommunity'))}</span>` : ''}
       </div>
+      <div class="at-comm-bar" aria-hidden="true" title="${esc(c.label)}: ${c.count} nodes"><span class="at-comm-bar-fill" style="width:${barPct}%;background:${esc(c.color)}"></span></div>
       <div class="at-comm-foot">
         <span class="at-comm-count">${c.count} · ${esc(top)}</span>
         <span class="at-ab">
@@ -1545,12 +1562,12 @@ function renderAnalysisTools() {
 
   analysisTools.innerHTML = `
     <section class="at-section at-span-12">
-      <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
+      <div class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></div>
       <div class="at-cards">${cards}</div>
     </section>
     <section class="at-section at-span-5">
-      <h4 class="at-h">${esc(t('networkTopology'))}</h4>
-      <div class="at-cards">${topoCards}</div>
+      <div class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></div>
+      <div class="at-cards at-cards--topo">${topoCards}</div>
     </section>
     <div class="at-row-pair">
       <section class="at-section">
