@@ -30,7 +30,6 @@ Open the Analysis panel (chart icon) on [graph.johnnykuo.com](https://graph.john
 - **Predicted Connections** — Adamic-Adar link prediction over non-adjacent entities (`web/data/link-prediction.json`, regenerated each build): shared-neighbour pairs whose implied biology no document states yet, with cross-community flags and personalized-PageRank similarity profiles for hub seeds.
 - **Role Explorer** — per-node biological roles (Spreader, Master regulator, Bottleneck, Module member, Core backbone) auto-classified from live percentile fingerprints, with the rule catalog and thresholds exposed (`web/data/roles-meta.json`).
 - Full-text node search, physics / label / edge toggles, camera reset, and PNG export of the current view.
-- **Assumptions Lab** *(work in progress — conflict resolution and metric recalculation still being tuned)* — scenario analysis over curated knowledge-graph conflicts ([pages/en-US/assumptions.html](https://graph.johnnykuo.com/pages/en-US/assumptions.html), [中文版](https://graph.johnnykuo.com/pages/zh-TW/assumptions.html)): pick assumption A/B per contradiction distilled from the human-review reports, and degrees, PageRank, and shortest paths recompute client-side over the modified edge set with a baseline-vs-scenario diff. Selections are session-only and are not applied to the canonical graph build.
 
 ## Notes Panel
 
@@ -67,7 +66,6 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系](https://graph.johnnykuo.com/pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html): 四大神經退化性症候群的比較回顧——共享機制矩陣（蛋白質恆定、粒線體、氧化壓力、cGAS–STING 先天免疫、細胞老化）對比疾病特異的觸發條件、脆弱細胞類型、傳播拓撲與病程速度；治療邏輯跟隨標的拓撲（AD 的抗類澱粉抗體、HD／SOD1-ALS 的基因靜默）；包含 wiki 圖譜的度數、Jaccard 重疊與主題提及熱圖。
 - [超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域](https://graph.johnnykuo.com/pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html): 十二大生物領域的數據驅動綜述，呈現毒物興奮效應（hormesis）劑量反應——低劑量壓力源產生適應性益處——因負面框架而系統性被忽視。涵蓋定量劑量反應資料、統合分析 RCT 證據，以及輻射、ROS 訊號、發炎、缺氧、禁食、免疫教育、溫度暴露、心理壓力、異體毒物興奮、酒精、腸道微生物與骨重塑的機制趨同圖。
 
-- [假設實驗室 — 圖譜衝突的 A/B 情境分析](https://graph.johnnykuo.com/pages/zh-TW/assumptions.html)（製作中——衝突解析與指標重新計算仍在調整）: 為知識圖譜審查報告整理出的每個矛盾選定假設 A/B，度數、PageRank 與最短路徑即時在修改後的邊集合上重新計算，並與基準逐項比較；選擇僅存於當前工作階段，不會套用到正式圖譜建置。
 
 - [SIRT3 — 居於老化核心的粒線體去乙醯酶](https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html): SIRT3 視覺化深度解析——唯一與人類長壽直接相關的 SIRT 蛋白：結構與粒線體／細胞核雙重定位、七大調控軸（代謝、氧化還原、表觀遺傳、凋亡、纖維化、發炎、自噬）、橫跨神經退化、心血管疾病（心衰竭、動脈粥狀硬化、DCM）、糖尿病、癌症、腎臟病、COPD 與脊椎／關節退化的疾病 × 機制重疊矩陣、治療性活化劑（厚朴酚、白藜蘆醇、褪黑激素、2-APQC）全景，以及嵌入的 CC-BY 原文圖表（You & Wang, Int J Biol Sci 2025）。
 

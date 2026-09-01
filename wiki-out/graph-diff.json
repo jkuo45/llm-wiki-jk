@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:36:22Z",
+  "generated_at": "2026-08-31T21:41:50Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
@@ -25,13 +25,13 @@
       "degree": 87
     },
     {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
+      "id": "sting",
+      "label": "STING",
       "degree": 83
     },
     {
-      "id": "sting",
-      "label": "STING",
+      "id": "cell_cycle",
+      "label": "Cell Cycle",
       "degree": 83
     },
     {
@@ -45,13 +45,13 @@
       "degree": 73
     },
     {
-      "id": "rheumatoid_arthritis",
-      "label": "Rheumatoid Arthritis",
+      "id": "nmn",
+      "label": "NMN (Nicotinamide Mononucleotide)",
       "degree": 71
     },
     {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
+      "id": "rheumatoid_arthritis",
+      "label": "Rheumatoid Arthritis",
       "degree": 71
     },
     {
@@ -95,23 +95,23 @@
       "degree": 60
     },
     {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
-      "degree": 57
-    },
-    {
       "id": "citric_acid_cycle",
       "label": "Citric Acid Cycle",
       "degree": 57
     },
     {
-      "id": "extracellular_matrix",
-      "label": "Extracellular Matrix",
-      "degree": 56
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
+      "degree": 57
     },
     {
       "id": "calcium",
       "label": "Calcium",
+      "degree": 56
+    },
+    {
+      "id": "extracellular_matrix",
+      "label": "Extracellular Matrix",
       "degree": 56
     }
   ],
@@ -122,18 +122,8 @@
       "degree": 11
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
-      "degree": 4
-    },
-    {
       "id": "jak_stat3",
       "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -142,13 +132,28 @@
       "degree": 4
     },
     {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
       "id": "sirt7_depletion",
       "label": "SIRT7 depletion",
       "degree": 3
     },
     {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
       "degree": 3
     },
     {
@@ -157,8 +162,13 @@
       "degree": 3
     },
     {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    },
+    {
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
       "degree": 3
     },
     {
@@ -172,19 +182,19 @@
       "degree": 3
     },
     {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
-      "degree": 3
-    },
-    {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
-      "degree": 3
-    },
-    {
       "id": "sirt6_overexpression",
       "label": "SIRT6 overexpression",
       "degree": 3
+    },
+    {
+      "id": "sirt2_inhibition",
+      "label": "SIRT2 inhibition",
+      "degree": 2
+    },
+    {
+      "id": "reactive_oxygen_species_generation",
+      "label": "Reactive Oxygen Species generation",
+      "degree": 2
     },
     {
       "id": "dietary_age_restriction",
@@ -192,28 +202,18 @@
       "degree": 2
     },
     {
-      "id": "ampk_activation",
-      "label": "AMPK activation",
+      "id": "sirtuin_deacetylation_reaction",
+      "label": "Sirtuin deacetylation reaction",
       "degree": 2
     },
     {
-      "id": "glycemic_control",
-      "label": "Glycemic Control",
+      "id": "diabetic_complications",
+      "label": "diabetic complications",
       "degree": 2
     },
     {
-      "id": "cytoplasm",
-      "label": "Cytoplasm",
-      "degree": 2
-    },
-    {
-      "id": "metallic_silver",
-      "label": "Metallic silver",
-      "degree": 2
-    },
-    {
-      "id": "mtorc1_to_lysosomes",
-      "label": "mTORC1 to lysosomes",
+      "id": "ac2_26",
+      "label": "Ac2-26",
       "degree": 2
     }
   ],

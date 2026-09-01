@@ -20,12 +20,12 @@
 | --- | --- |
 | cGAS | 96 |
 | Phosphorylation | 87 |
-| Cell Cycle | 83 |
 | STING | 83 |
+| Cell Cycle | 83 |
 | Macrophage | 75 |
 | Ubiquitination | 73 |
-| Rheumatoid Arthritis | 71 |
 | NMN (Nicotinamide Mononucleotide) | 71 |
+| Rheumatoid Arthritis | 71 |
 | Fibroblast | 68 |
 | Endothelial Cells | 68 |
 | Metabolism | 66 |
@@ -34,35 +34,35 @@
 | Epigenetics and aging | 64 |
 | Flavonoid | 61 |
 | Histone Variant | 60 |
-| Unfolded Protein Response | 57 |
 | Citric Acid Cycle | 57 |
-| Extracellular Matrix | 56 |
+| Unfolded Protein Response | 57 |
 | Calcium | 56 |
+| Extracellular Matrix | 56 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
 | Node | Degree |
 | --- | --- |
 | Adrenochrome formation | 11 |
-| SIRT1 and SIRT2 | 4 |
 | JAK-STAT3 | 4 |
-| Physical Activity | 4 |
 | SIRT3 deficiency | 4 |
+| Physical Activity | 4 |
+| SIRT1 and SIRT2 | 4 |
 | SIRT7 depletion | 3 |
-| Dietary AGEs | 3 |
-| catechol flavonoid | 3 |
+| Streptomyces avermectinius | 3 |
 | Advanced Glycation End Products formation | 3 |
+| catechol flavonoid | 3 |
+| Dietary Advanced Glycation End Products | 3 |
+| Dietary AGEs | 3 |
 | H3K9 | 3 |
 | PI3K/Akt | 3 |
-| Dietary Advanced Glycation End Products | 3 |
-| Streptomyces avermectinius | 3 |
 | SIRT6 overexpression | 3 |
+| SIRT2 inhibition | 2 |
+| Reactive Oxygen Species generation | 2 |
 | Dietary AGE Restriction | 2 |
-| AMPK activation | 2 |
-| Glycemic Control | 2 |
-| Cytoplasm | 2 |
-| Metallic silver | 2 |
-| mTORC1 to lysosomes | 2 |
+| Sirtuin deacetylation reaction | 2 |
+| diabetic complications | 2 |
+| Ac2-26 | 2 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 
