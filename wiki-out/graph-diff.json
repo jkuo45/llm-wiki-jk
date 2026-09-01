@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-30T15:12:44Z",
+  "generated_at": "2026-08-31T21:36:22Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 2654,
+    "triples_nodes": 2653,
     "wiki_nodes": 3007,
-    "shared_nodes": 1563,
-    "wiki_only_nodes": 1444,
+    "shared_nodes": 1562,
+    "wiki_only_nodes": 1445,
     "triples_only_nodes": 1091,
-    "triples_edges": 3896,
+    "triples_edges": 3894,
     "wiki_edges": 35150,
-    "wiki_only_edges": 33422,
-    "triples_only_edges": 2168
+    "wiki_only_edges": 33425,
+    "triples_only_edges": 2169
   },
   "top_wiki_only_nodes": [
     {
@@ -25,13 +25,13 @@
       "degree": 87
     },
     {
-      "id": "sting",
-      "label": "STING",
+      "id": "cell_cycle",
+      "label": "Cell Cycle",
       "degree": 83
     },
     {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
+      "id": "sting",
+      "label": "STING",
       "degree": 83
     },
     {
@@ -45,23 +45,23 @@
       "degree": 73
     },
     {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
-      "degree": 71
-    },
-    {
       "id": "rheumatoid_arthritis",
       "label": "Rheumatoid Arthritis",
       "degree": 71
     },
     {
-      "id": "endothelial_cells",
-      "label": "Endothelial Cells",
-      "degree": 68
+      "id": "nmn",
+      "label": "NMN (Nicotinamide Mononucleotide)",
+      "degree": 71
     },
     {
       "id": "fibroblast",
       "label": "Fibroblast",
+      "degree": 68
+    },
+    {
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
       "degree": 68
     },
     {
@@ -122,13 +122,13 @@
       "degree": 11
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
@@ -137,44 +137,9 @@
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
-    },
-    {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
-      "degree": 3
-    },
-    {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
-      "degree": 3
-    },
-    {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
-      "degree": 3
-    },
-    {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
-      "degree": 3
-    },
-    {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
     },
     {
       "id": "sirt7_depletion",
@@ -187,33 +152,68 @@
       "degree": 3
     },
     {
-      "id": "sirt2_inhibition",
-      "label": "SIRT2 inhibition",
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "h3k9",
+      "label": "H3K9",
+      "degree": 3
+    },
+    {
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    },
+    {
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "dietary_age_restriction",
+      "label": "Dietary AGE Restriction",
       "degree": 2
     },
     {
-      "id": "muscle_wasting",
-      "label": "Muscle Wasting",
+      "id": "ampk_activation",
+      "label": "AMPK activation",
       "degree": 2
     },
     {
-      "id": "sirt1_overexpression",
-      "label": "SIRT1 overexpression",
+      "id": "glycemic_control",
+      "label": "Glycemic Control",
       "degree": 2
     },
     {
-      "id": "anti_inflammatory_properties",
-      "label": "anti-inflammatory properties",
+      "id": "cytoplasm",
+      "label": "Cytoplasm",
       "degree": 2
     },
     {
-      "id": "universal_indirect_pan_sirtuin_activator",
-      "label": "Universal indirect pan-sirtuin activator",
+      "id": "metallic_silver",
+      "label": "Metallic silver",
       "degree": 2
     },
     {
-      "id": "lifespan_extension",
-      "label": "Lifespan extension",
+      "id": "mtorc1_to_lysosomes",
+      "label": "mTORC1 to lysosomes",
       "degree": 2
     }
   ],

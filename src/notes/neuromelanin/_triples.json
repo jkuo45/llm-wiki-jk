@@ -364,20 +364,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "962a49df4bb4",
-    "subject": "Autophagy",
-    "predicate": "impairs",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Autophagy impairs Parkinson's Disease when its deficiency or dysfunction weakens the target pathway. Mechanistically, reduced flux through the impaired system permits aggregate and organelle buildup that drives degeneration. This is significant because impairment of degradative or energetic pathways is a core feature of Parkinson's disease pathogenesis. A caveat is that the phrasing can be misread; it is the loss or dysfunction of the first entity that is harmful, and excessive activity can also be detrimental.",
-      "zh-TW": "當 Autophagy 的缺陷或功能障礙削弱目標途徑時，Autophagy 就會損害 Parkinson's Disease。從機制上講，通過受損系統的通量減少會導致聚集體和細胞器積聚，從而導致退化。這很重要，因為降解或能量途徑的損害是 Parkinson's disease 發病機制的核心特徵。需要注意的是，措辭可能會被誤讀。第一個實體的喪失或功能障礙是有害的，過度的活動也可能是有害的。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "3650b481c6cd",
     "subject": "Autophagy",
     "predicate": "protects_against",

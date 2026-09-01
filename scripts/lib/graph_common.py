@@ -164,11 +164,16 @@ def enrich_graph_metrics(
     for n in G.nodes():
         G.nodes[n]["betweenness_centrality"] = round(bet.get(n, 0.0), 8)
 
-    clust = nx.clustering(G_und)
+    # nx.clustering / nx.core_number reject multigraphs; project to a simple
+    # undirected graph (parallel edges collapse — the right semantics for
+    # local triangle / core measures — while degree/pagerank keep counting
+    # them on the multigraph itself).
+    G_simple = nx.Graph(G_und)
+    clust = nx.clustering(G_simple)
     for n in G.nodes():
         G.nodes[n]["clustering_coefficient"] = round(clust.get(n, 0.0), 8)
 
-    kcore = nx.core_number(G_und)
+    kcore = nx.core_number(G_simple)
     for n in G.nodes():
         G.nodes[n]["k_core_number"] = kcore.get(n, 0)
 

@@ -1108,16 +1108,16 @@
   {
     "id": "ce2b8b15cb68",
     "subject": "Adrenochrome",
-    "predicate": "is_a",
+    "predicate": "is_class_member_of",
     "object": "Aminochrome",
     "context": {
-      "en-US": "Adrenochrome is an aminochrome, the class of oxidized, colored products formed from catecholamines. Aminochromes, specifically adrenochrome, are examined here as candidate senotherapeutics, and their chemistry, ortho-quinone electrophilicity and redox cycling, determines both their potential senolytic and senomorphic activity and their neurotoxicity and cardiotoxicity. As oxidation products of catecholamines such as epinephrine and dopamine, aminochromes are endogenous stress metabolites that accumulate under oxidative conditions.",
-      "zh-TW": "腎上腺素色素是一種氨基色素，即由兒茶酚胺形成的氧化有色產物類。氨基色素，特別是腎上腺素色素，在此被研究為候選衰老治療藥物，其化學性質、鄰醌親電性和氧化還原循環決定了其潛在的溶細胞和衰老模仿活性，以及其神經毒性和心臟毒性。作為兒茶酚胺如腎上腺素和多巴胺的氧化產物，氨基色素是內源性壓力代謝物，在氧化條件下積累。"
+      "en-US": "Class membership, not molecule identity: adrenochrome belongs to the aminochrome class — the oxidized, colored o-quinone products formed from catecholamines (each aminochrome derives from its precursor amine: aminochrome from dopamine, adrenochrome from epinephrine). Aminochromes are examined here as candidate senotherapeutics; their chemistry, ortho-quinone electrophilicity and redox cycling determine both their potential cytostatic and senomorphic activity and their neurotoxicity and cardiotoxicity.",
+      "zh-TW": "類別成員關係，而非分子身分：腎上腺素紅屬於氨基色素類——由兒茶酚胺氧化形成的有色鄰醌產物（每種氨基色素皆源自其前驅胺類：氨基色素來自多巴胺，腎上腺素紅來自腎上腺素）。氨基色素在此被研究為候選衰老治療藥物；其化學性質、鄰醌親電性與氧化還原循環決定了其潛在的細胞靜止與衰老模仿活性，以及其神經毒性與心臟毒性。"
     },
-    "confidence": 0.95,
+    "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-01T04:17:56Z"
   },
   {
     "id": "d03dd31dbcab",
@@ -1258,20 +1258,6 @@
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T06:38:23Z"
-  },
-  {
-    "id": "2fd535aa0773",
-    "subject": "Adrenochrome",
-    "predicate": "inhibits",
-    "object": "NF-κB",
-    "context": {
-      "en-US": "Contested senomorphic hypothesis: in the SRAC/adrenochrome-protocol framing, adrenochrome-based complexes are proposed to suppress NF-kB-driven SASP, hence 'Adrenochrome inhibits NF-kB'. This is a protocol-specific assertion, NOT general biology - broadly, oxidative stress (where adrenochrome forms) ACTIVATES NF-kB, which then drives SASP/inflammation (see Oxidative Stress --activates--> NF-kB). Confidence lowered to reflect the contested status.",
-      "zh-TW": "具爭議的衰老相關分泌表型（senomorphic）假說：在 SRAC／腎上腺素紅協定架構中，主張以腎上腺素紅為基礎的複合物可抑制 NF-kB 驅動的 SASP，故謂「腎上腺素紅抑制 NF-kB」。此為協定專屬主張，並非普遍生物學——廣義而言，氧化壓力（腎上腺素紅生成的背景）會活化 NF-kB，進而驅動 SASP／發炎（見 Oxidative Stress --activates--> NF-kB）。信心值下調以反映其爭議性。"
-    },
-    "confidence": 0.5,
-    "source_document": "_document_ - as senotherapeutic agent.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-25T04:10:14Z"
   },
   {
     "id": "80dfc4b9e0f0",
@@ -1932,20 +1918,6 @@
     "updated": "2026-08-20T06:51:10Z"
   },
   {
-    "id": "a522f693faf8",
-    "subject": "Erythrocytes",
-    "predicate": "does_not_produce",
-    "object": "Adrenochrome",
-    "context": {
-      "en-US": "Erythrocytes (red blood cells) are not a normal site of adrenochrome storage or production. They lack the organelles and major oxidative enzymes found in neutrophils or adrenal cells that actively generate adrenochrome, so any adrenochrome in red blood cells would be trace, transient, or the result of external oxidation in blood plasma. Hemoglobin can, however, catalyze epinephrine oxidation in blood, and the erythrocyte plasma membrane can convert adrenaline to aminochromes, so adrenochrome is more relevant to red blood cells as a potential reactant or byproduct that can damage cell membranes than as a normally present cellular component.",
-      "zh-TW": "紅血球（red blood cells）並非adrenochrome儲存或生成的常態位置。它們缺乏neutrophils或adrenal cells所具有、能主動生成adrenochrome的胞器與主要氧化酶，因此紅血球中任何的adrenochrome都會是微量、短暫的，或是blood plasma中external oxidation的結果。然而，Hemoglobin能在血液中催化epinephrine oxidation，且erythrocyte plasma membrane能將adrenaline轉化為aminochromes，因此對紅血球而言，adrenochrome更像是可能損害cell membranes的潛在反應物或副產物，而非正常存在的cellular component。"
-    },
-    "confidence": 0.85,
-    "source_document": "_document_ - neutrophil and erthrocyte.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
-  },
-  {
     "id": "06c514c9cc90",
     "subject": "Neutrophils",
     "predicate": "generate",
@@ -2032,7 +2004,7 @@
   {
     "id": "7b5bb7e76478",
     "subject": "Superoxide dismutase",
-    "predicate": "inhibits",
+    "predicate": "prevents_formation_of",
     "object": "Adrenochrome",
     "context": {
       "en-US": "Superoxide dismutase (SOD), along with catalase and azide, inhibits the oxidation of adrenaline to adrenochrome in experiments with stimulated neutrophils, confirming that reactive oxygen species are responsible for the conversion. SOD specifically scavenges superoxide radicals generated by the neutrophil NADPH oxidase system, and because these radicals drive much of the adrenaline oxidation (over 80% at low micromolar concentrations), removing them blocks adrenochrome formation. This enzyme-based inhibition is key experimental evidence for the ROS-dependent mechanism of neutrophil-mediated adrenochrome production.",
@@ -2041,12 +2013,12 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-01T04:17:56Z"
   },
   {
     "id": "b2fc32672010",
     "subject": "Catalase",
-    "predicate": "inhibits",
+    "predicate": "prevents_formation_of",
     "object": "Adrenochrome",
     "context": {
       "en-US": "Catalase, along with superoxide dismutase and azide, inhibits the oxidation of adrenaline to adrenochrome in stimulated-neutrophil experiments, confirming that reactive oxygen species mediate the conversion. Catalase scavenges hydrogen peroxide, which both is a reactive oxygen species in its own right and serves as the substrate for myeloperoxidase. Because hydrogen peroxide and myeloperoxidase-driven oxidation contribute to catecholamine oxidation alongside superoxide, catalase-mediated inhibition demonstrates that the full ROS cascade, not a single species, drives adrenaline-to-adrenochrome conversion in this system.",
@@ -2055,7 +2027,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-01T04:17:56Z"
   },
   {
     "id": "e550f9490e22",

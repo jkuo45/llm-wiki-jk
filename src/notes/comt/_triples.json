@@ -2158,16 +2158,16 @@
   {
     "id": "82b981cb7f32",
     "subject": "Resveratrol",
-    "predicate": "is",
+    "predicate": "does_not_inhibit",
     "object": "COMT",
     "context": {
-      "en-US": "Resveratrol is an alternative anti-inflammatory agent for slow COMT individuals because it is not a catechol and does not donate methyl groups, so it does not perturb COMT-dependent catechol metabolism. Its anti-inflammatory and sirtuin-modulating actions operate independently of the methylation cycle, activating pathways such as SIRT1 and AMPK. This makes it a safe option where avoiding COMT interaction or methyl burden is desired. Found in grapes and red wine, it is widely studied for cardiometabolic and longevity effects.",
+      "en-US": "Resveratrol does not inhibit COMT: it is an alternative anti-inflammatory agent for slow-COMT individuals because it is not a catechol and does not donate methyl groups, so it does not perturb COMT-dependent catechol metabolism. Its anti-inflammatory and sirtuin-modulating actions operate independently of the methylation cycle, activating SIRT1 and AMPK pathways.",
       "zh-TW": "Resveratrol 是慢速 COMT 個體的替代抗發炎劑，因為它不是兒茶酚並且不捐贈 methyl groups，因此它不會擾亂 COMT 依賴性兒茶酚代謝。其抗發炎和沈默調節蛋白調節作用獨立於 methylation cycle 發揮作用，活化 SIRT1 和 AMPK 等路徑。這使其成為需要避免 COMT 相互作用或甲基負擔的安全選擇。它存在於葡萄和紅酒中，因其對心臟代謝和長壽的影響而被廣泛研究。"
     },
-    "confidence": 0.72,
+    "confidence": 0.75,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-01T04:17:56Z"
   },
   {
     "id": "e3ba1c3db126",

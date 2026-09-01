@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1708 | 1,079,357 | 9.59 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1708 | 1,079,456 | 9.59 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 31_AUG_2026 | 11 | 280 | 245,033 | 2.77 MB |
@@ -15,7 +15,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 20 | 174 | 314,203 | 3.91 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 31_AUG_2026 | **125** | **3150** | **2,543,667** | **26.74 MB** |
+| **subtotal** | 31_AUG_2026 | **125** | **3150** | **2,543,766** | **26.74 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -27,14 +27,14 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,098 | 37,318 |
-| **Triples** | `triples-*.json` | 2,654 | 3,896 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,098 | 37,319 |
+| **Triples** | `triples-*.json` | 2,653 | 4,094 |
 | **Wiki** | `wiki-*.json` | 3,007 | 35,150 |
 
-Build: 30_AUG_2026 · hash `7e170d4`
+Build: 31_AUG_2026 · hash `2afd564`
 
 > [!info] Combined merge
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,007 wiki − 1,563 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,562 entities appear in both sources (2,653 triples + 3,007 wiki − 1,562 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,725 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 > Wiki-only community ids are offset by +1000 in the combined legend so the cid spaces never collide; wiki-only nodes keep that offset on their `community` field.
 <!-- END GENERATED: graph_datasets -->
 
@@ -141,7 +141,7 @@ Build: 30_AUG_2026 · hash `7e170d4`
 <details>
 <summary><strong>Documents (125 total)</strong> — click to expand</summary>
 
-- `sirtuins`: [Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirt1%20Regulates%20Aging%20and%20Resistance%20to%20Oxidative%20Stress%20in%20the%20Heart.md) [[src/notes/sirtuins/_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart.md|wiki]] (31_AUG_2026 08:05 PM PDT)
+- `sirtuins`: [Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirt1%20Regulates%20Aging%20and%20Resistance%20to%20Oxidative%20Stress%20in%20the%20Heart.md) [[src/notes/sirtuins/_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart.md|wiki]] (31_AUG_2026 08:18 PM PDT)
 - `sirtuins`: [Sirtuins, a promising target in slowing down the ageing process](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%2C%20a%20promising%20target%20in%20slowing%20down%20the%20ageing%20process.md) [[src/notes/sirtuins/_document_ - Sirtuins, a promising target in slowing down the ageing process.md|wiki]] (31_AUG_2026 11:27 AM PDT)
 - `_link`: [Neuro-Modulating Effects of Honokiol A Review](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Neuro-Modulating%20Effects%20of%20Honokiol%20A%20Review.md) [[src/notes/_link/_document_ - Neuro-Modulating Effects of Honokiol A Review.md|wiki]] (29_AUG_2026 12:56 AM PDT)
 - `_link`: [crosstalk_cell_death_mechanisms_s41420-025-02328-9](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20crosstalk_cell_death_mechanisms_s41420-025-02328-9.md) [[src/notes/_link/_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md|wiki]] (29_AUG_2026 12:56 AM PDT)

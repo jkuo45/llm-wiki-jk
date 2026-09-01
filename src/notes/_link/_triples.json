@@ -5182,16 +5182,16 @@
   {
     "id": "5bd6375c93eb",
     "subject": "Mitohormesis",
-    "predicate": "requires",
+    "predicate": "is_monitored_by",
     "object": "Heart Rate Variability",
     "context": {
-      "en-US": "Mitohormesis is about the dose-response relationship to stress, applying acute stressors such as exercise, fasting, and heat or cold to trigger mitochondrial adaptation. However, mitochondrial adaptation does not happen during the stressor; it happens during the deep recovery that follows. If a stressor is applied and recovery is adequate, baseline HRV stabilizes or slowly trends upward over weeks and months, signaling that the nervous system handled the stress and adapted with larger capacity. If too many stressors are applied simultaneously, HRV chronically drops and mitohormesis gives way to mitochondrial dysfunction and systemic inflammation.",
+      "en-US": "HRV is a recovery-monitoring biomarker that correlates with successful mitohormetic adaptation — an indicator, not a mechanistic requirement. Mitohormesis applies acute stressors (exercise, fasting, heat/cold) that trigger mitochondrial adaptation during subsequent deep recovery; if stressors and recovery are balanced, baseline HRV stabilizes or slowly rises, while chronic HRV decline signals that mitohormesis has given way to mitochondrial dysfunction and systemic inflammation.",
       "zh-TW": "粒線體促效應與壓力的劑量反應關係有關，應用急性壓力源如運動、禁食和冷熱來觸發粒線體適應。然而，粒線體適應並非發生在壓力源期間；而是發生在隨後的深度恢復期間。如果施加壓力源且恢復足夠，基線 HRV 會穩定或在數週和數月內緩慢上升，表明神經系統處理了壓力並以更大的容量適應。如果同時施加太多壓力源，HRV 會長期下降，粒線體促效應讓位於粒線體功能障礙和系統性炎症。"
     },
-    "confidence": 0.92,
+    "confidence": 0.85,
     "source_document": "_document_ - mitohormesis, heart rate variability.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:05:15Z"
+    "updated": "2026-09-01T04:17:56Z"
   },
   {
     "id": "bf707094d24d",
@@ -8944,5 +8944,19 @@
     "source_document": "SMURF2.md",
     "created": "2026-08-29T02:00:00Z",
     "updated": "2026-08-29T02:00:00Z"
+  },
+  {
+    "id": "d5967477166b",
+    "subject": "Mitohormesis",
+    "predicate": "is_mediated_by",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "SIRT1/SIRT3 are central mediators of mitochondrial-stress adaptation: the NAD+ dependence of sirtuin activity couples mitochondrial stress to deacetylase signaling, and the SIRT1/PGC-1alpha axis drives mitochondrial biogenesis and antioxidant defenses. Mitohormetic signaling therefore runs through sirtuin activation rather than terminating at ROS alone.",
+      "zh-TW": "SIRT1／SIRT3 是粒線體壓力適應的核心媒介：去乙醯化酶活性對 NAD+ 的依賴，將粒線體壓力與去乙醯化訊號耦合，而 SIRT1/PGC-1α 軸驅動粒線體生成與抗氧化防禦。粒線體激效訊號因此經由去乙醯化酶活化傳導，而非止於 ROS 本身。"
+    },
+    "confidence": 0.8,
+    "source_document": "Mitohormesis.md",
+    "created": "2026-09-01T04:17:56Z",
+    "updated": "2026-09-01T04:17:56Z"
   }
 ]

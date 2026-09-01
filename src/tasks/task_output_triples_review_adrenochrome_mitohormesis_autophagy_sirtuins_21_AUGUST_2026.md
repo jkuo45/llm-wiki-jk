@@ -2,7 +2,7 @@
 title: Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins
 description: Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.
 created: 2026-08-21
-updated: 2026-08-22
+updated: 2026-08-31
 tags: [triples, knowledge-graph, quality-control, adrenochrome, mitohormesis, autophagy, sirtuins]
 ---
 
@@ -134,3 +134,75 @@ Triples below are grouped into three review tiers.
 | 1 — Factual errors / direct contradictions | 5 clusters (~9 triples) | wrong identity, inverted direction, cross-paper conflicts |
 | 2 — Predicate mis-extraction / speculation-as-fact | 6 clusters (~12 triples) | garbled predicates, self-loops, hypotheses at face value |
 | 3 — Consistency & gaps | ~15 triples + 3 missing-edge findings | duplicates, qualifiers, absent key links |
+
+---
+
+## Resolutions applied — 31_Aug_2026
+
+All 13 decision points from this review were resolved against the canonical
+graph (`src/**/_triples.json`), verified through a fresh `rebuild-triples`,
+and mirrored into the Assumptions Lab (`web/public/data/assumptions.json`
+→ `resolvedUpstream`). Per-triple verdicts (keep / recast / exclude), grounded
+in the source contexts and external literature:
+
+| Conflict | Verdict | Triple(s) & action | Source id(s) |
+|---|---|---|---|
+| T1-1 | **Recast** | `Adrenochrome is_a Aminochrome` → `is_class_member_of` (conf 0.9) — aminochrome is the *class* of catecholamine-oxidation o-quinones; adrenochrome is the epinephrine-derived member, not the dopamine-species node itself | `ce2b8b15cb68` (adrenochrome) |
+| T1-2 | **Keep both** | `is_undetectable_in biological_fluids` (0.9) + `detected_in rheumatoid_synovial_fluid` (0.75) retained — qualified reading (systemic-healthy vs local oxidative inflammation; cf. Matthews 1985, PMID 3992038) | `ace9cb6d35a2`, `e550f9490e22` |
+| T1-3 | **Exclude** | `Autophagy impairs Parkinson's Disease` removed — inverted direction; autophagic *dysfunction* contributes to PD and the correct `protects_against alpha_synuclein_aggregation` edge already exists | `962a49df4bb4` (neuromelanin) |
+| T1-4 | **Keep both** | `Rapamycin suppresses Immune System` (0.9) + `delays Immune Aging` (0.95) retained — context-dependent duality (transplant immunosuppression vs immunosenescence reversal in aged animals) | `0ad00fdc47e2` (_link), `e43add586696` (autophagy) |
+| T2-1 | **Recast** | `SOD/Catalase inhibits Adrenochrome` → `prevents_formation_of` (0.75 each) — the enzymes inhibit adrenaline→adrenochrome *oxidation* via ROS scavenging, not adrenochrome itself | `7b5bb7e76478`, `b2fc32672010` |
+| T2-2 | **Exclude** | `Adrenochrome inhibits NF-κB` (0.5) removed — speculative senomorphic hypothesis contradicted by `oxidative_stress activates nf_kappab` (0.9); chemistry retained via `modifies ikk_complex` (0.75) | `2fd535aa0773` |
+| T2-3 | **Recast** | `Mitohormesis requires Heart Rate Variability` → `is_monitored_by` (0.85) — HRV is a recovery-monitoring biomarker, not a mechanistic requirement | `5bd6375c93eb` (_link) |
+| T2-4 | **Exclude (garbled edge)** | `SIRT3 suppresses_tumor_suppressive_in Cancer` removed — malformed compound predicate; genuine dual role represented instead by the two kept SIRT5 edges | `b0a3f5ba1bbc` (sirtuins) |
+| T2-5 | **Recast** | `Resveratrol is COMT` → `does_not_inhibit` (0.75) — nonsense copula replaced with the relation the context actually describes (non-catechol, no methyl donation) | `82b981cb7f32` (comt) |
+| T2-6 | **Exclude (pending recast)** | `Erythrocytes does_not_produce Adrenochrome` removed — absolute negation contradicted by its own context (hemoglobin catalysis, RBC-membrane conversion). Future recast: `is_not_a_primary_production_site_for` (neutrophils remain the primary site: `mediate adrenochrome_formation` 0.9, `oxidize epinephrine` 0.95) | `a522f693faf8` |
+| T3-3a | **Keep + add counter-edge** | `Resveratrol activates SIRT1` (0.95) kept; added `does_not_directly_activate_at_physiological_dose` (0.6) — Fluor de Lys substrate artifact (Borra 2005, Kaeberlein 2005, Pacholec 2010, Beher 2009); in-vivo effects run through the indirect cAMP/PDE4/Epac1/AMPK/NAD+ cascade | new (sirtuins) |
+| T3-3b | **Add missing edge** | `Mitohormesis is_mediated_by Sirtuins` (0.8) — SIRT1/SIRT3 as central mediators of mitochondrial-stress adaptation (NAD+ dependence, PGC-1α axis) | new (_link) |
+| T3-4a | **Keep promote + restore dual role** | `senescence`/`paracrine_senescence can_promote cancer` kept; the tumor-suppressive `suppresses_tumor` edges restored (0.95 / 0.7) — immune-clearance-dependent duality | `41ae226cb0c3`, `f86f91ffd48f` (were in source but collapsed — see below) |
+
+### Root cause found: parallel-edge collapse in the graph build
+
+The `suppresses_tumor` edges were never missing from the source — they were
+silently destroyed by the build pipeline. `scripts/triples/rebuild.py` built a
+plain `nx.DiGraph`, so for every node pair carrying more than one predicate
+the **last-processed relation overwrote the earlier one**. Source-side audit:
+**180 node pairs carried 2+ predicates (~201 relations lost graph-wide)**.
+
+Fixes applied:
+
+1. `rebuild.py`: `G = nx.MultiDiGraph()` — parallel edges are preserved;
+   degree/pagerank now count them (matching the Assumptions Lab convention).
+   Post-fix build: 4,094 edges (was 3,894) with **179 parallel-relation pairs**.
+2. `scripts/lib/graph_common.py`: `nx.clustering` / `nx.core_number` reject
+   multigraphs — both now run on a simple undirected projection (`nx.Graph(G_und)`)
+   while degree/pagerank/betweenness keep the multigraph.
+3. `scripts/analysis/node_analysis.py`: path edge-meta read made multigraph-safe.
+4. Consumers verified multigraph-safe without changes: `api/graph_ops.py`
+   (already loads `nx.MultiDiGraph` and handles both shapes in `_edge_meta`),
+   `scripts/sync/graph_to_db.py` (edge key includes predicate),
+   `scripts/analysis/link_prediction.py` (own undirected projection),
+   `scripts/combined/build.py` (documented `(from,to)` union convention — kept).
+
+### Pipeline artifacts refreshed
+
+- `rebuild-triples` → `graphify-out/graph.json` + `web/public/data/triples-*`
+- `build-combined` → canonical `nodes/edges/legend/graph-meta` + diff report
+- `predicates-zh-TW.json`: +32 translations (5 for the new/recast predicates —
+  `prevents_formation_of`, `is_monitored_by`, `is_class_member_of`,
+  `does_not_directly_activate_at_physiological_dose`, `suppresses_tumor` —
+  plus 27 pre-existing gaps surfaced by the recovered edges)
+- `readme-counts`, `sync-graph` (Supabase base layer re-mirrored),
+  `assumptions.json` `resolvedUpstream` (11 conflicts moved out of the Lab;
+  T1-2 and T1-4 remain as open context-qualification questions)
+
+### Still open
+
+- **T1-2 / T1-4** remain in the Assumptions Lab as legitimate open questions
+  (keep-both stances adopted; the disagreement is the content).
+- **T2-6 recast**: the ideal predicate (`is_not_a_primary_production_site_for`)
+  should be added in a future curation pass instead of the bare exclusion.
+- The parked exclusion (`_document_ - as senotherapeutic agent.md`) stays
+  parked — its substantive edges (`induces oxidative_stress` 0.85,
+  `modifies ikk_complex` 0.75) are valid and retained; only its two flagged
+  triples were fixed.

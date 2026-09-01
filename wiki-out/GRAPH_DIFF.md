@@ -1,18 +1,18 @@
 # Triples vs Wiki Graph Diff
 
-- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (2654 nodes, 3896 edges)
+- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (2653 nodes, 3894 edges)
 - Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3007 nodes, 35150 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 1563
-- **Wiki-only** (linked, no triple): 1444
+- **Shared** (in both): 1562
+- **Wiki-only** (linked, no triple): 1445
 - **Triples-only** (triple, no wikilink): 1091
 
 ## Edge overlap
 
-- **Wiki-only edges** (under-extracted triples / curation gaps): 33422
-- **Triples-only edges** (not surfaced as a wikilink): 2168
+- **Wiki-only edges** (under-extracted triples / curation gaps): 33425
+- **Triples-only edges** (not surfaced as a wikilink): 2169
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
@@ -20,14 +20,14 @@
 | --- | --- |
 | cGAS | 96 |
 | Phosphorylation | 87 |
-| STING | 83 |
 | Cell Cycle | 83 |
+| STING | 83 |
 | Macrophage | 75 |
 | Ubiquitination | 73 |
-| NMN (Nicotinamide Mononucleotide) | 71 |
 | Rheumatoid Arthritis | 71 |
-| Endothelial Cells | 68 |
+| NMN (Nicotinamide Mononucleotide) | 71 |
 | Fibroblast | 68 |
+| Endothelial Cells | 68 |
 | Metabolism | 66 |
 | Type I Interferon | 66 |
 | Replicative Senescence | 65 |
@@ -44,25 +44,25 @@
 | Node | Degree |
 | --- | --- |
 | Adrenochrome formation | 11 |
-| JAK-STAT3 | 4 |
-| SIRT3 deficiency | 4 |
-| Physical Activity | 4 |
 | SIRT1 and SIRT2 | 4 |
-| Streptomyces avermectinius | 3 |
-| Dietary Advanced Glycation End Products | 3 |
-| Advanced Glycation End Products formation | 3 |
-| catechol flavonoid | 3 |
-| PI3K/Akt | 3 |
-| SIRT6 overexpression | 3 |
-| H3K9 | 3 |
+| JAK-STAT3 | 4 |
+| Physical Activity | 4 |
+| SIRT3 deficiency | 4 |
 | SIRT7 depletion | 3 |
 | Dietary AGEs | 3 |
-| SIRT2 inhibition | 2 |
-| Muscle Wasting | 2 |
-| SIRT1 overexpression | 2 |
-| anti-inflammatory properties | 2 |
-| Universal indirect pan-sirtuin activator | 2 |
-| Lifespan extension | 2 |
+| catechol flavonoid | 3 |
+| Advanced Glycation End Products formation | 3 |
+| H3K9 | 3 |
+| PI3K/Akt | 3 |
+| Dietary Advanced Glycation End Products | 3 |
+| Streptomyces avermectinius | 3 |
+| SIRT6 overexpression | 3 |
+| Dietary AGE Restriction | 2 |
+| AMPK activation | 2 |
+| Glycemic Control | 2 |
+| Cytoplasm | 2 |
+| Metallic silver | 2 |
+| mTORC1 to lysosomes | 2 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

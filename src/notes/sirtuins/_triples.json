@@ -12782,20 +12782,6 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "b0a3f5ba1bbc",
-    "subject": "SIRT3",
-    "predicate": "suppresses_tumor_suppressive_in",
-    "object": "Cancer",
-    "context": {
-      "en-US": "SIRT3 exerts context-dependent roles in cancer: as a tumor suppressor it stabilizes chromosomal integrity via OGG1-mediated DNA repair potentiation, facilitates H3K56 deacetylation for NHEJ fidelity, destabilizes HIF-1alpha to attenuate the Warburg effect, and deacetylates IDH2 at K143 to suppress ROS-mediated mutagenesis. Yet it can be oncogenic (pyroline-5-carboxylate reductase 1 Lys228, SHMT2 Lys95, glycine decarboxylase Lys514 deacetylation) and enables chemoresistance in CLL via ROS buffering.",
-      "zh-TW": "SIRT3 在癌症中發揮情境依賴性角色：作為腫瘤抑制因子，它透過 OGG1 介導的 DNA 修復增強穩定染色體完整性，促進 H3K56 去乙醯化以維持 NHEJ 精準度，不穩定化 HIF-1alpha 以減輕 Warburg 效應，並在 K143 處去乙醯化 IDH2 以抑制活性氧介導的致突變作用。然而它也可以是致癌性的（pyroline-5-carboxylate reductase 1 Lys228、SHMT2 Lys95、glycine decarboxylase Lys514 去乙醯化），並在 CLL 中透過活性氧緩衝賦予化療抗性。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
-    "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
-  },
-  {
     "id": "26103748cd30",
     "subject": "Histone Crotonylation",
     "predicate": "is_erased_by",
@@ -13928,5 +13914,19 @@
     "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
     "created": "2026-08-29T01:30:00Z",
     "updated": "2026-08-29T01:30:00Z"
+  },
+  {
+    "id": "b9775a2233d4",
+    "subject": "Resveratrol",
+    "predicate": "does_not_directly_activate_at_physiological_dose",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Contested direct activation: in vitro SIRT1 activation by resveratrol is an artifact of the fluorescent Fluor de Lys substrate (Borra 2005; Kaeberlein 2005; Pacholec 2010; Beher 2009), and direct activation at physiological doses remains disputed. Resveratrol's in vivo sirtuin-linked effects instead run through the indirect cAMP/PDE4/Epac1/AMPK/NAD+ cascade (see the companion activates edge).",
+      "zh-TW": "直接活化具爭議：體外實驗中白藜蘆醇對 SIRT1 的活化是螢光受質 Fluor de Lys 造成的假象（Borra 2005；Kaeberlein 2005；Pacholec 2010；Beher 2009），生理劑量下的直接活化仍未定論。白藜蘆醇在體內與去乙醯化酶相關的效應，實際上是經由間接的 cAMP/PDE4/Epac1/AMPK/NAD+ 級聯（見配套的 activates 邊）。"
+    },
+    "confidence": 0.6,
+    "source_document": "SIRT1.md",
+    "created": "2026-09-01T04:17:56Z",
+    "updated": "2026-09-01T04:17:56Z"
   }
 ]
