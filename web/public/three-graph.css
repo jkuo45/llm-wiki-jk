@@ -212,11 +212,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #wiki-modal-header .wiki-modal-link { color: var(--link); text-decoration: none; font-size: 13px; display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: var(--r-sm); border: 1px solid var(--line-strong); transition: all 0.15s; white-space: nowrap; }
 #wiki-modal-header .wiki-modal-link:hover { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent); }
 #wiki-modal-header .wiki-modal-link[disabled] { opacity: 0.45; cursor: default; pointer-events: none; }
-#wiki-modal-close {
-  background: none; border: none; color: var(--ink-5); font-size: 24px; cursor: pointer;
-  padding: 4px 8px; line-height: 1; transition: color 0.15s;
-}
-#wiki-modal-close:hover { color: var(--ink-hi); }
+/* #wiki-modal-close styled via .ui-close (Phase 2.5) */
 #wiki-modal-body {
   flex: 1; overflow-y: auto; padding: 20px;
   font-size: 14px; color: var(--ink); line-height: 1.8;
@@ -348,11 +344,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .lang-toggle button + button { border-left: 1px solid var(--line-strong); }
 .lang-toggle button:hover:not(.active) { color: var(--ink-hi); }
 .lang-toggle button.active { background: var(--accent); color: #fff; }
-#page-modal-close {
-  background: none; border: none; color: var(--ink-5); font-size: 26px; cursor: pointer;
-  padding: 2px 8px; line-height: 1; transition: color 0.15s;
-}
-#page-modal-close:hover { color: var(--ink-hi); }
+/* #page-modal-close styled via .ui-close (Phase 2.5) */
 #page-modal-frame { flex: 1; width: 100%; border: none; background: var(--bg); min-height: 0; }
 
 /* Reader light theme lives in three-graph-light.css — the .light-theme class
@@ -385,11 +377,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 }
 #html-mode-download:hover { color: var(--link-bright); border-color: var(--accent); background: var(--line); }
 #html-mode-download svg { width: 14px; height: 14px; display: block; }
-#html-mode-close {
-  background: none; border: none; color: var(--ink-5); font-size: 26px; cursor: pointer;
-  padding: 2px 8px; line-height: 1; transition: color 0.15s;
-}
-#html-mode-close:hover { color: var(--ink-hi); }
+/* #html-mode-close styled via .ui-close (Phase 2.5) */
 #html-mode-frame { flex: 1; width: 100%; border: none; background: var(--bg); min-height: 0; }
 #analysis-panel.active #analysis-box {
   border-color: var(--accent);
@@ -535,8 +523,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #chat-header span { font-size: 14px; font-weight: 600; color: var(--ink-3); letter-spacing: 0.03em; }
 #chat-header .panel-title { font-size: 16px; font-weight: 700; color: var(--ink-hi); letter-spacing: normal; white-space: nowrap; }
 #chat-header .panel-title-zh { color: inherit; font-weight: 700; }
-#chat-close { background: none; border: none; color: var(--ink-4); font-size: 24px; cursor: pointer; line-height: 1; }
-#chat-close:hover { color: var(--ink-hi); }
+/* #chat-close styled via .ui-close (Phase 2.5) */
 
 /* Sub-row below the analysis header: filter button (far left, rendered by
    ui.js when a node/community info card is open) + language toggle (right). */
@@ -896,7 +883,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-node-head-langs button:hover:not(.active) { color: var(--ink-hi); }
 .at-node-head-langs button.active { background: var(--accent); color: #fff; }
 .at-node-close { background: none; border: none; color: var(--ink-5); font-size: 16px; cursor: pointer; line-height: 1; padding: 0 2px; }
-.at-node-close:hover { color: #ff6b6b; }
+.at-node-close:hover { color: var(--accent); }
 .at-node-back { background: none; border: none; color: var(--ink-5); font-size: 16px; cursor: pointer; line-height: 1; padding: 0 4px 0 0; }
 .at-node-back:hover { color: var(--accent); }
 .at-node-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
@@ -1168,7 +1155,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-set-chip button { background: none; border: none; color: inherit; cursor: pointer; font-size: 12px; line-height: 1; padding: 0; }
 .at-compare-btn { background: var(--accent); border: none; color: #fff; border-radius: var(--r-md); padding: 6px 12px; font-size: 12px; cursor: pointer; }
 .at-compare-btn .enter-ico { font-size: 14px; vertical-align: -1px; margin-right: 3px; }
-.at-compare-btn:hover { background: #5d8ab8; }
+.at-compare-btn:hover { background: color-mix(in srgb, var(--accent) 80%, #fff); }
 .at-compare-btn:disabled { background: var(--line); color: var(--ink-9); cursor: default; }
 .at-prompt-btn { background: var(--line); border: 1px solid var(--accent); color: #cfe3f5; border-radius: var(--r-md); padding: 6px 12px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
 .at-prompt-btn:hover { background: var(--accent); color: #fff; }
@@ -1194,12 +1181,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   transition: all 0.15s;
 }
 #prompt-new:hover { border-color: var(--accent); color: var(--ink-hi); }
-#analysis-close {
-  background: none; border: none; color: var(--ink-5);
-  font-size: 20px; line-height: 1; padding: 2px 6px; border-radius: var(--r-sm);
-  cursor: pointer; transition: color 0.15s, background 0.15s;
-}
-#analysis-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.12); }
+/* #analysis-close styled via .ui-close (Phase 2.5) */
 
 #prompt-messages {
   flex: 1; overflow-y: auto; padding: 12px 14px;
@@ -1215,7 +1197,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 }
 .prompt-msg.bot:hover .prompt-copy-btn { opacity: 0.8; }
 .prompt-copy-btn:hover { color: #ddd; background: #2f2f4e; opacity: 1 !important; }
-.prompt-copy-btn.copied { color: #7fe0c8; }
+.prompt-copy-btn.copied { color: var(--teal); }
 .prompt-copy-btn svg { display: block; }
 .prompt-msg.user {
   align-self: flex-end; background: var(--accent); color: #fff;
@@ -1223,7 +1205,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 }
 .prompt-msg.bot { align-self: flex-start; background: var(--line); color: var(--ink); border-bottom-left-radius: 2px; }
 .prompt-badge { display: block; width: fit-content; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 6px; border-radius: var(--r-sm); margin-bottom: 8px; }
-.prompt-badge.wiki { background: #2f4f4f; color: #7fe0c8; border: 1px solid #3a6f6f; }
+.prompt-badge.wiki { background: #2f4f4f; color: var(--teal); border: 1px solid #3a6f6f; }
 .prompt-badge.graphify { background: #4a3f8a; color: #b8a7ff; border: 1px solid #5a4f9a; }
 .prompt-analysis-actions {
   display: flex; gap: 8px; margin-top: 10px;
@@ -1364,7 +1346,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   font-size: 12px; color: #a78bfa; user-select: none;
 }
 #graphify-toggle input { accent-color: #6b5ce7; cursor: pointer; margin: 0; }
-#graphify-off-hint { display: none; font-size: 11px; color: #7fe0c8; }
+#graphify-off-hint { display: none; font-size: 11px; color: var(--teal); }
 #analysis-modes.graphify-off #graphify-toggle { color: var(--ink-7); }
 #analysis-modes.graphify-off #graphify-off-hint { display: inline; }
 .prompt-mode-divider { width: 1px; align-self: stretch; background: var(--line); margin: 2px 2px; }
@@ -1397,7 +1379,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   padding: 10px 16px; border-radius: var(--r-md); font-size: 14px;
   cursor: pointer; transition: background 0.15s; flex-shrink: 0;
 }
-#prompt-send:hover { background: #5d8ab8; }
+#prompt-send:hover { background: color-mix(in srgb, var(--accent) 80%, #fff); }
 #prompt-send:disabled { background: var(--line); color: var(--ink-9); cursor: default; }
 
 /* @-tag chips + node autocomplete popup */
@@ -1529,12 +1511,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 }
 /* Header action buttons — mirror the analysis panel's Reset/× styling */
 #notes-header .panel-header-actions button { font-family: inherit; }
-#notes-header button#notes-close {
-  background: none; border: none; color: var(--ink-5);
-  font-size: 20px; line-height: 1; padding: 2px 6px; border-radius: var(--r-sm);
-  cursor: pointer; transition: color 0.15s, background 0.15s;
-}
-#notes-header button#notes-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.12); }
+/* #notes-header button#notes-close styled via .ui-close (Phase 2.5) */
 /* Notes panel header title — same style as the Reader modal's h2 title
    (e.g. "Reader / 閱讀器"): 16px, var(--ink-hi), bold, normal letter-spacing. */
 #notes-header .panel-title { font-size: 16px; font-weight: 700; color: var(--ink-hi); letter-spacing: normal; }
@@ -2130,3 +2107,49 @@ button.notes-chip { font-family: inherit; line-height: inherit; }
 .ui-skeleton-thumb { width: 100%; aspect-ratio: 3 / 4; }
 .ui-skeleton-line { height: 11px; width: 100%; }
 .ui-skeleton-line--short { width: 60%; }
+
+/* ============================================================
+   Phase 2.5 — control-class normalization (all at file end so
+   these override the legacy per-id rules above).
+   ============================================================ */
+
+/* Unified close (×) button — one ghost treatment: accent hover (closing is
+   not destructive, so no red), 32px metrics, 44px touch target on coarse
+   pointers. The settings sheet keeps its boxed variant (it already hovers
+   accent). */
+.ui-close {
+  background: none; border: none; color: var(--ink-5);
+  width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;
+  font-size: 22px; line-height: 1; cursor: pointer; font-family: inherit;
+  border-radius: var(--r-md);
+  transition: color 0.15s, background 0.15s;
+}
+.ui-close:hover { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+@media (pointer: coarse) {
+  .ui-close { min-width: var(--touch-min); min-height: var(--touch-min); font-size: 26px; }
+}
+
+/* Unified field surface: one sunken ladder step for every text input /
+   select (previously --bg, --surface-raised and --surface-sunken drifted). */
+#search, #trace-select, #at-search-input, #prompt-input,
+#admin-search, #auth-email, #auth-password, #auth-new-password {
+  background: var(--surface-3);
+}
+
+/* Unified popup metrics (node-tag popup vs notes combobox popup). */
+#prompt-tag-popup { border-radius: var(--r-md); box-shadow: 0 12px 32px rgba(0,0,0,0.55); }
+
+/* Tab unification: admin tabs adopt the at-tab pill metrics + accent-tint
+   active state (previously an opacity/border treatment). */
+#admin-tabs button {
+  background: none; border: none; color: var(--ink-5);
+  padding: 5px 12px; border-radius: var(--r-md);
+  font: inherit; font-size: 12px; font-weight: 600; letter-spacing: 0.03em;
+  cursor: pointer; white-space: nowrap;
+}
+#admin-tabs button:hover { color: var(--ink-hi); }
+#admin-tabs button.active {
+  opacity: 1; border-color: transparent;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+}
