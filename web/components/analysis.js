@@ -23,6 +23,9 @@ import { matchNodesInText, edgesBetween, bfsFromSets, computeDatasetStats } from
 import { promptSignIn } from './auth.js';
 import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from './modal.js';
 import { enhanceSegmented } from './ui/Segmented.js';
+import { enhancePanel } from './ui/Panel.js';
+import { showWikiTooltip, repositionWikiTooltip, hideWikiTooltip } from './ui/Tooltip.js';
+import { enhanceLangToggle } from './ui/LangToggle.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -40,6 +43,15 @@ const promptSend = document.getElementById('prompt-send');
 const analysisCloseBtn = document.getElementById('analysis-close');
 const promptLangBtns = Array.from(
   document.querySelectorAll('#analysis-panel .lang-toggle [data-lang], #chat-panel .lang-toggle [data-lang]'));
+// Adopted lang toggles (radiogroup semantics + arrow keys). Click wiring and
+// active-class sync go through these instead of per-button listeners.
+const promptLangSegs = Array.from(
+  document.querySelectorAll('#analysis-panel .lang-toggle, #chat-panel .lang-toggle'))
+  .map((el) => enhanceLangToggle(el, {
+    onChange: (lang) => {
+      if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
+    },
+  }));
 const promptFilterCheckbox = document.getElementById('prompt-filter-nodes');
 // Persistent quantity filter pill — rendered into the analysis sub-row slot and
 // floats above the full-screen detail card (the sub-row has a raised z-index).
@@ -117,6 +129,7 @@ function applyUiLang(lang) {
   state.analysisUiLang = uiLang;
 
   promptLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
+  promptLangSegs.forEach((seg) => seg.set(uiLang));
   [...promptLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   const langToggle = document.querySelector('#analysis-panel .lang-toggle');
   if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
@@ -159,14 +172,9 @@ export function applyAnalysisUiLang(lang) {
   if ((lang === 'en-US' || lang === 'zh-TW') && lang !== uiLang) applyUiLang(lang);
 }
 
-promptLangBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
-    if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
-  });
-});
 // Re-render this panel whenever the shared language changes elsewhere.
 onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
+// (Lang-toggle click wiring lives on promptLangSegs — ui/LangToggle.js.)
 
 // ------------------------------------------------------------
 // Response view mode (MD / HTML) — choose how a response is rendered.
@@ -220,22 +228,28 @@ function updateChatBtn() {
   chatBtn.classList.toggle('visible', analysisPanelOpen && !promptOpen);
 }
 
-analysisBtn.addEventListener('click', () => {
-  analysisPanelOpen = !analysisPanelOpen;
-  analysisPanel.classList.toggle('open', analysisPanelOpen);
-  analysisBtn.classList.toggle('open', analysisPanelOpen);
-  if (!analysisPanelOpen) setActiveWindow(null);
-  state.analysisOpen = analysisPanelOpen;
+// Panel mechanics (open class, launcher button state, aria-expanded) are
+// owned by ui/Panel.js; the app-level state + side effects stay here.
+const analysisPanelApi = enhancePanel(analysisPanel, { button: analysisBtn });
+
+function setAnalysisOpen(open) {
+  analysisPanelOpen = open;
+  state.analysisOpen = open;
   state.analysisMode = 'graph';
+  if (open) analysisPanelApi.open();
+  else analysisPanelApi.close();
+  if (!open) setActiveWindow(null);
   updateChatBtn();
   // Surface the info card for whatever is already selected when the panel
   // opens (node/edge info now lives in the analysis panel, not a sidebar).
-  if (analysisPanelOpen) {
+  if (open) {
     if (state.selectedNode) showInfo(state.selectedNode);
     else if (state.selectedEdge) showEdgeInfo(state.selectedEdge);
   }
   updateHash();
-});
+}
+
+analysisBtn.addEventListener('click', () => setAnalysisOpen(!analysisPanelOpen));
 
 // Floating chat window (bottom-right launcher): toggles the near-full-screen
 // prompt/chat surface independently of the graph-tools panel.
@@ -260,25 +274,23 @@ if (window.visualViewport) {
 window.addEventListener('resize', syncChatPanelKeyboard);
 syncChatPanelKeyboard();
 
+const chatPanelApi = enhancePanel(chatPanel, {
+  button: chatBtn,
+  focusEl: promptInput,
+  onOpen: () => { state.chatOpen = true; updateChatBtn(); syncChatPanelKeyboard(); },
+  onClose: () => { state.chatOpen = false; updateChatBtn(); syncChatPanelKeyboard(); },
+});
+
 function openChatPanel() {
   if (!chatPanel || promptOpen) return;
   promptOpen = true;
-  chatPanel.classList.add('open');
-  chatBtn.classList.add('open');
-  state.chatOpen = true;
-  updateChatBtn();
-  syncChatPanelKeyboard();
-  promptInput.focus();
+  chatPanelApi.open();
   updateHash();
 }
 
 function closeChatPanel() {
   promptOpen = false;
-  chatPanel.classList.remove('open');
-  chatBtn.classList.remove('open');
-  state.chatOpen = false;
-  updateChatBtn();
-  syncChatPanelKeyboard();
+  chatPanelApi.close();
   setActiveWindow(null);
   updateHash();
 }
@@ -288,15 +300,7 @@ chatBtn.addEventListener('click', () => {
   else openChatPanel();
 });
 
-analysisCloseBtn.addEventListener('click', () => {
-  analysisPanelOpen = false;
-  analysisPanel.classList.remove('open');
-  analysisBtn.classList.remove('open');
-  setActiveWindow(null);
-  state.analysisOpen = false;
-  updateChatBtn();
-  updateHash();
-});
+analysisCloseBtn.addEventListener('click', () => setAnalysisOpen(false));
 
 if (chatCloseBtn) chatCloseBtn.addEventListener('click', closeChatPanel);
 
@@ -394,27 +398,10 @@ function formatBotMessage(text) {
 }
 
 // ------------------------------------------------------------
-// Wiki entity tooltip
+// Wiki entity tooltip — mechanics (position/show/hide) live in ui/Tooltip.js;
+// only the prompt-specific content mapping remains here.
 // ------------------------------------------------------------
-const wikiTooltipEl = document.getElementById('wiki-tooltip');
-let wikiTooltipVisible = false;
-
-function positionWikiTooltip(anchor) {
-  if (!wikiTooltipVisible) return;
-  const r = anchor.getBoundingClientRect();
-  let left = r.left;
-  let top = r.bottom + 8;
-  const tw = wikiTooltipEl.offsetWidth || 340;
-  const th = wikiTooltipEl.offsetHeight || 160;
-  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
-  if (top + th > window.innerHeight - 8) top = r.top - th - 8;
-  if (left < 8) left = 8;
-  if (top < 8) top = 8;
-  wikiTooltipEl.style.left = left + 'px';
-  wikiTooltipEl.style.top = top + 'px';
-}
-
-function showWikiTooltip(anchor) {
+function showWikiTooltipForAnchor(anchor) {
   // Surface the zh-TW description when the prompt UI is in zh-TW and a real
   // translation exists; otherwise fall back to the canonical English summary.
   const zh = uiLang === 'zh-TW' ? descByLabelZh.get(anchor.dataset.wiki) : null;
@@ -423,28 +410,18 @@ function showWikiTooltip(anchor) {
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
   const title = anchor.textContent.trim() || (anchor.dataset.wiki || '');
-  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
-  wikiTooltipVisible = true;
-  wikiTooltipEl.classList.add('visible');
-  positionWikiTooltip(anchor);
-}
-
-function hideWikiTooltip() {
-  if (!wikiTooltipVisible) return;
-  wikiTooltipVisible = false;
-  wikiTooltipEl.classList.remove('visible');
+  showWikiTooltip(anchor, { title, body: excerpt, hint: 'Click to expand' });
 }
 
 promptMessages.addEventListener('mouseover', (e) => {
   const anchor = e.target.closest('.prompt-entity-link');
   if (!anchor || !anchor.dataset.wiki) { hideWikiTooltip(); return; }
-  showWikiTooltip(anchor);
+  showWikiTooltipForAnchor(anchor);
 });
 
 promptMessages.addEventListener('mousemove', (e) => {
-  if (!wikiTooltipVisible) return;
   const anchor = e.target.closest('.prompt-entity-link');
-  if (anchor) positionWikiTooltip(anchor);
+  if (anchor) repositionWikiTooltip(anchor);
 });
 
 promptMessages.addEventListener('mouseleave', hideWikiTooltip);

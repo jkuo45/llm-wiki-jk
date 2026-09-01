@@ -8,6 +8,8 @@ import { state } from './state.js';
 import { openPromptComposer } from './analysis.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
 import { anyModalOpen } from './modal.js';
+import { enhanceLangToggle } from './ui/LangToggle.js';
+import { enhancePanel } from './ui/Panel.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -184,6 +186,7 @@ function applyUiLang(lang) {
 
   notesClose.setAttribute('aria-label', t('panelClose'));
   langToggles.forEach((el) => el.setAttribute('aria-label', t('panelLanguage')));
+  langSegs.forEach((seg) => seg.set(uiLang));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('notesSearchPlaceholder');
   closeCombobox();
@@ -196,12 +199,12 @@ function applyUiLang(lang) {
   syncNotesHash();
 }
 
-langBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
+// Adopted lang toggles (radiogroup semantics + arrow keys via ui/LangToggle.js).
+const langSegs = langToggles.map((el) => enhanceLangToggle(el, {
+  onChange: (lang) => {
     if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
-  });
-});
+  },
+}));
 // Re-render this panel whenever the shared language changes elsewhere.
 onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 
@@ -301,19 +304,18 @@ function noteMonthYear(n) {
 }
 
 // ------------------------------------------------------------
-// Panel open / close
+// Panel open / close — class mechanics via ui/Panel.js
 // ------------------------------------------------------------
+const notesPanelApi = enhancePanel(notesPanel, { button: notesBtn });
 function openNotes() {
-  notesPanel.classList.add('open');
-  notesBtn.classList.add('open');
+  notesPanelApi.open();
   syncNotesKeyboard();
   ensureIndexLoaded();
   syncNotesHash();
 }
 function closeNotes() {
   closeCombobox();
-  notesPanel.classList.remove('open');
-  notesBtn.classList.remove('open');
+  notesPanelApi.close();
   currentNote = null;
   // Reset to the gallery view so reopening always lands there.
   lightboxEl.hidden = true;

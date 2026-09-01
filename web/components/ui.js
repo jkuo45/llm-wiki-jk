@@ -27,6 +27,7 @@ import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
 import { h } from './ui/dom.js';
 import { renderDetailCard } from './ui/DetailCard.js';
+import { showWikiTooltip, showWikiTooltipHint, repositionWikiTooltip, hideWikiTooltip } from './ui/Tooltip.js';
 import { toast } from './ui/Toast.js';
 import { enhanceToggle } from './ui/Toggle.js';
 import { enhanceIconButton } from './ui/IconButton.js';
@@ -133,15 +134,15 @@ function notifyDetailLoaded(nodeId, label) {
 // index.html and analysis.js wires the close handlers, so here we only populate
 // and show. Entity note links in the node/community cards render as tooltip
 // spans (.at-node-note-link) instead of navigating straight to GitHub.
+// Tooltip show/position/hide mechanics live in ui/Tooltip.js (shared with the
+// prompt-entity tooltip in analysis.js).
 // ------------------------------------------------------------
-const wikiTooltipEl = document.getElementById('wiki-tooltip');
 const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
 const wikiModalTitle = document.getElementById('wiki-modal-title');
 const wikiModalBody = document.getElementById('wiki-modal-body');
 const wikiModalLink = document.getElementById('wiki-modal-link');
 // Shared with analysis.js (which wires the close handlers via modal.js).
 registerModal('wiki-modal', wikiModalOverlay);
-let nodeWikiTooltipVisible = false;
 
 function nodeDescById(nid) {
   const nd = nodeMap.get(nid);
@@ -150,45 +151,18 @@ function nodeDescById(nid) {
   return useZh ? (nd.description_zh_TW || nd.description || '') : (nd.description || '');
 }
 
-function positionNodeWikiTooltip(anchor) {
-  if (!nodeWikiTooltipVisible) return;
-  const r = anchor.getBoundingClientRect();
-  let left = r.left;
-  let top = r.bottom + 8;
-  const tw = wikiTooltipEl.offsetWidth || 340;
-  const th = wikiTooltipEl.offsetHeight || 160;
-  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
-  if (top + th > window.innerHeight - 8) top = r.top - th - 8;
-  if (left < 8) left = 8;
-  if (top < 8) top = 8;
-  wikiTooltipEl.style.left = left + 'px';
-  wikiTooltipEl.style.top = top + 'px';
-}
-
 function showNodeWikiTooltip(anchor) {
   const title = anchor.dataset.wiki || '';
   const gh = anchor.dataset.gh || '';
   const desc = nodeDescById(anchor.dataset.nid);
   if (!desc) {
     if (!gh) return;
-    wikiTooltipEl.innerHTML = `<b>${esc(title)}</b><span class="wiki-tooltip-hint">View note on GitHub ↗</span>`;
-    nodeWikiTooltipVisible = true;
-    wikiTooltipEl.classList.add('visible');
-    positionNodeWikiTooltip(anchor);
+    showWikiTooltipHint(anchor, title, 'View note on GitHub ↗');
     return;
   }
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
-  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
-  nodeWikiTooltipVisible = true;
-  wikiTooltipEl.classList.add('visible');
-  positionNodeWikiTooltip(anchor);
-}
-
-function hideNodeWikiTooltip() {
-  if (!nodeWikiTooltipVisible) return;
-  nodeWikiTooltipVisible = false;
-  wikiTooltipEl.classList.remove('visible');
+  showWikiTooltip(anchor, { title, body: excerpt, hint: 'Click to expand' });
 }
 
 function openNodeWikiModal(anchor) {
@@ -206,20 +180,19 @@ function openNodeWikiModal(anchor) {
   wikiModalLink.href = gh || '#';
   wikiModalLink.toggleAttribute('disabled', !gh);
   openModal('wiki-modal');
-  hideNodeWikiTooltip();
+  hideWikiTooltip();
 }
 
 infoCard.addEventListener('mouseover', (e) => {
   const a = e.target.closest('.at-node-note-link');
-  if (!a) { hideNodeWikiTooltip(); return; }
+  if (!a) { hideWikiTooltip(); return; }
   showNodeWikiTooltip(a);
 });
 infoCard.addEventListener('mousemove', (e) => {
-  if (!nodeWikiTooltipVisible) return;
   const a = e.target.closest('.at-node-note-link');
-  if (a) positionNodeWikiTooltip(a);
+  if (a) repositionWikiTooltip(a);
 });
-infoCard.addEventListener('mouseleave', hideNodeWikiTooltip);
+infoCard.addEventListener('mouseleave', hideWikiTooltip);
 infoCard.addEventListener('click', (e) => {
   const a = e.target.closest('.at-node-note-link');
   if (a) { e.preventDefault(); openNodeWikiModal(a); }

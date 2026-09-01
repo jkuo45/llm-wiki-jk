@@ -17,3 +17,5 @@ export { createSegmented, enhanceSegmented } from './Segmented.js';
 export { createSlider, enhanceSlider } from './Slider.js';
 export { enhanceLangToggle } from './LangToggle.js';
 export { renderDetailCard } from './DetailCard.js';
+export { enhancePanel } from './Panel.js';
+export { showWikiTooltip, showWikiTooltipHint, repositionWikiTooltip, hideWikiTooltip } from './Tooltip.js';
