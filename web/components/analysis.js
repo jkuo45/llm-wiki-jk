@@ -1521,28 +1521,31 @@ function renderAnalysisTools() {
   // Mode badge label for the current dataset (e.g. "Combined — triples + wiki")
   const modeLabel = DATASET_LABELS[DATASET_MODE] || DATASET_MODE;
   const modeShort = DATASET_MODE.charAt(0).toUpperCase() + DATASET_MODE.slice(1);
-  const cardWithTip = (k, v, tipKey) =>
-    `<div class="at-card has-tip" tabindex="0"><div class="v">${typeof v === 'number' ? v.toLocaleString() : esc(String(v))}</div><div class="k">${esc(k)}</div>` +
-    `<span class="at-card-tip" role="tooltip">${esc(t(tipKey))}</span></div>`;
+  // One stats card per section — all metrics as key/value rows.
+  const statRows = (rows) => rows.map(([k, v, tipKey]) =>
+    `<div class="at-stat-row" title="${tipKey ? esc(t(tipKey)) : ''}">
+      <span class="at-stat-key">${esc(k)}</span>
+      <span class="at-stat-val">${typeof v === 'number' ? v.toLocaleString() : esc(String(v))}</span>
+    </div>`).join('');
 
-  // Dataset Overview: explanatory tooltips only (magnitude micro-bars removed —
-  // they used arbitrary cross-mode ceilings and didn't convey real meaning).
-  const cards = [
-    cardWithTip(t('metricNodes'), s.N, 'metricNodesTip'),
-    cardWithTip(t('metricEdges'), s.E, 'metricEdgesTip'),
-    cardWithTip(t('metricCommunities'), s.communities, 'metricCommunitiesTip'),
-    cardWithTip(t('metricAvgDegree'), s.avgDegree.toFixed(2), 'metricAvgDegreeTip'),
-    cardWithTip(t('metricDensity'), s.density.toFixed(4), 'metricDensityTip'),
-    cardWithTip(t('metricGodNodes'), s.godNodes.length, 'metricGodNodesTip'),
-  ].join('');
+  // Dataset Overview and Network Topology each render as a single card whose
+  // stats are key/value pairs (tooltips kept via the row title).
+  const cards = statRows([
+    [t('metricNodes'), s.N, 'metricNodesTip'],
+    [t('metricEdges'), s.E, 'metricEdgesTip'],
+    [t('metricCommunities'), s.communities, 'metricCommunitiesTip'],
+    [t('metricAvgDegree'), s.avgDegree.toFixed(2), 'metricAvgDegreeTip'],
+    [t('metricDensity'), s.density.toFixed(4), 'metricDensityTip'],
+    [t('metricGodNodes'), s.godNodes.length, 'metricGodNodesTip'],
+  ]);
 
-  const topoCards = [
-    cardWithTip(t('topoMeanClustering'), s.meanClustering.toFixed(3), 'topoMeanClusteringTip'),
-    cardWithTip(t('topoMaxKCore'), s.maxKCore, 'topoMaxKCoreTip'),
-    cardWithTip(t('topoMeanPagerank'), s.meanPagerank.toFixed(5), 'topoMeanPagerankTip'),
-    cardWithTip(t('topoMedianDegree'), s.medianDegree, 'topoMedianDegreeTip'),
-    cardWithTip(t('topoBridges'), s.bridgingCount, 'topoBridgesTip'),
-  ].join('');
+  const topoCards = statRows([
+    [t('topoMeanClustering'), s.meanClustering.toFixed(3), 'topoMeanClusteringTip'],
+    [t('topoMaxKCore'), s.maxKCore, 'topoMaxKCoreTip'],
+    [t('topoMeanPagerank'), s.meanPagerank.toFixed(5), 'topoMeanPagerankTip'],
+    [t('topoMedianDegree'), s.medianDegree, 'topoMedianDegreeTip'],
+    [t('topoBridges'), s.bridgingCount, 'topoBridgesTip'],
+  ]);
 
   // Role list rows reuse the community card motif (swatch + magnitude bar).
   // The bar is scaled relative to the list's own max so each section reads
@@ -1566,10 +1569,13 @@ function renderAnalysisTools() {
     const zh = TRANSLATIONS[c.label] || '';
     const zhText = zh && zh !== c.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
     return `<div class="at-comm" data-cid="${c.cid}" tabindex="0" role="button" aria-label="${esc(c.label)}" style="--comm:${esc(c.color)}">
-      <span class="sw" style="background:${esc(c.color)}"></span>
-      <span class="at-comm-name" title="${esc(c.label)}">${esc(c.label)}${zhText}</span>
-      <span class="at-comm-bar" aria-hidden="true"><span class="at-comm-bar-fill" style="width:${barPct}%"></span></span>
-      <span class="at-comm-count" title="${c.count} ${esc(t('communityCount'))}">${(c.count).toLocaleString()} · ${esc(top)}</span>
+      <div class="at-comm-main">
+        <span class="sw" style="background:${esc(c.color)}"></span>
+        <span class="at-comm-name" title="${esc(c.label)}">${esc(c.label)}${zhText}</span>
+        <span class="at-comm-bar" aria-hidden="true"><span class="at-comm-bar-fill" style="width:${barPct}%"></span></span>
+        <span class="at-comm-count" title="${c.count} ${esc(t('communityCount'))}">${(c.count).toLocaleString()}</span>
+        <span class="at-comm-top" aria-hidden="true">${top ? '· ' + esc(top) : ''}</span>
+      </div>
       <span class="at-ab">
         <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
         <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
@@ -1578,13 +1584,19 @@ function renderAnalysisTools() {
   }).join('');
 
   analysisTools.innerHTML = `
+    <div class="at-tabs" role="tablist">
+      <button class="at-tab active" data-at-tab="overview" role="tab" aria-selected="true">${esc(t('tabOverview'))}</button>
+      <button class="at-tab" data-at-tab="network" role="tab" aria-selected="false">${esc(t('tabNetwork'))}</button>
+    </div>
+
+    <div class="at-tab-panel" id="at-tab-overview" role="tabpanel">
     <section class="at-section at-span-12">
-      <div class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></div>
-      <div class="at-cards">${cards}</div>
+      <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+      <div class="at-stat-rows">${cards}</div>
     </section>
-    <section class="at-section at-span-5">
-      <div class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></div>
-      <div class="at-cards at-cards--topo">${topoCards}</div>
+    <section class="at-section at-span-7">
+      <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+      <div class="at-stat-rows">${topoCards}</div>
     </section>
     <div class="at-row-pair">
       <section class="at-section">
@@ -1618,7 +1630,10 @@ function renderAnalysisTools() {
       <p class="at-hint">${esc(t('predictedNote'))}</p>
       <div id="at-predicted-list" class="at-surprise-list"><div class="at-loading">…</div></div>
     </section>
-    <section class="at-section at-span-7">
+    </div>
+
+    <div class="at-tab-panel" id="at-tab-network" role="tabpanel" hidden>
+    <section class="at-section at-span-12">
       <h4 class="at-h"><span>${esc(t('communities'))}</span><span class="at-note">${esc(t('communityNote'))}</span></h4>
       <div class="at-communities">${commHTML}</div>
     </section>
@@ -1648,6 +1663,7 @@ function renderAnalysisTools() {
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
     </section>
+    </div>
   `;
 
   analysisTools.querySelectorAll('.at-row').forEach(bindAtRow);
@@ -1682,12 +1698,34 @@ function renderAnalysisTools() {
   analysisTools.querySelector('#prompt-new').addEventListener('click', resetPrompt);
   rebindTracePanel();
   wireAnalysisSearch(s);
+  wireAnalysisTabs();
   renderCompareSets();
   // Async sections: filled once their lazy artifacts arrive.
   hydrateSurpriseList();
   hydratePredictedList();
   hydrateRoleExplorer(s);
   renderBuildInfo();
+}
+
+// Wire the Overview / Network tabs in the analysis panel. Panels keep their
+// content in the DOM (so lazy sections + bindings survive), only visibility +
+// the active button class toggle.
+function wireAnalysisTabs() {
+  const tabs = analysisTools.querySelectorAll('.at-tab');
+  if (!tabs.length) return;
+  const setTab = (name) => {
+    tabs.forEach(btn => {
+      const on = btn.dataset.atTab === name;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    analysisTools.querySelectorAll('.at-tab-panel').forEach(panel => {
+      panel.hidden = panel.id !== `at-tab-${name}`;
+    });
+  };
+  tabs.forEach(btn => btn.addEventListener('click', () => setTab(btn.dataset.atTab)));
+  // Default to the first tab so a re-render never leaves everything hidden.
+  setTab(tabs[0].dataset.atTab);
 }
 
 // Show the graph build hash + generated datetime in the analysis subrow.

@@ -678,16 +678,32 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 /* Explore tools are the panel's only surface now — the prompt/chat UI moved
    to its own floating window (#chat-panel). Show the grid whenever open. */
 #analysis-tools {
-  display: none; flex: 1; overflow-y: auto; overflow-x: hidden; padding: 14px 18px; gap: 16px;
-  grid-template-columns: repeat(12, 1fr);
-  align-content: start;
+  display: none; flex: 1; overflow-y: auto; overflow-x: hidden; padding: 14px 18px; gap: 14px;
+  flex-direction: column;
 }
-#analysis-panel.open #analysis-tools { display: grid; }
+#analysis-panel.open #analysis-tools { display: flex; }
 #analysis-tools .at-span-12 { grid-column: span 12; }
 #analysis-tools .at-span-7 { grid-column: span 7; }
 #analysis-tools .at-span-6 { grid-column: span 6; }
 #analysis-tools .at-span-5 { grid-column: span 5; }
 #analysis-tools .at-span-4 { grid-column: span 4; }
+/* Overview / Network tabs. Panels are 12-column grids (same as the old
+   #analysis-tools layout); the wrapper is now a column flex holding the tab
+   bar + one visible panel. */
+.at-tabs {
+  display: flex; gap: 6px; padding: 3px; flex-wrap: wrap;
+  background: var(--surface-raised); border: 1px solid var(--line); border-radius: 10px;
+  flex-shrink: 0;
+}
+.at-tab {
+  flex: 1 1 auto; min-width: 0; padding: 7px 14px; border: none; background: none;
+  color: var(--ink-5); font-size: 12px; font-weight: 600; letter-spacing: 0.03em;
+  border-radius: 8px; cursor: pointer; white-space: nowrap;
+}
+.at-tab:hover { color: var(--ink-hi); }
+.at-tab.active { background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+.at-tab-panel { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; align-content: start; }
+.at-tab-panel[hidden] { display: none; }
 /* Fixed two-card row (Graph Query + Search & Filter): the wrapper owns a
    persistent 1fr/1fr split that survives every breakpoint — only its outer
    grid span resets below 1024px. */
@@ -711,7 +727,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   border-left: 1px solid var(--line); padding-left: 16px;
 }
 @media (max-width: 1023px) {
-  #analysis-tools { grid-template-columns: 1fr; }
+  .at-tab-panel { grid-template-columns: 1fr; }
   #analysis-tools .at-span-12,
   #analysis-tools .at-span-7,
   #analysis-tools .at-span-6,
@@ -758,6 +774,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-card.has-tip:hover .at-card-tip, .at-card.has-tip:focus .at-card-tip, .at-card.has-tip:focus-visible .at-card-tip { opacity: 1; transform: none; pointer-events: auto; }
 .at-mode-badge { font-size: 10px; font-weight: 600; letter-spacing: 0.03em; text-transform: none; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent); padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
 @media (max-width: 640px) { .at-card .at-card-tip { left: 0; right: 0; } }
+/* Consolidated stat cards (Dataset Overview / Network Topology): all metrics as
+   key/value rows in a single card. */
+.at-stat-rows { display: flex; flex-direction: column; }
+.at-stat-row { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 6px 10px; border-radius: 6px; cursor: help; }
+.at-stat-row:hover { background: rgba(120,120,140,0.08); }
+.at-stat-key { font-size: 11px; color: var(--ink-5); text-transform: uppercase; letter-spacing: 0.04em; flex-shrink: 0; }
+.at-stat-val { font-size: 13px; font-weight: 600; color: var(--ink-hi); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .at-reset { margin-top: 10px; background: none; border: 1px solid var(--line-strong); color: var(--ink-5); border-radius: 4px; font-size: 12px; padding: 4px 10px; cursor: pointer; }
 .at-reset:hover { border-color: var(--accent); color: var(--ink-hi); }
 .at-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; }
@@ -780,12 +803,20 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-comm { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
 .at-comm:hover { background: rgba(120,120,140,0.12); }
 .at-comm:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; background: rgba(120,120,140,0.12); }
+/* Single-line row: left content truncates (overflow hidden) rather than wraps;
+   A/B pinned right so it lines up with the other section rows. */
+.at-comm .at-comm-main { flex: 1 1 auto; min-width: 0; display: flex; align-items: center; flex-wrap: nowrap; gap: 6px 8px; }
 .at-comm .sw { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
 .at-comm .at-comm-name { color: #cfe6f5; font-size: 13px; flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .at-comm .at-comm-bar { height: 3px; border-radius: 999px; background: color-mix(in srgb, var(--comm, var(--line-strong)) 20%, transparent); overflow: hidden; flex: 1 1 40px; min-width: 10px; }
 .at-comm .at-comm-bar-fill { display: block; height: 100%; border-radius: inherit; background: var(--comm, var(--line-strong)); transition: width .4s ease; }
-.at-comm .at-comm-count { color: var(--ink-6); font-size: 11px; white-space: nowrap; flex: 0 1 auto; font-variant-numeric: tabular-nums; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-.at-comm .at-ab { flex-shrink: 0; }
+.at-comm .at-comm-count { color: var(--ink-6); font-size: 11px; flex-shrink: 1; min-width: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.at-comm .at-comm-top { color: var(--ink-6); font-size: 11px; flex-shrink: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.at-comm .at-ab { flex-shrink: 0; align-self: center; }
+/* Hide the top-member preview on small screens to keep rows compact. */
+@media (max-width: 640px) {
+  .at-comm .at-comm-top { display: none; }
+}
 
 /* Per-node detail sheet (full-page, internally scrollable) — slides up from the
    bottom to cover the whole viewport over the analysis panel; the body scrolls
