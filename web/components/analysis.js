@@ -1584,20 +1584,8 @@ function renderAnalysisTools() {
   }).join('');
 
   analysisTools.innerHTML = `
-    <div class="at-tabs" role="tablist">
-      <button class="at-tab active" data-at-tab="overview" role="tab" aria-selected="true">${esc(t('tabOverview'))}</button>
-      <button class="at-tab" data-at-tab="network" role="tab" aria-selected="false">${esc(t('tabNetwork'))}</button>
-    </div>
 
     <div class="at-tab-panel" id="at-tab-overview" role="tabpanel">
-    <section class="at-section at-span-12">
-      <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
-      <div class="at-stat-rows">${cards}</div>
-    </section>
-    <section class="at-section at-span-7">
-      <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
-      <div class="at-stat-rows">${topoCards}</div>
-    </section>
     <div class="at-row-pair">
       <section class="at-section">
         <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
@@ -1615,6 +1603,14 @@ function renderAnalysisTools() {
         <div id="at-search-results" class="at-search-results"></div>
       </section>
     </div>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+      <div class="at-stat-rows">${cards}</div>
+    </section>
+    <section class="at-section at-span-7">
+      <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+      <div class="at-stat-rows">${topoCards}</div>
+    </section>
     <section class="at-section at-span-12">
       <h4 class="at-h">${esc(t('roleExplorer'))}<span class="at-note">${esc(t('roleExplorerNote'))}</span></h4>
       <div id="at-role-chips" class="at-role-chips"></div>
@@ -1707,12 +1703,28 @@ function renderAnalysisTools() {
   renderBuildInfo();
 }
 
-// Wire the Overview / Network tabs in the analysis panel. Panels keep their
-// content in the DOM (so lazy sections + bindings survive), only visibility +
-// the active button class toggle.
+// Overview / A-B tabs now live in the analysis subrow (replacing the former
+// build hash · datetime inside the panel). The bottom-left home-page footer
+// (#graph-build-footer) keeps showing the graph build hash + datetime.
+function renderBuildInfo() {
+  const footer = document.getElementById('graph-build-footer');
+  const footerCode = footer ? footer.querySelector('code') : null;
+  const { hash, generated } = BUILD_INFO;
+  if (!footer || !footerCode) return;
+  if (!hash && !generated) { footer.hidden = true; return; }
+  footer.hidden = false;
+  const label = [hash ? `build ${hash}` : '', generated || ''].filter(Boolean).join(' · ');
+  footerCode.textContent = label;
+}
+
 function wireAnalysisTabs() {
-  const tabs = analysisTools.querySelectorAll('.at-tab');
-  if (!tabs.length) return;
+  const subrowTabs = document.getElementById('analysis-subrow-tabs');
+  if (!subrowTabs) return;
+  subrowTabs.innerHTML = `
+      <button class="at-tab active" data-at-tab="overview" role="tab" aria-selected="true">${esc(t('tabOverview'))}</button>
+      <button class="at-tab" data-at-tab="network" role="tab" aria-selected="false">${esc(t('tabNetwork'))}</button>
+  `;
+  const tabs = subrowTabs.querySelectorAll('.at-tab');
   const setTab = (name) => {
     tabs.forEach(btn => {
       const on = btn.dataset.atTab === name;
@@ -1724,34 +1736,7 @@ function wireAnalysisTabs() {
     });
   };
   tabs.forEach(btn => btn.addEventListener('click', () => setTab(btn.dataset.atTab)));
-  // Default to the first tab so a re-render never leaves everything hidden.
   setTab(tabs[0].dataset.atTab);
-}
-
-// Show the graph build hash + generated datetime in the analysis subrow
-// and in the bottom-left footer (wrapped in <code>).
-function renderBuildInfo() {
-  const el = document.getElementById('build-info');
-  const footer = document.getElementById('graph-build-footer');
-  const footerCode = footer ? footer.querySelector('code') : null;
-  const { hash, generated } = BUILD_INFO;
-  if (!hash && !generated) {
-    if (el) { el.textContent = ''; el.hidden = true; }
-    if (footer) footer.hidden = true;
-    return;
-  }
-  if (el) {
-    el.hidden = false;
-    const parts = [];
-    if (hash) parts.push(`build <code>${esc(hash)}</code>`);
-    if (generated) parts.push(`<code>${esc(generated)}</code>`);
-    el.innerHTML = parts.join(' <span class="build-info-sep">·</span> ');
-  }
-  if (footer && footerCode) {
-    footer.hidden = false;
-    const label = [hash ? `build ${hash}` : '', generated || ''].filter(Boolean).join(' · ');
-    footerCode.textContent = label;
-  }
 }
 
 // ------------------------------------------------------------

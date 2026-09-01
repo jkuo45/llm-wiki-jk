@@ -713,6 +713,11 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 }
 .at-tab:hover { color: var(--ink-hi); }
 .at-tab.active { background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+.at-tabs--subrow {
+  padding: 2px; gap: 4px; border-radius: 8px;
+  background: var(--surface); border-color: var(--line);
+}
+.at-tabs--subrow .at-tab { padding: 5px 12px; font-size: 11.5px; }
 .at-tab-panel { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; align-content: start; }
 .at-tab-panel[hidden] { display: none; }
 /* Fixed two-card row (Graph Query + Search & Filter): the wrapper owns a

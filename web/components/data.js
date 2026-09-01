@@ -14,7 +14,7 @@ const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 // re-downloading ~11 MB on every page load.
 let CACHE_HASH = '';
 
-// Graph build identity (from data/version.json) shown in the analysis subrow.
+// Graph build identity (from data/version.json) shown in the home-page footer.
 export const BUILD_INFO = { hash: '', generated: '' };
 
 async function loadCacheTag() {
