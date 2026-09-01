@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1705 | 1,077,930 | 9.58 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1708 | 1,079,357 | 9.59 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 31_AUG_2026 | 11 | 280 | 245,033 | 2.77 MB |
@@ -13,9 +13,9 @@
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.80 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,999 | 0.98 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 19 | 173 | 310,612 | 3.88 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 20 | 174 | 314,203 | 3.91 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 31_AUG_2026 | **124** | **3146** | **2,538,649** | **26.71 MB** |
+| **subtotal** | 31_AUG_2026 | **125** | **3150** | **2,543,667** | **26.74 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -139,8 +139,9 @@ Build: 30_AUG_2026 · hash `7e170d4`
 ## Documents
 
 <details>
-<summary><strong>Documents (124 total)</strong> — click to expand</summary>
+<summary><strong>Documents (125 total)</strong> — click to expand</summary>
 
+- `sirtuins`: [Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirt1%20Regulates%20Aging%20and%20Resistance%20to%20Oxidative%20Stress%20in%20the%20Heart.md) [[src/notes/sirtuins/_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart.md|wiki]] (31_AUG_2026 08:05 PM PDT)
 - `sirtuins`: [Sirtuins, a promising target in slowing down the ageing process](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%2C%20a%20promising%20target%20in%20slowing%20down%20the%20ageing%20process.md) [[src/notes/sirtuins/_document_ - Sirtuins, a promising target in slowing down the ageing process.md|wiki]] (31_AUG_2026 11:27 AM PDT)
 - `_link`: [Neuro-Modulating Effects of Honokiol A Review](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Neuro-Modulating%20Effects%20of%20Honokiol%20A%20Review.md) [[src/notes/_link/_document_ - Neuro-Modulating Effects of Honokiol A Review.md|wiki]] (29_AUG_2026 12:56 AM PDT)
 - `_link`: [crosstalk_cell_death_mechanisms_s41420-025-02328-9](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20crosstalk_cell_death_mechanisms_s41420-025-02328-9.md) [[src/notes/_link/_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md|wiki]] (29_AUG_2026 12:56 AM PDT)

@@ -5,7 +5,7 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-08-28
+updated: 2026-08-31
 protected: true
 tags:
   - gene
@@ -83,7 +83,7 @@ SIRT1 facilitates the formation of heterochromatin by deacetylating:
 - **[[Ku70]]**: Deacetylated [[Ku70]] sequesters pro-apoptotic Bax away from mitochondria.
 - **[[E2F1]]**: Mutual negative regulatory feedback loop protecting against DNA damage-induced apoptosis.
 - **[[p73]]**: Deacetylation suppresses transcriptional activity and inhibits apoptosis.
-- **FOXO transcription factors** ([[FoxO1]], [[FOXO3a]], [[FOXO4]]): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. [[FOXO4]] deacetylation enhances GADD45 expression and suppresses caspase-3/7.
+- **FOXO transcription factors** ([[FoxO1]], [[FOXO3a]], [[FOXO4]]): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. [[FOXO4]] deacetylation enhances [[GADD45]] expression and suppresses caspase-3/7.
 - **[[NF-κB|RelA/p65 (NF-κB)]]**: Deacetylation inhibits transactivation potential, sensitizing cells to TNFα-induced apoptosis.
 - **[[Smad7]]** (Lys⁶⁰/Lys⁷⁰): Deacetylation promotes ubiquitin-dependent proteasomal degradation via Smurf1, protecting glomerular mesangial cells from TGF-β-dependent apoptosis.
 - **[[Caspase-2]] (via 14-3-3ζ):** SIRT1 deacetylates 14-3-3ζ, a direct caspase-2 regulator; SIRT1 inhibition sensitizes cells to caspase-2-dependent death and overrides nutrient-mediated caspase-2 suppression (PMID 21884983).
@@ -173,6 +173,9 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[leukemia]]**: Promotes T-ALL progression via CDK2 deacetylation → p27 degradation; knockdown sensitizes AML to tyrosine kinase inhibitors.
 
 ### Cardiovascular
+
+> [!important] Primary study — cardiac SIRT1 dose window is hormetic (Alcendor et al., 2007)
+> Alcendor et al. ([[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart]], *Circ Res* 100:1512–1521) generated heart-specific Tg-Sirt1 lines with 2.5-, 7.5-, and 12.5-fold cardiac SIRT1. Low-to-moderate lines (39/40) retarded age-dependent [[Cardiac Hypertrophy|hypertrophy]], fibrosis, dysfunction, and [[Cellular Senescence|senescence]] markers ([[p15INK4b|p15^INK4b]], p19^ARF, [[p53]]) and were **protected against [[Paraquat]]-induced [[Oxidative Stress|oxidative stress]]** via [[FoxO1|FoxO1a]]-dependent upregulation of [[Catalase]]. The high line (53, 12.5×) developed [[Cardiomyopathy]] with increased apoptosis/hypertrophy/oxidative stress, reduced [[ATP]], [[Citrate Synthase]], and [[Mitochondrial Biogenesis]] (≈50% [[PGC-1α]] loss, possible [[NAD+]] depletion) — the canonical example of a [[Hormetic Window]] for cardiac SIRT1.
 
 - **[[Cardiac Hypertrophy]]**: **Dose-dependent dual effect** — low (2.5×)/moderate (7.5×) overexpression attenuates, high (12.5×) exacerbates Ang II-induced hypertrophy. Protective via reduced apoptosis/promoted autophagy; harmful via Akt/PDK1 membrane localization.
 - **[[Cardiac Fibrosis]]**: Protective — resveratrol activation attenuates via TGF-β/Smad3 inhibition.
@@ -305,6 +308,9 @@ List of documents that mention this entity
 - [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2|SIRT1–14-3-3ζ metabolic regulation of caspase-2 (Andersen et al., Mol Cell 2011)]]
   - SIRT1 deacetylates 14-3-3ζ (K49) to maintain caspase-2 suppression; PPP/G6P flux gates apoptotic sensitivity; SIRT1 inhibition sensitizes breast tumor cells to caspase-2-dependent death and paclitaxel.
 
+- [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Cardiac SIRT1 dose-response (Alcendor et al., Circ Res 2007)]]
+  - Primary in vivo study: heart-specific Tg-Sirt1 with 2.5×/7.5× (antiaging, oxidative-stress resistance) vs 12.5× (cardiomyopathy) cardiac SIRT1. Moderate dose induced FoxO1a-dependent catalase and resisted paraquat oxidative injury; high dose suppressed PGC-1α, mitochondrial biogenesis, ATP, and likely depleted NAD+. Canonical cardiac hormetic dose window.
+
 ## Connections
 
 - [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
@@ -344,6 +350,12 @@ List of documents that mention this entity
 - [[Caspase-9]]: Initiator that cleaves SIRT1; blocked by Bcl-xL, driving nuclear→cytoplasmic relocalization
 - [[Bcl-xL]]: Inhibits caspase-9, preventing SIRT1 cleavage/relocalization
 - TRIM28: E3 ligase coupling SIRT1 caspase-cleavage to ubiquitination/degradation in the DDR
+- [[Catalase]]: induced by SIRT1 via FoxO1a deacetylation in cardiac myocytes — the antioxidant axis conferring resistance to paraquat-induced oxidative stress (Alcendor et al., 2007)
+- [[Cardiac Hypertrophy]]: mild/moderate cardiac SIRT1 retards age-dependent hypertrophy; high 12.5× expression exacerbates it into cardiomyopathy (dose-dependent/hormetic)
+- [[Cardiomyopathy]]: 12.5-fold cardiac SIRT1 overexpression induces cardiomyopathy via suppressed PGC-1α/mitochondrial biogenesis, reduced ATP/citrate synthase, elevated phospho-AMPK, and possible NAD+ depletion
+- [[Paraquat]]: oxidative-stress challenge in Tg-Sirt1 line 40; moderate SIRT1 attenuates paraquat-induced apoptosis, 8-OHdG, and malondialdehyde
+- [[Mitochondrial Biogenesis]]: high-dose SIRT1 downregulates PGC-1α (~50%) and reduces mitochondrial number — the toxic high-dose phenotype
+- [[Hormesis]]: cardiac SIRT1 benefits confined to a low-to-moderate hormetic dose window (2.5×–7.5×)
 
 ## Linking Summary (Sirtuin–Caspase Crosstalk)
 

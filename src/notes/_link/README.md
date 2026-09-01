@@ -7,10 +7,10 @@ updated: 2026-08-31
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1575 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1578 entities** across **110 categories** and **32 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1568 | Categories: 110 | Documents: 32
+> `_link` index. Total entities: 1571 | Categories: 110 | Documents: 32
 >
 
 ## Documents
@@ -54,7 +54,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 ## Entity Notes
 
-### Protein (309)
+### Protein (311)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -163,6 +163,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[GATA4]] | Protein | GATA binding protein 4, a zinc-finger transcription factor of the GATA family essential for cardiac development and the hypertrophic response, that also functions as a stress-responsive regulator o... |
 | [[GbetaL]] | Protein | GβL (also known as mLST8) is a core subunit of both mTORC1 and mTORC2 complexes. It binds the mTOR Kinase Domain, stabilizing catalytic activity and promoting complex assembly. GβL belongs ... |
 | [[GCN2]] | Protein | General control nonderepressible 2 (GCN2) is a serine/threonine kinase that phosphorylates eIF2α in response to amino acid starvation, including tryptophan depletion mediated by IDO1. |
+| [[GADD45]] | Protein | Growth Arrest and DNA Damage-inducible stress-response proteins (α/β/γ) integrating p53 and FOXO signaling into DNA repair, cell-cycle arrest, and senescence; GADD45α is a downstream effector of the SIRT1–FOXO4 antioxidant axis. |
 | [[GDF15]] | Protein | Growth differentiation factor 15, a TGF-beta superfamily stress-responsive cytokine/mitokine secreted under mitochondrial and senescent stress, increasingly recognized as a circulating biomarker of... |
 | [[Geminin]] | Protein | Overview: Geminin is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern c... |
 | [[GKRP]] | Protein | Glucokinase regulatory protein that regulates hepatic glucose uptake by controlling glucokinase localization; SIRT2 deacetylation target |
@@ -329,6 +330,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[STAT6]] | Protein | Signal transducer and activator of transcription 6 is the key transcription factor downstream of IL-4 and IL-13 receptor signaling, driving type 2 immune responses. |
 | [[Synaptophysin]] | Protein | Synaptic vesicle glycoprotein (SYP) used as a pan-neuronal presynaptic marker reflecting synaptic density and connectivity. |
 | [[T Cell Receptor]] | Protein | A heterodimeric membrane receptor on T cells that recognizes peptide-MHC complexes, initiating adaptive immune responses; TCR gene rearrangement during thymopoiesis generates the diverse receptor r... |
+| [[TRF2]] | Protein | Telomeric Repeat-binding Factor 2 (TERF2), a core shelterin subunit binding double-stranded TTAGGG repeats that suppresses ATM activation and end-to-end telomere fusions; loss on short telomeres drives replicative senescence. |
 | [[Tau Protein]] | Protein | Overview: Tau Protein is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that gove... |
 | [[TDP-43]] | Protein | TAR DNA-binding protein 43, an RNA-binding protein whose mitochondrial mislocalization in ALS/FTD triggers cGAS-STING activation via mtDNA release. |
 | [[TFAM]] | Protein | Mitochondrial transcription factor A, a nuclear-encoded regulator of mitochondrial DNA replication, transcription, and nucleoid architecture; induced by mTOR inhibition to support mitochondrial ren... |
@@ -1542,11 +1544,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Nuclear Envelope]] | Anatomical Structure | The double-membrane boundary of the nucleus that anchors cGAS via BAF1 and hosts STING and NPC1 regulation of cGAS activity. |
 | [[Nucleus]] | Anatomical Structure | The membrane-bound organelle housing chromatin, where cGAS exerts noncanonical functions in genome stability, RNA metabolism, and chromatin organization. |
 
-### Animal Model (1)
+### Animal Model (2)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[5xFAD]] | Animal Model | A transgenic mouse model of aggressive amyloid pathology used to study cGAS-STING in Alzheimer's disease. |
+| [[Transverse aortic constriction]] | Animal Model | TAC; surgical pressure-overload model producing left-ventricular hypertrophy progressing to heart failure; standard for studying cardiac stress responses and sirtuin cardioprotection. |
 
 ### Antigen (1)
 

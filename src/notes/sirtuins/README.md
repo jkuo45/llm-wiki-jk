@@ -29,6 +29,7 @@ updated: 2026-08-31
 | [[_document_ - Caspase-mediated changes in Sir2alpha during apoptosis\|Sir2α Cleavage (Ohsawa & Miura 2006)]] | FEBS Lett primary study: caspase-9/-3 directly cleave SIRT1 (Sir2α) and relocalize it nucleus→cytoplasm during apoptosis; blocked by caspase-9 DN or Bcl-xL — the caspase→sirtuin feedback arm |
 | [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response\|SIRT1 Stability in DDR (Ouyang et al. 2022)]] | Int J Biol Sci: severe DNA damage triggers reciprocal SIRT1 PTMs — TRIM28 polyubiquitination and caspase cleavage at DEPDVP(704–709) (ATM–TRIM28–SIRT1 axis) — enhancing DNA-damage-induced cell death |
 | [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2\|SIRT1–14-3-3ζ–Caspase-2 (Andersen et al. 2011)]] | Mol Cell cover story: SIRT1 deacetylates 14-3-3ζ (K49) to maintain caspase-2 suppression; PPP/G6P flux gates apoptotic sensitivity; SIRT1 inhibition sensitizes breast tumor cells to paclitaxel |
+| [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart\|SIRT1 Cardiac Dose-Response (Alcendor et al. 2007)]] | *Circ Res* primary study: heart-specific Tg-Sirt1 — 2.5×/7.5× cardiac SIRT1 retards age-dependent hypertrophy/fibrosis/apoptosis and resists paraquat oxidative stress via FoxO1a→catalase; 12.5× induces cardiomyopathy via PGC-1α↓, mitochondrial dysfunction, NAD+ depletion (hormetic dose window) |
 
 ## Entity Notes
 
