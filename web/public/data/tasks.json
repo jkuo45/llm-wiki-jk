@@ -1,5 +1,5 @@
 {
-  "generated": "31_AUG_2026 05:19 PM PDT",
+  "generated": "31_AUG_2026 08:19 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -46,6 +46,25 @@
           ],
           "filename": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
           "path": "tasks/en-US/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
+        },
+        "zh-TW": {
+          "title": "超越線粒體激素效應：被忽略的「一點小壞即是大好」範式之生物過程",
+          "description": "這是一份研究綜述，探討遵循激素效應模式——即溫和的壓力源產生有益的適應——但其負面含意或框架遮蔽了其潛力的生物過程。按領域整理，涵蓋機制、關鍵研究，以及重新思考臨床與生活方式介入的意涵。",
+          "created": "2026-08-30",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "mitohormesis",
+            "oxidative-stress",
+            "immunology",
+            "neuroplasticity",
+            "longevity",
+            "research-synthesis",
+            "paradigm-analysis"
+          ],
+          "filename": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+          "path": "tasks/zh-TW/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
         }
       }
     },
