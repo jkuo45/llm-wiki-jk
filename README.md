@@ -31,7 +31,7 @@
 | **Triples** | `triples-*.json` | 2,653 | 4,092 |
 | **Wiki** | `wiki-*.json` | 3,007 | 35,150 |
 
-Build: 31_AUG_2026 · hash `06361aa`
+Build: 31_AUG_2026 · hash `d2dcdf5bbf0abb14`
 
 > [!info] Combined merge
 > The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,562 entities appear in both sources (2,653 triples + 3,007 wiki − 1,562 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,725 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
@@ -276,7 +276,7 @@ Build: 31_AUG_2026 · hash `06361aa`
 <details>
 <summary><strong>Tasks (91 total)</strong> — click to expand</summary>
 
-- [task_output_parallel_relation_links_impact_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md) [[src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md|wiki]] (31_AUG_2026 10:36 PM PDT)
+- [task_output_parallel_relation_links_impact_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md) [[src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md|wiki]] (31_AUG_2026 10:54 PM PDT)
 - [task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md) [[src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md|wiki]] (31_AUG_2026 09:37 PM PDT)
 - [task_output_hormesis_overlooked_paradigms_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md) [[src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md|wiki]] (30_AUG_2026 11:34 PM PDT)
 - [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (30_AUG_2026 07:44 PM PDT)

@@ -1,5 +1,5 @@
 {
-  "generated": "31_AUG_2026 10:37 PM PDT",
+  "generated": "01_SEP_2026 07:43 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -43,6 +43,130 @@
           ],
           "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
           "path": "tasks/en-US/task_output_parallel_relation_links_impact_01_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "三元組圖譜中的平行關係連結 — 完整清單與指標影響",
+          "description": "由 MultiDiGraph 重建所保留、承載超額平行關係連結（3894 對節點上的 4092 條連結）的節點對清單，並附度數／PageRank 影響量化、管線下游消費方稽核，以及已套用的後續修正。",
+          "created": "2026-08-31",
+          "updated": "2026-09-01",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "multigraph",
+            "graph-metrics",
+            "parallel-edges"
+          ],
+          "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_parallel_relation_links_impact_01_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
+          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
+          "created": "2026-05-25",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        },
+        "zh-TW": {
+          "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
+          "description": "假設性方案，利用嗜中性球的氧化爆發——PMA/酵母聚醣活化 NADPH oxidase 與髓過氧化物酶途徑——於誘導發炎期間催化腎上腺素轉化為腎上腺素紅。",
+          "created": "2026-05-25",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_price_estimates_13_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
+          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
+          "created": "2026-07-13",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
+          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
+          "created": "2026-07-13",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_pharmacologist_feasibility_16_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
+          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
+          "created": "2026-06-16",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        },
+        "zh-TW": {
+          "title": "藥理學分析 — 腎上腺色素複方療法",
+          "description": "藥理學家針對三種複方療法（MRR、SRAC、GOPS）的可行性評估，該等療法利用腎上腺色素衍生物作為精準粒線體激效觸發劑，目標為粒線體生合成、細胞衰老/SASP 及蛋白質恆定，並附有評分的合理性與安全性評估。",
+          "created": "2026-06-16",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
         }
       }
     },
@@ -825,114 +949,6 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
-          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
-          "created": "2026-05-25",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        },
-        "zh-TW": {
-          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
-          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
-          "created": "2026-05-25",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_price_estimates_13_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_pharmacologist_feasibility_16_JUN_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
-          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
-          "created": "2026-06-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        },
-        "zh-TW": {
-          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
-          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
-          "created": "2026-06-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
       "kind": "task",
       "langs": {
@@ -1700,8 +1716,8 @@
           "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
         },
         "zh-TW": {
-          "title": "热量限制 vs 亚精胺饮食自噬 — 差异与叠加效应",
-          "description": "CR诱导自噬与饮食自噬诱导剂（亚精胺、雷帕霉素）之间的机制差异分析，以及组合策略叠加效应的追踪",
+          "title": "熱量限制 vs 亞精胺飲食自噬 — 差異與疊加效應",
+          "description": "CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤",
           "created": "2026-07-21",
           "updated": "2026-08-22",
           "tags": [
@@ -2818,7 +2834,7 @@
         },
         "zh-TW": {
           "title": "腎上腺素紅 → 脂質過氧化：機制橋樑和研究機會",
-          "description": "A task output analyzing the mechanistic bridge between Adrenochrome redox cycling and Lipid Peroxidation, identifying graph gaps and proposing new connections.",
+          "description": "分析腎上腺素紅氧化還原循環與脂質過氧化之間的機制橋樑，識別圖譜缺口並提出新的連結。",
           "created": "2026-07-17",
           "updated": "2026-07-17",
           "tags": [
@@ -3206,8 +3222,8 @@
           "path": "tasks/en-US/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
         },
         "zh-TW": {
-          "title": "CXCL12 → Endothelial Dysfunction Mechanistic Trace & Fisetin Rescue Path",
-          "description": "Mechanistic trace linking CXCL12 to endothelial dysfunction via SASP, with evaluation of fisetin as a rescue path.",
+          "title": "CXCL12 → 內皮功能障礙機制追蹤與非瑟酮救援路徑",
+          "description": "透過衰老相關分泌表型將 CXCL12 連結至內皮功能障礙的機制追蹤，並評估非瑟酮作為救援路徑。",
           "created": "2026-07-15",
           "updated": "2026-07-15",
           "tags": [
@@ -3281,7 +3297,7 @@
         },
         "zh-TW": {
           "title": "SIRT3/SIRT4 生物標記物可行性和 MnSOD 氧化還原軸作為粒線體荷爾蒙視窗指標",
-          "description": "Structured feasibility analysis of directly measuring the SIRT3/SIRT4 ratio, viable biomarker alternatives, and an evaluation of whether the MnSOD Redox Axis (Phase I target pathway of the Strategic Translation Roadmap) can serve as a quantitative indicator of the mitohormetic window.",
+          "description": "結構化可行性分析，探討直接量測 SIRT3/SIRT4 比值的可行性、可行的生物標記替代方案，並評估 MnSOD 氧化還原軸（策略性轉譯路線圖第一期標靶路徑）能否作為粒線體激效窗口的定量指標。",
           "created": "2026-07-14",
           "updated": "2026-07-14",
           "tags": [
@@ -3319,7 +3335,7 @@
         },
         "zh-TW": {
           "title": "粒線體荷爾蒙窗口 — 難度審查和個人化方案（75 公斤健康男性）",
-          "description": "Focused analysis of the difficulty of titrating the mitohormetic window within the adrenochrome (MB, AG) protocol, integrating diet, exercise, components, supplements, and IV preference for low-bioavailability agents. Scenario healthy male, middle age, 75 kg.",
+          "description": "聚焦分析在腎上腺素紅（MB, AG）方案中滴定粒線體激效窗口的難度，整合飲食、運動、成分、補充劑以及對低生物利用度藥劑的靜脈注射偏好。情境為健康中年男性，75 公斤。",
           "created": "2026-07-13",
           "updated": "2026-07-13",
           "tags": [
@@ -3420,7 +3436,7 @@
         },
         "zh-TW": {
           "title": "基於腎上腺素紅的聯合療法",
-          "description": "Research-scientist analysis of adrenochrome-based combination therapies (MRR, SRAC, GOPS).",
+          "description": "研究科學家針對基於腎上腺素紅的複方療法（MRR、SRAC、GOPS）進行分析。",
           "created": "2026-06-11",
           "updated": "2026-07-08",
           "tags": [
@@ -3492,8 +3508,8 @@
           "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
         },
         "zh-TW": {
-          "title": "MnSOD in Sirtuin Signaling vs. Adrenochrome Pathway: A Comparative Mechanistic Analysis",
-          "description": "Comparative analysis of MnSOD (SOD2) reaction mechanisms in sirtuin-mediated longevity signaling and adrenochrome redox cycling pathways",
+          "title": "MnSOD 在 Sirtuin 訊息傳遞與腎上腺素紅路徑中的角色：比較性機轉分析",
+          "description": "比較分析 MnSOD（SOD2）在 sirtuin 介導的長壽訊息傳遞與腎上腺素紅氧化還原循環路徑中的反應機轉",
           "created": "2026-07-06",
           "updated": "2026-07-06",
           "tags": [

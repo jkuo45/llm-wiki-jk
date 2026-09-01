@@ -1,6 +1,6 @@
 ---
 title: "腎上腺素紅 → 脂質過氧化：機制橋樑和研究機會"
-description: A task output analyzing the mechanistic bridge between Adrenochrome redox cycling and Lipid Peroxidation, identifying graph gaps and proposing new connections.
+description: 分析腎上腺素紅氧化還原循環與脂質過氧化之間的機制橋樑，識別圖譜缺口並提出新的連結。
 created: 2026-07-17
 updated: 2026-07-17
 tags:

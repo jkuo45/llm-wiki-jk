@@ -1,6 +1,6 @@
 ---
 title: SIRT3/SIRT4 生物標記物可行性和 MnSOD 氧化還原軸作為粒線體荷爾蒙視窗指標
-description: Structured feasibility analysis of directly measuring the SIRT3/SIRT4 ratio, viable biomarker alternatives, and an evaluation of whether the MnSOD Redox Axis (Phase I target pathway of the Strategic Translation Roadmap) can serve as a quantitative indicator of the mitohormetic window.
+description: 結構化可行性分析，探討直接量測 SIRT3/SIRT4 比值的可行性、可行的生物標記替代方案，並評估 MnSOD 氧化還原軸（策略性轉譯路線圖第一期標靶路徑）能否作為粒線體激效窗口的定量指標。
 published: 2026-07-14
 created: 2026-07-14
 source:

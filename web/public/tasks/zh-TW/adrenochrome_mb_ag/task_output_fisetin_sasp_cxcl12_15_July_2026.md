@@ -1,9 +1,9 @@
 ---
-title: CXCL12 → Endothelial Dysfunction Mechanistic Trace & Fisetin Rescue Path
+title: CXCL12 → 內皮功能障礙機制追蹤與非瑟酮救援路徑
 type: task_output
 created: 2026-07-15
 updated: 2026-07-15
-description: 'Mechanistic trace linking CXCL12 to endothelial dysfunction via SASP, with evaluation of fisetin as a rescue path.'
+description: '透過衰老相關分泌表型將 CXCL12 連結至內皮功能障礙的機制追蹤，並評估非瑟酮作為救援路徑。'
 source: graphify-out/graph.json
 tags:
   - graph-trace
@@ -12,130 +12,129 @@ tags:
   - endothelial-dysfunction
   - sasp
   - senolytics
-
 ---
 
-# CXCL12 → Endothelial Dysfunction Mechanistic Trace
+# CXCL12 → 內皮功能障礙機制追蹤
 
-> 來源：`graphify-out/graph.json` — traced via NetworkX shortest-path and hub analysis
+> Source: `graphify-out/graph.json` — traced via NetworkX shortest-path and hub analysis
 > Context: Incremental graphify update (`/graphify notes --update`) on 10 changed files, Mahoney et al. 2025 paper on fisetin/SASP/CXCL12/endothelial dysfunction
 
 ---
 
-## Graph Structure Summary
+## 圖形結構摘要
 
-| Metric | Value |
+| 指標 | 數值 |
 |---|---|
-| Total nodes | 1,850 |
-| Total edges | 2,388 |
-| Communities | 351 |
-| New nodes from update | 22 |
-| New edges from update | 1,470 |
+| 總節點數 | 1,850 |
+| 總邊數 | 2,388 |
+| 社群數 | 351 |
+| 更新後新增節點 | 22 |
+| 更新後新增邊 | 1,470 |
 
-### Key Hub Nodes (from this update)
+### 關鍵中樞節點（來自本次更新）
 
-| Node                    | Degree | Community Role                      |
+| 節點                    | 度數 | 社群角色                      |
 | ----------------------- | ------ | ----------------------------------- |
-| [[Senescence]]          | 89     | Core senescence hub                 |
-| [[Senescence]] | 76     | Core senescence hub                 |
-| [[SASP]]                | 62     | Upstream driver of all pathology    |
-| [[NF-κB]]               | 38     | SASP transcription factor           |
-| [[mTOR]]                | 35     | SASP amplifier, autophagy inhibitor |
-| [[Fisetin]]             | 34     | Senolytic rescue node               |
-| [[Apoptosis]]           | 33     | Senescent cell clearance mechanism  |
-| [[p53]]                 | 31     | Senescence effector                 |
-| [[Autophagy]]           | 30     | Proteostasis/clearance mechanism    |
-| [[Inflammation]]        | 28     | Systemic consequence                |
+| [[Senescence]]          | 89     | 核心衰老中樞                 |
+| [[Senescence]] | 76     | 核心衰老中樞                 |
+| [[SASP]]                | 62     | 所有病變的上游驅動因素    |
+| [[NF-κB]]               | 38     | SASP 轉錄因子           |
+| [[mTOR]]                | 35     | SASP 放大器、自噬抑制劑 |
+| [[Fisetin]]             | 34     | 衰老溶解型救援節點               |
+| [[Apoptosis]]           | 33     | 衰老細胞清除機制  |
+| [[p53]]                 | 31     | 衰老效應因子                 |
+| [[Autophagy]]           | 30     | 蛋白質穩態/清除機制    |
+| [[Inflammation]]        | 28     | 全身性後果                |
 
-### Surprising Connections (from this update)
+### 令人意外的連結（來自本次更新）
 
 > [!TIP]
-> **Fisetin ↔ CXCL12 Bridge**
-> [[Fisetin]] normalizes a single circulating [[SASP]] factor to rescue endothelial function — a "humoral senescence" mechanism. This is the only node bridging the senescence community (62 edges) to the vascular dysfunction community (9 edges).
+> **Fisetin ↔ CXCL12 橋接**
+> [[Fisetin]] 使單一循環中的 [[SASP]] 因子正常化以救援內皮功能——一種「體液性衰老」機制。這是唯一橋接衰老社群（62 條邊）與血管功能障礙社群（9 條邊）的節點。
 
-- **[[ACKR3]] ↔ [[Endothelial Cells]]**: Scavenger receptor shift from [[CXCR4]] to [[ACKR3]]-dominant signaling acts as a molecular switch reinforcing the senescent phenotype
-- **[[Endothelial-to-Mesenchymal Transition]] ↔ [[Endothelial Dysfunction]]**: Transdifferentiation (loss of [[CDH5]]/[[PECAM1]], gain of [[TGFβ]]/[[ACTA2]]) is a novel mechanism of age-related vascular dysfunction driven by the [[SASP]]
+- **[[ACKR3]] ↔ [[Endothelial Cells]]**: 清除受體由 [[CXCR4]] 主導的訊號轉變為 [[ACKR3]] 主導，作為強化衰老表型的分子開關
+- **[[Endothelial-to-Mesenchymal Transition]] ↔ [[Endothelial Dysfunction]]**: 轉分化（[[CDH5]]/[[PECAM1]] 喪失、[[TGFβ]]/[[ACTA2]] 增加）是由 [[SASP]] 驅動的衰老相關血管功能障礙的新穎機制
 
 ---
 
-## Trace 1: CXCL12 → Endothelial Dysfunction (2 hops)
+## 追蹤 1：CXCL12 → 內皮功能障礙（2 跳）
 
 ```
 CXCL12 --[references]--> Endothelial Dysfunction
 ```
 
-**Mechanism:** [[CXCL12]] is a circulating [[SASP]] factor that directly impairs endothelial function. The Mahoney et al. 2025 paper demonstrates that:
+**機制:** [[CXCL12]] 是直接損害內皮功能的循環 [[SASP]] 因子。Mahoney et al. 2025 論文證明了：
 
-- CXCL12 levels are elevated in aged mouse plasma and human plasma
-- AAV9-mediated CXCL12 overexpression in young mice recapitulates age-related [[Endothelial Dysfunction]]
-- LIT-927 (CXCL12 neutraligand) restores endothelial function in aged mice
-- [[Fisetin]] treatment normalizes circulating CXCL12
+- 衰老小鼠血漿與人類血漿中的 CXCL12 濃度皆升高
+- 在年輕小鼠中，透過 AAV9 介導的 CXCL12 過度表現重現了與衰老相關的 [[Endothelial Dysfunction]]
+- LIT-927（CXCL12 中和配體）恢復了衰老小鼠的內皮功能
+- [[Fisetin]] 治療使循環中的 CXCL12 正常化
 
 > [!NOTE]
-> **Evidence: EXTRACTED reference edge (confidence: EXTRACTED)**
+> **證據: EXTRACTED 參考邊（信賴度: EXTRACTED）**
 
 ---
 
-## Trace 2: CXCL12 → NO Suppression (2 hops)
+## 追蹤 2：CXCL12 → NO 抑制（2 跳）
 
 ```
 CXCL12 --[references]--> Nitric Oxide
 ```
 
-**Mechanism:** [[CXCL12]] impairs endothelial NO bioavailability by **13–20%** (Mahoney et al. 2025). The biochemical mechanism:
+**機制:** [[CXCL12]] 使內皮 NO 生物利用度降低 **13–20%**（Mahoney et al. 2025）。生化機制：
 
-1. CXCL12 activates [[eNOS]] uncoupling — the enzyme switches from producing NO to producing superoxide
-2. Reduced NO bioavailability impairs vasodilation
-3. LIT-927 restores NO production (+10%), confirming the causal link
-4. [[Fisetin]] normalizes CXCL12 → restores eNOS coupling → restores NO
+1. CXCL12 活化 [[eNOS]] 去偶聯——該酵素從產生 NO 轉變為產生超氧化物
+2. NO 生物利用度降低損害血管舒張
+3. LIT-927 恢復 NO 產生（+10%），證實因果關係
+4. [[Fisetin]] 使 CXCL12 正常化 → 恢復 eNOS 偶聯 → 恢復 NO
 
 > [!NOTE]
-> **Feed-forward loop**
-> NO scavenging by superoxide reduces bioavailability, which further impairs [[Mitochondria]] function — a feed-forward loop connecting NO loss to mitochondrial dysfunction.
+> **前饋迴路**
+> 超氧化物清除 NO 降低其生物利用度，進而進一步損害 [[Mitochondria]] 功能——一個將 NO 流失與粒線體功能障礙連結的前饋迴路。
 
-**The graph also shows:**
+**圖形也顯示:**
 ```
 Nitric Oxide --[conceptually_related_to]--> Mitochondria  (INFERRED, confidence: 0.85)
 ```
 
-**Evidence strength:** Direct EXTRACTED reference edge + INFERRED conceptual link to mitochondria
+**證據強度:** 直接 EXTRACTED 參考邊 + 與粒線體的 INFERRED 概念性連結
 
 ---
 
-## Trace 3: CXCL12 → Mitochondrial ROS (2 hops)
+## 追蹤 3：CXCL12 → 粒線體 ROS（2 跳）
 
 ```
 CXCL12 --[references]--> Mitochondria
 ```
 
-**Mechanism:** [[CXCL12]] **2.2-fold increases** mitochondrial superoxide in arteries and **5% in HAECs** (Mahoney et al. 2025). The mechanism:
+**機制:** [[CXCL12]] 在動脈中使粒線體超氧化物 **2.2-fold increases**，並在 HAECs 中增加 **5%**（Mahoney et al. 2025）。機制：
 
-1. CXCL12 signaling through [[CXCR4]]/[[ACKR3]] activates mitochondrial electron transport chain dysfunction
-2. Increased superoxide production scavenges NO (connecting to Trace 2)
-3. [[Fisetin]] reduces mitochondrial superoxide by **58%**
-4. The combination of fisetin + LIT-927 reduces superoxide further than either alone
+1. 經由 [[CXCR4]]/[[ACKR3]] 的 CXCL12 訊號使粒線體電子傳遞鏈功能障礙活化
+2. 超氧化物產生增加清除 NO（連結至追蹤 2）
+3. [[Fisetin]] 使粒線體超氧化物降低 **58%**
+4. fisetin 與 LIT-927 的組合比單獨任一者更能降低超氧化物
 
 > [!WARNING]
-> **Feed-forward loop identified**
+> **已識別的前饋迴路**
 > ```
 > CXCL12 → Mitochondria → Superoxide → NO scavenging → Endothelial Dysfunction
 >      ↑                                                           |
 >      └───────────────────────────────────────────────────────────┘
 > ```
 
-**Evidence strength:** Direct EXTRACTED reference edge
+**證據強度:** 直接 EXTRACTED 參考邊
 
 ---
 
-## Trace 4: CXCL12 → EndoMT (2 hops)
+## 追蹤 4：CXCL12 → EndoMT（2 跳）
 
 ```
 CXCL12 --[references]--> Endothelial-to-Mesenchymal Transition
 ```
 
-**Mechanism:** [[CXCL12]] drives transdifferentiation of endothelial cells into mesenchymal phenotype (Mahoney et al. 2025):
+**機制:** [[CXCL12]] 驅動內皮細胞轉分化為間質表型（Mahoney et al. 2025）：
 
-| Marker | Change | Fold |
+| 標記 | 變化 | 倍數 |
 |---|---|---|
 | [[CDH5]] (VE-cadherin) | ↓ | -45% |
 | [[PECAM1]] (CD31) | ↓ | -55% |
@@ -143,173 +142,173 @@ CXCL12 --[references]--> Endothelial-to-Mesenchymal Transition
 | [[ACTA2]] (α-SMA) | ↑ | +5.4-fold |
 
 > [!NOTE]
-> **EndoMT markers**
-> The EndoMT node connects to CDH5, PECAM1, TGFB1, ACTA2 — all EXTRACTED edges from the Mahoney paper — and to [[Endothelial Dysfunction]] as the downstream consequence.
+> **EndoMT 標記**
+> EndoMT 節點連結至 CDH5、PECAM1、TGFB1、ACTA2——全部來自 Mahoney 論文的 EXTRACTED 邊——並連結至 [[Endothelial Dysfunction]] 作為下游後果。
 
-**Evidence strength:** Direct EXTRACTED reference edge
+**證據強度:** 直接 EXTRACTED 參考邊
 
 ---
 
-## Trace 5: CXCL12 → Senescence Markers (2 hops)
+## 追蹤 5：CXCL12 → 衰老標記（2 跳）
 
 ```
 CXCL12 --[references]--> p21 CIP1
 CXCL12 --[references]--> p16 INK4a
 ```
 
-**Mechanism:** [[CXCL12]] is both a product and reinforcer of cellular senescence:
+**機制:** [[CXCL12]] 既是細胞衰老的產物，也是其強化因子：
 
-- Senescent ECs produce CXCL12 ([[SASP]] factor)
-- CXCL12 signaling through [[CXCR4]]/[[ACKR3]] activates [[p21 CIP1]] and [[p16 INK4a]] in neighboring cells
-- This creates a paracrine senescence spread — senescent cells induce senescence in healthy neighbors
-- [[Fisetin]] eliminates the senescent EC source → breaks the cycle
+- 衰老內皮細胞產生 CXCL12（[[SASP]] 因子）
+- 經由 [[CXCR4]]/[[ACKR3]] 的 CXCL12 訊號在鄰近細胞中活化 [[p21 CIP1]] 與 [[p16 INK4a]]
+- 這會造成旁分泌式衰老擴散——衰老細胞誘導健康鄰近細胞衰老
+- [[Fisetin]] 清除衰老內皮細胞來源 → 打破此循環
 
 > [!TIP]
-> **Paracrine senescence spread**
-> CXCL12 acts as a paracrine senescence inducer: senescent cells secrete it, and it activates p21/p16 in healthy neighbors, amplifying the senescent burden.
+> **旁分泌式衰老擴散**
+> CXCL12 作為旁分泌衰老誘導劑：衰老細胞分泌它，並在健康鄰近細胞中活化 p21/p16，放大衰老負擔。
 
-**Evidence strength:** Direct EXTRACTED reference edges
+**證據強度:** 直接 EXTRACTED 參考邊
 
 ---
 
-## Fisetin: The Rescue Mechanism (8 direct edges)
+## Fisetin：救援機制（8 條直接邊）
 
-### Fisetin Hub Connections
+### Fisetin 中樞連結
 
-| Target | Edge Type | Confidence | Effect |
+| 標的 | 邊類型 | 信賴度 | 效果 |
 |---|---|---|---|
-| [[CXCL12]] | references | EXTRACTED | Normalizes circulating CXCL12 |
-| [[Endothelial Dysfunction]] | references | EXTRACTED | Restores endothelial function |
-| [[Endothelial-to-Mesenchymal Transition]] | references | EXTRACTED | Blocks transdifferentiation |
-| [[Nitric Oxide]] | references | EXTRACTED | Restores NO bioavailability |
-| [[Endothelial Cells]] | references | EXTRACTED | Reduces senescent EC burden |
-| [[ACKR3]] | conceptually_related_to | INFERRED (0.85) | May reverse CXCR4→ACKR3 switch |
-| [[CXCR4]] | conceptually_related_to | INFERRED (0.85) | May restore CXCR4 signaling balance |
-| Mahoney et al. 2025 | cites | EXTRACTED | Source document |
+| [[CXCL12]] | references | EXTRACTED | 使循環中的 CXCL12 正常化 |
+| [[Endothelial Dysfunction]] | references | EXTRACTED | 恢復內皮功能 |
+| [[Endothelial-to-Mesenchymal Transition]] | references | EXTRACTED | 阻斷轉分化 |
+| [[Nitric Oxide]] | references | EXTRACTED | 恢復 NO 生物利用度 |
+| [[Endothelial Cells]] | references | EXTRACTED | 降低衰老內皮細胞負擔 |
+| [[ACKR3]] | conceptually_related_to | INFERRED (0.85) | 可能逆轉 CXCR4→ACKR3 轉換 |
+| [[CXCR4]] | conceptually_related_to | INFERRED (0.85) | 可能恢復 CXCR4 訊號平衡 |
+| Mahoney et al. 2025 | cites | EXTRACTED | 來源文件 |
 
-### Fisetin Rescue Chain (3 hops to mTOR)
+### Fisetin 救援鏈（3 跳至 mTOR）
 
 ```
 Fisetin --[references]--> CXCL12 --[references]--> SASP --[references]--> mTOR
 ```
 
-This is the longest rescue path in the graph. The chain:
-1. [[Fisetin]] eliminates senescent ECs → reduces circulating [[CXCL12]]
-2. Reduced CXCL12 → reduced [[SASP]] burden
-3. Reduced SASP → reduced [[mTOR]]-driven inflammatory signaling
+這是圖形中最長的救援路徑。此鏈：
+1. [[Fisetin]] 清除衰老內皮細胞 → 降低循環中的 [[CXCL12]]
+2. CXCL12 降低 → [[SASP]] 負擔降低
+3. SASP 降低 → [[mTOR]] 驅動的發炎訊號降低
 
-### Three Parallel Rescue Arms
+### 三條並行救援臂
 
-| Fisetin Target | Mechanism | Quantitative Effect |
+| Fisetin 標的 | 機制 | 量化效果 |
 |---|---|---|
-| **[[Endothelial Dysfunction]]** | Restores NO bioavailability | +10% NO (direct) |
-| **[[Nitric Oxide]]** | Reduces superoxide scavenging | Normalizes eNOS coupling |
-| **[[Endothelial-to-Mesenchymal Transition]]** | Blocks transdifferentiation | CDH5 ↑45%, PECAM1 ↑55%, TGFB1/ACTA2 ↓5.4-fold |
-| **[[Mitochondria]]** | Reduces superoxide production | -58% mitochondrial ROS |
+| **[[Endothelial Dysfunction]]** | 恢復 NO 生物利用度 | +10% NO（直接） |
+| **[[Nitric Oxide]]** | 降低超氧化物清除 | 使 eNOS 偶聯正常化 |
+| **[[Endothelial-to-Mesenchymal Transition]]** | 阻斷轉分化 | CDH5 ↑45%, PECAM1 ↑55%, TGFB1/ACTA2 ↓5.4-fold |
+| **[[Mitochondria]]** | 降低超氧化物產生 | -58% 粒線體 ROS |
 
-### The Critical Bridge Role
+### 關鍵橋接角色
 
 > [!IMPORTANT]
-> **Fisetin as the critical bridge**
-> [[Fisetin]] is the **only node** in the graph that directly references both [[CXCL12]] and [[Endothelial Dysfunction]]. Without fisetin, the [[SASP]] community (62 edges) and the vascular dysfunction community (9 edges) would be structurally isolated in the graph. Fisetin bridges these two communities, making it the **critical connector** in this subgraph.
+> **Fisetin 作為關鍵橋接者**
+> [[Fisetin]] 是圖形中**唯一**同時直接引用 [[CXCL12]] 與 [[Endothelial Dysfunction]] 的節點。若無 fisetin，[[SASP]] 社群（62 條邊）與血管功能障礙社群（9 條邊）在圖形中將結構性隔離。Fisetin 橋接了這兩個社群，使其成為此子圖形中的**關鍵連接者**。
 
-### The Bcl-2 Validation
+### Bcl-2 驗證
 
 > [!WARNING]
-> **Senolytic vs. senomorphic mechanism**
-> The Mahoney paper shows that when senescent ECs are restored via [[Bcl-2]] transfection (preventing fisetin-induced [[Apoptosis]]):
-> - Endothelial dysfunction returns
-> - CXCL12 levels rise again
-> - NO bioavailability drops
-> - Mitochondrial superoxide increases
+> **衰老溶解型 vs. 衰老抑制型機制**
+> Mahoney 論文顯示，當經由 [[Bcl-2]] 轉染恢復衰老內皮細胞時（阻止 fisetin 誘導的 [[Apoptosis]]）：
+> - 內皮功能障礙再次出現
+> - CXCL12 濃度再次上升
+> - NO 生物利用度下降
+> - 粒線體超氧化物增加
 >
-> This confirms that fisetin's mechanism is **senolytic** (killing senescent cells) rather than **senomorphic** (suppressing SASP without killing).
+> 這證實 fisetin 的機制是**衰老溶解型**（殺死衰老細胞），而非**衰老抑制型**（在不殺死的情況下抑制 SASP）。
 
 ---
 
-## Network Topology: Why This Matters
+## 網路拓撲：為何重要
 
-### CXCL12 as a Hub Node (17 edges)
+### CXCL12 作為中樞節點（17 條邊）
 
-[[CXCL12]] is one of the most connected nodes in the entire graph (1,850 nodes). Its 17 direct connections span:
+[[CXCL12]] 是整個圖形（1,850 個節點）中連結最多的節點之一。其 17 條直接連結涵蓋：
 
-- **Senescence markers:** [[p16 INK4a]], [[p21 CIP1]]
-- **SASP:** Senescence-Associated Secretory Phenotype ([[SASP]]）
-- **Vascular biology:** [[Endothelial Cells]], [[Endothelial Dysfunction]], [[Endothelial-to-Mesenchymal Transition]]
-- **Receptor system:** [[CXCR4]], [[ACKR3]]
-- **Structural markers:** [[CDH5]], [[PECAM1]], [[TGFβ]], [[ACTA2]]
-- **Therapeutic targets:** [[Fisetin]], LIT-927
-- **Cellular organelles:** [[Mitochondria]]
-- **Signaling molecules:** [[Nitric Oxide]]
+- **衰老標記:** [[p16 INK4a]], [[p21 CIP1]]
+- **SASP:** 衰老相關分泌表型（[[SASP]]）
+- **血管生物學:** [[Endothelial Cells]], [[Endothelial Dysfunction]], [[Endothelial-to-Mesenchymal Transition]]
+- **受體系統:** [[CXCR4]], [[ACKR3]]
+- **結構標記:** [[CDH5]], [[PECAM1]], [[TGFβ]], [[ACTA2]]
+- **治療標的:** [[Fisetin]], LIT-927
+- **細胞胞器:** [[Mitochondria]]
+- **訊息分子:** [[Nitric Oxide]]
 
 > [!NOTE]
-> **CXCL12 as a high-value therapeutic target**
-> This hub structure means CXCL12 is a **high-value therapeutic target** — modulating it affects multiple pathological pathways simultaneously.
+> **CXCL12 作為高價值治療標的**
+> 此中樞結構意味著 CXCL12 是**高價值治療標的**——調節它會同時影響多條病理途徑。
 
-### The Senescence → Vascular Dysfunction Bridge
+### 衰老 → 血管功能障礙橋接
 
-The graph reveals that the senescence community and the vascular dysfunction community are connected through a narrow bottleneck:
+圖形揭示了衰老社群與血管功能障礙社群透過一個狹窄的瓶頸相連：
 
 ```
 Senescence (89 edges) → SASP (62 edges) → CXCL12 (17 edges) → Endothelial Dysfunction (9 edges)
 ```
 
-[[CXCL12]] is the critical bridge node. This means:
-1. Targeting CXCL12 (with LIT-927 or [[Fisetin]]) could break the link between aging and vascular disease
-2. The circulating CXCL12 level could serve as a **biomarker** for vascular aging risk
-3. 非瑟酮 + LIT-927 的組合同時針對來源（老化細胞）和介質（CXCL12）
+[[CXCL12]] 是關鍵橋接節點。這意味著：
+1. 以 CXCL12 為標的（使用 LIT-927 或 [[Fisetin]]）可能打破衰老與血管疾病之間的連結
+2. 循環中的 CXCL12 濃度可作為血管衰老風險的**生物標記**
+3. fisetin 與 LIT-927 的組合同時標定來源（衰老細胞）與介質（CXCL12）
 
 ---
 
 ## 建議的後續問題
 
-1. **How does the CXCR4-to-ACKR3 receptor switch reinforce the senescent phenotype?**
-   - Crosses [[ACKR3]], [[CXCR4]]，和老化社區
-   - 從非瑟酮到兩個受體的推斷邊緣表明非瑟酮可能調節這種開關
+1. **CXCR4 至 ACKR3 的受體轉換如何強化衰老表型？**
+   - 跨越 [[ACKR3]]、[[CXCR4]] 與衰老社群
+   - 從 fisetin 指向兩個受體的 INFERRED 邊暗示 fisetin 可能調節此轉換
 
-2. **非瑟酮逆轉老化內皮細胞中 EndoMT 的機制是什麼？ **
-   - Crosses [[Fisetin]], [[Endothelial-to-Mesenchymal Transition]]， 和[[SASP]]社群
-   - 這[[TGFβ]]/[[ACTA2]] upregulation and [[CDH5]]/[[PECAM1]]下調顯示 TGF-β 路徑參與
+2. **fisetin 在衰老內皮細胞中逆轉 EndoMT 的機制為何？**
+   - 跨越 [[Fisetin]]、[[Endothelial-to-Mesenchymal Transition]] 與 [[SASP]] 社群
+   - [[TGFβ]]/[[ACTA2]] 上調與 [[CDH5]]/[[PECAM1]] 下調暗示 TGF-β 途徑的參與
 
-3. **CXCL12 如何透過 NO 抑制和粒線體 ROS 驅動內皮功能障礙？ **
-   - **This is the current trace** — answered above
-   - Crosses CXCL12-Vascular Aging Axis, ROS, and [[Endothelial Dysfunction]]社群
+3. **CXCL12 如何透過 NO 抑制與粒線體 ROS 驅動內皮功能障礙？**
+   - **這是目前的追蹤**——已於上方回答
+   - 跨越 CXCL12-血管衰老軸、ROS 與 [[Endothelial Dysfunction]] 社群
 
-4. **非瑟酮 + LIT-927 合併療法的治療窗是多少？ **
-   - 馬奧尼的論文表明，這種組合比單獨使用任何一種都更有效
-   - 這[[Bcl-2]]轉染實驗證實了senolytic機制
-   - 與衰老細胞負擔相關的劑量優化和時機是懸而未決的問題
-
----
-
-## 數據來源
-
-- **主要來源：** Mahoney 等人。 2025 年 —“使用 Fisetin 進行 Senolytic 治療可逆轉部分由 SASP 因子 CXCL12 介導的與年齡相關的內皮功能障礙”
-- **圖形：**`graphify-out/graph.json` (1,850 nodes, 2,388 edges)
-- **社區：** 偵測到 351 個，40 個自訂標記
-- **提取：** 從 10 個更改的文檔文件（0 個代碼文件）中提取語義
-- **Graphify 更新：** 增量構建2026-07-15
+4. **fisetin + LIT-927 聯合療法的治療窗口為何？**
+   - Mahoney 論文顯示此組合比單獨任一者更有效
+   - [[Bcl-2]] 轉染實驗證實衰老溶解型機制
+   - 劑量最佳化與相對衰老細胞負擔的時機選擇仍是待解問題
 
 ---
 
-## 連接
+## 資料來源
 
-- [[CXCL12]]: Central hub node (17 edges) connecting senescence, vascular biology, and therapeutic targets
-- [[Fisetin]]：連接的關鍵橋節點（8條邊）[[SASP]] community to vascular dysfunction community
-- [[SASP]]：所有下游病理學的上游驅動器（62 個邊緣）
-- [[Endothelial Dysfunction]]：下游表型（9 個邊緣）— 臨床目標
-- [[Nitric Oxide]]：失去的保護性介體 — 由非瑟酮恢復，被 CXCL12 抑制
-- [[Mitochondria]]：超氧化物來源 — 比 CXCL12 增加 2.2 倍，非瑟丁減少 58%
-- [[Endothelial-to-Mesenchymal Transition]]：轉分化機轉－被非瑟酮阻斷
-- [[ACKR3]]/[[CXCR4]]: Receptor system — shift from CXCR4 to ACKR3 in senescence, potentially modulated by fisetin
+- **主要來源:** Mahoney et al. 2025 — "Senolytic Treatment With Fisetin Reverses Age-Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12"
+- **圖形:** `graphify-out/graph.json`（1,850 個節點、2,388 條邊）
+- **社群:** 偵測到 351 個，其中 40 個已自訂標籤
+- **萃取:** 從 10 個變更的文件檔案（0 個程式碼檔案）進行語意萃取
+- **Graphify 更新:** 於 2026-07-15 進行增量建構
 
 ---
 
-## 要建立的新實體
+## 連結
 
-本文檔中引用了以下實體，但尚未有 wiki 註解：
+- [[CXCL12]]: 中樞節點（17 條邊），連結衰老、血管生物學與治療標的
+- [[Fisetin]]: 關鍵橋接節點（8 條邊），連結 [[SASP]] 社群與血管功能障礙社群
+- [[SASP]]: 所有下游病變的上游驅動因素（62 條邊）
+- [[Endothelial Dysfunction]]: 下游表型（9 條邊）——臨床標的
+- [[Nitric Oxide]]: 流失的保護性介質——由 fisetin 恢復、遭 CXCL12 抑制
+- [[Mitochondria]]: 超氧化物來源——CXCL12 增加 2.2 倍、fisetin 降低 58%
+- [[Endothelial-to-Mesenchymal Transition]]: 轉分化機制——被 fisetin 阻斷
+- [[ACKR3]]/[[CXCR4]]: 受體系統——衰老時由 CXCR4 轉變為 ACKR3，可能受 fisetin 調節
 
-- [[CDH5]](VE-鈣黏蛋白) — 血管內皮鈣黏蛋白，在 EndoMT 下調 45%
-- [[PECAM1]](CD31) — 血小板內皮細胞黏附分子，在 EndoMT 中下調 55%
-- [[ACTA2]] (α-SMA) — smooth muscle actin, upregulated 5.4-fold in EndoMT
-- LIT-927 — CXCL12 neutraligand, restores endothelial function in aged mice
+---
+
+## 待建立的新實體
+
+以下實體在此文件中被引用，但尚無 wiki 筆記：
+
+- [[CDH5]] (VE-cadherin) — 血管內皮鈣黏蛋白，在 EndoMT 中下調 45%
+- [[PECAM1]] (CD31) — 血小板內皮細胞黏附分子，在 EndoMT 中下調 55%
+- [[ACTA2]] (α-SMA) — 平滑肌肌動蛋白，在 EndoMT 中上調 5.4 倍
+- LIT-927 — CXCL12 中和配體，恢復衰老小鼠的內皮功能
