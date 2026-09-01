@@ -123,7 +123,11 @@ a:hover {
   background: color-mix(in srgb, var(--paper) 86%, white);
   backdrop-filter: saturate(1.2) blur(10px);
   border-bottom: 1px solid var(--rule);
+  transition: transform .25s ease;
+  will-change: transform;
 }
+.site-nav.nav-hidden{transform:translateY(-100%);}
+@media (prefers-reduced-motion: reduce){.site-nav{transition:none;}}
 
 .site-nav .wrap {
   height: 100%;

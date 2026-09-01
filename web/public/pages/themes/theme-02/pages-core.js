@@ -246,6 +246,25 @@ window.T2 = (function () {
     }, { passive: true });
   }
 
+  /* ——— Nav auto-hide on scroll (hide on scroll down, show on scroll up) ——— */
+  function initNavAutoHide() {
+    var nav = document.querySelector(".site-nav");
+    if (!nav) return;
+    var lastY = window.scrollY;
+    var hidden = false;
+    var THRESH = 6;
+    function onScroll() {
+      var y = window.scrollY;
+      var navH = nav.offsetHeight || 52;
+      var down = y > lastY + THRESH;
+      var up = y < lastY - THRESH;
+      if (down && y > navH && !hidden) { nav.classList.add("nav-hidden"); hidden = true; }
+      else if (up && hidden) { nav.classList.remove("nav-hidden"); hidden = false; }
+      if (Math.abs(y - lastY) > THRESH) lastY = y;
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
   return {
     el: el,
     text: text,
@@ -256,6 +275,7 @@ window.T2 = (function () {
     initNav: initNav,
     initTooltip: initTooltip,
     initLightbox: initLightbox,
-    initNavScrollHint: initNavScrollHint
+    initNavScrollHint: initNavScrollHint,
+    initNavAutoHide: initNavAutoHide
   };
 })();

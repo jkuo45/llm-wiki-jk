@@ -147,6 +147,32 @@ function tipTap(ev, html){
 document.addEventListener('touchstart', ()=>hideTip(), true);
 window.addEventListener('scroll', hideTip, true);
 
+/* ============================= NAV AUTO-HIDE =============================
+   Hide the sticky <nav> when scrolling down, reveal when scrolling up.
+   Mirrors theme-02's T2.initNavAutoHide() but self-initializes (theme-01
+   articles don't call into a shared API object). */
+(function(){
+  function setup(){
+    var nav = document.querySelector('nav');
+    if (!nav) return;
+    var lastY = window.scrollY;
+    var hidden = false;
+    var THRESH = 6;
+    function onScroll(){
+      var y = window.scrollY;
+      var navH = nav.offsetHeight || 52;
+      var down = y > lastY + THRESH;
+      var up = y < lastY - THRESH;
+      if (down && y > navH && !hidden){ nav.classList.add('nav-hidden'); hidden = true; }
+      else if (up && hidden){ nav.classList.remove('nav-hidden'); hidden = false; }
+      if (Math.abs(y - lastY) > THRESH) lastY = y;
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setup);
+  else setup();
+})();
+
 /* ============================= DIAGRAM LIGHTBOX ============================= */
 (function(){
   const lb = document.createElement('div');
