@@ -514,6 +514,19 @@ function toggleSort() {
 if (sortBtn) sortBtn.addEventListener('click', toggleSort);
 renderSortButton(); // paint the default icon/tooltip once all refs/state exist
 
+// Header ¶ button: show/hide the OCR description snippet on every gallery
+// card at once. State lives on the gallery element; cards re-render on any
+// filter change and pick it up via CSS (#notes-gallery.desc-open).
+const descBtn = $('notes-desc');
+if (descBtn) {
+  descBtn.addEventListener('click', () => {
+    const open = galleryEl.classList.toggle('desc-open');
+    descBtn.setAttribute('aria-pressed', String(open));
+    descBtn.title = open ? t('hideDescription') : t('showDescription');
+  });
+  descBtn.title = t('showDescription');
+}
+
 // Whether any filter is active: a free-text query and/or selected tag chips.
 function isFiltering() {
   return !!filterQ.trim() || activeTags.size > 0;

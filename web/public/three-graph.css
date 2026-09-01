@@ -1692,6 +1692,16 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .notes-card .caption {
   color: var(--ink-4); font-size: 12px; line-height: 1.5; margin: 2px 0 8px;
 }
+/* Collapsible card descriptions: snippets are hidden by default; the ¶
+   button in the notes header (#notes-desc) toggles .desc-open on the
+   gallery to reveal them all at once. */
+#notes-gallery:not(.desc-open) .notes-ocr-snip { display: none; }
+.notes-desc-btn {
+  font-size: 14px; line-height: 1; color: #7c7c94;
+  transition: color 0.15s, border-color 0.15s;
+}
+.notes-desc-btn:hover { color: var(--teal); border-color: var(--teal); }
+.notes-desc-btn[aria-pressed="true"] { color: var(--teal); border-color: var(--teal); }
 .notes-card .context {
   font-size: 11px; color: #7c7c94; line-height: 1.45; border-top: 1px solid var(--line-strong);
   padding-top: 10px; margin-top: auto; display: flex; flex-direction: column; gap: 6px;
@@ -1935,15 +1945,24 @@ button.notes-chip { font-family: inherit; line-height: inherit; }
      mobile size (14px) so the Notes title stays consistent with it. */
   #notes-header .panel-title { font-size: 14px; }
   #analysis-header .panel-title { font-size: 14px; }
-  /* Single-card view: one full-width card per row (instead of the multi-column
-     hub grid), so each note keeps a readable title + OCR snippet + image on
-     small screens. */
-  #notes-gallery { gap: 12px; padding: 12px; grid-template-columns: 1fr; }
+  /* Two-column card grid on mobile (instead of one full-width card per row) —
+     cards are compact: smaller image, tighter padding/typography. */
+  #notes-gallery { gap: 10px; padding: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #notes-gallery .notes-card { flex-direction: column; }
   #notes-gallery .notes-card .img-wrap {
-    height: 240px; width: auto; border-radius: var(--r-lg) var(--r-lg) 0 0; padding: 14px;
+    height: 120px; width: auto; border-radius: var(--r-lg) var(--r-lg) 0 0; padding: 8px;
   }
-  #notes-gallery .notes-card-body { padding: 14px 16px 16px; }
+  #notes-gallery .notes-card .img-wrap img { max-height: 100%; }
+  #notes-gallery .notes-card-body { padding: 10px 12px 12px; gap: 4px; }
+  #notes-gallery .notes-card-title { font-size: 12.5px; }
+  #notes-gallery .notes-card .caption { font-size: 11px; margin: 2px 0 6px; }
+  #notes-gallery .notes-card .context { font-size: 10px; padding-top: 8px; }
+  #notes-gallery .notes-card .notes-doc { display: none; }
+  #notes-gallery .notes-badge { font-size: 9.5px; padding: 1px 6px; }
+  /* Skeleton placeholders adopt the same two-column mobile layout, with the
+     thumbnail slot matching the compact card image height. */
+  #notes-gallery .ui-skeleton-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  #notes-gallery .ui-skeleton-thumb { aspect-ratio: auto; height: 120px; }
 }
 
 /* ---------------------------------------------------------------------------
@@ -2101,7 +2120,12 @@ button.notes-chip { font-family: inherit; line-height: inherit; }
 .ui-skeleton-row { display: flex; align-items: center; gap: 10px; padding: 7px 8px; }
 .ui-skeleton-bar { height: 13px; flex: 1; }
 .ui-skeleton-tail { height: 11px; width: 56px; }
-.ui-skeleton-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
+/* Mirrors #notes-gallery's grid (three-graph.css) so loading placeholders
+   occupy the same columns as the cards that replace them. The wrapper spans
+   the full enclosing grid row (#notes-gallery is itself a grid), otherwise it
+   would be squeezed into a single column slot. */
+.ui-skeleton-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+#notes-gallery > .ui-skeleton-gallery { grid-column: 1 / -1; }
 .ui-skeleton-card { display: flex; flex-direction: column; gap: 8px; padding: 10px;
   background: var(--surface-1); border: 1px solid var(--line); border-radius: var(--r-md); }
 .ui-skeleton-thumb { width: 100%; aspect-ratio: 3 / 4; }
