@@ -25,6 +25,8 @@ import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
+import { h } from './ui/dom.js';
+import { renderDetailCard } from './ui/DetailCard.js';
 import { toast } from './ui/Toast.js';
 import { enhanceToggle } from './ui/Toggle.js';
 import { enhanceIconButton } from './ui/IconButton.js';
@@ -243,48 +245,68 @@ export function hideNodeInfo() {
   if (dot) dot.classList.remove('on');
 }
 
-// "Filter (n)" action shown inside the detail card's action row (alongside the
-// A/B buttons). The card is a full-screen overlay (z-index 620) that covers the
-// analysis-panel sub-row, so the Filter action must live inside the card itself —
-// injecting it into #analysis-subrow-left (as older builds did) left it permanently
-// hidden behind the card.
-function filterBtnHTML(actions, filterLabel, filterActive) {
-  const fn = actions && (actions.onFocus || actions.onIsolate);
-  if (!fn) return '';
-  return `<button type="button" class="at-node-btn at-focus${filterActive ? ' on' : ''}" title="Filter / 篩選">${esc(filterLabel)}</button>`;
-}
-function bindFilterBtn(infoCard, actions) {
-  const fn = actions && (actions.onFocus || actions.onIsolate);
-  const btn = infoCard.querySelector('.at-node-btn.at-focus');
-  if (!fn || !btn) return;
-  btn.addEventListener('click', () => {
-    fn();
-    if (actions.filterActive) btn.classList.toggle('on', !!actions.filterActive());
-  });
+// ------------------------------------------------------------
+// Shared detail-card building blocks. The sheet structure itself
+// (head / scroll / metrics / context / sections / actions) lives in
+// ui/DetailCard.js — these helpers only build the graph-specific
+// link spans and action wiring.
+// ------------------------------------------------------------
+
+const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg>';
+
+function linkIcon() {
+  return h('span', { html: LINK_ICON, 'aria-hidden': 'true' });
 }
 
-// ------------------------------------------------------------
-// Node/edge detail head language toggle.
-// The detail sheet renders bilingual content from `state.analysisUiLang`
-// (shared with the analysis panel). A small EN/中 toggle in the head makes it
-// switchable in place; the head is laid out as two rows to fit it.
-// ------------------------------------------------------------
-function headLangToggle() {
-  const cur = state.analysisUiLang === 'zh-TW' ? 'zh-TW' : 'en-US';
-  return `<div class="at-node-head-langs" role="group" aria-label="Language / 語言">
-    <button type="button" data-nlang="en-US" class="${cur === 'en-US' ? 'active' : ''}" title="English (US)">EN</button>
-    <button type="button" data-nlang="zh-TW" class="${cur === 'zh-TW' ? 'active' : ''}" title="繁體中文（台灣）">中</button>
-  </div>`;
+// Wiki-note span: opens the shared entity modal on click/Enter (delegated
+// listeners on #at-node-detail), with a hover tooltip.
+function noteLink(label, nid, href) {
+  return h('span', {
+    class: 'at-node-link at-node-note-link',
+    dataset: { wiki: label, nid, gh: href },
+    role: 'button', tabindex: '0',
+  }, label, ' ', linkIcon());
 }
 
-// Wire the head toggle buttons (recreated on every render) and sync their
-// active state to the shared analysis-panel language.
-function bindHeadLangToggle() {
-  if (!infoCard) return;
-  infoCard.querySelectorAll('.at-node-head [data-nlang]').forEach((b) => {
-    b.classList.toggle('active', b.dataset.nlang === state.analysisUiLang);
-    b.addEventListener('click', () => setNodeLang(b.dataset.nlang));
-  });
+function ghLink(text, href) {
+  return h('a', { href, target: '_blank', rel: 'noopener', class: 'at-node-link' },
+    text, ' ', linkIcon());
+}
+
+function neighborSpan(nid, color, ...children) {
+  return h('span', {
+    class: 'neighbor-link',
+    style: `border-left-color:${color}`,
+    dataset: { nid },
+  }, ...children);
+}
+
+// Bilingual display name: "Label / 中文" when a real translation exists.
+function localizedName(label) {
+  const zh = TRANSLATIONS[label] || '';
+  return zh && zh !== label ? `${label} / ${zh}` : label;
+}
+
+// Map the analysis.js action callbacks onto DetailCard's action props.
+function cardActions(actions) {
+  if (!actions) return null;
+  const filterWord = state.analysisUiLang === 'zh-TW' ? '篩選' : 'Filter';
+  const filterFn = actions.onFocus || actions.onIsolate;
+  return {
+    filter: filterFn ? {
+      label: actions.filterCount != null ? `${filterWord} (${actions.filterCount})` : filterWord,
+      active: !!(actions.filterActive && actions.filterActive()),
+      onClick: filterFn,
+    } : null,
+    sets: {
+      a: actions.onAddA ? { inSet: () => !!(actions.isInA && actions.isInA()), onToggle: actions.onAddA } : null,
+      b: actions.onAddB ? { inSet: () => !!(actions.isInB && actions.isInB()), onToggle: actions.onAddB } : null,
+    },
+  };
+}
+
+function detailLangProps() {
+  return { value: state.analysisUiLang, onChange: setNodeLang };
 }
 
 // Apply a language chosen in the detail head: persist + broadcast the shared
@@ -303,20 +325,9 @@ function setNodeLang(lang) {
   }
 }
 
-const LINK_ICON = '<svg width="12" height="12" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 1H9V7M9 1L1 9"/></svg>';
-
-// Context / evidence text inside a card that matches the metrics-card look.
-// `footer` (optional) is appended inside the card — the node view uses it to
-// fold the Source (edge) document link into the same card.
-function contextCard(text, max = 2800, footer = '') {
-  if (!text) return footer ? `<div class="field" style="margin-top:8px">${footer}</div>` : '';
-  return `<div class="wiki-context-card"><span class="info-muted">Context</span><div class="wiki-context-text">${esc(text.slice(0, max))}${text.length > max ? '…' : ''}</div>${footer}</div>`;
-}
-
-// Render the merged node info card: identity + wiki/source links + context +
-// topology metrics + clickable connections. `actions` (optional) adds the
-// Graph-mode Focus / Set A / Set B buttons via callbacks supplied by analysis.js.
-// ---- Back-navigation history for the node/edge detail sheet ----
+// Apply a language chosen in the detail head: persist + broadcast the shared
+// language (which re-renders the analysis + notes panels), then re-render the
+// current detail card in place.
 // Records each node/edge card the user views so that clicking through
 // Connections (or selecting other nodes/edges) can be undone with Back.
 const DETAIL_HISTORY_MAX = 50;
@@ -370,12 +381,9 @@ function renderNodeInfo(nodeId, actions) {
   const neighborItems = neighbors.map(({ target, edge }) => {
     const nb = nodeMap.get(target);
     const color = nb ? nb.color.background : '#555';
-    const label = edge.label ? ` — ${esc(edge.label)}` : '';
-    const nbLabel = nb ? nb.label : target;
-    const nbZhTW = TRANSLATIONS[nbLabel] || '';
-    const nbDisplayName = nbZhTW && nbZhTW !== nbLabel ? `${nbLabel} / ${nbZhTW}` : nbLabel;
-    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(target)}">${esc(nbDisplayName)}${label}</span>`;
-  }).join('');
+    const nbName = localizedName(nb ? nb.label : target);
+    return neighborSpan(target, color, nbName, edge.label ? ` — ${edge.label}` : '');
+  });
 
   // Context text: surface the zh-TW translation when the analysis panel is in
   // zh-TW and the node carries a real translation; otherwise the canonical
@@ -385,97 +393,51 @@ function renderNodeInfo(nodeId, actions) {
     ? (n.description_zh_TW || descriptionMap.get(nodeId))
     : descriptionMap.get(nodeId);
 
-  const zhTWName = TRANSLATIONS[n.label] || '';
-  const displayName = zhTWName && zhTWName !== n.label ? `${n.label} / ${zhTWName}` : n.label;
-
-  const zhTWCommunity = TRANSLATIONS[n.community_name] || '';
-  const displayCommunity = zhTWCommunity && zhTWCommunity !== n.community_name ? `${n.community_name} / ${zhTWCommunity}` : n.community_name;
+  const displayCommunity = localizedName(n.community_name);
   const commColor = LEGEND.find(c => c.cid === n.community);
 
   // Biological role badges (from the auto-role classifier baked into
   // nodes.json by scripts/triples/rebuild.py). Periphery is omitted
   // from display — at ~74% of nodes it carries no signal.
   const roles = (Array.isArray(n.roles) ? n.roles : []).filter(r => r && r !== 'Periphery');
-  const rolesHTML = roles.length
-    ? roles.map(r => `<span class="role-badge" data-role="${esc(r)}">${esc(r)}</span>`).join(' ')
-    : '';
 
   // Source (node): deep link to the wiki note when one exists for the label
   // (reconstructed from the manifest), else the triple-source file link. The
   // note renders as a tooltip span (not an outbound link) — the GitHub link
   // moves into the shared entity modal opened on click/hover.
   const noteHref = noteUrl(n.label) || (n.source_file ? githubSourceUrl(n.source_file) : '');
-  const wikiLink = noteHref
-    ? `<span class="at-node-link at-node-note-link" data-wiki="${esc(n.label)}" data-nid="${esc(n.id)}" data-gh="${esc(noteHref)}" role="button" tabindex="0">${esc(n.label)} ${LINK_ICON}</span>`
-    : '—';
 
-  const edgeSourceLink = n.source_file
-    ? `<a href="${esc(githubSourceUrl(n.source_file))}" target="_blank" rel="noopener" class="at-node-link">${esc(n.source_file.split('/').pop())} ${LINK_ICON}</a>`
-    : '-';
+  const edgeSourceField = n.source_file
+    ? h('div', { class: 'field node-edge-source' },
+        h('span', { class: 'info-muted' }, 'Source (edge):'),
+        ghLink(n.source_file.split('/').pop(), githubSourceUrl(n.source_file)))
+    : null;
 
-  const edgeSourceField = `<div class="field node-edge-source"><span class="info-muted">Source (edge):</span> ${edgeSourceLink}</div>`;
-  const wikiDesc = contextCard(description, 2800, edgeSourceField);
-
-  const inA = !!(actions && actions.isInA && actions.isInA());
-  const inB = !!(actions && actions.isInB && actions.isInB());
-  const filterWord = state.analysisUiLang === 'zh-TW' ? '篩選' : 'Filter';
-  const filterLabel = actions && actions.filterCount != null ? `${filterWord} (${actions.filterCount})` : filterWord;
-  const filterActive = !!(actions && actions.filterActive && actions.filterActive());
-  const actionsHTML = actions ? `
-    <div class="at-node-actions">
-      ${filterBtnHTML(actions, filterLabel, filterActive)}
-      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
-      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
-    </div>` : '';
-
-  const hasBack = detailHistory.length > 0;
-  const backBtn = hasBack ? '<button type="button" class="at-node-back" aria-label="Back" title="Back">&larr;</button>' : '';
-
-  infoCard.innerHTML = `
-    <div class="at-node-head">
-      <div class="at-node-head-top">
-        ${backBtn}
-        <span class="at-node-title">${esc(displayName)} <span class="node-type">${esc(n.file_type || 'concept')}</span></span>
-        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
-      </div>
-      <div class="at-node-head-divider"></div>
-      ${headLangToggle()}
-    </div>
-    <div class="at-node-scroll">
-      <div class="at-node-metrics">
-        ${commColor ? `<div class="at-kv"><span class="key"><span class="sw" style="background:${esc(commColor.color)}"></span>Community</span><span class="val">${esc(displayCommunity)}</span></div>` : ''}
-        <div class="at-kv"><span class="key">Degree</span><span class="val">${esc(String(n.degree))}</span></div>
-        <div class="at-kv"><span class="key">PageRank</span><span class="val">${esc((n.pagerank || 0).toFixed(5))}</span></div>
-        <div class="at-kv"><span class="key">Betweenness</span><span class="val">${esc((n.betweenness || 0).toFixed(4))}</span></div>
-        <div class="at-kv"><span class="key">Clustering</span><span class="val">${esc((n.clustering || 0).toFixed(3))}</span></div>
-        <div class="at-kv"><span class="key">k-core</span><span class="val">${esc(String(n.k_core || 0))}</span></div>
-        ${rolesHTML ? `<div class="at-kv at-kv-roles"><span class="key">Roles</span><span class="val">${rolesHTML}</span></div>` : ''}
-      </div>
-      <div class="field node-source-row"><span class="info-muted">Source (node):</span> ${wikiLink}</div>
-      ${wikiDesc}
-      ${neighbors.length ? `<div class="field info-connections">Connections (${neighbors.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
-    </div>
-    <div class="at-node-head-actions-row">
-      ${actionsHTML}
-    </div>
-  `;
-
-  infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
-  const backEl = infoCard.querySelector('.at-node-back');
-  if (backEl) backEl.addEventListener('click', goBackDetail);
-  if (actions) bindFilterBtn(infoCard, actions);
-  if (actions && (actions.onAddA || actions.onAddB)) {
-    const btnA = infoCard.querySelector('.at-add[data-set="a"]');
-    const btnB = infoCard.querySelector('.at-add[data-set="b"]');
-    const sync = () => {
-      if (btnA && actions.isInA) btnA.classList.toggle('on', actions.isInA());
-      if (btnB && actions.isInB) btnB.classList.toggle('on', actions.isInB());
-    };
-    if (actions.onAddA && btnA) btnA.addEventListener('click', () => { actions.onAddA(); sync(); });
-    if (actions.onAddB && btnB) btnB.addEventListener('click', () => { actions.onAddB(); sync(); });
-  }
-  bindHeadLangToggle();
-  infoCard.hidden = false;
+  renderDetailCard(infoCard, {
+    title: localizedName(n.label),
+    badge: n.file_type || 'concept',
+    onClose: hideNodeInfo,
+    onBack: detailHistory.length ? goBackDetail : null,
+    lang: detailLangProps(),
+    metrics: [
+      commColor && { key: 'Community', value: displayCommunity, swatch: commColor.color },
+      { key: 'Degree', value: String(n.degree) },
+      { key: 'PageRank', value: (n.pagerank || 0).toFixed(5) },
+      { key: 'Betweenness', value: (n.betweenness || 0).toFixed(4) },
+      { key: 'Clustering', value: (n.clustering || 0).toFixed(3) },
+      { key: 'k-core', value: String(n.k_core || 0) },
+      roles.length && { key: 'Roles', rowClass: 'at-kv-roles',
+        value: roles.map(r => h('span', { class: 'role-badge', dataset: { role: r } }, r)) },
+    ].filter(Boolean),
+    rows: [h('div', { class: 'field node-source-row' },
+      h('span', { class: 'info-muted' }, 'Source (node):'),
+      noteHref ? noteLink(n.label, n.id, noteHref) : '—')],
+    context: { text: description, max: 2800, footer: edgeSourceField },
+    sections: neighbors.length
+      ? [{ heading: `Connections (${neighbors.length})`, items: neighborItems }]
+      : [],
+    actions: cardActions(actions),
+  });
 }
 
 // Relation card for a selected edge (replaces the old sidebar edge info).
@@ -494,12 +456,8 @@ function renderEdgeInfo(edge) {
   routeCardRerender = null;
   const fromNode = nodeMap.get(edge.from);
   const toNode = nodeMap.get(edge.to);
-  const fromLabel = fromNode ? fromNode.label : edge.from;
-  const toLabel = toNode ? toNode.label : edge.to;
-  const fromZhTW = TRANSLATIONS[fromLabel] || '';
-  const toZhTW = TRANSLATIONS[toLabel] || '';
-  const fromDisplay = fromZhTW && fromZhTW !== fromLabel ? `${fromLabel} / ${fromZhTW}` : fromLabel;
-  const toDisplay = toZhTW && toZhTW !== toLabel ? `${toLabel} / ${toZhTW}` : toLabel;
+  const fromDisplay = localizedName(fromNode ? fromNode.label : edge.from);
+  const toDisplay = localizedName(toNode ? toNode.label : edge.to);
   const relationLabel = edge.label || '';
   const confidence = edge.confidence || '';
   // Localize the relationship predicate for the zh UI (display only — the
@@ -512,34 +470,19 @@ function renderEdgeInfo(edge) {
     ? (edge.context_zh_TW || edge.context || '')
     : (edge.context || edge.context_zh_TW || '');
 
-  const hasBack = detailHistory.length > 0;
-  const backBtn = hasBack ? '<button type="button" class="at-node-back" aria-label="Back" title="Back">&larr;</button>' : '';
-
-  infoCard.innerHTML = `
-    <div class="at-node-head">
-      <div class="at-node-head-top">
-        ${backBtn}
-        <span class="at-node-title">Relation / 關聯</span>
-        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
-      </div>
-      <div class="at-node-head-divider"></div>
-      ${headLangToggle()}
-    </div>
-    <div class="at-node-scroll">
-      <div class="field" style="margin-top:6px">
-        <span class="neighbor-link" style="border-left-color:${esc(fromNode ? fromNode.color.background : '#555')}" data-nid="${esc(edge.from)}">${esc(fromDisplay)}</span>
-        <div class="route-arrow">↓ ${esc(displayRelation)} ${confidence ? `<span class="conf-hint">${esc(confidence)}</span>` : ''}</div>
-        <span class="neighbor-link" style="border-left-color:${esc(toNode ? toNode.color.background : '#555')}" data-nid="${esc(edge.to)}">${esc(toDisplay)}</span>
-      </div>
-      ${contextCard(edgeDesc, 1200)}
-    </div>
-  `;
-
-  infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
-  const backEl = infoCard.querySelector('.at-node-back');
-  if (backEl) backEl.addEventListener('click', goBackDetail);
-  bindHeadLangToggle();
-  infoCard.hidden = false;
+  renderDetailCard(infoCard, {
+    title: 'Relation / 關聯',
+    onClose: hideNodeInfo,
+    onBack: detailHistory.length ? goBackDetail : null,
+    lang: detailLangProps(),
+    rows: [h('div', { class: 'field', style: 'margin-top:6px' },
+      neighborSpan(edge.from, fromNode ? fromNode.color.background : '#555', fromDisplay),
+      h('div', { class: 'route-arrow' },
+        `↓ ${displayRelation}`,
+        confidence ? h('span', { class: 'conf-hint' }, confidence) : null),
+      neighborSpan(edge.to, toNode ? toNode.color.background : '#555', toDisplay))],
+    context: { text: edgeDesc, max: 1200 },
+  });
 }
 
 // Community card: rendered into the same slide-up detail sheet when clicking a
@@ -568,9 +511,6 @@ function renderCommunityInfo(cid, actions) {
     .sort((a, b) => (b.degree || 0) - (a.degree || 0));
   const hub = RAW_NODES.find(n => n.label === c.label);
 
-  const zhTWName = TRANSLATIONS[c.label] || '';
-  const displayName = zhTWName && zhTWName !== c.label ? `${c.label} / ${zhTWName}` : c.label;
-
   // Representative description: fall back to the top-degree member when the hub
   // node has no description. Mirror the node sheet's zh-TW handling.
   const descNode = (hub && hub.description) ? hub : members[0];
@@ -580,74 +520,35 @@ function renderCommunityInfo(cid, actions) {
     : '';
 
   const hubNoteHref = hub ? (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')) : '';
-  const wikiLink = hubNoteHref
-    ? `<span class="at-node-link at-node-note-link" data-wiki="${esc(hub.label)}" data-nid="${esc(hub.id)}" data-gh="${esc(hubNoteHref)}" role="button" tabindex="0">${esc(hub.label)} ${LINK_ICON}</span>`
-    : '—';
 
-  const memberLinks = members.slice(0, 12).map(n => {
-    const nbZhTW = TRANSLATIONS[n.label] || '';
-    const nbDisplay = nbZhTW && nbZhTW !== n.label ? `${n.label} / ${nbZhTW}` : n.label;
+  const memberItems = members.slice(0, 12).map(n => {
     const color = (n.color && n.color.background) || '#555';
-    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(n.id)}">${esc(nbDisplay)} <span class="at-comm-count">${n.degree || 0}</span></span>`;
-  }).join('');
+    return neighborSpan(n.id, color, localizedName(n.label), ' ',
+      h('span', { class: 'at-comm-count' }, String(n.degree || 0)));
+  });
 
-  const inA = !!(actions && actions.isInA && actions.isInA());
-  const inB = !!(actions && actions.isInB && actions.isInB());
-  const filterWord = state.analysisUiLang === 'zh-TW' ? '篩選' : 'Filter';
-  const filterLabel = actions && actions.filterCount != null ? `${filterWord} (${actions.filterCount})` : filterWord;
-  const filterActive = !!(actions && actions.filterActive && actions.filterActive());
-  const actionsHTML = actions ? `
-    <div class="at-node-actions">
-      ${filterBtnHTML(actions, filterLabel, filterActive)}
-      ${actions.onAddA ? `<button type="button" class="at-node-btn at-add${inA ? ' on' : ''}" data-set="a" title="Add to Set A / 加入集合 A">A</button>` : ''}
-      ${actions.onAddB ? `<button type="button" class="at-node-btn at-add${inB ? ' on' : ''}" data-set="b" title="Add to Set B / 加入集合 B">B</button>` : ''}
-    </div>` : '';
-
-  const hasBack = detailHistory.length > 0;
-  const backBtn = hasBack ? '<button type="button" class="at-node-back" aria-label="Back" title="Back">&larr;</button>' : '';
-
-  infoCard.innerHTML = `
-    <div class="at-node-head">
-      <div class="at-node-head-top">
-        ${backBtn}
-        <span class="at-node-title">${esc(displayName)} <span class="node-type" style="color:${esc(c.color)}">community</span></span>
-        <button type="button" class="at-node-close" aria-label="Close">&times;</button>
-      </div>
-      <div class="at-node-head-divider"></div>
-      ${headLangToggle()}
-    </div>
-    <div class="at-node-scroll">
-      <div class="at-node-metrics">
-        <div class="at-kv"><span class="key"><span class="sw" style="background:${esc(c.color)}"></span>Community</span><span class="val">#${c.cid}</span></div>
-        <div class="at-kv"><span class="key">Nodes</span><span class="val">${members.length}</span></div>
-        <div class="at-kv"><span class="key">Size</span><span class="val">${c.count || members.length}</span></div>
-        <div class="at-kv"><span class="key">Hub</span><span class="val">${esc(hub ? hub.label : c.label)}</span></div>
-      </div>
-      <div class="field node-source-row"><span class="info-muted">Source:</span> ${wikiLink}</div>
-      ${contextCard(description)}
-      ${memberLinks ? `<div class="field info-connections">Top members (${members.length})</div><div id="neighbors-list">${memberLinks}</div>` : ''}
-    </div>
-    <div class="at-node-head-actions-row">
-      ${actionsHTML}
-    </div>
-  `;
-
-  infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
-  const backEl = infoCard.querySelector('.at-node-back');
-  if (backEl) backEl.addEventListener('click', goBackDetail);
-  if (actions) bindFilterBtn(infoCard, actions);
-  if (actions && (actions.onAddA || actions.onAddB)) {
-    const btnA = infoCard.querySelector('.at-node-actions .at-add[data-set="a"]');
-    const btnB = infoCard.querySelector('.at-node-actions .at-add[data-set="b"]');
-    const sync = () => {
-      if (btnA && actions.isInA) btnA.classList.toggle('on', actions.isInA());
-      if (btnB && actions.isInB) btnB.classList.toggle('on', actions.isInB());
-    };
-    if (actions.onAddA && btnA) btnA.addEventListener('click', () => { actions.onAddA(); sync(); });
-    if (actions.onAddB && btnB) btnB.addEventListener('click', () => { actions.onAddB(); sync(); });
-  }
-  bindHeadLangToggle();
-  infoCard.hidden = false;
+  renderDetailCard(infoCard, {
+    title: localizedName(c.label),
+    badge: 'community',
+    badgeColor: c.color,
+    onClose: hideNodeInfo,
+    onBack: detailHistory.length ? goBackDetail : null,
+    lang: detailLangProps(),
+    metrics: [
+      { key: 'Community', value: `#${c.cid}`, swatch: c.color },
+      { key: 'Nodes', value: String(members.length) },
+      { key: 'Size', value: String(c.count || members.length) },
+      { key: 'Hub', value: hub ? hub.label : c.label },
+    ],
+    rows: [h('div', { class: 'field node-source-row' },
+      h('span', { class: 'info-muted' }, 'Source:'),
+      hubNoteHref ? noteLink(hub.label, hub.id, hubNoteHref) : '—')],
+    context: { text: description },
+    sections: memberItems.length
+      ? [{ heading: `Top members (${members.length})`, items: memberItems }]
+      : [],
+    actions: cardActions(actions),
+  });
 }
 document.addEventListener('click', e => {
   const el = e.target.closest('.neighbor-link');
@@ -849,30 +750,25 @@ export function activateRoute(trace, routeIdx) {
   // Show route mechanism in the analysis-panel info card
   if (state.analysisOpen && infoCard) {
     const renderRouteCard = () => {
-      const pathHtml = route.path.map((id, i) => {
+      const pathItems = route.path.flatMap((id, i) => {
         const n = nodeMap.get(id);
         const label = n ? n.label : id;
         const color = n ? n.color.background : '#555';
-        const arrow = i < route.path.length - 1 ? `<div class="route-arrow">↓</div>` : '';
-        return `<span class="neighbor-link" style="border-left-color:${esc(color)}" data-nid="${esc(id)}">${esc(label)}</span>${arrow}`;
-      }).join('');
-      infoCard.innerHTML = `
-        <div class="at-node-head">
-          <div class="at-node-head-top">
-            <span class="at-node-title">${esc(route.name)} <span class="route-meta">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span></span>
-            <button type="button" class="at-node-close" aria-label="Close">&times;</button>
-          </div>
-          <div class="at-node-head-divider"></div>
-          ${headLangToggle()}
-        </div>
-        <div class="at-node-scroll">
-          <div class="route-path">${pathHtml}</div>
-          <div class="route-mechanism">${esc(route.mechanism)}</div>
-        </div>
-      `;
-      infoCard.querySelector('.at-node-close').addEventListener('click', hideNodeInfo);
-      bindHeadLangToggle();
-      infoCard.hidden = false;
+        const items = [neighborSpan(id, color, label)];
+        if (i < route.path.length - 1) items.push(h('div', { class: 'route-arrow' }, '↓'));
+        return items;
+      });
+      renderDetailCard(infoCard, {
+        title: route.name,
+        badge: `${route.hops} hop${route.hops !== 1 ? 's' : ''}`,
+        badgeClass: 'route-meta',
+        onClose: hideNodeInfo,
+        lang: detailLangProps(),
+        rows: [h('div', { class: 'route-path' }, pathItems)],
+        context: route.mechanism
+          ? { text: route.mechanism, max: Infinity, className: 'route-mechanism' }
+          : null,
+      });
     };
     routeCardRerender = renderRouteCard;
     renderRouteCard();

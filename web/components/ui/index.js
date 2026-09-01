@@ -14,5 +14,6 @@ export { createAsyncState } from './AsyncState.js';
 export { createIconButton, enhanceIconButton } from './IconButton.js';
 export { createToggle, enhanceToggle } from './Toggle.js';
 export { createSegmented, enhanceSegmented } from './Segmented.js';
-export { enhanceSlider, createSlider } from './Slider.js';
+export { createSlider, enhanceSlider } from './Slider.js';
 export { enhanceLangToggle } from './LangToggle.js';
+export { renderDetailCard } from './DetailCard.js';
