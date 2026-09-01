@@ -60,3 +60,8 @@ page-specific styles/scripts stay inline in each page.
    (`var C = {...}`) may hardcode light hexes — add a remap selector to
    `dark.css` if you introduce a new one. Prefer `"var(--ink)"`
    / `"var(--sheet)"` fills where possible so dark mode works natively.
+
+The graph app applies the same rule set via `web/public/tokens.css`
+(geometry + control tokens; header comment there is the canonical contract).
+This theme's convention #2 and the graph-app token rule are one shared
+standard — don't fork them.

@@ -17,7 +17,7 @@ viewer, a prompt backend, and graph-build tooling.
 | `scripts/`         | Domain-packaged pipeline: `lib/` shared helpers, `triples/` + `wiki/` + `combined/` graph builds, `analysis/`, `sync/` (Supabase), `vault/`, `tools/`. Run via `python -m scripts <command>` (see §8 and `scripts/README.md`). |
 | `graphify-out/`    | Triples-graph artifacts (`graph.json`, `GRAPH_REPORT.md`, `graph.html`).                                                              |
 | `wiki-out/`        | Wiki-graph artifacts (`graph.json`, diff/orphan/link-prediction reports).                                                              |
-| `web/`             | Vite + Three.js graph site. Static data in `web/public/data/`; built with `npm run build`, deployed with `npm run deploy` (wrangler). |
+| `web/`             | Vite + Three.js graph site. Static data in `web/public/data/`; built with `npm run build`, deployed with `npm run deploy` (wrangler). UI styling contract: `web/public/tokens.css` (geometry/control tokens + hard rules in its header) — components use `--r-*`/palette vars, never raw px radii or theme-dependent hexes; `three-graph-light.css` only remaps token values. |
 | `api/`             | FastAPI adapter (SSE prompt bridge to headless `opencode serve`, networkx graph ops, user-built graphs `/v1/graphs`, pluggable research adapters + triple review queue `/v1/research`; mirrors the base graph layer from Supabase via `api/db.py`).                 |
 | `deploy/`          | `dev.sh` (local: opencode serve + API) and `install.sh` (server bootstrap, systemd units).                                            |
 | `.opencode/agent/` | `wiki-prompt.md` (read-only public agent), `wiki-util.md`.                                                                            |

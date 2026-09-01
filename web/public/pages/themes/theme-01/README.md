@@ -33,3 +33,11 @@ The original wiki-page theme, coupled to the graph app chrome.
 
 Pages using this theme live directly in `web/pages/` and reference assets
 as `themes/theme-01/…`.
+
+## Shared token rule (graph app)
+
+The graph app (`web/index.html` + `web/public/three-graph*.css`) follows the
+same convention as this theme: colors via palette vars, geometry via the
+tokens in `web/public/tokens.css` (`--r-sm/md/lg/pill`, control metrics,
+focus ring). The full contract is documented in the header comment of
+`tokens.css`. Keep the two in sync when adding tokens.

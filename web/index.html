@@ -6,6 +6,7 @@
 <meta name="description" content="Knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 graph agent">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
+<link rel="stylesheet" href="/tokens.css">
 <link rel="stylesheet" href="/three-graph.css">
 <link rel="stylesheet" href="/three-graph-light.css" id="theme-light">
 <script>
@@ -460,29 +461,8 @@
 
 <!-- Admin panel — DB-backed star flags for articles/tasks/wiki notes/
      documents/image notes. Toolbar button is revealed by components/admin.js
-     once a session exists; non-admins get 403 from the API on toggle. -->
-<style>
-  #admin-panel { position: fixed; z-index: 60; inset: auto 16px 16px auto; width: min(560px, calc(100vw - 32px)); height: min(72vh, 780px); background: var(--panel-bg, #16181d); color: var(--panel-fg, #e8e6e0); border: 1px solid var(--rule, #2c2f36); border-radius: 14px; display: none; flex-direction: column; overflow: hidden; box-shadow: 0 18px 60px rgba(0,0,0,.45); }
-  #admin-panel.open { display: flex; }
-  #admin-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid var(--rule, #2c2f36); }
-  #admin-tabs { display: flex; gap: 4px; padding: 8px 10px 0; flex-wrap: wrap; }
-  #admin-tabs button { background: none; border: 1px solid transparent; color: inherit; opacity: .65; padding: 4px 10px; border-radius: 999px; font: inherit; font-size: 12px; cursor: pointer; }
-  #admin-tabs button.active { opacity: 1; border-color: var(--rule, #2c2f36); background: var(--panel-bg-2, #1e2128); }
-  #admin-toolbar { display: flex; gap: 8px; padding: 8px 14px; align-items: center; }
-  #admin-search { flex: 1; background: var(--panel-bg-2, #1e2128); border: 1px solid var(--rule, #2c2f36); color: inherit; border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 13px; }
-  #admin-status { font-size: 11px; opacity: .6; white-space: nowrap; }
-  #admin-list { flex: 1; overflow-y: auto; padding: 4px 8px 12px; }
-  .admin-row { display: flex; align-items: center; gap: 10px; padding: 7px 8px; border-radius: 8px; }
-  .admin-row:hover { background: var(--panel-bg-2, #1e2128); }
-  .admin-row .admin-meta { font-size: 11px; opacity: .55; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .admin-row .admin-title { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .admin-row .admin-main { flex: 1; min-width: 0; }
-  .admin-star, .admin-active { background: none; border: none; cursor: pointer; font-size: 17px; line-height: 1; color: var(--rule, #555a64); padding: 2px 4px; flex: none; display: inline-flex; align-items: center; }
-  .admin-star.on { color: #d4a017; }
-  .admin-active.on { color: #7ee2a8; }
-  .admin-row.inactive .admin-title, .admin-row.inactive .admin-meta { opacity: .45; }
-  #admin-empty, #admin-error { padding: 18px 16px; font-size: 13px; opacity: .7; }
-</style>
+     once a session exists; non-admins get 403 from the API on toggle.
+     Styles live in three-graph.css (token-based, Phase 0). -->
 <div id="admin-panel">
   <div id="admin-header">
     <div class="panel-header-left">
@@ -558,66 +538,26 @@
   </div>
 </div>
 
-<style>
-  /* Auth chip — circular account button pinned to the top-right corner,
-     above the controls rail (which is shifted down to make room). */
-  #auth-chip { position: fixed; top: 16px; right: 16px; z-index: 10; width: 40px; height: 40px; }
-  #auth-chip[hidden] { display: none; }
-  #auth-user { position: relative; display: block; width: 100%; height: 100%; }
-  #auth-user[hidden], #auth-avatar-img[hidden], #auth-avatar-fallback[hidden], #auth-signin-btn[hidden] { display: none; }
-  #auth-signin-btn, #auth-avatar-btn {
-    display: flex; align-items: center; justify-content: center;
-    width: 40px; height: 40px; padding: 9px; border-radius: 50%;
-    background: var(--surface, #12161f); border: 1px solid var(--line-strong, rgba(255,255,255,0.16));
-    color: var(--ink-4, #9aa3b2); cursor: pointer; transition: all 0.15s;
-  }
-  #auth-signin-btn:hover, #auth-avatar-btn:hover { color: var(--ink-hi, #e8eaf0); border-color: var(--accent, #4f7cff); }
-  #auth-signin-btn .btn-icon { display: flex; width: 100%; height: 100%; }
-  #auth-signin-btn .btn-icon svg { width: 100%; height: 100%; display: block; }
-  #auth-avatar-btn { padding: 2px; }
-  #auth-avatar-btn img, #auth-avatar-fallback { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: flex; }
-  #auth-avatar-fallback { align-items: center; justify-content: center;
-    background: var(--accent, #4f7cff); color: #fff; font-size: 16px; font-weight: 600; }
-  #auth-user-menu { position: absolute; right: 0; top: calc(100% + 8px); z-index: 10001;
-    display: flex; flex-direction: column; gap: 6px; min-width: 200px; padding: 12px;
-    background: var(--surface, #12161f); border: 1px solid var(--line-strong, rgba(255,255,255,0.12));
-    border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,0.4); }
-  #auth-user-menu[hidden] { display: none; }
-  #auth-user-name { font-size: 13px; font-weight: 600; color: var(--ink-hi, #e8eaf0); padding: 0 2px; }
-  #auth-user-email { font-size: 12px; color: var(--ink, #9aa3b2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 2px; }
-  #auth-signout { text-align: left; font-size: 13px; background: transparent; border: 1px solid var(--line-strong, rgba(255,255,255,0.12)); border-radius: 8px; padding: 6px 10px; color: var(--ink-hi, #e8eaf0); cursor: pointer; }
-  #auth-signout:hover { border-color: #ff7a7a; color: #ff7a7a; }
-</style>
+<!-- Auth chip + auth gate styles live in three-graph.css (token-based, Phase 0). -->
 
 <!-- Auth gate — single super admin; shown on demand (Sign in chip or 401), hidden by auth.js once a session exists -->
-<div id="auth-overlay" style="display:none; position:fixed; inset:0; z-index:10000; align-items:center; justify-content:center; background:rgba(8,10,14,0.92); backdrop-filter:blur(6px);">
-  <form id="auth-form" style="width:min(320px,90vw); padding:32px; border-radius:14px; background:#12161f; border:1px solid rgba(255,255,255,0.08); box-shadow:0 12px 40px rgba(0,0,0,0.5); display:flex; flex-direction:column; gap:14px;">
-    <h2 style="margin:0; font-size:1.1rem; color:#e8eaf0; text-align:center;">Sign in / 登入</h2>
-    <button id="auth-google" type="button" disabled title="Setup in progress / 建置中"
-      style="display:flex; align-items:center; justify-content:center; gap:10px; padding:10px 12px; border-radius:8px; border:none; background:#ffffff; color:#1f2430; font-size:0.95rem; font-weight:600; cursor:not-allowed; opacity:0.45;">
+<div id="auth-overlay" style="display:none;">
+  <form id="auth-form">
+    <h2>Sign in / 登入</h2>
+    <button id="auth-google" type="button" disabled title="Setup in progress / 建置中">
       <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
       Continue with Google
     </button>
-    <div style="display:flex; align-items:center; gap:10px; color:#6b7280; font-size:0.8rem;">
-      <span style="flex:1; height:1px; background:rgba(255,255,255,0.1);"></span>
-      or email / 或使用 Email
-      <span style="flex:1; height:1px; background:rgba(255,255,255,0.1);"></span>
-    </div>
-    <input id="auth-email" type="email" placeholder="Email" required autocomplete="username" aria-label="Email"
-      style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); background:#0c0f16; color:#e8eaf0; font-size:0.95rem;">
-    <input id="auth-password" type="password" placeholder="Password" required autocomplete="current-password" aria-label="Password"
-      style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); background:#0c0f16; color:#e8eaf0; font-size:0.95rem;">
-    <div id="auth-error" style="color:#ff7a7a; font-size:0.85rem; min-height:1.2em;"></div>
-    <button type="submit"
-      style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:transparent; color:#e8eaf0; font-size:0.95rem; cursor:pointer;">Sign in with email</button>
-    <button id="auth-forgot" type="button"
-      style="background:none; border:none; color:#6b7280; font-size:0.8rem; text-decoration:underline; cursor:pointer; padding:0;">Forgot password? / 忘記密碼</button>
-    <div id="auth-reset-row" style="display:none; flex-direction:column; gap:10px; padding-top:10px; border-top:1px solid rgba(255,255,255,0.1);">
-      <span style="font-size:0.85rem; color:#9aa3b2;">Set a new password / 設定新密碼</span>
-      <input id="auth-new-password" type="password" placeholder="New password / 新密碼" required autocomplete="new-password" aria-label="New password / 新密碼"
-        style="padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); background:#0c0f16; color:#e8eaf0; font-size:0.95rem;">
-      <button id="auth-reset-btn" type="button"
-        style="padding:10px 12px; border-radius:8px; border:none; background:#4f7cff; color:#fff; font-size:0.95rem; font-weight:600; cursor:pointer;">Update password</button>
+    <div class="auth-divider"><span></span>or email / 或使用 Email<span></span></div>
+    <input id="auth-email" type="email" placeholder="Email" required autocomplete="username" aria-label="Email">
+    <input id="auth-password" type="password" placeholder="Password" required autocomplete="current-password" aria-label="Password">
+    <div id="auth-error" role="alert"></div>
+    <button type="submit" class="auth-submit">Sign in with email</button>
+    <button id="auth-forgot" type="button">Forgot password? / 忘記密碼</button>
+    <div id="auth-reset-row">
+      <span>Set a new password / 設定新密碼</span>
+      <input id="auth-new-password" type="password" placeholder="New password / 新密碼" required autocomplete="new-password" aria-label="New password / 新密碼">
+      <button id="auth-reset-btn" type="button">Update password</button>
     </div>
   </form>
 </div>
