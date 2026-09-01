@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:41:50Z",
+  "generated_at": "2026-08-31T21:48:04Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
@@ -8,8 +8,10 @@
     "shared_nodes": 1562,
     "wiki_only_nodes": 1445,
     "triples_only_nodes": 1091,
-    "triples_edges": 3894,
+    "triples_edges": 4094,
     "wiki_edges": 35150,
+    "triples_edge_pairs": 3894,
+    "wiki_edge_pairs": 35150,
     "wiki_only_edges": 33425,
     "triples_only_edges": 2169
   },
@@ -55,23 +57,23 @@
       "degree": 71
     },
     {
-      "id": "fibroblast",
-      "label": "Fibroblast",
-      "degree": 68
-    },
-    {
       "id": "endothelial_cells",
       "label": "Endothelial Cells",
       "degree": 68
     },
     {
-      "id": "metabolism",
-      "label": "Metabolism",
-      "degree": 66
+      "id": "fibroblast",
+      "label": "Fibroblast",
+      "degree": 68
     },
     {
       "id": "type_i_interferon",
       "label": "Type I Interferon",
+      "degree": 66
+    },
+    {
+      "id": "metabolism",
+      "label": "Metabolism",
       "degree": 66
     },
     {
@@ -95,23 +97,23 @@
       "degree": 60
     },
     {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
-      "degree": 57
-    },
-    {
       "id": "unfolded_protein_response",
       "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
-      "id": "calcium",
-      "label": "Calcium",
-      "degree": 56
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
+      "degree": 57
     },
     {
       "id": "extracellular_matrix",
       "label": "Extracellular Matrix",
+      "degree": 56
+    },
+    {
+      "id": "calcium",
+      "label": "Calcium",
       "degree": 56
     }
   ],
@@ -122,23 +124,23 @@
       "degree": 11
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
       "id": "sirt3_deficiency",
       "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
       "id": "sirt1_and_sirt2",
       "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -152,13 +154,28 @@
       "degree": 3
     },
     {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
       "degree": 3
     },
     {
       "id": "catechol_flavonoid",
       "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     },
     {
@@ -172,23 +189,8 @@
       "degree": 3
     },
     {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
-      "degree": 3
-    },
-    {
-      "id": "sirt2_inhibition",
-      "label": "SIRT2 inhibition",
+      "id": "diabetic_complications",
+      "label": "diabetic complications",
       "degree": 2
     },
     {
@@ -197,23 +199,23 @@
       "degree": 2
     },
     {
-      "id": "dietary_age_restriction",
-      "label": "Dietary AGE Restriction",
+      "id": "cytoplasm",
+      "label": "Cytoplasm",
       "degree": 2
     },
     {
-      "id": "sirtuin_deacetylation_reaction",
-      "label": "Sirtuin deacetylation reaction",
+      "id": "adrenochrome_synthesis",
+      "label": "adrenochrome synthesis",
       "degree": 2
     },
     {
-      "id": "diabetic_complications",
-      "label": "diabetic complications",
+      "id": "mtorc1_to_lysosomes",
+      "label": "mTORC1 to lysosomes",
       "degree": 2
     },
     {
-      "id": "ac2_26",
-      "label": "Ac2-26",
+      "id": "methyl_donor_supplements",
+      "label": "Methyl donor supplements",
       "degree": 2
     }
   ],

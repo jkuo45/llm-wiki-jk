@@ -1,6 +1,6 @@
 # Triples vs Wiki Graph Diff
 
-- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (2653 nodes, 3894 edges)
+- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (2653 nodes, 4094 edges)
 - Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3007 nodes, 35150 edges)
 
 ## Node overlap
@@ -11,8 +11,10 @@
 
 ## Edge overlap
 
-- **Wiki-only edges** (under-extracted triples / curation gaps): 33425
-- **Triples-only edges** (not surfaced as a wikilink): 2169
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 3894 / wiki 35150 — the triples graph carries 4094 links over 3894 pairs (200 parallel-relation links preserved by the MultiDiGraph rebuild).
+
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 33425
+- **Triples-only pairs** (not surfaced as a wikilink): 2169
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
@@ -26,43 +28,43 @@
 | Ubiquitination | 73 |
 | NMN (Nicotinamide Mononucleotide) | 71 |
 | Rheumatoid Arthritis | 71 |
-| Fibroblast | 68 |
 | Endothelial Cells | 68 |
-| Metabolism | 66 |
+| Fibroblast | 68 |
 | Type I Interferon | 66 |
+| Metabolism | 66 |
 | Replicative Senescence | 65 |
 | Epigenetics and aging | 64 |
 | Flavonoid | 61 |
 | Histone Variant | 60 |
-| Citric Acid Cycle | 57 |
 | Unfolded Protein Response | 57 |
-| Calcium | 56 |
+| Citric Acid Cycle | 57 |
 | Extracellular Matrix | 56 |
+| Calcium | 56 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
 | Node | Degree |
 | --- | --- |
 | Adrenochrome formation | 11 |
-| JAK-STAT3 | 4 |
 | SIRT3 deficiency | 4 |
-| Physical Activity | 4 |
+| JAK-STAT3 | 4 |
 | SIRT1 and SIRT2 | 4 |
+| Physical Activity | 4 |
 | SIRT7 depletion | 3 |
 | Streptomyces avermectinius | 3 |
-| Advanced Glycation End Products formation | 3 |
+| PI3K/Akt | 3 |
 | catechol flavonoid | 3 |
+| Advanced Glycation End Products formation | 3 |
+| SIRT6 overexpression | 3 |
+| H3K9 | 3 |
 | Dietary Advanced Glycation End Products | 3 |
 | Dietary AGEs | 3 |
-| H3K9 | 3 |
-| PI3K/Akt | 3 |
-| SIRT6 overexpression | 3 |
-| SIRT2 inhibition | 2 |
-| Reactive Oxygen Species generation | 2 |
-| Dietary AGE Restriction | 2 |
-| Sirtuin deacetylation reaction | 2 |
 | diabetic complications | 2 |
-| Ac2-26 | 2 |
+| Reactive Oxygen Species generation | 2 |
+| Cytoplasm | 2 |
+| adrenochrome synthesis | 2 |
+| mTORC1 to lysosomes | 2 |
+| Methyl donor supplements | 2 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 
