@@ -584,7 +584,7 @@ def main():
             graph_meta = json.load(f)
     except Exception:
         pass
-    build_hash = (graph_meta.get("hash") or "")[:7]
+    build_hash = graph_meta.get("hash") or ""
     build_dt = None
     if graph_meta.get("generated"):
         try:
