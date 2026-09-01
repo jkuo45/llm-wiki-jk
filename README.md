@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1708 | 1,079,456 | 9.59 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 01_SEP_2026 | 34 | 1720 | 1,091,618 | 9.68 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 31_AUG_2026 | 11 | 280 | 245,033 | 2.77 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 01_SEP_2026 | 11 | 280 | 245,033 | 2.77 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.45 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 31_AUG_2026 | 9 | 210 | 203,354 | 1.88 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 01_SEP_2026 | 9 | 210 | 203,354 | 1.88 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.80 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,999 | 0.98 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 01_SEP_2026 | 1 | 94 | 79,001 | 0.98 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 20 | 174 | 314,203 | 3.91 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 01_SEP_2026 | 20 | 174 | 314,203 | 3.91 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 31_AUG_2026 | **125** | **3150** | **2,543,766** | **26.74 MB** |
+| **subtotal** | 01_SEP_2026 | **125** | **3162** | **2,555,930** | **26.83 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -274,8 +274,9 @@ Build: 31_AUG_2026 · hash `d2dcdf5bbf0abb14`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (91 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (92 total)</strong> — click to expand</summary>
 
+- [task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md) [[src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md|wiki]] (01_SEP_2026 12:38 PM PDT)
 - [task_output_parallel_relation_links_impact_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md) [[src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md|wiki]] (31_AUG_2026 10:54 PM PDT)
 - [task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md) [[src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md|wiki]] (31_AUG_2026 09:37 PM PDT)
 - [task_output_hormesis_overlooked_paradigms_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md) [[src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md|wiki]] (30_AUG_2026 11:34 PM PDT)

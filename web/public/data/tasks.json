@@ -1,5 +1,5 @@
 {
-  "generated": "01_SEP_2026 07:43 AM PDT",
+  "generated": "01_SEP_2026 01:18 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,52 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Antioxidant-Enzyme Hormesis and Stress Resistance: The Thioredoxin-System Cluster — Entity Review and Web Verification",
+          "description": "A web-verified review of the vault's antioxidant-enzyme notes (Thioredoxin-1/-2, Glutaredoxin, Thioredoxin reductase, Peroxiredoxin/Sulfiredoxin, CxxC Motif, APE1, Auranofin, Ribonucleotide Reductase plus the RNR/dNTP cluster) integrated with the broader antioxidant-enzyme landscape (catalase/mCAT, MnSOD/SOD2, GPx). Central thesis: across antioxidant enzymes, hormetic stress resistance — not linear antioxidant over-supplementation — is the operative longevity/healthspan principle, and Trx1 is its best-characterized archetype.",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "thioredoxin",
+            "redox",
+            "hormesis",
+            "oxidative-stress",
+            "antioxidant",
+            "sirtuin",
+            "heart-failure",
+            "longevity",
+            "research-synthesis"
+          ],
+          "filename": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+          "path": "tasks/en-US/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "抗氧化酶激素效應與壓力抗性：硫氧還蛋白系統群集 — 實體審查與網路驗證",
+          "description": "針對知識庫中抗氧化酶筆記（硫氧還蛋白-1/-2、Glutaredoxin、硫氧還蛋白還原酶、Peroxiredoxin/Sulfiredoxin、CxxC Motif、APE1、Auranofin、核苷酸還原酶及 RNR/dNTP 群集）整合更廣泛抗氧化酶版圖（catalase/mCAT、MnSOD/SOD2、GPx）的網路驗證綜述。核心論點：在抗氧化酶中，激素效應性壓力抗性——而非線性抗氧化過量補充——才是運作的長壽／健康壽命原則，且 Trx1 是其最佳表徵的原型。",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "thioredoxin",
+            "redox",
+            "hormesis",
+            "oxidative-stress",
+            "antioxidant",
+            "sirtuin",
+            "heart-failure",
+            "longevity",
+            "research-synthesis"
+          ],
+          "filename": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
         }
       }
     },

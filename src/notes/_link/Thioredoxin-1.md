@@ -149,10 +149,11 @@ Documents that mention Thioredoxin-1:
 - [[Glutathione]] — Parallel thiol antioxidant system; Trx1 and GSH cooperate but are genetically independent redox networks.
 - [[Heart Failure]] — Trx1 is decreased in failing hearts and is a candidate target for enhancing cardiac stress resistance.
 - [[SIRT1]] — Both SIRT1 and Trx1 are endogenous stress-resistance/longevity factors; sirtuin models propose that up-regulating factors like Trx1 could be a heart-failure therapeutic strategy.
+- [[Hormesis]] — Trx1's dose- and age-dependent benefit profile (early-life stress resistance and healthspan gains, late-life oncogenic cost of chronic overactivation) is a canonical instance of antioxidant-enzyme hormesis; the Alcendor 2007 framework explicitly invokes the hormesis hypothesis.
 - [[Apoptosis]] — Trx1 inhibits stress-induced apoptosis primarily via ASK1 suppression.
 - [[Methionine sulfoxide reductases]] — Trx1 regenerates these enzymes, which repair oxidized methionine.
 
 ## Linking Summary
 
-- New links added: [[Thioredoxin]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[ASK1]], [[JNK]], [[p38 MAPK]], [[mTOR]], [[NF-κB]], [[HIF-1α]], [[Oxidative Stress]], [[Glutathione]], [[Heart Failure]], [[SIRT1]], [[Apoptosis]], [[Methionine sulfoxide reductases]], [[APE1]], [[Auranofin]]
-- Strong connections to strengthen: [[Thioredoxin-1]] ↔ [[ASK1]], [[Thioredoxin-1]] ↔ [[Thioredoxin reductase]], [[Thioredoxin-1]] ↔ [[Peroxiredoxin]], [[Thioredoxin-1]] ↔ [[Heart Failure]]
+- New links added: [[Thioredoxin]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[ASK1]], [[JNK]], [[p38 MAPK]], [[mTOR]], [[NF-κB]], [[HIF-1α]], [[Oxidative Stress]], [[Glutathione]], [[Heart Failure]], [[SIRT1]], [[Hormesis]], [[Apoptosis]], [[Methionine sulfoxide reductases]], [[APE1]], [[Auranofin]]
+- Strong connections to strengthen: [[Thioredoxin-1]] ↔ [[ASK1]], [[Thioredoxin-1]] ↔ [[Thioredoxin reductase]], [[Thioredoxin-1]] ↔ [[Peroxiredoxin]], [[Thioredoxin-1]] ↔ [[Heart Failure]], [[Thioredoxin-1]] ↔ [[Hormesis]]
