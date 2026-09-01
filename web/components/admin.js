@@ -20,6 +20,7 @@
 import { esc } from './markdown.js';
 import { authHeaders, isSignedIn, onSessionChange, promptSignIn } from './auth.js';
 import { t } from './i18n.js';
+import { skeletonRows } from './ui/Skeleton.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const FLAGS_API = `${API_BASE}/flags`;
@@ -131,6 +132,7 @@ async function ensureLoaded(type) {
   if (loaded.has(type)) { render(); return; }
   const token = ++loadToken;
   statusEl.textContent = 'Loading… / 載入中…';
+  listEl.replaceChildren(skeletonRows(8)); // immediate layout-matched feedback
   try {
     // The flag overlay is shared across tabs; load it alongside the first.
     if (!loaded.size) await loadFlags();

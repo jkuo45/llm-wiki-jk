@@ -923,7 +923,10 @@ export function updateZoomBar() {
   thumb.style.bottom = `calc(${pct}% - 6px)`;
   // Keep the slider's ARIA state in sync with the visual position.
   const track = document.getElementById('zoom-slider-track');
-  if (track) track.setAttribute('aria-valuenow', rounded);
+  if (track) {
+    track.setAttribute('aria-valuenow', rounded);
+    track.setAttribute('aria-valuetext', `Zoom / 縮放 ${rounded}%`);
+  }
 }
 
 // ------------------------------------------------------------

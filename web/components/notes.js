@@ -10,6 +10,7 @@ import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.j
 import { anyModalOpen } from './modal.js';
 import { enhanceLangToggle } from './ui/LangToggle.js';
 import { enhancePanel } from './ui/Panel.js';
+import { skeletonCards } from './ui/Skeleton.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -531,8 +532,8 @@ function renderGallery() {
     return;
   }
   if (loading) {
-    galleryEl.classList.add('centered');
-    galleryEl.innerHTML = `<div class="notes-loading"><span class="spinner"></span><span>${esc(t('galleryLoading'))}</span></div>`;
+    galleryEl.classList.remove('centered');
+    galleryEl.replaceChildren(skeletonCards(6)); // shape-matched placeholders
     emptyEl.hidden = true;
     return;
   }

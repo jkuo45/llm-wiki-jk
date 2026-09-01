@@ -304,7 +304,10 @@
       </div>
     </div>
   </div>
-  <div id="prompt-messages" aria-live="polite"></div>
+  <!-- Screen-reader announcements for chat lifecycle (streamed tokens would
+       spam a live region on the message log itself). -->
+  <div id="chat-live-status" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="prompt-messages"></div>
   <div id="analysis-modes">
     <label id="graphify-toggle" data-i18n-title="graphifyTitle">
       <input type="checkbox" id="graphify-checkbox">

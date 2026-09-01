@@ -39,9 +39,11 @@ export function enhancePanel(panelEl, {
         button.classList.add(openClass);
         button.setAttribute('aria-expanded', 'true');
       }
-      if (focusEl) {
-        try { focusEl.focus({ preventScroll: true }); } catch (err) {}
-      }
+      // Focus management: an explicit focusEl wins (chat → composer);
+      // otherwise move focus into the panel itself (tabindex="-1" region)
+      // so keyboard users aren't left behind on the launcher.
+      const target = focusEl || panelEl;
+      try { target.focus({ preventScroll: true }); } catch (err) {}
       if (onOpen) onOpen();
     },
     close() {
@@ -60,6 +62,7 @@ export function enhancePanel(panelEl, {
 
   // A11y: the panel is a labelled region; the launcher reflects its state.
   panelEl.setAttribute('role', 'region');
+  panelEl.setAttribute('tabindex', '-1');
   if (button) button.setAttribute('aria-expanded', String(api.isOpen()));
 
   return api;

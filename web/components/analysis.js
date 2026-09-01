@@ -315,6 +315,15 @@ function sanitizePromptInput(text) {
   return clean.slice(0, 4000);
 }
 
+// Screen-reader announcement for the chat lifecycle. Streamed tokens are NOT
+// announced (the old aria-live on the message log re-read the whole log on
+// every chunk); only terminal states are.
+function announceChatStatus(text) {
+  const el = document.getElementById('chat-live-status');
+  if (el) el.textContent = text || '';
+}
+const RESPONSE_READY_TEXT = 'Response ready / 回應完成';
+
 function addPromptMessage(text, type) {
   const div = document.createElement('div');
   div.className = `prompt-msg ${type}`;
@@ -785,6 +794,7 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
     if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
     addPromptMessage(t('streamError'), 'error');
     if (typingTimerId) clearInterval(typingTimerId);
+    announceChatStatus(t('streamError') || 'Stream error / 串流錯誤');
     throw e; // re-throw so finally in caller handles cleanup
   }
 
@@ -820,6 +830,7 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
   if (responseMode === 'html') addOpenHtmlButton(div, responseText, clean);
   promptMessages.appendChild(div);
   promptMessages.scrollTop = promptMessages.scrollHeight;
+  announceChatStatus(RESPONSE_READY_TEXT);
 
   // Highlight relevant nodes
   const highlighted = highlightForMessage(clean, { text: responseText, highlight_nodes: serverHighlightNodes, highlight_edges: serverHighlightEdges });
@@ -867,6 +878,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   } catch (e) {
     if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
     addPromptMessage(t('serverError'), 'error');
+    announceChatStatus(t('serverError') || 'Error / 錯誤');
     if (typingTimerId) clearInterval(typingTimerId);
     return;
   }
@@ -888,6 +900,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   if (responseMode === 'html') addOpenHtmlButton(div, textBuf, clean);
   promptMessages.appendChild(div);
   promptMessages.scrollTop = promptMessages.scrollHeight;
+  announceChatStatus(RESPONSE_READY_TEXT);
 
   if (textBuf || highlightNodes.length) {
     const highlighted = highlightForMessage(clean, { text: textBuf, highlight_nodes: highlightNodes, highlight_edges: highlightEdges, primary_node: primaryNode });
