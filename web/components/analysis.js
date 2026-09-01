@@ -1728,17 +1728,30 @@ function wireAnalysisTabs() {
   setTab(tabs[0].dataset.atTab);
 }
 
-// Show the graph build hash + generated datetime in the analysis subrow.
+// Show the graph build hash + generated datetime in the analysis subrow
+// and in the bottom-left footer (wrapped in <code>).
 function renderBuildInfo() {
   const el = document.getElementById('build-info');
-  if (!el) return;
+  const footer = document.getElementById('graph-build-footer');
+  const footerCode = footer ? footer.querySelector('code') : null;
   const { hash, generated } = BUILD_INFO;
-  if (!hash && !generated) { el.textContent = ''; el.hidden = true; return; }
-  el.hidden = false;
-  const parts = [];
-  if (hash) parts.push(`build <code>${esc(hash)}</code>`);
-  if (generated) parts.push(`<code>${esc(generated)}</code>`);
-  el.innerHTML = parts.join(' <span class="build-info-sep">·</span> ');
+  if (!hash && !generated) {
+    if (el) { el.textContent = ''; el.hidden = true; }
+    if (footer) footer.hidden = true;
+    return;
+  }
+  if (el) {
+    el.hidden = false;
+    const parts = [];
+    if (hash) parts.push(`build <code>${esc(hash)}</code>`);
+    if (generated) parts.push(`<code>${esc(generated)}</code>`);
+    el.innerHTML = parts.join(' <span class="build-info-sep">·</span> ');
+  }
+  if (footer && footerCode) {
+    footer.hidden = false;
+    const label = [hash ? `build ${hash}` : '', generated || ''].filter(Boolean).join(' · ');
+    footerCode.textContent = label;
+  }
 }
 
 // ------------------------------------------------------------
