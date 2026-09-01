@@ -137,7 +137,24 @@ scene.add(ambientLight);
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
 directionalLight.position.set(100, 100, 100);
 scene.add(directionalLight);
-const backLight = new THREE.DirectionalLight(0x4E79A7, 0.3);
+export function getAccentHex() {
+  try {
+    const v = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
+    if (v && v.startsWith('#')) {
+      const n = parseInt(v.slice(1), 16);
+      if (!Number.isNaN(n)) return n;
+    }
+  } catch (e) {}
+  return 0x4E79A7;
+}
+export function applyAccentToScene() {
+  const hex = getAccentHex();
+  EDGE_ACCENT = hex;
+  backLight.color.setHex(hex);
+  stickyRingMaterial.color.setHex(hex);
+  requestRender();
+}
+const backLight = new THREE.DirectionalLight(getAccentHex(), 0.3);
 backLight.position.set(-100, -50, -100);
 scene.add(backLight);
 
@@ -250,7 +267,7 @@ RAW_NODES.forEach(n => {
 // draw calls). Per-edge visual state (color + alpha + filter) is stored in
 // typed arrays and pushed to vertex attributes on change.
 // ------------------------------------------------------------
-export const EDGE_ACCENT = 0x4E79A7;
+export let EDGE_ACCENT = getAccentHex();
 export const edgeList = [];            // [{ edge, fromMesh, toMesh }] indexed by segment
 export let edgeSegments = null;        // THREE.LineSegments (raycast target)
 const edgeToIndex = new Map();         // edge object -> segment index
@@ -702,7 +719,7 @@ export function applyForces() {
 // Sticky node visual indicator
 // ------------------------------------------------------------
 const stickyRingGeometry = new THREE.TorusGeometry(1, 0.06, 8, 32);
-const stickyRingMaterial = new THREE.MeshBasicMaterial({ color: 0x4E79A7, transparent: true, opacity: 0.7 });
+const stickyRingMaterial = new THREE.MeshBasicMaterial({ color: getAccentHex(), transparent: true, opacity: 0.7 });
 
 export function addStickyRing(mesh) {
   if (stickyRings.has(mesh.userData.nodeId)) return;

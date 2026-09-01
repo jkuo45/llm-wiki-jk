@@ -1064,6 +1064,11 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #settings-popover select:focus { border-color: var(--accent); }
 #settings-popover .settings-inline { display: flex; align-items: center; gap: 8px; flex: none; }
 #settings-popover input[type="color"] { width: 38px; height: 30px; padding: 2px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface-raised); cursor: pointer; }
+/* Accent presets — swatches + custom colour */
+#settings-popover .accent-presets { gap: 6px; }
+#settings-popover .accent-swatch { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--line-strong); background: var(--sw); cursor: pointer; flex: none; padding: 0; transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s; }
+#settings-popover .accent-swatch:hover { transform: scale(1.08); border-color: var(--ink-4); }
+#settings-popover .accent-swatch.active { border-color: #fff; box-shadow: 0 0 0 2px var(--accent); }
 /* Theme: segmented control (sits above the Display toggles) */
 #settings-popover .segmented { display: flex; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
 #settings-popover .segmented button { flex: 1; background: transparent; border: 0; border-radius: 0; padding: 7px 8px; font-size: 13px; line-height: 1.35; color: #cfcfe2; text-align: center; cursor: pointer; transition: background 0.15s, color 0.15s; }

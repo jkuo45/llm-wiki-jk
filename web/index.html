@@ -20,6 +20,16 @@
     var dark = false;
     try { dark = localStorage.getItem('llm-wiki-theme') === 'dark'; } catch (e) {}
     link.disabled = dark;
+    // Accent override — apply before first paint so custom --accent avoids FOUC.
+    try {
+      var raw = localStorage.getItem('llm-wiki-graph-settings');
+      if (raw) {
+        var s = JSON.parse(raw);
+        if (s && typeof s.accentColor === 'string' && /^#[0-9a-fA-F]{6}$/.test(s.accentColor)) {
+          document.documentElement.style.setProperty('--accent', s.accentColor);
+        }
+      }
+    } catch (e2) {}
   })();
 </script>
   <link rel="canonical" href="https://graph.johnnykuo.com/">
@@ -99,6 +109,16 @@
         </div>
         <div id="appearance-panel" class="settings-panel">
           <h3>Appearance / 外觀</h3>
+          <div class="settings-row">
+            <label>Accent / 强调色</label>
+            <span class="settings-inline accent-presets" id="accent-presets">
+              <button type="button" class="accent-swatch" data-accent="#0F766E" style="--sw:#0F766E" title="Teal #0F766E" aria-label="Teal #0F766E"></button>
+              <button type="button" class="accent-swatch" data-accent="#4E79A7" style="--sw:#4E79A7" title="Blue #4E79A7" aria-label="Blue #4E79A7"></button>
+              <button type="button" class="accent-swatch" data-accent="#6D5BD0" style="--sw:#6D5BD0" title="Purple #6D5BD0" aria-label="Purple #6D5BD0"></button>
+              <button type="button" class="accent-swatch" data-accent="#E8A33D" style="--sw:#E8A33D" title="Amber #E8A33D" aria-label="Amber #E8A33D"></button>
+              <input type="color" id="set-accent-color" value="#0F766E" title="Custom accent / 自訂强调色" aria-label="Custom accent">
+            </span>
+          </div>
           <div class="settings-row settings-slider-row">
             <div class="settings-row-head">
               <label for="set-edge-opacity">Edge opacity / 邊緣不透明度</label>

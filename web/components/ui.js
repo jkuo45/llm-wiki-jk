@@ -18,6 +18,7 @@ import {
   refreshLabelLayout, visibilityRegistry,
   setSizeMetric, setAutoRotate, setAutoRotateSpeed, setZoomSpeed,
   setReduceMotion, setRenderQuality, applyLabelLanguage,
+  applyAccentToScene, getAccentHex,
 } from './core.js';
 import { selectNode, deselectNode, setUiHooks } from './interaction.js';
 import { updateHash } from './routing.js';
@@ -1165,6 +1166,26 @@ function autorotateEffective() {
   return !!state.settings.autoRotate && !state.settings.reduceMotion;
 }
 
+// Accent colour — presets + custom picker
+const accentPresetsEl = document.getElementById('accent-presets');
+const accentColorInput = document.getElementById('set-accent-color');
+function applyAccent(hex) {
+  if (hex && /^#[0-9a-fA-F]{6}$/.test(hex)) {
+    document.documentElement.style.setProperty('--accent', hex);
+  } else {
+    document.documentElement.style.removeProperty('--accent');
+  }
+  applyAccentToScene();
+}
+function syncAccentSwatches(hex) {
+  if (!accentPresetsEl) return;
+  const norm = (hex || '').toLowerCase();
+  accentPresetsEl.querySelectorAll('.accent-swatch').forEach((btn) => {
+    btn.classList.toggle('active', btn.dataset.accent.toLowerCase() === norm);
+  });
+  if (accentColorInput && hex) accentColorInput.value = hex;
+}
+
 // Push current settings into every control + its readout (used on init/reset).
 function syncSettingsInputs() {
   const s = state.settings;
@@ -1210,6 +1231,20 @@ function syncSettingsInputs() {
     zoomSpeedOut.textContent = Number(s.zoomSpeed).toFixed(1) + '\u00d7';
   }
   if (renderQualitySel) renderQualitySel.value = s.renderQuality;
+  if (accentColorInput || accentPresetsEl) {
+    const ac = s.accentColor && /^#[0-9a-fA-F]{6}$/.test(s.accentColor) ? s.accentColor : '';
+    if (ac) {
+      applyAccent(ac);
+      syncAccentSwatches(ac);
+    } else {
+      // No override — ensure inline var is cleared so theme default shows
+      document.documentElement.style.removeProperty('--accent');
+      applyAccentToScene();
+      const cur = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#0F766E';
+      if (accentColorInput) accentColorInput.value = cur.startsWith('#') ? cur : '#0F766E';
+      syncAccentSwatches('');
+    }
+  }
 }
 
 if (edgeOpacityInput) {
@@ -1341,6 +1376,27 @@ if (renderQualitySel) {
   });
 }
 
+if (accentPresetsEl) {
+  accentPresetsEl.querySelectorAll('.accent-swatch').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const hex = btn.dataset.accent;
+      state.settings.accentColor = hex;
+      applyAccent(hex);
+      syncAccentSwatches(hex);
+      persistSettings();
+    });
+  });
+}
+if (accentColorInput) {
+  accentColorInput.addEventListener('input', () => {
+    const hex = accentColorInput.value;
+    state.settings.accentColor = hex;
+    applyAccent(hex);
+    syncAccentSwatches(hex);
+  });
+  accentColorInput.addEventListener('change', persistSettings);
+}
+
 if (settingsResetBtn) {
   settingsResetBtn.addEventListener('click', () => {
     resetSettings();
@@ -1367,6 +1423,16 @@ if (settingsResetBtn) {
     if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!state.settings.reduceMotion);
   });
 }
+
+// Keep Three.js accent in sync when theme flips and no custom accent is set.
+window.addEventListener('site-theme-change', () => {
+  if (!state.settings.accentColor) {
+    // No override — recompute from the now-active sheet's --accent
+    applyAccentToScene();
+    const cur = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
+    if (accentColorInput && cur.startsWith('#')) accentColorInput.value = cur;
+  }
+});
 
 // Initialize control positions from the persisted settings.
 syncSettingsInputs();
