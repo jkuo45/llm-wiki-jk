@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1702 | 1,074,016 | 9.55 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 31_AUG_2026 | 34 | 1705 | 1,077,930 | 9.58 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 29_AUG_2026 | 11 | 280 | 244,374 | 2.77 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 31_AUG_2026 | 11 | 280 | 245,033 | 2.77 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.46 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 31_AUG_2026 | 9 | 210 | 203,354 | 1.88 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 16_AUG_2026 | 2 | 91 | 64,018 | 0.81 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.80 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 24_AUG_2026 | 1 | 94 | 78,999 | 0.98 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 19 | 175 | 309,370 | 3.88 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 31_AUG_2026 | 19 | 173 | 310,612 | 3.88 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 31_AUG_2026 | **124** | **3146** | **2,533,276** | **26.67 MB** |
+| **subtotal** | 31_AUG_2026 | **124** | **3146** | **2,538,649** | **26.71 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -27,14 +27,14 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,107 | 37,521 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,098 | 37,318 |
 | **Triples** | `triples-*.json` | 2,654 | 3,896 |
-| **Wiki** | `wiki-*.json` | 3,016 | 35,353 |
+| **Wiki** | `wiki-*.json` | 3,007 | 35,150 |
 
-Build: 31_AUG_2026 · hash `c992da5`
+Build: 30_AUG_2026 · hash `7e170d4`
 
 > [!info] Combined merge
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,016 wiki − 1,563 shared → 4,107); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,563 entities appear in both sources (2,654 triples + 3,007 wiki − 1,563 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,728 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 > Wiki-only community ids are offset by +1000 in the combined legend so the cid spaces never collide; wiki-only nodes keep that offset on their `community` field.
 <!-- END GENERATED: graph_datasets -->
 
@@ -141,6 +141,7 @@ Build: 31_AUG_2026 · hash `c992da5`
 <details>
 <summary><strong>Documents (124 total)</strong> — click to expand</summary>
 
+- `sirtuins`: [Sirtuins, a promising target in slowing down the ageing process](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%2C%20a%20promising%20target%20in%20slowing%20down%20the%20ageing%20process.md) [[src/notes/sirtuins/_document_ - Sirtuins, a promising target in slowing down the ageing process.md|wiki]] (31_AUG_2026 11:27 AM PDT)
 - `_link`: [Neuro-Modulating Effects of Honokiol A Review](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Neuro-Modulating%20Effects%20of%20Honokiol%20A%20Review.md) [[src/notes/_link/_document_ - Neuro-Modulating Effects of Honokiol A Review.md|wiki]] (29_AUG_2026 12:56 AM PDT)
 - `_link`: [crosstalk_cell_death_mechanisms_s41420-025-02328-9](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20crosstalk_cell_death_mechanisms_s41420-025-02328-9.md) [[src/notes/_link/_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md|wiki]] (29_AUG_2026 12:56 AM PDT)
 - `autophagy`: [s41514-026-00424-3_reference_mitophagy_neuroprotection](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/_document_%20-%20s41514-026-00424-3_reference_mitophagy_neuroprotection.md) [[src/notes/autophagy/_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md|wiki]] (29_AUG_2026 12:56 AM PDT)
@@ -164,7 +165,6 @@ Build: 31_AUG_2026 · hash `c992da5`
 - `senescence`: [The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence%20orchestrating%20SASP%20expression.md) [[src/notes/senescence/_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md|wiki]] (18_AUG_2026 09:22 AM PDT)
 - `senescence`: [acosta2013_paracrine_senescence](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20acosta2013_paracrine_senescence.md) [[src/notes/senescence/_document_ - acosta2013_paracrine_senescence.md|wiki]] (18_AUG_2026 09:22 AM PDT)
 - `senescence`: [cellular_senescence_ipf_diseases-14-00201](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20cellular_senescence_ipf_diseases-14-00201.md) [[src/notes/senescence/_document_ - cellular_senescence_ipf_diseases-14-00201.md|wiki]] (18_AUG_2026 09:22 AM PDT)
-- `sirtuins`: [Sirtuins, a promising target in slowing down the ageing process](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%2C%20a%20promising%20target%20in%20slowing%20down%20the%20ageing%20process.md) [[src/notes/sirtuins/_document_ - Sirtuins, a promising target in slowing down the ageing process.md|wiki]] (17_AUG_2026 10:48 AM PDT)
 - `sirtuins`: [Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Rejuvenating%20Sirtuins%20The%20Rise%20of%20a%20New%20Family%20of%20Cancer%20Drug%20Targets.md) [[src/notes/sirtuins/_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md|wiki]] (13_AUG_2026 09:48 AM PDT)
 - `sirtuins`: [Sirtuins and their Biological Relevance in Aging and Age-Related Diseases](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[src/notes/sirtuins/_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md|wiki]] (12_AUG_2026 04:48 PM PDT)
 - `_link`: [Kinase](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Kinase.md) [[src/notes/_link/_document_ - Kinase.md|wiki]] (09_AUG_2026 06:08 PM PDT)
