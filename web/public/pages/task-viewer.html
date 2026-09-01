@@ -13,6 +13,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="themes/theme-01/pages.css">
 <script src="themes/theme-01/page-theme.js"></script>
+<script src="themes/shared/nav-auto-hide.js"></script>
 <style>
 /* Task-output specific rendering (callouts, wiki links, tables) layered
    on top of the shared article stylesheet. */
@@ -514,25 +515,6 @@ if (!src) {
   }
 }
 
-// Auto-hide the sticky <nav> on scroll (hide on scroll down, show on scroll up)
-// Wired at top level so it applies even before/after task markdown loads.
-{
-  const topNav = document.querySelector('nav');
-  if (topNav) {
-    let lastY = window.scrollY;
-    let navHidden = false;
-    const THRESH = 6;
-    window.addEventListener('scroll', () => {
-      const y = window.scrollY;
-      const navH = topNav.offsetHeight || 52;
-      const down = y > lastY + THRESH;
-      const up = y < lastY - THRESH;
-      if (down && y > navH && !navHidden) { topNav.classList.add('nav-hidden'); navHidden = true; }
-      else if (up && navHidden) { topNav.classList.remove('nav-hidden'); navHidden = false; }
-      if (Math.abs(y - lastY) > THRESH) lastY = y;
-    }, { passive: true });
-  }
-}
 </script>
 <!-- Wiki entity tooltip + expand modal (graphify-out/graph.json descriptions) -->
 <div id="wiki-tooltip"></div>
