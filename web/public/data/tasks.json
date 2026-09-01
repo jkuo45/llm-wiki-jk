@@ -1,5 +1,5 @@
 {
-  "generated": "31_AUG_2026 09:36 PM PDT",
+  "generated": "31_AUG_2026 10:37 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,28 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_parallel_relation_links_impact_01_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Parallel-Relation Links in the Triples Graph — Full List & Metric Impact",
+          "description": "Inventory of the node pairs carrying surplus parallel-relation links (4092 links over 3894 pairs) preserved by the MultiDiGraph rebuild, with degree/PageRank impact quantification, pipeline-consumer audit, and follow-up fixes applied.",
+          "created": "2026-08-31",
+          "updated": "2026-09-01",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "multigraph",
+            "graph-metrics",
+            "parallel-edges"
+          ],
+          "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
+          "path": "tasks/en-US/task_output_parallel_relation_links_impact_01_Sep_2026.md"
         }
       }
     },

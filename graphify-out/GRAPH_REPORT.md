@@ -1,11 +1,11 @@
 # Graph Report - llm-wiki-jk  (2026-08-31)
 
 ## Corpus Check
-- 11 files · ~478,914 words
+- 11 files · ~478,665 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2653 nodes · 4094 edges · 382 communities (163 shown, 219 thin omitted)
+- 2653 nodes · 4092 edges · 382 communities (163 shown, 219 thin omitted)
 - Extraction: 99% EXTRACTED · 0% INFERRED · 1% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -401,8 +401,8 @@
 5. `SIRT2` - 86 edges
 6. `Cancer` - 80 edges
 7. `Adrenochrome` - 72 edges
-8. `COMT` - 66 edges
-9. `Nicotinamide Riboside` - 64 edges
+8. `Nicotinamide Riboside` - 64 edges
+9. `COMT` - 64 edges
 10. `NF-κB` - 63 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -1184,7 +1184,7 @@ Context fields are stored as a BCP-47 map (`en-US`, `zh-TW`); `en-US` is canonic
 
 | Metric | Count |
 | --- | --- |
-| Triples processed | 4149 |
+| Triples processed | 4147 |
 | Missing zh-TW context (falls back to en-US) | 0 |
 | Missing created/updated timestamps | 0 |
 | Stale triples (`updated` < source note mtime) | 859 |

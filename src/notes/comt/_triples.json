@@ -154,20 +154,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "91e5dcc28f1e",
-    "subject": "Berberine",
-    "predicate": "is",
-    "object": "COMT",
-    "context": {
-      "en-US": "Berberine is considered a safe anti-inflammatory option for slow COMT individuals because it does not donate methyl groups and does not inhibit COMT, avoiding the mood and catecholamine perturbations associated with some alternatives such as methyl donors or catechol-bearing flavonoids. Its anti-inflammatory activity is mediated through AMPK activation and NF-kappaB suppression, operating independently of the methylation cycle and of catechol O-methylation. This positions berberine as a recommended substitute when COMT-slowing agents or methyl donors are contraindicated. Its lack of the catechol structural motif is the key to this compatibility.",
-      "zh-TW": "對於緩慢的 COMT 個體，Berberine 被認為是安全的抗發炎選擇，因為它不會捐贈 methyl groups，也不會抑制 COMT，從而避免了與某些替代品（例如甲基供體或含兒茶酚的黃酮類化合物）相關的情緒和兒茶酚胺擾動。其抗發炎活性透過 AMPK 活化和 NF-kappaB 抑制介導，獨立於 methylation cycle 和兒茶酚 O-甲基化發揮作用。當 COMT 減緩劑或甲基供體有禁忌時，這使得小檁鹼成為建議的替代品。它缺乏兒茶酚結構基序是這種相容性的關鍵。"
-    },
-    "confidence": 0.72,
-    "source_document": "Berberine.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "e9a9fc5976d7",
     "subject": "Betaine",
     "predicate": "converts",
@@ -1185,20 +1171,6 @@
       "zh-TW": "Hesperidin 被歸類為 flavanone，是類黃酮的亞類，其特徵是具有飽和的 C 環且不存在兒茶酚基序，從而將其與槲皮素或木犀草素等兒茶酚類黃酮區分開來。這種結構類別決定了它的代謝命運以及它與 COMT 相互作用的缺乏，因為它不能充當酶的底物或抑制劑。它的糖苷形式在柑橘皮和果汁中含量豐富，有助於抗氧化和抗炎活性。鄰位羥基的缺失是其 COMT 中性的關鍵。"
     },
     "confidence": 0.95,
-    "source_document": "Hesperidin.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "5426859675fa",
-    "subject": "Hesperidin",
-    "predicate": "is",
-    "object": "COMT",
-    "context": {
-      "en-US": "Hesperidin is a safe anti-inflammatory option for slow COMT individuals because it neither donates methyl groups nor inhibits COMT, avoiding perturbation of catecholamine clearance and mood. Its anti-inflammatory actions operate through NF-kappaB and other pathways independent of the methylation cycle, and as a flavanone it lacks the catechol ring needed for COMT interaction. It is thus recommended where COMT-sparing anti-inflammatories are desired, such as in methyl-sensitive genotypes. Its neutral profile with respect to catechol metabolism is a defining advantage.",
-      "zh-TW": "對於緩慢的 COMT 個體來說，Hesperidin 是一種安全的抗發炎選擇，因為它既不貢獻 methyl groups 也不抑制 COMT，從而避免了兒茶酚胺清除率和情緒的干擾。其抗發炎作用透過 NF-kappaB 和其他獨立於 methylation cycle 的途徑發揮作用，並且作為 flavanone，它缺乏 COMT 相互作用所需的兒茶酚環。因此，建議在需要 COMT 保留抗發炎藥物的情況下使用，例如甲基敏感基因型。其對兒茶酚代謝的中性特徵是一個決定性的優勢。"
-    },
-    "confidence": 0.72,
     "source_document": "Hesperidin.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"

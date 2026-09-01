@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:48:04Z",
+  "generated_at": "2026-08-31T22:32:22Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
@@ -8,7 +8,7 @@
     "shared_nodes": 1562,
     "wiki_only_nodes": 1445,
     "triples_only_nodes": 1091,
-    "triples_edges": 4094,
+    "triples_edges": 4092,
     "wiki_edges": 35150,
     "triples_edge_pairs": 3894,
     "wiki_edge_pairs": 35150,
@@ -57,23 +57,23 @@
       "degree": 71
     },
     {
-      "id": "endothelial_cells",
-      "label": "Endothelial Cells",
-      "degree": 68
-    },
-    {
       "id": "fibroblast",
       "label": "Fibroblast",
       "degree": 68
     },
     {
-      "id": "type_i_interferon",
-      "label": "Type I Interferon",
-      "degree": 66
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
+      "degree": 68
     },
     {
       "id": "metabolism",
       "label": "Metabolism",
+      "degree": 66
+    },
+    {
+      "id": "type_i_interferon",
+      "label": "Type I Interferon",
       "degree": 66
     },
     {
@@ -97,23 +97,23 @@
       "degree": 60
     },
     {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
-      "degree": 57
-    },
-    {
       "id": "citric_acid_cycle",
       "label": "Citric Acid Cycle",
       "degree": 57
     },
     {
-      "id": "extracellular_matrix",
-      "label": "Extracellular Matrix",
-      "degree": 56
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
+      "degree": 57
     },
     {
       "id": "calcium",
       "label": "Calcium",
+      "degree": 56
+    },
+    {
+      "id": "extracellular_matrix",
+      "label": "Extracellular Matrix",
       "degree": 56
     }
   ],
@@ -124,13 +124,13 @@
       "degree": 11
     },
     {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
@@ -139,18 +139,13 @@
       "degree": 4
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
-      "degree": 3
-    },
-    {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
       "degree": 3
     },
     {
@@ -159,18 +154,8 @@
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
-      "degree": 3
-    },
-    {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
       "degree": 3
     },
     {
@@ -179,8 +164,8 @@
       "degree": 3
     },
     {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
       "degree": 3
     },
     {
@@ -189,33 +174,48 @@
       "degree": 3
     },
     {
-      "id": "diabetic_complications",
-      "label": "diabetic complications",
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
+      "degree": 3
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
+      "degree": 3
+    },
+    {
+      "id": "muscle_protein_synthesis",
+      "label": "muscle protein synthesis",
       "degree": 2
     },
     {
-      "id": "reactive_oxygen_species_generation",
-      "label": "Reactive Oxygen Species generation",
+      "id": "h4k16",
+      "label": "H4K16",
       "degree": 2
     },
     {
-      "id": "cytoplasm",
-      "label": "Cytoplasm",
+      "id": "age_modified_proteins",
+      "label": "AGE-modified proteins",
       "degree": 2
     },
     {
-      "id": "adrenochrome_synthesis",
-      "label": "adrenochrome synthesis",
+      "id": "dna_hypomethylation",
+      "label": "DNA Hypomethylation",
       "degree": 2
     },
     {
-      "id": "mtorc1_to_lysosomes",
-      "label": "mTORC1 to lysosomes",
+      "id": "muscle_wasting",
+      "label": "Muscle Wasting",
       "degree": 2
     },
     {
-      "id": "methyl_donor_supplements",
-      "label": "Methyl donor supplements",
+      "id": "sirt3_activation",
+      "label": "SIRT3 activation",
       "degree": 2
     }
   ],
