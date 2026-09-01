@@ -2072,3 +2072,24 @@ button.notes-chip { font-family: inherit; line-height: inherit; }
 #auth-reset-row > span { font-size: 0.85rem; color: var(--ink-4); }
 #auth-reset-btn { padding: 10px 12px; border-radius: var(--r-md); border: none;
   background: var(--accent); color: #fff; font-size: 0.95rem; font-weight: 600; cursor: pointer; }
+
+/* ------------------------------------------------------------
+   ui/ primitives (Phase 2) — styles for factory-created controls.
+   `enhance*` adopters keep their host element's existing styles.
+   ------------------------------------------------------------ */
+.ui-icon-btn.busy { opacity: .7; pointer-events: none; }
+.ui-icon-btn.ok { color: var(--ok); }
+.ui-icon-btn.err { color: #ff7a7a; }
+
+.ui-toggle,
+.ui-segmented-btn {
+  background: var(--surface-1); border: 1px solid var(--line-strong); color: var(--ink);
+  border-radius: var(--r-md); padding: var(--ctl-pad); font: inherit; font-size: var(--ctl-font);
+  cursor: pointer; transition: background .15s, border-color .15s, color .15s;
+}
+.ui-toggle:hover, .ui-segmented-btn:hover { border-color: var(--accent); color: var(--ink-hi); }
+.ui-toggle.active, .ui-segmented-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.ui-toggle.active { font-weight: 600; }
+
+.ui-segmented { display: inline-flex; gap: 4px; }
+.ui-segmented-btn[aria-checked="false"]:not(:hover) { background: transparent; }

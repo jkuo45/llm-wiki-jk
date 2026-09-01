@@ -10,11 +10,11 @@
 // drive the preference; the reader header button toggles it too.
 
 import { applyGraphTheme } from './core.js';
+import { enhanceSegmented } from './ui/Segmented.js';
 
 const THEME_KEY = 'llm-wiki-theme';
 const appThemeLink = document.getElementById('theme-light');
 const themeGrid = document.getElementById('theme-grid');
-const themeButtons = themeGrid ? Array.from(themeGrid.querySelectorAll('button[data-theme]')) : [];
 const themeBtn = document.getElementById('page-modal-theme');
 const readerFrame = document.getElementById('page-modal-frame');
 const readerOverlay = document.getElementById('page-modal-overlay');
@@ -58,11 +58,7 @@ function syncReaderFrame(theme) {
 }
 
 function syncThemeButtons(light) {
-  themeButtons.forEach(btn => {
-    const on = (btn.dataset.theme === 'light') === light;
-    btn.classList.toggle('active', on);
-    btn.setAttribute('aria-pressed', String(on));
-  });
+  if (themeSeg) themeSeg.set(light ? 'light' : 'dark');
 }
 
 function applyTheme(theme) {
@@ -107,14 +103,11 @@ export function subscribeTheme(fn) {
   return () => themeSubscribers.delete(fn);
 }
 
-// Settings tab Theme buttons.
-if (themeGrid) {
-  themeGrid.addEventListener('click', (e) => {
-    const btn = e.target.closest('button[data-theme]');
-    if (!btn) return;
-    setTheme(btn.dataset.theme);
-  });
-}
+// Settings tab Theme buttons — radiogroup semantics (aria-checked, arrow-key
+// navigation) via the shared Segmented primitive.
+const themeSeg = themeGrid
+  ? enhanceSegmented(themeGrid, { valueAttr: 'data-theme', onChange: (v) => setTheme(v) })
+  : null;
 
 // Reader header sun/moon toggle.
 if (themeBtn) {

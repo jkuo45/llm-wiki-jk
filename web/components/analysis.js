@@ -22,6 +22,7 @@ import { INTENT_API, EXECUTE_STREAM_API, postJSON, resetSession, sseEvents } fro
 import { matchNodesInText, edgesBetween, bfsFromSets, computeDatasetStats } from './analytics.js';
 import { promptSignIn } from './auth.js';
 import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from './modal.js';
+import { enhanceSegmented } from './ui/Segmented.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -176,15 +177,9 @@ onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 let responseMode = 'html'; // 'md' | 'html'
 
 if (responseModeWrap) {
-  responseModeWrap.querySelectorAll('.resp-mode-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      responseMode = btn.dataset.mode === 'html' ? 'html' : 'md';
-      responseModeWrap.querySelectorAll('.resp-mode-btn').forEach(b => {
-        const on = b === btn;
-        b.classList.toggle('active', on);
-        b.setAttribute('aria-pressed', on ? 'true' : 'false');
-      });
-    });
+  enhanceSegmented(responseModeWrap, {
+    valueAttr: 'data-mode',
+    onChange: (v) => { responseMode = v === 'html' ? 'html' : 'md'; },
   });
 }
 

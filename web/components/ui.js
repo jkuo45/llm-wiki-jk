@@ -26,6 +26,9 @@ import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
 import { toast } from './ui/Toast.js';
+import { enhanceToggle } from './ui/Toggle.js';
+import { enhanceIconButton } from './ui/IconButton.js';
+import { enhanceSlider } from './ui/Slider.js';
 
 // ------------------------------------------------------------
 // Active-window highlight (analysis panel)
@@ -1064,50 +1067,45 @@ export async function exportGraphPNG(filename) {
   }
 }
 
-document.getElementById('btn-save-png').addEventListener('click', async (e) => {
-  const btn = e.currentTarget;
-  const origIcon = btn.innerHTML;
-  const origTitle = btn.title;
-  btn.disabled = true;
+const savePngBtn = enhanceIconButton(document.getElementById('btn-save-png'));
+document.getElementById('btn-save-png').addEventListener('click', async () => {
+  savePngBtn.setBusy();
   try {
     await exportGraphPNG('graph.png');
-    btn.classList.add('ok');
-    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
-    btn.title = 'Saved graph.png ✓ / 已另存 graph.png ✓';
+    savePngBtn.setOk();
+    savePngBtn.el.title = 'Saved graph.png ✓ / 已另存 graph.png ✓';
   } catch (err) {
-    btn.classList.add('err');
-    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-    btn.title = 'Save failed / 儲存失敗';
-  } finally {
-    btn.disabled = false;
-    setTimeout(() => { btn.innerHTML = origIcon; btn.title = origTitle; btn.classList.remove('ok', 'err'); }, 1800);
+    console.error('PNG export failed:', err);
+    savePngBtn.setErr();
+    savePngBtn.el.title = 'Save failed / 儲存失敗';
+    toast.show('Could not export the graph as PNG / PNG 匯出失敗', { variant: 'err' });
   }
 });
 
-// Display toggles (settings popover)
-document.getElementById('btn-physics').addEventListener('click', (e) => {
-  setPhysics(!state.physicsEnabled);
-  e.target.classList.toggle('active', state.physicsEnabled);
+// Display toggles (settings popover) — adopted by ui/Toggle.js so
+// aria-pressed and the .active class can never drift apart.
+const physicsToggle = enhanceToggle(document.getElementById('btn-physics'), {
+  onChange: () => setPhysics(!state.physicsEnabled),
+});
+const labelsToggle = enhanceToggle(document.getElementById('btn-labels'), {
+  onChange: (on) => {
+    state.showLabels = on;
+    state.settings.showLabels = on;
+    persistSettings();
+    setAllLabelVisibility();
+  },
+});
+const edgesToggle = enhanceToggle(document.getElementById('btn-edges'), {
+  onChange: (on) => {
+    edgeSegments.visible = on;
+    state.settings.showEdges = on;
+    persistSettings();
+  },
 });
 
-document.getElementById('btn-labels').addEventListener('click', (e) => {
-  state.showLabels = !state.showLabels;
-  state.settings.showLabels = state.showLabels;
-  persistSettings();
-  e.target.classList.toggle('active', state.showLabels);
-  setAllLabelVisibility();
-});
-
-document.getElementById('btn-edges').addEventListener('click', (e) => {
-  edgeSegments.visible = !edgeSegments.visible;
-  state.settings.showEdges = edgeSegments.visible;
-  persistSettings();
-  e.target.classList.toggle('active', edgeSegments.visible);
-});
-
-// Initialize toggle active states from the (persisted) settings.
-document.getElementById('btn-labels').classList.toggle('active', state.showLabels);
-document.getElementById('btn-edges').classList.toggle('active', edgeSegments.visible);
+// Initialize toggle states from the (persisted) settings.
+labelsToggle.set(state.showLabels);
+edgesToggle.set(edgeSegments.visible);
 
 // ------------------------------------------------------------
 // Settings — appearance / labels / filters controls (persisted)
@@ -1124,30 +1122,104 @@ function edgesAtRest() {
     !(visibilityRegistry.promptIds && visibilityRegistry.promptIds.size);
 }
 
-const edgeOpacityInput = document.getElementById('set-edge-opacity');
-const edgeOpacityOut = document.getElementById('set-edge-opacity-val');
 const edgeColorModeSel = document.getElementById('set-edge-color-mode');
 const edgeColorInput = document.getElementById('set-edge-color');
-const nodeSizeInput = document.getElementById('set-node-size');
-const nodeSizeOut = document.getElementById('set-node-size-val');
-const labelSensInput = document.getElementById('set-label-sensitivity');
-const labelSensOut = document.getElementById('set-label-sensitivity-val');
-const labelSizeInput = document.getElementById('set-label-size');
-const labelSizeOut = document.getElementById('set-label-size-val');
-const minDegreeInput = document.getElementById('set-min-degree');
-const minDegreeOut = document.getElementById('set-min-degree-val');
-const minConfInput = document.getElementById('set-min-confidence');
-const minConfOut = document.getElementById('set-min-confidence-val');
+// Legacy direct element refs still needed (selects + colour inputs are not
+// migrated in Phase 2; sliders/toggles are adopted via the ui/ primitives).
 const sizeMetricSel = document.getElementById('set-size-metric');
 const labelLangSel = document.getElementById('set-label-lang');
-const autorotateBtn = document.getElementById('btn-autorotate');
-const reduceMotionBtn = document.getElementById('btn-reduce-motion');
-const rotateSpeedInput = document.getElementById('set-rotate-speed');
-const rotateSpeedOut = document.getElementById('set-rotate-speed-val');
-const zoomSpeedInput = document.getElementById('set-zoom-speed');
-const zoomSpeedOut = document.getElementById('set-zoom-speed-val');
 const renderQualitySel = document.getElementById('set-render-quality');
 const settingsResetBtn = document.getElementById('btn-settings-reset');
+
+// ------------------------------------------------------------
+// Settings controls, adopted by the ui/ primitives (Phase 2).
+// Sliders: `input` = live preview, `change` = commit/persist.
+// Null-safe adopters: every control is optional markup.
+// ------------------------------------------------------------
+function slider(id, outId, opts) {
+  const input = document.getElementById(id);
+  const output = outId ? document.getElementById(outId) : null;
+  return input ? enhanceSlider(input, { output, ...opts }) : null;
+}
+function toggleCtl(id, opts) {
+  const el = document.getElementById(id);
+  return el ? enhanceToggle(el, opts) : null;
+}
+
+const edgeOpacityCtl = slider('set-edge-opacity', 'set-edge-opacity-val', {
+  format: (v) => Math.round(v * 100) + '%',
+  onInput: (v) => {
+    state.settings.edgeOpacity = v;
+    if (edgesAtRest()) applyRestingEdges();
+  },
+  onCommit: persistSettings,
+});
+const nodeSizeCtl = slider('set-node-size', 'set-node-size-val', {
+  format: (v) => Number(v).toFixed(1) + '\u00d7',
+  onInput: (v) => setNodeSizeScale(v),
+  onCommit: persistSettings,
+});
+const labelSensCtl = slider('set-label-sensitivity', 'set-label-sensitivity-val', {
+  format: (v) => Math.round(v) + '%',
+  onInput: (v) => {
+    state.settings.labelSensitivity = Math.round(v);
+    refreshLabelLayout();
+  },
+  onCommit: persistSettings,
+});
+const labelSizeCtl = slider('set-label-size', 'set-label-size-val', {
+  format: (v) => Math.round(v) + 'px',
+  onInput: (v) => {
+    state.settings.labelSize = Math.round(v);
+    applyLabelSize(state.settings.labelSize);
+    refreshLabelLayout(); // declutter half-extents depend on the font size
+  },
+  onCommit: persistSettings,
+});
+const minDegreeCtl = slider('set-min-degree', 'set-min-degree-val', {
+  format: (v) => '\u2265 ' + Math.round(v),
+  onInput: (v) => {
+    state.settings.minDegree = Math.round(v);
+    applyNodeVisibility();
+    refreshLabelLayout();
+  },
+  onCommit: persistSettings,
+});
+const minConfCtl = slider('set-min-confidence', 'set-min-confidence-val', {
+  format: (v) => '\u2265 ' + Math.round(v * 100) + '%',
+  onInput: (v) => {
+    state.settings.edgeMinConfidence = v;
+    applyNodeVisibility();
+  },
+  onCommit: persistSettings,
+});
+const rotateSpeedCtl = slider('set-rotate-speed', 'set-rotate-speed-val', {
+  format: (v) => Number(v).toFixed(1),
+  onInput: (v) => setAutoRotateSpeed(v),
+  onCommit: persistSettings,
+});
+const zoomSpeedCtl = slider('set-zoom-speed', 'set-zoom-speed-val', {
+  format: (v) => Number(v).toFixed(1) + '\u00d7',
+  onInput: (v) => setZoomSpeed(v),
+  onCommit: persistSettings,
+});
+
+const autorotateToggle = toggleCtl('btn-autorotate', {
+  onChange: () => {
+    setAutoRotate(!state.settings.autoRotate);
+    autorotateToggle.set(autorotateEffective());
+    persistSettings();
+  },
+});
+const reduceMotionToggle = toggleCtl('btn-reduce-motion', {
+  onChange: () => {
+    setReduceMotion(!state.settings.reduceMotion);
+    reduceMotionToggle.set(!!state.settings.reduceMotion);
+    // Auto-rotate is force-disabled by reduce-motion — reflect that.
+    if (autorotateToggle) autorotateToggle.set(autorotateEffective());
+    persistSettings();
+  },
+});
 
 function syncEdgeColorVisibility() {
   if (edgeColorInput) edgeColorInput.hidden = state.settings.edgeColorMode !== 'mono';
@@ -1179,50 +1251,27 @@ function syncAccentSwatches(hex) {
   if (accentColorInput && hex) accentColorInput.value = hex;
 }
 
-// Push current settings into every control + its readout (used on init/reset).
+// Push current settings into every control (used on init/reset). Slider/toggle
+// controllers keep their output readouts and aria state in sync internally.
 function syncSettingsInputs() {
   const s = state.settings;
-  if (edgeOpacityInput) {
-    edgeOpacityInput.value = s.edgeOpacity;
-    edgeOpacityOut.textContent = Math.round(s.edgeOpacity * 100) + '%';
-  }
+  if (edgeOpacityCtl) edgeOpacityCtl.set(s.edgeOpacity);
   if (edgeColorModeSel) {
     edgeColorModeSel.value = s.edgeColorMode;
     syncEdgeColorVisibility();
     if (edgeColorInput) edgeColorInput.value = s.edgeColor;
   }
-  if (nodeSizeInput) {
-    nodeSizeInput.value = s.nodeSizeScale;
-    nodeSizeOut.textContent = Number(s.nodeSizeScale).toFixed(1) + '\u00d7';
-  }
+  if (nodeSizeCtl) nodeSizeCtl.set(s.nodeSizeScale);
   if (sizeMetricSel) sizeMetricSel.value = s.sizeMetric;
-  if (labelSensInput) {
-    labelSensInput.value = s.labelSensitivity;
-    labelSensOut.textContent = s.labelSensitivity + '%';
-  }
-  if (labelSizeInput) {
-    labelSizeInput.value = s.labelSize;
-    labelSizeOut.textContent = s.labelSize + 'px';
-  }
+  if (labelSensCtl) labelSensCtl.set(s.labelSensitivity);
+  if (labelSizeCtl) labelSizeCtl.set(s.labelSize);
   if (labelLangSel) labelLangSel.value = s.labelLang;
-  if (minDegreeInput) {
-    minDegreeInput.value = s.minDegree;
-    minDegreeOut.textContent = '\u2265 ' + s.minDegree;
-  }
-  if (minConfInput) {
-    minConfInput.value = s.edgeMinConfidence;
-    minConfOut.textContent = '\u2265 ' + Math.round(s.edgeMinConfidence * 100) + '%';
-  }
-  if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
-  if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!s.reduceMotion);
-  if (rotateSpeedInput) {
-    rotateSpeedInput.value = s.autoRotateSpeed;
-    rotateSpeedOut.textContent = Number(s.autoRotateSpeed).toFixed(1);
-  }
-  if (zoomSpeedInput) {
-    zoomSpeedInput.value = s.zoomSpeed;
-    zoomSpeedOut.textContent = Number(s.zoomSpeed).toFixed(1) + '\u00d7';
-  }
+  if (minDegreeCtl) minDegreeCtl.set(s.minDegree);
+  if (minConfCtl) minConfCtl.set(s.edgeMinConfidence);
+  if (autorotateToggle) autorotateToggle.set(autorotateEffective());
+  if (reduceMotionToggle) reduceMotionToggle.set(!!s.reduceMotion);
+  if (rotateSpeedCtl) rotateSpeedCtl.set(s.autoRotateSpeed);
+  if (zoomSpeedCtl) zoomSpeedCtl.set(s.zoomSpeed);
   if (renderQualitySel) renderQualitySel.value = s.renderQuality;
   if (accentColorInput || accentPresetsEl) {
     const ac = s.accentColor && /^#[0-9a-fA-F]{6}$/.test(s.accentColor) ? s.accentColor : '';
@@ -1240,16 +1289,6 @@ function syncSettingsInputs() {
   }
 }
 
-if (edgeOpacityInput) {
-  edgeOpacityInput.addEventListener('input', () => {
-    const v = parseFloat(edgeOpacityInput.value);
-    state.settings.edgeOpacity = v;
-    edgeOpacityOut.textContent = Math.round(v * 100) + '%';
-    if (edgesAtRest()) applyRestingEdges();
-  });
-  edgeOpacityInput.addEventListener('change', persistSettings);
-}
-
 if (edgeColorModeSel && edgeColorInput) {
   edgeColorModeSel.addEventListener('change', () => {
     state.settings.edgeColorMode = edgeColorModeSel.value;
@@ -1262,55 +1301,6 @@ if (edgeColorModeSel && edgeColorInput) {
     if (state.settings.edgeColorMode === 'mono' && edgesAtRest()) applyRestingEdges();
   });
   edgeColorInput.addEventListener('change', persistSettings);
-}
-
-if (nodeSizeInput) {
-  nodeSizeInput.addEventListener('input', () => {
-    setNodeSizeScale(parseFloat(nodeSizeInput.value));
-    nodeSizeOut.textContent = Number(nodeSizeInput.value).toFixed(1) + '\u00d7';
-  });
-  nodeSizeInput.addEventListener('change', persistSettings);
-}
-
-if (labelSensInput) {
-  labelSensInput.addEventListener('input', () => {
-    state.settings.labelSensitivity = parseInt(labelSensInput.value, 10);
-    labelSensOut.textContent = labelSensInput.value + '%';
-    refreshLabelLayout();
-  });
-  labelSensInput.addEventListener('change', persistSettings);
-}
-
-if (labelSizeInput) {
-  labelSizeInput.addEventListener('input', () => {
-    const v = parseInt(labelSizeInput.value, 10);
-    state.settings.labelSize = v;
-    applyLabelSize(v);
-    labelSizeOut.textContent = v + 'px';
-    refreshLabelLayout(); // declutter half-extents depend on the font size
-  });
-  labelSizeInput.addEventListener('change', persistSettings);
-}
-
-if (minDegreeInput) {
-  minDegreeInput.addEventListener('input', () => {
-    const v = parseInt(minDegreeInput.value, 10);
-    state.settings.minDegree = v;
-    minDegreeOut.textContent = '\u2265 ' + v;
-    applyNodeVisibility();
-    refreshLabelLayout();
-  });
-  minDegreeInput.addEventListener('change', persistSettings);
-}
-
-if (minConfInput) {
-  minConfInput.addEventListener('input', () => {
-    const v = parseFloat(minConfInput.value);
-    state.settings.edgeMinConfidence = v;
-    minConfOut.textContent = '\u2265 ' + Math.round(v * 100) + '%';
-    applyNodeVisibility();
-  });
-  minConfInput.addEventListener('change', persistSettings);
 }
 
 if (sizeMetricSel) {
@@ -1326,40 +1316,6 @@ if (labelLangSel) {
     applyLabelLanguage();
     persistSettings();
   });
-}
-
-if (autorotateBtn) {
-  autorotateBtn.addEventListener('click', () => {
-    setAutoRotate(!state.settings.autoRotate);
-    autorotateBtn.classList.toggle('active', autorotateEffective());
-    persistSettings();
-  });
-}
-
-if (reduceMotionBtn) {
-  reduceMotionBtn.addEventListener('click', () => {
-    setReduceMotion(!state.settings.reduceMotion);
-    reduceMotionBtn.classList.toggle('active', state.settings.reduceMotion);
-    // Auto-rotate is force-disabled by reduce-motion — reflect that.
-    if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
-    persistSettings();
-  });
-}
-
-if (rotateSpeedInput) {
-  rotateSpeedInput.addEventListener('input', () => {
-    setAutoRotateSpeed(parseFloat(rotateSpeedInput.value));
-    rotateSpeedOut.textContent = Number(rotateSpeedInput.value).toFixed(1);
-  });
-  rotateSpeedInput.addEventListener('change', persistSettings);
-}
-
-if (zoomSpeedInput) {
-  zoomSpeedInput.addEventListener('input', () => {
-    setZoomSpeed(parseFloat(zoomSpeedInput.value));
-    zoomSpeedOut.textContent = Number(zoomSpeedInput.value).toFixed(1) + '\u00d7';
-  });
-  zoomSpeedInput.addEventListener('change', persistSettings);
 }
 
 if (renderQualitySel) {
@@ -1412,8 +1368,8 @@ if (settingsResetBtn) {
     setReduceMotion(state.settings.reduceMotion);
     setRenderQuality(state.settings.renderQuality);
     // Toggle buttons reflect the effective (post-reduce-motion) state.
-    if (autorotateBtn) autorotateBtn.classList.toggle('active', autorotateEffective());
-    if (reduceMotionBtn) reduceMotionBtn.classList.toggle('active', !!state.settings.reduceMotion);
+    if (autorotateToggle) autorotateToggle.set(autorotateEffective());
+    if (reduceMotionToggle) reduceMotionToggle.set(!!state.settings.reduceMotion);
   });
 }
 
