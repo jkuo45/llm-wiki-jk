@@ -10,7 +10,7 @@ import {
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
 import { parseHash } from './routing.js';
-import { activateTrace, activateRoute, clearTrace, setupDatasetToggle } from './ui.js';
+import { activateTrace, activateRoute, clearTrace, setupDatasetSlider } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: analysis.js attaches its own listeners.
@@ -236,6 +236,6 @@ if (hashParams) {
   history.replaceState({ hash: window.location.hash }, '', window.location.href);
 }
 
-// Wire the Triples / Wiki / Combined dataset toggle (marks the active tab).
-setupDatasetToggle();
+// Wire the Triples / Wiki / Combined dataset slider (inside Settings).
+setupDatasetSlider();
 } // end boot-healthy guard (boot gate above skips the scene loop on error/empty)

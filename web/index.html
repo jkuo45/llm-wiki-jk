@@ -107,6 +107,28 @@
             <button id="btn-labels" title="Toggle labels">Labels / 標籤</button>
             <button id="btn-edges" title="Toggle edges">Edges / 邊緣</button>
           </div>
+          <div class="settings-row settings-slider-row" id="dataset-source-row">
+            <div class="settings-row-head">
+              <label for="set-dataset" title="Graph source, fewest to most edges / 圖形來源，邊最少 → 最多">Graph source / 圖形來源</label>
+              <output id="set-dataset-val" for="set-dataset">Combined</output>
+            </div>
+            <input type="range" id="set-dataset" min="0" max="2" step="1" value="2" aria-label="Graph source">
+            <!-- Node/edge counts below are build-time values (from web/public/data/*). Keep in sync when graphs are rebuilt (§8 pipeline). -->
+            <div class="slider-ticks" aria-hidden="true">
+              <span class="slider-tick" title="Triples — extracted relations, fewest edges">
+                <span class="tick-name">Triples</span>
+                <span class="tick-meta"><span class="tick-nodes">2,653 nodes</span><span class="tick-edges">4,092 edges</span></span>
+              </span>
+              <span class="slider-tick" title="Wiki — Obsidian wikilinks">
+                <span class="tick-name">Wiki</span>
+                <span class="tick-meta"><span class="tick-nodes">3,007 nodes</span><span class="tick-edges">35,150 edges</span></span>
+              </span>
+              <span class="slider-tick" title="Combined — union, most edges">
+                <span class="tick-name">Combined</span>
+                <span class="tick-meta"><span class="tick-nodes">4,098 nodes</span><span class="tick-edges">37,319 edges</span></span>
+              </span>
+            </div>
+          </div>
         </div>
         <div id="appearance-panel" class="settings-panel">
           <h3>Appearance / 外觀</h3>
@@ -229,7 +251,6 @@
         </div>
       </div>
     </div>
-    <button id="dataset-mode-toggle" type="button" aria-label="Graph source / 圖形來源" title="Click to switch graph: Triples → Wiki → Combined"><span class="mode-label">mode</span></button>
     <button id="btn-reset" title="Reset camera / 重設視角" aria-label="Reset camera / 重設視角">
       <span class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg></span>
     </button>

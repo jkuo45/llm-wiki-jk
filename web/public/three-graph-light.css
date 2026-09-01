@@ -181,15 +181,13 @@ body {
 #controls #btn-analysis,
 #controls #btn-notes,
 #controls #btn-admin,
-#controls #btn-unstick,
-#controls #dataset-mode-toggle { color: var(--ink-4); }
+#controls #btn-unstick { color: var(--ink-4); }
 #controls #btn-reset:hover,
 #controls #btn-save-png:hover,
 #controls #btn-analysis:hover,
 #controls #btn-notes:hover,
 #controls #btn-admin:hover,
-#controls #btn-unstick:hover,
-#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
+#controls #btn-unstick:hover { color: var(--ink-hi); border-color: var(--accent); }
 #controls #btn-analysis.open, #controls #btn-analysis.active,
 #controls #btn-notes.open,
 #controls #btn-admin.open { background: var(--paper-deep); border-color: var(--accent); color: var(--ink-hi); }
@@ -289,7 +287,6 @@ body {
 .analysis-mode-tab { color: var(--ink-4); }
 .analysis-mode-tab:hover { color: var(--ink-hi); }
 .analysis-mode-tab.active { background: var(--accent); color: var(--surface); }
-#controls #dataset-mode-toggle .mode-label { color: inherit; }
 .analysis-activity-dot { border-color: var(--surface); }
 .analysis-activity-dot.thinking { border-color: var(--surface); }
 #ui-toasts .ui-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
