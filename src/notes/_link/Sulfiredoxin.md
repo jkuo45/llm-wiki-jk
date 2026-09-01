@@ -40,5 +40,5 @@ Sulfiredoxin is conserved from yeast to humans and has been implicated in cytopr
 ## Linking Summary
 
   - New links added: [[Sulfiredoxin]], [[Peroxiredoxin 3]], [[Peroxiredoxin]], [[Mitochondria]], [[ROS]], [[Oxidative Stress]], [[Apoptosis]]
-  - Suggested new entity notes to create: [[Sulfinic Acid]], [[Thioredoxin-2]], [[SRXN1 Regulation]]
+  - Suggested new entity notes to create: [[Sulfinic Acid]], [[SRXN1 Regulation]]
   - Strong connections to strengthen: [[Sulfiredoxin]] ↔ [[Peroxiredoxin 3]]; [[Sulfiredoxin]] ↔ [[Nrf2]]

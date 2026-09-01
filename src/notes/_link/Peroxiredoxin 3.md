@@ -41,5 +41,5 @@ PRDX3 expression is induced by [[Nrf2]] and is frequently upregulated in cancer 
 ## Linking Summary
 
   - New links added: [[Peroxiredoxin 3]], [[Mitochondria]], [[ROS]], [[Peroxiredoxin]], [[Sulfiredoxin]], [[Oxidative Stress]], [[Apoptosis]]
-  - Suggested new entity notes to create: [[Thioredoxin-2]], [[Peroxiredoxin 5]], [[Thioredoxin Reductase 2]]
+  - Suggested new entity notes to create: [[Peroxiredoxin 5]], [[Thioredoxin Reductase 2]]
   - Strong connections to strengthen: [[Peroxiredoxin 3]] ↔ [[Sulfiredoxin]]; [[Peroxiredoxin 3]] ↔ [[Nrf2]]

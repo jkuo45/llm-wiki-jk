@@ -18,7 +18,7 @@ The primary mechanism of hydroxyurea is the inhibition of [[Ribonucleotide Reduc
 
 1. **RNR Inhibition**: Hydroxyurea acts as a free radical scavenger. It targets the tyrosyl radical located in the R2 subunit of the ribonucleotide reductase enzyme. By quenching this radical, hydroxyurea prevents the enzyme from converting ribonucleoside diphosphates (NDPs) into their corresponding deoxyribonucleoside diphosphates (dNDPs).
 
-2. **dNTP Depletion**: The inhibition of RNR leads to a rapid and significant depletion of the intracellular dNTP pools (dATP, dGTP, dCTP, and dTTP). This depletion is particularly impactful during the [[S phase]] of the [[Cell cycle]], as the availability of these building blocks is critical for high-fidelity and high-speed DNA synthesis.
+2. **dNTP Depletion**: The inhibition of RNR leads to a rapid and significant depletion of the intracellular dNTP pools (dATP, dGTP, dCTP, and dTTP). This depletion is particularly impactful during the [[S Phase]] of the [[Cell cycle]], as the availability of these building blocks is critical for high-fidelity and high-speed DNA synthesis.
 
 3. **Replication Stress and DNA Damage**: The scarcity of dNTPs causes the [[DNA Polymerase]] to stall during [[DNA Replication]], leading to widespread [[DNA Replication Stress]]. This stalling triggers the [[DNA Damage Response]] (DDR), involving the activation of the [[ATR]] and [[ATM]] signaling pathways. Depending on the severity and duration of the stress, the cell may undergo [[Apoptosis]] or enter a state of permanent cell cycle arrest known as [[Senescence]].
 
@@ -54,7 +54,7 @@ List of documents that mention this entity
 - [[Senescence]] — A potential cellular outcome of hydroxyurea-induced replication stress.
 - [[DNA Replication]] — The process that is interrupted by hydroxyurea.
 - [[Cell cycle]] — Hydroxyurea primarily affects the S phase of the cell cycle.
-- [[S phase]] — The specific phase of the cell cycle targeted by hydroxyurea.
+- [[S Phase]] — The specific phase of the cell cycle targeted by hydroxyurea.
 - [[Apoptosis]] — A possible outcome of severe DNA replication stress.
 - [[Fetal Hemoglobin]] — Increased by hydroxyurea in sickle cell disease patients.
 - [[Sickle Cell Disease]] — One of the key clinical indications for hydroxyurea.
@@ -64,6 +64,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Ribonucleotide Reductase]], [[DNA Replication Stress]], [[Senescence]], [[DNA Replication]], [[Cell cycle]], [[S phase]], [[Apoptosis]], [[Fetal Hemoglobin]], [[Sickle Cell Disease]], [[Polycythemia Vera]], [[dNTP]], [[DNA Polymerase]], [[ATR]], [[ATM]]
+- New links added: [[Ribonucleotide Reductase]], [[DNA Replication Stress]], [[Senescence]], [[DNA Replication]], [[Cell cycle]], [[S Phase]], [[Apoptosis]], [[Fetal Hemoglobin]], [[Sickle Cell Disease]], [[Polycythemia Vera]], [[dNTP]], [[DNA Polymerase]], [[ATR]], [[ATM]]
 - Suggested new entity notes to create: [[Fetal Hemoglobin]], [[Sickle Cell Disease]], [[Polycythemia Vera]], [[dNTP]]
 - Strong connections to strengthen: [[Hydroxyurea]] ↔ [[Ribonucleotide Reductase]], [[Hydroxyurea]] ↔ [[DNA Replication Stress]]

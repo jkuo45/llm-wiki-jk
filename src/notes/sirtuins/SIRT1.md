@@ -179,7 +179,7 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 
 - **[[Cardiac Hypertrophy]]**: **Dose-dependent dual effect** — low (2.5×)/moderate (7.5×) overexpression attenuates, high (12.5×) exacerbates Ang II-induced hypertrophy. Protective via reduced apoptosis/promoted autophagy; harmful via Akt/PDK1 membrane localization.
 - **[[Cardiac Fibrosis]]**: Protective — resveratrol activation attenuates via TGF-β/Smad3 inhibition.
-- **[[Heart Failure]]**: Decreased in advanced HF. Attenuates oxidative stress/apoptosis (MnSOD/thioredoxin1/Bcl-xL upregulation, p53 deacetylation decrease); NF-κB p65/miR-155/BDNF pathway; restores SERCA2a via K492 deacetylation.
+- **[[Heart Failure]]**: Decreased in advanced HF. Attenuates oxidative stress/apoptosis (MnSOD/[[Thioredoxin-1]]/Bcl-xL upregulation, p53 deacetylation decrease); NF-κB p65/miR-155/BDNF pathway; restores SERCA2a via K492 deacetylation.
 - **[[Atherosclerosis]]**: Protective — endothelial overexpression (eNOS activation), SRT1720 ameliorates endothelial dysfunction, VSMC DNA-damage protection via NBS1, reduces Lox-1-mediated foam cell formation via NF-κB.
 - **[[Coronary Artery Disease]]**: Genetic SIRT1 polymorphisms associated with CAD risk; reduced expression in CAD patients; lncRNA C2dat1 → SIRT1 → suppresses miR-34a → VSMC proliferation/migration.
 - **[[Myocardial Ischemia-Reperfusion Injury]]**: Protective — cardiac-specific KO increases infarct size; overexpression upregulates FoxO1/MnSOD antioxidant pathways, downregulates caspase-3/Bax; miR-132 inhibition → PGC-1α/Nrf2.

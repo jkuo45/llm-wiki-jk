@@ -16,7 +16,7 @@ aliases: []
 
 Gemcitabine's mechanism of action is multifaceted, involving both the inhibition of DNA synthesis and the depletion of the nucleotide pools required for DNA replication.
 
-1. **Nucleoside Analog Incorporation**: As a deoxycytidine analog, gemcitabine is taken up by cells via nucleoside transporters and subsequently phosphorylated by [[Deoxycytidine kinase]] (dCK) into its active diphosphate and triphosphate forms (dFdCDP and dFdCTP). The triphosphate form, dFdCTP, competes with the natural substrate, dCTP, for incorporation into nascent [[DNA]] strands by [[DNA polymerase]] during the [[S phase]] of the [[Cell cycle]].
+1. **Nucleoside Analog Incorporation**: As a deoxycytidine analog, gemcitabine is taken up by cells via nucleoside transporters and subsequently phosphorylated by [[Deoxycytidine kinase]] (dCK) into its active diphosphate and triphosphate forms (dFdCDP and dFdCTP). The triphosphate form, dFdCTP, competes with the natural substrate, dCTP, for incorporation into nascent [[DNA]] strands by [[DNA polymerase]] during the [[S Phase]] of the [[Cell cycle]].
 
 2. **Masked Chain Termination**: Unlike some other nucleoside analogs that cause immediate chain termination, gemcitabine exhibits a phenomenon known as "masked chain termination." After the incorporation of one or two gemcitabine triphosphate molecules, the DNA polymerase is able to add additional natural nucleotides (typically one or two) onto the 3' end. However, this subsequent addition prevents further elongation of the DNA strand, effectively stalling the replication fork.
 
@@ -61,13 +61,13 @@ List of documents that mention this entity
 - [[Senescence]] — Gemcitabine can induce cellular senescence through replication stress.
 - [[Apoptosis]] — High doses of gemcitabine lead to programmed cell death.
 - [[Cell cycle]] — It primarily acts during the S phase of the cell cycle.
-- [[S phase]] — The period of DNA synthesis where gemcitabine is most active.
+- [[S Phase]] — The period of DNA synthesis where gemcitabine is most active.
 - [[Nucleoside]] — Gemcitabine is a deoxycytidine nucleoside analog.
 - [[Ribonucleotide Reductase]] — Gemcitabine inhibits this enzyme, depleting dNTP pools.
 - [[DNA Damage Response]] — It activates DDR pathways following DNA incorporation and replication stress.
 
 ## Linking Summary
 
-- New links added: [[DNA Replication]], [[DNA Polymerase]], [[DNA Replication Stress]], [[Senescence]], [[Apoptosis]], [[Cell cycle]], [[S phase]], [[Nucleoside]], [[Ribonucleotide Reductase]], [[DNA Damage Response]], [[Deoxycytidine kinase]], [[DNA]], [[ATR]], [[ATM]]
+- New links added: [[DNA Replication]], [[DNA Polymerase]], [[DNA Replication Stress]], [[Senescence]], [[Apoptosis]], [[Cell cycle]], [[S Phase]], [[Nucleoside]], [[Ribonucleotide Reductase]], [[DNA Damage Response]], [[Deoxycytidine kinase]], [[DNA]], [[ATR]], [[ATM]]
 - Suggested new entity notes to create: [[Nab-paclitaxel]], [[hENT1]], [[cytidine deaminase]]
 - Strong connections to strengthen: [[Gemcitabine]] ↔ [[DNA Replication Stress]], [[Gemcitabine]] ↔ [[Ribonucleotide Reductase]]

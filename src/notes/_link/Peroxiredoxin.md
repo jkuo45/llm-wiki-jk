@@ -22,7 +22,7 @@ Mammals express six isoforms (Prx1–Prx6). All use a conserved peroxidatic cyst
 
 ## Biology & Regulation
 
-Beyond simple scavenging, Prx are notable for a "floodgate" behavior: mild [[Oxidative Stress]] oxidizes the peroxidatic cysteine only to the disulfide (active), but high peroxide flux over-oxidizes it to sulfinic acid (−SO2H), inactivating the enzyme and revealing its molecular chaperone activity. This over-oxidation is selectively reversed by sulfiredoxin (ATP-dependent) in eukaryotes. Mitochondrial [[Prx3]] and peroxisomal Prx5 protect organelle compartments; cytosolic Prx1/2 buffer signaling H2O2.
+Beyond simple scavenging, Prx are notable for a "floodgate" behavior: mild [[Oxidative Stress]] oxidizes the peroxidatic cysteine only to the disulfide (active), but high peroxide flux over-oxidizes it to sulfinic acid (−SO2H), inactivating the enzyme and revealing its molecular chaperone activity. This over-oxidation is selectively reversed by sulfiredoxin (ATP-dependent) in eukaryotes. Mitochondrial [[Peroxiredoxin 3|Prx3]] and peroxisomal Prx5 protect organelle compartments; cytosolic Prx1/2 buffer signaling H2O2.
 
 ## Pathology & Relevance
 
@@ -39,7 +39,8 @@ Prx defend against damage to proteins, lipids, and DNA and cooperate with [[Cata
 
 ## Connections
 
-  - [[Thioredoxin]]: Direct electron donor that regenerates oxidized Prx.
+  - [[Thioredoxin]] / [[Thioredoxin-1]]: Direct electron donor (Trx1) that regenerates oxidized cytosolic Prx.
+  - [[Thioredoxin-2]]: Regenerates mitochondrial [[Peroxiredoxin 3|Prx3]]; the Trx2–Prx3 pair removes mitochondrial H2O2.
   - [[Glutathione]]: Parallel (peroxidase/reductase) antioxidant system.
   - [[Oxidative Stress]]: Prx are central guardians of redox homeostasis.
   - [[Catalase]] / [[Superoxide Dismutase]]: Complementary redox-defense enzymes.
@@ -47,7 +48,7 @@ Prx defend against damage to proteins, lipids, and DNA and cooperate with [[Cata
 
 ## Linking Summary
 
-  - New links added: [[Thioredoxin]], [[Glutathione]], [[Oxidative Stress]], [[Catalase]], [[Superoxide Dismutase]], [[Mitochondria]], [[Hydrogen Peroxide]], [[Redox Signaling]]
+  - New links added: [[Thioredoxin]], [[Thioredoxin-1]], [[Thioredoxin-2]], [[Glutathione]], [[Oxidative Stress]], [[Catalase]], [[Superoxide Dismutase]], [[Mitochondria]], [[Hydrogen Peroxide]], [[Redox Signaling]]
   - Suggested new entity notes to create: [[Sulfiredoxin]], [[Peroxiredoxin 3]], [[Thioredoxin reductase]]
-  - Strong connections to strengthen: [[Peroxiredoxin]] ↔ [[Thioredoxin]], [[Peroxiredoxin]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[Peroxiredoxin]] ↔ [[Thioredoxin-1]], [[Peroxiredoxin]] ↔ [[Oxidative Stress]]
   - Justification: Sulfiredoxin is required to explain Prx over-oxidation repair; Prx3/isoform notes and thioredoxin reductase complete the regeneration pathway.
