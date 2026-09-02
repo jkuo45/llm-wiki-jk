@@ -40,6 +40,15 @@
           { "q": "How does Honokiol protect MFN2 mitochondrial fusion and intersect Caspase-3 in cardiac hypertrophy?", "tags": ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
           { "q": "How are mitochondrial outer membrane permeabilization, the intrinsic pathway, and the caspase cascade regulated by Sirtuins?", "tags": ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] }
         ]
+      },
+      {
+        "title": "Quantitative redox & hormesis",
+        "items": [
+          { "q": "Under physiological ETC flux, what fraction of MnSOD-derived H₂O₂ is handled by Prx3/Trx2 vs catalase/GPx in the matrix, and how does that split change with MnSOD acetylation state (the K68 peroxidase switch)?", "tags": ["MnSOD", "Peroxiredoxin 3", "Thioredoxin", "Catalase", "Glutathione Peroxidase", "SIRT3"] },
+          { "q": "Does MnSOD activity ever functionally limit the Trx water arm? Is TXNRD2/NADPH capacity ever saturating under SOD2-driven bursts, converting an otherwise-buffering Trx system into a rate-limiting, and therefore hormetic-signaling, step?", "tags": ["MnSOD", "SOD2", "Thioredoxin", "Thioredoxin reductase", "Hormesis"] },
+          { "q": "Beyond metabolic coupling, is there any regulatory (post-translational, non-interacting) coupling signal that coordinates SOD2 and Trx expression within the same cell beyond shared FOXO/Nrf2 transcription?", "tags": ["SOD2", "Thioredoxin", "FOXO", "NRF2"] },
+          { "q": "Would a SIRT3 activator (MnSOD-boosting) combined with a Trx1/Trx2-preserving strategy outperform either alone in cardio- and neuroprotection, or simply re-collapse the hormetic window?", "tags": ["SIRT3", "Thioredoxin", "Hormetic Window", "Neuroprotection"] }
+        ]
       }
     ]
   },
@@ -83,6 +92,15 @@
           { "q": "追蹤 MOMP 經內在途徑到 Caspase-9 的過程，並將 SIRT1 定位在這條線上", "tags": ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
           { "q": "Honokiol 如何保護 MFN2 粒線體融合，並在心肌肥大中與 Caspase-3 交會？", "tags": ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
           { "q": "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？", "tags": ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] }
+        ]
+      },
+      {
+        "title": "定量氧化還原與興奮效應",
+        "items": [
+          { "q": "在生理性 ETC 通量下，MnSOD 產生的 H₂O₂ 有多少比例由基質中的 Prx3/Trx2 處理，又有多少由 catalase/GPx 處理？當 MnSOD 的乙醯化狀態改變（K68 過氧化物酶開關）時，這個比例又會如何變化？", "tags": ["MnSOD", "Peroxiredoxin 3", "Thioredoxin", "Catalase", "Glutathione Peroxidase", "SIRT3"] },
+          { "q": "MnSOD 活性是否會在功能上限制 Trx「水臂」？在 SOD2 驅動的氧化爆發下，TXNRD2/NADPH 的容量是否會飽和，使原本具緩衝作用的 Trx 系統轉變成速率限制步驟，因而成為毒物興奮（hormetic）訊號？", "tags": ["MnSOD", "SOD2", "Thioredoxin", "Thioredoxin reductase", "Hormesis"] },
+          { "q": "除了代謝耦合之外，在相同的細胞內，除了共用的 FOXO/Nrf2 轉錄之外，是否存在任何調控性（轉譯後修飾、非交互作用）耦合訊號，能協調 SOD2 與 Trx 的表現？", "tags": ["SOD2", "Thioredoxin", "FOXO", "NRF2"] },
+          { "q": "若將 SIRT3 活化劑（提升 MnSOD）與保留 Trx1/Trx2 的策略合併，在心臟與神經保護上是否會優於單獨使用其中任一種？抑或只是再次讓興奮窗口塌陷？", "tags": ["SIRT3", "Thioredoxin", "Hormetic Window", "Neuroprotection"] }
         ]
       }
     ]
