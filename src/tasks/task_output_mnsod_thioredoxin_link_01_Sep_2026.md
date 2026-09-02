@@ -19,7 +19,7 @@ author: []
 ---
 
 > [!note]
-> **Thesis:** [[MnSOD]]/[[MnSOD]] and the thioredoxin system ([[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[Glutaredoxin]]) are best understood not as interchangeable antioxidants but as the two **chemically coupled halves of one compartmentalized peroxide-relay** — `SOD2 → H₂O₂ → Prx/Trx → H₂O` — deployed together in a shared stress-resistance program that sirtuins and transcription factors co-regulate, and both gated by overlapping hormetic windows.
+> **Thesis:** [[MnSOD]] and the thioredoxin system ([[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[Glutaredoxin]]) are best understood not as interchangeable antioxidants but as the two **chemically coupled halves of one compartmentalized peroxide-relay** — `SOD2 → H₂O₂ → Prx/Trx → H₂O` — deployed together in a shared stress-resistance program that sirtuins and transcription factors co-regulate, and both gated by overlapping hormetic windows.
 > **Date:** 01_Sep_2026
 > **Sources:** wiki vault (`src/notes/`: `MnSOD`, `Thioredoxin-1`, `Thioredoxin-2`, `Peroxiredoxin 3`, `Glutaredoxin`), and current web literature (PMIDs/DOIs below, verified this session).
 
