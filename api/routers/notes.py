@@ -36,7 +36,7 @@ from pathlib import Path
 from fastapi import APIRouter, BackgroundTasks, File, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse
 
-from .llm import OpencodeUnavailable, transcribe_image
+from ..gateways.llm import OpencodeUnavailable, transcribe_image
 
 logger = logging.getLogger(__name__)
 

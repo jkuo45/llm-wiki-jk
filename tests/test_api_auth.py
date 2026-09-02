@@ -8,7 +8,7 @@ import httpx
 import pytest
 from starlette.requests import Request
 
-import api.auth as auth
+import api.gateways.auth as auth
 
 
 def make_request(headers: dict[str, str] | None = None, method="POST",

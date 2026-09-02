@@ -12,7 +12,7 @@ from fastapi import HTTPException
 from PIL import Image
 
 import api.main as main_mod
-import api.notes as notes
+import api.routers.notes as notes
 
 
 def png_bytes(size=(8, 6), color=(10, 20, 30)):

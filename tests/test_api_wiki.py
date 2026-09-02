@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-import api.wiki as wiki
+import api.domain.wiki as wiki
 
 
 @pytest.fixture

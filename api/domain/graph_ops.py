@@ -8,7 +8,7 @@ from pathlib import Path
 import networkx as nx
 from networkx.readwrite import json_graph
 
-from api.wiki import enrich_description
+from .wiki import enrich_description
 
 logger = logging.getLogger(__name__)
 

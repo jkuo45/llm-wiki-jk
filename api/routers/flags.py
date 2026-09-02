@@ -9,9 +9,8 @@ deploy. The Supabase content_flags table is now the runtime source of truth:
                     clients merge the DB flags on top when reachable).
   - POST /v1/flags  batch upsert. Super-admin only — the auth_gate middleware
                     in main.py already requires a verified token on every
-                    mutating /v1 path not carved out; this router adds a
-                    defence-in-depth check of its own (mirrors graphs.py,
-                    which never falls back open when auth is unconfigured).
+                    mutating /v1 path; this router adds a defence-in-depth
+                    check of its own.
 
 Flag semantics: each flag column is nullable — a NULL (or absent) flag means
 "not set", so consumers fall back to the static baked-in value. An item may
@@ -36,8 +35,8 @@ from datetime import datetime, timezone
 from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel, Field
 
-from .auth import get_user_id
-from .db import DBError, DB_ENABLED, select, upsert
+from ..gateways.auth import get_user_id
+from ..gateways.db import DBError, DB_ENABLED, select, upsert
 
 logger = logging.getLogger(__name__)
 

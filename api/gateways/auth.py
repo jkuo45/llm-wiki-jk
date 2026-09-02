@@ -107,8 +107,7 @@ async def get_user_id(request: Request) -> str | None:
     """Verified Supabase user id for the request's bearer token, or None.
 
     Multi-user counterpart to is_super_admin: any signed-in user qualifies.
-    Used by the /v1/graphs and /v1/research routers, which scope every row by
-    this id (the service-role PostgREST client bypasses RLS).
+    Used by the flags router to attribute curation updates.
     """
     token = bearer_token(request)
     if not token:

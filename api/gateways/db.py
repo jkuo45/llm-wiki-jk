@@ -1,12 +1,11 @@
-"""Server-side PostgREST access for user graphs + the research queue.
+"""Server-side PostgREST persistence for the content-flags router (/v1/flags).
 
 Uses the service-role key over HTTPS (same dependency-free httpx pattern as
-auth.py). Because the service role bypasses RLS, EVERY query in the routers
-MUST scope rows explicitly by owner — do not add helpers here that hide the
-owner filter.
+auth.py). Because the service role bypasses RLS, the single consumer (flags.py)
+scopes rows explicitly where ownership matters.
 
-Set SUPABASE_URL + SUPABASE_SERVICE_KEY to enable; without them the /v1/graphs
-and /v1/research routers return 503 (the rest of the API keeps working).
+Set SUPABASE_URL + SUPABASE_SERVICE_KEY to enable; without them /v1/flags
+returns 503 (the rest of the API keeps working).
 """
 
 import logging
