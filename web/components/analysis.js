@@ -178,11 +178,11 @@ onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 
 // ------------------------------------------------------------
 // Response view mode (MD / HTML) — choose how a response is rendered.
-//   html : open the response in the standalone HTML-mode page (pages.css) (default)
-//   md   : render markdown inline in the prompt bubble
+//   md   : render markdown inline in the prompt bubble (default)
+//   html : open the response in the standalone HTML-mode page (pages.css)
 // The per-message globe button still lets you open HTML on demand in MD mode.
 // ------------------------------------------------------------
-let responseMode = 'html'; // 'md' | 'html'
+let responseMode = 'md'; // 'md' | 'html'
 
 if (responseModeWrap) {
   enhanceSegmented(responseModeWrap, {
