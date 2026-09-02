@@ -1,27 +1,27 @@
-"""Notes panel support.
+"""Notes gallery support.
 
-Serves + accepts photos of handwritten notes about papers. Two posting paths
-feed one place:
+Serves photos of handwritten notes that were ingested by the offline
+`image-ingest` skill (src/images/manifest.json — the durable source of truth).
+Live browser uploads were removed; this module is a read-only gallery plus
+annotation/metadata editing:
 
-  - committed curation  : src/images/manifest.json  (durable, ships with the wiki)
-  - live uploads        : src/images/.staged.json   (browser uploads, served immediately)
+  - GET  /v1/notes                       merged committed index + document index
+  - GET  /v1/notes/image/{id}/{page}     serve a note page (or ?thumb=1)
+  - POST /v1/notes/{id}/annotations      replace a note's annotation overlay
+  - POST /v1/notes/{id}/metadata         update title / document / entities / tags
 
-The GET index merges both. Manifest entries may also carry a `path` field
-pointing at an image that stays in place elsewhere in the repo (resolved
-relative to src/images/, e.g. '../data/biology/<topic>/<file>'); such notes are
-served from that location and their thumbnail lives in src/images/<id>/.
-
-Writes are PUBLIC for now (auth lands later). Reads are public like the rest of
-the site. OCR runs ONCE per note through the read-only wiki-util agent: the
-endpoint short-circuits when a transcript already exists.
+Manifest entries may also carry a `path` field pointing at an image that stays
+in place elsewhere in the repo (resolved relative to src/images/, e.g.
+'../data/biology/<topic>/<file>'); such notes are served from that location and
+their thumbnail lives in src/images/<id>/.
 
 IMAGE SERVING IS GITHUB-FIRST. The web client (web/components/notes.js) builds
 image URLs directly from the deterministic repo path src/images/<id>/<file>
 (thumbnail <stem>.thumb.<ext>) hosted on raw.githubusercontent.com, so the
 browser loads note images from GitHub's CDN rather than proxying bytes through
 this server. This endpoint therefore acts only as a fallback for images not yet
-committed/pushed to GitHub (staged drafts in .staged.json) or on cache lag. It
-still serves every file locally so the client's onerror fallback always works.
+committed/pushed to GitHub or on cache lag. It still serves every file locally
+so the client's onerror fallback always works.
 """
 
 import asyncio
@@ -33,10 +33,8 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import APIRouter, BackgroundTasks, File, Form, HTTPException, UploadFile
+from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
-
-from ..gateways.llm import OpencodeUnavailable, transcribe_image
 
 logger = logging.getLogger(__name__)
 
@@ -48,19 +46,6 @@ MANIFEST_FILE = IMAGES_DIR / "manifest.json"
 STAGED_FILE = IMAGES_DIR / ".staged.json"
 NOTES_DIR = REPO_ROOT / "src" / "notes"
 
-MAX_FILE_BYTES = 30 * 1024 * 1024  # 30 MB per image
-MAX_PAGES = 24
-ALLOWED_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
-_ALLOWED_CONTENT = {
-    "image/jpeg", "image/png", "image/webp", "image/gif",
-    "application/octet-stream", "",  # some browsers send opaque types
-}
-
-_SLUG_RE = re.compile(r"[^a-z0-9]+")
-
-# Model refusals / vision-less responses must never be cached as a finished OCR
-# transcript. The OCR prompt is instructed to return the exact sentinel
-# OCR_FAILED when it cannot see the image; older refusals are caught here too.
 _OCR_FAIL_RE = re.compile(
     r"OCR_FAILED|"
     r"cannot (transcribe|process|read)|"
@@ -74,32 +59,6 @@ _OCR_FAIL_RE = re.compile(
 
 def _looks_like_ocr_failure(text: str) -> bool:
     return bool(text and _OCR_FAIL_RE.search(text))
-
-
-# OCR locale aliases → canonical BCP-47 keys used in note.translations. English
-# (en-US) is the default locale; Traditional Chinese is this wiki's second.
-_LOCALE_ALIASES = {
-    "en": "en-US",
-    "en-us": "en-US",
-    "en_us": "en-US",
-    "zh": "zh-TW",
-    "zh-tw": "zh-TW",
-    "zh_tw": "zh-TW",
-    "zh-hant": "zh-TW",
-    "zh-hant-tw": "zh-TW",
-    "zh-hk": "zh-TW",
-    "zh-cn": "zh-CN",
-    "zh-hans": "zh-CN",
-}
-
-
-class _UploadTooLarge(Exception):
-    """Raised mid-stream when an uploaded image exceeds MAX_FILE_BYTES."""
-
-
-def _locale_of(code: str) -> str:
-    """Map a loose language code to a canonical translations key (en-US default)."""
-    return _LOCALE_ALIASES.get((code or "").strip().lower(), "en-US")
 
 
 def _now_iso() -> str:
@@ -229,43 +188,8 @@ def _thumb_path(page_path: Path, note: dict | None = None) -> Path:
     return page_path.parent / (page_path.stem + ".thumb" + page_path.suffix)
 
 
-_THUMB_SIZE = 400  # longest edge — plenty for the small gallery cards
-
-
-def _make_thumbnail(page_path: Path, note: dict | None = None) -> None:
-    """Downscale a page image into its thumbnail (best-effort).
-
-    Pillow/JPEG robustness lets us generate a small thumbnail here, but we treat
-    the import as optional so an upload never fails just because the deploy
-    hasn't installed it yet — missing thumbs fall back to full-res (see
-    get_image) and scripts/tools/thumbnail.py can backfill later.
-    Keeping the source format means the served content-type stays correct."""
-    try:
-        from PIL import Image, ImageOps  # noqa: PLC0415 - deferred optional dep
-    except ImportError:
-        return
-    try:
-        with Image.open(page_path) as im:
-            im = ImageOps.exif_transpose(im)
-            im.thumbnail((_THUMB_SIZE, _THUMB_SIZE))
-            tpath = _thumb_path(page_path, note)
-            ext = page_path.suffix.lower()
-            if ext in (".jpg", ".jpeg"):
-                if im.mode in ("RGBA", "P", "LA"):
-                    im = im.convert("RGB")
-                im.save(tpath, format="JPEG", quality=74, optimize=True)
-            elif ext == ".webp":
-                im.save(tpath, format="WEBP", quality=74)
-            elif ext == ".gif":
-                im.convert("RGB").save(tpath, format="GIF", optimize=True)
-            else:  # .png
-                im.save(tpath, format="PNG", optimize=True)
-    except Exception as exc:  # noqa: BLE001 - thumbnails are best-effort
-        logger.warning("notes thumb generation failed for %s: %s", page_path.name, exc)
-
-
 def _list_documents() -> list[dict]:
-    """Index of paper/document notes in src/notes for the upload picker.
+    """Index of paper/document notes in src/notes for the gallery / admin list.
 
     Cached by the directory's mtime so we don't re-walk the whole tree on every
     gallery refresh."""
@@ -366,205 +290,6 @@ async def get_image(note_id: str, page: int, thumb: bool = False) -> FileRespons
     )
 
 
-@router.post("/upload")
-async def upload_notes(
-    background_tasks: BackgroundTasks,
-    files: list[UploadFile] = File(...),
-    title: str = Form(""),
-    topic: str = Form(""),
-    document: str = Form(""),
-    entities: str = Form("[]"),
-    tags: str = Form("[]"),
-) -> dict:
-    """Upload one note (one or more page photos) + metadata. Public for now."""
-    if not files or len(files) > MAX_PAGES:
-        raise HTTPException(status_code=400, detail=f"1–{MAX_PAGES} images per note")
-
-    # Validate type/content-type up front; the bytes are streamed to disk in
-    # chunks below (no full-file buffering) so a 24×30 MB upload can't blow up
-    # process memory.
-    for f in files:
-        ext = Path(f.filename or "").suffix.lower() or ".jpg"
-        if ext not in ALLOWED_EXT:
-            raise HTTPException(status_code=400, detail=f"Unsupported type: {ext}")
-        if f.content_type not in _ALLOWED_CONTENT:
-            raise HTTPException(status_code=400, detail=f"Unsupported content type: {f.content_type}")
-
-    # Legacy topic field (empty when not provided) is folded into tags below;
-    # no topic key is stored on notes anymore.
-    clean_topic = (_SLUG_RE.sub("-", (topic or "").strip().lower()).strip("-") or "")[:40]
-
-    try:
-        parsed_entities = json.loads(entities)
-        parsed_tags = json.loads(tags)
-    except json.JSONDecodeError:
-        raise HTTPException(status_code=400, detail="entities/tags must be JSON arrays")
-    if not isinstance(parsed_entities, list) or not isinstance(parsed_tags, list):
-        raise HTTPException(status_code=400, detail="entities/tags must be JSON arrays")
-    parsed_entities = [str(e).strip() for e in parsed_entities[:40] if str(e).strip()]
-    parsed_tags = [str(t).strip().lower().replace(" ", "-") for t in parsed_tags[:40] if str(t).strip()]
-    # Topic no longer exists on notes; fold the legacy topic field into the
-    # tags list so categorization lives in tags/entities only.
-    if clean_topic and clean_topic not in parsed_tags:
-        parsed_tags.insert(0, clean_topic)
-
-    slug_base = _SLUG_RE.sub("-", ((title or "note").strip().lower()))[:40].strip("-") or "note"
-    note_id = f"n-{_today().replace('-', '')}-{slug_base}"
-    # Avoid collisions if the same title arrives twice on one day.
-    existing = _note_lookup()
-    suffix = 2
-    while note_id in existing:
-        note_id = f"n-{_today().replace('-', '')}-{slug_base}-{suffix}"
-        suffix += 1
-
-    ngroup = _note_dir(note_id)
-    pages = []
-    try:
-        ngroup.mkdir(parents=True, exist_ok=True)
-        for idx, f in enumerate(files, start=1):
-            ext = Path(f.filename or "").suffix.lower() or ".jpg"
-            fname = f"page-{idx}{ext}"
-            page_path = ngroup / fname
-            # Stream to disk in 64 KB chunks; enforce the per-image cap as we go.
-            total = 0
-            with open(page_path, "wb") as out:
-                while True:
-                    chunk = await f.read(65536)
-                    if not chunk:
-                        break
-                    total += len(chunk)
-                    if total > MAX_FILE_BYTES:
-                        raise _UploadTooLarge()
-                    out.write(chunk)
-            if total == 0:
-                raise HTTPException(status_code=400, detail="Empty file")
-            pages.append({"page": idx, "file": fname})
-            # Thumbnails are best-effort and off the request path; the gallery
-            # already falls back to full-res when a thumb is absent.
-            background_tasks.add_task(_make_thumbnail, page_path)
-    except _UploadTooLarge:
-        import shutil
-
-        shutil.rmtree(ngroup, ignore_errors=True)
-        raise HTTPException(status_code=413, detail="Image exceeds 30 MB")
-    except OSError as e:
-        logger.exception("notes upload write failed for %s", note_id)
-        import shutil
-
-        shutil.rmtree(ngroup, ignore_errors=True)
-        raise HTTPException(
-            status_code=500,
-            detail=(
-                f"Could not save the note on the server ({e}). "
-                "The API user needs write access to src/images "
-                "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
-            ),
-        )
-
-    note = {
-        "id": note_id,
-        "document": document.strip(),
-        "entities": parsed_entities,
-        "tags": parsed_tags,
-        "pages": pages,
-        "translations": {
-            "en-US": {
-                "title": title.strip() or note_id,
-                "ocr": "",
-            }
-        },
-        "annotations": [],
-        "created": _today(),
-        "updated": _today(),
-        "author": "you",
-        "draft": True,
-    }
-
-    # Register under the lock so a concurrent upload/edit can't clobber the
-    # staged manifest between our read and write.
-    async with _staged_lock:
-        staged = _staged_notes()
-        staged.append(note)
-        try:
-            _write_staged(staged)
-        except OSError as e:
-            logger.exception("notes staged manifest write failed for %s", note_id)
-            import shutil
-
-            shutil.rmtree(ngroup, ignore_errors=True)
-            raise HTTPException(
-                status_code=500,
-                detail=(
-                    f"Could not register the note ({e}). "
-                    "The API user needs write access to src/images "
-                    "(e.g. sudo chown -R wiki:wiki /srv/llm-wiki-jk/src/images)."
-                ),
-            )
-    logger.info(f"notes upload: {note_id} ({len(pages)} pages)")
-    return _public_note(note)
-
-
-@router.post("/transcribe")
-async def transcribe_note(payload: dict) -> dict:
-    """OCR a note via the read-only vision agent. Runs once per note."""
-    note_id = payload.get("id")
-    if not note_id:
-        raise HTTPException(status_code=400, detail="id required")
-    note = _note_lookup().get(note_id)
-    if note is None:
-        raise HTTPException(status_code=404, detail="Note not found")
-
-    # Transcripts live in translations[<locale>]; en-US is the default and
-    # legacy root `ocr` is a fallback for un-migrated/staged entries.
-    lang = payload.get("lang") or "en"
-    locale = _locale_of(lang)
-    existing = (
-        _tr(note, locale).get("ocr")
-        or _tr(note, "en-US").get("ocr")
-        or note.get("ocr")
-        or ""
-    )
-    if existing and not _looks_like_ocr_failure(existing):
-        return {"id": note_id, "ocr": existing, "cached": True}
-
-    chunks = []
-    # OCR each page concurrently (bounded so we don't open a session per page
-    # all at once); a failed page aborts the whole note, matching the old
-    # sequential behaviour.
-    sem = asyncio.Semaphore(4)
-
-    async def _ocr(p: dict) -> str:
-        path = _note_dir(note_id) / p["file"]
-        if not path.exists():
-            return f"--- Page {p['page']}: image missing ---"
-        async with sem:
-            text = await transcribe_image(str(path))
-        if not text or _looks_like_ocr_failure(text):
-            raise RuntimeError(
-                "The OCR agent could not read the image — the wiki-util "
-                "model may not support vision. Switch to a vision-capable "
-                "model and try again."
-            )
-        return f"--- Page {p['page']} ---\n{text}"
-
-    try:
-        results = await asyncio.gather(
-            *(_ocr(p) for p in note.get("pages", [])), return_exceptions=True
-        )
-    except OpencodeUnavailable as e:  # pragma: no cover - swallowed by callee
-        raise HTTPException(status_code=503, detail=f"OCR unavailable: {e}")
-    failed = [r for r in results if isinstance(r, Exception)]
-    if failed:
-        raise HTTPException(status_code=502, detail=str(failed[0]))
-    chunks = [r for r in results if isinstance(r, str)]
-
-    transcript = "\n\n".join(chunks)
-    note.setdefault("translations", {}).setdefault(locale, {})["ocr"] = transcript
-    note["updated"] = _today()
-    await _persist_note(note)
-    return {"id": note_id, "ocr": transcript, "cached": False}
-
-
 @router.post("/{note_id}/annotations")
 async def save_annotations(note_id: str, payload: dict) -> dict:
     """Replace the annotation overlay list for a note."""
@@ -639,3 +364,5 @@ async def _persist_note(note: dict) -> None:
                 return
         staged.append(note)
         _write_staged(staged)
+
+

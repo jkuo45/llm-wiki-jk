@@ -295,7 +295,7 @@ class TestExecuteStream:
 
 class TestRateLimitHelpers:
     def test_limit_for_known_paths(self):
-        assert main_mod._limit_for("/v1/notes/upload") == (8, 60)
+        assert main_mod._limit_for("/v1/notes/n1/annotations") == (60, 60)
         assert main_mod._limit_for("/v1/intent") == (40, 60)
         assert main_mod._limit_for("/v1/flags") == (60, 60)
 

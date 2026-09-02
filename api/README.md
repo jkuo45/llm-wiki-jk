@@ -22,7 +22,7 @@ HTTP status codes / SSE payloads. Nothing here performs real work.
 | File | Surface |
 | --- | --- |
 | `prompts.py` | `/v1/health`, `/v1/intent`, `/v1/session/reset`, `/v1/execute/stream`, session registry + SSE helpers |
-| `notes.py` | `/v1/notes` read + upload/transcribe |
+| `notes.py` | `/v1/notes` read-only gallery + image serving, annotations/metadata (no live uploads) |
 | `flags.py` | `/v1/flags` content-curation overlay (GET public, POST super-admin) |
 
 ### `domain/` — pure services
@@ -39,7 +39,7 @@ All external I/O, each owning its client lifecycle (`close_client()`).
 
 | File | Responsibility |
 | --- | --- |
-| `llm.py` | opencode client: sessions, SSE streams, intent parsing, translation, image transcription |
+| `llm.py` | opencode client: sessions, SSE streams, intent parsing, translation |
 | `auth.py` | Supabase token verification (super-admin gate + any-user id lookup) |
 | `db.py` | PostgREST persistence for the flags router (`content_flags`) |
 

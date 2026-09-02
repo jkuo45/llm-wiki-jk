@@ -144,8 +144,6 @@ _RATE_LOCK = asyncio.Lock()
 
 # path -> (max requests, window seconds). More specific paths take precedence.
 _RATE_LIMITS: dict[str, tuple[int, int]] = {
-    "/v1/notes/upload": (8, 60),
-    "/v1/notes/transcribe": (20, 60),
     "/v1/notes/": (60, 60),  # annotations / metadata edits
     "/v1/intent": (40, 60),
     "/v1/execute/stream": (40, 60),

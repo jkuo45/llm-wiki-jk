@@ -516,50 +516,6 @@ async def translate_text(text: str, user_message: str, timeout: float = 90.0) ->
             await delete_session(session_id)
 
 
-# ----------------------------------------------------------------------------
-# Handwriting OCR (vision via the utility agent)
-# ----------------------------------------------------------------------------
-
-OCR_PROMPT = """You are transcribing handwriting from a photo of handwritten notes about a
-scientific paper.
-
-Read the image at the following absolute path and transcribe ALL visible text as
-faithfully as you can:
-{path}
-
-Rules:
-- Output ONLY the transcribed text. No commentary, no markdown code fences.
-- Preserve the note's structure (headings, numbered lists, bullets).
-- Where diagrams/arrows/boxes appear, fold them into inline text or a short
-  bulleted list so nothing meaningful is lost.
-- Render chemical, gene, and protein symbols in their standard forms (e.g.
-  SIRT1, NAD+). Do not wrap them in [[wiki links]].
-- IMPORTANT: If you cannot actually see or read the image (for example, your
-  model has no vision support), reply EXACTLY with the single line: OCR_FAILED"""
-
-
-async def transcribe_image(
-    image_path: str, timeout: float = 120.0
-) -> str:
-    """OCR a photo of handwritten notes via the read-only utility agent.
-
-    Runs ONCE per image by design: callers are expected to persist the result
-    and short-circuit before re-calling. Returns "" on any failure so callers
-    can surface a friendly error.
-    """
-    prompt = OCR_PROMPT.replace("{path}", image_path)
-    session_id = None
-    try:
-        session_id = await create_session(title="ocr")
-        text = await _prompt_sync(session_id, prompt, timeout=timeout)
-        return text.strip()
-    except Exception as e:  # noqa: BLE001 - OCR is best-effort
-        logger.error(f"transcribe_image failed: {e}")
-        return ""
-    finally:
-        if session_id:
-            await delete_session(session_id)
-
 
 # ----------------------------------------------------------------------------
 # Helpers

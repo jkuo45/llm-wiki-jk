@@ -12,7 +12,7 @@ import api.gateways.auth as auth
 
 
 def make_request(headers: dict[str, str] | None = None, method="POST",
-                 path="/v1/notes/upload") -> Request:
+                 path="/v1/notes/n1/annotations") -> Request:
     raw = [[k.lower().encode(), v.encode()] for k, v in (headers or {}).items()]
     return Request(scope={
         "type": "http", "method": method, "path": path,

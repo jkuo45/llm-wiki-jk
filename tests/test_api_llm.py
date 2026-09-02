@@ -263,29 +263,6 @@ class TestBestEffortWrappers:
         monkeypatch.setattr(llm, "create_session", boom)
         assert await llm.write_analysis_narrative({}) == ""
 
-    @pytest.mark.asyncio
-    async def test_transcribe_image(self, opencode, monkeypatch):
-        captured = {}
-
-        async def fake_sync(session_id, text, timeout=60.0, agent=None):
-            captured["prompt"] = text
-            return " transcribed words "
-
-        monkeypatch.setattr(llm, "_prompt_sync", fake_sync)
-        monkeypatch.setattr(llm, "create_session", lambda title="x": _async("s1"))
-        monkeypatch.setattr(llm, "delete_session", _noop)
-        assert await llm.transcribe_image("/tmp/notes/page-1.png") == (
-            "transcribed words")
-        assert "/tmp/notes/page-1.png" in captured["prompt"]
-
-    @pytest.mark.asyncio
-    async def test_transcribe_image_failure_is_empty(self, opencode, monkeypatch):
-        async def boom(*a, **k):
-            raise RuntimeError("x")
-
-        monkeypatch.setattr(llm, "create_session", boom)
-        assert await llm.transcribe_image("/tmp/x.png") == ""
-
 
 class TestStreamAnswer:
     def _patch(self, monkeypatch, bus_text, prompt_status=204, event_status=200):
