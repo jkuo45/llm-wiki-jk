@@ -12,8 +12,8 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-WIKI_ROOT = Path(__file__).parent.parent / "src" / "notes"
-TASKS_ROOT = Path(__file__).parent.parent / "src" / "tasks"
+WIKI_ROOT = Path(__file__).resolve().parents[2] / "src" / "notes"  # api/domain/ -> repo root
+TASKS_ROOT = Path(__file__).resolve().parents[2] / "src" / "tasks"
 
 _MAX_EXCERPT = 600
 _MAX_DESCRIPTION = 1200

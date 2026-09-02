@@ -40,7 +40,7 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/v1/notes", tags=["notes"])
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parents[2]  # api/routers/ -> repo root
 IMAGES_DIR = REPO_ROOT / "src" / "images"
 MANIFEST_FILE = IMAGES_DIR / "manifest.json"
 STAGED_FILE = IMAGES_DIR / ".staged.json"

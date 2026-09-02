@@ -14,6 +14,13 @@ from PIL import Image
 import api.main as main_mod
 import api.routers.notes as notes
 
+# Default (repo-relative) roots must resolve to the actual repo dirs — a move
+# that shifts the Path(__file__) depth silently empties the gallery. The
+# notes_env fixture patches REPO_ROOT, so assert the un-patched default here.
+def test_default_repo_root_points_at_repo():
+    assert (notes.REPO_ROOT / "src" / "images").is_dir()
+    assert (notes.REPO_ROOT / "src" / "notes").is_dir()
+
 
 def png_bytes(size=(8, 6), color=(10, 20, 30)):
     buf = io.BytesIO()
