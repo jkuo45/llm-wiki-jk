@@ -424,8 +424,8 @@
         <p><strong>How to use this page:</strong> For each of the 12 domains below, move the
         slider to rate your current hormetic practice from <em>None</em> (0) through
         <em>Hormetic zone</em> (5) to <em>Excessive</em> (10). The radar chart and summary
-        panel update in real time. Your profile is saved to browser localStorage so you can
-        return and track changes. The guidance section at the bottom recommends specific
+        panel update in real time. Use the Export button to save your profile, or Print/PDF
+        for a snapshot. The guidance section at the bottom recommends specific
         pathways to expand your range based on your weakest domains.</p>
       </div>
     </section>
@@ -1185,22 +1185,10 @@ const DOMAINS = [
 // ============================================================
 //  STATE
 // ============================================================
-const STORAGE_KEY = 'hormetic-range-v1';
 let values = {};
 
 function loadState() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    if (saved && typeof saved === 'object') {
-      DOMAINS.forEach(d => { values[d.id] = saved[d.id] ?? 5; });
-      return;
-    }
-  } catch {}
   DOMAINS.forEach(d => { values[d.id] = 5; });
-}
-
-function saveState() {
-  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(values)); } catch {}
 }
 
 // ============================================================
@@ -1283,7 +1271,6 @@ function onSlider(id, val) {
   else if (val > 6) recHigh.style.display = 'block';
   else recBase.style.display = 'block';
 
-  saveState();
   updateRadar();
   updateScore();
 }
@@ -1551,7 +1538,6 @@ function exportJSON() {
 
 function resetAll() {
   DOMAINS.forEach(d => { values[d.id] = 5; });
-  saveState();
   renderSliders();
   updateRadar();
   updateScore();

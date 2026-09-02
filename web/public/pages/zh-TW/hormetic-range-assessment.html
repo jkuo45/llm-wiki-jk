@@ -421,7 +421,7 @@
       <div class="callout">
         <p><strong>如何使用本頁：</strong>對於以下 12 個領域中的每一個，移動滑桿來評分你目前的毒物興奮實踐，
         從<em>無</em>（0）到<em>毒興窗口</em>（5）再到<em>過度</em>（10）。雷達圖和摘要面板會即時更新。
-        你的檔案會儲存到瀏覽器的 localStorage，方便你回來追蹤變化。底部的指引區會根據你最弱的領域
+        使用「匯出」按鈕儲存你的檔案，或用「列印 / PDF」取得快照。底部的指引區會根據你最弱的領域
         推薦具體的途徑來擴展你的範圍。</p>
       </div>
     </section>
@@ -1153,22 +1153,10 @@ const DOMAINS = [
 // ============================================================
 //  STATE
 // ============================================================
-const STORAGE_KEY = 'hormetic-range-v1';
 let values = {};
 
 function loadState() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    if (saved && typeof saved === 'object') {
-      DOMAINS.forEach(d => { values[d.id] = saved[d.id] ?? 5; });
-      return;
-    }
-  } catch {}
   DOMAINS.forEach(d => { values[d.id] = 5; });
-}
-
-function saveState() {
-  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(values)); } catch {}
 }
 
 // ============================================================
@@ -1251,7 +1239,6 @@ function onSlider(id, val) {
   else if (val > 6) recHigh.style.display = 'block';
   else recBase.style.display = 'block';
 
-  saveState();
   updateRadar();
   updateScore();
 }
@@ -1519,7 +1506,6 @@ function exportJSON() {
 
 function resetAll() {
   DOMAINS.forEach(d => { values[d.id] = 5; });
-  saveState();
   renderSliders();
   updateRadar();
   updateScore();
