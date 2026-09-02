@@ -36,8 +36,9 @@ List of documents that mention this entity
 
 ## Connections
 - [[Superoxide]] — related entity
+- [[MnSOD]] — dismutation substrate; MnSOD (SOD2) converts superoxide to H₂O₂ in the mitochondrial matrix, feeding the peroxiredoxin/thioredoxin water arm.
 
 ## Linking Summary
 - New links added: [[Superoxide]]
-  - Strong connections to strengthen: [[Superoxide]] ↔ [[Superoxide]]
+  - Strong connections to strengthen: [[Superoxide]] ↔ [[Superoxide]]; [[Superoxide]] ↔ [[MnSOD]] (dismutation substrate)
 

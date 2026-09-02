@@ -61,8 +61,9 @@ Unlike cytosolic Trx1, Trx2 specifically antagonizes the **mitochondria-located*
 - [[Oxidative Phosphorylation]] — Trx2 supports respiratory complex activity and mitochondrial membrane potential.
 - [[Oxidative Stress]] / [[Mitochondria]] — Trx2 is a central guardian of mitochondrial redox homeostasis.
 - [[Peroxynitrite]] — Peroxynitrite oxidizes/inactivates Trx2, contributing to mitochondrial dysfunction and apoptosis.
+- [[MnSOD]] — Mitochondrial superoxide dismutase whose H₂O₂ product is consumed by Prx3 (which Trx2 regenerates); the matrix peroxide-relay `SOD2 → H₂O₂ → Prx3/Trx2 → H₂O` couples the two enzymes metabolically.
 
 ## Linking Summary
 
-- New links added: [[Thioredoxin-1]], [[Thioredoxin reductase]], [[Peroxiredoxin 3]], [[ASK1]], [[Oxidative Phosphorylation]], [[Oxidative Stress]], [[Mitochondria]], [[Peroxynitrite]], [[Apoptosis]]
-- Strong connections to strengthen: [[Thioredoxin-2]] ↔ [[Thioredoxin-1]], [[Thioredoxin-2]] ↔ [[Peroxiredoxin 3]], [[Thioredoxin-2]] ↔ [[ASK1]]
+- New links added: [[Thioredoxin-1]], [[Thioredoxin reductase]], [[Peroxiredoxin 3]], [[ASK1]], [[Oxidative Phosphorylation]], [[Oxidative Stress]], [[Mitochondria]], [[Peroxynitrite]], [[Apoptosis]], [[MnSOD]]
+- Strong connections to strengthen: [[Thioredoxin-2]] ↔ [[Thioredoxin-1]], [[Thioredoxin-2]] ↔ [[Peroxiredoxin 3]], [[Thioredoxin-2]] ↔ [[ASK1]], [[Thioredoxin-2]] ↔ [[MnSOD]] (peroxide-relay water arm)

@@ -61,9 +61,10 @@ No vault document yet specifically covers glutaredoxin; it appears in the contex
 - [[Peroxiredoxin]] — regenerable client in GSH-supported contexts.
 - [[Oxidative Stress]] — the redox challenge Grx defends against.
 - [[Apoptosis]] — deglutathionylation of caspases and checkpoints modulates cell death.
+- [[MnSOD]] — mitochondrial superoxide dismutase inactivated by S-glutathionylation and reactivated by glutaredoxin (Grx1/Grx2); the GSH/Grx reset hand on the compartmental SOD–peroxide relay.
 
 ## Linking Summary
 
-- New links added: [[Ribonucleotide Reductase]], [[Thioredoxin]], [[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin reductase]], [[Glutathione]], [[Glutathione Reductase]], [[CxxC Motif]], [[Cysteine]], [[Peroxiredoxin]], [[Oxidative Stress]], [[Apoptosis]]
+- New links added: [[Ribonucleotide Reductase]], [[Thioredoxin]], [[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin reductase]], [[Glutathione]], [[Glutathione Reductase]], [[CxxC Motif]], [[Cysteine]], [[Peroxiredoxin]], [[Oxidative Stress]], [[Apoptosis]], [[MnSOD]]
 - Suggested new entity notes to create: [[S-Glutathionylation]], [[Sideroblastic Anemia]]
-- Strong connections to strengthen: [[Glutaredoxin]] ↔ [[Ribonucleotide Reductase]], [[Glutaredoxin]] ↔ [[Glutathione]], [[Glutaredoxin]] ↔ [[Thioredoxin]]
+- Strong connections to strengthen: [[Glutaredoxin]] ↔ [[Ribonucleotide Reductase]], [[Glutaredoxin]] ↔ [[Glutathione]], [[Glutaredoxin]] ↔ [[Thioredoxin]], [[Glutaredoxin]] ↔ [[MnSOD]] (deglutathionylation reset)
