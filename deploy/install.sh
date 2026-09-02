@@ -165,7 +165,7 @@ OPENCODE_UTILITY_AGENT=wiki-util
 # OPENAI_API_KEY=
 
 # --- adapter -----------------------------------------------------------------
-ALLOWED_ORIGINS=https://www.johnnykuo.com,https://johnnykuo.com,https://graph.johnnykuo.com
+ALLOWED_ORIGINS=https://graph.johnnykuo.com
 SESSION_TTL_SECONDS=3600
 MAX_SESSIONS=200
 HEARTBEAT_SECONDS=15
