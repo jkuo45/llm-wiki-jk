@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 02_SEP_2026 | 34 | 1720 | 1,093,721 | 10.23 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 02_SEP_2026 | 34 | 1720 | 1,095,691 | 10.24 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 02_SEP_2026 | 19 | 258 | 197,716 | 2.59 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.65 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 01_SEP_2026 | 11 | 280 | 245,033 | 2.90 MB |
@@ -12,10 +12,10 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 01_SEP_2026 | 9 | 210 | 203,354 | 1.95 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.83 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 02_SEP_2026 | 1 | 94 | 79,001 | 1.01 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 154,126 | 2.17 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_SEP_2026 | 20 | 173 | 312,482 | 3.97 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 154,580 | 2.17 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_SEP_2026 | 20 | 173 | 312,865 | 3.98 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 02_SEP_2026 | **125** | **3160** | **2,555,923** | **27.84 MB** |
+| **subtotal** | 02_SEP_2026 | **125** | **3160** | **2,558,730** | **27.86 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -273,8 +273,10 @@ Build: 02_SEP_2026 · hash `5cea81baf3eadfca`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (93 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (95 total)</strong> — click to expand</summary>
 
+- [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (02_SEP_2026 01:09 PM PDT)
+- [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (02_SEP_2026 12:38 PM PDT)
 - [task_output_mnsod_thioredoxin_link_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md) [[src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md) [[src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md) [[src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md|wiki]] (02_SEP_2026 12:45 AM PDT)

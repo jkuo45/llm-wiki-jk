@@ -1,5 +1,5 @@
 {
-  "generated": "02_SEP_2026 07:49 AM PDT",
+  "generated": "02_SEP_2026 01:29 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,98 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_gender_specific_attributes_vault_topics_02_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Gender-Specific Attributes: Primary Vault Topics",
+          "description": ">",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "longevity",
+            "senescence",
+            "apoptosis",
+            "cancer",
+            "autophagy",
+            "nad",
+            "inflammation"
+          ],
+          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "path": "tasks/en-US/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "性別特異屬性：vault 主要主題",
+          "description": "針對 wiki vault 主要主題領域中，性別（sex）與性別認同（gender）依賴性差異之全面稽核：sirtuins、MnSOD、硫氧還蛋白-1、caspase／細胞凋亡、衰老／SASP、自噬／mTOR／AMPK、NAD+ 代謝、NF-κB／發炎、端粒生物學與癌症。綜合 vault 內容與經同儕審查的網路研究。",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "longevity",
+            "senescence",
+            "apoptosis",
+            "cancer",
+            "autophagy",
+            "nad",
+            "inflammation"
+          ],
+          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_hormesis_literature_invisibility_02_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "The 80-90% Blind Spot: Mapping Solutions to Hormesis Literature Invisibility Through Vocabulary Fragmentation",
+          "description": "A systematic analysis of why most hormesis-relevant research is invisible under standard search terms, with a comprehensive cross-disciplinary synonym map, improved search strategies, and proposals for a structured \"hormesis vocabulary bridge\" to unify the fragmented literature.",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "literature-review",
+            "vocabulary-mapping",
+            "search-strategy",
+            "cross-disciplinary",
+            "systematic-review-methodology",
+            "knowledge-graph",
+            "NLP",
+            "scientific-communication"
+          ],
+          "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "80–90% 的盲區：以詞彙碎片化解決激素效應文獻隱形問題",
+          "description": "系統性分析為何多數激素效應相關研究在標準搜尋詞彙下隱形看不到，並提供橫跨學科的完整同義詞地圖、改進的搜尋策略，以及建立結構化「激素效應詞彙橋（hormesis vocabulary bridge）」以統整碎片化文獻的提案。",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "literature-review",
+            "vocabulary-mapping",
+            "search-strategy",
+            "cross-disciplinary",
+            "systematic-review-methodology",
+            "knowledge-graph",
+            "NLP",
+            "scientific-communication"
+          ],
+          "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
         }
       }
     },

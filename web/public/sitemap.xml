@@ -309,4 +309,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"/>
   </url>
 
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html"/>
+  </url>
+
 </urlset>
