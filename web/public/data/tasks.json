@@ -1,5 +1,5 @@
 {
-  "generated": "02_SEP_2026 12:36 AM PDT",
+  "generated": "02_SEP_2026 07:49 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -47,6 +47,26 @@
           ],
           "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
           "path": "tasks/en-US/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "MnSOD–硫氧還蛋白軸：整合的粒線體過氧化氫中繼與共享的壓力抗性程式 — 焦點分析",
+          "description": "對粒線體 MnSOD/SOD2 與硫氧還蛋白系統（Trx1/Trx2、過氧化氧還蛋白、硫氧還蛋白還原酶、glutaredoxin）之間機理性與功能性連結的網路驗證焦點分析。核心論點：MnSOD 與硫氧還蛋白並非可互換的自由基海綿，而是單一隔室化過氧化氫中繼（SOD2 → H₂O₂ → Prx/Trx → H₂O）的兩個化學耦合半部，共同佈署於整合的壓力抗性程式中，且皆受重疊的激素效應窗口調控——但在壽命藥理學上卻有顯著的不對稱。",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "mnsod",
+            "thioredoxin",
+            "redox",
+            "oxidative-stress",
+            "hormesis",
+            "mitochondria",
+            "sirtuin",
+            "heart-failure",
+            "research-synthesis"
+          ],
+          "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
         }
       }
     },
@@ -2476,50 +2496,6 @@
       }
     },
     {
-      "id": "task:task_output_ap1_trace_21_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
-          "description": "Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.",
-          "created": "2026-07-21",
-          "updated": "2026-07-22",
-          "tags": [
-            "graph-trace",
-            "ap-1",
-            "senescence",
-            "sasp",
-            "nrf2",
-            "autophagy",
-            "neuroinflammation",
-            "transcription-factor",
-            "aging"
-          ],
-          "filename": "task_output_ap1_trace_21_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ap1_trace_21_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑",
-          "description": "關於 AP-1 如何經由 src/ 知識圖譜（2,711 個檔案、63,384 條邊、413 個社群）橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation 的 graphify 追蹤。建構於 21_JUL_2026，使用 --mode deep --directed。",
-          "created": "2026-07-21",
-          "updated": "2026-07-22",
-          "tags": [
-            "graph-trace",
-            "ap-1",
-            "senescence",
-            "sasp",
-            "nrf2",
-            "autophagy",
-            "neuroinflammation",
-            "transcription-factor",
-            "aging"
-          ],
-          "filename": "task_output_ap1_trace_21_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_nad_to_bnip3_trace_21_JUL_2026",
       "kind": "task",
       "langs": {
@@ -2560,6 +2536,50 @@
           ],
           "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
           "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ap1_trace_21_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
+          "description": "Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "ap-1",
+            "senescence",
+            "sasp",
+            "nrf2",
+            "autophagy",
+            "neuroinflammation",
+            "transcription-factor",
+            "aging"
+          ],
+          "filename": "task_output_ap1_trace_21_JUL_2026.md",
+          "path": "tasks/en-US/task_output_ap1_trace_21_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑",
+          "description": "關於 AP-1 如何經由 src/ 知識圖譜（2,711 個檔案、63,384 條邊、413 個社群）橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation 的 graphify 追蹤。建構於 21_JUL_2026，使用 --mode deep --directed。",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "ap-1",
+            "senescence",
+            "sasp",
+            "nrf2",
+            "autophagy",
+            "neuroinflammation",
+            "transcription-factor",
+            "aging"
+          ],
+          "filename": "task_output_ap1_trace_21_JUL_2026.md",
+          "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md"
         }
       }
     },

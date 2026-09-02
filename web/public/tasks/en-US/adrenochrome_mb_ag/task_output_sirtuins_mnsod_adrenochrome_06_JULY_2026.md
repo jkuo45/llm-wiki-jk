@@ -211,7 +211,7 @@ Combining adrenochrome [[Redox Cycling|redox cycling]] with:
 The [[MnSOD]] reaction in both the [[Sirtuins|sirtuin]] ([[Resveratrol|resveratrol]]) document and the [[Adrenochrome]] pathway is **biochemically identical**: superoxide dismutation to H₂O₂. The two pathways converge mechanistically through:
 
 - **Shared substrate** ([[Superoxide|superoxide]])
-- **Shared enzyme** ([[MnSOD]]/[[MnSOD]])
+- **Shared enzyme** ([[MnSOD]])
 - **Shared regulators** ([[SIRT3]] activation, [[SIRT4]] inhibition)
 - **Shared downstream effectors** ([[PGC-1α|PGC-1α]], [[AMPK]], [[FOXO3a]], [[NFKB|NF-κB]], [[NRF2]])
 - **Shared [[Mitohormesis|mitohormetic]] logic** (adaptive [[ROS]] signaling)
