@@ -75,7 +75,7 @@ The SHMT2 → MTHFD2 branch also generates NADPH, which is essential for:
 
 The [[SIRT3]]–[[SHMT2]] axis represents a critical link between mitochondrial NAD+ metabolism and amino acid-driven cancer metabolism:
 - SIRT3 deacetylation activates SHMT2 → increased serine consumption → elevated NADPH → enhanced nucleotide synthesis and redox defense
-- This is an oncogenic function of SIRT3 — the same deacetylase activity that protects normal cells (via [[SOD2]]/[[IDH2]]) drives cancer through metabolic enzyme activation
+- This is an oncogenic function of SIRT3 — the same deacetylase activity that protects normal cells (via [[MnSOD]]/[[IDH2]]) drives cancer through metabolic enzyme activation
 
 ## Role in Aging
 

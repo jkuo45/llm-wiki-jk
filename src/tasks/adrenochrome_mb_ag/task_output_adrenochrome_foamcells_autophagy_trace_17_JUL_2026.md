@@ -59,7 +59,7 @@ The wiki holds **two opposing readings** of the same chemistry; the qualifier pi
 ### The mechanistic bridge (from `Mitohormetic Redox-Relay.md`)
 
 1. **Trigger** — [[Carbazochrome]] (stabilized adrenochrome) redox-cycles at [[Complex I]]/[[Complex III]], emitting a *spatially constrained* superoxide pulse (`:34`).
-2. **Relay** — [[SOD2]] → [[Hydrogen Peroxide|H₂O₂]] → exits via [[Aquaporins]] → modifies [[Keap1]], releasing [[NRF2]]; matrix [[ROS]] also drives the [[Integrated Stress Response]] (OMA1→OPA1→DELE1→HRI→ATF4) (`:38–42`).
+2. **Relay** — [[MnSOD]] → [[Hydrogen Peroxide|H₂O₂]] → exits via [[Aquaporins]] → modifies [[Keap1]], releasing [[NRF2]]; matrix [[ROS]] also drives the [[Integrated Stress Response]] (OMA1→OPA1→DELE1→HRI→ATF4) (`:38–42`).
 3. **Convergence on autophagy** — The Step-4 transcription table (`:61`) is the literal source→target edge:
    > **Quality control | [[TFEB]], [[FOXO]] | [[Autophagy]] genes, [[Ubiquitin-Proteasome System]] | [[Mitophagy]], [[Proteostasis]]**
 4. **Cleanup** — [[Urolithin A]] induces selective mitophagy via the [[PINK1]]/[[Parkin]] axis, closing the loop by removing the mitochondria the adrenochrome pulse stressed (`:25`, `:96`).

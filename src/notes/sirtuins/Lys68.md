@@ -20,7 +20,7 @@ aliases:
 
 # Lys68 (MnSOD/SOD2)
 
-**Lys68** (K68) is an acetylatable lysine residue on **MnSOD** ([[SOD2|MnSOD/SOD2]]), the mitochondrial manganese superoxide dismutase. Along with [[Lys122]], it is a principal acetylation site whose modification state governs MnSOD activity.
+**Lys68** (K68) is an acetylatable lysine residue on **MnSOD** ([[MnSOD|MnSOD/SOD2]]), the mitochondrial manganese superoxide dismutase. Along with [[Lys122]], it is a principal acetylation site whose modification state governs MnSOD activity.
 
 ## Regulation by SIRT3
 
@@ -105,6 +105,6 @@ MnSOD acetylation at Lys68/Lys122 is used as an indirect surrogate for SIRT3 act
 
 ## Linking Summary
 
-- New links added: [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Lys122]], [[SIRT3-SIRT4 Ratio]], [[Honokiol]], [[Dihydromyricetin]], [[MitoSOX]], [[Adrenochrome]], [[Hormetic Window]], [[ADP-ribosylation]], [[ROS]], [[Oxidative Stress]], [[Angiotensin II]], [[Cardiac Hypertrophy]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NF-κB]], [[Redox Cycling]], [[Redox Vaccination]], [[SOD2]], [[Inflammaging]], [[Inflammation]], [[IL-6]], [[IL-1β]], [[IKK complex]], [[GATA4]], [[IFITM3]], [[IL-18]], [[IRF3]]
-- Suggested new entity notes to create: [[SOD2]], [[Hormetic Window]], [[Redox Vaccination]], [[Adrenochrome]]
+- New links added: [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Lys122]], [[SIRT3-SIRT4 Ratio]], [[Honokiol]], [[Dihydromyricetin]], [[MitoSOX]], [[Adrenochrome]], [[Hormetic Window]], [[ADP-ribosylation]], [[ROS]], [[Oxidative Stress]], [[Angiotensin II]], [[Cardiac Hypertrophy]], [[PGC-1α]], [[FOXO3a]], [[AMPK]], [[NF-κB]], [[Redox Cycling]], [[Redox Vaccination]], [[MnSOD]], [[Inflammaging]], [[Inflammation]], [[IL-6]], [[IL-1β]], [[IKK complex]], [[GATA4]], [[IFITM3]], [[IL-18]], [[IRF3]]
+- Suggested new entity notes to create: [[MnSOD]], [[Hormetic Window]], [[Redox Vaccination]], [[Adrenochrome]]
 - Strong connections to strengthen: [[Lys68]] ↔ [[SIRT3]]; [[Lys68]] ↔ [[SIRT4]]; [[Lys68]] ↔ [[MnSOD]]; [[Lys68]] ↔ [[Inflammaging]]

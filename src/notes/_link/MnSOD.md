@@ -2,7 +2,7 @@
 title: Manganese Superoxide Dismutase (MnSOD/SOD2)
 description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the SOD2 gene and imported into the mitochondrial matrix.
 created: 2026-07-04
-updated: 2026-09-01
+updated: 2026-09-02
 tags:
   - protein
   - antioxidant
@@ -13,12 +13,12 @@ tags:
   - manganese-superoxide-dismutase
   - mn-sod
   - mnsod
-  - mnsod
+aliases: [SOD2, Superoxide Dismutase 2, Manganese Superoxide Dismutase, Manganese superoxide dismutase, Mn-SOD, MnSOD2]
 ---
 
 # Manganese Superoxide Dismutase (MnSOD/SOD2)
 
-**Manganese Superoxide Dismutase (MnSOD/SOD2)** is the primary mitochondrial antioxidant enzyme responsible for dismutating [[Superoxide]] (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the nuclear [[SOD2]] gene and imported into the [[Mitochondria]] matrix, where it forms a homotetrameric complex essential for [[Mitochondrial]] redox homeostasis. By intercepting superoxide at its site of generation in the electron transport chain, MnSOD constitutes the first line of defense against mitochondrial [[Oxidative Stress]] and is a central node through which [[Sirtuins]] regulate longevity.
+**Manganese Superoxide Dismutase (MnSOD/SOD2)** is the primary mitochondrial antioxidant enzyme responsible for dismutating [[Superoxide]] (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the nuclear SOD2 gene and imported into the [[Mitochondria]] matrix, where it forms a homotetrameric complex essential for [[Mitochondrial]] redox homeostasis. By intercepting superoxide at its site of generation in the electron transport chain, MnSOD constitutes the first line of defense against mitochondrial [[Oxidative Stress]] and is a central node through which [[Sirtuins]] regulate longevity.
 
 ## Structure and Mechanism
 
@@ -124,6 +124,13 @@ No direct [[Lys68]]-targeting drug exists. The primary therapeutic strategy is *
 
 MnSOD is a frontline defense against mitochondrial [[Oxidative Stress]]. Loss of MnSOD is embryonic lethal in mice; heterozygous knockout models show increased [[DNA Damage]], [[Apoptosis]], and susceptibility to [[Cancer]], [[Neurodegeneration]], and [[Cardiovascular Disease]]. The accumulation of unrecycled superoxide damages mitochondrial DNA, lipids (lipid peroxidation), and proteins, accelerating cellular senescence. Activation of MnSOD by sirtuins, particularly SIRT3, is a key mechanism underlying [[Caloric Restriction]] and [[Exercise]]-induced longevity benefits, and is thought to contribute to the healthspan extension observed in multiple longevity interventions.
 
+### The Hormetic Threshold
+
+MnSOD sits at the heart of a paradox central to [[Mitohormesis]]. Genetic or pharmacological *partial* reduction of MnSOD activity elevates steady-state [[Superoxide anion]], which paradoxically extends [[Lifespan]] in flies and worms by activating stress-resistance transcription factors (e.g., [[FOXO]], HSF-1, and the [[UPRmt]]). Complete loss, by contrast, is catastrophic — causing dilated cardiomyopathy, neurodegeneration, and early lethality in mice. MnSOD is thus both an essential protector and a tunable rheostat of the mitochondrial redox set-point; its activity level, set by the opposing [[SIRT3]]/[[SIRT4]] signals captured in the [[SIRT3/SIRT4 Ratio]], determines where a cell sits on the mitochondrial [[Hormetic Window]].
+
+> [!info] Hormetic threshold
+> Mild MnSOD deficit signals "mitochondrial stress" without causing collapse, engaging the same adaptive circuitry triggered by calorie restriction and other longevity interventions. Sirtuin pathways ([[Sirtuins]]) and [[Lipid Peroxidation]] of cardiolipin further modulate MnSOD-dependent signaling, linking antioxidant capacity to redox-coupled longevity networks.
+
 ## Clinical Relevance
 
 MnSOD polymorphisms (notably the Ala16Val variant) modulate mitochondrial import efficiency and are associated with cancer risk and neurodegenerative phenotypes. Therapeutics that boost SIRT3 activity — [[Honokiol]], [[NAD+]] precursors, [[Resveratrol]] — represent strategies to enhance MnSOD function in ageing and metabolic disease. MnSOD therefore bridges the [[NAD+]]–sirtuin axis to the core oxidative-balance machinery of the cell.
@@ -140,6 +147,12 @@ List of documents that mention this entity
 
   - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - The Mitohormetic Redox-Relay uses carbazochrome (adrenochrome derivative) to generate controlled ROS pulses that are processed by MnSOD/SOD2, linking adrenochrome metabolism to sirtuin-mediated antioxidant defense.
+
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis (2014)]]
+    - Discusses MnSOD as a nodal antioxidant whose partial suppression promotes mitohormesis.
+
+  - [[_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review|Fisetin review]]
+    - Notes senotherapeutic modulation of oxidative-stress defenses and biomarker upregulation of MnSOD.
 
 ## Connections
 
@@ -161,8 +174,13 @@ List of documents that mention this entity
 - [[Thioredoxin-2]] — Regenerates Prx3 master; mitochondrial water-arm of the matrix peroxide-relay driven by MnSOD.
 - [[Thioredoxin-1]] — Cytosolic parallel redox arm of the same stress-resistance program; both Trx1 and MnSOD are co-decreased in failing hearts and gated by sirtuin/FOXO/Nrf2 control (independent redox arms, no direct protein interaction).
 - [[Glutaredoxin]] — Reverses S-glutathionylation of MnSOD (and matrix proteins), restoring enzyme activity — the Grx/GSH reset hand on MnSOD itself.
+- [[Mitohormesis]] — Partial MnSOD suppression extends lifespan via adaptive stress signaling (the hormetic-threshold paradox).
+- [[Superoxide anion]] — The substrate MnSOD dismutates in the mitochondrial matrix (O₂⁻ → H₂O₂ + O₂).
+- [[Sirtuins]] — Redox and sirtuin pathways (SIRT3/SIRT4, SIRT1/FOXO3a, SIRT6) co-regulate MnSOD expression and activity.
+- [[Lifespan]] — Genetic/pharmacological titration of MnSOD activity modulates longevity across flies, worms, and mice.
+- [[Lipid Peroxidation]] — Cardiolipin peroxidation both signals and results from MnSOD-dependent redox tone.
 
 ## Linking Summary
-- New links added: [[SOD2]], [[Catalase]], [[Fenton Reaction]], [[DNA Damage]], [[Apoptosis]], [[Neurodegeneration]], [[Cardiovascular Disease]], [[Caloric Restriction]], [[Exercise]], [[FOXO3a]], [[Lys68]], [[Lys122]], [[Adrenochrome]], [[Superoxide]], [[Hydrogen Peroxide]], [[Peroxiredoxin 3]], [[Thioredoxin-2]], [[Thioredoxin-1]], [[Glutaredoxin]]
+- New links added: [[MnSOD]], [[Catalase]], [[Fenton Reaction]], [[DNA Damage]], [[Apoptosis]], [[Neurodegeneration]], [[Cardiovascular Disease]], [[Caloric Restriction]], [[Exercise]], [[FOXO3a]], [[Lys68]], [[Lys122]], [[Adrenochrome]], [[Superoxide]], [[Hydrogen Peroxide]], [[Peroxiredoxin 3]], [[Thioredoxin-2]], [[Thioredoxin-1]], [[Glutaredoxin]], [[Mitohormesis]], [[Superoxide anion]], [[Sirtuins]], [[Lifespan]], [[Lipid Peroxidation]], [[FOXO]], [[UPRmt]], [[Hormetic Window]]
 - Suggested new entity notes to create: [[Mitochondrial Antioxidant Defense]], [[Superoxide]], [[SIRT3/SIRT4 Ratio]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[MnSOD]], [[SIRT1]]/[[FOXO3a]] ↔ [[MnSOD]], [[SIRT3/SIRT4 Ratio]] ↔ [[MnSOD]], [[Adrenochrome]] ↔ [[MnSOD]], [[MnSOD]] ↔ [[Peroxiredoxin 3]] (peroxide-relay), [[MnSOD]] ↔ [[Thioredoxin-1]]/[[Thioredoxin-2]] (shared stress-resistance program)
+- Strong connections to strengthen: [[SIRT3]] ↔ [[MnSOD]], [[SIRT1]]/[[FOXO3a]] ↔ [[MnSOD]], [[SIRT3/SIRT4 Ratio]] ↔ [[MnSOD]], [[Adrenochrome]] ↔ [[MnSOD]], [[MnSOD]] ↔ [[Peroxiredoxin 3]] (peroxide-relay), [[MnSOD]] ↔ [[Thioredoxin-1]]/[[Thioredoxin-2]] (shared stress-resistance program), [[MnSOD]] ↔ [[Mitohormesis]] (hormetic-threshold paradox) + [[Mitohormesis]] ↔ [[Sirtuins]]

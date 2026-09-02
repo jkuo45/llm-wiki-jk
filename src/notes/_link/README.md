@@ -567,7 +567,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[SARM1]] | Enzyme | Sterile Alpha and TIR Motif Containing 1; an ~80 kDa NAD+-consuming glycohydrolase of the Toll/IL-1 receptor (TIR) family that drives axon degeneration and Wallerian degeneration upon axonal injury... |
 | [[SHP1]] | Enzyme | Protein tyrosine phosphatase non-receptor type 6 (PTPN6); dephosphorylates Caspase-8 at Tyr380, restoring apoptotic sensitivity in cancer cells. |
 | [[SOD1]] | Enzyme | Catalytic function: SOD1 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
-| [[SOD2]] | Enzyme | Catalytic function: SOD2 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
+| [[MnSOD]] | Enzyme | Manganese Superoxide Dismutase (MnSOD/SOD2); the primary mitochondrial antioxidant enzyme dismutating superoxide to H₂O₂; deacetylated/activated by SIRT3 at Lys68/K122. |
 | [[SOD3]] | Enzyme | Catalytic function: SOD3 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Soluble Guanylyl Cyclase]] | Enzyme | Soluble guanylyl cyclase (sGC) is the intracellular receptor for nitric oxide; NO activates sGC to produce cGMP, driving vasodilation. Methylene blue inhibits sGC downstream of nitric oxide. |
 | [[Src]] | Enzyme | Proto-oncogenic tyrosine kinase that phosphorylates Caspase-8 at Tyr380, inhibiting apoptosis and promoting migration; frequently activated in cancers. |

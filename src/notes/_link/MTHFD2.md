@@ -34,7 +34,7 @@ MTHFD2 is markedly upregulated in many cancers and is a validated target, becaus
 > [!info] Source: Wan et al., *Cell Death Dis* 2020;11:649 (doi:10.1038/s41419-020-02825-y)
 > **[[SIRT3]] deacetylates and activates MTHFD2**, boosting mitochondrial NADPH and sustaining cellular redox balance. In colorectal cancer, **[[Cisplatin]] inhibits SIRT3-mediated deacetylation of MTHFD2**, disturbing cellular redox balance and contributing to the drug's cytotoxic effect. This places MTHFD2 as a downstream effector through which SIRT3's redox-shaping activity modulates chemosensitivity: high SIRT3 activity keeps MTHFD2 active (redox-protective, chemoresistance), whereas SIRT3 inhibition (e.g., by cisplatin) deactivates MTHFD2, depleting NADPH and sensitizing cells to oxidative/chemotherapeutic stress.
 
-MTHFD2 is thus an integral part of the SIRT3 ferroptosis-defense and redox network — alongside [[IDH2]], [[SOD2]], and [[SLC25A22]] — that links mitochondrial metabolic flux to antioxidant capacity and therapy response.
+MTHFD2 is thus an integral part of the SIRT3 ferroptosis-defense and redox network — alongside [[IDH2]], [[MnSOD]], and [[SLC25A22]] — that links mitochondrial metabolic flux to antioxidant capacity and therapy response.
 
 ## Clinical Relevance
 

@@ -19,7 +19,7 @@ aliases: [High blood pressure, HTN]
 Hypertension is defined as ≥140/90 mmHg and affects ~1.39 billion people worldwide (2010). Sirtuins modulate blood pressure and hypertensive target-organ damage:
 
 - **[[SIRT1]]**: VSMC overexpression attenuates Ang II-induced hypertension; activation attenuates Klotho-deficiency arterial stiffness via [[AMPK]]α/[[eNOS]]; NAMPT-mediated overexpression alleviates Ang II-induced ROS production.
-- **[[SIRT3]]**: Overexpression attenuates both Ang II- and DOCA-salt-induced hypertension; diminished SIRT3/redox inactivation → [[SOD2]] ([[MnSOD]]) inactivation contributes to hypertension pathogenesis.
+- **[[SIRT3]]**: Overexpression attenuates both Ang II- and DOCA-salt-induced hypertension; diminished SIRT3/redox inactivation → [[MnSOD]] inactivation contributes to hypertension pathogenesis.
 - **Hypertensive complications**: Decreased urinary SIRT1 is a non-invasive biomarker of early renal damage; SIRT3 alleviates hypertensive renal injury by suppressing [[EMT|epithelial-to-mesenchymal transition]]; endothelial SIRT6 deletion enhances blood pressure and cardiorenal injury via Nkx3.2–GATA5 signaling.
 
 #
@@ -47,6 +47,6 @@ List of documents that mention this entity
 - [[MnSOD]] — SIRT3-dependent antioxidant defense in the vasculature
 
 ## Linking Summary
-- New links added: [[Cardiovascular Disease]], [[Stroke]], [[Endothelial Dysfunction]], [[Heart Failure]], [[SIRT1]], [[SIRT3]], [[SIRT6]], [[Angiotensin II]], [[eNOS]], [[AMPK]], [[MnSOD]], [[SOD2]], [[EMT]], [[Chronic Kidney Disease]]
+- New links added: [[Cardiovascular Disease]], [[Stroke]], [[Endothelial Dysfunction]], [[Heart Failure]], [[SIRT1]], [[SIRT3]], [[SIRT6]], [[Angiotensin II]], [[eNOS]], [[AMPK]], [[MnSOD]], [[MnSOD]], [[EMT]], [[Chronic Kidney Disease]]
 - Suggested new entity notes to create: [[RAAS]], [[Aldosterone]], [[ACE Inhibitors]], [[Klotho]], [[NAMPT]]
   - Strong connections to strengthen: [[Hypertension]] ↔ [[Cardiovascular Disease]], [[SIRT1]] ↔ [[Hypertension]], [[SIRT3]] ↔ [[Hypertension]]

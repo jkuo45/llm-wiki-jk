@@ -33,7 +33,7 @@ NAD+ is a master metabolic rheostat for [[Autophagy]] and [[Mitophagy]]. NAD+ ac
 - **[[TFEB]]** → promotes lysosomal biogenesis and autophagic flux
 - **[[Atg5]], [[Atg7]], [[LC3]]** → directly activates core autophagy machinery
 
-Through this axis, NAD+ biosynthesis influences mitochondrial quality control: NAD+/SIRT1 drives [[FOXO3a]]-dependent expression of [[BNIP3]], a mitophagy receptor, while NAD+-dependent [[SIRT3]] regulates mitochondrial redox balance via [[SOD2]], modulating [[Reactive Oxygen Species|ROS]] signaling that stabilizes [[HIF-1α]]. HIF1A in turn transactivates [[BNIP3]] and [[BNIP3L]], completing a NAD+ → mitophagy signaling cascade.
+Through this axis, NAD+ biosynthesis influences mitochondrial quality control: NAD+/SIRT1 drives [[FOXO3a]]-dependent expression of [[BNIP3]], a mitophagy receptor, while NAD+-dependent [[SIRT3]] regulates mitochondrial redox balance via [[MnSOD]], modulating [[Reactive Oxygen Species|ROS]] signaling that stabilizes [[HIF-1α]]. HIF1A in turn transactivates [[BNIP3]] and [[BNIP3L]], completing a NAD+ → mitophagy signaling cascade.
 
 This explains why NAD+ precursors ([[NMN]], [[Nicotinamide Riboside|NR]]) improve mitochondrial health and NAD+ decline with age leads to accumulation of dysfunctional mitochondria.
 

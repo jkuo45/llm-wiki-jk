@@ -48,7 +48,7 @@ AMP-activated protein kinase senses cellular energy charge:
 [[NAD+]]-dependent deacetylases link metabolism to longevity:
 - [[SIRT1]] overexpression extends murine lifespan, particularly in metabolically challenged states.
 - [[SIRT6]] overexpression extends male mouse lifespan; SIRT6 knockout causes progeria.
-- [[SIRT3]] regulates [[SOD2]] and [[Mitochondrial metabolism]].
+- [[SIRT3]] regulates [[MnSOD]] and [[Mitochondrial metabolism]].
 
 ## Role of Mitochondrial Signaling
 
@@ -137,9 +137,9 @@ Lifespan extension often correlates with enhanced stress resistance:
 - [[NAD+]]: NAD+-dependent deacetylases link metabolism to longevity: - [[SIRT1]] overexpression extends murine lifespan, particu...
 - [[SIRT1]]: [[NAD+]]-dependent deacetylases link metabolism to longevity: - SIRT1 overexpression extends murine lifespan, particu...
 - [[SIRT6]]: - SIRT6 overexpression extends male mouse lifespan; SIRT6 knockout causes progeria.
-- [[SIRT3]]: - SIRT3 regulates [[SOD2]] and [[Mitochondrial metabolism]].
-- [[SOD2]]: - [[SIRT3]] regulates SOD2 and [[Mitochondrial metabolism]].
-- [[Mitochondrial metabolism]]: - [[SIRT3]] regulates [[SOD2]] and Mitochondrial metabolism.
+- [[SIRT3]]: - SIRT3 regulates [[MnSOD]] and [[Mitochondrial metabolism]].
+- [[MnSOD]]: - [[SIRT3]] regulates SOD2 and [[Mitochondrial metabolism]].
+- [[Mitochondrial metabolism]]: - [[SIRT3]] regulates [[MnSOD]] and Mitochondrial metabolism.
 - [[Mitohormesis]]: ### Mitohormesis
 - [[isp-1]]: elegans* (isp-1, [[clk-1]], [[nuo-6]] mutants) extends lifespan through ROS signaling.
 - [[clk-1]]: elegans* ([[isp-1]], clk-1, [[nuo-6]] mutants) extends lifespan through ROS signaling.
@@ -185,6 +185,6 @@ Lifespan extension often correlates with enhanced stress resistance:
 - [[Redox Cycling]]: - The [[Glyco-Oxidative Proteostasis Shield]] concept explicitly links proteostasis maintenance — through Redox Cycli...
 
 ## Linking Summary
-- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC-1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC-1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[MnSOD]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
 - Suggested new entity notes to create: [[Biomarkers of Aging]], [[Morbidity Compression]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]], [[Mitohormesis]] ↔ [[Lifespan]]

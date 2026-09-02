@@ -35,7 +35,7 @@ Sirt1 couples lysine deacetylation to [[NAD+|NAD^+]] hydrolysis, generating [[Ni
 ## Physiological Functions
 
 - **Metabolism:** Sirt1 enhances hepatic gluconeogenesis, promotes fatty acid oxidation in muscle and liver via PGC-1α deacetylation, and improves insulin sensitivity. Adipose Sirt1 represses [[PPARγ]] to mobilize fat stores.
-- **Stress Resistance:** By deacetylating FOXO3, Sirt1 upregulates [[SOD2]], [[Catalase]], and [[Glutathione|glutathione]] biosynthesis genes, protecting against [[Oxidative Stress|oxidative stress]].
+- **Stress Resistance:** By deacetylating FOXO3, Sirt1 upregulates [[MnSOD]], [[Catalase]], and [[Glutathione|glutathione]] biosynthesis genes, protecting against [[Oxidative Stress|oxidative stress]].
 - **Chromatin Stability:** Sirt1 deacetylates H4K16ac and H3K9ac at [[LINE-1]] and [[Alu element|Alu]] retrotransposons, maintaining their silencing and preventing [[Genomic Instability]].
 - **Circadian Rhythm:** Sirt1 oscillates with the circadian clock and deacetylates [[CLOCK]] and [[BMAL1]], coupling metabolic state to circadian gene expression.
 
@@ -448,7 +448,7 @@ SIRT1 sits at the intersection of nutrient/energy sensing and the autophagic mac
 
 ### Downstream Targets in Autophagy (outputs of SIRT1)
 
-- **[[FOXO3a]]** — deacetylation activates FOXO3a → transcription of [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[Atg]] genes and [[Manganese superoxide dismutase|SOD2]] → autophagy, mitophagy, and antioxidant defense.
+- **[[FOXO3a]]** — deacetylation activates FOXO3a → transcription of [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[Atg]] genes and [[MnSOD|SOD2]] → autophagy, mitophagy, and antioxidant defense.
 - **[[TFEB]]** — SIRT1 deacetylates TFEB (notably at K116), enhancing its nuclear translocation and transcriptional activity to drive the [[Coordinated Lysosomal Expression and Regulation|CLEAR]] autophagic/lysosomal program.
 - **Core autophagy machinery** — SIRT1 promotes expression/activity of [[Atg5]], [[Atg7]], [[Atg8]]/[[LC3]] and [[Beclin1]], enhancing autophagosome formation and flux.
 - **[[Autophagy|p62/SQSTM1]]** — modulated to support cargo recognition and clearance.
@@ -478,7 +478,7 @@ SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stil
 
 ## Role in Mitochondrial Function and Stress Resistance
 
-SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of [[PGC-1α]] drives [[Mitochondrial Biogenesis]]; (ii) deacetylation of [[FOXO3a]] induces [[Manganese superoxide dismutase|SOD2]] and [[Catalase]], enhancing [[Reactive Oxygen Species|ROS]] detoxification; (iii) deacetylation of [[HIF-1α]] and [[HIF-2α]] modulates metabolic adaptation to hypoxia; and (iv) deacetylation of [[TFEB]] promotes [[Autophagy]] and [[Mitophagy]]. This coordinated regulation establishes SIRT1 as a master integrator of the [[Mitohormesis|mitohormetic]] response, linking mild mitochondrial stress signals to transcriptional programs that enhance cellular resilience.
+SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of [[PGC-1α]] drives [[Mitochondrial Biogenesis]]; (ii) deacetylation of [[FOXO3a]] induces [[MnSOD|SOD2]] and [[Catalase]], enhancing [[Reactive Oxygen Species|ROS]] detoxification; (iii) deacetylation of [[HIF-1α]] and [[HIF-2α]] modulates metabolic adaptation to hypoxia; and (iv) deacetylation of [[TFEB]] promotes [[Autophagy]] and [[Mitophagy]]. This coordinated regulation establishes SIRT1 as a master integrator of the [[Mitohormesis|mitohormetic]] response, linking mild mitochondrial stress signals to transcriptional programs that enhance cellular resilience.
 
 ## Connection to Mitohormesis and Longevity
 

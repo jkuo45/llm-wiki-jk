@@ -22,7 +22,7 @@ aliases:
 
 ## SIRT3-mediated suppression in the kidney
 
-In the context of angiotensin II-induced nephropathy, [[SIRT3]] exhibits nephroprotective activity by counteracting iron overload and inhibiting NADPH oxidase-mediated ROS overproduction, ultimately attenuating renal fibrogenesis and delaying chronic kidney disease progression[310]. Because NOX-derived superoxide fuels oxidative damage and profibrotic signaling in tubular and vascular cells, SIRT3-mediated restraint of NOX activity is a key component of its renal redox protection — complementing its antioxidant enzyme activation ([[SOD2]], [[Catalase]], [[IDH2]]).
+In the context of angiotensin II-induced nephropathy, [[SIRT3]] exhibits nephroprotective activity by counteracting iron overload and inhibiting NADPH oxidase-mediated ROS overproduction, ultimately attenuating renal fibrogenesis and delaying chronic kidney disease progression[310]. Because NOX-derived superoxide fuels oxidative damage and profibrotic signaling in tubular and vascular cells, SIRT3-mediated restraint of NOX activity is a key component of its renal redox protection — complementing its antioxidant enzyme activation ([[MnSOD]], [[Catalase]], [[IDH2]]).
 
 ## Clinical relevance
 

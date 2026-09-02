@@ -49,7 +49,7 @@ This is a clean illustration of **microenvironmental metabolic plasticity**: mit
 - **M2/anti-inflammatory bias:** FAO and OXPHOS-supportive metabolism, elevated acetyl-CoA and cholesterol, sustained [[SIRT3]] activity.
 - **M1/pro-inflammatory bias:** glycolysis-biased, higher ROS generation; generally less supportive of tumor growth.
 - **Dietary/pharmacologic repolarization:** metformin (AMPK-dependent) shifts TAMs toward M1; agents targeting cholesterol metabolism block M2 polarization.
-- **Redox coupling:** because [[SIRT3]] buffers mitochondrial ROS (via [[SOD2]], [[IDH2]]), SIRT3-rich TAMs tolerate the oxidative metabolism of M2 — linking mitochondrial sirtuin redox control directly to immune polarization and the [[Redox Homeostasis]] of the whole niche.
+- **Redox coupling:** because [[SIRT3]] buffers mitochondrial ROS (via [[MnSOD]], [[IDH2]]), SIRT3-rich TAMs tolerate the oxidative metabolism of M2 — linking mitochondrial sirtuin redox control directly to immune polarization and the [[Redox Homeostasis]] of the whole niche.
 
 ## Connections
 

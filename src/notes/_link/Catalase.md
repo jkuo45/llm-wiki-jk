@@ -25,7 +25,7 @@ Catalase is predominantly localized in [[Peroxisomes]], where it neutralizes H�
 ## Role in Catecholamine Oxidation Protection
 In the context of the [[Adrenochrome Pathway]], catalase serves a critical protective role by scavenging H₂O₂ produced during [[Catecholamines|catecholamine]] autoxidation and MAO-dependent deamination. Elevated H₂O₂ can drive the oxidative cyclization of [[Epinephrine]] to [[Adrenochrome]] via metal-catalyzed Fenton chemistry. By maintaining low steady-state H₂O₂ levels, catalase limits non-enzymatic catecholamine oxidation and the accumulation of neurotoxic aminochromes.
 ## Connection to Mitohormesis
-Within the [[Mitohormesis]] framework, catalase expression is upregulated as an adaptive response to mild mitochondrial ROS signals. This hormetic induction reinforces cellular resilience by preventing the transition from physiological ROS signaling to pathological oxidative damage. The interplay between catalase and mitochondrial [[Manganese superoxide dismutase|SOD2]] establishes a coordinated antioxidant network that is central to the mitohormetic stress response.
+Within the [[Mitohormesis]] framework, catalase expression is upregulated as an adaptive response to mild mitochondrial ROS signals. This hormetic induction reinforces cellular resilience by preventing the transition from physiological ROS signaling to pathological oxidative damage. The interplay between catalase and mitochondrial [[MnSOD|SOD2]] establishes a coordinated antioxidant network that is central to the mitohormetic stress response.
 ## Related Entities
 - [[Hydrogen Peroxide]]
 - [[Reactive Oxygen Species]]

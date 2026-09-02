@@ -47,7 +47,7 @@ PGC-1α regulates a broad metabolic programme including:
 - **Gluconeogenesis** — hepatic glucose production during fasting/CR
 - **Adaptive thermogenesis** — brown adipose tissue activation via [[UCP1]]
 - **Irisin/FNDC5 expression** — induces [[FNDC5]] transcription, leading to release of the myokine [[Irisin]], which drives white adipose tissue browning, bone formation, and [[BDNF]]-dependent neuroprotection
-- **Antioxidant defense** — induces [[SOD2]], [[Catalase]], [[Glutathione Peroxidase]]
+- **Antioxidant defense** — induces [[MnSOD]], [[Catalase]], [[Glutathione Peroxidase]]
 
 ## Neuroprotection
 
@@ -58,7 +58,7 @@ PGC-1α is a critical neuroprotective factor:
 
 ## Role in Mitohormesis
 
-PGC-1α is a key effector in the [[Mitohormesis]] paradigm: mild mitochondrial dysfunction activates PGC-1α via [[AMPK]] and [[CaMK]], which in turn induces antioxidant programs ([[Manganese superoxide dismutase|SOD2]], [[Catalase]], [[UCP2]]) to mitigate ROS produced during increased metabolic activity.
+PGC-1α is a key effector in the [[Mitohormesis]] paradigm: mild mitochondrial dysfunction activates PGC-1α via [[AMPK]] and [[CaMK]], which in turn induces antioxidant programs ([[MnSOD|SOD2]], [[Catalase]], [[UCP2]]) to mitigate ROS produced during increased metabolic activity.
 
 ## Regulation
 

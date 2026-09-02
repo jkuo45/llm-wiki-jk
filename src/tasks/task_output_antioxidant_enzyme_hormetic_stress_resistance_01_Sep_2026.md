@@ -255,4 +255,4 @@ The vault's `[[MnSOD]]` note is the second major instance. MnSOD activity is set
 **Entity notes** (canonical wikilink titles; the live graph sources):
 - *Thioredoxin-system cluster:* [[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin]], [[Thioredoxin reductase]], [[Glutaredoxin]], [[CxxC Motif]], [[Peroxiredoxin]], [[Peroxiredoxin 3]], [[Sulfiredoxin]], [[ASK1]], [[APE1]]
 - *DNA-synthesis branch:* [[Ribonucleotide Reductase]], [[RRM1]], [[RRM2]], [[RRM2B]], [[dNTP]], [[Auranofin]], [[Triapine]], [[Clofarabine]], [[Gemcitabine]], [[Hydroxyurea]]
-- *Broader antioxidant-enzyme landscape:* [[Catalase]], [[Superoxide Dismutase]], [[SOD1]], [[SOD2]], [[MnSOD]], [[Glutathione Peroxidase]], [[Glutathione]], [[Hormesis]], [[Mitohormesis]], [[Antioxidant Supplementation Paradox]], [[Nitrative Stress]], [[Peroxynitrite]], [[Heart Failure]], [[SIRT1]]
+- *Broader antioxidant-enzyme landscape:* [[Catalase]], [[Superoxide Dismutase]], [[SOD1]], [[MnSOD]], [[MnSOD]], [[Glutathione Peroxidase]], [[Glutathione]], [[Hormesis]], [[Mitohormesis]], [[Antioxidant Supplementation Paradox]], [[Nitrative Stress]], [[Peroxynitrite]], [[Heart Failure]], [[SIRT1]]

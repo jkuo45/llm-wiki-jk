@@ -155,7 +155,7 @@ This reflects a different mitophagy route: **[[OPTN]] (optineurin)** is an autop
 1. **[[NAD+ Biosynthesis|NAD+]] → [[SIRT1]] → [[FOXO3a]] → [[BNIP3]]** — the direct transcriptional axis (inferred, not yet extracted)
 2. **[[PINK1]]/[[Parkin]] → [[OPTN]]/[[NDP52]] → [[Ubiquitin]] → [[LC3]] → [[BNIP3]]** — the canonical mitophagy cascade
 3. **[[HIF1A]] → [[BNIP3L]] → [[ERMIT]]** — erythroid mitophagy and its role in aging
-4. **[[NAD+ Biosynthesis|NAD+]] → [[SIRT3]] → [[SOD2]] → [[Reactive Oxygen Species|ROS]] → [[HIF1A]]** — the mitochondrial redox arm
+4. **[[NAD+ Biosynthesis|NAD+]] → [[SIRT3]] → [[MnSOD]] → [[Reactive Oxygen Species|ROS]] → [[HIF1A]]** — the mitochondrial redox arm
 
 ---
 

@@ -54,7 +54,7 @@ PYCR1 modulates multiple oncogenic signaling axes:
 > [[SIRT3]] deacetylates PYCR1 at **Lys228**, enhancing its enzymatic activity and promoting proline biosynthesis. This is a critical oncogenic axis: SIRT3-mediated PYCR1 deacetylation directly facilitates tumor cell proliferation. This represents a context where SIRT3 acts as an **oncogene** rather than a tumor suppressor.
 
 - The SIRT3–PYCR1 axis connects mitochondrial [[NAD+]] metabolism to amino acid biosynthesis in cancer. Under conditions where SIRT3 is upregulated (e.g., certain breast cancers, cervical cancer), the enhanced PYCR1 activity drives proline-dependent proliferation.
-- This mechanism helps explain the dual (Janus) role of SIRT3 in cancer — the same deacetylase activity that protects normal cells from oxidative stress (via [[SOD2]], [[IDH2]]) can promote tumor growth when directed at metabolic enzymes like PYCR1.
+- This mechanism helps explain the dual (Janus) role of SIRT3 in cancer — the same deacetylase activity that protects normal cells from oxidative stress (via [[MnSOD]], [[IDH2]]) can promote tumor growth when directed at metabolic enzymes like PYCR1.
 
 ### Therapeutic Implications
 
@@ -84,7 +84,7 @@ PYCR1 modulates multiple oncogenic signaling axes:
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[Proline]], [[NAD+]], [[Cancer]], [[Colorectal Cancer]], [[Epithelial-to-mesenchymal transition]], [[Mitochondria]], [[SOD2]], [[IDH2]]
+- New links added: [[SIRT3]], [[Proline]], [[NAD+]], [[Cancer]], [[Colorectal Cancer]], [[Epithelial-to-mesenchymal transition]], [[Mitochondria]], [[MnSOD]], [[IDH2]]
 - Suggested new entity notes to create: (PYCR1 is the new note)
 - Strong connections to strengthen:
     - [[PYCR1]] ↔ [[SIRT3]] (deacetylation activation)

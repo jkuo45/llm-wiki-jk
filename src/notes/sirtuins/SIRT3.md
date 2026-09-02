@@ -33,7 +33,7 @@ protected: true
 
 ## Function
 
-SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[SOD2]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
+SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[MnSOD]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
 
 ## IPA–AhR–NAD Axis (Gut–Heart Crosstalk)
 
@@ -94,7 +94,7 @@ SIRT3 also directly deacetylates ATP-synthase F1 subunits (α/β/γ/OSCP); **OSC
 - **PTM rheostat:**
   - *Phosphorylation* — CDK1 at **Thr150/Ser159** enhances activity (mitotic/radiotherapy context).
   - *[[SUMOylation]]* — SUMOylated at **Lys288** → inhibitory; **[[SENP1]]** deSUMOylates during fasting → activates FAO (also in TAMs and AKI).
-  - *[[O-GlcNAcylation]]* — OGT modifies **Ser190**, enhancing deacetylase activity; during ischemia–reperfusion it **peaks at 2 h reperfusion**, activating the [[SOD2]]–MROS axis and suppressing maladaptive autophagy (Zhou et al., Sci Rep 2024).
+  - *[[O-GlcNAcylation]]* — OGT modifies **Ser190**, enhancing deacetylase activity; during ischemia–reperfusion it **peaks at 2 h reperfusion**, activating the [[MnSOD]]–MROS axis and suppressing maladaptive autophagy (Zhou et al., Sci Rep 2024).
   - *Auto-acetylation* — **Lys57** in aged/obese mice (Kwon et al.).
   - *Ubiquitination* — berberine and lncRNA DACH1 promote ubiquitination-mediated degradation via AMPK/ROS.
 - **Circadian:** NAD⁺ biosynthesis ([[NAMPT]]) is circadian via CLOCK/[[BMAL1]] → NAD⁺ oscillations drive **SIRT3 activity rhythms** and circadian deacetylation of mitochondrial oxidative enzymes (Imai 2016). SLC25A51 import is itself rhythmic; PER3/BMAL1 regulate *Nampt* → NAD⁺ → SIRT3 in hippocampus.
@@ -134,7 +134,7 @@ SIRT3 has a well-established **dual role** in cancer: it acts as a tumor suppres
 
 ### Tumor-Suppressive Activities
 
-- Deacetylates and activates [[SOD2]] and [[IDH2]], suppressing mitochondrial ROS
+- Deacetylates and activates [[MnSOD]] and [[IDH2]], suppressing mitochondrial ROS
 - Destabilizes [[HIF-1α]], inhibiting the Warburg effect and glycolytic reprogramming
 - Stimulates [[Pyruvate Dehydrogenase]] to promote mitochondrial respiration over aerobic glycolysis
 - Overexpression suppresses [[Breast Cancer|breast cancer]] proliferation and [[ovarian cancer]] metastasis
@@ -167,12 +167,12 @@ SIRT3 (along with [[SIRT7]]) is highly transcribed in **lymph-node positive brea
 
 ## Metabolic Plasticity × Redox Equilibrium: A Dynamic Interplay
 
-SIRT3 sits at the intersection of **[[Metabolic Plasticity]]** (the tumor cell's ability to switch between [[Glycolysis]] and [[Oxidative Phosphorylation|OXPHOS]]) and **[[Redox Homeostasis]]** (the balance of oxidants and antioxidants). Its defining feature is that **one deacetylase couples both axes**: SIRT3 simultaneously (1) propels an oxidative mitochondrial phenotype (TCA/ETC/FAO activation) and (2) neutralizes the ROS that oxidative flux would otherwise generate (via [[SOD2]], [[IDH2]], [[MTHFD2]], [[Catalase]]). Because these two functions are fused, SIRT3's net role in a tumor is decided by *which* metabolic state the tumor is locked into, *where* it sits on its developmental/stem trajectory, and *what* its [[Tumor Microenvironment]] demands.
+SIRT3 sits at the intersection of **[[Metabolic Plasticity]]** (the tumor cell's ability to switch between [[Glycolysis]] and [[Oxidative Phosphorylation|OXPHOS]]) and **[[Redox Homeostasis]]** (the balance of oxidants and antioxidants). Its defining feature is that **one deacetylase couples both axes**: SIRT3 simultaneously (1) propels an oxidative mitochondrial phenotype (TCA/ETC/FAO activation) and (2) neutralizes the ROS that oxidative flux would otherwise generate (via [[MnSOD]], [[IDH2]], [[MTHFD2]], [[Catalase]]). Because these two functions are fused, SIRT3's net role in a tumor is decided by *which* metabolic state the tumor is locked into, *where* it sits on its developmental/stem trajectory, and *what* its [[Tumor Microenvironment]] demands.
 
 ### The coupling mechanism
 
 > [!important] Metabolic-Oxidative Coupling
-> SIRT3 deacetylates and activates OXPHOS and TCA-cycle enzymes — [[Pyruvate Dehydrogenase]], [[Succinate Dehydrogenase|SDH/complex II]], [[AceCS2]], FAO enzymes, [[OPA1]] (fusion) — while simultaneously deacetylating/activating the antioxidant arm ([[SOD2]], [[IDH2]], [[MTHFD2]], [[Catalase]]). The result is that SIRT3 can sustain high mitochondrial flux *without* oxidative collapse. It is this dual control that makes SIRT3 both a tumor suppressor (in glycolysis-addicted tumors it dismantles the [[Warburg Effect]] by destabilizing [[HIF-1α]]) and an oncogene (in OXPHOS-addicted tumors it powers oxidative metabolism *and* the redox defenses that keep ROS sublethal).
+> SIRT3 deacetylates and activates OXPHOS and TCA-cycle enzymes — [[Pyruvate Dehydrogenase]], [[Succinate Dehydrogenase|SDH/complex II]], [[AceCS2]], FAO enzymes, [[OPA1]] (fusion) — while simultaneously deacetylating/activating the antioxidant arm ([[MnSOD]], [[IDH2]], [[MTHFD2]], [[Catalase]]). The result is that SIRT3 can sustain high mitochondrial flux *without* oxidative collapse. It is this dual control that makes SIRT3 both a tumor suppressor (in glycolysis-addicted tumors it dismantles the [[Warburg Effect]] by destabilizing [[HIF-1α]]) and an oncogene (in OXPHOS-addicted tumors it powers oxidative metabolism *and* the redox defenses that keep ROS sublethal).
 > Redox input also feeds back: the **NAD⁺/NADH ratio** is the obligatory sirtuin co-substrate, so cellular redox state directly gates SIRT3 activity — a genuine two-way coupling.
 
 ### Context axes that set the phenotype
@@ -206,10 +206,10 @@ Findings from the *Trends in Genetics* review ([[_document_ - Sirtuins Guardians
 
 - **No SIRT3-overexpressing mouse exists** to directly test lifespan, a critical gap. Human SNP data are inconsistent: rs11555236 was associated with male longevity in an Italian cohort but not replicated in a larger pooled cohort; the TRELONG study found rs11555236 and rs4980329 associated with longevity (female-significant after sex stratification).
 - **Metabolic syndrome:** a nonsynonymous SNP in the SIRT3 catalytic domain associated with metabolic syndrome in NAFLD patients and ~8,000 Finnish males reduces recombinant SIRT3 activity ~34%. *Sirt3* knockout mice develop obesity, insulin resistance, and hepatic steatosis on a HFD; whole-body KO exacerbates HFD metabolic sequelae, while muscle- or liver-specific KO does not recapitulate the phenotype (suggesting non-cell-autonomous, possibly CNS, effects).
-- **Dietary restriction:** hepatic SIRT3 deacetylates and activates [[SOD2]] and [[IDH2]] during DR, lowering ROS and protecting against age-associated hearing loss; DR-induced changes in hepatic acetyl-CoA, insulin, and triglycerides require SIRT3.
+- **Dietary restriction:** hepatic SIRT3 deacetylates and activates [[MnSOD]] and [[IDH2]] during DR, lowering ROS and protecting against age-associated hearing loss; DR-induced changes in hepatic acetyl-CoA, insulin, and triglycerides require SIRT3.
 - **Neuroprotection:** SIRT3 is neuroprotective in an *ex vivo* HD model; mutant huntingtin lowers SIRT3 activity and NAD+, and viniferin (a resveratrol dimer) rescues via [[AMPK]] and mitochondrial biogenesis.
 - **Cancer:** dual roles — tumor suppressor (SOD2/IDH2 activation, ROS suppression, HIF-1α destabilization, PDC stimulation) and oncogene (p53 deacetylation; whole-gene duplication in a Li-Fraumeni-like family; elevated in node-positive breast cancer and OSCC).
-- **Cardiac hypertrophy:** SIRT3 overexpression, or NAD+ precursor supplementation, represses agonist-induced CH by inducing [[SOD2]] and [[Catalase]], lowering ROS and inhibiting [[Akt|AKT]] signaling.
+- **Cardiac hypertrophy:** SIRT3 overexpression, or NAD+ precursor supplementation, represses agonist-induced CH by inducing [[MnSOD]] and [[Catalase]], lowering ROS and inhibiting [[Akt|AKT]] signaling.
 
 ## Disease Landscape (Wu et al., 2022)
 
@@ -340,7 +340,7 @@ List of documents that mention this entity
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
 - [[OPA1]] — SIRT3 deacetylates OPA1 (Lys926/Lys931), activating fusion
 - [[Mitochondrial Fusion]] — SIRT3 enhances fusion via OPA1 deacetylation
-- [[SOD2]] — deacetylated and activated by SIRT3; core antioxidant and CH-protective effector
+- [[MnSOD]] — deacetylated and activated by SIRT3; core antioxidant and CH-protective effector
 - [[IDH2]] — deacetylated and activated by SIRT3; regenerates glutathione and lowers ROS during DR
 - [[Catalase]] — induced by SIRT3; suppresses ROS and cardiac hypertrophy
 - [[HIF-1α]] — destabilized by SIRT3; links SIRT3 loss to protumorigenic metabolic reprogramming
@@ -390,7 +390,7 @@ List of documents that mention this entity
 
 - New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Cervical Cancer]], [[Glioma]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Stroke]], [[ALS]], [[Epilepsy]], [[Diabetes Mellitus]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[Vascular Calcification]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
 - Suggested new entity notes to create: [[Ovarian Cancer]], [[Cervical Cancer]], [[Hepatitis B]], [[Diabetic Cardiomyopathy]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[Acute Kidney Injury]], [[SIRT3]] ↔ [[SOD2]], [[SIRT3]] ↔ [[Cardiac Hypertrophy]], [[SIRT3]] ↔ [[Diabetic Cardiomyopathy]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[Acute Kidney Injury]], [[SIRT3]] ↔ [[MnSOD]], [[SIRT3]] ↔ [[Cardiac Hypertrophy]], [[SIRT3]] ↔ [[Diabetic Cardiomyopathy]]
 
 # SIRT3
 
@@ -428,7 +428,7 @@ SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosy
 2026-08-31 enrichment from web research on the spatiotemporal regulation of SIRT3 activity.
 
 - New links added: [[ATP5O]], [[SLC25A51]], [[NAMPT]], [[O-GlcNAcylation]], [[SUMOylation]], [[Circadian Rhythm]], [[BMAL1]], [[CD38]]
-- Existing links strengthened: [[NAD+]], [[SENP1]], [[SOD2]], [[IDH2]], [[ACADL]], [[PGC-1α]]
+- Existing links strengthened: [[NAD+]], [[SENP1]], [[MnSOD]], [[IDH2]], [[ACADL]], [[PGC-1α]]
 - Suggested new entity notes to create: [[ATP5O]], [[SLC25A51]], [[NAMPT]], [[O-GlcNAcylation]], [[Circadian Rhythm]], [[BMAL1]], [[CD38]] ([[SUMOylation]] may fold into [[Post-translational Modification]] or [[SENP1]])
 - Strong connections to strengthen:
   - [[SIRT3]] ↔ [[ATP5O]] — ATP-synthase sequestration/pH-release: the fastest (minutes) SIRT3 regulatory loop; requires ATP5O H135

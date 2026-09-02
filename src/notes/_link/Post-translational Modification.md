@@ -102,7 +102,7 @@ The [[Sirtuins]] family (SIRT1–SIRT7) is a central group of **NAD+-dependent p
 
 - **[[SIRT1]]**: Nuclear — deacetylates histones (H3, H4), p53, PGC-1α, NF-κB
 - **[[SIRT2]]**: Cytoplasmic — deacetylates α-tubulin, histone H4K16
-- **[[SIRT3]]**: Mitochondrial — deacetylates >100 mitochondrial substrates including [[SOD2]], [[AceCS2]], [[PYCR1]], [[SHMT2]]
+- **[[SIRT3]]**: Mitochondrial — deacetylates >100 mitochondrial substrates including [[MnSOD]], [[AceCS2]], [[PYCR1]], [[SHMT2]]
 - **[[SIRT4]]**: Mitochondrial — ADP-ribosyltransferase activity
 - **[[SIRT5]]**: Mitochondrial — desuccinylase, demalonylase, deglutarylase (regulates SHMT2, CPS1)
 - **[[SIRT6]]**: Nuclear — deacetylates H3K9, H3K56; involved in DNA repair and telomere maintenance
@@ -129,7 +129,7 @@ The [[Sirtuins]] family (SIRT1–SIRT7) is a central group of **NAD+-dependent p
 
 ## Linking Summary
 
-- New links added: [[Acetylation]], [[Phosphorylation]], [[Ubiquitination]], [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[SOD2]], [[AceCS2]], [[PYCR1]], [[SHMT2]], [[Histone Modification]], [[Chromatin]], [[Gene Expression]], [[Cancer]], [[Aging]], [[Metabolism]]
+- New links added: [[Acetylation]], [[Phosphorylation]], [[Ubiquitination]], [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[MnSOD]], [[AceCS2]], [[PYCR1]], [[SHMT2]], [[Histone Modification]], [[Chromatin]], [[Gene Expression]], [[Cancer]], [[Aging]], [[Metabolism]]
 - Suggested new entity notes to create: (PTM note is the new note)
 - Strong connections to strengthen:
     - [[Post-translational Modification]] ↔ [[Sirtuins]] (sirtuins as major PTM erasers)

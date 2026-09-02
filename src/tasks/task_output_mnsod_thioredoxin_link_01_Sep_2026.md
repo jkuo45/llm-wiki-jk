@@ -19,7 +19,7 @@ author: []
 ---
 
 > [!note]
-> **Thesis:** [[MnSOD]]/[[SOD2]] and the thioredoxin system ([[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[Glutaredoxin]]) are best understood not as interchangeable antioxidants but as the two **chemically coupled halves of one compartmentalized peroxide-relay** — `SOD2 → H₂O₂ → Prx/Trx → H₂O` — deployed together in a shared stress-resistance program that sirtuins and transcription factors co-regulate, and both gated by overlapping hormetic windows.
+> **Thesis:** [[MnSOD]]/[[MnSOD]] and the thioredoxin system ([[Thioredoxin-1]], [[Thioredoxin-2]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[Glutaredoxin]]) are best understood not as interchangeable antioxidants but as the two **chemically coupled halves of one compartmentalized peroxide-relay** — `SOD2 → H₂O₂ → Prx/Trx → H₂O` — deployed together in a shared stress-resistance program that sirtuins and transcription factors co-regulate, and both gated by overlapping hormetic windows.
 > **Date:** 01_Sep_2026
 > **Sources:** wiki vault (`src/notes/`: `MnSOD`, `Thioredoxin-1`, `Thioredoxin-2`, `Peroxiredoxin 3`, `Glutaredoxin`), and current web literature (PMIDs/DOIs below, verified this session).
 
@@ -35,7 +35,7 @@ The vault already documents [[MnSOD]] (mitochondrial superoxide dismutase, `sirt
 
 ---
 
-# 1. Central claim and evidence table
+# Central claim and evidence table
 
 | Claim | Web evidence | Confidence |
 |-------|--------------|------------|
@@ -49,7 +49,7 @@ The vault already documents [[MnSOD]] (mitochondrial superoxide dismutase, `sirt
 
 ---
 
-# 2. The mechanistic core: SOD → Prx → Trx peroxide-relay
+# The mechanistic core: SOD → Prx → Trx peroxide-relay
 
 Arguments that treat SOD and thioredoxin as "redundant antioxidants" are chemically wrong. The two do not neutralise the same species; they sit in **series** on the same electron-carrying peroxide stream.
 
@@ -79,7 +79,7 @@ Arguments that treat SOD and thioredoxin as "redundant antioxidants" are chemica
 
 ---
 
-# 3. Compartmental coupling and the acetylation–peroxidase switch
+# Compartmental coupling and the acetylation–peroxidase switch
 
 - The vault `MnSOD` note documents the **Lys68 acetylation→peroxidase switch**: acetylated (monomeric) MnSOD gains 40× peroxidase activity and becomes a *pro-oxidant* H₂O₂ generator. In the relay frame, that is an **upstream injection of H₂O₂ into the Prx/Trx water arm** — it re-routes flux from dismutase (superoxide clearance) toward peroxide feeding, which Prx3/Trx2 must then absorb.
 - Because the matrix peroxide arm is shared, the [[SIRT3/SIRT4 Ratio]] (which sets MnSOD catalytic state via deacetylation/ADP-ribosylation, per the vault `MnSOD` and `SIRT4` notes) and the Thx/Prx redox capacity (set by TXNRD2/NADPH supply, by [[Peroxynitrite]]/nitration, and by Grx2) are **two dials on the same redox circuit**. Redox tone is a joint function, not either enzyme's alone.
@@ -88,12 +88,12 @@ Arguments that treat SOD and thioredoxin as "redundant antioxidants" are chemica
 
 ---
 
-# 4. A shared, coordinated stress-resistance program
+# A shared, coordinated stress-resistance program
 
 **Co-deployment in the heart (quantitative).** In advanced heart-failure cardiomyocytes, Lu et al. 2014 measured **MnSOD 0.71×, Trx1 0.61×, Bcl-xL 0.53×** vs donor (all significantly reduced), with increased Bax and oxidative DNA damage (8-OHdG). This is the vault's `sirtuins in health and disease` / `MnSOD` heart-failure link, now with the exact fold-changes and PMID. SIRT1's decline (54.9% in the same hearts) sits upstream of both via FOXO1 nuclear exit and p53 acetylation.
 
 - **Upstream sirtuin coordination, two different mechanisms:**
-  - [[SIRT1]]–[[FOXO]] trans-activates [[SOD2]]/catalase/antioxidant genes (vault `MnSOD`; Lu 2014).
+  - [[SIRT1]]–[[FOXO]] trans-activates [[MnSOD]]/catalase/antioxidant genes (vault `MnSOD`; Lu 2014).
   - [[SIRT3]] deacetylates the MnSOD protein (K68/K122) to raise its activity.
   - Trx1 is a *separate, parallel redox arm* of the same "increase resistance to insults" strategy (vault `Thioredoxin-1`; Alcendor 2007 hormesis framing) — sirtuins and Trx1 are **not tied by one deacetylation event** but converge downstream on shared endpoints (lower oxidative damage, preserved cardiac function).
 
@@ -101,7 +101,7 @@ Arguments that treat SOD and thioredoxin as "redundant antioxidants" are chemica
 
 ---
 
-# 5. The lifespan asymmetry (and why it matters)
+# The lifespan asymmetry (and why it matters)
 
 The strongest single discriminator between the two classes:
 
@@ -115,7 +115,7 @@ The strongest single discriminator between the two classes:
 
 ---
 
-# 6. Redox cross-talk under stress (nitrative & oxidative)
+# Redox cross-talk under stress (nitrative & oxidative)
 
 - **Nitration inactivates both.** Age- and I/R-associated tyrosine nitration (from [[Peroxynitrite]]) irreversibly inactivates Trx1 (Zhang & Tao 2007) *and* damages matrix MnSOD/Prx3; peroxynitrite also oxidizes [[Thioredoxin-2]] and mPTP components (vault `Thioredoxin-2`, `Peroxynitrite`). The shared ion is nitrative stress hitting both arms of the relay — the "outer limit of the hormetic repair window."
 - **Prx-mediated oxidation of Trx1.** Under oxidative bursts, peroxiredoxin-mediated oxidation itself inactivates Trx1, which the **glutaredoxin system** reactivates (Du et al., *JBC* 2013). So when MnSOD-driven H₂O₂ overwhelms Prx, the *Trx1 that would normally regenerate Prx can itself be oxidized and parked* — a positive-feedback stress amplification that glutaredoxin/GSH must break. This is the reversible-repair loop that delimits, in both directions, how much MnSOD-derived peroxide can be tolerated.
@@ -123,7 +123,7 @@ The strongest single discriminator between the two classes:
 
 ---
 
-# 7. Therapeutic and network implications
+# Therapeutic and network implications
 
 - **Dual-dial targeting.** Interventions that only hyperactivate MnSOD (e.g., SIRT3 activation, GC4419 mimetic) raise the peroxide load into the Prx/Trx arm; their benefit should be **conditional on preserving Trx2/TXNRD2/Prx3 redox capacity**. This rationalizes combination logic: SIRT3 dcacetylation of MnSOD + protection/maintenance of the Trx/peroxiredoxin water arm (or H₂S/Na₂S, whose cardioprotection is Trx1-dependent) rather than MnSOD alone.
 - **Separating compartment from pharmacology.** Because cytosolic (Trx1) and matrix (Trx2) arms are distinct, "thioredoxin" pharmacology (e.g., [[Auranofin]] inhibiting TXNRD) differentially perturbs each; MnSOD pharmacology operates only on the matrix peroxide source. Co-targeting must respect this compartmental map.
@@ -131,7 +131,7 @@ The strongest single discriminator between the two classes:
 
 ---
 
-# 8. Vault graph note (no files edited)
+# Vault graph note (no files edited) - completed
 
 Per the requested deliverable, this is an analysis only — entity notes were **not** edited. For the next `rebuild-wiki`/`build-combined` run, the graph currently lacks a **direct** `MnSOD ↔ Thioredoxin` edge (both connect only indirectly via [[SIRT1]], [[Heart Failure]], [[Oxidative Stress]], [[Hormesis]]). Recommended edges to wire (matching the prior Sep 2026 review's `Thioredoxin-1 ↔ MnSOD` recommendation):
 - `MnSOD ↔ Peroxiredoxin 3` (substrate–scavenger hand-off in the matrix)
@@ -141,7 +141,7 @@ Per the requested deliverable, this is an analysis only — entity notes were **
 
 ---
 
-# 9. Sources
+# Sources
 
 **Vault notes (primary basis):** `src/notes/sirtuins/MnSOD.md`, `src/notes/_link/Thioredoxin-1.md`, `src/notes/_link/Thioredoxin-2.md`, `src/notes/_link/Peroxiredoxin 3.md`, `src/notes/_link/Peroxiredoxin.md`, `src/notes/_link/Glutaredoxin.md`, `src/notes/_link/Sulfiredoxin.md`, and `task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md`.
 
@@ -160,7 +160,7 @@ Per the requested deliverable, this is an analysis only — entity notes were **
 
 ---
 
-# 10. Open questions
+# Open questions
 
 1. **Quantitative flux coupling** — Under physiological ETC flux, what fraction of MnSOD-derived H₂O₂ is handled by Prx3/Trx2 vs catalase/GPx in the matrix, and how does that split change with MnSOD acetylation state (the K68 peroxidase switch)?
 2. **Does MnSOD activity ever functionally limit the Trx water arm?** — Is TXNRD2/NADPH capacity ever saturating under SOD2-driven bursts, converting an otherwise-buffering Trx system into a rate-limiting, and therefore hormetic-signaling, step?

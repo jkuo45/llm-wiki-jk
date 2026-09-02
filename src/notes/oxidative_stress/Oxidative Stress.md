@@ -55,7 +55,7 @@ The primary sources of cellular ROS include the [[Mitochondria|mitochondrial]] e
 
 ### Enzymatic Defenses
 
-- **[[Superoxide Dismutase]] (SOD)**: Three isoforms — [[SOD1]] (Cu/Zn, cytosol), [[SOD2]] (Mn, mitochondria), [[SOD3]] (Cu/Zn, extracellular) — dismutate O₂⁻• to H₂O₂.
+- **[[Superoxide Dismutase]] (SOD)**: Three isoforms — [[SOD1]] (Cu/Zn, cytosol), [[MnSOD]] (Mn, mitochondria), [[SOD3]] (Cu/Zn, extracellular) — dismutate O₂⁻• to H₂O₂.
 - **[[Catalase]]**: Decomposes H₂O₂ to H₂O and O₂, primarily in peroxisomes. Has one of the highest turnover rates of any enzyme (~10⁷ M⁻¹s⁻¹).
 - **[[Glutathione Peroxidase]] (GPX)**: Four selenium-containing isoforms (GPX1–4) reduce H₂O₂ and organic hydroperoxides using [[Glutathione]] (GSH) as co-substrate.
 - **[[Peroxiredoxin]] (PRDX)**: Six isoforms; reduce H₂O₂, organic hydroperoxides, and peroxynitrite with high affinity.

@@ -47,7 +47,7 @@ NF-κB regulates hundreds of target genes encoding:
 - **Chemokines**: [[IL-8]], [[MCP-1]], [[RANTES]]
 - **Adhesion molecules**: [[ICAM-1]], [[VCAM-1]], E-selectin
 - **Anti-apoptotic factors**: [[Bcl-2]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]]
-- **Antioxidant enzymes**: [[Manganese superoxide dismutase|MnSOD]], ferritin heavy chain
+- **Antioxidant enzymes**: [[MnSOD]], ferritin heavy chain
 
 ## Redox-Sensitive Regulation
 

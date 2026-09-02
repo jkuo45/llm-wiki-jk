@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 01_SEP_2026 | 34 | 1720 | 1,091,618 | 9.68 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 259 | 198,105 | 2.58 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.62 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 01_SEP_2026 | 11 | 280 | 245,033 | 2.77 MB |
-| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.45 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 01_SEP_2026 | 9 | 210 | 203,354 | 1.88 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.80 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 01_SEP_2026 | 1 | 94 | 79,001 | 0.98 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.15 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 01_SEP_2026 | 20 | 174 | 314,203 | 3.91 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 01_SEP_2026 | 34 | 1720 | 1,093,721 | 10.23 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_AUG_2026 | 19 | 258 | 197,716 | 2.59 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.65 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 01_SEP_2026 | 11 | 280 | 245,033 | 2.90 MB |
+| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.54 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 01_SEP_2026 | 9 | 210 | 203,354 | 1.95 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.83 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 01_SEP_2026 | 1 | 94 | 79,001 | 1.01 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_AUG_2026 | 15 | 65 | 154,126 | 2.17 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 01_SEP_2026 | 20 | 173 | 312,482 | 3.98 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 01_SEP_2026 | **125** | **3162** | **2,555,930** | **26.83 MB** |
+| **subtotal** | 01_SEP_2026 | **125** | **3160** | **2,555,923** | **27.84 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -27,14 +27,14 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,098 | 37,319 |
-| **Triples** | `triples-*.json` | 2,653 | 4,092 |
-| **Wiki** | `wiki-*.json` | 3,007 | 35,150 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,227 | 38,126 |
+| **Triples** | `triples-*.json` | 3,011 | 5,068 |
+| **Wiki** | `wiki-*.json` | 3,030 | 35,740 |
 
-Build: 31_AUG_2026 · hash `d2dcdf5bbf0abb14`
+Build: 02_SEP_2026 · hash `4cd2c40a6a0073aa`
 
 > [!info] Combined merge
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,562 entities appear in both sources (2,653 triples + 3,007 wiki − 1,562 shared → 4,098); edges are unioned by (`from`, `to`) pair — 1,725 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,814 entities appear in both sources (3,011 triples + 3,030 wiki − 1,814 shared → 4,227); edges are unioned by (`from`, `to`) pair — 2,418 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 > Wiki-only community ids are offset by +1000 in the combined legend so the cid spaces never collide; wiki-only nodes keep that offset on their `community` field.
 <!-- END GENERATED: graph_datasets -->
 
@@ -274,9 +274,10 @@ Build: 31_AUG_2026 · hash `d2dcdf5bbf0abb14`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (92 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (93 total)</strong> — click to expand</summary>
 
-- [task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md) [[src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md|wiki]] (01_SEP_2026 12:38 PM PDT)
+- [task_output_mnsod_thioredoxin_link_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md) [[src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md|wiki]] (01_SEP_2026 11:25 PM PDT)
+- [task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md) [[src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md|wiki]] (01_SEP_2026 01:35 PM PDT)
 - [task_output_parallel_relation_links_impact_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md) [[src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md|wiki]] (31_AUG_2026 10:54 PM PDT)
 - [task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md) [[src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md|wiki]] (31_AUG_2026 09:37 PM PDT)
 - [task_output_hormesis_overlooked_paradigms_30_Aug_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md) [[src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md|wiki]] (30_AUG_2026 11:34 PM PDT)

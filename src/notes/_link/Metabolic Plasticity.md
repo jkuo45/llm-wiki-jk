@@ -39,7 +39,7 @@ A corollary of the classic [[Warburg Effect]], metabolic plasticity recognizes t
 
 - **Promotes oxidative phenotype:** SIRT3 deacetylates and activates TCA-cycle/ETC enzymes — [[Pyruvate Dehydrogenase]], [[Succinate Dehydrogenase|SDH/succinate dehydrogenase]], [[AceCS2]], FAO enzymes, [[OPA1]] (fusion) — driving OXPHOS and mitochondrial biogenesis (via [[PGC-1α]]).
 - **Suppresses glycolytic program:** by destabilizing [[HIF-1α]] (through PHD), SIRT3 curbs the glycolytic transcriptional program, shifting metabolism away from aerobic glycolysis.
-- **Sets the redox setpoint:** via [[SOD2]] (MnSOD), [[IDH2]] (NADPH), [[MTHFD2]] (NADPH), and [[Catalase]], SIRT3 lowers mitochondrial ROS — which is precisely what makes its *oncogenic* face possible, since an antioxidant shield permits high-flux OXPHOS without oxidative collapse.
+- **Sets the redox setpoint:** via [[MnSOD]] (MnSOD), [[IDH2]] (NADPH), [[MTHFD2]] (NADPH), and [[Catalase]], SIRT3 lowers mitochondrial ROS — which is precisely what makes its *oncogenic* face possible, since an antioxidant shield permits high-flux OXPHOS without oxidative collapse.
 
 > [!important] The "metabolic plasticity knob"
 > SIRT3 enforces a **metabolic-oxidative coupling**: it can drive OXPHOS and simultaneously neutralize the resulting ROS. In glycolysis-addicted tumors this acts as a tumor suppressor (reversing Warburg, destabilizing HIF-1α). In OXPHOS-addicted tumors the same two functions convert SIRT3 into an oncogene — it sustains high oxidative metabolism *and* the redox defenses that keep ROS below a lethal threshold. The net outcome is set by tumor type, metabolic basal state, developmental/stem status, and microenvironment.
@@ -64,7 +64,7 @@ A corollary of the classic [[Warburg Effect]], metabolic plasticity recognizes t
 - **Nutrient/scavenging pressure:** acetate and serine scavenging ([[AceCS1]], [[SHMT2]]) and glutamine/glutamate utilization ([[Glutamate Dehydrogenase (GDH)|GDH]], SLC25A22) let SIRT3-reprogrammed cells adapt carbon sourcing to the niche.
 - **Tumor-associated macrophage (TAM) crosstalk:** SENP1–SIRT3–cholesterol axis polarizes TAMs toward M2, suppressing CD8⁺ T cells — immune-microenvironment plasticity mediated by mitochondrial metabolism.
 - **Lactate/acidosis:** high lactate feeds [[Lactylation]] of metabolic enzymes (e.g., ME2) that SIRT3 may reverse (delactylation), dynamically gating glycolysis–OXPHOS balance and redox.
-- **Iron/redox load:** under ferroptotic or oxidizing stress, SIRT3 stabilizes pro-survival redox programs ([[SLC25A22]]/glutathione; [[SOD2]]), favoring survival over death in metabolically constrained tumors (LUAD, GBM).
+- **Iron/redox load:** under ferroptotic or oxidizing stress, SIRT3 stabilizes pro-survival redox programs ([[SLC25A22]]/glutathione; [[MnSOD]]), favoring survival over death in metabolically constrained tumors (LUAD, GBM).
 
 ## Links to the Redox Equilibrium
 
@@ -93,7 +93,7 @@ SIRT3 sits at the interface of metabolic plasticity and **redox equilibrium**:
 
 ## Linking Summary
 
-- New links added: [[Cancer]], [[Glycolysis]], [[Oxidative Phosphorylation]], [[Metabolic Flexibility]], [[Warburg Effect]], [[HIF-1α]], [[SIRT3]], [[Cancer Stem Cells]], [[Tumor Microenvironment]], [[Tumor-Associated Macrophage]], [[Redox Homeostasis]], [[Reactive Oxygen Species]], [[Ferroptosis]], [[MYC]], [[Lactylation]], [[SLC25A22]], [[SOD2]], [[IDH2]], [[MTHFD2]], [[Pyruvate Dehydrogenase]], [[PGC-1α]]
+- New links added: [[Cancer]], [[Glycolysis]], [[Oxidative Phosphorylation]], [[Metabolic Flexibility]], [[Warburg Effect]], [[HIF-1α]], [[SIRT3]], [[Cancer Stem Cells]], [[Tumor Microenvironment]], [[Tumor-Associated Macrophage]], [[Redox Homeostasis]], [[Reactive Oxygen Species]], [[Ferroptosis]], [[MYC]], [[Lactylation]], [[SLC25A22]], [[MnSOD]], [[IDH2]], [[MTHFD2]], [[Pyruvate Dehydrogenase]], [[PGC-1α]]
 - Suggested new entity notes to create: [[Leukemia Stem Cells]] (distinct but related to [[Cancer Stem Cells]])
 - Strong connections to strengthen:
   - [[Metabolic Plasticity]] ↔ [[SIRT3]] — SIRT3 couples the plasticity switch to the redox setpoint

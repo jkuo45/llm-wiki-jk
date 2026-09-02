@@ -19,7 +19,7 @@ aliases:
 
 ## SIRT3 regulation
 
-[[SIRT3]] deacetylates and activates [[IDH2]]. During [[Dietary Restriction|dietary restriction (DR)]], hepatic SIRT3 deacetylates both [[SOD2]] and IDH2, reducing ROS levels; IDH2 deacetylation allows regeneration of the antioxidant glutathione ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan, Giblin et al. 2014]], refs 118, 189, 191–192). In the cancer context, SIRT3-mediated activation of IDH2 (and SOD2) suppresses ROS-driven tumorigenesis and genomic instability.
+[[SIRT3]] deacetylates and activates [[IDH2]]. During [[Dietary Restriction|dietary restriction (DR)]], hepatic SIRT3 deacetylates both [[MnSOD]] and IDH2, reducing ROS levels; IDH2 deacetylation allows regeneration of the antioxidant glutathione ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan, Giblin et al. 2014]], refs 118, 189, 191–192). In the cancer context, SIRT3-mediated activation of IDH2 (and SOD2) suppresses ROS-driven tumorigenesis and genomic instability.
 
 > [!tip] Redox relay
 > SIRT3 → IDH2 → NADPH → glutathione regeneration is a core mitochondrial antioxidant axis, complementing SIRT3 → SOD2.
@@ -41,7 +41,7 @@ List of documents in the wiki that mention this entity
 ## Connections
 
 - [[SIRT3]] — deacetylates and activates IDH2
-- [[SOD2]] — co-deacetylated antioxidant partner in the same pathway
+- [[MnSOD]] — co-deacetylated antioxidant partner in the same pathway
 - [[Glutathione]] — regenerated via IDH2-derived NADPH
 - [[NADPH]] — enzymatic product supporting antioxidant systems
 - [[Reactive Oxygen Species]] — output suppressed by IDH2 activation
@@ -53,9 +53,9 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[SOD2]], [[Glutathione]], [[NADPH]], [[Reactive Oxygen Species]], [[Dietary Restriction]], [[Mitochondria]]
+- New links added: [[SIRT3]], [[MnSOD]], [[Glutathione]], [[NADPH]], [[Reactive Oxygen Species]], [[Dietary Restriction]], [[Mitochondria]]
 - Suggested new entity notes to create: [[NADPH]]
 - Strong connections to strengthen:
   - [[IDH2]] ↔ [[SIRT3]] — enzymatic deacetylation/activation pair
-  - [[IDH2]] ↔ [[SOD2]] — joint SIRT3-regulated antioxidant program
+  - [[IDH2]] ↔ [[MnSOD]] — joint SIRT3-regulated antioxidant program
   - [[IDH2]] ↔ [[Caspase-3]] — ROS-quenching anti-apoptotic shield
