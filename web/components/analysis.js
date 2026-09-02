@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, DATASET_MODE, DATASET_LABELS, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS, BUILD_INFO } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, DATASET_MODE, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS, BUILD_INFO } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, edgeSegments, edgeOffColor,
@@ -1501,35 +1501,105 @@ function exploreIsolate(ids) {
   applyPromptNodeFilter();
 }
 
+// Dataset mode is baked into the page at load from `mode=` in the URL hash
+// (data.js), so switching modes updates the hash and reloads — same mechanism
+// as the Settings slider in ui.js. Clicking a mode badge cycles the order
+// triples → wiki → combined (whether the badge is in Overview or Topology).
+const MODE_BADGE_ORDER = ['triples', 'wiki', 'combined']; // fewest → most edges
+// Current analysis tab ('overview' | 'network' | 'search'), tracked so a
+// mode-toggle reload can restore the exact screen instead of defaulting back.
+let activeAnalysisTab = 'overview';
+// sessionStorage key used to carry the tab across a mode-toggle reload (the
+// hash already restores the open/closed panel; this restores which tab).
+const MODE_RESTORE_KEY = 'wiki_mode_toggle_restore';
+function cycleDatasetMode() {
+  // Remember where we are so the reload lands back on the same analysis screen.
+  try { sessionStorage.setItem(MODE_RESTORE_KEY, activeAnalysisTab); } catch (e) { /* ignore */ }
+  const i = MODE_BADGE_ORDER.indexOf(DATASET_MODE);
+  const next = MODE_BADGE_ORDER[(i + 1) % MODE_BADGE_ORDER.length];
+  const params = new URLSearchParams(location.hash.replace(/^#\/?/, ''));
+  if (next === 'combined') params.delete('mode'); // combined is the default — no mode in the hash
+  else params.set('mode', next);
+  const qs = params.toString();
+  if (qs) location.hash = '#' + qs;
+  else history.pushState(null, '', location.pathname + location.search);
+  location.reload();
+}
+
 function renderAnalysisTools() {
   const s = computeDatasetStats();
-  // Mode badge label for the current dataset (e.g. "Combined — triples + wiki")
-  const modeLabel = DATASET_LABELS[DATASET_MODE] || DATASET_MODE;
   const modeShort = DATASET_MODE.charAt(0).toUpperCase() + DATASET_MODE.slice(1);
-  // One stats card per section — all metrics as key/value rows.
-  const statRows = (rows) => rows.map(([k, v, tipKey]) =>
-    `<div class="at-stat-row" title="${tipKey ? esc(t(tipKey)) : ''}">
-      <span class="at-stat-key">${esc(k)}</span>
-      <span class="at-stat-val">${typeof v === 'number' ? v.toLocaleString() : esc(String(v))}</span>
-    </div>`).join('');
+  // Rich per-metric tooltips. The base description comes from i18n; each row
+  // also carries live, dataset-specific facts (actual hub names, degree /
+  // clustering spread, bridge labels, deepest-core membership) so hovering a
+  // metric always shows something concrete — and it reflects the active mode.
+  const degreeArr = RAW_NODES.map(n => n.degree || 0);
+  const maxDegreeV = Math.max(0, ...degreeArr);
+  const minDegreeV = Math.min(...degreeArr);
+  const isolatedCount = degreeArr.filter(d => d === 0).length;
+  const maxClusteringV = RAW_NODES.reduce((m, n) => Math.max(m, n.clustering || 0), 0);
+  const deepestCore = RAW_NODES.filter(n => (n.k_core || 0) === s.maxKCore);
+  const maxPRNode = s.pagerankLeaders[0];
+  const topBridges = s.connectors
+    .filter(n => (n.betweenness || 0) > 0 && (s.crossComm.get(n.id) || 0) >= 2)
+    .slice(0, 6);
+  // Largest community by canonical LEGEND count + label (the graph build's
+  // ground truth, also used by the Communities section) — NOT the first node
+  // inside a community, which would give a misleading node label.
+  const largestCommL = LEGEND.slice().sort((a, b) => (b.count || 0) - (a.count || 0))[0] || null;
+
+  // Styled tooltip inner rows (label → value). Renders nothing when empty.
+  const statRowTip = (facts) => {
+    const rows = (facts || []).map(([lbl, val]) =>
+      `<span class="at-stat-tip-fact"><span>${esc(lbl)}</span><b>${esc(String(val))}</b></span>`
+    ).join('');
+    return rows ? `<span class="at-stat-tip-facts">${rows}</span>` : '';
+  };
+
+  // One stats card per section — all metrics as key/value rows with a styled
+  // tooltip (base i18n description + live facts) replacing the flaky native title.
+  const statRows = (rows) => rows.map(({ key, value, tipKey, facts }) => {
+    const v = typeof value === 'number' ? value.toLocaleString() : String(value);
+    return `<div class="at-stat-row" tabindex="0" aria-label="${esc(key)}">
+      <span class="at-stat-key">${esc(key)}</span>
+      <span class="at-stat-val">${esc(v)}</span>
+      <span class="at-stat-tip" role="tooltip">
+        ${tipKey ? `<span class="at-stat-tip-desc">${esc(t(tipKey))}</span>` : ''}
+        ${statRowTip(facts)}
+      </span>
+    </div>`;
+  }).join('');
 
   // Dataset Overview and Network Topology each render as a single card whose
-  // stats are key/value pairs (tooltips kept via the row title).
+  // stats are key/value rows; tooltips use the rich .at-stat-tip tooltip.
   const cards = statRows([
-    [t('metricNodes'), s.N, 'metricNodesTip'],
-    [t('metricEdges'), s.E, 'metricEdgesTip'],
-    [t('metricCommunities'), s.communities, 'metricCommunitiesTip'],
-    [t('metricAvgDegree'), s.avgDegree.toFixed(2), 'metricAvgDegreeTip'],
-    [t('metricDensity'), s.density.toFixed(4), 'metricDensityTip'],
-    [t('metricGodNodes'), s.godNodes.length, 'metricGodNodesTip'],
+    { key: t('metricNodes'), value: s.N, tipKey: 'metricNodesTip',
+      facts: [[t('statIsolated'), isolatedCount]] },
+    { key: t('metricEdges'), value: s.E, tipKey: 'metricEdgesTip',
+      facts: [[t('statMaxDegree'), maxDegreeV]] },
+    { key: t('metricCommunities'), value: s.communities, tipKey: 'metricCommunitiesTip',
+      facts: largestCommL
+        ? [[t('statLargestCommunity'), `${largestCommL.label} · ${largestCommL.count}`]]
+        : [] },
+    { key: t('metricAvgDegree'), value: s.avgDegree.toFixed(2), tipKey: 'metricAvgDegreeTip',
+      facts: [[t('statMinDegree'), minDegreeV], [t('statMaxDegree'), maxDegreeV], [t('statIsolated'), isolatedCount]] },
+    { key: t('metricDensity'), value: s.density.toFixed(4), tipKey: 'metricDensityTip',
+      facts: [[t('statIsolated'), isolatedCount]] },
+    { key: t('metricGodNodes'), value: s.godNodes.length, tipKey: 'metricGodNodesTip',
+      facts: s.godNodes.slice(0, 6).map(n => [n.label, n.degree]) },
   ]);
 
   const topoCards = statRows([
-    [t('topoMeanClustering'), s.meanClustering.toFixed(3), 'topoMeanClusteringTip'],
-    [t('topoMaxKCore'), s.maxKCore, 'topoMaxKCoreTip'],
-    [t('topoMeanPagerank'), s.meanPagerank.toFixed(5), 'topoMeanPagerankTip'],
-    [t('topoMedianDegree'), s.medianDegree, 'topoMedianDegreeTip'],
-    [t('topoBridges'), s.bridgingCount, 'topoBridgesTip'],
+    { key: t('topoMeanClustering'), value: s.meanClustering.toFixed(3), tipKey: 'topoMeanClusteringTip',
+      facts: [[t('statMaxClustering'), maxClusteringV.toFixed(3)]] },
+    { key: t('topoMaxKCore'), value: s.maxKCore, tipKey: 'topoMaxKCoreTip',
+      facts: [[t('statDeepestCoreCount'), deepestCore.length], ...deepestCore.slice(0, 4).map(n => [n.label, n.k_core])] },
+    { key: t('topoMeanPagerank'), value: s.meanPagerank.toFixed(5), tipKey: 'topoMeanPagerankTip',
+      facts: maxPRNode ? [[t('statMaxPagerank'), `${maxPRNode.label} ${(maxPRNode.pagerank || 0).toFixed(4)}`]] : [] },
+    { key: t('topoMedianDegree'), value: s.medianDegree, tipKey: 'topoMedianDegreeTip',
+      facts: [[t('statMinDegree'), minDegreeV], [t('statMaxDegree'), maxDegreeV]] },
+    { key: t('topoBridges'), value: s.bridgingCount, tipKey: 'topoBridgesTip',
+      facts: topBridges.map(n => [n.label, `β ${(n.betweenness || 0).toFixed(3)}`]) },
   ]);
 
   // Role list rows reuse the community card motif (swatch + magnitude bar).
@@ -1573,11 +1643,11 @@ function renderAnalysisTools() {
     <div class="at-tab-panel" id="at-tab-overview" role="tabpanel">
     <div class="at-top-split">
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+        <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" role="button" tabindex="0" title="${esc(t('modeBadgeClickHint'))} — ${esc(modeShort)} · ${esc(t('modeBadgeNote'))}">${esc(modeShort)}</span></h4>
         <div class="at-stat-rows">${cards}</div>
       </section>
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+        <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" role="button" tabindex="0" title="${esc(t('modeBadgeClickHint'))} — ${esc(modeShort)} · ${esc(t('modeBadgeNote'))}">${esc(modeShort)}</span></h4>
         <div class="at-stat-rows">${topoCards}</div>
       </section>
     </div>
@@ -1651,6 +1721,12 @@ function renderAnalysisTools() {
   `;
 
   analysisTools.querySelectorAll('.at-row').forEach(bindAtRow);
+  analysisTools.querySelectorAll('.at-mode-badge').forEach(b => {
+    b.addEventListener('click', cycleDatasetMode);
+    b.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cycleDatasetMode(); }
+    });
+  });
   analysisTools.querySelectorAll('.at-comm').forEach(el => {
     const cid = Number(el.dataset.cid);
     const ids = (s.nodesByCommunity.get(cid) || []).map(n => n.id);
@@ -1715,6 +1791,7 @@ function wireAnalysisTabs() {
   `;
   const tabs = subrowTabs.querySelectorAll('.at-tab');
   const setTab = (name) => {
+    activeAnalysisTab = name;
     tabs.forEach(btn => {
       const on = btn.dataset.atTab === name;
       btn.classList.toggle('active', on);
@@ -2172,3 +2249,19 @@ applyUiLang(uiLang);
 state.suppressHashUpdate = false;
 appendSuggestions(promptMessages);
 refreshActivity();
+
+// Restore the analysis screen after a dataset-mode toggle reload: sessionStorage
+// was written in cycleDatasetMode() with the tab the user was on. Reopen the
+// panel and reselect that tab so the toggle lands back on the graph-analysis
+// screen instead of the home view. (The open/closed panel itself is already
+// carried by the `analysis` hash param; this restores WHICH tab.)
+(function restoreModeToggleUI() {
+  let stored = null;
+  try { stored = sessionStorage.getItem(MODE_RESTORE_KEY); sessionStorage.removeItem(MODE_RESTORE_KEY); } catch (e) { /* ignore */ }
+  if (stored == null) return;
+  const tab = stored === 'network' || stored === 'search' ? stored : 'overview';
+  setAnalysisOpen(true);
+  const btn = document.querySelector(`#analysis-subrow-tabs .at-tab[data-at-tab="${tab}"]`);
+  if (btn) btn.click();
+  updateHash();
+})();

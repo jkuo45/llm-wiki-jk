@@ -1,5 +1,5 @@
 {
-  "generated": "01_SEP_2026 01:18 PM PDT",
+  "generated": "02_SEP_2026 12:36 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,32 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mnsod_thioredoxin_link_01_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "The MnSOD–Thioredoxin Axis: An Integrated Mitochondrial Peroxide-Relay and Shared Stress-Resistance Program — Focused Analysis",
+          "description": "A focused web-verified analysis of the mechanistic and functional link between mitochondrial MnSOD/SOD2 and the thioredoxin system (Trx1/Trx2, peroxiredoxins, thioredoxin reductase, glutaredoxin). Core thesis: MnSOD and the thioredoxins are not redundant free-radical sponges but the two chemically coupled halves of a single compartmentalized peroxide-relay (SOD2 → H₂O₂ → Prx/Trx → H₂O), co-deployed in an integrated stress-resistance program and both gated by overlapping hormetic windows — yet with a striking asymmetry in lifespan pharmacology.",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "mnsod",
+            "thioredoxin",
+            "redox",
+            "oxidative-stress",
+            "hormesis",
+            "mitochondria",
+            "sirtuin",
+            "heart-failure",
+            "research-synthesis"
+          ],
+          "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+          "path": "tasks/en-US/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
         }
       }
     },

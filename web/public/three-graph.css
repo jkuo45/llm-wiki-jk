@@ -798,15 +798,27 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 .at-card.has-tip:focus-visible { outline: 2px solid var(--accent); outline-offset: -1px; }
 .at-card .at-card-tip { position: absolute; left: 6px; right: 6px; top: calc(100% + 8px); bottom: auto; background: var(--surface); border: 1px solid var(--accent); color: var(--ink-hi); padding: 7px 8px; border-radius: var(--r-md); font-size: 11px; line-height: 1.45; box-shadow: 0 6px 20px rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transform: translateY(-4px); transition: opacity .16s ease, transform .16s ease; z-index: 3; }
 .at-card.has-tip:hover .at-card-tip, .at-card.has-tip:focus .at-card-tip, .at-card.has-tip:focus-visible .at-card-tip { opacity: 1; transform: none; pointer-events: auto; }
-.at-mode-badge { font-size: 10px; font-weight: 600; letter-spacing: 0.03em; text-transform: none; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent); padding: 2px 7px; border-radius: var(--r-pill); white-space: nowrap; }
+.at-mode-badge { font-size: 10px; font-weight: 600; letter-spacing: 0.03em; text-transform: none; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent); padding: 2px 7px; border-radius: var(--r-pill); white-space: nowrap; cursor: pointer; user-select: none; }
+.at-mode-badge:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); border-color: var(--accent); }
+.at-mode-badge:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 @media (max-width: 640px) { .at-card .at-card-tip { left: 0; right: 0; } }
 /* Consolidated stat cards (Dataset Overview / Network Topology): all metrics as
    key/value rows in a single card. */
 .at-stat-rows { display: flex; flex-direction: column; }
-.at-stat-row { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 6px 10px; border-radius: var(--r-md); cursor: help; }
+.at-stat-row { position: relative; display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 6px 10px; border-radius: var(--r-md); cursor: help; }
 .at-stat-row:hover { background: rgba(120,120,140,0.08); }
 .at-stat-key { font-size: 11px; color: var(--ink-5); text-transform: uppercase; letter-spacing: 0.04em; flex-shrink: 0; }
 .at-stat-val { font-size: 13px; font-weight: 600; color: var(--ink-hi); font-variant-numeric: tabular-nums; white-space: nowrap; }
+/* Styled instant tooltip for stat rows (replaces the delayed native title):
+   base i18n description + live per-metric facts. Appears on hover / keyboard focus. */
+.at-stat-tip { position: absolute; left: 6px; right: 6px; top: calc(100% + 6px); z-index: 6; background: var(--surface); border: 1px solid var(--accent); color: var(--ink-hi); padding: 8px 10px; border-radius: var(--r-lg); font-size: 11px; line-height: 1.5; box-shadow: 0 6px 20px rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transform: translateY(-4px); transition: opacity .16s ease, transform .16s ease; display: flex; flex-direction: column; gap: 6px; }
+.at-stat-tip-desc { color: var(--ink-6); }
+.at-stat-tip-facts { display: flex; flex-direction: column; gap: 2px; border-top: 1px solid var(--line); padding-top: 6px; min-width: 0; }
+.at-stat-tip-fact { display: flex; justify-content: space-between; gap: 12px; }
+.at-stat-tip-fact span { color: var(--ink-5); min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.at-stat-tip-fact b { color: var(--ink-hi); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.at-stat-row:hover .at-stat-tip, .at-stat-row:focus .at-stat-tip, .at-stat-row:focus-visible .at-stat-tip { opacity: 1; transform: none; pointer-events: auto; }
+@media (max-width: 640px) { .at-stat-tip { left: 0; right: 0; } }
 .at-reset { margin-top: 10px; background: none; border: 1px solid var(--line-strong); color: var(--ink-5); border-radius: var(--r-sm); font-size: 12px; padding: 4px 10px; cursor: pointer; }
 .at-reset:hover { border-color: var(--accent); color: var(--ink-hi); }
 .at-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; max-height: min(46vh, 520px); overflow-y: auto; }

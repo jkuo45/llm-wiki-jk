@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-31T22:32:22Z",
+  "generated_at": "2026-09-02T00:46:23Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 2653,
-    "wiki_nodes": 3007,
-    "shared_nodes": 1562,
-    "wiki_only_nodes": 1445,
-    "triples_only_nodes": 1091,
-    "triples_edges": 4092,
-    "wiki_edges": 35150,
-    "triples_edge_pairs": 3894,
-    "wiki_edge_pairs": 35150,
-    "wiki_only_edges": 33425,
-    "triples_only_edges": 2169
+    "triples_nodes": 3005,
+    "wiki_nodes": 3030,
+    "shared_nodes": 1814,
+    "wiki_only_nodes": 1216,
+    "triples_only_nodes": 1191,
+    "triples_edges": 5066,
+    "wiki_edges": 35740,
+    "triples_edge_pairs": 4800,
+    "wiki_edge_pairs": 35740,
+    "wiki_only_edges": 33320,
+    "triples_only_edges": 2380
   },
   "top_wiki_only_nodes": [
     {
@@ -24,42 +24,17 @@
     {
       "id": "phosphorylation",
       "label": "Phosphorylation",
-      "degree": 87
-    },
-    {
-      "id": "sting",
-      "label": "STING",
-      "degree": 83
-    },
-    {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
-      "degree": 83
+      "degree": 89
     },
     {
       "id": "macrophage",
       "label": "Macrophage",
-      "degree": 75
+      "degree": 76
     },
     {
       "id": "ubiquitination",
       "label": "Ubiquitination",
-      "degree": 73
-    },
-    {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
-      "degree": 71
-    },
-    {
-      "id": "rheumatoid_arthritis",
-      "label": "Rheumatoid Arthritis",
-      "degree": 71
-    },
-    {
-      "id": "fibroblast",
-      "label": "Fibroblast",
-      "degree": 68
+      "degree": 75
     },
     {
       "id": "endothelial_cells",
@@ -67,19 +42,14 @@
       "degree": 68
     },
     {
-      "id": "metabolism",
-      "label": "Metabolism",
-      "degree": 66
-    },
-    {
-      "id": "type_i_interferon",
-      "label": "Type I Interferon",
-      "degree": 66
+      "id": "fibroblast",
+      "label": "Fibroblast",
+      "degree": 68
     },
     {
       "id": "replicative_senescence",
       "label": "Replicative Senescence",
-      "degree": 65
+      "degree": 67
     },
     {
       "id": "epigenetics_and_aging",
@@ -107,14 +77,44 @@
       "degree": 57
     },
     {
-      "id": "calcium",
-      "label": "Calcium",
-      "degree": 56
+      "id": "mmp_12",
+      "label": "MMP-12",
+      "degree": 55
     },
     {
-      "id": "extracellular_matrix",
-      "label": "Extracellular Matrix",
-      "degree": 56
+      "id": "c_elegans",
+      "label": "Caenorhabditis elegans",
+      "degree": 54
+    },
+    {
+      "id": "atg1",
+      "label": "Atg1",
+      "degree": 53
+    },
+    {
+      "id": "park2",
+      "label": "PARK2",
+      "degree": 52
+    },
+    {
+      "id": "transcription_factor_eb",
+      "label": "Transcription factor EB",
+      "degree": 50
+    },
+    {
+      "id": "als",
+      "label": "ALS",
+      "degree": 50
+    },
+    {
+      "id": "transcription_factor",
+      "label": "Transcription Factor",
+      "degree": 50
+    },
+    {
+      "id": "immunity",
+      "label": "Immunity",
+      "degree": 49
     }
   ],
   "top_triples_only_nodes": [
@@ -124,8 +124,18 @@
       "degree": 11
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "comt_val158_allele",
+      "label": "COMT Val158 allele",
+      "degree": 5
+    },
+    {
+      "id": "slow_comt",
+      "label": "slow COMT",
+      "degree": 4
+    },
+    {
+      "id": "mice",
+      "label": "Mice",
       "degree": 4
     },
     {
@@ -134,8 +144,23 @@
       "degree": 4
     },
     {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
+      "id": "nf_kb",
+      "label": "NF-kB",
+      "degree": 4
+    },
+    {
       "id": "sirt1_and_sirt2",
       "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "cutaneous_melanoma",
+      "label": "Cutaneous Melanoma",
       "degree": 4
     },
     {
@@ -144,23 +169,8 @@
       "degree": 4
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
-      "degree": 3
-    },
-    {
-      "id": "h3k9",
-      "label": "H3K9",
+      "id": "s6k1_2",
+      "label": "S6K1/2",
       "degree": 3
     },
     {
@@ -169,18 +179,13 @@
       "degree": 3
     },
     {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     },
     {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
+      "id": "antioxidant_properties",
+      "label": "Antioxidant Properties",
       "degree": 3
     },
     {
@@ -189,44 +194,32 @@
       "degree": 3
     },
     {
-      "id": "muscle_protein_synthesis",
-      "label": "muscle protein synthesis",
-      "degree": 2
+      "id": "trim28",
+      "label": "TRIM28",
+      "degree": 3
     },
     {
-      "id": "h4k16",
-      "label": "H4K16",
-      "degree": 2
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
     },
     {
-      "id": "age_modified_proteins",
-      "label": "AGE-modified proteins",
-      "degree": 2
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
     },
     {
-      "id": "dna_hypomethylation",
-      "label": "DNA Hypomethylation",
-      "degree": 2
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
+      "degree": 3
     },
     {
-      "id": "muscle_wasting",
-      "label": "Muscle Wasting",
-      "degree": 2
-    },
-    {
-      "id": "sirt3_activation",
-      "label": "SIRT3 activation",
-      "degree": 2
+      "id": "methyl_donor_supplements",
+      "label": "methyl donor supplements",
+      "degree": 3
     }
   ],
   "top_wiki_only_edges": [
-    {
-      "source": "zscan4",
-      "target": "tak1",
-      "source_label": "Zscan4",
-      "target_label": "TAK1",
-      "weight": 1.0
-    },
     {
       "source": "zscan4",
       "target": "sasp",
@@ -274,13 +267,6 @@
       "target": "metabolic_flexibility",
       "source_label": "Zone 2 Cardio",
       "target_label": "Metabolic Flexibility",
-      "weight": 1.0
-    },
-    {
-      "source": "zone_2_cardio",
-      "target": "hiit",
-      "source_label": "Zone 2 Cardio",
-      "target_label": "HIIT",
       "weight": 1.0
     },
     {
@@ -358,6 +344,20 @@
       "target": "mitochondrial_targeting_sequence",
       "source_label": "Zinc Finger",
       "target_label": "Mitochondrial Targeting Sequence",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitochondrial_matrix",
+      "source_label": "Zinc Finger",
+      "target_label": "Mitochondrial Matrix",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitochondrial_dna",
+      "source_label": "Zinc Finger",
+      "target_label": "Mitochondrial DNA",
       "weight": 1.0
     }
   ],
