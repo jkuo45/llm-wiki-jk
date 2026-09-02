@@ -3,7 +3,7 @@ title: SIRT3
 description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
   within the Mitochondria.
 created: 2026-07-04
-updated: 2026-08-31
+updated: 2026-09-02
 tags:
   - enzyme
   - nad-plus
@@ -127,6 +127,34 @@ SIRT3 **decreases mitochondrial membrane potential** and **reduces reactive oxyg
 ## Human Longevity Association
 
 A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5** — correlates with **male lifespan beyond 90 years**, directly implicating SIRT3 in human longevity.
+
+## Sex Differences
+
+> [!important] Estrogen is a transcriptional activator of SIRT3
+> SIRT3 expression and activity are profoundly sex-dependent. Estrogen via ERα/β upregulates SIRT3 transcription and promotes its mitochondrial targeting, giving premenopausal females a significant advantage in mitochondrial antioxidant defense. This protection is lost at menopause, creating a systems-level inflection point for female cardiac and metabolic aging.
+
+### Estrogen–ERα–SIRT3 Transcriptional Axis
+
+- Estrogen (E₂) acting through ERα upregulates SIRT3 transcription and enhances mitochondrial import efficiency. The E₂–ERα interaction boosts SIRT3 expression and its targeting to the mitochondrial matrix, where it deacetylates MnSOD, IDH2, and other substrates (Azerbaijani longevity cohort pilot, 2025; *Biology* 2025).
+- Women retain **higher absolute pools of SIRT3 protein** than men, with a smaller age-related decline. Their protein-to-mRNA ratios (translational efficiency proxy) rose by ~30% for SIRT3 in a longevity cohort, while the male increase was modest.
+
+### Age-Stratified Sex Differences
+
+- Both sexes show age-dependent declines in SIRT1/3/6, but with **markedly different kinetics**. Men show more pronounced SIRT1 drops from young-adult to middle/late-age; women show relatively preserved sirtuin levels, possibly due to estrogen-dependent translational efficiency.
+- CVD reshapes the sirtuin axis more dramatically than sex or age alone: ~35% decline in SIRT3 under pressure-overload conditions, with greater impact in males due to lower baseline reserve.
+
+### Post-Menopausal SIRT3 Decline
+
+> [!warning] Menopause accelerates female cardiac aging via SIRT3 loss
+> Female-specific downregulation of SIRT3 in aged hearts is associated with a decline in mitochondrial anti-oxidant defense, contributing to the accelerated cardiac aging observed after menopause. This is mechanistically linked to estrogen withdrawal → reduced SIRT3 transcription → reduced MnSOD deacetylation → increased oxidative stress.
+
+- In aged female mouse hearts, both Sirt1 and Sirt3 are specifically downregulated, associated with mitochondrial dysfunction and impaired antioxidant defense (*Aging & Disease*, 2024).
+- The NAMPT inhibitor KPT-9274 mediates **gender-dependent** murine anemia and nephrotoxicity by regulating SIRT3-mediated SOD deacetylation (Klimova et al., 2021), confirming the SIRT3–SOD2 axis as a sex-sensitive therapeutic target.
+
+### Sex-Specific Cancer Contexts
+
+- In MEFs, SIRT3 drives sex-specific responses to age-related changes: female MEFs exhibited enhanced SIRT3 KO-induced senescence after etoposide treatment compared to males (*Mech Ageing Dev*, 2024).
+- SIRT3 acts as a mitochondrial tumor suppressor required for maintenance of mitochondrial integrity during stress — with potentially greater importance in females given their higher baseline SIRT3 expression.
 
 ## Cancer — Dual (Janus) Roles
 

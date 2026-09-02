@@ -135,6 +135,44 @@ MnSOD sits at the heart of a paradox central to [[Mitohormesis]]. Genetic or pha
 
 MnSOD polymorphisms (notably the Ala16Val variant) modulate mitochondrial import efficiency and are associated with cancer risk and neurodegenerative phenotypes. Therapeutics that boost SIRT3 activity — [[Honokiol]], [[NAD+]] precursors, [[Resveratrol]] — represent strategies to enhance MnSOD function in ageing and metabolic disease. MnSOD therefore bridges the [[NAD+]]–sirtuin axis to the core oxidative-balance machinery of the cell.
 
+## Sex Differences
+
+> [!important] Estrogen is a master regulator of SOD2 expression and activity
+> The SOD2/MnSOD axis shows some of the most pronounced sex-dependent regulation in the vault. Females express higher SOD2 protein levels, maintain better antioxidant defense, and are partially protected from mitochondrial oxidative stress until menopause — when estrogen withdrawal removes this protection and accelerates cardiac and vascular aging.
+
+### Estrogen-Dependent SOD2 Upregulation
+
+- Estrogen (17β-estradiol) directly upregulates **SOD2 protein expression** via ERα/ERβ-mediated transcriptional activation. Female cells in multiple experimental contexts show greater SOD2 protein abundance, enhanced antioxidant capacity, and a fusion-biased mitochondrial network (Vina et al., *Free Radic Biol Med* 2005; *Clin Sci* 2017).
+- Estrogen signaling increases both SOD2 mRNA transcription and post-transcriptional protein stabilization, contributing to the lower oxidative damage observed in premenopausal females.
+- SOD2 protein-level and activity differences exist between sexes **despite similar mRNA levels** — indicating post-transcriptional regulation (acetylation, estrogen-mediated translation) as the primary mechanism (MDPI, *Int J Mol Sci* 2025).
+
+### SOD2 Ala16Val (rs4880) Polymorphism × Sex Interactions
+
+The Ala16Val variant affects mitochondrial import efficiency: **Val/Val** homozygotes have lower mitochondrial SOD2 processing, resulting in reduced matrix antioxidant capacity.
+
+- **Males**: Stronger associations with prostate cancer (OR 1.52 for Val/Val), lung cancer, and head/neck cancer risk.
+- **Females**: Stronger associations with breast cancer (especially ER-negative subtypes) and thyroid cancer risk.
+- The sex-specific risk profiles likely reflect interactions between SOD2 import efficiency and sex-hormone-modulated mitochondrial metabolic demands (Kang, *Gene* 2013; Xu et al., *PLoS ONE* 2014).
+
+### Post-Menopausal Decline: The SIRT3–SOD2 Axis
+
+> [!warning] Menopause removes the estrogen → SIRT3 → SOD2 protection
+> Female-specific downregulation of SIRT3 in aged hearts reduces deacetylation of MnSOD at Lys68/K122, diminishing its antioxidant activity. This contributes to the accelerated cardiac aging and increased heart failure risk observed in postmenopausal women.
+
+- In aged female mouse hearts, both SIRT3 and SOD2 protein levels decline more steeply than in age-matched males, associated with a decline in mitochondrial anti-oxidative defense (*Aging & Disease*, 2024).
+- The mechanism: estrogen withdrawal → reduced ERα-mediated SIRT3 transcription → reduced SIRT3 mitochondrial import → reduced MnSOD deacetylation → increased mitochondrial superoxide → oxidative damage accumulation.
+- This represents a systems-level inflection point: premenopausal women maintain higher SOD2 activity via the estrogen→SIRT3→SOD2 axis; post-menopause, this protective circuit collapses.
+
+### SOD2 Knockout Mouse Phenotype
+
+- **Sod2⁻/⁻ mice** die within the first month of life from oxidative damage (dilated cardiomyopathy, neurodegeneration, hepatic lipid accumulation).
+- **Sod2⁺/⁻ heterozygotes** show increased DNA damage, cancer susceptibility, and accelerated aging — with some evidence of sex-dependent severity, though most studies use mixed-sex cohorts.
+
+### Therapeutic Implications
+
+- **Sex-specific dosing** of SIRT3 activators (honokiol, NAD+ precursors) may be warranted: post-menopausal females may require higher doses to compensate for lost estrogen-mediated SIRT3 expression.
+- **SOD2 polymorphism genotyping** could inform sex-specific cancer risk assessment and antioxidant supplementation strategies.
+
 ## Documents
 
 List of documents that mention this entity

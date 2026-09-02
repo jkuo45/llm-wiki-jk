@@ -5,7 +5,7 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
 created: 2024-01-01
-updated: 2026-07-31
+updated: 2026-09-02
 tags:
   - biological-process
   - senescence
@@ -252,6 +252,39 @@ The SASP is the therapeutic target of [[Senolytic Therapy|senolytics]] — drugs
 ### Biomarker Potential
 
 Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as biomarkers of biological age and senescent cell burden.
+
+## Sex Differences
+
+> [!important] The SASP is sexually dimorphic
+> Estrogen suppresses the master SASP regulator [[NF-κB]], creating a sex-specific SASP magnitude and composition that shifts dramatically at menopause. Males carry a higher systemic SASP burden through most of life, while females experience a post-menopausal inflammatory acceleration. Sex-specific SASP profiles also influence senolytic therapy responses.
+
+### Estrogen–NF-κB Suppression of the SASP
+
+- [[NF-κB]] is the master transcriptional regulator of the SASP. Estrogen (E₂) inhibits NF-κB through a bimodal ERβ mechanism: (1) enhances [[IκBα]] expression (the NF-κB inhibitor); (2) reduces NF-κB p65 binding to pro-inflammatory gene promoters (Giroux et al., *PLoS ONE* 2012).
+- The MyD88/methylated ER-α complex (required for NF-κB transcriptional activity) is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries** but **0/29 pre-menopausal ovaries** — demonstrating estrogen's direct interruption of SASP-driving NF-κB activation in situ.
+- At menopause, loss of estrogen derepresses NF-κB → amplified SASP → accelerated inflammaging.
+
+### Sex-Specific SASP Factor Profiles
+
+- **Males** exhibit a more pro-inflammatory SASP at the systemic level: higher circulating IL-17A, IL-6, TNF-α, and CCL5 compared to age-matched females (Foster & Kumar, *Front Aging Neurosci* 2025; Parkin et al., 2023).
+- **SAMP8 mice** (senescence-accelerated): male aortas show upregulated exocytic vesicular transport and inflammatory glycoproteins; females show a much better proteomic profile with only NRP1 decrease as a sex-specific pathological feature (Santín-Márquez et al., *Biogerontology* 2025).
+- **IL-23R** transcript is elevated in old female kidney, liver, and adipose; in males, liver CCL5 correlates with plasma CCL5 — suggesting **different tissues contribute different SASP factors by sex** (Orozco et al., *Nat Aging* 2024).
+
+### Menopausal Hormone Therapy and SASP
+
+- The KEEPS trial showed oral conjugated equine estrogens and transdermal 17β-estradiol reduced circulating GDF15, TNFR1, and FAS (specific SASP/senescence biomarkers) in postmenopausal women (Raz et al., *Physiol Rep* 2020).
+- Senolytic treatment may hasten ovarian aging and loss of follicles (the primary estrogen source), potentially creating a feedback loop that accelerates senescence in middle-aged females (Foster & Kumar, 2025).
+
+### Sex-Specific Senolytic Responses
+
+- **D+Q in AD mice**: Improved cognition/metabolism in **females only**; in males, D+Q increased SASP markers (p21, IL-6, TNFα) and worsened metabolic profile (*GeroScience* 2024).
+- **Fisetin**: Reduced SASP and improved cognition **in males only** in aged F344 rats; no effect in females (Fang et al., 2023).
+- **No sex-stratified data exist for navitoclax (ABT-263)** — a specific, actionable gap in the literature.
+
+### cGAS–STING and Sex-Specific SASP Amplification
+
+- **Estrogen directly suppresses STING transcription** via ERα + HDAC3 binding to the STING promoter (Chen et al., *Cancers* 2022). After menopause, STING derepression may amplify the cGAS–STING–NF-κB SASP cascade.
+- **cGAS/STING activity is significantly higher in aged males** than females, driven by lower mitochondrial DNA clearance capacity (Feng et al., *JCI Insight* 2024).
 
 # 
 

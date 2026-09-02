@@ -4,7 +4,7 @@ description: Apoptosis (programmed cell death) is a highly regulated mechanism
   for removing damaged, infected, redundant, or potentially cancerous cells without
   inducing inflammation.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-09-02
 tags:
   - biological-process
   - apoptosis
@@ -41,6 +41,40 @@ aliases: []
 > - **[[BAX]]**: Phosphorylated by [[ERK2]] at Thr167 and bound by [[Pin1]] (pro-survival); or by [[JNK]]/[[p38 MAPK]] at same site (pro-apoptosis)
 > - **[[BAK]]**: Maintained inactive by Tyr108 phosphorylation; dephosphorylated by [[PTPN5]] to "license" activation
 > - **[[XIAP]]**: Degraded via [[TBK1]]/[[IKKepsilon]] phosphorylation at Ser430 (pro-apoptosis); stabilized by [[Akt]] phosphorylation at Ser87 (pro-survival)
+
+## Sex Differences in Cell Death
+
+> [!important] Females die by apoptosis; males die by necrosis
+> This is arguably the most fundamental sex difference in the vault. Under stress, cells from females preferentially undergo **caspase-dependent apoptosis** (controlled, non-inflammatory), while cells from males preferentially undergo **PARP-1/AIF-dependent necrosis** (uncontrolled, proinflammatory). This divergence is **cell-autonomous** (persists in hormone-free media and prepubertal animals) and has massive implications for stroke, myocardial infarction, neurodegeneration, and cancer therapy. See also [[p53]] for sex-specific regulation of the senescence-vs-apoptosis decision.
+
+### The XX/XY Death-Pathway Divergence
+
+| Feature | Females (XX) | Males (XY) | Citation |
+|---------|-------------|------------|----------|
+| **Primary death mode** | Caspase-dependent apoptosis | PARP-1/AIF-dependent necrosis | Liu et al., *Stroke* 2009; McCullough et al., *J Cereb Blood Flow Metab* 2005 |
+| **Caspase-3 activation** | Higher after ischemia; pan-caspase inhibitor protects females only | Lower after ischemia | Liu et al., *Stroke* 2009 |
+| **Caspase-8 activation** | ~3× greater; nuclear translocation (XX neurons only) | Lower; no nuclear translocation | Sharma et al., *ASN Neuro* 2011 |
+| **Cytochrome C release** | Earlier (30 min vs 1 hr); more robust | Delayed | Sharma et al., *ASN Neuro* 2011 |
+| **AIF translocation** | Delayed/minimal | Earlier (by 30 min); robust | Sharma et al., *ASN Neuro* 2011 |
+| **Bcl-2 expression** | Higher (estrogen-driven via ERα/β) | Lower | Dubal et al., *J Neurosci* 1999 |
+| **PARP-1 inhibition** | Exacerbates injury (PARP-1 is protective in females) | Protective (reduces infarct) | McCullough et al., 2005 |
+| **Post-MI apoptosis** | 2.6% apoptotic index | 25.9% (10× higher) | Abbate et al., *Heart* 2005 |
+
+### Mechanism
+
+- **XX neurons**: Mitochondrial cytochrome C → apoptosome → [[Caspase-9]] → [[Caspase-3]]; [[Caspase-8]] also activated and translocates to nucleus to cleave PARP-2.
+- **XY neurons**: [[PARP-1]] overactivation → [[NAD+]] depletion → energy failure → AIF release from mitochondria → nuclear translocation → large-scale (50-kbp) DNA fragmentation (caspase-independent).
+- **Bax KO eliminates sex differences** in brain neuron number (Forger et al., *PNAS* 2004). **[[Bcl-2]] overexpression also eliminates sex differences** (Zup et al., *J Neurosci* 2003).
+
+### Estrogen–[[Bcl-2]] Neuroprotection
+
+- Estrogen upregulates [[Bcl-2]] via ERα/β transcriptional activation: post-ischemic Bcl-2 protein was >60% higher in females than males (Dubal et al., *J Neurosci* 1999).
+- Estrogen upregulates anti-apoptotic Bcl-w and downregulates pro-apoptotic [[Bim]] in [[Alzheimer's Disease]] context (Patterson et al., *J Neurosci* 2007).
+- Intact females and estrogen-treated ovariectomized rats show significantly increased Bcl-2 mRNA and protein compared with males.
+
+### Therapeutic Implications
+
+> **[[Caspase]] inhibitors may preferentially protect females; [[PARP-1]]/AIF inhibitors may preferentially protect males.** This has been confirmed experimentally in stroke models: the pan-caspase inhibitor Q-VD-OPh reduced infarct volume only in females, while PARP-1 knockout protected males but exacerbated injury in females.
 
 ## Related Entities
 - **Proteins:** [[p53]], [[Caspase-3]], [[Caspase-7]], [[Caspase-8]], [[Caspase-9]], [[Bax]], [[Bcl-2]], [[BAK]], [[XIAP]], [[SIRT1]], [[Beclin1]]

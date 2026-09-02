@@ -4,7 +4,7 @@ description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme fou
   in every cell, essential for energy Metabolism and a vital signaling molecule. It
   serves as an obligatory co-substrate for all ...
 created: 2026-07-04
-updated: 2026-07-26
+updated: 2026-09-02
 tags:
   - chemical-compound
   - nad-plus
@@ -53,6 +53,43 @@ A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dy
 
 > [!info] Source: [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
 > In aged [[Muscle Stem Cell|MuSCs]], neural stem cells, and melanocyte stem cells, NAD+ depletion leads to senescence, loss of quiescence, and diminished regenerative capacity. Restoring NAD+ with [[Nicotinamide Riboside|NR]] reactivated mitochondrial metabolism, upregulated prohibitin proteins, and induced the [[Mitochondrial Unfolded Protein Response|UPR^mt^]], delaying stem cell senescence and extending lifespan.
+
+## Sex Differences
+
+> [!important] NAD+ metabolism is profoundly sex-dependent
+> Males have higher baseline NAD+ but decline progressively with age (driven by PARP hyperactivation), while females maintain stable NAD+ levels through midlife via estrogen-mediated PARP-1 stabilization. This sex divergence has major implications for sirtuin activity, cardiovascular protection, and NAD+ precursor supplementation strategies.
+
+### Baseline Levels and Aging Trajectories
+
+- Men have higher whole-blood NAD+ than women (34.5 vs 31.3 μmol/L, P<0.001), but men show **progressive age-related decline** starting at age 60, while women's levels **fluctuate without monotonic decline** (β=−2.16 in men ≥60 yr; no significant trend in women) (Guan et al., *Front Endocrinol* 2022).
+- Women have higher NAD+/NADH **redox ratios** (1.33 vs 1.09, P<0.001); this sex difference narrows with biological age (Schwarzmann et al., *Biosci Rep* 2021).
+
+### PARP-1: The Male NAD+ Consumption Engine
+
+- PARP activity increases with age in **male skin but NOT female skin**; in males, PARP activity inversely correlates with tissue NAD+ (r=−0.639, P=0.0003) — making PARP-mediated NAD+ consumption a key driver of male-specific NAD+ decline (Maver et al., *PLoS ONE* 2012).
+- **Estrogen stabilizes PARP-1** on DNA, preventing hyperactivation. In the male brain, ischemia triggers PARP-1 hyperactivation → NAD+ depletion → energetic failure → cell death. In intact females, estrogen suppresses PARP-1 activity, shifting cell death to the caspase pathway (Szabo et al., 2006; Siegel & McCullough, *Neuroscience* 2013).
+- **PARP-1 knockout** protects males from ischemic brain injury but **exacerbates damage in females** — a striking sex reversal (McCullough et al., 2005).
+
+### CD38 and Ovarian NAD+ Decline
+
+- CD38 (the primary NADase driving age-related NAD+ decline) specifically rises with reproductive aging in the female ovary, directly depleting ovarian NAD+ and contributing to fertility loss (Wang et al., *Nature Aging* 2023; Zhang et al., *iScience* 2023).
+- CD38 KO young mice exhibit larger primordial follicle pools, elevated ovarian NAD+, and increased fecundity.
+- Human CD38 mRNA is higher in follicular cells from women >35 vs <25 years.
+
+### NMN Supplementation: Sex-Specific Lifespan Effects
+
+- Long-term NMN (~550 mg/kg/day) from 13 months in C57BL/6NIA mice: **females** showed 8.5% median lifespan extension (but no metabolic improvement); **males** showed improved metabolic health (slowed adipose accumulation, improved glucose tolerance) but **no lifespan extension** (Kane et al., *bioRxiv* 2024).
+- Tissue metabolomics revealed sex-specific NMN metabolism: greater Preiss-Handler pathway metabolism in females; greater salvage pathway metabolism in liver of males.
+
+### NAD+ and Sex-Specific Sirtuin Activity
+
+- Women retain **higher absolute pools of SIRT1 and SIRT3** protein with age and exhibit a smaller loss of SIRT6 than men. Female protein-to-mRNA ratios (translational efficiency) rose by ~30% for SIRT3 and SIRT6, while male increases were modest (*Biology* 2025).
+- After stroke, nicotinamide treatment reduced infarct in wild-type males and PARP-1 KO mice of both sexes, but had **no effect in wild-type females** — indicating females use a different neuroprotective pathway (Siegel & McCullough, 2013).
+
+### Therapeutic Implications
+
+- **NAD+ precursor supplementation** (NMN, NR) may need sex-specific dosing: males may benefit more from PARP-1 inhibitors to slow NAD+ consumption, while females may benefit more from CD38 inhibitors to prevent ovarian/residual NAD+ decline.
+- Post-menopausal women face a "double decline" — hormonal shifts compounding age-related NAD+ changes — making them potentially the most responsive population for NAD+ restoration strategies.
 
 ## Biosynthesis
 
