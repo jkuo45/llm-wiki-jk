@@ -12,7 +12,7 @@ from .wiki import enrich_description
 
 logger = logging.getLogger(__name__)
 
-GRAPH_PATH = Path(__file__).parent.parent / "graphify-out" / "graph.json"
+GRAPH_PATH = Path(__file__).parent.parent.parent / "graphify-out" / "graph.json"
 
 _G: nx.MultiDiGraph | None = None
 
