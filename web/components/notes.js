@@ -351,6 +351,16 @@ function syncNotesKeyboard() {
 if (window.visualViewport) window.visualViewport.addEventListener('resize', syncNotesKeyboard);
 window.addEventListener('resize', syncNotesKeyboard);
 
+// Re-tag tag-overflow after viewport changes (rotation / drag-resize): card
+// width drives the wrap count, so a cross of the ≤480px breakpoint can change
+// which cards exceed two rows. Debounced; only matters while the gallery shows.
+let tagOverflowTimer = 0;
+window.addEventListener('resize', () => {
+  if (!notesPanel.classList.contains('open') || !lightboxEl.hidden) return;
+  clearTimeout(tagOverflowTimer);
+  tagOverflowTimer = setTimeout(() => syncTagOverflow(), 150);
+});
+
 notesBtn.addEventListener('click', () => {
   if (notesPanel.classList.contains('open')) { closeNotes(); return; }
   // Only one overlay at a time: close the analysis panel if it is open.
@@ -532,6 +542,36 @@ function isFiltering() {
   return !!filterQ.trim() || activeTags.size > 0;
 }
 
+// On mobile (≤480px) each gallery card caps its tag badges at two rows and
+// fades at the clip edge; tapping the tag area accordion-expands the whole
+// list. Mark metas that overflow with .has-more and append a ▾ toggle so CSS
+// can fade / cursor and the click handler can expand. On desktop there is no
+// cap, so the check is always a no-op. Must run while the panel is laid out
+// (it is — renderGallery runs after .open is applied).
+function syncTagOverflow(root = galleryEl) {
+  if (!root.querySelector('.notes-card-meta')) return;
+  root.querySelectorAll('.notes-card-meta').forEach((meta) => {
+    const more = meta.scrollHeight > meta.clientHeight + 2;
+    meta.classList.toggle('has-more', more);
+    if (!more) {
+      meta.classList.remove('expanded');
+      const gone = meta.querySelector('.notes-meta-toggle');
+      if (gone) gone.remove();
+      meta.setAttribute('aria-expanded', 'false');
+      return;
+    }
+    meta.setAttribute('aria-expanded', String(meta.classList.contains('expanded')));
+    let toggle = meta.querySelector('.notes-meta-toggle');
+    if (!toggle) {
+      toggle = document.createElement('span');
+      toggle.className = 'notes-meta-toggle';
+      toggle.setAttribute('aria-hidden', 'true');
+      toggle.textContent = '▾';
+      meta.appendChild(toggle);
+    }
+  });
+}
+
 function renderGallery() {
   // Show the clear-× (in place of the caret) whenever a filter/search is active.
   notesCombobox.classList.toggle('filtering', isFiltering());
@@ -562,6 +602,7 @@ function renderGallery() {
   emptyEl.hidden = true;
   galleryEl.classList.remove('centered');
   galleryEl.innerHTML = list.map(cardHTML).join('');
+  syncTagOverflow(); // tag badges: cap at two rows + fade on mobile
   galleryEl.querySelectorAll('.notes-card').forEach((card) => {
     const id = card.dataset.id;
     // A click on a tag badge toggles that tag as a gallery filter; any other
@@ -576,6 +617,19 @@ function renderGallery() {
     const img = card.querySelector('.notes-card-thumb');
     if (note && first && img) {
       bindImageFallback(img, note, first.page, true);
+    }
+    // Mobile tag-area accordion: tapping the (overflowing) tag row expands the
+    // full list instead of opening the lightbox. Badge clicks keep filtering.
+    const metaEl = card.querySelector('.notes-card-meta');
+    if (metaEl && !metaEl.dataset.toggleBound) {
+      metaEl.dataset.toggleBound = '1';
+      metaEl.addEventListener('click', (e) => {
+        if (e.target.closest('.notes-badge')) return;
+        if (!metaEl.classList.contains('has-more')) return;
+        e.stopPropagation(); // keep the card click from opening the lightbox
+        const open = metaEl.classList.toggle('expanded');
+        metaEl.setAttribute('aria-expanded', String(open));
+      });
     }
   });
 }
