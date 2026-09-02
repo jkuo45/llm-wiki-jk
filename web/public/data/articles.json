@@ -167,13 +167,13 @@
         "langs": {
             "en-US": {
                 "title": "[index] articles",
-                "path": "pages/index.html",
+                "path": "pages/articles-index.html",
                 "created": "2026-08-21",
                 "updated": "2026-08-21"
             },
             "zh-TW": {
                 "title": "文章索引",
-                "path": "pages/index.html",
+                "path": "pages/articles-index.html",
                 "created": "2026-08-21",
                 "updated": "2026-08-21"
             }
