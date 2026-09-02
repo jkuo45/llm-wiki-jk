@@ -254,7 +254,7 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
       .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
 
       const viewerHref = (path) =>
-        'task-viewer.html?src=' + encodeURIComponent('../' + path);
+        'md-viewer.html?kind=task&src=' + encodeURIComponent('../' + path);
 
       function render(){
         const tokens = parseQuery(searchBox.value);

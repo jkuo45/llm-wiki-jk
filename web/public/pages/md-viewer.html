@@ -1,50 +1,56 @@
 <!--
-  Entity descriptions are sourced from the canonical knowledge graph
-  graphify-out/graph.json — build 867a5ae5fdb8a46c (2,596 nodes / 3,737 edges).
-  The frontend serves the derived web/data/nodes.json (same build); the backend
-  reads graphify-out/graph.json directly. web/data/graph.json has been retired.
+  Generic standalone markdown viewer, shared by the reader's Task Outputs and
+  Entities tabs. Fetch a single raw .md file (tasks/… or notes/…) at its
+  serving location under web/public/ and render it with the same renderer the
+  app uses (../components/markdown.js). `?src=` is the page-relative markdown path.
+  This viewer only serves task outputs — entity notes are not published on the
+  website.
+
+  Entity descriptions shown on hover are sourced from the canonical knowledge
+  graph web/public/data/nodes.json — build of the active dataset. The backend
+  reads graphify-out/graph.json directly; web/public/data/graph.json is retired.
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Task Output</title>
+<title>Markdown Note</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="themes/theme-01/pages.css">
 <script src="themes/theme-01/page-theme.js"></script>
 <script src="themes/shared/nav-auto-hide.js"></script>
 <style>
-/* Task-output specific rendering (callouts, wiki links, tables) layered
+/* Task/entity-output specific rendering (callouts, wiki links, tables) layered
    on top of the shared article stylesheet. */
-.task-body { padding-bottom:64px; }
-.task-body h1 { margin-top:8px; }
-.task-body section { padding:20px 0; }
-.task-body table { border-collapse:collapse; min-width:max-content; width:100%; font-size:.92rem; }
+.md-body { padding-bottom:64px; }
+.md-body h1 { margin-top:8px; }
+.md-body section { padding:20px 0; }
+.md-body table { border-collapse:collapse; min-width:max-content; width:100%; font-size:.92rem; }
 .table-wrap { overflow-x:auto; margin:14px 0; -webkit-overflow-scrolling:touch; }
 .table-wrap table { margin:0; }
-.task-body th, .task-body td { border:1px solid var(--line2); padding:7px 10px; text-align:left; vertical-align:top; }
-.task-body th { background:var(--card); }
+.md-body th, .md-body td { border:1px solid var(--line2); padding:7px 10px; text-align:left; vertical-align:top; }
+.md-body th { background:var(--card); }
 /* Frozen first column: solid opaque background so horizontally scrolled
    rows don't show through (zebra striping must not override this). */
-.task-body table thead th:first-child,
-.task-body table tbody th:first-child,
-.task-body table tbody td:first-child {
+.md-body table thead th:first-child,
+.md-body table tbody th:first-child,
+.md-body table tbody td:first-child {
   position:sticky; left:0; z-index:1;
   background:var(--bg);
   box-shadow:1px 0 0 var(--line2);
 }
-.task-body table thead th:first-child { z-index:3; }
-.task-body tr:nth-child(even) td { background:color-mix(in srgb, var(--card) 45%, transparent); }
-.task-body pre { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; overflow-x:auto; }
+.md-body table thead th:first-child { z-index:3; }
+.md-body tr:nth-child(even) td { background:color-mix(in srgb, var(--card) 45%, transparent); }
+.md-body pre { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; overflow-x:auto; }
 /* Rendered ```mermaid fences (replaces the fallback <pre><code> block) */
 .mermaid-figure { margin:14px 0; padding:12px; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow-x:auto; text-align:center; }
 .mermaid-figure svg { max-width:100%; height:auto; }
 /* Deeper indentation for (nested) bullet points */
-.task-body ul, .task-body ol { padding-left:32px; }
-.task-body ul ul, .task-body ol ul, .task-body ul ol, .task-body ol ol { padding-left:36px; }
-.task-body code { font-size:.88em; }
-.task-body blockquote { border-left:3px solid var(--teal); margin:10px 0; padding:4px 14px; color:var(--dim); }
+.md-body ul, .md-body ol { padding-left:32px; }
+.md-body ul ul, .md-body ol ul, .md-body ul ol, .md-body ol ol { padding-left:36px; }
+.md-body code { font-size:.88em; }
+.md-body blockquote { border-left:3px solid var(--teal); margin:10px 0; padding:4px 14px; color:var(--dim); }
 .callout { border:1px solid var(--line2); border-left-width:4px; border-radius:8px;
            padding:10px 16px; margin:16px 0; background:var(--card); }
 .callout-title { font-weight:700; margin-bottom:4px; }
@@ -60,8 +66,8 @@
  span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
 /* Entities backed by a graphify-out/graph.json description get a hover tooltip + click-to-expand
    modal, mirroring the reader/prompt panel behaviour. */
-.task-entity-link { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); cursor:help; }
-.task-entity-link:hover { color:var(--teal-hover); }
+.md-entity-link { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); cursor:help; }
+.md-entity-link:hover { color:var(--teal-hover); }
 #wiki-tooltip { position:fixed; max-width:340px; max-height:40vh; overflow-y:auto; background:var(--card); border:1px solid var(--line2); color:var(--text); padding:10px 14px; border-radius:8px; font-size:13px; line-height:1.5; pointer-events:none; opacity:0; transition:opacity .15s; z-index:400; box-shadow:0 4px 16px rgba(0,0,0,.5); }
 #wiki-tooltip.visible { opacity:1; }
 #wiki-tooltip b { color:var(--teal); display:block; margin-bottom:4px; }
@@ -95,7 +101,7 @@
 #wiki-modal-body th, #wiki-modal-body td { border:1px solid var(--line2); padding:6px 10px; font-size:13px; }
 #wiki-modal-body th { background:var(--card); text-align:left; }
 #wiki-modal-body a { color:var(--teal); text-decoration:underline; text-decoration-style:dotted; }
-.task-meta { color:var(--dim); font-size:.85rem; margin:2px 0 18px; }
+.md-meta { color:var(--dim); font-size:.85rem; margin:2px 0 18px; }
 .loading { color:var(--dim); padding-top:48px; }
 .error { color:#ff6b6b; padding-top:48px; }
 /* Sticky-nav section picker (replaces the horizontal-scrolling link list) */
@@ -117,13 +123,13 @@
 
 <nav>
   <div class="wrap">
-    <a id="back-index" class="back-home" href="tasks-index.html" title="Back to task outputs index / 返回任務輸出索引">&#8592; Back</a>
+    <a id="back-index" class="back-home" href="#" title="Back to index / 返回索引">&#8592; Back</a>
     <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
-    <button id="toc-next" class="toc-next" type="button" title="Next task output">Next &#8594;</button>
+    <button id="toc-next" class="toc-next" type="button" title="Next note">Next &#8594;</button>
   </div>
 </nav>
 
-<div class="wrap task-body" id="content">
+<div class="wrap md-body" id="content">
   <p class="loading">Loading…</p>
 </div>
 
@@ -132,13 +138,20 @@ import { renderMarkdown, esc, wikiExcerpt } from '../components/markdown.js';
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
+// Which registry + back-link to use: always task outputs.
+const KIND = 'task';
+const backIndex = document.getElementById('back-index');
+backIndex.href = 'tasks-index.html';
+backIndex.title = 'Back to task outputs index / 返回任務輸出索引';
+document.title = 'Task Output';
+
 // Only files under tasks/ may be loaded through this viewer.
 function safeSrc() {
   const raw = new URLSearchParams(location.search).get('src') || '';
   const decoded = decodeURIComponent(raw);
   // Optional "../" prefix (page-relative). Allow nested subdirectories
-  // (e.g. tasks/en-US/<task>/file.md) but no traversal (".." segments),
-  // no backslashes, no empty segments.
+  // (e.g. tasks/en-US/<task>/file.md) but no traversal (".." segments), no
+  // backslashes, no empty segments.
   const m = decoded.match(/^(?:\.\.\/)?(tasks\/.+)$/);
   if (!m) return null;
   const segs = m[1].split('/');
@@ -171,11 +184,10 @@ async function loadWikiResolver() {
   return (label) => byBase.get(label.toLowerCase()) || '';
 }
 
-// Load entity descriptions straight from graphify-out/graph.json (every node
+// Load entity descriptions straight from web/public/data/nodes.json (every node
 // carries one), keyed by label + lowercase label, so [[Entity]] links can show
-// a brief excerpt on hover — mirroring the reader/prompt panel. The frontend
-// serves the derived web/data/nodes.json (same build). zh-TW variants are kept
-// separately and only used when a real translation exists.
+// a brief excerpt on hover — mirroring the reader/prompt panel. zh-TW variants
+// are kept separately and only used when a real translation exists.
 async function loadEntityDescriptions() {
   const byLabel = new Map();
   const byLabelZh = new Map();
@@ -193,7 +205,7 @@ async function loadEntityDescriptions() {
         if (!byLabelZh.has(lo)) byLabelZh.set(lo, zh);
       }
     });
-  } catch (e) { /* graphify-out/graph.json (via nodes.json) unavailable → entities stay plain links */ }
+  } catch (e) { /* description dataset unavailable → entities stay plain links */ }
   return { byLabel, byLabelZh };
 }
 
@@ -206,7 +218,7 @@ function wikiKeyFor(label, byLabel) {
 }
 
 // ------------------------------------------------------------
-// Wiki entity tooltip + expand modal (graphify-out/graph.json descriptions)
+// Wiki entity tooltip + expand modal (graph node descriptions)
 // ------------------------------------------------------------
 const wikiTooltipEl = document.getElementById('wiki-tooltip');
 const wikiModalOverlay = document.getElementById('wiki-modal-overlay');
@@ -394,7 +406,7 @@ if (!src) {
     // <pre><code> stays until (and if) the CDN import/render succeeds.
     renderMermaidDiagrams(content);
 
-    // Upgrade [[Entity]] links that have a graphify-out/graph.json description into
+    // Upgrade [[Entity]] links that have a graph node description into
     // tooltip-enabled entity links (the rest keep their GitHub fallback).
     activeUiLang = src.includes('/zh-TW/') ? 'zh-TW' : 'en-US';
     activeByLabel = entity.byLabel;
@@ -408,25 +420,25 @@ if (!src) {
       // description or a GitHub note (the GitHub link moves into the modal).
       if (!key && !gh) return;
       const span = document.createElement('span');
-      span.className = 'task-entity-link';
+      span.className = 'md-entity-link';
       span.dataset.wiki = key || label;
       if (gh) span.dataset.gh = gh;
       span.textContent = label;
       el.replaceWith(span);
     });
     content.addEventListener('mouseover', (e) => {
-      const a = e.target.closest('.task-entity-link');
+      const a = e.target.closest('.md-entity-link');
       if (!a || !a.dataset.wiki) { hideWikiTooltip(); return; }
       showWikiTooltip(a);
     });
     content.addEventListener('mousemove', (e) => {
       if (!wikiTooltipVisible) return;
-      const a = e.target.closest('.task-entity-link');
+      const a = e.target.closest('.md-entity-link');
       if (a) positionWikiTooltip(a);
     });
     content.addEventListener('mouseleave', hideWikiTooltip);
     content.addEventListener('click', (e) => {
-      const a = e.target.closest('.task-entity-link');
+      const a = e.target.closest('.md-entity-link');
       if (a) { e.preventDefault(); openWikiModal(a.dataset.wiki, a.dataset.gh); }
     });
     // Wrap tables so wide ones scroll horizontally instead of overflowing.
@@ -439,15 +451,15 @@ if (!src) {
     const sections = structureSections(content);
     const firstH1 = content.querySelector('h1');
     if (firstH1) document.title = firstH1.textContent;
-    // Next button → open the next task output document (registry order,
-    // newest first — mirrors the reader dropdown). The registry is fetched
-    // lazily; the button stays inert until a next document resolves.
+    // Next button → open the next note in registry order (newest first —
+    // mirrors the reader dropdown). The registry is fetched lazily; the button
+    // stays inert until a next document resolves.
     const NAV_OFFSET = 60; // matches nav height + breathing room
     const tocSelect = document.getElementById('toc-select');
     const nextBtn = document.getElementById('toc-next');
     let nextHref = null;
 
-    async function initNextTask() {
+    async function initNext() {
       try {
         const resp = await fetch('../data/tasks.json');
         if (!resp.ok) return;
@@ -464,13 +476,13 @@ if (!src) {
         const idx = rows.findIndex((l) => l.path === curPath);
         const next = idx >= 0 ? rows[idx + 1] : rows[0];
         if (next) {
-          nextHref = 'task-viewer.html?src=' +
-            encodeURIComponent('../' + next.path);
+          nextHref = 'md-viewer.html?kind=' + KIND +
+            '&src=' + encodeURIComponent('../' + next.path);
           nextBtn.title = 'Next task output: ' + next.title;
         }
       } catch (e) { /* registry unavailable → button stays inert */ }
     }
-    initNextTask();
+    initNext();
 
     nextBtn.addEventListener('click', () => {
       if (nextHref) location.href = nextHref;
@@ -511,12 +523,12 @@ if (!src) {
     syncToc();
   } catch (e) {
     document.getElementById('content').innerHTML =
-      `<p class="error">Failed to load task output: ${e.message}</p>`;
+      `<p class="error">Failed to load note: ${e.message}</p>`;
   }
 }
 
 </script>
-<!-- Wiki entity tooltip + expand modal (graphify-out/graph.json descriptions) -->
+<!-- Wiki entity tooltip + expand modal (graph node descriptions) -->
 <div id="wiki-tooltip"></div>
 <div id="wiki-modal-overlay">
   <div id="wiki-modal">

@@ -241,7 +241,8 @@ uv run --no-build --with supabase --with pyyaml --with networkx python3 -m scrip
 uv run --no-build --with supabase --with pyyaml python3 -m scripts sync-content
 
 # GitHub repo / branch for generated links: read from repo .env
-# (GITHUB_REPO_URL, GITHUB_BRANCH) > default (https://github.com/jkuo45/llm-wiki-jk, dev).
+# (GITHUB_REPO_URL, GITHUB_BRANCH). Both are required — readme-counts raises if
+# either is missing (no hardcoded default).
 uv run python3 -m scripts readme-counts
 
 # Offline API test suite (tests/; no Supabase or opencode server needed)

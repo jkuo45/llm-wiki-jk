@@ -242,6 +242,9 @@ const UI_STRINGS = {
     colorRed: 'Red',
     colorPurple: 'Purple',
     starred: 'Starred',
+    // ---- Reader source tabs (single-language per UI lang) ----
+    readerTabArticles: 'Articles',
+    readerTabTasks: 'Task Outputs',
   },
   'zh-TW': {
     // ---- Analysis / chat panel ----
@@ -439,12 +442,23 @@ const UI_STRINGS = {
     colorRed: '紅色',
     colorPurple: '紫色',
     starred: '已加星號',
+    // ---- Reader source tabs (single-language per UI lang) ----
+    readerTabArticles: '文章',
+    readerTabTasks: '任務輸出',
   },
 };
 
 // Shared translation lookup: active language first, then en-US.
 export function t(key) {
   return (UI_STRINGS[current] && UI_STRINGS[current][key]) || UI_STRINGS['en-US'][key] || '';
+}
+
+// Per-language lookup (English fallback) so multi-language labels (e.g. the
+// reader source tabs) can render both languages at once regardless of the
+// current UI language.
+export function tLang(key, lang) {
+  const table = lang === 'zh-TW' ? UI_STRINGS['zh-TW'] : UI_STRINGS['en-US'];
+  return (table && table[key]) || UI_STRINGS['en-US'][key] || '';
 }
 
 // Persist a language and update the shared state WITHOUT broadcasting. Used by

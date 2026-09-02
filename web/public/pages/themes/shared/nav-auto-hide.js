@@ -1,6 +1,6 @@
 "use strict";
 // Shared nav auto-hide: hide on scroll down, show on scroll up.
-// Single source of truth for theme-01 (nav), theme-02 (.site-nav), and task-viewer (nav).
+// Single source of truth for theme-01 (nav), theme-02 (.site-nav), and md-viewer (nav).
 // Hides the sticky bar shortly after scrolling down, reappears on scroll up.
 // Respects prefers-reduced-motion via CSS (transition:none).
 (function () {
