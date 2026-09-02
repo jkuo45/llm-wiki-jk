@@ -1571,31 +1571,16 @@ function renderAnalysisTools() {
   analysisTools.innerHTML = `
 
     <div class="at-tab-panel" id="at-tab-overview" role="tabpanel">
-    <div class="at-row-pair">
+    <div class="at-top-split">
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
-        <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
-          <option value="">${esc(t('graphQuerySelect'))}</option>
-        </select>
-        <div id="trace-summary"></div>
-        <div id="trace-routes"></div>
-        <div id="trace-key-nodes"></div>
-        <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
+        <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+        <div class="at-stat-rows">${cards}</div>
       </section>
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
-        <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
-        <div id="at-search-results" class="at-search-results"></div>
+        <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
+        <div class="at-stat-rows">${topoCards}</div>
       </section>
     </div>
-    <section class="at-section at-span-12">
-      <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
-      <div class="at-stat-rows">${cards}</div>
-    </section>
-    <section class="at-section at-span-7">
-      <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" title="${esc(modeShort)} · ${esc(t('modeBadgeNote'))} — ${esc(modeLabel)}">${esc(modeShort)}</span></h4>
-      <div class="at-stat-rows">${topoCards}</div>
-    </section>
     <section class="at-section at-span-12">
       <h4 class="at-h">${esc(t('roleExplorer'))}<span class="at-note">${esc(t('roleExplorerNote'))}</span></h4>
       <div id="at-role-chips" class="at-role-chips"></div>
@@ -1610,6 +1595,24 @@ function renderAnalysisTools() {
       <h4 class="at-h"><span>${esc(t('predictedTitle'))}</span></h4>
       <p class="at-hint">${esc(t('predictedNote'))}</p>
       <div id="at-predicted-list" class="at-surprise-list"><div class="at-loading">…</div></div>
+    </section>
+    </div>
+
+    <div class="at-tab-panel" id="at-tab-search" role="tabpanel" hidden>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
+      <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
+      <div id="at-search-results" class="at-search-results"></div>
+    </section>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
+      <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
+        <option value="">${esc(t('graphQuerySelect'))}</option>
+      </select>
+      <div id="trace-summary"></div>
+      <div id="trace-routes"></div>
+      <div id="trace-key-nodes"></div>
+      <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
     </section>
     </div>
 
@@ -1708,6 +1711,7 @@ function wireAnalysisTabs() {
   subrowTabs.innerHTML = `
       <button class="at-tab active" data-at-tab="overview" role="tab" aria-selected="true">${esc(t('tabOverview'))}</button>
       <button class="at-tab" data-at-tab="network" role="tab" aria-selected="false">${esc(t('tabNetwork'))}</button>
+      <button class="at-tab" data-at-tab="search" role="tab" aria-selected="false">${esc(t('tabSearch'))}</button>
   `;
   const tabs = subrowTabs.querySelectorAll('.at-tab');
   const setTab = (name) => {

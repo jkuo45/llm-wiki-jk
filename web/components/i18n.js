@@ -82,6 +82,7 @@ const UI_STRINGS = {
     // Explore / Graph analytics
     tabOverview: 'Overview',
     tabNetwork: 'A/B',
+    tabSearch: 'Search',
     datasetOverview: 'Dataset Overview',
     networkTopology: 'Network Topology',
     communities: 'Communities',
@@ -272,6 +273,7 @@ const UI_STRINGS = {
     suggestMore: '產生更多分析建議',
     tabOverview: '總覽',
     tabNetwork: 'A/B',
+    tabSearch: '搜尋',
     datasetOverview: '資料集概覽',
     networkTopology: '網路拓撲',
     communities: '社群',
