@@ -117,14 +117,24 @@ export function renderMarkdown(text, opts = {}) {
   });
   // Links: [text](url)
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
-  // Tables: simple pipe tables
+  // Tables: simple pipe tables — wrapped in .tbl-wrap so wide tables scroll
+  // horizontally, and tagged .md-table for vertical-expansion CSS.  A
+  // <colgroup> pins column 1 to a compact width (170px) so long entity /
+  // feature labels wrap vertically instead of stretching the table; the
+  // remaining columns share the rest.  Honored only with table-layout:fixed.
   html = html.replace(/^(\|.+\|)\n(\|[-: |]+\|)\n((?:\|.+\|\n?)*)/gm, (m, header, sep, body) => {
     const hCells = header.split('|').filter(c => c.trim()).map(c => `<th>${c.trim()}</th>`).join('');
     const rows = body.trim().split('\n').map(row => {
       const cells = row.split('|').filter(c => c.trim()).map(c => `<td>${c.trim()}</td>`).join('');
       return `<tr>${cells}</tr>`;
     }).join('');
-    return `<table><thead><tr>${hCells}</tr></thead><tbody>${rows}</tbody></table>`;
+    const nCols = header.split('|').filter(c => c.trim()).length;
+    // Column 1 capped at 170px; every other column capped at 350px so prose
+    // columns wrap vertically instead of stretching the table.  (Field lengths
+    // are honured by table-layout:fixed; a table wider than the container
+    // scrolls horizontally inside .tbl-wrap.)
+    const colgroup = `<colgroup><col style="width:170px">${'<col style="width:350px">'.repeat(Math.max(0, nCols - 1))}</colgroup>`;
+    return `<div class="tbl-wrap"><table class="md-table">${colgroup}<thead><tr>${hCells}</tr></thead><tbody>${rows}</tbody></table></div>`;
   });
   // Paragraphs: double newlines
   html = html.replace(/\n\n+/g, '</p><p>');
