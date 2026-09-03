@@ -460,21 +460,16 @@ readerBtn.addEventListener('click', openSelected);
 
 select.addEventListener('change', openSelected);
 
-// Source tabs: swap the dropdown between articles and task outputs. If the
-// reader is already open, jump straight to that source's index.
+// Source tabs: take the user to that source's index page, opened in the
+// reader modal (same destination as clicking the modal title).
 sourceBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const mode = btn.dataset.source;
-    if (mode === sourceMode) return;
     setSourceMode(mode);
     buildOptions();
     const idx = getArticle(indexIdForMode(mode)) || rowsForMode()[0];
     if (!idx) return;
-    if (isReaderOpen()) {
-      openReader(idx.id, { section: null });
-    } else {
-      select.value = idx.group;
-    }
+    openReader(idx.id, { section: null });
   });
 });
 
