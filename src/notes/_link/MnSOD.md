@@ -151,7 +151,7 @@ MnSOD polymorphisms (notably the Ala16Val variant) modulate mitochondrial import
 The Ala16Val variant affects mitochondrial import efficiency: **Val/Val** homozygotes have lower mitochondrial SOD2 processing, resulting in reduced matrix antioxidant capacity.
 
 - **Males**: Stronger associations with prostate cancer (OR 1.52 for Val/Val), lung cancer, and head/neck cancer risk.
-- **Females**: Stronger associations with breast cancer (especially ER-negative subtypes) and thyroid cancer risk.
+- **Females**: No consistent breast association overall (26-study n=38,008 null; marginal TT-protective in Caucasians only); thyroid signal preliminary.
 - The sex-specific risk profiles likely reflect interactions between SOD2 import efficiency and sex-hormone-modulated mitochondrial metabolic demands (Kang, *Gene* 2013; Xu et al., *PLoS ONE* 2014).
 
 ### Post-Menopausal Decline: The SIRT3–SOD2 Axis

@@ -35,7 +35,7 @@ BC is the most common malignancy worldwide and the fifth leading cause of cancer
 - **[[SIRT4]]**: Tumor-suppressive by negatively regulating SIRT1 via glutamine-metabolism repression (mitochondrial–nuclear crosstalk); enhances tamoxifen sensitivity via STAT3 inhibition.
 - **[[SIRT7]]**: Depletion inhibits tumor growth via activating p38/MAPK signaling.
 
-## ERα Biology and Sex-Specific Treatment Resistance
+## Sex Differences — ERα Biology and Sex-Specific Treatment Resistance
 
 Breast cancer is the **female-estrogen pole** of the vault's hormone-driven cancer principle (mirrored by the androgen axis in [[Prostate Cancer]]). Its biology is inseparable from estrogen receptor signaling:
 

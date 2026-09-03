@@ -28,10 +28,10 @@ The overarching pattern is that **estrogen acts as a master sex-difference media
 
 **Vault Content:**
 - SIRT6 overexpression extends median lifespan of **male** mice by 14.5%/9.9% with **no significant effect in females** (Kanfi et al., *Nature* 2012). Male benefit tracks reduced serum IGF-1 and downstream IIS (SIRT6.md, lines 87–221).
-- Roichman et al. (2021, *Nat Commun*): Later study showed lifespan extension in **both** sexes, but effect remained **stronger in males**. **Not yet in the vault.**
-- Finnish SIRT6 polymorphism rs117385980 associated with longevity in **Finnish men** specifically.
+- Roichman et al. (2021, *Nat Commun* PMID 34050173): extends **both** sexes, male-stronger, via hepatic NAD+/gluconeogenesis — now in vault Sex Differences section.
+- Finnish SIRT6 polymorphism rs117385980 associated with longevity in **Finnish men** specifically (Hirvonen 2017).
 
-**Assessment:** Core male-specific finding well-documented. Roichman 2021 update and Finnish genetics need adding.
+**Assessment:** Core male-specific finding well-documented. Table corrected to place Roichman both-sex effect in Both Sexes column.
 
 ### SIRT3 — Estrogen-Dependent Expression and Mitochondrial Targeting
 
@@ -39,7 +39,7 @@ The overarching pattern is that **estrogen acts as a master sex-difference media
 - Intron 5 enhancer variant correlates with **male** lifespan >90 yr; rs11555236 associated with male longevity (Italian) but not replicated; TRELONG study found female-significant longevity SNPs (SIRT3.md, lines 129–208).
 - NAMPT inhibitor KPT-9274 mediates **gender-dependent** murine anemia/nephrotoxicity via SIRT3/SOD deacetylation.
 
-**Not in vault:** Estrogen via ER-α/β upregulates SIRT3 expression and mitochondrial targeting; female translational efficiency advantage (~30% higher protein-to-mRNA ratio for SIRT3/SIRT6); post-menopausal SIRT3 decline drives female cardiac aging.
+**Not in vault:** Estrogen via ER-α/β upregulates SIRT3 expression and mitochondrial targeting (tissue-dependent; one breast-cancer context shows inhibitory K68-Ac); female translational efficiency advantage (~30% protein-to-mRNA — pilot/preliminary, do not present as established); post-menopausal SIRT3 decline driving female cardiac aging is inferred, not RCT-proven.
 
 ### SIRT1 — Estrogen-Transcriptional Axis; Both-Sex Benefit
 
@@ -47,7 +47,7 @@ The overarching pattern is that **estrogen acts as a master sex-difference media
 - BRASTO (brain-specific SIRT1 overexpression) extends lifespan ~11% **in both sexes** — rare non-sex-specific longevity effect (SIRT1.md, line 150).
 - SIRT1 KO: sterility in both sexes; Drosophila extra Sir2 copy extends lifespan more in **females** (29%) than males (18%).
 
-**Not in vault:** Estrogen via ER-α/β is an upstream transcriptional activator of SIRT1; SIRT1–FOXO3 interaction shows stronger longevity genetic associations in females.
+**Not in vault:** Estrogen↔SIRT1/ER crosstalk is bidirectional/tissue-dependent (E2 can induce SIRT1; SIRT1 represses ligand-independent ERα activation); SIRT1–FOXO3 interaction shows stronger longevity genetic associations in females.
 
 ### MnSOD/SOD2 — Major Gap: Estrogen-Dependent Upregulation
 
@@ -56,18 +56,18 @@ The overarching pattern is that **estrogen acts as a master sex-difference media
 **Not in vault (critical):**
 - Female cells express **higher SOD2 protein** abundance with enhanced antioxidant capacity.
 - Estrogen directly upregulates SOD2 → lower oxidative damage in premenopausal females.
-- SOD2 Ala16Val polymorphism effects differ by sex (stronger cancer associations in males for prostate/lung, females for breast).
-- Post-menopausal decline in SIRT3 → reduced SOD2 deacetylation → accelerated female cardiac aging.
+- SOD2 Ala16Val: prostate/lung signals stronger in males; breast null overall (26-study n=38,008 null) — do not claim stronger female breast association.
+- Post-menopausal decline in SIRT3 → reduced SOD2 deacetylation → accelerated female cardiac aging (inferred).
 
 ### Thioredoxin-1 — Male-Biased Lifespan Extension
 
-**Vault Content:** Male Trx1-Tg mice extend early lifespan; females show no significant extension. Chronic overexpression increases lymphoma risk (Thioredoxin-1.md, lines 98–102).
+**Vault Content:** Male Trx1-Tg mice extend early lifespan only (no max extension); females show no significant extension. Chronic overexpression increases lymphoma risk (Thioredoxin-1.md, lines 98–102; Pérez et al. *J Gerontol A* 2011).
 
 **Assessment:** Adequately covered. The bidirectional Trx1 ↔ estrogen receptor redox modulation (line 79) is present but under-emphasized.
 
-### 6. CD38 Inhibitor 78c — Sex-Specific Adverse Reactions
+### 6. CD38 Inhibitor 78c — Sex-Specific Efficacy/Toxicity
 
-- ~14% lifespan boost in **males**; many **females** showed severe adverse reactions leading to early euthanasia (CD38 inhibitor 78c.md, lines 32–39).
+- Males median +17%/max +14% (pooled max +9%); females no significant benefit with excess non-fatal euthanasias (Peclat et al., *Aging Cell* 2022:e13589, PMID 35263032; CD38 inhibitor 78c.md, lines 32–39). 78c preserves/raises NAD+ (not depletes).
 
 ---
 
@@ -85,11 +85,11 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 |---|---|---|---|
 | **Primary death mode** | Caspase-dependent apoptosis | PARP-1/AIF-dependent necrosis | Liu et al., *Stroke* 2009; McCullough et al., *J Cereb Blood Flow Metab* 2005 |
 | **Caspase-3 activation** | Higher after ischemia; pan-caspase inhibitor protects females only | Lower after ischemia | Liu et al., *Stroke* 2009 |
-| **Caspase-8 activation** | ~3× greater; nuclear translocation (XX only) | Lower; no nuclear translocation | Sharma et al., *ASN Neuro* 2011 |
-| **Cytochrome C release** | Earlier (30 min vs 1 hr); more robust | Delayed | Sharma et al., *ASN Neuro* 2011 |
-| **AIF translocation** | Delayed/minimal | Earlier (by 30 min); robust | Sharma et al., *ASN Neuro* 2011 |
-| **Bcl-2 expression** | Higher (estrogen-driven) | Lower | Dubal et al., *J Neurosci* 1999 |
-| **Bax expression** | Lower (basal) | Higher | Tsukahara et al., *J Neurobiol* 2006 |
+| **Caspase-8 activation** | Markedly greater; nuclear translocation XX-predominant (Sharma model; Liu found increase in both, female-predominant) | Lower; no/weak nuclear translocation | Sharma et al., *ASN Neuro* 2011 |
+| **Cytochrome C release** | Earlier; more robust (exact 30 min vs 1 hr needs primary page check) | Delayed | Sharma et al., *ASN Neuro* 2011 |
+| **AIF translocation** | Delayed/minimal | Earlier; robust (by ~1 hr in Sharma; exact 30-min delta unverified) | Sharma et al., *ASN Neuro* 2011 |
+| **Bcl-2 expression** | Higher with E2 support (OVX+E2 vs OVX-oil design; not intact F vs M %) | Lower (adult cardiac/post-MI context M lower) | Dubal et al., *J Neurosci* 1999 (PMID 10414967) |
+| **Bax expression** | Higher in female SDN-POA/MPNc developmentally (F>M, with higher caspase-3); lower in adult female heart post-MI | Higher in adult male heart post-MI; lower in male SDN-POA developmentally | Tsukahara et al., *J Neurobiol* 2006 (SDN context F>M); Biondi-Zoccai et al., *Heart* 2005 (adult cardiac M>F) |
 | **PARP-1 inhibition** | Exacerbates injury (protective in females) | Protective (reduces infarct) | McCullough et al., 2005 |
 | **Post-MI apoptosis** | 2.6% apoptotic index | 25.9% (10× higher) | Biondi-Zoccai/Abbate et al., *Heart* 2005 |
 
@@ -97,18 +97,18 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 
 - **XX neurons**: Mitochondrial cytochrome C → apoptosome → caspase-9 → caspase-3; caspase-8 also activated and translocates to nucleus to cleave PARP-2.
 - **XY neurons**: PARP-1 overactivation → NAD+ depletion → energy failure → AIF release from mitochondria → nuclear translocation → large-scale (50-kbp) DNA fragmentation (caspase-independent).
-- **Bax KO eliminates sex differences** in brain neuron number (Forger et al., *PNAS* 2004). **Bcl-2 overexpression also eliminates sex differences** (Zup et al., *J Neurosci* 2003).
+- **Bax KO reduces/abolishes overall-number sex differences** in BNSTp/AVPV (Forger et al., *PNAS* 2004; TH+ AVPV dopaminergic dimorphism remains). **Bcl-2 overexpression reduces** sex differences (Zup et al., *J Neurosci* 2003; title says reduces, TH+ exception).
 
 ### Sex Differences in p53 Regulation
 
-- p53 promoter contains **4 ERα responsive elements** — estrogen activates p53 transcription but also physically sequesters p53, inhibiting its pro-apoptotic function (Desai et al., *Cells* 2025).
-- **Testosterone inhibits p53** in skeletal muscle via FoxO3a modulation (Pronsato et al., *Steroids* 2017).
-- **X-linked miRNAs** (e.g., miR-504) target TP53 3'-UTR — females have dosage advantage in p53 regulation via X-chromosome escapees.
-- TP53 mutation frequency is **higher in male tumors** across 12 non-reproductive cancer types (Haupt et al., 2019).
+- Estrogen bidirectionally crosstalks with p53 (transcriptional activation + physical sequestration/inhibition of pro-apoptotic function); specific count of ERα elements needs primary citation (prior “4 ERα elements / Desai Cells 2025” unverified).
+- **Testosterone reduces p-p53 in C2C12 oxidative-stress model** via FoxO3a modulation (Pronsato et al., *Steroids* 2017) — narrow in vitro finding, do not generalize systemically.
+- **X-linked miR-504** (Xq26.3) targets TP53 3'-UTR (Hu *Mol Cell* 2010) — female dosage advantage via escapees is hypothesis, no evidence miR-504 escapes XCI.
+- Higher population frequency of TP53-mutant cancers in males across 12/13 non-reproductive types (Haupt et al., *Nat Commun* 2019) — driven by incidence + per-tumor rate.
 
 ### Sex-Specific Bcl-2 Family
 
-- Estrogen upregulates **Bcl-2** (neuroprotection): post-ischemic Bcl-2 >60% higher in females (Dubal et al., *J Neurosci* 1999; Alkayed et al., 2001).
+- Estrogen upregulates **Bcl-2** (neuroprotection): E2 prevents injury-induced bcl-2 downregulation in OVX females (Dubal et al., *J Neurosci* 1999, PMID 10414967; Alkayed et al., 2001). No intact female-vs-male % — prior “>60% higher” removed.
 - Estrogen upregulates **Bcl-w** and downregulates **Bim** in Alzheimer's context (Patterson et al., *J Neurosci* 2007).
 - Sex-specific Bcl-2/Bax ratios in hypothalamic sexual differentiation (Tsukahara et al., 2006).
 
@@ -129,20 +129,20 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 | Finding | Mechanism | Citation |
 |---|---|---|
 | Male mice accumulate more senescent cells across lifespan; females "catch up" near end of life | Sex differences in telomere attrition and cellular maintenance | Yousefzadeh et al., 2020; Foster, 2025, *Front Aging Neurosci* |
-| **Female mice carry higher p16+ burden** (especially liver) and derive **most benefit from p16+ cell clearance** | p16-3MR ablation enhanced grip strength, skin regeneration, liver repair **exclusively in females** | *Adv Sci*, 2026 |
-| p16+ and p21+ cells are **distinct non-overlapping subpopulations** | Sex differences reflect which senescence arm is dominant (females: p16; males: p53/p21) | Admas et al., *EMBO J*, 2025 |
+| **Female mice carry higher p16+ burden** (especially liver) and derive **most benefit from p16+ cell clearance** | p16-3MR ablation enhanced grip strength, skin regeneration, liver repair **with female-specific benefit** | *Adv Sci* 2025-online/2026-issue (PMID 41168880) |
+| p16+ and p21+ cells are **distinct non-overlapping subpopulations** (sex-to-arm mapping is inference, not tested) | Sex differences may reflect which senescence arm is dominant (hypothesis: females p16; males p53/p21) | Chandra et al., *EMBO J* 2025 (PMID 41162753; prior “Admas” author name corrected) |
 | Males reach inverted CD4:CD8 ratio earlier; females show greater overall immune remodeling | Faster male naive T-cell exhaustion; female autoimmunity shift | Sopena-Rios et al., *Nature Aging* 2026 |
 
 ### SASP Composition
 
-- Sex and BMI significantly influence SASP factor levels; 17 SASP factors correlate with age after adjustment (Schafer et al., *eLife* 2020).
-- **Estrogen suppresses NF-κB–driven SASP** via ERβ: enhances IκBα expression and reduces p65 binding to pro-inflammatory promoters (Giroux et al., 2012).
-- Males with depression show **higher SASP index** than females with depression (J Gerontol A, 2025).
+- Sex and BMI significantly influence SASP factor levels; 17/24 SASP factors correlate with age after adjustment for sex+BMI, GDF15 top age/frailty marker (Schafer et al., *JCI Insight* 2020) — GDF15 is covariate effect, no male/female direction.
+- **Estrogen suppresses NF-κB–driven SASP** via ERβ: enhances IκBα expression and reduces p65 binding (general estrogen–NF-κB biology; exact Giroux 2012 mapping unverified).
+- Reported higher SASP index in males with depression (J Gerontol A, 2025 — needs PMID/verification).
 
 ### cGAS–STING Pathway
 
-- **cGAS/STING activity significantly higher in aged males** than females; driven by lower mtTFA and TREX1 (mitochondrial DNA clearance "safety valves") in males (Feng et al., *JCI Insight* 2024).
-- **Estrogen directly suppresses STING transcription** via ERα + HDAC3 binding to STING promoter (*Front Immunol* 2024).
+- **cGAS/STING activity higher in aged males in diabetic kidney rat model**; driven by lower mtTFA and TREX1 in males (Khedr/Dissanayake et al., *JCI Insight* 2024 — kidney T2DN rats, not generic aging).
+- **Estrogen represses STING transcription** via ERα + HDAC3 binding to STING promoter (Chen et al., *Cancers* 2022 endometrial cells; restated by *Front Immunol* 2024 review — extrapolation to aging).
 
 ### Immunosenescence
 
@@ -172,14 +172,14 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 
 - **Male neurons** undergo autophagy more readily and die under starvation/OGD; **female neurons** mobilize fatty acids and depend less on autophagy (Du et al., *J Biol Chem* 2009).
 - After stroke: males rapidly induce **canonical autophagy** (Beclin-1↑, LC3-II↑, p62↓); females use a **Beclin-1-independent (ATG7) route** (Patrizz et al., *Cells* 2021).
-- Males show **higher basal Beclin-1/LC3** in cardiac tissue (Oliván et al., 2014).
+- Males show **higher basal Beclin-1/LC3** in cardiac ventricles (Campesi et al., *Life Sci* 2013; prior Oliván 2014 studied spinal cord/muscle, not heart).
 - **Estrogen is bidirectional**: suppresses autophagy in ischemic neurons (via mTOR-ULK) but promotes prosurvival autophagy in ER+ breast cancer (driving antiestrogen resistance).
 
 ### mTORC1: Sex-, Muscle-, and Fed-State–Dependent
 
-- mTORC1 activation (p70S6K1): **higher in males when fasted, higher in females when fed** (*Am J Physiol Regul Integr* 2024).
+- mTORC1 activation (p70S6K1): **reported higher in males when fasted, higher in females when fed** (*Am J Physiol Regul Integr* 2024 — direction needs full-text check; Ballesteros 2016 found opposite fasted F>M in liver/heart).
 - **Female cardiac mTOR signaling is ERβ-specified**; males maintain both mTORC1/mTORC2 (Gürgen, *Hypertension* 2013).
-- KRAS-mutant pancreatic cancer: **androgen–AR signaling drives mTORC1 activation** specifically in males (Gökduman, 2023).
+- KRAS-mutant pancreatic cancer androgen–AR→mTORC1 male-specific claim (Gökduman, 2023 — unverified, needs primary).
 
 ### AMPK: Male-Biased Hepatic Activation
 
@@ -188,12 +188,12 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 ### Rapamycin: Females Get Greater Lifespan Extension
 
 - **Females show larger relative lifespan extension** from rapamycin (replicated across 3 ITP cohorts), partly via higher blood drug levels (Miller, *Aging Cell* 2014; Harrison, *Nature* 2009).
-- Dosing regimen matters: 3-month early-life exposure benefits **males only** (Strong, *Aging Cell* 2020).
+- Dosing regimen matters: 3-month late-life (20–23 mo) transient exposure benefits **males only** (Strong, *Aging Cell* 2020); Bitto *eLife* 2016 3-mo high-dose at 20–21 mo benefited both (strain/dose-dependent).
 
 ### Caloric Restriction: Males Benefit More
 
-- ~95–96% of CR studies ignore sex; where studied, **young males get greater metabolic benefit** (*eLife* 2023).
-- Historic McCay 1935: CR extended lifespan **only in males**.
+- ~96.6% mouse / 95.7% human CR studies ignore sex; where studied, **young males get greater metabolic benefit** (Suchacki et al., *eLife* 2023).
+- Historic McCay 1935 used mixed-sex rats (pioneer; modern sex-stratified CR came decades later).
 - Combined CR + exercise: benefits mediated through **distinct sex-specific molecular pathways** in skeletal muscle (Singh et al., *Biol Sex Differ* 2024).
 
 ### Disease-Specific Autophagy Sex Differences
@@ -214,9 +214,9 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 
 | Finding | Mechanism | Citation |
 |---|---|---|
-| Men have higher whole-blood NAD+ than women (34.5 vs 31.3 μmol/L) but men **decline with age** while women's levels **fluctuate without monotonic decline** | Sex hormones modulate NAD+ homeostasis; PARP hyperactivation in males | Guan et al., *Front Endocrinol* 2022 |
-| Women have higher NAD+/NADH **redox ratios** (1.33 vs 1.09); this narrows with biological age | Estrogen–ERα–PARP-1 axis | Schwarzmann et al., *Biosci Rep* 2021 |
-| PARP activity increases with age in **male skin but NOT female skin**; inversely correlates with NAD+ in males (r=−0.639) | Estrogen stabilizes PARP-1 on DNA, preventing hyperactivation | Maver et al., *PLoS ONE* 2012 |
+| Men have higher whole-blood NAD+ than women (34.5 vs 31.3 μmol/L) but men **decline with age** while women's levels **fluctuate without monotonic decline** (whole-blood compartment) | Sex hormones modulate NAD+ homeostasis; PARP association | Yang et al. (Guan senior), *Front Endocrinol* 2022 |
+| Women have higher NAD+/NADH **redox ratios** (1.33 vs 1.09; plasma compartment, n=205) ; this narrows with biological age | Estrogen–ERα–PARP-1 axis (hypothesis) | Schwarzmann et al., *Biosci Rep* 2021 |
+| PARP activity increases with age in **male skin but NOT female skin** when including newborns (r=−0.639 PARP-NAD+); adults-only n.s.; tissue NAD+ declines in both sexes | Estrogen stabilization hypothesis, not direct proof | Massudi/Grant/Braidy et al., *PLoS ONE* 2012 (prior “Maver” corrected) |
 
 ### CD38 and Ovarian NAD+ Decline
 
@@ -245,19 +245,19 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 
 ### NF-κB Activation
 
-- Estrogen inhibits NF-κB through **bimodal ERβ mechanism**: (1) enhances IκBα expression; (2) reduces p65 binding to pro-inflammatory promoters.
-- The MyD88/methylated ER-α complex (required for NF-κB transcriptional activity) is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries** but **0/29 pre-menopausal ovaries** — demonstrating estrogen's direct interruption of NF-κB activation in situ (Giroux et al., 2012).
+- Estrogen inhibits NF-κB through ERβ (enhances IκBα, reduces p65 binding — separate literature) and through MyD88/methylated ER-α cytoplasmic control of p65-S468 (IκB degradation unaffected).
+- The MyD88/methylated ER-α complex (required for NF-κB transcriptional activity) is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries** but **0/29 pre-menopausal ovaries** — demonstrating estrogen's direct interruption of NF-κB activation in situ (El Sabeh et al., *J Inflamm Res* 2021; prior “Giroux 2012” corrected).
 
 ### Inflammatory Cytokine Profiles
 
-- Women mount **stronger in vivo** pro-inflammatory responses to endotoxin: +45% TNF-α, +43% IL-6 vs men (Engler et al., 2017).
-- **Resting basal**: men have higher IL-6 (42 vs 15 pg/mL), IL-1β (45 vs 5), TNF-α (90 vs 25) — driven partly by higher monocyte counts.
-- Hormonal contraceptive use amplifies women's pro-inflammatory response (+60% TNF-α).
+- Women mount **stronger in vivo** pro-inflammatory responses to endotoxin: +45% TNF-α, +43% IL-6 vs men (Engler et al., 2025 medRxiv LPS study; prior “2017” corrected).
+- **Resting basal**: prior exact pg/mL values (IL-6 42 vs 15, IL-1β 45 vs 5, TNF-α 90 vs 25) removed as implausible/unsourced — normal resting IL-6 ~1–2 pg/mL; direction (higher basal in men) is qualitative only.
+- Hormonal contraceptive use amplifies women's pro-inflammatory response (+60% TNF-α in HC+ subgroup, 2025 preprint).
 
 ### The Female Autoimmune Paradox
 
-Women account for **~78% of autoimmune disease cases** globally:
-1. **TLR7 dose effect**: escapes X-inactivation in ~25% of cases → ~2× TLR7 protein → stronger antiviral responses AND lupus susceptibility.
+Women account for **~78–80% of autoimmune disease cases** globally:
+1. **TLR7 dose effect**: escapes X-inactivation in B/monocytes → ~2× TLR7 protein → stronger antiviral responses AND lupus susceptibility (Souyris *Sci Immunol* 2018; exact “25%” needs citation).
 2. **Xist lncRNA complexes**: generate ribonucleoprotein complexes that activate autoimmune pathways (Chang et al., *Cell* 2024).
 3. **Estrogen concentration-dependent**: low/moderate estrogen is pro-inflammatory; high estrogen (pregnancy) is anti-inflammatory.
 
@@ -278,14 +278,14 @@ Women account for **~78% of autoimmune disease cases** globally:
 ### Telomere Length
 
 - Women have **longer telomeres** at virtually every age. Difference present at birth.
-- Men show faster attrition: ~43 bp/year vs ~26 bp/year (Gardner et al., 2014).
-- Meta-analysis of 36 cohorts (36,230 participants): standardized sex difference 0.090 (95% CI 0.015–0.166).
+- Men show faster attrition (exact ~43 vs ~26 bp/yr needs re-source; not in Gardner 2014 which found no age interaction).
+- Meta-analysis of 36 cohorts (36,230 participants): standardized sex difference 0.090 (95% CI 0.015–0.166) (Gardner et al., 2014).
 
 ### Mechanisms for Female Advantage
 
 | Mechanism | Explanation | Citation |
 |---|---|---|
-| **DKC1 biallelic expression** | Before X-inactivation, female embryo cells express dyskerin (telomerase component) from BOTH X alleles → higher telomerase → elongated telomeres before implantation | Lansdorp, *Aging Cell* 2022 |
+| **DKC1 biallelic expression** | Before X-inactivation, female embryo cells express dyskerin (telomerase component) from BOTH X alleles → higher telomerase → elongated telomeres before implantation (hypothesis) | Lansdorp, *Aging Cell* 2022 |
 | **Estrogen → TERT activation** | Estrogen responsive elements in TERT promoter directly stimulate telomerase transcription | Barrett & Richardson 2011 |
 | **Estrogen antioxidant** | Protects telomeres from oxidative damage | Mayer et al. 2006 |
 | **Testosterone is unfavorable** | Lacks antioxidant properties; may increase oxidative stress-induced telomere damage | Gardner et al. 2014 |
@@ -312,12 +312,12 @@ UK Biobank data (n=445,399):
 
 ### X-Linked Tumor Suppressors (EXITS)
 
-Six X-linked genes (**ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, MAGEC3**) are loss-of-function mutated more often in males across 21 tumor types (vs 0/18,053 autosomal genes). Female **biallelic expression** protects against single-hit inactivation (Dunford et al., *Nature Genetics* 2017).
+Six X-linked genes (**ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, MAGEC3**) are loss-of-function mutated more often in males across 21 tumor types (vs 0/18,055 autosomal+PAR genes). Female **biallelic expression** protects against single-hit inactivation (Dunford et al., *Nature Genetics* 2017; prior “18,053” corrected).
 
-### KRAS: Sex-Specific Mutation Patterns
+### KRAS: Sex-Specific Mutation Patterns (needs primary sources — hold from firm claims)
 
-- NSCLC: KRAS **G12C enriched in females** (65% of G12C are women); males have more STK11 & TP53 co-alterations (poor immunotherapy prognosis).
-- mCRC: females have higher KRAS mutation frequency (48.8% vs 42.6%, p=0.002).
+- NSCLC: KRAS **G12C reported enriched in females** (65% of G12C are women — unverified, needs citation); males have more STK11 & TP53 co-alterations (poor immunotherapy prognosis — needs citation).
+- mCRC: females have higher KRAS mutation frequency (48.8% vs 42.6%, p=0.002 — unverified, needs citation).
 
 ### Immune Checkpoint Inhibitors
 
@@ -376,27 +376,27 @@ This **systems-level inflection** is the mechanistic basis for the post-menopaus
 
 | Entity | Male-Specific | Female-Specific | Both Sexes | Key Mechanism |
 |--------|--------------|----------------|------------|---------------|
-| **SIRT6** | Lifespan ↑14.5% via IGF-1↓ | Modest benefit (Roichman 2021) | KO lethal | SIRT6→IGF-1↓→IIS↓ |
-| **SIRT3** | Intron 5 enhancer ↔ male longevity | TRELONG SNPs female-significant; higher protein/mRNA | Deacetylates MnSOD | E2→ERα→SIRT3 transcription |
-| **SIRT1** | — | Higher protein with age; stronger FOXO3 associations | BRASTO extends both ~11% | E2→ERα/β→SIRT1 |
-| **MnSOD/SOD2** | — | Higher protein; estrogen-dependent; post-menopausal decline | Core SIRT3 substrate | E2→SOD2 expression |
-| **Trx1** | Lifespan extension (Pérez 2011) | No lifespan extension | Modulates ER redox | Male-biased; cancer risk |
-| **Caspases** | Lower activation; PARP-1/AIF necrosis dominant | Higher activation; caspase-dependent apoptosis dominant | — | XX vs XY death-pathway divergence |
-| **p53** | Higher mutation frequency in tumors; testosterone inhibits | Estrogen dual-regulates (activation + sequestration) | Central tumor suppressor | E2→4 ERα elements on p53 promoter |
-| **Bcl-2** | Lower expression | Higher (estrogen-driven); neuroprotective | — | E2→Bcl-2 transcription |
-| **Senescence** | More senescent cells early life; p53/p21 dominant arm | Higher p16+ burden; derive most from p16+ clearance | p16 and p21 are distinct subtypes | Sex-hormone–dependent senescence arm |
-| **SASP** | Higher SASP burden (in depression); earlier inflammaging | Estrogen suppresses NF-κB–driven SASP | GDF-15 sex-correlated | E2→NF-κB suppression |
-| **cGAS-STING** | Higher activity in aged males; lower mtTFA/TREX1 | Estrogen suppresses STING via ERα-HDAC3 | — | E2→STING promoter deacetylation |
-| **Autophagy** | Higher basal Beclin-1/LC3; canonical autophagy | Beclin-1-independent (ATG7) route; estrogen bidirectional | Both use autophagy | Sex-specific death-pathway coupling |
-| **mTORC1** | Higher p70S6K1 when fasted | Higher p70S6K1 when fed; ERβ-specified in heart | Central growth regulator | Fed-state and sex-dependent |
-| **Rapamycin** | 3-month early exposure benefits males only | Greater overall lifespan extension | Extends both | Higher blood levels in females |
-| **Caloric Restriction** | Greater metabolic benefit (young); lifespan extension | Less studied; less benefit historically | — | McCay 1935: male-only |
-| **NAD+** | Higher baseline but progressive decline; PARP-driven | Higher NAD+/NADH ratio; fluctuating (not declining); CD38 in ovary | Both decline in tissues | E2→PARP-1 stabilization |
-| **NF-κB** | Higher basal activity | Estrogen suppresses via ERβ→IκBα↑ | Master inflammatory TF | E2→NF-κB inhibition |
-| **Inflammation** | Higher basal IL-6, IL-1β, TNF-α; earlier inflammaging | Stronger in vivo responses; delayed inflammaging; autoimmune risk | — | X-linked immune gene dosage |
-| **Telomeres** | Shorter; faster attrition (~43 bp/yr) | Longer; slower attrition (~26 bp/yr); DKC1 advantage | — | DKC1 biallelic; E2→TERT |
-| **Cancer** | Higher incidence (most types); more TP53 mutations | X-linked tumor suppressor advantage; ERβ protective in lung/GBM/CRC | EXITS framework | X-chromosome biallelic protection |
-| **CD38 inhibitor 78c** | ~14% lifespan boost | Severe adverse reactions | NAD+ depletion | Sex-specific toxicity |
+| **SIRT6** | Lifespan ↑14.5%/9.9% median via IGF-1↓ (Kanfi 2012) | — | Roichman 2021 extends both, male-stronger; KO lethal | SIRT6→IGF-1↓→IIS↓ (Kanfi); NAD+/gluconeogenesis (Roichman) |
+| **SIRT3** | Intron 5 VNTR ↔ male longevity (Bellizzi 2005) | TRELONG SNPs female-significant; higher protein/mRNA (pilot, preliminary) | Deacetylates MnSOD | E2↔ERα→SIRT3 transcription (tissue-dependent) |
+| **SIRT1** | — | Higher protein with age; stronger FOXO3 associations | BRASTO extends both ~11% | E2↔SIRT1/ER crosstalk, tissue-dependent (not unidirectional) |
+| **MnSOD/SOD2** | — | Higher protein; estrogen-dependent; post-menopausal decline (inferred) | Core SIRT3 substrate | E2→SOD2 expression; Ala16Val male prostate/lung signal; breast null overall |
+| **Trx1** | Early-life extension only, no max (Pérez 2011) | No lifespan extension | Modulates ER redox | Male-biased; cancer risk |
+| **Caspases** | Lower activation; PARP-1/AIF necrosis dominant | Higher activation; caspase-dependent apoptosis dominant | — | XX vs XY death-pathway divergence (cell-autonomous trend) |
+| **p53** | Higher population frequency of TP53-mutant cancer; testosterone ↓p-p53 in C2C12 oxidative model only | Estrogen bidirectionally crosstalks (activation + sequestration) | Central tumor suppressor | E2↔p53 crosstalk; miR-504/X-dosage is hypothesis |
+| **Bcl-2** | Lower expression (adult cardiac/post-MI context) | Higher (E2-supported; OVX+E2 vs OVX-oil design) | — | E2→Bcl-2 transcription |
+| **Senescence** | More senescent cells early life | Higher p16+ burden; benefit most from p16+ clearance | p16 and p21 are distinct subtypes (Chandra et al. EMBO J 2025); sex-to-arm mapping is inference | Sex-hormone–associated senescence arm (hypothesis) |
+| **SASP** | Reported higher SASP index in males with depression (needs PMID) ; earlier inflammaging | Estrogen suppresses NF-κB–driven SASP | Sex/BMI covariate effect (e.g. GDF15 top age marker, Schafer 2020) | E2→NF-κB suppression |
+| **cGAS-STING** | Higher activity in aged males in diabetic kidney rats; lower mtTFA/TREX1 | Estrogen represses STING via ERα-HDAC3 (Cancers 2022 cells; Front Immunol 2024 review) | — | E2→STING promoter deacetylation (extrapolated to aging) |
+| **Autophagy** | Higher basal Beclin-1/LC3; canonical autophagy (cardiac: Campesi 2013) | Beclin-1-independent (ATG7) route; estrogen context-dependent | Both use autophagy | Sex-specific death-pathway coupling |
+| **mTORC1** | Reported higher p70S6K1 when fasted (needs full-text check) | Reported higher p70S6K1 when fed; ERβ-specified in heart | Central growth regulator | Fed-state and sex-dependent (direction unverified) |
+| **Rapamycin** | 3-month late-life (20–23 mo) transient benefits males only | Greater overall lifespan extension | Extends both (Bitto 3-mo high-dose benefits both; strain/dose-dependent) | Higher blood levels in females |
+| **Caloric Restriction** | Greater metabolic benefit (young); lifespan extension | Less studied; aged sexes respond similarly | — | McCay 1935 mixed-sex pioneer; 96.6% mouse/95.7% human CR ignore sex |
+| **NAD+** | Higher whole-blood baseline but declines with age; PARP-associated | Higher NAD+/NADH ratio; no monotonic blood decline; CD38 in ovary | Tissue NAD+ declines in both sexes | E2→PARP-1 stabilization is hypothesis |
+| **NF-κB** | Higher basal activity | Estrogen suppresses via ERβ→IκBα↑ + ↓p65 binding (separate literature from MyD88/ER-α) | Master inflammatory TF | E2→NF-κB inhibition |
+| **Inflammation** | Higher basal cytokines (qualitative); earlier inflammaging | Stronger in vivo LPS responses; delayed inflammaging; autoimmune risk (~80% female) | — | TLR7 escape + Xist + estrogen dose (not single dosage) |
+| **Telomeres** | Shorter; faster attrition (exact bp/yr needs re-source; not Gardner 2014) | Longer; slower attrition; DKC1 advantage (hypothesized) | — | DKC1 biallelic (hypothesis); E2→TERT |
+| **Cancer** | Higher incidence (most types); more TP53-mutant cancers | X-linked tumor suppressor advantage; ERβ protective in lung/GBM/CRC | EXITS framework (6 X vs 0/18,055 autosomal+PAR) | X-chromosome biallelic protection |
+| **CD38 inhibitor 78c** | Males median +17%/max +14% (Peclat Aging Cell 2022) | No significant benefit; excess non-fatal euthanasias | NAD+ preservation/↑ | Sex-specific efficacy/toxicity |
 
 ---
 

@@ -61,13 +61,13 @@ A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dy
 
 ### Baseline Levels and Aging Trajectories
 
-- Men have higher whole-blood NAD+ than women (34.5 vs 31.3 μmol/L, P<0.001), but men show **progressive age-related decline** starting at age 60, while women's levels **fluctuate without monotonic decline** (β=−2.16 in men ≥60 yr; no significant trend in women) (Guan et al., *Front Endocrinol* 2022).
+- Men have higher whole-blood NAD+ than women (34.5 vs 31.3 μmol/L), but men show **progressive age-related decline** from age 60, while women's levels **fluctuate without monotonic decline** (whole-blood; β=−2.16 men ≥60) (Yang et al., *Front Endocrinol* 2022; prior “Guan” senior-author corrected).
 - Women have higher NAD+/NADH **redox ratios** (1.33 vs 1.09, P<0.001); this sex difference narrows with biological age (Schwarzmann et al., *Biosci Rep* 2021).
 
 ### PARP-1: The Male NAD+ Consumption Engine
 
-- PARP activity increases with age in **male skin but NOT female skin**; in males, PARP activity inversely correlates with tissue NAD+ (r=−0.639, P=0.0003) — making PARP-mediated NAD+ consumption a key driver of male-specific NAD+ decline (Maver et al., *PLoS ONE* 2012).
-- **Estrogen stabilizes PARP-1** on DNA, preventing hyperactivation. In the male brain, ischemia triggers PARP-1 hyperactivation → NAD+ depletion → energetic failure → cell death. In intact females, estrogen suppresses PARP-1 activity, shifting cell death to the caspase pathway (Szabo et al., 2006; Siegel & McCullough, *Neuroscience* 2013).
+- PARP activity increases with age in **male skin but NOT female skin** when including newborns; in males, PARP inversely correlates with NAD+ (r=−0.639 — adults-only n.s.; tissue NAD+ declines in both sexes, M r=−0.706/F r=−0.537) (Massudi/Grant/Braidy et al., *PLoS ONE* 2012; prior “Maver” corrected).
+- **Estrogen stabilization of PARP-1 is hypothesis**, not direct proof. In male brain ischemia, PARP-1 hyperactivation → NAD+ depletion → failure; in intact females estrogen-associated PARP-1 restraint shifts death to caspase pathway (Szabo et al., 2006; Siegel & McCullough, *Neuroscience* 2013).
 - **PARP-1 knockout** protects males from ischemic brain injury but **exacerbates damage in females** — a striking sex reversal (McCullough et al., 2005).
 
 ### CD38 and Ovarian NAD+ Decline
@@ -83,7 +83,7 @@ A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dy
 
 ### NAD+ and Sex-Specific Sirtuin Activity
 
-- Women retain **higher absolute pools of SIRT1 and SIRT3** protein with age and exhibit a smaller loss of SIRT6 than men. Female protein-to-mRNA ratios (translational efficiency) rose by ~30% for SIRT3 and SIRT6, while male increases were modest (*Biology* 2025).
+- Women retain **higher absolute pools of SIRT1 and SIRT3** protein with age (pilot *Biology* 2025 — ~30% protein-to-mRNA rise preliminary, do not present as established).
 - After stroke, nicotinamide treatment reduced infarct in wild-type males and PARP-1 KO mice of both sexes, but had **no effect in wild-type females** — indicating females use a different neuroprotective pathway (Siegel & McCullough, 2013).
 
 ### Therapeutic Implications

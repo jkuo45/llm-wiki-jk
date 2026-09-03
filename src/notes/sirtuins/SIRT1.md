@@ -489,9 +489,9 @@ In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into n
 > [!important] Estrogen is a shared transcriptional regulator of the SIRT1/3/6 axis
 > SIRT1, [[SIRT3]], and [[SIRT6]] form an **estrogen–sirtuin hub**: estrogen (E₂) via ERα/β upregulates SIRT1 and drives the mitochondrial import/expression of SIRT3, giving premenopausal females higher sirtuin reserve. This hub is dismantled at menopause ("estrogen cliff"), a shared inflection point that accelerates female [[Inflammaging]], [[SASP]] burden, and metabolic/cardiac aging. SIRT6 sits on the mirror side of the hub — its lifespan effects are strongest in males, making the family's sex bias a complementary, nutrient-dependent spectrum rather than a uniform female advantage.
 
-### E₂→ER→SIRT1 Transcriptional Axis
+### E₂↔ER↔SIRT1 Crosstalk (bidirectional, tissue-dependent)
 
-- Estrogen acts through ERα/β response elements to sustain SIRT1 expression; premenopausal females maintain higher SIRT1 pools, while men show a more pronounced SIRT1 decline from young-adult to mid-late age (same age-stratified kinetics described in [[SIRT3]]).
+- Estrogen acts through ERα/β response elements to sustain SIRT1 expression; premenopausal females maintain higher SIRT1 pools, while men show a more pronounced SIRT1 decline from young-adult to mid-late age (same age-stratified kinetics described in [[SIRT3]]). Conversely SIRT1 represses ligand-independent ERα activation — crosstalk is bidirectional, not unidirectional E2→SIRT1.
 - The female SIRT1-SIRT3 advantage is coordinated: SIRT1 (nuclear/cytosolic) and SIRT3 (mitochondrial) both respond to the same estrogen-dependent transcriptional program, so the hub operates as a single redox-defense unit spanning compartment boundaries.
 - E₂ also stabilizes [[PARP1]] on DNA, sparing NAD⁺ (see [[NAD+]]), sustaining the NAD⁺-gated activity of the whole hub into midlife in females.
 

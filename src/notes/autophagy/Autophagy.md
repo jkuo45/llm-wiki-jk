@@ -317,7 +317,7 @@ Autophagy is not sex-neutral: it is **coupled to the sex-specific cell-death pat
 
 - **Male neurons** undergo autophagy more readily and die under starvation/oxygen-glucose deprivation (OGD); **female neurons** mobilize fatty acids and depend less on autophagy (Du et al., *J Biol Chem* 2009).
 - **After stroke:** males rapidly induce **canonical autophagy** (Beclin-1↑, LC3-II↑, p62↓); females use a **Beclin-1-independent (ATG7-dependent) route** (Patrizz et al., *Cells* 2021).
-- Males show **higher basal Beclin-1/LC3** in cardiac tissue (Oliván et al., 2014).
+- Males show **higher basal Beclin-1/LC3** in cardiac ventricles (Campesi et al., *Life Sci* 2013; prior Oliván 2014 studied spinal cord/muscle).
 
 ### Estrogen Is Bidirectional
 

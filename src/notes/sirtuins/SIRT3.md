@@ -135,8 +135,8 @@ A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5*
 
 ### Estrogen–ERα–SIRT3 Transcriptional Axis
 
-- Estrogen (E₂) acting through ERα upregulates SIRT3 transcription and enhances mitochondrial import efficiency. The E₂–ERα interaction boosts SIRT3 expression and its targeting to the mitochondrial matrix, where it deacetylates MnSOD, IDH2, and other substrates (Azerbaijani longevity cohort pilot, 2025; *Biology* 2025).
-- Women retain **higher absolute pools of SIRT3 protein** than men, with a smaller age-related decline. Their protein-to-mRNA ratios (translational efficiency proxy) rose by ~30% for SIRT3 in a longevity cohort, while the male increase was modest.
+- Estrogen (E₂) acting through ERα upregulates SIRT3 transcription and enhances mitochondrial import efficiency. The E₂–ERα interaction boosts SIRT3 expression and its targeting to the mitochondrial matrix, where it deacetylates MnSOD, IDH2, and other substrates (pilot longevity cohort, preliminary).
+- Women retain **higher absolute pools of SIRT3 protein** than men, with a smaller age-related decline. Their protein-to-mRNA ratios rose by ~30% for SIRT3 in a pilot longevity cohort (preliminary, do not present as established), while the male increase was modest.
 
 ### Age-Stratified Sex Differences
 
@@ -146,7 +146,7 @@ A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5*
 ### Post-Menopausal SIRT3 Decline
 
 > [!warning] Menopause accelerates female cardiac aging via SIRT3 loss
-> Female-specific downregulation of SIRT3 in aged hearts is associated with a decline in mitochondrial anti-oxidant defense, contributing to the accelerated cardiac aging observed after menopause. This is mechanistically linked to estrogen withdrawal → reduced SIRT3 transcription → reduced MnSOD deacetylation → increased oxidative stress.
+> Female-specific downregulation of SIRT3 in aged hearts is associated with a decline in mitochondrial anti-oxidant defense, contributing to the accelerated cardiac aging observed after menopause (inferred, not RCT-proven). This is mechanistically linked to estrogen withdrawal → reduced SIRT3 transcription → reduced MnSOD deacetylation → increased oxidative stress.
 
 - In aged female mouse hearts, both Sirt1 and Sirt3 are specifically downregulated, associated with mitochondrial dysfunction and impaired antioxidant defense (*Aging & Disease*, 2024).
 - The NAMPT inhibitor KPT-9274 mediates **gender-dependent** murine anemia and nephrotoxicity by regulating SIRT3-mediated SOD deacetylation (Klimova et al., 2021), confirming the SIRT3–SOD2 axis as a sex-sensitive therapeutic target.

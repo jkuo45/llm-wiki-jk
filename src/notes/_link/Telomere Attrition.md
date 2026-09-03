@@ -31,7 +31,7 @@ The rate of telomere shortening in human somatic cells averages approximately 50
 
 ## Sex Differences in Attrition Rate
 
-Telomere attrition is **sex-dimorphic**: females have longer telomeres at every age (a difference present at birth) and shorten more slowly (~26 bp/yr) than males (~43 bp/yr) (Gardner et al., *Exp Gerontol* 2014). Mechanisms include pre-implantation biallelic expression of the X-linked telomerase component [[DKC1]], estrogen-driven [[TERT]] activation, and estrogen's antioxidant protection of telomeric DNA (see [[Telomere]] for full detail). Because females accumulate senescent cells less rapidly early in life, sex-stratified attrition rates gate the onset of replicative [[Senescence]] and shape the sex differences documented across [[Senescence]], [[SASP]], and [[Senolytics]].
+Telomere attrition is **sex-dimorphic**: females have longer telomeres at every age (a difference present at birth) and shorten more slowly than males (exact bp/yr needs re-source; not in Gardner 2014). Mechanisms include pre-implantation biallelic expression of the X-linked telomerase component [[DKC1]] (hypothesized, Lansdorp 2022), estrogen-driven [[TERT]] activation, and estrogen's antioxidant protection of telomeric DNA (see [[Telomere]] for full detail). Because females accumulate senescent cells less rapidly early in life, sex-stratified attrition rates gate the onset of replicative [[Senescence]] and shape the sex differences documented across [[Senescence]], [[SASP]], and [[Senolytics]].
 
 ## Consequences of Telomere Attrition
 
@@ -103,6 +103,6 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[Aging]], [[Senescence]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
-- Sex-difference enrichment (2026-09-02): added sex-dimorphic attrition rates (female ~26 vs male ~43 bp/yr; Gardner 2014) and cross-reference to [[Telomere]]'s full female-advantage mechanisms.
+- Sex-difference enrichment (2026-09-02): added sex-dimorphic attrition (female slower than male; exact bp/yr needs re-source) and cross-reference to [[Telomere]]'s full female-advantage mechanisms.
 - Suggested new entity notes to create: [[Telomere]], [[Shelterin Complex]], [[T-loop]], [[ALT (Alternative Lengthening of Telomeres)]], [[Telomere Biology Disorders]], [[Idiopathic Pulmonary Fibrosis]], [[Dyskeratosis Congenita]], [[Imetelstat]], [[TA-65]]
   - Strong connections to strengthen: Telomere Attrition ↔ Hallmarks of Aging, Telomere Attrition ↔ Replicative Senescence, Telomere Attrition ↔ [[Telomerase]], Telomere Attrition ↔ Cellular Senescence

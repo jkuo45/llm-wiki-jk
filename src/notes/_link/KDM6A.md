@@ -88,9 +88,9 @@ KDM6A and [[KDM5C]] — both XCI escapees — cooperate to facilitate **[[Xist]]
 
 - KDM6A escapes X-inactivation → biallelic expression in females → **roughly double the protein dosage** compared to males (the degree of escape varies by tissue and individual).
 - Males require only one loss-of-function event to eliminate KDM6A activity (or one hit plus [[UTY]] loss); females require **two hits**, creating a significant protective buffer.
-- KDM6A enhances [[p21 CIP1|p21]] transcription, contributing to the female-biased p53→p21→senescence arm (vs. male-biased p53→apoptosis).
-- KDM6A mediates **in utero ovarian programming** that biases female cells toward p21-dependent senescence, contributing to sex-specific cell fate decisions.
-- KDM6A mutations in male tumors are enriched across 21 tumor types — a sex-biased pattern not seen in any of the 18,053 autosomal genes examined by the EXITS study (Dunford et al., *Nature Genetics* 2017) — with the strongest enrichment in bladder cancer and medulloblastoma.
+- KDM6A enhances [[p21 CIP1|p21]] transcription, contributing to the hypothesized female-biased p53→p21→senescence arm (vs. male-biased p53→apoptosis; inference, not directly tested).
+- Proposed in utero ovarian programming biasing toward p21-senescence is hypothesis — needs primary citation.
+- KDM6A mutations in male tumors are enriched across 21 tumor types — a sex-biased pattern not seen in any of the 18,055 autosomal+PAR genes examined by the EXITS study (Dunford et al., *Nature Genetics* 2017) — with the strongest enrichment in bladder cancer and medulloblastoma.
 
 ### KDM6A and JMJD3 — Paralog Specificity
 

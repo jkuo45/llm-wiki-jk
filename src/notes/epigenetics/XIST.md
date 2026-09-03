@@ -29,6 +29,10 @@ XIST expression is controlled by the antisense transcript TSIX and by pluripoten
 
 XIST is a model system for studying lncRNA function, nuclear architecture, and chromatin regulation. XIST-based tools are explored for targeted gene silencing and for correcting dosage imbalances in chromosomal aneuploidies. XIST expression state also serves as a marker of epigenetic identity in stem cell and aging research.
 
+## Sex Differences
+
+[[KDM6A]] and [[KDM5C]] (both XCI escapees) facilitate Xist upregulation by removing H3K27me3 at its promoter. Escape genes ([[KDM6A]], [[DDX3X]], [[KDM5C]], context-dependent [[ATRX]]) remain biallelic despite Xist coating (see [[EXITS]]). Xist ribonucleoprotein complexes contribute to female-biased autoimmunity alongside TLR7 escape and estrogen dose (Chang et al., *Cell* 2024).
+
 #
 
 ## Documents
@@ -46,6 +50,10 @@ XIST is a model system for studying lncRNA function, nuclear architecture, and c
 - [[Polycomb Group Proteins]]: Complexes establishing repressive marks during XIST action.
 - [[macroH2A]]: Histone variant enriched on the XIST-silenced X.
 - [[Oct4]]: Pluripotency factor that represses XIST in stem cells.
+- [[KDM6A]] — with KDM5C facilitates Xist upregulation; EXITS escapee
+- [[KDM5C]] — with KDM6A facilitates Xist upregulation; EXITS escapee
+- [[EXITS]] — escape defined against Xist background
+- [[Inflammation]] — Xist/autoimmunity link
 
 ## Linking Summary
 

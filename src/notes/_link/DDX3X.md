@@ -62,7 +62,7 @@ DDX3X shows a complex, context-dependent role in cancer:
 
 ### EXITS Framework
 
-DDX3X is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[KDM5C]], [[KDM6A]], [[MAGEC3]], see [[EXITS]]) preferentially mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,053 autosomal genes** examined (Dunford et al., *Nature Genetics* 2017). In females, biallelic expression provides functional redundancy, requiring **two hits** for complete inactivation; males' hemizygosity means a single-hit loss-of-function is sufficient — **unless** the DDX3Y backup is also disabled.
+DDX3X is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[KDM5C]], [[KDM6A]], [[MAGEC3]], see [[EXITS]]) preferentially mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,055 autosomal+PAR genes** examined (Dunford et al., *Nature Genetics* 2017). In females, biallelic expression provides functional redundancy, requiring **two hits** for complete inactivation; males' hemizygosity means a single-hit loss-of-function is sufficient — **unless** the DDX3Y backup is also disabled.
 
 #### The DDX3Y / Y-Chromosome Homolog Corollary
 

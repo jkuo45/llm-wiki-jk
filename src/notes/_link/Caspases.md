@@ -44,7 +44,7 @@ List of documents that mention this entity
 > [!important] Caspases are the female-preferred cell-death effectors
 > In the sex-difference cell-death framework (detailed in [[Apoptosis]]), cells of female origin preferentially execute **caspase-dependent apoptosis**, whereas male cells preferentially die via [[PARP1]]/AIF-dependent necrosis. Caspases are thus the XX-arm of the death machinery, and this has direct therapeutic consequences: pan-caspase inhibition protects females but not males in experimental stroke.
 
-- **Caspase-3/8 activation is higher and earlier in female (XX) cells and neurons** after ischemia; [[Caspase-8]] shows ~3× greater activation with nuclear translocation unique to XX cells (Liu et al., *Stroke* 2009; Sharma et al., *ASN Neuro* 2011).
+- **Caspase-3/8 activation is higher and earlier in female (XX) cells and neurons** after ischemia; [[Caspase-8]] shows markedly greater activation with XX-predominant nuclear translocation (Liu et al., *Stroke* 2009; Sharma et al., *ASN Neuro* 2011 — exact “~3×” unverified).
 - **XY cells** favor [[PARP1]] overactivation → [[NAD+]] depletion → energy failure → AIF-mediated necrosis, largely bypassing the caspases (see [[NAD+]] for the PARP-1 sex divergence).
 - Cross-linked with [[p53]] (which sex-specifically biases the apoptosis-vs-senescence decision) and [[Bcl-2]] (the estrogen-driven anti-apoptotic setpoint that raises the female apoptotic threshold) — see the unified framework across [[Apoptosis]] ↔ [[Caspases]] ↔ [[p53]] ↔ [[Bcl-2]].
 

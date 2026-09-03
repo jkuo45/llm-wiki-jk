@@ -21,11 +21,11 @@ Anti-apoptotic protein that localizes to the mitochondrial outer membrane and in
 
 Bcl-2 sits at the apex of the best-characterized sex difference in programmed cell death (see [[Apoptosis]]): **females preferentially die via apoptosis, males via PARP-1/AIF necrosis**, and the Bcl-2/[[BAX]] ratio is a central determinant of which mode dominates.
 
-- **Estrogen upregulates Bcl-2 (female neuroprotection):** estradiol transcriptionally induces Bcl-2, and post-ischemic Bcl-2 is >60% higher in female brains. This estrogen-driven Bcl-2 upregulation is a primary mechanism of female resistance to cell death after stroke and ischemia (Dubal et al., *J Neurosci* 1999; Alkayed et al., 2001).
-- **Female Bcl-2 higher / Bax lower:** females maintain a higher Bcl-2/Bax ratio, favoring survival and apoptotic resistance. **[[BAX]] knockout eliminates sex differences** in neuron number (Forger et al., *PNAS* 2004), and **Bcl-2 overexpression also abolishes them** (Zup et al., *J Neurosci* 2003) — formally establishing the Bcl-2/Bax axis as the genetic basis of sexual dimorphism in cell number.
+- **Estrogen upregulates Bcl-2 (female neuroprotection):** E2 prevents injury-induced bcl-2 loss in OVX females (Dubal et al., *J Neurosci* 1999, PMID 10414967; Alkayed et al., 2001). Intact F-vs-M % removed — Dubal is OVX+E2 vs OVX-oil.
+- **Female Bcl-2/Bax context-dependent:** adult female heart higher ratio post-MI; developmentally in SDN-POA/MPNc Bax is F>M with higher caspase-3 (Tsukahara 2006). **[[BAX]] knockout reduces** overall-number sex differences (Forger et al., *PNAS* 2004; TH+ exception), and **Bcl-2 overexpression reduces** them (Zup et al., 2003) — supporting Bcl-2/Bax axis with limits.
 - **Estrogen upregulates Bcl-w and downregulates Bim** in the Alzheimer's context (Patterson et al., *J Neurosci* 2007), reinforcing the theme that estrogens broadly bias the Bcl-2 family toward survival.
-- **Sex-specific Bcl-2/Bax ratios in the developing hypothalamus** shape neuronal sexual differentiation (Tsukahara et al., 2006).
-- **Post-MI apoptosis:** human autopsy data show ~10× higher peri-infarct apoptosis in men (25.9%) than women (2.6%), with higher cardiac Bax in men — consistent with a protective female Bcl-2/Bax balance (Biondi-Zoccai et al., *Heart* 2005).
+- **Sex-specific Bcl-2/Bax ratios in the developing hypothalamus** shape neuronal sexual differentiation (Tsukahara et al., 2006 — SDN-POA/MPNc: Bcl-2 M>F, Bax F>M).
+- **Post-MI apoptosis:** human autopsy n=15M/6F shows ~10× higher peri-infarct apoptosis in men (25.9%) than women (2.6%, wide CI), with higher cardiac Bax in men (Biondi-Zoccai et al., *Heart* 2005).
 
 > [!note]
 > Because tumors in women face a higher apoptotic threshold (estrogen-driven Bcl-2), Bcl-2-family-dependent drug resistance in cancers such as [[Breast Cancer]] and [[Prostate Cancer]] must be interpreted through a sex-hormonal lens; senolytic BH3 mimetics (e.g., [[Navitoclax]]/ABT-263) target these same pro-survival proteins.
@@ -60,7 +60,7 @@ List of documents that mention this entity
 - [[Survivin]]: Often co-expressed with other anti-apoptotic proteins in resistant tumors.
 - [[Fisetin]]: Natural flavonoid that binds Bcl-2's hydrophobic groove, acting as a senolytic by sensitizing senescent cells to apoptosis.
 - [[Bcl-xL]]: Anti-apoptotic family member; fisetin shows pharmacologically preferred selectivity for Bcl-xL over Bcl-2.
-- [[BAX]]: Bcl-2/BAX ratio is the key determinant of the sex-specific apoptotic threshold; BAX KO eliminates sex differences in cell number.
+- [[BAX]]: Bcl-2/BAX ratio is the key determinant of the sex-specific apoptotic threshold; BAX KO reduces overall-number sex differences (TH+ exception).
 - [[Apoptosis]]: Bcl-2's estrogen-driven upregulation underlies the female-favored apoptotic (vs male necrotic) cell-death paradigm.
 - [[Navitoclax]]: BH3 mimetic targeting Bcl-2/Bcl-xL; senolytic whose sex-stratified data are an open gap.
 - [[Caspases]]: executioner proteases downstream of the Bcl-2/BAX threshold; the female-preferred (XX) death effectors

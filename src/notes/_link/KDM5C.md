@@ -57,7 +57,7 @@ KDM5C acts as a tumor suppressor through its role in epigenetic regulation:
 
 ### EXITS Framework
 
-KDM5C is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[DDX3X]], [[KDM6A]], [[MAGEC3]], see [[EXITS]]) preferentially mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,053 autosomal genes** examined (Dunford et al., *Nature Genetics* 2017). Biallelic expression in females provides functional redundancy (two hits required); males, with a single X chromosome, are vulnerable to single-hit inactivation — **unless** the Y-homolog backup is also disabled.
+KDM5C is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[DDX3X]], [[KDM6A]], [[MAGEC3]], see [[EXITS]]) preferentially mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,055 autosomal+PAR genes** examined (Dunford et al., *Nature Genetics* 2017). Biallelic expression in females provides functional redundancy (two hits required); males, with a single X chromosome, are vulnerable to single-hit inactivation — **unless** the Y-homolog backup is also disabled.
 
 #### The Y-Chromosome Homolog Corollary
 

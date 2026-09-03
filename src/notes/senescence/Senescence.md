@@ -77,16 +77,16 @@ Senescent-cell accumulation and the dominance of each arrest arm are **sex-depen
 ### Accumulation Trajectory and Arrest Arm
 
 - **Males accumulate more senescent cells earlier in life**; females "catch up" near end of life (sex differences in telomere attrition and cellular maintenance; Yousefzadeh et al., 2020; Foster, 2025 *Front Aging Neurosci*).
-- **[[p16INK4A|p16]] and [[p21 CIP1|p21]] are distinct, largely non-overlapping subpopulations**, and the dominant arm is sex-specific: **females carry a higher p16+ burden, males a higher p53/p21 burden** (Admas et al., *EMBO J* 2025).
+- **[[p16INK4A|p16]] and [[p21 CIP1|p21]] are distinct, largely non-overlapping subpopulations** (Chandra et al., *EMBO J* 2025; prior “Admas” corrected); dominant-arm sex mapping (F-p16/M-p53/p21) is inference.
 - **Female p16+ load is highest in the liver**, and females derive **most benefit from p16+ cell clearance** — p16-3MR ablation enhanced grip strength, skin regeneration, and liver repair **exclusively in females** (*Adv Sci* 2026).
 
 ### Sex Differences in SASP and Immune Senescence
 
-- Sex and BMI significantly influence SASP-factor levels; 17 SASP factors correlate with age (Schafer et al., *eLife* 2020).
-- **Estrogen suppresses [[NF-κB]]-driven SASP** via ERβ (enhanced [[IkappaBalpha|IκBα]], reduced p65 binding), giving females a lower SASP burden premenopausally (Giroux et al., 2012).
-- Males with depression show a **higher SASP index** than females with depression (*J Gerontol A* 2025).
+- Sex and BMI significantly influence SASP-factor levels; 17/24 SASP factors correlate with age after sex+BMI adjustment, GDF15 top age/frailty marker (Schafer et al., *JCI Insight* 2020).
+- **Estrogen suppresses [[NF-κB]]-driven SASP** via ERβ (enhanced [[IkappaBalpha|IκBα]], reduced p65 binding; general estrogen–NF-κB biology, exact Giroux 2012 mapping unverified), giving females a lower SASP burden premenopausally.
+- Males with depression show a **higher SASP index** than females with depression (*J Gerontol A* 2025 — needs PMID/verification).
 - **Immunosenescence:** males show faster naive T-cell exhaustion and earlier CD4:CD8 inversion; females show greater overall immune remodeling and a post-50 shift toward self-reactive/autoimmune state — underlying the female longevity advantage *and* autoimmune vulnerability (Sopena-Rios et al., *Nature Aging* 2026).
-- **[[cGAS-STING Pathway|cGAS/STING]] activity is higher in aged males**, driven by lower mitochondrial transcription factor A (mtTFA) and TREX1 in males; estrogen directly suppresses [[STING]] transcription (via ERα + [[HDAC3]]) (Feng et al., *JCI Insight* 2024; *Front Immunol* 2024).
+- **[[cGAS-STING Pathway|cGAS/STING]] activity is higher in aged males in diabetic kidney rat model**, driven by lower mtTFA and TREX1 in males; estrogen represses [[STING]] transcription (via ERα + [[HDAC3]], Chen *Cancers* 2022; *Front Immunol* 2024 review is restatement/extrapolation) (Feng et al., *JCI Insight* 2024).
 
 ### Senolytic Responses Are Sex-Specific
 

@@ -61,7 +61,7 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 
 ### Estrogen–NF-κB Suppression
 
-- E₂→ERβ raises [[IκBα]] and lowers NF-κB p65 binding at pro-inflammatory promoters, directly dampening the [[SASP]] and systemic [[Cytokines|cytokine]] output (Giroux et al., *PLoS ONE* 2012; see [[NF-κB]]).
+- E₂→ERβ raises [[IκBα]] and lowers NF-κB p65 binding at pro-inflammatory promoters, directly dampening the [[SASP]] and systemic [[Cytokines|cytokine]] output (general ERβ literature; MyD88/ER-α in situ per El Sabeh et al., *J Inflamm Res* 2021; see [[NF-κB]]).
 - Estrogen also suppresses [[cGAS-STING Pathway|cGAS–STING]] signaling via ERα–HDAC3 deacetylation of the STING promoter (see [[SASP]], [[STING]]), cutting off a second inflammaging-amplifying loop.
 
 ### The Post-Menopausal Acceleration ("Estrogen Cliff")

@@ -56,7 +56,7 @@ MAGEC3's precise molecular function remains under active investigation:
 
 ### EXITS Framework
 
-MAGEC3 is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[DDX3X]], [[KDM5C]], [[KDM6A]], see [[EXITS]]) preferentially loss-of-function mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,053 autosomal genes** examined (Dunford et al., *Nature Genetics* 2017). In females, biallelic expression of MAGEC3 provides functional redundancy requiring **two hits** (double mutation or mutation + whole-chrX loss); males lack this protective dosage and are vulnerable to **single-hit** inactivation.
+MAGEC3 is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[DDX3X]], [[KDM5C]], [[KDM6A]], see [[EXITS]]) preferentially loss-of-function mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,055 autosomal+PAR genes** examined (Dunford et al., *Nature Genetics* 2017). In females, biallelic expression of MAGEC3 provides functional redundancy requiring **two hits** (double mutation or mutation + whole-chrX loss); males lack this protective dosage and are vulnerable to **single-hit** inactivation.
 
 > [!note]
 > MAGEC3 (with CNKSR2) was more recently suggested to escape X-inactivation via next-generation sequencing and epigenetic analyses, and is among the least mechanistically characterized of the six EXITS genes — its assignment relies most heavily on the statistical sex-bias signal rather than established protein function.
@@ -66,7 +66,7 @@ MAGEC3 is one of six X-linked genes (with [[ATRX]], [[CNKSR2]], [[DDX3X]], [[KDM
 > [!tip]
 > MAGEC3 is X-linked with sex-biased loss-of-function mutations in male tumors.
 
-- MAGEC3 escapes X-inactivation in testis and some other tissues, meaning females can produce biallelic MAGEC3 protein.
+- MAGEC3 escape from X-inactivation in females is recently suggested (NGS/epigenetic) and least characterized among EXITS genes; statistical sex-bias signal exceeds mechanistic proof.
 - Males, hemizygous for X-linked MAGEC3, are vulnerable to single-hit loss-of-function mutations.
 - The cancer-testis expression pattern (testis + tumors) introduces additional sex-specific biology: MAGEC3 is expressed in male germ cells and male-specific tumors.
 - MAGEC3 loss-of-function in male tumors may disrupt testis-specific tumor-suppressive pathways that normally maintain germ cell genomic integrity.

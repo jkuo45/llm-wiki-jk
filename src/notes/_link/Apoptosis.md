@@ -53,10 +53,10 @@ aliases: []
 |---------|-------------|------------|----------|
 | **Primary death mode** | Caspase-dependent apoptosis | PARP-1/AIF-dependent necrosis | Liu et al., *Stroke* 2009; McCullough et al., *J Cereb Blood Flow Metab* 2005 |
 | **Caspase-3 activation** | Higher after ischemia; pan-caspase inhibitor protects females only | Lower after ischemia | Liu et al., *Stroke* 2009 |
-| **Caspase-8 activation** | ~3× greater; nuclear translocation (XX neurons only) | Lower; no nuclear translocation | Sharma et al., *ASN Neuro* 2011 |
-| **Cytochrome C release** | Earlier (30 min vs 1 hr); more robust | Delayed | Sharma et al., *ASN Neuro* 2011 |
-| **AIF translocation** | Delayed/minimal | Earlier (by 30 min); robust | Sharma et al., *ASN Neuro* 2011 |
-| **Bcl-2 expression** | Higher (estrogen-driven via ERα/β) | Lower | Dubal et al., *J Neurosci* 1999 |
+| **Caspase-8 activation** | Markedly greater; nuclear translocation XX-predominant (both sexes increase, female-predominant per Liu) | Lower; weak/absent nuclear translocation | Sharma et al., *ASN Neuro* 2011; Liu et al., *Stroke* 2009 |
+| **Cytochrome C release** | Earlier; more robust (exact timings need primary page check) | Delayed | Sharma et al., *ASN Neuro* 2011 |
+| **AIF translocation** | Delayed/minimal | Earlier; robust (by ~1 hr in Sharma) | Sharma et al., *ASN Neuro* 2011 |
+| **Bcl-2 expression** | Higher with E2 support (OVX+E2 vs OVX-oil design) | Lower (adult cardiac context) | Dubal et al., *J Neurosci* 1999 (PMID 10414967) |
 | **PARP-1 inhibition** | Exacerbates injury (PARP-1 is protective in females) | Protective (reduces infarct) | McCullough et al., 2005 |
 | **Post-MI apoptosis** | 2.6% apoptotic index | 25.9% (10× higher) | Biondi-Zoccai/Abbate et al., *Heart* 2005 |
 
@@ -64,13 +64,12 @@ aliases: []
 
 - **XX neurons**: Mitochondrial cytochrome C → apoptosome → [[Caspase-9]] → [[Caspase-3]]; [[Caspase-8]] also activated and translocates to nucleus to cleave PARP-2.
 - **XY neurons**: [[PARP-1]] overactivation → [[NAD+]] depletion → energy failure → AIF release from mitochondria → nuclear translocation → large-scale (50-kbp) DNA fragmentation (caspase-independent).
-- **Bax KO eliminates sex differences** in brain neuron number (Forger et al., *PNAS* 2004). **[[Bcl-2]] overexpression also eliminates sex differences** (Zup et al., *J Neurosci* 2003).
+- **Bax KO reduces overall-number sex differences** in BNSTp/AVPV (Forger et al., *PNAS* 2004; TH+ AVPV exception remains). **[[Bcl-2]] overexpression reduces** sex differences (Zup et al., *J Neurosci* 2003).
 
 ### Estrogen–[[Bcl-2]] Neuroprotection
 
-- Estrogen upregulates [[Bcl-2]] via ERα/β transcriptional activation: post-ischemic Bcl-2 protein was >60% higher in females than males (Dubal et al., *J Neurosci* 1999).
+- Estrogen upregulates [[Bcl-2]] via ERα/β transcriptional activation: E2 prevents injury-induced bcl-2 downregulation in OVX females (Dubal et al., *J Neurosci* 1999, PMID 10414967). Intact female-vs-male % removed — Dubal compared OVX+E2 vs OVX-oil females.
 - Estrogen upregulates anti-apoptotic Bcl-w and downregulates pro-apoptotic [[Bim]] in [[Alzheimer's Disease]] context (Patterson et al., *J Neurosci* 2007).
-- Intact females and estrogen-treated ovariectomized rats show significantly increased Bcl-2 mRNA and protein compared with males.
 
 ### Therapeutic Implications
 
@@ -88,9 +87,9 @@ aliases: []
 
 **Sex in the Bcl-2/Bax setpoint**
 
-- **Dubal DB, Shughrue PJ, Wilson ME, Merchenthaler I, Wise PM.** Estradiol modulates bcl-2 in cerebral ischemia: a potential contribution to neuroprotection. *J Neurosci.* 1999;19(15):6385–6393. PMID: [10414977](https://pubmed.ncbi.nlm.nih.gov/10414977/). — Estrogen-driven Bcl-2 elevation underlies female apoptotic resistance.
-- **Forger NG, Rosen GJ, Waters EM, Jacob D, Simerly RB, de Vries GJ.** Deletion of Bax eliminates sex differences in the mouse forebrain. *Proc Natl Acad Sci USA.* 2004;101(37):13666–13671. doi:[10.1073/pnas.0404644101](https://doi.org/10.1073/pnas.0404644101). PMID: [15342910](https://pubmed.ncbi.nlm.nih.gov/15342910/). — Bax KO abolishes sex differences in neuron number (BNSTp and AVPV).
-- **Zup SL, Carrier H, Waters EM, Tabor A, Bengston L, Rosen GJ, Simerly RB, Forger NG.** Overexpression of Bcl-2 reduces sex differences in neuron number in the brain and spinal cord. *J Neurosci.* 2003;23(6):2357–2362. doi:[10.1523/JNEUROSCI.23-06-02357.2003](https://doi.org/10.1523/JNEUROSCI.23-06-02357.2003). — Bcl-2 overexpression also eliminates sex differences in cell number.
+- **Dubal DB, Shughrue PJ, Wilson ME, Merchenthaler I, Wise PM.** Estradiol modulates bcl-2 in cerebral ischemia: a potential contribution to neuroprotection. *J Neurosci.* 1999;19(15):6385–6393. PMID: [10414967](https://pubmed.ncbi.nlm.nih.gov/10414967/). — E2 prevents injury-induced bcl-2 loss in OVX females (OVX+E2 vs OVX-oil design).
+- **Forger NG, Rosen GJ, Waters EM, Jacob D, Simerly RB, de Vries GJ.** Deletion of Bax reduces overall-number sex differences in the mouse forebrain. *Proc Natl Acad Sci USA.* 2004;101(37):13666–13671. doi:[10.1073/pnas.0404644101](https://doi.org/10.1073/pnas.0404644101). PMID: [15342910](https://pubmed.ncbi.nlm.nih.gov/15342910/). — Bax KO reduces BNSTp/AVPV dimorphism (TH+ AVPV exception remains).
+- **Zup SL, Carrier H, Waters EM, Tabor A, Bengston L, Rosen GJ, Simerly RB, Forger NG.** Overexpression of Bcl-2 reduces sex differences in neuron number in the brain and spinal cord. *J Neurosci.* 2003;23(6):2357–2362. doi:[10.1523/JNEUROSCI.23-06-02357.2003](https://doi.org/10.1523/JNEUROSCI.23-06-02357.2003). — Bcl-2 overexpression reduces (not eliminates) sex differences.
 
 **Clinical (human) evidence**
 
@@ -190,7 +189,7 @@ List of documents that mention this entity
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
 - [[Caspases]] — executioner proteases that execute the mitochondrial/extrinsic death programs; the female-preferred death effectors in the sex-difference framework
 - [[PARP1]] — the male-preferred death effector; XY cells die via PARP-1/AIF-dependent necrosis rather than caspases
-- [[p53]] — sex-hormone-regulated switch between the senescence and apoptosis arms (4 ERα elements; see Sex Differences)
+- [[p53]] — sex-hormone-regulated switch between the senescence and apoptosis arms (E2↔p53 crosstalk; see Sex Differences)
 - [[Bcl-2]] — estrogen-driven anti-apoptotic setpoint; the molecular basis of female apoptotic resistance
 
 ## Linking Summary (Sex Differences — Cell-Death Cross-Link, 2026-09-02)

@@ -260,8 +260,8 @@ Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as bio
 
 ### Estrogen–NF-κB Suppression of the SASP
 
-- [[NF-κB]] is the master transcriptional regulator of the SASP. Estrogen (E₂) inhibits NF-κB through a bimodal ERβ mechanism: (1) enhances [[IκBα]] expression (the NF-κB inhibitor); (2) reduces NF-κB p65 binding to pro-inflammatory gene promoters (Giroux et al., *PLoS ONE* 2012).
-- The MyD88/methylated ER-α complex (required for NF-κB transcriptional activity) is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries** but **0/29 pre-menopausal ovaries** — demonstrating estrogen's direct interruption of SASP-driving NF-κB activation in situ.
+- [[NF-κB]] is the master transcriptional regulator of the SASP. Estrogen (E₂) inhibits NF-κB via ERβ (↑[[IκBα]], ↓p65 binding — general literature) and via MyD88/methylated ER-α control of p65-S468 (IκB degradation unaffected).
+- The MyD88/methylated ER-α complex is found in **35/35 testicular** and **3/11 post-menopausal ovarian** but **0/29 pre-menopausal ovaries** (El Sabeh et al., *J Inflamm Res* 2021; prior “Giroux 2012” corrected).
 - At menopause, loss of estrogen derepresses NF-κB → amplified SASP → accelerated inflammaging.
 
 ### Sex-Specific SASP Factor Profiles
@@ -284,7 +284,7 @@ Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as bio
 ### cGAS–STING and Sex-Specific SASP Amplification
 
 - **Estrogen directly suppresses STING transcription** via ERα + HDAC3 binding to the STING promoter (Chen et al., *Cancers* 2022). After menopause, STING derepression may amplify the cGAS–STING–NF-κB SASP cascade.
-- **cGAS/STING activity is significantly higher in aged males** than females, driven by lower mitochondrial DNA clearance capacity (Feng et al., *JCI Insight* 2024).
+- **cGAS/STING activity is higher in aged males in diabetic kidney rat model** than females, driven by lower mtTFA/TREX1 (Feng et al., *JCI Insight* 2024 — kidney T2DN rats, not generic aging).
 
 # 
 

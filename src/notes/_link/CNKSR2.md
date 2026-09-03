@@ -47,14 +47,14 @@ CNKSR2 is one of six EXITS genes with recurrent loss-of-function mutations enric
 
 ### EXITS Framework
 
-CNKSR2 is one of six X-linked genes (with [[ATRX]], [[DDX3X]], [[KDM5C]], [[KDM6A]], [[MAGEC3]], see [[EXITS]]) that are preferentially loss-of-function mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,053 autosomal genes** examined (Dunford et al., *Nature Genetics* 2017). In females, biallelic expression provides a functional buffer requiring **two hits** (double mutation or mutation + whole-chrX loss); males, hemizygous for X-linked genes, are vulnerable to **single-hit** inactivation.
+CNKSR2 is one of six X-linked genes (with [[ATRX]], [[DDX3X]], [[KDM5C]], [[KDM6A]], [[MAGEC3]], see [[EXITS]]) that are preferentially loss-of-function mutated in male tumors. Across **21 tumor types**, these six X-linked genes harbor loss-of-function mutations significantly more often in males — a sex-biased pattern not seen in any of the **18,055 autosomal+PAR genes** examined (Dunford et al., *Nature Genetics* 2017). In females, biallelic expression provides a functional buffer requiring **two hits** (double mutation or mutation + whole-chrX loss); males, hemizygous for X-linked genes, are vulnerable to **single-hit** inactivation.
 
 ## Sex Differences
 
 > [!tip]
 > CNKSR2 loss-of-function mutations are enriched in male tumors due to X-linked hemizygosity.
 
-- As an X-linked gene escaping full inactivation in females, CNKSR2 is biallelically expressed in female cells.
+- As an X-linked gene recently suggested to escape inactivation in females (NGS/epigenetic evidence, still under investigation), CNKSR2 may be biallelically expressed in female cells.
 - Males carry only one copy; loss-of-function mutation on the single X allele eliminates CNKSR2 tumor suppressor activity entirely.
 - This provides a mechanistic explanation for the broader male predominance in cancer incidence at most non-reproductive sites.
 

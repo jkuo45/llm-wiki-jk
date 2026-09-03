@@ -43,13 +43,13 @@ Telomere length is **sex-dimorphic from birth**, and this is among the best-repl
 | Feature | Females | Males | Citation |
 |---------|---------|-------|----------|
 | **Telomere length** | Longer at every age; difference present at birth | Shorter | Gardner et al. 2014 |
-| **Attrition rate** | Slower (~26 bp/yr) | Faster (~43 bp/yr) | Gardner et al. 2014, *Exp Gerontol* |
+| **Attrition rate** | Slower (exact bp/yr needs re-source; not in Gardner 2014 which found no age interaction) | Faster | Longitudinal cohorts |
 | **Standardized sex difference** | +0.090 (95% CI 0.015–0.166) across 36 cohorts (n=36,230) | baseline | Gardner meta-analysis |
 | **Telomerase activity** | Higher (see mechanisms) | Lower | Lansdorp 2022 |
 
 ### Mechanisms Underlying the Female Advantage
 
-- **DKC1 biallelic expression (Lansdorp, *Aging Cell* 2022):** before embryonic X-inactivation, female cells express dyskerin (a telomerase component encoded on the X chromosome) from **both X alleles**, increasing telomerase output and producing elongated telomeres before implantation.
+- **DKC1 biallelic expression (Lansdorp, *Aging Cell* 2022 — hypothesis):** before embryonic X-inactivation, female cells express dyskerin (a telomerase component encoded on the X chromosome) from **both X alleles**, increasing telomerase output and producing elongated telomeres before implantation.
 - **Estrogen → [[Telomerase|TERT]] activation:** the TERT promoter contains estrogen-responsive elements; estrogen directly stimulates telomerase transcription (Barrett & Richardson 2011).
 - **Estrogen antioxidant activity:** estrogen protects telomeres from oxidative damage (Mayer et al. 2006), slowing erosion.
 - **Testosterone is unfavorable:** lacking antioxidant properties and possibly increasing oxidative stress-induced telomere damage (Gardner et al. 2014).

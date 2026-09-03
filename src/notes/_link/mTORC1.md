@@ -94,18 +94,18 @@ mTORC1 activation is **sexually and temporally dimorphic**, and rapamycin (the p
 
 ### Activation Patterns by Sex and Feeding State
 
-- **Fed-state dependence (Am J Physiol Regul Integr 2024):** mTORC1 activation (p70S6K1 phosphorylation) is **higher in males when fasted** but **higher in females when fed** — an inversion that must be accounted for in mTORC1 biomarker interpretation.
+- **Fed-state dependence (Am J Physiol Regul Integr 2024 — direction needs full-text check; Ballesteros 2016 found opposite fasted F>M in liver/heart):** mTORC1 activation (p70S6K1 phosphorylation) is **reported higher in males when fasted** but **higher in females when fed** — an inversion that must be accounted for in mTORC1 biomarker interpretation.
 - **Cardiac specificity (Gürgen, *Hypertension* 2013):** **female cardiac mTOR signaling is ERβ-specified**, while males maintain both mTORC1 and [[mTORC2]]; estrogen-receptor biology therefore shapes cardiac growth/autophagy responses.
-- **Sex-hormone-driven activation in cancer:** in KRAS-mutant pancreatic cancer, **androgen–[[Androgen Receptor|AR]] signaling drives mTORC1 activation specifically in males** (Gökduman, 2023), linking male hormonal status to mTORC1-dependent tumor aggressiveness.
+- **Sex-hormone-driven activation in cancer:** in KRAS-mutant pancreatic cancer, **androgen–[[Androgen Receptor|AR]] signaling reported to drive mTORC1 activation specifically in males** (Gökduman, 2023 — unverified, needs primary), linking male hormonal status to mTORC1-dependent tumor aggressiveness.
 
 ### Rapamycin Lifespan Effects Are Sex-Specific
 
 - **Females show greater relative lifespan extension** from rapamycin (replicated across three ITP cohorts), partly via higher blood drug levels in females (Miller, *Aging Cell* 2014; Harrison, *Nature* 2009).
-- **Dosing regimen matters:** 3-month **early-life** rapamycin exposure benefits **males only**, whereas lifetime dosing benefits both (Strong, *Aging Cell* 2020).
+- **Dosing regimen matters:** 3-month **late-life (20–23 mo)** transient rapamycin benefits **males only**, whereas lifetime dosing benefits both; Bitto *eLife* 2016 3-mo high-dose benefited both (strain/dose-dependent) (Strong, *Aging Cell* 2020).
 
 ### Caloric Restriction (a mTORC1-suppressing intervention)
 
-- ~95–96% of CR studies ignore sex; where studied, **young males get greater metabolic benefit** (*eLife* 2023), and the historic McCay 1935 CR study extended lifespan **only in males**.
+- ~96.6% mouse / 95.7% human CR studies ignore sex (Suchacki *eLife* 2023); where studied, **young males get greater metabolic benefit**, and the historic McCay 1935 CR study was a mixed-sex pioneer (modern sex-stratified CR came decades later).
 
 > [!note]
 > Because mTORC1 activity flips between the sexes with feeding state, and rapamycin's benefit is female-biased while early-life exposure is male-biased, **phase (fed/fasted) and sex must be reported** alongside any phospho-S6K1/phospho-S6 mTORC1 readout and in interpreting rapamycin/CR longevity trials.

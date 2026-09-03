@@ -86,8 +86,8 @@ NF-κB is one of the clearest examples of a master inflammatory transcription fa
 ### Estrogen Suppresses NF-κB Through a Bimodal ERβ Mechanism
 
 - **Enhanced [[IkappaBalpha|IκBα]] expression:** estrogen upregulates IκBα, sequestering NF-κB in the cytoplasm.
-- **Reduced p65 (RelA) DNA binding:** estrogen lowers p65 occupancy of pro-inflammatory promoters (Giroux et al., *PLoS ONE* 2012).
-- **In situ demonstration (Giroux et al. 2012):** the MyD88/methylated-ERα complex required for NF-κB transcriptional activity is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries**, but **0/29 pre-menopausal ovaries** — direct evidence that estrogen interrupts NF-κB activation in intact tissues.
+- **Reduced p65 (RelA) DNA binding:** estrogen lowers p65 occupancy of pro-inflammatory promoters (general ERβ literature; not Giroux 2012).
+- **In situ demonstration (El Sabeh et al., *J Inflamm Res* 2021; prior “Giroux 2012” corrected):** the MyD88/methylated-ERα complex required for NF-κB transcriptional activity is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries**, but **0/29 pre-menopausal ovaries** — direct evidence that estrogen interrupts NF-κB activation in intact tissues (ER-α/PRMT1 cytoplasmic mechanism; IκB degradation unaffected).
 
 ### Sex Differences in Basal vs Induced Inflammation
 
