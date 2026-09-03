@@ -49,8 +49,7 @@ offset by +1000).
   for the exact deps, e.g. `uv run --with networkx --with scipy`).
 - **Graphify** is installed as a uv tool; builds knowledge graphs and answers
   graph queries (§4).
-- **Translation**: prefer `deep-translator` (Google engine) via `uv run
---with deep-translator`; review biomedical terminology before publishing.
+- **Translation**: review biomedical terminology before publishing.
 - **New pages**: check whether a language-specific version already exists
   before adding one; register new articles in the site index artifacts —
   `web/public/sitemap.xml`, `web/public/data/articles.json`, `web/public/llms.txt`.
@@ -84,7 +83,7 @@ source: #
 aliases: [Alt Name, ACRONYM]
 ```
 
-**Document note** (filename prefix `_document_ - `):
+**Document note** (filename prefix `_document_ -`):
 
 ```yaml
 title: Full title of the source document
@@ -225,21 +224,6 @@ uv run --with networkx python3 -m scripts analyze-nodes --graph wiki-out/graph.j
 uv run --with networkx python3 -m scripts predict-links --graph graphify-out/graph.json
 uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.json --role Spreader --top 10
 
-# Mirror base layer into Supabase (topics/entities/edges/metrics/predictions;
-# incremental on version.json hash — needs SUPABASE_URL + SUPABASE_SERVICE_KEY
-# in env or repo .env, which is git-ignored). Run after any graph rebuild.
-uv run --no-build --with supabase --with pyyaml --with networkx python3 -m scripts sync-graph
-
-# Mirror the CONTENT layer into Supabase (content_registry: articles/tasks/
-# image notes/documents; wiki notes live in `entities` from sync-graph). Flags:
-#   --backfill-stars  seed content_flags from legacy starred frontmatter/manifest
-#   --prune           drop registry rows whose content is gone
-#   --dry-run         counts only
-# content_flags is the runtime source of truth for curation flags (starred /
-# active) via api/flags.py + the SPA admin panel; frontmatter/static flags
-# remain offline fallbacks.
-uv run --no-build --with supabase --with pyyaml python3 -m scripts sync-content
-
 # GitHub repo / branch for generated links: read from repo .env
 # (GITHUB_REPO_URL, GITHUB_BRANCH). Both are required — readme-counts raises if
 # either is missing (no hardcoded default).
@@ -252,26 +236,6 @@ uv run --no-build --with pytest --with pytest-asyncio --with fastapi --with http
   --with networkx --with numpy --with scipy --with pydantic --with python-multipart \
   --with pillow --with graphifyy --with pyyaml python3 -m pytest tests/ -q
 ```
-
-Notes:
-
-- `web/public/data/graph.json` is retired; the frontend reads the canonical
-  `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` plus the
-  `triples-*`/`wiki-*` source files per mode. The backend (`api/`) reads
-  `graphify-out/graph.json` directly.
-- Analyses/tasks written before the wiki graph existed were computed on the
-  **triples** graph; state the graph (mode) explicitly when running new analyses.
-- README counts/tables: `python -m scripts readme-counts`. 
-  - Update notes below the knowledge graphs detailing the difference in subtotals (merging and deduplication).
-- New scripts go in a domain subpackage with a `python -m scripts` command
-  registered in `scripts/cli.py`; the full pipeline map lives in
-  `scripts/README.md`.
-- Frontend build-time env (repo-root `.env`, inlined by Vite): `VITE_API_BASE`,
-  `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and the GitHub base vars
-  `VITE_GITHUB_BASE` (repo blob links) / `VITE_GITHUB_NOTES_IMAGE_BASE`
-  (raw.githubusercontent image host). Each falls back to the public repo/dev
-  when unset; `window.GITHUB_BASE` / `window.GRAPH_NOTES_IMAGE_BASE` can also
-  override at runtime.
 
 ## 9. Running Locally
 
