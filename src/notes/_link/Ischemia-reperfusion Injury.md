@@ -114,5 +114,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[NF-κB]], [[ICAM-1]], [[TNF-α]], [[IL-1β]], [[Myocardial Infarction]], [[PI3K]], [[Cyclosporin A]], [[GPX4]], [[PKC]], [[ERK1_2|ERK1/2]], [[ATP]], [[Glycolysis]], [[Lactate]], [[NADPH Oxidase]], [[Damage-Associated Molecular Patterns]], [[P-Selectin]], [[E-Selectin]], [[Bcl-2]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Glutathione]], [[NLRP3 Inflammasome]], [[PARP1]], [[tPA]], [[Myocardial Stunning]], [[N-Acetylcysteine]], [[Edaravone]], [[Anakinra]], [[MnSOD]], [[HIF-1α]], [[Cytochrome c]], [[Blood-Brain Barrier]], [[Hemorrhagic Transformation]], [[Calpain]], [[IL-6]]
-- Suggested new entity notes to create: [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[No-Reflow Phenomenon]], [[Ischemic Preconditioning]], [[mPTP]]
+- Suggested new entity notes to create: [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[No-Reflow Phenomenon]], [[Ischemic Preconditioning]]
   - Strong connections to strengthen: Ischemia-reperfusion Injury ↔ Autophagy, Ischemia-reperfusion Injury ↔ Reactive Oxygen Species, Ischemia-reperfusion Injury ↔ NF-κB, Ischemia-reperfusion Injury ↔ Myocardial Infarction

@@ -175,7 +175,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
 
-- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[JAK2]], [[STAT3]], [[YAP1]], [[NF-κB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[ovarian cancer]], [[cervical cancer]], [[Renal Cell Carcinoma]], [[glioblastoma]], [[Melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[Cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
+- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[JAK2]], [[STAT3]], [[YAP1]], [[NF-κB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[ovarian cancer]], [[cervical cancer]], [[Renal Cell Carcinoma]], [[Glioblastoma]], [[Melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[Cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Immunotherapy]], [[Hippo Pathway]], [[MYC]].
 - Strong connections to strengthen: [[Hallmarks of Cancer]] ↔ [[Metabolic Reprogramming]], [[Ivermectin]] ↔ [[Drug Repositioning]], [[Fenbendazole]] ↔ [[Microtubule]].
 
@@ -245,7 +245,7 @@ Research in this knowledge base covers various malignancies, including:
 - [[ovarian cancer]]
 - [[cervical cancer]]
 - [[Renal Cell Carcinoma]]
-- [[glioblastoma]]
+- [[Glioblastoma]]
 - [[Melanoma]]
 - [[leukemia]]
 - [[Nasopharyngeal Carcinoma]]
@@ -329,7 +329,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
 
-- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[JAK2]], [[STAT3]], [[YAP1]], [[NF-κB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[ovarian cancer]], [[cervical cancer]], [[Renal Cell Carcinoma]], [[glioblastoma]], [[Melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[Cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
+- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[JAK2]], [[STAT3]], [[YAP1]], [[NF-κB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[ovarian cancer]], [[cervical cancer]], [[Renal Cell Carcinoma]], [[Glioblastoma]], [[Melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[Cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Immunotherapy]], [[Hippo Pathway]], [[MYC]].
 - Strong connections to strengthen: [[Hallmarks of Cancer]] ↔ [[Metabolic Reprogramming]], [[Ivermectin]] ↔ [[Drug Repositioning]], [[Fenbendazole]] ↔ [[Microtubule]].
 
@@ -399,7 +399,7 @@ Research in this knowledge base covers various malignancies, including:
 - [[ovarian cancer]]
 - [[cervical cancer]]
 - [[Renal Cell Carcinoma]]
-- [[glioblastoma]]
+- [[Glioblastoma]]
 - [[Melanoma]]
 - [[leukemia]]
 - [[Nasopharyngeal Carcinoma]]

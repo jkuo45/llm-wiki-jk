@@ -69,4 +69,4 @@ In AR-pathway prostate cancer, [[Ivermectin]] reverses **enzalutamide and doceta
   - [[EGFR]] / [[HER2]]: Targeted-therapy efficacy enhanced by HSP27 inhibition.
   - [[erlotinib]] / [[cetuximab]]: EGFR agents potentiated by HSP27 inhibition.
   - [[Oxidative Stress]] / [[Metastasis]] / [[Angiogenesis]]: HSP27-mediated resistance mechanisms.
-  - [[Lung Cancer]] / [[Prostate Cancer]] / [[Breast Cancer]] / [[ovarian cancer]] / [[glioblastoma]]: Tumors where HSP27 marks poor prognosis.
+  - [[Lung Cancer]] / [[Prostate Cancer]] / [[Breast Cancer]] / [[ovarian cancer]] / [[Glioblastoma]]: Tumors where HSP27 marks poor prognosis.

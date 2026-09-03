@@ -26,7 +26,7 @@ GABA maintains neuronal excitability balance and modulates neuroendocrine and au
 
 ## Pathological & Clinical Relevance
 
-GABAergic signaling exerts tumor-modulatory effects. GABA can inhibit proliferation of some carcinomas via GABA_B receptor–mediated suppression of [[cAMP]]/ERK and can influence [[glioblastoma]] growth, where GABA release by tumor cells shapes the peritumoral excitatory/inhibitory balance and seizure propensity. GABA receptors are being explored as modifiers of the [[Tumor Microenvironment]] and neuro-immune axis. Understanding that ivermectin does not act primarily through GABA in vertebrates clarifies its anticancer mechanism and safety profile.
+GABAergic signaling exerts tumor-modulatory effects. GABA can inhibit proliferation of some carcinomas via GABA_B receptor–mediated suppression of [[cAMP]]/ERK and can influence [[Glioblastoma]] growth, where GABA release by tumor cells shapes the peritumoral excitatory/inhibitory balance and seizure propensity. GABA receptors are being explored as modifiers of the [[Tumor Microenvironment]] and neuro-immune axis. Understanding that ivermectin does not act primarily through GABA in vertebrates clarifies its anticancer mechanism and safety profile.
 
 ## Documents
 
@@ -41,12 +41,12 @@ List of documents that mention this entity
 - [[Ivermectin]]: Anthelmintic whose vertebrate target is not GABA receptors.
 - [[Glutamate-gated Cl- channels]]: The true invertebrate target of ivermectin.
 - [[Glutamate]]: Precursor of GABA via GAD.
-- [[glioblastoma]]: Tumor influenced by GABAergic signaling.
+- [[Glioblastoma]]: Tumor influenced by GABAergic signaling.
 - [[Tumor Microenvironment]]: GABA modulates stromal/immune crosstalk.
 - [[YAP1]]: Mammalian ivermectin target relevant to cancer.
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[Glutamate-gated Cl- channels]], [[Glutamate]], [[glioblastoma]], [[Tumor Microenvironment]], [[YAP1]], [[PAK1]], [[Akt]], [[mTOR]], [[Anticancer]], [[cAMP]], [[GAD]]
+- New links added: [[Ivermectin]], [[Glutamate-gated Cl- channels]], [[Glutamate]], [[Glioblastoma]], [[Tumor Microenvironment]], [[YAP1]], [[PAK1]], [[Akt]], [[mTOR]], [[Anticancer]], [[cAMP]], [[GAD]]
 - Suggested new entity notes to create: [[GABA_A receptor]], [[GABA_B receptor]], [[GAD]]
 - Strong connections to strengthen: [[GABA]] ↔ [[Ivermectin]], [[GABA]] ↔ [[Glutamate-gated Cl- channels]]

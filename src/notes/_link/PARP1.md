@@ -4,7 +4,7 @@ description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-f
   enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
 created: 2024-01-01
-updated: 2026-07-21
+updated: 2026-09-03
 tags:
   - enzyme
 aliases: [PARP-1, Poly(ADP-ribose) polymerase 1, ARTD1]
@@ -58,6 +58,10 @@ The therapeutic exploitation of PARP1 biology centers on synthetic lethality. In
 
 PARP1 hyperactivation is also implicated in ischemia–reperfusion injury. During stroke and myocardial infarction, oxidative DNA damage triggers excessive PARylation, depleting [[NAD+]] and [[ATP]] and driving cell death. PARPi have shown neuroprotective effects in preclinical stroke models by preserving cellular energy stores. In aging, age-related decline in PARP activity correlates with reduced DNA repair capacity and accumulation of genomic instability, suggesting that maintaining PARP1 function may be important for longevity. Species with longer lifespans tend to have higher basal PARP activity, supporting this association.
 
+### Sex-dimorphic PARP-1/AIF death
+
+The nNOS → PARP-1 → PAR → [[AIF]] cascade is the sexually dimorphic death switch in ischemic brain: males die via PARP/AIF caspase-independent death, females via caspase-mediated death with higher cleaved caspase-3 (Li et al. 2005, *Ann Neurol* 58:317–321; Liu et al. 2009, *Stroke* 40:1842–1848, PMID 19265047). In females PARP-1 is protective, not toxic: its loss shunts females toward enhanced cytochrome-c release and caspase-9/-3 activation, reversible by pan-caspase inhibition (*Stroke* 2011;42:739–745, PMID 21311064). PARP inhibitors, nNOS inhibitors, and related preconditioning protect males but worsen or fail in females even after ovariectomy, so preclinical neuroprotection must stratify by sex. Proposed female-side brakes (estrogen-receptor crosstalk, X-linked inhibitor dosage) remain hypotheses. See [[Parthanatos]] and [[Apoptosis]] for the graded evidence.
+
 PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine expression, positioning it as a potential target in chronic inflammatory conditions. In the [[SASP|senescence-associated secretory phenotype]], the ATM–PARP1–IKK axis is acutely activated in advance of NF-κB signaling; PARP1 was initially shown to mediate NF-κB-associated SASP, with [[IκBζ]] acting as a selective co-activator for a subset of SASP genes (IL6, IL8). PARP inhibitors have demonstrated anti-inflammatory effects in models of arthritis, colitis, and endotoxemia.
 
 Nuclear [[cGAS]] interacts directly with PARP1, disrupting the PARP1–Timeless complex and thereby suppressing [[Homologous Recombination|homologous recombination]]. This cGAS–PARP1 interaction positions nuclear cGAS as a regulator of genome stability independent of its cytosolic DNA-sensing role. In contrast, cGAS from the long-lived [[Naked Mole Rat]] exhibits prolonged chromatin retention and enhances DNA repair, suggesting that PARP1–cGAS crosstalk may be tuned differently in long-lived species.
@@ -110,3 +114,4 @@ The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regula
   - [[PARP1]] ↔ [[CD38]] — synergistic NAD⁺ rescue with combined inhibition
   - [[PARP1]] ↔ [[cGAS]] — nuclear cGAS suppresses homologous recombination via PARP1 binding
   - [[PARP1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]] — PARP1 relocation to DSBs drives epigenetic drift
+  - Sex-dimorphism enrichment (2026-09-03): male PARP/AIF vs female caspase death switch; PARP loss shunts females to caspase (Stroke 2011); inhibitors stratify by sex. New links: [[Parthanatos]].

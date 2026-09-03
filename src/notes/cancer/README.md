@@ -7,7 +7,7 @@ updated: 2026-07-26
 ---
 # Cancer
 
-This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[Colorectal Cancer]], [[Glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 **entity_relevance_score_1 (1-10):**
@@ -103,7 +103,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[GABA]] | 21_May_2026 06:20 PM PDT | Biological Molecule | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Gastric Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[GlaxoSmithKline]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 0 | Provided historical, scientific, or institutional context for the research. |
-| [[glioblastoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | A malignant brain tumor known for its resistance to conventional treatments. |
+| [[Glioblastoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | A malignant brain tumor known for its resistance to conventional treatments. |
 | [[Global Programme to Eliminate Lymphatic Filariasis]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Glucose uptake]] | 21_May_2026 06:45 PM PDT | Biological Process | 8 | 0 | Important cellular mechanism involved in cancer progression or response to therapy. |
 | [[GLUT1]] | 21_May_2026 06:45 PM PDT | Transporter | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |

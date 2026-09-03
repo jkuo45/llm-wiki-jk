@@ -18,7 +18,7 @@ HK2 is a ~100 kDa enzyme with two homologous domains, the N-terminal of which bi
 
 ## Role in the Warburg Effect
 
-HK2 is transcriptionally induced by [[HIF-1α]] under [[Hypoxia]] and by [[Akt]]/[[mTOR]] signaling downstream of growth factors, making it a linchpin of the [[Warburg Effect]]. High HK2 redirects glucose toward lactate even in oxygen, fueling biomass and redox balance. HK2 overexpression correlates with aggression in [[Breast Cancer]], [[Hepatocellular Carcinoma]], and [[glioblastoma]].
+HK2 is transcriptionally induced by [[HIF-1α]] under [[Hypoxia]] and by [[Akt]]/[[mTOR]] signaling downstream of growth factors, making it a linchpin of the [[Warburg Effect]]. High HK2 redirects glucose toward lactate even in oxygen, fueling biomass and redox balance. HK2 overexpression correlates with aggression in [[Breast Cancer]], [[Hepatocellular Carcinoma]], and [[Glioblastoma]].
 
 ## Therapeutic Targeting
 
@@ -39,6 +39,6 @@ Blocking HK2 collapses glycolytic flux and restores death sensitivity. [[Fenbend
 
 ## Linking Summary
 
-- New links added: [[HK2]], [[Glycolysis]], [[Glucose]], [[glucose-6-phosphate]], [[Warburg Effect]], [[VDAC]], [[ATP]], [[Apoptosis]], [[Fenbendazole]], [[Akt]], [[mTOR]], [[HIF-1α]], [[Hypoxia]], [[2-deoxy-D-glucose]], [[GLUT1]], [[Chemotherapy]], [[Cytochrome c]], [[Apoptosome]], [[Breast Cancer]], [[Hepatocellular Carcinoma]], [[glioblastoma]]
+- New links added: [[HK2]], [[Glycolysis]], [[Glucose]], [[glucose-6-phosphate]], [[Warburg Effect]], [[VDAC]], [[ATP]], [[Apoptosis]], [[Fenbendazole]], [[Akt]], [[mTOR]], [[HIF-1α]], [[Hypoxia]], [[2-deoxy-D-glucose]], [[GLUT1]], [[Chemotherapy]], [[Cytochrome c]], [[Apoptosome]], [[Breast Cancer]], [[Hepatocellular Carcinoma]], [[Glioblastoma]]
 - Suggested new entity notes to create: [[3-BrPA]], [[Glucose-6-phosphate]]
 - Strong connections to strengthen: [[Hexokinase 2]] ↔ [[Warburg Effect]], [[Hexokinase 2]] ↔ [[Apoptosis]]

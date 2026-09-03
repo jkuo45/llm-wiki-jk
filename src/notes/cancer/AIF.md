@@ -2,7 +2,7 @@
 title: AIF
 description: AIF (Apoptosis-inducing factor) is a flavoprotein that is released from the mitochondrial intermembrane space during Apoptosis.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-09-03
 tags:
   - protein
 aliases: []
@@ -30,6 +30,10 @@ Beyond cell death, AIF is essential for life: AIFM1 loss causes a severe mitocho
 - **Resistance**: Caspase-deficient or [[Apoptosis]]-resistant tumors may still be killed via AIF, making it a therapeutic target of interest. Conversely, AIF downregulation can confer resistance to certain cytotoxic drugs.
 - **Neuroprotection Interface**: Because AIF release also occurs in excitotoxic and ischemic injury, AIF inhibitors are explored neuroprotectively — a balance relevant where tumor and normal tissue share apoptotic vulnerability.
 
+## Sex dimorphism
+
+Nuclear [[AIF]] translocation kills males but not females after adult cerebral ischemia: PAR formation and AIF translocation occur in both sexes, yet PARP-1 deletion or AIF deficiency (Harlequin) protects males only, while females die preferentially via cytochrome-c/caspase-3 (McCullough et al. 2005, PMID 15689952; Yuan et al. 2009, *Exp Neurol* 217:210–218; Liu et al. 2009, *Stroke*, PMID 19265047). The split is cell-autonomous — XY neurons favor AIF-mediated death, XX neurons caspase death in vitro (Du et al. 2004, *J Biol Chem*). Neonatal males are likewise preferentially protected by PARP-1 disruption after hypoxia-ischemia (Hagberg et al. 2004, *J Neurochem*), with a both-sex additive benefit of AIF reduction plus caspase inhibition as caveat (Zhu et al. 2006, *Cell Death Differ*). See [[Parthanatos]] for the full PARP-1/PAR/AIF sex-dimorphic cascade.
+
 ## Documents
 
 List of documents that mention this entity
@@ -56,3 +60,4 @@ List of documents that mention this entity
 - New links added: [[Apoptosis]], [[Intrinsic Pathway]], [[Cell Death]], [[chromatin condensation]], [[Cyclophilin A]], [[Oxidative Stress]], [[DNA]], [[IAPs]], [[Chemotherapy]], [[Mitochondrial Respiration]]
 - Suggested new entity notes to create: [[Cyclophilin A]], [[AIFM1]], [[caspase-independent cell death]]
 - Strong connections to strengthen: [[AIF]] ↔ [[Intrinsic Pathway]], [[AIF]] ↔ [[Oxidative Stress]]
+- Sex-dimorphism enrichment (2026-09-03): AIF translocation lethal in males only; cell-autonomous XY/XX split (McCullough 2005; Yuan 2009; Du 2004). New links: [[Parthanatos]], [[PARP1]].

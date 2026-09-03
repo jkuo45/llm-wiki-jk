@@ -3,7 +3,7 @@ title: Autophagy
 description: Cellular degradation pathway that delivers cytoplasmic material to lysosomes
   for recycling; maintains energy homeostasis and quality control.
 created: 2026-07-04
-updated: 2026-09-02
+updated: 2026-09-03
 tags:
   - biological-process
   - lysosome
@@ -333,6 +333,10 @@ Autophagy is not sex-neutral: it is **coupled to the sex-specific cell-death pat
 > [!note]
 > Because males and females use **different molecular machinery for autophagy** (canonical Beclin-1/LC3 vs ATG7-dependent alternative), autophagy-modulating therapies ([[Rapamycin]], [[Metformin]], [[Spermidine]]) and the interpretation of p62/LC3 autophagy biomarkers must be sex-stratified.
 
+### Quantitative flux and mitophagy dimorphism
+
+Quantitatively, young female murine skeletal muscle carries higher basal autophagy/mitophagy/lysosomal protein abundance (Beclin-1, Parkin, TFEB ~1.8-fold vs males) with greater resting autophagosomal turnover, while acute exhaustive exercise stimulates p62 clearance and nuclear TFEB only in young males — aged muscle of either sex is exercise-refractory (*Skeletal Muscle* 2022, doi:10.1186/s13395-022-00296-7). Basal mitophagy (LC3-II) flux is likewise female-high and TFE3-modulated: after 7-day denervation, wild-type females suppress flux ~44% (preserving mitochondrial content at the expense of function, ROS up 2.4-fold), a response lost without TFE3, whereas males maintain flux and function (*Skeletal Muscle* 2024, doi:10.1186/s13395-024-00339-1). Early disuse mirrors this: females mount ~3-fold BNIP3 and ~6-fold LC3-II/I inductions with delayed mitochondrial oxidative stress vs males (*J Cachexia Sarcopenia Muscle* 2021, PMID 34585846). In liver, females show constitutively greater mitochondrial coupling with lower H2O2 and lower mitophagy markers, and only males require wheel-running to reach the female baseline, with BNIP3/PGC-1α loss hitting females hardest (Von Schulze et al., *J Physiol* 2018). Human translation is cautionary: after eccentric damage plus a hormonal pulse, men raise LC3-II/I flux while women raise FOXO3/BECN1 transcripts without flux gain (*Front Physiol* 2021, n=8+8). Pregnancy/lactation/placenta-specific flux claims were not verified and are excluded.
+
 ## Additional Content from Topic Directory
 
 # Autophagy
@@ -477,4 +481,5 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 ## Sex-Difference Enrichment (2026-09-02)
 
 - Added sex-specific death-pathway coupling: male canonical Beclin-1/LC3 autophagy vs female ATG7-dependent alternative; higher male basal Beclin-1/LC3 in heart; estrogen bidirectionality (suppresses neuronal autophagy via mTOR–ULK1, promotes prosurvival autophagy in ER+ [[Breast Cancer]]); disease-specific examples in stroke, MASLD, and Alzheimer's.
+- Added quantitative flux/mitophagy dimorphism (2026-09-03): young-female-high basal autophagy/mitophagy in muscle, male-only exercise p62 clearance, TFE3-gated denervation response, liver coupling dimorphism, cautionary human translation; pregnancy/lactation claims excluded as unverified.
 - Cross-links strengthened: [[Autophagy]] ↔ [[Apoptosis]], [[Autophagy]] ↔ [[mTORC1]], [[Autophagy]] ↔ [[NF-κB]].

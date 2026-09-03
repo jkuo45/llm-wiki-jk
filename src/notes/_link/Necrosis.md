@@ -59,7 +59,7 @@ Cytosolic [[Calcium]] overload activates [[Calpains]] — Ca2+-dependent cystein
 
 ### ROS and mPTP opening
 
-[[Reactive Oxygen Species]] from leaky mitochondria, [[NADPH Oxidase]], and [[Xanthine Oxidase]] attack lipids, proteins, DNA. Mitochondrial permeability transition pore ([[mPTP]]) opening collapses membrane potential, halting ATP synthesis and releasing [[Cytochrome c]] and other pro-death factors.
+[[Reactive Oxygen Species]] from leaky mitochondria, [[NADPH Oxidase]], and [[Xanthine Oxidase]] attack lipids, proteins, DNA. Mitochondrial permeability transition pore ([[Mitochondrial Permeability Transition Pore|mPTP]]) opening collapses membrane potential, halting ATP synthesis and releasing [[Cytochrome c]] and other pro-death factors.
 
 ### Lysosomal membrane permeabilization
 
@@ -86,11 +86,15 @@ While apoptosis is the desired therapy outcome, tumor necrosis produces a proinf
 [[Adrenochrome]], the oxidative metabolite of [[Epinephrine]], can directly induce necrosis in [[Cardiomyocytes]] via converging mechanisms:
 
 - **[[Oxidative Stress]]** — redox cycling generating [[Superoxide anion]], depleting [[Glutathione]].
-- **Mitochondrial dysfunction** — inhibits [[Complex I]] of the [[Electron Transport Chain]], collapses membrane potential, promotes [[mPTP]] opening.
+- **Mitochondrial dysfunction** — inhibits [[Complex I]] of the [[Electron Transport Chain]], collapses membrane potential, promotes [[Mitochondrial Permeability Transition Pore|mPTP]] opening.
 - **[[Ca2+ Overload]]** — impairs [[SERCA]] and [[Na+/Ca2+ exchanger]], elevating diastolic calcium.
 - **[[Cardiotoxicity]]** — chronic exposure in catecholamine-rich states (e.g. [[Pheochromocytoma]], [[Septic Shock]], [[Myocardial infarction]]) drives transition from reversible injury to frank necrosis.
 
 The link between adrenochrome-driven necrosis and the [[Adrenochrome Hypothesis]] of neuropsychiatric disorders remains speculative, but necrotic debris and DAMP release in brain parenchyma could perpetuate [[Neuroinflammation]].
+
+## Sex bias
+
+Necrosis per se shows no verified intrinsic sex bias; observed male–female infarct and AKI differences track the regulated executors — male-biased [[Necroptosis]] RIPK3/MLKL output in renal IRI and estrogen-restrained [[NLRP3]] priming versus female-biased [[Gasdermin D]] systemic scores in trauma (see [[Pyroptosis]]). Accidental necrosis remains the sex-neutral parent process; dimorphism lives downstream. Distinction: the vault's core XX/XY paradigm states males preferentially undergo PARP-1/AIF-dependent (regulated) necrosis over caspase apoptosis — cell-autonomous, protective PARP-1 inhibition in males only (McCullough et al. 2005; Liu et al. 2009); that claim belongs to regulated necrosis, not accidental rupture.
 
 ## Documents
 
@@ -123,6 +127,8 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Autolysis]], [[Oncosis]], [[Damage-Associated Molecular Patterns]], [[Na+/K+-ATPase]], [[Ca2+ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[mPTP]], [[Cytochrome c]], [[LMP]], [[Cathepsin B]], [[Cathepsin D]], [[Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1beta]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]], [[Metastasis]], [[Pyroptosis]], [[Adrenochrome]], [[Cardiotoxicity]]
-- Suggested new entity notes to create: [[Regulated necrosis]], [[mPTP]], [[Lysosomal membrane permeabilization]], [[TLR2]], [[TLR4]], [[RAGE]], [[P2X7 Receptor]], [[NLRP3 Inflammasome]], [[cGAS-STING Pathway]], [[S100 proteins]], [[Calreticulin]], [[SERCA]], [[Xanthine Oxidase]], [[Electron Transport Chain]], [[Complex I]]
+- New links added: [[Autolysis]], [[Oncosis]], [[Damage-Associated Molecular Patterns]], [[Na+/K+-ATPase]], [[Ca2+ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Mitochondrial Permeability Transition Pore|mPTP]], [[Cytochrome c]], [[LMP]], [[Cathepsin B]], [[Cathepsin D]], [[Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1beta]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]], [[Metastasis]], [[Pyroptosis]], [[Adrenochrome]], [[Cardiotoxicity]]
+- Suggested new entity notes to create: [[Regulated necrosis]], [[Lysosomal membrane permeabilization]], [[TLR2]], [[TLR4]], [[RAGE]], [[P2X7 Receptor]], [[NLRP3 Inflammasome]], [[cGAS-STING Pathway]], [[S100 proteins]], [[Calreticulin]], [[SERCA]], [[Xanthine Oxidase]], [[Electron Transport Chain]], [[Complex I]]
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Necrosis]], [[Adrenochrome]] ↔ [[Cardiomyocytes]], [[Inflammation]] ↔ [[Necrosis]], [[Necrosis]] ↔ [[Apoptosis]], [[Necrosis]] ↔ [[Necroptosis]]
+- Sex-bias note (2026-09-03): no verified intrinsic sex bias for accidental necrosis; dimorphism tracked to regulated executors ([[Necroptosis]], [[Pyroptosis]]).
+- Clarification (2026-09-03): male PARP-1/AIF-dependent (regulated) necrosis preference per XX/XY paradigm (McCullough 2005; Liu 2009) scoped to regulated necrosis, not accidental rupture; table Male cell filled accordingly.

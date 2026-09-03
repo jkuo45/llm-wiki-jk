@@ -25,7 +25,7 @@ Propolis (bee glue) is a resinous substance produced by [[honeybee|honeybees]] (
 ## Anti-Cancer Activity
 
 - [[Caffeic Acid Phenethyl Ester]] (CAPE) induces [[Apoptosis]] and inhibits [[NF-κB]].
-- Propolis extracts inhibit proliferation in [[Breast Cancer]], [[Prostate Cancer]], [[Colorectal Cancer]], [[Melanoma]], and [[glioblastoma]] cell lines.
+- Propolis extracts inhibit proliferation in [[Breast Cancer]], [[Prostate Cancer]], [[Colorectal Cancer]], [[Melanoma]], and [[Glioblastoma]] cell lines.
 - Mechanisms include [[cell cycle arrest]], [[apoptosis]] induction, [[antioxidant]] activity, and modulation of [[PI3K]]/[[Akt]] and [[Wnt]]/[[β-catenin]] signaling.
 
 ## Anti-Inflammatory Activity

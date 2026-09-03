@@ -21,7 +21,7 @@ Melittin has shown selective cytotoxic effects against several cancer types, par
 - [[HER2-enriched breast cancer]]
 - [[Melanoma]]
 - [[non-small-cell lung cancer]]
-- [[glioblastoma]]
+- [[Glioblastoma]]
 
 ## Mechanism of Action
 - **Membrane Disruption**: Forms ~4.4 nm-diameter transmembrane toroidal pores.
@@ -43,6 +43,6 @@ List of documents that mention this entity
 - [[docetaxel]]: A chemotherapy drug that acts synergistically with melittin.
 
 ## Linking Summary
-- New links added: [[Cisplatin]], [[EGFR]], [[HER2]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[docetaxel]], [[glioblastoma]], [[non-small-cell lung cancer]], [[triple-negative breast cancer]]
+- New links added: [[Cisplatin]], [[EGFR]], [[HER2]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[docetaxel]], [[Glioblastoma]], [[non-small-cell lung cancer]], [[triple-negative breast cancer]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Melittin]] ↔ [[triple-negative breast cancer]], [[Melittin]] ↔ [[HER2-enriched breast cancer]], [[Melittin]] ↔ [[non-small-cell lung cancer]]

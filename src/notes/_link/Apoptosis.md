@@ -4,7 +4,7 @@ description: Apoptosis (programmed cell death) is a highly regulated mechanism
   for removing damaged, infected, redundant, or potentially cancerous cells without
   inducing inflammation.
 created: 2026-05-29
-updated: 2026-09-02
+updated: 2026-09-03
 tags:
   - biological-process
   - apoptosis
@@ -65,6 +65,7 @@ aliases: []
 - **XX neurons**: Mitochondrial cytochrome C → apoptosome → [[Caspase-9]] → [[Caspase-3]]; [[Caspase-8]] also activated and translocates to nucleus to cleave PARP-2.
 - **XY neurons**: [[PARP-1]] overactivation → [[NAD+]] depletion → energy failure → AIF release from mitochondria → nuclear translocation → large-scale (50-kbp) DNA fragmentation (caspase-independent).
 - **Bax KO reduces overall-number sex differences** in BNSTp/AVPV (Forger et al., *PNAS* 2004; TH+ AVPV exception remains). **[[Bcl-2]] overexpression reduces** sex differences (Zup et al., *J Neurosci* 2003).
+- **[[XIAP]] mosaicism:** X-linked XIAP (BIRC4, Xq25) makes females lifelong mosaics; carrier X-inactivation skew toward wild-type protects while random skew sensitizes, setting a tissue-level apoptotic threshold (see [[XIAP]]; Dziadzio et al. 2015).
 
 ### Estrogen–[[Bcl-2]] Neuroprotection
 
@@ -196,6 +197,7 @@ List of documents that mention this entity
 
 - **Unified sex-difference cell-death framework** cross-referenced across [[Apoptosis]] ↔ [[Caspases]] ↔ [[p53]] ↔ [[Bcl-2]] and linked to the PARP-1/NAD⁺ axis via [[NAD+]].
 - Cross-links added: [[Caspases]], [[PARP1]], [[p53]], [[Bcl-2]].
+- XIAP mosaic cross-link (2026-09-03): X-linked XIAP mosaicism sets tissue-level apoptotic threshold (see [[XIAP]]; Dziadzio et al. 2015).
 - Strong connections to strengthen: [[Apoptosis]] ↔ [[Caspases]] (XX-caspase arm), [[Apoptosis]] ↔ [[PARP1]] (XY-necrosis arm), [[Apoptosis]] ↔ [[p53]] (senescence-vs-apoptosis sex decision), [[Apoptosis]] ↔ [[Bcl-2]] (estrogen setpoint).
 
 ## Linking Summary

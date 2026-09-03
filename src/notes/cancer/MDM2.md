@@ -20,7 +20,7 @@ MDM2 regulates p53 through several mechanisms:
 3.  **Nuclear Export**: MDM2 promotes the export of p53 from the nucleus to the cytoplasm.
 
 ## Role in Cancer
-- **Oncogene**: The *MDM2* gene is frequently amplified or overexpressed in many human cancers (e.g., sarcomas, [[glioblastoma]]), leading to the inactivation of p53 even in the absence of mutations.
+- **Oncogene**: The *MDM2* gene is frequently amplified or overexpressed in many human cancers (e.g., sarcomas, [[Glioblastoma]]), leading to the inactivation of p53 even in the absence of mutations.
 - **Drug Target**: Inhibiting the MDM2-p53 interaction (e.g., with [[Nutlins]]) is a major therapeutic strategy to restore p53 function.
 
 ## Documents
@@ -41,6 +41,6 @@ List of documents that mention this entity
 - [[Senescence]]: MDM2 prevents p53-mediated senescence.
 
 ## Linking Summary
-- New links added: [[p53]], [[glioblastoma]], [[Nutlins]], [[Apoptosis]], [[Senescence]]
+- New links added: [[p53]], [[Glioblastoma]], [[Nutlins]], [[Apoptosis]], [[Senescence]]
 - Suggested new entity notes to create: [[Nutlins]]
 - Strong connections to strengthen: [[MDM2]] ↔ [[p53]], [[MDM2]] ↔ [[Nutlins]]

@@ -112,7 +112,7 @@ updated: 2026-08-31
 | [[insulin-degrading enzyme (IDE)]] | Enzyme | Protease downstream of SIRT4 that controls PTEN stability, linking mitochondrial sirtuin signaling to PI3K/Akt and tumor suppression. |
 | [[Succinate Dehydrogenase]] | Enzyme | SDH/complex II; SIRT3-regulated acetylation node coupling TCA flux to ETC |
 | [[MMP-7]] | Enzyme | Matrix metalloproteinase 7; ECM/EMT remodeler downstream of β-catenin deacetylation |
-| [[NADPH oxidase]] | Enzyme | NOX superoxide generator; inhibited by SIRT3 in angiotensin II nephropathy |
+| [[NADPH Oxidase]] | Enzyme | NOX superoxide generator; inhibited by SIRT3 in angiotensin II nephropathy |
 | [[soluble epoxide hydrolase]] | Enzyme | sEH/EPHX2; proteolytically modulates SIRT3 turnover in renal vascular calcification |
 | [[DNA Ligase IV]] | Enzyme | LIG4; terminal NHEJ ligase in the SIRT3-associated DNA repair network |
 | [[Mst1]] | Enzyme | STK4 kinase; inhibited by melatonin alongside SIRT3 upregulation in DCM |

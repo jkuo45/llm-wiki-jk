@@ -23,7 +23,7 @@ aliases:
 
 ## Role in Cancer
 
-- **Overexpression**: Found in [[triple-negative breast cancer]], [[Lung Cancer|non-small-cell lung cancer]], [[glioblastoma]], and [[Colorectal Cancer]]
+- **Overexpression**: Found in [[triple-negative breast cancer]], [[Lung Cancer|non-small-cell lung cancer]], [[Glioblastoma]], and [[Colorectal Cancer]]
 - **Signaling**: Activates [[PI3K]]/[[Akt]] and [[MAPK]] pathways
 
 ## Therapeutic Targeting
@@ -60,7 +60,7 @@ List of documents that mention this entity
 **Epidermal growth factor receptor** (EGFR; also known as ErbB-1 or HER1) is a transmembrane protein that is a receptor for members of the epidermal growth factor family (EGF family) of extracellular protein ligands.
 
 ## Role in Cancer
-- **Overexpression**: Frequently overexpressed in various cancers, including [[triple-negative breast cancer]] (approx. 50% of cases), [[Lung Cancer]], [[glioblastoma]], and [[Colorectal Cancer]].
+- **Overexpression**: Frequently overexpressed in various cancers, including [[triple-negative breast cancer]] (approx. 50% of cases), [[Lung Cancer]], [[Glioblastoma]], and [[Colorectal Cancer]].
 - **Signaling**: Activation of EGFR leads to downstream signaling through pathways like [[PI3K]]/[[Akt]] and [[MAPK]], promoting cell proliferation and survival.
 
 ## Linking Summary
