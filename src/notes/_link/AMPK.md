@@ -4,7 +4,7 @@ description: AMP-activated protein kinase (AMPK) is a central metabolic sensor
   that plays a critical role in the Aging process by integrating energy status with
   epigenetic regulation. As organisms age, AMPK...
 created: 2026-05-29
-updated: 2026-07-29
+updated: 2026-09-02
 tags:
   - enzyme
 aliases: []
@@ -31,8 +31,17 @@ The decline of AMPK signaling in old age leads to several downstream epigenetic 
 *   **Loss of Proteostasis:** Reduced AMPK activity impairs [[Autophagy]], leading to the accumulation of damaged proteins.
 *   **Mitochondrial Decay:** Without AMPK-driven epigenetic activation of mitochondrial biogenesis genes, mitochondrial function declines.
 *   **[[Senescence]]:** The failure of AMPK to maintain proper chromatin structure can trigger the [[SASP|Senescence-Associated Secretory Phenotype]] (Senescence-Associated Secretory Phenotype).
-### Merged from notes/autophagy/AMPK.md
-AMP-activated protein kinase (AMPK) is a key energy sensor that phosphorylates [[TFEB]] at serine clusters (S466, S467, S469) to enhance its transcriptional activity.
+## Sex Differences — Male-Biased Hepatic AMPK and the Estrogen–AMPK Axis
+
+AMPK signaling is **sexually dimorphic**, most clearly at the level of hepatic energy sensing and metabolic disease:
+
+- **Male-biased hepatic AMPK induction:** hepatic AMPK activation in response to fructose/MASLD (metabolic-dysfunction-associated steatotic liver disease) is **~3-fold higher in males** than females; female protection is tied to estrogen → AMPK activation (Spruss et al., 2012; Yang, 2022).
+- **Estrogen–AMPK coupling in females:** estrogens activate AMPK directly (via upstream kinase signaling), contributing to the female protection against metabolic disease and more favorable hepatic energy homeostasis.
+- **Epigenetic axis:** the AMPK–[[SIRT1]] reciprocal loop (AMPK raises [[NAD+]] to activate SIRT1, SIRT1 deacetylates LKB1 to activate AMPK) is itself modulated by estrogen through the sirtuin hub (see [[SIRT1]], [[SIRT3]]), coupling sex-hormonal status to AMPK-driven [[Autophagy]] and mitophagy.
+- **cGAS–STING interface:** males' higher inflammatory load in aging (see [[NF-κB]], [[Senescence]]) is linked to lower mitochondrial-DNA clearance; AMPK's control of mitochondrial quality intersects these sex-dimorphic inflammatory outcomes.
+
+> [!note]
+> Because AMPK's hepatic response to metabolic stressors is ~3× higher in males, and estrogen drives female AMPK activation, sex is a primary covariate in interpreting AMPK biomarkers (p-AMPK, p-ACC) and AMPK-targeting therapies ([[Metformin]], urolithin A) across MASLD, diabetes, and aging.
 
 #
 
@@ -99,8 +108,11 @@ List of documents that mention this entity
 - **[[Metformin]]**: A common drug used to activate AMPK and study its anti-aging effects.
 - **[[Autophagy]]**: A downstream process regulated by AMPK that is essential for cellular cleanup.
 - [[NAMPT]]: AMPK phosphorylates NAMPT to raise NAD+ and activate SIRT1; [[SIRT1]]: SIRT1 and AMPK reciprocally activate.
+- [[SIRT3]]: Estrogen-dependent sirtuin that shapes the AMPK–sirtuin axis and female metabolic protection.
+- [[Metformin]]: AMPK activator whose efficacy and biomarkers (p-AMPK) should be interpreted sex-specifically given ~3× higher male hepatic AMPK induction.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]]., [[SASP|Senescence-Associated Secretory Phenotype]]
+- Sex-difference enrichment (2026-09-02): added male-biased hepatic AMPK induction under fructose/MASLD and the estrogen–AMPK axis in female metabolic protection.
 - Suggested new entity notes to create: [[Energy Homeostasis]], [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC-1α]]., [[mTORC1]], [[PGC-1α]]
   - Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]], [[AMPK]] ↔ SIRT1, [[AMPK]] ↔ [[Aging]], Caloric Restriction ↔ [[AMPK]]

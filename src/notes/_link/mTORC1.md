@@ -2,7 +2,7 @@
 title: mTORC1
 description: mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.
 created: 2024-01-01
-updated: 2026-07-31
+updated: 2026-09-02
 tags:
   - protein
 aliases: [mechanistic target of rapamycin complex 1, mTOR Complex 1, mTORC1]
@@ -87,6 +87,28 @@ mTORC1 is the direct target of dietary amino-acid signals, placing it at the cen
 
 > [!info] Source: [[_document_ - The-hallmarks-of-protein-and-amino-acid-restriction|The Hallmarks of Protein and Amino Acid Restriction]]
 > Among the individual essential amino acids, leucine (via mTORC1) and methionine (partially via FGF21 and methyl-donor effects) are principal drivers of the protein-restriction response. Amino-acid restriction phenotypes are often mimicked by pharmacological mTORC1 inhibition.
+
+## Sex Differences — Sex-, Muscle-, and Fed-State–Dependent mTORC1
+
+mTORC1 activation is **sexually and temporally dimorphic**, and rapamycin (the prototypical mTORC1 inhibitor) shows some of the clearest sex differences in longevity pharmacology:
+
+### Activation Patterns by Sex and Feeding State
+
+- **Fed-state dependence (Am J Physiol Regul Integr 2024):** mTORC1 activation (p70S6K1 phosphorylation) is **higher in males when fasted** but **higher in females when fed** — an inversion that must be accounted for in mTORC1 biomarker interpretation.
+- **Cardiac specificity (Gürgen, *Hypertension* 2013):** **female cardiac mTOR signaling is ERβ-specified**, while males maintain both mTORC1 and [[mTORC2]]; estrogen-receptor biology therefore shapes cardiac growth/autophagy responses.
+- **Sex-hormone-driven activation in cancer:** in KRAS-mutant pancreatic cancer, **androgen–[[Androgen Receptor|AR]] signaling drives mTORC1 activation specifically in males** (Gökduman, 2023), linking male hormonal status to mTORC1-dependent tumor aggressiveness.
+
+### Rapamycin Lifespan Effects Are Sex-Specific
+
+- **Females show greater relative lifespan extension** from rapamycin (replicated across three ITP cohorts), partly via higher blood drug levels in females (Miller, *Aging Cell* 2014; Harrison, *Nature* 2009).
+- **Dosing regimen matters:** 3-month **early-life** rapamycin exposure benefits **males only**, whereas lifetime dosing benefits both (Strong, *Aging Cell* 2020).
+
+### Caloric Restriction (a mTORC1-suppressing intervention)
+
+- ~95–96% of CR studies ignore sex; where studied, **young males get greater metabolic benefit** (*eLife* 2023), and the historic McCay 1935 CR study extended lifespan **only in males**.
+
+> [!note]
+> Because mTORC1 activity flips between the sexes with feeding state, and rapamycin's benefit is female-biased while early-life exposure is male-biased, **phase (fed/fasted) and sex must be reported** alongside any phospho-S6K1/phospho-S6 mTORC1 readout and in interpreting rapamycin/CR longevity trials.
 
 ## Pathology and Clinical Relevance
 
@@ -187,8 +209,13 @@ List of documents that mention this entity
 - [[Leucine]] — primary amino-acid activator of mTORC1; restriction suppresses it
 - [[Methionine Restriction]] — suppresses mTORC1, contributing to its benefits
 - [[Branched-Chain Amino Acids]] — BCAA restriction lowers mTORC1 signaling
+- [[Estrogen Receptor]] — female cardiac mTOR signaling is ERβ-specified; estrogens modulate mTORC1
+- [[Androgen Receptor]] — androgen–AR drives mTORC1 activation in male KRAS-mutant pancreatic cancer
+- [[Rapamycin]] — femaie-biased lifespan extension; early-life exposure benefits males only
+- [[AMPK]] — reciprocal energy sensor whose hepatic activation is male-biased
 
 ## Linking Summary
 - New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC-1α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[PI3K]], [[Akt]], [[FKBP12]], [[Protein Restriction]], [[Branched-Chain Amino Acids]], [[Methionine Restriction]]
 - Suggested new entity notes to create: [[TOR signaling]], [[Rag GTPase]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapalogs]], [[Geroprotectors]]
+  - Sex-difference enrichment (2026-09-02): added fed/fasted sex-inverted mTORC1 activation, ERβ-specified female cardiac signaling, androgen–AR male-specific activation, and rapamycin/CR sex-specific lifespan effects.
   - Strong connections to strengthen: [[mTORC1]] ↔ mTORC2, [[mTORC1]] ↔ Autophagy, [[mTORC1]] ↔ TSC2, [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]

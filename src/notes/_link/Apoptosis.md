@@ -188,6 +188,16 @@ List of documents that mention this entity
 - [[Oxidative Stress]]: One of the most common physiological triggers for apoptosis.
 - [[Senescence]]: An alternative fate to apoptosis for damaged cells.
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
+- [[Caspases]] — executioner proteases that execute the mitochondrial/extrinsic death programs; the female-preferred death effectors in the sex-difference framework
+- [[PARP1]] — the male-preferred death effector; XY cells die via PARP-1/AIF-dependent necrosis rather than caspases
+- [[p53]] — sex-hormone-regulated switch between the senescence and apoptosis arms (4 ERα elements; see Sex Differences)
+- [[Bcl-2]] — estrogen-driven anti-apoptotic setpoint; the molecular basis of female apoptotic resistance
+
+## Linking Summary (Sex Differences — Cell-Death Cross-Link, 2026-09-02)
+
+- **Unified sex-difference cell-death framework** cross-referenced across [[Apoptosis]] ↔ [[Caspases]] ↔ [[p53]] ↔ [[Bcl-2]] and linked to the PARP-1/NAD⁺ axis via [[NAD+]].
+- Cross-links added: [[Caspases]], [[PARP1]], [[p53]], [[Bcl-2]].
+- Strong connections to strengthen: [[Apoptosis]] ↔ [[Caspases]] (XX-caspase arm), [[Apoptosis]] ↔ [[PARP1]] (XY-necrosis arm), [[Apoptosis]] ↔ [[p53]] (senescence-vs-apoptosis sex decision), [[Apoptosis]] ↔ [[Bcl-2]] (estrogen setpoint).
 
 ## Linking Summary
 - New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].

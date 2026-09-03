@@ -5,7 +5,7 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-08-31
+updated: 2026-09-02
 protected: true
 tags:
   - gene
@@ -484,6 +484,28 @@ SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of 
 
 In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into nuclear adaptive responses. SIRT1 activity is potentiated by Mitohormetic Redox-Relay molecules, including [[NAD+]] as a sentinel of energetic stress. The SIRT1-PGC1α axis coordinates the antioxidant and mitochondrial biogenesis programs that define the mitohormetic phenotype. [[Caloric Restriction]] extends lifespan in part through SIRT1 activation, and SIRT1 overexpression extends healthspan in rodent models. SIRT1-mediated deacetylation of [[p53]] and [[FOXO]] factors suppresses apoptosis in favor of repair and stress resistance, a trade-off that is beneficial under mild stress but may promote tumorigenesis under chronic activation. The age-related decline in NAD⁺ levels and consequent SIRT1 hypoactivity is hypothesized to be a key driver of mitochondrial dysfunction, [[Inflammation|inflammaging]], and loss of proteostasis in aging tissues.
 
+## Sex Differences — The Estrogen–Sirtuin Hub
+
+> [!important] Estrogen is a shared transcriptional regulator of the SIRT1/3/6 axis
+> SIRT1, [[SIRT3]], and [[SIRT6]] form an **estrogen–sirtuin hub**: estrogen (E₂) via ERα/β upregulates SIRT1 and drives the mitochondrial import/expression of SIRT3, giving premenopausal females higher sirtuin reserve. This hub is dismantled at menopause ("estrogen cliff"), a shared inflection point that accelerates female [[Inflammaging]], [[SASP]] burden, and metabolic/cardiac aging. SIRT6 sits on the mirror side of the hub — its lifespan effects are strongest in males, making the family's sex bias a complementary, nutrient-dependent spectrum rather than a uniform female advantage.
+
+### E₂→ER→SIRT1 Transcriptional Axis
+
+- Estrogen acts through ERα/β response elements to sustain SIRT1 expression; premenopausal females maintain higher SIRT1 pools, while men show a more pronounced SIRT1 decline from young-adult to mid-late age (same age-stratified kinetics described in [[SIRT3]]).
+- The female SIRT1-SIRT3 advantage is coordinated: SIRT1 (nuclear/cytosolic) and SIRT3 (mitochondrial) both respond to the same estrogen-dependent transcriptional program, so the hub operates as a single redox-defense unit spanning compartment boundaries.
+- E₂ also stabilizes [[PARP1]] on DNA, sparing NAD⁺ (see [[NAD+]]), sustaining the NAD⁺-gated activity of the whole hub into midlife in females.
+
+### The Male Mirror (SIRT6)
+
+- Unlike SIRT1/SIRT3, [[SIRT6]]'s lifespan-extension effect is male-strong (Roichman *Nat Commun* 2021: males ~27% vs females ~15%) and its human longevity polymorphism (rs117385980) was first described in Finnish males. The male-biased, IGF-1-suppressing SIRT6 arm is thus the complement to the estrogen-driven female SIRT1/SIRT3 arm.
+
+### The "Estrogen Cliff" — Post-Menopausal Derepression
+
+> [!warning] Menopause collapses the sirtuin hub
+> After menopause, loss of estrogen removes SIRT1/SIRT3 transcriptional support and derepresses [[NF-κB]] and [[cGAS-STING Pathway|cGAS–STING]], amplifying the [[SASP]] and [[Inflammaging]]. This post-menopausal acceleration (the "estrogen cliff") is cross-referenced across [[SIRT3]], [[NAD+]], [[NF-κB]], [[SASP]], [[Inflammaging]], [[Telomere]], and [[Bcl-2]] as a shared female inflection point.
+
+- Since SIRT1 activity is NAD⁺-gated, the male PARP-driven NAD⁺ decline and the female post-menopausal sirtuin hub collapse converge on the same downstream deficits (impaired FOXO/MnSOD antioxidant programs, unchecked NF-κB inflammation), even though they originate from opposite sex-hormonal logic — see the unified framework in [[NAD+]] and [[NF-κB]].
+
 ---
 
 ### Merged from notes/autophagy/SIRT1.md
@@ -520,3 +542,9 @@ Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transc
 - New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Pancreatitis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Epilepsy]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Diabetic Kidney Disease]], [[Diabetic Neuropathy]], [[Diabetic Retinopathy]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[PCOS]], [[Endometriosis]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
 - Suggested new entity notes to create: [[Diabetic Kidney Disease]], [[Diabetic Cardiomyopathy]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[PCOS]], [[Endometriosis]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Breast Cancer]], [[SIRT1]] ↔ [[Alzheimer's Disease]], [[SIRT1]] ↔ [[Diabetes Mellitus]], [[SIRT1]] ↔ [[Cardiac Hypertrophy]], [[SIRT1]] ↔ [[COPD]]
+
+## Linking Summary (Sex Differences — Estrogen–Sirtuin Hub, 2026-09-02)
+
+- **New Sex Differences section** added establishing SIRT1 as the hub of the estrogen–sirtuin axis (`E₂→ER→SIRT1`), the male-mirror [[SIRT6]] arm, and the post-menopausal "estrogen cliff" that collapses the hub.
+- Cross-links added: [[SIRT3]], [[SIRT6]], [[NAD+]], [[NF-κB]], [[cGAS-STING Pathway]], [[SASP]], [[Inflammaging]], [[Telomere]], [[Bcl-2]], [[PARP1]].
+- Strong connections to strengthen: [[SIRT1]] ↔ [[SIRT3]] (shared estrogen program), [[SIRT1]] ↔ [[SIRT6]] (complementary sex bias), [[SIRT1]] ↔ [[NAD+]] (PARP-1 sex divergence relevance).

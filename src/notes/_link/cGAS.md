@@ -2,7 +2,7 @@
 title: cGAS
 description: Cyclic GMP-AMP synthase that senses cytosolic DNA to activate the cGAS-STING innate immune pathway, linking genome stress, senescence, and inflammaging.
 created: 2026-07-09
-updated: 2026-07-13
+updated: 2026-09-02
 tags:
   - protein
   - enzyme
@@ -86,3 +86,8 @@ Microglia are the dominant source of cGAS in the diseased brain. Tau, [[Amyloid 
   - New links added: [[Intrinsically Disordered Region]], [[Liquid-Liquid Phase Separation]], [[Nucleosome]], [[Barrier-to-Autointegration Factor 1]], [[PARP1]], [[Homologous Recombination]], [[Naked Mole Rat]], [[DNA Repair]], [[RNA-Binding Proteins]], [[G3BP1]], [[PQBP1]], [[SWI-SNF Complex]], [[Spliceosome]], [[Tau]], [[Tauopathy]], [[Amyloid Beta]], [[Alpha-synuclein]], [[TDP-43]], [[Huntingtin]], [[Type I Interferon]], [[Neuroinflammation]], [[Microglia]], [[MEF2C]], [[APOE3 Christchurch]]
   - Suggested new entity notes to create: [[cGAMP]], [[cGAS Inhibitors]]
   - Strong connections to strengthen: [[cGAS]] ↔ [[Microglia]], [[cGAS]] ↔ [[Neuroinflammation]], [[cGAS]] ↔ [[PQBP1]], [[cGAS]] ↔ [[Tauopathy]]
+
+## Sex Differences — Cross-Link Note (2026-09-02)
+
+- cGAS is the **DNA sensor upstream** of the sex-sensitive [[cGAS-STING Pathway|cGAS–STING→SASP]] cascade. The sex-regulatory node is [[STING]], which estrogen directly suppresses via [[Estrogen Receptor|ERα]]–[[HDAC3]] promoter deacetylation — making cGAS-initiated sterile inflammation a **sex-biased amplifier** (higher cGAS/STING activity in aged males; post-menopausal STING derepression in females).
+- See [[STING]], [[SASP]], and [[Inflammaging]] for the full cGAS–STING↔SASP↔sex axis and the "estrogen cliff" framework.

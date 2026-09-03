@@ -91,6 +91,14 @@ A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dy
 - **NAD+ precursor supplementation** (NMN, NR) may need sex-specific dosing: males may benefit more from PARP-1 inhibitors to slow NAD+ consumption, while females may benefit more from CD38 inhibitors to prevent ovarian/residual NAD+ decline.
 - Post-menopausal women face a "double decline" — hormonal shifts compounding age-related NAD+ changes — making them potentially the most responsive population for NAD+ restoration strategies.
 
+### Cross-Link: NAD+ ↔ PARP-1 ↔ Sex (Telomere & Apoptosis)
+
+> [!info] One metabolic currency, two sex-divergent death/aging fates
+> NAD+ links the vault's sex-difference frameworks: the [[PARP1]]-driven, male-preferential NAD+ consumption engine feeds both the XY-necrosis arm of cell death (see [[Apoptosis]] and [[Caspases]]) and the male-faster telomere attrition / DNA-damage burden (see [[Telomere]]). Estrogen, by stabilizing PARP-1, spares NAD+ in females — protecting sirtuins ([[SIRT1]]/[[SIRT3]]) into midlife while channeling female cell death through the less-energetically-costly, NAD+-sparing [[Caspases]] arm.
+
+- **NAD+ ↔ Apoptosis:** male PARP-1 overactivation depletes NAD+ → energetic collapse → AIF-mediated necrosis; females use the NAD+-sparing caspase pathway (McCullough et al., 2005; see [[Apoptosis]], [[Caspases]]).
+- **NAD+ ↔ Telomere:** PARP-1 consumption of NAD+ during DNA repair is higher in males (cf. female telomere maintenance advantage via DKC1/E₂→TERT) — see the "estrogen cliff" and telomere-parity framework in [[Telomere]].
+
 ## Biosynthesis
 
 NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside|NR]], [[Nicotinamide Mononucleotide|NMN]]) via the [[Preiss-Handler pathway]] and salvage pathway involving [[NAMPT]].
@@ -156,7 +164,11 @@ List of documents that mention this entity
 - [[BMAL1]]: BMAL1/CLOCK drive rhythmic NAD+ and SIRT1 activation.
 - [[Complex I]]: Oxidizes NADH to regenerate NAD+ in mitochondria; inhibition depletes NAD+ and collapses the TCA cycle.
 - [[TCA cycle]]: NAD+ is the obligate co-substrate for TCA dehydrogenases; Complex I-dependent regeneration sustains cycle function.
-- [[MYC]]: MYC^high^ cells depend on Complex I-regenerated NAD+ for glutamine-fueled TCA cycle.## Additional Content from Topic Directory
+- [[MYC]]: MYC^high^ cells depend on Complex I-regenerated NAD+ for glutamine-fueled TCA cycle.
+- [[Telomere]]: male-higher PARP-driven NAD+ consumption couples to faster telomere attrition / DNA-damage burden
+- [[Apoptosis]]: male PARP-1 hyperactivation depletes NAD+ → energetic collapse → necrosis; females channel death via NAD+-sparing caspases
+- [[Caspases]]: the NAD+-sparing female death effectors, opposed to the male [[PARP1]] arm
+- [[SIRT1]]: NAD+-gated hub that collapses at the female "estrogen cliff" and after the male PARP-driven decline## Additional Content from Topic Directory
 
 **[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[Metabolism]] and serves as a vital signaling molecule for various biological processes.
 
@@ -178,7 +190,15 @@ NAD+ levels naturally decline with age. This decline is linked to:
 - New links added: [[Sirtuins]], [[Caloric Restriction]], [[Vitamin B3]], [[DNA Repair]], [[Resveratrol]], [[Metabolism]], [[Aging]], [[Inflammation]], [[Mitochondria]], [[OAADPr]], [[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
 - Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[CD38]], [[NAD+/NADH Ratio]], [[Preiss-Handler pathway]]
 - New links added: [[Metabolism]], [[Sirtuins]], [[SIRT1]], [[SIRT6]], [[DNA Repair]], [[Aging]], [[Inflammation]]
-- Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]## Role in Sirtuin Biology
+- Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]
+
+## Linking Summary (Sex Differences — NAD+ ↔ PARP-1 ↔ Sex Cross-Link, 2026-09-02)
+
+- **Cross-link note** added connecting the NAD+ sex-difference framework to [[Telomere]], [[Apoptosis]], [[Caspases]], [[PARP1]], and [[SIRT1]]: male PARP-driven NAD+ consumption feeds both the XY-necrosis death arm and faster telomere attrition, while estrogen-stabilized PARP-1 spares NAD+ in females.
+- Cross-links added: [[Telomere]], [[Apoptosis]], [[Caspases]], [[SIRT1]], [[PARP1]].
+- Strong connections to strengthen: [[NAD+]] ↔ [[PARP1]] (male consumption engine), [[NAD+]] ↔ [[Apoptosis]], [[NAD+]] ↔ [[Telomere]], [[NAD+]] ↔ [[SIRT1]] (estrogen cliff).
+
+## Role in Sirtuin Biology
 
 ### Obligatory Co-Substrate
 All sirtuins — from bacterial CobB to all seven mammalian sirtuins ([[SIRT1]]–[[SIRT7]]) — absolutely require NAD⁺ to catalyse their reactions. The deacetylation reaction is:

@@ -156,6 +156,10 @@ A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5*
 - In MEFs, SIRT3 drives sex-specific responses to age-related changes: female MEFs exhibited enhanced SIRT3 KO-induced senescence after etoposide treatment compared to males (*Mech Ageing Dev*, 2024).
 - SIRT3 acts as a mitochondrial tumor suppressor required for maintenance of mitochondrial integrity during stress — with potentially greater importance in females given their higher baseline SIRT3 expression.
 
+### Cross-Link: The Estrogen–Sirtuin Hub
+
+- SIRT3 is the **female-biased mitochondrial arm** of the estrogen–sirtuin hub (see [[SIRT1]]), mirroring the **male-biased [[SIRT6]]** nuclear/chromatin arm. Estrogen (E₂→ERα/β) transcriptionally sustains both SIRT1 (nuclear/cytosolic) and SIRT3 (mitochondrial) as one coordinated redox-defense program; at menopause the hub collapses, derepressing [[NF-κB]] and [[cGAS-STING Pathway|cGAS–STING]] and amplifying [[SASP]]/[[Inflammaging]] — the "estrogen cliff" shared with [[NAD+]], [[NF-κB]], [[SASP]], [[Inflammaging]], [[Telomere]], and [[Bcl-2]].
+
 ## Cancer — Dual (Janus) Roles
 
 SIRT3 has a well-established **dual role** in cancer: it acts as a tumor suppressor in many contexts (via ROS suppression, HIF-1α destabilization, SOD2/IDH2 activation) but functions as an **oncogene** in others, particularly through [[Post-translational Modification|post-translational modification]] of metabolic enzymes and stress-response proteins.

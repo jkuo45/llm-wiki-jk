@@ -3,7 +3,7 @@ title: Autophagy
 description: Cellular degradation pathway that delivers cytoplasmic material to lysosomes
   for recycling; maintains energy homeostasis and quality control.
 created: 2026-07-04
-updated: 2026-07-22
+updated: 2026-09-02
 tags:
   - biological-process
   - lysosome
@@ -118,6 +118,9 @@ List of documents that mention this entity
 - [[mTOR]]: Downstream target of Akt that inhibits autophagy when active.
 - [[Apoptosis]]: Autophagy and apoptosis often exhibit cross-talk in cancer cells.
 - **[[AMPK]]**: The master positive regulator of autophagy in response to low energy.
+- **[[Apoptosis]]**: Autophagy is coupled to sex-specific cell death — males use canonical Beclin-1/LC3 autophagy, females an ATG7-dependent route.
+- **[[mTORC1]]**: Sex- and fed-state-dependent; estrogen suppresses autophagy in ischemic neurons via mTOR–ULK1.
+- **[[NF-κB]]**: male-biased inflammatory load intersects lower mitochondrial-DNA clearance in aging.
 - **[[Senescence]]**: Dysfunctional autophagy is a hallmark and driver of the senescent phenotype.
 - [[Lysosomal Biogenesis]] ↔ TFEB-driven process that expands autophagic capacity.
 - [[Ubiquitin-Proteasome System]] ↔ Complementary protein degradation pathway.
@@ -306,6 +309,30 @@ Autophagy is a "double-edged sword": suppresses early tumorigenesis but supports
 
 Aging-associated [[DNA Methylation]] and [[Histone Modification]] repress autophagy genes (e.g., _Atg5_, _LC3B_, _Beclin1_). [[SIRT1]] deacetylates H4K16 to promote autophagy gene expression.
 
+## Sex Differences — Death-Pathway Coupling of Autophagy
+
+Autophagy is not sex-neutral: it is **coupled to the sex-specific cell-death pathways** (see [[Apoptosis]]) and shows clear sexual dimorphism:
+
+### Sex-Specific Autophagy Induction
+
+- **Male neurons** undergo autophagy more readily and die under starvation/oxygen-glucose deprivation (OGD); **female neurons** mobilize fatty acids and depend less on autophagy (Du et al., *J Biol Chem* 2009).
+- **After stroke:** males rapidly induce **canonical autophagy** (Beclin-1↑, LC3-II↑, p62↓); females use a **Beclin-1-independent (ATG7-dependent) route** (Patrizz et al., *Cells* 2021).
+- Males show **higher basal Beclin-1/LC3** in cardiac tissue (Oliván et al., 2014).
+
+### Estrogen Is Bidirectional
+
+- **Suppresses autophagy in ischemic neurons** (via mTOR–ULK1), limiting autophagic cell death in females.
+- **Promotes prosurvival autophagy in ER+ [[Breast Cancer]]**, driving anti-estrogen resistance — the same hormone acting in opposite directions by tissue and disease context.
+
+### Disease-Specific Examples
+
+- **Stroke:** male neurons die via PARP-1/AIF necrosis, females via caspases; the autophagy coupling means minocycline (which modulates this axis) benefits only male patients clinically.
+- **MASLD/NAFLD:** male-specific susceptibility via persistent [[mTORC1]] → *Lpin1*, intersecting sex-dimorphic hepatic [[AMPK]].
+- **Alzheimer's:** female vulnerability linked to autophagy differences; male astrocytes show enriched apoptotic pathways while females show Wnt/cell-cycle alterations.
+
+> [!note]
+> Because males and females use **different molecular machinery for autophagy** (canonical Beclin-1/LC3 vs ATG7-dependent alternative), autophagy-modulating therapies ([[Rapamycin]], [[Metformin]], [[Spermidine]]) and the interpretation of p62/LC3 autophagy biomarkers must be sex-stratified.
+
 ## Additional Content from Topic Directory
 
 # Autophagy
@@ -446,3 +473,8 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
 
+
+## Sex-Difference Enrichment (2026-09-02)
+
+- Added sex-specific death-pathway coupling: male canonical Beclin-1/LC3 autophagy vs female ATG7-dependent alternative; higher male basal Beclin-1/LC3 in heart; estrogen bidirectionality (suppresses neuronal autophagy via mTOR–ULK1, promotes prosurvival autophagy in ER+ [[Breast Cancer]]); disease-specific examples in stroke, MASLD, and Alzheimer's.
+- Cross-links strengthened: [[Autophagy]] ↔ [[Apoptosis]], [[Autophagy]] ↔ [[mTORC1]], [[Autophagy]] ↔ [[NF-κB]].

@@ -4,7 +4,7 @@ description: Inflammaging is a state of chronic, low-grade, systemic inflammatio
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
 created: 2026-05-29
-updated: 2026-07-26
+updated: 2026-09-02
 tags:
   - biological-process
 aliases: []
@@ -54,6 +54,23 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 - In stem cell compartments, impaired Ca²⁺ buffering erodes quiescence and biases premature differentiation/senescence
 - The resulting inflammatory milieu remodels the niche and entrenches chronic low-grade inflammation
 
+## Sex Differences — The Estrogen–NF-κB–SASP Axis and the "Estrogen Cliff"
+
+> [!important] Estrogen is a female-specific brake on inflammaging
+> Inflammaging is strongly sex-dimorphic. Estrogen (E₂) suppresses the master inflammatory transcription factor [[NF-κB]] via ERβ (upregulating its inhibitor [[IκBα]] and reducing p65 promoter binding), thereby repressing the [[SASP]] it drives. Males carry a higher basal inflammatory burden through most of life; females are protected premenopausally, then experience a sharp post-menopausal inflammatory acceleration — the **"estrogen cliff"** — that re-aligns their inflammaging trajectory with (and often beyond) males'.
+
+### Estrogen–NF-κB Suppression
+
+- E₂→ERβ raises [[IκBα]] and lowers NF-κB p65 binding at pro-inflammatory promoters, directly dampening the [[SASP]] and systemic [[Cytokines|cytokine]] output (Giroux et al., *PLoS ONE* 2012; see [[NF-κB]]).
+- Estrogen also suppresses [[cGAS-STING Pathway|cGAS–STING]] signaling via ERα–HDAC3 deacetylation of the STING promoter (see [[SASP]], [[STING]]), cutting off a second inflammaging-amplifying loop.
+
+### The Post-Menopausal Acceleration ("Estrogen Cliff")
+
+> [!warning] Menopause derepresses both NF-κB and cGAS–STING
+> Loss of estrogen at menopause derepresses NF-κB and STING simultaneously, amplifying [[SASP]] and Type I interferon output. This post-menopausal inflammatory acceleration is a shared female inflection point cross-referenced across [[NF-κB]], [[SASP]], [[SIRT1]], [[SIRT3]], [[NAD+]], [[Telomere]], and [[Bcl-2]].
+
+- Post-menopausal estrogen replacement (e.g., the KEEPS trial) reduced circulating SASP/senescence biomarkers (GDF15, TNFR1, FAS), supporting estrogen's repressive role in vivo (Raz et al., *Physiol Rep* 2020).
+- The sex-disparate onset of age-related inflammatory diseases (cardiovascular, neurodegenerative) converges on this cliff: males get there earlier via a higher PARP-driven NAD⁺ drain and basal NF-κB tone (see [[NAD+]]); females arrive via estrogen withdrawal.
 
 #
 
@@ -130,7 +147,19 @@ List of documents that mention this entity
 - [[Mitochondria-Associated Membranes]] — MERC Ca²⁺ dysregulation amplifies ROS and inflammaging
 - [[Stem Cells]] — Mitochondrial dysfunction in stem cells couples to inflammaging via niche remodeling
 - [[Damage-Associated Molecular Patterns]] — mtDAMPs activate innate immune sensors
+- [[IκBα]] — estrogen-upregulated NF-κB inhibitor; mediates female anti-inflammatory protection
+- [[STING]] — estrogen suppresses STING transcription via ERα–HDAC3; derepressed post-menopause
+- [[SIRT1]] — NAD+-dependent anti-inflammatory hub, estrogen-sustained; collapses at the estrogen cliff
+- [[SIRT3]] — female-biased redox sirtuin coupled to the same estrogen program
+- [[Bcl-2]] — estrogen-driven anti-apoptotic/pro-inflammatory-neutral mediator of the sex-dimorphic stress response
+- [[Telomere]] — sex-dimorphic attrition interlinked with PARP-driven NAD⁺ and inflammatory burden
 ## Linking Summary
 - New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1β]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
   - Strong connections to strengthen: [[Inflammaging]] ↔ Cellular Senescence, [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]
+
+## Linking Summary (Sex Differences — Estrogen–NF-κB–SASP Axis, 2026-09-02)
+
+- **New Sex Differences section** added framing inflammation as sex-dimorphic, with the estrogen→NF-κB/cGAS-STING suppression axis and the post-menopausal "estrogen cliff" acceleration framework.
+- Cross-links added: [[NF-κB]], [[IκBα]], [[SASP]], [[cGAS-STING Pathway]], [[STING]], [[SIRT1]], [[SIRT3]], [[NAD+]], [[Bcl-2]], [[Telomere]].
+- Strong connections to strengthen: [[Inflammaging]] ↔ [[NF-κB]] (estrogen suppression), [[Inflammaging]] ↔ [[SASP]] (derepression at menopause), [[Inflammaging]] ↔ [[SIRT1]] (estrogen cliff hub).

@@ -4,7 +4,7 @@ description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classi
   in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
   a "longevity gene," SIRT6 serves as an essent...
 created: 2026-07-02
-updated: 2026-08-11
+updated: 2026-09-02
 tags:
   - protein
   - nad-plus
@@ -117,6 +117,18 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) reports:
 
 - **Lifespan extension:** whole-body SIRT6 overexpression extends median lifespan of male mice by **14.5% and 9.9%** in two independent strains, with no significant effect in females. The male-specific benefit tracks reduced serum [[IGF1|IGF-1]] and downstream IIS; male transgenics also show protection against lung tumors and preservation of glucose tolerance with age.
+
+### Sex Differences in Lifespan Extension
+
+SIRT6 is best described as a **male-dominant** longevity gene whose sex dependence is strain- and background-specific:
+
+- **Original finding (mixed-CB6 background; Kanfi et al., *Nature* 2012):** whole-body SIRT6 overexpression extended median lifespan **only in males** (14.5% and 9.9% in two strains), with no significant effect in females. The male-specific benefit co-segregated with reduced serum [[IGF1|IGF-1]] and lower downstream [[Insulin/IGF-1 Signaling|IIS]].
+- **Update (Roichman et al., *Nat Commun* 2021; PMID 34050173):** in the separate inbred C57BL/6JOlaHsd background, SIRT6 overexpression extended lifespan **in both sexes** — 27% (male) and 15% (female) median extension — while still leaving males relatively more responsive. The authors attribute the residual sex difference to the lower baseline IGF-1 in females: since female WT IGF-1 is already low, further SIRT6-driven suppression produces less additive benefit; improved weight maintenance contributed to the female effect.
+- **Human genetics (Hirvonen et al., *BMC Med Genet* 2017; PMID 28399814):** the SIRT6 intronic polymorphism **rs117385980** is associated with longevity and healthy aging in **Finnish men**, contributing male-specific genetic evidence.
+- **SIRT6 and female biology:** SIRT6's role in stabilizing estrogen receptor alpha (ERα) in preosteoblastic cells (see §6.6 bone) illustrates an estrogen-relevant axis, although direct data on sex bias in SIRT6's cardiac/anti-fibrotic effects remain sparse. This is part of the broader estrogen–sirtuin hub (see [[SIRT1]], [[SIRT3]]).
+
+> [!note]
+> The message across studies is consistent: SIRT6 benefits **both** sexes, but the **magnitude and reproducibility of the effect are strongest in males**, and the mechanism (IGF-1 suppression) is gated by baseline sex-hormonal status. This is the mirror image of SIRT3 (see [[SIRT3]]), whose estrogen-dependent expression favors female biology.
 - **Loss-of-function:** germline *Sirt6* deletion causes progressive lethal hypoglycemia, lymphopenia, and genomic instability by ~4 weeks; glucose-supplemented outbred knockouts can survive to ~1 year.
 - **Enzymatic targets:** deacetylation of [[H3K9ac|H3K9Ac]], [[H3K56ac|H3K56Ac]], [[CtIP]], and [[GCN5]]; mono-ADP-ribosylation activates [[PARP1]]; long-chain deacylation promotes [[TNFα]] secretion; SIRT6/SIR-2.4 support stress granules.
 - **Metabolism:** SIRT6 suppresses [[HIF-1α]] to support mitochondrial respiration and inhibits [[Gluconeogenesis|gluconeogenesis]] via [[PGC-1α]]; hepatic SIRT6 loss causes steatosis and derepression of [[SREBP2]]/[[SREBP-1c|SREBP1]].
@@ -215,6 +227,8 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[c-Jun]]** — co-repressed by SIRT6 at chromatin to inhibit IGF-AKT hypertrophic signaling.
 - **[[Survivin]]** — repressed by SIRT6 (H3K9Ac deacetylation at its promoter) during cancer initiation.
 - **[[IGF1]]** — serum IGF-1 lowered by SIRT6 overexpression, underlying male-specific lifespan extension.
+- **Sex differences** — SIRT6 lifespan extension is strongest/earliest in males (Kanfi 2012) but becomes sex-independent in some backgrounds (Roichman 2021), gated by baseline IGF-1.
+- **[[SIRT3]]** — the estrogen-dependent mitochondrial sirtuin, representing the complementary female-biased arm of the sirtuin family.
 - **[[Vimentin]]** — interacts with SIRT6's C-terminal IDR; N308K mutation weakens binding, elevating SIRT6 levels.
 - **[[USP10]]** — deubiquitinating enzyme that stabilizes SIRT6; centenarian variant effect is USP10-independent.
 - **[[Fucoidan]]** — SIRT6 activator that mimics centenarian variant effects (elevates SIRT6, enhances mADPr activity).
@@ -242,6 +256,7 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NF-κB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
 - **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 - **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- **Sex-difference enrichment (2026-09-02):** added Roichman *Nat Commun* 2021 (both-sex benefit, male-strong), Hirvonen *BMC Med Genet* 2017 Finnish male polymorphism rs117385980, and the estrogen–SIRT6 cross-axes to [[SIRT1]]/[[SIRT3]].
 
 ## Linking Summary (Disease Landscape)
 

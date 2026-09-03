@@ -18,7 +18,7 @@ Sex and gender are among the most pervasive yet under-documented biological vari
 
 The overarching pattern is that **estrogen acts as a master sex-difference mediator** across nearly every pathway in the vault — sirtuins, MnSOD, NF-κB, STING, telomerase, p53, Bcl-2, and autophagy. Its loss at menopause represents a systems-level inflection point where female protective advantages erode, creating a "double hit" of aging that is absent in males.
 
-**Vault Enrichment Status (2026-09-02):** Seven Priority 1 entity notes have been enriched with Sex Differences sections: [[MnSOD]], [[p53]], [[Apoptosis]], [[NAD+]], [[SASP]], [[SIRT3]], and [[Caspases]] (covered via [[Apoptosis]]). Twelve Priority 2 entities remain for future enrichment (see §XI). The p53-sex differences research was conducted as a deep-dive sub-report and is partially captured in the enriched entity notes and this document.
+**Vault Enrichment Status (2026-09-02):** Seven Priority 1 entity notes have been enriched with Sex Differences sections: [[MnSOD]], [[p53]], [[Apoptosis]], [[NAD+]], [[SASP]], [[SIRT3]], and [[Caspases]] (covered via [[Apoptosis]]). All eleven Priority 2 entities listed in §XI have now also been enriched with Sex Differences sections: [[Senescence]], [[Senolytics]], [[NF-κB]], [[Telomere]], [[Autophagy]], [[mTORC1]], [[AMPK]], [[SIRT6]], [[Bcl-2]], [[Breast Cancer]], and [[Prostate Cancer]]. Companion hub notes ([[Cellular Senescence]], [[Senolytic]], [[Telomere Attrition]]) received cross-referencing sex-difference notes. **All six §XI Priority 3 cross-link and context actions are now complete (2026-09-02):** (1) estrogen–sirtuin hub cross-linked across [[SIRT1]]/[[SIRT3]]/[[SIRT6]]; (2) sex-specific cell death unified framework across [[Apoptosis]]↔[[Caspases]]↔[[p53]]↔[[Bcl-2]]; (3) NAD+↔[[PARP1]]↔sex linked across [[NAD+]]↔[[Telomere]]↔[[Apoptosis]]; (4) NF-κB↔SASP↔estrogen with a new Sex Differences section in [[Inflammaging]]; (5) cGAS-STING↔SASP↔sex with new Sex Differences notes in [[STING]] and [[cGAS]]; (6) the post-menopausal "estrogen cliff" cross-referenced across all affected notes. The p53-sex differences research was conducted as a deep-dive sub-report and is partially captured in the enriched entity notes and this document. (Note: the earlier header referenced "Twelve" Priority 2 entities; the §XI table enumerates eleven, all now complete.)
 
 ---
 
@@ -414,32 +414,32 @@ This **systems-level inflection** is the mechanistic basis for the post-menopaus
 | **SASP** | Near-zero sex discussion | Add "Sex Differences" section: estrogen–NF-κB suppression, sex-specific SASP composition, male-biased SASP burden | ✅ Added to [[SASP]] |
 | **SIRT3** | Missing estrogen mechanism | Add E2→ERα→SIRT3 expression/mitochondrial targeting; female translational efficiency; post-menopausal decline | ✅ Added to [[SIRT3]] |
 
-### Priority 2 — Important Gaps
+### Priority 2 — Important Gaps (✅ Completed 2026-09-02)
 
-| Entity | Gap | Recommendation |
-|--------|-----|----------------|
-| **Senescence** | Zero sex discussion | Add section on p16 vs p21 sex-specific arm dominance; female p16+ clearance benefit; male earlier senescence onset |
-| **Senolytics** | Zero sex discussion | Add sex-dependent efficacy note: D+Q female-biased benefit; fisetin male-biased; no navitoclax sex data |
-| **NF-κB** | Zero sex discussion | Add section on estrogen–ERβ–NF-κB axis; IκBα upregulation; post-menopausal NF-κB derepression |
-| **Telomere** | Zero sex discussion | Add "Sex Differences" section: female advantage mechanisms (DKC1, E2→TERT, antioxidant), attrition rates, paradox in premenopausal women |
-| **Autophagy** | Zero sex discussion | Add section on sex-specific death-pathway coupling (males: Beclin-1/canonical; females: ATG7/alternative); estrogen bidirectionality |
-| **mTORC1** | Zero sex discussion | Add note on sex-specific activation patterns; ERβ specification in female heart; rapamycin sex differences |
-| **AMPK** | Zero sex discussion | Add note on male-biased hepatic activation; estrogen–AMPK in females |
-| **SIRT6** | Missing Roichman 2021 | Add both-sex benefit (males still stronger); Finnish male-specific longevity polymorphism |
-| **Bcl-2** | Zero sex discussion | Add estrogen–Bcl-2 neuroprotection axis; sex-specific Bcl-2/Bax in disease contexts |
-| **Breast Cancer** | Sex discussed only in passing | Elaborate on ERα biology, sex-specific treatment resistance, subtype-specific sex differences |
-| **Prostate Cancer** | Sex discussed only in passing | Add note on AR signaling as paradigm of male-specific cancer biology; cross-link with androgen–mTORC1 |
+| Entity | Gap | Recommendation | Status |
+|--------|-----|----------------|--------|
+| **Senescence** | Zero sex discussion | Add section on p16 vs p21 sex-specific arm dominance; female p16+ clearance benefit; male earlier senescence onset | ✅ Added to [[Senescence]] (+ [[Cellular Senescence]]) |
+| **Senolytics** | Zero sex discussion | Add sex-dependent efficacy note: D+Q female-biased benefit; fisetin male-biased; no navitoclax sex data | ✅ Added to [[Senolytics]] (+ [[Senolytic]]) |
+| **NF-κB** | Zero sex discussion | Add section on estrogen–ERβ–NF-κB axis; IκBα upregulation; post-menopausal NF-κB derepression | ✅ Added to [[NF-κB]] |
+| **Telomere** | Zero sex discussion | Add "Sex Differences" section: female advantage mechanisms (DKC1, E2→TERT, antioxidant), attrition rates, paradox in premenopausal women | ✅ Added to [[Telomere]] (+ [[Telomere Attrition]]) |
+| **Autophagy** | Zero sex discussion | Add section on sex-specific death-pathway coupling (males: Beclin-1/canonical; females: ATG7/alternative); estrogen bidirectionality | ✅ Added to [[Autophagy]] |
+| **mTORC1** | Zero sex discussion | Add note on sex-specific activation patterns; ERβ specification in female heart; rapamycin sex differences | ✅ Added to [[mTORC1]] |
+| **AMPK** | Zero sex discussion | Add note on male-biased hepatic activation; estrogen–AMPK in females | ✅ Added to [[AMPK]] |
+| **SIRT6** | Missing Roichman 2021 | Add both-sex benefit (males still stronger); Finnish male-specific longevity polymorphism | ✅ Added to [[SIRT6]] |
+| **Bcl-2** | Zero sex discussion | Add estrogen–Bcl-2 neuroprotection axis; sex-specific Bcl-2/Bax in disease contexts | ✅ Added to [[Bcl-2]] |
+| **Breast Cancer** | Sex discussed only in passing | Elaborate on ERα biology, sex-specific treatment resistance, subtype-specific sex differences | ✅ Added to [[Breast Cancer]] |
+| **Prostate Cancer** | Sex discussed only in passing | Add note on AR signaling as paradigm of male-specific cancer biology; cross-link with androgen–mTORC1 | ✅ Added to [[Prostate Cancer]] |
 
-### Priority 3 — Cross-Links and Context
+### Priority 3 — Cross-Links and Context ✅ Completed 2026-09-02
 
-| Action | Details |
-|--------|---------|
-| **Create estrogen–sirtuin cross-link** | Connect estrogen→SIRT1/3/6 axis across SIRT1.md, SIRT3.md, SIRT6.md |
-| **Create sex-specific cell death cross-link** | Connect Apoptosis.md ↔ Caspases.md ↔ p53.md ↔ Bcl-2 family notes with unified sex-difference framework |
-| **Cross-link NAD+ ↔ PARP-1 ↔ sex** | Connect NAD+.md ↔ Telomere.md ↔ Apoptosis.md with PARP-1 sex-divergence |
-| **Cross-link NF-κB ↔ SASP ↔ estrogen** | Connect NF-κB.md ↔ SASP.md ↔ Inflammaging.md with estrogen suppression axis |
-| **Cross-link cGAS-STING ↔ SASP ↔ sex** | Connect cGAS-STING in senescence notes with estrogen–STING suppression |
-| **Add post-menopausal acceleration framework** | The "estrogen cliff" concept should be cross-referenced across all affected notes |
+| Action | Details | Status |
+|--------|---------|--------|
+| **Create estrogen–sirtuin cross-link** | Connect estrogen→SIRT1/3/6 axis across SIRT1.md, SIRT3.md, SIRT6.md | ✅ Added Sex Differences section to [[SIRT1]] (E₂→ER→SIRT1 hub + estrogen cliff); added reciprocal cross-link to [[SIRT3]]; [[SIRT6]] already linked |
+| **Create sex-specific cell death cross-link** | Connect Apoptosis.md ↔ Caspases.md ↔ p53.md ↔ Bcl-2 family notes with unified sex-difference framework | ✅ [[Apoptosis]] ↔ [[Caspases]] ↔ [[p53]] ↔ [[Bcl-2]] unified XX-caspase / XY-PARP-1-AIF framework cross-linked on all four |
+| **Cross-link NAD+ ↔ PARP-1 ↔ sex** | Connect NAD+.md ↔ Telomere.md ↔ Apoptosis.md with PARP-1 sex-divergence | ✅ [[NAD+]] ↔ [[Telomere]] ↔ [[Apoptosis]] via male PARP-driven NAD+ consumption / female estrogen-stabilized PARP-1 |
+| **Cross-link NF-κB ↔ SASP ↔ estrogen** | Connect NF-κB.md ↔ SASP.md ↔ Inflammaging.md with estrogen suppression axis | ✅ Added Sex Differences section to [[Inflammaging]] (estrogen→NF-κB/cGAS-STING suppression, SASP, estrogen cliff); [[NF-κB]]/[[SASP]] already cross-linked |
+| **Cross-link cGAS-STING ↔ SASP ↔ sex** | Connect cGAS-STING in senescence notes with estrogen–STING suppression | ✅ Added Sex Differences section to [[STING]] (ERα–HDAC3 suppression, post-menopausal derepression) + cross-link note to [[cGAS]] |
+| **Add post-menopausal acceleration framework** | The "estrogen cliff" concept should be cross-referenced across all affected notes | ✅ Cross-referenced across [[SIRT1]], [[SIRT3]], [[NAD+]], [[NF-κB]], [[SASP]], [[Inflammaging]], [[STING]], [[Telomere]], [[Bcl-2]] |
 
 ---
 
