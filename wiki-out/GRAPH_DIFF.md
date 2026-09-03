@@ -1,26 +1,25 @@
 # Triples vs Wiki Graph Diff
 
-- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3005 nodes, 5066 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3030 nodes, 35740 edges)
+- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3010 nodes, 5111 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3030 nodes, 35822 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 1814
-- **Wiki-only** (linked, no triple): 1216
-- **Triples-only** (triple, no wikilink): 1191
+- **Shared** (in both): 1817
+- **Wiki-only** (linked, no triple): 1213
+- **Triples-only** (triple, no wikilink): 1193
 
 ## Edge overlap
 
-- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 4800 / wiki 35740 — the triples graph carries 5066 links over 4800 pairs (266 parallel-relation links preserved by the MultiDiGraph rebuild).
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 4841 / wiki 35822 — the triples graph carries 5111 links over 4841 pairs (270 parallel-relation links preserved by the MultiDiGraph rebuild).
 
-- **Wiki-only pairs** (under-extracted triples / curation gaps): 33320
-- **Triples-only pairs** (not surfaced as a wikilink): 2380
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 33386
+- **Triples-only pairs** (not surfaced as a wikilink): 2405
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
-| cGAS | 96 |
 | Phosphorylation | 89 |
 | Macrophage | 76 |
 | Ubiquitination | 75 |
@@ -30,41 +29,42 @@
 | Epigenetics and aging | 64 |
 | Flavonoid | 61 |
 | Histone Variant | 60 |
-| Citric Acid Cycle | 57 |
 | Unfolded Protein Response | 57 |
+| Citric Acid Cycle | 57 |
 | MMP-12 | 55 |
 | Caenorhabditis elegans | 54 |
 | Atg1 | 53 |
 | PARK2 | 52 |
+| Transcription Factor | 50 |
 | Transcription factor EB | 50 |
 | ALS | 50 |
-| Transcription Factor | 50 |
 | Immunity | 49 |
+| Genotoxic Stress | 49 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
 | Node | Degree |
 | --- | --- |
 | Adrenochrome formation | 11 |
+| Females | 9 |
 | COMT Val158 allele | 5 |
-| slow COMT | 4 |
-| Mice | 4 |
 | SIRT3 deficiency | 4 |
-| Physical Activity | 4 |
-| NF-kB | 4 |
 | SIRT1 and SIRT2 | 4 |
 | Cutaneous Melanoma | 4 |
+| Physical Activity | 4 |
+| NF-kB | 4 |
+| Mice | 4 |
+| slow COMT | 4 |
 | JAK-STAT3 | 4 |
-| S6K1/2 | 3 |
-| Advanced Glycation End Products formation | 3 |
-| H3K9 | 3 |
 | Antioxidant Properties | 3 |
 | Dietary Advanced Glycation End Products | 3 |
-| TRIM28 | 3 |
-| catechol flavonoid | 3 |
-| Streptomyces avermectinius | 3 |
-| SIRT7 depletion | 3 |
 | methyl donor supplements | 3 |
+| S6K1/2 | 3 |
+| PI3K/Akt | 3 |
+| Advanced Glycation End Products formation | 3 |
+| Dietary AGEs | 3 |
+| Streptomyces avermectinius | 3 |
+| SIRT6 overexpression | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

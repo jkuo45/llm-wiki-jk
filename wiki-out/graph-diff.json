@@ -1,26 +1,21 @@
 {
-  "generated_at": "2026-09-02T00:46:23Z",
+  "generated_at": "2026-09-02T17:05:30Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 3005,
+    "triples_nodes": 3010,
     "wiki_nodes": 3030,
-    "shared_nodes": 1814,
-    "wiki_only_nodes": 1216,
-    "triples_only_nodes": 1191,
-    "triples_edges": 5066,
-    "wiki_edges": 35740,
-    "triples_edge_pairs": 4800,
-    "wiki_edge_pairs": 35740,
-    "wiki_only_edges": 33320,
-    "triples_only_edges": 2380
+    "shared_nodes": 1817,
+    "wiki_only_nodes": 1213,
+    "triples_only_nodes": 1193,
+    "triples_edges": 5111,
+    "wiki_edges": 35822,
+    "triples_edge_pairs": 4841,
+    "wiki_edge_pairs": 35822,
+    "wiki_only_edges": 33386,
+    "triples_only_edges": 2405
   },
   "top_wiki_only_nodes": [
-    {
-      "id": "cgas",
-      "label": "cGAS",
-      "degree": 96
-    },
     {
       "id": "phosphorylation",
       "label": "Phosphorylation",
@@ -67,13 +62,13 @@
       "degree": 60
     },
     {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
       "degree": 57
     },
     {
@@ -97,6 +92,11 @@
       "degree": 52
     },
     {
+      "id": "transcription_factor",
+      "label": "Transcription Factor",
+      "degree": 50
+    },
+    {
       "id": "transcription_factor_eb",
       "label": "Transcription factor EB",
       "degree": 50
@@ -107,13 +107,13 @@
       "degree": 50
     },
     {
-      "id": "transcription_factor",
-      "label": "Transcription Factor",
-      "degree": 50
-    },
-    {
       "id": "immunity",
       "label": "Immunity",
+      "degree": 49
+    },
+    {
+      "id": "genotoxic_stress",
+      "label": "Genotoxic Stress",
       "degree": 49
     }
   ],
@@ -124,33 +124,18 @@
       "degree": 11
     },
     {
+      "id": "females",
+      "label": "Females",
+      "degree": 9
+    },
+    {
       "id": "comt_val158_allele",
       "label": "COMT Val158 allele",
       "degree": 5
     },
     {
-      "id": "slow_comt",
-      "label": "slow COMT",
-      "degree": 4
-    },
-    {
-      "id": "mice",
-      "label": "Mice",
-      "degree": 4
-    },
-    {
       "id": "sirt3_deficiency",
       "label": "SIRT3 deficiency",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
-      "degree": 4
-    },
-    {
-      "id": "nf_kb",
-      "label": "NF-kB",
       "degree": 4
     },
     {
@@ -164,24 +149,29 @@
       "degree": 4
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
-      "id": "s6k1_2",
-      "label": "S6K1/2",
-      "degree": 3
+      "id": "nf_kb",
+      "label": "NF-kB",
+      "degree": 4
     },
     {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
-      "degree": 3
+      "id": "mice",
+      "label": "Mice",
+      "degree": 4
     },
     {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
+      "id": "slow_comt",
+      "label": "slow COMT",
+      "degree": 4
+    },
+    {
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
     },
     {
       "id": "antioxidant_properties",
@@ -194,13 +184,28 @@
       "degree": 3
     },
     {
-      "id": "trim28",
-      "label": "TRIM28",
+      "id": "methyl_donor_supplements",
+      "label": "methyl donor supplements",
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
+      "id": "s6k1_2",
+      "label": "S6K1/2",
+      "degree": 3
+    },
+    {
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
+      "degree": 3
+    },
+    {
+      "id": "dietary_ages",
+      "label": "Dietary AGEs",
       "degree": 3
     },
     {
@@ -209,13 +214,8 @@
       "degree": 3
     },
     {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
-      "degree": 3
-    },
-    {
-      "id": "methyl_donor_supplements",
-      "label": "methyl donor supplements",
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
       "degree": 3
     }
   ],

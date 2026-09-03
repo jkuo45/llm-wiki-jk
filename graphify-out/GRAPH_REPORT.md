@@ -1,11 +1,11 @@
 # Graph Report - llm-wiki-jk  (2026-09-02)
 
 ## Corpus Check
-- 11 files · ~554,010 words
+- 11 files · ~558,052 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3005 nodes · 5066 edges · 398 communities (182 shown, 216 thin omitted)
+- 3010 nodes · 5111 edges · 384 communities (169 shown, 215 thin omitted)
 - Extraction: 99% EXTRACTED · 0% INFERRED · 1% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -14,153 +14,142 @@
 - SIRT3
 - SIRT6
 - SIRT2
-- Cancer
-- Creatine
-- Caspase-3
-- COMT
-- Senescence
-- Fenbendazole
-- Val158Met
-- Adrenochrome
-- SIRT5
-- MOMP
-- SIRT7
 - Methylene blue
-- Resveratrol
-- Ribonucleotide Reductase
-- SIRT4
-- Inflammaging
-- TFEB
-- Fisetin
-- Paracrine Senescence
-- Nicotinamide Riboside
-- p53
-- Parkinson's Disease
-- Aminoguanidine
-- Apigenin
-- SASP
-- Neuromelanin
+- Mitophagy
+- Adrenochrome
+- COMT
+- Cancer
+- Fenbendazole
 - Honokiol
-- cGAS-STING Pathway
-- Apoptosis
-- Medium spiny neurons
-- Rapamycin
-- NRF2
-- DNA Methylation
-- Senescence Surveillance
-- Catechols
+- SIRT5
+- SIRT7
+- SASP
 - Oxidative Stress
-- Cellular Reprogramming
-- NF-kappaB
-- Inflammation
-- Glutathione
-- Advanced Glycation End Products
-- Autophagy
-- Melanoma
-- Nicotinamide Mononucleotide
-- Methylfolate
-- Acetyl-CoA
-- Sirtuins
-- Urolithin A
-- p16
-- mTORC1
-- Humanin
-- BRD4
-- MnSOD
-- Epigenetic Clock
-- Acid ceramidase
+- Val158Met
+- Induced Pluripotent Stem Cells
+- Resveratrol
 - Epinephrine
-- Adrenochrome formation
-- Aging
+- Bcl-2
+- Ferroptosis
+- Fisetin
+- SIRT4
+- TFEB
+- Methylfolate
+- Caspase-3
+- Paracrine Senescence
+- Peroxynitrite
+- Nicotinamide Riboside
+- NF-kappaB
+- Creatine
+- MnSOD
+- Aminoguanidine
+- Inflammaging
+- Nitric Oxide
+- Lipid Peroxidation
+- Neuromelanin
+- Rapamycin
+- Medium spiny neurons
+- Acid ceramidase
+- DNA Methylation
+- Apigenin
+- Autophagy
+- Parkinson's Disease
+- Nicotinamide Mononucleotide
+- Advanced Glycation End Products
+- Ivermectin
+- Ribonucleotide Reductase
+- Senescent Cells
+- Apoptosis
+- Inflammation
+- Therapy-Induced Senescence
+- Relocalization of Chromatin Modifiers (RCM) Hypothesis
+- Exercise
+- Humanin
 - Thymopoiesis
+- p53
+- Epigenetic Clock
+- p16
+- Senescence
+- Melanoma
+- mTORC1
+- Acetyl-CoA
+- Aging
+- BDNF
+- Catechols
+- mTOR
+- Urolithin A
 - Mitohormesis
-- Nitrative Stress
-- KRAS
+- XIAP
+- Alpha-synuclein
 - Prefrontal Cortex
 - Caloric Restriction
 - Chemical memory
+- Sirtuins
 - Tumor Microenvironment
-- mTOR
-- NAD+
-- MicroRNA
-- Reactive Oxygen Species
-- Peroxynitrite
-- FSP1
+- KRAS
 - Mitochondria
-- Induced Pluripotent Stem Cells
-- Longevity
-- Ferroptosis
-- MethylB12
 - AMPK
+- Longevity
+- IL-6
+- NRF2
 - Senescence-Associated Heterochromatin Foci
-- Lipid Peroxidation
+- NAD+
+- H3K27ac
+- Caspase-2
 - Heart Failure
-- eNOS
-- Dopamine
-- ATM Kinase
 - Avermectin
-- Mitophagy
+- PGC-1α
+- Silver
 - Atherosclerosis
 - Protein Restriction
 - CD38
-- Integrin
 - IDO1
-- Hormesis
-- Mitochondrial Fusion
-- DRP1
-- David Sinclair
+- Caspase-8
 - Mitochondrial ROS
-- Alpha-synuclein
 - AGK2
 - Proteostasis
-- Hydrogen Peroxide
+- Dopamine
+- Hormesis
+- Healthspan
 - Nicotinamide
-- PGC-1α
-- Silver(I) Oxide
-- Myeloperoxidase
 - mTORC2
-- Glutaminase
 - Norepinephrine transporter
-- Neuroinflammation
+- MYC
 - Heart Rate Variability
 - MyD88
 - N-(carboxymethyl)-lysine
-- Relocalization of Chromatin Modifiers (RCM) Hypothesis
 - Glycation
-- Silver
-- Nitric Oxide
-- Acute Stress-Associated Phenotype
-- BDNF
-- Methemoglobinemia
+- Insulin Resistance
+- Mitochondrial Dysfunction
 - Luteolin
-- TFE3
-- Methemoglobin
+- MTRR
 - CD38 inhibitor 78c
-- Leuco-adrenochrome
 - Lifespan
 - Regulatory T cells
+- Catecholamines
 - Intermittent Fasting
 - SIRT3 deficiency
-- OPA1
 - DGCR8
 - PARK7
+- Microgliosis
 - Sir2 (yeast)
 - HLH-30
 - Suramin
 - Adenosylcobalamin
+- Genistein
 - SIRT6 overexpression
 - Sirtinol
 - Aspirin
 - ULK1
 - Cambinol
-- Necroptosis
 - Salermide
 - Mediterranean Diet
-- Selective Autophagy
 - SIRT7 depletion
+- Modafinil
 - ELK4
 - STACs
 - Hydroxocobalamin
+- PI3K
 - Mitochondrial Permeability Transition Pore
 - Fructosamine-3-kinase
 - Adrenoleukodystrophy
@@ -171,17 +160,15 @@
 - SIRT3 activation
 - AMPK activation
 - Atrial natriuretic peptide
-- MYC
 - TRPML1
-- Cytochrome c
 - SLC7A11
 - DNA Ligase IV
 - Nicotinic acid
 - elevated homocysteine
 - Ferroptosis in IDD
 - Fucoidan
-- Hippocampus
 - SAH
+- Splitomicin
 - LC3
 - LipA
 - SIRT2 inhibition
@@ -220,6 +207,7 @@
 - Amino-acid-stimulated insulin secretion
 - Stanniocalcin-1
 - AMT-130
+- Amyotrophic Lateral Sclerosis
 - Anti-hypertensive effects
 - Anti-TNF therapy
 - AP-1 complex
@@ -232,7 +220,6 @@
 - Bax (pro-apoptotic)
 - Bcl-2 anti-apoptotic proteins
 - BDNF promoter
-- Beclin1
 - Benign Tumor
 - β-amyloid plaques and gliosis (Alzheimer's disease)
 - beta-catenin deacetylation
@@ -266,7 +253,6 @@
 - TRIM28
 - CobB
 - Cochlea
-- COVID-19
 - COMT activity in humans
 - COMT in humans
 - COVID-19 clinical outcome
@@ -294,6 +280,7 @@
 - FGF21 signaling
 - Fisetin Bioavailability
 - Fisetin Dissolution
+- FOXO
 - French Paradox
 - Fructose
 - GADD45 expression
@@ -342,7 +329,6 @@
 - Manganese
 - MAP4K3
 - Matrine
-- NLRP3 inflammasome
 - MDL-800
 - Melatonin in DCM
 - Meteorin-like protein
@@ -410,16 +396,16 @@
 - X-Chromosome Inactivation
 
 ## God Nodes (most connected - your core abstractions)
-1. `SIRT1` - 302 edges
-2. `SIRT3` - 216 edges
-3. `SASP` - 140 edges
-4. `SIRT6` - 137 edges
+1. `SIRT1` - 305 edges
+2. `SIRT3` - 219 edges
+3. `SASP` - 141 edges
+4. `SIRT6` - 140 edges
 5. `Cancer` - 96 edges
 6. `SIRT2` - 88 edges
 7. `Adrenochrome` - 84 edges
 8. `COMT` - 77 edges
-9. `Neuromelanin` - 71 edges
-10. `NF-kappaB` - 69 edges
+9. `NF-kappaB` - 72 edges
+10. `Neuromelanin` - 71 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Cancer` --can_be_induced_by--> `Paracrine Senescence`  [AMBIGUOUS]
@@ -436,11 +422,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (398 total, 216 thin omitted)
+## Communities (384 total, 215 thin omitted)
 
 ### Community 0 - "SIRT1"
 Cohesion: 0.02
-Nodes (125): 40 substrates, AceCS1 (cytoplasmic acetyl-CoA synthetase), ADAM-10, Adiponectin gene expression (via FOXO1-C/EBPα), AIM2 inflammasome-mediated immunity, Androgen receptor (Lys630), Angiogenic activity during vascular remodeling, Angiotensin II type 1 receptor expression (+117 more)
+Nodes (124): 40 substrates, AceCS1 (cytoplasmic acetyl-CoA synthetase), ADAM-10, Adiponectin gene expression (via FOXO1-C/EBPα), AIM2 inflammasome-mediated immunity, Androgen receptor (Lys630), Angiogenic activity during vascular remodeling, Angiotensin II type 1 receptor expression (+116 more)
 
 ### Community 1 - "SIRT3"
 Cohesion: 0.02
@@ -452,351 +438,351 @@ Nodes (70): aging and reprogramming of human iPSCs, Akt phosphorylation, ARDS (a
 
 ### Community 3 - "SIRT2"
 Cohesion: 0.04
-Nodes (56): AC93253, acute promyelocytic leukaemia, AKR1C1, AKR1C1 (inhibiting STAT3 transactivation), anti-inflammatory, Atg4B, BRCA1 deacetylation, BubR1 (+48 more)
+Nodes (58): AC93253, acute promyelocytic leukaemia, AKR1C1, AKR1C1 (inhibiting STAT3 transactivation), anti-inflammatory, Atg4B, BRCA1 deacetylation, BubR1 (+50 more)
 
-### Community 4 - "Cancer"
-Cohesion: 0.10
-Nodes (43): ALIX, BRCA, Breast Cancer, Cancer, Cancer Stem Cells, Catalase downregulation, Cell Membrane, Chemotherapy (+35 more)
-
-### Community 5 - "Creatine"
+### Community 4 - "Methylene blue"
 Cohesion: 0.05
-Nodes (42): ADP, Amino Acids, antioxidant enzyme expression, Appetite, Arginine, Athletes, BDNF and NAD+ levels, Cancer Metabolism (+34 more)
+Nodes (46): Antimalarial Agent, Argyria, Benzocaine, Blue-gray pigmentation of skin, eyes and mucous membranes, Chlorpromazine, Co-oximetry, Complex III, Complex IV (+38 more)
 
-### Community 6 - "Caspase-3"
-Cohesion: 0.09
-Nodes (36): 5Z-7-oxozeaenol, AIF, Akt, Apaf-1, c-ABL, Caspase-3, Caspase-3 (at Ser150), Caspase-6 (+28 more)
+### Community 5 - "Mitophagy"
+Cohesion: 0.06
+Nodes (44): BNIP3, Bronchopulmonary Dysplasia, c-FLIP, Cardiolipin, Caspase-1, Cellular Homeostasis, Charcot-Marie-Tooth Disease Type 2A, COPD (+36 more)
+
+### Community 6 - "Adrenochrome"
+Cohesion: 0.06
+Nodes (42): 179.17 g/mol, -1.3, 3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione, 495 nm wavelength, Acute oral toxicity, Adrenaline-quinone, Adrenochrome, Adrenochrome monoaminoguanidine (+34 more)
 
 ### Community 7 - "COMT"
-Cohesion: 0.06
-Nodes (36): anti-inflammatory effects, Berberine, Betaine, brain, chromosome 22q11.21, cofactor for COMT, COMT, COMT at supplement doses (+28 more)
+Cohesion: 0.05
+Nodes (41): anti-inflammatory effects, Antioxidant, Berberine, Betaine, brain, chromosome 22q11.21, cofactor for COMT, COMT (+33 more)
 
-### Community 8 - "Senescence"
+### Community 8 - "Cancer"
 Cohesion: 0.08
-Nodes (35): Alu element transcripts, APE1, Base Excision Repair, Bleomycin, CDK1, Cell Cycle Arrest, Chondrocytes, Cytoplasmic Chromatin Fragments (+27 more)
+Nodes (40): ALIX, BCG, Bladder Cancer, BRCA, Breast Cancer, Camptothecin, Cancer, Catalase downregulation (+32 more)
 
 ### Community 9 - "Fenbendazole"
-Cohesion: 0.08
-Nodes (34): 5-Fluorouracil, Antiangiogenic therapy, ARNT, Benzimidazole, Colchicine, Dimethyl Sulfoxide, DNA Helicase, Drug Repositioning (+26 more)
-
-### Community 10 - "Val158Met"
-Cohesion: 0.06
-Nodes (34): Aspirin response, better Working Memory, better Working Memory performance, cognitive performance, COMT activity, COMT Val158 allele, dopamine release capacity in Striatum, dopaminergic neurotransmission (+26 more)
-
-### Community 11 - "Adrenochrome"
 Cohesion: 0.07
-Nodes (32): 179.17 g/mol, -1.3, 3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione, 495 nm wavelength, Acute oral toxicity, Adrenochrome, Adrenochrome Pathway, Adrenolutin (+24 more)
+Nodes (39): 5-Fluorouracil, Antiangiogenic therapy, ARNT, Benzimidazole, Colchicine, Dimethyl Sulfoxide, DNA Helicase, Drug Repositioning (+31 more)
 
-### Community 12 - "SIRT5"
+### Community 10 - "Honokiol"
+Cohesion: 0.06
+Nodes (36): Arterial Thrombosis, c-Fos, Cardiac Hypertrophy, Diazepam, Dicer, DLK1-DIO3 locus, Double-stranded RNA-binding domain, Epilepsy (+28 more)
+
+### Community 11 - "SIRT5"
 Cohesion: 0.06
 Nodes (32): Acute Kidney Injury, ammonia detoxification, AMPK (preadipocyte differentiation), ATP synthesis regulation, bile acid metabolism orchestration, breast tumor, HCC, and NSCLC cells, cellular energy metabolism and AMPK activity under energy stress, CPS1 (carbamoyl phosphate synthase 1) (+24 more)
 
-### Community 13 - "MOMP"
-Cohesion: 0.16
-Nodes (31): ABT-263, ABT-737, Apoptosome, Bad, Bak, BAX, Bcl-2, Bcl-2 family (+23 more)
-
-### Community 14 - "SIRT7"
+### Community 12 - "SIRT7"
 Cohesion: 0.06
 Nodes (31): aging and lifespan of hematopoietic cells, Asthma, Cardiac fibrosis, colorectal, gastric, and luminal breast cancer, dependent on N- and C-terminal domains, Epigenetic regulation, ERK and STAT3 signaling, FOXO3 (+23 more)
 
-### Community 15 - "Methylene blue"
-Cohesion: 0.07
-Nodes (30): Antimalarial Agent, Chlorpromazine, Complex III, Complex IV, Dose-dependent Toxicity, G6PD deficiency, Glucose-6-Phosphate Dehydrogenase, Glucose Oxidase (+22 more)
+### Community 13 - "SASP"
+Cohesion: 0.10
+Nodes (30): Acetate, CD9, CXCL10, Cytoplasmic Chromatin Fragments, DNA Hypomethylation, DNA-SCARS, EZH2, H2A.J (+22 more)
 
-### Community 16 - "Resveratrol"
+### Community 14 - "Oxidative Stress"
+Cohesion: 0.08
+Nodes (30): Adrenochrome formation, Airway Inflammation, Ascorbic Acid, Asthma severity, Bisulfite, Chronic Obstructive Pulmonary Disease, D-lactate, F2-Isoprostanes (+22 more)
+
+### Community 15 - "Val158Met"
+Cohesion: 0.07
+Nodes (30): Aspirin response, better Working Memory, better Working Memory performance, cognitive performance, COMT activity, COMT Val158 allele, dopamine release capacity in Striatum, higher anxiety (+22 more)
+
+### Community 16 - "Induced Pluripotent Stem Cells"
+Cohesion: 0.09
+Nodes (30): c-Met, c-Myc, Cellular Reprogramming, CRISPR, Disease Modeling, Drug Discovery, Epigenetic Remodeling, Epithelial-to-Mesenchymal Transition (+22 more)
+
+### Community 17 - "Resveratrol"
 Cohesion: 0.07
 Nodes (29): 0.15 to 1.3 mg per 100g, 1.5 to 3 mg per liter, ~8–14 minutes, Anti-neoplastic effects, Anti-viral effects, Bleeding risk with concurrent anticoagulant use, Blood glucose and insulin, calorie restriction in lower organisms (+21 more)
 
-### Community 17 - "Ribonucleotide Reductase"
-Cohesion: 0.11
-Nodes (29): Antimetabolite, ATR, CDKN1A, Clofarabine, CTP Synthetase, Cyclopentenyl cytosine, Deoxycytidine kinase, DNA Damage Response (+21 more)
+### Community 18 - "Epinephrine"
+Cohesion: 0.09
+Nodes (29): 2-Chlorophenothiazine, Acidic pH, Adrenaline catabolism, Adrenochrome Semiquinone Radical, Ammonium Persulfate, Angiotensin II, ATP, Cardiomyocytes (+21 more)
 
-### Community 18 - "SIRT4"
+### Community 19 - "Bcl-2"
+Cohesion: 0.16
+Nodes (29): ABT-263, ABT-737, Bad, Bak, BAX, Bcl-2, Bcl-2 family, Bcl-w (+21 more)
+
+### Community 20 - "Ferroptosis"
+Cohesion: 0.10
+Nodes (29): ACSL4, AIFM2, CD36 Receptor, Coenzyme Q10, Ferroptosis, Ferroptosis Suppressor, FSP1, GPX4 inhibitor (+21 more)
+
+### Community 21 - "Fisetin"
+Cohesion: 0.09
+Nodes (29): Anti-cancer Activity, Anti-diabetic Activity, Anti-oxidative Activity, Bioavailability, catechol flavonoid, CDKN2A, Dasatinib, Dasatinib plus Quercetin (+21 more)
+
+### Community 22 - "SIRT4"
 Cohesion: 0.08
 Nodes (28): 5-fluorouracil by inhibiting the cell cycle, ADP-ribosylation, AMPK retrograde signaling, ATP homeostasis, breast cancer cells, E-cadherin, E-cadherin promotion, endothelial cells of the umbilical vein and osteoarthritis (+20 more)
 
-### Community 19 - "Inflammaging"
-Cohesion: 0.10
-Nodes (28): Alveolar Macrophages, Argonaute, Biological Aging, Cardiovascular System, Checkpoint Inhibitor, Cognitive Decline, CTPI2, Dasatinib plus Quercetin (+20 more)
-
-### Community 20 - "TFEB"
+### Community 23 - "TFEB"
 Cohesion: 0.08
 Nodes (28): Aneuploid cells, Autophagosome-lysosome fusion, Autophagy-lysosomal pathway, Birt-Hogg-Dube syndrome, calcineurin, Celastrol, CLEAR Element, Cytosol (+20 more)
 
-### Community 21 - "Fisetin"
+### Community 24 - "Methylfolate"
+Cohesion: 0.09
+Nodes (27): 10-formyl-THF, abrupt methyl load in slow COMT, active B12 form, active folate form, alternative to methylfolate, anxiety in slow COMT, Catechols via COMT, -CH3 (+19 more)
+
+### Community 25 - "Caspase-3"
 Cohesion: 0.10
-Nodes (27): Anti-cancer Activity, Anti-diabetic Activity, Anti-oxidative Activity, Bioavailability, catechol flavonoid, Dasatinib, Diabetic Kidney Disease, EGCG bioavailability (+19 more)
+Nodes (27): 5Z-7-oxozeaenol, AIF, Apaf-1, Apoptosome, c-ABL, Caspase-3, Caspase-3 (at Ser150), Caspase-6 (+19 more)
 
-### Community 22 - "Paracrine Senescence"
-Cohesion: 0.11
-Nodes (26): Activin A, ALK4, Biological Process, BRAF, Caspase-5, CCL20, CCR6, CDKN2A (+18 more)
+### Community 26 - "Paracrine Senescence"
+Cohesion: 0.09
+Nodes (27): Activin A, ALK4, Biological Process, Caspase-5, CCL20, CCR6, CDKN2B, Chemokine (+19 more)
 
-### Community 23 - "Nicotinamide Riboside"
+### Community 27 - "Peroxynitrite"
+Cohesion: 0.10
+Nodes (26): 3-Nitrotyrosine, 8-oxo-2'-deoxyguanosine, Aconitase, Allopurinol, Amifostine, Chronic granulomatous disease, Cytochrome c Oxidase, DNA (+18 more)
+
+### Community 28 - "Nicotinamide Riboside"
 Cohesion: 0.08
 Nodes (26): Alcohol-Induced Depression, Arterial Stiffness, Axon Degeneration, Biomarker, Bovine Milk, Cardiac Function, Cardiac Remodeling, CD157 (+18 more)
 
-### Community 24 - "p53"
+### Community 29 - "NF-kappaB"
 Cohesion: 0.10
-Nodes (26): BCG, Bladder Cancer, Camptothecin, CDK5, Deoxycholic Acid, Etoposide, FL118, Hepatic Stellate Cells (+18 more)
+Nodes (25): A20, Antioxidant Gene Program, AP-1, BET inhibitors, Bortezomib, BRD4, CXCL5, GATA4 (+17 more)
 
-### Community 25 - "Parkinson's Disease"
-Cohesion: 0.13
-Nodes (24): 6-hydroxydopamine, Ambroxol, Bradykinesia, Complex I, Dorsal Motor Nucleus of the Vagus, Haloperidol, HPP+, Hypokinesia (+16 more)
+### Community 30 - "Creatine"
+Cohesion: 0.08
+Nodes (25): ADP, Amino Acids, Arginine, Cancer Metabolism, Creatine, Creatine Kinase, Creatine Phosphate, Creatine Supplementation (+17 more)
 
-### Community 26 - "Aminoguanidine"
+### Community 31 - "MnSOD"
+Cohesion: 0.16
+Nodes (25): ASK1, Catalase, CxxC Motif, Cysteine Thiols, DNA-binding domain, Glutaredoxin, Glutathione Peroxidase, Hydrogen Peroxide (+17 more)
+
+### Community 32 - "Aminoguanidine"
 Cohesion: 0.10
 Nodes (24): Alagebrium, Albuminuria, Aldose reductase, Aminoguanidine, Cataract, CH6N4, Cross-linking, Diabetic nephropathy (+16 more)
 
-### Community 27 - "Apigenin"
+### Community 33 - "Inflammaging"
 Cohesion: 0.11
-Nodes (23): 14-3-3, Acetylated 14-3-3, Apigenin, CaMKII, Cancer Chemoprevention, Caspase-2, Caspase-2 Ser135, Chrysin (+15 more)
+Nodes (23): Alveolar Macrophages, Argonaute, Biological Aging, Cardiovascular System, CCL2, Cognitive Decline, Epigenetic Aging, GM-CSF (+15 more)
 
-### Community 28 - "SASP"
-Cohesion: 0.12
-Nodes (23): Acetate, CD9, CXCL10, EZH2, H3K27me3, H3K4me3, HGF, JAK-STAT3 (+15 more)
+### Community 34 - "Nitric Oxide"
+Cohesion: 0.10
+Nodes (22): 3-Chlorotyrosine, ADMA, Alpha-1 Antitrypsin, Alpha-Lipoic Acid, Arginase, Endothelial dysfunction, eNOS, Hypochlorous acid (+14 more)
 
-### Community 29 - "Neuromelanin"
+### Community 35 - "Lipid Peroxidation"
+Cohesion: 0.11
+Nodes (22): 4-Hydroxynonenal, Aldehyde Dehydrogenases, Aldo-Keto Reductases, APE1, Base Excision Repair, cancer in fast COMT, cancer risk in slow COMT, Cholesterol (+14 more)
+
+### Community 36 - "Neuromelanin"
 Cohesion: 0.15
 Nodes (22): 5,6-indolequinone, Aminochrome, Aminochromes, Antigen Presentation, Benzothiazine, Cysteine, Dolichol, Dopamine o-quinone (+14 more)
 
-### Community 30 - "Honokiol"
+### Community 37 - "Rapamycin"
 Cohesion: 0.10
-Nodes (22): Arterial Thrombosis, c-Fos, Cardiac Hypertrophy, Diazepam, Epilepsy, GABA_A receptor, Glutamic Acid Decarboxylase, Honokiol (+14 more)
+Nodes (22): ACE Inhibitors, Anemia, Autophagy Inducer, CYP3A4, Everolimus, Geroprotectors, Glucose Intolerance, Hallmarks of Aging (+14 more)
 
-### Community 31 - "cGAS-STING Pathway"
-Cohesion: 0.13
-Nodes (22): Caspase-11, CD206, cGAS-STING Pathway, DNA Hypomethylation, HERV, Heterochromatin Decompaction, IL-1β, Immune Complex (+14 more)
-
-### Community 32 - "Apoptosis"
-Cohesion: 0.13
-Nodes (21): 7-Ketocholesterol, Apoptosis, Auranofin, Caspase, Caspase-10, Caspase-12, Caspase-7, Common Pathway (+13 more)
-
-### Community 33 - "Medium spiny neurons"
+### Community 38 - "Medium spiny neurons"
 Cohesion: 0.11
 Nodes (21): 95% of striatal neurons, antipsychotic medications, D1 receptor, D2 receptor, dopamine in Striatum, Dopamine Transporter, GABA, GABAergic inhibitory cells (+13 more)
 
-### Community 34 - "Rapamycin"
-Cohesion: 0.11
-Nodes (21): ACE Inhibitors, Anemia, Autophagy Inducer, CYP3A4, Everolimus, Geroprotectors, Glucose Intolerance, Hallmarks of Aging (+13 more)
+### Community 39 - "Acid ceramidase"
+Cohesion: 0.12
+Nodes (21): Acid ceramidase, ARN14794, ASAH1, Carmofur, Cellular Senescence, Ceramide, Complex I and Complex IV, Ferroptosis Susceptibility (+13 more)
 
-### Community 35 - "NRF2"
-Cohesion: 0.11
-Nodes (21): Advanced Glycation End Products formation, Airway Inflammation, Angiotensin II, Antioxidant Response, Antioxidant Response Element, ARE, Chronic Obstructive Pulmonary Disease, Ferritin (+13 more)
-
-### Community 36 - "DNA Methylation"
+### Community 40 - "DNA Methylation"
 Cohesion: 0.13
 Nodes (20): 5-Azacytidine, Acute Myeloid Leukemia, Chromatin Remodeling, Clonal Hematopoiesis, Decitabine, DNA Methylation, DNA Methyltransferase, DNMT1 (+12 more)
 
-### Community 37 - "Senescence Surveillance"
-Cohesion: 0.14
-Nodes (20): CCL2, CD8 T cells, CD94, GM-CSF, Hannum Clock, HLA-E, IL-6, Immature Myeloid Cell (+12 more)
-
-### Community 38 - "Catechols"
-Cohesion: 0.11
-Nodes (19): 10-formyl-THF, anti-inflammatory properties, Antioxidant Properties, benzene ring with two hydroxyl groups, Catechols, COMT at high levels, dual substrate-inhibitor of COMT, Estrogen metabolites (+11 more)
-
-### Community 39 - "Oxidative Stress"
-Cohesion: 0.11
-Nodes (19): 8-oxo-2'-deoxyguanosine, Asthma severity, Complex I and Complex IV, DNA, F2-Isoprostanes, G→T transversions, GSK-3beta, Iron (+11 more)
-
-### Community 40 - "Cellular Reprogramming"
+### Community 41 - "Apigenin"
 Cohesion: 0.13
-Nodes (19): c-Met, c-Myc, Cellular Reprogramming, CRISPR, Epigenetic Remodeling, Epithelial-to-Mesenchymal Transition, GSK3β, Hepatocyte Growth Factor (+11 more)
+Nodes (20): Acute Stress-Associated Phenotype, Apigenin, Arachidonic acid, ATM, Cancer Chemoprevention, Chrysin, Fatty Acid Synthase, Flavones (+12 more)
 
-### Community 41 - "NF-kappaB"
+### Community 42 - "Autophagy"
 Cohesion: 0.12
-Nodes (18): A20, Antioxidant Gene Program, Bortezomib, GATA4, Glucocorticoids, IκBα, IKK, IKKalpha (+10 more)
+Nodes (20): Arterial aging, Autophagy, B Cell responses, Beclin1, Cancer treatment, Dietary Restriction, eIF5A, Endoplasmic Reticulum (+12 more)
 
-### Community 42 - "Inflammation"
-Cohesion: 0.12
-Nodes (18): ADAM10, Amyloid Beta, CD86, Circulation, COX-2, Damage-associated molecular pattern, Dietary AGEs, Ghrelin (+10 more)
-
-### Community 43 - "Glutathione"
-Cohesion: 0.14
-Nodes (18): Adrenochrome monoaminoguanidine, Arachidonic acid, Carbazochrome, D-lactate, GLO2, Glutathione, Glycine, GlyNAC (+10 more)
-
-### Community 44 - "Advanced Glycation End Products"
-Cohesion: 0.12
-Nodes (18): Advanced Glycation End Products, AGER1, Chronic Kidney Disease, CML, Collagen, diabetic complications, ECM, Elastin (+10 more)
-
-### Community 45 - "Autophagy"
-Cohesion: 0.13
-Nodes (18): Arterial aging, Autophagy, B Cell responses, Cancer treatment, Dietary Restriction, eIF5A, Endoplasmic Reticulum, Hydroxychloroquine (+10 more)
-
-### Community 46 - "Melanoma"
-Cohesion: 0.21
-Nodes (18): Cutaneous Melanoma, Dopachrome tautomerase, Eumelanin, FTSJ1, Honeybee venom, MC1R, Melanocytes, Melanogenesis (+10 more)
-
-### Community 47 - "Nicotinamide Mononucleotide"
-Cohesion: 0.12
-Nodes (17): 900 mg per day, Acute Pancreatitis, Adiponectin, Aerobic Capacity, Bifidobacterium, Blood, Edamame, Gut Dysbiosis (+9 more)
-
-### Community 48 - "Methylfolate"
-Cohesion: 0.14
-Nodes (17): abrupt methyl load in slow COMT, active folate form, alternative to methylfolate, anxiety in slow COMT, Catechols via COMT, -CH3, Folinic acid, gene expression (+9 more)
-
-### Community 49 - "Acetyl-CoA"
-Cohesion: 0.13
-Nodes (17): Acetyl-CoA, ACLY, ACSS2, Chromatin, Citrate, Deacetylation, Euchromatin, HAT (+9 more)
-
-### Community 50 - "Sirtuins"
-Cohesion: 0.12
-Nodes (17): Adenosine-binding site with kinases, Amurensin G, Aristoforin, Branched-Chain Amino Acids, Curcumin, Deacetylases, five classes (I-IV and U), Insulin Resistance (+9 more)
-
-### Community 51 - "Urolithin A"
-Cohesion: 0.12
-Nodes (17): ATP synthesis, Atrogin-1, Bax/Bcl-2 ratio, CDK, Ellagitannins, FOXO, MuRF1, Muscle Atrophy (+9 more)
-
-### Community 52 - "p16"
+### Community 43 - "Parkinson's Disease"
 Cohesion: 0.15
-Nodes (17): CDK2, CDK4, CDK6, Cyclin-Dependent Kinase, Early SASP, G1 Phase, Hematopoietic Stem Cell, HMGA1 (+9 more)
+Nodes (19): 6-hydroxydopamine, Ambroxol, Bradykinesia, Dorsal Motor Nucleus of the Vagus, Haloperidol, HPP+, Hypokinesia, Incidental Lewy Body Disease (+11 more)
 
-### Community 53 - "mTORC1"
+### Community 44 - "Nicotinamide Mononucleotide"
+Cohesion: 0.11
+Nodes (19): 900 mg per day, Acute Pancreatitis, Adiponectin, Aerobic Capacity, Bifidobacterium, Blood, Combined Metabolic Activators, COVID-19 (+11 more)
+
+### Community 45 - "Advanced Glycation End Products"
+Cohesion: 0.11
+Nodes (19): Advanced Glycation End Products, AGER1, Cardiovascular Disease, Chronic Kidney Disease, CML, Collagen, diabetic complications, ECM (+11 more)
+
+### Community 46 - "Ivermectin"
+Cohesion: 0.20
+Nodes (19): Akt, Cancer Stem Cells, Chemotherapy Resistance, Cholangiocarcinoma, Chronic SASP, EMT, Gastric Cancer, Glioblastoma (+11 more)
+
+### Community 47 - "Ribonucleotide Reductase"
+Cohesion: 0.20
+Nodes (19): ATR, Clofarabine, Deoxycytidine kinase, DNA Damage Response, DNA Polymerase, DNA Replication, DNA Replication Stress, dNTP (+11 more)
+
+### Community 48 - "Senescent Cells"
+Cohesion: 0.18
+Nodes (19): Caspase-11, CD206, cGAS-STING Pathway, Checkpoint Inhibitor, HERV, IL-1β, Immune Complex, Inflammasome (+11 more)
+
+### Community 49 - "Apoptosis"
+Cohesion: 0.16
+Nodes (18): 7-Ketocholesterol, Apoptosis, Auranofin, Caspase, Caspase-10, Caspase-12, Caspase-7, Common Pathway (+10 more)
+
+### Community 50 - "Inflammation"
 Cohesion: 0.12
-Nodes (17): IRS1, Lipid synthesis, Lysosomal surface, mTOR, Raptor, mLST8, PRAS40, Deptor, mTORC1, PRAS40, Protein synthesis, Rheb (+9 more)
+Nodes (18): ADAM10, Amyloid Beta, CD86, Circulation, COX-2, Damage-associated molecular pattern, Depression, Dietary AGEs (+10 more)
+
+### Community 51 - "Therapy-Induced Senescence"
+Cohesion: 0.14
+Nodes (18): ATM Kinase, Beclin 1, Bleomycin, BRCA1, Cell Cycle Arrest, CHK2, Clustered DNA Damage, DNA Repair (+10 more)
+
+### Community 52 - "Relocalization of Chromatin Modifiers (RCM) Hypothesis"
+Cohesion: 0.12
+Nodes (17): aging results from progressive loss of epigenetic information, Antagonistic Pleiotropy, Chromatin Modifiers, David Sinclair, Double-Strand Break, Epigenetic Landscape, I-PpoI endonuclease, ICE Mouse (+9 more)
+
+### Community 53 - "Exercise"
+Cohesion: 0.14
+Nodes (17): antioxidant enzyme expression, Appetite, Athletes, BDNF and NAD+ levels, Daily Energy Expenditure, Doubly Labelled Water, Exercise, Fat Free Mass (+9 more)
 
 ### Community 54 - "Humanin"
 Cohesion: 0.12
 Nodes (16): Alzheimer's Disease, Cells, Distal Tissues, FPRL1, Humanin, IGFBP3, Inter-organ signaling, MAP2 (+8 more)
 
-### Community 55 - "BRD4"
-Cohesion: 0.19
-Nodes (16): AP-1, BRD4, CXCL5, Enhancer-Promoter Looping, H3.3, H3K122ac, H3K18ac, H3K27ac (+8 more)
+### Community 55 - "Thymopoiesis"
+Cohesion: 0.16
+Nodes (16): Androgen Receptor, Anti-androgen, Enzalutamide, Ghrelin, IL-22, IL-7, Keratinocyte Growth Factor, LHRH (+8 more)
 
-### Community 56 - "MnSOD"
-Cohesion: 0.30
-Nodes (16): ASK1, CxxC Motif, DNA-binding domain, Glutaredoxin, Methionine sulfoxide reductases, Mice, MnSOD, Oxidized Methionine (+8 more)
+### Community 56 - "p53"
+Cohesion: 0.17
+Nodes (16): Antimetabolite, CDK5, CDKN1A, CTP Synthetase, Cyclopentenyl cytosine, Deoxycholic Acid, Hepatic Stellate Cells, Hepatocellular Carcinoma (+8 more)
 
 ### Community 57 - "Epigenetic Clock"
 Cohesion: 0.17
 Nodes (16): Biological Age, DNAmGrimAge, DSB repair and RCM, Epigenetic Clock, Epigenetic Drift, epigenetic information, Epigenetics, Global Hypomethylation (+8 more)
 
-### Community 58 - "Acid ceramidase"
-Cohesion: 0.17
-Nodes (15): Acid ceramidase, ACSL4, ARN14794, ASAH1, Carmofur, Ceramide, GPX4, Lands cycle (+7 more)
-
-### Community 59 - "Epinephrine"
-Cohesion: 0.14
-Nodes (15): Acidic pH, Ammonium Persulfate, Ascorbic Acid, Cardiomyocytes, Chromaffin cells, EDTA, Epinephrine, Liver microsomes (+7 more)
-
-### Community 60 - "Adrenochrome formation"
+### Community 58 - "p16"
 Cohesion: 0.16
-Nodes (15): Adrenaline catabolism, Adrenochrome formation, Adrenochrome Semiquinone Radical, ATP, Bisulfite, Catecholamines, COMT Inhibitors, Low pH (+7 more)
+Nodes (16): CDK2, CDK4, CDK6, Cyclin-Dependent Kinase, Early SASP, G1 Phase, Hematopoietic Stem Cell, HMGA1 (+8 more)
 
-### Community 61 - "Aging"
+### Community 59 - "Senescence"
+Cohesion: 0.17
+Nodes (16): Chondrocytes, E2F, Executioner Caspase, Females, HIRA/ASF1a, Lamin B1, macroH2A, Males (+8 more)
+
+### Community 60 - "Melanoma"
+Cohesion: 0.25
+Nodes (16): Cutaneous Melanoma, Dopachrome tautomerase, Eumelanin, FTSJ1, Honeybee venom, MC1R, Melanocytes, Melanogenesis (+8 more)
+
+### Community 61 - "mTORC1"
+Cohesion: 0.12
+Nodes (16): Lipid synthesis, Lysosomal surface, mTOR, Raptor, mLST8, PRAS40, Deptor, mTORC1, PRAS40, Protein synthesis, Rapalogs, Rheb (+8 more)
+
+### Community 62 - "Acetyl-CoA"
+Cohesion: 0.15
+Nodes (15): Acetyl-CoA, ACLY, ACSS2, Chromatin, Deacetylation, Euchromatin, HAT, HDAC (+7 more)
+
+### Community 63 - "Aging"
 Cohesion: 0.13
 Nodes (15): Age-Related Diseases, Aging, Autophagic flux, Declining SIRT3 and rising SIRT4, Endostatin, Gram-Negative Bacteria, Intestinal nuclei during fasting, Lipofuscin (+7 more)
 
-### Community 62 - "Thymopoiesis"
-Cohesion: 0.16
-Nodes (15): Androgen Receptor, Anti-androgen, Enzalutamide, IL-22, IL-7, Keratinocyte Growth Factor, LHRH, Prostate Cancer (+7 more)
+### Community 64 - "BDNF"
+Cohesion: 0.13
+Nodes (15): Akkermansia, BDNF, Beta-hydroxybutyrate, Cell Migration, CREB, Extracellular Matrix, FAK Signaling, FNDC5 (+7 more)
 
-### Community 63 - "Mitohormesis"
+### Community 65 - "Catechols"
+Cohesion: 0.14
+Nodes (15): anti-inflammatory properties, Antioxidant Properties, benzene ring with two hydroxyl groups, Catechols, COMT at high levels, dual substrate-inhibitor of COMT, Estrogen metabolites, extra virgin olive oil (+7 more)
+
+### Community 66 - "mTOR"
+Cohesion: 0.15
+Nodes (15): Atg14L, CDK4/6, CLEAR Network, Degradation center and signaling hub, Hyperfunction Theory of Aging, Intracellular and extracellular signals, Lysosome, mTOR (+7 more)
+
+### Community 67 - "Urolithin A"
+Cohesion: 0.14
+Nodes (15): ATP synthesis, Atrogin-1, Bax/Bcl-2 ratio, CDK, Ellagitannins, MuRF1, Muscle Atrophy, muscle fatigue (+7 more)
+
+### Community 68 - "Mitohormesis"
 Cohesion: 0.13
 Nodes (15): Chemoresistance, EREG, GDF15, Heat Shock Proteins, HSF1, Integrated Stress Response, Low-level oxidative stress, Mitochondrial Membrane Potential (+7 more)
 
-### Community 64 - "Nitrative Stress"
+### Community 69 - "XIAP"
 Cohesion: 0.20
-Nodes (14): 3-Nitrotyrosine, Cardiovascular Disease, Cholesterol, Chronic granulomatous disease, Diabetes Mellitus, Innate Immune Defense, iNOS, Ischemia-reperfusion Injury (+6 more)
+Nodes (14): 5-FU, BRAF, Capecitabine, Colon Cancer, FOLFOX, IKKepsilon, miR-24, miR-7 (+6 more)
 
-### Community 65 - "KRAS"
-Cohesion: 0.18
-Nodes (14): 5-FU, Capecitabine, Colon Cancer, Colorectal Cancer, FOLFOX, KRAS, Oncogene, Rectal Cancer (+6 more)
+### Community 70 - "Alpha-synuclein"
+Cohesion: 0.20
+Nodes (14): A53T, Alpha-synuclein, Alpha-Synuclein Aggregation, Cytokines, Glial cells, Glucocerebrosidase, Konstantin Nikolaevich Tretiakoff, Lewy Bodies (+6 more)
 
-### Community 66 - "Prefrontal Cortex"
+### Community 71 - "Prefrontal Cortex"
 Cohesion: 0.16
 Nodes (14): Abram Hoffer, ADHD, Adrenochrome Hypothesis, balanced dopamine in Prefrontal Cortex, COMT for dopamine clearance, DAT expression, executive function, limited-capacity cognitive system (+6 more)
 
-### Community 67 - "Caloric Restriction"
+### Community 72 - "Caloric Restriction"
 Cohesion: 0.14
 Nodes (14): Adaptive autophagy, BDNF (via SIRT1/FoxO), β-amyloid neuropathology (Alzheimer's mouse model), Caloric Restriction, Caloric Restriction Mimetics, Chemotherapy sensitivity, Drosophila melanogaster, Excessive autophagy (+6 more)
 
-### Community 68 - "Chemical memory"
+### Community 73 - "Chemical memory"
 Cohesion: 0.16
 Nodes (14): addiction, basal ganglia, calcium/calmodulin-dependent protein kinase, CamKIIα, Caudate Nucleus, Cerebellum, Chemical memory, memory formation (+6 more)
 
-### Community 69 - "Tumor Microenvironment"
-Cohesion: 0.22
-Nodes (14): Angiogenesis, Anti-CD38 mAbs, Chemotherapy Resistance, EMT, FAK, Fibroblasts, Hallmarks of Cancer, IKKepsilon (+6 more)
+### Community 74 - "Sirtuins"
+Cohesion: 0.14
+Nodes (14): Adenosine-binding site with kinases, Amurensin G, Aristoforin, Curcumin, Deacetylases, five classes (I-IV and U), Mono-ADP-ribosyl transferases, mTOR signaling (+6 more)
 
-### Community 70 - "mTOR"
-Cohesion: 0.16
-Nodes (14): Atg14L, CDK4/6, CLEAR Network, Degradation center and signaling hub, Hyperfunction Theory of Aging, Intracellular and extracellular signals, Lysosome, mTOR (+6 more)
+### Community 75 - "Tumor Microenvironment"
+Cohesion: 0.21
+Nodes (14): Alu element transcripts, Angiogenesis, Anti-CD38 mAbs, FAK, Fibroblasts, Genomic Instability, Hallmarks of Cancer, Integrins (+6 more)
 
-### Community 71 - "NAD+"
+### Community 76 - "KRAS"
 Cohesion: 0.15
-Nodes (14): Coenzyme, Gut Microbiome, Histone Demethylase, Kynurenine Pathway, Mitochondrial Dysfunction-Associated Senescence, NAD+, NAD+ Salvage Pathway, NAMPT upregulation (+6 more)
+Nodes (14): Ammonium, CB-839, GLS1 and GLS2, Glutaminase, Glutamine deamidation, KRAS, LKB1, Mitochondrial enzyme (+6 more)
 
-### Community 72 - "MicroRNA"
-Cohesion: 0.16
-Nodes (14): Dicer, DLK1-DIO3 locus, Double-stranded RNA-binding domain, Exportin-5, MicroRNA, miR-217, miR-378, miR-543 (+6 more)
-
-### Community 73 - "Reactive Oxygen Species"
-Cohesion: 0.18
-Nodes (13): 2-Chlorophenothiazine, Amifostine, Cellular Senescence, Fenton reaction, Ferroptosis Susceptibility, Hydroxyl Radicals, Iron accumulation in Substantia Nigra, Neurodegenerative Diseases (+5 more)
-
-### Community 74 - "Peroxynitrite"
-Cohesion: 0.19
-Nodes (13): Aconitase, Allopurinol, Antioxidant, Cytochrome c Oxidase, Febuxostat, Melatonin, Peroxynitrite, Superoxide Radicals (+5 more)
-
-### Community 75 - "FSP1"
-Cohesion: 0.26
-Nodes (13): AIFM2, Ferroptosis Suppressor, FSP1, GPX4 inhibitor, iFSP1, Mevalonate pathway, Myristoylation, NADPH (+5 more)
-
-### Community 76 - "Mitochondria"
+### Community 77 - "Mitochondria"
 Cohesion: 0.17
 Nodes (13): Alpha-Ketoglutarate, Calcium, Complex II, Endosymbiosis, Glutamate, Glutamate Dehydrogenase (GDH), Hyperinsulinemic Hypoglycemia, Insulin Secretion (+5 more)
 
-### Community 77 - "Induced Pluripotent Stem Cells"
-Cohesion: 0.19
-Nodes (13): Amyotrophic Lateral Sclerosis, Disease Modeling, Drug Discovery, Frontotemporal Dementia, Induced Pluripotent Stem Cells, Pluripotency, Regenerative Medicine, Retinal Pigment Epithelium (+5 more)
+### Community 78 - "AMPK"
+Cohesion: 0.15
+Nodes (13): AMPK, CD36 expression, cGAS, Dihydromyricetin, Estrogen, Fatty acid oxidation, Nitrated lipids, PPARγ (+5 more)
 
-### Community 78 - "Longevity"
+### Community 79 - "Longevity"
 Cohesion: 0.15
 Nodes (13): Antioxidants, ATFS-1, Cigarette Smoke, Endogenous Antioxidant Upregulation, Free Radicals, Glycotoxins, Longevity, Methionine Restriction (+5 more)
 
-### Community 79 - "Ferroptosis"
-Cohesion: 0.19
-Nodes (13): CD36 Receptor, Coenzyme Q10, Ferroptosis, HO-1, Liproxstatin-1, MUC1, NCOA4, Oxidized LDL (+5 more)
-
-### Community 80 - "MethylB12"
+### Community 80 - "IL-6"
 Cohesion: 0.17
-Nodes (12): active B12 form, cofactor for Methionine Synthase, Methionine Synthase, methionine synthase activity, methyl donor supplements, MethylB12, mood side effects in slow COMT, MTRR (+4 more)
+Nodes (13): CD8 T cells, CD94, HLA-E, IL-6, Immune Evasion, MHC Class Ib, Natural Killer Cells, Niacin (+5 more)
 
-### Community 81 - "AMPK"
+### Community 81 - "NRF2"
 Cohesion: 0.17
-Nodes (12): AMPK, CD36 expression, Dihydromyricetin, Fatty acid oxidation, LKB1, Nitrated lipids, PPARγ, SIRT1 (Ser27, Thr344) (+4 more)
+Nodes (12): Antioxidant Response, Antioxidant Response Element, ARE, Ferritin, Free Iron, Glutathione S-Transferase, Gut Microbiome, Keap1 (+4 more)
 
 ### Community 82 - "Senescence-Associated Heterochromatin Foci"
 Cohesion: 0.21
 Nodes (12): ASF1a, H3K36me3, H3K9me3, Heterochromatin, HIRA, HMGB2, KDM4, PML (+4 more)
 
-### Community 83 - "Lipid Peroxidation"
-Cohesion: 0.22
-Nodes (11): 4-Hydroxynonenal, Aldehyde Dehydrogenases, Aldo-Keto Reductases, cancer in fast COMT, cancer risk in slow COMT, Dicarbonyls, Lipid Peroxidation, Singlet Oxygen (+3 more)
+### Community 83 - "NAD+"
+Cohesion: 0.18
+Nodes (12): Coenzyme, Histone Demethylase, Kynurenine Pathway, Mitochondrial Dysfunction-Associated Senescence, NAD+, NAD+ Salvage Pathway, NAMPT upregulation, NMN (+4 more)
 
-### Community 84 - "Heart Failure"
+### Community 84 - "H3K27ac"
+Cohesion: 0.24
+Nodes (12): Enhancer-Promoter Looping, H3.3, H3K122ac, H3K18ac, H3K27ac, H3K4me1, H4K5ac, HDAC4 (+4 more)
+
+### Community 85 - "Caspase-2"
+Cohesion: 0.33
+Nodes (11): 14-3-3, Acetylated 14-3-3, CaMKII, Caspase-2, Caspase-2 Ser135, CDK1, CK2, CYCLIN B1 (+3 more)
+
+### Community 86 - "Heart Failure"
 Cohesion: 0.18
 Nodes (11): Adenosine Kinase, Adenosine Triphosphate, AMPK (activated), BMAL1, Creatine Kinase (CK), Heart Failure, NAD+ Biosynthesis, NAMPT (+3 more)
 
-### Community 85 - "eNOS"
-Cohesion: 0.18
-Nodes (11): ADMA, Alpha-Lipoic Acid, Dietary Advanced Glycation End Products, Dietary AGE Restriction, Endothelial dysfunction, eNOS, serum AGE levels, SIRT1 (resveratrol-activated) (+3 more)
-
-### Community 86 - "Dopamine"
-Cohesion: 0.25
-Nodes (11): Aromatic L-amino acid decarboxylase, Autoxidation, Dopamine, Dopaminochrome, L-DOPA, L-Tyrosine, Neurotransmitters, Putamen (+3 more)
-
-### Community 87 - "ATM Kinase"
-Cohesion: 0.20
-Nodes (11): ATM Kinase, Beclin 1, BRCA1, CHK2, Clustered DNA Damage, DNA Repair, γ-H2A.X, Homologous recombination repair (+3 more)
-
-### Community 88 - "Avermectin"
+### Community 87 - "Avermectin"
 Cohesion: 0.24
 Nodes (11): Avermectin, GABA-gated chloride channels, Glutamate-gated Cl- channels, Humans, Kitasato Institute, Merck & Co. Inc, Nobel Prize in Physiology or Medicine, Parasiticidal effect (+3 more)
 
-### Community 89 - "Mitophagy"
-Cohesion: 0.24
-Nodes (11): BNIP3, Caspase-1, Fasting, FUNDC1, Huntingtin, Mitophagy, Neuronal survival, Parkin (+3 more)
+### Community 88 - "PGC-1α"
+Cohesion: 0.22
+Nodes (11): Colorectal Cancer, HIIT, Mitochondrial Biogenesis, NOX4, PGC-1α, PQQ, Resveratrol (high-calorie diet mice), SMURF2 (+3 more)
+
+### Community 89 - "Silver"
+Cohesion: 0.20
+Nodes (10): 1027 mg/kg, Argentite and chlorargyrite minerals, DNA, RNA and proteins, Gold, Inhalation, oral and dermal routes, Liver, Metallic element, Silver (+2 more)
 
 ### Community 90 - "Atherosclerosis"
 Cohesion: 0.22
@@ -810,359 +796,307 @@ Nodes (10): Adiposity, Butyrate, Energy Expenditure, Environment, Epigenome, FGF
 Cohesion: 0.22
 Nodes (10): Aging (depleting NAD+), Axonal Degeneration, cADP-Ribose, CD38, CD4+ T Cells, Daratumumab, Isatuximab, Multiple myeloma (+2 more)
 
-### Community 93 - "Integrin"
-Cohesion: 0.20
-Nodes (10): Akkermansia, Cell Migration, Extracellular Matrix, FAK Signaling, FNDC5, Integrin, Irisin, Metabolism (+2 more)
-
-### Community 94 - "IDO1"
+### Community 93 - "IDO1"
 Cohesion: 0.22
 Nodes (10): ATF4, Dendritic cells, Dioxygenase, Epacadostat, GCN2, IDO1, IDO2, Interferon-gamma (+2 more)
 
-### Community 95 - "Hormesis"
-Cohesion: 0.36
-Nodes (10): Biphasic Dose-Response Curve, Hormesis, IC50, Incoherent Bivalent Motif, Kinase Inhibitor, Michaelis-Menten Kinetics, Network Motif, Rapalogs (+2 more)
+### Community 94 - "Caspase-8"
+Cohesion: 0.31
+Nodes (10): Caspase-8, DISC, DR4, DR5, Extrinsic Pathway, FADD, Fas, LYN (+2 more)
 
-### Community 96 - "Mitochondrial Fusion"
-Cohesion: 0.24
-Nodes (10): Bronchopulmonary Dysplasia, Cellular Homeostasis, Charcot-Marie-Tooth Disease Type 2A, COPD, MFN1, MFN2, Mitochondrial DNA Mutations, Mitochondrial Dynamics (+2 more)
-
-### Community 97 - "DRP1"
-Cohesion: 0.24
-Nodes (10): Cardiolipin, DRP1, FIS1, LRRK2, Mdivi-1, MFF, Mitochondrial Fission, Mitochondrial Fission Sites (+2 more)
-
-### Community 98 - "David Sinclair"
-Cohesion: 0.20
-Nodes (10): David Sinclair, I-PpoI endonuclease, ICE Mouse, ICE Mouse model, Information Theory of Aging, Mutations, RCM-driven epigenetic aging, Resveratrol as STAC (+2 more)
-
-### Community 99 - "Mitochondrial ROS"
+### Community 95 - "Mitochondrial ROS"
 Cohesion: 0.20
 Nodes (10): JNK Activation, Mitochondrial ROS, MitoQ, MLKL, Necrosulfonamide, NLRP3, RIPK3, SMAD7 downregulation in TGF-beta signaling (+2 more)
 
-### Community 100 - "Alpha-synuclein"
-Cohesion: 0.33
-Nodes (9): A53T, Alpha-synuclein, Alpha-Synuclein Aggregation, Glucocerebrosidase, Konstantin Nikolaevich Tretiakoff, Lewy Bodies, Lysosomal Dysfunction, Pale Bodies (+1 more)
-
-### Community 101 - "AGK2"
+### Community 96 - "AGK2"
 Cohesion: 0.22
 Nodes (9): AGK2, α-synuclein-mediated toxicity, alpha-Tubulin, FOXO3a, Ischemic stroke, Mus musculus, P66shc, phospho-JNK (+1 more)
 
-### Community 102 - "Proteostasis"
+### Community 97 - "Proteostasis"
 Cohesion: 0.22
 Nodes (9): Anaphase Promoting Complex-Cyclosome, Cell Cycle, Endoplasmic Reticulum Stress, Proteasome, Protein Degradation, Proteostasis, Ubiquitin, Ubiquitin Ligase (+1 more)
 
-### Community 103 - "Hydrogen Peroxide"
-Cohesion: 0.25
-Nodes (9): Catalase, Cysteine Thiols, Glutathione Peroxidase, Hydrogen Peroxide, MAO, Peroxisomes, Protein Tyrosine Phosphatases, Selenium (+1 more)
+### Community 98 - "Dopamine"
+Cohesion: 0.33
+Nodes (9): Aromatic L-amino acid decarboxylase, Autoxidation, Dopamine, Dopaminochrome, L-DOPA, L-Tyrosine, Putamen, Substantia Nigra Pars Compacta (+1 more)
 
-### Community 104 - "Nicotinamide"
+### Community 99 - "Hormesis"
+Cohesion: 0.42
+Nodes (9): Biphasic Dose-Response Curve, Hormesis, IC50, Incoherent Bivalent Motif, Kinase Inhibitor, Michaelis-Menten Kinetics, Network Motif, Saturated Enzymatic Regime (+1 more)
+
+### Community 100 - "Healthspan"
+Cohesion: 0.22
+Nodes (9): Citrate, CTPI2, DunedinPACE, Epigenetic Alterations, Frailty, Healthspan, Horvath Clock, PhenoAge (+1 more)
+
+### Community 101 - "Nicotinamide"
 Cohesion: 0.25
 Nodes (9): GW5074, Kinase-inhibitor scaffold, Nicotinamide, PARP, Purine Nucleoside Phosphorylase, Ro31-8220, SARS-CoV-2 macrodomain, SIRT1 and SIRT2 (+1 more)
 
-### Community 105 - "PGC-1α"
-Cohesion: 0.28
-Nodes (9): HIIT, Mitochondrial Biogenesis, NOX4, PGC-1α, PQQ, Resveratrol (high-calorie diet mice), TGF-β, Vitamin C (+1 more)
-
-### Community 106 - "Silver(I) Oxide"
-Cohesion: 0.25
-Nodes (8): 1027 mg/kg, Argyria, Blue-gray pigmentation of skin, eyes and mucous membranes, Cyanosis, Metallic silver, Silver compounds, Silver(I) Oxide, Silver oxide battery
-
-### Community 107 - "Myeloperoxidase"
-Cohesion: 0.32
-Nodes (8): 3-Chlorotyrosine, Alpha-1 Antitrypsin, Hypochlorous acid, Innate Immune System, LDL, microbial macromolecules, Myeloperoxidase, neutrophil azurophilic granules
-
-### Community 108 - "mTORC2"
+### Community 102 - "mTORC2"
 Cohesion: 0.25
 Nodes (8): Akt at Ser473, Cell Proliferation, Chaperone-Mediated Autophagy, Cytoskeletal organization, FKBP12, mTOR, Rictor, mSIN1, Protor-1, mLST8, Deptor, mTORC2, S6K1/2
 
-### Community 109 - "Glutaminase"
-Cohesion: 0.29
-Nodes (8): Ammonium, CB-839, GLS1 and GLS2, Glutaminase, Glutamine deamidation, Mitochondrial enzyme, Oxidative Stress buffering, Pancreatic Cancer
-
-### Community 110 - "Norepinephrine transporter"
+### Community 103 - "Norepinephrine transporter"
 Cohesion: 0.29
 Nodes (8): atomoxetine, catecholamine balance in Prefrontal Cortex, dopamine in Prefrontal Cortex, NET, Norepinephrine, Norepinephrine transporter, SLC6A2 sodium-dependent symporter, sparse Dopamine Transporter in Prefrontal Cortex
 
-### Community 111 - "Neuroinflammation"
-Cohesion: 0.36
-Nodes (8): Cytokines, Extracellular neuromelanin, Glial cells, Iba1, Microglia, Microgliosis, Neuroinflammation, Neuronophagia
+### Community 104 - "MYC"
+Cohesion: 0.25
+Nodes (8): ER stress, Lysosomal biogenesis, Lysosome biogenesis, MYC, Osteoclast development, TFE3, TFEB for CLEAR element, Xp11 translocation RCC
 
-### Community 112 - "Heart Rate Variability"
+### Community 105 - "Heart Rate Variability"
 Cohesion: 0.33
 Nodes (7): ACTH, Autonomic Nervous System, Cortisol, Heart Rate Variability, Parasympathetic Nervous System, Sympathetic Nervous System, Vagus Nerve
 
-### Community 113 - "MyD88"
+### Community 106 - "MyD88"
 Cohesion: 0.33
 Nodes (7): Adaptor Protein, IL-1R, IRAK1, IRAK4, MyD88, Myddosome, Senescent Cells to Macrophages
 
-### Community 114 - "N-(carboxymethyl)-lysine"
+### Community 107 - "N-(carboxymethyl)-lysine"
 Cohesion: 0.29
 Nodes (7): AGE-modified proteins, Arterial Stiffening, Cathepsin B, Cathepsin D, Heart, N-(carboxymethyl)-lysine, Troponin
 
-### Community 115 - "Relocalization of Chromatin Modifiers (RCM) Hypothesis"
-Cohesion: 0.29
-Nodes (7): aging results from progressive loss of epigenetic information, Antagonistic Pleiotropy, Chromatin Modifiers, Double-Strand Break, Epigenetic Landscape, RCM (Relocalization of Chromatin Modifiers), Relocalization of Chromatin Modifiers (RCM) Hypothesis
-
-### Community 116 - "Glycation"
+### Community 108 - "Glycation"
 Cohesion: 0.29
 Nodes (7): Amadori products, Fructosyl-Amino Acid Oxidases, Glycation, Hemoglobin A1c, Kaempferol, protein function, Schiff base
 
-### Community 117 - "Silver"
+### Community 109 - "Insulin Resistance"
 Cohesion: 0.29
-Nodes (7): Argentite and chlorargyrite minerals, DNA, RNA and proteins, Gold, Inhalation, oral and dermal routes, Liver, Metallic element, Silver
+Nodes (7): Branched-Chain Amino Acids, Dietary Advanced Glycation End Products, Dietary AGE Restriction, Insulin Resistance, Non-alcoholic Fatty Liver Disease, serum AGE levels, Wound Healing
 
-### Community 118 - "Nitric Oxide"
-Cohesion: 0.33
-Nodes (7): Arginase, Hypotension, Inducible Nitric Oxide Synthase, L-arginine, Nitric Oxide, Nitric Oxide Synthase, Soluble Guanylyl Cyclase
+### Community 110 - "Mitochondrial Dysfunction"
+Cohesion: 0.48
+Nodes (7): Complex I, Mitochondrial Dysfunction, Monoamine oxidase B, MPP+, MPTP, Neurotoxin, Stem Cell Exhaustion
 
-### Community 119 - "Acute Stress-Associated Phenotype"
-Cohesion: 0.47
-Nodes (6): Acute Stress-Associated Phenotype, ATM, HSPA8, KAP1, TRAF6, TXNDC5
-
-### Community 120 - "BDNF"
-Cohesion: 0.33
-Nodes (6): BDNF, Beta-hydroxybutyrate, CREB, Depression, SIRT1 (via Hes1 deacetylation), TrkB
-
-### Community 121 - "Methemoglobinemia"
-Cohesion: 0.40
-Nodes (6): Benzocaine, Co-oximetry, Cytochrome b5 reductase, Dapsone, Methemoglobinemia, Sodium nitrite
-
-### Community 122 - "Luteolin"
+### Community 111 - "Luteolin"
 Cohesion: 0.33
 Nodes (6): Blood-Brain Barrier, Flavone, Luteolin, neuroprotective properties, NF-kB signaling, Nrf2 pathway
 
-### Community 123 - "TFE3"
+### Community 112 - "MTRR"
 Cohesion: 0.33
-Nodes (6): ER stress, Lysosomal biogenesis, Lysosome biogenesis, Osteoclast development, TFE3, Xp11 translocation RCC
+Nodes (6): Methionine Synthase, methionine synthase activity, MTRR, oxidized cobalamin cofactor, SAMe production, Vitamin B12 cofactor
 
-### Community 124 - "Methemoglobin"
-Cohesion: 0.33
-Nodes (6): Hemoglobin, Methemoglobin, NADH-dependent methemoglobin reductase, Oxygen, Oxygen-dissociation curve, Oxyhemoglobin
-
-### Community 125 - "CD38 inhibitor 78c"
+### Community 113 - "CD38 inhibitor 78c"
 Cohesion: 0.40
 Nodes (5): ~14%, CD38 inhibitor 78c, CD38 (NAD+-glycohydrolase), NAD+ levels, Sirtuin activity (SIRT1, SIRT3)
 
-### Community 126 - "Leuco-adrenochrome"
-Cohesion: 0.40
-Nodes (5): Adrenaline-quinone, Impurity marker, Leuco-adrenochrome, Redox Cycling, Reference standard
-
-### Community 127 - "Lifespan"
+### Community 114 - "Lifespan"
 Cohesion: 0.40
 Nodes (5): AGE inhibition, High-AGE diet, Hyperglycemia, Lifespan, NAD+/NADH redox imbalance
 
-### Community 128 - "Regulatory T cells"
+### Community 115 - "Regulatory T cells"
 Cohesion: 0.40
 Nodes (5): Aryl Hydrocarbon Receptor, Kynurenine, Microbial Exposure, N-Formylkynurenine, Regulatory T cells
 
-### Community 129 - "Intermittent Fasting"
+### Community 116 - "Catecholamines"
+Cohesion: 0.40
+Nodes (5): Catecholamines, COMT Inhibitors, methyl donor supplements, Monoamine Oxidase Inhibitor, slow COMT
+
+### Community 117 - "Intermittent Fasting"
 Cohesion: 0.40
 Nodes (5): CD73, H19, Human Growth Hormone, IGF1, Intermittent Fasting
 
-### Community 130 - "SIRT3 deficiency"
+### Community 118 - "SIRT3 deficiency"
 Cohesion: 0.40
 Nodes (5): Cell transformation, colon cancer cell proliferation, invasion, and migration, Lung fibrosis via TGF-β1, SIRT3 deficiency, Type 2 Diabetes
 
-### Community 131 - "OPA1"
-Cohesion: 0.50
-Nodes (5): DELE1, Dominant Optic Atrophy, HRI, OMA1, OPA1
-
-### Community 132 - "DGCR8"
+### Community 119 - "DGCR8"
 Cohesion: 0.40
 Nodes (5): DGCR8, Embryoid Bodies, HeLa Cells, Leukemia inhibitory factor, Retinoic Acid
 
-### Community 133 - "PARK7"
+### Community 120 - "PARK7"
 Cohesion: 0.40
 Nodes (5): DJ-1, Glycolic acid, Glyoxalase System, Methylglyoxal, PARK7
 
-### Community 134 - "Sir2 (yeast)"
+### Community 121 - "Microgliosis"
+Cohesion: 0.40
+Nodes (5): Extracellular neuromelanin, Iba1, Microglia, Microgliosis, Neuronophagia
+
+### Community 122 - "Sir2 (yeast)"
 Cohesion: 0.40
 Nodes (5): Extrachromosomal rDNA Circles (ERCs), Mother cell, Sas2p, Sir2 (yeast), Sirtuins (SIRT1–7)
 
-### Community 135 - "HLH-30"
+### Community 123 - "HLH-30"
 Cohesion: 0.40
 Nodes (5): HLH-30, Longevity in C. elegans, Lysosomal lipase genes, Nucleus during fasting, Starvation survival
 
-### Community 136 - "Suramin"
+### Community 124 - "Suramin"
 Cohesion: 0.40
 Nodes (5): NF675, SIRT1-selective inhibitor, SIRT1, SIRT2 and SIRT5, SIRT5 pockets B, C and substrate-binding site, Suramin
 
-### Community 137 - "Adenosylcobalamin"
+### Community 125 - "Adenosylcobalamin"
 Cohesion: 0.50
 Nodes (4): active coenzyme form of B12, Adenosylcobalamin, mitochondrial health, non-methylated B12 alternative
 
-### Community 138 - "SIRT6 overexpression"
+### Community 126 - "Genistein"
+Cohesion: 0.50
+Nodes (4): Advanced Glycation End Products formation, Genistein, Nitric Oxide bioavailability, Pyridoxamine
+
+### Community 127 - "SIRT6 overexpression"
 Cohesion: 0.50
 Nodes (4): Apoptosis in cancer cell lines, apoptosis in tumor cells, diet-induced obesity, SIRT6 overexpression
 
-### Community 139 - "Sirtinol"
+### Community 128 - "Sirtinol"
 Cohesion: 0.50
 Nodes (4): Apoptotic and autophagic cell death (MCF-7), Breast, lung, prostate and leukemia cancer cells, Senescence-like growth arrest, Sirtinol
 
-### Community 140 - "Aspirin"
+### Community 129 - "Aspirin"
 Cohesion: 0.50
 Nodes (4): Aspirin, cardiovascular disease in slow COMT, CVD in fast COMT, fast COMT genotype
 
-### Community 141 - "ULK1"
+### Community 130 - "ULK1"
 Cohesion: 0.50
 Nodes (4): Autophagosome, Phagophore Assembly Site, ULK1, ULK1, ATG13, FIP200, ATG101
 
-### Community 142 - "Cambinol"
+### Community 131 - "Cambinol"
 Cohesion: 0.50
 Nodes (4): Burkitt lymphoma cell lines, Cambinol, Cancer cell migration and invasion, Cancer cells to chemotherapy
 
-### Community 143 - "Necroptosis"
-Cohesion: 0.50
-Nodes (4): c-FLIP, Necroptosis, PGAM5, TNF-alpha with blocked NF-kappaB
-
-### Community 144 - "Salermide"
+### Community 132 - "Salermide"
 Cohesion: 0.50
 Nodes (4): Cancer cell lines (MOLT4, MDA-MB-231, RKO), Colorectal cancer stem cells, Proapoptotic genes (via H4K16ac), Salermide
 
-### Community 145 - "Mediterranean Diet"
+### Community 133 - "Mediterranean Diet"
 Cohesion: 0.50
 Nodes (4): Cardiovascular Disease risk, Lipid profile (raises HDL, reduces LDL oxidation), Mediterranean Diet, SIRT1 (via resveratrol)
 
-### Community 146 - "Selective Autophagy"
-Cohesion: 0.50
-Nodes (4): Damaged peroxisomes, Peroxisome, Selective Autophagy, Very Long Chain Fatty Acids
-
-### Community 147 - "SIRT7 depletion"
+### Community 134 - "SIRT7 depletion"
 Cohesion: 0.50
 Nodes (4): DNA repair and chromatin compaction, p38/MAPK signaling activation, premature ageing, SIRT7 depletion
 
-### Community 148 - "ELK4"
+### Community 135 - "Modafinil"
+Cohesion: 0.50
+Nodes (4): dopaminergic neurotransmission, Modafinil, narcolepsy, nootropic
+
+### Community 136 - "ELK4"
 Cohesion: 0.50
 Nodes (4): ELK1, ELK4, ETS transcription factor, SIRT7 at target gene promoters
 
-### Community 149 - "STACs"
+### Community 137 - "STACs"
 Cohesion: 0.50
 Nodes (4): Fluorescent substrate artifacts, K-type allosteric activation (lowers Km), SIRT1 KM for substrates, STACs
 
-### Community 150 - "Hydroxocobalamin"
+### Community 138 - "Hydroxocobalamin"
 Cohesion: 0.50
 Nodes (4): Hydroxocobalamin, methyl trap, non-methylated B12 form for slow COMT, precursor to active B12 forms
 
-### Community 151 - "Mitochondrial Permeability Transition Pore"
+### Community 139 - "PI3K"
+Cohesion: 0.50
+Nodes (4): IRS1, PI3K, PTEN, SK61_2
+
+### Community 140 - "Mitochondrial Permeability Transition Pore"
 Cohesion: 0.83
 Nodes (4): MICU1, MICU2, Mitochondrial Permeability Transition Pore, Ryanodine Receptor
 
-### Community 152 - "Fructosamine-3-kinase"
+### Community 141 - "Fructosamine-3-kinase"
 Cohesion: 0.67
 Nodes (3): 3-deoxyglucosone, Fructosamine, Fructosamine-3-kinase
 
-### Community 153 - "Adrenoleukodystrophy"
+### Community 142 - "Adrenoleukodystrophy"
 Cohesion: 0.67
 Nodes (3): ABCD1, ABCD1 mutation, Adrenoleukodystrophy
 
-### Community 154 - "adrenochrome synthesis"
+### Community 143 - "adrenochrome synthesis"
 Cohesion: 0.67
 Nodes (3): adrenochrome synthesis, Bismuth, Sodium hydrogencarbonate
 
-### Community 155 - "FOXO1"
+### Community 144 - "FOXO1"
 Cohesion: 0.67
 Nodes (3): Akt inhibits autophagy, FOXO1, SIRT6 deficiency (macrophages)
 
-### Community 156 - "TCA cycle"
+### Community 145 - "TCA cycle"
 Cohesion: 0.67
 Nodes (3): Allosteric Regulation, TCA cycle, Valine
 
-### Community 157 - "SIRT1 overexpression"
+### Community 146 - "SIRT1 overexpression"
 Cohesion: 0.67
 Nodes (3): α-synuclein aggregates (Parkinson's disease), obesity-associated metabolic derangement, SIRT1 overexpression
 
-### Community 158 - "SIRT3 activation"
+### Community 147 - "SIRT3 activation"
 Cohesion: 0.67
 Nodes (3): ALS motor neuron metabolic abnormalities, MIP-2, SIRT3 activation
 
-### Community 159 - "AMPK activation"
+### Community 148 - "AMPK activation"
 Cohesion: 0.67
 Nodes (3): AMPK activation, Peroxisome Biogenesis, SIRT1 activity in triple-negative breast cancer
 
-### Community 160 - "Atrial natriuretic peptide"
+### Community 149 - "Atrial natriuretic peptide"
 Cohesion: 0.67
 Nodes (3): Atrial natriuretic peptide, BNP, cGMP
 
-### Community 161 - "MYC"
-Cohesion: 0.67
-Nodes (3): BET inhibitors, MYC, TFEB for CLEAR element
-
-### Community 162 - "TRPML1"
+### Community 150 - "TRPML1"
 Cohesion: 0.67
 Nodes (3): Ca2+ from lysosomes, Lysosomal Ca2+ efflux, TRPML1
 
-### Community 163 - "Cytochrome c"
-Cohesion: 0.67
-Nodes (3): Caspases, Cytochrome c, Toluidine Blue O
-
-### Community 164 - "SLC7A11"
+### Community 151 - "SLC7A11"
 Cohesion: 0.67
 Nodes (3): Cystine, Erastin, SLC7A11
 
-### Community 165 - "DNA Ligase IV"
+### Community 152 - "DNA Ligase IV"
 Cohesion: 0.67
 Nodes (3): DNA Ligase IV, double-strand breaks in NHEJ, Non-homologous End Joining
 
-### Community 166 - "Nicotinic acid"
+### Community 153 - "Nicotinic acid"
 Cohesion: 0.67
 Nodes (3): Dyslipidemia, Flushing, Nicotinic acid
 
-### Community 167 - "elevated homocysteine"
+### Community 154 - "elevated homocysteine"
 Cohesion: 0.67
 Nodes (3): elevated homocysteine, MTHFD1 variants, MTRR A66G polymorphism
 
-### Community 168 - "Ferroptosis in IDD"
+### Community 155 - "Ferroptosis in IDD"
 Cohesion: 0.67
 Nodes (3): Ferroptosis in IDD, Lactylation, Nucleus Pulposus
 
-### Community 169 - "Fucoidan"
+### Community 156 - "Fucoidan"
 Cohesion: 0.67
 Nodes (3): Fucoidan, Healthspan and lifespan (aged mice), LINE-1 expression (HGPS fibroblasts)
 
-### Community 170 - "Hippocampus"
-Cohesion: 0.67
-Nodes (3): Hippocampus, memory consolidation, spatial navigation
-
-### Community 171 - "SAH"
+### Community 157 - "SAH"
 Cohesion: 0.67
 Nodes (3): Histone Methylation, SAH, TMG
 
-### Community 172 - "LC3"
+### Community 158 - "Splitomicin"
+Cohesion: 0.67
+Nodes (3): Ischemic preconditioning cardioprotection, Sir2 in S. cerevisiae (weakly inhibits human SIRT1), Splitomicin
+
+### Community 159 - "LC3"
 Cohesion: 0.67
 Nodes (3): LC3, LIR Motif, p62/SQSTM1
 
-### Community 173 - "LipA"
+### Community 160 - "LipA"
 Cohesion: 0.67
 Nodes (3): LipA, LIPL-1, LIPL-3
 
-### Community 174 - "SIRT2 inhibition"
+### Community 161 - "SIRT2 inhibition"
 Cohesion: 0.67
 Nodes (3): LMO2 deacetylation, Resistance to microtubule inhibitors, SIRT2 inhibition
 
-### Community 175 - "SARS-CoV-2"
+### Community 162 - "SARS-CoV-2"
 Cohesion: 0.67
 Nodes (3): Lymphopenia, NAD+ Metabolism, SARS-CoV-2
 
-### Community 176 - "mTORC1 to lysosomes"
+### Community 163 - "mTORC1 to lysosomes"
 Cohesion: 0.67
 Nodes (3): mTORC1 to lysosomes, Rag proteins, Ragulator
 
-### Community 177 - "Sirtuin deacetylation reaction"
+### Community 164 - "Sirtuin deacetylation reaction"
 Cohesion: 0.67
 Nodes (3): NAM (nicotinamide) and O-acetyl-ADP-ribose, OAADPr (2'-O-acetyl-ADP-ribose), Sirtuin deacetylation reaction
 
-### Community 178 - "Tenovins"
+### Community 165 - "Tenovins"
 Cohesion: 0.67
 Nodes (3): p53 (via hyperacetylation), Tenovins, Xenograft models
 
-### Community 179 - "SMAD3"
+### Community 166 - "SMAD3"
 Cohesion: 0.67
 Nodes (3): Pathological fibrosis, SMAD3, TGF-beta1
 
-### Community 180 - "Zellweger syndrome"
+### Community 167 - "Zellweger syndrome"
 Cohesion: 0.67
 Nodes (3): PEX1 mutation, PEX gene mutations, Zellweger syndrome
 
-### Community 181 - "SRT1460"
+### Community 168 - "SRT1460"
 Cohesion: 0.67
 Nodes (3): SRT1460, SRT2183, Synthetic STAC
 
@@ -1255,9 +1189,9 @@ Nodes (3): SRT1460, SRT2183, Synthetic STAC
   task_output_sirt1_ktype_allosteric_activation_14_August_2026.md · relation: modulates
 
 ## Knowledge Gaps
-- **1905 isolated node(s):** `2-Chlorophenothiazine`, `5Z-7-oxozeaenol`, `ACE Inhibitors`, `Acetate`, `PUFA` (+1900 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 1905 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **216 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **1903 isolated node(s):** `2-Chlorophenothiazine`, `5Z-7-oxozeaenol`, `ACE Inhibitors`, `Acetate`, `PUFA` (+1898 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 1903 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **215 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -1282,7 +1216,7 @@ Context fields are stored as a BCP-47 map (`en-US`, `zh-TW`); `en-US` is canonic
 
 | Metric | Count |
 | --- | --- |
-| Triples processed | 5189 |
+| Triples processed | 5236 |
 | Missing zh-TW context (falls back to en-US) | 0 |
 | Missing created/updated timestamps | 0 |
-| Stale triples (`updated` < source note mtime) | 482 |
+| Stale triples (`updated` < source note mtime) | 840 |

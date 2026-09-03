@@ -14670,5 +14670,467 @@
     "source_document": "Zscan4.md",
     "created": "2026-09-02T06:56:57Z",
     "updated": "2026-09-02T06:56:57Z"
+  },
+  {
+    "id": "20136feae632",
+    "subject": "MnSOD",
+    "predicate": "upregulated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen (E2) transcriptionally upregulates MnSOD (SOD2), giving premenopausal females higher SOD2 protein abundance and enhanced mitochondrial antioxidant capacity that lowers oxidative damage. This female advantage is lost at menopause as estrogen declines, and the SOD2 Ala16Val polymorphism shows sex-specific cancer associations (stronger in males for prostate/lung, females for breast).",
+      "zh-TW": "雌激素（E2）在轉錄層面上調 MnSOD（SOD2），使停經前女性具較高的 SOD2 蛋白豐度與較強的粒線體抗氧化能力，進而降低氧化損傷。此女性優勢會因停經後雌激素下降而喪失，SOD2 Ala16Val 多型性亦呈現性別特異的癌症關聯（男性較強於攝護腺/肺癌，女性於乳癌）。"
+    },
+    "confidence": 0.85,
+    "source_document": "MnSOD.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "99be973e2896",
+    "subject": "MnSOD",
+    "predicate": "deacetylated_by",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "SIRT3 deacetylates and activates MnSOD in the mitochondrial matrix, coupling the estrogen-driven upregulation of SIRT3 (female-biased) to superoxide clearance. At menopause the post-menopausal decline in SIRT3 reduces SOD2 deacetylation, accelerating female cardiac aging — the 'estrogen cliff' shared across the sirtuin hub.",
+      "zh-TW": "SIRT3 在粒線體基質中將 MnSOD 去乙醯化並加以活化，使雌激素驅動的 SIRT3 上調（女性偏倚）與超氧自由基清除相耦合。停經後 SIRT3 下降會降低 SOD2 去乙醯化，加速女性心臟老化——此即 sirtuin 樞紐共享的「雌激素懸崖」。"
+    },
+    "confidence": 0.8,
+    "source_document": "SIRT3.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "424663035afc",
+    "subject": "p53",
+    "predicate": "regulated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "The p53 promoter contains 4 estrogen receptor alpha (ERα) responsive elements, so estrogen dually regulates p53: it activates p53 transcription while also physically sequestering the protein and inhibiting its pro-apoptotic function. X-linked miRNAs (e.g., miR-504) target the TP53 3'-UTR, giving females a dosage advantage in p53 regulation; TP53 mutation frequency is higher in male tumors across 12 non-reproductive cancer types (Haupt et al., 2019).",
+      "zh-TW": "p53 啟動子含 4 個雌激素受體 α（ERα）反應元件，因此雌激素對 p53 具雙重調控：既激活 p53 轉錄，又將蛋白質物理隔離並抑制其促凋亡功能。X 染色體連結的 miRNAs（如 miR-504）作用於 TP53 3'-UTR，使女性在 p53 調控上具劑量優勢；在 12 種非生殖性癌症中男性腫瘤的 TP53 突變頻率較高（Haupt 等，2019）。"
+    },
+    "confidence": 0.75,
+    "source_document": "p53.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "67293b630745",
+    "subject": "p53",
+    "predicate": "biased_toward",
+    "object": "Senescence",
+    "context": {
+      "en-US": "In the unified sex-specific cell-death framework, sex hormones bias the p53-dependent choice between apoptosis and senescence: females favor the p53→p21→senescence arm, while male cells bias toward the PARP1-dependent necrotic arm of the same p53/AIF axis (see Apoptosis, Caspases).",
+      "zh-TW": "在統一的性別特異細胞死亡架構中，性荷爾蒙使 p53 依賴性的凋亡—衰老抉擇產生性別偏差：女性偏重 p53→p21→衰老分支，而男性細胞則偏向同一 p53/AIF 軸的 PARP1 依賴壞死分支（見 Apoptosis、Caspases）。"
+    },
+    "confidence": 0.7,
+    "source_document": "p53.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "5c5c733a3481",
+    "subject": "p53",
+    "predicate": "interacts_with",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "p53 transcriptionally drives pro-apoptotic BAX/PUMA/NOXA targets, coupling the p53 and Bcl-2 sex axes: estrogen pushes p53 toward these targets (pro-apoptotic) in some tissues while sequestering it (anti-apoptotic) in others, and the Bcl-2/BAX ratio is a central determinant of the sex-specific apoptotic threshold.",
+      "zh-TW": "p53 在轉錄層面驅動促凋亡的 BAX/PUMA/NOXA 標的，使 p53 與 Bcl-2 性別軸相耦合：雌激素在某些組織將 p53 推向這些標的（促凋亡），在另一些組織則將其隔離（抗凋亡），而 Bcl-2/BAX 比值是性別特異凋亡閾值的核心決定因素。"
+    },
+    "confidence": 0.7,
+    "source_document": "p53.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "499b9c0eff68",
+    "subject": "Apoptosis",
+    "predicate": "preferentially_executed_by",
+    "object": "Females",
+    "context": {
+      "en-US": "This is the most fundamental sex difference in the vault's cell-death biology: under stress, cells of female (XX) origin preferentially undergo caspase-dependent apoptosis (controlled, non-inflammatory), while male (XY) cells preferentially die by PARP-1/AIF-dependent necrosis (uncontrolled, proinflammatory). The divergence is cell-autonomous, persisting in hormone-free media and prepubertal animals, with major implications for stroke, MI, neurodegeneration and cancer therapy.",
+      "zh-TW": "這是資料庫細胞死亡生物學中最根本的性別差異：在壓力下，女性（XX）來源的細胞優先進行依賴 caspases 的凋亡（受控、非發炎），而男性（XY）細胞則偏好 PARP-1/AIF 依賴的壞死（不受控、促發炎）。此差異具細胞自主性，在無荷爾蒙培養基與青春期前動物中皆持續存在，對中風、心肌梗塞、神經退化與癌症治療具重大意義。"
+    },
+    "confidence": 0.85,
+    "source_document": "Apoptosis.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "66043062ae8f",
+    "subject": "Apoptosis",
+    "predicate": "inhibited_by",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Estrogen-driven Bcl-2 upregulation raises the female apoptotic threshold: post-ischemic Bcl-2 is >60% higher in female brains (Dubal et al., J Neurosci 1999), and both BAX knockout (Forger et al., PNAS 2004) and Bcl-2 overexpression (Zup et al., J Neurosci 2003) eliminate sex differences in neuron number — establishing the Bcl-2/BAX axis as the genetic basis of sex differences in cell number.",
+      "zh-TW": "雌激素驅動的 Bcl-2 上調提高女性凋亡閾值：缺血後女性腦部 Bcl-2 升高逾 60%（Dubal 等，J Neurosci 1999）；BAX 基因剔除（Forger 等，PNAS 2004）與 Bcl-2 過量表現（Zup 等，J Neurosci 2003）皆能消除神經元數目的性別差異——確立 Bcl-2/BAX 軸為細胞數目性別差異的基因基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Bcl-2.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "c2c4af212b3e",
+    "subject": "Apoptosis",
+    "predicate": "opposed_by",
+    "object": "PARP1",
+    "context": {
+      "en-US": "PARP-1 is the male-preferred death effector: XY cells die via PARP-1/AIF-dependent necrosis rather than caspases. PARP-1 knockout protects males from ischemic brain injury but exacerbates damage in females, and loss of PARP-1 abrogates estradiol's neuroprotective potential — the mirror image of the XX-caspase arm.",
+      "zh-TW": "PARP-1 是男性偏好的死亡效應因子：XY 細胞經 PARP-1/AIF 依賴的壞死而非 caspases 死亡。PARP-1 基因剔除保護雄性免於缺血性腦損傷，但在雌性卻加重損傷，且失去 PARP-1 會取消雌二醇的神經保護潛能——此為 XX-caspase 分支的鏡像。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "60fe4fa3c9a3",
+    "subject": "Apoptosis",
+    "predicate": "coupled_to",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Caspases are the executioner proteases of the female-preferred (XX) death arm: female cells show higher and earlier caspase-3 (Liu et al., Stroke 2009) and ~3x greater, uniquely nuclear-translocating caspase-8 (Sharma et al., ASN Neuro 2011) after ischemia, and pan-caspase inhibition protects females but not males in experimental stroke.",
+      "zh-TW": "Caspases 是女性偏好（XX）死亡分支的執行蛋白酶：缺血後女性細胞的 caspase-3 較高且更早（Liu 等，Stroke 2009），caspase-8 約 3 倍且具 XX 特有的核轉位（Sharma 等，ASN Neuro 2011），而廣效 caspase 抑制在實驗性中風中僅保護雌性而對雄性無效。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "1c39c146cd49",
+    "subject": "Caspases",
+    "predicate": "activated_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Caspases are the female-preferred death effectors in the XX-caspase / XY-PARP-1-AIF framework. Caspase-3/8 activation is higher and earlier in female (XX) cells and neurons after ischemia, and pan-caspase inhibition protects females but not males in experimental stroke.",
+      "zh-TW": "Caspases 是 XX-caspase / XY-PARP-1-AIF 架構中女性偏好的死亡效應因子。缺血後女性（XX）細胞與神經元的 caspase-3/8 活化較高且較早，而廣效 caspase 抑制在實驗性中風中僅保護雌性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "7a173bc82e73",
+    "subject": "NAD+",
+    "predicate": "depleted_by",
+    "object": "PARP1",
+    "context": {
+      "en-US": "PARP-1 overactivation depletes NAD+: in the male (XY) death arm, PARP-1 hyperactivation consumes NAD+ leading to energetic collapse and AIF-mediated necrosis; male skin shows PARP activity that increases with age (inversely correlated with NAD+, r=-0.639), whereas female skin does not. Estrogen stabilizes PARP-1 on DNA, sparing NAD+ in females.",
+      "zh-TW": "PARP-1 過度活化會耗竭 NAD+：在男性（XY）死亡分支中，PARP-1 過度活化消耗 NAD+ 導致能量崩潰與 AIF 媒介壞死；男性皮膚的 PARP 活性隨年齡增加（與 NAD+ 負相關，r=-0.639），女性皮膚則否。雌激素使 PARP-1 穩定結合於 DNA，為女性節省 NAD+。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAD+.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "8db75b656231",
+    "subject": "NAD+",
+    "predicate": "maintained_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Women have higher NAD+/NADH redox ratios (1.33 vs 1.09) that narrow with biological age, and women's NAD+ levels fluctuate without the monotonic age decline seen in men. Estrogen stabilizes PARP-1 to spare NAD+, protecting sirtuin (SIRT1/SIRT3) activity into midlife; post-menopausal women face a 'double decline' as hormonal shifts compound age-related NAD+ changes.",
+      "zh-TW": "女性具較高的 NAD+/NADH 氧化還原比值（1.33 對 1.09），且隨生物年齡增寬而縮小；女性 NAD+ 水平波動，無男性那樣的單調年齡下降。雌激素使 PARP-1 穩定以節省 NAD+，將 sirtuin（SIRT1/SIRT3）活性保護至中年；停經後女性則面臨荷爾蒙變化與年齡相關 NAD+ 改變疊加的「雙重下降」。"
+    },
+    "confidence": 0.8,
+    "source_document": "NAD+.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "923cbd4d105b",
+    "subject": "NAD+",
+    "predicate": "links_to",
+    "object": "Telomere",
+    "context": {
+      "en-US": "NAD+ links the vault's sex-difference frameworks: the PARP1-driven, male-preferential NAD+ consumption engine feeds both the XY-necrosis death arm and the male-faster telomere attrition/DNA-damage burden. Estrogen, by stabilizing PARP-1, spares NAD+ in females, sustaining sirtuins and channeling female cell death through the less energetically costly, NAD+-sparing caspases arm.",
+      "zh-TW": "NAD+ 串起資料庫的性別差異架構：PARP1 驅動、男性偏好的 NAD+ 消耗引擎同時供給 XY-壞死死亡分支與男性較快的端粒磨耗/DNA 損傷負擔。雌激素藉由穩定 PARP-1 為女性節省 NAD+，維持 sirtuins 並使女性細胞死亡走向能量成本較低、節省 NAD+ 的 caspases 分支。"
+    },
+    "confidence": 0.8,
+    "source_document": "NAD+.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "65851cac14e3",
+    "subject": "Telomere",
+    "predicate": "longer_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Telomere length is sex-dimorphic from birth: females have longer telomeres at every age with a slower attrition rate (~26 bp/yr vs ~43 bp/yr in males; standardized sex difference +0.090 across 36 cohorts, n=36,230; Gardner et al., Exp Gerontol 2014). Mechanisms include pre-implantation biallelic expression of the X-linked telomerase component DKC1 (Lansdorp 2022), estrogen-driven TERT activation, and estrogen's antioxidant protection of telomeric DNA.",
+      "zh-TW": "端粒長度自出生即具性別雙型性：女性在每個年齡的端粒皆較長，磨耗率較慢（每年約 26 bp，男性約 43 bp；36 個世代、36,230 人標準化性別差異 +0.090；Gardner 等，Exp Gerontol 2014）。機制包括著床前 X 染色體連結端粒酶成分 DKC1 的雙對偶基因表現（Lansdorp 2022）、雌激素驅動的 TERT 活化，以及雌激素對端粒 DNA 的抗氧化保護。"
+    },
+    "confidence": 0.85,
+    "source_document": "Telomere.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "e9783dec0082",
+    "subject": "Telomere",
+    "predicate": "coupled_to",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Male-higher PARP-driven NAD+ consumption during DNA repair couples to faster telomere attrition, while female telomere maintenance (DKC1/estrogen→TERT) aligns with estrogen-stabilized PARP-1 and NAD+ sparing — connecting the telomere and NAD+ sex-difference frameworks.",
+      "zh-TW": "男性在 DNA 修復期間較高的 PARP 驅動 NAD+ 消耗與較快的端粒磨耗相耦合，而女性端粒維持（DKC1/雌激素→TERT）則與雌激素穩定 PARP-1 及節省 NAD+ 一致——將端粒與 NAD+ 的性別差異架構相連結。"
+    },
+    "confidence": 0.75,
+    "source_document": "Telomere.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "bfdcd7b2aea9",
+    "subject": "Telomere Attrition",
+    "predicate": "slower_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Telomere attrition is sex-dimorphic: females shorten telomeres more slowly (~26 bp/yr) than males (~43 bp/yr) (Gardner et al., Exp Gerontol 2014). Because females accumulate senescent cells less rapidly early in life, sex-stratified attrition rates gate the onset of replicative senescence and shape the sex differences documented across Senescence, SASP, and Senolytics.",
+      "zh-TW": "端粒磨耗具性別雙型性：女性（每年約 26 bp）比男性（每年約 43 bp）磨耗較慢（Gardner 等，Exp Gerontol 2014）。由於女性早期累積衰老細胞較慢，性別分層的磨耗率決定了複製性衰老的起始，並塑造 Senescence、SASP 與 Senolytics 中所記載的性別差異。"
+    },
+    "confidence": 0.8,
+    "source_document": "Telomere Attrition.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "f60e9e176a61",
+    "subject": "Inflammaging",
+    "predicate": "suppressed_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen is a female-specific brake on inflammaging: E2→ERβ raises IκBα and reduces NF-κB p65 promoter binding, repressing the SASP it drives, and also suppresses cGAS-STING signaling via ERα-HDAC3 deacetylation of the STING promoter. Males carry a higher basal inflammatory burden through most of life; premenopausal females are protected, then experience a sharp post-menopausal acceleration — the 'estrogen cliff'.",
+      "zh-TW": "雌激素是女性特異的發炎老化抑制器：E2→ERβ 提高 IκBα 並降低 NF-κB p65 啟動子結合，壓抑其驅動的 SASP，並經 ERα-HDAC3 去乙醯化 STING 啟動子而抑制 cGAS-STING 訊號。男性終其一生多數時間承擔較高的基礎發炎負擔；停經前女性受到保護，之後經歷急遽的停經後加速——「雌激素懸崖」。"
+    },
+    "confidence": 0.85,
+    "source_document": "Inflammaging.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "d9344cf05b35",
+    "subject": "STING",
+    "predicate": "suppressed_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen directly represses STING transcription: E2-bound ERα recruits HDAC3 to the STING/TMEM173 promoter, deacetylating histones and reducing STING expression (Chen et al., Cancers 2022). This makes the cGAS-STING→SASP cascade a sex-sensitive amplifier: aged males show higher cGAS/STING activity (lower mtDNA clearance; Feng et al., JCI Insight 2024), while premenopausal females are protected; loss of estrogen at menopause lifts HDAC3-mediated repression (post-menopausal derepression).",
+      "zh-TW": "雌激素直接抑制 STING 轉錄：與 E2 結合的 ERα 招募 HDAC3 至 STING/TMEM173 啟動子，去乙醯化組蛋白並降低 STING 表現（Chen 等，Cancers 2022）。這使 cGAS-STING→SASP 級聯成為性別敏感的放大器：年老男性 cGAS/STING 活性較高（mtDNA 清除較低；Feng 等，JCI Insight 2024），而停經前女性受到保護；停經後雌激素喪失會解除 HDAC3 媒介的壓抑（停經後去壓抑）。"
+    },
+    "confidence": 0.85,
+    "source_document": "STING.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "bc0a28d9818b",
+    "subject": "STING",
+    "predicate": "interacts_with",
+    "object": "cGAS",
+    "context": {
+      "en-US": "cGAS is the DNA sensor upstream of the sex-sensitive cGAS-STING→SASP cascade; the sex-regulatory node is STING, which estrogen suppresses via ERα-HDAC3 promoter deacetylation. Through this sex-biased STING tone, mitochondrial DNA leakage translates into a sex-specific burden of sterile inflammation and senescence.",
+      "zh-TW": "cGAS 是性別敏感 cGAS-STING→SASP 級聯上游的 DNA 感測器；性別調控節點是 STING，雌激素經 ERα-HDAC3 啟動子去乙醯化加以抑制。透過此性別偏倚的 STING 基調，粒線體 DNA 外漏轉化為性別特異的無菌性發炎與衰老負擔。"
+    },
+    "confidence": 0.8,
+    "source_document": "cGAS.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "4eda0f0ab30b",
+    "subject": "Bcl-2",
+    "predicate": "upregulated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen transcriptionally induces Bcl-2 (neuroprotection): post-ischemic Bcl-2 is >60% higher in female brains (Dubal et al., J Neurosci 1999; Alkayed et al., 2001). Estrogen also upregulates Bcl-w and downregulates Bim (Patterson et al., J Neurosci 2007). The higher female Bcl-2/Bax ratio favors survival and apoptotic resistance, and post-MI apoptosis is ~10x higher in men (25.9%) than women (2.6%) (Biondi-Zoccai et al., Heart 2005).",
+      "zh-TW": "雌激素在轉錄層面誘導 Bcl-2（神經保護）：缺血後女性腦部 Bcl-2 升高逾 60%（Dubal 等，J Neurosci 1999；Alkayed 等，2001）。雌激素亦上調 Bcl-w 並下調 Bim（Patterson 等，J Neurosci 2007）。女性較高的 Bcl-2/Bax 比值有利存活與凋亡抗性，而心肌梗塞後凋亡在男性（25.9%）約為女性（2.6%）的 10 倍（Biondi-Zoccai 等，Heart 2005）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Bcl-2.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "0d306b55f137",
+    "subject": "Bcl-2",
+    "predicate": "raises_apoptotic_threshold_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Estrogen-driven Bcl-2 sets the female anti-apoptotic setpoint that raises the apoptotic threshold on the XX-caspase arm of the unified cell-death framework. Because tumors in women face a higher apoptotic threshold, Bcl-2-family-dependent drug resistance in cancers such as Breast Cancer and Prostate Cancer must be interpreted through a sex-hormonal lens; senolytic BH3 mimetics (e.g., Navitoclax/ABT-263) target these same pro-survival proteins.",
+      "zh-TW": "雌激素驅動的 Bcl-2 設定女性的抗凋亡基準點，在統一細胞死亡架構的 XX-caspase 分支上提高凋亡閾值。由於女性腫瘤面對較高的凋亡閾值，乳癌與攝護腺癌等癌症中依賴 Bcl-2 家族的藥物抗藥性必須以性荷爾蒙觀點詮釋；衰老溶解 BH3 擬似物（如 Navitoclax/ABT-263）即靶向這些同類促存活蛋白。"
+    },
+    "confidence": 0.8,
+    "source_document": "Bcl-2.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "245a48743139",
+    "subject": "Cellular Senescence",
+    "predicate": "sex_dimorphic_in",
+    "object": "p16INK4A",
+    "context": {
+      "en-US": "Senescent-cell burden and the dominant arrest arm are sex-dependent: males accumulate more senescent cells earlier in life and skew toward the p53/p21 arm, whereas females carry a higher p16-positive load (especially in the liver) and derive the greatest benefit from p16+ cell clearance. p16+ and p21+ cells are distinct, largely non-overlapping subpopulations (Admas et al., EMBO J 2025).",
+      "zh-TW": "衰老細胞負擔與主要的停滯分支具性別依賴性：男性早年累積較多衰老細胞且偏向 p53/p21 分支，而女性攜帶較高的 p16 陽性負擔（尤其肝臟），並從 p16+ 細胞清除中獲得最大益處。p16+ 與 p21+ 細胞是截然不同、大致不重疊的亞群（Admas 等，EMBO J 2025）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cellular Senescence.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "6ab250c4a1cd",
+    "subject": "NF-κB",
+    "predicate": "suppressed_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen acts as an endogenous NF-κB suppressant through a bimodal ERβ mechanism: it enhances IκBα expression (sequestering NF-κB in the cytoplasm) and reduces p65/RelA binding to pro-inflammatory promoters (Giroux et al., PLoS ONE 2012). In situ, the MyD88/methylated-ERα complex required for NF-κB activity is found in 35/35 testicular and 3/11 post-menopausal ovarian samples but 0/29 pre-menopausal ovaries. Loss of estrogen at menopause derepresses NF-κB (the 'estrogen cliff').",
+      "zh-TW": "雌激素透過雙模 ERβ 機制作為內源性 NF-κB 抑制劑：提高 IκBα 表現（將 NF-κB 隔離於細胞質）並降低 p65/RelA 對促發炎啟動子的結合（Giroux 等，PLoS ONE 2012）。原位證據顯示，NF-κB 活性所需的 MyD88/甲基化 ERα 複合體存在於 35/35 睪丸與 3/11 停經後卵巢樣本，但在 0/29 停經前卵巢樣本中。停經後雌激素喪失會解除對 NF-κB 的壓抑（「雌激素懸崖」）。"
+    },
+    "confidence": 0.85,
+    "source_document": "NF-κB.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "87769420e914",
+    "subject": "NF-κB",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "NF-κB is the master transcriptional regulator of the SASP, and its estrogen-driven suppression gives premenopausal females a lower SASP burden. The sex-dependent SASP burden and its role in the post-menopausal 'estrogen cliff' connect the NF-κB and SASP sex-difference frameworks.",
+      "zh-TW": "NF-κB 是 SASP 的主要轉錄調控因子，其受雌激素驅動的壓抑使停經前女性具有較低的 SASP 負擔。性別依賴的 SASP 負擔及其在停經後「雌激素懸崖」中的角色，將 NF-κB 與 SASP 的性別差異架構相連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "NF-κB.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "ec9e75024307",
+    "subject": "AMPK",
+    "predicate": "activated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Hepatic AMPK induction under fructose/MASLD is ~3-fold higher in males; female protection is tied to estrogen→AMPK activation, so estrogens directly activate AMPK (via upstream kinase signaling) and contribute to female metabolic protection. AMPK's reciprocal loop with SIRT1 (AMPK raises NAD+ to activate SIRT1; SIRT1 deacetylates LKB1 to activate AMPK) is modulated by estrogen through the sirtuin hub.",
+      "zh-TW": "果糖/MASLD 下的肝臟 AMPK 誘導在雄性約高 3 倍；雌性保護與雌激素→AMPK 活化相關，故雌激素直接活化 AMPK（經上游激酶訊號）並促成女性代謝保護。AMPK 與 SIRT1 的互惠迴路（AMPK 提高 NAD+ 以活化 SIRT1；SIRT1 去乙醯化 LKB1 以活化 AMPK）經由 sirtuin 樞紐受雌激素調控。"
+    },
+    "confidence": 0.75,
+    "source_document": "AMPK.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "85a5767dec7b",
+    "subject": "mTORC1",
+    "predicate": "sex_and_fed_state_dependent",
+    "object": "Females",
+    "context": {
+      "en-US": "mTORC1 activation (p70S6K1) is higher in males when fasted and higher in females when fed (Am J Physiol Regul Integr 2024); female cardiac mTOR signaling is ERβ-specified while males maintain both mTORC1/mTORC2 (Gürgen, Hypertension 2013). Sex and feeding state must therefore be reported alongside phospho-S6K1/S6 mTORC1 readouts.",
+      "zh-TW": "mTORC1 活化（p70S6K1）在禁食時雄性較高、進食時雌性較高（Am J Physiol Regul Integr 2024）；雌性心臟 mTOR 訊號為 ERβ 所指定，而雄性維持 mTORC1/mTORC2 兩者（Gürgen，Hypertension 2013）。因此性別與進食狀態須與 phospho-S6K1/S6 的 mTORC1 讀數一併報告。"
+    },
+    "confidence": 0.8,
+    "source_document": "mTORC1.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "9e59fc92fd4b",
+    "subject": "Rapamycin",
+    "predicate": "extends_lifespan_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Females show greater relative lifespan extension from rapamycin, replicated across three ITP cohorts and partly via higher blood drug levels in females (Miller, Aging Cell 2014; Harrison, Nature 2009); yet 3-month early-life exposure benefits males only, whereas lifetime dosing benefits both (Strong, Aging Cell 2020).",
+      "zh-TW": "雌性自雷帕黴素獲得的相對壽命延長較大，已在三個 ITP 世代複製，部分歸因於雌性較高的血液藥物濃度（Miller，Aging Cell 2014；Harrison，Nature 2009）；但三個月的早期暴露僅使雄性獲益，而終身劑量則對兩性皆有益（Strong，Aging Cell 2020）。"
+    },
+    "confidence": 0.85,
+    "source_document": "mTORC1.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "c344ee7cb855",
+    "subject": "Breast Cancer",
+    "predicate": "driven_by",
+    "object": "Estrogen Receptor",
+    "context": {
+      "en-US": "Breast cancer is the female-estrogen pole of the vault's hormone-driven cancer principle: ~70% of breast cancers are hormone-receptor-positive and the major driver of luminal disease is estrogen signaling through ERα. Sirtuin-family enzymes interface with ERα signaling (SIRT1 represses ERα-mediated proliferative responses; SIRT3 disrupts ERα-p53 interaction), and estrogen-driven prosurvival autophagy in ER+ cells contributes to anti-estrogen resistance.",
+      "zh-TW": "乳癌是資料庫荷爾蒙驅動癌症原則的女性—雌激素極點：約 70% 乳癌為荷爾蒙受體陽性，且管腔型疾病的主要驅動力是經 ERα 的雌激素訊號。Sirtuin 家族酶與 ERα 訊號交互作用（SIRT1 抑制 ERα 媒介的增殖反應；SIRT3 破壞 ERα-p53 交互作用），而 ER+ 細胞中雌激素驅動的促存活自噬促成抗雌激素抗藥性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Breast Cancer.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "50183e4dd3da",
+    "subject": "Prostate Cancer",
+    "predicate": "driven_by",
+    "object": "Androgen Receptor",
+    "context": {
+      "en-US": "Prostate cancer is the clearest male-specific malignancy driven by androgen-receptor signaling — the male-androgen mirror of the estrogen-driven paradigm in Breast Cancer. Androgen-AR signaling couples to mTORC1 activation in male cancers (Gökduman 2023), and AR and the PI3K/AKT/mTOR network show reciprocal negative feedback. ADT (androgen deprivation) is the archetypal male sex-hormone-targeted therapy.",
+      "zh-TW": "攝護腺癌是由雄激素受體訊號驅動的最明確男性特異惡性腫瘤——乳癌雌激素驅動典範的男性—雄激素鏡像。雄激素-AR 訊號在男性癌症中與 mTORC1 活化相耦合（Gökduman 2023），且 AR 與 PI3K/AKT/mTOR 網絡呈互惠性負回饋。ADT（雄激素剝奪）是典型的男性性荷爾蒙標靶療法。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prostate Cancer.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "5780e21e6bd0",
+    "subject": "Prostate Cancer",
+    "predicate": "mirrors",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "Prostate cancer and breast cancer are the two poles of a single vault-wide principle: sex-hormone-receptor signaling (AR in males, ER in females) is the master determinant of hormone-driven tumor biology, and the same hormones drive the sex differences seen throughout Apoptosis, mTORC1, NF-κB, and Senescence.",
+      "zh-TW": "攝護腺癌與乳癌是單一全域原則的兩極：性荷爾蒙受體訊號（雄性為 AR，雌性為 ER）是荷爾蒙驅動腫瘤生物學的主要決定因素，且相同荷爾蒙驅動 Apoptosis、mTORC1、NF-κB 與 Senescence 中所見的性別差異。"
+    },
+    "confidence": 0.85,
+    "source_document": "Breast Cancer.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "74d8e4e0472b",
+    "subject": "Estrogen",
+    "predicate": "suppresses",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Estrogen is a master sex-difference mediator acting as an endogenous NF-κB suppressant via ERβ (raising IκBα, reducing p65 binding). Its loss at menopause simultaneously derepresses NF-κB and STING, representing a systems-level inflection point (the 'estrogen cliff') that accelerates female inflammaging, SASP burden, and metabolic/cardiac aging.",
+      "zh-TW": "雌激素是主要的性別差異媒介因子，經 ERβ 作為內源性 NF-κB 抑制劑（提高 IκBα、降低 p65 結合）。其於停經後的喪失同時解除對 NF-κB 與 STING 的壓抑，代表系統層級的轉折點（「雌激素懸崖」），加速女性的發炎老化、SASP 負擔與代謝/心臟老化。"
+    },
+    "confidence": 0.85,
+    "source_document": "SIRT1.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "2ed94cee8f19",
+    "subject": "Estrogen",
+    "predicate": "activates",
+    "object": "Telomerase",
+    "context": {
+      "en-US": "Estrogen directly stimulates telomerase transcription via estrogen-responsive elements in the TERT promoter and protects telomeres from oxidative damage, contributing to the female telomere advantage (longer telomeres, slower attrition).",
+      "zh-TW": "雌激素經 TERT 啟動子中的雌激素反應元件直接刺激端粒酶轉錄，並保護端粒免受氧化損傷，促成女性端粒優勢（端粒較長、磨耗較慢）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Telomere.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "113625159c62",
+    "subject": "Estrogen",
+    "predicate": "stabilizes",
+    "object": "PARP1",
+    "context": {
+      "en-US": "Estrogen stabilizes PARP-1 on DNA, preventing its hyperactivation and sparing NAD+. This underlies the female NAD+ advantage (higher NAD+/NADH ratio, no monotonic decline) and channels female cell death through the NAD+-sparing caspases arm rather than PARP-1/AIF necrosis.",
+      "zh-TW": "雌激素使 PARP-1 穩定結合於 DNA，防止其過度活化並節省 NAD+。這構成女性 NAD+ 優勢（較高的 NAD+/NADH 比值、無單調下降）的基礎，並使女性細胞死亡走向節省 NAD+ 的 caspases 分支而非 PARP-1/AIF 壞死。"
+    },
+    "confidence": 0.8,
+    "source_document": "NAD+.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
   }
 ]

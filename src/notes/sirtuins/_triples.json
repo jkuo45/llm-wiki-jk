@@ -15314,5 +15314,89 @@
     "source_document": "Withaferin A.md",
     "created": "2026-08-18T17:59:38Z",
     "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "6131dfd70d00",
+    "subject": "SIRT1",
+    "predicate": "transcriptionally_activated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen acts through ERα/β response elements to sustain SIRT1 expression, giving premenopausal females higher SIRT1 pools; men show a more pronounced SIRT1 decline from young-adult to mid-late age. SIRT1 (nuclear/cytosolic) and SIRT3 (mitochondrial) respond to the same estrogen-dependent transcriptional program, operating as a single redox-defense hub spanning compartment boundaries.",
+      "zh-TW": "雌激素經 ERα/β 反應元件維持 SIRT1 表現，使停經前女性具較高的 SIRT1 庫存；男性從年輕成年至中老年呈現較明顯的 SIRT1 下降。SIRT1（核/細胞質）與 SIRT3（粒線體）受同一雌激素依賴轉錄程式回應，作為跨越腔室邊界的單一氧化還原防禦樞紐運作。"
+    },
+    "confidence": 0.8,
+    "source_document": "SIRT1.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "e52a1fc09fc6",
+    "subject": "SIRT1",
+    "predicate": "forms_hub_with",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "SIRT1, SIRT3, and SIRT6 form an estrogen-sirtuin hub: estrogen upregulates SIRT1 and drives mitochondrial import/expression of SIRT3, giving premenopausal females higher sirtuin reserve. The hub is dismantled at menopause ('estrogen cliff'), accelerating female Inflammaging, SASP burden, and metabolic/cardiac aging; SIRT6 sits on the mirror side (male-strong lifespan effects).",
+      "zh-TW": "SIRT1、SIRT3 與 SIRT6 構成雌激素-sirtuin 樞紐：雌激素上調 SIRT1 並驅動 SIRT3 的粒線體輸入/表現，使停經前女性具較高的 sirtuin 儲備。此樞紐於停經時瓦解（「雌激素懸崖」），加速女性的發炎老化、SASP 負擔與代謝/心臟老化；SIRT6 位於鏡像側（壽命效應男性較強）。"
+    },
+    "confidence": 0.8,
+    "source_document": "SIRT1.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "4e2cb8d1fd1c",
+    "subject": "SIRT1",
+    "predicate": "complemented_by",
+    "object": "SIRT6",
+    "context": {
+      "en-US": "SIRT6 provides the male-biased complement to the estrogen-driven female SIRT1/SIRT3 arm: SIRT6's lifespan-extension effect is male-strong (Roichman Nat Commun 2021: males ~27% vs females ~15%), and its human longevity polymorphism (rs117385980) was first described in Finnish males. The male-biased, IGF-1-suppressing SIRT6 arm is thus the mirror of the estrogen-driven female SIRT1/SIRT3 arm.",
+      "zh-TW": "SIRT6 提供男性偏倚的互補，對應雌激素驅動的女性 SIRT1/SIRT3 分支：SIRT6 的壽命延長效應男性較強（Roichman，Nat Commun 2021：雄性約 27%、雌性約 15%），其人體長壽多型性（rs117385980）首見於芬蘭男性。因此男性偏倚、抑制 IGF-1 的 SIRT6 分支是雌激素驅動女性 SIRT1/SIRT3 分支的鏡像。"
+    },
+    "confidence": 0.85,
+    "source_document": "SIRT1.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "5481b6c767ad",
+    "subject": "SIRT3",
+    "predicate": "transcriptionally_activated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen via ER-α/β upregulates SIRT3 expression and mitochondrial targeting, giving a female translational-efficiency advantage (~30% higher protein-to-mRNA ratio for SIRT3/SIRT6). Post-menopausal SIRT3 decline drives female cardiac aging via reduced SOD2 deacetylation; in the estrogen-sirtuin hub, SIRT3 is the female-biased mitochondrial arm mirroring the male-biased nuclear/chromatin arm SIRT6.",
+      "zh-TW": "雌激素經 ER-α/β 上調 SIRT3 表現與粒線體靶向，提供女性轉譯效率優勢（SIRT3/SIRT6 的蛋白—mRNA 比值約高 30%）。停經後 SIRT3 下降經降低 SOD2 去乙醯化而驅動女性心臟老化；在雌激素-sirtuin 樞紐中，SIRT3 是女性偏倚的粒線體分支，鏡像於男性偏倚的核/染色質分支 SIRT6。"
+    },
+    "confidence": 0.8,
+    "source_document": "SIRT3.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "a282c20dc020",
+    "subject": "SIRT6",
+    "predicate": "extends_lifespan_in",
+    "object": "Males",
+    "context": {
+      "en-US": "SIRT6 overexpression extends median lifespan of male mice by 14.5% and 9.9% with no significant effect in females (Kanfi et al., Nature 2012); the male-specific benefit tracks reduced serum IGF-1 and IIS. In the inbred C57BL/6JOlaHsd background (Roichman et al., Nat Commun 2021) it extends lifespan in both sexes, but the effect remains strongest in males (~27% vs ~15%), gated by baseline IGF-1.",
+      "zh-TW": "SIRT6 過量表現使雄性小鼠中位壽命延長 14.5% 與 9.9%，對雌性無顯著效果（Kanfi 等，Nature 2012）；雄性特異獲益追蹤於血清 IGF-1 與 IIS 的降低。在近交 C57BL/6JOlaHsd 背景（Roichman 等，Nat Commun 2021）中於兩性皆延長壽命，但效應仍以雄性最強（約 27% 對 15%），受基礎 IGF-1 所調控。"
+    },
+    "confidence": 0.85,
+    "source_document": "SIRT6.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "e280af8908fa",
+    "subject": "SIRT6",
+    "predicate": "associated_with",
+    "object": "Longevity",
+    "context": {
+      "en-US": "The human SIRT6 intronic polymorphism rs117385980 is associated with longevity and healthy aging specifically in Finnish men (Hirvonen et al., BMC Med Genet 2017, PMID 28399814), contributing male-specific genetic evidence consistent with SIRT6's male-dominant lifespan role.",
+      "zh-TW": "人類 SIRT6 內含子多型性 rs117385980 特異地與芬蘭男性的長壽與健康老化相關（Hirvonen 等，BMC Med Genet 2017，PMID 28399814），提供男性特異的遺傳證據，與 SIRT6 的男性主導壽命角色一致。"
+    },
+    "confidence": 0.8,
+    "source_document": "SIRT6.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
   }
 ]

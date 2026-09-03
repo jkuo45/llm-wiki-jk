@@ -2462,5 +2462,33 @@
     "source_document": "ZKSCAN3.md",
     "created": "2026-07-28T17:48:14Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ef0e3ef8c680",
+    "subject": "Autophagy",
+    "predicate": "sex_dimorphic_in",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "Autophagy is coupled to the sex-specific cell-death pathways: male neurons undergo autophagy more readily and die under starvation/OGD, while female neurons mobilize fatty acids and depend less on autophagy (Du et al., J Biol Chem 2009). After stroke, males rapidly induce canonical autophagy (Beclin-1↑, LC3-II↑, p62↓) whereas females use a Beclin-1-independent (ATG7-dependent) route (Patrizz et al., Cells 2021); males show higher basal Beclin-1/LC3 in cardiac tissue (Oliván et al., 2014).",
+      "zh-TW": "自噬與性別特異的細胞死亡途徑相耦合：雄性神經元較易進行自噬並在飢餓/OGD 下死亡，而雌性神經元動員脂肪酸、較不依賴自噬（Du 等，J Biol Chem 2009）。中風後雄性迅速誘導典型自噬（Beclin-1↑、LC3-II↑、p62↓），而雌性使用不依賴 Beclin-1（依賴 ATG7）的途徑（Patrizz 等，Cells 2021）；雄性心臟組織具較高的基礎 Beclin-1/LC3（Oliván 等，2014）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Autophagy.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "79d6b2a153b5",
+    "subject": "Autophagy",
+    "predicate": "bidirectionally_regulated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen is bidirectional in autophagy: it suppresses autophagy in ischemic neurons (via mTOR-ULK1), limiting autophagic cell death in females, but promotes prosurvival autophagy in ER+ breast cancer cells, driving anti-estrogen resistance — the same hormone acting in opposite directions by tissue and disease context.",
+      "zh-TW": "雌激素對自噬具雙向調控：在缺血神經元中抑制自噬（經 mTOR-ULK1），限制女性自噬性細胞死亡；但在 ER+ 乳癌細胞中促進促存活自噬，驅動抗雌激素抗藥性——同一荷爾蒙依組織與疾病脈絡而反向作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "Autophagy.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
   }
 ]

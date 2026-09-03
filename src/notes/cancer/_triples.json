@@ -8076,5 +8076,33 @@
     "source_document": "YAP1.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "50183e4dd3da",
+    "subject": "Prostate Cancer",
+    "predicate": "driven_by",
+    "object": "Androgen Receptor",
+    "context": {
+      "en-US": "Prostate cancer is the clearest male-specific malignancy driven by androgen-receptor signaling — the male-androgen pole of hormone-driven cancer biology mirroring the estrogen pole in Breast Cancer. Androgen-AR signaling couples to mTORC1 activation in male cancers, and AR and the PI3K/AKT/mTOR network show reciprocal negative-feedback regulation. ADT (androgen deprivation therapy) is the archetypal male sex-hormone-targeted therapy.",
+      "zh-TW": "攝護腺癌是由雄激素受體訊號驅動的最明確男性特異惡性腫瘤——荷爾蒙驅動癌症生物學的男性—雄激素極點，鏡像於乳癌的雌激素極點。雄激素-AR 訊號在男性癌症中與 mTORC1 活化相耦合，且 AR 與 PI3K/AKT/mTOR 網絡呈互惠性負回饋調控。ADT（雄激素剝奪療法）是典型的男性性荷爾蒙標靶療法。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prostate Cancer.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "5780e21e6bd0",
+    "subject": "Prostate Cancer",
+    "predicate": "mirrors",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "Prostate cancer (AR/androgen) and breast cancer (ER/estrogen) are the two poles of a single vault-wide principle: sex-hormone-receptor signaling is the master determinant of hormone-driven tumor biology, and the same hormones drive the sex differences seen throughout Apoptosis, mTORC1, NF-κB, and Senescence.",
+      "zh-TW": "攝護腺癌（AR/雄激素）與乳癌（ER/雌激素）是單一全域原則的兩極：性荷爾蒙受體訊號是荷爾蒙驅動腫瘤生物學的主要決定因素，且相同荷爾蒙驅動 Apoptosis、mTORC1、NF-κB 與 Senescence 中所見的性別差異。"
+    },
+    "confidence": 0.85,
+    "source_document": "Breast Cancer.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
   }
 ]

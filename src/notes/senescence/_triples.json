@@ -5542,5 +5542,61 @@
     "source_document": "VEGFc.md",
     "created": "2026-08-09T20:00:33Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "77615792e474",
+    "subject": "Senescence",
+    "predicate": "p16_arm_dominant_in",
+    "object": "Females",
+    "context": {
+      "en-US": "The dominant senescence arrest arm is sex-specific: females carry a higher p16+ burden (especially in the liver) and derive the most benefit from p16+ cell clearance (p16-3MR ablation enhanced grip strength, skin regeneration, and liver repair exclusively in females; Adv Sci 2026), while males carry a higher p53/p21 burden. p16+ and p21+ cells are distinct, largely non-overlapping subpopulations (Admas et al., EMBO J 2025).",
+      "zh-TW": "主要的衰老停滯分支具性別特異性：女性攜帶較高的 p16+ 負擔（尤其肝臟），並從 p16+ 細胞清除中獲得最大益處（p16-3MR 剔除僅在雌性中增強握力、皮膚再生與肝臟修復；Adv Sci 2026），而男性攜帶較高的 p53/p21 負擔。p16+ 與 p21+ 細胞是截然不同、大致不重疊的亞群（Admas 等，EMBO J 2025）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Senescence.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "94a4a90c290d",
+    "subject": "Senescence",
+    "predicate": "accumulates_earlier_in",
+    "object": "Males",
+    "context": {
+      "en-US": "Male mice accumulate more senescent cells across the lifespan while females 'catch up' near end of life (Yousefzadeh et al., 2020; Foster, 2025 Front Aging Neurosci), reflecting sex differences in telomere attrition and cellular maintenance. Females benefit more from senescent-cell clearance.",
+      "zh-TW": "雄性小鼠在整個生命歷程中累積較多衰老細胞，而雌性在生命末期才「追趕」上（Yousefzadeh 等，2020；Foster，2025，Front Aging Neurosci），反映端粒磨耗與細胞維持的性別差異。雌性從衰老細胞清除中獲益較多。"
+    },
+    "confidence": 0.75,
+    "source_document": "Senescence.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "817d0120a0b7",
+    "subject": "Senolytics",
+    "predicate": "sex_dependent_in",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Senolytic efficacy and toxicity can reverse between the sexes: fisetin is male-beneficial in C57BL/6 mice (↓SASP, ↑glucose/energy metabolism, ↑cognition) while D+Q is detrimental in females (↑WAT, ↑SASP, ↓cognition); in tauopathy mice both D+Q and fisetin enhanced female cognitive performance; no sex-stratified navitoclax data exist (open gap).",
+      "zh-TW": "衰老溶解療法的療效與毒性可在兩性間逆轉：fisetin 在 C57BL/6 小鼠中對雄性有益（↓SASP、↑葡萄糖/能量代謝、↑認知），而 D+Q 對雌性有害（↑WAT、↑SASP、↓認知）；在 tau 病小鼠中 D+Q 與 fisetin 皆增強雌性認知表現；navitoclax 尚無性別分層數據（開放缺口）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Senolytics.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "79a8f4a0916a",
+    "subject": "Senolytic",
+    "predicate": "sex_dependent_in",
+    "object": "Dasatinib",
+    "context": {
+      "en-US": "The D+Q combination (dasatinib + quercetin) is detrimental in females in some models while beneficial in tauopathy females; the sex-specific benefit depends on which senescence arm dominates and sex-hormonal status. Senolytic benefit therefore depends as much on sex as on senescent burden.",
+      "zh-TW": "D+Q 組合（dasatinib + quercetin）在某些模型中對雌性有害，而在 tau 病雌性中卻有益；性別特異的益處取決於何種衰老分支主導與性荷爾蒙狀態。因此衰老溶解療法的益處取決於性別與衰老負擔同樣多。"
+    },
+    "confidence": 0.75,
+    "source_document": "Senolytic.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
   }
 ]

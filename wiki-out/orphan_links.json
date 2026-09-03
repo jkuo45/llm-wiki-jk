@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T07:34:46Z",
+  "generated_at": "2026-09-02T23:53:39Z",
   "node_count": 3030,
-  "edge_count": 35740,
+  "edge_count": 35822,
   "reference_links": {
     "document_notes": {
       "total_targets": 124,
@@ -13,7 +13,7 @@
     }
   },
   "total_orphan_targets": 4739,
-  "total_orphan_links": 11689,
+  "total_orphan_links": 11690,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",
