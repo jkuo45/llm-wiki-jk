@@ -33,19 +33,31 @@ tags: [task-output, gender, sex-differences, longevity, senescence, apoptosis, c
 
 ### SIRT3——雌激素依賴的表現與粒線體靶向
 
-**Vault 內容：**
+**Vault 內容（2026-09-02 已充實，見 [[SIRT3]] 性別差異章節，已驗證）：**
 - 內含子 5 增強子變異與雄性 >90 歲壽命相關；rs11555236 與義大利男性長壽相關但未獲重複；TRELONG 研究發現雌性顯著的長壽 SNP（SIRT3.md，第 129–208 行）。
 - NAMPT 抑制劑 KPT-9274 經由 SIRT3／SOD 去乙醯化介導**性別依賴**的鼠類貧血／腎毒性。
+- E₂→ERα/β→SIRT3 轉錄＋粒線體靶向已收入 vault：雌激素維持 SIRT3 儲量與基質輸入，在此去乙醯化 [[MnSOD]]／IDH2；停經時喪失則去抑制 ROS（SIRT3.md 性別差異＋雌激素–sirtuin 樞紐交叉連結至 [[SIRT1]]／[[SIRT6]]）。
+- 雌性翻譯效率優勢（蛋白質對 mRNA 比例約高 30%）已收入 vault，**明確標示為 pilot／初步——不得作為既定結論呈現**。
+- 停經後 SIRT3 下降驅動雌性心臟老化已收入 vault，**明確標示為推論，未經 RCT 證實**（機制：E₂撤退 → SIRT3↓ → SOD2 去乙醯化↓ → 氧化壓力↑）。
 
-**不在 vault 中：** 雌激素經 ER-α/β 上調 SIRT3 表現與粒線體靶向；雌性翻譯效率優勢（SIRT3／SIRT6 的蛋白質對 mRNA 比例約高 30%）；停經後 SIRT3 下降驅動雌性心臟老化。
+**研究驗證：**
+- ER→SIRT3 誘導：ER 活化經 Sirt3 啟動子活化與 NRF2 核轉位上調 SIRT3；GPER 促效劑 G-1 可逆轉 OVX＋T2D 大鼠心臟 Sirt1／3 喪失並恢復 SOD 活性（PLOS ONE 2023，G-1／OVX-T2D 模型）；E₂使 OVX＋AngII 心臟 SIRT1 回升（蛋白約 2.7 倍）並阻斷心肌肥厚／凋亡，ER 依賴（ICI 182,780 可阻斷；Oxid Med Cell Longev 2014）。
+- 人類心臟老化具雌性特異性：老年（50–68 歲）vs 年輕（17–40 歲）女性心室顯示 SIRT1＋SIRT3＋SOD2↓與 NF-κB／促發炎偏移及巨噬細胞↑；老年男性心臟無此變化（Aging 2019，PMC6503880）。支持雌激素懸崖模型；屬觀察性研究，非 RCT。
+- 組織依賴性例外——乳癌：SIRT3 過度表現使 ER＋ MCF-7 對 E₂增殖效應去敏感，破壞 ERα–p53 交互作用（p53／AIF／ERα↑、Ac-SOD2↓、增殖／遷移／群落形成↓；E₂僅部分挽救）——即腫瘤抑制性 SIRT3↔ERα拮抗，與心臟／代謝誘導方向相反（Pinterić 等，Antioxidants 2020；9:294）。SIRT3-KO 小鼠僅發生 ERα＋乳腺腫瘤；老化時 UPRmt 的 SIRT3 軸補償 ERα軸喪失（PMC8680335 觀點文章）。
+- K68-Ac 澄清：具抑制性的乙醯化位點是 **SOD2-K68-Ac**（SIRT3 受質），而非 SIRT3-K68——SIRT3 去乙醯化 SOD2-K68 以活化歧化酶；SIRT3 抑制使 SOD2-K68-Ac 上升（如 jionoside B1，MST Kd 約 15.8 µM，Biomolecules 2026 TNBC／cisplatin 模型）。應使用 [[MnSOD]] K68-Ac 術語，而非「SIRT3 K68-Ac」。
 
 ### SIRT1——雌激素-轉錄軸；兩性皆獲益
 
-**Vault 內容：**
+**Vault 內容（2026-09-02 已充實，見 [[SIRT1]] 性別差異——雌激素–Sirtuin 樞紐，已驗證）：**
 - BRASTO（腦特異 SIRT1 過度表現）在**兩性**皆延長壽命約 11%——罕見的無性別特異長壽效應（SIRT1.md，第 150 行）。
 - SIRT1 敲除：兩性皆不育；果蠅額外的 Sir2 拷貝在**雌性**（29%）比雄性（18%）延長壽命更多。
+- 雙向、組織依賴的 E₂↔SIRT1／ER 交互作用已收入 vault：E₂→ER 維持 SIRT1 儲量（雌性隨年齡保留 SIRT1；雄性自青年至中老年下降較劇）**且**SIRT1 抑制配體非依賴的 ERα活化——並非單向 E₂→SIRT1（SIRT1.md E₂↔ER↔SIRT1 章節＋[[SIRT3]]樞紐 reciprocal 連結）。
+- SIRT1–FOXO3 雌性偏倚的長壽關聯已記於 vault 樞紐（SIRT1→FOXO3a→[[MnSOD]]／CAT 抗氧化程式）；視為遺傳關聯層級，非已證實因果機制。
 
-**不在 vault 中：** 雌激素經 ER-α/β 是 SIRT1 的上游轉錄活化因子；SIRT1–FOXO3 交互作用在雌性顯示較強的長壽遺傳關聯。
+**研究驗證：**
+- E₂誘導 SIRT1：17β-雌二醇顯著誘導 Sirt1 表現（3T3-L1；OVX＋AngII 心臟 mRNA 2.8 倍／蛋白 2.7 倍）；ERα＋SIRT1 形成正回饋環，抑制自噬／脂肪生成（對照組雌性 Sirt1 高於雄性；S1tg 過度表現消除此差異——Xu 等，Cell Death Discov 2021）。心臟 E₂保護需 SIRT1（niacinamide 可阻斷）與 ER（ICI 182,780 可阻斷），並伴 AMPK 共活化（Oxid Med Cell Longev 2014）。
+- SIRT1 抑制 ER：抑制 SIRT1（sirtinol／knockdown）活化 ERα依賴轉錄，**無論雌激素有無**→ 雌激素反應基因↑＋增殖↑；ER 拮抗劑（4HT／fulvestrant）可抑制之——定義 SIRT1 所抑制的配體非依賴 ERα活化（Elangovan 等，J Endocrinol 2013；218:273）。反之，抑制 SIRT1 破壞 ERα啟動子 basal 轉錄複合體 → ERα表現↓、E₂依賴生長↓（Yao 等，Carcinogenesis 2010）——方向依脈絡／劑量而異，故稱「雙向／組織依賴」。
+- SIRT1–FOXO3：SIRT1 去乙醯化 FOXO3a → [[MnSOD]]、CAT、GSH 程式↑（vault SIRT1 機制章節）；FOXO3 長壽變異在部分世代顯示雌性偏倚關聯——僅保留為關聯層級主張。
 
 ### MnSOD／SOD2——重大缺口：雌激素依賴的上調
 
@@ -410,7 +422,7 @@ ESTROGEN (E2)
 | **Caspases** | 零性別討論 | 交叉引用 Apoptosis.md 的性別差異；記述 caspase-3／8 性別特異活化模式 | ✅ 涵蓋於 [[Apoptosis]] 性別差異章節 |
 | **NAD+** | 零性別討論 | 新增章節：雄性 PARP 驅動的 NAD+ 下降、雌性 CD38 卵巢生物學、性別特異補充考量 | ✅ 已加入 [[NAD+]] |
 | **SASP** | 幾乎零性別討論 | 新增「性別差異」章節：雌激素–NF-κB 抑制、性別特異 SASP 組成、雄性偏倚 SASP 負擔 | ✅ 已加入 [[SASP]] |
-| **SIRT3** | 缺雌激素機制 | 新增 E2→ERα→SIRT3 表現／粒線體靶向；雌性翻譯效率；停經後下降 | ✅ 已加入 [[SIRT3]] |
+| **SIRT3** | 缺雌激素機制 | 新增 E2→ERα→SIRT3 表現／粒線體靶向；雌性翻譯效率；停經後下降 | ✅ 已加入 [[SIRT3]]（E₂→ER→SIRT3＋樞紐；約 30% 為 pilot 附帶條件；停經後為推論附帶條件；乳癌 SOD2-K68-Ac 例外 per Pinterić 2020） |
 
 ### 優先級 2——重要缺口 ✅ 2026-09-02 完成
 
@@ -450,6 +462,17 @@ ESTROGEN (E2)
 
 ### Vault 實體筆記
 - [[SIRT1]]、[[SIRT3]]、[[SIRT6]]、[[SIRT4]]、[[MnSOD]]、[[Thioredoxin-1]]、[[Thioredoxin]]、[[CD38 inhibitor 78c]]
+
+### 外部研究——雌激素–Sirtuin 樞紐（SIRT3／SIRT1 驗證）
+- **Pinterić 等。** Sirt3 透過上調 p53 並減弱雌激素反應發揮腫瘤抑制作用（MCF-7）。*Antioxidants.* 2020；9:294。（SIRT3 過度表現使 ER＋ MCF-7 對 E₂去敏感，破壞 ERα–p53，Ac-SOD2↓；E₂僅部分挽救。）
+- **Papa & Germain。** 雌激素受體與 SIRT3 是否為粒線體 UPRmt 的代償軸？*PMC8680335* 觀點文章。（ERα軸補償年齡相關 SIRT3 喪失；SIRT3-KO 小鼠僅發生 ERα＋乳腺腫瘤。）
+- **人類心臟性別差異：** 老年（50–68 歲）vs 年輕（17–40 歲）女性心室具雌性特異的 Sirt1／Sirt3／SOD2↓＋NF-κB 偏移；男性無此變化。*Aging.* 2019（PMC6503880）。
+- **GPER–SIRT1／3：** G-1 逆轉 OVX 诱導的心臟 Sirt1／3 喪失，恢復 SOD，改善 OVX＋T2D 大鼠左心室功能。*PLOS ONE.* 2023（G-1／OVX-T2D 模型）。
+- **Elangovan 等。** SIRT1 抑制雌激素訊號、配體非依賴的 ERα介導轉錄與增殖。*J Endocrinol.* 2013；216:273。（抑制 SIRT1 → 無論雌激素有無皆活化 ER 依賴轉錄。）
+- **Yao 等。** 抑制 SIRT1 經 basal 啟動子複合體抑制 ERα表現。*Carcinogenesis.* 2010；31:382。（雙向性的反方向脈絡。）
+- **Xu 等。** Sirt1 與 ERα協同調節自噬與肥胖（E₂誘導 Sirt1；正回饋環）。*Cell Death Discov.* 2021。
+- **SIRT1–雌激素心臟保護：** E₂→SIRT1→AMPK 阻斷 AngII 肥厚／凋亡，ER／SIRT1 依賴（ICI＋niacinamide 可阻斷）。*Oxid Med Cell Longev.* 2014。
+- **SOD2-K68-Ac 讀值：** SIRT3 去乙醯化 SOD2-K68；抑制 SIRT3（jionoside B1，Kd 約 15.8 µM）使 K68-Ac↑ → ROS／凋亡，使 TNBC 對 cisplatin 增敏。*Biomolecules.* 2026。
 - [[Apoptosis]]、[[Caspases]]、[[p53]]、[[Intrinsic Pathway]]、[[Extrinsic Pathway]]、[[Apoptosome]]、[[DISC]]
 - [[Senescence]]、[[SASP]]、[[Senolytic]]、[[Senolytics]]、[[Cellular Senescence]]、[[Immunosenescence]]
 - [[Autophagy]]、[[mTOR]]、[[mTORC1]]、[[Beclin1]]、[[AMPK]]

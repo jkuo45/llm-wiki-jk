@@ -35,19 +35,31 @@ The overarching pattern is that **estrogen acts as a master sex-difference media
 
 ### SIRT3 — Estrogen-Dependent Expression and Mitochondrial Targeting
 
-**Vault Content:**
+**Vault Content (enriched 2026-09-02, verified in [[SIRT3]] Sex Differences section):**
 - Intron 5 enhancer variant correlates with **male** lifespan >90 yr; rs11555236 associated with male longevity (Italian) but not replicated; TRELONG study found female-significant longevity SNPs (SIRT3.md, lines 129–208).
 - NAMPT inhibitor KPT-9274 mediates **gender-dependent** murine anemia/nephrotoxicity via SIRT3/SOD deacetylation.
+- E₂→ERα/β→SIRT3 transcription + mitochondrial targeting now in vault: estrogen sustains SIRT3 pools and matrix import where it deacetylates [[MnSOD]]/IDH2; loss at menopause derepresses ROS (SIRT3.md Sex Differences + estrogen–sirtuin hub cross-link to [[SIRT1]]/[[SIRT6]]).
+- Female translational-efficiency advantage (~30% protein-to-mRNA) is in vault **explicitly flagged as pilot/preliminary — do not present as established**.
+- Post-menopausal SIRT3 decline driving female cardiac aging is in vault **explicitly flagged as inferred, not RCT-proven** (mechanism: E₂ withdrawal → ↓SIRT3 → ↓SOD2 deacetylation → ↑oxidative stress).
 
-**Not in vault:** Estrogen via ER-α/β upregulates SIRT3 expression and mitochondrial targeting (tissue-dependent; one breast-cancer context shows inhibitory K68-Ac); female translational efficiency advantage (~30% protein-to-mRNA — pilot/preliminary, do not present as established); post-menopausal SIRT3 decline driving female cardiac aging is inferred, not RCT-proven.
+**Research verification:**
+- ER→SIRT3 induction: ER activation increases SIRT3 via Sirt3-promoter activation and NRF2 nuclear translocation; GPER agonist G-1 reverses OVX-induced cardiac Sirt1/3 loss and restores SOD activity in OVX+T2D rats (PLOS ONE 2023, PMID review of G-1/OVX-T2D model); E₂ restores SIRT1 (2.7× protein) and blocks AngII hypertrophy/apoptosis ER-dependently (ICI 182,780 blocks; Obesity Med Cell Longev 2014).
+- Human cardiac aging is female-specific: old (50–68 yr) vs young (17–40 yr) female ventricles show ↓SIRT1 + ↓SIRT3 + ↓SOD2 + NF-κB/pro-inflammatory shift with ↑macrophages; no such change in aged male hearts (Aging 2019, PMC6503880). Supports estrogen-cliff model; observational, not RCT.
+- Tissue-dependent exception — breast cancer: SIRT3 overexpression in ER+ MCF-7 desensitizes cells to E₂ proliferative effect, disrupts ERα–p53 interaction (↑p53/AIF/ERα, ↓Ac-SOD2, ↓proliferation/migration/colony formation; E₂ only partially rescues) — i.e. tumor-suppressive SIRT3↔ERα antagonism, opposite direction from cardiac/metabolic induction (Pinterić et al., Antioxidants 2020;9:294). SIRT3-KO mice develop exclusively ERα+ mammary tumors; SIRT3 axis of the UPRmt compensates for ERα axis loss with age (PMC8680335 perspective).
+- K68-Ac clarification: the inhibitory acetyl mark is **SOD2-K68-Ac** (SIRT3 substrate), not SIRT3-K68 — SIRT3 deacetylates SOD2-K68 to activate dismutase; SIRT3 inhibition raises SOD2-K68-Ac (e.g. jionoside B1 MST Kd ~15.8 µM, Biomolecules 2026 TNBC/cisplatin model). Use [[MnSOD]] K68-Ac terminology, not "SIRT3 K68-Ac".
 
 ### SIRT1 — Estrogen-Transcriptional Axis; Both-Sex Benefit
 
-**Vault Content:**
+**Vault Content (enriched 2026-09-02, verified in [[SIRT1]] Sex Differences — Estrogen–Sirtuin Hub):**
 - BRASTO (brain-specific SIRT1 overexpression) extends lifespan ~11% **in both sexes** — rare non-sex-specific longevity effect (SIRT1.md, line 150).
 - SIRT1 KO: sterility in both sexes; Drosophila extra Sir2 copy extends lifespan more in **females** (29%) than males (18%).
+- Bidirectional, tissue-dependent E₂↔SIRT1/ER crosstalk now in vault: E₂→ER sustains SIRT1 pools (females preserve SIRT1 with age; males decline faster) **and** SIRT1 represses ligand-independent ERα activation — not unidirectional E₂→SIRT1 (SIRT1.md E₂↔ER↔SIRT1 section + reciprocal [[SIRT3]] hub link).
+- SIRT1–FOXO3 female-leaning longevity association noted in vault hub (SIRT1→FOXO3a→[[MnSOD]]/CAT antioxidant program); treat as genetic-association level, not proven causal mechanism.
 
-**Not in vault:** Estrogen↔SIRT1/ER crosstalk is bidirectional/tissue-dependent (E2 can induce SIRT1; SIRT1 represses ligand-independent ERα activation); SIRT1–FOXO3 interaction shows stronger longevity genetic associations in females.
+**Research verification:**
+- E₂ induces SIRT1: 17β-estradiol markedly induces Sirt1 expression (3T3-L1; OVX+AngII hearts 2.8× mRNA/2.7× protein); ERα+SIRT1 form a positive feedback loop suppressing autophagy/adiposity (higher Sirt1 in control females than males; abolished by S1tg overexpression — Xu et al., Cell Death Discov 2021). Cardiac E₂ protection requires SIRT1 (niacinamide blocks) and ER (ICI 182,780 blocks) with AMPK co-activation (Oxid Med Cell Longev 2014).
+- SIRT1 represses ER: SIRT1 inhibition (sirtinol/knockdown) activates ERα-dependent transcription **with and without estrogen** → ↑estrogen-responsive genes + proliferation; ER antagonists (4HT/fulvestrant) suppress it — defining ligand-independent ERα activation repressed by SIRT1 (Elangovan et al., J Endocrinol 2013;218:273). Conversely SIRT1 inhibition disrupts basal ERα-promoter complexes → ↓ERα expression and ↓E₂-dependent growth in mammary epithelium (Yao et al., Carcinogenesis 2010) — direction is context/dose-dependent, hence "bidirectional/tissue-dependent."
+- SIRT1–FOXO3: SIRT1 deacetylates FOXO3a → ↑[[MnSOD]], CAT, GSH programs (vault SIRT1 mechanism section); FOXO3 longevity variants show female-leaning associations in some cohorts — retain as association-level claim only.
 
 ### MnSOD/SOD2 — Major Gap: Estrogen-Dependent Upregulation
 
@@ -412,7 +424,7 @@ This **systems-level inflection** is the mechanistic basis for the post-menopaus
 | **Caspases** | Zero sex discussion | Cross-reference with Apoptosis.md sex differences; note caspase-3/8 sex-specific activation patterns | ✅ Covered in [[Apoptosis]] sex differences section |
 | **NAD+** | Zero sex discussion | Add section on male PARP-driven NAD+ decline, female CD38 ovarian biology, sex-specific supplementation considerations | ✅ Added to [[NAD+]] |
 | **SASP** | Near-zero sex discussion | Add "Sex Differences" section: estrogen–NF-κB suppression, sex-specific SASP composition, male-biased SASP burden | ✅ Added to [[SASP]] |
-| **SIRT3** | Missing estrogen mechanism | Add E2→ERα→SIRT3 expression/mitochondrial targeting; female translational efficiency; post-menopausal decline | ✅ Added to [[SIRT3]] |
+| **SIRT3** | Missing estrogen mechanism | Add E2→ERα→SIRT3 expression/mitochondrial targeting; female translational efficiency; post-menopausal decline | ✅ Added to [[SIRT3]] (E₂→ER→SIRT3 + hub; ~30% pilot caveat; post-menopausal inferred caveat; SOD2-K68-Ac breast-cancer exception per Pinterić 2020) |
 
 ### Priority 2 — Important Gaps (✅ Completed 2026-09-02)
 
@@ -452,6 +464,17 @@ This **systems-level inflection** is the mechanistic basis for the post-menopaus
 
 ### Vault Entity Notes
 - [[SIRT1]], [[SIRT3]], [[SIRT6]], [[SIRT4]], [[MnSOD]], [[Thioredoxin-1]], [[Thioredoxin]], [[CD38 inhibitor 78c]]
+
+### External Research — Estrogen–Sirtuin Hub (SIRT3/SIRT1 verification)
+- **Pinterić et al.** Sirt3 exerts its tumor-suppressive role by increasing p53 and attenuating response to estrogen in MCF-7 cells. *Antioxidants.* 2020;9:294. (SIRT3 overexpression desensitizes ER+ MCF-7 to E₂, disrupts ERα–p53, ↓Ac-SOD2; E₂ only partially rescues.)
+- **Papa & Germain.** Are the estrogen receptor and SIRT3 axes of the mitochondrial UPRmt compensatory? *PMC8680335* perspective. (ERα axis compensates age-related SIRT3 loss; SIRT3-KO mice develop ERα+ mammary tumors.)
+- **Human cardiac sex differences:** female-specific ↓Sirt1/Sirt3/SOD2 + NF-κB shift in aged (50–68 yr) vs young (17–40 yr) female ventricles; no change in males. *Aging.* 2019 (PMC6503880).
+- **GPER–SIRT1/3:** G-1 reverses OVX-induced cardiac Sirt1/3 loss, restores SOD, improves LV function in OVX+T2D rats. *PLOS ONE.* 2023 (G-1/OVX-T2D model).
+- **Elangovan et al.** SIRT1 represses estrogen-signaling, ligand-independent ERα-mediated transcription and proliferation. *J Endocrinol.* 2013;216:273. (SIRT1 inhibition → ER-dependent transcription ± estrogen.)
+- **Yao et al.** Inhibition of SIRT1 suppresses ERα expression via basal promoter complexes. *Carcinogenesis.* 2010;31:382. (Opposite-direction context for bidirectionality.)
+- **Xu et al.** Sirt1 coordinates with ERα to regulate autophagy and adiposity (E₂ induces Sirt1; positive feedback loop). *Cell Death Discov.* 2021.
+- **SIRT1–estrogen cardioprotection:** E₂→SIRT1→AMPK blocks AngII hypertrophy/apoptosis ER/SIRT1-dependently (ICI + niacinamide block). *Oxid Med Cell Longev.* 2014.
+- **SOD2-K68-Ac readout:** SIRT3 deacetylates SOD2-K68; SIRT3 inhibition (jionoside B1, Kd ~15.8 µM) raises K68-Ac → ROS/apoptosis, sensitizes TNBC to cisplatin. *Biomolecules.* 2026.
 - [[Apoptosis]], [[Caspases]], [[p53]], [[Intrinsic Pathway]], [[Extrinsic Pathway]], [[Apoptosome]], [[DISC]]
 - [[Senescence]], [[SASP]], [[Senolytic]], [[Senolytics]], [[Cellular Senescence]], [[Immunosenescence]]
 - [[Autophagy]], [[mTOR]], [[mTORC1]], [[Beclin1]], [[AMPK]]

@@ -1,5 +1,5 @@
 {
-  "generated": "02_SEP_2026 05:43 PM PDT",
+  "generated": "03_SEP_2026 12:17 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,48 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Comparison — Apoptosis, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis, Parthanatos",
+          "description": "Seven-way compare table of major cell death programs synthesized from wiki notes with general-knowledge supplements.",
+          "created": "2026-09-03",
+          "updated": "2026-09-03",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡比較 — 細胞凋亡、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡、Parthanatos",
+          "description": "七種主要細胞死亡程式的對照表，綜整自 wiki 筆記並輔以一般知識補充。",
+          "created": "2026-09-03",
+          "updated": "2026-09-03",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         }
       }
     },
