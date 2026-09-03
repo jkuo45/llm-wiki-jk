@@ -107,7 +107,7 @@ The transition from signaling to damage is governed by redox thresholds:
 - **Basal (10–100 nM H₂O₂)**: Homeostatic signaling; [[Peroxiredoxin]] and [[Glutathione Peroxidase]] maintain set point.
 - **Adaptive (100–500 nM H₂O₂)**: [[NRF2]] activation, [[FOXO]] induction, [[Mitochondrial Biogenesis]].
 - **Stress (500 nM–1 μM H₂O₂)**: [[JNK]] and [[p38]] activation, [[Apoptosis]] priming.
-- **Toxic (>1 μM H₂O₂)**: [[Cell necrosis]], [[MPTP]] opening, [[PARP]] hyperactivation.
+- **Toxic (>1 μM H₂O₂)**: [[Necrosis]], [[MPTP]] opening, [[PARP]] hyperactivation.
 
 These thresholds are cell-type and context dependent, influenced by baseline [[NADPH]]/[[NADP⁺]] ratios, [[Glutathione]] levels, and [[Thioredoxin]] reductase activity.
 

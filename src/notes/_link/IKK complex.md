@@ -2,7 +2,7 @@
 title: IKK complex
 description: The IκB kinase complex that phosphorylates IκB inhibitors to activate NF-κB signaling.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-09-03
 tags:
   - protein-complex
   - signaling-pathway
@@ -46,6 +46,8 @@ List of documents that mention this entity
 - [[TAK1]] — Upstream activator of the IKK complex
 - [[Senescent Cells]] — Mediates NF-κB activation in senescent cells
 - [[SASP|Senescence-Associated Secretory Phenotype]] — Drives transcription of SASP genes
+- [[p22-FLIP]] / [[vFLIP]] — DED modules docking NEMO to super-activate the complex without receptor input
+- [[Caspase-8-c-FLIP Rheostat]] — the upstream cycle generating p22-FLIP
 
 ## Linking Summary
 

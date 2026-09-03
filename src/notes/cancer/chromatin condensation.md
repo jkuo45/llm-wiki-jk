@@ -19,7 +19,7 @@ aliases: []
 This process is primarily mediated by the activation of executioner caspases, such as [[Caspase-3]] and [[Caspase-6]]. Caspase-6, in particular, cleaves nuclear lamins, leading to the collapse of the nuclear envelope and the subsequent condensation of chromatin.
 
 ## Significance
-Chromatin condensation is used as a diagnostic feature to distinguish apoptosis from [[necrosis]], where the nucleus typically undergoes swelling and irregular fragmentation.
+Chromatin condensation is used as a diagnostic feature to distinguish apoptosis from [[Necrosis]], where the nucleus typically undergoes swelling and irregular fragmentation.
 
 ## Documents
 
@@ -33,9 +33,9 @@ List of documents that mention this entity
 - [[Apoptosis]]: A defining structural change during programmed death.
 - [[Caspase-6]]: A protease that triggers condensation via lamin cleavage.
 - [[AIF]]: A mitochondrial factor that induces condensation in a caspase-independent manner.
-- [[necrosis]]: Contrast with the nuclear morphology of necrotic death.
+- [[Necrosis]]: Contrast with the nuclear morphology of necrotic death.
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[Caspase-3]], [[Caspase-6]], [[AIF]], [[necrosis]]
+- New links added: [[Apoptosis]], [[Caspase-3]], [[Caspase-6]], [[AIF]], [[Necrosis]]
 - Suggested new entity notes to create: [[AIF]]
 - Strong connections to strengthen: [[chromatin condensation]] ↔ [[Apoptosis]]
