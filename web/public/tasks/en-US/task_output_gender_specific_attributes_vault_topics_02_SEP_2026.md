@@ -18,7 +18,7 @@ Sex and gender are among the most pervasive yet under-documented biological vari
 
 The overarching pattern is that **estrogen acts as a master sex-difference mediator** across nearly every pathway in the vault — sirtuins, MnSOD, NF-κB, STING, telomerase, p53, Bcl-2, and autophagy. Its loss at menopause represents a systems-level inflection point where female protective advantages erode, creating a "double hit" of aging that is absent in males.
 
-**Vault Enrichment Status (2026-09-02):** Seven Priority 1 entity notes have been enriched with Sex Differences sections: [[MnSOD]], [[p53]], [[Apoptosis]], [[NAD+]], [[SASP]], [[SIRT3]], and [[Caspases]] (covered via [[Apoptosis]]). Twelve Priority 2 entities remain for future enrichment (see §XI). The p53-sex differences research was conducted as a deep-dive sub-report and is partially captured in the enriched entity notes and this document.
+**Vault Enrichment Status (2026-09-02):** Seven Priority 1 entity notes have been enriched with Sex Differences sections: [[MnSOD]], [[p53]], [[Apoptosis]], [[NAD+]], [[SASP]], [[SIRT3]], and [[Caspases]] (covered via [[Apoptosis]]). All eleven Priority 2 entities listed in §XI have now also been enriched with Sex Differences sections: [[Senescence]], [[Senolytics]], [[NF-κB]], [[Telomere]], [[Autophagy]], [[mTORC1]], [[AMPK]], [[SIRT6]], [[Bcl-2]], [[Breast Cancer]], and [[Prostate Cancer]]. Companion hub notes ([[Cellular Senescence]], [[Senolytic]], [[Telomere Attrition]]) received cross-referencing sex-difference notes. **All six §XI Priority 3 cross-link and context actions are now complete (2026-09-02):** (1) estrogen–sirtuin hub cross-linked across [[SIRT1]]/[[SIRT3]]/[[SIRT6]]; (2) sex-specific cell death unified framework across [[Apoptosis]]↔[[Caspases]]↔[[p53]]↔[[Bcl-2]]; (3) NAD+↔[[PARP1]]↔sex linked across [[NAD+]]↔[[Telomere]]↔[[Apoptosis]]; (4) NF-κB↔SASP↔estrogen with a new Sex Differences section in [[Inflammaging]]; (5) cGAS-STING↔SASP↔sex with new Sex Differences notes in [[STING]] and [[cGAS]]; (6) the post-menopausal "estrogen cliff" cross-referenced across all affected notes. The p53-sex differences research was conducted as a deep-dive sub-report and is partially captured in the enriched entity notes and this document. (Note: the earlier header referenced "Twelve" Priority 2 entities; the §XI table enumerates eleven, all now complete.)
 
 ---
 
@@ -91,7 +91,7 @@ Under stress, cells from females preferentially undergo **caspase-dependent apop
 | **Bcl-2 expression** | Higher (estrogen-driven) | Lower | Dubal et al., *J Neurosci* 1999 |
 | **Bax expression** | Lower (basal) | Higher | Tsukahara et al., *J Neurobiol* 2006 |
 | **PARP-1 inhibition** | Exacerbates injury (protective in females) | Protective (reduces infarct) | McCullough et al., 2005 |
-| **Post-MI apoptosis** | 2.6% apoptotic index | 25.9% (10× higher) | Abbate et al., *Heart* 2005 |
+| **Post-MI apoptosis** | 2.6% apoptotic index | 25.9% (10× higher) | Biondi-Zoccai/Abbate et al., *Heart* 2005 |
 
 ### Mechanism: The X/Y Death-Pathway Divergence
 
@@ -414,32 +414,32 @@ This **systems-level inflection** is the mechanistic basis for the post-menopaus
 | **SASP** | Near-zero sex discussion | Add "Sex Differences" section: estrogen–NF-κB suppression, sex-specific SASP composition, male-biased SASP burden | ✅ Added to [[SASP]] |
 | **SIRT3** | Missing estrogen mechanism | Add E2→ERα→SIRT3 expression/mitochondrial targeting; female translational efficiency; post-menopausal decline | ✅ Added to [[SIRT3]] |
 
-### Priority 2 — Important Gaps
+### Priority 2 — Important Gaps (✅ Completed 2026-09-02)
 
-| Entity | Gap | Recommendation |
-|--------|-----|----------------|
-| **Senescence** | Zero sex discussion | Add section on p16 vs p21 sex-specific arm dominance; female p16+ clearance benefit; male earlier senescence onset |
-| **Senolytics** | Zero sex discussion | Add sex-dependent efficacy note: D+Q female-biased benefit; fisetin male-biased; no navitoclax sex data |
-| **NF-κB** | Zero sex discussion | Add section on estrogen–ERβ–NF-κB axis; IκBα upregulation; post-menopausal NF-κB derepression |
-| **Telomere** | Zero sex discussion | Add "Sex Differences" section: female advantage mechanisms (DKC1, E2→TERT, antioxidant), attrition rates, paradox in premenopausal women |
-| **Autophagy** | Zero sex discussion | Add section on sex-specific death-pathway coupling (males: Beclin-1/canonical; females: ATG7/alternative); estrogen bidirectionality |
-| **mTORC1** | Zero sex discussion | Add note on sex-specific activation patterns; ERβ specification in female heart; rapamycin sex differences |
-| **AMPK** | Zero sex discussion | Add note on male-biased hepatic activation; estrogen–AMPK in females |
-| **SIRT6** | Missing Roichman 2021 | Add both-sex benefit (males still stronger); Finnish male-specific longevity polymorphism |
-| **Bcl-2** | Zero sex discussion | Add estrogen–Bcl-2 neuroprotection axis; sex-specific Bcl-2/Bax in disease contexts |
-| **Breast Cancer** | Sex discussed only in passing | Elaborate on ERα biology, sex-specific treatment resistance, subtype-specific sex differences |
-| **Prostate Cancer** | Sex discussed only in passing | Add note on AR signaling as paradigm of male-specific cancer biology; cross-link with androgen–mTORC1 |
+| Entity | Gap | Recommendation | Status |
+|--------|-----|----------------|--------|
+| **Senescence** | Zero sex discussion | Add section on p16 vs p21 sex-specific arm dominance; female p16+ clearance benefit; male earlier senescence onset | ✅ Added to [[Senescence]] (+ [[Cellular Senescence]]) |
+| **Senolytics** | Zero sex discussion | Add sex-dependent efficacy note: D+Q female-biased benefit; fisetin male-biased; no navitoclax sex data | ✅ Added to [[Senolytics]] (+ [[Senolytic]]) |
+| **NF-κB** | Zero sex discussion | Add section on estrogen–ERβ–NF-κB axis; IκBα upregulation; post-menopausal NF-κB derepression | ✅ Added to [[NF-κB]] |
+| **Telomere** | Zero sex discussion | Add "Sex Differences" section: female advantage mechanisms (DKC1, E2→TERT, antioxidant), attrition rates, paradox in premenopausal women | ✅ Added to [[Telomere]] (+ [[Telomere Attrition]]) |
+| **Autophagy** | Zero sex discussion | Add section on sex-specific death-pathway coupling (males: Beclin-1/canonical; females: ATG7/alternative); estrogen bidirectionality | ✅ Added to [[Autophagy]] |
+| **mTORC1** | Zero sex discussion | Add note on sex-specific activation patterns; ERβ specification in female heart; rapamycin sex differences | ✅ Added to [[mTORC1]] |
+| **AMPK** | Zero sex discussion | Add note on male-biased hepatic activation; estrogen–AMPK in females | ✅ Added to [[AMPK]] |
+| **SIRT6** | Missing Roichman 2021 | Add both-sex benefit (males still stronger); Finnish male-specific longevity polymorphism | ✅ Added to [[SIRT6]] |
+| **Bcl-2** | Zero sex discussion | Add estrogen–Bcl-2 neuroprotection axis; sex-specific Bcl-2/Bax in disease contexts | ✅ Added to [[Bcl-2]] |
+| **Breast Cancer** | Sex discussed only in passing | Elaborate on ERα biology, sex-specific treatment resistance, subtype-specific sex differences | ✅ Added to [[Breast Cancer]] |
+| **Prostate Cancer** | Sex discussed only in passing | Add note on AR signaling as paradigm of male-specific cancer biology; cross-link with androgen–mTORC1 | ✅ Added to [[Prostate Cancer]] |
 
-### Priority 3 — Cross-Links and Context
+### Priority 3 — Cross-Links and Context ✅ Completed 2026-09-02
 
-| Action | Details |
-|--------|---------|
-| **Create estrogen–sirtuin cross-link** | Connect estrogen→SIRT1/3/6 axis across SIRT1.md, SIRT3.md, SIRT6.md |
-| **Create sex-specific cell death cross-link** | Connect Apoptosis.md ↔ Caspases.md ↔ p53.md ↔ Bcl-2 family notes with unified sex-difference framework |
-| **Cross-link NAD+ ↔ PARP-1 ↔ sex** | Connect NAD+.md ↔ Telomere.md ↔ Apoptosis.md with PARP-1 sex-divergence |
-| **Cross-link NF-κB ↔ SASP ↔ estrogen** | Connect NF-κB.md ↔ SASP.md ↔ Inflammaging.md with estrogen suppression axis |
-| **Cross-link cGAS-STING ↔ SASP ↔ sex** | Connect cGAS-STING in senescence notes with estrogen–STING suppression |
-| **Add post-menopausal acceleration framework** | The "estrogen cliff" concept should be cross-referenced across all affected notes |
+| Action | Details | Status |
+|--------|---------|--------|
+| **Create estrogen–sirtuin cross-link** | Connect estrogen→SIRT1/3/6 axis across SIRT1.md, SIRT3.md, SIRT6.md | ✅ Added Sex Differences section to [[SIRT1]] (E₂→ER→SIRT1 hub + estrogen cliff); added reciprocal cross-link to [[SIRT3]]; [[SIRT6]] already linked |
+| **Create sex-specific cell death cross-link** | Connect Apoptosis.md ↔ Caspases.md ↔ p53.md ↔ Bcl-2 family notes with unified sex-difference framework | ✅ [[Apoptosis]] ↔ [[Caspases]] ↔ [[p53]] ↔ [[Bcl-2]] unified XX-caspase / XY-PARP-1-AIF framework cross-linked on all four |
+| **Cross-link NAD+ ↔ PARP-1 ↔ sex** | Connect NAD+.md ↔ Telomere.md ↔ Apoptosis.md with PARP-1 sex-divergence | ✅ [[NAD+]] ↔ [[Telomere]] ↔ [[Apoptosis]] via male PARP-driven NAD+ consumption / female estrogen-stabilized PARP-1 |
+| **Cross-link NF-κB ↔ SASP ↔ estrogen** | Connect NF-κB.md ↔ SASP.md ↔ Inflammaging.md with estrogen suppression axis | ✅ Added Sex Differences section to [[Inflammaging]] (estrogen→NF-κB/cGAS-STING suppression, SASP, estrogen cliff); [[NF-κB]]/[[SASP]] already cross-linked |
+| **Cross-link cGAS-STING ↔ SASP ↔ sex** | Connect cGAS-STING in senescence notes with estrogen–STING suppression | ✅ Added Sex Differences section to [[STING]] (ERα–HDAC3 suppression, post-menopausal derepression) + cross-link note to [[cGAS]] |
+| **Add post-menopausal acceleration framework** | The "estrogen cliff" concept should be cross-referenced across all affected notes | ✅ Cross-referenced across [[SIRT1]], [[SIRT3]], [[NAD+]], [[NF-κB]], [[SASP]], [[Inflammaging]], [[STING]], [[Telomere]], [[Bcl-2]] |
 
 ---
 
@@ -459,14 +459,19 @@ This **systems-level inflection** is the mechanistic basis for the post-menopaus
 - [[Hallmarks of Cancer]], [[Breast Cancer]], [[Prostate Cancer]], [[KRAS]]
 
 ### External Research — Caspases & Apoptosis
-- Liu F et al. (2009) *Stroke* 40:1842–1848. Sex differences in caspase activation after stroke.
-- Sharma J et al. (2011) *ASN Neuro* 3(2):e00056. Sex-specific cell death in cerebellar neurons.
-- McCullough LD et al. (2005) *J Cereb Blood Flow Metab* 25:502–512. PARP-1: male toxicity, female protection.
-- Abbate A et al. (2005) *Heart* 91:99–101. Reduced post-infarction apoptosis in women.
-- Dubal DB et al. (1999) *J Neurosci* 19:6385–6393. Estradiol modulates bcl-2.
-- Forger NG et al. (2004) *PNAS* 101:2010–2015. Bax deletion eliminates sex differences in brain.
-- Desai S et al. (2025) *Cells* 14(5):363. Sex disparities in p53 regulation.
-- Du L et al. Sex differences in cell death pathways. Multiple publications, 2004–2011.
+- **Liu F, Li Z, Li J, Siegel C, Yuan R, McCullough LD.** Sex differences in caspase activation after experimentally induced cerebral ischemia. *Stroke.* 2009;40(5):1842–1848. doi: 10.1161/STROKEAHA.108.538686. PMID: 19265047. (Females show higher/earlier caspase activation; pan-caspase inhibition protects females only.)
+- **McCullough LD, Zeng Z, Blizzard KK, Debchoudhury I, Hurn PD.** Ischemic nitric oxide and poly(ADP-ribose) polymerase-1 in cerebral ischemia: male toxicity, female protection. *J Cereb Blood Flow Metab.* 2005;25(4):502–512. doi: 10.1038/sj.jcbfm.9600059. PMID: 15689952. (PARP-1 deletion protects males, exacerbates injury in females.)
+- **McCullough LD, et al.** Sex differences in the response to PARP-1 deletion and caspase inhibition after stroke. *Stroke.* 2011;42(3):739–745. PMID: 21311064. PMC3066270. (Pan-caspase inhibitor Q-VD-OPh reduces infarct in females only.)
+- **Yuan M, Siegel C, Zeng Z, Li J, Liu F, McCullough LD.** Sex differences in the response to activation of the poly(ADP-ribose) polymerase pathway after experimental stroke. *Exp Neurol.* 2009;217(1):210–218. doi: 10.1016/j.expneurol.2009.02.012. (PARP-1 pathway drives male necrotic death.)
+- **Sharma J, Nelluru G, Wilson MA, Johnston MV, Hossain MA.** Sex-specific activation of cell death signalling pathways in cerebellar granule neurons exposed to oxygen glucose deprivation followed by reoxygenation. *ASN Neuro.* 2011;3(2):85–97. doi: 10.1042/AN20100032. PMID: 21382016. (XX: delayed caspase-8/3 with nuclear translocation of casp-8; XY: AIF release/PARP-1-dependent.)
+- **Biondi-Zoccai GG, Abbate A, Bussani R, Camilot D, De Giorgio F, Marino M-P, Silvestri F, Baldi F, Biasucci LM, Baldi A.** Reduced post-infarction myocardial apoptosis in women: a clue to their different clinical course? *Heart.* 2005;91(1):99–101. doi: 10.1136/hrt.2003.018754. (Human autopsy: peri-infarct AI ~10× higher in men [25.9%] vs women [2.6%]; higher cardiac Bax in men. Note: first author is Biondi-Zoccai, not Abbate.)
+- **Dubal DB, Shughrue PJ, Wilson ME, Merchenthaler I, Wise PM.** Estradiol modulates bcl-2 in cerebral ischemia: a potential contribution to neuroprotection. *J Neurosci.* 1999;19(15):6385–6393. PMID: 10414977. (Estrogen-driven Bcl-2 elevation → female apoptotic resistance.)
+- **Forger NG, Rosen GJ, Waters EM, Jacob D, Simerly RB, de Vries GJ.** Deletion of Bax eliminates sex differences in the mouse forebrain. *Proc Natl Acad Sci USA.* 2004;101(37):13666–13671. doi: 10.1073/pnas.0404644101. PMID: 15342910. (Bax KO abolishes sex differences in neuron number.)
+- **Zup SL, Carrier H, Waters EM, Tabor A, Bengston L, Rosen GJ, Simerly RB, Forger NG.** Overexpression of Bcl-2 reduces sex differences in neuron number in the brain and spinal cord. *J Neurosci.* 2003;23(6):2357–2362. doi: 10.1523/JNEUROSCI.23-06-02357.2003. (Bcl-2 overexpression also eliminates sex differences in cell number.)
+- **Desai S et al.** (2025) *Cells* 14(5):363. Sex disparities in p53 regulation.
+- **Li H, Pin S, Zeng Z, Wang MM, Andreasson KA, McCullough LD.** Sex differences in cell death. *Ann Neurol.* 2005;58(2):317–321. (Early formal statement of the XX-caspase / XY-PARP-1-AIF paradigm.)
+- **Tang et al.** Sex differences during ischemic stroke. *Front Mol Neurosci.* 2022;15:860959. (Modern review; neurovascular-unit + cell-death dimorphism.)
+- **Du L et al.** Sex differences in cell death pathways. Multiple publications, 2004–2011.
 
 ### External Research — Senescence
 - Ng et al. (2022) *Neurobiol Aging*. Evidence of sex differences in cellular senescence.

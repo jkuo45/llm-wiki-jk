@@ -4,18 +4,18 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 02_SEP_2026 | 34 | 1720 | 1,095,691 | 10.24 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 02_SEP_2026 | 34 | 1720 | 1,100,215 | 10.31 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 02_SEP_2026 | 19 | 258 | 197,716 | 2.59 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_AUG_2026 | 12 | 226 | 181,033 | 1.65 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 01_SEP_2026 | 11 | 280 | 245,033 | 2.90 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 02_SEP_2026 | 12 | 226 | 181,363 | 1.65 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 02_SEP_2026 | 11 | 280 | 245,412 | 2.91 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 01_SEP_2026 | 9 | 210 | 203,354 | 1.95 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.83 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 02_SEP_2026 | 1 | 94 | 79,001 | 1.01 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 154,580 | 2.17 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_SEP_2026 | 20 | 173 | 312,865 | 3.98 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 155,503 | 2.18 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_SEP_2026 | 20 | 173 | 313,693 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 02_SEP_2026 | **125** | **3160** | **2,558,730** | **27.86 MB** |
+| **subtotal** | 02_SEP_2026 | **125** | **3160** | **2,565,714** | **27.96 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -27,14 +27,14 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,221 | 38,120 |
-| **Triples** | `triples-*.json` | 3,005 | 5,066 |
-| **Wiki** | `wiki-*.json` | 3,030 | 35,740 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,223 | 38,227 |
+| **Triples** | `triples-*.json` | 3,010 | 5,111 |
+| **Wiki** | `wiki-*.json` | 3,030 | 35,822 |
 
-Build: 02_SEP_2026 · hash `5cea81baf3eadfca`
+Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 
 > [!info] Combined merge
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,814 entities appear in both sources (3,005 triples + 3,030 wiki − 1,814 shared → 4,221); edges are unioned by (`from`, `to`) pair — 2,420 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,817 entities appear in both sources (3,010 triples + 3,030 wiki − 1,817 shared → 4,223); edges are unioned by (`from`, `to`) pair — 2,436 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 <!-- END GENERATED: graph_datasets -->
 
 ---
@@ -275,8 +275,8 @@ Build: 02_SEP_2026 · hash `5cea81baf3eadfca`
 <details>
 <summary><strong>Tasks (95 total)</strong> — click to expand</summary>
 
-- [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (02_SEP_2026 01:09 PM PDT)
-- [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (02_SEP_2026 12:38 PM PDT)
+- [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (02_SEP_2026 05:16 PM PDT)
+- [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (02_SEP_2026 01:18 PM PDT)
 - [task_output_mnsod_thioredoxin_link_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md) [[src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md) [[src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md) [[src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md|wiki]] (02_SEP_2026 12:45 AM PDT)

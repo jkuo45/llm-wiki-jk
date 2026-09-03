@@ -16,7 +16,7 @@ tags: [task-output, gender, sex-differences, longevity, senescence, apoptosis, c
 
 整體模式是**雌激素作為幾乎所有 vault 路徑的主要性別差異中介者**——sirtuins、MnSOD、NF-κB、STING、端粒酶、p53、Bcl-2 與自噬皆然。其於停經時的喪失代表一個系統層級的轉折點，雌性保護性優勢在此侵蝕，形成雄性所沒有的「雙重打擊」衰老。
 
-**Vault 充實狀態（2026-09-02）：** 七個優先級 1 的實體筆記已加入性別差異章節充實：[[MnSOD]]、[[p53]]、[[Apoptosis]]、[[NAD+]]、[[SASP]]、[[SIRT3]] 與 [[Caspases]]（透過 [[Apoptosis]] 涵蓋）。十二個優先級 2 的實體留待未來充實（見第十一部）。p53 性別差異研究以深潛子報告方式進行，部分收錄於已充實的實體筆記與本文件。
+**Vault 充實狀態（2026-09-02）：** 七個優先級 1 的實體筆記已加入性別差異章節充實：[[MnSOD]]、[[p53]]、[[Apoptosis]]、[[NAD+]]、[[SASP]]、[[SIRT3]] 與 [[Caspases]]（透過 [[Apoptosis]] 涵蓋）。優先級 2 的全部十一個實體（見第十一部列示）亦已加入性別差異章節充實：[[Senescence]]、[[Senolytics]]、[[NF-κB]]、[[Telomere]]、[[Autophagy]]、[[mTORC1]]、[[AMPK]]、[[SIRT6]]、[[Bcl-2]]、[[Breast Cancer]] 與 [[Prostate Cancer]]。樞紐筆記（[[Cellular Senescence]]、[[Senolytic]]、[[Telomere Attrition]]）收到交叉引用的性別差異筆記。**第十一部的六項優先級 3 交叉連結與脈絡行動已全部完成（2026-09-02）：**（1）雌激素–sirtuin 樞紐跨 [[SIRT1]]／[[SIRT3]]／[[SIRT6]] 交叉連結；（2）性別特異細胞死亡統整框架跨 [[Apoptosis]]↔[[Caspases]]↔[[p53]]↔[[Bcl-2]]；（3）NAD+↔[[PARP1]]↔性別連結跨 [[NAD+]]↔[[Telomere]]↔[[Apoptosis]]；（4）NF-κB↔SASP↔雌激素，並在 [[Inflammaging]] 新增性別差異章節；（5）cGAS-STING↔SASP↔性別，在 [[STING]] 與 [[cGAS]] 新增性別差異筆記；（6）停經後「雌激素懸崖」跨所有受影響筆記交叉引用。p53 性別差異研究以深潛子報告方式進行，部分收錄於已充實的實體筆記與本文件。（註：先前的標題引用「十二個」優先級 2 實體；第十一部表格列示十一個，全部已完成。）
 
 ---
 
@@ -89,7 +89,7 @@ tags: [task-output, gender, sex-differences, longevity, senescence, apoptosis, c
 | **Bcl-2 表現** | 較高（雌激素驅動） | 較低 | Dubal 等，*J Neurosci* 1999 |
 | **Bax 表現** | 較低（基礎） | 較高 | Tsukahara 等，*J Neurobiol* 2006 |
 | **PARP-1 抑制** | 惡化損傷（對雌性具保護性） | 保護（減少梗塞） | McCullough 等，2005 |
-| **心肌梗塞後細胞凋亡** | 2.6% 細胞凋亡指數 | 25.9%（高出 10 倍） | Abbate 等，*Heart* 2005 |
+| **心肌梗塞後細胞凋亡** | 2.6% 細胞凋亡指數 | 25.9%（高出 10 倍） | Biondi-Zoccai／Abbate 等，*Heart* 2005 |
 
 ### 機制：X／Y 死亡路徑分歧
 
@@ -380,7 +380,7 @@ ESTROGEN (E2)
 | **MnSOD／SOD2** | — | 蛋白質較高；雌激素依賴；停經後下降 | 核心 SIRT3 受質 | E2→SOD2 表現 |
 | **Trx1** | 壽命延長（Pérez 2011） | 無壽命延長 | 調節 ER 氧化還原 | 雄性偏倚；癌症風險 |
 | **Caspases** | 活化較低；PARP-1／AIF 壞死占主導 | 活化較高；caspase 依賴細胞凋亡占主導 | — | XX 對 XY 死亡路徑分歧 |
-| **p53** | 腫瘤中突變頻率較高；睪固酮抑制 | 雌激素雙重調節（活化＋隔離） | 中央腫瘤抑制基因 | E2→p53 啟動子上的 4> 個 ERα 元件 |
+| **p53** | 腫瘤中突變頻率較高；睪固酮抑制 | 雌激素雙重調節（活化＋隔離） | 中央腫瘤抑制基因 | E2→p53 啟動子上的 4 個 ERα 元件 |
 | **Bcl-2** | 表現較低 | 較高（雌激素驅動）；神經保護 | — | E2→Bcl-2 轉錄 |
 | **衰老** | 早年衰老細胞較多；p53／p21 分支占主導 | p16+ 負擔較高；從 p16+ 清除獲益最多 | p16 與 p21 為不同亞型 | 性荷爾蒙依賴的衰老分支 |
 | **SASP** | SASP 負擔較高（憂鬱中）；較早發炎衰老 | 雌激素抑制 NF-κB 驅動的 SASP | GDF-15 與性別相關 | E2→NF-κB 抑制 |
@@ -412,32 +412,32 @@ ESTROGEN (E2)
 | **SASP** | 幾乎零性別討論 | 新增「性別差異」章節：雌激素–NF-κB 抑制、性別特異 SASP 組成、雄性偏倚 SASP 負擔 | ✅ 已加入 [[SASP]] |
 | **SIRT3** | 缺雌激素機制 | 新增 E2→ERα→SIRT3 表現／粒線體靶向；雌性翻譯效率；停經後下降 | ✅ 已加入 [[SIRT3]] |
 
-### 優先級 2——重要缺口
+### 優先級 2——重要缺口 ✅ 2026-09-02 完成
 
-| 實體 | 缺口 | 建議 |
-|--------|-----|----------------|
-| **Senescence** | 零性別討論 | 新增 p16 對 p21 性別特異分支優勢；雌性 p16+ 清除效益；雄性較早衰老發生 |
-| **Senolytics** | 零性別討論 | 新增性別依賴療效：D+Q 雌性偏倚效益；fisetin 雄性偏倚；無 navitoclax 性別資料 |
-| **NF-κB** | 零性別討論 | 新增雌激素–ERβ–NF-κB 軸；IκBα 上調；停經後 NF-κB 去抑制 |
-| **Telomere** | 零性別討論 | 新增「性別差異」章節：雌性優勢機制（DKC1、E2→TERT、抗氧化）、損耗率、停經前女性的悖論 |
-| **Autophagy** | 零性別討論 | 新增性別特異死亡路徑耦合（雄性：Beclin-1／典型；雌性：ATG7／替代）；雌激素雙向性 |
-| **mTORC1** | 零性別討論 | 新增性別特異活化模式；雌性心臟的 ERβ 指定；雷帕黴素性別差異 |
-| **AMPK** | 零性別討論 | 新增雄性偏倚肝臟活化；雌性雌激素–AMPK |
-| **SIRT6** | 缺 Roichman 2021 | 新增兩性效益（雄性仍較強）；芬蘭雄性特異長壽多型性 |
-| **Bcl-2** | 零性別討論 | 新增雌激素–Bcl-2 神經保護軸；疾病脈絡中的性別特異 Bcl-2／Bax |
-| **Breast Cancer** | 僅附帶提及性別 | 詳細闡述 ERα 生物學、性別特異治療抗藥性、亞型特異性別差異 |
-| **Prostate Cancer** | 僅附帶提及性別 | 新增 AR 訊息傳遞作為雄性特異癌症生物學的範式；與雄性激素–mTORC1 交叉連結 |
+| 實體 | 缺口 | 建議 | 狀態 |
+|--------|-----|----------------|--------|
+| **Senescence** | 零性別討論 | 新增 p16 對 p21 性別特異分支優勢；雌性 p16+ 清除效益；雄性較早衰老發生 | ✅ 已加入 [[Senescence]]（+ [[Cellular Senescence]]） |
+| **Senolytics** | 零性別討論 | 新增性別依賴療效：D+Q 雌性偏倚效益；fisetin 雄性偏倚；無 navitoclax 性別資料 | ✅ 已加入 [[Senolytics]]（+ [[Senolytic]]） |
+| **NF-κB** | 零性別討論 | 新增雌激素–ERβ–NF-κB 軸；IκBα 上調；停經後 NF-κB 去抑制 | ✅ 已加入 [[NF-κB]] |
+| **Telomere** | 零性別討論 | 新增「性別差異」章節：雌性優勢機制（DKC1、E2→TERT、抗氧化）、損耗率、停經前女性的悖論 | ✅ 已加入 [[Telomere]]（+ [[Telomere Attrition]]） |
+| **Autophagy** | 零性別討論 | 新增性別特異死亡路徑耦合（雄性：Beclin-1／典型；雌性：ATG7／替代）；雌激素雙向性 | ✅ 已加入 [[Autophagy]] |
+| **mTORC1** | 零性別討論 | 新增性別特異活化模式；雌性心臟的 ERβ 指定；雷帕黴素性別差異 | ✅ 已加入 [[mTORC1]] |
+| **AMPK** | 零性別討論 | 新增雄性偏倚肝臟活化；雌性雌激素–AMPK | ✅ 已加入 [[AMPK]] |
+| **SIRT6** | 缺 Roichman 2021 | 新增兩性效益（雄性仍較強）；芬蘭雄性特異長壽多型性 | ✅ 已加入 [[SIRT6]] |
+| **Bcl-2** | 零性別討論 | 新增雌激素–Bcl-2 神經保護軸；疾病脈絡中的性別特異 Bcl-2／Bax | ✅ 已加入 [[Bcl-2]] |
+| **Breast Cancer** | 僅附帶提及性別 | 詳細闡述 ERα 生物學、性別特異治療抗藥性、亞型特異性別差異 | ✅ 已加入 [[Breast Cancer]] |
+| **Prostate Cancer** | 僅附帶提及性別 | 新增 AR 訊息傳遞作為雄性特異癌症生物學的範式；與雄性激素–mTORC1 交叉連結 | ✅ 已加入 [[Prostate Cancer]] |
 
-### 優先級 3——交叉連結與脈絡
+### 優先級 3——交叉連結與脈絡 ✅ 2026-09-02 完成
 
-| 行動 | 詳細內容 |
-|--------|---------|
-| **建立雌激素–sirtuin 交叉連結** | 跨 SIRT1.md、SIRT3.md、SIRT6.md 連結雌激素→SIRT1／3／6 軸 |
-| **建立性別特異細胞死亡交叉連結** | 用統整的性別差異框架連結 Apoptosis.md ↔ Caspases.md ↔ p53.md ↔ Bcl-2 家族筆記 |
-| **交叉連結 NAD+ ↔ PARP-1 ↔ 性別** | 以 PARP-1 性別分歧連結 NAD+.md ↔ Telomere.md ↔ Apoptosis.md |
-| **交叉連結 NF-κB ↔ SASP ↔ 雌激素** | 以雌激素抑制軸連結 NF-κB.md ↔ SASP.md ↔ Inflammaging.md |
-| **交叉連結 cGAS-STING ↔ SASP ↔ 性別** | 以雌激素–STING 抑制連結衰老筆記中的 cGAS-STING |
-| **新增停經後加速框架** |「雌激素懸崖」概念應在所有受影響筆記中交叉引用 |
+| 行動 | 詳細內容 | 狀態 |
+|--------|---------|--------|
+| **建立雌激素–sirtuin 交叉連結** | 跨 SIRT1.md、SIRT3.md、SIRT6.md 連結雌激素→SIRT1／3／6 軸 | ✅ 在 [[SIRT1]] 新增性別差異章節（E₂→ER→SIRT1 樞紐＋雌激素懸崖）；向 [[SIRT3]] 新增交互交叉連結；[[SIRT6]] 已連結 |
+| **建立性別特異細胞死亡交叉連結** | 用統整的性別差異框架連結 Apoptosis.md ↔ Caspases.md ↔ p53.md ↔ Bcl-2 家族筆記 | ✅ [[Apoptosis]]↔[[Caspases]]↔[[p53]]↔[[Bcl-2]] 統整 XX-caspase／XY-PARP-1-AIF 框架，四者皆交叉連結 |
+| **交叉連結 NAD+ ↔ PARP-1 ↔ 性別** | 以 PARP-1 性別分歧連結 NAD+.md ↔ Telomere.md ↔ Apoptosis.md | ✅ [[NAD+]]↔[[Telomere]]↔[[Apoptosis]] 以雄性 PARP 驅動的 NAD+ 消耗／雌性雌激素穩定的 PARP-1 連結 |
+| **交叉連結 NF-κB ↔ SASP ↔ 雌激素** | 以雌激素抑制軸連結 NF-κB.md ↔ SASP.md ↔ Inflammaging.md | ✅ 在 [[Inflammaging]] 新增性別差異章節（雌激素→NF-κB／cGAS-STING 抑制、SASP、雌激素懸崖）；[[NF-κB]]／[[SASP]] 已交叉連結 |
+| **交叉連結 cGAS-STING ↔ SASP ↔ 性別** | 以雌激素–STING 抑制連結衰老筆記中的 cGAS-STING | ✅ 在 [[STING]] 新增性別差異章節（ERα–HDAC3 抑制、停經後去抑制）＋向 [[cGAS]] 新增交叉連結筆記 |
+| **新增停經後加速框架** |「雌激素懸崖」概念應在所有受影響筆記中交叉引用 | ✅ 跨 [[SIRT1]]、[[SIRT3]]、[[NAD+]]、[[NF-κB]]、[[SASP]]、[[Inflammaging]]、[[STING]]、[[Telomere]]、[[Bcl-2]] 交叉引用 |
 
 ---
 
@@ -457,14 +457,19 @@ ESTROGEN (E2)
 - [[Hallmarks of Cancer]]、[[Breast Cancer]]、[[Prostate Cancer]]、[[KRAS]]
 
 ### 外部研究——Caspase 與細胞凋亡
-- Liu F 等（2009）*Stroke* 40:1842–1848。中風後 caspase 活化的性別差異。
-- Sharma J 等（2011）*ASN Neuro* 3(2):e00056。小腦神經元的性別特異細胞死亡。
-- McCullough LD 等（2005）*J Cereb Blood Flow Metab* 25:502–512。PARP-1：雄性毒性、雌性保護。
-- Abbate A 等（2005）*Heart* 91:99–101。女性心肌梗塞後細胞凋亡減少。
-- Dubal DB 等（1999）*J Neurosci* 19:6385–6393。雌二醇調節 bcl-2。
-- Forger NG 等（2004）*PNAS* 101:2010–2015。Bax 缺失消除大腦性別差異。
-- Desai S 等（2025）*Cells* 14(5):363。p53 調節中的性別差異。
-- Du L 等。細胞死亡路徑的性別差異。多篇出版，2004–2011。
+- **Liu F、Li Z、Li J、Siegel C、Yuan R、McCullough LD。** 中風後實驗性誘導腦缺血的 caspase 活化性別差異。*Stroke.* 2009；40(5)：1842–1848。doi：10.1161/STROKEAHA.108.538986。PMID：19265047。（雌性顯示較高／較早的 caspase 活化；pan-caspase 抑制僅保護雌性。）
+- **McCullough LD、Zeng Z、Blizzard KK、Debchoudhury I、Hurn PD。** 腦缺血中的缺氧性一氧化氮與聚（ADP-核糖）聚合酶-1：雄性毒性、雌性保護。*J Cereb Blood Flow Metab.* 2005；25(4)：502–512。doi：10.1038/sj.jcbfm.9600059。PMID：15689952。（PARP-1 刪除保護雄性，惡化雌性損傷。）
+- **McCullough LD 等。** 中風後 PARP-1 刪除與 caspase 抑制反應的性別差異。*Stroke.* 2011；42(3)：739–745。PMID：21311064。PMC3066270。（Pan-caspase 抑制劑 Q-VD-OPh 僅減少雌性梗塞。）
+- **Yuan M、Siegel C、Zeng Z、Li J、Liu F、McCullough LD。** 實驗性中風後聚（ADP-核糖）聚合酶路徑活化反應的性別差異。*Exp Neurol.* 2009；217(1)：210–218。doi：10.1016/j.expneurol.2009.02.012。（PARP-1 路徑驅動雄性壞死死亡。）
+- **Sharma J、Nelluru G、Wilson MA、Johnston MV、Hossain MA。** 氧糖剝奪後再氧化暴露的小腦神經元中性別特異的細胞死亡訊息路徑活化。*ASN Neuro.* 2011；3(2)：85–97。doi：10.1042/AN20100032。PMID：21382016。（XX：延遲 caspase-8／3 伴 casp-8 核轉位；XY：AIF 釋放／PARP-1 依賴。）
+- **Biondi-Zoccai GG、Abbate A、Bussani R、Camilot D、De Giorgio F、Marino M-P、Silvestri F、Baldi F、Biasucci LM、Baldi A。** 女性心肌梗塞後細胞凋亡減少：其不同臨床病程的線索？*Heart.* 2005；91(1)：99–101。doi：10.1136/hrt.2003.018754。（人體解剖：梗塞周邊凋亡指數男性（25.9%）約為女性（2.6%）之 10 倍；男性心臟 Bax 較高。註：第一作者為 Biondi-Zoccai，非 Abbate。）
+- **Dubal DB、Shughrue PJ、Wilson ME、Merchenthaler I、Wise PM。** 雌二醇調節腦缺血中的 bcl-2：對神經保護的潛在貢獻。*J Neurosci.* 1999；19(15)：6385–6393。PMID：10414977。（雌激素驅動的 Bcl-2 上升 → 雌性凋亡抗性。）
+- **Forger NG、Rosen GJ、Waters EM、Jacob D、Simerly RB、de Vries GJ。** Bax 刪除消除小鼠前腦的性別差異。*Proc Natl Acad Sci USA.* 2004；101(37)：13666–13671。doi：10.1073/pnas.0404644101。PMID：15342910。（Bax KO 消除神經元數量的性別差異。）
+- **Zup SL、Carrier H、Waters EM、Tabor A、Bengston L、Rosen GJ、Simerly RB、Forger NG。** Bcl-2 過度表現減少大腦與脊髓中神經元數量的性別差異。*J Neurosci.* 2003；23(6)：2357–2362。doi：10.1523/JNEUROSCI.23-06-02357.2003。（Bcl-2 過度表現亦消除細胞數量的性別差異。）
+- **Desai S 等。**（2025）*Cells* 14(5)：363。p53 調節中的性別差異。
+- **Li H、Pin S、Zeng Z、Wang MM、Andreasson KA、McCullough LD。** 細胞死亡的性別差異。*Ann Neurol.* 2005；58(2)：317–321。（早期 XX-caspase／XY-PARP-1-AIF 範式的正式聲明。）
+- **Tang 等。** 缺血性中風的性別差異。*Front Mol Neurosci.* 2022；15：860959。（現代綜述；神經血管單元＋細胞死亡二態性。）
+- **Du L 等。** 細胞死亡路徑的性別差異。多篇出版，2004–2011。
 
 ### 外部研究——衰老
 - Ng 等（2022）*Neurobiol Aging*。細胞衰老中存在性別差異的證據。
@@ -483,20 +488,20 @@ ESTROGEN (E2)
 - Singh PB 等（2024）*Biol Sex Differ*。CR + 運動的性別特異分子路徑。
 
 ### 外部研究——NAD+ 代謝
-- Guan 等（2022）*Front Endocrinol* 13:829658。NAD+ 與衰老的性別差異。
-- Maver 等（2012）*PLoS ONE* 7:e42357。PARP 活性的性別差異。
-- Wang 等（2023）*Nature Aging* 3:1446–1459。卵巢老化中的 CD38。
-- Zhang 等（2023）*iScience* 26(9):107949。CD38 敲除與卵巢 NAD+。
+- Guan 等（2022）*Front Endocrinol* 13：829658。NAD+ 與衰老的性別差異。
+- Maver 等（2012）*PLoS ONE* 7：e42357。PARP 活性的性別差異。
+- Wang 等（2023）*Nature Aging* 3：1446–1459。卵巢老化中的 CD38。
+- Zhang 等（2023）*iScience* 26(9)：107949。CD38 敲除與卵巢 NAD+。
 
 ### 外部研究——NF-κB 與發炎
-- Giroux 等（2012）*PLoS ONE* 7:e36890。雌激素–NF-κB–MyD88 性別差異。
-- Engler 等（2017）*Innate Immunity* 23:318–328。細胞激素反應的性別差異。
+- Giroux 等（2012）*PLoS ONE* 7：e36890。雌激素–NF-κB–MyD88 性別差異。
+- Engler 等（2017）*Innate Immunity* 23：318–328。細胞激素反應的性別差異。
 - Chang 等（2024）*Cell*。Xist 與自體免疫（史丹佛）。
-- Olivieri 等（2023）*Mech Ageing Dev* 211:111792。發炎衰老的性別差異。
+- Olivieri 等（2023）*Mech Ageing Dev* 211：111792。發炎衰老的性別差異。
 
 ### 外部研究——端粒
-- Gardner 等（2014）*Exp Gerontol* 51:15–27。端粒長度的性別差異。
-- Lansdorp（2022）*Aging Cell* 21:e13614。女性端粒優勢的 DKC1 假說。
+- Gardner 等（2014）*Exp Gerontol* 51：15–27。端粒長度的性別差異。
+- Lansdorp（2022）*Aging Cell* 21：e13614。女性端粒優勢的 DKC1 假說。
 - Li 等（2025）*Biomed Environ Sci*。停經前女性的長端粒悖論。
 
 ### 外部研究——癌症
