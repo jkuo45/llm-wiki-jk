@@ -304,5 +304,23 @@
                 "updated": "2026-09-02"
             }
         }
+    },
+    {
+        "id": "cell-death-comparison-table",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Cell Death Comparison [table]",
+                "path": "pages/en-US/cell-death-comparison-table.html",
+                "created": "2026-09-03",
+                "updated": "2026-09-03"
+            },
+            "zh-TW": {
+                "title": "細胞死亡比較 [表格]",
+                "path": "pages/zh-TW/cell-death-comparison-table.html",
+                "created": "2026-09-03",
+                "updated": "2026-09-03"
+            }
+        }
     }
 ]
