@@ -664,7 +664,7 @@ def main():
     graph_datasets_content = (
         "\n".join(datasets_table)
         + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
-        + "\n\n> [!info] Combined merge\n"
+        + "\n\n> [!NOTE] Combined merge\n"
         + "> The combined dataset is the union of the triples and wiki graphs, "
         "deduplicated by canonical id (`norm(label)`). "
         + (
