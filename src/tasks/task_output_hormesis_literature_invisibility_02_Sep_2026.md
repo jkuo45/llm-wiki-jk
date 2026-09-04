@@ -31,11 +31,11 @@ tags:
 > **The core problem:** Calabrese and colleagues estimate that searching PubMed or Web of Science using only "hormesis" or "hormetic" as terms **overlooks 80–90% of articles** that satisfy the evaluative criteria for inclusion in the hormesis database. The reason is simple: the same biological phenomenon — biphasic dose-response where a low-dose stressor triggers adaptive benefit — is described using **dozens of discipline-specific terms** that never mention the word "hormesis."
 
 This report:
-1. Maps the complete vocabulary landscape across 15+ fields
-2. Identifies why the fragmentation persists (structural, cultural, regulatory)
-3. Proposes a **"Hormesis Vocabulary Bridge"** — a structured synonym/ontology resource
-4. Provides improved multi-database search strategies
-5. Suggests how our wiki and knowledge graph can serve as a living cross-disciplinary bridge
+- Maps the complete vocabulary landscape across 15+ fields
+- Identifies why the fragmentation persists (structural, cultural, regulatory)
+- Proposes a **"Hormesis Vocabulary Bridge"** — a structured synonym/ontology resource
+- Provides improved multi-database search strategies
+- Suggests how our wiki and knowledge graph can serve as a living cross-disciplinary bridge
 
 ---
 
@@ -183,23 +183,23 @@ The following map organizes every known term by the field that primarily uses it
 
 ### Structural Causes
 
-1. **Journal silos.** A study on ischemic preconditioning appears in *Circulation*; the same mechanism in neurons appears in *Stroke*; in muscle, in *J Applied Physiology*; in radiation, in *Radiation Research*. The word "hormesis" may appear in none of them.
+- **Journal silos.** A study on ischemic preconditioning appears in *Circulation*; the same mechanism in neurons appears in *Stroke*; in muscle, in *J Applied Physiology*; in radiation, in *Radiation Research*. The word "hormesis" may appear in none of them.
 
-2. **MeSH term misalignment.** PubMed's Medical Subject Headings does not have a single unifying term that captures all hormesis-related concepts. "Adaptive Response" exists but is used ambiguously. "Dose-Response Relationship, Drug" captures pharmacology but misses radiation, exercise, and psychological stress.
+- **MeSH term misalignment.** PubMed's Medical Subject Headings does not have a single unifying term that captures all hormesis-related concepts. "Adaptive Response" exists but is used ambiguously. "Dose-Response Relationship, Drug" captures pharmacology but misses radiation, exercise, and psychological stress.
 
-3. **Database-specific controlled vocabularies.** MEDLINE uses MeSH; Emtree (EMBASE) uses different terms; CINAHL has its own; PsycINFO uses APA Thesaurus. A search optimized for one database misses terms in another.
+- **Database-specific controlled vocabularies.** MEDLINE uses MeSH; Emtree (EMBASE) uses different terms; CINAHL has its own; PsycINFO uses APA Thesaurus. A search optimized for one database misses terms in another.
 
-4. **Citation language.** Researchers cite within their field. An exercise physiologist citing "repeated bout effect" may never read the *Dose-Response* journal where the same phenomenon is analyzed as hormesis.
+- **Citation language.** Researchers cite within their field. An exercise physiologist citing "repeated bout effect" may never read the *Dose-Response* journal where the same phenomenon is analyzed as hormesis.
 
 ### Cultural Causes
 
-1. **Negative-connotation avoidance.** Fields dealing with radiation, toxins, pain, and infection are culturally incentivized to avoid language suggesting "benefits" of harmful agents. The word "hormesis" is politically charged in radiation biology (conflicts with the Linear No-Threshold model).
+- **Negative-connotation avoidance.** Fields dealing with radiation, toxins, pain, and infection are culturally incentivized to avoid language suggesting "benefits" of harmful agents. The word "hormesis" is politically charged in radiation biology (conflicts with the Linear No-Threshold model).
 
-2. **Disciplinary identity.** "Trained immunity" and "ischemic preconditioning" are identity-defining concepts for their fields. Subsuming them under "hormesis" may feel like intellectual appropriation.
+- **Disciplinary identity.** "Trained immunity" and "ischemic preconditioning" are identity-defining concepts for their fields. Subsuming them under "hormesis" may feel like intellectual appropriation.
 
-3. **Regulatory inertia.** Accepting that low-dose radiation or low-dose toxin exposure is beneficial would require restructuring safety standards (NRC, EPA, WHO). The institutional cost of acknowledging hormesis is enormous.
+- **Regulatory inertia.** Accepting that low-dose radiation or low-dose toxin exposure is beneficial would require restructuring safety standards (NRC, EPA, WHO). The institutional cost of acknowledging hormesis is enormous.
 
-4. **The "hormesis = homeopathy" stigma.** Hugo Schulz (1887) made the fatal error of associating his biphasic dose-response finding with homeopathy. This created a century-long backlash from mainstream medicine that still taints the concept.
+- **The "hormesis = homeopathy" stigma.** Hugo Schulz (1887) made the fatal error of associating his biphasic dose-response finding with homeopathy. This created a century-long backlash from mainstream medicine that still taints the concept.
 
 ### Quantitative Evidence of the Problem
 
@@ -327,11 +327,11 @@ OR "cross-tolerance" OR "stress hardening")
 Rather than keyword searching, use **forward and backward citation tracking** from landmark hormesis papers to discover hidden literature:
 
 **Landmark papers for citation chain expansion:**
-1. Calabrese & Baldwin (2001). "Hormesis: A generalizable and unifying hypothesis." *Crit Rev Toxicol.* — 4,700+ citations
-2. Calabrese & Mattson (2017). "How does hormesis impact biology, toxicology, and medicine?" *npj Aging.* — ~500 citations
-3. Mattson (2008). "Hormesis defined." *Ageing Res Rev.* — ~1,500 citations
-4. Li et al. (2024). "Current advances and future trends of hormesis in disease." *Nature.* — 101 citations
-5. Calabrese et al. (2026). "The crucible of resilience." *Arch Toxicol.* — new
+- Calabrese & Baldwin (2001). "Hormesis: A generalizable and unifying hypothesis." *Crit Rev Toxicol.* — 4,700+ citations
+- Calabrese & Mattson (2017). "How does hormesis impact biology, toxicology, and medicine?" *npj Aging.* — ~500 citations
+- Mattson (2008). "Hormesis defined." *Ageing Res Rev.* — ~1,500 citations
+- Li et al. (2024). "Current advances and future trends of hormesis in disease." *Nature.* — 101 citations
+- Calabrese et al. (2026). "The crucible of resilience." *Arch Toxicol.* — new
 
 **Method:** For each paper, export citing articles from Web of Science/Scopus, filter for those NOT using "hormesis/hormetic" in title/abstract — these are the "invisible" papers that use alternative terminology.
 
@@ -354,18 +354,18 @@ Rather than keyword searching, use **forward and backward citation tracking** fr
 
 Our wiki and graph can serve as a **living cross-disciplinary bridge** by:
 
-1. **Node-level synonym linking.** When creating entity notes, explicitly list all field-specific synonyms:
+- **Node-level synonym linking.** When creating entity notes, explicitly list all field-specific synonyms:
    ```markdown
    # Ischemic Preconditioning
    aliases: [IPC, ischemic preconditioning, cardiac preconditioning, remote ischemic preconditioning, RIPC]
    also_known_as: [a form of hormesis, stress preconditioning, overcompensation response]
    ```
 
-2. **Graph edges that cross vocabulary boundaries.** Our graphify pipeline already extracts edges between concepts. By ensuring that synonyms are connected (e.g., "Ischemic Preconditioning" → "Hormesis"), the graph itself becomes a bridge.
+- **Graph edges that cross vocabulary boundaries.** Our graphify pipeline already extracts edges between concepts. By ensuring that synonyms are connected (e.g., "Ischemic Preconditioning" → "Hormesis"), the graph itself becomes a bridge.
 
-3. **Query expansion.** When using `graphify query`, the system should automatically expand "hormesis" to include all mapped synonyms, surfacing literature across all 15 fields.
+- **Query expansion.** When using `graphify query`, the system should automatically expand "hormesis" to include all mapped synonyms, surfacing literature across all 15 fields.
 
-4. **Community detection as field-mapping.** Graphify's community detection naturally clusters related nodes. In our combined graph, the hormesis-related communities should span multiple "topic" directories — precisely because the concept crosses disciplinary boundaries.
+- **Community detection as field-mapping.** Graphify's community detection naturally clusters related nodes. In our combined graph, the hormesis-related communities should span multiple "topic" directories — precisely because the concept crosses disciplinary boundaries.
 
 ### Solution 6: Interdisciplinary "Hormesis Commons" Publication Venue
 
@@ -385,12 +385,12 @@ Our wiki and graph can serve as a **living cross-disciplinary bridge** by:
 ### Solution 7: AI-Assisted Literature Discovery
 
 **Recent tools that could help:**
-1. **Semantic Scholar (Allen AI)** — citation graph with concept-level search; can find papers by semantic similarity, not just keywords
-2. **Consensus (consensus.app)** — AI-powered research search that synthesizes across disciplines
-3. **Elicit** — AI research assistant that can identify papers by concept, not just keyword
-4. **BioKGrapher (2024)** — automated knowledge graph construction from biomedical literature
-5. **Dug (2023)** — semantic search engine that uses knowledge graph connections to explain *why* results are relevant
-6. **iKraph (2025, *Nature Machine Intelligence*)** — comprehensive large-scale biomedical knowledge graph
+- **Semantic Scholar (Allen AI)** — citation graph with concept-level search; can find papers by semantic similarity, not just keywords
+- **Consensus (consensus.app)** — AI-powered research search that synthesizes across disciplines
+- **Elicit** — AI research assistant that can identify papers by concept, not just keyword
+- **BioKGrapher (2024)** — automated knowledge graph construction from biomedical literature
+- **Dug (2023)** — semantic search engine that uses knowledge graph connections to explain *why* results are relevant
+- **iKraph (2025, *Nature Machine Intelligence*)** — comprehensive large-scale biomedical knowledge graph
 
 **Practical approach:** Use LLM-assisted search where you describe the *mechanism* (e.g., "mild stress activates adaptive defense pathways leading to enhanced resilience") and the system finds papers describing that mechanism regardless of which specific terminology they use.
 
@@ -400,29 +400,29 @@ Our wiki and graph can serve as a **living cross-disciplinary bridge** by:
 
 ### Immediate (This Sprint)
 
-1. **Create `Hormesis Vocabulary Bridge.md`** in `_link/` — a master reference listing all known synonyms organized by field, with cross-references and MeSH equivalents.
+- **Create `Hormesis Vocabulary Bridge.md`** in `_link/` — a master reference listing all known synonyms organized by field, with cross-references and MeSH equivalents.
 
-2. **Enhance `Hormesis.md`** with a "Synonyms Across Fields" section that lists every alternative term, the field that uses it, and a cross-reference.
+- **Enhance `Hormesis.md`** with a "Synonyms Across Fields" section that lists every alternative term, the field that uses it, and a cross-reference.
 
-3. **Add synonym tags** to entity notes where relevant (e.g., `Ischemic Preconditioning` should note it is a form of hormesis; `Trained Immunity` should link to `Hormesis`).
+- **Add synonym tags** to entity notes where relevant (e.g., `Ischemic Preconditioning` should note it is a form of hormesis; `Trained Immunity` should link to `Hormesis`).
 
-4. **Update graph queries** to include synonym expansion when searching for hormesis-related concepts.
+- **Update graph queries** to include synonym expansion when searching for hormesis-related concepts.
 
 ### Medium-Term
 
-5. **Create field-specific bridge notes** for each of the 12 domains from the "Beyond Mitohormesis" report, explicitly connecting their native terminology to the hormesis framework.
+- **Create field-specific bridge notes** for each of the 12 domains from the "Beyond Mitohormesis" report, explicitly connecting their native terminology to the hormesis framework.
 
-6. **Build a searchable synonym index** in `web/public/data/` that the frontend can use to suggest related terms when a user searches for any hormesis synonym.
+- **Build a searchable synonym index** in `web/public/data/` that the frontend can use to suggest related terms when a user searches for any hormesis synonym.
 
-7. **Run a systematic query** using the master Boolean search string above against PubMed, filter for articles in our topic directories, and identify high-value articles currently missing from our wiki.
+- **Run a systematic query** using the master Boolean search string above against PubMed, filter for articles in our topic directories, and identify high-value articles currently missing from our wiki.
 
 ### Long-Term
 
-8. **Publish the Vocabulary Bridge** as a living preprint/document that other hormesis researchers can contribute to — essentially a "wiki of hormesis terminology."
+- **Publish the Vocabulary Bridge** as a living preprint/document that other hormesis researchers can contribute to — essentially a "wiki of hormesis terminology."
 
-9. **Advocate for MeSH updates** by submitting a formal proposal to NLM for a broader "Hormesis" MeSH term with narrow terms.
+- **Advocate for MeSH updates** by submitting a formal proposal to NLM for a broader "Hormesis" MeSH term with narrow terms.
 
-10. **Integrate with Semantic Scholar's API** to enable automated discovery of new papers that describe hormetic mechanisms under alternative terminology.
+- **Integrate with Semantic Scholar's API** to enable automated discovery of new papers that describe hormetic mechanisms under alternative terminology.
 
 ---
 
@@ -430,15 +430,15 @@ Our wiki and graph can serve as a **living cross-disciplinary bridge** by:
 
 The vocabulary fragmentation problem isn't just an academic inconvenience. It has real-world consequences:
 
-1. **Clinical trial design.** Researchers designing clinical trials on preconditioning, trained immunity, or exercise adaptation may miss the hormesis literature that would inform optimal dosing. The quantitative signature (30-60% improvement, 5-100 fold dose range) is the same across all domains — knowing this prevents reinventing the wheel.
+- **Clinical trial design.** Researchers designing clinical trials on preconditioning, trained immunity, or exercise adaptation may miss the hormesis literature that would inform optimal dosing. The quantitative signature (30-60% improvement, 5-100 fold dose range) is the same across all domains — knowing this prevents reinventing the wheel.
 
-2. **Public health messaging.** If "hormesis" and "adaptive response" and "preconditioning" were recognized as the same phenomenon, public health could develop unified messaging about the benefits of controlled stress exposure (exercise, fasting, thermal stress, microbial exposure) rather than treating each as a separate, unrelated intervention.
+- **Public health messaging.** If "hormesis" and "adaptive response" and "preconditioning" were recognized as the same phenomenon, public health could develop unified messaging about the benefits of controlled stress exposure (exercise, fasting, thermal stress, microbial exposure) rather than treating each as a separate, unrelated intervention.
 
-3. **Drug development.** Pharmaceutical companies looking for hormetic agents may miss entire classes of compounds because they search only with "hormesis." The 30-60% maximum stimulatory response is a hard ceiling on biological plasticity — knowing this is crucial for realistic drug development expectations.
+- **Drug development.** Pharmaceutical companies looking for hormetic agents may miss entire classes of compounds because they search only with "hormesis." The 30-60% maximum stimulatory response is a hard ceiling on biological plasticity — knowing this is crucial for realistic drug development expectations.
 
-4. **Regulatory policy.** Radiation protection, chemical safety standards, and environmental regulation all use dose-response models that ignore hormesis. Making the vocabulary visible makes the evidence visible, which makes regulatory debate possible.
+- **Regulatory policy.** Radiation protection, chemical safety standards, and environmental regulation all use dose-response models that ignore hormesis. Making the vocabulary visible makes the evidence visible, which makes regulatory debate possible.
 
-5. **Personal health decisions.** The individual deciding whether to try cold exposure, intermittent fasting, heat therapy, or exercise in hypoxic conditions is navigating a fragmented literature. A unified vocabulary would make evidence-based self-experimentation far more accessible.
+- **Personal health decisions.** The individual deciding whether to try cold exposure, intermittent fasting, heat therapy, or exercise in hypoxic conditions is navigating a fragmented literature. A unified vocabulary would make evidence-based self-experimentation far more accessible.
 
 ---
 
