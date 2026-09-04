@@ -35,8 +35,16 @@
 
 Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 
-> [!NOTE] Combined merge
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,817 entities appear in both sources (3,010 triples + 3,030 wiki − 1,817 shared → 4,223); edges are unioned by (`from`, `to`) pair — 2,436 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+**Combined merge**: The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,817 entities appear in both sources (3,010 triples + 3,030 wiki − 1,817 shared → 4,223); edges are unioned by (`from`, `to`) pair — 2,436 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+
+**Graph pipeline (wiki + triples → combined)**:
+
+[`scripts/triples/rebuild.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py) (`rebuild-triples`) builds the triples graph from per-topic `src/**/_triples.json` — accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) plus runtime data to `web/public/data/` (`triples-nodes.json` / `triples-edges.json` / `triples-legend.json` / `triples-graph-meta.json` / roles, a copy of `manifest.json`, and a content-hash `version.json`).
+
+[`scripts/wiki/rebuild.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/wiki/rebuild.py) (`rebuild-wiki`) is the mirror stage for `[[wikilinks]]` in `src/notes/**/*.md` (node = note, edge = `links_to` weighted by mention count, same `norm(label)` ids and schema) — it writes `wiki-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`, orphan/diff reports) plus `wiki-*` web files, and auto-runs the merge.
+
+[`scripts/combined/build.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/combined/build.py) module (build-combined) generates the web dataset (`nodes.json`, `edges.json`, `legend.json`, `graph-meta.json`, `node_roles.json`, and `roles-meta.json`) by merging triples-_and wiki-_ according to the rules outlined above. It also produces the curation-gap report (`wiki-out/graph-diff.json` and `GRAPH_DIFF.md`) and cleans up any deprecated combined-_files. Note that the frontend uses the unprefixed files—or per-mode triples-_ / wiki-* if needed—while the backend reads graphify-out/graph.json (triples) and wiki-out/graph.json (wiki) directly.
+
 <!-- END GENERATED: graph_datasets -->
 
 ---
@@ -50,10 +58,6 @@ Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
 > - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 > - [Sirtuins - Biological Relevance](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|wiki]]
->
-> **Graphify Rebuild From `_triples.json`**:
->
-> - [`scripts/triples/rebuild.py`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py) — canonical rebuild from per-topic `src/**/_triples.json`: accumulates nodes/edges, prunes generic type hubs (e.g. `chemical`, `protein`) and pure document-title nodes, re-clusters (Leiden) preserving prior community labels, then writes analysis artifacts to `graphify-out/` (`graph.json`, `GRAPH_REPORT.md`, `graph.html`) and runtime data to `web/public/data/` (**`triples-nodes.json`/`triples-edges.json`/`triples-legend.json`/`triples-graph-meta.json`/roles** derived from `graph.json`, a copy of `manifest.json`, and a content-hash `version.json` for cache busting). The canonical `nodes.json`/`edges.json`/`legend.json`/`graph-meta.json` (the **combined** default dataset) is produced by `scripts/combined/build.py` from the `triples-*` + `wiki-*` sources. Note: `web/public/data/graph.json` has been retired — the frontend reads the canonical `web/public/data/*.json` and/or the `triples-*`/`wiki-*` source files per mode, and the backend reads `graphify-out/graph.json` directly (single source of truth).
 
 ---
 
