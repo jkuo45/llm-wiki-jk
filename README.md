@@ -2,6 +2,7 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table
+
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 03_SEP_2026 | 34 | 1760 | 1,125,311 | 10.49 MB |
@@ -10,12 +11,13 @@
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 03_SEP_2026 | 11 | 278 | 244,881 | 2.91 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 03_SEP_2026 | 9 | 210 | 203,453 | 1.95 MB |
+| [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 04_SEP_2026 | 0 | 7 | 64,951 | 0.58 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.83 MB |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 03_SEP_2026 | 1 | 94 | 79,170 | 1.01 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 155,510 | 2.18 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 03_SEP_2026 | 20 | 173 | 313,711 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 03_SEP_2026 | **125** | **3197** | **2,589,707** | **28.14 MB** |
+| **subtotal** | 04_SEP_2026 | **125** | **3204** | **2,654,658** | **28.72 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -27,13 +29,13 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,223 | 38,227 |
+| **Combined** _(default)_ | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,223 | 38,227 |
 | **Triples** | `triples-*.json` | 3,010 | 5,111 |
 | **Wiki** | `wiki-*.json` | 3,030 | 35,822 |
 
 Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 
-> [!info] Combined merge
+> [!NOTE] Combined merge
 > The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 1,817 entities appear in both sources (3,010 triples + 3,030 wiki − 1,817 shared → 4,223); edges are unioned by (`from`, `to`) pair — 2,436 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 <!-- END GENERATED: graph_datasets -->
 
@@ -55,23 +57,33 @@ Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 
 ---
 
-### 📌 notable:
+### 📌 notable
 
-`from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
+`from recent modified or notes directory: cell death, sex differences, hormesis, sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
+
+- 🧬 [Cell Death Comparison — 7-way table](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md) [[task_output_tbl_cell_death_comparison_03_SEP_2026|wiki]]
+  - Seven-way synthesis (Apoptosis, Necrosis, Necroptosis, Ferroptosis, Autophagy/Autophagic Cell Death, Pyroptosis, Parthanatos) — regulation, energetics, morphology, immune output, core machinery, inhibitors, and crosstalk (Caspase-8↔RIPK, MLKL→NLRP3, SIRT3→mtROS, PARP1↔SIRT NAD⁺ competition); backs the `cell-death-comparison-table` site page with 40+ enriched entity notes (TNFR1 complexes, RIPoptosome, c-FLIP isoforms, MBOAT1/2, GSK872, necrosulfonamide).
+  - 🀄️ (zh-TW): 七種細胞死亡路徑綜合比較表——調控性、能量需求、形態、免疫效應、核心機制、抑制劑與交互作用（Caspase-8↔RIPK、MLKL→NLRP3、SIRT3→粒線體ROS、PARP1↔SIRT競爭NAD⁺）；支撐站內比較表頁面，並回填40+實體筆記（TNFR1複合體、Ripoptosome、c-FLIP亞型、MBOAT1/2、GSK872、necrosulfonamide）。
+- ⚧️ [Gender-Specific Attributes: Primary Vault Topics](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[task_output_gender_specific_attributes_vault_topics_02_SEP_2026|wiki]]
+  - Vault-wide sex-difference audit (sirtuins, MnSOD, caspases/apoptosis, senescence/SASP, autophagy/mTOR/AMPK, NAD⁺, NF-κB/STING, telomeres, cancer): estrogen as master mediator, male-biased necrosis vs. female-biased apoptosis, post-menopausal "estrogen cliff"; enriched Sex Differences sections in 18+ notes ([[MnSOD]], [[p53]], [[Apoptosis]], [[NAD+]], [[SASP]], [[SIRT3]], [[SIRT1]], [[SIRT6]], [[Autophagy]], [[mTORC1]], [[STING]], [[Telomere]]) plus new stubs ([[EXITS]], [[KDM5C]], [[KDM6A]], [[DAXX]], [[UTY]], [[DDX3Y]]).
+  - 🀄️ (zh-TW): 全庫性別差異稽核——雌激素為主要調節樞紐，男性偏向壞死、女性偏向凋亡，停經後「雌激素斷崖」；已在18+實體筆記新增性別差異章節，並新建EXITS基因等存根。
+- 📖 [Hormesis Literature Invisibility — 80–90% Blind Spot](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[task_output_hormesis_literature_invisibility_02_Sep_2026|wiki]]
+  - Why "hormesis" search misses 80–90% of relevant work: cross-disciplinary synonym map (preconditioning, RBE, supercompensation, U/J-curves, NDRD), structural/cultural causes, multi-database search strategies, and a "Hormesis Vocabulary Bridge" proposal using the wiki + knowledge graph as a living crosswalk; backs the `hormetic-range-assessment` site page.
+  - 🀄️ (zh-TW): 解析以hormesis為關鍵詞遺漏80–90%相關文獻的原因：跨領域同義詞圖譜、前處理/重複效應/超補償等術語成因、多資料庫檢索策略，以及以wiki與知識圖譜作為「詞彙橋樑」的提案；支撐hormetic評估頁面。
 
 - 📝 Sirtuins tumor metabolism & therapeutics task output:
   - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-    - [https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles](https://graph.johnnykuo.com/pages/sirtuins_pleiotropic_roles) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
-    - Synthesis of the pleiotropic roles of SIRT1–SIRT7 in tumor cell metabolism (glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis), the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents (STAC activators, SIRT1/2 inhibitors, SIRT3/SIRT6 activators, NAD⁺ precursors NMN/NR, CD38 inhibition) with development stage and indications.
-    - 🀄️ (zh-TW): 綜述七種去乙醯酶（SIRT1–SIRT7）在腫瘤細胞代謝中的多效性角色（糖解/Warburg效應、麩醯胺酸代謝/TCA回補、ROS/氧化還原、脂質恆定）、各成員雙重且依情境而定的腫瘤抑制與致癌行為，以及現有去乙醯酶標靶治療藥物比較表（STAC激活劑、SIRT1/2抑制劑、SIRT3/SIRT6激活劑、NAD⁺前驅物NMN/NR、CD38抑制），並註明開發階段與適應症。
+  - [https://graph.johnnykuo.com/pages/en-US/sirtuins_pleiotropic_roles.html](https://graph.johnnykuo.com/pages/en-US/sirtuins_pleiotropic_roles.html) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
+  - Synthesis of the pleiotropic roles of SIRT1–SIRT7 in tumor cell metabolism (glycolysis/Warburg, glutamine metabolism/TCA anaplerosis, ROS/redox, lipid homeostasis), the dual context-dependent tumor-suppressor vs. oncogenic behavior of each isoform, and a comparison table of current sirtuin-targeting therapeutic agents (STAC activators, SIRT1/2 inhibitors, SIRT3/SIRT6 activators, NAD⁺ precursors NMN/NR, CD38 inhibition) with development stage and indications.
+  - 🀄️ (zh-TW): 綜述七種去乙醯酶（SIRT1–SIRT7）在腫瘤細胞代謝中的多效性角色（糖解/Warburg效應、麩醯胺酸代謝/TCA回補、ROS/氧化還原、脂質恆定）、各成員雙重且依情境而定的腫瘤抑制與致癌行為，以及現有去乙醯酶標靶治療藥物比較表（STAC激活劑、SIRT1/2抑制劑、SIRT3/SIRT6激活劑、NAD⁺前驅物NMN/NR、CD38抑制），並註明開發階段與適應症。
 - 📝 Sirtuins disease complications task output:
   - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-    - [https://graph.johnnykuo.com/pages/sirtuins_disease_complications](https://graph.johnnykuo.com/pages/sirtuins_disease_complications) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
-    - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
-    - 🀄️ (zh-TW): 從去乙醯酶綜述（s41392-022-01257-8）整理的逐SIRT疾病全景——每個去乙醯酶（SIRT1–SIRT7）一個章節，列出其牽涉的每一種疾病/併發症、所扮演角色（保護性/有害性/雙重性）、表現變化與機制。
+  - [https://graph.johnnykuo.com/pages/en-US/sirtuins_disease_complications.html](https://graph.johnnykuo.com/pages/en-US/sirtuins_disease_complications.html) [[task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin|wiki]]
+  - SIRT-by-SIRT disease landscape compiled from the sirtuins review (s41392-022-01257-8) — one section per sirtuin (SIRT1–SIRT7) listing every disease/complication each member is implicated in, its role (protective/harmful/dual), expression changes, and mechanisms.
+  - 🀄️ (zh-TW): 從去乙醯酶綜述（s41392-022-01257-8）整理的逐SIRT疾病全景——每個去乙醯酶（SIRT1–SIRT7）一個章節，列出其牽涉的每一種疾病/併發症、所扮演角色（保護性/有害性/雙重性）、表現變化與機制。
   - [task_output_sirtuins_disease_complications_11_August_2026_by_disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md) [[task_output_sirtuins_disease_complications_11_August_2026_by_disease|wiki]]
-    - Complication-by-complication excerpt compilation from the same review — organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic/biomarker value, and their mechanistic role in each condition.
-    - 🀄️ (zh-TW): 同一篇綜述的逐併發症彙編——依疾病系統與併發症分類，顯示各SIRT的上調/下調情形、其預後/生物標記價值，以及各疾病中的機制角色。
+  - Complication-by-complication excerpt compilation from the same review — organized by disease system and complication, showing which SIRTs are up/downregulated, their prognostic/biomarker value, and their mechanistic role in each condition.
+  - 🀄️ (zh-TW): 同一篇綜述的逐併發症彙編——依疾病系統與併發症分類，顯示各SIRT的上調/下調情形、其預後/生物標記價值，以及各疾病中的機制角色。
 - ℹ️ Caloric Restriction/Spermidine/Rapamycin (trace):
   - [task_output_cr_vs_spermidine_autophagy_15_July_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md) [[task_output_cr_vs_spermidine_autophagy_15_July_2026|wiki]] [[task_output_cr_vs_spermidine_autophagy_15_July_2026_zh-TW|wiki(zh-TW)]]
     - Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies (CR+Rapamycin, CR+Spermidine, triple combination with exercise).
@@ -85,7 +97,7 @@ Build: 02_SEP_2026 · hash `eb8ca51a62706379`
     - 🔍 Trace/Query (`graphify query "question"`): NLP/BFS traversal retrieving a scoped subgraph matching a conceptual question, e.g., "What connects NAD⁺ metabolism to inflammation?" — broader than a fixed two-point route.
     - 🀄️ (zh-TW): 三種知識圖譜查詢方式：Explain（解釋單一實體的來源位置、連結與社群）；Path（追蹤兩實體間一步步的關聯鏈）；Query/Trace（以自然語言或BFS檢索符合概念的相關節點子圖）。
 - ➗ [SIRT3-SIRT4 Ratio](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT3-SIRT4%20Ratio.md) [[SIRT3-SIRT4 Ratio|wiki]] — Mitochondrial sirtuin balance governing the hormetic window for ROS signaling
-  - [MRR - mitohormetic window biomarkers](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md)[[task_output_mitohormetic_window_13_JUL_2026|wiki]]
+  - [MRR - mitohormetic window biomarkers][https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md]([task_output_mitohormetic_window_13_JUL_2026|wiki)]
   - SIRT3 activates MnSOD for superoxide clearance while SIRT4 inhibits it; the ratio acts as a molecular redox dial determining adaptive vs. toxic mitochondrial stress responses.
   - 🀄️ (zh-TW): SIRT3激活MnSOD清除超氧陰離子，SIRT4則抑制之；該比率作為分子氧化還原調節器，決定粒線體應激反應為適應性或毒性。
   - 📏 No clinically validated assay for the ratio yet; SIRT3/SIRT4 protein measured via Western blot/ELISA in research, with surrogate markers (MnSOD acetylation, MitoSOX, 8-OHdG) offering indirect but unstandardized readouts. Emerging non-invasive proxies include cf-mtDNA and plasma acetyl-carnitine profiles.
@@ -108,12 +120,15 @@ Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 
 ---
 
-### 📅 recent:
+### 📅 recent
 
-`from notes, raw: wine grape calculation for resvertrol, task_output recommendations, etc.
+`from notes, raw: cell death expansion, mitochondrial dynamics, site pages, wine grape calculation for resveratrol, task_output recommendations, etc.`
 
+- 🧬 Cell-death vault expansion (03_SEP_2026): enriched `Apoptosis in cancer`, `Caspase`, honeybee venom/melittin (HER2/TNBC), ivermectin documents plus mitochondrial dynamics pair (`Fusion and Fission`, `role in disease`); new/expanded regulators — [[Caspase-8-c-FLIP Rheostat]], [[Ripoptosome]], [[Parthanatos]], [[Secondary Necrosis]], [[MBOAT1]]/[[MBOAT2]], `Complex I/II (TNFR1)`; merged duplicates (`glioblastoma`→`Glioblastoma`, `necrosis` stubs, `NADPH oxidase`→`NADPH Oxidase`).
+- 📄 New site pages: `cell-death-comparison-table` + `hormetic-range-assessment` (en-US/zh-TW, sitemap + `articles.json`/`llms.txt` updated).
 - example: suggested schedule (Resveratrol, and Creatine)
   [resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol_en-US|wiki]]
+
   | Time | Meal | Supplement |
   | ------ | ---------------------------- | ---------------------- |
   | Lunch | Chicken soup + rice | Creatine 5 g |
@@ -273,10 +288,11 @@ Build: 02_SEP_2026 · hash `eb8ca51a62706379`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (96 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (97 total)</strong> — click to expand</summary>
 
+- [task_output_hormetic_range_expansion_03_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md) [[src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md|wiki]] (03_SEP_2026 04:28 PM PDT)
+- [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (03_SEP_2026 12:21 PM PDT)
 - [task_output_tbl_cell_death_comparison_03_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md) [[src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md|wiki]] (03_SEP_2026 10:18 AM PDT)
-- [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (02_SEP_2026 09:27 PM PDT)
 - [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (02_SEP_2026 01:18 PM PDT)
 - [task_output_mnsod_thioredoxin_link_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md) [[src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md) [[src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
