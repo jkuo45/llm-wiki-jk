@@ -1,5 +1,5 @@
 {
-  "generated": "04_SEP_2026 07:56 AM PDT",
+  "generated": "04_SEP_2026 04:20 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -41,6 +41,20 @@
           ],
           "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
           "path": "tasks/en-US/task_output_hormetic_range_expansion_03_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "激素效應區間擴展：7 個候選後續領域",
+          "description": "將激素效應區間評估從 12 個擴展至 15–19 個領域的後續任務清單，包含感測器、詞彙橋接與驗收標準。",
+          "created": "2026-09-03",
+          "updated": "2026-09-03",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "hormetic-range",
+            "follow-up"
+          ],
+          "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hormetic_range_expansion_03_Sep_2026.md"
         }
       }
     },
@@ -87,52 +101,6 @@
       }
     },
     {
-      "id": "task:task_output_gender_specific_attributes_vault_topics_02_SEP_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Gender-Specific Attributes: Primary Vault Topics",
-          "description": ">",
-          "created": "2026-09-02",
-          "updated": "2026-09-02",
-          "tags": [
-            "task-output",
-            "gender",
-            "sex-differences",
-            "longevity",
-            "senescence",
-            "apoptosis",
-            "cancer",
-            "autophagy",
-            "nad",
-            "inflammation"
-          ],
-          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
-          "path": "tasks/en-US/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
-        },
-        "zh-TW": {
-          "title": "性別特異屬性：vault 主要主題",
-          "description": ">",
-          "created": "2026-09-02",
-          "updated": "2026-09-02",
-          "tags": [
-            "task-output",
-            "gender",
-            "sex-differences",
-            "longevity",
-            "senescence",
-            "apoptosis",
-            "cancer",
-            "autophagy",
-            "nad",
-            "inflammation"
-          ],
-          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_hormesis_literature_invisibility_02_Sep_2026",
       "kind": "task",
       "langs": {
@@ -175,6 +143,52 @@
           ],
           "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
           "path": "tasks/zh-TW/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_gender_specific_attributes_vault_topics_02_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Gender-Specific Attributes: Primary Vault Topics",
+          "description": ">",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "longevity",
+            "senescence",
+            "apoptosis",
+            "cancer",
+            "autophagy",
+            "nad",
+            "inflammation"
+          ],
+          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "path": "tasks/en-US/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "性別特異屬性：vault 主要主題",
+          "description": ">",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "longevity",
+            "senescence",
+            "apoptosis",
+            "cancer",
+            "autophagy",
+            "nad",
+            "inflammation"
+          ],
+          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
         }
       }
     },
