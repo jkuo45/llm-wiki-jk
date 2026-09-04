@@ -1,19 +1,5 @@
 [
   {
-    "id": "6d228973bc4a",
-    "subject": "5,6-indolequinone",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "5,6-indolequinone and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically 5,6-indolequinone and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "5,6-indolequinone 和 Neuromelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，5,6-indolequinone 和 Neuromelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "5,6-indolequinone.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "041ae1b1ce41",
     "subject": "5,6-indolequinone",
     "predicate": "converts_to",
@@ -24,20 +10,6 @@
     },
     "confidence": 0.95,
     "source_document": "5,6-indolequinone.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "d65b02397835",
-    "subject": "6-hydroxydopamine",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "6-hydroxydopamine and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically 6-hydroxydopamine and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "6-hydroxydopamine 和 Parkinson's Disease 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，6-hydroxydopamine 和 Parkinson's Disease 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "6-hydroxydopamine.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -178,20 +150,6 @@
     },
     "confidence": 0.95,
     "source_document": "Ambroxol.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "34565421081a",
-    "subject": "Aminochrome",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-synuclein",
-    "context": {
-      "en-US": "Aminochrome and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Aminochrome and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Aminochrome 和 Alpha-synuclein 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Aminochrome 和 Alpha-synuclein 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Dopamine o-quinone.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -350,20 +308,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "bbdf524a01e2",
-    "subject": "Autophagy",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Proteostasis",
-    "context": {
-      "en-US": "Autophagy and Proteostasis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Autophagy and Proteostasis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Autophagy 和 Proteostasis 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Autophagy 和 Proteostasis 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "2d040f6639aa",
     "subject": "Autophagy",
     "predicate": "regulates",
@@ -476,20 +420,6 @@
     "updated": "2026-09-02T06:28:27Z"
   },
   {
-    "id": "40387cb85662",
-    "subject": "Benzothiazine",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Pheomelanin",
-    "context": {
-      "en-US": "Benzothiazine and Pheomelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Benzothiazine and Pheomelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Benzothiazine 和 Pheomelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Benzothiazine 和 Pheomelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Benzothiazine.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "1be666bcb35d",
     "subject": "Benzothiazine",
     "predicate": "is_a_structural_unit_of",
@@ -546,20 +476,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "cc6ba68a0e4e",
-    "subject": "Chemical memory",
-    "predicate": "causes",
-    "object": "Addiction",
-    "context": {
-      "en-US": "Chemical memory causes Addiction by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-      "zh-TW": "Chemical memory 透過充當上游觸發器來導致 Addiction，其下游結果是第二個實體的出現或功能障礙。此機制通常涉及氧化、mitochondria1或neurotoxin和色素情況下的蛋白毒性損傷，或藥理學和退化環境中的受體阻斷和細胞損失。這種因果關係具有臨床意義，因為它模擬或解釋了 Parkinson's disease 病理特徵並指導治療目標。需要注意的是，在許多這些連結中，因果關係的主張是實驗性的、部分的，或是在更廣泛的輔助因子網絡中運作的，而不是作為一個孤立的線性事件。"
-    },
-    "confidence": 0.75,
-    "source_document": "Chemical memory.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "16718be015ee",
     "subject": "Chemical memory",
     "predicate": "bidirectionally_linked_with",
@@ -584,34 +500,6 @@
     },
     "confidence": 0.95,
     "source_document": "Neurotoxin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "bffba753305a",
-    "subject": "Complex I",
-    "predicate": "impairs",
-    "object": "Mitochondrial Dysfunction",
-    "context": {
-      "en-US": "Complex I impairs Mitochondrial Dysfunction when its deficiency or dysfunction weakens the target pathway. Mechanistically, reduced flux through the impaired system permits aggregate and organelle buildup that drives degeneration. This is significant because impairment of degradative or energetic pathways is a core feature of Parkinson's disease pathogenesis. A caveat is that the phrasing can be misread; it is the loss or dysfunction of the first entity that is harmful, and excessive activity can also be detrimental.",
-      "zh-TW": "當 Complex I 的缺陷或功能障礙削弱目標途徑時，Complex I 就會損害 Mitochondrial Dysfunction。從機制上講，通過受損系統的通量減少會導致聚集體和細胞器積聚，從而導致退化。這很重要，因為降解或能量途徑的損害是 Parkinson's disease 發病機制的核心特徵。需要注意的是，措辭可能會被誤讀。第一個實體的喪失或功能障礙是有害的，過度的活動也可能是有害的。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neurotoxin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "ed561b69fa13",
-    "subject": "Cutaneous Melanoma",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Cutaneous Melanoma and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Cutaneous Melanoma and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Cutaneous Melanoma 和 Parkinson's Disease 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Cutaneous Melanoma 和 Parkinson's Disease 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Cutaneous Melanoma.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -654,20 +542,6 @@
     },
     "confidence": 0.95,
     "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "a05650c43e18",
-    "subject": "Dolichol",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "Dolichol and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dolichol and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Dolichol 和 Neuromelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Dolichol 和 Neuromelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Dolichol.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -754,20 +628,6 @@
     "source_document": "Dopachrome tautomerase.md",
     "created": "2026-09-02T06:28:27Z",
     "updated": "2026-09-02T06:28:27Z"
-  },
-  {
-    "id": "82fb32c0c4ef",
-    "subject": "Dopachrome tautomerase",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Tyrosinase-related protein-2",
-    "context": {
-      "en-US": "Dopachrome tautomerase and Tyrosinase-related protein-2 are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dopachrome tautomerase and Tyrosinase-related protein-2 may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Dopachrome tautomerase 和 Tyrosinase-related protein-2 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Dopachrome tautomerase 和 Tyrosinase-related protein-2 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Dopachrome tautomerase.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "84d49801301a",
@@ -910,20 +770,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "8b3a0435ee19",
-    "subject": "Dopaminochrome",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "Dopaminochrome and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Dopaminochrome and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Dopaminochrome 和 Neuromelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Dopaminochrome 和 Neuromelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "8fecf504e08a",
     "subject": "Dopaminochrome",
     "predicate": "converts_to",
@@ -962,20 +808,6 @@
     },
     "confidence": 0.95,
     "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "2c44eb0bb292",
-    "subject": "Eumelanin",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "Eumelanin and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Eumelanin and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Eumelanin 和 Neuromelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Eumelanin 和 Neuromelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Eumelanin.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1050,48 +882,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "bdcce4d99265",
-    "subject": "Haloperidol",
-    "predicate": "bidirectionally_linked_with",
-    "object": "HPP+",
-    "context": {
-      "en-US": "Haloperidol and HPP+ are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Haloperidol and HPP+ may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Haloperidol 和 HPP+ 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Haloperidol 和 HPP+ 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Haloperidol.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "61d6b558eef4",
-    "subject": "Haloperidol",
-    "predicate": "causes",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Haloperidol causes Parkinson's Disease by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-      "zh-TW": "Haloperidol 透過充當上游觸發器來導致 Parkinson's Disease，其下游結果是第二個實體的出現或功能障礙。此機制通常涉及氧化、mitochondria1或neurotoxin和色素情況下的蛋白毒性損傷，或藥理學和退化環境中的受體阻斷和細胞損失。這種因果關係具有臨床意義，因為它模擬或解釋了 Parkinson's disease 病理特徵並指導治療目標。需要注意的是，在許多這些連結中，因果關係的主張是實驗性的、部分的，或是在更廣泛的輔助因子網絡中運作的，而不是作為一個孤立的線性事件。"
-    },
-    "confidence": 0.95,
-    "source_document": "Haloperidol.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "773c650f9994",
-    "subject": "HPP+",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Haloperidol",
-    "context": {
-      "en-US": "HPP+ and Haloperidol are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically HPP+ and Haloperidol may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "HPP+ 和 Haloperidol 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，HPP+ 和 Haloperidol 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "HPP+.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "430f4b283d00",
     "subject": "Immunoglobulin G",
     "predicate": "bidirectionally_linked_with",
@@ -1130,20 +920,6 @@
     },
     "confidence": 0.95,
     "source_document": "Indole.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "67ee1bb1675d",
-    "subject": "Iron",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "Iron and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Iron and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Iron 和 Neuromelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Iron 和 Neuromelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1190,34 +966,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "d6d43fd59a7a",
-    "subject": "Konstantin Nikolaevich Tretiakoff",
-    "predicate": "discovered",
-    "object": "Substantia Nigra",
-    "context": {
-      "en-US": "Konstantin Nikolaevich Tretiakoff discovered Substantia Nigra, establishing the neuroanatomical or pathological basis later central to the field. Mechanistically, the discovery localized disease to a specific structure or process, enabling subsequent molecular characterization. This is significant because it founded the modern understanding of the disorder's substrate. A caveat is that the discovery described cellular or pigmentary changes rather than the full molecular defect identified decades later.",
-      "zh-TW": "Konstantin Nikolaevich Tretiakoff 發現了 Substantia Nigra，奠定了後來成為該領域核心的神經解剖學或病理學基礎。從機制上講，這項發現將疾病定位於特定的結構或過程，從而能夠進行後續的分子表徵。這很重要，因為它奠定了對該疾病根源的現代理解。需要注意的是，這項發現描述的是細胞或色素的變化，而不是幾十年後發現的完整分子缺陷。"
-    },
-    "confidence": 0.95,
-    "source_document": "Konstantin Nikolaevich Tretiakoff.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "e78b36847a16",
-    "subject": "L-DOPA",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Dopamine",
-    "context": {
-      "en-US": "L-DOPA and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically L-DOPA and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "L-DOPA 和 Dopamine 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，L-DOPA 和 Dopamine 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "L-DOPA.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "de22f3008f0f",
     "subject": "L-DOPA",
     "predicate": "converts_to",
@@ -1232,20 +980,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1d62157a674c",
-    "subject": "L-Tyrosine",
-    "predicate": "bidirectionally_linked_with",
-    "object": "L-DOPA",
-    "context": {
-      "en-US": "L-Tyrosine and L-DOPA are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically L-Tyrosine and L-DOPA may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "L-Tyrosine 和 L-DOPA 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，L-Tyrosine 和 L-DOPA 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "L-Tyrosine.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "760087bc2f49",
     "subject": "L-Tyrosine",
     "predicate": "converts_to",
@@ -1256,20 +990,6 @@
     },
     "confidence": 0.95,
     "source_document": "L-Tyrosine.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "bb25422c325d",
-    "subject": "Lewy Bodies",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Alpha-synuclein",
-    "context": {
-      "en-US": "Lewy Bodies and Alpha-synuclein are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Lewy Bodies and Alpha-synuclein may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Lewy Bodies 和 Alpha-synuclein 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Lewy Bodies 和 Alpha-synuclein 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Lewy Bodies.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1312,20 +1032,6 @@
     },
     "confidence": 0.95,
     "source_document": "Lipofuscin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "d823b29f3443",
-    "subject": "Locus Coeruleus",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Locus Coeruleus and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Locus Coeruleus and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Locus Coeruleus 和 Parkinson's Disease 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Locus Coeruleus 和 Parkinson's Disease 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Locus Coeruleus.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1414,20 +1120,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "a725fce3c443",
-    "subject": "Manganese",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Manganism",
-    "context": {
-      "en-US": "Manganese and Manganism are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Manganese and Manganism may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Manganese 和 Manganism 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Manganese 和 Manganism 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Manganism.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "dc852e48cdc6",
     "subject": "Manganese",
     "predicate": "causes",
@@ -1435,20 +1127,6 @@
     "context": {
       "en-US": "Manganese causes Manganism by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
       "zh-TW": "Manganese 透過充當上游觸發器來導致 Manganism，其下游結果是第二個實體的出現或功能障礙。此機制通常涉及氧化、mitochondria1或neurotoxin和色素情況下的蛋白毒性損傷，或藥理學和退化環境中的受體阻斷和細胞損失。這種因果關係具有臨床意義，因為它模擬或解釋了 Parkinson's disease 病理特徵並指導治療目標。需要注意的是，在許多這些連結中，因果關係的主張是實驗性的、部分的，或是在更廣泛的輔助因子網絡中運作的，而不是作為一個孤立的線性事件。"
-    },
-    "confidence": 0.95,
-    "source_document": "Manganism.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "6318494c0e55",
-    "subject": "Manganism",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Manganese",
-    "context": {
-      "en-US": "Manganism and Manganese are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Manganism and Manganese may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Manganism 和 Manganese 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Manganism 和 Manganese 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
     },
     "confidence": 0.95,
     "source_document": "Manganism.md",
@@ -1750,20 +1428,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "02cf5354c5c7",
-    "subject": "Microgliosis",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuroinflammation",
-    "context": {
-      "en-US": "Microgliosis and Neuroinflammation are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Microgliosis and Neuroinflammation may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Microgliosis 和 Neuroinflammation 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Microgliosis 和 Neuroinflammation 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Microgliosis.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "9c1630778d80",
     "subject": "Microgliosis",
     "predicate": "causes",
@@ -1774,20 +1438,6 @@
     },
     "confidence": 0.95,
     "source_document": "Microgliosis.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "0222ded70240",
-    "subject": "Monoamine oxidase B",
-    "predicate": "converts_to",
-    "object": "MPP+",
-    "context": {
-      "en-US": "Monoamine oxidase B is biochemically converted into MPP+ through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Monoamine oxidase B acts as the substrate and MPP+ as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-      "zh-TW": "Monoamine oxidase B 透過兒茶酚胺色素或神經傳導物質代謝中的特定反應步驟生化轉化為 MPP+。從機制上講，Monoamine oxidase B 作為底物，MPP+ 作為產物，通常透過 oxidation、環化或酶促脫羧作用。這種轉化具有重要的生物學意義，因為它將不穩定的中間體轉化為穩定的產物或活性遞質，對 neuromelanin 累積和神經元健康產生影響。需要注意的是，控制該步驟的精確化學計量和亞細胞條件尚未完全解決，可能取決於局部 iron、pH 和抗氧化能力。"
-    },
-    "confidence": 0.95,
-    "source_document": "Monoamine oxidase B.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1862,20 +1512,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "3dffcf3722b2",
-    "subject": "MPTP",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "MPTP and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically MPTP and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "MPTP 和 Parkinson's Disease 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，MPTP 和 Parkinson's Disease 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "MPTP.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "d03eaba3ccc8",
     "subject": "MPTP",
     "predicate": "causes",
@@ -1890,34 +1526,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "5da0d4fe3e84",
-    "subject": "Neuroinflammation",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Microgliosis",
-    "context": {
-      "en-US": "Neuroinflammation and Microgliosis are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuroinflammation and Microgliosis may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Neuroinflammation 和 Microgliosis 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuroinflammation 和 Microgliosis 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Microgliosis.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "f521de680dad",
-    "subject": "Neuromelanin",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Aminochromes",
-    "context": {
-      "en-US": "Neuromelanin and Aminochromes are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Aminochromes may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Neuromelanin 和 Aminochromes 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Aminochromes 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "86d9c8a604fc",
     "subject": "Neuromelanin",
     "predicate": "bidirectionally_linked_with",
@@ -1927,20 +1535,6 @@
       "zh-TW": "Neuromelanin 和 Chemical memory 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Chemical memory 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
     },
     "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "21e43d4ed1e2",
-    "subject": "Neuromelanin",
-    "predicate": "regulates",
-    "object": "Chemical memory",
-    "context": {
-      "en-US": "Neuromelanin regulates Chemical memory by controlling the flux, activity, or abundance of the regulated process. Mechanistically, Neuromelanin acts as an upstream controller (enzymatic, transcriptional, or physical) that enforces balance in the target system. This is significant because proper regulation maintains homeostasis, and its failure contributes to neurodegeneration. A caveat is that regulation is context-dependent and often buffered by parallel systems, so disruption of one controller may be partially compensated.",
-      "zh-TW": "Neuromelanin 透過控制受調節過程的通量、活性或豐度來調節 Chemical memory。從機制上講，Neuromelanin 充當上游控制器（酶促、轉錄或物理），在目標系統中強制實現平衡。這很重要，因為適當的調節可以維持體內平衡，而它的失敗會導致 neurodegeneration。需要注意的是，調節是依賴上下文的，並且通常由平行系統緩衝，因此一個控制器的中斷可能會得到部分補償。"
-    },
-    "confidence": 0.75,
     "source_document": "Neuromelanin.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
@@ -1969,34 +1563,6 @@
       "zh-TW": "Neuromelanin 包含 Dolichol 作為顏料或顆粒組裝過程中摻入的結構亞基。從機制上講，Dolichol 透過共價或締合合併建構到 Neuromelanin 中，從而有助於其複合架構。這種成分關係很重要，因為它決定了色素的氧化還原行為、金屬結合以及與純黑色素的區別。需要注意的是，neuromelanin 是異質的，因此「包含」指的是域，而不是整個元件的統一合併。"
     },
     "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "039cf827a2eb",
-    "subject": "Neuromelanin",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Dopamine",
-    "context": {
-      "en-US": "Neuromelanin and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Neuromelanin 和 Dopamine 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Dopamine 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "e1aa7d716729",
-    "subject": "Neuromelanin",
-    "predicate": "binds_to",
-    "object": "Dopamine",
-    "context": {
-      "en-US": "Neuromelanin binds to Dopamine through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Neuromelanin acts as the ligand or matrix and Dopamine as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-      "zh-TW": "Neuromelanin 透過物理化學親和力與 Dopamine 結合，形成複合物，調節結合物質的局部濃度或活性。從機制上講，Neuromelanin 作為配體或基質，Dopamine 作為結合伴侶，相互作用通常由兒茶酚、醌或電荷互補性驅動。這種結合很重要，因為它可以隔離毒素或金屬、緩衝 neurotransmitters 或定位色素神經元內的損傷。需要注意的是，體內結合的生理程度、可逆性和功能後遺症並不總是完全量化的，並且在細胞內和細胞外環境之間可能有所不同。"
-    },
-    "confidence": 0.75,
     "source_document": "Neuromelanin.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
@@ -2051,20 +1617,6 @@
     "context": {
       "en-US": "Neuromelanin and Flortaucipir are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Flortaucipir may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
       "zh-TW": "Neuromelanin 和 Flortaucipir 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Flortaucipir 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "c058855a7935",
-    "subject": "Neuromelanin",
-    "predicate": "binds_to",
-    "object": "Iron",
-    "context": {
-      "en-US": "Neuromelanin binds to Iron through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Neuromelanin acts as the ligand or matrix and Iron as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-      "zh-TW": "Neuromelanin 透過物理化學親和力與 Iron 結合，形成複合物，調節結合物質的局部濃度或活性。從機制上講，Neuromelanin 作為配體或基質，Iron 作為結合伴侶，相互作用通常由兒茶酚、醌或電荷互補性驅動。這種結合很重要，因為它可以隔離毒素或金屬、緩衝 neurotransmitters 或定位色素神經元內的損傷。需要注意的是，體內結合的生理程度、可逆性和功能後遺症並不總是完全量化的，並且在細胞內和細胞外環境之間可能有所不同。"
     },
     "confidence": 0.95,
     "source_document": "Neuromelanin.md",
@@ -2128,20 +1680,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "ba7f0e8bd3fe",
-    "subject": "Neuromelanin",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Magnetic Resonance Imaging",
-    "context": {
-      "en-US": "Neuromelanin and Magnetic Resonance Imaging are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Magnetic Resonance Imaging may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Neuromelanin 和 Magnetic Resonance Imaging 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Magnetic Resonance Imaging 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "041483b61ff9",
     "subject": "Neuromelanin",
     "predicate": "causes",
@@ -2163,20 +1701,6 @@
     "context": {
       "en-US": "Neuromelanin causes Mitochondrial Dysfunction by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
       "zh-TW": "Neuromelanin 透過充當上游觸發器來導致 Mitochondrial Dysfunction，其下游結果是第二個實體的出現或功能障礙。此機制通常涉及氧化、mitochondria1或neurotoxin和色素情況下的蛋白毒性損傷，或藥理學和退化環境中的受體阻斷和細胞損失。這種因果關係具有臨床意義，因為它模擬或解釋了 Parkinson's disease 病理特徵並指導治療目標。需要注意的是，在許多這些連結中，因果關係的主張是實驗性的、部分的，或是在更廣泛的輔助因子網絡中運作的，而不是作為一個孤立的線性事件。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "96490a45f440",
-    "subject": "Neuromelanin",
-    "predicate": "binds_to",
-    "object": "MPP+",
-    "context": {
-      "en-US": "Neuromelanin binds to MPP+ through physicochemical affinity, forming a complex that modulates the local concentration or activity of the bound species. Mechanistically, Neuromelanin acts as the ligand or matrix and MPP+ as the binding partner, with the interaction often driven by catechol, quinone, or charge complementarity. This binding is significant because it can sequester toxins or metals, buffer neurotransmitters, or localize damage within pigmented neurons. A caveat is that the physiological magnitude, reversibility, and functional sequelae of the binding in vivo are not always fully quantified and may differ between intracellular and extracellular contexts.",
-      "zh-TW": "Neuromelanin 透過物理化學親和力與 MPP+ 結合，形成複合物，調節結合物質的局部濃度或活性。從機制上講，Neuromelanin 作為配體或基質，MPP+ 作為結合伴侶，相互作用通常由兒茶酚、醌或電荷互補性驅動。這種結合很重要，因為它可以隔離毒素或金屬、緩衝 neurotransmitters 或定位色素神經元內的損傷。需要注意的是，體內結合的生理程度、可逆性和功能後遺症並不總是完全量化的，並且在細胞內和細胞外環境之間可能有所不同。"
     },
     "confidence": 0.95,
     "source_document": "Neuromelanin.md",
@@ -2219,34 +1743,6 @@
     "context": {
       "en-US": "Neuromelanin protects against Oxidative Stress by neutralizing, scavenging, or removing the threatening species or condition. Mechanistically, Neuromelanin acts as a sink or reductant that limits oxidative, toxic, or aggregate burden within catecholaminergic neurons. This protective role is significant because it may explain why pigmented neurons survive despite high metabolic stress, at least below a pathogenic threshold. A caveat is that the protection is conditional; under overload, redox perturbation, or iron release the same entity can contribute to damage rather than prevention.",
       "zh-TW": "Neuromelanin 透過中和、清除或消除威脅物種或狀況來防禦 Oxidative Stress。從機制上講，Neuromelanin 充當水槽或還原劑，限制兒茶酚胺能神經元內的氧化、毒性或聚集負擔。這種保護作用很重要，因為它可以解釋為什麼色素神經元在高代謝壓力（至少低於致病閾值）下仍能存活。需要注意的是，這種保護是有條件的；在過載、氧化還原擾動或 iron 釋放同一實體的情況下，可能會造成損害而不是預防。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "4269f15ab43e",
-    "subject": "Neuromelanin",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Neuromelanin and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Neuromelanin 和 Parkinson's Disease 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Parkinson's Disease 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "e042a0eb0ba5",
-    "subject": "Neuromelanin",
-    "predicate": "is_marker_of",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Neuromelanin is a marker of Parkinson's Disease, identifying the neuronal populations or pathological changes that define the disease. Mechanistically, loss or detection of Neuromelanin tracks the regional degeneration or integrity assessed histologically or by imaging. This is significant because it provides a diagnostic and research readout of disease burden in the substantia nigra and related nuclei. A caveat is that the marker reflects aged or vulnerable pigmented neurons generally, so its disease value comes from regional loss patterns rather than presence alone.",
-      "zh-TW": "Neuromelanin 是 Parkinson's Disease 的标记，可识别定义疾病的神经元群或病理变化。从机制上讲，Neuromelanin 的丢失或检测可追踪组织学或 imaging 评估的区域变性或完整性。这很重要，因为它提供了 substantia nigra 和相关细胞核中疾病负担的诊断和研究读数。需要注意的是，該標記通常反映老化或脆弱的色素神經元，因此其疾病價值來自區域損失模式，而不是單獨存在。"
     },
     "confidence": 0.95,
     "source_document": "Neuromelanin.md",
@@ -2303,20 +1799,6 @@
     "context": {
       "en-US": "Neuromelanin and Positron Emission Tomography are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Neuromelanin and Positron Emission Tomography may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
       "zh-TW": "Neuromelanin 和 Positron Emission Tomography 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Neuromelanin 和 Positron Emission Tomography 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "77409e664798",
-    "subject": "Neuromelanin",
-    "predicate": "causes",
-    "object": "Proteostasis",
-    "context": {
-      "en-US": "Neuromelanin causes Proteostasis by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-      "zh-TW": "Neuromelanin 透過充當上游觸發器來導致 Proteostasis，其下游結果是第二個實體的出現或功能障礙。此機制通常涉及氧化、mitochondria1或neurotoxin和色素情況下的蛋白毒性損傷，或藥理學和退化環境中的受體阻斷和細胞損失。這種因果關係具有臨床意義，因為它模擬或解釋了 Parkinson's disease 病理特徵並指導治療目標。需要注意的是，在許多這些連結中，因果關係的主張是實驗性的、部分的，或是在更廣泛的輔助因子網絡中運作的，而不是作為一個孤立的線性事件。"
     },
     "confidence": 0.95,
     "source_document": "Neuromelanin.md",
@@ -2450,20 +1932,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "bd0cc580a706",
-    "subject": "Neurotransmitters",
-    "predicate": "released_from",
-    "object": "Synaptic Vesicles",
-    "context": {
-      "en-US": "Neurotransmitters is released from Synaptic Vesicles upon cellular injury, degeneration, or lysis. Mechanistically, the source cells liberate the entity into the extracellular space where it can interact with neighboring glia. This is significant because released material becomes immunostimulatory and can amplify inflammation and spread of pathology. A caveat is that under basal conditions the entity is intracellular and contained, so the relationship describes a pathological rather than physiological event.",
-      "zh-TW": "Neurotransmitters 在細胞損傷、變性或裂解時從 Synaptic Vesicles 釋放。從機制上講，源細胞將實體釋放到細胞外空間，在那裡它可以與鄰近的神經膠質細胞相互作用。這很重要，因為釋放的物質具有免疫刺激作用，可以放大發炎和病理學的傳播。需要注意的是，在基本條件下，該實體位於細胞內並被包含在內，因此這種關係描述的是病理性事件而不是生理性事件。"
-    },
-    "confidence": 0.95,
-    "source_document": "Synaptic Vesicles.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "fff74591b5ae",
     "subject": "Nicotine",
     "predicate": "bidirectionally_linked_with",
@@ -2474,20 +1942,6 @@
     },
     "confidence": 0.95,
     "source_document": "Nicotine.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "2eaafb202e31",
-    "subject": "Nigrostriatal System",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Nigrostriatal System and Parkinson's Disease are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Nigrostriatal System and Parkinson's Disease may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Nigrostriatal System 和 Parkinson's Disease 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Nigrostriatal System 和 Parkinson's Disease 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Nigrostriatal System.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2646,20 +2100,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "016a25c5b193",
-    "subject": "Parkinson's Disease",
-    "predicate": "risk_factor_for",
-    "object": "Aging",
-    "context": {
-      "en-US": "Parkinson's Disease is a risk factor for Aging, increasing the probability or severity of the disease through biological or epidemiological association. Mechanistically, the entity may promote vulnerability by oxidative, inflammatory, or proteostatic mechanisms once a threshold is exceeded. This is significant because it reframes the entity as a modifiable or explanatory contributor to Parkinsonian degeneration. A caveat is that risk does not equal causation; the entity is also present in healthy individuals, so its weight as a cause remains debated.",
-      "zh-TW": "Parkinson's Disease 是 Aging 的危險因素，透過生物學或流行病學關聯增加疾病的機率或嚴重程度。從機制上講，一旦超過閾值，該實體可能會透過氧化、發炎或蛋白質抑制機制促進脆弱性。這很重要，因為它將實體重新定義為帕金森變性的可修改或解釋性貢獻者。需要注意的是，風險並不等於因果關係；該實體也存在於健康個體中，因此其作為原因的重要性仍有爭議。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "bb45d5954558",
     "subject": "Parkinson's Disease",
     "predicate": "characterized_by",
@@ -2786,20 +2226,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "65f2cd0a3e4b",
-    "subject": "Pheomelanin",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "Pheomelanin and Neuromelanin are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Pheomelanin and Neuromelanin may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Pheomelanin 和 Neuromelanin 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Pheomelanin 和 Neuromelanin 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Pheomelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "255dcd2d50ce",
     "subject": "Pons",
     "predicate": "bidirectionally_linked_with",
@@ -2821,20 +2247,6 @@
     "context": {
       "en-US": "Proteasome and Ubiquitin-Proteasome System are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Proteasome and Ubiquitin-Proteasome System may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
       "zh-TW": "Proteasome 和 Ubiquitin-Proteasome System 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Proteasome 和 Ubiquitin-Proteasome System 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "397363d99106",
-    "subject": "Proteostasis",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Autophagy",
-    "context": {
-      "en-US": "Proteostasis and Autophagy are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Proteostasis and Autophagy may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Proteostasis 和 Autophagy 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Proteostasis 和 Autophagy 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
@@ -2898,34 +2310,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "8018bb43f9f9",
-    "subject": "Synaptic plasticity",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Chemical memory",
-    "context": {
-      "en-US": "Synaptic plasticity and Chemical memory are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Synaptic plasticity and Chemical memory may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Synaptic plasticity 和 Chemical memory 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Synaptic plasticity 和 Chemical memory 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Synaptic plasticity.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "c6abf4133bdc",
-    "subject": "Synaptic plasticity",
-    "predicate": "causes",
-    "object": "Chemical memory",
-    "context": {
-      "en-US": "Synaptic plasticity causes Chemical memory by acting as the upstream trigger whose downstream consequence is the second entity's appearance or dysfunction. The mechanism typically involves oxidative, mitochondrial, or proteotoxic injury in the case of neurotoxins and pigments, or receptor blockade and cell loss in pharmacological and degenerative contexts. This causal relationship is clinically significant because it models or explains features of Parkinson's disease pathology and guides therapeutic targeting. A caveat is that in many of these links the causal claim is experimental, partial, or operates within a broader network of cofactors rather than as an isolated linear event.",
-      "zh-TW": "Synaptic plasticity 透過充當上游觸發器來導致 Chemical memory，其下游結果是第二個實體的出現或功能障礙。此機制通常涉及氧化、mitochondria1或neurotoxin和色素情況下的蛋白毒性損傷，或藥理學和退化環境中的受體阻斷和細胞損失。這種因果關係具有臨床意義，因為它模擬或解釋了 Parkinson's disease 病理特徵並指導治療目標。需要注意的是，在許多這些連結中，因果關係的主張是實驗性的、部分的，或是在更廣泛的輔助因子網絡中運作的，而不是作為一個孤立的線性事件。"
-    },
-    "confidence": 0.75,
-    "source_document": "Synaptic plasticity.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "97b3d65605ff",
     "subject": "Synaptic Vesicles",
     "predicate": "bidirectionally_linked_with",
@@ -2952,20 +2336,6 @@
     "source_document": "Oculocutaneous Albinism.md",
     "created": "2026-09-02T06:28:27Z",
     "updated": "2026-09-02T06:28:27Z"
-  },
-  {
-    "id": "b9a69150ca01",
-    "subject": "Tyrosinase",
-    "predicate": "converts_to",
-    "object": "Neuromelanin",
-    "context": {
-      "en-US": "Tyrosinase is biochemically converted into Neuromelanin through a defined reaction step in catecholamine pigment or neurotransmitter metabolism. Mechanistically, Tyrosinase acts as the substrate and Neuromelanin as the product, often via oxidation, cyclization, or enzymatic decarboxylation. This conversion is biologically significant because it channels labile intermediates into stable products or active transmitters, with implications for neuromelanin accumulation and neuronal health. A caveat is that the precise stoichiometry and subcellular conditions governing the step are not fully resolved and may depend on local iron, pH, and antioxidant capacity.",
-      "zh-TW": "Tyrosinase 透過兒茶酚胺色素或神經傳導物質代謝中的特定反應步驟生化轉化為 Neuromelanin。從機制上講，Tyrosinase 作為底物，Neuromelanin 作為產物，通常透過 oxidation、環化或酶促脫羧作用。這種轉化具有重要的生物學意義，因為它將不穩定的中間體轉化為穩定的產物或活性遞質，對 neuromelanin 累積和神經元健康產生影響。需要注意的是，控制該步驟的精確化學計量和亞細胞條件尚未完全解決，可能取決於局部 iron、pH 和抗氧化能力。"
-    },
-    "confidence": 0.95,
-    "source_document": "Neuromelanin.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "ad921daf5d60",
@@ -3006,20 +2376,6 @@
     },
     "confidence": 0.95,
     "source_document": "Tyrosinase-related protein-1.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "42a44a0114c2",
-    "subject": "Tyrosinase-related protein-2",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Dopachrome tautomerase",
-    "context": {
-      "en-US": "Tyrosinase-related protein-2 and Dopachrome tautomerase are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Tyrosinase-related protein-2 and Dopachrome tautomerase may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Tyrosinase-related protein-2 和 Dopachrome tautomerase 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Tyrosinase-related protein-2 和 Dopachrome tautomerase 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Tyrosinase-related protein-2.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -3094,20 +2450,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "6e0ecc3667e1",
-    "subject": "Vesicular Monoamine Transporter 2",
-    "predicate": "bidirectionally_linked_with",
-    "object": "Dopamine",
-    "context": {
-      "en-US": "Vesicular Monoamine Transporter 2 and Dopamine are reciprocally linked entities in the neuromelanin knowledge graph, reflecting their frequent co-occurrence and shared relevance to catecholamine biology or Parkinson's disease. Directionally, the graph relation is symmetric, although biologically Vesicular Monoamine Transporter 2 and Dopamine may occupy distinct mechanistic roles. Their association is significant because both contribute to the chemical and pathological network that defines vulnerability of pigmented neurons. A caveat is that a bidirectional link denotes an association rather than a proven direct causal mechanism between the two entities.",
-      "zh-TW": "Vesicular Monoamine Transporter 2 和 Dopamine 是 neuromelanin 知識圖譜中相互連結的實體，反映了它們的頻繁共現以及與兒茶酚胺生物學或 Parkinson's disease 的共享相關性。從方向上看，圖關係是對稱的，儘管從生物學角度來看，Vesicular Monoamine Transporter 2 和 Dopamine 可能佔據不同的機制角色。它們的關聯很重要，因為兩者都有助於定義色素神經元脆弱性的化學和病理網絡。需要注意的是，雙向連結表示兩個實體之間的關聯，而不是經過驗證的直接因果機制。"
-    },
-    "confidence": 0.95,
-    "source_document": "Vesicular Monoamine Transporter 2.md",
-    "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "d9f3ba88c565",
     "subject": "Vesicular Monoamine Transporter 2",
     "predicate": "transports",
@@ -3120,5 +2462,607 @@
     "source_document": "Vesicular Monoamine Transporter 2.md",
     "created": "2026-07-27T18:31:33Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "7cb5fc9f0eac",
+    "subject": "Haloperidol",
+    "predicate": "converts_to",
+    "object": "HPP+",
+    "context": {
+      "en-US": "Haloperidol is metabolically converted into the pyridinium neurotoxin HPP+, a charged MPP+ analog taken up by dopaminergic neurons where it inhibits mitochondrial complex I. This conversion underlies haloperidol-associated parkinsonism, which mimics but is distinct from Parkinson's Disease.",
+      "zh-TW": "Haloperidol 在代謝上轉化為吡啶鎓神經毒素 HPP+，一種帶電荷的 MPP+ 類似物，被多巴胺神經元攝取並抑制粒線體複合體 I。此轉化是 haloperidol 相關帕金森症的基礎，其模仿但不同於 Parkinson's Disease。"
+    },
+    "confidence": 0.9,
+    "source_document": "Haloperidol.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "10a88c7176e9",
+    "subject": "Aging",
+    "predicate": "risk_factor_for",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Aging is the foremost non-modifiable risk factor for Parkinson's Disease, reflecting accumulated mutations, epigenetic drift, and a senescence-shaped microenvironment. This corrects the reversed triple that listed the disease as a risk factor for aging.",
+      "zh-TW": "Aging 是 Parkinson's Disease 最重要的不可改變危險因子，反映累積突變、表觀遺傳漂變與衰老塑造的微環境。此修正將疾病列為老化危險因子的反向 triple。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "e30e83dd602e",
+    "subject": "Macromolecular Crowding",
+    "predicate": "impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Macromolecular crowding impedes vesicle and organelle diffusion, compromising autophagic flux in pigment-laden neurons. Crowding thus links pigment accumulation to degradative failure.",
+      "zh-TW": "大分子擁擠阻礙囊泡與胞器擴散，損害色素 laden 神經元的自噬通量。擁擠因而將色素累積與降解失敗連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Macromolecular Crowding.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "b6494a96dfc8",
+    "subject": "Macromolecular Crowding",
+    "predicate": "promotes",
+    "object": "Alpha-synuclein",
+    "context": {
+      "en-US": "Excluded-volume effects raise association constants, driving alpha-synuclein oligomerization in crowded neuronal compartments. Crowding is a biophysical catalyst of synuclein aggregation.",
+      "zh-TW": "排除體積效應提高結合常數，在擁擠的神經元區室驅動 alpha-synuclein 寡聚化。擁擠是 synuclein 聚集的生物物理催化劑。"
+    },
+    "confidence": 0.8,
+    "source_document": "Macromolecular Crowding.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "99f67891a585",
+    "subject": "Neuromelanin",
+    "predicate": "causes",
+    "object": "Macromolecular Crowding",
+    "context": {
+      "en-US": "Insoluble neuromelanin pigment substantially increases intracellular crowding in aged catecholaminergic neurons. Pigment load is a crowding source alongside organelle accumulation.",
+      "zh-TW": "不溶性 neuromelanin 大幅提高老化兒茶酚胺能神經元的細胞內擁擠。色素負荷與胞器累積並列為擁擠來源。"
+    },
+    "confidence": 0.75,
+    "source_document": "Macromolecular Crowding.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "ed16a31cf953",
+    "subject": "Macromolecular Crowding",
+    "predicate": "promotes",
+    "object": "Lewy Bodies",
+    "context": {
+      "en-US": "Crowding facilitates inclusion assembly, as modeled in vitro for Lewy body formation. Excluded volume lowers the barrier to protein deposition into inclusions.",
+      "zh-TW": "擁擠促進包涵體組裝，體外路易體形成模型已證實。排除體積降低蛋白沉積為包涵體的屏障。"
+    },
+    "confidence": 0.75,
+    "source_document": "Macromolecular Crowding.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "4f8e4b5a73fb",
+    "subject": "Macromolecular Crowding",
+    "predicate": "impairs",
+    "object": "Proteostasis",
+    "context": {
+      "en-US": "The proteostasis network is challenged by excluded-volume effects that perturb folding and clearance equilibria. Crowding connects pigment load to proteostatic collapse.",
+      "zh-TW": "蛋白質穩態網絡受排除體積效應挑戰，擾亂折疊與清除平衡。擁擠將色素負荷與蛋白穩態崩潰連結。"
+    },
+    "confidence": 0.7,
+    "source_document": "Macromolecular Crowding.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "9d6417656315",
+    "subject": "Macromolecular Crowding",
+    "predicate": "associated_with",
+    "object": "Lysosomal Dysfunction",
+    "context": {
+      "en-US": "Pigment-packed lysosomes worsen crowding and aggregation; the wording is strictly bidirectional, so association only without causal direction. Co-occurrence of granular load and lysosomal failure defines vulnerable neurons.",
+      "zh-TW": "色素填充的溶小體加重擁擠與聚集；措辭嚴格雙向，故僅為關聯而不帶因果方向。顆粒負荷與溶小體失敗的共現定義易損神經元。"
+    },
+    "confidence": 0.7,
+    "source_document": "Macromolecular Crowding.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "c5df4b0c09e9",
+    "subject": "Positron Emission Tomography",
+    "predicate": "detects",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "TSPO radioligands visualize activated microglia, making PET the in-vivo readout of neuroinflammation. Detection parallels the MRI-detects-neuromelanin precedent.",
+      "zh-TW": "TSPO 放射配體顯影活化的小膠質細胞，使 PET 成為神經發炎的體內讀值。偵測呼應 MRI 偵測 neuromelanin 的先例。"
+    },
+    "confidence": 0.85,
+    "source_document": "Positron Emission Tomography.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "58cdce5afdfb",
+    "subject": "Positron Emission Tomography",
+    "predicate": "detects",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "PET dopaminergic and inflammatory tracers are indispensable for Parkinson's Disease diagnosis and staging. Imaging complements clinical and histological assessment.",
+      "zh-TW": "PET 多巴胺能與發炎追蹤劑對 Parkinson's Disease 診斷與分期不可或缺。影像補充臨床與組織學評估。"
+    },
+    "confidence": 0.8,
+    "source_document": "Positron Emission Tomography.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "f301081ce417",
+    "subject": "Positron Emission Tomography",
+    "predicate": "associated_with",
+    "object": "Nigrostriatal System",
+    "context": {
+      "en-US": "PET is the primary in-vivo window into nigrostriatal integrity via presynaptic dopaminergic tracers. Association records the imaging-target relationship.",
+      "zh-TW": "PET 經由突觸前多巴胺能追蹤劑成為黑質紋狀體完整性的主要體內窗口。關聯記錄影像與標的關係。"
+    },
+    "confidence": 0.75,
+    "source_document": "Positron Emission Tomography.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "ae83c121ca91",
+    "subject": "Positron Emission Tomography",
+    "predicate": "associated_with",
+    "object": "Vesicular Monoamine Transporter 2",
+    "context": {
+      "en-US": "VMAT2 ligands such as 18F-AV-133 are core presynaptic PET tracers of monoaminergic terminals. Association records the tracer-target pairing.",
+      "zh-TW": "18F-AV-133 等 VMAT2 配體是單胺能末梢的核心突觸前 PET 追蹤劑。關聯記錄追蹤劑與標的配對。"
+    },
+    "confidence": 0.72,
+    "source_document": "Positron Emission Tomography.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "e7df10eacc42",
+    "subject": "Proton Leak",
+    "predicate": "located_in",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "Proton leak is the passive return of protons across the inner mitochondrial membrane, bypassing ATP synthase. Localization defines the chemiosmotic short-circuit.",
+      "zh-TW": "質子漏是質子跨內粒線體膜的被動回流，繞過 ATP 合酶。定位定義化學滲透短路。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "16ffff8ead4f",
+    "subject": "Proton Leak",
+    "predicate": "causes",
+    "object": "Thermogenesis",
+    "context": {
+      "en-US": "Proton leak dissipates the mitochondrial gradient as heat, the mechanistic basis of brown-fat thermogenesis. Uncoupling converts respiratory energy to warmth.",
+      "zh-TW": "質子漏以熱耗散粒線體梯度，是棕色脂肪產熱的機制基礎。去偶聯將呼吸能量轉為熱。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "105d6704c6a1",
+    "subject": "UCP1",
+    "predicate": "causes",
+    "object": "Proton Leak",
+    "context": {
+      "en-US": "UCP1 mediates inducible proton leak across the inner membrane in brown adipose tissue. Inducible uncoupling separates heat production from ATP demand.",
+      "zh-TW": "UCP1 在棕色脂肪組織介導可誘發的質子漏。可誘發去偶聯將產熱與 ATP 需求分離。"
+    },
+    "confidence": 0.82,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "cc40af1ff283",
+    "subject": "Proton Leak",
+    "predicate": "associated_with",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Proton leak accounts for roughly a fifth of resting oxygen consumption; as a component rather than a cause, association is the correct bucket. Leak sets basal metabolic floor.",
+      "zh-TW": "質子漏約佔靜息氧耗的五分之一；作為組分而非原因，關聯是正確的歸類。漏設定基礎代謝下限。"
+    },
+    "confidence": 0.78,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "7d77fa449bc1",
+    "subject": "UCP3",
+    "predicate": "regulates",
+    "object": "Proton Leak",
+    "context": {
+      "en-US": "Muscle proton leak is partly set by UCP3 expression levels. Regulation tunes uncoupling to fiber-type energy demand.",
+      "zh-TW": "肌肉質子漏部分由 UCP3 表現水平設定。調節將去偶聯調至肌纖維能量需求。"
+    },
+    "confidence": 0.75,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "b65293d0ec55",
+    "subject": "Proton Leak",
+    "predicate": "disrupts",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Proton leak uncouples oxygen consumption from ATP production; as a partial physiological effect the confidence is capped. Uncoupling trades efficiency for heat and redox relief.",
+      "zh-TW": "質子漏將氧耗與 ATP 產生去偶聯；作為部分生理效應，信心設上限。去偶聯以效率換取熱與氧化還原緩解。"
+    },
+    "confidence": 0.7,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "0c6082129583",
+    "subject": "Proton Leak",
+    "predicate": "located_in",
+    "object": "Skeletal Muscle",
+    "context": {
+      "en-US": "Skeletal muscle is a major site of leak-mediated energy expenditure. Localization marks the thermogenic tissue bed.",
+      "zh-TW": "骨骼肌是漏介導能量消耗的主要部位。定位標記產熱組織床。"
+    },
+    "confidence": 0.7,
+    "source_document": "Proton Leak.md",
+    "created": "2026-09-04T18:11:42Z",
+    "updated": "2026-09-04T18:11:42Z"
+  },
+  {
+    "id": "ca5d54df5967",
+    "subject": "SARM1",
+    "predicate": "causes",
+    "object": "Axonal Degeneration",
+    "context": {
+      "en-US": "SARM1 is the NAD+-consuming executor of programmed axonal destruction downstream of injury and stress. Its activation depletes axonal NAD+ and drives fragmentation.",
+      "zh-TW": "SARM1 是損傷與壓力下游程序性軸突破壞的 NAD+ 消耗執行者。其活化耗竭軸突 NAD+ 並驅動片段化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Axonal Degeneration.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "b242ae760a1e",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "protects_against",
+    "object": "Axonal Degeneration",
+    "context": {
+      "en-US": "Nicotinamide riboside protects neurons from excitotoxicity-induced axon loss by restoring axonal NAD+. Precursor repletion counters SARM1-driven depletion.",
+      "zh-TW": "Nicotinamide riboside 經由恢復軸突 NAD+ 保護神經元免於興奮毒性誘發的軸突缺失。前體補充對抗 SARM1 驅動的耗竭。"
+    },
+    "confidence": 0.85,
+    "source_document": "Axonal Degeneration.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "f83e83c07bf7",
+    "subject": "NAD+",
+    "predicate": "protects_against",
+    "object": "Axonal Degeneration",
+    "context": {
+      "en-US": "NAD+ restoration prevents axonal loss while its depletion drives degeneration. Axonal NAD+ level is the survival determinant upstream of SARM1 execution.",
+      "zh-TW": "NAD+ 恢復防止軸突缺失，而其耗竭驅動退化。軸突 NAD+ 水平是 SARM1 執行上游的存活決定因子。"
+    },
+    "confidence": 0.82,
+    "source_document": "Axonal Degeneration.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "6a2443ac1cbf",
+    "subject": "Excitotoxicity",
+    "predicate": "causes",
+    "object": "Axonal Degeneration",
+    "context": {
+      "en-US": "Excitotoxicity is a primary trigger causing axonal degeneration in part through calcium overload and energetic collapse. Overactivation converts signaling into structural destruction.",
+      "zh-TW": "興奮毒性是經由鈣超載與能量崩潰部分導致軸突退化的主要觸發。過度活化將訊號轉為結構破壞。"
+    },
+    "confidence": 0.8,
+    "source_document": "Axonal Degeneration.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "00e085d89d96",
+    "subject": "Axonal Degeneration",
+    "predicate": "associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Parkinson's Disease features axonal degeneration of dopaminergic projections preceding somatic loss. Association records the prodromal axonopathy.",
+      "zh-TW": "Parkinson's Disease 具多巴胺投射軸突退化，早於胞體缺失。關聯記錄前驅軸突病變。"
+    },
+    "confidence": 0.7,
+    "source_document": "Axonal Degeneration.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "d36e090cd86b",
+    "subject": "Axonal Degeneration",
+    "predicate": "associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Early axonal pathology accompanies Alzheimer's Disease progression. Association records shared axonopathy across neurodegenerations.",
+      "zh-TW": "早期軸突病理伴隨 Alzheimer's Disease 進展。關聯記錄神經退化間共享的軸突病變。"
+    },
+    "confidence": 0.7,
+    "source_document": "Axonal Degeneration.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "4c9dc1c86fe7",
+    "subject": "NAD+",
+    "predicate": "activates",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "SIRT3 is an NAD+-dependent mitochondrial deacetylase; raising mitochondrial NAD+ supports its activity. Cofactor supply gates sirtuin function.",
+      "zh-TW": "SIRT3 是 NAD+ 依賴的粒線體去乙醯化酶；提高粒線體 NAD+ 支持其活性。輔因子供應門控 sirtuin 功能。"
+    },
+    "confidence": 0.8,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "9ecb8aca2c2b",
+    "subject": "Retinal Photoreceptors",
+    "predicate": "contains",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Retinal photoreceptors pack mitochondria densely to meet phototransduction energy demand. Containment records the organelle-rich anatomy.",
+      "zh-TW": "視網膜感光細胞密集填充粒線體以滿足光轉導能量需求。包含記錄富胞器的解剖。"
+    },
+    "confidence": 0.8,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "3b1af1d13c97",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "converts_to",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Nicotinamide riboside is the precursor restoring mitochondrial NAD+ through salvage synthesis. Precursor-to-cofactor conversion parallels the L-DOPA-to-dopamine precedent.",
+      "zh-TW": "Nicotinamide riboside 是經由挽救合成恢復粒線體 NAD+ 的前體。前體到輔因子轉化呼應 L-DOPA 到多巴胺的先例。"
+    },
+    "confidence": 0.75,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "dd1146cd8cec",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "SIRT3 supports mitochondrial ROS detoxification systems, defending against oxidative stress. Deacetylase-driven antioxidant support parallels the ascorbic acid precedent.",
+      "zh-TW": "SIRT3 支持粒線體 ROS 解毒系統，防禦氧化壓力。去乙醯化酶驅動的抗氧化支持呼應抗壞血酸先例。"
+    },
+    "confidence": 0.72,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "5ad5d0c9dba9",
+    "subject": "Retinal Photoreceptors",
+    "predicate": "associated_with",
+    "object": "Diabetic Retinopathy",
+    "context": {
+      "en-US": "Diabetic retinopathy degeneration is linked to retinal NAD+ loss in photoreceptors. Association records the metabolic retinopathy connection.",
+      "zh-TW": "糖尿病視網膜病變退化與感光細胞視網膜 NAD+ 缺失相關。關聯記錄代謝性視網膜病變連結。"
+    },
+    "confidence": 0.7,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "f3666da7b8ba",
+    "subject": "Retinal Photoreceptors",
+    "predicate": "regulated_by",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "SIRT3 governs photoreceptor ATP and ROS homeostasis as a core review finding. Regulation is the metabolic control relationship.",
+      "zh-TW": "SIRT3 作為核心回顧發現掌管感光細胞 ATP 與 ROS 恆定。調節是代謝控制關係。"
+    },
+    "confidence": 0.7,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "984cb724143b",
+    "subject": "Diazepam",
+    "predicate": "modulates",
+    "object": "Neurotransmission",
+    "context": {
+      "en-US": "Diazepam increases GABA-A chloride-channel opening frequency, potentiating fast inhibitory neurotransmission. Modulation is the allosteric enhancement relationship.",
+      "zh-TW": "Diazepam 提高 GABA-A 氯通道開放頻率，增強快速抑制性神經傳導。調節是變構增強關係。"
+    },
+    "confidence": 0.8,
+    "source_document": "Diazepam.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "27a69f9cbeb6",
+    "subject": "Glomerular Filtration Rate",
+    "predicate": "associated_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Age-related glomerular filtration decline drives systemic advanced glycation end-product accumulation, with serum CML correlating negatively with filtration and positively with age. Association records the renal aging axis.",
+      "zh-TW": "年齡相關的腎絲球過濾下降驅動全身晚期糖化終產物累積，血清 CML 與過濾負相關、與年齡正相關。關聯記錄腎臟老化軸。"
+    },
+    "confidence": 0.75,
+    "source_document": "Glomerular Filtration Rate.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "7ba079bdd5fc",
+    "subject": "Ifosfamide-induced Encephalopathy",
+    "predicate": "associated_with",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "The chloroacetaldehyde metabolite interferes with mitochondrial respiration, and methylene blue rescue is attributed to restoring mitochondrial function. Association is capped as borderline mechanistic evidence.",
+      "zh-TW": "氯乙醛代謝物干擾粒線體呼吸，而亞甲藍救援歸因於恢復粒線體功能。關聯因機制證據邊緣而設上限。"
+    },
+    "confidence": 0.7,
+    "source_document": "Ifosfamide-induced Encephalopathy.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "41a5bd8304aa",
+    "subject": "Oxidative Stress",
+    "predicate": "causes",
+    "object": "Noise-Induced Hearing Loss",
+    "context": {
+      "en-US": "Acoustic trauma generates reactive oxygen species driving cochlear hair-cell death; nicotinamide riboside prevents loss via SIRT3 antioxidant support. Oxidative injury is the pathogenic trigger.",
+      "zh-TW": "聲創傷產生超量活性氧驅動耳蝸毛細胞死亡；nicotinamide riboside 經 SIRT3 抗氧化支持防止缺失。氧化損傷是致病觸發。"
+    },
+    "confidence": 0.78,
+    "source_document": "Noise-Induced Hearing Loss.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "8caf7ad7e4b4",
+    "subject": "Oxidative Stress",
+    "predicate": "causes",
+    "object": "Ventricular arrhythmias",
+    "context": {
+      "en-US": "Oxidative stress is a stated pro-arrhythmic driver, with resveratrol's anti-arrhythmic effect attributed partly to antioxidant action. Redox injury destabilizes cardiac electrophysiology.",
+      "zh-TW": "氧化壓力是既定的促心律失常驅動，resveratrol 的抗心律失常效應部分歸因於抗氧化作用。氧化還原損傷破壞心臟電生理穩定。"
+    },
+    "confidence": 0.72,
+    "source_document": "Ventricular arrhythmias.md",
+    "created": "2026-09-04T18:12:50Z",
+    "updated": "2026-09-04T18:12:50Z"
+  },
+  {
+    "id": "173ec0afa011",
+    "subject": "HPP+",
+    "predicate": "inhibits",
+    "object": "Complex I",
+    "context": {
+      "en-US": "HPP+ accumulates in mitochondria via dopamine transporter uptake and inhibits complex I of the electron transport chain, mirroring MPP+ toxicity. Complex I blockade drives oxidative injury in nigral neurons.",
+      "zh-TW": "HPP+ 經多巴胺轉運蛋白攝取累積於粒線體，抑制電子傳遞鏈複合體 I，呼應 MPP+ 毒性。複合體 I 阻斷驅動黑質神經元氧化損傷。"
+    },
+    "confidence": 0.88,
+    "source_document": "HPP+.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
+  },
+  {
+    "id": "cc964d405c77",
+    "subject": "HPP+",
+    "predicate": "associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "HPP+ neurotoxicity produces a parkinsonian phenotype mimicking Parkinson's Disease without causing idiopathic disease. Association records the model relationship, weaker than causation.",
+      "zh-TW": "HPP+ 神經毒性產生模仿 Parkinson's Disease 的帕金森表型，而非導致特發性疾病。關聯記錄模型關係，弱於因果。"
+    },
+    "confidence": 0.75,
+    "source_document": "HPP+.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
+  },
+  {
+    "id": "d649e03dadfe",
+    "subject": "Eumelanin",
+    "predicate": "binds_to",
+    "object": "Iron",
+    "context": {
+      "en-US": "Eumelanin binds iron within neuromelanin granules, contributing to metal sequestration. Binding parallels the neuromelanin-iron chelation axis.",
+      "zh-TW": "Eumelanin 在 neuromelanin 顆粒內結合鐵，促成金屬隔離。結合呼應 neuromelanin-鐵螯合軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "Eumelanin.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
+  },
+  {
+    "id": "dd7cb758d340",
+    "subject": "Tyrosinase",
+    "predicate": "produces",
+    "object": "Eumelanin",
+    "context": {
+      "en-US": "Tyrosinase is the rate-limiting enzyme of eumelanin biosynthesis, paralleling the dopachrome tautomerase produces Eumelanin edge. Enzymatic oxidation initiates dark-pigment polymerization.",
+      "zh-TW": "Tyrosinase 是 eumelanin 生物合成的限速酶，與 dopachrome tautomerase 產生 Eumelanin 邊平行。酶促氧化啟動深色素聚合。"
+    },
+    "confidence": 0.88,
+    "source_document": "Eumelanin.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
+  },
+  {
+    "id": "8e530a32aa69",
+    "subject": "Dolichol",
+    "predicate": "found_in",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Dolichol resides within neuromelanin pigment granules of the substantia nigra pars compacta. Presence records the isoprenoid component of granule matrix.",
+      "zh-TW": "Dolichol 存在於黑質緻密部 neuromelanin 色素顆粒內。存在記錄顆粒基質的異戊二烯成分。"
+    },
+    "confidence": 0.85,
+    "source_document": "Dolichol.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
+  },
+  {
+    "id": "cdc20eaaf07b",
+    "subject": "Dopamine",
+    "predicate": "regulates",
+    "object": "Synaptic plasticity",
+    "context": {
+      "en-US": "Dopamine governs striatal synaptic plasticity as a neuromodulator of strength changes. Regulation is the modulatory control relationship.",
+      "zh-TW": "多巴胺作為強度變化的神經調節劑掌管紋狀體突觸可塑性。調節是調節性控制關係。"
+    },
+    "confidence": 0.85,
+    "source_document": "Synaptic plasticity.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
+  },
+  {
+    "id": "c5dc978ac1ea",
+    "subject": "Tyrosinase-related protein-2",
+    "predicate": "produces",
+    "object": "Eumelanin",
+    "context": {
+      "en-US": "TRP-2 directs eumelanin synthesis as a dopachrome tautomerase family enzyme, paralleling the DCT production edge under its alias subject. Enzymatic activity channels pigment toward dark polymer.",
+      "zh-TW": "TRP-2 作為 dopachrome tautomerase 家族酶指導 eumelanin 合成，在其別名主詞下與 DCT 產生邊平行。酶活性將色素導向深色聚合物。"
+    },
+    "confidence": 0.82,
+    "source_document": "Tyrosinase-related protein-2.md",
+    "created": "2026-09-04T18:13:51Z",
+    "updated": "2026-09-04T18:13:51Z"
   }
 ]

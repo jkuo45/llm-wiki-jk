@@ -1988,20 +1988,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "693e315b2df7",
-    "subject": "Myeloperoxidase",
-    "predicate": "converts",
-    "object": "Hypochlorous Acid",
-    "context": {
-      "en-US": "Myeloperoxidase converts hydrogen peroxide and chloride to hypochlorous acid (HOCl), the major bactericidal oxidant released by activated neutrophils. The enzyme uses heme to oxidize H2O2 while reducing chloride, concentrating HOCl in the phagolysosome and at infection sites. The directionality is peroxide plus halide to potent microbicide. A caveat is that HOCl is indiscriminately reactive and, when extracellular, damages host tissues and proteins such as alpha-1 antitrypsin. The specificity for chloride at physiological concentrations makes HOCl the dominant product of MPO catalysis in neutrophils.",
-      "zh-TW": "Myeloperoxidase 將 hydrogen peroxide 和氯化物轉化為 hypochlorous acid (HOCl)，這是活化的中性粒細胞釋放的主要殺菌氧化劑。此酵素利用血紅素氧化 H2O2，同時還原氯，使 HOCl 濃縮在吞噬溶小體和感染部位。方向性是過氧化物加鹵化物到強效殺菌劑。需要注意的是，次氯酸具有不加區別的反應性，當在細胞外時，會損害宿主組織和 proteins，例如 alpha-1 antitrypsin。生理濃度下氯化物的特異性使得 HOCl 成為嗜中性球中 MPO 催化的主要產物。"
-    },
-    "confidence": 0.95,
-    "source_document": "Hypochlorous Acid.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "728eb53366b9",
     "subject": "NADPH Oxidase",
     "predicate": "is_activated_by",
@@ -2051,20 +2037,6 @@
     "context": {
       "en-US": "NADPH oxidase produces superoxide radicals by catalyzing the transfer of electrons from cytosolic NADPH to molecular oxygen at the plasma or phagosomal membrane. This deliberate, enzyme-driven generation contrasts with incidental mitochondrial leak and is tightly regulated by subunit assembly. The directionality is NADPH oxidation to superoxide formation. A caveat is that physiological NOX activity supports signaling and immunity, while pathological overactivation drives disease. The enzyme exists as several isoforms (NOX1-5, DUOX1/2) that share the core NADPH-to-oxygen electron transfer but differ in regulation, subunit partners, and tissue distribution.",
       "zh-TW": "NADPH oxidase 透過催化電子從胞質 NADPH 轉移到質膜或吞噬體膜上的分子氧來產生 superoxide radicals。這種有意的、酶驅動的生成與偶然的mitochondria1洩漏形成對比，並且受到亞基組裝的嚴格調節。方向性是 NADPH 氧化成超氧化物的形成。需要注意的是，生理性 NOX 活性支持訊號傳導和免疫，而病理性過度活化則會導致疾病。此酵素以多種異構體（NOX1-5、DUOX1/2）的形式存在，它們共享核心的 NADPH 至氧電子轉移，但在調節、亞基夥伴和組織分佈方面有所不同。"
-    },
-    "confidence": 0.95,
-    "source_document": "NADPH Oxidase.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "8f08b60a2ff3",
-    "subject": "NADPH Oxidase",
-    "predicate": "generates",
-    "object": "Superoxide Radicals",
-    "context": {
-      "en-US": "NADPH oxidase generates superoxide radicals in endothelial cells via NOX1 and NOX4 in response to angiotensin II and other stimuli, contributing to vascular oxidative stress. NOX4 additionally yields H2O2 that acts as a paracrine signal. The directionality is stimulus to endothelial ROS. A caveat is that endothelial NOX-derived ROS are also implicated in physiologic angiogenesis and barrier signaling at low levels. The balance between protective signaling and damaging stress therefore depends on the intensity and duration of NOX activation.",
-      "zh-TW": "NADPH oxidase響應angiotensin II和其他刺激，透過NOX1和NOX4在內皮細胞中生成superoxide radicals，進而促成血管oxidative stress。 NOX4 也產生 H2O2，充當旁分泌訊號。方向性是對內皮ROS的刺激。需要注意的是，內皮 NOX 衍生的 ROS 也與低水平的生理血管生成和屏障訊號傳導有關。因此，保護訊號和 damaging 壓力之間的平衡取決於 NOX 活化的強度和持續時間。"
     },
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
@@ -3528,20 +3500,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "2e5f55e97e70",
-    "subject": "Xanthine Oxidase",
-    "predicate": "generates",
-    "object": "Superoxide Radicals",
-    "context": {
-      "en-US": "Xanthine oxidase generates superoxide radicals in the synovium and other tissues when converted from the dehydrogenase (XDH) to the oxidase (XO) form under hypoxic conditions during reoxygenation. This adds an enzymatic ROS source alongside mitochondria and NOX. The directionality is XO conformation to superoxide production. A caveat is that XO is one of several ROS sources in inflammation, and its contribution varies with tissue oxygen and purine availability. Antioxidant or XO-inhibitory approaches that limit this burst are of interest in inflammatory joint disease.",
-      "zh-TW": "當復氧期間缺氧條件下，Xanthine oxidase 從脫氫酶 (XDH) 轉化為氧化酶 (XO) 形式時，在滑膜和其他組織中生成 superoxide radicals。這與 mitochondria 和 NOX 一起添加了酶 ROS 源。方向性是超氧化物產生的 XO 構象。需要注意的是，XO 是發炎中 ROS 的幾種來源之一，其貢獻隨組織氧和嘌呤可用性的不同而變化。限制這種爆發的抗氧化劑或 XO 抑制方法在發炎性關節疾病中引起了人們的興趣。"
-    },
-    "confidence": 0.95,
-    "source_document": "Xanthine Oxidase.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "cb3b89353344",
     "subject": "Xanthine Oxidase",
     "predicate": "catalyzes",
@@ -3554,5 +3512,1559 @@
     "source_document": "Xanthine Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "3968655464ab",
+    "subject": "Myeloperoxidase",
+    "predicate": "produces",
+    "object": "Hypochlorous Acid",
+    "context": {
+      "en-US": "Myeloperoxidase produces hypochlorous acid from hydrogen peroxide and chloride in activated neutrophils, mirroring the Eosinophil Peroxidase produces Hypobromous Acid pattern. Replacement for the malformed converts triple.",
+      "zh-TW": "Myeloperoxidase 在活化嗜中性球由過氧化氫與氯化物產生次氯酸，呼應 Eosinophil Peroxidase 產生 Hypobromous Acid 模式。取代措辭不當的 converts triple。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hypochlorous Acid.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "f579e1e8714b",
+    "subject": "Itaconate",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Itaconate alkylates Keap1 cysteines, releasing NRF2 as an endogenous anti-inflammatory feedback loop in activated macrophages. Electrophile signaling parallels fumarate action.",
+      "zh-TW": "Itaconate 烷基化 Keap1 半胱胺酸，在活化巨噬細胞釋放 NRF2 作為內源抗發炎回饋。親電子訊號呼應富馬酸鹽作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Immunity.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "fb7fe798a9e5",
+    "subject": "Itaconate",
+    "predicate": "inhibits",
+    "object": "Succinate Dehydrogenase",
+    "context": {
+      "en-US": "Itaconate is a competitive succinate dehydrogenase inhibitor limiting succinate oxidation and mitochondrial ROS. Inhibition rewires the tricarboxylic acid cycle of inflammatory macrophages.",
+      "zh-TW": "Itaconate 是競爭性 succinate dehydrogenase 抑制劑，限制琥珀酸氧化與粒線體 ROS。抑制重接發炎巨噬細胞的三羧酸循環。"
+    },
+    "confidence": 0.8,
+    "source_document": "Immunity.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "a58f7045cd24",
+    "subject": "Toll-like Receptor",
+    "predicate": "activates",
+    "object": "NADPH Oxidase",
+    "context": {
+      "en-US": "Toll-like receptor and Fc receptor ligation drives cytosolic subunit translocation assembling active NOX2 oxidase. Receptor ligation couples sensing to oxidant burst.",
+      "zh-TW": "Toll 樣受體與 Fc 受體連接驅動胞質次單元易位，組裝活化的 NOX2 氧化酶。受體連接將感測與氧化劑爆發耦合。"
+    },
+    "confidence": 0.8,
+    "source_document": "Immunity.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "68d14a5aeb73",
+    "subject": "Succinate",
+    "predicate": "induces",
+    "object": "Mitochondrial ROS",
+    "context": {
+      "en-US": "Succinate oxidation at Complex II drives reverse electron transport at Complex I, bursting mitochondrial ROS that stabilize HIF-1alpha and interleukin-1beta. Metabolite oxidation signals immune activation.",
+      "zh-TW": "Complex II 的琥珀酸氧化驅動 Complex I 逆向電子傳遞，爆發粒線體 ROS 以穩定 HIF-1alpha 與 interleukin-1beta。代謝物氧化傳遞免疫活化訊號。"
+    },
+    "confidence": 0.75,
+    "source_document": "Immunity.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "e88e31c75dbc",
+    "subject": "Mitochondrial ROS",
+    "predicate": "activates",
+    "object": "HIF-1α",
+    "context": {
+      "en-US": "Mitochondrial ROS stabilize HIF-1alpha in activated macrophages, licensing glycolytic and inflammatory transcription. Oxidant stabilization links metabolism to hypoxia signaling.",
+      "zh-TW": "粒線體 ROS 在活化巨噬細胞穩定 HIF-1alpha，許可糖解與發炎轉錄。氧化劑穩定將代謝與缺氧訊號連結。"
+    },
+    "confidence": 0.72,
+    "source_document": "Immunity.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "fd9659ed7456",
+    "subject": "NADPH Oxidase",
+    "predicate": "is_required_for",
+    "object": "Respiratory Burst",
+    "context": {
+      "en-US": "NOX2-derived superoxide is the phagocyte respiratory burst itself; chronic granulomatous disease abolishes it. Requirement marks the oxidase as the burst effector.",
+      "zh-TW": "NOX2 衍生超氧化物即吞噬細胞呼吸爆發本身；慢性肉芽腫病廢除之。必要性標記氧化酶為爆發效應器。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chronic Granulomatous Disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "77fc729449ae",
+    "subject": "Chronic Granulomatous Disease",
+    "predicate": "is_associated_with",
+    "object": "Crohn's disease",
+    "context": {
+      "en-US": "Sterile granulomas and colitis in chronic granulomatous disease resemble Crohn's disease, an established clinical overlap. Shared granulomatous pathology links the entities.",
+      "zh-TW": "慢性肉芽腫病的無菌肉芽腫與結腸炎類似 Crohn's disease，是既定的臨床重疊。共享的肉芽腫病理連結兩實體。"
+    },
+    "confidence": 0.75,
+    "source_document": "Chronic Granulomatous Disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "23319d3281c0",
+    "subject": "Superoxide Radicals",
+    "predicate": "inactivates",
+    "object": "Aconitase",
+    "context": {
+      "en-US": "Superoxide oxidizes the [4Fe-4S] cluster of aconitase to [3Fe-4S], inactivating the tricarboxylic acid enzyme. Aconitase is the classic superoxide sensor of mitochondria.",
+      "zh-TW": "超氧化物氧化 aconitase 的 [4Fe-4S] 簇為 [3Fe-4S]，使三羧酸酶失活。Aconitase 是粒線體典型的超氧化物感測器。"
+    },
+    "confidence": 0.92,
+    "source_document": "Aconitase.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "efdef91021f5",
+    "subject": "Iron Regulatory Protein 1",
+    "predicate": "suppresses",
+    "object": "Ferritin",
+    "context": {
+      "en-US": "Apo-aconitase is Iron Regulatory Protein 1, which binds the ferritin iron-responsive element repressing translation. Cluster loss switches enzyme to RNA regulator.",
+      "zh-TW": "脫輔基 aconitase 即 Iron Regulatory Protein 1，結合 ferritin 鐵反應元件抑制轉譯。簇缺失將酶切換為 RNA 調節因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "Aconitase.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "87d8d036f552",
+    "subject": "Iron Regulatory Protein 1",
+    "predicate": "induces",
+    "object": "Transferrin receptor",
+    "context": {
+      "en-US": "Iron Regulatory Protein 1 stabilizes transferrin receptor messenger RNA, increasing cellular iron uptake. Stabilization raises iron import when cytosolic iron is low.",
+      "zh-TW": "Iron Regulatory Protein 1 穩定 transferrin receptor 信使 RNA，提高細胞鐵攝取。穩定在胞質鐵低時提高鐵輸入。"
+    },
+    "confidence": 0.78,
+    "source_document": "Aconitase.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "43dc34bfc2c1",
+    "subject": "Aconitase",
+    "predicate": "promotes",
+    "object": "Fenton Reaction",
+    "context": {
+      "en-US": "Ferrous iron liberated from oxidatively damaged aconitase feeds Fenton chemistry amplifying hydroxyl radical injury. Cluster disintegration links enzyme damage to radical burst.",
+      "zh-TW": "氧化損傷 aconitase 釋放的亞鐵餵養 Fenton 化學，放大羥基自由基損傷。簇解體將酶損傷與自由基爆發連結。"
+    },
+    "confidence": 0.78,
+    "source_document": "Aconitase.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "094d4412ca83",
+    "subject": "Aconitase",
+    "predicate": "is_required_for",
+    "object": "ATP",
+    "context": {
+      "en-US": "The tricarboxylic acid citrate-to-isocitrate step of aconitase is required for NADH and ATP generation; its inactivation impairs respiration. Catalysis gates mitochondrial energy output.",
+      "zh-TW": "aconitase 的三羧酸檸檬酸到異檸檬酸步驟為 NADH 與 ATP 生成所需；其失活損害呼吸。催化守衛粒線體能量輸出。"
+    },
+    "confidence": 0.75,
+    "source_document": "Aconitase.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "0d9dbb15c831",
+    "subject": "Methionine sulfoxide reductases",
+    "predicate": "requires",
+    "object": "Thioredoxin",
+    "context": {
+      "en-US": "Thioredoxin supplies electrons for the MsrA and MsrB catalytic cycle reducing methionine sulfoxide. Reductant supply gates enzymatic repair turnover.",
+      "zh-TW": "Thioredoxin 為 MsrA 與 MsrB 催化循環供應電子，還原甲硫胺酸亞碸。還原劑供應守衛酶促修復週轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "Methionine sulfoxide reductases.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "e69638ab2f9b",
+    "subject": "Hypochlorous Acid",
+    "predicate": "oxidizes",
+    "object": "Methionine",
+    "context": {
+      "en-US": "Hypochlorous acid oxidizes methionine to methionine sulfoxide, a major protein target of neutrophil oxidants. Sulfur oxidation marks chlorinative protein damage.",
+      "zh-TW": "次氯酸氧化 methionine 為甲硫胺酸亞碸，是嗜中性球氧化劑的主要蛋白標的。硫氧化標記氯化性蛋白損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Methionine sulfoxide reductases.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "0319e048cd93",
+    "subject": "Hydrogen Peroxide",
+    "predicate": "oxidizes",
+    "object": "Methionine",
+    "context": {
+      "en-US": "Hydrogen peroxide oxidizes methionine to methionine sulfoxide, feeding the reversible repair cycle. Mild oxidation creates the repairable lesion.",
+      "zh-TW": "過氧化氫氧化 methionine 為甲硫胺酸亞碸，供養可逆修復循環。溫和氧化產生可修復損傷。"
+    },
+    "confidence": 0.82,
+    "source_document": "Methionine sulfoxide reductases.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "091b4ca057ad",
+    "subject": "Methionine sulfoxide reductases",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Reversible methionine oxidation repaired by reductases acts as an endogenous antioxidant sink; overwhelmed repair marks chronic stress. Repair capacity buffers oxidant load.",
+      "zh-TW": "還原酶修復的可逆甲硫胺酸氧化充當內源抗氧化匯；不堪負荷的修復標記慢性壓力。修復能力緩衝氧化劑負荷。"
+    },
+    "confidence": 0.75,
+    "source_document": "Methionine sulfoxide reductases.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "8aa788d9b4e7",
+    "subject": "Methionine",
+    "predicate": "scavenges",
+    "object": "Hypochlorous Acid",
+    "context": {
+      "en-US": "Surface methionine residues detoxify hypochlorous acid without permanent damage, acting as sacrificial oxidant sinks. Scavenging spares catalytic residues.",
+      "zh-TW": "表面 methionine 殘基解毒次氯酸而不留永久損傷，充當犧牲性氧化劑匯。清除保護催化殘基。"
+    },
+    "confidence": 0.7,
+    "source_document": "Methionine sulfoxide reductases.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "2345cd75e645",
+    "subject": "Glutathione Peroxidase",
+    "predicate": "protects_against",
+    "object": "Acatalasemia",
+    "context": {
+      "en-US": "Glutathione peroxidase and peroxiredoxin redundancy compensates catalase loss, explaining asymptomatic acatalasemia cases through alternative peroxide detoxification. Backup enzymes mask the deficiency.",
+      "zh-TW": "Glutathione peroxidase 與過氧化還原蛋白冗餘補償 catalase 缺失，經由替代過氧化物解毒解釋無症狀 acatalasemia 病例。備援酶掩蓋缺陷。"
+    },
+    "confidence": 0.72,
+    "source_document": "Acatalasemia.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "00d89788a2c1",
+    "subject": "Acatalasemia",
+    "predicate": "is_associated_with",
+    "object": "Gingivitis",
+    "context": {
+      "en-US": "Necrotizing gingivitis and periodontal destruction are the classic presentation of acatalasemia from undegraded oral peroxide. Association records the mucosal hallmark.",
+      "zh-TW": "壞死性齦炎與牙周破壞是未降解口腔過氧化物導致 acatalasemia 的典型表現。關聯記錄黏膜標誌。"
+    },
+    "confidence": 0.78,
+    "source_document": "Acatalasemia.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "c45591a69bce",
+    "subject": "Lipid peroxyl radical",
+    "predicate": "produces",
+    "object": "Lipid hydroperoxide",
+    "context": {
+      "en-US": "Lipid peroxyl radical hydrogen abstraction from polyunsaturated fatty acids yields lipid hydroperoxide plus a new lipid radical; the rate-determining propagation step. Abstraction sustains the peroxidation chain.",
+      "zh-TW": "脂質過氧自由基從多元不飽和脂肪酸提取氫，產生脂質氫過氧化物加新脂質自由基；是速率決定傳播步驟。提取維持過氧化鏈。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipid peroxyl radical.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "10908a96d13b",
+    "subject": "Vitamin E",
+    "predicate": "scavenges",
+    "object": "Lipid peroxyl radical",
+    "context": {
+      "en-US": "Alpha-tocopherol donates phenolic hydrogen to lipid peroxyl radicals at near diffusion rates, terminating chain propagation. Scavenging is the chain-breaking antioxidant act.",
+      "zh-TW": "α-生育酚以近擴散速率向脂質過氧自由基提供酚氫，終止鏈傳播。清除是斷鏈抗氧化作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipid peroxyl radical.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "24dde97b8288",
+    "subject": "4-Hydroxynonenal",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Submicromolar 4-hydroxynonenal alkylates Keap1, inducing antioxidant response element genes including GPX2, NQO1 and heme oxygenase-1. Low-dose aldehyde triggers the hormetic arm.",
+      "zh-TW": "亞微莫耳 4-hydroxynonenal 烷基化 Keap1，誘導包括 GPX2、NQO1 與血紅素加氧酶-1 的抗氧化反應元件基因。低劑量醛觸發毒物興奮臂。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipids.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "937fef89640c",
+    "subject": "4-Hydroxynonenal",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Above ten micromolar, 4-hydroxynonenal triggers c-Jun kinase to cytochrome c to caspase-3 death signaling. High-dose aldehyde switches from signal to execution.",
+      "zh-TW": "十微莫耳以上，4-hydroxynonenal 觸發 c-Jun 激酶到 cytochrome c 到 caspase-3 死亡訊號。高劑量醛從訊號切換為執行。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipids.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "b924ad5c8397",
+    "subject": "Acrolein",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Electrophilic acrolein conjugates and sequesters glutathione, forming protein carbonyls in parallel with hypochlorous acid depletion. Conjugation drains the thiol buffer.",
+      "zh-TW": "親電子 acrolein 結合並隔離 glutathione，與次氯酸耗竭平行形成蛋白羰基。結合耗盡硫醇緩衝。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipids.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "333ecd8ed091",
+    "subject": "Lipid Peroxidation",
+    "predicate": "produces",
+    "object": "F2-Isoprostanes",
+    "context": {
+      "en-US": "Non-enzymatic peroxidation of arachidonic acid yields 8-iso-prostaglandin-F2alpha, the gold-standard oxidative stress biomarker. Isoprostane formation marks membrane peroxidation burden.",
+      "zh-TW": "花生四烯酸的非酶促過氧化產生 8-iso-prostaglandin-F2alpha，即黃金標準 oxidative stress 生物標記。異前列腺素形成標記膜過氧化負荷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipids.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "d41c7c56a7bb",
+    "subject": "Lipid peroxyl radical",
+    "predicate": "oxidizes",
+    "object": "Polyunsaturated fatty acids",
+    "context": {
+      "en-US": "Lipid peroxyl radicals abstract bis-allylic hydrogen with low bond energy, fastest for docosahexaenoic over arachidonic over linoleic acid. Abstraction selectivity follows unsaturation degree.",
+      "zh-TW": "脂質過氧自由基提取雙烯丙基氫，鍵能低，二十二碳六烯酸快於花生四烯酸快於亞麻油酸。提取選擇性追隨不飽和度。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipid peroxyl radical.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "d9f18c03ae06",
+    "subject": "Lipid peroxyl radical",
+    "predicate": "contributes_to",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Lipid peroxyl radical driven low-density lipoprotein oxidation initiates oxidized-LDL formation and foam-cell pathology. Radical oxidation seeds atherogenesis.",
+      "zh-TW": "脂質過氧自由基驅動的低密度脂蛋白氧化啟動氧化 LDL 形成與泡沫細胞病理。自由基氧化播種動脈粥狀硬化發生。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipid peroxyl radical.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "8eec0b6ca76c",
+    "subject": "Lipid peroxyl radical",
+    "predicate": "contributes_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Unchecked lipid peroxyl to hydroperoxide accumulation in phosphatidylethanolamines is the ferroptotic driver. Peroxide overload executes iron-dependent death.",
+      "zh-TW": "磷脂醯乙醇胺中不受控的脂質過氧到氫過氧化物累積是 ferroptosis 驅動者。過氧化物超載執行鐵依賴死亡。"
+    },
+    "confidence": 0.78,
+    "source_document": "Lipid peroxyl radical.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "5090d32f936f",
+    "subject": "Ascorbic Acid",
+    "predicate": "regenerates",
+    "object": "Vitamin E",
+    "context": {
+      "en-US": "Ascorbate recycles the tocopheroxyl radical back to alpha-tocopherol at the membrane interface. Regeneration couples aqueous and lipid antioxidant networks.",
+      "zh-TW": "抗壞血酸在膜界面將生育酚自由基回收為 α-生育酚。再生耦合水相與脂相抗氧化網絡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipid peroxyl radical.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "a80a4190996a",
+    "subject": "Singlet Oxygen",
+    "predicate": "activates",
+    "object": "MAPK",
+    "context": {
+      "en-US": "Singlet oxygen from UVA photosensitizers activates MAPK signaling upstream of matrix metalloproteinase induction. Photochemical oxidant feeds kinase cascades.",
+      "zh-TW": "UVA 光敏劑的 singlet oxygen 在基質金屬蛋白酶誘導上游活化 MAPK 訊號。光化學氧化劑供養激酶級聯。"
+    },
+    "confidence": 0.8,
+    "source_document": "UV-induced photoaging.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "ccc498b3616f",
+    "subject": "AP-1",
+    "predicate": "induces",
+    "object": "Matrix Metalloproteinases",
+    "context": {
+      "en-US": "AP-1 drives matrix metalloproteinase-1, -3 and -9 transcription in the textbook ultraviolet to collagen-degradation axis. Transcription factor output dissolves dermal matrix.",
+      "zh-TW": "AP-1 在典型的紫外線到膠原降解軸驅動基質金屬蛋白酶-1、-3 與 -9 轉錄。轉錄因子輸出溶解真皮基質。"
+    },
+    "confidence": 0.85,
+    "source_document": "UV-induced photoaging.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "f9bcaae53fa5",
+    "subject": "Matrix Metalloproteinases",
+    "predicate": "contributes_to",
+    "object": "UV-induced photoaging",
+    "context": {
+      "en-US": "Matrix metalloproteinase mediated collagen and elastin breakdown causes wrinkling and elasticity loss of photoaging. Proteolysis executes the visible phenotype.",
+      "zh-TW": "基質金屬蛋白酶介導的膠原與彈性蛋白分解導致光老化的皺紋與彈性喪失。蛋白水解執行可見表型。"
+    },
+    "confidence": 0.82,
+    "source_document": "UV-induced photoaging.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "df4dbc536949",
+    "subject": "Hydroxyl Radicals",
+    "predicate": "contributes_to",
+    "object": "UV-induced photoaging",
+    "context": {
+      "en-US": "UVB photolysis and Fenton hydroxyl radicals add a DNA and membrane damage arm to photoaging. Radical injury complements singlet oxygen pathways.",
+      "zh-TW": "UVB 光解與 Fenton hydroxyl radicals 為光老化增添 DNA 與膜損傷臂。自由基損傷補充 singlet oxygen 途徑。"
+    },
+    "confidence": 0.75,
+    "source_document": "UV-induced photoaging.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "3a1513eaf060",
+    "subject": "Ascorbic Acid",
+    "predicate": "protects_against",
+    "object": "UV-induced photoaging",
+    "context": {
+      "en-US": "Ascorbic acid plus vitamin E synergy reduces ultraviolet oxidative damage to skin. Antioxidant pairing defends the photoexposed barrier.",
+      "zh-TW": "抗壞血酸加 vitamin E 協同減少皮膚紫外線氧化損傷。抗氧化配對防禦光暴露屏障。"
+    },
+    "confidence": 0.72,
+    "source_document": "UV-induced photoaging.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "c716ccf0beb5",
+    "subject": "UV-induced photoaging",
+    "predicate": "suppresses",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Chronic ultraviolet exposure impairs NRF2 nuclear translocation and antioxidant response transcription. Suppression weakens the inducible defense of photoaged skin.",
+      "zh-TW": "慢性紫外線暴露損害 NRF2 核轉位與抗氧化反應轉錄。抑制削弱光老化皮膚的誘導防禦。"
+    },
+    "confidence": 0.7,
+    "source_document": "UV-induced photoaging.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "54854131f286",
+    "subject": "UV Light",
+    "predicate": "generates",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Ultraviolet photochemistry generates reactive oxygen species driving catecholamine oxidation and skin damage. Photon energy converts to oxidant burden.",
+      "zh-TW": "紫外線光化學產生 reactive oxygen species，驅動兒茶酚胺氧化與皮膚損傷。光子能量轉為氧化劑負荷。"
+    },
+    "confidence": 0.88,
+    "source_document": "UV Light.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "4ba61640a33a",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Reactive oxygen species steal catechol-hydroxyl electrons from epinephrine through an ortho-quinone intermediate. Oxidation initiates catecholamine pigment chemistry.",
+      "zh-TW": "Reactive oxygen species 經由鄰醌中間體竊取 epinephrine 兒茶酚羥基電子。氧化啟動兒茶酚胺色素化學。"
+    },
+    "confidence": 0.8,
+    "source_document": "UV Light.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "26c008f7be5b",
+    "subject": "Epinephrine",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Light-accelerated oxidation and cyclization of epinephrine ends in adrenochrome, the amber-vial pharmacology endpoint. Cyclization closes the catecholamine oxidation cascade.",
+      "zh-TW": "光加速的 epinephrine 氧化與環化終於 adrenochrome，即棕色藥瓶藥理終點。環化關閉兒茶酚胺氧化級聯。"
+    },
+    "confidence": 0.8,
+    "source_document": "Guanylhydrazone.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "1ae21419caad",
+    "subject": "UV Light",
+    "predicate": "causes",
+    "object": "UV-induced photoaging",
+    "context": {
+      "en-US": "Ultraviolet reactive oxygen species drive the skin damage consequence of photoaging by definition, previously unrepresented as a triple. Causation names the definitional etiology.",
+      "zh-TW": "紫外線 reactive oxygen species 依定義驅動光老化的皮膚損傷後果，先前未以 triple 表示。因果命名定義性病因。"
+    },
+    "confidence": 0.85,
+    "source_document": "UV Light.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "7545edd01c3c",
+    "subject": "Protein Citrullination",
+    "predicate": "contributes_to",
+    "object": "Rheumatoid Arthritis",
+    "context": {
+      "en-US": "Citrullinated peptides are anti-citrullinated protein antibody autoantigens, the hallmark of rheumatoid arthritis. Autoantigen generation defines the disease link.",
+      "zh-TW": "瓜氨酸化肽是抗瓜氨酸蛋白抗體自身抗原，即類風濕關節炎的標誌。自身抗原生成定義疾病連結。"
+    },
+    "confidence": 0.88,
+    "source_document": "Protein Citrullination.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "98382ff3119a",
+    "subject": "Calcium",
+    "predicate": "activates",
+    "object": "Protein Citrullination",
+    "context": {
+      "en-US": "Calcium influx activates peptidylarginine deiminase enzymes executing arginine to citrulline conversion. Cation gating follows the oxidant to calcium to enzyme directionality.",
+      "zh-TW": "鈣流入活化肽基精胺酸脫亞胺酶，執行精胺酸到瓜氨酸轉換。陽離子門控追隨氧化劑到鈣到酶的方向性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Citrullination.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "40cb5e50a371",
+    "subject": "Protein Citrullination",
+    "predicate": "involves",
+    "object": "Arginine",
+    "context": {
+      "en-US": "Protein citrullination is definitionally arginine deimination to citrulline residues. Substrate identity anchors the modification.",
+      "zh-TW": "蛋白瓜氨酸化定義上即精胺酸脫亞胺為瓜氨酸殘基。底物身份錨定修飾。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Citrullination.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "df9be2afb256",
+    "subject": "Protein Citrullination",
+    "predicate": "is_associated_with",
+    "object": "Autoimmune Disease",
+    "context": {
+      "en-US": "Protein citrullination links to autoimmune disease beyond rheumatoid arthritis as a broader class relationship. Association generalizes the tolerance-break mechanism.",
+      "zh-TW": "蛋白瓜氨酸化超越類風濕關節炎連結自體免疫疾病，作為更廣的類別關係。關聯概化耐受打破機制。"
+    },
+    "confidence": 0.75,
+    "source_document": "Protein Citrullination.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "7eb59eaeea51",
+    "subject": "Keshan disease",
+    "predicate": "is_a_type_of",
+    "object": "Cardiomyopathy",
+    "context": {
+      "en-US": "Keshan disease is an endemic nutritional cardiomyopathy by definition. Classification places the selenium-deficiency disorder among myocardial diseases.",
+      "zh-TW": "Keshan disease 依定義是地方性營養性心肌病。歸類將硒缺乏症置於心肌疾病之中。"
+    },
+    "confidence": 0.95,
+    "source_document": "Keshan disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "b5d868a5f624",
+    "subject": "Glutathione Peroxidase",
+    "predicate": "reduces",
+    "object": "Lipid hydroperoxide",
+    "context": {
+      "en-US": "Selenoenzyme glutathione peroxidase detoxifies lipid hydroperoxides, the failure mode underlying Keshan myocardial injury. Reduction parallels the hydrogen peroxide edge.",
+      "zh-TW": "硒酶 glutathione peroxidase 解毒脂質氫過氧化物，其失敗模式是 Keshan 心肌損傷的基礎。還原呼應過氧化氫邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "Keshan disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "92849ed1c99f",
+    "subject": "Selenium",
+    "predicate": "protects_against",
+    "object": "Keshan disease",
+    "context": {
+      "en-US": "Selenium supplementation and dietary intervention dramatically cut Keshan disease incidence. Nutrient repletion removes the deficiency cause.",
+      "zh-TW": "硒補充與飲食介入大幅削減 Keshan disease 發生率。營養補足移除缺乏病因。"
+    },
+    "confidence": 0.88,
+    "source_document": "Keshan disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "55140ee29e1b",
+    "subject": "Lipid hydroperoxide",
+    "predicate": "contributes_to",
+    "object": "Keshan disease",
+    "context": {
+      "en-US": "Lipid hydroperoxide accumulation on glutathione peroxidase failure drives myocardial necrosis and fibrosis. Peroxide overload executes the cardiac lesion.",
+      "zh-TW": "Glutathione peroxidase 失敗時脂質氫過氧化物累積驅動心肌壞死與纖維化。過氧化物超載執行心臟病灶。"
+    },
+    "confidence": 0.75,
+    "source_document": "Keshan disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "367a5af77e21",
+    "subject": "Keshan disease",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Myocardial oxidant injury is the stated mechanism of Keshan disease. Association records the redox etiology.",
+      "zh-TW": "心肌氧化劑損傷是 Keshan disease 的既定機制。關聯記錄氧化還原病因。"
+    },
+    "confidence": 0.72,
+    "source_document": "Keshan disease.md",
+    "created": "2026-09-04T18:32:56Z",
+    "updated": "2026-09-04T18:32:56Z"
+  },
+  {
+    "id": "54e85389ee08",
+    "subject": "Polyol Pathway",
+    "predicate": "produces",
+    "object": "Fructose",
+    "context": {
+      "en-US": "The two-enzyme glucose to sorbitol to fructose route produces fructose, setting the advanced glycation feed rate. Sorbitol dehydrogenase closes the pathway output.",
+      "zh-TW": "葡萄糖到山梨醇到果糖的雙酶路徑產生果糖，設定晚期糖化供養速率。山梨醇脫氫酶關閉路徑輸出。"
+    },
+    "confidence": 0.92,
+    "source_document": "Polyol Pathway.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "07c1ba08a830",
+    "subject": "Polyol Pathway",
+    "predicate": "contributes_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Fructose is more reactive than glucose, so polyol flux feeds glycation and end-product accumulation. Reactivity differential drives the contribution.",
+      "zh-TW": "果糖比葡萄糖更具反應性，故多元醇通量供養糖化與終產物累積。反應性差異驅動貢獻。"
+    },
+    "confidence": 0.88,
+    "source_document": "Polyol Pathway.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "651fa022b2cd",
+    "subject": "Diabetes Mellitus",
+    "predicate": "activates",
+    "object": "Polyol Pathway",
+    "context": {
+      "en-US": "Hyperglycemia routes up to a third of glucose through the polyol pathway in susceptible tissues. Glucose overflow switches on the normally minor route.",
+      "zh-TW": "高血糖在易感組織將高達三分之一葡萄糖導入多元醇路徑。葡萄糖溢流開啟平時次要的路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Polyol Pathway.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "785353a9e434",
+    "subject": "Polyol Pathway",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Pathway NADPH consumption compromises glutathione regeneration; the effect is indirect and mediated through cofactor competition. Redox tradeoff weakens thiol defense.",
+      "zh-TW": "路徑 NADPH 消耗損害 glutathione 再生；效應間接，經由輔因子競爭介導。氧化還原權衡削弱硫醇防禦。"
+    },
+    "confidence": 0.74,
+    "source_document": "Polyol Pathway.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "41022340a4cf",
+    "subject": "Polyol Pathway",
+    "predicate": "contributes_to",
+    "object": "Diabetic Retinopathy",
+    "context": {
+      "en-US": "Retinal polyol activity links hyperglycemia to diabetic retinopathy as a complication of pathway flux. Tissue sorbitol burden tracks microvascular injury.",
+      "zh-TW": "視網膜多元醇活性將高血糖與糖尿病視網膜病變連結，作為路徑通量的併發症。組織山梨醇負荷追蹤微血管損傷。"
+    },
+    "confidence": 0.72,
+    "source_document": "Polyol Pathway.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "582418e9190d",
+    "subject": "Aldose reductase",
+    "predicate": "initiates",
+    "object": "Polyol Pathway",
+    "context": {
+      "en-US": "Aldose reductase catalyzes the first rate-limiting glucose to sorbitol step opening the pathway. Initiation gates all downstream flux.",
+      "zh-TW": "Aldose reductase 催化首個速率限制的葡萄糖到山梨醇步驟，開啟路徑。啟動守衛所有下游通量。"
+    },
+    "confidence": 0.92,
+    "source_document": "Aldose reductase.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "3cd169f613e7",
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Aldose reductase",
+    "context": {
+      "en-US": "Aminoguanidine inhibits aldose reductase per the PubChem-sourced note claim. Inhibition blocks the pathway entry point.",
+      "zh-TW": "Aminoguanidine 依 PubChem 來源筆記主張抑制 aldose reductase。抑制阻斷路徑入口點。"
+    },
+    "confidence": 0.8,
+    "source_document": "Aldose reductase.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "8689f83709bd",
+    "subject": "Aldose reductase",
+    "predicate": "contributes_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Aldose reductase feeds advanced glycation through downstream fructose, mediated rather than direct. Contribution runs via the polyol intermediate.",
+      "zh-TW": "Aldose reductase 經由下游果糖供養晚期糖化，間接而非直接。貢獻經由多元醇中間體運行。"
+    },
+    "confidence": 0.76,
+    "source_document": "Aldose reductase.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "375e4a013f2d",
+    "subject": "Fructose",
+    "predicate": "contributes_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Higher open-chain keto fraction makes fructose more glycating than glucose, feeding end-product formation. Carbonyl availability drives the contribution.",
+      "zh-TW": "較高的開鏈酮比例使果糖比葡萄糖更易糖化，供養終產物形成。羰基可用性驅動貢獻。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fructose.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "c2980517bd61",
+    "subject": "Fructose",
+    "predicate": "promotes",
+    "object": "Glycation",
+    "context": {
+      "en-US": "Fructose is a more efficient protein-glycation donor than glucose. Donor reactivity promotes the modification.",
+      "zh-TW": "果糖是比葡萄糖更有效的蛋白糖化供體。供體反應性促進修飾。"
+    },
+    "confidence": 0.82,
+    "source_document": "Fructose.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "3018e146d21e",
+    "subject": "Glycation",
+    "predicate": "produces",
+    "object": "Fructosamine",
+    "context": {
+      "en-US": "Amadori products of glucose-lysine binding are early reversible fructosamine intermediates. Binding yields the first stable adduct.",
+      "zh-TW": "葡萄糖-離胺酸結合的 Amadori 產物是早期可逆的 fructosamine 中間體。結合產生首個穩定加合物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fructosamine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "bdf1d367d122",
+    "subject": "Fructosamine",
+    "predicate": "contributes_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Fructosamine matures into end products when fructosamine-3-kinase repair is overwhelmed. Overwhelm converts the reversible intermediate onward.",
+      "zh-TW": "Fructosamine 在 fructosamine-3-kinase 修復不堪負荷時成熟為終產物。不堪負荷將可逆中間體推向下游。"
+    },
+    "confidence": 0.85,
+    "source_document": "Fructosamine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "f159f4f356b6",
+    "subject": "Fructosamine",
+    "predicate": "produces",
+    "object": "3-deoxyglucosone",
+    "context": {
+      "en-US": "Fructosamine-3-kinase phosphorylated fructosamine decomposes releasing 3-deoxyglucosone in a mediated step. Phosphorylation routes the intermediate to dicarbonyl.",
+      "zh-TW": "Fructosamine-3-kinase 磷酸化的 fructosamine 分解釋放 3-deoxyglucosone，為介導步驟。磷酸化將中間體導入二羰基。"
+    },
+    "confidence": 0.72,
+    "source_document": "Fructosamine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "3dee40b32d8f",
+    "subject": "Fructosamine",
+    "predicate": "is_a_biomarker_for",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Serum fructosamine marks two to three week glycemic exposure in diabetes monitoring. Measurement integrates recent glucose burden.",
+      "zh-TW": "血清 fructosamine 標記糖尿病監測中兩到三週的血糖暴露。測量整合近期葡萄糖負荷。"
+    },
+    "confidence": 0.72,
+    "source_document": "Fructosamine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "af06ae2ef4b1",
+    "subject": "Glycotoxins",
+    "predicate": "contributes_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Exogenous food and smoke glycotoxins raise in-vivo end-product load. Intake adds to the endogenous glycation burden.",
+      "zh-TW": "外源食物與煙霧 glycotoxins 提高體內終產物負荷。攝入疊加內源糖化負擔。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glycotoxins.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "71dcace7918b",
+    "subject": "Maillard Reaction",
+    "predicate": "produces",
+    "object": "Glycotoxins",
+    "context": {
+      "en-US": "Thermal food processing generates dietary glycotoxins through Maillard chemistry. Heating creates the exogenous burden.",
+      "zh-TW": "食品熱加工經由 Maillard 化學產生膳食 glycotoxins。加熱創造外源負荷。"
+    },
+    "confidence": 0.7,
+    "source_document": "Glycotoxins.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "42834ac8d931",
+    "subject": "Maillard Reaction",
+    "predicate": "produces",
+    "object": "Melanoidins",
+    "context": {
+      "en-US": "Terminal high molecular weight brown pigments of cooked foods are Maillard melanoidins. Polymerization ends the browning cascade.",
+      "zh-TW": "熟食的終末高分子量棕色色素即 Maillard melanoidins。聚合終止褐變級聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Melanoidins.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "78fb097524da",
+    "subject": "flavanone",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Flavanone is the saturated C-ring flavonoid subclass lacking the catechol motif. Classification nests it in the flavonoid family.",
+      "zh-TW": "flavanone 是飽和 C 環的類黃酮亞類，缺乏兒茶酚基序。歸類將其嵌套於類黃酮家族。"
+    },
+    "confidence": 0.95,
+    "source_document": "flavanone.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "1355ce3ebe7f",
+    "subject": "Hesperidin",
+    "predicate": "is_a_type_of",
+    "object": "flavanone",
+    "context": {
+      "en-US": "Hesperidin is the prototypical flavanone glycoside of citrus. Membership anchors the dietary example.",
+      "zh-TW": "Hesperidin 是柑橘典型的 flavanone 糖苷。成員關係錨定膳食範例。"
+    },
+    "confidence": 0.9,
+    "source_document": "flavanone.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "55d39a94cae6",
+    "subject": "Cyanidin-3-glucoside",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Cyanidin-3-glucoside is an anthocyanin member of the flavonoid class. Classification places the pigment glycoside.",
+      "zh-TW": "Cyanidin-3-glucoside 是類黃酮類別的花青素成員。歸類定位此色素糖苷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cyanidin-3-glucoside.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "b324742057eb",
+    "subject": "Cyanidin-3-glucoside",
+    "predicate": "activates",
+    "object": "SIRT6",
+    "context": {
+      "en-US": "Cyanidin-3-glucoside is a natural SIRT6 activator, the most distinctive vault feature of the compound. Activation links anthocyanin to sirtuin biology.",
+      "zh-TW": "Cyanidin-3-glucoside 是天然 SIRT6 活化劑，為此化合物最獨特的 vault 特徵。活化將花青素與 sirtuin 生物學連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cyanidin-3-glucoside.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "fb4580ffb3bb",
+    "subject": "Cyanidin-3-glucoside",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Cyanidin-3-glucoside shows stated potent antioxidant and reactive oxygen scavenging activity. Scavenging is the direct polyphenol act.",
+      "zh-TW": "Cyanidin-3-glucoside 展現既定的強效抗氧化與活性氧清除活性。清除是直接的多酚作用。"
+    },
+    "confidence": 0.78,
+    "source_document": "Cyanidin-3-glucoside.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "8e9b7dfeedb0",
+    "subject": "UDP-glucuronosyltransferases",
+    "predicate": "is_localized_in",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "UDP-glucuronosyltransferases are endoplasmic reticulum resident phase-two conjugation enzymes. Localization places the superfamily at the detoxification membrane.",
+      "zh-TW": "UDP-glucuronosyltransferases 是內質網駐留的二相結合酶。定位將此超家族置於解毒膜。"
+    },
+    "confidence": 0.92,
+    "source_document": "UDP-glucuronosyltransferases.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "1c90201f4a71",
+    "subject": "UDP-glucuronosyltransferases",
+    "predicate": "reduces",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Extensive glucuronide conjugation is the primary cause of poor fisetin oral bioavailability and a general polyphenol bottleneck. Conjugation limits systemic exposure.",
+      "zh-TW": "廣泛的葡萄糖醛酸結合是 fisetin 口服生物利用度差的主因，也是一般多酚瓶頸。結合限制全身暴露。"
+    },
+    "confidence": 0.78,
+    "source_document": "UDP-glucuronosyltransferases.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "bff5a9b18cd0",
+    "subject": "Hydrogen Peroxide",
+    "predicate": "contributes_to",
+    "object": "Hypobromous Acid",
+    "context": {
+      "en-US": "Hydrogen peroxide is the obligate co-substrate with bromide in eosinophil peroxidase catalysis of hypobromous acid. Co-substrate supply gates brominating output.",
+      "zh-TW": "過氧化氫是嗜酸性球過氧化物酶催化次溴酸時與溴化物並列的必要共底物。共底物供應守衛溴化輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hypobromous Acid.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "ebd93e6ab99e",
+    "subject": "Hypobromous Acid",
+    "predicate": "is_associated_with",
+    "object": "Asthma",
+    "context": {
+      "en-US": "Bromotyrosine adducts are elevated in allergic airway disease, marking eosinophil oxidant activity. Association records the airway biomarker link.",
+      "zh-TW": "過敏性氣道疾病中 bromotyrosine 加合物升高，標記嗜酸性球氧化劑活性。關聯記錄氣道生物標記連結。"
+    },
+    "confidence": 0.72,
+    "source_document": "Hypobromous Acid.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "c8784bd21e4f",
+    "subject": "Febuxostat",
+    "predicate": "reduces",
+    "object": "Uric Acid",
+    "context": {
+      "en-US": "Febuxostat blocks oxidized and reduced xanthine oxidase forms, suppressing urate production more completely than allopurinol. Blockade lowers the gout mediator.",
+      "zh-TW": "Febuxostat 阻斷氧化與還原態 xanthine oxidase，比 allopurinol 更徹底抑制尿酸鹽生成。阻斷降低痛風介體。"
+    },
+    "confidence": 0.9,
+    "source_document": "Febuxostat.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "2de2e03fda90",
+    "subject": "Febuxostat",
+    "predicate": "reduces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Febuxostat concurrently reduces xanthine oxidase derived reactive oxygen, adding antioxidant benefit beyond urate lowering. Dual suppression covers urate and oxidants.",
+      "zh-TW": "Febuxostat 同時減少 xanthine oxidase 衍生活性氧，在降尿酸之外增添抗氧化益處。雙重抑制涵蓋尿酸鹽與氧化劑。"
+    },
+    "confidence": 0.78,
+    "source_document": "Febuxostat.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "dd9b78603811",
+    "subject": "Febuxostat",
+    "predicate": "is_associated_with",
+    "object": "Gout",
+    "context": {
+      "en-US": "Gout is the primary clinical indication of febuxostat urate-lowering therapy. Association records indication rather than mechanism.",
+      "zh-TW": "痛風是 febuxostat 降尿酸治療的主要臨床適應症。關聯記錄適應症而非機制。"
+    },
+    "confidence": 0.72,
+    "source_document": "Febuxostat.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "b20decd995c8",
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "is_a_type_of",
+    "object": "Guanylhydrazone",
+    "context": {
+      "en-US": "Adrenochrome monoaminoguanidine is the concrete carbonyl plus aminoguanidine condensation embodiment of the class. Membership instantiates the reaction product.",
+      "zh-TW": "Adrenochrome monoaminoguanidine 是羰基加 aminoguanidine 縮合的具體體現。成員關係實例化反應產物。"
+    },
+    "confidence": 0.85,
+    "source_document": "Guanylhydrazone.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "41564446567e",
+    "subject": "Adrenochrome",
+    "predicate": "is_a_type_of",
+    "object": "Indoles",
+    "context": {
+      "en-US": "Adrenochrome carries the indoline-5,6-dione core of the indole classification. Core structure anchors the taxonomy.",
+      "zh-TW": "Adrenochrome 攜帶吲哚分類的 indoline-5,6-dione 核心。核心結構錨定分類。"
+    },
+    "confidence": 0.9,
+    "source_document": "Indoles.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "29db1eaaca3b",
+    "subject": "Aminoguanidine",
+    "predicate": "is_a_type_of",
+    "object": "Hydrazines",
+    "context": {
+      "en-US": "Aminoguanidine is the principal nitrogen-nitrogen bond derivative used for adrenochrome stabilization. Membership marks the hydrazine pharmacophore.",
+      "zh-TW": "Aminoguanidine 是用於 adrenochrome 穩定的主要氮氮鍵衍生物。成員關係標記肼藥效團。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hydrazines.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "b6726a935766",
+    "subject": "Aminoguanidine",
+    "predicate": "is_a_type_of",
+    "object": "Guanidines",
+    "context": {
+      "en-US": "Aminoguanidine is a formal guanidine family member carrying the guanidinium pharmacophore. Membership records the structural class.",
+      "zh-TW": "Aminoguanidine 是攜帶胍基藥效團的正式 guanidine 家族成員。成員關係記錄結構類別。"
+    },
+    "confidence": 0.92,
+    "source_document": "Guanidines.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "5dffbfebc31c",
+    "subject": "Aminoguanidine",
+    "predicate": "scavenges",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "The bifunctional hydrazine terminus of aminoguanidine scavenges dicarbonyl methylglyoxal. Scavenging intercepts the glycation intermediate.",
+      "zh-TW": "Aminoguanidine 的雙功能肼末端清除二羰基 methylglyoxal。清除攔截糖化中間體。"
+    },
+    "confidence": 0.8,
+    "source_document": "Guanidine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "b34abd2c0ff6",
+    "subject": "Aminoguanidine",
+    "predicate": "protects_against",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Aminoguanidine is an established anti-glycation agent limiting end-product accumulation. Protection records the therapeutic role.",
+      "zh-TW": "Aminoguanidine 是既定的抗糖化劑，限制終產物累積。保護記錄治療角色。"
+    },
+    "confidence": 0.78,
+    "source_document": "Guanidine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "9a01e52c225d",
+    "subject": "Aminoguanidine",
+    "predicate": "are_derived_from",
+    "object": "Guanidine",
+    "context": {
+      "en-US": "Aminoguanidine is a guanidine derivative by parent-to-derivative classification. Derivation records the chemical lineage.",
+      "zh-TW": "Aminoguanidine 依母體到衍生物歸類是 guanidine 衍生物。衍生記錄化學譜系。"
+    },
+    "confidence": 0.85,
+    "source_document": "Guanidine.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "02e11d634d4d",
+    "subject": "Silver",
+    "predicate": "causes",
+    "object": "Argyria",
+    "context": {
+      "en-US": "Oxidized silver reduced in vivo to elemental deposits produces permanent pigmentation of argyria. Deposition executes the discoloration phenotype.",
+      "zh-TW": "氧化的銀在體內還原為元素沉積，產生 argyria 的永久性色素沉著。沉積執行變色表型。"
+    },
+    "confidence": 0.85,
+    "source_document": "Silver.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "770cce7db74d",
+    "subject": "Ascorbic Acid",
+    "predicate": "reduces",
+    "object": "Silver",
+    "context": {
+      "en-US": "Ascorbate reduces oxidized silver to elemental metallic deposits in tissues. Reduction drives the precipitation chemistry.",
+      "zh-TW": "抗壞血酸在組織將氧化的銀還原為元素金屬沉積。還原驅動沉澱化學。"
+    },
+    "confidence": 0.75,
+    "source_document": "Silver.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "7fc1a63a0059",
+    "subject": "Silver compounds",
+    "predicate": "produces",
+    "object": "Silver ion",
+    "context": {
+      "en-US": "Bioactivity of silver compounds stems from released silver ion, the core antimicrobial and toxicity mechanism. Ion release mediates the effect.",
+      "zh-TW": "銀化合物的生物活性源自釋放的銀離子，是核心抗菌與毒性機制。離子釋放介導效應。"
+    },
+    "confidence": 0.82,
+    "source_document": "Silver compounds.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "15185f06ecc6",
+    "subject": "Silver compounds",
+    "predicate": "causes",
+    "object": "Argyria",
+    "context": {
+      "en-US": "Chronic silver compound exposure leads to systemic deposition and pigmentation of argyria. Exposure chronicity produces the phenotype.",
+      "zh-TW": "慢性銀化合物暴露導致全身沉積與 argyria 色素沉著。暴露慢性產生表型。"
+    },
+    "confidence": 0.75,
+    "source_document": "Silver compounds.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "d05b895c2a0c",
+    "subject": "Silver salts",
+    "predicate": "is_a_type_of",
+    "object": "Silver compounds",
+    "context": {
+      "en-US": "Silver salts are a definitional subtype of silver compounds. Classification nests the salt form.",
+      "zh-TW": "銀鹽是銀化合物的定義性亞型。歸類嵌套鹽形式。"
+    },
+    "confidence": 0.8,
+    "source_document": "Silver compounds.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "cae59038cb76",
+    "subject": "Silver nanoparticles",
+    "predicate": "is_a_type_of",
+    "object": "Silver compounds",
+    "context": {
+      "en-US": "Silver nanoparticles are a definitional nanoscale subtype of silver compounds. Classification nests the particulate form.",
+      "zh-TW": "銀奈米顆粒是銀化合物的定義性奈米亞型。歸類嵌套顆粒形式。"
+    },
+    "confidence": 0.8,
+    "source_document": "Silver compounds.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "6c1b20cf9ccc",
+    "subject": "Silver salts",
+    "predicate": "produces",
+    "object": "Silver sulfide albuminates",
+    "context": {
+      "en-US": "Insoluble silver salts transform into soluble protein-bound transport species, the gateway step of systemic handling. Transformation enables circulation.",
+      "zh-TW": "不溶性銀鹽轉化為可溶性蛋白結合運輸物種，是全身處理的門戶步驟。轉化促成循環。"
+    },
+    "confidence": 0.82,
+    "source_document": "Silver salts.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "f0ea16e9cc02",
+    "subject": "Silver ion",
+    "predicate": "inhibits",
+    "object": "Glutathione Peroxidase",
+    "context": {
+      "en-US": "Silver ion directly inhibits selenoenzyme sulfhydryl redox catalysis, impairing hydroperoxide detoxification. Inhibition collapses the peroxidase defense.",
+      "zh-TW": "銀離子直接抑制硒酶巰基氧化還原催化，損害氫過氧化物解毒。抑制瓦解過氧化物酶防禦。"
+    },
+    "confidence": 0.9,
+    "source_document": "Silver ion.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "f0be86fd392b",
+    "subject": "Silver ion",
+    "predicate": "inhibits",
+    "object": "Sodium Potassium ATPase",
+    "context": {
+      "en-US": "Silver ion directly inhibits the sodium potassium pump, disrupting ion homeostasis. Inhibition breaks cellular electrochemical gradients.",
+      "zh-TW": "銀離子直接抑制鈉鉀泵，破壞離子恆定。抑制打破細胞電化學梯度。"
+    },
+    "confidence": 0.85,
+    "source_document": "Silver ion.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "7725976c669f",
+    "subject": "Silver ion",
+    "predicate": "induces",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Silver ion induces oxidative stress via glutathione peroxidase blockade collapsing antioxidant defense. Blockade converts protection to injury.",
+      "zh-TW": "銀離子經由 glutathione peroxidase 阻斷瓦解抗氧化防禦，誘發 oxidative stress。阻斷將保護轉為損傷。"
+    },
+    "confidence": 0.8,
+    "source_document": "Silver ion.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "b3dcbcbb2d8f",
+    "subject": "Silver ion",
+    "predicate": "contributes_to",
+    "object": "Argyria",
+    "context": {
+      "en-US": "Chronic silver ion exposure feeds systemic deposition underlying argyria. Exposure chronicity builds the pigment load.",
+      "zh-TW": "慢性銀離子暴露供養 argyria 背後的全身沉積。暴露慢性累積色素負荷。"
+    },
+    "confidence": 0.72,
+    "source_document": "Silver ion.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "1f9338c23645",
+    "subject": "Silver sulfide albuminates",
+    "predicate": "contributes_to",
+    "object": "Argyria",
+    "context": {
+      "en-US": "Albumin-bound transport delivers silver to dermis and basement membranes where it precipitates. Delivery routes deposition to skin.",
+      "zh-TW": "白蛋白結合運輸將銀送至真皮與基底膜，在該處沉澱。運送將沉積導入皮膚。"
+    },
+    "confidence": 0.78,
+    "source_document": "Silver sulfide albuminates.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "897ad8b25f2b",
+    "subject": "Ascorbic Acid",
+    "predicate": "reduces",
+    "object": "Silver sulfide albuminates",
+    "context": {
+      "en-US": "Ascorbic acid reduces protein-bound silver to metallic deposits in transport. Reduction precipitates the carried load.",
+      "zh-TW": "抗壞血酸在運輸中將蛋白結合銀還原為金屬沉積。還原沉澱攜帶負荷。"
+    },
+    "confidence": 0.7,
+    "source_document": "Silver sulfide albuminates.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "a6c1f6505617",
+    "subject": "Silver nanoparticles",
+    "predicate": "produces",
+    "object": "Silver ion",
+    "context": {
+      "en-US": "Silver nanoparticles release silver ion sustainedly alongside direct respiratory complex interaction. Release maintains the toxic ion pool.",
+      "zh-TW": "銀奈米顆粒持續釋放銀離子，並直接作用呼吸複合體。釋放維持毒性離子池。"
+    },
+    "confidence": 0.8,
+    "source_document": "Silver nanoparticles.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "2e9308bdb65d",
+    "subject": "Silver nanoparticles",
+    "predicate": "damages",
+    "object": "Mitochondrial Electron Transport Chain",
+    "context": {
+      "en-US": "Silver nanoparticles disrupt respiratory complexes of the electron transport chain. Disruption breaks energy transduction.",
+      "zh-TW": "銀奈米顆粒破壞電子傳遞鏈的呼吸複合體。破壞中斷能量轉導。"
+    },
+    "confidence": 0.72,
+    "source_document": "Silver nanoparticles.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "4458118f5bf5",
+    "subject": "Silver nanoparticles",
+    "predicate": "induces",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Elevated reactive oxygen from respiratory disruption drives silver nanoparticle oxidative stress. Disruption converts respiration to injury.",
+      "zh-TW": "呼吸破壞產生的升高活性氧驅動銀奈米顆粒 oxidative stress。破壞將呼吸轉為損傷。"
+    },
+    "confidence": 0.75,
+    "source_document": "Silver nanoparticles.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "7a4fcfb1df5f",
+    "subject": "Silver nanoparticles",
+    "predicate": "inhibits",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Silver nanoparticles collapse ATP synthesis through oxidative phosphorylation blockade. Blockade starves cellular energetics.",
+      "zh-TW": "銀奈米顆粒經由 oxidative phosphorylation 阻斷瓦解 ATP 合成。阻斷餓死細胞能量。"
+    },
+    "confidence": 0.7,
+    "source_document": "Silver nanoparticles.md",
+    "created": "2026-09-04T18:34:06Z",
+    "updated": "2026-09-04T18:34:06Z"
+  },
+  {
+    "id": "4c9dc1c86fe7",
+    "subject": "NAD+",
+    "predicate": "activates",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "Mitochondrial NAD+ repletion supports SIRT3 deacetylase activity defending photoreceptors. Cofactor supply gates the sirtuin.",
+      "zh-TW": "粒線體 NAD+ 補充支持 SIRT3 去乙醯化酶活性，保衛感光細胞。輔因子供應守衛 sirtuin。"
+    },
+    "confidence": 0.8,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "9ecb8aca2c2b",
+    "subject": "Retinal Photoreceptors",
+    "predicate": "contains",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Photoreceptors pack mitochondria densely to power phototransduction. Containment records the organelle-rich anatomy.",
+      "zh-TW": "感光細胞密集填充粒線體以驅動光轉導。包含記錄富胞器的解剖。"
+    },
+    "confidence": 0.8,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "3b1af1d13c97",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "converts_to",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Nicotinamide riboside restores mitochondrial NAD+ through salvage synthesis. Precursor conversion parallels the L-DOPA to dopamine precedent.",
+      "zh-TW": "Nicotinamide riboside 經由挽救合成恢復粒線體 NAD+。前體轉化呼應 L-DOPA 到多巴胺的先例。"
+    },
+    "confidence": 0.75,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "dd1146cd8cec",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "SIRT3-driven mitochondrial ROS detoxification defends against oxidative stress. Deacetylase support parallels the ascorbic acid precedent.",
+      "zh-TW": "SIRT3 驅動的粒線體 ROS 解毒防禦 oxidative stress。去乙醯化酶支持呼應抗壞血酸先例。"
+    },
+    "confidence": 0.72,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "5ad5d0c9dba9",
+    "subject": "Retinal Photoreceptors",
+    "predicate": "associated_with",
+    "object": "Diabetic Retinopathy",
+    "context": {
+      "en-US": "Diabetic retinopathy degeneration is linked to retinal NAD+ loss. Association records the metabolic retinopathy connection.",
+      "zh-TW": "糖尿病視網膜病變退化與視網膜 NAD+ 缺失相關。關聯記錄代謝性視網膜病變連結。"
+    },
+    "confidence": 0.7,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "f3666da7b8ba",
+    "subject": "Retinal Photoreceptors",
+    "predicate": "regulated_by",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "SIRT3 governs photoreceptor ATP and ROS homeostasis as the core review finding. Regulation is the metabolic control relationship.",
+      "zh-TW": "SIRT3 作為核心回顧發現掌管感光細胞 ATP 與 ROS 恆定。調節是代謝控制關係。"
+    },
+    "confidence": 0.7,
+    "source_document": "Retinal Photoreceptors.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "4759be579657",
+    "subject": "SIRT3",
+    "predicate": "suppresses",
+    "object": "Glutathione S-transferase π1",
+    "context": {
+      "en-US": "SIRT3 downregulates GSTP1 messenger RNA and protein, reducing chemotherapeutic detoxification capacity and enhancing sorafenib sensitivity in hepatocellular carcinoma. Suppression is the upstream regulatory act.",
+      "zh-TW": "SIRT3 下調 GSTP1 信使 RNA 與蛋白，降低化療解毒能力，在肝細胞癌增強 sorafenib 敏感性。抑制是上游調節作用。"
+    },
+    "confidence": 0.88,
+    "source_document": "Glutathione S-transferase π1.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "736697262f03",
+    "subject": "Glutathione S-transferase π1",
+    "predicate": "contributes_to",
+    "object": "Drug Resistance",
+    "context": {
+      "en-US": "GSTP1 overexpression in tumors detoxifies anticancer drugs, contributing to clinical drug resistance. Detoxification executes the resistant phenotype.",
+      "zh-TW": "腫瘤 GSTP1 過度表現解毒抗癌藥，促成臨床藥物抗性。解毒執行抗性表型。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glutathione S-transferase π1.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
+  },
+  {
+    "id": "0ba2c260ff1a",
+    "subject": "Glutathione S-transferase π1",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "GSTP1 protects cells against oxidative stress and electrophile damage beyond oncology, connecting the enzyme to redox defense. Protection extends the detoxification role.",
+      "zh-TW": "GSTP1 在腫瘤學之外保護細胞免於 oxidative stress 與親電子損傷，將酶與氧化還原防禦連結。保護延伸解毒角色。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glutathione S-transferase π1.md",
+    "created": "2026-09-04T18:36:16Z",
+    "updated": "2026-09-04T18:36:16Z"
   }
 ]

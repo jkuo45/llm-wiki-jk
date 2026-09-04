@@ -1148,20 +1148,6 @@
     "updated": "2026-08-20T05:03:16Z"
   },
   {
-    "id": "ff9f03cd6e8c",
-    "subject": "Apigenin",
-    "predicate": "is_a_type_of",
-    "object": "Flavones",
-    "context": {
-      "en-US": "Apigenin (4',5,7-trihydroxyflavone) is a major plant flavone belonging to the flavonoid subclass flavones within the polyphenols. It is a yellow crystalline powder with the molecular formula C15H10O5 and a molecular weight of 270.24 Da, bearing hydroxyl groups at C-5 and C-7 of the A-ring and C-4' of the B-ring. Structurally it is related to biapigenin and naturally occurs as apigenin-7-O-glucoside and acylated derivatives. Its classification as a flavone underpins its shared antioxidant and anti-inflammatory pharmacology with other plant polyphenols such as quercetin and kaempferol.",
-      "zh-TW": "阿皮ゲ寧 (4',5,7-三羟基黄酮) 是一種主要植物黃酮類，屬於黃酮類群內的一種黃酮，屬於多酚類。它是一種黃色結晶粉末，分子式為 C15H10O5，分子量為 270.24 Da，在 A 環的 C-5 和 C-7 位以及 B 環的 C-4' 位帶有羟基。結構上與 البيبيجين (biapigenin) 相關，並自然存在於阿皮ゲ寧-7-O-葡萄糖苷和酰基衍生物中。它作為一種黃酮的分類，使其與如槲皮苷 (quercetin) 和  quercetin 苷等其他植物多酚類共享的抗氧化和抗炎藥理作用相符。"
-    },
-    "confidence": 0.97,
-    "source_document": "_document_ - Plant flavone apigenin An emerging anticancer agent.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:03:16Z"
-  },
-  {
     "id": "936eecc682f5",
     "subject": "Apigenin",
     "predicate": "alleviates",
@@ -2212,20 +2198,6 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "1ed3dc544abb",
-    "subject": "CD94",
-    "predicate": "partners_with",
-    "object": "PD-1",
-    "context": {
-      "en-US": "CD94 is the invariant signaling partner of NKG2A, forming an inhibitory receptor that recognizes HLA-E on target cells. It operates in parallel with PD-1 as an immune-checkpoint axis that senescent and tumor cells exploit to blunt cytotoxic responses, and both are therapeutic targets.",
-      "zh-TW": "CD94 是 NKG2A 的不變訊號夥伴，形成辨識目標細胞 HLA-E 的抑制性受體。它與 PD-1 並行運作，作為衰老細胞與腫瘤細胞用以削弱細胞毒性反應的免疫檢查點軸，且兩者皆為治療標靶。"
-    },
-    "confidence": 0.8,
-    "source_document": "CD94.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "fbe1954e6ae4",
     "subject": "Cellular Senescence",
     "predicate": "promotes",
@@ -2656,20 +2628,6 @@
     },
     "confidence": 0.95,
     "source_document": "_document_ - creatine anti-cancer trace.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:44:23Z"
-  },
-  {
-    "id": "fcdb3b59c858",
-    "subject": "Creatine",
-    "predicate": "suppresses",
-    "object": "Cancer",
-    "context": {
-      "en-US": "Creatine and its related compound cyclocreatine have documented anticancer properties. Creatine is an important energy source for immune cells and supports CD8 T cell antitumor immunity, since creatine uptake via the SLC6A8 transporter regulates CD8 T cell function and creatine levels are low in malignant cells and antitumor T cells. Creatine also augments the efficacy of the anticancer medication methylglyoxal, with combined creatine, methylglyoxal, and ascorbic acid eliminating visible signs of tumor growth in experimental models. Evidence is emerging rather than definitive in humans, and creatine is being studied as an adjunct in cancer cachexia and treatment contexts.",
-      "zh-TW": "肌酸及其相關化合物環肌酸具有文獻記載的抗癌特性。肌酸是免疫細胞的重要能量來源，並支持 CD8 T 細胞的抗腫瘤免疫，因為經由 SLC6A8 轉運蛋白的肌酸攝取會調節 CD8 T 細胞功能，且惡性細胞與抗腫瘤 T 細胞中的肌酸濃度偏低。肌酸也能增強抗癌藥物甲基乙二醛的療效，在實驗模型中，肌酸、甲基乙二醛與抗壞血酸合併使用可消除可見的腫瘤生長跡象。在人體中的證據仍屬新興而非定論，肌酸正被研究作為癌症惡病質與治療情境中的輔助措施。"
-    },
-    "confidence": 0.65,
-    "source_document": "_document_ - Creatine in Health and Disease.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T05:44:23Z"
   },
@@ -3360,20 +3318,6 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "2f9220682767",
-    "subject": "DNA",
-    "predicate": "modulates",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Parkinson's disease risk is shaped by DNA variants in SNCA, LRRK2, PARKIN, PINK1, and GBA1. Accumulated DNA damage in aging dopaminergic neurons, coupled with diminished repair, contributes to the selective death of pigmented neurons in PD.",
-      "zh-TW": "帕金森氏症風險受 SNCA、LRRK2、PARKIN、PINK1 與 GBA1 的 DNA 變異影響。衰老多巴胺神經元中累積的 DNA 損傷加上修復能力下降，促成 PD 中色素神經元的選擇性死亡。"
-    },
-    "confidence": 0.8,
-    "source_document": "DNA.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
-  },
-  {
     "id": "ddbedcb17acf",
     "subject": "DNA Helicase",
     "predicate": "is_inhibited_by",
@@ -3470,20 +3414,6 @@
     "source_document": "dNTP.md",
     "created": "2026-09-02T06:31:39Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "bd3df36c6cda",
-    "subject": "Dopamine",
-    "predicate": "is_synthesized_by",
-    "object": "Parkinson's Disease",
-    "context": {
-      "en-US": "Tyrosine hydroxylase (TH) is the rate-limiting enzyme in catecholamine biosynthesis, converting tyrosine to L-DOPA. Loss of dopaminergic transmission from TH-positive neurons causes the motor syndrome of Parkinson's disease, and TH serves as a marker of vulnerable dopaminergic neurons.",
-      "zh-TW": "酪氨酸羥化酶（TH）是兒茶酚胺生合成的限速酶，將酪氨酸轉化為 L-DOPA。TH 陽性神經元的多巴胺能傳遞喪失造成帕金森氏症的運動症候群，TH 作為易受傷害多巴胺神經元的標記。"
-    },
-    "confidence": 0.8,
-    "source_document": "Tyrosine Hydroxylase.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
   },
   {
     "id": "2bd4a9876fc5",
@@ -3960,34 +3890,6 @@
     "source_document": "5-Fluorouracil.md",
     "created": "2026-09-02T06:56:57Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "aefa0863ce13",
-    "subject": "Fenbendazole",
-    "predicate": "inhibits",
-    "object": "Glioblastoma",
-    "context": {
-      "en-US": "Fenbendazole shows preclinical anti-glioblastoma activity via microtubule and metabolic disruption.",
-      "zh-TW": "Fenbendazole 通過微管和代謝破壞顯示臨床前抗膠質母細胞瘤活性。"
-    },
-    "confidence": 0.65,
-    "source_document": "glioblastoma.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:19:41Z"
-  },
-  {
-    "id": "2cf896393eac",
-    "subject": "Fenbendazole",
-    "predicate": "inhibits",
-    "object": "Renal Cell Carcinoma",
-    "context": {
-      "en-US": "Fenbendazole shows preclinical anticancer activity in RCC models.",
-      "zh-TW": "Fenbendazole 在 RCC 模型中顯示臨床前抗癌活性。"
-    },
-    "confidence": 0.65,
-    "source_document": "Renal Cell Carcinoma.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:19:41Z"
   },
   {
     "id": "22f7acd939b5",
@@ -4508,20 +4410,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "3edc7819e17d",
-    "subject": "FSP1",
-    "predicate": "tethered_to",
-    "object": "Plasma Membrane",
-    "context": {
-      "en-US": "N-myristoylation of FSP1 tethers the enzyme to the inner leaflet of the plasma membrane, positioning its ubiquinone-reductase activity exactly where phospholipid peroxidation is initiated and propagated — essential for its ferroptosis-suppressive function.",
-      "zh-TW": "FSP1 的 N-肉豆蔻酰化將酵素繫留於質膜內葉，使其泛醌還原酶活性精確定位在磷脂過氧化起始與傳播之處——對其抑制鐵死亡的功能不可或缺。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-    "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "cb286b9db4b7",
     "subject": "FSP1",
     "predicate": "is_activated_by",
@@ -4604,20 +4492,6 @@
     "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "e0e5022b608e",
-    "subject": "GCN2",
-    "predicate": "is_activated_by",
-    "object": "Tryptophan",
-    "context": {
-      "en-US": "Tryptophan depletion caused by IDO1 activity activates the GCN2 stress kinase, which leads to cell cycle arrest, anergy, or apoptosis in effector T cells, since tryptophan is essential for T cell proliferation. This amino-acid starvation response is one of the two main mechanisms of IDO1-mediated immunosuppression, the other being kynurenine/aryl hydrocarbon receptor signaling that promotes regulatory T cells. Together these pathways create an immunosuppressive microenvironment exploited by tumors, and this biology is the rationale for IDO1 inhibitors in immuno-oncology: blocking tryptophan catabolism is intended to relieve GCN2-driven T cell suppression and restore antitumor immunity.",
-      "zh-TW": "IDO1活性引起的色胺酸耗竭會活化GCN2壓力激酶，導致效應T細胞的細胞週期停滯、無反應性（anergy）或凋亡，因為色胺酸對T細胞增殖不可或缺。此胺基酸飢餓反應是IDO1介導免疫抑制的兩大主要機制之一，另一機制是促進調節性T細胞的犬尿胺酸/芳香烴受體（aryl hydrocarbon receptor）訊號。這些途徑共同形成腫瘤所利用的免疫抑制微環境，而此生物學正是免疫腫瘤學中IDO1抑制劑的學理依據：阻斷色胺酸分解代謝旨在解除GCN2驅動的T細胞抑制，並恢復抗腫瘤免疫。"
-    },
-    "confidence": 0.9,
-    "source_document": "_document_ - IDO01, NAD+, KP Pathway, grok.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:46:48Z"
   },
   {
     "id": "f9c9e0bc1928",
@@ -6314,20 +6188,6 @@
     "updated": "2026-08-20T05:49:31Z"
   },
   {
-    "id": "aac4962ee7e3",
-    "subject": "Humanin",
-    "predicate": "is_a",
-    "object": "Retrograde Signaling",
-    "context": {
-      "en-US": "Mitochondria communicate back to the cell through processes collectively referred to as retrograde signaling, and traditionally described means include Ca2+, cytochrome c, and ROS. Mitochondrial-derived peptides such as humanin are recently identified retrograde signals that are unique in that they are encoded within the mitochondrial genome sequences, unlike other retrograde molecules which are nuclear-encoded. Humanin functions as both an endocrine factor and an intracellular survival factor with several biological roles regulating cell survival and metabolism, and retrograde signaling is a biological process well conserved from simple yeast to humans.",
-      "zh-TW": "粒線體透過統稱為逆向訊號（retrograde signaling）的過程與細胞溝通，傳統上已知的媒介包括 Ca2+、細胞色素 c 與 ROS。粒線體衍生胜肽（如 humanin）是近期發現的逆向訊號，其獨特之處在於編碼於粒線體基因組序列內，不像其他逆向訊號分子由核基因組編碼。Humanin 同時作為內分泌因子與胞內存活因子，具有多種調節細胞存活與代謝的生物功能，而逆向訊號是從簡單酵母到人類皆高度保守的生物過程。"
-    },
-    "confidence": 0.94,
-    "source_document": "_document_ - Humanin a harbinger of mitochondrial-derived peptides?.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:49:31Z"
-  },
-  {
     "id": "91da65d9277a",
     "subject": "Humanin",
     "predicate": "activates",
@@ -7056,20 +6916,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "da93f165e210",
-    "subject": "Leukemia inhibitory factor",
-    "predicate": "is_required_by",
-    "object": "DGCR8",
-    "context": {
-      "en-US": "Leukemia inhibitory factor (LIF) maintains embryonic stem cell pluripotency, and in differentiation assays it is withheld to permit lineage commitment. DGCR8-deficient ES cells failed to differentiate even without LIF, showing microRNAs are required to exit the self-renewal program.",
-      "zh-TW": "白血病抑制因子（LIF）維持胚胎幹細胞多能性，在分化分析中會被移除以允許譜系定向。缺乏 DGCR8 的 ES 細胞即使在無 LIF 情況下也無法分化，顯示 microRNA 為退出自我更新程式所需。"
-    },
-    "confidence": 0.8,
-    "source_document": "Leukemia inhibitory factor.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
-  },
-  {
     "id": "f28cdb668ea3",
     "subject": "Leukopenia",
     "predicate": "associates_with",
@@ -7348,20 +7194,6 @@
     "source_document": "_document_ - The role of mitochondrial dynamics in disease.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "874f450e5cd1",
-    "subject": "Mebendazole",
-    "predicate": "inhibits",
-    "object": "Renal Cell Carcinoma",
-    "context": {
-      "en-US": "Mebendazole shows preclinical antitumor activity in RCC via microtubule disruption.",
-      "zh-TW": "Mebendazole 通過微管破壞在 RCC 中顯示臨床前抗腫瘤活性。"
-    },
-    "confidence": 0.65,
-    "source_document": "Renal Cell Carcinoma.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:19:41Z"
   },
   {
     "id": "75ce9e2f3c5c",
@@ -8120,20 +7952,6 @@
     "updated": "2026-08-20T05:56:24Z"
   },
   {
-    "id": "2a549f05ed15",
-    "subject": "Methylene blue",
-    "predicate": "triggers",
-    "object": "Serotonin Syndrome",
-    "context": {
-      "en-US": "Combining methylene blue with serotonergic medications can potentially trigger serotonin syndrome, the most serious safety concern associated with the compound. Because methylene blue is a monoamine oxidase inhibitor, stacking it with SSRIs, SNRIs, tricyclic antidepressants, or other serotonergic drugs can increase serotonin to dangerous levels. This is a documented, case-report-level interaction, not a theoretical risk - if a person is on antidepressants, a physician must be involved before taking even a single milligram of methylene blue. The risk rises significantly at higher doses (above 7-10 mg) and with any concurrent serotonergic medication, making serotonin interaction screening an essential part of any protocol.",
-      "zh-TW": "將亞甲基藍與血清素能藥物結合可能引發血清素症候群，這是與該化合物相關的最嚴重安全問題。由於亞甲基藍是單胺氧化酶抑制劑，與 SSRI、SNRI、三環類抗抑鬱藥或其他血清素能藥物疊加可能將血清素提升至危險水平。這是 documented、case-report 級別的交互作用，而非理論風險——如果一個人正在服用抗抑鬱藥，醫師必須參與後才能服用 even a single milligram 的亞甲基藍。風險在 higher doses（7-10 mg 以上）和任何 concurrent 血清素能藥物時顯著上升，使得血清素交互作用篩查成為任何方案的 essential 部分。"
-    },
-    "confidence": 0.9,
-    "source_document": "_document_ - Methylene Blue Dosage What Actually Works (And What's Too Much).md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:00:59Z"
-  },
-  {
     "id": "b2c4ceb7daac",
     "subject": "Methylene blue",
     "predicate": "inhibits",
@@ -8160,20 +7978,6 @@
     "source_document": "_document_ - Neuroprotective Actions of Methylene Blue and Its Derivatives.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T05:56:24Z"
-  },
-  {
-    "id": "a8211087269d",
-    "subject": "Methylene blue",
-    "predicate": "reduces",
-    "object": "Tau",
-    "context": {
-      "en-US": "Methylene blue has documented effects on tau protein aggregation, the kind of buildup linked to Alzheimer's disease. These tau-modifying effects derive primarily from cell studies and are mechanistically interesting but do not constitute clinical evidence - the article emphasizes that a cell study is not a clinical trial, and there are no solid human data supporting long-term cognitive protection or Alzheimer's prevention in healthy adults. While tau aggregation data are promising, this remains an area where the internet's claims outpace the evidence base, and the human translation is unproven. This illustrates the general caution that most mechanistic methylene blue evidence comes from cell cultures and rodents.",
-      "zh-TW": "亞甲基藍對 tau 蛋白聚集有 documented 影響，這種積累與阿爾茨海默病相關。這些 tau 修改效果主要來自細胞研究，機制上有趣但不構成臨床證據——文章強調細胞研究不是臨床試驗，沒有堅實的人類數據支持長期認知保護或健康成人的阿爾茨海默病預防。雖然 tau 聚集數據有希望，但這仍是一個網路聲稱超過證據基礎的領域，人類轉化尚未證實。這說明了大多數機制性亞甲基藍證據來自細胞培養和囓齒動物的普遍 caution。"
-    },
-    "confidence": 0.6,
-    "source_document": "_document_ - Methylene Blue Dosage What Actually Works (And What's Too Much).md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:00:59Z"
   },
   {
     "id": "c5006f937081",
@@ -8216,20 +8020,6 @@
     "source_document": "_document_ - The role of mitochondrial dynamics in disease.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "37583bbde700",
-    "subject": "MFN2",
-    "predicate": "causes",
-    "object": "Charcot-Marie-Tooth Disease Type 2A",
-    "context": {
-      "en-US": "Mutations in MFN2 cause Charcot-Marie-Tooth disease type 2A (CMT2A), the most common form of axonal Charcot-Marie-Tooth neuropathy. CMT2A is characterized by progressive distal muscle weakness and atrophy, reduced deep tendon reflexes, and variable sensory loss, and some cases present with pyramidal tract signs or optic atrophy. The disease arises because impaired MFN2-dependent mitochondrial fusion disrupts axonal transport of mitochondria, leaving peripheral nerve axons, which are long and energetically demanding, without adequate mitochondrial delivery and function. This example illustrates how defects in a single component of the fusion machinery translate into specific human pathology.",
-      "zh-TW": "MFN2 的突變導致 Charcot-Marie-Tooth 病 type 2A (CMT2A)，這是最常見的 axonal Charcot-Marie-Tooth 神經病變形式。CMT2A 以進行性 distal 肌肉無力和萎縮、深部肌腱反射減弱和可變感覺喪失為特徵，某些病例呈現 pyramidal tract signs 或 optic atrophy。疾病源於 impaired MFN2-dependent mitochondrial fusion 干擾 axonal transport of mitochondria，使得 peripheral nerve axons（長且能量需求高）缺乏 adequate mitochondrial delivery 和功能。此例說明 fusion machinery 中單一組分的缺陷如何轉化為特定人類病理。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:00:59Z"
   },
   {
     "id": "aaa933466876",
@@ -8577,20 +8367,6 @@
       "zh-TW": "Mitochondrial dysfunction is an upstream driver of stem cell exhaustion across aging tissues。mtDNA mutations impair respiration and reshape metabolite availability，reprogramming epigenetic states that govern quiescence, lineage commitment, and regenerative output。Erosion of mitochondrial quality control (fission-fusion balance, mitophagy, UPRmt) permits persistence of ROS-producing organelles and lowers containment of mitochondrial danger signals。In aged muscle stem cells, neural stem cells, and melanocyte stem cells, NAD+ depletion leads to senescence, loss of quiescence, and diminished regenerative capacity。"
     },
     "confidence": 0.92,
-    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "edddf88e9956",
-    "subject": "Mitochondrial Dysfunction-Associated Senescence",
-    "predicate": "is_triggered_by",
-    "object": "NAD+",
-    "context": {
-      "en-US": "A reduced NAD+/NADH ratio triggers mitochondrial dysfunction-associated senescence (MiDAS) via AMPK-p53 signaling, coupled to a distinct secretory phenotype with an attenuated IL-1-dependent inflammatory arm of the SASP. MiDAS represents the specific senescence program in which NAD+ depletion and redox collapse, rather than DNA damage, enforce the senescence state. In aged muscle stem cells, neural stem cells and melanocyte stem cells, this NAD+-driven senescence causes loss of quiescence and diminished regenerative capacity.",
-      "zh-TW": "A reduced NAD+/NADH ratio triggers mitochondrial dysfunction-associated senescence (MiDAS) via AMPK-p53 signaling，coupled to a distinct secretory phenotype with an attenuated IL-1-dependent inflammatory arm of the SASP。MiDAS represents the specific senescence program in which NAD+ depletion and redox collapse, rather than DNA damage, enforce the senescence state。In aged muscle stem cells, neural stem cells and melanocyte stem cells, this NAD+-driven senescence causes loss of quiescence and diminished regenerative capacity。"
-    },
-    "confidence": 0.89,
     "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-09-02T07:19:21Z"
@@ -9954,20 +9730,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "d30b46137ee2",
-    "subject": "NKG2A",
-    "predicate": "partners_with",
-    "object": "PD-1",
-    "context": {
-      "en-US": "NKG2A is an inhibitory receptor expressed as a heterodimer with CD94 that recognizes HLA-E on target cells. It operates in parallel with PD-1 as a checkpoint axis that tumors and senescent cells exploit to blunt cytotoxic responses.",
-      "zh-TW": "NKG2A 是與 CD94 形成異源二聚體表現的抑制性受體，辨識目標細胞的 HLA-E。它與 PD-1 並行運作，作為腫瘤與衰老細胞用以削弱細胞毒性反應的檢查點軸。"
-    },
-    "confidence": 0.8,
-    "source_document": "NKG2A.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "ad5d8579b3ba",
     "subject": "NLRP3",
     "predicate": "is_primed_by",
@@ -9980,20 +9742,6 @@
     "source_document": "_document_ - Mitohormesis - 2014_FEB.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T06:07:10Z"
-  },
-  {
-    "id": "93eaeef21c2a",
-    "subject": "NMN",
-    "predicate": "is_precursor_to",
-    "object": "NAD+",
-    "context": {
-      "en-US": "Nicotinamide riboside is a vitamin B3 form and direct precursor to NAD+; it is phosphorylated to form NMN, which is then adenylylated by NMNAT to produce NAD+. NR and NMN thus lie on the NAD+ biosynthesis pathway.",
-      "zh-TW": "菸鹼醯胺核糖苷是維生素 B3 形式，是 NAD+ 的直接前驅物；它被磷酸化形成 NMN，再由 NMNAT 腺苷化產生 NAD+。因此 NR 與 NMN 位於 NAD+ 生合成途徑上。"
-    },
-    "confidence": 0.9,
-    "source_document": "Nicotinamide Riboside.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
   },
   {
     "id": "d52bdcf6d76c",
@@ -10048,20 +9796,6 @@
     },
     "confidence": 0.94,
     "source_document": "_document_ - Mitohormesis - 2023_NOV.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:07:10Z"
-  },
-  {
-    "id": "5a202d4b36ef",
-    "subject": "OPA1",
-    "predicate": "causes",
-    "object": "Dominant Optic Atrophy",
-    "context": {
-      "en-US": "Mutations in OPA1 cause dominant optic atrophy (DOA), the most common inherited optic neuropathy, characterized by progressive bilateral loss of visual acuity, central visual field defects, and optic disc pallor resulting from degeneration of retinal ganglion cells. OPA1 dysfunction impairs inner mitochondrial membrane fusion, disturbs cristae architecture, and reduces mitochondrial bioenergetic capacity, rendering the high-energy-demand retinal ganglion cells particularly vulnerable. Some OPA1 mutations additionally produce syndromic phenotypes including deafness, ataxia, and myopathy. The clinical spectrum of DOA highlights the essential, non-redundant role of OPA1 in maintaining mitochondrial function in post-mitotic neurons.",
-      "zh-TW": "OPA1突變導致顯性視神經萎縮（DOA），這是最常見的遺傳性視神經病變，其特徵為進行性雙側視力下降、 central 視野缺損和視盤蒼白，由視網膜神經節細胞退化引起。OPA1功能障礙損害內粒線體膜融合，擾亂嵴結構，並降低粒線體生物能量能力，使高能量需求的視網膜神經節細胞特別脆弱。一些OPA1突變還會產生綜合徵表型，包括耳聾、共濟失調和肌病。DOA的臨床譜突出了OPA1在維持有絲分裂後神經元粒線體功能中的 essential、非冗餘作用。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T06:07:10Z"
   },
@@ -10272,20 +10006,6 @@
     },
     "confidence": 0.8,
     "source_document": "Pazopanib.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "7f7a8f280b68",
-    "subject": "PD-1",
-    "predicate": "binds",
-    "object": "HLA-E",
-    "context": {
-      "en-US": "PD-1 is an inhibitory receptor that, when engaged by its ligands, suppresses T-cell cytotoxicity and is a target of checkpoint inhibitors. In the immune-evasion axis, HLA-E engages the parallel CD94/NKG2A receptor, and both PD-1 and NKG2A pathways blunt killer-cell function against senescent and tumor cells.",
-      "zh-TW": "PD-1 是抑制性受體，被其配體接合時會抑制 T 細胞細胞毒性，是檢查點抑制劑的標靶。在免疫逃逸軸中，HLA-E 接合平行的 CD94/NKG2A 受體，PD-1 與 NKG2A 途徑皆削弱殺手細胞對衰老與腫瘤細胞的功能。"
-    },
-    "confidence": 0.8,
-    "source_document": "PD-1.md",
     "created": "2026-09-02T06:56:57Z",
     "updated": "2026-09-02T07:19:21Z"
   },
@@ -11858,20 +11578,6 @@
     "updated": "2026-08-20T06:14:36Z"
   },
   {
-    "id": "756a04d93e73",
-    "subject": "Retinoic Acid",
-    "predicate": "is_processed_by",
-    "object": "DGCR8",
-    "context": {
-      "en-US": "Retinoic acid is a potent inducer of cellular differentiation applied to embryonic stem cells to drive lineage commitment. DGCR8-deficient ES cells treated with retinoic acid still failed to fully silence pluripotency markers, demonstrating microRNA loss blocks differentiation even under strong inductive pressure.",
-      "zh-TW": "視黃酸是強效的細胞分化誘導劑，應用於胚胎幹細胞以驅動譜系定向。以視黃酸處理的 DGCR8 缺乏 ES 細胞仍無法完全靜默多能性標記，顯示即使有強誘導壓力，microRNA 喪失仍會阻斷分化。"
-    },
-    "confidence": 0.8,
-    "source_document": "Retinoic Acid.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
-  },
-  {
     "id": "4f66ae859328",
     "subject": "Retrotransposon",
     "predicate": "is_repressed_by",
@@ -12374,34 +12080,6 @@
     "source_document": "Salicylic acid.md",
     "created": "2026-09-02T06:56:57Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "31e70e1d32b6",
-    "subject": "SAMe",
-    "predicate": "feeds",
-    "object": "MTHFR",
-    "context": {
-      "en-US": "The methylation cycle transfers methyl groups for DNA methylation and neurotransmitter synthesis, with central metabolites including SAMe and folate. The cycle is regulated by enzymes such as MTHFR, and dysregulation is linked to cardiovascular disease, neurodegeneration, and aging.",
-      "zh-TW": "甲基化循環為 DNA 甲基化與神經傳導物質合成轉移甲基，中心代謝物包括 SAMe 與葉酸。循環由 MTHFR 等酶調控，其失調與心血管疾病、神經退化及衰老相關。"
-    },
-    "confidence": 0.8,
-    "source_document": "Methylation Cycle.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
-  },
-  {
-    "id": "24fb52a25603",
-    "subject": "SARM1",
-    "predicate": "drives",
-    "object": "CD38",
-    "context": {
-      "en-US": "SARM1 and CD38 are the two principal NAD+ glycohydrolases that share substrate and products but are pharmacologically separable. In axon degeneration, SARM1-mediated NAD+ depletion is the executioner, while CD38 acts as a parallel NAD+-consuming enzyme modulating the same metabolic pool.",
-      "zh-TW": "SARM1 與 CD38 是兩種主要的 NAD+ 水解酶，共享受質與產物，但可被藥理學區分。在軸突退化中，SARM1 介導的 NAD+ 耗竭是執行者，而 CD38 作為平行的 NAD+ 消耗酶調控同一代謝池。"
-    },
-    "confidence": 0.8,
-    "source_document": "Axon Degeneration.md",
-    "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
   },
   {
     "id": "905192f3bbd4",
@@ -15132,5 +14810,1111 @@
     "source_document": "NAD+.md",
     "created": "2026-09-02T06:00:00Z",
     "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "dfdda53fb3db",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "causes",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "Aerobic metabolism generates roughly 1e5 oxidative lesions per cell per day, making ROS the dominant endogenous source of DNA damage via 8-oxo-dG and strand breaks. This causation grounds the oxidative-stress arm of genotoxic stress.",
+      "zh-TW": "有氧代謝每天每細胞產生約十萬個氧化損傷，使 ROS 經由 8-oxo-dG 與股斷裂成為 DNA 損傷的主要內源來源。此因果奠定基因毒性壓力的氧化分支。"
+    },
+    "confidence": 0.92,
+    "source_document": "DNA Damage.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6c52e3a573e6",
+    "subject": "DNA Damage",
+    "predicate": "activates",
+    "object": "p53",
+    "context": {
+      "en-US": "ATM/ATR-CHK signaling stabilizes p53 as the canonical effector of the DNA damage response, enforcing arrest, repair or apoptosis. This activation is the central transducer of damage into fate decisions.",
+      "zh-TW": "ATM/ATR-CHK 訊號穩定 p53 作為 DNA 損傷反應的典型效應器，執行停滯、修復或凋亡。此活化是損傷轉為命運決定的中央傳導器。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Damage.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c9de1233565c",
+    "subject": "DNA Damage",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Persistent unrepaired damage sustains DDR signaling that locks cells into senescent arrest. Induction separates transient checkpoint delay from durable senescence.",
+      "zh-TW": "持續未修復的損傷維持 DDR 訊號，將細胞鎖入衰老停滯。誘發將短暫檢查點延遲與持久衰老分開。"
+    },
+    "confidence": 0.88,
+    "source_document": "DNA Damage.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "96ea8e380366",
+    "subject": "DNA Damage Response",
+    "predicate": "activates",
+    "object": "p53",
+    "context": {
+      "en-US": "The DDR activates p53 as its central mediator of arrest and apoptosis downstream of ATM/ATR. This mediation routes damage sensing into transcriptional fate programs.",
+      "zh-TW": "DDR 在 ATM/ATR 下游活化 p53 作為停滯與凋亡的中央媒介。此媒介將損傷感知導入轉錄命運程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Damage Response.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "cc04df81a7ec",
+    "subject": "DNA Damage Response",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "DDR signaling is required to initiate SASP transcription alongside cGAS-STING sensing. Promotion places damage signaling upstream of the secretory program.",
+      "zh-TW": "DDR 訊號與 cGAS-STING 感知並列，為啟動 SASP 轉錄所需。促進將損傷訊號置於分泌程序上游。"
+    },
+    "confidence": 0.82,
+    "source_document": "DNA Damage Response.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "2fe6e3ac85f6",
+    "subject": "Genotoxic Stress",
+    "predicate": "causes",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "Genotoxic insults directly produce DNA lesions as their defining consequence. Causation is definitional for the stress class.",
+      "zh-TW": "基因毒性傷害直接產生 DNA 病變作為其定義性後果。因果對此壓力類別是定義性的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Genotoxic Stress.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d77b59d13aa9",
+    "subject": "Genotoxic Stress",
+    "predicate": "activates",
+    "object": "DNA Damage Response",
+    "context": {
+      "en-US": "The DDR orchestrates the cellular reply to genotoxic insult. Activation is the sensing-to-response coupling.",
+      "zh-TW": "DDR 統籌細胞對基因毒性傷害的回應。活化是感知到反應的耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Genotoxic Stress.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "f73299d6ab59",
+    "subject": "Genotoxic Stress",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Genotoxic stress is a primary inducer committing damaged cells to senescent arrest. Induction covers replicative, oncogene and therapy-induced routes.",
+      "zh-TW": "基因毒性壓力是使受損細胞走向衰老停滯的主要誘發因子。誘發涵蓋複製、致癌基因與治療誘發路徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "Genotoxic Stress.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "35a087658f3d",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "STING-TBK1-IKK signaling activates NF-kB as the canonical second output arm alongside IRF3. This activation drives SASP cytokine transcription.",
+      "zh-TW": "STING-TBK1-IKK 訊號活化 NF-κB 作為與 IRF3 並列的典型第二輸出臂。此活化驅動 SASP 細胞激素轉錄。"
+    },
+    "confidence": 0.92,
+    "source_document": "cGAS-STING Pathway.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "004c20c0ac0d",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "activates",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "TBK1-IRF3 signaling downstream of STING produces type I interferon as the principal maladaptive output. Activation links cytosolic DNA sensing to interferon programs.",
+      "zh-TW": "STING 下游 TBK1-IRF3 訊號產生第一型干擾素作為主要失適應輸出。活化將胞質 DNA 感知連結到干擾素程序。"
+    },
+    "confidence": 0.93,
+    "source_document": "cGAS-STING Pathway.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c4659534feaf",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "Cytosolic DNA sensing through cGAS-STING is a key driver of SASP factor transcription. Promotion is distinct from cytokine-membership edges.",
+      "zh-TW": "經由 cGAS-STING 的胞質 DNA 感知是 SASP 因子轉錄的關鍵驅動者。促進不同於細胞激素成員邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "cGAS-STING Pathway.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "1a1a2a5ded80",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "induces",
+    "object": "IL-6",
+    "context": {
+      "en-US": "IL-6 is explicitly listed as a SASP cytokine activated downstream of cGAS-STING. Induction records the sensing-to-cytokine direction.",
+      "zh-TW": "IL-6 明確列為 cGAS-STING 下游活化的 SASP 細胞激素。誘發記錄感知到細胞激素的方向。"
+    },
+    "confidence": 0.88,
+    "source_document": "cGAS-STING Pathway.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "3d15ccc874d3",
+    "subject": "SASP",
+    "predicate": "induces",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "SASP factors including IL-1, TGFb, VEGF and CCL2 spread senescence to neighboring cells. Induction is the paracrine transmission mechanism.",
+      "zh-TW": "包括 IL-1、TGFβ、VEGF 與 CCL2 的 SASP 因子將衰老傳播至鄰近細胞。誘發是旁分泌傳遞機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "SASP.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6b1cb13d34e2",
+    "subject": "IL-1α",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "Inflammasome-processed IL-1alpha is the master upstream regulator of the SASP program. Drive records the apical cytokine position.",
+      "zh-TW": "發炎體處理的 IL-1α 是 SASP 程序的上游主調控者。驅動記錄頂端細胞激素位置。"
+    },
+    "confidence": 0.9,
+    "source_document": "SASP.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c158b7a52f7d",
+    "subject": "NF-κB",
+    "predicate": "activates",
+    "object": "IL-6",
+    "context": {
+      "en-US": "Transcription of IL-6 is driven by NF-kB downstream of IL-1R/TLR and STING inputs. Direction is NF-kB to cytokine, not the reverse.",
+      "zh-TW": "IL-6 轉錄由 IL-1R/TLR 與 STING 輸入下游的 NF-κB 驅動。方向是 NF-κB 到細胞激素，而非反向。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-6.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "26f3e508b0a1",
+    "subject": "IL-6",
+    "predicate": "activates",
+    "object": "STAT3",
+    "context": {
+      "en-US": "IL-6 to JAK to STAT3 forms the autocrine amplification loop of SASP signaling. Activation sustains chronic inflammatory transcription.",
+      "zh-TW": "IL-6 到 JAK 到 STAT3 形成 SASP 訊號的自分泌放大迴圈。活化維持慢性發炎轉錄。"
+    },
+    "confidence": 0.92,
+    "source_document": "IL-6.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c26b22c82ac5",
+    "subject": "NF-κB",
+    "predicate": "activates",
+    "object": "IL-8",
+    "context": {
+      "en-US": "NF-kB is the master transcription factor for IL-8 gene expression. Activation parallels the IL-6 edge.",
+      "zh-TW": "NF-κB 是 IL-8 基因表現的主轉錄因子。活化與 IL-6 邊平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d0fc83cde801",
+    "subject": "IL-8",
+    "predicate": "recruits",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "IL-8 is the primary neutrophil chemoattractant acting through CXCR1/2. Recruitment is its defining immune function.",
+      "zh-TW": "IL-8 是經由 CXCR1/2 作用的主要嗜中性球趨化因子。招募是其定義性免疫功能。"
+    },
+    "confidence": 0.92,
+    "source_document": "IL-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "e39c377082f4",
+    "subject": "IL-8",
+    "predicate": "binds",
+    "object": "CXCR2",
+    "context": {
+      "en-US": "CXCR2 is the chemotaxis receptor transducing IL-8 signals. Binding is the signal-entry pairing.",
+      "zh-TW": "CXCR2 是傳導 IL-8 訊號的趨化受體。結合是訊號進入配對。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "4847be669e70",
+    "subject": "TNFα",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "NF-kB is the primary downstream transcription factor of TNF receptor signaling. Activation is distinct from the TNF-Signaling convergence edge.",
+      "zh-TW": "NF-κB 是 TNF 受體訊號的主要下游轉錄因子。活化不同於 TNF 訊號匯聚邊。"
+    },
+    "confidence": 0.95,
+    "source_document": "TNFα.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c1d8bc378e1b",
+    "subject": "TNFα",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "TNF death-receptor engagement drives extrinsic apoptosis via caspase-8. Induction covers the death-arm outcome.",
+      "zh-TW": "TNF 死亡受體接合經由 caspase-8 驅動外源凋亡。誘發涵蓋死亡分支結果。"
+    },
+    "confidence": 0.9,
+    "source_document": "TNFα.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "72439b51311c",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "SIRT1 deacetylates RelA/p65 at Lys310 to inhibit transactivation. Deacetylation is the sirtuin brake on inflammatory transcription.",
+      "zh-TW": "SIRT1 在 Lys310 去乙醯化 RelA/p65 以抑制轉活化。去乙醯化是 sirtuin 對發炎轉錄的煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "NF-κB.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "41f537146320",
+    "subject": "p53",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "p53 restrains the pro-inflammatory SASP program; its loss amplifies stromal tumor promotion. Suppression separates arrest enforcement from secretory restraint.",
+      "zh-TW": "p53 約束促發炎 SASP 程序；其缺失放大基質促腫瘤作用。抑制將停滯執行與分泌約束分開。"
+    },
+    "confidence": 0.85,
+    "source_document": "SASP.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "9069dc782bb6",
+    "subject": "SASP",
+    "predicate": "drives",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Chronic SASP output is a major contributor to sterile age-related inflammation. Drive links the secretome to systemic inflammaging.",
+      "zh-TW": "慢性 SASP 輸出是無菌老化相關發炎的主要貢獻者。驅動將分泌組連結到全身發炎老化。"
+    },
+    "confidence": 0.88,
+    "source_document": "Inflammaging.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d24ec4d0be72",
+    "subject": "mTORC1",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "mTORC1 translational control promotes SASP output in a rapamycin-sensitive manner. Promotion is the metabolic gate on secretion.",
+      "zh-TW": "mTORC1 轉譯控制以 rapamycin 敏感方式促進 SASP 輸出。促進是分泌的代謝閘門。"
+    },
+    "confidence": 0.85,
+    "source_document": "SASP.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "5c7350055eed",
+    "subject": "Caspase-8",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Active caspase-8 cleaves RIPK1/RIPK3 to suppress necroptosis; its inhibition flips TNF signaling to necroptosis. Inhibition is the fate-switch mechanism.",
+      "zh-TW": "活化 caspase-8 切割 RIPK1/RIPK3 以抑制程序性壞死；其抑制將 TNF 訊號翻轉為壞死。抑制是命運開關機制。"
+    },
+    "confidence": 0.92,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "7fe587dc7ed3",
+    "subject": "RIPK1",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "RIPK1 scaffolds and activates RIPK3 to assemble the necrosome. Activation is the kinase relay of the cascade.",
+      "zh-TW": "RIPK1 支架化並活化 RIPK3 以組裝 necrosome。活化是級聯的激酶接力。"
+    },
+    "confidence": 0.88,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "336d13aaa9e9",
+    "subject": "Necrostatin-1",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Necrostatin-1 is the defining tool inhibitor of RIPK1 kinase activity. Inhibition blocks necrosome assembly.",
+      "zh-TW": "Necrostatin-1 是 RIPK1 激酶活性的定義性工具抑制劑。抑制阻斷 necrosome 組裝。"
+    },
+    "confidence": 0.93,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "191cb7678376",
+    "subject": "Necroptosis",
+    "predicate": "is_a_type_of",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Necroptosis is the programmed subform of necrotic death. Classification nests the regulated program in necrosis.",
+      "zh-TW": "程序性壞死是壞死性死亡的程序性子型。歸類將調控程序嵌套於壞死。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "29e1b56c6f09",
+    "subject": "Necrosis",
+    "predicate": "releases",
+    "object": "Damage-Associated Molecular Patterns",
+    "context": {
+      "en-US": "Necrotic rupture spills DAMPs that drive sterile inflammation. Release is the lytic-to-immune coupling.",
+      "zh-TW": "壞死破裂溢出 DAMP 驅動無菌發炎。釋放是裂解到免疫的耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "1382a5525194",
+    "subject": "Necrosis",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Necrotic DAMP release prominently induces inflammation via TLR/RAGE/NLRP3. Induction is the pro-inflammatory outcome.",
+      "zh-TW": "壞死 DAMP 釋放經由 TLR/RAGE/NLRP3 顯著誘發發炎。誘發是促發炎結果。"
+    },
+    "confidence": 0.88,
+    "source_document": "Necrosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "e8cb6bc7b575",
+    "subject": "TRAIL",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "TRAIL death-ligand engagement activates initiator caspase-8 at the DISC. Activation is the extrinsic entry point.",
+      "zh-TW": "TRAIL 死亡配體接合在 DISC 活化起始 caspase-8。活化是外源進入點。"
+    },
+    "confidence": 0.92,
+    "source_document": "Caspase-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "9fff65266159",
+    "subject": "FasL",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "FasL engagement activates initiator caspase-8 at the DISC. Parallel entry to the TRAIL edge.",
+      "zh-TW": "FasL 接合在 DISC 活化起始 caspase-8。與 TRAIL 邊平行的進入。"
+    },
+    "confidence": 0.92,
+    "source_document": "Caspase-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "7c48aa6f8b97",
+    "subject": "Caspase-8",
+    "predicate": "activates",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "Caspase-8 directly cleaves executioner caspase-7 in type I cells. Activation parallels the caspase-3 edge.",
+      "zh-TW": "Caspase-8 在 I 型細胞直接切割執行 caspase-7。活化與 caspase-3 邊平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caspase-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "4d13cfd615c6",
+    "subject": "p53",
+    "predicate": "suppresses",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "p53 transcriptionally represses the cystine/glutamate antiporter, limiting GSH synthesis for ferroptosis execution. Erastin phenocopies this suppression pharmacologically.",
+      "zh-TW": "p53 在轉錄抑制胱胺酸/麩胺酸反向轉運體，限制 GSH 合成以執行鐵死亡。Erastin 在藥理表型複製此抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6e482492fe8c",
+    "subject": "SLC7A11",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Cystine import through system Xc- sustains GSH supply that brakes ferroptosis. Protection is the reverse of the Erastin inhibition edge.",
+      "zh-TW": "經由 system Xc- 的胱胺酸輸入維持 GSH 供應以煞車鐵死亡。保護是 Erastin 抑制邊的反向。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "53ab5b7e1b17",
+    "subject": "Selenocysteine",
+    "predicate": "is_required_for",
+    "object": "GPX4",
+    "context": {
+      "en-US": "The catalytic selenocysteine is essential for GPX4 peroxidase activity. Requirement links mevalonate-pathway tRNA maturation to ferroptosis defense.",
+      "zh-TW": "催化性硒半胱胺酸對 GPX4 過氧化酶活性必要。必要性將甲羥戊酸路徑 tRNA 成熟連結到鐵死亡防禦。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Ferroptosis past present and future.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "ce4da4a7c20b",
+    "subject": "LPCAT3",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "LPCAT3 remodels phosphatidylethanolamine with ACSL4-charged PUFA for peroxidation. Promotion completes the ACSL4 remodeling axis.",
+      "zh-TW": "LPCAT3 以 ACSL4 活化的 PUFA 重塑磷脂醯乙醇胺以供過氧化。促進完成 ACSL4 重塑軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "791b43903969",
+    "subject": "Artesunate",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Artesunate triggers ROS-dependent ferroptosis in pancreatic, ovarian and head-and-neck models. Induction extends the inducer set beyond erastin/RSL3.",
+      "zh-TW": "Artesunate 在胰臟、卵巢與頭頸模型觸發 ROS 依賴鐵死亡。誘發將誘發劑集合延伸至 erastin/RSL3 之外。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "cb0473a35039",
+    "subject": "NRF2",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "NRF2-driven antioxidant and iron-control programs suppress ferroptotic death via the p62-Keap1 axis. Suppression is the transcriptional brake.",
+      "zh-TW": "NRF2 驅動的抗氧化與鐵控制程序經由 p62-Keap1 軸抑制鐵死亡。抑制是轉錄煞車。"
+    },
+    "confidence": 0.75,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "907e3ceb76fa",
+    "subject": "Transferrin",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Transferrin-receptor iron import supplies the labile iron feeding Fenton chemistry. Promotion is the iron-supply arm.",
+      "zh-TW": "Transferrin 受體鐵輸入供應餵養 Fenton 化學的可動用鐵。促進是鐵供應臂。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Ferroptosis past present and future.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "8ded304beda8",
+    "subject": "Metformin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "AMPK activation is the primary molecular mechanism of metformin action. Activation gates mTORC1 inhibition, autophagy and metabolic benefits.",
+      "zh-TW": "AMPK 活化是 metformin 作用的主要分子機制。活化門控 mTORC1 抑制、自噬與代謝益處。"
+    },
+    "confidence": 0.93,
+    "source_document": "Metformin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c8bb283f9118",
+    "subject": "Metformin",
+    "predicate": "treats",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Metformin is the first-line therapy for type 2 diabetes. Indication is the original clinical use.",
+      "zh-TW": "Metformin 是第二型糖尿病的第一線治療。適應症是原始臨床用途。"
+    },
+    "confidence": 0.9,
+    "source_document": "Metformin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "0f5dff8d3872",
+    "subject": "Metformin",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Metformin inhibits mTORC1 via AMPK and lysosomal Rag-GTPase convergence. Inhibition is distinct from direct rapamycin binding.",
+      "zh-TW": "Metformin 經由 AMPK 與溶酶體 Rag-GTPase 匯聚抑制 mTORC1。抑制不同於 rapamycin 直接結合。"
+    },
+    "confidence": 0.85,
+    "source_document": "Metformin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c84ae3d55817",
+    "subject": "Metformin",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Metformin induces autophagy as an AMPK-dependent autophagy inducer. Induction couples energy sensing to clearance.",
+      "zh-TW": "Metformin 作為 AMPK 依賴的自噬誘發因子誘發自噬。誘發將能量感知耦合到清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "Metformin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "c12e82f55948",
+    "subject": "FGF21",
+    "predicate": "is_a_type_of",
+    "object": "Mitokines",
+    "context": {
+      "en-US": "FGF21 is a primary stress-induced mitokine downstream of mitochondrial dysfunction. Classification places it in the inter-organ signaling family.",
+      "zh-TW": "FGF21 是粒線體功能障礙下游的主要壓力誘發 mitokine。歸類將它置於器官間訊號家族。"
+    },
+    "confidence": 0.9,
+    "source_document": "FGF21.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "075e1da3ca23",
+    "subject": "FGF21",
+    "predicate": "is_induced_by",
+    "object": "ATF4",
+    "context": {
+      "en-US": "The ISR effector ATF4 directly transactivates FGF21 transcription. Induction is the stress-to-hormone coupling.",
+      "zh-TW": "ISR 效應器 ATF4 直接轉活化 FGF21 轉錄。誘發是壓力到激素的耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "FGF21.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "b538f3d552d0",
+    "subject": "GDF15",
+    "predicate": "is_a_type_of",
+    "object": "Mitokines",
+    "context": {
+      "en-US": "GDF15 is a stress-induced cytokine classified as a mitokine. Classification groups it with FGF21 and Humanin.",
+      "zh-TW": "GDF15 是歸類為 mitokine 的壓力誘發細胞激素。歸類將它與 FGF21 和 Humanin 並列。"
+    },
+    "confidence": 0.9,
+    "source_document": "GDF15.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "89697f64bc95",
+    "subject": "GDF15",
+    "predicate": "is_induced_by",
+    "object": "ATF4",
+    "context": {
+      "en-US": "ATF4 directly transactivates GDF15 under integrated stress response. Parallel induction to the FGF21 edge.",
+      "zh-TW": "ATF4 在整合壓力反應下直接轉活化 GDF15。與 FGF21 邊平行的誘發。"
+    },
+    "confidence": 0.88,
+    "source_document": "GDF15.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "fdc6ed40e61e",
+    "subject": "Humanin",
+    "predicate": "extends",
+    "object": "Longevity",
+    "context": {
+      "en-US": "Humanin transgenic mice show 15 to 20 percent median lifespan extension. Extension records the geroprotective outcome.",
+      "zh-TW": "Humanin 轉基因小鼠顯示 15 至 20% 中位壽命延長。延長記錄老年保護結果。"
+    },
+    "confidence": 0.85,
+    "source_document": "Humanin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d874deb074fa",
+    "subject": "Humanin",
+    "predicate": "inhibits",
+    "object": "BAX",
+    "context": {
+      "en-US": "Humanin binds Bax residues 8 to 12, blocking mitochondrial translocation and oligomerization. Inhibition is distinct from the existing binds edge.",
+      "zh-TW": "Humanin 結合 Bax 殘基 8 至 12，阻斷粒線體轉位與寡聚化。抑制不同於既有的結合邊。"
+    },
+    "confidence": 0.85,
+    "source_document": "Humanin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "fc66eebcf0e4",
+    "subject": "Mitophagy",
+    "predicate": "is_activated_by",
+    "object": "PINK1",
+    "context": {
+      "en-US": "PINK1 stabilization on depolarized mitochondria initiates Parkin-mediated mitophagy. Activation is the damage-sensing entry.",
+      "zh-TW": "PINK1 在去極化粒線體穩定啟動 Parkin 介導的粒線體自噬。活化是損傷感知進入。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitophagy.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "278733120436",
+    "subject": "Mitophagy",
+    "predicate": "requires",
+    "object": "Parkin",
+    "context": {
+      "en-US": "The E3 ligase Parkin recruited by PINK1 is required to ubiquitinate outer-membrane proteins for clearance. Requirement records the effector dependency.",
+      "zh-TW": "PINK1 招募的 E3 連接酶 Parkin 為泛素化外膜蛋白以供清除所需。必要性記錄效應器依賴。"
+    },
+    "confidence": 0.82,
+    "source_document": "Mitophagy.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "bc23b01fc7f3",
+    "subject": "Mitophagy",
+    "predicate": "protects_against",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "PINK1/Parkin mutations impair mitophagy to cause familial Parkinson disease. Protection is the quality-control outcome.",
+      "zh-TW": "PINK1/Parkin 突變損害粒線體自噬導致家族性帕金森病。保護是品質控制結果。"
+    },
+    "confidence": 0.8,
+    "source_document": "Mitophagy.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "8f2b44634415",
+    "subject": "ATP",
+    "predicate": "is_synthesized_by",
+    "object": "ATP Synthase",
+    "context": {
+      "en-US": "Complex V synthesizes ATP using the proton motive force at roughly 32 to 34 ATP per glucose. Synthesis is the oxidative-phosphorylation output.",
+      "zh-TW": "複合體 V 利用質子動力以每葡萄糖約 32 至 34 ATP 合成 ATP。合成是氧化磷酸化輸出。"
+    },
+    "confidence": 0.95,
+    "source_document": "ATP.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6c290f7db4b2",
+    "subject": "Fatty acid",
+    "predicate": "causes",
+    "object": "Lipotoxicity",
+    "context": {
+      "en-US": "Excess fatty acids drive cellular dysfunction termed lipotoxicity. Causation covers the overload pathology.",
+      "zh-TW": "過量脂肪酸驅動稱為脂毒性的細胞功能障礙。因果涵蓋超載病理。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fatty acid.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "b6b447146988",
+    "subject": "Methylene blue",
+    "predicate": "reduces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "Leuco-methylene blue reduces ferric Fe3+ in methemoglobin back to ferrous Fe2+, restoring hemoglobin function. Reduction is mechanistically exact and distinct from treats-Methemoglobinemia.",
+      "zh-TW": "Leuco-methylene blue 將變性血紅素的 Fe3+ 還原回 Fe2+，恢復血紅素功能。還原在機制精確且不同於治療變性血紅素血症。"
+    },
+    "confidence": 0.88,
+    "source_document": "Methylene blue.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d03a0a88d0a7",
+    "subject": "Parkinson's Disease",
+    "predicate": "involves",
+    "object": "Alpha-synuclein",
+    "context": {
+      "en-US": "Alpha-synuclein aggregation into Lewy bodies is the defining proteinopathy of Parkinson disease. Involvement records the hallmark pathology.",
+      "zh-TW": "Alpha-synuclein 聚集成路易小體是帕金森病的定義性蛋白病變。涉及記錄標誌病理。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parkinson's Disease.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "3ed17eec8a32",
+    "subject": "Parkinson's Disease",
+    "predicate": "involves",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "All five major Parkinson genes act on mitochondria and toxins inhibit the electron transport chain. Involvement records the bioenergetic axis.",
+      "zh-TW": "五個主要帕金森基因皆作用於粒線體，毒素抑制電子傳遞鏈。涉及記錄生物能量軸。"
+    },
+    "confidence": 0.92,
+    "source_document": "Parkinson's Disease.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "96aa395bc58d",
+    "subject": "Levodopa",
+    "predicate": "treats",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Levodopa is the standard dopamine-replacement therapy for Parkinson disease. Treatment is the clinical indication.",
+      "zh-TW": "Levodopa 是帕金森病的標準多巴胺替代治療。治療是臨床適應症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Parkinson's Disease.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "0923c309249e",
+    "subject": "Alzheimer's Disease",
+    "predicate": "is_a_type_of",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Alzheimer disease is the most common dementia and neurodegenerative disorder. Classification nests it in the disease family.",
+      "zh-TW": "阿茲海默病是最常見的失智與神經退化疾病。歸類將它嵌套於疾病家族。"
+    },
+    "confidence": 0.97,
+    "source_document": "Alzheimer's Disease.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "b58971dfe29a",
+    "subject": "Alzheimer's Disease",
+    "predicate": "involves",
+    "object": "Amyloid Beta",
+    "context": {
+      "en-US": "Amyloid plaque pathology is central to Alzheimer disease. Involvement records the defining lesion.",
+      "zh-TW": "類澱粉斑塊病理是阿茲海默病的核心。涉及記錄定義性病灶。"
+    },
+    "confidence": 0.95,
+    "source_document": "Alzheimer's Disease.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "b88cf819aef9",
+    "subject": "Alzheimer's Disease",
+    "predicate": "involves",
+    "object": "Tau Protein",
+    "context": {
+      "en-US": "Neurofibrillary tangles co-define Alzheimer pathology with amyloid. Involvement records the second lesion.",
+      "zh-TW": "神經纖維纏結與類澱粉共同定義阿茲海默病理。涉及記錄第二病灶。"
+    },
+    "confidence": 0.93,
+    "source_document": "Alzheimer's Disease.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "1254a4a5ef01",
+    "subject": "Atherosclerosis",
+    "predicate": "contributes_to",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Atherosclerosis is the underlying cause of most cardiovascular disease. Contribution records the etiologic direction.",
+      "zh-TW": "動脈粥狀硬化是多數心血管疾病的根本原因。貢獻記錄病因方向。"
+    },
+    "confidence": 0.95,
+    "source_document": "Atherosclerosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "31e84110d1dd",
+    "subject": "Atherosclerosis",
+    "predicate": "involves",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "Endothelial dysfunction is the initiating lesion step of atherosclerosis. Involvement records the onset mechanism.",
+      "zh-TW": "內皮功能障礙是動脈粥狀硬化的起始病灶步驟。涉及記錄起始機制。"
+    },
+    "confidence": 0.92,
+    "source_document": "Atherosclerosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d80486661bef",
+    "subject": "LDL",
+    "predicate": "contributes_to",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Oxidized LDL drives plaque formation and foam-cell generation. Contribution is the lipid-etiology edge.",
+      "zh-TW": "氧化 LDL 驅動斑塊形成與泡沫細胞生成。貢獻是脂質病因邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "Atherosclerosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6e31cbf90c7a",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "SIRT1 activation attenuates atherosclerotic disease and counteracts TMAO inflammation. Protection is the sirtuin vascular output.",
+      "zh-TW": "SIRT1 活化減輕動脈粥狀硬化並對抗 TMAO 發炎。保護是 sirtuin 血管輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atherosclerosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "a6326895bb32",
+    "subject": "Curcumin",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Curcumin suppresses NF-kB with repression of IL6, IL8 and TNF target genes. Inhibition is the anti-inflammatory mechanism.",
+      "zh-TW": "Curcumin 抑制 NF-κB 並抑制 IL6、IL8 與 TNF 標的基因。抑制是抗發炎機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Curcumin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "633dd0fa671e",
+    "subject": "Curcumin",
+    "predicate": "has_low",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Curcumin has below one percent oral bioavailability, mirroring the fisetin formulation problem. Low bioavailability gates translation.",
+      "zh-TW": "Curcumin 口服生體可用率低於百分之一，呼應 fisetin 配方問題。低可用率門控轉譯。"
+    },
+    "confidence": 0.95,
+    "source_document": "Curcumin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6cc1d966fe87",
+    "subject": "Fisetin",
+    "predicate": "extends",
+    "object": "Healthspan",
+    "context": {
+      "en-US": "Late-life fisetin intervention extends healthspan in aged mice. Extension records the geroprotective outcome with no existing Fisetin-Healthspan edge.",
+      "zh-TW": "晚年 fisetin 介入延長老年小鼠健康壽命。延長記錄老年保護結果，既無 Fisetin-Healthspan 邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fisetin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "2877fe5005a3",
+    "subject": "Caloric Restriction",
+    "predicate": "extends",
+    "object": "Healthspan",
+    "context": {
+      "en-US": "Caloric restriction is the most robust healthspan-extending intervention across model organisms. Extension is the geroscience consensus.",
+      "zh-TW": "熱量限制是跨模式生物最強健的健康壽命延長介入。延長是老年科學共識。"
+    },
+    "confidence": 0.92,
+    "source_document": "Healthspan.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "8758da21e94f",
+    "subject": "Senolytics",
+    "predicate": "extends",
+    "object": "Longevity",
+    "context": {
+      "en-US": "Senolytic clearance of senescent cells extends longevity in aged models. Extension records the class outcome beyond fisetin alone.",
+      "zh-TW": "Senolytic 清除衰老細胞延長老年模型壽命。延長記錄超越單一 fisetin 的類別結果。"
+    },
+    "confidence": 0.78,
+    "source_document": "Longevity.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d86df69869cb",
+    "subject": "Navitoclax",
+    "predicate": "inhibits",
+    "object": "BCL-2",
+    "context": {
+      "en-US": "Navitoclax inhibits BCL-2 and BCL-XL to push SCAP-dependent senescent cells into apoptosis. Inhibition is the senolytic mechanism.",
+      "zh-TW": "Navitoclax 抑制 BCL-2 與 BCL-XL 以將 SCAP 依賴的衰老細胞推入凋亡。抑制是 senolytic 機制。"
+    },
+    "confidence": 0.88,
+    "source_document": "Senolytics.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "45d56505d721",
+    "subject": "Hormesis",
+    "predicate": "is_blocked_by",
+    "object": "Antioxidants",
+    "context": {
+      "en-US": "Antioxidant supplementation blunts the ROS pulse required for hormetic adaptation, mirroring the mitohormesis edge. Blockade is the paradox mechanism.",
+      "zh-TW": "抗氧化補充削弱激效適應所需的 ROS 脈衝，呼應 mitohormesis 邊。阻斷是矛盾機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormesis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "92e1901a033d",
+    "subject": "NRF2",
+    "predicate": "mediates",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "NRF2 is the master cytoprotective regulator engaged by hormetic stress, mirroring the mitohormesis mediation. Mediation is the effector arm.",
+      "zh-TW": "NRF2 是激效壓力接合的主要細胞保護調節器，呼應 mitohormesis 媒介。媒介是效應臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormesis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "abe2c2d5e285",
+    "subject": "Apigenin",
+    "predicate": "inhibits",
+    "object": "CDK4",
+    "context": {
+      "en-US": "Apigenin ATP-competitively inhibits CDK4, blocking cyclin association and G1 progression. Inhibition parallels the CDK6 edge.",
+      "zh-TW": "Apigenin 以 ATP 競爭抑制 CDK4，阻斷 cyclin 結合與 G1 進展。抑制與 CDK6 邊平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Apigenin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "f8524f2444c5",
+    "subject": "Apigenin",
+    "predicate": "inhibits",
+    "object": "CDK6",
+    "context": {
+      "en-US": "Apigenin ATP-competitively inhibits CDK6 with the same G1-blockade mechanism as CDK4. Dual inhibition enforces arrest.",
+      "zh-TW": "Apigenin 以與 CDK4 相同的 G1 封鎖機制抑制 CDK6。雙重抑制執行停滯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Apigenin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "af1db516a74c",
+    "subject": "Fisetin",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Low-exposure fisetin suppresses SASP and NF-kB output as a senomorphic action distinct from senolysis. No existing Fisetin-SASP edge covers this.",
+      "zh-TW": "低暴露 fisetin 以 senomorphic 作用抑制 SASP 與 NF-κB 輸出，不同於 senolysis。既無 Fisetin-SASP 邊涵蓋此。"
+    },
+    "confidence": 0.85,
+    "source_document": "Fisetin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "d5ac0f1ae668",
+    "subject": "Fisetin",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Fisetin selectively induces apoptosis in high-SASP senescent cells, distinct from the reduces-senescence burden edge. Induction is the cytotoxic arm.",
+      "zh-TW": "Fisetin 在高 SASP 衰老細胞選擇性誘發凋亡，不同於降低衰老負擔邊。誘發是細胞毒臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "Fisetin.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
   }
 ]

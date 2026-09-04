@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "46df6185c495",
+    "subject": "Brosimine B",
+    "predicate": "exhibits",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Brosimine B shows an inverted U-shaped biphasic dose-response in retinal cell cultures, stimulating viability at low concentrations and becoming cytotoxic at higher ones. The fitted Gaussian hormetic model gives R2 = 0.984 with a peak response at 10.2 uM and hormetic zone width sigma = 6.5 uM. This confirms Brosimine B as a hormetic agent rather than a monotonic protectant.",
+      "zh-TW": "Brosimine B 在視網膜細胞培養中呈現倒 U 形雙相劑量反應，低濃度促進存活率、高濃度則具細胞毒性。高斯 hormetic 模型配適 R2 = 0.984，峰值反應在 10.2 uM，hormetic zone 寬度 sigma = 6.5 uM。這證實 Brosimine B 是 hormetic 作用物，而非單調性保護劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "f84d9eaca4b7",
+    "subject": "Brosimine B",
+    "predicate": "increases",
+    "object": "Retinal Cell Viability",
+    "context": {
+      "en-US": "At 10 uM, Brosimine B raised mixed chicken-embryo retinal cell viability to 145.0% of control after 24 h in normoxia. Neither 1 uM nor 5 uM produced a significant increase. The effect defines the stimulatory peak of its hormetic window.",
+      "zh-TW": "10 uM 的 Brosimine B 在常氧下經 24 小時將混合雞胚視網膜細胞存活率提升至對照組的 145.0%。1 uM 與 5 uM 均無顯著增加。此效應界定了其 hormetic window 的刺激峰值。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "5afaf7dab8f4",
+    "subject": "Brosimine B",
+    "predicate": "induces",
+    "object": "Cytotoxicity",
+    "context": {
+      "en-US": "Concentrations above 10 uM (25, 50, and 100 uM) drastically reduced retinal cell viability, demonstrating the descending toxic limb of the hormetic curve. This toxicity threshold mirrors related Moraceae compounds such as moracin P and mulberrofuran Q. It establishes a narrow therapeutic window for Brosimine B.",
+      "zh-TW": "高於 10 uM 的濃度（25、50、100 uM）大幅降低視網膜細胞存活率，呈現 hormetic 曲線的下降毒性支。此毒性閾值與 Moraceae 家族相關化合物如 moracin P 和 mulberrofuran Q 相似。這確立了 Brosimine B 狹窄的治療窗。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "80cca70c685e",
+    "subject": "Brosimine B",
+    "predicate": "protects_against",
+    "object": "Oxygen-Glucose Deprivation",
+    "context": {
+      "en-US": "OGD reduced retinal cell viability at 3, 6, and 24 h, modeling ischemia-induced oxidative stress. Co-treatment with 10 uM Brosimine B restored viability at 3 h (107%) and partially at 6 h, but not at 24 h. The protection is therefore time-limited to early hypoxia.",
+      "zh-TW": "OGD 在 3、6、24 小時均降低視網膜細胞存活率，模擬缺血引起的氧化壓力。10 uM Brosimine B 共處理在 3 小時恢復存活率（107%），6 小時部分恢復，24 小時則無效。因此其保護作用僅限於早期缺氧階段。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "cb5671ac06ab",
+    "subject": "Brosimine B",
+    "predicate": "reduces",
+    "object": "ROS",
+    "context": {
+      "en-US": "OGD markedly increased intracellular superoxide/ROS production, peaking at 453% of control at 6 h. Brosimine B at 10 uM significantly lowered ROS only at the 3 h time point, with no effect at 6 or 24 h. The transient antioxidant effect parallels its early-window protection of viability.",
+      "zh-TW": "OGD 顯著增加細胞內超氧陰離子／ROS 生成，在 6 小時達到對照組的 453%。10 uM Brosimine B 僅在缺氧後 3 小時顯著降低 ROS，6 小時與 24 小時無效。此短暫抗氧化效應與其早期存活率保護窗一致。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "5e200c88f9ce",
+    "subject": "Brosimine B",
+    "predicate": "activates",
+    "object": "Catalase",
+    "context": {
+      "en-US": "OGD suppressed catalase activity to about 56% of control at 3 h. Treatment with 10 uM Brosimine B raised catalase activity to 124% of control at 3 h and significantly above the OGD group at 6 h (141%), with no effect at 24 h. The authors propose catalase upregulation as a mechanism of its antioxidant neuroprotection.",
+      "zh-TW": "OGD 在 3 小時將 catalase 活性抑制至對照組約 56%。10 uM Brosimine B 處理在 3 小時將 catalase 活性提升至對照組的 124%，6 小時亦顯著高於 OGD 組（141%），24 小時則無效。作者提出 catalase 上調是其抗氧化神經保護的機制之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "8e9c30b798a9",
+    "subject": "Brosimine B",
+    "predicate": "is_isolated_from",
+    "object": "Brosimum acutifolium",
+    "context": {
+      "en-US": "Brosimine B (4,7-dihydroxy-8-(3,3-dimethylallyl)flavan) was isolated from ethanolic bark extract of Brosimum acutifolium (Murure, Moraceae) collected in Para, Brazil. The species bark is traditionally used for analgesic and anti-inflammatory purposes. This botanical origin links Brosimine B to the antioxidant-rich Moraceae family.",
+      "zh-TW": "Brosimine B（4,7-dihydroxy-8-(3,3-dimethylallyl)flavan）分離自巴西 Para 地區 Brosimum acutifolium（Murure，桑科）樹皮乙醇萃取物。該樹種樹皮傳統上用於鎮痛與抗發炎。此植物來源將 Brosimine B 連結至富含抗氧化物的 Moraceae 家族。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "721411c19014",
+    "subject": "Brosimine B",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoid",
+    "context": {
+      "en-US": "Brosimine B is described as a prenylated flavan flavonoid (2(S)-7,4'-dihydroxy-8-(3,3-dimethylallyl)flavan, C20H22O3). Like other neuroprotective flavonoids such as hesperidin, it combines antioxidant and biphasic dose-response properties. Its flavonoid chemistry underpins the proposed ROS-scavenging and enzyme-modulating actions.",
+      "zh-TW": "Brosimine B 被描述為異戊烯基黃烷類 Flavonoid（2(S)-7,4'-dihydroxy-8-(3,3-dimethylallyl)flavan，C20H22O3）。與 hesperidin 等神經保護類黃酮一樣，兼具抗氧化與雙相劑量反應特性。其黃酮化學結構是所提 ROS 清除與酶調節作用的基礎。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "542e64a13df8",
+    "subject": "Oxygen-Glucose Deprivation",
+    "predicate": "is_a_model_of",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "The study uses OGD in mixed retinal cultures as an in vitro model of ischemia-induced oxidative stress, with ROS surging to 313-453% of control. The avian retina is chosen because it shares embryonic origin and signaling pathways with the mammalian CNS. Results are therefore interpreted as relevant to stroke penumbra neuroprotection.",
+      "zh-TW": "本研究以混合視網膜培養的 OGD 作為缺血引起之 Oxidative Stress 的體外模型，ROS 飆升至對照組的 313-453%。選用禽類視網膜是因其與哺乳類 CNS 有共同胚胎起源與訊號通路。因此結果被解讀為與中風半影區神經保護相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "472acfda5d33",
+    "subject": "Catalase",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Catalase is presented as an endogenous antioxidant defense that detoxifies hydrogen peroxide generated after ischemic events. Its activity falls during OGD and is restored by Brosimine B in parallel with reduced ROS and improved viability. The paper cites dose-dependent catalase protection in HT-1080 oxygen-deprivation cultures as precedent.",
+      "zh-TW": "Catalase 被視為解毒缺血事件後生成之過氧化氫的內源性抗氧化防禦。其活性在 OGD 期間下降，並隨 Brosimine B 處理而恢復，同時伴隨 ROS 下降與存活率改善。本文引用 HT-1080 缺氧培養中 catalase 劑量依賴性保護作為先例。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "f0a88daadc8b",
+    "subject": "Sodium Chloride",
+    "predicate": "induces",
+    "object": "Eustress",
+    "context": {
+      "en-US": "Low-dose NaCl at 25 mM acts as eustress in hydroponically grown sunflower microgreens, stimulating rather than suppressing growth. Shoot fresh yield rose 58.7%, leaf area 81.4%, and root length 25.7% versus control. This stimulatory low-dose effect is the defining feature of eustress/hormesis.",
+      "zh-TW": "25 mM 低劑量 NaCl 在水耕向日葵苗菜中發揮 Eustress 作用，促進而非抑制生長。地上部鮮重增加 58.7%、葉面積增加 81.4%、根長增加 25.7%。這種低劑量刺激效應正是 eustress／hormesis 的定義特徵。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "272e7240137e",
+    "subject": "Eustress",
+    "predicate": "is_a_type_of",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "The abstract frames 25 mM NaCl stimulation versus 75-100 mM inhibition explicitly as hormetic, while the title uses the synonym eustress. Mild 50 mM NaCl still stimulated growth but less strongly, delineating a hormetic window. The note flags this vocabulary split as a literature-invisibility problem for hormesis searches.",
+      "zh-TW": "摘要將 25 mM NaCl 的促進作用與 75-100 mM 的抑制作用明確框定為 hormetic，而標題使用同義詞 eustress。50 mM 輕度鹽仍促進生長但較弱，勾勒出 hormetic window。此筆記將這種詞彙分歧標記為 hormesis 文獻檢索的可見性問題。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "616f03c5c49c",
+    "subject": "Sodium Chloride",
+    "predicate": "induces",
+    "object": "Distress",
+    "context": {
+      "en-US": "Moderate and severe salt levels of 75 and 100 mM NaCl significantly reduced sunflower microgreen growth parameters. Higher salt levels also induced marked oxidative stress, opposite to the 25 mM eustress response. This marks the toxic limb of the salt dose-response curve.",
+      "zh-TW": "75 與 100 mM 的中重度鹽濃度顯著降低向日葵苗菜生長參數。較高鹽濃度亦引起明顯氧化壓力，與 25 mM eustress 反應相反。這標誌著鹽劑量反應曲線的毒性支。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "4ed9f75971b3",
+    "subject": "Sodium Chloride",
+    "predicate": "increases",
+    "object": "Antioxidant Capacity",
+    "context": {
+      "en-US": "At 25 mM NaCl, total antioxidant activity rose 38.1%, DPPH-scavenging 6.0%, total phenols 8.8%, ascorbic acid 37.5%, and carotenoids 11.5% in sunflower microgreens. Moderate and severe salt levels had opposite (suppressive) effects. Salt eustress thus functions as a cost-effective elicitor of antioxidant quality.",
+      "zh-TW": "25 mM NaCl 使向日葵苗菜總抗氧化活性上升 38.1%、DPPH 清除率 6.0%、總酚 8.8%、抗壞血酸 37.5%、類胡蘿蔔素 11.5%。中重度鹽濃度則有相反（抑制）效應。因此鹽 eustress 可作為提升抗氧化品質的簡便低成本誘導手段。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "01540cb8f323",
+    "subject": "Sodium Chloride",
+    "predicate": "increases",
+    "object": "Nutritional Quality",
+    "context": {
+      "en-US": "Eustress at 25 mM NaCl increased total carbohydrates by 27.2%, total proteins by 27.6%, plus Ca, Mg, Mn, Zn (11.9-14.3%) and linoleic acid (5.0%) in sunflower microgreens. These gains co-occurred with yield increases rather than trading off against them. The authors conclude low-dose salt improves both yield and nutritional value.",
+      "zh-TW": "25 mM NaCl 的 eustress 使向日葵苗菜總碳水化合物增加 27.2%、總蛋白增加 27.6%，另有 Ca、Mg、Mn、Zn（11.9-14.3%）與亞麻油酸（5.0%）提升。這些增益與產量增加同時發生而非相互取捨。作者結論為低劑量鹽同時改善產量與營養價值。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "ac1d95a1cf00",
+    "subject": "Sodium Chloride",
+    "predicate": "increases",
+    "object": "Proline",
+    "context": {
+      "en-US": "At 25 mM NaCl, proline content rose modestly by 5.7% while catalase activity, lipid peroxidation, and H2O2 content did not change significantly. This indicates an adaptive osmoprotectant response without overt oxidative damage. Higher salt doses broke this balance and triggered marked oxidative stress.",
+      "zh-TW": "25 mM NaCl 使 proline 含量適度上升 5.7%，而 catalase 活性、脂質過氧化與 H2O2 含量無顯著變化。這顯示滲透保護適應反應啟動，但尚未出現明顯氧化損傷。更高鹽劑量打破此平衡並引發顯著氧化壓力。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "156c90c0bd7b",
+    "subject": "Sunflower Microgreens",
+    "predicate": "serve_as",
+    "object": "Model System",
+    "context": {
+      "en-US": "Sunflower (Helianthus annuus L.) microgreens are presented both as nutritious superfoods and as model systems for studying plant stress responses. The ten-day hydroponic root-dipping assay across 0-100 mM NaCl enabled parallel measurement of growth, stress biomarkers, and nutritional traits. This dual food-model role motivates salt eustress as an agronomic elicitor.",
+      "zh-TW": "向日葵（Helianthus annuus L.）苗菜同時被視為營養超級食物與研究植物壓力反應的 Model System。為期十天、0-100 mM NaCl 的水耕浸根試驗可平行量測生長、壓力生物標誌與營養性狀。這種食用與模式雙重角色使鹽 eustress 成為具吸引力的農藝誘導手段。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "d8b555d548c9",
+    "subject": "Oxidative Stress",
+    "predicate": "exhibits",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Both documents converge on oxidative stress as a hormetic readout: unchanged lipid peroxidation and H2O2 at 25 mM NaCl versus marked oxidative stress at 75-100 mM, and transient ROS suppression by Brosimine B at 3 h OGD. Low stress activates adaptive defenses while high stress overwhelms them. This cross-kingdom parallel links plant salt eustress to mammalian retinal neuroprotection.",
+      "zh-TW": "兩份文件都將 Oxidative Stress 作為 hormetic 讀值：25 mM NaCl 下脂質過氧化與 H2O2 不變、75-100 mM 下顯著氧化壓力；Brosimine B 在 OGD 3 小時短暫抑制 ROS。低壓力活化適應防禦，高壓力則壓垮防禦。此跨界平行連結了植物鹽 eustress 與哺乳類視網膜神經保護。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "2ab7e67b7784",
+    "subject": "Preparation for Oxidative Stress",
+    "predicate": "exemplifies",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Oliveira et al. propose that Preparation for Oxidative Stress (POS) is an example of physiological conditioning hormesis. Mild hypoxia-driven oxidant production preconditions animals so they tolerate a stronger reoxygenation redox challenge, matching the biphasic preconditioning pattern of hormesis.",
+      "zh-TW": "Oliveira 等人提出 Preparation for Oxidative Stress (POS) 是生理性制約 hormesis 的一個例子。輕度缺氧引發的氧化物產生可預先調節動物，使其耐受隨後更強的再氧合氧化還原挑戰，符合 hormesis 的雙相預處理模式。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "7c7edf551559",
+    "subject": "Hypoxia",
+    "predicate": "upregulates",
+    "object": "Antioxidant Enzymes",
+    "context": {
+      "en-US": "Hypoxia and related states such as estivation transiently upregulate endogenous antioxidant enzymes including Superoxide Dismutase, Catalase, Glutathione S-Transferase, and Glutathione Peroxidase. These activities rise by tens of percent during low-oxygen exposure and return to baseline upon reoxygenation or arousal.",
+      "zh-TW": "Hypoxia 及相關狀態（如夏眠）會短暫上調內源性 Antioxidant Enzymes，包括 Superoxide Dismutase、Catalase、Glutathione S-Transferase 和 Glutathione Peroxidase。這些酵素活性在低氧暴露期間上升數十個百分點，並在再氧合或甦醒後回到基線。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "e902a5a53505",
+    "subject": "Hypoxia",
+    "predicate": "increases_production_of",
+    "object": "Reactive Species",
+    "context": {
+      "en-US": "Contrary to intuition, hypoxia shifts the mitochondrial electron transport system toward a reduced state, increasing electron availability and favoring superoxide formation. This hypoxic oxidant burst provides the redox signal that activates defenses before the larger reoxygenation insult.",
+      "zh-TW": "與直覺相反，Hypoxia 使粒線體電子傳遞系統偏向還原態，增加電子可利用性並促進超氧物生成。這波缺氧期間的氧化物爆發提供了氧化還原訊號，在更大的再氧合損傷之前活化防禦機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "49119c652998",
+    "subject": "Reactive Species",
+    "predicate": "activate",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Hypoxia-induced redox imbalance activates redox-sensitive transcription factors including NF-kB, FOXO, and NRF2. NRF2 then coordinates expression of oxidative-stress-inducible and antioxidant genes that underpin the POS phenotype.",
+      "zh-TW": "缺氧引發的氧化還原失衡會活化氧化還原敏感轉錄因子，包括 NF-kB、FOXO 和 NRF2。NRF2 隨後協調氧化壓力誘導基因與抗氧化基因的表現，構成 POS 表型的基礎。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "7af4b6044f38",
+    "subject": "Reactive Species",
+    "predicate": "inhibit",
+    "object": "Protein Tyrosine Phosphatases",
+    "context": {
+      "en-US": "Oxidants reversibly oxidize and inhibit protein tyrosine phosphatases such as PTP1B and PTEN during POS-related redox imbalance. Phosphatase inhibition shifts signaling toward a higher phosphorylated state, promoting kinase cascades and redox-sensitive transcription factor activation.",
+      "zh-TW": "在 POS 相關的氧化還原失衡期間，氧化物可逆地氧化並抑制 Protein Tyrosine Phosphatases，如 PTP1B 和 PTEN。磷酸酶抑制使訊號傳導偏向高度磷酸化狀態，促進激酶級聯反應與氧化還原敏感轉錄因子的活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "a9c4763d4931",
+    "subject": "Preparation for Oxidative Stress",
+    "predicate": "protects_against",
+    "object": "Reoxygenation Injury",
+    "context": {
+      "en-US": "POS was originally framed as upregulating antioxidants during hypoxia specifically to cope with heightened oxidant formation during reoxygenation. Evidence from mussels, fish, frogs, and snails shows antioxidant induction during low oxygen followed by normalization after oxygen restoration.",
+      "zh-TW": "POS 最初被描述為在缺氧期間上調抗氧化物，專門用以應對再氧合期間增加的氧化物生成。來自貽貝、魚類、蛙類與蝸牛的證據顯示，抗氧化物在低氧期間被誘導，並在氧氣恢復後回到正常值。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "a27f1b5c8a20",
+    "subject": "Hypoxia",
+    "predicate": "elicits",
+    "object": "Biphasic Dose Response",
+    "context": {
+      "en-US": "Varying hypoxia intensity or duration produces inverted-U or J-shaped responses in antioxidant enzymes, e.g. scallop SOD rising 15-50% at 12 h then falling 40-60% over days. Pacific white shrimp SOD and GPX show similar inverted-U curves, meeting quantitative hormesis criteria.",
+      "zh-TW": "改變 Hypoxia 強度或持續時間會在抗氧化酵素中產生倒 U 形或 J 形反應，例如扇貝 SOD 在 12 小時上升 15-50%，數天後下降 40-60%。太平洋白蝦的 SOD 與 GPX 也呈現類似倒 U 形曲線，符合定量的 hormesis 標準。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "59ff87d5ee96",
+    "subject": "Ischemic Preconditioning",
+    "predicate": "parallels",
+    "object": "Preparation for Oxidative Stress",
+    "context": {
+      "en-US": "Hypoxic preconditioning rendering tissues resistant to later reperfusion insult is presented as mechanistically analogous to POS. Both involve a mild oxidative stress that improves tolerance to a subsequent stronger redox challenge.",
+      "zh-TW": "使組織對後續再灌流損傷產生抗性的缺氧預處理，被認為在機制上類似於 Preparation for Oxidative Stress。兩者都涉及輕度氧化壓力，從而提高對後續更強氧化還原挑戰的耐受性。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "26c3444939d1",
+    "subject": "Lipid Peroxidation Products",
+    "predicate": "mediate",
+    "object": "Preparation for Oxidative Stress",
+    "context": {
+      "en-US": "Beyond oxygen-derived reactive species, aldehyde products of lipid peroxidation are proposed as primary mediators of the hormetic POS signal. They help link mild macromolecular oxidation during hypoxia to upregulation of redox defenses.",
+      "zh-TW": "除了氧衍生自由基之外，脂質過氧化的醛類產物被認為是 hormesis 型 POS 訊號的主要媒介。它們將缺氧期間的輕度大分子氧化與氧化還原防禦的上調連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "fa3911102976",
+    "subject": "Environmental Oxygen Threshold",
+    "predicate": "determines",
+    "object": "Preparation for Oxidative Stress",
+    "context": {
+      "en-US": "A species- and tissue-dependent oxygen concentration threshold determines whether POS is triggered; severe hypoxia induces GCL and GPX in Neohelice granulata while milder exposures do not. This threshold behavior parallels hormetic dose-response requirements.",
+      "zh-TW": "是否觸發 Preparation for Oxidative Stress 取決於物種與組織特異的氧氣濃度閾值；嚴重缺氧可在 Neohelice granulata 中誘導 GCL 與 GPX，而較輕微的暴露則無此效應。這種閾值行為與 hormesis 的劑量反應要求相呼應。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c4dbf29ba902",
+    "subject": "Dietary Hormesis",
+    "predicate": "differs_from",
+    "object": "Single-Compound Hormesis",
+    "context": {
+      "en-US": "Dietary hormesis is framed as the cumulative, potentially synergistic adaptive response to a complex array of hormetins within whole-food matrices. This is distinguished from biphasic dose-responses of isolated compounds like resveratrol or curcumin studied in controlled laboratory settings.",
+      "zh-TW": "Dietary Hormesis 被定義為對全食物基質中複雜 Hormetins 陣列產生的累積性、可能具協同作用的適應反應。這與在受控實驗室條件下研究的單一分離化合物（如 resveratrol 或 curcumin）的雙相劑量反應有所區別。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "1613a3a627d1",
+    "subject": "Sulforaphane",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Sulforaphane from cruciferous vegetables reacts with critical cysteine residues on Keap1, disrupting the Keap1-NRF2 complex. Liberated NRF2 translocates to the nucleus, binds antioxidant response elements, and induces hundreds of cytoprotective genes including SOD and GPx.",
+      "zh-TW": "來自十字花科蔬菜的 Sulforaphane 與 Keap1 上的關鍵半胱胺酸殘基反應，破壞 Keap1-NRF2 複合體。釋放出的 NRF2 轉位至細胞核，結合 antioxidant response elements，並誘導數百個細胞保護基因，包括 SOD 和 GPx。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "7def5aeb9747",
+    "subject": "Resveratrol",
+    "predicate": "activates",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "Resveratrol from grapes and red wine is presented as a mitohormetic trigger that activates sirtuins and PGC-1alpha signaling. This cascade promotes mitochondrial biogenesis and energy-production efficiency, improving metabolic health and resilience.",
+      "zh-TW": "來自葡萄與紅酒的 Resveratrol 被視為可活化 Sirtuins 與 PGC-1alpha 訊號的 mitohormetic 觸發因子。此級聯反應促進粒線體新生與能量產生效率，改善代謝健康與韌性。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "431461f934f7",
+    "subject": "Sulforaphane",
+    "predicate": "inhibits",
+    "object": "Histone Deacetylases",
+    "context": {
+      "en-US": "Sulforaphane from broccoli acts as a well-characterized inhibitor of histone deacetylase enzymes. By altering histone acetylation and chromatin structure, it durably reprograms expression of genes involved in stress resistance, inflammation, and longevity.",
+      "zh-TW": "來自青花菜的 Sulforaphane 是明確的 Histone Deacetylases 抑制劑。透過改變組蛋白乙醯化與染色質結構，它能持久重編與壓力抗性、發炎及長壽相關基因的表現。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "dbaffa3dd44a",
+    "subject": "EGCG",
+    "predicate": "inhibits",
+    "object": "DNA Methyltransferases",
+    "context": {
+      "en-US": "Epigallocatechin-3-gallate (EGCG) abundant in green tea inhibits DNA methyltransferases. This epigenetic modulation alters DNA methylation patterns governing stress resistance and inflammation genes, conferring long-lasting hormetic adaptation.",
+      "zh-TW": "綠茶中豐富的 Epigallocatechin-3-gallate (EGCG) 可抑制 DNA Methyltransferases。這種表觀遺傳調控改變了控制壓力抗性與發炎基因的 DNA 甲基化模式，賦予持久的 hormesis 適應優勢。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "330de7656941",
+    "subject": "Capsaicin",
+    "predicate": "activates",
+    "object": "TRP Channels",
+    "context": {
+      "en-US": "Capsaicin from chili peppers induces a stimulatory hormetic response by activating transient receptor potential (TRP) channels. Downstream effects include increased thermogenesis, improved mitochondrial function and insulin sensitivity, and reduced risk of obesity, type 2 diabetes, and cardiovascular disease.",
+      "zh-TW": "來自辣椒的 Capsaicin 透過活化 transient receptor potential (TRP) channels 引發興奮性 hormesis 反應。下游效應包括產熱增加、粒線體功能與胰島素敏感性改善，以及肥胖、第二型糖尿病與心血管疾病風險降低。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "0957d13a03bb",
+    "subject": "Curcumin",
+    "predicate": "inhibits",
+    "object": "NF-kB",
+    "context": {
+      "en-US": "Curcumin modulates inflammatory pathways by inhibiting NF-kB signaling. Because turmeric contains only about 3% curcumin with low bioavailability, its in vivo efficacy often requires high doses or formulation strategies such as co-administration with piperine from black pepper.",
+      "zh-TW": "Curcumin 透過抑制 NF-kB 訊號調控發炎路徑。由於薑黃僅含約 3% 的 Curcumin 且生物可利用率低，其在體內的功效常需高劑量或配方策略，例如與黑胡椒中的 piperine 併用。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "8e7527716b0a",
+    "subject": "Polyphenols",
+    "predicate": "exert",
+    "object": "Pro-oxidant Toxicity",
+    "context": {
+      "en-US": "At low doses polyphenols stimulate endogenous antioxidant defenses, but at high concentrations such as concentrated supplements they act as potent pro-oxidants causing oxidative damage. Examples include liver damage from high-dose green tea catechins, illustrating the biphasic benefit-to-harm transition.",
+      "zh-TW": "低劑量 Polyphenols 可刺激內源性抗氧化防禦，但在高濃度（如濃縮補充劑）下則成為強效促氧化劑並造成氧化損傷。例如高劑量綠茶兒茶素可能導致肝損傷，說明了從有益到有害的雙相轉換。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "b8fba767cda6",
+    "subject": "Butyrate",
+    "predicate": "strengthens",
+    "object": "Intestinal Barrier",
+    "context": {
+      "en-US": "Butyrate, a short-chain fatty acid from microbial fermentation of dietary fiber, serves as a primary colonocyte energy source. It enhances barrier integrity by increasing expression of tight junction proteins like occludin, preventing systemic inflammation in a dose-sensitive hormetic manner.",
+      "zh-TW": "Butyrate 是膳食纖維經微生物發酵產生的短鏈脂肪酸，也是結腸細胞的主要能量來源。它透過增加 tight junction 蛋白（如 occludin）的表現來強化屏障完整性，以劑量敏感的 hormesis 方式預防全身性發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "447000e5bd31",
+    "subject": "Flavonoids",
+    "predicate": "modulate",
+    "object": "Gut Microbiota",
+    "context": {
+      "en-US": "Flavonoids are metabolized by gut bacteria into protective phenolic acids, while seaweed-derived components shift Firmicutes/Bacteroidetes ratios and enrich Bacteroides and Lactobacillus. These dose-sensitive microbiota-host interactions link dietary hormetins to systemic physiology.",
+      "zh-TW": "Flavonoids 經腸道菌代謝為具保護作用的酚酸，而海藻來源成分可改變 Firmicutes/Bacteroidetes 比例並增加 Bacteroides 和 Lactobacillus。這些劑量敏感的菌群-宿主交互作用將膳食 Hormetins 與全身生理連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "ad85c6ba9226",
+    "subject": "Maillard Reaction Products",
+    "predicate": "exhibit",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Low doses of Maillard reaction products from cooking show antioxidant, antimicrobial, and prebiotic properties with potential benefits for cancer, glucose metabolism, and cardiovascular risk. High levels are detrimental, so the benefit is confined to a low-dose hormetic window.",
+      "zh-TW": "烹調產生的低劑量 Maillard Reaction Products 具有抗氧化、抗菌與益生元特性，對癌症、葡萄糖代謝與心血管風險可能有益。高劑量則有害，因此其效益侷限於低劑量的 hormesis 窗口。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "edbb8048bb39",
+    "subject": "Dose-Time-Individual Model",
+    "predicate": "guides",
+    "object": "Dietary Hormesis",
+    "context": {
+      "en-US": "The proposed three-dimensional dose-time-individual evaluation model guides personalized nutrition by defining bioavailable biphasic dose-response curves, exposure frequency and timing, and individual modifiers. Key personal variables include NRF2 polymorphisms, microbiome composition, age, and baseline health status.",
+      "zh-TW": "所提出的三維 Dose-Time-Individual Model 透過定義具生物可利用性的雙相劑量反應曲線、暴露頻率與時機，以及個體修飾因子，來指導個人化營養。關鍵個體變項包括 NRF2 基因多態性、微生物組組成、年齡與基線健康狀態。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "aba031fd298c",
+    "subject": "Hormesis",
+    "predicate": "exhibits",
+    "object": "Biphasic Dose-Response",
+    "context": {
+      "en-US": "Hormesis is defined as an adaptive response with low-dose stimulation and high-dose inhibition. The review identifies the biphasic dose-response curve as the fundamental quantitative characteristic of hormesis across stressors. Understanding this curve underpins toxicology, pharmacology, and clinical applications.",
+      "zh-TW": "Hormesis 被定義為具有低劑量刺激和高劑量抑制特徵的適應性反應。該綜述指出 Biphasic Dose-Response 是 Hormesis 在各種壓力源下最基本的可量化特徵。理解此曲線是毒理學、藥理學與臨床應用的基礎。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "b8caefa03d90",
+    "subject": "NOAEL",
+    "predicate": "divides",
+    "object": "Biphasic Dose-Response",
+    "context": {
+      "en-US": "The No-Observed-Adverse-Effect Level (NOAEL) is the dose where the hormetic curve intersects the control-response line. Doses left of NOAEL induce adaptive low-dose responses that maintain homeostasis and improve tolerance, while doses right of NOAEL cause toxicity, irreversible damage, or death. NOAEL therefore marks the boundary between the hormetic zone and toxicity.",
+      "zh-TW": "No-Observed-Adverse-Effect Level (NOAEL) 是 hormetic 曲線與對照反應線相交的劑量。位於 NOAEL 左側的劑量誘發適應性低劑量反應，可維持恆定並提升耐受性，而右側劑量則導致毒性、不可逆損傷或死亡。因此 NOAEL 標誌著 hormetic zone 與毒性之間的界線。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "16fd3429df72",
+    "subject": "Mitohormesis",
+    "predicate": "mediates",
+    "object": "Aging",
+    "context": {
+      "en-US": "Mitohormesis describes hormetic effects of mitochondrial ROS (mtROS), where transient mtROS elevation triggers mitochondrial respiration, antioxidant enzyme activity, and preconditioning-like defense. This lowers long-term cellular ROS, maintains homeostasis, and delays aging phenotypes. The AMPK/HIF-1 feedback cascade regulating mtROS was shown to extend lifespan and immunity in C. elegans.",
+      "zh-TW": "Mitohormesis 描述粒線體 ROS (mtROS) 的 hormetic 效應，短暫的 mtROS 上升會觸發粒線體呼吸、抗氧化酶活性與類似 preconditioning 的防禦。此過程長期可降低細胞 ROS、維持恆定並延緩 Aging 表型。在 C. elegans 中，調控 mtROS 的 AMPK/HIF-1 回饋級聯反應已被證實可延長壽命並增強免疫。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "6eefded694aa",
+    "subject": "Keap1-NRF2-ARE Pathway",
+    "predicate": "activates",
+    "object": "Vitagenes",
+    "context": {
+      "en-US": "In mitohormesis, elevated ROS activates the Keap1/NRF2/ARE pathway, driving transcription of cytoprotective vitagenes. This increases antioxidant enzymes, Hsp70, heme oxygenase-1 (HO-1), neurotrophic factors, plus sirtuin and glutathione redox systems. The resulting adaptive stress response has longer-lasting protection than conventional antioxidants, especially in neurons.",
+      "zh-TW": "在 mitohormesis 中，升高的 ROS 會活化 Keap1/NRF2/ARE Pathway，驅動細胞保護性 Vitagenes 的轉錄。此過程增加抗氧化酶、Hsp70、heme oxygenase-1 (HO-1)、神經營養因子，以及 sirtuin 與穀胱甘肽氧化還原系統。所產生的適應性壓力反應比傳統抗氧化劑具有更持久的保護作用，尤其在神經元中。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "5dc679ec348d",
+    "subject": "Oxidative Stress",
+    "predicate": "correlates_with",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Keyword co-occurrence analysis found oxidative stress (200 occurrences) and aging (185) as the top mechanistic hotspots linked to hormesis. The relationship between hormesis, oxidative stress, and ROS emerged as the dominant post-2010 research direction, replacing earlier toxicity-focused work. ROS understanding expanded from the Free Radical Theory of Aging to redox signaling that triggers adaptive defense.",
+      "zh-TW": "關鍵詞共現分析發現 Oxidative Stress（200 次）與 aging（185 次）是與 Hormesis 連結最強的機制熱點。Hormesis、Oxidative Stress 與 ROS 之間的關係成為 2010 年後的主導研究方向，取代早期的毒性焦點。對 ROS 的理解也從 Free Radical Theory of Aging 擴展為可觸發適應性防禦的氧化還原訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c4ef74cd5f21",
+    "subject": "Hormesis",
+    "predicate": "stimulates",
+    "object": "Cytoprotective Proteins",
+    "context": {
+      "en-US": "Hormesis activates NF-kB, MAPK, AMPK, mTOR, and PI3K/Akt signaling, upregulating phase 2 enzymes, antioxidant enzymes, heat-shock proteins, growth factors, and energy-metabolism proteins. This diminishes oxidative stress and inflammation, mitigates cellular senescence, and enables tissue repair and restored homeostasis. The effect prevents or reduces damage from subsequent higher-dose stimuli across the lifespan.",
+      "zh-TW": "Hormesis 可活化 NF-kB、MAPK、AMPK、mTOR 與 PI3K/Akt 訊號，上調 phase 2 enzymes、抗氧化酶、heat-shock proteins、生長因子與能量代謝蛋白。此作用降低氧化壓力與發炎、減緩細胞衰老，並促進組織修復與恆定重建。該效應可預防或減輕後續高劑量刺激造成的損傷，並貫穿整個生命週期。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "46886829a233",
+    "subject": "Ischemic Preconditioning",
+    "predicate": "is_a_type_of",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Preconditioning and postconditioning are described as clinical manifestations of hormesis, where a low-dose homologous or heterologous stimulus builds a biological protective barrier. Ischemic preconditioning reduces myocardial ischemia-reperfusion injury, and cerebral preconditioning or transient ischemic attacks induce tolerance that lessens subsequent stroke severity. Postconditioning applies a low-dose stimulus after a high-dose insult within a time window.",
+      "zh-TW": "Preconditioning 與 postconditioning 被描述為 Hormesis 的臨床表現形式，即以低劑量同源或異源刺激建立生物保護屏障。Ischemic Preconditioning 可減輕心肌缺血再灌流損傷，而腦部 preconditioning 或短暫性腦缺血發作可誘發耐受性並減輕後續中風嚴重度。Postconditioning 則是在高劑量損傷後的時間窗內施加低劑量刺激。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "76bfb081ead8",
+    "subject": "Fasting",
+    "predicate": "induces",
+    "object": "Differential Stress Resistance",
+    "context": {
+      "en-US": "Short-term starvation or fasting combined with chemotherapy stimulates hormetic responses in normal cells, enhancing resilience, while cancer cells with mutations in Ras or Sch9/S6K cannot mount the same adaptation. This asymmetry is termed differential stress resistance (DSR) and protects normal but not cancer cells against high-dose chemotherapy. It exemplifies exploiting hormesis to widen the therapeutic window.",
+      "zh-TW": "短期飢餓或 Fasting 合併化療可在正常細胞中刺激 hormetic 反應並增強韌性，而帶有 Ras 或 Sch9/S6K 突變的癌細胞則無法產生相同適應。此不對稱現象稱為 Differential Stress Resistance，可保護正常細胞而不保護癌細胞免於高劑量化療損傷。這是利用 hormesis 擴大治療窗的典型例子。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "6e48bd483e0f",
+    "subject": "Statins",
+    "predicate": "exhibits",
+    "object": "Biphasic Dose-Response",
+    "context": {
+      "en-US": "Statins such as atorvastatin (CEV/ATR) enhance inflammation-induced angiogenesis at low doses but inhibit tumor angiogenesis via endothelial apoptosis at high doses, significantly reducing lung tumor development. This biphasic pattern parallels metformin, resveratrol, and ionizing radiation effects within specific dose ranges. It illustrates hormetic anticancer mechanisms categorized by ROS-level modulation.",
+      "zh-TW": "Statins 如 atorvastatin (CEV/ATR) 在低劑量促進發炎誘導的血管新生，在高劑量則經由內皮細胞凋亡抑制腫瘤血管新生，並顯著減少肺腫瘤發展。此雙相模式與特定劑量範圍內的 metformin、resveratrol 及游離輻射效應相似。這說明了以 ROS 水平調控分類的 hormetic 抗癌機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "cbc893020d73",
+    "subject": "Caloric Restriction",
+    "predicate": "activates",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "The link between restricted diets and beneficial effects on aging was recognized as hormetic, with glucose restriction modulating oxidative stress in C. elegans as a landmark 2007 finding. Dietary factors and fasting are framed as hormetic inducers that unify lifespan-regulating molecules and pathways. Active induction of hormesis through diet is proposed as a target for improving aging processes.",
+      "zh-TW": "限制飲食與老化有益效應之間的連結被認為具有 hormetic 性質，其中 2007 年葡萄糖限制調控 C. elegans 氧化壓力的發現為里程碑。飲食因子與禁食被視為可統合壽命調控分子與路徑的 hormetic 誘導因子。透過飲食主動誘導 hormesis 被提議為改善老化過程的標的。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "9173c1126c53",
+    "subject": "Exercise",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Physical exercise activates the redox-sensitive NRF2 signaling pathway, elevating endogenous antioxidant and detoxifying enzymes such as SOD and catalase. These adaptations are triggered by transient exercise-induced ROS acting as signaling mediators rather than purely harmful molecules. The result is enhanced antioxidant defense, mitochondrial biogenesis, and neuroprotection in Alzheimer's and Parkinson's models.",
+      "zh-TW": "Exercise 可活化氧化還原敏感的 NRF2 訊號路徑，提升內源性抗氧化與解毒酶如 SOD 與 catalase。這些適應是由運動誘發的短暫 ROS 作為訊號分子所觸發，而非單純的有害分子。結果是在 Alzheimer's 與 Parkinson's 模型中增強抗氧化防禦、粒線體新生與神經保護。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "ddae07e5e220",
+    "subject": "NRF2",
+    "predicate": "interacts_with",
+    "object": "BDNF",
+    "context": {
+      "en-US": "The review frames the Nrf2-BDNF axis as a functional interplay rather than a single linear cascade, where Nrf2 activation preserves BDNF signaling by reducing oxidative stress, neuroinflammation, and mitochondrial damage. BDNF in turn supports survival, synaptic plasticity, and mitochondrial function via PI3K/Akt and ERK/CREB pathways. Exercise-induced ROS, CREB activation, and mitochondrial adaptations coordinately regulate both arms.",
+      "zh-TW": "該綜述將 Nrf2-BDNF axis 界定為功能性交互作用而非單一線性級聯，其中 NRF2 活化透過降低氧化壓力、神經發炎與粒線體損傷來維持 BDNF 訊號。BDNF 則經由 PI3K/Akt 與 ERK/CREB 路徑支持存活、突觸可塑性與粒線體功能。運動誘發的 ROS、CREB 活化與粒線體適應可協同調控這兩個臂。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "e8e0ad3c2224",
+    "subject": "Exercise",
+    "predicate": "upregulates",
+    "object": "BDNF",
+    "context": {
+      "en-US": "Aerobic exercise, HIIT, and multimodal training upregulate BDNF and activate BDNF/TrkB signaling, improving learning, memory, and motor outcomes in AD and PD models. High-intensity exercise produced the greatest BDNF upregulation in dose-response comparisons, and HIIT reduced neuritic plaques alongside increased SOD and catalase. Effects are context-dependent, with some human trials showing functional gains without circulating BDNF changes.",
+      "zh-TW": "有氧運動、HIIT 與多模式訓練可上調 BDNF 並活化 BDNF/TrkB 訊號，改善 AD 與 PD 模型中的學習、記憶與運動結果。在劑量反應比較中，高強度運動產生最大的 BDNF 上調，而 HIIT 在增加 SOD 與 catalase 的同時減少神經突斑塊。效應具情境依賴性，部分人體試驗顯示功能改善但循環 BDNF 未變化。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "97a349a6e0f5",
+    "subject": "Exercise",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Both physical activity and bioactive antioxidant compounds diminish mTOR activity, relieving suppression of autophagy initiation under nutrient-rich conditions. This permits ULK1 activation and Beclin-1 recruitment, with LC3-I to LC3-II conversion marking autophagosome maturation. Enhanced autophagic flux aids clearance of Abeta, phosphorylated tau, and dysfunctional mitochondria.",
+      "zh-TW": "身體活動與生物活性抗氧化化合物皆可降低 mTOR 活性，解除其在營養豐富條件下對自噬起始的抑制。這允許 ULK1 活化與 Beclin-1 招募，並以 LC3-I 向 LC3-II 轉換標誌自噬體成熟。增強的自噬通量有助於清除 Abeta、磷酸化 tau 與功能失調粒線體。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "65fcb102ed80",
+    "subject": "Exercise",
+    "predicate": "activates",
+    "object": "PGC-1alpha",
+    "context": {
+      "en-US": "Exercise enhances mitochondrial biogenesis via the AMPK-SIRT1-PGC-1alpha axis, including the downstream FNDC5/irisin/BDNF cascade demonstrated in AD rat models. Belviranli et al. showed treadmill exercise restored AMPK/SIRT1/PGC-1alpha signaling and elevated MG53 across brain, muscle, and circulation while reducing plasma tau. This links systemic energy sensing to central neurotrophic and mitochondrial adaptation.",
+      "zh-TW": "Exercise 經由 AMPK-SIRT1-PGC-1alpha 軸增強粒線體新生，包括在 AD 大鼠模型中證實的下游 FNDC5/irisin/BDNF 級聯。Belviranli 等人顯示跑步機運動恢復 AMPK/SIRT1/PGC-1alpha 訊號，並在腦、肌肉與循環中提升 MG53，同時降低血漿 tau。這將全身性能量感測與中樞神經營養及粒線體適應連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "39a3f4428990",
+    "subject": "Antioxidants",
+    "predicate": "suppresses",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Excessive or ill-timed antioxidant supplementation can blunt exercise-induced mitohormesis by scavenging the physiological ROS signals required for Nrf2 activation, mitochondrial biogenesis, and autophagy. High doses attenuate endogenous antioxidant responses and neurotrophic adaptations, explaining neutral or inconsistent combined-intervention outcomes. Low-to-moderate doses that preserve redox signaling may instead complement exercise under excessive oxidative stress.",
+      "zh-TW": "過量或時機不當的 Antioxidants 補充會清除活化 Nrf2、粒線體新生與自噬所需的生理性 ROS 訊號，因而削弱運動誘發的 Mitohormesis。高劑量會減弱內源性抗氧化反應與神經營養適應，解釋了合併介入結果中性或不一致的原因。保留氧化還原訊號的低至中劑量，反而可在過度氧化壓力下 допол運動效益。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "a71a68acf643",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "triggers",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Physiological ROS function as hormetic signals that activate redox-sensitive pathways governing antioxidant defense, mitochondrial biogenesis, autophagy, and neuroplasticity. Autophagy activation is closely tied to redox signaling, so interventions that excessively suppress ROS may attenuate autophagic clearance of aggregates. Preserving moderate ROS is therefore framed as essential for adaptive cellular quality control.",
+      "zh-TW": "生理性 Reactive Oxygen Species 作為 hormetic 訊號，可活化調控抗氧化防禦、粒線體新生、Autophagy 與神經可塑性的氧化還原敏感路徑。自噬活化與氧化還原訊號密切相連，因此過度抑制 ROS 的介入可能減弱對聚集體的自噬清除。因此保留適度 ROS 被視為適應性細胞品質管控的關鍵。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "a45a2db8a949",
+    "subject": "EGCG",
+    "predicate": "promotes",
+    "object": "Non-amyloidogenic APP Processing",
+    "context": {
+      "en-US": "EGCG from green tea enhances alpha-secretase (TACE/ADAM17) activity, shifting APP processing toward the non-amyloidogenic pathway with increased sAPPalpha. This reduces Abeta generation and plaques while modulating tau phosphorylation and improving cognition in APPsw transgenic mice. Efficacy varied with dose and route, with intraperitoneal delivery outperforming oral dosing for cognition.",
+      "zh-TW": "來自綠茶的 EGCG 可增強 alpha-secretase (TACE/ADAM17) 活性，將 APP 處理轉向非類澱粉生成路徑並增加 sAPPalpha。此作用減少 Abeta 生成與斑塊，同時調控 tau 磷酸化並改善 APPsw 轉基因小鼠的認知。療效隨劑量與給藥途徑而異，腹腔注射在認知改善上優於口服。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c7f849ebbfd2",
+    "subject": "Quercetin",
+    "predicate": "reduces",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "Quercetin directly scavenges ROS, chelates metals, activates Nrf2-mediated endogenous defense, and crosses the blood-brain barrier. In stress plus scopolamine rat models it reduced IL-6 and TNF-alpha, modulated APP/APLP2 expression toward non-amyloidogenic processing, and improved cognition and anxiety. Combined quercetin plus treadmill exercise was more effective than either alone in STZ-induced AD rats.",
+      "zh-TW": "Quercetin 可直接清除 ROS、螯合金屬、活化 Nrf2 介導的內源性防禦，並穿越血腦屏障。在壓力合併 scopolamine 大鼠模型中，它降低 IL-6 與 TNF-alpha，調控 APP/APLP2 表現朝向非類澱粉生成處理，並改善認知與焦慮。在 STZ 誘發的 AD 大鼠中，Quercetin 合併跑步機運動比單一介入更有效。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "9e965938d8a3",
+    "subject": "Selenium",
+    "predicate": "supports",
+    "object": "Glutathione Peroxidase",
+    "context": {
+      "en-US": "Selenium is an essential constituent of glutathione peroxidases and thioredoxin reductases that detoxify hydrogen peroxide and lipid hydroperoxides. Zinc complements this by stabilizing membranes, inhibiting NADPH oxidase, and serving as a structural element of superoxide dismutase (SOD). Dysregulation of these trace elements in Parkinson's disease exacerbates oxidative stress and neuronal injury.",
+      "zh-TW": "Selenium 是穀胱甘肽過氧化物酶與硫氧還蛋白還原酶的必要組成，負責解毒過氧化氫與脂質過氧化物。Zinc 則透過穩定細胞膜、抑制 NADPH oxidase，並作為超氧化物歧化酶 (SOD) 的結構元素來 допол此防禦。在 Parkinson's disease 中，這些微量元素的失調會加劇氧化壓力與神經損傷。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "fb26a94ae570",
+    "subject": "Exercise",
+    "predicate": "modulates",
+    "object": "Gut Microbiota",
+    "context": {
+      "en-US": "Exercise modifies gut microbial diversity and microbiota-derived metabolites such as short-chain fatty acids (SCFAs), reducing neuroinflammation and improving mitochondrial function and plasticity in AD models. Antioxidants may support this by preserving intestinal barrier integrity and immune homeostasis. Together they influence gut-brain axis signaling that contributes to cognitive resilience.",
+      "zh-TW": "Exercise 可改變腸道微生物多樣性與微生物衍生代謝物如短鏈脂肪酸 (SCFAs)，在 AD 模型中減少神經發炎並改善粒線體功能與可塑性。抗氧化劑可透過維持腸道屏障完整性與免疫恆定來支持此作用。兩者共同影響 gut-brain axis 訊號，有助於認知韌性。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c52b5c076a9b",
+    "subject": "Zinc Supplementation",
+    "predicate": "worsens",
+    "object": "Alzheimers Disease",
+    "context": {
+      "en-US": "Dietary zinc (10 ppm) worsened spatial memory in CRND8/E4 late-onset AD mice carrying ApoE epsilon4, increasing soluble and insoluble Abeta via altered metal-amyloid interactions and zinc transporter expression. This genotype-dependent harm contrasts with zinc's canonical antioxidant role in SOD and membrane stabilization. It shows antioxidant efficacy depends on ApoE genotype, baseline redox status, and disease biology.",
+      "zh-TW": "飲食鋅 (10 ppm) 在攜帶 ApoE epsilon4 的 CRND8/E4 晚發型 AD 小鼠中惡化空間記憶，經由改變的金屬-類澱粉交互作用與鋅轉運體表現增加可溶性與不可溶性 Abeta。此基因型依賴性傷害與鋅在 SOD 與膜穩定中的典型抗氧化角色形成對比。顯示抗氧化療效取決於 ApoE 基因型、基礎氧化還原狀態與疾病生物學。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "4e1772847803",
+    "subject": "Oxidized LDL",
+    "predicate": "induces_trained_immunity_via",
+    "object": "mTOR-HIF-1alpha Axis",
+    "context": {
+      "en-US": "Brief oxLDL exposure trains human monocytes so that TLR2/TLR4 restimulation elicits amplified TNF-alpha and IL-6. This training depends on Akt/mTOR/HIF-1alpha signaling, since Torin1 or Raptor/Rictor silencing abolishes the trained cytokine response. It exemplifies DAMP-driven immunometabolic rewiring shared with beta-glucan training.",
+      "zh-TW": "短暫的 Oxidized LDL 暴露可訓練人類單核球，使 TLR2/TLR4 再刺激時產生放大的 TNF-alpha 與 IL-6。此訓練依賴 Akt/mTOR/HIF-1alpha signaling，因為 Torin1 或 Raptor/Rictor 沉默可消除訓練後的細胞激素反應。這是與 beta-glucan 訓練共用的 DAMP-driven immunometabolic rewiring 範例。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "7285e5625163",
+    "subject": "Oxidized LDL",
+    "predicate": "deposits_activating_mark_on",
+    "object": "Inflammatory Gene Promoters",
+    "context": {
+      "en-US": "oxLDL-trained monocytes gain H3K4me3 at inflammatory promoters, similar to beta-glucan training, and methyltransferase inhibitors block the trained cytokine output. H3K4me3/H3K27ac enrichment is also seen on the TNF-alpha promoter in monocytes from symptomatic atherosclerosis patients. The mark poises promoters for enhanced transcription upon rechallenge.",
+      "zh-TW": "Oxidized LDL 訓練後的單核球在發炎啟動子處獲得 H3K4me3，類似於 beta-glucan 訓練，且 methyltransferase inhibitors 可阻斷訓練後的細胞激素輸出。在 symptomatic atherosclerosis 患者的單核球中，也可在 TNF-alpha 啟動子上看到 H3K4me3/H3K27ac 富集。該標記使啟動子處於 poised 狀態，以便再刺激時增強轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "866a67068c67",
+    "subject": "Heme",
+    "predicate": "induces_training_via",
+    "object": "SYK Kinase Signaling",
+    "context": {
+      "en-US": "Heme triggers a characteristic TRIM response with H3K27ac remodeling through SYK-dependent ROS generation rather than oxidative chemistry alone. Unlike oxLDL or HMGB1 training, heme training is mTOR-independent: rapamycin has no effect, while SYK inhibition with R406 blocks training. It defines an alternative DAMP-to-chromatin route.",
+      "zh-TW": "Heme 透過 SYK-dependent ROS generation 而非僅靠氧化化學性質，觸發帶有 H3K27ac 重塑的典型 TRIM 反應。與 Oxidized LDL 或 HMGB1 訓練不同，Heme 訓練是 mTOR-independent：rapamycin 無效，而以 R406 抑制 SYK 可阻斷訓練。它定義了一條替代性的 DAMP-to-chromatin 路徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "61724cd3b40a",
+    "subject": "Heme",
+    "predicate": "reprograms",
+    "object": "Hematopoietic Stem and Progenitor Cells",
+    "context": {
+      "en-US": "Systemic heme reaches the bone marrow and activates hematopoietic stem cells, increasing myeloid-lineage frequency and imprinting TRIM-related epigenetic changes. Adoptive progeny show in vivo resistance to bacterial sepsis. This is a central-training mechanism linking hemolysis/tissue damage to durable innate memory.",
+      "zh-TW": "全身性 Heme 可達骨髓並活化 hematopoietic stem cells，增加 myeloid-lineage 比例並印記 TRIM-related epigenetic changes。其子代細胞在 in vivo 對 bacterial sepsis 具抵抗力。這是將溶血／組織損傷與持久性先天記憶連結起來的 central-training 機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "ca3dcf075b9c",
+    "subject": "Monosodium Urate Crystals",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "After MyD88-dependent NF-kB priming induces pro-IL-1beta, monosodium urate crystals activate the NLRP3 inflammasome to generate active caspase-1, which cleaves pro-IL-1beta. The resulting IL-1-mediated inflammation underlies gout pathology. mTOR activation accompanies this program and rapamycin or metformin dampens inflammasome activity.",
+      "zh-TW": "在 MyD88-dependent NF-kB priming 誘導 pro-IL-1beta 之後，Monosodium Urate Crystals 活化 NLRP3 Inflammasome 以產生具活性的 caspase-1，進而切割 pro-IL-1beta。所產生的 IL-1-mediated inflammation 是 gout 病理的基礎。此過程伴隨 mTOR activation，而 rapamycin 或 metformin 可減弱 inflammasome activity。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "2a450ecfa4d4",
+    "subject": "Soluble Urate",
+    "predicate": "primes_chromatin_at",
+    "object": "Monocytes",
+    "context": {
+      "en-US": "Soluble urate induces H3K27ac and H3K4me3 reprogramming in monocytes, and uric-acid priming followed by LPS restimulation boosts IL-1beta production. Methyltransferase inhibitors reverse this primed output. HDAC inhibition likewise modulates MSU-induced proinflammatory cytokines, tying urate training to histone control.",
+      "zh-TW": "Soluble Urate 可在單核球中誘導 H3K27ac 與 H3K4me3 重編程，且 uric-acid priming 後再以 LPS 再刺激可提升 IL-1beta 產量。Methyltransferase inhibitors 可逆轉此 primed 輸出。HDAC inhibition 同樣調節 MSU 誘導的促發炎細胞激素，將 urate training 與 histone control 連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c072570bc2d4",
+    "subject": "Fumarate",
+    "predicate": "imprints_training_by_inhibiting",
+    "object": "KDM5 Histone Demethylases",
+    "context": {
+      "en-US": "In beta-glucan-trained monocytes, glutaminolysis drives fumarate accumulation, which inhibits KDM5 demethylases and preserves activating histone methylation. Exogenous fumarate alone can imprint a trained phenotype, while blocking glutaminolysis impairs training. It directly couples TCA-cycle remodeling to chromatin memory.",
+      "zh-TW": "在 beta-glucan 訓練的單核球中，glutaminolysis 驅動 Fumarate 累積，進而抑制 KDM5 Histone Demethylases 並保留活化型組蛋白甲基化。單獨給予外源性 Fumarate 即可印記 trained phenotype，而阻斷 glutaminolysis 則損害訓練。它直接將 TCA-cycle remodeling 與 chromatin memory 耦合。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "9b1a8de3a885",
+    "subject": "Mevalonate",
+    "predicate": "reinforces_training_via",
+    "object": "IGF1R-mTOR Signaling",
+    "context": {
+      "en-US": "Cholesterol-biosynthesis-derived mevalonate activates IGF1R and downstream PI3K-mTOR, promoting histone modifications at inflammatory loci. Statins prevent trained immunity induction, whereas mevalonate kinase deficiency yields a constitutively trained state. oxLDL engages this mevalonate/IGF1R feedback loop via HIF-1alpha.",
+      "zh-TW": "源自 cholesterol-biosynthesis 的 Mevalonate 活化 IGF1R 及下游 PI3K-mTOR，促進發炎基因座的 histone modifications。Statins 可阻止 trained immunity 的誘導，而 mevalonate kinase deficiency 則產生組成型 trained state。Oxidized LDL 經由 HIF-1alpha 接合此 mevalonate/IGF1R feedback loop。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "6bf92616c6c0",
+    "subject": "Beta-glucan",
+    "predicate": "reverses",
+    "object": "LPS Tolerance",
+    "context": {
+      "en-US": "Beta-glucan reverses the epigenetic program of LPS tolerization, restoring robust proinflammatory cytokine production upon LPS re-exposure in human cells. This demonstrates that training and tolerance use distinct but interconvertible epigenetic routes. It provides proof-of-principle for retraining a tolerized innate compartment.",
+      "zh-TW": "Beta-glucan 可逆轉 LPS tolerization 的表觀遺傳程式，在人類細胞中恢復 LPS 再暴露時的強勁促發炎細胞激素產生。這顯示 training 與 tolerance 使用不同但可互換的表觀遺傳路徑。它為 retraining 已耐受的先天免疫區間提供了原理驗證。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c56d43fe5170",
+    "subject": "mTOR-HIF-1alpha Axis",
+    "predicate": "drives_metabolic_basis_of",
+    "object": "Trained Immunity",
+    "context": {
+      "en-US": "PI3K/Akt/mTOR/HIF-1alpha signaling installs the aerobic-glycolysis (Warburg) program with increased glucose uptake and lactate that supports heightened cytokine output on rechallenge. Genetic or pharmacologic blockade of AKT, mTOR, or HIF-1alpha abrogates both the metabolic shift and trained cytokines in vitro and in vivo. BCG vaccination data corroborate elevated glycolytic flux under mTOR control.",
+      "zh-TW": "PI3K/Akt/mTOR/HIF-1alpha signaling 建立 aerobic-glycolysis（Warburg）程式，增加 glucose uptake 與 lactate，以支持再刺激時增強的細胞激素輸出。在 in vitro 與 in vivo 以基因或藥物阻斷 AKT、mTOR 或 HIF-1alpha，均可消除代謝轉換與訓練後的細胞激素。BCG vaccination 數據也證實在 mTOR 控制下 glycolytic flux 升高。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "089712ee96de",
+    "subject": "Mitochondrial DNA",
+    "predicate": "promotes_tolerance_via",
+    "object": "TLR9-STING-Autophagy Pathway",
+    "context": {
+      "en-US": "Cytosolic mtDNA engages TLR9/MyD88 and STING stress responses that intersect with autophagy and inhibit mTOR, favoring an autophagy-high, OXPHOS/FAO-biased tolerant state. Clinically, elevated circulating mtDNA after myocardial infarction or stroke associates with monocyte endotoxin tolerance and post-injury infection risk. It frames mitochondrial DAMPs as tolerogenic rather than classic trainers.",
+      "zh-TW": "胞質 Mitochondrial DNA 接合 TLR9/MyD88 與 STING stress responses，與 autophagy 交會並抑制 mTOR，偏向 autophagy-high、OXPHOS/FAO 為主的 tolerant state。臨床上，心肌梗塞或中風後循環中升高的 Mitochondrial DNA 與單核球 endotoxin tolerance 及傷後感染風險相關。這將 mitochondrial DAMPs 定位為 tolerogenic 而非典型 trainers。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "7debed6749a2",
+    "subject": "HMGB1",
+    "predicate": "exerts_dose_dependent_control_over",
+    "object": "Training Versus Tolerance",
+    "context": {
+      "en-US": "Acute low-dose HMGB1 via RAGE/TLR2/TLR4 favors mTOR-driven glycolysis and weak TRIM, with splenocyte priming for enhanced LPS responses. Chronic or high-dose HMGB1-RAGE signaling instead raises SIRT1/AMPK activity, suppresses mTOR and FAO programs, and enforces tolerance. HMGB1 also represses CPT1a to tune the FAO/glycolysis balance in macrophages.",
+      "zh-TW": "急性低劑量 HMGB1 經由 RAGE/TLR2/TLR4 偏向 mTOR-driven glycolysis 與微弱 TRIM，並使 splenocyte priming 以增強 LPS 反應。慢性或高劑量 HMGB1-RAGE signaling 反而升高 SIRT1/AMPK activity，抑制 mTOR 與 FAO 程式，並強制進入 tolerance。HMGB1 還可抑制 CPT1a，以調節巨噬細胞中的 FAO/glycolysis 平衡。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "86caa235f626",
+    "subject": "Aldosterone",
+    "predicate": "induces_training_through",
+    "object": "Fatty Acid Synthesis",
+    "context": {
+      "en-US": "Aldosterone trains human monocytes via the mineralocorticoid receptor by upregulating fatty-acid-synthesis enzymes with H3K4me3 enrichment at lipid-metabolism promoters. Blocking fatty acid synthesis abrogates aldosterone training without altering glycolysis or OXPHOS, unlike beta-glucan. It reveals an anabolic-lipid route to innate memory.",
+      "zh-TW": "Aldosterone 經由 mineralocorticoid receptor，上調 fatty-acid-synthesis enzymes，並在 lipid-metabolism 啟動子處富集 H3K4me3，以訓練人類單核球。阻斷 Fatty Acid Synthesis 可消除 Aldosterone 訓練，但不改變 glycolysis 或 OXPHOS，這與 beta-glucan 不同。它揭示了一條 anabolic-lipid 通往先天記憶的路徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "c001fc4d0d9f",
+    "subject": "Vimentin",
+    "predicate": "cooperates_with_hmgb1_to_induce",
+    "object": "Trained Immunity",
+    "context": {
+      "en-US": "Vimentin acting on Dectin-1 followed by HMGB1 restimulation creates a TRIM response comparable to beta-glucan, relevant to post-transplant ischemia-reperfusion injury. Myeloid-specific mTOR-inhibiting nanobiologics (mTORi-HDL/rapamycin) prevent this training and reduce graft-macrophage LPS recall. It links sterile transplant DAMPs to actionable mTOR-dependent memory.",
+      "zh-TW": "作用於 Dectin-1 的 Vimentin 接續 HMGB1 再刺激，可產生與 beta-glucan 相當的 TRIM 反應，與移植後 ischemia-reperfusion injury 相關。Myeloid-specific mTOR-inhibiting nanobiologics（mTORi-HDL/rapamycin）可阻止此訓練並降低 graft-macrophage 的 LPS recall。這將無菌移植 DAMPs 與可操作的 mTOR-dependent memory 連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "363eeeb94f9d",
+    "subject": "S100A4",
+    "predicate": "induces_trim_like_response_in",
+    "object": "Monocytes",
+    "context": {
+      "en-US": "In a multi-DAMP TRIM screen including HMGB1, fibrinogen, and HSP90, only oligomeric S100A4 reached beta-glucan-level trained responses via TLR4/RAGE-MyD88 signaling. It upregulates IL-1/IL-6 programs and bypasses tolerance to subsequent LPS. Whether this reflects classical TRIM or prolonged priming remains unresolved.",
+      "zh-TW": "在包含 HMGB1、fibrinogen 與 HSP90 的多 DAMP TRIM 篩選中，只有 oligomeric S100A4 經由 TLR4/RAGE-MyD88 signaling 達到 beta-glucan 等級的訓練反應。它上調 IL-1/IL-6 程式並 bypass 對後續 LPS 的 tolerance。究屬 classical TRIM 或延長的 priming 仍未定論。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "9c2771837950",
+    "subject": "Hyperglycemia",
+    "predicate": "imprints_central_training_via",
+    "object": "RUNX1-KMT2A Epigenetic Program",
+    "context": {
+      "en-US": "Transient hyperglycemia exacerbates immune training and alone induces low-level TRIM with glycolysis-gene transcription; inhibition of KMT2A histone writers curbs TNF training. Diabetic training is centrally imprinted and adoptively transferable through RUNX1-dependent myeloid reprogramming, promoting atherosclerosis. It underlies the concept of hyperglycemic memory.",
+      "zh-TW": "短暫 Hyperglycemia 可加劇 immune training，單獨即可誘導低程度 TRIM 並轉錄 glycolysis 基因；抑制 KMT2A histone writers 可減弱 TNF 訓練。糖尿病訓練是 centrally imprinted，可經由 RUNX1-dependent myeloid reprogramming 被 adoptively transfer，並促進 atherosclerosis。這是 hyperglycemic memory 概念的基礎。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T14:27:19Z",
+    "updated": "2026-09-04T14:27:19Z"
+  },
+  {
+    "id": "1ae79eb85151",
+    "subject": "Preparation for Oxidative Stress",
+    "predicate": "occurs_in",
+    "object": "Multiple Animal Phyla",
+    "context": {
+      "en-US": "POS has been documented as an adaptive physiological mechanism in 83 animal species from 8 different phyla under low-oxygen stress and estivation, with 60-70% of analyzed species POS-positive. Antioxidant enzymes rise during hypoxia and return to baseline upon reoxygenation or arousal, showing POS is a widespread cross-phylum conditioning strategy rather than a species-specific quirk.",
+      "zh-TW": "Preparation for Oxidative Stress 已被記錄為 8 個不同門共 83 種動物在低氧壓力與夏眠下的適應性生理機制，受分析物種中約 60-70% 為 POS-positive。抗氧化酶在缺氧期間上升，並在再氧合或甦醒後回到基線，顯示 POS 是跨門的 conditioning 策略，而非物種特異的偶發現象。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "17951a8c048a",
+    "subject": "Hormesis",
+    "predicate": "requires",
+    "object": "Quantitative Dose-Response Criteria",
+    "context": {
+      "en-US": "A POS response only qualifies as hormesis if it meets quantitative Calabrese-Blain criteria: at least a 10% increase forming an inverted U-shaped curve or a 3% reduction forming a J-shaped curve, followed by a return toward baseline as a function of exposure time or concentration. These thresholds separate true biphasic hormetic regulation, such as scallop SOD rising 15-50% then falling 40-60%, from noise or monotonic stress responses.",
+      "zh-TW": "POS 反應僅在符合 Calabrese-Blain 定量標準時才算 Hormesis：隨暴露時間或濃度變化，至少增加 10% 形成倒 U 形曲線，或降低 3% 形成 J 形曲線，之後回到基線。這些閾值將真正的雙相 hormetic 調控（如扇貝 SOD 上升 15-50% 後下降 40-60%）與雜訊或單調壓力反應區分開來。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "3bda026a9997",
+    "subject": "Hormetic Zone",
+    "predicate": "spans",
+    "object": "Sub-NOAEL Range",
+    "context": {
+      "en-US": "The hormetic stimulatory zone typically spans 0.1 to 10 times the No-Observed-Adverse-Effect Level (NOAEL), with large-scale analyses indicating approximately 40% of chemical substances exhibit hormetic characteristics. This low-dose stimulation window is evolutionarily conserved from bacteria to mammals and defines where mild stressors build resilience rather than cause inhibition.",
+      "zh-TW": "Hormetic Zone 的刺激窗通常橫跨 No-Observed-Adverse-Effect Level (NOAEL) 的 0.1 至 10 倍，大規模分析顯示約 40% 化學物質具有 hormetic 特徵。此低劑量刺激窗從細菌到哺乳類高度保守，界定了輕度壓力源建立韌性而非造成抑制的範圍。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "40b2135d8bf5",
+    "subject": "Food Matrix",
+    "predicate": "modulates",
+    "object": "Hormetin Bioavailability",
+    "context": {
+      "en-US": "The food matrix, the intricate assembly of nutrients, fiber, and other constituents in whole foods, significantly modulates the bioavailability, metabolism, and ultimate bioactivity of hormetins. Health effects of a diet rich in hormetic foods may therefore exceed and differ qualitatively from the sum of isolated compounds such as resveratrol or curcumin tested in controlled laboratory settings.",
+      "zh-TW": "Food Matrix 即全食物中營養素、纖維與其他成分交織而成的複雜基質，可顯著調控 Hormetins 的生物可利用率、代謝與最終生物活性。因此富含 hormetic 食物的飲食，其健康效應可能超越並在性質上有別於受控實驗室條件下測試的單一分離化合物（如 resveratrol 或 curcumin）效應之總和。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "6c6d1b35ffe4",
+    "subject": "Herbicides",
+    "predicate": "induces",
+    "object": "Plant Hormesis",
+    "context": {
+      "en-US": "Herbicides and paraquat were among the earliest artificial chemical stressors found to induce hormesis in plants, stimulating growth or defense at low doses while causing phytotoxicity at high doses. This biphasic logic is now applied to develop novel herbicides, optimize insecticide dosing via sublethal effects, and eradicate cancer cells by exploiting the high-dose inhibitory limb.",
+      "zh-TW": "Herbicides 與 paraquat 是最早被發現可在植物中誘發 Hormesis 的人工化學壓力源之一，低劑量刺激生長或防禦，高劑量則產生植物毒性。此雙相邏輯現已應用於開發新型除草劑、經由亞致死效應優化殺蟲劑劑量，以及利用高劑量抑制支來清除癌細胞。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "370b141c7c79",
+    "subject": "Antibiotics",
+    "predicate": "activates",
+    "object": "Plant Defense Mechanisms",
+    "context": {
+      "en-US": "Human and veterinary antibiotics released into the environment through animal feces can induce hormesis in plants, activating defense mechanisms and enhancing adaptability at biochemical, growth, physiological, and production levels. This cross-kingdom stimulation aligns with the xenohormesis hypothesis of Howitz and Sinclair, reframing antibiotic residues from pure ecotoxic pollutants into dose-dependent biological regulators.",
+      "zh-TW": "經由動物糞便進入環境的人用與獸用 Antibiotics 可在植物中誘發 hormesis，活化防禦機制並在生化、生長、生理與產量層面增強環境適應力。此跨界刺激符合 Howitz 與 Sinclair 的 xenohormesis hypothesis，將抗生素殘留從純粹的生態毒性污染物重新定義為劑量依賴的生物調節因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "105ea539f1db",
+    "subject": "High-Intensity Exercise",
+    "predicate": "upregulates",
+    "object": "BDNF",
+    "context": {
+      "en-US": "In dose-response comparisons across low, moderate, and high exercise intensities, all intensities improved cognition and motor outcomes, but high-intensity exercise produced the greatest BDNF upregulation alongside the strongest behavioral gains. This intensity-dependent neurotrophic response supports prescribing higher-intensity modalities such as HIIT when tolerated to maximize BDNF-TrkB signaling in neurodegenerative models.",
+      "zh-TW": "在低、中、高運動強度的劑量反應比較中，所有強度均改善認知與運動結果，但 High-Intensity Exercise 產生最大的 BDNF 上調並伴隨最強的行為改善。此強度依賴的神經營養反應支持在可耐受時優先採用 HIIT 等高強度模式，以最大化神經退化模型中的 BDNF-TrkB 訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "973ba834d3fc",
+    "subject": "Exercise",
+    "predicate": "upregulates",
+    "object": "MG53",
+    "context": {
+      "en-US": "In a d-galactose plus AlCl3 sporadic AD rat model with suppressed AMPK-SIRT1-PGC-1alpha signaling and elevated plasma tau, chronic treadmill exercise restored the AMPK-SIRT1-PGC-1alpha axis and significantly elevated MG53 expression at gene and protein levels across brain, muscle, and circulation. Restored MG53 links systemic cellular repair to improved behavior and tau normalization, defining a novel central-peripheral neuroprotective mechanism.",
+      "zh-TW": "在 AMPK-SIRT1-PGC-1alpha 訊號受抑制且血漿 tau 升高的 d-galactose 合併 AlCl3 散發型 AD 大鼠模型中，長期跑步機運動恢復 AMPK-SIRT1-PGC-1alpha 軸，並在腦、肌肉與循環中顯著提升 MG53 的基因與蛋白表現。恢復的 MG53 將全身性細胞修復與行為改善及 tau 正常化連結起來，構成嶄新的中樞-周邊神經保護機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "a1bfdb793630",
+    "subject": "Beta-hydroxybutyrate",
+    "predicate": "activates",
+    "object": "PKA-CREB-BDNF Signaling",
+    "context": {
+      "en-US": "In Abeta-induced AD rats with impaired hippocampal PKA-CREB-BDNF signaling, both intermittent fasting and exercise raised circulating beta-hydroxybutyrate, with the largest elevation in the combined fasted-exercise group. The beta-hydroxybutyrate surge paralleled the strongest rescue of PKA-CREB-BDNF activity and cognition, framing metabolic-neurotrophic coupling as a mediator of fasting-plus-exercise synergy.",
+      "zh-TW": "在海馬 PKA-CREB-BDNF 訊號受損的 Abeta 誘發 AD 大鼠中，間歇性禁食與運動均提升循環 Beta-hydroxybutyrate，其中禁食合併運動組升幅最大。此 βHB 上升與 PKA-CREB-BDNF 活性及認知的最強挽救平行，顯示代謝-神經營養耦合是禁食加運動協同效應的媒介。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "36da8dbb402b",
+    "subject": "LXR Activation",
+    "predicate": "potentiates",
+    "object": "oxLDL-Induced Trained Immunity",
+    "context": {
+      "en-US": "Liver X receptor activation augments oxLDL-induced trained immunity, while LXR inhibition reduces the trained IL-6 and TNF-alpha cytokine response and H3K4me3-H3K27ac enrichment at inflammatory promoters. LXR thus acts as a nuclear-receptor amplifier of the CD36-TLR4 to mTOR-HIF-1alpha training circuit, linking sterol sensing to innate memory.",
+      "zh-TW": "Liver X receptor 活化可增強 oxLDL 誘發的 trained immunity，而抑制 LXR 則降低訓練後的 IL-6 與 TNF-alpha 細胞激素反應及發炎啟動子上的 H3K4me3-H3K27ac 富集。因此 LXR 作為 CD36-TLR4 至 mTOR-HIF-1alpha 訓練迴路的核受體放大器，將固醇感測與先天記憶連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "89af5165af27",
+    "subject": "Western Diet",
+    "predicate": "triggers",
+    "object": "NLRP3-Dependent Trained Immunity",
+    "context": {
+      "en-US": "Short-term Western diet triggers NLRP3-dependent trained immunity with myelopoietic skewing in vivo, and it fails to induce training in Nlrp3-deficient mice. Transient Western diet exposure can imprint durable innate memory that reshapes subsequent inflammatory responses such as DSS colitis, framing diet as a sterile DAMP-like trainer.",
+      "zh-TW": "短期 Western Diet 可在 in vivo 觸發 NLRP3-dependent trained immunity 並造成 myelopoietic skewing，在 Nlrp3 缺陷小鼠則無法誘發訓練。短暫的西式飲食暴露可印記持久的先天記憶，重塑後續發炎反應如 DSS colitis，將飲食定位為類似無菌 DAMP 的訓練因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  },
+  {
+    "id": "7b5b54470c24",
+    "subject": "Burn Injury",
+    "predicate": "induces",
+    "object": "mTOR-Dependent Neutrophil Hyperresponsiveness",
+    "context": {
+      "en-US": "Burn injury induces a chronic mTOR-dependent hyper-responsive training state in innate immunity, with increased neutrophil recruitment to lungs and enhanced reactive oxygen and nitrogen species production upon rechallenge. Rapamycin administration reverses this hyperresponsiveness but impairs bacterial clearance and increases mortality, showing mTOR balances antimicrobial benefit against maladaptive inflammation after burns.",
+      "zh-TW": "Burn Injury 可誘發先天免疫慢性 mTOR-dependent 過度反應訓練狀態，再刺激時肺部嗜中性球招募增加，活性氧與活性氮產量上升。Rapamycin 給藥可逆轉此過度反應，但同時損害細菌清除並增加死亡率，顯示 mTOR 在燒傷後需平衡抗菌效益與失調性發炎。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md",
+    "created": "2026-09-04T16:11:01Z",
+    "updated": "2026-09-04T16:11:01Z"
+  }
+]

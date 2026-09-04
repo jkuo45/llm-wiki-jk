@@ -392,20 +392,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "d9583dd1b57b",
-    "subject": "Cancer",
-    "predicate": "can_be_induced_by",
-    "object": "Paracrine Senescence",
-    "context": {
-      "en-US": "In established tumors, paracrine senescence from therapy-induced senescent (TIS) cells can promote cancer progression via a tumor-supportive SASP rich in growth factors, angiogenic cues, and EMT inducers. The spread of senescence-associated remodeling can enhance stemness, invasiveness, and therapy resistance in neighboring malignant cells. This duality mirrors senescence's overall Janus-faced relationship with cancer. The promoting effect depends on SASP composition and immune context, giving moderate confidence.",
-      "zh-TW": "在已建立腫瘤中，來自治療誘發衰老（TIS）細胞的旁分泌衰老可透過富含生長因子、血管生成線索與 EMT 誘發因子的促腫瘤 SASP 促進癌症進展。衰老相關重塑的擴散可增強鄰近惡性細胞的幹性、侵襲性與治療抗藥性。此雙重性反映衰老與癌症整體的兩面關係。促進效應取決於 SASP 組成與免疫脈絡，信度中等。"
-    },
-    "confidence": 0.68,
-    "source_document": "Paracrine Senescence.md",
-    "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "9ff3b9984d2c",
     "subject": "Cancer",
     "predicate": "is_suppressed_by",
@@ -523,13 +509,13 @@
     "predicate": "is_induced_by",
     "object": "IL-1α",
     "context": {
-      "en-US": "CCL20 expression is driven by NF-kB and induced by IL-1alpha, IL-1beta, and TNF-alpha, placing it downstream of the apical SASP amplifiers. This positions CCL20 within the IL-1alpha-centered feed-forward loop of senescence inflammation, in which a single upstream cytokine orchestrates a broad chemokine response. Its induction integrates the master inflammatory cytokines with chemokine output, ensuring immune recruitment is coordinated with secretome activation. The relationship is mechanistically coherent and well documented across senescence and inflammatory models.",
-      "zh-TW": "CCL20 表現由 NF-κB 驅動，並被 IL-1alpha、IL-1beta 與 TNF-alpha 誘發，將其置於頂層 SASP 放大器的下游。這將 CCL20 定位於 IL-1alpha 中心的衰老發炎正向迴圈中，其中單一上游細胞激素協調廣泛趨化因子反應。其誘發整合主發炎細胞激素與趨化因子輸出，確保免疫招募與分泌組活化協調。此關係在機制上連貫，並跨衰老與發炎模型良好記載。"
+      "en-US": "CCL20 expression is driven by NF-kB and induced by IL-1alpha, IL-1beta, and TNF-alpha, placing it downstream of the apical SASP amplifiers. This positions CCL20 within the IL-1alpha-centered feed-forward loop of senescence inflammation, in which a single upstream cytokine orchestrates a broad chemokine response. Its induction integrates the master inflammatory cytokines with chemokine output, ensuring immune recruitment is coordinated with secretome activation. The relationship is mechanistically coherent and well documented across senescence and inflammatory models. IL-1β acts through the same IL-1R-NF-kB route as a parallel inducer in fibroblasts and epithelial cells.",
+      "zh-TW": "CCL20 表現由 NF-κB 驅動，並被 IL-1alpha、IL-1beta 與 TNF-alpha 誘發，將其置於頂層 SASP 放大器的下游。這將 CCL20 定位於 IL-1alpha 中心的衰老發炎正向迴圈中，其中單一上游細胞激素協調廣泛趨化因子反應。其誘發整合主發炎細胞激素與趨化因子輸出，確保免疫招募與分泌組活化協調。此關係在機制上連貫，並跨衰老與發炎模型良好記載。 IL-1β 在纖維母細胞與上皮細胞經由相同的 IL-1R-NF-κB 途徑作為平行誘發因子。"
     },
     "confidence": 0.9,
     "source_document": "CCL20.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T16:31:56Z"
   },
   {
     "id": "ecceecd32c03",
@@ -1465,20 +1451,6 @@
       "zh-TW": "發炎體經由活化的 caspase-1 處理 pro-IL-1beta，產生成熟 IL-1beta 以供分泌，強化發炎性 SASP。此處理使衰老細胞能釋放強效促發炎細胞激素，且與 IL-1alpha 的頂層放大器角色協調放大分泌組。透過提供成熟 IL-1beta，發炎體將 DAMP 感知（如 mtDNA）連結到旁分泌衰老與免疫招募。此過程是衰老細胞釋放功能性 IL-1beta 的確立機制。"
     },
     "confidence": 0.92,
-    "source_document": "Inflammasome.md",
-    "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "0604e32a5f9c",
-    "subject": "Inflammasome",
-    "predicate": "is_a_type_of",
-    "object": "Immune Complex",
-    "context": {
-      "en-US": "Inflammasomes are cytosolic supramolecular complexes of the innate immune system that assemble in response to pathogens or sterile danger signals to activate inflammatory caspases. They are not antibodies (immune complexes) but rather multiprotein scaffolds; the original classification here as an immune complex is loose, though inflammasomes are innate immune signaling platforms. They serve as a key intersection between senescence, DAMPs, and inflammation. Their activation links cellular damage to IL-1 family cytokine release.",
-      "zh-TW": "發炎體是先天免疫系統的胞質超分子複合體，組裝以回應病原體或無菌危險訊號，活化發炎性 caspase。它們不是抗體（免疫複合體）而是多重蛋白支架；此處歸類為免疫複合體鬆散，儘管發炎體是先天免疫訊號平台。它們作為衰老、DAMP 與發炎間的關鍵交會點。其活化將細胞損傷連結到 IL-1 家族細胞激素釋放。"
-    },
-    "confidence": 0.85,
     "source_document": "Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
     "updated": "2026-08-20T00:00:00Z"
@@ -5598,5 +5570,509 @@
     "source_document": "Senolytic.md",
     "created": "2026-09-02T06:00:00Z",
     "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "6f2ee5672929",
+    "subject": "Follistatin",
+    "predicate": "inhibits",
+    "object": "Myostatin",
+    "context": {
+      "en-US": "Follistatin is the canonical extracellular antagonist of myostatin (GDF8), sequestering the ligand and preventing ActRIIB-ALK4/5 engagement. This blockade underlies its muscle-growth and tissue-remodeling effects and extends the follistatin-activin checkpoint to myostatin within the TGFbeta superfamily.",
+      "zh-TW": "Follistatin 是 myostatin（GDF8）的典型胞外拮抗劑，隔離配體並阻止 ActRIIB-ALK4/5 結合。此阻斷構成其肌肉生長與組織重塑效應，並將 follistatin-activin 檢查點擴展至 TGFbeta 超家族內的 myostatin。"
+    },
+    "confidence": 0.9,
+    "source_document": "Follistatin.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "10322a86c4e1",
+    "subject": "Follistatin",
+    "predicate": "suppresses",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "By neutralizing Activin A extracellularly, follistatin blocks the SMAD-dependent induction of p15INK4b and p21CIP1 in recipient cells. Neutralization experiments partially rescue paracrine arrest, establishing follistatin as a functional brake on SASP-mediated senescence spread.",
+      "zh-TW": "透過在胞外中和 Activin A，follistatin 阻斷受體細胞中 SMAD 依賴的 p15INK4b 與 p21CIP1 誘發。中和實驗部分拯救旁分泌停滯，確立 follistatin 為 SASP 介導衰老擴散的功能性煞車。"
+    },
+    "confidence": 0.8,
+    "source_document": "Follistatin.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "5e83d1a25ae3",
+    "subject": "Activin A",
+    "predicate": "phosphorylates",
+    "object": "SMAD3",
+    "context": {
+      "en-US": "Activin A engagement of ALK4 with type II receptors drives phosphorylation of SMAD3 alongside SMAD2, which then complexes with SMAD4 for nuclear translocation. Phospho-SMAD3 directly transactivates CDKN2B/p15INK4b to enforce paracrine growth arrest.",
+      "zh-TW": "Activin A 經 ALK4 與第二型受體結合，驅動 SMAD3 與 SMAD2 的磷酸化，隨後與 SMAD4 形成複合體轉位入核。磷酸化 SMAD3 直接轉活化 CDKN2B/p15INK4b 以執行旁分泌生長停滯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Activin A.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "017c07b3b20d",
+    "subject": "Activin A",
+    "predicate": "signals_through",
+    "object": "SMAD4",
+    "context": {
+      "en-US": "Phosphorylated SMAD2/3 obligatorily complex with the co-SMAD SMAD4 to regulate target-gene transcription downstream of Activin A-ALK4. This SMAD4-dependent step couples ligand binding to induction of cell-cycle inhibitors in recipient cells.",
+      "zh-TW": "磷酸化 SMAD2/3 必須與共 SMAD SMAD4 形成複合體，才能調節 Activin A-ALK4 下游的標的基因轉錄。此 SMAD4 依賴步驟將配體結合耦合到受體細胞中細胞週期抑制因子的誘發。"
+    },
+    "confidence": 0.85,
+    "source_document": "Activin A.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "2c2a25a0f878",
+    "subject": "p15INK4b",
+    "predicate": "inhibits",
+    "object": "CDK6",
+    "context": {
+      "en-US": "p15INK4b binds and inhibits CDK6 as well as CDK4, preventing cyclin D-CDK complex formation and Rb phosphorylation. This dual INK4 blockade enforces G1 arrest in paracrine and oncogene-induced senescence, paralleling the established p16-CDK6 mechanism.",
+      "zh-TW": "p15INK4b 結合並抑制 CDK6 與 CDK4，防止 cyclin D-CDK 複合體形成與 Rb 磷酸化。此雙重 INK4 封鎖在旁分泌與致癌基因誘發衰老中執行 G1 停滯，與已確立的 p16-CDK6 機制平行。"
+    },
+    "confidence": 0.93,
+    "source_document": "CDKN2B.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "7d781ad66e93",
+    "subject": "CDKN2B",
+    "predicate": "is_induced_by",
+    "object": "SMAD3",
+    "context": {
+      "en-US": "SMAD3/SMAD4 complexes bind SMAD-binding elements at the CDKN2B promoter to induce p15INK4b downstream of TGFbeta-family ligands. This direct transcriptional link couples Activin A and TGF-beta1 signaling to CDK4/6 inhibition and paracrine arrest.",
+      "zh-TW": "SMAD3/SMAD4 複合體結合 CDKN2B 啟動子的 SMAD 結合元件，在 TGFbeta 家族配體下游誘發 p15INK4b。此直接轉錄連結將 Activin A 與 TGF-beta1 訊號耦合到 CDK4/6 抑制與旁分泌停滯。"
+    },
+    "confidence": 0.82,
+    "source_document": "CDKN2B.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "d9618559fec7",
+    "subject": "CCL20",
+    "predicate": "is_induced_by",
+    "object": "TNFalpha",
+    "context": {
+      "en-US": "TNFalpha activates NF-kB to induce CCL20 expression, a textbook chemokine-induction axis in senescence and inflammation. This integrates TNFalpha with the IL-1-driven chemokine program that recruits TH17 and dendritic cells.",
+      "zh-TW": "TNFalpha 活化 NF-κB 以誘發 CCL20 表現，是衰老與發炎中典型的趨化因子誘發軸。此將 TNFalpha 與 IL-1 驅動的趨化因子程序整合，共同招募 TH17 與樹突細胞。"
+    },
+    "confidence": 0.8,
+    "source_document": "CCL20.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "643a55a68e92",
+    "subject": "HLA-E",
+    "predicate": "is_upregulated_by",
+    "object": "IL-8",
+    "context": {
+      "en-US": "SASP cytokines IL-6 and IL-8 jointly upregulate HLA-E, which engages NKG2A/CD94 to suppress NK and CD8 T-cell killing. This symmetric IL-8 leg mirrors the existing IL-6 triple and completes the SASP-driven immune-evasion loop.",
+      "zh-TW": "SASP 細胞激素 IL-6 與 IL-8 共同上調 HLA-E，後者接合 NKG2A/CD94 以抑制 NK 與 CD8 T 細胞殺死。此對稱的 IL-8 路徑呼應既有 IL-6 triple，完整呈現 SASP 驅動的免疫逃脫迴圈。"
+    },
+    "confidence": 0.85,
+    "source_document": "HLA-E.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "6b5b6b2a944c",
+    "subject": "HLA-E",
+    "predicate": "binds",
+    "object": "CD94",
+    "context": {
+      "en-US": "HLA-E is the ligand for the inhibitory NKG2A/CD94 heterodimer on NK and CD8 T cells, contacting both subunits with NKG2A conferring specificity. Engagement delivers an inhibitory signal that blunts cytotoxic clearance of senescent cells.",
+      "zh-TW": "HLA-E 是 NK 與 CD8 T 細胞上抑制性 NKG2A/CD94 異二聚體的配體，接觸兩個次單元並由 NKG2A 賦予特異性。結合傳遞抑制訊號，減弱對衰老細胞的細胞毒性清除。"
+    },
+    "confidence": 0.8,
+    "source_document": "HLA-E.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "f87db5c56b05",
+    "subject": "MyD88",
+    "predicate": "transduces_signals_from",
+    "object": "Toll-like Receptor",
+    "context": {
+      "en-US": "MyD88 is the central TIR-domain adaptor for all Toll-like receptors except TLR3, linking receptor engagement to IRAK4/IRAK1 and TRAF6. In senescence this couples DAMP sensing to NF-kB and SASP transcription.",
+      "zh-TW": "MyD88 是除 TLR3 外所有 Toll-like 受體的核心 TIR 域銜接蛋白，將受體結合連結到 IRAK4/IRAK1 與 TRAF6。在衰老中，此將 DAMP 感知耦合到 NF-κB 與 SASP 轉錄。"
+    },
+    "confidence": 0.92,
+    "source_document": "MyD88.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "18a0b7a81037",
+    "subject": "MyD88",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "MyD88-assembled myddosomes signal through IRAK4/IRAK1, TRAF6 and TAK1 to IKK-dependent NF-kB activation. This is the master transcriptional output sustaining SASP factor expression in senescent and responding macrophages.",
+      "zh-TW": "MyD88 組裝的 myddosome 經 IRAK4/IRAK1、TRAF6 與 TAK1 傳訊至 IKK 依賴的 NF-κB 活化。這是維持衰老細胞與反應巨噬細胞中 SASP 因子表現的主要轉錄輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "MyD88.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "49b637e755dd",
+    "subject": "MyD88",
+    "predicate": "is_activated_by",
+    "object": "IL-1α",
+    "context": {
+      "en-US": "Cell-surface IL-1α engages IL-1R, which recruits MyD88 via TIR-TIR interactions to assemble the myddosome. This apical trigger licenses NF-kB-driven SASP and paracrine arrest.",
+      "zh-TW": "細胞表面 IL-1α 接合 IL-1R，經 TIR-TIR 交互作用招募 MyD88 以組裝 myddosome。此頂層觸發許可 NF-κB 驅動的 SASP 與旁分泌停滯。"
+    },
+    "confidence": 0.88,
+    "source_document": "MyD88.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "8e3f94543de4",
+    "subject": "Myddosome",
+    "predicate": "recruits",
+    "object": "IRAK4",
+    "context": {
+      "en-US": "The myddosome nucleated by MyD88 death domains first recruits the kinase IRAK4, initiating scaffold assembly after IL-1R/TLR engagement. IRAK4 then phosphorylates IRAK1 to propagate signaling toward TRAF6 and TAK1.",
+      "zh-TW": "由 MyD88 death 域成核的 myddosome 首先招募激酶 IRAK4，在 IL-1R/TLR 結合後啟動支架組裝。IRAK4 隨後磷酸化 IRAK1，向 TRAF6 與 TAK1 傳播訊號。"
+    },
+    "confidence": 0.92,
+    "source_document": "Myddosome.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "32e832de146e",
+    "subject": "Myddosome",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Through IRAK1/TRAF6/TAK1 and IKK, the myddosome drives NF-kB nuclear translocation and SASP gene transcription. This output links IL-1α sensing to the inflammatory secretome in senescence.",
+      "zh-TW": "經由 IRAK1/TRAF6/TAK1 與 IKK，myddosome 驅動 NF-κB 核轉位與 SASP 基因轉錄。此輸出將 IL-1α 感知連結到衰老中的發炎分泌組。"
+    },
+    "confidence": 0.88,
+    "source_document": "Myddosome.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "94047858490c",
+    "subject": "Myddosome",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "Myddosome-dependent IL-1R signaling is required for SASP establishment and maintenance; MyD88 or IRAK1 depletion suppresses secretome output. The scaffold thus licenses the IL-1α-to-NF-kB inflammatory program.",
+      "zh-TW": "Myddosome 依賴的 IL-1R 訊號對 SASP 建立與維持必要；耗竭 MyD88 或 IRAK1 抑制分泌組輸出。此支架因此許可 IL-1α 到 NF-κB 的發炎程序。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myddosome.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "47f353cc9b5d",
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "uses",
+    "object": "Caspase-4",
+    "context": {
+      "en-US": "Human caspase-4 is a cytosolic-LPS sensor and noncanonical effector alongside caspase-5, paralleling murine caspase-11. It cleaves gasdermin D and IL-1α to drive SASP and pyroptotic signaling.",
+      "zh-TW": "人類 caspase-4 是胞質 LPS 感受器與非典型效應因子，與 caspase-5 並列，對應小鼠 caspase-11。它切割 gasdermin D 與 IL-1α 以驅動 SASP 與 pyroptotic 訊號。"
+    },
+    "confidence": 0.92,
+    "source_document": "Noncanonical Inflammasome.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "48cbda82085a",
+    "subject": "Noncanonical Inflammasome",
+    "predicate": "processes",
+    "object": "IL-1α",
+    "context": {
+      "en-US": "Caspase-5/11 within the noncanonical inflammasome cleaves pro-IL-1α at a conserved site distinct from calpain, licensing SASP establishment. This pathway-level step complements the existing enzyme-level caspase-5 cleavage triple.",
+      "zh-TW": "非典型發炎體內的 caspase-5/11 在與 calpain 不同的保守位點切割 pro-IL-1α，許可 SASP 建立。此路徑層級步驟補充既有的酶層級 caspase-5 切割 triple。"
+    },
+    "confidence": 0.9,
+    "source_document": "Noncanonical Inflammasome.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "1da4c6b74155",
+    "subject": "Inflammasome",
+    "predicate": "processes",
+    "object": "IL-18",
+    "context": {
+      "en-US": "Canonical inflammasome-activated caspase-1 cleaves pro-IL-18 into its mature secreted form alongside IL-1β. This provides a second IL-1-family cytokine output linking DAMP sensing to senescence inflammation.",
+      "zh-TW": "典型發炎體活化的 caspase-1 將 pro-IL-18 切割為成熟分泌形式，與 IL-1β 並列。這提供第二種 IL-1 家族細胞激素輸出，將 DAMP 感知連結到衰老發炎。"
+    },
+    "confidence": 0.92,
+    "source_document": "Inflammasome.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "f61f49409362",
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "are_recruited_by",
+    "object": "SASP",
+    "context": {
+      "en-US": "SASP-derived GM-CSF, CCL2 and IL-6 jointly recruit and expand MDSCs in senescent and tumor tissue. This chemokine program links the secretome to immunosuppressive myeloid infiltration that blunts senescence surveillance.",
+      "zh-TW": "SASP 衍生的 GM-CSF、CCL2 與 IL-6 共同在衰老與腫瘤組織招募並擴張 MDSC。此趨化因子程序將分泌組連結到削弱衰老監視的免疫抑制性骨髓浸潤。"
+    },
+    "confidence": 0.88,
+    "source_document": "Myeloid-Derived Suppressor Cells.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "e784c052767d",
+    "subject": "IL-1α",
+    "predicate": "signals_through",
+    "object": "IL-1R",
+    "context": {
+      "en-US": "IL-1α engages IL-1R on neighboring cells to activate MyD88-NF-kB signaling and induce paracrine arrest. IL-1R blockade restrains this spread, establishing the receptor as the obligate conduit of IL-1α-mediated senescence transmission.",
+      "zh-TW": "IL-1α 接合鄰近細胞的 IL-1R 以活化 MyD88-NF-κB 訊號並誘發旁分泌停滯。阻斷 IL-1R 抑制此擴散，確立該受體為 IL-1α 介導衰老傳遞的必要通道。"
+    },
+    "confidence": 0.9,
+    "source_document": "Paracrine Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "35d7f00c5e17",
+    "subject": "Paracrine Senescence",
+    "predicate": "is_mediated_by",
+    "object": "VEGF",
+    "context": {
+      "en-US": "VEGF-family signaling contributes to transmissible arrest; VEGFR2/FLT3 inhibition dose-dependently suppresses paracrine senescence in Acosta 2013. This broadens paracrine mediation beyond classical cytokines to angiogenic factors.",
+      "zh-TW": "VEGF 家族訊號貢獻可傳播停滯；Acosta 2013 中 VEGFR2/FLT3 抑制劑量依賴地抑制旁分泌衰老。這將旁分泌介導從典型細胞激素擴展到血管生成因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "Paracrine Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "1244e5a22f98",
+    "subject": "CCL2",
+    "predicate": "mediates",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "CCL2-CCR2 signaling mediates paracrine arrest; CCR2 RNAi or inhibitors block senescence spread in Acosta 2013. Beyond myeloid recruitment, CCL2 thus directly transmits growth arrest to neighbors.",
+      "zh-TW": "CCL2-CCR2 訊號介導旁分泌停滯；Acosta 2013 中 CCR2 RNAi 或抑制劑阻斷衰老擴散。除骨髓招募外，CCL2 因此直接向鄰近細胞傳遞生長停滯。"
+    },
+    "confidence": 0.8,
+    "source_document": "Paracrine Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "0181b8a70209",
+    "subject": "p21 CIP1",
+    "predicate": "is_an_effector_of",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "p21CIP1 induction in recipient cells enforces CDK2 blockade during paracrine senescence; knockdown partially rescues arrest. Together with p15INK4b it provides the redundant INK4/CIP-KIP lock, mirroring the existing CDKN2B effector triple.",
+      "zh-TW": "受體細胞中 p21CIP1 誘發在旁分泌衰老期間執行 CDK2 封鎖；敲低部分拯救停滯。與 p15INK4b 一起提供冗餘的 INK4/CIP-KIP 鎖定，呼應既有的 CDKN2B 效應 triple。"
+    },
+    "confidence": 0.85,
+    "source_document": "Paracrine Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "4a1993e6f4fa",
+    "subject": "GDF15",
+    "predicate": "mediates",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "GDF15 is a TGFbeta-family SASP ligand whose blockade with antibodies partially rescues paracrine arrest in Acosta 2013. It acts alongside Activin A and TGF-beta1 as a non-redundant arrest-transmitting signal.",
+      "zh-TW": "GDF15 是 TGFbeta 家族 SASP 配體，Acosta 2013 中抗體阻斷部分拯救旁分泌停滯。它與 Activin A 和 TGF-beta1 並列，作為非冗餘的停滯傳遞訊號。"
+    },
+    "confidence": 0.78,
+    "source_document": "Paracrine Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "eb7e01b289ac",
+    "subject": "IL-6",
+    "predicate": "signals_through",
+    "object": "gp130",
+    "context": {
+      "en-US": "IL-6 engages the IL-6R/gp130 co-receptor to activate JAK-STAT3, sustaining stemness factors OCT4, NANOG and SOX2. This canonical axis underlies SASP-driven paracrine reprogramming and cancer stemness.",
+      "zh-TW": "IL-6 接合 IL-6R/gp130 共受體以活化 JAK-STAT3，維持幹性因子 OCT4、NANOG 與 SOX2。此典型軸構成 SASP 驅動的旁分泌重編程與癌症幹性的基礎。"
+    },
+    "confidence": 0.92,
+    "source_document": "Paracrine Reprogramming.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "cbfca50eab8a",
+    "subject": "IL-8",
+    "predicate": "signals_through",
+    "object": "CXCR2",
+    "context": {
+      "en-US": "IL-8 (CXCL8) signals through CXCR1/CXCR2 to expand cancer stem-cell pools and promote tumoursphere formation. CXCR2 blockade abrogates this stemness effect, establishing the receptor axis of SASP-driven reprogramming.",
+      "zh-TW": "IL-8（CXCL8）經 CXCR1/CXCR2 訊號擴張癌症幹細胞池並促進腫瘤球形成。阻斷 CXCR2 消除此幹性效應，確立 SASP 驅動重編程的受體軸。"
+    },
+    "confidence": 0.92,
+    "source_document": "Paracrine Reprogramming.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "6c0ee3b7be0b",
+    "subject": "Amphiregulin",
+    "predicate": "signals_through",
+    "object": "EGFR",
+    "context": {
+      "en-US": "Amphiregulin is a canonical EGFR ligand within the SASP growth-factor arm that drives epithelial proliferation and reprogramming. EGFR engagement links senescent secretion to neighboring-stroma remodeling.",
+      "zh-TW": "Amphiregulin 是 SASP 生長因子臂中典型的 EGFR 配體，驅動上皮增殖與重編程。EGFR 結合將衰老分泌連結到鄰近基質重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Paracrine Reprogramming.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "4db07af91f61",
+    "subject": "ATR",
+    "predicate": "activates",
+    "object": "CHK1",
+    "context": {
+      "en-US": "Replication-stress-generated single-stranded DNA engages ATR, which phosphorylates and activates CHK1 to enforce the S-phase checkpoint. In oncogene-induced senescence this cascade stabilizes p53 and locks hyper-replicative cells into arrest.",
+      "zh-TW": "複製壓力產生的單股 DNA 接合 ATR，後者磷酸化並活化 CHK1 以執行 S 期檢查點。在致癌基因誘發衰老中，此級聯穩定 p53 並將過度複製的細胞鎖入停滯。"
+    },
+    "confidence": 0.93,
+    "source_document": "Oncogene-Induced Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "fe98240f4b52",
+    "subject": "ATM",
+    "predicate": "activates",
+    "object": "CHK2",
+    "context": {
+      "en-US": "Double-strand breaks from fork collapse engage ATM, which phosphorylates CHK2 to stabilize p53 in oncogene-induced senescence. Dual ATM-CHK2 and ATR-CHK1 engagement ensures robust arrest under oncogenic stress.",
+      "zh-TW": "叉崩塌產生的雙股斷裂接合 ATM，後者磷酸化 CHK2 以在致癌基因誘發衰老中穩定 p53。ATM-CHK2 與 ATR-CHK1 雙重接合確保致癌壓力下強健的停滯。"
+    },
+    "confidence": 0.93,
+    "source_document": "Oncogene-Induced Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "c3f54806cdd2",
+    "subject": "Therapy-Induced Senescence",
+    "predicate": "is_induced_by",
+    "object": "Cisplatin",
+    "context": {
+      "en-US": "Cisplatin, a DNA cross-linking chemotherapeutic, induces therapy-induced senescence through persistent DNA damage and p53/p21 engagement. It belongs to the same genotoxic trigger class as the established doxorubicin and etoposide triples.",
+      "zh-TW": "Cisplatin（一種 DNA 交聯化療藥）透過持續 DNA 損傷與 p53/p21 參與誘發治療誘發衰老。它與已確立的 doxorubicin 和 etoposide triple 同屬基因毒性觸發類別。"
+    },
+    "confidence": 0.88,
+    "source_document": "Therapy-Induced Senescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "b32f4a5a9ea7",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "Lamins",
+    "context": {
+      "en-US": "Executioner caspase-3 cleaves nuclear lamins during apoptosis, driving nuclear envelope breakdown and chromatin collapse. This canonical cleavage distinguishes apoptotic lamin loss from senescence-associated lamin B1 decline.",
+      "zh-TW": "執行者 caspase-3 在凋亡期間切割核 lamins，驅動核膜崩解與染色質塌陷。此典型切割區分凋亡性 lamin 喪失與衰老相關 lamin B1 下降。"
+    },
+    "confidence": 0.93,
+    "source_document": "Lamins.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "45d76ab6ebf5",
+    "subject": "SASP",
+    "predicate": "is_composed_of",
+    "object": "CXCL12",
+    "context": {
+      "en-US": "CXCL12 is the most highly upregulated SASP factor in senescent endothelial cells with vascular aging, causally driving endothelial dysfunction via nitric-oxide suppression and ROS. The senolytic fisetin normalizes CXCL12 to rescue vascular function.",
+      "zh-TW": "CXCL12 是血管老化中衰老內皮細胞上調幅度最高的 SASP 因子，透過抑制 nitric oxide 與促進 ROS 因果性驅動內皮功能障礙。Senolytic fisetin 使 CXCL12 正常化以挽救血管功能。"
+    },
+    "confidence": 0.88,
+    "source_document": "SASP.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "d137a1831d3c",
+    "subject": "SASP",
+    "predicate": "promotes",
+    "object": "Stemness",
+    "context": {
+      "en-US": "SASP IL-6/IL-8 signaling through JAK-STAT3 promotes dedifferentiation and stem-like states in recipient cells. This fate-modulating arm underlies both regenerative plasticity acutely and cancer stemness chronically.",
+      "zh-TW": "SASP 的 IL-6/IL-8 經 JAK-STAT3 訊號促進受體細胞去分化與類幹細胞狀態。此命運調節臂構成急性期的再生可塑性與慢性期的癌症幹性。"
+    },
+    "confidence": 0.85,
+    "source_document": "SASP.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "41fecce5bf24",
+    "subject": "Senolytic",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Senolytics selectively induce apoptosis in senescent cells by disabling SCAPs, clearing them from tissues while sparing healthy cells. This singular-subject form parallels the existing plural Senolytics clearance triple for graph canonicalization.",
+      "zh-TW": "Senolytics 透過失能 SCAPs 選擇性誘發衰老細胞凋亡，將其從組織清除並保留健康細胞。此單數主詞形式與既有的複數 Senolytics 清除 triple 平行，以利圖譜正規化。"
+    },
+    "confidence": 0.93,
+    "source_document": "Senolytic.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "b90cee5a48c8",
+    "subject": "Mitophagy",
+    "predicate": "suppresses",
+    "object": "SAMD",
+    "context": {
+      "en-US": "PINK1-dependent mitophagy clears damaged mitochondria and limits senescence-associated mitochondrial dysfunction. Loss of mitophagy drives SAMD with mtDNA leakage and ROS in senescence and idiopathic pulmonary fibrosis models.",
+      "zh-TW": "PINK1 依賴的 mitophagy 清除受損粒線體並限制衰老相關粒線體功能障礙。Mitophagy 缺失在衰老與特發性肺纖維化模型中驅動伴隨 mtDNA 滲漏與 ROS 的 SAMD。"
+    },
+    "confidence": 0.78,
+    "source_document": "Senescence-associated mitochondrial dysfunction.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "507823b4af38",
+    "subject": "Immunosenescence",
+    "predicate": "contributes_to",
+    "object": "Senescent Cell Accumulation",
+    "context": {
+      "en-US": "Age-related decline in NK, macrophage and T-cell clearance permits senescent cells to persist and accumulate. This failed-surveillance loop closes the circuit with aging-driven senescent-cell formation.",
+      "zh-TW": "NK、巨噬細胞與 T 細胞清除的年齡相關衰退允許衰老細胞持續與累積。此監視失敗迴圈與老化驅動的衰老細胞形成構成迴路。"
+    },
+    "confidence": 0.85,
+    "source_document": "Immunosenescence.md",
+    "created": "2026-09-04T16:31:31Z",
+    "updated": "2026-09-04T16:31:31Z"
   }
 ]

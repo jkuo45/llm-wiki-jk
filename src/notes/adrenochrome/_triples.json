@@ -266,20 +266,6 @@
     "updated": "2026-08-20T06:34:59Z"
   },
   {
-    "id": "651d074a1ed3",
-    "subject": "Adrenochrome",
-    "predicate": "associates_with",
-    "object": "Cardiotoxicity",
-    "context": {
-      "en-US": "Adrenochrome, the oxidation product of epinephrine, is linked to potential cardiotoxic effects when catecholamine levels are high or under oxidative stress. Oxidation of adrenaline to adrenochrome has been observed in isolated rat cardiomyocytes, and one hypothesis proposes that adrenochrome or its metabolites such as adrenolutin contribute to stress-induced heart problems. In inflammatory cardiac conditions such as myocardial infarction, where neutrophils infiltrate and release ROS, local conversion of epinephrine to adrenochrome could be relevant, though the cardiotoxic contribution of adrenochrome specifically remains incompletely established.",
-      "zh-TW": "Adrenochrome, the oxidation product of epinephrine, is linked to potential cardiotoxic effects when catecholamine levels are high or under oxidative stress。Oxidation of adrenaline to adrenochrome has been observed in isolated rat cardiomyocytes, and one hypothesis proposes that adrenochrome or its metabolites such as adrenolutin contribute to stress-induced heart problems。In inflammatory cardiac conditions such as myocardial infarction, where neutrophils infiltrate and release ROS, local conversion of epinephrine to adrenochrome could be relevant, though the cardiotoxic contribution of adrenochrome specifically remains incompletely established。"
-    },
-    "confidence": 0.7,
-    "source_document": "_document_ - neutrophil and erthrocyte.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
-  },
-  {
     "id": "3ab503d2d44f",
     "subject": "Adrenochrome",
     "predicate": "causes",
@@ -434,20 +420,6 @@
     "updated": "2026-09-02T06:35:13Z"
   },
   {
-    "id": "d96f11039165",
-    "subject": "Adrenochrome",
-    "predicate": "induces",
-    "object": "Ferroptosis",
-    "context": {
-      "en-US": "Adrenochrome is hypothesized to act as a dual ferroptosis inducer, simultaneously generating lipid-peroxidation-initiating ROS via redox cycling and potentially inhibiting GPX4 through o-quinone electrophilic arylation of its selenocysteine. This mechanism is analogous to the classical ferroptosis inducer RSL3. The hypothesis awaits experimental validation with ferroptosis rescue panels.",
-      "zh-TW": "Adrenochrome 被假設作為雙重 ferroptosis 誘導劑，一方面透過 redox cycling 產生啟動 lipid peroxidation 的 ROS，另一方面可能透過對其 selenocysteine 的 o-quinone 親電子芳基化來抑制 GPX4。此機制類似於經典的 ferroptosis 誘導劑 RSL3。此假設有待以 ferroptosis 救援組合進行實驗驗證。"
-    },
-    "confidence": 0.6,
-    "source_document": "Adrenochrome.md",
-    "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
-  },
-  {
     "id": "2de91b074bf1",
     "subject": "Adrenochrome",
     "predicate": "depletes",
@@ -460,20 +432,6 @@
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T06:56:15Z"
-  },
-  {
-    "id": "a105d229e814",
-    "subject": "Adrenochrome",
-    "predicate": "inhibits",
-    "object": "GPX4",
-    "context": {
-      "en-US": "Adrenochrome is hypothesized to inhibit GPX4 through o-quinone electrophilic arylation of its catalytic selenocysteine, analogous to the ferroptosis inducer RSL3. Combined with redox-cycling generation of lipid-peroxidation-initiating ROS, this would make adrenochrome a dual ferroptosis inducer. This hypothesis may explain cardiomyocyte death in catecholamine-induced cardiomyopathy and dopaminergic neuron vulnerability in Parkinson's disease.",
-      "zh-TW": "Adrenochrome 被假設透過 o-quinone 對其催化性 selenocysteine 進行親電子芳基化來抑制 GPX4，類似於 ferroptosis 誘導劑 RSL3。結合 redox cycling 產生啟動 lipid peroxidation 的 ROS，這將使 adrenochrome 成為雙重 ferroptosis 誘導劑。此假設或可解釋 catecholamine-induced cardiomyopathy 中的心肌細胞死亡，以及 Parkinson's disease 中多巴胺能神經元的易感性。"
-    },
-    "confidence": 0.6,
-    "source_document": "Adrenochrome.md",
-    "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
   },
   {
     "id": "641c8698a9e1",
@@ -950,20 +908,6 @@
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T07:39:11Z"
-  },
-  {
-    "id": "8cecec5b139e",
-    "subject": "Adrenochrome monoaminoguanidine",
-    "predicate": "may_act_as",
-    "object": "Prodrug",
-    "context": {
-      "en-US": "For adrenochrome monoaminoguanidine to act as an active AGE inhibitor despite its hydrazine group being locked in a hydrazone bond, it must either retain sufficient nucleophilicity through its remaining guanidine nitrogens, act as a prodrug that undergoes controlled in vivo hydrolysis to slowly release free aminoguanidine, or work via alternative pathways such as chelating transition metals that catalyze glycoxidation. The prodrug hypothesis is plausible because the conjugate is stable for clinical use yet could hydrolyze to release aminoguanidine over time. Whether the bound aminoguanidine retains dicarbonyl-scavenging activity remains unresolved.",
-      "zh-TW": "儘管 adrenochrome monoaminoguanidine 的肼基被鎖定在腙鍵中，要作為活性 AGE 抑制劑，它必須透過剩餘的胍氮保留足夠的親核性、作為前藥在體內經受控水解以緩慢釋出游離 aminoguanidine，或經由螯合催化糖氧化的過渡金屬等替代途徑作用。前藥假說是合理的，因為該共軛物在臨床上穩定可用，但隨時間可能水解釋出 aminoguanidine。被結合的 aminoguanidine 是否保留二羰基清除活性仍懸而未決。"
-    },
-    "confidence": 0.6,
-    "source_document": "_document_ - glyco-oxidative modulation.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
   },
   {
     "id": "352b9fed2900",
@@ -3150,20 +3094,6 @@
     "updated": "2026-08-25T04:18:36Z"
   },
   {
-    "id": "92ee95f523a3",
-    "subject": "GlyNAC",
-    "predicate": "synergizes_with",
-    "object": "Carbazochrome",
-    "context": {
-      "en-US": "In the SASP-remodeling aminochrome complex (SRAC) strategy, GlyNAC supplies the reductive glutathione buffer while carbazochrome (a stabilized adrenochrome derivative) supplies the mitohormetic trigger, expanding the safety margin of the hormetic pulse. This is a protocol-design hypothesis (combo-therapy/SRAC documents), NOT directly established in primary biomedical literature; it rests on the separately grounded edges GlyNAC -> Glutathione and Carbazochrome -> Adrenochrom (is_derivative_of).",
-      "zh-TW": "在 SASP 重塑胺基色體複合物（SRAC）策略中，GlyNAC 提供穀胱甘肽還原緩衝，而卡巴可羅（穩定化的腎上腺素紅衍生物）提供粒線體激素性觸發，擴大激素性脈衝的安全邊際。這是一項協定設計假說（combo-therapy／SRAC 文件），並非直接由基礎醫學文獻確立；其依據來自各自獨立佐證的 GlyNAC → 穀胱甘肽 與 卡巴可羅 → 腎上腺素紅（is_derivative_of）邊。"
-    },
-    "confidence": 0.5,
-    "source_document": "GlyNAC.md",
-    "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:18:36Z"
-  },
-  {
     "id": "7d57e28e37ea",
     "subject": "GlyNAC",
     "predicate": "increases",
@@ -4713,20 +4643,6 @@
       "zh-TW": "菸鹼醯胺單核苷酸（NMN）在血液中不穩定，即使在 -80 攝氏度下也會極快速地降解。在首項健康受試者單次口服 NMN 劑量（100-500 mg）的臨床試驗中，血漿中未檢出 NMN，最可能的原因是萃取前樣本冷凍導致 NMN 降解。這種快速降解使循環 NMN 的準確測量變得複雜，並可能解釋為何血漿 NMN 水平維持在低且恆定的狀態，推測是由於 NMN 從血漿到組織的平衡分佈。在小鼠中，口服給予的 NMN 迅速從腸道吸收，在 15 分鐘內從循環中清除，並在肝臟與比目魚肌等組織中快速轉化為 NAD+。"
     },
     "confidence": 0.9,
-    "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
-  },
-  {
-    "id": "46dee06f69ec",
-    "subject": "Nicotinamide Mononucleotide",
-    "predicate": "ameliorates",
-    "object": "COVID-19",
-    "context": {
-      "en-US": "A case study of 10 critically ill COVID-19 patients over 50 years old reported that an NMN cocktail (83 mL of NMN mixed with 400 mL of water, consumed before breakfast and dinner) was strongly associated with resolution of COVID-19 symptoms. Before treatment, patients had low oxygen saturation, pulmonary infiltrates, and inflammation; post-treatment there was rapid improvement in bilateral pulmonary infiltrates, fever resolution, and lower inflammation biomarkers. One patient who stopped treatment after 3 days experienced relapse with fever and pulmonary infiltrates 8 days later. The rapid clinical improvement suggests NMN may help reverse the potentially fatal cytokine storm triggered by SARS-CoV-2, though larger controlled studies are needed.",
-      "zh-TW": "一項針對 10 名 50 歲以上重症 COVID-19 患者的病例研究報告，NMN 雞尾酒（83 mL NMN 混合 400 mL 水，於早餐與晚餐前飲用）與 COVID-19 症狀的緩解強烈相關。治療前，患者血氧飽和度低、有肺部浸潤與發炎；治療後雙側肺部浸潤迅速改善、退燒，且發炎生物標記下降。一名患者在 3 天後停止治療，8 天後出現發燒與肺部浸潤的復發。快速的臨床改善顯示 NMN 可能有助於逆轉 SARS-CoV-2 觸發的潛在致命細胞激素風暴，儘管仍需要更大規模的對照研究。"
-    },
-    "confidence": 0.5,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T07:14:47Z"
@@ -7670,5 +7586,957 @@
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T07:32:19Z"
+  },
+  {
+    "id": "73dbe78866ca",
+    "subject": "Hypochlorous Acid",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Hypochlorous acid rapidly converts epinephrine to its quinone via near-diffusion-limited two-electron oxidation without metal catalysis. This direct oxidation is the strongest newly documented MPO-pathway step.",
+      "zh-TW": "次氯酸以近擴散極限的雙電子氧化快速將腎上腺素轉為醌，無需金屬催化。此直接氧化是 MPO 路徑中最強的新記載步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myeloperoxidase Pathway.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "4dc6b2d6a15d",
+    "subject": "Myeloperoxidase",
+    "predicate": "oxidizes",
+    "object": "Chloride",
+    "context": {
+      "en-US": "Myeloperoxidase converts hydrogen peroxide plus chloride to hypochlorous acid through Compound I enzymology. This core reaction feeds all downstream HOCl oxidation chemistry.",
+      "zh-TW": "髓過氧化物酶經 Compound I 酶學將過氧化氫加氯化物轉為次氯酸。此核心反應供養下游所有 HOCl 氧化化學。"
+    },
+    "confidence": 0.9,
+    "source_document": "HOCl-mediated Oxidation.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "9453df92cc96",
+    "subject": "Leuco-adrenochrome",
+    "predicate": "generates",
+    "object": "Superoxide anion",
+    "context": {
+      "en-US": "Leuco-adrenochrome stimulates oxygen uptake with semiquinone to superoxide conversion at rate constants near 1e8. Generation restarts the redox-cycling loop.",
+      "zh-TW": "無色腎上腺素以近 1e8 速率常數經半醌刺激攝氧產生超氧陰離子。生成重啟氧化還原循環。"
+    },
+    "confidence": 0.78,
+    "source_document": "Leuco-adrenochrome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "9eb4160a44f4",
+    "subject": "Leuco-adrenochrome",
+    "predicate": "converts_to",
+    "object": "Adrenochrome Semiquinone Radical",
+    "context": {
+      "en-US": "One-electron oxidation of leuco-adrenochrome yields the semiquinone radical as a distinct pathway step from full oxidation to adrenochrome. Conversion records the radical-branch direction.",
+      "zh-TW": "無色腎上腺素的單電子氧化產生半醌自由基，與完全氧化為腎上腺素是不同的路徑步驟。轉換記錄自由基分支方向。"
+    },
+    "confidence": 0.8,
+    "source_document": "Leuco-adrenochrome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "3627fbe1840e",
+    "subject": "Adrenochrome Semiquinone Radical",
+    "predicate": "participates_in",
+    "object": "Redox Cycling",
+    "context": {
+      "en-US": "The semiquinone radical catalytically regenerates through the redox-cycling loop. Participation sustains superoxide production.",
+      "zh-TW": "半醌自由基經由氧化還原循環催化再生。參與維持超氧產生。"
+    },
+    "confidence": 0.88,
+    "source_document": "Adrenochrome Semiquinone Radical.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "725aa3f6be48",
+    "subject": "NQO1",
+    "predicate": "reduces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "NQO1 performs obligatory two-electron quinone to hydroquinone reduction, bypassing the semiquinone and blocking redox cycling. NQO1 is DT-diaphorase, the classic aminochrome reductase.",
+      "zh-TW": "NQO1 執行必要的雙電子醌到氫醌還原，繞過半醌並阻斷氧化還原循環。NQO1 即 DT-diaphorase，典型的胺色素還原酶。"
+    },
+    "confidence": 0.85,
+    "source_document": "NQO1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "fe6fd1108682",
+    "subject": "NQO1",
+    "predicate": "uses",
+    "object": "NADPH",
+    "context": {
+      "en-US": "NQO1 uses NADH/NADPH as electron donor via FAD-mediated hydride transfer. Donor use defines the reductase mechanism.",
+      "zh-TW": "NQO1 經由 FAD 介導的氫負離子轉移使用 NADH/NADPH 為電子供體。供體使用定義還原酶機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "NQO1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "f6ccf37069f4",
+    "subject": "Cytochrome b5 reductase",
+    "predicate": "reduces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Cytochrome b5 reductase is an in-range reductant of adrenochrome by redox-potential argument. Reduction adds a microsomal arm to aminochrome metabolism.",
+      "zh-TW": "細胞色素 b5 還原酶依氧化還原電位是腎上腺素的還原劑。還原為胺色素代謝增加微粒體分支。"
+    },
+    "confidence": 0.75,
+    "source_document": "Redox Cycling.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "470987cb0c51",
+    "subject": "Dopaminochrome",
+    "predicate": "participates_in",
+    "object": "Redox Cycling",
+    "context": {
+      "en-US": "Dopaminochrome undergoes redox cycling analogous to adrenochrome. Participation groups the aminochromes mechanistically.",
+      "zh-TW": "多巴胺色素經歷與腎上腺素類似的氧化還原循環。參與在機制上統合胺色素。"
+    },
+    "confidence": 0.8,
+    "source_document": "Redox Cycling.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "e5d239329323",
+    "subject": "Dopaminochrome",
+    "predicate": "is_a",
+    "object": "Electrophile",
+    "context": {
+      "en-US": "Dopaminochrome carries the alpha,beta-unsaturated indoline-5,6-dione Michael-acceptor motif shared with adrenochrome. Classification groups the quinoid electrophiles.",
+      "zh-TW": "多巴胺色素帶有與腎上腺素共享的 α,β-不飽和吲哚醌 Michael 受體基序。歸類統合醌型親電子劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Electrophile.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "f7f764dc730d",
+    "subject": "Glutathione",
+    "predicate": "reduces",
+    "object": "Adrenaline-quinone",
+    "context": {
+      "en-US": "Glutathione normally reduces adrenaline-quinone back to epinephrine as the first-line quinone defense. Reduction competes with cyclization to leuco-adrenochrome.",
+      "zh-TW": "穀胱甘肽通常將腎上腺素醌還原回腎上腺素，作為第一線醌防禦。還原與環化為無色腎上腺素競爭。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adrenaline catabolism.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "71ada72fae9b",
+    "subject": "Glutathione",
+    "predicate": "reacts_with",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Glutathione Michael addition at indole C7 is the major detox pathway for adrenochrome. Reaction mirrors the aminoguanidine-adrenochrome pairing.",
+      "zh-TW": "穀胱甘肽在吲哚 C7 的 Michael 加成是腎上腺素的主要解毒路徑。反應呼應胺胍—腎上腺素配對。"
+    },
+    "confidence": 0.85,
+    "source_document": "Michael addition.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "e11b4e197643",
+    "subject": "Superoxide anion",
+    "predicate": "converts_to",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Superoxide dismutates to hydrogen peroxide with defined stoichiometry and kinetics. Conversion links the MPO substrate supply to HOCl production.",
+      "zh-TW": "超氧陰離子以確定化學計量與動力學歧化為過氧化氫。轉換將 MPO 受質供應連結到 HOCl 產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "Superoxide anion.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "6dc8a6917264",
+    "subject": "Superoxide anion",
+    "predicate": "reacts_with",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "Superoxide reacts with nitric oxide at diffusion-limited rates near 1e10 to yield peroxynitrite. Reaction couples oxidative stress to endothelial dysfunction.",
+      "zh-TW": "超氧陰離子以近 1e10 的擴散極限速率與一氧化氮反應產生過氧亞硝酸鹽。反應將氧化壓力耦合到內皮功能障礙。"
+    },
+    "confidence": 0.9,
+    "source_document": "Superoxide anion.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "94c5bb81378f",
+    "subject": "Xanthine Oxidase",
+    "predicate": "produces",
+    "object": "Superoxide anion",
+    "context": {
+      "en-US": "Xanthine oxidase generates superoxide as a byproduct of hypoxanthine/xanthine to uric acid conversion, a major ischemia-reperfusion source. Production adds the purine-catabolism arm.",
+      "zh-TW": "黃嘌呤氧化酶在次黃嘌呤/黃嘌呤轉尿酸時副產超氧陰離子，是缺血再灌注的主要來源。產生增加嘌呤分解臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "Superoxide anion.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "33ba33979d2b",
+    "subject": "Adrenolutin",
+    "predicate": "reacts_with",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Adrenolutin forms covalent glutathione adducts about tenfold slower than adrenochrome. Reaction records the attenuated thiol reactivity.",
+      "zh-TW": "腎上腺素的光學異構體以約慢十倍的速率形成穀胱甘肽共價加合物。反應記錄減弱的硫醇反應性。"
+    },
+    "confidence": 0.72,
+    "source_document": "Adrenolutin.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "149f7d778053",
+    "subject": "Adrenolutin",
+    "predicate": "polymerizes_to",
+    "object": "Melanins",
+    "context": {
+      "en-US": "Adrenolutin further polymerizes into melanin-like pigments. Polymerization extends the aminochrome to melanin route.",
+      "zh-TW": "腎上腺素的光學異構體進一步聚合為類黑素色素。聚合延伸胺色素到黑素路徑。"
+    },
+    "confidence": 0.72,
+    "source_document": "Adrenolutin.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "58faec4a0ddd",
+    "subject": "Leukoaminochrome",
+    "predicate": "converts_to",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Leukoaminochrome condenses into polymeric neuromelanin pigment. Conversion records the generic leuco-aminochrome to pigment route.",
+      "zh-TW": "無色胺色素縮合為聚合的神經黑素色素。轉換記錄通用無色胺色素到色素路徑。"
+    },
+    "confidence": 0.75,
+    "source_document": "Leukoaminochrome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "ddfcf0763a0f",
+    "subject": "Maillard Reaction",
+    "predicate": "produces",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "The Maillard intermediate stage generates the dicarbonyl methylglyoxal as a textbook product. Production roots dicarbonyl stress in glycation.",
+      "zh-TW": "梅納反應中間階段產生二羰基甲基乙二醛作為教科書產物。產生將二羰基壓力根植於糖化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Maillard Reaction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "9d31d8334b87",
+    "subject": "Maillard Reaction",
+    "predicate": "produces",
+    "object": "Glyoxal",
+    "context": {
+      "en-US": "The Maillard intermediate stage generates glyoxal alongside methylglyoxal. Parallel production of the dicarbonyl pair.",
+      "zh-TW": "梅納反應中間階段與甲基乙二醛並列產生乙二醛。二羰基對的平行產生。"
+    },
+    "confidence": 0.85,
+    "source_document": "Maillard Reaction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "8a06c377bb00",
+    "subject": "Maillard Reaction",
+    "predicate": "produces",
+    "object": "3-deoxyglucosone",
+    "context": {
+      "en-US": "The Maillard intermediate stage generates 3-deoxyglucosone as a dicarbonyl product. Production completes the intermediate trio.",
+      "zh-TW": "梅納反應中間階段產生 3-去氧葡萄糖醛酮作為二羰基產物。產生補完中間三元組。"
+    },
+    "confidence": 0.8,
+    "source_document": "Maillard Reaction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "e06ea99e81a2",
+    "subject": "Methylglyoxal",
+    "predicate": "modifies",
+    "object": "Arginine",
+    "context": {
+      "en-US": "Methylglyoxal preferentially targets arginine guanidinium groups to form hydroimidazolone adducts. Modification is the dominant AGE chemistry.",
+      "zh-TW": "甲基乙二醛優先標定精胺酸胍基形成氫咪唑酮加合物。修飾是主要的 AGE 化學。"
+    },
+    "confidence": 0.88,
+    "source_document": "Methylglyoxal.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "2cbfd7283eac",
+    "subject": "Methylglyoxal",
+    "predicate": "modifies",
+    "object": "Lysine",
+    "context": {
+      "en-US": "Methylglyoxal modifies lysine to carboxyethyllysine and crosslinks. Modification is the second major AGE route.",
+      "zh-TW": "甲基乙二醛修飾離胺酸形成羧乙基離胺酸與交聯。修飾是第二主要 AGE 路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Methylglyoxal.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "68b3a22211fb",
+    "subject": "Methylglyoxal",
+    "predicate": "promotes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Methylglyoxal accelerates adrenochrome formation via SOD glycation to superoxide and metal-enhanced Fenton chemistry. Promotion links dicarbonyl stress to aminochrome load.",
+      "zh-TW": "甲基乙二醛經由 SOD 糖化到超氧與金屬增強 Fenton 化學加速腎上腺素形成。促進將二羰基壓力連結到胺色素負荷。"
+    },
+    "confidence": 0.78,
+    "source_document": "Methylglyoxal.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "18c71894355e",
+    "subject": "Fructosamine-3-kinase",
+    "predicate": "phosphorylates",
+    "object": "Amadori products",
+    "context": {
+      "en-US": "Fructosamine-3-kinase phosphorylates early Amadori products for deglycation, distinct from the existing fructosamine edge. Phosphorylation is the enzymatic removal route.",
+      "zh-TW": "果糖胺-3-激酶磷酸化早期 Amadori 產物以去糖化，不同於既有的果糖胺邊。磷酸化是酶促移除路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "Advanced Glycation End Products.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "a6f7bbd4e402",
+    "subject": "Adrenochrome",
+    "predicate": "contributes_to",
+    "object": "Protein Carbonylation",
+    "context": {
+      "en-US": "Aminochrome quinone alkylation promotes carbonyl load on proteins. Contribution places aminochrome chemistry in oxidative protein damage.",
+      "zh-TW": "胺色素醌烷基化促進蛋白質羰基負荷。貢獻將胺色素化學置於氧化蛋白損傷。"
+    },
+    "confidence": 0.72,
+    "source_document": "Protein Carbonylation.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "b0b35425f54f",
+    "subject": "Adrenochrome",
+    "predicate": "disrupts",
+    "object": "Homeostasis",
+    "context": {
+      "en-US": "Adrenochrome assaults homeostasis through glutathione consumption, Nrf2 exhaustion and secondary electrophiles including methylglyoxal and AGEs. Disruption is the systems-level outcome.",
+      "zh-TW": "腎上腺素經由穀胱甘肽消耗、Nrf2 耗竭與包括甲基乙二醛和 AGE 的次級親電子劑衝擊恆定。破壞是系統層級結果。"
+    },
+    "confidence": 0.75,
+    "source_document": "Homeostasis.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "a04b80b0789b",
+    "subject": "Myocardial infarction",
+    "predicate": "causes",
+    "object": "Cardiac arrest",
+    "context": {
+      "en-US": "Acute coronary syndromes account for the majority of sudden arrests with shockable rhythms. Causation is the lethal-complication direction.",
+      "zh-TW": "急性冠心症候群佔多數可電擊心律的猝死。因果是致死併發症方向。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myocardial infarction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "6bfbbf00e67a",
+    "subject": "Myocardial infarction",
+    "predicate": "causes",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "Infarction drives remodeling and hypertrophy into progressive pump failure. Causation is the remodeling outcome.",
+      "zh-TW": "梗塞驅動重塑與肥大進入進行性幫浦衰竭。因果是重塑結果。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myocardial infarction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "76a438d49f58",
+    "subject": "Coronary artery constriction",
+    "predicate": "contributes_to",
+    "object": "Myocardial infarction",
+    "context": {
+      "en-US": "Sustained vasospasm precipitates ST-elevation infarction and worsens peri-infarct ischemia. Contribution is the vasospastic trigger.",
+      "zh-TW": "持續血管痙攣誘發 ST 上升梗塞並惡化梗塞周圍缺血。貢獻是血管痙攣觸發。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myocardial infarction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "e1b87197814c",
+    "subject": "Coronary artery constriction",
+    "predicate": "causes",
+    "object": "Ischemia",
+    "context": {
+      "en-US": "Reduced perfusion from constriction directly causes ischemia. Causation is the flow to injury step.",
+      "zh-TW": "收縮減少灌流直接導致缺血。因果是血流到損傷步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Coronary artery constriction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "22103e78eb31",
+    "subject": "Atherosclerosis",
+    "predicate": "causes",
+    "object": "Heart disease",
+    "context": {
+      "en-US": "Atherosclerosis is the central mechanism of most cardiovascular events through endothelial injury to plaque. Causation records the etiology.",
+      "zh-TW": "動脈粥狀硬化經由內皮損傷到斑塊是多數心血管事件的中央機制。因果記錄病因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Heart disease.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "88650acb7b69",
+    "subject": "Catecholamines",
+    "predicate": "contributes_to",
+    "object": "Arrhythmias",
+    "context": {
+      "en-US": "Excess catecholamines drive beta-adrenergic calcium overload into delayed-afterdepolarization triggered activity. Contribution is the adrenergic arm.",
+      "zh-TW": "過量兒茶酚胺驅動 β 腎上腺素鈣超載進入延遲後去極化觸發活性。貢獻是腎上腺素分支。"
+    },
+    "confidence": 0.8,
+    "source_document": "Arrhythmias.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "9463234f7e61",
+    "subject": "Myocardial infarction",
+    "predicate": "causes",
+    "object": "Arrhythmias",
+    "context": {
+      "en-US": "Infarct scar creates reentry circuits for ventricular tachycardia as a common lethal complication. Causation is the substrate mechanism.",
+      "zh-TW": "梗塞疤痕為心室頻脈創造迴路，作為常見致死併發症。因果是基質機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Arrhythmias.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "8e59425de19f",
+    "subject": "Adrenochrome",
+    "predicate": "damages",
+    "object": "Myocardium",
+    "context": {
+      "en-US": "Redox-cycling ROS plus complex I/II inhibition and glutathione depletion damage myocardial tissue with contraction-band necrosis in animal models. Damage is the tissue-level outcome.",
+      "zh-TW": "氧化還原循環 ROS 加複合體 I/II 抑制與穀胱甘肽耗竭損害心肌組織，在動物模型呈收縮帶壞死。損害是組織層級結果。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myocardium.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "a492987201ce",
+    "subject": "Hypochlorous acid",
+    "predicate": "produces",
+    "object": "3-Chlorotyrosine",
+    "context": {
+      "en-US": "Tyrosine chlorination by HOCl yields 3-chlorotyrosine, the established HOCl-specific footprint marker. Production is the biomarker reaction.",
+      "zh-TW": "HOCl 氯化酪胺酸產生 3-氯酪胺酸，即既定的 HOCl 特異足跡標記。產生是生物標記反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "HOCl-mediated Oxidation.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "413f84025c7d",
+    "subject": "Hypochlorous acid",
+    "predicate": "activates",
+    "object": "Metalloproteinases",
+    "context": {
+      "en-US": "Cysteine-switch oxidation by HOCl activates matrix metalloproteinases. Activation links neutrophil oxidants to matrix remodeling.",
+      "zh-TW": "HOCl 的半胱胺酸開關氧化活化基質金屬蛋白酶。活化將嗜中性球氧化劑連結到基質重塑。"
+    },
+    "confidence": 0.8,
+    "source_document": "HOCl-mediated Oxidation.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "a04725dd8820",
+    "subject": "Hypoxia",
+    "predicate": "stabilizes",
+    "object": "HIF-1α",
+    "context": {
+      "en-US": "Rheumatoid-joint hypoxia stabilizes HIF-1alpha through the textbook prolyl-hydroxylase mechanism for metabolic adaptation. Stabilization is the oxygen-sensing output.",
+      "zh-TW": "類風濕關節缺氧經由典型脯胺醯羥化酶機制穩定 HIF-1α 以代謝適應。穩定是氧感知輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rheumatoid synovial fluid.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "b1643f057c9f",
+    "subject": "Myeloperoxidase",
+    "predicate": "found_in",
+    "object": "Rheumatoid synovial fluid",
+    "context": {
+      "en-US": "Extracellular myeloperoxidase activity is detectable in rheumatoid synovial fluid as in plaque and ischemic myocardium. Localization records the inflammatory exudate.",
+      "zh-TW": "細胞外髓過氧化物酶活性可在類風濕滑液測得，如同斑塊與缺血心肌。定位記錄發炎滲出。"
+    },
+    "confidence": 0.8,
+    "source_document": "Rheumatoid synovial fluid.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "823d51e73edf",
+    "subject": "NLRP3 Inflammasome",
+    "predicate": "contributes_to",
+    "object": "Myocardial infarction",
+    "context": {
+      "en-US": "DAMP-triggered sterile inflammation through NLRP3 drives infarct expansion after infarction. Contribution is the inflammatory amplifier.",
+      "zh-TW": "DAMP 觸發經由 NLRP3 的無菌發炎驅動梗塞後擴張。貢獻是發炎放大器。"
+    },
+    "confidence": 0.75,
+    "source_document": "Myocardial infarction.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "0f7e39be4230",
+    "subject": "Rapamycin",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Rapamycin extends murine lifespan roughly 10 to 25 percent even with late-life start from the landmark Harrison 2009 study. Extension is the geroprotective outcome.",
+      "zh-TW": "Rapamycin 即使晚年開始仍延長小鼠壽命約 10 至 25%，源自里程碑 Harrison 2009。延長是老年保護結果。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lifespan.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "baee7b80e54f",
+    "subject": "Rapamycin",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Rapamycin is the prototypical mTORC1 inhibitor suppressing SASP translation and growth signaling. Inhibition is the defining pharmacology.",
+      "zh-TW": "Rapamycin 是抑制 SASP 轉譯與生長訊號的原型 mTORC1 抑制劑。抑制是定義性藥理。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lifespan.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "b2fe49884cce",
+    "subject": "Rapamycin",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Rapamycin suppresses the SASP of oncogene-induced and replicative senescence without killing cells. Suppression is the senomorphic action.",
+      "zh-TW": "Rapamycin 在不殺死細胞下抑制致癌基因與複製性衰老的 SASP。抑制是 senomorphic 作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Senomorphics.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "8ded304beda8",
+    "subject": "Metformin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "AMPK activation is the canonical mechanism underlying metformin mTORC1 and NF-kB suppression. Activation gates the metabolic benefits.",
+      "zh-TW": "AMPK 活化是 metformin 抑制 mTORC1 與 NF-κB 的典型機制。活化門控代謝益處。"
+    },
+    "confidence": 0.9,
+    "source_document": "Senomorphics.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "0d2604a536b5",
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "Transcription factor EB",
+    "context": {
+      "en-US": "mTORC1 phosphorylates TFEB at Ser142/Ser211 for 14-3-3 cytoplasmic retention. Phosphorylation is the nutrient gate on lysosomal biogenesis.",
+      "zh-TW": "mTORC1 在 Ser142/Ser211 磷酸化 TFEB 以 14-3-3 胞質滯留。磷酸化是溶酶體生合成的營養閘門。"
+    },
+    "confidence": 0.9,
+    "source_document": "Transcription factor EB.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "f2012a623f6f",
+    "subject": "Calcineurin",
+    "predicate": "activates",
+    "object": "Transcription factor EB",
+    "context": {
+      "en-US": "Lysosomal calcium through MCOLN1 activates calcineurin to dephosphorylate TFEB for nuclear translocation. Activation is the calcium route.",
+      "zh-TW": "經由 MCOLN1 的溶酶體鈣活化鈣調磷酸酶，去磷酸化 TFEB 以核轉位。活化是鈣路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Transcription factor EB.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "25401f400d41",
+    "subject": "Transcription factor EB",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "TFEB is the master regulator of autophagic flux through the CLEAR network. Promotion is the transcriptional program.",
+      "zh-TW": "TFEB 是經由 CLEAR 網絡的自噬流主調控者。促進是轉錄程序。"
+    },
+    "confidence": 0.85,
+    "source_document": "Transcription factor EB.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "1c40977ecb34",
+    "subject": "NLRP3 Inflammasome",
+    "predicate": "activates",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "ASC-speck proximity induces caspase-1 activation as the canonical inflammasome output. Activation executes pyroptotic and cytokine processing.",
+      "zh-TW": "ASC 斑點鄰近誘發 caspase-1 活化作為典型發炎體輸出。活化執行焦亡與細胞激素處理。"
+    },
+    "confidence": 0.95,
+    "source_document": "NLRP3 Inflammasome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "11ef8e867dab",
+    "subject": "NLRP3 Inflammasome",
+    "predicate": "produces",
+    "object": "Interleukin 1β",
+    "context": {
+      "en-US": "Caspase-1 cleaves p31 pro-IL-1beta to the mature p17 cytokine. Production is the cytokine-maturation output.",
+      "zh-TW": "Caspase-1 將 p31 pro-IL-1β 切割為成熟 p17 細胞激素。產生是細胞激素成熟輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "NLRP3 Inflammasome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "cd52e044eab1",
+    "subject": "NLRP3 Inflammasome",
+    "predicate": "induces",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Gasdermin D pore execution downstream of caspase-1 induces pyroptosis. Induction is the lytic-death output.",
+      "zh-TW": "Caspase-1 下游 Gasdermin D 孔道執行誘發焦亡。誘發是裂解死亡輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "NLRP3 Inflammasome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "89178b016bcb",
+    "subject": "MCC950",
+    "predicate": "inhibits",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "MCC950 is the canonical small-molecule NLRP3 inhibitor. Inhibition blocks assembly and cytokine release.",
+      "zh-TW": "MCC950 是典型的 NLRP3 小分子抑制劑。抑制阻斷組裝與細胞激素釋放。"
+    },
+    "confidence": 0.9,
+    "source_document": "NLRP3 Inflammasome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "65eff22805ec",
+    "subject": "NF-κB",
+    "predicate": "upregulates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "NF-kB Signal-1 priming transcribes NLRP3, pro-IL-1beta and pro-IL-18. Upregulation is the priming arm.",
+      "zh-TW": "NF-κB 訊號一起始轉錄 NLRP3、pro-IL-1β 與 pro-IL-18。上調是致敏臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "NLRP3 Inflammasome.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "ad610c090f36",
+    "subject": "RIPK1",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "RHIM signaling from RIPK1 to RIPK3 to MLKL drives lytic death when caspase-8 is compromised. Promotion is the necrosome relay.",
+      "zh-TW": "RIPK1 經 RHIM 到 RIPK3 到 MLKL 在 caspase-8 受損時驅動裂解死亡。促進是 necrosome 接力。"
+    },
+    "confidence": 0.9,
+    "source_document": "RIPK1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "7fe587dc7ed3",
+    "subject": "RIPK1",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "RHIM-mediated partnership activates RIPK3 to phosphorylate MLKL. Activation is the kinase relay.",
+      "zh-TW": "RHIM 介導的夥伴關係活化 RIPK3 以磷酸化 MLKL。活化是激酶接力。"
+    },
+    "confidence": 0.9,
+    "source_document": "RIPK1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "58299dd11ec7",
+    "subject": "RIPK1",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Ubiquitinated RIPK1 in Complex I recruits IKK and TAK1 to activate NF-kB. Activation is the survival arm.",
+      "zh-TW": "Complex I 泛素化 RIPK1 招募 IKK 與 TAK1 活化 NF-κB。活化是存活臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "RIPK1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "336d13aaa9e9",
+    "subject": "Necrostatin-1",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Necrostatin-1 is the canonical RIPK1 kinase inhibitor with preclinical neuroprotection. Inhibition blocks necrosome assembly.",
+      "zh-TW": "Necrostatin-1 是典型的 RIPK1 激酶抑制劑，具臨床前神經保護。抑制阻斷 necrosome 組裝。"
+    },
+    "confidence": 0.9,
+    "source_document": "RIPK1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "b21a5cb3d437",
+    "subject": "Keap1",
+    "predicate": "suppresses",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Basal Keap1-Cul3 K48 ubiquitination holds Nrf2 half-life near 20 minutes. Suppression is the resting-state brake.",
+      "zh-TW": "基礎 Keap1-Cul3 K48 泛素化將 Nrf2 半衰期維持約 20 分鐘。抑制是靜止煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "Keap1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "b7aec25c4b73",
+    "subject": "NRF2",
+    "predicate": "upregulates",
+    "object": "NQO1",
+    "context": {
+      "en-US": "ARE-driven transcription upregulates NQO1, corroborated across Keap1, NQO1 and electrophile notes. Upregulation is the antioxidant battery.",
+      "zh-TW": "ARE 驅動轉錄上調 NQO1，經 Keap1、NQO1 與親電子劑筆記佐證。上調是抗氧化電池。"
+    },
+    "confidence": 0.9,
+    "source_document": "Keap1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "1613a3a627d1",
+    "subject": "Sulforaphane",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Sulforaphane is the canonical electrophilic NRF2 activator cited as the therapeutic template. Activation is the chemopreventive mechanism.",
+      "zh-TW": "蘿蔔硫素是作為治療模板引用的典型親電子 NRF2 活化劑。活化是化學預防機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Keap1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "3ba6688c29ae",
+    "subject": "Adrenochrome",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Adrenochrome modifies Keap1 cysteines C151/C273/C288 to activate NRF2 as the hormetic arm of aminochrome biology. Activation is the adaptive response.",
+      "zh-TW": "腎上腺素修飾 Keap1 半胱胺酸 C151/C273/C288 以活化 NRF2，作為胺色素生物的激效臂。活化是適應反應。"
+    },
+    "confidence": 0.8,
+    "source_document": "Keap1.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "13356eefdfd5",
+    "subject": "Aminochrome",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Aminochrome quinone-thiol chemistry depletes glutathione like the adrenochrome edge. Depletion is the thiol-drain mechanism.",
+      "zh-TW": "胺色素醌硫醇化學如腎上腺素邊耗竭穀胱甘肽。耗竭是硫醇流失機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "SASP-Remodeling Aminochrome Complex.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "9e01ac13d5c2",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "SIRT1 deacetylates p65 Lys310 to suppress NF-kB, mirroring the existing SIRT6 edge. Suppression is the sirtuin anti-inflammatory output.",
+      "zh-TW": "SIRT1 去乙醯化 p65 Lys310 以抑制 NF-κB，呼應既有的 SIRT6 邊。抑制是 sirtuin 抗發炎輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Senomorphics.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "b8f048491358",
+    "subject": "Adrenochrome",
+    "predicate": "inhibits",
+    "object": "Complex I",
+    "context": {
+      "en-US": "Cysteine adduction by adrenochrome functionally impairs Complex I beyond redox cycling at the site. Inhibition is single-source and kept at 0.70.",
+      "zh-TW": "腎上腺素半胱胺酸加成在位點氧化還原循環之外功能性損害複合體 I。抑制為單一來源，維持 0.70。"
+    },
+    "confidence": 0.7,
+    "source_document": "Michael addition.md",
+    "created": "2026-09-04T17:13:28Z",
+    "updated": "2026-09-04T17:13:28Z"
+  },
+  {
+    "id": "d96f11039165",
+    "subject": "Adrenochrome",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Adrenochrome is hypothesized to act as a dual ferroptosis inducer, simultaneously generating lipid-peroxidation-initiating ROS via redox cycling and potentially inhibiting GPX4 through o-quinone electrophilic arylation of its selenocysteine. This mechanism is analogous to the classical ferroptosis inducer RSL3. The hypothesis awaits experimental validation with ferroptosis rescue panels.",
+      "zh-TW": "Adrenochrome 被假設作為雙重 ferroptosis 誘導劑，一方面透過 redox cycling 產生啟動 lipid peroxidation 的 ROS，另一方面可能透過對其 selenocysteine 的 o-quinone 親電子芳基化來抑制 GPX4。此機制類似於經典的 ferroptosis 誘導劑 RSL3。此假設有待以 ferroptosis 救援組合進行實驗驗證。"
+    },
+    "confidence": 0.6,
+    "source_document": "Adrenochrome.md",
+    "created": "2026-09-02T06:35:13Z",
+    "updated": "2026-09-02T06:35:13Z"
+  },
+  {
+    "id": "a105d229e814",
+    "subject": "Adrenochrome",
+    "predicate": "inhibits",
+    "object": "GPX4",
+    "context": {
+      "en-US": "Adrenochrome is hypothesized to inhibit GPX4 through o-quinone electrophilic arylation of its catalytic selenocysteine, analogous to the ferroptosis inducer RSL3. Combined with redox-cycling generation of lipid-peroxidation-initiating ROS, this would make adrenochrome a dual ferroptosis inducer. This hypothesis may explain cardiomyocyte death in catecholamine-induced cardiomyopathy and dopaminergic neuron vulnerability in Parkinson's disease.",
+      "zh-TW": "Adrenochrome 被假設透過 o-quinone 對其催化性 selenocysteine 進行親電子芳基化來抑制 GPX4，類似於 ferroptosis 誘導劑 RSL3。結合 redox cycling 產生啟動 lipid peroxidation 的 ROS，這將使 adrenochrome 成為雙重 ferroptosis 誘導劑。此假設或可解釋 catecholamine-induced cardiomyopathy 中的心肌細胞死亡，以及 Parkinson's disease 中多巴胺能神經元的易感性。"
+    },
+    "confidence": 0.6,
+    "source_document": "Adrenochrome.md",
+    "created": "2026-09-02T06:35:13Z",
+    "updated": "2026-09-02T06:35:13Z"
+  },
+  {
+    "id": "8cecec5b139e",
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "may_act_as",
+    "object": "Prodrug",
+    "context": {
+      "en-US": "For adrenochrome monoaminoguanidine to act as an active AGE inhibitor despite its hydrazine group being locked in a hydrazone bond, it must either retain sufficient nucleophilicity through its remaining guanidine nitrogens, act as a prodrug that undergoes controlled in vivo hydrolysis to slowly release free aminoguanidine, or work via alternative pathways such as chelating transition metals that catalyze glycoxidation. The prodrug hypothesis is plausible because the conjugate is stable for clinical use yet could hydrolyze to release aminoguanidine over time. Whether the bound aminoguanidine retains dicarbonyl-scavenging activity remains unresolved.",
+      "zh-TW": "儘管 adrenochrome monoaminoguanidine 的肼基被鎖定在腙鍵中，要作為活性 AGE 抑制劑，它必須透過剩餘的胍氮保留足夠的親核性、作為前藥在體內經受控水解以緩慢釋出游離 aminoguanidine，或經由螯合催化糖氧化的過渡金屬等替代途徑作用。前藥假說是合理的，因為該共軛物在臨床上穩定可用，但隨時間可能水解釋出 aminoguanidine。被結合的 aminoguanidine 是否保留二羰基清除活性仍懸而未決。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - glyco-oxidative modulation.md",
+    "created": "2026-08-12T20:21:14Z",
+    "updated": "2026-08-20T06:56:15Z"
+  },
+  {
+    "id": "92ee95f523a3",
+    "subject": "GlyNAC",
+    "predicate": "synergizes_with",
+    "object": "Carbazochrome",
+    "context": {
+      "en-US": "In the SASP-remodeling aminochrome complex (SRAC) strategy, GlyNAC supplies the reductive glutathione buffer while carbazochrome (a stabilized adrenochrome derivative) supplies the mitohormetic trigger, expanding the safety margin of the hormetic pulse. This is a protocol-design hypothesis (combo-therapy/SRAC documents), NOT directly established in primary biomedical literature; it rests on the separately grounded edges GlyNAC -> Glutathione and Carbazochrome -> Adrenochrom (is_derivative_of).",
+      "zh-TW": "在 SASP 重塑胺基色體複合物（SRAC）策略中，GlyNAC 提供穀胱甘肽還原緩衝，而卡巴可羅（穩定化的腎上腺素紅衍生物）提供粒線體激素性觸發，擴大激素性脈衝的安全邊際。這是一項協定設計假說（combo-therapy／SRAC 文件），並非直接由基礎醫學文獻確立；其依據來自各自獨立佐證的 GlyNAC → 穀胱甘肽 與 卡巴可羅 → 腎上腺素紅（is_derivative_of）邊。"
+    },
+    "confidence": 0.5,
+    "source_document": "GlyNAC.md",
+    "created": "2026-08-25T04:10:14Z",
+    "updated": "2026-08-25T04:18:36Z"
+  },
+  {
+    "id": "46dee06f69ec",
+    "subject": "Nicotinamide Mononucleotide",
+    "predicate": "ameliorates",
+    "object": "COVID-19",
+    "context": {
+      "en-US": "A case study of 10 critically ill COVID-19 patients over 50 years old reported that an NMN cocktail (83 mL of NMN mixed with 400 mL of water, consumed before breakfast and dinner) was strongly associated with resolution of COVID-19 symptoms. Before treatment, patients had low oxygen saturation, pulmonary infiltrates, and inflammation; post-treatment there was rapid improvement in bilateral pulmonary infiltrates, fever resolution, and lower inflammation biomarkers. One patient who stopped treatment after 3 days experienced relapse with fever and pulmonary infiltrates 8 days later. The rapid clinical improvement suggests NMN may help reverse the potentially fatal cytokine storm triggered by SARS-CoV-2, though larger controlled studies are needed.",
+      "zh-TW": "一項針對 10 名 50 歲以上重症 COVID-19 患者的病例研究報告，NMN 雞尾酒（83 mL NMN 混合 400 mL 水，於早餐與晚餐前飲用）與 COVID-19 症狀的緩解強烈相關。治療前，患者血氧飽和度低、有肺部浸潤與發炎；治療後雙側肺部浸潤迅速改善、退燒，且發炎生物標記下降。一名患者在 3 天後停止治療，8 天後出現發燒與肺部浸潤的復發。快速的臨床改善顯示 NMN 可能有助於逆轉 SARS-CoV-2 觸發的潛在致命細胞激素風暴，儘管仍需要更大規模的對照研究。"
+    },
+    "confidence": 0.5,
+    "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
+    "created": "2026-08-12T20:21:14Z",
+    "updated": "2026-08-20T07:14:47Z"
   }
 ]

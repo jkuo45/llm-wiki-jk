@@ -70,20 +70,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "3cd136dcf09e",
-    "subject": "Aspirin",
-    "predicate": "prevents",
-    "object": "cardiovascular disease in slow COMT",
-    "context": {
-      "en-US": "Aspirin is effective in preventing cardiovascular disease among individuals with the slow COMT (Met/Met, A/A) genotype, where its antiplatelet and anti-inflammatory actions translate into net cardiovascular protection. Slow COMT activity appears to create a metabolic milieu, involving higher catecholamine tone and distinct folate handling, in which low-dose aspirin reduces thrombotic event risk. This protective association is the inverse of the effect seen in fast COMT individuals, who may experience increased risk or no benefit. The divergence highlights a clear pharmacogenetic pattern and supports genotype-aware approaches to aspirin prophylaxis.",
-      "zh-TW": "Aspirin 可有效預防 COMT（Met/Met，A/A）慢基因型個體的心血管疾病，其抗血小板和抗發炎作用轉化為淨心血管保護。緩慢的 COMT activity 似乎會創造一個代謝環境，涉及更高的兒茶酚胺張力和獨特的 folate 處理，其中低劑量阿斯匹靈可降低血栓事件風險。這種保護性關聯與快速 COMT 個體中觀察到的效果相反，後者可能會經歷風險增加或沒有益處。這種差異凸顯了明確的藥物遺傳學模式，並支持基因型感知的阿斯匹靈預防方法。"
-    },
-    "confidence": 0.92,
-    "source_document": "Aspirin.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "c108ca435842",
     "subject": "Aspirin",
     "predicate": "prevents_cardiovascular_disease_in",
@@ -105,20 +91,6 @@
     "context": {
       "en-US": "Aspirin may increase cardiovascular disease risk specifically in individuals carrying the fast COMT (Val/Val, G/G) genotype, a pharmacogenetic interaction identified in prospective studies. The mechanism is thought to involve genotype-dependent differences in catecholamine and folate metabolism that alter aspirin's effects on vascular homeostasis. This contrasts sharply with slow COMT individuals, in whom aspirin is protective, underscoring the importance of COMT genotyping in cardiovascular prevention strategies.",
       "zh-TW": "Aspirin 可能會增加心血管疾病的風險，特別是在攜帶快速 COMT（Val/Val，G/G）基因型的個體中，這是前瞻性研究中發現的一種藥物遺傳學交互作用。此機制被認為涉及兒茶酚胺和 folate 代謝的基因型依賴性差異，從而改變阿斯匹靈對血管穩態的影響。這與緩慢的 COMT 個體形成鮮明對比，阿斯匹靈對這些個體具有保護作用，並強調了 COMT 基因分型在心血管預防策略中的重要性。"
-    },
-    "confidence": 0.92,
-    "source_document": "Aspirin.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "c88a4e7f4a96",
-    "subject": "Aspirin",
-    "predicate": "may_increase_risk_in",
-    "object": "fast COMT genotype",
-    "context": {
-      "en-US": "Aspirin may increase cardiovascular disease risk in individuals with the fast COMT (Val/Val, G/G) genotype, reflecting a gene-drug interaction in which rapid COMT-mediated catecholamine clearance changes the vascular response to aspirin. Population studies and prospective cohorts have reported that the cardioprotective benefit of aspirin is absent or reversed in fast metabolizers, whereas slow COMT individuals derive protection. The proposed mechanisms involve genotype-dependent differences in catecholamine and folate metabolism that alter platelet, endothelial, and redox homeostasis. This directionality makes COMT status a candidate biomarker for personalizing aspirin therapy.",
-      "zh-TW": "Aspirin可能會增加具有快速COMT（Val/Val，G/G）基因型個體的心血管疾病風險，反映了基因-藥物交互作用，其中快速COMT介導的兒茶酚胺清除改變了血管對阿斯匹靈的反應。人群研究和前瞻性隊列報告稱，阿斯匹靈的心臟保護作用在快速代謝者中不存在或逆轉，而慢速 COMT 個體則獲得保護。所提出的機制涉及兒茶酚胺和 folate 代謝的基因型依賴性差異，這些差異改變了血小板、內皮和氧化還原穩態。這種方向性使 COMT 狀態成為個人化阿斯匹靈治療的候選生物標記。"
     },
     "confidence": 0.92,
     "source_document": "Aspirin.md",
@@ -290,20 +262,6 @@
     },
     "confidence": 0.93,
     "source_document": "CamKIIα.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "972495f569f9",
-    "subject": "Catecholamines",
-    "predicate": "are",
-    "object": "Catechols",
-    "context": {
-      "en-US": "Catecholamines, dopamine, norepinephrine, and epinephrine, are a subclass of catechols, meaning they each contain the 1,2-dihydroxybenzene (catechol) ring that makes them substrates for COMT. This shared structural motif is the recognition site for O-methylation, which explains why all three monoamines are inactivated by COMT-catalyzed methyl transfer. Their classification as catechols is foundational to understanding COMT substrate specificity and why catechol-bearing drugs and flavonoids also interact with the enzyme. It also underlies the shared metabolic handling of these signaling molecules.",
-      "zh-TW": "Catecholamines、多巴胺、norepinephrine 和腎上腺素是兒茶酚的一個子類，這意味著它們各自含有 1,2-二羥基苯（兒茶酚）環，這使得它們成為 COMT 的底物。這個共享的結構基序是 O-甲基化的識別位點，這解釋了為什麼所有三種單胺都被 COMT 催化的甲基轉移失活。它們作為兒茶酚的分類是了解 COMT 底物特異性以及為什麼含兒茶酚的藥物和類黃酮也會與該酵素相互作用的基礎。它也是這些訊號分子共同代謝處理的基礎。"
-    },
-    "confidence": 0.93,
-    "source_document": "Catechols.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -546,34 +504,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "11daee6e8cd9",
-    "subject": "COMT",
-    "predicate": "predominates_in",
-    "object": "COMT",
-    "context": {
-      "en-US": "COMT predominates, together with the norepinephrine transporter (NET), in dopamine clearance within the prefrontal cortex, because the dopamine transporter is scarce in this region and cannot remove dopamine efficiently. This extracellular enzymatic and NET-dependent clearance sets the ambient dopamine concentration that tunes prefrontal networks governing working memory and executive function. The genotype-dependent activity of COMT, determined by the Val158Met polymorphism, therefore exerts a stronger influence on prefrontal than on striatal dopamine, where the dopamine transporter dominates. This regional division of labor is fundamental to understanding COMT's cognitive effects.",
-      "zh-TW": "COMT 與 norepinephrine 轉運蛋白 (NET) 一起在前額葉皮質內的多巴胺清除中占主導地位，因為該區域的多巴胺轉運蛋白稀缺，無法有效清除多巴胺。這種細胞外酵素和 NET 依賴性清除機制設定了環境多巴胺濃度，從而調節控制工作記憶和 executive function 的前額葉網絡。因此，COMT 的基因型依賴性活性由 Val158Met 多態性決定，對前額葉的影響比對紋狀體多巴胺的影響更強，紋狀體多巴胺在紋狀體中占主導地位。這種區域分工對於理解 COMT 的認知效應至關重要。"
-    },
-    "confidence": 0.93,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "bd88af5520c0",
-    "subject": "COMT",
-    "predicate": "is_sensitive_to",
-    "object": "COMT inhibitor supplements",
-    "context": {
-      "en-US": "Slow COMT individuals are sensitive to COMT inhibitor supplements, such as high-dose catechol flavonoids, because further reducing an already low COMT activity can excessively elevate catecholamines, risking adrenergic and mood side effects. Unlike fast individuals, they have little spare clearance capacity to absorb additional enzyme inhibition. This argues for caution with concentrated catechols such as quercetin, luteolin, and EGCG in slow genotypes. The sensitivity is dose-dependent and genotype-specific.",
-      "zh-TW": "慢COMT個體對COMT inhibitor supplements敏感，例如高劑量兒茶酚黃酮類化合物，因為進一步減少已經存在的low COMT activity可能會過度升高catecholamines，從而存在腎上腺素能和情緒副作用的風險。與快速個體不同，它們幾乎沒有多餘的清除能力來吸收額外的酵素抑制。這表明在慢基因型中應謹慎使用濃縮兒茶酚，例如槲皮素、木犀草素和 EGCG。敏感性具有劑量依賴性和基因型特異性。"
-    },
-    "confidence": 0.9,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "286e06d2bc78",
     "subject": "COMT",
     "predicate": "regulates_dopamine_availability_for",
@@ -672,20 +602,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "ea958b6889ec",
-    "subject": "COMT",
-    "predicate": "increases",
-    "object": "impulsivity",
-    "context": {
-      "en-US": "COMT overexpression increases impulsivity in mice, measured as more premature responses in operant tasks, reflecting altered prefrontal and striatal catechol signaling that governs response inhibition. The phenotype aligns with the idea that excessive dopamine clearance perturbs the balance of impulsive and compulsive behaviors, and mirrors traits associated with fast human COMT genotypes. Effect sizes in animal models are moderate and task-dependent, but the causal manipulation strengthens the interpretation. The behavioral change is consistent with reduced dopamine-mediated inhibitory control.",
-      "zh-TW": "COMT 過度表現會增加小鼠的 impulsivity，測量為操作任務中更多的過早反應，反映了控制反應抑制的前額葉和紋狀體兒茶酚訊號的改變。該表型與過多的多巴胺清除擾亂衝動和強迫行為的平衡的觀點相一致，並反映了與快速人類 COMT 基因型相關的特徵。動物模型中的效應大小適中且依賴任務，但因果操作加強了解釋。行為變化與多巴胺介導的抑制控制的減少一致。"
-    },
-    "confidence": 0.7,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "6db48d8e28ad",
     "subject": "COMT",
     "predicate": "show",
@@ -707,20 +623,6 @@
     "context": {
       "en-US": "COMT-OE mice show increased impulsive behavior, quantified as more premature responses in timed operant tasks, consistent with catecholaminergic perturbation of inhibitory control circuits in prefrontal and striatal regions. This mirrors impulsivity-related traits linked to fast COMT in humans, such as risk-taking and rapid decision-making under time pressure. The phenotype is reversible by manipulations that restore dopamine signaling, supporting causality rather than confounded effects. It extends the COMT-OE behavioral profile beyond cognition into impulse control.",
       "zh-TW": "COMT-OE 小鼠表現出 increased impulsive behavior，量化為定時操作任務中更多的過早反應，與前額葉和紋狀體區域抑制控制迴路的兒茶酚胺能擾動一致。這反映了與快速 COMT in humans 相關的 impulsivity 相關特徵，例如在時間壓力下承擔風險和快速決策。透過恢復多巴胺訊號傳導的操作，表型是可逆的，支持因果關係而不是混雜效應。它將 COMT-OE 行為特徵從認知擴展到衝動控制。"
-    },
-    "confidence": 0.92,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "27c9edb00a34",
-    "subject": "COMT",
-    "predicate": "display",
-    "object": "increased striatal dopamine release",
-    "context": {
-      "en-US": "COMT-OE (overexpression) mice display increased striatal dopamine release, a homeostatic adaptation to constitutively elevated COMT activity that lowers baseline extracellular dopamine. This enhanced release capacity manifests as greater phasic dopamine responses in the striatum, likely reflecting compensatory upregulation of dopamine synthesis and releasable pools. The finding helps dissociate the motor and striatal effects from the cognitive and prefrontal consequences of COMT excess. It illustrates how the brain compensates for chronically altered catecholamine clearance.",
-      "zh-TW": "COMT-OE（過度表達）小鼠表現出 increased striatal dopamine release，這是對持續升高的 COMT activity 的穩態適應，可降低基線細胞外多巴胺。這種增強的釋放能力表現為紋狀體中更大的階段性多巴胺反應，可能反映了多巴胺合成和可釋放池的補償性上調。這項發現有助於將運動和紋狀體的影響與 COMT 過量的認知和前額葉後果分開。它說明了 brain 如何補償長期改變的兒茶酚胺清除率。"
     },
     "confidence": 0.92,
     "source_document": "COMT.md",
@@ -770,20 +672,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "72b0266e8e3b",
-    "subject": "COMT",
-    "predicate": "is_sensitive_to",
-    "object": "methyl donor supplements",
-    "context": {
-      "en-US": "Slow COMT individuals are sensitive to methyl donor supplements because their slower COMT clears methyl groups and catechols less efficiently, so supplemental methyl donors such as TMG, methylfolate, and methylB12 can raise SAMe and alter neurotransmitter methylation, producing irritability or anxiety. Managing dose and form is key in this subgroup, with low starting doses and non-methylated alternatives recommended. The sensitivity reflects the coupling between COMT activity and the methyl pool. It is a defining feature of the slow COMT supplementation profile.",
-      "zh-TW": "緩慢的 COMT 個體對 methyl donor supplements 敏感，因為其較慢的 COMT 清除 methyl groups 和兒茶酚的效率較低，因此補充甲基供體（如 TMG、甲基葉酸和甲基 B12）可以提高 SAMe 並改變神經傳導物質甲基化，產生煩躁或焦慮或焦慮。管理劑量和形式是該亞組的關鍵，建議使用低起始劑量和非甲基化替代品。靈敏度反映了 COMT activity 和甲基池之間的耦合。這是慢 COMT 補充配置檔的一個決定性特徵。"
-    },
-    "confidence": 0.92,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "9c9596abe676",
     "subject": "COMT",
     "predicate": "requires",
@@ -793,20 +681,6 @@
       "zh-TW": "COMT 需要源自 S-adenosylmethionine (SAMe) 的 methyl groups（由蛋胺酸循環產生的通用 methyl donor）來甲基化兒茶酚底物。每次催化轉換消耗一個 SAMe 分子，將 COMT 通量與細胞甲基預算以及 folate 和 B12 依賴性再甲基化緊密耦合，從而再生蛋氨酸和 SAMe。這種依賴性意味著 COMT activity 對 methyl donor 的整體可用性敏感，包括飲食、補充劑和影響一碳代謝的遺傳變異。這也解釋了為什麼當 COMT activity 已經很慢時，過量的甲基供體的耐受性很差。"
     },
     "confidence": 0.9,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "a26c4a7dfed8",
-    "subject": "COMT",
-    "predicate": "is_sensitive_to",
-    "object": "methylated vitamins",
-    "context": {
-      "en-US": "Slow COMT individuals are sensitive to methylated vitamins such as methylcobalamin and methylfolate because their reduced enzyme activity already leaves them with elevated catecholamine tone and a higher methyl burden, so additional methyl donors can push methylation beyond the optimal range and provoke mood effects. This sensitivity is the rationale for preferring non-methylated B12 forms and folinic acid in this group. The effect is dose- and genotype-dependent, with slow individuals reacting at lower doses. It is a core consideration in personalized supplementation.",
-      "zh-TW": "緩慢的 COMT 個體對 methylated vitamins（例如甲鈷胺和甲基葉酸）敏感，因為它們降低的酶活性已經使它們的兒茶酚胺張力升高和甲基負擔更高，因此額外的甲基供體可以將甲基化推到最佳範圍之外並引發情緒影響。這種敏感性是首選非甲基化 B12 形式和亞葉酸的基本原理。這種效應是劑量和基因型依賴性的，個體在較低劑量下反應較慢。這是個人化補充的核心考量。"
-    },
-    "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
@@ -919,23 +793,9 @@
       "zh-TW": "COMT genotype 決定了阿斯匹靈的心血管反應：慢速 (Met/Met) 個體獲得預防心血管疾病的保護，而快速 (Val/Val) 個體可能會看到風險增加或沒有益處。這種藥物基因效應源自於兒茶酚胺和 folate 代謝的基因型依賴性差異，這些差異改變了阿斯匹靈對血小板、血管內皮和氧化還原平衡的作用。以 COMT 狀態對阿斯匹靈治療進行分層可以改善第一級和第二級心血管預防的風險效益分析。這項發現例證了常見的多態性如何控制廣泛使用的藥物的功效。"
     },
     "confidence": 0.92,
-    "source_document": "Modafinil.md",
+    "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "23a0e83f1172",
-    "subject": "COMT Val allele",
-    "predicate": "is_associated_with",
-    "object": "COMT",
-    "context": {
-      "en-US": "The COMT Val allele is associated with increased schizophrenia risk in some populations, particularly through its effect on prefrontal dopamine signaling and possibly gene-environment interactions. Meta-analyses support a modest but significant association, which is stronger in certain ethnic groups and clinical subgroups, reflecting heterogeneity in genetic background. The biological rationale is that excessive dopamine catabolism in fast COMT may disrupt prefrontal networks implicated in the disorder, consistent with the dopamine hypothesis. The effect is small relative to the overall genetic architecture of schizophrenia.",
-      "zh-TW": "COMT Val allele 與某些人群中精神分裂症風險增加有關，特別是透過其對前額多巴胺訊號傳導以及可能的基因-環境交互作用的影響。薈萃分析支持一種適度但顯著的關聯，這種關聯在某些種族群體和臨床亞組中更為強烈，反映了遺傳背景的異質性。生物學原理是，快速 COMT 中過多的多巴胺分解代謝可能會破壞與疾病有關的前額葉網絡，這與多巴胺假說一致。相對於精神分裂症的整體遺傳結構，這種影響很小。"
-    },
-    "confidence": 0.74,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T17:41:08Z"
   },
   {
     "id": "2593b2ed0e5d",
@@ -947,20 +807,6 @@
       "zh-TW": "COMT Val158 等位基因增加酶的熱穩定性，從而相對於 158 Met 等位基因提高其活性水平。這種較高的活性增加皮質突觸的多巴胺代謝。導致 COMT activity 增加的常見多態性已與較差的認知表現和精神疾病易感性增加相關。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
-    "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
-  },
-  {
-    "id": "09e12cb014b9",
-    "subject": "COMT Val158 allele",
-    "predicate": "increases",
-    "object": "dopamine release capacity in Striatum",
-    "context": {
-      "en-US": "Using fast-scan cyclic voltammetry, researchers found a significant increase in dopamine release capacity in the striatum of COMT-overexpressing mice compared to littermate controls. Although no changes were detected in markers of dopamine synthesis or transport, dopamine release was increased. These changes may underlie the behavioral deficits observed in the mice.",
-      "zh-TW": "使用 fast-scan cyclic voltammetry，研究人員發現 COMT 過度表現小鼠與同窩對照相比，striatum 中的多巴胺釋放能力顯著增加。雖然未檢測到多巴胺合成或運輸標記的變化，但多巴胺釋放增加了。這些變化可能構成小鼠所觀察到行為缺陷的基礎。"
-    },
-    "confidence": 0.9,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-09-02T06:27:57Z",
     "updated": "2026-09-02T06:27:57Z"
@@ -1006,20 +852,6 @@
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-09-02T06:27:57Z",
     "updated": "2026-09-02T06:27:57Z"
-  },
-  {
-    "id": "829193fa9972",
-    "subject": "COMT variants",
-    "predicate": "may_influence",
-    "object": "COMT",
-    "context": {
-      "en-US": "COMT genetic variants may influence susceptibility to Bipolar II Disorder, based on the enzyme's role in catecholamine regulation and interactions with folate-cycle genes such as MTHFR and MTHFD1. Association studies report modest, inconsistent effects, suggesting at most a small contribution to risk relative to the complex genetic architecture of the disorder. Catecholaminergic dysregulation is plausibly relevant to mood cycling and hypomania, but COMT is not a major determinant of the bipolar phenotype. It is typically studied jointly with methylation-pathway genes in mood disorder genetics.",
-      "zh-TW": "基於此酵素在兒茶酚胺調節中的作用以及與 folate 循環基因（例如 MTHFR 和 MTHFD1）的相互作用，COMT 遺傳變異可能會影響 Bipolar II Disorder 的易感性。關聯研究報告了適度且不一致的影響，顯示相對於該疾病的複雜遺傳結構，至多對風險的貢獻很小。兒茶酚胺能失調似乎與情緒循環和輕躁症有關，但 COMT 並不是雙極性情感疾患表型的主要決定因素。它通常與情緒障礙遺傳學中的甲基化途徑基因進行聯合研究。"
-    },
-    "confidence": 0.55,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "585db104f2c2",
@@ -1158,20 +990,6 @@
     },
     "confidence": 0.93,
     "source_document": "D2 receptor.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "43928467574d",
-    "subject": "Dietary green tea",
-    "predicate": "does_not_significantly_inhibit",
-    "object": "COMT in humans",
-    "context": {
-      "en-US": "Dietary green tea does not significantly inhibit COMT in humans at normal consumption levels, because the catechins, notably EGCG, are present at concentrations and durations insufficient to meaningfully block the enzyme in vivo. Human studies indicate that typical green tea intake does not impair COMT activity or catechol metabolism, reassuring regular consumers. This contrasts with high-dose supplemental catechols, which can inhibit COMT and perturb catecholamine clearance. The conclusion is dose-dependent and relevant to slow COMT individuals considering concentrated extracts.",
-      "zh-TW": "Dietary green tea 在正常消耗水準下不會顯著抑制 COMT in humans，因為兒茶素（尤其是 EGCG）的濃度和持續時間不足以在體內有意義地阻斷該酵素。人體研究表明，典型的綠茶攝取量不會損害 COMT activity 或兒茶酚代謝，這讓普通消費者放心。這與高劑量補充兒茶酚形成對比，後者可以抑制 COMT 並擾亂兒茶酚胺清除率。結論是劑量依賴性的，並且與考慮濃縮萃取物的緩慢 COMT 個體相關。"
-    },
-    "confidence": 0.55,
-    "source_document": "Green tea.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1862,34 +1680,6 @@
     "updated": "2026-09-02T06:27:57Z"
   },
   {
-    "id": "e35838ce71db",
-    "subject": "Melatonin",
-    "predicate": "is",
-    "object": "COMT",
-    "context": {
-      "en-US": "Melatonin is an alternative anti-inflammatory agent for slow COMT individuals because it is not a catechol and does not donate methyl groups nor inhibit COMT, so it leaves catecholamine metabolism undisturbed. Its anti-inflammatory and antioxidant actions operate through melatonin receptors and redox pathways, independent of the methylation cycle. This makes it a safe option where methyl burden or COMT interaction is a concern, such as in methyl-sensitive individuals. It also regulates circadian rhythm and sleep, adding to its utility.",
-      "zh-TW": "Melatonin 是慢速 COMT 個體的替代抗發炎劑，因為它不是兒茶酚，不會貢獻 methyl groups 也不抑制 COMT，因此它不會幹擾兒茶酚胺代謝。其抗發炎和抗氧化作用透過褪黑激素受體和氧化還原途徑發揮作用，獨立於 methylation cycle。這使得它成為擔心甲基負擔或 COMT 相互作用的安全選擇，例如在甲基敏感個體中。它還調節晝夜節律和睡眠，增加了它的實用性。"
-    },
-    "confidence": 0.72,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "a96f806cbe99",
-    "subject": "Methyl donor supplements",
-    "predicate": "can_cause",
-    "object": "COMT",
-    "context": {
-      "en-US": "Methyl donor supplements, such as methylfolate, methylcobalamin, and TMG, can cause irritability in slow COMT individuals by increasing the methyl load that these individuals clear and utilize more slowly, potentially over-driving methylation and catecholamine changes. The resulting SAMe elevation can dysregulate mood-related neurotransmitter metabolism and provoke anxiety or overstimulation. Caution and low dosing are advised in methyl-sensitive genotypes, with non-methylated alternatives often preferred. This sensitivity reflects the coupling between COMT activity and the methyl cycle.",
-      "zh-TW": "Methyl donor supplements（例如甲基葉酸、甲鈷胺和 TMG）可能會增加緩慢 COMT 個體清除和利用的甲基負荷，從而導致這些個體變得煩躁，從而可能過度驅動甲基化和兒茶酚胺變化。由此产生的 SAMe 升高可能会导致与情绪相关的神经递质代谢失调，并引发焦虑或过度刺激。對於甲基敏感的基因型，建議謹慎使用並低劑量，通常首選非甲基化替代品。这种敏感性反映了 COMT activity 和甲基循环之间的耦合。"
-    },
-    "confidence": 0.72,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "877af572c356",
     "subject": "Methyl groups",
     "predicate": "are",
@@ -2198,20 +1988,6 @@
     "updated": "2026-09-02T06:27:57Z"
   },
   {
-    "id": "9b0ee2cf3caa",
-    "subject": "Methylfolate",
-    "predicate": "can_cause",
-    "object": "COMT",
-    "context": {
-      "en-US": "Methylfolate (5-methyl-THF) can cause irritability in slow COMT individuals because it directly supplies methyl groups that increase SAMe and the methyl burden these individuals process slowly. The resulting shift in methylation can dysregulate monoamine metabolism and mood, producing anxiety or overstimulation. Lower doses or folinic acid are often preferred in methyl-sensitive genotypes to avoid these effects. The sensitivity is genotype-dependent and reflects the coupling between methyl donors and COMT.",
-      "zh-TW": "Methylfolate（5-甲基-THF）可能會導致緩慢的 COMT 個體煩躁，因為它直接供應 methyl groups，從而增加 SAMe 和這些個體緩慢處理的甲基負擔。由此產生的甲基化變化會導致單胺代謝和情緒失調，產生焦慮或過度刺激。對於甲基敏感的基因型，通常優選較低劑量或亞葉酸，以避免這些影響。敏感性取決於基因型，反映了甲基供體和 COMT 之間的耦合。"
-    },
-    "confidence": 0.72,
-    "source_document": "Methylfolate.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "7a3e54e1d749",
     "subject": "Methylfolate",
     "predicate": "supports",
@@ -2436,20 +2212,6 @@
     "updated": "2026-09-02T06:27:57Z"
   },
   {
-    "id": "220165f0a65c",
-    "subject": "MTHFD1 mutations",
-    "predicate": "impact",
-    "object": "methylation efficiency",
-    "context": {
-      "en-US": "MTHFD1 mutations can impact methylation efficiency similarly to MTHFR variants by limiting the flux of folate derivatives needed to generate 5-methyl-THF and SAMe, the methyl donor for COMT. Although less studied than MTHFR, loss-of-function changes in MTHFD1 can raise homocysteine and reduce methyl donor capacity, constraining catechol O-methylation. The effect indirectly burdens COMT by limiting its SAMe supply and can compound with other one-carbon pathway variants. MTHFD1 is therefore relevant to methylation-focused genetics and personalized medicine.",
-      "zh-TW": "與 MTHFR variants 類似，MTHFD1 mutations 可以透過限制生成 5-甲基-THF 和 SAMe（COMT 的 methyl donor）所需的 folate 衍生物的通量來影響 methylation efficiency。儘管比 MTHFR 研究較少，但 MTHFD1 的功能喪失變化可以提高同型半胱氨酸並降低 methyl donor 的容量，從而限制兒茶酚 O-甲基化。此效應透過限制 SAMe 的供應而間接加重 COMT 的負擔，並且可以與其他單碳途徑變體複合。因此，MTHFD1 與以甲基化為中心的遺傳學和個人化醫療相關。"
-    },
-    "confidence": 0.88,
-    "source_document": "Bipolar II Disorder.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "2bab7efc4dc3",
     "subject": "MTHFD1 variants",
     "predicate": "are_associated_with",
@@ -2462,48 +2224,6 @@
     "source_document": "MTHFD1.md",
     "created": "2026-09-02T06:27:57Z",
     "updated": "2026-09-02T06:27:57Z"
-  },
-  {
-    "id": "2d41e394f09b",
-    "subject": "MTHFR A1298C",
-    "predicate": "is",
-    "object": "Val158Met",
-    "context": {
-      "en-US": "MTHFR A1298C is a functional single-nucleotide polymorphism that reduces the activity of methylenetetrahydrofolate reductase, the enzyme converting 5,10-methylenetetrahydrofolate to 5-methyltetrahydrofolate for homocysteine remethylation. The A1298C variant, especially in compound heterozygosity with C677T, can impair methyl donor generation and elevate homocysteine, reducing the SAMe supply that COMT consumes. Its functional impact is generally milder than homozygous C677T but still relevant to methylation status. It is commonly assessed alongside COMT in methylation-focused genetic panels.",
-      "zh-TW": "MTHFR A1298C 是一種功能性單核苷酸多態性，可降低亞甲基四氫葉酸還原酶的活性，該酶將 5,10-亞甲基四氫葉酸轉化為 5-甲基四氫葉酸，以實現高半胱氨酸再甲基化。 A1298C 變體，尤其是與 C677T 的複合雜合性，可以損害 methyl donor 的生成並提高同型半胱氨酸，從而減少 COMT 消耗的 SAMe 供應。其功能影響通常比純合 C677T 輕微，但仍與甲基化狀態相關。在以甲基化為重點的基因組中，它通常與 COMT 一起進行評估。"
-    },
-    "confidence": 0.93,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "31baadf05e5a",
-    "subject": "MTHFR C677T",
-    "predicate": "is",
-    "object": "Val158Met",
-    "context": {
-      "en-US": "MTHFR C677T is a functional SNP that substitutes cysteine for alanine at codon 677, producing a thermolabile enzyme with reduced methylenetetrahydrofolate reductase activity, particularly when homozygous (TT). This impairs generation of 5-methyl-THF, lowering SAMe and raising homocysteine, which can secondarily affect COMT substrate supply and catechol methylation. It is among the most clinically characterized folate-cycle variants and is frequently studied together with COMT. Its effects are modifiable by folate, B12, and betaine status.",
-      "zh-TW": "MTHFR C677T 是一種功能性 SNP，它在密碼子 677 處以半胱氨酸取代丙氨酸，產生亞甲基四氫葉酸還原酶活性降低的耐熱酶，特別是純合子 (TT) 時。這會損害 5-甲基-THF 的生成，降低 SAMe 並提高同型半胱胺酸，進而影響 COMT 底物供應和兒茶酚甲基化。它是最具臨床特徵的 folate 循環變體之一，經常與 COMT 一起研究。其作用可藉由 folate、B12 和甜菜鹼狀態來改變。"
-    },
-    "confidence": 0.95,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "2301005d9867",
-    "subject": "MTHFR variants",
-    "predicate": "may_influence",
-    "object": "COMT",
-    "context": {
-      "en-US": "MTHFR genetic variants may influence susceptibility to Bipolar II Disorder through their effects on methyl donor availability and catecholamine-related epigenetic regulation, though associations are modest and inconsistent. Altered folate metabolism could perturb monoamine signaling relevant to mood cycling and hypomania, complementing COMT's role in catecholamine clearance. COMT and MTHFR are often studied jointly as candidate genes in bipolar genetics, reflecting shared effects on the methylation cycle. The combined contribution is small relative to the disorder's overall genetic architecture.",
-      "zh-TW": "MTHFR 遺傳變異可能透過影響 methyl donor 的可用性和兒茶酚胺相關的表觀遺傳調控來影響對 Bipolar II Disorder 的易感性，儘管相關性有限且不一致。 folate 代謝的改變可能會擾亂與情緒週期和輕躁症相關的單胺訊號傳導，補充 COMT 在兒茶酚胺清除中的作用。 COMT 和 MTHFR 經常作為雙相遺傳學中的候選基因聯合研究，反映了對 methylation cycle 的共同影響。相對於該疾病的整體遺傳結構，綜合貢獻很小。"
-    },
-    "confidence": 0.55,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
   },
   {
     "id": "25e043d92625",
@@ -2646,20 +2366,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "658a89fbec42",
-    "subject": "Norepinephrine transporter",
-    "predicate": "predominates_in",
-    "object": "COMT",
-    "context": {
-      "en-US": "NET predominates, together with COMT, in prefrontal cortex dopamine clearance, since the sparse DAT forces reliance on NET reuptake and extracellular O-methylation by COMT. This shared predominance means prefrontal dopamine is uniquely sensitive to both noradrenergic and COMT-modulating interventions, including NET-inhibiting antidepressants and COMT genotype differences. The relationship is a cornerstone of prefrontal catecholamine pharmacology, explaining why drugs affecting either system alter cognition. It is central to understanding dopamine regulation in the cortex.",
-      "zh-TW": "NET 與 COMT 一起在前額葉皮質多巴胺清除中占主導地位，因為稀疏的 DAT 迫使 COMT 對 NET 的再攝取和細胞外 O-甲基化的依賴。這種共同的優勢意味著前額葉多巴胺對去甲腎上腺素能和 COMT 調節幹預措施特別敏感，包括 NET 抑制抗憂鬱藥物和 COMT genotype 差異。這種關係是前額葉兒茶酚胺藥理學的基石，解釋了為什麼影響任一系統的藥物會改變認知。它對於理解皮質中的多巴胺調節至關重要。"
-    },
-    "confidence": 0.93,
-    "source_document": "Norepinephrine transporter.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "61755f0091e7",
     "subject": "Norepinephrine transporter",
     "predicate": "works_alongside",
@@ -2700,20 +2406,6 @@
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "9c7bb92bcb27",
-    "subject": "Norepinephrine transporter",
-    "predicate": "clears",
-    "object": "Norepinephrine",
-    "context": {
-      "en-US": "NET terminates noradrenergic signaling by reuptaking norepinephrine from the synaptic cleft back into the presynaptic terminal. It is the principal mechanism for clearing norepinephrine in most brain regions and the periphery. This reuptake is driven by the sodium gradient maintained by Na+/K+-ATPase.",
-      "zh-TW": "NET 透過將 norepinephrine 從突觸間隙再攝取回突觸前終端來終止去甲腎上腺素訊號傳導。它是大多數 brain 區域和周邊清除 norepinephrine 的主要機制。這種再攝取由 Na+/K+-ATPase 維持的鈉梯度驅動。"
-    },
-    "confidence": 0.95,
-    "source_document": "Norepinephrine transporter.md",
-    "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
   },
   {
     "id": "1fc55cf7a4e0",
@@ -3122,20 +2814,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "e3ba1c3db126",
-    "subject": "Rutin",
-    "predicate": "can_inhibit",
-    "object": "COMT at high levels",
-    "context": {
-      "en-US": "Rutin can inhibit COMT at high supplemental levels because, as a quercetin glycoside containing a catechol moiety, it competes for the enzyme's active site and for SAMe when present in sufficient concentration. At typical dietary intake inhibition is negligible, but concentrated extracts may affect catechol clearance and metabolism. Its catechol nature determines this dose-dependent interaction, which is most relevant in slow COMT individuals. After deglycosylation, its quercetin aglycone mediates the interaction.",
-      "zh-TW": "Rutin 可以在高補充水平下抑制 COMT，因為作為含有兒茶酚部分的槲皮素糖苷，當存在足夠濃度時，它會競爭酶的活性位點和 SAMe。在典型的飲食攝取量下，抑製作用可以忽略不計，但濃縮萃取物可能會影響兒茶酚的清除和代謝。其茶酚性質決定了這種劑量依賴性相互作用，這在緩慢的 COMT 個體中最為相關。去糖基化後，其槲皮素苷元介導相互作用。"
-    },
-    "confidence": 0.7,
-    "source_document": "Rutin.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "cf18d8585f39",
     "subject": "Rutin",
     "predicate": "is",
@@ -3472,20 +3150,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "02883a3cdb8b",
-    "subject": "Val158Met",
-    "predicate": "is_associated_with",
-    "object": "better Working Memory",
-    "context": {
-      "en-US": "The Met/Met genotype is associated with better working memory performance on complex cognitive tasks, attributed to the higher prefrontal dopamine tone produced by slower COMT activity. Under the inverted-U model, this places slow individuals nearer the cognitive optimum during non-stressed conditions, favoring stability and maintenance of information. The association is well replicated but moderated by sex, task, and stress, and is strongest on demanding load-bearing paradigms. It represents a cornerstone of gene-cognition research in humans.",
-      "zh-TW": "Met/Met 基因型與複雜認知任務中較好的工作記憶表現有關，這歸因於速度較慢的 COMT activity 產生的前額葉多巴胺音調較高。在倒U模型下，這使得反應遲鈍的人在無壓力的情況下更接近認知最佳狀態，有利於訊息的穩定性和維護。這種關聯得到了很好的複製，但受到性別、任務和壓力的調節，並且在要求較高的承重範式上最強。它代表了人類基因認知研究的基石。"
-    },
-    "confidence": 0.74,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "c972f41d09d9",
     "subject": "Val158Met",
     "predicate": "is_associated_with",
@@ -3507,20 +3171,6 @@
     "context": {
       "en-US": "Val158Met impacts cognitive performance by setting prefrontal dopamine availability through its effect on COMT activity, with the inverted-U model predicting better stability and working memory in Met carriers and better stress processing in Val carriers. Meta-analyses confirm small-to-moderate, task-dependent effects on executive function and working memory, moderated by sex, age, and environment. The variant is a leading model for gene-cognition association. Its effects are most apparent under cognitive load and stress.",
       "zh-TW": "Val158Met 透過對 COMT activity 的影響來設定前額多巴胺的可用性，從而影響 cognitive performance，倒 U 模型預測 Met 攜帶者有更好的穩定性和工作記憶，Val 攜帶者有更好的壓力處理。統合分析證實對 executive function 和工作記憶有小到中度的任務依賴性影響，並受到性別、年齡和環境的調節。該變異是基因認知關聯的領先模型。它的影響在認知負荷和壓力下最為明顯。"
-    },
-    "confidence": 0.94,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "a183f49bad29",
-    "subject": "Val158Met",
-    "predicate": "increases",
-    "object": "COMT",
-    "context": {
-      "en-US": "The Val158Met (Val) allele is associated with increased risk for schizophrenia in numerous case-control and meta-analytic studies, consistent with a role for prefrontal dopaminergic dysregulation in psychosis. The effect is modest in absolute terms and modified by ethnicity, sex, and other genetic and environmental factors, reflecting the polygenic nature of the disorder. Because COMT controls prefrontal dopamine clearance, the faster Val variant plausibly disrupts the dopamine balance implicated in schizophrenia. It remains one of the most investigated candidate variants in psychiatric genetics.",
-      "zh-TW": "在許多病例對照和統合分析研究中，Val158Met (Val) 等位基因與精神分裂症風險增加有關，這與前額葉多巴胺能失調在精神病中的作用一致。從絕對值來看，這種影響是適度的，並且會受到種族、性別以及其他遺傳和環境因素的影響，反映了疾病的多基因性質。由於 COMT 控制前額葉多巴胺清除，因此更快的 Val 變體可能會破壞與精神分裂症相關的多巴胺平衡。它仍然是精神遺傳學中研究最多的候選變異之一。"
     },
     "confidence": 0.94,
     "source_document": "Val158Met.md",
@@ -3584,20 +3234,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "75c235a913a3",
-    "subject": "Val158Met",
-    "predicate": "is_associated_with",
-    "object": "higher COMT activity",
-    "context": {
-      "en-US": "The Val/Val (fast) COMT genotype is associated with approximately three- to four-fold higher enzyme activity than Met/Met, because the valine substitution yields a thermostable protein with greater catalytic efficiency. This rapid activity accelerates catecholamine clearance, lowering extracellular dopamine especially in the prefrontal cortex where DAT is sparse. The activity difference is a cornerstone of COMT pharmacogenetics and predicts cognition, stress response, and drug responses. It defines the fast end of the COMT activity spectrum.",
-      "zh-TW": "Val/Val（快速）COMT genotype 的酶活性比 Met/Met 高約三到四倍，因為纈氨酸取代產生具有更高催化效率的熱穩定蛋白。這種快速的活性加速了兒茶酚胺的清除，降低了細胞外多巴胺的水平，尤其是在 DAT 稀疏的前額葉皮質。活性差異是 COMT 藥物基因學的基石，可預測認知、壓力反應和藥物反應。它定義了 COMT activity 系列的快速端。"
-    },
-    "confidence": 0.95,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "e13e5d5026b7",
     "subject": "Val158Met",
     "predicate": "produces",
@@ -3605,20 +3241,6 @@
     "context": {
       "en-US": "The Met/Met genotype produces low COMT enzyme activity, roughly three- to four-fold below Val/Val levels, due to the thermolabile methionine-containing protein that is degraded more readily at body temperature. This reduced activity slows elimination of catecholamines and catechol drugs, prolonging their action and raising extracellular dopamine, particularly in the prefrontal cortex. It is the defining biochemical feature of the slow COMT end of the spectrum. This biochemical phenotype underpins the associated cognitive, mood, and drug-response differences.",
       "zh-TW": "Met/Met 基因型產生較低的 COMT 酶活性，大約比 Val/Val 水平低三到四倍，這是因為含有不耐熱蛋氨酸的蛋白質在體溫下更容易降解。這種活性的降低減緩了 catecholamines 和兒茶酚藥物的消除，延長了它們的作用並提高了細胞外多巴胺，特別是在前額葉皮質。這是光譜中緩慢的 COMT 端的決定性生化特徵。這種生化表型是相關認知、情緒和藥物反應差異的基礎。"
-    },
-    "confidence": 0.95,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "da5a42f883b5",
-    "subject": "Val158Met",
-    "predicate": "is_associated_with",
-    "object": "lower COMT activity",
-    "context": {
-      "en-US": "The Met/Met (slow) COMT genotype is associated with approximately three- to four-fold reduced enzyme activity compared with Val/Val, because the methionine substitution at codon 158 renders the protein thermolabile and less catalytically stable. This lower activity slows catechol O-methylation and elevates extracellular dopamine, especially in the prefrontal cortex where DAT is sparse. The magnitude of the activity difference is among the best-established genotype-enzyme relationships in human genetics. It underlies the elevated dopamine tone and cognitive profile of slow COMT carriers.",
-      "zh-TW": "與 Val/Val 相比，Met/Met（慢）COMT genotype 的酶活性降低約三到四倍，因為密碼子 158 處的甲硫氨酸取代使蛋白質不耐熱且催化穩定性較差。這種較低的活性會減緩兒茶酚 O-甲基化並提高細胞外多巴胺，尤其是在 DAT 稀疏的前額葉皮質。活性差異的大小是人類遺傳學中最確定的基因型-酵素關係之一。它是慢速 COMT 帶因者多巴胺張力和認知特徵升高的基礎。"
     },
     "confidence": 0.95,
     "source_document": "Val158Met.md",
@@ -3663,20 +3285,6 @@
       "zh-TW": "Val158Met 調節對莫達非尼的反應，較快 (Val) 基因型顯示出更大的認知和喚醒促進益處，因為莫達非尼的 DAT 抑制使多巴胺從較低的 COMT 設定基線升高，而較慢 (Met) 基因型更接近最佳狀態，增益較少或可能被過度刺激。這種藥物基因交互作用指導個人化興奮劑的使用，並已在認知和臨床研究中得到證實。它是幾種 COMT 依賴性藥物反應之一。基因型感知處方可以優化莫達非尼的療效。"
     },
     "confidence": 0.92,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "fed8ecad7408",
-    "subject": "Val158Met",
-    "predicate": "is_associated_with",
-    "object": "poorer cognitive performance",
-    "context": {
-      "en-US": "Val158Met is associated with poorer cognitive performance, particularly on prefrontal tasks, in individuals carrying the faster Val allele due to reduced dopamine availability at D1/D2 receptors. The relationship follows the inverted-U model, so the direction of cognitive effect depends on genotype and task demands, with fast genotypes disadvantaged on stability-dependent tasks. Meta-analytic evidence supports small-to-moderate effect sizes on executive function and working memory. These effects are most pronounced under cognitive load and stress, where dopamine demand is highest.",
-      "zh-TW": "Val158Met 與 poorer cognitive performance 相關，特別是在前額葉任務中，在由於 D1/D2 受體多巴胺可用性降低而攜帶更快 Val 等位基因的個體中。這種關係遵循倒 U 型模型，因此認知效果的方向取決於基因型和任務需求，而快速基因型在依賴穩定性的任務中處於不利地位。薈萃分析證據支持 executive function 和工作記憶的效果量為小到中等。這些影響在認知負荷和壓力下最為明顯，此時多巴胺需求最高。"
-    },
-    "confidence": 0.74,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
@@ -3794,20 +3402,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "d02a6f9e45b7",
-    "subject": "Val158Met",
-    "predicate": "is",
-    "object": "Val158Met",
-    "context": {
-      "en-US": "Val158Met is a functional single-nucleotide polymorphism in the COMT gene that substitutes valine for methionine at codon 158, producing a thermolabile protein with markedly lower activity in the Met form. This amino acid change is the principal source of the three- to four-fold differences in COMT enzyme activity among Val/Val, Val/Met, and Met/Met genotypes. It is therefore the canonical functional variant used to stratify fast versus slow COMT in pharmacogenetic and cognitive research. Known as rs4680, it is among the most studied polymorphisms in neuropsychiatry.",
-      "zh-TW": "Val158Met 是 COMT 基因中的功能性單核苷酸多態性，它在密碼子 158 處以纈氨酸取代蛋氨酸，產生 Met 形式的耐熱性蛋白質，其活性明顯較低。這種胺基酸變化是 Val/Val、Val/Met 和 Met/Met 基因型之間 COMT 酶活性存在三到四倍差異的主要原因。因此，它是藥物遺傳學和認知研究中用於對快 COMT 與慢 COMT 進行分層的規範功能變體。它被稱為 rs4680，是神經精神醫學中研究最多的多態性之一。"
-    },
-    "confidence": 0.92,
-    "source_document": "Val158Met.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "a2ccef6abd10",
     "subject": "Val158Met",
     "predicate": "involves",
@@ -3906,20 +3500,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "3f4e1c6998fb",
-    "subject": "Vitamin E",
-    "predicate": "prevents_cancer_in",
-    "object": "COMT",
-    "context": {
-      "en-US": "Vitamin E prevents cancer in slow COMT individuals as shown in genotype-stratified analyses where alpha-tocopherol supplementation reduced cancer incidence among Met/Met carriers, plausibly via COMT-dependent antioxidant and catechol-metabolizing pathways. The benefit is the inverse of the fast-genotype risk, where vitamin E may increase cancer risk. Effect sizes are moderate and trial-dependent, and the mechanism likely involves COMT-dependent handling of catecholic intermediates. This supports genotype-specific supplementation recommendations.",
-      "zh-TW": "基因型分層分析顯示，Vitamin E 可預防慢速 COMT 個體的癌症，其中補充 α-生育酚可降低 Met/Met 攜帶者的癌症發病率，這似乎是透過 COMT 依賴性抗氧化劑和兒茶酚代謝途徑實現的。其好處與快速基因型風險相反，維生素 E 可能會增加癌症風險。效果大小適中且依賴試驗，其機制可能涉及 COMT 依賴的兒茶酚中間體處理。這支持針對特定基因型的補充建議。"
-    },
-    "confidence": 0.7,
-    "source_document": "COMT.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
     "id": "4cbb24b8c394",
     "subject": "Working Memory",
     "predicate": "depends_on",
@@ -3960,5 +3540,509 @@
     "source_document": "Working Memory.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "7af63f23d52a",
+    "subject": "D1 receptor",
+    "predicate": "is",
+    "object": "excitatory dopamine receptor",
+    "context": {
+      "en-US": "D1 is a Gs-coupled excitatory dopamine receptor driving direct-pathway facilitation, the mirror of Gi-coupled inhibitory D2. This excitatory character explains its pro-movement and reward signaling.",
+      "zh-TW": "D1 是 Gs 耦合的興奮性多巴胺受體，驅動直接路徑的促進，與 Gi 耦合的抑制性 D2 互為鏡像。此興奮特性解釋其促運動與獎賞訊號。"
+    },
+    "confidence": 0.93,
+    "source_document": "D1 receptor.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "dcae6dbfc5f1",
+    "subject": "D1 receptor",
+    "predicate": "modulates",
+    "object": "movement",
+    "context": {
+      "en-US": "D1 activation on the direct pathway disinhibits thalamocortical output to facilitate movement initiation and smoothness. This mirrors the established D2-modulates-movement edge on the opposing pathway.",
+      "zh-TW": "D1 在直接路徑的活化去抑制丘腦皮質輸出，以促進動作啟動與平滑。此呼應對側路徑既有的 D2 調節運動邊。"
+    },
+    "confidence": 0.88,
+    "source_document": "D1 receptor.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "e288a631f3dc",
+    "subject": "D1 receptor",
+    "predicate": "modulates",
+    "object": "Working Memory",
+    "context": {
+      "en-US": "D1-mediated dopamine signaling gates working memory maintenance, paralleling the D2 working-memory edge. Prefrontal D1 occupancy depends on COMT-set dopamine tone where DAT is sparse.",
+      "zh-TW": "D1 介導的多巴胺訊號守衛工作記憶維持，與 D2 工作記憶邊平行。前額葉 D1 佔據在 DAT 稀疏處依賴 COMT 設定的多巴胺張力。"
+    },
+    "confidence": 0.85,
+    "source_document": "D1 receptor.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "0e44d878c5cc",
+    "subject": "COMT",
+    "predicate": "regulates_dopamine_availability_for",
+    "object": "D1 receptor",
+    "context": {
+      "en-US": "COMT sets cortical dopamine tone upstream of D1 occupancy in low-DAT regions, since extrasynaptic diffusion dominates there. This mirrors the existing regulates_dopamine_availability_for D2 receptor edge.",
+      "zh-TW": "COMT 在低 DAT 區域於 D1 佔據上游設定皮質多巴胺張力，因該處以突觸外擴散為主。此呼應既有的調節 D2 受體多巴胺可用性邊。"
+    },
+    "confidence": 0.85,
+    "source_document": "D1 receptor.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "8b31c7b9f0c4",
+    "subject": "Opicapone",
+    "predicate": "treats",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Opicapone is an approved once-daily adjunct to levodopa for Parkinson's disease that reduces motor fluctuations and off time. Peripheral COMT blockade prolongs levodopa availability without central inhibition.",
+      "zh-TW": "Opicapone 是帕金森氏症核准的每日一次左旋多巴輔助藥物，減少運動波動與關閉期。周邊 COMT 阻斷延長左旋多巴可用性而不中樞抑制。"
+    },
+    "confidence": 0.93,
+    "source_document": "Opicapone.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "5bdf75b3af6e",
+    "subject": "Opicapone",
+    "predicate": "is_a",
+    "object": "COMT inhibitor",
+    "context": {
+      "en-US": "Opicapone belongs to the COMT-inhibitor drug class as its third-generation peripherally restricted member. Classification groups it with entacapone and tolcapone.",
+      "zh-TW": "Opicapone 屬於 COMT 抑制劑藥物類別，為第三代周邊限制性成員。歸類將它與 entacapone 和 tolcapone 並列。"
+    },
+    "confidence": 0.95,
+    "source_document": "Opicapone.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "17d4e764ce3d",
+    "subject": "narcolepsy",
+    "predicate": "is_a",
+    "object": "sleep disorder",
+    "context": {
+      "en-US": "Narcolepsy is a chronic neurological sleep disorder of excessive daytime sleepiness with disrupted nocturnal sleep. Classification anchors it in sleep medicine rather than psychiatry.",
+      "zh-TW": "narcolepsy 是以日間過度嗜睡與夜間睡眠中斷為特徵的慢性神經性睡眠疾患。歸類將它錨定於睡眠醫學而非精神科。"
+    },
+    "confidence": 0.95,
+    "source_document": "narcolepsy.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "67a9c2102e83",
+    "subject": "narcolepsy",
+    "predicate": "is_associated_with",
+    "object": "Orexin deficiency",
+    "context": {
+      "en-US": "Narcolepsy type 1 is driven by loss of orexin-producing hypothalamic neurons destabilizing sleep-wake boundaries. The association is the causal core of the disorder's pathophysiology.",
+      "zh-TW": "第一型 narcolepsy 由喪失下視丘食慾素神經元、破壞睡眠覺醒邊界所驅動。此關聯是疾病病理生理的因果核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "narcolepsy.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "7e20f216000c",
+    "subject": "nootropic",
+    "predicate": "is_a",
+    "object": "cognitive enhancer",
+    "context": {
+      "en-US": "A nootropic is by definition a cognitive-enhancing agent targeting alertness, attention or executive function. Classification covers prescription repurposing like modafinil as well as supplements.",
+      "zh-TW": "nootropic 依定義是針對警覺、注意或執行功能的認知增強劑。歸類涵蓋如 modafinil 的處方再利用與補充劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "nootropic.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "01cba17a1d70",
+    "subject": "Val158Met",
+    "predicate": "modulates",
+    "object": "nootropic response",
+    "context": {
+      "en-US": "Val158Met stratifies nootropic benefit because COMT-set cortical dopamine determines how much modafinil-class dopaminergic enhancement can help. Fast genotypes gain more from the same dose.",
+      "zh-TW": "Val158Met 分層 nootropic 效益，因 COMT 設定的皮質多巴胺決定多巴胺增強能幫多少。快速基因型從相同劑量獲益更多。"
+    },
+    "confidence": 0.85,
+    "source_document": "nootropic.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "8d59436b2f04",
+    "subject": "Creatine Kinase",
+    "predicate": "produces",
+    "object": "Phosphocreatine (PCr)",
+    "context": {
+      "en-US": "Creatine kinase reversibly phosphorylates creatine with ATP to produce phosphocreatine, the muscle phosphagen store. This reaction is the mechanistic hub of the creatine-PCr energy buffer.",
+      "zh-TW": "Creatine kinase 以 ATP 可逆磷酸化肌酸以產生磷酸肌酸，即肌肉磷酸原儲庫。此反應是肌酸-PCr 能量緩衝的機制樞紐。"
+    },
+    "confidence": 0.95,
+    "source_document": "Creatine Kinase.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "3a2cdb870a37",
+    "subject": "Creatine Kinase",
+    "predicate": "uses",
+    "object": "ATP",
+    "context": {
+      "en-US": "The creatine kinase reaction consumes ATP to phosphorylate creatine, coupling the phosphagen pool to cellular energy demand. ATP use makes CK the loader of the buffer during rest.",
+      "zh-TW": "肌酸激酶反應消耗 ATP 以磷酸化肌酸，將磷酸原池耦合到細胞能量需求。ATP 使用使 CK 成為休息時緩衝的裝載者。"
+    },
+    "confidence": 0.88,
+    "source_document": "Creatine Kinase.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "0d0184916b3b",
+    "subject": "Creatine",
+    "predicate": "increases",
+    "object": "Muscle Mass",
+    "context": {
+      "en-US": "Creatine supplementation plus resistance training increases lean tissue mass and strength, confirmed by RCTs and meta-analyses in older adults. The effect combines expanded PCr energetics with protein-sparing action.",
+      "zh-TW": "肌酸補充加阻力訓練增加瘦組織量與肌力，老年人 RCT 與統合分析已確認。效應結合擴大的 PCr 能量學與保留蛋白作用。"
+    },
+    "confidence": 0.88,
+    "source_document": "Muscle Mass.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "79d26f1862d4",
+    "subject": "Phosphocreatine (PCr)",
+    "predicate": "supports",
+    "object": "Muscle Mass",
+    "context": {
+      "en-US": "An expanded phosphocreatine pool supports high-intensity training capacity whose adaptations drive lean-mass gains. Support is indirect via the CK energy buffer rather than direct anabolism.",
+      "zh-TW": "擴大的磷酸肌酸池支持高強度訓練能力，其適應驅動瘦體量增長。支持經由 CK 能量緩衝間接而非直接合成代謝。"
+    },
+    "confidence": 0.75,
+    "source_document": "Phosphocreatine (PCr).md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "b0b3a463529e",
+    "subject": "Skeletal Muscle",
+    "predicate": "contains",
+    "object": "Creatine Kinase",
+    "context": {
+      "en-US": "Skeletal muscle contains the MM creatine kinase isoform dominating its phosphagen system. Containment records the tissue home of the muscle-type enzyme.",
+      "zh-TW": "骨骼肌含有主導其磷酸原系統的 MM 型肌酸激酶。包含記錄肌肉型酶的組織歸屬。"
+    },
+    "confidence": 0.85,
+    "source_document": "Creatine Kinase.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "b2c043cab9a5",
+    "subject": "Protein Restriction",
+    "predicate": "reduces",
+    "object": "Adiposity",
+    "context": {
+      "en-US": "Protein restriction lowers body fat in rodents and humans despite compensatory hyperphagia, via FGF21-driven thermogenesis. Fat loss independent of caloric intake is the defining phenotype.",
+      "zh-TW": "蛋白質限制在代償性多食下仍降低囓齒類與人類體脂，經由 FGF21 驅動的產熱。不依賴熱量攝取的脂肪減少是定義表型。"
+    },
+    "confidence": 0.88,
+    "source_document": "Adiposity.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "e133e946dc1a",
+    "subject": "FGF21",
+    "predicate": "reduces",
+    "object": "Adiposity",
+    "context": {
+      "en-US": "FGF21 induced by low-protein feeding drives UCP1-dependent beiging thermogenesis that dissipates energy as heat. This endocrine signal is the primary mediator of restriction-associated fat loss.",
+      "zh-TW": "低蛋白飼養誘發的 FGF21 驅動 UCP1 依賴的米色化產熱，將能量以熱耗散。此內分泌訊號是限制相關脂肪減少的主要介體。"
+    },
+    "confidence": 0.82,
+    "source_document": "Adiposity.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "e8c2d9bf5a3a",
+    "subject": "Energy Expenditure",
+    "predicate": "reduces",
+    "object": "Adiposity",
+    "context": {
+      "en-US": "Raised energy expenditure from FGF21-UCP1 thermogenesis outpaces compensatory food intake, producing net fat loss. Expenditure exceeding intake is the arithmetic of the phenotype.",
+      "zh-TW": "FGF21-UCP1 產熱提高的能量消耗超過代償性進食，產生淨脂肪減少。消耗超過攝取是此表型的算術。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adiposity.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "7d70d1318b97",
+    "subject": "NMN",
+    "predicate": "enhances",
+    "object": "Aerobic Capacity",
+    "context": {
+      "en-US": "NMN supplementation raised aerobic capacity in an amateur-runner RCT and mitochondrial respiratory ability in aged mice. Enhancement is attributed to NAD+ restoration feeding sirtuin-driven oxidative metabolism.",
+      "zh-TW": "NMN 補充在業餘跑者 RCT 提高有氧能力，在老年小鼠提高粒線體呼吸能力。增強歸因於 NAD+ 恢復供養 sirtuin 驅動的氧化代謝。"
+    },
+    "confidence": 0.8,
+    "source_document": "Aerobic Capacity.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "2ca671212aa4",
+    "subject": "NAD+",
+    "predicate": "supports",
+    "object": "Aerobic Capacity",
+    "context": {
+      "en-US": "NAD+ restoration mediates NMN's aerobic gains by activating sirtuins and oxidative phosphorylation. Support is the coenzyme-level mechanism behind the performance outcome.",
+      "zh-TW": "NAD+ 恢復經由活化 sirtuin 與氧化磷酸化介導 NMN 的有氧增益。支持是表現結果背後的輔酶層級機制。"
+    },
+    "confidence": 0.75,
+    "source_document": "Aerobic Capacity.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "1808abd3cc53",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "treats",
+    "object": "Alcohol-Induced Depression",
+    "context": {
+      "en-US": "In mice, 10 weeks of nicotinamide riboside protected against alcohol-induced depression-like behavior via gut-microbiota shifts raising brain BDNF. FMT from treated donors reproduced protection, qualifying this as a model-organism edge.",
+      "zh-TW": "小鼠中十週 nicotinamide riboside 經由改變腸道菌群提高腦 BDNF，預防酒精誘發的憂鬱樣行為。受治供體的 FMT 重現保護，使此為模式生物邊。"
+    },
+    "confidence": 0.72,
+    "source_document": "Alcohol-Induced Depression.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "098cbba794c5",
+    "subject": "Gut Microbiome",
+    "predicate": "modulates",
+    "object": "Depression",
+    "context": {
+      "en-US": "NR-driven microbiota composition shifts causally modulate depressive behavior, proven by fecal transplant reproducing resilience in germ-free recipients. Modulation runs through the gut-brain axis to BDNF and microglia.",
+      "zh-TW": "NR 驅動的菌群組成變化因果調節憂鬱行為，糞菌移植在無菌受體重現韌性已證明。調節經腸腦軸通往 BDNF 與小膠質細胞。"
+    },
+    "confidence": 0.75,
+    "source_document": "Alcohol-Induced Depression.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "c41a7979661a",
+    "subject": "CamKIIα",
+    "predicate": "is_expressed_in",
+    "object": "Hippocampus",
+    "context": {
+      "en-US": "CamKIIα is abundantly expressed in hippocampal circuits where its autophosphorylation sustains LTP and memory consolidation. Hippocampal expression extends its forebrain cognitive role beyond prefrontal cortex.",
+      "zh-TW": "CamKIIα 豐富表現於海馬迴路，其自磷酸化維持 LTP 與記憶鞏固。海馬表現將其前腦認知角色延伸至前額葉之外。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hippocampus.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "b88ca302fc74",
+    "subject": "Hesperidin",
+    "predicate": "has",
+    "object": "anti-inflammatory properties",
+    "context": {
+      "en-US": "Hesperidin contributes antioxidant and anti-inflammatory activity as a citrus flavanone, consistent with the flavonoid class pattern. Its COMT neutrality makes it usable where catechol flavonoids are not.",
+      "zh-TW": "Hesperidin 作為柑橘黃烷酮貢獻抗氧化與抗發炎活性，符合類黃酮類別模式。其 COMT 中性使其在兒茶酚類黃酮不適用處可用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hesperidin.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "b3204b8b60bd",
+    "subject": "Berberine",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Berberine activates AMPK signaling that improves metabolic and inflammatory status alongside NF-kappaB inhibition. AMPK activation is its canonical metabolic mechanism in insulin resistance and metabolic syndrome.",
+      "zh-TW": "Berberine 活化 AMPK 訊號，在 NF-κB 抑制之外改善代謝與發炎狀態。AMPK 活化是其在胰島素抗性與代謝症候群的典型代謝機制。"
+    },
+    "confidence": 0.88,
+    "source_document": "Berberine.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "62ab84784be6",
+    "subject": "Aspirin",
+    "predicate": "inhibits",
+    "object": "Cyclooxygenase",
+    "context": {
+      "en-US": "Aspirin irreversibly inhibits cyclooxygenase enzymes, blocking thromboxane A2 synthesis for its antiplatelet cardiovascular effect. COX inhibition is the core pharmacology behind the genotype-stratified outcomes.",
+      "zh-TW": "Aspirin 不可逆抑制環氧合酶，阻斷血栓素 A2 合成以產生抗血小板心血管效應。COX 抑制是基因型分層結果背後的核心藥理。"
+    },
+    "confidence": 0.97,
+    "source_document": "Aspirin.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "40ba1f47a5fb",
+    "subject": "Lamotrigine",
+    "predicate": "treats",
+    "object": "Bipolar II Disorder",
+    "context": {
+      "en-US": "Lamotrigine is a first-line mood stabilizer for bipolar depression maintenance, delaying depressive relapse in Bipolar II. Its indication covers the predominant depressive pole of the disorder.",
+      "zh-TW": "Lamotrigine 是雙極憂鬱維持治療的第一線情緒穩定劑，延緩第二型雙極的憂鬱復發。其適應症涵蓋疾病主要的憂鬱極。"
+    },
+    "confidence": 0.82,
+    "source_document": "Bipolar II Disorder.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "a9a31a138fc0",
+    "subject": "Cerebellum",
+    "predicate": "contains",
+    "object": "Purkinje cell",
+    "context": {
+      "en-US": "Purkinje cells are the principal output neurons of the cerebellar cortex integrating sensory-motor input to deep nuclei. Containment records the defining cellular composition of the cerebellum.",
+      "zh-TW": "Purkinje 細胞是小腦皮質的主要輸出神經元，整合感覺運動輸入至深部核。包含記錄小腦的定義性細胞組成。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cerebellum.md",
+    "created": "2026-09-04T17:41:08Z",
+    "updated": "2026-09-04T17:41:08Z"
+  },
+  {
+    "id": "0a34b76376d4",
+    "subject": "Dopamine Transporter",
+    "predicate": "is_sparse_in",
+    "object": "Hippocampus",
+    "context": {
+      "en-US": "The hippocampus has sparse dopamine transporter expression, so extracellular dopamine there is cleared mainly by COMT and NET uptake. This mirrors the prefrontal sparse-DAT architecture that makes COMT the dominant clearance route.",
+      "zh-TW": "海馬體的多巴胺轉運蛋白表現稀疏，因此該處細胞外多巴胺主要由 COMT 與 NET 攝取清除。此呼應前額葉稀疏 DAT 架構，使 COMT 成為主要清除路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hippocampus.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "4b8eb333ed47",
+    "subject": "Hippocampus",
+    "predicate": "is_affected_in",
+    "object": "Schizophrenia",
+    "context": {
+      "en-US": "Hippocampal-prefrontal network dysfunction is observed in schizophrenia, implicating hippocampal circuits alongside prefrontal COMT variation. This mirrors the existing Prefrontal Cortex is_affected_in Schizophrenia edge.",
+      "zh-TW": "精神分裂症可觀察到海馬—前額葉網絡功能障礙，將海馬迴路與前額葉 COMT 變異並列。此呼應既有的前額葉皮質受影響於精神分裂症邊。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hippocampus.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "b9b2da75ea9f",
+    "subject": "Aspirin",
+    "predicate": "reduces",
+    "object": "Thromboxane A2",
+    "context": {
+      "en-US": "Aspirin suppresses thromboxane A2 synthesis in platelets, which cannot resynthesize COX, shifting hemostasis toward reduced clot formation at low doses. TXA2 suppression is the antiplatelet mechanism behind its cardiovascular prophylaxis.",
+      "zh-TW": "Aspirin 抑制血小板中血栓素 A2 合成，血小板無法重新合成 COX，低劑量使止血傾向減少凝塊形成。TXA2 抑制是其心血管預防背後的抗血小板機制。"
+    },
+    "confidence": 0.92,
+    "source_document": "Aspirin.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "3298d9e2b408",
+    "subject": "Hydroxocobalamin",
+    "predicate": "treats",
+    "object": "Pernicious anemia",
+    "context": {
+      "en-US": "Hydroxocobalamin is the parenteral B12 form used to treat deficiency states including pernicious anemia and malabsorption. Repletion corrects the megaloblastic anemia of B12 deficiency.",
+      "zh-TW": "Hydroxocobalamin 是用於治療包括惡性貧血與吸收不良在內缺乏狀態的注射 B12 形式。補充矯正 B12 缺乏的巨母紅血球貧血。"
+    },
+    "confidence": 0.88,
+    "source_document": "Hydroxocobalamin.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "ecc692669600",
+    "subject": "Hydroxocobalamin",
+    "predicate": "treats",
+    "object": "Cyanide poisoning",
+    "context": {
+      "en-US": "Hydroxocobalamin is the antidote of choice for cyanide poisoning: its hydroxyl ligand exchanges for cyanide to form nontoxic cyanocobalamin, excreted renally. This is a distinct indication from B12 repletion.",
+      "zh-TW": "Hydroxocobalamin 是氰化物中毒的首選解毒劑：其羥基配體與氰化物交換形成無毒的 cyanocobalamin，經腎排出。這是與 B12 補充不同的適應症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxocobalamin.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "60fea4b6b37c",
+    "subject": "Hesperidin",
+    "predicate": "treats",
+    "object": "Chronic venous insufficiency",
+    "context": {
+      "en-US": "Hesperidin, often with diosmin, is used in venous disorders for its venotonic and capillary-resistance effects, historically applied to chronic venous insufficiency. Endothelial and microcirculation benefits support this indication.",
+      "zh-TW": "Hesperidin 常與 diosmin 合併用於靜脈疾病，憑其靜脈張力與微血管阻力效應，歷史上應用於慢性靜脈功能不全。內皮與微循環益處支持此適應症。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hesperidin.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "8a3214adea58",
+    "subject": "Berberine",
+    "predicate": "modulates",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "Berberine modulates the gut microbiota, enriching butyrate producers and Akkermansia alongside intestinal alpha-glucosidase inhibition. Microbiome remodeling is part of its metabolic and anti-inflammatory action.",
+      "zh-TW": "Berberine 調節腸道菌群，富集丁酸產生菌與 Akkermansia，並抑制腸道 α-葡萄糖苷酶。菌群重塑是其代謝與抗發炎作用的一部分。"
+    },
+    "confidence": 0.8,
+    "source_document": "Berberine.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
+  },
+  {
+    "id": "2c8a9064fc1c",
+    "subject": "Cerebellum",
+    "predicate": "contains",
+    "object": "Deep cerebellar nuclei",
+    "context": {
+      "en-US": "Cerebellar cortical output passes through the deep nuclei (dentate, interposed, fastigial) to shape motor commands. Containment records the output nuclei embedded within the cerebellum.",
+      "zh-TW": "小腦皮質輸出經深部核（齒狀、間位、頂核）以塑造運動指令。包含記錄嵌於小腦內的輸出核。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cerebellum.md",
+    "created": "2026-09-04T17:55:44Z",
+    "updated": "2026-09-04T17:55:44Z"
   }
 ]

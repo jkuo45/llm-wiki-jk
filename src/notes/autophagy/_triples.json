@@ -168,10 +168,10 @@
     "updated": "2026-08-21T00:00:00Z"
   },
   {
-    "id": "ba85a09cb32b",
+    "id": "aff370a93408",
     "subject": "Atg4B",
     "predicate": "inhibited_by",
-    "object": "S130 enhances CR effect",
+    "object": "S130",
     "context": {
       "en-US": "The small-molecule ATG4B inhibitor S130 blocks the cysteine protease required for LC3 processing and autophagosome maturation; when combined with caloric restriction, this inhibition shifts the balance toward apoptotic death in colorectal cancer cells. By preventing autophagic protection of tumor cells while CR imposes metabolic stress, S130 sensitizes malignancy to cell death. The synergy illustrates a therapeutic strategy of pairing CR or CR-mimetics with targeted autophagy inhibition in cancer. The approach exploits the reliance of some tumors on basal autophagy for survival.",
       "zh-TW": "小分子 ATG4B 抑制劑 S130 阻斷 LC3 處理和自噬體成熟所需的半胱氨酸蛋白酶；當與熱量限制結合時，此抑制在大腸癌細胞中將平衡推向凋亡性死亡。透過防止腫瘤細胞的自噬保護，同時熱量限制施加代謝壓力，S130 使惡性腫瘤對細胞死亡敏感化。此協同作用說明了一種將熱量限制或熱量限制擬似物與標靶性自噬抑制配對用於癌症的治療策略。此方法利用了某些腫瘤對基礎自噬存活的依賴。"
@@ -179,7 +179,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T17:22:34Z"
   },
   {
     "id": "ac8f52dfe0e6",
@@ -336,8 +336,8 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "a489f1e02f60",
-    "subject": "Beclin 1",
+    "id": "23d40372aa63",
+    "subject": "Beclin1",
     "predicate": "is_a",
     "object": "Tumor suppressor",
     "context": {
@@ -347,7 +347,7 @@
     "confidence": 0.95,
     "source_document": "Tumor Suppressor.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-04T17:22:34Z"
   },
   {
     "id": "61c8592e25bf",
@@ -560,20 +560,6 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "1c965c2eda74",
-    "subject": "DNA Methylation",
-    "predicate": "regulates_expression_of",
-    "object": "PEX genes",
-    "context": {
-      "en-US": "Aberrant DNA methylation has been observed around PEX genes, ABCD1, and AMPK regulatory genes in peroxisomal disorder cells, suggesting epigenetic silencing downstream of primary genetic defects can further impair peroxisome biogenesis. DNMT inhibitors and HDAC inhibitors are being explored as potential epigenetic therapies, though causation versus correlation remains unresolved.",
-      "zh-TW": "在過氧化物體疾病細胞中，已觀察到 PEX 基因、ABCD1 及 AMPK 調控基因周圍出現異常 DNA 甲基化，顯示初級基因缺陷下游的表觀遺傳沉默可能進一步削弱過氧化物體生成。DNMT 抑制劑與 HDAC 抑制劑正被探索為潛在表觀遺傳療法，惟因果關係仍未釐清。"
-    },
-    "confidence": 0.4,
-    "source_document": "_document_ - peroxisomes, autophagy.md",
-    "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
-  },
-  {
     "id": "2a187fc8cf98",
     "subject": "Eltrombopag",
     "predicate": "inhibits",
@@ -602,10 +588,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "2d6b7a65fa0f",
+    "id": "4161515dce8d",
     "subject": "FOXO1",
     "predicate": "phosphorylated_by",
-    "object": "Akt inhibits autophagy",
+    "object": "Akt",
     "context": {
       "en-US": "Akt phosphorylates and inhibits the FOXO1/FOXO3 transcription factors, which normally promote autophagy and stress-resistance gene expression, thereby indirectly suppressing autophagy downstream of insulin/PI3K signaling. The reciprocal interaction reflects the broader antagonism between growth-factor-driven anabolism (via Akt-mTOR) and the autophagy-promoting FOXO program. When Akt is inactive during fasting, FOXO factors are de-repressed and contribute to autophagic and longevity pathways. This axis embeds autophagy control within the insulin-signaling network that also regulates mTORC1.",
       "zh-TW": "Akt 磷酸化並抑制 FOXO1/FOXO3 轉錄因子，後者通常促進自噬和壓力抵抗基因表現，從而在胰島素/PI3K 信號下游間接抑制自噬。此相互關係反映了生長因子驅動的合成代謝（經由 Akt-mTOR）與促自噬 FOXO 程序之間更廣泛的拮抗。當禁食期間 Akt 失活時，FOXO 因子被解除抑制並貢獻於自噬和長壽途徑。此軸將自噬控制嵌入同時調節 mTORC1 的胰島素信號網絡中。"
@@ -613,7 +599,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T17:22:34Z"
   },
   {
     "id": "046a78a298af",
@@ -1386,10 +1372,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "a53db661c392",
+    "id": "0db99960d619",
     "subject": "P300",
     "predicate": "acetylates",
-    "object": "ATG4B inhibiting autophagy",
+    "object": "ATG4B",
     "context": {
       "en-US": "The acetyltransferase p300 acetylates ATG4B, an modification that inhibits its proteolytic activity required for LC3 lipidation and autophagosome formation, thereby restraining autophagy under normal conditions. This acetylation-dependent repression adds a transcriptional coactivator-derived control layer to core autophagy machinery beyond the well-studied phosphorylation circuits. Relief of p300-mediated acetylation during stress can de-repress ATG4B and facilitate autophagic flux. The finding situates autophagy regulation within the broader acetylome governed by p300/CBP.",
       "zh-TW": "乙醯轉移酶 p300 乙醯化 ATG4B，此修飾抑制其為 LC3 脂化和自噬體形成所需的蛋白水解活性，從而在正常條件下約束自噬。此依賴乙醯化的抑制在眾所周知的磷酸化電路之外，為核心自噬機械增添了源自轉錄共活化因子的控制層次。在壓力期間 p300 媒介乙醯化的解除可解除 ATG4B 的抑制並促進自噬流。此發現將自噬調節置於 p300/CBP 所統轄的更廣泛乙醯體中。"
@@ -1397,7 +1383,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T17:22:34Z"
   },
   {
     "id": "5a3b6facdb09",
@@ -2198,10 +2184,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "731a2239bc0c",
+    "id": "76228c7dd1cc",
     "subject": "TFEB",
     "predicate": "is_a_member_of",
-    "object": "MiT/TFE family",
+    "object": "MiTF TFE family",
     "context": {
       "en-US": "TFEB belongs to the MiT/TFE family of basic helix-loop-helix leucine zipper transcription factors, which also includes TFE3, MITF, and TFEC. Members of this family share conserved DNA-binding and dimerization domains and regulate overlapping sets of lysosomal and autophagic target genes. The family's defining feature is responsiveness to nutrient and stress signals that control nuclear-cytoplasmic shuttling. TFEB and TFE3 are the principal mediators of the coordinated lysosomal expression and regulation (CLEAR) network.",
       "zh-TW": "TFEB 屬於 MiT/TFE 家族的基礎螺旋-環-螺旋亮胺酸拉鍊轉錄因子，該家族也包括 TFE3、MITF 和 TFEC。此家族成員共享保守的 DNA 結合和二聚化結構域，並調節重疊的一組溶酶體和自噬標的基因的轉錄。該家族的定義特徵是對控制核質穿梭的營養和壓力信號的反應性。TFEB 和 TFE3 是協調溶酶體表達與調節（CLEAR）網絡的主要介導者。"
@@ -2209,7 +2195,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T17:22:34Z"
   },
   {
     "id": "271efa7c6086",
@@ -2490,5 +2476,1167 @@
     "source_document": "Autophagy.md",
     "created": "2026-09-02T06:00:00Z",
     "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "5c569a12a6ee",
+    "subject": "Atg4",
+    "predicate": "activates",
+    "object": "Atg8",
+    "context": {
+      "en-US": "Atg4 cysteine protease cleaves the C-terminal extension of Atg8 to expose glycine, enabling phosphatidylethanolamine conjugation. Processing is the prerequisite for lipidation.",
+      "zh-TW": "Atg4 半胱氨酸蛋白酶切割 Atg8 C 端延伸以暴露甘胺酸，使磷脂醯乙醇胺接合得以進行。加工是脂化的先決條件。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atg4.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "96dfaaca3bb6",
+    "subject": "LC3",
+    "predicate": "is_mammalian_homolog_of",
+    "object": "Atg8",
+    "context": {
+      "en-US": "Mammalian LC3A/B/C proteins are the Atg8 family members executing phagophore expansion. Homology anchors the yeast-to-mammal mapping.",
+      "zh-TW": "哺乳動物 LC3A/B/C 蛋白是執行吞噬泡擴展的 Atg8 家族成員。同源錨定酵母到哺乳動物的對應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Atg8.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "ea26dc012dfc",
+    "subject": "Atg8",
+    "predicate": "binds_to",
+    "object": "p62",
+    "context": {
+      "en-US": "Lipidated Atg8 on the phagophore is the binding site for the p62 cargo adapter linking ubiquitinated cargo to the membrane. Binding couples cargo to engulfment.",
+      "zh-TW": "吞噬泡上脂化的 Atg8 是 p62 貨物接合蛋白的結合位點，將泛素化貨物連結到膜。結合將貨物耦合到吞噬。"
+    },
+    "confidence": 0.8,
+    "source_document": "Atg8.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "b06d3f36d13b",
+    "subject": "Atg7",
+    "predicate": "activates",
+    "object": "Atg8",
+    "context": {
+      "en-US": "The E1 enzyme Atg7 conjugates Atg4-processed Atg8/LC3-I to phosphatidylethanolamine with Atg3 as E2. Activation is the lipidation cascade.",
+      "zh-TW": "E1 酶 Atg7 以 Atg3 為 E2 將 Atg4 處理的 Atg8/LC3-I 接合到磷脂醯乙醇胺。活化是脂化級聯。"
+    },
+    "confidence": 0.75,
+    "source_document": "Atg8.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "3095fa65a6a6",
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "Atg13",
+    "context": {
+      "en-US": "Fed-state mTORC1 phosphorylates Atg13 at Ser258/316/320 to hold the ULK1 complex inactive. No Atg13-phospho triple exists yet.",
+      "zh-TW": "進食狀態 mTORC1 在 Ser258/316/320 磷酸化 Atg13 以維持 ULK1 複合體失活。尚無 Atg13 磷酸化 triple。"
+    },
+    "confidence": 0.88,
+    "source_document": "Atg13.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "6bc5b8f10e26",
+    "subject": "Atg13",
+    "predicate": "activates",
+    "object": "ULK1",
+    "context": {
+      "en-US": "Dephosphorylated Atg13 conformation enhances ULK1 kinase activation and oligomerization. Activation is the initiation switch.",
+      "zh-TW": "去磷酸化 Atg13 構象增強 ULK1 激酶活化與寡聚化。活化是起始開關。"
+    },
+    "confidence": 0.8,
+    "source_document": "Atg13.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "27a5c9a5a9df",
+    "subject": "ULK1",
+    "predicate": "phosphorylates",
+    "object": "Atg14",
+    "context": {
+      "en-US": "ULK1 phosphorylation of Atg14 boosts Vps34 lipid kinase activity for nucleation. Phosphorylation links initiation to nucleation.",
+      "zh-TW": "ULK1 磷酸化 Atg14 提升 Vps34 脂質激酶活性以供成核。磷酸化將起始連結到成核。"
+    },
+    "confidence": 0.82,
+    "source_document": "Atg14.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "69068a2904f3",
+    "subject": "Atg14",
+    "predicate": "activates",
+    "object": "Vps34",
+    "context": {
+      "en-US": "Atg14 targets complex I to the phagophore, directing PtdIns3P production for nucleation. Activation is the complex-I output.",
+      "zh-TW": "Atg14 將複合體 I 標定到吞噬泡，指導 PtdIns3P 產生以供成核。活化是複合體 I 輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atg14.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "ba271f3e9d9e",
+    "subject": "Atg14",
+    "predicate": "binds_to",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "The Atg14 N-terminal coiled-coil binds Beclin1 in complex I, distinct from the UVRAG complex II. Binding defines complex-I assembly; canonical filename Beclin1 used.",
+      "zh-TW": "Atg14 N 端捲曲螺旋在複合體 I 結合 Beclin1，不同於 UVRAG 複合體 II。結合定義複合體 I 組裝；使用典型檔名 Beclin1。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atg14.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "308c2e2a0523",
+    "subject": "Atg101",
+    "predicate": "regulates",
+    "object": "Atg13",
+    "context": {
+      "en-US": "Atg101 binds the Atg13 N-terminus and protects it against proteasomal turnover. Regulation is the stabilization mechanism.",
+      "zh-TW": "Atg101 結合 Atg13 N 端並保護其免於蛋白酶體更新。調節是穩定機制。"
+    },
+    "confidence": 0.82,
+    "source_document": "Atg101.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "a494bbfa93fa",
+    "subject": "Atg101",
+    "predicate": "required_for",
+    "object": "Macroautophagy",
+    "context": {
+      "en-US": "Atg101 knockdown destabilizes Atg13, abolishes ULK1 integrity and blocks autophagosome formation; metazoan-specific with no yeast ortholog. Requirement is the integrity dependency.",
+      "zh-TW": "Atg101 敲低使 Atg13 不穩定、廢除 ULK1 完整並阻斷自噬體形成；後生動物特異，無酵母同源。必要性是完整性依賴。"
+    },
+    "confidence": 0.78,
+    "source_document": "Atg101.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "b646fe226a57",
+    "subject": "ATG-16.2",
+    "predicate": "required_for",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "The Atg12-Atg5-ATG-16.2 complex is required for LGG-1/LGG-2 lipidation and autophagosome formation. Requirement is the conjugation dependency.",
+      "zh-TW": "Atg12-Atg5-ATG-16.2 複合體為 LGG-1/LGG-2 脂化與自噬體形成所需。必要性是接合依賴。"
+    },
+    "confidence": 0.85,
+    "source_document": "ATG-16.2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "b38891248eb2",
+    "subject": "HLH-30",
+    "predicate": "regulates",
+    "object": "ATG-16.2",
+    "context": {
+      "en-US": "atg-16.2 is induced during fasting and starvation in an HLH-30-dependent manner. Regulation extends the HLH-30 program to the conjugation complex.",
+      "zh-TW": "atg-16.2 在禁食與飢餓期間以 HLH-30 依賴方式誘發。調節將 HLH-30 程序延伸到接合複合體。"
+    },
+    "confidence": 0.8,
+    "source_document": "ATG-16.2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "eddd0ed6485d",
+    "subject": "Atg15",
+    "predicate": "promotes",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "Yeast Atg15 lipase degrades autophagic-body and lipid-droplet lipids in the vacuole; loss causes droplet accumulation and starvation inviability. Promotion is the vacuolar lipase output.",
+      "zh-TW": "酵母 Atg15 脂肪酶在液泡降解自噬體與脂滴脂質；缺失導致脂滴累積與飢餓致死。促進是液泡脂肪酶輸出。"
+    },
+    "confidence": 0.82,
+    "source_document": "Atg15.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "5bd53996aa09",
+    "subject": "Lysosomal Acid Lipase",
+    "predicate": "is_mammalian_homolog_of",
+    "object": "Atg15",
+    "context": {
+      "en-US": "Mammalian LIPA is the counterpart of yeast Atg15; deficiency causes Wolman disease and CESD. Homology maps vacuolar lipase to lysosomal lipase.",
+      "zh-TW": "哺乳動物 LIPA 是酵母 Atg15 的對應物；缺乏導致 Wolman 病與 CESD。同源將液泡脂肪酶對應到溶酶體脂肪酶。"
+    },
+    "confidence": 0.8,
+    "source_document": "Atg15.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "ea0164c284af",
+    "subject": "LGG-1",
+    "predicate": "required_for",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "LGG-1 lipidates into the autophagosome membrane as a structural component. Requirement is the membrane-integration dependency.",
+      "zh-TW": "LGG-1 脂化進入自噬體膜作為結構成分。必要性是膜整合依賴。"
+    },
+    "confidence": 0.85,
+    "source_document": "LGG-1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "d9271e97aa3e",
+    "subject": "HLH-30",
+    "predicate": "regulates_expression_of",
+    "object": "LGG-1",
+    "context": {
+      "en-US": "lgg-1 transcription is fasting-induced in an HLH-30-dependent manner. Regulation extends the fasting program to the Atg8 ortholog.",
+      "zh-TW": "lgg-1 轉錄在禁食以 HLH-30 依賴方式誘發。調節將禁食程序延伸到 Atg8 同源。"
+    },
+    "confidence": 0.8,
+    "source_document": "LGG-1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "7effa805369f",
+    "subject": "Bcl-2",
+    "predicate": "inhibits",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "Bcl-2 BH3-domain binding sequesters Beclin1 and blocks VPS34 nucleation. Inhibition is the survival-to-autophagy brake.",
+      "zh-TW": "Bcl-2 BH3 結構域結合隔離 Beclin1 並阻斷 VPS34 成核。抑制是存活到自噬的煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "Beclin1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "74d2b548cc2c",
+    "subject": "ULK1",
+    "predicate": "phosphorylates",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "ULK1 Ser14 phosphorylation of Beclin1 enhances Vps34 complex activity. Phosphorylation links initiation to nucleation.",
+      "zh-TW": "ULK1 Ser14 磷酸化 Beclin1 增強 Vps34 複合體活性。磷酸化將起始連結到成核。"
+    },
+    "confidence": 0.85,
+    "source_document": "Beclin1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "2792dcc1fe6f",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "SIRT1 deacetylation of Beclin1 promotes Vps34 interaction for starvation-induced autophagy, distinct from the SIRT1-TFEB edge. Deacetylation is the acetylation gate.",
+      "zh-TW": "SIRT1 去乙醯化 Beclin1 促進 Vps34 交互以供飢餓誘發自噬，不同於 SIRT1-TFEB 邊。去乙醯化是乙醯化閘門。"
+    },
+    "confidence": 0.8,
+    "source_document": "Beclin1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "6758018854f1",
+    "subject": "JNK",
+    "predicate": "phosphorylates",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "JNK-mediated Bcl-2 phosphorylation releases Beclin1 for VPS34 nucleation. Phosphorylation is the stress-release mechanism.",
+      "zh-TW": "JNK 介導的 Bcl-2 磷酸化釋放 Beclin1 以供 VPS34 成核。磷酸化是壓力釋放機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "MAPK Signaling.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "9ef021b77fa7",
+    "subject": "MiTF TFE family",
+    "predicate": "has_components",
+    "object": "TFEB",
+    "context": {
+      "en-US": "TFEB is one of four vertebrate MiTF TFE members. Membership anchors the family to the lysosomal program.",
+      "zh-TW": "TFEB 是四個脊椎動物 MiTF TFE 成員之一。成員關係將家族錨定到溶酶體程序。"
+    },
+    "confidence": 0.92,
+    "source_document": "MiTF TFE family.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "112e8f9f4464",
+    "subject": "MiTF TFE family",
+    "predicate": "regulates",
+    "object": "Lysosomal Biogenesis",
+    "context": {
+      "en-US": "The family governs lysosomal biogenesis, autophagic flux, lipophagy and mitophagy. Regulation is the family-level program.",
+      "zh-TW": "家族掌管溶酶體生合成、自噬流、脂噬與粒線體自噬。調節是家族層級程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "MiTF TFE family.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "71c7051f916d",
+    "subject": "TFEB",
+    "predicate": "is_a_member_of",
+    "object": "bHLH-LZ Transcription Factors",
+    "context": {
+      "en-US": "The MiT/TFE subfamily including TFEB belongs to the bHLH-LZ factor class. Classification nests the subfamily.",
+      "zh-TW": "包括 TFEB 的 MiT/TFE 亞家族屬於 bHLH-LZ 因子類。歸類嵌套亞家族。"
+    },
+    "confidence": 0.95,
+    "source_document": "bHLH-LZ Transcription Factors.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "d26b9a1ecc66",
+    "subject": "Starvation",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Starvation is the strongest physiological inducer of autophagy. Induction is the fasting-to-clearance coupling.",
+      "zh-TW": "飢餓是最強的自噬生理誘發因子。誘發是禁食到清除的耦合。"
+    },
+    "confidence": 0.95,
+    "source_document": "Starvation.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "abde74e7b3ba",
+    "subject": "Starvation",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Starvation inhibits mTORC1 leading to ULK1 activation. Inhibition is the nutrient-off switch.",
+      "zh-TW": "飢餓抑制 mTORC1 導致 ULK1 活化。抑制是營養關閉開關。"
+    },
+    "confidence": 0.92,
+    "source_document": "Starvation.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "015ed7db900e",
+    "subject": "Starvation",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Starvation activates AMPK as the energy-deficit sensor. Activation parallels mTORC1 inhibition.",
+      "zh-TW": "飢餓活化 AMPK 作為能量虧缺感受器。活化與 mTORC1 抑制平行。"
+    },
+    "confidence": 0.85,
+    "source_document": "Starvation.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "c945d546eba9",
+    "subject": "Nutrient Availability",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Nutrient levels dictate metabolic priorities and autophagic activity with scarcity activating clearance. Regulation is the supply-to-degradation coupling.",
+      "zh-TW": "營養水平決定代謝優先與自噬活性，匱乏活化清除。調節是供應到降解的耦合。"
+    },
+    "confidence": 0.88,
+    "source_document": "Nutrient Availability.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "d8073efa9248",
+    "subject": "mTORC1",
+    "predicate": "senses",
+    "object": "Nutrient Availability",
+    "context": {
+      "en-US": "mTORC1 is the master nutrient sensor active under high-nutrient conditions. Sensing is the detector direction of the regulation pair.",
+      "zh-TW": "mTORC1 是在高營養下活化的主要營養感受器。感知是調節對的偵測方向。"
+    },
+    "confidence": 0.88,
+    "source_document": "Nutrient Availability.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "ac9ad9153346",
+    "subject": "Lysosomal Acid Lipase",
+    "predicate": "mediates",
+    "object": "Lysosomal Lipolysis",
+    "context": {
+      "en-US": "Lysosomal acid lipase hydrolyzes cholesteryl esters and triglycerides delivered via lipophagy. Mediation is the enzymatic execution.",
+      "zh-TW": "溶酶體酸性脂肪酶水解經由脂噬遞送的膽固醇酯與甘油三酯。媒介是酶促執行。"
+    },
+    "confidence": 0.92,
+    "source_document": "Lysosomal Acid Lipase.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "9e924484469c",
+    "subject": "TFEB",
+    "predicate": "regulates_expression_of",
+    "object": "Lysosomal Acid Lipase",
+    "context": {
+      "en-US": "Lysosomal acid lipase is transcriptionally induced by TFEB during nutrient deprivation. Regulation extends TFEB to lipid catabolism.",
+      "zh-TW": "溶酶體酸性脂肪酶在營養剝奪期間由 TFEB 轉錄誘發。調節將 TFEB 延伸到脂質分解。"
+    },
+    "confidence": 0.88,
+    "source_document": "Lysosomal Acid Lipase.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "bd3c3081d48e",
+    "subject": "Lysosomal Lipolysis",
+    "predicate": "requires",
+    "object": "Lysosomal Acid Lipase",
+    "context": {
+      "en-US": "Lysosomal lipolysis is primarily executed by lysosomal acid lipase. Requirement is the enzyme dependency.",
+      "zh-TW": "溶酶體脂解主要由溶酶體酸性脂肪酶執行。必要性是酶依賴。"
+    },
+    "confidence": 0.92,
+    "source_document": "Lysosomal Lipolysis.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "f8e7bb415b1b",
+    "subject": "HLH-30",
+    "predicate": "regulates",
+    "object": "Lysosomal Lipolysis",
+    "context": {
+      "en-US": "HLH-30 is the activator arm of the MXL-3/HLH-30 lipolysis switch. Regulation is the fasting-on direction.",
+      "zh-TW": "HLH-30 是 MXL-3/HLH-30 脂解開關的活化臂。調節是禁食開啟方向。"
+    },
+    "confidence": 0.75,
+    "source_document": "Lysosomal Lipolysis.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "27e8e7e2e345",
+    "subject": "MXL-3",
+    "predicate": "represses",
+    "object": "Lysosomal Lipolysis",
+    "context": {
+      "en-US": "MXL-3 is the repressor arm limiting lipolysis under fed conditions. Repression is the fed-off direction.",
+      "zh-TW": "MXL-3 是在進食下限制脂解的抑制臂。抑制是進食關閉方向。"
+    },
+    "confidence": 0.75,
+    "source_document": "Lysosomal Lipolysis.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "6b9b8826892a",
+    "subject": "PtdIns(3,5)P2",
+    "predicate": "activates",
+    "object": "TRPML1",
+    "context": {
+      "en-US": "PtdIns(3,5)P2 directly binds and activates the TRPML1 calcium channel. Activation couples phosphoinositide to calcium release.",
+      "zh-TW": "PtdIns(3,5)P2 直接結合並活化 TRPML1 鈣通道。活化將磷酸肌醇耦合到鈣釋放。"
+    },
+    "confidence": 0.95,
+    "source_document": "PtdIns(3,5)P2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "672850f666eb",
+    "subject": "PtdIns(3,5)P2",
+    "predicate": "regulates",
+    "object": "Autophagic Lysosome Reformation",
+    "context": {
+      "en-US": "PtdIns(3,5)P2-TRPML1 signaling is required for autophagic lysosome reformation. Regulation is the lipid-to-scission coupling.",
+      "zh-TW": "PtdIns(3,5)P2-TRPML1 訊號為自噬性溶酶體重組所需。調節是脂質到分裂的耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "PtdIns(3,5)P2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "a24b477293e2",
+    "subject": "PtdIns(3,5)P2",
+    "predicate": "regulates",
+    "object": "Phagocytic Lysosome Reformation",
+    "context": {
+      "en-US": "Phosphoinositide signaling drives phagocytic lysosome reformation membrane remodeling. Regulation parallels the ALR edge.",
+      "zh-TW": "磷酸肌醇訊號驅動吞噬性溶酶體重組膜重塑。調節與 ALR 邊平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phagocytic Lysosome Reformation.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "816b234fbc1a",
+    "subject": "Phagocytic Lysosome Reformation",
+    "predicate": "generates",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Reformation rebuilds a fresh pool of functional lysosomes. Generation is the recycling output.",
+      "zh-TW": "重組重建新鮮功能性溶酶體池。產生是回收輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phagocytic Lysosome Reformation.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "324b372b1d27",
+    "subject": "TRPML1",
+    "predicate": "regulates",
+    "object": "Phagocytic Lysosome Reformation",
+    "context": {
+      "en-US": "PtdIns(3,5)P2-activated TRPML1 calcium release drives tubule scission. Regulation is the calcium-to-scission coupling.",
+      "zh-TW": "PtdIns(3,5)P2 活化的 TRPML1 鈣釋放驅動小管分裂。調節是鈣到分裂的耦合。"
+    },
+    "confidence": 0.88,
+    "source_document": "Phagocytic Lysosome Reformation.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "7d1537a15d0d",
+    "subject": "KIF5B",
+    "predicate": "regulates",
+    "object": "Autophagic Lysosome Reformation",
+    "context": {
+      "en-US": "KIF5B motors extend reformation tubules during ALR. Regulation is the motility input.",
+      "zh-TW": "KIF5B 馬達在 ALR 延伸重組小管。調節是運動輸入。"
+    },
+    "confidence": 0.9,
+    "source_document": "KIF5B.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "ce5e7932393c",
+    "subject": "Trehalose",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Trehalose acts as an autophagy inducer. Induction is mTORC1-independent.",
+      "zh-TW": "海藻糖作為自噬誘發因子。誘發不依賴 mTORC1。"
+    },
+    "confidence": 0.92,
+    "source_document": "Trehalose.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "5f833c3046fd",
+    "subject": "Trehalose",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Trehalose induces TFEB nuclear translocation independent of mTORC1. Activation is the disaccharide-to-TFEB route.",
+      "zh-TW": "海藻糖不依賴 mTORC1 誘發 TFEB 核轉位。活化是雙醣到 TFEB 路徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "Trehalose.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "2a7b080fb9a3",
+    "subject": "GATOR1",
+    "predicate": "inhibits",
+    "object": "Rag proteins",
+    "context": {
+      "en-US": "The DEPDC5-containing GATOR1 complex is the GAP converting RagA/B-GTP to GDP. Inhibition is the amino-acid-off switch.",
+      "zh-TW": "含 DEPDC5 的 GATOR1 複合體是將 RagA/B-GTP 轉 GDP 的 GAP。抑制是胺基酸關閉開關。"
+    },
+    "confidence": 0.92,
+    "source_document": "GATOR1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "6f74a5506be9",
+    "subject": "GATOR1",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "GATOR1 keeps mTORC1 off in starvation via Rag inactivation. Inhibition is the starvation brake.",
+      "zh-TW": "GATOR1 在飢餓經由 Rag 失活維持 mTORC1 關閉。抑制是飢餓煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "GATOR1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "c7dab7b3da97",
+    "subject": "GATOR1",
+    "predicate": "has_components",
+    "object": "DEPDC5, NPRL2, NPRL3",
+    "context": {
+      "en-US": "GATOR1 is the DEPDC5-NPRL2-NPRL3 heterotrimer. Composition defines the GAP complex.",
+      "zh-TW": "GATOR1 是 DEPDC5-NPRL2-NPRL3 異三聚體。組成定義 GAP 複合體。"
+    },
+    "confidence": 0.9,
+    "source_document": "GATOR1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "33ec2179422d",
+    "subject": "GATOR2",
+    "predicate": "inhibits",
+    "object": "GATOR1",
+    "context": {
+      "en-US": "GATOR2 suppresses GATOR1 GAP activity when amino acids are abundant. Inhibition is the sufficiency release.",
+      "zh-TW": "GATOR2 在胺基酸充足時抑制 GATOR1 GAP 活性。抑制是充足釋放。"
+    },
+    "confidence": 0.92,
+    "source_document": "GATOR2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "759ac328d3d7",
+    "subject": "GATOR2",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "GATOR2 activates mTORC1 indirectly via GATOR1 inhibition under amino-acid sufficiency. Activation is the sufficiency relay.",
+      "zh-TW": "GATOR2 在胺基酸充足經由 GATOR1 抑制間接活化 mTORC1。活化是充足接力。"
+    },
+    "confidence": 0.85,
+    "source_document": "GATOR2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "e8e4295d4771",
+    "subject": "Sestrin2",
+    "predicate": "inhibits",
+    "object": "GATOR2",
+    "context": {
+      "en-US": "Leucine-free Sestrin2 binds and blocks GATOR2. Inhibition is the leucine-off switch.",
+      "zh-TW": "無白胺酸 Sestrin2 結合並阻斷 GATOR2。抑制是白胺酸關閉開關。"
+    },
+    "confidence": 0.88,
+    "source_document": "GATOR2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "e8e238c4e839",
+    "subject": "CASTOR1",
+    "predicate": "inhibits",
+    "object": "GATOR2",
+    "context": {
+      "en-US": "Arginine-free CASTOR complex binds and blocks GATOR2. Inhibition is the arginine-off switch.",
+      "zh-TW": "無精胺酸 CASTOR 複合體結合並阻斷 GATOR2。抑制是精胺酸關閉開關。"
+    },
+    "confidence": 0.85,
+    "source_document": "GATOR2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "3f184d80bf14",
+    "subject": "CASTOR2",
+    "predicate": "inhibits",
+    "object": "GATOR2",
+    "context": {
+      "en-US": "Arginine-free CASTOR1-CASTOR2 heterodimer binds and represses GATOR2. Parallel inhibition to the CASTOR1 edge.",
+      "zh-TW": "無精胺酸 CASTOR1-CASTOR2 異二聚體結合並抑制 GATOR2。與 CASTOR1 邊平行的抑制。"
+    },
+    "confidence": 0.85,
+    "source_document": "CASTOR2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "6c1914366188",
+    "subject": "CASTOR2",
+    "predicate": "regulated_by",
+    "object": "Arginine",
+    "context": {
+      "en-US": "Arginine binding dissociates CASTOR from GATOR2. Regulation is the amino-acid sensor direction.",
+      "zh-TW": "精胺酸結合使 CASTOR 從 GATOR2 解離。調節是胺基酸感知方向。"
+    },
+    "confidence": 0.85,
+    "source_document": "CASTOR2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "2405b4510c75",
+    "subject": "mLST8",
+    "predicate": "required_for",
+    "object": "mTORC2 assembly",
+    "context": {
+      "en-US": "mLST8 loss abolishes AKT-S473, SGK1 and PKCalpha phosphorylation by mTORC2. Requirement is the assembly dependency.",
+      "zh-TW": "mLST8 缺失廢除 mTORC2 對 AKT-S473、SGK1 與 PKCα 磷酸化。必要性是組裝依賴。"
+    },
+    "confidence": 0.9,
+    "source_document": "mLST8.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "4622ab26b9f0",
+    "subject": "Akt",
+    "predicate": "inhibits",
+    "object": "TSC2",
+    "context": {
+      "en-US": "Akt phosphorylation inhibits the TSC1/TSC2 complex, raising Rheb-GTP. Inhibition is the growth-factor release of the brake.",
+      "zh-TW": "Akt 磷酸化抑制 TSC1/TSC2 複合體，提高 Rheb-GTP。抑制是生長因子釋放煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "PI3K-Akt Signaling.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "f63035c1274f",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "PRAS40",
+    "context": {
+      "en-US": "Akt phosphorylation relieves PRAS40-mediated mTORC1 inhibition. Phosphorylation is the canonical release.",
+      "zh-TW": "Akt 磷酸化解除 PRAS40 介導的 mTORC1 抑制。磷酸化是典型釋放。"
+    },
+    "confidence": 0.88,
+    "source_document": "PI3K-Akt Signaling.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "917942c40e1c",
+    "subject": "PI3K-Akt Signaling",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Class-I PI3K-Akt signaling inhibits autophagy via mTORC1 activation and TFEB-S467 retention, distinct from pro-autophagy class-III PI3K. Inhibition is the fed-state brake.",
+      "zh-TW": "I 類 PI3K-Akt 經由 mTORC1 活化與 TFEB-S467 滯留抑制自噬，不同於促自噬的 III 類 PI3K。抑制是進食煞車。"
+    },
+    "confidence": 0.85,
+    "source_document": "PI3K-Akt Signaling.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "57de6e63d12a",
+    "subject": "Amino Acid Sensing",
+    "predicate": "regulates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "The lysosomal amino-acid sensing axis regulates mTORC1 recruitment and activation. Regulation is the hub triple.",
+      "zh-TW": "溶酶體胺基酸感知軸調節 mTORC1 招募與活化。調節是樞紐 triple。"
+    },
+    "confidence": 0.85,
+    "source_document": "Amino Acid Sensing.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "cf796e96636d",
+    "subject": "SLC38A9",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "The lysosomal arginine transporter SLC38A9 is required for arginine-dependent mTORC1 activation. Activation is the transporter input.",
+      "zh-TW": "溶酶體精胺酸轉運體 SLC38A9 為精胺酸依賴 mTORC1 活化所需。活化是轉運體輸入。"
+    },
+    "confidence": 0.8,
+    "source_document": "Amino Acid Sensing.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "0050b5828bba",
+    "subject": "S6K1",
+    "predicate": "phosphorylated_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "S6K1 is the canonical T389 downstream effector of mTORC1. Relationship is the textbook kinase-substrate pair.",
+      "zh-TW": "S6K1 是 mTORC1 典型的 T389 下游效應器。關係是教科書激酶—受質對。"
+    },
+    "confidence": 0.92,
+    "source_document": "S6K1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "078efc4f54c3",
+    "subject": "S6K1",
+    "predicate": "phosphorylates",
+    "object": "ribosomal protein S6",
+    "context": {
+      "en-US": "S6K1 phosphorylation of ribosomal protein S6 defines its substrate. Phosphorylation is the translation-output step.",
+      "zh-TW": "S6K1 磷酸化核糖體蛋白 S6 定義其受質。磷酸化是轉譯輸出步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "S6K1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "528bd99df586",
+    "subject": "TSC2",
+    "predicate": "inhibits",
+    "object": "Rheb",
+    "context": {
+      "en-US": "Tuberin TSC2 is the catalytic GAP for Rheb. Inhibition is the GTPase-off switch.",
+      "zh-TW": "Tuberin TSC2 是 Rheb 的催化 GAP。抑制是 GTPase 關閉開關。"
+    },
+    "confidence": 0.92,
+    "source_document": "TSC2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "9c33325d7677",
+    "subject": "TSC2",
+    "predicate": "mutation_causes",
+    "object": "Tuberous Sclerosis Complex",
+    "context": {
+      "en-US": "Germline TSC2 loss causes the TSC hamartoma syndrome. Causation is the genetic etiology.",
+      "zh-TW": "生殖系 TSC2 缺失導致 TSC 錯構瘤症候群。因果是遺傳病因。"
+    },
+    "confidence": 0.95,
+    "source_document": "TSC2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "f668e4f45759",
+    "subject": "AMPK",
+    "predicate": "phosphorylates",
+    "object": "TSC2",
+    "context": {
+      "en-US": "Energy-stress AMPK phosphorylates the TSC complex at S1387 to activate it. Phosphorylation is the energy-on switch.",
+      "zh-TW": "能量壓力 AMPK 在 S1387 磷酸化 TSC 複合體以活化它。磷酸化是能量開啟開關。"
+    },
+    "confidence": 0.85,
+    "source_document": "TSC2.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "f665a374d949",
+    "subject": "MAPK Signaling",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "MAPK inputs tune TFEB with ERK retaining cytosolic and p38 driving nuclear. Regulation is the hub triple.",
+      "zh-TW": "MAPK 輸入調節 TFEB，ERK 滯留胞質而 p38 驅動入核。調節是樞紐 triple。"
+    },
+    "confidence": 0.8,
+    "source_document": "MAPK Signaling.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "89d9b1be61c4",
+    "subject": "Autophagy",
+    "predicate": "supports",
+    "object": "Energy Homeostasis",
+    "context": {
+      "en-US": "Autophagic recycling of nutrients during fasting supports energy homeostasis. Support is the clearance-to-balance output.",
+      "zh-TW": "禁食期間自噬回收營養支持能量恆定。支持是清除到平衡的輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Energy Homeostasis.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "8ea4808dbc53",
+    "subject": "MITF",
+    "predicate": "regulates_expression_of",
+    "object": "Cathepsin K",
+    "context": {
+      "en-US": "MITF induces CTSK along with CLCN7/OSTM1/ACP5 in osteoclasts. Regulation is the osteoclast program.",
+      "zh-TW": "MITF 在蝕骨細胞誘發 CTSK 及 CLCN7/OSTM1/ACP5。調節是蝕骨程序。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsin K.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "53e40abffc21",
+    "subject": "Cathepsin K",
+    "predicate": "mutation_causes",
+    "object": "Pycnodysostosis",
+    "context": {
+      "en-US": "CTSK loss-of-function causes the osteosclerotic dysplasia pycnodysostosis. Causation is the genetic etiology.",
+      "zh-TW": "CTSK 功能缺失導致骨硬化發育不良緻密骨發育不全。因果是遺傳病因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cathepsin K.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "4f5df24976e4",
+    "subject": "Odanacatib",
+    "predicate": "inhibits",
+    "object": "Cathepsin K",
+    "context": {
+      "en-US": "Odanacatib is the selective cathepsin K inhibitor reaching Phase III for osteoporosis. Inhibition is the pharmacological edge.",
+      "zh-TW": "Odanacatib 是進入骨質疏鬆 III 期選擇性組織蛋白酶 K 抑制劑。抑制是藥理邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cathepsin K.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "0cbfed247ccf",
+    "subject": "RANKL",
+    "predicate": "induces",
+    "object": "Osteoclast",
+    "context": {
+      "en-US": "Monocyte/macrophage lineage derives into osteoclasts under RANKL plus M-CSF. Induction is the differentiation drive.",
+      "zh-TW": "單核/巨噬細胞譜系在 RANKL 加 M-CSF 下分化為蝕骨細胞。誘發是分化驅動。"
+    },
+    "confidence": 0.85,
+    "source_document": "Osteoclast.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "e44366916de6",
+    "subject": "Osteoclast",
+    "predicate": "requires",
+    "object": "V-ATPase",
+    "context": {
+      "en-US": "V-ATPase acidifies the resorption lacuna near pH 4.5 for matrix degradation. Requirement is the acidification dependency.",
+      "zh-TW": "V-ATPase 酸化吸收陷窩至約 pH 4.5 以降解基質。必要性是酸化依賴。"
+    },
+    "confidence": 0.8,
+    "source_document": "Osteoclast.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "764dfb7bcfd9",
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "BRCA1",
+    "context": {
+      "en-US": "SIRT2 deacetylates BRCA1 to promote damage-foci localization; knockdown impairs homologous recombination. Deacetylation is the repair-licensing step.",
+      "zh-TW": "SIRT2 去乙醯化 BRCA1 以促進損傷灶定位；敲低損害同源重組。去乙醯化是修復許可步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "BRCA1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "8e40649cf810",
+    "subject": "BRCA1",
+    "predicate": "required_for",
+    "object": "Homologous Recombination",
+    "context": {
+      "en-US": "BRCA1 is essential for homologous-recombination repair of double-strand breaks via RAD51 loading. Requirement is the repair dependency.",
+      "zh-TW": "BRCA1 經由 RAD51 裝載為雙股斷裂同源重組修復所必需。必要性是修復依賴。"
+    },
+    "confidence": 0.88,
+    "source_document": "BRCA1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "b30046bb71bb",
+    "subject": "B Cell",
+    "predicate": "requires",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "B cells depend on autophagy for survival, differentiation and memory with Atg5/Atg7 knockout defective. Requirement is the lymphocyte dependency.",
+      "zh-TW": "B 細胞依賴自噬存活、分化與記憶，Atg5/Atg7 敲除缺陷。必要性是淋巴細胞依賴。"
+    },
+    "confidence": 0.85,
+    "source_document": "B Cell.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "7941a9015db4",
+    "subject": "SIR-2.1",
+    "predicate": "regulates",
+    "object": "Longevity",
+    "context": {
+      "en-US": "Worm SIR-2.1 NAD-dependent deacetylase regulates lifespan and stress resistance. Regulation is the aging output.",
+      "zh-TW": "線蟲 SIR-2.1 NAD 依賴去乙醯酶調節壽命與壓力抗性。調節是老化輸出。"
+    },
+    "confidence": 0.8,
+    "source_document": "SIR-2.1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "dfa98c485415",
+    "subject": "SIR-2.1",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "SIR-2.1 activates autophagy via DAF-16/HLH-30 during dietary restriction. Activation is the DR-to-clearance route.",
+      "zh-TW": "SIR-2.1 在飲食限制經由 DAF-16/HLH-30 活化自噬。活化是 DR 到清除路徑。"
+    },
+    "confidence": 0.72,
+    "source_document": "SIR-2.1.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "d7175231c863",
+    "subject": "PPAR-alpha",
+    "predicate": "regulates",
+    "object": "Beta-Oxidation",
+    "context": {
+      "en-US": "PPAR-alpha is the master regulator of lipid beta-oxidation metabolism. Regulation is the lipid-program control.",
+      "zh-TW": "PPAR-alpha 是脂質 β 氧化代謝的主調控者。調節是脂質程序控制。"
+    },
+    "confidence": 0.85,
+    "source_document": "PPAR-alpha.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "c1ceddf571a0",
+    "subject": "PPAR-alpha",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "PPAR-alpha induces autophagy alongside peroxisome proliferation. Induction couples lipid sensing to clearance.",
+      "zh-TW": "PPAR-alpha 在過氧化物酶體增殖之外誘發自噬。誘發將脂質感知耦合到清除。"
+    },
+    "confidence": 0.8,
+    "source_document": "PPAR-alpha.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "2cf4ae82422e",
+    "subject": "Fenofibrate",
+    "predicate": "activates",
+    "object": "PPAR-alpha",
+    "context": {
+      "en-US": "Fenofibrate fibrate agonism activates PPAR-alpha. Activation is the pharmacological input.",
+      "zh-TW": "Fenofibrate 貝特促效活化 PPAR-alpha。活化是藥理輸入。"
+    },
+    "confidence": 0.85,
+    "source_document": "PPAR-alpha.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "c9d9168abf22",
+    "subject": "Lipophagy",
+    "predicate": "targets",
+    "object": "Lipid Droplet",
+    "context": {
+      "en-US": "Lipid droplets are delivered to lysosomes for degradation via lipophagy, mirroring selective autophagy of peroxisomes. Targeting is the cargo direction.",
+      "zh-TW": "脂滴經由脂噬遞送到溶酶體降解，呼應過氧化物酶體的選擇性自噬。標定是貨物方向。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipid Droplet.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "ed0a6ef47c98",
+    "subject": "Pexophagy",
+    "predicate": "is_a_type_of",
+    "object": "Selective Autophagy",
+    "context": {
+      "en-US": "Pexophagy is the peroxisome-specific form of selective autophagy, mirroring mitophagy classification. Classification nests the cargo program.",
+      "zh-TW": "Pexophagy 是過氧化物酶體特異的選擇性自噬形式，呼應粒線體自噬歸類。歸類嵌套貨物程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "Peroxisome.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "3ac8faf589f2",
+    "subject": "Metformin",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Complex I",
+    "context": {
+      "en-US": "Metformin inhibits complex I to raise AMP:ATP and activate AMPK. Inhibition is the bioenergetic entry.",
+      "zh-TW": "Metformin 抑制複合體 I 以提高 AMP:ATP 並活化 AMPK。抑制是生物能量進入。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Complex I.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "a0095616f7b3",
+    "subject": "Mitochondrial Complex I",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Complex I dysfunction generates reactive oxygen species driving senescence signaling. Production is the basal leak direction.",
+      "zh-TW": "複合體 I 功能障礙產生驅動衰老訊號的活性氧。產生是基礎洩漏方向。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Complex I.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "3c39647c5426",
+    "subject": "Hypoxia",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Autophagy is upregulated in response to hypoxia and HIF stress. Induction is the oxygen-stress route.",
+      "zh-TW": "自噬在缺氧與 HIF 壓力反應上調。誘發是氧壓力路徑。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
+  },
+  {
+    "id": "6f017cbfbcba",
+    "subject": "Intermittent Fasting",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Fasting nutrient-deprivation signals act through mTORC1 inhibition to de-repress initiation. Inhibition is the fasting-off switch.",
+      "zh-TW": "禁食營養剝奪訊號經由 mTORC1 抑制解除起始抑制。抑制是禁食關閉開關。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md",
+    "created": "2026-09-04T17:22:34Z",
+    "updated": "2026-09-04T17:22:34Z"
   }
 ]

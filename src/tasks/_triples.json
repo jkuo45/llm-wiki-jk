@@ -299,13 +299,13 @@
     "predicate": "is_pro_survival_in",
     "object": "Cancer",
     "context": {
-      "en-US": "In established tumors, autophagy acts as a survival mechanism allowing cancer cells to survive nutrient-poor and hypoxic conditions. This is the majority view supported by multiple clinical trials using HCQ.",
-      "zh-TW": "在既成的腫瘤中，自噬作為一種存活機制，使癌細胞能在營養貧乏與缺氧條件下存活。這是以多項使用 HCQ 的臨床試驗為支持的普遍觀點。"
+      "en-US": "In established tumors, autophagy acts as a survival mechanism allowing cancer cells to survive nutrient-poor and hypoxic conditions. This is the majority view supported by multiple clinical trials using HCQ. Qualification: established-tumor context only; autophagy suppresses initiation and can drive autophagic cell death under prolonged stress.",
+      "zh-TW": "在既成的腫瘤中，自噬作為一種存活機制，使癌細胞能在營養貧乏與缺氧條件下存活。這是以多項使用 HCQ 的臨床試驗為支持的普遍觀點。 限定：僅既成腫瘤脈絡；自噬抑制起始，並在長期壓力下可驅動自噬性細胞死亡。"
     },
     "confidence": 0.85,
     "source_document": "task_output_autophagy_and_cancer_13_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T16:40:50Z"
   },
   {
     "id": "250b4931fda2",
@@ -630,34 +630,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "4c49b5f1d6b9",
-    "subject": "Catalase",
-    "predicate": "extends_lifespan_in",
-    "object": "Mice",
-    "context": {
-      "en-US": "Only when targeted to mitochondria (mCAT) does catalase overexpression extend median mouse lifespan (~20%, Schriner et al. 2005) and attenuate pressure-overload heart failure; cytosolic/peroxisomal catalase overexpression shows no lifespan effect (Pérez et al. 2009) — the 'catalase paradox' demonstrating that compartment, not enzyme identity, is determinative.",
-      "zh-TW": "catalase 只有在靶向粒線體（mCAT）時過度表現才能延長小鼠中位壽命（約 20%，Schriner et al. 2005）並減輕壓力負荷心衰竭；胞質／過氧化酶體 catalase 過度表現則無延壽效果（Pérez et al. 2009）——「catalase 悖論」顯示決定因素是區室而非酵素身份。"
-    },
-    "confidence": 0.85,
-    "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
-    "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "5d3d7cb5b5c7",
-    "subject": "Catechin",
-    "predicate": "activates_via_k_type",
-    "object": "SIRT1",
-    "context": {
-      "en-US": "Catechin (tea flavan-3-ol, parent of EGCG) is a natural polyphenol STAC that activates SIRT1 via the K-type allosteric mechanism, contributing to its antioxidant/anti-inflammatory and anti-aging profile.",
-      "zh-TW": "Catechin（茶類黃烷-3-醇，EGCG 的前體）是一種天然多酚類 STAC，透過 K 型別構機制活化 SIRT1，是其抗氧化/抗發炎與抗老化特性的來源之一。"
-    },
-    "confidence": 0.4,
-    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
-    "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "5e4f08f7e1b5",
     "subject": "CD38",
     "predicate": "consumes",
@@ -850,20 +822,6 @@
     },
     "confidence": 0.95,
     "source_document": "tbl_senescent_compounds_normalized.md",
-    "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "3286e95ce8dc",
-    "subject": "DRP1",
-    "predicate": "is_required_for",
-    "object": "Mitophagy",
-    "context": {
-      "en-US": "DRP1-mediated mitochondrial fission is a prerequisite step for mitophagy — it severs the damaged segment for autophagosomal engulfment. However, cardiac-specific DRP1-KO shows mitophagy can occur without it.",
-      "zh-TW": "DRP1 介導的粒線體分裂是 mitophagy 的先決步驟——它將受損片段切斷以供自噬體包吞。然而，心臟專一性 DRP1-KO 顯示 mitophagy 可在缺乏它時仍發生。"
-    },
-    "confidence": 0.85,
-    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1083,13 +1041,13 @@
     "predicate": "reduces",
     "object": "SASP",
     "context": {
-      "en-US": "Fisetin reduces circulating SASP factors including CXCL12, partially rescuing age-related endothelial dysfunction. [HYPOTHESIS: limited in vivo data]",
-      "zh-TW": "Fisetin 降低循環中的 SASP 因子，包括 CXCL12，部分挽救年齡相關的內皮功能障礙。[HYPOTHESIS: 有限的體內數據]"
+      "en-US": "Fisetin reduces circulating SASP factors including CXCL12, partially rescuing age-related endothelial dysfunction. [HYPOTHESIS: limited in vivo data] Upgraded on CXCL12 endothelial-rescue data (PMID 40894771) and Yousefzadeh lifespan/healthspan evidence; suppression is partial and dose-dependent.",
+      "zh-TW": "Fisetin 降低循環中的 SASP 因子，包括 CXCL12，部分挽救年齡相關的內皮功能障礙。[HYPOTHESIS: 有限的體內數據] 依 CXCL12 內皮挽救數據（PMID 40894771）與 Yousefzadeh 壽命/健康壽命證據升級；抑制為部分且劑量依賴。"
     },
-    "confidence": 0.5,
+    "confidence": 0.75,
     "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-04T16:40:50Z"
   },
   {
     "id": "441c25e307c6",
@@ -2063,13 +2021,13 @@
     "predicate": "mediates_degradation_of",
     "object": "p16",
     "context": {
-      "en-US": "SQSTM1/p62-mediated selective autophagy directly degrades p16 and p21 (independent of UPS), reversing the senescent phenotype in canine MMVD valve cells.",
-      "zh-TW": "SQSTM1/p62 介導的選擇性自噬直接降解 p16 與 p21（不依賴 UPS），逆轉犬隻 MMVD 瓣膜細胞中的衰老表型。"
+      "en-US": "SQSTM1/p62-mediated selective autophagy directly degrades p16 and p21 (independent of UPS), reversing the senescent phenotype in canine MMVD valve cells. Qualification: evidence from Tang 2025 canine MMVD valve interstitial cells; tissue-specific, not yet generic mammalian.",
+      "zh-TW": "SQSTM1/p62 介導的選擇性自噬直接降解 p16 與 p21（不依賴 UPS），逆轉犬隻 MMVD 瓣膜細胞中的衰老表型。 限定：證據來自 Tang 2025 犬 MMVD 瓣膜間質細胞；組織特異，尚未通用於哺乳類。"
     },
     "confidence": 0.9,
     "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-04T16:40:50Z"
   },
   {
     "id": "adf7251ff229",
@@ -2209,20 +2167,6 @@
     "confidence": 0.9,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "d3da39281574",
-    "subject": "Proanthocyanidins",
-    "predicate": "modulates",
-    "object": "SIRT1",
-    "context": {
-      "en-US": "Proanthocyanidins (oligomeric/polymeric flavan-3-ols from grape seed, cocoa) are documented SIRT1 modulators in the primary literature and are vascular/neuroprotective, yet they lack a dedicated wiki note — a flagged gap. They belong to the natural-polyphenol STAC cluster alongside catechins.",
-      "zh-TW": "Proanthocyanidins（來自葡萄籽、可可的寡聚/多聚黃烷-3-醇）在原始文獻中是被記載的 SIRT1 調節劑，具有血管/神經保護作用，但缺少專屬 wiki 條目——這是一個已標記的缺口。它們與 catechins 同屬天然多酚類 STAC 群集。"
-    },
-    "confidence": 0.4,
-    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
-    "created": "2026-08-24T21:29:14Z",
     "updated": "2026-09-02T07:19:21Z"
   },
   {
@@ -4373,13 +4317,13 @@
     "predicate": "extends_lifespan_in",
     "object": "Mice",
     "context": {
-      "en-US": "Systemic Thioredoxin-1 overexpression extends the early portion of mouse lifespan (Mitsui 2002; Pérez et al. 2011 male earlier-life only), whereas MnSOD/SOD/catalase/GPx overexpression does not (Pérez et al., Aging Cell 2009). Trx1's extra signaling roles (ASK1, mTOR) explain the asymmetry.",
-      "zh-TW": "全身性 Thioredoxin-1 過度表現可延長小鼠壽命早期部分（Mitsui 2002；Pérez et al. 2011 僅雄性早年期），而 MnSOD/SOD/catalase/GPx 過度表現則不能（Pérez et al., Aging Cell 2009）。Trx1 額外的訊息傳遞角色（ASK1、mTOR）解釋了這項不對稱。"
+      "en-US": "Systemic Thioredoxin-1 overexpression extends the early portion of mouse lifespan (Mitsui 2002; Pérez et al. 2011 male earlier-life only), whereas MnSOD/SOD/catalase/GPx overexpression does not (Pérez et al., Aging Cell 2009). Trx1's extra signaling roles (ASK1, mTOR) explain the asymmetry. Qualification: Perez 2011 shows early-life extension only (male earlier-life portion, Mitsui 2002); systemic overexpression does not extend maximal lifespan.",
+      "zh-TW": "全身性 Thioredoxin-1 過度表現可延長小鼠壽命早期部分（Mitsui 2002；Pérez et al. 2011 僅雄性早年期），而 MnSOD/SOD/catalase/GPx 過度表現則不能（Pérez et al., Aging Cell 2009）。Trx1 額外的訊息傳遞角色（ASK1、mTOR）解釋了這項不對稱。 限定：Perez 2011 僅顯示早年期延長（雄性早年部分，Mitsui 2002）；全身性過度表現不延長最大壽命。"
     },
-    "confidence": 0.85,
+    "confidence": 0.7,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-04T16:40:50Z"
   },
   {
     "id": "97417f41402b",
@@ -4506,5 +4450,1615 @@
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
     "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "3bb2361b4737",
+    "subject": "RIPK3",
+    "predicate": "phosphorylates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "RIPK3 phosphorylates MLKL in the necrosome, driving MLKL oligomerization and plasma-membrane rupture that executes necroptosis. This is the canonical execution step of caspase-independent regulated necrosis.",
+      "zh-TW": "RIPK3 在 necrosome 中磷酸化 MLKL，驅動 MLKL 寡聚化與質膜破裂以執行 necroptosis。這是 caspase 非依賴調節性壞死的典型執行步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "5104e80bc48c",
+    "subject": "Caspase-1",
+    "predicate": "cleaves",
+    "object": "Gasdermin D",
+    "context": {
+      "en-US": "Inflammasome-activated caspase-1 cleaves gasdermin D, releasing the pore-forming N-terminal fragment that executes pyroptosis and IL-1beta/IL-18 release. This complements the existing Caspase-1 SASP-amplifier triple with the direct execution mechanism.",
+      "zh-TW": "發炎體活化的 caspase-1 切割 gasdermin D，釋放成孔 N 端片段以執行 pyroptosis 與 IL-1beta/IL-18 釋放。此以直接執行機制補充既有的 Caspase-1 SASP 放大器 triple。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "0fa3eaa33d2d",
+    "subject": "PARP1",
+    "predicate": "consumes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Hyperactivated PARP1 consumes NAD+ to build poly-ADP-ribose chains, depleting cellular NAD+/ATP in parthanatos. This uses the same consumes predicate as the established CD38-NAD+ triple.",
+      "zh-TW": "過度活化的 PARP1 消耗 NAD+ 以合成 poly-ADP-ribose 鏈，在 parthanatos 中耗竭細胞 NAD+/ATP。此沿用已確立的 CD38-NAD+ triple 相同的 consumes 謂詞。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "70f5e2fa26be",
+    "subject": "PARP1",
+    "predicate": "generates",
+    "object": "PAR",
+    "context": {
+      "en-US": "PARP1 generates poly-ADP-ribose (PAR) polymer, the parthanatos death signal that drives AIF release and nuclear MIF translocation for large-scale DNA fragmentation.",
+      "zh-TW": "PARP1 產生 poly-ADP-ribose（PAR）聚合物，即 parthanatos 死亡訊號，驅動 AIF 釋放與核 MIF 轉位以造成大規模 DNA 片段化。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "898a916a29b2",
+    "subject": "Bcl-2",
+    "predicate": "inhibits",
+    "object": "BAX",
+    "context": {
+      "en-US": "Anti-apoptotic Bcl-2 sequesters BAX, blocking its mitochondrial translocation and outer-membrane permeabilization. This canonical blockade is the control point that senolytics and BH3 mimetics release.",
+      "zh-TW": "抗凋亡 Bcl-2 隔離 BAX，阻斷其粒線體轉位與外膜通透化。此典型封鎖是 senolytics 與 BH3 mimetics 釋放的控制點。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "389261ca212d",
+    "subject": "Cytochrome c",
+    "predicate": "activates",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Cytosolic cytochrome c nucleates the apoptosome with APAF-1, recruiting and activating initiator caspase-9 for the intrinsic apoptosis cascade. This is the mitochondrial-to-caspase handoff of cell death.",
+      "zh-TW": "胞質 cytochrome c 與 APAF-1 组成 apoptosome，招募並活化起始者 caspase-9 以啟動內在凋亡級聯。這是細胞死亡中粒線體到 caspase 的交接。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "bce6a3757513",
+    "subject": "AIF",
+    "predicate": "contributes_to",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Apoptosis-inducing factor translocates from mitochondria to the nucleus with MIF to execute large-scale DNA fragmentation in parthanatos. This caspase-independent route distinguishes parthanatos from classical apoptosis.",
+      "zh-TW": "Apoptosis-inducing factor 與 MIF 從粒線體轉位至核，在 parthanatos 中執行大規模 DNA 片段化。此 caspase 非依賴途徑區分 parthanatos 與典型凋亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7be4f42522be",
+    "subject": "Parthanatos",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Parthanatos is a caspase-independent regulated cell-death program driven by PARP1 hyperactivation and AIF/MIF nuclear translocation. Its classification separates it from apoptosis, necroptosis, pyroptosis and ferroptosis.",
+      "zh-TW": "Parthanatos 是由 PARP1 過度活化與 AIF/MIF 核轉位驅動的 caspase 非依賴調節性細胞死亡程序。其歸類將它與凋亡、壞死性凋亡、焦亡與鐵死亡區分。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "df0ff4ae4454",
+    "subject": "NCOA4",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "NCOA4 mediates ferritinophagy, releasing redox-active Fe2+ that feeds Fenton chemistry and lipid peroxidation. This iron-supply arm makes NCOA4 a pro-ferroptotic driver.",
+      "zh-TW": "NCOA4 介導 ferritinophagy，釋放具氧化還原活性的 Fe2+ 以供 Fenton 化學與脂質過氧化。此鐵供應臂使 NCOA4 成為促鐵死亡驅動者。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "b2814ee20a8a",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "Gasdermin E",
+    "context": {
+      "en-US": "Caspase-3 cleaves gasdermin E (DFNA5), switching apoptotic signaling toward pyroptotic pore formation. This apoptosis-to-pyroptosis crossover expands caspase-3 beyond its executioner role.",
+      "zh-TW": "Caspase-3 切割 gasdermin E（DFNA5），將凋亡訊號切換為 pyroptotic 成孔。此凋亡到焦亡的跨界將 caspase-3 擴展至執行者角色之外。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "844ff6fecf59",
+    "subject": "Beclin1",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Beclin-1 nucleates the Vps34 lipid-kinase complex that initiates autophagosome formation. This complements the existing SIRT1-Beclin1 deacetylation triple with the downstream functional output.",
+      "zh-TW": "Beclin-1 成核啟動自噬體形成的 Vps34 脂質激酶複合體。此以 下游功能輸出補充既有的 SIRT1-Beclin1 去乙醯化 triple。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "4acb8e443042",
+    "subject": "TFEB",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "TFEB is the master transcription factor for lysosomal biogenesis and autophagy gene programs via the CLEAR network. Its activation links nutrient stress to autophagic flux across fasting, exercise and drug interventions.",
+      "zh-TW": "TFEB 是經由 CLEAR 網絡調控溶酶體生成與自噬基因程序的主轉錄因子。其活化將營養壓力連結到禁食、運動與藥物介入中的自噬流。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "4d4c829f667a",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "SIRT3 lowers mitochondrial ROS that license NLRP3 inflammasome assembly, indirectly restraining NLRP3 activation. The effect is indirect via redox tone, so confidence is capped.",
+      "zh-TW": "SIRT3 降低許可 NLRP3 發炎體組裝的粒線體 ROS，間接抑制 NLRP3 活化。此效應經由氧化還原張力間接產生，故信度設上限。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "baee7b80e54f",
+    "subject": "Rapamycin",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Rapamycin binds FKBP12 to inhibit mTORC1, suppressing protein synthesis and derepressing ULK1-dependent autophagy. This canonical pharmacology underlies its longevity and senomorphic effects; the graph previously held only the lifespan edge.",
+      "zh-TW": "Rapamycin 結合 FKBP12 以抑制 mTORC1，抑制蛋白質合成並去抑制 ULK1 依賴的自噬。此典型藥理是其延壽與 senomorphic 效應的基礎；圖譜先前僅持有壽命邊。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7681e41226a9",
+    "subject": "UBX1325",
+    "predicate": "inhibits",
+    "object": "Bcl-xL",
+    "context": {
+      "en-US": "UBX1325 is a Bcl-xL-inhibitor senolytic with randomized phase-2 data in diabetic macular edema (Klier 2025). It extends the navitoclax-class SCAP strategy to an ophthalmic indication.",
+      "zh-TW": "UBX1325 是具糖尿病黃斑水腫隨機二期數據（Klier 2025）的 Bcl-xL 抑制劑 senolytic。它將 navitoclax 類 SCAP 策略擴展至眼科適應症。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "41738f1e85d5",
+    "subject": "BAX",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "BAX/BAK macropores release mtDNA that drives cGAS-STING-dependent SASP (Victorelli 2023). BAX thus links minority-MOMP mitochondrial permeabilization to the secretome.",
+      "zh-TW": "BAX/BAK 大孔釋放驅動 cGAS-STING 依賴 SASP 的 mtDNA（Victorelli 2023）。BAX 因此將少數-MOMP 粒線體通透連結到分泌組。"
+    },
+    "confidence": 0.78,
+    "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "407ecb1c789c",
+    "subject": "BAK",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "BAK cooperates with BAX in macropore-mediated mtDNA release that activates cGAS-STING SASP signaling. Same Victorelli 2023 mechanism as the parallel BAX triple.",
+      "zh-TW": "BAK 與 BAX 協作以大孔介導的 mtDNA 釋放活化 cGAS-STING SASP 訊號。與平行的 BAX triple 同為 Victorelli 2023 機制。"
+    },
+    "confidence": 0.78,
+    "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "4b620ee22d41",
+    "subject": "VDAC1",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "VDAC1 oligomerization mediates mtDNA release upstream of cGAS-STING and SASP induction (Li 2024). This positions the outer-membrane channel as a SASP-licensing pore.",
+      "zh-TW": "VDAC1 寡聚化在 cGAS-STING 與 SASP 誘發上游介導 mtDNA 釋放（Li 2024）。此將外膜通道定位為 SASP 許可孔。"
+    },
+    "confidence": 0.72,
+    "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "44668878f907",
+    "subject": "LINE-1",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "Derepressed LINE-1 retrotransposon cDNA drives interferon-mediated SASP reinforcement in deep senescence. This tasks-layer edge parallels the senescence-layer LINE-1 drive triple.",
+      "zh-TW": "去抑制的 LINE-1 逆轉錄轉座子 cDNA 在深層衰老驅動干擾素介導的 SASP 強化。此 tasks 層邊與衰老層的 LINE-1 驅動 triple 平行。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "80b85e97d70a",
+    "subject": "SIRT5",
+    "predicate": "desuccinylates",
+    "object": "CPT2",
+    "context": {
+      "en-US": "SIRT5 desuccinylates carnitine palmitoyltransferase 2 in diabetic cardiomyopathy (Wu 2024), regulating fatty-acid oxidation. The desuccinylates predicate matches existing SIRT5-LDHB usage.",
+      "zh-TW": "SIRT5 在糖尿病心肌病中去琥珀醯化 carnitine palmitoyltransferase 2（Wu 2024），調節脂肪酸氧化。desuccinylates 謂詞沿用既有的 SIRT5-LDHB 用法。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_sirtuin_research_gaps_14_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "3b444d2e71bd",
+    "subject": "Parkin",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Parkin is recruited by PINK1 to ubiquitinate depolarized mitochondria for autophagosomal engulfment in the canonical mitophagy axis. This complements the existing PINK1-initiates-Mitophagy triple with the effector arm.",
+      "zh-TW": "Parkin 被 PINK1 招募以泛素化去極化粒線體，供自噬體包吞，構成典型 mitophagy 軸。此以效應臂補充既有的 PINK1 起始 Mitophagy triple。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_sirtuin_research_gaps_14_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "1cfb1d90c091",
+    "subject": "Apigenin",
+    "predicate": "inhibits",
+    "object": "CD38",
+    "context": {
+      "en-US": "Apigenin inhibits CD38 NADase activity (Escande 2013 flavonoid class), raising NAD+ availability for sirtuins. This parallels the established quercetin-CD38 triple.",
+      "zh-TW": "Apigenin 抑制 CD38 NADase 活性（Escande 2013 類黃酮類別），提高 sirtuins 的 NAD+ 可及性。此與已確立的 quercetin-CD38 triple 平行。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7cb221e45023",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "14-3-3ζ",
+    "context": {
+      "en-US": "SIRT1 deacetylates 14-3-3zeta, gating caspase-2-dependent death signaling (PMID 21884983). This sirtuin-caspase crosstalk edge constrains the pro-apoptotic adaptor.",
+      "zh-TW": "SIRT1 去乙醯化 14-3-3zeta，門控 caspase-2 依賴的死亡訊號（PMID 21884983）。此 sirtuin-caspase 交互邊約束促凋亡銜接蛋白。"
+    },
+    "confidence": 0.78,
+    "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "923b6cf6bfc2",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "CypD",
+    "context": {
+      "en-US": "SIRT3 deacetylates cyclophilin D, preventing mitochondrial permeability-transition pore opening. This anti-apoptotic arm complements SIRT3's pro-autophagy roles in its context-dependent duality.",
+      "zh-TW": "SIRT3 去乙醯化 cyclophilin D，防止粒線體通透轉換孔開啟。此抗凋亡臂補充 SIRT3 在其情境依賴雙重性中的促自噬角色。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "31734602bf14",
+    "subject": "SIRT5",
+    "predicate": "deacetylates",
+    "object": "Cytochrome c",
+    "context": {
+      "en-US": "SIRT5 deacetylates cytochrome c, blocking downstream caspase-3 activation. This mitochondrial sirtuin brake on the apoptosome is distinct from SIRT5's metabolic desuccinylase roles.",
+      "zh-TW": "SIRT5 去乙醯化 cytochrome c，阻斷下游 caspase-3 活化。此粒線體 sirtuin 對 apoptosome 的煞車不同於 SIRT5 的代謝去琥珀醯酶角色。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "0961c10a3d08",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "p53",
+    "context": {
+      "en-US": "SIRT1 deacetylates p53, downregulating Bax and caspase-3 in the canonical anti-apoptotic sirtuin route. This central edge was absent from the graph despite extensive SIRT1 coverage.",
+      "zh-TW": "SIRT1 去乙醯化 p53，在典型的抗凋亡 sirtuin 路徑下調 Bax 與 caspase-3。儘管 SIRT1 覆蓋廣泛，此中心邊在圖譜中缺失。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7f0e89180f58",
+    "subject": "SIRT2",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Unlike suppressive SIRT1/3, SIRT2 raises cleaved caspase-3 and Bax while lowering Bcl-2, an AGK2-blockable pro-apoptotic exception. This establishes SIRT2 as the apoptotic outlier among sirtuins.",
+      "zh-TW": "不同於抑制性的 SIRT1/3，SIRT2 提高 cleaved caspase-3 與 Bax 並降低 Bcl-2，是 AGK2 可阻斷的促凋亡例外。此確立 SIRT2 為 sirtuins 中的凋亡異類。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "dde0cfb055c3",
+    "subject": "SIRT1",
+    "predicate": "transactivates",
+    "object": "MnSOD",
+    "context": {
+      "en-US": "SIRT1 drives MnSOD expression via FOXO deacetylation (Lu 2014), feeding the mitochondrial antioxidant program. This transcriptional arm complements direct SIRT3-mediated MnSOD deacetylation.",
+      "zh-TW": "SIRT1 經由 FOXO 去乙醯化驅動 MnSOD 表現（Lu 2014），供養粒線體抗氧化程序。此轉錄臂補充 SIRT3 介導的 MnSOD 去乙醯化。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "5e6b8ac78650",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO3a",
+    "context": {
+      "en-US": "SIRT1 deacetylates FOXO3a, driving MnSOD/catalase and BNIP3 selective-mitophagy programs (Kume 2010). This single edge consolidates the FOXO/FOXO3a proposals from two task files.",
+      "zh-TW": "SIRT1 去乙醯化 FOXO3a，驅動 MnSOD/catalase 與 BNIP3 選擇性 mitophagy 程序（Kume 2010）。此單一邊合併兩個任務檔案的 FOXO/FOXO3a 提案。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "ce08ad693652",
+    "subject": "NADPH",
+    "predicate": "donates_electrons_to",
+    "object": "FSP1",
+    "context": {
+      "en-US": "NADPH is the obligate electron donor for FSP1-mediated ubiquinone-to-ubiquinol regeneration at the plasma membrane. Without this reducing input the GPX4-independent ferroptosis brake collapses.",
+      "zh-TW": "NADPH 是 FSP1 在質膜將 ubiquinone 再生為 ubiquinol 的必要電子供體。缺乏此還原輸入，不依賴 GPX4 的鐵死亡煞車即崩潰。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "1cd9955ff192",
+    "subject": "iFSP1",
+    "predicate": "inhibits",
+    "object": "FSP1",
+    "context": {
+      "en-US": "iFSP1 is the first-in-class FSP1 inhibitor (IC50 ~103 nM, human-specific F360 pocket) that synergizes with GPX4 inhibition to trigger ferroptosis. It is the pharmacological probe defining the FSP1 brake.",
+      "zh-TW": "iFSP1 是首創 FSP1 抑制劑（IC50 約 103 nM，人類特異 F360 口袋），與 GPX4 抑制協同觸發鐵死亡。它是定義 FSP1 煞車的藥理探針。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "6dbefef30e97",
+    "subject": "FIN56",
+    "predicate": "depletes",
+    "object": "Ubiquinone",
+    "context": {
+      "en-US": "FIN56 engages squalene synthase to divert mevalonate flux away from CoQ10, starving FSP1 of substrate. This converges on the FSP1 brake from the metabolic side, like statins.",
+      "zh-TW": "FIN56 結合 squalene synthase 使 mevalonate 流量偏離 CoQ10，剝奪 FSP1 受質。此從代謝側匯聚於 FSP1 煞車，與 statins 相同。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "72c896cb44b6",
+    "subject": "DHODH",
+    "predicate": "reduces",
+    "object": "Ubiquinone",
+    "context": {
+      "en-US": "Mitochondrial DHODH reduces CoQ10 in parallel to plasma-membrane FSP1 (Mao 2021), constituting the organellar arm of ubiquinol regeneration. The two enzymes divide ferroptosis defense by compartment.",
+      "zh-TW": "粒線體 DHODH 與質膜 FSP1 平行還原 CoQ10（Mao 2021），構成 ubiquinol 再生的胞器臂。兩酶按區室分工鐵死亡防禦。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "1e41cd7f4240",
+    "subject": "p53",
+    "predicate": "represses",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "p53 transcriptionally represses SLC7A11/xCT cystine import (Jiang 2015), collapsing glutathione synthesis and the GPX4 shield. This is the principal pro-ferroptotic arm of p53.",
+      "zh-TW": "p53 轉錄抑制 SLC7A11/xCT 胱氨酸輸入（Jiang 2015），瓦解麩胱甘肽合成與 GPX4 護盾。這是 p53 主要的促鐵死亡臂。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "8956458ba04e",
+    "subject": "p53",
+    "predicate": "transactivates",
+    "object": "SAT1",
+    "context": {
+      "en-US": "p53 transactivates SAT1, amplifying ALOX15-driven lipid peroxidation downstream. Together with SLC7A11 repression this gives p53 two complementary ferroptosis levers.",
+      "zh-TW": "p53 轉活化 SAT1，在下游放大 ALOX15 驅動的脂質過氧化。與 SLC7A11 抑制一起，賦予 p53 兩個互補的鐵死亡槓桿。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "c53e68f357fd",
+    "subject": "ACSL4",
+    "predicate": "enriches",
+    "object": "Phospholipid-PUFA",
+    "context": {
+      "en-US": "ACSL4 loads polyunsaturated fatty acids into membrane phospholipids, the obligate peroxidation substrate of ferroptosis (Doll 2017). Without ACSL4 enrichment membranes resist iron-driven peroxidation.",
+      "zh-TW": "ACSL4 將多元不飽和脂肪酸裝載入膜磷脂，即鐵死亡必要的過氧化受質（Doll 2017）。缺乏 ACSL4 富集，膜即抵抗鐵驅動的過氧化。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "b1e3cad13ebe",
+    "subject": "NCOA4",
+    "predicate": "mediates",
+    "object": "Ferritinophagy",
+    "context": {
+      "en-US": "NCOA4 mediates ferritinophagy, turning over ferritin to feed redox-active Fe2+ into Fenton chemistry. This iron-supply mechanism complements the lipid-substrate arm of ACSL4.",
+      "zh-TW": "NCOA4 介導 ferritinophagy，周轉 ferritin 以供應具氧化還原活性 Fe2+ 進入 Fenton 化學。此鐵供應機制補充 ACSL4 的脂質受質臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "477aa41d5f10",
+    "subject": "Glutathione",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Glutathione fuels GPX4 reduction of phospholipid hydroperoxides, the canonical anti-ferroptotic shield. Cystine starvation or GPX4 inhibition collapses this protection.",
+      "zh-TW": "Glutathione 供養 GPX4 還原磷脂氫過氧化物，即典型的抗鐵死亡護盾。胱氨酸飢餓或 GPX4 抑制瓦解此保護。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "593d7824fcf0",
+    "subject": "Thioredoxin-1",
+    "predicate": "reduces",
+    "object": "Ribonucleotide Reductase",
+    "context": {
+      "en-US": "Reduced thioredoxin-1 regenerates ribonucleotide reductase each turnover for dNTP synthesis. This textbook electron flow links redox tone to DNA synthesis capacity.",
+      "zh-TW": "還原型 thioredoxin-1 在每次周轉再生 ribonucleotide reductase 以合成 dNTP。此教科書電子流將氧化還原張力連結到 DNA 合成能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "e86f24a08f21",
+    "subject": "Triapine",
+    "predicate": "inhibits",
+    "object": "Ribonucleotide Reductase",
+    "context": {
+      "en-US": "Triapine inhibits ribonucleotide reductase by iron-chelator destruction of the RRM2 radical cofactor. This pushes cells past the hormetic window into replication catastrophe.",
+      "zh-TW": "Triapine 經由鐵螯合破壞 RRM2 自由基輔因子抑制 ribonucleotide reductase。此將細胞推過荷爾蒙窗口進入複製災難。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "399a2e9c0e23",
+    "subject": "Hydroxyurea",
+    "predicate": "inhibits",
+    "object": "Ribonucleotide Reductase",
+    "context": {
+      "en-US": "Hydroxyurea quenches the ribonucleotide reductase tyrosyl radical, blocking dNTP supply. Same push-past-the-window logic as triapine in hormetic pharmacology.",
+      "zh-TW": "Hydroxyurea 淬滅 ribonucleotide reductase 酪氨酸自由基，阻斷 dNTP 供應。在荷爾蒙藥理中與 triapine 同為推過窗口邏輯。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "6c530a1088f9",
+    "subject": "Thioredoxin-1",
+    "predicate": "maintains_reduced",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Thioredoxin-1 keeps mTOR Cys1483 reduced; the C1483F mutant rescues respiration in Trx1-KO cells (Oka 2020). This redox control couples antioxidant tone to growth signaling.",
+      "zh-TW": "Thioredoxin-1 維持 mTOR Cys1483 還原態；C1483F 突變在 Trx1-KO 細胞挽救呼吸（Oka 2020）。此氧化還原控制將抗氧化張力耦合到生長訊號。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7c5362e43913",
+    "subject": "Peroxynitrite",
+    "predicate": "inactivates",
+    "object": "Thioredoxin-1",
+    "context": {
+      "en-US": "Peroxynitrite irreversibly inactivates thioredoxin-1 via tyrosine nitration, exiting the hormetic window. This marks the boundary where nitrosative stress overwhelms repair.",
+      "zh-TW": "Peroxynitrite 經由酪氨酸硝化不可逆滅活 thioredoxin-1，退出荷爾蒙窗口。此標記亞硝化壓力壓倒修復的邊界。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "9b9e281fb069",
+    "subject": "PGC-1alpha",
+    "predicate": "activates",
+    "object": "MnSOD",
+    "context": {
+      "en-US": "PGC-1alpha drives MnSOD expression as the mitochondrial biogenesis arm of antioxidant defense. ASCII spelling matches the existing PGC-1alpha triples to avoid a node split.",
+      "zh-TW": "PGC-1alpha 驅動 MnSOD 表現，作為抗氧化防禦的粒線體生成臂。ASCII 拼寫沿用既有 PGC-1alpha triple 以免節點分裂。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "85fc611befde",
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "SIRT1 deacetylates Atg proteins, FOXO and TFEB to initiate autophagic flux in the NAD+-longevity axis. This initiation logic complements mTORC1-suppression routes.",
+      "zh-TW": "SIRT1 去乙醯化 Atg 蛋白、FOXO 與 TFEB，在 NAD+-長壽軸啟動自噬流。此啟動邏輯補充 mTORC1 抑制路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "02c2a78e3f37",
+    "subject": "Rapamycin",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Rapamycin derepresses ULK1 via mTORC1 inhibition, increasing autophagic flux in valve interstitial and aging models. Same TRIAD mechanistic expectation as caloric restriction.",
+      "zh-TW": "Rapamycin 經由 mTORC1 抑制去抑制 ULK1，在瓣膜間質與老化模型增加自噬流。與熱量限制相同的 TRIAD 機制預期。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "0a4661980553",
+    "subject": "LAMP-2A",
+    "predicate": "is_required_for",
+    "object": "Chaperone-Mediated Autophagy",
+    "context": {
+      "en-US": "LAMP-2A is the lysosomal receptor of chaperone-mediated autophagy, whose age-related loss collapses CMA. Restoring LAMP-2A rescues selective protein clearance in aging.",
+      "zh-TW": "LAMP-2A 是伴侶介導自噬的溶酶體受體，其年齡相關喪失瓦解 CMA。恢復 LAMP-2A 挽救老化中的選擇性蛋白清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "85e6407efbdd",
+    "subject": "Spermidine",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Spermidine induces autophagy via eIF5A hypusination and HAT inhibition without caloric deficit. Its longevity extension is abolished when autophagy is blocked.",
+      "zh-TW": "Spermidine 經由 eIF5A hypusination 與 HAT 抑制，在無熱量虧損下誘導自噬。其延壽效應在自噬被阻斷時取消。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "6c1ecd72880e",
+    "subject": "PINK1",
+    "predicate": "activates",
+    "object": "Parkin",
+    "context": {
+      "en-US": "PINK1 phosphorylates ubiquitin and Parkin on depolarized mitochondria, recruiting the E3 ligase that builds clearance chains. This kinase-to-ligase handoff starts canonical mitophagy.",
+      "zh-TW": "PINK1 在去極化粒線體磷酸化泛素與 Parkin，招募建立清除鏈的 E3 連接酶。此激酶到連接酶的交接啟動典型 mitophagy。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "aa05016e8435",
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Energy stress activates AMPK, which phosphorylates ULK1 while suppressing mTORC1 to launch autophagy. This global sensor arm has no prior subject-predicate hit in the graph.",
+      "zh-TW": "能量壓力活化 AMPK，後者磷酸化 ULK1 同時抑制 mTORC1 以啟動自噬。此全域感測臂在圖譜無先前主詞—謂詞命中。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "167c347705b0",
+    "subject": "BNIP3",
+    "predicate": "initiates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "BNIP3 drives receptor-mediated mitophagy independently of PINK1/Parkin, alongside NIX and FUNDC1. This parallel arm covers hypoxia-programmed mitochondrial clearance.",
+      "zh-TW": "BNIP3 與 NIX、FUNDC1 並列，不依賴 PINK1/Parkin 驅動受體介導的 mitophagy。此平行臂涵蓋缺氧程式化的粒線體清除。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "fd3378bb0168",
+    "subject": "Autophagy",
+    "predicate": "has_a_dual_role_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Autophagy suppresses tumor initiation via quality control yet sustains established tumors under nutrient and hypoxic stress. The existing pro-survival triple covers only the late face; this dual-role edge holds the full thesis.",
+      "zh-TW": "自噬經由品質控制抑制腫瘤起始，卻在營養與缺氧壓力下維持既成腫瘤。既有的促存活 triple 僅涵蓋晚期面；此雙重角色邊承載完整論點。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_autophagy_and_cancer_13_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "ffcb3c6b1070",
+    "subject": "LDHB",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hyperactivated LDHB shifts lactate/pyruvate balance into metabolic stress that drives excessive non-canonical autophagy feeding tumor cells. This SIRT5-LDHB axis output links glycolysis to tumor-supporting autophagy.",
+      "zh-TW": "過度活化的 LDHB 改變乳酸/丙酮酸平衡進入代謝壓力，驅動供養腫瘤細胞的過度非典型自噬。此 SIRT5-LDHB 軸輸出將糖解連結到促腫瘤自噬。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_autophagy_and_cancer_13_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "05281be0b558",
+    "subject": "FOXO3a",
+    "predicate": "transactivates",
+    "object": "BNIP3",
+    "context": {
+      "en-US": "FOXO3a transactivates BNIP3 downstream of CR-SIRT1 signaling for selective mitophagy (Kume 2010). This effector leg completes the SIRT1-FOXO3a-BNIP3 cascade.",
+      "zh-TW": "FOXO3a 在 CR-SIRT1 訊號下游轉活化 BNIP3 以進行選擇性 mitophagy（Kume 2010）。此效應腿完整呈現 SIRT1-FOXO3a-BNIP3 級聯。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "f1a591931e54",
+    "subject": "Spermidine",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Spermidine drives TFEB translation via hypusinated eIF5A, converging with the CR energy-sensing route on lysosomal biogenesis. Two upstream signals meet at one master regulator.",
+      "zh-TW": "Spermidine 經由 hypusinated eIF5A 驅動 TFEB 轉譯，與 CR 能量感測路徑匯聚於溶酶體生成。兩個上游訊號交會於同一主調節因子。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "cb3c5b16f22a",
+    "subject": "Caloric Restriction",
+    "predicate": "reduces",
+    "object": "IGF-1",
+    "context": {
+      "en-US": "Caloric restriction lowers systemic IGF-1 growth signaling, an autophagy-independent longevity arm. Reduced IGF-1 relieves pro-growth drive across tissues.",
+      "zh-TW": "熱量限制降低全身性 IGF-1 生長訊號，是不依賴自噬的長壽臂。降低的 IGF-1 緩解跨組織的促生長驅動。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "f1bef0b32add",
+    "subject": "Caloric Restriction",
+    "predicate": "activates",
+    "object": "PGC-1alpha",
+    "context": {
+      "en-US": "Caloric restriction activates PGC-1alpha via SIRT1 for mitochondrial biogenesis. ASCII spelling matches existing triples; the mechanism couples energy deficit to organelle renewal.",
+      "zh-TW": "熱量限制經由 SIRT1 活化 PGC-1alpha 以進行粒線體生成。ASCII 拼寫沿用既有 triple；此機制將能量虧損耦合到胞器更新。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "2a66a793c6e0",
+    "subject": "Cardiolipin",
+    "predicate": "is_required_for",
+    "object": "OPA1-mediated Fusion",
+    "context": {
+      "en-US": "Cardiolipin is required for OPA1-mediated inner-membrane fusion in liposome reconstitutions, dual to its pro-fission DRP1 stimulation. One lipid gates both fusion and fission.",
+      "zh-TW": "Cardiolipin 在脂質體重構中為 OPA1 介導的內膜融合所必需，與其促分裂的 DRP1 刺激成雙。一種脂質門控融合與分裂兩者。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "b00917d8d5b4",
+    "subject": "MFN2",
+    "predicate": "tethers",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "MFN2 tethers endoplasmic reticulum to mitochondria independently of its fusion role, organizing calcium and lipid exchange contacts. This non-fusion function is distinct from MFN1/2 outer-membrane fusion.",
+      "zh-TW": "MFN2 不依賴其融合角色繫留內質網至粒線體，組織鈣與脂質交換接觸。此非融合功能不同於 MFN1/2 外膜融合。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "fbe5287759ed",
+    "subject": "Mdivi-1",
+    "predicate": "inhibits",
+    "object": "DRP1",
+    "context": {
+      "en-US": "Mdivi-1 is a putative DRP1 fission inhibitor with caveats: off-target L-OPA1 cleavage and OXPHOS effects plus translational failure in pig MI models. The triple carries the file's own caution.",
+      "zh-TW": "Mdivi-1 是推定的 DRP1 分裂抑制劑但附帶注意：脫靶 L-OPA1 切割與 OXPHOS 效應，加上豬 MI 模型轉譯失敗。此 triple 承載檔案自身的警語。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "3fa9a7064fed",
+    "subject": "IL-6",
+    "predicate": "induces_upregulation_of",
+    "object": "Acid Ceramidase",
+    "context": {
+      "en-US": "Recombinant IL-6/IL-8 recapitulates trans-well paracrine ACase upregulation in bystander proliferative cells. This grounds the SASP-to-ACase axis in defined cytokines.",
+      "zh-TW": "重組 IL-6/IL-8 重現 trans-well 旁分泌 ACase 上調。此以明確的細胞激素奠定 SASP 到 ACase 軸的基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "0a56e9ed8023",
+    "subject": "IL-8",
+    "predicate": "induces_upregulation_of",
+    "object": "Acid Ceramidase",
+    "context": {
+      "en-US": "Same 2:1 IL-6/IL-8 paracrine experiment as the IL-6 leg; IL-8 co-drives ACase induction and ferroptotic sensitization. Parallel ligand, same evidence class.",
+      "zh-TW": "與 IL-6 路徑相同的 2:1 IL-6/IL-8 旁分泌實驗；IL-8 共同驅動 ACase 誘發與鐵死亡敏感化。平行配體，相同證據等級。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "95ae15fee99c",
+    "subject": "Acid Ceramidase",
+    "predicate": "increases",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "ACase-driven PUFA-phospholipid enrichment expands the peroxidation substrate pool and RSL3 sensitivity. This product-level output links sphingolipid remodeling to ferroptotic lethality.",
+      "zh-TW": "ACase 驅動的 PUFA-磷脂富集擴大過氧化受質池與 RSL3 敏感性。此產物層級輸出將鞘脂重塑連結到鐵死亡致死性。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "d69caa9a76b9",
+    "subject": "ARN14974",
+    "predicate": "inhibits",
+    "object": "Acid Ceramidase",
+    "context": {
+      "en-US": "ARN14974 is a brain-penetrant ACase inhibitor (IC50 79 nM) distinct from ARN14794, which already has a triple. Separate chemistry, separate edge.",
+      "zh-TW": "ARN14974 是可入腦的 ACase 抑制劑（IC50 79 nM），不同於已有 triple 的 ARN14794。不同化學，獨立邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "a01ccdf3fe56",
+    "subject": "Oxidative Stress",
+    "predicate": "activates",
+    "object": "AP-1",
+    "context": {
+      "en-US": "ROS signals through JNK/p38 to activate AP-1 in the senescence stress cascade. This stress-input edge precedes AP-1 pioneer opening of SASP enhancers.",
+      "zh-TW": "ROS 經由 JNK/p38 在衰老壓力級聯活化 AP-1。此壓力輸入邊先於 AP-1 先鋒開啟 SASP 增強子。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "982521afe4b6",
+    "subject": "AP-1",
+    "predicate": "transactivates",
+    "object": "IL-6",
+    "context": {
+      "en-US": "AP-1 transactivates IL-6 as a core SASP target alongside IL-8 and CXCL5. This grounds the AP-1 pioneer mechanism in a canonical cytokine output.",
+      "zh-TW": "AP-1 轉活化 IL-6 作為核心 SASP 標的，與 IL-8 和 CXCL5 並列。此以典型細胞激素輸出奠定 AP-1 先鋒機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "ff974bd294ce",
+    "subject": "AP-1",
+    "predicate": "transactivates",
+    "object": "IL-8",
+    "context": {
+      "en-US": "Same core-SASP target class as IL-6; AP-1/NF-kB co-regulation drives IL-8 chemokine output. Parallel edge, same evidence class.",
+      "zh-TW": "與 IL-6 相同的核心 SASP 標的類別；AP-1/NF-κB 共調節驅動 IL-8 趨化因子輸出。平行邊，相同證據等級。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "3bf3b4123516",
+    "subject": "HDAC4",
+    "predicate": "suppresses",
+    "object": "AP-1",
+    "context": {
+      "en-US": "HDAC4 buffers AP-1 activity in young cells and is degraded on senescence entry, licensing AP-1-driven SASP. Loss of the brake explains senescence-specific AP-1 activation.",
+      "zh-TW": "HDAC4 在年輕細胞緩衝 AP-1 活性，並在衰老進入時降解，許可 AP-1 驅動的 SASP。煞車喪失解釋衰老特異的 AP-1 活化。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "c6d6eebdd71f",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "activates",
+    "object": "AP-1",
+    "context": {
+      "en-US": "Cytosolic DNA sensing feeds AP-1 activation downstream; the file's Path Traces asserted the reverse, but Mechanism Summary establishes cGAS-STING as upstream sensor. Corrected direction recorded here.",
+      "zh-TW": "胞質 DNA 感知在下游供養 AP-1 活化；檔案的 Path Traces 主張相反，但 Mechanism Summary 確立 cGAS-STING 為上游感受器。此記錄修正後的方向。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_ap1_trace_21_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "98844e7b6218",
+    "subject": "Oncogene-Induced Senescence",
+    "predicate": "requires",
+    "object": "p53",
+    "context": {
+      "en-US": "OIS arrests via the p53/p21 axis; p53 loss is the canonical bypass to malignancy in the OIS-p53-cancer path. Requirement, not mere association.",
+      "zh-TW": "OIS 經由 p53/p21 軸停滯；p53 缺失是 OIS-p53-癌症路徑中典型的惡性繞行。是必要性而非單純關聯。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "a81ce26a9cfb",
+    "subject": "mTORC1",
+    "predicate": "drives",
+    "object": "Hamartoma",
+    "context": {
+      "en-US": "TSC1/2 loss removes Rheb restraint, causing constitutive mTORC1 hyperactivation that drives hamartomas in tuberous sclerosis. Here benign growth itself is the disease.",
+      "zh-TW": "TSC1/2 缺失移除 Rheb 抑制，造成組成性 mTORC1 過度活化，在結節性硬化症驅動錯構瘤。此處良性生長本身即是疾病。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "a6fbdbb4d7bd",
+    "subject": "Src",
+    "predicate": "phosphorylates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Src-family kinases phosphorylate caspase-8 at Tyr380, blocking maturation upstream of the SHP1 rescue step. This kinase brake precedes phosphatase relief.",
+      "zh-TW": "Src 家族激酶在 Tyr380 磷酸化 caspase-8，在 SHP1 拯救步驟上游阻斷成熟。此激酶煞車先於磷酸酶緩解。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "ec180811427c",
+    "subject": "XIAP",
+    "predicate": "inhibits",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "XIAP degradation removes the brake on caspases-3/7/9; the Caspase-3-only edge exists, and this adds the missing Caspase-7 arm. Same IAP control layer.",
+      "zh-TW": "XIAP 降解移除對 caspases-3/7/9 的煞車；Caspase-3 邊已存在，此補上缺失的 Caspase-7 臂。同一 IAP 控制層。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_caspase_01_JUN_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "862297ef4199",
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "COMT O-methylates fisetin to geraldol (Poor 2016), consuming SAMe to SAH. This reverse-direction edge complements the established fisetin-inhibits-COMT triple.",
+      "zh-TW": "COMT 將 fisetin O-甲基化為 geraldol（Poor 2016），消耗 SAMe 生成 SAH。此反向邊補充已確立的 fisetin 抑制 COMT triple。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "281b82b370a4",
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "Bcl-xL",
+    "context": {
+      "en-US": "Fisetin binds the hydrophobic groove of Bcl-xL; the file favors Bcl-xL selectivity though only the Bcl-2 edge existed. This fills the preferred target.",
+      "zh-TW": "Fisetin 結合 Bcl-xL 的疏水溝；檔案偏好 Bcl-xL 選擇性，但僅存在 Bcl-2 邊。此填補偏好的標的。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "c50db2093875",
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "PI3K",
+    "context": {
+      "en-US": "Fisetin inhibits PI3K in senescent endothelia (Ji 2025), lowering Akt phosphorylation and Bcl-2/xL levels. This kinase arm underlies part of its senolytic clearance.",
+      "zh-TW": "Fisetin 在衰老內皮抑制 PI3K（Ji 2025），降低 Akt 磷酸化與 Bcl-2/xL 水平。此激酶臂構成其 senolytic 清除的一部分。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "c97727c90406",
+    "subject": "Val158Met",
+    "predicate": "determines",
+    "object": "COMT",
+    "context": {
+      "en-US": "The Val158Met polymorphism stratifies COMT activity and fisetin response in an inverted-U pattern in Met/Met carriers. Genotype gates catecholamine turnover and worrier-type symptoms.",
+      "zh-TW": "Val158Met 多型性以倒 U 模式分層 COMT 活性與 fisetin 反應。基因型門控兒茶酚胺周轉與憂慮者型症狀。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "65fcb102ed80",
+    "subject": "Exercise",
+    "predicate": "activates",
+    "object": "PGC-1alpha",
+    "context": {
+      "en-US": "Exercise-generated ROS bursts drive PGC-1alpha-dependent mitochondrial biogenesis (Ristow reviews). ASCII spelling matches existing triples; post-workout antioxidants blunt this signal.",
+      "zh-TW": "運動產生的 ROS 爆發驅動 PGC-1alpha 依賴的粒線體生成（Ristow 回顧）。ASCII 拼寫沿用既有 triple；運動後抗氧化劑減弱此訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "9173c1126c53",
+    "subject": "Exercise",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Exercise induces endogenous SOD/GPx via NRF2; antioxidant supplementation blocks this adaptation (Ristow 2009). NRF2 spelling matches the existing sulfiredoxin triple.",
+      "zh-TW": "運動經由 NRF2 誘發內生 SOD/GPx；抗氧化補充阻斷此適應（Ristow 2009）。NRF2 拼寫沿用既有的 sulfiredoxin triple。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "643dbefc19ca",
+    "subject": "PGC-1alpha",
+    "predicate": "drives",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "PGC-1alpha is the master regulator of mitochondrial biogenesis downstream of exercise, fasting and cold stress. Textbook-level causation.",
+      "zh-TW": "PGC-1alpha 是運動、禁食與冷壓力下游粒線體生成的主調節因子。教科書等級因果。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "f47977f3eec7",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "KPNB1",
+    "context": {
+      "en-US": "CRISPR/shRNA screens identify karyopherin-beta-1 as an ivermectin target in ovarian cancer (Kodama 2017), blocking cell cycle with paclitaxel synergy. Importin blockade is distinct from PAK1 degradation.",
+      "zh-TW": "CRISPR/shRNA 篩選確認 karyopherin-beta-1 為 ivermectin 在卵巢癌的標的（Kodama 2017），阻斷細胞週期並與 paclitaxel 協同。Importin 阻斷不同於 PAK1 降解。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "6cb0e82453b9",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "HSP27",
+    "context": {
+      "en-US": "Ivermectin inhibits HSP27 phosphorylation (Nappi 2020), enhancing anti-EGFR activity. Chaperone modulation adds a proteostasis arm to its anticancer out-star.",
+      "zh-TW": "Ivermectin 抑制 HSP27 磷酸化（Nappi 2020），增強抗 EGFR 活性。伴侶調節為其抗癌出向之星增添蛋白穩態臂。"
+    },
+    "confidence": 0.78,
+    "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "05d3161e443e",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": {
+      "en-US": "PAK1 degradation suppresses downstream Akt signaling toward autophagy and apoptosis. Well-replicated arm of the ivermectin out-star, distinct from direct kinase inhibition.",
+      "zh-TW": "PAK1 降解抑制下游 Akt 訊號朝向自噬與凋亡。ivermectin 出向之星中充分複製的臂，不同於直接激酶抑制。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "c2d9c5a6495e",
+    "subject": "Ivermectin",
+    "predicate": "is_derivative_of",
+    "object": "Avermectin",
+    "context": {
+      "en-US": "Ivermectin is the semi-synthetic dihydro derivative of avermectin from Streptomyces avermitilis (Nobel 2015 history). Definitional chemistry fact.",
+      "zh-TW": "Ivermectin 是源自 Streptomyces avermitilis 的 avermectin 半合成二氫衍生物（Nobel 2015 歷史）。定義性化學事實。"
+    },
+    "confidence": 0.95,
+    "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "bb6cb7173be8",
+    "subject": "Ivermectin",
+    "predicate": "depolarizes",
+    "object": "Mitochondrial Membrane",
+    "context": {
+      "en-US": "Ivermectin directly depolarizes mitochondrial membranes, raising Bax, lowering Bcl-2 and releasing cytochrome c. Distinct from fenbendazole's HK2-VDAC detachment route.",
+      "zh-TW": "Ivermectin 直接去極化粒線體膜，升高 Bax、降低 Bcl-2 並釋放 cytochrome c。不同於 fenbendazole 的 HK2-VDAC 脫離路徑。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "1911908e6b86",
+    "subject": "Hexokinase 2",
+    "predicate": "binds",
+    "object": "VDAC",
+    "context": {
+      "en-US": "Hexokinase 2 anchors to VDAC to block apoptosome assembly, the canonical anti-apoptotic tether that fenbendazole detaches. Central metabolic-apoptotic junction.",
+      "zh-TW": "Hexokinase 2 錨定 VDAC 以阻斷 apoptosome 組裝，即 fenbendazole 脫離的典型抗凋亡繫留。核心代謝—凋亡交界。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "2f196c8405b1",
+    "subject": "Ivermectin",
+    "predicate": "reverses",
+    "object": "Multidrug Resistance",
+    "context": {
+      "en-US": "Ivermectin inhibits P-gp plus MRP1/2/3 efflux pumps (Didier & Loor 1996), reversing multidrug resistance broadly. Superset of the existing P-gp-only edge.",
+      "zh-TW": "Ivermectin 抑制 P-gp 及 MRP1/2/3 外排泵（Didier & Loor 1996），廣泛逆轉多重抗藥性。是既有 P-gp 邊的超集。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "42665f9a5783",
+    "subject": "p53",
+    "predicate": "blocks",
+    "object": "Cellular Reprogramming",
+    "context": {
+      "en-US": "p53 culls transduced reprogramming-competent cells via p21, apoptosis and senescence, the dominant upstream barrier to iPSC induction. Fenbendazole stabilization of p53 directly opposes rejuvenation.",
+      "zh-TW": "p53 經由 p21、凋亡與衰老淘汰被轉導的重編程能力細胞，是 iPSC 誘發的主要上游屏障。Fenbendazole 穩定 p53 直接對抗回春。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "8f131404f812",
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "JAK2/STAT3",
+    "context": {
+      "en-US": "SIRT6 inhibits JAK2/STAT3 inflammatory signaling, a sirtuin counter-regulation node converging on the same inflammaging axis metformin targets. Slash object normalizes to one node.",
+      "zh-TW": "SIRT6 抑制 JAK2/STAT3 發炎訊號，是匯聚於 metformin 標靶的相同發炎老化軸的 sirtuin 反調節節點。斜線物件正規化為單一節點。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "4d00354408bf",
+    "subject": "SARM1",
+    "predicate": "drives",
+    "object": "Axon Degeneration",
+    "context": {
+      "en-US": "SARM1 NADase activity executes Wallerian axon degeneration and is a druggable ALS node. NAD+ depletion links SARM1 to the sirtuin-starvation corridor.",
+      "zh-TW": "SARM1 NADase 活性執行 Wallerian 軸突退化，是可藥物化的 ALS 節點。NAD+ 耗竭將 SARM1 連結到 sirtuin 飢餓走廊。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "494df6319d39",
+    "subject": "C9orf72",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "C9orf72 haploinsufficiency plus RNA-foci/DPR toxicity disrupts autophagy and proteostasis in ALS/FTD. The tidy loop ties repeat expansion to clearance failure.",
+      "zh-TW": "C9orf72 單倍劑量不足及 RNA-foci/DPR 毒性在 ALS/FTD 破壞自噬與蛋白穩態。此整齊迴圈將重複擴增與清除失敗連結。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "30252b5a1f47",
+    "subject": "TDP-43",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "TDP-43-driven mitochondrial rupture releases mtDNA that engages cGAS-STING interferon signaling. This organizes the tau/TDP-43/FTD disease community around innate immunity.",
+      "zh-TW": "TDP-43 驅動的粒線體破裂釋放接合 cGAS-STING 干擾素訊號的 mtDNA。此圍繞先天免疫組織 tau/TDP-43/FTD 疾病群落。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "cd90ebf83984",
+    "subject": "Dopamine",
+    "predicate": "autoxidizes_to",
+    "object": "Dopamine Quinones",
+    "context": {
+      "en-US": "Dopamine autoxidizes via iron/MAO routes to quinones plus 6-OHDA, forming alpha-synuclein adducts. This catecholamine-oxidation chemistry bridges dopamine handling to Parkinson pathology.",
+      "zh-TW": "Dopamine 經由鐵/MAO 路徑自氧化為 quinones 及 6-OHDA，形成 alpha-synuclein 加合物。此兒茶酚胺氧化化學將多巴胺處理連結到帕金森病理。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "bb2d419703ff",
+    "subject": "Peroxynitrite",
+    "predicate": "nitrates",
+    "object": "Alpha-synuclein",
+    "context": {
+      "en-US": "Microglial nitric oxide plus superoxide forms peroxynitrite that tyrosine-nitrates alpha-synuclein into Lewy-body aggregates. ASCII spelling avoids a node split with the DJ-1 chaperone edge.",
+      "zh-TW": "微膠細胞 nitric oxide 加超氧形成 peroxynitrite，酪氨酸硝化 alpha-synuclein 為 Lewy 體聚集。ASCII 拼寫避免與 DJ-1 伴侶邊的節點分裂。"
+    },
+    "confidence": 0.78,
+    "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "5aaa51eb035c",
+    "subject": "Glucocerebrosidase",
+    "predicate": "clears",
+    "object": "Alpha-synuclein",
+    "context": {
+      "en-US": "Glucocerebrosidase activation (ambroxol chaperone, ASPro-PD Phase 3) clears alpha-synuclein lysosomally. Lysosomal clearance is the therapeutic lever in GBA-Parkinson disease.",
+      "zh-TW": "Glucocerebrosidase 活化（ambroxol 伴侶，ASPro-PD 三期）經溶酶體清除 alpha-synuclein。溶酶體清除是 GBA-帕金森的治療槓桿。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "babd5464863f",
+    "subject": "Fasting",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Fasting-driven AMPK activates TFEB for lysosomal biogenesis and autophagy, overlapping UPRmt/mitophagy programs. Distinct subject from the existing Intermittent Fasting edges.",
+      "zh-TW": "禁食驅動的 AMPK 活化 TFEB 以進行溶酶體生成與自噬，與 UPRmt/mitophagy 程序重疊。主詞不同於既有的 Intermittent Fasting 邊。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "a1db97115302",
+    "subject": "Heat Stress",
+    "predicate": "induces",
+    "object": "Heat Shock Proteins",
+    "context": {
+      "en-US": "Controlled heat stress induces HSP70/90 chaperones for proteostasis, with Finnish sauna cohort CVD/dementia benefit. XenohormesisESIS-grade evidence for thermal hormesis.",
+      "zh-TW": "受控熱壓力誘發 HSP70/90 伴侶以維持蛋白穩態，芬蘭桑拿隊列具 CVD/失智益處。熱荷爾蒙的 xenohormesis 級證據。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "93e6be475eb8",
+    "subject": "Intermittent Hypoxia",
+    "predicate": "stabilizes",
+    "object": "HIF-1alpha",
+    "context": {
+      "en-US": "Controlled intermittent mild hypoxia stabilizes HIF-1alpha driving EPO, antioxidant and BDNF programs (Li 2024). ASCII spelling matches the existing induces-HIF-1alpha edge.",
+      "zh-TW": "受控間歇輕度缺氧穩定 HIF-1alpha，驅動 EPO、抗氧化與 BDNF 程序（Li 2024）。ASCII 拼寫沿用既有的 induces-HIF-1alpha 邊。"
+    },
+    "confidence": 0.78,
+    "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "4d57235aa86f",
+    "subject": "Acute Inflammation",
+    "predicate": "activates",
+    "object": "Satellite Cells",
+    "context": {
+      "en-US": "Exercise-induced muscle damage signals via TNF-alpha/IL-6 to proliferate satellite cells; NSAIDs block the adaptation (Mikkelsen 2009). Acute inflammatory signaling as repair trigger.",
+      "zh-TW": "運動誘發的肌肉損傷經由 TNF-alpha/IL-6 訊號增生衛星細胞；NSAID 阻斷此適應（Mikkelsen 2009）。急性發炎訊號作為修復觸發。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "cf098534a921",
+    "subject": "Myeloperoxidase",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Neutrophil myeloperoxidase plus ROS oxidizes local epinephrine to adrenochrome. Stronger mechanistic edge than the existing low-confidence Neutrophils-oxidize parent (0.5).",
+      "zh-TW": "嗜中性球 myeloperoxidase 加 ROS 將局部 epinephrine 氧化為 adrenochrome。比既有低信度 Neutrophils 氧化母邊（0.5）更強的機制邊。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "3ee241fd6f2e",
+    "subject": "CD38",
+    "predicate": "is_upregulated_on",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "Inflammaging upregulates CD38 on neutrophils and macrophages, starving sirtuins of NAD+. Cellular-resolution leg of the established CD38-consumes-NAD+ triple.",
+      "zh-TW": "發炎老化在嗜中性球與巨噬細胞上調 CD38，使 sirtuins 缺乏 NAD+。已確立的 CD38 消耗 NAD+ triple 的細胞解析度分支。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "44ef83df8807",
+    "subject": "Nicotinamide Mononucleotide",
+    "predicate": "restores",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NMN restores NAD+ co-substrate availability for sirtuins, distinct from allosteric STAC activation. Standard precursor biology paired with the existing NR-sirtuin edge.",
+      "zh-TW": "NMN 恢復 sirtuins 的 NAD+ 輔受質可及性，不同於別構 STAC 活化。標準前驅物生物學，與既有的 NR-sirtuin 邊配對。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "9c50fa4ded4c",
+    "subject": "Honokiol",
+    "predicate": "activates",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "Honokiol activates SIRT3 to increase ATP and reduce ROS/lipid peroxidation in kidney injury models. Supported pharmacology, kept at moderate confidence per file hypothesis framing.",
+      "zh-TW": "Honokiol 活化 SIRT3，在腎損傷模型增加 ATP 並減少 ROS/脂質過氧化。藥理支持，依檔案假設框架維持中等信度。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "413a1db57591",
+    "subject": "COVID-19",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Severe COVID-19 drives CD38-NADase-mediated NAD+ depletion (Heer 2020), feeding sirtuin loss and inflammaging. Systemic-viral arm of the NAD+ corridor.",
+      "zh-TW": "重症 COVID-19 驅動 CD38-NADase 介導的 NAD+ 耗竭（Heer 2020），供養 sirtuin 缺失與發炎老化。NAD+ 走廊的全身病毒臂。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "8ded304beda8",
+    "subject": "Metformin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Metformin activates AMPK as first-line nutrient-sensing pharmacology, suppressing SASP in the same longevity space as rapamycin. Canonical mechanism, new subject for the tasks layer.",
+      "zh-TW": "Metformin 活化 AMPK 作為一線營養感測藥理，在與 rapamycin 相同的長壽空間抑制 SASP。典型機制，tasks 層的新主詞。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7f81a1e73f98",
+    "subject": "DJ-1",
+    "predicate": "detoxifies",
+    "object": "Glyoxal",
+    "context": {
+      "en-US": "DJ-1 detoxifies glyoxal to glycolic acid GSH-independently, parallel to methylglyoxal-to-L-lactate conversion. Second substrate leg of the DJ-1 glyoxalase program.",
+      "zh-TW": "DJ-1 不依賴 GSH 將 glyoxal 解毒為 glycolic acid，與 methylglyoxal 到 L-lactate 轉換平行。DJ-1 乙二醛酶程序的第二受質分支。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "02ae2a8bbdb6",
+    "subject": "DJ-1",
+    "predicate": "inhibits",
+    "object": "KEAP1",
+    "context": {
+      "en-US": "DJ-1 blocks KEAP1 to stabilize Nrf2, the mechanistic basis of the existing DJ-1-Nrf2 edge. Upstream cause recorded as its own triple.",
+      "zh-TW": "DJ-1 阻斷 KEAP1 以穩定 Nrf2，是既有 DJ-1-Nrf2 邊的機制基礎。上游原因記錄為獨立 triple。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "7175b5ce2b49",
+    "subject": "DJ-1",
+    "predicate": "regulates",
+    "object": "DRP1",
+    "context": {
+      "en-US": "DJ-1 modulates DRP1-dependent fission in neuroprotection models. Single-path evidence, kept at low-moderate confidence with the file's own caution.",
+      "zh-TW": "DJ-1 在神經保護模型調節 DRP1 依賴的分裂。單一路徑證據，依檔案自身的警語維持中低信度。"
+    },
+    "confidence": 0.72,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "4f1dd867d264",
+    "subject": "DJ-1",
+    "predicate": "chaperones",
+    "object": "Alpha-synuclein",
+    "context": {
+      "en-US": "DJ-1 binds alpha-synuclein intermediates to prevent fibrillization. ASCII spelling consolidated with the peroxynitrite edge to avoid a node split.",
+      "zh-TW": "DJ-1 結合 alpha-synuclein 中間體以防止纖維化。ASCII 拼寫與 peroxynitrite 邊合併以免節點分裂。"
+    },
+    "confidence": 0.72,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "2de91b074bf1",
+    "subject": "Adrenochrome",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Adrenochrome redox cycling consumes glutathione, disabling GLO1/GLO2 dicarbonyl clearance. This couples catecholamine oxidation to glycation defense collapse.",
+      "zh-TW": "Adrenochrome 氧化還原循環消耗 glutathione，使 GLO1/GLO2 二羰基清除失效。此將兒茶酚胺氧化耦合到糖化防禦崩潰。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "b556a429fac8",
+    "subject": "Sirtuins",
+    "predicate": "suppress",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Sirtuins broadly brake apoptotic execution at the degree-392 hub survival side, complementing the SASP-suppression arm. Family-level summary edge.",
+      "zh-TW": "Sirtuins 在 degree-392 樞紐的存活側廣泛煞停凋亡執行，補充 SASP 抑制臂。家族層級總結邊。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "c866e1a1cd17",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "increases",
+    "object": "NAD+",
+    "context": {
+      "en-US": "CD38 inhibitor 78c preserves and raises NAD+ with male-biased lifespan effects (Peclat 2022). Pharmacological counterpart to the CD38-consumes-NAD+ disease edge.",
+      "zh-TW": "CD38 inhibitor 78c 保存並提高 NAD+，具雄性偏向的壽命效應（Peclat 2022）。CD38 消耗 NAD+ 疾病邊的藥理對應。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "f19446d38105",
+    "subject": "Estrogen",
+    "predicate": "upregulates",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Estradiol prevents injury-induced Bcl-2 downregulation (Dubal 1999 OVX model). The one well-supported sex-dimorphic edge; other hormone claims were rejected as under-evidenced.",
+      "zh-TW": "Estradiol 防止損傷誘發的 Bcl-2 下調（Dubal 1999 OVX 模型）。唯一充分支持的性別二態邊；其他荷爾蒙主張因證據不足被拒。"
+    },
+    "confidence": 0.8,
+    "source_document": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "cb18da3d7f15",
+    "subject": "DRP1",
+    "predicate": "facilitates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "DRP1-mediated fission severs damaged segments for engulfment but cardiac DRP1-KO shows mitophagy persists without it. Softened from is_required_for per the file's own contradiction.",
+      "zh-TW": "DRP1 介導的分裂切斷受損片段以供包吞，但心臟 DRP1-KO 顯示無它 mitophagy 仍持續。依檔案自身的矛盾從 is_required_for 放軟。"
+    },
+    "confidence": 0.75,
+    "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
+  },
+  {
+    "id": "43fabdf8d3ab",
+    "subject": "Mitochondrial Catalase",
+    "predicate": "extends_lifespan_in",
+    "object": "Mice",
+    "context": {
+      "en-US": "Only mitochondria-targeted catalase (mCAT) extends median lifespan ~20% (Schriner 2005); cytosolic catalase is null (Perez 2009). Qualified subject replaces the overstated generic edge.",
+      "zh-TW": "僅粒線體標靶 catalase（mCAT）延長中位壽命約 20%（Schriner 2005）；胞質 catalase 無效（Perez 2009）。限定主詞取代誇大的通用邊。"
+    },
+    "confidence": 0.85,
+    "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+    "created": "2026-09-04T16:40:50Z",
+    "updated": "2026-09-04T16:40:50Z"
   }
 ]
