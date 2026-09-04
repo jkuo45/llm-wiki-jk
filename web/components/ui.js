@@ -32,6 +32,7 @@ import { toast } from './ui/Toast.js';
 import { enhanceToggle } from './ui/Toggle.js';
 import { enhanceIconButton } from './ui/IconButton.js';
 import { enhanceSlider } from './ui/Slider.js';
+import { enhancePanel } from './ui/Panel.js';
 
 // ------------------------------------------------------------
 // Active-window highlight (analysis panel)
@@ -765,13 +766,16 @@ export function activateRoute(trace, routeIdx) {
 }
 
 // ------------------------------------------------------------
-// Settings — full-screen slide-up bottom sheet (gear button toggles it; a
-// dimmed backdrop sits behind). The sheet is hoisted to <body> at runtime so
+// Settings — bottom sheet (gear button toggles it; a dimmed backdrop sits
+// behind). Same open/close mechanics as the other panels via
+// enhancePanel (.open class on the sheet + launcher, role/aria-expanded,
+// close button). The sheet is hoisted to <body> at runtime so
 // position:fixed is viewport-relative and its z-index isn't trapped under
 // #controls / #graph.
 // ------------------------------------------------------------
 const settingsBtn = document.getElementById('btn-settings');
 const settingsPopover = document.getElementById('settings-popover');
+const settingsCloseBtn = document.getElementById('settings-close');
 
 // Hoist the sheet + a backdrop to body level so the fixed positioning and high
 // z-index apply against the viewport, not the controls rail's stacking context.
@@ -784,30 +788,32 @@ if (settingsPopover && settingsPopover.parentElement) {
   document.body.appendChild(settingsPopover);
 }
 
-function openSettings() {
-  if (!settingsPopover) return;
-  settingsPopover.hidden = false;
-  if (settingsBackdrop) settingsBackdrop.hidden = false;
-  if (settingsBtn) settingsBtn.classList.add('active');
-}
-function closeSettings() {
-  if (settingsPopover) settingsPopover.hidden = true;
-  if (settingsBackdrop) settingsBackdrop.hidden = true;
-  if (settingsBtn) settingsBtn.classList.remove('active');
-}
+const settingsPanelApi = (settingsPopover && settingsBtn)
+  ? enhancePanel(settingsPopover, {
+      button: settingsBtn,
+      closeButton: settingsCloseBtn,
+      onOpen() {
+        settingsPopover.hidden = false;
+        if (settingsBackdrop) settingsBackdrop.hidden = false;
+      },
+      onClose() {
+        if (settingsBackdrop) settingsBackdrop.hidden = true;
+      },
+    })
+  : null;
+function openSettings() { if (settingsPanelApi) settingsPanelApi.open(); }
+function closeSettings() { if (settingsPanelApi) settingsPanelApi.close(); }
 
-if (settingsBtn && settingsPopover) {
+if (settingsBtn && settingsPopover && settingsPanelApi) {
   settingsPopover.addEventListener('click', (e) => e.stopPropagation());
   settingsBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    if (settingsPopover.hidden) openSettings(); else closeSettings();
+    settingsPanelApi.toggle();
   });
-  const settingsClose = document.getElementById('settings-close');
-  if (settingsClose) settingsClose.addEventListener('click', closeSettings);
   if (settingsBackdrop) settingsBackdrop.addEventListener('click', closeSettings);
   document.addEventListener('click', (e) => {
-    if (settingsPopover.hidden) return;
-    if (!settingsPopover.contains(e.target) && e.target !== settingsBtn) closeSettings();
+    if (!settingsPanelApi.isOpen()) return;
+    if (!settingsPopover.contains(e.target) && e.target !== settingsBtn && !settingsBtn.contains(e.target)) closeSettings();
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeSettings();

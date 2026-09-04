@@ -1102,12 +1102,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #controls #btn-settings { position: relative; flex: none; width: 44px; padding: 10px; color: var(--ink-4); }
 #controls #btn-settings[hidden] { display: none; }
 #controls #btn-settings:hover { color: var(--ink-hi); border-color: var(--accent); }
-#controls #btn-settings.active { background: var(--line); border-color: var(--accent); color: var(--ink-hi); }
-/* Settings — full-screen slide-up bottom sheet (~92vh, slides up from the
+#controls #btn-settings.open, #controls #btn-settings.active { background: var(--line); border-color: var(--accent); color: var(--ink-hi); }
+/* Settings — slide-up bottom sheet (~92vh, slides up from the
    bottom over a dimmed backdrop). Hoisted to <body> at runtime (see ui.js) so
    position:fixed is viewport-relative and its z-index isn't trapped under
-   #controls / #graph. Kept in the DOM when closed (display:block) so the
-   transform transition can play; visibility/opacity hide it instead. */
+   #controls / #graph. Open/close uses the shared .open mechanics (see
+   ui/Panel.js) like the other panels; the [hidden] rule only preserves the
+   pre-open transition. */
 #settings-backdrop {
   position: fixed; inset: 0; z-index: 690;
   background: rgba(0,0,0,0.55); -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
@@ -1127,19 +1128,19 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   transition: transform 0.34s cubic-bezier(0.22,1,0.36,1), opacity 0.25s ease, visibility 0s linear 0.34s;
 }
 #settings-popover[hidden] { display: block; }
-#settings-popover:not([hidden]) {
+#settings-popover.open {
   transform: translateY(0); visibility: visible; opacity: 1;
   transition: transform 0.36s cubic-bezier(0.22,1,0.36,1), opacity 0.25s ease, visibility 0s;
 }
 /* Centered content column so the wide sheet stays readable on large screens */
 #settings-popover .settings-inner { max-width: 860px; margin: 0 auto; }
-/* Sheet header: grab handle + title + close button (sticky while scrolling) */
-#settings-popover .settings-sheet-header { position: sticky; top: 0; z-index: 2; background: var(--surface); padding: 6px 0 14px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
-#settings-popover .settings-grab { width: 40px; height: 4px; border-radius: var(--r-sm); background: var(--line-strong); margin: 0 auto 12px; }
-#settings-popover .settings-sheet-head-row { display: flex; align-items: center; gap: 12px; }
-#settings-popover .settings-sheet-title { flex: 1 1 auto; margin: 0; font-size: 15px; font-weight: 600; color: var(--ink-hi); }
-#settings-popover .settings-sheet-close { flex: none; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--line-strong); color: var(--ink-hi); border-radius: var(--r-md); font-size: 20px; line-height: 1; cursor: pointer; transition: background 0.15s, border-color 0.15s, color 0.15s; }
-#settings-popover .settings-sheet-close:hover { background: rgba(255,255,255,0.06); border-color: var(--accent); color: #fff; }
+/* Sheet header — same shared pattern as analysis/chat/notes
+   (.panel-header-left + .panel-title + .panel-header-actions + .ui-close),
+   sticky while scrolling. */
+#settings-popover #settings-header { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; background: var(--surface); opacity: 1; padding: 14px 24px; margin: 0 -24px 8px; border-bottom: 0; }
+#settings-popover #settings-header .panel-title { font-size: 16px; font-weight: 700; color: var(--ink-hi); letter-spacing: normal; white-space: nowrap; }
+#settings-popover #settings-header .panel-title-zh { color: inherit; font-weight: 700; }
+/* #settings-close styled via .ui-close (Phase 2.5) */
 /* Section headers */
 #settings-popover h3 { font-size: 12px; font-weight: 600; color: var(--ink-4); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 10px; padding-bottom: 7px; border-bottom: 1px solid var(--line); }
 /* Grouped cards — each settings section is a bordered, slightly-raised card */
@@ -2226,8 +2227,7 @@ button.notes-chip { font-family: inherit; line-height: inherit; }
 
 /* Unified close (×) button — one ghost treatment: accent hover (closing is
    not destructive, so no red), 32px metrics, 44px touch target on coarse
-   pointers. The settings sheet keeps its boxed variant (it already hovers
-   accent). */
+   pointers. */
 .ui-close {
   background: none; border: none; color: var(--ink-5);
   width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;

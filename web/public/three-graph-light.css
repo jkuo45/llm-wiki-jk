@@ -415,9 +415,9 @@ body {
 /* Settings gear + popover (light) */
 #controls #btn-settings { background: var(--surface); border-color: var(--line-strong); color: var(--ink-4); }
 #controls #btn-settings:hover { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
-#controls #btn-settings.active { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
+#controls #btn-settings.open, #controls #btn-settings.active { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
 #settings-popover { background: var(--surface); border-color: var(--line); box-shadow: 0 -16px 48px rgba(34,48,74,0.22); }
-#settings-popover .settings-sheet-header { background: var(--surface); }
+#settings-popover #settings-header { background: var(--surface); }
 #settings-popover h3 { color: var(--ink-4); border-bottom-color: var(--line); }
 #settings-popover .settings-row > label { color: var(--ink-hi); }
 #settings-popover .settings-row-head output { color: var(--ink-4); }
