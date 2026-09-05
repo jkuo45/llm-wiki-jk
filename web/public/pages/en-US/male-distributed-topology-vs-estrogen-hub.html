@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Male Distributed Topology vs the Centralized Estrogen Hub</title>
+<meta name="description" content="Male biology as a distributed topology — AR + PARP-1/AIF + single-X + LOY + SIRT6/IGF-1 — against the centralized female E2→ER 9-arm hub. Topology diagrams, temporal dynamics, comparison tables and evidence.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♂</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<style>
+  :root{
+    --teal:#2a9d8f;
+    --slate:#2e4a5d;
+    --red:#c1121f;
+    --amber:#e9c46a;
+    --green:#345443;
+    --purple:#7b2cbf;
+    --teal-soft:color-mix(in srgb, var(--teal) 14%, transparent);
+    --red-soft:color-mix(in srgb, var(--red) 10%, transparent);
+    --slate-soft:color-mix(in srgb, var(--slate) 12%, transparent);
+    --amber-soft:color-mix(in srgb, var(--amber) 20%, transparent);
+    --purple-soft:color-mix(in srgb, var(--purple) 10%, transparent);
+  }
+  .wrap.page{ padding-bottom:0; }
+  .lede b{ color:var(--oxblood); }
+  .fig{ background:var(--sheet); border:1px solid var(--rule); padding:16px 18px 12px; margin:18px 0; }
+  .fig svg{ width:100%; height:auto; display:block; }
+  .fig .cap{ font-size:.82rem; color:var(--mute); margin:10px 2px 2px; line-height:1.55; }
+  .fig .cap strong{ color:var(--ink-soft); }
+  .fig .fignum{ font-family:var(--mono); font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--faint); margin:0 0 8px; }
+  .callout{ background:color-mix(in srgb, var(--oxblood) 6%, var(--paper)); border-left:3px solid var(--oxblood); padding:14px 16px; margin:18px 0; font-size:.9rem; line-height:1.6; }
+  .callout strong{ color:var(--oxblood); }
+  .callout.teal{ background:color-mix(in srgb, var(--teal) 7%, var(--paper)); border-left-color:var(--teal); }
+  .callout.teal strong{ color:var(--teal); }
+  .callout.slate{ background:color-mix(in srgb, var(--slate) 7%, var(--paper)); border-left-color:var(--slate); }
+  .callout.slate strong{ color:var(--slate); }
+  .node-grid{ display:grid; grid-template-columns:1fr; gap:12px; margin:16px 0; }
+  @media (min-width:760px){ .node-grid{ grid-template-columns:1fr 1fr; } }
+  @media (min-width:1080px){ .node-grid{ grid-template-columns:1fr 1fr 1fr; } }
+  .node-grid .span2{ grid-column:1 / -1; }
+  .node-card{ background:var(--sheet); border:1px solid var(--rule); border-top:3px solid var(--rule-strong); padding:14px 16px 12px; }
+  .node-card h3{ margin:0 0 2px; font-size:1rem; }
+  .node-card .role{ font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--mute); margin-bottom:8px; }
+  .node-card ul{ margin:8px 0 4px; padding-left:20px; font-size:.86rem; line-height:1.6; color:var(--ink-soft); }
+  .node-card.ar{ border-top-color:var(--teal); }
+  .node-card.loy{ border-top-color:var(--red); }
+  .node-card.sx{ border-top-color:var(--slate); }
+  .node-card.parp{ border-top-color:var(--gold); }
+  .node-card.sirt6{ border-top-color:var(--purple); }
+  .node-card .stat{ font-family:var(--mono); font-size:1.25rem; font-weight:700; }
+  .node-card.ar .stat{ color:var(--teal); }
+  .node-card.loy .stat{ color:var(--red); }
+  .node-card.sx .stat{ color:var(--slate); }
+  .node-card.parp .stat{ color:var(--gold); }
+  .node-card.sirt6 .stat{ color:var(--purple); }
+  .node-card .stat-sub{ font-size:.78rem; color:var(--mute); }
+  .table-wrap{ overflow-x:auto; margin:14px 0; }
+  .table-wrap table{ width:100%; border-collapse:collapse; font-size:.85rem; min-width:880px; }
+  .table-wrap th{ font-family:var(--mono); font-size:11px; font-weight:500; text-transform:uppercase; letter-spacing:.05em; color:var(--mute); text-align:left; padding:8px 10px; border-bottom:1px solid var(--rule-strong); background:var(--sheet); }
+  .table-wrap td{ padding:8px 10px; border-bottom:1px solid var(--rule); vertical-align:top; line-height:1.55; }
+  .table-wrap tr:last-child td{ border-bottom:none; }
+  .table-wrap tbody th{ font-family:var(--sans); font-size:.85rem; text-align:left; padding:8px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+  .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.05em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; white-space:nowrap; }
+  .pill.prot{ color:var(--teal); } .pill.path{ color:var(--red); } .pill.struct{ color:var(--slate); }
+  .pill.exec{ color:var(--gold); } .pill.growth{ color:var(--purple); } .pill.hub{ color:var(--oxblood); }
+  tr.row-hidden{ display:none; }
+  /* group boxes: hub row (oxblood) vs 5-node mesh (slate) */
+  #toptbl tbody.hub th, #toptbl tbody.hub td{ border-top:2px solid var(--oxblood); border-bottom:2px solid var(--oxblood); }
+  #toptbl tbody.hub tr th:first-child{ border-left:2px solid var(--oxblood); }
+  #toptbl tbody.hub tr td:last-child{ border-right:2px solid var(--oxblood); }
+  #toptbl tbody.mesh tr:first-child th, #toptbl tbody.mesh tr:first-child td{ border-top:2px solid var(--slate); }
+  #toptbl tbody.mesh tr:last-child th, #toptbl tbody.mesh tr:last-child td{ border-bottom:2px solid var(--slate); }
+  #toptbl tbody.mesh tr th:first-child{ border-left:2px solid var(--slate); }
+  #toptbl tbody.mesh tr td:last-child{ border-right:2px solid var(--slate); }
+  td mark{ background:color-mix(in srgb, var(--gold) 35%, transparent); padding:0 .15em; }
+  .toolbar{ background:color-mix(in srgb, var(--paper) 92%, white); border:1px solid var(--rule); box-shadow:var(--shadow); padding:10px 12px; margin:14px 0 0; }
+  .toolbar .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar input[type="search"]{ font-family:var(--sans); font-size:13px; padding:7px 10px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); min-width:min(260px,100%); flex:1 1 220px; border-radius:var(--radius); }
+  .toolbar select{ font-family:var(--sans); font-size:12.5px; padding:7px 9px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink-soft); border-radius:var(--radius); }
+  .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
+  .table-wrap.hl-prot td[data-hl~="prot"]{ background:color-mix(in srgb, var(--teal) 9%, var(--sheet)); }
+  .table-wrap.hl-path td[data-hl~="path"]{ background:color-mix(in srgb, var(--red) 8%, var(--sheet)); }
+  .table-wrap.hl-time td[data-hl~="time"]{ background:color-mix(in srgb, var(--gold) 12%, var(--sheet)); }
+  .table-wrap.hl-death td[data-hl~="death"]{ background:color-mix(in srgb, var(--slate) 12%, var(--sheet)); }
+  .refs{ font-size:.85rem; line-height:1.65; color:var(--ink-soft); }
+  .refs li{ margin-bottom:4px; }
+  .page-footer{ font-family:var(--mono); font-size:11px; color:var(--faint); padding:18px 0 32px; border-top:1px solid var(--rule); margin-top:28px; }
+  .page-footer a{ color:var(--mute); }
+  kbd.k{ font-family:var(--mono); font-size:.78rem; background:var(--sheet); border:1px solid var(--rule-strong); border-radius:3px; padding:0 5px; }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#model">Model</a>
+      <a href="#hub">Estrogen hub</a>
+      <a href="#nodes">Five nodes</a>
+      <a href="#time">Temporal</a>
+      <a href="#death">Death switch</a>
+      <a href="#table">Compare</a>
+      <a href="#refs">Sources</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Sex differences · XX vs XY · 05 Sep 2026</p>
+    <h1>Male Distributed Topology vs the Centralized Estrogen Hub</h1>
+    <p class="lede">
+      Female biology runs a <b>centralized hub</b>: estradiol (E2) → estrogen receptor (ER) fans out to
+      nine protective arms — and menopause withdraws all nine at once, the “estrogen cliff.”
+      Male biology has <b>no equivalent center</b>. In its place: five distributed nodes —
+      <b style="color:var(--teal)">T→AR</b> (drive: testosterone → androgen receptor) + <b style="color:var(--red)">mLOY</b> (accelerator) +
+      <b style="color:var(--slate)">single-X</b> (structure) + <b style="color:var(--gold)">PARP-1/AIF</b> (execution) +
+      <b style="color:var(--purple)">SIRT6/IGF-1/mTOR</b> (growth) — eroding gradually, clonally,
+      structurally, and episodically. No center, no cliff.
+    </p>
+    <div class="meta">
+      <p><strong>Sources:</strong> vault task output <code>task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md</code> · companion audit <code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md</code> (Part IX estrogen hub, Part II PARP-1) · vault notes [[Testosterone]] [[Loss of Y Chromosome]] [[Androgen Receptor]] [[Estrogen]] [[SIRT6]] [[mTORC1]] [[Apoptosis]] [[NAD+]] · web-verified literature (refs §7)</p>
+      <p><strong>Reading:</strong> start with Fig. 1 (the two topologies), then Fig. 3 (the two clocks). Everything else is evidence for those two pictures.</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="On this page">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#model">1 · Model in one figure</a></li>
+      <li><a href="#hub">2 · The centralized hub (E2→ER, 9 arms)</a></li>
+      <li><a href="#nodes">3 · The five distributed nodes</a></li>
+      <li><a href="#time">4 · Two clocks: cliff vs erosion</a></li>
+      <li><a href="#death">5 · The death-mode switch</a></li>
+      <li><a href="#table">6 · Comparison table</a></li>
+      <li><a href="#refs">7 · Sources</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== 1 THESIS ==================== -->
+    <section id="model">
+      <p class="sec-label">Model</p>
+      <h2>One hub vs no hub</h2>
+      <p class="drop">
+        The female system in this synthesis is a <strong>star topology</strong>: one mediator
+        (E2→ER) with nine spokes. Remove the center and every spoke derepresses simultaneously.
+        The male system is a <strong>mesh with an empty middle</strong>: five nodes that jointly
+        cover the same territory — sirtuins, redox, apoptosis, senescence, autophagy, NAD⁺,
+        NF-κB, telomeres, cancer — through different architecture: active <em>and</em> loss-based,
+        anabolic <em>and</em> pathogenic. Failure is local and asynchronous, never systemic and simultaneous.
+      </p>
+
+      <div class="fig">
+        <p class="fignum">Fig. 1 · The two architectures side by side</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 880 420" role="img" aria-label="Left: centralized estrogen hub with one center and nine spokes. Right: distributed male mesh of five nodes with an empty center.">
+          <!-- ===== LEFT: centralized hub ===== -->
+          <text x="220" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Sans, sans-serif">FEMALE · CENTRALIZED (star)</text>
+          <text x="220" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">one center · nine spokes · one cliff</text>
+          <!-- spokes -->
+          <g stroke="var(--oxblood)" stroke-width="1.6" opacity="0.75">
+            <line x1="220" y1="210" x2="220" y2="80"/><line x1="220" y1="210" x2="323" y2="109"/>
+            <line x1="220" y1="210" x2="363" y2="180"/><line x1="220" y1="210" x2="363" y2="257"/>
+            <line x1="220" y1="210" x2="323" y2="328"/><line x1="220" y1="210" x2="220" y2="357"/>
+            <line x1="220" y1="210" x2="117" y2="328"/><line x1="220" y1="210" x2="77" y2="257"/>
+            <line x1="220" y1="210" x2="77" y2="180"/>
+          </g>
+          <!-- spoke nodes -->
+          <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace">
+            <circle cx="220" cy="80" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="77" fill="var(--ink)">SIRT1</text><text x="220" y="89" font-size="9.5" fill="var(--mute)">transcr.↑</text>
+            <circle cx="323" cy="109" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="106" fill="var(--ink)">SIRT3</text><text x="323" y="118" font-size="9.5" fill="var(--mute)">mito↑</text>
+            <circle cx="363" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="177" fill="var(--ink)">SOD2</text><text x="363" y="189" font-size="9.5" fill="var(--mute)">protein↑</text>
+            <circle cx="363" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="254" fill="var(--ink)">Bcl-2</text><text x="363" y="266" font-size="9.5" fill="var(--mute)">neuro↑</text>
+            <circle cx="323" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="325" fill="var(--ink)">IκBα</text><text x="323" y="337" font-size="9.5" fill="var(--mute)">NF-κB↓</text>
+            <circle cx="220" cy="357" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="350" fill="var(--ink)">STING</text><text x="220" y="362" font-size="9.5" fill="var(--mute)">via</text><text x="220" y="374" font-size="9.5" fill="var(--mute)">HDAC3↓</text>
+            <circle cx="117" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="117" y="325" fill="var(--ink)">PARP-1</text><text x="117" y="337" font-size="9.5" fill="var(--mute)">stabilized</text>
+            <circle cx="77" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="254" fill="var(--ink)">TERT</text><text x="77" y="266" font-size="9.5" fill="var(--mute)">telom.↑</text>
+            <circle cx="77" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="177" fill="var(--ink)">p53</text><text x="77" y="189" font-size="9.5" fill="var(--mute)">dual ctrl</text>
+          </g>
+          <!-- center -->
+          <circle cx="220" cy="210" r="46" fill="var(--oxblood)"/>
+          <text x="220" y="204" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
+          <text x="220" y="221" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">master mediator</text>
+          <text x="220" y="402" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">menopause: all 9 derepress at once</text>
+
+          <!-- divider -->
+          <line x1="440" y1="20" x2="440" y2="390" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
+
+          <!-- ===== RIGHT: distributed mesh ===== -->
+          <text x="660" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Sans, sans-serif">MALE · DISTRIBUTED (mesh)</text>
+          <text x="660" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">five nodes · empty center · no cliff</text>
+          <!-- mesh edges (no center) -->
+          <g stroke="var(--slate)" stroke-width="1.4" opacity="0.6">
+            <line x1="660" y1="105" x2="775" y2="195"/><line x1="775" y1="195" x2="730" y2="330"/>
+            <line x1="730" y1="330" x2="590" y2="330"/><line x1="590" y1="330" x2="545" y2="195"/>
+            <line x1="545" y1="195" x2="660" y2="105"/><line x1="660" y1="105" x2="730" y2="330"/>
+            <line x1="545" y1="195" x2="775" y2="195"/><line x1="660" y1="105" x2="590" y2="330"/>
+            <line x1="545" y1="195" x2="730" y2="330"/><line x1="775" y1="195" x2="590" y2="330"/>
+          </g>
+          <!-- empty center -->
+          <circle cx="660" cy="225" r="34" fill="none" stroke="var(--faint)" stroke-width="1.4" stroke-dasharray="5 4"/>
+          <text x="660" y="221" font-size="9.5" text-anchor="middle" fill="var(--faint)" font-family="IBM Plex Mono, monospace">no</text>
+          <text x="660" y="233" font-size="9.5" text-anchor="middle" fill="var(--faint)" font-family="IBM Plex Mono, monospace">center</text>
+          <!-- nodes -->
+          <g font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <circle cx="660" cy="105" r="44" fill="var(--sheet)" stroke="var(--teal)" stroke-width="2.4"/>
+            <text x="660" y="100" font-size="14" font-weight="700" fill="var(--ink)">T→AR</text>
+            <text x="660" y="114" font-size="10" fill="var(--mute)">drive</text>
+            <text x="660" y="126" font-size="10" fill="var(--mute)">anabolic</text>
+            <circle cx="775" cy="195" r="44" fill="var(--sheet)" stroke="var(--red)" stroke-width="2.4"/>
+            <text x="775" y="192" font-size="14" font-weight="700" fill="var(--ink)">mLOY</text>
+            <text x="775" y="206" font-size="10" fill="var(--mute)">accelerator</text>
+            <circle cx="730" cy="330" r="44" fill="var(--sheet)" stroke="var(--slate)" stroke-width="2.4"/>
+            <text x="730" y="327" font-size="13" font-weight="700" fill="var(--ink)">Single-X</text>
+            <text x="730" y="341" font-size="10" fill="var(--mute)">structure</text>
+            <circle cx="590" cy="330" r="44" fill="var(--sheet)" stroke="var(--gold)" stroke-width="2.4"/>
+            <text x="590" y="320" font-size="12" font-weight="700" fill="var(--ink)">PARP-1</text>
+            <text x="590" y="333" font-size="12" font-weight="700" fill="var(--ink)">AIF</text>
+            <text x="590" y="346" font-size="10" fill="var(--mute)">execution</text>
+            <circle cx="545" cy="195" r="44" fill="var(--sheet)" stroke="var(--purple)" stroke-width="2.4"/>
+            <text x="545" y="190" font-size="13" font-weight="700" fill="var(--ink)">SIRT6</text>
+            <text x="545" y="203" font-size="10" fill="var(--mute)">growth</text>
+            <text x="545" y="215" font-size="10" fill="var(--mute)">longevity</text>
+          </g>
+          <text x="660" y="402" font-size="10.5" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Mono, monospace">aging: gradual + clonal + structural + episodic</text>
+        </svg>
+        </div>
+        <p class="cap"><strong>How to read it.</strong> Left: every protective arm routes through one hub, so one withdrawal event collapses all of them. Right: the five male nodes link to each other (shared territory — NF-κB, mTOR, NAD⁺, autophagy), but nothing routes through the middle; each node fails on its own schedule (§4). That is the whole model in one picture.</p>
+      </div>
+
+      <div class="callout">
+        <p><strong>No single male factor spans the hub's breadth — and that is the point.</strong> Testosterone→AR is narrower per-node (no SIRT3/SOD2/TERT/STING equivalent), bidirectional with inflammation, pro-cancer in prostate/liver/melanoma, and declines gradually (LOH) rather than cliff-wise.</p>
+      </div>
+    </section>
+
+    <!-- ==================== 2 HUB ==================== -->
+    <section id="hub">
+      <p class="sec-label">Reference · 02_SEP_2026 Part IX</p>
+      <h2>The centralized hub: E2→ER and its nine arms</h2>
+      <p>
+        The companion gender-attributes audit defines estrogen as a <strong>9-arm master mediator</strong>.
+        Each arm below is one spoke of Fig. 1 (left). The architectural consequence matters more than
+        any single arm: because all nine share one upstream switch, <strong>menopausal withdrawal
+        derepresses all nine simultaneously</strong> — a systems-level event with no male equivalent.
+      </p>
+
+      <div class="fig">
+        <p class="fignum">Fig. 2 · The nine estrogen arms and what each one holds up</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 920 380" role="img" aria-label="Estrogen hub fanning out to three panels: sirtuins and redox, inflammation and death, genome stability, three arms each.">
+          <!-- hub -->
+          <circle cx="460" cy="62" r="50" fill="var(--oxblood)"/>
+          <text x="460" y="57" font-size="20" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
+          <text x="460" y="76" font-size="10.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">ERα/β hub</text>
+          <!-- one line per group -->
+          <g stroke="var(--oxblood)" stroke-width="2" opacity="0.8">
+            <line x1="430" y1="104" x2="160" y2="150"/>
+            <line x1="460" y1="112" x2="460" y2="150"/>
+            <line x1="490" y1="104" x2="760" y2="150"/>
+          </g>
+          <g font-family="IBM Plex Mono, monospace">
+            <!-- panel 1: sirtuins + redox -->
+            <rect x="30" y="150" width="260" height="210" fill="var(--sheet)" stroke="var(--rule-strong)"/>
+            <line x1="30" y1="150" x2="290" y2="150" stroke="var(--teal)" stroke-width="4"/>
+            <text x="48" y="178" font-size="12" font-weight="700" fill="var(--teal)" letter-spacing="1">SIRTUINS + REDOX</text>
+            <text x="48" y="206" font-size="12.5" font-weight="700" fill="var(--ink)">SIRT1 ↑ · transcription</text>
+            <text x="48" y="222" font-size="10.5" fill="var(--mute)">ER-driven deacetylase tone</text>
+            <line x1="48" y1="236" x2="272" y2="236" stroke="var(--rule)"/>
+            <text x="48" y="261" font-size="12.5" font-weight="700" fill="var(--ink)">SIRT3 ↑ · mito targeting</text>
+            <text x="48" y="277" font-size="10.5" fill="var(--mute)">mitochondrial redox dial</text>
+            <line x1="48" y1="291" x2="272" y2="291" stroke="var(--rule)"/>
+            <text x="48" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">SOD2 ↑ · protein</text>
+            <text x="48" y="332" font-size="10.5" fill="var(--mute)">MnSOD antioxidant shield</text>
+            <!-- panel 2: inflammation + death -->
+            <rect x="330" y="150" width="260" height="210" fill="var(--sheet)" stroke="var(--rule-strong)"/>
+            <line x1="330" y1="150" x2="590" y2="150" stroke="var(--slate)" stroke-width="4"/>
+            <text x="348" y="178" font-size="12" font-weight="700" fill="var(--slate)" letter-spacing="1">INFLAMMATION + DEATH</text>
+            <text x="348" y="206" font-size="12.5" font-weight="700" fill="var(--ink)">Bcl-2 ↑ · neuroprotection</text>
+            <text x="348" y="222" font-size="10.5" fill="var(--mute)">anti-apoptotic hold</text>
+            <line x1="348" y1="236" x2="572" y2="236" stroke="var(--rule)"/>
+            <text x="348" y="261" font-size="12.5" font-weight="700" fill="var(--ink)">IκBα ↑ → NF-κB ↓</text>
+            <text x="348" y="277" font-size="10.5" fill="var(--mute)">the inflammation brake</text>
+            <line x1="348" y1="291" x2="572" y2="291" stroke="var(--rule)"/>
+            <text x="348" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">HDAC3 → STING ↓</text>
+            <text x="348" y="332" font-size="10.5" fill="var(--mute)">innate-immune restraint</text>
+            <!-- panel 3: genome stability -->
+            <rect x="630" y="150" width="260" height="210" fill="var(--sheet)" stroke="var(--rule-strong)"/>
+            <line x1="630" y1="150" x2="890" y2="150" stroke="var(--gold)" stroke-width="4"/>
+            <text x="648" y="178" font-size="12" font-weight="700" fill="var(--gold)" letter-spacing="1">GENOME STABILITY</text>
+            <text x="648" y="206" font-size="12.5" font-weight="700" fill="var(--ink)">PARP-1 · stabilized</text>
+            <text x="648" y="222" font-size="10.5" fill="var(--mute)">DNA repair held ready</text>
+            <line x1="648" y1="236" x2="872" y2="236" stroke="var(--rule)"/>
+            <text x="648" y="261" font-size="12.5" font-weight="700" fill="var(--ink)">TERT ↑</text>
+            <text x="648" y="277" font-size="10.5" fill="var(--mute)">telomerase switched on</text>
+            <line x1="648" y1="291" x2="872" y2="291" stroke="var(--rule)"/>
+            <text x="648" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">p53 · dual control</text>
+            <text x="648" y="332" font-size="10.5" fill="var(--mute)">activate + sequester</text>
+          </g>
+        </svg>
+        </div>
+        <p class="cap"><strong>Why group the arms:</strong> the male mesh covers the same three territories with different wiring — SIRT6 (not SIRT1/3 induction) for the sirtuin territory, AR→NF-κB suppression for the inflammation territory, and single-X/LOY/PARP-1 for the genome territory. Same map, different roads.</p>
+      </div>
+
+      <div class="callout">
+        <p style="margin:0 0 6px;"><strong>At menopause, E2 withdrawal simultaneously:</strong></p>
+        <ul style="margin:0; padding-left:20px; line-height:1.75;">
+          <li>Removes SIRT1/3 transcriptional support → mitochondrial dysfunction</li>
+          <li>Removes SOD2 upregulation → oxidative stress increase</li>
+          <li>Removes NF-κB suppression → inflammaging acceleration</li>
+          <li>Removes STING suppression → cGAS-STING activation</li>
+          <li>Removes PARP-1 stabilization → NAD⁺ depletion accelerates</li>
+          <li>Removes telomerase activation → telomere attrition speeds up</li>
+          <li>Removes Bcl-2 neuroprotection → neuronal vulnerability increases</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== 3 NODES ==================== -->
+    <section id="nodes">
+      <p class="sec-label">The male system</p>
+      <h2>Five distributed nodes, five failure schedules</h2>
+      <p>
+        Each node below is one circle of Fig. 1 (right). Read the <strong>role</strong> line first
+        (what it does in the system), then the <strong>temporal</strong> line (when it fails) —
+        the two schedules never coincide, which is exactly why there is no male cliff.
+      </p>
+
+      <div class="node-grid">
+        <div class="node-card ar">
+          <h3>1 · Testosterone → AR — the drive node</h3>
+          <div class="role">Anabolic / immune · bidirectional · gradual LOH</div>
+          <div class="stat">3.5× p-S6K1</div><div class="stat-sub">100 nM T → p-ERK 5 min → p-Akt 15 min → p-S6K1 60 min; LY294002 / Akt-VIII / rapamycin abolish (Basualto-Alarcón 2013)</div>
+          <ul>
+            <li><strong>Anti-inflammatory parallel to E2:</strong> T ↓ TNF-α, IL-6, IFN-γ, IL-2, IL-1β and ↑ IL-10; inhibits NF-κB/p65, ↓ macrophage TLR4, ↓ ILC2 proliferation, AR→IL-10 in CD4⁺ T cells (Biogerontology 2023 review, PMC9810526).</li>
+            <li><strong>Anabolic mTOR:</strong> castration ↓ grip, muscle mass, IGF-1 mRNA, p-Akt/p-GSK3β/p-PRAS40/p-FoxO3a and ↑ MuRF1/atrogin-1/REDD1; nandrolone reverses (White 2013). Low T activates mTOR Akt-independently; high T required for Akt.</li>
+            <li><strong>Critical asymmetry — inflammaging → ↓T, not T → protection:</strong> UK Biobank men (n=18,347): IL-6 + GDF-15 mediate age-related T decline, GDF-15 strongest; SAMP8 Leydig ROS↑ → p38→COX2 + NF-κB→COX2 → StAR/P450scc↓, rescued by SB203580 + Bay 11-7082.</li>
+            <li><strong>Ferroptosis mirror:</strong> MBOAT2 is a direct AR target vs MBOAT1 as ER target (Cell 2023); testosterone is the dominant susceptibility factor in renal ischemia (Park 2004).</li>
+            <li><strong>Limits:</strong> “testosterone is unfavorable” for telomeres — lacks antioxidant property, may ↑ oxidative telomere damage (Gardner 2014); pro-cancer in prostate/liver/melanoma.</li>
+          </ul>
+        </div>
+
+        <div class="node-card loy">
+          <h3>2 · Mosaic loss-of-Y — the accelerator node</h3>
+          <div class="role">Pathogenic gain · opposite valence to E2 · exponential 60y+ (the LOY cliff)</div>
+          <div class="stat">40% → 57%</div><div class="stat-sub">prevalence at 70y → 93y; most common somatic mutation in men (Thompson Nature 2019)</div>
+          <ul>
+            <li><strong>Mortality:</strong> LOY-blood HR 1.91 all-cause, 5.5y vs 11y survival (Forsberg Nat Genet 2014); LURIC coronary (n=1,698) LOY&gt;17%: HR 1.41 all-cause, 1.49 CV death, 2.65 fatal MI + profibrotic plasma (OPG/MMP-12/GDF-15/HB-EGF/resistin).</li>
+            <li><strong>Causality (not correlation):</strong> BM-LOY mice → ↓ lifespan, cardiac/pulmonary/renal fibrosis, HF death; LOY macrophages signal TGFβ1/galectin-3 → fibroblast activation; TGFβ1 blockade rescues (Sano Science 2022); Uty disruption phenocopies.</li>
+            <li><strong>Immunity/cancer/AD:</strong> ~500 autosomal genes dysregulated; T-cell exhaustion + PD-1 sensitivity; bladder-cancer growth via immune evasion (Abdel-Hafiz Nature 2023); LOY–AD, CKD, aortic stenosis, impaired senescent-cell clearance → renal disease.</li>
+            <li><strong>No female counterpart:</strong> loss-based, not hormone-based. Risk factors: age + smoking (dose-response, reversible after quitting), genomic instability/CHIP co-occurrence.</li>
+          </ul>
+        </div>
+
+        <div class="node-card sx">
+          <h3>3 · Single-X vulnerability — the structural node</h3>
+          <div class="role">Hard-coded asymmetry · no backup · lifelong, compounded by LOY</div>
+          <div class="stat">6 EXITS genes</div><div class="stat-sub">ATRX · CNKSR2 · DDX3X · KDM5C · KDM6A · MAGEC3 — female biallelic protection, zero autosomal/PAR equivalent (Dunford Nat Genet 2017)</div>
+          <ul>
+            <li>Males rely on weaker X–Y paralog backup (<span style="font-family:var(--mono)">UTY</span> for KDM6A, DDX3Y for DDX3X) — and LOY itself removes that backup.</li>
+            <li>Structure, not signaling: this node never “declines,” it simply never had redundancy. The distributed topology’s hard-coded asymmetry.</li>
+            <li>Vault: <span style="font-family:var(--mono)">[[UTY]] / [[EXITS]]</span> present.</li>
+          </ul>
+        </div>
+
+        <div class="node-card parp">
+          <h3>4 · PARP-1 / AIF — the executioner node</h3>
+          <div class="role">Dominant death mode + NAD⁺ consumer · acute, event-driven</div>
+          <div class="stat">19.7% vs 38.4%</div><div class="stat-sub">infarct in PARP-1 KO vs WT males (protected); KO OVX females 52.2% vs 36.0% WT (exacerbated — Liu Stroke 2011)</div>
+          <ul>
+            <li><strong>Mechanism:</strong> male nNOS → PARP → NAD⁺ depletion → AIF nuclear → 50-kbp fragmentation (parthanatos); female cytochrome-C → caspase-9 → caspase-3. PARP-1 deletion abolishes AIF translocation in both sexes yet ↑ cytochrome-C/caspase-9/-3 only in females.</li>
+            <li>Q-VD-OPh caspase inhibitor protects females only; PJ34 delayed PARP inhibition improves mNSS mainly in males.</li>
+            <li><strong>Therapeutic corollary:</strong> PARP inhibitors male-leaning, caspase inhibitors female-leaning. Downstream by position, load-bearing by function — and the NAD⁺ link ties this node to male NAD⁺ decline.</li>
+          </ul>
+        </div>
+
+        <div class="node-card sirt6">
+          <h3>5 · SIRT6 → IGF-1 / mTOR / autophagy — the growth node</h3>
+          <div class="role">Male-leaning set-point of the shared anabolic axis · lifelong</div>
+          <div class="stat">+14.5% median</div><div class="stat-sub">Sirt6-Tg males median +14.5%/+9.9%, max +15.8%/+13.1%; females n.s. — via ↓ serum IGF-1 + ↑ IGFBP1 + ↓ p-AKT/p-FOXO to female levels (Kanfi Nature 2012)</div>
+          <ul>
+            <li>50% of male-Tg liver genes overlap the female-WT signature — SIRT6 partially “feminizes” male hepatic signaling.</li>
+            <li>Roichman 2021: SIRT6 extends both sexes, male-stronger, via hepatic NAD⁺/gluconeogenesis, ↓ IGF-1 both sexes. Human: Finnish rs117385980 male longevity; centenarian SIRT6 variant (genome stability).</li>
+            <li><strong>Autophagy wiring:</strong> males basal Beclin-1/LC3↑, canonical Beclin-1→LC3-II→p62↓ post-stroke; females ATG7 Beclin-1-independent; male neurons autophagy-prone under starvation (Du 2009). No E2→SIRT3/SOD2-style induction — a set-point difference, not a switch.</li>
+          </ul>
+        </div>
+
+        <div class="node-card span2 slate" style="border-top-color:var(--slate)">
+          <h3>Joint coverage — the five nodes span the hub’s territory</h3>
+          <div class="role">Same map · different roads</div>
+          <ul>
+            <li><strong>Sirtuins/redox:</strong> hub induces SIRT1/SIRT3/SOD2; mesh tunes SIRT6→IGF-1 and SIRT1↔AR (K630 deacetylation) / SIRT7→AR→autophagy — modulation, not induction.</li>
+            <li><strong>Inflammation:</strong> hub brakes via IκBα→NF-κB↓ and HDAC3→STING↓; mesh brakes via AR→NF-κB/USP18 T-cell suppression — and loses the brake when inflammaging suppresses T (bidirectional).</li>
+            <li><strong>Genome:</strong> hub stabilizes PARP-1/TERT/p53; mesh gambles — single-X removes backup, LOY removes the paralog rescue, PARP-1/AIF converts damage into the male death program.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4 TEMPORAL ==================== -->
+    <section id="time">
+      <p class="sec-label">Dynamics</p>
+      <h2>Two clocks: one cliff vs gradual + clonal erosion</h2>
+      <p class="drop">
+        Architecture becomes destiny over time. The hub produces a <strong>step function</strong>:
+        protection is flat, then menopause withdraws all nine arms at once. The mesh produces
+        <strong>three superimposed curves that never synchronize</strong>: testosterone slides
+        gradually (LOH), LOY clones expand exponentially from ~60y (the structural mirror of the
+        estrogen cliff), and single-X/PARP-1 are lifelong background conditions discharged by acute events.
+      </p>
+
+      <div class="fig">
+        <p class="fignum">Fig. 3 · Protection over age: estrogen step-down vs male three-curve erosion (schematic, anchored to cited prevalences)</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 880 640" role="img" aria-label="Two stacked charts on a shared protection scale: female single step-down at menopause on top; male gradual T ramp, exponential LOY rise and flat single-X baseline below.">
+          <!-- ===== TOP: female ===== -->
+          <text x="440" y="32" font-size="13" font-weight="700" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">♀ FEMALE — one curve, one cliff</text>
+          <line x1="80" y1="60" x2="80" y2="250" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <line x1="80" y1="250" x2="840" y2="250" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <text x="30" y="155" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle" transform="rotate(-90 30 155)">PROTECTION →</text>
+          <g font-size="11" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <text x="80" y="268">30</text><text x="207" y="268">40</text><text x="333" y="268">50</text>
+            <text x="460" y="268">60</text><text x="587" y="268">70</text><text x="713" y="268">80</text><text x="840" y="268">90</text>
+          </g>
+          <g font-size="10.5" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="end">
+            <text x="72" y="84">high</text><text x="72" y="159">mid</text><text x="72" y="224">low</text>
+          </g>
+          <g stroke="var(--rule)" stroke-width="1">
+            <line x1="80" y1="80" x2="840" y2="80"/><line x1="80" y1="145" x2="840" y2="145"/><line x1="80" y1="210" x2="840" y2="210"/>
+          </g>
+          <rect x="346" y="60" width="494" height="190" fill="var(--oxblood)" opacity="0.06"/>
+          <path d="M 80 75 L 346 75 L 346 220 L 840 220" fill="none" stroke="var(--oxblood)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="346" cy="75" r="4.5" fill="var(--oxblood)"/>
+          <text x="346" y="58" font-size="12" font-weight="700" fill="var(--oxblood)" text-anchor="middle" font-family="IBM Plex Mono, monospace">menopause ~51</text>
+          <text x="200" y="101" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2 hub · 9 arms</text>
+          <text x="650" y="208" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">post-menopause floor</text>
+          <text x="590" y="238" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">7 arms lost at once (see §2)</text>
+          <line x1="80" y1="292" x2="108" y2="292" stroke="var(--oxblood)" stroke-width="3"/>
+          <text x="114" y="296" font-size="12" fill="var(--ink)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2 protection (step)</text>
+          <!-- ===== BOTTOM: male ===== -->
+          <text x="440" y="332" font-size="13" font-weight="700" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Mono, monospace">♂ MALE — three curves, no cliff</text>
+          <line x1="80" y1="360" x2="80" y2="550" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <line x1="80" y1="550" x2="840" y2="550" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <text x="30" y="455" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle" transform="rotate(-90 30 455)">PROTECTION →</text>
+          <g font-size="11" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <text x="80" y="568">30</text><text x="207" y="568">40</text><text x="333" y="568">50</text>
+            <text x="460" y="568">60</text><text x="587" y="568">70</text><text x="713" y="568">80</text><text x="840" y="568">90</text>
+          </g>
+          <g font-size="10.5" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="end">
+            <text x="72" y="394">high</text><text x="72" y="459">mid</text><text x="72" y="524">low</text>
+          </g>
+          <g stroke="var(--rule)" stroke-width="1">
+            <line x1="80" y1="390" x2="840" y2="390"/><line x1="80" y1="455" x2="840" y2="455"/>
+          </g>
+          <path d="M 460 538 C 540 534, 590 515, 640 480 C 690 445, 750 400, 840 370 L 840 550 L 460 550 Z" fill="var(--red)" opacity="0.10"/>
+          <!-- T ramp -->
+          <path d="M 80 390 C 200 392, 260 400, 340 412 C 460 432, 600 465, 720 490 C 780 503, 820 508, 840 510" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round"/>
+          <text x="600" y="449" font-size="12" fill="var(--teal)" font-family="IBM Plex Mono, monospace" text-anchor="middle"><tspan font-size="14">♂</tspan> T→AR · gradual LOH</text>
+          <text x="207" y="379" font-size="12" fill="var(--teal)" font-family="IBM Plex Mono, monospace" text-anchor="middle">~40y slide begins</text>
+          <!-- LOY exponential -->
+          <path d="M 460 538 C 540 534, 590 515, 640 480 C 690 445, 750 400, 840 370" fill="none" stroke="var(--red)" stroke-width="3" stroke-dasharray="8 4" stroke-linecap="round"/>
+          <text x="700" y="412" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle"><tspan font-size="14">♂</tspan> mLOY burden</text>
+          <text x="700" y="426" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">(pathogenic ↑)</text>
+          <text x="587" y="502" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">40% @70y</text>
+          <text x="790" y="371" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">57% @93y</text>
+          <!-- single-X flat -->
+          <line x1="80" y1="528" x2="840" y2="528" stroke="var(--slate)" stroke-width="1.4" stroke-dasharray="2 4" opacity="0.8"/>
+          <text x="250" y="508" font-size="12" fill="var(--slate)" font-family="IBM Plex Mono, monospace" text-anchor="middle"><tspan font-size="14">♂</tspan> single-X · lifelong deficit</text>
+          <!-- legend -->
+          <g font-size="12" font-family="IBM Plex Mono, monospace">
+            <line x1="80" y1="592" x2="108" y2="592" stroke="var(--teal)" stroke-width="3"/><text x="114" y="596" fill="var(--ink)">♂ T→AR drive (ramp)</text>
+            <line x1="285" y1="592" x2="313" y2="592" stroke="var(--red)" stroke-width="3" stroke-dasharray="8 4"/><text x="319" y="596" fill="var(--ink)">♂ mLOY burden (exponential)</text>
+            <line x1="534" y1="592" x2="562" y2="592" stroke="var(--slate)" stroke-width="1.4" stroke-dasharray="2 4"/><text x="568" y="596" fill="var(--ink)">♂ single-X (flat)</text>
+          </g>
+          <text x="440" y="624" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">same protection scale as ♀ panel</text>
+        </svg>
+        </div>
+        <p class="cap"><strong>The LOY cliff is the structural mirror of the estrogen cliff</strong> — exponential from 60y, not stepwise at 51y — but with opposite valence: a pathogenic clone <em>gained</em> with age rather than a protective hub <em>lost</em> at menopause. Note the curves never synchronize: that asynchrony <em>is</em> the absence of a male cliff. Key: ♀ = female trajectory (oxblood); ♂ = male trajectories (teal/red/slate).</p>
+      </div>
+
+      <div class="callout slate">
+        <p><strong>Temporal summary.</strong> E2→ER: cliff at menopause (~51y). T→AR: gradual LOH from ~40s, bidirectional with inflammaging (GDF-15 strongest mediator). mLOY: exponential 60y+ (40% @70y, 57% @93y). Single-X: lifelong, compounded when LOY deletes the Y-paralog backup. PARP-1/AIF: acute, event-driven (stroke/trauma). SIRT6/IGF-1: lifelong set-point.</p>
+      </div>
+    </section>
+
+    <!-- ==================== 5 DEATH SWITCH ==================== -->
+    <section id="death">
+      <p class="sec-label">Execution</p>
+      <h2>The death-mode switch: same insult, different program</h2>
+      <p>
+        The executioner node is where the topology difference becomes a therapeutic decision.
+        After ischemic injury, male neurons default to <strong>PARP-1 → NAD⁺ depletion → AIF nuclear
+        translocation → 50-kbp fragmentation</strong> (parthanatos), while female neurons default to
+        <strong>cytochrome-C → caspase-9 → caspase-3</strong>. The knockout experiment proves the
+        switch is load-bearing: deleting PARP-1 <em>protects</em> males and <em>harms</em> OVX females,
+        shunting them harder into the caspase route.
+      </p>
+
+      <div class="fig">
+        <p class="fignum">Fig. 4 · PARP-1 KO infarct volumes by sex (McCullough 2005; Liu Stroke 2011) + pathway schematic</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 880 330" role="img" aria-label="Bar chart: PARP-1 knockout reduces infarct in males but increases it in ovariectomized females; pathway diagram of parthanatos versus caspase apoptosis.">
+          <!-- bars -->
+          <text x="210" y="24" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">Infarct volume (% hemisphere)</text>
+          <line x1="60" y1="40" x2="60" y2="240" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <line x1="60" y1="240" x2="400" y2="240" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <g font-size="12" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="end">
+            <text x="54" y="243">0</text><text x="54" y="193">20</text><text x="54" y="143">40</text><text x="54" y="93">60</text>
+          </g>
+          <!-- male WT 38.4 -->
+          <rect x="90" y="142" width="56" height="98" fill="var(--slate)" opacity="0.85"/>
+          <text x="118" y="134" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">38.4</text>
+          <text x="118" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♂ WT</text>
+          <!-- male KO 19.7 -->
+          <rect x="156" y="190" width="56" height="50" fill="var(--teal)"/>
+          <text x="184" y="182" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">19.7</text>
+          <text x="184" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♂ KO ✓</text>
+          <!-- female WT 36.0 -->
+          <rect x="246" y="148" width="56" height="92" fill="var(--slate)" opacity="0.85"/>
+          <text x="274" y="140" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">36.0</text>
+          <text x="274" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♀OVX WT</text>
+          <!-- female KO 52.2 -->
+          <rect x="312" y="107" width="56" height="133" fill="var(--red)"/>
+          <text x="340" y="99" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">52.2</text>
+          <text x="340" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♀OVX KO ✗</text>
+          <text x="230" y="276" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">PARP-1 deletion: protects males</text>
+          <text x="230" y="290" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">exacerbates OVX females</text>
+          <text x="230" y="305" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">Q-VD-OPh (caspase inhibitor) protects females only</text>
+
+          <!-- divider -->
+          <line x1="420" y1="20" x2="420" y2="310" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
+
+          <!-- pathways -->
+          <text x="650" y="24" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">Two default programs</text>
+          <!-- male path -->
+          <rect x="450" y="44" width="190" height="220" fill="var(--amber-soft)" stroke="var(--gold)" stroke-width="1.2"/>
+          <text x="545" y="64" font-size="12" font-weight="700" text-anchor="middle" fill="var(--gold)" font-family="IBM Plex Mono, monospace">MALE · PARTHANATOS</text>
+          <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" fill="var(--ink)">
+            <rect x="475" y="76" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="93">nNOS ↑</text>
+            <text x="545" y="112" fill="var(--gold)">▼</text>
+            <rect x="475" y="116" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="133">PARP-1 overactiv.</text>
+            <text x="545" y="152" fill="var(--gold)">▼</text>
+            <rect x="475" y="156" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="173">NAD⁺ depletion</text>
+            <text x="545" y="192" fill="var(--gold)">▼</text>
+            <rect x="475" y="196" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="213">AIF → nucleus</text>
+            <text x="545" y="232" fill="var(--gold)">▼</text>
+            <rect x="475" y="236" width="140" height="26" fill="var(--sheet)" stroke="var(--gold)" stroke-width="1.6"/><text x="545" y="253">50-kbp fragments</text>
+          </g>
+          <!-- female path -->
+          <rect x="660" y="44" width="190" height="220" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.2"/>
+          <text x="755" y="64" font-size="12" font-weight="700" text-anchor="middle" fill="var(--teal)" font-family="IBM Plex Mono, monospace">FEMALE · CASPASE</text>
+          <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" fill="var(--ink)">
+            <rect x="685" y="76" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="93">cytochrome-C</text>
+            <text x="755" y="112" fill="var(--teal)">▼</text>
+            <rect x="685" y="116" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="133">caspase-9</text>
+            <text x="755" y="152" fill="var(--teal)">▼</text>
+            <rect x="685" y="156" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="173">caspase-3</text>
+            <text x="755" y="192" fill="var(--teal)">▼</text>
+            <rect x="685" y="196" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="213">DNA ladder</text>
+            <text x="755" y="232" fill="var(--teal)">▼</text>
+            <rect x="685" y="236" width="140" height="26" fill="var(--sheet)" stroke="var(--teal)" stroke-width="1.6"/><text x="755" y="253">apoptotic bodies</text>
+          </g>
+          <text x="650" y="286" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">Cell-autonomous: persists in hormone-free media,</text>
+          <text x="650" y="302" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">prepubertal animals — not just circulating hormones</text>
+        </svg>
+        </div>
+        <p class="cap"><strong>How to read it.</strong> The bars are the proof that the two programs are genuinely sex-divergent (same deletion, opposite outcome). The cascades show why: PARP-1 sits <em>upstream</em> of the male death route but <em>parallel</em> to the female one — deleting it removes the male weapon while forcing females onto their backup weapon. Therapeutic corollary: PARP inhibitors male-leaning, caspase inhibitors female-leaning.</p>
+      </div>
+    </section>
+
+    <!-- ==================== 6 TABLE ==================== -->
+    <section id="table">
+      <p class="sec-label">Synthesis</p>
+      <h2>Comparison table — hub vs five nodes</h2>
+      <p>Filter by keyword, or highlight an axis (protection, pathogenesis, timing, death-mode).</p>
+
+      <div class="toolbar" role="search" aria-label="Table controls">
+        <div class="row">
+          <input type="search" id="q" placeholder="Filter — e.g. NF-kB, LOY, NAD+, IGF-1, cliff…" aria-label="Filter table">
+          <select id="hl" aria-label="Highlight mode">
+            <option value="">Highlight: off</option>
+            <option value="hl-prot">Protection wiring</option>
+            <option value="hl-path">Pathogenesis</option>
+            <option value="hl-time">Temporal dynamics</option>
+            <option value="hl-death">Death-mode / NAD⁺</option>
+          </select>
+          <span class="count" id="count">6 systems · 6 features</span>
+        </div>
+      </div>
+
+      <div class="table-wrap" id="tblwrap">
+        <table id="toptbl" aria-label="Distributed male nodes versus centralized estrogen hub">
+          <thead>
+            <tr>
+              <th scope="col">System</th>
+              <th scope="col">Coverage</th>
+              <th scope="col">Role</th>
+              <th scope="col">Temporal</th>
+              <th scope="col">Valence</th>
+              <th scope="col">Key evidence</th>
+              <th scope="col">Vault status</th>
+            </tr>
+          </thead>
+          <tbody class="hub">
+            <tr data-sys="hub">
+              <th scope="row"><span class="pill hub">hub</span><br><b>E2→ER</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">centralized · female</span></th>
+              <td data-hl="prot">9 pathways: SIRT1, SIRT3, SOD2, Bcl-2, NF-κB/IκBα, STING/HDAC3, PARP-1, TERT, p53</td>
+              <td data-hl="prot">protective center — single upstream switch for redox, inflammation, genome stability</td>
+              <td data-hl="time">cliff at menopause (~51y): all nine arms derepress simultaneously</td>
+              <td data-hl="prot">protective; withdrawal is the pathology</td>
+              <td>02_SEP_2026 Part IX synthesis; E2→Bcl-2 neuroprotection (Dubal 1999); ER→MBOAT1 ferroptosis gate (Cell 2023)</td>
+              <td>well enriched ([[Estrogen]])</td>
+            </tr>
+          </tbody>
+          <tbody class="mesh">
+            <tr data-sys="ar">
+              <th scope="row"><span class="pill prot">drive</span><br><b>T→AR</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">male</span></th>
+              <td data-hl="prot">muscle/bone/erythropoiesis; NF-κB suppression; PI3K→Akt→mTOR; T-cell suppression (USP18, IL-10)</td>
+              <td data-hl="prot">anabolic + immune drive; narrower per-node than E2; pro-cancer in prostate/liver/melanoma</td>
+              <td data-hl="time">gradual LOH from ~40s; bidirectional — inflammaging (IL-6, GDF-15) suppresses T</td>
+              <td data-hl="prot">anabolic/protective ↔ pathogenic (context)</td>
+              <td data-hl="">Basualto-Alarcón 2013 (3.5× p-S6K1); White 2013 (Akt/mTORC1/FoxO3a); UKB n=18,347 GDF-15 mediation; AR→MBOAT2 (Cell 2023)</td>
+              <td>[[Testosterone]] Sex Differences added 2026-09-05; [[Androgen Receptor]] hub added</td>
+            </tr>
+            <tr data-sys="loy">
+              <th scope="row"><span class="pill path">accelerator</span><br><b>mLOY</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">male-only</span></th>
+              <td data-hl="path">fibrosis (heart/lung/kidney), immunity (~500 genes, T exhaustion), cancer immune evasion, CVD, AD, CKD</td>
+              <td data-hl="path">systems-accelerator — broadest single male node, opposite valence to E2</td>
+              <td data-hl="time">exponential 60y+ — the LOY cliff: 40% @70y → 57% @93y</td>
+              <td data-hl="path">pathogenic gain (clone acquired with age)</td>
+              <td data-hl="">Sano Science 2022 (causal, TGFβ1 rescue); Forsberg 2014 (HR 1.91); LURIC 2025 (fatal-MI HR 2.65); Abdel-Hafiz Nature 2023</td>
+              <td>[[Loss of Y Chromosome]] created 2026-09-05</td>
+            </tr>
+            <tr data-sys="sx">
+              <th scope="row"><span class="pill struct">structure</span><br><b>Single-X</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">male-only</span></th>
+              <td data-hl="path">cancer via 6 EXITS tumor suppressors (ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, MAGEC3)</td>
+              <td data-hl="path">no biallelic backup; weak Y-paralog rescue (UTY, DDX3Y) that LOY deletes</td>
+              <td data-hl="time">lifelong; compounded by LOY with age</td>
+              <td data-hl="path">structural deficit (never had redundancy)</td>
+              <td data-hl="">Dunford Nat Genet 2017 (zero autosomal/PAR equivalent)</td>
+              <td>[[UTY]] / [[EXITS]] present</td>
+            </tr>
+            <tr data-sys="parp">
+              <th scope="row"><span class="pill exec">execution</span><br><b>PARP-1/AIF</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">male-dominant</span></th>
+              <td data-hl="death">death-mode choice + NAD⁺ consumption (links male NAD⁺ decline)</td>
+              <td data-hl="death">male-dominant execution program (parthanatos); female backup is caspase</td>
+              <td data-hl="time">acute stress (stroke/trauma); cell-autonomous, prepubertal</td>
+              <td data-hl="death">executioner — downstream by position, load-bearing by function</td>
+              <td data-hl="death">McCullough 2005; Liu Stroke 2011 (KO ♂ 19.7 vs 38.4; KO ♀OVX 52.2 vs 36.0); PJ34 male-leaning benefit</td>
+              <td>in [[Apoptosis]] / [[NAD+]]</td>
+            </tr>
+            <tr data-sys="sirt6">
+              <th scope="row"><span class="pill growth">growth</span><br><b>SIRT6/IGF-1/mTOR</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">male-leaning</span></th>
+              <td data-hl="prot">longevity, growth, canonical autophagy (Beclin-1→LC3-II→p62↓), mTORC1 output</td>
+              <td data-hl="prot">male-leaning set-point of the shared anabolic axis — modulation, not induction</td>
+              <td data-hl="time">lifelong wiring; male-fasted p70S6K1↑ vs female-fed↑</td>
+              <td data-hl="prot">longevity-leaning in males</td>
+              <td data-hl="">Kanfi Nature 2012 (♂ +14.5% median); Roichman 2021 (both sexes, male-stronger); Finnish rs117385980 male longevity</td>
+              <td>in [[SIRT6]] / [[mTORC1]] / [[Autophagy]]</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ==================== 7 REFS ==================== -->
+    <section id="refs">
+      <p class="sec-label">Sources</p>
+      <h2>Key references</h2>
+      <ol class="refs">
+        <li>Kanfi et al. The sirtuin SIRT6 regulates lifespan in male mice. <em>Nature</em>. 2012;483:218–221. (male +14.5% median)</li>
+        <li>Roichman et al. SIRT6 overexpression extends both sexes, male-stronger. <em>Nat Commun</em>. 2021;12:3208.</li>
+        <li>McCullough et al. PARP-1 male toxicity / female protection. <em>J Cereb Blood Flow Metab</em>. 2005.</li>
+        <li>Liu et al. PARP-1 deletion / caspase inhibition sex divergence. <em>Stroke</em>. 2011;42:739–745 (PMC3066270).</li>
+        <li>Sano et al. Hematopoietic LOY → fibrosis / heart failure (causal, TGFβ1 rescue). <em>Science</em>. 2022 (abn3100).</li>
+        <li>Forsberg et al. LOY mortality / cancer. <em>Nat Genet</em>. 2014;46:624–628. (HR 1.91)</li>
+        <li>Thompson et al. Genetic predisposition to LOY. <em>Nature</em>. 2019;575:652–657. (40% @70y, 57% @93y)</li>
+        <li>Abdel-Hafiz et al. Y loss → immune evasion / bladder cancer. <em>Nature</em>. 2023;619:624–631.</li>
+        <li>Dunford et al. EXITS genes — female biallelic protection. <em>Nat Genet</em>. 2017.</li>
+        <li>Basualto-Alarcón et al. T → mTOR/AR hypertrophy (3.5× p-S6K1). <em>Med Sci Sports Exerc</em>. 2013.</li>
+        <li>White et al. T regulation of Akt/mTORC1/FoxO3a. <em>Mol Cell Endocrinol</em>. 2013;365:174–186.</li>
+        <li>Biogerontology 2023 review — male sex hormones, aging, inflammation. (PMC9810526)</li>
+        <li>Muehlenbein et al. Inflammaging mediates T decline (UKB n=18,347). 2026 preprint.</li>
+        <li>Zhang et al. Androgen → USP18 → NF-κB T-cell suppression. <em>Cancer Cell</em>. 2023 (PMID 36634207).</li>
+        <li>Guan et al. AR in T cells limits checkpoint blockade. <em>Nature</em>. 2022;606:791–796.</li>
+        <li>Liang et al. LOY → senescent clearance / renal disease. <em>Sci Transl Med</em>. 2025.</li>
+        <li>LURIC 2025 — LOY&gt;17%: CV mortality HR 1.49, fatal MI 2.65.</li>
+        <li>Gardner 2014 — testosterone unfavorable for telomeres (oxidative damage).</li>
+      </ol>
+
+      <div class="page-footer">
+        <p>Built from vault data: <code>src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md</code> · companion audit <code>src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md</code> (Parts II, IX) · vault notes <code>Testosterone / Loss of Y Chromosome / Androgen Receptor / Estrogen / SIRT6 / mTORC1 / Apoptosis / NAD+ / Telomere / Ferroptosis</code></p>
+        <p style="margin-top:6px;">Generated by <a href="https://graph.johnnykuo.com">llm-wiki-jk</a> · Educational synthesis, not medical advice.</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+"use strict";
+(function(){
+  var q = document.getElementById('q'), hl = document.getElementById('hl'),
+      wrap = document.getElementById('tblwrap'), tbl = document.getElementById('toptbl'),
+      count = document.getElementById('count');
+  function stripe(tag){ return tag.replace(/[^\w+²⁻→\/-]+/g,' ').trim(); }
+  function apply(){
+    var needle = (q.value||'').toLowerCase().trim(), vis = 0;
+    var rows = [];
+    for (var b=0;b<tbl.tBodies.length;b++){ var rr=tbl.tBodies[b].rows; for (var j=0;j<rr.length;j++) rows.push(rr[j]); }
+    for (var i=0;i<rows.length;i++){
+      var r = rows[i], txt = r.textContent.toLowerCase();
+      var show = !needle || txt.indexOf(needle) > -1;
+      r.classList.toggle('row-hidden', !show);
+      if (show) vis++;
+      r.querySelectorAll('td').forEach(function(td){
+        td.querySelectorAll('mark').forEach(function(m){ m.replaceWith(document.createTextNode(m.textContent)); });
+        if (needle && show){
+          var node = Array.prototype.find.call(td.childNodes, function(n){ return n.nodeType===3 && n.textContent.toLowerCase().indexOf(needle)>-1; });
+          if (node){
+            var idx = node.textContent.toLowerCase().indexOf(needle), rng = document.createRange();
+            rng.setStart(node, idx); rng.setEnd(node, idx+needle.length);
+            var mk = document.createElement('mark'); rng.surroundContents(mk);
+          }
+        }
+      });
+    }
+    count.textContent = vis + ' systems · 6 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
+  }
+  q.addEventListener('input', apply);
+  hl.addEventListener('change', function(){
+    wrap.classList.remove('hl-prot','hl-path','hl-time','hl-death');
+    if (hl.value) wrap.classList.add(hl.value);
+  });
+  apply();
+})();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
+     data table, with PNG + TSV export (shared theme-02/pages-svg.js). -->
+<script src="../themes/theme-02/pages-svg.js"></script>
+
+</body>
+</html>

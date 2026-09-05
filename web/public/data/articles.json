@@ -322,5 +322,23 @@
                 "updated": "2026-09-03"
             }
         }
+    },
+    {
+        "id": "male-distributed-topology-vs-estrogen-hub",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Male Distributed Topology vs the Centralized Estrogen Hub",
+                "path": "pages/en-US/male-distributed-topology-vs-estrogen-hub.html",
+                "created": "2026-09-05",
+                "updated": "2026-09-05"
+            },
+            "zh-TW": {
+                "title": "男性分散式拓撲 vs 集中式雌激素樞紐",
+                "path": "pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html",
+                "created": "2026-09-05",
+                "updated": "2026-09-05"
+            }
+        }
     }
 ]
