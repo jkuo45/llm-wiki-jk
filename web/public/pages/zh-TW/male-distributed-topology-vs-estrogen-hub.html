@@ -33,6 +33,7 @@
   .fig{ background:var(--sheet); border:1px solid var(--rule); padding:16px 18px 12px; margin:18px 0; }
   .fig svg{ width:100%; height:auto; display:block; }
   .fig .cap{ font-size:.82rem; color:var(--mute); margin:10px 2px 2px; line-height:1.55; }
+  .fig > figcaption.cap{ padding:0; } /* neutralize theme figcaption padding: PNG export reads this live style */
   .fig .cap strong{ color:var(--ink-soft); }
   .fig .fignum{ font-family:var(--mono); font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--faint); margin:0 0 8px; }
   .callout{ background:color-mix(in srgb, var(--oxblood) 6%, var(--paper)); border-left:3px solid var(--oxblood); padding:14px 16px; margin:18px 0; font-size:.9rem; line-height:1.6; }
@@ -159,7 +160,7 @@
         NF-κB、端粒、癌症——但架構不同：主動型<em>與</em>缺失型並存，合成代謝<em>與</em>致病並存。失效是局部且非同步的，絕不同時且全身性。
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">圖1 · 兩種架構並列</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 880 420" role="img" aria-label="左：集中式雌激素樞紐，一個中心九條輻條。右：分散式男性五節點網格，中央中空。">
@@ -168,29 +169,29 @@
           <text x="220" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">單一中心 · 九條輻條 · 一次斷崖</text>
           <!-- spokes -->
           <g stroke="var(--oxblood)" stroke-width="1.6" opacity="0.75">
-            <line x1="220" y1="210" x2="220" y2="80"/><line x1="220" y1="210" x2="323" y2="109"/>
+            <line x1="220" y1="210" x2="220" y2="84"/><line x1="220" y1="210" x2="323" y2="109"/>
             <line x1="220" y1="210" x2="363" y2="180"/><line x1="220" y1="210" x2="363" y2="257"/>
-            <line x1="220" y1="210" x2="323" y2="328"/><line x1="220" y1="210" x2="220" y2="357"/>
+            <line x1="220" y1="210" x2="323" y2="328"/><line x1="220" y1="210" x2="220" y2="353"/>
             <line x1="220" y1="210" x2="117" y2="328"/><line x1="220" y1="210" x2="77" y2="257"/>
             <line x1="220" y1="210" x2="77" y2="180"/>
           </g>
           <!-- spoke nodes -->
           <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace">
-            <circle cx="220" cy="80" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="77" fill="var(--ink)">SIRT1</text><text x="220" y="89" font-size="9.5" fill="var(--mute)">轉錄↑</text>
-            <circle cx="323" cy="109" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="106" fill="var(--ink)">SIRT3</text><text x="323" y="118" font-size="9.5" fill="var(--mute)">粒線體↑</text>
-            <circle cx="363" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="177" fill="var(--ink)">SOD2</text><text x="363" y="189" font-size="9.5" fill="var(--mute)">蛋白↑</text>
-            <circle cx="363" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="254" fill="var(--ink)">Bcl-2</text><text x="363" y="266" font-size="9.5" fill="var(--mute)">神經↑</text>
-            <circle cx="323" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="325" fill="var(--ink)">IκBα</text><text x="323" y="337" font-size="9.5" fill="var(--mute)">NF-κB↓</text>
-            <circle cx="220" cy="357" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="350" fill="var(--ink)">STING</text><text x="220" y="362" font-size="9.5" fill="var(--mute)">經由</text><text x="220" y="374" font-size="9.5" fill="var(--mute)">HDAC3↓</text>
-            <circle cx="117" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="117" y="325" fill="var(--ink)">PARP-1</text><text x="117" y="337" font-size="9.5" fill="var(--mute)">穩定化</text>
-            <circle cx="77" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="254" fill="var(--ink)">TERT</text><text x="77" y="266" font-size="9.5" fill="var(--mute)">端粒↑</text>
-            <circle cx="77" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="177" fill="var(--ink)">p53</text><text x="77" y="189" font-size="9.5" fill="var(--mute)">雙重調控</text>
+            <circle cx="220" cy="84" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="82" font-size="14" font-weight="700" fill="var(--ink)">SIRT1</text><text x="220" y="94" font-size="11" fill="var(--ink-soft)">轉錄↑</text>
+            <circle cx="323" cy="109" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="107" font-size="14" font-weight="700" fill="var(--ink)">SIRT3</text><text x="323" y="119" font-size="11" fill="var(--ink-soft)">粒線體↑</text>
+            <circle cx="363" cy="180" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="178" font-size="14" font-weight="700" fill="var(--ink)">SOD2</text><text x="363" y="190" font-size="11" fill="var(--ink-soft)">蛋白↑</text>
+            <circle cx="363" cy="257" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="255" font-size="14" font-weight="700" fill="var(--ink)">Bcl-2</text><text x="363" y="267" font-size="11" fill="var(--ink-soft)">神經↑</text>
+            <circle cx="323" cy="328" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="326" font-size="14" font-weight="700" fill="var(--ink)">IκBα</text><text x="323" y="338" font-size="11" fill="var(--ink-soft)">NF-κB↓</text>
+            <circle cx="220" cy="353" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="347" font-size="14" font-weight="700" fill="var(--ink)">STING</text><text x="220" y="359" font-size="11" fill="var(--ink-soft)">經由</text><text x="220" y="371" font-size="11" fill="var(--ink-soft)">HDAC3↓</text>
+            <circle cx="117" cy="328" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="117" y="326" font-size="14" font-weight="700" fill="var(--ink)">PARP-1</text><text x="117" y="338" font-size="11" fill="var(--ink-soft)">穩定化</text>
+            <circle cx="77" cy="257" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="255" font-size="14" font-weight="700" fill="var(--ink)">TERT</text><text x="77" y="267" font-size="11" fill="var(--ink-soft)">端粒↑</text>
+            <circle cx="77" cy="180" r="36" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="178" font-size="14" font-weight="700" fill="var(--ink)">p53</text><text x="77" y="190" font-size="11" fill="var(--ink-soft)">雙重調控</text>
           </g>
           <!-- center -->
           <circle cx="220" cy="210" r="46" fill="var(--oxblood)"/>
           <text x="220" y="204" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
           <text x="220" y="221" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">主要調控者</text>
-          <text x="220" y="402" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經：九條臂同時去抑制</text>
+          <text x="220" y="405" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經：九條臂同時去抑制</text>
 
           <!-- divider -->
           <line x1="440" y1="20" x2="440" y2="390" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
@@ -234,8 +235,8 @@
           <text x="660" y="402" font-size="10.5" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Mono, monospace">老化：漸進 ＋ 株系擴張 ＋ 結構 ＋ 陣發</text>
         </svg>
         </div>
-        <p class="cap"><strong>閱讀方法。</strong>左側：每條保護臂都經過同一個樞紐，因此一次撤除事件拖垮全部。右側：五個男性節點彼此相連（共享版圖——NF-κB、mTOR、NAD⁺、自噬），但沒有東西經過中間；每個節點按自己的時程失效（§4）。這就是整套模型的一張圖版本。</p>
-      </div>
+        <figcaption class="cap"><strong>閱讀方法。</strong>左側：每條保護臂都經過同一個樞紐，因此一次撤除事件拖垮全部。右側：五個男性節點彼此相連（共享版圖——NF-κB、mTOR、NAD⁺、自噬），但沒有東西經過中間；每個節點按自己的時程失效（§4）。</figcaption>
+      </figure>
 
       <div class="callout">
         <p><strong>沒有任何單一男性因子能涵蓋樞紐的廣度——而這正是重點。</strong>睪固酮→AR每個節點較窄（無SIRT3/SOD2/TERT/STING對等物），與發炎雙向互動，在前列腺／肝／黑色素瘤中促癌，且逐漸下降（LOH）而非斷崖式。</p>
@@ -252,7 +253,7 @@
         因為九條臂共享同一個上游開關，<strong>停經撤除會同時去抑制全部九條</strong>——這是男性所沒有的系統級事件。
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">圖2 · 九條雌激素臂及其支撐的功能</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 920 380" role="img" aria-label="雌激素樞紐扇出三個面板：sirtuin與氧化還原、發炎與死亡、基因體穩定，各三條臂。">
@@ -306,21 +307,18 @@
           </g>
         </svg>
         </div>
-        <p class="cap"><strong>為何分組：</strong>男性網格以不同接線涵蓋相同三個版圖——sirtuin版圖用SIRT6（而非SIRT1/3誘導），發炎版圖用AR→NF-κB抑制，基因體版圖用單一X/LOY/PARP-1。相同地圖，不同道路。</p>
-      </div>
+        <figcaption class="cap"><strong>為何分組：</strong>男性網格以不同接線涵蓋相同三個版圖——sirtuin版圖用SIRT6（而非SIRT1/3誘導），發炎版圖用AR→NF-κB抑制，基因體版圖用單一X/LOY/PARP-1。相同地圖，不同道路。</figcaption>
+      </figure>
 
-      <div class="callout">
-        <p style="margin:0 0 6px;"><strong>停經時，E2撤除同時：</strong></p>
-        <ul style="margin:0; padding-left:20px; line-height:1.75;">
-          <li>移除SIRT1/3轉錄支持 → 粒線體功能障礙</li>
-          <li>移除SOD2上調 → 氧化壓力上升</li>
-          <li>移除NF-κB抑制 → 發炎老化加速</li>
-          <li>移除STING抑制 → cGAS-STING活化</li>
-          <li>移除PARP-1穩定 → NAD⁺耗竭加速</li>
-          <li>移除端粒酶活化 → 端粒耗損加速</li>
-          <li>移除Bcl-2神經保護 → 神經元脆弱性上升</li>
-        </ul>
-      </div>
+      <p><strong>停經時，E2撤除同時：</strong></p>
+      <pre><code>移除SIRT1/3轉錄支持 → 粒線體功能障礙 <span style="color:var(--red)">[2臂：SIRT1 + SIRT3]</span>
+移除SOD2上調 → 氧化壓力上升
+移除NF-κB抑制 → 發炎老化加速
+移除STING抑制 → cGAS-STING活化
+移除PARP-1穩定 → NAD⁺耗竭加速
+移除端粒酶活化 → 端粒耗損加速
+移除Bcl-2神經保護 → 神經元脆弱性上升
+移除p53雙重調控 → DNA損傷反應失調</code></pre>
     </section>
 
     <!-- ==================== 3 NODES ==================== -->
@@ -411,7 +409,7 @@
         架構成為命運，隨時間展開。樞紐產生<strong>階梯函數</strong>：保護力平坦，停經一次撤除九條臂。網格產生<strong>三條永不同步的疊加曲線</strong>：睪固酮漸滑（LOH），LOY株系自~60歲指數擴張（雌激素斷崖的結構鏡像），單一X／PARP-1則是終身背景條件，由急性事件引爆。
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">圖3 · 隨年齡的保護力：雌激素階梯下降 vs 男性三曲線侵蝕（示意，按引用盛行率錨定）</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 880 640" role="img" aria-label="上下並排兩圖，共享保護力量表：上為女性停經單次階梯下降；下為男性T緩坡、LOY指數上升與單一X平線。">
@@ -436,7 +434,7 @@
           <text x="346" y="58" font-size="12" font-weight="700" fill="var(--oxblood)" text-anchor="middle" font-family="IBM Plex Mono, monospace">停經 ~51歲</text>
           <text x="200" y="101" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2樞紐 · 九條臂</text>
           <text x="650" y="208" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經後低原</text>
-          <text x="590" y="238" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">七條臂同時喪失（見§2）</text>
+          <text x="590" y="238" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">九條臂同時喪失（見§2）</text>
           <line x1="80" y1="292" x2="108" y2="292" stroke="var(--oxblood)" stroke-width="3"/>
           <text x="114" y="296" font-size="12" fill="var(--ink)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2保護（階梯）</text>
           <!-- ===== BOTTOM: male ===== -->
@@ -477,8 +475,8 @@
           <text x="440" y="624" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">與♀圖相同保護力量表</text>
         </svg>
         </div>
-        <p class="cap"><strong>LOY斷崖是雌激素斷崖的結構鏡像</strong>——60歲後指數上升，而非51歲階梯式——但效價相反：隨年齡獲得的致病株系，而非停經失去的保護樞紐。注意曲線永不同步：這種非同步本身就是「無男性斷崖」。圖例：♀＝女性軌跡（深紅）；♂＝男性軌跡（青綠／紅／灰）。</p>
-      </div>
+        <figcaption class="cap"><strong>LOY斷崖是雌激素斷崖的結構鏡像</strong>——60歲後指數上升，而非51歲階梯式——但效價相反：隨年齡獲得的致病株系，而非停經失去的保護樞紐。注意曲線永不同步：這種非同步本身就是「無男性斷崖」。圖例：♀＝女性軌跡（深紅）；♂＝男性軌跡（青綠／紅／灰）。</figcaption>
+      </figure>
 
       <div class="callout slate">
         <p><strong>時程總結。</strong>E2→ER：停經斷崖（~51歲）。T→AR：~40歲起漸進性LOH，與發炎老化雙向互動（GDF-15為最強介導者）。mLOY：60歲後指數上升（70歲40％，93歲57％）。單一X：終身，LOY刪除Y旁系同源備援時加重。PARP-1/AIF：急性、事件驅動（中風／外傷）。SIRT6/IGF-1：終身設定點。</p>
@@ -494,7 +492,7 @@
         缺血損傷後，雄性神經元預設走<strong>PARP-1 → NAD⁺耗竭 → AIF入核 → 50-kbp片段化</strong>（parthanatos），雌性神經元預設走<strong>細胞色素C → caspase-9 → caspase-3</strong>。基因剔除實驗證明該開關舉足輕重：刪除PARP-1<em>保護</em>雄性卻<em>傷害</em>卵巢切除雌性，將其更用力推向caspase路徑。
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">圖4 · PARP-1基因剔除梗塞體積的性別差異（McCullough 2005；Liu Stroke 2011）＋路徑示意</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 880 342" role="img" aria-label="長條圖：PARP-1基因剔除減少雄性梗塞、增加卵巢切除雌性梗塞；parthanatos與caspase凋亡路徑圖。">
@@ -546,25 +544,26 @@
             <rect x="475" y="246" width="140" height="26" fill="var(--sheet)" stroke="var(--gold)" stroke-width="1.6"/><text x="545" y="263">50-kbp片段</text>
           </g>
           <!-- female path -->
-          <rect x="660" y="44" width="190" height="220" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.2"/>
-          <text x="755" y="64" font-size="12" font-weight="700" text-anchor="middle" fill="var(--teal)" font-family="IBM Plex Mono, monospace">雌性 · CASPASE</text>
+          <rect x="660" y="44" width="190" height="232" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.2"/>
+          <text x="755" y="62" font-size="12" font-weight="700" text-anchor="middle" fill="var(--teal)" font-family="IBM Plex Mono, monospace">雌性 · APOPTOSIS</text>
+          <text x="755" y="74" font-size="8.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">細胞色素C / caspase依賴</text>
           <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" fill="var(--ink)">
-            <rect x="685" y="76" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="93">細胞色素C</text>
-            <text x="755" y="112" fill="var(--teal)">▼</text>
-            <rect x="685" y="116" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="133">caspase-9</text>
-            <text x="755" y="152" fill="var(--teal)">▼</text>
-            <rect x="685" y="156" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="173">caspase-3</text>
-            <text x="755" y="192" fill="var(--teal)">▼</text>
-            <rect x="685" y="196" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="213">DNA梯狀片段</text>
-            <text x="755" y="232" fill="var(--teal)">▼</text>
-            <rect x="685" y="236" width="140" height="26" fill="var(--sheet)" stroke="var(--teal)" stroke-width="1.6"/><text x="755" y="253">凋亡小體</text>
+            <rect x="685" y="86" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="103">細胞色素C</text>
+            <text x="755" y="122" fill="var(--teal)">▼</text>
+            <rect x="685" y="126" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="143">caspase-9</text>
+            <text x="755" y="162" fill="var(--teal)">▼</text>
+            <rect x="685" y="166" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="183">caspase-3</text>
+            <text x="755" y="202" fill="var(--teal)">▼</text>
+            <rect x="685" y="206" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="223">DNA梯狀片段</text>
+            <text x="755" y="242" fill="var(--teal)">▼</text>
+            <rect x="685" y="246" width="140" height="26" fill="var(--sheet)" stroke="var(--teal)" stroke-width="1.6"/><text x="755" y="263">凋亡小體</text>
           </g>
           <text x="650" y="296" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">細胞自主性：無激素培養基中依然存在，</text>
           <text x="650" y="312" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">青春期前動物亦然 —— 不只是循環激素差異</text>
         </svg>
         </div>
-        <p class="cap"><strong>閱讀方法。</strong>長條圖證明兩套程序真正性別分歧（同一缺失，相反結果）。級聯圖解釋原因：PARP-1位於男性死亡路徑上游，卻與女性路徑平行——缺失它等於解除男性武器，卻迫使雌性走上備援武器。治療推論：PARP抑制劑偏向男性，caspase抑制劑偏向女性。</p>
-      </div>
+        <figcaption class="cap"><strong>閱讀方法。</strong>長條圖證明兩套程序真正性別分歧（同一缺失，相反結果）。級聯圖解釋原因：PARP-1位於男性死亡路徑上游，卻與女性路徑平行——缺失它等於解除男性武器，卻迫使雌性走上備援武器。治療推論：PARP抑制劑偏向男性，caspase抑制劑偏向女性。</figcaption>
+      </figure>
     </section>
 
     <!-- ==================== 6 TABLE ==================== -->
