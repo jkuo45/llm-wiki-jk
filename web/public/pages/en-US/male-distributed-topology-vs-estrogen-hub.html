@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
 <style>
   :root{
     --teal:#2a9d8f;
@@ -750,6 +751,12 @@
 
 <!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
      data table, with PNG + TSV export (shared theme-02/pages-svg.js). -->
+<script>
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+</script>
 <script src="../themes/theme-02/pages-svg.js"></script>
 
 </body>

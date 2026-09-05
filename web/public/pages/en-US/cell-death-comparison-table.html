@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
 <style>
   /* page-specific only — shared chrome lives in themes/theme-02/theme.css */
   :root{ --wrap: 1400px; }
@@ -60,6 +61,15 @@
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#table">Comparison</a>
+    </div>
+  </div>
+</nav>
 
 <div class="wrap wide">
   <main id="content">
@@ -230,5 +240,16 @@
   apply();
 })();
 </script>
+
+<script>
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every data table,
+     with TSV export (shared theme-02/pages-svg.js). -->
+<script src="../themes/theme-02/pages-svg.js"></script>
 </body>
 </html>

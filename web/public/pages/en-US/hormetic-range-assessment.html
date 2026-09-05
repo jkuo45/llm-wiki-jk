@@ -503,6 +503,7 @@
       </p>
 
       <div class="windows-viz">
+        <div class="copy-host fig-canvas">
         <svg viewBox="0 0 860 250" role="img" aria-label="Protection level over time after a hormetic conditioning dose: early window 1 to 3 hours, unprotected gap roughly 30 minutes to 24 hours, delayed window 12 to 72 hours">
           <!-- window bands -->
           <rect x="70"  y="30" width="150" height="160" fill="var(--teal)"  opacity="0.10"/>
@@ -560,6 +561,7 @@
           <circle cx="70" cy="150" r="4" fill="var(--oxblood)"/>
           <text x="130" y="230" font-size="10" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace" text-anchor="middle" font-weight="600">← hormetic conditioning dose</text>
         </svg>
+        </div>
 
         <div class="windows-cards">
           <div class="win-card early">
@@ -1553,6 +1555,11 @@ updateRadar();
 updateScore();
 renderGuidance();
 bindRadarCopy();
+// Shared theme-02 behaviors: scroll-spy, tooltip, diagram lightbox, nav hint.
+T2.initNav();
+T2.initTooltip();
+T2.initLightbox();
+T2.initNavScrollHint();
 </script>
 
 <!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and

@@ -494,6 +494,7 @@
       </p>
 
       <div class="windows-viz">
+        <div class="copy-host fig-canvas">
         <svg viewBox="0 0 860 250" role="img" aria-label="毒興調節劑量後保護水平隨時間變化圖：早期窗口 1 至 3 小時，無保護間隙約 30 分鐘至 24 小時，延遲窗口 12 至 72 小時">
           <!-- window bands -->
           <rect x="70"  y="30" width="150" height="160" fill="var(--teal)"  opacity="0.10"/>
@@ -551,6 +552,7 @@
           <circle cx="70" cy="150" r="4" fill="var(--oxblood)"/>
           <text x="130" y="230" font-size="10" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace" text-anchor="middle" font-weight="600">← hormetic conditioning dose</text>
         </svg>
+        </div>
 
         <div class="windows-cards">
           <div class="win-card early">
@@ -1521,6 +1523,11 @@ updateRadar();
 updateScore();
 renderGuidance();
 bindRadarCopy();
+// Shared theme-02 behaviors: scroll-spy, tooltip, diagram lightbox, nav hint.
+T2.initNav();
+T2.initTooltip();
+T2.initLightbox();
+T2.initNavScrollHint();
 </script>
 
 <!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
