@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 03_SEP_2026 | 34 | 1760 | 1,125,311 | 10.51 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 03_SEP_2026 | 34 | 1761 | 1,126,418 | 10.54 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 03_SEP_2026 | 19 | 257 | 196,616 | 2.62 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 03_SEP_2026 | 12 | 226 | 181,598 | 1.70 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 03_SEP_2026 | 11 | 278 | 244,881 | 3.02 MB |
@@ -16,7 +16,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 155,510 | 2.20 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 03_SEP_2026 | 20 | 173 | 313,711 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 04_SEP_2026 | **132** | **3204** | **2,654,672** | **29.22 MB** |
+| **subtotal** | 04_SEP_2026 | **132** | **3205** | **2,655,779** | **29.25 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -290,8 +290,9 @@ Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (97 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (98 total)</strong> — click to expand</summary>
 
+- [task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md) [[src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md|wiki]] (04_SEP_2026 08:42 PM PDT)
 - [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (04_SEP_2026 08:29 AM PDT)
 - [task_output_hormetic_range_expansion_03_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md) [[src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md|wiki]] (04_SEP_2026 08:29 AM PDT)
 - [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (03_SEP_2026 12:21 PM PDT)

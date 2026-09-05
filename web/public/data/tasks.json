@@ -1,5 +1,5 @@
 {
-  "generated": "04_SEP_2026 04:20 PM PDT",
+  "generated": "04_SEP_2026 09:46 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,32 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Male Biology as Distributed Topology vs Centralized Estrogen Hub",
+          "description": ">",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "testosterone",
+            "androgen-receptor",
+            "LOY",
+            "PARP1",
+            "IGF1",
+            "mTOR",
+            "longevity"
+          ],
+          "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
+          "path": "tasks/en-US/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
         }
       }
     },
