@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>細胞死亡比較——凋亡 · 壞死 · 壞死性凋亡 · 鐵死亡 · 自噬 · 焦亡 · Parthanatos</title>
-<meta name="description" content="七種主要細胞死亡程序比較表——細胞凋亡、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、Parthanatos——附篩選、強調顯示與欄位切換。">
+<title>細胞死亡比較——凋亡 · Parthanatos · 壞死 · 壞死性凋亡 · 鐵死亡 · 自噬 · 焦亡</title>
+<meta name="description" content="七種主要細胞死亡程序比較表——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡——附篩選、強調顯示與欄位切換。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
@@ -46,7 +46,7 @@
   .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; }
   .pill.lytic{ color:var(--oxblood); } .pill.silent{ color:var(--forest); }
   .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
-  /* paradigm cells: female/apoptosis + male/necrosis (XX-caspase / XY-necrosis) */
+  /* paradigm cells: female/apoptosis + male/parthanatos (XX-caspase / XY-PAR/AIF) */
   .table-wrap td.paradigm{ background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); border-left:2px solid var(--gold); }
   td[data-hl]{ border-left:2px solid transparent; }
   .table-wrap.hl-lytic td[data-hl~="lytic"]{ background:color-mix(in srgb, var(--oxblood) 9%, var(--sheet)); border-left-color:var(--oxblood); }
@@ -76,7 +76,7 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">參考表 · 細胞死亡 · 2026年9月3日</p>
-        <h1 class="visually-hidden">細胞死亡比較——細胞凋亡、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、Parthanatos</h1>
+        <h1 class="visually-hidden">細胞死亡比較——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡</h1>
       </div>
 
       <div class="toolbar" role="search" aria-label="表格控制">
@@ -122,10 +122,22 @@
               <td data-hl="">靜默，Annexin V 陽性</td>
               <td data-hl="">z-VAD-FMK、Bcl-2</td>
             </tr>
+            <tr data-program="parthanatos">
+              <th scope="row"><b>Parthanatos</b><span class="sub">調控性壞死——PARP1 · AIF · MIF</span></th>
+              <td class="paradigm">男性優先以 PARP-1／AIF 依賴性調控性壞死（parthanatos）而非 caspase 凋亡死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；PARP 缺失、nNOS 阻斷、PJ-34 僅保護雄性（McCullough 2005；Yuan 2009；Du 2004）</td>
+              <td>PARP-1 在雌性具保護作用——缺失則轉向細胞色素 c／caspase，可被 Q-VD-OPh 挽救；雌二醇神經保護需要 PARP-1（Stroke 2011）；AIF 亦會轉位但不致死（Yuan 2009）</td>
+              <td data-hl="dna energy"><span class="pill reg">調控性</span><br>是</td>
+              <td data-hl="energy dna">消耗 NAD⁺——PARP1 耗盡 NAD⁺／ATP</td>
+              <td data-hl="dna">染色質濃縮，50-kbp 片段，去極化，無凋亡小體，無腫脹*</td>
+              <td data-hl="dna energy">嚴重 DNA 損傷 → PARP1 過度活化 → PAR → AIF 釋放 → MIF 核轉位 → 大規模片段化，非 caspase 依賴</td>
+              <td data-hl="dna energy">SIRT1 經 AIF 促進 PARP1 存活；PARP1 與 SIRTs 競爭 NAD⁺*</td>
+              <td data-hl="energy lytic">經 NAD⁺ 崩潰＋DAMPs 引起發炎*</td>
+              <td data-hl="dna energy">PARP 抑制劑、AIF 阻斷、NAD⁺ 保存*</td>
+            </tr>
             <tr data-program="necrosis">
               <th scope="row"><b>壞死</b><span class="sub">意外性 · 被動</span></th>
-              <td class="paradigm">男性優先以 PARP-1／AIF 依賴性壞死而非 caspase 凋亡死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；PARP-1 抑制僅保護雄性（McCullough 2005；Liu 2009；Yuan 2009）</td>
-              <td>——（女性偏好但不限於 caspase 凋亡：MCAO 後 AIF 亦會轉位但不致死（Yuan 2009）；新生雌性同時受益於 AIF 降低＋caspase 阻斷（Zhu 2006）；見凋亡列）</td>
+              <td>意外性破裂本身無已驗證的內在性別偏倚；觀察到的梗塞／AKI 男女差異來自調控性執行者（見 Parthanatos 列）</td>
+              <td>無已驗證的內在性別偏倚；若存在調控性選擇，雌性偏好 caspase 凋亡（見凋亡列）</td>
               <td data-hl=""><span class="pill acc">意外性</span><br>否，意外發生</td>
               <td data-hl="energy">ATP 耗竭</td>
               <td data-hl="lytic">腫脹（膨脹壞死），早期破裂，DNA 塗抹狀</td>
@@ -181,18 +193,6 @@
               <td data-hl="lytic">GSDMD 孔洞授權 NLRP3；SIRT3 降低 mtROS 以抑制 NLRP3</td>
               <td data-hl="lytic">高度發炎：IL-1β／IL-18＋HMGB1、IL-1α、經孔洞釋出的 mtDNA</td>
               <td data-hl="lytic">NLRP3 抑制劑、Caspase-1 抑制劑、disulfiram／GSDMD 阻斷*</td>
-            </tr>
-            <tr data-program="parthanatos">
-              <th scope="row"><b>Parthanatos</b><span class="sub">PARP1 · AIF · MIF</span></th>
-              <td>PARP／AIF 殺死雄性；PARP 缺失、nNOS 阻斷、PJ-34 僅保護雄性（McCullough 2005；Yuan 2009）；XY 神經元走 AIF 路徑（Du 2004）</td>
-              <td>PARP-1 具保護作用——缺失則轉向細胞色素 c／caspase，可被 Q-VD-OPh 挽救；雌二醇神經保護需要 PARP-1（Stroke 2011）</td>
-              <td data-hl="dna energy"><span class="pill reg">調控性</span><br>是</td>
-              <td data-hl="energy dna">消耗 NAD⁺——PARP1 耗盡 NAD⁺／ATP</td>
-              <td data-hl="dna">染色質濃縮，50-kbp 片段，去極化，無凋亡小體*</td>
-              <td data-hl="dna energy">嚴重 DNA 損傷 → PARP1 過度活化 → PAR → AIF 釋放 → MIF 核轉位 → 大規模片段化，非 caspase 依賴</td>
-              <td data-hl="dna energy">SIRT1 經 AIF 促進 PARP1 存活；PARP1 與 SIRTs 競爭 NAD⁺*</td>
-              <td data-hl="energy lytic">經 NAD⁺ 崩潰＋DAMPs 引起發炎*</td>
-              <td data-hl="dna energy">PARP 抑制劑、AIF 阻斷、NAD⁺ 保存*</td>
             </tr>
           </tbody>
         </table>

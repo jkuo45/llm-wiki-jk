@@ -1,5 +1,5 @@
 {
-  "generated": "04_SEP_2026 09:46 PM PDT",
+  "generated": "05_SEP_2026 08:37 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,30 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell-Death Quadrants: Controlled vs Uncontrolled x Inflammatory vs Non-Inflammatory Vault Lens",
+          "description": "Vault-wide framework mapping every major topic through the controlled/uncontrolled and inflammatory/non-inflammatory lens from the gender audit, with sex overlay and practical audit protocol.",
+          "created": "2026-09-04",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "sex-differences",
+            "inflammation",
+            "senescence",
+            "ferroptosis"
+          ],
+          "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
         }
       }
     },
@@ -47,6 +71,68 @@
           ],
           "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
           "path": "tasks/en-US/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "男性生物學即分散式拓撲 vs 集中式雌激素樞紐",
+          "description": ">",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "testosterone",
+            "androgen-receptor",
+            "LOY",
+            "PARP1",
+            "IGF1",
+            "mTOR",
+            "longevity"
+          ],
+          "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Comparison — Apoptosis, Parthanatos, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis",
+          "description": "Seven-way compare table of major cell death programs synthesized from wiki notes with general-knowledge supplements.",
+          "created": "2026-09-03",
+          "updated": "2026-09-05",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡比較 — 細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡",
+          "description": "七種主要細胞死亡程式的對照表，綜整自 wiki 筆記並輔以一般知識補充。",
+          "created": "2026-09-03",
+          "updated": "2026-09-05",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         }
       }
     },
@@ -81,48 +167,6 @@
           ],
           "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
           "path": "tasks/zh-TW/task_output_hormetic_range_expansion_03_Sep_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Cell Death Comparison — Apoptosis, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis, Parthanatos",
-          "description": "Seven-way compare table of major cell death programs synthesized from wiki notes with general-knowledge supplements.",
-          "created": "2026-09-03",
-          "updated": "2026-09-03",
-          "tags": [
-            "apoptosis",
-            "necrosis",
-            "necroptosis",
-            "ferroptosis",
-            "autophagy",
-            "pyroptosis",
-            "parthanatos",
-            "cell-death"
-          ],
-          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
-          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
-        },
-        "zh-TW": {
-          "title": "細胞死亡比較 — 細胞凋亡、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡、Parthanatos",
-          "description": "七種主要細胞死亡程式的對照表，綜整自 wiki 筆記並輔以一般知識補充。",
-          "created": "2026-09-03",
-          "updated": "2026-09-03",
-          "tags": [
-            "apoptosis",
-            "necrosis",
-            "necroptosis",
-            "ferroptosis",
-            "autophagy",
-            "pyroptosis",
-            "parthanatos",
-            "cell-death"
-          ],
-          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         }
       }
     },

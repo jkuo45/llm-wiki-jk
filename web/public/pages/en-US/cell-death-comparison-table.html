@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cell Death Comparison — Apoptosis · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · Parthanatos</title>
-<meta name="description" content="Seven-way comparison table of major cell death programs — apoptosis, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, parthanatos — with filter, column toggle and axis highlights.">
+<title>Cell Death Comparison — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis</title>
+<meta name="description" content="Seven-way comparison table of major cell death programs — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis — with filter, column toggle and axis highlights.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
@@ -46,7 +46,7 @@
   .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; }
   .pill.lytic{ color:var(--oxblood); } .pill.silent{ color:var(--forest); }
   .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
-  /* paradigm cells: female/apoptosis + male/necrosis (XX-caspase / XY-necrosis) */
+  /* paradigm cells: female/apoptosis + male/parthanatos (XX-caspase / XY-PAR/AIF) */
   .table-wrap td.paradigm{ background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); border-left:2px solid var(--gold); }
   td[data-hl]{ border-left:2px solid transparent; }
   .table-wrap.hl-lytic td[data-hl~="lytic"]{ background:color-mix(in srgb, var(--oxblood) 9%, var(--sheet)); border-left-color:var(--oxblood); }
@@ -76,7 +76,7 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">Reference table · Cell death · 03 Sep 2026</p>
-        <h1 class="visually-hidden">Cell death comparison — apoptosis, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, parthanatos</h1>
+        <h1 class="visually-hidden">Cell death comparison — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis</h1>
       </div>
 
       <div class="toolbar" role="search" aria-label="Table controls">
@@ -122,10 +122,22 @@
               <td data-hl="">silent, Annexin V+</td>
               <td data-hl="">z-VAD-FMK, Bcl-2</td>
             </tr>
+            <tr data-program="parthanatos">
+              <th scope="row"><b>Parthanatos</b><span class="sub">regulated necrosis — PARP1 · AIF · MIF</span></th>
+              <td class="paradigm">Males preferentially undergo PARP-1/AIF-dependent regulated necrosis (parthanatos) over caspase apoptosis — cell-autonomous, persists in hormone-free media and prepubertal animals; PARP deletion, nNOS blockade, PJ-34 protect males only (McCullough 2005; Yuan 2009; Du 2004)</td>
+              <td>PARP-1 protective in females — loss shunts to cytochrome-c/caspase, rescued by Q-VD-OPh; estradiol neuroprotection requires PARP-1 (Stroke 2011); AIF translocates but is not lethal there (Yuan 2009)</td>
+              <td data-hl="dna energy"><span class="pill reg">regulated</span><br>yes</td>
+              <td data-hl="energy dna">NAD⁺-consuming — PARP1 depletes NAD⁺ / ATP</td>
+              <td data-hl="dna">chromatin condensation, 50-kbp fragments, depolarization, no apoptotic bodies, no swelling*</td>
+              <td data-hl="dna energy">heavy DNA damage → PARP1 overactivation → PAR → AIF release → MIF nuclear translocation → large-scale fragmentation, caspase-independent</td>
+              <td data-hl="dna energy">SIRT1 promotes PARP1 survival via AIF; PARP1 competes with SIRTs for NAD⁺*</td>
+              <td data-hl="energy lytic">inflammatory via NAD⁺ collapse + DAMPs*</td>
+              <td data-hl="dna energy">PARP inhibitors, AIF blockade, NAD⁺ preservation*</td>
+            </tr>
             <tr data-program="necrosis">
               <th scope="row"><b>Necrosis</b><span class="sub">accidental · passive</span></th>
-              <td class="paradigm">Males preferentially undergo PARP-1/AIF-dependent necrosis over caspase apoptosis — cell-autonomous, persists in hormone-free media and prepubertal animals; PARP-1 inhibition protective in males (McCullough 2005; Liu 2009; Yuan 2009)</td>
-              <td>— (females favor, not limited to, caspase apoptosis: AIF translocates in females post-MCAO but is not lethal there (Yuan 2009); neonatal females benefit from combined AIF-reduction + caspase blockade (Zhu 2006); see Apoptosis row)</td>
+              <td>No verified intrinsic sex bias for accidental rupture; observed male–female infarct/AKI differences track regulated executors (see Parthanatos row above)</td>
+              <td>No verified intrinsic sex bias; females favor caspase apoptosis where a regulated choice exists (see Apoptosis row)</td>
               <td data-hl=""><span class="pill acc">accidental</span><br>no, accidental</td>
               <td data-hl="energy">ATP-depleted</td>
               <td data-hl="lytic">swelling (oncosis), early rupture, DNA smear</td>
@@ -181,18 +193,6 @@
               <td data-hl="lytic">GSDMD pores license NLRP3; SIRT3 lowers mtROS to suppress NLRP3</td>
               <td data-hl="lytic">highly inflammatory: IL-1β / IL-18 + HMGB1, IL-1α, mtDNA via pores</td>
               <td data-hl="lytic">NLRP3 inhibitors, Caspase-1 inhibitors, disulfiram / GSDMD blockade*</td>
-            </tr>
-            <tr data-program="parthanatos">
-              <th scope="row"><b>Parthanatos</b><span class="sub">PARP1 · AIF · MIF</span></th>
-              <td>PARP/AIF kills males; PARP deletion, nNOS blockade, PJ-34 protect males only (McCullough 2005; Yuan 2009); XY neurons take the AIF route (Du 2004)</td>
-              <td>PARP-1 protective — loss shunts to cytochrome-c/caspase, rescued by Q-VD-OPh; estradiol neuroprotection requires PARP-1 (Stroke 2011)</td>
-              <td data-hl="dna energy"><span class="pill reg">regulated</span><br>yes</td>
-              <td data-hl="energy dna">NAD⁺-consuming — PARP1 depletes NAD⁺ / ATP</td>
-              <td data-hl="dna">chromatin condensation, 50-kbp fragments, depolarization, no apoptotic bodies*</td>
-              <td data-hl="dna energy">heavy DNA damage → PARP1 overactivation → PAR → AIF release → MIF nuclear translocation → large-scale fragmentation, caspase-independent</td>
-              <td data-hl="dna energy">SIRT1 promotes PARP1 survival via AIF; PARP1 competes with SIRTs for NAD⁺*</td>
-              <td data-hl="energy lytic">inflammatory via NAD⁺ collapse + DAMPs*</td>
-              <td data-hl="dna energy">PARP inhibitors, AIF blockade, NAD⁺ preservation*</td>
             </tr>
           </tbody>
         </table>
