@@ -290,9 +290,10 @@ Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (98 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (99 total)</strong> — click to expand</summary>
 
-- [task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md) [[src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md|wiki]] (04_SEP_2026 08:42 PM PDT)
+- [task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md) [[src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md|wiki]] (05_SEP_2026 08:23 AM PDT)
+- [task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md) [[src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md|wiki]] (04_SEP_2026 09:49 PM PDT)
 - [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (04_SEP_2026 08:29 AM PDT)
 - [task_output_hormetic_range_expansion_03_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md) [[src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md|wiki]] (04_SEP_2026 08:29 AM PDT)
 - [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (03_SEP_2026 12:21 PM PDT)

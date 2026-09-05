@@ -96,7 +96,7 @@ mTORC1 activation is **sexually and temporally dimorphic**, and rapamycin (the p
 
 - **Fed-state dependence (Am J Physiol Regul Integr 2024 — direction needs full-text check; Ballesteros 2016 found opposite fasted F>M in liver/heart):** mTORC1 activation (p70S6K1 phosphorylation) is **reported higher in males when fasted** but **higher in females when fed** — an inversion that must be accounted for in mTORC1 biomarker interpretation.
 - **Cardiac specificity (Gürgen, *Hypertension* 2013):** **female cardiac mTOR signaling is ERβ-specified**, while males maintain both mTORC1 and [[mTORC2]]; estrogen-receptor biology therefore shapes cardiac growth/autophagy responses.
-- **Sex-hormone-driven activation in cancer:** in KRAS-mutant pancreatic cancer, **androgen–[[Androgen Receptor|AR]] signaling reported to drive mTORC1 activation specifically in males** (Gökduman, 2023 — unverified, needs primary), linking male hormonal status to mTORC1-dependent tumor aggressiveness.
+- **Sex-hormone-driven activation in cancer:** in KRAS-mutant pancreatic cancer, **androgen–[[Androgen Receptor|AR]] signaling reported to drive mTORC1 activation specifically in males** (Gökduman, 2023 — unverified, needs primary), linking male hormonal status to mTORC1-dependent tumor aggressiveness. In muscle, [[Testosterone]]→AR cooperates with PI3K→Akt to drive mTORC1→S6K1 hypertrophy (see [[Testosterone]], [[Androgen Receptor]]).
 
 ### Rapamycin Lifespan Effects Are Sex-Specific
 
