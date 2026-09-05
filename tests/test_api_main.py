@@ -6,9 +6,10 @@ import time
 import pytest
 from networkx.readwrite import json_graph
 
-import api.graph_ops as go
+import api.domain.graph_ops as go
 import api.main as main_mod
-import api.wiki as wiki
+import api.domain.wiki as wiki
+from api.routers import prompts as prompts_mod
 from test_api_graph_ops import graph_doc
 
 
@@ -33,7 +34,7 @@ def api_env(tmp_path, monkeypatch, client):
         return None
 
     monkeypatch.setattr(main_mod, "authorize_request", allow)
-    monkeypatch.setattr(main_mod, "_sessions", {})
+    monkeypatch.setattr(prompts_mod, "_sessions", {})
     return client
 
 
@@ -62,7 +63,7 @@ class TestHealth:
         async def healthy():
             return {"version": "1.18.5"}
 
-        monkeypatch.setattr(main_mod, "opencode_health", healthy)
+        monkeypatch.setattr(prompts_mod, "opencode_health", healthy)
         body = api_env.get("/v1/health").json()
         assert body["status"] == "ok"
         assert body["nodes"] == 5 and body["edges"] == 4
@@ -70,9 +71,9 @@ class TestHealth:
 
     def test_degraded_without_opencode(self, api_env, monkeypatch):
         async def down():
-            raise main_mod.OpencodeUnavailable("connection refused")
+            raise prompts_mod.OpencodeUnavailable("connection refused")
 
-        monkeypatch.setattr(main_mod, "opencode_health", down)
+        monkeypatch.setattr(prompts_mod, "opencode_health", down)
         body = api_env.get("/v1/health").json()
         assert body["status"] == "degraded"
         assert body["opencode"]["status"] == "unreachable"
@@ -83,8 +84,8 @@ class TestIntentEndpoint:
         async def boom(*a, **k):
             raise AssertionError("classifier must not run for greetings")
 
-        monkeypatch.setattr(main_mod, "parse_intent", boom)
-        monkeypatch.setattr(main_mod, "create_session", boom)
+        monkeypatch.setattr(prompts_mod, "parse_intent", boom)
+        monkeypatch.setattr(prompts_mod, "create_session", boom)
         r = api_env.post("/v1/intent", json={"message": "Hi!"})
         body = r.json()
         assert body["intent"] == "greeting"
@@ -99,7 +100,7 @@ class TestIntentEndpoint:
         async def fake_create(title="graph-prompt"):
             return "sess-1"
 
-        monkeypatch.setattr(main_mod, "create_session", fake_create)
+        monkeypatch.setattr(prompts_mod, "create_session", fake_create)
         r = api_env.post("/v1/intent",
                          json={"message": "What is autophagy?", "graphify": False})
         body = r.json()
@@ -114,7 +115,7 @@ class TestIntentEndpoint:
             seen["message"] = message
             return {"intent": "explain", "node": "SIRT1"}
 
-        monkeypatch.setattr(main_mod, "parse_intent", fake_intent)
+        monkeypatch.setattr(prompts_mod, "parse_intent", fake_intent)
         r = api_env.post("/v1/intent", json={
             "message": "Explain SIRT1", "graphify": True, "tags": ["NAD+"]})
         body = r.json()
@@ -126,7 +127,7 @@ class TestIntentEndpoint:
         async def fake_intent(message, timeout=60.0):
             return {"intent": "query", "question": "key nodes"}
 
-        monkeypatch.setattr(main_mod, "parse_intent", fake_intent)
+        monkeypatch.setattr(prompts_mod, "parse_intent", fake_intent)
         r = api_env.post("/v1/intent",
                          json={"message": "graphify query key nodes"})
         assert r.json()["intent"] == "query"
@@ -139,8 +140,8 @@ class TestIntentEndpoint:
         async def fake_create(title="graph-prompt"):
             return "sess-2"
 
-        monkeypatch.setattr(main_mod, "parse_intent", fake_intent)
-        monkeypatch.setattr(main_mod, "create_session", fake_create)
+        monkeypatch.setattr(prompts_mod, "parse_intent", fake_intent)
+        monkeypatch.setattr(prompts_mod, "create_session", fake_create)
         r = api_env.post("/v1/intent",
                          json={"message": "graphify explain???", "graphify": True})
         body = r.json()
@@ -148,12 +149,12 @@ class TestIntentEndpoint:
         assert body["session_id"] == "sess-2"
 
     def test_prompt_service_unavailable_503(self, api_env, monkeypatch):
-        from api.llm import OpencodeUnavailable
+        from api.gateways.llm import OpencodeUnavailable
 
         async def unavailable(title="graph-prompt"):
             raise OpencodeUnavailable("down")
 
-        monkeypatch.setattr(main_mod, "create_session", unavailable)
+        monkeypatch.setattr(prompts_mod, "create_session", unavailable)
         r = api_env.post("/v1/intent",
                          json={"message": "hello there", "graphify": False})
         assert r.status_code == 503
@@ -166,14 +167,14 @@ class TestSessionReset:
         async def fake_delete(sid):
             deleted.append(sid)
 
-        main_mod._sessions["sess-1"] = time.monotonic()
-        monkeypatch.setattr(main_mod, "delete_session", fake_delete)
+        prompts_mod._sessions["sess-1"] = time.monotonic()
+        monkeypatch.setattr(prompts_mod, "delete_session", fake_delete)
         # PromptRequest.message is required even for resets
         r = api_env.post("/v1/session/reset",
                          json={"message": "reset", "session_id": "sess-1"})
         assert r.json() == {"status": "ok"}
         assert deleted == ["sess-1"]
-        assert "sess-1" not in main_mod._sessions
+        assert "sess-1" not in prompts_mod._sessions
 
     def test_reset_unknown_session_is_noop(self, api_env):
         r = api_env.post("/v1/session/reset",
@@ -223,7 +224,7 @@ class TestExecuteStream:
         async def narrative(data, request=""):
             return "Computed narrative."
 
-        monkeypatch.setattr(main_mod, "write_analysis_narrative", narrative)
+        monkeypatch.setattr(prompts_mod, "write_analysis_narrative", narrative)
         r = api_env.post("/v1/execute/stream", json={
             "intent": "analyze", "nodes": ["NAD+", "SIRT1"],
             "analysis": "centrality"})
@@ -244,8 +245,8 @@ class TestExecuteStream:
             yield {"type": "text", "text": "SIRT1 is a deacetylase"}
             yield {"type": "done", "elapsed": 1.0}
 
-        monkeypatch.setattr(main_mod, "create_session", fake_session)
-        monkeypatch.setattr(main_mod, "stream_answer", stream)
+        monkeypatch.setattr(prompts_mod, "create_session", fake_session)
+        monkeypatch.setattr(prompts_mod, "stream_answer", stream)
         r = api_env.post("/v1/execute/stream", json={
             "intent": "prompt", "message": "Tell me about SIRT1"})
         events = sse_events(r)
@@ -256,12 +257,12 @@ class TestExecuteStream:
         assert "SIRT1 is a deacetylase" in events[0]["text"]
 
     def test_prompt_service_down_streams_error(self, api_env, monkeypatch):
-        from api.llm import OpencodeUnavailable
+        from api.gateways.llm import OpencodeUnavailable
 
         async def unavailable(title="graph-prompt"):
             raise OpencodeUnavailable("down")
 
-        monkeypatch.setattr(main_mod, "create_session", unavailable)
+        monkeypatch.setattr(prompts_mod, "create_session", unavailable)
         r = api_env.post("/v1/execute/stream",
                          json={"intent": "prompt", "message": "hello"})
         events = sse_events(r)
@@ -283,7 +284,7 @@ class TestExecuteStream:
         def boom(name):
             raise RuntimeError("exploded")
 
-        monkeypatch.setattr(main_mod, "graph_explain", boom)
+        monkeypatch.setattr(prompts_mod, "graph_explain", boom)
         c = TestClient(main_mod.app, raise_server_exceptions=False)
         c.headers.update({"Origin": "http://localhost:5173"})
         r = c.post("/v1/execute/stream",
@@ -294,10 +295,9 @@ class TestExecuteStream:
 
 class TestRateLimitHelpers:
     def test_limit_for_known_paths(self):
-        assert main_mod._limit_for("/v1/notes/upload") == (8, 60)
+        assert main_mod._limit_for("/v1/notes/n1/annotations") == (60, 60)
         assert main_mod._limit_for("/v1/intent") == (40, 60)
-        assert main_mod._limit_for("/v1/research/topics/x/search") == (30, 60)
-        assert main_mod._limit_for("/v1/graphs/g1/nodes") == (60, 60)
+        assert main_mod._limit_for("/v1/flags") == (60, 60)
 
     def test_limit_for_unlisted_path(self):
         assert main_mod._limit_for("/v1/health") is None
@@ -321,9 +321,9 @@ class TestRateLimitHelpers:
 
 class TestSseHelpers:
     def test_sse_frame_format(self):
-        frame = main_mod._sse({"type": "done"})
+        frame = prompts_mod._sse({"type": "done"})
         assert frame == 'data: {"type": "done"}\n\n'
 
     def test_greeting_and_unknown_results_shape(self):
-        for result in (main_mod._greeting_result(), main_mod._unknown_result()):
+        for result in (prompts_mod._greeting_result(), prompts_mod._unknown_result()):
             assert {"type", "text", "highlight_nodes", "highlight_edges"} <= set(result)

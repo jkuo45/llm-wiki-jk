@@ -3,7 +3,7 @@ title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
 created: 2024-01-01
-updated: 2026-07-13
+updated: 2026-09-02
 tags:
   - innate-immunity
   - cgas-sting-pathway
@@ -87,6 +87,14 @@ Though primarily an immune adaptor, neuronal STING restricts viral replication i
 
 **Autoimmune disease**: Inappropriate STING activation contributes to lupus-like autoimmunity, where self-DNA from apoptotic cells triggers chronic cGAS-STING signaling. Therapeutic strategies under development include STING antagonists (e.g., HCl-560), neutralizing antibodies, and inhibition of upstream cGAS activity.
 
+## Sex Differences — Estrogen Suppression of STING
+
+> [!important] Estrogen directly represses STING transcription — a female immune brake
+> STING is transcriptionally suppressed by estrogen: E₂-bound [[Estrogen Receptor|ERα]] recruits [[HDAC3]] to the STING/`TMEM173` promoter, deacetylating histones and reducing STING expression (Chen et al., *Cancers* 2022). This makes the [[cGAS-STING Pathway|cGAS–STING→SASP]] cascade a sex-sensitive amplifier: aged males in diabetic kidney rat model show higher cGAS/STING activity (lower mtTFA/TREX1; Feng et al., *JCI Insight* 2024), while premenopausal females are protected by ERα–HDAC3-mediated repression.
+
+- **Post-menopausal derepression** — loss of estrogen at menopause lifts HDAC3-mediated repression of STING, contributing to the amplified [[SASP]] and Type I interferon output of the "estrogen cliff" shared with [[NF-κB]], [[SASP]], [[SIRT1]], [[Inflammaging]], and [[NAD+]] (see [[Inflammaging]]).
+- **The cGAS–STING↔SASP↔sex axis** — through this sex-biased STING tone, mitochondrial DNA leakage (see [[cGAS]], [[mtDNA]]) translates into a sex-specific burden of sterile inflammation and senescence; STING therefore sits at the interface of the quiescent-sex and inflammaging frameworks cross-referenced across [[SASP]] and [[Inflammaging]].
+
 # 
 
 ## Documents
@@ -114,9 +122,20 @@ List of documents that mention this entity
 - [[Hematopoietic Stem Cell]] — HSCs suppress STING to maintain quiescence
 - [[NPC1]] / [[C9orf72]] — lysosomal defects drive cGAS-independent STING activation
 - [[Nociceptor]] — neuronal STING loss causes nociceptor hyperexcitability
+- [[SASP|Senescence-Associated Secretory Phenotype]] — STING drives the cGAS-STING→SASP cascade, amplified in males and derepressed post-menopause
+- [[Estrogen Receptor|ERα]] — estrogen receptor that recruits HDAC3 to suppress STING transcription
+- [[HDAC3]] — deacetylase mediating estrogen's transcriptional repression of STING
+- [[Inflammaging]] — sex-dimorphic inflammation burden downstream of estrogen-regulated STING tone
+- [[mtDNA]] — mitochondrial DNA leakage that activates cGAS–STING with sex-specific consequences
 
 ## Linking Summary
 
 - New links added: [[ERGIC]], [[Nuclear Envelope]], [[Aryl Hydrocarbon Receptor]], [[NPC1]], [[C9orf72]], [[Endoplasmic Reticulum Stress]], [[Blood-Brain Barrier]], [[H2A.X]], [[Regulatory T cells]], [[B Cells]], [[Hematopoietic Stem Cell]], [[Retinal Ganglion Cells]], [[Dorsal Root Ganglion]], [[Nociceptor]], [[TDP-43]], [[Type I Interferon]], [[Senescence]]
 - Suggested new entity notes to create: [[cGAMP]], [[STING]], [[STING]], [[STING Inhibitors]]
   - Strong connections to strengthen: [[STING]] ↔ [[TFEB]], [[STING]] ↔ [[Blood-Brain Barrier]], [[STING]] ↔ [[Aryl Hydrocarbon Receptor]]
+
+## Linking Summary (Sex Differences — Estrogen Suppression of STING, 2026-09-02)
+
+- **New Sex Differences section** added framing STING as an estrogen-suppressed, sex-sensitive amplifier of the cGAS-STING→SASP→inflammaging axis (Chen et al., *Cancers* 2022; Feng et al., *JCI Insight* 2024).
+- Cross-links added: [[Estrogen Receptor|ERα]], [[HDAC3]], [[cGAS-STING Pathway]], [[cGAS]], [[SASP]], [[Inflammaging]], [[SIRT1]], [[NF-κB]], [[NAD+]], [[mtDNA]].
+- Strong connections to strengthen: [[STING]] ↔ [[SASP]] (estrogen-suppressed amplification), [[STING]] ↔ [[Inflammaging]] (estrogen cliff), [[STING]] ↔ [[cGAS]] (sex-biased DNA sensing).

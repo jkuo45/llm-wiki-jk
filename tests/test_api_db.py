@@ -6,15 +6,15 @@ import json
 import httpx
 import pytest
 
-import api.db as db
+import api.gateways.db as db
 
 
 @pytest.fixture
 def mock_client(monkeypatch):
     """Patch db._CLIENT with an httpx.MockTransport-backed client.
 
-    Mirrors test_api_sources.py's patch_transport: pass a request handler,
-    get a client whose requests never leave the process."""
+    Pass a request handler and get a client whose requests never leave the
+    process."""
 
     def _apply(handler, base_url="https://x/rest/v1"):
         client = httpx.AsyncClient(base_url=base_url,
@@ -61,21 +61,21 @@ class TestRequests:
         mock_client(handler)
 
         rows = await db.select(
-            "user_graphs",
-            columns="id,name",
-            eq={"owner": "u1"},
-            order="created_at.desc",
+            "entities",
+            columns="norm_id,label",
+            eq={"topic_slug": "sirtuins"},
+            order="label.desc",
             limit=5,
-            or_filter="(owner.eq.u1,visibility.eq.public)",
+            or_filter="(id.eq.sirt1,id.eq.sirt3)",
         )
         assert rows == [{"id": "1"}]
         p = seen["url"]
-        assert "/rest/v1/user_graphs" in p
-        assert "select=id%2Cname" in p
-        assert "owner=eq.u1" in p
-        assert "order=created_at.desc" in p
+        assert "/rest/v1/entities" in p
+        assert "select=norm_id%2Clabel" in p
+        assert "topic_slug=eq.sirtuins" in p
+        assert "order=label.desc" in p
         assert "limit=5" in p
-        assert "or=%28owner.eq.u1%2Cvisibility.eq.public%29" in p
+        assert "or=%28id.eq.sirt1%2Cid.eq.sirt3%29" in p
 
     @pytest.mark.asyncio
     async def test_insert_sends_representation_prefer(self, mock_client):
@@ -87,10 +87,10 @@ class TestRequests:
             return httpx.Response(201, json=[{"id": "new"}])
 
         mock_client(handler)
-        out = await db.insert("user_graphs", {"name": "g"})
+        out = await db.insert("content_flags", {"content_type": "article", "content_id": "a"})
         assert out == [{"id": "new"}]
         assert seen["prefer"] == "return=representation"
-        assert seen["body"] == {"name": "g"}
+        assert seen["body"] == {"content_type": "article", "content_id": "a"}
 
     @pytest.mark.asyncio
     async def test_upsert_merge_and_ignore(self, mock_client):
@@ -102,19 +102,19 @@ class TestRequests:
             return httpx.Response(200, json=[{"id": "r"}])
 
         mock_client(handler)
-        await db.upsert("source_records", [{"a": 1}],
-                        on_conflict="source_id,external_id,kind")
+        await db.upsert("content_flags", [{"content_type": "article", "content_id": "a"}],
+                        on_conflict="content_type,content_id")
         assert "resolution=merge-duplicates" in seen["prefer"]
-        assert seen["on_conflict"] == "source_id,external_id,kind"
+        assert seen["on_conflict"] == "content_type,content_id"
 
-        await db.upsert("source_records", [{"a": 1}], on_conflict="x",
-                        ignore_duplicates=True)
+        await db.upsert("content_flags", [{"content_type": "article", "content_id": "a"}],
+                        on_conflict="x", ignore_duplicates=True)
         assert "resolution=ignore-duplicates" in seen["prefer"]
 
     @pytest.mark.asyncio
     async def test_delete_returns_count(self, mock_client):
         mock_client(lambda r: httpx.Response(200, json=[{"id": "1"}, {"id": "2"}]))
-        assert await db.delete("user_nodes", eq={"graph_id": "g"}) == 2
+        assert await db.delete("content_flags", eq={"content_type": "article"}) == 2
 
 
 class TestErrors:
@@ -122,4 +122,4 @@ class TestErrors:
     async def test_error_raises_dberror(self, mock_client):
         mock_client(lambda r: httpx.Response(404, json={"message": "nope"}))
         with pytest.raises(db.DBError):
-            await db.select("user_graphs")
+            await db.select("content_flags")

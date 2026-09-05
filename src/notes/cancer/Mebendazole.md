@@ -11,7 +11,7 @@ protected: true
 
 # Mebendazole
 
-**Mebendazole** is a [[Benzimidazole]] anthelmintic used for decades against a range of intestinal nematode infections (ascariasis, pinworm, hookworm, trichuriasis, and others). It has become a prominent example of [[Drug Repositioning]] in oncology because it interferes with [[Microtubule]] assembly by binding [[Tubulin]] and modulates several oncogenic signaling pathways, showing preclinical and early clinical activity against [[Cancer]] types such as [[glioblastoma]], [[Colorectal Cancer]], and [[Lung Cancer]].
+**Mebendazole** is a [[Benzimidazole]] anthelmintic used for decades against a range of intestinal nematode infections (ascariasis, pinworm, hookworm, trichuriasis, and others). It has become a prominent example of [[Drug Repositioning]] in oncology because it interferes with [[Microtubule]] assembly by binding [[Tubulin]] and modulates several oncogenic signaling pathways, showing preclinical and early clinical activity against [[Cancer]] types such as [[Glioblastoma]], [[Colorectal Cancer]], and [[Lung Cancer]].
 
 ## Chemistry & Mechanism of Action
 
@@ -42,11 +42,11 @@ Several clinical trials have evaluated mebendazole alone or with standard [[Chem
 - [[Microtubule]] - Cytoskeletal target disrupted by the drug.
 - [[Tubulin]] - Direct binding partner inhibited by mebendazole.
 - [[NF-κB]] - Pro-survival pathway suppressed by the drug.
-- [[glioblastoma]] - Brain tumor with notable preclinical/clinical activity.
+- [[Glioblastoma]] - Brain tumor with notable preclinical/clinical activity.
 - [[Apoptosis]] - Death program engaged by microtubule disruption.
 
 ## Linking Summary
 
-- New links added: [[Mebendazole]], [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NF-κB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[Apoptosis]], [[Cell Cycle]], [[Chemotherapy]]]
-- Suggested new entity notes to create: [[glioblastoma]], [[colchicine site]], [[Oxfendazole]]
+- New links added: [[Mebendazole]], [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NF-κB]], [[Glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[Apoptosis]], [[Cell Cycle]], [[Chemotherapy]]]
+- Suggested new entity notes to create: [[Glioblastoma]], [[colchicine site]], [[Oxfendazole]]
 - Strong connections to strengthen: [[Mebendazole]] ↔ [[Tubulin]], [[Mebendazole]] ↔ [[Cancer]]

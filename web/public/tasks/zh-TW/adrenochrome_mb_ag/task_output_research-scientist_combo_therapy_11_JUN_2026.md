@@ -10,7 +10,7 @@ tags:
 aliases:
   - Adrenochrome Combo Therapy
 updated: 2026-07-08
-description: 'Research-scientist analysis of adrenochrome-based combination therapies (MRR, SRAC, GOPS).'
+description: 研究科學家針對基於腎上腺素紅的複方療法（MRR、SRAC、GOPS）進行分析。
 created: 2026-06-11
 
 ---

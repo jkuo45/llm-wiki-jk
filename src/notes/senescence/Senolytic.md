@@ -2,7 +2,7 @@
 title: Senolytic
 description: A senolytic is a compound or intervention that selectively induces apoptosis in senescent cells, reducing the senescent cell burden and alleviating age-related dysfunction.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-09-02
 tags:
   - pharmacological-action
   - senescence
@@ -36,6 +36,16 @@ A **senolytic** is a compound or intervention that selectively kills [[Senescenc
 
 Senolytics alleviate frailty, [[Osteoporosis]], [[Cardiovascular Disease|cardiovascular disease]], [[Osteoarthritis]], pulmonary fibrosis, and [[Inflammation|sterile inflammation]] in murine models. Late-life initiation is sufficient to extend [[Healthspan|healthspan]] and [[Lifespan|lifespan]], supporting translation to elderly humans.
 
+## Sex Differences
+
+Senolytic efficacy and toxicity can reverse **between the sexes**, so benefit must be evaluated sex-stratified. Key findings:
+- **Fisetin** is male-beneficial in young-adulthood-treated C57BL/6 mice (↓SASP, ↑glucose/energy metabolism, ↑cognition); **D+Q** is detrimental in females (↑WAT, ↑SASP, ↓cognition) in this model (Guo et al., *GeroScience* 2023).
+- In tauopathy mice, both D+Q and fisetin enhanced **female** cognitive performance; fisetin affected males selectively in other measures (Garbarino et al., *Alzheimers Dement* 2020).
+- In aged F344 rats, senolytics preserved cognition in males but not older/estradiol-depleted females (*Int J Mol Sci* 2025).
+- **No sex-stratified [[Navitoclax]]/A1331852 data exist** — an open gap.
+
+See [[Senolytics]] for the full sex-difference table, mechanistic interpretation (glucocorticoid and estrogen interplay), and cautionary implications for clinical trial design.
+
 ## Documents
 
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
@@ -58,3 +68,4 @@ Senolytics alleviate frailty, [[Osteoporosis]], [[Cardiovascular Disease|cardiov
   - New links added: [[Senolytic]], [[Senescence]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Fisetin]], [[Quercetin]], [[Dasatinib]], [[Navitoclax]], [[Bcl-xL]], [[Bcl-2]], [[PI3K]], [[Akt]], [[p21]], [[Hsp90]], [[Luteolin]], [[Curcumin]], [[Myricetin]], [[Apigenin]], [[Flavonol]], [[Healthspan]], [[Lifespan]], [[Osteoporosis]], [[Cardiovascular Disease]], [[Osteoarthritis]], [[Inflammation]], [[Senomorphic]]
   - Suggested new entity notes to create: [[Senomorphic]], [[Navitoclax]]
   - Strong connections to strengthen: [[Senolytic]] ↔ [[Senescence]], [[Senolytic]] ↔ [[Fisetin]], [[Senolytic]] ↔ [[Senomorphic]]
+  - Sex-difference enrichment (2026-09-02): added sex-dependent senolytic efficacy (fisetin D+Q GeroScience 2023; Garbarino 2020; F344 rat) with cross-reference to [[Senolytics]].

@@ -1,0 +1,160 @@
+---
+title: Thioredoxin-1
+description: Thioredoxin-1 (Trx1, TXN) is a ubiquitously expressed ~12 kDa cytosolic oxidoreductase that maintains thiol redox balance, regulates redox-sensitive signaling via ASK1, NF-κB and HIF-1α, regenerates peroxiredoxins, and is one of the few antioxidant proteins whose systemic overexpression prolongs mouse lifespan and protects the heart.
+created: 2026-09-01
+updated: 2026-09-01
+tags:
+  - protein
+  - antioxidant
+  - oxidative-stress
+  - redox-signaling
+aliases: [Trx1, TXN, TXN1, Thioredoxin 1, Thioredoxin-1 protein]
+url: #
+source: #
+---
+
+# Thioredoxin-1
+
+**Thioredoxin-1 (Trx1)**, encoded by the *TXN* gene, is a small (~12 kDa) **cytosolic** oxidoreductase that is a founding member of the thioredoxin family within the larger [[Thioredoxin]] system. Alongside its mitochondrial paralog [[Thioredoxin-2|Trx2]] and the recycling enzyme [[Thioredoxin reductase]] (TXNRD), Trx1 maintains the intracellular thiol-redox balance, serves as the principal disulfide-reducing "redox engine" for [[Peroxiredoxin|peroxiredoxins]] and [[Methionine sulfoxide reductases]], and doubles as a redox-sensitive regulator of stress signaling and transcription. It is one of the few antioxidant proteins whose **systemic overexpression prolongs mouse lifespan**, and a well-defined cardioprotective factor.
+
+> [!important]
+> Trx1 is among the few antioxidants that prolong the lifespan of mice when overexpressed systemically. This raises the possibility that stimulation of known longevity mechanisms — such as Trx1 — could be a new modality of heart-failure treatment, by increasing resistance of the heart to pathologic insults.
+>
+> — Context from the sirtuin in health & disease survey (see [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease]]); also discussed in [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart]]. Where Trx1 was described as up-regulated in response to pressure overload, acting as an antihypertrophic factor and stimulator of mitochondrial function.
+
+## Overview & Isozyme Context
+
+Mammals express two principal cytosolic/mitochondrial thioredoxins:
+
+- **[[Thioredoxin-1]] (Trx1, TXN)** — the cytoplasmic (and nuclear, upon translocation) isoform covered here.
+- **Trx2** — the [[Thioredoxin-2|mitochondrial]] isoform, which protects the organelle independently and inhibits mitochondria-located ASK1.
+
+Trx1 functions primarily in the cytosol and nucleus. It does **not** act alone: it is kept in its reduced, active state by [[Thioredoxin reductase]] (TXNRD1) using electrons from NADPH. In the nucleus, Trx1 likewise supplies reducing equivalents to enzymes such as [[Ribonucleotide Reductase]] (for DNA synthesis/repair) and [[Methionine sulfoxide reductases]]. Trx1 is also actively **secreted** and can be detected in the extracellular space, where it behaves as a cytokine-like redox mediator and a serum biomarker.
+
+> [!note]
+> The gene name *TXN* and the abbreviation **TXN1/TXN** are used interchangeably with **Trx1/Thioredoxin-1** in the literature. This note is the canonical [[Thioredoxin-1]] entity and is distinct from the [[Thioredoxin]] family-level note.
+
+## Structure & Domains
+
+Trx1 adopts the canonical thioredoxin fold: a central five-stranded β-sheet flanked by four α-helices. Its functional heart is the **CxxC active-site motif** (Cys-Gly-Pro-Cys, residues 32–35 in the "C32/C35" numbering used throughout the redox literature).
+
+Key structural and redox features:
+
+- **Nucleophilic [[Cysteine|Cys32]]**: the N-terminal active-site cysteine that attacks substrate disulfide bonds, forming a transient mixed disulfide with the substrate.
+- **Resolving [[Cysteine|Cys35]]**: the second active-site cysteine that resolves the mixed disulfide, releasing the reduced substrate and leaving Trx1 oxidized (Cys32–Cys35 intramolecular disulfide).
+- **Secondary structural cysteines ([[Cysteine|Cys62]], [[Cysteine|Cys69]], [[Cysteine|Cys73]])**: redox-sensitive residues that regulate Trx1 activity, sensitivity to oxidation/nitration, and interactions with partners such as [[ASK1]].
+- The oxidized form of Trx1 is recycled to the reduced form by [[Thioredoxin reductase]] in an NADPH-dependent reaction.
+
+> [!tip]
+> Because Trx1 activity depends absolutely on the redox state of its active-site cysteines, oxidative stress — and post-translational modifications such as S-nitrosylation, oxidation, and **nitration** — can shut Trx1 off. Nitration at tyrosine residues irreversibly inactivates Trx1, a modification implicated in aging and ischemia–reperfusion injury.
+
+## Mechanism of Action & Signaling
+
+Trx1 has two intertwined functions: a **catalytic electron-transfer function** and a **protein–protein signaling function**.
+
+### Catalytic redox cycle
+
+1. Reduced Trx1 reduces a substrate disulfide via [[Cysteine|Cys32]]-mediated thiol-disulfide exchange.
+2. Oxidized Trx1 is regenerated by [[Thioredoxin reductase]] + NADPH.
+3. The cycle regenerates [[Peroxiredoxin|peroxiredoxins]] (which eliminate [[Hydrogen Peroxide]]), [[Methionine sulfoxide reductases]], [[Ribonucleotide Reductase]], and other redox clients.
+
+### ASK1 regulation (apoptosis/senescence signaling)
+
+Trx1 is the canonical high-affinity redox-dependent inhibitor of the stress kinase **[[ASK1]]** (MAP3K5):
+
+- In basal, reduced conditions, Trx1 binds ASK1's N-terminal thioredoxin-binding domain and keeps the kinase inactive, targeting it for ubiquitin-mediated degradation.
+- On oxidative stress, Trx1 is oxidized (Cys32–Cys35 disulfide) and **dissociates** from ASK1; relieved of inhibition, ASK1 dimerizes, autophosphorylates (Thr838/845), and signals through the [[JNK]] and [[p38 MAPK]] cascades to drive [[Apoptosis]] and the cellular senescence program.
+- Crucially, Trx1's interaction with ASK1 (via ASK1-Cys250) is a **redox thiol-reductase interaction** — mutation of Cys32 in Trx1 abolishes binding, and mutation of ASK1-Cys250 prevents both binding and downstream signaling. The 2024 cryo-EM structure of ASK1 identified Trx1 as a **negative allosteric effector** of ASK1, reducing access to the activation loop.
+
+> [!warning]
+> This ASK1 axis is double-edged: Trx1-dependent ASK1 suppression is cardioprotective and anti-apoptotic in the young, but chronic Trx1 overexpression in aging mice suppresses ASK1 enough to also suppress tumor-suppressive apoptosis, increasing cancer burden and lymphoma in old animals. Trx1 is thus a classic hormetic/pro-survival factor whose overactivation raises oncogenic risk.
+
+### Transcription factor regulation
+
+Trx1 reduces and thereby activates a set of redox-sensitive transcription factors, including:
+
+- **[[APE1]] (Ref-1)** — Trx1 reduces the APE1/Ref-1 protein, which in turn activates **AP-1** (Fos/Jun) and other transcription factors.
+- **[[NF-κB]]** — Trx1 modulates the DNA-binding activity of the p50 subunit, influencing inflammatory gene expression (context-dependent pro- or anti-inflammatory).
+- **[[HIF-1α]]** — Trx1 enhances HIF-1α stability/activity, supporting the hypoxic response.
+- **Glucocorticoid receptor** and **estrogen receptor** — Trx1 can modulate receptor redox state and transcriptional output.
+
+### mTOR / mitochondrial function
+
+Beyond classic antioxidant and signaling roles, endogenous Trx1 is essential for cardiac mitochondrial function. In a cardiac-specific Trx1 knockout model, Trx1 maintains the reduced (active) state of **[[mTOR]]** at the oxidation-sensitive Cys1483 residue; loss of Trx1 oxidizes mTOR, impairs mTOR substrate phosphorylation (S6K, 4EBP1), and suppresses nuclear-encoded mitochondrial gene expression and respiration, precipitating heart failure. This positions Trx1 as a node linking redox state to anabolic/mitochondrial signaling.
+
+## Physiological Function
+
+- **Redox homeostasis**: Together with the [[Glutathione]] system and [[Thioredoxin reductase]], Trx1 constitutes a major portion of the cell's antioxidant capacity, keeping the intracellular milieu reduced.
+- **DNA synthesis & repair**: Supplies reducing equivalents to [[Ribonucleotide Reductase]] and supports DNA-repair enzymes; nuclear translocation of Trx1 occurs upon stress.
+- **Antiapoptotic/pro-survival signaling**: Directly antagonizes [[ASK1]]-[[JNK]]/[[p38 MAPK]] death signaling; also protects against TNF-α- and H₂O₂-induced apoptosis.
+- **Growth factor-like redox signaling**: Secreted Trx1 modulates redox-dependent cellular responses in the microenvironment, and can activate survival kinases such as [[Akt|AKT]].
+- **Cardiac protection**: Trx1 reduces infarct size after ischemia–reperfusion, delays exhaustion of antioxidant defense, preserves mitochondrial complexes and membrane potential, and promotes mitochondrial quality control (mitophagy and biogenesis) — partly through [[mTOR]]-dependent maintenance of mitochondrial gene expression.
+
+## Longevity & Stress Resistance
+
+Trx1 is one of the **few — and possibly the best-characterized — antioxidant enzymes whose systemic overexpression extends mouse lifespan**. The key studies:
+
+- **Mitsui et al. (2002)** — Overexpression of human thioredoxin in transgenic mice conferred oxidative-stress resistance and extended lifespan, together with reduced oxidative damage.
+- **Pérez et al. (2011)** (*J Gerontol A*) — Systemic Trx1-overexpressing mice showed **significantly lower protein oxidative damage and lipid peroxidation** in the liver, and male Trx1-transgenic mice **significantly extended the earlier portion of lifespan** versus wild-type littermates (though maximum lifespan was unchanged; females showed no significant extension).
+- **Continuous-overexpression TXN mice (2018)** — Using an endogenous promoter to sustain Trx1 overexpression through aging, male mice again showed only a slight extension of the earlier portion of life, no change in median/maximum lifespan, and — importantly — a **significant increase in lymphoma and tumor burden** in old age, linked to suppression of the [[ASK1]] pathway.
+
+> [!important]
+> The longevity field's conclusion is nuanced: Trx1 overexpression improves **healthspan** (resistance to oxidative stress, reduced oxidative damage) and extends the earlier portion of life, but does **not** extend maximum lifespan on a C57BL/6 background, and chronic sustained overexpression can promote cancer in old age. Interpretation of the classic quote — "among the few antioxidants that prolong lifespan when overexpressed systemically" — should therefore acknowledge both the genuine healthspan benefit and the oncogenic caveat. Trx1 is best understood as a **hormetic/stress-resistance factor** rather than a pure lifespan-extender.
+
+### Relationship to sirtuins and hormesis
+
+In the sirtuin context (see [[SIRT1]] and the survey [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease]]), Trx1 is grouped with other endogenous longevity/stress-resistance factors (e.g., mitochondrial catalase) that are up-regulated by low-grade stress. Where [[SIRT1]] deacetylation shifts [[FOXO]] output toward stress resistance, Trx1 contributes an independent redox arm of the same "increase resistance to pathologic insults" strategy — hence the proposal that stimulating such longevity mechanisms could be a new modality of **heart-failure** treatment.
+
+## Pathology & Clinical Relevance
+
+### Heart failure and ischemia–reperfusion injury
+
+- **Decreased in failing hearts**: Levels of Trx1 are significantly decreased in cardiomyocytes from individuals with advanced [[Heart Failure]] (along with MnSOD and Bcl-xL), suggesting loss of this protective system in end-stage disease.
+- **Cardioprotective when overexpressed**: Cardiac-specific Trx1 overexpression reduces infarct size after ischemia–reperfusion and improves survival in sepsis-induced cardiac dysfunction, preserving contractile reserve, mitochondrial complex activity, and membrane potential.
+- **Age dependence (a key caveat)**: The cardioprotection conferred by Trx1 overexpression is **lost in middle-aged mice**. In 12-month-old animals, Trx1 is functionally inactivated by **nitration** (an irreversible post-translational modification) even when protein levels remain elevated; p-Akt and p-GSK-3β upregulation during reperfusion is abrogated, and no infarct-size reduction is seen. This helps explain why some clinical antioxidant strategies fail in older patients.
+- **Hydrogen-sulfide signaling**: Trx1 is essential for the cardioprotective effects of H₂S-donor therapy (e.g., Na₂S) in heart failure; dominant-negative Trx1 abolishes this protection.
+
+### Cancer
+
+Because Trx1 suppresses [[ASK1]]-driven apoptosis and promotes survival signaling, tumors frequently up-regulate Trx1 to bolster redox fitness and resist therapy-induced apoptosis. Trx1 or [[Thioredoxin reductase]] inhibitors (e.g., [[Auranofin]], PX-12) are investigated as anticancer strategies.
+
+### Other diseases
+
+- **Atherosclerosis / vascular disease**: Trx1 and its secreted forms modulate endothelial redox signaling and inflammation.
+- **Neurodegeneration**: Trx1 protects neurons against oxidative and nitrative insults relevant to [[Parkinson's Disease]] and other disorders.
+- **Aging generally**: Age-related **nitrative inactivation** of Trx1 (documented in aging hearts) contributes to declining stress resistance.
+
+## Documents
+
+Documents that mention Thioredoxin-1:
+
+- [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+  - Quotes Trx1 as "among the few antioxidants that prolong the lifespan of mice when overexpressed systemically," raising the possibility that stimulating longevity mechanisms could treat heart failure by increasing cardiac resistance to pathologic insults.
+- [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart]]
+  - Describes Trx1 as up-regulated in response to pressure overload and acting as an antihypertrophic factor and stimulator of mitochondrial function; groups Trx1 with mitochondrial catalase among antioxidants whose overexpression induces lifespan extension and stress resistance.
+
+## Connections
+
+- [[Thioredoxin]] — Trx1 is the principal cytosolic member of the thioredoxin family; this note is the isoform-specific entity beneath the family-level note.
+- [[Thioredoxin reductase|Thioredoxin reductase (TXNRD1)]] — NADPH-dependent enzyme that recycles oxidized Trx1 back to its active reduced form; the two form the functional "thioredoxin system."
+- [[Auranofin]] — an oral gold(I) drug and investigational TXNRD inhibitor whose anticancer, antiparasitic, and antimicrobial activity depends on blocking Trx1 regeneration.
+- [[Peroxiredoxin]] — Trx1 reduces/regenerates oxidized peroxiredoxins, enabling H₂O₂ clearance; Trx1 is the electron donor for the 2-Cys Prx redox cycle.
+- [[ASK1]] — Trx1 is the canonical redox-dependent inhibitor of ASK1; oxidation-driven dissociation activates the ASK1–JNK/p38 death pathway.
+- [[JNK]] / [[p38 MAPK]] — Downstream effectors of ASK1 that Trx1 indirectly restrains by inhibiting ASK1.
+- [[mTOR]] — Trx1 maintains mTOR in its reduced, active state (Cys1483), supporting mitochondrial gene expression and cardiac function.
+- [[NF-κB]] — Trx1 modulates NF-κB (p50) DNA-binding, influencing inflammatory gene expression.
+- [[HIF-1α]] — Trx1 enhances HIF-1α activity, contributing to the hypoxic response.
+- [[APE1]] — Trx1 reduces the APE1/Ref-1 redox-sensitive protein, enabling it to activate AP-1 and other transcription factors.
+- [[Oxidative Stress]] — Trx1 is a central redox-balancing enzyme whose function declines with oxidative/nitrative stress; Trx1 both resists and is a target of oxidative damage.
+- [[Glutathione]] — Parallel thiol antioxidant system; Trx1 and GSH cooperate but are genetically independent redox networks.
+- [[Heart Failure]] — Trx1 is decreased in failing hearts and is a candidate target for enhancing cardiac stress resistance.
+- [[SIRT1]] — Both SIRT1 and Trx1 are endogenous stress-resistance/longevity factors; sirtuin models propose that up-regulating factors like Trx1 could be a heart-failure therapeutic strategy.
+- [[Hormesis]] — Trx1's dose- and age-dependent benefit profile (early-life stress resistance and healthspan gains, late-life oncogenic cost of chronic overactivation) is a canonical instance of antioxidant-enzyme hormesis; the Alcendor 2007 framework explicitly invokes the hormesis hypothesis.
+- [[Apoptosis]] — Trx1 inhibits stress-induced apoptosis primarily via ASK1 suppression.
+- [[Methionine sulfoxide reductases]] — Trx1 regenerates these enzymes, which repair oxidized methionine.
+- [[MnSOD]] — Cytosolic/external redox arm of the same compartmentalized stress-resistance program; MnSOD (mitochondrial) and Trx1 (cytosolic/nuclear) are co-decreased in failing hearts and gated by overlapping sirtuin/FOXO/Nrf2 hormetic windows, but metabolically separated compartments with no direct protein interaction.
+
+## Linking Summary
+
+- New links added: [[Thioredoxin]], [[Thioredoxin reductase]], [[Peroxiredoxin]], [[ASK1]], [[JNK]], [[p38 MAPK]], [[mTOR]], [[NF-κB]], [[HIF-1α]], [[Oxidative Stress]], [[Glutathione]], [[Heart Failure]], [[SIRT1]], [[Hormesis]], [[Apoptosis]], [[Methionine sulfoxide reductases]], [[APE1]], [[Auranofin]], [[MnSOD]]
+- Strong connections to strengthen: [[Thioredoxin-1]] ↔ [[ASK1]], [[Thioredoxin-1]] ↔ [[Thioredoxin reductase]], [[Thioredoxin-1]] ↔ [[Peroxiredoxin]], [[Thioredoxin-1]] ↔ [[Heart Failure]], [[Thioredoxin-1]] ↔ [[Hormesis]], [[Thioredoxin-1]] ↔ [[MnSOD]] (shared stress-resistance program)

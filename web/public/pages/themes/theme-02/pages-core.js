@@ -246,6 +246,12 @@ window.T2 = (function () {
     }, { passive: true });
   }
 
+  // Legacy alias — logic now lives in themes/shared/nav-auto-hide.js (auto-wires).
+  // Kept so older pages calling T2.initNavAutoHide() remain harmless.
+  function initNavAutoHide() {
+    if (window.attachNavAutoHide) window.attachNavAutoHide(".site-nav");
+  }
+
   return {
     el: el,
     text: text,
@@ -256,6 +262,7 @@ window.T2 = (function () {
     initNav: initNav,
     initTooltip: initTooltip,
     initLightbox: initLightbox,
-    initNavScrollHint: initNavScrollHint
+    initNavScrollHint: initNavScrollHint,
+    initNavAutoHide: initNavAutoHide
   };
 })();

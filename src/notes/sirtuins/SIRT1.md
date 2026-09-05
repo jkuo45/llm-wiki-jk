@@ -5,7 +5,7 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-08-28
+updated: 2026-09-02
 protected: true
 tags:
   - gene
@@ -35,7 +35,7 @@ Sirt1 couples lysine deacetylation to [[NAD+|NAD^+]] hydrolysis, generating [[Ni
 ## Physiological Functions
 
 - **Metabolism:** Sirt1 enhances hepatic gluconeogenesis, promotes fatty acid oxidation in muscle and liver via PGC-1α deacetylation, and improves insulin sensitivity. Adipose Sirt1 represses [[PPARγ]] to mobilize fat stores.
-- **Stress Resistance:** By deacetylating FOXO3, Sirt1 upregulates [[SOD2]], [[Catalase]], and [[Glutathione|glutathione]] biosynthesis genes, protecting against [[Oxidative Stress|oxidative stress]].
+- **Stress Resistance:** By deacetylating FOXO3, Sirt1 upregulates [[MnSOD]], [[Catalase]], and [[Glutathione|glutathione]] biosynthesis genes, protecting against [[Oxidative Stress|oxidative stress]].
 - **Chromatin Stability:** Sirt1 deacetylates H4K16ac and H3K9ac at [[LINE-1]] and [[Alu element|Alu]] retrotransposons, maintaining their silencing and preventing [[Genomic Instability]].
 - **Circadian Rhythm:** Sirt1 oscillates with the circadian clock and deacetylates [[CLOCK]] and [[BMAL1]], coupling metabolic state to circadian gene expression.
 
@@ -83,7 +83,7 @@ SIRT1 facilitates the formation of heterochromatin by deacetylating:
 - **[[Ku70]]**: Deacetylated [[Ku70]] sequesters pro-apoptotic Bax away from mitochondria.
 - **[[E2F1]]**: Mutual negative regulatory feedback loop protecting against DNA damage-induced apoptosis.
 - **[[p73]]**: Deacetylation suppresses transcriptional activity and inhibits apoptosis.
-- **FOXO transcription factors** ([[FoxO1]], [[FOXO3a]], [[FOXO4]]): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. [[FOXO4]] deacetylation enhances GADD45 expression and suppresses caspase-3/7.
+- **FOXO transcription factors** ([[FoxO1]], [[FOXO3a]], [[FOXO4]]): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. [[FOXO4]] deacetylation enhances [[GADD45]] expression and suppresses caspase-3/7.
 - **[[NF-κB|RelA/p65 (NF-κB)]]**: Deacetylation inhibits transactivation potential, sensitizing cells to TNFα-induced apoptosis.
 - **[[Smad7]]** (Lys⁶⁰/Lys⁷⁰): Deacetylation promotes ubiquitin-dependent proteasomal degradation via Smurf1, protecting glomerular mesangial cells from TGF-β-dependent apoptosis.
 - **[[Caspase-2]] (via 14-3-3ζ):** SIRT1 deacetylates 14-3-3ζ, a direct caspase-2 regulator; SIRT1 inhibition sensitizes cells to caspase-2-dependent death and overrides nutrient-mediated caspase-2 suppression (PMID 21884983).
@@ -174,9 +174,12 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 
 ### Cardiovascular
 
+> [!important] Primary study — cardiac SIRT1 dose window is hormetic (Alcendor et al., 2007)
+> Alcendor et al. ([[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart]], *Circ Res* 100:1512–1521) generated heart-specific Tg-Sirt1 lines with 2.5-, 7.5-, and 12.5-fold cardiac SIRT1. Low-to-moderate lines (39/40) retarded age-dependent [[Cardiac Hypertrophy|hypertrophy]], fibrosis, dysfunction, and [[Cellular Senescence|senescence]] markers ([[p15INK4b|p15^INK4b]], p19^ARF, [[p53]]) and were **protected against [[Paraquat]]-induced [[Oxidative Stress|oxidative stress]]** via [[FoxO1|FoxO1a]]-dependent upregulation of [[Catalase]]. The high line (53, 12.5×) developed [[Cardiomyopathy]] with increased apoptosis/hypertrophy/oxidative stress, reduced [[ATP]], [[Citrate Synthase]], and [[Mitochondrial Biogenesis]] (≈50% [[PGC-1α]] loss, possible [[NAD+]] depletion) — the canonical example of a [[Hormetic Window]] for cardiac SIRT1.
+
 - **[[Cardiac Hypertrophy]]**: **Dose-dependent dual effect** — low (2.5×)/moderate (7.5×) overexpression attenuates, high (12.5×) exacerbates Ang II-induced hypertrophy. Protective via reduced apoptosis/promoted autophagy; harmful via Akt/PDK1 membrane localization.
 - **[[Cardiac Fibrosis]]**: Protective — resveratrol activation attenuates via TGF-β/Smad3 inhibition.
-- **[[Heart Failure]]**: Decreased in advanced HF. Attenuates oxidative stress/apoptosis (MnSOD/thioredoxin1/Bcl-xL upregulation, p53 deacetylation decrease); NF-κB p65/miR-155/BDNF pathway; restores SERCA2a via K492 deacetylation.
+- **[[Heart Failure]]**: Decreased in advanced HF. Attenuates oxidative stress/apoptosis (MnSOD/[[Thioredoxin-1]]/Bcl-xL upregulation, p53 deacetylation decrease); NF-κB p65/miR-155/BDNF pathway; restores SERCA2a via K492 deacetylation.
 - **[[Atherosclerosis]]**: Protective — endothelial overexpression (eNOS activation), SRT1720 ameliorates endothelial dysfunction, VSMC DNA-damage protection via NBS1, reduces Lox-1-mediated foam cell formation via NF-κB.
 - **[[Coronary Artery Disease]]**: Genetic SIRT1 polymorphisms associated with CAD risk; reduced expression in CAD patients; lncRNA C2dat1 → SIRT1 → suppresses miR-34a → VSMC proliferation/migration.
 - **[[Myocardial Ischemia-Reperfusion Injury]]**: Protective — cardiac-specific KO increases infarct size; overexpression upregulates FoxO1/MnSOD antioxidant pathways, downregulates caspase-3/Bax; miR-132 inhibition → PGC-1α/Nrf2.
@@ -305,6 +308,9 @@ List of documents that mention this entity
 - [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2|SIRT1–14-3-3ζ metabolic regulation of caspase-2 (Andersen et al., Mol Cell 2011)]]
   - SIRT1 deacetylates 14-3-3ζ (K49) to maintain caspase-2 suppression; PPP/G6P flux gates apoptotic sensitivity; SIRT1 inhibition sensitizes breast tumor cells to caspase-2-dependent death and paclitaxel.
 
+- [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Cardiac SIRT1 dose-response (Alcendor et al., Circ Res 2007)]]
+  - Primary in vivo study: heart-specific Tg-Sirt1 with 2.5×/7.5× (antiaging, oxidative-stress resistance) vs 12.5× (cardiomyopathy) cardiac SIRT1. Moderate dose induced FoxO1a-dependent catalase and resisted paraquat oxidative injury; high dose suppressed PGC-1α, mitochondrial biogenesis, ATP, and likely depleted NAD+. Canonical cardiac hormetic dose window.
+
 ## Connections
 
 - [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
@@ -344,6 +350,12 @@ List of documents that mention this entity
 - [[Caspase-9]]: Initiator that cleaves SIRT1; blocked by Bcl-xL, driving nuclear→cytoplasmic relocalization
 - [[Bcl-xL]]: Inhibits caspase-9, preventing SIRT1 cleavage/relocalization
 - TRIM28: E3 ligase coupling SIRT1 caspase-cleavage to ubiquitination/degradation in the DDR
+- [[Catalase]]: induced by SIRT1 via FoxO1a deacetylation in cardiac myocytes — the antioxidant axis conferring resistance to paraquat-induced oxidative stress (Alcendor et al., 2007)
+- [[Cardiac Hypertrophy]]: mild/moderate cardiac SIRT1 retards age-dependent hypertrophy; high 12.5× expression exacerbates it into cardiomyopathy (dose-dependent/hormetic)
+- [[Cardiomyopathy]]: 12.5-fold cardiac SIRT1 overexpression induces cardiomyopathy via suppressed PGC-1α/mitochondrial biogenesis, reduced ATP/citrate synthase, elevated phospho-AMPK, and possible NAD+ depletion
+- [[Paraquat]]: oxidative-stress challenge in Tg-Sirt1 line 40; moderate SIRT1 attenuates paraquat-induced apoptosis, 8-OHdG, and malondialdehyde
+- [[Mitochondrial Biogenesis]]: high-dose SIRT1 downregulates PGC-1α (~50%) and reduces mitochondrial number — the toxic high-dose phenotype
+- [[Hormesis]]: cardiac SIRT1 benefits confined to a low-to-moderate hormetic dose window (2.5×–7.5×)
 
 ## Linking Summary (Sirtuin–Caspase Crosstalk)
 
@@ -436,7 +448,7 @@ SIRT1 sits at the intersection of nutrient/energy sensing and the autophagic mac
 
 ### Downstream Targets in Autophagy (outputs of SIRT1)
 
-- **[[FOXO3a]]** — deacetylation activates FOXO3a → transcription of [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[Atg]] genes and [[Manganese superoxide dismutase|SOD2]] → autophagy, mitophagy, and antioxidant defense.
+- **[[FOXO3a]]** — deacetylation activates FOXO3a → transcription of [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[Atg]] genes and [[MnSOD|SOD2]] → autophagy, mitophagy, and antioxidant defense.
 - **[[TFEB]]** — SIRT1 deacetylates TFEB (notably at K116), enhancing its nuclear translocation and transcriptional activity to drive the [[Coordinated Lysosomal Expression and Regulation|CLEAR]] autophagic/lysosomal program.
 - **Core autophagy machinery** — SIRT1 promotes expression/activity of [[Atg5]], [[Atg7]], [[Atg8]]/[[LC3]] and [[Beclin1]], enhancing autophagosome formation and flux.
 - **[[Autophagy|p62/SQSTM1]]** — modulated to support cargo recognition and clearance.
@@ -466,11 +478,33 @@ SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stil
 
 ## Role in Mitochondrial Function and Stress Resistance
 
-SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of [[PGC-1α]] drives [[Mitochondrial Biogenesis]]; (ii) deacetylation of [[FOXO3a]] induces [[Manganese superoxide dismutase|SOD2]] and [[Catalase]], enhancing [[Reactive Oxygen Species|ROS]] detoxification; (iii) deacetylation of [[HIF-1α]] and [[HIF-2α]] modulates metabolic adaptation to hypoxia; and (iv) deacetylation of [[TFEB]] promotes [[Autophagy]] and [[Mitophagy]]. This coordinated regulation establishes SIRT1 as a master integrator of the [[Mitohormesis|mitohormetic]] response, linking mild mitochondrial stress signals to transcriptional programs that enhance cellular resilience.
+SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of [[PGC-1α]] drives [[Mitochondrial Biogenesis]]; (ii) deacetylation of [[FOXO3a]] induces [[MnSOD|SOD2]] and [[Catalase]], enhancing [[Reactive Oxygen Species|ROS]] detoxification; (iii) deacetylation of [[HIF-1α]] and [[HIF-2α]] modulates metabolic adaptation to hypoxia; and (iv) deacetylation of [[TFEB]] promotes [[Autophagy]] and [[Mitophagy]]. This coordinated regulation establishes SIRT1 as a master integrator of the [[Mitohormesis|mitohormetic]] response, linking mild mitochondrial stress signals to transcriptional programs that enhance cellular resilience.
 
 ## Connection to Mitohormesis and Longevity
 
 In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into nuclear adaptive responses. SIRT1 activity is potentiated by Mitohormetic Redox-Relay molecules, including [[NAD+]] as a sentinel of energetic stress. The SIRT1-PGC1α axis coordinates the antioxidant and mitochondrial biogenesis programs that define the mitohormetic phenotype. [[Caloric Restriction]] extends lifespan in part through SIRT1 activation, and SIRT1 overexpression extends healthspan in rodent models. SIRT1-mediated deacetylation of [[p53]] and [[FOXO]] factors suppresses apoptosis in favor of repair and stress resistance, a trade-off that is beneficial under mild stress but may promote tumorigenesis under chronic activation. The age-related decline in NAD⁺ levels and consequent SIRT1 hypoactivity is hypothesized to be a key driver of mitochondrial dysfunction, [[Inflammation|inflammaging]], and loss of proteostasis in aging tissues.
+
+## Sex Differences — The Estrogen–Sirtuin Hub
+
+> [!important] Estrogen is a shared transcriptional regulator of the SIRT1/3/6 axis
+> SIRT1, [[SIRT3]], and [[SIRT6]] form an **estrogen–sirtuin hub**: estrogen (E₂) via ERα/β upregulates SIRT1 and drives the mitochondrial import/expression of SIRT3, giving premenopausal females higher sirtuin reserve. This hub is dismantled at menopause ("estrogen cliff"), a shared inflection point that accelerates female [[Inflammaging]], [[SASP]] burden, and metabolic/cardiac aging. SIRT6 sits on the mirror side of the hub — its lifespan effects are strongest in males, making the family's sex bias a complementary, nutrient-dependent spectrum rather than a uniform female advantage.
+
+### E₂↔ER↔SIRT1 Crosstalk (bidirectional, tissue-dependent)
+
+- Estrogen acts through ERα/β response elements to sustain SIRT1 expression; premenopausal females maintain higher SIRT1 pools, while men show a more pronounced SIRT1 decline from young-adult to mid-late age (same age-stratified kinetics described in [[SIRT3]]). Conversely SIRT1 represses ligand-independent ERα activation — crosstalk is bidirectional, not unidirectional E2→SIRT1.
+- The female SIRT1-SIRT3 advantage is coordinated: SIRT1 (nuclear/cytosolic) and SIRT3 (mitochondrial) both respond to the same estrogen-dependent transcriptional program, so the hub operates as a single redox-defense unit spanning compartment boundaries.
+- E₂ also stabilizes [[PARP1]] on DNA, sparing NAD⁺ (see [[NAD+]]), sustaining the NAD⁺-gated activity of the whole hub into midlife in females.
+
+### The Male Mirror (SIRT6)
+
+- Unlike SIRT1/SIRT3, [[SIRT6]]'s lifespan-extension effect is male-strong (Roichman *Nat Commun* 2021: males ~27% vs females ~15%) and its human longevity polymorphism (rs117385980) was first described in Finnish males. The male-biased, IGF-1-suppressing SIRT6 arm is thus the complement to the estrogen-driven female SIRT1/SIRT3 arm.
+
+### The "Estrogen Cliff" — Post-Menopausal Derepression
+
+> [!warning] Menopause collapses the sirtuin hub
+> After menopause, loss of estrogen removes SIRT1/SIRT3 transcriptional support and derepresses [[NF-κB]] and [[cGAS-STING Pathway|cGAS–STING]], amplifying the [[SASP]] and [[Inflammaging]]. This post-menopausal acceleration (the "estrogen cliff") is cross-referenced across [[SIRT3]], [[NAD+]], [[NF-κB]], [[SASP]], [[Inflammaging]], [[Telomere]], and [[Bcl-2]] as a shared female inflection point.
+
+- Since SIRT1 activity is NAD⁺-gated, the male PARP-driven NAD⁺ decline and the female post-menopausal sirtuin hub collapse converge on the same downstream deficits (impaired FOXO/MnSOD antioxidant programs, unchecked NF-κB inflammation), even though they originate from opposite sex-hormonal logic — see the unified framework in [[NAD+]] and [[NF-κB]].
 
 ---
 
@@ -508,3 +542,9 @@ Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transc
 - New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Pancreatitis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Epilepsy]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Diabetic Kidney Disease]], [[Diabetic Neuropathy]], [[Diabetic Retinopathy]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[PCOS]], [[Endometriosis]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
 - Suggested new entity notes to create: [[Diabetic Kidney Disease]], [[Diabetic Cardiomyopathy]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[PCOS]], [[Endometriosis]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Breast Cancer]], [[SIRT1]] ↔ [[Alzheimer's Disease]], [[SIRT1]] ↔ [[Diabetes Mellitus]], [[SIRT1]] ↔ [[Cardiac Hypertrophy]], [[SIRT1]] ↔ [[COPD]]
+
+## Linking Summary (Sex Differences — Estrogen–Sirtuin Hub, 2026-09-02)
+
+- **New Sex Differences section** added establishing SIRT1 as the hub of the estrogen–sirtuin axis (`E₂→ER→SIRT1`), the male-mirror [[SIRT6]] arm, and the post-menopausal "estrogen cliff" that collapses the hub.
+- Cross-links added: [[SIRT3]], [[SIRT6]], [[NAD+]], [[NF-κB]], [[cGAS-STING Pathway]], [[SASP]], [[Inflammaging]], [[Telomere]], [[Bcl-2]], [[PARP1]].
+- Strong connections to strengthen: [[SIRT1]] ↔ [[SIRT3]] (shared estrogen program), [[SIRT1]] ↔ [[SIRT6]] (complementary sex bias), [[SIRT1]] ↔ [[NAD+]] (PARP-1 sex divergence relevance).

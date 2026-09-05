@@ -35,6 +35,6 @@ List of documents that mention this entity
 - [[Oxidative Stress]] — ROS promote angiogenic signaling
 
 ## Linking Summary
-- New links added: [[Cancer]], [[HIF-1α]], [[Oxidative Stress]], [[Integrins]], [[RGD peptide]], [[Breast Cancer]], [[glioblastoma]]
+- New links added: [[Cancer]], [[HIF-1α]], [[Oxidative Stress]], [[Integrins]], [[RGD peptide]], [[Breast Cancer]], [[Glioblastoma]]
 - Suggested new entity notes to create: [[VEGF]], [[VEGFR]], [[Anti-angiogenic therapy]]
   - Strong connections to strengthen: [[Angiogenesis]] ↔ Cancer, [[Angiogenesis]] ↔ Integrins

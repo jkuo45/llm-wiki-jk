@@ -48,7 +48,7 @@ In normal tissues FAK is essential for embryonic development, tissue repair, and
 
 ## Pathology & Clinical Relevance
 
-- **Cancer**: FAK is overexpressed or hyperactivated in numerous malignancies, including [[Breast Cancer]], [[glioblastoma]], [[Hepatocellular Carcinoma]], and [[ovarian cancer]], where it drives invasion, anoikis resistance, and [[Chemotherapy]] resistance. Elevated FAK correlates with poor prognosis and advanced stage.
+- **Cancer**: FAK is overexpressed or hyperactivated in numerous malignancies, including [[Breast Cancer]], [[Glioblastoma]], [[Hepatocellular Carcinoma]], and [[ovarian cancer]], where it drives invasion, anoikis resistance, and [[Chemotherapy]] resistance. Elevated FAK correlates with poor prognosis and advanced stage.
 - **Therapeutic Targeting**: FAK is a validated therapeutic target: small-molecule inhibitors (defactinib/PF-562271, GSK2256098, VS-6063) and antisense approaches are in clinical evaluation for mesothelioma, ovarian cancer, and other solid tumors, often combined with [[Immunotherapy]] or cytotoxic agents to overcome resistance. FAK inhibition can also restrain [[Tumor Microenvironment]] stiffness and dissemination.
 
 ## Documents
@@ -66,7 +66,7 @@ In normal tissues FAK is essential for embryonic development, tissue repair, and
 - [[NFKB]] — Survival pathway activated by the FAK-Caspase-8 complex
 - [[Metastasis]] — FAK-driven migration and invasion underpin dissemination
 - [[Angiogenesis]] — FAK cooperates with VEGF signaling in neovessel formation
-- [[glioblastoma]] — Aggressive tumor with frequent FAK hyperactivation
+- [[Glioblastoma]] — Aggressive tumor with frequent FAK hyperactivation
 - [[HER2]] — Receptor tyrosine kinase that converges on FAK signaling
 - [[Cancer]] — FAK is overexpressed in many cancers, driving metastasis
 - [[Apoptosis]] — FAK recruitment by Caspase-8 blocks apoptotic signaling
@@ -74,7 +74,7 @@ In normal tissues FAK is essential for embryonic development, tissue repair, and
 
 ## Linking Summary
 
-- New links added: [[Caspase-8]], [[Src]], [[PI3K]], [[NFKB]], [[Cancer]], [[Apoptosis]], [[Integrins]], [[MAPK]], [[EGFR]], [[HER2]], [[GPCR]], [[c-Met]], [[VEGF]], [[Angiogenesis]], [[Metastasis]], [[Chemotherapy]], [[Tumor Microenvironment]], [[Breast Cancer]], [[ovarian cancer]], [[glioblastoma]], [[Hepatocellular Carcinoma]], [[Immunotherapy]]
+- New links added: [[Caspase-8]], [[Src]], [[PI3K]], [[NFKB]], [[Cancer]], [[Apoptosis]], [[Integrins]], [[MAPK]], [[EGFR]], [[HER2]], [[GPCR]], [[c-Met]], [[VEGF]], [[Angiogenesis]], [[Metastasis]], [[Chemotherapy]], [[Tumor Microenvironment]], [[Breast Cancer]], [[ovarian cancer]], [[Glioblastoma]], [[Hepatocellular Carcinoma]], [[Immunotherapy]]
 - Suggested new entity notes to create: [[Focal Adhesion]], [[Anoikis]], [[p130Cas]], [[Defactinib]]
 - Strong connections to strengthen:
     - [[FAK]] ↔ [[Caspase-8]]

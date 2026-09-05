@@ -20,7 +20,7 @@ aliases:
 
 ## SIRT3 and chemoresistance
 
-The SIRT3 review highlights a context-dependent, tumor-supportive role of [[SIRT3]] in CLL: SIRT3 enables metabolic adaptation that confers chemoresistance via [[ROS]] buffering[272]. By boosting mitochondrial antioxidant capacity (e.g., through [[SOD2]] deacetylation and [[IDH2]]-driven [[NADPH]] production), SIRT3 protects leukemic cells from oxidative damage imposed by cytotoxic chemotherapy, allowing metabolic plasticity and survival under treatment pressure. This contrasts with SIRT3's tumor-suppressive actions in other settings and exemplifies the dualistic, context-dependent behavior of SIRT3 in cancer biology.
+The SIRT3 review highlights a context-dependent, tumor-supportive role of [[SIRT3]] in CLL: SIRT3 enables metabolic adaptation that confers chemoresistance via [[ROS]] buffering[272]. By boosting mitochondrial antioxidant capacity (e.g., through [[MnSOD]] deacetylation and [[IDH2]]-driven [[NADPH]] production), SIRT3 protects leukemic cells from oxidative damage imposed by cytotoxic chemotherapy, allowing metabolic plasticity and survival under treatment pressure. This contrasts with SIRT3's tumor-suppressive actions in other settings and exemplifies the dualistic, context-dependent behavior of SIRT3 in cancer biology.
 
 ## Therapeutic implications
 
@@ -35,12 +35,12 @@ The finding argues for context-specific SIRT3 modulation in oncology: while SIRT
 
 - [[SIRT3]]: Enables metabolic adaptation and ROS buffering conferring chemoresistance in CLL.
 - [[ROS]]: Oxidative burden buffered by SIRT3 to protect leukemic cells.
-- [[SOD2]]: Key SIRT3 deacetylation target in the antioxidant program.
+- [[MnSOD]]: Key SIRT3 deacetylation target in the antioxidant program.
 - [[Cancer]]: Disease category exemplifying SIRT3's context-dependent oncogenic potential.
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[ROS]], [[SOD2]], [[Cancer]]
+- New links added: [[SIRT3]], [[ROS]], [[MnSOD]], [[Cancer]]
 - Suggested new entity notes to create: none
 - Strong connections to strengthen:
     - [[SIRT3]] ↔ [[Cancer]] (context-dependent chemoresistance via ROS buffering)

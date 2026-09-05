@@ -55,7 +55,8 @@ List of documents that mention this entity
 - [[MAO]] ↔ Enzyme that produces H₂O₂ as a metabolic byproduct.
 - [[Adrenochrome]] ↔ Oxidative byproduct whose formation is facilitated by H₂O₂.
 - [[Oxidative Stress]] ↔ Central player in the ROS cascade.
+- [[MnSOD]] ↔ Mitochondrial product of SOD2 superoxide dismutation; feeds the peroxiredoxin/thioredoxin water arm (`MnSOD → H₂O₂ → Prx3/Trx2 → H₂O`).
 
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Stress-Induced Premature Senescence]]
-  - Strong connections to strengthen: [[Hydrogen Peroxide]] <-> [[Stress-Induced Premature Senescence]]
+  - Strong connections to strengthen: [[Hydrogen Peroxide]] <-> [[Stress-Induced Premature Senescence]]; [[Hydrogen Peroxide]] ↔ [[MnSOD]] (peroxide-relay substrate)

@@ -50,7 +50,7 @@ At each cycle, the semiquinone radical reduces molecular oxygen to **[[Superoxid
 
 > Adrenochrome semiquinone + O₂ → Adrenochrome + O₂●⁻
 
-Superoxide is rapidly dismutated by [[Superoxide Dismutase|superoxide dismutase]] (SOD, principally [[SOD2|MnSOD/SOD2]] in [[Mitochondria|mitochondria]], [[SOD1|CuZnSOD/SOD1]] in cytosol) to H₂O₂. H₂O₂, in the presence of reduced transition metals (Fe²⁺, Cu⁺), yields **[[Hydroxyl Radicals|hydroxyl radical]] (•OH)** via [[Fenton Reaction|Fenton chemistry]]:
+Superoxide is rapidly dismutated by [[Superoxide Dismutase|superoxide dismutase]] (SOD, principally [[MnSOD|MnSOD/SOD2]] in [[Mitochondria|mitochondria]], [[SOD1|CuZnSOD/SOD1]] in cytosol) to H₂O₂. H₂O₂, in the presence of reduced transition metals (Fe²⁺, Cu⁺), yields **[[Hydroxyl Radicals|hydroxyl radical]] (•OH)** via [[Fenton Reaction|Fenton chemistry]]:
 
 > Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻
 
@@ -218,14 +218,14 @@ List of documents that mention this entity
 - [[Adrenochrome]] ↔ [[Lipid Peroxidation]] — Direct mechanistic bridge via redox cycling → ROS → hydroxyl radical → PUFA hydrogen abstraction
 - [[Adrenochrome]] ↔ [[Ferroptosis]] — Hypothesized dual mechanism: ROS generation + GPX4 inhibition
 - [[Adrenochrome]] ↔ [[GPX4]] — Hypothesized electrophilic inhibition by *o*-quinone, analogous to RSL3
-- [[Adrenochrome]] ↔ [[SOD1]]/[[SOD2]] — Superoxide dismutation as the link between adrenochrome redox cycling and H₂O₂ production
+- [[Adrenochrome]] ↔ [[SOD1]]/[[MnSOD]] — Superoxide dismutation as the link between adrenochrome redox cycling and H₂O₂ production
 - [[Adrenochrome]] ↔ [[Takotsubo Cardiomyopathy]] — Catecholamine surge → adrenochrome → myocardial lipid peroxidation
 - [[Adrenochrome]] ↔ [[Dopaminochrome]] — Parallel catecholamine *o*-quinone chemistry in heart vs brain
 - [[Adrenochrome]] ↔ [[Compound C]] — Existing (serendipitous) graph path linking adrenochrome to AMPK
 
 ## Linking Summary
 
-- New links added in this document: [[Adrenochrome]], [[Lipid Peroxidation]], [[Compound C]], [[AMPK]], [[Superoxide]], [[Hydrogen Peroxide]], [[Leuco-adrenochrome]], [[Adrenochrome Semiquinone Radical]], [[Reactive Oxygen Species]], [[Fenton Reaction]], [[Hydroxyl Radicals]], [[Polyunsaturated fatty acids]], [[Redox Cycling]], [[Oxidative Stress]], [[Superoxide Dismutase]], [[SOD2]], [[SOD1]], [[Mitochondria]], [[o-quinone]], [[Lipid peroxyl radical]], [[Lipid hydroperoxide]], [[Vitamin E]], [[NADPH]], [[Glutathione]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Arachidonic acid]], [[Docosahexaenoic acid]], [[Epinephrine]], [[Norepinephrine]], [[Catecholamines]], [[Aminochromes]], [[Ferroptosis]], [[GPX4]], [[RSL3]], [[Selenocysteine]], [[SIRT3]], [[LKB1]], [[Catecholamine-induced cardiomyopathy]], [[Takotsubo Cardiomyopathy]], [[Ischemia-reperfusion Injury]], [[Myeloperoxidase]], [[Neutrophils]], [[Myocardium]], [[Cardiomyocytes]], [[SERCA2a]], [[Pheochromocytoma]], [[Sepsis]], [[Cardiac arrest]], [[Anaphylaxis]], [[Dopaminochrome]], [[Dopamine]], [[Substantia Nigra]], [[Neuromelanin]], [[Parkinson's Disease]], [[F2-Isoprostanes]], [[C11-BODIPY]], [[TBARS]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Necrostatin-1]], [[Z-VAD-FMK]]
+- New links added in this document: [[Adrenochrome]], [[Lipid Peroxidation]], [[Compound C]], [[AMPK]], [[Superoxide]], [[Hydrogen Peroxide]], [[Leuco-adrenochrome]], [[Adrenochrome Semiquinone Radical]], [[Reactive Oxygen Species]], [[Fenton Reaction]], [[Hydroxyl Radicals]], [[Polyunsaturated fatty acids]], [[Redox Cycling]], [[Oxidative Stress]], [[Superoxide Dismutase]], [[MnSOD]], [[SOD1]], [[Mitochondria]], [[o-quinone]], [[Lipid peroxyl radical]], [[Lipid hydroperoxide]], [[Vitamin E]], [[NADPH]], [[Glutathione]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Arachidonic acid]], [[Docosahexaenoic acid]], [[Epinephrine]], [[Norepinephrine]], [[Catecholamines]], [[Aminochromes]], [[Ferroptosis]], [[GPX4]], [[RSL3]], [[Selenocysteine]], [[SIRT3]], [[LKB1]], [[Catecholamine-induced cardiomyopathy]], [[Takotsubo Cardiomyopathy]], [[Ischemia-reperfusion Injury]], [[Myeloperoxidase]], [[Neutrophils]], [[Myocardium]], [[Cardiomyocytes]], [[SERCA2a]], [[Pheochromocytoma]], [[Sepsis]], [[Cardiac arrest]], [[Anaphylaxis]], [[Dopaminochrome]], [[Dopamine]], [[Substantia Nigra]], [[Neuromelanin]], [[Parkinson's Disease]], [[F2-Isoprostanes]], [[C11-BODIPY]], [[TBARS]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Necrostatin-1]], [[Z-VAD-FMK]]
 - Suggested new entity notes to create: [[RSL3]], [[C11-BODIPY]], [[TBARS]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Necrostatin-1]], [[Z-VAD-FMK]], [[Pheochromocytoma]], [[Docosahexaenoic acid]], [[CuZnSOD]] (as alias for SOD1)
 - Strong connections to strengthen:
   - [[Adrenochrome]] ↔ [[Lipid Peroxidation]] (direct mechanistic edge currently missing from graph)

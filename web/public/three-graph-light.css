@@ -181,15 +181,13 @@ body {
 #controls #btn-analysis,
 #controls #btn-notes,
 #controls #btn-admin,
-#controls #btn-unstick,
-#controls #dataset-mode-toggle { color: var(--ink-4); }
+#controls #btn-unstick { color: var(--ink-4); }
 #controls #btn-reset:hover,
 #controls #btn-save-png:hover,
 #controls #btn-analysis:hover,
 #controls #btn-notes:hover,
 #controls #btn-admin:hover,
-#controls #btn-unstick:hover,
-#controls #dataset-mode-toggle:hover { color: var(--ink-hi); border-color: var(--accent); }
+#controls #btn-unstick:hover { color: var(--ink-hi); border-color: var(--accent); }
 #controls #btn-analysis.open, #controls #btn-analysis.active,
 #controls #btn-notes.open,
 #controls #btn-admin.open { background: var(--paper-deep); border-color: var(--accent); color: var(--ink-hi); }
@@ -258,12 +256,13 @@ body {
 #page-modal-overlay.light-theme #page-modal-close { color: var(--ink-4); }
 #page-modal-overlay.light-theme #page-modal-close:hover { color: var(--ink-hi); }
 #page-modal-overlay.light-theme #page-modal-frame { background: var(--paper-body); }
-/* "Last modified" freshness chip next to the reader title */
 #page-modal-overlay.light-theme .reader-source-toggle {
-  background: var(--paper); border-color: var(--line-strong); color: var(--ink-hi);
+  background: transparent; border: none; color: var(--ink-hi);
 }
+#page-modal-overlay.light-theme .reader-source-toggle button { color: var(--ink-4); border-bottom-color: transparent; background: transparent; }
+#page-modal-overlay.light-theme .reader-source-toggle button:hover:not(.active) { color: var(--ink-hi); border-bottom-color: var(--line-strong); }
 #page-modal-overlay.light-theme .reader-source-toggle button.active {
-  background: #E4EDF0; color: var(--accent);
+  background: transparent; color: var(--ink-hi); border-bottom-color: var(--accent);
 }
 
 /* Analysis panel — full-viewport overlay: panel and body backgrounds are both
@@ -288,18 +287,30 @@ body {
 .analysis-mode-tab { color: var(--ink-4); }
 .analysis-mode-tab:hover { color: var(--ink-hi); }
 .analysis-mode-tab.active { background: var(--accent); color: var(--surface); }
-#controls #dataset-mode-toggle .mode-label { color: inherit; }
 .analysis-activity-dot { border-color: var(--surface); }
 .analysis-activity-dot.thinking { border-color: var(--surface); }
-#detail-loaded-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
+#ui-toasts .ui-toast { background: var(--surface); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28, 39, 66, 0.18); }
+
+/* Boot gate — error / empty states rendered by graph.js via ui/AsyncState.js. */
+.boot-state { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 24px; max-width: min(90vw, 480px); }
+.boot-state .boot-state-icon { color: #ff7a7a; }
+.boot-state--empty .boot-state-icon { color: var(--ink-5); }
+.boot-state h2 { font-size: 1.05rem; color: var(--ink-hi); }
+.boot-state-detail { font-size: 13px; color: var(--ink-4); word-break: break-word; }
+.boot-state-btn { margin-top: 6px; padding: 8px 18px; border-radius: var(--r-md); border: 1px solid var(--line-strong); background: var(--surface-1); color: var(--ink-hi); font: inherit; font-size: 13px; cursor: pointer; transition: border-color .15s, color .15s; }
+.boot-state-btn:hover { border-color: var(--accent); color: #fff; }
+#loading[data-mode="error"] .spinner, #loading[data-mode="error"] > h2, #loading[data-mode="error"] > p { display: none; }
 
 /* Explore widgets */
 .at-h { color: var(--ink-4); }
+.at-stat-row:hover { background: rgba(60,60,80,0.05); }
 .at-hint { color: #9AA4B3; }
 .at-hint kbd { background: var(--paper); border-color: var(--line-strong); color: var(--ink-hi); }
 .at-card { background: var(--surface); border-color: var(--line-strong); box-shadow: 0 1px 3px rgba(34, 48, 74, 0.06); }
 .at-card .v { color: var(--ink-hi); }
 .at-card .k { color: var(--ink-4); }
+.at-card .at-card-tip { background: var(--surface); border-color: var(--accent); color: var(--ink-hi); box-shadow: 0 6px 20px rgba(28,39,66,0.14); }
+.at-mode-badge { color: var(--accent); background: rgba(15,118,110,0.08); border-color: rgba(15,118,110,0.18); }
 .at-reset { border-color: var(--line-strong); color: var(--ink-4); }
 .at-reset:hover { border-color: var(--accent); color: var(--ink-hi); }
 .at-row:hover, .at-comm:hover, .prompt-suggestion:hover { background: #F1ECE0; }
@@ -404,10 +415,11 @@ body {
 /* Settings gear + popover (light) */
 #controls #btn-settings { background: var(--surface); border-color: var(--line-strong); color: var(--ink-4); }
 #controls #btn-settings:hover { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
-#controls #btn-settings.active { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
-#settings-popover { background: var(--surface); border-color: var(--line); box-shadow: 0 -16px 48px rgba(34,48,74,0.22); }
-#settings-popover .settings-sheet-header { background: var(--surface); }
+#controls #btn-settings.open, #controls #btn-settings.active { color: var(--ink-hi); border-color: var(--accent); background: var(--paper-deep); }
+#settings-popover { background: var(--paper-body); border-color: var(--line); box-shadow: 0 -16px 48px rgba(34,48,74,0.22); }
+#settings-popover #settings-header { background: var(--paper); }
 #settings-popover h3 { color: var(--ink-4); border-bottom-color: var(--line); }
+#settings-popover .settings-panel { background: var(--surface); }
 #settings-popover .settings-row > label { color: var(--ink-hi); }
 #settings-popover .settings-row-head output { color: var(--ink-4); }
 #settings-popover .display-grid button { color: var(--ink-hi); }

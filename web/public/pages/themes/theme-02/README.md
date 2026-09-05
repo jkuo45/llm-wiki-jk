@@ -5,6 +5,11 @@ Used by the standalone article pages:
 - `web/pages/index.html`
 - `node-analysis-examples-biology.html` (+ `_zh-TW`)
 - `adrenochrome-protocol-node-network-analysis.html` (+ `_zh-TW`)
+- `beyond-mitohormesis-overlooked-paradigms.html` (+ `_zh-TW`)
+- `discovery-arrival-graph-metrics.html` (+ `_zh-TW`)
+- `wiki-and-triples-graph-biological-processes.html` (+ `_zh-TW`)
+- `neurodegeneration-ad-pd-hd-als-review.html` (+ `_zh-TW`)
+- `caspase-graph-analysis-28-AUG-2026.html` (+ `_zh-TW`)
 
 Structure mirrors `themes/theme-01/`: shared base assets live here;
 page-specific styles/scripts stay inline in each page.
@@ -13,9 +18,10 @@ page-specific styles/scripts stay inline in each page.
 
 | File | Purpose |
 |---|---|
-| `theme.css` | Shared base: font imports, `:root` light palette, reset, nav/hero primitives **and** shared article chrome (notes, figures, tables, metrics, lightbox…). Loaded BEFORE each page's inline `<style>`. |
+| `theme.css` | Shared base: font imports, `:root` light palette, reset, nav/hero primitives **and** shared article chrome (notes, figures, tables, metrics, lightbox…). Loaded BEFORE each page's inline `<style>`. Includes the mobile table readability guard (prose columns get a `min-width` so wide tables scroll horizontally instead of collapsing to narrow columns). |
 | `pages-core.js` | Shared behaviors as global `T2`: SVG diagram helpers (`el`, `text`, `svgRoot`, `arrowHead`, `wrapText`), scroll-spy, chart tooltip, figure lightbox, nav scroll-hint, Reader/iframe detection. Synchronous in `<head>`. |
 | `theme.js` | Pre-paint theme bootstrap (no flash) + resident listener for `storage` events / `wiki-theme` postMessages. |
+| `pages-svg.js` | Copy-to-clipboard / PNG export for diagram SVGs and data tables (`resolveCssVars`, `svgToPngBlob`, copy-button sweep). Theme-agnostic — kept as a local copy so theme-02 pages don't depend on theme-01 assets. Loaded at the end of `<body>` (after page figure scripts). |
 | `dark.css` | `[data-theme="dark"]` token overrides + attribute-selector remaps for hardcoded SVG fill/stroke hexes. Loaded AFTER inline `<style>` so overrides win. |
 
 ## Page head/body template
@@ -41,6 +47,10 @@ page-specific styles/scripts stay inline in each page.
   `localStorage['llm-wiki-theme']` opts into dark — same key as theme-01,
   so one toggle controls everything. Dark palette matches the graph app's
   navy theme.
+- The page-world rule lives on `window.AppTheme`
+  (`currentTheme()`/`isDark()`), defined (define-once) by `theme.js` and by
+  `themes/theme-01/page-theme.js`; `themes/theme-01/pages-core.js` consumes
+  it at runtime. `components/theme.js` mirrors the same rule for the bundle.
 
 ## Conventions for new pages
 
@@ -50,3 +60,8 @@ page-specific styles/scripts stay inline in each page.
    (`var C = {...}`) may hardcode light hexes — add a remap selector to
    `dark.css` if you introduce a new one. Prefer `"var(--ink)"`
    / `"var(--sheet)"` fills where possible so dark mode works natively.
+
+The graph app applies the same rule set via `web/public/tokens.css`
+(geometry + control tokens; header comment there is the canonical contract).
+This theme's convention #2 and the graph-app token rule are one shared
+standard — don't fork them.

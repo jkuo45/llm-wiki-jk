@@ -25,7 +25,7 @@ The nucleus pulposus (NP) is the hydrated, gelatinous central component of the [
 - [[SIRT3]] expression is significantly reduced in degenerated discs; SIRT3 knockdown exacerbates NPC deterioration under oxidative stress.
 - [[Lactate|lactate]] downregulates SIRT3, increasing [[ACSL4|ACSL4]] lactylation and promoting [[Ferroptosis|ferroptosis]] in NPCs, accelerating functional decline.
 - SIRT3 safeguards NPCs against [[Advanced Glycation End Products|advanced glycation end product (AGE)]]-induced [[Apoptosis|apoptosis]] and supports mitochondrial homeostasis via the [[AMPK]]/[[PGC-1α]] pathway.
-- SIRT3 overexpression alleviates IDD severity *in vivo*; hydrogel microspheres co-delivering SIRT3 and [[SOD2]] maintain NPC viability.
+- SIRT3 overexpression alleviates IDD severity *in vivo*; hydrogel microspheres co-delivering SIRT3 and [[MnSOD]] maintain NPC viability.
 
 ## Clinical Relevance
 
@@ -45,11 +45,11 @@ The nucleus pulposus (NP) is the hydrated, gelatinous central component of the [
 - [[Ferroptosis]]: Cell death mode accelerating NPC decline.
 - [[Advanced Glycation End Products]]: Metabolic stressor inducing NPC apoptosis.
 - [[AMPK]] / [[PGC-1α]]: Mitochondrial maintenance axis in NPCs.
-- [[SOD2]]: Antioxidant enzyme co-upregulated with SIRT3 in disc therapies.
+- [[MnSOD]]: Antioxidant enzyme co-upregulated with SIRT3 in disc therapies.
 
 ## Linking Summary
 
-- New links added: [[Intervertebral Disc Degeneration]], [[SIRT3]], [[Lactate]], [[ACSL4]], [[Ferroptosis]], [[Advanced Glycation End Products]], [[Apoptosis]], [[AMPK]], [[PGC-1α]], [[SOD2]], [[Cellular Senescence]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]]
+- New links added: [[Intervertebral Disc Degeneration]], [[SIRT3]], [[Lactate]], [[ACSL4]], [[Ferroptosis]], [[Advanced Glycation End Products]], [[Apoptosis]], [[AMPK]], [[PGC-1α]], [[MnSOD]], [[Cellular Senescence]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]]
 - Strong connections to strengthen:
     - [[SIRT3]] ↔ [[Nucleus Pulposus]] (NPC survival, ACSL4 lactylation-ferroptosis axis)
 

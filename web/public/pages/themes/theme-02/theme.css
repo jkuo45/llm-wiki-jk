@@ -123,7 +123,11 @@ a:hover {
   background: color-mix(in srgb, var(--paper) 86%, white);
   backdrop-filter: saturate(1.2) blur(10px);
   border-bottom: 1px solid var(--rule);
+  transition: transform .25s ease;
+  will-change: transform;
 }
+.site-nav.nav-hidden{transform:translateY(-100%);}
+@media (prefers-reduced-motion: reduce){.site-nav{transition:none;}}
 
 .site-nav .wrap {
   height: 100%;
@@ -551,6 +555,22 @@ figcaption strong {
   color: var(--ink-soft);
   font-weight: 600;
 }
+
+/* Muted italic aside within figure captions */
+.fig-note {
+  color: var(--mute);
+  font-style: italic;
+  display: inline-block;
+  margin-top: 4px;
+}
+.fig-note strong {
+  color: var(--mute);
+  font-style: normal;
+  font-weight: 600;
+}
+
+sup { font-size: 0.7em; }
+sub { font-size: 0.7em; }
 
 .fig-grid {
   display: grid;
@@ -1352,7 +1372,8 @@ body.lb-open {
   }
 
   /* Table: reduce padding and font size */
-  .table-wrap table {
+  .table-wrap table,
+  .table-host table {
     font-size: 12.5px;
   }
 
@@ -1361,8 +1382,20 @@ body.lb-open {
   }
 
   .table-wrap table th:first-child,
-  .table-wrap table td:first-child {
+  .table-wrap table td:first-child,
+  .table-host table th:first-child,
+  .table-host table td:first-child {
     min-width: 110px;
+  }
+
+  /* Long prose columns (CJK wraps at any character) get a comfortable width so
+     the table scrolls horizontally instead of collapsing to narrow, hard-to-read
+     columns. Numeric (.num) columns and the sticky first column keep defaults. */
+  .table-wrap table th:not(:first-child),
+  .table-host table th:not(:first-child),
+  .table-wrap table td:not(:first-child):not(.num),
+  .table-host table td:not(:first-child):not(.num) {
+    min-width: 150px;
   }
 
   /* Notes: reduce padding */

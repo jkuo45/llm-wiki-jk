@@ -6,8 +6,9 @@ import networkx as nx
 import pytest
 from networkx.readwrite import json_graph
 
-import api.graph_ops as go
-import api.wiki as wiki
+import api.domain.graph_ops as go
+
+import api.domain.wiki as wiki
 
 NODES = [
     {"id": "sirt1", "label": "SIRT1", "norm_label": "sirt1",

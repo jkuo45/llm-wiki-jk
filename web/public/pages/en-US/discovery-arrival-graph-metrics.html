@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 <style>
   .table-wrap caption { caption-side: bottom; text-align: left; font-size: .85rem; padding: .5rem .25rem; opacity: .75; }
@@ -612,10 +613,7 @@
         <strong>statin↔mitohormesis antagonism</strong> edge (CoQ10 depletion undermining the hormetic defense) — no
         such edge exists in the graph, no paper states it directly, and it is checkable. This is classic signed link
         prediction (<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>)
-        transplanted to biology, and it is a natural generator of <strong>Assumptions-Lab conflicts</strong>: when a
-        curated stance resolves a conflict, the correction is <em>materialized into the graph itself</em> (via
-        <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code>), and every downstream metric —
-        including the replay metrics above — recomputes against the corrected topology.
+        transplanted to biology.
       </p>
 
       <figure class="fig">
@@ -651,7 +649,7 @@
         </div>
         <figcaption>
           Triads <em>suggest</em>, never prove — signs are extraction-derived. Weight composed paths by minimum edge
-          confidence; register confident conflicts in <code>assumptions.json</code> so the build applies them.
+          confidence.
         </figcaption>
       </figure>
 
@@ -742,7 +740,7 @@
             <tr><td><strong>Adamic-Adar / resource allocation</strong> (thin node)</td><td>foreseeable neighborhood — the triage queue; 80% at birth, decays as the node fills</td><td>polarity- and direction-blind; hub bias without degree-matched nulls; needs one clinically bridging seed (the Lymphopenia lesson)</td></tr>
             <tr><td><strong>Typed-path composition</strong></td><td><strong>unknown connections with inherited semantics</strong> (COVID→SIRT3→ferroptosis-brake-release; X→Y→cancer)</td><td>composition ≠ deduction; extraction noise propagates; flag analogical vs mechanistic paths (EVOKE)</td></tr>
             <tr><td><strong>Attribute transfer via a new hub edge</strong></td><td>a single new edge pre-wires the node to the hub's whole cloud</td><td>depends on hub quality; garbage-hub edges spread garbage</td></tr>
-            <tr><td><strong>Signed triads / balance</strong></td><td>sign of unknown edges; Assumptions-Lab conflict mining</td><td>signs are extraction-derived; triads suggest, never prove</td></tr>
+            <tr><td><strong>Signed triads / balance</strong></td><td>sign of unknown edges</td><td>signs are extraction-derived; triads suggest, never prove</td></tr>
             <tr><td><strong>Direction (in/out edges)</strong></td><td>upstream levers vs downstream consequences; two opposite therapeutic programs on one node</td><td>only as good as the extraction's orientation (<code>is_inhibited_by</code> vs <code>inhibits</code> bookkeeping)</td></tr>
             <tr><td><strong>PPR from the node</strong></td><td>field gravity well; where influence accumulates (Statins→Ferroptosis #3 of 2,996)</td><td>accumulated, not future, implications; local until mature</td></tr>
             <tr><td><strong>Betweenness trajectory</strong></td><td>maturation/bridging (×11 leap at ferroptosis-2020; baricitinib-style constrained bridging)</td><td>percentile churn re-grades 21–111 nodes per insertion; needs a null</td></tr>
@@ -823,6 +821,6 @@
   }
 })();
 </script>
-  <script src="../themes/theme-01/pages-svg.js"></script>
+  <script src="../themes/theme-02/pages-svg.js"></script>
 </body>
 </html>

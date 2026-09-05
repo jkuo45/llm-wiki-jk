@@ -47,7 +47,7 @@ Diabetic Cardiomyopathy (DCM) is a distinct myocardial pathology in [[Type 2 Dia
 
 ## Linking Summary
 
-- New links added: [[Type 2 Diabetes]], [[SIRT3]], [[Melatonin]], [[Mst1]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[Mitophagy]], [[SOD2]], [[Cardiomyocytes]], [[Electron Transport Chain]], [[FGF21]], [[Heart Failure]]
+- New links added: [[Type 2 Diabetes]], [[SIRT3]], [[Melatonin]], [[Mst1]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[Mitophagy]], [[MnSOD]], [[Cardiomyocytes]], [[Electron Transport Chain]], [[FGF21]], [[Heart Failure]]
 - Suggested new entity notes to create: [[AGO2]], [[Cytochrome b]]
 - Strong connections to strengthen:
     - [[SIRT3]] ↔ [[Diabetic Cardiomyopathy]] (AGO2/cytochrome b axis; melatonin via Mst1)

@@ -46,6 +46,7 @@ List of documents that mention this entity
 - [[Cardiovascular Disease]] — Major cause of heart failure
 - [[Hypertension]] — Chronic pressure overload leads to HF
 - [[Oxidative Stress]] — Drives myocardial remodeling
+- [[Thioredoxin-1]] — Decreased in failing hearts (with MnSOD and Bcl-xL); its systemic overexpression confers cardiac stress resistance, and stimulating such longevity mechanisms is proposed as a heart-failure treatment modality
 - [[Mitochondria|Mitochondrial]] dysfunction — Impaired energetics in failing hearts
 - [[DRP1]] — Upregulated in HF; DRP1 deletion causes lethal heart defects
 - [[MFN1]] / [[MFN2]] — Downregulated in HF and idiopathic dilated cardiomyopathy
@@ -56,6 +57,6 @@ List of documents that mention this entity
 - [[SIRT6]] — Decreased in chronic HF; overexpression improves TAC-induced HF survival via TERT/TRF1
 
 ## Linking Summary
-- New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]], [[DRP1]], [[MFN1]], [[MFN2]], [[OPA1]], [[FIS1]], [[BNIP3]], [[PINK1]], [[Parkin]], [[Mitophagy]], [[Mitochondrial Dynamics]], [[Mdivi-1]], [[Metformin]], [[AMPK]], [[PGC-1α]], [[SIRT1]], [[SIRT6]], [[MnSOD]], [[FoxO1]], [[NF-κB]], [[BDNF]], [[SERCA2a]], [[TERT]]
-- Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]], [[Thioredoxin 1]]
+- New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]], [[DRP1]], [[MFN1]], [[MFN2]], [[OPA1]], [[FIS1]], [[BNIP3]], [[PINK1]], [[Parkin]], [[Mitophagy]], [[Mitochondrial Dynamics]], [[Mdivi-1]], [[Metformin]], [[AMPK]], [[PGC-1α]], [[SIRT1]], [[SIRT6]], [[MnSOD]], [[FoxO1]], [[NF-κB]], [[BDNF]], [[SERCA2a]], [[TERT]], [[Thioredoxin-1]]
+- Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]]
   - Strong connections to strengthen: Heart Failure ↔ [[Cardiovascular Disease]], Heart Failure ↔ [[DRP1]], Heart Failure ↔ [[Mitophagy]], [[SIRT1]] ↔ [[Heart Failure]]

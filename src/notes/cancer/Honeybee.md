@@ -47,7 +47,7 @@ List of documents that mention this entity
 - [[Autophagy]]: Parallel melittin-induced program.
 - [[Metastasis]]: Dissemination restrained by melittin.
 - [[Ivermectin]]: Potential combinatorial partner.
-- [[glioblastoma]]: Tumor sensitive to bee-venom activity.
+- [[Glioblastoma]]: Tumor sensitive to bee-venom activity.
 
 ## Linking Summary
 

@@ -10,7 +10,7 @@ aliases: []
 
 # Cilengitide
 
-**Cilengitide** (EMD 121974) is a cyclic [[RGD peptide]] derivative that acts as a potent, selective antagonist of the αvβ3 and αvβ5 [[Integrins]]. It was principally developed as an anti-[[Angiogenesis]] agent for the treatment of [[glioblastoma]] and other solid tumors by blocking integrin-mediated endothelial and tumor cell survival signaling.
+**Cilengitide** (EMD 121974) is a cyclic [[RGD peptide]] derivative that acts as a potent, selective antagonist of the αvβ3 and αvβ5 [[Integrins]]. It was principally developed as an anti-[[Angiogenesis]] agent for the treatment of [[Glioblastoma]] and other solid tumors by blocking integrin-mediated endothelial and tumor cell survival signaling.
 
 ## Chemistry & Pharmacology
 
@@ -22,19 +22,19 @@ During [[Angiogenesis]], αvβ3 and αvβ5 are upregulated on sprouting endothel
 
 ## Clinical & Research Relevance
 
-Cilengitide advanced to phase III trials in newly diagnosed [[glioblastoma]] (combined with temozolomide/radiotherapy) based on promising phase II activity, but the pivotal trials did not meet overall-survival endpoints in the unselected population, though a molecularly defined MGMT-unmethylated subgroup showed possible benefit. It remains a reference tool compound for integrin-targeted therapeutics and is studied in combination with VEGF-pathway inhibitors and integrin-directed imaging. Lessons from cilengitide underscore the need for biomarker selection (e.g., integrin expression, MGMT status) in anti-angiogenic drug development.
+Cilengitide advanced to phase III trials in newly diagnosed [[Glioblastoma]] (combined with temozolomide/radiotherapy) based on promising phase II activity, but the pivotal trials did not meet overall-survival endpoints in the unselected population, though a molecularly defined MGMT-unmethylated subgroup showed possible benefit. It remains a reference tool compound for integrin-targeted therapeutics and is studied in combination with VEGF-pathway inhibitors and integrin-directed imaging. Lessons from cilengitide underscore the need for biomarker selection (e.g., integrin expression, MGMT status) in anti-angiogenic drug development.
 
 ## Connections
 
 - [[RGD peptide]]: Cilengitide is a cyclic RGD derivative.
 - [[Integrins]]: αvβ3/αvβ5 are the direct molecular targets.
 - [[Angiogenesis]]: The pathological process cilengitide is designed to block.
-- [[glioblastoma]]: Lead indication in clinical development.
+- [[Glioblastoma]]: Lead indication in clinical development.
 - [[Chemotherapy]]: Combined with cilengitide in trials.
 - [[CendR motif]]: Related but distinct integrin/penetration peptide strategy.
 
 ## Linking Summary
 
-- New links added: [[RGD peptide]], [[Integrins]], [[glioblastoma]], [[Angiogenesis]], [[Chemotherapy]]
+- New links added: [[RGD peptide]], [[Integrins]], [[Glioblastoma]], [[Angiogenesis]], [[Chemotherapy]]
 - Suggested new entity notes to create: [[Focal Adhesion Kinase]], [[Vitronectin]]
-- Strong connections to strengthen: [[Cilengitide]] ↔ [[glioblastoma]], [[Cilengitide]] ↔ [[Integrins]]
+- Strong connections to strengthen: [[Cilengitide]] ↔ [[Glioblastoma]], [[Cilengitide]] ↔ [[Integrins]]

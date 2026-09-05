@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 <style>
   .table-wrap caption { caption-side: bottom; text-align: left; font-size: .85rem; padding: .5rem .25rem; opacity: .75; }
@@ -591,9 +592,7 @@
         <strong>statin↔mitohormesis 拮抗</strong>邊（CoQ10 耗竭侵蝕激效防禦）——圖譜中沒有這條邊，
         也沒有論文直接陳述它，而且它可以被檢驗。這是經典的符號化連結預測
         （<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>）
-        移植到生物學，也是 <strong>Assumptions-Lab 衝突</strong>的天然產生器：當策展立場解決了一個衝突，
-        修正會<em>實體化進圖譜本身</em>（經 <code>07_sync_assumptions.py</code> (since removed) → <code>scripts/triples/rebuild.py</code>），
-        所有下游指標——包括上述重播指標——都會對修正後的拓撲重算。
+        移植到生物學。
       </p>
 
       <figure class="fig">
@@ -628,8 +627,7 @@
         </svg>
         </div>
         <figcaption>
-          三元組只是<em>暗示</em>，從不證明——符號來自萃取。合成的路徑應以最低邊信心加權；
-          高信心的衝突應登錄在 <code>assumptions.json</code>，讓建構流程套用它們。
+          三元組只是<em>暗示</em>，從不證明——符號來自萃取。合成的路徑應以最低邊信心加權。
         </figcaption>
       </figure>
 
@@ -718,7 +716,7 @@
             <tr><td><strong>Adamic-Adar／資源分配</strong>（單薄節點）</td><td>可預見的鄰域——分流佇列；誕生時 80%，隨節點填滿而衰減</td><td>對極性與方向盲目；缺乏度數匹配的零模型時有樞紐偏誤；需要一顆臨床橋接種子（Lymphopenia 教訓）</td></tr>
             <tr><td><strong>型別路徑合成</strong></td><td><strong>帶有繼承語義的未知連結</strong>（COVID→SIRT3→解除鐵死亡剎車；X→Y→cancer）</td><td>合成 ≠ 演繹；萃取雜訊會傳播；要標記類比 vs 機制路徑（EVOKE）</td></tr>
             <tr><td><strong>經由新樞紐邊的屬性轉移</strong></td><td>單一條新邊就把節點預接到樞紐的整團屬性雲</td><td>取決於樞紐品質；連到垃圾樞紐的邊散播垃圾</td></tr>
-            <tr><td><strong>符號三元組／平衡</strong></td><td>未知邊的符號；Assumptions-Lab 衝突探勘</td><td>符號來自萃取；三元組只是暗示，從不證明</td></tr>
+            <tr><td><strong>符號三元組／平衡</strong></td><td>未知邊的符號</td><td>符號來自萃取；三元組只是暗示，從不證明</td></tr>
             <tr><td><strong>方向（入/出邊）</strong></td><td>上游槓桿 vs 下游後果；同一節點上兩套相反的治療方案</td><td>只與萃取的方向標記一樣好（<code>is_inhibited_by</code> vs <code>inhibits</code> 的記帳）</td></tr>
             <tr><td><strong>從節點出發的 PPR</strong></td><td>領域重力井；影響力累積在哪（Statins→Ferroptosis，2,996 個中排第 3）</td><td>量的是已累積、而非未來的推論；成熟前停在局部</td></tr>
             <tr><td><strong>介數軌跡</strong></td><td>成熟／橋接（鐵死亡-2020 的 ×11 跳升；baricitinib 式的受限橋接）</td><td>百分位攪動會在每次插入時重評 21–111 個節點；需要零模型</td></tr>
@@ -798,6 +796,6 @@
   }
 })();
 </script>
-  <script src="../themes/theme-01/pages-svg.js"></script>
+  <script src="../themes/theme-02/pages-svg.js"></script>
 </body>
 </html>

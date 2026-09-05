@@ -65,5 +65,5 @@ List of documents in the wiki that mention this entity
 ## Linking Summary
 
   - New links added: [[Redox Homeostasis]], [[Oxidative Stress]], [[Redox]], [[Glutathione]], [[Mitochondrial ROS]], [[Antioxidant]], [[NAD+]], [[AMPK]]
-  - Suggested new entity notes to create: [[Thioredoxin]], [[Mitohormesis]], [[NADPH oxidase]]
+  - Suggested new entity notes to create: [[Thioredoxin]], [[Mitohormesis]], [[NADPH Oxidase]]
   - Strong connections to strengthen: [[Redox Homeostasis]] ↔ [[Aging]]; ↔ [[Sirtuins]]

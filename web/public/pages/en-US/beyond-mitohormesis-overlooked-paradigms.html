@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond Mitohormesis — Biological Processes Where the "A Little Bad Is Good" Paradigm Is Overlooked</title>
+<meta name="description" content="A data-driven synthesis of twelve biological domains exhibiting hormetic dose-responses — where mild stressors produce adaptive benefits — that are systematically overlooked due to negative-connotation framing.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific palette for SVGs */
+  :root {
+    --teal: #2a9d8f;
+    --red: #c1121f;
+    --amber: #e9c46a;
+    --green: #345443;
+    --blue: #264653;
+    --purple: #7b2cbf;
+  }
+  .domain-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 18px 0 22px; }
+  @media (min-width: 720px) { .domain-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 960px) { .domain-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .domain-card { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px 12px; position: relative; }
+  .domain-card h3 { margin: 0 0 6px; font-size: 0.95rem; }
+  .domain-card p { font-size: 0.88rem; color: var(--ink-soft); margin: 0; }
+  .domain-num { font-family: var(--mono); font-size: 11px; color: var(--oxblood); position: absolute; top: 14px; right: 16px; }
+  .evidence-tag { display: inline-block; font-family: var(--mono); font-size: 10px; padding: 1px 6px; border: 1px solid currentColor; border-radius: 2px; margin-top: 6px; }
+  .evidence-tag.strong { color: var(--green); }
+  .evidence-tag.emerging { color: var(--gold); }
+  .evidence-tag.contested { color: var(--red); }
+  .key-stat { font-family: var(--mono); font-size: 1.6rem; font-weight: 700; color: var(--oxblood); }
+  .comparison-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin: 18px 0 22px; }
+  @media (max-width: 720px) { .comparison-row { grid-template-columns: 1fr; } }
+  .comparison-cell { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; text-align: center; }
+  .comparison-cell .label { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); margin-bottom: 6px; }
+  .flow-line { border-top: 1px solid var(--rule); margin: 24px 0; }
+  /* Remove the extra bottom padding on this page's main grid (shared .page
+     default is 36px 0 80px; links up against the footer instead). */
+  .wrap.page { padding-bottom: 0; }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#landscape">Landscape</a>
+      <a href="#radiation">Radiation</a>
+      <a href="#ros">ROS Signaling</a>
+      <a href="#inflammation">Inflammation</a>
+      <a href="#hypoxia">Hypoxia</a>
+      <a href="#fasting">Fasting</a>
+      <a href="#immune">Immune Education</a>
+      <a href="#thermal">Thermal</a>
+      <a href="#psych">Psych Stress</a>
+      <a href="#xeno">Xenohormesis</a>
+      <a href="#alcohol">Alcohol J-Curve</a>
+      <a href="#gut">Gut Microbiome</a>
+      <a href="#bone">Bone/Mechanical</a>
+      <a href="#synthesis">Synthesis</a>
+      <a href="#refs">References</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Research synthesis · llm-wiki-jk</p>
+    <h1>Beyond Mitohormesis — 12 Overlooked Hormetic Domains</h1>
+    <p class="lede">
+      The central thesis of hormesis — that subtoxic stress triggers adaptive resilience — is
+      well-established in exercise physiology and caloric restriction. Yet <b style="color:var(--oxblood)">at least twelve
+      other biological domains</b> exhibit the same biphasic pattern, where the beneficial low-dose
+      response is systematically overlooked because the stressor itself carries overwhelmingly
+      negative connotations. This synthesis maps each domain with evidence, mechanism, and
+      quantitative dose-response data.
+    </p>
+    <div class="meta">
+      <p><strong>Source:</strong> <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md" target="_blank">src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md</a></code></p>
+      <p><strong>Literature:</strong> 2024–2026 primary literature · meta-analyses · prospective cohort data</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="On this page">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#landscape">12-Domain Landscape</a></li>
+      <li><a href="#radiation">Radiation Hormesis</a></li>
+      <li><a href="#ros">ROS Signaling</a></li>
+      <li><a href="#inflammation">Inflammation</a></li>
+      <li><a href="#hypoxia">Intermittent Hypoxia</a></li>
+      <li><a href="#fasting">Caloric Stress</a></li>
+      <li><a href="#immune">Immune Education</a></li>
+      <li><a href="#thermal">Thermal Exposure</a></li>
+      <li><a href="#psych">Psychological Stress</a></li>
+      <li><a href="#xeno">Xenohormesis</a></li>
+      <li><a href="#alcohol">Alcohol J-Curve</a></li>
+      <li><a href="#gut">Gut Microbiome</a></li>
+      <li><a href="#bone">Bone / Mechanical</a></li>
+      <li><a href="#synthesis">Synthesis</a></li>
+      <li><a href="#refs">References</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== OVERVIEW ==================== -->
+    <section id="overview">
+      <p class="sec-label">Framing</p>
+      <h2>The 30–60% Signature: A Universal Quantitative Marker of Hormesis</h2>
+      <p class="drop">
+        Calabrese's meta-analytic work across &gt;800 dose-response datasets — spanning bacteria,
+        yeast, plants, and animals — reveals that maximum hormetic stimulation is consistently
+        <strong>30–60% above baseline</strong>, regardless of stressor type, species, or endpoint.
+        This quantitative ceiling defines the limits of biological plasticity and is the single most
+        reliable marker that a response is hormetic rather than pharmacological or toxicological.
+      </p>
+      <p>
+        The 2024 <em>Nature</em> review by Li et al. (101 citations, 36k accesses) and the 2026 Springer
+        "Crucible of Resilience" paper both argue that <strong>80–90% of hormesis research is invisible
+        under standard search terms</strong> because different fields use different language —
+        "adaptive response," "preconditioning," "repeated bout effect," "eustress" — without
+        recognizing they share a common biological substrate.
+      </p>
+
+      <!-- FIGURE 1: Hormetic Dose-Response Curve -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 1 · Dose–Response</span>
+        </div>
+        <div class="fig-canvas" id="fig1Canvas"></div>
+        <figcaption>
+          <strong>The canonical hormetic biphasic dose–response curve.</strong>
+          Subtoxic doses produce a 30–60% stimulatory overshoot (shaded green zone) before
+          the response inverts at higher doses. The <em>x</em>-axis represents stressor intensity
+          (radiation, ROS, hypoxia, temperature, toxin concentration); the <em>y</em>-axis
+          represents the biological response relative to control (1.0). The shaded grey zone
+          marks the typical hormetic window observed across taxa. Calabrese &amp; Baldwin (2001),
+          <em>Human &amp; Experimental Toxicology</em>, cited by 460+.
+        </figcaption>
+      </figure>
+
+      <div class="comparison-row">
+        <div class="comparison-cell">
+          <div class="label">Stressor categories</div>
+          <div class="key-stat">12</div>
+          <p style="font-size:.85rem; color:var(--mute); margin-top:6px;">Radiation · ROS · Inflammation · Hypoxia · Fasting · Microbial · Thermal · Psychological · Toxin · Alcohol · Gut · Mechanical</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">Max stimulatory range</div>
+          <div class="key-stat">30–60%</div>
+          <p style="font-size:.85rem; color:var(--mute); margin-top:6px;">Above baseline — consistent across species, sex, and endpoint. This ceiling is the quantitative signature of hormesis (Calabrese, 2011, cited by 338).</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">Literature invisibility</div>
+          <div class="key-stat">80–90%</div>
+          <p style="font-size:.85rem; color:var(--mute); margin-top:6px;">Of hormesis-relevant studies are missed under standard search terms due to field-specific vocabulary fragmentation (Li et al., 2024, <em>Nature</em>).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 12-DOMAIN LANDSCAPE ==================== -->
+    <section id="landscape">
+      <p class="sec-label">Landscape</p>
+      <h2>12 Overlooked Hormetic Domains — Evidence Strength vs. Degree of Oversight</h2>
+      <p>
+        Each domain below is mapped by two axes: <strong>evidence strength</strong> (how well the
+        biphasic dose–response is documented) and <strong>degree of oversight</strong> (how much
+        the negative framing of the stressor suppresses recognition of its hormetic benefits).
+        Domains in the upper-right quadrant — high evidence, high oversight — represent the most
+        significant blind spots in current clinical and research paradigms.
+      </p>
+
+      <!-- FIGURE 2: 12-Domain Radar/Overview -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 2 · Domain Landscape</span>
+        </div>
+        <div class="fig-canvas" id="fig2Canvas"></div>
+        <figcaption>
+          <strong>Twelve overlooked hormetic domains ranked by evidence strength and degree of clinical oversight.</strong>
+          The x-axis is clinical oversight (right = more overlooked), the y-axis is evidence strength
+          (up = stronger) — so the <em>top-right</em> region holds high-evidence, high-oversight
+          blind spots. Bubble size reflects the estimated supporting-literature base; color encodes
+          <strong>evidence tier</strong> — green = strong, amber = emerging, red = contested. The
+          dashed lines mark the midpoints of each axis to help read the four regions.
+          <em class="fig-note"><strong>Note:</strong> the cluster sits in the upper-right rather
+          than the centre — by the thesis definition every domain here is already substantially
+          clinically overlooked (oversight ≥ the axis midpoint), and most are well-evidenced, so few
+          points fall in the low-oversight or low-evidence regions. The contested (red) domains sit
+          below the evidence midline.</em>
+        </figcaption>
+      </figure>
+
+      <div class="domain-grid">
+        <div class="domain-card">
+          <span class="domain-num">01</span>
+          <h3>Low-Dose Radiation</h3>
+          <p>LDR activates ATM → DNA repair → FOXO → antioxidant defense. Ramsar residents: up to 260 mSv/yr, no increased DNA damage. LNT model blocks regulatory acceptance.</p>
+          <span class="evidence-tag contested">Contested</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">02</span>
+          <h3>ROS Signaling</h3>
+          <p>ROS are essential second messengers for NRF2, AMPK, HIF-1α. High-dose antioxidants increase mortality in RCTs (ATBC, CARET). The "free radical theory" framing persists.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">03</span>
+          <h3>Inflammation</h3>
+          <p>Acute inflammation drives tissue repair. NSAIDs impair satellite cell proliferation and the repeated bout effect. Anti-inflammatory overuse is clinically pervasive.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">04</span>
+          <h3>Intermittent Hypoxia</h3>
+          <p>IHC improves cognition in older adults (5 registered trials). HIF-1α stabilization converges with mitohormetic pathways. Hypoxia = clinical fear.</p>
+          <span class="evidence-tag emerging">Emerging</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">05</span>
+          <h3>Caloric Stress / Fasting</h3>
+          <p>Fasting duration, not just caloric reduction, triggers autophagy + BDNF + mTORC1 suppression. Fasting is framed as malnutrition risk.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">06</span>
+          <h3>Hygiene / Old Friends</h3>
+          <p>Microbial exposure trains Tregs. Farm children: dramatically lower asthma. Helminth therapy: mixed RCT results but mechanistically validated.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">07</span>
+          <h3>Heat / Cold Exposure</h3>
+          <p>Sauna: 4–7×/wk → 50% CVD mortality reduction (Laukkanen, n=2,315, 20.7 yr). Cold: BAT activation + RBM3 synapse regeneration. No pharma equivalent → limited research.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">08</span>
+          <h3>Psychological Stress</h3>
+          <p>SIT → larger prefrontal cortex volume in primates. Yerkes-Dodson inverted-U = psychological hormesis. Mental health field focused on stress reduction, not titration.</p>
+          <span class="evidence-tag emerging">Emerging</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">09</span>
+          <h3>Xenohormesis / Phytochemicals</h3>
+          <p>Sulforaphane → NRF2 activation 10–100× dietary antioxidants. Poor bioavailability may keep compounds in the hormetic window. "Antioxidant" framing obscures mechanism.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">10</span>
+          <h3>Low-Dose Alcohol</h3>
+          <p>J-curve: Copenhagen Heart Study RR 0.51 for CVD at 3–5 glasses/day. Mendelian randomization challenges causality. Public health "no safe level" framing.</p>
+          <span class="evidence-tag contested">Contested</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">11</span>
+          <h3>Gut Microbial Colonization</h3>
+          <p>FMT >80% cure for recurrent <em>C. difficile</em>. Germ-free animals: stunted immunity, reduced BDNF. SCFAs activate GPR41/43 and autophagy.</p>
+          <span class="evidence-tag strong">Strong</span>
+        </div>
+        <div class="domain-card">
+          <span class="domain-num">12</span>
+          <h3>Mechanical Stress on Bone</h3>
+          <p>Wolff's Law: bone adapts to loads. Microgravity → rapid bone loss; loading → remodeling. Fracture prevention focuses on Ca²⁺/D rather than progressive loading.</p>
+          <span class="evidence-tag emerging">Emerging</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RADIATION ==================== -->
+    <section id="radiation">
+      <p class="sec-label">Low-Dose Radiation Hormesis</p>
+      <h2>The Most Controversial Blind Spot</h2>
+      <p>
+        Radiation is universally framed as harmful. The <strong>Linear No-Threshold (LNT) model</strong> —
+        which assumes zero safe dose — dominates radiation protection regulation worldwide despite
+        a growing body of contradictory evidence. Acknowledging hormesis would require restructuring
+        safety standards and public communication about nuclear energy, medical imaging, and background
+        radiation.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Cohort / Study</th>
+              <th class="num">Dose</th>
+              <th>Finding</th>
+              <th>Mechanism</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Ramsar, Iran</strong> (Ghiassi-Nejad et al., 2004; Kanani, 2025)</td>
+              <td class="num">Up to 260 mSv/yr</td>
+              <td>No significant increase in DNA damage vs. normal-background populations. Enhanced DNA repair capacity.</td>
+              <td>↑ CD69 on CD4⁺ T cells, ↑ serum IgE, enhanced lymphocyte repair</td>
+            </tr>
+            <tr>
+              <td><strong>Atomic bomb periphery survivors</strong></td>
+              <td class="num">~10–100 mSv</td>
+              <td>Paradoxically lower cancer mortality and longer average lifespans.</td>
+              <td>Hormetic immune/repair activation via ATM → p53</td>
+            </tr>
+            <tr>
+              <td><strong>NASA / Mortazavi studies</strong></td>
+              <td class="num">~5–50 mSv</td>
+              <td>Adaptive responses may enhance astronaut resilience against infections during spaceflight.</td>
+              <td>NF-κB, NRF2/ARE antioxidant defense</td>
+            </tr>
+            <tr>
+              <td><strong>Meta-analytic evidence</strong> (Calabrese)</td>
+              <td class="num">&lt;10 cGy</td>
+              <td>Biphasic: beneficial at low dose, harmful above threshold.</td>
+              <td>ATM → MAPK/ERK/JNK → p53-mediated repair</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note slate">
+        <h4>Mechanistic Convergence</h4>
+        <p>
+          LDR hormesis operates through the same <strong>ATM → DNA damage response → FOXO → antioxidant
+          defense cascade</strong> seen in mitohormesis. The "stress signal" is ionizing radiation rather
+          than mitochondrial ROS, but the downstream adaptive architecture is conserved. Both systems
+          converge on AMPK, NRF2, and SIRT1 — the same nutrient/stress sensor network.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== ROS SIGNALING ==================== -->
+    <section id="ros">
+      <p class="sec-label">ROS Signaling</p>
+      <h2>The Fall of the Free Radical Theory of Aging</h2>
+      <p>
+        For decades, reactive oxygen species (ROS) were cast as unambiguous cellular villains.
+        The "Free Radical Theory of Aging" (FRTA) spawned a massive antioxidant supplement industry
+        built on the premise that quenching ROS = health. The data overwhelmingly refute this framing:
+        <strong>high-dose antioxidant supplementation increases mortality</strong> in large randomized
+        controlled trials.
+      </p>
+
+      <!-- FIGURE 3: Antioxidant Supplement Meta-Analyses -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 3 · Antioxidant Supplements × Mortality</span>
+        </div>
+        <div class="fig-canvas" id="fig3Canvas"></div>
+        <figcaption>
+          <strong>Meta-analytic risk ratios for all-cause mortality from antioxidant supplementation (RCTs, low-bias trials).</strong>
+          Bars show relative risk with 95% CI. Values &gt;1.0 indicate increased mortality risk.
+          Beta-carotene (RR 1.06), vitamin A (RR 1.16), and vitamin E (RR 1.04) significantly
+          increased mortality in low-bias trials. Vitamin C and selenium showed no significant effect.
+          Data from Bjelakovic et al. (2007), <em>JAMA</em>; 47 low-bias trials, 180,938 participants.
+        </figcaption>
+      </figure>
+
+      <div class="note gold">
+        <h4>The Exercise–Antioxidant Paradox</h4>
+        <p>
+          Exercise generates ROS at moderate levels that orchestrate mitochondrial biogenesis,
+          antioxidant defense, neuroplasticity, and vascular homeostasis (Dimauro et al., 2026,
+          <em>Free Radical Biology and Medicine</em>). Co-supplementation with antioxidants during
+          exercise <strong>blunts these adaptive benefits</strong> — identical to the finding that
+          antioxidants administered alongside metformin attenuate its longevity effects. This is the
+          canonical mitohormetic cascade: exercise-induced mitochondrial ROS → AMPK → PGC-1α →
+          mitochondrial biogenesis.
+        </p>
+      </div>
+
+      <p>
+        The shift from "ROS = damage" to "ROS = signal" has been slow because the oxidative stress →
+        disease narrative is so deeply embedded in medical education, marketing, and patient communication.
+        The 2025 <em>Signal Transduction and Targeted Therapy</em> review calls for
+        <strong>"precision redox medicine"</strong> — modulating rather than eliminating ROS.
+      </p>
+    </section>
+
+    <!-- ==================== INFLAMMATION ==================== -->
+    <section id="inflammation">
+      <p class="sec-label">Inflammation</p>
+      <h2>The Enemy That Heals</h2>
+      <p>
+        "Inflammation" has become nearly synonymous with disease in public health messaging.
+        Chronic inflammation is real and harmful, but the <strong>acute inflammatory response is the
+        fundamental mechanism of tissue repair and immune defense</strong>. Anti-inflammatory overuse
+        (NSAIDs, steroids) can impair healing by suppressing exactly the pathways that drive adaptation.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Phenomenon</th>
+              <th>Hormetic Mechanism</th>
+              <th>Clinical Implication</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Exercise-induced muscle damage (EIMD)</strong></td>
+              <td>Eccentric exercise → transient TNF-α, IL-6, IP-10, MCP-1 → satellite cell activation → muscle regeneration</td>
+              <td>NSAIDs post-exercise <strong>inhibit satellite cell proliferation</strong> (Mikkelsen et al., 2009), impairing long-term adaptation</td>
+            </tr>
+            <tr>
+              <td><strong>Repeated bout effect</strong></td>
+              <td>Initial damaging bout → neural, architectural, molecular adaptations → progressively less damage on subsequent bouts</td>
+              <td>Preconditioning exercise (low-intensity eccentric before high-intensity) represents an underused hormetic strategy</td>
+            </tr>
+            <tr>
+              <td><strong>Fever as immune amplifier</strong></td>
+              <td>Mild fever → ↑ immune cell activity, ↑ T cell proliferation, improved pathogen clearance</td>
+              <td>Routine antipyretic use during infection may prolong illness (severe fever remains dangerous)</td>
+            </tr>
+            <tr>
+              <td><strong>Acute vs. chronic inflammation</strong></td>
+              <td>Same molecular players serve opposite functions depending on timing and magnitude (Zhang et al., 2026)</td>
+              <td>Clinical anti-inflammatory intervention often applied without distinguishing adaptive from pathological inflammation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ==================== HYPOXIA ==================== -->
+    <section id="hypoxia">
+      <p class="sec-label">Intermittent Hypoxia</p>
+      <h2>Low Oxygen as a Brain and Heart Stimulant</h2>
+      <p>
+        Hypoxia is a feared clinical event — stroke, altitude sickness, sleep apnea. But
+        <strong>intermittent, controlled mild hypoxia</strong> activates profoundly beneficial
+        adaptive pathways. The negative framing of "low oxygen" obscures a therapeutic window
+        that parallels mitohormesis almost exactly.
+      </p>
+
+      <div class="note">
+        <h4>Mechanistic Convergence</h4>
+        <p>
+          Intermittent hypoxia → <strong>HIF-1α → mitochondrial ROS → AMPK → PGC-1α</strong>
+          is nearly identical to the mitohormetic cascade. The "signal" is oxygen deprivation
+          rather than electron transport chain inhibition, but the adaptive circuitry overlaps
+          heavily. In <em>C. elegans</em>, mild hypoxia → transient mtROS → HIF-1 → positive
+          ROS feedback → AMPK negative feedback → net ROS homeostasis with lifespan extension
+          and enhanced immunity (Li et al., 2024).
+        </p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Study / Review</th>
+              <th>Intervention</th>
+              <th>Outcome</th>
+              <th class="num">n</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Boulares et al. (2024), <em>J Alzheimer's Disease</em></td>
+              <td>IHT / IHHT in older adults</td>
+              <td>Improved cognitive function, including in mild cognitive impairment</td>
+              <td class="num">7 studies + 5 registered trials</td>
+            </tr>
+            <tr>
+              <td>Burtscher et al. (2026), <em>AIMS Neuroscience</em></td>
+              <td>Intermittent hypoxia conditioning</td>
+              <td>Improved cognition and mental health in multiple pilot studies</td>
+              <td class="num">Multiple pilots</td>
+            </tr>
+            <tr>
+              <td>Coimbra-Costa et al. (2021)</td>
+              <td>Intermittent hypobaric hypoxic preconditioning</td>
+              <td>Neuroprotection via ↑ antioxidant activity, ↑ EPO, ↓ apoptosis</td>
+              <td class="num">Animal model</td>
+            </tr>
+            <tr>
+              <td>Li et al. (2024), <em>Nature</em></td>
+              <td>Mild hypoxia in <em>C. elegans</em></td>
+              <td>Lifespan extension + enhanced immunity via HIF-1/AMPK/mtROS feedback</td>
+              <td class="num">Model organism</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Hypoxia in clinical contexts (sleep apnea, stroke, perioperative events) is catastrophic.
+        The idea that <em>controlled</em> low oxygen could be therapeutic seems counterintuitive to
+        clinicians trained to prevent oxygen deprivation. The field also suffers from confusing
+        terminology — "therapeutic hypoxia" vs. "intermittent hypoxia training" vs. "altitude
+        training" — which fragments the literature.
+      </p>
+    </section>
+
+    <!-- ==================== FASTING ==================== -->
+    <section id="fasting">
+      <p class="sec-label">Caloric Stress &amp; Fasting</p>
+      <h2>Hunger as Cellular Cleanup</h2>
+      <p>
+        Fasting is framed clinically as a deprivation state — a risk factor for hypoglycemia,
+        muscle wasting, and metabolic stress. Yet intermittent fasting and caloric restriction are
+        among the most robust longevity interventions across taxa. The 2026 <em>Frontiers in Nutrition</em>
+        paper explicitly frames intermittent fasting as a <strong>hormetic signal for adaptation</strong>
+        (Strilbytska &amp; Lushchak, 2026).
+      </p>
+
+      <div class="note forest">
+        <h4>The Energy Deficit IS the Signal</h4>
+        <p>
+          A 2025 <em>Nature Communications</em> study in 3×Tg Alzheimer's mice found that
+          <strong>energy restriction with prolonged fasting</strong> — not just reduced calories —
+          was required for cognitive improvement, Aβ plaque reduction, tau pathology reduction,
+          and mTORC1 suppression. The <em>fasting duration</em> was the hormetic trigger.
+          Separately, a 2025 DZD study showed that intermittent fasting without caloric reduction
+          (isocaloric time-restricted eating) shifted circadian clocks but did <strong>not</strong>
+          improve cardiometabolic health — suggesting the metabolic stress component, not just meal
+          timing, drives the hormetic response.
+        </p>
+      </div>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="domain-card">
+          <h3>Metabolic Switching (12–36 hr)</h3>
+          <p>Brain shifts from glucose to β-hydroxybutyrate (BHB). BHB induces BDNF expression via histone deacetylase inhibition, enhancing hippocampal neurogenesis and synaptic plasticity (Seidler &amp; Barrow, 2022).</p>
+        </div>
+        <div class="domain-card">
+          <h3>Autophagy Activation</h3>
+          <p>AMPK → TFEB → lysosomal biogenesis → autophagy. Clears damaged mitochondria and protein aggregates. Overlaps directly with UPR<sub>mt</sub> and mitophagy arms of mitohormesis.</p>
+        </div>
+      </div>
+
+      <p>
+        Clinical nutrition guidelines focus on <em>what</em> to eat, not <em>when</em> or
+        <em>how little</em> to eat intermittently. The finding that the fasting state itself is a
+        hormetic stressor — engaging autophagy, mitochondrial quality control, and neurotrophic
+        pathways — suggests periodic caloric deficit could be prescribed as deliberately as exercise.
+      </p>
+    </section>
+
+    <!-- ==================== IMMUNE EDUCATION ==================== -->
+    <section id="immune">
+      <p class="sec-label">Hygiene Hypothesis / Old Friends</p>
+      <h2>Infection as Immune Education</h2>
+      <p>
+        Modern hygiene, while essential for infectious disease prevention, has inadvertently stripped
+        the immune system of the microbial training signals it co-evolved with over millions of years.
+        The resulting epidemic of autoimmune and allergic diseases represents a massive, population-scale
+        experiment in what happens when a hormetic input (microbial exposure) is removed.
+      </p>
+
+      <div class="note gold">
+        <h4>The "Old Friends" Hypothesis (Graham Rook)</h4>
+        <p>
+          Not about infections per se, but about commensal bacteria, saprophytic mycobacteria, and
+          helminths — organisms with which humans co-evolved — that train regulatory T cells (Tregs)
+          and calibrate immune tolerance (PMC 10524266, 2023). Children raised on farms with diverse
+          microbial exposure have dramatically lower rates of asthma and allergies. Exposure to barn
+          dust, animal microbiota, and environmental microbes creates a "tolerogenic mucosal symbiosis"
+          with a balanced anti-inflammatory milieu.
+        </p>
+      </div>
+
+      <div class="note" style="border-left-color: var(--gold);">
+        <h4>Helminth Therapy — Infection as Medicine</h4>
+        <p>
+          An early open-label study of <em>Trichuris suis</em> ova (TSO) in Crohn's disease showed a
+          <strong>79% clinical response rate</strong> with clinical remission in 72% of patients
+          (Summers et al., 2005). However, subsequent phase II RCTs (TRUST-I: n=250; TRUST-II: n=252)
+          failed to show superiority over placebo for the primary endpoint. The discrepancy may reflect
+          differences between open-label and controlled settings, concomitant medication effects, or
+          the natural remission rate of IBD. TSO did show a <strong>dose-dependent immunological
+          response</strong> — confirming the biological mechanism — even without clinical separation.
+          Regulatory T cell education via Bacteroides sp. and Clostridium clusters IV/XIVa remains
+          mechanistically validated as the key pathway.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== THERMAL ==================== -->
+    <section id="thermal">
+      <p class="sec-label">Thermal Stress</p>
+      <h2>Heat &amp; Cold Exposure as Cellular Maintenance</h2>
+      <p>
+        Both extreme heat and cold are lethal. The clinical and public health response has been to
+        minimize <em>all</em> thermal stress rather than recognize that controlled, intermittent exposure
+        activates deeply conserved protective cascades. The 2026 <em>Frontiers in Rehabilitation Science</em>
+        paper calls this "untapped potential in rehabilitation" (Alito et al., 2026).
+      </p>
+
+      <!-- FIGURE 4: Sauna Dose-Response (Hazard Ratios) -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 4 · Sauna × CVD Mortality</span>
+        </div>
+        <div class="fig-canvas" id="fig4Canvas"></div>
+        <figcaption>
+          <strong>Finnish Kuopio Ischemic Heart Disease Study — hazard ratios for CVD mortality by sauna frequency.</strong>
+          Compared with 1 session/week, 4–7 sessions/week reduced CVD mortality risk by <strong>50%</strong>
+          (HR 0.50, 95% CI 0.33–0.77) in men (n=2,315, 20.7-year follow-up) and by <strong>77%</strong>
+          (HR 0.23, 95% CI 0.08–0.65) in men and women combined (n=1,688, 15-year follow-up).
+          A linear dose–response with no threshold effect was observed. Data: Laukkanen et al. (2015),
+          <em>JAMA Internal Medicine</em>; Laukkanen et al. (2018), <em>BMC Medicine</em>.
+        </figcaption>
+      </figure>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="domain-card" style="border-left: 3px solid var(--oxblood);">
+          <h3>🜁 Heat (Sauna / Hyperthermia)</h3>
+          <p><strong>HSP70/HSP90</strong> → molecular chaperones repair misfolded proteins — the same proteostasis network central to longevity science. Norepinephrine release comparable to maximal exercise. HSPs are activated by caloric restriction, exercise, and mitohormetic signaling — central to proteostasis, one of the hallmarks of aging.</p>
+          <span class="evidence-tag strong">Strong evidence</span>
+        </div>
+        <div class="domain-card" style="border-left: 3px solid var(--slate);">
+          <h3>❄ Cold (Cryotherapy / CWI)</h3>
+          <p><strong>Brown adipose tissue (BAT)</strong> activation → UCP1 → ↑ energy expenditure + insulin sensitivity. Cold shock protein <strong>RBM3</strong> regenerates lost synapses. 250% sustained dopamine increase post-exposure — comparable to pharmacological interventions. The Søberg Protocol: 11 min/wk cold + 57 min/wk heat, ending on cold.</p>
+          <span class="evidence-tag emerging">Emerging evidence</span>
+        </div>
+      </div>
+
+      <p>
+        <strong>Contrast therapy</strong> — alternating heat (vasodilation) and cold (vasoconstriction) —
+        trains endothelial function and autonomic nervous system flexibility, essentially a "vascular
+        workout" leveraging the hormetic principle. Neither heat nor cold exposure has a pharmaceutical
+        equivalent, so there is limited industry incentive to research or promote them.
+      </p>
+    </section>
+
+    <!-- ==================== PSYCHOLOGICAL STRESS ==================== -->
+    <section id="psych">
+      <p class="sec-label">Psychological Stress Inoculation</p>
+      <h2>Adversity as Cognitive Training</h2>
+      <p>
+        Psychological stress is overwhelmingly framed as pathological. The concept of "eustress"
+        (positive stress) exists in psychology but is rarely applied clinically. The Yerkes-Dodson
+        inverted-U (1908) predicted this a century ago, yet most mental health interventions focus
+        on stress <em>reduction</em> rather than stress <em>titration</em>.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Finding</th>
+              <th>Evidence</th>
+              <th>Implication</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Yerkes-Dodson Law</strong></td>
+              <td>Performance improves with arousal to an optimum, then declines. Inverted-U = psychological hormesis curve.</td>
+              <td>The optimal stress zone is trainable, not fixed.</td>
+            </tr>
+            <tr>
+              <td><strong>Stress inoculation training (SIT)</strong></td>
+              <td>Inoculated monkeys develop higher cognitive control, greater curiosity, and <strong>larger prefrontal cortex volume</strong> (Lyons &amp; Parker, 2007).</td>
+              <td>Measurable brain structural changes from moderate, managed stress.</td>
+            </tr>
+            <tr>
+              <td><strong>Post-traumatic growth (PTG)</strong></td>
+              <td>~50% of trauma survivors report meaningful positive psychological change (Tedeschi &amp; Calhoun, 1996).</td>
+              <td>Extreme trauma may create a hyper-plastic state comparable to post-stroke neural reorganization.</td>
+            </tr>
+            <tr>
+              <td><strong>Cognitive reserve</strong></td>
+              <td>Moderate life adversity, well-managed, builds greater cognitive resilience than a difficulty-free life.</td>
+              <td>Dendritic branching, synaptogenesis, and hippocampal volume increase with challenge.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note" style="border-left-color: var(--red);">
+        <h4 style="color: var(--red);">Dose Matters</h4>
+        <p>
+          Chronic, overwhelming stress physically shrinks the hippocampus, dysregulates the HPA axis,
+          and causes allostatic overload. The hormetic benefit applies <strong>only within the
+          manageable, recoverable range</strong>. This is identical to the mitohormetic principle:
+          sublethal mitochondrial stress extends lifespan; lethal mitochondrial stress kills cells.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== XENOHORMESIS ==================== -->
+    <section id="xeno">
+      <p class="sec-label">Low-Dose Toxin Exposure</p>
+      <h2>Xenohormesis and Phytochemicals</h2>
+      <p>
+        The word "toxin" triggers immediate avoidance. But plants produce thousands of mild toxic
+        compounds — polyphenols, alkaloids, isothiocyanates — that animals have evolved to sense as
+        environmental challenge signals. Our <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Xenohormesis.md" target="_blank">Xenohormesis</a>
+        note covers this in the wiki, but the clinical implications are underexplored.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Compound</th>
+              <th>Source</th>
+              <th>Hormetic Mechanism</th>
+              <th>Key Insight</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Sulforaphane</strong></td>
+              <td>Broccoli sprouts</td>
+              <td>Activates NRF2 at subtoxic doses</td>
+              <td>Upregulates endogenous antioxidant enzymes 10–100× more effectively than dietary antioxidants</td>
+            </tr>
+            <tr>
+              <td><strong>Resveratrol</strong></td>
+              <td>Red wine, grapes</td>
+              <td>Activates SIRT1 and AMPK</td>
+              <td>High-dose supplement narrative largely debunked; hormetic micro-dose concept remains valid</td>
+            </tr>
+            <tr>
+              <td><strong>Curcumin</strong></td>
+              <td>Turmeric</td>
+              <td>Activates HSF1 and NRF2</td>
+              <td>Poor bioavailability may be advantageous — keeps tissue concentration in hormetic window</td>
+            </tr>
+            <tr>
+              <td><strong>4-HNE</strong></td>
+              <td>Lipid peroxidation product</td>
+              <td>Activates NRF2 as adaptive signal</td>
+              <td>Conventionally a "damage marker" — actually a hormetic inducer at low concentrations</td>
+            </tr>
+            <tr>
+              <td><strong>Metformin</strong></td>
+              <td>Pharmaceutical</td>
+              <td>Complex I inhibition → SIRT1/PGC-1α/FOXO</td>
+              <td>Antioxidant co-administration attenuates benefits — the canonical pharma-hormetic example</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        The phytochemical-to-health pipeline is dominated by "antioxidant" framing — as if these
+        compounds work by scavenging free radicals. In reality, most phytochemicals work by
+        <strong>being mildly toxic</strong>, triggering the cell's own far more powerful endogenous
+        defense systems. This is the xenohormesis insight, but it is rarely communicated to patients
+        or the public.
+      </p>
+    </section>
+
+    <!-- ==================== ALCOHOL ==================== -->
+    <section id="alcohol">
+      <p class="sec-label">Low-Dose Alcohol</p>
+      <h2>The Contested J-Curve</h2>
+      <p>
+        The "J-shaped curve" — where low-to-moderate alcohol consumption correlates with lower
+        cardiovascular and all-cause mortality than abstinence — has been one of the most debated
+        phenomena in epidemiology. Recent Mendelian randomization studies have challenged the causal
+        interpretation, but the mechanistic evidence for biphasic effects remains compelling.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Study</th>
+              <th class="num">n</th>
+              <th>Finding</th>
+              <th>Limitation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Copenhagen City Heart Study</strong></td>
+              <td class="num">13,285</td>
+              <td>Red wine: steady ↓ in CVD mortality, reaching RR 0.51 at 3–5 glasses/day (12-yr follow-up)</td>
+              <td>Observational; confounding by lifestyle factors</td>
+            </tr>
+            <tr>
+              <td><strong>Mendelian randomization</strong> (Kember et al., 2024, <em>MVP</em>)</td>
+              <td class="num">&gt;250,000</td>
+              <td>J-curve may partly reflect systematic biases — "sick quitter" abstainer groups, socioeconomic confounders</td>
+              <td>Genetic instruments may not fully satisfy exclusion restriction</td>
+            </tr>
+            <tr>
+              <td><strong>Hormetic interpretation</strong></td>
+              <td class="num">—</td>
+              <td>If alcohol activates low-dose adaptive pathways (mild ER stress → UPR, mild ROS → NRF2), effect would be small and easily confounded</td>
+              <td>Theoretical; hormetic zone (30–60% above baseline) is easily lost in noisy epidemiological data</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Public health messaging cannot safely recommend alcohol ("no safe level" per WHO 2023), so
+        the J-curve is systematically minimized. The hormetic framing — that <em>a</em> substance can
+        be harmful at high doses and mildly beneficial at low doses through adaptive stress response
+        activation — is theoretically consistent but practically impossible to translate into clinical
+        guidelines.
+      </p>
+    </section>
+
+    <!-- ==================== GUT MICROBIOME ==================== -->
+    <section id="gut">
+      <p class="sec-label">Microbial Colonization</p>
+      <h2>Dysbiosis as Signal</h2>
+      <p>
+        Modern medicine frames all bacterial overgrowth as infection requiring elimination. But the
+        gut microbiome exists on a continuum where moderate microbial challenge drives immune maturation,
+        metabolic regulation, and even neurotransmitter production.
+      </p>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="domain-card">
+          <h3>Germ-Free Animal Studies</h3>
+          <p>Animals raised without microbes have stunted immune systems, impaired gut barrier function, reduced BDNF, and abnormal brain development. Adding back commensals rescues these deficits — demonstrating that microbial colonization is a developmental requirement, not an optional input.</p>
+        </div>
+        <div class="domain-card">
+          <h3>Fecal Microbiota Transplantation</h3>
+          <p>FMT achieves &gt;80% cure rates for recurrent <em>C. difficile</em> — essentially "re-seeding" the ecosystem. The therapeutic agent is <strong>living bacteria</strong> — infection as cure. Post-antibiotic recovery represents both a vulnerability window and an adaptation opportunity.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <h4>Microbial Metabolites as Hormetic Signals</h4>
+        <p>
+          Short-chain fatty acids (butyrate, propionate) from gut fermentation activate GPR41/43
+          receptors, regulate autophagy, and influence systemic inflammation. These are mild metabolic
+          stress products with adaptive benefits. The entire antibiotic prescribing paradigm could
+          benefit from hormetic thinking: a "minimum effective dose" approach that preserves commensal
+          populations while controlling pathogens would maintain the training signals the immune system
+          requires.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== BONE / MECHANICAL ==================== -->
+    <section id="bone">
+      <p class="sec-label">Mechanical Stress on Bone</p>
+      <h2>Wolff's Law as Hormesis</h2>
+      <p>
+        Bone loss in space, disuse osteoporosis, and fragility fractures are well-known. But the
+        positive flipside — that mechanical loading within the hormetic window is the <strong>primary
+        signal for bone remodeling and tendon strengthening</strong> — receives far less clinical
+        attention than calcium/vitamin D supplementation and fall avoidance.
+      </p>
+
+      <div class="domain-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div class="domain-card">
+          <h3>Wolff's Law</h3>
+          <p>Bone adapts its architecture to the loads placed on it. BMD increases with weight-bearing exercise and decreases in microgravity — textbook hormetic response.</p>
+        </div>
+        <div class="domain-card">
+          <h3>Tendon Adaptation</h3>
+          <p>Tendons strengthen with progressive loading but degenerate with sudden overload or complete rest. The "sweet spot" involves moderate mechanical challenge with adequate recovery — the inverted-U.</p>
+        </div>
+        <div class="domain-card">
+          <h3>Muscle–Bone Crosstalk</h3>
+          <p>Mechanical loading of muscle releases myokines (IL-6, IGF-1, irisin) that directly stimulate osteoblast activity — another mild stressor producing systemic adaptive benefit.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SYNTHESIS ==================== -->
+    <section id="synthesis">
+      <p class="sec-label">Synthesis</p>
+      <h2>The Common Architecture Across All Domains</h2>
+      <p>
+        Despite the diversity of these twelve domains, they all share a convergent biological logic.
+        The same nutrient/stress sensors (AMPK, HIF-1α, NRF2, SIRT1) detect different stressor
+        types and activate the same downstream adaptive effectors. The 30–60% ceiling is the
+        quantitative signature.
+      </p>
+
+      <!-- FIGURE 5: Convergent Signaling Cascade -->
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 5 · Convergent Cascade</span>
+        </div>
+        <div class="fig-canvas" id="fig5Canvas"></div>
+        <figcaption>
+          <strong>The convergent hormetic signaling architecture.</strong>
+          Diverse stressor types (radiation, ROS, hypoxia, toxins, fasting, thermal stress, mechanical load,
+          infection) all funnel into the same conserved sensor network (AMPK, HIF-1α, NRF2, SIRT1) and
+          activate the same downstream effectors (PGC-1α, HSP70/90, BDNF, endogenous antioxidants,
+          Treg expansion, BAT activation, bone remodeling). The memory of prior stress is encoded
+          epigenetically, immunologically, or structurally.
+        </figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Mitohormesis</th>
+              <th>All Other Domains</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Stress signal</strong></td>
+              <td>Mitochondrial ROS / ETC disruption</td>
+              <td>Ionizing radiation, hypoxia, toxins, thermal stress, infection, mechanical load, psychological challenge</td>
+            </tr>
+            <tr>
+              <td><strong>Sensor</strong></td>
+              <td>AMPK, HIF-1α, NRF2, SIRT1</td>
+              <td>Same conserved nutrient/stress sensors</td>
+            </tr>
+            <tr>
+              <td><strong>Adaptive effectors</strong></td>
+              <td>PGC-1α → mitochondrial biogenesis, UPR<sub>mt</sub>, antioxidant enzymes</td>
+              <td>HSP70/90, endogenous antioxidants, Treg expansion, BDNF, BAT activation, bone remodeling</td>
+            </tr>
+            <tr>
+              <td><strong>Memory</strong></td>
+              <td>Epigenetic reprogramming of stress defense genes</td>
+              <td>Immunological memory, repeated bout effect, cognitive reserve, BAT recruitment</td>
+            </tr>
+            <tr>
+              <td><strong>Dose window</strong></td>
+              <td class="num">~30–60%</td>
+              <td class="num">30–60% — consistent across taxa (Calabrese)</td>
+            </tr>
+            <tr>
+              <td><strong>Consequence of excess</strong></td>
+              <td>Cell death, SAMD, inflammaging</td>
+              <td>Disease, tissue damage, cognitive decline, immune dysregulation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <h4>The Unifying Principle</h4>
+        <p>
+          Life evolved in an environment of constant, variable stress. Removing all stressors — whether
+          through antioxidant supplements, anti-inflammatory drugs, antibiotic overuse, thermal comfort,
+          physical inactivity, or stress avoidance — deprives cells of the training signals they require
+          for homeostatic competence. The resulting pathology is not the absence of health but the
+          <strong>absence of challenge</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== REFERENCES ==================== -->
+    <section id="refs">
+      <p class="sec-label">References</p>
+      <h2>Key Sources</h2>
+      <ul class="refs">
+        <li>Calabrese, E.J. &amp; Baldwin, L.A. (2001). The frequency of U-shaped dose responses in the toxicological literature. <em>Toxicol. Sci.</em> 62: 330–338. (Cited by 460+)</li>
+        <li>Calabrese, E.J. (2011). Hormesis provides a generalized quantitative estimate of biology, toxicology and medicine. <em>Dose-Response</em> 9: 85–91. (Cited by 338)</li>
+        <li>Li, X. et al. (2024). Current advances and future trends of hormesis in disease. <em>Nature</em>. 101 citations, 36k accesses.</li>
+        <li>Calabrese, E.J. et al. (2026). The crucible of resilience: hormesis as the unifying explanatory principle of life. <em>Archives of Toxicology</em>.</li>
+        <li>Ghiassi-Nejad, M. et al. (2004). Health status of the residents of high natural background radiation. <em>Radiat. Prot. Dosimetry</em>.</li>
+        <li>Kanani, A. (2025). Adaptive Response: A Scoping Review. <em>Dose-Response</em>.</li>
+        <li>Ansari, W.A. et al. (2025). ROS: sources, generation, disease pathophysiology. <em>Discover Chemistry</em>.</li>
+        <li>Dimauro, I. et al. (2026). ROS in exercise biology. <em>Free Radical Biology and Medicine</em>.</li>
+        <li>Bjelakovic, G. et al. (2007). Mortality in randomized trials of antioxidant supplements. <em>JAMA</em> 297(8): 842–857. 47 low-bias trials, n=180,938.</li>
+        <li>Mikkelsen, U.R. et al. (2009). NSAIDs and satellite cell proliferation post-exercise.</li>
+        <li>Zhang, Q. et al. (2026). Systems integrative mechanisms in exercise-induced skeletal muscle damage. <em>IJMS</em>.</li>
+        <li>Boulares, A. et al. (2024). Intermittent hypoxia protocols on cognitive performance in older adults. <em>J Alzheimer's Disease</em>. 7 studies, 5 registered trials.</li>
+        <li>Burtscher, M. et al. (2026). Combining exercise and hypoxia for brain health. <em>AIMS Neuroscience</em>.</li>
+        <li>Strilbytska, O. &amp; Lushchak, O. (2026). Intermittent fasting as a hormetic signal for adaptation. <em>Frontiers in Nutrition</em>.</li>
+        <li>Rook, G.A.W. et al. (2023). The old friends hypothesis: evolution, immunoregulation. PMC 10524266.</li>
+        <li>Laukkanen, T. et al. (2015). Association between sauna bathing and fatal cardiovascular and all-cause mortality events. <em>JAMA Internal Medicine</em> 175(4): 542–548. n=2,315, 20.7-year follow-up.</li>
+        <li>Laukkanen, T. et al. (2018). Sauna bathing is associated with reduced cardiovascular mortality in men and women. <em>BMC Medicine</em>. n=1,688, 15-year follow-up.</li>
+        <li>Laukkanen, J.A. et al. (2018). Cardiovascular and other health benefits of sauna bathing: a review of the evidence. <em>Mayo Clinic Proceedings</em> 93(8): 1111–1121.</li>
+        <li>Alito, A. et al. (2026). Thermal stress: untapped potential in rehabilitation. <em>Frontiers in Rehabilitation Science</em>.</li>
+        <li>Lyons, D.M. &amp; Parker, K.J. (2007). Seeding stress resilience through inoculation. PMC 4736400.</li>
+        <li>Summers, R.W. et al. (2005). Trichuris suis therapy for active ulcerative colitis. <em>NEJM</em>. Open-label Crohn's: 79% response.</li>
+        <li>Schölmerich, J. et al. (2017). Randomised, double-blind, placebo-controlled trial of TSO in active Crohn's disease. <em>J Crohn's Colitis</em> 11(4): 390–399. n=252.</li>
+        <li>Miller, A.P. (2025). Still rethinking the J-shaped curve. <em>Alcohol: Clinical and Experimental Research</em>.</li>
+        <li>Kember, R. et al. (2024). Mendelian randomization analysis of alcohol and mortality. <em>MVP</em>. n&gt;250,000.</li>
+        <li>Mattson, M.P. et al. (2024). The hormesis principle of neuroplasticity and neuroprotection. <em>Cell Metabolism</em>.</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      Built from <code>src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md</code> ·
+      llm-wiki-jk · Generated 30 August 2026 · Data-driven synthesis for biologists and analysts
+    </p>
+  </div>
+</footer>
+
+<!-- ===== PAGE-SPECIFIC FIGURE CODE ===== -->
+<script>
+(function () {
+  "use strict";
+
+  var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead, wrapText = T2.wrapText;
+  var W = 1000; // default viewBox width
+
+  // Multi-line centered text within a box (alphabetic baseline, vertically centred on cy)
+  function boxLines(svg, cx, cy, lines, opts) {
+    opts = opts || {};
+    var size = opts.size || 12;
+    var gap = opts.lineGap || 2;
+    var totalH = lines.length * size + (lines.length - 1) * gap;
+    var y0 = cy - totalH / 2 + size / 2;
+    lines.forEach(function (line, i) {
+      text(svg, cx, y0 + i * (size + gap), line, opts);
+    });
+  }
+  // Label above a bubble: one or two centred lines anchored at topY
+  function domLabel(svg, cx, topY, lines, opts) {
+    opts = opts || {};
+    var size = opts.size || 12;
+    lines = lines.filter(function (l) { return l && l.length > 0; });
+    if (lines.length === 1) {
+      text(svg, cx, topY, lines[0], opts);
+    } else if (lines.length > 1) {
+      text(svg, cx, topY, lines[0], opts);
+      text(svg, cx, topY + size + 3, lines[1], opts);
+    }
+  }
+
+  // --- FIGURE 1: Hormetic Dose-Response Curve ---
+  (function () {
+    var host = document.getElementById("fig1Canvas");
+    if (!host) return;
+    var H = 400;
+    var svg = svgRoot(host, W, H, "Hormetic biphasic dose-response curve");
+
+    // axes
+    var gx = 90, gy = 42, gw = W - 120, gh = H - 100;
+    el("line", { x1: gx, y1: gy + gh, x2: gx + gw, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    el("line", { x1: gx, y1: gy, x2: gx, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+
+    // baseline at y = 55% of gh (response = 1.0)
+    var baseY = gy + gh * 0.55;
+    el("line", { x1: gx, y1: baseY, x2: gx + gw, y2: baseY, stroke: "#6d665b", "stroke-width": 1, "stroke-dasharray": "4,4" }, svg);
+    text(svg, gx + gw + 4, baseY + 5, "Baseline (1.0)", { size: 13, fill: "#6d665b", mono: true });
+
+    // hormetic zone (shaded)
+    var zoneLeft = gx + gw * 0.08;
+    var zoneRight = gx + gw * 0.42;
+    el("rect", { x: zoneLeft, y: gy + 12, width: zoneRight - zoneLeft, height: baseY - gy - 12, fill: "#345443", opacity: 0.08 }, svg);
+    text(svg, (zoneLeft + zoneRight) / 2, gy + 28, "Hormetic Zone", { size: 15, fill: "#345443", weight: 600, anchor: "middle" });
+    text(svg, (zoneLeft + zoneRight) / 2, gy + 50, "30–60% ↑", { size: 13, fill: "#345443", anchor: "middle", mono: true });
+
+    // curve path
+    var points = [];
+    for (var i = 0; i <= 100; i++) {
+      var t = i / 100;
+      var x = gx + t * gw;
+      // hormetic: rise then fall below baseline
+      var y;
+      if (t < 0.22) {
+        y = baseY - Math.sin(t / 0.22 * Math.PI * 0.5) * gh * 0.28;
+      } else if (t < 0.42) {
+        var tt = (t - 0.22) / 0.2;
+        y = baseY - gh * 0.28 + tt * gh * 0.28;
+      } else {
+        var tt2 = (t - 0.42) / 0.58;
+        y = baseY + tt2 * tt2 * gh * 0.25;
+      }
+      points.push(x + "," + y);
+    }
+    el("polyline", { points: points.join(" "), fill: "none", stroke: "#7a312c", "stroke-width": 2.5, "stroke-linejoin": "round" }, svg);
+
+    // peak marker
+    var peakX = gx + gw * 0.18;
+    var peakY = baseY - gh * 0.28;
+    el("circle", { cx: peakX, cy: peakY, r: 5, fill: "#7a312c" }, svg);
+    text(svg, peakX, peakY - 14, "Peak: 30–60% above baseline", { size: 13, fill: "#7a312c", weight: 600, anchor: "middle" });
+
+    // axis labels
+    text(svg, gx + gw / 2, gy + gh + 46, "Stressor Intensity →", { size: 15, fill: "#1c1915", weight: 500, anchor: "middle" });
+    text(svg, gx - 12, gy - 10, "Response ↑", { size: 15, fill: "#1c1915", weight: 500, anchor: "end" });
+
+    // zone labels
+    text(svg, gx + gw * 0.06, gy + gh + 22, "Adaptive", { size: 13, fill: "#345443", anchor: "middle" });
+    text(svg, gx + gw * 0.65, gy + gh + 22, "Toxic / Pathological", { size: 13, fill: "#7a312c", anchor: "middle" });
+
+    // ZEP marker (zero-equivalent point)
+    var noaelX = gx + gw * 0.42;
+    el("line", { x1: noaelX, y1: baseY, x2: noaelX, y2: gy + gh + 8, stroke: "#6d665b", "stroke-width": 1, "stroke-dasharray": "3,3" }, svg);
+    text(svg, noaelX, gy + gh + 20, "ZEP", { size: 12, fill: "#6d665b", anchor: "middle", mono: true });
+  })();
+
+  // --- FIGURE 2: 12-Domain Landscape (Bubble Chart) ---
+  (function () {
+    var host = document.getElementById("fig2Canvas");
+    if (!host) return;
+    var H = 560;
+    var svg = svgRoot(host, W, H, "12-overlooked hormetic domains: evidence vs. oversight");
+
+    var gx = 170, gy = 80, gw = W - 170 - 50, gh = 410;
+
+    // axes
+    el("line", { x1: gx, y1: gy + gh, x2: gx + gw, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    el("line", { x1: gx, y1: gy, x2: gx, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+
+    text(svg, gx + gw / 2, gy + gh + 42, "Degree of Clinical Oversight →", { size: 15, fill: "#1c1915", weight: 500, anchor: "middle" });
+    text(svg, gx - 14, gy - 10, "Evidence Strength ↑", { size: 15, fill: "#1c1915", weight: 500, anchor: "end" });
+
+    // domain data: [labelLines, evidence, oversight, radius, color]
+    // Values are tier-consistent so colour and y-position agree:
+    //   green (strong) plots in the upper band, amber (emerging) just above
+    //   the evidence midline, red (contested) below it. Oversight spread keeps
+    //   bubbles and their labels collision-free.
+    var domains = [
+      [["Low-Dose", "Radiation"], 0.44, 0.90, 19, "#c1121f"],
+      [["ROS", "Signaling"], 0.95, 0.76, 22, "#345443"],
+      [["Inflammation"], 0.86, 0.81, 21, "#345443"],
+      [["Intermittent", "Hypoxia"], 0.55, 0.68, 16, "#9a7430"],
+      [["Caloric", "Stress"], 0.90, 0.66, 21, "#345443"],
+      [["Immune", "Education"], 0.80, 0.74, 19, "#345443"],
+      [["Thermal", "Exposure"], 0.81, 0.88, 20, "#345443"],
+      [["Psych", "Stress"], 0.56, 0.84, 15, "#9a7430"],
+      [["Xenohormesis"], 0.74, 0.65, 18, "#345443"],
+      [["Alcohol", "J-Curve"], 0.38, 0.82, 14, "#c1121f"],
+      [["Gut", "Microbiome"], 0.77, 0.53, 18, "#345443"],
+      [["Bone /", "Mechanical"], 0.58, 0.56, 15, "#9a7430"]
+    ];
+
+    // draw bubbles first (so labels sit on top without being hidden)
+    domains.forEach(function (d) {
+      var cx = gx + d[2] * gw;          // x ← oversight (matches x-axis label)
+      var cy = gy + gh - d[1] * gh;     // y ← evidence (higher evidence = higher)
+      el("circle", { cx: cx, cy: cy, r: d[3], fill: d[4], opacity: 0.22, stroke: d[4], "stroke-width": 1.5 }, svg);
+      domLabel(svg, cx, cy - d[3] - 10, d[0], { size: 12, fill: "#1c1915", weight: 500, anchor: "middle" });
+    });
+
+    // dashed quadrant dividers
+    el("line", { x1: gx + gw * 0.5, y1: gy, x2: gx + gw * 0.5, y2: gy + gh, stroke: "#d3c9b6", "stroke-width": 1, "stroke-dasharray": "4,4" }, svg);
+    el("line", { x1: gx, y1: gy + gh * 0.5, x2: gx + gw, y2: gy + gh * 0.5, stroke: "#d3c9b6", "stroke-width": 1, "stroke-dasharray": "4,4" }, svg);
+  })();
+
+  // --- FIGURE 3: Antioxidant Supplement Meta-Analyses (Bar Chart) ---
+  (function () {
+    var host = document.getElementById("fig3Canvas");
+    if (!host) return;
+    var H = 400;
+    var svg = svgRoot(host, W, H, "Antioxidant supplementation mortality risk ratios");
+
+    var gx = 150, gy = 30, gw = W - 170, gh = H - 85;
+    var barH = 36, gap = 18;
+
+    // baseline at RR=1.0
+    var baseline = gx + gw * 0.45; // RR=1.0 position
+    var scale = gw * 0.45 / 0.20; // 0.20 units of RR mapped to 45% of width
+
+    // baseline vertical line
+    el("line", { x1: baseline, y1: gy, x2: baseline, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    text(svg, baseline, gy + gh + 20, "RR = 1.0 (no effect)", { size: 13, fill: "#6d665b", anchor: "middle", mono: true });
+
+    // bars: [name, RR, lower CI, upper CI, color]
+    var data = [
+      ["Beta-carotene (singly)", 1.06, 1.02, 1.10, "#c1121f"],
+      ["Vitamin A", 1.16, 1.10, 1.24, "#c1121f"],
+      ["Vitamin E (singly)", 1.04, 1.01, 1.07, "#c1121f"],
+      ["Vitamin C", 1.01, 0.97, 1.05, "#345443"],
+      ["Selenium", 0.998, 0.997, 1.00, "#345443"]
+    ];
+
+    data.forEach(function (d, i) {
+      var y = gy + i * (barH + gap);
+      var barStart = baseline;
+      var barEnd = baseline + (d[1] - 1.0) * scale;
+      if (barEnd < baseline) barEnd = baseline; // shouldn't happen with our data
+
+      // CI whisker
+      var ciStart = baseline + (d[2] - 1.0) * scale;
+      var ciEnd = baseline + (d[3] - 1.0) * scale;
+      el("line", { x1: ciStart, y1: y + barH / 2, x2: ciEnd, y2: y + barH / 2, stroke: d[4], "stroke-width": 2 }, svg);
+      el("line", { x1: ciStart, y1: y + barH / 2 - 8, x2: ciStart, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+      el("line", { x1: ciEnd, y1: y + barH / 2 - 8, x2: ciEnd, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+
+      // bar
+      if (d[1] > 1.0) {
+        el("rect", { x: baseline, y: y, width: Math.max(2, (d[1] - 1.0) * scale), height: barH, fill: d[4], opacity: 0.25 }, svg);
+        el("rect", { x: baseline, y: y, width: Math.max(2, (d[1] - 1.0) * scale), height: barH, fill: "none", stroke: d[4], "stroke-width": 1.5 }, svg);
+      } else {
+        el("rect", { x: baseline - Math.max(2, (1.0 - d[1]) * scale), y: y, width: Math.max(2, (1.0 - d[1]) * scale), height: barH, fill: d[4], opacity: 0.25 }, svg);
+        el("rect", { x: baseline - Math.max(2, (1.0 - d[1]) * scale), y: y, width: Math.max(2, (1.0 - d[1]) * scale), height: barH, fill: "none", stroke: d[4], "stroke-width": 1.5 }, svg);
+      }
+
+      // label
+      text(svg, gx - 8, y + barH / 2, d[0], { size: 14, fill: "#1c1915", anchor: "end", baseline: "middle" });
+      // RR value
+      var valX = d[1] > 1.0 ? baseline + (d[1] - 1.0) * scale + 8 : baseline - (1.0 - d[1]) * scale - 8;
+      var valAnchor = d[1] > 1.0 ? "start" : "end";
+      text(svg, valX, y + barH / 2 + 5, "RR " + d[1], { size: 13, fill: d[4], anchor: valAnchor, mono: true, baseline: "middle" });
+    });
+
+    // significance stars
+    text(svg, baseline + (1.06 - 1.0) * scale + 4, gy + barH / 2 - 12, "*", { size: 18, fill: "#c1121f", anchor: "middle" });
+    text(svg, baseline + (1.16 - 1.0) * scale + 4, gy + (barH + gap) + barH / 2 - 12, "**", { size: 18, fill: "#c1121f", anchor: "middle" });
+    text(svg, baseline + (1.04 - 1.0) * scale + 4, gy + 2 * (barH + gap) + barH / 2 - 12, "*", { size: 18, fill: "#c1121f", anchor: "middle" });
+
+    text(svg, baseline + 20, gy + gh + 20, "← Favours harm", { size: 13, fill: "#c1121f", weight: 500 });
+    text(svg, baseline - 20, gy + gh + 20, "Favours benefit →", { size: 13, fill: "#345443", weight: 500, anchor: "end" });
+  })();
+
+  // --- FIGURE 4: Sauna Dose-Response (Hazard Ratios) ---
+  (function () {
+    var host = document.getElementById("fig4Canvas");
+    if (!host) return;
+    var H = 460;
+    var svg = svgRoot(host, W, H, "Sauna bathing frequency and CVD mortality hazard ratios");
+
+    var gx = 130, gy = 34, gh = 380;
+    var barH = 36, gap = 14;
+
+    // baseline at HR=1.0; horizontal scale + baseline chosen so the widest bar
+    // (HR 0.23) and its full CI (down to HR 0.08) stay inside the canvas with
+    // room for the category + value labels on the left.
+    var baseline = 740;
+    var scale = 652;
+
+    el("line", { x1: baseline, y1: gy, x2: baseline, y2: gy + gh, stroke: "#1c1915", "stroke-width": 1.5 }, svg);
+    text(svg, baseline, gy + gh + 20, "HR = 1.0 (reference)", { size: 13, fill: "#6d665b", anchor: "middle", mono: true });
+
+    // Data: [label, HR, CI_low, CI_high, color]
+    var menData = [
+      ["1×/wk", 1.0, 1.0, 1.0, "#6d665b"],
+      ["2–3×/wk", 0.78, 0.57, 1.07, "#2a9d8f"],
+      ["4–7×/wk", 0.37, 0.18, 0.75, "#2a9d8f"]
+    ];
+
+    var combinedData = [
+      ["1×/wk", 1.0, 1.0, 1.0, "#6d665b"],
+      ["2–3×/wk", 0.75, 0.52, 1.08, "#264653"],
+      ["4–7×/wk", 0.23, 0.08, 0.65, "#264653"]
+    ];
+
+    function drawBars(data, offsetX, color1) {
+      data.forEach(function (d, i) {
+        var y = gy + offsetX + i * (barH + gap);
+        var barWidth = (1.0 - d[1]) * scale;
+
+        // bar
+        if (d[1] < 1.0) {
+          el("rect", { x: baseline - barWidth, y: y, width: barWidth, height: barH, fill: d[4], opacity: 0.3 }, svg);
+          el("rect", { x: baseline - barWidth, y: y, width: barWidth, height: barH, fill: "none", stroke: d[4], "stroke-width": 1.5 }, svg);
+        } else {
+          el("rect", { x: baseline - 3, y: y, width: 6, height: barH, fill: d[4], opacity: 0.3 }, svg);
+        }
+
+        // CI whiskers
+        if (d[2] < d[3]) {
+          var ciStartX = baseline - (1.0 - d[2]) * scale;
+          var ciEndX = d[3] < 1.0 ? baseline - (1.0 - d[3]) * scale : baseline + (d[3] - 1.0) * scale;
+          el("line", { x1: ciStartX, y1: y + barH / 2, x2: ciEndX, y2: y + barH / 2, stroke: d[4], "stroke-width": 2 }, svg);
+          el("line", { x1: ciStartX, y1: y + barH / 2 - 8, x2: ciStartX, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+          el("line", { x1: ciEndX, y1: y + barH / 2 - 8, x2: ciEndX, y2: y + barH / 2 + 8, stroke: d[4], "stroke-width": 2 }, svg);
+        }
+
+        // label
+        text(svg, gx - 8, y + barH / 2, d[0], { size: 14, fill: "#1c1915", anchor: "end", baseline: "middle" });
+
+        // HR value
+        if (d[1] < 1.0) {
+          text(svg, baseline - barWidth - 8, y + barH / 2 + 5, "HR " + d[1].toFixed(2), { size: 13, fill: d[4], anchor: "end", mono: true, baseline: "middle" });
+        } else {
+          text(svg, baseline + 12, y + barH / 2 + 5, "Ref.", { size: 13, fill: "#6d665b", anchor: "start", mono: true, baseline: "middle" });
+        }
+      });
+    }
+
+    text(svg, gx, gy + 8, "Men (Laukkanen 2015)", { size: 13, fill: "#2a9d8f", weight: 600 });
+    drawBars(menData, 48, "#2a9d8f");
+
+    text(svg, gx, gy + 8 + (barH + gap) * 3 + 36, "Men + Women (Laukkanen 2018)", { size: 13, fill: "#264653", weight: 600 });
+    drawBars(combinedData, 48 + (barH + gap) * 3 + 36, "#264653");
+  })();
+
+  // --- FIGURE 5: Convergent Signaling Cascade (Flow Diagram) ---
+  (function () {
+    var host = document.getElementById("fig5Canvas");
+    if (!host) return;
+    var H = 560;
+    var svg = svgRoot(host, W, H, "Convergent hormetic signaling cascade across 12 domains");
+
+    var arrowId = "arrowFlow";
+    arrowHead(svg, arrowId, "#1c1915");
+
+    // Layout: 3 columns - Stressors → Sensors → Effectors
+    var col1x = 48, col2x = 365, col3x = 682, colW = 196;
+
+    // Column headers
+    text(svg, col1x + colW / 2, 32, "STRESSORS", { size: 14, fill: "#7a312c", weight: 700, anchor: "middle", mono: true });
+    text(svg, col2x + colW / 2, 32, "SENSORS", { size: 14, fill: "#2e4a5d", weight: 700, anchor: "middle", mono: true });
+    text(svg, col3x + colW / 2, 32, "EFFECTORS", { size: 14, fill: "#345443", weight: 700, anchor: "middle", mono: true });
+
+    // Stressor boxes (each may wrap to 2 lines)
+    var stressors = [
+      ["Ionizing Radiation"],
+      ["Mitochondrial ROS"],
+      ["Hypoxia /", "O₂ Deprivation"],
+      ["Thermal Stress"],
+      ["Toxins /", "Phytochemicals"],
+      ["Mechanical Load"],
+      ["Fasting /", "Energy Deficit"],
+      ["Microbial", "Challenge"],
+      ["Psychological", "Stress"]
+    ];
+    var sBoxH = 34, sGap = 6;
+    var sStartY = 56;
+    stressors.forEach(function (lines, i) {
+      var y = sStartY + i * (sBoxH + sGap);
+      el("rect", { x: col1x, y: y, width: colW, height: sBoxH, fill: "#7a312c", opacity: 0.1, stroke: "#7a312c", "stroke-width": 1 }, svg);
+      boxLines(svg, col1x + colW / 2, y + sBoxH / 2, lines, { size: 12, fill: "#7a312c", anchor: "middle", weight: 500 });
+    });
+
+    // Sensor boxes
+    var sensors = ["AMPK", "NRF2", "HIF-1α", "SIRT1"];
+    var sBoxH2 = 48, sGap2 = 16;
+    var sStartY2 = 100;
+    sensors.forEach(function (s, i) {
+      var y = sStartY2 + i * (sBoxH2 + sGap2);
+      el("rect", { x: col2x, y: y, width: colW, height: sBoxH2, fill: "#2e4a5d", opacity: 0.15, stroke: "#2e4a5d", "stroke-width": 1.5 }, svg);
+      text(svg, col2x + colW / 2, y + sBoxH2 / 2 + 1, s, { size: 17, fill: "#2e4a5d", anchor: "middle", baseline: "middle", weight: 600, mono: true });
+    });
+
+    // Effector boxes (each wraps to 2 lines)
+    var effectors = [
+      ["PGC-1α →", "Mitochondrial Biogenesis"],
+      ["HSP70 / HSP90 →", "Proteostasis"],
+      ["Endogenous", "Antioxidant Enzymes"],
+      ["BDNF →", "Neuroplasticity"],
+      ["Treg Expansion →", "Immune Tolerance"],
+      ["BAT Activation →", "Thermogenesis"],
+      ["Bone Remodeling", "→ Wolff's Law"],
+      ["Autophagy /", "Mitophagy"],
+      ["Epigenetic", "Reprogramming"]
+    ];
+    var eBoxH = 32, eGap = 6;
+    var eStartY = 56;
+    effectors.forEach(function (lines, i) {
+      var y = eStartY + i * (eBoxH + eGap);
+      el("rect", { x: col3x, y: y, width: colW, height: eBoxH, fill: "#345443", opacity: 0.12, stroke: "#345443", "stroke-width": 1 }, svg);
+      boxLines(svg, col3x + colW / 2, y + eBoxH / 2, lines, { size: 11.5, fill: "#345443", anchor: "middle", weight: 500 });
+    });
+
+    // Arrows: stressors → sensors
+    var sEndX = col1x + colW;
+    var s2StartX = col2x;
+    for (var i = 0; i < stressors.length; i++) {
+      var sy = sStartY + i * (sBoxH + sGap) + sBoxH / 2;
+      [0, 1, 2, 3].forEach(function (si) {
+        var ty = sStartY2 + si * (sBoxH2 + sGap2) + sBoxH2 / 2;
+        var opacity = (i % 3 === si % 3) ? 0.4 : 0.14;
+        el("line", { x1: sEndX + 2, y1: sy, x2: s2StartX - 2, y2: ty, stroke: "#6d665b", "stroke-width": 1, opacity: opacity, "marker-end": "url(#" + arrowId + ")" }, svg);
+      });
+    }
+
+    // Arrows: sensors → effectors
+    var s2EndX = col2x + colW;
+    var eStartX = col3x;
+    for (var si = 0; si < sensors.length; si++) {
+      var sy = sStartY2 + si * (sBoxH2 + sGap2) + sBoxH2 / 2;
+      for (var ei = 0; ei < effectors.length; ei++) {
+        var ey = eStartY + ei * (eBoxH + eGap) + eBoxH / 2;
+        var opacity = (si === ei % 4 || si === Math.floor(ei / 2) % 4) ? 0.4 : 0.12;
+        el("line", { x1: s2EndX + 2, y1: sy, x2: eStartX - 2, y2: ey, stroke: "#345443", "stroke-width": 1, opacity: opacity, "marker-end": "url(#" + arrowId + ")" }, svg);
+      }
+    }
+
+    // Memory label
+    text(svg, W / 2, H - 18, "Memory: Epigenetic reprogramming · Immunological memory · Repeated bout effect · Cognitive reserve", {
+      size: 13, fill: "#6d665b", anchor: "middle", mono: true
+    });
+  })();
+
+  // Initialize shared behaviors
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+})();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
+     data table (incl. the JS-rendered figures above), with PNG + TSV export. -->
+<script src="../themes/theme-02/pages-svg.js"></script>
+
+</body>
+</html>

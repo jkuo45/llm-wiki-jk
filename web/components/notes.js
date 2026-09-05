@@ -8,6 +8,9 @@ import { state } from './state.js';
 import { openPromptComposer } from './analysis.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
 import { anyModalOpen } from './modal.js';
+import { enhanceLangToggle } from './ui/LangToggle.js';
+import { enhancePanel } from './ui/Panel.js';
+import { skeletonCards } from './ui/Skeleton.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const NOTES_API = `${API_BASE}/notes`;
@@ -184,6 +187,7 @@ function applyUiLang(lang) {
 
   notesClose.setAttribute('aria-label', t('panelClose'));
   langToggles.forEach((el) => el.setAttribute('aria-label', t('panelLanguage')));
+  langSegs.forEach((seg) => seg.set(uiLang));
   langBtns.forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   searchInput.placeholder = t('notesSearchPlaceholder');
   closeCombobox();
@@ -196,12 +200,12 @@ function applyUiLang(lang) {
   syncNotesHash();
 }
 
-langBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
+// Adopted lang toggles (radiogroup semantics + arrow keys via ui/LangToggle.js).
+const langSegs = langToggles.map((el) => enhanceLangToggle(el, {
+  onChange: (lang) => {
     if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
-  });
-});
+  },
+}));
 // Re-render this panel whenever the shared language changes elsewhere.
 onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
 
@@ -301,19 +305,18 @@ function noteMonthYear(n) {
 }
 
 // ------------------------------------------------------------
-// Panel open / close
+// Panel open / close — class mechanics via ui/Panel.js
 // ------------------------------------------------------------
+const notesPanelApi = enhancePanel(notesPanel, { button: notesBtn });
 function openNotes() {
-  notesPanel.classList.add('open');
-  notesBtn.classList.add('open');
+  notesPanelApi.open();
   syncNotesKeyboard();
   ensureIndexLoaded();
   syncNotesHash();
 }
 function closeNotes() {
   closeCombobox();
-  notesPanel.classList.remove('open');
-  notesBtn.classList.remove('open');
+  notesPanelApi.close();
   currentNote = null;
   // Reset to the gallery view so reopening always lands there.
   lightboxEl.hidden = true;
@@ -347,6 +350,16 @@ function syncNotesKeyboard() {
 }
 if (window.visualViewport) window.visualViewport.addEventListener('resize', syncNotesKeyboard);
 window.addEventListener('resize', syncNotesKeyboard);
+
+// Re-tag tag-overflow after viewport changes (rotation / drag-resize): card
+// width drives the wrap count, so a cross of the ≤480px breakpoint can change
+// which cards exceed two rows. Debounced; only matters while the gallery shows.
+let tagOverflowTimer = 0;
+window.addEventListener('resize', () => {
+  if (!notesPanel.classList.contains('open') || !lightboxEl.hidden) return;
+  clearTimeout(tagOverflowTimer);
+  tagOverflowTimer = setTimeout(() => syncTagOverflow(), 150);
+});
 
 notesBtn.addEventListener('click', () => {
   if (notesPanel.classList.contains('open')) { closeNotes(); return; }
@@ -511,9 +524,52 @@ function toggleSort() {
 if (sortBtn) sortBtn.addEventListener('click', toggleSort);
 renderSortButton(); // paint the default icon/tooltip once all refs/state exist
 
+// Header ¶ button: show/hide the OCR description snippet on every gallery
+// card at once. State lives on the gallery element; cards re-render on any
+// filter change and pick it up via CSS (#notes-gallery.desc-open).
+const descBtn = $('notes-desc');
+if (descBtn) {
+  descBtn.addEventListener('click', () => {
+    const open = galleryEl.classList.toggle('desc-open');
+    descBtn.setAttribute('aria-pressed', String(open));
+    descBtn.title = open ? t('hideDescription') : t('showDescription');
+  });
+  descBtn.title = t('showDescription');
+}
+
 // Whether any filter is active: a free-text query and/or selected tag chips.
 function isFiltering() {
   return !!filterQ.trim() || activeTags.size > 0;
+}
+
+// On mobile (≤480px) each gallery card caps its tag badges at two rows and
+// fades at the clip edge; tapping the tag area accordion-expands the whole
+// list. Mark metas that overflow with .has-more and append a ▾ toggle so CSS
+// can fade / cursor and the click handler can expand. On desktop there is no
+// cap, so the check is always a no-op. Must run while the panel is laid out
+// (it is — renderGallery runs after .open is applied).
+function syncTagOverflow(root = galleryEl) {
+  if (!root.querySelector('.notes-card-meta')) return;
+  root.querySelectorAll('.notes-card-meta').forEach((meta) => {
+    const more = meta.scrollHeight > meta.clientHeight + 2;
+    meta.classList.toggle('has-more', more);
+    if (!more) {
+      meta.classList.remove('expanded');
+      const gone = meta.querySelector('.notes-meta-toggle');
+      if (gone) gone.remove();
+      meta.setAttribute('aria-expanded', 'false');
+      return;
+    }
+    meta.setAttribute('aria-expanded', String(meta.classList.contains('expanded')));
+    let toggle = meta.querySelector('.notes-meta-toggle');
+    if (!toggle) {
+      toggle = document.createElement('span');
+      toggle.className = 'notes-meta-toggle';
+      toggle.setAttribute('aria-hidden', 'true');
+      toggle.textContent = '▾';
+      meta.appendChild(toggle);
+    }
+  });
 }
 
 function renderGallery() {
@@ -529,8 +585,8 @@ function renderGallery() {
     return;
   }
   if (loading) {
-    galleryEl.classList.add('centered');
-    galleryEl.innerHTML = `<div class="notes-loading"><span class="spinner"></span><span>${esc(t('galleryLoading'))}</span></div>`;
+    galleryEl.classList.remove('centered');
+    galleryEl.replaceChildren(skeletonCards(6)); // shape-matched placeholders
     emptyEl.hidden = true;
     return;
   }
@@ -546,6 +602,7 @@ function renderGallery() {
   emptyEl.hidden = true;
   galleryEl.classList.remove('centered');
   galleryEl.innerHTML = list.map(cardHTML).join('');
+  syncTagOverflow(); // tag badges: cap at two rows + fade on mobile
   galleryEl.querySelectorAll('.notes-card').forEach((card) => {
     const id = card.dataset.id;
     // A click on a tag badge toggles that tag as a gallery filter; any other
@@ -560,6 +617,19 @@ function renderGallery() {
     const img = card.querySelector('.notes-card-thumb');
     if (note && first && img) {
       bindImageFallback(img, note, first.page, true);
+    }
+    // Mobile tag-area accordion: tapping the (overflowing) tag row expands the
+    // full list instead of opening the lightbox. Badge clicks keep filtering.
+    const metaEl = card.querySelector('.notes-card-meta');
+    if (metaEl && !metaEl.dataset.toggleBound) {
+      metaEl.dataset.toggleBound = '1';
+      metaEl.addEventListener('click', (e) => {
+        if (e.target.closest('.notes-badge')) return;
+        if (!metaEl.classList.contains('has-more')) return;
+        e.stopPropagation(); // keep the card click from opening the lightbox
+        const open = metaEl.classList.toggle('expanded');
+        metaEl.setAttribute('aria-expanded', String(open));
+      });
     }
   });
 }

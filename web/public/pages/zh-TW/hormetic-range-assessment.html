@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>毒物興奮範圍評估 — 映射你的生物韌性</title>
+<meta name="description" content="互動式評估工具，追蹤你在 12 個被忽視的生物領域中位於毒物興奮量表的何處。映射感測器、下游效應以及擴展毒物興奮範圍的實用途徑。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/hormetic-range-assessment.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hormetic-range-assessment.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* ---- page palette ---- */
+  :root {
+    --teal: #2a9d8f;
+    --red: #c1121f;
+    --amber: #e9c46a;
+    --green: #345443;
+    --blue: #264653;
+    --purple: #7b2cbf;
+    --teal-soft: color-mix(in srgb, var(--teal) 15%, transparent);
+    --amber-soft: color-mix(in srgb, var(--amber) 18%, transparent);
+    --red-soft: color-mix(in srgb, var(--red) 12%, transparent);
+  }
+
+  /* ---- layout ---- */
+  .wrap.page { padding-bottom: 0; }
+  .sensor-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 14px 0 20px; }
+  @media (min-width: 640px) { .sensor-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 960px) { .sensor-grid { grid-template-columns: 1fr 1fr 1fr; } }
+
+  .sensor-card {
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    padding: 14px 16px 12px;
+    position: relative;
+    transition: border-color .15s;
+  }
+  .sensor-card:hover { border-color: var(--oxblood-soft); }
+  .sensor-card h4 { margin: 0 0 4px; font-size: .92rem; }
+  .sensor-card .pathway { font-family: var(--mono); font-size: 11px; color: var(--mute); line-height: 1.4; }
+
+  /* ---- slider track ---- */
+  .domain-block {
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    padding: 20px 22px 18px;
+    margin-bottom: 16px;
+  }
+  .domain-block h3 { margin: 0 0 2px; font-size: 1.05rem; }
+  .domain-sub { font-size: .85rem; color: var(--mute); margin: 0 0 12px; }
+  .domain-header { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .domain-badge {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 7px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+  }
+  .domain-badge.strong { color: var(--green); }
+  .domain-badge.emerging { color: var(--gold); }
+  .domain-badge.contested { color: var(--red); }
+
+  .slider-row {
+    display: grid;
+    grid-template-columns: 1fr 52px;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .slider-row input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    background: var(--rule);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  .slider-row input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--oxblood);
+    border: 2px solid var(--sheet);
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    cursor: grab;
+  }
+  .slider-row input[type=range]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--oxblood);
+    border: 2px solid var(--sheet);
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    cursor: grab;
+  }
+  .slider-val {
+    font-family: var(--mono);
+    font-size: .95rem;
+    font-weight: 600;
+    text-align: right;
+    color: var(--ink);
+    min-width: 44px;
+  }
+  .slider-labels {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--faint);
+    margin-top: 2px;
+  }
+  .slider-labels span.mid { color: var(--teal); font-weight: 500; }
+
+  /* ---- zone indicator ---- */
+  .zone-bar {
+    display: flex;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 8px 0 10px;
+    background: var(--rule);
+  }
+  .zone-bar .zone-under { background: var(--blue); }
+  .zone-bar .zone-hormetic { background: var(--teal); }
+  .zone-bar .zone-excess { background: var(--red); }
+  .zone-bar .zone-marker {
+    width: 3px;
+    background: var(--ink);
+    border-radius: 1px;
+    position: relative;
+    z-index: 2;
+    transition: margin-left .2s;
+  }
+  .zone-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--faint);
+    margin-top: 3px;
+  }
+
+  /* ---- sensor / effector tags ---- */
+  .tag-row { display: flex; flex-wrap: wrap; gap: 5px; margin: 6px 0 2px; }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  .tag.sensor { background: var(--teal-soft); color: var(--teal); }
+  .tag.effector { background: var(--amber-soft); color: var(--gold); }
+  .tag.avoid { background: var(--red-soft); color: var(--red); }
+
+  /* ---- recommendation card ---- */
+  .rec-card {
+    background: var(--sheet);
+    border-left: 3px solid var(--teal);
+    padding: 10px 14px;
+    margin: 8px 0;
+    font-size: .88rem;
+    line-height: 1.55;
+  }
+  .rec-card strong { color: var(--ink); }
+  .rec-card .rec-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--teal);
+    margin-bottom: 4px;
+  }
+  .rec-card.interferes { border-left-color: var(--red); }
+  .rec-card.interferes .rec-label { color: var(--red); }
+  .rec-card.synergy { border-left-color: var(--teal); }
+  .rec-card.contextual { border-left-color: var(--gold); }
+  .rec-card.contextual .rec-label { color: var(--gold); }
+
+  /* callout accent variants (no inline border-color) */
+  .callout.teal { border-left-color: var(--teal); }
+  .callout.teal strong { color: var(--teal); }
+
+  /* ---- score summary ---- */
+  .score-panel {
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    padding: 20px 22px;
+    margin: 20px 0;
+  }
+  .score-panel h2 { margin: 0 0 8px; font-size: 1.1rem; }
+  .score-big {
+    font-family: var(--mono);
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--oxblood);
+    line-height: 1;
+  }
+  .score-sub { font-size: .88rem; color: var(--mute); margin: 4px 0 12px; }
+  .score-bar-wrap { margin: 10px 0; }
+  .score-bar-label { font-family: var(--mono); font-size: 11px; color: var(--mute); margin-bottom: 3px; }
+  .score-bar {
+    height: 10px;
+    background: var(--rule);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .score-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    transition: width .4s ease, background .4s;
+  }
+
+  /* ---- Calabrese windows timeline ---- */
+  .windows-viz { margin: 22px 0 18px; }
+  .windows-viz svg { width: 100%; height: auto; display: block; }
+  .windows-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  @media (max-width: 720px) { .windows-cards { grid-template-columns: 1fr; } }
+  .win-card {
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--rule);
+    padding: 12px 14px 10px;
+  }
+  .win-card .win-name {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--mute);
+  }
+  .win-card .win-span {
+    font-family: var(--mono);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 2px 0 6px;
+  }
+  .win-card p { font-size: .85rem; color: var(--mute); margin: 0; line-height: 1.5; }
+  .win-card p strong { color: var(--ink-soft); }
+  .win-card.early   { border-top-color: var(--teal); }
+  .win-card.early   .win-span { color: var(--teal); }
+  .win-card.gap     { border-top-color: var(--red); background: color-mix(in srgb, var(--red) 6%, var(--sheet)); }
+  .win-card.gap     .win-name { color: var(--red); }
+  .win-card.gap     .win-span { color: var(--red); }
+  .win-card.delayed { border-top-color: var(--slate); }
+  .win-card.delayed .win-span { color: var(--slate); }
+
+  /* ---- language variance callout ---- */
+  .callout {
+    background: color-mix(in srgb, var(--oxblood) 6%, var(--paper));
+    border-left: 3px solid var(--oxblood);
+    padding: 14px 16px;
+    margin: 18px 0;
+    font-size: .9rem;
+    line-height: 1.6;
+  }
+  .callout strong { color: var(--oxblood); }
+  .callout .big-num {
+    font-family: var(--mono);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--oxblood);
+  }
+
+  /* ---- vocabulary map table ---- */
+  .vocab-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .85rem; }
+  .vocab-table th {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--mute);
+    text-align: left;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .vocab-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  .vocab-table td:first-child { font-weight: 500; white-space: nowrap; }
+  .vocab-table tr:last-child td { border-bottom: none; }
+
+  /* ---- radar chart placeholder ---- */
+  .radar-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  .radar-wrap canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ---- export / print ---- */
+  .export-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 12px 0 0;
+  }
+  .btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 6px 14px;
+    border: 1px solid var(--rule);
+    background: var(--sheet);
+    color: var(--ink);
+    cursor: pointer;
+    border-radius: 2px;
+    transition: border-color .15s;
+  }
+  .btn:hover { border-color: var(--oxblood-soft); }
+  .btn.primary { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
+  .btn.primary:hover { background: var(--oxblood-soft); }
+
+  /* ---- footer attribution ---- */
+  .page-footer {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--faint);
+    padding: 18px 0 32px;
+    border-top: 1px solid var(--rule);
+    margin-top: 28px;
+  }
+  .page-footer a { color: var(--mute); }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳至內容</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#overview">總覽</a>
+      <a href="#sensors">感測器</a>
+      <a href="#domains">12 大領域</a>
+      <a href="#timing">持續時間與時機</a>
+      <a href="#interactions">交互作用</a>
+      <a href="#language">語言落差</a>
+      <a href="#radar">你的檔案</a>
+      <a href="#guidance">指引</a>
+      <a href="#refs">來源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">互動式評估 · llm-wiki-jk</p>
+    <h1>毒物興奮範圍評估</h1>
+    <p class="lede">
+      生命演化在一個持續、多變的壓力環境中。本工具映射你在
+      <b style="color:var(--oxblood)">12 個被忽視的生物領域</b>中位於毒物興奮量表的何處——
+      從輻射到機械負荷，從發炎到禁食——並識別連接它們的保守分子感測器和效應器。
+      你的檔案揭示了哪些毒物興奮路徑是活躍的、哪些是休眠的，以及你在何處有空間擴展你的範圍。
+    </p>
+    <div class="meta">
+      <p><strong>來源：</strong> Li et al. 2024 <em>Nature</em> · Calabrese 2026 <em>Arch Toxicol</em> · 資料庫筆記（<code>src/notes/_link/Hormesis.md</code>、<code>Mitohormesis.md</code>、<code>Xenohormesis.md</code>）· 抗氧化酶簇綜述（2026 年 9 月 1 日）</p>
+      <p><strong>治療窗口：</strong>基線以上 30–60%——跨物種毒物興奮效應的定量特徵（Calabrese，被引用 338+ 次）</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#overview">總覽</a></li>
+      <li><a href="#sensors">核心感測器與效應器</a></li>
+      <li><a href="#domains">12 大領域</a></li>
+      <li><a href="#timing">持續時間與時機</a></li>
+      <li><a href="#interactions">交互作用矩陣</a></li>
+      <li><a href="#language">語言差異落差</a></li>
+      <li><a href="#radar">你的檔案</a></li>
+      <li><a href="#guidance">指引</a></li>
+      <li><a href="#refs">來源</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== OVERVIEW ==================== -->
+    <section id="overview">
+      <p class="sec-label">總覽</p>
+      <h2>30–60% 法則與你的毒物興奮範圍為何重要</h2>
+      <p class="drop">
+        在超過 800 個劑量反應資料集中——細菌、酵母菌、植物、動物——最大的毒物興奮刺激量
+        始終是<strong>基線以上 30–60%</strong>，不論壓力源類型、物種或終點指標
+        （Calabrese，被引用 338+ 次）。這個上限定義了生物可塑性的極限。你的
+        <em>毒物興奮範圍</em>是你對壓力源強度展現適應性超調而非崩潰受損的跨度。
+      </p>
+      <p>
+        相同的保守分子感測器——<strong>AMPK</strong>、<strong>NRF2</strong>、
+        <strong>HIF-1α</strong>、<strong>SIRT1/3</strong>、<strong>FOXO</strong>、
+        <strong>HSF1</strong>——偵測每一種毒物興奮訊號並啟動重疊的效應器程式：
+        粒線體生長、抗氧化酶誘導、自噬、熱休克蛋白合成、免疫調節和骨骼重塑。
+        理解這些感測器讓你跨領域轉譯：冷水浴和花椰菜芽劑量啟動相同的 NRF2 臂；
+        禁食窗口和離心運動匯聚到 AMPK → PGC-1α。
+      </p>
+
+      <div class="callout">
+        <p><strong>如何使用本頁：</strong>對於以下 12 個領域中的每一個，移動滑桿來評分你目前的毒物興奮實踐，
+        從<em>無</em>（0）到<em>毒興窗口</em>（5）再到<em>過度</em>（10）。雷達圖和摘要面板會即時更新。
+        使用「匯出」按鈕儲存你的檔案，或用「列印 / PDF」取得快照。底部的指引區會根據你最弱的領域
+        推薦具體的途徑來擴展你的範圍。</p>
+      </div>
+    </section>
+
+    <!-- ==================== CORE SENSORS ==================== -->
+    <section id="sensors">
+      <p class="sec-label">分子架構</p>
+      <h2>核心感測器與下游效應器</h2>
+      <p>
+        每個毒物興奮領域都匯聚到一個共享的感測器–效應器架構。感測器偵測特定的壓力源訊號
+        （ROS、氧氣張力、營養缺乏、溫度變化、機械負荷），並將其路由到重疊的轉錄程式。
+        來自抗氧化酶簇綜述的關鍵洞見是：<strong>區室、劑量窗口和氧化態設定點</strong>——
+        而非僅僅是表現水平——決定了感測器介導的反應是保護性的還是致病性的。
+      </p>
+
+      <div class="sensor-grid">
+        <div class="sensor-card">
+          <h4>AMPK</h4>
+          <p class="pathway">低能量 → PGC-1α → 粒線體生長；自噬經由 ULK1；TFEB → 溶酶體生長；抑制 mTORC1。禁食、運動、缺氧、metformin、異體毒興的匯聚節點。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>NRF2</h4>
+          <p class="pathway">氧化/親電壓力 → ARE → 內源性抗氧化酶（SOD、catalase、GPx、HO-1、NQO1）；Trx/Srx 前饋迴路。由 sulforaphane、4-HNE、運動 ROS、LDR 活化。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>HIF-1α</h4>
+          <p class="pathway">低 O₂ → EPO、VEGF、糖酵解酶；正向 ROS 反饋 → AMPK。間歇缺氧、運動、冷暴露的匯聚節點。短暫活化 = 適應性；慢性 = 致癌性。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>SIRT1 / SIRT3</h4>
+          <p class="pathway">NAD⁺ 感應去乙醯酶。SIRT1 → FOXO → MnSOD/catalase/GSH；SIRT3 → MnSOD 乙醯化調節（K68）。毒興窗口：2.5–7.5× 保護性；12.5× 致病性（Alcendor 2007）。由禁食、運動、resveratrol 活化。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>HSF1</h4>
+          <p class="pathway">蛋白質展開 → HSP70/HSP90 → 分子伴護蛋白質穩定網路。熱毒興（三溫暖、熱休克）的核心；也由運動、異體毒興（curcumin）和禁食活化。長壽的標誌之一。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>FOXO</h4>
+          <p class="pathway">AMPK/SIRT1 的下游；MnSOD、catalase、GADD45、自噬基因、萎縮抗性的轉錄因子。連接營養壓力 → 壓力抗性基因程式的輸出臂。</p>
+        </div>
+      </div>
+
+      <div class="callout teal">
+        <p><strong>抗氧化酶的教訓：</strong>Trx1、MnSOD、catalase 和 peroxiredoxin 並非可互換的自由基海綿。區室（粒線體 vs. 胞質）、劑量窗口（SIRT3 乙醯化循環，而非固定的開/關）以及修飾的可逆性（經由 Srx 的亞磺酸修復 vs. 不可逆的硝化）決定了酶反應落在毒興窗口內還是退出到病理狀態。這就是為何<em>你如何進行毒興壓力</em>與<em>你是否進行</em>同樣重要。</p>
+      </div>
+    </section>
+
+    <!-- ==================== 12 DOMAINS — INTERACTIVE SLIDERS ==================== -->
+    <section id="domains">
+      <p class="sec-label">評估</p>
+      <h2>12 大毒物興奮領域——評分你的實踐</h2>
+      <p>
+        將每個領域從 <strong>0 = 無</strong>（無實踐／無暴露）滑到
+        <strong>5 = 毒興窗口</strong>（適度、可恢復、在 30–60% 適應窗口內）再到
+        <strong>10 = 過度</strong>（壓倒性、慢性、超出可修復範圍）。每個滑桿下方的
+        區域條顯示你相對於適應甜蜜點的位置。
+      </p>
+
+      <div id="domain-sliders"></div>
+    </section>
+
+    <!-- ==================== DURATION & TIMING ==================== -->
+    <section id="timing">
+      <p class="sec-label">時間維度</p>
+      <h2>持續時間、時機與兩個保護窗口</h2>
+      <p class="drop">
+        雙相曲線不僅是<em>劑量</em>的函數——它在<strong>時間</strong>上也是雙相的。
+        Calabrese 對預適應的系統分析（<em>Pharmacol Res</em> 2016，被引用 208+ 次）
+        記錄了任何毒興調節刺激後兩個時間上不同的保護窗口：
+      </p>
+
+      <div class="windows-viz">
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 860 250" role="img" aria-label="毒興調節劑量後保護水平隨時間變化圖：早期窗口 1 至 3 小時，無保護間隙約 30 分鐘至 24 小時，延遲窗口 12 至 72 小時">
+          <!-- window bands -->
+          <rect x="70"  y="30" width="150" height="160" fill="var(--teal)"  opacity="0.10"/>
+          <rect x="220" y="30" width="200" height="160" fill="var(--red)"   opacity="0.10"/>
+          <rect x="420" y="30" width="370" height="160" fill="var(--slate)" opacity="0.10"/>
+
+          <!-- band boundaries -->
+          <line x1="220" y1="30" x2="220" y2="190" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="4 3"/>
+          <line x1="420" y1="30" x2="420" y2="190" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="4 3"/>
+
+          <!-- baseline protection -->
+          <line x1="70" y1="150" x2="790" y2="150" stroke="var(--rule)" stroke-width="1.2"/>
+          <text x="78" y="145" font-size="10" fill="var(--faint)" font-family="IBM Plex Mono, monospace">baseline protection</text>
+
+          <!-- protection curve -->
+          <path d="M 70 150
+                   C 100 150, 110 90, 145 78
+                   C 185 66, 210 84, 235 120
+                   C 260 158, 285 172, 320 170
+                   C 350 168, 365 150, 390 120
+                   C 440 62, 520 48, 590 58
+                   C 660 68, 730 96, 790 112"
+                fill="none" stroke="var(--oxblood)" stroke-width="2.5" stroke-linecap="round"/>
+
+          <!-- gap below-baseline emphasis -->
+          <path d="M 252 160 C 275 174, 310 178, 340 172 L 340 186 C 300 190, 268 184, 250 170 Z"
+                fill="var(--red)" opacity="0.35"/>
+          <text x="320" y="200" font-size="10.5" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle" font-weight="600">second hit here = worse than no first hit</text>
+
+          <!-- window labels -->
+          <text x="145" y="48" font-size="12" font-weight="600" fill="var(--teal)" font-family="IBM Plex Mono, monospace" text-anchor="middle">EARLY</text>
+          <text x="145" y="62" font-size="10" fill="var(--teal)" font-family="IBM Plex Mono, monospace" text-anchor="middle">1–3 h</text>
+          <text x="320" y="48" font-size="12" font-weight="600" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">UNPROTECTED GAP</text>
+          <text x="320" y="62" font-size="10" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">~30 min–24 h</text>
+          <text x="605" y="48" font-size="12" font-weight="600" fill="var(--slate)" font-family="IBM Plex Mono, monospace" text-anchor="middle">DELAYED</text>
+          <text x="605" y="62" font-size="10" fill="var(--slate)" font-family="IBM Plex Mono, monospace" text-anchor="middle">12–72 h</text>
+
+          <!-- mechanism sub-labels -->
+          <text x="145" y="184" font-size="9.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">post-translational</text>
+          <text x="320" y="216" font-size="9.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">no de novo protein synthesis yet</text>
+          <text x="605" y="184" font-size="9.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">gene induction · lasts days–weeks</text>
+
+          <!-- x axis -->
+          <line x1="70" y1="190" x2="790" y2="190" stroke="var(--rule-strong)" stroke-width="1.2"/>
+          <g font-size="10" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <text x="70"  y="204">0 h</text>
+            <text x="220" y="204">~1 h</text>
+            <text x="420" y="204">~12 h</text>
+            <text x="545" y="204">~24 h</text>
+            <text x="790" y="204">72 h →</text>
+          </g>
+          <!-- y axis label -->
+          <text x="20" y="110" font-size="10" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle" transform="rotate(-90 20 110)">PROTECTION LEVEL</text>
+          <!-- trigger marker -->
+          <circle cx="70" cy="150" r="4" fill="var(--oxblood)"/>
+          <text x="130" y="230" font-size="10" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace" text-anchor="middle" font-weight="600">← hormetic conditioning dose</text>
+        </svg>
+        </div>
+
+        <div class="windows-cards">
+          <div class="win-card early">
+            <div class="win-name">早期窗口</div>
+            <div class="win-span">1–3 h</div>
+            <p>翻譯後修飾——現有蛋白質被修飾（受體適應、磷酸化）。快速啟動，快速衰退。</p>
+          </div>
+          <div class="win-card gap">
+            <div class="win-name">無保護間隙</div>
+            <div class="win-span">~30 分鐘–24 h</div>
+            <p>在兩個窗口之間，生物體的保護可能<strong>低於</strong>基線——壓力源耐受性的假設在此失效。<strong>不要在此區域疊加第二個壓力源。</strong></p>
+          </div>
+          <div class="win-card delayed">
+            <div class="win-name">延遲窗口</div>
+            <div class="win-span">12–72 h</div>
+            <p>基因誘導和從頭蛋白質合成（HSPs、抗氧化酶）。啟動較慢，持續數天至數週。<strong>適應性在此被儲存。</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        Calabrese 和 Mattson 的<strong>分解–合成循環毒興模型（CACH）</strong>
+        （<em>Ageing Res Rev</em> 2024，被引用 32+ 次）將此正式化：健康來自重複
+        <strong>分解挑戰階段</strong>（壓力反應、資源保存）和<strong>合成恢復階段</strong>
+        （生長、可塑性、記憶鞏固）的循環。Mattson 2025 年 <em>Nature Metabolism</em> 的
+        「循環代謝切換」論文將相同的邏輯延伸到禁食——<em>燃料之間的切換，而非赤字本身，
+        才是毒興訊號</em>。下表編譯了每個領域的持續時間和頻率數據：
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>領域</th>
+              <th>單次持續時間</th>
+              <th>頻率</th>
+              <th>恢復／再給藥間隔</th>
+              <th>關鍵時間證據</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>輻射</strong></td>
+              <td>—</td>
+              <td>—</td>
+              <td>背景暴露是連續的；無已驗證的再給藥間隔</td>
+              <td>在 &lt;10 cGy 時記錄到適應性反應，但<strong>人類文獻中無刻意給藥方案</strong>——證據有爭議，LNT 模型未改變</td>
+            </tr>
+            <tr>
+              <td><strong>ROS / 運動</strong></td>
+              <td>中等強度 30–60 分鐘；HIIT 4–6 × 30 秒全力衝刺</td>
+              <td>每週 3–5 次</td>
+              <td>強度訓練間隔 48–72 小時；AMPK 約 3 小時回到基線；mTORC1 於 RT 後升高約 18 小時</td>
+              <td>Gibala：30 秒全力衝刺 → 急性 PGC-1α mRNA 升高 2 倍。過度訓練 = 慢性 AMPK 抑制 mTOR</td>
+            </tr>
+            <tr>
+              <td><strong>發炎反應</strong></td>
+              <td>一次不習慣的離心訓練</td>
+              <td>初期每 1–2 週重複一次</td>
+              <td>重複訓練效應持續數週至數月；NSAID 窗口 = 後 24–48 小時（應避免）</td>
+              <td>Hyldahl et al.：單次訓練後保護效果可測量 ≥4 週</td>
+            </tr>
+            <tr>
+              <td><strong>缺氧</strong></td>
+              <td>間歇 60–120 分鐘（如 5 分鐘缺氧 / 5 分鐘常氧循環）</td>
+              <td>每週 3–5 次，持續 2–4 週方案</td>
+              <td>暴露後保護窗口長達 72 小時；間隔 &gt;72 小時則耐受性消失</td>
+              <td>新生大鼠模型：8% O₂ 下 3 小時具腦保護作用；記錄到間隔依賴性衰退</td>
+            </tr>
+            <tr>
+              <td><strong>禁食</strong></td>
+              <td>每日 12–16 小時；定期 24–36 小時</td>
+              <td>每日 TRF；每週 1–2 次 24 小時以上禁食</td>
+              <td>代謝切換（葡萄糖→BHB）於約 12–36 小時 = 毒興觸發點；再進食期是合成記憶寫入的時刻</td>
+              <td>2025 Nat Commun：禁食<em>持續時間</em>而非僅熱量驅動 Aβ/tau 清除。2025 DZD：等熱量 TRF（無赤字）→無心血管代謝益處</td>
+            </tr>
+            <tr>
+              <td><strong>免疫／老朋友</strong></td>
+              <td>—（連續暴露，非單次形式）</td>
+              <td>持續性生活方式：戶外接觸、寵物、園藝、發酵食品</td>
+              <td>無離散恢復窗口——免疫耐受訓練是累積性的；抗生素療程 = 重置事件，需要數週至數月重新多樣化</td>
+              <td>農場效應流行病學基於暴露<em>持續時間</em>（童年時期），而非單次形式；蠕蟲試驗間隔數週給藥</td>
+            </tr>
+            <tr>
+              <td><strong>溫度</strong></td>
+              <td>三溫暖 20–40 分鐘（80–100°C）；冷暴露 1–5 分鐘（10–15°C）</td>
+              <td>三溫暖每週 4–7 次（Laukkanen 隊列）；冷暴露每週 2–4 次</td>
+              <td>Søberg：每週冷暴露 11 分鐘 + 熱暴露 57 分鐘即足夠；以冷結束可獲得最大代謝益處</td>
+              <td>Scoon 2007：運動後三溫暖 30 分鐘 × 每週 4 天 × 3 週 → 耐力時間增加 32%</td>
+            </tr>
+            <tr>
+              <td><strong>心理壓力</strong></td>
+              <td>漸進式挑戰，數分鐘至數小時</td>
+              <td>每週多次暴露（SIT 方案：8–15 次）</td>
+              <td>挑戰間的恢復是前額葉適應鞏固的時刻；慢性（無間斷）壓力退出窗口</td>
+              <td>Lyons 和 Parker：接種的靈長類動物前額葉皮質體積增大——但僅在可恢復的挑戰下</td>
+            </tr>
+            <tr>
+              <td><strong>異體毒興</strong></td>
+              <td>餐食劑量水平（sulforaphane 約 30–60 mg 葡糖苷酸鹽當量）</td>
+              <td>每日飲食攝取；輪換來源</td>
+              <td>NRF2 活化脈衝每次劑量持續約 6–24 小時；慢性大劑量 → 適應疲勞／促氧化翻轉</td>
+              <td>Curcumin 的低生物利用度可能是保護性的——保持組織濃度在窗口內</td>
+            </tr>
+            <tr>
+              <td><strong>酒精（J 曲線）</strong></td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+              <td><strong>不提供劑量建議。</strong>J 曲線有爭議（孟德爾隨機化），毒興窗口狹窄且受混雜因素影響，WHO 2023 指出「無安全水平」——單次/頻率表暗示了證據不支持的安全性背書</td>
+            </tr>
+            <tr>
+              <td><strong>腸道微生物</strong></td>
+              <td>—（連續、餐食水平）</td>
+              <td>每日：每週 30+ 種植物、每餐日發酵食品</td>
+              <td>無離散恢復窗口；抗生素後重建 = 數週至數月的刻意重新接種（FMT 模型顯示生態系統恢復，非固定間隔）</td>
+              <td>SCFA 訊號追蹤連續纖維攝取；微生物多樣性在數天至數週內響應，而非單次形式</td>
+            </tr>
+            <tr>
+              <td><strong>機械力</strong></td>
+              <td>30–60 分鐘漸進式負荷</td>
+              <td>每週 2–4 次阻力訓練</td>
+              <td>骨骼重塑週期約 3–4 個月；肌腱適應速度慢於肌肉（重負荷間至少 48–72 小時）</td>
+              <td>Wolff 定律依賴負荷頻率；微重力骨流失在數週內顯示「停止」狀態</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout teal">
+        <p><strong>序列洞見：</strong>因為早期窗口是翻譯後修飾（快速、短暫）而延遲窗口是轉錄性的（緩慢、持久），
+        <em>同一壓力源過早重施</em>會落在無保護間隙中，或在延遲程式寫入前將其鈍化。相反地，
+        <em>不同的</em>壓力源匯聚到相同感測器（如 cold + exercise 都作用於 AMPK）可以協同或干擾，
+        取決於間隔。時機是一個劑量維度——將其視為如此。</p>
+      </div>
+    </section>
+
+    <!-- ==================== INTERACTION MATRIX ==================== -->
+    <section id="interactions">
+      <p class="sec-label">同時進行的實踐</p>
+      <h2>壓力源疊加——什麼干擾、什麼協同</h2>
+      <p>
+        毒興壓力源共享感測器（AMPK、NRF2、mTOR、HSF1），所以結合它們可以
+        <strong>放大</strong>適應性訊號或<strong>抵消</strong>它。最清晰的定量案例：
+      </p>
+
+      <div class="rec-card interferes">
+        <div class="rec-label">干擾——間隔 ≥3 小時（理想為 24 小時）</div>
+        <p><strong>阻力訓練後的冷水浴。</strong>Piñero et al. 2024 統合分析
+       （8 項研究）：95.7% 的機率認為常規訓練後 CWI 會鈍化肌肥大——每項納入的研究都在訓練後
+        <em>20 分鐘內</em>施加冷暴露，而肌肉的成長敏感期長達 &gt;24 小時。機制：冷抑制 mTORC1、
+        核糖體生長、衛星細胞活化和 IL-6 發炎訊號。冷仍然是有效的毒興工具——只是
+        <strong>不在舉重後的合成窗口內</strong>。訓練前冷暴露，或在不同日期，可保留兩個訊號。</p>
+      </div>
+
+      <div class="rec-card interferes">
+        <div class="rec-label">干擾——間隔 ≥3 小時</div>
+        <p><strong>同日高強度耐力訓練先於力量訓練。</strong>AMPK 在耐力訓練後維持升高約 3 小時並直接抑制
+        mTORC1（RT 後維持活躍約 18 小時）。Frontiers 2026 半系統性綜述：耐力→力量需要
+        <strong>≥3 小時間隔</strong>以避免分子干擾；力量優先序列可優化神經肌肉適應。</p>
+      </div>
+
+      <div class="rec-card interferes">
+        <div class="rec-label">干擾——訓練前後應完全避免</div>
+        <p><strong>抗氧化補充劑（維生素 C/E）+ 運動。</strong>淬滅驅動 PGC-1α 和粒線體生長的 ROS 訊號——
+        與 metformin 同時給藥所見的鈍化相同。若與 sulforaphane 類化合物同時服用也會阻斷異體毒興 NRF2 脈衝。
+        問題在於補充劑量，而非食物中的膳食抗氧化劑。</p>
+      </div>
+
+      <div class="rec-card interferes">
+        <div class="rec-label">干擾——避開急性窗口</div>
+        <p><strong>離心運動後 / 輕度發燒期間使用 NSAIDs。</strong>阻斷前列腺素介導的衛星細胞增殖和
+        重複訓練記憶的寫入。保留用於真正的損傷。低度感染時常規使用退燒藥同理。</p>
+      </div>
+
+      <div class="rec-card synergy">
+        <div class="rec-label">協同——可安全疊加</div>
+        <p><strong>運動後三溫暖</strong>（Scoon 2007：耐力增加 32%）、<strong>缺氧條件下運動</strong>
+        （疊加 AMPK + HIF-1α）、<strong>禁食 + 訓練</strong>在分解窗口內（匯聚 AMPK——但根據 CACH 模型
+        之後刻意安排合成/進食階段）、<strong>植物化學物質多樣性 + 任何壓力源</strong>
+        （輕度 NRF2 預激降低適應閾值）。</p>
+      </div>
+
+      <div class="rec-card contextual">
+        <div class="rec-label">視情況而定</div>
+        <p><strong>無恢復期的慢性多重壓力源。</strong>CACH 模型的核心警告：合成階段並非可選。
+        每日疊加 5 種以上毒興實踐且無休息日會產生體內穩態負荷，而非適應——
+        <em>同時進行的壓力源數量</em>和任何單一劑量一樣適用倒 U 型曲線。</p>
+      </div>
+    </section>
+
+    <!-- ==================== LANGUAGE VARIANCE ==================== -->
+    <section id="language">
+      <p class="sec-label">可見度問題</p>
+      <h2>語言差異：為何 80–90% 的毒物興奮研究不可見</h2>
+
+      <div class="callout">
+        <p class="big-num">80–90%</p>
+        <p>
+          的毒興相關研究在標準搜尋詞下被遺漏，因為不同領域使用不同的詞彙來描述
+          相同的生物學原理。<strong>這不是生物學問題——而是語言學問題</strong>。
+          底層機制（亞毒性壓力 → 經由保守感測器的適應性韌性）在所有 12 個領域中
+          是相同的；只有命名慣例不同。
+        </p>
+      </div>
+
+      <p>
+        2024 年 Li et al. 的 <em>Nature</em> 綜述（101 次引用、36k 存取）和
+        2026 年 Springer「韌性熔爐」論文都認為詞彙碎片化是毒興在臨床上未被充分利用的
+        首要原因。以下是逐領域的詞彙落差映射：
+      </p>
+
+      <table class="vocab-table">
+        <thead>
+          <tr>
+            <th>領域</th>
+            <th>毒興術語</th>
+            <th>領域特定詞彙</th>
+            <th>使用替代術語的文獻比例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>低劑量輻射</td>
+            <td>輻射毒興</td>
+            <td>適應性反應、放射適應性反應、預適應、基因毒性適應</td>
+            <td>~75%</td>
+          </tr>
+          <tr>
+            <td>ROS 訊號</td>
+            <td>粒線體毒興</td>
+            <td>氧化還原訊號、ROS 介導的訊號、氧化良性壓力、毒興氧化還原調節</td>
+            <td>~65%</td>
+          </tr>
+          <tr>
+            <td>發炎反應</td>
+            <td>發炎毒興</td>
+            <td>重複訓練效應、運動誘發肌肉損傷適應、免疫預激、發燒反應</td>
+            <td>~85%</td>
+          </tr>
+          <tr>
+            <td>間歇性缺氧</td>
+            <td>缺氧毒興</td>
+            <td>間歇缺氧調節（IHC）、缺氧預適應、高原訓練反應</td>
+            <td>~70%</td>
+          </tr>
+          <tr>
+            <td>熱量壓力 / 禁食</td>
+            <td>營養毒興</td>
+            <td>代謝切換、禁食誘發自噬、熱量限制反應、限時進食適應</td>
+            <td>~55%</td>
+          </tr>
+          <tr>
+            <td>免疫 / 衛生</td>
+            <td>微生物毒興</td>
+            <td>老朋友假說、衛生假說、免疫耐受訓練、Treg 教育</td>
+            <td>~80%</td>
+          </tr>
+          <tr>
+            <td>熱 / 冷</td>
+            <td>溫度毒興</td>
+            <td>熱休克反應、冷適應、棕色脂肪組織徵募、對比療法適應</td>
+            <td>~70%</td>
+          </tr>
+          <tr>
+            <td>心理壓力</td>
+            <td>心理毒興</td>
+            <td>良性壓力、壓力接種訓練（SIT）、創傷後成長、認知儲備、Yerkes-Dodson</td>
+            <td>~90%</td>
+          </tr>
+          <tr>
+            <td>異體毒興</td>
+            <td>異體毒興</td>
+            <td>植物化學訊號、毒興植物化學反應、雙相劑量反應</td>
+            <td>~60%</td>
+          </tr>
+          <tr>
+            <td>低劑量酒精</td>
+            <td>酒精毒興</td>
+            <td>J 型曲線、雙相死亡率、適度飲酒悖論</td>
+            <td>~70%</td>
+          </tr>
+          <tr>
+            <td>腸道微生物</td>
+            <td>微生物定殖毒興</td>
+            <td>定殖抗性、微生物組成熟、SCFA 訊號、抗生素後重建</td>
+            <td>~75%</td>
+          </tr>
+          <tr>
+            <td>機械力</td>
+            <td>機械毒興</td>
+            <td>Wolff 定律、力學傳導適應、負荷介導重塑、力學恆溫器理論</td>
+            <td>~80%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top: 12px;">
+        <strong>所有 12 個領域的加權平均：約 73% 的毒興相關文獻使用領域特定術語而非
+        「hormesis」一詞。</strong>這意味著僅搜尋「hormesis」的研究者將系統性遺漏約
+        四分之三的證據基礎。其餘 ~27% 直接使用「hormesis」——主要在輻射生物學、
+        熱量限制和異體毒興領域，這些是該術語起源或早期採用之處。
+      </p>
+      <p>
+        心理壓力接種是最不可見的（~90% 替代術語），而熱量限制 / 禁食則最不隐蔽
+        （~55%）——反映了「毒興」語言在營養/長壽領域的較早採用（Mattson、Calabrese）。
+      </p>
+    </section>
+
+    <!-- ==================== RADAR CHART ==================== -->
+    <section id="radar">
+      <p class="sec-label">你的檔案</p>
+      <h2>毒物興奮範圍雷達</h2>
+      <p>
+        你的滑桿值繪製在下方的雷達圖上。理想的檔案是一個寬廣、平衡的多邊形，
+        在所有領域都填滿 <strong>3–6 區間</strong>——持續的毒興實踐而不會在任何
+        單一領域過度暴露。一個塌陷的多邊形（低值）表示未被充分利用的適應潛力；
+        一個尖刺的多邊形（某些領域極高、其他極低）表示不平衡的檔案，部分路徑有
+        慢性過載風險而其他路徑休眠。
+      </p>
+      <div class="radar-wrap">
+        <div class="copy-host">
+          <canvas id="radarCanvas" width="700" height="700"></canvas>
+          <button class="copy-btn" data-copy-canvas="radarCanvas" title="複製雷達圖為 PNG" aria-label="複製雷達圖為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SCORE SUMMARY ==================== -->
+    <section id="summary">
+      <div class="score-panel">
+        <h2>綜合毒物興奮範圍分數</h2>
+        <div class="score-big" id="compositeScore">0</div>
+        <div class="score-sub" id="compositeLabel">設定你的領域滑桿以生成檔案。</div>
+
+        <div id="domainScores"></div>
+
+        <div class="export-row">
+          <button class="btn primary" onclick="exportJSON()">匯出檔案（JSON）</button>
+          <button class="btn" onclick="resetAll()">重設所有滑桿</button>
+          <button class="btn" onclick="window.print()">列印 / PDF</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GUIDANCE ==================== -->
+    <section id="guidance">
+      <p class="sec-label">指引</p>
+      <h2>擴展你的毒物興奮範圍——各領域途徑</h2>
+      <p>
+        根據你的檔案，以下建議按你最低分的領域排序——你在適應性擴展方面最有空間的途徑。
+        每個建議對應共享分子架構中的特定感測器和效應器。
+      </p>
+      <div id="guidanceCards"></div>
+    </section>
+
+    <!-- ==================== SOURCES ==================== -->
+    <section id="refs">
+      <p class="sec-label">來源</p>
+      <h2>關鍵參考文獻</h2>
+      <ol style="font-size:.88rem; line-height:1.6; color: var(--ink-soft);">
+        <li>Li, X. et al. (2024). Current advances and future trends of hormesis in disease. <em>Nature</em>. 101 citations, 36k accesses.</li>
+        <li>Calabrese, E.J. et al. (2026). The crucible of resilience: hormesis as the unifying explanatory principle of life. <em>Arch Toxicol</em>.</li>
+        <li>Calabrese, E.J. &amp; Baldwin, L.A. (2001). The frequency of U-shaped dose responses in the toxicological literature. <em>Toxicol Sci</em>. Cited by 460+.</li>
+        <li>Alcendor RR et al. (2007). Sirt1 regulates aging and resistance to oxidative stress in the heart. <em>Circ Res</em>. doi:10.1161/01.RES.0000267723.65696.4a.</li>
+        <li>Pérez VI et al. (2009). The overexpression of major antioxidant enzymes does not extend the lifespan of mice. <em>Aging Cell</em>.</li>
+        <li>Pérez VI et al. (2011). Thioredoxin 1 overexpression extends mainly the earlier part of life span in mice. <em>J Gerontol A</em>.</li>
+        <li>Cunningham GM et al. (2018). Thioredoxin overexpression in both the cytosol and mitochondria accelerates age-related disease. <em>GeroScience</em>.</li>
+        <li>Dimauro, I. et al. (2026). ROS in exercise biology. <em>Free Radic Biol Med</em>.</li>
+        <li>Strilbytska, O. &amp; Lushchak, O. (2026). Intermittent fasting as a hormetic signal. <em>Front Nutr</em>.</li>
+        <li>Lyons, D.M. &amp; Parker, K.J. (2007). Seeding stress resilience through inoculation. <em>PMC 4736400</em>.</li>
+        <li>Schriner SE et al. (2005). Extension of murine life span by overexpression of catalase targeted to mitochondria. <em>Science</em>.</li>
+        <li>Schell et al. (2025). MnSOD K68R knock-in → dilated cardiomyopathy and senescence.</li>
+        <li>Laukkanen, T. et al. (2018). Effects of heat and cold on health. <em>Am J Physiol</em>.</li>
+        <li>Boulares, A. et al. (2024). Intermittent hypoxia protocols on cognitive performance in older adults. <em>J Alzheimers Dis</em>.</li>
+        <li>Alito, A. et al. (2026). Thermal stress: untapped potential in rehabilitation. <em>Front Rehabil Sci</em>.</li>
+        <li>Mattson, M.P. et al. (2024). The hormesis principle of neuroplasticity and neuroprotection. <em>Cell Metab</em>.</li>
+      </ol>
+
+      <div class="page-footer">
+        <p>資料來源：<code>src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md</code> · 抗氧化酶簇綜述（<code>task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md</code>）· <code>src/notes/_link/Hormesis.md</code> · <code>Mitohormesis.md</code> · <code>Xenohormesis.md</code></p>
+        <p style="margin-top:6px;">由 <a href="https://graph.johnnykuo.com">llm-wiki-jk</a> 生成 · 所有評估僅供教育用途——開始任何壓力暴露方案前請諮詢醫療提供者。</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+// ============================================================
+//  DOMAIN DATA
+// ============================================================
+const DOMAINS = [
+  {
+    id: 'radiation',
+    num: '01',
+    title: '低劑量輻射',
+    badge: 'contested',
+    desc: 'LDR 活化 ATM → p53 → DNA 修復 → FOXO → 抗氧化防禦。Ramsar 居民：高達每年 260 mSv 但無 DNA 損傷增加。管制 LNT 模型阻礙了臨床轉譯。',
+    sensors: ['ATM', 'p53', 'NF-κB'],
+    effectors: ['DNA 修復（BRCA1、GADD45）', 'CD69⁺ T 細胞', 'NRF2/ARE 酶'],
+    avoid: ['慢性高劑量 LDR', 'LNT 模型零容忍框架'],
+    zoneLabel: ['無', '預激', '毒興', '適應', '注意', '過量'],
+    zoneRange: '低於背景 → ~10 cGy → 10–100 mSv',
+    guidance: {
+      low: '對大多數人而言，背景輻射暴露在毒興上可忽略不計。考慮到自然背景變化（全球每年 2–10 mSv，Ramsar 高達每年 260 mSv）完全在演化暴露範圍內。不建議刻意給藥——輻射的毒興窗口狹窄且數據有爭議。',
+      mid: '你處於自然背景暴露範圍內。ATM → DNA 修復級聯是穩定活躍的。不需要刻意補充——此領域最好通過避免不必要的輻射（CT 掃描等）來服務，同時認識到自然背景暴露並無害處。',
+      high: '刻意 LDR 毒興的數據有爭議。LNT 模型雖然可能過於保守，但仍是管制標準。在對照的人類研究中尚未顯示慢性高於自然背景的暴露能帶來益處。考慮將毒興實踐集中在證據更充分的領域。'
+    }
+  },
+  {
+    id: 'ros',
+    num: '02',
+    title: 'ROS 訊號 / 運動',
+    badge: 'strong',
+    desc: '運動產生的適度 ROS 編排粒線體生長、抗氧化防禦和代謝調節。高劑量抗氧化補充劑會阻斷這些益處——與 metformin/抗氧化劑悖論完全相同。',
+    sensors: ['AMPK', 'NRF2', 'PGC-1α'],
+    effectors: ['粒線體生長', '內源性 SOD/catalase/GPx 誘導', 'TFEB → 溶酶體生長'],
+    avoid: ['運動時高劑量抗氧化補充', '慢性最大 ROS 清除'],
+    zoneLabel: ['久坐', '輕度', '中等', '毒興', '高強度', '過度訓練'],
+    zoneRange: '無運動 → 中等有氧 → 高強度間歇',
+    guidance: {
+      low: '久坐行為是大多數人最顯著的毒興缺陷。運動 → 粒線體 ROS → AMPK → PGC-1α 級聯是最佳表徵的粒線體毒興路徑。從每週 150 分鐘中等有氧活動開始。避免運動前後使用抗氧化補充劑（維生素 C/E）——它會鈍化適應性訊號。',
+      mid: '良好的粒線體毒興實踐。維持中高強度活動。每週加入 1–2 次 HIIT 以推動 AMPK/PGC-1α 反應。避免圍繞運動窗口的慢性抗氧化補充劑。若使用 metformin，注意同時給藥抗氧化劑會削弱其長壽益處。',
+      high: '慢性過度訓練可能超出毒興窗口，產生超過抗氧化能力的過量 ROS。指徵：持續疲勞、靜息心率升高、頻繁生病。以恢復週進行訓練週期化。MnSOD 乙醯化調節的教訓：活動必須在窗口內循環，而非永久鎖定在一個位置。'
+    }
+  },
+  {
+    id: 'inflammation',
+    num: '03',
+    title: '發炎反應 / EIMD',
+    badge: 'strong',
+    desc: '急性發炎驅動組織修復。NSAIDs 損害衛星細胞增殖和重複訓練效應。重複訓練效應 = 組織層級的毒興記憶：神經、結構和分子適應。',
+    sensors: ['NF-κB', 'TNF-α', 'IL-6（肌肉因子）'],
+    effectors: ['衛星細胞增殖', '肌肉再生', '重複訓練適應'],
+    avoid: ['運動後使用 NSAIDs', '輕度感染期間抑制急性發燒'],
+    zoneLabel: ['無', '輕度 DOMS', '中度 EIMD', '毒興', '嚴重 EIMD', '橫紋肌溶解'],
+    zoneRange: '無肌肉壓力 → 離心訓練 → 不習慣的過載',
+    guidance: {
+      low: '如果你從未經歷延遲性肌肉痠痛（DOMS）或避免所有發炎反應，你就錯失了一個關鍵的適應性訊號。離心運動（下坡跑步、慢速離心）觸發 TNF-α → 衛星細胞活化。運動後服用 NSAIDs 會抑制此路徑——保留用於真正的損傷，而非常規痠痛。',
+      mid: '良好的發炎毒興實踐。漸進式離心負荷提供重複訓練效應——每次暴露使下次損傷減少。避免圍繞運動的常規 NSAID 使用。如果你在感染期間出現輕度發燒，考慮增強 T 細胞增殖和病原體清除，然後再使用退燒藥。',
+      high: '嚴重、持續的發炎退出毒興窗口進入老齡發炎。慢性肌肉損傷無恢復、持續高 CRP 或自體免疫發作並非毒興——而是病理性。關鍵區別：急性、可恢復、階段依賴性 = 適應性；慢性、壓倒性、持續性 = 適應不良。'
+    }
+  },
+  {
+    id: 'hypoxia',
+    num: '04',
+    title: '間歇性缺氧',
+    badge: 'emerging',
+    desc: '控制性間歇輕度缺氧 → HIF-1α → EPO、VEGF、BDNF、粒線體 ROS → AMPK → PGC-1α。7 項研究顯示改善老年人認知功能。幾乎完全匯聚到粒線體毒興級聯。',
+    sensors: ['HIF-1α', 'AMPK', 'SIRT1'],
+    effectors: ['EPO（紅血球生成）', 'VEGF（血管新生）', 'BDNF（神經可塑性）', 'BAT 活化'],
+    avoid: ['慢性嚴重缺氧（中風、長時間高原）', '未控制的睡眠呼吸暫停'],
+    zoneLabel: ['海平面', '輕度', '中度', '毒興', '高原', '嚴重'],
+    zoneRange: '海平面 → 2000–3000m 間歇 → >5000m 慢性',
+    guidance: {
+      low: '如果你住在低海拔且從未經歷缺氧，HIF-1α 路徑會長期刺激不足。選擇：海拔訓練面罩（間歇性）、在缺氧條件下運動，或受監督的間歇低壓方案。2026 年 AIMS Neuroscience 綜述指出多項先導研究的認知益處。',
+      mid: '良好的缺氧毒興實踐。間歇海拔訓練或控制性缺氧暴露活化 HIF-1α → EPO + VEGF + BDNF。在缺氧條件下運動可能結合兩種毒興壓力源。監測過度疲勞或頭痛——這些表示你正在接近閾值。',
+      high: '慢性嚴重缺氧（未控制的睡眠呼吸暫停、未適應的長時間高原）會慢性活化 HIF-1α，可能轉為致癌性（Warburg 效應）。適應性益處需要間歇性、可恢復的暴露。如果已診斷睡眠呼吸暫停，請治療——它不是毒興。'
+    }
+  },
+  {
+    id: 'fasting',
+    num: '05',
+    title: '熱量壓力 / 禁食',
+    badge: 'strong',
+    desc: '禁食活化 AMPK → TFEB → 自噬；BHB 經由 HDAC 抑制誘導 BDNF；能量赤字本身就是訊號。2025 年 Nature Communications 研究顯示禁食持續時間而非僅熱量減少才是毒興觸發點。',
+    sensors: ['AMPK', 'mTORC1（抑制）', 'SIRT1', 'TFEB'],
+    effectors: ['自噬（粒線體自噬、蛋白質聚集物清除）', 'BDNF → 海馬迴神經發生', '溶酶體生長', '生理時鐘重置'],
+    avoid: ['慢性嚴重熱量剝奪', '無赤字的等熱量限時進食'],
+    zoneLabel: ['進食中', '12 小時', '16 小時', '毒興', '36 小時以上', '飢餓'],
+    zoneRange: '持續進食 → 12–36 小時間歇 → 長期飢餓',
+    guidance: {
+      low: '持續進食使 mTORC1 穩定活躍、自噬受抑。從每晚 12–14 小時禁食開始（如晚上 8 點至早上 8 點）。進階到 16:8 限時進食。2025 年 DZD 研究顯示，無熱量赤字時，僅限時進食不會改善心血管代謝健康——代謝壓力成分很重要。',
+      mid: '良好的禁食毒興實踐。考慮定期 24–36 小時禁食以進行更深層的自噬活化（AMPK → TFEB → 溶酶體生長）。隔日禁食或 5:2 方案維持葡萄糖和 BHB 燃料之間的代謝切換。確保進食日攝取足夠蛋白質以避免過度肌肉分解。',
+      high: '無醫療監督的長時間禁食（>36 小時）有過度肌肉流失、電解質失衡和免疫抑制風險。毒興益處需要禁食間的恢復——慢性熱量剝奪是飢餓，而非毒興。以充足營養循環禁食期。'
+    }
+  },
+  {
+    id: 'immune',
+    num: '06',
+    title: '免疫 / 老朋友',
+    badge: 'strong',
+    desc: '微生物暴露訓練調節性 T 細胞（Tregs）並校準免疫耐受。農場兒童哮喘顯著降低。蠕蟲療法在克隆氏症中達到 79% 緩解。抗生素過度使用剝奪訓練訊號。',
+    sensors: ['TLR 訊號', 'TGF-β', 'IL-25', 'TSLP'],
+    effectors: ['Treg 分化', '耐受性樹突細胞', 'Th1/Th17 → Th2/Treg 偏移'],
+    avoid: ['常規抗生素過度使用', '完全避免微生物', '過度消毒環境'],
+    zoneLabel: ['無菌', '極少', '中等', '毒興', '多樣', '致病性'],
+    zoneRange: '抗生素處理 → 正常衛生 → 農場/多樣暴露',
+    guidance: {
+      low: '如果你生活在超級消毒的環境中、頻繁使用抗生素並避免自然微生物暴露，你的 Treg 教育可能不足。增加：戶外活動、園藝、養寵物、發酵食品（泡菜、開菲爾、酸菜）、多樣膳食纖維以產生 SCFA。實踐「目標性衛生」——處理生肉後洗手但鼓勵環境微生物多樣性。',
+      mid: '良好的微生物多樣性。維持發酵食品攝取、多樣植物纖維（SCFA 產生 → GPR41/43 → 自噬）和戶外暴露。避免不必要的抗生素——處方時考慮同時使用益生菌。農場保護效應數據有力：多樣微生物暴露 → 耐受性黏膜免疫平衡。',
+      high: '壓倒性的病原感染並非毒興。「老朋友」假說涉及的是共生物種（腐生分枝桿菌、蠕蟲、腸道共生菌），而非病原體。免疫功能低下者應遵循標準感染預防。毒興窗口需要訓練訊號，而非疾病。'
+    }
+  },
+  {
+    id: 'thermal',
+    num: '07',
+    title: '熱 / 冷暴露',
+    badge: 'strong',
+    desc: '三溫暖每週 4–7 次 → 心血管死亡率降低 50%（Laukkanen，n=2,315，20.7 年）。冷：BAT 活化 + RBM3 突觸再生 + 多巴胺升高 250%。對比療法訓練內皮功能和自主神經靈活性。',
+    sensors: ['HSF1/HSP70/HSP90', 'AMPK', 'UCP1', 'SIRT1/SIRT3'],
+    effectors: ['蛋白質穩定（伴護網路）', 'BAT 產熱', 'RBM3 神經保護', '正腎上腺素湧現', '內皮訓練'],
+    avoid: ['極端熱中暑', '極端低溫體溫過低 / 心臟事件', '長期熱適應舒適區'],
+    zoneLabel: ['舒適', '輕度', '中度', '毒興', '強烈', '危險'],
+    zoneRange: '環境舒適 → 三溫暖/冷水浴 → 極端暴露',
+    guidance: {
+      low: '熱舒適是現代的預設也是顯著的毒興缺陷。從以下開始：15 分鐘三溫暖 80°C（每週 1–3 次）或 1–3 分鐘冷水浸泡 10–15°C（從涼水開始，逐漸進階）。Søberg 方案：每週冷暴露 11 分鐘 + 熱暴露 57 分鐘，以冷結束可獲得最大代謝益處。HSP70/HSP90 與熱量限制和運動活化的是相同的蛋白質。',
+      mid: '良好的溫度毒興實踐。三溫暖每週 3–5 次（4–7 次顯示最強的芬蘭隊列數據）。冷暴露 3–5 分鐘，10–15°C。對比療法（冷熱交替）訓練內皮功能和自主神經靈活性——本質上是「血管鍛鍊」。監測心率變異性和恢復。',
+      high: '極端高溫（>100°C 三溫暖、長時間暴露）有熱中暑風險。極端低溫（冰浴 >10 分鐘、心臟病患者冷水浸泡）有低溫和心臟事件風險。毒興窗口是適度的：足夠溫暖觸發 HSP70，足夠寒冷活化 BAT 和 RBM3，但在兩次之間可恢復。'
+    }
+  },
+  {
+    id: 'psych',
+    num: '08',
+    title: '心理壓力接種',
+    badge: 'emerging',
+    desc: 'SIT → 靈長類前額葉皮質體積增大。Yerkes-Dodson 倒 U 型 = 心理毒興。約 50% 的創傷倖存者報告創傷後成長。來自適度逆境的認知儲備建立韌性。',
+    sensors: ['HPA 軸（皮質醇）', '正腎上腺素', 'BDNF'],
+    effectors: ['前額葉皮質增厚', '樹突分支', '突觸發生', '海馬迴體積增加', '認知儲備'],
+    avoid: ['慢性壓倒性壓力', '無恢復的創傷', '完全避免逆境'],
+    zoneLabel: ['迴避', '低', '中等', '毒興', '高', '創傷性'],
+    zoneRange: '壓力迴避 → 可管理的挑戰 → 壓倒性逆境',
+    guidance: {
+      low: '完全迴避壓力反而降低韌性。Yerkes-Dodson 定律顯示表現隨喚醒水平提高到最佳點而改善。漸進式暴露於可管理的壓力源（冷暴露、身體挑戰、公開演講、認知需求）建立前額葉皮質體積和認知儲備。壓力接種訓練（SIT）是建立壓力韌性的循證方案。',
+      mid: '良好的心理毒興實踐。你正在經歷建立認知儲備和前額葉皮質容量的可管理挑戰。關鍵區別：急性、可恢復的壓力 = 毒興；慢性、壓倒性的壓力 = 病理性。在挑戰間維持恢復期。大腦通過樹突分支和突觸發生對挑戰進行實體適應。',
+      high: '慢性、壓倒性壓力會實體萎縮海馬迴、失調 HPA 軸並導致體內穩態過載。這並非毒興——而是病理性。如果你持續經歷焦慮、失眠或倦怠，你已超出毒興窗口。尋求支持、減少壓力源負荷並優先恢復。倒 U 型很清楚：過了高峰，更多壓力 = 更少功能。'
+    }
+  },
+  {
+    id: 'xeno',
+    num: '09',
+    title: '異體毒興 / 植物化學物質',
+    badge: 'strong',
+    desc: 'Sulforaphane 活化 NRF2 的效率比膳食抗氧化劑高 10–100 倍。低生物利用度可能使化合物保持在毒興窗口內。「抗氧化」框架模糊了實際機制：輕度毒性 → 內源性防禦活化。',
+    sensors: ['NRF2', 'HSF1', 'AMPK', 'SIRT1'],
+    effectors: ['內源性抗氧化酶（SOD、catalase、GPx、HO-1）', '第二期解毒', '蛋白質穩定網路'],
+    avoid: ['高劑量單一抗氧化補充劑', '忽略毒興機制的「抗氧化」框架'],
+    zoneLabel: ['無', '膳食', '中等', '毒興', '補充', '大劑量'],
+    zoneRange: '標準飲食 → 多樣植物化學物質 → 高劑量補充劑',
+    guidance: {
+      low: '如果你的飲食中植物性食品較少，NRF2 路徑刺激不足。優先選擇 sulforaphane 來源（花椰菜芽、十字花科蔬菜）、curcumin（薑黃加黑胡椒）、含 resveratrol 的食物（漿果、葡萄）和綠茶（EGCG）。它們通過輕度毒性 → NRF2 活化 → 產生比植物化學物質本身多 10–100 倍的內源性抗氧化劑來发挥作用。',
+      mid: '良好的異體毒興實踐。多樣的植物化學物質攝取提供輕度、間歇性的 NRF2/HSF1 活化。考慮輪換植物化學物質來源以避免適應（毒興需要可變的、而非慢性的訊號）。Curcumin 的低生物利用度實際上可能是有利的——保持組織濃度在毒興窗口內。',
+      high: '高劑量單一抗氧化補充劑可能具有促氧化作用並增加 RCT 中的死亡率（ATBC：β-胡蘿蔔素 +7%、CARET：β-胡蘿蔔素 +28% 肺癌）。毒興原則：化合物通過輕度毒性發揮作用，活化內源性防禦。大劑量壓倒適應性反應。多樣的膳食植物化學物質以適度劑量比濃縮補充劑更安全有效。'
+    }
+  },
+  {
+    id: 'alcohol',
+    num: '10',
+    title: '低劑量酒精（J 曲線）',
+    badge: 'contested',
+    desc: 'J 型曲線：低至適度飲用與比不飲酒更低的心血管死亡率相關（Copenhagen Heart Study，RR 0.51）。孟德爾隨機化研究質疑因果關係。公共衛生：「無安全水平」（WHO 2023）。',
+    sensors: ['AMPK', 'eNOS', 'HDL-C 調節'],
+    effectors: ['↑ HDL-C', '↓ 纖維蛋白原', '↓ 血小板聚集', '↑ 胰島素敏感度', '↑ eNOS 活性'],
+    avoid: ['慢性重度飲酒', '利用 J 曲線合理化豪飲', '忽略孟德爾隨機化混雜因素'],
+    zoneLabel: ['不飲酒', '低', '適度', '毒興', '重度', '酗酒'],
+    zoneRange: '不飲酒 → 每日 1–2 標準杯 → >4 杯/日',
+    guidance: {
+      low: '如果你不飲酒，你正在避免潛在的混雜因素，但也錯失了任何可能的低劑量適應性訊號。J 曲線數據有爭議——孟德爾隨機化研究（Kember et al., 2024，>250k 個體）表明益處可能部分反映系統性偏倚（退出飲酒者的「戒斷者」群組、社會經濟混雜因素）。安全做法：如果你不飲酒，不要為了健康原因開始。',
+      mid: '如果你每日飲用 1–2 標準杯，流行病學訊號輕度有利但機制不確定。任何單一因子的毒興窗口通常僅為基線以上 30–60%——容易在嘈雜的流行病學數據中消失。紅酒除乙醇外還提供 resveratrol + 多酚。WHO 2023：「無安全水平」——權衡個人風險。',
+      high: '重度飲酒（>4 標準杯/日）明確超出毒興窗口。酒精在高劑量下具有肝毒性、神經毒性和致癌性。即使 J 曲線成立，也僅適用於非常低的飲用水平。任何適度飲酒的感知益處在較高攝入量時被危害壓倒。若已依賴，請尋求支持——這不是毒興實踐。'
+    }
+  },
+  {
+    id: 'gut',
+    num: '11',
+    title: '腸道微生物定殖',
+    badge: 'strong',
+    desc: 'FMT >80% 治療復發性 C. difficile。無菌動物：免疫力受損、BDNF 降低、大腦發育異常。SCFAs（butyrate）活化 GPR41/43 → 自噬。抗生素過度使用造成共生菌二次滅絕。',
+    sensors: ['GPR41/43（SCFA 受體）', 'TLR 訊號', '腸腦軸（迷走神經）'],
+    effectors: ['SCFA 產生（butyrate、propionate）', 'Treg 分化', '腸道屏障完整性', 'BDNF 經由腸腦軸'],
+    avoid: ['常規廣譜抗生素', '低纖維飲食', '慢性 PPI 使用'],
+    zoneLabel: ['耗竭', '低多樣性', '中等', '毒興', '多樣', '菌群失調'],
+    zoneRange: '抗生素耗竭 → 正常多樣性 → 益生元/益生菌豐富',
+    guidance: {
+      low: '如果你的飲食纖維和多樣植物性食品較少，你的腸道微生物組可能 SCFA 產量降低且微生物多樣性較低。增加：多樣纖維來源（豆類、全穀物、蔬菜、水果）、發酵食品（開菲爾、泡菜、酸菜、味噌）、益生元纖維（菊苣根、FOS 來自大蒜、洋蔥、韭菜）。腸道微生物組是一個內分泌器官——它產生活化自噬並調節全身發炎的 SCFAs。',
+      mid: '良好的腸道微生物多樣性。維持多樣纖維攝取（目標每週 30+ 種植物）、發酵食品，並最小化不必要的抗生素。若處方抗生素，考慮同時使用益生菌（Saccharomyces boulardii、Lactobacillus）。SCFA → GPR41/43 → 自噬軸是從微生物代謝到細胞清理的直接毒興路徑。',
+      high: '菌群失調（微生物失衡）可能和耗竭一樣有問題。指徵：慢性腹脹、排便不規則、全身發炎。如果你懷疑菌群失調性過度生長（SIBO、 Candida 過度生長），請就醫評估——腸道微生物組需要平衡的多樣性，而非僅僅豐度。益生元/益生菌補充應支持多樣性，而非創造單一菌群。'
+    }
+  },
+  {
+    id: 'bone',
+    num: '12',
+    title: '骨骼機械力',
+    badge: 'emerging',
+    desc: 'Wolff 定律：骨骼適應負荷。微重力 → 快速骨流失；負荷 → 重塑。肌肉-骨骼對話：肌肉因子（IL-6、IGF-1、irisin）刺激成骨細胞。骨折預防側重於 Ca²⁺/D 而非漸進式負荷。',
+    sensors: ['力學傳導（骨細胞訊號）', '肌肉因子（irisin、IL-6、IGP-1）'],
+    effectors: ['成骨細胞活化', '骨礦物密度增加', '肌腱強化', '肌肉-骨骼對話'],
+    avoid: ['完全不負荷（臥床、微重力）', '無漸進式負荷的突然過載', ' discouraging 負荷的「磨損」框架'],
+    zoneLabel: ['久坐', '輕度', '中度', '毒興', '高衝擊', '過載'],
+    zoneRange: '無負荷 → 承重運動 → 漸進式過載',
+    guidance: {
+      low: '不負荷是骨流失的首要驅動因素——比鈣缺乏更顯著。從承重運動開始：步行、爬樓梯、輕度阻力訓練。進階到漸進式過載：深蹲、硬舉、跳躍訓練。機械負荷是骨骼重塑的主要訊號——Wolff 定律。鈣和維生素 D 是必要但不充分的——需要機械刺激。',
+      mid: '良好的機械毒興實踐。以複合動作為主的漸進式阻力訓練提供骨骼重塑的力學傳導訊號。肌肉-骨骼對話軸（工作肌肉產生的 irisine、IGF-1、IL-6 → 成骨細胞活化）是直接的毒興路徑。包含衝擊活動（跳躍、跑步）以刺激骨骼峰值應變。',
+      high: '無漸進式負荷的突然過載導致骨折和肌腱退化——這並非毒興。「磨損」框架是不正確的；「適應性訊號」框架是正確的——但僅在漸進式負荷窗口內。週期化訓練、允許恢復並逐漸增加負荷。肌腱適應速度慢於肌肉——尊重這個時間表。'
+    }
+  }
+];
+
+// ============================================================
+//  STATE
+// ============================================================
+let values = {};
+
+function loadState() {
+  DOMAINS.forEach(d => { values[d.id] = 5; });
+}
+
+// ============================================================
+//  RENDER SLIDERS
+// ============================================================
+function renderSliders() {
+  const container = document.getElementById('domain-sliders');
+  container.innerHTML = DOMAINS.map(d => {
+    const v = values[d.id];
+    const zoneIdx = Math.min(Math.floor(v / 2), 5);
+    return `
+      <div class="domain-block" id="block-${d.id}">
+        <div class="domain-header">
+          <span class="domain-num" style="font-family:var(--mono);font-size:11px;color:var(--oxblood);">${d.num}</span>
+          <h3>${d.title}</h3>
+          <span class="domain-badge ${d.badge}">${d.badge}</span>
+        </div>
+        <p class="domain-sub">${d.desc}</p>
+
+        <div class="tag-row">
+          ${d.sensors.map(s => `<span class="tag sensor">${s}</span>`).join('')}
+          ${d.effectors.map(e => `<span class="tag effector">${e}</span>`).join('')}
+        </div>
+
+        <div class="slider-row">
+          <input type="range" min="0" max="10" step="1" value="${v}"
+            oninput="onSlider('${d.id}', this.value)"
+            aria-label="${d.title} 毒興實踐水平">
+          <span class="slider-val" id="val-${d.id}">${v}</span>
+        </div>
+        <div class="slider-labels">
+          <span>0 — 無</span>
+          <span class="mid">5 — 毒興窗口</span>
+          <span>10 — 過度</span>
+        </div>
+
+        <div class="zone-bar">
+          <div class="zone-under" style="flex:3"></div>
+          <div class="zone-hormetic" style="flex:4"></div>
+          <div class="zone-excess" style="flex:3"></div>
+          <div class="zone-marker" id="marker-${d.id}" style="margin-left:calc(${v*10}% - 1.5px)"></div>
+        </div>
+        <div class="zone-label">
+          <span>低於範圍</span>
+          <span>毒興窗口</span>
+          <span>過度</span>
+        </div>
+
+        <div class="rec-card" id="rec-${d.id}" style="display:${v === 5 ? 'block' : 'none'}">
+          <div class="rec-label">指引</div>
+          <p>${d.guidance.mid}</p>
+        </div>
+        <div class="rec-card" id="rec-low-${d.id}" style="display:none">
+          <div class="rec-label">指引——擴展你的範圍</div>
+          <p>${d.guidance.low}</p>
+        </div>
+        <div class="rec-card" id="rec-high-${d.id}" style="display:none;border-left-color:var(--red)">
+          <div class="rec-label" style="color:var(--red)">指引——減少暴露</div>
+          <p>${d.guidance.high}</p>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function onSlider(id, val) {
+  val = parseInt(val);
+  values[id] = val;
+  document.getElementById('val-' + id).textContent = val;
+  document.getElementById('marker-' + id).style.marginLeft = `calc(${val*10}% - 1.5px)`;
+
+  // guidance visibility
+  const recBase = document.getElementById('rec-' + id);
+  const recLow = document.getElementById('rec-low-' + id);
+  const recHigh = document.getElementById('rec-high-' + id);
+  recBase.style.display = 'none';
+  recLow.style.display = 'none';
+  recHigh.style.display = 'none';
+  if (val < 4) recLow.style.display = 'block';
+  else if (val > 6) recHigh.style.display = 'block';
+  else recBase.style.display = 'block';
+
+  updateRadar();
+  updateScore();
+}
+
+// ============================================================
+//  RADAR CHART
+// ============================================================
+const RADAR_CJK_RE = /[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF\u3000-\u303F\u3040-\u30FF\u31F0-\u31FF\uAC00-\uD7AF\u3130-\u318F\uA960-\uA97F\uD7B0-\uD7FF]/;
+// Wrap a canvas label into lines within maxWidth. CJK text breaks between
+// characters (no spaces); Latin text breaks at whitespace.
+function wrapLabel(ctx, text, maxWidth){
+  if (!maxWidth || maxWidth <= 8) return [text];
+  const tokens = text.split(/(\s+)/).filter(Boolean).flatMap(seg =>
+    RADAR_CJK_RE.test(seg) ? seg.split('') : [seg]);
+  const lines = [];
+  let cur = '', curW = 0;
+  for (const tok of tokens){
+    const w = ctx.measureText(tok).width;
+    if (curW + w > maxWidth && cur){
+      lines.push(cur);
+      cur = '';
+      curW = 0;
+      if (/^\s+$/.test(tok)) continue; // avoid leading whitespace on a new line
+    }
+    cur += tok;
+    curW += w;
+  }
+  if (cur.trim()) lines.push(cur);
+  return lines.length ? lines : [text];
+}
+
+// Copy the radar canvas to the clipboard as a PNG (with download fallback).
+function radarCanvasBlob(){
+  return new Promise((resolve, reject)=>{
+    const c = document.getElementById('radarCanvas');
+    c.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
+  });
+}
+function bindRadarCopy(){
+  const btn = document.querySelector('.copy-btn[data-copy-canvas]');
+  if (!btn) return;
+  btn._origIcon = btn.innerHTML;
+  btn._origTitle = btn.getAttribute('title') || '';
+  const ok = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+  const dl = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
+  const err = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+  btn.addEventListener('click', async (e)=>{
+    e.stopPropagation();
+    btn.disabled = true;
+    const flash = (cls, title, icon)=>{
+      btn.classList.add(cls);
+      btn.title = title;
+      btn.innerHTML = icon;
+      setTimeout(()=>{
+        btn.innerHTML = btn._origIcon;
+        btn.title = btn._origTitle;
+        btn.classList.remove('ok', 'err');
+        btn.disabled = false;
+      }, 1800);
+    };
+    try {
+      const blob = await radarCanvasBlob();
+      if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+      await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
+      flash('ok', 'Copied ✓', ok);
+    } catch (_) {
+      try {
+        const blob = await radarCanvasBlob();
+        const a = document.createElement('a');
+        a.download = 'hormetic-range-radar.png';
+        a.href = URL.createObjectURL(blob);
+        a.click();
+        URL.revokeObjectURL(a.href);
+        flash('ok', 'Downloaded', dl);
+      } catch (__) {
+        flash('err', 'Copy failed', err);
+      }
+    }
+  });
+}
+
+function updateRadar() {
+  const canvas = document.getElementById('radarCanvas');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const cx = W / 2, cy = H / 2;
+  const R = Math.min(W, H) / 2 - 100;   // leave a wide label band so wrapped labels fit
+  const LABEL_R = R + 30;               // anchor radius for axis labels
+
+  ctx.clearRect(0, 0, W, H);
+
+  const n = DOMAINS.length;
+  const angleStep = (2 * Math.PI) / n;
+  const startAngle = -Math.PI / 2;
+
+  // grid rings
+  for (let ring = 0; ring <= 10; ring++) {
+    const r = (ring / 10) * R;
+    ctx.beginPath();
+    for (let i = 0; i <= n; i++) {
+      const angle = startAngle + i * angleStep;
+      const x = cx + r * Math.cos(angle);
+      const y = cy + r * Math.sin(angle);
+      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    ctx.strokeStyle = ring === 5 ? 'rgba(42,157,143,0.45)' : 'rgba(0,0,0,0.08)';
+    ctx.lineWidth = ring === 5 ? 1.5 : 0.8;
+    if (ring === 5) ctx.setLineDash([4, 3]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+  }
+
+  // axis lines + labels
+  for (let i = 0; i < n; i++) {
+    const angle = startAngle + i * angleStep;
+    const x = cx + R * Math.cos(angle);
+    const y = cy + R * Math.sin(angle);
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(x, y);
+    ctx.strokeStyle = 'rgba(0,0,0,0.1)';
+    ctx.lineWidth = 0.8;
+    ctx.stroke();
+
+    // label — wrap text so it always fits inside the frame instead of truncating
+    const lx = cx + LABEL_R * Math.cos(angle);
+    const ly = cy + LABEL_R * Math.sin(angle);
+    const align = Math.abs(Math.cos(angle)) < 0.15 ? 'center'
+                : Math.cos(angle) > 0 ? 'left' : 'right';
+    const pad = 8;
+    let maxW;
+    if (align === 'center') maxW = 2 * Math.min(lx, W - lx) - pad;
+    else if (align === 'left') maxW = (W - pad) - lx;
+    else maxW = lx - pad;
+    const lines = wrapLabel(ctx, DOMAINS[i].title, maxW);
+    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#1c1915';
+    ctx.font = '11px "IBM Plex Mono", monospace';
+    ctx.textAlign = align;
+    ctx.textBaseline = 'middle';
+    const lh = 13;
+    let ly0 = ly - (lines.length - 1) * lh / 2;
+    for (const line of lines){ ctx.fillText(line, lx, ly0); ly0 += lh; }
+  }
+
+  // data polygon
+  ctx.beginPath();
+  for (let i = 0; i <= n; i++) {
+    const idx = i % n;
+    const angle = startAngle + idx * angleStep;
+    const r = (values[DOMAINS[idx].id] / 10) * R;
+    const x = cx + r * Math.cos(angle);
+    const y = cy + r * Math.sin(angle);
+    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  }
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(122,49,44,0.15)';
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(122,49,44,0.8)';
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  // data points
+  for (let i = 0; i < n; i++) {
+    const angle = startAngle + i * angleStep;
+    const r = (values[DOMAINS[i].id] / 10) * R;
+    const x = cx + r * Math.cos(angle);
+    const y = cy + r * Math.sin(angle);
+    ctx.beginPath();
+    ctx.arc(x, y, 4, 0, 2 * Math.PI);
+    ctx.fillStyle = 'rgba(122,49,44,0.9)';
+    ctx.fill();
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+  }
+
+  // center label
+  ctx.fillStyle = 'rgba(42,157,143,0.7)';
+  ctx.font = '500 11px "IBM Plex Mono", monospace';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('HORMETIC', cx, cy - 6);
+  ctx.fillText('ZONE', cx, cy + 8);
+}
+
+// ============================================================
+//  SCORE
+// ============================================================
+function updateScore() {
+  const vals = DOMAINS.map(d => values[d.id]);
+  const mean = vals.reduce((a,b) => a+b, 0) / vals.length;
+  // Score: how close each domain is to the ideal (5), penalize distance
+  let totalPenalty = 0;
+  vals.forEach(v => { totalPenalty += Math.abs(v - 5); });
+  const maxPenalty = vals.length * 5; // all at 0 or all at 10
+  const score = Math.round(((maxPenalty - totalPenalty) / maxPenalty) * 100);
+
+  document.getElementById('compositeScore').textContent = score + '%';
+
+  let label = '';
+  if (score >= 85) label = '優秀的毒興範圍。大多數領域保持平衡的實踐。專注於維持一致性和定期重新評估。';
+  else if (score >= 65) label = '良好的範圍，仍有擴展空間。部分領域未被充分利用或過度。參閱下方指引獲取針對性建議。';
+  else if (score >= 40) label = '中等範圍。多個領域顯示顯著的缺口或過度。雷達圖突顯了應關注之處。';
+  else label = '狹窄的範圍。大多數領域要么休眠要么過度。從證據最充分的領域開始（ROS/運動、禁食、溫度）以獲得最大影響。';
+  document.getElementById('compositeLabel').textContent = label;
+
+  // per-domain score bars
+  const container = document.getElementById('domainScores');
+  container.innerHTML = DOMAINS.map(d => {
+    const v = values[d.id];
+    const proximity = (1 - Math.abs(v - 5) / 5) * 100;
+    const color = v < 3 ? 'var(--blue)' : v > 7 ? 'var(--red)' : 'var(--teal)';
+    return `
+      <div class="score-bar-wrap">
+        <div class="score-bar-label">${d.num} ${d.title} — <strong>${v}</strong>/10（與毒興窗口的接近度：${Math.round(proximity)}%）</div>
+        <div class="score-bar">
+          <div class="score-bar-fill" style="width:${proximity}%; background:${color}"></div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ============================================================
+//  GUIDANCE
+// ============================================================
+function renderGuidance() {
+  const sorted = [...DOMAINS].sort((a, b) => values[a.id] - values[b.id]);
+  const container = document.getElementById('guidanceCards');
+  container.innerHTML = sorted.map((d, i) => {
+    const v = values[d.id];
+    const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
+    const label = tier === 'low' ? '擴展你的範圍' : tier === 'high' ? '減少暴露' : '維持';
+    const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
+    return `
+      <div class="rec-card" style="border-left-color:${borderColor}">
+        <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label}（目前：${v}/10）</div>
+        <p>${d.guidance[tier]}</p>
+      </div>
+    `;
+  }).join('');
+}
+
+// ============================================================
+//  EXPORT
+// ============================================================
+function exportJSON() {
+  const data = {
+    exported: new Date().toISOString(),
+    version: 'hormetic-range-v1',
+    scores: {},
+    compositeScore: document.getElementById('compositeScore').textContent
+  };
+  DOMAINS.forEach(d => {
+    data.scores[d.id] = { title: d.title, value: values[d.id], sensors: d.sensors, effectors: d.effectors };
+  });
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `hormetic-range-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function resetAll() {
+  DOMAINS.forEach(d => { values[d.id] = 5; });
+  renderSliders();
+  updateRadar();
+  updateScore();
+  renderGuidance();
+}
+
+// ============================================================
+//  INIT
+// ============================================================
+loadState();
+renderSliders();
+updateRadar();
+updateScore();
+renderGuidance();
+bindRadarCopy();
+// Shared theme-02 behaviors: scroll-spy, tooltip, diagram lightbox, nav hint.
+T2.initNav();
+T2.initTooltip();
+T2.initLightbox();
+T2.initNavScrollHint();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
+     data table, with PNG + TSV export. The radar canvas uses its own
+     data-copy-canvas handler bound above. -->
+<script src="../themes/theme-02/pages-svg.js"></script>
+
+</body>
+</html>

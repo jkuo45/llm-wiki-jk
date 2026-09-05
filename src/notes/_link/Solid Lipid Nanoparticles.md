@@ -16,7 +16,7 @@ aliases: [SLN, Solid lipid nanoparticle]
 
 ## Fisetin SLNs
 
-Kulbacka et al. co-loaded fisetin with the photosensitizer IR-780 (5:1) into SLNs (Phospholipon 90 G / cetyl palmitate / Tween 80) by solvent diffusion — hydrodynamic diameter 133.8 nm, 41.19% fisetin entrapment. In LoVo colon adenocarcinoma cells (electropermeabilized), fisetin-IR-780 SLNs reduced viability ~50% at 24 h (sustained to 72 h), induced cytoskeletal reorganization, and increased p53 and [[Manganese superoxide dismutase|MnSOD]] — a multifunctional theranostic platform for colon cancer.
+Kulbacka et al. co-loaded fisetin with the photosensitizer IR-780 (5:1) into SLNs (Phospholipon 90 G / cetyl palmitate / Tween 80) by solvent diffusion — hydrodynamic diameter 133.8 nm, 41.19% fisetin entrapment. In LoVo colon adenocarcinoma cells (electropermeabilized), fisetin-IR-780 SLNs reduced viability ~50% at 24 h (sustained to 72 h), induced cytoskeletal reorganization, and increased p53 and [[MnSOD]] — a multifunctional theranostic platform for colon cancer.
 
 ## Documents
 
@@ -27,10 +27,10 @@ Kulbacka et al. co-loaded fisetin with the photosensitizer IR-780 (5:1) into SLN
 
   - [[Liposomes]], [[Nanoparticles]]: Sister lipid/polymeric carriers.
   - [[Bioavailability]], [[Fisetin]]: Core links.
-  - [[Manganese superoxide dismutase]]: Biomarker upregulated by fisetin SLN treatment.
+  - [[MnSOD]]: Biomarker upregulated by fisetin SLN treatment.
 
 ## Linking Summary
 
-  - New links added: [[Solid Lipid Nanoparticles]], [[Liposomes]], [[Nanoparticles]], [[Bioavailability]], [[Fisetin]], [[Manganese superoxide dismutase]]
-  - Suggested new entity notes to create: [[Manganese superoxide dismutase]]
+  - New links added: [[Solid Lipid Nanoparticles]], [[Liposomes]], [[Nanoparticles]], [[Bioavailability]], [[Fisetin]], [[MnSOD]]
+  - Suggested new entity notes to create: [[MnSOD]]
   - Strong connections to strengthen: [[Solid Lipid Nanoparticles]] ↔ [[Fisetin]], [[Solid Lipid Nanoparticles]] ↔ [[Bioavailability]]

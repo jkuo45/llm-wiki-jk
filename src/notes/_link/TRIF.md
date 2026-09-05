@@ -2,7 +2,7 @@
 title: TRIF
 description: TIR-domain-containing adaptor protein inducing interferon-β (TRIF/TICAM1), the sole adaptor for TLR3 signaling and a key branch of TLR4 signaling that activates IRF3, NF-κB, and STAT1.
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-09-03
 tags:
   - protein
   - adaptor-protein
@@ -38,6 +38,11 @@ TRIF mediates host defense against viruses (via dsRNA-sensing [[TLR3]]) and Gram
 
 Dysregulated TRIF signaling contributes to excessive inflammation, viral immunopathology, and sterile inflammatory tissue injury. Modulating TRIF is of interest for anti-inflammatory and antiviral therapeutics.
 
+> [!important] Rheostat link
+> TLR3–TRIF signaling under [[cIAPs]] depletion nucleates the [[Ripoptosome]] (Feoktistova et al.
+> 2011): TRIF-recruited [[RIPK1]] seeds the platform where the [[Caspase-8-c-FLIP Rheostat]] then
+> decides [[Apoptosis]] vs [[Necroptosis]] — the death-receptor-independent arm of the switch.
+
 ## Role in the Urolithin A Review
 
 The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* reports that [[Urolithin A]] inactivates [[TLR3]]/TRIF signaling to block the [[NF-κB]]/[[STAT1]] axis, reducing [[Inflammation|inflammation]] and bolstering [[Antioxidants|antioxidant]] defenses in macrophages—a mechanism relevant to UA's muscle-recovery and anti-inflammatory effects.
@@ -53,9 +58,11 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 - [[TRIF]] → activates → [[TRAF3]] → [[TBK1]] → [[IRF3]]
 - [[TRIF]] → activates → [[NF-κB]], [[STAT1]]
 - [[Urolithin A]] → inactivates → [[TRIF]]
+- [[TRIF]] → recruits → [[RIPK1]] → seeds → [[Ripoptosome]] → decided by → [[Caspase-8-c-FLIP Rheostat]]
 
 ## Linking Summary
 
+- Rheostat update (03_Sep_2026): [[Ripoptosome]], [[Caspase-8-c-FLIP Rheostat]], [[cIAPs]]
 - New links added: [[Toll-like Receptor]], [[TLR3]], [[TLR4]], [[TRAF3]], [[TBK1]], [[IRF3]], [[RIPK1]], [[TRAF6]], [[NF-κB]], [[MAPK]], [[STAT1]], [[TNF-alpha]], [[IL-6]], [[Urolithin A]], [[Inflammation]], [[Antioxidants]]
 - Suggested new entity notes to create: [[TLR4]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[TRIF]]

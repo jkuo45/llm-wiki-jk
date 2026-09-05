@@ -4,7 +4,15 @@ from pathlib import Path
 
 import pytest
 
-import api.wiki as wiki
+import api.domain.wiki as wiki
+
+# Default (repo-relative) roots must resolve to the actual repo dirs — a future
+# module move that shifts the Path(__file__) depth silently breaks description
+# enrichment and the notes gallery. The fixtures below monkeypatch WIKI_ROOT, so
+# assert the un-patched defaults here.
+def test_default_wiki_roots_point_at_repo():
+    assert wiki.WIKI_ROOT.is_dir()
+    assert wiki.TASKS_ROOT.is_dir()
 
 
 @pytest.fixture

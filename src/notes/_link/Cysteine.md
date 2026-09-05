@@ -87,6 +87,7 @@ List of documents that mention this entity
 - [[Homocysteine]]
 - [[Sodium Metabisulfite]]
 - [[Thioredoxin]]
+- [[Thioredoxin-1]]
 - [[Endoplasmic Reticulum]]
 - [[Vitamin B6]]
 - [[Vitamin B12]]

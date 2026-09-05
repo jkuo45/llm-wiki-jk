@@ -129,7 +129,9 @@ def parse_frontmatter(filepath):
             value = value.strip()
             if value.startswith("[") and value.endswith("]"):
                 inner = value[1:-1]
-                props[key] = [v.strip().strip("\"'") for v in inner.split(",") if v.strip()]
+                props[key] = [
+                    v.strip().strip("\"'") for v in inner.split(",") if v.strip()
+                ]
             else:
                 props[key] = value.strip("\"'") if value else []
         elif key is not None:
@@ -178,9 +180,7 @@ def scan_web_zh_tasks(args):
         for fname in sorted(filenames):
             if fname.endswith(".md") and not fname.startswith("."):
                 fpath = os.path.join(dirpath, fname)
-                mtime_dt = datetime.fromtimestamp(
-                    os.path.getmtime(fpath)
-                ).astimezone()
+                mtime_dt = datetime.fromtimestamp(os.path.getmtime(fpath)).astimezone()
                 out.append({
                     "datetime": mtime_dt,
                     "path": fpath,
@@ -238,7 +238,9 @@ def build_web_tasks(task_data, args):
             rel = os.path.relpath(t["path"], args.tasks_dir)
             dest_rel = os.path.join(lang, rel)
         entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
-        group = groups.setdefault(stem, {"id": f"task:{stem}", "kind": "task", "langs": {}})
+        group = groups.setdefault(
+            stem, {"id": f"task:{stem}", "kind": "task", "langs": {}}
+        )
         if lang not in group["langs"]:
             group["langs"][lang] = entry
         # `starred` is a group-level flag (like `active`): any language
@@ -258,35 +260,40 @@ def build_web_tasks(task_data, args):
 
     ordered = sorted(
         groups.values(),
-        key=lambda g: max((l.get("updated") or "" for l in g["langs"].values()), default=""),
+        key=lambda g: max(
+            (l.get("updated") or "" for l in g["langs"].values()), default=""
+        ),
         reverse=True,
     )
     # Index pseudo-entry (no markdown behind it): opened when the reader's
     # Task Outputs tab is clicked. Empty dates keep it out of the newest
     # sort position and the "Older" recency bucket.
-    ordered.insert(0, {
-        "id": "tasks-index",
-        "kind": "task",
-        "active": True,
-        "langs": {
-            "en-US": {
-                "title": "[index] task outputs",
-                "description": "Index of all task outputs, grouped by how recently they were modified.",
-                "created": "",
-                "updated": "",
-                "tags": [],
-                "path": "pages/tasks-index.html",
-            },
-            "zh-TW": {
-                "title": "任務輸出索引",
-                "description": "所有任務輸出的索引，依最後修改時間分組。",
-                "created": "",
-                "updated": "",
-                "tags": [],
-                "path": "pages/tasks-index.html",
+    ordered.insert(
+        0,
+        {
+            "id": "tasks-index",
+            "kind": "task",
+            "active": True,
+            "langs": {
+                "en-US": {
+                    "title": "[index] task outputs",
+                    "description": "Index of all task outputs, grouped by how recently they were modified.",
+                    "created": "",
+                    "updated": "",
+                    "tags": [],
+                    "path": "pages/tasks-index.html",
+                },
+                "zh-TW": {
+                    "title": "任務輸出索引",
+                    "description": "所有任務輸出的索引，依最後修改時間分組。",
+                    "created": "",
+                    "updated": "",
+                    "tags": [],
+                    "path": "pages/tasks-index.html",
+                },
             },
         },
-    })
+    )
     os.makedirs(args.web_data_dir, exist_ok=True)
     out_path = os.path.join(args.web_data_dir, "tasks.json")
     payload = {
@@ -296,8 +303,9 @@ def build_web_tasks(task_data, args):
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(f"Wrote {out_path} ({len(ordered)} tasks, {copied} files copied to {args.web_tasks_dir}/)")
-
+    print(
+        f"Wrote {out_path} ({len(ordered)} tasks, {copied} files copied to {args.web_tasks_dir}/)"
+    )
 
 def read_env_file(path):
     """Parse simple KEY=VALUE lines from a .env file into a dict."""
@@ -349,14 +357,28 @@ def main():
         action="store_true",
         help="Only update the README; skip emitting web/public/tasks.json and copying markdown",
     )
+    parser.add_argument(
+        "--skip-readme",
+        action="store_true",
+        help="Only refresh the reader web artifacts (tasks.json + markdown); leave README.md unchanged",
+    )
     args = parser.parse_args()
 
-    # GitHub repo/branch come from the repo .env (GITHUB_REPO_URL / GITHUB_BRANCH),
-    # falling back to the public repo on dev. The .git suffix is stripped so the
-    # link paths stay clean.
+    # GitHub repo/branch come from the repo .env (GITHUB_REPO_URL / GITHUB_BRANCH).
+    # No hardcoded fallback — both are required to build the repo link paths, so
+    # raise if either is missing. The .git suffix is stripped so the links stay
+    # clean.
     file_env = read_env_file(".env")
-    args.repo_url = (file_env.get("GITHUB_REPO_URL") or "https://github.com/jkuo45/llm-wiki-jk").rstrip("/").removesuffix(".git")
-    args.branch = file_env.get("GITHUB_BRANCH") or "dev"
+    args.repo_url = (file_env.get("GITHUB_REPO_URL") or "").rstrip("/").removesuffix(".git")
+    if not args.repo_url:
+        raise RuntimeError(
+            "GITHUB_REPO_URL is not set in .env — required to build README repo links."
+        )
+    args.branch = file_env.get("GITHUB_BRANCH") or ""
+    if not args.branch:
+        raise RuntimeError(
+            "GITHUB_BRANCH is not set in .env — required to build README repo links."
+        )
 
     notes_dir = args.notes_dir
     if not os.path.isdir(notes_dir):
@@ -375,8 +397,7 @@ def main():
         repo_root = os.getcwd()
 
     topics = sorted([
-        d for d in os.listdir(notes_dir)
-        if os.path.isdir(os.path.join(notes_dir, d))
+        d for d in os.listdir(notes_dir) if os.path.isdir(os.path.join(notes_dir, d))
     ])
 
     topic_data = []
@@ -393,7 +414,7 @@ def main():
         md_files = glob.glob(os.path.join(topic_path, "*.md"))
 
         documents = [
-            f for f in md_files if os.path.basename(f).startswith(("_document_"))
+            f for f in md_files if os.path.basename(f).startswith("_document_")
         ]
 
         # Count markdown files excluding README.md and index.md
@@ -411,8 +432,7 @@ def main():
         # derived artifacts such as _triples.json out of the calculation.
         last_updated_dt = None
         git_result = subprocess.run(
-            ["git", "log", "-1", "--format=%aI", "--",
-             f":(glob){topic_path}/**/*.md"],
+            ["git", "log", "-1", "--format=%aI", "--", f":(glob){topic_path}/**/*.md"],
             capture_output=True,
             text=True,
             cwd=repo_root,
@@ -431,8 +451,7 @@ def main():
             )
 
         last_updated_str = (
-            last_updated_dt.strftime("%d_%b_%Y").upper()
-            if last_updated_dt else "---"
+            last_updated_dt.strftime("%d_%b_%Y").upper() if last_updated_dt else "---"
         )
 
         topic_files, topic_size, topic_words = get_dir_size_and_count(topic_path)
@@ -440,7 +459,8 @@ def main():
         topic_data.append({
             "topic": topic,
             "last_updated": last_updated_str,
-            "last_updated_dt": last_updated_dt or datetime.fromtimestamp(0).astimezone(),
+            "last_updated_dt": last_updated_dt
+            or datetime.fromtimestamp(0).astimezone(),
             "entities": entity_count,
             "documents": len(documents),
             "words": topic_words,
@@ -484,9 +504,7 @@ def main():
                             mtime_dt = datetime.fromtimestamp(
                                 os.path.getmtime(fpath)
                             ).astimezone()
-                        mtime_str = mtime_dt.strftime(
-                            "%d_%b_%Y %I:%M %p %Z"
-                        ).upper()
+                        mtime_str = mtime_dt.strftime("%d_%b_%Y %I:%M %p %Z").upper()
                         word_count = count_words(fpath)
                         task_data.append({
                             "date": mtime_str,
@@ -580,11 +598,13 @@ def main():
 
     graph_meta = {}
     try:
-        with open(os.path.join(args.web_data_dir, "version.json"), "r", encoding="utf-8") as f:
+        with open(
+            os.path.join(args.web_data_dir, "version.json"), "r", encoding="utf-8"
+        ) as f:
             graph_meta = json.load(f)
     except Exception:
         pass
-    build_hash = (graph_meta.get("hash") or "")[:7]
+    build_hash = graph_meta.get("hash") or ""
     build_dt = None
     if graph_meta.get("generated"):
         try:
@@ -597,7 +617,8 @@ def main():
         (
             "**Combined** *(default)*",
             "nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json",
-            "nodes.json", "edges.json",
+            "nodes.json",
+            "edges.json",
         ),
         ("**Triples**", "triples-*.json", "triples-nodes.json", "triples-edges.json"),
         ("**Wiki**", "wiki-*.json", "wiki-nodes.json", "wiki-edges.json"),
@@ -616,6 +637,7 @@ def main():
             f"{format_number(n) if n is not None else '---'} | "
             f"{format_number(e) if e is not None else '---'} |"
         )
+
     # Overlap stats for the merge note (shared ids / edge pairs across the
     # triples and wiki sources that the combined build deduplicates).
     def _json_ids(path):
@@ -642,7 +664,7 @@ def main():
     graph_datasets_content = (
         "\n".join(datasets_table)
         + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
-        + "\n\n> [!info] Combined merge\n"
+        + "\n\n> [!NOTE] Combined merge\n"
         + "> The combined dataset is the union of the triples and wiki graphs, "
         "deduplicated by canonical id (`norm(label)`). "
         + (
@@ -651,10 +673,7 @@ def main():
             f"− {format_number(shared_nodes)} shared → {format_number(counts['nodes.json'])}); "
             f"edges are unioned by (`from`, `to`) pair — "
             f"{format_number(both_edges)} edge pairs are shared, and an edge present "
-            "in both graphs is emitted once with both sources recorded.\n"
-            "> Wiki-only community ids are offset by +1000 in the combined legend "
-            "so the cid spaces never collide; wiki-only nodes keep that offset on "
-            "their `community` field."
+            "in both graphs is emitted once with both sources recorded."
             if shared_nodes is not None and both_edges is not None
             else "> Overlap stats unavailable (missing source files)."
         )
@@ -683,6 +702,13 @@ def main():
         "task_list": task_list_content,
         "graph_datasets": graph_datasets_content,
     }
+
+    if args.skip_readme:
+        print(
+            "Reader web artifacts refreshed (tasks); README left "
+            "unchanged (--skip-readme)."
+        )
+        return
 
     # Read existing README if present
     if os.path.exists(args.output):

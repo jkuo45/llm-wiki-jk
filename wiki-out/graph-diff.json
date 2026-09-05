@@ -1,58 +1,25 @@
 {
-  "generated_at": "2026-08-30T15:12:44Z",
+  "generated_at": "2026-09-04T11:41:38Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 2654,
-    "wiki_nodes": 3007,
-    "shared_nodes": 1563,
-    "wiki_only_nodes": 1444,
-    "triples_only_nodes": 1091,
-    "triples_edges": 3896,
-    "wiki_edges": 35150,
-    "wiki_only_edges": 33422,
-    "triples_only_edges": 2168
+    "triples_nodes": 3403,
+    "wiki_nodes": 3067,
+    "shared_nodes": 2046,
+    "wiki_only_nodes": 1021,
+    "triples_only_nodes": 1357,
+    "triples_edges": 6356,
+    "wiki_edges": 36348,
+    "triples_edge_pairs": 6054,
+    "wiki_edge_pairs": 36348,
+    "wiki_only_edges": 33168,
+    "triples_only_edges": 2874
   },
   "top_wiki_only_nodes": [
     {
-      "id": "cgas",
-      "label": "cGAS",
-      "degree": 96
-    },
-    {
-      "id": "phosphorylation",
-      "label": "Phosphorylation",
-      "degree": 87
-    },
-    {
-      "id": "sting",
-      "label": "STING",
-      "degree": 83
-    },
-    {
-      "id": "cell_cycle",
-      "label": "Cell Cycle",
-      "degree": 83
-    },
-    {
       "id": "macrophage",
       "label": "Macrophage",
-      "degree": 75
-    },
-    {
-      "id": "ubiquitination",
-      "label": "Ubiquitination",
-      "degree": 73
-    },
-    {
-      "id": "nmn",
-      "label": "NMN (Nicotinamide Mononucleotide)",
-      "degree": 71
-    },
-    {
-      "id": "rheumatoid_arthritis",
-      "label": "Rheumatoid Arthritis",
-      "degree": 71
+      "degree": 76
     },
     {
       "id": "endothelial_cells",
@@ -65,39 +32,14 @@
       "degree": 68
     },
     {
-      "id": "metabolism",
-      "label": "Metabolism",
-      "degree": 66
-    },
-    {
-      "id": "type_i_interferon",
-      "label": "Type I Interferon",
-      "degree": 66
-    },
-    {
-      "id": "replicative_senescence",
-      "label": "Replicative Senescence",
-      "degree": 65
-    },
-    {
       "id": "epigenetics_and_aging",
       "label": "Epigenetics and aging",
       "degree": 64
     },
     {
-      "id": "flavonoid",
-      "label": "Flavonoid",
-      "degree": 61
-    },
-    {
       "id": "histone_variant",
       "label": "Histone Variant",
-      "degree": 60
-    },
-    {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
-      "degree": 57
+      "degree": 64
     },
     {
       "id": "citric_acid_cycle",
@@ -105,14 +47,74 @@
       "degree": 57
     },
     {
-      "id": "extracellular_matrix",
-      "label": "Extracellular Matrix",
-      "degree": 56
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
+      "degree": 57
     },
     {
-      "id": "calcium",
-      "label": "Calcium",
-      "degree": 56
+      "id": "mmp_12",
+      "label": "MMP-12",
+      "degree": 55
+    },
+    {
+      "id": "c_elegans",
+      "label": "Caenorhabditis elegans",
+      "degree": 54
+    },
+    {
+      "id": "atg1",
+      "label": "Atg1",
+      "degree": 53
+    },
+    {
+      "id": "park2",
+      "label": "PARK2",
+      "degree": 53
+    },
+    {
+      "id": "als",
+      "label": "ALS",
+      "degree": 50
+    },
+    {
+      "id": "cardiomyocyte_toxicity",
+      "label": "Cardiomyocyte Toxicity",
+      "degree": 49
+    },
+    {
+      "id": "immunity",
+      "label": "Immunity",
+      "degree": 49
+    },
+    {
+      "id": "fat_oxidation",
+      "label": "Fat Oxidation",
+      "degree": 46
+    },
+    {
+      "id": "retrograde_response",
+      "label": "Retrograde Response",
+      "degree": 44
+    },
+    {
+      "id": "caspase_8_c_flip_rheostat",
+      "label": "Caspase-8-c-FLIP Rheostat",
+      "degree": 44
+    },
+    {
+      "id": "insulin",
+      "label": "Insulin",
+      "degree": 44
+    },
+    {
+      "id": "mitochondrial_outer_membrane_permeabilization",
+      "label": "Mitochondrial outer membrane permeabilization",
+      "degree": 42
+    },
+    {
+      "id": "mitochondrial_dysfunction_associated_senescence",
+      "label": "Mitochondrial Dysfunction-Associated Senescence",
+      "degree": 39
     }
   ],
   "top_triples_only_nodes": [
@@ -122,8 +124,48 @@
       "degree": 11
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "females",
+      "label": "Females",
+      "degree": 9
+    },
+    {
+      "id": "brosimine_b",
+      "label": "Brosimine B",
+      "degree": 8
+    },
+    {
+      "id": "preparation_for_oxidative_stress",
+      "label": "Preparation for Oxidative Stress",
+      "degree": 6
+    },
+    {
+      "id": "nf_kb",
+      "label": "NF-kB",
+      "degree": 5
+    },
+    {
+      "id": "sodium_chloride",
+      "label": "Sodium Chloride",
+      "degree": 5
+    },
+    {
+      "id": "cell_migration",
+      "label": "Cell Migration",
+      "degree": 5
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "slow_comt",
+      "label": "slow COMT",
+      "degree": 4
+    },
+    {
+      "id": "mice",
+      "label": "Mice",
       "degree": 4
     },
     {
@@ -132,99 +174,52 @@
       "degree": 4
     },
     {
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
+    },
+    {
+      "id": "dna_polymerase",
+      "label": "DNA Polymerase",
+      "degree": 4
+    },
+    {
       "id": "physical_activity",
       "label": "Physical Activity",
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
       "degree": 4
     },
     {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
+      "id": "comt_val158_allele",
+      "label": "COMT Val158 allele",
+      "degree": 4
+    },
+    {
+      "id": "alkylating_agent",
+      "label": "Alkylating agent",
       "degree": 3
     },
     {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
+      "id": "h4k16",
+      "label": "H4K16",
       "degree": 3
     },
     {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
-      "degree": 3
-    },
-    {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
-      "degree": 3
-    },
-    {
-      "id": "h3k9",
-      "label": "H3K9",
+      "id": "securin",
+      "label": "Securin",
       "degree": 3
     },
     {
       "id": "sirt7_depletion",
       "label": "SIRT7 depletion",
       "degree": 3
-    },
-    {
-      "id": "dietary_ages",
-      "label": "Dietary AGEs",
-      "degree": 3
-    },
-    {
-      "id": "sirt2_inhibition",
-      "label": "SIRT2 inhibition",
-      "degree": 2
-    },
-    {
-      "id": "muscle_wasting",
-      "label": "Muscle Wasting",
-      "degree": 2
-    },
-    {
-      "id": "sirt1_overexpression",
-      "label": "SIRT1 overexpression",
-      "degree": 2
-    },
-    {
-      "id": "anti_inflammatory_properties",
-      "label": "anti-inflammatory properties",
-      "degree": 2
-    },
-    {
-      "id": "universal_indirect_pan_sirtuin_activator",
-      "label": "Universal indirect pan-sirtuin activator",
-      "degree": 2
-    },
-    {
-      "id": "lifespan_extension",
-      "label": "Lifespan extension",
-      "degree": 2
     }
   ],
   "top_wiki_only_edges": [
-    {
-      "source": "zscan4",
-      "target": "tak1",
-      "source_label": "Zscan4",
-      "target_label": "TAK1",
-      "weight": 1.0
-    },
     {
       "source": "zscan4",
       "target": "sasp",
@@ -272,13 +267,6 @@
       "target": "metabolic_flexibility",
       "source_label": "Zone 2 Cardio",
       "target_label": "Metabolic Flexibility",
-      "weight": 1.0
-    },
-    {
-      "source": "zone_2_cardio",
-      "target": "hiit",
-      "source_label": "Zone 2 Cardio",
-      "target_label": "HIIT",
       "weight": 1.0
     },
     {
@@ -357,6 +345,20 @@
       "source_label": "Zinc Finger",
       "target_label": "Mitochondrial Targeting Sequence",
       "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitochondrial_matrix",
+      "source_label": "Zinc Finger",
+      "target_label": "Mitochondrial Matrix",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitochondrial_dna",
+      "source_label": "Zinc Finger",
+      "target_label": "Mitochondrial DNA",
+      "weight": 1.0
     }
   ],
   "top_triples_only_edges": [
@@ -375,6 +377,13 @@
       "weight": 1
     },
     {
+      "source": "zinc_supplementation",
+      "target": "alzheimers_disease",
+      "source_label": "Zinc Supplementation",
+      "target_label": "Alzheimers Disease",
+      "weight": 1
+    },
+    {
       "source": "zellweger_syndrome",
       "target": "pex_gene_mutations",
       "source_label": "Zellweger syndrome",
@@ -382,10 +391,59 @@
       "weight": 1
     },
     {
+      "source": "zeb1",
+      "target": "cdh1",
+      "source_label": "Zeb1",
+      "target_label": "CDH1",
+      "weight": 1
+    },
+    {
+      "source": "zcchc11",
+      "target": "tutase",
+      "source_label": "ZCCHC11",
+      "target_label": "TUTase",
+      "weight": 1
+    },
+    {
       "source": "yap1",
       "target": "cancer",
       "source_label": "YAP1",
       "target_label": "Cancer",
+      "weight": 1
+    },
+    {
+      "source": "yamanaka_factors",
+      "target": "hff1",
+      "source_label": "Yamanaka Factors",
+      "target_label": "HFF1",
+      "weight": 1
+    },
+    {
+      "source": "yamanaka_factors",
+      "target": "epigenetic_remodeling",
+      "source_label": "Yamanaka Factors",
+      "target_label": "Epigenetic Remodeling",
+      "weight": 1
+    },
+    {
+      "source": "xanthine_oxidase",
+      "target": "superoxide_anion",
+      "source_label": "Xanthine Oxidase",
+      "target_label": "Superoxide anion",
+      "weight": 1
+    },
+    {
+      "source": "x_chromosome_inactivation",
+      "target": "dosage_compensation",
+      "source_label": "X-Chromosome Inactivation",
+      "target_label": "Dosage Compensation",
+      "weight": 1
+    },
+    {
+      "source": "x_chromosome_inactivation",
+      "target": "barr_body",
+      "source_label": "X-Chromosome Inactivation",
+      "target_label": "Barr Body",
       "weight": 1
     },
     {
@@ -403,6 +461,13 @@
       "weight": 1
     },
     {
+      "source": "wnt",
+      "target": "emt",
+      "source_label": "Wnt",
+      "target_label": "EMT",
+      "weight": 1
+    },
+    {
       "source": "withaferin_a",
       "target": "sirt3_for_anti_fibrotic_effect",
       "source_label": "Withaferin A",
@@ -417,6 +482,13 @@
       "weight": 1
     },
     {
+      "source": "western_diet",
+      "target": "nlrp3_dependent_trained_immunity",
+      "source_label": "Western Diet",
+      "target_label": "NLRP3-Dependent Trained Immunity",
+      "weight": 1
+    },
+    {
       "source": "western_blot_analysis",
       "target": "acetylated_p53_histone_3_and_gamma_tubulin",
       "source_label": "Western blot analysis",
@@ -428,76 +500,6 @@
       "target": "singlet_oxygen",
       "source_label": "Vitamin E",
       "target_label": "Singlet Oxygen",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_e",
-      "target": "prostate_cancer",
-      "source_label": "Vitamin E",
-      "target_label": "Prostate Cancer",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_e",
-      "target": "cancer_risk_in_slow_comt",
-      "source_label": "Vitamin E",
-      "target_label": "cancer risk in slow COMT",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_e",
-      "target": "cancer_in_fast_comt",
-      "source_label": "Vitamin E",
-      "target_label": "cancer in fast COMT",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_c",
-      "target": "mitochondrial_biogenesis",
-      "source_label": "Vitamin C",
-      "target_label": "Mitochondrial Biogenesis",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_c",
-      "target": "methemoglobin",
-      "source_label": "Vitamin C",
-      "target_label": "Methemoglobin",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_b3",
-      "target": "acute_lung_injury",
-      "source_label": "Vitamin B3",
-      "target_label": "Acute Lung Injury",
-      "weight": 1
-    },
-    {
-      "source": "vegfc",
-      "target": "vegf_family",
-      "source_label": "VEGFc",
-      "target_label": "VEGF Family",
-      "weight": 1
-    },
-    {
-      "source": "vegfc",
-      "target": "lymphangiogenesis",
-      "source_label": "VEGFc",
-      "target_label": "Lymphangiogenesis",
-      "weight": 1
-    },
-    {
-      "source": "vcam_1",
-      "target": "vla_4_alpha4beta1_integrin_on_leukocytes",
-      "source_label": "VCAM-1",
-      "target_label": "VLA-4 (alpha4beta1 integrin) on leukocytes",
-      "weight": 1
-    },
-    {
-      "source": "valine",
-      "target": "tca_cycle",
-      "source_label": "Valine",
-      "target_label": "TCA cycle",
       "weight": 1
     }
   ]

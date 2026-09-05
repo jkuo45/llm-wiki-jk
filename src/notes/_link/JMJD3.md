@@ -54,5 +54,6 @@ KDM6B/JMJD3 inhibitors (e.g., GSK-J4, CPI-0209 class) are under investigation in
 ## Linking Summary
 
 - New links added: [[EZH2]], [[H3K27me3]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[MLL1]], [[Senomorphic]]
-- Suggested new entity notes to create: [[KDM6A]], [[PRC2]], [[H3K27me3]]
-- Strong connections to strengthen: [[JMJD3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (IL-6/IL-8 derepression), [[JMJD3]] ↔ [[EZH2]] (H3K27me3 antagonism)
+- Suggested new entity notes to create: [[PRC2]]
+- Added note: [[KDM6A]] now exists in _link/ — JMJD3's paralog (UTX) as an EXITS X-linked tumor suppressor
+- Strong connections to strengthen: [[JMJD3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (IL-6/IL-8 derepression), [[JMJD3]] ↔ [[EZH2]] (H3K27me3 antagonism), [[JMJD3]] ↔ [[KDM6A]] (paralog specificity)

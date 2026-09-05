@@ -2,7 +2,7 @@
 title: Prostate Cancer
 description: Prostate cancer is a malignant tumor arising from prostate epithelial cells, driven by androgen receptor signaling, and characterized by progression from androgen-dependent to castration-resistant states with metastatic potential.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-09-02
 tags:
   - medical-condition
 aliases: []
@@ -24,6 +24,29 @@ Prostate cancer is often asymptomatic early; presentation may include urinary ob
 ## Therapeutic Landscape
 
 Standard care includes active surveillance for low-risk disease, radical prostatectomy or radiation for localized disease, and androgen deprivation therapy (ADT) for advanced disease. CRPC is treated with next-generation anti-androgens such as [[Enzalutamide]], abiraterone, taxanes such as [[docetaxel]], and PARP inhibitors in DNA-repair-deficient tumors. Notably, [[Ivermectin]] has been explored preclinically to enhance endocrine therapy and overcome resistance—synergizing with [[Enzalutamide]] in LNCaP cells, reversing [[docetaxel]] resistance in PC3 cells, and inhibiting [[HSP27]] phosphorylation associated with resistance and poor prognosis.
+
+## Sex Differences — Prostate Cancer as a Paradigm of Male-Specific Biology
+
+Prostate cancer is the clearest example in the vault of a **male-specific malignancy driven by male sex-hormonal signaling**, and it illustrates the sex-dimorphic principles documented across the gender-attributes audit:
+
+### Androgen–AR Axis as the Male-Specific Driver
+
+- The [[Androgen Receptor|AR]] is the master driver of prostate tumor growth; androgen→AR signaling is the canonical male-specific cancer pathway.
+- **Cross-talk with [[mTORC1]]:** androgen–AR signaling drives [[mTORC1]] activation specifically in males in KRAS-mutant pancreatic contexts (Gökduman, 2023), illustrating a general principle that androgens couple to anabolic mTORC1 signaling in male cancers. In prostate cancer, AR and the PI3K/AKT/mTOR network show reciprocal negative-feedback regulation — AR inhibition disinhibits PI3K-AKT-mTOR, and vice versa — which is exploited therapeutically.
+- **Testosterone raises cancer risk:** across non-reproductive tissues, higher testosterone raises HCC and melanoma incidence, while the AR axis is the defining feature of prostate cancer (see [[Breast Cancer]] for the female-estrogen mirror).
+
+### AR, Senescence, and the SASP in the Prostate TME
+
+- Senescent prostatic fibroblasts secrete [[SASP]] factors (CTGF, amphiregulin, IL-6, IL-8) that promote prostate tumor progression — an androgen- and sex-context-sensitive stromal axis.
+- AR signaling and inflammation are intertwined in the prostate, where male-biased inflammatory load (see [[NF-κB]]) contributes to carcinogenesis.
+
+### Clinical Implications
+
+- **ADT as the archetypal sex-hormonal therapy** — surgical/medical androgen ablation is the defining male sex-hormone-targeted treatment, mirroring how estrogen modulation is central to [[Breast Cancer]] management.
+- Sex-specific dosing/toxicity and AR-variant (AR-V7) heterogeneity require individualization, but the biology is fundamentally a male-hormonal phenomenon.
+
+> [!important]
+> Prostate cancer and [[Breast Cancer]] are the two poles of a single vault-wide principle: sex-hormone–receptor signaling (AR in males, ER in females) is the master determinant of hormone-driven tumor biology, and the same hormones drive the sex differences seen throughout [[Apoptosis]], [[mTORC1]], [[NF-κB]], and [[Senescence]].
 
 ## Documents
 
@@ -67,9 +90,13 @@ List of documents that mention this entity
 - [[VEGF]] - SASP growth factor; drives angiogenesis in prostate cancer microenvironment
 - [[CTGF]] - SASP matricellular protein; secreted by senescent fibroblasts; promotes prostate tumor growth
 - [[Amphiregulin]] - SASP growth factor; activates EGFR signaling in prostate cancer cells
+- [[mTORC1]] - Androgen–AR signaling couples to mTORC1 activation in male cancers; reciprocal AR/PI3K-AKT-mTOR feedback.
+- [[Breast Cancer]] - The female-estrogen pole of hormone-driven cancer biology, mirroring prostate's androgen axis.
+- [[Apoptosis]] - Sex-specific death-mode paradigm (male necrosis vs female apoptosis) influencing prostate tumor cell fate.
 
 ## Linking Summary
 
 - New links added: [[Prostate Cancer]], [[Androgen Receptor]], [[Enzalutamide]], [[docetaxel]], [[Ivermectin]], [[HSP27]], [[Metastasis]], [[BRCA1]], [[BRCA2]], [[PSA (Prostate-Specific Antigen)]], [[EMT]], [[Inflammation]], [[PI3K]], [[AKT]], [[MAPK]], [[Hallmarks of Cancer]]
+- Sex-difference enrichment (2026-09-02): framed prostate cancer as the male-specific (androgen–AR) pole of hormone-driven cancer biology; cross-linked androgen–[[mTORC1]] coupling and the mirror relationship with [[Breast Cancer]] (estrogen pole).
 - Suggested new entity notes to create: [[Castration-Resistant Prostate Cancer]], [[AR-V7]], [[Androgen Deprivation Therapy]]
 - Strong connections to strengthen: [[Prostate Cancer]] ↔ [[Ivermectin]], [[Prostate Cancer]] ↔ [[Androgen Receptor]], [[Prostate Cancer]] ↔ [[Metastasis]]

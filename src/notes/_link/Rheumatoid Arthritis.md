@@ -24,7 +24,7 @@ Both [[Phagocytic]] and [[non-phagocytic]] [[NADPH Oxidase]] (Nox) isoforms are 
 ### Citrullination and Oxidative Stress: The PAD Connection
 [[Protein arginine deiminase]] ([[PAD]]2 and [[PAD4]]) enzymes, which convert arginine to [[Citrulline]] in target proteins (e.g., [[Fibrinogen]], [[Vimentin]], [[Collagen type II]]), require supraphysiological Ca²⁺ concentrations for activation. [[Oxidative Stress]] promotes calcium influx into RA synovial cells through oxidation of [[Ca²⁺-ATPase]] pumps and [[TRP channels]], creating conditions permissive for PAD activation. The resulting citrullinated proteins are targets of [[anti-citrullinated protein antibodies]] ([[ACPA]]), the most specific serological marker for RA. This oxidative–citrullination nexus may represent the mechanistic link between environmental triggers ([[Smoking]] — a potent oxidant source) and RA autoimmunity.
 ### Therapeutic Implications and Redox-Modulating Therapies
-Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative stress in RA. [[Methotrexate]] (MTX) — a first-line therapy — increases extracellular [[adenosine]], which suppresses [[NADPH Oxidase]] activity in neutrophils and inhibits TNF-induced ROS production in synovial fibroblasts. [[Sulfasalazine]] scavenges •OH and HOCl and inhibits [[NF-κB]] activation. [[Gold compounds]] ([[Auranofin]]) inhibit [[Thioredoxin reductase]] ([[TrxR]]), modulating the thioredoxin antioxidant system. [[Anti-TNF therapy]] ([[Infliximab]], [[Adalimumab]]) reduces circulating [[Malondialdehyde]] and enhances [[Glutathione]] levels in RA patients, partly by breaking the TNF–ROS amplification loop.
+Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative stress in RA. [[Methotrexate]] (MTX) — a first-line therapy — increases extracellular [[adenosine]], which suppresses [[NADPH Oxidase]] activity in neutrophils and inhibits TNF-induced ROS production in synovial fibroblasts. [[Sulfasalazine]] scavenges •OH and HOCl and inhibits [[NF-κB]] activation. Gold compounds (e.g., [[Auranofin]]) inhibit the selenoprotein [[Thioredoxin reductase|thioredoxin reductase (TrxR)]], modulating the thioredoxin antioxidant system. [[Anti-TNF therapy]] ([[Infliximab]], [[Adalimumab]]) reduces circulating [[Malondialdehyde]] and enhances [[Glutathione]] levels in RA patients, partly by breaking the TNF–ROS amplification loop.
 
 
 #
@@ -57,6 +57,7 @@ List of documents that mention this entity
 - [[xanthine dehydrogenase]] — catalyzes reaction involving Rheumatoid Arthritis
 - [[Superoxide Radicals]] — interacts with Rheumatoid Arthritis
 - [[Hydrogen Peroxide]] — interacts with Rheumatoid Arthritis
+- [[Auranofin]] — gold compound DMARD whose inhibition of [[Thioredoxin reductase]] modulates the thioredoxin antioxidant system in RA
 - [[HIF-1α]] — transcription factor mediating hypoxic response and metabolic adaptation
 - [[VEGF]] — interacts with Rheumatoid Arthritis
 - [[Phagocytic]] — interacts with Rheumatoid Arthritis
@@ -66,5 +67,5 @@ List of documents that mention this entity
 - [[Neutrophils]] — interacts with Rheumatoid Arthritis
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Synovial Fluid]], [[Oxidative Stress]], [[TNF-alpha]], [[Hypoxia]], [[Ischemia-reperfusion Injury]], [[Xanthine Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NADPH Oxidase]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[p38 MAPK]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[NF-κB]], [[Malondialdehyde]], [[Glutathione]]
-- Suggested new entity notes to create: [[Autoimmune disorder]], [[Joint destruction]], [[Synovial fibroblasts]], [[HIF-1α]], [[NOX4]], [[RANKL]], [[Protein arginine deiminase]], [[Citrullination]], [[Anti-citrullinated protein antibodies]], [[Methotrexate]], [[Auranofin]], [[Thioredoxin reductase]], [[Infliximab]], [[Adalimumab]]
+- Suggested new entity notes to create: [[Autoimmune disorder]], [[Joint destruction]], [[Synovial fibroblasts]], [[HIF-1α]], [[NOX4]], [[RANKL]], [[Protein arginine deiminase]], [[Citrullination]], [[Anti-citrullinated protein antibodies]], [[Methotrexate]], [[Infliximab]], [[Adalimumab]]
   - Strong connections to strengthen: [[Inflammation]] ↔ Rheumatoid Arthritis, Rheumatoid Arthritis ↔ [[Inflammation]], Rheumatoid Arthritis ↔ NADPH Oxidase, Rheumatoid Arthritis ↔ [[Hypoxia]], Rheumatoid Arthritis ↔ Citrullination

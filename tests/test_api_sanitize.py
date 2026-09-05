@@ -2,7 +2,7 @@
 
 import pytest
 
-from api.sanitize import (
+from api.domain.sanitize import (
     MAX_ANALYSIS_LENGTH,
     MAX_INPUT_LENGTH,
     MAX_NODE_NAME_LENGTH,

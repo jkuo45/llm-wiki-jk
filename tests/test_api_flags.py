@@ -2,7 +2,7 @@
 
 import pytest
 
-import api.flags as flags
+import api.routers.flags as flags
 from tests.conftest import USER_A
 
 

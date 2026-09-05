@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIRT3 — The Mitochondrial Deacetylase at the Center of Aging and Aging-Related Disease</title>
+<meta name="description" content="A visual deep dive into SIRT3, the only sirtuin directly linked to human longevity: structure and dual localization, the seven regulatory axes (metabolism, oxidative stress, epigenetics, apoptosis, fibrosis, inflammation, autophagy), a disease-by-mechanism overlap matrix across neurodegeneration, cardiovascular disease, diabetes, cancer, kidney disease, COPD, and degenerative spine/joint disease, plus the therapeutic activator landscape. Based on You & Wang, Int J Biol Sci 2025 and the llm-wiki-jk knowledge base.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/
+     (pages-article.css: callouts, figure shells, diagram palette;
+      pages-gallery.css: figure gallery cards, mobile table stacking) */
+  /* tighter section rhythm for this page (theme default: 56px 0) */
+  section{padding:25px 0;}
+  /* therapeutics table: mobile stacked-card labels (pages-gallery.css) */
+  #therapeutics .tbl-wrap{
+    --tbl-col-1:"Agent"; --tbl-col-2:"Class";
+    --tbl-col-3:"SIRT3 mechanism"; --tbl-col-4:"Disease models";
+  }
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="Back to articles index">&#8592; Back</a>
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#structure">Structure</a>
+    <a class="n" href="#axes">Seven Axes</a>
+    <a class="n" href="#senescence">Senescence</a>
+    <a class="n" href="#matrix">Disease Matrix</a>
+    <a class="n" href="#cvd">Heart &amp; Vessels</a>
+    <a class="n" href="#diseases">Other Diseases</a>
+    <a class="n" href="#figures">Source Figures</a>
+    <a class="n" href="#therapeutics">Activators</a>
+    <a class="n" href="#perspective">Perspective</a>
+    <a class="n" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Article Review · Geroscience · 30 Aug 2026</div>
+    <h1>SIRT3 — The Mitochondrial Deacetylase at the Center of Aging</h1>
+    <p class="lead" style="margin-top:14px;">
+      <b style="color:var(--text)">Sirtuin 3 (SIRT3)</b> is the principal NAD<sup>+</sup>-dependent deacetylase of the
+      mitochondrial matrix — and the <b style="color:var(--text)">only sirtuin isoform directly linked to human
+      longevity</b>. By removing acetyl groups from dozens of metabolic enzymes, it tunes the TCA cycle, fatty-acid
+      oxidation and the electron transport chain; by activating SOD2 and IDH2 it controls mitochondrial ROS; and,
+      remarkably, it also shuttles to the nucleus to preserve heterochromatin and DNA repair. When SIRT3 falls —
+      which it does in nearly every aging tissue studied — the result is a shared pathology kit: hyperacetylated
+      mitochondria, oxidative stress, NLRP3 inflammasome activation, fibrosis, and loss of mitophagic quality
+      control. This page unpacks the biology, maps the striking <b style="color:var(--text)">overlap of mechanisms
+      across disease models</b>, and surveys the therapeutic activator landscape.
+    </p>
+    <div class="meta">
+      Primary source: You Y, Wang Z. <i>Roles of SIRT3 in aging and aging-related diseases.</i>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">Int J Biol Sci 2025;21(11):5135–5163</a>
+      (CC BY 4.0) · vault note: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Roles%20of%20SIRT3%20in%20aging%20and%20aging-related%20diseases.md"><code>_document_ - Roles of SIRT3 in aging and aging-related diseases.md</code></a>
+    </div>
+    <div class="pill-row">
+      <span class="badge teal">SIRT3</span>
+      <span class="badge">mitochondrial matrix + nucleus</span>
+      <span class="badge teal">only longevity-linked sirtuin</span>
+      <span class="badge">NAD<sup>+</sup>-dependent deacetylase</span>
+      <span class="badge red">down in HF · CKD · COPD · AD · DCM</span>
+      <span class="badge amber">activators: HKL · resveratrol · melatonin · 2-APQC</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview">
+  <div class="wrap">
+    <h2>Why SIRT3 sits at the center of the aging map</h2>
+    <p class="lead">
+      The mammalian sirtuin family (SIRT1–7) partitions the cell: SIRT1, 6 and 7 are primarily nuclear, SIRT2
+      cytosolic, and SIRT3, 4 and 5 mitochondrial. Among them, SIRT3 holds a unique position — it is the main
+      regulator of the mitochondrial lysine acetylome, and a common VNTR enhancer polymorphism in the
+      <i>SIRT3</i> gene is associated with survival at the oldest ages, making it the only sirtuin with a direct
+      human-longevity link.
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">1 · Metabolic gatekeeper</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Senses <b style="color:var(--text)">NAD<sup>+</sup></b> and <b style="color:var(--text)">acetyl-CoA</b> and
+          transduces them into deacetylation of TCA-cycle enzymes, β-oxidation enzymes and ETC/OXPHOS complexes.
+          Under fasting and caloric restriction, rising NAD<sup>+</sup> switches SIRT3 on — the molecular reason CR
+          is SIRT3-dependent in several tissues.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--green);">2 · Redox sentinel</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Directly deacetylates and activates the antioxidant armory —
+          <b style="color:var(--text)">SOD2/MnSOD, IDH2, catalase, GPX</b> — and preserves ETC efficiency so fewer
+          electrons leak to oxygen in the first place. Loss of SIRT3 = hyperacetylated, sluggish antioxidants +
+          an over-reducing ETC = ROS.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">3 · Nuclear moonlighter</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Under stress, SIRT3 translocates to the nucleus: it maintains
+          <b style="color:var(--text)">heterochromatin</b> in mesenchymal stem cells, decrotonylates histones,
+          recruits <b style="color:var(--text)">53BP1</b> for NHEJ double-strand-break repair, and supports OGG1-mediated
+          mtDNA repair. A dual-compartment sentinel of genomic stability.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--teal); font-weight:700;">7</div>
+        <div style="color:var(--dim); font-size:.85rem;">regulatory axes — metabolism, redox, epigenetics, apoptosis, fibrosis, inflammation, autophagy</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--amber); font-weight:700;">~14</div>
+        <div style="color:var(--dim); font-size:.85rem;">aging-related disease categories with documented SIRT3 involvement in the 2025 review</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:2rem; color:var(--purple); font-weight:700;">1</div>
+        <div style="color:var(--dim); font-size:.85rem;">deacetylase — one enzyme, the same loss-of-function pattern, organ after organ</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STRUCTURE ============ -->
+<section id="structure">
+  <div class="wrap">
+    <h2>Structure and dual localization</h2>
+    <p class="lead">
+      Human SIRT3 is a 399-residue polypeptide. The N-terminal mitochondrial targeting sequence is proteolytically
+      removed on import, exposing the catalytic core: an N-terminal <b style="color:var(--text)">Rossmann fold</b>
+      that binds NAD<sup>+</sup> and a C-terminal <b style="color:var(--text)">zinc-finger module</b> that
+      stabilizes the structure. Beyond deacetylation, SIRT3 also catalyzes ADP-ribosylation, demalonylation and
+      desuccinylation.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg viewBox="0 0 1000 480" role="img" aria-label="SIRT3 domain architecture and dual mitochondrial-nuclear localization">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" class="s-dim"/>
+          </marker>
+        </defs>
+        <text x="500" y="30" text-anchor="middle" font-size="15" letter-spacing="2" font-weight="600" class="s-dim">SIRT3 — ONE GENE, TWO COMPARTMENTS</text>
+
+        <!-- domain bar -->
+        <text x="500" y="66" text-anchor="middle" font-size="13" class="s-mute">399 aa · full-length precursor (active short form after MTS cleavage)</text>
+        <rect x="120" y="84" width="150" height="46" rx="8" class="panel-f stroke-line2" stroke-width="1" stroke-dasharray="4 3"/>
+        <text x="195" y="104" text-anchor="middle" font-size="12" font-weight="700" class="s-mute">MTS</text>
+        <text x="195" y="120" text-anchor="middle" font-size="10.5" class="s-mute">mito targeting seq.</text>
+        <rect x="270" y="84" width="300" height="46" rx="8" class="panel-f s-teal-s" stroke-width="1.6"/>
+        <text x="420" y="104" text-anchor="middle" font-size="12" font-weight="700" class="s-teal">Rossmann fold</text>
+        <text x="420" y="120" text-anchor="middle" font-size="10.5" class="s-dim">NAD⁺ cofactor binding · catalytic core</text>
+        <rect x="570" y="84" width="230" height="46" rx="8" class="panel-f s-purple-s" stroke-width="1.6"/>
+        <text x="685" y="104" text-anchor="middle" font-size="12" font-weight="700" class="s-purple">Zinc finger</text>
+        <text x="685" y="120" text-anchor="middle" font-size="10.5" class="s-dim">structural stabilization</text>
+        <text x="840" y="104" font-size="10.5" class="s-mute">also: ADP-ribosylase ·</text>
+        <text x="840" y="118" font-size="10.5" class="s-mute">demalonylase · desuccinylase</text>
+
+        <!-- split arrows -->
+        <path d="M 420 132 C 300 170 220 180 190 218" fill="none" class="s-teal-s" stroke-width="1.6" marker-end="url(#arr)"/>
+        <path d="M 500 132 C 640 170 730 180 770 218" fill="none" class="s-purple-s" stroke-width="1.6" marker-end="url(#arr)"/>
+        <text x="255" y="175" font-size="11" class="s-teal">import → mature matrix enzyme</text>
+        <text x="640" y="175" font-size="11" class="s-purple">stress-responsive nuclear translocation</text>
+
+        <!-- mitochondrion panel -->
+        <rect x="60" y="222" width="420" height="220" rx="14" class="card-f s-teal-s" stroke-width="1.6"/>
+        <text x="270" y="248" text-anchor="middle" font-size="13" font-weight="700" class="s-teal">MITOCHONDRIAL MATRIX (canonical)</text>
+        <text x="80" y="274" font-size="11.5" class="s-text">▸ TCA cycle · SDH/complex II · IDH2 → NADPH</text>
+        <text x="80" y="294" font-size="11.5" class="s-text">▸ β-oxidation · ketogenesis · ATP synthase</text>
+        <text x="80" y="314" font-size="11.5" class="s-text">▸ ETC complexes I/III — fewer electron leaks</text>
+        <text x="80" y="334" font-size="11.5" class="s-text">▸ SOD2 (K68/K122) · catalase · GPX activation</text>
+        <text x="80" y="354" font-size="11.5" class="s-text">▸ OPA1 cristae · PINK1/Parkin mitophagy</text>
+        <text x="80" y="374" font-size="11.5" class="s-text">▸ Bcl-2 / caspase-9 apoptosis braking</text>
+        <text x="80" y="404" font-size="11" class="s-mute">fed by NAD⁺ from fasting, exercise, CR;</text>
+        <text x="80" y="420" font-size="11" class="s-mute">senses acetyl-CoA charge of the matrix</text>
+
+        <!-- nucleus panel -->
+        <rect x="520" y="222" width="420" height="220" rx="14" class="card-f s-purple-s" stroke-width="1.6"/>
+        <text x="730" y="248" text-anchor="middle" font-size="13" font-weight="700" class="s-purple">NUCLEUS (emerging role)</text>
+        <text x="540" y="274" font-size="11.5" class="s-text">▸ heterochromatin maintenance in hMSCs</text>
+        <text x="540" y="294" font-size="11.5" class="s-text">▸ H3K56 deacetylation + 53BP1 → NHEJ repair</text>
+        <text x="540" y="314" font-size="11.5" class="s-text">▸ OGG1 activation → mtDNA lesion repair</text>
+        <text x="540" y="334" font-size="11.5" class="s-text">▸ histone decrotonylation (e.g. H3K27cr at ETS1)</text>
+        <text x="540" y="354" font-size="11.5" class="s-text">▸ FOXO3a DNA-binding affinity ↑ → stress genes</text>
+        <text x="540" y="374" font-size="11.5" class="s-text">▸ silences repetitive elements — anti-senescence</text>
+        <text x="540" y="404" font-size="11" class="s-mute">loss → nuclear-envelope abnormalities,</text>
+        <text x="540" y="420" font-size="11" class="s-mute">heterochromatin disarray, premature aging</text>
+
+        <text x="500" y="468" text-anchor="middle" font-size="11.5" class="s-mute">Dual localization makes SIRT3 a sentinel of mitochondrial–nuclear crosstalk: bioenergetics below, genome stability above.</text>
+      </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 1 — SIRT3 architecture.</b> After mitochondrial import cleaves the MTS, the mature enzyme
+      deacetylates the matrix acetylome; under genotoxic or oxidative stress it also redistributes to chromatin, where it preserves
+      heterochromatin and double-strand-break repair.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SEVEN AXES ============ -->
+<section id="axes">
+  <div class="wrap">
+    <h2>One hub, seven regulatory axes</h2>
+    <p class="lead">
+      The review organizes SIRT3's anti-aging portfolio into seven interconnected programs. Each axis is a
+      self-contained mechanism — but they share substrates and converge on the same outcome: lower mitochondrial
+      stress, less inflammatory signaling, better tissue repair.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg id="axesSvg" viewBox="0 0 1000 620" role="img" aria-label="Hub-and-spoke diagram of SIRT3's seven regulatory axes with representative substrates and downstream outcomes"></svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 2 — The SIRT3 hub.</b> Each spoke lists representative deacetylation targets
+      drawn from the review (Sec. 1.1–1.7). Solid links = direct deacetylation; the axis outcomes feed back on each
+      other (e.g. mitophagy ↓ ROS → inflammasome ↓).</figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="callout teal">
+        <span class="callout-tag">Key excerpt · Oxidative stress (Sec 1.2)</span>
+        <p>Under caloric restriction, SIRT3 deacetylates and activates mitochondrial <b>IDH2</b>, driving
+        <b>NADPH</b> biosynthesis that fuels antioxidant regeneration and prevents ETC overload — a central
+        mechanism by which SIRT3 couples nutrient sensing to mitochondrial redox homeostasis.</p>
+      </div>
+      <div class="callout">
+        <span class="callout-tag">Key excerpt · Epigenetics (Sec 1.3)</span>
+        <p>Beyond mitochondrial deacetylation, SIRT3 regulates genomic integrity through lysine decrotonylation of
+        histones, heterochromatin maintenance in hMSCs, and <b>53BP1</b> recruitment that boosts
+        <b>NHEJ</b> repair of double-strand breaks — establishing a nuclear role in epigenetic control of senescence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SENESCENCE ============ -->
+<section id="senescence">
+  <div class="wrap">
+    <h2>Anti-senescence coordinator</h2>
+    <p class="lead">
+      Cellular senescence — permanent cell-cycle arrest with SASP secretion, macromolecular damage and metabolic
+      dysregulation — is the cellular face of aging, and SIRT3 coordinates multiple anti-senescence programs at once:
+    </p>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card">
+        <h3>Senescence markers</h3>
+        <p style="color:var(--dim); font-size:.9rem;">Deacetylation-driven antioxidant capacity minimizes DNA damage
+        and delays onset of SA-β-gal positivity; SIRT3 inhibits the <b style="color:var(--text)">p53/p21</b> axis that
+        executes arrest.</p>
+      </div>
+      <div class="card">
+        <h3>SASP suppression</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 loss increases SASP components —
+        <b style="color:var(--red)">TNF-α, IL-1β, MMP9</b> — via mitochondrial dysfunction; activation ameliorates
+        inflammatory tissue damage. A miR-494-3p ↓ SIRT3 feedback loop exacerbates senescence under oxidative stress.</p>
+      </div>
+      <div class="card">
+        <h3>Stem cell reserve</h3>
+        <p style="color:var(--dim); font-size:.9rem;">In hMSCs and hematopoietic stem cells, SIRT3 preserves
+        heterochromatin and sustains the autophagy–SIRT3 positive feedback loop (FOXO3a → SIRT3 → PINK1/Parkin
+        mitophagy → lower mtROS → stem-cell repopulation maintained).</p>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:20px;">
+      <span class="callout-tag">Key excerpt · Autophagy (Sec 1.7)</span>
+      <p>Autophagy induces SIRT3 through <b>FOXO3a</b>, and SIRT3 in turn promotes <b>PINK1/Parkin</b>-mediated
+      <b>mitophagy</b> to lower mitochondrial ROS — restoring hematopoietic stem cell repopulation and linking
+      mitophagic quality control to stem cell maintenance during aging.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISEASE MATRIX ============ -->
+<section id="matrix">
+  <div class="wrap">
+    <h2>The overlap: one pattern, many diseases</h2>
+    <p class="lead">
+      The most striking pattern in the review is <b style="color:var(--text)">convergence</b>. Across fourteen
+      disease categories, the same handful of mechanisms recur — mitochondrial dysfunction, oxidative stress,
+      NLRP3-driven inflammation, TGF-β/Smad fibrosis, apoptosis, and failed mitophagy. The matrix below codes how
+      strongly each mechanism is implicated per disease (from the review's own emphasis), and the bar chart counts
+      the mechanisms engaged per disease.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg id="matrixSvg" viewBox="0 0 1000 640" role="img" aria-label="Disease-by-mechanism involvement matrix for SIRT3"></svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 3 — Disease × mechanism matrix.</b> Filled dot = strong involvement;
+      half-tinted = moderate/context-dependent; empty = not emphasized in the review. Cardiovascular, metabolic and
+      renal rows engage nearly every column — SIRT3 sits upstream of all of them.</figcaption>
+    </figure>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg id="barsSvg" viewBox="0 0 1000 560" role="img" aria-label="Bar chart of number of mechanisms engaged per disease, cardiovascular and renal diseases on top"></svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 4 — Mechanistic breadth per disease</b> (count of strongly or moderately
+      engaged mechanisms from Figure 3). Heart failure, CKD, DCM and atherosclerosis are the most pleiotropic
+      SIRT3-deficiency phenotypes; the neurodegenerative diseases cluster on the mitochondria–ROS–autophagy triplet.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CVD DEEP DIVE ============ -->
+<section id="cvd">
+  <div class="wrap">
+    <h2>Deep dive — heart failure and cardiovascular disease</h2>
+    <p class="lead">
+      CVD is the leading contributor to global mortality, and cardiac SIRT3 is <b style="color:var(--text)">consistently
+      decreased during heart failure</b>, paralleling hyperacetylation of the mitochondrial proteome, impaired
+      oxidative metabolism, and elevated ROS. Uniquely among class III HDACs, SIRT3 attenuates pathological cardiac
+      remodeling through <b style="color:var(--text)">FOXO3a</b> activation. SIRT3 overexpression mitigates cardiac
+      hypertrophy and fibrosis in preclinical models, whereas SIRT3-null mice develop hypertrophic cardiomyopathy
+      and progressive ventricular dysfunction.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+      <svg viewBox="0 0 1000 560" role="img" aria-label="SIRT3 loss and rescue pathways in the cardiomyocyte during heart failure">
+        <text x="500" y="28" text-anchor="middle" font-size="14" letter-spacing="2" font-weight="600" class="s-dim">SIRT3 IN THE STRESSED CARDIOMYOCYTE</text>
+
+        <!-- top: triggers -->
+        <rect x="80" y="48" width="840" height="44" rx="10" class="panel-f s-red-s" stroke-width="1.2"/>
+        <text x="500" y="75" text-anchor="middle" font-size="12.5" class="s-red">HF pressure overload · ischemia · hypertension · diabetes — cardiac SIRT3 expression ↓</text>
+
+        <line x1="500" y1="92" x2="500" y2="118" class="stroke-line2" stroke-width="1.4" marker-end="url(#arr)"/>
+
+        <!-- central lesion -->
+        <rect x="330" y="122" width="340" height="52" rx="10" class="panel-f s-amber-s" stroke-width="1.6"/>
+        <text x="500" y="144" text-anchor="middle" font-size="12.5" font-weight="700" class="s-amber">mitochondrial hyperacetylation</text>
+        <text x="500" y="162" text-anchor="middle" font-size="11" class="s-dim">metabolic enzymes + antioxidants run acetylated &amp; sluggish</text>
+
+        <!-- left branch: bioenergetics -->
+        <line x1="380" y1="174" x2="220" y2="212" class="stroke-line2" stroke-width="1.4" marker-end="url(#arr)"/>
+        <rect x="70" y="216" width="270" height="118" rx="10" class="card-f s-red-s" stroke-width="1.2"/>
+        <text x="205" y="240" text-anchor="middle" font-size="12" font-weight="700" class="s-red">BIOENERGETIC COLLAPSE</text>
+        <text x="205" y="262" text-anchor="middle" font-size="11" class="s-dim">SOD2 / IDH2 deacetylation lost</text>
+        <text x="205" y="280" text-anchor="middle" font-size="11" class="s-dim">TCA flux ↓ · ETC overload → ROS ↑</text>
+        <text x="205" y="298" text-anchor="middle" font-size="11" class="s-dim">FOXO3a → MnSOD/CAT transcription ↓</text>
+        <text x="205" y="316" text-anchor="middle" font-size="11" class="s-dim">CypD acetylated → mPTP opening ↑</text>
+
+        <!-- right branch: remodeling -->
+        <line x1="620" y1="174" x2="780" y2="212" class="stroke-line2" stroke-width="1.4" marker-end="url(#arr)"/>
+        <rect x="660" y="216" width="270" height="118" rx="10" class="card-f s-red-s" stroke-width="1.2"/>
+        <text x="795" y="240" text-anchor="middle" font-size="12" font-weight="700" class="s-red">MALADAPTIVE REMODELING</text>
+        <text x="795" y="262" text-anchor="middle" font-size="11" class="s-dim">GSK-3β acetylated → Smad3 complexes ↑</text>
+        <text x="795" y="280" text-anchor="middle" font-size="11" class="s-dim">p53 acetylation → fibrosis + ferroptosis</text>
+        <text x="795" y="298" text-anchor="middle" font-size="11" class="s-dim">COL1A1 / TGF-β1 → ECM deposition ↑</text>
+        <text x="795" y="316" text-anchor="middle" font-size="11" class="s-dim">OPA1 deacetylation lost → cristae damage</text>
+
+        <!-- convergence -->
+        <line x1="205" y1="334" x2="420" y2="372" class="s-red-s" stroke-width="1.4" marker-end="url(#arr)"/>
+        <line x1="795" y1="334" x2="580" y2="372" class="s-red-s" stroke-width="1.4" marker-end="url(#arr)"/>
+        <rect x="330" y="376" width="340" height="46" rx="10" class="panel-f s-red-s" stroke-width="1.6"/>
+        <text x="500" y="398" text-anchor="middle" font-size="12.5" font-weight="700" class="s-red">hypertrophy · fibrosis · cardiomyocyte apoptosis · diastolic dysfunction</text>
+        <text x="500" y="414" text-anchor="middle" font-size="10.5" class="s-mute">the HF phenotype — incl. HFpEF via the microbiota axis</text>
+
+        <!-- rescue band -->
+        <rect x="80" y="446" width="840" height="86" rx="12" class="card-f s-green-s" stroke-width="1.4"/>
+        <text x="500" y="470" text-anchor="middle" font-size="12" font-weight="700" class="s-green">SIRT3 RESCUE ROUTES</text>
+        <text x="110" y="492" font-size="11" class="s-text">▸ NAD⁺-dependent potentiation (fasting/CR, NMN/NR)</text>
+        <text x="110" y="510" font-size="11" class="s-text">▸ honokiol (HKL) — blocks &amp; reverses hypertrophy, SIRT3-dependent</text>
+        <text x="110" y="528" font-size="11" class="s-text">▸ 2-APQC — anti-hypertrophic, lost in SIRT3-KO</text>
+        <text x="590" y="492" font-size="11" class="s-text">▸ indole-3-propionic acid (gut microbiota) → HFpEF diastolic function</text>
+        <text x="590" y="510" font-size="11" class="s-text">▸ melatonin → TFAM K154 deacetylation → mitophagic flux</text>
+        <text x="590" y="528" font-size="11" class="s-text">▸ FOXO3a → MnSOD + CAT antioxidant transcription</text>
+      </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 5 — The heart-failure pattern.</b> SIRT3 loss hyperacetylates the cardiac
+      mitochondrial proteome; bioenergetic and remodeling branches converge on hypertrophy/fibrosis. Every rescue route
+      shown is SIRT3-dependent — effects vanish in SIRT3-knockout models.</figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="card">
+        <h3>Atherosclerosis — the vessel side of the story</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          SIRT3 deficiency raises oxidative stress and promotes plaque formation. It suppresses
+          <b style="color:var(--text)">ox-LDL-driven foam-cell</b> formation via AMPK/UCP1, preserves endothelial
+          mitochondria and <b style="color:var(--text)">nitric oxide</b> through the SIRT3/ATG5 axis, restrains
+          endothelial NLRP3 inflammasome activation, and deacetylates FOXO3a → catalase. Gut-microbiota metabolites
+          feed the SIRT3/SOD2/FOXO3a axis against the SREBP1c/FAS/DGAT2 lipogenic cascade.
+          <i>Caveat:</i> one LDL-receptor-KO study found no lesion change on SIRT3 deletion — context matters.
+        </p>
+      </div>
+      <div class="callout teal" style="margin:0;">
+        <span class="callout-tag">Key excerpt · HFpEF and the microbiota (Sec 2.2.2)</span>
+        <p>Gut-derived metabolites such as <b>indole-3-propionic acid</b> potentiate SIRT3 to improve myocardial
+        bioenergetics and diastolic function in heart failure with preserved ejection fraction — a
+        <b>microbiota–mitochondria axis</b> with translational potential.</p>
+      </div>
+    </div>
+
+    <div class="grid g2" style="margin-top:16px;">
+      <div class="card">
+        <h3>Diabetic cardiomyopathy (DCM)</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 activation improves mitochondrial respiratory capacity via
+        the <b style="color:var(--text)">AGO2/cytochrome b</b> axis — uncoupling hyperglycemia from ETC dysfunction.
+        Melatonin's protection in DCM runs through Mst1 inhibition and SIRT3 upregulation; the FGF21–SIRT3 axis
+        mediates exercise's benefit to cardiac mitochondria.</p>
+      </div>
+      <div class="card">
+        <h3>Hypertension &amp; vascular wall</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 depletion in essential hypertension is linked to vascular
+        inflammation and SOD2 hyperacetylation; deacetylation of <b style="color:var(--text)">CypD</b> prevents
+        endothelial mPTP-driven dysfunction; Ang-II-induced renal and cardiac fibrosis are both SIRT3-sensitive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OTHER DISEASES ============ -->
+<section id="diseases">
+  <div class="wrap">
+    <h2>The rest of the map — one paragraph per disease</h2>
+    <p class="lead">Condensed from the review's Sec. 2; badges mark the dominant mechanism each disease borrows from the shared pattern.</p>
+
+    <div class="grid g2" style="margin-top:18px;">
+      <div class="card">
+        <h3>Alzheimer's disease <span class="badge teal">mitophagy</span> <span class="badge">tau</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 is the most abundant CNS sirtuin, and its levels inversely
+        track <b style="color:var(--text)">tau deposition</b>. It deacetylates mitochondrial <b style="color:var(--text)">p53 at Lys320</b>
+        to preserve bioenergetics under Aβ toxicity, supports PINK1/Parkin mitophagic clearance of damaged mitochondria
+        (limiting amyloidogenesis and tau pathology), activates MnSOD, and bridges neurotrophic signaling via PACAP.</p>
+      </div>
+      <div class="card">
+        <h3>Parkinson's disease <span class="badge teal">mitochondrial dynamics</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 deacetylates the fission protein <b style="color:var(--text)">DRP1 (K711)</b>
+        to restore mitochondrial dynamics and protect dopaminergic neurons; activates PGC-1α-driven biogenesis;
+        clears <b style="color:var(--text)">α-synuclein</b> aggregates; and suppresses NLRP3 inflammasome
+        neuroinflammation.</p>
+      </div>
+      <div class="card">
+        <h3>ALS <span class="badge teal">OXPHOS</span> <span class="badge">NAD⁺ salvage</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 loss causes aberrant mitochondrial hyperacetylation,
+        corrupting OXPHOS complex stoichiometry and ETC capacity. Overexpression ameliorates SOD1(G93A) phenotypes;
+        NAD<sup>+</sup>-salvage potentiation (nicotinamide) preserves neuronal ultrastructure. Muscle NAD<sup>+</sup>
+        salvage fidelity also degrades — a neuromuscular metabolic loop.</p>
+      </div>
+      <div class="card">
+        <h3>Huntington's disease <span class="badge teal">bioenergetics</span> <span class="badge">AMPK</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 overexpression ameliorates symptoms and supports striatal
+        neuron survival against mutant huntingtin; deficiency heightens glutamate-excitotoxic vulnerability. AMPK
+        phosphorylation drives PGC-1α programs; Drp1/Fis1 suppression preserves axonal transport. In
+        <i>Drosophila</i>, the SIRT3 ortholog dSirt2 extends longevity and limits neuropil degeneration.</p>
+      </div>
+      <div class="card">
+        <h3>Diabetes mellitus <span class="badge teal">insulin sensitivity</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 is downregulated in diabetic tissues, correlating with
+        insulin resistance. Skeletal-muscle SIRT3 loss impairs insulin-stimulated glucose uptake; β-cell-selective KO
+        disrupts glucose-stimulated insulin secretion (serotonin-dependent); hippocampal hyperglycemia suppresses
+        SIRT3 → VDAC1/GRP75/IP3R-mediated neuronal apoptosis; irisin's osteoprotection in diabetic periodontitis is
+        SIRT3-obligatory.</p>
+      </div>
+      <div class="card">
+        <h3>Cancer <span class="badge red">context-dependent</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">Mostly tumor-suppressive: destabilizes HIF-1α (anti-Warburg),
+        preserves genome integrity via OGG1 and H3K56 deacetylation, IDH2 K143 deacetylation suppresses
+        ROS-driven mutagenesis. But it can be oncogenic — PYCR1 K228 (proline), SHMT2 K95 (serine), GLDC K514
+        (nucleotides), and ROS buffering that confers chemoresistance in CLL. Modulators must be context-specific.</p>
+      </div>
+      <div class="card">
+        <h3>Kidney — AKI → CKD <span class="badge teal">fibrosis</span> <span class="badge red">apoptosis</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">Renal SIRT3 falls across nephropathies, tracking histological
+        severity. In septic and ischemia-reperfusion AKI, SIRT3-KO worsens tubular apoptosis (BAX oligomerization,
+        caspase-3) and FAO failure; activation restores OXPHOS, Nrf2 signaling, and cristae integrity. Deficiency
+        accelerates the AKI→CKD transition via early TGF-β/Smad3 activation; in CKD it restrains EMT, β-catenin-driven
+        fibroblast activation, and vascular calcification (PGC-1α/TFAM, sEH-dependent stability).</p>
+      </div>
+      <div class="card">
+        <h3>COPD <span class="badge teal">senescence</span> <span class="badge">ferroptosis</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">The PGC-1α/SIRT3 axis sustains mitochondrial biogenesis and redox
+        balance in airway epithelium; SIRT3 deficiency worsens alveolar destruction and cigarette-smoke injury via SOD2
+        hyperacetylation and Nrf2/iNOS imbalance (CS-induced ferroptosis). Oxidative stress upregulates
+        <b style="color:var(--text)">miR-494-3p</b>, directly targeting SIRT3 → p27 ↑ → accelerated airway-epithelial
+        senescence. mtDNA leakage engages the cGAS-STING axis.</p>
+      </div>
+      <div class="card">
+        <h3>Intervertebral disc degeneration <span class="badge red">ferroptosis</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 is reduced in degenerated discs; knockdown worsens nucleus
+        pulposus cell decline under oxidative stress. Lactate downregulates SIRT3 → ACSL4 lactylation → ferroptosis.
+        SIRT3 overexpression alleviates IDD severity in vivo; hydrogel microspheres co-delivering SIRT3/SOD2 support
+        NPC viability; AMPK/PGC-1α sustains mitochondrial homeostasis against AGEs.</p>
+      </div>
+      <div class="card">
+        <h3>Osteoarthritis <span class="badge teal">mitophagy</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">SIRT3 deacetylates COX4I2 to preserve the respiratory chain;
+        deletion exacerbates OA in animal and human models. It promotes PINK1/Parkin mitophagy and FOXO3a-regulated
+        redox homeostasis in chondrocytes, inhibits apoptosis via PI3K/Akt/mTOR, and its SUMOylation-mediated
+        inhibition drives cartilage degeneration. Mitochondrial fusion via SIRT3 supports mtDNA complementation.</p>
+      </div>
+      <div class="card">
+        <h3>Age-related hearing loss <span class="badge teal">CR-dependent</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">Caloric restriction slows AHL by reducing oxidative damage in
+        cochlear cells — an effect <b style="color:var(--text)">completely abolished in SIRT3-deficient mice</b>.
+        SIRT3-driven IDH2 activation boosts mitochondrial NADPH and ROS clearance, preserving cochlear hair cells.
+        The canonical SIRT3–IDH2–NADPH axis, in its purest form.</p>
+      </div>
+      <div class="card">
+        <h3>Fibrosis (cross-cutting) <span class="badge teal">GSK-3β Lys15</span></h3>
+        <p style="color:var(--dim); font-size:.88rem;">Across peritoneal, cardiac, pulmonary and hepatic models, SIRT3
+        deacetylates <b style="color:var(--text)">GSK-3β at Lys15</b> to block Smad3 transcriptional complexes, and
+        suppresses FOS/AP-1 and STAT3/NFATc2 in cardiomyocytes. Withaferin A's hepatic anti-fibrotic effect is
+        abolished in SIRT3-KO mice — SIRT3 is the obligatory effector of multiple pharmacological anti-fibrotics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCE FIGURES ============ -->
+<section id="figures">
+  <div class="wrap">
+    <h2>Figures from the source review</h2>
+    <p class="lead">
+      The review's own figures are open-access (CC BY 4.0); they are embedded below. Panel D of Figure 3
+      (cardiovascular pathology) and Panel C of Figure 4 are the most relevant to the heart-failure / CVD themes.
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">Open the full article →</a>
+    </p>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/18b03ed15be4/ijbsv21p5135g001.jpg" alt="Figure 1: multidimensional regulatory network of SIRT3" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">Review Figure 1</div>
+          <h3>Multidimensional regulatory network</h3>
+          <p class="caption">A: antioxidant defense (MnSOD2, CAT, GPX, PRDX). B: DNA repair via NHEJ (PARP1, Ku70/80, XRCC1, DNA ligase 4). C: apoptotic commitment (Bcl-2, Cyt-C, caspases). D: metabolic flux (TCA, FAO, AMPK, ketone bodies).</p>
+          <span class="context">Source: You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/e064bc1c6b0a/ijbsv21p5135g002.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/e064bc1c6b0a/ijbsv21p5135g002.jpg" alt="Figure 2: SIRT3 in autophagy, inflammation and fibrosis" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">Review Figure 2</div>
+          <h3>Autophagy · inflammation · fibrosis</h3>
+          <p class="caption">A: autophagy via FOXO1/3a, LKB1/AMPK/mTOR, MnSOD. B: NF-κB/AP-1 deacetylation, NLRP3 inflammasome restraint, TGF-β1 modulation. C: fibrotic markers via histone H3 deacetylation and TGF-β1 suppression.</p>
+          <span class="context">Source: You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/bb89efb9426d/ijbsv21p5135g003.jpg" alt="Figure 3: SIRT3 in neurodegeneration, kidney, cardiovascular and metabolic disease and cancer" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">Review Figure 3 · Panel D = cardiovascular</div>
+          <h3>Aging pathologies A–F</h3>
+          <p class="caption"><b>D — cardiovascular pathology:</b> SIRT3 protects cardiomyocytes via ROS control, OXPHOS and Ku70; suppresses pathological hypertrophy and apoptosis through PINK1-mediated mitochondrial quality control. Also: senescence (A), neurodegeneration &amp; hearing (B), kidney (C), metabolic dysregulation (E), oncogenesis (F).</p>
+          <span class="context">Source: You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <div class="img-wrap"><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/ec6c9a3510f5/ijbsv21p5135g004.jpg" target="_blank" rel="noopener"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7266/12374834/ec6c9a3510f5/ijbsv21p5135g004.jpg" alt="Figure 4: SIRT3 in COPD, intervertebral disc degeneration and osteoarthritis" loading="lazy"></a></div>
+        <div class="card-body">
+          <div class="fig-label">Review Figure 4</div>
+          <h3>COPD · IDD · OA</h3>
+          <p class="caption">A: COPD — mtROS and mtDNA leakage activate cGAS-STING → IL-6/TNF → senescence/SASP; SOD2 deacetylation weakened. B: IDD — AMPK–SIRT3–PGC-1α axis, AGE accumulation. C: OA — PINK1/Parkin mitophagy failure, chondrocyte apoptosis.</p>
+          <span class="context">Source: You &amp; Wang 2025, PMC12374834, CC BY 4.0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THERAPEUTICS ============ -->
+<section id="therapeutics">
+  <div class="wrap">
+    <h2>Therapeutic activator landscape</h2>
+    <p class="lead">
+      Pharmacological SIRT3 potentiation is a burgeoning geroscience frontier. Compiled from the review's Sec. 3 —
+      every entry below showed loss of efficacy in SIRT3-deficient models where tested, which is the field's
+      causality standard.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:16%;">Agent</th>
+            <th style="width:12%;">Class</th>
+            <th style="width:42%;">SIRT3 mechanism</th>
+            <th style="width:30%;">Disease models</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b style="color:var(--teal);">Honokiol (HKL)</b></td>
+            <td>Natural · lignan (<i>Magnolia officinalis</i>)</td>
+            <td>Upregulates SIRT3 and augments enzymatic activity; SIRT3/AMPK mitochondrial-fusion signaling; GPX4 deacetylation (anti-ferroptosis)</td>
+            <td>Cardiac hypertrophy (blocks &amp; reverses), silicosis fibrosis (cGAS/STING), SAH &amp; I/R brain injury, perioperative neurocognitive decline, renal fibrosis</td>
+          </tr>
+          <tr>
+            <td><b style="color:var(--teal);">Resveratrol</b></td>
+            <td>Natural · phytoalexin</td>
+            <td>Accumulates SIRT3 in mitochondria → FOXO3a transcription of ATP6/CO1/Cytb/ND2/ND5; AMPK/PGC-1α/ERRα → SIRT3 transcription</td>
+            <td>Endothelial oxidative injury, myocardial I/R (Mfn2/Parkin autophagic flux), cadmium nephrotoxicity, septic AKI (SIRT3/SOD2-dependent)</td>
+          </tr>
+          <tr>
+            <td><b style="color:var(--teal);">Melatonin</b></td>
+            <td>Bioactive · hormone</td>
+            <td>Activates the 28-kDa SIRT3 isoform; TFAM K154 deacetylation as mitophagy switch; SOD2 deacetylation; AMPK/PGC-1α/SIRT3 axis</td>
+            <td>Sepsis multiorgan dysfunction, contrast-induced AKI (abolished in SIRT3-KO), diabetic cardiomyopathy (Mst1), myocardial I/R in T1D</td>
+          </tr>
+          <tr>
+            <td><b style="color:var(--teal);">2-APQC</b></td>
+            <td>Synthetic small molecule</td>
+            <td>Direct SIRT3 agonist; suppresses AKT/mTOR/p70S6K and JNK/TGF-β/Smad3 remodeling pathways</td>
+            <td>Isoproterenol-induced hypertrophy &amp; fibrosis — efficacy <b style="color:var(--red);">completely lost</b> in SIRT3-KO; blocked by NAM inhibition</td>
+          </tr>
+          <tr>
+            <td>Curcumin</td>
+            <td>Natural · polyphenol</td>
+            <td>Coordinates mitochondrial quality control — bioenergetics, dynamics, selective autophagy, redox</td>
+            <td>Cisplatin renal bioenergetic injury</td>
+          </tr>
+          <tr>
+            <td>Silybin</td>
+            <td>Natural · flavonolignan</td>
+            <td>SIRT3-mediated preservation of tubular integrity and bioenergetics</td>
+            <td>Cisplatin nephrotoxicity</td>
+          </tr>
+          <tr>
+            <td>Matrine</td>
+            <td>Natural · alkaloid (<i>Sophora</i>)</td>
+            <td>SIRT3/OPA1 mitochondrial-membrane dynamics; AMPK/SIRT3 cardiomyocyte viability</td>
+            <td>Cisplatin AKI; myocardial I/R</td>
+          </tr>
+          <tr>
+            <td>Liquiritigenin</td>
+            <td>Natural · licorice flavanone</td>
+            <td>Nrf2 translocation → SIRT3 activity ↑ → biogenesis + anti-apoptosis</td>
+            <td>Cisplatin AKI</td>
+          </tr>
+          <tr>
+            <td>Catechins</td>
+            <td>Natural · green-tea polyphenols</td>
+            <td>PPAR-α → SIRT3/SOD2; ketogenesis–SIRT3 crosstalk. <i>Context-dependent:</i> can repress SIRT3 via ERRα in cancer cells</td>
+            <td>Diabetic nephropathy (vs. pro-oxidant in oral cancer cells)</td>
+          </tr>
+          <tr>
+            <td>Apigenin</td>
+            <td>Natural · dietary flavone</td>
+            <td>NAD<sup>+</sup>/NADH ratio ↑ → CD38 ↓ → SIRT3 activity restored</td>
+            <td>Diabetic kidney disease (tubular oxidative stress)</td>
+          </tr>
+          <tr>
+            <td>Poricoic acid A</td>
+            <td>Natural · triterpenoid (<i>Poria cocos</i>)</td>
+            <td>SIRT3 upregulation → β-catenin K49 deacetylation → fibroblast activation ↓</td>
+            <td>Renal interstitial fibrosis (UUO, in vivo + in vitro)</td>
+          </tr>
+          <tr>
+            <td>Metformin <span class="badge">indirect</span></td>
+            <td>Biguanide</td>
+            <td>AMPK activation → SENP1-mediated SIRT3 deSUMOylation → mitochondrial localization &amp; activity ↑</td>
+            <td>AKI tubular apoptosis under metabolic stress</td>
+          </tr>
+          <tr>
+            <td>Macrocyclic sulfonamide 2a</td>
+            <td>Synthetic · pseudo-natural</td>
+            <td>SIRT3-dependent neuroprotection (spiro-grafted macrocycle)</td>
+            <td>Parkinson's — locomotor deficits &amp; motor coordination improved</td>
+          </tr>
+          <tr>
+            <td>Stanniocalcin-1 / Intermedin / Meteorin-like / Ac2-26</td>
+            <td>Endogenous peptides</td>
+            <td>Hormetic AMPK/SIRT3 axis; PGC-1α/SIRT3 with UCP1 proton leak; cristae remodeling; transcriptional SIRT3 upregulation</td>
+            <td>Diabetic nephropathy, vascular calcification, ischemic kidney injury</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout teal" style="margin-top:20px;">
+      <span class="callout-tag">Causality standard</span>
+      <p>The strongest compounds in this table — honokiol, melatonin, 2-APQC — lose their protective effects entirely
+      in SIRT3-knockout or nicotinamide-blocked models. That dependency, not just association, is what separates
+      SIRT3 activators from generic "mitoprotective" compounds.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSPECTIVE ============ -->
+<section id="perspective">
+  <div class="wrap">
+    <h2>Perspective — where SIRT3 therapeutics go next</h2>
+    <div class="grid g3" style="margin-top:16px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">Clinical gap</h3>
+        <p style="color:var(--dim); font-size:.9rem;">No robust randomized human trials; no aging-specific clinical
+        endpoints. Priority: adaptive trial designs with composite geriatric outcomes, omics-based biomarker platforms
+        to stratify and monitor SIRT3 activity, and longitudinal safety registries.</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Context dependence</h3>
+        <p style="color:var(--dim); font-size:.9rem;">SIRT3 is cytoprotective in most tissues but can be oncogenic
+        (proline/serine/nucleotide metabolism, ROS buffering). Single-cell multi-omics will be needed to dissect
+        cell-type-specific SIRT3 activity before systemic agonism in cancer survivors.</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">Delivery</h3>
+        <p style="color:var(--dim); font-size:.9rem;">Brain-permeable activators for PD/HD; cardiomyocyte- vs
+        fibroblast-targeted delivery in HF; hydrogel microspheres for discs; microbiota-derived modulators
+        (indole-3-propionic acid) as a dietary route to HFpEF benefit.</p>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">Bottom line</span>
+      <p>SIRT3 is a <b>master regulatory nexus</b>: one NAD<sup>+</sup>-sensing deacetylase integrating metabolism,
+      redox, epigenetics, inflammation, autophagy, apoptosis and fibrosis. Its loss reproduces a shared aging pattern
+      in organ after organ — and its restoration, in preclinical models, reliably rewrites it. Selective SIRT3
+      activation is among the most credible near-term geroscience strategies for extending <i>healthspan</i>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<footer id="sources">
+  <div class="wrap">
+    <h2 style="font-size:1.1rem;">Sources &amp; methods</h2>
+    <p style="margin-top:10px;">Primary source: You Y, Wang Z. <i>Roles of SIRT3 in aging and aging-related diseases.</i>
+    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">Int J Biol Sci 2025;21(11):5135–5163</a> ·
+    doi:<a href="https://doi.org/10.7150/ijbs.115518" target="_blank" rel="noopener">10.7150/ijbs.115518</a> ·
+    PMCID:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12374834/" target="_blank" rel="noopener">PMC12374834</a> ·
+    PMID:40860195. Open access under CC BY 4.0 — Figures 1–4 embedded from the article CDN with attribution.</p>
+    <p>llm-wiki-jk vault: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Roles%20of%20SIRT3%20in%20aging%20and%20aging-related%20diseases.md"><code>_document_ - Roles of SIRT3 in aging and aging-related diseases.md</code></a> ·
+    related notes: [[SIRT3]], [[Sirtuins]], [[NAD+]], [[SOD2]], [[MnSOD]], [[IDH2]], [[FOXO3a]], [[PGC-1α]], [[AMPK]], [[PINK1]], [[Parkin]], [[GSK3β]], [[SMAD3]], [[TGF-beta1]], [[NLRP3]], [[NF-κB]], [[Heart Failure]], [[Atherosclerosis]], [[Diabetic Cardiomyopathy]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Honokiol]], [[Resveratrol]], [[Melatonin]], [[2-APQC]].</p>
+    <p>Knowledge graph: <code>graphify-out/graph.json</code> (triples) · <code>wiki-out/graph.json</code> (wikilinks) · All diagrams are client-side SVG using theme-01 CSS variables — no external dependencies, re-themes with the site light/dark toggle, works offline.</p>
+    <p style="margin-top:8px; color:var(--mute);">Informational synthesis, not medical advice. Mechanism-involvement matrix (Figure 3) and breadth counts (Figure 4) are editorial encodings of the review's emphasis — not quantitative meta-analysis.</p>
+  </div>
+</footer>
+
+<div id="netTip"></div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
+<script>
+"use strict";
+/* shared arrow marker (theme-aware via CSS classes) */
+function markerDefs(){
+  return '<defs><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" class="s-dim"/></marker></defs>';
+}
+
+/* ===================== AXES HUB SVG ===================== */
+(function(){
+  const svg = document.getElementById('axesSvg');
+  if(!svg) return;
+  let s = markerDefs();
+  const cx = 500, cy = 320;
+  // spokes
+  const axes = [
+    {x:cx-150, y:64,  w:300, h:88,  c:'teal',   t:'1 · METABOLIC REGULATION',
+     lines:['TCA cycle · SDH/complex II · β-oxidation','ETC/OXPHOS complexes · ketogenesis','senses NAD⁺ + acetyl-CoA (fasting, CR)']},
+    {x:cx+185, y:120, w:290, h:104, c:'green',  t:'2 · OXIDATIVE STRESS',
+     lines:['SOD2/MnSOD (K68/K122) · catalase','IDH2 → NADPH · GPX · PRDX','FOXO3a → mtDNA expression · less ETC leak']},
+    {x:cx+200, y:356, w:280, h:104, c:'purple', t:'3 · EPIGENETIC CONTROL',
+     lines:['H3K56 deacetylation → NHEJ · 53BP1','OGG1 → mtDNA repair · decrotonylation','heterochromatin maintenance (hMSCs)']},
+    {x:60, y:478, w:380, h:88,  c:'red',    t:'4 · APOPTOSIS',
+     lines:['GSK-3β/Bax · Bax/Bcl-2 · caspase-9','AMPK/SENP1/SIRT3 → SOD2','anti-apoptotic in stress; pro-apoptotic in cancer']},
+    {x:cx-485, y:356, w:280, h:104, c:'amber',  t:'5 · FIBROSIS',
+     lines:['GSK-3β Lys15 → blocks Smad3 complex','FOS/AP-1 · STAT3/NFATc2 ↓','TGF-β1/Smad3, β-catenin · ECM genes ↓']},
+    {x:cx-490, y:120, w:280, h:104, c:'blue',   t:'6 · INFLAMMATION',
+     lines:['IκBα stabilization → NF-κB ↓','NLRP3 inflammasome assembly ↓','TNF-α, IL-6, MIP-2 ↓ · durable reprogramming']},
+    {x:560, y:478, w:380, h:88,  c:'pink',   t:'7 · AUTOPHAGY',
+     lines:['LKB1/AMPK → mTOR inhibition · ULK1','FOXO3a → PINK1/Parkin mitophagy','positive feedback: autophagy ↑ SIRT3']},
+  ];
+  // center hub
+  s += '<circle cx="'+cx+'" cy="'+cy+'" r="86" class="panel-f s-teal-s" stroke-width="2.4"/>';
+  s += '<text x="'+cx+'" y="'+(cy-14)+'" text-anchor="middle" font-size="26" font-weight="800" class="s-teal">SIRT3</text>';
+  s += '<text x="'+cx+'" y="'+(cy+10)+'" text-anchor="middle" font-size="10.5" class="s-dim">NAD⁺-dependent</text>';
+  s += '<text x="'+cx+'" y="'+(cy+26)+'" text-anchor="middle" font-size="10.5" class="s-dim">deacetylase</text>';
+  s += '<text x="'+cx+'" y="'+(cy+44)+'" text-anchor="middle" font-size="10.5" class="s-mute">matrix · nucleus</text>';
+  // axis boxes
+  axes.forEach(a=>{
+    s += '<rect x="'+a.x+'" y="'+a.y+'" width="'+a.w+'" height="'+a.h+'" rx="10" class="panel-f s-'+a.c+'-s" stroke-width="1.5"/>';
+    s += '<text x="'+(a.x+a.w/2)+'" y="'+(a.y+22)+'" text-anchor="middle" font-size="12" font-weight="700" class="s-'+a.c+'">'+a.t+'</text>';
+    a.lines.forEach((l,i)=>{
+      s += '<text x="'+(a.x+a.w/2)+'" y="'+(a.y+42+i*17)+'" text-anchor="middle" font-size="10.5" class="s-dim">'+l+'</text>';
+    });
+    // link to hub — from box edge to the hub circle's boundary (r=86, stop 8px short)
+    const bx = Math.max(a.x, Math.min(a.x+a.w, cx));
+    const by = Math.max(a.y, Math.min(a.y+a.h, cy));
+    const dx = bx-cx, dy = by-cy, dist = Math.hypot(dx,dy) || 1;
+    const ex = cx + dx/dist*(86+8), ey = cy + dy/dist*(86+8);
+    s += '<line x1="'+bx+'" y1="'+by+'" x2="'+ex+'" y2="'+ey+'" class="stroke-line2" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr2)"/>';
+  });
+  // bottom note
+  s += '<text x="500" y="600" text-anchor="middle" font-size="11.5" class="s-mute">The axes interlock: mitophagy ↓ mtROS → inflammasome ↓ · metabolism ↑ → fewer ETC leaks → oxidative stress ↓ · heterochromatin maintenance → senescence ↓</text>';
+  svg.innerHTML = s;
+})();
+
+/* ===================== DISEASE × MECHANISM MATRIX ===================== */
+(function(){
+  const svg = document.getElementById('matrixSvg');
+  if(!svg) return;
+  const mechs = ['Mitochondrial\nfunction','Oxidative\nstress / ROS','Inflammation\n/ NLRP3','Fibrosis\n/ TGF-β','Apoptosis','Autophagy /\nmitophagy','Metabolic\nreprogramming'];
+  // 2 = strong, 1 = moderate, 0 = not emphasized  (editorial coding of the review's emphasis)
+  const rows = [
+    {d:"Alzheimer's disease",            v:[2,2,2,0,1,2,2]},
+    {d:"Parkinson's disease",            v:[2,2,2,0,1,2,2]},
+    {d:"ALS",                            v:[2,1,0,0,1,0,2]},
+    {d:"Huntington's disease",           v:[2,2,0,0,1,0,2]},
+    {d:"Atherosclerosis",                v:[1,2,2,0,0,2,2]},
+    {d:"Heart failure",                  v:[2,2,1,2,2,2,2]},
+    {d:"Diabetic cardiomyopathy",        v:[2,2,1,1,2,1,2]},
+    {d:"Diabetes mellitus",              v:[2,2,1,0,2,0,2]},
+    {d:"Cancer",                         v:[1,2,0,0,2,2,2]},
+    {d:"Acute kidney injury",            v:[2,2,2,1,2,1,2]},
+    {d:"Chronic kidney disease",         v:[2,2,1,2,1,0,1]},
+    {d:"COPD",                           v:[2,2,1,1,0,0,0]},
+    {d:"Disc degeneration / OA",         v:[2,2,1,0,2,2,1]},
+    {d:"Age-related hearing loss",       v:[1,2,0,0,0,0,1]},
+  ];
+  const x0 = 160, y0 = 96, cw = 115, rh = 32, pad = 12;
+  let s = '';
+  s += '<text x="500" y="30" text-anchor="middle" font-size="14" letter-spacing="2" font-weight="600" class="s-dim">DISEASE × MECHANISM — WHERE THE PATTERN REPEATS</text>';
+  // column headers
+  mechs.forEach((m,j)=>{
+    const x = x0 + j*cw + cw/2;
+    m.split('\n').forEach((ln,i)=>{
+      s += '<text x="'+x+'" y="'+(y0-16-(mechs[j].split('\n').length-1-i)*13)+'" text-anchor="middle" font-size="10" class="s-mute">'+ln+'</text>';
+    });
+    s += '<line x1="'+x+'" y1="'+(y0-2)+'" x2="'+x+'" y2="'+(y0+rows.length*rh)+'" class="stroke-line" stroke-width="0.6" stroke-dasharray="2 4"/>';
+  });
+  // rows
+  rows.forEach((r,i)=>{
+    const y = y0 + i*rh + rh/2;
+    if(i%2===0) s += '<rect x="'+(x0-10)+'" y="'+(y0+i*rh+3)+'" width="'+(7*cw+20)+'" height="'+(rh-6)+'" rx="6" class="rowh-f"/>';
+    s += '<text x="'+(x0-16)+'" y="'+(y+4)+'" text-anchor="end" font-size="11.5" font-weight="600" class="s-text">'+r.d+'</text>';
+    r.v.forEach((v,j)=>{
+      const cx2 = x0 + j*cw + cw/2;
+      if(v===2){
+        s += '<circle class="matrix-cell teal-f" cx="'+cx2+'" cy="'+y+'" r="8" data-d="'+r.d+'" data-m="'+mechs[j].replace('\n',' ')+'" data-v="strong"><title>'+r.d+' — '+mechs[j].replace('\n',' ')+': strong involvement</title></circle>';
+      } else if(v===1){
+        s += '<circle class="matrix-cell amber-f" cx="'+cx2+'" cy="'+y+'" r="8" fill-opacity="0.45" data-d="'+r.d+'" data-m="'+mechs[j].replace('\n',' ')+'" data-v="moderate"><title>'+r.d+' — '+mechs[j].replace('\n',' ')+': moderate / context-dependent</title></circle>';
+      } else {
+        s += '<circle class="matrix-cell" cx="'+cx2+'" cy="'+y+'" r="5" fill="none" stroke-width="1" data-d="'+r.d+'" data-m="'+mechs[j].replace('\n',' ')+'" data-v="not emphasized"><title>'+r.d+' — '+mechs[j].replace('\n',' ')+': not emphasized in the review</title></circle>';
+      }
+    });
+  });
+  // frame
+  s += '<line x1="'+(x0-10)+'" y1="'+(y0-4)+'" x2="'+(x0-10)+'" y2="'+(y0+rows.length*rh+4)+'" class="stroke-line2" stroke-width="1"/>';
+  // legend (below the grid)
+  const ly = y0 + rows.length*rh + 34;
+  s += '<circle cx="'+(x0+12)+'" cy="'+ly+'" r="7" class="teal-f"/><text x="'+(x0+26)+'" y="'+(ly+4)+'" font-size="11" class="s-dim">strong involvement</text>';
+  s += '<circle cx="'+(x0+190)+'" cy="'+ly+'" r="7" class="amber-f" fill-opacity="0.45"/><text x="'+(x0+204)+'" y="'+(ly+4)+'" font-size="11" class="s-dim">moderate / context-dependent</text>';
+  s += '<circle cx="'+(x0+430)+'" cy="'+ly+'" r="7" class="panel-f stroke-line2"/><text x="'+(x0+444)+'" y="'+(ly+4)+'" font-size="11" class="s-dim">not emphasized in the review</text>';
+  s += '<text x="500" y="'+(y0+rows.length*rh+66)+'" text-anchor="middle" font-size="11" class="s-mute">Editorial encoding of You &amp; Wang 2025 (Sec. 2) — dot = mechanism emphasized for that disease in the review</text>';
+  svg.innerHTML = s;
+})();
+
+/* ===================== BREADTH BAR CHART ===================== */
+(function(){
+  const svg = document.getElementById('barsSvg');
+  if(!svg) return;
+  const data = [
+    {d:'Heart failure', n:7, c:'red'},
+    {d:'Chronic kidney disease', n:6, c:'red'},
+    {d:'Diabetic cardiomyopathy', n:6, c:'red'},
+    {d:'Atherosclerosis', n:5, c:'red'},
+    {d:'Acute kidney injury', n:6, c:'red'},
+    {d:"Alzheimer's disease", n:6, c:'blue'},
+    {d:"Parkinson's disease", n:6, c:'blue'},
+    {d:'Diabetes mellitus', n:5, c:'purple'},
+    {d:'Cancer', n:5, c:'purple'},
+    {d:'Disc degeneration / OA', n:5, c:'amber'},
+    {d:'COPD', n:4, c:'amber'},
+    {d:"Huntington's disease", n:4, c:'blue'},
+    {d:'ALS', n:4, c:'blue'},
+    {d:'Age-related hearing loss', n:3, c:'green'},
+  ];
+  data.sort((a,b)=>b.n-a.n || a.d.localeCompare(b.d));
+  const x0=225, y0=44, bw=725, rh=34;
+  let s = '';
+  s += '<text x="500" y="26" text-anchor="middle" font-size="14" letter-spacing="2" font-weight="600" class="s-dim">MECHANISTIC BREADTH — MECHANISMS ENGAGED PER DISEASE (OF 7)</text>';
+  // gridlines
+  for(let g=0; g<=7; g++){
+    const x = x0 + g*(bw/7);
+    s += '<line x1="'+x+'" y1="'+(y0-8)+'" x2="'+x+'" y2="'+(y0+data.length*rh)+'" class="stroke-line" stroke-width="0.7" stroke-opacity="0.7"/>';
+    s += '<text x="'+x+'" y="'+(y0+data.length*rh+18)+'" text-anchor="middle" font-size="10.5" class="s-mute">'+g+'</text>';
+  }
+  s += '<text x="'+(x0+bw/2)+'" y="'+(y0+data.length*rh+38)+'" text-anchor="middle" font-size="11" class="s-mute"># of mechanisms engaged (strong + moderate)</text>';
+  data.forEach((r,i)=>{
+    const y = y0 + i*rh;
+    const w = r.n*(bw/7);
+    if(i%2===0) s += '<rect x="'+(x0-8)+'" y="'+(y+3)+'" width="'+(bw+16)+'" height="'+(rh-6)+'" rx="6" class="rowh-f"/>';
+    s += '<text x="'+(x0-14)+'" y="'+(y+rh/2+4)+'" text-anchor="end" font-size="11.5" font-weight="600" class="s-text">'+r.d+'</text>';
+    s += '<rect x="'+x0+'" y="'+(y+8)+'" width="'+Math.max(w,4)+'" height="'+(rh-16)+'" rx="5" class="'+r.c+'-f" fill-opacity="0.75"/>';
+    s += '<text x="'+(x0+Math.max(w,4)+8)+'" y="'+(y+rh/2+4)+'" font-size="11.5" font-weight="700" class="s-'+r.c+'">'+r.n+'/7</text>';
+  });
+  // legend
+  const leg = [['red','cardiovascular / renal'],['blue','neurodegeneration'],['purple','metabolic / cancer'],['amber','musculoskeletal / pulmonary'],['green','sensory']];
+  let lx = x0;
+  leg.forEach(([c,l])=>{
+    s += '<rect x="'+lx+'" y="'+(y0+data.length*rh+52)+'" width="10" height="10" rx="2" class="'+c+'-f"/>';
+    s += '<text x="'+(lx+16)+'" y="'+(y0+data.length*rh+61)+'" font-size="10.5" class="s-dim">'+l+'</text>';
+    lx += 24 + l.length*6.2;
+  });
+  svg.innerHTML = s;
+})();
+</script>
+</body>
+</html>

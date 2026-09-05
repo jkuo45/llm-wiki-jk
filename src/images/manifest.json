@@ -318,48 +318,6 @@
     }
   },
   {
-    "id": "n-20260818-adrenochrome-redox-pathway-00",
-    "document": "",
-    "entities": [
-      "Epinephrine",
-      "Adrenaline-quinone",
-      "Leuco-adrenochrome",
-      "Oxidation",
-      "Catecholamines"
-    ],
-    "tags": [
-      "adrenochrome",
-      "diagrams-charts",
-      "catecholamines",
-      "epinephrine",
-      "adrenaline-quinone",
-      "leuco-adrenochrome",
-      "redox",
-      "endocrine"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "IMG_6193.jpeg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-05-18",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Chemical pathway & redox mechanism of adrenochrome formation (IMG_6193)",
-        "ocr": "CHEMICAL PATHWAY AND REDOX MECHANISM OF ADRENOCHROME FORMATION\n從腎上腺素至腎上腺色素形成的化學途徑和氧化還原機制\n1. EPINEPHRINE (ADRENALINE) 腎上腺素\n2. ADRENALINE-QUINONE (highly reactive electrophile) 腎上腺素酮 (高度反應性親電體)\n3. LEUCO-ADRENOCHROME (\"WHITE\") 腎上腺素 (還原形，\"白色\") (S)-1-Methylindole-3,5,6-triol\n4. ADRENOCHROME (Distinctly colored red/pink/orange) 腎上腺素 (具有特殊性的紅色/粉色/橙色)\nExtended Conjugated System 擴展共軛系統\nDiagram: flowchart-style diagram illustrating the chemical pathway from epinephrine to adrenochrome. Highlights key steps including oxidation, cyclization and reduction, along with redox mechanisms. Rectangles represent molecules; curved arrows indicate reaction pathways; colored circles/shapes represent different forms of adrenochrome (white, red/pink/orange) and the extended conjugated system."
-      },
-      "zh-TW": {
-        "title": "腎上腺素紅形成的化學途徑與氧化還原機制 (IMG_6193)",
-        "ocr": "腎上腺素紅形成的化學途徑與氧化還原機制\n1. 腎上腺素 (Epinephrine/Adrenaline)\n2. 腎上腺素-醌 (Adrenaline-Quinone)（高度反應性親電體）\n3. 無色腎上腺素紅 (Leuco-adrenochrome)（還原形，「白色」）(S)-1-甲基吲哚-3,5,6-三醇\n4. 腎上腺素紅 (Adrenochrome)（具有特徵性的紅色/粉色/橙色）\n擴展共軛系統 (Extended Conjugated System)\n圖示說明：\n流程圖式的圖示說明從腎上腺素到腎上腺素紅的化學途徑，重點標示氧化、環化與還原等關鍵步驟，以及氧化還原機制。矩形代表分子；彎曲箭頭表示反應途徑；彩色圓圈／形狀代表腎上腺素紅的不同形式（白色、紅色/粉色/橙色）與擴展共軛系統。"
-      }
-    }
-  },
-  {
     "id": "n-20260818-spermidine-autophagy-00",
     "document": "",
     "entities": [
@@ -808,62 +766,6 @@
       "zh-TW": {
         "title": "老化與基因組不穩定——染色質狀態（圖1，1600584）",
         "ocr": "轉錄文字：\n染色體（Chromosome）\nmRNA\n老化（Aging）\n轉錄漂移（Transcriptional drift）\nDNA突變（DNA mutation）\n新轉位子插入（New transposable element insertions）\nDNA甲基化（DNA methylation）\n組蛋白變體（Histone variant）\n組蛋白修飾模式的改變（Altered patterns of histone modifications）\n圖示說明：\n主圖：此圖說明與老化相關的基因組不穩定進程。左側為年輕人，右側為老年人，並突顯染色體與DNA突變的差異。\n左圖（正常染色質狀態）：這是染色體的簡化表示。描繪DNA纏繞在組蛋白上（「珠串」結構），DNA甲基化標記以DNA周圍的小圓圈表示。\n右圖（異常染色質狀態）：此圖顯示異常的染色質狀態，包含DNA突變（以紅/白球表示）以及組蛋白修飾模式的改變（不同顏色的六邊形代表組蛋白修飾的變異）。"
-      }
-    }
-  },
-  {
-    "id": "n-20260818-longevity-interventions-pathways-f4-00",
-    "document": "",
-    "entities": [
-      "Caloric Restriction",
-      "Rapamycin",
-      "Metformin",
-      "mTOR",
-      "AMPK",
-      "SIRT1",
-      "FOXO",
-      "Autophagy",
-      "Longevity",
-      "Aging"
-    ],
-    "tags": [
-      "sirtuins",
-      "diagrams-charts",
-      "caloric-restriction",
-      "rapamycin",
-      "metformin",
-      "mtor",
-      "ampk",
-      "sirt1",
-      "foxo",
-      "autophagy",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
-      "senolytics",
-      "sasp",
-      "spermidine",
-      "endocrine"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "1600584-F4_autophagy_epigenetics.jpeg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-05-13",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Longevity interventions & signaling pathways (Fig 4, 1600584)",
-        "ocr": "Longevity\nCalorie restriction\nNutrients\nInsulin\nRapamycin\nSpermidine\nAcetyl CoA depletion\nSTACs (Senolytic Therapeutic Agents)\nMetformin\nDiagram Notes:\ncellular senescence, and potential interventions. Key elements include:\nCellular Pathways: Multiple pathways are shown, including those influenced by Akt, mTOR, AMPK, SIRT1, FOXO, and autophagy.\nInterventions: Various interventions like calorie restriction, metformin, STACs, and rapamycin are shown interacting with these pathways.\nGene Regulation: The diagram illustrates the regulation of “ATG genes” and their relationship to RNA and heterochromatin reorganization, su\nsuggesting a mechanism for slowing down aging.\nComponents: Specific molecules such as DNMTs and HATs are depicted, along with their roles in epigenetic regulation."
-      },
-      "zh-TW": {
-        "title": "長壽干預措施與訊息傳導路徑（圖4，1600584）",
-        "ocr": "長壽\n熱量限制（Calorie restriction）\n營養素（Nutrients）\n胰島素（Insulin）\n雷帕黴素（Rapamycin）\n亞精胺（Spermidine）\n乙醯輔酶A耗竭（Acetyl CoA depletion）\nSTACs（Sirtuin活化化合物）\n二甲雙胍（Metformin）\n圖示筆記：\n此圖片是一個複雜的示意圖，說明與長壽、細胞衰老及潛在干預措施相關的訊息路徑。關鍵元素包括：\n細胞訊息路徑： 圖中顯示多條訊息路徑，包括受 Akt、mTOR、AMPK、SIRT1、FOXO 及自噬影響的路徑。\n干預措施： 各種干預措施，如熱量限制、二甲雙胍、STACs 與雷帕黴素，顯示與這些路徑相互作用。\n基因調控： 此示意圖說明「ATG 基因」的調控及其與 RNA 與異染色質重組的關係，暗示一種減緩老化的機制。\n組成分子： 圖中描繪 DNMTs 與 HATs 等特定分子，以及它們在表觀遺傳調節中的角色。"
       }
     }
   },
@@ -3299,60 +3201,6 @@
     }
   },
   {
-    "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-1-02",
-    "document": "",
-    "entities": [
-      "Extrinsic Pathway",
-      "Oxidative Stress",
-      "Mitochondria",
-      "Cytochrome c",
-      "Smac DIABLO",
-      "Apoptosis",
-      "Omi/HtrA2",
-      "Hypoxia",
-      "Caspase",
-      "DISC",
-      "FADD"
-    ],
-    "tags": [
-      "cancer",
-      "diagrams-charts",
-      "mitochondria",
-      "oxidative-stress",
-      "extrinsic-pathway",
-      "cytochrome-c",
-      "smac-diablo",
-      "omi-htra2",
-      "hypoxia",
-      "caspase",
-      "disc",
-      "fadd",
-      "cell-death",
-      "inflammation"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "apoptosis_1756-9966-30-87-1.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Extrinsic & intrinsic apoptosis pathways — IAP regulation",
-        "ocr": "Extrinsic Pathway\n“Death signals”\nTNFR\nFasL\nDISC\nTRADD\nFADD\nCaspase 8\nPro-caspase 8\nIntrinsic Mitochondrial Pathway\nGenetic damage\nHypoxia\nHigh cytosolic [Ca2+]\nOxidative stress\nMitochondria\nCytochrome c\nSmac\nDIABLO\nOmi/HtrA2\nIAP\nApoptosis\nActivation of caspase 3 or caspase 9\nBinding of Smac, DIABLO or Omi/HtrA2 to IAPs disrupts binding of caspase 3\nor 9 to IAPs"
-      },
-      "zh-TW": {
-        "title": "外在與內在凋亡途徑——IAP 調控",
-        "ocr": "外在（死亡受體）途徑（Extrinsic Pathway）\n「死亡信號」\nTNFR\nFasL\nDISC\nTRADD\nFADD\nCaspase 8\nPro-caspase 8\n內在（粒線體）途徑（Intrinsic Mitochondrial Pathway）\n基因損傷\n缺氧\n高細胞質 [Ca2+]\n氧化壓力\n粒線體\n細胞色素c\nSmac\nDIABLO\nOmi/HtrA2\nIAP\n細胞凋亡\nCaspase 3 或 Caspase 9 的活化\nSmac、DIABLO 或 Omi/HtrA2 與 IAPs 的結合，會破壞 caspase 3 或 9 與 IAPs 的結合"
-      }
-    }
-  },
-  {
     "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-2",
     "document": "",
     "entities": [
@@ -3400,59 +3248,6 @@
       "zh-TW": {
         "title": "癌症中的凋亡失調——Bcl-2 家族分組與 IAPs",
         "ocr": "死亡信號表現減少\n受體信號途徑受損\n細胞凋亡失調與癌症（Dysregulated Apoptosis & Cancer）\nBcl-2 家族蛋白平衡失調\nIAPs 表現增加\n第 I 組： Bid、Bcl-2、Bcl-xL、Bcl-w、Mcl-1、Bcl-2、A1/BF-1、BclB/Bcl2L10\n第 II 組： Bax、Bak、Bok/Mtd\n第 III 組： Noxa、Bad、Bmf、Hrk、Bik"
-      }
-    }
-  },
-  {
-    "id": "n-20260819-cancer-apoptosis-1756-9966-30-87-2-02",
-    "document": "",
-    "entities": [
-      "Caspases",
-      "Bcl-w",
-      "Mcl-1",
-      "Noxa",
-      "Puma",
-      "Bmf",
-      "Bid",
-      "Bad",
-      "Bik",
-      "BAX",
-      "Bim"
-    ],
-    "tags": [
-      "cancer",
-      "caspases",
-      "bcl-w",
-      "mcl-1",
-      "noxa",
-      "puma",
-      "bmf",
-      "bid",
-      "bad",
-      "bik",
-      "bax",
-      "bim",
-      "cell-death"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "apoptosis_1756-9966-30-87-2.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "BCL-2 family classification & apoptosis dysregulation in cancer",
-        "ocr": "Group I\nBel-2, Bel-xL, Mcl-1, Bcl-w, A1/BF-1, BclB/Bel2L10\nGroup II\nBid, Bim, Puma, Noxa, Bad, Bmf, Hrk, Bik\nGroup III\nBax, Bak, Bok/Mtd\nReduced expression of caspases\nIncreased expression of IAPs"
-      },
-      "zh-TW": {
-        "title": "BCL-2 家族分類與癌症中的凋亡失調",
-        "ocr": "第 I 組\nBcl-2、Bcl-xL、Mcl-1、Bcl-w、A1/BF-1、BclB/Bcl2L10\n第 II 組\nBid、Bim、Puma、Noxa、Bad、Bmf、Hrk、Bik\n第 III 組\nBax、Bak、Bok/Mtd\n胱天蛋白酶表現減少\nIAPs 表現增加"
       }
     }
   },
@@ -3938,47 +3733,6 @@
     }
   },
   {
-    "id": "n-20260819-autophagy-dmm-15-049345-g1",
-    "document": "",
-    "entities": [
-      "Vaccination",
-      "Metformin",
-      "Rapamycin"
-    ],
-    "tags": [
-      "immunology",
-      "diagrams-charts",
-      "vaccination",
-      "metformin",
-      "rapamycin",
-      "vaccines",
-      "autophagy",
-      "spermidine",
-      "immune-system"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "dmm-15-049345-g1.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Autophagy enhancers & immune aging — vaccination response",
-        "ocr": "Rapamycin\nMetformin\nSpermidine\nDR\nImprovement in:\nVaccination responses\nAge-related conditions"
-      },
-      "zh-TW": {
-        "title": "自噬增強劑與免疫老化——疫苗反應",
-        "ocr": "雷帕黴素（Rapamycin）\n二甲雙胍（Metformin）\n亞精胺（Spermidine）\n飲食限制（DR，Dietary Restriction）\n改善（Improvement in）：\n疫苗反應\n與年齡相關的狀況"
-      }
-    }
-  },
-  {
     "id": "n-20260819-creatine-img-6406",
     "document": "",
     "entities": [
@@ -4020,110 +3774,6 @@
       "zh-TW": {
         "title": "惡性細胞及惡性微環境",
         "ocr": "探索肌酸的抗癌潛力（Exploring the Anticancer Potential of Creatine）\n1 核心問題：癌症中的能量缺乏\n惡性細胞及惡性微環境\n肌酸低下與能量匱乏\n免疫功能衰退\n2 機制：\n肌酸激酶（CK）／磷酸原系統\n肌酸轉運（SLC6A8）\n肌酸維持細胞代謝的能量可用性\n增加腫瘤浸潤免疫細胞\n3 肌酸補充及其效應\nA) 增強抗腫瘤 T 細胞免疫\nCD8+ T 細胞\nCD4+ T 細胞\n增強 T 細胞反應\nB) 聯合治療與協同效應\n癌症消退\n功效增強\n抑制腫瘤生長\n肌酸（Creatine）+ 甲基乙二醛（Methylglyoxal）+ 抗壞血酸（Ascorbic Acid）\n潛在的輔助治療介入\n關鍵發現摘要\n肌酸是重要的代謝調節因子。\n肌酸對 T 細胞免疫至關重要。\n肌酸具有前景看好的抗癌特性。"
-      }
-    }
-  },
-  {
-    "id": "n-20260819-epigenetics-1600584-f1",
-    "document": "",
-    "entities": [
-      "Transposable Elements",
-      "Transcriptional Drift",
-      "DNA Methylation",
-      "Methyl groups",
-      "Methylation",
-      "Chromosome",
-      "Chromatin",
-      "Histone",
-      "Aging"
-    ],
-    "tags": [
-      "epigenetics",
-      "diagrams-charts",
-      "transposable-elements",
-      "transcriptional-drift",
-      "dna-methylation",
-      "methyl-groups",
-      "methylation",
-      "chromosome",
-      "chromatin",
-      "histone",
-      "mutations"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "1600584-F1.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Aging & genomic instability — chromatin states",
-        "ocr": "Diagram 1 (Left):\n“Chromosome”\n“mRNA”\n“Aging”\n“Transcriptional drift”\n“DNA mutation”\n“New transposable element insertions”\nDiagram 2 (Bottom):\n“Normal chromatin state”\n“Abnormal chromatin state”\nDiagram showing DNA methylation with “Chromatin modifiers” and “Me” (li\n(likely referring to methyl groups), and Histone variant with “DNA mutation ” and “Altered patterns of histone modifications” and “Me”.\nBrief Description of Diagrams:\nDiagram 1 depicts the progression of aging with associated genomic\nchanges: increased mutations, transcriptional drift, and new insertions of\ntransposable elements.\nDiagram 2 illustrates the contrast between a normal and an abnormal chromatin state. The normal state shows DNA methylation and histone modifications. The abnormal state shows a DNA mutation and altered\npatterns of histone modifications."
-      },
-      "zh-TW": {
-        "title": "老化與基因組不穩定——染色質狀態",
-        "ocr": "圖1（左）：\n「染色體」（Chromosome）\n「mRNA」\n「老化」（Aging）\n「轉錄漂移」（Transcriptional drift）\n「DNA突變」（DNA mutation）\n「新轉位子插入」（New transposable element insertions）\n圖2（底部）：\n「正常染色質狀態」（Normal chromatin state）\n「異常染色質狀態」（Abnormal chromatin state）\n圖中顯示DNA甲基化，標有「染色質修飾因子（Chromatin modifiers）」和「Me」（可能指甲基），以及組蛋白變體，標有「DNA突變（DNA mutation）」、「組蛋白修飾模式的改變（Altered patterns of histone modifications）」和「Me」。\n圖示簡述：\n圖1描繪老化進程及相關基因組變化：突變增加、轉錄漂移，以及轉位子的新插入。\n圖2說明正常與異常染色質狀態之間的對比。正常狀態顯示DNA甲基化和組蛋白修飾；異常狀態則顯示DNA突變及組蛋白修飾模式的改變。"
-      }
-    }
-  },
-  {
-    "id": "n-20260819-epigenetics-1600584-f4-autophagy-epigenetics",
-    "document": "",
-    "entities": [
-      "Caloric Restriction",
-      "Heterochromatin",
-      "DNA Methylation",
-      "Methylation",
-      "Metformin",
-      "Rapamycin",
-      "Longevity",
-      "Insulin",
-      "STACs"
-    ],
-    "tags": [
-      "autophagy",
-      "diagrams-charts",
-      "caloric-restriction",
-      "heterochromatin",
-      "dna-methylation",
-      "methylation",
-      "metformin",
-      "rapamycin",
-      "insulin",
-      "stacs",
-      "metabolism",
-      "metabolic-fasting",
-      "growth",
-      "sasp",
-      "epigenetics",
-      "spermidine",
-      "endocrine"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "1600584-F4_autophagy_epigenetics.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Longevity interventions — autophagy & epigenetic pathways",
-        "ocr": "Longevity\nCalorie restriction\nNutrients\nInsulin\nRapamycin\nSpermidine\nAcetyl CoA depletion\nSTACs (Senescence-Associated Cell Types)\nMetformin\nAutophagy\nFOXO\nATG genes"
-      },
-      "zh-TW": {
-        "title": "長壽干預——自噬與表觀遺傳途徑",
-        "ocr": "長壽（Longevity）\n熱量限制（Calorie restriction）\n營養素（Nutrients）\n胰島素（Insulin）\n雷帕黴素（Rapamycin）\n亞精胺（Spermidine）\n乙醯輔酶A耗竭（Acetyl CoA depletion）\nSTACs（衰老相關細胞類型，Senescence-Associated Cell Types）\n二甲雙胍（Metformin）\n自噬（Autophagy）\nFOXO\nATG基因\n圖示說明：\n此圖為複雜的示意圖，說明與長壽及老化相關干預措施有關的途徑。關鍵要素包括：\n細胞途徑：顯示多條途徑，包括mTOR訊號傳導、AMPK訊號傳導、自噬，以及DNA甲基化的調控（HATs與DNMTs）。\n干預措施：描繪多種干預措施，如熱量限制、營養調控、胰島素處理、雷帕黴素、亞精胺補充和二甲雙胍給藥。\n基因調控：此圖突顯FOXO和ATG基因在老化中的角色，以及它們如何受到SIRT1的調控。\n異染色質重組：顯示老化期間異染色質重組的概念。\nSTACs：此圖將STACs（衰老相關細胞類型）標示為長壽的關鍵因素。"
       }
     }
   },
@@ -4878,103 +4528,6 @@
     }
   },
   {
-    "id": "n-20260819-misc-img-6277",
-    "document": "",
-    "entities": [
-      "Pancreatic Ductal Adenocarcinoma",
-      "Appetite",
-      "Liver"
-    ],
-    "tags": [
-      "cancer",
-      "notes",
-      "appetite",
-      "diagnosis",
-      "pancreatic-cancer",
-      "digestive",
-      "immune-system",
-      "endocrine"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "IMG_6277.jpeg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-05-26",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "SYMPTOMS → rarely causes symptoms early on (late diagnoses)",
-        "ocr": "Cancer (pancreatic)\n08/26/14 Tuesday\n→begins in the tissues of the pancreas, gland behind lower part of the stomachs .\n→one of the deadliest (~3% of all cancers)\nproducedigestive enzymes and hormones\nendocrine tumors(~90-95%), flat in cells that produce digestive juices.\nenclosed by Shoma\n→PDAC (PancreaticDuctal adenocarnoma)\n→begin at the ducts carryng enzymes.\n→Neuroendo crine tumors(PNETs or islet cell tumors) 5-8% These arise in hormones produfy cells\n(often slowergrowing and have better progress)\nsymptoms → rarely causes symptoms early on (late diagnosis)\nabdominal or back pain → itchy (colicudbudge)\nunexplained acthilness, appetite →nauseous clbotes\nJaundice, dark urine, light stool →Vipus, nausea, bloated\nsurgery\nWhipple procedure: removes the widest part of your pancreas, first part of\nsmall intestine.\ndistal pancreatectamy: remove the thinnest part of your pancreas and some o\nof -the middle part. Spleen are\ntotal pancreatectomy : Remove your pancreas, gall bladder, spleen, and part of stomach and small intetstine."
-      },
-      "zh-TW": {
-        "title": "症狀 → 早期很少引起症狀（晚期才診斷）",
-        "ocr": "癌症（胰腺癌）\n08/26/14 星期二\n→起源於胰腺組織，位於胃下方的後方腺體。\n→極其致命（約佔所有癌症的 ~3%）\n分泌消化酶和激素\n內分泌腫瘤 (~90-95%)，由產生消化液的細胞組成且呈扁平狀。\n被 Shoma 包圍\n→PDAC（Pancreatic Ductal adenocarcinoma，胰管導管腺癌）\n→起源於攜帶酶的導管。\n→神經內分泌腫瘤 (PNETs 或島細胞腫瘤) 5-8%。這些起源于產生激素的細胞\n(通常生長較慢且預後較好)。\n症狀 → 早期很少引起症狀（晚診）\n腹部或背部疼痛 → 瘙癢 (colicudbudge)\n無法解釋的疲勞、食慾不振 → 噁心、嘔吐 (nauseous clbotes)\n黃疸、深色尿液、淺色糞便 → Vipus，噁心、脹氣\n手術\nWhipple 手術：切除胰臟最寬的部分及小腸第一部分。\n遠端胰切術 (distal pancreatectomy)：切除胰臟較細的部分及部分中間部分；脾臟也\n會被移除。\n全胰切除術 (total pancreatectomy)：切除胰臟、膽囊、脾臟及部分胃和小腸。"
-      }
-    }
-  },
-  {
-    "id": "n-20260819-misc-img-6281",
-    "document": "",
-    "entities": [
-      "Immune response",
-      "gene expression",
-      "Cell Adhesion",
-      "Angiogenesis",
-      "Vasculature",
-      "Apoptosis",
-      "Integrins",
-      "Proteins",
-      "Kinase",
-      "Oxygen",
-      "Tumor",
-      "PI3K"
-    ],
-    "tags": [
-      "cancer",
-      "notes",
-      "cell-adhesion",
-      "angiogenesis",
-      "gene-expression",
-      "vasculature",
-      "integrins",
-      "kinase",
-      "pi3k",
-      "cell-death",
-      "immunology",
-      "growth",
-      "physiology",
-      "immune-system",
-      "cardiovascular",
-      "digestive"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "IMG_6281.jpeg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-05-26",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "RGD peptide delivery & integrin interactions",
-        "ocr": "R&D Peptide\n09/20/14p\nTuesday\n-> Developing stimuli response drug delivery systems is also\nhelpful be they can release their cargo only under\ncertain physiological or pathological conditions like\nalso tumor microenviron, or enzyme activation by\nproteases upregulated in diseased tissue.\niR&D peptide\n-> Tumor penetrating peptide that enhances drug delivery\nby first binding to integrase an tumor vasculature deep\nand then interacting with neuropilin to facilitate tumor\npenetration\nThe interaction between R&D motif and integrin receptors\n-> Initially R&D motif binds to the ligand binding region of receptor\n-> Binding induces conformational changes in\nthe integrin -> exposure of high affinity state.\n-> Conformational change allows integrins to bind to other ECM\nproteins leading to formation of focal adhesion/ downstream\nsignaling pathways\nFAK (focal adhesion kinase)\nMAPK (mitogen activated protein kinases)\nPI3K (phosphatidylinositol 3 kinase)\nR&D peptides have been utilized to\nimprove the labelling and specific of\nsuperparamagnetic iron oxide (SPION)\ncontrast particles in pancreatic cancer cells.\n- regulate cellular processes: cytoskeletal rearrangement,\ngene expression, cell cycle progression\n- R&D motif/integrin (meanwhile), embryonic development,\ntissue homeostasis, immune response.\n- involved in cell adhesion and migration during wound\nhealing, angiogenesis, and tissue regeneration."
-      },
-      "zh-TW": {
-        "title": "RGD 胜肽遞送與整合素交互作用",
-        "ocr": "研發多肽\n09/20/14 下午\n星期二\n-> 開發刺激響應式藥物傳遞系統亦有裨益，因為它們僅在特定生理或病理性條件下釋\n放貨物，例如腫瘤微環境（tumor microenvironment），或由疾病組織中高調節的上蛋\n白酶（proteases）觸發的酶活化。\niR&D 多肽\n-> 腫瘤滲透多肽：該多肽首先結合至腫瘤血管內皮（integrase an tumor vasculature 應為 integrin on tumor vasculature）以增強藥物遞送，隨後與神經凝\n蛋白（neuropilin）相互作用以促进腫瘤穿透。\nR&D 模體（motif）與整合素受體（integrin receptors）之間的相互作用\n-> 最初，R&D 模體結合至受體的配體結合域（ligand binding region）。\n-> 結合會誘導整合素發生構象變化（conformational changes），暴露出其高親和力\n狀態（high affinity state）。\n-> 構象變化使整合素得以結合其他細胞外基質（ECM）蛋白，導致黏附斑（focal adhesion ）形成及下游信號通路活化。\nFAK（focal adhesion kinase，黏著斑激酶）\nMAPK（mitogen activated protein kinases，原癌激活蛋白激酶）\nPI3K（phosphatidylinositol 3 kinase，磷酸肌醇 3-激酶）\nR&D 多肽已用於改善超順磁性氧化鐵（SPION, superparamagnetic iron oxide）對比\n粒子在胰臟癌細胞中的標記與特異性。\n- 調節細胞過程：細胞骨架重排、基因表達、細胞週期進展\n- R&D 模體/整合素（同時），胚胎發育、組織穩態、免疫反應\n- 參與傷口癒合、血管新生及組織再生過程中的細胞黏附與遷移。"
-      }
-    }
-  },
-  {
     "id": "n-20260819-cancer-img-6211",
     "document": "",
     "entities": [
@@ -5705,43 +5258,6 @@
       "zh-TW": {
         "title": "蟠尾絲蟲症生活史——人類與蚋（黑蠅）階段",
         "ocr": "人體宿主階段\n1. 雌蠅吸血時，L3 幼蟲進入人類皮膚\n2. 幼蟲移行至皮下組織，發育為成蟲並形成結節（6–12 個月成熟）\n3. 雌成蟲產生無鞘微絲蟲（每天約 1,000 條），移行至皮膚、結締組織淋巴系統，以及周邊血液\n4. 微絲蟲在白天移行至皮膚，此時黑蠅（blackflies）在吸血時將其攝入\nSimulium 黑蠅階段\n5. 微絲蟲脫鞘，穿透中腸並移行至胸肌\n6. 幼蟲階段（L1 與 L2）\n7. L3 幼蟲\n8. L3 幼蟲移行至頭部、口器與唾液（7 天內成熟）\n圖示說明：\n圖片是一個流程圖，說明 Simulium 黑蠅的生命週期及其與人類宿主的交互作用，特別是有關絲蟲病（filariasis）的部分。\n它顯示蠅的發育階段以及微絲蟲透過宿主的傳播。\n有人類、黑蠅與幼蟲階段的插圖。\n右下角有「ra」標誌。"
-      }
-    }
-  },
-  {
-    "id": "n-20260819-cancer-ivermectin-pjab-87-013-g004",
-    "document": "",
-    "entities": [
-      "Microfilariae",
-      "Ivermectin"
-    ],
-    "tags": [
-      "parasitology",
-      "diagrams-charts",
-      "microfilariae",
-      "ivermectin",
-      "dec",
-      "cancer"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "ivermectin_pjab-87-013-g004.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Geometric mean microfilariae",
-        "ocr": "Title: Geometric mean microfilariae\nLabels:\nIvermectin (single 12 mg dose) – (Diamonds)\nDEC (1.3 g over 8 days) – (Triangles)\nX-axis: Day\nY-axis: (Ranges from 0 to 12)\nLegend: “Daddie, et. al. (1987)”\nNote: The graph shows the geometric mean of microfilariae counts for Iv\nIvermectin and DEC over time."
-      },
-      "zh-TW": {
-        "title": "微絲蟲的幾何平均值",
-        "ocr": "標題：微絲蟲的幾何平均值\n標籤：\nIvermectin（單次 12 mg 劑量）–（菱形）\nDEC（8 天內 1.3 g）–（三角形）\nX 軸：天數（Day）\nY 軸：（範圍從 0 到 12）\n圖例：\"Dadzie et al. (1987)\"\n備註：圖表顯示 Ivermectin 與 DEC 隨時間變化的微絲蟲數量幾何平均值。"
       }
     }
   },
@@ -10182,53 +9698,6 @@
     }
   },
   {
-    "id": "n-20260819-autophagy-41420-2024-1850-fig1-html",
-    "document": "",
-    "entities": [
-      "Methylation",
-      "Cytoplasm",
-      "Proteins",
-      "Nucleus",
-      "PDCD4",
-      "SMAD3",
-      "TFEB",
-      "MYC"
-    ],
-    "tags": [
-      "autophagy",
-      "diagrams-charts",
-      "methylation",
-      "cytoplasm",
-      "nucleus",
-      "pdcd4",
-      "smad3",
-      "tfeb",
-      "myc",
-      "lysosome"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "41420_2024_1850_Fig1_HTML.webp"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "TFEB mRNA regulation — hypusination & m6A methylation",
-        "ocr": "Transcription:\nTFEB mRNA (5' -> 3', blue strand)\n3'-UTR (blue strand)\nTFEB pre-mRNA (red strand)\nMETTL\nMethylation (m³A)\nTFEB pre-mRNA (red strand)\nHNRNPD\nDegradation (green arrow)\n5'-UTR\nTFEB-Coding region\n5'-UTR Promoter\nTFEB (grey oval)\nPQC-1a\nMYC\nSMAD3"
-      },
-      "zh-TW": {
-        "title": "TFEB mRNA 調控——羥丁胺化與 m6A 甲基化",
-        "ocr": "轉錄：\nTFEB mRNA（5' → 3'，藍色股）\n3'-UTR（藍色股）\nTFEB 前驅 mRNA（pre-mRNA）（紅色股）\nMETTL\n甲基化（m⁶A）\nTFEB 前驅 mRNA（pre-mRNA）（紅色股）\nHNRNPD\n降解（綠色箭頭）\n5'-UTR\nTFEB 編碼區\n5'-UTR 啟動子\nTFEB（灰色橢圓）\nPGC-1α（PQC-1a[原文不清]）\nMYC\nSMAD3\n圖示／元素說明：\n圓形圖示： 這是一張分為「細胞核」與「細胞質」兩大區塊的圓形圖示。\n顏色標示： 使用顏色來區分不同的過程：\n橘色：促進\n紅色：抑制\n藍色：m⁶A（甲基化）\n綠色：降解\n紫色：羥丁胺化（Hypusinated）\n箭頭： 箭頭表示資訊與分子在不同步驟中的流動方向。\n標籤： 標籤描述所涉及的各種蛋白質與區域（例如 eIF4A、PDCD4、TFEB、3'-UTR、啟動子）。\n方框／陰影： 彩色方框標示關鍵步驟與組分（例如羥丁胺化（Hypusination）、轉譯）。"
-      }
-    }
-  },
-  {
     "id": "n-20260819-autophagy-41420-2024-1850-fig2-html",
     "document": "",
     "entities": [
@@ -10761,54 +10230,6 @@
       "zh-TW": {
         "title": "視網膜層——橫截面圖示（雙語）",
         "ocr": "人眼層狀示意圖（Layer Diagram of the Human Eye）\n（玻璃膜側） –（視網膜側，Retinal side）\n神經纖維層——Nerve fiber layer\n節細胞層——Ganglion cell layer\n內核層——Inner Nuclear layer\n內網狀層——Inner plexiform layer\n外網狀層——Outer plexiform layer\n外界膜——Outer limiting membrane\n視網膜色素上皮——pigment epithelium[原文不清]\n光感受器——Photoreceptors\n視桿細胞與視錐細胞——Rods and Cones\n外核層——Outer nuclear layer\n外雙極細胞——Outer bipolar cells\nCor視錐細胞——Cor cell[原文不清]\nRPE\n脈絡膜——Choroid\n脈絡膜——Choroid\n圖示說明：\n此圖是人眼的層狀示意圖，標示了各種視網膜細胞層。圖中顯示以下各層：神經纖維層、節細胞層、內核層、內網狀層、外網狀層、外界膜與色素上皮。圖中顯示感光細胞（視桿細胞與視錐細胞），以及雙極細胞和Cor細胞。圖也標示包圍視網膜的脈絡膜。箭頭從感光細胞指出，表示光線偵測的方向。"
-      }
-    }
-  },
-  {
-    "id": "n-20260819-epigenetics-image-layers-of-retina",
-    "document": "",
-    "entities": [
-      "Retinal Pigment Epithelium",
-      "Inner Nuclear Layer",
-      "Outer Nuclear Layer",
-      "Photoreceptors",
-      "Pigment",
-      "Choroid",
-      "Retina"
-    ],
-    "tags": [
-      "eye",
-      "diagrams-charts",
-      "retinal-pigment-epithelium",
-      "inner-nuclear-layer",
-      "outer-nuclear-layer",
-      "photoreceptors",
-      "choroid",
-      "retina",
-      "vision",
-      "anatomy",
-      "epigenetics",
-      "ocular"
-    ],
-    "pages": [
-      {
-        "page": 1,
-        "file": "image_layers_of_retina.jpg"
-      }
-    ],
-    "annotations": [],
-    "created": "2026-08-19",
-    "updated": "2026-08-21",
-    "author": "you",
-    "draft": false,
-    "translations": {
-      "en-US": {
-        "title": "Retina layers — cross-section anatomy diagram",
-        "ocr": "Text Transcription:\n(Vitreous humor side)\nYellow\nOil\nBipolar cells\nDiven’\nNerve fiber layer\nGanglion cell layer\nInner Nuclear layer\nInner plexiform layer\nOuter plexiform layer\nOuter limiting membrane\nRetinal pigment epithelium\nRPE\nChoroid\nPhotoreceptors\nRods\nCones\nBruch’s Membrane\nOuter nuclear layer"
-      },
-      "zh-TW": {
-        "title": "視網膜層——橫截面解剖圖示",
-        "ocr": "文字轉錄：\n（玻璃體液側，Vitreous humor side）\n黃色\nOil[原文不清]\n雙極細胞\nDiven'[原文不清]\n神經纖維層\n節細胞層\n內核層\n內網狀層\n外網狀層\n外界膜\n視網膜色素上皮\nRPE\n脈絡膜\n脈絡膜\n感光細胞\n視桿細胞\n視錐細胞\nBruch膜（玻璃膜）\n膜\n外核層\n圖示說明：\n眼睛的橫截面：此圖是帶標籤的人眼橫截面示意圖，顯示視網膜的各種層和支撐結構。\n各層：此圖清楚說明眼睛的不同層，包括：\n玻璃體液（最外層）\n視網膜色素上皮（RPE）\n脈絡膜\n視網膜各層（內核層、節細胞層、神經纖維層等）\n感光細胞（視桿細胞和視錐細胞）\n細胞類型：此圖標示視網膜內關鍵的細胞類型，如雙極細胞、視桿細胞和視錐細胞。\n箭頭：箭頭表示光線進入眼睛的方向以及神經訊號的通路。\nBruch膜：一個小的圓形結構被標示為「Bruch膜」，它是玻璃體液與視網膜之間的屏障。"
       }
     }
   },

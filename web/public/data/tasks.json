@@ -1,5 +1,5 @@
 {
-  "generated": "30_AUG_2026 03:45 PM PDT",
+  "generated": "05_SEP_2026 08:37 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,566 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell-Death Quadrants: Controlled vs Uncontrolled x Inflammatory vs Non-Inflammatory Vault Lens",
+          "description": "Vault-wide framework mapping every major topic through the controlled/uncontrolled and inflammatory/non-inflammatory lens from the gender audit, with sex overlay and practical audit protocol.",
+          "created": "2026-09-04",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "sex-differences",
+            "inflammation",
+            "senescence",
+            "ferroptosis"
+          ],
+          "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Male Biology as Distributed Topology vs Centralized Estrogen Hub",
+          "description": ">",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "testosterone",
+            "androgen-receptor",
+            "LOY",
+            "PARP1",
+            "IGF1",
+            "mTOR",
+            "longevity"
+          ],
+          "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
+          "path": "tasks/en-US/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "男性生物學即分散式拓撲 vs 集中式雌激素樞紐",
+          "description": ">",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "testosterone",
+            "androgen-receptor",
+            "LOY",
+            "PARP1",
+            "IGF1",
+            "mTOR",
+            "longevity"
+          ],
+          "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Comparison — Apoptosis, Parthanatos, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis",
+          "description": "Seven-way compare table of major cell death programs synthesized from wiki notes with general-knowledge supplements.",
+          "created": "2026-09-03",
+          "updated": "2026-09-05",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡比較 — 細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡",
+          "description": "七種主要細胞死亡程式的對照表，綜整自 wiki 筆記並輔以一般知識補充。",
+          "created": "2026-09-03",
+          "updated": "2026-09-05",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_hormetic_range_expansion_03_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Hormetic Range Expansion: 7 Candidate Domains for Follow-Up",
+          "description": "Follow-up task list to expand the hormetic-range-assessment from 12 to 15-19 domains, with sensors, vocab bridges, and acceptance criteria.",
+          "created": "2026-09-03",
+          "updated": "2026-09-03",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "hormetic-range",
+            "follow-up"
+          ],
+          "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hormetic_range_expansion_03_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "激素效應區間擴展：7 個候選後續領域",
+          "description": "將激素效應區間評估從 12 個擴展至 15–19 個領域的後續任務清單，包含感測器、詞彙橋接與驗收標準。",
+          "created": "2026-09-03",
+          "updated": "2026-09-03",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "hormetic-range",
+            "follow-up"
+          ],
+          "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hormetic_range_expansion_03_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_hormesis_literature_invisibility_02_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "The 80-90% Blind Spot: Mapping Solutions to Hormesis Literature Invisibility Through Vocabulary Fragmentation",
+          "description": "A systematic analysis of why most hormesis-relevant research is invisible under standard search terms, with a comprehensive cross-disciplinary synonym map, improved search strategies, and proposals for a structured \"hormesis vocabulary bridge\" to unify the fragmented literature.",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "literature-review",
+            "vocabulary-mapping",
+            "search-strategy",
+            "cross-disciplinary",
+            "systematic-review-methodology",
+            "knowledge-graph",
+            "NLP",
+            "scientific-communication"
+          ],
+          "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "80–90% 的盲區：以詞彙碎片化解決激素效應文獻隱形問題",
+          "description": "系統性分析為何多數激素效應相關研究在標準搜尋詞彙下隱形看不到，並提供橫跨學科的完整同義詞地圖、改進的搜尋策略，以及建立結構化「激素效應詞彙橋（hormesis vocabulary bridge）」以統整碎片化文獻的提案。",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "literature-review",
+            "vocabulary-mapping",
+            "search-strategy",
+            "cross-disciplinary",
+            "systematic-review-methodology",
+            "knowledge-graph",
+            "NLP",
+            "scientific-communication"
+          ],
+          "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_gender_specific_attributes_vault_topics_02_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Gender-Specific Attributes: Primary Vault Topics",
+          "description": ">",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "longevity",
+            "senescence",
+            "apoptosis",
+            "cancer",
+            "autophagy",
+            "nad",
+            "inflammation"
+          ],
+          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "path": "tasks/en-US/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "性別特異屬性：vault 主要主題",
+          "description": ">",
+          "created": "2026-09-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "task-output",
+            "gender",
+            "sex-differences",
+            "longevity",
+            "senescence",
+            "apoptosis",
+            "cancer",
+            "autophagy",
+            "nad",
+            "inflammation"
+          ],
+          "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_mnsod_thioredoxin_link_01_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "The MnSOD–Thioredoxin Axis: An Integrated Mitochondrial Peroxide-Relay and Shared Stress-Resistance Program — Focused Analysis",
+          "description": "A focused web-verified analysis of the mechanistic and functional link between mitochondrial MnSOD/SOD2 and the thioredoxin system (Trx1/Trx2, peroxiredoxins, thioredoxin reductase, glutaredoxin). Core thesis: MnSOD and the thioredoxins are not redundant free-radical sponges but the two chemically coupled halves of a single compartmentalized peroxide-relay (SOD2 → H₂O₂ → Prx/Trx → H₂O), co-deployed in an integrated stress-resistance program and both gated by overlapping hormetic windows — yet with a striking asymmetry in lifespan pharmacology.",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "mnsod",
+            "thioredoxin",
+            "redox",
+            "oxidative-stress",
+            "hormesis",
+            "mitochondria",
+            "sirtuin",
+            "heart-failure",
+            "research-synthesis"
+          ],
+          "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+          "path": "tasks/en-US/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "MnSOD–硫氧還蛋白軸：整合的粒線體過氧化氫中繼與共享的壓力抗性程式 — 焦點分析",
+          "description": "對粒線體 MnSOD/SOD2 與硫氧還蛋白系統（Trx1/Trx2、過氧化氧還蛋白、硫氧還蛋白還原酶、glutaredoxin）之間機理性與功能性連結的網路驗證焦點分析。核心論點：MnSOD 與硫氧還蛋白並非可互換的自由基海綿，而是單一隔室化過氧化氫中繼（SOD2 → H₂O₂ → Prx/Trx → H₂O）的兩個化學耦合半部，共同佈署於整合的壓力抗性程式中，且皆受重疊的激素效應窗口調控——但在壽命藥理學上卻有顯著的不對稱。",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "mnsod",
+            "thioredoxin",
+            "redox",
+            "oxidative-stress",
+            "hormesis",
+            "mitochondria",
+            "sirtuin",
+            "heart-failure",
+            "research-synthesis"
+          ],
+          "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Antioxidant-Enzyme Hormesis and Stress Resistance: The Thioredoxin-System Cluster — Entity Review and Web Verification",
+          "description": "A web-verified review of the vault's antioxidant-enzyme notes (Thioredoxin-1/-2, Glutaredoxin, Thioredoxin reductase, Peroxiredoxin/Sulfiredoxin, CxxC Motif, APE1, Auranofin, Ribonucleotide Reductase plus the RNR/dNTP cluster) integrated with the broader antioxidant-enzyme landscape (catalase/mCAT, MnSOD/SOD2, GPx). Central thesis: across antioxidant enzymes, hormetic stress resistance — not linear antioxidant over-supplementation — is the operative longevity/healthspan principle, and Trx1 is its best-characterized archetype.",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "thioredoxin",
+            "redox",
+            "hormesis",
+            "oxidative-stress",
+            "antioxidant",
+            "sirtuin",
+            "heart-failure",
+            "longevity",
+            "research-synthesis"
+          ],
+          "filename": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+          "path": "tasks/en-US/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "抗氧化酶激素效應與壓力抗性：硫氧還蛋白系統群集 — 實體審查與網路驗證",
+          "description": "針對知識庫中抗氧化酶筆記（硫氧還蛋白-1/-2、Glutaredoxin、硫氧還蛋白還原酶、Peroxiredoxin/Sulfiredoxin、CxxC Motif、APE1、Auranofin、核苷酸還原酶及 RNR/dNTP 群集）整合更廣泛抗氧化酶版圖（catalase/mCAT、MnSOD/SOD2、GPx）的網路驗證綜述。核心論點：在抗氧化酶中，激素效應性壓力抗性——而非線性抗氧化過量補充——才是運作的長壽／健康壽命原則，且 Trx1 是其最佳表徵的原型。",
+          "created": "2026-09-01",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "thioredoxin",
+            "redox",
+            "hormesis",
+            "oxidative-stress",
+            "antioxidant",
+            "sirtuin",
+            "heart-failure",
+            "longevity",
+            "research-synthesis"
+          ],
+          "filename": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_parallel_relation_links_impact_01_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Parallel-Relation Links in the Triples Graph — Full List & Metric Impact",
+          "description": "Inventory of the node pairs carrying surplus parallel-relation links (4092 links over 3894 pairs) preserved by the MultiDiGraph rebuild, with degree/PageRank impact quantification, pipeline-consumer audit, and follow-up fixes applied.",
+          "created": "2026-08-31",
+          "updated": "2026-09-01",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "multigraph",
+            "graph-metrics",
+            "parallel-edges"
+          ],
+          "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
+          "path": "tasks/en-US/task_output_parallel_relation_links_impact_01_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "三元組圖譜中的平行關係連結 — 完整清單與指標影響",
+          "description": "由 MultiDiGraph 重建所保留、承載超額平行關係連結（3894 對節點上的 4092 條連結）的節點對清單，並附度數／PageRank 影響量化、管線下游消費方稽核，以及已套用的後續修正。",
+          "created": "2026-08-31",
+          "updated": "2026-09-01",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "multigraph",
+            "graph-metrics",
+            "parallel-edges"
+          ],
+          "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_parallel_relation_links_impact_01_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
+          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
+          "created": "2026-05-25",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        },
+        "zh-TW": {
+          "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
+          "description": "假設性方案，利用嗜中性球的氧化爆發——PMA/酵母聚醣活化 NADPH oxidase 與髓過氧化物酶途徑——於誘導發炎期間催化腎上腺素轉化為腎上腺素紅。",
+          "created": "2026-05-25",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_price_estimates_13_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
+          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
+          "created": "2026-07-13",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
+          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
+          "created": "2026-07-13",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_pharmacologist_feasibility_16_JUN_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
+          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
+          "created": "2026-06-16",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        },
+        "zh-TW": {
+          "title": "藥理學分析 — 腎上腺色素複方療法",
+          "description": "藥理學家針對三種複方療法（MRR、SRAC、GOPS）的可行性評估，該等療法利用腎上腺色素衍生物作為精準粒線體激效觸發劑，目標為粒線體生合成、細胞衰老/SASP 及蛋白質恆定，並附有評分的合理性與安全性評估。",
+          "created": "2026-06-16",
+          "updated": "2026-09-01",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
+          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
+          "created": "2026-08-21",
+          "updated": "2026-08-31",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+        },
+        "zh-TW": {
+          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
+          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
+          "created": "2026-08-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "triples",
+            "knowledge-graph",
+            "quality-control",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins"
+          ],
+          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_hormesis_overlooked_paradigms_30_Aug_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Beyond Mitohormesis: Biological Processes Where the 'A Little Bad Is Good' Paradigm Is Overlooked",
+          "description": "A research synthesis exploring biological processes that follow the hormetic pattern — where a mild stressor produces beneficial adaptation — but whose negative connotation or framing obscures their potential. Organized by domain, with mechanisms, key studies, and implications for rethinking clinical and lifestyle interventions.",
+          "created": "2026-08-30",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "mitohormesis",
+            "oxidative-stress",
+            "immunology",
+            "neuroplasticity",
+            "longevity",
+            "research-synthesis",
+            "paradigm-analysis"
+          ],
+          "filename": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+          "path": "tasks/en-US/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
+        },
+        "zh-TW": {
+          "title": "超越線粒體激素效應：被忽略的「一點小壞即是大好」範式之生物過程",
+          "description": "這是一份研究綜述，探討遵循激素效應模式——即溫和的壓力源產生有益的適應——但其負面含意或框架遮蔽了其潛力的生物過程。按領域整理，涵蓋機制、關鍵研究，以及重新思考臨床與生活方式介入的意涵。",
+          "created": "2026-08-30",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "mitohormesis",
+            "oxidative-stress",
+            "immunology",
+            "neuroplasticity",
+            "longevity",
+            "research-synthesis",
+            "paradigm-analysis"
+          ],
+          "filename": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+          "path": "tasks/zh-TW/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
         }
       }
     },
@@ -67,6 +627,194 @@
           ],
           "filename": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
           "path": "tasks/zh-TW/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_caspase_graph_analysis_28_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Caspases - Graph (wiki + triples) Analysis + Literature Synthesis",
+          "description": "Multi-metric network analysis of all caspase nodes on the combined triples+wiki graph (sources - 13 caspase entities; targets - cell-death, senescence, and apoptosis-regulator anchors), with per-layer decomposition, paired with a literature research deep-dive on caspase classification, substrates, aging biology, and pharmacology.",
+          "created": "2026-08-28",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "caspases",
+            "apoptosis",
+            "pyroptosis",
+            "network-analysis",
+            "inflammaging",
+            "senescence"
+          ],
+          "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
+          "path": "tasks/en-US/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "Caspases — 圖譜分析（wiki + triples）＋文獻綜述",
+          "description": "在合併的 triples+wiki 圖譜上對全部 caspase 節點的多指標網絡分析（來源：13 個 caspase 實體；標的：細胞死亡、衰老與凋亡調控錨點），含逐層分解，並附 caspase 分類、受質、老化生物學與藥理學的文獻研究深究。",
+          "created": "2026-08-28",
+          "updated": "2026-08-28",
+          "tags": [
+            "task-output",
+            "caspases",
+            "apoptosis",
+            "pyroptosis",
+            "network-analysis",
+            "inflammaging",
+            "senescence"
+          ],
+          "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
+          "created": "2026-08-20",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
+          "created": "2026-08-20",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
+          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json, with primary-source grounding.",
+          "created": "2026-08-24",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
+          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
+          "created": "2026-08-24",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 2",
+          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
+          "created": "2026-08-21",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素協定網路追蹤，第二輪",
+          "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
+          "created": "2026-08-21",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_adrenochrome_protocol_traces_20_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
+          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
+          "created": "2026-08-20",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
+          "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
+          "created": "2026-08-20",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
         }
       }
     },
@@ -149,158 +897,6 @@
       }
     },
     {
-      "id": "task:task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
-          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
-          "created": "2026-08-20",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
-          "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
-          "created": "2026-08-20",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces, Round 2",
-          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
-          "created": "2026-08-21",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺色素協定網路追蹤，第二輪",
-          "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
-          "created": "2026-08-21",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_protocol_traces_20_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
-          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
-          "created": "2026-08-20",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "methylene-blue",
-            "aminoguanidine",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
-          "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
-          "created": "2026-08-20",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "methylene-blue",
-            "aminoguanidine",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_caspase_graph_analysis_28_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Caspases - Graph (wiki + triples) Analysis + Literature Synthesis",
-          "description": "Multi-metric network analysis of all caspase nodes on the combined triples+wiki graph (sources - 13 caspase entities; targets - cell-death, senescence, and apoptosis-regulator anchors), with per-layer decomposition, paired with a literature research deep-dive on caspase classification, substrates, aging biology, and pharmacology.",
-          "created": "2026-08-28",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "caspases",
-            "apoptosis",
-            "pyroptosis",
-            "network-analysis",
-            "inflammaging",
-            "senescence"
-          ],
-          "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
-          "path": "tasks/en-US/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "Caspases — 圖譜分析（wiki + triples）＋文獻綜述",
-          "description": "在合併的 triples+wiki 圖譜上對全部 caspase 節點的多指標網絡分析（來源：13 個 caspase 實體；標的：細胞死亡、衰老與凋亡調控錨點），含逐層分解，並附 caspase 分類、受質、老化生物學與藥理學的文獻研究深究。",
-          "created": "2026-08-28",
-          "updated": "2026-08-28",
-          "tags": [
-            "task-output",
-            "caspases",
-            "apoptosis",
-            "pyroptosis",
-            "network-analysis",
-            "inflammaging",
-            "senescence"
-          ],
-          "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_node_metrics_combined_graph_27_Aug_2026",
       "kind": "task",
       "langs": {
@@ -339,42 +935,6 @@
           ],
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
           "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
-          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json, with primary-source grounding.",
-          "created": "2026-08-24",
-          "updated": "2026-08-24",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
-          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
-          "created": "2026-08-24",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
         }
       }
     },
@@ -719,114 +1279,6 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
-          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
-          "created": "2026-05-25",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        },
-        "zh-TW": {
-          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
-          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
-          "created": "2026-05-25",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_adrenochrome_price_estimates_13_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_pharmacologist_feasibility_16_JUN_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
-          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
-          "created": "2026-06-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        },
-        "zh-TW": {
-          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
-          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
-          "created": "2026-06-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
       "kind": "task",
       "langs": {
@@ -1040,7 +1492,7 @@
       "langs": {
         "en-US": {
           "title": "Further Graph-Level Conclusions From graph.json",
-          "description": "Structural conclusions beyond the per-node metric fingerprint — degree distribution and giant-component dominance, centrality concentration as collection-strategy bias, community cohesion inversion, effector-arm fragility around acid ceramidase, entity-resolution debt, edge-direction semantics, ambiguity clustering, provenance staleness, and cross-document integration gaps. Derived from stored node metrics in graphify-out/graph.json, aggregate counters in GRAPH_REPORT.md, and recorded scripts/04_node_analysis.py runs.",
+          "description": "Structural conclusions beyond the per-node metric fingerprint — degree distribution and giant-component dominance, centrality concentration as collection-strategy bias, community cohesion inversion, effector-arm fragility around acid ceramidase, entity-resolution debt, edge-direction semantics, ambiguity clustering, provenance staleness, and cross-document integration gaps. Derived from stored node metrics in graphify-out/graph.json, aggregate counters in GRAPH_REPORT.md, and recorded scripts/analysis/node_analysis.py runs.",
           "created": "2026-08-26",
           "updated": "2026-08-26",
           "tags": [
@@ -1056,7 +1508,7 @@
         },
         "zh-TW": {
           "title": "graph.json 的進一步圖譜層級結論",
-          "description": "超越每節點指標指紋之外的結構性結論——度數分布與巨大連通分量主導性、中心性集中反映收集策略偏誤、社群凝聚度反轉、酸性神經醯胺酶周邊效應臂的脆弱性、實體解析債務、邊方向語意、模糊邊聚集，以及跨文件整合缺口。推導自 graphify-out/graph.json 中儲存的節點指標、GRAPH_REPORT.md 的彙總計數，以及 scripts/04_node_analysis.py 的既有執行紀錄。",
+          "description": "超越每節點指標指紋之外的結構性結論——度數分布與巨大連通分量主導性、中心性集中反映收集策略偏誤、社群凝聚度反轉、酸性神經醯胺酶周邊效應臂的脆弱性、實體解析債務、邊方向語意、模糊邊聚集，以及跨文件整合缺口。推導自 graphify-out/graph.json 中儲存的節點指標、GRAPH_REPORT.md 的彙總計數，以及 scripts/analysis/node_analysis.py 的既有執行紀錄。",
           "created": "2026-08-26",
           "updated": "2026-08-26",
           "tags": [
@@ -1078,7 +1530,7 @@
       "langs": {
         "en-US": {
           "title": "Node Analysis — Ivermectin, Fenbendazole & Mebendazole Against Cancer and Tumour Subtypes",
-          "description": "NetworkX multi-node analysis of the drug-repositioning cluster (ivermectin, fenbendazole, mebendazole) against the Cancer hub and three tumour subtypes using scripts/04_node_analysis.py — fingerprints, path multiplicity, Jaccard neighbourhoods, Adamic–Adar, effective resistance, and Personalized PageRank show single-edge fragile claims of unusually high link-prediction headroom, a mechanistically disjoint twin-pair among the benzimidazoles, tumour subtypes captured into the drug community rather than the Cancer community, and a PPR inversion that ranks Ivermectin #2 from the Cancer seed.",
+          "description": "NetworkX multi-node analysis of the drug-repositioning cluster (ivermectin, fenbendazole, mebendazole) against the Cancer hub and three tumour subtypes using scripts/analysis/node_analysis.py — fingerprints, path multiplicity, Jaccard neighbourhoods, Adamic–Adar, effective resistance, and Personalized PageRank show single-edge fragile claims of unusually high link-prediction headroom, a mechanistically disjoint twin-pair among the benzimidazoles, tumour subtypes captured into the drug community rather than the Cancer community, and a PPR inversion that ranks Ivermectin #2 from the Cancer seed.",
           "created": "2026-08-26",
           "updated": "2026-08-26",
           "tags": [
@@ -1099,7 +1551,7 @@
         },
         "zh-TW": {
           "title": "節點分析——伊維菌素、芬苯達唑與甲苯達唑對上癌症及腫瘤亞型",
-          "description": "運用 scripts/04_node_analysis.py 對老藥新用藥物群集（伊維菌素、芬苯達唑、甲苯達唑）對上 Cancer 樞紐與三種腫瘤亞型所做的 NetworkX 多節點分析——指標指紋、路徑多重性、Jaccard 鄰域、Adamic–Adar、有效電阻與個人化 PageRank 顯示：單邊脆弱的主張卻帶有異常高的連結預測裕度、苯并咪唑之間是機制上不重疊的孿生對、腫瘤亞型被藥物社群捕獲而非歸入 Cancer 社群，以及一個使伊維菌素從 Cancer 種子排名第 #2 的 PPR 反轉。",
+          "description": "運用 scripts/analysis/node_analysis.py 對老藥新用藥物群集（伊維菌素、芬苯達唑、甲苯達唑）對上 Cancer 樞紐與三種腫瘤亞型所做的 NetworkX 多節點分析——指標指紋、路徑多重性、Jaccard 鄰域、Adamic–Adar、有效電阻與個人化 PageRank 顯示：單邊脆弱的主張卻帶有異常高的連結預測裕度、苯并咪唑之間是機制上不重疊的孿生對、腫瘤亞型被藥物社群捕獲而非歸入 Cancer 社群，以及一個使伊維菌素從 Cancer 種子排名第 #2 的 PPR 反轉。",
           "created": "2026-08-26",
           "updated": "2026-08-26",
           "tags": [
@@ -1155,6 +1607,192 @@
       }
     },
     {
+      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node-Level Network Analysis for Biological Prioritization",
+          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/triples/rebuild.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "用於生物學優先排序的節點層級網絡分析",
+          "description": "方法指南：運用 scripts/triples/rebuild.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "pagerank",
+            "betweenness-centrality",
+            "k-core",
+            "drug-discovery",
+            "geroscience"
+          ],
+          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
+          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/analysis/node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
+          "created": "2026-08-17",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+        },
+        "zh-TW": {
+          "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
+          "description": "以 scripts/analysis/node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
+          "created": "2026-08-17",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "sirtuins",
+            "aging",
+            "substrates",
+            "personalized-pagerank",
+            "adamic-adar",
+            "effective-resistance",
+            "therapeutics"
+          ],
+          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_comt_mao_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
+          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/analysis/node_analysis.py.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_comt_mao_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
+          "description": "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/analysis/node_analysis.py 重現。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_comt_mao_15_August_2026.md",
+          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
+          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
+          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
+          "description": "SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。",
+          "created": "2026-08-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "node-analysis",
+            "networkx",
+            "scipy",
+            "spectral-analysis",
+            "sirtuins",
+            "comt",
+            "mao",
+            "dopamine",
+            "epinephrine",
+            "graph-theory"
+          ],
+          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
+          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_acid_ceramidase_27_July_2026",
       "kind": "task",
       "langs": {
@@ -1189,94 +1827,6 @@
           ],
           "filename": "task_output_acid_ceramidase_27_July_2026.md",
           "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Node-Level Network Analysis for Biological Prioritization",
-          "description": "Methodology guide for triaging biomedical entities in graphify-out/graph.json using per-node centrality metrics (degree, PageRank, betweenness, k-core, clustering coefficient, Leiden community) computed by scripts/03_rebuild_from_triples.py — with worked examples from the vault's graph and concrete next steps for target/druggability discovery in longevity and senescence research.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "pagerank",
-            "betweenness-centrality",
-            "k-core",
-            "drug-discovery",
-            "geroscience"
-          ],
-          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "用於生物學優先排序的節點層級網絡分析",
-          "description": "方法指南：運用 scripts/03_rebuild_from_triples.py 計算的每節點中心性指標（degree、PageRank、betweenness、k-core、clustering coefficient、Leiden community）來分診（triage）graphify-out/graph.json 中的生醫實體——並以 vault 知識圖譜中既有的實例、以及推動長壽與衰老研究中的標的 / 可藥性（druggability）發現之具體後續步驟加以說明。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "pagerank",
-            "betweenness-centrality",
-            "k-core",
-            "drug-discovery",
-            "geroscience"
-          ],
-          "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
-          "description": "Graph validation of the target/substrate catalogue (Modification / Activation / Inhibition) from Grabowska et al. 2017 against graphify-out/graph.json using scripts/04_node_analysis.py — shortest-path multiplicity, neighborhood Jaccard, Adamic-Adar, k-core, spectral, effective-resistance, and personalized PageRank metrics recover substrate ownership, expose curation gaps (SIRT1→H3K9), and rank residue-level druggable levers with NF-κB as the most network-central intervention node.",
-          "created": "2026-08-17",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "sirtuins",
-            "aging",
-            "substrates",
-            "personalized-pagerank",
-            "adamic-adar",
-            "effective-resistance",
-            "therapeutics"
-          ],
-          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
-          "description": "以 scripts/04_node_analysis.py 將目標 / 受質目錄（修飾 / 活化 / 抑制，取自 Grabowska 等人 2017）對 graphify-out/graph.json 進行圖譜驗證——最短路徑多重度、鄰域 Jaccard、Adamic-Adar、k-core、譜分析、有效電阻與個人化 PageRank 等指標，復原受質歸屬、暴露策展缺口（SIRT1→H3K9），並以 NF-κB 作為最具網絡中心性的介入節點，對殘基層級的可藥性槓桿進行排序。",
-          "created": "2026-08-17",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "sirtuins",
-            "aging",
-            "substrates",
-            "personalized-pagerank",
-            "adamic-adar",
-            "effective-resistance",
-            "therapeutics"
-          ],
-          "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
         }
       }
     },
@@ -1496,8 +2046,8 @@
           "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
         },
         "zh-TW": {
-          "title": "热量限制 vs 亚精胺饮食自噬 — 差异与叠加效应",
-          "description": "CR诱导自噬与饮食自噬诱导剂（亚精胺、雷帕霉素）之间的机制差异分析，以及组合策略叠加效应的追踪",
+          "title": "熱量限制 vs 亞精胺飲食自噬 — 差異與疊加效應",
+          "description": "CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤",
           "created": "2026-07-21",
           "updated": "2026-08-22",
           "tags": [
@@ -1687,54 +2237,6 @@
       }
     },
     {
-      "id": "task:task_output_node_comt_mao_15_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
-          "description": "Comparative node analysis of the two catecholamine-metabolizing enzymes COMT and MAO against the substrates Dopamine and Epinephrine in the wiki knowledge graph. Hop-distance is non-discriminating (all edges); Adamic-Adar, k-core, effective-resistance z-scores, Fiedler vector, and personalized PageRank resolve a sharply asymmetric picture: COMT is a dense, high-flow hub tightly wired to both catecholamines, while MAO is a low-degree peripheral node whose only substantive pull is toward Epinephrine. Reproduces via scripts/04_node_analysis.py.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_comt_mao_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
-          "description": "兩個兒茶酚胺代謝酵素 COMT 與 MAO 對受質 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的比較節點分析。跳數距離無鑑別力（皆為直接邊）；Adamic-Adar、k-core、有效電阻 z 分數、Fiedler vector 與個人化 PageRank 解析出一幅鮮明不對稱的圖像：COMT 是緊密連結、高流量的中樞，與兩種兒茶酚胺緊密接線；而 MAO 是低 degree 的周邊節點，其唯一實質拉力指向 Epinephrine。透過 scripts/04_node_analysis.py 重現。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_comt_mao_15_August_2026.md",
-          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
       "kind": "task",
       "langs": {
@@ -1779,56 +2281,6 @@
       }
     },
     {
-      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
-          "description": "Combined node analysis of SIRT1/SIRT3/SIRT2 + COMT/MAO vs the catecholamines Dopamine and Epinephrine in the wiki knowledge graph. SIRT1 is route-richest to Dopamine (7 shortest paths via aging/neurodegeneration bridges), SIRT3 carries the only latent redox edge, COMT is the direct metabolic flow hub, MAO stays peripheral. Hop-distance is non-discriminating (all ≤2 hops); every networkx/scipy metric separates three distinct modes of catecholamine proximity.",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
-          "description": "SIRT1 / SIRT3 / SIRT2 + COMT / MAO 對兒茶酚胺 Dopamine 與 Epinephrine 在 wiki 知識圖譜中的綜合節點分析。SIRT1 對 Dopamine 的路線最豐富（經由老化 / 神經退化橋樑的 7 條最短路徑），SIRT3 帶有唯一的潛在氧化還原邊，COMT 是直接代謝流量中樞，MAO 維持周邊。跳數距離無鑑別力（皆 ≤2 跳）；每一項 networkx / scipy 指標都區分出三種截然不同的兒茶酚胺接近度模式。",
-          "created": "2026-08-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "node-analysis",
-            "networkx",
-            "scipy",
-            "spectral-analysis",
-            "sirtuins",
-            "comt",
-            "mao",
-            "dopamine",
-            "epinephrine",
-            "graph-theory"
-          ],
-          "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_sirtuins_resveratrol",
       "kind": "task",
       "langs": {
@@ -1862,46 +2314,6 @@
           ],
           "filename": "task_output_sirtuins_resveratrol.md",
           "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
-          "description": "Prioritized list of knowledge-graph triples flagged for human review due to cross-document conflicts, low confidence, malformed predicates, or suspected factual errors. Neighborhood centrality (SIRT1, SIRT3, SIRT6, SASP) used to rank priority.",
-          "created": "2026-08-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
-        },
-        "zh-TW": {
-          "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
-          "description": "因跨文件衝突、低信心、謂詞格式錯誤或疑似事實錯誤而標記供人工審核的知識圖譜三元組優先清單。使用鄰域中心性（SIRT1、SIRT3、SIRT6、SASP）對優先順序進行排序。",
-          "created": "2026-08-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "triples",
-            "knowledge-graph",
-            "quality-control",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins"
-          ],
-          "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
         }
       }
     },
@@ -2322,50 +2734,6 @@
       }
     },
     {
-      "id": "task:task_output_ap1_trace_21_JUL_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
-          "description": "Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.",
-          "created": "2026-07-21",
-          "updated": "2026-07-22",
-          "tags": [
-            "graph-trace",
-            "ap-1",
-            "senescence",
-            "sasp",
-            "nrf2",
-            "autophagy",
-            "neuroinflammation",
-            "transcription-factor",
-            "aging"
-          ],
-          "filename": "task_output_ap1_trace_21_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ap1_trace_21_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑",
-          "description": "關於 AP-1 如何經由 src/ 知識圖譜（2,711 個檔案、63,384 條邊、413 個社群）橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation 的 graphify 追蹤。建構於 21_JUL_2026，使用 --mode deep --directed。",
-          "created": "2026-07-21",
-          "updated": "2026-07-22",
-          "tags": [
-            "graph-trace",
-            "ap-1",
-            "senescence",
-            "sasp",
-            "nrf2",
-            "autophagy",
-            "neuroinflammation",
-            "transcription-factor",
-            "aging"
-          ],
-          "filename": "task_output_ap1_trace_21_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md"
-        }
-      }
-    },
-    {
       "id": "task:task_output_nad_to_bnip3_trace_21_JUL_2026",
       "kind": "task",
       "langs": {
@@ -2406,6 +2774,50 @@
           ],
           "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
           "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_ap1_trace_21_JUL_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
+          "description": "Graphify trace of how AP-1 bridges Autophagic Cell Death, Senescence, NRF2, and Neuroinflammation via the src/ knowledge graph (2,711 files, 63,384 edges, 413 communities). Built with --mode deep --directed on 21_JUL_2026.",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "ap-1",
+            "senescence",
+            "sasp",
+            "nrf2",
+            "autophagy",
+            "neuroinflammation",
+            "transcription-factor",
+            "aging"
+          ],
+          "filename": "task_output_ap1_trace_21_JUL_2026.md",
+          "path": "tasks/en-US/task_output_ap1_trace_21_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑",
+          "description": "關於 AP-1 如何經由 src/ 知識圖譜（2,711 個檔案、63,384 條邊、413 個社群）橋接 Autophagic Cell Death、Senescence、NRF2 與 Neuroinflammation 的 graphify 追蹤。建構於 21_JUL_2026，使用 --mode deep --directed。",
+          "created": "2026-07-21",
+          "updated": "2026-07-22",
+          "tags": [
+            "graph-trace",
+            "ap-1",
+            "senescence",
+            "sasp",
+            "nrf2",
+            "autophagy",
+            "neuroinflammation",
+            "transcription-factor",
+            "aging"
+          ],
+          "filename": "task_output_ap1_trace_21_JUL_2026.md",
+          "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md"
         }
       }
     },
@@ -2752,7 +3164,7 @@
         },
         "zh-TW": {
           "title": "腎上腺素紅 → 脂質過氧化：機制橋樑和研究機會",
-          "description": "A task output analyzing the mechanistic bridge between Adrenochrome redox cycling and Lipid Peroxidation, identifying graph gaps and proposing new connections.",
+          "description": "分析腎上腺素紅氧化還原循環與脂質過氧化之間的機制橋樑，識別圖譜缺口並提出新的連結。",
           "created": "2026-07-17",
           "updated": "2026-07-17",
           "tags": [
@@ -3140,8 +3552,8 @@
           "path": "tasks/en-US/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
         },
         "zh-TW": {
-          "title": "CXCL12 → Endothelial Dysfunction Mechanistic Trace & Fisetin Rescue Path",
-          "description": "Mechanistic trace linking CXCL12 to endothelial dysfunction via SASP, with evaluation of fisetin as a rescue path.",
+          "title": "CXCL12 → 內皮功能障礙機制追蹤與非瑟酮救援路徑",
+          "description": "透過衰老相關分泌表型將 CXCL12 連結至內皮功能障礙的機制追蹤，並評估非瑟酮作為救援路徑。",
           "created": "2026-07-15",
           "updated": "2026-07-15",
           "tags": [
@@ -3215,7 +3627,7 @@
         },
         "zh-TW": {
           "title": "SIRT3/SIRT4 生物標記物可行性和 MnSOD 氧化還原軸作為粒線體荷爾蒙視窗指標",
-          "description": "Structured feasibility analysis of directly measuring the SIRT3/SIRT4 ratio, viable biomarker alternatives, and an evaluation of whether the MnSOD Redox Axis (Phase I target pathway of the Strategic Translation Roadmap) can serve as a quantitative indicator of the mitohormetic window.",
+          "description": "結構化可行性分析，探討直接量測 SIRT3/SIRT4 比值的可行性、可行的生物標記替代方案，並評估 MnSOD 氧化還原軸（策略性轉譯路線圖第一期標靶路徑）能否作為粒線體激效窗口的定量指標。",
           "created": "2026-07-14",
           "updated": "2026-07-14",
           "tags": [
@@ -3253,7 +3665,7 @@
         },
         "zh-TW": {
           "title": "粒線體荷爾蒙窗口 — 難度審查和個人化方案（75 公斤健康男性）",
-          "description": "Focused analysis of the difficulty of titrating the mitohormetic window within the adrenochrome (MB, AG) protocol, integrating diet, exercise, components, supplements, and IV preference for low-bioavailability agents. Scenario healthy male, middle age, 75 kg.",
+          "description": "聚焦分析在腎上腺素紅（MB, AG）方案中滴定粒線體激效窗口的難度，整合飲食、運動、成分、補充劑以及對低生物利用度藥劑的靜脈注射偏好。情境為健康中年男性，75 公斤。",
           "created": "2026-07-13",
           "updated": "2026-07-13",
           "tags": [
@@ -3354,7 +3766,7 @@
         },
         "zh-TW": {
           "title": "基於腎上腺素紅的聯合療法",
-          "description": "Research-scientist analysis of adrenochrome-based combination therapies (MRR, SRAC, GOPS).",
+          "description": "研究科學家針對基於腎上腺素紅的複方療法（MRR、SRAC、GOPS）進行分析。",
           "created": "2026-06-11",
           "updated": "2026-07-08",
           "tags": [
@@ -3426,8 +3838,8 @@
           "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
         },
         "zh-TW": {
-          "title": "MnSOD in Sirtuin Signaling vs. Adrenochrome Pathway: A Comparative Mechanistic Analysis",
-          "description": "Comparative analysis of MnSOD (SOD2) reaction mechanisms in sirtuin-mediated longevity signaling and adrenochrome redox cycling pathways",
+          "title": "MnSOD 在 Sirtuin 訊息傳遞與腎上腺素紅路徑中的角色：比較性機轉分析",
+          "description": "比較分析 MnSOD（SOD2）在 sirtuin 介導的長壽訊息傳遞與腎上腺素紅氧化還原循環路徑中的反應機轉",
           "created": "2026-07-06",
           "updated": "2026-07-06",
           "tags": [

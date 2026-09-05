@@ -10,11 +10,11 @@
 // drive the preference; the reader header button toggles it too.
 
 import { applyGraphTheme } from './core.js';
+import { enhanceSegmented } from './ui/Segmented.js';
 
 const THEME_KEY = 'llm-wiki-theme';
 const appThemeLink = document.getElementById('theme-light');
 const themeGrid = document.getElementById('theme-grid');
-const themeButtons = themeGrid ? Array.from(themeGrid.querySelectorAll('button[data-theme]')) : [];
 const themeBtn = document.getElementById('page-modal-theme');
 const readerFrame = document.getElementById('page-modal-frame');
 const readerOverlay = document.getElementById('page-modal-overlay');
@@ -24,6 +24,11 @@ const ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" st
 
 // Current theme ('light' | 'dark'). Light is the default when no preference is
 // stored (or storage is unavailable); only an explicit 'dark' opts in.
+// NOTE: this is the SPA's copy of the same page-world rule exposed as
+// window.AppTheme.currentTheme() by pages/themes/theme-01/page-theme.js and
+// themes/theme-02/theme.js. The bundled module can't load that classic global,
+// so keep this rule in sync with those two (the `=== 'dark'` default test is
+// the single source of truth for "light is the default").
 export function currentTheme() {
   try { return localStorage.getItem(THEME_KEY) === 'dark' ? 'dark' : 'light'; }
   catch (err) { return 'light'; }
@@ -53,11 +58,7 @@ function syncReaderFrame(theme) {
 }
 
 function syncThemeButtons(light) {
-  themeButtons.forEach(btn => {
-    const on = (btn.dataset.theme === 'light') === light;
-    btn.classList.toggle('active', on);
-    btn.setAttribute('aria-pressed', String(on));
-  });
+  if (themeSeg) themeSeg.set(light ? 'light' : 'dark');
 }
 
 function applyTheme(theme) {
@@ -102,14 +103,11 @@ export function subscribeTheme(fn) {
   return () => themeSubscribers.delete(fn);
 }
 
-// Settings tab Theme buttons.
-if (themeGrid) {
-  themeGrid.addEventListener('click', (e) => {
-    const btn = e.target.closest('button[data-theme]');
-    if (!btn) return;
-    setTheme(btn.dataset.theme);
-  });
-}
+// Settings tab Theme buttons — radiogroup semantics (aria-checked, arrow-key
+// navigation) via the shared Segmented primitive.
+const themeSeg = themeGrid
+  ? enhanceSegmented(themeGrid, { valueAttr: 'data-theme', onChange: (v) => setTheme(v) })
+  : null;
 
 // Reader header sun/moon toggle.
 if (themeBtn) {

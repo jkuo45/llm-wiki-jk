@@ -1,4 +1,4 @@
-"""api.notes — gallery index, image serving, uploads, OCR + note edits.
+"""api.notes — gallery index, image serving + note edits (no uploads/OCR).
 
 All filesystem state lives under tmp_path (module globals patched); the
 super-admin auth gate is bypassed so tests don't depend on the shell env.
@@ -12,7 +12,14 @@ from fastapi import HTTPException
 from PIL import Image
 
 import api.main as main_mod
-import api.notes as notes
+import api.routers.notes as notes
+
+# Default (repo-relative) roots must resolve to the actual repo dirs — a move
+# that shifts the Path(__file__) depth silently empties the gallery. The
+# notes_env fixture patches REPO_ROOT, so assert the un-patched default here.
+def test_default_repo_root_points_at_repo():
+    assert (notes.REPO_ROOT / "src" / "images").is_dir()
+    assert (notes.REPO_ROOT / "src" / "notes").is_dir()
 
 
 def png_bytes(size=(8, 6), color=(10, 20, 30)):
@@ -63,13 +70,6 @@ class TestHelpers:
         assert notes._looks_like_ocr_failure("I cannot process this image")
         assert notes._looks_like_ocr_failure("Model does not support images")
         assert not notes._looks_like_ocr_failure("Page 1: glucose uptake rises")
-
-    def test_locale_aliases(self):
-        assert notes._locale_of("en") == "en-US"
-        assert notes._locale_of("ZH-TW") == "zh-TW"
-        assert notes._locale_of("zh-hant") == "zh-TW"
-        assert notes._locale_of("fr") == "en-US"  # default
-        assert notes._locale_of("") == "en-US"
 
     def test_note_dir_rejects_traversal(self):
         with pytest.raises(HTTPException) as exc:
@@ -155,128 +155,6 @@ class TestImageServing:
         seed_staged(images, {"id": "n1",
                              "pages": [{"page": 1, "file": "page-1.png"}]})
         assert c.get("/v1/notes/image/n1/9").status_code == 404
-
-
-class TestUpload:
-    def test_upload_creates_staged_note_and_thumbnail(self, notes_env):
-        images, c = notes_env
-        r = c.post("/v1/notes/upload", data={
-            "title": "My Note", "topic": "Sirtuins Topic",
-            "entities": '["SIRT1"]', "tags": '["Graph Analysis"]',
-        }, files=[("files", ("p.png", png_bytes(), "image/png"))])
-        assert r.status_code == 200, r.text
-        body = r.json()
-        assert body["draft"] is True
-        assert body["title"] == "My Note"
-        assert body["tags"] == ["sirtuins-topic", "graph-analysis"]  # topic folded
-        assert body["entities"] == ["SIRT1"]
-        assert body["pages"][0]["file"] == "page-1.png"
-
-        note_id = body["id"]
-        assert (images / note_id / "page-1.png").exists()
-        # background task generated a thumbnail
-        assert (images / note_id / "page-1.thumb.png").exists()
-        staged = json.loads((images / ".staged.json").read_text())
-        assert [n["id"] for n in staged] == [note_id]
-
-    def test_duplicate_title_gets_suffix(self, notes_env):
-        images, c = notes_env
-        for _ in range(2):
-            r = c.post("/v1/notes/upload", data={"title": "Same Title"},
-                       files=[("files", ("p.png", png_bytes(), "image/png"))])
-            assert r.status_code == 200
-        ids = [n["id"] for n in json.loads(
-            (images / ".staged.json").read_text())]
-        assert len(ids) == 2 and ids[0] != ids[1]
-
-    def test_rejects_bad_extension(self, notes_env):
-        _, c = notes_env
-        r = c.post("/v1/notes/upload",
-                   files=[("files", ("p.txt", b"x", "text/plain"))])
-        assert r.status_code == 400
-        assert "Unsupported type" in r.json()["detail"]
-
-    def test_rejects_bad_content_type(self, notes_env):
-        _, c = notes_env
-        r = c.post("/v1/notes/upload",
-                   files=[("files", ("p.png", png_bytes(), "text/html"))])
-        assert r.status_code == 400
-        assert "Unsupported content type" in r.json()["detail"]
-
-    def test_rejects_malformed_entities_json(self, notes_env):
-        _, c = notes_env
-        r = c.post("/v1/notes/upload", data={"entities": "{not json"},
-                   files=[("files", ("p.png", png_bytes(), "image/png"))])
-        assert r.status_code == 400
-        assert "JSON arrays" in r.json()["detail"]
-
-    def test_rejects_empty_file(self, notes_env):
-        _, c = notes_env
-        r = c.post("/v1/notes/upload",
-                   files=[("files", ("p.png", b"", "image/png"))])
-        assert r.status_code == 400
-        assert "Empty file" in r.json()["detail"]
-
-
-class TestTranscribe:
-    def test_requires_id_and_existing_note(self, notes_env):
-        _, c = notes_env
-        assert c.post("/v1/notes/transcribe", json={}).status_code == 400
-        assert c.post("/v1/notes/transcribe", json={"id": "ghost"}).status_code == 404
-
-    def test_cached_transcript_short_circuits(self, notes_env, monkeypatch):
-        images, c = notes_env
-        seed_staged(images, {
-            "id": "n1", "pages": [{"page": 1, "file": "page-1.png"}],
-            "translations": {"en-US": {"title": "T", "ocr": "existing words"}},
-        })
-
-        async def boom(path):
-            raise AssertionError("model should not be called")
-
-        monkeypatch.setattr(notes, "transcribe_image", boom)
-        r = c.post("/v1/notes/transcribe", json={"id": "n1"})
-        assert r.status_code == 200
-        assert r.json() == {"id": "n1", "ocr": "existing words", "cached": True}
-
-    def test_ocr_failure_returns_502(self, notes_env, monkeypatch):
-        images, c = notes_env
-        seed_staged(images, {"id": "n1",
-                             "pages": [{"page": 1, "file": "page-1.png"}]})
-        make_page_file(images, "n1")
-
-        async def fail(path):
-            return "OCR_FAILED"
-
-        monkeypatch.setattr(notes, "transcribe_image", fail)
-        r = c.post("/v1/notes/transcribe", json={"id": "n1"})
-        assert r.status_code == 502
-        assert "could not read the image" in r.json()["detail"]
-
-    def test_successful_ocr_persists_per_locale(self, notes_env, monkeypatch):
-        images, c = notes_env
-        seed_staged(images, {"id": "n1",
-                             "pages": [{"page": 1, "file": "page-1.png"}]})
-        make_page_file(images, "n1")
-        calls = []
-
-        async def ocr(path):
-            calls.append(path)
-            return "page words"
-
-        monkeypatch.setattr(notes, "transcribe_image", ocr)
-        r = c.post("/v1/notes/transcribe", json={"id": "n1", "lang": "zh-TW"})
-        assert r.status_code == 200
-        assert r.json()["cached"] is False
-        assert "--- Page 1 ---" in r.json()["ocr"]
-        assert len(calls) == 1
-
-        staged = json.loads((images / ".staged.json").read_text())
-        assert staged[0]["translations"]["zh-TW"]["ocr"].startswith("--- Page 1")
-
-        # second call is served from cache
-        r = c.post("/v1/notes/transcribe", json={"id": "n1", "lang": "zh-TW"})
-        assert r.json()["cached"] is True
 
 
 class TestNoteEdits:

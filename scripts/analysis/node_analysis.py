@@ -229,6 +229,9 @@ def report_path_multiplicity(
                 segments = []
                 for i in range(len(p) - 1):
                     edata = G.get_edge_data(p[i], p[i + 1]) or {}
+                    # MultiDiGraph nests attr dicts under edge keys.
+                    if edata and all(isinstance(v, dict) for v in edata.values()):
+                        edata = next(iter(edata.values()))
                     rel = edata.get("relation", "?")
                     conf = edata.get("confidence_score", "?")
                     segments.append(

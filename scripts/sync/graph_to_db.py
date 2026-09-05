@@ -3,8 +3,8 @@
 
 The markdown notes in src/notes/ remain the source of truth; this script
 pushes the canonical base layer (topics, entities, edges, per-mode node
-metrics, link predictions) into Postgres so user-built graphs and the
-PubMed-style research layer can reference it. Writes use the service-role
+metrics, link predictions) into Postgres so consumers (e.g. the API's graph
+read paths) can reference it. Writes use the service-role
 key (RLS makes every base table read-only to clients).
 
 Usage:

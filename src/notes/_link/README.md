@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-08-24
+updated: 2026-08-31
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1570 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1578 entities** across **110 categories** and **32 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1563 | Categories: 110 | Documents: 32
+> `_link` index. Total entities: 1571 | Categories: 110 | Documents: 32
 >
 
 ## Documents
@@ -54,7 +54,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 ## Entity Notes
 
-### Protein (309)
+### Protein (314)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -146,6 +146,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[FKBP12]] | Protein | Overview: FKBP12 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern ce... |
 | [[FKBP38]] | Protein | FK506 binding protein 38 (FKBP38/FKBP8), an OMM protein that induces Parkin-independent mitophagy through LC3A aggregation |
 | [[FKBP8]] | Protein | Parkin-independent mitophagy receptor with a unique escape mechanism that avoids proteasomal degradation and preferentially binds LC3A. |
+| [[FNDC5]] | Protein | Fibronectin type III domain-containing protein 5, the type I transmembrane precursor of the myokine Irisin; expression is driven by PGC-1α in response to exercise. |
 | [[FoxM1]] | Protein | Forkhead box protein M1 (FoxM1) is a proliferation-associated transcription factor that drives cell-cycle genes, DNA repair, and senescence bypass; it is frequently overexpressed in cancer and is r... |
 | [[FOXO]] | Protein | A family of transcription factors (Forkhead box O) that regulate the expression of genes involved in cell cycle, Apoptosis, and Autophagy. |
 | [[FoxO1]] | Protein | Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesis, and beta-cell function. |
@@ -162,6 +163,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[GATA4]] | Protein | GATA binding protein 4, a zinc-finger transcription factor of the GATA family essential for cardiac development and the hypertrophic response, that also functions as a stress-responsive regulator o... |
 | [[GbetaL]] | Protein | GβL (also known as mLST8) is a core subunit of both mTORC1 and mTORC2 complexes. It binds the mTOR Kinase Domain, stabilizing catalytic activity and promoting complex assembly. GβL belongs ... |
 | [[GCN2]] | Protein | General control nonderepressible 2 (GCN2) is a serine/threonine kinase that phosphorylates eIF2α in response to amino acid starvation, including tryptophan depletion mediated by IDO1. |
+| [[GADD45]] | Protein | Growth Arrest and DNA Damage-inducible stress-response proteins (α/β/γ) integrating p53 and FOXO signaling into DNA repair, cell-cycle arrest, and senescence; GADD45α is a downstream effector of the SIRT1–FOXO4 antioxidant axis. |
 | [[GDF15]] | Protein | Growth differentiation factor 15, a TGF-beta superfamily stress-responsive cytokine/mitokine secreted under mitochondrial and senescent stress, increasingly recognized as a circulating biomarker of... |
 | [[Geminin]] | Protein | Overview: Geminin is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern c... |
 | [[GKRP]] | Protein | Glucokinase regulatory protein that regulates hepatic glucose uptake by controlling glucokinase localization; SIRT2 deacetylation target |
@@ -309,6 +311,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Ribosomal Protein S6]] | Protein | A component of the 40S ribosomal subunit whose phosphorylation by S6K1 serves as the canonical pharmacodynamic biomarker of mTORC1 activity. |
 | [[RIPK3]] | Protein | Overview: RIPK3 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
 | [[RNF185]] | Protein | Mitochondrial ubiquitin E3 ligase that regulates autophagy through interaction with BNIP1, using K63-linked ubiquitin chains to recruit p62 for mitophagy. |
+| [[RRM1]] | Protein | RRM1 encodes the large (α) catalytic subunit of human ribonucleotide reductase (RNR); its homodimer carries the active site where ribonucleoside diphosphates are reduced to deoxyribonucleoside diphosphates, plus the allosteric specificity/activity sites and the redox-active disulfide re-reduced each cycle by thioredoxin-1 or glutaredoxin. RRM1 overexpression predicts chemoresistance, notably to gemcitabine. |
+| [[RRM2]] | Protein | RRM2 encodes the small (β) subunit of human ribonucleotide reductase that houses the diferric-tyrosyl radical cofactor driving catalysis; expression is S-phase-restricted via E2F, and the subunit is the direct target of hydroxyurea and triapine, which destroy the radical (or its iron center) to collapse de novo dNTP synthesis. |
+| [[RRM2B]] | Protein | RRM2B encodes the p53-inducible small subunit (p53R2) of ribonucleotide reductase that partners with RRM1 to supply deoxyribonucleotides for DNA repair and mitochondrial DNA synthesis in non-cycling cells; loss-of-function mutations cause mitochondrial DNA depletion syndromes, and p53R2 is a defensive arm of the p53 DNA-damage response. |
 | [[Rspo1]] | Protein | R-spondin 1, an enhancer of Wnt signaling that maintains intestinal epithelial stem cells and injury resistance |
 | [[Rubicon]] | Protein | A RUN domain-containing protein that inhibits the Beclin 1–Vps34 autophagy complex and negatively regulates autophagosome formation and endocytic maturation. |
 | [[S100A13]] | Protein | EF-hand calcium/copper-binding S100 protein that drives IL-1α nuclear translocation and SASP initiation. |
@@ -328,10 +333,13 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[STAT6]] | Protein | Signal transducer and activator of transcription 6 is the key transcription factor downstream of IL-4 and IL-13 receptor signaling, driving type 2 immune responses. |
 | [[Synaptophysin]] | Protein | Synaptic vesicle glycoprotein (SYP) used as a pan-neuronal presynaptic marker reflecting synaptic density and connectivity. |
 | [[T Cell Receptor]] | Protein | A heterodimeric membrane receptor on T cells that recognizes peptide-MHC complexes, initiating adaptive immune responses; TCR gene rearrangement during thymopoiesis generates the diverse receptor r... |
+| [[TRF2]] | Protein | Telomeric Repeat-binding Factor 2 (TERF2), a core shelterin subunit binding double-stranded TTAGGG repeats that suppresses ATM activation and end-to-end telomere fusions; loss on short telomeres drives replicative senescence. |
 | [[Tau Protein]] | Protein | Overview: Tau Protein is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that gove... |
 | [[TDP-43]] | Protein | TAR DNA-binding protein 43, an RNA-binding protein whose mitochondrial mislocalization in ALS/FTD triggers cGAS-STING activation via mtDNA release. |
 | [[TFAM]] | Protein | Mitochondrial transcription factor A, a nuclear-encoded regulator of mitochondrial DNA replication, transcription, and nucleoid architecture; induced by mTOR inhibition to support mitochondrial ren... |
 | [[Thioredoxin]] | Protein | Thioredoxin (Trx) is a small redox-active protein that serves as a key antioxidant and cell signaling regulator. It reduces oxidized cysteine residues on proteins via its active site (Cys-Gly-P... |
+| [[Thioredoxin-1]] | Protein | Thioredoxin-1 (Trx1/TXN) is the cytosolic oxidoreductase of the thioredoxin system, regenerated by Thioredoxin reductase; regulates ASK1/NF-κB/HIF-1α redox signaling, regenerates peroxiredoxins, is one of the few antioxidants whose systemic overexpression prolongs mouse lifespan, and protects the heart. |
+| [[Thioredoxin-2]] | Protein | Thioredoxin-2 (Trx2/TXN2) is the mitochondrial isoform that maintains mitochondrial thiol-redox balance, regenerates Peroxiredoxin 3, supports respiration, and inhibits mitochondria-located ASK1. |
 | [[TIMP1]] | Protein | Tissue Inhibitor of Metalloproteinases-1, a soluble endogenous inhibitor of MMPs (especially MMP-9 and MMP-12) with roles in ECM homeostasis, fibrosis, and the SASP. |
 | [[TIMP2]] | Protein | Soluble tissue inhibitor of metalloproteinases that inhibits multiple MMPs and paradoxically facilitates pro-MMP-2 activation at the cell surface via MT1-MMP. |
 | [[TLR9]] | Protein | Endosomal Toll-like receptor that senses unmethylated CpG DNA and modulates cGAS expression in a context-dependent manner. |
@@ -368,7 +376,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ZFP36L1]] | Protein | Zinc finger protein 36 C3H1-like 1 (TTP-family RNA-binding protein) that degrades AU-rich-element mRNAs; inhibited by MK2 to stabilize SASP transcripts. |
 | [[β-Catenin]] | Protein | β-Catenin is a dual-function protein central to canonical Wnt signaling as a transcriptional coactivator and to cell adhesion as a component of adherens junctions. Its transcriptional activity is s... |
 
-### Enzyme (193)
+### Enzyme (197)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -458,6 +466,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Glucose Oxidase]] | Enzyme | Glucose oxidase (GOx) is an enzyme that generates extracellular H2O2 from glucose; its HT-22 neurotoxicity model is a direct oxidative-stress insult that methylene blue cannot protect against. |
 | [[Glucose-6-Phosphate Dehydrogenase]] | Enzyme | Glucose-6-phosphate dehydrogenase (G6PD) is the rate-limiting enzyme of the pentose phosphate pathway, generating NADPH that regenerates reduced glutathione to protect erythrocytes from oxidative s... |
 | [[Glutamate-Cysteine Ligase]] | Enzyme | Catalytic function: Glutamate-Cysteine Ligase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
+| [[Glutaredoxin]] | Enzyme | Glutaredoxins (Grx) are a family of small (~9–14 kDa) glutathione-dependent thiol oxidoreductases that reduce protein disulfides and protein-glutathione mixed disulfides, using electrons from reduced glutathione instead of thioredoxin reductase; they constitute the GSH-coupled half of the cellular disulfide-reducing system that sustains ribonucleotide reductase, peroxiredoxins, and redox signaling. |
 | [[Glutathione Peroxidase]] | Enzyme | Glutathione peroxidase (GPx) is an enzyme family with peroxidase activity whose main biological role is to protect the organism from oxidative damage. |
 | [[Glutathione Peroxidase 4]] | Enzyme | Glutathione Peroxidase 4 (GPX4) is a selenium-dependent selenoenzyme that reduces phospholipid hydroperoxides in membranes using glutathione, serving as the central inhibitor of ferroptotic cell de... |
 | [[Glutathione Reductase]] | Enzyme | Catalytic function: Glutathione Reductase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
@@ -546,16 +555,19 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[PTEN]] | Enzyme | PTEN (Phosphatase and Tensin homolog) is a powerful tumor suppressor protein that is found in almost all tissues in the body. It acts as a ''brake' on cellular growth and division.' |
 | [[PTPN5]] | Enzyme | Protein tyrosine phosphatase non-receptor type 5 (STEP); dephosphorylates and activates BAK, serving as a licensing signal for mitochondrial apoptosis. |
 | [[Pyruvate Dehydrogenase]] | Enzyme | Mitochondrial enzyme complex that converts pyruvate to acetyl-CoA, the committed step feeding the TCA cycle. Its activity gates glucose-derived carbon entry into the mitochondrial citrate–acetyl-Co... |
+| [[PYCR1]] | Enzyme | Pyrroline-5-carboxylate reductase 1, the mitochondrial final enzyme in proline biosynthesis (P5C → L-proline); overexpressed in many cancers where SIRT3-dependent Lys228 deacetylation activates it, fueling tumor proliferation. |
 | [[QPRT]] | Enzyme | Quinolinate Phosphoribosyltransferase; enzyme converting quinolinic acid to nicotinic acid mononucleotide in de novo NAD+ biosynthesis via the kynurenine pathway |
 | [[Respiratory Chain Complex I]] | Enzyme | Complex I (NADH:ubiquinone oxidoreductase) is the largest ETC enzyme; it oxidizes NADH, reduces ubiquinone, pumps protons, and is a major superoxide source. |
 | [[Ribonuclease III]] | Enzyme | Family of double-stranded RNA-specific endoribonucleases, including Drosha and Dicer, that catalyze microRNA and siRNA precursor processing. |
+| [[Ribonucleotide Reductase]] | Enzyme | Ribonucleotide reductase (RNR) is the sole enzyme that catalyzes the de novo conversion of ribonucleoside diphosphates (NDPs) into deoxyribonucleoside diphosphates (dNDPs), making it the rate-limiting, allosterically regulated committed step of dNTP biosynthesis for DNA replication and repair — and a validated anticancer drug target. |
+| [[SHMT2]] | Enzyme | Serine hydroxymethyltransferase 2, a mitochondrial PLP-dependent enzyme converting serine to glycine and feeding mitochondrial one-carbon metabolism; SIRT3 deacetylation at Lys95 activates it, promoting colorectal carcinogenesis. |
 | [[S Phase]] | Enzyme | S Phase (Synthesis Phase) is the phase of the Cell Cycle during which DNA Replication occurs, producing two copies of the genome. It follows G1 Phase and precedes G2 Phase. S Phase is initiated by ... |
 | [[S-Nitrosoglutathione Reductase]] | Enzyme | The enzyme that metabolizes S-nitrosoglutathione and regulates protein S-nitrosylation; its reduced activity in senescent cells causes excessive Parkin S-nitrosylation, inhibiting mitophagy and pro... |
 | [[SK61_2]] | Enzyme | Ribosomal protein S6 kinase 1 and 2 are AGC-family kinases downstream of mTORC1 that drive translation and exert negative feedback on insulin/PI3K signaling; in the rapamycin-hormesis model their m... |
 | [[SARM1]] | Enzyme | Sterile Alpha and TIR Motif Containing 1; an ~80 kDa NAD+-consuming glycohydrolase of the Toll/IL-1 receptor (TIR) family that drives axon degeneration and Wallerian degeneration upon axonal injury... |
 | [[SHP1]] | Enzyme | Protein tyrosine phosphatase non-receptor type 6 (PTPN6); dephosphorylates Caspase-8 at Tyr380, restoring apoptotic sensitivity in cancer cells. |
 | [[SOD1]] | Enzyme | Catalytic function: SOD1 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
-| [[SOD2]] | Enzyme | Catalytic function: SOD2 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
+| [[MnSOD]] | Enzyme | Manganese Superoxide Dismutase (MnSOD/SOD2); the primary mitochondrial antioxidant enzyme dismutating superoxide to H₂O₂; deacetylated/activated by SIRT3 at Lys68/K122. |
 | [[SOD3]] | Enzyme | Catalytic function: SOD3 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Soluble Guanylyl Cyclase]] | Enzyme | Soluble guanylyl cyclase (sGC) is the intracellular receptor for nitric oxide; NO activates sGC to produce cGMP, driving vasodilation. Methylene blue inhibits sGC downstream of nitric oxide. |
 | [[Src]] | Enzyme | Proto-oncogenic tyrosine kinase that phosphorylates Caspase-8 at Tyr380, inhibiting apoptosis and promoting migration; frequently activated in cancers. |
@@ -742,7 +754,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Uric Acid Crystals]] | Biological Molecule | Monosodium urate (MSU) and uric acid crystals are potent NLRP3 inflammasome activators that cause gouty inflammation through lysosomal rupture and IL-1β secretion. |
 | [[Very Low Density Lipoprotein]] | Biological Molecule | Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression to... |
 
-### Chemical Compound (153)
+### Chemical Compound (156)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -764,6 +776,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ARN14974]] | Chemical Compound | A potent and systemically active benzoxazolone carboxamide inhibitor of acid ceramidase (IC50 79 nM) that reduces ACase activity across multiple organs including brain; developed by Pizzirani et al... |
 | [[Ascorbic Acid]] | Chemical Compound | Ascorbic Acid, also known as Vitamin C, is a potent antioxidant and essential nutrient found in various foods and used as a dietary supplement. |
 | [[ATP]] | Chemical Compound | Adenosine triphosphate (ATP) is a nucleotide composed of adenine, ribose, and three phosphate groups that serves as the universal energy currency of living cells. Hydrolysis of ATP to ADP and P... |
+| [[Auranofin]] | Chemical Compound | Auranofin (Ridaura) is an oral gold(I) coordination compound FDA-approved for rheumatoid arthritis (1985) and repurposed as a first-in-class covalent inhibitor of the selenoprotein thioredoxin reductases (TXNRD1/TXNRD2), under clinical investigation as an anticancer, antiparasitic, and antibacterial agent. |
 | [[Bafilomycin A1]] | Chemical Compound | Chemical properties: Bafilomycin A1 is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[Bardoxolone methyl]] | Chemical Compound | Chemical properties: Bardoxolone methyl is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[Bleomycin]] | Chemical Compound | A genotoxic glycopeptide antibiotic used to induce cellular senescence (therapy-induced senescence, TIS) in senescence research and as a clinical chemotherapeutic. |
@@ -787,6 +800,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Deoxycholic Acid]] | Chemical Compound | Deoxycholic acid (DCA) is a secondary bile acid produced by gut bacterial metabolism that induces cellular senescence in hepatic stellate cells, linking obesity-associated gut dysbiosis to hepatoce... |
 | [[Dimethyl fumarate]] | Chemical Compound | Chemical properties: Dimethyl fumarate is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[Docosahexaenoic acid]] | Chemical Compound | An omega-3 polyunsaturated fatty acid highly enriched in neuronal membranes, with six double bonds making it highly susceptible to lipid peroxidation. |
+| [[dNTP]] | Chemical Compound | Deoxyribonucleoside triphosphates (dNTPs — dATP, dGTP, dCTP, dTTP) are the four deoxyribose building blocks of DNA, produced de novo by ribonucleotide reductase; balanced dNTP pools are essential for high-fidelity DNA replication and repair, and both depletion and imbalance drive replication stress, mutagenesis, and genomic instability. |
 | [[Dopaminochrome]] | Chemical Compound | Dopaminochrome is an aminochrome intermediate formed by the Oxidation of Dopamine. It is the structural and biochemical analog of Adrenochrome in the dopaminergic pathway. |
 | [[Doxorubicin]] | Chemical Compound | Doxorubicin (also known as Adriamycin) is a powerful anthracycline chemotherapy drug used to treat various types of cancer, including Breast Cancer, bladder cancer, and leukemia. |
 | [[DPPH]] | Chemical Compound | 1,1-diphenyl-2-picryl-hydrazyl; a stable free radical used to measure antioxidant capacity via free radical scavenging assays. |
@@ -882,6 +896,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Tazemetostat]] | Chemical Compound | Tazemetostat (EPZ-6438) is a first-in-class oral EZH2 inhibitor approved for epithelioid sarcoma and EZH2-mutant follicular lymphoma. |
 | [[Testosterone]] | Chemical Compound | Principal male androgen regulating muscle, bone, and metabolic health; decline with age links to redox stress, mitochondrial dysfunction, and cardiovascular risk. |
 | [[Toluidine Blue O]] | Chemical Compound | Toluidine Blue O (TB) is a 3,7-dimethyl phenothiazine dye and the most potent methylene blue analog for neuroprotection, sharing MB's alternative mitochondrial electron-transfer mechanism. |
+| [[Triapine]] | Chemical Compound | Triapine (3-AP) is an investigational α-(N)-heterocyclic thiosemicarbazone iron chelator that inhibits ribonucleotide reductase by stripping the iron/tyrosyl-radical cofactor of the RRM2 (and RRM2B) small subunits, collapsing de novo dNTP synthesis; studied across phase I–II oncology trials as a chemosensitizer and radiosensitizer, but not FDA-approved. |
 | [[Trichostatin A]] | Chemical Compound | Chemical properties: Trichostatin A is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[Tryptophan]] | Chemical Compound | Tryptophan (Trp) is an essential amino acid required for protein synthesis and the precursor for serotonin, melatonin, and NAD+ via the kynurenine pathway. |
 | [[Tyrosine]] | Chemical Compound | Tyrosine is a non-essential amino acid that is the precursor to Catecholamines, including Dopamine, Epinephrine, and Norepinephrine. |
@@ -900,12 +915,13 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Z-VAD-FMK]] | Chemical Compound | A synthetic, cell-permeable pan-caspase inhibitor used to distinguish caspase-dependent apoptosis from other cell death modalities. |
 | [[α-Ketoglutarate]] | Chemical Compound | α-Ketoglutarate (α-KG) is a key TCA cycle intermediate derived from glutamine and glutamate; serves as a metabolic hub linking carbon metabolism to biosynthesis, epigenetic regulation, and signaling. |
 
-### Drug (19)
+### Drug (20)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[5-Fluorouracil]] | Drug | Fluoropyrimidine antimetabolite chemotherapy drug that inhibits thymidylate synthase and incorporates into RNA/DNA. |
 | [[Chloroquine]] | Drug | Chloroquine is an autophagy inhibitor and antimalarial drug that blocks autophagosome-lysosome fusion by raising lysosomal pH; it is used in combination cancer therapy and is a rare trigger of meth... |
+| [[Clofarabine]] | Drug | Clofarabine (Clolar/Evoltra) is a second-generation purine nucleoside antimetabolite FDA-approved in 2004 for relapsed or refractory pediatric acute lymphoblastic leukemia; its triphosphate inhibits DNA polymerases and chain-terminates DNA, while its diphosphate inhibits ribonucleotide reductase (IC50 ~65 nM), depleting dNTP pools and driving apoptosis. |
 | [[Colchicine]] | Drug | Alkaloid from Colchicum autumnale that inhibits tubulin polymerization; used in gout and as a microtubule research tool. |
 | [[Entacapone]] | Drug | A nitrocatechol-class COMT inhibitor used as an adjunct to levodopa therapy in Parkinson's disease. |
 | [[Flubendazole]] | Drug | Benzimidazole anthelmintic with reported microtubule-disrupting anticancer activity distinct from vinca alkaloids. |
@@ -1069,7 +1085,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
-| [[Melanoma]] | Medical Condition | Malignant tumor of melanocytes; oxidative-stress-sensitive metastasis is supported by FTSJ1/Um34-dependent selenocysteine translation. |
 | [[Acute Respiratory Distress Syndrome]] | Medical Condition | ARDS is acute inflammatory lung injury causing hypoxemic respiratory failure; methylene blue has no proven role. |
 | [[Age-Related Diseases]] | Medical Condition | Diseases whose incidence and severity increase with chronological age, driven by fundamental aging processes such as cellular senescence, inflammation, and macromolecular damage. |
 | [[Albuminuria]] | Medical Condition | Albuminuria is the presence of excess albumin in the urine, most commonly reflecting glomerular damage and a hallmark of diabetic and hypertensive kidney disease. |
@@ -1203,11 +1218,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Serotonin-Norepinephrine Reuptake Inhibitors]] | Medical Product | Serotonin-norepinephrine reuptake inhibitors (SNRIs) are antidepressants raising synaptic serotonin and norepinephrine; dangerous with MAOIs. |
 | [[Tricyclic Antidepressant]] | Medical Product | Tricyclic antidepressants (TCAs) are an older antidepressant class with serotonergic and anticholinergic effects; dangerous with MAOIs. |
 
-### Biological Process (145)
+### Biological Process (146)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Myristoylation]] | Biological Process | N-terminal myristoyl attachment that tethers FSP1 to the plasma membrane, positioning its ubiquinol-regenerating activity where lipid peroxidation begins. |
+| [[One-Carbon Metabolism]] | Biological Process | Network of THF-dependent reactions transferring one-carbon units between metabolites; the mitochondrial SHMT2/MTHFD2 branch supplies nucleotide synthesis, NADPH, and methylation in proliferating cells and is reprogrammed in cancer. |
 | [[Metastatic colonization]] | Biological Process | Final, rate-limiting step of metastasis — growth of disseminated cells into distant lesions; restricted by oxidative stress, supported by selenocysteine translation. |
 | [[Adaptive Immune System]] | Biological Process | Antigen-specific immunity (T/B cells) shaped by cGAS-STING priming and chemokine-driven CNS infiltration. |
 | [[adipogenesis]] | Biological Process | Biological process of differentiation of mesenchymal preadipocytes into lipid-accumulating mature adipocytes. |
@@ -1363,11 +1379,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Methylation]] | Chemical Process | Methylation is a fundamental biochemical and epigenetic process involving the transfer of a methyl group to a substrate. It is critical for the regulation of gene expression, neurotransmitter m... |
 | [[Oxidation]] | Chemical Process | Oxidation is a concept related to Adrenochrome and catecholamine metabolism. |
 
-### Scientific Concept (77)
+### Scientific Concept (78)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Radical-trapping Antioxidant]] | Scientific Concept | Molecule that terminates peroxidation chains by donating H to a lipid peroxyl radical; endogenous examples include ubiquinol, VKH2, and vitamin E. |
+| [[Post-translational Modification]] | Scientific Concept | Covalent modifications of proteins after ribosomal synthesis (phosphorylation, acetylation, methylation, ubiquitination, SUMOylation, etc.) that rapidly alter protein function, localization, stability and interactions; >650 types known, regulated by writer-eraser-reader systems and central to metabolic control via sirtuins. |
 | [[Alpha Diversity]] | Scientific Concept | Alpha diversity is a measure of the richness and evenness of species within a single community or sample, often used to describe the internal diversity of the gut microbiome. |
 | [[Antagonistic Pleiotropy]] | Scientific Concept | An evolutionary concept wherein a trait beneficial to early-life fitness becomes detrimental later in life, proposed as the reason RCM evolved as a short-term survival response that drives aging. |
 | [[Beta Diversity]] | Scientific Concept | Beta diversity is a measure of the difference in species composition between different communities or samples, allowing for comparisons across various stages of aging or environmental conditions. |
@@ -1538,11 +1555,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Nuclear Envelope]] | Anatomical Structure | The double-membrane boundary of the nucleus that anchors cGAS via BAF1 and hosts STING and NPC1 regulation of cGAS activity. |
 | [[Nucleus]] | Anatomical Structure | The membrane-bound organelle housing chromatin, where cGAS exerts noncanonical functions in genome stability, RNA metabolism, and chromatin organization. |
 
-### Animal Model (1)
+### Animal Model (2)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[5xFAD]] | Animal Model | A transgenic mouse model of aggressive amyloid pathology used to study cGAS-STING in Alzheimer's disease. |
+| [[Transverse aortic constriction]] | Animal Model | TAC; surgical pressure-overload model producing left-ventricular hypertrophy progressing to heart failure; standard for studying cardiac stress responses and sirtuin cardioprotection. |
 
 ### Antigen (1)
 
@@ -2067,10 +2085,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[Ubiquitin-Proteasome System]] | Protein Degradation | The ubiquitin-proteasome system (UPS) is the primary pathway for selective protein degradation; it regulates TFEB levels via E3 ligases like STUB1 which target phosphorylated TFEB. |
 
-### Protein Domain (3)
+### Protein Domain (4)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[CxxC Motif]] | Protein Domain | The CxxC (Cys-X-X-Cys) motif is a conserved redox-active tetrapeptide — two cysteines separated by two variable residues — that forms the catalytic core of thioredoxin-fold oxidoreductases such as thioredoxins, glutaredoxins, and protein disulfide isomerases, mediating thiol-disulfide exchange and dithiol-disulfide redox catalysis. |
 | [[Double-stranded RNA-binding domain]] | Protein Domain | Conserved protein module (~65–70 aa) that binds double-stranded RNA; present in DGCR8, Dicer, and other RNase III partners for substrate recognition. |
 | [[Ubiquitin-like domain]] | Protein Domain | The N-terminal UBL domain of Parkin that is autoinhibitory, engages RING0, and is regulated by phosphorylation to release active Parkin. |
 | [[Zinc Finger]] | Protein Domain | A conserved protein structural motif in which zinc ions coordinate cysteine and histidine residues to form a compact DNA-binding domain; arrays of zinc fingers are used as programmable DNA-recognit... |

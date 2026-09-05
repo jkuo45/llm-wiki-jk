@@ -26,7 +26,7 @@ Several genes influence whether and how dopaminergic neurons synthesize and hand
 
 ## Pathology & Clinical Relevance
 
-Genotyping (SNCA, GBA1, LRRK2, MC1R) refines PD diagnosis, prognosis, and trial stratification, and illuminates the melanoma–PD link (see [[Cutaneous Melanoma]]). Mitochondrial DNA integrity and nuclear repair capacity are emerging therapeutic targets. Thus DNA bridges inherited risk and acquired oxidative damage in pigment-related neurodegeneration.
+Genotyping (SNCA, GBA1, LRRK2, MC1R) refines PD diagnosis, prognosis, and trial stratification, and illuminates the melanoma–PD link (see [[Melanoma]]). Mitochondrial DNA integrity and nuclear repair capacity are emerging therapeutic targets. Thus DNA bridges inherited risk and acquired oxidative damage in pigment-related neurodegeneration.
 
 ## Documents
 

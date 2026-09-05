@@ -248,25 +248,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/wiki-and-triples-graph-biological-processes.html"/>
   </url>
 
-<url>
-    <loc>https://graph.johnnykuo.com/pages/en-US/assumptions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/assumptions.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
-  </url>
-
-<url>
-    <loc>https://graph.johnnykuo.com/pages/zh-TW/assumptions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/assumptions.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/assumptions.html"/>
-  </url>
 
 <url>
     <loc>https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html</loc>
@@ -286,6 +267,95 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/neurodegeneration-ad-pd-hd-als-review.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/sirt3-aging-aging-related-diseases.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/sirt3-aging-aging-related-diseases.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html"/>
   </url>
 
 </urlset>

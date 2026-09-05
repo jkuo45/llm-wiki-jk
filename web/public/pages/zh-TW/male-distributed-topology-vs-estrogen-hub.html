@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>男性分散式拓撲 vs 集中式雌激素樞紐</title>
+<meta name="description" content="男性生物學即分散式拓撲——AR＋PARP-1/AIF＋單一X＋LOY＋SIRT6/IGF-1——對照女性集中式E2→ER九臂樞紐。拓撲圖、時間動態、比較表與證據。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♂</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  :root{
+    --teal:#2a9d8f;
+    --slate:#2e4a5d;
+    --red:#c1121f;
+    --amber:#e9c46a;
+    --green:#345443;
+    --purple:#7b2cbf;
+    --teal-soft:color-mix(in srgb, var(--teal) 14%, transparent);
+    --red-soft:color-mix(in srgb, var(--red) 10%, transparent);
+    --slate-soft:color-mix(in srgb, var(--slate) 12%, transparent);
+    --amber-soft:color-mix(in srgb, var(--amber) 20%, transparent);
+    --purple-soft:color-mix(in srgb, var(--purple) 10%, transparent);
+  }
+  .wrap.page{ padding-bottom:0; }
+  .lede b{ color:var(--oxblood); }
+  .fig{ background:var(--sheet); border:1px solid var(--rule); padding:16px 18px 12px; margin:18px 0; }
+  .fig svg{ width:100%; height:auto; display:block; }
+  .fig .cap{ font-size:.82rem; color:var(--mute); margin:10px 2px 2px; line-height:1.55; }
+  .fig .cap strong{ color:var(--ink-soft); }
+  .fig .fignum{ font-family:var(--mono); font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--faint); margin:0 0 8px; }
+  .callout{ background:color-mix(in srgb, var(--oxblood) 6%, var(--paper)); border-left:3px solid var(--oxblood); padding:14px 16px; margin:18px 0; font-size:.9rem; line-height:1.6; }
+  .callout strong{ color:var(--oxblood); }
+  .callout.teal{ background:color-mix(in srgb, var(--teal) 7%, var(--paper)); border-left-color:var(--teal); }
+  .callout.teal strong{ color:var(--teal); }
+  .callout.slate{ background:color-mix(in srgb, var(--slate) 7%, var(--paper)); border-left-color:var(--slate); }
+  .callout.slate strong{ color:var(--slate); }
+  .node-grid{ display:grid; grid-template-columns:1fr; gap:12px; margin:16px 0; }
+  @media (min-width:760px){ .node-grid{ grid-template-columns:1fr 1fr; } }
+  @media (min-width:1080px){ .node-grid{ grid-template-columns:1fr 1fr 1fr; } }
+  .node-grid .span2{ grid-column:1 / -1; }
+  .node-card{ background:var(--sheet); border:1px solid var(--rule); border-top:3px solid var(--rule-strong); padding:14px 16px 12px; }
+  .node-card h3{ margin:0 0 2px; font-size:1rem; }
+  .node-card .role{ font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--mute); margin-bottom:8px; }
+  .node-card ul{ margin:8px 0 4px; padding-left:20px; font-size:.86rem; line-height:1.6; color:var(--ink-soft); }
+  .node-card.ar{ border-top-color:var(--teal); }
+  .node-card.loy{ border-top-color:var(--red); }
+  .node-card.sx{ border-top-color:var(--slate); }
+  .node-card.parp{ border-top-color:var(--gold); }
+  .node-card.sirt6{ border-top-color:var(--purple); }
+  .node-card .stat{ font-family:var(--mono); font-size:1.25rem; font-weight:700; }
+  .node-card.ar .stat{ color:var(--teal); }
+  .node-card.loy .stat{ color:var(--red); }
+  .node-card.sx .stat{ color:var(--slate); }
+  .node-card.parp .stat{ color:var(--gold); }
+  .node-card.sirt6 .stat{ color:var(--purple); }
+  .node-card .stat-sub{ font-size:.78rem; color:var(--mute); }
+  .table-wrap{ overflow-x:auto; margin:14px 0; }
+  .table-wrap table{ width:100%; border-collapse:collapse; font-size:.85rem; min-width:880px; }
+  .table-wrap th{ font-family:var(--mono); font-size:11px; font-weight:500; text-transform:uppercase; letter-spacing:.05em; color:var(--mute); text-align:left; padding:8px 10px; border-bottom:1px solid var(--rule-strong); background:var(--sheet); }
+  .table-wrap td{ padding:8px 10px; border-bottom:1px solid var(--rule); vertical-align:top; line-height:1.55; }
+  .table-wrap tr:last-child td{ border-bottom:none; }
+  .table-wrap tbody th{ font-family:var(--sans); font-size:.85rem; text-align:left; padding:8px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+  .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.05em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; white-space:nowrap; }
+  .pill.prot{ color:var(--teal); } .pill.path{ color:var(--red); } .pill.struct{ color:var(--slate); }
+  .pill.exec{ color:var(--gold); } .pill.growth{ color:var(--purple); } .pill.hub{ color:var(--oxblood); }
+  tr.row-hidden{ display:none; }
+  /* group boxes: hub row (oxblood) vs 5-node mesh (slate) */
+  #toptbl tbody.hub th, #toptbl tbody.hub td{ border-top:2px solid var(--oxblood); border-bottom:2px solid var(--oxblood); }
+  #toptbl tbody.hub tr th:first-child{ border-left:2px solid var(--oxblood); }
+  #toptbl tbody.hub tr td:last-child{ border-right:2px solid var(--oxblood); }
+  #toptbl tbody.mesh tr:first-child th, #toptbl tbody.mesh tr:first-child td{ border-top:2px solid var(--slate); }
+  #toptbl tbody.mesh tr:last-child th, #toptbl tbody.mesh tr:last-child td{ border-bottom:2px solid var(--slate); }
+  #toptbl tbody.mesh tr th:first-child{ border-left:2px solid var(--slate); }
+  #toptbl tbody.mesh tr td:last-child{ border-right:2px solid var(--slate); }
+  td mark{ background:color-mix(in srgb, var(--gold) 35%, transparent); padding:0 .15em; }
+  .toolbar{ background:color-mix(in srgb, var(--paper) 92%, white); border:1px solid var(--rule); box-shadow:var(--shadow); padding:10px 12px; margin:14px 0 0; }
+  .toolbar .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar input[type="search"]{ font-family:var(--sans); font-size:13px; padding:7px 10px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); min-width:min(260px,100%); flex:1 1 220px; border-radius:var(--radius); }
+  .toolbar select{ font-family:var(--sans); font-size:12.5px; padding:7px 9px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink-soft); border-radius:var(--radius); }
+  .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
+  .table-wrap.hl-prot td[data-hl~="prot"]{ background:color-mix(in srgb, var(--teal) 9%, var(--sheet)); }
+  .table-wrap.hl-path td[data-hl~="path"]{ background:color-mix(in srgb, var(--red) 8%, var(--sheet)); }
+  .table-wrap.hl-time td[data-hl~="time"]{ background:color-mix(in srgb, var(--gold) 12%, var(--sheet)); }
+  .table-wrap.hl-death td[data-hl~="death"]{ background:color-mix(in srgb, var(--slate) 12%, var(--sheet)); }
+  .refs{ font-size:.85rem; line-height:1.65; color:var(--ink-soft); }
+  .refs li{ margin-bottom:4px; }
+  .page-footer{ font-family:var(--mono); font-size:11px; color:var(--faint); padding:18px 0 32px; border-top:1px solid var(--rule); margin-top:28px; }
+  .page-footer a{ color:var(--mute); }
+  kbd.k{ font-family:var(--mono); font-size:.78rem; background:var(--sheet); border:1px solid var(--rule-strong); border-radius:3px; padding:0 5px; }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳至內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#model">模型</a>
+      <a href="#hub">雌激素樞紐</a>
+      <a href="#nodes">五節點</a>
+      <a href="#time">時程</a>
+      <a href="#death">死亡開關</a>
+      <a href="#table">比較</a>
+      <a href="#refs">文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">性別差異 · XX vs XY · 05 Sep 2026</p>
+    <h1>男性分散式拓撲 vs 集中式雌激素樞紐</h1>
+    <p class="lede">
+      女性生物學是一個<b>集中式樞紐</b>：雌二醇（E2）→ 雌激素受體（ER）扇出九條保護臂——停經一次撤除全部，即「雌激素斷崖」。
+      男性生物學<b>沒有對等中心</b>，取而代之的是五個分散式節點——
+      <b style="color:var(--teal)">T→AR</b>（驅動：睪固酮 → 雄激素受體）＋ <b style="color:var(--red)">mLOY</b>（加速器）＋
+      <b style="color:var(--slate)">單一X</b>（結構）＋ <b style="color:var(--gold)">PARP-1/AIF</b>（執行）＋
+      <b style="color:var(--purple)">SIRT6/IGF-1/mTOR</b>（生長）——分別以漸進、株系擴張、結構、陣發的方式侵蝕。無中心，無斷崖。
+    </p>
+    <div class="meta">
+      <p><strong>資料來源：</strong>知識庫任務輸出 <code>task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md</code> · 姊妹篇稽核 <code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md</code>（Part IX 雌激素樞紐，Part II PARP-1）· 知識庫筆記 [[Testosterone]] [[Loss of Y Chromosome]] [[Androgen Receptor]] [[Estrogen]] [[SIRT6]] [[mTORC1]] [[Apoptosis]] [[NAD+]] · 網路驗證文獻（文獻見§7）</p>
+      <p><strong>閱讀順序：</strong>先看圖1（兩種拓撲），再看圖3（兩種時鐘），其餘皆為這兩張圖的證據。</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#model">1 · 一張圖看懂模型</a></li>
+      <li><a href="#hub">2 · 集中式樞紐（E2→ER，九條臂）</a></li>
+      <li><a href="#nodes">3 · 五個分散式節點</a></li>
+      <li><a href="#time">4 · 兩種時鐘：斷崖 vs 侵蝕</a></li>
+      <li><a href="#death">5 · 死亡模式開關</a></li>
+      <li><a href="#table">6 · 比較表</a></li>
+      <li><a href="#refs">7 · 文獻來源</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== 1 THESIS ==================== -->
+    <section id="model">
+      <p class="sec-label">模型</p>
+      <h2>一個樞紐 vs 沒有樞紐</h2>
+      <p class="drop">
+        在本綜述中，女性系統是一個<strong>星形拓撲</strong>：一個調控者（E2→ER）帶九條輻條。移除中心，每條輻條同時去抑制。
+        男性系統是一個<strong>中空網格</strong>：五個節點共同覆蓋相同版圖——sirtuin、氧化還原、凋亡、老化、自噬、NAD⁺、
+        NF-κB、端粒、癌症——但架構不同：主動型<em>與</em>缺失型並存，合成代謝<em>與</em>致病並存。失效是局部且非同步的，絕不同時且全身性。
+      </p>
+
+      <div class="fig">
+        <p class="fignum">圖1 · 兩種架構並列</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 880 420" role="img" aria-label="左：集中式雌激素樞紐，一個中心九條輻條。右：分散式男性五節點網格，中央中空。">
+          <!-- ===== LEFT: centralized hub ===== -->
+          <text x="220" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Sans, sans-serif">女性 · 集中式（星形）</text>
+          <text x="220" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">單一中心 · 九條輻條 · 一次斷崖</text>
+          <!-- spokes -->
+          <g stroke="var(--oxblood)" stroke-width="1.6" opacity="0.75">
+            <line x1="220" y1="210" x2="220" y2="80"/><line x1="220" y1="210" x2="323" y2="109"/>
+            <line x1="220" y1="210" x2="363" y2="180"/><line x1="220" y1="210" x2="363" y2="257"/>
+            <line x1="220" y1="210" x2="323" y2="328"/><line x1="220" y1="210" x2="220" y2="357"/>
+            <line x1="220" y1="210" x2="117" y2="328"/><line x1="220" y1="210" x2="77" y2="257"/>
+            <line x1="220" y1="210" x2="77" y2="180"/>
+          </g>
+          <!-- spoke nodes -->
+          <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace">
+            <circle cx="220" cy="80" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="77" fill="var(--ink)">SIRT1</text><text x="220" y="89" font-size="9.5" fill="var(--mute)">轉錄↑</text>
+            <circle cx="323" cy="109" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="106" fill="var(--ink)">SIRT3</text><text x="323" y="118" font-size="9.5" fill="var(--mute)">粒線體↑</text>
+            <circle cx="363" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="177" fill="var(--ink)">SOD2</text><text x="363" y="189" font-size="9.5" fill="var(--mute)">蛋白↑</text>
+            <circle cx="363" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="254" fill="var(--ink)">Bcl-2</text><text x="363" y="266" font-size="9.5" fill="var(--mute)">神經↑</text>
+            <circle cx="323" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="325" fill="var(--ink)">IκBα</text><text x="323" y="337" font-size="9.5" fill="var(--mute)">NF-κB↓</text>
+            <circle cx="220" cy="357" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="350" fill="var(--ink)">STING</text><text x="220" y="362" font-size="9.5" fill="var(--mute)">經由</text><text x="220" y="374" font-size="9.5" fill="var(--mute)">HDAC3↓</text>
+            <circle cx="117" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="117" y="325" fill="var(--ink)">PARP-1</text><text x="117" y="337" font-size="9.5" fill="var(--mute)">穩定化</text>
+            <circle cx="77" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="254" fill="var(--ink)">TERT</text><text x="77" y="266" font-size="9.5" fill="var(--mute)">端粒↑</text>
+            <circle cx="77" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="177" fill="var(--ink)">p53</text><text x="77" y="189" font-size="9.5" fill="var(--mute)">雙重調控</text>
+          </g>
+          <!-- center -->
+          <circle cx="220" cy="210" r="46" fill="var(--oxblood)"/>
+          <text x="220" y="204" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
+          <text x="220" y="221" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">主要調控者</text>
+          <text x="220" y="402" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經：九條臂同時去抑制</text>
+
+          <!-- divider -->
+          <line x1="440" y1="20" x2="440" y2="390" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
+
+          <!-- ===== RIGHT: distributed mesh ===== -->
+          <text x="660" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Sans, sans-serif">男性 · 分散式（網狀）</text>
+          <text x="660" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">五節點 · 中空 · 無斷崖</text>
+          <!-- mesh edges (no center) -->
+          <g stroke="var(--slate)" stroke-width="1.4" opacity="0.6">
+            <line x1="660" y1="105" x2="775" y2="195"/><line x1="775" y1="195" x2="730" y2="330"/>
+            <line x1="730" y1="330" x2="590" y2="330"/><line x1="590" y1="330" x2="545" y2="195"/>
+            <line x1="545" y1="195" x2="660" y2="105"/><line x1="660" y1="105" x2="730" y2="330"/>
+            <line x1="545" y1="195" x2="775" y2="195"/><line x1="660" y1="105" x2="590" y2="330"/>
+            <line x1="545" y1="195" x2="730" y2="330"/><line x1="775" y1="195" x2="590" y2="330"/>
+          </g>
+          <!-- empty center -->
+          <circle cx="660" cy="225" r="34" fill="none" stroke="var(--faint)" stroke-width="1.4" stroke-dasharray="5 4"/>
+          <text x="660" y="221" font-size="9.5" text-anchor="middle" fill="var(--faint)" font-family="IBM Plex Mono, monospace">無</text>
+          <text x="660" y="233" font-size="9.5" text-anchor="middle" fill="var(--faint)" font-family="IBM Plex Mono, monospace">中心</text>
+          <!-- nodes -->
+          <g font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <circle cx="660" cy="105" r="44" fill="var(--sheet)" stroke="var(--teal)" stroke-width="2.4"/>
+            <text x="660" y="100" font-size="14" font-weight="700" fill="var(--ink)">T→AR</text>
+            <text x="660" y="114" font-size="10" fill="var(--mute)">驅動</text>
+            <text x="660" y="126" font-size="10" fill="var(--mute)">合成代謝</text>
+            <circle cx="775" cy="195" r="44" fill="var(--sheet)" stroke="var(--red)" stroke-width="2.4"/>
+            <text x="775" y="192" font-size="14" font-weight="700" fill="var(--ink)">mLOY</text>
+            <text x="775" y="206" font-size="10" fill="var(--mute)">加速器</text>
+            <circle cx="730" cy="330" r="44" fill="var(--sheet)" stroke="var(--slate)" stroke-width="2.4"/>
+            <text x="730" y="327" font-size="13" font-weight="700" fill="var(--ink)">單一X</text>
+            <text x="730" y="341" font-size="10" fill="var(--mute)">結構</text>
+            <circle cx="590" cy="330" r="44" fill="var(--sheet)" stroke="var(--gold)" stroke-width="2.4"/>
+            <text x="590" y="320" font-size="12" font-weight="700" fill="var(--ink)">PARP-1</text>
+            <text x="590" y="333" font-size="12" font-weight="700" fill="var(--ink)">AIF</text>
+            <text x="590" y="346" font-size="10" fill="var(--mute)">執行</text>
+            <circle cx="545" cy="195" r="44" fill="var(--sheet)" stroke="var(--purple)" stroke-width="2.4"/>
+            <text x="545" y="190" font-size="13" font-weight="700" fill="var(--ink)">SIRT6</text>
+            <text x="545" y="203" font-size="10" fill="var(--mute)">生長</text>
+            <text x="545" y="215" font-size="10" fill="var(--mute)">長壽</text>
+          </g>
+          <text x="660" y="402" font-size="10.5" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Mono, monospace">老化：漸進 ＋ 株系擴張 ＋ 結構 ＋ 陣發</text>
+        </svg>
+        </div>
+        <p class="cap"><strong>閱讀方法。</strong>左側：每條保護臂都經過同一個樞紐，因此一次撤除事件拖垮全部。右側：五個男性節點彼此相連（共享版圖——NF-κB、mTOR、NAD⁺、自噬），但沒有東西經過中間；每個節點按自己的時程失效（§4）。這就是整套模型的一張圖版本。</p>
+      </div>
+
+      <div class="callout">
+        <p><strong>沒有任何單一男性因子能涵蓋樞紐的廣度——而這正是重點。</strong>睪固酮→AR每個節點較窄（無SIRT3/SOD2/TERT/STING對等物），與發炎雙向互動，在前列腺／肝／黑色素瘤中促癌，且逐漸下降（LOH）而非斷崖式。</p>
+      </div>
+    </section>
+
+    <!-- ==================== 2 HUB ==================== -->
+    <section id="hub">
+      <p class="sec-label">參照 · 02_SEP_2026 Part IX</p>
+      <h2>集中式樞紐：E2→ER及其九條臂</h2>
+      <p>
+        姊妹篇性別屬性稽核將雌激素定義為<strong>九臂主調控者</strong>。
+        下面每條臂都是圖1（左）的一條輻條。架構後果比任何單一臂更重要：
+        因為九條臂共享同一個上游開關，<strong>停經撤除會同時去抑制全部九條</strong>——這是男性所沒有的系統級事件。
+      </p>
+
+      <div class="fig">
+        <p class="fignum">圖2 · 九條雌激素臂及其支撐的功能</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 920 380" role="img" aria-label="雌激素樞紐扇出三個面板：sirtuin與氧化還原、發炎與死亡、基因體穩定，各三條臂。">
+          <!-- hub -->
+          <circle cx="460" cy="62" r="50" fill="var(--oxblood)"/>
+          <text x="460" y="57" font-size="20" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
+          <text x="460" y="76" font-size="10.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">ERα/β 樞紐</text>
+          <!-- one line per group -->
+          <g stroke="var(--oxblood)" stroke-width="2" opacity="0.8">
+            <line x1="430" y1="104" x2="160" y2="150"/>
+            <line x1="460" y1="112" x2="460" y2="150"/>
+            <line x1="490" y1="104" x2="760" y2="150"/>
+          </g>
+          <g font-family="IBM Plex Mono, monospace">
+            <!-- panel 1: sirtuins + redox -->
+            <rect x="30" y="150" width="260" height="210" fill="var(--sheet)" stroke="var(--rule-strong)"/>
+            <line x1="30" y1="150" x2="290" y2="150" stroke="var(--teal)" stroke-width="4"/>
+            <text x="48" y="178" font-size="12" font-weight="700" fill="var(--teal)" letter-spacing="1">SIRTUIN ＋ 氧化還原</text>
+            <text x="48" y="206" font-size="12.5" font-weight="700" fill="var(--ink)">SIRT1 ↑ · 轉錄</text>
+            <text x="48" y="222" font-size="10.5" fill="var(--mute)">ER驅動的去乙醯化張力</text>
+            <line x1="48" y1="236" x2="272" y2="236" stroke="var(--rule)"/>
+            <text x="48" y="261" font-size="12.5" font-weight="700" fill="var(--ink)">SIRT3 ↑ · 粒線體定位</text>
+            <text x="48" y="277" font-size="10.5" fill="var(--mute)">粒線體氧化還原調節盤</text>
+            <line x1="48" y1="291" x2="272" y2="291" stroke="var(--rule)"/>
+            <text x="48" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">SOD2 ↑ · 蛋白</text>
+            <text x="48" y="332" font-size="10.5" fill="var(--mute)">MnSOD抗氧化防線</text>
+            <!-- panel 2: inflammation + death -->
+            <rect x="330" y="150" width="260" height="210" fill="var(--sheet)" stroke="var(--rule-strong)"/>
+            <line x1="330" y1="150" x2="590" y2="150" stroke="var(--slate)" stroke-width="4"/>
+            <text x="348" y="178" font-size="12" font-weight="700" fill="var(--slate)" letter-spacing="1">發炎 ＋ 死亡</text>
+            <text x="348" y="206" font-size="12.5" font-weight="700" fill="var(--ink)">Bcl-2 ↑ · 神經保護</text>
+            <text x="348" y="222" font-size="10.5" fill="var(--mute)">抗凋亡支撐</text>
+            <line x1="348" y1="236" x2="572" y2="236" stroke="var(--rule)"/>
+            <text x="348" y="261" font-size="12.5" font-weight="700" fill="var(--ink)">IκBα ↑ → NF-κB ↓</text>
+            <text x="348" y="277" font-size="10.5" fill="var(--mute)">發炎煞車</text>
+            <line x1="348" y1="291" x2="572" y2="291" stroke="var(--rule)"/>
+            <text x="348" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">HDAC3 → STING ↓</text>
+            <text x="348" y="332" font-size="10.5" fill="var(--mute)">先天免疫抑制</text>
+            <!-- panel 3: genome stability -->
+            <rect x="630" y="150" width="260" height="210" fill="var(--sheet)" stroke="var(--rule-strong)"/>
+            <line x1="630" y1="150" x2="890" y2="150" stroke="var(--gold)" stroke-width="4"/>
+            <text x="648" y="178" font-size="12" font-weight="700" fill="var(--gold)" letter-spacing="1">基因體穩定</text>
+            <text x="648" y="206" font-size="12.5" font-weight="700" fill="var(--ink)">PARP-1 · 穩定化</text>
+            <text x="648" y="222" font-size="10.5" fill="var(--mute)">DNA修復待命</text>
+            <line x1="648" y1="236" x2="872" y2="236" stroke="var(--rule)"/>
+            <text x="648" y="261" font-size="12.5" font-weight="700" fill="var(--ink)">TERT ↑</text>
+            <text x="648" y="277" font-size="10.5" fill="var(--mute)">端粒酶啟動</text>
+            <line x1="648" y1="291" x2="872" y2="291" stroke="var(--rule)"/>
+            <text x="648" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">p53 · 雙重調控</text>
+            <text x="648" y="332" font-size="10.5" fill="var(--mute)">活化 ＋ 扣押</text>
+          </g>
+        </svg>
+        </div>
+        <p class="cap"><strong>為何分組：</strong>男性網格以不同接線涵蓋相同三個版圖——sirtuin版圖用SIRT6（而非SIRT1/3誘導），發炎版圖用AR→NF-κB抑制，基因體版圖用單一X/LOY/PARP-1。相同地圖，不同道路。</p>
+      </div>
+
+      <div class="callout">
+        <p style="margin:0 0 6px;"><strong>停經時，E2撤除同時：</strong></p>
+        <ul style="margin:0; padding-left:20px; line-height:1.75;">
+          <li>移除SIRT1/3轉錄支持 → 粒線體功能障礙</li>
+          <li>移除SOD2上調 → 氧化壓力上升</li>
+          <li>移除NF-κB抑制 → 發炎老化加速</li>
+          <li>移除STING抑制 → cGAS-STING活化</li>
+          <li>移除PARP-1穩定 → NAD⁺耗竭加速</li>
+          <li>移除端粒酶活化 → 端粒耗損加速</li>
+          <li>移除Bcl-2神經保護 → 神經元脆弱性上升</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== 3 NODES ==================== -->
+    <section id="nodes">
+      <p class="sec-label">男性系統</p>
+      <h2>五個分散式節點，五種失效時程</h2>
+      <p>
+        每個節點都是圖1（右）的一個圓。先讀<strong>角色</strong>行（它在系統中做什麼），再讀<strong>時程</strong>行（它何時失效）——
+        兩種時程永不重合，這正是沒有男性斷崖的原因。
+      </p>
+
+      <div class="node-grid">
+        <div class="node-card ar">
+          <h3>1 · 睪固酮 → AR —— 驅動節點</h3>
+          <div class="role">合成代謝／免疫 · 雙向 · 漸進性LOH</div>
+          <div class="stat">3.5× p-S6K1</div><div class="stat-sub">100 nM睪固酮 → p-ERK 5分鐘 → p-Akt 15分鐘 → p-S6K1 60分鐘；LY294002／Akt-VIII／rapamycin可廢除（Basualto-Alarcón 2013）</div>
+          <ul>
+            <li><strong>抗發炎平行線（對應E2）：</strong>T ↓ TNF-α、IL-6、IFN-γ、IL-2、IL-1β，↑ IL-10；抑制NF-κB/p65，降低巨噬細胞TLR4，減少ILC2增殖，AR→IL-10作用於CD4⁺ T細胞（Biogerontology 2023綜述，PMC9810526）。</li>
+            <li><strong>合成代謝mTOR：</strong>去勢↓握力、肌肉量、IGF-1 mRNA、p-Akt/p-GSK3β/p-PRAS40/p-FoxO3a，↑ MuRF1/atrogin-1/REDD1；nandrolone逆轉（White 2013）。低T經Akt非依賴途徑活化mTOR；高T為Akt所需。</li>
+            <li><strong>關鍵不對稱——發炎老化 → ↓T，而非T → 保護：</strong>英國生物銀行男性（n=18,347）：IL-6＋GDF-15介導年齡相關T下降，GDF-15最強；SAMP8 Leydig細胞ROS↑ → p38→COX2＋NF-κB→COX2 → StAR/P450scc↓，SB203580＋Bay 11-7082救援。</li>
+            <li><strong>鐵死亡鏡像：</strong>MBOAT2是直接AR靶基因，對應MBOAT1為ER靶基因（Cell 2023）；睪固酮是腎缺血的主導易感因子（Park 2004）。</li>
+            <li><strong>侷限：</strong>「睪固酮不利」於端粒——無抗氧化特性，可能↑氧化性端粒損傷（Gardner 2014）；在前列腺／肝／黑色素瘤中促癌。</li>
+          </ul>
+        </div>
+
+        <div class="node-card loy">
+          <h3>2 · 鑲嵌型Y染色體缺失 —— 加速器節點</h3>
+          <div class="role">致病性獲得 · 與E2效價相反 · 60歲後指數上升（LOY斷崖）</div>
+          <div class="stat">40% → 57%</div><div class="stat-sub">70歲至93歲盛行率；男性最常見的體細胞突變（Thompson Nature 2019）</div>
+          <ul>
+            <li><strong>死亡率：</strong>LOY血液HR 1.91全因死亡，存活5.5年 vs 11年（Forsberg Nat Genet 2014）；LURIC冠心病（n=1,698）LOY&gt;17%：全因HR 1.41、心血管死亡1.49、致死心肌梗塞2.65＋纖維化血漿標誌（OPG/MMP-12/GDF-15/HB-EGF/resistin）。</li>
+            <li><strong>因果性（非相關）：</strong>BM-LOY小鼠 → ↓壽命、心／肺／腎纖維化、心衰竭死亡；LOY巨噬細胞經TGFβ1/galectin-3 → 纖維母細胞活化；TGFβ1阻斷可救援（Sano Science 2022）；Uty破壞可複現表型。</li>
+            <li><strong>免疫／癌症／AD：</strong>約500個體染色體基因失調；T細胞耗竭＋PD-1敏感性；經免疫逃逸促進膀胱癌生長（Abdel-Hafiz Nature 2023）；LOY–AD、CKD、主動脈狹窄、衰老細胞清除受損 → 腎病。</li>
+            <li><strong>無女性對應：</strong>缺失型，非激素型。風險因子：年齡＋吸菸（劑量反應，戒菸可逆）、基因體不穩定／CHIP共存。</li>
+          </ul>
+        </div>
+
+        <div class="node-card sx">
+          <h3>3 · 單一X脆弱性 —— 結構節點</h3>
+          <div class="role">硬編碼不對稱 · 無備援 · 終身，隨LOY加重</div>
+          <div class="stat">6個EXITS基因</div><div class="stat-sub">ATRX · CNKSR2 · DDX3X · KDM5C · KDM6A · MAGEC3 —— 女性雙等位基因保護，無體染色體／PAR對等基因（Dunford Nat Genet 2017）</div>
+          <ul>
+            <li>雄性依賴較弱的X–Y旁系同源備援（KDM6A靠<span style="font-family:var(--mono)">UTY</span>，DDX3X靠DDX3Y）——而LOY本身就移除了該備援。</li>
+            <li>結構而非訊號：此節點從不「衰退」，它從來沒有備援。即分散式拓撲的硬編碼不對稱。</li>
+            <li>知識庫：<span style="font-family:var(--mono)">[[UTY]] / [[EXITS]]</span>已收錄。</li>
+          </ul>
+        </div>
+
+        <div class="node-card parp">
+          <h3>4 · PARP-1／AIF —— 執行節點</h3>
+          <div class="role">主導死亡模式 ＋ NAD⁺消耗 · 急性、事件驅動</div>
+          <div class="stat">19.7% vs 38.4%</div><div class="stat-sub">PARP-1基因剔除 vs 野生型雄性梗塞體積（受保護）；基因剔除卵巢切除雌性52.2% vs 野生型36.0%（惡化 —— Liu Stroke 2011）</div>
+          <ul>
+            <li><strong>機制：</strong>雄性nNOS → PARP → NAD⁺耗竭 → AIF入核 → 50-kbp片段化（parthanatos）；雌性細胞色素C → caspase-9 → caspase-3。PARP-1缺失在兩性皆消除AIF轉位，卻僅在雌性↑細胞色素C/caspase-9/-3。</li>
+            <li>Q-VD-OPh caspase抑制劑僅保護雌性；PJ34延遲PARP抑制主要改善雄性mNSS。</li>
+            <li><strong>治療推論：</strong>PARP抑制劑偏向雄性，caspase抑制劑偏向雌性。位置在下游，功能舉足輕重——NAD⁺連結將此節點繫於男性NAD⁺下降。</li>
+          </ul>
+        </div>
+
+        <div class="node-card sirt6">
+          <h3>5 · SIRT6 → IGF-1／mTOR／自噬 —— 生長節點</h3>
+          <div class="role">共享合成代謝軸的男性偏向設定點 · 終身</div>
+          <div class="stat">中位數+14.5%</div><div class="stat-sub">Sirt6轉基因雄性中位數+14.5%/+9.9%，最大+15.8%/+13.1%；雌性不顯著 —— 經↓血清IGF-1＋↑IGFBP1＋↓p-AKT/p-FOXO至雌性水平（Kanfi Nature 2012）</div>
+          <ul>
+            <li>雄性Tg半數肝基因與雌性WT特徵重疊——SIRT6部分「雌性化」雄性肝訊號。</li>
+            <li>Roichman 2021：SIRT6延長兩性壽命，雄性更強，經肝NAD⁺／糖質新生，兩性皆↓IGF-1。人類：芬蘭rs117385980男性長壽；百歲人瑞SIRT6變體（基因體穩定性）。</li>
+            <li><strong>自噬迴路：</strong>雄性基礎Beclin-1/LC3↑，中風後典型Beclin-1→LC3-II→p62↓；雌性ATG7非Beclin-1依賴；雄性神經元在飢餓下易自噬死亡（Du 2009）。無E2→SIRT3/SOD2式誘導——是設定點差異，而非開關。</li>
+          </ul>
+        </div>
+
+        <div class="node-card span2 slate" style="border-top-color:var(--slate)">
+          <h3>聯合覆蓋 —— 五節點涵蓋樞紐版圖</h3>
+          <div class="role">相同地圖 · 不同道路</div>
+          <ul>
+            <li><strong>Sirtuin／氧化還原：</strong>樞紐誘導SIRT1/SIRT3/SOD2；網格調校SIRT6→IGF-1及SIRT1↔AR（K630去乙醯化）／SIRT7→AR→自噬——是調節，而非誘導。</li>
+            <li><strong>發炎：</strong>樞紐經IκBα→NF-κB↓及HDAC3→STING↓煞車；網格經AR→NF-κB/USP18 T細胞抑制煞車——當發炎老化壓制T時煞車失效（雙向）。</li>
+            <li><strong>基因體：</strong>樞紐穩定PARP-1/TERT/p53；網格冒險——單一X移除備援，LOY移除旁系同源救援，PARP-1/AIF將損傷轉為男性死亡程序。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4 TEMPORAL ==================== -->
+    <section id="time">
+      <p class="sec-label">時間動態</p>
+      <h2>兩種時鐘：斷崖 vs 漸進＋株系侵蝕</h2>
+      <p class="drop">
+        架構成為命運，隨時間展開。樞紐產生<strong>階梯函數</strong>：保護力平坦，停經一次撤除九條臂。網格產生<strong>三條永不同步的疊加曲線</strong>：睪固酮漸滑（LOH），LOY株系自~60歲指數擴張（雌激素斷崖的結構鏡像），單一X／PARP-1則是終身背景條件，由急性事件引爆。
+      </p>
+
+      <div class="fig">
+        <p class="fignum">圖3 · 隨年齡的保護力：雌激素階梯下降 vs 男性三曲線侵蝕（示意，按引用盛行率錨定）</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 880 640" role="img" aria-label="上下並排兩圖，共享保護力量表：上為女性停經單次階梯下降；下為男性T緩坡、LOY指數上升與單一X平線。">
+          <!-- ===== TOP: female ===== -->
+          <text x="440" y="32" font-size="13" font-weight="700" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">♀ 女性 —— 一條曲線，一次斷崖</text>
+          <line x1="80" y1="60" x2="80" y2="250" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <line x1="80" y1="250" x2="840" y2="250" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <text x="30" y="155" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle" transform="rotate(-90 30 155)">保護力 →</text>
+          <g font-size="11" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <text x="80" y="268">30</text><text x="207" y="268">40</text><text x="333" y="268">50</text>
+            <text x="460" y="268">60</text><text x="587" y="268">70</text><text x="713" y="268">80</text><text x="840" y="268">90</text>
+          </g>
+          <g font-size="10.5" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="end">
+            <text x="72" y="84">高</text><text x="72" y="159">中</text><text x="72" y="224">低</text>
+          </g>
+          <g stroke="var(--rule)" stroke-width="1">
+            <line x1="80" y1="80" x2="840" y2="80"/><line x1="80" y1="145" x2="840" y2="145"/><line x1="80" y1="210" x2="840" y2="210"/>
+          </g>
+          <rect x="346" y="60" width="494" height="190" fill="var(--oxblood)" opacity="0.06"/>
+          <path d="M 80 75 L 346 75 L 346 220 L 840 220" fill="none" stroke="var(--oxblood)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="346" cy="75" r="4.5" fill="var(--oxblood)"/>
+          <text x="346" y="58" font-size="12" font-weight="700" fill="var(--oxblood)" text-anchor="middle" font-family="IBM Plex Mono, monospace">停經 ~51歲</text>
+          <text x="200" y="101" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2樞紐 · 九條臂</text>
+          <text x="650" y="208" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經後低原</text>
+          <text x="590" y="238" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">七條臂同時喪失（見§2）</text>
+          <line x1="80" y1="292" x2="108" y2="292" stroke="var(--oxblood)" stroke-width="3"/>
+          <text x="114" y="296" font-size="12" fill="var(--ink)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2保護（階梯）</text>
+          <!-- ===== BOTTOM: male ===== -->
+          <text x="440" y="332" font-size="13" font-weight="700" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Mono, monospace">♂ 男性 —— 三條曲線，無斷崖</text>
+          <line x1="80" y1="360" x2="80" y2="550" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <line x1="80" y1="550" x2="840" y2="550" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <text x="30" y="455" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle" transform="rotate(-90 30 455)">保護力 →</text>
+          <g font-size="11" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="middle">
+            <text x="80" y="568">30</text><text x="207" y="568">40</text><text x="333" y="568">50</text>
+            <text x="460" y="568">60</text><text x="587" y="568">70</text><text x="713" y="568">80</text><text x="840" y="568">90</text>
+          </g>
+          <g font-size="10.5" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="end">
+            <text x="72" y="394">高</text><text x="72" y="459">中</text><text x="72" y="524">低</text>
+          </g>
+          <g stroke="var(--rule)" stroke-width="1">
+            <line x1="80" y1="390" x2="840" y2="390"/><line x1="80" y1="455" x2="840" y2="455"/>
+          </g>
+          <path d="M 460 538 C 540 534, 590 515, 640 480 C 690 445, 750 400, 840 370 L 840 550 L 460 550 Z" fill="var(--red)" opacity="0.10"/>
+          <!-- T ramp -->
+          <path d="M 80 390 C 200 392, 260 400, 340 412 C 460 432, 600 465, 720 490 C 780 503, 820 508, 840 510" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round"/>
+          <text x="600" y="449" font-size="12" fill="var(--teal)" font-family="IBM Plex Mono, monospace" text-anchor="middle"><tspan font-size="14">♂</tspan> T→AR · 漸進性LOH</text>
+          <text x="207" y="379" font-size="12" fill="var(--teal)" font-family="IBM Plex Mono, monospace" text-anchor="middle">~40歲開始下滑</text>
+          <!-- LOY exponential -->
+          <path d="M 460 538 C 540 534, 590 515, 640 480 C 690 445, 750 400, 840 370" fill="none" stroke="var(--red)" stroke-width="3" stroke-dasharray="8 4" stroke-linecap="round"/>
+          <text x="700" y="412" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle"><tspan font-size="14">♂</tspan> mLOY負荷</text>
+          <text x="700" y="426" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">（致病性↑）</text>
+          <text x="587" y="502" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">70歲40％</text>
+          <text x="790" y="371" font-size="12" fill="var(--red)" font-family="IBM Plex Mono, monospace" text-anchor="middle">93歲57％</text>
+          <!-- single-X flat -->
+          <line x1="80" y1="528" x2="840" y2="528" stroke="var(--slate)" stroke-width="1.4" stroke-dasharray="2 4" opacity="0.8"/>
+          <text x="250" y="508" font-size="12" fill="var(--slate)" font-family="IBM Plex Mono, monospace" text-anchor="middle"><tspan font-size="14">♂</tspan> 單一X · 終身缺損</text>
+          <!-- legend -->
+          <g font-size="12" font-family="IBM Plex Mono, monospace">
+            <line x1="80" y1="592" x2="108" y2="592" stroke="var(--teal)" stroke-width="3"/><text x="114" y="596" fill="var(--ink)">♂ T→AR驅動（緩坡）</text>
+            <line x1="285" y1="592" x2="313" y2="592" stroke="var(--red)" stroke-width="3" stroke-dasharray="8 4"/><text x="319" y="596" fill="var(--ink)">♂ mLOY負荷（指數）</text>
+            <line x1="534" y1="592" x2="562" y2="592" stroke="var(--slate)" stroke-width="1.4" stroke-dasharray="2 4"/><text x="568" y="596" fill="var(--ink)">♂ 單一X（平線）</text>
+          </g>
+          <text x="440" y="624" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">與♀圖相同保護力量表</text>
+        </svg>
+        </div>
+        <p class="cap"><strong>LOY斷崖是雌激素斷崖的結構鏡像</strong>——60歲後指數上升，而非51歲階梯式——但效價相反：隨年齡獲得的致病株系，而非停經失去的保護樞紐。注意曲線永不同步：這種非同步本身就是「無男性斷崖」。圖例：♀＝女性軌跡（深紅）；♂＝男性軌跡（青綠／紅／灰）。</p>
+      </div>
+
+      <div class="callout slate">
+        <p><strong>時程總結。</strong>E2→ER：停經斷崖（~51歲）。T→AR：~40歲起漸進性LOH，與發炎老化雙向互動（GDF-15為最強介導者）。mLOY：60歲後指數上升（70歲40％，93歲57％）。單一X：終身，LOY刪除Y旁系同源備援時加重。PARP-1/AIF：急性、事件驅動（中風／外傷）。SIRT6/IGF-1：終身設定點。</p>
+      </div>
+    </section>
+
+    <!-- ==================== 5 DEATH SWITCH ==================== -->
+    <section id="death">
+      <p class="sec-label">執行</p>
+      <h2>死亡模式開關：相同損傷，不同程序</h2>
+      <p>
+        執行節點是拓撲差異成為治療決策之處。
+        缺血損傷後，雄性神經元預設走<strong>PARP-1 → NAD⁺耗竭 → AIF入核 → 50-kbp片段化</strong>（parthanatos），雌性神經元預設走<strong>細胞色素C → caspase-9 → caspase-3</strong>。基因剔除實驗證明該開關舉足輕重：刪除PARP-1<em>保護</em>雄性卻<em>傷害</em>卵巢切除雌性，將其更用力推向caspase路徑。
+      </p>
+
+      <div class="fig">
+        <p class="fignum">圖4 · PARP-1基因剔除梗塞體積的性別差異（McCullough 2005；Liu Stroke 2011）＋路徑示意</p>
+        <div class="copy-host fig-canvas">
+        <svg viewBox="0 0 880 342" role="img" aria-label="長條圖：PARP-1基因剔除減少雄性梗塞、增加卵巢切除雌性梗塞；parthanatos與caspase凋亡路徑圖。">
+          <!-- bars -->
+          <text x="210" y="24" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">梗塞體積（％半球）</text>
+          <line x1="60" y1="40" x2="60" y2="240" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <line x1="60" y1="240" x2="400" y2="240" stroke="var(--rule-strong)" stroke-width="1.4"/>
+          <g font-size="12" fill="var(--faint)" font-family="IBM Plex Mono, monospace" text-anchor="end">
+            <text x="54" y="243">0</text><text x="54" y="193">20</text><text x="54" y="143">40</text><text x="54" y="93">60</text>
+          </g>
+          <!-- male WT 38.4 -->
+          <rect x="90" y="142" width="56" height="98" fill="var(--slate)" opacity="0.85"/>
+          <text x="118" y="134" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">38.4</text>
+          <text x="118" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♂ WT</text>
+          <!-- male KO 19.7 -->
+          <rect x="156" y="190" width="56" height="50" fill="var(--teal)"/>
+          <text x="184" y="182" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">19.7</text>
+          <text x="184" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♂ KO ✓</text>
+          <!-- female WT 36.0 -->
+          <rect x="246" y="148" width="56" height="92" fill="var(--slate)" opacity="0.85"/>
+          <text x="274" y="140" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">36.0</text>
+          <text x="274" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♀OVX WT</text>
+          <!-- female KO 52.2 -->
+          <rect x="312" y="107" width="56" height="133" fill="var(--red)"/>
+          <text x="340" y="99" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Mono, monospace">52.2</text>
+          <text x="340" y="256" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">♀OVX KO ✗</text>
+          <text x="230" y="276" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">PARP-1缺失：保護雄性</text>
+          <text x="230" y="290" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">加重卵巢切除雌性</text>
+          <text x="230" y="305" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">Q-VD-OPh（caspase抑制劑）僅保護雌性</text>
+
+          <!-- divider -->
+          <line x1="420" y1="20" x2="420" y2="310" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
+
+          <!-- pathways -->
+          <text x="650" y="24" font-size="12" font-weight="700" text-anchor="middle" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif">兩套預設程序</text>
+          <!-- male path -->
+          <rect x="450" y="44" width="190" height="232" fill="var(--amber-soft)" stroke="var(--gold)" stroke-width="1.2"/>
+          <text x="545" y="62" font-size="12" font-weight="700" text-anchor="middle" fill="var(--gold)" font-family="IBM Plex Mono, monospace">雄性 · PARTHANATOS</text>
+          <text x="545" y="74" font-size="8.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">PARP-1/AIF 調控性壞死</text>
+          <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" fill="var(--ink)">
+            <rect x="475" y="86" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="103">nNOS ↑</text>
+            <text x="545" y="122" fill="var(--gold)">▼</text>
+            <rect x="475" y="126" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="143">PARP-1過度活化</text>
+            <text x="545" y="162" fill="var(--gold)">▼</text>
+            <rect x="475" y="166" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="183">NAD⁺耗竭</text>
+            <text x="545" y="202" fill="var(--gold)">▼</text>
+            <rect x="475" y="206" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="545" y="223">AIF入核</text>
+            <text x="545" y="242" fill="var(--gold)">▼</text>
+            <rect x="475" y="246" width="140" height="26" fill="var(--sheet)" stroke="var(--gold)" stroke-width="1.6"/><text x="545" y="263">50-kbp片段</text>
+          </g>
+          <!-- female path -->
+          <rect x="660" y="44" width="190" height="220" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.2"/>
+          <text x="755" y="64" font-size="12" font-weight="700" text-anchor="middle" fill="var(--teal)" font-family="IBM Plex Mono, monospace">雌性 · CASPASE</text>
+          <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" fill="var(--ink)">
+            <rect x="685" y="76" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="93">細胞色素C</text>
+            <text x="755" y="112" fill="var(--teal)">▼</text>
+            <rect x="685" y="116" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="133">caspase-9</text>
+            <text x="755" y="152" fill="var(--teal)">▼</text>
+            <rect x="685" y="156" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="173">caspase-3</text>
+            <text x="755" y="192" fill="var(--teal)">▼</text>
+            <rect x="685" y="196" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="213">DNA梯狀片段</text>
+            <text x="755" y="232" fill="var(--teal)">▼</text>
+            <rect x="685" y="236" width="140" height="26" fill="var(--sheet)" stroke="var(--teal)" stroke-width="1.6"/><text x="755" y="253">凋亡小體</text>
+          </g>
+          <text x="650" y="296" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">細胞自主性：無激素培養基中依然存在，</text>
+          <text x="650" y="312" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">青春期前動物亦然 —— 不只是循環激素差異</text>
+        </svg>
+        </div>
+        <p class="cap"><strong>閱讀方法。</strong>長條圖證明兩套程序真正性別分歧（同一缺失，相反結果）。級聯圖解釋原因：PARP-1位於男性死亡路徑上游，卻與女性路徑平行——缺失它等於解除男性武器，卻迫使雌性走上備援武器。治療推論：PARP抑制劑偏向男性，caspase抑制劑偏向女性。</p>
+      </div>
+    </section>
+
+    <!-- ==================== 6 TABLE ==================== -->
+    <section id="table">
+      <p class="sec-label">綜述</p>
+      <h2>比較表 —— 樞紐 vs 五節點</h2>
+      <p>關鍵字篩選，或強調任一軸線（保護、致病、時程、死亡模式）。</p>
+
+      <div class="toolbar" role="search" aria-label="表格控制">
+        <div class="row">
+          <input type="search" id="q" placeholder="篩選 —— 例如 NF-kB、LOY、NAD+、IGF-1、斷崖……" aria-label="篩選表格">
+          <select id="hl" aria-label="強調模式">
+            <option value="">強調：關閉</option>
+            <option value="hl-prot">保護迴路</option>
+            <option value="hl-path">致病機制</option>
+            <option value="hl-time">時間動態</option>
+            <option value="hl-death">死亡模式－NAD⁺</option>
+          </select>
+          <span class="count" id="count">6 個系統 · 6 個特徵</span>
+        </div>
+      </div>
+
+      <div class="table-wrap" id="tblwrap">
+        <table id="toptbl" aria-label="分散式男性節點 vs 集中式雌激素樞紐">
+          <thead>
+            <tr>
+              <th scope="col">系統</th>
+              <th scope="col">涵蓋範圍</th>
+              <th scope="col">角色</th>
+              <th scope="col">時程</th>
+              <th scope="col">效價</th>
+              <th scope="col">關鍵證據</th>
+              <th scope="col">知識庫狀態</th>
+            </tr>
+          </thead>
+          <tbody class="hub">
+            <tr data-sys="hub">
+              <th scope="row"><span class="pill hub">樞紐</span><br><b>E2→ER</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">集中式 · 女性</span></th>
+              <td data-hl="prot">九條路徑：SIRT1、SIRT3、SOD2、Bcl-2、NF-κB/IκBα、STING/HDAC3、PARP-1、TERT、p53</td>
+              <td data-hl="prot">保護中心 —— 氧化還原、發炎、基因體穩定的單一上游開關</td>
+              <td data-hl="time">停經斷崖（~51歲）：九條臂同時去抑制</td>
+              <td data-hl="prot">保護性；撤除即病理</td>
+              <td>02_SEP_2026 Part IX綜述；E2→Bcl-2神經保護（Dubal 1999）；ER→MBOAT1鐵死亡閘門（Cell 2023）</td>
+              <td>內容充實（[[Estrogen]]）</td>
+            </tr>
+          </tbody>
+          <tbody class="mesh">
+            <tr data-sys="ar">
+              <th scope="row"><span class="pill prot">驅動</span><br><b>T→AR</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">男性</span></th>
+              <td data-hl="prot">肌肉／骨骼／紅血球生成；NF-κB抑制；PI3K→Akt→mTOR；T細胞抑制（USP18、IL-10）</td>
+              <td data-hl="prot">合成代謝＋免疫驅動；每節點窄於E2；前列腺／肝／黑色素瘤促癌</td>
+              <td data-hl="time">漸進性LOH自~40歲；雙向 —— 發炎老化（IL-6、GDF-15）壓制T</td>
+              <td data-hl="prot">合成代謝／保護 ↔ 致病（視情境）</td>
+              <td data-hl="">Basualto-Alarcón 2013（3.5× p-S6K1）；White 2013（Akt/mTORC1/FoxO3a）；UKB n=18,347 GDF-15介導；AR→MBOAT2（Cell 2023）</td>
+              <td>[[Testosterone]]性別差異章節已增補2026-09-05；[[Androgen Receptor]]樞紐已增補</td>
+            </tr>
+            <tr data-sys="loy">
+              <th scope="row"><span class="pill path">加速器</span><br><b>mLOY</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">僅男性</span></th>
+              <td data-hl="path">纖維化（心／肺／腎）、免疫（~500基因、T耗竭）、癌症免疫逃逸、CVD、AD、CKD</td>
+              <td data-hl="path">系統加速器 —— 最廣的單一男性節點，與E2效價相反</td>
+              <td data-hl="time">60歲後指數上升 —— LOY斷崖：70歲40％ → 93歲57％</td>
+              <td data-hl="path">致病性獲得（隨年齡獲得的株系）</td>
+              <td data-hl="">Sano Science 2022（因果性，TGFβ1救援）；Forsberg 2014（HR 1.91）；LURIC 2025（致死心肌梗塞HR 2.65）；Abdel-Hafiz Nature 2023</td>
+              <td>[[Loss of Y Chromosome]]已新建2026-09-05</td>
+            </tr>
+            <tr data-sys="sx">
+              <th scope="row"><span class="pill struct">結構</span><br><b>單一X</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">僅男性</span></th>
+              <td data-hl="path">經6個EXITS抑癌基因致癌（ATRX、CNKSR2、DDX3X、KDM5C、KDM6A、MAGEC3）</td>
+              <td data-hl="path">無雙等位基因備援；微弱Y旁系同源救援（UTY、DDX3Y）且被LOY刪除</td>
+              <td data-hl="time">終身；隨年齡被LOY加重</td>
+              <td data-hl="path">結構性缺損（從未有備援）</td>
+              <td data-hl="">Dunford Nat Genet 2017（無體染色體／PAR對等基因）</td>
+              <td>[[UTY]]／[[EXITS]]已收錄</td>
+            </tr>
+            <tr data-sys="parp">
+              <th scope="row"><span class="pill exec">執行</span><br><b>PARP-1/AIF</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">男性主導</span></th>
+              <td data-hl="death">死亡模式選擇 ＋ NAD⁺消耗（連結男性NAD⁺下降）</td>
+              <td data-hl="death">男性主導的執行程序（parthanatos）；雌性備援為caspase</td>
+              <td data-hl="time">急性壓力（中風／外傷）；細胞自主性，青春期前即存在</td>
+              <td data-hl="death">劊子手 —— 位置下游，功能關鍵</td>
+              <td data-hl="death">McCullough 2005；Liu Stroke 2011（KO ♂ 19.7 vs 38.4；KO ♀卵巢切除 52.2 vs 36.0）；PJ34偏向雄性獲益</td>
+              <td>見[[Apoptosis]]／[[NAD+]]</td>
+            </tr>
+            <tr data-sys="sirt6">
+              <th scope="row"><span class="pill growth">生長</span><br><b>SIRT6/IGF-1/mTOR</b><span class="sub" style="display:block;font-size:10.5px;font-weight:400;color:var(--mute)">男性偏向</span></th>
+              <td data-hl="prot">長壽、生長、典型自噬（Beclin-1→LC3-II→p62↓）、mTORC1輸出</td>
+              <td data-hl="prot">共享合成代謝軸的男性偏向設定點 —— 調節而非誘導</td>
+              <td data-hl="time">終身迴路；雄性空腹p70S6K1↑ vs 雌性進食↑</td>
+              <td data-hl="prot">偏向男性長壽</td>
+              <td data-hl="">Kanfi Nature 2012（♂中位數+14.5%）；Roichman 2021（兩性皆延長，雄性更強）；芬蘭rs117385980男性長壽</td>
+              <td>見[[SIRT6]]／[[mTORC1]]／[[Autophagy]]</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ==================== 7 REFS ==================== -->
+    <section id="refs">
+      <p class="sec-label">文獻來源</p>
+      <h2>主要文獻</h2>
+      <ol class="refs">
+        <li>Kanfi et al. The sirtuin SIRT6 regulates lifespan in male mice. <em>Nature</em>. 2012;483:218–221.（雄性中位數+14.5%）</li>
+        <li>Roichman et al. SIRT6 overexpression extends both sexes, male-stronger. <em>Nat Commun</em>. 2021;12:3208.</li>
+        <li>McCullough et al. PARP-1 male toxicity / female protection. <em>J Cereb Blood Flow Metab</em>. 2005.</li>
+        <li>Liu et al. PARP-1 deletion / caspase inhibition sex divergence. <em>Stroke</em>. 2011;42:739–745 (PMC3066270).</li>
+        <li>Sano et al. Hematopoietic LOY → fibrosis / heart failure (causal, TGFβ1 rescue). <em>Science</em>. 2022 (abn3100).</li>
+        <li>Forsberg et al. LOY mortality / cancer. <em>Nat Genet</em>. 2014;46:624–628. (HR 1.91)</li>
+        <li>Thompson et al. Genetic predisposition to LOY. <em>Nature</em>. 2019;575:652–657.（70歲40％，93歲57％）</li>
+        <li>Abdel-Hafiz et al. Y loss → immune evasion / bladder cancer. <em>Nature</em>. 2023;619:624–631.</li>
+        <li>Dunford et al. EXITS genes — female biallelic protection. <em>Nat Genet</em>. 2017.</li>
+        <li>Basualto-Alarcón et al. T → mTOR/AR hypertrophy (3.5× p-S6K1). <em>Med Sci Sports Exerc</em>. 2013.</li>
+        <li>White et al. T regulation of Akt/mTORC1/FoxO3a. <em>Mol Cell Endocrinol</em>. 2013;365:174–186.</li>
+        <li>Biogerontology 2023 review — male sex hormones, aging, inflammation. (PMC9810526)</li>
+        <li>Muehlenbein et al. Inflammaging mediates T decline (UKB n=18,347). 2026 preprint.</li>
+        <li>Zhang et al. Androgen → USP18 → NF-κB T-cell suppression. <em>Cancer Cell</em>. 2023 (PMID 36634207).</li>
+        <li>Guan et al. AR in T cells limits checkpoint blockade. <em>Nature</em>. 2022;606:791–796.</li>
+        <li>Liang et al. LOY → senescent clearance / renal disease. <em>Sci Transl Med</em>. 2025.</li>
+        <li>LURIC 2025 — LOY&gt;17%：心血管死亡HR 1.49，致死心肌梗塞2.65。</li>
+        <li>Gardner 2014 — testosterone unfavorable for telomeres (oxidative damage).</li>
+      </ol>
+
+      <div class="page-footer">
+        <p>本頁源自知識庫資料：<code>src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md</code> · 姊妹篇稽核 <code>src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md</code>（Parts II, IX）· 知識庫筆記 <code>Testosterone / Loss of Y Chromosome / Androgen Receptor / Estrogen / SIRT6 / mTORC1 / Apoptosis / NAD+ / Telomere / Ferroptosis</code></p>
+        <p style="margin-top:6px;">Generated by <a href="https://graph.johnnykuo.com">llm-wiki-jk</a> · 教育性綜述，非醫療建議。</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+"use strict";
+(function(){
+  var q = document.getElementById('q'), hl = document.getElementById('hl'),
+      wrap = document.getElementById('tblwrap'), tbl = document.getElementById('toptbl'),
+      count = document.getElementById('count');
+  function stripe(tag){ return tag.replace(/[^\w+²⁻→\/-]+/g,' ').trim(); }
+  function apply(){
+    var needle = (q.value||'').toLowerCase().trim(), vis = 0;
+    var rows = [];
+    for (var b=0;b<tbl.tBodies.length;b++){ var rr=tbl.tBodies[b].rows; for (var j=0;j<rr.length;j++) rows.push(rr[j]); }
+    for (var i=0;i<rows.length;i++){
+      var r = rows[i], txt = r.textContent.toLowerCase();
+      var show = !needle || txt.indexOf(needle) > -1;
+      r.classList.toggle('row-hidden', !show);
+      if (show) vis++;
+      r.querySelectorAll('td').forEach(function(td){
+        td.querySelectorAll('mark').forEach(function(m){ m.replaceWith(document.createTextNode(m.textContent)); });
+        if (needle && show){
+          var node = Array.prototype.find.call(td.childNodes, function(n){ return n.nodeType===3 && n.textContent.toLowerCase().indexOf(needle)>-1; });
+          if (node){
+            var idx = node.textContent.toLowerCase().indexOf(needle), rng = document.createRange();
+            rng.setStart(node, idx); rng.setEnd(node, idx+needle.length);
+            var mk = document.createElement('mark'); rng.surroundContents(mk);
+          }
+        }
+      });
+    }
+    count.textContent = vis + ' 個系統 · 6 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
+  }
+  q.addEventListener('input', apply);
+  hl.addEventListener('change', function(){
+    wrap.classList.remove('hl-prot','hl-path','hl-time','hl-death');
+    if (hl.value) wrap.classList.add(hl.value);
+  });
+  apply();
+})();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every diagram SVG and
+     data table, with PNG + TSV export (shared theme-02/pages-svg.js). -->
+<script>
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+</script>
+<script src="../themes/theme-02/pages-svg.js"></script>
+
+</body>
+</html>

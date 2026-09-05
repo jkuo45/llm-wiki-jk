@@ -140,7 +140,12 @@ def write_compare_report(top: int = COMPARE_TOP) -> None:
             "triples_nodes": len(t_ids), "wiki_nodes": len(w_ids),
             "shared_nodes": len(shared), "wiki_only_nodes": len(wiki_only),
             "triples_only_nodes": len(triples_only),
-            "triples_edges": len(t_edges), "wiki_edges": len(w_edges),
+            "triples_edges": len(tg["links"]), "wiki_edges": len(wg["links"]),
+            # Overlap classification is pair-based (relation-agnostic), so also
+            # expose the unique-pair counts — with parallel edges now preserved
+            # by the MultiDiGraph rebuild, pair counts can be lower than link
+            # counts (e.g. triples: 4,094 links over 3,894 unique pairs).
+            "triples_edge_pairs": len(t_edges), "wiki_edge_pairs": len(w_edges),
             "wiki_only_edges": len(wiki_only_edges), "triples_only_edges": len(triples_only_edges),
         },
         "top_wiki_only_nodes": top_by_degree([w_nodes[i] for i in wiki_only], wg["links"], top),
@@ -161,8 +166,9 @@ def write_compare_report(top: int = COMPARE_TOP) -> None:
         f"- **Wiki-only** (linked, no triple): {c['wiki_only_nodes']}",
         f"- **Triples-only** (triple, no wikilink): {c['triples_only_nodes']}", "",
         "## Edge overlap", "",
-        f"- **Wiki-only edges** (under-extracted triples / curation gaps): {c['wiki_only_edges']}",
-        f"- **Triples-only edges** (not surfaced as a wikilink): {c['triples_only_edges']}", "",
+        f"- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples {c['triples_edge_pairs']} / wiki {c['wiki_edge_pairs']} — the triples graph carries {c['triples_edges']} links over {c['triples_edge_pairs']} pairs ({c['triples_edges'] - c['triples_edge_pairs']} parallel-relation links preserved by the MultiDiGraph rebuild).", "",
+        f"- **Wiki-only pairs** (under-extracted triples / curation gaps): {c['wiki_only_edges']}",
+        f"- **Triples-only pairs** (not surfaced as a wikilink): {c['triples_only_edges']}", "",
         f"## Top {top} wiki-only nodes (linked but absent from triples)", "",
         "| Node | Degree |", "| --- | --- |",
     ]

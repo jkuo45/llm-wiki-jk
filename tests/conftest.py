@@ -1,18 +1,16 @@
 """Shared fixtures for the api/ test suite.
 
-Runs fully offline: the PostgREST layer (api/db.py) is replaced by an
+Runs fully offline: the PostgREST layer (api/gateways/db.py) is replaced by an
 in-memory FakeDB with the same function signatures and query semantics the
-routers actually use (eq / or / order / limit filters plus the two embedded
-resources: entity:entities(...) and record|topic:source_records/research_topics).
+routers actually use (eq / or / order / limit filters plus embedded resources
+such as `entity:entities(...)`).
 
-Per-router patching: graphs.py and research.py import db functions into their
-own namespaces (`from .db import select, ...`), so tests patch those module
-attributes directly — see patch_db().
+Per-router patching: the routers import db/auth functions into their own
+namespaces (`from ..gateways.db import select, ...`), so tests patch those
+module attributes directly — see patch_db() and make_client().
 """
 
 import sys
-import uuid
-from datetime import datetime, timezone
 from pathlib import Path
 
 import pytest
@@ -22,24 +20,17 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from fastapi.testclient import TestClient  # noqa: E402
 
-import api.flags as flags_mod  # noqa: E402
-import api.graphs as graphs  # noqa: E402
-import api.research as research  # noqa: E402
+import api.routers.flags as flags_mod  # noqa: E402
 
 USER_A = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 USER_B = "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
 
-_TABLES_WITH_IDS = {
-    "user_graphs", "user_nodes", "user_edges", "research_topics",
-    "research_results", "extracted_triples", "source_records",
-}
+# Tables whose insert() auto-generates an id / timestamps in the fake.
+_TABLES_WITH_IDS = set()
 _EMBED_RE = r"(\w+):(\w+)\("
 
 # FK cascade emulation: (parent_table, parent_col) -> [(child_table, child_col)]
-_CASCADES = {
-    ("user_graphs", "id"): [("user_nodes", "graph_id"), ("user_edges", "graph_id")],
-    ("user_nodes", "id"): [("user_edges", "from_node"), ("user_edges", "to_node")],
-}
+_CASCADES: dict[tuple[str, str], list[tuple[str, str]]] = {}
 
 
 class FakeDBError(RuntimeError):
@@ -126,13 +117,6 @@ class FakeDB:
         rows = [dict(r) for r in (row if isinstance(row, list) else [row])]
         out = []
         for r in rows:
-            if table in _TABLES_WITH_IDS and "id" not in r:
-                r["id"] = str(uuid.uuid4())
-            if table in _TABLES_WITH_IDS:
-                now = datetime.now(timezone.utc).isoformat()
-                r.setdefault("created_at", now)
-                if table == "user_graphs":
-                    r.setdefault("updated_at", now)
             self.tables.setdefault(table, []).append(r)
             out.append(dict(r))
         return out
@@ -209,7 +193,7 @@ def make_client(monkeypatch, patch_db, fake_db):
     """TestClient factory; every request passes origin/auth gates offline."""
 
     def _make(uid: str = USER_A) -> TestClient:
-        patch_db(graphs, research, flags_mod)
+        patch_db(flags_mod)
 
         # Offline tests would trip the in-process per-IP rate limiter across
         # dozens of requests; disable it for the test app instance.
@@ -220,8 +204,6 @@ def make_client(monkeypatch, patch_db, fake_db):
         async def fake_user(request):
             return uid
 
-        monkeypatch.setattr(graphs, "get_user_id", fake_user)
-        monkeypatch.setattr(research, "get_user_id", fake_user)
         monkeypatch.setattr(flags_mod, "get_user_id", fake_user)
         client = TestClient(main_mod.app)
         client.headers.update({"Origin": "http://localhost:5173"})
@@ -233,17 +215,3 @@ def make_client(monkeypatch, patch_db, fake_db):
 @pytest.fixture
 def client(make_client) -> TestClient:
     return make_client(USER_A)
-
-
-@pytest.fixture
-def seeded_entities(fake_db):
-    """A couple of base entities + the sirtuins topic for fork tests."""
-    fake_db.seed("topics", [{"slug": "sirtuins", "name": "Sirtuins"}])
-    entities = [
-        {"norm_id": "sirt1", "label": "SIRT1", "topic_slug": "sirtuins"},
-        {"norm_id": "sirt3", "label": "SIRT3", "topic_slug": "sirtuins"},
-        {"norm_id": "resveratrol", "label": "Resveratrol", "topic_slug": "sirtuins"},
-        {"norm_id": "nad", "label": "NAD", "topic_slug": None},
-    ]
-    fake_db.seed("entities", entities)
-    return entities

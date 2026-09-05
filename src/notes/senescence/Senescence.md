@@ -2,7 +2,7 @@
 title: Cellular Senescence
 description: Cellular Senescence is a state of permanent cell cycle arrest triggered by DNA damage, oxidative stress, telomere erosion, or oncogene activation. Senescent cells secrete a pro-inflammatory SASP that drives aging and tissue dysfunction.
 created: 2026-07-04
-updated: 2026-07-26
+updated: 2026-09-02
 tags:
   - biological-process
   - senescence
@@ -70,6 +70,31 @@ Senescence is a major barrier to induced pluripotency: reprogramming with [[OSKM
 
 Senescent cell burden rises exponentially in multiple tissues with age and correlates with the [[Epigenetic Clock]]. Genetic or pharmacological clearance of p16^INK4a^-positive cells in mice delays age-related dysfunction (Baker et al., 2011/2016), establishing senescence as a tractable target for [[Senolytic Therapy|senolytics]] and [[Senomorphic Therapy|senomorphics]].
 
+## Sex Differences in Senescence
+
+Senescent-cell accumulation and the dominance of each arrest arm are **sex-dependent** — a dimension the vault previously treated as sex-neutral:
+
+### Accumulation Trajectory and Arrest Arm
+
+- **Males accumulate more senescent cells earlier in life**; females "catch up" near end of life (sex differences in telomere attrition and cellular maintenance; Yousefzadeh et al., 2020; Foster, 2025 *Front Aging Neurosci*).
+- **[[p16INK4A|p16]] and [[p21 CIP1|p21]] are distinct, largely non-overlapping subpopulations** (Chandra et al., *EMBO J* 2025; prior “Admas” corrected); dominant-arm sex mapping (F-p16/M-p53/p21) is inference.
+- **Female p16+ load is highest in the liver**, and females derive **most benefit from p16+ cell clearance** — p16-3MR ablation enhanced grip strength, skin regeneration, and liver repair **exclusively in females** (*Adv Sci* 2026).
+
+### Sex Differences in SASP and Immune Senescence
+
+- Sex and BMI significantly influence SASP-factor levels; 17/24 SASP factors correlate with age after sex+BMI adjustment, GDF15 top age/frailty marker (Schafer et al., *JCI Insight* 2020).
+- **Estrogen suppresses [[NF-κB]]-driven SASP** via ERβ (enhanced [[IkappaBalpha|IκBα]], reduced p65 binding; general estrogen–NF-κB biology, exact Giroux 2012 mapping unverified), giving females a lower SASP burden premenopausally.
+- Males with depression show a **higher SASP index** than females with depression (*J Gerontol A* 2025 — needs PMID/verification).
+- **Immunosenescence:** males show faster naive T-cell exhaustion and earlier CD4:CD8 inversion; females show greater overall immune remodeling and a post-50 shift toward self-reactive/autoimmune state — underlying the female longevity advantage *and* autoimmune vulnerability (Sopena-Rios et al., *Nature Aging* 2026).
+- **[[cGAS-STING Pathway|cGAS/STING]] activity is higher in aged males in diabetic kidney rat model**, driven by lower mtTFA and TREX1 in males; estrogen represses [[STING]] transcription (via ERα + [[HDAC3]], Chen *Cancers* 2022; *Front Immunol* 2024 review is restatement/extrapolation) (Feng et al., *JCI Insight* 2024).
+
+### Senolytic Responses Are Sex-Specific
+
+> This is detailed in [[Senolytics]]: fisetin is male-beneficial in C57BL/6 mice while D+Q can be female-detrimental; females derive the greatest benefit from p16+ clearance. Senolytic benefit therefore depends as much on sex (and which arrest arm dominates) as on senescent burden.
+
+> [!important]
+> The sex distribution of senescent-cell subtypes (females: p16+; males: p53/p21+) is a practical guide to biomarker selection for senolytic trials: a p16-based senolytic is likely to be most useful in female-dominant p16+ tissues, and vice versa for p53/p21-targeted strategies.
+
 #
 
 ## Documents
@@ -124,6 +149,8 @@ List of documents that mention this entity
 - [[SASP|Senescence-Associated Secretory Phenotype]]: The secretory arm that mediates most non-cell-autonomous effects.
 - [[p16INK4A|p16]]: Core long-term arrest effector and in-vivo senescence biomarker.
 - [[p21 CIP1|p21]]: Early DDR-driven arrest effector.
+- [[p16INK4A|p16]]: Female-dominant senescent-cell subtype (males skew p53/p21); females derive most benefit from p16+ clearance.
+- [[p53]]: Male-dominant senescence arm, mirroring p16+/p21+ non-overlap; the p53/p21 arm dominates in males.
 - [[Epigenetic Alterations]]: senescent epigenetic reprogramming orchestrates the SASP
 - [[SASP|Senescence-Associated Secretory Phenotype]]: the SASP is the primary non-cell-autonomous output of the senescent epigenome
 - [[Senescence-Associated Heterochromatin Foci]]: SAHF is a product of the senescent epigenetic landscape
@@ -155,6 +182,7 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Chromatin]], [[Epigenetics]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
 - Suggested new entity notes to create: [[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
+  - Sex-difference enrichment (2026-09-02): added sex-specific senescence accumulation (male early/female catch-up), p16+(female)/p21-p53+(male) arm dominance, female p16+ clearance benefit, and cGAS–STING/NF-κB sex dimorphism.
   - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]
 
 # Cellular Senescence

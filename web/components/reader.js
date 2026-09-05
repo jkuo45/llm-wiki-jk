@@ -5,6 +5,7 @@
 import { state } from './state.js';
 import { updateHash } from './routing.js';
 import { ARTICLES, TASKS } from './data.js';
+import { tLang, onUiLangChange } from './i18n.js';
 import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 
 // ------------------------------------------------------------
@@ -18,11 +19,12 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // defaults; `active` is group-level.
 // Only entries with `active: true` are listed/opened by the reader —
 // set `active: false` while an entry is being edited so it stays hidden.
-// Task outputs (tasks.json) carry kind: "task" and ids prefixed
-// "task:" so they never collide with article groups in the hash route.
-// The source tabs (#reader-source) switch the dropdown between the two
-// registries; task options are grouped by recency of their `updated`
-// date (this week / this month / older).
+// Task outputs (tasks.json) carry kind: "task" and ids prefixed "task:" so they
+// never collide with article groups in the hash route. Entity notes are not
+// published to the website — the reader only browses articles + task outputs,
+// so there is no third registries here. The source tabs (#reader-source) switch
+// the dropdown between the two registries; task options are grouped by recency
+// of their `updated` date (this week / this month / older).
 // ------------------------------------------------------------
 
 const flattenRegistry = (rows, kind) => rows.flatMap((a) => {
@@ -45,7 +47,8 @@ const getArticle = (id) => ALL_ROWS.find((a) => a.id === id) || null;
 // Index entry for a source mode — the reader's default landing entry (opened
 // by tab clicks, the modal title, and whenever no specific article applies).
 // Fixed here in code rather than flagged in the registry JSON.
-const indexIdForMode = (mode) => (mode === 'tasks' ? 'tasks-index' : 'articles-index');
+const indexIdForMode = (mode) =>
+  mode === 'tasks' ? 'tasks-index' : 'articles-index';
 
 const getDefaultArticle = () =>
   getArticle(indexIdForMode('articles')) || ACTIVE_ARTICLES[0] || ACTIVE_TASKS[0];
@@ -54,12 +57,28 @@ const getDefaultArticle = () =>
 // Source mode (Articles vs Task Outputs tabs)
 // ------------------------------------------------------------
 let sourceMode = 'articles';
-const rowsForMode = () => (sourceMode === 'tasks' ? ACTIVE_TASKS : ACTIVE_ARTICLES);
+const rowsForMode = () =>
+  sourceMode === 'tasks' ? ACTIVE_TASKS : ACTIVE_ARTICLES;
 
 function setSourceMode(mode) {
   if (sourceMode === mode) return;
   sourceMode = mode;
   sourceBtns.forEach((btn) => btn.classList.toggle('active', btn.dataset.source === mode));
+}
+
+// Reader source-tab labels show both languages (English · zh-TW), pulled from
+// the shared i18n table, so they read the same regardless of the active UI
+// language.
+const TAB_KEYS = {
+  articles: 'readerTabArticles',
+  tasks: 'readerTabTasks',
+};
+
+function applyTabLabels() {
+  sourceBtns.forEach((btn) => {
+    const key = TAB_KEYS[btn.dataset.source] || 'readerTabArticles';
+    btn.textContent = `${tLang(key, 'en-US')} / ${tLang(key, 'zh-TW')}`;
+  });
 }
 
 // ------------------------------------------------------------
@@ -143,11 +162,15 @@ function updatePrevBtn() {
 // ------------------------------------------------------------
 function loadArticle(article, section) {
   const anchor = section ? '#' + encodeURIComponent(section) : '';
-  const url = article.kind === 'task' && article.path.endsWith('.md')
-    // Task outputs are raw markdown rendered by the viewer shell page;
-    // task index pages are plain HTML and load directly.
-    ? 'pages/task-viewer.html?src=' + encodeURIComponent('../' + article.path) + anchor
-    : article.path + anchor;
+  let url;
+  if (article.kind === 'task' && article.path.endsWith('.md')) {
+    // Task outputs are raw markdown rendered by the shared md-viewer shell;
+    // index pages are plain HTML and load directly.
+    url = 'pages/md-viewer.html?kind=task&src=' +
+      encodeURIComponent('../' + article.path) + anchor;
+  } else {
+    url = article.path + anchor;
+  }
   frame.src = url;
   openLink.href = url;
 }
@@ -194,9 +217,7 @@ function optionHTML(rows, group) {
 function buildOptions() {
   const rows = rowsForMode();
   const groups = sortedGroups(rows);
-  if (sourceMode !== 'tasks') {
-    select.innerHTML = groups.map((g) => optionHTML(rows, g)).join('');
-  } else {
+  if (sourceMode === 'tasks') {
     // Group task options by recency of their last modification.
     const buckets = [[], [], []];
     groups.forEach((g) => buckets[recencyBucket(latestUpdated(g))].push(g));
@@ -207,6 +228,8 @@ function buildOptions() {
           '</optgroup>'
         : '')
       .join('');
+  } else {
+    select.innerHTML = groups.map((g) => optionHTML(rows, g)).join('');
   }
   // Nothing opened yet → preselect the source's index entry so the Reader
   // button opens the index by default (openReader re-selects afterwards).
@@ -237,7 +260,9 @@ export function openReader(id, { restore = false, section = null } = {}) {
   const article = getArticle(id) || getDefaultArticle();
   if (!article) return;
   // Tabs follow the opened entry (deep links may target the other source).
-  setSourceMode(article.kind === 'task' ? 'tasks' : 'articles');
+  setSourceMode(
+    article.kind === 'task' ? 'tasks' : 'articles'
+  );
   buildOptions();
   if (restore) {
     const idx = readerStack.indexOf(article.id);
@@ -413,6 +438,15 @@ const readerBtn = document.getElementById('btn-reader');
 
 buildOptions();
 updatePrevBtn();
+applyTabLabels();
+
+// Re-render tab labels + the dropdown when the shared UI language changes.
+onUiLangChange(() => {
+  applyTabLabels();
+  const cur = state.readerId ? getArticle(state.readerId) : null;
+  buildOptions();
+  if (cur) setSelectFor(cur);
+});
 
 function openSelected() {
   const group = select.value;
@@ -426,21 +460,16 @@ readerBtn.addEventListener('click', openSelected);
 
 select.addEventListener('change', openSelected);
 
-// Source tabs: swap the dropdown between articles and task outputs. If the
-// reader is already open, jump straight to that source's index page.
+// Source tabs: take the user to that source's index page, opened in the
+// reader modal (same destination as clicking the modal title).
 sourceBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const mode = btn.dataset.source;
-    if (mode === sourceMode) return;
     setSourceMode(mode);
     buildOptions();
     const idx = getArticle(indexIdForMode(mode)) || rowsForMode()[0];
     if (!idx) return;
-    if (isReaderOpen()) {
-      openReader(idx.id, { section: null });
-    } else {
-      select.value = idx.group;
-    }
+    openReader(idx.id, { section: null });
   });
 });
 

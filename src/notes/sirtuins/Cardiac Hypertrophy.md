@@ -31,7 +31,7 @@ Multiple sirtuins oppose pathological remodeling:
 - [[SIRT6]] attenuates [[Cardiac Hypertrophy]] through [[Histone H3]] K9 deacetylation and suppression of [[NF-κB|NF-κB]]-dependent inflammatory signaling, limiting pathological inflammation in the myocardium. Mechanistically, SIRT6 inhibits isoproterenol-induced hypertrophy via autophagy (FoxO3 nuclear retention through Akt attenuation), decreases p300 → NF-κB p65 acetylation, blocks IGF–Akt signaling via c-Jun, and suppresses STAT3 (Wu et al., 2022).
 - [[SIRT2]] protects against agonist-induced hypertrophy by deacetylating the transcription factor [[NFATc2]]; its loss reduces [[AMPK]] signaling, promoting aging-related and Ang II-induced hypertrophy (Wu et al., 2022).
 - [[SIRT5]] prevents age-related cardiac hypertrophy (Wu et al., 2022).
-- [[SIRT4]] is an adverse player — overexpression aggravates Ang II-induced hypertrophy by inhibiting [[MnSOD]] ([[Superoxide Dismutase 2|SOD2]]) activity (Wu et al., 2022).
+- [[SIRT4]] is an adverse player — overexpression aggravates Ang II-induced hypertrophy by inhibiting [[MnSOD]] (SOD2) activity (Wu et al., 2022).
 
 Together, the sirtuin family integrates nutrient sensing (NAD⁺) with cardiomyocyte growth, bioenergetics, and inflammation.
 
@@ -71,6 +71,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[FoxO1]], [[FOXO3a]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[GATA4]], [[Histone H3]], [[NF-κB]], [[Angiotensin II]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Heart Failure]], [[Cardiomyopathy]], [[Autophagy]], [[Reactive Oxygen Species]], [[OXPHOS]], [[Gene Expression]], [[NAD+]], [[NFATc2]], [[MnSOD]], [[Superoxide Dismutase 2]], [[AMPK]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[FoxO1]], [[FOXO3a]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[GATA4]], [[Histone H3]], [[NF-κB]], [[Angiotensin II]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Heart Failure]], [[Cardiomyopathy]], [[Autophagy]], [[Reactive Oxygen Species]], [[OXPHOS]], [[Gene Expression]], [[NAD+]], [[NFATc2]], [[MnSOD]], [[AMPK]]
 - Suggested new entity notes to create: [[Physiological Hypertrophy]], [[Calcineurin-NFAT]], [[Fetal Gene Reprogramming]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Cardiac Hypertrophy]], [[SIRT7]] ↔ [[Cardiac Hypertrophy]]

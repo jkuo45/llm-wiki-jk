@@ -4,7 +4,7 @@ import fs from 'node:fs';
 
 const envDir = fileURLToPath(new URL('..', import.meta.url));
 
-// The standalone public/pages/task-viewer.html is served outside the JS
+// The standalone public/pages/md-viewer.html is served outside the JS
 // bundle and imports '../components/markdown.js' (=> /components/markdown.js at
 // the deploy root). The bundled app imports the same module from web/components,
 // but Vite only copies publicDir — so emit it explicitly for production. Dev

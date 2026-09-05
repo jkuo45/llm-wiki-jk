@@ -1,6 +1,6 @@
 ---
 title: 粒線體荷爾蒙窗口 — 難度審查和個人化方案（75 公斤健康男性）
-description: Focused analysis of the difficulty of titrating the mitohormetic window within the adrenochrome (MB, AG) protocol, integrating diet, exercise, components, supplements, and IV preference for low-bioavailability agents. Scenario healthy male, middle age, 75 kg.
+description: 聚焦分析在腎上腺素紅（MB, AG）方案中滴定粒線體激效窗口的難度，整合飲食、運動、成分、補充劑以及對低生物利用度藥劑的靜脈注射偏好。情境為健康中年男性，75 公斤。
 published: 2026-07-13
 created: 2026-07-13
 source: #

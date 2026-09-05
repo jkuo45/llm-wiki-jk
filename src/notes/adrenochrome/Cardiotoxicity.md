@@ -31,7 +31,7 @@ Beyond general oxidative damage, adrenochrome produces distinct cardiac pathophy
 
 - **[[Arrhythmias]]:** Adrenochrome directly causes rhythm disturbances in the heart. The mechanism involves adrenochrome-mediated prolongation of the action potential duration and early afterdepolarizations in [[Cardiomyocytes]], likely through inhibition of delayed rectifier potassium currents (IKr) and increased intracellular calcium loading via redox-dependent modification of [[Calcium Handling|calcium handling]] proteins.
 - **[[Coronary artery constriction]]:** Adrenochrome is a potent coronary vasoconstrictor. It induces contraction of coronary artery smooth muscle, reducing blood flow to the [[Myocardium]]. This vasospastic effect is mediated by generating [[Superoxide anion]] which consumes [[Nitric Oxide]] (endothelium-derived relaxing factor), leading to endothelial dysfunction and impaired vasodilation.
-- **[[Cell necrosis]]:** At sufficiently high local concentrations, adrenochrome triggers direct necrotic cell death in the myocardium via uncontrolled [[Redox Cycling]] and ATP depletion.
+- **[[Necrosis]]:** At sufficiently high local concentrations, adrenochrome triggers direct necrotic cell death in the myocardium via uncontrolled [[Redox Cycling]] and ATP depletion.
 
 These effects position adrenochrome as a mechanistic link between acute catecholamine surge (as occurs in [[Myocardial infarction]] or stress cardiomyopathy) and the resulting cardiac complications.
 
@@ -57,8 +57,8 @@ List of documents that mention this entity
 - [[Neutrophils]] ↔ Cells that contribute to cardiotoxicity by producing ROS and adrenochrome during [[Inflammation]].
 - [[Arrhythmias]] ↔ Specific cardiac rhythm disturbance caused by adrenochrome.
 - [[Coronary artery constriction]] ↔ Specific vasospastic effect of adrenochrome.
-- [[Cell necrosis]] ↔ Necrotic cell death triggered by high adrenochrome concentrations.
+- [[Necrosis]] ↔ Necrotic cell death triggered by high adrenochrome concentrations.
 
 ## Linking Summary
-- New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Reactive Oxygen Species]], [[Epinephrine]], [[Oxidative Stress]], [[Neutrophils]], [[Inflammation]], [[Arrhythmias]], [[Coronary artery constriction]], [[Cell necrosis]], [[Nitric Oxide]], [[Myocardium]], [[Calcium Handling]]
+- New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Reactive Oxygen Species]], [[Epinephrine]], [[Oxidative Stress]], [[Neutrophils]], [[Inflammation]], [[Arrhythmias]], [[Coronary artery constriction]], [[Necrosis]], [[Nitric Oxide]], [[Myocardium]], [[Calcium Handling]]
 - Strong connections to strengthen: [[Cardiotoxicity]] ↔ [[Adrenochrome]]

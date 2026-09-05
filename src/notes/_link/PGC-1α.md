@@ -46,7 +46,8 @@ PGC-1α regulates a broad metabolic programme including:
 - **Fatty acid oxidation** — particularly in skeletal muscle
 - **Gluconeogenesis** — hepatic glucose production during fasting/CR
 - **Adaptive thermogenesis** — brown adipose tissue activation via [[UCP1]]
-- **Antioxidant defense** — induces [[SOD2]], [[Catalase]], [[Glutathione Peroxidase]]
+- **Irisin/FNDC5 expression** — induces [[FNDC5]] transcription, leading to release of the myokine [[Irisin]], which drives white adipose tissue browning, bone formation, and [[BDNF]]-dependent neuroprotection
+- **Antioxidant defense** — induces [[MnSOD]], [[Catalase]], [[Glutathione Peroxidase]]
 
 ## Neuroprotection
 
@@ -57,7 +58,7 @@ PGC-1α is a critical neuroprotective factor:
 
 ## Role in Mitohormesis
 
-PGC-1α is a key effector in the [[Mitohormesis]] paradigm: mild mitochondrial dysfunction activates PGC-1α via [[AMPK]] and [[CaMK]], which in turn induces antioxidant programs ([[Manganese superoxide dismutase|SOD2]], [[Catalase]], [[UCP2]]) to mitigate ROS produced during increased metabolic activity.
+PGC-1α is a key effector in the [[Mitohormesis]] paradigm: mild mitochondrial dysfunction activates PGC-1α via [[AMPK]] and [[CaMK]], which in turn induces antioxidant programs ([[MnSOD|SOD2]], [[Catalase]], [[UCP2]]) to mitigate ROS produced during increased metabolic activity.
 
 ## Regulation
 
@@ -109,11 +110,12 @@ PGC-1α can be activated by:
 - [[YY1]] — transcription factor partner linking mTORC1 to PGC-1α
 - [[TFEB]] — coordinated lysosomal/mitochondrial quality-control partner
 - [[BMAL1]] — SIRT1→PGC-1α amplifies BMAL1/CLOCK expression
+- [[FNDC5]] — PGC-1α directly induces FNDC5 transcription, producing the myokine [[Irisin]]
 - [[Neurodegeneration]] — PGC-1α loss sensitises neurons to oxidative damage
 - [[Metformin]] — activates PGC-1α via AMPK in cardiovascular protection
 
 ## Linking Summary
 
-- New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]], [[mTORC1]], [[YY1]], [[TFEB]], [[Metformin]], [[Mitohormesis]]
+- New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]], [[mTORC1]], [[YY1]], [[TFEB]], [[Metformin]], [[Mitohormesis]], [[FNDC5]], [[Irisin]], [[BDNF]]
 - Suggested new entity notes to create: [[ERRalpha]], [[PRMT1]], [[MPTP]]
-- Strong connections to strengthen: PGC-1α ↔ [[Mitochondrial Biogenesis]], PGC-1α ↔ [[SIRT1]], PGC-1α ↔ [[Caloric Restriction]], PGC-1α ↔ [[Neurodegeneration]]
+- Strong connections to strengthen: PGC-1α ↔ [[Mitochondrial Biogenesis]], PGC-1α ↔ [[SIRT1]], PGC-1α ↔ [[Caloric Restriction]], PGC-1α ↔ [[Neurodegeneration]], PGC-1α ↔ [[FNDC5]]

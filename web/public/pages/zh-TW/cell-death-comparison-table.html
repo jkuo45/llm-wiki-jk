@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>細胞死亡比較——凋亡 · Parthanatos · 壞死 · 壞死性凋亡 · 鐵死亡 · 自噬 · 焦亡</title>
+<meta name="description" content="七種主要細胞死亡程序比較表——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡——附篩選、強調顯示與欄位切換。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☠</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared chrome lives in themes/theme-02/theme.css */
+  :root{ --wrap: 1400px; }
+  /* table-is-the-page: full-viewport flex column, table fills remaining space */
+  html,body{ height:100%; }
+  body{ min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; }
+  .wide{ width:min(1560px,100% - 24px); margin-inline:auto; flex:1; min-height:0; display:flex; flex-direction:column; }
+  main#content{ flex:1; min-height:0; display:flex; flex-direction:column; }
+  /* compact title bar (no hero) — plasticlist-style: title, one line, source */
+  .titlebar{ padding:14px 0 0; }
+  .titlebar .kicker{ margin-bottom:10px; }
+  .visually-hidden{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+  main section#table{ flex:1; min-height:0; display:flex; flex-direction:column; padding:0; margin:0; border-bottom:0; }
+  /* plasticlist-style toolbar */
+  .toolbar{ background:color-mix(in srgb, var(--paper) 92%, white); border:1px solid var(--rule); box-shadow:var(--shadow); padding:10px 12px; margin:0; }
+  .toolbar .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar input[type="search"]{ font-family:var(--sans); font-size:13px; padding:7px 10px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); min-width:min(260px,100%); flex:1 1 220px; border-radius:var(--radius); }
+  .toolbar select{ font-family:var(--sans); font-size:12.5px; padding:7px 9px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink-soft); border-radius:var(--radius); }
+  .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
+  /* the table is the page */
+  .table-wrap{ flex:1; min-height:240px; margin-top:10px; overflow:auto; }
+  .table-wrap table{ font-size:13px; min-width:1180px; height:100%; border-collapse:separate; border-spacing:0; }
+  .table-wrap tr:last-child th{ border-bottom:0; }
+  .table-wrap thead th{ position:sticky; top:0; z-index:4; }
+  .table-wrap thead th:first-child{ z-index:5; }
+  .table-wrap tbody th{ font-family:var(--sans); font-size:12px; text-align:left; position:sticky; left:0; z-index:2; background:var(--sheet); border-bottom:1px solid var(--rule); padding:9px 12px; white-space:nowrap; vertical-align:top; min-width:170px; }
+  .table-wrap td{ min-width:200px; }
+  .table-wrap tbody th b{ display:block; font-size:12.5px; }
+  .table-wrap tbody th .sub{ display:block; font-size:10.5px; font-weight:400; letter-spacing:.02em; text-transform:none; color:var(--mute); margin-top:2px; }
+  .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; }
+  .pill.lytic{ color:var(--oxblood); } .pill.silent{ color:var(--forest); }
+  .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
+  /* paradigm cells: female/apoptosis + male/parthanatos (XX-caspase / XY-PAR/AIF) */
+  .table-wrap td.paradigm{ background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); border-left:2px solid var(--gold); }
+  td[data-hl]{ border-left:2px solid transparent; }
+  .table-wrap.hl-lytic td[data-hl~="lytic"]{ background:color-mix(in srgb, var(--oxblood) 9%, var(--sheet)); border-left-color:var(--oxblood); }
+  .table-wrap.hl-energy td[data-hl~="energy"]{ background:color-mix(in srgb, var(--gold) 12%, var(--sheet)); border-left-color:var(--gold); }
+  .table-wrap.hl-iron td[data-hl~="iron"]{ background:color-mix(in srgb, var(--slate) 12%, var(--sheet)); border-left-color:var(--slate); }
+  .table-wrap.hl-dna td[data-hl~="dna"]{ background:color-mix(in srgb, var(--forest) 10%, var(--sheet)); border-left-color:var(--forest); }
+  tr.row-hidden{ display:none; }
+  td mark{ background:color-mix(in srgb, var(--gold) 35%, transparent); padding:0 .15em; }
+  @media print{ body{ display:block; height:auto; } .wide,main#content,main section#table{ display:block; } .toolbar{ display:none; } .table-wrap{ overflow:visible; } }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#table">比較表</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap wide">
+  <main id="content">
+    <section id="table">
+      <div class="titlebar">
+        <p class="kicker">參考表 · 細胞死亡 · 2026年9月3日</p>
+        <h1 class="visually-hidden">細胞死亡比較——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡</h1>
+      </div>
+
+      <div class="toolbar" role="search" aria-label="表格控制">
+        <div class="row">
+          <input type="search" id="q" placeholder="篩選程序——例如 caspase、iron、NAD+、GSDMD…" aria-label="篩選表格">
+          <select id="hl" aria-label="強調模式">
+            <option value="">強調顯示：關閉</option>
+            <option value="hl-lytic">裂解／發炎爆發</option>
+            <option value="hl-energy">能量與 NAD⁺ 軸</option>
+            <option value="hl-iron">鐵與脂質過氧化</option>
+            <option value="hl-dna">DNA 損傷／PARP 軸</option>
+          </select>
+          <span class="count" id="count">7 個程序 · 9 個特徵</span>
+        </div>
+      </div>
+
+      <div class="table-wrap" id="tblwrap">
+        <table id="cdtbl" aria-label="細胞死亡比較表">
+          <thead>
+            <tr>
+              <th scope="col">程序</th>
+              <th scope="col">男性</th>
+              <th scope="col">女性</th>
+              <th scope="col">調控</th>
+              <th scope="col">能量</th>
+              <th scope="col">形態學</th>
+              <th scope="col">核心機制</th>
+              <th scope="col">交互作用</th>
+              <th scope="col">免疫</th>
+              <th scope="col">阻斷方式</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-program="apoptosis">
+              <th scope="row"><b>細胞凋亡</b><span class="sub">程序性 · 靜默</span></th>
+              <td>缺血後 caspase-3／8 活化較低；心肌梗塞後凋亡指數較高（25.9% vs 2.6%），心臟 Bax 較高（Biondi-Zoccai 2005）</td>
+              <td class="paradigm">女性優先以 caspase 依賴性凋亡而非 PARP-1／AIF 壞死死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；caspase-3 活化較高較早，caspase-8 核轉位為主；Q-VD-OPh 僅保護雌性（Liu 2009；Sharma 2011）；E2→Bcl-2（Dubal 1999）；XIAP 鑲嵌閾值（Dziadzio 2015）</td>
+              <td data-hl=""><span class="pill reg">調控性</span><span class="pill silent">非裂解</span><br>是</td>
+              <td data-hl="energy">依賴 ATP</td>
+              <td data-hl="">細胞皺縮、起泡完整、凋亡小體、DNA 梯狀片段</td>
+              <td data-hl="dna">外源性 Caspase-8 → Caspase-3；內源性 p53 → Bax／BAK → 細胞色素 c → Caspase-9 → Caspase-3；受 Bcl-2／XIAP 抑制</td>
+              <td data-hl="">Caspase-8 切割 RIPK1／3 以阻斷壞死性凋亡；Caspase-3／7 切割 GSDMD 以阻斷焦亡</td>
+              <td data-hl="">靜默，Annexin V 陽性</td>
+              <td data-hl="">z-VAD-FMK、Bcl-2</td>
+            </tr>
+            <tr data-program="parthanatos">
+              <th scope="row"><b>Parthanatos</b><span class="sub">調控性壞死——PARP1 · AIF · MIF</span></th>
+              <td class="paradigm">男性優先以 PARP-1／AIF 依賴性調控性壞死（parthanatos）而非 caspase 凋亡死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；PARP 缺失、nNOS 阻斷、PJ-34 僅保護雄性（McCullough 2005；Yuan 2009；Du 2004）</td>
+              <td>PARP-1 在雌性具保護作用——缺失則轉向細胞色素 c／caspase，可被 Q-VD-OPh 挽救；雌二醇神經保護需要 PARP-1（Stroke 2011）；AIF 亦會轉位但不致死（Yuan 2009）</td>
+              <td data-hl="dna energy"><span class="pill reg">調控性</span><br>是</td>
+              <td data-hl="energy dna">消耗 NAD⁺——PARP1 耗盡 NAD⁺／ATP</td>
+              <td data-hl="dna">染色質濃縮，50-kbp 片段，去極化，無凋亡小體，無腫脹*</td>
+              <td data-hl="dna energy">嚴重 DNA 損傷 → PARP1 過度活化 → PAR → AIF 釋放 → MIF 核轉位 → 大規模片段化，非 caspase 依賴</td>
+              <td data-hl="dna energy">SIRT1 經 AIF 促進 PARP1 存活；PARP1 與 SIRTs 競爭 NAD⁺*</td>
+              <td data-hl="energy lytic">經 NAD⁺ 崩潰＋DAMPs 引起發炎*</td>
+              <td data-hl="dna energy">PARP 抑制劑、AIF 阻斷、NAD⁺ 保存*</td>
+            </tr>
+            <tr data-program="necrosis">
+              <th scope="row"><b>壞死</b><span class="sub">意外性 · 被動</span></th>
+              <td>意外性破裂本身無已驗證的內在性別偏倚；觀察到的梗塞／AKI 男女差異來自調控性執行者（見 Parthanatos 列）</td>
+              <td>無已驗證的內在性別偏倚；若存在調控性選擇，雌性偏好 caspase 凋亡（見凋亡列）</td>
+              <td data-hl=""><span class="pill acc">意外性</span><br>否，意外發生</td>
+              <td data-hl="energy">ATP 耗竭</td>
+              <td data-hl="lytic">腫脹（膨脹壞死），早期破裂，DNA 塗抹狀</td>
+              <td data-hl="energy">鈉鉀泵衰竭 → Ca²⁺ 超載 → calpain；ROS → mPTP；LMP → cathepsin</td>
+              <td data-hl="">凋亡小體未被清除則發生繼發性壞死</td>
+              <td data-hl="lytic">高度發炎：HMGB1、ATP、尿酸 → TLR／RAGE／NLRP3</td>
+              <td data-hl="">無特異性阻斷劑</td>
+            </tr>
+            <tr data-program="necroptosis">
+              <th scope="row"><b>壞死性凋亡</b><span class="sub">調控性壞死</span></th>
+              <td>腎臟 IRI 中 RIPK1（約 10 倍）／RIPK3／p-MLKL 更早且持續；肌酸酐／BUN 較差，恢復延遲（Tran 2025，單一研究）</td>
+              <td>RIPK 峰值較低且延遲；卵巢切除縮小差距（卵巢激素保護）</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是</td>
+              <td data-hl="energy">依賴 ATP 的激酶級聯反應</td>
+              <td data-hl="lytic">如壞死般腫脹＋破裂，中度染色質濃縮</td>
+              <td data-hl="lytic energy">TNFα → 複合體 I（NF-κB）→ 複合體 II 凋亡 → 壞死小體 RIPK1 → RIPK3 → MLKL（Caspase-8 被阻斷時）；TRIF／ZBP1 旁路</td>
+              <td data-hl="lytic energy">MLKL 活化 NLRP3 → 焦亡；RIPK3–AMPK 觸發早期自噬隨後阻斷通量</td>
+              <td data-hl="lytic">設計上即發炎，DAMP 釋放</td>
+              <td data-hl="">Necrostatin-1、GSK872、necrosulfonamide</td>
+            </tr>
+            <tr data-program="ferroptosis">
+              <th scope="row"><b>鐵死亡</b><span class="sub">鐵 · 脂質</span></th>
+              <td>AR→MBOAT2 重塑閘門（Cell 2023）；腎缺血中睪固酮易感性（Park 2004，鐵死亡命名前研究）；腎小管 Gpx4 缺失損傷雄性腎臟（Ide 2022）</td>
+              <td>ER→MBOAT1 重塑閘門（Cell 2023）；腎小管 Gpx4 缺失因 NRF2 抗氧化張力而倖免，卵巢切除部分取消保護（Ide 2022）；E2／SmgGDS 心臟保護</td>
+              <td data-hl="iron"><span class="pill reg">調控性</span><br>是</td>
+              <td data-hl="energy iron">依賴 GSH／NADPH</td>
+              <td data-hl="iron">粒線體皺縮緻密，無核片段化，破裂</td>
+              <td data-hl="iron energy">System Xc⁻（SLC7A11）→ GSH → GPX4；平行 FSP1–泛醌–NADPH 軸；驅動因子 ACSL4、Fe²⁺ 芬頓反應、NCOA4</td>
+              <td data-hl="iron energy">SIRT3 缺失經 ROS 同時助長壞死性凋亡＋鐵死亡</td>
+              <td data-hl="iron lytic">發炎性脂質 MDA／4-HNE</td>
+              <td data-hl="iron">Ferrostatin-1、liproxstatin-1、deferoxamine</td>
+            </tr>
+            <tr data-program="autophagy">
+              <th scope="row"><b>自噬</b><span class="sub">存活 → 第二型死亡</span></th>
+              <td>中風後典型 Beclin-1／LC3 誘導；心臟基礎 Beclin-1／LC3 較高（Campesi 2013）；力竭運動僅在年輕雄性清除 p62</td>
+              <td>非 Beclin-1 依賴的 ATG7 路徑（Patrizz 2021）；肌肉基礎自噬／粒線體自噬較高，TFEB 約 1.8 倍；E2 雙向作用（神經元 mTOR–ULK1 抑制 vs ER+ 促存活）</td>
+              <td data-hl=""><span class="pill reg">調控性</span><br>是，以存活為主；僅過度時致死</td>
+              <td data-hl="energy">mTORC1 受抑制，AMPK 被活化</td>
+              <td data-hl="">雙層膜自噬體 → 自噬溶酶體</td>
+              <td data-hl="energy">ULK1–FIP200；Beclin-1–Vps34；Atg5-12-16L1＋LC3；經 SIRT1 的 TFEB</td>
+              <td data-hl="lytic">PINK1／Parkin 粒線體自噬抑制壞死性凋亡／NLRP3；Caspase-1 切割 Parkin 以解除抑制</td>
+              <td data-hl="">具保護性，清除 DAMP 來源</td>
+              <td data-hl="">3-MA／氯喹；rapamycin 誘導</td>
+            </tr>
+            <tr data-program="pyroptosis">
+              <th scope="row"><b>焦亡</b><span class="sub">發炎體 · 裂解</span></th>
+              <td>細菌／CLP 及心臟 LPS 模型中 NLRP3／IL-1β 較高——具模型依賴性，在純 LPS 休克中反轉</td>
+              <td>E2／ERβ 抑制 OVX 肺／腦中 NLRP3→IL-1β（Liu 2019；Thakkar 2016；Xu 2016）；創傷後 GSDMD 全身性風暴評分雌性較高（Sun 2025）</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是</td>
+              <td data-hl="energy lytic">依賴 ATP 的發炎體組裝</td>
+              <td data-hl="lytic">腫脹，10–20 nm 孔洞，破裂，無梯狀片段</td>
+              <td data-hl="lytic">典型：PRR＋ASC＋pro-Caspase-1 → Caspase-1 → Gasdermin D 孔洞＋IL-1β／IL-18；非典型：Caspase-4／5／11 感測 LPS → GSDMD → K⁺ 外流 → NLRP3；Caspase-3／Gasdermin E 分支</td>
+              <td data-hl="lytic">GSDMD 孔洞授權 NLRP3；SIRT3 降低 mtROS 以抑制 NLRP3</td>
+              <td data-hl="lytic">高度發炎：IL-1β／IL-18＋HMGB1、IL-1α、經孔洞釋出的 mtDNA</td>
+              <td data-hl="lytic">NLRP3 抑制劑、Caspase-1 抑制劑、disulfiram／GSDMD 阻斷*</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </main>
+</div>
+
+<script>
+"use strict";
+(function(){
+  var q = document.getElementById('q'), hl = document.getElementById('hl'),
+      wrap = document.getElementById('tblwrap'), tbl = document.getElementById('cdtbl'),
+      count = document.getElementById('count');
+  function stripe(tag){ return tag.replace(/[^\w+²⁻→\/-]+/g,' ').trim(); }
+  function apply(){
+    var needle = (q.value||'').toLowerCase().trim(), vis = 0;
+    var rows = tbl.tBodies[0].rows;
+    for (var i=0;i<rows.length;i++){
+      var r = rows[i], txt = r.textContent.toLowerCase();
+      var show = !needle || txt.indexOf(needle) > -1;
+      r.classList.toggle('row-hidden', !show);
+      if (show) vis++;
+      // in-cell match highlight
+      r.querySelectorAll('td').forEach(function(td){
+        td.querySelectorAll('mark').forEach(function(m){ m.replaceWith(document.createTextNode(m.textContent)); });
+        if (needle && show){
+          var node = Array.prototype.find.call(td.childNodes, function(n){ return n.nodeType===3 && n.textContent.toLowerCase().indexOf(needle)>-1; });
+          if (node){
+            var idx = node.textContent.toLowerCase().indexOf(needle), rng = document.createRange();
+            rng.setStart(node, idx); rng.setEnd(node, idx+needle.length);
+            var mk = document.createElement('mark'); rng.surroundContents(mk);
+          }
+        }
+      });
+    }
+    count.textContent = vis + ' 個程序 · 9 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
+  }
+  q.addEventListener('input', apply);
+  hl.addEventListener('change', function(){
+    wrap.classList.remove('hl-lytic','hl-energy','hl-iron','hl-dna');
+    if (hl.value) wrap.classList.add(hl.value);
+  });
+  apply();
+})();
+</script>
+
+<script>
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every data table,
+     with TSV export (shared theme-02/pages-svg.js). -->
+<script src="../themes/theme-02/pages-svg.js"></script>
+</body>
+</html>

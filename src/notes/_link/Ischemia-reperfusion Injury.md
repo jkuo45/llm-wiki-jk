@@ -80,7 +80,7 @@ Ischemic preconditioning (IPC) — brief, repeated ischemic episodes before a su
 
 ### Mechanical and Emerging Approaches
 
-Remote ischemic conditioning protocols are being standardized for clinical use. Stem cell therapy and extracellular vesicle (exosome) administration promote tissue repair and modulate immune responses in preclinical models. Gene therapy approaches targeting [[HIF-1α]] (hypoxia adaptation), [[SOD2]] (mitochondrial antioxidant defense), and anti-apoptotic genes are in early development.
+Remote ischemic conditioning protocols are being standardized for clinical use. Stem cell therapy and extracellular vesicle (exosome) administration promote tissue repair and modulate immune responses in preclinical models. Gene therapy approaches targeting [[HIF-1α]] (hypoxia adaptation), [[MnSOD]] (mitochondrial antioxidant defense), and anti-apoptotic genes are in early development.
 
 # 
 
@@ -113,6 +113,6 @@ List of documents that mention this entity
 - [[ERK1_2|ERK1/2]] — MAP kinases involved in preconditioning-mediated cardioprotection
 
 ## Linking Summary
-- New links added: [[Reactive Oxygen Species]], [[NF-κB]], [[ICAM-1]], [[TNF-α]], [[IL-1β]], [[Myocardial Infarction]], [[PI3K]], [[Cyclosporin A]], [[GPX4]], [[PKC]], [[ERK1_2|ERK1/2]], [[ATP]], [[Glycolysis]], [[Lactate]], [[NADPH Oxidase]], [[Damage-Associated Molecular Patterns]], [[P-Selectin]], [[E-Selectin]], [[Bcl-2]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Glutathione]], [[NLRP3 Inflammasome]], [[PARP1]], [[tPA]], [[Myocardial Stunning]], [[N-Acetylcysteine]], [[Edaravone]], [[Anakinra]], [[SOD2]], [[HIF-1α]], [[Cytochrome c]], [[Blood-Brain Barrier]], [[Hemorrhagic Transformation]], [[Calpain]], [[IL-6]]
-- Suggested new entity notes to create: [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[No-Reflow Phenomenon]], [[Ischemic Preconditioning]], [[mPTP]]
+- New links added: [[Reactive Oxygen Species]], [[NF-κB]], [[ICAM-1]], [[TNF-α]], [[IL-1β]], [[Myocardial Infarction]], [[PI3K]], [[Cyclosporin A]], [[GPX4]], [[PKC]], [[ERK1_2|ERK1/2]], [[ATP]], [[Glycolysis]], [[Lactate]], [[NADPH Oxidase]], [[Damage-Associated Molecular Patterns]], [[P-Selectin]], [[E-Selectin]], [[Bcl-2]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Glutathione]], [[NLRP3 Inflammasome]], [[PARP1]], [[tPA]], [[Myocardial Stunning]], [[N-Acetylcysteine]], [[Edaravone]], [[Anakinra]], [[MnSOD]], [[HIF-1α]], [[Cytochrome c]], [[Blood-Brain Barrier]], [[Hemorrhagic Transformation]], [[Calpain]], [[IL-6]]
+- Suggested new entity notes to create: [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[No-Reflow Phenomenon]], [[Ischemic Preconditioning]]
   - Strong connections to strengthen: Ischemia-reperfusion Injury ↔ Autophagy, Ischemia-reperfusion Injury ↔ Reactive Oxygen Species, Ischemia-reperfusion Injury ↔ NF-κB, Ischemia-reperfusion Injury ↔ Myocardial Infarction

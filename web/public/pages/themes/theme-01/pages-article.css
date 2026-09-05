@@ -1,0 +1,58 @@
+/* ===== theme-01 — article-page components =====
+   Shared by long-form article pages (sirt3-aging-aging-related-diseases,
+   en-US + future zh-TW). Loaded after pages.css; each page keeps only
+   truly page-specific rules inline.
+   Three groups:
+     1. Callouts — highlighted key excerpts (default amber / teal / red)
+     2. Figure shells — .fig / .fig-canvas / .fig-cap wrappers for diagrams
+     3. Diagram palette — SVG utility classes resolving to theme CSS vars so
+        inline/JS-rendered diagrams re-theme automatically with the site
+        light/dark toggle (no per-theme overrides needed here).
+*/
+
+/* ===== 1. Callouts ===== */
+.callout{background:var(--amber-bg); border:1px solid var(--amber-border); border-left:4px solid var(--amber);
+  border-radius:10px; padding:16px 20px; margin:20px 0;}
+.callout p{margin:0; color:var(--text); font-size:.95rem; line-height:1.6;}
+.callout .callout-tag{display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:1.5px;
+  color:var(--amber); font-weight:700; margin-bottom:6px;}
+.callout.teal{background:rgba(62,201,167,.08); border-color:rgba(62,201,167,.3); border-left-color:var(--teal);}
+.callout.teal .callout-tag{color:var(--teal);}
+.callout.red{background:rgba(228,87,94,.08); border-color:rgba(228,87,94,.3); border-left-color:var(--red);}
+.callout.red .callout-tag{color:var(--red);}
+
+/* ===== 2. Figure shells ===== */
+.fig{margin:26px 0;}
+.fig-canvas{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px;}
+.fig-canvas svg{width:100%; height:auto; display:block;}
+.fig-cap{font-size:.82rem; color:var(--dim); line-height:1.55; margin-top:10px;}
+.fig-cap b{color:var(--text);}
+
+/* ===== 3. Diagram palette (SVG utility classes) =====
+   Fill/text accents:   .s-<accent>          stroke accents: .s-<accent>-s
+   Solid shape fills:   .<accent>-f          surfaces: .panel-f .card-f .rowh-f
+   Neutral lines:       .stroke-line .stroke-line2
+   All resolve to theme CSS variables → automatic dark/light theming. */
+.s-dim{fill:var(--dim);}
+.s-mute{fill:var(--mute);}
+.s-text{fill:var(--text);}
+.s-teal{fill:var(--teal);}     .s-teal-s{stroke:var(--teal);}
+.s-red{fill:var(--red);}       .s-red-s{stroke:var(--red);}
+.s-amber{fill:var(--amber);}   .s-amber-s{stroke:var(--amber);}
+.s-blue{fill:var(--blue);}     .s-blue-s{stroke:var(--blue);}
+.s-green{fill:var(--green);}   .s-green-s{stroke:var(--green);}
+.s-purple{fill:var(--purple);} .s-purple-s{stroke:var(--purple);}
+.s-pink{fill:var(--pink);}     .s-pink-s{stroke:var(--pink);}
+.teal-f{fill:var(--teal);}
+.red-f{fill:var(--red);}
+.amber-f{fill:var(--amber);}
+.blue-f{fill:var(--blue);}
+.green-f{fill:var(--green);}
+.purple-f{fill:var(--purple);}
+.pink-f{fill:var(--pink);}
+.panel-f{fill:var(--code-bg);}
+.card-f{fill:var(--card);}
+.rowh-f{fill:var(--row-hover);}
+.stroke-line{stroke:var(--line);}
+.stroke-line2{stroke:var(--line2);}
+.matrix-cell{cursor:help;}

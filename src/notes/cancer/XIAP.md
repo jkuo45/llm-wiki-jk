@@ -2,7 +2,7 @@
 title: XIAP
 description: X-linked inhibitor of apoptosis protein (BIRC4); the most potent and only IAP family member with direct caspase-inhibitory activity, regulated by opposing phosphorylation signals from TBK1 and Akt and targeted by Smac mimetics in cancer.
 created: 2026-07-06
-updated: 2026-08-16
+updated: 2026-09-03
 tags:
   - protein
   - enzyme
@@ -55,6 +55,10 @@ XIAP levels and activity are regulated by several mechanisms:
 > [!important] Opposing Phosphorylation Signals on XIAP
 > **TBK1** phosphorylates XIAP at Ser430 (RING domain), triggering degradation and sensitizing cells to apoptosis. **Akt** phosphorylates XIAP at Ser87, stabilizing it and promoting tumor survival. The balance between these signals determines XIAP levels and apoptotic threshold in cancer cells.
 
+## X-linked mosaicism and apoptotic threshold
+
+[[XIAP]] (BIRC4, Xq25) is X-linked, so females are lifelong mosaics: random X-chromosome inactivation leaves mixed wild-type- and variant-expressing cell populations, while males are hemizygous. In XIAP-deficiency (XLP2) kindreds, asymptomatic carrier females show X-chromosome-inactivation skew toward the wild-type allele — consistent with a selective survival advantage of wild-type-XIAP cells via anti-apoptotic activity — whereas symptomatic carriers show random or mutant-skewed inactivation with bimodal XIAP expression (Dziadzio et al. 2015 large kindred; reviewed *Front Pediatr* 2021). XIAP-deficient lymphocytes show enhanced activation-induced and death-receptor (CD95/TRAILR/TCR) apoptosis (Rigaud et al. 2006), so mosaic fraction directly sets a tissue-level apoptotic threshold. XIAP is also catalogued as a variable inactivation-escape gene, which would predict modestly higher basal dosage in some female tissues — single-source, unconfirmed functionally, treated as hypothesis. See [[Apoptosis]] for the broader XX-caspase/XY-necrosis framework.
+
 ## Role in Cancer
 
 - **Therapeutic Target**: XIAP is an attractive molecular target due to its broad inhibition of apoptotic pathways.
@@ -100,3 +104,4 @@ XIAP levels and activity are regulated by several mechanisms:
 - New links added: [[Akt]], [[Phosphorylation]], [[Apoptosis]], [[Smac DIABLO]], [[TBK1]], [[IKKε]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]], [[Proteasome]], [[NFKB]], [[TRAIL]], [[miR-24]], [[miR-7]], [[Inhibitor of Apoptosis Proteins]]
 - Suggested new entity notes to create: [[Smac mimetics]], [[IAP family]], [[IKKε]], [[miR-24]], [[miR-7]]
 - Strong connections to strengthen: [[XIAP]] ↔ [[Caspase-3]], [[XIAP]] ↔ [[Akt]], [[XIAP]] ↔ [[TBK1]], [[XIAP]] ↔ [[Smac DIABLO]]
+- Sex-dimorphism enrichment (2026-09-03): X-linked mosaicism sets tissue apoptotic threshold (Dziadzio 2015; Front Pediatr 2021; Rigaud 2006); XCI-escape dosage treated as hypothesis.

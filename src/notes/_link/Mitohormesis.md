@@ -39,12 +39,12 @@ The [[Integrated Stress Response]] (ISR) is a central mediator of mitohormetic s
 Mitochondrial stress signals converge on [[PGC-1α]], the master transcriptional coactivator of mitochondrial biogenesis:
 - [[AMPK]] phosphorylates PGC1α directly (Thr177, Ser538), enhancing its activity.
 - [[SIRT1]] deacetylates PGC1α (Lys residues), enabling coactivation of [[PPARγ]], [[ERRalpha]], and [[NRF1]]/[[NRF2]].
-- [[SIRT3]], a mitochondrial [[NAD+]]-dependent deacetylase, activates [[SOD2]] and [[IDH2]] to manage mROS, providing a negative feedback loop.
+- [[SIRT3]], a mitochondrial [[NAD+]]-dependent deacetylase, activates [[MnSOD]] and [[IDH2]] to manage mROS, providing a negative feedback loop.
 
 ### [[SIRT1]]/[[SIRT3]] Involvement
 The NAD⁺-dependent sirtuin family links mitochondrial stress to metabolic adaptation:
 - Mitochondrial dysfunction elevates the [[NAD+]]/[[NADH]] ratio, activating [[SIRT1]] in the nucleus and [[SIRT3]] in mitochondria.
-- SIRT1 deacetylates [[FOXO]]/[[FOXO3a]] to drive [[SOD2]] and [[Catalase]] expression.
+- SIRT1 deacetylates [[FOXO]]/[[FOXO3a]] to drive [[MnSOD]] and [[Catalase]] expression.
 - SIRT3 deacetylates [[Cyclophilin D]], modulating the [[Mitochondrial permeability transition pore]] (mPTP) opening threshold.
 
 ### ROS Signaling Specificity

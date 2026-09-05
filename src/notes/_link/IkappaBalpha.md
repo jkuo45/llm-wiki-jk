@@ -27,7 +27,7 @@ Because IκBα degradation is the rate-limiting step for canonical [[NF-κB|NF-�
 
 ## Clinical Relevance
 
-[[NFKBIA]] deletions or mutations are found in [[Hodgkin Lymphoma]] and [[glioblastoma]]. IκBα dysfunction leads to constitutive NF-κB activation and chronic [[Inflammation]]. [[Polymorphisms]] in NFKBIA are associated with [[Inflammatory Bowel Disease]] and [[Sepsis]] susceptibility. Pharmacologically stabilizing IκBα (or blocking its degradation) is being explored to suppress SASP-driven [[Inflammaging]] and inflammatory disease.
+[[NFKBIA]] deletions or mutations are found in [[Hodgkin Lymphoma]] and [[Glioblastoma]]. IκBα dysfunction leads to constitutive NF-κB activation and chronic [[Inflammation]]. [[Polymorphisms]] in NFKBIA are associated with [[Inflammatory Bowel Disease]] and [[Sepsis]] susceptibility. Pharmacologically stabilizing IκBα (or blocking its degradation) is being explored to suppress SASP-driven [[Inflammaging]] and inflammatory disease.
 
 ## Documents
 
@@ -50,7 +50,7 @@ Because IκBα degradation is the rate-limiting step for canonical [[NF-κB|NF-�
 - [[Proteasome]] — degrades phosphorylated, ubiquitinated IκBα
 - [[Negative Feedback Loop]] — IκBα is transcriptionally induced by NF-κB
 - [[Hodgkin Lymphoma]] — NFKBIA mutations drive constitutive NF-κB
-- [[glioblastoma]] — NFKBIA deletions are common in this brain cancer
+- [[Glioblastoma]] — NFKBIA deletions are common in this brain cancer
 - [[SASP|Senescence-Associated Secretory Phenotype]] — IκBα turnover gates NF-κB-dependent SASP
 
 ## Linking Summary

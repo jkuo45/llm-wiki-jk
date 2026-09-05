@@ -16,13 +16,13 @@ tags:
   - dopamine
   - epinephrine
   - graph-theory
-source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
+source: graphify-out/graph.json + scripts/analysis/node_analysis.py (networkx/scipy)
 ---
 
 # Sirtuins × Catecholamines Combined Node Analysis
 
 > Graph-derived comparative node analysis. Date: 15_August_2026
-> Method: `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources sirt1 sirt3 sirt2 comt mao --targets dopamine epinephrine`
+> Method: `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources sirt1 sirt3 sirt2 comt mao --targets dopamine epinephrine`
 > Corpus: `graphify-out/graph.json` (2479 nodes / 3388 links directed), undirected projection, self-loops removed, giant component analysed (2028 nodes, 209 total components).
 
 ## Data Reduction Note
@@ -134,7 +134,7 @@ source: graphify-out/graph.json + scripts/04_node_analysis.py (networkx/scipy)
 
 ## Methodology Notes & Reproducibility
 
-- Command: `uv run --with networkx --with scipy python3 scripts/04_node_analysis.py --sources sirt1 sirt3 sirt2 comt mao --targets dopamine epinephrine` (default `--seed 1`).
+- Command: `uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py --sources sirt1 sirt3 sirt2 comt mao --targets dopamine epinephrine` (default `--seed 1`).
 - Undirected projection; giant component only; self-loops removed.
 - Fiedler eigenvector sign arbitrary — compare magnitude/relative placement.
 - `eigsh(which='SM')` and truncated `svds` avoided (see task_output_sirtuins_adrenochrome_node_analysis_15_August_2026.md).

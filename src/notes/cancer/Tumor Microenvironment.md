@@ -29,7 +29,7 @@ The **tumor microenvironment (TME)** is the complex ecosystem of non-malignant c
 ### Cellular Components
 
 - **Cancer-Associated Fibroblasts (CAFs)**: Activated fibroblasts that secrete growth factors, cytokines, and proteases; major contributors to [[SASP|Senescence-Associated Secretory Phenotype]] signaling in the tumor stroma. Senescent fibroblasts with a SASP are a key source of pro-tumorigenic factors.
-- **Tumor-Associated Macrophages (TAMs)**: Often polarized toward an M2-like, immunosuppressive phenotype; promote angiogenesis and tissue remodeling; secrete IL-10 and TGF-β.
+- **Tumor-Associated Macrophages (TAMs)**: Often polarized toward an M2-like, immunosuppressive phenotype; promote angiogenesis and tissue remodeling; secrete IL-10 and TGF-β. TAM polarization is metabolically coupled — a **SENP1–SIRT3–cholesterol axis** drives M2 bias and suppresses [[CD8 T cells|CD8⁺ T cells]] (see [[Tumor-Associated Macrophage]]).
 - **Myeloid-Derived Suppressor Cells (MDSCs)**: Potently immunosuppressive myeloid cells that inhibit T cell and NK cell function and promote immune evasion; highly CD38⁺ in some cancers.
 - **Regulatory T cells (Tregs)**: Dampen anti-tumor immune responses; express [[CD38]] and are targeted by anti-CD38 mAbs.
 - **Endothelial Cells**: Form the tumor vasculature; respond to proangiogenic signals from tumor and stromal cells; regulate immune cell infiltration.
@@ -121,8 +121,17 @@ Anti-CD38 therapies ([[Daratumumab]], [[Isatuximab]]) can reshape the TME by:
 - [[STAT3]] — Mediates IL-6/CD73 adenosine axis in the TME.
 - [[Multiple Myeloma]] — Bone marrow TME critical in MM pathogenesis.
 - [[Inflammation]] — Chronic inflammation in TME links to tumor promotion.
+- [[Tumor-Associated Macrophage]] — TAMs; SENP1-SIRT3-cholesterol axis drives M2 polarization and immunosuppression.
+- [[SIRT3]] — mitochondrial deacetylase; SIRT3 in TAMs reprograms their metabolism (cholesterol) toward immunosuppression.
+- [[Metabolic Plasticity]] — metabolic plasticity in tumor cells and immune cells shapes TME immunometabolism.
+- [[Ferroptosis]] — iron/redox cell-death modality modulated by the SIRT3 network in the TME.
 
-## Linking Summary
+## Linking Summary (immunometabolism additions, 2026-08-31)
+
+- New links added: [[Tumor-Associated Macrophage]], [[SIRT3]], [[Metabolic Plasticity]], [[Ferroptosis]]
+- Strong connections to strengthen:
+  - [[Tumor Microenvironment]] ↔ [[Tumor-Associated Macrophage]] — TAMs as the dominant immunosuppressive immune population
+  - [[Tumor Microenvironment]] ↔ [[SIRT3]] — SIRT3-mediated immunometabolic reprogramming of TAMs
 
 - New links added: [[Tumor Microenvironment]], [[Cancer]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[Paracrine Senescence]], [[Therapy-Induced Senescence]], [[Senolytic]], [[Senomorphic Therapy]], [[Angiogenesis]], [[Metastasis]], [[Immune Evasion]], [[Inflammaging]], [[IL-6]], [[IL-8]], [[VEGF]], [[CCL2]], [[CXCL1]], [[MMP-9]], [[TNFα]], [[Fibroblasts]], [[Macrophages]], [[Endothelial Cells]], [[Natural Killer Cells]], [[CD38]], [[CD73]], [[NAD+]], [[Daratumumab]], [[Isatuximab]], [[Multiple Myeloma]], [[Inflammation]], [[PD-L1]], [[STAT3]], [[Epithelial-to-mesenchymal transition|EMT]], [[Senescence Surveillance]]
 - Suggested new entity notes to create: [[Cancer-Associated Fibroblasts]], [[Tumor-Associated Macrophages]], [[Immune Evasion]], [[cADPR]], [[Adenosine Pathway]], [[CAF (Cancer-Associated Fibroblast)]]

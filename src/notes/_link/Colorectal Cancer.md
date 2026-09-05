@@ -3,7 +3,7 @@ title: Colorectal Cancer
 description: Colorectal cancer (CRC) is a common malignant tumor affecting the colon
   or rectum.
 created: 2026-05-29
-updated: 2026-08-11
+updated: 2026-08-31
 tags:
   - medical-condition
 aliases: []
@@ -32,9 +32,18 @@ CRC ranks third in incidence worldwide and second most common cause of cancer de
 - **[[SIRT2]]**: IDH1 deacetylation inhibits liver metastasis.
 - **[[SIRT4]]**: Upregulates E-cadherin, suppresses proliferation/migration/invasion via glutamine-metabolism inhibition; increases sensitivity to 5-fluorouracil by inhibiting the cell cycle.
 - **[[SIRT5]]**: Enhances glutaminolysis (deglutarylation-dependent) → colorectal carcinogenesis; deacetylates lactate dehydrogenase B → hyperactive autophagy → tumorigenesis.
-- **[[SIRT3]]**: Overexpression improves drug resistance via SOD2/PGC-1α.
+- **[[SIRT3]]**: Dual role — overexpression improves drug resistance via SOD2/PGC-1α, but SIRT3 also acts as an oncogene in CRC by deacetylating [[SHMT2]] at Lys95, activating [[Serine]] metabolism and promoting colorectal carcinogenesis (Wei et al., *Nat Commun* 2018). The SIRT3–SHMT2 axis increases serine consumption and NADPH levels, fueling nucleotide biosynthesis and tumor cell proliferation. This represents a key mechanism of SIRT3-driven oncogenesis in CRC.
 - **[[SIRT6]]**: Expression related to improved survival.
 - **[[SIRT7]]**: Increased in CRC tissue; promotes CRC cell invasion via E-cadherin inhibition (EMT).
+
+## Serine Metabolism in CRC
+
+> [!warning]
+> [[SHMT2]]-driven [[Serine]] metabolism is a critical driver of CRC progression and chemoresistance. SHMT2 is significantly upregulated in CRC tissues, and patients with high SHMT2 expression exhibit lower survival rates.
+
+- **SHMT2 as oncogenic enzyme**: SHMT2 catalyzes the conversion of serine to glycine in mitochondria, providing one-carbon units for nucleotide biosynthesis and NADPH for redox defense. The [[SIRT3]]-mediated deacetylation of SHMT2 at Lys95 activates this pathway, promoting colorectal carcinogenesis.
+- **Chemoresistance to [[5-Fluorouracil]]**: 5-FU-resistant CRC cells display a strong serine dependency — they upregulate SHMT2 to compartmentalize one-carbon metabolism in mitochondria, supporting purine biosynthesis and DNA damage repair. Interfering with serine availability or SHMT2 activity can revert 5-FU resistance.
+- **Proline and PYCR1**: [[PYCR1]] knockdown inhibits CRC proliferation, drug resistance, and EMT by regulating STAT3-mediated p38 MAPK and NF-κB signaling.
 
 ## Documents
 
@@ -75,6 +84,6 @@ List of documents that mention this entity
 
 ## Linking Summary (Sirtuin Involvement)
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[E-cadherin]], [[c-Myc]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[E-cadherin]], [[c-Myc]], [[SHMT2]], [[Serine]], [[5-Fluorouracil]], [[PYCR1]]
 - Suggested new entity notes to create: [[IDH1]], [[FoxQ1]], [[GOT1]]
-- Strong connections to strengthen: [[Colorectal Cancer]] ↔ [[SIRT4]], [[Colorectal Cancer]] ↔ [[SIRT5]], [[Colorectal Cancer]] ↔ [[SIRT1]]
+- Strong connections to strengthen: [[Colorectal Cancer]] ↔ [[SIRT4]], [[Colorectal Cancer]] ↔ [[SIRT5]], [[Colorectal Cancer]] ↔ [[SIRT1]], [[Colorectal Cancer]] ↔ [[SHMT2]] (serine metabolism)

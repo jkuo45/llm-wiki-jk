@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 
-import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS } from './data.js';
+import { RAW_NODES, RAW_EDGES, TRANSLATIONS, descByLabel, descByLabelZh, noteUrl, nodeMap, LEGEND, adjacency, GRAPH_META, DATASET_MODE, loadRolesMeta, loadLinkPrediction, SUGGESTED_PROMPTS, BUILD_INFO } from './data.js';
 import { state } from './state.js';
 import {
   camera, nodeObjects, edgeSegments, edgeOffColor,
@@ -22,6 +22,10 @@ import { INTENT_API, EXECUTE_STREAM_API, postJSON, resetSession, sseEvents } fro
 import { matchNodesInText, edgesBetween, bfsFromSets, computeDatasetStats } from './analytics.js';
 import { promptSignIn } from './auth.js';
 import { registerModal, openModal, closeModal, isModalOpen, anyModalOpen } from './modal.js';
+import { enhanceSegmented } from './ui/Segmented.js';
+import { enhancePanel } from './ui/Panel.js';
+import { showWikiTooltip, repositionWikiTooltip, hideWikiTooltip } from './ui/Tooltip.js';
+import { enhanceLangToggle } from './ui/LangToggle.js';
 
 // ------------------------------------------------------------
 // Elements + API endpoints
@@ -39,6 +43,15 @@ const promptSend = document.getElementById('prompt-send');
 const analysisCloseBtn = document.getElementById('analysis-close');
 const promptLangBtns = Array.from(
   document.querySelectorAll('#analysis-panel .lang-toggle [data-lang], #chat-panel .lang-toggle [data-lang]'));
+// Adopted lang toggles (radiogroup semantics + arrow keys). Click wiring and
+// active-class sync go through these instead of per-button listeners.
+const promptLangSegs = Array.from(
+  document.querySelectorAll('#analysis-panel .lang-toggle, #chat-panel .lang-toggle'))
+  .map((el) => enhanceLangToggle(el, {
+    onChange: (lang) => {
+      if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
+    },
+  }));
 const promptFilterCheckbox = document.getElementById('prompt-filter-nodes');
 // Persistent quantity filter pill — rendered into the analysis sub-row slot and
 // floats above the full-screen detail card (the sub-row has a raised z-index).
@@ -116,6 +129,7 @@ function applyUiLang(lang) {
   state.analysisUiLang = uiLang;
 
   promptLangBtns.forEach((b) => b.classList.toggle('active', b.dataset.lang === uiLang));
+  promptLangSegs.forEach((seg) => seg.set(uiLang));
   [...promptLangBtns].forEach((b) => { b.title = t(b.dataset.lang === 'zh-TW' ? 'langZh' : 'langEn'); });
   const langToggle = document.querySelector('#analysis-panel .lang-toggle');
   if (langToggle) langToggle.setAttribute('aria-label', t('panelLanguage'));
@@ -158,33 +172,22 @@ export function applyAnalysisUiLang(lang) {
   if ((lang === 'en-US' || lang === 'zh-TW') && lang !== uiLang) applyUiLang(lang);
 }
 
-promptLangBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
-    if (lang && lang !== uiLang) { applyUiLang(lang); setUiLang(lang); }
-  });
-});
 // Re-render this panel whenever the shared language changes elsewhere.
 onUiLangChange((lang) => { if (lang && lang !== uiLang) applyUiLang(lang); });
+// (Lang-toggle click wiring lives on promptLangSegs — ui/LangToggle.js.)
 
 // ------------------------------------------------------------
 // Response view mode (MD / HTML) — choose how a response is rendered.
-//   html : open the response in the standalone HTML-mode page (pages.css) (default)
-//   md   : render markdown inline in the prompt bubble
+//   md   : render markdown inline in the prompt bubble (default)
+//   html : open the response in the standalone HTML-mode page (pages.css)
 // The per-message globe button still lets you open HTML on demand in MD mode.
 // ------------------------------------------------------------
-let responseMode = 'html'; // 'md' | 'html'
+let responseMode = 'md'; // 'md' | 'html'
 
 if (responseModeWrap) {
-  responseModeWrap.querySelectorAll('.resp-mode-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      responseMode = btn.dataset.mode === 'html' ? 'html' : 'md';
-      responseModeWrap.querySelectorAll('.resp-mode-btn').forEach(b => {
-        const on = b === btn;
-        b.classList.toggle('active', on);
-        b.setAttribute('aria-pressed', on ? 'true' : 'false');
-      });
-    });
+  enhanceSegmented(responseModeWrap, {
+    valueAttr: 'data-mode',
+    onChange: (v) => { responseMode = v === 'html' ? 'html' : 'md'; },
   });
 }
 
@@ -225,22 +228,28 @@ function updateChatBtn() {
   chatBtn.classList.toggle('visible', analysisPanelOpen && !promptOpen);
 }
 
-analysisBtn.addEventListener('click', () => {
-  analysisPanelOpen = !analysisPanelOpen;
-  analysisPanel.classList.toggle('open', analysisPanelOpen);
-  analysisBtn.classList.toggle('open', analysisPanelOpen);
-  if (!analysisPanelOpen) setActiveWindow(null);
-  state.analysisOpen = analysisPanelOpen;
+// Panel mechanics (open class, launcher button state, aria-expanded) are
+// owned by ui/Panel.js; the app-level state + side effects stay here.
+const analysisPanelApi = enhancePanel(analysisPanel, { button: analysisBtn });
+
+function setAnalysisOpen(open) {
+  analysisPanelOpen = open;
+  state.analysisOpen = open;
   state.analysisMode = 'graph';
+  if (open) analysisPanelApi.open();
+  else analysisPanelApi.close();
+  if (!open) setActiveWindow(null);
   updateChatBtn();
   // Surface the info card for whatever is already selected when the panel
   // opens (node/edge info now lives in the analysis panel, not a sidebar).
-  if (analysisPanelOpen) {
+  if (open) {
     if (state.selectedNode) showInfo(state.selectedNode);
     else if (state.selectedEdge) showEdgeInfo(state.selectedEdge);
   }
   updateHash();
-});
+}
+
+analysisBtn.addEventListener('click', () => setAnalysisOpen(!analysisPanelOpen));
 
 // Floating chat window (bottom-right launcher): toggles the near-full-screen
 // prompt/chat surface independently of the graph-tools panel.
@@ -265,25 +274,23 @@ if (window.visualViewport) {
 window.addEventListener('resize', syncChatPanelKeyboard);
 syncChatPanelKeyboard();
 
+const chatPanelApi = enhancePanel(chatPanel, {
+  button: chatBtn,
+  focusEl: promptInput,
+  onOpen: () => { state.chatOpen = true; updateChatBtn(); syncChatPanelKeyboard(); },
+  onClose: () => { state.chatOpen = false; updateChatBtn(); syncChatPanelKeyboard(); },
+});
+
 function openChatPanel() {
   if (!chatPanel || promptOpen) return;
   promptOpen = true;
-  chatPanel.classList.add('open');
-  chatBtn.classList.add('open');
-  state.chatOpen = true;
-  updateChatBtn();
-  syncChatPanelKeyboard();
-  promptInput.focus();
+  chatPanelApi.open();
   updateHash();
 }
 
 function closeChatPanel() {
   promptOpen = false;
-  chatPanel.classList.remove('open');
-  chatBtn.classList.remove('open');
-  state.chatOpen = false;
-  updateChatBtn();
-  syncChatPanelKeyboard();
+  chatPanelApi.close();
   setActiveWindow(null);
   updateHash();
 }
@@ -293,15 +300,7 @@ chatBtn.addEventListener('click', () => {
   else openChatPanel();
 });
 
-analysisCloseBtn.addEventListener('click', () => {
-  analysisPanelOpen = false;
-  analysisPanel.classList.remove('open');
-  analysisBtn.classList.remove('open');
-  setActiveWindow(null);
-  state.analysisOpen = false;
-  updateChatBtn();
-  updateHash();
-});
+analysisCloseBtn.addEventListener('click', () => setAnalysisOpen(false));
 
 if (chatCloseBtn) chatCloseBtn.addEventListener('click', closeChatPanel);
 
@@ -315,6 +314,15 @@ function sanitizePromptInput(text) {
   clean = clean.replace(/\s+/g, ' ').trim();
   return clean.slice(0, 4000);
 }
+
+// Screen-reader announcement for the chat lifecycle. Streamed tokens are NOT
+// announced (the old aria-live on the message log re-read the whole log on
+// every chunk); only terminal states are.
+function announceChatStatus(text) {
+  const el = document.getElementById('chat-live-status');
+  if (el) el.textContent = text || '';
+}
+const RESPONSE_READY_TEXT = 'Response ready / 回應完成';
 
 function addPromptMessage(text, type) {
   const div = document.createElement('div');
@@ -399,27 +407,10 @@ function formatBotMessage(text) {
 }
 
 // ------------------------------------------------------------
-// Wiki entity tooltip
+// Wiki entity tooltip — mechanics (position/show/hide) live in ui/Tooltip.js;
+// only the prompt-specific content mapping remains here.
 // ------------------------------------------------------------
-const wikiTooltipEl = document.getElementById('wiki-tooltip');
-let wikiTooltipVisible = false;
-
-function positionWikiTooltip(anchor) {
-  if (!wikiTooltipVisible) return;
-  const r = anchor.getBoundingClientRect();
-  let left = r.left;
-  let top = r.bottom + 8;
-  const tw = wikiTooltipEl.offsetWidth || 340;
-  const th = wikiTooltipEl.offsetHeight || 160;
-  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
-  if (top + th > window.innerHeight - 8) top = r.top - th - 8;
-  if (left < 8) left = 8;
-  if (top < 8) top = 8;
-  wikiTooltipEl.style.left = left + 'px';
-  wikiTooltipEl.style.top = top + 'px';
-}
-
-function showWikiTooltip(anchor) {
+function showWikiTooltipForAnchor(anchor) {
   // Surface the zh-TW description when the prompt UI is in zh-TW and a real
   // translation exists; otherwise fall back to the canonical English summary.
   const zh = uiLang === 'zh-TW' ? descByLabelZh.get(anchor.dataset.wiki) : null;
@@ -428,28 +419,18 @@ function showWikiTooltip(anchor) {
   const excerpt = wikiExcerpt(desc);
   if (!excerpt) return;
   const title = anchor.textContent.trim() || (anchor.dataset.wiki || '');
-  wikiTooltipEl.innerHTML = `<b>${esc(title)}</b>${esc(excerpt)}<br><span class="wiki-tooltip-hint">Click to expand</span>`;
-  wikiTooltipVisible = true;
-  wikiTooltipEl.classList.add('visible');
-  positionWikiTooltip(anchor);
-}
-
-function hideWikiTooltip() {
-  if (!wikiTooltipVisible) return;
-  wikiTooltipVisible = false;
-  wikiTooltipEl.classList.remove('visible');
+  showWikiTooltip(anchor, { title, body: excerpt, hint: 'Click to expand' });
 }
 
 promptMessages.addEventListener('mouseover', (e) => {
   const anchor = e.target.closest('.prompt-entity-link');
   if (!anchor || !anchor.dataset.wiki) { hideWikiTooltip(); return; }
-  showWikiTooltip(anchor);
+  showWikiTooltipForAnchor(anchor);
 });
 
 promptMessages.addEventListener('mousemove', (e) => {
-  if (!wikiTooltipVisible) return;
   const anchor = e.target.closest('.prompt-entity-link');
-  if (anchor) positionWikiTooltip(anchor);
+  if (anchor) repositionWikiTooltip(anchor);
 });
 
 promptMessages.addEventListener('mouseleave', hideWikiTooltip);
@@ -813,6 +794,7 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
     if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
     addPromptMessage(t('streamError'), 'error');
     if (typingTimerId) clearInterval(typingTimerId);
+    announceChatStatus(t('streamError') || 'Stream error / 串流錯誤');
     throw e; // re-throw so finally in caller handles cleanup
   }
 
@@ -848,6 +830,7 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
   if (responseMode === 'html') addOpenHtmlButton(div, responseText, clean);
   promptMessages.appendChild(div);
   promptMessages.scrollTop = promptMessages.scrollHeight;
+  announceChatStatus(RESPONSE_READY_TEXT);
 
   // Highlight relevant nodes
   const highlighted = highlightForMessage(clean, { text: responseText, highlight_nodes: serverHighlightNodes, highlight_edges: serverHighlightEdges });
@@ -895,6 +878,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   } catch (e) {
     if (typingDiv.parentNode) promptMessages.removeChild(typingDiv);
     addPromptMessage(t('serverError'), 'error');
+    announceChatStatus(t('serverError') || 'Error / 錯誤');
     if (typingTimerId) clearInterval(typingTimerId);
     return;
   }
@@ -916,6 +900,7 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   if (responseMode === 'html') addOpenHtmlButton(div, textBuf, clean);
   promptMessages.appendChild(div);
   promptMessages.scrollTop = promptMessages.scrollHeight;
+  announceChatStatus(RESPONSE_READY_TEXT);
 
   if (textBuf || highlightNodes.length) {
     const highlighted = highlightForMessage(clean, { text: textBuf, highlight_nodes: highlightNodes, highlight_edges: highlightEdges, primary_node: primaryNode });
@@ -1462,7 +1447,7 @@ function entryIds(entries) {
   return set;
 }
 
-function atRowHTML(n, kind, s) {
+function atRowHTML(n, kind, s, barPct) {
   const zh = TRANSLATIONS[n.label] || '';
   const zhText = zh && zh !== n.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
   let meta;
@@ -1474,14 +1459,32 @@ function atRowHTML(n, kind, s) {
   } else {
     meta = `deg ${n.degree}`;
   }
+  // Community color swatch + magnitude bar — mirrors the Communities cards.
+  // Using the node's community color lets the same entity carry the same color
+  // across Top Hubs / PageRank Leaders / Connectors AND matches its card in the
+  // Communities section, so colors group consistently across the whole panel.
+  const color = commColorOf(n) || 'var(--line-strong)';
+  const bar = barPct != null
+    ? `<span class="at-row-bar" aria-hidden="true"><span class="at-row-bar-fill" style="width:${barPct}%"></span></span>`
+    : '';
   const ab = `<span class="at-ab">
       <button class="set-a" data-set="a" title="${esc(t('addToSetA'))}">A</button>
       <button class="set-b" data-set="b" title="${esc(t('addToSetB'))}">B</button>
     </span>`;
-  return `<li class="at-row" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.label)}">
+  return `<li class="at-row" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.label)}" style="--comm:${color}">
+    <span class="sw"></span>
     <span class="at-name">${esc(n.label)}${zhText}</span>
+    ${bar}
     <span class="at-meta">${meta}</span>${ab}
   </li>`;
+}
+
+// Color of a node's community (community palette from LEGEND), used to color
+// the role-list rows consistently with the Communities section.
+function commColorOf(n) {
+  if (!n || typeof n.community !== 'number') return '';
+  const c = LEGEND.find(l => l.cid === n.community);
+  return c ? c.color : '';
 }
 
 function exploreFocusNode(id) {
@@ -1498,75 +1501,154 @@ function exploreIsolate(ids) {
   applyPromptNodeFilter();
 }
 
+// Dataset mode is baked into the page at load from `mode=` in the URL hash
+// (data.js), so switching modes updates the hash and reloads — same mechanism
+// as the Settings slider in ui.js. Clicking a mode badge cycles the order
+// triples → wiki → combined (whether the badge is in Overview or Topology).
+const MODE_BADGE_ORDER = ['triples', 'wiki', 'combined']; // fewest → most edges
+// Current analysis tab ('overview' | 'network' | 'search'), tracked so a
+// mode-toggle reload can restore the exact screen instead of defaulting back.
+let activeAnalysisTab = 'overview';
+// sessionStorage key used to carry the tab across a mode-toggle reload (the
+// hash already restores the open/closed panel; this restores which tab).
+const MODE_RESTORE_KEY = 'wiki_mode_toggle_restore';
+function cycleDatasetMode() {
+  // Remember where we are so the reload lands back on the same analysis screen.
+  try { sessionStorage.setItem(MODE_RESTORE_KEY, activeAnalysisTab); } catch (e) { /* ignore */ }
+  const i = MODE_BADGE_ORDER.indexOf(DATASET_MODE);
+  const next = MODE_BADGE_ORDER[(i + 1) % MODE_BADGE_ORDER.length];
+  const params = new URLSearchParams(location.hash.replace(/^#\/?/, ''));
+  if (next === 'combined') params.delete('mode'); // combined is the default — no mode in the hash
+  else params.set('mode', next);
+  const qs = params.toString();
+  if (qs) location.hash = '#' + qs;
+  else history.pushState(null, '', location.pathname + location.search);
+  location.reload();
+}
+
 function renderAnalysisTools() {
   const s = computeDatasetStats();
-  const cards = [
-    [t('metricNodes'), s.N], [t('metricEdges'), s.E], [t('metricCommunities'), s.communities],
-    [t('metricAvgDegree'), s.avgDegree.toFixed(2)], [t('metricDensity'), s.density.toFixed(4)],
-    [t('metricGodNodes'), s.godNodes.length],
-  ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
+  const modeShort = DATASET_MODE.charAt(0).toUpperCase() + DATASET_MODE.slice(1);
+  // Rich per-metric tooltips. The base description comes from i18n; each row
+  // also carries live, dataset-specific facts (actual hub names, degree /
+  // clustering spread, bridge labels, deepest-core membership) so hovering a
+  // metric always shows something concrete — and it reflects the active mode.
+  const degreeArr = RAW_NODES.map(n => n.degree || 0);
+  const maxDegreeV = Math.max(0, ...degreeArr);
+  const minDegreeV = Math.min(...degreeArr);
+  const isolatedCount = degreeArr.filter(d => d === 0).length;
+  const maxClusteringV = RAW_NODES.reduce((m, n) => Math.max(m, n.clustering || 0), 0);
+  const deepestCore = RAW_NODES.filter(n => (n.k_core || 0) === s.maxKCore);
+  const maxPRNode = s.pagerankLeaders[0];
+  const topBridges = s.connectors
+    .filter(n => (n.betweenness || 0) > 0 && (s.crossComm.get(n.id) || 0) >= 2)
+    .slice(0, 6);
+  // Largest community by canonical LEGEND count + label (the graph build's
+  // ground truth, also used by the Communities section) — NOT the first node
+  // inside a community, which would give a misleading node label.
+  const largestCommL = LEGEND.slice().sort((a, b) => (b.count || 0) - (a.count || 0))[0] || null;
 
-  const topoCards = [
-    [t('topoMeanClustering'), s.meanClustering.toFixed(3)],
-    [t('topoMaxKCore'), s.maxKCore],
-    [t('topoMeanPagerank'), s.meanPagerank.toFixed(5)],
-    [t('topoMedianDegree'), s.medianDegree],
-    [t('topoBridges'), s.bridgingCount],
-  ].map(([k, v]) => `<div class="at-card"><div class="v">${typeof v === 'number' ? v.toLocaleString() : v}</div><div class="k">${k}</div></div>`).join('');
+  // Styled tooltip inner rows (label → value). Renders nothing when empty.
+  const statRowTip = (facts) => {
+    const rows = (facts || []).map(([lbl, val]) =>
+      `<span class="at-stat-tip-fact"><span>${esc(lbl)}</span><b>${esc(String(val))}</b></span>`
+    ).join('');
+    return rows ? `<span class="at-stat-tip-facts">${rows}</span>` : '';
+  };
 
-  const hubRows = s.hubs.slice(0, 40).map(n => atRowHTML(n, 'deg', s)).join('');
-  const prRows = s.pagerankLeaders.slice(0, 40).map(n => atRowHTML(n, 'pr', s)).join('');
-  const connRows = s.connectors.slice(0, 32).map(n => atRowHTML(n, 'btw', s)).join('');
+  // One stats card per section — all metrics as key/value rows with a styled
+  // tooltip (base i18n description + live facts) replacing the flaky native title.
+  const statRows = (rows) => rows.map(({ key, value, tipKey, facts }) => {
+    const v = typeof value === 'number' ? value.toLocaleString() : String(value);
+    return `<div class="at-stat-row" tabindex="0" aria-label="${esc(key)}">
+      <span class="at-stat-key">${esc(key)}</span>
+      <span class="at-stat-val">${esc(v)}</span>
+      <span class="at-stat-tip" role="tooltip">
+        ${tipKey ? `<span class="at-stat-tip-desc">${esc(t(tipKey))}</span>` : ''}
+        ${statRowTip(facts)}
+      </span>
+    </div>`;
+  }).join('');
 
-  const cohesionMap = (GRAPH_META && GRAPH_META.community_cohesion) || {};
-  const commHTML = LEGEND.slice().sort((a, b) => b.count - a.count).map(c => {
+  // Dataset Overview and Network Topology each render as a single card whose
+  // stats are key/value rows; tooltips use the rich .at-stat-tip tooltip.
+  const cards = statRows([
+    { key: t('metricNodes'), value: s.N, tipKey: 'metricNodesTip',
+      facts: [[t('statIsolated'), isolatedCount]] },
+    { key: t('metricEdges'), value: s.E, tipKey: 'metricEdgesTip',
+      facts: [[t('statMaxDegree'), maxDegreeV]] },
+    { key: t('metricCommunities'), value: s.communities, tipKey: 'metricCommunitiesTip',
+      facts: largestCommL
+        ? [[t('statLargestCommunity'), `${largestCommL.label} · ${largestCommL.count}`]]
+        : [] },
+    { key: t('metricAvgDegree'), value: s.avgDegree.toFixed(2), tipKey: 'metricAvgDegreeTip',
+      facts: [[t('statMinDegree'), minDegreeV], [t('statMaxDegree'), maxDegreeV], [t('statIsolated'), isolatedCount]] },
+    { key: t('metricDensity'), value: s.density.toFixed(4), tipKey: 'metricDensityTip',
+      facts: [[t('statIsolated'), isolatedCount]] },
+    { key: t('metricGodNodes'), value: s.godNodes.length, tipKey: 'metricGodNodesTip',
+      facts: s.godNodes.slice(0, 6).map(n => [n.label, n.degree]) },
+  ]);
+
+  const topoCards = statRows([
+    { key: t('topoMeanClustering'), value: s.meanClustering.toFixed(3), tipKey: 'topoMeanClusteringTip',
+      facts: [[t('statMaxClustering'), maxClusteringV.toFixed(3)]] },
+    { key: t('topoMaxKCore'), value: s.maxKCore, tipKey: 'topoMaxKCoreTip',
+      facts: [[t('statDeepestCoreCount'), deepestCore.length], ...deepestCore.slice(0, 4).map(n => [n.label, n.k_core])] },
+    { key: t('topoMeanPagerank'), value: s.meanPagerank.toFixed(5), tipKey: 'topoMeanPagerankTip',
+      facts: maxPRNode ? [[t('statMaxPagerank'), `${maxPRNode.label} ${(maxPRNode.pagerank || 0).toFixed(4)}`]] : [] },
+    { key: t('topoMedianDegree'), value: s.medianDegree, tipKey: 'topoMedianDegreeTip',
+      facts: [[t('statMinDegree'), minDegreeV], [t('statMaxDegree'), maxDegreeV]] },
+    { key: t('topoBridges'), value: s.bridgingCount, tipKey: 'topoBridgesTip',
+      facts: topBridges.map(n => [n.label, `β ${(n.betweenness || 0).toFixed(3)}`]) },
+  ]);
+
+  // Role list rows reuse the community card motif (swatch + magnitude bar).
+  // The bar is scaled relative to the list's own max so each section reads
+  // consistently; the swatch uses the node's community color (see atRowHTML).
+  const listWithBars = (nodes, kind, valFn) => {
+    const max = Math.max(1, ...nodes.map(valFn));
+    return nodes.map(n =>
+      atRowHTML(n, kind, s, Math.max(6, Math.round((valFn(n) / max) * 100)))
+    ).join('');
+  };
+  const hubRows = listWithBars(s.hubs.slice(0, 40), 'deg', n => n.degree || 0);
+  const prRows = listWithBars(s.pagerankLeaders.slice(0, 40), 'pr', n => n.pagerank || 0);
+  const connRows = listWithBars(s.connectors.slice(0, 32), 'btw', n => n.betweenness || 0);
+
+  const sortedLegend = LEGEND.slice().sort((a, b) => b.count - a.count);
+  const maxCommCount = Math.max(1, ...sortedLegend.map(c => c.count || 0));
+  const commHTML = sortedLegend.map(c => {
+    const barPct = Math.max(6, Math.round((c.count / maxCommCount) * 100));
     const top = (s.nodesByCommunity.get(c.cid) || [])
       .slice().sort((a, b) => (b.degree || 0) - (a.degree || 0)).slice(0, 3).map(n => n.label).join(', ');
-    // Intra-community edge density from the build's Leiden scoring. Values
-    // < 0.15 flag "spaghetti" communities whose members are wired mostly
-    // elsewhere — the same threshold scripts/analysis reports on.
-    const coh = cohesionMap[String(c.cid)];
-    const loose = typeof coh === 'number' && coh < 0.15;
-    return `<div class="at-comm" data-cid="${c.cid}">
+    const zh = TRANSLATIONS[c.label] || '';
+    const zhText = zh && zh !== c.label ? ` <span class="zh-mini">${esc(zh)}</span>` : '';
+    return `<div class="at-comm" data-cid="${c.cid}" tabindex="0" role="button" aria-label="${esc(c.label)}" style="--comm:${esc(c.color)}">
       <div class="at-comm-main">
         <span class="sw" style="background:${esc(c.color)}"></span>
-        <span class="at-comm-name">${esc(c.label)}</span>
-        ${loose ? `<span class="at-comm-loose" title="${esc(t('looseCommunityTitle'))}">${esc(t('looseCommunity'))}</span>` : ''}
+        <span class="at-comm-name" title="${esc(c.label)}">${esc(c.label)}${zhText}</span>
+        <span class="at-comm-bar" aria-hidden="true"><span class="at-comm-bar-fill" style="width:${barPct}%"></span></span>
+        <span class="at-comm-count" title="${c.count} ${esc(t('communityCount'))}">${(c.count).toLocaleString()}</span>
+        <span class="at-comm-top" aria-hidden="true">${top ? '· ' + esc(top) : ''}</span>
       </div>
-      <div class="at-comm-foot">
-        <span class="at-comm-count">${c.count} · ${esc(top)}</span>
-        <span class="at-ab">
-          <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
-          <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
-        </span>
-      </div>
+      <span class="at-ab">
+        <button class="set-a" data-set="a" title="${esc(t('addCommToSetA'))}">A</button>
+        <button class="set-b" data-set="b" title="${esc(t('addCommToSetB'))}">B</button>
+      </span>
     </div>`;
   }).join('');
 
   analysisTools.innerHTML = `
-    <section class="at-section at-span-12">
-      <h4 class="at-h">${esc(t('datasetOverview'))}</h4>
-      <div class="at-cards">${cards}</div>
-    </section>
-    <section class="at-section at-span-5">
-      <h4 class="at-h">${esc(t('networkTopology'))}</h4>
-      <div class="at-cards">${topoCards}</div>
-    </section>
-    <div class="at-row-pair">
+
+    <div class="at-tab-panel" id="at-tab-overview" role="tabpanel">
+    <div class="at-top-split">
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
-        <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
-          <option value="">${esc(t('graphQuerySelect'))}</option>
-        </select>
-        <div id="trace-summary"></div>
-        <div id="trace-routes"></div>
-        <div id="trace-key-nodes"></div>
-        <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
+        <h4 class="at-h"><span>${esc(t('datasetOverview'))}</span><span class="at-mode-badge" role="button" tabindex="0" title="${esc(t('modeBadgeClickHint'))} — ${esc(modeShort)} · ${esc(t('modeBadgeNote'))}">${esc(modeShort)}</span></h4>
+        <div class="at-stat-rows">${cards}</div>
       </section>
       <section class="at-section">
-        <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
-        <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
-        <div id="at-search-results" class="at-search-results"></div>
+        <h4 class="at-h"><span>${esc(t('networkTopology'))}</span><span class="at-mode-badge" role="button" tabindex="0" title="${esc(t('modeBadgeClickHint'))} — ${esc(modeShort)} · ${esc(t('modeBadgeNote'))}">${esc(modeShort)}</span></h4>
+        <div class="at-stat-rows">${topoCards}</div>
       </section>
     </div>
     <section class="at-section at-span-12">
@@ -1584,7 +1666,28 @@ function renderAnalysisTools() {
       <p class="at-hint">${esc(t('predictedNote'))}</p>
       <div id="at-predicted-list" class="at-surprise-list"><div class="at-loading">…</div></div>
     </section>
-    <section class="at-section at-span-7">
+    </div>
+
+    <div class="at-tab-panel" id="at-tab-search" role="tabpanel" hidden>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('searchNodes'))}</span><span class="at-note">${esc(t('searchNodesNote'))}</span></h4>
+      <input id="at-search-input" type="text" class="at-search-input" placeholder="${esc(t('searchPlaceholder'))}" autocomplete="off">
+      <div id="at-search-results" class="at-search-results"></div>
+    </section>
+    <section class="at-section at-span-12">
+      <h4 class="at-h"><span>${esc(t('graphQuery'))}</span><span class="at-note">${esc(t('graphQueryNote'))}</span></h4>
+      <select class="at-trace-select" id="trace-select" title="${esc(t('graphQuery'))}">
+        <option value="">${esc(t('graphQuerySelect'))}</option>
+      </select>
+      <div id="trace-summary"></div>
+      <div id="trace-routes"></div>
+      <div id="trace-key-nodes"></div>
+      <button class="at-trace-clear" id="trace-clear">${esc(t('traceClear'))}</button>
+    </section>
+    </div>
+
+    <div class="at-tab-panel" id="at-tab-network" role="tabpanel" hidden>
+    <section class="at-section at-span-12">
       <h4 class="at-h"><span>${esc(t('communities'))}</span><span class="at-note">${esc(t('communityNote'))}</span></h4>
       <div class="at-communities">${commHTML}</div>
     </section>
@@ -1614,9 +1717,16 @@ function renderAnalysisTools() {
       </div>
       <div class="at-compare-result" id="at-compare-result"></div>
     </section>
+    </div>
   `;
 
   analysisTools.querySelectorAll('.at-row').forEach(bindAtRow);
+  analysisTools.querySelectorAll('.at-mode-badge').forEach(b => {
+    b.addEventListener('click', cycleDatasetMode);
+    b.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cycleDatasetMode(); }
+    });
+  });
   analysisTools.querySelectorAll('.at-comm').forEach(el => {
     const cid = Number(el.dataset.cid);
     const ids = (s.nodesByCommunity.get(cid) || []).map(n => n.id);
@@ -1648,11 +1758,51 @@ function renderAnalysisTools() {
   analysisTools.querySelector('#prompt-new').addEventListener('click', resetPrompt);
   rebindTracePanel();
   wireAnalysisSearch(s);
+  wireAnalysisTabs();
   renderCompareSets();
   // Async sections: filled once their lazy artifacts arrive.
   hydrateSurpriseList();
   hydratePredictedList();
   hydrateRoleExplorer(s);
+  renderBuildInfo();
+}
+
+// Overview / A-B tabs now live in the analysis subrow (replacing the former
+// build hash · datetime inside the panel). The bottom-left home-page footer
+// (#graph-build-footer) keeps showing the graph build hash + datetime.
+function renderBuildInfo() {
+  const footer = document.getElementById('graph-build-footer');
+  const footerCode = footer ? footer.querySelector('code') : null;
+  const { hash, generated } = BUILD_INFO;
+  if (!footer || !footerCode) return;
+  if (!hash && !generated) { footer.hidden = true; return; }
+  footer.hidden = false;
+  const label = [hash ? `build ${hash}` : '', generated || ''].filter(Boolean).join(' · ');
+  footerCode.textContent = label;
+}
+
+function wireAnalysisTabs() {
+  const subrowTabs = document.getElementById('analysis-subrow-tabs');
+  if (!subrowTabs) return;
+  subrowTabs.innerHTML = `
+      <button class="at-tab active" data-at-tab="overview" role="tab" aria-selected="true">${esc(t('tabOverview'))}</button>
+      <button class="at-tab" data-at-tab="network" role="tab" aria-selected="false">${esc(t('tabNetwork'))}</button>
+      <button class="at-tab" data-at-tab="search" role="tab" aria-selected="false">${esc(t('tabSearch'))}</button>
+  `;
+  const tabs = subrowTabs.querySelectorAll('.at-tab');
+  const setTab = (name) => {
+    activeAnalysisTab = name;
+    tabs.forEach(btn => {
+      const on = btn.dataset.atTab === name;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    analysisTools.querySelectorAll('.at-tab-panel').forEach(panel => {
+      panel.hidden = panel.id !== `at-tab-${name}`;
+    });
+  };
+  tabs.forEach(btn => btn.addEventListener('click', () => setTab(btn.dataset.atTab)));
+  setTab(tabs[0].dataset.atTab);
 }
 
 // ------------------------------------------------------------
@@ -2099,3 +2249,19 @@ applyUiLang(uiLang);
 state.suppressHashUpdate = false;
 appendSuggestions(promptMessages);
 refreshActivity();
+
+// Restore the analysis screen after a dataset-mode toggle reload: sessionStorage
+// was written in cycleDatasetMode() with the tab the user was on. Reopen the
+// panel and reselect that tab so the toggle lands back on the graph-analysis
+// screen instead of the home view. (The open/closed panel itself is already
+// carried by the `analysis` hash param; this restores WHICH tab.)
+(function restoreModeToggleUI() {
+  let stored = null;
+  try { stored = sessionStorage.getItem(MODE_RESTORE_KEY); sessionStorage.removeItem(MODE_RESTORE_KEY); } catch (e) { /* ignore */ }
+  if (stored == null) return;
+  const tab = stored === 'network' || stored === 'search' ? stored : 'overview';
+  setAnalysisOpen(true);
+  const btn = document.querySelector(`#analysis-subrow-tabs .at-tab[data-at-tab="${tab}"]`);
+  if (btn) btn.click();
+  updateHash();
+})();

@@ -3,7 +3,7 @@ title: Caspase-8
 description: Initiator protease of the extrinsic apoptotic pathway; activated by death receptor signaling (FasL/TRAIL) and subject to regulatory phosphorylation that switches it between pro-death and pro-survival (pro-migratory) functions.
 protected: false
 created: 2026-07-06
-updated: 2026-08-16
+updated: 2026-09-03
 tags:
   - enzyme
   - apoptosis
@@ -46,6 +46,22 @@ Caspase-8 activity is regulated by several kinases through [[Phosphorylation|pho
 - **[[p38 MAPK]]**: Phosphorylates Caspase-8 at Ser364, suppressing its activity.
 - **[[SHP1]]**: A phosphatase that dephosphorylates Caspase-8 at Tyr380/397 to restore its pro-apoptotic function. Recruitment of SHP1 is facilitated by phosphorylation at Tyr310.
 
+### The c-FLIP Rheostat
+
+Beyond phosphorylation, the dominant fate-setting control is heterodimerization with [[c-FLIP]]
+(full account: [[Caspase-8-c-FLIP Rheostat]]):
+
+- **Homodimer → death.** Fully processed p18/p10 heterotetramer activates [[Caspase-3]]/[[Caspase-7]]
+  and [[Bid]]; the default when death-ligand input overwhelms available c-FLIP_L.
+- **c-FLIP_L heterodimer → restrained killer.** Energetically favored over homodimers; performs
+  interdimer cleavage (generating p43-FLIP) but cannot complete intradimer processing, so it stays
+  [[DISC]]-bound, releases no apoptotic signal, and cleaves [[RIPK1]]/[[RIPK3]] to block
+  [[Necroptosis]] (Micheau 2002; Oberst 2011).
+- **c-FLIP_S/R heterodimer → necroptosis-permissive.** Catalytically dead, caps DED chains, cannot
+  cleave [[RIPK1]] — the ripoptosome persists and [[MLKL]] executes [[Necroptosis]] (Feoktistova 2011).
+- Cleavage-dead Caspase-8 D387A homodimers are apoptosis-incompetent, but D387A/c-FLIP_L
+  heterodimers still signal — the heterodimer requires no interdomain cleavage (Newton 2025).
+
 ## Physiological Function
 
 Caspase-8 is essential for embryonic development, immune system homeostasis, and elimination of virus-infected or damaged cells. Loss-of-function mutations cause severe immunodeficiency (autosomal recessive CASP8 deficiency) with impaired T cell, B cell, and NK cell activation. Caspase-8 also functions in non-apoptotic roles including NF-κB activation and necroptosis suppression (via cleavage of RIPK1).
@@ -70,7 +86,19 @@ Caspase-8 is essential for embryonic development, immune system homeostasis, and
 - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
   - In response to various apoptotic stimuli, "initiator" caspases (Caspase-2, Caspase-8, Caspase-9, or Caspase-10) are activated, then cleave and activate the zymogenic forms of "executioner" caspases.
 
+- [[_document_ - The Long Form of FLIP Is an Activator of Caspase-8 at the Fas DISC|Micheau et al. 2002]]
+  - FLIP_L heterodimerizes with procaspase-8 at the Fas DISC: interdimer cleavage without intradimer processing — the biochemical basis of the rheostat.
+
+- [[_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms|Feoktistova et al. 2011]]
+  - Caspase-8/c-FLIP_L activity disassembles the ripoptosome via RIPK1 cleavage; c-FLIP_S diverts it to necroptosis.
+
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - Review of DISC stoichiometry, ubiquitin-proteasome control of c-FLIP levels, and mouse genetics of the caspase-8/c-FLIP switch.
+
 ## Connections
+
+- [[Caspase-8-c-FLIP Rheostat]] — the dedicated hub note for the quantitative switch
+- [[c-FLIP]] — the pseudo-caspase paralog that tunes Caspase-8 between death and survival
 
 - [[Extrinsic Pathway]] — The primary initiator caspase.
 - [[FasL]] — A ligand that triggers Caspase-8 activation at the DISC.
@@ -86,14 +114,19 @@ Caspase-8 is essential for embryonic development, immune system homeostasis, and
 - [[FAK]] — Recruited by phosphorylated Caspase-8 to promote migration and survival.
 - [[PI3K]] — Co-recruited with FAK in the pY-Casp8 scaffolding complex.
 - [[BAX]] / [[BAK]] — Effectors activated by Caspase-8-cleaved Bid in type II cells.
-- [[NFKB]] — Survival pathway engaged by phosphorylated Caspase-8 scaffolding.
+- [[NF-κB]] — Survival pathway engaged by phosphorylated Caspase-8 scaffolding.
 
 ## Linking Summary
 
+- Rheostat update (03_Sep_2026): [[Caspase-8-c-FLIP Rheostat]], [[c-FLIP]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Necroptosis]]; documents Micheau 2002, Feoktistova 2011, Tsuchiya 2015
 - New links added: [[SHP1]], [[Src]]/[[SRC kinase]], [[FYN]], [[LYN]], [[Caspase-7]], [[Caspase-3]], [[Caspase-9]], [[TRAIL]], [[FasL]], [[FAK]], [[BAX]], [[BAK]], [[Apoptosis]], [[DISC]], [[Bid]], [[Colon Cancer]], [[Phosphorylation]], [[p38 MAPK]]
-- Suggested new entity notes to create: [[Type I vs Type II Cells]], [[Calpain-2]], [[vFLIP]]
+- Suggested new entity notes to create: (done 03_Sep_2026: [[Type I vs Type II Cells]], [[Calpain-2]], [[vFLIP]])
 - Strong connections to strengthen:
     - [[Caspase-8]] ↔ [[SHP1]]
     - [[Caspase-8]] ↔ [[SRC kinase]]
+    - [[Caspase-8]] ↔ [[Caspase-8-c-FLIP Rheostat]]
     - [[Caspase-8]] ↔ [[Apoptosis]]
     - [[Caspase-8]] ↔ [[Extrinsic Pathway]]
+    - [[Caspase-8]] ↔ [[Type I vs Type II Cells]]
+    - [[Caspase-8]] ↔ [[Calpain-2]]
+    - [[Caspase-8]] ↔ [[vFLIP]] (viral phenocopy of c-FLIP blockade)

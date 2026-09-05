@@ -137,7 +137,24 @@ scene.add(ambientLight);
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
 directionalLight.position.set(100, 100, 100);
 scene.add(directionalLight);
-const backLight = new THREE.DirectionalLight(0x4E79A7, 0.3);
+export function getAccentHex() {
+  try {
+    const v = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
+    if (v && v.startsWith('#')) {
+      const n = parseInt(v.slice(1), 16);
+      if (!Number.isNaN(n)) return n;
+    }
+  } catch (e) {}
+  return 0x4E79A7;
+}
+export function applyAccentToScene() {
+  const hex = getAccentHex();
+  EDGE_ACCENT = hex;
+  backLight.color.setHex(hex);
+  stickyRingMaterial.color.setHex(hex);
+  requestRender();
+}
+const backLight = new THREE.DirectionalLight(getAccentHex(), 0.3);
 backLight.position.set(-100, -50, -100);
 scene.add(backLight);
 
@@ -250,7 +267,7 @@ RAW_NODES.forEach(n => {
 // draw calls). Per-edge visual state (color + alpha + filter) is stored in
 // typed arrays and pushed to vertex attributes on change.
 // ------------------------------------------------------------
-export const EDGE_ACCENT = 0x4E79A7;
+export let EDGE_ACCENT = getAccentHex();
 export const edgeList = [];            // [{ edge, fromMesh, toMesh }] indexed by segment
 export let edgeSegments = null;        // THREE.LineSegments (raycast target)
 const edgeToIndex = new Map();         // edge object -> segment index
@@ -702,7 +719,7 @@ export function applyForces() {
 // Sticky node visual indicator
 // ------------------------------------------------------------
 const stickyRingGeometry = new THREE.TorusGeometry(1, 0.06, 8, 32);
-const stickyRingMaterial = new THREE.MeshBasicMaterial({ color: 0x4E79A7, transparent: true, opacity: 0.7 });
+const stickyRingMaterial = new THREE.MeshBasicMaterial({ color: getAccentHex(), transparent: true, opacity: 0.7 });
 
 export function addStickyRing(mesh) {
   if (stickyRings.has(mesh.userData.nodeId)) return;
@@ -906,7 +923,10 @@ export function updateZoomBar() {
   thumb.style.bottom = `calc(${pct}% - 6px)`;
   // Keep the slider's ARIA state in sync with the visual position.
   const track = document.getElementById('zoom-slider-track');
-  if (track) track.setAttribute('aria-valuenow', rounded);
+  if (track) {
+    track.setAttribute('aria-valuenow', rounded);
+    track.setAttribute('aria-valuetext', `Zoom / 縮放 ${rounded}%`);
+  }
 }
 
 // ------------------------------------------------------------
@@ -1176,22 +1196,38 @@ export const minimap = (() => {
     }
   }
 
-  // ---- Camera footprint indicator (amber) ----
-  const indicatorColor = 0xE8A33D;
+  // ---- Camera footprint indicator (blue view polygon + amber target dot) ----
+  const indicatorColor = 0xE8A33D; // amber target dot
+  const footprintColor = 0x4A9BE8; // blue view polygon
   const indicator = new THREE.Group();
-  // Preallocated two-point buffer — rewritten (not reallocated) each render.
-  const camLineArr = new Float32Array(6);
-  const camLineGeo = new THREE.BufferGeometry();
-  camLineGeo.setAttribute('position', new THREE.BufferAttribute(camLineArr, 3));
-  const camLine = new THREE.Line(camLineGeo, new THREE.LineBasicMaterial({ color: indicatorColor }));
+  // View-frustum footprint: the four corner rays of the main camera's frustum
+  // projected onto the ground plane (y=0) form a quad/trapezoid that shows the
+  // actual visible area. It widens/narrows with FOV and pitch and shifts with
+  // the orbit, so rotating the graph re-orients it for intuitive guidance.
   const targetDot = new THREE.Mesh(
     new THREE.CircleGeometry(5, 16),
     new THREE.MeshBasicMaterial({ color: indicatorColor })
   );
   targetDot.rotation.x = -Math.PI / 2; // face up
-  indicator.add(camLine, targetDot);
+  // Preallocated 4-vertex quad buffer (two triangles), rewritten per render.
+  const footprintArr = new Float32Array(12);
+  const footprintGeo = new THREE.BufferGeometry();
+  footprintGeo.setAttribute('position', new THREE.BufferAttribute(footprintArr, 3));
+  footprintGeo.setIndex([0, 1, 2, 2, 1, 3]);
+  const footprint = new THREE.Mesh(
+    footprintGeo,
+    new THREE.MeshBasicMaterial({
+      color: footprintColor, transparent: true, opacity: 0.18,
+      depthWrite: false, side: THREE.DoubleSide,
+    })
+  );
+  footprint.frustumCulled = false;
+  indicator.add(footprint, targetDot);
   indicator.traverse((o) => o.layers.set(1));
   miniScene.add(indicator);
+  // Scratch vectors for the footprint heading + right axis (no per-frame allocs).
+  const _fwd = new THREE.Vector3();
+  const _right = new THREE.Vector3();
 
   // ---- Controls wiring ----
   let modeIdx = 0;
@@ -1278,10 +1314,27 @@ export const minimap = (() => {
     syncPositions();
     if (hullGroup.visible) refreshHulls();
 
-    // Camera footprint: line from the main camera's XZ position to its target.
-    camLineArr[0] = p.x; camLineArr[1] = 0; camLineArr[2] = p.z;
-    camLineArr[3] = t.x; camLineArr[4] = 0; camLineArr[5] = t.z;
-    camLineGeo.attributes.position.needsUpdate = true;
+    // Camera footprint: a ground-plane trapezoid marking the visible region,
+    // spanning from a near edge behind the camera's look direction out to a far
+    // edge at the target. The near edge is kept narrow/positive and the far
+    // edge stays a real edge, so the shape reads as a 4-sided polygon (never
+    // collapsing to a point/cone) and is bounded by the look point.
+    const hFov = 2 * Math.atan(Math.tan((camera.fov * Math.PI) / 360) * camera.aspect);
+    // Heading (camera→target horizontal) and the perpendicular right axis.
+    _fwd.copy(lastUp);
+    _right.set(-_fwd.z, 0, _fwd.x);
+    const reachD = Math.max(Math.hypot(t.x - p.x, t.z - p.z), 1e-3);
+    const nearD = reachD * 0.25; // near edge sits a bit in front of the camera
+    const nearW = nearD * Math.tan(hFov / 2);
+    const farW = reachD * Math.tan(hFov / 2);
+    const nx = p.x + _fwd.x * nearD, nz = p.z + _fwd.z * nearD;
+    const fx = p.x + _fwd.x * reachD, fz = p.z + _fwd.z * reachD;
+    // Winding order: near+right, near-left, far+right, far-left → triangles 012,213.
+    footprintArr[0] = nx + _right.x * nearW; footprintArr[1] = 0; footprintArr[2] = nz + _right.z * nearW;
+    footprintArr[3] = nx - _right.x * nearW; footprintArr[4] = 0; footprintArr[5] = nz - _right.z * nearW;
+    footprintArr[6] = fx + _right.x * farW;  footprintArr[7] = 0; footprintArr[8] = fz + _right.z * farW;
+    footprintArr[9] = fx - _right.x * farW;  footprintArr[10] = 0; footprintArr[11] = fz - _right.z * farW;
+    footprintGeo.attributes.position.needsUpdate = true;
     targetDot.position.set(t.x, 0, t.z);
 
     miniRenderer.render(miniScene, miniCamera);

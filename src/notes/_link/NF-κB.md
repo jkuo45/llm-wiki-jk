@@ -2,7 +2,7 @@
 title: NF-κB
 description: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a central role in immunity, inflammation, and redox signaling.
 created: '2026-05-09'
-updated: '2026-07-24'
+updated: '2026-09-02'
 tags:
   - protein
   - transcription-factor
@@ -47,7 +47,7 @@ NF-κB regulates hundreds of target genes encoding:
 - **Chemokines**: [[IL-8]], [[MCP-1]], [[RANTES]]
 - **Adhesion molecules**: [[ICAM-1]], [[VCAM-1]], E-selectin
 - **Anti-apoptotic factors**: [[Bcl-2]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]]
-- **Antioxidant enzymes**: [[Manganese superoxide dismutase|MnSOD]], ferritin heavy chain
+- **Antioxidant enzymes**: [[MnSOD]], ferritin heavy chain
 
 ## Redox-Sensitive Regulation
 
@@ -78,6 +78,32 @@ NF-κB is the master transcriptional regulator of the [[SASP|Senescence-Associat
 ## Role in Inflammaging
 
 Chronic NF-κB activation is a hallmark of [[Inflammaging|inflammaging]] — the low-grade, sterile inflammation driving age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and DNA damage. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty.
+
+## Sex Differences — The Estrogen–NF-κB Axis
+
+NF-κB is one of the clearest examples of a master inflammatory transcription factor under **direct sex-hormonal control**. Estrogen acts as an endogenous NF-κB suppressant, which underlies the premenopausal female anti-inflammatory advantage and its post-menopausal loss:
+
+### Estrogen Suppresses NF-κB Through a Bimodal ERβ Mechanism
+
+- **Enhanced [[IkappaBalpha|IκBα]] expression:** estrogen upregulates IκBα, sequestering NF-κB in the cytoplasm.
+- **Reduced p65 (RelA) DNA binding:** estrogen lowers p65 occupancy of pro-inflammatory promoters (general ERβ literature; not Giroux 2012).
+- **In situ demonstration (El Sabeh et al., *J Inflamm Res* 2021; prior “Giroux 2012” corrected):** the MyD88/methylated-ERα complex required for NF-κB transcriptional activity is found in **35/35 testicular samples** and **3/11 post-menopausal ovaries**, but **0/29 pre-menopausal ovaries** — direct evidence that estrogen interrupts NF-κB activation in intact tissues (ER-α/PRMT1 cytoplasmic mechanism; IκB degradation unaffected).
+
+### Sex Differences in Basal vs Induced Inflammation
+
+| Context | Males | Females | Citation |
+|---------|-------|---------|----------|
+| **Resting basal cytokines** | Higher IL-6, IL-1β, TNF-α (partly from higher monocyte counts) | Lower | Engler et al. 2017 |
+| **Acute in vivo response** | Lower relative induction | Stronger response (+45% TNF-α, +43% IL-6 to endotoxin) | Engler et al. 2017 |
+| **Inflammaging onset** | Earlier (innate-cell activation, elevated basal cytokines) | Delayed until menopause; then accelerated "estrogen cliff" | Olivieri et al. 2023 |
+| **Autoimmune risk** | Lower | ~78% of autoimmune cases (TLR7/Xist/estrogen mechanisms) | Chang et al. 2024 |
+
+### Interface with the cGAS–STING axis
+
+Estrogen also represses the upstream innate-immune [[STING]] pathway (via ERα + [[HDAC3]] binding the STING promoter), meaning the "estrogen cliff" at menopause simultaneously derepresses both NF-κB and STING-driven inflammation — a systems-level inflection point (see [[cGAS-STING Pathway]], [[Inflammaging]]).
+
+> [!important]
+> The estrogen–NF-κB–STING suppression axis is a unifying framework for the vault: it explains the female longevity advantage (better pathogen defense, delayed inflammaging) alongside the female autoimmune vulnerability, and the post-menopausal acceleration of inflammatory aging. This dovetails with the sex-difference paradigms documented in [[SASP]], [[Apoptosis]], and [[SIRT3]].
 
 ## Negative Regulation
 
@@ -111,9 +137,14 @@ NF-κB hyperactivation is characteristic of [[Cancer]], [[Atherosclerosis]], rhe
 - [[Cancer]] — NF-κB promotes tumorigenesis through survival and proliferation genes
 - [[Advanced Glycation End Products]] — AGE-RAGE signaling activates NF-κB
 - [[p62]] — NRF2 target that inhibits NF-κB by stabilizing IκB
+- [[IkappaBalpha]] — estrogen upregulates IκBα to sequester NF-κB (sex-suppressive axis)
+- [[STING]] — estrogen represses STING via ERα–HDAC3; NF-κB and STING are co-derepressed after menopause
+- [[Inflammaging]] — chronic NF-κB activation; the post-menopausal "estrogen cliff" accelerates it
+- [[SASP|Senescence-Associated Secretory Phenotype]] — estrogen suppresses NF-κB-driven SASP; sex-dependent SASP burden
 
 ## Linking Summary
 
 - New links added: [[RelA]], [[RelB]], [[c-Rel]], [[p50]], [[p52]], [[NFKB1]], [[NFKB2]], [[IKKalpha|IKKα]], [[IKKbeta]], [[NEMO]], [[TAK1]], [[IkappaBalpha]], [[NIK]], [[TNFα]], [[IL-1β]], [[IL-6]], [[IL-8]], [[ICAM-1]], [[VCAM-1]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]], [[A20]], [[SASP]], [[Inflammaging]], [[RAGE]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]], [[NRF2]], [[p62]], [[HO-1]], [[p53]], [[Bortezomib]], [[VEGF]]
+- Sex-difference enrichment (2026-09-02): added the estrogen–ERβ–NF-κB suppression axis (bimodal IκBα/p65 mechanism, Giroux et al. 2012), the menopause-linked derepression/estrogen-cliff concept, and cross-links to [[STING]], [[IkappaBalpha]], [[Inflammaging]].
 - Suggested new entity notes to create: [[NEMO]], [[IkappaBalpha]], [[CYLD]], [[TAK1]]
 - Strong connections to strengthen: NF-κB ↔ [[Oxidative Stress]], NF-κB ↔ [[NRF2]], NF-κB ↔ [[SASP]], NF-κB ↔ [[SIRT1]]

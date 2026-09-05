@@ -98,5 +98,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[BRD4]], [[NF-κB]], [[AP-1]], [[KDM4]], [[EZH2]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Cytoplasmic Chromatin Fragments]]
-- Suggested new entity notes to create: [[HIRA]], [[DAXX]], [[ATRX]], [[SWR1]], [[SRCAP]]
+- Suggested new entity notes to create: [[DAXX]], [[SWR1]], [[SRCAP]]
+- Added note: [[ATRX]] now exists in _link/ (EXITS X-linked tumor suppressor and H3.3 deposition partner with [[DAXX]])
 - Strong connections to strengthen: [[Histone Variant]] ↔ [[Nucleosome]], [[Histone Variant]] ↔ [[Senescence]]

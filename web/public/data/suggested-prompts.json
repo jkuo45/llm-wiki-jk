@@ -2,43 +2,325 @@
   "en-US": {
     "groups": [
       {
+        "title": "Resolve ambiguous edges (triples graph)",
+        "items": [
+          {
+            "q": "Does Senomorphic directly target KDM4, or is the link downstream histone-demethylation modulation?",
+            "tags": [
+              "Senomorphic",
+              "KDM4"
+            ]
+          },
+          {
+            "q": "Is Therapy-Induced Senescence modulated by Senomorphics, and through which SASP mediators?",
+            "tags": [
+              "Therapy-Induced Senescence",
+              "Senomorphics",
+              "SASP"
+            ]
+          },
+          {
+            "q": "Does SIRT2 stabilize TFEB directly or via deacetylation-dependent nuclear translocation?",
+            "tags": [
+              "SIRT2",
+              "TFEB",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "Is COMT the direct metabolic hub clearing Dopamine and Epinephrine, and where does MAO share the load?",
+            "tags": [
+              "COMT",
+              "Dopamine",
+              "Epinephrine",
+              "MAO"
+            ]
+          },
+          {
+            "q": "Is Fenbendazole genuinely repositionable for Cholangiocarcinoma — what microtubule or metabolic evidence supports it?",
+            "tags": [
+              "Fenbendazole",
+              "Cholangiocarcinoma"
+            ]
+          },
+          {
+            "q": "Does Mebendazole inhibit Cholangiocarcinoma growth, and how does the evidence compare with Fenbendazole?",
+            "tags": [
+              "Mebendazole",
+              "Cholangiocarcinoma",
+              "Fenbendazole"
+            ]
+          },
+          {
+            "q": "Does Resveratrol activate SIRT1 directly at physiological doses, or only through indirect AMPK/NAD+ routes?",
+            "tags": [
+              "Resveratrol",
+              "SIRT1",
+              "AMPK",
+              "NAD+"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Probe bridges & gaps (wiki graph)",
+        "items": [
+          {
+            "q": "How does SASP bridge senescence, inflammation (NF-κB, IL-6, TGFβ) and disease communities — Parkinson's, cancer, ferroptosis?",
+            "tags": [
+              "Senescence-Associated Secretory Phenotype",
+              "NF-κB",
+              "IL-6",
+              "Parkinson's Disease",
+              "Cancer",
+              "Ferroptosis"
+            ]
+          },
+          {
+            "q": "Why is Cancer a cross-community bridge — which links to senescence, autophagy, mTORC1 and p53 matter most?",
+            "tags": [
+              "Cancer",
+              "Cellular Senescence",
+              "Autophagy",
+              "mTORC1",
+              "p53"
+            ]
+          },
+          {
+            "q": "Why is SIRT1 a cross-community bridge — how does it connect NAD+, autophagy, aging and neurodegeneration?",
+            "tags": [
+              "SIRT1",
+              "NAD+",
+              "Autophagy",
+              "Aging",
+              "Neurodegenerative Diseases"
+            ]
+          },
+          {
+            "q": "Are Bardoxolone methyl, CDK4 and CDK6 truly isolated nodes, or are edges missing to NRF2 and cell-cycle networks?",
+            "tags": [
+              "Bardoxolone methyl",
+              "CDK4",
+              "CDK6",
+              "NRF2"
+            ]
+          },
+          {
+            "q": "Should the Parkinson's Disease community be split into smaller modules — catecholamine chemistry, genetics, neuroinflammation?",
+            "tags": [
+              "Parkinson's Disease",
+              "Adrenochrome",
+              "Alpha-synuclein",
+              "Neuroinflammation"
+            ]
+          },
+          {
+            "q": "Should the Adrenochrome community be split — synthesis chemistry versus pathology and neuromelanin branches?",
+            "tags": [
+              "Adrenochrome",
+              "Neuromelanin",
+              "Parkinson's Disease"
+            ]
+          }
+        ]
+      },
+      {
         "title": "Trace a mechanism",
         "items": [
-          { "q": "Analyze the mechanism from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed lysosomal stress", "tags": ["Adrenochrome", "Neuromelanin", "Autophagy", "TFEB"] },
-          { "q": "Trace how COMT channels catecholamines into the Adrenochrome Pathway, and where the Fisetin route loops back to ROS", "tags": ["COMT", "Adrenochrome Pathway", "Fisetin", "ROS"] },
-          { "q": "How does NRF2 antagonize NF-κB, and how does Adrenochrome bridge the two through oxidative stress?", "tags": ["NRF2", "NF-κB", "Adrenochrome"] }
+          {
+            "q": "Analyze the mechanism from Adrenochrome through Neuromelanin to Autophagy and TFEB, explaining how oxidized catecholamines feed lysosomal stress",
+            "tags": [
+              "Adrenochrome",
+              "Neuromelanin",
+              "Autophagy",
+              "TFEB"
+            ]
+          },
+          {
+            "q": "Trace how COMT channels catecholamines into the Adrenochrome Pathway, and where the Fisetin route loops back to ROS",
+            "tags": [
+              "COMT",
+              "Adrenochrome Pathway",
+              "Fisetin",
+              "ROS"
+            ]
+          },
+          {
+            "q": "How does NRF2 antagonize NF-κB, and how does Adrenochrome bridge the two through oxidative stress?",
+            "tags": [
+              "NRF2",
+              "NF-κB",
+              "Adrenochrome"
+            ]
+          }
         ]
       },
       {
         "title": "Find drivers & connectors",
         "items": [
-          { "q": "Identify the top connector nodes bridging the NAD+ and Autophagy communities", "tags": ["NAD+", "Autophagy"] },
-          { "q": "Which nodes have the highest betweenness across the Sirtuin and mTOR networks?", "tags": ["Sirtuins", "mTORC1"] },
-          { "q": "Find the hubs that link CD38-driven NAD+ decline to SIRT1 and aging", "tags": ["CD38", "NAD+", "SIRT1", "Aging"] }
+          {
+            "q": "Identify the top connector nodes bridging the NAD+ and Autophagy communities",
+            "tags": [
+              "NAD+",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "Which nodes have the highest betweenness across the Sirtuin and mTOR networks?",
+            "tags": [
+              "Sirtuins",
+              "mTORC1"
+            ]
+          },
+          {
+            "q": "Find the hubs that link CD38-driven NAD+ decline to SIRT1 and aging",
+            "tags": [
+              "CD38",
+              "NAD+",
+              "SIRT1",
+              "Aging"
+            ]
+          }
         ]
       },
       {
         "title": "Compare interventions",
         "items": [
-          { "q": "Compare the senolytic (Fisetin) versus senomorphic paths to senescent-cell clearance", "tags": ["Fisetin", "mTORC1", "Autophagy"] },
-          { "q": "Contrast NR conversion to NAD+ upstream of SIRT1 with Fisetin's direct senolytic action", "tags": ["Nicotinamide Riboside", "NAD+", "SIRT1", "Fisetin"] },
-          { "q": "Why is NAD+ a prerequisite for Sirtuin activity, and how does CD38-driven NAD+ consumption act as the aging switch?", "tags": ["NAD+", "Sirtuins", "CD38"] }
+          {
+            "q": "Compare the senolytic (Fisetin) versus senomorphic paths to senescent-cell clearance",
+            "tags": [
+              "Fisetin",
+              "mTORC1",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "Contrast NR conversion to NAD+ upstream of SIRT1 with Fisetin's direct senolytic action",
+            "tags": [
+              "Nicotinamide Riboside",
+              "NAD+",
+              "SIRT1",
+              "Fisetin"
+            ]
+          },
+          {
+            "q": "Why is NAD+ a prerequisite for Sirtuin activity, and how does CD38-driven NAD+ consumption act as the aging switch?",
+            "tags": [
+              "NAD+",
+              "Sirtuins",
+              "CD38"
+            ]
+          }
         ]
       },
       {
         "title": "Enrich a node set",
         "items": [
-          { "q": "Given Creatine, SIRT1, FOXO and AMPK, map the autophagy handoff between them", "tags": ["Creatine", "SIRT1", "FOXO", "AMPK", "Autophagy"] },
-          { "q": "Expand the Methylene blue → MAO → Aminoguanidine → Methemoglobinemia enzyme-inhibitor web", "tags": ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
-          { "q": "How does Ivermectin induce autophagy to inhibit NF-κB, and where does it converge with Adrenochrome on the same subgraph?", "tags": ["Ivermectin", "Autophagy", "NF-κB", "Adrenochrome"] }
+          {
+            "q": "Given Creatine, SIRT1, FOXO and AMPK, map the autophagy handoff between them",
+            "tags": [
+              "Creatine",
+              "SIRT1",
+              "FOXO",
+              "AMPK",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "Expand the Methylene blue → MAO → Aminoguanidine → Methemoglobinemia enzyme-inhibitor web",
+            "tags": [
+              "Methylene blue",
+              "Monoamine oxidase",
+              "Aminoguanidine",
+              "Methemoglobinemia"
+            ]
+          },
+          {
+            "q": "How does Ivermectin induce autophagy to inhibit NF-κB, and where does it converge with Adrenochrome on the same subgraph?",
+            "tags": [
+              "Ivermectin",
+              "Autophagy",
+              "NF-κB",
+              "Adrenochrome"
+            ]
+          }
         ]
       },
       {
         "title": "Pathology & clinical",
         "items": [
-          { "q": "Trace MOMP through the Intrinsic Pathway to Caspase-9 and place SIRT1 on that line", "tags": ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
-          { "q": "How does Honokiol protect MFN2 mitochondrial fusion and intersect Caspase-3 in cardiac hypertrophy?", "tags": ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
-          { "q": "How are mitochondrial outer membrane permeabilization, the intrinsic pathway, and the caspase cascade regulated by Sirtuins?", "tags": ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] }
+          {
+            "q": "Trace MOMP through the Intrinsic Pathway to Caspase-9 and place SIRT1 on that line",
+            "tags": [
+              "Bcl-2",
+              "MOMP",
+              "Intrinsic Pathway",
+              "Caspase-9",
+              "SIRT1"
+            ]
+          },
+          {
+            "q": "How does Honokiol protect MFN2 mitochondrial fusion and intersect Caspase-3 in cardiac hypertrophy?",
+            "tags": [
+              "Honokiol",
+              "MFN2",
+              "Cardiac Hypertrophy",
+              "Caspase-3"
+            ]
+          },
+          {
+            "q": "How are mitochondrial outer membrane permeabilization, the intrinsic pathway, and the caspase cascade regulated by Sirtuins?",
+            "tags": [
+              "MOMP",
+              "Intrinsic Pathway",
+              "Caspase-9",
+              "Sirtuins"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Quantitative redox & hormesis",
+        "items": [
+          {
+            "q": "Under physiological ETC flux, what fraction of MnSOD-derived H₂O₂ is handled by Prx3/Trx2 vs catalase/GPx in the matrix, and how does that split change with MnSOD acetylation state (the K68 peroxidase switch)?",
+            "tags": [
+              "MnSOD",
+              "Peroxiredoxin 3",
+              "Thioredoxin",
+              "Catalase",
+              "Glutathione Peroxidase",
+              "SIRT3"
+            ]
+          },
+          {
+            "q": "Does MnSOD activity ever functionally limit the Trx water arm? Is TXNRD2/NADPH capacity ever saturating under SOD2-driven bursts, converting an otherwise-buffering Trx system into a rate-limiting, and therefore hormetic-signaling, step?",
+            "tags": [
+              "MnSOD",
+              "SOD2",
+              "Thioredoxin",
+              "Thioredoxin reductase",
+              "Hormesis"
+            ]
+          },
+          {
+            "q": "Beyond metabolic coupling, is there any regulatory (post-translational, non-interacting) coupling signal that coordinates SOD2 and Trx expression within the same cell beyond shared FOXO/Nrf2 transcription?",
+            "tags": [
+              "SOD2",
+              "Thioredoxin",
+              "FOXO",
+              "NRF2"
+            ]
+          },
+          {
+            "q": "Would a SIRT3 activator (MnSOD-boosting) combined with a Trx1/Trx2-preserving strategy outperform either alone in cardio- and neuroprotection, or simply re-collapse the hormetic window?",
+            "tags": [
+              "SIRT3",
+              "Thioredoxin",
+              "Hormetic Window",
+              "Neuroprotection"
+            ]
+          }
         ]
       }
     ]
@@ -46,43 +328,325 @@
   "zh-TW": {
     "groups": [
       {
+        "title": "釐清模糊邊（triples 圖）",
+        "items": [
+          {
+            "q": "Senomorphic 是否直接標定 KDM4，抑或只是下游組蛋白去甲基化調節？",
+            "tags": [
+              "Senomorphic",
+              "KDM4"
+            ]
+          },
+          {
+            "q": "Therapy-Induced Senescence 是否受 Senomorphics 調節，透過哪些 SASP 介體？",
+            "tags": [
+              "Therapy-Induced Senescence",
+              "Senomorphics",
+              "SASP"
+            ]
+          },
+          {
+            "q": "SIRT2 是直接穩定 TFEB，還是經過去乙醯化依賴的核轉位？",
+            "tags": [
+              "SIRT2",
+              "TFEB",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "COMT 是否為直接清除 Dopamine 與 Epinephrine 的代謝樞紐，MAO 又在何處分擔？",
+            "tags": [
+              "COMT",
+              "Dopamine",
+              "Epinephrine",
+              "MAO"
+            ]
+          },
+          {
+            "q": "Fenbendazole 是否真能 reposition 於 Cholangiocarcinoma，有哪些微管或代謝證據？",
+            "tags": [
+              "Fenbendazole",
+              "Cholangiocarcinoma"
+            ]
+          },
+          {
+            "q": "Mebendazole 是否抑制 Cholangiocarcinoma 生長，與 Fenbendazole 的證據有何異同？",
+            "tags": [
+              "Mebendazole",
+              "Cholangiocarcinoma",
+              "Fenbendazole"
+            ]
+          },
+          {
+            "q": "生理劑量下 Resveratrol 是直接活化 SIRT1，還是僅經由 AMPK/NAD+ 間接途徑？",
+            "tags": [
+              "Resveratrol",
+              "SIRT1",
+              "AMPK",
+              "NAD+"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "探測橋接與缺口（wiki 圖）",
+        "items": [
+          {
+            "q": "SASP 如何橋接衰老、發炎（NF-κB、IL-6、TGFβ）與疾病社群——帕金森、癌症、ferroptosis？",
+            "tags": [
+              "Senescence-Associated Secretory Phenotype",
+              "NF-κB",
+              "IL-6",
+              "Parkinson's Disease",
+              "Cancer",
+              "Ferroptosis"
+            ]
+          },
+          {
+            "q": "Cancer 為何是跨社群橋接——與衰老、自噬、mTORC1、p53 的哪些連結最關鍵？",
+            "tags": [
+              "Cancer",
+              "Cellular Senescence",
+              "Autophagy",
+              "mTORC1",
+              "p53"
+            ]
+          },
+          {
+            "q": "SIRT1 為何是跨社群橋接——如何連結 NAD+、自噬、老化與神經退化？",
+            "tags": [
+              "SIRT1",
+              "NAD+",
+              "Autophagy",
+              "Aging",
+              "Neurodegenerative Diseases"
+            ]
+          },
+          {
+            "q": "Bardoxolone methyl、CDK4、CDK6 是真的孤立節點，還是缺了到 NRF2 與細胞週期網絡的邊？",
+            "tags": [
+              "Bardoxolone methyl",
+              "CDK4",
+              "CDK6",
+              "NRF2"
+            ]
+          },
+          {
+            "q": "Parkinson's Disease 社群是否該拆分為更小的模組——兒茶酚胺化學、遺傳、神經發炎？",
+            "tags": [
+              "Parkinson's Disease",
+              "Adrenochrome",
+              "Alpha-synuclein",
+              "Neuroinflammation"
+            ]
+          },
+          {
+            "q": "Adrenochrome 社群是否該拆分——合成化學 vs 病理與 neuromelanin 分支？",
+            "tags": [
+              "Adrenochrome",
+              "Neuromelanin",
+              "Parkinson's Disease"
+            ]
+          }
+        ]
+      },
+      {
         "title": "追蹤機制",
         "items": [
-          { "q": "分析 Adrenochrome 經 Neuromelanin 到自噬與 TFEB 的機制，說明氧化兒茶酚胺如何餵養溶體壓力", "tags": ["Adrenochrome", "Neuromelanin", "Autophagy", "TFEB"] },
-          { "q": "追蹤 COMT 如何將兒茶酚胺導入 Adrenochrome Pathway，以及 Fisetin 路徑如何迴回到 ROS", "tags": ["COMT", "Adrenochrome Pathway", "Fisetin", "ROS"] },
-          { "q": "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？", "tags": ["NRF2", "NF-κB", "Adrenochrome"] }
+          {
+            "q": "分析 Adrenochrome 經 Neuromelanin 到自噬與 TFEB 的機制，說明氧化兒茶酚胺如何餵養溶體壓力",
+            "tags": [
+              "Adrenochrome",
+              "Neuromelanin",
+              "Autophagy",
+              "TFEB"
+            ]
+          },
+          {
+            "q": "追蹤 COMT 如何將兒茶酚胺導入 Adrenochrome Pathway，以及 Fisetin 路徑如何迴回到 ROS",
+            "tags": [
+              "COMT",
+              "Adrenochrome Pathway",
+              "Fisetin",
+              "ROS"
+            ]
+          },
+          {
+            "q": "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？",
+            "tags": [
+              "NRF2",
+              "NF-κB",
+              "Adrenochrome"
+            ]
+          }
         ]
       },
       {
         "title": "找出驅動因子",
         "items": [
-          { "q": "找出連接 NAD+ 與自噬社群的關鍵樞紐節點", "tags": ["NAD+", "Autophagy"] },
-          { "q": "在 Sirtuin 與 mTOR 網絡中，哪些節點的介數中心性最高？", "tags": ["Sirtuins", "mTORC1"] },
-          { "q": "找出將 CD38 驅動的 NAD+ 下降與 SIRT1 及老化連結起來的樞紐", "tags": ["CD38", "NAD+", "SIRT1", "Aging"] }
+          {
+            "q": "找出連接 NAD+ 與自噬社群的關鍵樞紐節點",
+            "tags": [
+              "NAD+",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "在 Sirtuin 與 mTOR 網絡中，哪些節點的介數中心性最高？",
+            "tags": [
+              "Sirtuins",
+              "mTORC1"
+            ]
+          },
+          {
+            "q": "找出將 CD38 驅動的 NAD+ 下降與 SIRT1 及老化連結起來的樞紐",
+            "tags": [
+              "CD38",
+              "NAD+",
+              "SIRT1",
+              "Aging"
+            ]
+          }
         ]
       },
       {
         "title": "比較介入",
         "items": [
-          { "q": "比較 senolytic（Fisetin）與 senomorphic 兩條清除衰老細胞的路徑", "tags": ["Fisetin", "mTORC1", "Autophagy"] },
-          { "q": "比較 NR 轉換為 NAD+ 再上游於 SIRT1 的路徑，與 Fisetin 直接 senolytic 作用的差異", "tags": ["Nicotinamide Riboside", "NAD+", "SIRT1", "Fisetin"] },
-          { "q": "NAD+ 為何是 Sirtuins 的必要條件，CD38 消耗 NAD+ 這一步如何成為老化關鍵開關？", "tags": ["NAD+", "Sirtuins", "CD38"] }
+          {
+            "q": "比較 senolytic（Fisetin）與 senomorphic 兩條清除衰老細胞的路徑",
+            "tags": [
+              "Fisetin",
+              "mTORC1",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "比較 NR 轉換為 NAD+ 再上游於 SIRT1 的路徑，與 Fisetin 直接 senolytic 作用的差異",
+            "tags": [
+              "Nicotinamide Riboside",
+              "NAD+",
+              "SIRT1",
+              "Fisetin"
+            ]
+          },
+          {
+            "q": "NAD+ 為何是 Sirtuins 的必要條件，CD38 消耗 NAD+ 這一步如何成為老化關鍵開關？",
+            "tags": [
+              "NAD+",
+              "Sirtuins",
+              "CD38"
+            ]
+          }
         ]
       },
       {
         "title": "擴充節點集合",
         "items": [
-          { "q": "給定 Creatine、SIRT1、FOXO 與 AMPK，描繪它們之間的自噬交接", "tags": ["Creatine", "SIRT1", "FOXO", "AMPK", "Autophagy"] },
-          { "q": "擴充 Methylene blue → MAO → Aminoguanidine → Methemoglobinemia 的酵素—抑制劑網絡", "tags": ["Methylene blue", "Monoamine oxidase", "Aminoguanidine", "Methemoglobinemia"] },
-          { "q": "Ivermectin 如何誘發自噬抑制 NF-κB，並與 Adrenochrome 在同一子圖上交會？", "tags": ["Ivermectin", "Autophagy", "NF-κB", "Adrenochrome"] }
+          {
+            "q": "給定 Creatine、SIRT1、FOXO 與 AMPK，描繪它們之間的自噬交接",
+            "tags": [
+              "Creatine",
+              "SIRT1",
+              "FOXO",
+              "AMPK",
+              "Autophagy"
+            ]
+          },
+          {
+            "q": "擴充 Methylene blue → MAO → Aminoguanidine → Methemoglobinemia 的酵素—抑制劑網絡",
+            "tags": [
+              "Methylene blue",
+              "Monoamine oxidase",
+              "Aminoguanidine",
+              "Methemoglobinemia"
+            ]
+          },
+          {
+            "q": "Ivermectin 如何誘發自噬抑制 NF-κB，並與 Adrenochrome 在同一子圖上交會？",
+            "tags": [
+              "Ivermectin",
+              "Autophagy",
+              "NF-κB",
+              "Adrenochrome"
+            ]
+          }
         ]
       },
       {
         "title": "病理與臨床",
         "items": [
-          { "q": "追蹤 MOMP 經內在途徑到 Caspase-9 的過程，並將 SIRT1 定位在這條線上", "tags": ["Bcl-2", "MOMP", "Intrinsic Pathway", "Caspase-9", "SIRT1"] },
-          { "q": "Honokiol 如何保護 MFN2 粒線體融合，並在心肌肥大中與 Caspase-3 交會？", "tags": ["Honokiol", "MFN2", "Cardiac Hypertrophy", "Caspase-3"] },
-          { "q": "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？", "tags": ["MOMP", "Intrinsic Pathway", "Caspase-9", "Sirtuins"] }
+          {
+            "q": "追蹤 MOMP 經內在途徑到 Caspase-9 的過程，並將 SIRT1 定位在這條線上",
+            "tags": [
+              "Bcl-2",
+              "MOMP",
+              "Intrinsic Pathway",
+              "Caspase-9",
+              "SIRT1"
+            ]
+          },
+          {
+            "q": "Honokiol 如何保護 MFN2 粒線體融合，並在心肌肥大中與 Caspase-3 交會？",
+            "tags": [
+              "Honokiol",
+              "MFN2",
+              "Cardiac Hypertrophy",
+              "Caspase-3"
+            ]
+          },
+          {
+            "q": "粒線體外膜透化、內在途徑與 Caspase 級聯之間的關係如何被 Sirtuins 調節？",
+            "tags": [
+              "MOMP",
+              "Intrinsic Pathway",
+              "Caspase-9",
+              "Sirtuins"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "定量氧化還原與興奮效應",
+        "items": [
+          {
+            "q": "在生理性 ETC 通量下，MnSOD 產生的 H₂O₂ 有多少比例由基質中的 Prx3/Trx2 處理，又有多少由 catalase/GPx 處理？當 MnSOD 的乙醯化狀態改變（K68 過氧化物酶開關）時，這個比例又會如何變化？",
+            "tags": [
+              "MnSOD",
+              "Peroxiredoxin 3",
+              "Thioredoxin",
+              "Catalase",
+              "Glutathione Peroxidase",
+              "SIRT3"
+            ]
+          },
+          {
+            "q": "MnSOD 活性是否會在功能上限制 Trx「水臂」？在 SOD2 驅動的氧化爆發下，TXNRD2/NADPH 的容量是否會飽和，使原本具緩衝作用的 Trx 系統轉變成速率限制步驟，因而成為毒物興奮（hormetic）訊號？",
+            "tags": [
+              "MnSOD",
+              "SOD2",
+              "Thioredoxin",
+              "Thioredoxin reductase",
+              "Hormesis"
+            ]
+          },
+          {
+            "q": "除了代謝耦合之外，在相同的細胞內，除了共用的 FOXO/Nrf2 轉錄之外，是否存在任何調控性（轉譯後修飾、非交互作用）耦合訊號，能協調 SOD2 與 Trx 的表現？",
+            "tags": [
+              "SOD2",
+              "Thioredoxin",
+              "FOXO",
+              "NRF2"
+            ]
+          },
+          {
+            "q": "若將 SIRT3 活化劑（提升 MnSOD）與保留 Trx1/Trx2 的策略合併，在心臟與神經保護上是否會優於單獨使用其中任一種？抑或只是再次讓興奮窗口塌陷？",
+            "tags": [
+              "SIRT3",
+              "Thioredoxin",
+              "Hormetic Window",
+              "Neuroprotection"
+            ]
+          }
         ]
       }
     ]

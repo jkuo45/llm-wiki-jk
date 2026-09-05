@@ -19,13 +19,13 @@ aliases:
 
 ## Structure
 
-ASK1 contains several conserved functional domains. The N-terminal region harbors a thioredoxin ([[Trx]]) binding domain that mediates redox-sensitive inhibition. A central serine-rich region serves as a regulatory hub for phosphorylation and protein–protein interactions, while the C-terminal portion contains the kinase domain essential for catalytic activity. An oligomerization domain near the N-terminus facilitates ASK1 dimerization, which is required for trans-autophosphorylation and full enzymatic activation. The full-length protein also contains a coiled-coil region that stabilizes dimer formation.
+ASK1 contains several conserved functional domains. The N-terminal region harbors a thioredoxin ([[Thioredoxin-1]]) binding domain that mediates redox-sensitive inhibition. A central serine-rich region serves as a regulatory hub for phosphorylation and protein–protein interactions, while the C-terminal portion contains the kinase domain essential for catalytic activity. An oligomerization domain near the N-terminus facilitates ASK1 dimerization, which is required for trans-autophosphorylation and full enzymatic activation. The full-length protein also contains a coiled-coil region that stabilizes dimer formation.
 
 ## Regulation
 
-ASK1 activity is exquisitely controlled by redox status and interacting partners. Under basal, non-stressed conditions, reduced [[Trx]] binds directly to the N-terminal domain of ASK1, maintaining the kinase in an inactive, monomeric state. During oxidative stress, elevated ROS oxidize Trx at its active-site cysteines, causing dissociation from ASK1. Freed from Trx-mediated inhibition, ASK1 undergoes dimerization via its oligomerization domain and trans-autophosphorylation at key residues, including Thr845, leading to full activation.
+ASK1 activity is exquisitely controlled by redox status and interacting partners. Under basal, non-stressed conditions, reduced [[Thioredoxin-1]] binds directly to the N-terminal domain of ASK1, maintaining the kinase in an inactive, monomeric state. During oxidative stress, elevated ROS oxidize Trx1 at its active-site cysteines, causing dissociation from ASK1. Freed from Trx1-mediated inhibition, ASK1 undergoes dimerization via its oligomerization domain and trans-autophosphorylation at key residues, including Thr845, leading to full activation.
 
-Additional layers of regulation involve inhibitory [[Phosphorylation|phosphorylation]] by [[AKT]] (at Ser83), which suppresses ASK1 activity and promotes cell survival. The serine-threonine phosphatase [[PP5|PP5]] dephosphorylates ASK1 at sites that modulate its activity, while 14-3-3 proteins bind phosphorylated ASK1 and sequester it in an inactive state. The scaffolding protein [[TNF Receptor Associated Factor|TRAF2]] and [[TRAF6]] promote ASK1 activation in response to TNF-α stimulation. Dimerization itself is essential: monomeric ASK1 shows negligible activity, whereas the dimeric form efficiently phosphorylates downstream targets.
+Additional layers of regulation involve inhibitory [[Phosphorylation|phosphorylation]] by [[Akt|AKT]] (at Ser83), which suppresses ASK1 activity and promotes cell survival. The serine-threonine phosphatase [[PP5|PP5]] dephosphorylates ASK1 at sites that modulate its activity, while 14-3-3 proteins bind phosphorylated ASK1 and sequester it in an inactive state. The scaffolding protein [[TNF Receptor Associated Factor|TRAF2]] and [[TRAF6]] promote ASK1 activation in response to TNF-α stimulation. Dimerization itself is essential: monomeric ASK1 shows negligible activity, whereas the dimeric form efficiently phosphorylates downstream targets.
 
 ## Signaling
 
@@ -66,8 +66,8 @@ List of documents that mention this entity
 - [[Bcl-2]]: JNK-mediated phosphorylation of Bcl-2 family members links ASK1 to mitochondrial apoptosis
 - [[TNF-α]]: Upstream cytokine that activates ASK1 through TRAF2/6
 - [[Tau]]: Hyperphosphorylated by ASK1–JNK in Alzheimer's pathology
-- [[Trx]]: Key redox-sensitive inhibitor of ASK1
-- [[AKT]]: Inhibitory kinase that phosphorylates and suppresses ASK1
+- [[Thioredoxin-1]]: Key redox-sensitive inhibitor of ASK1
+- [[Akt|AKT]]: Inhibitory kinase that phosphorylates and suppresses ASK1
 - [[PP5]]: Phosphatase that modulates ASK1 activity
 - [[14-3-3]]: Scaffold proteins that sequester inactive ASK1
 - [[IRE1]]: ER stress sensor that activates ASK1 via TRAF2
@@ -79,6 +79,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Trx]], [[TRAF2]], [[TRAF6]], [[MKK4]], [[MKK7]], [[MKK3]], [[MKK6]], [[IRE1]], [[14-3-3]], [[PP5]], [[AKT]], [[Tau]], [[KRAS]], [[FGF21]], [[TNFR1]], [[TRADD]], [[TNF-α]], [[Oxidative Stress]], [[Apoptosis]], [[MAPK]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Lung Cancer]], [[Colon Cancer]], [[Calcium Ions]], [[Endoplasmic Reticulum]], [[Phosphorylation]]
+- New links added: [[Thioredoxin-1]], [[TRAF2]], [[TRAF6]], [[MKK4]], [[MKK7]], [[MKK3]], [[MKK6]], [[IRE1]], [[14-3-3]], [[PP5]], [[Akt]], [[Tau]], [[KRAS]], [[FGF21]], [[TNFR1]], [[TRADD]], [[TNF-α]], [[Oxidative Stress]], [[Apoptosis]], [[MAPK]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Lung Cancer]], [[Colon Cancer]], [[Calcium Ions]], [[Endoplasmic Reticulum]], [[Phosphorylation]]
 - Suggested new entity notes to create: [[Nonalcoholic Steatohepatitis]]
 - Strong connections to strengthen: [[ASK1]] ↔ [[JNK]], [[ASK1]] ↔ [[p38 MAPK]], [[ASK1]] ↔ [[Oxidative Stress]], [[ASK1]] ↔ [[TNF-α]]

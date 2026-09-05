@@ -36,7 +36,7 @@ Carbazochrome (10–500 nM) undergoes [[Redox Cycling]] primarily within the inn
 
 ### Step 2: ROS-to-Mitokine Relay
 
-Mitochondrial superoxide is rapidly dismutated to H₂O₂ by [[SOD2]] (MnSOD). The H₂O₂ diffuses to the intermembrane space and, via [[Aquaporins]] (AQP8, AQP11), enters the cytosol. This pulse initiates a signaling cascade:
+Mitochondrial superoxide is rapidly dismutated to H₂O₂ by [[MnSOD]] (MnSOD). The H₂O₂ diffuses to the intermembrane space and, via [[Aquaporins]] (AQP8, AQP11), enters the cytosol. This pulse initiates a signaling cascade:
 
 1. **[[HIF-1α]] stabilization**: H₂O₂ inhibits [[PHD2]] (prolyl hydroxylase), stabilizing HIF-1α, which upregulates [[Glycolysis]] and [[VEGF]].
 2. **[[NRF2]] activation**: H₂O₂ and semiquinones modify [[Keap1]] cysteines, releasing [[NRF2]] for nuclear translocation.
@@ -58,7 +58,7 @@ The combined activation of [[NRF2]], [[ATF4]], and [[PGC1-α]] drives a coordina
 |---------|---------------------|-------------|----------------|
 | Antioxidant | [[NRF2]] | [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]] | Enhanced [[Redox Homeostasis]] |
 | ISR | [[ATF4]] | [[GDF15]], [[CHOP]], [[Amino acid transporters]] | [[Integrated Stress Response]], [[Amino acid metabolism]] |
-| Biogenesis | [[PGC1-α]]/[[NRF1]]/[[ERRalpha]] | [[TFAM]], [[Complex subunits]], [[SOD2]] | [[Mitochondrial Biogenesis]] |
+| Biogenesis | [[PGC1-α]]/[[NRF1]]/[[ERRalpha]] | [[TFAM]], [[Complex subunits]], [[MnSOD]] | [[Mitochondrial Biogenesis]] |
 | Quality control | [[TFEB]], [[FOXO]] | [[Cathepsins]], [[Autophagy]] genes, [[Ubiquitin-proteasome]] | [[Mitophagy]], [[Proteostasis]] |
 
 ### Step 5: Methylene Blue Shunt (Window Control)
@@ -127,7 +127,7 @@ List of documents that mention this entity
 - [[NRF2]]: ## Mechanism of Action The relay works by activating the NRF2/ARE antioxidant response pathway and stimulating mitoch...
 - [[Complex I]]: The one-electron reduction by Complex I or [[Complex III]] generates a semiquinone radical that reduces O₂ to [[Super...
 - [[Complex III]]: The one-electron reduction by [[Complex I]] or Complex III generates a semiquinone radical that reduces O₂ to [[Super...
-- [[SOD2]]: Mitochondrial superoxide is rapidly dismutated to H₂O₂ by SOD2 (MnSOD).
+- [[MnSOD]]: Mitochondrial superoxide is rapidly dismutated to H₂O₂ by SOD2 (MnSOD).
 - [[Aquaporins]]: The H₂O₂ diffuses to the intermembrane space and, via Aquaporins (AQP8, AQP11), enters the cytosol.
 - [[HIF-1α]]: **HIF-1α stabilization**: H₂O₂ inhibits [[PHD2]] (prolyl hydroxylase), stabilizing HIF-1α, which upregulates [[Glycol...
 - [[PHD2]]: **[[HIF-1α]] stabilization**: H₂O₂ inhibits PHD2 (prolyl hydroxylase), stabilizing HIF-1α, which upregulates [[Glycol...
@@ -200,6 +200,6 @@ List of documents that mention this entity
 - [[Aging]]: - **Aging**: Senomorphic effects of controlled ROS signaling combined with senolytic clearance by intermittent mitoph...
 
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[SIRT1]], [[AMPK]], [[PGC1-α]], [[Urolithin A]], [[Mitophagy]], [[NRF2]], [[Mitochondrial Biogenesis]], [[Complex I]], [[Complex III]], [[SOD2]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose Tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion Injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[PINK1]], [[Parkin]], [[Heart Failure]], [[Metabolic Syndrome]], [[Insulin Sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox Homeostasis]], [[Amino acid metabolism]], [[NRF1]], [[ERRalpha]], [[Proteostasis]], [[Hormetic Window]], [[Redox Vaccination]], [[SIRT3]]/[[SIRT4]] ratio
+- New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[SIRT1]], [[AMPK]], [[PGC1-α]], [[Urolithin A]], [[Mitophagy]], [[NRF2]], [[Mitochondrial Biogenesis]], [[Complex I]], [[Complex III]], [[MnSOD]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose Tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion Injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[PINK1]], [[Parkin]], [[Heart Failure]], [[Metabolic Syndrome]], [[Insulin Sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox Homeostasis]], [[Amino acid metabolism]], [[NRF1]], [[ERRalpha]], [[Proteostasis]], [[Hormetic Window]], [[Redox Vaccination]], [[SIRT3]]/[[SIRT4]] ratio
 - Suggested new entity notes to create: [[Redox Relay Therapeutics]]
 - Strong connections to strengthen: [[_document_ - Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]

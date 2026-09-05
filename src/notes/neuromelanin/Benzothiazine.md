@@ -22,7 +22,7 @@ Human neuromelanin is not pure eumelanin; analytical (solid-state NMR, X-ray spe
 
 ## Physiological vs Pathological Implications
 
-Pheomelanin-type structures are poorer antioxidants than eumelanin and can, under UV or oxidative challenge, produce damaging radicals—relevant to skin where pheomelanin-rich melanocytes (red hair/fair skin via MC1R) carry higher melanoma risk. In brain, the benzothiazine component of neuromelanin may modulate how the pigment handles iron and redox stress, potentially affecting neuronal vulnerability in [[Parkinson's Disease]] and the reciprocal risk with [[Cutaneous Melanoma]].
+Pheomelanin-type structures are poorer antioxidants than eumelanin and can, under UV or oxidative challenge, produce damaging radicals—relevant to skin where pheomelanin-rich melanocytes (red hair/fair skin via MC1R) carry higher melanoma risk. In brain, the benzothiazine component of neuromelanin may modulate how the pigment handles iron and redox stress, potentially affecting neuronal vulnerability in [[Parkinson's Disease]] and the reciprocal risk with [[Melanoma]].
 
 ## Pathology & Clinical Relevance
 
@@ -44,11 +44,11 @@ List of documents that mention this entity
 - [[5,6-indolequinone]]: Indolic (eumelanic) counterpart in neuromelanin.
 - [[Oxidative Stress]]: Benzothiazine rings can promote radical generation.
 - [[Parkinson's Disease]]: Disorder where neuromelanin composition matters.
-- [[Cutaneous Melanoma]]: Pigment-linked cancer sharing melanogenesis pathways.
+- [[Melanoma]]: Pigment-linked cancer sharing melanogenesis pathways.
 - [[Eumelanin]]: Sulfur-free black/brown melanin contrast.
 
 ## Linking Summary
 
-- New links added: [[Pheomelanin]], [[Neuromelanin]], [[Cysteine]], [[5,6-indolequinone]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Cutaneous Melanoma]], [[Eumelanin]].
+- New links added: [[Pheomelanin]], [[Neuromelanin]], [[Cysteine]], [[5,6-indolequinone]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Melanoma]], [[Eumelanin]].
 - Suggested new entity notes to create: [[Cysteinyldopa]], [[MC1R]], [[Melanogenesis]].
 - Strong connections to strengthen: [[Benzothiazine]] ↔ [[Pheomelanin]]; [[Benzothiazine]] ↔ [[Neuromelanin]].

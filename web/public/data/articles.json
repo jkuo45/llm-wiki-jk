@@ -167,13 +167,13 @@
         "langs": {
             "en-US": {
                 "title": "[index] articles",
-                "path": "pages/index.html",
+                "path": "pages/articles-index.html",
                 "created": "2026-08-21",
                 "updated": "2026-08-21"
             },
             "zh-TW": {
                 "title": "文章索引",
-                "path": "pages/index.html",
+                "path": "pages/articles-index.html",
                 "created": "2026-08-21",
                 "updated": "2026-08-21"
             }
@@ -216,24 +216,6 @@
         }
     },
     {
-        "id": "assumptions-lab",
-        "active": false,
-        "langs": {
-            "en-US": {
-                "title": "[WIP] Assumptions Lab — A/B Scenario Analysis over Graph Conflicts",
-                "path": "pages/en-US/assumptions.html",
-                "created": "2026-08-29",
-                "updated": "2026-08-30"
-            },
-            "zh-TW": {
-                "title": "[進行中] 假設實驗室 — 圖譜衝突的 A/B 情境分析",
-                "path": "pages/zh-TW/assumptions.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
-            }
-        }
-    },
-    {
         "id": "neurodegeneration-ad-pd-hd-als-review",
         "active": true,
         "langs": {
@@ -246,6 +228,24 @@
             "zh-TW": {
                 "title": "神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系",
                 "path": "pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
+    },
+    {
+        "id": "sirt3-aging-aging-related-diseases",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "SIRT3 — The Mitochondrial Deacetylase at the Center of Aging",
+                "path": "pages/en-US/sirt3-aging-aging-related-diseases.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            },
+            "zh-TW": {
+                "title": "SIRT3 — 居於老化核心的粒線體去乙醯酶",
+                "path": "pages/zh-TW/sirt3-aging-aging-related-diseases.html",
                 "created": "2026-08-30",
                 "updated": "2026-08-30"
             }
@@ -266,6 +266,78 @@
                 "path": "pages/zh-TW/discovery-arrival-graph-metrics.html",
                 "created": "2026-08-30",
                 "updated": "2026-08-30"
+            }
+        }
+    },
+    {
+        "id": "beyond-mitohormesis-overlooked-paradigms",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Beyond Mitohormesis — 12 Overlooked Hormetic Domains",
+                "path": "pages/en-US/beyond-mitohormesis-overlooked-paradigms.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            },
+            "zh-TW": {
+                "title": "超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域",
+                "path": "pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html",
+                "created": "2026-08-30",
+                "updated": "2026-08-30"
+            }
+        }
+    },
+    {
+        "id": "hormetic-range-assessment",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Hormetic Range Assessment — Map Your Biological Resilience",
+                "path": "pages/en-US/hormetic-range-assessment.html",
+                "created": "2026-09-02",
+                "updated": "2026-09-02"
+            },
+            "zh-TW": {
+                "title": "毒物興奮範圍評估 — 映射你的生物韌性",
+                "path": "pages/zh-TW/hormetic-range-assessment.html",
+                "created": "2026-09-02",
+                "updated": "2026-09-02"
+            }
+        }
+    },
+    {
+        "id": "cell-death-comparison-table",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Cell Death Comparison [table]",
+                "path": "pages/en-US/cell-death-comparison-table.html",
+                "created": "2026-09-03",
+                "updated": "2026-09-03"
+            },
+            "zh-TW": {
+                "title": "細胞死亡比較 [表格]",
+                "path": "pages/zh-TW/cell-death-comparison-table.html",
+                "created": "2026-09-03",
+                "updated": "2026-09-03"
+            }
+        }
+    },
+    {
+        "id": "male-distributed-topology-vs-estrogen-hub",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Male Distributed Topology vs the Centralized Estrogen Hub",
+                "path": "pages/en-US/male-distributed-topology-vs-estrogen-hub.html",
+                "created": "2026-09-05",
+                "updated": "2026-09-05"
+            },
+            "zh-TW": {
+                "title": "男性分散式拓撲 vs 集中式雌激素樞紐",
+                "path": "pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html",
+                "created": "2026-09-05",
+                "updated": "2026-09-05"
             }
         }
     }

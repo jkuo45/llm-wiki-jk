@@ -2,7 +2,7 @@
 title: Peroxiredoxin 3
 description: Mitochondrial 2-Cys peroxiredoxin that reduces hydrogen peroxide and peroxynitrite using thioredoxin-2 as electron donor.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-09-01
 tags:
   - enzyme
   - redox
@@ -37,9 +37,10 @@ PRDX3 expression is induced by [[Nrf2]] and is frequently upregulated in cancer 
   - [[Peroxiredoxin]]: The enzyme family to which PRDX3 belongs.
   - [[Sulfiredoxin]]: The enzyme that repairs hyperoxidized PRDX3, restoring its activity.
   - [[Oxidative Stress]]: The phenotype PRDX3 opposes through peroxide scavenging.
+  - [[MnSOD]]: The mitochondrial superoxide dismutase whose H₂O₂ product is the substrate PRDX3 scavenges; together they form the matrix peroxide-relay (`SOD2 → H₂O₂ → Prx3/Trx2 → H₂O`).
 
 ## Linking Summary
 
-  - New links added: [[Peroxiredoxin 3]], [[Mitochondria]], [[ROS]], [[Peroxiredoxin]], [[Sulfiredoxin]], [[Oxidative Stress]], [[Apoptosis]]
-  - Suggested new entity notes to create: [[Thioredoxin-2]], [[Peroxiredoxin 5]], [[Thioredoxin Reductase 2]]
-  - Strong connections to strengthen: [[Peroxiredoxin 3]] ↔ [[Sulfiredoxin]]; [[Peroxiredoxin 3]] ↔ [[Nrf2]]
+  - New links added: [[Peroxiredoxin 3]], [[Mitochondria]], [[ROS]], [[Peroxiredoxin]], [[Sulfiredoxin]], [[Oxidative Stress]], [[Apoptosis]], [[MnSOD]], [[Thioredoxin-2]]
+  - Suggested new entity notes to create: [[Peroxiredoxin 5]], [[Thioredoxin Reductase 2]]
+  - Strong connections to strengthen: [[Peroxiredoxin 3]] ↔ [[Sulfiredoxin]]; [[Peroxiredoxin 3]] ↔ [[Nrf2]]; [[Peroxiredoxin 3]] ↔ [[MnSOD]] (peroxide-relay hand-off)

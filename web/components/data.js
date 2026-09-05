@@ -14,18 +14,27 @@ const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 // re-downloading ~11 MB on every page load.
 let CACHE_HASH = '';
 
+// Graph build identity (from data/version.json) shown in the home-page footer.
+export const BUILD_INFO = { hash: '', generated: '' };
+
 async function loadCacheTag() {
   try {
     const resp = await fetch(DATA_BASE + 'version.json?x=' + Date.now());
     if (resp.ok) {
       const v = await resp.json();
       CACHE_HASH = (v && (v.hash || v.tag || v.generated)) || '';
+      if (v) {
+        BUILD_INFO.hash = v.hash || '';
+        BUILD_INFO.generated = v.generated || '';
+      }
     }
   } catch (e) {
     /* version.json missing -> fall back to Date.now() busting below */
   }
 }
 
+// Lenient fetch: optional artifacts (translations, traces, registries…) fall
+// back to null and the app boots with degraded content.
 async function getJSON(name, logName) {
   try {
     const q = CACHE_HASH ? ('?v=' + CACHE_HASH) : ('?v=' + Date.now());
@@ -36,6 +45,18 @@ async function getJSON(name, logName) {
     console.warn(`Could not load ${logName}:`, e);
     return null;
   }
+}
+
+// Strict fetch: critical-path files (nodes/edges/legend/graph-meta) must
+// load or the app has nothing to show — surface a real error instead of
+// silently rendering an empty graph.
+async function getJSONRequired(name, logName) {
+  const data = await getJSON(name, logName);
+  if (data == null) {
+    throw new Error(`Required dataset "${logName}" (${name}) failed to load — ` +
+      'check the network tab / data deployment.');
+  }
+  return data;
 }
 
 // ---------------------------------------------------------------------------
@@ -62,10 +83,10 @@ async function loadAllData() {
   const mode = DATASET_MODE;
   const prefix = mode === 'triples' ? 'triples-' : mode === 'wiki' ? 'wiki-' : '';
   const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, TRACES, ARTICLES, TASKS, PREDICATES, SUGGESTED_PROMPTS] = await Promise.all([
-    getJSON(prefix + 'nodes.json', 'nodes'),
-    getJSON(prefix + 'edges.json', 'edges'),
-    getJSON(prefix + 'legend.json', 'legend'),
-    getJSON(prefix + 'graph-meta.json', 'graph-meta'),
+    getJSONRequired(prefix + 'nodes.json', 'nodes'),
+    getJSONRequired(prefix + 'edges.json', 'edges'),
+    getJSONRequired(prefix + 'legend.json', 'legend'),
+    getJSONRequired(prefix + 'graph-meta.json', 'graph-meta'),
     getJSON('translations-zh-TW.json', 'translations'),
     getJSON('query.json', 'traces'),
     getJSON('articles.json', 'articles'),
@@ -128,17 +149,32 @@ export let TASKS = [];
 export let PREDICATES = {};
 export let SUGGESTED_PROMPTS = {}; // suggested chat prompts, keyed by UI language
 
-const loaded = await loadAllData();
-RAW_NODES = loaded.RAW_NODES;
-RAW_EDGES = loaded.RAW_EDGES;
-LEGEND = loaded.LEGEND;
-GRAPH_META = loaded.GRAPH_META;
-TRANSLATIONS = loaded.TRANSLATIONS;
-TRACES = loaded.TRACES;
-ARTICLES = loaded.ARTICLES;
-TASKS = loaded.TASKS;
-PREDICATES = loaded.PREDICATES;
-SUGGESTED_PROMPTS = loaded.SUGGESTED_PROMPTS;
+// Boot failure surface: when a critical dataset fails, DATA_ERROR carries the
+// error and every export below keeps its empty default — all importing modules
+// still evaluate, and graph.js renders the boot error/retry UI instead of a
+// silently empty graph. (A thrown top-level await would kill the whole module
+// graph and leave nothing able to show an error.)
+export let DATA_ERROR = null;
+
+let loaded;
+try {
+  loaded = await loadAllData();
+} catch (err) {
+  console.error('[data] critical dataset failed:', err);
+  DATA_ERROR = err;
+  loaded = null;
+}
+
+RAW_NODES = loaded ? loaded.RAW_NODES : [];
+RAW_EDGES = loaded ? loaded.RAW_EDGES : [];
+LEGEND = loaded ? loaded.LEGEND : [];
+GRAPH_META = loaded ? loaded.GRAPH_META : {};
+TRANSLATIONS = loaded ? loaded.TRANSLATIONS : {};
+TRACES = loaded ? loaded.TRACES : [];
+ARTICLES = loaded ? loaded.ARTICLES : [];
+TASKS = loaded ? loaded.TASKS : [];
+PREDICATES = loaded ? loaded.PREDICATES : {};
+SUGGESTED_PROMPTS = loaded ? loaded.SUGGESTED_PROMPTS : {};
 
 // The active dataset (triples / wiki / combined, from the URL-hash mode) was
 // already fetched by loadAllData(); RAW_NODES / RAW_EDGES / LEGEND /

@@ -112,3 +112,11 @@
 [data-theme="dark"] svg [stroke="rgba(255,255,255,0.28)"] {
   stroke: rgba(224, 224, 224, 0.25);
 }
+
+/* ——— Beyond-mitohormesis page custom palette ——— */
+[data-theme="dark"] [fill="#2a9d8f"] { fill: #40c9b8; }
+[data-theme="dark"] [stroke="#2a9d8f"] { stroke: #40c9b8; }
+[data-theme="dark"] [fill="#264653"] { fill: var(--slate); }
+[data-theme="dark"] [stroke="#264653"] { stroke: var(--slate); }
+[data-theme="dark"] [fill="#c1121f"] { fill: var(--oxblood); }
+[data-theme="dark"] [stroke="#c1121f"] { stroke: var(--oxblood); }

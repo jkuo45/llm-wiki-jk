@@ -1,8 +1,8 @@
 ---
 title: Melanoma
-description: Melanoma is an aggressive skin cancer arising from melanocytes, driven by UV-induced mutations and oncogene activation (BRAF, NRAS), with high metastatic potential; responsive to targeted and immunotherapies and modulated by autophagy, bee venom, and ivermectin.
+description: Melanoma is an aggressive skin cancer arising from melanocytes, driven by UV-induced mutations and oncogene activation (BRAF, NRAS), with high metastatic potential; metastatic colonization depends on FTSJ1/Um34-dependent selenoprotein translation, and the disease is responsive to targeted and immunotherapies and modulated by autophagy, bee venom, and ivermectin.
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-08-31
 tags:
   - medical-condition
   - cancer
@@ -10,6 +10,7 @@ tags:
   - oncology
 aliases:
   - Malignant Melanoma
+  - Cutaneous Melanoma
   - Skin Cancer
   - Melanoma
 protected: true
@@ -66,6 +67,30 @@ Melanoma development is driven by genetic and epigenetic alterations that activa
 > [!tip] Senolytic Potential
 > Senescent melanocytes accumulate in aging skin and may contribute to a pro-tumorigenic microenvironment via SASP. Senolytic strategies could potentially clear these cells and reduce melanoma risk in aging populations.
 
+## Redox and Selenocysteine Axis in Metastasis
+
+A defining feature of melanoma is the **oxidative-stress sensitivity of metastasis**: oxidative stress inhibits the ability of melanoma cells to colonize distant sites (Piskounova et al., *Nature* 2015).
+
+- Micrometastatic cells experience high levels of stress and upregulate [[Selenocysteine]] biosynthesis.
+- Efficient insertion of Sec — dependent on the **Um34** modification of tRNA[Ser]Sec installed by **[[FTSJ1]]** — supports translation of antioxidant [[Selenoprotein|selenoproteins]] (e.g., [[Glutathione Peroxidase 4|GPx4]], [[Thioredoxin reductase|TrxR]]) that buffer [[Reactive Oxygen Species]].
+- **FTSJ1/Um34 is necessary and sufficient for metastasis in vivo**: FTSJ1-deficient cells are oxidatively stressed and show reduced metastatic colonization (Nease et al., 2024).
+
+> [!important]
+> tRNA[Ser]Sec Um34 modification protects cancer cells from oxidative stress and is required for melanoma metastatic colonization, identifying FTSJ1/Um34 as a potential metastasis-selective therapeutic target.
+
+- Targeting the FTSJ1–Um34–selenoprotein axis could selectively cripple the antioxidant shield of metastatic cells without broadly disrupting housekeeping selenoproteins, a strategy distinct from conventional redox-targeted therapies.
+
+## Melanoma–Parkinson's Disease Link
+
+Epidemiological studies reveal a significant and **reciprocal association** between melanoma and [[Parkinson's Disease]]: each disorder increases the risk of the other.
+
+- Meta-analyses show PD patients have a ~1.5–2-fold higher risk of developing melanoma, and melanoma survivors have a comparably elevated risk of subsequent PD. The relationship is not explained by medication alone (though some PD drugs, e.g., [[L-DOPA]], may modestly influence melanocyte activity), because the association persists in drug-naïve cohorts and extends to melanoma in situ.
+- **Shared biology of pigment cells**: cutaneous [[Melanocytes|melanocytes]] and [[Neuromelanin]]-containing dopaminergic neurons of the [[Substantia Nigra Pars Compacta]] share the melanogenesis enzyme toolkit ([[Tyrosinase]], [[Dopachrome tautomerase]], Tyrp1) and handle high levels of reactive catechol/quinone intermediates such as [[Aminochrome]], creating overlapping vulnerabilities to oxidative damage and [[Alpha-Synuclein Aggregation]].
+- **Genetic overlap**: variants in pigmentation genes — most notably MC1R (red-hair/fair-skin alleles), but also TYR, OCA2, and [[MITF]] — confer risk for both melanoma and PD. MC1R variants shift melanogenesis toward pheomelanic, redox-labile pigment (see [[Benzothiazine]]), potentially heightening cellular stress in both skin and brain. Shared immune and autophagy pathways (e.g., GBA1, [[Lysosomal Dysfunction]]) further link the disorders.
+
+> [!tip] Clinical relevance
+> Dermatologic surveillance is recommended for PD patients, and awareness of PD risk should accompany melanoma follow-up. Therapies modulating pigmentation or α-synuclein could have cross-tissue effects.
+
 ## Documents
 
   - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
@@ -95,6 +120,9 @@ Melanoma development is driven by genetic and epigenetic alterations that activa
   - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
     - Melanocytic nevi are composed of BRAF V600E-driven senescent melanocytes; CXCR2 ligands (GROα, IL-8) from SASP may stimulate rare premalignant cells, driving melanoma development.
 
+  - [[_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis|Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis]]
+    - Demonstrates FTSJ1/Um34-dependent Sec translation is required for melanoma metastatic colonization.
+
 ## Connections
 
 - [[Cancer]] — Melanoma is an aggressive skin malignancy.
@@ -117,9 +145,18 @@ Melanoma development is driven by genetic and epigenetic alterations that activa
 - [[EMT]] — Phenotypic switch associated with invasion.
 - [[Angiogenesis]] — Tumor vascularization supports growth.
 - [[Senescence Surveillance]] — Immune clearance of senescent melanocytes in nevi.
+- [[Selenocysteine]] — Antioxidant selenoprotein translation supports metastatic survival.
+- [[FTSJ1]] — Installs Um34 on tRNA[Ser]Sec; required for metastatic colonization.
+- [[Glutathione Peroxidase 4]] — Antioxidant selenoenzyme enabled by Sec translation.
+- [[Thioredoxin reductase]] — Antioxidant selenoenzyme buffering ROS in micrometastases.
+- [[Ferroptosis]] — Linked to selenoprotein translation fidelity; suppressible oxidative cell death.
+- [[Parkinson's Disease]] — Reciprocally linked disorder (pigment-cell and genetic overlap).
+- [[Neuromelanin]] — Brain pigment sharing melanogenesis machinery with skin.
+- [[Tyrosinase]] — Shared melanogenic enzyme in melanocytes and dopaminergic neurons.
+- [[Aminochrome]] — Shared reactive catechol/quinone intermediate.
 
 ## Linking Summary
 
-- New links added: [[Melanoma]], [[BRAF]], [[RAS]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-8]], [[CXCR2]], [[p16]], [[PD-L1]], [[Metastasis]], [[Melanocytes]], [[Angiogenesis]], [[Senescence Surveillance]], [[Autophagy]], [[Intermittent Fasting]], [[Honeybee venom]], [[melittin]], [[Ivermectin]], [[PAK1]], [[MAPK]], [[EMT]], [[MITF]]
-- Suggested new entity notes to create: [[NRAS]], [[CDKN2A]], [[MAPK Pathway]], [[Dabrafenib]], [[GROα]]
-- Strong connections to strengthen: [[Melanoma]] ↔ [[BRAF]], [[Melanoma]] ↔ [[Senescence]], [[Melanoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Melanoma]] ↔ [[Autophagy]]
+- New links added: [[Melanoma]], [[BRAF]], [[RAS]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-8]], [[CXCR2]], [[p16]], [[PD-L1]], [[Metastasis]], [[Melanocytes]], [[Angiogenesis]], [[Senescence Surveillance]], [[Autophagy]], [[Intermittent Fasting]], [[Honeybee venom]], [[melittin]], [[Ivermectin]], [[PAK1]], [[MAPK]], [[EMT]], [[MITF]], [[Selenocysteine]], [[FTSJ1]], [[Glutathione Peroxidase 4]], [[Thioredoxin reductase]], [[Ferroptosis]], [[Parkinson's Disease]], [[Neuromelanin]], [[Tyrosinase]], [[Aminochrome]]
+- Suggested new entity notes to create: [[NRAS]], [[CDKN2A]], [[MAPK Pathway]], [[Dabrafenib]], [[GROα]], [[Melanocyte]], [[Metastatic colonization]]
+- Strong connections to strengthen: [[Melanoma]] ↔ [[BRAF]], [[Melanoma]] ↔ [[Senescence]], [[Melanoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Melanoma]] ↔ [[Autophagy]], [[Melanoma]] ↔ [[FTSJ1]], [[Melanoma]] ↔ [[Selenocysteine]], [[Melanoma]] ↔ [[Parkinson's Disease]]

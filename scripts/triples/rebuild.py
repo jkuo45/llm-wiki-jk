@@ -661,7 +661,12 @@ def main() -> int:
         print("No _triples.json files found under src/")
         return 1
 
-    G = nx.DiGraph()
+    # MultiDiGraph — parallel edges (same node pair, different predicate) are
+    # real content in this corpus (e.g. resveratrol activates vs
+    # does_not_activate SIRT1; senescence can_promote vs suppresses_tumor
+    # cancer). A plain DiGraph silently overwrote the earlier relation on
+    # every shared pair, dropping ~200 relations graph-wide.
+    G = nx.MultiDiGraph()
     total_triples = 0
     edge_records: dict[tuple, dict] = {}
     node_candidates: dict[str, list[dict]] = defaultdict(list)

@@ -81,7 +81,7 @@ Once activated by resveratrol, SIRT1 deacetylates several downstream transcripti
 #### FOXO Transcription Factors (Stress Resistance & Autophagy)
 
 - **Mechanism:** SIRT1 deacetylates **[[FoxO1]]** and **[[FOXO3a]]**.
-- **Result:** This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes. It upregulates endogenous antioxidant enzymes (such as **[[SOD2]]** and **Catalase**) and induces autophagy genes, allowing cells to clear damaged proteins and organelles.
+- **Result:** This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes. It upregulates endogenous antioxidant enzymes (such as **[[MnSOD]]** and **Catalase**) and induces autophagy genes, allowing cells to clear damaged proteins and organelles.
 
 #### NF-κB (Anti-Inflammatory Effects)
 

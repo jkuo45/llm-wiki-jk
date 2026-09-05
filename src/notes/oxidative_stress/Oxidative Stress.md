@@ -55,7 +55,7 @@ The primary sources of cellular ROS include the [[Mitochondria|mitochondrial]] e
 
 ### Enzymatic Defenses
 
-- **[[Superoxide Dismutase]] (SOD)**: Three isoforms — [[SOD1]] (Cu/Zn, cytosol), [[SOD2]] (Mn, mitochondria), [[SOD3]] (Cu/Zn, extracellular) — dismutate O₂⁻• to H₂O₂.
+- **[[Superoxide Dismutase]] (SOD)**: Three isoforms — [[SOD1]] (Cu/Zn, cytosol), [[MnSOD]] (Mn, mitochondria), [[SOD3]] (Cu/Zn, extracellular) — dismutate O₂⁻• to H₂O₂.
 - **[[Catalase]]**: Decomposes H₂O₂ to H₂O and O₂, primarily in peroxisomes. Has one of the highest turnover rates of any enzyme (~10⁷ M⁻¹s⁻¹).
 - **[[Glutathione Peroxidase]] (GPX)**: Four selenium-containing isoforms (GPX1–4) reduce H₂O₂ and organic hydroperoxides using [[Glutathione]] (GSH) as co-substrate.
 - **[[Peroxiredoxin]] (PRDX)**: Six isoforms; reduce H₂O₂, organic hydroperoxides, and peroxynitrite with high affinity.
@@ -107,7 +107,7 @@ The transition from signaling to damage is governed by redox thresholds:
 - **Basal (10–100 nM H₂O₂)**: Homeostatic signaling; [[Peroxiredoxin]] and [[Glutathione Peroxidase]] maintain set point.
 - **Adaptive (100–500 nM H₂O₂)**: [[NRF2]] activation, [[FOXO]] induction, [[Mitochondrial Biogenesis]].
 - **Stress (500 nM–1 μM H₂O₂)**: [[JNK]] and [[p38]] activation, [[Apoptosis]] priming.
-- **Toxic (>1 μM H₂O₂)**: [[Cell necrosis]], [[MPTP]] opening, [[PARP]] hyperactivation.
+- **Toxic (>1 μM H₂O₂)**: [[Necrosis]], [[MPTP]] opening, [[PARP]] hyperactivation.
 
 These thresholds are cell-type and context dependent, influenced by baseline [[NADPH]]/[[NADP⁺]] ratios, [[Glutathione]] levels, and [[Thioredoxin]] reductase activity.
 

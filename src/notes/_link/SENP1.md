@@ -21,7 +21,7 @@ SENP1 (SUMO1/sentrin-specific peptidase 1) is a cysteine protease of the Sentrin
 ## Functional Roles
 
 - **Mitochondrial signaling:** SENP1-mediated deSUMOylation regulates the mitochondrial localization and activity of [[SIRT3]]. Pharmacological [[AMPK]] activation with [[Metformin|metformin]] promotes SENP1-mediated deSUMOylation of SIRT3, enhancing its mitochondrial import and functional activity, which reduces tubular cell [[Apoptosis|apoptosis]] under metabolic stress in models of [[Acute Kidney Injury|acute kidney injury]].
-- **Apoptosis control:** The AMPK/SENP1/SIRT3 axis governs mitochondrial apoptosis *via* [[SOD2|SOD2]] deacetylation, mitigating oxidative stress-induced cell death.
+- **Apoptosis control:** The AMPK/SENP1/SIRT3 axis governs mitochondrial apoptosis *via* [[MnSOD|SOD2]] deacetylation, mitigating oxidative stress-induced cell death.
 - **Stress adaptation:** SENP1 regulates SUMO dynamics of transcription factors (e.g., HIF-1α) and DNA repair factors, linking deSUMOylation to hypoxic and genotoxic stress responses.
 
 ## Clinical Relevance
@@ -40,11 +40,11 @@ SENP1 (SUMO1/sentrin-specific peptidase 1) is a cysteine protease of the Sentrin
 - [[AMPK]]: Upstream kinase whose activation drives SENP1-mediated SIRT3 deSUMOylation.
 - [[Metformin]]: Pharmacological AMPK activator in this axis.
 - [[Acute Kidney Injury]]: Disease context for the metformin–SENP1–SIRT3 pathway.
-- [[SOD2]]: Downstream deacetylation target of SIRT3 in apoptosis control.
+- [[MnSOD]]: Downstream deacetylation target of SIRT3 in apoptosis control.
 
 ## Linking Summary
 
-- New links added: [[SUMOylation]], [[SIRT3]], [[AMPK]], [[Metformin]], [[Acute Kidney Injury]], [[SOD2]], [[Apoptosis]]
+- New links added: [[SUMOylation]], [[SIRT3]], [[AMPK]], [[Metformin]], [[Acute Kidney Injury]], [[MnSOD]], [[Apoptosis]]
 - Suggested new entity notes to create: [[SENP2]]
 - Strong connections to strengthen:
     - [[SIRT3]] ↔ [[SENP1]] (deSUMOylation governs SIRT3 mitochondrial import)

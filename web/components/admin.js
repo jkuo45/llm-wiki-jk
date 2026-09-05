@@ -20,6 +20,8 @@
 import { esc } from './markdown.js';
 import { authHeaders, isSignedIn, onSessionChange, promptSignIn } from './auth.js';
 import { t } from './i18n.js';
+import { skeletonRows } from './ui/Skeleton.js';
+import { enhanceSegmented } from './ui/Segmented.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || window.GRAPH_API_BASE).replace(/\/$/, '');
 const FLAGS_API = `${API_BASE}/flags`;
@@ -131,6 +133,7 @@ async function ensureLoaded(type) {
   if (loaded.has(type)) { render(); return; }
   const token = ++loadToken;
   statusEl.textContent = 'Loading… / 載入中…';
+  listEl.replaceChildren(skeletonRows(8)); // immediate layout-matched feedback
   try {
     // The flag overlay is shared across tabs; load it alongside the first.
     if (!loaded.size) await loadFlags();
@@ -223,11 +226,13 @@ function showError(msg) {
 // ---------------------------------------------------------------------
 // Rendering
 // ---------------------------------------------------------------------
+// Content-type tabs: radiogroup semantics + arrow-key navigation via the
+// shared Segmented primitive; render() owns the active-class sync after that.
+const tabsSeg = enhanceSegmented(tabsEl, { valueAttr: 'data-tab' });
 tabsEl.addEventListener('click', (e) => {
   const b = e.target.closest('button[data-tab]');
   if (!b) return;
   activeTab = b.dataset.tab;
-  tabsEl.querySelectorAll('button').forEach((x) => x.classList.toggle('active', x === b));
   errorEl.hidden = true;
   ensureLoaded(activeTab);
 });
