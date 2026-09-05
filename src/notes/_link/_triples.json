@@ -15916,5 +15916,453 @@
     "source_document": "Fisetin.md",
     "created": "2026-09-04T17:05:28Z",
     "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "eb71efa107b2",
+    "subject": "Parthanatos",
+    "predicate": "is_a",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Parthanatos is a regulated cell death program defined by PARP1 hyperactivation, PAR signaling, and AIF/MIF-dependent large-scale DNA fragmentation, distinct from caspase-dependent apoptosis and accidental necrosis.",
+      "zh-TW": "Parthanatos 是一種受調控的細胞死亡程序，由 PARP1 過度活化、PAR 訊號傳遞以及 AIF/MIF 依賴的大尺度 DNA 片段化所定義，不同於 caspase 依賴的 apoptosis 與意外的 necrosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "980a6843db14",
+    "subject": "PARP1",
+    "predicate": "drives",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Severe DNA damage hyperactivates PARP1, generating long branched PAR polymers that translocate to mitochondria and trigger AIF release, committing the cell to parthanatos instead of DNA repair.",
+      "zh-TW": "嚴重 DNA 損傷使 PARP1 過度活化，產生長分支 PAR 聚合物，轉位至粒線體並觸發 AIF 釋放，使細胞走向 parthanatos 而非 DNA 修復。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "0aab43da2213",
+    "subject": "PARP1",
+    "predicate": "produces",
+    "object": "PAR",
+    "context": {
+      "en-US": "Hyperactivated PARP1 consumes NAD+ to synthesize poly(ADP-ribose) (PAR) chains on itself and chromatin targets; in parthanatos these chains accumulate to toxic levels and act as a death signal.",
+      "zh-TW": "過度活化的 PARP1 消耗 NAD+，在其自身與染色質目標上合成 poly(ADP-ribose)（PAR）鏈；在 parthanatos 中這些鏈累積至毒性濃度並作為死亡訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "b695a84ca080",
+    "subject": "PAR",
+    "predicate": "binds",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Cytosolic PAR binds mitochondrial Apoptosis-Inducing Factor at Arg588, releasing it from the inner membrane and licensing its nuclear translocation together with MIF.",
+      "zh-TW": "細胞質 PAR 在 Arg588 結合粒線體 Apoptosis-Inducing Factor，將其從內膜釋放，並促使其與 MIF 共同轉位入核。"
+    },
+    "confidence": 0.9,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "b43564629e04",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "recruits",
+    "object": "MIF",
+    "context": {
+      "en-US": "Nuclear-translocated Apoptosis-Inducing Factor recruits MIF (PAAN nuclease), which executes large-scale (~50-kbp) chromatinolysis independently of caspases.",
+      "zh-TW": "轉位入核的 Apoptosis-Inducing Factor 招募 MIF（PAAN 核酸酶），以後者執行 caspase 非依賴的大尺度（~50-kbp）染色質降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "MIF.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "46de928b27f8",
+    "subject": "MIF",
+    "predicate": "executes",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "MIF is the terminal nuclease of parthanatos: once recruited by nuclear AIF, its PAAN activity fragments chromatin into large pieces, completing caspase-independent death.",
+      "zh-TW": "MIF 是 parthanatos 的終端核酸酶：一旦被核內 AIF 招募，其 PAAN 活性將染色質切成大片段，完成 caspase 非依賴的死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "MIF.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "72050d73b275",
+    "subject": "nNOS",
+    "predicate": "promotes",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "In male ischemic neurons, nNOS-derived peroxynitrite drives the DNA damage that hyperactivates PARP1; nNOS blockade protects males by cutting off parthanatos at its source.",
+      "zh-TW": "在雄性缺血神經元中，nNOS 衍生的 peroxynitrite 造成 DNA 損傷並使 PARP1 過度活化；阻斷 nNOS 可從源頭切斷 parthanatos，保護雄性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "527535c9a917",
+    "subject": "PJ-34",
+    "predicate": "inhibits",
+    "object": "PARP1",
+    "context": {
+      "en-US": "PJ-34 is a PARP inhibitor that blocks parthanatos by preventing PARP1 hyperactivation and downstream PAR/AIF/MIF signaling; in stroke models it protects males only.",
+      "zh-TW": "PJ-34 是 PARP 抑制劑，透過阻止 PARP1 過度活化及下游 PAR/AIF/MIF 訊號來阻斷 parthanatos；在中風模型中僅保護雄性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "3a1ba38df7ce",
+    "subject": "Estrogen Receptor",
+    "predicate": "upregulates",
+    "object": "MBOAT1",
+    "context": {
+      "en-US": "Estrogen receptor signaling drives MBOAT1 transcription; MBOAT1 remodels phospholipids toward PE-MUFA, suppressing ferroptosis independently of GPX4/FSP1 — the female remodeling gate.",
+      "zh-TW": "Estrogen receptor 訊號驅動 MBOAT1 轉錄；MBOAT1 將磷脂重塑為 PE-MUFA，以 GPX4/FSP1 非依賴方式抑制 ferroptosis——即雌性重塑閘門。"
+    },
+    "confidence": 0.9,
+    "source_document": "MBOAT1.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "ba98c845c608",
+    "subject": "MBOAT1",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "MBOAT1 suppresses ferroptosis by enriching membranes with monounsaturated PE species at the expense of peroxidation-prone PUFA phospholipids, acting in parallel to the GPX4 and FSP1 axes.",
+      "zh-TW": "MBOAT1 透過增加膜中單元不飽和 PE、減少易過氧化的 PUFA 磷脂來抑制 ferroptosis，與 GPX4 及 FSP1 軸平行作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "MBOAT1.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "c22a2ac6e5f3",
+    "subject": "Androgen Receptor",
+    "predicate": "upregulates",
+    "object": "MBOAT2",
+    "context": {
+      "en-US": "Androgen receptor signaling drives MBOAT2 transcription, the male counterpart of the ER-to-MBOAT1 gate, conferring ferroptosis resistance through the same PE-MUFA remodeling logic.",
+      "zh-TW": "Androgen receptor 訊號驅動 MBOAT2 轉錄，即 ER 至 MBOAT1 閘門的雄性對應物，透過相同的 PE-MUFA 重塑邏輯賦予 ferroptosis 抗性。"
+    },
+    "confidence": 0.9,
+    "source_document": "MBOAT2.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "9e117212fc6f",
+    "subject": "MBOAT2",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "MBOAT2 suppresses ferroptosis via lyso-phospholipid acyltransferase activity that displaces PUFA tails with MUFA tails, lowering the membrane peroxidation substrate.",
+      "zh-TW": "MBOAT2 透過 lyso-磷脂醯基轉移酶活性，以 MUFA 取代 PUFA 尾鏈，降低膜過氧化底物，從而抑制 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "MBOAT2.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "6bb9aab5e950",
+    "subject": "Estrogen",
+    "predicate": "upregulates",
+    "object": "SmgGDS",
+    "context": {
+      "en-US": "Estradiol induces SmgGDS (RAP1GDS1) in the female heart, where it restrains ferritinophagy-mediated ferroptosis and contributes to cardiac protection.",
+      "zh-TW": "Estradiol 在雌性心臟誘導 SmgGDS（RAP1GDS1），抑制 ferritinophagy 介導的 ferroptosis，參與心臟保護。"
+    },
+    "confidence": 0.85,
+    "source_document": "SmgGDS.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "d7702e3648dd",
+    "subject": "SmgGDS",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "SmgGDS suppresses cardiac ferroptosis by braking ferritinophagy-dependent iron release, limiting the labile iron that fuels Fenton-driven lipid peroxidation.",
+      "zh-TW": "SmgGDS 透過抑制 ferritinophagy 依賴的鐵釋放來抑制心臟 ferroptosis，限制驅動 Fenton 脂質過氧化的不穩定鐵。"
+    },
+    "confidence": 0.85,
+    "source_document": "SmgGDS.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "998c711ccf2f",
+    "subject": "Estrogen",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Estrogen receptor signaling increases SIRT1 transcription and activity, coupling hormonal status to deacetylation of p53, NF-κB, autophagy factors, and PARP1 survival signaling.",
+      "zh-TW": "Estrogen receptor 訊號增加 SIRT1 轉錄與活性，將荷爾蒙狀態耦合至 p53、NF-κB、自噬因子去乙醯化及 PARP1 存活訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "Estrogen.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "0718be22ecb4",
+    "subject": "Estrogen",
+    "predicate": "upregulates",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "Estrogen signaling boosts SIRT3 expression and mitochondrial targeting, strengthening MnSOD activation and mtROS control at the source of necroptosis/ferroptosis crosstalk.",
+      "zh-TW": "Estrogen 訊號提升 SIRT3 表現與粒線體定位，強化 MnSOD 活化與 mtROS 控制，從源頭調節 necroptosis/ferroptosis 交互作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Estrogen.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "9ec1900d3252",
+    "subject": "Estrogen",
+    "predicate": "upregulates",
+    "object": "IκBα",
+    "context": {
+      "en-US": "Estrogen induces IκBα expression, which sequesters NF-κB in the cytosol and suppresses inflammasome-priming transcription, a brake on pyroptotic output.",
+      "zh-TW": "Estrogen 誘導 IκBα 表現，將 NF-κB 扣留在細胞質，抑制 inflammasome 啟動轉錄，作為 pyroptosis 輸出的煞車。"
+    },
+    "confidence": 0.85,
+    "source_document": "IκBα.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "a1576fb76297",
+    "subject": "Estrogen",
+    "predicate": "upregulates",
+    "object": "HDAC3",
+    "context": {
+      "en-US": "Estrogen signaling engages HDAC3 to repress STING transcription, dampening cGAS-STING output; loss of this axis derepresses innate DNA-sensing inflammation.",
+      "zh-TW": "Estrogen 訊號透過 HDAC3 抑制 STING 轉錄，降低 cGAS-STING 輸出；此軸喪失將解除先天 DNA 感測發炎的抑制。"
+    },
+    "confidence": 0.7,
+    "source_document": "HDAC3.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "0cb29ba63317",
+    "subject": "HDAC3",
+    "predicate": "represses",
+    "object": "STING",
+    "context": {
+      "en-US": "HDAC3 deacetylates the STING promoter region to repress its transcription, limiting cGAS-STING-driven interferon and SASP output in senescence and hormonal regulation.",
+      "zh-TW": "HDAC3 去乙醯化 STING 啟動子區以抑制其轉錄，在衰老與荷爾蒙調控中限制 cGAS-STING 驅動的干擾素與 SASP 輸出。"
+    },
+    "confidence": 0.7,
+    "source_document": "HDAC3.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "b48fa48a35bb",
+    "subject": "Ferrostatin-1",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Ferrostatin-1 is the defining ferroptosis inhibitor: a lipophilic radical-trapping antioxidant that halts lipid peroxidation propagation; rescue by Fer-1 is a diagnostic criterion for ferroptosis.",
+      "zh-TW": "Ferrostatin-1 是代表性的 ferroptosis 抑制劑：親脂性自由基捕捉抗氧化劑，可中止脂質過氧化鏈式反應；Fer-1 救援是 ferroptosis 的診斷標準。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ferrostatin-1.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "3e1c06f9262b",
+    "subject": "Deferoxamine",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Deferoxamine chelates labile iron, starving the Fenton reaction of Fe2+ and blocking the lipid-peroxide amplification that executes ferroptosis.",
+      "zh-TW": "Deferoxamine 螯合不穩定鐵，使 Fenton 反應缺乏 Fe2+，阻斷執行 ferroptosis 的脂質過氧化物放大。"
+    },
+    "confidence": 0.95,
+    "source_document": "Deferoxamine.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "c0cc0b5e042b",
+    "subject": "GSK872",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "GSK872 is an ATP-competitive RIPK3 kinase inhibitor that arrests necroptosis at the necrosome middle rung, complementing RIPK1 blockade by Necrostatin-1 and MLKL blockade by necrosulfonamide.",
+      "zh-TW": "GSK872 是 ATP 競爭型 RIPK3 激酶抑制劑，在 necrosome 中段阻止 necroptosis，與 Necrostatin-1（RIPK1）及 necrosulfonamide（MLKL）互補。"
+    },
+    "confidence": 0.95,
+    "source_document": "GSK872.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "2073fccaacb5",
+    "subject": "Z-VAD-FMK",
+    "predicate": "blocks",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Z-VAD-FMK is a pan-caspase inhibitor that blocks caspase-dependent apoptosis; persistence of death under Z-VAD-FMK argues for necroptosis, ferroptosis, or parthanatos instead.",
+      "zh-TW": "Z-VAD-FMK 是泛 caspase 抑制劑，可阻斷 caspase 依賴的 apoptosis；在 Z-VAD-FMK 下仍發生的死亡指向 necroptosis、ferroptosis 或 parthanatos。"
+    },
+    "confidence": 0.95,
+    "source_document": "Z-VAD-FMK.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "93e7f6733974",
+    "subject": "Q-VD-OPh",
+    "predicate": "inhibits",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Q-VD-OPh is a neuroprotective pan-caspase inhibitor that blocks executioner Caspase-3; in ischemia models it protects females only, consistent with female-preferential caspase apoptosis.",
+      "zh-TW": "Q-VD-OPh 是神經保護型泛 caspase 抑制劑，可阻斷執行者 Caspase-3；在缺血模型中僅保護雌性，與雌性偏好 caspase apoptosis 一致。"
+    },
+    "confidence": 0.85,
+    "source_document": "Apoptosis.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "9d1f9f327ca6",
+    "subject": "Chloroquine",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Chloroquine raises lysosomal pH and blocks autophagosome-lysosome fusion, arresting autophagic flux at the degradation step; it is the standard late-stage autophagy inhibitor.",
+      "zh-TW": "Chloroquine 提高溶酶體 pH 並阻斷自噬體-溶酶體融合，在降解步驟中止自噬流；是標準的晚期自噬抑制劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Chloroquine.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "9e2646a929a9",
+    "subject": "3-Methyladenine",
+    "predicate": "blocks",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "3-Methyladenine inhibits class-III PI3K (Vps34) in the Beclin1 nucleation complex, preventing phagophore formation and blocking canonical autophagy at initiation.",
+      "zh-TW": "3-Methyladenine 抑制 Beclin1 啟動複合體中的 class-III PI3K（Vps34），阻止 phagophore 形成，在起始步驟阻斷典型自噬。"
+    },
+    "confidence": 0.95,
+    "source_document": "3-Methyladenine.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "1f91b3e5e707",
+    "subject": "Disulfiram",
+    "predicate": "inhibits",
+    "object": "Gasdermin D",
+    "context": {
+      "en-US": "Disulfiram covalently modifies Gasdermin D to block its pore-forming activity, suppressing pyroptotic lysis and IL-1β release downstream of inflammasome activation.",
+      "zh-TW": "Disulfiram 共價修飾 Gasdermin D 以阻斷其成孔活性，抑制 inflammasome 活化下游的 pyroptosis 裂解與 IL-1β 釋放。"
+    },
+    "confidence": 0.8,
+    "source_document": "Disulfiram.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "1ec2e498053b",
+    "subject": "ASC",
+    "predicate": "recruits",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "ASC polymerizes into specks that recruit pro-Caspase-1 via CARD interactions, enabling proximity-induced activation that cleaves Gasdermin D and pro-IL-1β/IL-18.",
+      "zh-TW": "ASC 聚合成 specks，透過 CARD 相互作用招募 pro-Caspase-1，促成鄰近誘導活化，進而切割 Gasdermin D 與 pro-IL-1β/IL-18。"
+    },
+    "confidence": 0.95,
+    "source_document": "ASC.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "dd03f3914e81",
+    "subject": "Calpain",
+    "predicate": "mediates",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Calcium overload in ATP-depleted cells activates calpains, which proteolyze cytoskeletal and membrane proteins to execute necrotic swelling and rupture.",
+      "zh-TW": "ATP 耗竭細胞中的鈣超載活化 calpain，蛋白水解細胞骨架與膜蛋白，執行壞死性腫脹與破裂。"
+    },
+    "confidence": 0.85,
+    "source_document": "Calpain.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "80e5a1e28fbf",
+    "subject": "Atg7",
+    "predicate": "activates",
+    "object": "LC3",
+    "context": {
+      "en-US": "Atg7 is the E1-like enzyme that activates LC3-I for phosphatidylethanolamine conjugation to LC3-II, the lipidation step required for autophagosome elongation and closure.",
+      "zh-TW": "Atg7 是 E1 樣酶，活化 LC3-I 以接合 phosphatidylethanolamine 形成 LC3-II，此脂化步驟是自噬體延長與閉合所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "Atg7.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "9dfe184c6ebc",
+    "subject": "ZBP1",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "ZBP1 senses Z-nucleic acids and activates RIPK3 through RHIM interactions, bypassing RIPK1 to trigger necroptosis directly downstream of viral or endogenous Z-RNA/DNA.",
+      "zh-TW": "ZBP1 感測 Z-核酸，透過 RHIM 相互作用活化 RIPK3，繞過 RIPK1，在病毒或內源 Z-RNA/DNA 下游直接觸發 necroptosis。"
+    },
+    "confidence": 0.85,
+    "source_document": "ZBP1.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "61be38fa84a7",
+    "subject": "TRIF",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "TRIF relays TLR3/TLR4 signals to RIPK3 via its RHIM domain, providing a Caspase-8-independent bypass into the necrosome when death-receptor signaling is blocked.",
+      "zh-TW": "TRIF 透過其 RHIM 結構域將 TLR3/TLR4 訊號傳遞至 RIPK3，在死亡受體訊號受阻時提供不經 Caspase-8 的 necrosome 旁路。"
+    },
+    "confidence": 0.8,
+    "source_document": "TRIF.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
   }
 ]
