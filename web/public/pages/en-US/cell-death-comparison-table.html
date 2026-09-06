@@ -61,6 +61,19 @@
   /* legend under the table */
   .legend{ padding:10px 2px 16px; font-size:11px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); margin-top:10px; }
   .legend .sw{ display:inline-block; width:10px; height:10px; border:1px solid var(--gold); background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); vertical-align:-1px; margin-right:3px; }
+  /* mobile: rows become stacked cards (labels injected from thead via JS) */
+  @media (max-width:768px){
+    .table-wrap{ overflow:visible; }
+    .table-wrap table{ min-width:0; width:100%; height:auto; }
+    .table-wrap thead{ display:none; }
+    .table-wrap tr{ display:block; border:1px solid var(--rule); border-radius:var(--radius); background:var(--sheet); padding:10px 12px 6px; margin:0 0 12px; }
+    .table-wrap tbody th{ position:static; min-width:0; white-space:normal; background:transparent; border-bottom:1px solid var(--rule); padding:0 0 8px; margin:0 0 8px; }
+    .table-wrap td{ display:block; min-width:0; border:0; padding:8px 0; }
+    .table-wrap td[data-hl]{ border-left:0; }
+    .table-wrap td.paradigm{ border-left:0; }
+    .table-wrap td::before{ content:attr(data-label); display:block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--mute); margin-bottom:3px; }
+    .table-wrap tr.row-hidden{ display:none; }
+  }
   @media print{ body{ display:block; height:auto; } .wide,main#content,main section#table{ display:block; } .toolbar{ display:none; } .table-wrap{ overflow:visible; } }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
@@ -82,8 +95,6 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">Reference table · Cell death · 03 Sep 2026</p>
-        <p class="tldr">Across ischemia–reperfusion models, female cells default to caspase-dependent apoptosis; male cells to PARP1–AIF parthanatos; the lytic and iron arms add context-specific exceptions.
-          <span class="scope">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking.</span></p>
         <h1 class="visually-hidden">Cell death comparison — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis</h1>
       </div>
 
@@ -227,6 +238,8 @@
         </table>
       </div>
       <footer class="legend">
+        <p class="tldr">Across ischemia–reperfusion models, female cells default to caspase-dependent apoptosis; male cells to PARP1–AIF parthanatos; the lytic and iron arms add context-specific exceptions.
+          <span class="scope">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking.</span></p>
         <p><b>Legend</b> — <span class="sw"></span> gold cells: the central sex paradigm (XX → caspase-dependent apoptosis; XY → PARP1/AIF parthanatos). Pills: <span class="pill reg">regulated</span> <span class="pill acc">accidental</span> <span class="pill lytic">lytic</span> <span class="pill silent">non-lytic</span>. <b>*</b> = inferred from cross-program biology, not directly demonstrated in the cited sex-difference studies.</p>
       </footer>
     </section>
@@ -240,6 +253,11 @@
   var q = document.getElementById('q'), hl = document.getElementById('hl'),
       wrap = document.getElementById('tblwrap'), tbl = document.getElementById('cdtbl'),
       count = document.getElementById('count');
+  // stamp column labels onto cells for the mobile card view
+  var cols = Array.prototype.map.call(tbl.tHead.rows[0].cells, function(c){ return c.textContent; });
+  Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+    Array.prototype.forEach.call(r.cells, function(c, i){ if(i > 0) c.setAttribute('data-label', cols[i]); });
+  });
   function stripe(tag){ return tag.replace(/[^\w+²⁻→\/-]+/g,' ').trim(); }
   function apply(){
     var needle = (q.value||'').toLowerCase().trim(), vis = 0;

@@ -61,6 +61,19 @@
   /* legend under the table */
   .legend{ padding:10px 2px 16px; font-size:11px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); margin-top:10px; }
   .legend .sw{ display:inline-block; width:10px; height:10px; border:1px solid var(--gold); background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); vertical-align:-1px; margin-right:3px; }
+  /* mobile: rows become stacked cards (labels injected from thead via JS) */
+  @media (max-width:768px){
+    .table-wrap{ overflow:visible; }
+    .table-wrap table{ min-width:0; width:100%; height:auto; }
+    .table-wrap thead{ display:none; }
+    .table-wrap tr{ display:block; border:1px solid var(--rule); border-radius:var(--radius); background:var(--sheet); padding:10px 12px 6px; margin:0 0 12px; }
+    .table-wrap tbody th{ position:static; min-width:0; white-space:normal; background:transparent; border-bottom:1px solid var(--rule); padding:0 0 8px; margin:0 0 8px; }
+    .table-wrap td{ display:block; min-width:0; border:0; padding:8px 0; }
+    .table-wrap td[data-hl]{ border-left:0; }
+    .table-wrap td.paradigm{ border-left:0; }
+    .table-wrap td::before{ content:attr(data-label); display:block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--mute); margin-bottom:3px; }
+    .table-wrap tr.row-hidden{ display:none; }
+  }
   @media print{ body{ display:block; height:auto; } .wide,main#content,main section#table{ display:block; } .toolbar{ display:none; } .table-wrap{ overflow:visible; } }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
@@ -82,8 +95,6 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">參考表 · 細胞死亡 · 2026年9月3日</p>
-        <p class="tldr">在缺血–再灌流模型中，雌性細胞傾向 caspase 依賴性凋亡，雄性細胞傾向 PARP1–AIF parthanatos；裂解與鐵依賴機制則依情境加入例外。
-          <span class="scope">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。</span></p>
         <h1 class="visually-hidden">細胞死亡比較——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、PANoptosis</h1>
       </div>
 
@@ -227,6 +238,8 @@
         </table>
       </div>
       <footer class="legend">
+        <p class="tldr">在缺血–再灌流模型中，雌性細胞傾向 caspase 依賴性凋亡，雄性細胞傾向 PARP1–AIF parthanatos；裂解與鐵依賴機制則依情境加入例外。
+          <span class="scope">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。</span></p>
         <p><b>圖例</b>——<span class="sw"></span> 金色儲存格：核心性別範式（XX → caspase 依賴性凋亡；XY → PARP1/AIF parthanatos）。標籤：<span class="pill reg">調控性</span> <span class="pill acc">意外性</span> <span class="pill lytic">裂解</span> <span class="pill silent">非裂解</span>。<b>*</b> = 由跨程序生物學推論而來，並未在所引性別差異研究中直接驗證。</p>
       </footer>
     </section>
@@ -239,6 +252,11 @@
   var q = document.getElementById('q'), hl = document.getElementById('hl'),
       wrap = document.getElementById('tblwrap'), tbl = document.getElementById('cdtbl'),
       count = document.getElementById('count');
+  // stamp column labels onto cells for the mobile card view
+  var cols = Array.prototype.map.call(tbl.tHead.rows[0].cells, function(c){ return c.textContent; });
+  Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+    Array.prototype.forEach.call(r.cells, function(c, i){ if(i > 0) c.setAttribute('data-label', cols[i]); });
+  });
   function stripe(tag){ return tag.replace(/[^\w+²⁻→\/-]+/g,' ').trim(); }
   function apply(){
     var needle = (q.value||'').toLowerCase().trim(), vis = 0;
