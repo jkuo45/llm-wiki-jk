@@ -126,6 +126,8 @@
   #cell3d-info{ position:absolute; top:36px; left:12px; max-width:min(330px,80%); background:color-mix(in srgb, var(--paper) 94%, white); border:1px solid var(--rule-strong); box-shadow:var(--shadow); padding:12px 14px; font-size:.84rem; line-height:1.55; display:none; z-index:3; }
   #cell3d-info h4{ margin:0 0 4px; font-size:.92rem; }
   #cell3d-info .tag{ font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.06em; }
+  /* copy button sits below the top-right HUD label, not over it */
+  #fig-1b .copy-btn{ top:34px; right:8px; }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -286,6 +288,7 @@
             <button type="button" class="cell3d-card m" data-view="male"><b>♂ Male</b>T→AR mesh · empty center</button>
           </div>
           <canvas id="scene"></canvas>
+          <button type="button" class="copy-btn" data-copy-canvas="scene" title="Copy 3D view as PNG" aria-label="Copy 3D view as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
           <span class="hud left">♀ Female · centralized star · E2→ER hub</span>
           <span class="hud right">♂ Male · distributed mesh · empty center</span>
           <div id="cell3d-info" role="dialog" aria-live="polite"><div class="tag" id="cell3d-info-tag"></div><h4 id="cell3d-info-title"></h4><div id="cell3d-info-body"></div></div>
@@ -824,7 +827,7 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
   function init(THREE, OrbitControls){
     var renderer;
     try{
-      renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
+      renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true, preserveDrawingBuffer:true});
     }catch(err){ console.warn('WebGL unavailable', err); return; }
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(42, 2, 0.1, 200);
