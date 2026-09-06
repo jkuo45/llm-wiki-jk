@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cell Death Comparison — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis</title>
-<meta name="description" content="Seven-way comparison table of major cell death programs — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis — with filter, column toggle and axis highlights.">
+<title>Cell Death Comparison — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · PANoptosis</title>
+<meta name="description" content="Eight-way comparison table of major cell death programs — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis — with filter and axis highlights.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
@@ -55,6 +55,12 @@
   .table-wrap.hl-dna td[data-hl~="dna"]{ background:color-mix(in srgb, var(--forest) 10%, var(--sheet)); border-left-color:var(--forest); }
   tr.row-hidden{ display:none; }
   td mark{ background:color-mix(in srgb, var(--gold) 35%, transparent); padding:0 .15em; }
+  /* TL;DR + scope note */
+  .tldr{ font-size:12.5px; line-height:1.55; color:var(--ink-soft); max-width:120ch; margin:10px 0 0; }
+  .tldr .scope{ display:block; font-size:11px; color:var(--mute); margin-top:2px; }
+  /* legend under the table */
+  .legend{ padding:10px 2px 16px; font-size:11px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); margin-top:10px; }
+  .legend .sw{ display:inline-block; width:10px; height:10px; border:1px solid var(--gold); background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); vertical-align:-1px; margin-right:3px; }
   @media print{ body{ display:block; height:auto; } .wide,main#content,main section#table{ display:block; } .toolbar{ display:none; } .table-wrap{ overflow:visible; } }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
@@ -76,7 +82,9 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">Reference table · Cell death · 03 Sep 2026</p>
-        <h1 class="visually-hidden">Cell death comparison — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis</h1>
+        <p class="tldr">Across ischemia–reperfusion models, female cells default to caspase-dependent apoptosis; male cells to PARP1–AIF parthanatos; the lytic and iron arms add context-specific exceptions.
+          <span class="scope">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking.</span></p>
+        <h1 class="visually-hidden">Cell death comparison — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis</h1>
       </div>
 
       <div class="toolbar" role="search" aria-label="Table controls">
@@ -89,7 +97,7 @@
             <option value="hl-iron">Iron &amp; lipid peroxidation</option>
             <option value="hl-dna">DNA-damage / PARP axis</option>
           </select>
-          <span class="count" id="count">7 programs · 9 features</span>
+          <span class="count" id="count">8 programs · 10 features</span>
         </div>
       </div>
 
@@ -103,6 +111,7 @@
               <th scope="col">Regulated</th>
               <th scope="col">Energy</th>
               <th scope="col">Morphology</th>
+              <th scope="col">Detection</th>
               <th scope="col">Core machinery</th>
               <th scope="col">Crosstalk</th>
               <th scope="col">Immune</th>
@@ -117,6 +126,7 @@
               <td data-hl=""><span class="pill reg">regulated</span><span class="pill silent">non-lytic</span><br>yes</td>
               <td data-hl="energy">ATP-dependent</td>
               <td data-hl="">shrinkage, blebbing intact, apoptotic bodies, DNA ladder</td>
+              <td data-hl="">Annexin V⁺/PI⁻, cleaved caspase-3, TUNEL, DNA ladder</td>
               <td data-hl="dna">extrinsic Caspase-8 → Caspase-3; intrinsic p53 → Bax / BAK → cytochrome c → Caspase-9 → Caspase-3; inhibited by Bcl-2 / XIAP</td>
               <td data-hl="">Caspase-8 cleaves RIPK1/3 to block necroptosis; Caspase-3/7 cleave GSDMD to block pyroptosis</td>
               <td data-hl="">silent, Annexin V+</td>
@@ -129,6 +139,7 @@
               <td data-hl="dna energy"><span class="pill reg">regulated</span><br>yes</td>
               <td data-hl="energy dna">NAD⁺-consuming — PARP1 depletes NAD⁺ / ATP</td>
               <td data-hl="dna"><span data-tip="Phosphatidylserine (PS) flips from inner to outer membrane leaflet — an 'eat-me' signal detected by Annexin V">PS externalization</span> + membrane-integrity loss but no swelling, no apoptotic bodies; mitochondrial depolarization with early AIF release preceding cytochrome c; ~50-kbp large-scale fragmentation, Annexin V+/PI+</td>
+              <td data-hl="dna">PAR polymer IHC / Western, nuclear AIF, ~50-kb fragments (PFGE)</td>
               <td data-hl="dna energy">heavy DNA damage → PARP1 overactivation → PAR → AIF release → MIF nuclear translocation → large-scale fragmentation, caspase-independent</td>
               <td data-hl="dna energy">SIRT1 promotes PARP1 survival via AIF; PARP1 competes with SIRTs for NAD⁺*</td>
               <td data-hl="energy lytic">inflammatory via NAD⁺ collapse + DAMPs*</td>
@@ -141,6 +152,7 @@
               <td data-hl=""><span class="pill acc">accidental</span><br>no, accidental</td>
               <td data-hl="energy">ATP-depleted</td>
               <td data-hl="lytic">swelling (oncosis) with water influx + vacuolation, early rupture; organelle breakdown (mitochondrial swelling, lysosomal leakage); nuclear pyknosis → karyorrhexis → karyolysis; random DNA smear</td>
+              <td data-hl="">PI⁺, HMGB1 release, ATP depletion, LDH</td>
               <td data-hl="energy">Na/K pump failure → Ca²⁺ overload → calpains; ROS → mPTP; LMP → cathepsins</td>
               <td data-hl="">secondary necrosis if apoptotic bodies not cleared</td>
               <td data-hl="lytic">highly inflammatory: HMGB1, ATP, uric acid → TLR / RAGE / NLRP3</td>
@@ -153,6 +165,7 @@
               <td data-hl="lytic"><span class="pill reg">regulated</span><span class="pill lytic">lytic</span><br>yes</td>
               <td data-hl="energy">ATP-dependent kinase cascade</td>
               <td data-hl="lytic">swelling + rupture like necrosis, moderate condensation</td>
+              <td data-hl="lytic">pMLKL (human Ser358 / mouse Ser345), pRIPK3, necrostatin / GSK872 rescue</td>
               <td data-hl="lytic energy">TNFα → Complex I (NF-κB) → Complex II apoptosis → necrosome RIPK1 → RIPK3 → MLKL if Caspase-8 blocked; TRIF / ZBP1 bypass</td>
               <td data-hl="lytic energy">MLKL activates NLRP3 → pyroptosis; RIPK3–AMPK triggers early autophagy then blocks flux</td>
               <td data-hl="lytic">inflammatory by design, DAMP release</td>
@@ -165,6 +178,7 @@
               <td data-hl="iron"><span class="pill reg">regulated</span><br>yes</td>
               <td data-hl="energy iron">GSH / NADPH-dependent</td>
               <td data-hl="iron">shrunken dense mitochondria, no nuclear fragmentation, rupture</td>
+              <td data-hl="iron">C11-BODIPY lipid ROS, ↓GPX4 / ↑PTGS2, MDA / 4-HNE, Fe²⁺</td>
               <td data-hl="iron energy">System Xc⁻ (SLC7A11) → GSH → GPX4; parallel FSP1–ubiquinone–NADPH; drivers ACSL4, Fe²⁺ Fenton reaction, NCOA4</td>
               <td data-hl="iron energy">SIRT3 failure feeds both necroptosis + ferroptosis via ROS</td>
               <td data-hl="iron lytic">inflammatory lipid MDA / 4-HNE</td>
@@ -177,6 +191,7 @@
               <td data-hl=""><span class="pill reg">regulated</span><br>yes, pro-survival; death only if excessive</td>
               <td data-hl="energy">mTORC1-inhibited, AMPK-activated</td>
               <td data-hl="">double-membrane autophagosome → autolysosome</td>
+              <td data-hl="">LC3-II flux ± bafilomycin, p62, mRFP-GFP-LC3</td>
               <td data-hl="energy">ULK1–FIP200; Beclin-1–Vps34; Atg5-12-16L1 + LC3; TFEB via SIRT1</td>
               <td data-hl="lytic">PINK1 / Parkin mitophagy restrains necroptosis / NLRP3; Caspase-1 cleaves Parkin to break restraint</td>
               <td data-hl="">protective, clears DAMP sources</td>
@@ -189,14 +204,31 @@
               <td data-hl="lytic"><span class="pill reg">regulated</span><span class="pill lytic">lytic</span><br>yes</td>
               <td data-hl="energy lytic">ATP-dependent inflammasome assembly</td>
               <td data-hl="lytic">swelling, 10–20 nm pores, rupture, no ladder</td>
+              <td data-hl="lytic">GSDMD-N, caspase-1 FLICA, IL-1β / IL-18 + LDH release</td>
               <td data-hl="lytic">canonical: PRR + ASC + pro-Caspase-1 → Caspase-1 → Gasdermin D pores + IL-1β / IL-18; non-canonical: Caspase-4/5/11 sense LPS → GSDMD → K⁺ efflux → NLRP3; Caspase-3 / Gasdermin E arm</td>
               <td data-hl="lytic">GSDMD pores license NLRP3; SIRT3 lowers mtROS to suppress NLRP3</td>
               <td data-hl="lytic">highly inflammatory: IL-1β / IL-18 + HMGB1, IL-1α, mtDNA via pores</td>
               <td data-hl="lytic">NLRP3 inhibitors, Caspase-1 inhibitors, disulfiram / GSDMD blockade*</td>
             </tr>
+            <tr data-program="panoptosis">
+              <th scope="row"><b>PANoptosis</b><span class="sub">all-in-one · ZBP1 · non-redundant</span></th>
+              <td>No established sex-bias data; context is severe infection (influenza, Yersinia) and ischemia–reperfusion, where PANoptosome assembly overrides single-pathway sex preferences</td>
+              <td>Same — no direct sex-difference studies; co-activating caspase and PAR arms would bypass the apoptosis/parthanatos choice</td>
+              <td data-hl="lytic"><span class="pill reg">regulated</span><span class="pill lytic">lytic</span><br>yes — by design</td>
+              <td data-hl="energy lytic">ATP-dependent multi-arm execution</td>
+              <td data-hl="lytic">hybrid: gasdermin pores + rupture + chromatin condensation; not rescuable by any single inhibitor</td>
+              <td data-hl="lytic">no single marker — co-occurrence of GSDMD-N + cleaved caspase-3 + pMLKL with failure of single-arm blockade</td>
+              <td data-hl="lytic energy">sensor (ZBP1, or TAK1 loss) → PANoptosome RIPK1–RIPK3–Caspase-8–Caspase-1 ± ASC/FADD → parallel GSDMD pores + caspase-3 + pMLKL</td>
+              <td data-hl="lytic">it is the crosstalk: co-assembled pyroptosis + apoptosis + necroptosis; NLRP3 activation wired-in; z-VAD or necrostatin-1 alone fails</td>
+              <td data-hl="lytic">maximal inflammatory: IL-1β / IL-18 + DAMP storm from all three arms</td>
+              <td data-hl="">upstream: ZBP1 / RIPK3 targeting; combined multi-arm blockade</td>
+            </tr>
           </tbody>
         </table>
       </div>
+      <footer class="legend">
+        <p><b>Legend</b> — <span class="sw"></span> gold cells: the central sex paradigm (XX → caspase-dependent apoptosis; XY → PARP1/AIF parthanatos). Pills: <span class="pill reg">regulated</span> <span class="pill acc">accidental</span> <span class="pill lytic">lytic</span> <span class="pill silent">non-lytic</span>. <b>*</b> = inferred from cross-program biology, not directly demonstrated in the cited sex-difference studies.</p>
+      </footer>
     </section>
 
   </main>
@@ -230,7 +262,7 @@
         }
       });
     }
-    count.textContent = vis + ' programs · 9 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
+    count.textContent = vis + ' programs · 10 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
   }
   q.addEventListener('input', apply);
   hl.addEventListener('change', function(){
