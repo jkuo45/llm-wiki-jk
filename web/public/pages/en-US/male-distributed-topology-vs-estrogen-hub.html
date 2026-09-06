@@ -290,7 +290,7 @@
           <span class="hud right">♂ Male · distributed mesh · empty center</span>
           <div id="cell3d-info" role="dialog" aria-live="polite"><div class="tag" id="cell3d-info-tag"></div><h4 id="cell3d-info-title"></h4><div id="cell3d-info-body"></div></div>
         </div>
-        <figcaption class="cap"><strong>Same anatomy, different wiring.</strong> Both cells share one mammalian plan — plasma membrane, nucleus with nucleolus + pores, mitochondria with cristae, rough-ER, Golgi, lysosome, ribosomes. Left: E2 particles stream into the nuclear hub and out along nine spokes. Right: five nodes pulse peer-to-peer around an empty center. Click any glowing node for its evidence.</figcaption>
+        <figcaption class="cap"><strong>Same anatomy, different wiring.</strong> Both cells share one mammalian plan — plasma membrane, nucleus with nucleolus + pores, mitochondria with cristae, rough-ER, Golgi, lysosome, ribosomes. Anatomy to scale (1 unit = 1 µm; signaling nodes enlarged ~20× for readability). Left: E2 particles stream into the nuclear hub and out along nine spokes. Right: five nodes pulse peer-to-peer around an empty center. Click any glowing node for its evidence. Small gray tags name the anatomy and are not clickable.</figcaption>
       </figure>
 
       <div class="callout">
@@ -850,6 +850,20 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
       var s = new THREE.Sprite(new THREE.SpriteMaterial({map:t, transparent:true, depthTest:false}));
       s.scale.set(2.4*scale, 0.75*scale, 1); return s;
     }
+    function grayLabel(text, scale){
+      // Small gray tag for minor organelles — display-only, never added to pickables.
+      scale = scale || 0.5;
+      var c = document.createElement('canvas'); c.width = 256; c.height = 80;
+      var g = c.getContext('2d');
+      g.fillStyle = 'rgba(255,255,255,0.72)'; g.strokeStyle = '#9aa3b2'; g.lineWidth = 3;
+      if(g.roundRect){ g.beginPath(); g.roundRect(4,10,248,60,12); g.fill(); g.stroke(); }
+      else { g.fillRect(4,10,248,60); g.strokeRect(4,10,248,60); }
+      g.fillStyle = '#4b5563'; g.font = '22px sans-serif';
+      g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text,128,42);
+      var t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+      var s = new THREE.Sprite(new THREE.SpriteMaterial({map:t, transparent:true, depthTest:false, opacity:0.95}));
+      s.scale.set(2.4*scale, 0.75*scale, 1); return s;
+    }
     function glowMat(color, intensity){
       return new THREE.MeshStandardMaterial({color:color, emissive:color, emissiveIntensity:intensity, roughness:0.35, metalness:0.1});
     }
@@ -867,6 +881,7 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
     }
 
     function buildCell(){
+      // Scale: 1 scene unit = 1 µm. Cell ~12.5×10×10 µm; nucleus ~5.5 µm dia (~10% vol).
       var cell = new THREE.Group();
       var mem = new THREE.Mesh(new THREE.SphereGeometry(5, 48, 32),
         new THREE.MeshPhysicalMaterial({color:0x9fc5d8, transparent:true, opacity:0.10, roughness:0.15, metalness:0, side:THREE.DoubleSide, depthWrite:false}));
@@ -878,25 +893,32 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
         new THREE.MeshStandardMaterial({color:0xeef4f6, transparent:true, opacity:0.28, roughness:1, depthWrite:false}));
       cyto.scale.set(1.25,1,1); cell.add(cyto);
       var nuc = new THREE.Group(); nuc.position.set(-0.9, 0.4, 0.3);
-      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(1.9, 40, 28),
+      // Outer + inner nuclear membrane (~5.5 µm dia nucleus; nucleolus ~1.6 µm)
+      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(2.75, 40, 28),
         new THREE.MeshPhysicalMaterial({color:0xc9a06a, transparent:true, opacity:0.35, roughness:0.4, side:THREE.DoubleSide, depthWrite:false})));
-      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(1.72, 32, 24),
+      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(2.55, 32, 24),
         new THREE.MeshStandardMaterial({color:0xf3e4c8, transparent:true, opacity:0.5, roughness:0.9})));
-      var nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.55, 20, 16),
+      var nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.8, 20, 16),
         new THREE.MeshStandardMaterial({color:0x8a5a3b, roughness:0.7}));
       nucleolus.position.set(0.4,0.3,0.4); nuc.add(nucleolus);
       var poreMat = new THREE.MeshStandardMaterial({color:0x6b4a2f, roughness:0.6});
-      for(var i=0;i<14;i++){
+      // Nuclear pore complex ~120 nm dia → torus r≈0.05; 64 shown (real: thousands)
+      var pores = new THREE.InstancedMesh(new THREE.TorusGeometry(0.05, 0.02, 8, 14), poreMat, 64);
+      var poreDummy = new THREE.Object3D(), zAxis = new THREE.Vector3(0,0,1);
+      for(var i=0;i<64;i++){
         var th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
-        var p = new THREE.Vector3().setFromSphericalCoords(1.9, ph, th);
-        var pore = new THREE.Mesh(new THREE.TorusGeometry(0.09, 0.035, 8, 14), poreMat);
-        pore.position.copy(p); pore.lookAt(p.clone().multiplyScalar(2)); nuc.add(pore);
+        var p = new THREE.Vector3().setFromSphericalCoords(2.75, ph, th);
+        poreDummy.position.copy(p);
+        poreDummy.quaternion.setFromUnitVectors(zAxis, p.clone().normalize());
+        poreDummy.updateMatrix(); pores.setMatrixAt(i, poreDummy.matrix);
       }
-      var pts = []; for(var k=0;k<40;k++) pts.push(new THREE.Vector3((Math.random()-0.5)*2.4,(Math.random()-0.5)*2.4,(Math.random()-0.5)*2.4));
-      nuc.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 120, 0.03, 6),
+      nuc.add(pores);
+      var pts = []; for(var k=0;k<40;k++) pts.push(new THREE.Vector3((Math.random()-0.5)*3.6,(Math.random()-0.5)*3.6,(Math.random()-0.5)*3.6));
+      nuc.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 120, 0.015, 6),
         new THREE.MeshStandardMaterial({color:0x7b2cbf, transparent:true, opacity:0.55})));
       cell.add(nuc);
       function mitochondrion(x,y,z,ry){
+        // ~0.84 µm dia × ~1.7 µm long; cristae as transverse septa every ~0.15 µm
         var g = new THREE.Group(); g.position.set(x,y,z); g.rotation.y = ry || 0;
         var body = new THREE.Mesh(new THREE.CapsuleGeometry(0.42, 0.9, 6, 14),
           new THREE.MeshStandardMaterial({color:0xe07a5f, roughness:0.55}));
@@ -905,52 +927,113 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
           new THREE.MeshStandardMaterial({color:0xf4d35e, transparent:true, opacity:0.5}));
         inner.rotation.z = Math.PI/2; g.add(inner);
         for(var c=-2;c<=2;c++){
-          var cr = new THREE.Mesh(new THREE.BoxGeometry(0.06,0.5,0.5),
+          var cr = new THREE.Mesh(new THREE.BoxGeometry(0.05,0.5,0.5),
             new THREE.MeshStandardMaterial({color:0x9e2b25}));
-          cr.position.x = c*0.2; g.add(cr);
+          cr.position.x = c*0.15; g.add(cr);
         }
         cell.add(g); return g;
       }
       cell.userData.mitos = [
         mitochondrion(2.6,-1.2,1.2,0.4), mitochondrion(2.2,1.6,-1.0,-0.5),
-        mitochondrion(-3.4,-1.6,-0.6,0.9), mitochondrion(0.6,-2.4,-1.4,0.2)];
+        mitochondrion(-3.4,-1.6,-0.6,0.9), mitochondrion(0.6,-2.4,-1.4,0.2),
+        mitochondrion(3.8,0.8,0.2,0.3), mitochondrion(1.0,2.6,1.0,-0.7),
+        mitochondrion(-1.5,2.8,-1.5,0.5), mitochondrion(-4.0,0.8,1.0,1.1),
+        mitochondrion(0.5,-2.8,1.5,0.2), mitochondrion(-2.0,-2.5,1.8,-0.4)];
+      // Rough ER: 5 stacked cisternae hugging the nucleus (continuous with outer
+      // nuclear membrane in vivo), studded with ~20 nm ribosomes (r=0.015).
+      // Stack sits just below the nucleus (bottom -2.35) and well inside the membrane.
       var erMat = new THREE.MeshStandardMaterial({color:0x4a90a4, roughness:0.6, side:THREE.DoubleSide, transparent:true, opacity:0.85});
-      for(var s=0;s<4;s++){
-        var sheet = new THREE.Mesh(new THREE.PlaneGeometry(3.2, 1.1, 12, 4), erMat);
+      var erDotGeo = new THREE.SphereGeometry(0.015,6,6);
+      var erDotMat = new THREE.MeshBasicMaterial({color:0x333333});
+      for(var s=0;s<5;s++){
+        var sheet = new THREE.Mesh(new THREE.PlaneGeometry(3.6, 1.2, 16, 4), erMat);
         var pa = sheet.geometry.attributes.position;
         for(var v=0;v<pa.count;v++) pa.setZ(v, Math.sin(pa.getX(v)*2)*0.18);
         sheet.geometry.computeVertexNormals();
-        sheet.position.set(-0.6-s*0.35, -2.2+s*0.42, 1.6); sheet.rotation.set(-0.5, 0.3, 0.1);
+        sheet.position.set(-0.9, -2.4-s*0.26, 1.2); sheet.rotation.set(-0.5, 0.3, 0.1);
         cell.add(sheet);
-        for(var rb=0;rb<8;rb++){
-          var dot = new THREE.Mesh(new THREE.SphereGeometry(0.05,8,8),
-            new THREE.MeshStandardMaterial({color:0x333333}));
-          dot.position.set(sheet.position.x+(Math.random()-0.5)*3, sheet.position.y+(Math.random()-0.5)*0.9, sheet.position.z+0.12);
-          cell.add(dot);
+        var erDots = new THREE.InstancedMesh(erDotGeo, erDotMat, 32);
+        var erDummy = new THREE.Object3D();
+        for(var rb=0;rb<32;rb++){
+          erDummy.position.set((Math.random()-0.5)*3.4, (Math.random()-0.5)*1.0, 0.06);
+          erDummy.updateMatrix(); erDots.setMatrixAt(rb, erDummy.matrix);
         }
+        sheet.add(erDots);
       }
-      for(var gi=0;gi<4;gi++){
-        var plate = new THREE.Mesh(new THREE.CylinderGeometry(1.0-gi*0.08, 1.0-gi*0.08, 0.09, 24, 1, false, 0, Math.PI*1.3),
+      // Golgi: 5 cisternae, ~30 nm thick, ~0.13 µm gap (stack ~0.7 µm tall,
+      // cis face toward ER/nucleus). Signaling nodes enlarged ~20×; anatomy to scale.
+      for(var gi=0;gi<5;gi++){
+        var plate = new THREE.Mesh(new THREE.CylinderGeometry(0.9-gi*0.06, 0.9-gi*0.06, 0.04, 24, 1, false, 0, Math.PI*1.3),
           new THREE.MeshStandardMaterial({color:0x81b29a, roughness:0.5, side:THREE.DoubleSide}));
-        plate.position.set(2.8+gi*0.12, 0.2+gi*0.28, -1.2); plate.rotation.set(0.4,0.6,0.2); cell.add(plate);
+        plate.position.set(2.8+gi*0.05, 0.2+gi*0.13, -1.2); plate.rotation.set(0.4,0.6,0.2); cell.add(plate);
       }
-      var lyso = new THREE.Mesh(new THREE.SphereGeometry(0.4,18,14),
+      // Lysosome ~0.5 µm dia + two endosomes + peroxisome for scale contrast
+      var lyso = new THREE.Mesh(new THREE.SphereGeometry(0.25,18,14),
         new THREE.MeshStandardMaterial({color:0xf2cc8f, roughness:0.4}));
       lyso.position.set(-2.8, 1.8, -1.2); cell.add(lyso);
-      var ribs = new THREE.InstancedMesh(new THREE.SphereGeometry(0.045,6,6), new THREE.MeshBasicMaterial({color:0x555555}), 120);
+      var endo1 = new THREE.Mesh(new THREE.SphereGeometry(0.15,14,10),
+        new THREE.MeshStandardMaterial({color:0xe9c46a, roughness:0.5}));
+      endo1.position.set(-3.2, 0.5, 1.5); cell.add(endo1);
+      var endo2 = new THREE.Mesh(new THREE.SphereGeometry(0.12,14,10),
+        new THREE.MeshStandardMaterial({color:0xe9c46a, roughness:0.5}));
+      endo2.position.set(1.5, -1.5, -2.2); cell.add(endo2);
+      var perox = new THREE.Mesh(new THREE.SphereGeometry(0.14,14,10),
+        new THREE.MeshStandardMaterial({color:0x90be6d, roughness:0.5}));
+      perox.position.set(3.0, 2.0, 1.5); cell.add(perox);
+      // Free ribosomes ~25 nm (r=0.015); 500 shown (real: hundreds of thousands).
+      // Excluded from the nucleus (r≈3.0 around nuc center), kept in ellipsoid.
+      var ribs = new THREE.InstancedMesh(new THREE.SphereGeometry(0.015,6,6), new THREE.MeshBasicMaterial({color:0x555555}), 500);
       var dummy = new THREE.Object3D();
-      for(var ri=0;ri<120;ri++){
-        dummy.position.set((Math.random()-0.5)*10,(Math.random()-0.5)*7,(Math.random()-0.5)*7);
-        if(dummy.position.length()<3.2) dummy.position.multiplyScalar(1.6);
-        dummy.updateMatrix(); ribs.setMatrixAt(ri, dummy.matrix);
+      var nucC = new THREE.Vector3(-0.9,0.4,0.3), tmpV = new THREE.Vector3();
+      var placed = 0, guard = 0;
+      while(placed < 500 && guard++ < 6000){
+        tmpV.set((Math.random()-0.5)*10,(Math.random()-0.5)*7,(Math.random()-0.5)*7);
+        if(tmpV.distanceTo(nucC) < 3.0) continue;
+        if(Math.pow(tmpV.x/6.0,2)+Math.pow(tmpV.y/4.7,2)+Math.pow(tmpV.z/4.7,2) > 1) continue;
+        dummy.position.copy(tmpV);
+        dummy.updateMatrix(); ribs.setMatrixAt(placed++, dummy.matrix);
       }
+      ribs.count = placed;
       cell.add(ribs);
+      // Centrosome: two centrioles (~0.2×0.5 µm) + pericentriolar cloud
+      var centriMat = new THREE.MeshStandardMaterial({color:0x5e60ce, roughness:0.5});
+      var centriC = new THREE.Vector3(1.5,2.2,-0.2);
+      var cen1 = new THREE.Mesh(new THREE.CylinderGeometry(0.1,0.1,0.4,14), centriMat);
+      cen1.position.copy(centriC); cell.add(cen1);
+      var cen2 = new THREE.Mesh(new THREE.CylinderGeometry(0.1,0.1,0.4,14), centriMat);
+      cen2.position.copy(centriC).add(new THREE.Vector3(0.25,0.1,0.1)); cen2.rotation.z = Math.PI/2; cell.add(cen2);
+      var pcm = new THREE.Mesh(new THREE.SphereGeometry(0.3,14,10),
+        new THREE.MeshStandardMaterial({color:0x5e60ce, transparent:true, opacity:0.25, depthWrite:false}));
+      pcm.position.copy(centriC); cell.add(pcm);
       var skelMat = new THREE.LineBasicMaterial({color:0x9aa3b2, transparent:true, opacity:0.35});
-      for(var li=0;li<10;li++){
+      for(var li=0;li<6;li++){
+        var tip = centriC.clone().add(new THREE.Vector3((Math.random()-0.5)*9,(Math.random()-0.5)*6,(Math.random()-0.5)*6));
+        cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([centriC.clone(), tip]), skelMat));
+      }
+      for(var lj=0;lj<6;lj++){
         var a = new THREE.Vector3((Math.random()-0.5)*9,(Math.random()-0.5)*6,(Math.random()-0.5)*6);
         var b = a.clone().add(new THREE.Vector3((Math.random()-0.5)*4,(Math.random()-0.5)*3,(Math.random()-0.5)*3));
         cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([a,b]), skelMat));
       }
+      // 1 µm scale bar (1 unit = 1 µm)
+      var barMat = new THREE.LineBasicMaterial({color:0x555555});
+      var barY = -4.4;
+      cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(
+        [new THREE.Vector3(-0.5,barY,0), new THREE.Vector3(0.5,barY,0)]), barMat));
+      var barLb = labelSprite('1 µm', '#555555', 0.55); barLb.position.set(0, barY+0.45, 0); cell.add(barLb);
+      // Minor-organelle tags: small gray labels, non-clickable (never in pickables).
+      var minors = [
+        {t:'nucleus',       p:[-3.2,-1.8,0.6]},
+        {t:'mitochondrion', p:[-4.0,1.75,1.0]},
+        {t:'rough ER',      p:[-3.2,-2.9,1.2]},
+        {t:'Golgi',         p:[3.0,-0.6,-1.2]},
+        {t:'lysosome',      p:[-3.5,2.05,-1.2]},
+        {t:'centrosome',    p:[1.5,2.95,-0.2]}
+      ];
+      minors.forEach(function(o){
+        var lb = grayLabel(o.t, 0.5);
+        lb.position.set(o.p[0], o.p[1], o.p[2]); cell.add(lb);
+      });
       return cell;
     }
 
