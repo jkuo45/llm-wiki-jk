@@ -55,6 +55,7 @@ List of documents that mention this entity
 - [[NAD+]]: The obligatory donor of the ADP-ribose group.
 - [[Sirtuins]]: Enzymes (specifically [[SIRT4]] and [[SIRT6]]) that catalyze mono-ADP-ribosylation.
 - [[PARP1]]: The master catalyst of poly-ADP-ribosylation in response to genotoxic stress.
+- [[PARG]] / [[ARH3]]: the eraser pair — [[PARG]] degrades bulk PAR chains, [[ARH3]] removes terminal serine-MARylation and short/free PAR.
 
 ## Linking Summary:
 - New links added: [[NAD+]], [[Sirtuins]], [[SIRT4]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[DNA Repair]], [[DNA Damage]], [[PARP1]]

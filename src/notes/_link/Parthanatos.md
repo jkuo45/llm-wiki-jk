@@ -46,7 +46,7 @@ Cytosolic [[AIF]] binds [[MIF]] (PAAN, PD-D/E(X)K nuclease, E22 critical, tautom
 
 ## Regulation
 
-- **[[PARG]]/ARH3:** highly active erasers. Overexpression protects (infarct reduced); deletion lethal E3.5, sensitizes to MNNG/menadione. Paradox: knockdown protects in H2O2 but not MNNG models; endo- vs exo-glycosidase balance (mostly monomers, few free chains) plus auto-PARP1 inhibition confounds. ARH3 loss sensitizes to ischemia, human mutants show neurodegeneration.
+- **[[PARG]]/[[ARH3]]:** highly active erasers. Overexpression protects (infarct reduced); deletion lethal E3.5, sensitizes to MNNG/menadione. Paradox: knockdown protects in H2O2 but not MNNG models; endo- vs exo-glycosidase balance (mostly monomers, few free chains) plus auto-PARP1 inhibition confounds. [[ARH3]] loss sensitizes to ischemia, human mutants show neurodegeneration.
 - **[[NAD+]] compartment:** nuclear/cytosolic pool hit first; mitochondrial pool via SLC25A51 plus mito-[[PARP1]] debated. NR/NMN rescue context-dependent. [[SIRT1]] competes for [[NAD+]]; SIRT1-PARP1-AIF axis gates survival vs death.
 - **Ca2+:** ADP-ribose monomers open [[TRPM2]] -> Ca2+ influx; ER release contributes. Chelation protects renal I/R and H2O2 but not MNNG models. Calpain/mPTP downstream candidates, not obligatory.
 - **Caspase switch:** low damage -> transient NAD+/ATP dip -> apoptosis; high damage -> prolonged depletion -> parthanatos. Apoptotic caspases cleave [[PARP1]] to prevent parthanatos.

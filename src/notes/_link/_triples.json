@@ -16364,5 +16364,145 @@
     "source_document": "TRIF.md",
     "created": "2026-09-05T02:54:12Z",
     "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "d4898857f0fa",
+    "subject": "ARH3",
+    "predicate": "hydrolyzes",
+    "object": "PAR",
+    "context": {
+      "en-US": "ARH3 is a Mg2+-dependent exoglycosidase that trims poly(ADP-ribose) chains from the terminus to release ADP-ribose, complementing PARG which prefers long protein-bound chains. ARH3 handles short and free PAR that PARG processes poorly.",
+      "zh-TW": "ARH3 是一種 Mg2+ 依賴的外切糖苷酶，自末端修剪 poly(ADP-ribose) 鏈以釋放 ADP-ribose，與偏好長鏈蛋白結合型 PAR 的 PARG 互補。ARH3 負責 PARG 較難處理的短鏈與游離 PAR。"
+    },
+    "confidence": 0.95,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "bca0b8b49a3d",
+    "subject": "ARH3",
+    "predicate": "reverses",
+    "object": "ADP-ribosylation",
+    "context": {
+      "en-US": "ARH3 is the only known hydrolase that removes serine-linked mono-ADP-ribose written by the PARP1/HPF1 complex, completing the ADP-ribosylation cycle after PARG removes bulk polymer. ARH3-KO cells accumulate serine-MAR while HPF1-KO cells lose it.",
+      "zh-TW": "ARH3 是目前已知唯一可移除由 PARP1/HPF1 複合體寫入的絲氨酸單 ADP-核糖修飾的水解酶，在 PARG 移除大量聚合物後完成 ADP-ribosylation 循環。ARH3-KO 細胞堆積 serine-MAR，而 HPF1-KO 細胞則減少。"
+    },
+    "confidence": 0.95,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "a7da435d789c",
+    "subject": "ARH3",
+    "predicate": "suppresses",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "ARH3 suppresses parthanatos by clearing nuclear and cytoplasmic PAR after oxidative stress, preventing PAR binding to mitochondrial AIF and its nuclear translocation. Arh3-deficient MEFs show exaggerated PAR accumulation, AIF release and caspase-independent death after H2O2.",
+      "zh-TW": "ARH3 在氧化壓力後清除細胞核與細胞質中的 PAR，阻止 PAR 結合粒線體 AIF 並轉位入核，從而抑制 parthanatos。Arh3 缺失的 MEF 在 H2O2 後呈現過度 PAR 堆積、AIF 釋放與 caspase 非依賴性死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "76223f6b5c68",
+    "subject": "ARH3",
+    "predicate": "complements",
+    "object": "PARG",
+    "context": {
+      "en-US": "ARH3 complements PARG in PAR turnover: PARG provides endo- plus exo-glycosidase activity on long chains but cannot cleave the terminal protein-linked ADP-ribose, while ARH3 provides exo-only cleavage plus serine-deMARylation. Their distinct folds, metal dependence and localizations divide the labor.",
+      "zh-TW": "ARH3 與 PARG 在 PAR 代謝中互補：PARG 對長鏈具內切加外切活性，但無法切除末端與蛋白相連的 ADP-ribose；ARH3 僅具外切活性並負責絲氨酸去 MAR 化。兩者以不同的結構、金屬依賴與定位分工。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "07bfeb4ec3be",
+    "subject": "ARH3",
+    "predicate": "protects_against",
+    "object": "Neurodegeneration",
+    "context": {
+      "en-US": "Biallelic ADPRHL2 loss causes CONDSIAS, a stress-induced childhood-onset neurodegeneration with ataxia and seizures, linking persistent serine-MARylation and PAR accumulation to neuronal death. PARP inhibition rescues PAR buildup and death in ARH3-deficient cells.",
+      "zh-TW": "ADPRHL2 雙等位基因缺失導致 CONDSIAS，即壓力誘發的兒童期發病神經退化，伴隨共濟失調與癲癇，將持續性 serine-MAR 化與 PAR 堆積連結至神經元死亡。PARP 抑制可挽救 ARH3 缺陷細胞的 PAR 堆積與死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "f21300d912e8",
+    "subject": "ARH3",
+    "predicate": "localized_to",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "ARH3 carries an N-terminal mitochondrial-targeting sequence and is the only active PAR-degrading enzyme in the mitochondrial matrix, since short PARG55/60 splice forms lack exon 5 and are catalytically dead. It also degrades O-acetyl-ADP-ribose produced by SIRT3/SIRT5.",
+      "zh-TW": "ARH3 帶有 N 端粒線體定位序列，是粒線體基質中唯一具活性的 PAR 降解酶，因為短型 PARG55/60 缺乏 exon 5 而無催化活性。它亦降解 SIRT3/SIRT5 產生的 O-acetyl-ADP-ribose。"
+    },
+    "confidence": 0.85,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "b082a07353e6",
+    "subject": "ARH3",
+    "predicate": "hydrolyzes",
+    "object": "O-acetyl-ADP-ribose",
+    "context": {
+      "en-US": "ARH3 hydrolyzes O-acetyl-ADP-ribose, the sirtuin deacetylation byproduct that regulates SIRT activity, TRPM2 gating and redox, using the same Mg2+-dependent alpha-anomer stereospecific mechanism as for PAR and serine-ADPr.",
+      "zh-TW": "ARH3 以與 PAR 及絲氨酸 ADPr 相同的 Mg2+ 依賴、alpha-anomer 立體專一機制，水解 sirtuin 去乙醯化副產物 O-acetyl-ADP-ribose，該分子調控 SIRT 活性、TRPM2 通道與氧化還原。"
+    },
+    "confidence": 0.85,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "2c6773c03e6d",
+    "subject": "PARP1",
+    "predicate": "is_opposed_by",
+    "object": "ARH3",
+    "context": {
+      "en-US": "PARP1 with HPF1 writes the initiating serine-ADPr and elongates PAR chains on itself, histones and repair factors, while ARH3 erases the serine anchor and trims short chains to terminate the signal and restrain repair signaling in space and time.",
+      "zh-TW": "PARP1 與 HPF1 在自身、組蛋白與修復因子上寫入起始絲氨酸 ADPr 並延伸 PAR 鏈，而 ARH3 抹除絲氨酸錨點並修剪短鏈，在時空上終止修復訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "a64b62ba18d2",
+    "subject": "PARP inhibitors",
+    "predicate": "rescues",
+    "object": "ARH3",
+    "context": {
+      "en-US": "PARP inhibitors prevent PAR accumulation and H2O2-induced death in ARH3-deficient cells, and are proposed as therapy for ARH3-dependent neurodegeneration; ARH3 inhibition is conversely explored to potentiate PARG inhibitors against short PAR oligomers.",
+      "zh-TW": "PARP 抑制劑可阻止 ARH3 缺陷細胞的 PAR 堆積與 H2O2 誘發死亡，被提議用於 ARH3 相關神經退化的治療；反之，抑制 ARH3 被探索用於增強 PARG 抑制劑對短 PAR 寡聚體的效果。"
+    },
+    "confidence": 0.85,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "54c879095bcf",
+    "subject": "ARH3",
+    "predicate": "differs_from",
+    "object": "ARH1",
+    "context": {
+      "en-US": "ARH3 and ARH1 are 39-kDa paralogs with 41% similarity but distinct specificities: ARH1 cleaves arginine-linked MARylation while ARH3 cleaves serine-linked MARylation and PAR, with ARH1 showing under 1% of ARH3 PAR activity. ARH2 lacks demonstrated hydrolase activity.",
+      "zh-TW": "ARH3 與 ARH1 為 39-kDa 旁系同源蛋白，相似度 41% 但專一性不同：ARH1 切除精氨酸連接的 MAR 化，ARH3 切除絲氨酸連接的 MAR 化與 PAR；ARH1 的 PAR 活性不及 ARH3 的 1%。ARH2 尚未證實具水解活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARH3.md",
+    "created": "2026-09-06T17:22:34Z",
+    "updated": "2026-09-06T17:22:34Z"
   }
 ]
