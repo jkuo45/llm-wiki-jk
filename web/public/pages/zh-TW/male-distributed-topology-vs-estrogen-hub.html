@@ -14,6 +14,12 @@
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
 <script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+} }
+</script>
 <style>
   :root{
     --teal:#2a9d8f;
@@ -95,6 +101,31 @@
   .page-footer{ font-family:var(--mono); font-size:11px; color:var(--faint); padding:18px 0 32px; border-top:1px solid var(--rule); margin-top:28px; }
   .page-footer a{ color:var(--mute); }
   kbd.k{ font-family:var(--mono); font-size:.78rem; background:var(--sheet); border:1px solid var(--rule-strong); border-radius:3px; padding:0 5px; }
+  /* Fig. 1b — embedded 3D cells (Three.js): same cell plan, different wiring */
+  #fig-1b{ margin-top:30px; }
+  #fig-1b .fignum{ margin-top:8px; }
+  .cell3d-canvas{ position:relative; }
+  /* mobile: two tap-cards switch which cell fills the canvas */
+  .cell3d-cards{ display:none; gap:8px; margin:0 0 10px; }
+  .cell3d-card{ flex:1 1 0; font-family:var(--sans); font-size:12px; padding:9px 8px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink-soft); border-radius:var(--radius); cursor:pointer; line-height:1.35; text-align:center; }
+  .cell3d-card b{ display:block; font-size:13px; color:var(--ink); }
+  .cell3d-card.f{ border-top:3px solid var(--oxblood); }
+  .cell3d-card.m{ border-top:3px solid var(--slate); }
+  .cell3d-card.active{ background:color-mix(in srgb, var(--ink) 88%, transparent); color:var(--paper); }
+  .cell3d-card.active b{ color:var(--paper); }
+  @media (max-width:640px){
+    #scene{ height:420px; }
+    .cell3d-cards{ display:flex; }
+    .hud.left, .hud.right{ display:none; }
+  }
+  #scene{ width:100%; height:560px; display:block; cursor:grab; touch-action:none; }
+  #scene:active{ cursor:grabbing; }
+  .hud{ position:absolute; font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; pointer-events:none; }
+  .hud.left{ top:10px; left:12px; color:var(--oxblood); font-weight:700; }
+  .hud.right{ top:10px; right:12px; color:var(--slate); font-weight:700; }
+  #cell3d-info{ position:absolute; top:36px; left:12px; max-width:min(330px,80%); background:color-mix(in srgb, var(--paper) 94%, white); border:1px solid var(--rule-strong); box-shadow:var(--shadow); padding:12px 14px; font-size:.84rem; line-height:1.55; display:none; z-index:3; }
+  #cell3d-info h4{ margin:0 0 4px; font-size:.92rem; }
+  #cell3d-info .tag{ font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.06em; }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -163,38 +194,42 @@
       <figure class="fig">
         <p class="fignum">圖1 · 兩種架構並列</p>
         <div class="copy-host fig-canvas">
-        <svg viewBox="0 0 880 420" role="img" aria-label="左：集中式雌激素樞紐，一個中心九條輻條。右：分散式男性五節點網格，中央中空。">
+        <svg viewBox="0 0 880 460" role="img" aria-label="左：集中式雌激素樞紐，一個中心九條輻條。右：分散式男性五節點網格，中央中空。">
           <!-- ===== LEFT: centralized hub ===== -->
           <text x="220" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Sans, sans-serif">女性 · 集中式（星形）</text>
           <text x="220" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">單一中心 · 九條輻條 · 一次斷崖</text>
           <!-- spokes -->
           <g stroke="var(--oxblood)" stroke-width="1.6" opacity="0.75">
-            <line x1="220" y1="210" x2="220" y2="75"/><line x1="220" y1="210" x2="307" y2="107"/>
-            <line x1="220" y1="210" x2="353" y2="187"/><line x1="220" y1="210" x2="337" y2="278"/>
-            <line x1="220" y1="210" x2="266" y2="337"/><line x1="220" y1="210" x2="174" y2="337"/>
-            <line x1="220" y1="210" x2="103" y2="278"/><line x1="220" y1="210" x2="87" y2="187"/>
-            <line x1="220" y1="210" x2="133" y2="107"/>
+            <line x1="220" y1="245" x2="220" y2="93"/>
+            <line x1="220" y1="245" x2="318" y2="129"/>
+            <line x1="220" y1="245" x2="370" y2="219"/>
+            <line x1="220" y1="245" x2="352" y2="321"/>
+            <line x1="220" y1="245" x2="272" y2="388"/>
+            <line x1="220" y1="245" x2="168" y2="388"/>
+            <line x1="220" y1="245" x2="88" y2="321"/>
+            <line x1="220" y1="245" x2="70" y2="219"/>
+            <line x1="220" y1="245" x2="122" y2="129"/>
           </g>
           <!-- spoke nodes -->
           <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace">
-            <circle cx="220" cy="75" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="73" font-size="14" font-weight="700" fill="var(--ink)">SIRT1</text><text x="220" y="85" font-size="11" fill="var(--ink-soft)">轉錄↑</text>
-            <circle cx="307" cy="107" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="307" y="105" font-size="14" font-weight="700" fill="var(--ink)">SIRT3</text><text x="307" y="117" font-size="11" fill="var(--ink-soft)">粒線體↑</text>
-            <circle cx="353" cy="187" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="353" y="185" font-size="14" font-weight="700" fill="var(--ink)">SOD2</text><text x="353" y="197" font-size="11" fill="var(--ink-soft)">蛋白↑</text>
-            <circle cx="337" cy="278" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="337" y="276" font-size="14" font-weight="700" fill="var(--ink)">Bcl-2</text><text x="337" y="288" font-size="11" fill="var(--ink-soft)">神經↑</text>
-            <circle cx="266" cy="337" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="266" y="335" font-size="14" font-weight="700" fill="var(--ink)">IκBα</text><text x="266" y="347" font-size="11" fill="var(--ink-soft)">NF-κB↓</text>
-            <circle cx="174" cy="337" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="174" y="331" font-size="14" font-weight="700" fill="var(--ink)">STING</text><text x="174" y="343" font-size="11" fill="var(--ink-soft)">經由</text><text x="174" y="355" font-size="11" fill="var(--ink-soft)">HDAC3↓</text>
-            <circle cx="103" cy="278" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="103" y="276" font-size="14" font-weight="700" fill="var(--ink)">PARP-1</text><text x="103" y="288" font-size="11" fill="var(--ink-soft)">穩定化</text>
-            <circle cx="87" cy="187" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="87" y="185" font-size="14" font-weight="700" fill="var(--ink)">TERT</text><text x="87" y="197" font-size="11" fill="var(--ink-soft)">端粒↑</text>
-            <circle cx="133" cy="107" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="133" y="105" font-size="14" font-weight="700" fill="var(--ink)">p53</text><text x="133" y="117" font-size="11" fill="var(--ink-soft)">雙重調控</text>
+            <circle cx="220" cy="93" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="91" font-size="14" font-weight="700" fill="var(--ink)">SIRT1</text><text x="220" y="105" font-size="10" fill="var(--ink-soft)">轉錄↑</text>
+            <circle cx="318" cy="129" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="318" y="127" font-size="14" font-weight="700" fill="var(--ink)">SIRT3</text><text x="318" y="141" font-size="10" fill="var(--ink-soft)">粒線體↑</text>
+            <circle cx="370" cy="219" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="370" y="217" font-size="14" font-weight="700" fill="var(--ink)">SOD2</text><text x="370" y="231" font-size="10" fill="var(--ink-soft)">蛋白↑</text>
+            <circle cx="352" cy="321" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="352" y="319" font-size="14" font-weight="700" fill="var(--ink)">Bcl-2</text><text x="352" y="333" font-size="10" fill="var(--ink-soft)">神經↑</text>
+            <circle cx="272" cy="388" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="272" y="386" font-size="14" font-weight="700" fill="var(--ink)">IκBα</text><text x="272" y="400" font-size="10" fill="var(--ink-soft)">NF-κB↓</text>
+            <circle cx="168" cy="388" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="168" y="386" font-size="14" font-weight="700" fill="var(--ink)">STING</text><text x="168" y="400" font-size="10" fill="var(--ink-soft)">HDAC3↓</text>
+            <circle cx="88" cy="321" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="88" y="319" font-size="14" font-weight="700" fill="var(--ink)">PARP-1</text><text x="88" y="333" font-size="10" fill="var(--ink-soft)">穩定化</text>
+            <circle cx="70" cy="219" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="70" y="217" font-size="14" font-weight="700" fill="var(--ink)">TERT</text><text x="70" y="231" font-size="10" fill="var(--ink-soft)">端粒↑</text>
+            <circle cx="122" cy="129" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="122" y="127" font-size="14" font-weight="700" fill="var(--ink)">p53</text><text x="122" y="141" font-size="10" fill="var(--ink-soft)">雙重調控</text>
           </g>
           <!-- center -->
-          <circle cx="220" cy="210" r="46" fill="var(--oxblood)"/>
-          <text x="220" y="204" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
-          <text x="220" y="221" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">主要調控者</text>
-          <text x="220" y="405" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經：九條臂同時去抑制</text>
+          <circle cx="220" cy="245" r="46" fill="var(--oxblood)"/>
+          <text x="220" y="239" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
+          <text x="220" y="256" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">主要調控者</text>
+          <text x="220" y="448" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">停經：九條臂同時去抑制</text>
 
           <!-- divider -->
-          <line x1="440" y1="20" x2="440" y2="390" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
+          <line x1="440" y1="20" x2="440" y2="450" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
 
           <!-- ===== RIGHT: distributed mesh ===== -->
           <text x="660" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Sans, sans-serif">男性 · 分散式（網狀）</text>
@@ -236,6 +271,21 @@
         </svg>
         </div>
         <figcaption class="cap"><strong>閱讀方法。</strong>左側：每條保護臂都經過同一個樞紐，因此一次撤除事件拖垮全部。右側：五個男性節點彼此相連（共享版圖——NF-κB、mTOR、NAD⁺、自噬），但沒有東西經過中間；每個節點按自己的時程失效（§4）。</figcaption>
+      </figure>
+
+      <figure class="fig" id="fig-1b">
+        <p class="fignum">圖1b · 細胞內的同一兩種拓撲（互動式 3D）</p>
+        <div class="copy-host cell3d-canvas">
+          <div class="cell3d-cards" role="group" aria-label="選擇細胞視圖">
+            <button type="button" class="cell3d-card f active" data-view="female"><b>♀ 女性</b>E2→ER 樞紐 · 九臂星形</button>
+            <button type="button" class="cell3d-card m" data-view="male"><b>♂ 男性</b>T→AR 網格 · 中空中心</button>
+          </div>
+          <canvas id="scene"></canvas>
+          <span class="hud left">♀ 女性 · 集中式星形 · E2→ER 樞紐</span>
+          <span class="hud right">♂ 男性 · 分散式網格 · 中空</span>
+          <div id="cell3d-info" role="dialog" aria-live="polite"><div class="tag" id="cell3d-info-tag"></div><h4 id="cell3d-info-title"></h4><div id="cell3d-info-body"></div></div>
+        </div>
+        <figcaption class="cap"><strong>相同解剖，不同接線。</strong>兩細胞共享同一哺乳動物藍圖——細胞膜、具核仁＋核孔的細胞核、具嵴的粒線體、粗糙內質網、高基氏體、溶酶體、核糖體。左：E2 粒子流入核樞紐，再沿九條輻條輸出。右：五節點圍繞空中心彼此脈動。點擊任一發光節點查看證據。</figcaption>
       </figure>
 
       <div class="callout">
@@ -731,6 +781,363 @@
     if (hl.value) wrap.classList.add(hl.value);
   });
   apply();
+})();
+</script>
+
+<script type="module">
+/* Fig. 1b — embedded 3D cells. Lazy-initialised on first scroll into view. */
+(function(){
+  var canvas = document.getElementById('scene');
+  if(!canvas) return;
+  var started = false;
+  function start(){
+    if(started) return; started = true;
+    import('three').then(function(THREE){
+      return Promise.all([Promise.resolve(THREE), import('three/addons/controls/OrbitControls.js')]);
+    }).then(function(mods){
+      var THREE = mods[0], OrbitControls = mods[1].OrbitControls;
+      init(THREE, OrbitControls);
+    }).catch(function(err){ console.warn('3D cells failed to load', err); });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      if(es.some(function(e){ return e.isIntersecting; })){ io.disconnect(); start(); }
+    }, {rootMargin:'400px'});
+    io.observe(canvas);
+  } else start();
+
+  function init(THREE, OrbitControls){
+    var renderer;
+    try{
+      renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
+    }catch(err){ console.warn('WebGL unavailable', err); return; }
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(42, 2, 0.1, 200);
+    camera.position.set(0, 7.5, 26);
+    var controls = new OrbitControls(camera, canvas);
+    controls.enableDamping = true; controls.target.set(0,0.5,0);
+    controls.minDistance = 8; controls.maxDistance = 60;
+
+    scene.add(new THREE.AmbientLight(0xffffff, 0.85));
+    var key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(8,14,10); scene.add(key);
+    var fill = new THREE.DirectionalLight(0xdfe8f0, 0.4); fill.position.set(-10,-6,-8); scene.add(fill);
+
+    function labelSprite(text, color, scale){
+      color = color || '#222'; scale = scale || 1;
+      var c = document.createElement('canvas'); c.width = 256; c.height = 80;
+      var g = c.getContext('2d');
+      g.fillStyle = 'rgba(255,255,255,0.92)'; g.strokeStyle = color; g.lineWidth = 4;
+      if(g.roundRect){ g.beginPath(); g.roundRect(4,6,248,68,14); g.fill(); g.stroke(); }
+      else { g.fillRect(4,6,248,68); g.strokeRect(4,6,248,68); }
+      g.fillStyle = '#1a1a1a'; g.font = 'bold 26px sans-serif';
+      g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text,128,42);
+      var t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+      var s = new THREE.Sprite(new THREE.SpriteMaterial({map:t, transparent:true, depthTest:false}));
+      s.scale.set(2.4*scale, 0.75*scale, 1); return s;
+    }
+    function glowMat(color, intensity){
+      return new THREE.MeshStandardMaterial({color:color, emissive:color, emissiveIntensity:intensity, roughness:0.35, metalness:0.1});
+    }
+    var pickables = [], nodeInfo = {};
+    function addNode(group, id, tag, title, body, pos, color, r){
+      var m = new THREE.Mesh(new THREE.SphereGeometry(r, 28, 20), glowMat(color, 1.6));
+      m.position.copy(pos); m.userData.id = id; group.add(m);
+      var halo = new THREE.Mesh(new THREE.SphereGeometry(r*1.55, 20, 14),
+        new THREE.MeshBasicMaterial({color:color, transparent:true, opacity:0.16, depthWrite:false}));
+      halo.position.copy(pos); group.add(halo);
+      var lb = labelSprite(title, '#'+new THREE.Color(color).getHexString(), 0.85);
+      lb.position.copy(pos).add(new THREE.Vector3(0, r+0.75, 0)); group.add(lb);
+      pickables.push(m); nodeInfo[id] = {tag:tag, title:title, body:body, color:'#'+new THREE.Color(color).getHexString()};
+      return m;
+    }
+
+    function buildCell(){
+      var cell = new THREE.Group();
+      var mem = new THREE.Mesh(new THREE.SphereGeometry(5, 48, 32),
+        new THREE.MeshPhysicalMaterial({color:0x9fc5d8, transparent:true, opacity:0.10, roughness:0.15, metalness:0, side:THREE.DoubleSide, depthWrite:false}));
+      mem.scale.set(1.25,1,1); cell.add(mem);
+      var memWire = new THREE.Mesh(new THREE.SphereGeometry(5.02, 24, 16),
+        new THREE.MeshBasicMaterial({color:0x7fa8bd, wireframe:true, transparent:true, opacity:0.10}));
+      memWire.scale.copy(mem.scale); cell.add(memWire);
+      var cyto = new THREE.Mesh(new THREE.SphereGeometry(4.85, 32, 24),
+        new THREE.MeshStandardMaterial({color:0xeef4f6, transparent:true, opacity:0.28, roughness:1, depthWrite:false}));
+      cyto.scale.set(1.25,1,1); cell.add(cyto);
+      var nuc = new THREE.Group(); nuc.position.set(-0.9, 0.4, 0.3);
+      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(1.9, 40, 28),
+        new THREE.MeshPhysicalMaterial({color:0xc9a06a, transparent:true, opacity:0.35, roughness:0.4, side:THREE.DoubleSide, depthWrite:false})));
+      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(1.72, 32, 24),
+        new THREE.MeshStandardMaterial({color:0xf3e4c8, transparent:true, opacity:0.5, roughness:0.9})));
+      var nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.55, 20, 16),
+        new THREE.MeshStandardMaterial({color:0x8a5a3b, roughness:0.7}));
+      nucleolus.position.set(0.4,0.3,0.4); nuc.add(nucleolus);
+      var poreMat = new THREE.MeshStandardMaterial({color:0x6b4a2f, roughness:0.6});
+      for(var i=0;i<14;i++){
+        var th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+        var p = new THREE.Vector3().setFromSphericalCoords(1.9, ph, th);
+        var pore = new THREE.Mesh(new THREE.TorusGeometry(0.09, 0.035, 8, 14), poreMat);
+        pore.position.copy(p); pore.lookAt(p.clone().multiplyScalar(2)); nuc.add(pore);
+      }
+      var pts = []; for(var k=0;k<40;k++) pts.push(new THREE.Vector3((Math.random()-0.5)*2.4,(Math.random()-0.5)*2.4,(Math.random()-0.5)*2.4));
+      nuc.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 120, 0.03, 6),
+        new THREE.MeshStandardMaterial({color:0x7b2cbf, transparent:true, opacity:0.55})));
+      cell.add(nuc);
+      function mitochondrion(x,y,z,ry){
+        var g = new THREE.Group(); g.position.set(x,y,z); g.rotation.y = ry || 0;
+        var body = new THREE.Mesh(new THREE.CapsuleGeometry(0.42, 0.9, 6, 14),
+          new THREE.MeshStandardMaterial({color:0xe07a5f, roughness:0.55}));
+        body.rotation.z = Math.PI/2; g.add(body);
+        var inner = new THREE.Mesh(new THREE.CapsuleGeometry(0.3, 0.8, 4, 10),
+          new THREE.MeshStandardMaterial({color:0xf4d35e, transparent:true, opacity:0.5}));
+        inner.rotation.z = Math.PI/2; g.add(inner);
+        for(var c=-2;c<=2;c++){
+          var cr = new THREE.Mesh(new THREE.BoxGeometry(0.06,0.5,0.5),
+            new THREE.MeshStandardMaterial({color:0x9e2b25}));
+          cr.position.x = c*0.2; g.add(cr);
+        }
+        cell.add(g); return g;
+      }
+      cell.userData.mitos = [
+        mitochondrion(2.6,-1.2,1.2,0.4), mitochondrion(2.2,1.6,-1.0,-0.5),
+        mitochondrion(-3.4,-1.6,-0.6,0.9), mitochondrion(0.6,-2.4,-1.4,0.2)];
+      var erMat = new THREE.MeshStandardMaterial({color:0x4a90a4, roughness:0.6, side:THREE.DoubleSide, transparent:true, opacity:0.85});
+      for(var s=0;s<4;s++){
+        var sheet = new THREE.Mesh(new THREE.PlaneGeometry(3.2, 1.1, 12, 4), erMat);
+        var pa = sheet.geometry.attributes.position;
+        for(var v=0;v<pa.count;v++) pa.setZ(v, Math.sin(pa.getX(v)*2)*0.18);
+        sheet.geometry.computeVertexNormals();
+        sheet.position.set(-0.6-s*0.35, -2.2+s*0.42, 1.6); sheet.rotation.set(-0.5, 0.3, 0.1);
+        cell.add(sheet);
+        for(var rb=0;rb<8;rb++){
+          var dot = new THREE.Mesh(new THREE.SphereGeometry(0.05,8,8),
+            new THREE.MeshStandardMaterial({color:0x333333}));
+          dot.position.set(sheet.position.x+(Math.random()-0.5)*3, sheet.position.y+(Math.random()-0.5)*0.9, sheet.position.z+0.12);
+          cell.add(dot);
+        }
+      }
+      for(var gi=0;gi<4;gi++){
+        var plate = new THREE.Mesh(new THREE.CylinderGeometry(1.0-gi*0.08, 1.0-gi*0.08, 0.09, 24, 1, false, 0, Math.PI*1.3),
+          new THREE.MeshStandardMaterial({color:0x81b29a, roughness:0.5, side:THREE.DoubleSide}));
+        plate.position.set(2.8+gi*0.12, 0.2+gi*0.28, -1.2); plate.rotation.set(0.4,0.6,0.2); cell.add(plate);
+      }
+      var lyso = new THREE.Mesh(new THREE.SphereGeometry(0.4,18,14),
+        new THREE.MeshStandardMaterial({color:0xf2cc8f, roughness:0.4}));
+      lyso.position.set(-2.8, 1.8, -1.2); cell.add(lyso);
+      var ribs = new THREE.InstancedMesh(new THREE.SphereGeometry(0.045,6,6), new THREE.MeshBasicMaterial({color:0x555555}), 120);
+      var dummy = new THREE.Object3D();
+      for(var ri=0;ri<120;ri++){
+        dummy.position.set((Math.random()-0.5)*10,(Math.random()-0.5)*7,(Math.random()-0.5)*7);
+        if(dummy.position.length()<3.2) dummy.position.multiplyScalar(1.6);
+        dummy.updateMatrix(); ribs.setMatrixAt(ri, dummy.matrix);
+      }
+      cell.add(ribs);
+      var skelMat = new THREE.LineBasicMaterial({color:0x9aa3b2, transparent:true, opacity:0.35});
+      for(var li=0;li<10;li++){
+        var a = new THREE.Vector3((Math.random()-0.5)*9,(Math.random()-0.5)*6,(Math.random()-0.5)*6);
+        var b = a.clone().add(new THREE.Vector3((Math.random()-0.5)*4,(Math.random()-0.5)*3,(Math.random()-0.5)*3));
+        cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([a,b]), skelMat));
+      }
+      return cell;
+    }
+
+    /* ---- female: centralized star ---- */
+    var female = buildCell(); female.position.x = -7.2; scene.add(female);
+    var F = new THREE.Group(); female.add(F);
+    var HUB_C = 0x7f1d2c;
+    var hub = new THREE.Mesh(new THREE.SphereGeometry(0.55,30,22), glowMat(HUB_C, 2.0));
+    hub.position.set(-0.9,0.4,0.3); hub.userData.id = 'hub'; F.add(hub);
+    var hubHalo = new THREE.Mesh(new THREE.SphereGeometry(1.0,20,14),
+      new THREE.MeshBasicMaterial({color:HUB_C, transparent:true, opacity:0.18, depthWrite:false}));
+    hubHalo.position.copy(hub.position); F.add(hubHalo);
+    pickables.push(hub);
+    nodeInfo['hub'] = {tag:'♀ 樞紐 · E2→ER · 主調控者', title:'E2 → ER 樞紐',
+      body:'雌二醇結合核內 ERα/β，向九條臂扇出（SIRT1、SIRT3、SOD2、Bcl-2、IκBα→NF-κB、HDAC3→STING、PARP-1、TERT、p53）。一個開關，九條輻條——停經一次撤除全部。', color:'#7f1d2c'};
+    var hubLabel = labelSprite('E2→ER hub', '#7f1d2c', 1.1);
+    hubLabel.position.copy(hub.position).add(new THREE.Vector3(0,1.35,0)); F.add(hubLabel);
+    // cell-level title — parented to the cell group so it swings with rotation
+    var fTitle = labelSprite('♀ 女性：E2→ER', '#7f1d2c', 1.4);
+    fTitle.position.set(0, 4.6, 0); female.add(fTitle);
+    var ARMS = [
+      {id:'sirt1', t:'SIRT1 ↑', c:0xc1121f, p:[-0.9,2.0,0.3],  d:'核轉錄：ER 驅動的去乙醯化張力。停經喪失 → 粒線體功能障礙。'},
+      {id:'parp1f', t:'PARP-1', c:0xc1121f, p:[-2.3,0.9,0.9],  d:'DNA 修復待命；E2 穩定 PARP-1。撤除加速 NAD⁺ 耗竭。'},
+      {id:'tert', t:'TERT ↑', c:0xc1121f, p:[-0.9,-1.3,0.3],   d:'E2 啟動端粒酶；撤除後耗損加速。'},
+      {id:'p53', t:'p53 ctrl', c:0xc1121f, p:[0.5,0.4,0.3],    d:'雙重調控（活化 ＋ 扣押）；E2 喪失後失調。'},
+      {id:'sirt3', t:'SIRT3 ↑', c:0xe07a5f, p:[2.6,-0.4,1.2],  d:'粒線體氧化還原調節盤：E2 驅動 SIRT3 粒線體定位。'},
+      {id:'sod2', t:'SOD2 ↑', c:0xe07a5f, p:[2.2,2.4,-1.0],    d:'E2 上調 MnSOD 抗氧化防線蛋白。'},
+      {id:'bcl2', t:'Bcl-2 ↑', c:0xe07a5f, p:[-3.4,-0.8,-0.6], d:'粒線體／內質網抗凋亡支撐；喪失後神經元脆弱性上升。'},
+      {id:'nfkb', t:'NF-κB ↓', c:0x2a9d8f, p:[1.4,-2.0,1.4],   d:'發炎煞車：E2 ↑ IκBα → NF-κB ↓。移除 → 發炎老化。'},
+      {id:'sting', t:'STING ↓', c:0x2a9d8f, p:[2.9,1.2,-1.2],  d:'經 HDAC3 → STING ↓ 抑制先天免疫；喪失後 cGAS-STING 活化。'}
+    ];
+    var spokeMat = new THREE.LineBasicMaterial({color:HUB_C, transparent:true, opacity:0.75});
+    ARMS.forEach(function(a){
+      var pos = new THREE.Vector3(a.p[0], a.p[1], a.p[2]);
+      var m = new THREE.Mesh(new THREE.SphereGeometry(0.3,22,16), glowMat(a.c, 1.4));
+      m.position.copy(pos); m.userData.id = a.id; F.add(m);
+      var lb = labelSprite(a.t, '#'+new THREE.Color(a.c).getHexString(), 0.7);
+      lb.position.copy(pos).add(new THREE.Vector3(0,0.62,0)); F.add(lb);
+      pickables.push(m);
+      nodeInfo[a.id] = {tag:'♀ 輻條 · 雌激素臂', title:a.t, body:a.d, color:'#'+new THREE.Color(a.c).getHexString()};
+      F.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([hub.position, pos]), spokeMat));
+    });
+    var e2Geo = new THREE.BufferGeometry(), E2N = 90, e2Pos = new Float32Array(E2N*3);
+    function resetE2(i){
+      var th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+      e2Pos[i*3] = -0.9+Math.cos(th)*Math.sin(ph)*7; e2Pos[i*3+1] = 0.4+Math.cos(ph)*5; e2Pos[i*3+2] = 0.3+Math.sin(th)*Math.sin(ph)*5;
+    }
+    for(var e=0;e<E2N;e++) resetE2(e);
+    e2Geo.setAttribute('position', new THREE.BufferAttribute(e2Pos,3));
+    var e2Pts = new THREE.Points(e2Geo, new THREE.PointsMaterial({color:0xffd166, size:0.16, transparent:true, opacity:0.95}));
+    female.add(e2Pts);
+
+    /* ---- male: distributed mesh, empty center ---- */
+    var male = buildCell(); male.position.x = 7.2; scene.add(male);
+    var M = new THREE.Group(); male.add(M);
+    var emptyC = new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.045, 10, 40),
+      new THREE.MeshBasicMaterial({color:0x9aa3b2, transparent:true, opacity:0.7}));
+    emptyC.position.set(-0.2,0.2,0.2); M.add(emptyC);
+    var mTitle = labelSprite('♂ 男性：T→AR', '#2e4a5d', 1.4);
+    mTitle.position.set(0, 4.6, 0); male.add(mTitle);
+    var emptyLb = labelSprite('no center', '#6b7280', 0.8); emptyLb.position.set(-0.2,1.25,0.2); M.add(emptyLb);
+    var MALE = [
+      {id:'ar', t:'T→AR drive', c:0x2a9d8f, p:[3.4,0.6,0.6], r:0.5,
+       tag:'♂ 節點1 · 驅動 · 合成代謝／免疫', d:'睪固酮穿過細胞膜 → AR。100 nM T → p-ERK（5 分鐘）→ p-Akt（15 分鐘）→ 3.5× p-S6K1（60 分鐘，Basualto-Alarcón 2013）。抗發炎（↓TNF-α/IL-6、↑IL-10、NF-κB↓）但雙向：發炎老化（GDF-15）壓制 T。前列腺／肝／黑色素瘤促癌。'},
+      {id:'loy', t:'mLOY', c:0xc1121f, p:[-2.6,1.4,-0.4], r:0.5,
+       tag:'♂ 節點2 · 加速器 · 致病性獲得', d:'鑲嵌型 Y 缺失：70 歲 40％ → 93 歲 57％。全因死亡 HR 1.91（Forsberg 2014）；致死心肌梗塞 HR 2.65（LURIC）。因果性：BM-LOY 小鼠 → 纖維化／心衰竭，TGFβ1 救援（Sano Science 2022）。獲得株系，而非失去保護。'},
+      {id:'sx', t:'Single-X', c:0x2e4a5d, p:[-0.9,-1.5,0.3], r:0.46,
+       tag:'♂ 節點3 · 結構 · 終身缺損', d:'6 個 EXITS 抑癌基因（ATRX、CNKSR2、DDX3X、KDM5C、KDM6A、MAGEC3）在 XY 缺乏雙等位基因備援（Dunford 2017）。微弱 Y 旁系同源救援（UTY、DDX3Y）—— LOY 來襲即刪除。'},
+      {id:'parp', t:'PARP-1/AIF', c:0xb5892e, p:[2.4,-1.0,1.0], r:0.5,
+       tag:'♂ 節點4 · 執行 · parthanatos', d:'男性死亡預設：nNOS → PARP 過度活化 → NAD⁺ 耗竭 → AIF 入核 → 50-kbp 片段。PARP-1 基因剔除：♂ 梗塞 19.7 vs 38.4（受保護）；♀卵巢切除 52.2 vs 36.0（惡化，Liu Stroke 2011）。'},
+      {id:'sirt6', t:'SIRT6', c:0x7b2cbf, p:[-0.9,2.1,0.2], r:0.5,
+       tag:'♂ 節點5 · 生長 · 長壽設定點', d:'Sirt6 轉基因雄性中位數 +14.5％ 經 ↓IGF-1 ＋ ↑IGFBP1（Kanfi Nature 2012）；兩性皆延長、雄性更強（Roichman 2021）。典型自噬（Beclin-1→LC3-II→p62↓）。'}
+    ];
+    var maleMeshes = MALE.map(function(n){
+      return addNode(M, n.id, n.tag, n.t, n.d, new THREE.Vector3(n.p[0], n.p[1], n.p[2]), n.c, n.r);
+    });
+    var meshMat = new THREE.LineBasicMaterial({color:0x2e4a5d, transparent:true, opacity:0.5});
+    for(var mi=0;mi<maleMeshes.length;mi++) for(var mj=mi+1;mj<maleMeshes.length;mj++){
+      M.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([maleMeshes[mi].position, maleMeshes[mj].position]), meshMat));
+    }
+    var tGeo = new THREE.BufferGeometry(), TN = 40, tPos = new Float32Array(TN*3);
+    function resetT(i){ tPos[i*3] = 5.5+Math.random()*1.5; tPos[i*3+1] = (Math.random()-0.5)*5; tPos[i*3+2] = (Math.random()-0.5)*5; }
+    for(var ti=0;ti<TN;ti++) resetT(ti);
+    tGeo.setAttribute('position', new THREE.BufferAttribute(tPos,3));
+    var tPts = new THREE.Points(tGeo, new THREE.PointsMaterial({color:0x2a9d8f, size:0.15, transparent:true, opacity:0.9}));
+    male.add(tPts);
+    var divider = new THREE.Mesh(new THREE.PlaneGeometry(0.06, 14),
+      new THREE.MeshBasicMaterial({color:0xcccccc, transparent:true, opacity:0.5, side:THREE.DoubleSide}));
+    divider.position.set(0,0.5,-3); scene.add(divider);
+
+    /* ---- interaction ---- */
+    var ray = new THREE.Raycaster(), ptr = new THREE.Vector2(), downAt = 0;
+    var info = document.getElementById('cell3d-info'),
+        itag = document.getElementById('cell3d-info-tag'),
+        ititle = document.getElementById('cell3d-info-title'),
+        ibody = document.getElementById('cell3d-info-body');
+    canvas.addEventListener('pointerdown', function(){ downAt = performance.now(); });
+    canvas.addEventListener('pointerup', function(ev){
+      if(performance.now()-downAt > 250) return;
+      var r = canvas.getBoundingClientRect();
+      ptr.x = ((ev.clientX-r.left)/r.width)*2-1; ptr.y = -((ev.clientY-r.top)/r.height)*2+1;
+      ray.setFromCamera(ptr, camera);
+      var hit = ray.intersectObjects(pickables, false)[0];
+      if(hit){
+        var n = nodeInfo[hit.object.userData.id];
+        itag.textContent = n.tag; itag.style.color = n.color;
+        ititle.textContent = n.title; ibody.textContent = n.body;
+        info.style.display = 'block';
+        pickables.forEach(function(p){ p.material.emissiveIntensity = 1.2; });
+        hit.object.material.emissiveIntensity = 3.0;
+      } else info.style.display = 'none';
+    });
+    canvas.addEventListener('pointermove', function(ev){
+      var r = canvas.getBoundingClientRect();
+      ptr.x = ((ev.clientX-r.left)/r.width)*2-1; ptr.y = -((ev.clientY-r.top)/r.height)*2+1;
+      ray.setFromCamera(ptr, camera);
+      canvas.style.cursor = ray.intersectObjects(pickables, false).length ? 'pointer' : 'grab';
+    });
+
+    /* ---- fixed young-adult baseline (no toolbar): hub lit, T→AR lit, LOY minimal ---- */
+    var rotate = true, pulse = true;
+    /* ---- mobile two-card view: one cell fills the canvas ---- */
+    var view = 'both', fly = null;
+    var mq = window.matchMedia('(max-width:640px)');
+    function frame(v){
+      var tgt = new THREE.Vector3(v === 'male' ? 7.2 : v === 'female' ? -7.2 : 0, 0.5, 0);
+      var pos = new THREE.Vector3(v === 'both' ? 0 : (v === 'male' ? 7.2 : -7.2), v === 'both' ? 7.5 : 5, v === 'both' ? 26 : 15);
+      return {pos:pos, tgt:tgt};
+    }
+    function flyTo(v, instant){
+      var to = frame(v);
+      if(instant){ camera.position.copy(to.pos); controls.target.copy(to.tgt); return; }
+      fly = {t:0, p0:camera.position.clone(), t0:controls.target.clone(), p1:to.pos, t1:to.tgt};
+    }
+    function setView(v, instant){
+      view = v;
+      female.visible = (v !== 'male'); male.visible = (v !== 'female');
+      if(v !== 'both') rotate = false;
+      document.querySelectorAll('.cell3d-card').forEach(function(c){
+        c.classList.toggle('active', c.dataset.view === v);
+      });
+      flyTo(v, instant);
+    }
+    document.querySelectorAll('.cell3d-card').forEach(function(c){
+      c.addEventListener('click', function(){ setView(c.dataset.view, false); });
+    });
+    if(mq.matches) setView('female', true);
+    (function applyBaseline(){
+      var e2 = 1;
+      hub.material.emissiveIntensity = 0.4+1.8*e2;
+      hubHalo.material.opacity = 0.05+0.16*e2;
+      e2Pts.material.opacity = 0.95*e2; e2Pts.visible = true;
+      F.children.forEach(function(o){ if(o.isLine) o.material.opacity = 0.1+0.65*e2; });
+      var loyM = maleMeshes[1], arM = maleMeshes[0];
+      arM.material.emissiveIntensity = 0.5+1.4*1; tPts.material.opacity = 0.9;
+      loyM.scale.setScalar(1+0.05*0.9); loyM.userData.ageBase = 1+0.05*0.9; loyM.material.emissiveIntensity = 1.2+1.6*0.05;
+    })();
+
+    /* ---- loop (pauses off-screen) ---- */
+    var visible = true;
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(es){ visible = es[0].isIntersecting; }).observe(canvas);
+    }
+    function resize(){
+      var w = canvas.parentElement.clientWidth || canvas.clientWidth, h = 560;
+      renderer.setSize(w, h, false); renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      camera.aspect = w/h; camera.updateProjectionMatrix();
+      if(!mq.matches && view !== 'both') setView('both', false);
+    }
+    window.addEventListener('resize', resize); resize();
+    var clock = new THREE.Clock();
+    (function tick(){
+      requestAnimationFrame(tick);
+      if(!visible) return;
+      var t = clock.getElapsedTime();
+      if(view === 'both' && rotate){ female.rotation.y = Math.sin(t*0.15)*0.15; male.rotation.y = Math.sin(t*0.15+1)*0.15; }
+      if(fly){ fly.t = Math.min(1, fly.t + 0.04); var k = 1-Math.pow(1-fly.t,3); camera.position.lerpVectors(fly.p0, fly.p1, k); controls.target.lerpVectors(fly.t0, fly.t1, k); if(fly.t >= 1) fly = null; }
+      if(pulse){
+        hub.scale.setScalar(1+Math.sin(t*2.4)*0.12);
+        hubHalo.scale.setScalar(1+Math.sin(t*2.4)*0.08);
+        maleMeshes.forEach(function(m,i){ if(i !== 1){ var b = m.userData.ageBase || 1; m.scale.setScalar(b*(1+Math.sin(t*2+i)*0.06)); } });
+        emptyC.rotation.z = t*0.4;
+      }
+      var ep = e2Geo.attributes.position;
+      for(var i=0;i<E2N;i++){
+        ep.array[i*3]   += (-0.9-ep.array[i*3])*0.008;
+        ep.array[i*3+1] += (0.4-ep.array[i*3+1])*0.008;
+        ep.array[i*3+2] += (0.3-ep.array[i*3+2])*0.008;
+        if(Math.hypot(ep.array[i*3]+0.9, ep.array[i*3+1]-0.4, ep.array[i*3+2]-0.3) < 0.6) resetE2(i);
+      }
+      ep.needsUpdate = true;
+      var tp = tGeo.attributes.position;
+      for(var j=0;j<TN;j++){
+        tp.array[j*3]   += (3.4-tp.array[j*3])*0.01;
+        tp.array[j*3+1] += (0.6-tp.array[j*3+1])*0.01;
+        tp.array[j*3+2] += (0.6-tp.array[j*3+2])*0.01;
+        if(Math.hypot(tp.array[j*3]-3.4, tp.array[j*3+1]-0.6, tp.array[j*3+2]-0.6) < 0.5) resetT(j);
+      }
+      tp.needsUpdate = true;
+      controls.update(); renderer.render(scene, camera);
+    })();
+  }
 })();
 </script>
 
