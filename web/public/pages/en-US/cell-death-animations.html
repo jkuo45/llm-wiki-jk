@@ -75,7 +75,7 @@
       <p class="kicker">Visual explainer · Cell death · three.js</p>
       <h1>What each cell death looks like, live</h1>
       <p class="lede">Eight looping 3-D cells, one per program from the <a href="cell-death-comparison-table.html">comparison table</a>.
-      Membrane = outer sphere · purple = nucleus/DNA · orange capsules = mitochondria · dots = molecules (PAR, AIF, Ca²⁺, ROS/iron, cytokines, DAMPs).
+      Membrane = outer sphere · inner sphere = nucleus/DNA · capsules = mitochondria · dots = molecules (PAR, AIF, Ca²⁺, ROS/iron, cytokines, DAMPs).
       Lytic programs end in rupture; apoptosis ends in neat parcels; autophagy mostly survives.</p>
     </div>
     <div class="toolbar" role="toolbar" aria-label="Animation controls">
@@ -92,8 +92,8 @@
     <div class="grid" id="anim"></div>
     <footer class="legend">
       <p><b>How to read them.</b> Swelling + sudden burst with debris cloud = lytic (necrosis, necroptosis, pyroptosis, PANoptosis, late ferroptosis).
-      Shrinkage + surface blebs pinching off into separate balls = apoptosis. PAR glow → green AIF dots marching nucleus-ward with no swelling = parthanatos.
-      Rust patches + shrinking dark mitochondria = ferroptosis. Crescent moons closing around cargo and fusing with a red lysosome = autophagy.
+      Shrinkage + surface blebs pinching off into separate balls = apoptosis. PAR signal → AIF marching nucleus-ward with no swelling = parthanatos.
+      Peroxidation patches + shrinking condensed mitochondria = ferroptosis. Crescent moons closing around cargo and fusing with a lysosome = autophagy.
       Built with three.js r160 (CDN importmap); vertex-displaced membranes, instanced particles, no post-processing. Respects <code>prefers-reduced-motion</code> (starts paused).</p>
     </footer>
   </main>
@@ -119,37 +119,37 @@ const PROGRAMS = [
  { id:'parthanatos', title:'Parthanatos', sub:'PARP-1 · AIF · MIF — NAD⁺-consuming',
    pills:'<span class="pill reg">regulated</span>',
    phases:[[0,'heavy DNA damage — PARP-1 overactivates'],[3,'PAR chains flood · NAD⁺ drains (cell dims)'],[5.5,'AIF leaves mitochondria → nucleus'],[8,'large-scale (~50 kbp) clumping — no ladder'],[10.3,'PS flips out · membrane leaks, no swelling']],
-   steps:['Yellow PAR glow bursts from nucleus; whole-cell light dims = NAD⁺/ATP collapse.','Green AIF dots stream from mitochondria into nucleus; MIF follows.','Nucleus clumps coarsely; membrane leaks slightly but never swells or bursts.'],
+   steps:['PAR bursts from nucleus; whole-cell light dims = NAD⁺/ATP collapse.','AIF streams from mitochondria into nucleus; MIF follows.','Nucleus clumps coarsely; membrane leaks slightly but never swells or bursts.'],
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR polymer <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>nucleus (large clumps)' },
  { id:'necrosis', title:'Necrosis', sub:'accidental · passive · ATP-depleted',
    pills:'<span class="pill acc">accidental</span>',
    phases:[[0,'injury — Na⁺/K⁺ pumps fail'],[2.5,'oncosis — water floods in, cell swells'],[5,'organelles swell · lysosomes leak'],[7,'membrane ruptures'],[8,'DAMP storm — HMGB1, ATP, uric acid']],
-   steps:['Cell balloons (oncosis); mitochondria swell and pop.','Membrane tears open at one point — ragged hole.','Red/orange DAMP cloud explodes outward = highly inflammatory.'],
+   steps:['Cell balloons (oncosis); mitochondria swell and pop.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
    legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#ff5a4d"></span>DAMPs <span class="legend-dot" style="background:#7fd4ff"></span>water influx' },
  { id:'necroptosis', title:'Necroptosis', sub:'regulated necrosis — RIPK1 → RIPK3 → MLKL',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    phases:[[0,'TNFα signal — caspase-8 blocked'],[2.5,'necrosome assembles (RIPK1/RIPK3 glow)'],[5,'p-MLKL rings punch membrane pores'],[7,'swelling through pores → rupture'],[8.5,'DAMP release + NLRP3 handoff']],
-   steps:['Red necrosome speck forms under the membrane.','White MLKL pore-rings stud the surface; cell swells.','Rupture through pore zone; blocked by necrostatin-1/GSK872 in real assays.'],
+   steps:['Necrosome speck forms under the membrane.','MLKL pore-rings stud the surface; cell swells.','Rupture through pore zone; blocked by necrostatin-1/GSK872 in real assays.'],
    legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK1/3 necrosome <span class="legend-dot" style="background:#ffffff"></span>MLKL pores <span class="legend-dot" style="background:#ffb347"></span>DAMPs' },
  { id:'ferroptosis', title:'Ferroptosis', sub:'iron · lipid peroxidation · GPX4 failure',
    pills:'<span class="pill reg">regulated</span>',
-   phases:[[0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,'Fe²⁺ sparks · Fenton ROS'],[5.5,'lipid peroxidation rust spreads'],[8,'mitochondria shrink dense, darken'],[10,'membrane ruptures at rust patch']],
-   steps:['Orange Fe²⁺ sparks + ROS flicker inside the cell.','Rust-brown peroxidation patches creep across the membrane (C11-BODIPY signal).','Mitochondria shrivel dark; nucleus stays intact (no fragmentation); rupture follows.'],
-   legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>lipid-ROS rust <span class="legend-dot" style="background:#555"></span>shrunken mitochondria' },
+   phases:[[0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,'Fe²⁺ sparks · Fenton ROS'],[5.5,'lipid peroxidation spreads'],[8,'mitochondria shrink and condense'],[10,'membrane ruptures at peroxidized patch']],
+   steps:['Fe²⁺ sparks + ROS flicker inside the cell.','Lipid peroxidation patches creep across the membrane (C11-BODIPY signal).','Mitochondria shrivel and condense; nucleus stays intact (no fragmentation); rupture follows.'],
+   legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>lipid-ROS patches <span class="legend-dot" style="background:#555"></span>shrunken mitochondria' },
  { id:'autophagy', title:'Autophagy', sub:'survival first — type-II death only if excessive',
    pills:'<span class="pill reg">regulated</span>',
    phases:[[0,'starvation — mTORC1 off, AMPK on'],[2.5,'phagophore crescents nucleate'],[5,'cargo engulfed — autophagosomes close'],[7.5,'fusion with lysosome → degrade'],[10,'cell recovers — survives']],
-   steps:['Green crescents (phagophores) grow and cup damaged cargo.','Closed double-membrane vesicles ferry cargo to the red lysosome.','Lysosome fusion flash; cell survives — death only if this overruns.'],
+   steps:['Crescents (phagophores) grow and cup damaged cargo.','Closed double-membrane vesicles ferry cargo to the lysosome.','Lysosome fusion flash; cell survives — death only if this overruns.'],
    legend:'<span class="legend-dot" style="background:#51ff9e"></span>phagophore/autophagosome <span class="legend-dot" style="background:#ff5a4d"></span>lysosome <span class="legend-dot" style="background:#ffb347"></span>cargo' },
  { id:'pyroptosis', title:'Pyroptosis', sub:'inflammasome · gasdermin-D pores · lytic',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    phases:[[0,'PRR senses danger — inflammasome speck'],[2.5,'caspase-1 ignites — GSDMD cleaved'],[5,'10–20 nm pores ring the membrane'],[7,'IL-1β/IL-18 jets + swelling'],[8.5,'rupture — cytokine storm']],
-   steps:['Bright inflammasome speck assembles; cell flashes.','White GSDMD pore-rings stud the membrane.','Blue/yellow cytokine jets fountain out; swelling → rupture.'],
+   steps:['Inflammasome speck assembles; cell flashes.','GSDMD pore-rings stud the membrane.','Cytokine jets fountain out; swelling → rupture.'],
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>inflammasome/caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD pores <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
  { id:'panoptosis', title:'PANoptosis', sub:'all-in-one — ZBP1 PANoptosome, non-redundant',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    phases:[[0,'ZBP1 senses — PANoptosome assembles'],[3,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,'hybrid: pores + blebs + swelling at once'],[8.5,'total rupture — no single inhibitor rescues'],[10,'DAMP + cytokine storm from all arms']],
-   steps:['Central tri-color hub (RIPK1/RIPK3/caspase-8/caspase-1) lights up.','Pores, blebs and condensation happen simultaneously.','Massive rupture; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
+   steps:['Central hub (RIPK1/RIPK3/caspase-8/caspase-1) lights up.','Pores, blebs and condensation happen simultaneously.','Massive rupture; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
    legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK <span class="legend-dot" style="background:#ffe14d"></span>caspase <span class="legend-dot" style="background:#ffffff"></span>GSDMD/MLKL pores' },
 ];
 
@@ -334,7 +334,7 @@ function animateProgram(id, t, dt, S){
   else if (id==='parthanatos'){
     deformMembrane(R, time, {scale:1+0.03*Math.sin(time*2), bleb:0.08, wobble:0.02});
     const par = smooth(2,5.5,t), dim = smooth(3,6,t), aif = smooth(5,8.5,t);
-    // PAR glow: yellow haze around nucleus
+    // PAR signal around nucleus
     for(let i=0;i<200;i++){
       const a=Math.random()*Math.PI*2, r=Math.random()*(0.6+par*1.2);
       const on = Math.random()<par;
