@@ -12,6 +12,7 @@ import {
 import { parseHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setupDatasetSlider, syncCellToggle } from './ui.js';
 import { isCellMode, enterCellMode, exitCellMode, cellTick } from './cell.js';
+import { isFlying, flyTick } from './fly.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: analysis.js attaches its own listeners.
@@ -196,6 +197,12 @@ function animate() {
   // Cytoplasm drift + master-regulator pulse (cell.js). Returns true when it
   // moved anything, which keeps the on-demand loop rendering that frame.
   if (isCellMode() && cellTick(performance.now())) {
+    renderState.dirty = true;
+  }
+
+  // Trace flythrough camera (fly.js). Takes precedence visually; both may
+  // run (drift keeps nodes alive under the flight).
+  if (isFlying() && flyTick(performance.now())) {
     renderState.dirty = true;
   }
 

@@ -99,6 +99,122 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   pointer-events: none;
   cursor: default;
 }
+
+/* Trace flythrough (fly.js): per-route Fly button, play-all, flight bar. */
+.fly-play-all {
+  display: block;
+  width: 100%;
+  height: var(--ctl-h);
+  margin-bottom: 8px;
+  font-size: var(--ctl-font);
+  color: var(--ink-hi);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: var(--r-md);
+  cursor: pointer;
+}
+.fly-play-all:hover {
+  background: color-mix(in srgb, var(--accent) 24%, transparent);
+}
+.trace-route .fly-go {
+  margin-left: auto;
+  flex: none;
+  height: var(--ctl-h);
+  padding: var(--ctl-pad);
+  font-size: var(--ctl-font);
+  color: var(--ink-hi);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.trace-route .fly-go:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.trace-route.flying {
+  border-color: var(--accent);
+}
+/* Fly buttons share the row: name + hops left, ▶ Fly right. */
+.trace-route {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.trace-route-name {
+  min-width: 0;
+}
+.fly-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  background: var(--surface-1);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+}
+.fly-bar .fly-btn {
+  flex: none;
+  min-width: var(--touch-min);
+  height: var(--ctl-h);
+  font-size: var(--ctl-font);
+  color: var(--ink-hi);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+  cursor: pointer;
+}
+.fly-bar .fly-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.fly-pill {
+  flex: none;
+  font-size: var(--ctl-font);
+  color: var(--ink-hi);
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  border-radius: var(--r-pill);
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+.fly-progress {
+  flex: 1;
+  height: 6px;
+  min-width: 40px;
+  background: var(--surface-3);
+  border-radius: var(--r-pill);
+  overflow: hidden;
+}
+.fly-progress-fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--accent);
+  border-radius: var(--r-pill);
+  transition: width 0.3s ease;
+}
+.fly-speed {
+  flex: none;
+  height: var(--ctl-h);
+  font-size: var(--ctl-font);
+  color: var(--ink-hi);
+  background: var(--surface-1);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+}
+.fly-stop-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-hi);
+  margin-bottom: 8px;
+}
+.route-path .fly-current {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-radius: var(--r-sm);
+}
 .edge-label {
   color: #a0c4ff;
   font-size: 14px;
