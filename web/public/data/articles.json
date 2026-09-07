@@ -358,5 +358,23 @@
                 "updated": "2026-09-05"
             }
         }
+    },
+    {
+        "id": "inside-the-cell",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Inside the Human Cell [three.js]",
+                "path": "pages/en-US/inside-the-cell.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
+            },
+            "zh-TW": {
+                "title": "人體細胞內部 [three.js]",
+                "path": "pages/zh-TW/inside-the-cell.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
+            }
+        }
     }
 ]

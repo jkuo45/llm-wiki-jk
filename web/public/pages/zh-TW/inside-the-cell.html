@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>細胞內部 — 等比例 3-D 人類細胞：腎上腺色素、Sirtuins 與 IVM × FBZ</title>
+<meta name="description" content="全尺寸等比例 three.js 人類細胞（1 單位 = 1 µm），胞器皆標示。三個知識庫過程導覽：腎上腺色素氧化／解毒路徑、七種 sirtuins 分區，以及臨床前伊維菌素 × 芬苯達唑抗癌追蹤。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<link rel="stylesheet" href="../cell/inside-the-cell.css">
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links" id="ic-tours">
+      <a href="#content" data-tour="explore" class="is-active">探索</a>
+      <a href="#content" data-tour="adreno">腎上腺色素</a>
+      <a href="#content" data-tour="sirtuin">Sirtuins</a>
+      <a href="#content" data-tour="combi">IVM × FBZ</a>
+    </div>
+  </div>
+</nav>
+<div class="wrap wide">
+  <main id="content">
+    <div class="ic-layout">
+      <div class="ic-stage-card">
+        <div id="ic-stage">
+          <canvas id="ic-canvas" aria-label="等比例 3-D 人類細胞"></canvas>
+          <div id="ic-stepflag"></div>
+          <div id="ic-scalebar"><span id="ic-scalenum">5 µm</span><div class="bar" id="ic-scalefill" style="width:80px"></div></div>
+        </div>
+        <div class="ic-controls" role="toolbar" aria-label="細胞控制">
+          <div class="row">
+            <button id="ic-labels">標籤</button>
+            <button id="ic-rotate">旋轉</button>
+            <button id="ic-cut">剖面</button>
+            <span class="cut"><input type="range" id="ic-cutrange" min="-4" max="10" step="0.1" value="1.5" disabled aria-label="剖面位置"></span>
+            <span class="hint">拖曳＝旋轉 · 滾輪＝縮放 · 右鍵＝平移 · ←／→＝導覽步驟</span>
+          </div>
+        </div>
+      </div>
+      <div class="ic-side">
+        <div class="ic-card">
+          <h2 id="ic-steptitle"></h2>
+          <p class="ic-stepcount" id="ic-stepcount"></p>
+          <p class="ic-org-meta" id="ic-stepmeta"></p>
+          <p class="ic-stepbody" id="ic-stepbody"></p>
+          <p class="ic-legend" id="ic-legend"></p>
+          <p class="ic-vault" id="ic-vault"></p>
+          <div class="ic-nav" id="ic-nav">
+            <button id="ic-prev">← 上一步</button>
+            <button id="ic-play" class="primary">▶ 自動播放</button>
+            <button id="ic-next">下一步 →</button>
+          </div>
+        </div>
+        <div class="ic-card">
+          <h2>胞器</h2>
+          <div class="ic-org-list" id="ic-orglist"></div>
+          <p class="ic-stepbody" style="font-size:12px">分子、核糖體與膜蛋白為顯示而放大——真實尺寸見下方比例表。</p>
+        </div>
+      </div>
+    </div>
+    <footer class="ic-scale">
+      <p><b>比例尺讀法。</b>細胞直徑 20 µm，右下角比例尺是即時的——每幀依相機距離重算。
+      粒線體、內質網管、高爾基體、溶酶體、中心粒與微管皆為 1:1。
+      核糖體（直徑 25 nm）顯示放大 ×4，膜蛋白約 ×3，導覽分子為放大的圓點——真實比例下三者皆小於一個像素，這正是渲染將它們放大的原因。</p>
+      <table>
+        <tr><th>結構</th><th>真實尺寸</th><th>渲染</th></tr>
+        <tr><td>細胞</td><td>直徑約 20 µm</td><td>1:1</td></tr>
+        <tr><td>細胞核／核仁</td><td>直徑約 6 µm／約 2 µm</td><td>1:1</td></tr>
+        <tr><td>粒線體</td><td>直徑 0.5–1 µm × 長 1–4 µm</td><td>1:1</td></tr>
+        <tr><td>粗糙／平滑內質網</td><td>片層＋直徑約 50 nm 管</td><td>1:1（管徑 ×1.8 以利顯示）</td></tr>
+        <tr><td>高爾基體</td><td>約 1–2 µm 寬</td><td>1:1</td></tr>
+        <tr><td>溶酶體／過氧化物酶體</td><td>直徑 0.2–0.5／0.1–1 µm</td><td>1:1</td></tr>
+        <tr><td>中心粒／微管</td><td>直徑 0.25 × 長 0.5 µm／直徑 25 nm</td><td>1:1</td></tr>
+        <tr><td>核孔</td><td>直徑約 120 nm</td><td>約 ×1.5</td></tr>
+        <tr><td>核糖體</td><td>直徑約 25 nm</td><td>×4</td></tr>
+        <tr><td>膜蛋白／分子</td><td>約 5–10 nm／＜1 nm</td><td>放大圓點</td></tr>
+      </table>
+      <p>開發者：新過程以資料形式接入——在 <code>pages/cell/inside-the-cell.js</code> 的 <code>STR</code> 加步驟陣列，並在導覽註冊表加編舞即可。</p>
+    </footer>
+  </main>
+</div>
+<script>
+  T2.initNav(); T2.initTooltip(); T2.initLightbox(); T2.initNavScrollHint();
+</script>
+<script src="../themes/theme-02/pages-svg.js"></script>
+<script type="module">
+import { initCellPage } from '../cell/inside-the-cell.js';
+initCellPage({
+  lang: 'zh',
+  canvas: document.getElementById('ic-canvas'),
+  els: {
+    stage: document.getElementById('ic-stage'),
+    tabs: document.getElementById('ic-tours'),
+    flag: document.getElementById('ic-stepflag'),
+    stepTitle: document.getElementById('ic-steptitle'),
+    stepCount: document.getElementById('ic-stepcount'),
+    stepMeta: document.getElementById('ic-stepmeta'),
+    stepBody: document.getElementById('ic-stepbody'),
+    legend: document.getElementById('ic-legend'),
+    vault: document.getElementById('ic-vault'),
+    nav: document.getElementById('ic-nav'),
+    prev: document.getElementById('ic-prev'),
+    play: document.getElementById('ic-play'),
+    next: document.getElementById('ic-next'),
+    orgList: document.getElementById('ic-orglist'),
+    tglLabels: document.getElementById('ic-labels'),
+    tglRotate: document.getElementById('ic-rotate'),
+    tglCut: document.getElementById('ic-cut'),
+    cutRange: document.getElementById('ic-cutrange'),
+    scaleNum: document.getElementById('ic-scalenum'),
+    scaleFill: document.getElementById('ic-scalefill'),
+  },
+});
+</script>
+</body>
+</html>

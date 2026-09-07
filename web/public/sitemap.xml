@@ -378,4 +378,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html"/>
   </url>
 
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+  </url>
+
 </urlset>
