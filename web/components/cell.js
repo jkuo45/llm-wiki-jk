@@ -33,6 +33,26 @@ export const ORGANELLE_MAP = {
     color: 0x9C6BDE,
     match: ['tfeb', 'autophagy', 'mtor', 'apoptosis', 'bcl-2', 'ferroptosis', 'lysosom', 'mitophagy', 'p62', 'lc3'],
   },
+  er: {
+    label: 'Endoplasmic Reticulum',
+    color: 0x7FB3D5,
+    match: ['endoplasmic', 'reticulum', 'er stress', 'er-stress', 'unfolded protein response', 'eif2', 'xbp1', 'atf6'],
+  },
+  golgi: {
+    label: 'Golgi Apparatus',
+    color: 0xF2C14E,
+    match: ['golgi', 'cisterna'],
+  },
+  peroxisome: {
+    label: 'Peroxisome',
+    color: 0x52C39C,
+    match: ['peroxis'],
+  },
+  proteasome: {
+    label: 'Proteasome',
+    color: 0xC97B8A,
+    match: ['proteasom', 'ubiquitin'],
+  },
   membrane: {
     label: 'Membrane',
     color: 0x59A14F,
@@ -99,13 +119,29 @@ function computeRadius() {
 
 function anchorOffsets(R) {
   return {
-    nucleus: new THREE.Vector3(0, R * 0.28, 0),
-    mitochondria: new THREE.Vector3(R * 0.42, -R * 0.18, R * 0.2),
-    lysosome: new THREE.Vector3(-R * 0.42, -R * 0.22, -R * 0.15),
+    nucleus: new THREE.Vector3(0, R * 0.30, 0),
+    mitochondria: new THREE.Vector3(R * 0.44, -R * 0.16, R * 0.20),
+    lysosome: new THREE.Vector3(-R * 0.44, -R * 0.20, -R * 0.16),
+    er: new THREE.Vector3(-R * 0.02, -R * 0.44, R * 0.30),
+    golgi: new THREE.Vector3(R * 0.34, R * 0.30, -R * 0.36),
+    peroxisome: new THREE.Vector3(-R * 0.36, R * 0.36, R * 0.26),
+    proteasome: new THREE.Vector3(R * 0.12, -R * 0.02, -R * 0.44),
     membrane: null, // shell placement, per-node direction
     cytosol: new THREE.Vector3(0, 0, 0),
   };
 }
+
+// Rendered organelle bodies: relative radius + optional y-flattening
+// (ER/Golgi read as cisternae stacks when squashed).
+const ORGANELLE_BLOBS = [
+  { key: 'nucleus', r: 0.16, flat: 1 },
+  { key: 'mitochondria', r: 0.09, flat: 1 },
+  { key: 'lysosome', r: 0.07, flat: 1 },
+  { key: 'er', r: 0.12, flat: 0.45 },
+  { key: 'golgi', r: 0.075, flat: 0.5 },
+  { key: 'peroxisome', r: 0.05, flat: 1 },
+  { key: 'proteasome', r: 0.05, flat: 1 },
+];
 
 function targetFor(nodeData, anchors, R) {
   const org = organelleFor(nodeData);
@@ -155,20 +191,17 @@ function buildMembrane(center, R) {
 
   organelleGroup = new THREE.Group();
   const anchors = anchorOffsets(R);
-  const defs = [
-    { key: 'nucleus', r: R * 0.16 },
-    { key: 'mitochondria', r: R * 0.09 },
-    { key: 'lysosome', r: R * 0.07 },
-  ];
-  for (const d of defs) {
+  for (const d of ORGANELLE_BLOBS) {
     const org = ORGANELLE_MAP[d.key];
+    const rad = R * d.r;
     const m = new THREE.Mesh(
-      new THREE.IcosahedronGeometry(d.r, 1),
+      new THREE.IcosahedronGeometry(rad, 1),
       new THREE.MeshPhongMaterial({
         color: org.color, transparent: true, opacity: 0.22,
         emissive: org.color, emissiveIntensity: 0.12, depthWrite: false,
       }),
     );
+    if (d.flat !== 1) m.scale.set(1.25, d.flat, 1);
     m.position.copy(center).add(anchors[d.key]);
     m.userData.organelle = d.key;
     organelleGroup.add(m);
@@ -177,7 +210,7 @@ function buildMembrane(center, R) {
     div.textContent = org.label;
     const lab = new CSS2DObject(div);
     lab.position.copy(m.position);
-    lab.position.y += d.r + 4;
+    lab.position.y += rad * (d.flat !== 1 ? d.flat : 1) + 4;
     organelleGroup.add(lab);
   }
   scene.add(organelleGroup);
@@ -371,12 +404,25 @@ export function enterCellMode(opts = {}) {
   }
   buildMembrane(center, radius);
   // Reposition organelle blobs around the centroid (buildMembrane used local
-  // offsets; shift the group children into place).
+  // offsets; shift the group children into place, matched by organelle key).
   if (organelleGroup) {
-    const want = [anchors.nucleus, anchors.mitochondria, anchors.lysosome];
-    let wi = 0;
+    const byKey = new Map();
     organelleGroup.children.forEach((c) => {
-      if (c.isMesh && wi < want.length) { c.position.copy(want[wi]); wi++; }
+      if (c.isMesh && c.userData.organelle) byKey.set(c.userData.organelle, c);
+    });
+    for (const d of ORGANELLE_BLOBS) {
+      const mesh = byKey.get(d.key);
+      if (mesh && anchors[d.key]) mesh.position.copy(anchors[d.key]);
+    }
+    // Labels are siblings of the meshes — re-pin them above their blob.
+    organelleGroup.children.forEach((c) => {
+      if (c.isMesh || !c.element) return;
+      const text = c.element.textContent;
+      const def = ORGANELLE_BLOBS.find((b) => ORGANELLE_MAP[b.key].label === text);
+      if (def && anchors[def.key]) {
+        c.position.copy(anchors[def.key]);
+        c.position.y += R * def.r * (def.flat !== 1 ? def.flat : 1) + 4;
+      }
     });
   }
 
