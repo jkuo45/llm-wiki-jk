@@ -1,0 +1,17 @@
+{
+  "generated": "2026-09-07T15:54:36Z",
+  "datasets": {
+    "triples": {
+      "nodes": 3427,
+      "edges": 6412
+    },
+    "wiki": {
+      "nodes": 3079,
+      "edges": 36492
+    },
+    "combined": {
+      "nodes": 4436,
+      "edges": 39386
+    }
+  }
+}

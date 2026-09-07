@@ -7,6 +7,7 @@ import * as THREE from 'three';
 import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
   descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
+  BUILD_INFO,
 } from './data.js';
 import { state, persistSettings, resetSettings } from './state.js';
 import {
@@ -59,6 +60,30 @@ export function setupDatasetSlider() {
   const index = DATASET_ORDER.indexOf(DATASET_MODE);
   input.value = index >= 0 ? index : 2;
   if (output) output.textContent = DATASET_NAME[DATASET_MODE] || 'Combined';
+
+  // Overwrite the hardcoded tick counts with the rebuild-generated
+  // datasets.json (per-dataset node/edge counts). Lenient: any failure keeps
+  // the index.html fallback values.
+  try {
+    const tag = (typeof BUILD_INFO !== 'undefined' && BUILD_INFO.hash) || Date.now();
+    fetch(`${import.meta.env.BASE_URL}data/datasets.json?v=${tag}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const sets = d && d.datasets;
+        if (!sets) return;
+        const ticks = document.querySelectorAll('#dataset-source-row .slider-tick');
+        DATASET_ORDER.forEach((mode, i) => {
+          const info = sets[mode];
+          const tick = ticks[i];
+          if (!info || !tick) return;
+          const nEl = tick.querySelector('.tick-nodes');
+          const eEl = tick.querySelector('.tick-edges');
+          if (nEl && Number.isFinite(info.nodes)) nEl.textContent = `${info.nodes.toLocaleString('en-US')} nodes`;
+          if (eEl && Number.isFinite(info.edges)) eEl.textContent = `${info.edges.toLocaleString('en-US')} edges`;
+        });
+      })
+      .catch(() => {});
+  } catch (e) { /* keep fallbacks */ }
 
   const commit = () => {
     const i = Math.max(0, Math.min(2, parseInt(input.value, 10) || 2));

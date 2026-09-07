@@ -435,6 +435,43 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
     )
 
 
+def write_datasets_file(web_data_dir: Path) -> None:
+    """Write web/public/data/datasets.json with per-dataset node/edge counts.
+
+    The view-mode slider in web/index.html shows node/edge counts per dataset
+    (triples / wiki / combined). Those counts were hand-maintained and went
+    stale after rebuilds; the app now fetches this tiny file at startup and
+    overwrites the hardcoded tick labels, so counts stay correct
+    automatically. Missing files yield null (app keeps its fallback)."""
+    web_data_dir = Path(web_data_dir)
+
+    def count(prefix: str) -> dict:
+        nodes_p = web_data_dir / f"{prefix}nodes.json"
+        edges_p = web_data_dir / f"{prefix}edges.json"
+        try:
+            nodes = len(json.loads(nodes_p.read_text(encoding="utf-8")))
+        except Exception:
+            nodes = None
+        try:
+            edges = len(json.loads(edges_p.read_text(encoding="utf-8")))
+        except Exception:
+            edges = None
+        return {"nodes": nodes, "edges": edges}
+
+    payload = {
+        "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "datasets": {
+            "triples": count("triples-"),
+            "wiki": count("wiki-"),
+            "combined": count(""),
+        },
+    }
+    (web_data_dir / "datasets.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Wrote web/public/data/datasets.json ({payload['datasets']})")
+
+
 def write_web_version(web_data_dir: Path) -> None:
     """Recompute web/public/data/version.json content hash over all data files.
 
@@ -444,6 +481,8 @@ def write_web_version(web_data_dir: Path) -> None:
     import hashlib
 
     web_data_dir = Path(web_data_dir)
+    # Datasets counts first, so the content hash below covers datasets.json.
+    write_datasets_file(web_data_dir)
     h = hashlib.sha256()
     files = sorted(p for p in web_data_dir.glob("*.json") if p.name != "version.json")
     for p in files:

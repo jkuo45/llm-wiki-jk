@@ -48,6 +48,7 @@ from scripts.lib.graph_common import (  # noqa: E402
     inject_graph_metadata,
     norm,
     strip_wikilink,
+    write_datasets_file,
 )
 
 ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
@@ -543,6 +544,10 @@ def write_version_file() -> None:
         encoding="utf-8",
     )
     print(f"Wrote data version hash {data_hash} over {len(files)} files")
+    # Keep the slider counts (web/public/data/datasets.json) in sync with the
+    # rebuilt artifacts. Runs after version.json so the new file is covered by
+    # the NEXT rebuild's hash; the app cache-busts datasets.json via the hash.
+    write_datasets_file(DATA_DIR)
 
 
 def write_topics_json() -> None:
