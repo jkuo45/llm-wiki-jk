@@ -62,7 +62,15 @@ export const ORGANELLE_MAP = {
   // Anything unmatched falls through to cytosol.
 };
 
+// Entity-level overrides: checked against the node's own label/id BEFORE
+// community matching. Catches mitochondrial enzymes that sit in phenotype
+// communities (e.g. SIRT4 inhibition of GDH lives in an insulin-secretion
+// community, but GDH is a mitochondrial matrix enzyme).
+const MITO_MARKERS = ['gdh', 'ucp2', 'glutamate dehydrogenase'];
+
 export function organelleFor(nodeData) {
+  const self = `${nodeData.label || ''} ${nodeData.id || ''}`.toLowerCase();
+  if (MITO_MARKERS.some((m) => self.includes(m))) return 'mitochondria';
   const name = String(nodeData.community_name || nodeData.label || '').toLowerCase();
   for (const [key, org] of Object.entries(ORGANELLE_MAP)) {
     if (key === 'membrane') continue; // membrane handled by caller preference below
