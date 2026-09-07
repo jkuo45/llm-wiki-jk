@@ -21,6 +21,7 @@ import {
   applyAccentToScene, getAccentHex,
 } from './core.js';
 import { selectNode, deselectNode, setUiHooks } from './interaction.js';
+import { enterCellMode, exitCellMode, isCellMode } from './cell.js';
 import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
@@ -984,9 +985,40 @@ const edgesToggle = enhanceToggle(document.getElementById('btn-edges'), {
   },
 });
 
+// Cytoplasm cell view toggle (cell.js owns the scene transition). The toggle
+// API is the source of truth for .active/aria-pressed; cell mode writes go
+// through setCellToggle so hash-restore and the `C` shortcut stay in sync.
+let cellToggle = null;
+function setCellToggle(on) {
+  if (cellToggle) cellToggle.set(on);
+}
+export function syncCellToggle() {
+  setCellToggle(isCellMode());
+}
+function wireCellToggle() {
+  const el = document.getElementById('btn-cell');
+  if (!el) return;
+  cellToggle = enhanceToggle(el, {
+    onChange: (on) => {
+      if (on && !isCellMode()) enterCellMode();
+      else if (!on && isCellMode()) exitCellMode();
+    },
+  });
+  cellToggle.set(isCellMode());
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'c' && e.key !== 'C') return;
+    const t = e.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    if (isCellMode()) exitCellMode();
+    else enterCellMode();
+    cellToggle.set(isCellMode());
+  });
+}
+
 // Initialize toggle states from the (persisted) settings.
 labelsToggle.set(state.showLabels);
 edgesToggle.set(edgeSegments.visible);
+wireCellToggle();
 
 // ------------------------------------------------------------
 // Settings — appearance / labels / filters controls (persisted)

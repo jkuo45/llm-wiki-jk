@@ -92,6 +92,13 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   line-height: 1.3;
 }
 .node-label .zh { color: var(--ink-3); font-size: calc(var(--node-label-size, 13px) * 0.846); }
+/* Organelle anchors (cell.js) — reuse node-label chips, dashed accent border. */
+.organelle-label {
+  border: 1px dashed color-mix(in srgb, var(--accent) 70%, transparent);
+  font-weight: 600;
+  pointer-events: none;
+  cursor: default;
+}
 .edge-label {
   color: #a0c4ff;
   font-size: 14px;

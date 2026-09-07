@@ -33,6 +33,9 @@ export function updateHash(pushState = true) {
     parts.push(`trace=${encodeURIComponent(state.activeTrace.id)}`);
     if (state.activeRouteIdx >= 0) parts.push(`route=${state.activeRouteIdx}`);
   }
+  if (state.settings.cellMode) {
+    parts.push('cell=1');
+  }
   if (state.selectedNode) {
     parts.push(`node=${encodeURIComponent(state.selectedNode)}`);
   }
