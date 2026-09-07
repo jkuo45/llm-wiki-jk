@@ -38,7 +38,6 @@
   --sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   --wrap: 1120px;
-  --nav-h: 58px;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --shadow: 0 1px 0 rgba(28, 25, 21, 0.05), 0 18px 40px rgba(28, 25, 21, 0.07);
@@ -53,7 +52,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--nav-h) + 16px);
+  scroll-padding-top: 52px; /* compact content-height nav (~36px) + 16px */
 }
 
 body {
@@ -119,7 +118,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 40;
-  height: var(--nav-h);
+  height: auto; /* compact content-height bar shared by all pages */
   background: color-mix(in srgb, var(--paper) 86%, white);
   backdrop-filter: saturate(1.2) blur(10px);
   border-bottom: 1px solid var(--rule);
@@ -277,7 +276,7 @@ main {
   .toc {
     display: block;
     position: sticky;
-    top: calc(var(--nav-h) + 20px);
+    top: 56px; /* compact nav (~36px) + 20px */
     font-family: var(--sans);
   }
 
