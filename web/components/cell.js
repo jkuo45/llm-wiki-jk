@@ -36,12 +36,12 @@ export const ORGANELLE_MAP = {
   er: {
     label: 'Endoplasmic Reticulum',
     color: 0x7FB3D5,
-    match: ['endoplasmic', 'reticulum', 'er stress', 'er-stress', 'unfolded protein response', 'eif2', 'xbp1', 'atf6'],
+    match: ['endoplasmic', 'reticulum', 'er stress', 'er-stress', 'unfolded protein response', 'eif2', 'xbp1', 'atf6', 'ca2+ release', 'calcium signaling', 'fatty acid', 'steatosis', 'fatty liver', 'phospholipid'],
   },
   golgi: {
     label: 'Golgi Apparatus',
     color: 0xF2C14E,
-    match: ['golgi', 'cisterna'],
+    match: ['golgi', 'cisterna', 'secretion'],
   },
   peroxisome: {
     label: 'Peroxisome',
