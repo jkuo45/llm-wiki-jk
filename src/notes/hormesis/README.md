@@ -26,8 +26,21 @@ See also: [[Hormesis Vocabulary Bridge]], [[Hormesis]], [[Mitohormesis]], [[Xeno
 
 ## Entities
 
-_(to be populated during Step 2–3 of the ingestion workflow)_
+| Entity | Source documents |
+|---|---|
+| [[Hormesis Vocabulary Bridge]] | all seven — synonym index |
+| [[Dietary Hormesis]] | dietary-hormesis, Brosimine B, redox-exercise |
+| [[Hormetin]] | dietary-hormesis, Brosimine B |
+| [[Trained Immunity]] | Kim DAMP-trained-immunity, Li review |
+| [[Preparation for Oxidative Stress]] | Oliveira POS, Li review |
+| [[Brosimine B]] | Fonseca Brosimine B |
+| [[Eustress]] | Mickky salt-eustress (abstract stub) |
+| [[Exercise Hormesis]] | Liu redox-exercise |
 
 ## Connections
 
-_(to be populated during ingestion)_
+- [[Hormesis Vocabulary Bridge]] ↔ [[Hormesis]] ↔ [[Hormetic Window]]: synonyms share one biphasic window.
+- [[Dietary Hormesis]] ↔ [[Hormetin]] ↔ [[Brosimine B]]: whole-food context, chemical units, quantified exemplar.
+- [[Trained Immunity]] ↔ [[Preparation for Oxidative Stress]] ↔ [[Exercise Hormesis]]: three preconditioning paradigms (immune memory, antioxidant memory, redox adaptation) sharing mTOR/AMPK and ROS logic.
+- [[Eustress]] ↔ [[Dietary Hormesis]]: plant eustress directly improves food nutritional value.
+- [[Brosimine B]] ↔ [[Preparation for Oxidative Stress]]: OGD-catalase rescue mirrors POS preconditioning.

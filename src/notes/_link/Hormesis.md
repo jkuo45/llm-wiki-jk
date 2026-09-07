@@ -104,6 +104,12 @@ List of documents that mention this entity
 
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - Frames the entire protocol as applied hormesis — acute pulsed stress followed by deep recovery, avoiding chronic destructive stress.
+  - [[_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3|Li hormesis in disease (2024)]]
+    - Bibliometric review: hotspots in oxidative stress and aging; NOAEL-delimited biphasic model; see [[Hormesis Vocabulary Bridge]].
+  - [[_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood|Dietary hormesis (2025)]]
+    - Defines [[Dietary Hormesis]] vs single-[[Hormetin]] effects; Nrf2/ARE, mitohormesis, epigenetic mechanisms.
+  - [[_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol|Brosimine B hormesis (2025)]]
+    - Quantified [[Brosimine B]] hormetic window: peak 10.2 uM, sigma 6.5 uM, R2 0.984.
 
 ## Connections
 - [[Incoherent Bivalent Motif]] — the minimal network structure that generates hormesis
