@@ -26,12 +26,12 @@ export const ORGANELLE_MAP = {
   mitochondria: {
     label: 'Mitochondria',
     color: 0xE8833A,
-    match: ['sirt3', 'sirt4', 'sirt5', 'mitochondria', 'mitophagy', 'ros', 'oxidative stress', 'nad+', 'atp', 'uqcr', 'complex i'],
+    match: ['sirt3', 'sirt4', 'sirt5', 'mitochondria', 'mitophagy', 'ros', 'oxidative stress', 'nad+', 'atp', 'uqcr', 'complex i', 'bcl-2', 'apoptosis', 'ferroptosis', 'mnsod', 'superoxide', 'reactive oxygen species'],
   },
   lysosome: {
     label: 'Lysosome / Autophagy',
     color: 0x9C6BDE,
-    match: ['tfeb', 'autophagy', 'mtor', 'apoptosis', 'bcl-2', 'ferroptosis', 'lysosom', 'mitophagy', 'p62', 'lc3'],
+    match: ['tfeb', 'autophagy', 'mtor', 'lysosom', 'mitophagy', 'p62', 'lc3'],
   },
   er: {
     label: 'Endoplasmic Reticulum',
@@ -68,10 +68,22 @@ export const ORGANELLE_MAP = {
 // community, but GDH is a mitochondrial matrix enzyme).
 const MITO_MARKERS = ['gdh', 'ucp2', 'glutamate dehydrogenase'];
 
+// Community-level overrides: checked before the substring tables. Fixes cases
+// where a substring match misleads — 'ros' inside 'fibROSis'/'tyROSinase',
+// or 'aging' inside 'inflammaging' (systemic inflammation, not nuclear).
+const COMMUNITY_OVERRIDES = [
+  ['tyrosinase', 'cytosol'], // melanosome enzyme, not mitochondrial
+  ['fibrosis', 'cytosol'], // ECM remodeling, not mitochondrial
+  ['inflammaging', 'membrane'], // systemic inflammation, not nuclear
+];
+
 export function organelleFor(nodeData) {
   const self = `${nodeData.label || ''} ${nodeData.id || ''}`.toLowerCase();
   if (MITO_MARKERS.some((m) => self.includes(m))) return 'mitochondria';
   const name = String(nodeData.community_name || nodeData.label || '').toLowerCase();
+  for (const [substr, organelle] of COMMUNITY_OVERRIDES) {
+    if (name.includes(substr)) return organelle;
+  }
   for (const [key, org] of Object.entries(ORGANELLE_MAP)) {
     if (key === 'membrane') continue; // membrane handled by caller preference below
     if (org.match.some((m) => name.includes(m))) return key;
@@ -167,7 +179,10 @@ function targetFor(nodeData, anchors, R) {
     );
   }
   const a = anchors[org] || anchors.cytosol;
-  const spread = org === 'cytosol' ? R * 0.55 : 26 + Math.min(60, (nodeData.degree || 0) * 2.5);
+  // Hubs pin near their anchor; low-degree nodes spread wider. (The old
+  // formula grew spread with degree, letting SIRT1/SIRT3 hubs wander into
+  // neighboring organelles.)
+  const spread = org === 'cytosol' ? R * 0.55 : 14 + 60 / Math.sqrt((nodeData.degree || 0) + 1);
   // Deterministic jitter from id hash so enter/exit is stable across toggles.
   let h = 7;
   for (let i = 0; i < nodeData.id.length; i++) h = (h * 33 + nodeData.id.charCodeAt(i)) >>> 0;
