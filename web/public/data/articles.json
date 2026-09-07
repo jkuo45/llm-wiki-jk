@@ -5,13 +5,13 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
-                "path": "pages/en-US/sirtuins_pleiotropic_roles.html",
+                "path": "pages/en-US/sirtuins-pleiotropic-roles.html",
                 "created": "2026-08-13",
                 "updated": "2026-08-15"
             },
             "zh-TW": {
                 "title": "腫瘤細胞代謝中的多效性",
-                "path": "pages/zh-TW/sirtuins_pleiotropic_roles.html",
+                "path": "pages/zh-TW/sirtuins-pleiotropic-roles.html",
                 "created": "2026-08-14",
                 "updated": "2026-08-16"
             }

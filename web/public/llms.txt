@@ -37,7 +37,7 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 
 ## Articles (English)
 
-- [Sirtuins - Pleiotropy in Tumor Cell Metabolism](https://graph.johnnykuo.com/pages/en-US/sirtuins_pleiotropic_roles.html): The seven mammalian sirtuins as compartmentalized, context-dependent metabolic rheostats in tumor cell metabolism and therapeutic targeting.
+- [Sirtuins - Pleiotropy in Tumor Cell Metabolism](https://graph.johnnykuo.com/pages/en-US/sirtuins-pleiotropic-roles.html): The seven mammalian sirtuins as compartmentalized, context-dependent metabolic rheostats in tumor cell metabolism and therapeutic targeting.
 - [Sirtuins - Disease Complications](https://graph.johnnykuo.com/pages/en-US/sirtuins_disease_complications.html): Sirtuins (SIRT1–SIRT7) in health and disease, examined complication by complication across cancer, metabolic, cardiovascular, and neurodegenerative contexts.
 - [[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)](https://graph.johnnykuo.com/pages/en-US/ivermectin-fenbendazole-anticancer.html): Complementary anticancer mechanisms of ivermectin and fenbendazole and their connections to sirtuin biology (preclinical evidence).
 - [[Speculative] Adrenochrome MB/AG Protocol](https://graph.johnnykuo.com/pages/en-US/adrenochrome-protocol.html): Interactive explorer of a speculative adrenochrome methylene-blue / ascorbate-glutathione protocol — clearly labeled as speculative, not medical advice.
@@ -57,7 +57,7 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 
 ## Articles (Traditional Chinese / 中文)
 
-- [腫瘤細胞代謝中的多效性](https://graph.johnnykuo.com/pages/zh-TW/sirtuins_pleiotropic_roles.html): 腫瘤代謝與治療中的 SIRT 多效性角色。
+- [腫瘤細胞代謝中的多效性](https://graph.johnnykuo.com/pages/zh-TW/sirtuins-pleiotropic-roles.html): 腫瘤代謝與治療中的 SIRT 多效性角色。
 - [疾病併發症](https://graph.johnnykuo.com/pages/zh-TW/sirtuins_disease_complications.html): 健康與疾病中的 SIRT，逐併發症檢視。
 - [伊維菌素 × 芬苯達唑（互補抗癌機制）](https://graph.johnnykuo.com/pages/zh-TW/ivermectin-fenbendazole-anticancer.html): 互補的抗癌機制與 Sirtuin 連結（臨床前證據）。
 - [腎上腺色素 亞甲藍/銀 方案（推測性）](https://graph.johnnykuo.com/pages/zh-TW/adrenochrome-protocol.html): 互動式解說器 — 推測性方案，非醫療建議。
