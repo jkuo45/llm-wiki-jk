@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-04T11:41:38Z",
+  "generated_at": "2026-09-06T20:23:45Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 3403,
-    "wiki_nodes": 3067,
-    "shared_nodes": 2046,
-    "wiki_only_nodes": 1021,
+    "triples_nodes": 3427,
+    "wiki_nodes": 3079,
+    "shared_nodes": 2070,
+    "wiki_only_nodes": 1009,
     "triples_only_nodes": 1357,
-    "triples_edges": 6356,
-    "wiki_edges": 36348,
-    "triples_edge_pairs": 6054,
-    "wiki_edge_pairs": 36348,
-    "wiki_only_edges": 33168,
-    "triples_only_edges": 2874
+    "triples_edges": 6412,
+    "wiki_edges": 36492,
+    "triples_edge_pairs": 6104,
+    "wiki_edge_pairs": 36492,
+    "wiki_only_edges": 33282,
+    "triples_only_edges": 2894
   },
   "top_wiki_only_nodes": [
     {
@@ -42,13 +42,13 @@
       "degree": 64
     },
     {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
       "degree": 57
     },
     {
@@ -77,19 +77,24 @@
       "degree": 50
     },
     {
-      "id": "cardiomyocyte_toxicity",
-      "label": "Cardiomyocyte Toxicity",
+      "id": "immunity",
+      "label": "Immunity",
       "degree": 49
     },
     {
-      "id": "immunity",
-      "label": "Immunity",
+      "id": "cardiomyocyte_toxicity",
+      "label": "Cardiomyocyte Toxicity",
       "degree": 49
     },
     {
       "id": "fat_oxidation",
       "label": "Fat Oxidation",
       "degree": 46
+    },
+    {
+      "id": "insulin",
+      "label": "Insulin",
+      "degree": 44
     },
     {
       "id": "retrograde_response",
@@ -102,18 +107,13 @@
       "degree": 44
     },
     {
-      "id": "insulin",
-      "label": "Insulin",
-      "degree": 44
-    },
-    {
       "id": "mitochondrial_outer_membrane_permeabilization",
       "label": "Mitochondrial outer membrane permeabilization",
       "degree": 42
     },
     {
-      "id": "mitochondrial_dysfunction_associated_senescence",
-      "label": "Mitochondrial Dysfunction-Associated Senescence",
+      "id": "hypertension",
+      "label": "Hypertension",
       "degree": 39
     }
   ],
@@ -127,16 +127,6 @@
       "id": "females",
       "label": "Females",
       "degree": 9
-    },
-    {
-      "id": "brosimine_b",
-      "label": "Brosimine B",
-      "degree": 8
-    },
-    {
-      "id": "preparation_for_oxidative_stress",
-      "label": "Preparation for Oxidative Stress",
-      "degree": 6
     },
     {
       "id": "nf_kb",
@@ -154,33 +144,8 @@
       "degree": 5
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
-      "degree": 4
-    },
-    {
-      "id": "slow_comt",
-      "label": "slow COMT",
-      "degree": 4
-    },
-    {
       "id": "mice",
       "label": "Mice",
-      "degree": 4
-    },
-    {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
-      "degree": 4
-    },
-    {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "dna_polymerase",
-      "label": "DNA Polymerase",
       "degree": 4
     },
     {
@@ -189,8 +154,18 @@
       "degree": 4
     },
     {
+      "id": "slow_comt",
+      "label": "slow COMT",
+      "degree": 4
+    },
+    {
       "id": "biphasic_dose_response",
       "label": "Biphasic Dose Response",
+      "degree": 4
+    },
+    {
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
@@ -199,23 +174,48 @@
       "degree": 4
     },
     {
+      "id": "dna_polymerase",
+      "label": "DNA Polymerase",
+      "degree": 4
+    },
+    {
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "sirt6_overexpression",
+      "label": "SIRT6 overexpression",
+      "degree": 3
+    },
+    {
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
+      "degree": 3
+    },
+    {
+      "id": "reactive_species",
+      "label": "Reactive Species",
+      "degree": 3
+    },
+    {
       "id": "alkylating_agent",
       "label": "Alkylating agent",
       "degree": 3
     },
     {
-      "id": "h4k16",
-      "label": "H4K16",
+      "id": "antioxidant_properties",
+      "label": "Antioxidant Properties",
       "degree": 3
     },
     {
-      "id": "securin",
-      "label": "Securin",
-      "degree": 3
-    },
-    {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
       "degree": 3
     }
   ],

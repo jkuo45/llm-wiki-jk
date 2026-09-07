@@ -33,7 +33,7 @@ The pathophysiologic cascade converges on [[Oxidative Stress]] and [[Lipid Perox
 4. **Membrane damage** — Peroxidized membranes lose ion selectivity, causing [[Calcium Overload|calcium overload]], impaired [[SERCA2a]] function, and contractile dysfunction.
 5. **Amplification** — [[Adrenochrome]] redox-cycles with [[NADPH]] and depletes [[Glutathione]], impairing membrane repair and sustaining [[Lipid Peroxidation]].
 
-This mechanism is documented in `notes/adrenochrome/Peroxidation.md` and `notes/oxidative_stress/Lipid Peroxidation.md` (see the Connection to Catecholamine-Induced Oxidative Damage section). The catalytic nature of adrenochrome redox cycling amplifies damage beyond what stoichiometric catecholamine oxidation would produce.
+This mechanism is documented in `notes/adrenochrome/Peroxidation.md` and `notes/oxidative-stress/Lipid Peroxidation.md` (see the Connection to Catecholamine-Induced Oxidative Damage section). The catalytic nature of adrenochrome redox cycling amplifies damage beyond what stoichiometric catecholamine oxidation would produce.
 
 ## Clinical Presentation & Diagnosis
 

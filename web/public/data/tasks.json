@@ -1,5 +1,5 @@
 {
-  "generated": "05_SEP_2026 08:37 AM PDT",
+  "generated": "06_SEP_2026 08:24 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,6 +25,43 @@
       }
     },
     {
+      "id": "task:task_output_arh3_par_aif_06_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "ARH3 and PAR-induced AIF release — research synthesis",
+          "description": "ARH3 PARG-like activity plus PAR to AIF release mechanisms (direct binding vs calpain vs BAX vs mPTP).",
+          "created": "2026-09-06",
+          "updated": "2026-09-06",
+          "tags": [
+            "arh3",
+            "parg",
+            "par",
+            "aif",
+            "parthanatos",
+            "adp-ribosylation"
+          ],
+          "filename": "task_output_arh3_par_aif_06_SEP_2026.md",
+          "path": "tasks/en-US/task_output_arh3_par_aif_06_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_sex_dimorphic_cell_death_05_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
+          "description": "",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [],
+          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026",
       "kind": "task",
       "langs": {
@@ -45,6 +82,48 @@
           ],
           "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
           "path": "tasks/en-US/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Comparison — Apoptosis, Parthanatos, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis",
+          "description": "Seven-way compare table of major cell death programs synthesized from wiki notes with general-knowledge supplements.",
+          "created": "2026-09-03",
+          "updated": "2026-09-05",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡比較 — 細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡",
+          "description": "七種主要細胞死亡程式的對照表，綜整自 wiki 筆記並輔以一般知識補充。",
+          "created": "2026-09-03",
+          "updated": "2026-09-05",
+          "tags": [
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "ferroptosis",
+            "autophagy",
+            "pyroptosis",
+            "parthanatos",
+            "cell-death"
+          ],
+          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         }
       }
     },
@@ -91,48 +170,6 @@
           ],
           "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
           "path": "tasks/zh-TW/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Cell Death Comparison — Apoptosis, Parthanatos, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis",
-          "description": "Seven-way compare table of major cell death programs synthesized from wiki notes with general-knowledge supplements.",
-          "created": "2026-09-03",
-          "updated": "2026-09-05",
-          "tags": [
-            "apoptosis",
-            "necrosis",
-            "necroptosis",
-            "ferroptosis",
-            "autophagy",
-            "pyroptosis",
-            "parthanatos",
-            "cell-death"
-          ],
-          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
-          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
-        },
-        "zh-TW": {
-          "title": "細胞死亡比較 — 細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡",
-          "description": "七種主要細胞死亡程式的對照表，綜整自 wiki 筆記並輔以一般知識補充。",
-          "created": "2026-09-03",
-          "updated": "2026-09-05",
-          "tags": [
-            "apoptosis",
-            "necrosis",
-            "necroptosis",
-            "ferroptosis",
-            "autophagy",
-            "pyroptosis",
-            "parthanatos",
-            "cell-death"
-          ],
-          "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         }
       }
     },

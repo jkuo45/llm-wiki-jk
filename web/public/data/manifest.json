@@ -29,7 +29,7 @@
     "ast_hash": "f9731a1191fce48515ee64ef95384385",
     "semantic_hash": "f9731a1191fce48515ee64ef95384385"
   },
-  "notes/oxidative_stress/_triples.json": {
+  "notes/oxidative-stress/_triples.json": {
     "mtime": 1784699265.7957094,
     "ast_hash": "0953cc00c58090d050c6922d0b8d069a",
     "semantic_hash": "0953cc00c58090d050c6922d0b8d069a"
@@ -12259,332 +12259,332 @@
     "ast_hash": "5b02d0ce876aa2ef7dbdaa3b763c6bde",
     "semantic_hash": "5b02d0ce876aa2ef7dbdaa3b763c6bde"
   },
-  "notes/oxidative_stress/3-Nitrotyrosine.md": {
+  "notes/oxidative-stress/3-Nitrotyrosine.md": {
     "mtime": 1784699265.777071,
     "ast_hash": "b65085037227eb9dbcfeb4f761b33b7b",
     "semantic_hash": "b65085037227eb9dbcfeb4f761b33b7b"
   },
-  "notes/oxidative_stress/4-Hydroxynonenal.md": {
+  "notes/oxidative-stress/4-Hydroxynonenal.md": {
     "mtime": 1784699265.7774034,
     "ast_hash": "102743e7e17645380d6e4edb24301774",
     "semantic_hash": "102743e7e17645380d6e4edb24301774"
   },
-  "notes/oxidative_stress/7-Ketocholesterol.md": {
+  "notes/oxidative-stress/7-Ketocholesterol.md": {
     "mtime": 1784699265.7775528,
     "ast_hash": "94466288ef97a8f6970ff7045354b194",
     "semantic_hash": "94466288ef97a8f6970ff7045354b194"
   },
-  "notes/oxidative_stress/8-oxo-2'-deoxyguanosine.md": {
+  "notes/oxidative-stress/8-oxo-2'-deoxyguanosine.md": {
     "mtime": 1784699265.7782893,
     "ast_hash": "9ca62b1524c066c525963c603c9cf1b8",
     "semantic_hash": "9ca62b1524c066c525963c603c9cf1b8"
   },
-  "notes/oxidative_stress/A20.md": {
+  "notes/oxidative-stress/A20.md": {
     "mtime": 1784699265.7784019,
     "ast_hash": "31b69a1aef5a3f963046548a47b95d2f",
     "semantic_hash": "31b69a1aef5a3f963046548a47b95d2f"
   },
-  "notes/oxidative_stress/ABCA1.md": {
+  "notes/oxidative-stress/ABCA1.md": {
     "mtime": 1784699265.7784946,
     "ast_hash": "24a6dee986be14fffa0b977a2fd4ee91",
     "semantic_hash": "24a6dee986be14fffa0b977a2fd4ee91"
   },
-  "notes/oxidative_stress/ADMA.md": {
+  "notes/oxidative-stress/ADMA.md": {
     "mtime": 1784699265.7801645,
     "ast_hash": "32845fde6e56a2743408328d1199e9cc",
     "semantic_hash": "32845fde6e56a2743408328d1199e9cc"
   },
-  "notes/oxidative_stress/Aconitase.md": {
+  "notes/oxidative-stress/Aconitase.md": {
     "mtime": 1784699265.7802868,
     "ast_hash": "288d7496cdf7d1365f23e8e28870731b",
     "semantic_hash": "288d7496cdf7d1365f23e8e28870731b"
   },
-  "notes/oxidative_stress/Allopurinol.md": {
+  "notes/oxidative-stress/Allopurinol.md": {
     "mtime": 1784699265.780389,
     "ast_hash": "c1321a6a5b10ca296cc9823d9e25e550",
     "semantic_hash": "c1321a6a5b10ca296cc9823d9e25e550"
   },
-  "notes/oxidative_stress/Alpha-Lipoic Acid.md": {
+  "notes/oxidative-stress/Alpha-Lipoic Acid.md": {
     "mtime": 1784699265.7805402,
     "ast_hash": "0fc979f2319649dcfc75bba80a5f2c28",
     "semantic_hash": "0fc979f2319649dcfc75bba80a5f2c28"
   },
-  "notes/oxidative_stress/Amyloid-beta.md": {
+  "notes/oxidative-stress/Amyloid-beta.md": {
     "mtime": 1784699265.7806423,
     "ast_hash": "16f7d7df842d87dd149644edd2d3611b",
     "semantic_hash": "16f7d7df842d87dd149644edd2d3611b"
   },
-  "notes/oxidative_stress/Arginase.md": {
+  "notes/oxidative-stress/Arginase.md": {
     "mtime": 1784699265.780745,
     "ast_hash": "10dcdf28a039126f0a65e641439d2927",
     "semantic_hash": "10dcdf28a039126f0a65e641439d2927"
   },
-  "notes/oxidative_stress/Asthma.md": {
+  "notes/oxidative-stress/Asthma.md": {
     "mtime": 1784699265.7808847,
     "ast_hash": "1190e05955327254311c0ea867787638",
     "semantic_hash": "1190e05955327254311c0ea867787638"
   },
-  "notes/oxidative_stress/CD36 Receptor.md": {
+  "notes/oxidative-stress/CD36 Receptor.md": {
     "mtime": 1784699265.78137,
     "ast_hash": "2cfbb21a473588c3f01b20d16d7eb302",
     "semantic_hash": "2cfbb21a473588c3f01b20d16d7eb302"
   },
-  "notes/oxidative_stress/Cholesterol.md": {
+  "notes/oxidative-stress/Cholesterol.md": {
     "mtime": 1784699265.7844675,
     "ast_hash": "c1881958e992254371d74ce701d00ca9",
     "semantic_hash": "c1881958e992254371d74ce701d00ca9"
   },
-  "notes/oxidative_stress/Chronic Granulomatous Disease.md": {
+  "notes/oxidative-stress/Chronic Granulomatous Disease.md": {
     "mtime": 1784699265.784589,
     "ast_hash": "9b526b3b06eacea93c6e174522cbc924",
     "semantic_hash": "9b526b3b06eacea93c6e174522cbc924"
   },
-  "notes/oxidative_stress/Chronic Obstructive Pulmonary Disease.md": {
+  "notes/oxidative-stress/Chronic Obstructive Pulmonary Disease.md": {
     "mtime": 1784699265.7847993,
     "ast_hash": "2323d2f71532cc9fd9597aebf4b50209",
     "semantic_hash": "2323d2f71532cc9fd9597aebf4b50209"
   },
-  "notes/oxidative_stress/Coenzyme Q10.md": {
+  "notes/oxidative-stress/Coenzyme Q10.md": {
     "mtime": 1784699265.7849529,
     "ast_hash": "ad16783e6c3d4e994e5bc0eefcf87df7",
     "semantic_hash": "ad16783e6c3d4e994e5bc0eefcf87df7"
   },
-  "notes/oxidative_stress/F2-Isoprostanes.md": {
+  "notes/oxidative-stress/F2-Isoprostanes.md": {
     "mtime": 1784699265.7851312,
     "ast_hash": "716fceba5e8c4499a40d82c2f3d9c2af",
     "semantic_hash": "716fceba5e8c4499a40d82c2f3d9c2af"
   },
-  "notes/oxidative_stress/Ferritin.md": {
+  "notes/oxidative-stress/Ferritin.md": {
     "mtime": 1784699265.7853088,
     "ast_hash": "43b1b681b5b9e12d1a954cdf0d940758",
     "semantic_hash": "43b1b681b5b9e12d1a954cdf0d940758"
   },
-  "notes/oxidative_stress/Free Radicals.md": {
+  "notes/oxidative-stress/Free Radicals.md": {
     "mtime": 1784699265.7878518,
     "ast_hash": "c474cadf7ac51dc0f8e225178a232580",
     "semantic_hash": "c474cadf7ac51dc0f8e225178a232580"
   },
-  "notes/oxidative_stress/Genistein.md": {
+  "notes/oxidative-stress/Genistein.md": {
     "mtime": 1784699265.7881021,
     "ast_hash": "58643a31bc021da4ae63cfa4982a174e",
     "semantic_hash": "58643a31bc021da4ae63cfa4982a174e"
   },
-  "notes/oxidative_stress/Hydroxyl Radicals.md": {
+  "notes/oxidative-stress/Hydroxyl Radicals.md": {
     "mtime": 1784699265.788408,
     "ast_hash": "cfddd22c57738e0f1175081e6d48d725",
     "semantic_hash": "cfddd22c57738e0f1175081e6d48d725"
   },
-  "notes/oxidative_stress/Hypochlorous Acid.md": {
+  "notes/oxidative-stress/Hypochlorous Acid.md": {
     "mtime": 1784699265.7885368,
     "ast_hash": "6704060694c1a6abc7faccfc3e8bd36b",
     "semantic_hash": "6704060694c1a6abc7faccfc3e8bd36b"
   },
-  "notes/oxidative_stress/Hypoxia-reoxygenation.md": {
+  "notes/oxidative-stress/Hypoxia-reoxygenation.md": {
     "mtime": 1784699265.7886388,
     "ast_hash": "4677d6f3df8259848dce3b02fac968b4",
     "semantic_hash": "4677d6f3df8259848dce3b02fac968b4"
   },
-  "notes/oxidative_stress/Immunity.md": {
+  "notes/oxidative-stress/Immunity.md": {
     "mtime": 1784699265.7888255,
     "ast_hash": "c340adcada5d1a6de0787c284efb2e04",
     "semantic_hash": "c340adcada5d1a6de0787c284efb2e04"
   },
-  "notes/oxidative_stress/Ionizing Radiation.md": {
+  "notes/oxidative-stress/Ionizing Radiation.md": {
     "mtime": 1784699265.7889931,
     "ast_hash": "5eea92ed8b43c7203e63ca19bb26518f",
     "semantic_hash": "5eea92ed8b43c7203e63ca19bb26518f"
   },
-  "notes/oxidative_stress/L-arginine.md": {
+  "notes/oxidative-stress/L-arginine.md": {
     "mtime": 1784699265.7891467,
     "ast_hash": "586d85bd584598097a4369b85d1eca7f",
     "semantic_hash": "586d85bd584598097a4369b85d1eca7f"
   },
-  "notes/oxidative_stress/LXR\u03b1.md": {
+  "notes/oxidative-stress/LXR\u03b1.md": {
     "mtime": 1784699265.7893863,
     "ast_hash": "8f8cf940dec4e53766fb4d7012d35ce1",
     "semantic_hash": "8f8cf940dec4e53766fb4d7012d35ce1"
   },
-  "notes/oxidative_stress/Lipid Peroxidation.md": {
+  "notes/oxidative-stress/Lipid Peroxidation.md": {
     "mtime": 1784699265.7897012,
     "ast_hash": "b960aa7a5c760092cdcaf64a3f6a2c4f",
     "semantic_hash": "b960aa7a5c760092cdcaf64a3f6a2c4f"
   },
-  "notes/oxidative_stress/Lipid hydroperoxide.md": {
+  "notes/oxidative-stress/Lipid hydroperoxide.md": {
     "mtime": 1784699265.7898638,
     "ast_hash": "a7c2964f3316d39e8f2c84b46f5dcd3f",
     "semantic_hash": "a7c2964f3316d39e8f2c84b46f5dcd3f"
   },
-  "notes/oxidative_stress/Lipid peroxyl radical.md": {
+  "notes/oxidative-stress/Lipid peroxyl radical.md": {
     "mtime": 1784699265.7900043,
     "ast_hash": "52eef42d14ffa7098443e59c3116b14a",
     "semantic_hash": "52eef42d14ffa7098443e59c3116b14a"
   },
-  "notes/oxidative_stress/Lipids.md": {
+  "notes/oxidative-stress/Lipids.md": {
     "mtime": 1784699265.790097,
     "ast_hash": "7d1891f0d6660efbfa6a0e42b092de74",
     "semantic_hash": "7d1891f0d6660efbfa6a0e42b092de74"
   },
-  "notes/oxidative_stress/MTH1.md": {
+  "notes/oxidative-stress/MTH1.md": {
     "mtime": 1784699265.7901995,
     "ast_hash": "4151625aae0aebbe2e6dfb21eeebe5a0",
     "semantic_hash": "4151625aae0aebbe2e6dfb21eeebe5a0"
   },
-  "notes/oxidative_stress/Malondialdehyde.md": {
+  "notes/oxidative-stress/Malondialdehyde.md": {
     "mtime": 1784699265.790368,
     "ast_hash": "dcd4015c3339d9b63e3a3a56da2a5eb4",
     "semantic_hash": "dcd4015c3339d9b63e3a3a56da2a5eb4"
   },
-  "notes/oxidative_stress/MitoQ.md": {
+  "notes/oxidative-stress/MitoQ.md": {
     "mtime": 1784699265.790472,
     "ast_hash": "22d5488b458dc25c5904fb82a57bf0ed",
     "semantic_hash": "22d5488b458dc25c5904fb82a57bf0ed"
   },
-  "notes/oxidative_stress/Multiple Sclerosis.md": {
+  "notes/oxidative-stress/Multiple Sclerosis.md": {
     "mtime": 1784699265.7906022,
     "ast_hash": "6ba90dfb05886a1684714a98fee442cc",
     "semantic_hash": "6ba90dfb05886a1684714a98fee442cc"
   },
-  "notes/oxidative_stress/NADPH Oxidase.md": {
+  "notes/oxidative-stress/NADPH Oxidase.md": {
     "mtime": 1784699265.7908018,
     "ast_hash": "f243993e48c50ceadc2da2dc64bb9c33",
     "semantic_hash": "f243993e48c50ceadc2da2dc64bb9c33"
   },
-  "notes/oxidative_stress/NF-kappa B.md": {
+  "notes/oxidative-stress/NF-kappa B.md": {
     "mtime": 1784699265.7909932,
     "ast_hash": "1892db67ad101732be44dce8620cfff1",
     "semantic_hash": "1892db67ad101732be44dce8620cfff1"
   },
-  "notes/oxidative_stress/NOX2.md": {
+  "notes/oxidative-stress/NOX2.md": {
     "mtime": 1784699265.7911465,
     "ast_hash": "48e72ca9e9b61b7d9b2f626ddb907ea2",
     "semantic_hash": "48e72ca9e9b61b7d9b2f626ddb907ea2"
   },
-  "notes/oxidative_stress/NOX4.md": {
+  "notes/oxidative-stress/NOX4.md": {
     "mtime": 1784699265.7912254,
     "ast_hash": "5f9e2ce22ab0b56cb05b35d515cfe0c4",
     "semantic_hash": "5f9e2ce22ab0b56cb05b35d515cfe0c4"
   },
-  "notes/oxidative_stress/Nitrative Stress.md": {
+  "notes/oxidative-stress/Nitrative Stress.md": {
     "mtime": 1784699265.7914,
     "ast_hash": "9b590b7d15e117c7c9df4518b83250c9",
     "semantic_hash": "9b590b7d15e117c7c9df4518b83250c9"
   },
-  "notes/oxidative_stress/Nitric Oxide Synthase.md": {
+  "notes/oxidative-stress/Nitric Oxide Synthase.md": {
     "mtime": 1784699265.7915618,
     "ast_hash": "f897f3fbafeb4855f291e7d5ca75b9c3",
     "semantic_hash": "f897f3fbafeb4855f291e7d5ca75b9c3"
   },
-  "notes/oxidative_stress/Nucleic Acids.md": {
+  "notes/oxidative-stress/Nucleic Acids.md": {
     "mtime": 1784699265.791669,
     "ast_hash": "80ddb0fee6e96b15784131d7570588cb",
     "semantic_hash": "80ddb0fee6e96b15784131d7570588cb"
   },
-  "notes/oxidative_stress/OGG1.md": {
+  "notes/oxidative-stress/OGG1.md": {
     "mtime": 1784699265.7917798,
     "ast_hash": "aa96a70ab3e88fc39b3e69ae26a9248c",
     "semantic_hash": "aa96a70ab3e88fc39b3e69ae26a9248c"
   },
-  "notes/oxidative_stress/Oligodendrocytes.md": {
+  "notes/oxidative-stress/Oligodendrocytes.md": {
     "mtime": 1784699265.791865,
     "ast_hash": "d6b82c0251bc0921714c33230dadaa0b",
     "semantic_hash": "d6b82c0251bc0921714c33230dadaa0b"
   },
-  "notes/oxidative_stress/Oxidative Stress.md": {
+  "notes/oxidative-stress/Oxidative Stress.md": {
     "mtime": 1784699265.792034,
     "ast_hash": "1b3f4c46aaaaf0b7f70ce0ffdad0ae48",
     "semantic_hash": "1b3f4c46aaaaf0b7f70ce0ffdad0ae48"
   },
-  "notes/oxidative_stress/Oxysterols.md": {
+  "notes/oxidative-stress/Oxysterols.md": {
     "mtime": 1784699265.7921522,
     "ast_hash": "ac47a7771a77831f94d5ed0baceabffc",
     "semantic_hash": "ac47a7771a77831f94d5ed0baceabffc"
   },
-  "notes/oxidative_stress/PON1.md": {
+  "notes/oxidative-stress/PON1.md": {
     "mtime": 1784699265.792226,
     "ast_hash": "c81207c89ad17846906ecbf14765cc9e",
     "semantic_hash": "c81207c89ad17846906ecbf14765cc9e"
   },
-  "notes/oxidative_stress/Peroxynitrite.md": {
+  "notes/oxidative-stress/Peroxynitrite.md": {
     "mtime": 1784699265.792393,
     "ast_hash": "d4ee9ea842de3950137272a195460e51",
     "semantic_hash": "d4ee9ea842de3950137272a195460e51"
   },
-  "notes/oxidative_stress/Phagocytes.md": {
+  "notes/oxidative-stress/Phagocytes.md": {
     "mtime": 1784699265.7924793,
     "ast_hash": "82335486417b6502ec371499bfa2856b",
     "semantic_hash": "82335486417b6502ec371499bfa2856b"
   },
-  "notes/oxidative_stress/Polyunsaturated fatty acids.md": {
+  "notes/oxidative-stress/Polyunsaturated fatty acids.md": {
     "mtime": 1784699265.7925668,
     "ast_hash": "d5e5d46520a748a0fc17711dedc4695f",
     "semantic_hash": "d5e5d46520a748a0fc17711dedc4695f"
   },
-  "notes/oxidative_stress/Protein Tyrosine Phosphatases.md": {
+  "notes/oxidative-stress/Protein Tyrosine Phosphatases.md": {
     "mtime": 1784699265.7926533,
     "ast_hash": "354f839c90c60c168f1d975589a45248",
     "semantic_hash": "354f839c90c60c168f1d975589a45248"
   },
-  "notes/oxidative_stress/Proteins.md": {
+  "notes/oxidative-stress/Proteins.md": {
     "mtime": 1784699265.7927432,
     "ast_hash": "f06160797ba9f6cdda6994b7fbee2fde",
     "semantic_hash": "f06160797ba9f6cdda6994b7fbee2fde"
   },
-  "notes/oxidative_stress/README.md": {
+  "notes/oxidative-stress/README.md": {
     "mtime": 1784699265.7929003,
     "ast_hash": "46d79dc4163c2f4a5e0303d116336079",
     "semantic_hash": "46d79dc4163c2f4a5e0303d116336079"
   },
-  "notes/oxidative_stress/Reactive Nitrogen Species.md": {
+  "notes/oxidative-stress/Reactive Nitrogen Species.md": {
     "mtime": 1784699265.7931914,
     "ast_hash": "e8b27ef3098dda47a4851e845956047a",
     "semantic_hash": "e8b27ef3098dda47a4851e845956047a"
   },
-  "notes/oxidative_stress/S-Nitrosylation.md": {
+  "notes/oxidative-stress/S-Nitrosylation.md": {
     "mtime": 1784699265.79337,
     "ast_hash": "0ddb718d430f0d690c20770742d3996e",
     "semantic_hash": "0ddb718d430f0d690c20770742d3996e"
   },
-  "notes/oxidative_stress/Signaling Molecules.md": {
+  "notes/oxidative-stress/Signaling Molecules.md": {
     "mtime": 1784699265.7935605,
     "ast_hash": "1f4f3ae2211d210b6f7515817fe44649",
     "semantic_hash": "1f4f3ae2211d210b6f7515817fe44649"
   },
-  "notes/oxidative_stress/Singlet Oxygen.md": {
+  "notes/oxidative-stress/Singlet Oxygen.md": {
     "mtime": 1784699265.793933,
     "ast_hash": "2dd5bf778c4eb7a9cadbd47e05720266",
     "semantic_hash": "2dd5bf778c4eb7a9cadbd47e05720266"
   },
-  "notes/oxidative_stress/Superoxide Radicals.md": {
+  "notes/oxidative-stress/Superoxide Radicals.md": {
     "mtime": 1784699265.79411,
     "ast_hash": "141090c26ef5e866045d07aea8faa254",
     "semantic_hash": "141090c26ef5e866045d07aea8faa254"
   },
-  "notes/oxidative_stress/TGF-beta.md": {
+  "notes/oxidative-stress/TGF-beta.md": {
     "mtime": 1784699265.794217,
     "ast_hash": "40ffd28c75b199130ef42f1c78db33e0",
     "semantic_hash": "40ffd28c75b199130ef42f1c78db33e0"
   },
-  "notes/oxidative_stress/TXNIP.md": {
+  "notes/oxidative-stress/TXNIP.md": {
     "mtime": 1784699265.794532,
     "ast_hash": "c670cec13dec8f82047aac5276b258d7",
     "semantic_hash": "c670cec13dec8f82047aac5276b258d7"
   },
-  "notes/oxidative_stress/UV-induced photoaging.md": {
+  "notes/oxidative-stress/UV-induced photoaging.md": {
     "mtime": 1784699265.7946646,
     "ast_hash": "5f6a59fd67167c9aee2d9ac103ad0ecb",
     "semantic_hash": "5f6a59fd67167c9aee2d9ac103ad0ecb"
   },
-  "notes/oxidative_stress/VCAM-1.md": {
+  "notes/oxidative-stress/VCAM-1.md": {
     "mtime": 1784699265.7948358,
     "ast_hash": "df18beeaeedaf026a0b9f6f4bc83055d",
     "semantic_hash": "df18beeaeedaf026a0b9f6f4bc83055d"
   },
-  "notes/oxidative_stress/Xanthine Oxidase.md": {
+  "notes/oxidative-stress/Xanthine Oxidase.md": {
     "mtime": 1784699265.7950616,
     "ast_hash": "da4cc9c9dbb2123db848d2ce33fc31b8",
     "semantic_hash": "da4cc9c9dbb2123db848d2ce33fc31b8"
   },
-  "notes/oxidative_stress/iNOS.md": {
+  "notes/oxidative-stress/iNOS.md": {
     "mtime": 1784699265.7958949,
     "ast_hash": "fd4aa95d4213342514c2d2bb7494842f",
     "semantic_hash": "fd4aa95d4213342514c2d2bb7494842f"
@@ -13874,7 +13874,7 @@
     "ast_hash": "4a7355a1172d4cded4b6b61589ae765b",
     "semantic_hash": "4a7355a1172d4cded4b6b61589ae765b"
   },
-  "notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md": {
+  "notes/oxidative-stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md": {
     "mtime": 1784699265.795501,
     "ast_hash": "c4fb84f18f2752b27993035d616b9636",
     "semantic_hash": "c4fb84f18f2752b27993035d616b9636"
