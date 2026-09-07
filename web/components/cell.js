@@ -1,6 +1,5 @@
-// cell.js — Phase 1 cytoplasm ("Cell") view shell.
-// Membrane sphere + organelle anchor blobs + community-biased layout.
-// No drift / pulse animation in Phase 1; that arrives in Phase 2.
+// cell.js — cytoplasm ("Cell") view: membrane + organelle anchors (Phase 1)
+// + Brownian drift, role-based glow/pulse, minimap cell handling (Phase 2).
 // Reads the active dataset (nodeObjects / nodeMeshes from core.js), so no
 // pipeline or data-file changes are needed.
 
@@ -10,7 +9,7 @@ import { nodeMap } from './data.js';
 import {
   scene, camera, nodeObjects, nodeMeshes, edgeList, setEdgeVisual,
   setAllLabelVisibility, setPhysics, animateCamera, requestRender,
-  edgeRestingStyle, edgePosAttr, labelObjects,
+  edgeRestingStyle, edgePosAttr, labelObjects, minimap,
 } from './core.js';
 import { state, persistSettings } from './state.js';
 import { subscribeTheme } from './theme.js';
@@ -61,6 +60,25 @@ let organelleGroup = null;
 let savedPositions = new Map();
 let savedEdgeAlpha = new Map();
 let cellRadius = 300;
+// Phase 2: drift + pulse state. driftBase holds the settled anchor position
+// per node; the tick adds a small sinusoidal offset around it. transitioning
+// is true during the enter/exit lerp so the tick doesn't fight the flight.
+let driftBase = new Map();
+let driftParams = new Map();
+let pulseMeshes = [];
+let rolesOwnScene = false;
+let transitioning = false;
+
+function reducedMotion() {
+  return state.settings.reduceMotion ||
+    (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+}
+
+// True when a trace/selection owns node+edge styling — cell mode must not
+// clobber it with role glow or the resting-edge dim.
+function highlightOwnsScene() {
+  return !!(state.activeTrace || state.selectedNode || state.selectedEdge);
+}
 
 function themeMembraneColor() {
   return state.theme === 'light' ? 0x0F766E : 0x4E79A7;
@@ -180,9 +198,7 @@ function disposeCellObjects() {
 }
 
 function lerpTo(targets, done) {
-  const reduceMotion = state.settings.reduceMotion ||
-    (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-  if (reduceMotion) {
+  if (reducedMotion()) {
     targets.forEach((p, id) => nodeObjects.get(id)?.position.copy(p));
     syncEdgePositions();
     setAllLabelVisibility();
@@ -190,6 +206,7 @@ function lerpTo(targets, done) {
     done?.();
     return;
   }
+  transitioning = true;
   const starts = new Map();
   targets.forEach((p, id) => {
     const m = nodeObjects.get(id);
@@ -210,6 +227,7 @@ function lerpTo(targets, done) {
     if (t < 1) requestAnimationFrame(frame);
     else {
       // Re-pin labels to final positions.
+      transitioning = false;
       setAllLabelVisibility();
       requestRender();
       done?.();
@@ -239,6 +257,97 @@ export function syncEdgePositions() {
 }
 
 export function isCellMode() { return active; }
+
+// ------------------------------------------------------------
+// Phase 2: role-based glow + Brownian drift.
+// Roles come straight from nodes.json (n.roles); no fetch needed.
+// Priority: Master regulator > Bottleneck > Core backbone > Sink > Periphery.
+// Only applied when no trace/selection owns the scene (highlightOwnsScene).
+// ------------------------------------------------------------
+const ROLE_STYLE = {
+  'Master regulator': { opacity: 1, emissive: 0.5, pulse: true },
+  Bottleneck: { opacity: 1, emissive: 0.45 },
+  'Core backbone': { opacity: 0.95, emissive: 0.3 },
+  Sink: { opacity: 0.9, emissive: 0.2 },
+  Periphery: { opacity: 0.5, emissive: 0.05 },
+};
+const ROLE_PRIORITY = ['Master regulator', 'Bottleneck', 'Core backbone', 'Sink', 'Periphery'];
+
+function primaryRole(roles) {
+  if (!roles || !roles.length) return null;
+  for (const r of ROLE_PRIORITY) if (roles.includes(r)) return r;
+  return null;
+}
+
+function applyRoleStyling() {
+  pulseMeshes = [];
+  nodeMeshes.forEach((m) => {
+    const nd = nodeMap.get(m.userData.nodeId);
+    const role = primaryRole(nd && nd.roles);
+    if (!role) return;
+    const s = ROLE_STYLE[role];
+    m.material.opacity = s.opacity;
+    m.material.emissiveIntensity = s.emissive;
+    if (s.pulse) pulseMeshes.push(m);
+  });
+}
+
+function resetRoleStyling() {
+  nodeMeshes.forEach((m) => {
+    m.material.opacity = 0.92;
+    m.material.emissiveIntensity = 0.15;
+  });
+  pulseMeshes = [];
+}
+
+function hash01(str, salt) {
+  let h = salt >>> 0;
+  for (let i = 0; i < str.length; i++) h = (h * 33 + str.charCodeAt(i)) >>> 0;
+  return (h % 1000) / 1000;
+}
+
+function buildDriftParams(targets) {
+  driftBase = new Map(targets);
+  driftParams = new Map();
+  targets.forEach((p, id) => {
+    const nd = nodeMap.get(id);
+    const deg = (nd && nd.degree) || 0;
+    // Hubs drift less: amplitude falls with sqrt(degree).
+    const amp = Math.min(9, 2.5 + 8 / Math.sqrt(deg + 1));
+    driftParams.set(id, {
+      amp,
+      speed: 0.25 + hash01(id, 11) * 0.5, // rad/s
+      phase: hash01(id, 77) * Math.PI * 2,
+      phase2: hash01(id, 131) * Math.PI * 2,
+    });
+  });
+}
+
+// Per-frame tick, called from graph.js animate() while cell mode is active.
+// Returns true when it moved anything (caller marks the frame dirty).
+// Skipped during the enter/exit flight and under reduce-motion.
+export function cellTick(now) {
+  if (!active || transitioning || reducedMotion()) return false;
+  const t = now / 1000;
+  driftParams.forEach((d, id) => {
+    const m = nodeObjects.get(id);
+    const b = driftBase.get(id);
+    if (!m || !b) return;
+    m.position.set(
+      b.x + Math.sin(t * d.speed + d.phase) * d.amp,
+      b.y + Math.sin(t * d.speed * 0.8 + d.phase2) * d.amp * 0.7,
+      b.z + Math.cos(t * d.speed * 0.9 + d.phase) * d.amp,
+    );
+  });
+  // Master-regulator pulse: 0.35–0.65 emissive at ~0.5 Hz.
+  for (const m of pulseMeshes) {
+    const d = driftParams.get(m.userData.nodeId);
+    const ph = d ? d.phase : 0;
+    m.material.emissiveIntensity = 0.5 + 0.16 * Math.sin(t * 3 + ph);
+  }
+  syncEdgePositions();
+  return true;
+}
 
 export function enterCellMode(opts = {}) {
   if (active) return;
@@ -279,14 +388,21 @@ export function enterCellMode(opts = {}) {
     if (organelleFor(nd) === 'membrane') t.add(center);
     targets.set(m.userData.nodeId, t);
   });
+  buildDriftParams(targets);
+  minimap.setCellMode(true);
 
-  // Dim resting edges so the membrane + organelles read (highlights still win).
+  // Dim resting edges so the membrane + organelles read — but never clobber
+  // an active trace/selection highlight (it is id-based, survives the move).
+  rolesOwnScene = !highlightOwnsScene();
   savedEdgeAlpha = new Map();
-  edgeList.forEach(({ edge }) => {
-    const rest = edgeRestingStyle(edge);
-    savedEdgeAlpha.set(edge, rest.alpha);
-    setEdgeVisual(edge, rest.hex, rest.alpha * 0.35);
-  });
+  if (rolesOwnScene) {
+    edgeList.forEach(({ edge }) => {
+      const rest = edgeRestingStyle(edge);
+      savedEdgeAlpha.set(edge, rest.alpha);
+      setEdgeVisual(edge, rest.hex, rest.alpha * 0.35);
+    });
+    applyRoleStyling();
+  }
 
   // Outside looking in: pull back to ~2.1× radius above-center.
   const camPos = center.clone().add(new THREE.Vector3(0, radius * 0.55, radius * 2.1));
@@ -304,13 +420,21 @@ export function exitCellMode(opts = {}) {
   state.settings.cellMode = false;
   persistSettings();
   disposeCellObjects();
+  minimap.setCellMode(false);
+  driftBase = new Map();
+  driftParams = new Map();
+  const rolesOwnSceneAtExit = rolesOwnScene;
+  if (rolesOwnScene) resetRoleStyling();
+  rolesOwnScene = false;
   const targets = savedPositions;
   // Restore resting edges; trace/selection highlights re-apply on top.
   import('./ui.js').then((ui) => {
-    edgeList.forEach(({ edge }) => {
-      const rest = edgeRestingStyle(edge);
-      setEdgeVisual(edge, rest.hex, savedEdgeAlpha.get(edge) ?? rest.alpha);
-    });
+    if (rolesOwnSceneAtExit) {
+      edgeList.forEach(({ edge }) => {
+        const rest = edgeRestingStyle(edge);
+        setEdgeVisual(edge, rest.hex, savedEdgeAlpha.get(edge) ?? rest.alpha);
+      });
+    }
     // Re-assert trace/selection highlight if one owns the scene.
     if (state.activeTrace) {
       if (state.activeRouteIdx >= 0) ui.activateRoute(state.activeTrace, state.activeRouteIdx);

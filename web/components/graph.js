@@ -11,7 +11,7 @@ import {
 } from './core.js';
 import { parseHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setupDatasetSlider, syncCellToggle } from './ui.js';
-import { isCellMode, enterCellMode, exitCellMode } from './cell.js';
+import { isCellMode, enterCellMode, exitCellMode, cellTick } from './cell.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: analysis.js attaches its own listeners.
@@ -190,6 +190,12 @@ function animate() {
 
   if (state.physicsEnabled) {
     applyForces();
+    renderState.dirty = true;
+  }
+
+  // Cytoplasm drift + master-regulator pulse (cell.js). Returns true when it
+  // moved anything, which keeps the on-demand loop rendering that frame.
+  if (isCellMode() && cellTick(performance.now())) {
     renderState.dirty = true;
   }
 
