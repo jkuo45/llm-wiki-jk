@@ -435,14 +435,13 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
     )
 
 
-def write_datasets_file(web_data_dir: Path) -> None:
-    """Write web/public/data/datasets.json with per-dataset node/edge counts.
+def dataset_counts(web_data_dir: Path) -> dict:
+    """Per-dataset node/edge counts for the view-mode slider.
 
-    The view-mode slider in web/index.html shows node/edge counts per dataset
-    (triples / wiki / combined). Those counts were hand-maintained and went
-    stale after rebuilds; the app now fetches this tiny file at startup and
-    overwrites the hardcoded tick labels, so counts stay correct
-    automatically. Missing files yield null (app keeps its fallback)."""
+    The slider in web/index.html shows counts for all three datasets, but the
+    app only downloads the active one — so the counts ride inside version.json
+    (already fetched at startup) instead of a separate file. Missing files
+    yield null (app keeps its hardcoded fallback)."""
     web_data_dir = Path(web_data_dir)
 
     def count(prefix: str) -> dict:
@@ -458,18 +457,11 @@ def write_datasets_file(web_data_dir: Path) -> None:
             edges = None
         return {"nodes": nodes, "edges": edges}
 
-    payload = {
-        "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "datasets": {
-            "triples": count("triples-"),
-            "wiki": count("wiki-"),
-            "combined": count(""),
-        },
+    return {
+        "triples": count("triples-"),
+        "wiki": count("wiki-"),
+        "combined": count(""),
     }
-    (web_data_dir / "datasets.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    print(f"Wrote web/public/data/datasets.json ({payload['datasets']})")
 
 
 def write_web_version(web_data_dir: Path) -> None:
@@ -481,20 +473,20 @@ def write_web_version(web_data_dir: Path) -> None:
     import hashlib
 
     web_data_dir = Path(web_data_dir)
-    # Datasets counts first, so the content hash below covers datasets.json.
-    write_datasets_file(web_data_dir)
     h = hashlib.sha256()
     files = sorted(p for p in web_data_dir.glob("*.json") if p.name != "version.json")
     for p in files:
         h.update(p.name.encode("utf-8"))
         h.update(p.read_bytes())
     data_hash = h.hexdigest()[:16]
+    datasets = dataset_counts(web_data_dir)
     (web_data_dir / "version.json").write_text(
         json.dumps(
             {"generated": time.strftime("%Y-%m-%d %H:%M:%S"), "hash": data_hash,
+             "datasets": datasets,
              "files": [p.name for p in files]},
             ensure_ascii=False, indent=2,
         ),
         encoding="utf-8",
     )
-    print(f"Wrote web/public/data/version.json (hash {data_hash}, {len(files)} files)")
+    print(f"Wrote web/public/data/version.json (hash {data_hash}, {len(files)} files, {datasets})")

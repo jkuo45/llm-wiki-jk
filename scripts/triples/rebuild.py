@@ -43,12 +43,12 @@ from graphify.report import generate
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.lib.graph_common import (  # noqa: E402
     PALETTE,
+    dataset_counts,
     enrich_graph_metrics,
     generate_community_colors,
     inject_graph_metadata,
     norm,
     strip_wikilink,
-    write_datasets_file,
 )
 
 ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
@@ -536,6 +536,7 @@ def write_version_file() -> None:
             {
                 "generated": time.strftime("%Y-%m-%d %H:%M:%S"),
                 "hash": data_hash,
+                "datasets": dataset_counts(DATA_DIR),
                 "files": [p.name for p in files],
             },
             ensure_ascii=False,
@@ -544,10 +545,6 @@ def write_version_file() -> None:
         encoding="utf-8",
     )
     print(f"Wrote data version hash {data_hash} over {len(files)} files")
-    # Keep the slider counts (web/public/data/datasets.json) in sync with the
-    # rebuilt artifacts. Runs after version.json so the new file is covered by
-    # the NEXT rebuild's hash; the app cache-busts datasets.json via the hash.
-    write_datasets_file(DATA_DIR)
 
 
 def write_topics_json() -> None:

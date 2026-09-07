@@ -1,6 +1,20 @@
 {
-  "generated": "2026-09-06 20:23:45",
-  "hash": "4e6adcddb531dd54",
+  "generated": "2026-09-07 09:00:53",
+  "hash": "dda9f6d716ce1020",
+  "datasets": {
+    "triples": {
+      "nodes": 3427,
+      "edges": 6412
+    },
+    "wiki": {
+      "nodes": 3079,
+      "edges": 36492
+    },
+    "combined": {
+      "nodes": 4436,
+      "edges": 39386
+    }
+  },
   "files": [
     "articles.json",
     "edges.json",

@@ -116,8 +116,8 @@
             </div>
             <input type="range" id="set-dataset" min="0" max="2" step="1" value="2" aria-label="Graph source">
             <!-- Tick counts are fallback values; setupDatasetSlider() in
-                 components/ui.js overwrites them at startup from
-                 web/public/data/datasets.json (written by every rebuild). -->
+                 components/ui.js overwrites them at startup from the
+                 `datasets` key in web/public/data/version.json. -->
             <div class="slider-ticks" aria-hidden="true">
               <span class="slider-tick" title="Triples — extracted relations, fewest edges">
                 <span class="tick-name">Triples</span>
