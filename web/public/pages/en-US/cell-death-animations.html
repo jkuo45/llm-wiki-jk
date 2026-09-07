@@ -47,6 +47,7 @@
   .phase{ position:absolute; left:10px; top:8px; font-family:var(--mono); font-size:11px; color:#f2ece1; background:rgba(20,18,16,.72); border:1px solid rgba(255,255,255,.18); padding:3px 9px; border-radius:20px; pointer-events:none; }
   .tbar{ position:absolute; left:10px; right:10px; bottom:8px; height:4px; background:rgba(255,255,255,.15); border-radius:2px; overflow:hidden; pointer-events:none; }
   .tbar i{ display:block; height:100%; width:0; background:var(--gold-soft); }
+  .lbl{ position:absolute; left:0; top:0; z-index:3; font-family:var(--sans); font-size:10.5px; letter-spacing:.02em; color:#f2ece1; background:rgba(20,18,16,.72); border:1px solid rgba(255,255,255,.25); padding:1px 8px; border-radius:20px; pointer-events:none; white-space:nowrap; transform:translate(-50%,-135%); display:none; }
   .card-body{ padding:10px 14px 14px; font-size:13.5px; line-height:1.55; color:var(--ink-soft); }
   .card-body ol{ margin:6px 0 8px; padding-left:1.2em; font-family:var(--sans); font-size:12.5px; }
   .card-body ol li::marker{ color:var(--oxblood); font-family:var(--mono); }
@@ -115,41 +116,86 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
    phases:[[0,'death signal — caspase-8/9 ignite'],[2.5,'cell shrinks · chromatin condenses'],[5,'membrane blebbing — intact'],[7.5,'apoptotic bodies pinch off'],[10,'parcels ready for engulfment']],
    steps:['Cell shrinks; nucleus condenses then fragments (DNA ladder).','Membrane bubbles into blebs but never ruptures.','Splits into 3–4 sealed apoptotic bodies — no debris cloud.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
+    {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<8.5},
+    {text:'Apoptotic bodies', pos:(R)=>R.frags[0].visible?R.frags[0].position.toArray():null}],
    legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#9a7bd0"></span>nucleus → fragments <span class="legend-dot" style="background:#ffb347"></span>mitochondria (kept)' },
  { id:'parthanatos', title:'Parthanatos', sub:'PARP-1 · AIF · MIF — NAD⁺-consuming',
    pills:'<span class="pill reg">regulated</span>',
    phases:[[0,'heavy DNA damage — PARP-1 overactivates'],[3,'PAR chains flood · NAD⁺ drains (cell dims)'],[5.5,'AIF leaves mitochondria → nucleus'],[8,'large-scale (~50 kbp) clumping — no ladder'],[10.3,'PS flips out · membrane leaks, no swelling']],
    steps:['PAR bursts from nucleus; whole-cell light dims = NAD⁺/ATP collapse.','AIF streams from mitochondria into nucleus; MIF follows.','Nucleus clumps coarsely; membrane leaks slightly but never swells or bursts.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12},
+    {text:'PAR polymer', pos:()=>[1.25,0.85,0], show:(R,t)=>t>=2&&t<=8.5},
+    {text:'AIF', pos:()=>[-0.55,0.32,0.4], show:(R,t)=>t>=5&&t<=10}],
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR polymer <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>nucleus (large clumps)' },
  { id:'necrosis', title:'Necrosis', sub:'accidental · passive · ATP-depleted',
    pills:'<span class="pill acc">accidental</span>',
    phases:[[0,'injury — Na⁺/K⁺ pumps fail'],[2.5,'oncosis — water floods in, cell swells'],[5,'organelles swell · lysosomes leak'],[7,'membrane ruptures'],[8,'DAMP storm — HMGB1, ATP, uric acid']],
    steps:['Cell balloons (oncosis); mitochondria swell and pop.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
+    {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<7},
+    {text:'DAMPs', pos:()=>[2.7,1.2,0], show:(R,t)=>t>=7}],
    legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#ff5a4d"></span>DAMPs <span class="legend-dot" style="background:#7fd4ff"></span>water influx' },
  { id:'necroptosis', title:'Necroptosis', sub:'regulated necrosis — RIPK1 → RIPK3 → MLKL',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    phases:[[0,'TNFα signal — caspase-8 blocked'],[2.5,'necrosome assembles (RIPK1/RIPK3 glow)'],[5,'p-MLKL rings punch membrane pores'],[7,'swelling through pores → rupture'],[8.5,'DAMP release + NLRP3 handoff']],
    steps:['Necrosome speck forms under the membrane.','MLKL pore-rings stud the surface; cell swells.','Rupture through pore zone; blocked by necrostatin-1/GSK872 in real assays.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'Necrosome (RIPK1/3)', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
+    {text:'MLKL pores', pos:(R)=>R.pores[5].position.toArray(), show:(R,t)=>t>=4.5}],
    legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK1/3 necrosome <span class="legend-dot" style="background:#ffffff"></span>MLKL pores <span class="legend-dot" style="background:#ffb347"></span>DAMPs' },
  { id:'ferroptosis', title:'Ferroptosis', sub:'iron · lipid peroxidation · GPX4 failure',
    pills:'<span class="pill reg">regulated</span>',
    phases:[[0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,'Fe²⁺ sparks · Fenton ROS'],[5.5,'lipid peroxidation spreads'],[8,'mitochondria shrink and condense'],[10,'membrane ruptures at peroxidized patch']],
    steps:['Fe²⁺ sparks + ROS flicker inside the cell.','Lipid peroxidation patches creep across the membrane (C11-BODIPY signal).','Mitochondria shrivel and condense; nucleus stays intact (no fragmentation); rupture follows.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'Fe²⁺ / ROS', pos:()=>[0.9,-0.78,0.5], show:(R,t)=>t>=2&&t<8},
+    {text:'Peroxidized membrane', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
    legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>lipid-ROS patches <span class="legend-dot" style="background:#555"></span>shrunken mitochondria' },
  { id:'autophagy', title:'Autophagy', sub:'survival first — type-II death only if excessive',
    pills:'<span class="pill reg">regulated</span>',
    phases:[[0,'starvation — mTORC1 off, AMPK on'],[2.5,'phagophore crescents nucleate'],[5,'cargo engulfed — autophagosomes close'],[7.5,'fusion with lysosome → degrade'],[10,'cell recovers — survives']],
    steps:['Crescents (phagophores) grow and cup damaged cargo.','Closed double-membrane vesicles ferry cargo to the lysosome.','Lysosome fusion flash; cell survives — death only if this overruns.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.7,-0.8,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:(t)=>t<6.5?'Phagophore':'Autophagosome', pos:(R)=>R.crescents[0].position.toArray(), dy:-18, show:(R,t)=>t>=1.5&&t<8.5},
+    {text:'Lysosome', pos:(R)=>R.lyso.position.toArray(), dx:28, show:(R,t)=>t>=2}],
    legend:'<span class="legend-dot" style="background:#51ff9e"></span>phagophore/autophagosome <span class="legend-dot" style="background:#ff5a4d"></span>lysosome <span class="legend-dot" style="background:#ffb347"></span>cargo' },
  { id:'pyroptosis', title:'Pyroptosis', sub:'inflammasome · gasdermin-D pores · lytic',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    phases:[[0,'PRR senses danger — inflammasome speck'],[2.5,'caspase-1 ignites — GSDMD cleaved'],[5,'10–20 nm pores ring the membrane'],[7,'IL-1β/IL-18 jets + swelling'],[8.5,'rupture — cytokine storm']],
    steps:['Inflammasome speck assembles; cell flashes.','GSDMD pore-rings stud the membrane.','Cytokine jets fountain out; swelling → rupture.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Inflammasome', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
+    {text:'GSDMD pores', pos:(R)=>R.pores[3].position.toArray(), show:(R,t)=>t>=4},
+    {text:'IL-1β / IL-18', pos:()=>[2.6,-1.0,0], show:(R,t)=>t>=6}],
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>inflammasome/caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD pores <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
  { id:'panoptosis', title:'PANoptosis', sub:'all-in-one — ZBP1 PANoptosome, non-redundant',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    phases:[[0,'ZBP1 senses — PANoptosome assembles'],[3,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,'hybrid: pores + blebs + swelling at once'],[8.5,'total rupture — no single inhibitor rescues'],[10,'DAMP + cytokine storm from all arms']],
    steps:['Central hub (RIPK1/RIPK3/caspase-8/caspase-1) lights up.','Pores, blebs and condensation happen simultaneously.','Massive rupture; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'PANoptosome', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
+    {text:'Pores (GSDMD + MLKL)', pos:(R)=>R.pores[9].position.toArray(), show:(R,t)=>t>=3.5}],
    legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK <span class="legend-dot" style="background:#ffe14d"></span>caspase <span class="legend-dot" style="background:#ffffff"></span>GSDMD/MLKL pores' },
 ];
 
@@ -163,7 +209,7 @@ for (const p of PROGRAMS){
     <div class="card-foot"><button data-replay>↺ replay</button><button data-pp>⏸ pause</button></div>`;
   grid.appendChild(el);
   p._phaseEl = el.querySelector('.phase'); p._barEl = el.querySelector('.tbar i');
-  p._canvas = el.querySelector('canvas');
+  p._canvas = el.querySelector('canvas'); p._stage = el.querySelector('.stage');
   p._t = Math.random()*DUR; p._paused = false;
   el.querySelector('[data-replay]').onclick = ()=>{ p._t = 0; };
   const pp = el.querySelector('[data-pp]');
@@ -265,11 +311,36 @@ const stages = PROGRAMS.map(p => ({p, ...makeStage(p._canvas)}));
 function sizeStages(){
   for (const s of stages){
     const w = s.p._canvas.clientWidth || 400, h = 300;
+    s.W = w; s.H = h;
     s.renderer.setSize(w, h, false);
     s.camera.aspect = w/h; s.camera.updateProjectionMatrix();
   }
 }
 addEventListener('resize', sizeStages); sizeStages();
+
+/* ---- floating organelle labels (HTML projected from 3-D anchors) ---- */
+for (const s of stages){
+  s.labelObjs = (s.p.labels||[]).map(spec=>{
+    const d = document.createElement('div');
+    d.className = 'lbl';
+    s.p._stage.appendChild(d);
+    return {spec, el:d};
+  });
+}
+const PV = new THREE.Vector3();
+function updateLabels(s){
+  for (const {spec, el} of s.labelObjs){
+    let arr = null;
+    try { arr = spec.pos(s.R, s.p._t); } catch(e){ arr = null; }
+    if (!arr || (spec.show && !spec.show(s.R, s.p._t))){ el.style.display='none'; continue; }
+    PV.set(arr[0], arr[1], arr[2]).project(s.camera);
+    if (PV.z > 1){ el.style.display='none'; continue; }
+    el.style.display = 'block';
+    el.textContent = typeof spec.text === 'function' ? spec.text(s.p._t) : spec.text;
+    el.style.left = ((PV.x*0.5+0.5)*s.W + (spec.dx||0)) + 'px';
+    el.style.top = ((-PV.y*0.5+0.5)*s.H + (spec.dy||0)) + 'px';
+  }
+}
 
 const smooth = (a,b,x)=>{ const t = Math.min(1, Math.max(0,(x-a)/(b-a))); return t*t*(3-2*t); };
 function setCloud(R, i, x,y,z, r,g,b, vx=0,vy=0,vz=0){
@@ -488,6 +559,7 @@ function tick(){
     s.camera.lookAt(0,0,0);
     animateProgram(s.p.id, t, running&&!s.p._paused?dt*speed:0, s);
     s.renderer.render(s.scene, s.camera);
+    updateLabels(s);
     s.p._phaseEl.textContent = `${t.toFixed(1)}s · ${phaseLabel(s.p, t)}`;
     s.p._barEl.style.width = (t/DUR*100)+'%';
   }
