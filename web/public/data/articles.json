@@ -324,6 +324,18 @@
         }
     },
     {
+        "id": "cell-death-animations",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Cell Death Animations [three.js]",
+                "path": "pages/en-US/cell-death-animations.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
+            }
+        }
+    },
+    {
         "id": "male-distributed-topology-vs-estrogen-hub",
         "active": true,
         "langs": {

@@ -329,6 +329,15 @@
   </url>
 
 <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html"/>
+  </url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
