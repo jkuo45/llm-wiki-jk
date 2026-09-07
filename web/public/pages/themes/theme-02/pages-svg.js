@@ -285,8 +285,45 @@ function bindTableCopyBtn(btn){
       });
   });
 }
+/* ============================= COPY CANVAS (e.g. WebGL) =============================
+   Snapshots a <canvas> (2D or WebGL) as PNG. WebGL pages must create their
+   renderer with preserveDrawingBuffer:true, otherwise the buffer is cleared
+   before toBlob runs and the export comes out blank. Falls back to download. */
+function canvasToBlob(cv){
+  return new Promise((resolve, reject)=>{
+    if (cv.toBlob) cv.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
+    else reject(new Error('no-toblob'));
+  });
+}
+function bindCanvasCopyBtn(btn){
+  if (btn._bound) return;
+  btn._bound = true;
+  btn.addEventListener('click', (e)=>{
+    e.stopPropagation();
+    const cvId = btn.getAttribute('data-copy-canvas');
+    const cv = document.getElementById(cvId);
+    const pngOpts = {};
+    withFeedback(btn,
+      async ()=>{
+        if (!cv) throw new Error('no-canvas');
+        const blob = await canvasToBlob(cv);
+        if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+        await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
+      },
+      async ()=>{
+        if (!cv) throw new Error('no-canvas');
+        const blob = await canvasToBlob(cv);
+        const a = document.createElement('a');
+        a.download = (cvId || 'canvas') + '.png';
+        a.href = URL.createObjectURL(blob);
+        a.click();
+        setTimeout(()=>URL.revokeObjectURL(a.href), 4000);
+      });
+  });
+}
 document.querySelectorAll('.copy-btn[data-copy-table]').forEach(bindTableCopyBtn);
 document.querySelectorAll('.copy-btn[data-copy]').forEach(bindSvgCopyBtn);
+document.querySelectorAll('.copy-btn[data-copy-canvas]').forEach(bindCanvasCopyBtn);
 
 /* ============================= RUNTIME SWEEP =============================
    Ensures every diagram SVG and data table has a copy button — including
@@ -389,6 +426,10 @@ function ensureTableCopyButton(table){
 function runCopySweep(){
   document.querySelectorAll('svg').forEach(ensureSvgCopyButton);
   document.querySelectorAll('table').forEach(ensureTableCopyButton);
+  // Canvases are opt-in via static markup (data-copy-canvas); WebGL pages must
+  // use preserveDrawingBuffer:true. Just (re)bind — never auto-wrap canvases,
+  // since the sweep's host-wrapping would disturb canvas sizing/layout.
+  document.querySelectorAll('.copy-btn[data-copy-canvas]').forEach(bindCanvasCopyBtn);
 }
 if (document.readyState === 'loading'){
   document.addEventListener('DOMContentLoaded', runCopySweep);

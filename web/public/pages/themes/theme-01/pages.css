@@ -73,7 +73,7 @@ nav{position:sticky; top:0; z-index:50; background:var(--nav-bg); backdrop-filte
 nav.nav-hidden{transform:translateY(-100%);}
 @media (prefers-reduced-motion: reduce){nav{transition:none;}}
 nav .wrap{display:flex; align-items:center; gap:18px; overflow-x:auto; overflow-y:hidden; white-space:nowrap;
-  height:52px; padding:0; overscroll-behavior-x:contain;
+  height:auto; padding:2px 0; overscroll-behavior-x:contain;
   scrollbar-width:thin; scrollbar-color:var(--scroll-thumb) transparent;}
 nav .wrap::-webkit-scrollbar{height:4px;}
 nav .wrap::-webkit-scrollbar-track{background:transparent;}

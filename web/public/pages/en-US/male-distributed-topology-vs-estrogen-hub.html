@@ -14,6 +14,12 @@
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
 <script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+} }
+</script>
 <style>
   :root{
     --teal:#2a9d8f;
@@ -33,6 +39,7 @@
   .fig{ background:var(--sheet); border:1px solid var(--rule); padding:16px 18px 12px; margin:18px 0; }
   .fig svg{ width:100%; height:auto; display:block; }
   .fig .cap{ font-size:.82rem; color:var(--mute); margin:10px 2px 2px; line-height:1.55; }
+  .fig > figcaption.cap{ padding:0; } /* neutralize theme figcaption padding: PNG export reads this live style */
   .fig .cap strong{ color:var(--ink-soft); }
   .fig .fignum{ font-family:var(--mono); font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--faint); margin:0 0 8px; }
   .callout{ background:color-mix(in srgb, var(--oxblood) 6%, var(--paper)); border-left:3px solid var(--oxblood); padding:14px 16px; margin:18px 0; font-size:.9rem; line-height:1.6; }
@@ -94,6 +101,33 @@
   .page-footer{ font-family:var(--mono); font-size:11px; color:var(--faint); padding:18px 0 32px; border-top:1px solid var(--rule); margin-top:28px; }
   .page-footer a{ color:var(--mute); }
   kbd.k{ font-family:var(--mono); font-size:.78rem; background:var(--sheet); border:1px solid var(--rule-strong); border-radius:3px; padding:0 5px; }
+  /* Fig. 1b — embedded 3D cells (Three.js): same cell plan, different wiring */
+  #fig-1b{ margin-top:30px; }
+  #fig-1b .fignum{ margin-top:8px; }
+  .cell3d-canvas{ position:relative; }
+  /* mobile: two tap-cards switch which cell fills the canvas */
+  .cell3d-cards{ display:none; gap:8px; margin:0 0 10px; }
+  .cell3d-card{ flex:1 1 0; font-family:var(--sans); font-size:12px; padding:9px 8px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink-soft); border-radius:var(--radius); cursor:pointer; line-height:1.35; text-align:center; }
+  .cell3d-card b{ display:block; font-size:13px; color:var(--ink); }
+  .cell3d-card.f{ border-top:3px solid var(--oxblood); }
+  .cell3d-card.m{ border-top:3px solid var(--slate); }
+  .cell3d-card.active{ background:color-mix(in srgb, var(--ink) 88%, transparent); color:var(--paper); }
+  .cell3d-card.active b{ color:var(--paper); }
+  @media (max-width:640px){
+    #scene{ height:420px; }
+    .cell3d-cards{ display:flex; }
+    .hud.left, .hud.right{ display:none; }
+  }
+  #scene{ width:100%; height:560px; display:block; cursor:grab; touch-action:none; }
+  #scene:active{ cursor:grabbing; }
+  .hud{ position:absolute; font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; pointer-events:none; }
+  .hud.left{ top:10px; left:12px; color:var(--oxblood); font-weight:700; }
+  .hud.right{ top:10px; right:12px; color:var(--slate); font-weight:700; }
+  #cell3d-info{ position:absolute; top:36px; left:12px; max-width:min(330px,80%); background:color-mix(in srgb, var(--paper) 94%, white); border:1px solid var(--rule-strong); box-shadow:var(--shadow); padding:12px 14px; font-size:.84rem; line-height:1.55; display:none; z-index:3; }
+  #cell3d-info h4{ margin:0 0 4px; font-size:.92rem; }
+  #cell3d-info .tag{ font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.06em; }
+  /* copy button sits below the top-right HUD label, not over it */
+  #fig-1b .copy-btn{ top:34px; right:8px; }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -154,7 +188,7 @@
     <!-- ==================== 1 THESIS ==================== -->
     <section id="model">
       <p class="sec-label">Model</p>
-      <h2>One hub vs no hub</h2>
+      <h2>Hub vs. Mesh</h2>
       <p class="drop">
         The female system in this synthesis is a <strong>star topology</strong>: one mediator
         (E2→ER) with nine spokes. Remove the center and every spoke derepresses simultaneously.
@@ -164,41 +198,45 @@
         anabolic <em>and</em> pathogenic. Failure is local and asynchronous, never systemic and simultaneous.
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">Fig. 1 · The two architectures side by side</p>
         <div class="copy-host fig-canvas">
-        <svg viewBox="0 0 880 420" role="img" aria-label="Left: centralized estrogen hub with one center and nine spokes. Right: distributed male mesh of five nodes with an empty center.">
+        <svg viewBox="0 0 880 460" role="img" aria-label="Left: centralized estrogen hub with one center and nine spokes. Right: distributed male mesh of five nodes with an empty center.">
           <!-- ===== LEFT: centralized hub ===== -->
           <text x="220" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Sans, sans-serif">FEMALE · CENTRALIZED (star)</text>
           <text x="220" y="44" font-size="10.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">one center · nine spokes · one cliff</text>
           <!-- spokes -->
           <g stroke="var(--oxblood)" stroke-width="1.6" opacity="0.75">
-            <line x1="220" y1="210" x2="220" y2="80"/><line x1="220" y1="210" x2="323" y2="109"/>
-            <line x1="220" y1="210" x2="363" y2="180"/><line x1="220" y1="210" x2="363" y2="257"/>
-            <line x1="220" y1="210" x2="323" y2="328"/><line x1="220" y1="210" x2="220" y2="357"/>
-            <line x1="220" y1="210" x2="117" y2="328"/><line x1="220" y1="210" x2="77" y2="257"/>
-            <line x1="220" y1="210" x2="77" y2="180"/>
+            <line x1="220" y1="245" x2="220" y2="93"/>
+            <line x1="220" y1="245" x2="318" y2="129"/>
+            <line x1="220" y1="245" x2="370" y2="219"/>
+            <line x1="220" y1="245" x2="352" y2="321"/>
+            <line x1="220" y1="245" x2="272" y2="388"/>
+            <line x1="220" y1="245" x2="168" y2="388"/>
+            <line x1="220" y1="245" x2="88" y2="321"/>
+            <line x1="220" y1="245" x2="70" y2="219"/>
+            <line x1="220" y1="245" x2="122" y2="129"/>
           </g>
           <!-- spoke nodes -->
           <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace">
-            <circle cx="220" cy="80" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="77" fill="var(--ink)">SIRT1</text><text x="220" y="89" font-size="9.5" fill="var(--mute)">transcr.↑</text>
-            <circle cx="323" cy="109" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="106" fill="var(--ink)">SIRT3</text><text x="323" y="118" font-size="9.5" fill="var(--mute)">mito↑</text>
-            <circle cx="363" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="177" fill="var(--ink)">SOD2</text><text x="363" y="189" font-size="9.5" fill="var(--mute)">protein↑</text>
-            <circle cx="363" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="363" y="254" fill="var(--ink)">Bcl-2</text><text x="363" y="266" font-size="9.5" fill="var(--mute)">neuro↑</text>
-            <circle cx="323" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="323" y="325" fill="var(--ink)">IκBα</text><text x="323" y="337" font-size="9.5" fill="var(--mute)">NF-κB↓</text>
-            <circle cx="220" cy="357" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="350" fill="var(--ink)">STING</text><text x="220" y="362" font-size="9.5" fill="var(--mute)">via</text><text x="220" y="374" font-size="9.5" fill="var(--mute)">HDAC3↓</text>
-            <circle cx="117" cy="328" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="117" y="325" fill="var(--ink)">PARP-1</text><text x="117" y="337" font-size="9.5" fill="var(--mute)">stabilized</text>
-            <circle cx="77" cy="257" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="254" fill="var(--ink)">TERT</text><text x="77" y="266" font-size="9.5" fill="var(--mute)">telom.↑</text>
-            <circle cx="77" cy="180" r="30" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="77" y="177" fill="var(--ink)">p53</text><text x="77" y="189" font-size="9.5" fill="var(--mute)">dual ctrl</text>
+            <circle cx="220" cy="93" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="220" y="91" font-size="14" font-weight="700" fill="var(--ink)">SIRT1</text><text x="220" y="105" font-size="10" fill="var(--ink-soft)">transcr. ↑</text>
+            <circle cx="318" cy="129" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="318" y="127" font-size="14" font-weight="700" fill="var(--ink)">SIRT3</text><text x="318" y="141" font-size="10" fill="var(--ink-soft)">mito ↑</text>
+            <circle cx="370" cy="219" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="370" y="217" font-size="14" font-weight="700" fill="var(--ink)">SOD2</text><text x="370" y="231" font-size="10" fill="var(--ink-soft)">protein ↑</text>
+            <circle cx="352" cy="321" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="352" y="319" font-size="14" font-weight="700" fill="var(--ink)">Bcl-2</text><text x="352" y="333" font-size="10" fill="var(--ink-soft)">neuro ↑</text>
+            <circle cx="272" cy="388" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="272" y="386" font-size="14" font-weight="700" fill="var(--ink)">IκBα</text><text x="272" y="400" font-size="10" fill="var(--ink-soft)">NF-κB ↓</text>
+            <circle cx="168" cy="388" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="168" y="386" font-size="14" font-weight="700" fill="var(--ink)">STING</text><text x="168" y="400" font-size="10" fill="var(--ink-soft)">HDAC3 ↓</text>
+            <circle cx="88" cy="321" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="88" y="319" font-size="14" font-weight="700" fill="var(--ink)">PARP-1</text><text x="88" y="333" font-size="10" fill="var(--ink-soft)">stable repair</text>
+            <circle cx="70" cy="219" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="70" y="217" font-size="14" font-weight="700" fill="var(--ink)">TERT</text><text x="70" y="231" font-size="10" fill="var(--ink-soft)">telom. ↑</text>
+            <circle cx="122" cy="129" r="44" fill="var(--sheet)" stroke="var(--oxblood)" stroke-width="1.6"/><text x="122" y="127" font-size="14" font-weight="700" fill="var(--ink)">p53</text><text x="122" y="141" font-size="10" fill="var(--ink-soft)">dual ctrl</text>
           </g>
           <!-- center -->
-          <circle cx="220" cy="210" r="46" fill="var(--oxblood)"/>
-          <text x="220" y="204" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
-          <text x="220" y="221" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">master mediator</text>
-          <text x="220" y="402" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">menopause: all 9 derepress at once</text>
+          <circle cx="220" cy="245" r="46" fill="var(--oxblood)"/>
+          <text x="220" y="239" font-size="17" font-weight="700" text-anchor="middle" fill="#fff" font-family="IBM Plex Sans, sans-serif">E2→ER</text>
+          <text x="220" y="256" font-size="9.5" text-anchor="middle" fill="#f2ece1" font-family="IBM Plex Mono, monospace">master mediator</text>
+          <text x="220" y="448" font-size="10.5" text-anchor="middle" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">menopause: all 9 derepress at once</text>
 
           <!-- divider -->
-          <line x1="440" y1="20" x2="440" y2="390" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
+          <line x1="440" y1="20" x2="440" y2="450" stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="5 4"/>
 
           <!-- ===== RIGHT: distributed mesh ===== -->
           <text x="660" y="28" font-size="13" font-weight="700" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Sans, sans-serif">MALE · DISTRIBUTED (mesh)</text>
@@ -239,8 +277,24 @@
           <text x="660" y="402" font-size="10.5" text-anchor="middle" fill="var(--slate)" font-family="IBM Plex Mono, monospace">aging: gradual + clonal + structural + episodic</text>
         </svg>
         </div>
-        <p class="cap"><strong>How to read it.</strong> Left: every protective arm routes through one hub, so one withdrawal event collapses all of them. Right: the five male nodes link to each other (shared territory — NF-κB, mTOR, NAD⁺, autophagy), but nothing routes through the middle; each node fails on its own schedule (§4). That is the whole model in one picture.</p>
-      </div>
+        <figcaption class="cap"><strong>How to read it.</strong> Left: every protective arm routes through one hub, so one withdrawal event collapses all of them. Right: the five male nodes link to each other (shared territory — NF-κB, mTOR, NAD⁺, autophagy), but nothing routes through the middle; each node fails on its own schedule (§4).</figcaption>
+      </figure>
+
+      <figure class="fig" id="fig-1b">
+        <p class="fignum">Fig. 1b · The same two topologies inside the cell (interactive 3D)</p>
+        <div class="copy-host cell3d-canvas">
+          <div class="cell3d-cards" role="group" aria-label="Choose cell view">
+            <button type="button" class="cell3d-card f active" data-view="female"><b>♀ Female</b>E2→ER hub · 9-arm star</button>
+            <button type="button" class="cell3d-card m" data-view="male"><b>♂ Male</b>T→AR mesh · empty center</button>
+          </div>
+          <canvas id="scene"></canvas>
+          <button type="button" class="copy-btn" data-copy-canvas="scene" title="Copy 3D view as PNG" aria-label="Copy 3D view as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          <span class="hud left">♀ Female · centralized star · E2→ER hub</span>
+          <span class="hud right">♂ Male · distributed mesh · empty center</span>
+          <div id="cell3d-info" role="dialog" aria-live="polite"><div class="tag" id="cell3d-info-tag"></div><h4 id="cell3d-info-title"></h4><div id="cell3d-info-body"></div></div>
+        </div>
+        <figcaption class="cap"><strong>Same anatomy, different wiring.</strong> Both cells share one mammalian plan — plasma membrane, nucleus with nucleolus + pores, mitochondria with cristae, rough-ER, Golgi, lysosome, ribosomes. Anatomy to scale (1 unit = 1 µm; signaling nodes enlarged ~20× for readability). Left: E2 particles stream into the nuclear hub and out along nine spokes. Right: five nodes pulse peer-to-peer around an empty center. Click any glowing node for its evidence. Small gray tags name the anatomy and are not clickable.</figcaption>
+      </figure>
 
       <div class="callout">
         <p><strong>No single male factor spans the hub's breadth — and that is the point.</strong> Testosterone→AR is narrower per-node (no SIRT3/SOD2/TERT/STING equivalent), bidirectional with inflammation, pro-cancer in prostate/liver/melanoma, and declines gradually (LOH) rather than cliff-wise.</p>
@@ -258,7 +312,7 @@
         derepresses all nine simultaneously</strong> — a systems-level event with no male equivalent.
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">Fig. 2 · The nine estrogen arms and what each one holds up</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 920 380" role="img" aria-label="Estrogen hub fanning out to three panels: sirtuins and redox, inflammation and death, genome stability, three arms each.">
@@ -312,21 +366,18 @@
           </g>
         </svg>
         </div>
-        <p class="cap"><strong>Why group the arms:</strong> the male mesh covers the same three territories with different wiring — SIRT6 (not SIRT1/3 induction) for the sirtuin territory, AR→NF-κB suppression for the inflammation territory, and single-X/LOY/PARP-1 for the genome territory. Same map, different roads.</p>
-      </div>
+        <figcaption class="cap"><strong>Why group the arms:</strong> the male mesh covers the same three territories with different wiring — SIRT6 (not SIRT1/3 induction) for the sirtuin territory, AR→NF-κB suppression for the inflammation territory, and single-X/LOY/PARP-1 for the genome territory. Same map, different roads.</figcaption>
+      </figure>
 
-      <div class="callout">
-        <p style="margin:0 0 6px;"><strong>At menopause, E2 withdrawal simultaneously:</strong></p>
-        <ul style="margin:0; padding-left:20px; line-height:1.75;">
-          <li>Removes SIRT1/3 transcriptional support → mitochondrial dysfunction</li>
-          <li>Removes SOD2 upregulation → oxidative stress increase</li>
-          <li>Removes NF-κB suppression → inflammaging acceleration</li>
-          <li>Removes STING suppression → cGAS-STING activation</li>
-          <li>Removes PARP-1 stabilization → NAD⁺ depletion accelerates</li>
-          <li>Removes telomerase activation → telomere attrition speeds up</li>
-          <li>Removes Bcl-2 neuroprotection → neuronal vulnerability increases</li>
-        </ul>
-      </div>
+      <p><strong>At menopause, E2 withdrawal simultaneously:</strong></p>
+      <pre><code>Removes SIRT1/3 transcriptional support → mitochondrial dysfunction <span style="color:var(--red)">[2 arms: SIRT1 + SIRT3]</span>
+Removes SOD2 upregulation → oxidative stress increase
+Removes NF-κB suppression → inflammaging acceleration
+Removes STING suppression → cGAS-STING activation
+Removes PARP-1 stabilization → NAD⁺ depletion accelerates
+Removes telomerase activation → telomere attrition speeds up
+Removes Bcl-2 neuroprotection → neuronal vulnerability increases
+Removes p53 dual control → DNA-damage response dysregulation</code></pre>
     </section>
 
     <!-- ==================== 3 NODES ==================== -->
@@ -422,7 +473,7 @@
         estrogen cliff), and single-X/PARP-1 are lifelong background conditions discharged by acute events.
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">Fig. 3 · Protection over age: estrogen step-down vs male three-curve erosion (schematic, anchored to cited prevalences)</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 880 640" role="img" aria-label="Two stacked charts on a shared protection scale: female single step-down at menopause on top; male gradual T ramp, exponential LOY rise and flat single-X baseline below.">
@@ -447,7 +498,7 @@
           <text x="346" y="58" font-size="12" font-weight="700" fill="var(--oxblood)" text-anchor="middle" font-family="IBM Plex Mono, monospace">menopause ~51</text>
           <text x="200" y="101" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2 hub · 9 arms</text>
           <text x="650" y="208" font-size="12" fill="var(--oxblood)" font-family="IBM Plex Mono, monospace">post-menopause floor</text>
-          <text x="590" y="238" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">7 arms lost at once (see §2)</text>
+          <text x="590" y="238" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">9 arms lost at once (see §2)</text>
           <line x1="80" y1="292" x2="108" y2="292" stroke="var(--oxblood)" stroke-width="3"/>
           <text x="114" y="296" font-size="12" fill="var(--ink)" font-family="IBM Plex Mono, monospace"><tspan font-size="14">♀</tspan> E2 protection (step)</text>
           <!-- ===== BOTTOM: male ===== -->
@@ -488,8 +539,8 @@
           <text x="440" y="624" font-size="10.5" fill="var(--mute)" font-family="IBM Plex Mono, monospace" text-anchor="middle">same protection scale as ♀ panel</text>
         </svg>
         </div>
-        <p class="cap"><strong>The LOY cliff is the structural mirror of the estrogen cliff</strong> — exponential from 60y, not stepwise at 51y — but with opposite valence: a pathogenic clone <em>gained</em> with age rather than a protective hub <em>lost</em> at menopause. Note the curves never synchronize: that asynchrony <em>is</em> the absence of a male cliff. Key: ♀ = female trajectory (oxblood); ♂ = male trajectories (teal/red/slate).</p>
-      </div>
+        <figcaption class="cap"><strong>The LOY cliff is the structural mirror of the estrogen cliff</strong> — exponential from 60y, not stepwise at 51y — but with opposite valence: a pathogenic clone <em>gained</em> with age rather than a protective hub <em>lost</em> at menopause. Note the curves never synchronize: that asynchrony <em>is</em> the absence of a male cliff. Key: ♀ = female trajectory (oxblood); ♂ = male trajectories (teal/red/slate).</figcaption>
+      </figure>
 
       <div class="callout slate">
         <p><strong>Temporal summary.</strong> E2→ER: cliff at menopause (~51y). T→AR: gradual LOH from ~40s, bidirectional with inflammaging (GDF-15 strongest mediator). mLOY: exponential 60y+ (40% @70y, 57% @93y). Single-X: lifelong, compounded when LOY deletes the Y-paralog backup. PARP-1/AIF: acute, event-driven (stroke/trauma). SIRT6/IGF-1: lifelong set-point.</p>
@@ -509,7 +560,7 @@
         shunting them harder into the caspase route.
       </p>
 
-      <div class="fig">
+      <figure class="fig">
         <p class="fignum">Fig. 4 · PARP-1 KO infarct volumes by sex (McCullough 2005; Liu Stroke 2011) + pathway schematic</p>
         <div class="copy-host fig-canvas">
         <svg viewBox="0 0 880 342" role="img" aria-label="Bar chart: PARP-1 knockout reduces infarct in males but increases it in ovariectomized females; pathway diagram of parthanatos versus caspase apoptosis.">
@@ -561,25 +612,26 @@
             <rect x="475" y="246" width="140" height="26" fill="var(--sheet)" stroke="var(--gold)" stroke-width="1.6"/><text x="545" y="263">50-kbp fragments</text>
           </g>
           <!-- female path -->
-          <rect x="660" y="44" width="190" height="220" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.2"/>
-          <text x="755" y="64" font-size="12" font-weight="700" text-anchor="middle" fill="var(--teal)" font-family="IBM Plex Mono, monospace">FEMALE · CASPASE</text>
+          <rect x="660" y="44" width="190" height="232" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.2"/>
+          <text x="755" y="62" font-size="12" font-weight="700" text-anchor="middle" fill="var(--teal)" font-family="IBM Plex Mono, monospace">FEMALE · APOPTOSIS</text>
+          <text x="755" y="74" font-size="8.5" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">cytochrome-C / caspase-dependent</text>
           <g font-size="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" fill="var(--ink)">
-            <rect x="685" y="76" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="93">cytochrome-C</text>
-            <text x="755" y="112" fill="var(--teal)">▼</text>
-            <rect x="685" y="116" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="133">caspase-9</text>
-            <text x="755" y="152" fill="var(--teal)">▼</text>
-            <rect x="685" y="156" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="173">caspase-3</text>
-            <text x="755" y="192" fill="var(--teal)">▼</text>
-            <rect x="685" y="196" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="213">DNA ladder</text>
-            <text x="755" y="232" fill="var(--teal)">▼</text>
-            <rect x="685" y="236" width="140" height="26" fill="var(--sheet)" stroke="var(--teal)" stroke-width="1.6"/><text x="755" y="253">apoptotic bodies</text>
+            <rect x="685" y="86" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="103">cytochrome-C</text>
+            <text x="755" y="122" fill="var(--teal)">▼</text>
+            <rect x="685" y="126" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="143">caspase-9</text>
+            <text x="755" y="162" fill="var(--teal)">▼</text>
+            <rect x="685" y="166" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="183">caspase-3</text>
+            <text x="755" y="202" fill="var(--teal)">▼</text>
+            <rect x="685" y="206" width="140" height="26" fill="var(--sheet)" stroke="var(--rule-strong)"/><text x="755" y="223">DNA ladder</text>
+            <text x="755" y="242" fill="var(--teal)">▼</text>
+            <rect x="685" y="246" width="140" height="26" fill="var(--sheet)" stroke="var(--teal)" stroke-width="1.6"/><text x="755" y="263">apoptotic bodies</text>
           </g>
           <text x="650" y="296" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">Cell-autonomous: persists in hormone-free media,</text>
           <text x="650" y="312" font-size="12" text-anchor="middle" fill="var(--mute)" font-family="IBM Plex Mono, monospace">prepubertal animals — not just circulating hormones</text>
         </svg>
         </div>
-        <p class="cap"><strong>How to read it.</strong> The bars are the proof that the two programs are genuinely sex-divergent (same deletion, opposite outcome). The cascades show why: PARP-1 sits <em>upstream</em> of the male death route but <em>parallel</em> to the female one — deleting it removes the male weapon while forcing females onto their backup weapon. Therapeutic corollary: PARP inhibitors male-leaning, caspase inhibitors female-leaning.</p>
-      </div>
+        <figcaption class="cap"><strong>How to read it.</strong> The bars are the proof that the two programs are genuinely sex-divergent (same deletion, opposite outcome). The cascades show why: PARP-1 sits <em>upstream</em> of the male death route but <em>parallel</em> to the female one — deleting it removes the male weapon while forcing females onto their backup weapon. Therapeutic corollary: PARP inhibitors male-leaning, caspase inhibitors female-leaning.</figcaption>
+      </figure>
     </section>
 
     <!-- ==================== 6 TABLE ==================== -->
@@ -747,6 +799,446 @@
     if (hl.value) wrap.classList.add(hl.value);
   });
   apply();
+})();
+</script>
+
+<script type="module">
+/* Fig. 1b — embedded 3D cells. Lazy-initialised on first scroll into view. */
+(function(){
+  var canvas = document.getElementById('scene');
+  if(!canvas) return;
+  var started = false;
+  function start(){
+    if(started) return; started = true;
+    import('three').then(function(THREE){
+      return Promise.all([Promise.resolve(THREE), import('three/addons/controls/OrbitControls.js')]);
+    }).then(function(mods){
+      var THREE = mods[0], OrbitControls = mods[1].OrbitControls;
+      init(THREE, OrbitControls);
+    }).catch(function(err){ console.warn('3D cells failed to load', err); });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      if(es.some(function(e){ return e.isIntersecting; })){ io.disconnect(); start(); }
+    }, {rootMargin:'400px'});
+    io.observe(canvas);
+  } else start();
+
+  function init(THREE, OrbitControls){
+    var renderer;
+    try{
+      renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true, preserveDrawingBuffer:true});
+    }catch(err){ console.warn('WebGL unavailable', err); return; }
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(42, 2, 0.1, 200);
+    camera.position.set(0, 7.5, 26);
+    var controls = new OrbitControls(camera, canvas);
+    controls.enableDamping = true; controls.target.set(0,0.5,0);
+    controls.minDistance = 8; controls.maxDistance = 60;
+
+    scene.add(new THREE.AmbientLight(0xffffff, 0.85));
+    var key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(8,14,10); scene.add(key);
+    var fill = new THREE.DirectionalLight(0xdfe8f0, 0.4); fill.position.set(-10,-6,-8); scene.add(fill);
+
+    function labelSprite(text, color, scale){
+      color = color || '#222'; scale = scale || 1;
+      var c = document.createElement('canvas'); c.width = 256; c.height = 80;
+      var g = c.getContext('2d');
+      g.fillStyle = 'rgba(255,255,255,0.92)'; g.strokeStyle = color; g.lineWidth = 4;
+      if(g.roundRect){ g.beginPath(); g.roundRect(4,6,248,68,14); g.fill(); g.stroke(); }
+      else { g.fillRect(4,6,248,68); g.strokeRect(4,6,248,68); }
+      g.fillStyle = '#1a1a1a'; g.font = 'bold 26px sans-serif';
+      g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text,128,42);
+      var t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+      var s = new THREE.Sprite(new THREE.SpriteMaterial({map:t, transparent:true, depthTest:false}));
+      s.scale.set(2.4*scale, 0.75*scale, 1); return s;
+    }
+    function grayLabel(text, scale){
+      // Small gray tag for minor organelles — display-only, never added to pickables.
+      scale = scale || 0.5;
+      var c = document.createElement('canvas'); c.width = 256; c.height = 80;
+      var g = c.getContext('2d');
+      g.fillStyle = 'rgba(255,255,255,0.72)'; g.strokeStyle = '#9aa3b2'; g.lineWidth = 3;
+      if(g.roundRect){ g.beginPath(); g.roundRect(4,10,248,60,12); g.fill(); g.stroke(); }
+      else { g.fillRect(4,10,248,60); g.strokeRect(4,10,248,60); }
+      g.fillStyle = '#4b5563'; g.font = '22px sans-serif';
+      g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text,128,42);
+      var t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+      var s = new THREE.Sprite(new THREE.SpriteMaterial({map:t, transparent:true, depthTest:false, opacity:0.95}));
+      s.scale.set(2.4*scale, 0.75*scale, 1); return s;
+    }
+    function glowMat(color, intensity){
+      return new THREE.MeshStandardMaterial({color:color, emissive:color, emissiveIntensity:intensity, roughness:0.35, metalness:0.1});
+    }
+    var pickables = [], nodeInfo = {};
+    function addNode(group, id, tag, title, body, pos, color, r){
+      var m = new THREE.Mesh(new THREE.SphereGeometry(r, 28, 20), glowMat(color, 1.6));
+      m.position.copy(pos); m.userData.id = id; group.add(m);
+      var halo = new THREE.Mesh(new THREE.SphereGeometry(r*1.55, 20, 14),
+        new THREE.MeshBasicMaterial({color:color, transparent:true, opacity:0.16, depthWrite:false}));
+      halo.position.copy(pos); group.add(halo);
+      var lb = labelSprite(title, '#'+new THREE.Color(color).getHexString(), 0.85);
+      lb.position.copy(pos).add(new THREE.Vector3(0, r+0.75, 0)); group.add(lb);
+      pickables.push(m); nodeInfo[id] = {tag:tag, title:title, body:body, color:'#'+new THREE.Color(color).getHexString()};
+      return m;
+    }
+
+    function buildCell(){
+      // Scale: 1 scene unit = 1 µm. Cell ~12.5×10×10 µm; nucleus ~5.5 µm dia (~10% vol).
+      var cell = new THREE.Group();
+      var mem = new THREE.Mesh(new THREE.SphereGeometry(5, 48, 32),
+        new THREE.MeshPhysicalMaterial({color:0x9fc5d8, transparent:true, opacity:0.10, roughness:0.15, metalness:0, side:THREE.DoubleSide, depthWrite:false}));
+      mem.scale.set(1.25,1,1); cell.add(mem);
+      var memWire = new THREE.Mesh(new THREE.SphereGeometry(5.02, 24, 16),
+        new THREE.MeshBasicMaterial({color:0x7fa8bd, wireframe:true, transparent:true, opacity:0.10}));
+      memWire.scale.copy(mem.scale); cell.add(memWire);
+      var cyto = new THREE.Mesh(new THREE.SphereGeometry(4.85, 32, 24),
+        new THREE.MeshStandardMaterial({color:0xeef4f6, transparent:true, opacity:0.28, roughness:1, depthWrite:false}));
+      cyto.scale.set(1.25,1,1); cell.add(cyto);
+      var nuc = new THREE.Group(); nuc.position.set(-0.9, 0.4, 0.3);
+      // Outer + inner nuclear membrane (~5.5 µm dia nucleus; nucleolus ~1.6 µm)
+      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(2.75, 40, 28),
+        new THREE.MeshPhysicalMaterial({color:0xc9a06a, transparent:true, opacity:0.35, roughness:0.4, side:THREE.DoubleSide, depthWrite:false})));
+      nuc.add(new THREE.Mesh(new THREE.SphereGeometry(2.55, 32, 24),
+        new THREE.MeshStandardMaterial({color:0xf3e4c8, transparent:true, opacity:0.5, roughness:0.9})));
+      var nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.8, 20, 16),
+        new THREE.MeshStandardMaterial({color:0x8a5a3b, roughness:0.7}));
+      nucleolus.position.set(0.4,0.3,0.4); nuc.add(nucleolus);
+      var poreMat = new THREE.MeshStandardMaterial({color:0x6b4a2f, roughness:0.6});
+      // Nuclear pore complex ~120 nm dia → torus r≈0.05; 64 shown (real: thousands)
+      var pores = new THREE.InstancedMesh(new THREE.TorusGeometry(0.05, 0.02, 8, 14), poreMat, 64);
+      var poreDummy = new THREE.Object3D(), zAxis = new THREE.Vector3(0,0,1);
+      for(var i=0;i<64;i++){
+        var th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+        var p = new THREE.Vector3().setFromSphericalCoords(2.75, ph, th);
+        poreDummy.position.copy(p);
+        poreDummy.quaternion.setFromUnitVectors(zAxis, p.clone().normalize());
+        poreDummy.updateMatrix(); pores.setMatrixAt(i, poreDummy.matrix);
+      }
+      nuc.add(pores);
+      var pts = []; for(var k=0;k<40;k++) pts.push(new THREE.Vector3((Math.random()-0.5)*3.6,(Math.random()-0.5)*3.6,(Math.random()-0.5)*3.6));
+      nuc.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 120, 0.015, 6),
+        new THREE.MeshStandardMaterial({color:0x7b2cbf, transparent:true, opacity:0.55})));
+      cell.add(nuc);
+      function mitochondrion(x,y,z,ry){
+        // ~0.84 µm dia × ~1.7 µm long; cristae as transverse septa every ~0.15 µm
+        var g = new THREE.Group(); g.position.set(x,y,z); g.rotation.y = ry || 0;
+        var body = new THREE.Mesh(new THREE.CapsuleGeometry(0.42, 0.9, 6, 14),
+          new THREE.MeshStandardMaterial({color:0xe07a5f, roughness:0.55}));
+        body.rotation.z = Math.PI/2; g.add(body);
+        var inner = new THREE.Mesh(new THREE.CapsuleGeometry(0.3, 0.8, 4, 10),
+          new THREE.MeshStandardMaterial({color:0xf4d35e, transparent:true, opacity:0.5}));
+        inner.rotation.z = Math.PI/2; g.add(inner);
+        for(var c=-2;c<=2;c++){
+          var cr = new THREE.Mesh(new THREE.BoxGeometry(0.05,0.5,0.5),
+            new THREE.MeshStandardMaterial({color:0x9e2b25}));
+          cr.position.x = c*0.15; g.add(cr);
+        }
+        cell.add(g); return g;
+      }
+      cell.userData.mitos = [
+        mitochondrion(2.6,-1.2,1.2,0.4), mitochondrion(2.2,1.6,-1.0,-0.5),
+        mitochondrion(-3.4,-1.6,-0.6,0.9), mitochondrion(0.6,-2.4,-1.4,0.2),
+        mitochondrion(3.8,0.8,0.2,0.3), mitochondrion(1.0,2.6,1.0,-0.7),
+        mitochondrion(-1.5,2.8,-1.5,0.5), mitochondrion(-4.0,0.8,1.0,1.1),
+        mitochondrion(0.5,-2.8,1.5,0.2), mitochondrion(-2.0,-2.5,1.8,-0.4)];
+      // Rough ER: 5 stacked cisternae hugging the nucleus (continuous with outer
+      // nuclear membrane in vivo), studded with ~20 nm ribosomes (r=0.015).
+      // Stack sits just below the nucleus (bottom -2.35) and well inside the membrane.
+      var erMat = new THREE.MeshStandardMaterial({color:0x4a90a4, roughness:0.6, side:THREE.DoubleSide, transparent:true, opacity:0.85});
+      var erDotGeo = new THREE.SphereGeometry(0.015,6,6);
+      var erDotMat = new THREE.MeshBasicMaterial({color:0x333333});
+      for(var s=0;s<5;s++){
+        var sheet = new THREE.Mesh(new THREE.PlaneGeometry(3.6, 1.2, 16, 4), erMat);
+        var pa = sheet.geometry.attributes.position;
+        for(var v=0;v<pa.count;v++) pa.setZ(v, Math.sin(pa.getX(v)*2)*0.18);
+        sheet.geometry.computeVertexNormals();
+        sheet.position.set(-0.9, -2.4-s*0.26, 1.2); sheet.rotation.set(-0.5, 0.3, 0.1);
+        cell.add(sheet);
+        var erDots = new THREE.InstancedMesh(erDotGeo, erDotMat, 32);
+        var erDummy = new THREE.Object3D();
+        for(var rb=0;rb<32;rb++){
+          erDummy.position.set((Math.random()-0.5)*3.4, (Math.random()-0.5)*1.0, 0.06);
+          erDummy.updateMatrix(); erDots.setMatrixAt(rb, erDummy.matrix);
+        }
+        sheet.add(erDots);
+      }
+      // Golgi: 5 cisternae, ~30 nm thick, ~0.13 µm gap (stack ~0.7 µm tall,
+      // cis face toward ER/nucleus). Signaling nodes enlarged ~20×; anatomy to scale.
+      for(var gi=0;gi<5;gi++){
+        var plate = new THREE.Mesh(new THREE.CylinderGeometry(0.9-gi*0.06, 0.9-gi*0.06, 0.04, 24, 1, false, 0, Math.PI*1.3),
+          new THREE.MeshStandardMaterial({color:0x81b29a, roughness:0.5, side:THREE.DoubleSide}));
+        plate.position.set(2.8+gi*0.05, 0.2+gi*0.13, -1.2); plate.rotation.set(0.4,0.6,0.2); cell.add(plate);
+      }
+      // Lysosome ~0.5 µm dia + two endosomes + peroxisome for scale contrast
+      var lyso = new THREE.Mesh(new THREE.SphereGeometry(0.25,18,14),
+        new THREE.MeshStandardMaterial({color:0xf2cc8f, roughness:0.4}));
+      lyso.position.set(-2.8, 1.8, -1.2); cell.add(lyso);
+      var endo1 = new THREE.Mesh(new THREE.SphereGeometry(0.15,14,10),
+        new THREE.MeshStandardMaterial({color:0xe9c46a, roughness:0.5}));
+      endo1.position.set(-3.2, 0.5, 1.5); cell.add(endo1);
+      var endo2 = new THREE.Mesh(new THREE.SphereGeometry(0.12,14,10),
+        new THREE.MeshStandardMaterial({color:0xe9c46a, roughness:0.5}));
+      endo2.position.set(1.5, -1.5, -2.2); cell.add(endo2);
+      var perox = new THREE.Mesh(new THREE.SphereGeometry(0.14,14,10),
+        new THREE.MeshStandardMaterial({color:0x90be6d, roughness:0.5}));
+      perox.position.set(3.0, 2.0, 1.5); cell.add(perox);
+      // Free ribosomes ~25 nm (r=0.015); 500 shown (real: hundreds of thousands).
+      // Excluded from the nucleus (r≈3.0 around nuc center), kept in ellipsoid.
+      var ribs = new THREE.InstancedMesh(new THREE.SphereGeometry(0.015,6,6), new THREE.MeshBasicMaterial({color:0x555555}), 500);
+      var dummy = new THREE.Object3D();
+      var nucC = new THREE.Vector3(-0.9,0.4,0.3), tmpV = new THREE.Vector3();
+      var placed = 0, guard = 0;
+      while(placed < 500 && guard++ < 6000){
+        tmpV.set((Math.random()-0.5)*10,(Math.random()-0.5)*7,(Math.random()-0.5)*7);
+        if(tmpV.distanceTo(nucC) < 3.0) continue;
+        if(Math.pow(tmpV.x/6.0,2)+Math.pow(tmpV.y/4.7,2)+Math.pow(tmpV.z/4.7,2) > 1) continue;
+        dummy.position.copy(tmpV);
+        dummy.updateMatrix(); ribs.setMatrixAt(placed++, dummy.matrix);
+      }
+      ribs.count = placed;
+      cell.add(ribs);
+      // Centrosome: two centrioles (~0.2×0.5 µm) + pericentriolar cloud
+      var centriMat = new THREE.MeshStandardMaterial({color:0x5e60ce, roughness:0.5});
+      var centriC = new THREE.Vector3(1.5,2.2,-0.2);
+      var cen1 = new THREE.Mesh(new THREE.CylinderGeometry(0.1,0.1,0.4,14), centriMat);
+      cen1.position.copy(centriC); cell.add(cen1);
+      var cen2 = new THREE.Mesh(new THREE.CylinderGeometry(0.1,0.1,0.4,14), centriMat);
+      cen2.position.copy(centriC).add(new THREE.Vector3(0.25,0.1,0.1)); cen2.rotation.z = Math.PI/2; cell.add(cen2);
+      var pcm = new THREE.Mesh(new THREE.SphereGeometry(0.3,14,10),
+        new THREE.MeshStandardMaterial({color:0x5e60ce, transparent:true, opacity:0.25, depthWrite:false}));
+      pcm.position.copy(centriC); cell.add(pcm);
+      var skelMat = new THREE.LineBasicMaterial({color:0x9aa3b2, transparent:true, opacity:0.35});
+      for(var li=0;li<6;li++){
+        var tip = centriC.clone().add(new THREE.Vector3((Math.random()-0.5)*9,(Math.random()-0.5)*6,(Math.random()-0.5)*6));
+        cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([centriC.clone(), tip]), skelMat));
+      }
+      for(var lj=0;lj<6;lj++){
+        var a = new THREE.Vector3((Math.random()-0.5)*9,(Math.random()-0.5)*6,(Math.random()-0.5)*6);
+        var b = a.clone().add(new THREE.Vector3((Math.random()-0.5)*4,(Math.random()-0.5)*3,(Math.random()-0.5)*3));
+        cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([a,b]), skelMat));
+      }
+      // 1 µm scale bar (1 unit = 1 µm)
+      var barMat = new THREE.LineBasicMaterial({color:0x555555});
+      var barY = -4.4;
+      cell.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(
+        [new THREE.Vector3(-0.5,barY,0), new THREE.Vector3(0.5,barY,0)]), barMat));
+      var barLb = labelSprite('1 µm', '#555555', 0.55); barLb.position.set(0, barY+0.45, 0); cell.add(barLb);
+      // Minor-organelle tags: small gray labels, non-clickable (never in pickables).
+      var minors = [
+        {t:'nucleus',       p:[-3.2,-1.8,0.6]},
+        {t:'mitochondrion', p:[-4.0,1.75,1.0]},
+        {t:'rough ER',      p:[-3.2,-2.9,1.2]},
+        {t:'Golgi',         p:[3.0,-0.6,-1.2]},
+        {t:'lysosome',      p:[-3.5,2.05,-1.2]},
+        {t:'centrosome',    p:[1.5,2.95,-0.2]}
+      ];
+      minors.forEach(function(o){
+        var lb = grayLabel(o.t, 0.5);
+        lb.position.set(o.p[0], o.p[1], o.p[2]); cell.add(lb);
+      });
+      return cell;
+    }
+
+    /* ---- female: centralized star ---- */
+    var female = buildCell(); female.position.x = -7.2; scene.add(female);
+    var F = new THREE.Group(); female.add(F);
+    var HUB_C = 0x7f1d2c;
+    var hub = new THREE.Mesh(new THREE.SphereGeometry(0.55,30,22), glowMat(HUB_C, 2.0));
+    hub.position.set(-0.9,0.4,0.3); hub.userData.id = 'hub'; F.add(hub);
+    var hubHalo = new THREE.Mesh(new THREE.SphereGeometry(1.0,20,14),
+      new THREE.MeshBasicMaterial({color:HUB_C, transparent:true, opacity:0.18, depthWrite:false}));
+    hubHalo.position.copy(hub.position); F.add(hubHalo);
+    pickables.push(hub);
+    nodeInfo['hub'] = {tag:'♀ hub · E2→ER · master mediator', title:'E2 → ER hub',
+      body:'Estradiol binds ERα/β in the nucleus and fans out to 9 arms (SIRT1, SIRT3, SOD2, Bcl-2, IκBα→NF-κB, HDAC3→STING, PARP-1, TERT, p53). One switch, nine spokes — menopause withdraws all nine at once.', color:'#7f1d2c'};
+    var hubLabel = labelSprite('E2→ER hub', '#7f1d2c', 1.1);
+    hubLabel.position.copy(hub.position).add(new THREE.Vector3(0,1.35,0)); F.add(hubLabel);
+    // cell-level title — parented to the cell group so it swings with rotation
+    var fTitle = labelSprite('♀ Female: E2→ER', '#7f1d2c', 1.4);
+    fTitle.position.set(0, 4.6, 0); female.add(fTitle);
+    var ARMS = [
+      {id:'sirt1', t:'SIRT1 ↑', c:0xc1121f, p:[-0.9,2.0,0.3],  d:'Nuclear transcription: ER-driven deacetylase tone. Lost at menopause → mitochondrial dysfunction.'},
+      {id:'parp1f', t:'PARP-1', c:0xc1121f, p:[-2.3,0.9,0.9],  d:'DNA repair held ready; E2 stabilizes PARP-1. Withdrawal accelerates NAD⁺ depletion.'},
+      {id:'tert', t:'TERT ↑', c:0xc1121f, p:[-0.9,-1.3,0.3],   d:'Telomerase switched on by E2; attrition speeds up after withdrawal.'},
+      {id:'p53', t:'p53 ctrl', c:0xc1121f, p:[0.5,0.4,0.3],    d:'Dual control (activate + sequester); dysregulated after E2 loss.'},
+      {id:'sirt3', t:'SIRT3 ↑', c:0xe07a5f, p:[2.6,-0.4,1.2],  d:'Mitochondrial redox dial: E2 drives SIRT3 mito-targeting.'},
+      {id:'sod2', t:'SOD2 ↑', c:0xe07a5f, p:[2.2,2.4,-1.0],    d:'MnSOD antioxidant shield protein upregulated by E2.'},
+      {id:'bcl2', t:'Bcl-2 ↑', c:0xe07a5f, p:[-3.4,-0.8,-0.6], d:'Anti-apoptotic hold at mito/ER; neuronal vulnerability rises after loss.'},
+      {id:'nfkb', t:'NF-κB ↓', c:0x2a9d8f, p:[1.4,-2.0,1.4],   d:'Inflammation brake: E2 ↑ IκBα → NF-κB ↓. Removal → inflammaging.'},
+      {id:'sting', t:'STING ↓', c:0x2a9d8f, p:[2.9,1.2,-1.2],  d:'Innate-immune restraint via HDAC3 → STING ↓; cGAS-STING activates after loss.'}
+    ];
+    var spokeMat = new THREE.LineBasicMaterial({color:HUB_C, transparent:true, opacity:0.75});
+    ARMS.forEach(function(a){
+      var pos = new THREE.Vector3(a.p[0], a.p[1], a.p[2]);
+      var m = new THREE.Mesh(new THREE.SphereGeometry(0.3,22,16), glowMat(a.c, 1.4));
+      m.position.copy(pos); m.userData.id = a.id; F.add(m);
+      var lb = labelSprite(a.t, '#'+new THREE.Color(a.c).getHexString(), 0.7);
+      lb.position.copy(pos).add(new THREE.Vector3(0,0.62,0)); F.add(lb);
+      pickables.push(m);
+      nodeInfo[a.id] = {tag:'♀ spoke · estrogen arm', title:a.t, body:a.d, color:'#'+new THREE.Color(a.c).getHexString()};
+      F.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([hub.position, pos]), spokeMat));
+    });
+    var e2Geo = new THREE.BufferGeometry(), E2N = 90, e2Pos = new Float32Array(E2N*3);
+    function resetE2(i){
+      var th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+      e2Pos[i*3] = -0.9+Math.cos(th)*Math.sin(ph)*7; e2Pos[i*3+1] = 0.4+Math.cos(ph)*5; e2Pos[i*3+2] = 0.3+Math.sin(th)*Math.sin(ph)*5;
+    }
+    for(var e=0;e<E2N;e++) resetE2(e);
+    e2Geo.setAttribute('position', new THREE.BufferAttribute(e2Pos,3));
+    var e2Pts = new THREE.Points(e2Geo, new THREE.PointsMaterial({color:0xffd166, size:0.16, transparent:true, opacity:0.95}));
+    female.add(e2Pts);
+
+    /* ---- male: distributed mesh, empty center ---- */
+    var male = buildCell(); male.position.x = 7.2; scene.add(male);
+    var M = new THREE.Group(); male.add(M);
+    var emptyC = new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.045, 10, 40),
+      new THREE.MeshBasicMaterial({color:0x9aa3b2, transparent:true, opacity:0.7}));
+    emptyC.position.set(-0.2,0.2,0.2); M.add(emptyC);
+    var mTitle = labelSprite('♂ Male: T→AR', '#2e4a5d', 1.4);
+    mTitle.position.set(0, 4.6, 0); male.add(mTitle);
+    var emptyLb = labelSprite('no center', '#6b7280', 0.8); emptyLb.position.set(-0.2,1.25,0.2); M.add(emptyLb);
+    var MALE = [
+      {id:'ar', t:'T→AR drive', c:0x2a9d8f, p:[3.4,0.6,0.6], r:0.5,
+       tag:'♂ node 1 · drive · anabolic/immune', d:'Testosterone crosses the membrane → AR. 100 nM T → p-ERK (5 min) → p-Akt (15 min) → 3.5× p-S6K1 (60 min, Basualto-Alarcón 2013). Anti-inflammatory (↓TNF-α/IL-6, ↑IL-10, NF-κB↓) but bidirectional: inflammaging (GDF-15) suppresses T. Pro-cancer in prostate/liver/melanoma.'},
+      {id:'loy', t:'mLOY', c:0xc1121f, p:[-2.6,1.4,-0.4], r:0.5,
+       tag:'♂ node 2 · accelerator · pathogenic gain', d:'Mosaic loss-of-Y: 40% @70y → 57% @93y. HR 1.91 all-cause mortality (Forsberg 2014); fatal-MI HR 2.65 (LURIC). Causal: BM-LOY mice → fibrosis/HF, TGFβ1 rescue (Sano Science 2022). A clone gained, not protection lost.'},
+      {id:'sx', t:'Single-X', c:0x2e4a5d, p:[-0.9,-1.5,0.3], r:0.46,
+       tag:'♂ node 3 · structure · lifelong deficit', d:'6 EXITS tumor suppressors (ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, MAGEC3) lack biallelic backup in XY (Dunford 2017). Weak Y-paralog rescue (UTY, DDX3Y) — deleted when LOY strikes.'},
+      {id:'parp', t:'PARP-1/AIF', c:0xb5892e, p:[2.4,-1.0,1.0], r:0.5,
+       tag:'♂ node 4 · execution · parthanatos', d:'Male death default: nNOS → PARP overactivation → NAD⁺ depletion → AIF→nucleus → 50-kbp fragments. PARP-1 KO: ♂ infarct 19.7 vs 38.4 protected; ♀OVX 52.2 vs 36.0 harmed (Liu Stroke 2011).'},
+      {id:'sirt6', t:'SIRT6', c:0x7b2cbf, p:[-0.9,2.1,0.2], r:0.5,
+       tag:'♂ node 5 · growth · longevity set-point', d:'Sirt6-Tg males +14.5% median lifespan via ↓IGF-1 + ↑IGFBP1 (Kanfi Nature 2012); male-stronger in both sexes (Roichman 2021). Canonical autophagy (Beclin-1→LC3-II→p62↓).'}
+    ];
+    var maleMeshes = MALE.map(function(n){
+      return addNode(M, n.id, n.tag, n.t, n.d, new THREE.Vector3(n.p[0], n.p[1], n.p[2]), n.c, n.r);
+    });
+    var meshMat = new THREE.LineBasicMaterial({color:0x2e4a5d, transparent:true, opacity:0.5});
+    for(var mi=0;mi<maleMeshes.length;mi++) for(var mj=mi+1;mj<maleMeshes.length;mj++){
+      M.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([maleMeshes[mi].position, maleMeshes[mj].position]), meshMat));
+    }
+    var tGeo = new THREE.BufferGeometry(), TN = 40, tPos = new Float32Array(TN*3);
+    function resetT(i){ tPos[i*3] = 5.5+Math.random()*1.5; tPos[i*3+1] = (Math.random()-0.5)*5; tPos[i*3+2] = (Math.random()-0.5)*5; }
+    for(var ti=0;ti<TN;ti++) resetT(ti);
+    tGeo.setAttribute('position', new THREE.BufferAttribute(tPos,3));
+    var tPts = new THREE.Points(tGeo, new THREE.PointsMaterial({color:0x2a9d8f, size:0.15, transparent:true, opacity:0.9}));
+    male.add(tPts);
+    var divider = new THREE.Mesh(new THREE.PlaneGeometry(0.06, 14),
+      new THREE.MeshBasicMaterial({color:0xcccccc, transparent:true, opacity:0.5, side:THREE.DoubleSide}));
+    divider.position.set(0,0.5,-3); scene.add(divider);
+
+    /* ---- interaction ---- */
+    var ray = new THREE.Raycaster(), ptr = new THREE.Vector2(), downAt = 0;
+    var info = document.getElementById('cell3d-info'),
+        itag = document.getElementById('cell3d-info-tag'),
+        ititle = document.getElementById('cell3d-info-title'),
+        ibody = document.getElementById('cell3d-info-body');
+    canvas.addEventListener('pointerdown', function(){ downAt = performance.now(); });
+    canvas.addEventListener('pointerup', function(ev){
+      if(performance.now()-downAt > 250) return;
+      var r = canvas.getBoundingClientRect();
+      ptr.x = ((ev.clientX-r.left)/r.width)*2-1; ptr.y = -((ev.clientY-r.top)/r.height)*2+1;
+      ray.setFromCamera(ptr, camera);
+      var hit = ray.intersectObjects(pickables, false)[0];
+      if(hit){
+        var n = nodeInfo[hit.object.userData.id];
+        itag.textContent = n.tag; itag.style.color = n.color;
+        ititle.textContent = n.title; ibody.textContent = n.body;
+        info.style.display = 'block';
+        pickables.forEach(function(p){ p.material.emissiveIntensity = 1.2; });
+        hit.object.material.emissiveIntensity = 3.0;
+      } else info.style.display = 'none';
+    });
+    canvas.addEventListener('pointermove', function(ev){
+      var r = canvas.getBoundingClientRect();
+      ptr.x = ((ev.clientX-r.left)/r.width)*2-1; ptr.y = -((ev.clientY-r.top)/r.height)*2+1;
+      ray.setFromCamera(ptr, camera);
+      canvas.style.cursor = ray.intersectObjects(pickables, false).length ? 'pointer' : 'grab';
+    });
+
+    /* ---- fixed young-adult baseline (no toolbar): hub lit, T→AR lit, LOY minimal ---- */
+    var rotate = true, pulse = true;
+    /* ---- mobile two-card view: one cell fills the canvas ---- */
+    var view = 'both', fly = null;
+    var mq = window.matchMedia('(max-width:640px)');
+    function frame(v){
+      var tgt = new THREE.Vector3(v === 'male' ? 7.2 : v === 'female' ? -7.2 : 0, 0.5, 0);
+      var pos = new THREE.Vector3(v === 'both' ? 0 : (v === 'male' ? 7.2 : -7.2), v === 'both' ? 7.5 : 5, v === 'both' ? 26 : 15);
+      return {pos:pos, tgt:tgt};
+    }
+    function flyTo(v, instant){
+      var to = frame(v);
+      if(instant){ camera.position.copy(to.pos); controls.target.copy(to.tgt); return; }
+      fly = {t:0, p0:camera.position.clone(), t0:controls.target.clone(), p1:to.pos, t1:to.tgt};
+    }
+    function setView(v, instant){
+      view = v;
+      female.visible = (v !== 'male'); male.visible = (v !== 'female');
+      if(v !== 'both') rotate = false;
+      document.querySelectorAll('.cell3d-card').forEach(function(c){
+        c.classList.toggle('active', c.dataset.view === v);
+      });
+      flyTo(v, instant);
+    }
+    document.querySelectorAll('.cell3d-card').forEach(function(c){
+      c.addEventListener('click', function(){ setView(c.dataset.view, false); });
+    });
+    if(mq.matches) setView('female', true);
+    (function applyBaseline(){
+      var e2 = 1;
+      hub.material.emissiveIntensity = 0.4+1.8*e2;
+      hubHalo.material.opacity = 0.05+0.16*e2;
+      e2Pts.material.opacity = 0.95*e2; e2Pts.visible = true;
+      F.children.forEach(function(o){ if(o.isLine) o.material.opacity = 0.1+0.65*e2; });
+      var loyM = maleMeshes[1], arM = maleMeshes[0];
+      arM.material.emissiveIntensity = 0.5+1.4*1; tPts.material.opacity = 0.9;
+      loyM.scale.setScalar(1+0.05*0.9); loyM.userData.ageBase = 1+0.05*0.9; loyM.material.emissiveIntensity = 1.2+1.6*0.05;
+    })();
+
+    /* ---- loop (pauses off-screen) ---- */
+    var visible = true;
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(es){ visible = es[0].isIntersecting; }).observe(canvas);
+    }
+    function resize(){
+      var w = canvas.parentElement.clientWidth || canvas.clientWidth, h = 560;
+      renderer.setSize(w, h, false); renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      camera.aspect = w/h; camera.updateProjectionMatrix();
+      if(!mq.matches && view !== 'both') setView('both', false);
+    }
+    window.addEventListener('resize', resize); resize();
+    var clock = new THREE.Clock();
+    (function tick(){
+      requestAnimationFrame(tick);
+      if(!visible) return;
+      var t = clock.getElapsedTime();
+      if(view === 'both' && rotate){ female.rotation.y = Math.sin(t*0.15)*0.15; male.rotation.y = Math.sin(t*0.15+1)*0.15; }
+      if(fly){ fly.t = Math.min(1, fly.t + 0.04); var k = 1-Math.pow(1-fly.t,3); camera.position.lerpVectors(fly.p0, fly.p1, k); controls.target.lerpVectors(fly.t0, fly.t1, k); if(fly.t >= 1) fly = null; }
+      if(pulse){
+        hub.scale.setScalar(1+Math.sin(t*2.4)*0.12);
+        hubHalo.scale.setScalar(1+Math.sin(t*2.4)*0.08);
+        maleMeshes.forEach(function(m,i){ if(i !== 1){ var b = m.userData.ageBase || 1; m.scale.setScalar(b*(1+Math.sin(t*2+i)*0.06)); } });
+        emptyC.rotation.z = t*0.4;
+      }
+      var ep = e2Geo.attributes.position;
+      for(var i=0;i<E2N;i++){
+        ep.array[i*3]   += (-0.9-ep.array[i*3])*0.008;
+        ep.array[i*3+1] += (0.4-ep.array[i*3+1])*0.008;
+        ep.array[i*3+2] += (0.3-ep.array[i*3+2])*0.008;
+        if(Math.hypot(ep.array[i*3]+0.9, ep.array[i*3+1]-0.4, ep.array[i*3+2]-0.3) < 0.6) resetE2(i);
+      }
+      ep.needsUpdate = true;
+      var tp = tGeo.attributes.position;
+      for(var j=0;j<TN;j++){
+        tp.array[j*3]   += (3.4-tp.array[j*3])*0.01;
+        tp.array[j*3+1] += (0.6-tp.array[j*3+1])*0.01;
+        tp.array[j*3+2] += (0.6-tp.array[j*3+2])*0.01;
+        if(Math.hypot(tp.array[j*3]-3.4, tp.array[j*3+1]-0.6, tp.array[j*3+2]-0.6) < 0.5) resetT(j);
+      }
+      tp.needsUpdate = true;
+      controls.update(); renderer.render(scene, camera);
+    })();
+  }
 })();
 </script>
 

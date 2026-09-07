@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-04T18:41:10Z",
-  "node_count": 3067,
-  "edge_count": 36348,
+  "generated_at": "2026-09-07T03:23:16Z",
+  "node_count": 3079,
+  "edge_count": 36492,
   "reference_links": {
     "document_notes": {
-      "total_targets": 124,
-      "total_links": 4073
+      "total_targets": 135,
+      "total_links": 4119
     },
     "task_outputs": {
       "total_targets": 24,
       "total_links": 146
     }
   },
-  "total_orphan_targets": 4734,
-  "total_orphan_links": 11685,
+  "total_orphan_targets": 4740,
+  "total_orphan_links": 11684,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",

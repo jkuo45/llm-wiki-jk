@@ -5,13 +5,13 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
-                "path": "pages/en-US/sirtuins_pleiotropic_roles.html",
+                "path": "pages/en-US/sirtuins-pleiotropic-roles.html",
                 "created": "2026-08-13",
                 "updated": "2026-08-15"
             },
             "zh-TW": {
                 "title": "腫瘤細胞代謝中的多效性",
-                "path": "pages/zh-TW/sirtuins_pleiotropic_roles.html",
+                "path": "pages/zh-TW/sirtuins-pleiotropic-roles.html",
                 "created": "2026-08-14",
                 "updated": "2026-08-16"
             }
@@ -320,6 +320,24 @@
                 "path": "pages/zh-TW/cell-death-comparison-table.html",
                 "created": "2026-09-03",
                 "updated": "2026-09-03"
+            }
+        }
+    },
+    {
+        "id": "cell-death-animations",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Cell Death Animations [three.js]",
+                "path": "pages/en-US/cell-death-animations.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
+            },
+            "zh-TW": {
+                "title": "細胞死亡動畫 [three.js]",
+                "path": "pages/zh-TW/cell-death-animations.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
             }
         }
     },

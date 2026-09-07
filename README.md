@@ -4,19 +4,20 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 03_SEP_2026 | 34 | 1761 | 1,126,418 | 10.54 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 06_SEP_2026 | 34 | 1762 | 1,127,790 | 10.56 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 03_SEP_2026 | 19 | 257 | 196,616 | 2.62 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 03_SEP_2026 | 12 | 226 | 181,598 | 1.70 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 03_SEP_2026 | 11 | 278 | 244,881 | 3.02 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 06_SEP_2026 | 11 | 277 | 244,354 | 3.01 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 06_SEP_2026 | 4 | 7 | 4,536 | 0.05 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.52 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 03_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
-| [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 04_SEP_2026 | 7 | 7 | 64,965 | 0.60 MB |
+| [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative_stress) [[src/notes/oxidative_stress/README\|wiki]] | 03_SEP_2026 | 1 | 94 | 79,170 | 1.07 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 06_SEP_2026 | 1 | 94 | 79,170 | 1.07 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 155,510 | 2.20 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 03_SEP_2026 | 20 | 173 | 313,711 | 3.99 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 06_SEP_2026 | 20 | 173 | 313,731 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 04_SEP_2026 | **132** | **3205** | **2,655,779** | **29.25 MB** |
+| **subtotal** | 06_SEP_2026 | **136** | **3220** | **2,664,243** | **29.34 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -28,14 +29,14 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,424 | 39,222 |
-| **Triples** | `triples-*.json` | 3,403 | 6,356 |
-| **Wiki** | `wiki-*.json` | 3,067 | 36,348 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,436 | 39,386 |
+| **Triples** | `triples-*.json` | 3,427 | 6,412 |
+| **Wiki** | `wiki-*.json` | 3,079 | 36,492 |
 
-Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
+Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 
 > [!NOTE] Combined merge
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,046 entities appear in both sources (3,403 triples + 3,067 wiki − 2,046 shared → 4,424); edges are unioned by (`from`, `to`) pair — 3,180 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 <!-- END GENERATED: graph_datasets -->
 
 ---
@@ -106,7 +107,7 @@ Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
 - 💊 [Nicotinamide Riboside — Current State of Research](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|wiki]]
   - Reviews NR as an NAD⁺ precursor for treating metabolic, cardiovascular, and neurodegenerative disorders, covering bioavailability, safety, and potential against SARS-CoV-2.
   - 🀄️ (zh-TW): 探討菸醯胺核醣苷（NR）作為NAD⁺前驅物，用於治療代謝、心血管及神經退化性疾病，涵蓋生物利用度、安全性及對抗SARS-CoV-2的潛力。
-- ⚡ [Oxidative Stress: Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[_document_ - Oxidative Stress Harms and Benefits for Human Health|wiki]]
+- ⚡ [Oxidative Stress: Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[_document_ - Oxidative Stress Harms and Benefits for Human Health|wiki]]
   - Describes ROS as a double-edged sword: physiological roles in signaling/immunity vs. pathological roles in cancer, diabetes, and CVD; discusses therapeutic exploitation of oxidative stress.
   - 🀄️ (zh-TW): 闡述活性氧（ROS）的雙面性——在訊息傳遞與免疫中的生理角色，與在癌症、糖尿病、心血管疾病中的病理作用，並討論氧化壓力的治療性應用。
 - 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|wiki]]
@@ -148,14 +149,19 @@ Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
 ## Documents
 
 <details>
-<summary><strong>Documents (132 total)</strong> — click to expand</summary>
+<summary><strong>Documents (136 total)</strong> — click to expand</summary>
 
-- `hormesis`: [2018_Oliveira_POS-conditioning-hormesis_Front-Physiol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md) [[src/notes/hormesis/_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md|wiki]] (04_SEP_2026 08:26 AM PDT)
-- `hormesis`: [2025_Fonseca_brosimineB-hormesis_Front-Pharmacol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md) [[src/notes/hormesis/_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md|wiki]] (04_SEP_2026 08:26 AM PDT)
-- `hormesis`: [2025_Kim_DAMP-trained-immunity_Front-Immunol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Kim_DAMP-trained-immunity_Front-Immunol.md) [[src/notes/hormesis/_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md|wiki]] (04_SEP_2026 08:26 AM PDT)
-- `hormesis`: [2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md) [[src/notes/hormesis/_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md|wiki]] (04_SEP_2026 08:26 AM PDT)
-- `hormesis`: [2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md) [[src/notes/hormesis/_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md|wiki]] (04_SEP_2026 08:26 AM PDT)
-- `hormesis`: [2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md) [[src/notes/hormesis/_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md|wiki]] (04_SEP_2026 08:26 AM PDT)
+- `oxidative-stress`: [Oxidative Stress Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[src/notes/oxidative-stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md|wiki]] (06_SEP_2026 08:25 PM PDT)
+- `hormesis`: [2018_Oliveira_POS-conditioning-hormesis_Front-Physiol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md) [[src/notes/hormesis/_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md|wiki]] (06_SEP_2026 08:19 PM PDT)
+- `hormesis`: [2025_Fonseca_brosimineB-hormesis_Front-Pharmacol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md) [[src/notes/hormesis/_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md|wiki]] (06_SEP_2026 08:19 PM PDT)
+- `hormesis`: [2025_Kim_DAMP-trained-immunity_Front-Immunol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Kim_DAMP-trained-immunity_Front-Immunol.md) [[src/notes/hormesis/_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md|wiki]] (06_SEP_2026 08:19 PM PDT)
+- `hormesis`: [2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md) [[src/notes/hormesis/_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md|wiki]] (06_SEP_2026 08:19 PM PDT)
+- `hormesis`: [2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md) [[src/notes/hormesis/_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md|wiki]] (06_SEP_2026 08:19 PM PDT)
+- `hormesis`: [2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md) [[src/notes/hormesis/_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md|wiki]] (06_SEP_2026 08:19 PM PDT)
+- `cell-death`: [Necroptosis a regulated inflammatory mode of cell death](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Necroptosis%20a%20regulated%20inflammatory%20mode%20of%20cell%20death.md) [[src/notes/cell-death/_document_ - Necroptosis a regulated inflammatory mode of cell death.md|wiki]] (06_SEP_2026 08:18 PM PDT)
+- `cell-death`: [Parthanatos Andrabi 2006 PAR polymer death signal](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20Andrabi%202006%20PAR%20polymer%20death%20signal.md) [[src/notes/cell-death/_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md|wiki]] (06_SEP_2026 08:18 PM PDT)
+- `cell-death`: [Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20Andrabi%202008%20mitochondrial%20nuclear%20crosstalk.md) [[src/notes/cell-death/_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md|wiki]] (06_SEP_2026 08:18 PM PDT)
+- `cell-death`: [Parthanatos David 2009 messenger of death](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20David%202009%20messenger%20of%20death.md) [[src/notes/cell-death/_document_ - Parthanatos David 2009 messenger of death.md|wiki]] (06_SEP_2026 08:18 PM PDT)
 - `hormesis`: [2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md) [[src/notes/hormesis/_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md|wiki]] (04_SEP_2026 08:26 AM PDT)
 - `_link`: [Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Mitochondrial%20Fusion%20and%20Fission%20The%20fine-tune%20balance%20for%20cellular%20homeostasis.md) [[src/notes/_link/_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md|wiki]] (03_SEP_2026 11:52 AM PDT)
 - `_link`: [The role of mitochondrial dynamics in disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20The%20role%20of%20mitochondrial%20dynamics%20in%20disease.md) [[src/notes/_link/_document_ - The role of mitochondrial dynamics in disease.md|wiki]] (03_SEP_2026 11:52 AM PDT)
@@ -237,7 +243,6 @@ Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
 - `_link`: [Could this enzyme help remove "zombie" cells from our tissues?](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Could%20this%20enzyme%20help%20remove%20%22zombie%22%20cells%20from%20our%20tissues%3F.md) [[src/notes/_link/_document_ - Could this enzyme help remove "zombie" cells from our tissues?.md|wiki]] (24_JUL_2026 10:52 PM PDT)
 - `_link`: [creatine anti-cancer trace](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20creatine%20anti-cancer%20trace.md) [[src/notes/_link/_document_ - creatine anti-cancer trace.md|wiki]] (24_JUL_2026 01:17 AM PDT)
 - `autophagy`: [mTOR signaling at a glance](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/_document_%20-%20mTOR%20signaling%20at%20a%20glance.md) [[src/notes/autophagy/_document_ - mTOR signaling at a glance.md|wiki]] (24_JUL_2026 01:17 AM PDT)
-- `oxidative_stress`: [Oxidative Stress Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[src/notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md|wiki]] (24_JUL_2026 01:17 AM PDT)
 - `_link`: [Methylene Blue - StatPearls](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Methylene%20Blue%20-%20StatPearls.md) [[src/notes/_link/_document_ - Methylene Blue - StatPearls.md|wiki]] (24_JUL_2026 01:11 AM PDT)
 - `_link`: [Neuroprotective Actions of Methylene Blue and Its Derivatives](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Neuroprotective%20Actions%20of%20Methylene%20Blue%20and%20Its%20Derivatives.md) [[src/notes/_link/_document_ - Neuroprotective Actions of Methylene Blue and Its Derivatives.md|wiki]] (24_JUL_2026 01:11 AM PDT)
 - `_link`: [Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Aminoguanidine%20An%20AGE%20Product%20Inhibitor%20%20Antiaging%20Systems%20Articles.md) [[src/notes/_link/_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md|wiki]] (21_JUL_2026 07:57 PM PDT)
@@ -290,14 +295,16 @@ Build: 04_SEP_2026 · hash `3c0aa7a7707c13b4`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (99 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (101 total)</strong> — click to expand</summary>
 
-- [task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md) [[src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md|wiki]] (05_SEP_2026 08:23 AM PDT)
+- [task_output_arh3_par_aif_06_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_arh3_par_aif_06_SEP_2026.md) [[src/tasks/task_output_arh3_par_aif_06_SEP_2026.md|wiki]] (06_SEP_2026 11:01 AM PDT)
+- [task_output_sex_dimorphic_cell_death_05_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md) [[src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md|wiki]] (05_SEP_2026 10:57 PM PDT)
+- [task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md) [[src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md|wiki]] (05_SEP_2026 11:15 AM PDT)
+- [task_output_tbl_cell_death_comparison_03_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md) [[src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md|wiki]] (05_SEP_2026 11:15 AM PDT)
 - [task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md) [[src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md|wiki]] (04_SEP_2026 09:49 PM PDT)
 - [task_output_hormesis_literature_invisibility_02_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) [[src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md|wiki]] (04_SEP_2026 08:29 AM PDT)
 - [task_output_hormetic_range_expansion_03_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md) [[src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md|wiki]] (04_SEP_2026 08:29 AM PDT)
 - [task_output_gender_specific_attributes_vault_topics_02_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md) [[src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md|wiki]] (03_SEP_2026 12:21 PM PDT)
-- [task_output_tbl_cell_death_comparison_03_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md) [[src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md|wiki]] (03_SEP_2026 10:18 AM PDT)
 - [task_output_mnsod_thioredoxin_link_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md) [[src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [`adrenochrome_mb_ag/` task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md) [[src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md|wiki]] (02_SEP_2026 12:50 AM PDT)
 - [task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md) [[src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md|wiki]] (02_SEP_2026 12:45 AM PDT)

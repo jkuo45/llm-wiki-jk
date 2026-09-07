@@ -36,6 +36,10 @@ AIFM1 mutations cause mitochondrial disease; FSP1 loss sensitizes tumors to ferr
 
   - [[_document_ - Ferroptosis past present and future|Ferroptosis: past, present and future]]
     - The review explains that FSP1 was formerly known as AIFM2/AIF-M2; it reintroduces AIF in the ferroptosis context and describes FSP1 as a myristoylated plasma-membrane oxidoreductase reducing CoQ10.
+  - [[_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk|Andrabi/Dawson 2008 Ann NY Acad Sci]]
+    - AIFM1 is the parthanatos executioner: PARP-1-KO cells fail to release AIF; knockdown/neutralization protects; Harlequin (~80% reduction) resists NMDA/PAR and stroke; re-expression restores susceptibility.
+  - [[_document_ - Parthanatos David 2009 messenger of death|David et al. 2009 Front Biosci]]
+    - AIF maturation 67→62→57 kDa, FAD/NADH oxidoreductase fold, Complex-I/redox day-job; nuclear translocation kills caspase-independently via CypA; blocked by neutralizing antibodies/HSP70.
 
 ## Connections
 

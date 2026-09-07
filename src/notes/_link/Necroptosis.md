@@ -100,6 +100,8 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
   - SIRT3 promotes apoptosis and necroptosis to inhibit cancer growth but protects in stress injury; SIRT3 deficiency promotes necroptosis and NLRP3 in diabetic cardiomyopathy; SIRT2 modulates cisplatin renal apoptosis/necroptosis.
 - [[_document_ - Ferroptosis past present and future|Ferroptosis past present and future]]
   - Table 1 contrast of ferroptosis/apoptosis/autophagy/necroptosis; complex-I-inhibition ROS co-triggering necroptosis + ferroptosis; folic-acid AKI as ferroptosis-not-necroptosis control.
+- [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
+  - Timeline synthesis: TNFR1 Complex I/II/necrosome, non-classical TRIF/ZBP1 arms, RIPK1/RIPK3 phospho-site map, RIPK3 inflammasome scaffolding, bacterial/viral evasion, neurodegeneration (ALS/PD/MS/SCI) and Nec-1/SAHA/24S-OHC agents.
 
 ## Connections
 

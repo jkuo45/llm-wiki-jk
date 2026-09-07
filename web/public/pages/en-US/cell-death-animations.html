@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cell Death Animations — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · PANoptosis</title>
+<meta name="description" content="Realistic three.js animations of eight cell death programs — watch shrinkage, blebbing, swelling, rupture, pores, and fragmentation unfold in each cell.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-animations.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<style>
+  :root{ --wrap: 1400px; }
+  body{ min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; }
+  .wide{ width:min(1560px,100% - 24px); margin-inline:auto; flex:1; display:flex; flex-direction:column; }
+  main#content{ flex:1; display:flex; flex-direction:column; }
+  .titlebar{ padding:14px 0 0; }
+  .titlebar h1{ font-size:clamp(1.5rem,3vw,2.2rem); letter-spacing:-0.02em; margin:0 0 6px; max-width:32ch; }
+  .lede{ font-size:15px; color:var(--ink-soft); max-width:110ch; margin:0 0 4px; }
+  .toolbar{ background:color-mix(in srgb, var(--paper) 92%, white); border:1px solid var(--rule); box-shadow:var(--shadow); padding:10px 12px; margin:12px 0 0; }
+  .toolbar .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar button, .toolbar select{ font-family:var(--sans); font-size:12.5px; padding:7px 12px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); border-radius:var(--radius); cursor:pointer; }
+  .toolbar button.is-on{ background:var(--ink); color:var(--sheet); border-color:var(--ink); }
+  .toolbar .hint{ font-family:var(--sans); font-size:11.5px; color:var(--mute); margin-left:auto; }
+  .grid{ display:grid; grid-template-columns:1fr; gap:14px; padding:14px 0 20px; }
+  @media (min-width:900px){ .grid{ grid-template-columns:1fr 1fr; } }
+  .cell-card{ background:var(--sheet); border:1px solid var(--rule); box-shadow:var(--shadow); border-radius:var(--radius); overflow:hidden; display:flex; flex-direction:column; }
+  .cell-card header{ padding:12px 14px 8px; border-bottom:1px solid var(--rule); }
+  .cell-card header h2{ font-size:1.15rem; margin:0 0 2px; }
+  .cell-card header .sub{ font-family:var(--sans); font-size:11.5px; color:var(--mute); margin:0 0 6px; }
+  .cell-card header .bio{ font-family:var(--mono); font-size:10.5px; color:var(--mute); margin:0 0 6px; }
+  .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; }
+  .pill.lytic{ color:var(--oxblood); } .pill.silent{ color:var(--forest); }
+  .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
+  .stage{ position:relative; height:300px; background:radial-gradient(420px 220px at 50% 30%, rgba(46,74,93,.10), transparent 70%), #141210; }
+  .stage canvas{ width:100%; height:100%; display:block; }
+  .phase{ position:absolute; left:10px; top:8px; font-family:var(--mono); font-size:11px; color:#f2ece1; background:rgba(20,18,16,.72); border:1px solid rgba(255,255,255,.18); padding:3px 9px; border-radius:20px; pointer-events:none; }
+  .tbar{ position:absolute; left:10px; right:10px; bottom:8px; height:4px; background:rgba(255,255,255,.15); border-radius:2px; overflow:hidden; pointer-events:none; }
+  .tbar i{ display:block; height:100%; width:0; background:var(--gold-soft); }
+  .lbl{ position:absolute; left:0; top:0; z-index:3; font-family:var(--sans); font-size:10.5px; letter-spacing:.02em; color:#f2ece1; background:rgba(20,18,16,.72); border:1px solid rgba(255,255,255,.25); padding:1px 8px; border-radius:20px; pointer-events:none; white-space:nowrap; transform:translate(-50%,-135%); display:none; }
+  .card-body{ padding:10px 14px 14px; font-size:13.5px; line-height:1.55; color:var(--ink-soft); }
+  .card-body ol{ margin:6px 0 8px; padding-left:1.2em; font-family:var(--sans); font-size:12.5px; }
+  .card-body ol li::marker{ color:var(--oxblood); font-family:var(--mono); }
+  .legend-dot{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:4px; vertical-align:0; }
+  .card-foot{ display:flex; gap:8px; padding:0 14px 12px; }
+  .card-foot button{ font-family:var(--sans); font-size:11.5px; padding:5px 10px; border:1px solid var(--rule-strong); background:transparent; color:var(--ink-soft); border-radius:var(--radius); cursor:pointer; }
+  .legend{ padding:10px 2px 26px; font-size:11.5px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); }
+  @media print{ .toolbar,.card-foot{ display:none; } .grid{ grid-template-columns:1fr 1fr; } .stage{ height:240px; } }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="cell-death-comparison-table.html">Comparison table</a>
+      <a href="#anim" class="is-active">Animations</a>
+    </div>
+  </div>
+</nav>
+<div class="wrap wide">
+  <main id="content">
+    <div class="titlebar">
+      <p class="kicker">Visual explainer · Cell death · three.js</p>
+      <h1>What each cell death looks like, live</h1>
+      <p class="lede">Eight looping 3-D cells, one per program from the <a href="cell-death-comparison-table.html">comparison table</a>.
+      Membrane = outer sphere · inner sphere = nucleus/DNA · capsules = mitochondria · dots = molecules (PAR, AIF, Ca²⁺, ROS/iron, cytokines, DAMPs).
+      Lytic programs end in rupture; apoptosis ends in neat parcels; autophagy mostly survives.</p>
+    </div>
+    <div class="toolbar" role="toolbar" aria-label="Animation controls">
+      <div class="row">
+        <button id="playAll" class="is-on">⏸ Pause all</button>
+        <select id="speed" aria-label="Playback speed">
+          <option value="0.5">0.5× speed</option>
+          <option value="1" selected>1× speed</option>
+          <option value="2">2× speed</option>
+        </select>
+        <span class="hint">12 s time-lapse loop · T+ clock = biological time · scroll for all 8</span>
+      </div>
+    </div>
+    <div class="grid" id="anim"></div>
+    <footer class="legend">
+      <p><b>How to read them.</b> Swelling + sudden burst with debris cloud = lytic (necrosis, necroptosis, pyroptosis, PANoptosis, late ferroptosis).
+      Shrinkage + surface blebs pinching off into separate balls = apoptosis. PAR signal → AIF marching nucleus-ward with no swelling = parthanatos.
+      Peroxidation patches + shrinking condensed mitochondria = ferroptosis. Crescent moons closing around cargo and fusing with a lysosome = autophagy.
+      Each 12 s loop is a time-lapse — the T+ clock runs at biological speed, so identical loop lengths cover wildly different real durations:
+      ≈20 min (necrosis) and ≈45 min (pyroptosis) at the fast end, ≈2 h starvation flux (autophagy) and ≈3–4 h (apoptosis, necroptosis) in the middle,
+      ≈8 h (parthanatos, ferroptosis) and ≈12 h infection courses (PANoptosis) at the slow end. Single-cell timing varies by cell type and stimulus — treat clocks as representative, not exact.
+      Built with three.js r160 (CDN importmap); vertex-displaced membranes, instanced particles, no post-processing. Respects <code>prefers-reduced-motion</code> (starts paused).</p>
+    </footer>
+  </main>
+</div>
+<script>
+  T2.initNav(); T2.initTooltip(); T2.initLightbox(); T2.initNavScrollHint();
+</script>
+<script src="../themes/theme-02/pages-svg.js"></script>
+<script type="module">
+import * as THREE from 'three';
+
+/* ============ shared engine ============ */
+const DUR = 12; // seconds per loop
+let running = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+let speed = 1;
+
+const PROGRAMS = [
+ { id:'apoptosis', title:'Apoptosis', sub:'programmed · silent · non-lytic',
+   pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
+   bioNote:'⏱ ≈3 h single-cell execution · 12 s loop (time-lapse)',
+   phases:[[0,0,'death signal — caspase-8/9 ignite'],[2.5,30,'cell shrinks · chromatin condenses'],[5,75,'membrane blebbing — intact'],[7.5,140,'apoptotic bodies pinch off'],[10,170,'parcels ready for engulfment']],
+   steps:['Cell shrinks; nucleus condenses then fragments (DNA ladder).','Membrane bubbles into blebs but never ruptures.','Splits into 3–4 sealed apoptotic bodies — no debris cloud.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
+    {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<8.5},
+    {text:'Apoptotic bodies', pos:(R)=>R.frags[0].visible?R.frags[0].position.toArray():null}],
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#9a7bd0"></span>nucleus → fragments <span class="legend-dot" style="background:#ffb347"></span>mitochondria (kept)' },
+ { id:'parthanatos', title:'Parthanatos', sub:'PARP-1 · AIF · MIF — NAD⁺-consuming',
+   pills:'<span class="pill reg">regulated</span>',
+   bioNote:'⏱ ≈8 h MNNG-type course · 12 s loop (time-lapse)',
+   phases:[[0,0,'heavy DNA damage — PARP-1 overactivates'],[3,15,'PAR chains flood · NAD⁺ drains (cell dims)'],[5.5,120,'AIF leaves mitochondria → nucleus'],[8,300,'large-scale (~50 kbp) clumping — no ladder'],[10.3,450,'PS flips out · membrane leaks, no swelling']],
+   steps:['PAR bursts from nucleus; whole-cell light dims = NAD⁺/ATP collapse.','AIF streams from mitochondria into nucleus; MIF follows.','Nucleus clumps coarsely; membrane leaks slightly but never swells or bursts.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12},
+    {text:'PAR polymer', pos:()=>[1.25,0.85,0], show:(R,t)=>t>=2&&t<=8.5},
+    {text:'AIF', pos:()=>[-0.55,0.32,0.4], show:(R,t)=>t>=5&&t<=10}],
+   legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR polymer <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>nucleus (large clumps)' },
+ { id:'necrosis', title:'Necrosis', sub:'accidental · passive · ATP-depleted',
+   pills:'<span class="pill acc">accidental</span>',
+   bioNote:'⏱ ≈20 min — fastest of the eight · 12 s loop (time-lapse)',
+   phases:[[0,0,'injury — Na⁺/K⁺ pumps fail'],[2.5,4,'oncosis — water floods in, cell swells'],[5,9,'organelles swell · lysosomes leak'],[7,14,'membrane ruptures'],[8,18,'DAMP storm — HMGB1, ATP, uric acid']],
+   steps:['Cell balloons (oncosis); mitochondria swell and pop.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
+    {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<7},
+    {text:'DAMPs', pos:()=>[2.7,1.2,0], show:(R,t)=>t>=7}],
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#ff5a4d"></span>DAMPs <span class="legend-dot" style="background:#7fd4ff"></span>water influx' },
+ { id:'necroptosis', title:'Necroptosis', sub:'regulated necrosis — RIPK1 → RIPK3 → MLKL',
+   pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
+   bioNote:'⏱ ≈4 h TSZ course (L929 ≈1 h → HT-29 ≈6 h) · 12 s loop (time-lapse)',
+   phases:[[0,0,'TNFα signal — caspase-8 blocked'],[2.5,60,'necrosome assembles (RIPK1/RIPK3)'],[5,120,'p-MLKL rings punch membrane pores'],[7,180,'swelling through pores → rupture'],[8.5,220,'DAMP release + NLRP3 handoff']],
+   steps:['Necrosome speck forms under the membrane.','MLKL pore-rings stud the surface; cell swells.','Rupture through pore zone; blocked by necrostatin-1/GSK872 in real assays.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'Necrosome (RIPK1/3)', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
+    {text:'MLKL pores', pos:(R)=>R.pores[5].position.toArray(), show:(R,t)=>t>=4.5}],
+   legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK1/3 necrosome <span class="legend-dot" style="background:#ffffff"></span>MLKL pores <span class="legend-dot" style="background:#ffb347"></span>DAMPs' },
+ { id:'ferroptosis', title:'Ferroptosis', sub:'iron · lipid peroxidation · GPX4 failure',
+   pills:'<span class="pill reg">regulated</span>',
+   bioNote:'⏱ ≈8 h erastin-type course (RSL3 ≈4–5 h) · 12 s loop (time-lapse)',
+   phases:[[0,0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,120,'Fe²⁺ sparks · Fenton ROS'],[5.5,240,'lipid peroxidation spreads'],[8,360,'mitochondria shrink and condense'],[10,450,'membrane ruptures at peroxidized patch']],
+   steps:['Fe²⁺ sparks + ROS flicker inside the cell.','Lipid peroxidation patches creep across the membrane (C11-BODIPY signal).','Mitochondria shrivel and condense; nucleus stays intact (no fragmentation); rupture follows.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'Fe²⁺ / ROS', pos:()=>[0.9,-0.78,0.5], show:(R,t)=>t>=2&&t<8},
+    {text:'Peroxidized membrane', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
+   legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>lipid-ROS patches <span class="legend-dot" style="background:#555"></span>shrunken mitochondria' },
+ { id:'autophagy', title:'Autophagy', sub:'survival first — type-II death only if excessive',
+   pills:'<span class="pill reg">regulated</span>',
+   bioNote:'⏱ ≈2 h starvation flux · one vesicle ≈10 min · 12 s loop (time-lapse)',
+   phases:[[0,0,'starvation — mTORC1 off, AMPK on'],[2.5,15,'phagophore crescents nucleate'],[5,35,'cargo engulfed — autophagosomes close'],[7.5,60,'fusion with lysosome → degrade'],[10,110,'cell recovers — survives']],
+   steps:['Crescents (phagophores) grow and cup damaged cargo.','Closed double-membrane vesicles ferry cargo to the lysosome.','Lysosome fusion flash; cell survives — death only if this overruns.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.7,-0.8,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:(t)=>t<6.5?'Phagophore':'Autophagosome', pos:(R)=>R.crescents[0].position.toArray(), dy:-18, show:(R,t)=>t>=1.5&&t<8.5},
+    {text:'Lysosome', pos:(R)=>R.lyso.position.toArray(), dx:28, show:(R,t)=>t>=2}],
+   legend:'<span class="legend-dot" style="background:#51ff9e"></span>phagophore/autophagosome <span class="legend-dot" style="background:#ff5a4d"></span>lysosome <span class="legend-dot" style="background:#ffb347"></span>cargo' },
+ { id:'pyroptosis', title:'Pyroptosis', sub:'inflammasome · gasdermin-D pores · lytic',
+   pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
+   bioNote:'⏱ ≈45 min stimulus-to-rupture · 12 s loop (time-lapse)',
+   phases:[[0,0,'PRR senses danger — inflammasome speck'],[2.5,8,'caspase-1 ignites — GSDMD cleaved'],[5,18,'10–20 nm pores ring the membrane'],[7,30,'IL-1β/IL-18 jets + swelling'],[8.5,40,'rupture — cytokine storm']],
+   steps:['Inflammasome speck assembles; cell flashes.','GSDMD pore-rings stud the membrane.','Cytokine jets fountain out; swelling → rupture.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Inflammasome', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
+    {text:'GSDMD pores', pos:(R)=>R.pores[3].position.toArray(), show:(R,t)=>t>=4},
+    {text:'IL-1β / IL-18', pos:()=>[2.6,-1.0,0], show:(R,t)=>t>=6}],
+   legend:'<span class="legend-dot" style="background:#ffe14d"></span>inflammasome/caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD pores <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
+ { id:'panoptosis', title:'PANoptosis', sub:'all-in-one — ZBP1 PANoptosome, non-redundant',
+   pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
+   bioNote:'⏱ ≈12 h infection course — slowest of the eight · 12 s loop (time-lapse)',
+   phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
+   steps:['Central hub (RIPK1/RIPK3/caspase-8/caspase-1) lights up.','Pores, blebs and condensation happen simultaneously.','Massive rupture; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
+    {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'PANoptosome', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
+    {text:'Pores (GSDMD + MLKL)', pos:(R)=>R.pores[9].position.toArray(), show:(R,t)=>t>=3.5}],
+   legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK <span class="legend-dot" style="background:#ffe14d"></span>caspase <span class="legend-dot" style="background:#ffffff"></span>GSDMD/MLKL pores' },
+];
+
+const grid = document.getElementById('anim');
+for (const p of PROGRAMS){
+  const el = document.createElement('section');
+  el.className = 'cell-card';
+  el.innerHTML = `<header><h2>${p.title}</h2><p class="sub">${p.sub}</p><p class="bio">${p.bioNote}</p><div>${p.pills}</div></header>
+    <div class="stage"><canvas aria-label="${p.title} animation"></canvas><div class="phase"></div><div class="tbar"><i></i></div></div>
+    <div class="card-body"><ol>${p.steps.map(s=>`<li>${s}</li>`).join('')}</ol><div style="font-family:var(--sans);font-size:11.5px;color:var(--mute)">${p.legend}</div></div>
+    <div class="card-foot"><button data-replay>↺ replay</button><button data-pp>⏸ pause</button></div>`;
+  grid.appendChild(el);
+  p._phaseEl = el.querySelector('.phase'); p._barEl = el.querySelector('.tbar i');
+  p._canvas = el.querySelector('canvas'); p._stage = el.querySelector('.stage');
+  p._t = Math.random()*DUR; p._paused = false;
+  el.querySelector('[data-replay]').onclick = ()=>{ p._t = 0; };
+  const pp = el.querySelector('[data-pp]');
+  pp.onclick = ()=>{ p._paused = !p._paused; pp.textContent = p._paused ? '▶ play' : '⏸ pause'; };
+}
+
+/* ---- scene factory ---- */
+function makeStage(canvas){
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:false});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x141210);
+  scene.fog = new THREE.Fog(0x141210, 9, 18);
+  const camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
+  camera.position.set(0, 0.6, 7.2);
+  camera.lookAt(0,0,0);
+  scene.add(new THREE.AmbientLight(0xfff2e0, 0.85));
+  const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(4,6,6); scene.add(key);
+  const rim = new THREE.DirectionalLight(0x7fd4ff, 0.7); rim.position.set(-5,-2,-4); scene.add(rim);
+  // soft extracellular medium
+  const medium = new THREE.Points(
+    new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(Float32Array.from({length:240*3},()=> (Math.random()-0.5)*14),3)),
+    new THREE.PointsMaterial({color:0x4a4438, size:0.03, transparent:true, opacity:0.6}));
+  scene.add(medium);
+  const R = {};
+  // membrane
+  const mg = new THREE.SphereGeometry(2, 48, 32);
+  R.mBase = mg.attributes.position.array.slice();
+  R.mPhase = Float32Array.from({length: mg.attributes.position.count}, ()=> Math.random()*Math.PI*2);
+  R.membrane = new THREE.Mesh(mg, new THREE.MeshStandardMaterial({color:0xe8a58c, roughness:0.45, metalness:0.05, transparent:true, opacity:0.92}));
+  scene.add(R.membrane);
+  // nucleus
+  R.nucleus = new THREE.Mesh(new THREE.SphereGeometry(0.9, 32, 24),
+    new THREE.MeshStandardMaterial({color:0x9a7bd0, roughness:0.5, emissive:0x2a1a4a, emissiveIntensity:0.5}));
+  scene.add(R.nucleus);
+  // nucleolus fleck
+  R.nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 12),
+    new THREE.MeshStandardMaterial({color:0x6a4bb0, roughness:0.6}));
+  R.nucleolus.position.set(0.25,0.15,0.4); scene.add(R.nucleolus);
+  // mitochondria
+  R.mitos = [];
+  const mitoG = new THREE.CapsuleGeometry(0.16, 0.34, 6, 12);
+  [[-1.1,0.5,0.4],[1.05,-0.4,0.5],[0.1,1.05,-0.5]].forEach((pos,i)=>{
+    const m = new THREE.Mesh(mitoG, new THREE.MeshStandardMaterial({color:0xffb347, roughness:0.4, emissive:0x5a2a00, emissiveIntensity:0.4}));
+    m.position.set(...pos); m.rotation.set(Math.random()*3, Math.random()*3, 0); scene.add(m); R.mitos.push(m);
+  });
+  // apoptotic fragments (hidden until needed)
+  R.frags = [];
+  for(let i=0;i<4;i++){
+    const f = new THREE.Mesh(new THREE.SphereGeometry(0.55 - i*0.07, 24, 18),
+      new THREE.MeshStandardMaterial({color:0xe8a58c, roughness:0.5, transparent:true, opacity:0}));
+    const n = new THREE.Mesh(new THREE.SphereGeometry(0.24, 16, 12),
+      new THREE.MeshStandardMaterial({color:0x9a7bd0, roughness:0.5}));
+    f.add(n); f.visible = false; scene.add(f); R.frags.push(f);
+  }
+  // pore rings (necroptosis/pyroptosis/panoptosis)
+  R.pores = [];
+  const poreG = new THREE.TorusGeometry(0.12, 0.035, 10, 20);
+  for(let i=0;i<26;i++){
+    const pr = new THREE.Mesh(poreG, new THREE.MeshBasicMaterial({color:0xffffff, transparent:true, opacity:0}));
+    const th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+    pr.position.set(2*Math.sin(ph)*Math.cos(th), 2*Math.cos(ph), 2*Math.sin(ph)*Math.sin(th));
+    pr.lookAt(0,0,0); scene.add(pr); R.pores.push(pr);
+  }
+  // generic particle cloud (repurposed per program)
+  const N = 420;
+  R.pGeo = new THREE.BufferGeometry();
+  R.pPos = new Float32Array(N*3); R.pVel = new Float32Array(N*3); R.pCol = new Float32Array(N*3);
+  R.pGeo.setAttribute('position', new THREE.BufferAttribute(R.pPos,3));
+  R.pGeo.setAttribute('color', new THREE.BufferAttribute(R.pCol,3));
+  R.cloud = new THREE.Points(R.pGeo, new THREE.PointsMaterial({size:0.09, vertexColors:true, transparent:true, opacity:0.95, depthWrite:false}));
+  scene.add(R.cloud);
+  // hub speck (necroptosis/pyroptosis/panoptosis/autophagy-lysosome)
+  R.hub = new THREE.Mesh(new THREE.SphereGeometry(0.22, 20, 14),
+    new THREE.MeshBasicMaterial({color:0xffe14d, transparent:true, opacity:0}));
+  scene.add(R.hub);
+  R.lyso = new THREE.Mesh(new THREE.SphereGeometry(0.42, 24, 18),
+    new THREE.MeshStandardMaterial({color:0xd9403b, roughness:0.35, emissive:0x5a0f0c, emissiveIntensity:0.6, transparent:true, opacity:0}));
+  R.lyso.position.set(1.15, -0.9, 0.2); scene.add(R.lyso);
+  // autophagy crescents
+  R.crescents = [];
+  for(let i=0;i<3;i++){
+    const c = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.07, 10, 28, Math.PI*1.4),
+      new THREE.MeshStandardMaterial({color:0x51ff9e, roughness:0.4, emissive:0x0a4a26, emissiveIntensity:0.7, transparent:true, opacity:0}));
+    c.position.set(-0.9+i*0.85, 0.55-i*0.5, 0.3); c.rotation.set(0.6,0.4,i); scene.add(c); R.crescents.push(c);
+  }
+  // rupture shards
+  R.shards = [];
+  for(let i=0;i<14;i++){
+    const s = new THREE.Mesh(new THREE.TetrahedronGeometry(0.09+Math.random()*0.1),
+      new THREE.MeshStandardMaterial({color:0xe8a58c, roughness:0.6, transparent:true, opacity:0}));
+    s.userData.v = new THREE.Vector3((Math.random()-0.5)*3,(Math.random()-0.5)*3,(Math.random()-0.5)*3);
+    scene.add(s); R.shards.push(s);
+  }
+  return {renderer, scene, camera, R};
+}
+
+const stages = PROGRAMS.map(p => ({p, ...makeStage(p._canvas)}));
+function sizeStages(){
+  for (const s of stages){
+    const w = s.p._canvas.clientWidth || 400, h = 300;
+    s.W = w; s.H = h;
+    s.renderer.setSize(w, h, false);
+    s.camera.aspect = w/h; s.camera.updateProjectionMatrix();
+  }
+}
+addEventListener('resize', sizeStages); sizeStages();
+
+/* ---- floating organelle labels (HTML projected from 3-D anchors) ---- */
+for (const s of stages){
+  s.labelObjs = (s.p.labels||[]).map(spec=>{
+    const d = document.createElement('div');
+    d.className = 'lbl';
+    s.p._stage.appendChild(d);
+    return {spec, el:d};
+  });
+}
+const PV = new THREE.Vector3();
+function updateLabels(s){
+  for (const {spec, el} of s.labelObjs){
+    let arr = null;
+    try { arr = spec.pos(s.R, s.p._t); } catch(e){ arr = null; }
+    if (!arr || (spec.show && !spec.show(s.R, s.p._t))){ el.style.display='none'; continue; }
+    PV.set(arr[0], arr[1], arr[2]).project(s.camera);
+    if (PV.z > 1){ el.style.display='none'; continue; }
+    el.style.display = 'block';
+    el.textContent = typeof spec.text === 'function' ? spec.text(s.p._t) : spec.text;
+    el.style.left = ((PV.x*0.5+0.5)*s.W + (spec.dx||0)) + 'px';
+    el.style.top = ((-PV.y*0.5+0.5)*s.H + (spec.dy||0)) + 'px';
+  }
+}
+
+const smooth = (a,b,x)=>{ const t = Math.min(1, Math.max(0,(x-a)/(b-a))); return t*t*(3-2*t); };
+function setCloud(R, i, x,y,z, r,g,b, vx=0,vy=0,vz=0){
+  R.pPos[i*3]=x; R.pPos[i*3+1]=y; R.pPos[i*3+2]=z;
+  R.pCol[i*3]=r; R.pCol[i*3+1]=g; R.pCol[i*3+2]=b;
+  R.pVel[i*3]=vx; R.pVel[i*3+1]=vy; R.pVel[i*3+2]=vz;
+}
+function burstUpdate(R, dt){
+  for(let i=0;i<R.pPos.length/3;i++){
+    R.pPos[i*3]+=R.pVel[i*3]*dt; R.pPos[i*3+1]+=R.pVel[i*3+1]*dt; R.pPos[i*3+2]+=R.pVel[i*3+2]*dt;
+  }
+  R.pGeo.attributes.position.needsUpdate = true; R.pGeo.attributes.color.needsUpdate = true;
+}
+/* membrane deform: opts {scale, bleb, wobble, hole} */
+function deformMembrane(R, time, {scale=1, bleb=0, wobble=0.02, rust=0}={}){
+  const pos = R.membrane.geometry.attributes.position, base = R.mBase;
+  for(let i=0;i<pos.count;i++){
+    const bx=base[i*3], by=base[i*3+1], bz=base[i*3+2];
+    const ph = R.mPhase[i];
+    const n = Math.sin(bx*2.1+time*2+ph)*Math.sin(by*2.6-time*1.7)*Math.sin(bz*2.3+time*1.3);
+    const blebN = Math.max(0, Math.sin(bx*1.4+time*3.2+ph*2)*Math.sin(by*1.7-time*2.6)) ** 2;
+    const k = scale * (1 + wobble*n + bleb*blebN*0.55);
+    pos.setXYZ(i, bx*k, by*k, bz*k);
+  }
+  pos.needsUpdate = true;
+  R.membrane.geometry.computeVertexNormals();
+  if (rust>0){
+    R.membrane.material.color.setHex(0xe8a58c).lerp(new THREE.Color(0x7a3d16), rust*0.8);
+  } else R.membrane.material.color.setHex(0xe8a58c);
+}
+
+/* ---- per-program choreography ---- */
+function animateProgram(id, t, dt, S){
+  const {R, scene} = S;
+  const time = performance.now()/1000;
+  // reset shared props
+  R.hub.material.opacity = 0; R.lyso.material.opacity = 0;
+  R.crescents.forEach(c=>c.material.opacity=0);
+  R.pores.forEach(pr=>pr.material.opacity=0);
+  R.shards.forEach(s=>s.material.opacity=0);
+  R.cloud.visible = true;
+
+  if (id==='apoptosis'){
+    const shrink = 1 - 0.28*smooth(1.5,5,t);
+    deformMembrane(R, time, {scale:shrink, bleb:smooth(4,7,t)*0.9, wobble:0.015});
+    R.nucleus.scale.setScalar(1 - 0.35*smooth(1.5,5,t));
+    R.nucleus.material.emissiveIntensity = 0.5 + smooth(1.5,5,t);
+    const frag = smooth(7,9,t);
+    R.nucleus.visible = frag < 0.9; R.nucleolus.visible = frag < 0.5;
+    R.membrane.material.opacity = 1 - frag;
+    R.mitos.forEach(m=>{ m.visible = frag<0.7; });
+    R.frags.forEach((f,i)=>{
+      f.visible = frag>0;
+      const a = i*1.7 + 0.6;
+      f.position.set(Math.cos(a)*(1.1+frag*0.9), Math.sin(a*1.3)*(0.8+frag*0.7), Math.sin(a)*0.6);
+      f.scale.setScalar(Math.max(0.01, frag));
+      f.material.opacity = frag;
+    });
+    for(let i=0;i<140;i++) setCloud(R,i, 99,99,99, 0,0,0);
+    burstUpdate(R,0);
+  }
+  else if (id==='parthanatos'){
+    deformMembrane(R, time, {scale:1+0.03*Math.sin(time*2), bleb:0.08, wobble:0.02});
+    const par = smooth(2,5.5,t), dim = smooth(3,6,t), aif = smooth(5,8.5,t);
+    // PAR signal around nucleus
+    for(let i=0;i<200;i++){
+      const a=Math.random()*Math.PI*2, r=Math.random()*(0.6+par*1.2);
+      const on = Math.random()<par;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r*0.8:99, on?(Math.random()-0.5)*1.4:99, 1,0.88,0.3);
+    }
+    // AIF stream mito -> nucleus
+    for(let i=200;i<330;i++){
+      const f = (time*0.35 + i*0.02)%1;
+      const sx = i%2? -1.1:1.05, sy = i%2? 0.5:-0.4;
+      const on = Math.random()<aif;
+      setCloud(R,i, on?sx+(0-sx)*f:99, on?sy+(0-sy)*f:99, on?0.4:99, 0.32,1,0.62);
+    }
+    burstUpdate(R,0);
+    R.nucleus.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0x3d6a4a), smooth(7,10,t)*0.6);
+    R.nucleus.scale.set(1+smooth(7,10,t)*0.15, 1-smooth(7,10,t)*0.1, 1);
+    R.membrane.material.color.lerp(new THREE.Color(0xc98d6e), smooth(9,11,t)*0.7); // PS flip tint
+    R.membrane.material.opacity = 1 - 0.25*smooth(9.5,11.5,t);
+    scene.children.forEach(()=>{});
+    S.renderer.toneMappingExposure = 1 - dim*0.35; // NAD+ drain dims the cell
+  }
+  else if (id==='necrosis'){
+    const swell = 1 + 0.45*smooth(1.5,7,t);
+    deformMembrane(R, time, {scale:swell, bleb:0.05, wobble:0.05});
+    R.mitos.forEach((m,i)=>{ m.scale.setScalar(1+0.9*smooth(3+i,6.5,t)); m.material.color.setHex(0xffb347).lerp(new THREE.Color(0x777777), smooth(4,7,t)); });
+    R.nucleus.scale.setScalar(1-0.4*smooth(4,7.5,t));
+    const rup = smooth(7,7.8,t);
+    R.membrane.material.opacity = 1 - rup*0.85;
+    // DAMP explosion
+    for(let i=0;i<420;i++){
+      if (t<7){ const a=Math.random()*6.28; setCloud(R,i, Math.cos(a)*Math.random()*1.6, Math.sin(a)*Math.random()*1.6,(Math.random()-0.5)*2, 0.4,0.4,0.4, 0,0,0); }
+      else if (R.pVel[i*3]===0 && R.pPos[i*3]<90){ const a=Math.random()*6.28, e=Math.random()*2+1; setCloud(R,i, Math.cos(a)*2, Math.sin(a)*1.2, (Math.random()-0.5)*1, 1,0.35+Math.random()*0.3,0.2, Math.cos(a)*e, Math.sin(a)*e,(Math.random()-0.5)*2); }
+    }
+    burstUpdate(R, dt*(t>7?1:0));
+    R.shards.forEach((s,i)=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.6); s.rotation.x+=dt*3; } else s.position.set(0,0,0); });
+  }
+  else if (id==='necroptosis'){
+    deformMembrane(R, time, {scale:1+0.35*smooth(4.5,8,t), bleb:0.06, wobble:0.035});
+    const nec = smooth(1.5,4.5,t), pores = smooth(4.5,6.5,t), rup = smooth(7.5,8.5,t);
+    R.hub.material.opacity = nec; R.hub.scale.setScalar(1+nec*1.6+Math.sin(time*6)*0.12);
+    R.hub.material.color.setHex(0xff5a4d);
+    R.pores.forEach((pr,i)=>{ pr.material.opacity = pores*(i/26 < pores? 1:0.15); pr.scale.setScalar(0.6+pores*0.9); });
+    R.membrane.material.opacity = 1 - rup*0.9;
+    for(let i=0;i<300;i++){
+      if (t<7.5){ const a=Math.random()*6.28; setCloud(R,i, Math.cos(a)*Math.random()*1.7,Math.sin(a)*Math.random()*1.7,(Math.random()-0.5)*2, 0.5,0.2,0.2, 0,0,0); }
+      else if (R.pVel[i*3]===0){ const a=Math.random()*6.28,e=Math.random()*2+0.8; setCloud(R,i, Math.cos(a)*2.1,Math.sin(a)*1.4,(Math.random()-0.5), 1,0.6,0.25, Math.cos(a)*e,Math.sin(a)*e,(Math.random()-0.5)*2); }
+    }
+    burstUpdate(R, dt*(t>7.5?1:0));
+    R.nucleus.material.color.setHex(0x9a7bd0);
+  }
+  else if (id==='ferroptosis'){
+    const rust = smooth(4.5,9.5,t);
+    deformMembrane(R, time, {scale:1+0.12*smooth(8,10.5,t), bleb:0.05, wobble:0.03, rust});
+    // iron sparks
+    for(let i=0;i<160;i++){
+      const on = Math.random()<smooth(2,6,t);
+      const a=Math.random()*6.28, r=Math.random()*1.6;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r:99, on?(Math.random()-0.5)*2:99, 1,0.48+Math.random()*0.2,0.1);
+    }
+    // rust patches crawl on membrane: brown dots on shell
+    for(let i=160;i<360;i++){
+      const th=(i*2.399)+t*0.05, ph=Math.acos(((i*0.37)%2)-1);
+      const on = Math.random() < rust*0.9;
+      setCloud(R,i, on?2.05*Math.sin(ph)*Math.cos(th):99, on?2.05*Math.cos(ph):99, on?2.05*Math.sin(ph)*Math.sin(th):99, 0.54,0.29,0.11);
+    }
+    // lipid ROS haze
+    for(let i=360;i<420;i++){ const on=Math.random()<rust*0.5; setCloud(R,i, on?(Math.random()-0.5)*3.4:99, on?(Math.random()-0.5)*3:99, on?(Math.random()-0.5)*2:99, 1,0.3,0.1); }
+    burstUpdate(R,0);
+    R.mitos.forEach(m=>{ m.scale.set(1-0.45*rust, 1-0.35*rust, 1-0.45*rust); m.material.color.setHex(0xffb347).lerp(new THREE.Color(0x2b2b2b), rust); });
+    R.nucleus.scale.setScalar(1); // explicitly intact
+    R.membrane.material.opacity = 1 - smooth(10,11,t)*0.85;
+  }
+  else if (id==='autophagy'){
+    deformMembrane(R, time, {scale:1+0.02*Math.sin(time*1.5), bleb:0.05, wobble:0.02});
+    const cup = smooth(1.5,4.5,t), close = smooth(4.5,6.5,t), fuse = smooth(7,8.5,t);
+    R.crescents.forEach((c,i)=>{
+      c.material.opacity = cup*(1-fuse*0.7);
+      c.scale.setScalar(0.6+cup*0.7);
+      c.rotation.z += dt*(0.3+i*0.15);
+      c.material.color.setHex(close>0.5?0x2aff8a:0x51ff9e);
+    });
+    R.lyso.material.opacity = smooth(2,4,t);
+    R.lyso.material.emissiveIntensity = 0.6 + fuse*2.2; // fusion flash
+    R.lyso.scale.setScalar(1+fuse*0.35);
+    // cargo dots drift into crescents then to lysosome
+    for(let i=0;i<200;i++){
+      const f=(time*0.15+i*0.005)%1;
+      const tx = f<0.6? -0.9+ f*0.8 : -0.4+(1.55)*(f-0.6)/0.4;
+      const ty = f<0.6? 0.4-f*0.3 : 0.22+(-1.1-0.22)*(f-0.6)/0.4;
+      setCloud(R,i, tx+(Math.random()-0.5)*0.2, ty+(Math.random()-0.5)*0.2, 0.4, 1,0.7,0.28);
+    }
+    for(let i=200;i<420;i++) setCloud(R,i, 99,99,99, 0,0,0);
+    burstUpdate(R,0);
+    R.nucleus.scale.setScalar(1);
+  }
+  else if (id==='pyroptosis'){
+    deformMembrane(R, time, {scale:1+0.3*smooth(5,8.5,t), bleb:0.12, wobble:0.04});
+    const speck = smooth(0.5,2.5,t), pores = smooth(4,6,t), jet = smooth(6,8,t), rup = smooth(8.2,9,t);
+    R.hub.material.opacity = speck; R.hub.material.color.setHex(0xffe14d);
+    R.hub.scale.setScalar(1+Math.sin(time*7)*0.15+speck);
+    R.pores.forEach(pr=>{ pr.material.opacity = pores; pr.scale.setScalar(0.5+pores*0.8); });
+    // cytokine jets outward through pores
+    for(let i=0;i<420;i++){
+      if (Math.random()<jet){
+        const pr = R.pores[i%26];
+        const d = pr.position.clone().normalize();
+        const dist = (time*1.6+i*0.05)%3;
+        const blue = i%2===0;
+        setCloud(R,i, d.x*(2+dist), d.y*(2+dist), d.z*(2+dist), blue?0.5:1, blue?0.83:0.88, blue?1:0.3, d.x*1.4, d.y*1.4, d.z*1.4);
+      } else setCloud(R,i, 99,99,99, 0,0,0);
+    }
+    burstUpdate(R, dt*0.6);
+    R.membrane.material.opacity = 1 - rup*0.9;
+    R.nucleus.scale.setScalar(1-0.15*jet);
+  }
+  else if (id==='panoptosis'){
+    deformMembrane(R, time, {scale:1+0.32*smooth(5,8.5,t), bleb:smooth(4,7,t)*0.7, wobble:0.045});
+    const hub = smooth(0.5,3,t), pores = smooth(3.5,6,t), rup = smooth(8.2,9.2,t);
+    R.hub.material.opacity = hub; R.hub.scale.setScalar(1+hub*2);
+    R.hub.material.color.setHex(0xff8a3d);
+    R.pores.forEach((pr,i)=>{ pr.material.opacity = pores; pr.material.color.set(i%2?0xffffff:0xffe14d); pr.scale.setScalar(0.5+pores); });
+    R.nucleus.scale.set(1-0.25*smooth(3,7,t), 1-0.2*smooth(3,7,t), 1);
+    for(let i=0;i<420;i++){
+      if (t<8.2){ const on=Math.random()<hub*0.7; const a=Math.random()*6.28;
+        const pick=Math.random(); const c = pick<0.33?[1,0.35,0.3]:pick<0.66?[1,0.88,0.3]:[0.5,0.83,1];
+        setCloud(R,i, on?Math.cos(a)*Math.random()*1.8:99, on?Math.sin(a)*Math.random()*1.8:99, on?(Math.random()-0.5)*2:99, ...c, 0,0,0); }
+      else if (R.pVel[i*3]===0){ const a=Math.random()*6.28,e=Math.random()*2.6+1;
+        setCloud(R,i, Math.cos(a)*2.1,Math.sin(a)*1.5,(Math.random()-0.5), 1,0.5+Math.random()*0.4,0.3, Math.cos(a)*e,Math.sin(a)*e,(Math.random()-0.5)*2.4); }
+    }
+    burstUpdate(R, dt*(t>8.2?1:0));
+    R.membrane.material.opacity = 1 - rup*0.92;
+    R.shards.forEach(s=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.8); s.rotation.x+=dt*4; } else s.position.set(0,0,0); });
+  }
+}
+
+/* ---- main loop ---- */
+const clock = new THREE.Clock();
+function fmtBio(m){
+  m = Math.max(0, Math.round(m));
+  if (m < 60) return `T+${m} min`;
+  const h = Math.floor(m/60), mm = m%60;
+  return mm ? `T+${h} h ${String(mm).padStart(2,'0')} min` : `T+${h} h`;
+}
+/* phases are [loopSec, bioMin, label] — interpolate biological time between anchors */
+function phaseAt(p, t){
+  const ph = p.phases;
+  let i = 0;
+  for (let k=0;k<ph.length;k++) if (t>=ph[k][0]) i = k;
+  const [l0,b0,label] = ph[i];
+  let bio = b0;
+  if (i < ph.length-1){
+    const [l1,b1] = ph[i+1];
+    bio = b0 + (b1-b0)*(t-l0)/(l1-l0);
+  }
+  return {label, bio};
+}
+function tick(){
+  requestAnimationFrame(tick);
+  const dt = Math.min(clock.getDelta(), 0.05);
+  for (const s of stages){
+    if (running && !s.p._paused) s.p._t = (s.p._t + dt*speed) % DUR;
+    const t = s.p._t;
+    // gentle camera drift
+    const ct = performance.now()/1000*0.12;
+    s.camera.position.x = Math.sin(ct)*0.7; s.camera.position.y = 0.6+Math.sin(ct*0.7)*0.3;
+    s.camera.lookAt(0,0,0);
+    animateProgram(s.p.id, t, running&&!s.p._paused?dt*speed:0, s);
+    s.renderer.render(s.scene, s.camera);
+    updateLabels(s);
+    const pa = phaseAt(s.p, t);
+    s.p._phaseEl.textContent = `${fmtBio(pa.bio)} · ${pa.label}`;
+    s.p._barEl.style.width = (t/DUR*100)+'%';
+  }
+}
+tick();
+
+const playAll = document.getElementById('playAll');
+function syncPlayBtn(){ playAll.textContent = running ? '⏸ Pause all' : '▶ Play all'; playAll.classList.toggle('is-on', running); }
+playAll.onclick = ()=>{ running=!running; syncPlayBtn(); };
+document.getElementById('speed').onchange = e=>{ speed = parseFloat(e.target.value); };
+syncPlayBtn();
+if (!running) playAll.textContent = '▶ Play all (reduced motion)';
+</script>
+</body>
+</html>

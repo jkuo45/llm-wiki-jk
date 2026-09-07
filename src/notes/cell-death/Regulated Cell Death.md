@@ -1,9 +1,9 @@
 ---
 title: Regulated Cell Death
 description: Genetically encoded cell death programs distinct from accidental necrosis, including apoptosis, necroptosis, pyroptosis, and ferroptosis, which are druggable targets relevant to cancer, neurodegeneration, and healthy aging.
-protected: false
+protected: true
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-07
 tags: [process, cell-death, aging, oncology]
 url: #
 source: _document_ - Could this enzyme help remove "zombie" cells from our tissues?.md
