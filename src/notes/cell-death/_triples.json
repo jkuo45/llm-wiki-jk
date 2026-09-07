@@ -1,0 +1,198 @@
+[
+  {
+    "id": "b44f6444ca96",
+    "subject": "PAR",
+    "predicate": "triggers",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Purified PAR polymer delivered into cortical neurons kills ~50% at 80 nM (mean 40-mer) and ~80% as ≥60-mer fractions, with toxicity from 20 nM; PARG or phosphodiesterase 1 predigestion abolishes killing while poly(A) charge control is nontoxic, proving the polymer itself is the parthanatos death signal (Andrabi et al. 2006 PNAS).",
+      "zh-TW": "純化 PAR 聚合物导入皮质神经元在 80 nM 杀死约50%，≥60-mer 组分约80%致死，20 nM 起即有毒性；PARG 或磷酸二酯酶1预消化消除毒性，poly(A) 对照无毒，证明聚合物本身即 parthanatos 死亡信号。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "ee4d3099253b",
+    "subject": "PAR",
+    "predicate": "activates",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Cytosolic PAR colocalizes with mitochondria minutes after NMDA stimulation and triggers AIF release and nuclear translocation; PARG overexpression prevents NMDA-induced AIF translocation and MNNG-nuclei-derived PAR releases AIF from isolated mitochondria (Andrabi 2008; David 2009).",
+      "zh-TW": "胞质 PAR 在 NMDA 刺激后数分钟即与线粒体共定位并触发 AIF 释放与核转位；PARG 过表达阻止该转位，MNNG 细胞核来源 PAR 可从分离线粒体释放 AIF。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "b6a848e8d248",
+    "subject": "PARG",
+    "predicate": "degrades",
+    "object": "PAR",
+    "context": {
+      "en-US": "PARG hydrolyzes PAR glycosidic bonds via endo/exoglycosidase activity; recombinant PARG predigestion of purified PAR abolishes neuronal and HeLa killing, and cytosolic PARG overexpression lowers cytosolic PAR after NMDA (Andrabi et al. 2006).",
+      "zh-TW": "PARG 以内切/外切糖苷酶活性水解 PAR 糖苷键；重组 PARG 预消化消除对神经元与 HeLa 的杀伤，胞质 PARG 过表达降低 NMDA 后胞质 PAR。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "07ee0be1648c",
+    "subject": "PARG",
+    "predicate": "protects_against",
+    "object": "Ischemic Stroke",
+    "context": {
+      "en-US": "PrP-driven PARG transgenic mice show 62% smaller hemisphere infarct after 120-min MCAO while PARG heterozygotes show 56% larger infarct after 90-min MCAO with matched perfusion and temperature, establishing bidirectional PARG-dosage control of stroke outcome (Andrabi et al. 2006).",
+      "zh-TW": "PrP 驱动 PARG 转基因小鼠 120 分钟 MCAO 后半球梗死缩小62%，而 PARG 杂合子 90 分钟 MCAO 后增大56%，证实 PARG 剂量双向决定卒中结局。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "eb465a671ccc",
+    "subject": "Parthanatos",
+    "predicate": "is_distinct_from",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Parthanatos is caspase-independent: z-VAD-fmk fails to block purified-PAR killing in neurons and HeLa or MNNG/NMDA death, and PAR does not directly activate caspases; it shows shrunken condensed nuclei with PI positivity rather than apoptotic bodies (Andrabi 2006; Andrabi 2008).",
+      "zh-TW": "Parthanatos 为 caspase 非依赖：z-VAD 不能阻断纯化 PAR、MNNG/NMDA 杀伤，PAR 亦不直接激活 caspase；形态为皱缩浓缩核伴 PI 阳性而非凋亡小体。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "a4437a27162f",
+    "subject": "NAD+",
+    "predicate": "is_insufficient_explanation_for",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "NAD+ depletion alone cannot explain parthanatos: energy-replete cells die from delivered PAR, anti-PAR/PARG rescue without restoring bulk energetics, mitochondrial NAD+ stays physiological during genotoxic stress, and Bax/calpain KOs survive MNNG despite massive NAD+ drops (David 2009 review of Berger suicide hypothesis).",
+      "zh-TW": "NAD+ 耗竭不足以解释 parthanatos：能量充足细胞仍死于外源 PAR，抗 PAR/PARG 挽救不依赖整体能量恢复，基因毒应激时线粒体 NAD+ 维持生理水平，Bax/calpain KO  massive NAD+ 下降仍存活。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos David 2009 messenger of death.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "1ce74a5aec68",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "executes",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "AIF is the parthanatos executioner downstream of PAR: PARP-1-KO cells fail to release AIF, AIF knockdown or neutralizing antibodies reduce death, and Harlequin mice (~80% AIF reduction) resist NMDA, purified PAR, excitotoxic lesions and stroke with rescue by re-expression (Andrabi 2008; David 2009).",
+      "zh-TW": "AIF 为 PAR 下游 parthanatos 执行者：PARP-1 KO 细胞不释放 AIF，敲低/中和抗体减轻死亡，Harlequin 小鼠（AIF 降低约80%）抵抗 NMDA、纯化 PAR 与卒中，回补恢复敏感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "4c7a3f60f373",
+    "subject": "ARH3",
+    "predicate": "is_paralogous_eraser_of",
+    "object": "PARG",
+    "context": {
+      "en-US": "ARH3 (39-kDa ADP-ribose-(arginine) hydrolase) has PARG-like activity toward PAR glycosidic bonds alongside PARG, but does not compensate PARG-knockout lethality in mice or Drosophila nor the trophoblast PAR-accumulation death, indicating a minor role in parthanatos (Andrabi 2008; David 2009).",
+      "zh-TW": "ARH3（39 kDa）具类 PARG 活性可切割 PAR 糖苷键，但不能代偿小鼠/果蝇 PARG 敲除致死与滋养层 PAR 累积死亡，在 parthanatos 中作用次要。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "e836577001a2",
+    "subject": "BAX",
+    "predicate": "is_candidate_mediator_of",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Bax-knockout fibroblasts resist PARP-1-dependent death with compromised AIF release, but Bcl-2 overexpression only delays rather than blocks death and the 12-h window leaves delay-vs-rescue unresolved, so BAX as obligatory AIF-release pore downstream of PAR remains a candidate (Andrabi 2008; David 2009).",
+      "zh-TW": "Bax 敲除成纤维细胞抵抗 PARP-1 依赖死亡且 AIF 释放受损，但 Bcl-2 过表达仅延迟不阻断，12 小时窗口无法区分延迟与挽救，故 BAX 作为 PAR 下游 AIF 释放孔仍为候选。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Parthanatos David 2009 messenger of death.md",
+    "created": "2026-09-07T02:07:21Z",
+    "updated": "2026-09-07T02:07:21Z"
+  },
+  {
+    "id": "6c66ae0a5656",
+    "subject": "Caspase-8",
+    "predicate": "suppresses",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Active caspase-8 (often as caspase-8/cFLIP-L heterodimer) cleaves RIPK1, RIPK3, CYLD and TRIF to suppress necrosome formation; its inhibition or deletion flips TNFR1/Fas/TRAIL signaling from extrinsic apoptosis to RIPK1-RIPK3-MLKL necroptosis, the two-precondition trigger of the pathway (Dhuriya & Sharma 2018).",
+      "zh-TW": "活化 caspase-8（常为 caspase-8/cFLIP-L 异二聚体）切割 RIPK1、RIPK3、CYLD 与 TRIF 以抑制 necrosome 形成；其抑制或缺失将 TNFR1/Fas/TRAIL 信号从外源性凋亡翻转为 RIPK1-RIPK3-MLKL necroptosis，为该通路双前提触发条件。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
+    "created": "2026-09-07T02:09:23Z",
+    "updated": "2026-09-07T02:09:23Z"
+  },
+  {
+    "id": "be47aea66204",
+    "subject": "RIPK3",
+    "predicate": "activates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "RIPK3 directly activates inflammasome formation via caspase-8-mediated and NLRP3-mediated arms leading to caspase-1/11 cleavage of IL-1beta; whether MLKL is obligatory is contested since MLKL ablation preserves NLRP3 activation and cytokine production in some models (Dhuriya & Sharma 2018).",
+      "zh-TW": "RIPK3 经 caspase-8 介导与 NLRP3 介导双臂直接激活炎症小体，导致 caspase-1/11 切割 IL-1beta；MLKL 是否必需存争议，因部分模型中 MLKL 缺失仍保留 NLRP3 活化与细胞因子产生。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
+    "created": "2026-09-07T02:09:23Z",
+    "updated": "2026-09-07T02:09:23Z"
+  },
+  {
+    "id": "7e22d8e71d55",
+    "subject": "ZBP1",
+    "predicate": "forms_complex_with",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "ZBP1/DAI and TLR3/4-TRIF carry RHIM domains that form non-classical necrosomes directly with RIPK3 without RIPK1; TRIF lacks kinase activity so its RIPK3 activation is mechanistically distinct, and RIPK1 inhibition does not impair TLR3-mediated necroptosis (Dhuriya & Sharma 2018).",
+      "zh-TW": "ZBP1/DAI 与 TLR3/4-TRIF 具 RHIM 结构域，可不经 RIPK1 直接与 RIPK3 形成非经典 necrosome；TRIF 无激酶活性故激活机制不同，RIPK1 抑制不影响 TLR3 介导的 necroptosis。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
+    "created": "2026-09-07T02:09:23Z",
+    "updated": "2026-09-07T02:09:23Z"
+  },
+  {
+    "id": "9137a1c3ff2e",
+    "subject": "RIPK3",
+    "predicate": "contributes_to",
+    "object": "Amyotrophic Lateral Sclerosis",
+    "context": {
+      "en-US": "SOD1-G93A transgenic ALS mice show reduced axonal degeneration and motor dysfunction upon RIPK3 silencing or Nec-1 treatment; OPTN mutation initiates RIPK1-dependent axonopathy and sporadic-ALS astrocytes kill neighboring motor neurons via RIPK1/MLKL necroptosis blocked by necrosulfonamide or RIPK1 knockdown (Dhuriya & Sharma 2018).",
+      "zh-TW": "SOD1-G93A ALS 转基因小鼠经 RIPK3 沉默或 Nec-1 处理轴突变性与运动障碍减轻；OPTN 突变启动 RIPK1 依赖性轴突病变，散发 ALS 星形胶质细胞经 RIPK1/MLKL necroptosis 杀伤邻近运动神经元，可被 necrosulfonamide 或 RIPK1 敲低阻断。"
+    },
+    "confidence": 0.82,
+    "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
+    "created": "2026-09-07T02:09:23Z",
+    "updated": "2026-09-07T02:09:23Z"
+  },
+  {
+    "id": "810c3f706bfc",
+    "subject": "24(S)-Hydroxycholesterol",
+    "predicate": "induces",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Ester-form 24(S)-hydroxycholesterol inhibits amyloid-beta production at physiological concentration, but at high concentration it induces non-apoptotic programmed death in neuronal cells with low caspase-8 expression; controlling its level may therefore prevent onset of progressive neurodegeneration, placing 24S-OHC at the apoptosis/necroptosis fate boundary (Dhuriya & Sharma 2018).",
+      "zh-TW": "酯化型 24(S)-羟基胆固醇在生理浓度抑制淀粉样β生成，但在高浓度对低 caspase-8 神经元诱导非凋亡性程序性死亡；控制其水平或可预防进行性神经退行性疾病，位于凋亡/necroptosis 命運分界。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
+    "created": "2026-09-07T02:27:28Z",
+    "updated": "2026-09-07T02:27:28Z"
+  }
+]

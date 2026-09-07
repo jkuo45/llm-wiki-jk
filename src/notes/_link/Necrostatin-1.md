@@ -23,6 +23,15 @@ Nec-1 allosterically inhibits RIPK1 kinase activity, preventing the formation of
 - In vivo protection in models of [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Stroke]], and [[Neurodegenerative Diseases]]
 - Validating RIPK1-dependent signaling in [[Inflammation]] and [[Cytokine]] release
 
+> [!info]
+> Source: [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018]]
+> Nec-1 acts by blocking [[RIPK1]] phosphorylation and translocation, disrupting downstream necrosome signaling; with zVAD-fmk it is complementary across neurodegeneration models (AD: reduced Aβ/tau, improved cognition in APP/PS1; PD: survival in 6-OHDA PC12; HD: ST14A survival). After TBI it also engages Akt/mTOR anti-apoptotic/autophagy effects, and in SOD1-G93A ALS (as 7-Cl-O-Nec-1) it reduces axonal degeneration and motor dysfunction.
+
+## Documents
+
+- [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
+  - Mechanism (phosphorylation/translocation block), AD/PD/HD Table 1, TBI Akt/mTOR off-target note, SOD1-G93A ALS rescue.
+
 ## Connections
 
 - [[Necroptosis]] — Nec-1 is a defining inhibitor of this pathway

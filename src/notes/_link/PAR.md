@@ -20,7 +20,12 @@ Purified PAR delivered by lipid carrier kills dose- and length-dependently, bloc
 
 List of documents that mention this entity
 
-No documents ingested yet.
+- [[_document_ - Parthanatos Andrabi 2006 PAR polymer death signal|Andrabi et al. 2006 PNAS]]
+  - Discovery proof: purified PAR (mean 40-mer) kills ~50% of neurons at 80 nM; ≥60-mer fractions ~80% lethal; threshold ~20 nM; PARG/PD1 predigestion abolishes toxicity; poly(A) control nontoxic; kills PARP-1 KO neurons.
+- [[_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk|Andrabi/Dawson 2008 Ann NY Acad Sci]]
+  - Parthanatos coined; cytosolic PAR minutes after NMDA colocalizes with mitochondria to trigger AIF release; anti-PAR/PARG blockade protects.
+- [[_document_ - Parthanatos David 2009 messenger of death|David et al. 2009 Front Biosci]]
+  - PAR heterogeneity (200–400 units, branching 1/20–50) encodes life-vs-death; >60-mer lethal threshold; PARG/ARH3 erasure; non-covalent binding hierarchy branched > long linear > short.
 
 ## Connections
 

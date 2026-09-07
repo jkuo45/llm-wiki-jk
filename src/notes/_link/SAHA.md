@@ -30,12 +30,18 @@ aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
 > [!warning] Toxicity
 > Common adverse effects include fatigue, gastrointestinal upset, [[Thrombocytopenia]], and QT prolongation.
 
+> [!info]
+> Source: [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018]]
+> SAHA protects cells from [[Necroptosis]] by enhancing expression of cFLIP-L, [[NF-κB]], and p38 while inactivating JNK — i.e. it reinforces the Complex I survival / caspase-8-guard arm that restrains the RIPK1–RIPK3–MLKL necrosome, linking HDAC inhibition to necroptosis (rather than apoptosis) control in neurodegenerative models.
+
 ## Documents
 
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small Molecules Inducing Senescence]]
     - Lists HDAC inhibitors such as SAHA/vorinostat among chromatin-modifying agents that can induce or modulate cellular senescence.
   - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic Changes During Aging]]
     - Discusses HDAC inhibition (vorinostat) in the context of reversible age-associated chromatin remodeling.
+  - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
+    - SAHA as necroptosis inhibitor via cFLIP-L/NF-κB/p38 upregulation and JNK inactivation.
 
 ## Connections
 
@@ -45,6 +51,8 @@ aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
   - [[Senescence]]: Modulated by chromatin remodeling.
   - [[Apoptosis]]: Induced in malignant cells.
   - [[Sirtuins]]: NAD⁺-dependent deacetylases contrasted with classical HDACs.
+  - [[Necroptosis]]: Blocked via cFLIP-L/NF-κB/p38 reinforcement and JNK inactivation.
+  - [[NF-κB]]: Survival output upregulated by SAHA to restrain the necrosome.
 
 ## Linking Summary
 

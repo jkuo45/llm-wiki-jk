@@ -92,6 +92,12 @@ List of documents that mention this entity
   - PAR translocation nucleus->mitochondria as commitment point; Table 1 apoptosis/necrosis/autophagy/parthanatos features; AIF isoforms/pools; calpain debate; HSP70 brake.
 - [[_document_ - Parthanatos Yang 2024 mechanisms therapeutics|Yang et al. 2024 Biochem Pharmacol]]
   - Update: H1.2/Iduna export, HK-1 bioenergetics, Arg588/Lys589/Arg592 PAR motif, AIF-MIF/HDAC6/PAANIB-1, neuroinflammation cGAS/AIM2/NLRP3, PD/AD/ALS/HD/stroke specifics, structural inhibitor guide.
+- [[_document_ - Parthanatos Andrabi 2006 PAR polymer death signal|Andrabi et al. 2006 PNAS]]
+  - Founding proof: purified PAR kills dose-/length-dependently (≥60-mer, ≥20 nM, ~80 nM endogenous after NMDA); PARG/PD1 predigestion, anti-PAR serum, cytosolic PARG halve NMDA/MNNG death; PARG-Tg −62% vs PARG+/− +56% MCAO infarct.
+- [[_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk|Andrabi/Dawson 2008 Ann NY Acad Sci]]
+  - Term coined (PAR + Thanatos); PAR→AIF nuclear-mitochondrial crosstalk; PARG-KO lethality; Harlequin AIF model; BAX/calpain/mPTP candidates left open.
+- [[_document_ - Parthanatos David 2009 messenger of death|David et al. 2009 Front Biosci]]
+  - PAR-not-NAD+ thesis; PARP domain/synthesis chemistry; AIF flavoprotein biology; PARG isoform genetics; BAX/calpain/PTP wiring as open questions.
 
 ## Connections
 
