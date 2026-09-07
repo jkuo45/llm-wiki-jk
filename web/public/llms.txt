@@ -76,6 +76,7 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [解讀一次新發現的抵達 — 圖譜指標與型別化邊（鐵死亡與 COVID）](https://graph.johnnykuo.com/pages/zh-TW/discovery-arrival-graph-metrics.html): 以鐵死亡（2012→2026，介數 ×1,000、k-core 8→19、Adamic-Adar 可預見性 0.8→0）與 COVID／疫苗（社群振盪、Lymphopenia 種子效應）的逐年反事實重播，逐指標追蹤五階段發現生命週期；並說明合併圖譜的 3,895 條型別化邊如何把共同提及轉為推論——屬性轉移、型別路徑合成（COVID→SIRT3→鐵死亡，早於 2024 年文獻兩年）、符號三元組推論，以及經校準的連結預測（Gysi 62% vs 0.8%）。
 - [毒物興奮範圍評估 — 映射你的生物韌性](https://graph.johnnykuo.com/pages/zh-TW/hormetic-range-assessment.html): 互動式評估工具，映射你在 12 個毒興領域中的位置，涵蓋核心感測器–效應器路徑（AMPK、NRF2、HIF-1α、SIRT1/3、HSF1、FOXO）、各領域滑桿、即時雷達圖、語言差異分析（73% 的毒興文獻使用領域特定詞彙），以及針對擴展毒興範圍的個人化指引。整合了被忽視典範綜述與抗氧化酶簇回顧。
 - [細胞死亡比較 — 八種程序，一張表](https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html): 八種細胞死亡程序並排比較表（細胞凋亡、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、Parthanatos、PANoptosis），涵蓋男性／女性、調控、能量、形態、檢測、免疫、核心機制、交互作用與阻斷方式，附篩選與軸線強調顯示。
+- [細胞死亡動畫 — 即時呈現八種程序](https://graph.johnnykuo.com/pages/zh-TW/cell-death-animations.html): 八種細胞死亡程序的 three.js 3-D 循環動畫——收縮＋起泡形成凋亡小體、無腫脹的 PAR／AIF 挺進、滲透腫脹破裂、MLKL／GSDMD 孔環、鐵死亡斑塊＋皺縮粒線體、自噬體—溶酶體融合，以及混合型 PANoptosis 破裂，附生物 T+ 時鐘。
 - [男性分散式拓撲 vs 集中式雌激素樞紐](https://graph.johnnykuo.com/pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html)：系統架構綜述——女性為集中式 E2→ER 九臂樞紐伴停經斷崖，男性為五節點分散網格（T→AR 驅動、mLOY 加速器、單一X 結構、PARP-1/AIF 執行、SIRT6/IGF-1 生長），呈漸進、株系、結構與陣發性侵蝕。含拓撲圖、時間動態圖、死亡模式開關圖及可篩選比較表。## Data & Source
 
 - Wiki source and the curated document corpus (100+ papers and reviews) live in the [llm-wiki-jk GitHub repository](https://github.com/jkuo45/llm-wiki-jk).
