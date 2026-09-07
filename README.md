@@ -13,7 +13,7 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 03_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 03_SEP_2026 | 1 | 94 | 79,170 | 1.07 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 06_SEP_2026 | 1 | 94 | 79,170 | 1.07 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 155,510 | 2.20 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 06_SEP_2026 | 20 | 173 | 313,731 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -151,6 +151,7 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 <details>
 <summary><strong>Documents (136 total)</strong> — click to expand</summary>
 
+- `oxidative-stress`: [Oxidative Stress Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[src/notes/oxidative-stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md|wiki]] (06_SEP_2026 08:25 PM PDT)
 - `hormesis`: [2018_Oliveira_POS-conditioning-hormesis_Front-Physiol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md) [[src/notes/hormesis/_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md|wiki]] (06_SEP_2026 08:19 PM PDT)
 - `hormesis`: [2025_Fonseca_brosimineB-hormesis_Front-Pharmacol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md) [[src/notes/hormesis/_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md|wiki]] (06_SEP_2026 08:19 PM PDT)
 - `hormesis`: [2025_Kim_DAMP-trained-immunity_Front-Immunol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Kim_DAMP-trained-immunity_Front-Immunol.md) [[src/notes/hormesis/_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md|wiki]] (06_SEP_2026 08:19 PM PDT)
@@ -220,7 +221,6 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 - `cancer`: [Fenbendazole as a Potential Anticancer Drug](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Fenbendazole%20as%20a%20Potential%20Anticancer%20Drug.md) [[src/notes/cancer/_document_ - Fenbendazole as a Potential Anticancer Drug.md|wiki]] (28_JUL_2026 03:35 PM PDT)
 - `cancer`: [Chemotherapy NAD+ Loss Pöllänen 2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Chemotherapy%20NAD%2B%20Loss%20P%C3%B6ll%C3%A4nen%202026.md) [[src/notes/cancer/_document_ - Chemotherapy NAD+ Loss Pöllänen 2026.md|wiki]] (26_JUL_2026 12:55 AM PDT)
 - `_link`: [Thymic Rejuvenation and Aging](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Thymic%20Rejuvenation%20and%20Aging.md) [[src/notes/_link/_document_ - Thymic Rejuvenation and Aging.md|wiki]] (26_JUL_2026 12:19 AM PDT)
-- `oxidative-stress`: [Oxidative Stress Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[src/notes/oxidative-stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md|wiki]] (25_JUL_2026 01:22 AM PDT)
 - `_link`: [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[src/notes/_link/_document_ - Creatine in Health and Disease.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `_link`: [Humanin a harbinger of mitochondrial-derived peptides?](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Humanin%20a%20harbinger%20of%20mitochondrial-derived%20peptides%3F.md) [[src/notes/_link/_document_ - Humanin a harbinger of mitochondrial-derived peptides?.md|wiki]] (25_JUL_2026 01:17 AM PDT)
 - `_link`: [Mitohormesis - 2014_FEB](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Mitohormesis%20-%202014_FEB.md) [[src/notes/_link/_document_ - Mitohormesis - 2014_FEB.md|wiki]] (25_JUL_2026 01:17 AM PDT)

@@ -1,5 +1,5 @@
 {
-  "generated": "06_SEP_2026 08:24 PM PDT",
+  "generated": "06_SEP_2026 08:32 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -43,6 +43,22 @@
           ],
           "filename": "task_output_arh3_par_aif_06_SEP_2026.md",
           "path": "tasks/en-US/task_output_arh3_par_aif_06_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "ARH3 與 PAR 誘導的 AIF 釋放 — 研究綜述",
+          "description": "ARH3 類 PARG 活性，以及 PAR 至 AIF 釋放的機制（直接結合 vs calpain vs BAX vs mPTP）。",
+          "created": "2026-09-06",
+          "updated": "2026-09-06",
+          "tags": [
+            "arh3",
+            "parg",
+            "par",
+            "aif",
+            "parthanatos",
+            "adp-ribosylation"
+          ],
+          "filename": "task_output_arh3_par_aif_06_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_arh3_par_aif_06_SEP_2026.md"
         }
       }
     },
@@ -58,6 +74,15 @@
           "tags": [],
           "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
           "path": "tasks/en-US/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "性別二型性細胞死亡：估計值、時序、老化脈絡與治療學",
+          "description": "女性走向凋亡、男性走向 parthanatos／PARP-1／AIF 壞死的修正前提，附人類心肌梗塞後凋亡指數、時序、老化趨同與治療現況。",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [],
+          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
         }
       }
     },
@@ -82,6 +107,24 @@
           ],
           "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
           "path": "tasks/en-US/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡象限：調控性 vs 非調控性 × 發炎性 vs 非發炎性知識庫視角",
+          "description": "以性別稽核中的調控性/非調控性與發炎性/非發炎性視角，將知識庫所有主要主題映射的 vault-wide 框架，含性別疊加與實用稽核流程。",
+          "created": "2026-09-04",
+          "updated": "2026-09-05",
+          "tags": [
+            "task-output",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "sex-differences",
+            "inflammation",
+            "senescence",
+            "ferroptosis"
+          ],
+          "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
         }
       }
     },
