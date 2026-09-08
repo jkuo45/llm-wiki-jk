@@ -156,7 +156,7 @@
         <h3>[[Adrenochrome]] —— 胺基色素</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           由 epinephrine 自氧化/環化形成的 indoline-5,6-dione <span style="color:var(--teal); font-weight:600;">o-醌</span>（dopamine 則形成對應的 dopaminochrome）。
-          它會<b style="color:var(--text)">進行氧化還原循環</b>，產生需由 <b style="color:var(--text)">[[MnSOD]]</b> 歧化的超氧化物，並耗竭 <b style="color:var(--text)">[[Glutathione]]</b>。
+          它會<b style="color:var(--text)">進行氧化還原循環</b>，產生由胞質 SOD1（粒線體 O₂⁻則由 <b style="color:var(--text)">[[MnSOD]]</b>）歧化的超氧化物，並經親電子結合耗竭 <b style="color:var(--text)">[[Glutathione]]</b>。
           依筆記所述，adrenochrome 驅動的氧化壓力會對糖化/抗氧化防禦造成「雙重打擊」，並透過 Fenton 化學與羥基自由基形成正回饋迴路。
         </p>
       </div>
@@ -173,8 +173,9 @@
         <h3>溶酶體滯留與壓力</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Neuromelanin 累積於<b style="color:var(--text)">溶酶體-自噬結構（自體溶酶體）</b>內。
-          因其不可溶而無法被降解，只能永久滯留，耗盡囊泡儲存容量、干擾溶酶體蛋白酶與囊泡運輸，
-          並同時損害自噬與泛素-蛋白酶體系統——此即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>的核心。
+          因其難以降解而滯留難清除，增加囊泡儲存負擔並損害溶酶體降解功能
+         （蛋白酶清除下降、運輸受擾等細節屬一般溶酶體生物學補充，已超出筆記原文），
+          並同時牽制自噬與泛素-蛋白酶體系統——此即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>的核心。
         </p>
       </div>
       <div class="card" style="border-top:3px solid var(--teal);">
@@ -260,9 +261,10 @@
           <text x="120" y="231" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">SIRT1 deacetylation</text>
           <text x="120" y="246" text-anchor="middle" fill="#9aa0c0" font-size="10.5">K116 → promotes nuclear TFEB</text>
 
-          <rect x="40" y="275" width="160" height="50" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
+          <rect x="40" y="275" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
           <text x="120" y="296" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">CaMKKβ / Ca²⁺</text>
           <text x="120" y="311" text-anchor="middle" fill="#9aa0c0" font-size="10.5">energy/calcium sensor</text>
+          <text x="120" y="324" text-anchor="middle" fill="#E8A33D" font-size="9.5">⚠ not in wiki notes</text>
 
           <!-- inhibitory inputs (right) -->
           <rect x="800" y="55" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#E4575E" stroke-width="1.3"/>
@@ -311,7 +313,7 @@
         <b style="color:var(--text)">[[Dopaminochrome]]</b> 來自 <b style="color:var(--text)">[[Dopamine]]</b>。
         這些 <span style="color:var(--teal); font-weight:600;">o-醌</span>物種進行氧化還原循環：單電子還原為半醌自由基，
         再與 O₂ 反應再生醌並產生超氧化物（O₂⁻）。
-        超氧化物由 <b style="color:var(--text)">[[MnSOD]]</b> 歧化為 H₂O₂，後者再經 Fenton 化學產生羥基自由基——
+        超氧化物由 SOD（胞質 SOD1；粒線體 O₂⁻由 <b style="color:var(--text)">[[MnSOD]]</b>）歧化為 H₂O₂，後者再經 Fenton 化學產生羥基自由基——
         形成自我放大的迴路。
         o-醌的親電子特性也會直接結合並耗竭 <b style="color:var(--text)">[[Glutathione]]</b>，
         侵蝕細胞的主要氧化還原緩衝。
@@ -321,7 +323,8 @@
       <p style="margin-top:28px;"><b style="color:var(--amber)">2. 雙面性色素：神經黑色素。</b>
         胺基色素聚合為 <b style="color:var(--text)">[[Neuromelanin]]</b>——
         <code>Epinephrine → Adrenochrome → Neuromelanin</code> 與
-        <code>Dopamine → Dopaminochrome → Neuromelanin</code>。
+        <code>Dopamine → Dopaminochrome → Neuromelanin</code>
+        （在體黑質色素主要源自 dopamine；epinephrine 路徑僅佔少量，去甲腎上腺素核如藍斑核除外）。
         此轉換不只是廢物處理；它創造了一個隨年齡與負荷轉變其雙重身分的分子。</p>
 
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:10px 0 14px;">
@@ -337,10 +340,10 @@
         <div style="background:rgba(228,87,94,.06); border:1px solid rgba(228,87,94,.2); border-radius:8px; padding:12px;">
           <p style="margin:0 0 6px;"><b style="color:#E4575E;">⚡ 致病性（高於閾值）</b></p>
           <ul style="margin:0; padding-left:16px; font-size:.85rem; color:var(--dim);">
-            <li><b>不可溶累積：</b>Neuromelanin 無法被任何已知溶酶體酵素水解；一旦送入自體溶酶體便永久滯留。</li>
-            <li><b>溶酶體膨脹：</b>持續累積耗盡囊泡儲存容量，物理性脹大溶酶體，損害蛋白酶活性與囊泡運輸。</li>
+            <li><b>不可溶累積：</b>Neuromelanin 難以降解；一旦送入自體溶酶體便滯留難清除、長期困留。<span style="color:var(--amber);">⚠「無任何已知溶酶體酵素可水解」為超出筆記原文的一般生物學補充。</span></li>
+            <li><b>溶酶體膨脹：</b>持續累積增加囊泡儲存負擔，一般溶酶體生物學報導會損害蛋白酶清除與囊泡運輸。<span style="color:var(--amber);">⚠ 機制細節超出筆記原文。</span></li>
             <li><b>蛋白質恆態崩潰：</b>自噬流與泛素-蛋白酶體系統（UPS）同時受損，造成雙重降解衰竭。</li>
-            <li><b>神經發炎誘發：</b>神經元死亡時，釋出的 neuromelanin 激活 [[Microgliosis]] 與胞外 TLR 依賴的 [[Inflammation]]，以旁分泌惡性循環放大神經退化。</li>
+            <li><b>神經發炎誘發：</b>神經元死亡時，釋出的 neuromelanin 激活 [[Microgliosis]] 與 [[Inflammation]]，以旁分泌惡性循環放大神經退化。<span style="color:var(--amber);">⚠ TLR 依賴性為一般生物學補充，筆記未述。</span></li>
           </ul>
         </div>
       </div>
@@ -355,12 +358,12 @@
       <!-- 步驟 3 -->
       <p style="margin-top:28px;"><b style="color:var(--blue)">3. 溶酶體包埋與壓力。</b>
         Neuromelanin 經由黑色素化胞器的自噬被送入並困於自體溶酶體內。
-        因其不可溶且不可降解，它填滿降解區室、鈍化溶酶體蛋白酶（cathepsins）、擾亂囊泡運輸，
-        並同時阻塞自噬與 UPS 流——即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>的核心。
+        因其難以降解、滯留難清除，它填滿降解區室、加重溶酶體蛋白酶（如一般生物學中的 cathepsins）與囊泡運輸負擔，
+        並同時牽制自噬與 UPS 流——即 <span style="color:var(--red); font-weight:600;">溶酶體壓力</span>的核心。
         超過 <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b> 後即成為蛋白質恆態災難：
         無法經由粒線體自噬清除的受損粒線體、無法降解的 α-synuclein 聚集物，
         以及本身即具細胞毒性、持續升高的未折疊蛋白反應。
-        <span style="color:var(--green); font-size:.82rem;">✅ 由 [[Neuromelanin]]、[[Pathogenic Threshold of Neuromelanin]] 筆記支持。</span></p>
+        <span style="color:var(--amber); font-size:.82rem;">⚠ 部分支持：色素滯留＋α-synuclein/粒線體衰竭由 [[Neuromelanin]]、[[Pathogenic Threshold of Neuromelanin]] 筆記支持；cathepsin/運輸/UPR 細節為一般生物學補充。</span></p>
 
       <!-- 步驟 4：TFEB 擴充 -->
       <p style="margin-top:28px;"><b style="color:var(--teal)">4. TFEB 招募——及其失敗。</b>
@@ -371,9 +374,9 @@
       <div style="background:rgba(62,201,167,.05); border:1px solid rgba(62,201,167,.15); border-radius:8px; padding:12px 16px; margin:8px 0 12px; font-size:.85rem;">
         <p style="margin:0 0 6px;"><b style="color:var(--teal);">文獻所確立的：</b></p>
         <ul style="margin:0; padding-left:16px; color:var(--dim);">
-          <li><b>mTORC1 磷酸化（S122/S142/S211）</b>——在營養充足條件下，mTORC1 磷酸化 TFEB，產生 14-3-3 結合位點將其困於細胞質。
+          <li><b>mTORC1 磷酸化（核心為 S142/S211；S122/S3 見於文獻）</b>——在營養充足條件下，mTORC1 磷酸化 TFEB，產生 14-3-3 結合位點將其困於細胞質。
             這是主要的「關閉開關」。去磷酸化（如飢餓或溶酶體壓力期間由 calcineurin 進行）則釋放 TFEB 使之轉位至細胞核。
-            <span style="color:var(--green);">✅ 由 [[TFEB]]、[[AMPK]] 筆記支持。</span></li>
+            <span style="color:var(--green);">✅ 核心 mTORC1 → 14-3-3 滯留＋calcineurin 釋放由 [[TFEB]] 筆記支持；</span> <span style="color:var(--amber);">⚠ 殘基編號細節超出筆記原文。</span></li>
           <li><b>AMPK 磷酸化（S466/S467/S469）</b>——AMPK 磷酸化保守的 C 端絲胺酸簇，據報導對 TFEB 轉錄活性至關重要
             （Paquette et al., 2021, PMID: 33734022）。
             然而 2024 年的一項研究（bioRxiv: 2024.10.22.619589）對此提出挑戰，顯示 AMPK 激活實際上會導致這些位點<i>去</i>磷酸化，
@@ -410,9 +413,7 @@
             個別步驟皆有記載；特定鏈結則無。</li>
           <li><b>ACAT1 對 TFEB 的乙醯化：</b>真實生物學（Zhang et al., 2018），但未記載於任何維基筆記。
             文獻亦有其微妙之處：ACAT1 於 K91/K103/K430 的乙醯化促進核轉位，但 K116 乙醯化可能阻礙 DNA 結合。</li>
-          <li><b>SVG 圖中 SIRT1 被繪為抑制性：</b>與維基筆記及已發表文獻皆矛盾。
-            SIRT1 於 K116 的去乙醯化<i>促進</i> TFEB 核轉位與轉錄活性（Bao et al., 2016）。
-            SVG 圖不正確地將 SIRT1 顯示為抑制性輸入——此應被修正。</li>
+          <li><b>SIRT1 呈現方式：</b>TFEB 調控節 SVG 正確將 SIRT1 於 K116 的去乙醯化顯示為<i>活化性</i>輸入（Bao et al., 2016），與維基筆記一致，無需修正。</li>
           <li><b>SUMOylation K316：</b>見於 TFEB 調控回顧，但獨立驗證有限；未見於任何維基筆記。</li>
           <li><b>AMPK → TFEB S466/S467/S469：</b>原始研究（Paquette et al., 2021）被 2024 年預印本反駁，後者顯示 AMPK 激活會導致這些位點<i>去</i>磷酸化。
             此為積極爭論中的科學議題。</li>

@@ -156,7 +156,7 @@
         <h3>[[Adrenochrome]] — the aminochrome</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           An indoline-5,6-dione <span style="color:var(--teal); font-weight:600;">o-quinone</span> formed by auto-oxidation/cyclization of epinephrine (and analogous dopaminochrome from dopamine).
-          It <b style="color:var(--text)">redox-cycles</b>, generating superoxide that <b style="color:var(--text)">[[MnSOD]]</b> must dismutate, and consumes <b style="color:var(--text)">[[Glutathione]]</b>.
+          It <b style="color:var(--text)">redox-cycles</b>, generating superoxide that cytosolic SOD1 (and mitochondrial <b style="color:var(--text)">[[MnSOD]]</b> for mitochondrial O₂⁻) dismutates to H₂O₂, and consumes <b style="color:var(--text)">[[Glutathione]]</b> via electrophilic conjugation.
           Per the notes, adrenochrome-driven oxidative stress creates a "double hit" on glycation/antioxidant defense and feeds a feed-forward loop with hydroxyl radicals via Fenton chemistry.
         </p>
       </div>
@@ -173,8 +173,9 @@
         <h3>Lysosomal sequestration &amp; stress</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Neuromelanin accumulates inside <b style="color:var(--text)">lysosomal-autophagic structures (autolysosomes)</b>.
-          Because it is insoluble, it cannot be degraded and remains trapped, exhausting vesicular storage, interfering with lysosomal proteases and trafficking,
-          and impairing both autophagy and the ubiquitin-proteasome system — the core of <span style="color:var(--red); font-weight:600;">lysosomal stress</span>.
+          Because it is poorly degradable, it remains trapped and resists clearance, burdening vesicular storage and impairing lysosomal degradation
+          (reported as reduced protease clearance and disrupted trafficking in general lysosomal biology — a supplement beyond the wiki-note wording),
+          and straining both autophagy and the ubiquitin-proteasome system — the core of <span style="color:var(--red); font-weight:600;">lysosomal stress</span>.
         </p>
       </div>
       <div class="card" style="border-top:3px solid var(--teal);">
@@ -260,9 +261,10 @@
           <text x="120" y="231" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">SIRT1 deacetylation</text>
           <text x="120" y="246" text-anchor="middle" fill="#9aa0c0" font-size="10.5">K116 → promotes nuclear TFEB</text>
 
-          <rect x="40" y="275" width="160" height="50" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
+          <rect x="40" y="275" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#3EC9A7" stroke-width="1.3"/>
           <text x="120" y="296" text-anchor="middle" fill="#e0e0e0" font-size="12.5" font-weight="600">CaMKKβ / Ca²⁺</text>
           <text x="120" y="311" text-anchor="middle" fill="#9aa0c0" font-size="10.5">energy/calcium sensor</text>
+          <text x="120" y="324" text-anchor="middle" fill="#E8A33D" font-size="9.5">⚠ not in wiki notes</text>
 
           <!-- inhibitory inputs (right) -->
           <rect x="800" y="55" width="160" height="58" rx="10" fill="#1a1a2e" stroke="#E4575E" stroke-width="1.3"/>
@@ -311,7 +313,7 @@
         <b style="color:var(--text)">[[Dopaminochrome]]</b> from <b style="color:var(--text)">[[Dopamine]]</b>.
         These <span style="color:var(--teal); font-weight:600;">o-quinone</span> species undergo redox cycling: one-electron reduction to a semiquinone radical,
         which reacts with O₂ to regenerate the quinone and spawn superoxide (O₂⁻).
-        Superoxide is dismutated by <b style="color:var(--text)">[[MnSOD]]</b> to H₂O₂, which feeds Fenton chemistry to produce hydroxyl radicals —
+        Superoxide is dismutated by SODs (cytosolic SOD1; mitochondrial <b style="color:var(--text)">[[MnSOD]]</b> for mitochondrial O₂⁻) to H₂O₂, which feeds Fenton chemistry to produce hydroxyl radicals —
         a self-amplifying loop.
         The o-quinone's electrophilic character also directly conjugates and depletes <b style="color:var(--text)">[[Glutathione]]</b>,
         eroding the cell's primary redox buffer.
@@ -321,7 +323,8 @@
       <p style="margin-top:28px;"><b style="color:var(--amber)">2. The double-edged pigment: neuromelanin.</b>
         Aminochromes polymerize into <b style="color:var(--text)">[[Neuromelanin]]</b> —
         <code>Epinephrine → Adrenochrome → Neuromelanin</code> and
-        <code>Dopamine → Dopaminochrome → Neuromelanin</code>.
+        <code>Dopamine → Dopaminochrome → Neuromelanin</code>
+        (in vivo substantia nigra pigment is predominantly dopamine-derived; the epinephrine route is minor except in noradrenergic nuclei such as locus coeruleus).
         This conversion is not simply waste disposal; it creates a molecule with a profound dual identity that shifts with age and load.</p>
 
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:10px 0 14px;">
@@ -337,10 +340,10 @@
         <div style="background:rgba(228,87,94,.06); border:1px solid rgba(228,87,94,.2); border-radius:8px; padding:12px;">
           <p style="margin:0 0 6px;"><b style="color:#E4575E;">⚡ Pathogenic (above threshold)</b></p>
           <ul style="margin:0; padding-left:16px; font-size:.85rem; color:var(--dim);">
-            <li><b>Insoluble accumulation:</b> Neuromelanin cannot be hydrolyzed by any known lysosomal enzyme; once delivered to autolysosomes it remains permanently trapped.</li>
-            <li><b>Lysosomal engorgement:</b> Progressive accumulation exhausts vesicular storage capacity, physically distending lysosomes and impairing protease activity and vesicular trafficking.</li>
+            <li><b>Insoluble accumulation:</b> Neuromelanin is poorly degradable; once delivered to autolysosomes it resists clearance and remains long-term trapped. <span style="color:var(--amber);">⚠ “No known lysosomal enzyme” wording is a general-biology supplement beyond the wiki notes.</span></li>
+            <li><b>Lysosomal engorgement:</b> Progressive accumulation burdens vesicular storage capacity and is reported to impair protease clearance and vesicular trafficking in general lysosomal biology. <span style="color:var(--amber);">⚠ Mechanistic detail beyond wiki-note wording.</span></li>
             <li><b>Proteostatic collapse:</b> Both autophagic flux and the ubiquitin-proteasome system (UPS) are impaired, creating a dual degradative failure.</li>
-            <li><b>Neuroinflammatory trigger:</b> When neurons die, released neuromelanin activates [[Microgliosis]] and extracellular TLR-dependent [[Inflammation]], amplifying neurodegeneration in a paracrine vicious cycle.</li>
+            <li><b>Neuroinflammatory trigger:</b> When neurons die, released neuromelanin activates [[Microgliosis]] and [[Inflammation]], amplifying neurodegeneration in a paracrine vicious cycle. <span style="color:var(--amber);">⚠ TLR-dependence is a general-biology supplement, not stated in the wiki notes.</span></li>
           </ul>
         </div>
       </div>
@@ -356,14 +359,14 @@
       <!-- Step 3 -->
       <p style="margin-top:28px;"><b style="color:var(--blue)">3. Lysosomal entrapment &amp; stress.</b>
         Neuromelanin is delivered to and trapped within autolysosomes via autophagy of melanized organelles.
-        Because it is insoluble and non-degradable, it fills the degradative compartment,
-        blunts lysosomal proteases (cathepsins), disrupts vesicular trafficking,
-        and jams both autophagic and UPS flux — the core of <span style="color:var(--red); font-weight:600;">lysosomal stress</span>.
+        Because it is poorly degradable and resists clearance, it fills the degradative compartment,
+        burdens lysosomal proteases (e.g. cathepsins in general lysosomal biology) and vesicular trafficking,
+        and strains both autophagic and UPS flux — the core of <span style="color:var(--red); font-weight:600;">lysosomal stress</span>.
         Above the <b style="color:var(--text)">[[Pathogenic Threshold of Neuromelanin]]</b> this becomes a proteostatic catastrophe:
         damaged mitochondria that cannot be cleared via mitophagy,
         aggregated α-synuclein that cannot be degraded,
         and a mounting unfolded protein response that itself becomes cytotoxic.
-        <span style="color:var(--green); font-size:.82rem;">✅ Supported by [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]].</span></p>
+        <span style="color:var(--amber); font-size:.82rem;">⚠ Partial: pigment trapping + α-synuclein/mitochondrial failure supported by [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]] notes; cathepsin/trafficking/UPR specifics are general-biology supplements.</span></p>
 
       <!-- Step 4: expanded TFEB -->
       <p style="margin-top:28px;"><b style="color:var(--teal)">4. TFEB recruitment — and its failure.</b>
@@ -374,9 +377,9 @@
       <div style="background:rgba(62,201,167,.05); border:1px solid rgba(62,201,167,.15); border-radius:8px; padding:12px 16px; margin:8px 0 12px; font-size:.85rem;">
         <p style="margin:0 0 6px;"><b style="color:var(--teal);">What the literature establishes:</b></p>
         <ul style="margin:0; padding-left:16px; color:var(--dim);">
-          <li><b>mTORC1 phosphorylation (S122/S142/S211)</b> — Under nutrient-rich conditions, mTORC1 phosphorylates TFEB, creating 14-3-3 binding sites that trap it in the cytoplasm.
+          <li><b>mTORC1 phosphorylation (S142/S211 core; S122/S3 sites per literature)</b> — Under nutrient-rich conditions, mTORC1 phosphorylates TFEB, creating 14-3-3 binding sites that trap it in the cytoplasm.
             This is the primary "off switch." Dephosphorylation (e.g. by calcineurin during starvation or lysosomal stress) releases TFEB to translocate to the nucleus.
-            <span style="color:var(--green);">✅ Supported by [[TFEB]], [[AMPK]] notes.</span></li>
+            <span style="color:var(--green);">✅ Core mTORC1 → 14-3-3 trap + calcineurin release supported by [[TFEB]] note;</span> <span style="color:var(--amber);">⚠ specific residue numbering is literature detail beyond the note.</span></li>
           <li><b>AMPK phosphorylation (S466/S467/S469)</b> — AMPK phosphorylates a conserved C-terminal serine cluster that is reported to be essential for TFEB transcriptional activity
             (Paquette et al., 2021, PMID: 33734022).
             However, a 2024 study (bioRxiv: 2024.10.22.619589) challenges this, showing that AMPK activation actually leads to <i>de</i>phosphorylation at these sites,
@@ -413,9 +416,7 @@
             The individual steps are documented; the specific chain is not.</li>
           <li><b>ACAT1 acetylation of TFEB:</b> Real biology (Zhang et al., 2018), but not documented in any wiki note.
             The literature is also nuanced: ACAT1 acetylation at K91/K103/K430 promotes nuclear translocation, but K116 acetylation may hinder DNA binding.</li>
-          <li><b>SIRT1 depicted as inhibitory in the SVG diagram:</b> Contradicted by both the wiki notes and published literature.
-            SIRT1 deacetylation at K116 <i>promotes</i> TFEB nuclear translocation and transcriptional activity (Bao et al., 2016).
-            The SVG diagram incorrectly shows SIRT1 as an inhibitory input — this should be corrected.</li>
+          <li><b>SIRT1 depiction:</b> The SVG in the TFEB-regulation section correctly shows SIRT1 deacetylation at K116 as an <i>activating</i> input (Bao et al., 2016), consistent with the wiki notes. No correction needed.</li>
           <li><b>SUMOylation K316:</b> Mentioned in the TFEB regulatory review but with limited independent validation; not in any wiki note.</li>
           <li><b>AMPK → TFEB S466/S467/S469:</b> The original study (Paquette et al., 2021) is contradicted by a 2024 preprint showing AMPK activation leads to <i>de</i>phosphorylation at these sites.
             This is an active area of scientific debate.</li>
