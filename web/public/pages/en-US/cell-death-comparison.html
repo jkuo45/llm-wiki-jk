@@ -408,7 +408,8 @@
 </script>
 
 <!-- Copy-to-clipboard: auto-attaches copy buttons to every data table,
-     with TSV export (shared theme-02/pages-svg.js). -->
+     with TSV export (shared theme-02/pages-svg.js). Each 3-D stage has an
+     explicit snapshot button (data-copy-canvas) for PNG export. -->
 <script src="../themes/theme-02/pages-svg.js"></script>
 
 <script>
@@ -446,30 +447,32 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
    bioNote:'⏱ ≈3 h single-cell execution · 12 s loop (time-lapse)',
    phases:[[0,0,'death signal — caspase-8/9 ignite'],[2.5,30,'cell shrinks · chromatin condenses'],[5,75,'membrane blebbing — intact'],[7.5,140,'apoptotic bodies pinch off'],[10,170,'parcels ready for engulfment']],
-   steps:['Cell shrinks; nucleus condenses then fragments (DNA ladder).','Membrane bubbles into blebs but never ruptures.','Splits into 3–4 sealed apoptotic bodies — no debris cloud.'],
+   steps:['Initiation — caspase-8/9 ignite caspase-3; PS starts flipping out (Annexin V+).','Cell shrinks; chromatin condenses then fragments into a DNA ladder.','Membrane blebs but stays sealed — PS tint marks the eat-me signal, no rupture.','Splits into sealed apoptotic bodies — no debris cloud; engulfed silently.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
     {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<8.5},
+    {text:'PS signal (Annexin V+)', pos:()=>[0,2.1,0], show:(R,t)=>t>=4&&t<10},
     {text:'Apoptotic bodies', pos:(R)=>R.frags[0].visible?R.frags[0].position.toArray():null}],
-   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#9a7bd0"></span>nucleus → fragments <span class="legend-dot" style="background:#ffb347"></span>mitochondria (kept)' },
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#9a7bd0"></span>nucleus → fragments <span class="legend-dot" style="background:#ffb347"></span>mitochondria (kept) <span class="legend-dot" style="background:#c98d6e"></span>PS exposure' },
  { id:'parthanatos', title:'Parthanatos', sub:'PARP-1 · AIF · MIF — NAD⁺-consuming',
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈8 h MNNG-type course · 12 s loop (time-lapse)',
    phases:[[0,0,'heavy DNA damage — PARP-1 overactivates'],[3,15,'PAR chains flood · NAD⁺ drains (cell dims)'],[5.5,120,'AIF leaves mitochondria → nucleus'],[8,300,'large-scale (~50 kbp) clumping — no ladder'],[10.3,450,'PS flips out · membrane leaks, no swelling']],
-   steps:['PAR bursts from nucleus; whole-cell light dims = NAD⁺/ATP collapse.','AIF streams from mitochondria into nucleus; MIF follows.','Nucleus clumps coarsely; membrane leaks slightly but never swells or bursts.'],
+   steps:['DNA damage hyperactivates PARP-1; PAR bursts from the nucleus.','NAD⁺/ATP drains away — whole-cell light dims; PAR binds AIF on mitochondria.','AIF streams into the nucleus; MIF nuclease follows and cuts DNA.','Nucleus clumps into ~50-kbp fragments (no ladder); PS flips out, slight leak — never swells or bursts.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
     {text:'Mitochondrion', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12},
     {text:'PAR polymer', pos:()=>[1.25,0.85,0], show:(R,t)=>t>=2&&t<=8.5},
-    {text:'AIF', pos:()=>[-0.55,0.32,0.4], show:(R,t)=>t>=5&&t<=10}],
+    {text:'AIF', pos:()=>[-0.55,0.32,0.4], show:(R,t)=>t>=5&&t<=10},
+    {text:'MIF nuclease', pos:()=>[-0.35,-0.35,0.4], show:(R,t)=>t>=6.5&&t<=10.5}],
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR polymer <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>nucleus (large clumps)' },
  { id:'necrosis', title:'Necrosis', sub:'accidental · passive · ATP-depleted',
    pills:'<span class="pill acc">accidental</span>',
    bioNote:'⏱ ≈20 min — fastest of the eight · 12 s loop (time-lapse)',
    phases:[[0,0,'injury — Na⁺/K⁺ pumps fail'],[2.5,4,'oncosis — water floods in, cell swells'],[5,9,'organelles swell · lysosomes leak'],[7,14,'membrane ruptures'],[8,18,'DAMP storm — HMGB1, ATP, uric acid']],
-   steps:['Cell balloons (oncosis); mitochondria swell and pop.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
+   steps:['Na⁺/K⁺ pumps fail — oncosis balloons the cell; mitochondria swell and pop, lysosomes leak.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
@@ -480,18 +483,18 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈4 h TSZ course (L929 ≈1 h → HT-29 ≈6 h) · 12 s loop (time-lapse)',
    phases:[[0,0,'TNFα signal — caspase-8 blocked'],[2.5,60,'necrosome assembles (RIPK1/RIPK3)'],[5,120,'p-MLKL rings punch membrane pores'],[7,180,'swelling through pores → rupture'],[8.5,220,'DAMP release + NLRP3 handoff']],
-   steps:['Necrosome speck forms under the membrane.','MLKL pore-rings stud the surface; cell swells.','Rupture through pore zone; blocked by necrostatin-1/GSK872 in real assays.'],
+   steps:['TNFα signal with caspase-8 blocked — RIPK1/RIPK3 necrosome speck assembles.','RIPK3 phosphorylates MLKL; MLKL oligomers punch membrane pores.','Ion influx swells the cell through the pore zone.','Rupture + DAMP release with NLRP3 handoff; blocked by necrostatin-1/GSK872 in real assays.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
     {text:'Necrosome (RIPK1/3)', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
     {text:'MLKL pores', pos:(R)=>R.pores[5].position.toArray(), show:(R,t)=>t>=4.5}],
-   legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK1/3 necrosome <span class="legend-dot" style="background:#ffffff"></span>MLKL pores <span class="legend-dot" style="background:#ffb347"></span>DAMPs' },
+   legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK1/3 necrosome <span class="legend-dot" style="background:#ffd9c4"></span>MLKL pores (large) <span class="legend-dot" style="background:#ffb347"></span>DAMPs' },
  { id:'ferroptosis', title:'Ferroptosis', sub:'iron · lipid peroxidation · GPX4 failure',
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈8 h erastin-type course (RSL3 ≈4–5 h) · 12 s loop (time-lapse)',
    phases:[[0,0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,120,'Fe²⁺ sparks · Fenton ROS'],[5.5,240,'lipid peroxidation spreads'],[8,360,'mitochondria shrink and condense'],[10,450,'membrane ruptures at peroxidized patch']],
-   steps:['Fe²⁺ sparks + ROS flicker inside the cell.','Lipid peroxidation patches creep across the membrane (C11-BODIPY signal).','Mitochondria shrivel and condense; nucleus stays intact (no fragmentation); rupture follows.'],
+   steps:['System Xc⁻ → GSH → GPX4 fails (FSP1 backup overwhelmed) — antioxidant shield drops.','Labile Fe²⁺ drives Fenton ROS; ACSL4-loaded PUFA phospholipids peroxidize.','Lipid-ROS patches creep across the membrane (C11-BODIPY signal); mitochondria shrivel and condense.','Nucleus stays intact — no fragmentation; late rupture at the peroxidized patch.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -503,7 +506,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈2 h starvation flux · one vesicle ≈10 min · 12 s loop (time-lapse)',
    phases:[[0,0,'starvation — mTORC1 off, AMPK on'],[2.5,15,'phagophore crescents nucleate'],[5,35,'cargo engulfed — autophagosomes close'],[7.5,60,'fusion with lysosome → degrade'],[10,110,'cell recovers — survives']],
-   steps:['Crescents (phagophores) grow and cup damaged cargo.','Closed double-membrane vesicles ferry cargo to the lysosome.','Lysosome fusion flash; cell survives — death only if this overruns.'],
+   steps:['Starvation flips the switch — mTORC1 off, AMPK on; ULK1–FIP200 + Beclin-1–Vps34 nucleate.','Phagophore crescents grow, cup damaged cargo and close (LC3 lipidation).','Double-membrane autophagosomes ferry cargo to the lysosome.','Fusion flash — cargo degraded and recycled; cell survives unless flux overruns into type-II death.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.7,-0.8,0]},
@@ -515,7 +518,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈45 min stimulus-to-rupture · 12 s loop (time-lapse)',
    phases:[[0,0,'PRR senses danger — inflammasome speck'],[2.5,8,'caspase-1 ignites — GSDMD cleaved'],[5,18,'10–20 nm pores ring the membrane'],[7,30,'IL-1β/IL-18 jets + swelling'],[8.5,40,'rupture — cytokine storm']],
-   steps:['Inflammasome speck assembles; cell flashes.','GSDMD pore-rings stud the membrane.','Cytokine jets fountain out; swelling → rupture.'],
+   steps:['PRR senses danger — inflammasome speck assembles; caspase-1 ignites, GSDMD cleaved.','GSDMD-N 10–20 nm pore-rings stud the membrane.','IL-1β/IL-18 jets fountain through the pores as the cell swells.','Rupture — cytokine storm. (Non-canonical caspase-4/5/11 and caspase-3/GSDME arms converge here.)'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -527,7 +530,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈12 h infection course — slowest of the original eight · 12 s loop (time-lapse)',
    phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
-   steps:['Central hub (RIPK1/RIPK3/caspase-8/caspase-1) lights up.','Pores, blebs and condensation happen simultaneously.','Massive rupture; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
+   steps:['ZBP1 senses (or TAK1 lost) — PANoptosome assembles: RIPK1/RIPK3/caspase-8/caspase-1 + ASC/FADD.','Three arms fire in parallel: GSDMD pores + caspase-3 activity + pMLKL.','Hybrid morphology — pores, blebs and condensation happen simultaneously.','Total rupture + DAMP/cytokine storm; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -539,7 +542,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
    bioNote:'\u23f1 \u2248 hours (oxidative/osmotic/energy-depletion triggers) \u00b7 12 s loop (time-lapse)',
    phases:[[0,0,'trigger — Ca2+ influx, energy depletion'],[2.5,30,'cell shrinks · Ca2+ floods in'],[5,90,'PS flips out · membrane blebs'],[8,150,'shrunken PS-positive remnant — clearance'],[10.5,180,'engulfed silently — no rupture']],
-   steps:['Disc shrinks; Ca2+ dots flood the cytosol — no nucleus or mitochondria inside (anucleate).','Membrane blebs; PS-flip tint marks the eat-me signal (Annexin V+).','PS-positive remnant cleared by macrophages — hemolysis only if overwhelming.'],
+   steps:['Discocyte shrinks — Ca²⁺ floods in (oxidative/osmotic/energy-depletion/ceramide trigger); anucleate, no mitochondria.','Membrane blebs; PS-flip tint marks the eat-me signal (Annexin V+).','PS-positive remnant cleared by macrophages — hemolysis only if overwhelming.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Ca2+ influx', pos:()=>[-0.2,0.9,0.4], show:(R,t)=>t>=1.5&&t<9},
@@ -549,11 +552,11 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'\u23f1 \u22482-4 h suicidal (vital form \u2248 minutes, membrane kept) \u00b7 12 s loop (time-lapse)',
    phases:[[0,0,'pathogen/LPS — NADPH oxidase ROS burst'],[2.5,30,'PAD4 activates — histones citrullinated'],[5,90,'chromatin decondenses — nucleus swells'],[7.5,150,'envelope breaks — NETs extrude'],[10,210,'DNA web + elastase/MPO — pathogen trap']],
-   steps:['ROS flicker; PAD4 hub lights up (histone citrullination, cit-H3).','Lobed nucleus swells and fills the cell — decondensation, no apoptotic ladder.','Membrane ruptures (suicidal form) and the DNA-histone-elastase web fountains out.'],
+   steps:['Pathogen/LPS trigger — NADPH-oxidase ROS burst; PAD4 citrullinates histones (cit-H3).','Lobed nucleus decondenses, swells and fills the cell — no apoptotic ladder.','Nuclear envelope breaks down — chromatin mixes with elastase/MPO granules.','Suicidal form (shown): membrane ruptures and the DNA-histone web fountains out; vital form keeps its membrane and releases NETs in minutes.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
-    {text:'Nucleus (decondensing)', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
-    {text:'PAD4', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
+    {text:'Lobed nucleus (decondensing)', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
+    {text:'PAD4 (cit-H3)', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
     {text:'NETs (DNA + MPO)', pos:()=>[2.6,1.0,0], show:(R,t)=>t>=7}],
    legend:'<span class="legend-dot" style="background:#9a7bd0"></span>chromatin/NET DNA <span class="legend-dot" style="background:#ffe14d"></span>PAD4 <span class="legend-dot" style="background:#ff8a3d"></span>elastase/MPO' },
 ];
@@ -564,7 +567,7 @@ for (const p of PROGRAMS){
   el.className = 'cell-card';
   el.dataset.program = p.id;
   el.innerHTML = `<header><h2>${p.title}</h2><p class="sub">${p.sub}</p><p class="bio">${p.bioNote}</p><div>${p.pills}</div></header>
-    <div class="stage"><canvas aria-label="${p.title} animation"></canvas><div class="phase"></div><div class="tbar"><i></i></div></div>
+    <div class="stage"><canvas id="cv-${p.id}" aria-label="${p.title} animation"></canvas><div class="phase"></div><div class="tbar"><i></i></div><button class="copy-btn" data-copy-canvas="cv-${p.id}" title="Copy snapshot as PNG" aria-label="Copy ${p.title} snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
     <div class="card-body"><ol>${p.steps.map(s=>`<li>${s}</li>`).join('')}</ol><div style="font-family:var(--sans);font-size:11.5px;color:var(--mute)">${p.legend}</div></div>
     <div class="card-foot"><button data-replay>↺ replay</button><button data-pp>⏸ pause</button></div>`;
   grid.appendChild(el);
@@ -578,7 +581,7 @@ for (const p of PROGRAMS){
 
 /* ---- scene factory ---- */
 function makeStage(canvas){
-  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:false});
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:false, preserveDrawingBuffer:true});
   renderer.setPixelRatio(Math.min(devicePixelRatio,2));
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0x141210);
@@ -609,6 +612,13 @@ function makeStage(canvas){
   R.nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 12),
     new THREE.MeshStandardMaterial({color:0x6a4bb0, roughness:0.6}));
   R.nucleolus.position.set(0.25,0.15,0.4); scene.add(R.nucleolus);
+  // extra nuclear lobes (neutrophil segmented nucleus — NETosis only, hidden otherwise)
+  R.lobes = [];
+  [[-0.75,0.35,-0.2],[0.65,-0.35,0.1]].forEach((pos)=>{
+    const lb = new THREE.Mesh(new THREE.SphereGeometry(0.55, 20, 14),
+      new THREE.MeshStandardMaterial({color:0x9a7bd0, roughness:0.5, emissive:0x2a1a4a, emissiveIntensity:0.5, transparent:true, opacity:0}));
+    lb.position.set(...pos); lb.visible = false; scene.add(lb); R.lobes.push(lb);
+  });
   // mitochondria
   R.mitos = [];
   const mitoG = new THREE.CapsuleGeometry(0.16, 0.34, 6, 12);
@@ -741,6 +751,7 @@ function animateProgram(id, t, dt, S){
   R.crescents.forEach(c=>c.material.opacity=0);
   R.pores.forEach(pr=>pr.material.opacity=0);
   R.shards.forEach(s=>s.material.opacity=0);
+  R.lobes.forEach(l=>{ l.visible = false; l.material.opacity = 0; });
   R.cloud.visible = true;
 
   if (id==='apoptosis'){
@@ -751,6 +762,7 @@ function animateProgram(id, t, dt, S){
     const frag = smooth(7,9,t);
     R.nucleus.visible = frag < 0.9; R.nucleolus.visible = frag < 0.5;
     R.membrane.material.opacity = 1 - frag;
+    R.membrane.material.color.setHex(0xe8a58c).lerp(new THREE.Color(0xc98d6e), smooth(3.5,6,t)*0.6); // PS-flip eat-me tint, stays sealed
     R.mitos.forEach(m=>{ m.visible = frag<0.7; });
     R.frags.forEach((f,i)=>{
       f.visible = frag>0;
@@ -771,12 +783,13 @@ function animateProgram(id, t, dt, S){
       const on = Math.random()<par;
       setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r*0.8:99, on?(Math.random()-0.5)*1.4:99, 1,0.88,0.3);
     }
-    // AIF stream mito -> nucleus
+    // AIF stream mito -> nucleus (green); MIF nuclease follows late (yellow)
     for(let i=200;i<330;i++){
       const f = (time*0.35 + i*0.02)%1;
       const sx = i%2? -1.1:1.05, sy = i%2? 0.5:-0.4;
       const on = Math.random()<aif;
-      setCloud(R,i, on?sx+(0-sx)*f:99, on?sy+(0-sy)*f:99, on?0.4:99, 0.32,1,0.62);
+      const mif = (i%3===0) && smooth(6.5,8.5,t) > Math.random();
+      setCloud(R,i, on?sx+(0-sx)*f:99, on?sy+(0-sy)*f:99, on?0.4:99, mif?1:0.32, mif?0.88:1, mif?0.3:0.62);
     }
     burstUpdate(R,0);
     R.nucleus.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0x3d6a4a), smooth(7,10,t)*0.6);
@@ -806,7 +819,7 @@ function animateProgram(id, t, dt, S){
     const nec = smooth(1.5,4.5,t), pores = smooth(4.5,6.5,t), rup = smooth(7.5,8.5,t);
     R.hub.material.opacity = nec; R.hub.scale.setScalar(1+nec*1.6+Math.sin(time*6)*0.12);
     R.hub.material.color.setHex(0xff5a4d);
-    R.pores.forEach((pr,i)=>{ pr.material.opacity = pores*(i/26 < pores? 1:0.15); pr.scale.setScalar(0.6+pores*0.9); });
+    R.pores.forEach((pr,i)=>{ pr.material.opacity = pores*(i/26 < pores? 1:0.15); pr.material.color.setHex(0xffd9c4); pr.scale.setScalar(0.7+pores*1.1); }); // MLKL: larger warm-tinted rings (vs white GSDMD)
     R.membrane.material.opacity = 1 - rup*0.9;
     for(let i=0;i<300;i++){
       if (t<7.5){ const a=Math.random()*6.28; setCloud(R,i, Math.cos(a)*Math.random()*1.7,Math.sin(a)*Math.random()*1.7,(Math.random()-0.5)*2, 0.5,0.2,0.2, 0,0,0); }
@@ -906,6 +919,7 @@ function animateProgram(id, t, dt, S){
     S.renderer.toneMappingExposure = 1;
     const ca = smooth(1.5,4,t), ps = smooth(5,8,t);
     deformMembrane(R, time, {scale:1-0.3*smooth(1.5,6,t), bleb:smooth(4,7,t)*0.8, wobble:0.02});
+    R.membrane.scale.set(1.25, 0.55 - 0.1*smooth(1.5,6,t), 1.25); // discocyte disc → spherocyte, not a sphere
     for(let i=0;i<200;i++){
       const on = Math.random()<ca;
       const a=Math.random()*6.28, r=Math.random()*1.5;
@@ -926,6 +940,13 @@ function animateProgram(id, t, dt, S){
     R.nucleus.visible = rup < 0.9;
     R.nucleus.scale.setScalar(1+0.8*decon);
     R.nucleus.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0xd0b8ff), decon*0.7);
+    R.lobes.forEach((l,j)=>{ // segmented neutrophil nucleus: lobes swell with decondensation, vanish at rupture
+      l.visible = rup < 0.9;
+      l.material.opacity = 1;
+      l.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0xd0b8ff), decon*0.7);
+      l.scale.setScalar(1+0.8*decon);
+      l.position.y += Math.sin(time*2+j*2.1)*0.002;
+    });
     R.mitos.forEach(m=>{ m.visible = rup<0.5; });
     // ROS burst inside
     for(let i=0;i<160;i++){
