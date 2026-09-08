@@ -28,7 +28,6 @@ export const SETTINGS_DEFAULTS = {
   reduceMotion: false,      // skip camera flights + force auto-rotate off
   renderQuality: 'retina',  // 'retina' (≤2× DPR) | 'standard' (1×) | 'performance' (0.75×)
   accentColor: '',          // '' = theme default (light #0F766E / dark #4E79A7); hex string overrides --accent
-  cellMode: false,          // cytoplasm view: membrane + organelle anchors
 };
 
 function loadSettings() {

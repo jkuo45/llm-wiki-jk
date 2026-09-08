@@ -22,7 +22,6 @@ import {
   applyAccentToScene, getAccentHex,
 } from './core.js';
 import { selectNode, deselectNode, setUiHooks } from './interaction.js';
-import { enterCellMode, exitCellMode, isCellMode } from './cell.js';
 import { updateHash } from './routing.js';
 import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
 import { setUiLang } from './i18n.js';
@@ -602,7 +601,6 @@ export function rebindTracePanel() {
   if (state.activeTrace) traceSelectEl.value = state.activeTrace.id;
 
   traceSelectEl.addEventListener('change', () => {
-    window.dispatchEvent(new CustomEvent('fly-cancel'));
     const traceId = traceSelectEl.value;
     if (!traceId) { clearTrace(); return; }
     const trace = TRACES.find(t => t.id === traceId);
@@ -621,7 +619,6 @@ function renderKeyNodeSpans(parent, items) {
     span.textContent = item.label;
     span.title = item.title;
     span.addEventListener('click', () => {
-      window.dispatchEvent(new CustomEvent('fly-cancel'));
       if (nodeObjects.has(item.id)) selectNode(item.id);
     });
     parent.appendChild(span);
@@ -629,7 +626,6 @@ function renderKeyNodeSpans(parent, items) {
 }
 
 export function clearTrace() {
-  window.dispatchEvent(new CustomEvent('fly-cancel'));
   state.activeTrace = null;
   state.activeRouteIdx = -1;
   if (traceSelectEl) traceSelectEl.value = '';
@@ -659,37 +655,11 @@ export function activateTrace(trace) {
   // Show routes
   if (traceRoutesEl) {
     traceRoutesEl.innerHTML = '';
-    if (trace.routes.length > 1) {
-      const all = document.createElement('button');
-      all.type = 'button';
-      all.className = 'fly-play-all';
-      all.textContent = `▶ Play all ${trace.routes.length} routes`;
-      all.title = 'Fly through every route in sequence';
-      all.addEventListener('click', (e) => {
-        e.stopPropagation();
-        import('./fly.js').then((fly) => fly.startFly(trace, 0, { playAll: true }));
-      });
-      traceRoutesEl.appendChild(all);
-    }
     trace.routes.forEach((route, idx) => {
       const div = document.createElement('div');
       div.className = 'trace-route';
       div.innerHTML = `<span class="trace-route-name">${esc(route.name)}</span><span class="trace-route-hops">${route.hops} hop${route.hops !== 1 ? 's' : ''}</span>`;
-      const flyBtn = document.createElement('button');
-      flyBtn.type = 'button';
-      flyBtn.className = 'fly-btn fly-go';
-      flyBtn.textContent = '▶ Fly';
-      flyBtn.title = `Fly through: ${route.name}`;
-      flyBtn.setAttribute('aria-label', `Fly through ${route.name}`);
-      flyBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        import('./fly.js').then((fly) => fly.startFly(trace, idx));
-      });
-      div.appendChild(flyBtn);
-      div.addEventListener('click', () => {
-        window.dispatchEvent(new CustomEvent('fly-cancel'));
-        activateRoute(trace, idx);
-      });
+      div.addEventListener('click', () => activateRoute(trace, idx));
       traceRoutesEl.appendChild(div);
     });
   }
@@ -739,7 +709,7 @@ export function highlightTraceNodes(trace) {
   setLabelVisibility(traceIds);
 }
 
-export function activateRoute(trace, routeIdx, opts = {}) {
+export function activateRoute(trace, routeIdx) {
   state.activeRouteIdx = routeIdx;
   const route = trace.routes[routeIdx];
   const routeNodeIds = new Set(route.path);
@@ -804,63 +774,15 @@ export function activateRoute(trace, routeIdx, opts = {}) {
     renderRouteCard();
   }
 
-  // Focus camera on route midpoint (skipped for fly.js — it drives the camera).
-  if (!opts.noFly) {
-    const routeMeshes = route.path.map(id => nodeObjects.get(id)).filter(Boolean);
-    if (routeMeshes.length > 0) {
-      const center = new THREE.Vector3(0, 0, 0);
-      routeMeshes.forEach(m => center.add(m.position));
-      center.divideScalar(routeMeshes.length);
-      animateCamera(center.clone().add(CAMERA_OFFSET), center);
-    }
+  // Focus camera on route midpoint
+  const routeMeshes = route.path.map(id => nodeObjects.get(id)).filter(Boolean);
+  if (routeMeshes.length > 0) {
+    const center = new THREE.Vector3(0, 0, 0);
+    routeMeshes.forEach(m => center.add(m.position));
+    center.divideScalar(routeMeshes.length);
+    animateCamera(center.clone().add(CAMERA_OFFSET), center);
   }
   updateHash();
-}
-
-// Flythrough stop card: same route path, current stop highlighted, with the
-// stop's role/description stepped above the route mechanism. Rendered by
-// fly.js on every stop change (only when the analysis panel is open;
-// otherwise the flight still runs, minus text).
-export function renderFlyStopCard(trace, routeIdx, stopIdx) {
-  if (!state.analysisOpen || !infoCard) return;
-  const route = trace.routes[routeIdx];
-  if (!route) return;
-  const stopId = route.path[stopIdx];
-  const stopNode = nodeMap.get(stopId);
-  const stopLabel = stopNode ? stopNode.label : stopId;
-  const keyRole = (trace.keyNodes || []).find((kn) => kn.id === stopId);
-  const desc = nodeDescById(stopId);
-  const stopLine = keyRole && keyRole.role
-    ? `${stopLabel} — ${keyRole.role}`
-    : (desc ? `${stopLabel} — ${desc}` : stopLabel);
-  const pathItems = route.path.flatMap((id, i) => {
-    const n = nodeMap.get(id);
-    const label = n ? n.label : id;
-    const color = n ? n.color.background : '#555';
-    const span = neighborSpan(id, color, label);
-    if (i === stopIdx) span.classList.add('fly-current');
-    const items = [span];
-    if (i < route.path.length - 1) items.push(h('div', { class: 'route-arrow' }, '↓'));
-    return items;
-  });
-  const renderStopCard = () => {
-    renderDetailCard(infoCard, {
-      title: route.name,
-      badge: `Stop ${stopIdx + 1}/${route.path.length}`,
-      badgeClass: 'route-meta',
-      onClose: hideNodeInfo,
-      lang: detailLangProps(),
-      rows: [
-        h('div', { class: 'fly-stop-text' }, stopLine),
-        h('div', { class: 'route-path' }, pathItems),
-      ],
-      context: route.mechanism
-        ? { text: route.mechanism, max: Infinity, className: 'route-mechanism' }
-        : null,
-    });
-  };
-  routeCardRerender = renderStopCard;
-  renderStopCard();
 }
 
 // ------------------------------------------------------------
@@ -1082,40 +1004,9 @@ const edgesToggle = enhanceToggle(document.getElementById('btn-edges'), {
   },
 });
 
-// Cytoplasm cell view toggle (cell.js owns the scene transition). The toggle
-// API is the source of truth for .active/aria-pressed; cell mode writes go
-// through setCellToggle so hash-restore and the `C` shortcut stay in sync.
-let cellToggle = null;
-function setCellToggle(on) {
-  if (cellToggle) cellToggle.set(on);
-}
-export function syncCellToggle() {
-  setCellToggle(isCellMode());
-}
-function wireCellToggle() {
-  const el = document.getElementById('btn-cell');
-  if (!el) return;
-  cellToggle = enhanceToggle(el, {
-    onChange: (on) => {
-      if (on && !isCellMode()) enterCellMode();
-      else if (!on && isCellMode()) exitCellMode();
-    },
-  });
-  cellToggle.set(isCellMode());
-  document.addEventListener('keydown', (e) => {
-    if (e.key !== 'c' && e.key !== 'C') return;
-    const t = e.target;
-    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-    if (isCellMode()) exitCellMode();
-    else enterCellMode();
-    cellToggle.set(isCellMode());
-  });
-}
-
 // Initialize toggle states from the (persisted) settings.
 labelsToggle.set(state.showLabels);
 edgesToggle.set(edgeSegments.visible);
-wireCellToggle();
 
 // ------------------------------------------------------------
 // Settings — appearance / labels / filters controls (persisted)

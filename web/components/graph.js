@@ -10,9 +10,7 @@ import {
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
 import { parseHash } from './routing.js';
-import { activateTrace, activateRoute, clearTrace, setupDatasetSlider, syncCellToggle } from './ui.js';
-import { isCellMode, enterCellMode, exitCellMode, cellTick } from './cell.js';
-import { isFlying, flyTick } from './fly.js';
+import { activateTrace, activateRoute, clearTrace, setupDatasetSlider } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: analysis.js attaches its own listeners.
@@ -72,12 +70,6 @@ async function restoreFromHash(params) {
     const edge = RAW_EDGES.find(e => e.from === from && e.to === to);
     if (edge) selectEdge(edge);
   }
-  // Cytoplasm cell view: hash `cell=1` wins; enter/exit only on change so
-  // back/forward restores faithfully without replaying the transition.
-  const wantCell = !!(params && (params.cell === true || params.cell === '1'));
-  if (wantCell && !isCellMode()) enterCellMode({ skipHash: true });
-  else if (!wantCell && isCellMode()) exitCellMode({ skipHash: true });
-  syncCellToggle();
   if (params.node && nodeObjects.has(params.node)) {
     selectNode(params.node);
   } else if (!params.edge) {
@@ -194,18 +186,6 @@ function animate() {
     renderState.dirty = true;
   }
 
-  // Cytoplasm drift + master-regulator pulse (cell.js). Returns true when it
-  // moved anything, which keeps the on-demand loop rendering that frame.
-  if (isCellMode() && cellTick(performance.now())) {
-    renderState.dirty = true;
-  }
-
-  // Trace flythrough camera (fly.js). Takes precedence visually; both may
-  // run (drift keeps nodes alive under the flight).
-  if (isFlying() && flyTick(performance.now())) {
-    renderState.dirty = true;
-  }
-
   updateStickyRings();
   const controlsChanged = controls.update();
   updateZoomBar();
@@ -254,10 +234,6 @@ if (hashParams) {
   restoreFromHash(hashParams);
   lastRestoredHash = window.location.hash;
   history.replaceState({ hash: window.location.hash }, '', window.location.href);
-} else if (state.settings.cellMode) {
-  // No hash: honor the persisted Cell toggle from a previous visit.
-  enterCellMode({ skipHash: true });
-  syncCellToggle();
 }
 
 // Wire the Triples / Wiki / Combined dataset slider (inside Settings).

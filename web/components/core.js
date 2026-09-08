@@ -1231,22 +1231,13 @@ export const minimap = (() => {
 
   // ---- Controls wiring ----
   let modeIdx = 0;
-  // Cell (cytoplasm) mode: hide community hulls (positions are organelle-
-  // biased, so hulls mislead) and fade minimap edges. Restored on exit.
-  let minimapCellMode = false;
-  function setMinimapCellMode(on) {
-    minimapCellMode = !!on;
-    hullGroup.visible = !minimapCellMode && MODES[modeIdx] === 'community';
-    allEdges.lines.material.opacity = minimapCellMode ? 0.12 : 0.35;
-    requestRender();
-  }
   function applyMode() {
     const mode = MODES[modeIdx];
     modeBtn.textContent = MODE_LABEL[mode];
     colorAttr.array = mode === 'community' ? communityColors
       : mode === 'degree' ? degreeColors : betweennessColors;
     colorAttr.needsUpdate = true;
-    hullGroup.visible = !minimapCellMode && mode === 'community';
+    hullGroup.visible = mode === 'community';
     requestRender();
   }
   modeBtn.addEventListener('click', () => {
@@ -1354,5 +1345,5 @@ export const minimap = (() => {
     miniRenderer.setPixelRatio(pr);
   }
 
-  return { render, setQuality, setCellMode: setMinimapCellMode };
+  return { render, setQuality };
 })();
