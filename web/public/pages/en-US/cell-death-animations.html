@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cell Death Animations — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · PANoptosis</title>
-<meta name="description" content="Realistic three.js animations of eight cell death programs — watch shrinkage, blebbing, swelling, rupture, pores, and fragmentation unfold in each cell.">
+<title>Cell Death Animations — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · PANoptosis · Eryptosis · NETosis</title>
+<meta name="description" content="Realistic three.js animations of ten cell death programs — watch shrinkage, blebbing, swelling, rupture, pores, and fragmentation unfold in each cell.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-animations.html">
@@ -75,7 +75,7 @@
     <div class="titlebar">
       <p class="kicker">Visual explainer · Cell death · three.js</p>
       <h1>What each cell death looks like, live</h1>
-      <p class="lede">Eight looping 3-D cells, one per program from the <a href="cell-death-comparison-table.html">comparison table</a>.
+      <p class="lede">Ten looping 3-D cells, one per program from the <a href="cell-death-comparison-table.html">comparison table</a>.
       Membrane = outer sphere · inner sphere = nucleus/DNA · capsules = mitochondria · dots = molecules (PAR, AIF, Ca²⁺, ROS/iron, cytokines, DAMPs).
       Lytic programs end in rupture; apoptosis ends in neat parcels; autophagy mostly survives.</p>
     </div>
@@ -87,7 +87,7 @@
           <option value="1" selected>1× speed</option>
           <option value="2">2× speed</option>
         </select>
-        <span class="hint">12 s time-lapse loop · T+ clock = biological time · scroll for all 8</span>
+        <span class="hint">12 s time-lapse loop · T+ clock = biological time · scroll for all 10</span>
       </div>
     </div>
     <div class="grid" id="anim"></div>
@@ -97,7 +97,7 @@
       Peroxidation patches + shrinking condensed mitochondria = ferroptosis. Crescent moons closing around cargo and fusing with a lysosome = autophagy.
       Each 12 s loop is a time-lapse — the T+ clock runs at biological speed, so identical loop lengths cover wildly different real durations:
       ≈20 min (necrosis) and ≈45 min (pyroptosis) at the fast end, ≈2 h starvation flux (autophagy) and ≈3–4 h (apoptosis, necroptosis) in the middle,
-      ≈8 h (parthanatos, ferroptosis) and ≈12 h infection courses (PANoptosis) at the slow end. Single-cell timing varies by cell type and stimulus — treat clocks as representative, not exact.
+      ≈8 h (parthanatos, ferroptosis) and ≈12 h infection courses (PANoptosis) at the slow end, ≈2–4 h suicidal NETosis and hours-scale eryptosis alongside. Single-cell timing varies by cell type and stimulus — treat clocks as representative, not exact.
       Built with three.js r160 (CDN importmap); vertex-displaced membranes, instanced particles, no post-processing. Respects <code>prefers-reduced-motion</code> (starts paused).</p>
     </footer>
   </main>
@@ -198,7 +198,7 @@ const PROGRAMS = [
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>inflammasome/caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD pores <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
  { id:'panoptosis', title:'PANoptosis', sub:'all-in-one — ZBP1 PANoptosome, non-redundant',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
-   bioNote:'⏱ ≈12 h infection course — slowest of the eight · 12 s loop (time-lapse)',
+   bioNote:'⏱ ≈12 h infection course — slowest of the original eight · 12 s loop (time-lapse)',
    phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
    steps:['Central hub (RIPK1/RIPK3/caspase-8/caspase-1) lights up.','Pores, blebs and condensation happen simultaneously.','Massive rupture; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
    labels:[
@@ -208,6 +208,27 @@ const PROGRAMS = [
     {text:'PANoptosome', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
     {text:'Pores (GSDMD + MLKL)', pos:(R)=>R.pores[9].position.toArray(), show:(R,t)=>t>=3.5}],
    legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK <span class="legend-dot" style="background:#ffe14d"></span>caspase <span class="legend-dot" style="background:#ffffff"></span>GSDMD/MLKL pores' },
+ { id:'eryptosis', title:'Eryptosis', sub:'RBC · apoptosis-like, anucleate — Ca2+/ceramide',
+   pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
+   bioNote:'\u23f1 \u2248 hours (oxidative/osmotic/energy-depletion triggers) \u00b7 12 s loop (time-lapse)',
+   phases:[[0,0,'trigger — Ca2+ influx, energy depletion'],[2.5,30,'cell shrinks · Ca2+ floods in'],[5,90,'PS flips out · membrane blebs'],[8,150,'shrunken PS-positive remnant — clearance'],[10.5,180,'engulfed silently — no rupture']],
+   steps:['Disc shrinks; Ca2+ dots flood the cytosol — no nucleus or mitochondria inside (anucleate).','Membrane blebs; PS-flip tint marks the eat-me signal (Annexin V+).','PS-positive remnant cleared by macrophages — hemolysis only if overwhelming.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Ca2+ influx', pos:()=>[-0.2,0.9,0.4], show:(R,t)=>t>=1.5&&t<9},
+    {text:'PS signal', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>membrane <span class="legend-dot" style="background:#7fd4ff"></span>Ca2+ <span class="legend-dot" style="background:#c98d6e"></span>PS exposure' },
+ { id:'netosis', title:'NETosis', sub:'neutrophil · PAD4 · NET extrusion — lytic',
+   pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
+   bioNote:'\u23f1 \u22482-4 h suicidal (vital form \u2248 minutes, membrane kept) \u00b7 12 s loop (time-lapse)',
+   phases:[[0,0,'pathogen/LPS — NADPH oxidase ROS burst'],[2.5,30,'PAD4 activates — histones citrullinated'],[5,90,'chromatin decondenses — nucleus swells'],[7.5,150,'envelope breaks — NETs extrude'],[10,210,'DNA web + elastase/MPO — pathogen trap']],
+   steps:['ROS flicker; PAD4 hub lights up (histone citrullination, cit-H3).','Lobed nucleus swells and fills the cell — decondensation, no apoptotic ladder.','Membrane ruptures (suicidal form) and the DNA-histone-elastase web fountains out.'],
+   labels:[
+    {text:'Membrane', pos:()=>[1.5,1.45,0]},
+    {text:'Nucleus (decondensing)', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
+    {text:'PAD4', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
+    {text:'NETs (DNA + MPO)', pos:()=>[2.6,1.0,0], show:(R,t)=>t>=7}],
+   legend:'<span class="legend-dot" style="background:#9a7bd0"></span>chromatin/NET DNA <span class="legend-dot" style="background:#ffe14d"></span>PAD4 <span class="legend-dot" style="background:#ff8a3d"></span>elastase/MPO' },
 ];
 
 const grid = document.getElementById('anim');
@@ -548,6 +569,53 @@ function animateProgram(id, t, dt, S){
     burstUpdate(R, dt*(t>8.2?1:0));
     R.membrane.material.opacity = 1 - rup*0.92;
     R.shards.forEach(s=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.8); s.rotation.x+=dt*4; } else s.position.set(0,0,0); });
+  }
+  else if (id==='eryptosis'){
+    // anucleate RBC: hide nucleus / mitochondria / fragments
+    R.nucleus.visible = false; R.nucleolus.visible = false;
+    R.mitos.forEach(m=>{ m.visible = false; });
+    R.frags.forEach(f=>{ f.visible = false; });
+    S.renderer.toneMappingExposure = 1;
+    const ca = smooth(1.5,4,t), ps = smooth(5,8,t);
+    deformMembrane(R, time, {scale:1-0.3*smooth(1.5,6,t), bleb:smooth(4,7,t)*0.8, wobble:0.02});
+    for(let i=0;i<200;i++){
+      const on = Math.random()<ca;
+      const a=Math.random()*6.28, r=Math.random()*1.5;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r*0.85:99, on?(Math.random()-0.5)*1.6:99, 0.5,0.83,1);
+    }
+    for(let i=200;i<420;i++) setCloud(R,i, 99,99,99, 0,0,0);
+    burstUpdate(R,0);
+    R.membrane.material.color.setHex(0xe8a58c).lerp(new THREE.Color(0xc98d6e), ps*0.7); // PS-flip tint
+    R.membrane.material.opacity = 1 - 0.08*ps; // stays sealed — clearance, not rupture
+  }
+  else if (id==='netosis'){
+    S.renderer.toneMappingExposure = 1;
+    const ros = smooth(0.5,3,t), pad = smooth(1.5,4.5,t), decon = smooth(4,7,t), rup = smooth(7.5,8.5,t);
+    deformMembrane(R, time, {scale:1+0.15*decon+0.15*rup, bleb:0.06, wobble:0.04});
+    R.hub.material.opacity = pad; R.hub.material.color.setHex(0xffe14d);
+    R.hub.scale.setScalar(1+pad*1.4+Math.sin(time*6)*0.1);
+    R.nucleolus.visible = decon < 0.3;
+    R.nucleus.visible = rup < 0.9;
+    R.nucleus.scale.setScalar(1+0.8*decon);
+    R.nucleus.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0xd0b8ff), decon*0.7);
+    R.mitos.forEach(m=>{ m.visible = rup<0.5; });
+    // ROS burst inside
+    for(let i=0;i<160;i++){
+      const on = Math.random()<ros;
+      const a=Math.random()*6.28, r=Math.random()*1.6;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r:99, on?(Math.random()-0.5)*2:99, 1,0.48+Math.random()*0.2,0.1);
+    }
+    // NET web: pale chromatin strands + elastase/MPO flecks jet outward after rupture
+    for(let i=160;i<420;i++){
+      if (t<7.5){ const on=Math.random()<decon*0.6; const a=Math.random()*6.28;
+        setCloud(R,i, on?Math.cos(a)*Math.random()*1.6:99, on?Math.sin(a)*Math.random()*1.6:99, on?(Math.random()-0.5)*1.6:99, 0.6,0.47,0.82, 0,0,0); }
+      else if (R.pVel[i*3]===0){ const a=Math.random()*6.28, e=Math.random()*1.6+0.6;
+        const elast = (i%5===0);
+        setCloud(R,i, Math.cos(a)*2.1, Math.sin(a)*1.4, (Math.random()-0.5), elast?1:0.82, elast?0.54:0.72, elast?0.24:1, Math.cos(a)*e, Math.sin(a)*e, (Math.random()-0.5)*1.6); }
+    }
+    burstUpdate(R, dt*(t>7.5?1:0));
+    R.membrane.material.opacity = 1 - rup*0.9;
+    R.shards.forEach(s=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.6); s.rotation.x+=dt*3; } else s.position.set(0,0,0); });
   }
 }
 
