@@ -2,7 +2,7 @@
 title: AIF
 description: AIF (Apoptosis-inducing factor) is a flavoprotein that is released from the mitochondrial intermembrane space during Apoptosis.
 created: 2026-07-06
-updated: 2026-09-03
+updated: 2026-09-08
 tags:
   - protein
 aliases: []
@@ -19,6 +19,9 @@ AIF contains an N-terminal mitochondrial targeting sequence, a central flavin-bi
 ## Mechanism of Action
 
 Following mitochondrial outer membrane permeabilization (see [[Intrinsic Pathway]]), AIF is cleaved by calpains or cathepsins and translocates to the nucleus. There it binds to [[DNA]] and, together with [[Cyclophilin A]], induces large-scale (~50 kb) chromatin fragmentation and [[chromatin condensation]]. This caspase-independent route ensures death execution even when caspases are inhibited (e.g., by [[IAPs]] or viral inhibitors), providing a fail-safe lethal program.
+
+> [!info] Parthanatos specifics
+> PAR-binding motif on AIF-D3 (Arg588/Lys589/Arg592), separate from the DNA-binding site — mutation retains oxidase/DNA binding but blocks PAR-induced release/death. Rapid release of the 20–30% outer-membrane pool precedes cytochrome c. Calpain cleavage (62→57 kDa) is dispensable for canonical parthanatos; calpain–BID–BAX wiring (tBID → BAX → AIF) operates caspase-independently (Galán-Malo 2012). Nuclear execution via [[MIF]]/PAAN or CypA–H2AX complexes; [[HSP70]] sequesters cytosolic AIF as brake.
 
 ## Physiological Function
 

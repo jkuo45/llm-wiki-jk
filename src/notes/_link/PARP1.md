@@ -4,7 +4,7 @@ description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-f
   enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
 created: 2024-01-01
-updated: 2026-09-03
+updated: 2026-09-08
 tags:
   - enzyme
 aliases: [PARP-1, Poly(ADP-ribose) polymerase 1, ARTD1]
@@ -38,7 +38,7 @@ PARP1 also regulates DNA repair enzymes at the post-translational level. [[PARP1
 
 Through its PARylation activity, PARP1 participates in the regulation of [[Autophagy]]. PARsylation of [[ULK1]], [[TFEB]], and [[mTORC1]] components by PARP family enzymes — including PARP1 — modulates autophagic flux. PARP inhibitors such as [[Olaparib]] induce autophagy in cancer cells, suggesting that PARP1 restrains autophagy under basal conditions and that its inhibition relieves this brake.
 
-A critical downstream consequence of excessive PARP1 activation is parthanatos: hyperactivation of PARP1 leads to massive [[NAD+]] consumption, which depletes cellular ATP pools and triggers a caspase-independent form of programmed cell death. During parthanatos, PAR polymers themselves translocate from the nucleus to the mitochondria, where they trigger the release of apoptosis-inducing factor (AIF) from the inner mitochondrial membrane. AIF then translocates to the nucleus and promotes large-scale DNA fragmentation — a morphologically distinct cell death pathway separable from apoptosis, necroptosis, and ferroptosis. This pathway is implicated in neuronal death following ischemic stroke, myocardial infarction, neurodegenerative diseases, and other settings of genotoxic stress, and understanding it has driven the development of neuroprotective PARP inhibitor strategies.
+A critical downstream consequence of excessive PARP1 activation is parthanatos: hyperactivation of PARP1 leads to massive [[NAD+]] consumption, which depletes cellular ATP pools and triggers a caspase-independent form of programmed cell death. During parthanatos, PAR polymers themselves translocate from the nucleus to the mitochondria, where they trigger the release of apoptosis-inducing factor (AIF) from the inner mitochondrial membrane. AIF then translocates to the nucleus and promotes large-scale DNA fragmentation — a morphologically distinct cell death pathway separable from apoptosis, necroptosis, and ferroptosis. NAD+/ATP depletion and PAR–[[Hexokinase-1]] glycolysis inhibition are dissociable arms (2026 PARG-inhibition uncoupling; FK866/NR controls) — see [[Parthanatos]] and `task_output_parthanatos_open_questions_08_Sep_2026.md`. Apoptotic caspase cleavage yields the [[89-kDa PARP1 Fragment]], classically inactivating but now shown (2025) to act as a cytoplasmic PAR carrier feeding AIF signaling.
 
 ## NAD+ Consumer Network
 

@@ -4,7 +4,7 @@ description: ARH3 (ADPRHL2) is a 39-kDa Mg2+-dependent ADP-ribosylhydrolase that
   erases serine-MARylation and degrades PAR exoglycosidically
 protected: false
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-08
 tags: [enzyme, adp-ribosylation, dna-repair, parthanatos, neurodegeneration]
 url: #
 source: #
@@ -38,7 +38,7 @@ Compared with [[PARG]]: [[PARG]] (macrodomain, Glu755/Asp737, no metals) cleaves
 
 - **DNA-damage reversal:** with [[PARG]], completes the PAR cycle. [[PARG]] removes bulk polymer; ARH3 removes terminal Ser-MAR on [[PARP1]], histones and hundreds of HPF1-dependent substrates. `ARH3-KO` cells accumulate Ser-MAR; `HPF1-KO` shows the opposite.
 - **Mitochondrial PAR/OAADPr control:** only active mitochondrial PAR degrader — short [[PARG]] splice forms PARG55/60 lack exon 5 and are inactive. By degrading OAADPr from [[SIRT3]]/[[SIRT5]] deacetylation, links [[Sirtuins]] to mitochondrial redox.
-- **Parthanatos brake:** `Arh3-/-` MEFs show exaggerated nuclear [[PAR]] at 10 min post-H2O2, cytoplasmic translocation by 30 min, [[AIF]] release and caspase-independent death. Re-expression rescues. Cytoplasmic [[PAR]] also inhibits Rab5 endocytosis in this model.
+- **Parthanatos brake:** `Arh3-/-` MEFs show exaggerated nuclear [[PAR]] at 10 min post-H2O2, cytoplasmic translocation by 30 min, [[AIF]] release and caspase-independent death. Re-expression rescues. Cytoplasmic [[PAR]] also inhibits Rab5 endocytosis in this model. Caveat (2026 RPE1/MNNG preprint, bioRxiv 2026.05.12.724507): ARH3 KO had no effect on parthanatos execution in that system — protective role is insult/cell-type dependent.
 
 ## Pathology & Clinical relevance
 

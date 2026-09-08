@@ -5,7 +5,7 @@ description: PARP-1-dependent regulated cell death executed by PAR polymer signa
   DNA fragmentation and NAD+ depletion.
 protected: false
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-08
 tags: [biological-process, cell-death, regulated-cell-death, neurodegeneration]
 url: #
 source: #
@@ -46,7 +46,7 @@ Cytosolic [[AIF]] binds [[MIF]] (PAAN, PD-D/E(X)K nuclease, E22 critical, tautom
 
 ## Regulation
 
-- **[[PARG]]/[[ARH3]]:** highly active erasers. Overexpression protects (infarct reduced); deletion lethal E3.5, sensitizes to MNNG/menadione. Paradox: knockdown protects in H2O2 but not MNNG models; endo- vs exo-glycosidase balance (mostly monomers, few free chains) plus auto-PARP1 inhibition confounds. [[ARH3]] loss sensitizes to ischemia, human mutants show neurodegeneration.
+- **[[PARG]]/[[ARH3]]:** highly active erasers. Overexpression protects (infarct reduced); deletion lethal E3.5, sensitizes to MNNG/menadione. 2026 Hoch-lab preprint (bioRxiv 2026.05.12.724507): parthanatos strictly requires PARG activity in RPE1/MNNG — full inhibition blocks ATP loss/death but not NAD+ loss (NAD/ATP uncoupled); low residual PARG suffices; ARH3 KO no effect in that system; new 53-kDa splice isoform PARG53 revises PARG55/60 annotation and explains CRISPR-vs-inhibitor discrepancy. Paradox: knockdown protects in H2O2 but not MNNG models; endo- vs exo-glycosidase balance (mostly monomers, few free chains) plus auto-PARP1 inhibition confounds. [[ARH3]] loss sensitizes to ischemia, human mutants show neurodegeneration.
 - **[[NAD+]] compartment:** nuclear/cytosolic pool hit first; mitochondrial pool via SLC25A51 plus mito-[[PARP1]] debated. NR/NMN rescue context-dependent. [[SIRT1]] competes for [[NAD+]]; SIRT1-PARP1-AIF axis gates survival vs death.
 - **Ca2+:** ADP-ribose monomers open [[TRPM2]] -> Ca2+ influx; ER release contributes. Chelation protects renal I/R and H2O2 but not MNNG models. Calpain/mPTP downstream candidates, not obligatory.
 - **Caspase switch:** low damage -> transient NAD+/ATP dip -> apoptosis; high damage -> prolonged depletion -> parthanatos. Apoptotic caspases cleave [[PARP1]] to prevent parthanatos.
@@ -75,7 +75,7 @@ Ischemic parthanatos signaling is sexually dimorphic. In adult mouse MCAO, PARP-
 
 ## Crosstalk
 
-- **Parthanatos <-> [[Apoptosis]]:** mutually exclusive via NAD+/ATP switch and PARP1 cleavage; [[AIF]] translocation in apoptosis likely epiphenomenon or PARP-dependent secondary.
+- **Parthanatos <-> [[Apoptosis]]:** mutual antagonism (NAD+/ATP switch; caspase cleavage of [[PARP1]]) plus cooperation nodes: calpain–BID–BAX–[[AIF]] axis (calpain-cleaved BID → tBID → BAX → AIF release, caspase-independent), [[89-kDa PARP1 Fragment]] as cytoplasmic PAR carrier driving AIF death (2025), HK1–VDAC dissociation lowering apoptotic threshold. [[AIF]] translocation in apoptosis likely epiphenomenon or PARP-dependent secondary.
 - **Parthanatos <-> [[Necroptosis]]:** both considered regulated necrosis subsets; TNF-alpha + [[PARP1]] ATP depletion links; but PAR/[[AIF]] signature unique.
 - **Parthanatos <-> [[Autophagy]]:** AMPK-mTORC1 activation and autophagic figures in some models; protective vs executive role unresolved.
 - **Parthanatos <-> [[Ferroptosis]]:** shared ROS/JNK/MAPK/mTOR upstream, GSH/NADPH fall via HK-1/PPP; PARP activity during autophagy promotes ferroptosis in some models.
@@ -108,6 +108,8 @@ List of documents that mention this entity
 - [[PARG]] — PAR eraser; overexpression protects, deletion lethal/sensitizing; context-dependent promoter/suppressor.
 - [[Iduna]] — PAR-dependent E3 blocking H1.2-PAR export.
 - [[Hexokinase-1]] — PAR-inhibited glycolytic gate; bioenergetic failure node.
+- [[Nudix Hydrolases]] — ADP-ribose → AMP/R5P; salvage-cost and AMPK overlay.
+- [[89-kDa PARP1 Fragment]] — apoptotic p89 as cytoplasmic PAR carrier bridging to AIF death.
 - [[NAD+]] — consumed substrate; compartment-specific depletion; SIRT competition; NR/NMN rescue context.
 - [[TRPM2]] — ADP-ribose Ca2+ channel linking PAR catabolism to calpain/mPTP candidates.
 - [[HDAC6]] — deacetylates MIF to license AIF-MIF binding/translocation.

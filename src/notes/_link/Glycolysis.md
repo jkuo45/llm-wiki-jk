@@ -4,13 +4,16 @@ description: Glycolysis is the metabolic pathway that converts glucose into pyru
   A byproduct of this pathway is the formation of Methylglyoxal, a potent precursor
   for Advanced Glycation End Products.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-08
 tags:
   - biological-process
 aliases: [Glycolysis]
 ---
 # Glycolysis
 Glycolysis is the metabolic pathway that converts glucose into pyruvate. A byproduct of this pathway is the formation of [[Methylglyoxal]], a potent precursor for [[Advanced Glycation End Products|AGEs]].
+
+> [!warning] Parthanatos input
+> Free [[PAR]] chains bind/inhibit [[Hexokinase-1]] via its PAR-binding motif (HK activity falls ~15 min post-MNNG, before [[NAD+]] loss; PARG-predigested PAR inactive; PBM-mutant HK1 resists) and drive HK1–[[VDAC]] dissociation, blocking glycolysis and PPP (NADPH/GSH fall). Pyruvate/α-ketoglutarate bypass rescues downstream mitochondrial failure. Full NAD+ salvage costs ~4 ATP per ADP-ribose; [[Nudix Hydrolases]]-derived AMP feeds AMPK–mTORC1 overlay. See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
 ## Glycolysis and Cancer
 - **Metabolic Reprogramming:** Cancer cells rely on aerobic glycolysis to support rapid proliferation and biomass production.
 - **Key Enzymes:** Enzymes such as [[Hexokinase 2]] (HK2), [[Phosphofructokinase]], and [[Pyruvate Kinase M2]] (PKM2) are frequently overexpressed.
