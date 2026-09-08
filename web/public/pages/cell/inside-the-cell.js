@@ -51,13 +51,23 @@ const VLT = {
   'Complex I': 'Complex I', Glutamine: 'Glutamine',
   'Fatty acid oxidation': 'Fatty acid oxidation',
   '2-deoxy-D-glucose': '2-deoxy-D-glucose',
+  Neuromelanin: 'Neuromelanin', 'Dopamine o-quinone': 'Dopamine o-quinone',
+  Dopachrome: 'Dopachrome', '5,6-indolequinone': '5,6-indolequinone',
+  'Dopachrome tautomerase': 'Dopachrome tautomerase', Eumelanin: 'Eumelanin',
+  Pheomelanin: 'Pheomelanin', 'Alpha-Synuclein Aggregation': 'Alpha-Synuclein Aggregation',
+  'DJ-1': 'DJ-1', "Parkinson's Disease": "Parkinson's Disease",
+  'Dopamine Transporter': 'Dopamine Transporter', DAT: 'DAT',
+  'Vesicular Monoamine Transporter 2': 'Vesicular Monoamine Transporter 2',
+  'Tyrosine Hydroxylase': 'Tyrosine Hydroxylase', Iron: 'Iron',
+  'Aromatic L-amino acid decarboxylase': 'Aromatic L-amino acid decarboxylase',
+  'Lipid Peroxidation': 'Lipid Peroxidation',
 };
 const vlink = (n) => `<a href="https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}" target="_blank" rel="noopener">[[${VLT[n] || n}]]</a>`;
 
 export const STR = {
   en: {
     tabExplore: 'Explore', tabAdreno: 'Adrenochrome pathway', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism',
+    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism', tabNM: 'Neuromelanin',
     labels: 'Labels', rotate: 'Rotate', cutaway: 'Cutaway',
     stepOf: (a, b) => `Step ${a} of ${b}`, prev: '← Prev', next: 'Next →', play: '▶ Auto-play', pause: '⏸ Pause',
     exploreTitle: 'Cellular components', exploreBody: 'Click any structure in the cell — or a button below — to read its real size, job, and vault links. Drag to orbit, scroll to zoom, right-drag to pan.',
@@ -152,10 +162,18 @@ export const STR = {
       { t: 'Backup fuels — glutamine, fat, creatine', b: 'Glutamine refills TCA carbon (glutaminolysis), fatty-acid oxidation feeds acetyl-CoA straight in, and the creatine shuttle buffers ATP spikes. Three spare tanks the vault documents across cancer, fasting and exercise notes.', legend: [['#4ad6b5', 'glutamine + FAO inflow'], ['#b79aff', 'creatine buffer']], vault: ['Glutamine', 'Fatty acid oxidation', 'Creatine'] },
       { t: 'The brake — AMPK/mTOR + the 2-DG choke', b: 'Low energy trips AMPK, which brakes mTOR and rations growth — the fasting/exercise sensor from the Autophagy tour. 2-deoxy-D-glucose jams glycolysis at hexokinase in the vault; the IVM × FBZ tour weaponizes the same choke with GLUT1/HK2 blockade.', legend: [['#4ad6b5', 'AMPK brake'], ['#ff5a4d', '2-DG glycolysis jam']], vault: ['AMPK', 'mTOR', '2-deoxy-D-glucose', 'Warburg Effect'] },
     ],
+    nmSteps: [
+      { t: 'Made on site — dopamine synthesis [neuronal]', b: 'This cell stands in for a catecholamine neuron: tyrosine hydroxylase plus aromatic L-amino acid decarboxylase build dopamine right here in the cytosol. Neurons make it where they need it — and that cytosolic pool is where the pigment story starts.', legend: [['#51ff9e', 'dopamine synthesis']], vault: ['Tyrosine Hydroxylase', 'Aromatic L-amino acid decarboxylase'] },
+      { t: 'Safe packing — VMAT2 vs DAT', b: 'Fresh dopamine is pumped into vesicles by VMAT2 for release, and recaptured at the membrane by the dopamine transporter (DAT). Packed dopamine is safe dopamine — only the dopamine left sitting in cytosol can oxidize.', legend: [['#7fd4ff', 'VMAT2 vesicle packing'], ['#51ff9e', 'DAT reuptake']], vault: ['Vesicular Monoamine Transporter 2', 'Dopamine Transporter', 'DAT'] },
+      { t: 'The leak — dopamine o-quinone', b: 'Cytosolic dopamine auto-oxidizes (iron and superoxide help) to dopamine o-quinone — the exact chemical cousin of the adrenaline-quinone that opens the Pathway tour. Same quinone chemistry, different catecholamine, neuronal stage.', legend: [['#ffe14d', 'dopamine → o-quinone']], vault: ['Dopamine o-quinone', 'Iron'] },
+      { t: 'Cyclization — dopachrome forks', b: 'The quinone cyclizes to dopachrome, which forks: dopachrome tautomerase steers toward 5,6-dihydroxyindole and dark eumelanin; without it, decarboxylation plus cysteine gives reddish pheomelanin. The fork decides the pigment’s iron-handling character.', legend: [['#9a7bd0', 'dopachrome fork'], ['#3a3348', 'eumelanin vs pheomelanin']], vault: ['Dopachrome', 'Dopachrome tautomerase', '5,6-indolequinone', 'Eumelanin', 'Pheomelanin'] },
+      { t: 'Stored — pigment in lysosome granules', b: 'Polymerized neuromelanin is warehoused in lysosome-related granules — dark dots accumulating by the lysosome, reusing the Pathway tour’s pigment finale. There it chelates iron and soaks up quinones: protector while the cage holds.', legend: [['#3a3348', 'pigment granules'], ['#d9403b', 'lysosome warehouse']], vault: ['Neuromelanin', 'Lysosome', 'Iron'] },
+      { t: 'When the cage breaks — Parkinson link', b: 'Overloaded or released neuromelanin flips from shield to trigger: iron spills feed lipid peroxidation, α-synuclein aggregates on pigment surfaces, and DJ-1 — the redox chaperone — is overwhelmed. The vault’s Parkinson docs place substantia nigra neurons exactly at this failure point.', legend: [['#ff5a4d', 'iron spill → peroxidation'], ['#b79aff', 'α-synuclein on pigment']], vault: ['Alpha-Synuclein Aggregation', 'DJ-1', "Parkinson's Disease", 'Lipid Peroxidation'] },
+    ],
   },
   zh: {
     tabExplore: '探索', tabAdreno: '腎上腺色素路徑', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝',
+    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝', tabNM: '神經黑色素',
     labels: '標籤', rotate: '旋轉', cutaway: '剖面',
     stepOf: (a, b) => `步驟 ${a} / ${b}`, prev: '← 上一步', next: '下一步 →', play: '▶ 自動播放', pause: '⏸ 暫停',
     exploreTitle: '細胞組件', exploreBody: '點擊細胞中的任何結構（或下方按鈕），查看其真實尺寸、功能與知識庫連結。可拖曳旋轉、滾輪縮放、右鍵平移。',
@@ -250,6 +268,14 @@ export const STR = {
       { t: '備用燃料——麩醯胺酸、脂肪、肌酸', b: '麩醯胺酸補充 TCA 碳骨架（麩醯胺酸分解），脂肪酸氧化直送乙醯輔酶 A，肌酸穿梭緩衝 ATP 尖峰。知識庫橫跨癌症、禁食與運動筆記的三個備用油箱。', legend: [['#4ad6b5', '麩醯胺酸＋FAO 流入'], ['#b79aff', '肌酸緩衝']], vault: ['Glutamine', 'Fatty acid oxidation', 'Creatine'] },
       { t: '煞車——AMPK/mTOR＋2-DG 扼喉', b: '能量低落觸發 AMPK，煞停 mTOR、配給生長——自噬導覽中的禁食／運動感測器。知識庫中 2-脫氧葡萄糖在己糖激酶處卡住糖解；IVM × FBZ 導覽以 GLUT1/HK2 封鎖武器化同一招。', legend: [['#4ad6b5', 'AMPK 煞車'], ['#ff5a4d', '2-DG 卡住糖解']], vault: ['AMPK', 'mTOR', '2-deoxy-D-glucose', 'Warburg Effect'] },
     ],
+    nmSteps: [
+      { t: '現地製造——多巴胺合成［神經元］', b: '這顆細胞在此代打兒茶酚胺神經元：酪胺酸羥化酶加芳香族胺基酸脫羧酶在胞質現場合成多巴胺。神經元在哪裡需要就在哪裡製造——而那池胞質多巴胺正是色素故事的起點。', legend: [['#51ff9e', '多巴胺合成']], vault: ['Tyrosine Hydroxylase', 'Aromatic L-amino acid decarboxylase'] },
+      { t: '安全包裝——VMAT2 vs DAT', b: '新鮮多巴胺由 VMAT2 打包進囊泡待釋放，並由膜上的多巴胺轉運體（DAT）回收。包好的多巴胺是安全的多巴胺——只有滯留胞質的才會氧化。', legend: [['#7fd4ff', 'VMAT2 囊泡包裝'], ['#51ff9e', 'DAT 回收']], vault: ['Vesicular Monoamine Transporter 2', 'Dopamine Transporter', 'DAT'] },
+      { t: '洩漏——多巴胺鄰醌', b: '胞質多巴胺自氧化（鐵與超氧助陣）成多巴胺鄰醌——正是開啟路徑導覽的腎上腺素醌的化學表親。相同的醌化學，不同的兒茶酚胺，神經元舞台。', legend: [['#ffe14d', '多巴胺 → 鄰醌']], vault: ['Dopamine o-quinone', 'Iron'] },
+      { t: '環化——多巴色素分岔', b: '醌環化成多巴色素，就此分岔：多巴色素互變異構酶導向 5,6-二羥吲哚與深色真黑素；否則脫羧加半胱氨酸生成紅色褐黑素。分岔決定色素處理鐵的性格。', legend: [['#9a7bd0', '多巴色素分岔'], ['#3a3348', '真黑素 vs 褐黑素']], vault: ['Dopachrome', 'Dopachrome tautomerase', '5,6-indolequinone', 'Eumelanin', 'Pheomelanin'] },
+      { t: '入庫——溶酶體顆粒中的色素', b: '聚合的神經黑色素存入溶酶體相關顆粒——深色圓點在溶酶體旁累積，重演路徑導覽的色素結局。在籠子完好時，它螯合鐵、吸附醌類：稱職的守衛。', legend: [['#3a3348', '色素顆粒'], ['#d9403b', '溶酶體倉庫']], vault: ['Neuromelanin', 'Lysosome', 'Iron'] },
+      { t: '籠破之時——帕金森連結', b: '超載或外洩的神經黑色素由盾轉為觸發器：鐵外溢餵養脂質過氧化，α-突觸核蛋白在色素表面聚集，氧化還原伴侶 DJ-1 被淹沒。知識庫的帕金森文件把黑質神經元放在正是這個失效點。', legend: [['#ff5a4d', '鐵外溢 → 過氧化'], ['#b79aff', '色素上的 α-突觸核蛋白']], vault: ['Alpha-Synuclein Aggregation', 'DJ-1', "Parkinson's Disease", 'Lipid Peroxidation'] },
+    ],
   },
 };
 
@@ -267,6 +293,7 @@ const TOURS = {
   sasp: { steps: 'saspSteps', markers: 'sasp' },
   proto: { steps: 'protoSteps', markers: 'proto' },
   metab: { steps: 'metabSteps', markers: 'metab' },
+  nm: { steps: 'nmSteps', markers: 'nm' },
 };
 
 /* ============================== scene setup ============================== */
@@ -583,6 +610,9 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     metMem: marker(0x51ff9e, V3(-6, 3, 6).setLength(9.4), 0.26),
     metCyto: marker(0xffc357, V3(2.2, 0.2, 3.2), 0.26),
     metMito: marker(0xffb347, mitos[0].position.clone(), 0.26),
+    nmCyto: marker(0xffe14d, V3(2.2, 0.2, 3.2), 0.26),
+    nmMem: marker(0x7fd4ff, V3(7.5, -2.5, 5.5).setLength(9.4), 0.26),
+    nmLyso: marker(0x9a7bd0, V3(-0.5, 3.6, 2.6), 0.26),
   };
   const sirtuinMarkers = [S.s1, S.s2, S.s3, S.s4, S.s5, S.s6, S.s7];
   const adrenoMarkers = [S.mao, S.nqo1];
@@ -593,6 +623,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const saspMarkers = [S.senNuc, S.senGolgi, S.senMem];
   const protoMarkers = [S.protoMito, S.protoER, S.protoLyso];
   const metabMarkers = [S.metMem, S.metCyto, S.metMito];
+  const nmMarkers = [S.nmCyto, S.nmMem, S.nmLyso];
 
   /* ---- flow particle pool (tour molecule traffic) ---- */
   const FN = 700;
@@ -725,7 +756,15 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: CYTO.clone().add(V3(1, 1, -1)), b: MITO_A, color: '#4ad6b5', count: 200, spread: 0.5 }, { a: NUC.clone().add(V3(1.5, 1.5, 1.5)), b: MITO_A, color: '#b79aff', count: 120, spread: 0.6 }], mk: [S.metMito, S.metCyto] },
     { cam: [0, 7, 27], tgt: [0, 0, 0], hi: [], fl: [{ a: EXTRA, b: CYTO, color: '#51ff9e', count: 140, spread: 0.6 }, { a: CYTO, b: MITO_A, color: '#7fd4ff', count: 140, spread: 0.5 }, { a: CYTO.clone().add(V3(-1, 0, 1)), b: CYTO.clone().add(V3(1, 0, -1)), color: '#ff5a4d', count: 120, spread: 0.6 }], mk: [S.metMem, S.metCyto, S.metMito] },
   ];
-  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM };
+  const NM_CAM = [
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1, 0)), b: CYTO.clone().add(V3(2, -1, 0)), color: '#51ff9e', count: 240, spread: 0.6 }], mk: [S.nmCyto] },
+    { cam: [MEMB.x + 2, MEMB.y + 2, MEMB.z + 10], tgt: MEMB.toArray(), hi: ['membrane'], fl: [{ a: CYTO, b: MEMB, color: '#7fd4ff', count: 220, spread: 0.5 }, { a: EXTRA.clone().add(V3(2, -3, -1)), b: MEMB, color: '#51ff9e', count: 140, spread: 0.5 }], mk: [S.nmMem, S.nmCyto] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1.5, 0)), b: CYTO.clone().add(V3(2, -1.5, 0)), color: '#ffe14d', count: 280, spread: 0.7 }], mk: [S.nmCyto] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1, 0)), b: CYTO.clone().add(V3(2, -1, 0)), color: '#9a7bd0', count: 260, spread: 0.6 }], mk: [S.nmCyto] },
+    { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 10], tgt: LYSO.toArray(), hi: ['lysosome'], pigment: true, fl: [{ a: CYTO, b: LYSO, color: '#9a7bd0', count: 300, spread: 0.5 }], mk: [S.nmLyso] },
+    { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 9], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: LYSO.clone().add(V3(-1.5, 1, 0)), b: LYSO.clone().add(V3(1.5, -1, 0.5)), color: '#ff5a4d', count: 240, spread: 0.6 }, { a: CYTO, b: LYSO, color: '#b79aff', count: 160, spread: 0.5 }], mk: [S.nmLyso] },
+  ];
+  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM, nm: NM_CAM };
 
   /* ---- labels (projected HTML chips) ---- */
   const labelDefs = [
@@ -794,6 +833,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       { key: 'Glycolysis', fn: () => S.metCyto.position.toArray(), dy: -14 },
       { key: 'TCA·OXPHOS', fn: () => S.metMito.position.toArray(), dy: -14 },
     ],
+    nm: [
+      { key: 'Dopamine', fn: () => S.nmCyto.position.toArray(), dy: -14 },
+      { key: 'DAT', fn: () => S.nmMem.position.toArray(), dx: 30 },
+      { key: 'Pigment', fn: () => S.nmLyso.position.toArray(), dy: -14 },
+    ],
   };
   const stage = els.stage;
   function makeChip(text, tour) {
@@ -813,6 +857,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const saspChips = tourLabelDefs.sasp.map((l) => ({ l, el: makeChip(l.key, true) }));
   const protoChips = tourLabelDefs.proto.map((l) => ({ l, el: makeChip(l.key, true) }));
   const metabChips = tourLabelDefs.metab.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const nmChips = tourLabelDefs.nm.map((l) => ({ l, el: makeChip(l.key, true) }));
   const PV = new THREE.Vector3();
   let showLabels = true, W = 800, H = 600;
   function placeChips(chips, active) {
@@ -870,7 +915,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       els.nav.style.display = 'flex';
       els.orgList.style.display = 'none';
       els.play.textContent = autoplay ? T.pause : T.play;
-      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab }[mode]} · ${stepIdx + 1}/${steps.length}`;
+      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM }[mode]} · ${stepIdx + 1}/${steps.length}`;
     }
   }
   function applyStep() {
@@ -886,6 +931,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     saspMarkers.forEach((m) => { m.visible = mode === 'sasp' && (chore.mk || []).includes(m); });
     protoMarkers.forEach((m) => { m.visible = mode === 'proto' && (chore.mk || []).includes(m); });
     metabMarkers.forEach((m) => { m.visible = mode === 'metab' && (chore.mk || []).includes(m); });
+    nmMarkers.forEach((m) => { m.visible = mode === 'nm' && (chore.mk || []).includes(m); });
     rosLight.intensity = chore.ros || 0;
     rosPulse = !!chore.ros;
     pigment.visible = !!chore.pigment;
@@ -910,6 +956,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       saspMarkers.forEach((mm) => { mm.visible = false; });
       protoMarkers.forEach((mm) => { mm.visible = false; });
       metabMarkers.forEach((mm) => { mm.visible = false; });
+      nmMarkers.forEach((mm) => { mm.visible = false; });
       rosLight.intensity = 0; pigment.visible = false;
       mitoMat.emissive.setHex(0x5a2a00); mitoMat.emissiveIntensity = 0.45;
       flyTo([0, 7, 27], [0, 0, 0]);
@@ -1065,7 +1112,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       v.m.position.lerpVectors(v.a, v.b, go);
     }
     mitos.forEach((m, i) => { m.scale.setScalar(1 + 0.02 * Math.sin(time * 1.4 + i * 1.7)); });
-    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers].forEach((m, i) => {
+    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers, ...nmMarkers].forEach((m, i) => {
       if (m.visible) m.scale.setScalar(1 + 0.25 * Math.sin(time * 3.5 + i));
     });
     // tour highlight pulse
@@ -1093,6 +1140,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     placeChips(saspChips, mode === 'sasp');
     placeChips(protoChips, mode === 'proto');
     placeChips(metabChips, mode === 'metab');
+    placeChips(nmChips, mode === 'nm');
     updateScaleBar();
   }
   const restored = readHash();
