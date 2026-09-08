@@ -3,7 +3,7 @@
 body{ min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; }
 .wide{ width:min(1560px,100% - 24px); margin-inline:auto; flex:1; display:flex; flex-direction:column; }
 main#content{ flex:1; display:flex; flex-direction:column; }
-.ic-controls{ background:color-mix(in srgb, var(--paper) 92%, white); border-top:1px solid var(--rule); padding:10px 12px; }
+.ic-controls{ display:none; } /* toolbar hidden to save vertical space; defaults apply: labels on, rotate on, cutaway off */
 .ic-controls .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
 .ic-controls button, .ic-controls select{ font-family:var(--sans); font-size:12.5px; padding:7px 12px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); border-radius:var(--radius); cursor:pointer; }
 .ic-controls button.is-on{ background:var(--ink); color:var(--sheet); border-color:var(--ink); }
