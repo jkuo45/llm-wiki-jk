@@ -51,7 +51,9 @@
       <div class="ic-stage-card">
         <div id="ic-stage">
           <canvas id="ic-canvas" aria-label="To-scale 3-D human cell"></canvas>
+          <button class="copy-btn" data-copy-canvas="ic-canvas" title="Copy cell snapshot as PNG" aria-label="Copy cell snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
           <div id="ic-stepflag"></div>
+          <button id="ic-anim" aria-label="Pause cell animation">⏸ Pause</button>
           <div id="ic-scalebar"><span id="ic-scalenum">5 µm</span><div class="bar" id="ic-scalefill" style="width:80px"></div></div>
         </div>
         <div class="ic-controls" role="toolbar" aria-label="Cell controls">
@@ -89,6 +91,7 @@
       <p><b>How to read the scale.</b> The cell is Ø 20 µm and the bar at bottom-right is live — it recomputes every frame from camera distance.
       Mitochondria, ER tubules, Golgi, lysosomes, centrioles and microtubules are true 1:1.
       Ribosomes (Ø 25 nm) are shown ×4, membrane proteins ≈ ×3, and tour molecules are enlarged dots — at true scale all three would be subpixel, which is why the render enlarges them.</p>
+      <p><b>One model, many cell types.</b> The 3-D morphology is a single generic human cell; each tour relabels it (see the cell-type line above each step and the overlay pill on the canvas). Adrenochrome shows a target cell in a neutrophil-rich inflammatory milieu — MPO/ROS make adrenochrome outside, damage lands inside. MB/AG stays a generic cell (speculative, no neutrophil link in the vault). Senescence, cell death and neuromelanin add macrophages/microglia as responders (surveillance, corpse clearance, neuronophagia); Warburg and IVM × FBZ are cancer cells.</p>
       <table>
         <tr><th>Structure</th><th>Real size</th><th>Rendered</th></tr>
         <tr><td>Cell</td><td>Ø ~20 µm</td><td>1:1</td></tr>
@@ -136,6 +139,7 @@ initCellPage({
     cutRange: document.getElementById('ic-cutrange'),
     scaleNum: document.getElementById('ic-scalenum'),
     scaleFill: document.getElementById('ic-scalefill'),
+    animToggle: document.getElementById('ic-anim'),
   },
 });
 </script>

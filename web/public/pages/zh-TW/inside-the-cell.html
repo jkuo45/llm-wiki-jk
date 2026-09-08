@@ -51,7 +51,9 @@
       <div class="ic-stage-card">
         <div id="ic-stage">
           <canvas id="ic-canvas" aria-label="等比例 3-D 人類細胞"></canvas>
+          <button class="copy-btn" data-copy-canvas="ic-canvas" title="複製細胞快照為 PNG" aria-label="複製細胞快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
           <div id="ic-stepflag"></div>
+          <button id="ic-anim" aria-label="暫停細胞動畫">⏸ 暫停</button>
           <div id="ic-scalebar"><span id="ic-scalenum">5 µm</span><div class="bar" id="ic-scalefill" style="width:80px"></div></div>
         </div>
         <div class="ic-controls" role="toolbar" aria-label="細胞控制">
@@ -89,6 +91,7 @@
       <p><b>比例尺讀法。</b>細胞直徑 20 µm，右下角比例尺是即時的——每幀依相機距離重算。
       粒線體、內質網管、高爾基體、溶酶體、中心粒與微管皆為 1:1。
       核糖體（直徑 25 nm）顯示放大 ×4，膜蛋白約 ×3，導覽分子為放大的圓點——真實比例下三者皆小於一個像素，這正是渲染將它們放大的原因。</p>
+      <p><b>同一模型，多種細胞。</b>3-D 形態是單一通用人類細胞；每段導覽重新標定其細胞類型（見每步上方的細胞類型行與畫布上的標籤）。腎上腺色素為嗜中性球浸潤微環境中的目標細胞——MPO/ROS 在胞外製造腎上腺色素，損傷落在胞內。MB/AG 維持通用細胞（假說，知識庫無嗜中性球連結）。衰老、細胞死亡與神經黑色素另有巨噬細胞／小膠質細胞作為反應者（監控、清除屍體、噬神經元）；瓦伯格與 IVM × FBZ 為癌細胞。</p>
       <table>
         <tr><th>結構</th><th>真實尺寸</th><th>渲染</th></tr>
         <tr><td>細胞</td><td>直徑約 20 µm</td><td>1:1</td></tr>
@@ -136,6 +139,7 @@ initCellPage({
     cutRange: document.getElementById('ic-cutrange'),
     scaleNum: document.getElementById('ic-scalenum'),
     scaleFill: document.getElementById('ic-scalefill'),
+    animToggle: document.getElementById('ic-anim'),
   },
 });
 </script>

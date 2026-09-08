@@ -87,9 +87,20 @@ export const STR = {
     tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism', tabNM: 'Neuromelanin', tabCOMT: 'COMT · Catechols', tabOSKM: 'OSKM · Reprogramming',
     labels: 'Labels', rotate: 'Rotate', cutaway: 'Cutaway',
     stepOf: (a, b) => `Step ${a} of ${b}`, prev: '← Prev', next: 'Next →', play: '▶ Auto-play', pause: '⏸ Pause',
+    animPause: '⏸ Pause', animPlay: '▶ Play',
     exploreTitle: 'Cellular components', exploreBody: 'Click any structure in the cell — or a button below — to read its real size, job, and vault links. Drag to orbit, scroll to zoom, right-drag to pan.',
     vaultRef: 'Vault refs', organelles: 'Organelles',
     overviewFlag: 'Free explore — click a structure',
+    cellGeneric: 'Generic human cell · Ø 20 µm model',
+    cellAdreno: 'Target cell in neutrophil-rich milieu — MPO/ROS make adrenochrome outside',
+    cellProto: 'Generic cell — MB/AG hypothesis [speculative, no neutrophil link in vault]',
+    cellDeath: 'Generic cell — macrophages clear corpses; pyroptosis canonical in Mø',
+    cellSASP: 'Senescent cell — macrophages/NK recruited for surveillance',
+    cellMetab: 'Cancer cell — Warburg metabolism',
+    cellCombi: 'Cancer cell [preclinical] — TAM context',
+    cellNM: 'Dopaminergic neuron stand-in — microglia respond to pigment',
+    cellCOMT: 'Catecholamine-signalling cell — PFC/synaptic context',
+    cellOSKM: 'Aged cell under partial reprogramming',
     orgs: {
       membrane: { n: 'Plasma membrane', s: 'Ø 20 µm cell · bilayer ≈ 8 nm thick', d: 'Selective barrier and signalling surface: receptors, channels and transporters decide what enters. Catecholamines such as adrenaline act at its receptors, while oxidized species and ROS challenge its lipids.' },
       nucleus: { n: 'Nucleus', s: 'Ø ≈ 6 µm · double envelope, ~2,000 pores', d: 'Genome vault. SIRT1 and SIRT6 deacetylate histones and transcription factors (p53, FOXO, NF-κB) here; chromatin state here is the main sirtuin readout.' },
@@ -210,9 +221,20 @@ export const STR = {
     tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝', tabNM: '神經黑色素', tabCOMT: 'COMT · 兒茶酚', tabOSKM: 'OSKM · 重編程',
     labels: '標籤', rotate: '旋轉', cutaway: '剖面',
     stepOf: (a, b) => `步驟 ${a} / ${b}`, prev: '← 上一步', next: '下一步 →', play: '▶ 自動播放', pause: '⏸ 暫停',
+    animPause: '⏸ 暫停', animPlay: '▶ 播放',
     exploreTitle: '細胞組件', exploreBody: '點擊細胞中的任何結構（或下方按鈕），查看其真實尺寸、功能與知識庫連結。可拖曳旋轉、滾輪縮放、右鍵平移。',
     vaultRef: '知識庫', organelles: '胞器',
     overviewFlag: '自由探索 — 點擊一個結構',
+    cellGeneric: '通用人類細胞 · Ø 20 µm 模型',
+    cellAdreno: '嗜中性球浸潤微環境中的目標細胞 — MPO/ROS 在胞外製造腎上腺色素',
+    cellProto: '通用細胞 — MB/AG 假說［推測，知識庫無嗜中性球連結］',
+    cellDeath: '通用細胞 — 巨噬細胞清除屍體；焦亡以巨噬細胞為典型',
+    cellSASP: '衰老細胞 — 巨噬細胞／NK 被招募監控',
+    cellMetab: '癌細胞 — 瓦伯格代謝',
+    cellCombi: '癌細胞［臨床前］ — 腫瘤相關巨噬細胞情境',
+    cellNM: '多巴胺神經元替代 — 小膠質細胞回應色素',
+    cellCOMT: '兒茶酚胺訊號細胞 — PFC／突觸情境',
+    cellOSKM: '老化細胞接受部分重編程',
     orgs: {
       membrane: { n: '細胞膜', s: '細胞直徑 20 µm · 雙層約 8 nm', d: '選擇性屏障與訊號表面：受體、通道與轉運蛋白決定何者進入。腎上腺素等兒茶酚胺作用於其受體，而氧化產物與 ROS 威脅其脂質。' },
       nucleus: { n: '細胞核', s: '直徑約 6 µm · 雙層核膜、約 2,000 個核孔', d: '基因組金庫。SIRT1 與 SIRT6 在此去乙醯化組蛋白與轉錄因子（p53、FOXO、NF-κB）；染色質狀態是主要的 sirtuin 讀出。' },
@@ -335,18 +357,18 @@ export const STR = {
 /* ============================== tour registry ============================== */
 const TOURS = {
   explore: { steps: null },
-  adreno: { steps: 'adrenoSteps', markers: 'adreno' },
-  sirtuin: { steps: 'sirtuinSteps', markers: 'sirtuin' },
-  combi: { steps: 'combiSteps', markers: 'combi' },
-  auto: { steps: 'autophagySteps', markers: 'auto' },
-  death: { steps: 'deathSteps', markers: 'death' },
-  redox: { steps: 'redoxSteps', markers: 'redox' },
-  sasp: { steps: 'saspSteps', markers: 'sasp' },
-  proto: { steps: 'protoSteps', markers: 'proto' },
-  metab: { steps: 'metabSteps', markers: 'metab' },
-  nm: { steps: 'nmSteps', markers: 'nm' },
-  comt: { steps: 'comtSteps', markers: 'comt' },
-  oskm: { steps: 'oskmSteps', markers: 'oskm' },
+  adreno: { steps: 'adrenoSteps', markers: 'adreno', cell: 'cellAdreno' },
+  sirtuin: { steps: 'sirtuinSteps', markers: 'sirtuin', cell: 'cellGeneric' },
+  combi: { steps: 'combiSteps', markers: 'combi', cell: 'cellCombi' },
+  auto: { steps: 'autophagySteps', markers: 'auto', cell: 'cellGeneric' },
+  death: { steps: 'deathSteps', markers: 'death', cell: 'cellDeath' },
+  redox: { steps: 'redoxSteps', markers: 'redox', cell: 'cellGeneric' },
+  sasp: { steps: 'saspSteps', markers: 'sasp', cell: 'cellSASP' },
+  proto: { steps: 'protoSteps', markers: 'proto', cell: 'cellProto' },
+  metab: { steps: 'metabSteps', markers: 'metab', cell: 'cellMetab' },
+  nm: { steps: 'nmSteps', markers: 'nm', cell: 'cellNM' },
+  comt: { steps: 'comtSteps', markers: 'comt', cell: 'cellCOMT' },
+  oskm: { steps: 'oskmSteps', markers: 'oskm', cell: 'cellOSKM' },
 };
 
 /* ============================== scene setup ============================== */
@@ -365,7 +387,7 @@ const CELL_R = 10;
 
 export function initCellPage({ lang = 'en', canvas, els }) {
   const T = STR[lang] || STR.en;
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
   renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
   renderer.setClearColor(0x000000, 0);
   renderer.localClippingEnabled = true;
@@ -967,6 +989,15 @@ export function initCellPage({ lang = 'en', canvas, els }) {
 
   /* ---- UI state ---- */
   let mode = 'explore', stepIdx = 0, autoplay = false, rosPulse = false, lastAdvance = -99;
+  let paused = false, animTime = 0;
+  const animBtn = els.animToggle || document.getElementById('ic-anim');
+  function renderAnimBtn() {
+    if (!animBtn) return;
+    animBtn.textContent = paused ? (T.animPlay || '▶ Play') : (T.animPause || '⏸ Pause');
+    animBtn.classList.toggle('is-paused', paused);
+    animBtn.setAttribute('aria-pressed', String(paused));
+    animBtn.setAttribute('aria-label', paused ? (T.animPlay || 'Play') : (T.animPause || 'Pause'));
+  }
   let selected = null, pulseIds = new Set();
   const tween = { on: false, k: 0, camFrom: new THREE.Vector3(), camTo: new THREE.Vector3(), tgtFrom: new THREE.Vector3(), tgtTo: new THREE.Vector3() };
   function flyTo(cam, tgt) {
@@ -1001,13 +1032,13 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       els.stepCount.textContent = T.stepOf(stepIdx + 1, steps.length);
       els.stepTitle.textContent = st.t;
       els.stepBody.textContent = st.b;
-      els.stepMeta.textContent = '';
+      els.stepMeta.textContent = T[TOURS[mode].cell] || '';
       els.legend.innerHTML = legendHTML(st.legend);
       els.vault.innerHTML = `<b>${T.vaultRef}:</b> ${vaultHTML(st.vault)}`;
       els.nav.style.display = 'flex';
       els.orgList.style.display = 'none';
       els.play.textContent = autoplay ? T.pause : T.play;
-      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM, comt: T.tabCOMT, oskm: T.tabOSKM }[mode]} · ${stepIdx + 1}/${steps.length}`;
+      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM, comt: T.tabCOMT, oskm: T.tabOSKM }[mode]} — ${T[TOURS[mode].cell] || ''} · ${stepIdx + 1}/${steps.length}`;
     }
   }
   function applyStep() {
@@ -1079,13 +1110,15 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   });
   els.prev.onclick = () => {
     const n = T[TOURS[mode].steps].length;
-    stepIdx = (stepIdx - 1 + n) % n; autoplay = false; lastAdvance = clock.elapsedTime; applyStep();
+    stepIdx = (stepIdx - 1 + n) % n; autoplay = false; lastAdvance = animTime; applyStep();
   };
   els.next.onclick = () => {
     const n = T[TOURS[mode].steps].length;
-    stepIdx = (stepIdx + 1) % n; autoplay = false; lastAdvance = clock.elapsedTime; applyStep();
+    stepIdx = (stepIdx + 1) % n; autoplay = false; lastAdvance = animTime; applyStep();
   };
-  els.play.onclick = () => { autoplay = !autoplay; lastAdvance = clock.elapsedTime; renderPanel(); };
+  els.play.onclick = () => { autoplay = !autoplay; lastAdvance = animTime; renderPanel(); };
+  if (animBtn) animBtn.onclick = () => { paused = !paused; renderAnimBtn(); };
+  renderAnimBtn();
   addEventListener('keydown', (e) => {
     if (mode === 'explore' || /INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
     if (e.key === 'ArrowRight') els.next.onclick();
@@ -1172,16 +1205,20 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const HL_OFF = new Map();
   function tick() {
     requestAnimationFrame(tick);
-    const dt = Math.min(clock.getDelta(), 0.05);
-    const time = clock.elapsedTime;
+    const rawDt = Math.min(clock.getDelta(), 0.05);
+    if (!paused) animTime += rawDt;
+    const time = animTime;
     if (tween.on) {
-      tween.k = Math.min(1, tween.k + dt / 1.4);
+      tween.k = Math.min(1, tween.k + rawDt / 1.4);
       const e = ease(tween.k);
       camera.position.lerpVectors(tween.camFrom, tween.camTo, e);
       controls.target.lerpVectors(tween.tgtFrom, tween.tgtTo, e);
       if (tween.k >= 1) tween.on = false;
     }
+    const wantSpin = controls.autoRotate;
+    if (paused) controls.autoRotate = false;
     controls.update();
+    controls.autoRotate = wantSpin;
     // ambient life: vesicle shuttles, mito breathing, marker pulse
     for (const v of vesicles) {
       const s = (v.ph + time * v.sp) % 1;
