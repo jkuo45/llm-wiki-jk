@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cell Death Comparison — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · PANoptosis</title>
-<meta name="description" content="Eight-way comparison table of major cell death programs — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis — with filter and axis highlights.">
+<title>Cell Death Comparison — Apoptosis · Parthanatos · Necrosis · Necroptosis · Ferroptosis · Autophagy · Pyroptosis · PANoptosis · Eryptosis · NETosis</title>
+<meta name="description" content="Ten-way comparison table of major cell death programs — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis, eryptosis (RBC), NETosis (neutrophil) — with filter and axis highlights.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
@@ -35,7 +35,7 @@
   .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
   /* the table is the page */
   .table-wrap{ flex:1; min-height:240px; margin-top:10px; overflow:auto; }
-  .table-wrap table{ font-size:13px; min-width:1180px; height:100%; border-collapse:separate; border-spacing:0; }
+  .table-wrap table{ font-size:13px; min-width:1380px; height:100%; border-collapse:separate; border-spacing:0; }
   .table-wrap tr:last-child th{ border-bottom:0; }
   .table-wrap thead th{ position:sticky; top:0; z-index:4; }
   .table-wrap thead th:first-child{ z-index:5; }
@@ -96,7 +96,7 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">Reference table · Cell death · 03 Sep 2026</p>
-        <h1 class="visually-hidden">Cell death comparison — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis</h1>
+        <h1 class="visually-hidden">Cell death comparison — apoptosis, parthanatos, necrosis, necroptosis, ferroptosis, autophagy, pyroptosis, PANoptosis, eryptosis, NETosis</h1>
       </div>
 
       <div class="toolbar" role="search" aria-label="Table controls">
@@ -109,7 +109,7 @@
             <option value="hl-iron">Iron &amp; lipid peroxidation</option>
             <option value="hl-dna">DNA-damage / PARP axis</option>
           </select>
-          <span class="count" id="count">8 programs · 10 features</span>
+          <span class="count" id="count">10 programs · 11 features</span>
         </div>
       </div>
 
@@ -128,6 +128,7 @@
               <th scope="col">Crosstalk</th>
               <th scope="col">Immune</th>
               <th scope="col">Blocked by</th>
+              <th scope="col">Most vulnerable / resistant</th>
             </tr>
           </thead>
           <tbody>
@@ -143,6 +144,7 @@
               <td data-hl="">Caspase-8 cleaves RIPK1/3 to block necroptosis; Caspase-3/7 cleave GSDMD to block pyroptosis</td>
               <td data-hl="">silent, Annexin V+</td>
               <td data-hl="">z-VAD-FMK, Bcl-2</td>
+              <td data-hl=""><b>↑</b> lymphocytes, neurons, cardiomyocytes (AICD, developmental pruning, MI) — <b>↓/n-a</b> RBCs, platelets (anucleate)</td>
             </tr>
             <tr data-program="parthanatos">
               <th scope="row"><b>Parthanatos</b><span class="sub">regulated necrosis — PARP1 · AIF · MIF</span></th>
@@ -156,6 +158,7 @@
               <td data-hl="dna energy">SIRT1 promotes PARP1 survival via AIF; PARP1 competes with SIRTs for NAD⁺*</td>
               <td data-hl="energy lytic">inflammatory via NAD⁺ collapse + DAMPs*</td>
               <td data-hl="dna energy">PARP inhibitors, AIF blockade, NAD⁺ preservation*</td>
+              <td data-hl="dna energy"><b>↑</b> cortical neurons, astrocytes (stroke/MCAO) — <b>↓/n-a</b> RBCs (no nucleus), lymphocytes</td>
             </tr>
             <tr data-program="necrosis">
               <th scope="row"><b>Necrosis</b><span class="sub">accidental · passive</span></th>
@@ -169,6 +172,7 @@
               <td data-hl="">secondary necrosis if apoptotic bodies not cleared</td>
               <td data-hl="lytic">highly inflammatory: HMGB1, ATP, uric acid → TLR / RAGE / NLRP3</td>
               <td data-hl="">none specific</td>
+              <td data-hl="lytic"><b>↑</b> all cells under severe ATP loss; esp. cardiomyocytes, neurons, renal tubule — <b>↓</b> none (RBCs lyse as hemolysis instead)</td>
             </tr>
             <tr data-program="necroptosis">
               <th scope="row"><b>Necroptosis</b><span class="sub">regulated necrosis</span></th>
@@ -182,6 +186,7 @@
               <td data-hl="lytic energy">MLKL activates NLRP3 → pyroptosis; RIPK3–AMPK triggers early autophagy then blocks flux</td>
               <td data-hl="lytic">inflammatory by design, DAMP release</td>
               <td data-hl="">Necrostatin-1, GSK872, necrosulfonamide</td>
+              <td data-hl="lytic"><b>↑</b> intestinal epithelium, renal tubule, macrophages — <b>↓/n-a</b> RBCs (no RIPK3/MLKL), resting lymphocytes</td>
             </tr>
             <tr data-program="ferroptosis">
               <th scope="row"><b>Ferroptosis</b><span class="sub">iron · lipid</span></th>
@@ -195,6 +200,7 @@
               <td data-hl="iron energy">SIRT3 failure feeds both necroptosis + ferroptosis via ROS</td>
               <td data-hl="iron lytic">inflammatory lipid MDA / 4-HNE</td>
               <td data-hl="iron">Ferrostatin-1, liproxstatin-1, deferoxamine</td>
+              <td data-hl="iron"><b>↑</b> renal proximal tubule, neurons, hepatocytes, cardiomyocytes — <b>↓</b> glycolytic / low-PUFA cells*</td>
             </tr>
             <tr data-program="autophagy">
               <th scope="row"><b>Autophagy</b><span class="sub">survival → type-II death</span></th>
@@ -208,6 +214,7 @@
               <td data-hl="lytic">PINK1 / Parkin mitophagy restrains necroptosis / NLRP3; Caspase-1 cleaves Parkin to break restraint</td>
               <td data-hl="">protective, clears DAMP sources</td>
               <td data-hl="">3-MA / chloroquine; induced by rapamycin</td>
+              <td data-hl=""><b>↑</b> skeletal muscle, liver, neurons (TFEB/PINK1-Parkin dependent) — <b>↓/n-a</b> RBCs (no organelles)</td>
             </tr>
             <tr data-program="pyroptosis">
               <th scope="row"><b>Pyroptosis</b><span class="sub">inflammasome · lytic</span></th>
@@ -221,6 +228,7 @@
               <td data-hl="lytic">GSDMD pores license NLRP3; SIRT3 lowers mtROS to suppress NLRP3</td>
               <td data-hl="lytic">highly inflammatory: IL-1β / IL-18 + HMGB1, IL-1α, mtDNA via pores</td>
               <td data-hl="lytic">NLRP3 inhibitors, Caspase-1 inhibitors, disulfiram / GSDMD blockade*</td>
+              <td data-hl="lytic"><b>↑</b> macrophages, microglia, dendritic cells, intestinal epithelium — <b>↓/n-a</b> RBCs, platelets</td>
             </tr>
             <tr data-program="panoptosis">
               <th scope="row"><b>PANoptosis</b><span class="sub">all-in-one · ZBP1 · non-redundant</span></th>
@@ -234,13 +242,42 @@
               <td data-hl="lytic">it is the crosstalk: co-assembled pyroptosis + apoptosis + necroptosis; NLRP3 activation wired-in; z-VAD or necrostatin-1 alone fails</td>
               <td data-hl="lytic">maximal inflammatory: IL-1β / IL-18 + DAMP storm from all three arms</td>
               <td data-hl="">upstream: ZBP1 / RIPK3 targeting; combined multi-arm blockade</td>
+              <td data-hl="lytic"><b>↑</b> macrophages, lung epithelium in severe infection — <b>↓/n-a</b> RBCs, platelets</td>
+            </tr>
+            <tr data-program="eryptosis">
+              <th scope="row"><b>Eryptosis</b><span class="sub">RBC · apoptosis-like, anucleate</span></th>
+              <td>No established sex bias; RBCs lack nuclei/mitochondria so the caspase vs PARP1/AIF choice does not apply</td>
+              <td>Same — no direct sex-difference studies; E2 effects on RBC deformability reported but not on eryptosis rate itself</td>
+              <td data-hl=""><span class="pill reg">regulated</span><span class="pill silent">non-lytic</span><br>yes — caspase-independent</td>
+              <td data-hl="energy">ATP-dependent Ca²⁺ extrusion; energy depletion triggers it</td>
+              <td data-hl="">shrinkage, membrane blebbing, PS externalization, no nucleus/mitochondria to fragment; clearance by splenic macrophages</td>
+              <td data-hl="">Annexin V⁺, Fluo-3 Ca²⁺ rise, forward-scatter shrinkage, ceramide staining</td>
+              <td data-hl="energy">Ca²⁺ influx → calpain + scramblase activation → PS exposure; triggers: oxidative stress, osmotic shock, energy depletion, ceramide</td>
+              <td data-hl="iron energy">shares lipid-peroxidation triggers with ferroptosis; PS exposure mirrors apoptosis without caspases</td>
+              <td data-hl="">silent, anti-inflammatory clearance (like apoptosis) unless massive hemolysis follows</td>
+              <td data-hl="">Ca²⁺ chelation, calpain inhibitors, erythropoietin*</td>
+              <td data-hl=""><b>↑</b> RBCs only (Ca²⁺/oxidative/osmotic stress, CKD, sepsis) — <b>n/a</b> all nucleated cells</td>
+            </tr>
+            <tr data-program="netosis">
+              <th scope="row"><b>NETosis</b><span class="sub">neutrophil · PAD4 · NET extrusion</span></th>
+              <td>Higher NET burden reported in males in some infection/cardiovascular models — context-dependent, no cell-autonomous paradigm established</td>
+              <td>E2 restrains NET formation in several models; no cell-autonomous XX/XY paradigm established</td>
+              <td data-hl="lytic"><span class="pill reg">regulated</span><span class="pill lytic">lytic</span><br>yes — suicidal and vital forms</td>
+              <td data-hl="energy lytic">NADPH-oxidase-dependent ROS (suicidal); energy-dependent chromatin decondensation</td>
+              <td data-hl="lytic dna">chromatin decondensation, nuclear envelope breakdown, NET extrusion (DNA + histones + elastase/MPO); suicidal form ruptures, vital form retains membrane</td>
+              <td data-hl="lytic dna">extracellular DNA (Sytox Green), citrullinated histone H3 (cit-H3), MPO–DNA complexes</td>
+              <td data-hl="lytic dna">ROS → PAD4-mediated histone citrullination → chromatin unraveling → NET release; triggers: pathogens, LPS, PMA, immune complexes</td>
+              <td data-hl="lytic">NETs license NLRP3 / pyroptosis in macrophages; NET histones trigger platelet/coagulation cascades</td>
+              <td data-hl="lytic">pro-inflammatory and pro-thrombotic: NET DNA/histones act as DAMPs</td>
+              <td data-hl="lytic dna">PAD4 inhibitors (Cl-amidine), NE/MPO inhibition, DNase digestion of NETs</td>
+              <td data-hl="lytic"><b>↑</b> neutrophils only (pathogens, immune complexes); vital form preserves membrane — <b>n/a</b> other leukocytes, RBCs</td>
             </tr>
           </tbody>
         </table>
       </div>
       <footer class="legend">
         <p class="tldr">Across ischemia–reperfusion models, female cells default to caspase-dependent apoptosis; male cells to PARP1–AIF parthanatos; the lytic and iron arms add context-specific exceptions.
-          <span class="scope">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking.</span></p>
+          <span class="scope">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking. Eryptosis (RBC, anucleate) and NETosis (neutrophil) are blood-cell-specific and outside the XX/XY paradigm — no cell-autonomous sex split established.</span></p>
         <p><b>Legend</b> — <span class="sw"></span> gold cells: the central sex paradigm (XX → caspase-dependent apoptosis; XY → PARP1/AIF parthanatos). Pills: <span class="pill reg">regulated</span> <span class="pill acc">accidental</span> <span class="pill lytic">lytic</span> <span class="pill silent">non-lytic</span>. <b>*</b> = inferred from cross-program biology, not directly demonstrated in the cited sex-difference studies.</p>
       </footer>
     </section>
@@ -281,7 +318,7 @@
         }
       });
     }
-    count.textContent = vis + ' programs · 10 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
+    count.textContent = vis + ' programs · 11 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
   }
   q.addEventListener('input', apply);
   hl.addEventListener('change', function(){

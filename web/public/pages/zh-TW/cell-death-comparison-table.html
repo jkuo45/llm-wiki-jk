@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>細胞死亡比較——凋亡 · Parthanatos · 壞死 · 壞死性凋亡 · 鐵死亡 · 自噬 · 焦亡 · PANoptosis</title>
-<meta name="description" content="八種主要細胞死亡程序比較表——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、PANoptosis——附篩選與強調顯示。">
+<title>細胞死亡比較——凋亡 · Parthanatos · 壞死 · 壞死性凋亡 · 鐵死亡 · 自噬 · 焦亡 · PANoptosis · 紅細胞凋亡 · NETosis</title>
+<meta name="description" content="十種主要細胞死亡程序比較表——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、PANoptosis、紅細胞凋亡（紅血球）、NETosis（嗜中性球）——附篩選與強調顯示。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html">
@@ -96,7 +96,7 @@
     <section id="table">
       <div class="titlebar">
         <p class="kicker">參考表 · 細胞死亡 · 2026年9月3日</p>
-        <h1 class="visually-hidden">細胞死亡比較——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、PANoptosis</h1>
+        <h1 class="visually-hidden">細胞死亡比較——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、PANoptosis、紅細胞凋亡、NETosis</h1>
       </div>
 
       <div class="toolbar" role="search" aria-label="表格控制">
@@ -109,7 +109,7 @@
             <option value="hl-iron">鐵與脂質過氧化</option>
             <option value="hl-dna">DNA 損傷／PARP 軸</option>
           </select>
-          <span class="count" id="count">8 個程序 · 10 個特徵</span>
+          <span class="count" id="count">10 個程序 · 11 個特徵</span>
         </div>
       </div>
 
@@ -128,6 +128,7 @@
               <th scope="col">交互作用</th>
               <th scope="col">免疫</th>
               <th scope="col">阻斷方式</th>
+              <th scope="col">最易感／抗性細胞</th>
             </tr>
           </thead>
           <tbody>
@@ -143,6 +144,7 @@
               <td data-hl="">Caspase-8 切割 RIPK1／3 以阻斷壞死性凋亡；Caspase-3／7 切割 GSDMD 以阻斷焦亡</td>
               <td data-hl="">靜默，Annexin V 陽性</td>
               <td data-hl="">z-VAD-FMK、Bcl-2</td>
+              <td data-hl=""><b>↑</b> 淋巴球、神經元、心肌細胞（AICD、發育修剪、心肌梗塞）——<b>↓／不適用</b> 紅血球、血小板（無核）</td>
             </tr>
             <tr data-program="parthanatos">
               <th scope="row"><b>Parthanatos</b><span class="sub">調控性壞死——PARP1 · AIF · MIF</span></th>
@@ -156,6 +158,7 @@
               <td data-hl="dna energy">SIRT1 經 AIF 促進 PARP1 存活；PARP1 與 SIRTs 競爭 NAD⁺*</td>
               <td data-hl="energy lytic">經 NAD⁺ 崩潰＋DAMPs 引起發炎*</td>
               <td data-hl="dna energy">PARP 抑制劑、AIF 阻斷、NAD⁺ 保存*</td>
+              <td data-hl="dna energy"><b>↑</b> 皮質神經元、星狀膠細胞（中風／MCAO）——<b>↓／不適用</b> 紅血球（無核）、淋巴球</td>
             </tr>
             <tr data-program="necrosis">
               <th scope="row"><b>壞死</b><span class="sub">意外性 · 被動</span></th>
@@ -169,6 +172,7 @@
               <td data-hl="">凋亡小體未被清除則發生繼發性壞死</td>
               <td data-hl="lytic">高度發炎：HMGB1、ATP、尿酸 → TLR／RAGE／NLRP3</td>
               <td data-hl="">無特異性阻斷劑</td>
+              <td data-hl="lytic"><b>↑</b> 嚴重 ATP 耗竭下所有細胞；尤以心肌細胞、神經元、腎小管為甚——<b>↓</b> 無（紅血球以溶血呈現）</td>
             </tr>
             <tr data-program="necroptosis">
               <th scope="row"><b>壞死性凋亡</b><span class="sub">調控性壞死</span></th>
@@ -182,6 +186,7 @@
               <td data-hl="lytic energy">MLKL 活化 NLRP3 → 焦亡；RIPK3–AMPK 觸發早期自噬隨後阻斷通量</td>
               <td data-hl="lytic">設計上即發炎，DAMP 釋放</td>
               <td data-hl="">Necrostatin-1、GSK872、necrosulfonamide</td>
+              <td data-hl="lytic"><b>↑</b> 腸上皮、腎小管、巨噬細胞——<b>↓／不適用</b> 紅血球（無 RIPK3／MLKL）、靜止淋巴球</td>
             </tr>
             <tr data-program="ferroptosis">
               <th scope="row"><b>鐵死亡</b><span class="sub">鐵 · 脂質</span></th>
@@ -195,6 +200,7 @@
               <td data-hl="iron energy">SIRT3 缺失經 ROS 同時助長壞死性凋亡＋鐵死亡</td>
               <td data-hl="iron lytic">發炎性脂質 MDA／4-HNE</td>
               <td data-hl="iron">Ferrostatin-1、liproxstatin-1、deferoxamine</td>
+              <td data-hl="iron"><b>↑</b> 近端腎小管、神經元、肝細胞、心肌細胞——<b>↓</b> 糖解型／低 PUFA 細胞*</td>
             </tr>
             <tr data-program="autophagy">
               <th scope="row"><b>自噬</b><span class="sub">存活 → 第二型死亡</span></th>
@@ -208,6 +214,7 @@
               <td data-hl="lytic">PINK1／Parkin 粒線體自噬抑制壞死性凋亡／NLRP3；Caspase-1 切割 Parkin 以解除抑制</td>
               <td data-hl="">具保護性，清除 DAMP 來源</td>
               <td data-hl="">3-MA／氯喹；rapamycin 誘導</td>
+              <td data-hl=""><b>↑</b> 骨骼肌、肝臟、神經元（依賴 TFEB／PINK1-Parkin）——<b>↓／不適用</b> 紅血球（無胞器）</td>
             </tr>
             <tr data-program="pyroptosis">
               <th scope="row"><b>焦亡</b><span class="sub">發炎體 · 裂解</span></th>
@@ -221,6 +228,7 @@
               <td data-hl="lytic">GSDMD 孔洞授權 NLRP3；SIRT3 降低 mtROS 以抑制 NLRP3</td>
               <td data-hl="lytic">高度發炎：IL-1β／IL-18＋HMGB1、IL-1α、經孔洞釋出的 mtDNA</td>
               <td data-hl="lytic">NLRP3 抑制劑、Caspase-1 抑制劑、disulfiram／GSDMD 阻斷*</td>
+              <td data-hl="lytic"><b>↑</b> 巨噬細胞、微膠細胞、樹突細胞、腸上皮——<b>↓／不適用</b> 紅血球、血小板</td>
             </tr>
             <tr data-program="panoptosis">
               <th scope="row"><b>PANoptosis</b><span class="sub">三合一 · ZBP1 · 非冗餘</span></th>
@@ -234,13 +242,42 @@
               <td data-hl="lytic">本身即交互作用：焦亡＋凋亡＋壞死性凋亡共組裝；NLRP3 活化內建；單用 z-VAD 或 necrostatin-1 失效</td>
               <td data-hl="lytic">發炎最強：IL-1β／IL-18＋三臂共同釋出的 DAMP 風暴</td>
               <td data-hl="">上游：ZBP1／RIPK3 標靶；多臂合併阻斷</td>
+              <td data-hl="lytic"><b>↑</b> 嚴重感染下巨噬細胞、肺上皮——<b>↓／不適用</b> 紅血球、血小板</td>
+            </tr>
+            <tr data-program="eryptosis">
+              <th scope="row"><b>紅細胞凋亡</b><span class="sub">紅血球 · 類凋亡、無核</span></th>
+              <td>尚無明確性別偏倚；紅血球無細胞核／粒線體，不適用 caspase 與 PARP1／AIF 的選擇</td>
+              <td>同上——尚無直接性別差異研究；雌二醇對紅血球變形能力的影響有報導，但未證實影響紅細胞凋亡速率本身</td>
+              <td data-hl=""><span class="pill reg">調控性</span><span class="pill silent">非裂解</span><br>是——非 caspase 依賴</td>
+              <td data-hl="energy">依賴 ATP 的 Ca²⁺ 外排；能量耗竭會觸發</td>
+              <td data-hl="">細胞皺縮、膜起泡、PS 外翻，無細胞核／粒線體可片段化；由脾臟巨噬細胞清除</td>
+              <td data-hl="">Annexin V＋、Fluo-3 鈣離子上升、前向散射皺縮、神經醯胺染色</td>
+              <td data-hl="energy">Ca²⁺ 內流 → calpain＋scramblase 活化 → PS 外翻；誘因：氧化壓力、滲透壓休克、能量耗竭、神經醯胺</td>
+              <td data-hl="iron energy">與鐵死亡共享脂質過氧化誘因；PS 外翻類似凋亡但無 caspase 參與</td>
+              <td data-hl="">靜默、抗發炎清除（如凋亡），除非隨後發生大量溶血</td>
+              <td data-hl="">鈣螯合、calpain 抑制劑、紅血球生成素*</td>
+              <td data-hl=""><b>↑</b> 僅紅血球（Ca²⁺／氧化／滲透壓壓力、CKD、敗血症）——<b>不適用</b> 所有有核細胞</td>
+            </tr>
+            <tr data-program="netosis">
+              <th scope="row"><b>NETosis</b><span class="sub">嗜中性球 · PAD4 · NET 釋放</span></th>
+              <td>部分感染／心血管模型報導男性 NET 負擔較高——具情境依賴性，尚未建立細胞自主性範式</td>
+              <td>多個模型中 E2 抑制 NET 形成；尚未建立細胞自主性的 XX／XY 範式</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是——自殺型與存活型</td>
+              <td data-hl="energy lytic">依賴 NADPH 氧化酶的 ROS（自殺型）；染色質去濃縮需耗能</td>
+              <td data-hl="lytic dna">染色質去濃縮、核膜崩解、NET 釋放（DNA＋組蛋白＋elastase／MPO）；自殺型破裂，存活型保留細胞膜</td>
+              <td data-hl="lytic dna">胞外 DNA（Sytox Green）、瓜氨酸化組蛋白 H3（cit-H3）、MPO–DNA 複合物</td>
+              <td data-hl="lytic dna">ROS → PAD4 介導組蛋白瓜氨酸化 → 染色質解旋 → NET 釋放；誘因：病原體、LPS、PMA、免疫複合物</td>
+              <td data-hl="lytic">NET 授權巨噬細胞 NLRP3／焦亡；NET 組蛋白觸發血小板／凝血級聯反應</td>
+              <td data-hl="lytic">促發炎且促血栓：NET DNA／組蛋白作為 DAMP</td>
+              <td data-hl="lytic dna">PAD4 抑制劑（Cl-amidine）、NE／MPO 抑制、DNase 消化 NET</td>
+              <td data-hl="lytic"><b>↑</b> 僅嗜中性球（病原體、免疫複合物）；存活型保留細胞膜——<b>不適用</b> 其他白血球、紅血球</td>
             </tr>
           </tbody>
         </table>
       </div>
       <footer class="legend">
         <p class="tldr">在缺血–再灌流模型中，雌性細胞傾向 caspase 依賴性凋亡，雄性細胞傾向 PARP1–AIF parthanatos；裂解與鐵依賴機制則依情境加入例外。
-          <span class="scope">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。</span></p>
+          <span class="scope">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。紅細胞凋亡（紅血球、無核）與 NETosis（嗜中性球）具血球特異性，位於 XX/XY 範式之外——尚未建立細胞自主性性別差異。</span></p>
         <p><b>圖例</b>——<span class="sw"></span> 金色儲存格：核心性別範式（XX → caspase 依賴性凋亡；XY → PARP1/AIF parthanatos）。標籤：<span class="pill reg">調控性</span> <span class="pill acc">意外性</span> <span class="pill lytic">裂解</span> <span class="pill silent">非裂解</span>。<b>*</b> = 由跨程序生物學推論而來，並未在所引性別差異研究中直接驗證。</p>
       </footer>
     </section>
@@ -280,7 +317,7 @@
         }
       });
     }
-    count.textContent = vis + ' 個程序 · 10 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
+    count.textContent = vis + ' 個程序 · 11 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
   }
   q.addEventListener('input', apply);
   hl.addEventListener('change', function(){
