@@ -18,13 +18,40 @@ const VLT = {
   STAT3: 'STAT3', mTOR: 'mTOR', 'P-gp': 'P-gp', KPNB1: 'KPNB1', Tubulin: 'Tubulin',
   GLUT1: 'GLUT1', 'Hexokinase 2': 'Hexokinase 2', p53: 'p53', MDM2: 'MDM2',
   Apoptosis: 'Apoptosis', Autophagy: 'Autophagy', 'Warburg Effect': 'Warburg Effect',
+  mTORC1: 'mTORC1', TFEB: 'TFEB', Lysosome: 'Lysosome', LC3: 'LC3',
+  p62: 'p62', Beclin1: 'Beclin1', ULK1: 'ULK1', Mitophagy: 'Mitophagy',
+  Spermidine: 'Spermidine', Rapamycin: 'Rapamycin', FOXO3a: 'FOXO3a',
+  Autolysosome: 'Autolysosome', 'Cytochrome c': 'Cytochrome c', BAX: 'BAX',
+  BAK: 'BAK', 'Caspase-9': 'Caspase-9', 'Caspase-3': 'Caspase-3', Caspase: 'Caspase',
+  Ferroptosis: 'Ferroptosis', GPX4: 'GPX4', Necroptosis: 'Necroptosis',
+  RIPK1: 'RIPK1', RIPK3: 'RIPK3', MLKL: 'MLKL', Parthanatos: 'Parthanatos',
+  PARP1: 'PARP1', AIF: 'AIF', 'Apaf-1': 'Apaf-1', Apoptosome: 'Apoptosome',
+  'Regulated Cell Death': 'Regulated Cell Death', Pyroptosis: 'Pyroptosis',
+  NRF2: 'NRF2', Keap1: 'Keap1', ARE: 'ARE', 'HO-1': 'HO-1',
+  Superoxide: 'Superoxide', 'Hydrogen Peroxide': 'Hydrogen Peroxide',
+  Catalase: 'Catalase', MnSOD: 'MnSOD', Mitohormesis: 'Mitohormesis',
+  Hormesis: 'Hormesis', 'Exercise Hormesis': 'Exercise Hormesis',
+  Hormetin: 'Hormetin', 'PGC-1α': 'PGC-1α',
+  'Mitochondrial Biogenesis': 'Mitochondrial Biogenesis',
+  Senescence: 'Senescence', SASP: 'SASP', cGAS: 'cGAS', STING: 'STING',
+  'cGAS-STING Pathway': 'cGAS-STING Pathway', p21: 'p21', p16: 'p16',
+  'NF-κB': 'NF-κB', 'IL-6': 'IL-6', 'IL-1β': 'IL-1β', CXCL12: 'CXCL12',
+  Fisetin: 'Fisetin', Senolytic: 'Senolytic', Senomorphic: 'Senomorphic',
+  'Lamin B1': 'Lamin B1', HMGB1: 'HMGB1',
+  'Mitochondrial Dysfunction': 'Mitochondrial Dysfunction',
+  Carbazochrome: 'Carbazochrome',
+  'Adrenochrome monoaminoguanidine': 'Adrenochrome monoaminoguanidine',
+  'Methylene blue': 'Methylene blue', 'Urolithin A': 'Urolithin A',
+  Resveratrol: 'Resveratrol', Creatine: 'Creatine',
+  Aminoguanidine: 'Aminoguanidine', Carnosine: 'Carnosine', GlyNAC: 'GlyNAC',
+  Methemoglobinemia: 'Methemoglobinemia', G6PD: 'G6PD',
 };
 const vlink = (n) => `<a href="https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}" target="_blank" rel="noopener">[[${VLT[n] || n}]]</a>`;
 
 export const STR = {
   en: {
     tabExplore: 'Explore', tabAdreno: 'Adrenochrome pathway', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ cancer trace',
+    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]',
     labels: 'Labels', rotate: 'Rotate', cutaway: 'Cutaway',
     stepOf: (a, b) => `Step ${a} of ${b}`, prev: '← Prev', next: 'Next →', play: '▶ Auto-play', pause: '⏸ Pause',
     exploreTitle: 'Cellular components', exploreBody: 'Click any structure in the cell — or a button below — to read its real size, job, and vault links. Drag to orbit, scroll to zoom, right-drag to pan.',
@@ -71,10 +98,50 @@ export const STR = {
       { t: 'Fenbendazole starves + disinhibits — Warburg off, p53 on', b: 'GLUT1 down plus hexokinase-2 inhibition chokes glycolysis (Warburg blockade → NADPH/glutathione collapse), while MDM2/MdmX suppression stabilizes p53 → p21 arrest. Metabolism and the genome guardian fall in one move.', legend: [['#f5a65b', 'GLUT1/HK2 down · p53 stabilized']], vault: ['GLUT1', 'Hexokinase 2', 'p53', 'MDM2', 'Warburg Effect'] },
       { t: 'Convergence — redox catastrophe at the mitochondria', b: 'Both drugs funnel into the same endpoints from different doors: ΔΨm collapse and cytochrome-c release meet NADPH-depleted antioxidant defenses — ROS pushed past the lethal threshold (apoptosis, autophagy, pyroptosis). SIRT3/SIRT6 and the NAD+ gate set sensitivity — the bridge back to the Sirtuins tour. Hypothesis only: untested clinically.', legend: [['#ff5a4d', 'ROS past lethal threshold'], ['#ffb347', 'mitochondrial collapse']], vault: ['Apoptosis', 'Autophagy', 'SIRT3', 'SIRT6', 'NAD+'] },
     ],
+    autophagySteps: [
+      { t: 'The brake — mTORC1 at the lysosome', b: 'When nutrients are plenty, mTORC1 sits on the lysosome surface and holds autophagy off: ULK1 stays phosphorylated and TFEB stays cytosolic. Starvation, rapamycin or AMPK tilt the switch — the brake lifts and recycling begins.', legend: [['#4ad6b5', 'mTORC1 brake on lysosome']], vault: ['mTOR', 'mTORC1', 'Lysosome', 'Rapamycin'] },
+      { t: 'Initiation — ULK1–Beclin1 at the ER', b: 'The ULK1–FIP200 complex fires at ER contact sites and hands off to the Beclin1–VPS34 lipid-kinase complex, which marks a patch of membrane with PI3P. That patch cups into the phagophore — the open mouth of the future autophagosome.', legend: [['#ffc357', 'ULK1–Beclin1 initiation at ER']], vault: ['ULK1', 'Beclin1', 'Autophagy'] },
+      { t: 'Elongation — LC3 + p62 capture cargo', b: 'ATG7/ATG3 lipidate LC3 onto the growing rim while p62/SQSTM1 drags ubiquitinated cargo inside. The rim seals into a double-membrane autophagosome. SIRT2 primes ATG4B for LC3 processing — the bridge back to the Sirtuins tour.', legend: [['#51ff9e', 'LC3–p62 cargo capture'], ['#51e0ff', 'SIRT2 → ATG4B priming']], vault: ['LC3', 'p62', 'Autophagy', 'SIRT2'] },
+      { t: 'Fusion — autophagosome meets lysosome', b: 'The sealed autophagosome rides microtubule rails to a lysosome and fuses into an autolysosome. Acid hydrolases digest the cargo; permeases export amino acids, lipids and sugars back to the cytosol for reuse.', legend: [['#ff8a5a', 'autophagosome → lysosome'], ['#d9403b', 'acid digestion']], vault: ['Lysosome', 'Autolysosome', 'Autophagy'] },
+      { t: 'Mitophagy — damaged mitochondria recycled', b: 'Depolarized mitochondria are flagged (PINK1/Parkin in the vault) and swallowed whole — the quality-control branch of autophagy. Watch the flagged mitochondrion converge on the lysosome; fasting and spermidine both push this flux in the vault documents.', legend: [['#ff5a4d', 'flagged mitochondrion'], ['#ffb347', 'delivery to lysosome']], vault: ['Mitophagy', 'Autophagy', 'Spermidine'] },
+      { t: 'Feedback — the TFEB program', b: 'Starvation dephosphorylates TFEB, which enters the nucleus through the pore and switches on the CLEAR network: more lysosomes, more autophagy genes. Caloric restriction, intermittent fasting and spermidine all converge here; mTOR reactivation closes the loop.', legend: [['#7fd4ff', 'TFEB → nucleus'], ['#b79aff', 'lysosome biogenesis program']], vault: ['TFEB', 'Lysosome', 'Spermidine', 'FOXO3a'] },
+    ],
+    deathSteps: [
+      { t: 'Crossroads — one cell, many deaths', b: 'Apoptosis, ferroptosis, necroptosis, parthanatos and pyroptosis all start in this same cytosol but exit through different doors. The vault treats them as one crosstalk network — this tour walks each door in turn, all preclinical cell biology, no clinical claims.', legend: [['#ffb347', 'mitochondrial door'], ['#51ff9e', 'membrane door'], ['#b79aff', 'nuclear door']], vault: ['Regulated Cell Death', 'Apoptosis', 'Ferroptosis', 'Necroptosis', 'Parthanatos'] },
+      { t: 'Apoptosis I — BAX/BAK open the mito door', b: 'Stress signals converge on BAX and BAK, which punch pores in the mitochondrial outer membrane. Cytochrome c spills into the cytosol — the point of no return for the intrinsic pathway. p53 sits upstream licensing this step in the vault.', legend: [['#ff5a4d', 'BAX/BAK pores'], ['#ffb347', 'cytochrome-c release']], vault: ['BAX', 'BAK', 'Cytochrome c', 'p53'] },
+      { t: 'Apoptosis II — the apoptosome fires caspases', b: 'Cytochrome c plus Apaf-1 assemble the wheel-shaped apoptosome, which activates Caspase-9, which in turn fires the executioner Caspase-3. The cascade dismantles the nucleus from the inside — chromatin condenses while the membrane still holds.', legend: [['#ff8a5a', 'apoptosome → Caspase-9 → Caspase-3']], vault: ['Apaf-1', 'Apoptosome', 'Caspase-9', 'Caspase-3', 'Caspase'] },
+      { t: 'Ferroptosis — GPX4 fails, membranes rust', b: 'When glutathione runs out or GPX4 is blocked, lipid peroxides spread unchecked through membranes — iron-dependent rust instead of clean caspase cuts. The plasma membrane is the victim here; the IVM × FBZ tour ends at this same ROS threshold from the drug side.', legend: [['#ff5a4d', 'lipid peroxidation spread'], ['#51ff9e', 'GSH/GPX4 defense line']], vault: ['Ferroptosis', 'GPX4', 'Glutathione', 'Apoptosis'] },
+      { t: 'Necroptosis — RIPK3–MLKL rupture the membrane', b: 'When caspases are blocked, RIPK1/RIPK3 phosphorylate MLKL, which oligomerizes and punches holes in the plasma membrane from the inside. Unlike apoptosis the cell bursts — releasing DAMPs that warn neighbors. Inflammatory by design.', legend: [['#f5a65b', 'RIPK3 → MLKL pores'], ['#ff5a4d', 'membrane rupture']], vault: ['Necroptosis', 'RIPK1', 'RIPK3', 'MLKL'] },
+      { t: 'Parthanatos — PARP1 overdrive, AIF marches north', b: 'Massive DNA damage hyperactivates PARP1, flooding the cell with PAR polymer. PAR drags apoptosis-inducing factor (AIF) out of mitochondria and into the nucleus, where chromatin is shredded caspase-independently. A mito-to-nucleus death march through the pore.', legend: [['#b79aff', 'PARP1 → PAR flood'], ['#7fd4ff', 'AIF mito → nucleus']], vault: ['Parthanatos', 'PARP1', 'AIF', 'NAD+'] },
+    ],
+    redoxSteps: [
+      { t: 'The leak — mitochondria breathe out ROS', b: 'The electron transport chain powers the cell and leaks superoxide, dismutated by MnSOD into hydrogen peroxide. At low dose this leak is a signal, not damage — the founding observation of mitohormesis in the vault.', legend: [['#ff7a1a', 'superoxide leak'], ['#ffb347', 'MnSOD → H₂O₂']], vault: ['Superoxide', 'MnSOD', 'Hydrogen Peroxide', 'Mitohormesis'] },
+      { t: 'First responders — catalase + glutathione', b: 'Peroxisomes destroy H₂O₂ with catalase while glutathione peroxidases and peroxiredoxins mop up the rest in cytosol and mitochondria. Watch peroxide traffic run from the mitochondrion to the peroxisome — the quiet cleanup behind every redox story.', legend: [['#4ad6b5', 'H₂O₂ → peroxisome'], ['#51ff9e', 'GSH / catalase cleanup']], vault: ['Catalase', 'Hydrogen Peroxide', 'Glutathione'] },
+      { t: 'The sensor — Keap1 lets NRF2 go', b: 'Keap1 holds NRF2 in the cytosol for degradation until electrophiles and peroxides modify its cysteines. Oxidized Keap1 releases NRF2, which accumulates and heads for the nucleus — the cell’s smoke detector tripping.', legend: [['#ffc357', 'Keap1 oxidation'], ['#7fd4ff', 'NRF2 released']], vault: ['Keap1', 'NRF2', 'Hormesis'] },
+      { t: 'The program — ARE genes switch on', b: 'In the nucleus NRF2 binds antioxidant-response elements and transcribes the defense battery: HO-1, NQO1, glutathione synthesis and peroxide detox enzymes. This is the same NQO1/GSH detox branch the Adrenochrome tour ends on — now seen from the transcription side.', legend: [['#b79aff', 'NRF2 → ARE'], ['#51ff9e', 'HO-1 · NQO1 · GSH genes']], vault: ['ARE', 'HO-1', 'NQO1', 'Glutathione'] },
+      { t: 'The return — stronger mitochondria', b: 'NRF2 output feeds mitochondrial biogenesis through PGC-1α, tuned by SIRT1/SIRT3 and FOXO3a — the Sirtuins-tour bridge. New mitochondria breathe cleaner: the adaptation that makes the next identical stress hit softer.', legend: [['#51ff9e', 'PGC-1α biogenesis'], ['#ffb347', 'SIRT3-tuned mitochondria']], vault: ['PGC-1α', 'Mitochondrial Biogenesis', 'SIRT3', 'FOXO3a'] },
+      { t: 'The curve — eustress vs overload', b: 'Low dose trains, high dose destroys: exercise, fasting and dietary hormetins (the vault’s exercise/dietary hormesis docs) sit on the rising slope; the adrenochrome ROS burst and ferroptosis sit past the peak. Same molecules, opposite outcomes — dose is the difference.', legend: [['#51ff9e', 'eustress — adaptation'], ['#ff5a4d', 'overload — damage']], vault: ['Hormesis', 'Exercise Hormesis', 'Hormetin', 'Mitohormesis'] },
+    ],
+    saspSteps: [
+      { t: 'The arrest — p21/p16 lock the nucleus', b: 'Persistent DNA damage locks the cell cycle through p53–p21 and p16: the cell stops dividing but refuses to die. The nuclear lamina frays (Lamin B1 loss) and chromatin leaks — the senescent state in the vault begins as a nuclear event.', legend: [['#b79aff', 'p21/p16 arrest'], ['#8a6ff0', 'Lamin B1 loss']], vault: ['Senescence', 'p21', 'p16', 'Lamin B1'] },
+      { t: 'The alarm — cytosolic chromatin trips cGAS-STING', b: 'Leaked chromatin fragments and HMGB1 land in the cytosol, where the cGAS-STING DNA sensor mistakes self for invader. STING fires interferon and NF-κB programs — the vault’s cGAS-STING-in-senescence docs sit at this exact handoff.', legend: [['#ffc357', 'cytosolic chromatin'], ['#ff8a5a', 'cGAS-STING alarm']], vault: ['cGAS', 'STING', 'cGAS-STING Pathway', 'HMGB1'] },
+      { t: 'The factory — NF-κB switches on SASP', b: 'NF-κB (with C/EBPβ in the vault) turns the arrested cell into a secretory factory: IL-6, IL-1β, chemokines and proteases — the senescence-associated secretory phenotype. Useful for wound healing in bursts; corrosive when chronic.', legend: [['#ff5a4d', 'NF-κB → SASP genes'], ['#f5a65b', 'IL-6 · IL-1β']], vault: ['NF-κB', 'SASP', 'IL-6', 'IL-1β'] },
+      { t: 'The broadcast — Golgi ships SASP out', b: 'SASP cargo flows through the Golgi and out across the membrane in a hypersecretory state — watch the shuttle vesicles run hot. Neighbors receive CXCL12 and friends: paracrine senescence spreads the arrest, and macrophages come to clear the sender.', legend: [['#7fd4a8', 'Golgi hypersecretion'], ['#51ff9e', 'SASP broadcast']], vault: ['SASP', 'CXCL12', 'Senescence'] },
+      { t: 'The loop — tired mitochondria feed the fire', b: 'Senescent mitochondria leak ROS and shed metabolites that deepen the arrest via mTOR and epigenetic SASP wiring — the vault’s mitochondrial-dysfunction bridge. Autophagy falters here too, so damage accumulates instead of recycling.', legend: [['#ffb347', 'leaky mitochondria'], ['#ff5a4d', 'ROS → SASP loop']], vault: ['Mitochondrial Dysfunction', 'mTOR', 'Autophagy'] },
+      { t: 'Quiet or clear — senomorphics vs senolytics', b: 'Two vault strategies close the tour: senomorphics (apigenin-class in the vault) quiet SASP output while the cell lives; senolytics like fisetin push the senescent cell itself into apoptosis — CXCL12 falls and endothelial function recovers in the fisetin documents.', legend: [['#4ad6b5', 'senomorphic — quiet'], ['#ff5a4d', 'senolytic — clear']], vault: ['Senomorphic', 'Senolytic', 'Fisetin', 'SASP'] },
+    ],
+    protoSteps: [
+      { t: 'Stabilized trigger — carbazochrome + AMM [speculative]', b: 'Free adrenochrome (the Pathway tour) is unstable and cardiotoxic — this protocol never uses it. Instead: carbazochrome (semicarbazone-stabilized) and AMM, the adrenochrome–aminoguanidine hybrid, preserve the redox-cycling trigger while taming reactivity. A pulsed mitochondrial superoxide signal confined to the matrix face.', legend: [['#ff5a4d', 'stabilized redox pulse'], ['#ffb347', 'matrix-confined ROS']], vault: ['Carbazochrome', 'Adrenochrome monoaminoguanidine', 'Adrenochrome'] },
+      { t: 'MRR pillar — MB shuttles, NAD+ fuels, urolithin clears [speculative]', b: 'Mitohormetic Redox-Relay: methylene blue cycles electrons past Complex I/III (0.5–2 mg/kg), NR/NMN replete NAD+ for SIRT1/3, creatine buffers ATP, resveratrol sensitizes SIRT1 — and urolithin A clears the mitochondria that fail via mitophagy. Trigger, fuel, cleanup in one relay.', legend: [['#3ec9a7', 'MB electron shuttle'], ['#7fd4ff', 'NAD+ fuel'], ['#4ad6b5', 'urolithin A clearance']], vault: ['Methylene blue', 'NAD+', 'Urolithin A', 'Resveratrol', 'Creatine'] },
+      { t: 'SRAC pillar — rapamycin quiets, fisetin clears [speculative]', b: 'SASP-Remodeling Aminochrome Complex, strictly sequential: Phase 1 (wks 1–4) rapamycin + AMM + MB suppress SASP via mTORC1; washout ≥1 week; Phase 2 fisetin strikes the primed senescent cells into apoptosis. GlyNAC buffers redox across both phases. Never concurrent.', legend: [['#8a6ff0', 'rapamycin — SASP quiet'], ['#ff5a4d', 'fisetin — senolysis']], vault: ['Rapamycin', 'Fisetin', 'Senolytic', 'SASP'] },
+      { t: 'GOPS pillar — trap AGEs, digest damage [speculative]', b: 'Glyco-Oxidative Proteostasis Shield: the aminoguanidine moiety of AMM traps methylglyoxal/glyoxal before they cross-link proteins; mild ER hormesis raises chaperones; spermidine drives macroautophagy of glycated proteins; carnosine chelates metals to suppress Fenton chemistry.', legend: [['#ffc357', 'AG — AGE trap'], ['#51ff9e', 'spermidine clearance']], vault: ['Aminoguanidine', 'Spermidine', 'Carnosine', 'GlyNAC'] },
+      { t: 'Counter-defense — the SIRT3/MnSOD axis [speculative]', b: 'The vault’s sirtuin trace: adrenochrome never touches sirtuins directly — it feeds the oxidative-stress field while sirtuins defend from the other side. SIRT3 deacetylates MnSOD to quench the very superoxide the trigger makes; the SIRT3/SIRT4 ratio sets the hormetic window width. Bridge back to the Sirtuins tour.', legend: [['#ffb347', 'SIRT3 → MnSOD'], ['#b79aff', 'SIRT1/PGC-1α backup']], vault: ['SIRT3', 'MnSOD', 'SIRT1', 'Mitophagy'] },
+      { t: 'The window — why this is 8/10 hard [speculative]', b: 'Inverted-U, not a plateau: 50–500 nM pulsed is hormetic, µM+ sustained is ferroptosis, methemoglobinemia and cardiomyopathy. Guardrails from the vault: G6PD screening, co-oximetry, HRV gating, IV NAD+ preference, MB + SSRI serotonin risk, oral-AG histamine risk. Hypothesis only — not clinical.', legend: [['#51ff9e', 'window — adaptation'], ['#ff5a4d', 'overshoot — damage']], vault: ['Mitohormesis', 'Methemoglobinemia', 'G6PD', 'Ferroptosis'] },
+    ],
   },
   zh: {
     tabExplore: '探索', tabAdreno: '腎上腺色素路徑', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ 抗癌追蹤',
+    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］',
     labels: '標籤', rotate: '旋轉', cutaway: '剖面',
     stepOf: (a, b) => `步驟 ${a} / ${b}`, prev: '← 上一步', next: '下一步 →', play: '▶ 自動播放', pause: '⏸ 暫停',
     exploreTitle: '細胞組件', exploreBody: '點擊細胞中的任何結構（或下方按鈕），查看其真實尺寸、功能與知識庫連結。可拖曳旋轉、滾輪縮放、右鍵平移。',
@@ -121,6 +188,46 @@ export const STR = {
       { t: '芬苯達唑斷糧＋解鎖——瓦伯格關、p53 開', b: 'GLUT1 下調加己糖激酶 2 抑制，掐住糖解（瓦伯格阻斷 → NADPH／穀胱甘肽崩潰）；同時 MDM2/MdmX 抑制穩定 p53 → p21 停滯。代謝與基因組守衛一舉而下。', legend: [['#f5a65b', 'GLUT1/HK2 下降 · p53 穩定']], vault: ['GLUT1', 'Hexokinase 2', 'p53', 'MDM2', 'Warburg Effect'] },
       { t: '匯聚——粒線體的氧化還原災難', b: '兩種藥從不同入口匯入相同終點：ΔΨm 崩潰與細胞色素 c 釋放，遇上 NADPH 耗竭的抗氧化防禦——ROS 被推過致死閾值（凋亡、自噬、焦亡）。SIRT3/SIRT6 與 NAD+ 閘門決定敏感度——回到 Sirtuins 導覽的橋樑。純屬假說：臨床未驗證。', legend: [['#ff5a4d', 'ROS 超過致死閾值'], ['#ffb347', '粒線體崩潰']], vault: ['Apoptosis', 'Autophagy', 'SIRT3', 'SIRT6', 'NAD+'] },
     ],
+    autophagySteps: [
+      { t: '煞車——溶酶體上的 mTORC1', b: '營養充足時，mTORC1 坐在溶酶體表面壓住自噬：ULK1 被磷酸化抑制，TFEB 滯留胞質。飢餓、雷帕黴素或 AMPK 訊號一來，煞車鬆開，回收啟動。', legend: [['#4ad6b5', '溶酶體上的 mTORC1 煞車']], vault: ['mTOR', 'mTORC1', 'Lysosome', 'Rapamycin'] },
+      { t: '起始——內質網上的 ULK1–Beclin1', b: 'ULK1–FIP200 複合體在內質網接觸位點點火，交棒給 Beclin1–VPS34 脂質激酶，以 PI3P 標記一塊膜。這塊膜凹成吞噬泡——未來自噬體的開口。', legend: [['#ffc357', '內質網上的起始訊號']], vault: ['ULK1', 'Beclin1', 'Autophagy'] },
+      { t: '延伸——LC3＋p62 捕獲貨物', b: 'ATG7/ATG3 把 LC3 脂化到生長中的膜緣，p62/SQSTM1 把泛素化的貨物拖進來。膜緣閉合成雙層膜自噬體。SIRT2 為 ATG4B 引發 LC3 加工——回到 Sirtuins 導覽的橋樑。', legend: [['#51ff9e', 'LC3–p62 捕獲'], ['#51e0ff', 'SIRT2 → ATG4B']], vault: ['LC3', 'p62', 'Autophagy', 'SIRT2'] },
+      { t: '融合——自噬體遇上溶酶體', b: '封口的自噬體沿微管軌道駛向溶酶體，融合成自噬溶酶體。酸性水解酶消化貨物，通透酶把胺基酸、脂質與糖送回胞質再利用。', legend: [['#ff8a5a', '自噬體 → 溶酶體'], ['#d9403b', '酸性消化']], vault: ['Lysosome', 'Autolysosome', 'Autophagy'] },
+      { t: '粒線體自噬——回收受損粒線體', b: '去極化的粒線體被標記（知識庫中的 PINK1/Parkin）並整顆吞掉——自噬的品管分支。看被標記的粒線體匯入溶酶體；禁食與亞精胺都會推升此通量。', legend: [['#ff5a4d', '被標記的粒線體'], ['#ffb347', '送往溶酶體']], vault: ['Mitophagy', 'Autophagy', 'Spermidine'] },
+      { t: '回饋——TFEB 計畫', b: '飢餓使 TFEB 去磷酸化，經核孔入核啟動 CLEAR 網路：更多溶酶體、更多自噬基因。熱量限制、間歇性禁食與亞精胺都匯聚於此；mTOR 再活化則關閉迴路。', legend: [['#7fd4ff', 'TFEB → 入核'], ['#b79aff', '溶酶體新生計畫']], vault: ['TFEB', 'Lysosome', 'Spermidine', 'FOXO3a'] },
+    ],
+    deathSteps: [
+      { t: '十字路口——一顆細胞，多種死法', b: '凋亡、鐵死亡、壞死性凋亡、parthanatos 與焦亡都從同一個胞質出發，卻走不同的門。知識庫把它們視為一個交互網路——本導覽逐一走過每扇門，皆為臨床前細胞生物學，不涉臨床宣稱。', legend: [['#ffb347', '粒線體之門'], ['#51ff9e', '細胞膜之門'], ['#b79aff', '細胞核之門']], vault: ['Regulated Cell Death', 'Apoptosis', 'Ferroptosis', 'Necroptosis', 'Parthanatos'] },
+      { t: '凋亡 I——BAX/BAK 打開粒線體之門', b: '壓力訊號匯聚到 BAX 與 BAK，在粒線體外膜打孔。細胞色素 c 外洩到胞質——內在路徑的不歸點。知識庫中 p53 在上游為這一步放行。', legend: [['#ff5a4d', 'BAX/BAK 打孔'], ['#ffb347', '細胞色素 c 釋放']], vault: ['BAX', 'BAK', 'Cytochrome c', 'p53'] },
+      { t: '凋亡 II——凋亡體點燃 caspase', b: '細胞色素 c 與 Apaf-1 組成輪狀凋亡體，活化 Caspase-9，再點燃執行者 Caspase-3。級聯由內而外拆解細胞核——染色質凝縮，而細胞膜暫時完整。', legend: [['#ff8a5a', '凋亡體 → Caspase-9 → Caspase-3']], vault: ['Apaf-1', 'Apoptosome', 'Caspase-9', 'Caspase-3', 'Caspase'] },
+      { t: '鐵死亡——GPX4 失守，膜生鏽', b: '穀胱甘肽耗竭或 GPX4 被抑制時，脂質過氧化物在膜中失控蔓延——是鐵依賴的鏽蝕，而非乾淨的 caspase 切割。受害者是細胞膜；IVM × FBZ 導覽從藥物側匯入同一個 ROS 閾值。', legend: [['#ff5a4d', '脂質過氧化蔓延'], ['#51ff9e', 'GSH/GPX4 防線']], vault: ['Ferroptosis', 'GPX4', 'Glutathione', 'Apoptosis'] },
+      { t: '壞死性凋亡——RIPK3–MLKL 擊破細胞膜', b: '當 caspase 被阻斷，RIPK1/RIPK3 磷酸化 MLKL，後者寡聚化由內向外在細胞膜打洞。與凋亡不同，細胞會爆裂——釋出 DAMPs 警告鄰居。發炎是其本意。', legend: [['#f5a65b', 'RIPK3 → MLKL 打孔'], ['#ff5a4d', '細胞膜破裂']], vault: ['Necroptosis', 'RIPK1', 'RIPK3', 'MLKL'] },
+      { t: 'Parthanatos——PARP1 過載，AIF 北上', b: '大量 DNA 損傷過度活化 PARP1，PAR 聚合物淹沒細胞。PAR 把凋亡誘導因子（AIF）從粒線體拖入細胞核，以非 caspase 方式撕碎染色質。一場經核孔的粒線體→核死亡行軍。', legend: [['#b79aff', 'PARP1 → PAR 洪流'], ['#7fd4ff', 'AIF 粒線體 → 核']], vault: ['Parthanatos', 'PARP1', 'AIF', 'NAD+'] },
+    ],
+    redoxSteps: [
+      { t: '洩漏——粒線體呼出 ROS', b: '電子傳遞鏈供能並洩漏超氧陰離子，MnSOD 將其歧化為過氧化氫。低劑量時洩漏是訊號而非損傷——正是知識庫中粒線體毒物興奮效應的奠基性觀察。', legend: [['#ff7a1a', '超氧洩漏'], ['#ffb347', 'MnSOD → H₂O₂']], vault: ['Superoxide', 'MnSOD', 'Hydrogen Peroxide', 'Mitohormesis'] },
+      { t: '第一反應——過氧化氫酶＋穀胱甘肽', b: '過氧化物酶體以過氧化氫酶摧毀 H₂O₂，穀胱甘肽過氧化物酶與過氧化還原酶在胞質與粒線體收尾。看過氧化物從粒線體流向過氧化物酶體——每個氧化還原故事背後安靜的清理。', legend: [['#4ad6b5', 'H₂O₂ → 過氧化物酶體'], ['#51ff9e', 'GSH／過氧化氫酶清理']], vault: ['Catalase', 'Hydrogen Peroxide', 'Glutathione'] },
+      { t: '感測器——Keap1 放開 NRF2', b: 'Keap1 在胞質抓住 NRF2 送去降解，直到親電物與過氧化物修飾其半胱氨酸。氧化的 Keap1 釋放 NRF2，後者累積並奔向細胞核——細胞的煙霧偵測器作動。', legend: [['#ffc357', 'Keap1 氧化'], ['#7fd4ff', 'NRF2 被釋放']], vault: ['Keap1', 'NRF2', 'Hormesis'] },
+      { t: '程式——ARE 基因啟動', b: 'NRF2 在核內結合抗氧化反應元件，轉錄防禦電池：HO-1、NQO1、穀胱甘肽合成與過氧化物解毒酶。這正是腎上腺色素導覽終點的 NQO1/GSH 解毒分支——現在從轉錄側觀看。', legend: [['#b79aff', 'NRF2 → ARE'], ['#51ff9e', 'HO-1 · NQO1 · GSH 基因']], vault: ['ARE', 'HO-1', 'NQO1', 'Glutathione'] },
+      { t: '回報——更強的粒線體', b: 'NRF2 產出經 PGC-1α 推動粒線體新生，由 SIRT1/SIRT3 與 FOXO3a 調音——通往 Sirtuins 導覽的橋。新粒線體呼吸得更乾淨：讓下一次相同壓力變輕的適應。', legend: [['#51ff9e', 'PGC-1α 新生'], ['#ffb347', 'SIRT3 調音的粒線體']], vault: ['PGC-1α', 'Mitochondrial Biogenesis', 'SIRT3', 'FOXO3a'] },
+      { t: '曲線——小劑量訓練 vs 過載摧毀', b: '低劑量訓練，高劑量摧毀：運動、禁食與飲食 hormetin（知識庫的運動／飲食毒物興奮文件）在上升坡；腎上腺色素 ROS 爆發與鐵死亡在峰頂之後。相同的分子，相反的結局——劑量就是差別。', legend: [['#51ff9e', 'eustress——適應'], ['#ff5a4d', '過載——損傷']], vault: ['Hormesis', 'Exercise Hormesis', 'Hormetin', 'Mitohormesis'] },
+    ],
+    saspSteps: [
+      { t: '停滯——p21/p16 鎖住細胞核', b: '持續的 DNA 損傷經 p53–p21 與 p16 鎖死細胞週期：細胞不再分裂也不死亡。核纖層磨損（Lamin B1 流失）、染色質外洩——知識庫中的衰老狀態始於一場核事件。', legend: [['#b79aff', 'p21/p16 停滯'], ['#8a6ff0', 'Lamin B1 流失']], vault: ['Senescence', 'p21', 'p16', 'Lamin B1'] },
+      { t: '警報——胞質染色質觸發 cGAS-STING', b: '外洩的染色質碎片與 HMGB1 落入胞質，cGAS-STING DNA 感測器誤把自己當入侵者。STING 點燃干擾素與 NF-κB 程式——知識庫中 cGAS-STING 在衰老的文件正位於這個交接點。', legend: [['#ffc357', '胞質染色質'], ['#ff8a5a', 'cGAS-STING 警報']], vault: ['cGAS', 'STING', 'cGAS-STING Pathway', 'HMGB1'] },
+      { t: '工廠——NF-κB 開啟 SASP', b: 'NF-κB（知識庫另有 C/EBPβ 協同）把停滯的細胞變成分泌工廠：IL-6、IL-1β、趨化因子與蛋白酶——衰老相關分泌表型。短暫爆發有助傷口癒合；慢性則具腐蝕性。', legend: [['#ff5a4d', 'NF-κB → SASP 基因'], ['#f5a65b', 'IL-6 · IL-1β']], vault: ['NF-κB', 'SASP', 'IL-6', 'IL-1β'] },
+      { t: '廣播——高爾基體運出 SASP', b: 'SASP 貨物經高爾基體穿越細胞膜大量外送——看穿梭囊泡全速運轉。鄰居收到 CXCL12 等訊號：旁分泌衰老擴散停滯，巨噬細胞前來清除發送者。', legend: [['#7fd4a8', '高爾基體超分泌'], ['#51ff9e', 'SASP 廣播']], vault: ['SASP', 'CXCL12', 'Senescence'] },
+      { t: '迴路——疲憊的粒線體添柴', b: '衰老粒線體洩漏 ROS、釋出代謝物，經 mTOR 與表觀遺傳 SASP 佈線加深停滯——知識庫中粒線體功能障礙的橋樑。自噬在此也衰退，損傷累積而非回收。', legend: [['#ffb347', '洩漏的粒線體'], ['#ff5a4d', 'ROS → SASP 迴路']], vault: ['Mitochondrial Dysfunction', 'mTOR', 'Autophagy'] },
+      { t: '安靜或清除——senomorphic vs senolytic', b: '兩種知識庫策略收尾：senomorphic（知識庫中的芹菜素類）讓細胞活著但安靜下來；fisetin 等 senolytic 把衰老細胞推入凋亡——fisetin 文件中 CXCL12 下降、內皮功能恢復。', legend: [['#4ad6b5', 'senomorphic——安靜'], ['#ff5a4d', 'senolytic——清除']], vault: ['Senomorphic', 'Senolytic', 'Fisetin', 'SASP'] },
+    ],
+    protoSteps: [
+      { t: '穩定的觸發——carbazochrome＋AMM［假說］', b: '游離腎上腺色素（路徑導覽的主角）不穩定且有心臟毒性——本方案從不使用它。改用 carbazochrome（縮氨脲穩定）與 AMM（腎上腺色素–胺基胍複合物），保留氧化還原循環觸發並馴服反應性。侷限於粒線體基質面的脈衝超氧訊號。', legend: [['#ff5a4d', '穩定的氧化還原脈衝'], ['#ffb347', '侷限於基質的 ROS']], vault: ['Carbazochrome', 'Adrenochrome monoaminoguanidine', 'Adrenochrome'] },
+      { t: 'MRR 支柱——MB 穿梭、NAD+ 供能、尿石素清除［假說］', b: '粒線體毒物興奮氧化還原接力：亞甲藍繞過複合體 I/III 循環電子，NR/NMN 補充 NAD+ 供 SIRT1/3，肌酸緩衝 ATP，白藜蘆醇增敏 SIRT1——尿石素 A 以粒線體自噬清除失敗者。觸發、燃料、清理一條龍。', legend: [['#3ec9a7', 'MB 電子穿梭'], ['#7fd4ff', 'NAD+ 燃料'], ['#4ad6b5', '尿石素 A 清除']], vault: ['Methylene blue', 'NAD+', 'Urolithin A', 'Resveratrol', 'Creatine'] },
+      { t: 'SRAC 支柱——雷帕黴素安靜、fisetin 清除［假說］', b: 'SASP 重塑複合物，嚴格依序：第 1 階段（1–4 週）雷帕黴素＋AMM＋MB 經 mTORC1 壓制 SASP；洗脫 ≥1 週；第 2 階段 fisetin 把致敏的衰老細胞打入凋亡。GlyNAC 全程緩衝氧化還原。絕不併用。', legend: [['#8a6ff0', '雷帕黴素——SASP 安靜'], ['#ff5a4d', 'fisetin——衰老清除']], vault: ['Rapamycin', 'Fisetin', 'Senolytic', 'SASP'] },
+      { t: 'GOPS 支柱——捕捉 AGE、消化損傷［假說］', b: '糖氧化蛋白質穩態盾：AMM 的胺基胍基團在甲基乙二醛交聯蛋白前捕捉它；輕度內質網毒物興奮升高伴侶蛋白；亞精胺驅動巨自噬清除糖化蛋白；肌肽螯合金屬抑制 Fenton 化學。', legend: [['#ffc357', 'AG——AGE 陷阱'], ['#51ff9e', '亞精胺清除']], vault: ['Aminoguanidine', 'Spermidine', 'Carnosine', 'GlyNAC'] },
+      { t: '反防禦——SIRT3/MnSOD 軸［假說］', b: '知識庫的 sirtuin 追蹤：腎上腺色素從不直連 sirtuin——它餵養氧化壓力場，sirtuin 在另一側防禦。SIRT3 去乙醯化 MnSOD，淬滅觸發器製造的超氧；SIRT3/SIRT4 比值決定毒物興奮窗口寬度。回到 Sirtuins 導覽的橋。', legend: [['#ffb347', 'SIRT3 → MnSOD'], ['#b79aff', 'SIRT1/PGC-1α 備援']], vault: ['SIRT3', 'MnSOD', 'SIRT1', 'Mitophagy'] },
+      { t: '窗口——為何難度 8/10［假說］', b: '倒 U 形而非平台：50–500 nM 脈衝是毒物興奮，µM+ 持續則是鐵死亡、變性血紅素血症與心肌病。知識庫的護欄：G6PD 篩檢、碳氧血紅素監測、HRV 閘門、IV NAD+ 優先、MB＋SSRI 血清素風險、口服 AG 組織胺風險。純屬假說——非臨床。', legend: [['#51ff9e', '窗口——適應'], ['#ff5a4d', '超標——損傷']], vault: ['Mitohormesis', 'Methemoglobinemia', 'G6PD', 'Ferroptosis'] },
+    ],
   },
 };
 
@@ -132,6 +239,11 @@ const TOURS = {
   adreno: { steps: 'adrenoSteps', markers: 'adreno' },
   sirtuin: { steps: 'sirtuinSteps', markers: 'sirtuin' },
   combi: { steps: 'combiSteps', markers: 'combi' },
+  auto: { steps: 'autophagySteps', markers: 'auto' },
+  death: { steps: 'deathSteps', markers: 'death' },
+  redox: { steps: 'redoxSteps', markers: 'redox' },
+  sasp: { steps: 'saspSteps', markers: 'sasp' },
+  proto: { steps: 'protoSteps', markers: 'proto' },
 };
 
 /* ============================== scene setup ============================== */
@@ -430,10 +542,30 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     fbzMito: marker(0xf5a65b, mitos[0].position.clone(), 0.26),
     fbzMem: marker(0xf5a65b, V3(-6, 3, 6).setLength(9.4), 0.26),
     p53nuc: marker(0xb39df7, NUC.clone().add(V3(-0.5, -1.2, 1.0)), 0.26),
+    autoInit: marker(0xffc357, V3(4.2, -0.6, 1.6), 0.26),
+    autoLyso: marker(0x4ad6b5, V3(-0.5, 3.6, 2.6), 0.26),
+    autoTFEB: marker(0x7fd4ff, NUC.clone().add(V3(1.8, 2.2, 1.4)), 0.26),
+    deathMito: marker(0xff5a4d, mitos[0].position.clone(), 0.26),
+    deathMem: marker(0x51ff9e, V3(7.5, -2.5, 5.5).setLength(9.4), 0.26),
+    deathNuc: marker(0xb79aff, NUC.clone().add(V3(-0.5, -1.2, 1.0)), 0.26),
+    nrfMito: marker(0xff7a1a, mitos[0].position.clone(), 0.26),
+    nrfPer: marker(0x4ad6b5, V3(5, -1, -4), 0.26),
+    nrfNuc: marker(0x7fd4ff, NUC.clone().add(V3(1.8, 2.2, 1.4)), 0.26),
+    senNuc: marker(0xb79aff, NUC.clone().add(V3(-0.5, -1.2, 1.0)), 0.26),
+    senGolgi: marker(0x7fd4a8, V3(3.2, 2.8, -1.2), 0.26),
+    senMem: marker(0x51ff9e, V3(7.5, -2.5, 5.5).setLength(9.4), 0.26),
+    protoMito: marker(0x3ec9a7, mitos[0].position.clone(), 0.26),
+    protoER: marker(0xffc357, V3(4.2, -0.6, 1.6), 0.26),
+    protoLyso: marker(0x8a6ff0, V3(-0.5, 3.6, 2.6), 0.26),
   };
   const sirtuinMarkers = [S.s1, S.s2, S.s3, S.s4, S.s5, S.s6, S.s7];
   const adrenoMarkers = [S.mao, S.nqo1];
   const combiMarkers = [S.ivmMem, S.ivmCyto, S.kpnb, S.fbzTub, S.fbzMito, S.fbzMem, S.p53nuc];
+  const autoMarkers = [S.autoInit, S.autoLyso, S.autoTFEB];
+  const deathMarkers = [S.deathMito, S.deathMem, S.deathNuc];
+  const redoxMarkers = [S.nrfMito, S.nrfPer, S.nrfNuc];
+  const saspMarkers = [S.senNuc, S.senGolgi, S.senMem];
+  const protoMarkers = [S.protoMito, S.protoER, S.protoLyso];
 
   /* ---- flow particle pool (tour molecule traffic) ---- */
   const FN = 700;
@@ -514,7 +646,50 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 10], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: GLUT, b: CYTO, color: '#f5a65b', count: 160, spread: 0.5 }, { a: CYTO, b: MITO_A, color: '#f5a65b', count: 180, spread: 0.5 }, { a: NUC.clone().add(V3(-1.5, 0, 0.5)), b: NUC.clone().add(V3(0.5, -1, 1)), color: '#b39df7', count: 140, spread: 0.5 }], mk: [S.fbzMito, S.fbzMem, S.p53nuc] },
     { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], ros: 60, fl: [{ a: MITO_A.clone().add(V3(-2, 1.2, 0)), b: MITO_A.clone().add(V3(2, -1.2, 0.5)), color: '#ff5a4d', count: 260, spread: 0.9 }, { a: CYTO, b: MITO_A, color: '#3ec9a7', count: 120, spread: 0.5 }, { a: CYTO.clone().add(V3(1, 1, -1)), b: MITO_A.clone().add(V3(-1, 0, 1)), color: '#f5a65b', count: 120, spread: 0.5 }], mk: [S.fbzMito] },
   ];
-  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM };
+  const AUTO_CAM = [
+    { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 10], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: LYSO.clone().add(V3(-1.5, 1, 0)), b: LYSO.clone().add(V3(1.5, -1, 0)), color: '#4ad6b5', count: 260, spread: 0.4 }], mk: [S.autoLyso] },
+    { cam: [serBase.x + 2, serBase.y + 2, serBase.z + 10], tgt: serBase.toArray(), hi: ['ser'], fl: [{ a: serBase.clone().add(V3(-1.5, 1, 0)), b: CYTO, color: '#ffc357', count: 260, spread: 0.5 }], mk: [S.autoInit] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1.5, 0)), b: CYTO.clone().add(V3(2, -1.5, 0)), color: '#51ff9e', count: 280, spread: 0.7 }, { a: CENT, b: mtEnds[0].end, color: '#51e0ff', count: 120, spread: 0.3 }], mk: [S.autoInit] },
+    { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 9], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: CYTO, b: LYSO, color: '#ff8a5a', count: 300, spread: 0.5 }], mk: [S.autoLyso] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: MITO_A, b: LYSO, color: '#ff5a4d', count: 240, spread: 0.5 }, { a: CYTO.clone().add(V3(1, 1, -1)), b: LYSO, color: '#ffb347', count: 140, spread: 0.5 }], mk: [S.autoLyso] },
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['npc'], fl: [{ a: CYTO, b: KPNB, color: '#7fd4ff', count: 240, spread: 0.5 }, { a: NUC.clone().add(V3(-1.5, 0, 0.5)), b: NUC.clone().add(V3(0.5, -1, 1)), color: '#b79aff', count: 140, spread: 0.5 }], mk: [S.autoTFEB] },
+  ];
+  const AIF_TGT = NUC.clone().add(V3(-0.5, -1.2, 1.0));
+  const DEATH_CAM = [
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: [], fl: [{ a: MITO_A, b: CYTO, color: '#ffb347', count: 140, spread: 0.6 }, { a: CYTO, b: MEMB, color: '#51ff9e', count: 120, spread: 0.6 }, { a: CYTO, b: KPNB, color: '#b79aff', count: 120, spread: 0.5 }], mk: [S.deathMito, S.deathMem, S.deathNuc] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], ros: 40, fl: [{ a: MITO_A.clone().add(V3(-2, 1.2, 0)), b: MITO_A.clone().add(V3(2, -1.2, 0.5)), color: '#ff5a4d', count: 300, spread: 0.8 }, { a: MITO_A, b: CYTO, color: '#ffb347', count: 180, spread: 0.5 }], mk: [S.deathMito] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: MITO_A, b: CYTO, color: '#ff8a5a', count: 280, spread: 0.6 }], mk: [S.deathMito] },
+    { cam: [MEMB.x + 2, MEMB.y + 2, MEMB.z + 10], tgt: MEMB.toArray(), hi: ['membrane'], fl: [{ a: CYTO, b: MEMB, color: '#ff5a4d', count: 260, spread: 0.5 }, { a: CYTO.clone().add(V3(0, 1.5, -1)), b: MEMB, color: '#51ff9e', count: 140, spread: 0.5 }], mk: [S.deathMem] },
+    { cam: [MEMB.x + 2, MEMB.y + 2, MEMB.z + 10], tgt: MEMB.toArray(), hi: ['membrane'], fl: [{ a: CYTO, b: MEMB, color: '#f5a65b', count: 280, spread: 0.5 }, { a: MEMB.clone().add(V3(-1, 1, 0)), b: MEMB.clone().add(V3(1, -1, 0)), color: '#ff5a4d', count: 180, spread: 0.6 }], mk: [S.deathMem] },
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['nucleus'], fl: [{ a: CYTO, b: KPNB, color: '#b79aff', count: 200, spread: 0.5 }, { a: MITO_A, b: AIF_TGT, color: '#7fd4ff', count: 200, spread: 0.5 }], mk: [S.deathNuc] },
+  ];
+  const NRF_PER = V3(5, -1, -4);
+  const REDOX_CAM = [
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: MITO_A.clone().add(V3(-1.5, 1, 0)), b: MITO_A.clone().add(V3(1.5, -1, 0.5)), color: '#ff7a1a', count: 260, spread: 0.7 }, { a: MITO_A.clone().add(V3(-1, 0.5, 0)), b: MITO_A.clone().add(V3(1, -0.5, 0)), color: '#ffb347', count: 180, spread: 0.5 }], mk: [S.nrfMito] },
+    { cam: [4, 3, 19], tgt: [2, 0, 0], hi: ['peroxisome'], fl: [{ a: MITO_A, b: NRF_PER, color: '#4ad6b5', count: 240, spread: 0.5 }, { a: NRF_PER.clone().add(V3(-1, 0.8, 0)), b: NRF_PER.clone().add(V3(1, -0.8, 0)), color: '#51ff9e', count: 160, spread: 0.5 }], mk: [S.nrfMito, S.nrfPer] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1.5, 0)), b: CYTO.clone().add(V3(2, -1.5, 0)), color: '#ffc357', count: 220, spread: 0.6 }, { a: CYTO.clone().add(V3(-1, -1, 1)), b: KPNB, color: '#7fd4ff', count: 160, spread: 0.5 }], mk: [] },
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['npc'], fl: [{ a: CYTO, b: KPNB, color: '#7fd4ff', count: 240, spread: 0.5 }, { a: NUC.clone().add(V3(-1.5, 0, 0.5)), b: NUC.clone().add(V3(0.5, -1, 1)), color: '#b79aff', count: 160, spread: 0.5 }], mk: [S.nrfNuc] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: ['mito'], fl: [{ a: NUC.clone().add(V3(1.5, 1.5, 1.5)), b: MITO_A, color: '#51ff9e', count: 220, spread: 0.6 }, { a: MITO_A.clone().add(V3(-1.2, 0.8, 0)), b: MITO_A.clone().add(V3(1.2, -0.8, 0)), color: '#ffb347', count: 160, spread: 0.45 }], mk: [S.nrfMito, S.nrfNuc] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1, 0)), b: NRF_PER, color: '#51ff9e', count: 160, spread: 0.6 }, { a: MITO_A, b: CYTO, color: '#ff5a4d', count: 140, spread: 0.6 }], mk: [S.nrfMito, S.nrfPer, S.nrfNuc] },
+  ];
+  const SEN_GOLGI = V3(3.2, 2.8, -1.2);
+  const SASP_CAM = [
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-1.5, 1, 0.5)), b: NUC.clone().add(V3(1.5, -1, -0.5)), color: '#b79aff', count: 240, spread: 0.6 }], mk: [S.senNuc] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: NUC.clone().add(V3(0, -1, 1)), b: CYTO, color: '#ffc357', count: 220, spread: 0.5 }, { a: CYTO.clone().add(V3(-1.5, 1, 0)), b: CYTO.clone().add(V3(1.5, -1, 0)), color: '#ff8a5a', count: 180, spread: 0.6 }], mk: [S.senNuc] },
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['nucleus'], fl: [{ a: CYTO, b: NUC.clone().add(V3(0.5, 1, 0.5)), color: '#ff5a4d', count: 220, spread: 0.5 }, { a: NUC.clone().add(V3(-1, 0, 1)), b: CYTO.clone().add(V3(1, -1, 0)), color: '#f5a65b', count: 160, spread: 0.5 }], mk: [S.senNuc] },
+    { cam: [SEN_GOLGI.x + 2, SEN_GOLGI.y + 2, SEN_GOLGI.z + 10], tgt: SEN_GOLGI.toArray(), hi: ['golgi'], fl: [{ a: SEN_GOLGI, b: MEMB, color: '#7fd4a8', count: 260, spread: 0.5 }, { a: CYTO, b: MEMB, color: '#51ff9e', count: 160, spread: 0.5 }], mk: [S.senGolgi, S.senMem] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: MITO_A.clone().add(V3(-1.5, 1, 0)), b: MITO_A.clone().add(V3(1.5, -1, 0)), color: '#ffb347', count: 220, spread: 0.6 }, { a: MITO_A, b: CYTO, color: '#ff5a4d', count: 180, spread: 0.5 }], mk: [] },
+    { cam: [SEN_GOLGI.x + 2, SEN_GOLGI.y + 2, SEN_GOLGI.z + 10], tgt: SEN_GOLGI.toArray(), hi: ['golgi'], fl: [{ a: CYTO, b: MEMB, color: '#4ad6b5', count: 180, spread: 0.5 }, { a: MITO_A, b: CYTO, color: '#ff5a4d', count: 140, spread: 0.5 }], mk: [S.senGolgi, S.senMem] },
+  ];
+  const PROTO_CAM = [
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: CYTO, b: MITO_A, color: '#ff5a4d', count: 200, spread: 0.5 }, { a: MITO_A.clone().add(V3(-1.5, 1, 0)), b: MITO_A.clone().add(V3(1.5, -1, 0.5)), color: '#ffb347', count: 200, spread: 0.7 }], mk: [S.protoMito] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 10], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: EXTRA, b: CYTO, color: '#3ec9a7', count: 160, spread: 0.6 }, { a: CYTO, b: MITO_A, color: '#3ec9a7', count: 160, spread: 0.5 }, { a: mitos[4].position.clone(), b: NUC.clone().add(V3(1.5, 1.5, 1.5)), color: '#7fd4ff', count: 140, spread: 0.6 }, { a: CYTO, b: LYSO, color: '#4ad6b5', count: 120, spread: 0.5 }], mk: [S.protoMito] },
+    { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 9], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: CYTO.clone().add(V3(-1.5, 1, 0)), b: CYTO.clone().add(V3(1.5, -1, 0)), color: '#8a6ff0', count: 220, spread: 0.6 }, { a: CYTO, b: LYSO, color: '#ff5a4d', count: 160, spread: 0.5 }], mk: [S.protoLyso] },
+    { cam: [serBase.x + 2, serBase.y + 2, serBase.z + 10], tgt: serBase.toArray(), hi: ['ser'], fl: [{ a: serBase.clone().add(V3(-1.5, 1, 0)), b: CYTO, color: '#ffc357', count: 200, spread: 0.5 }, { a: CYTO, b: LYSO, color: '#51ff9e', count: 200, spread: 0.5 }], mk: [S.protoER, S.protoLyso] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: ['mito'], fl: [{ a: MITO_A.clone().add(V3(-1.2, 0.8, 0)), b: MITO_A.clone().add(V3(1.2, -0.8, 0)), color: '#ffb347', count: 200, spread: 0.45 }, { a: NUC.clone().add(V3(1.5, 1.5, 1.5)), b: MITO_A, color: '#b79aff', count: 140, spread: 0.6 }], mk: [S.protoMito] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: [], fl: [{ a: CYTO, b: MITO_A, color: '#51ff9e', count: 140, spread: 0.6 }, { a: MITO_A, b: CYTO, color: '#ff5a4d', count: 120, spread: 0.6 }, { a: CYTO, b: MEMB, color: '#51ff9e', count: 100, spread: 0.5 }], mk: [S.protoMito, S.protoER, S.protoLyso] },
+  ];
+  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM };
 
   /* ---- labels (projected HTML chips) ---- */
   const labelDefs = [
@@ -553,6 +728,31 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       { key: 'GLUT1/HK2', fn: () => S.fbzMem.position.toArray(), dx: -34 },
       { key: 'p53', fn: () => S.p53nuc.position.toArray(), dx: 28 },
     ],
+    auto: [
+      { key: 'mTORC1', fn: () => S.autoLyso.position.toArray(), dy: -14 },
+      { key: 'ULK1·Beclin1', fn: () => S.autoInit.position.toArray(), dy: -14 },
+      { key: 'TFEB', fn: () => S.autoTFEB.position.toArray(), dx: -28 },
+    ],
+    death: [
+      { key: 'BAX/BAK', fn: () => S.deathMito.position.toArray(), dy: -14 },
+      { key: 'MLKL', fn: () => S.deathMem.position.toArray(), dx: 30 },
+      { key: 'AIF', fn: () => S.deathNuc.position.toArray(), dx: 28 },
+    ],
+    redox: [
+      { key: 'ROS', fn: () => S.nrfMito.position.toArray(), dy: -14 },
+      { key: 'Catalase', fn: () => S.nrfPer.position.toArray(), dx: 30 },
+      { key: 'NRF2', fn: () => S.nrfNuc.position.toArray(), dx: -28 },
+    ],
+    sasp: [
+      { key: 'p21/p16', fn: () => S.senNuc.position.toArray(), dy: -14 },
+      { key: 'SASP', fn: () => S.senGolgi.position.toArray(), dy: -14 },
+      { key: 'CXCL12', fn: () => S.senMem.position.toArray(), dx: 30 },
+    ],
+    proto: [
+      { key: 'MB', fn: () => S.protoMito.position.toArray(), dy: -14 },
+      { key: 'AMM', fn: () => S.protoER.position.toArray(), dy: -14 },
+      { key: 'Rapamycin', fn: () => S.protoLyso.position.toArray(), dx: -28 },
+    ],
   };
   const stage = els.stage;
   function makeChip(text, tour) {
@@ -566,6 +766,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const adrenoChips = tourLabelDefs.adreno.map((l) => ({ l, el: makeChip(l.key, true) }));
   const sirtuinChips = tourLabelDefs.sirtuin.map((l) => ({ l, el: makeChip(l.key, true) }));
   const combiChips = tourLabelDefs.combi.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const autoChips = tourLabelDefs.auto.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const deathChips = tourLabelDefs.death.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const redoxChips = tourLabelDefs.redox.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const saspChips = tourLabelDefs.sasp.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const protoChips = tourLabelDefs.proto.map((l) => ({ l, el: makeChip(l.key, true) }));
   const PV = new THREE.Vector3();
   let showLabels = true, W = 800, H = 600;
   function placeChips(chips, active) {
@@ -623,7 +828,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       els.nav.style.display = 'flex';
       els.orgList.style.display = 'none';
       els.play.textContent = autoplay ? T.pause : T.play;
-      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi }[mode]} · ${stepIdx + 1}/${steps.length}`;
+      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto }[mode]} · ${stepIdx + 1}/${steps.length}`;
     }
   }
   function applyStep() {
@@ -633,6 +838,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     sirtuinMarkers.forEach((m) => { m.visible = mode === 'sirtuin' && (chore.mk || []).includes(m); });
     adrenoMarkers.forEach((m) => { m.visible = mode === 'adreno' && (chore.mk || []).includes(m); });
     combiMarkers.forEach((m) => { m.visible = mode === 'combi' && (chore.mk || []).includes(m); });
+    autoMarkers.forEach((m) => { m.visible = mode === 'auto' && (chore.mk || []).includes(m); });
+    deathMarkers.forEach((m) => { m.visible = mode === 'death' && (chore.mk || []).includes(m); });
+    redoxMarkers.forEach((m) => { m.visible = mode === 'redox' && (chore.mk || []).includes(m); });
+    saspMarkers.forEach((m) => { m.visible = mode === 'sasp' && (chore.mk || []).includes(m); });
+    protoMarkers.forEach((m) => { m.visible = mode === 'proto' && (chore.mk || []).includes(m); });
     rosLight.intensity = chore.ros || 0;
     rosPulse = !!chore.ros;
     pigment.visible = !!chore.pigment;
@@ -651,6 +861,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       sirtuinMarkers.forEach((mm) => { mm.visible = false; });
       adrenoMarkers.forEach((mm) => { mm.visible = false; });
       combiMarkers.forEach((mm) => { mm.visible = false; });
+      autoMarkers.forEach((mm) => { mm.visible = false; });
+      deathMarkers.forEach((mm) => { mm.visible = false; });
+      redoxMarkers.forEach((mm) => { mm.visible = false; });
+      saspMarkers.forEach((mm) => { mm.visible = false; });
+      protoMarkers.forEach((mm) => { mm.visible = false; });
       rosLight.intensity = 0; pigment.visible = false;
       mitoMat.emissive.setHex(0x5a2a00); mitoMat.emissiveIntensity = 0.45;
       flyTo([0, 7, 27], [0, 0, 0]);
@@ -806,7 +1021,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       v.m.position.lerpVectors(v.a, v.b, go);
     }
     mitos.forEach((m, i) => { m.scale.setScalar(1 + 0.02 * Math.sin(time * 1.4 + i * 1.7)); });
-    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers].forEach((m, i) => {
+    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers].forEach((m, i) => {
       if (m.visible) m.scale.setScalar(1 + 0.25 * Math.sin(time * 3.5 + i));
     });
     // tour highlight pulse
@@ -828,6 +1043,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     placeChips(adrenoChips, mode === 'adreno');
     placeChips(sirtuinChips, mode === 'sirtuin');
     placeChips(combiChips, mode === 'combi');
+    placeChips(autoChips, mode === 'auto');
+    placeChips(deathChips, mode === 'death');
+    placeChips(redoxChips, mode === 'redox');
+    placeChips(saspChips, mode === 'sasp');
+    placeChips(protoChips, mode === 'proto');
     updateScaleBar();
   }
   const restored = readHash();
