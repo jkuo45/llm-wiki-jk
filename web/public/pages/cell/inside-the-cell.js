@@ -61,13 +61,19 @@ const VLT = {
   'Tyrosine Hydroxylase': 'Tyrosine Hydroxylase', Iron: 'Iron',
   'Aromatic L-amino acid decarboxylase': 'Aromatic L-amino acid decarboxylase',
   'Lipid Peroxidation': 'Lipid Peroxidation',
+  COMT: 'COMT', Catechols: 'Catechols', Dopamine: 'Dopamine',
+  Norepinephrine: 'Norepinephrine', Epinephrine: 'Epinephrine',
+  'D1 receptor': 'D1 receptor', 'D2 receptor': 'D2 receptor', SAM: 'SAM',
+  'Methyl groups': 'Methyl groups', 'Prefrontal Cortex': 'Prefrontal Cortex',
+  Val158Met: 'Val158Met', Tolcapone: 'Tolcapone', Entacapone: 'Entacapone',
+  'Green tea': 'Green tea', Quercetin: 'Quercetin', Luteolin: 'Luteolin',
 };
 const vlink = (n) => `<a href="https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}" target="_blank" rel="noopener">[[${VLT[n] || n}]]</a>`;
 
 export const STR = {
   en: {
     tabExplore: 'Explore', tabAdreno: 'Adrenochrome pathway', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism', tabNM: 'Neuromelanin',
+    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism', tabNM: 'Neuromelanin', tabCOMT: 'COMT · Catechols',
     labels: 'Labels', rotate: 'Rotate', cutaway: 'Cutaway',
     stepOf: (a, b) => `Step ${a} of ${b}`, prev: '← Prev', next: 'Next →', play: '▶ Auto-play', pause: '⏸ Pause',
     exploreTitle: 'Cellular components', exploreBody: 'Click any structure in the cell — or a button below — to read its real size, job, and vault links. Drag to orbit, scroll to zoom, right-drag to pan.',
@@ -170,10 +176,18 @@ export const STR = {
       { t: 'Stored — pigment in lysosome granules', b: 'Polymerized neuromelanin is warehoused in lysosome-related granules — dark dots accumulating by the lysosome, reusing the Pathway tour’s pigment finale. There it chelates iron and soaks up quinones: protector while the cage holds.', legend: [['#3a3348', 'pigment granules'], ['#d9403b', 'lysosome warehouse']], vault: ['Neuromelanin', 'Lysosome', 'Iron'] },
       { t: 'When the cage breaks — Parkinson link', b: 'Overloaded or released neuromelanin flips from shield to trigger: iron spills feed lipid peroxidation, α-synuclein aggregates on pigment surfaces, and DJ-1 — the redox chaperone — is overwhelmed. The vault’s Parkinson docs place substantia nigra neurons exactly at this failure point.', legend: [['#ff5a4d', 'iron spill → peroxidation'], ['#b79aff', 'α-synuclein on pigment']], vault: ['Alpha-Synuclein Aggregation', 'DJ-1', "Parkinson's Disease", 'Lipid Peroxidation'] },
     ],
+    comtSteps: [
+      { t: 'Signal at the gate — catecholamines dock', b: 'Dopamine, norepinephrine and epinephrine act at membrane receptors — D1-like (excite) and D2-like (inhibit) — then must be cleared. Signaling is the job; lingering is the problem this tour solves.', legend: [['#51ff9e', 'catecholamine signal']], vault: ['Dopamine', 'Norepinephrine', 'Epinephrine', 'D1 receptor', 'D2 receptor'] },
+      { t: 'COMT methylates — the cytosolic off-switch', b: 'Catechol-O-methyltransferase transfers a methyl group from SAM (Mg²⁺-dependent) onto a catechol –OH, silencing it: dopamine → 3-methoxytyramine, norepinephrine → normetanephrine. Soluble COMT works here in the cytosol; membrane-bound COMT guards synapses.', legend: [['#ffc357', 'COMT methylation']], vault: ['COMT', 'Catechols', 'SAM', 'Methyl groups'] },
+      { t: 'MAO finishes — the mitochondrial exit', b: 'Monoamine oxidase on the mitochondrial outer membrane deaminates what COMT started (and vice versa) — ending in excretable acids. The same MAO whose H₂O₂ byproduct hits mitochondria in the Pathway tour is, day to day, the janitor of catecholamine clearance.', legend: [['#ff7a1a', 'MAO at mitochondria']], vault: ['MAO', 'Dopamine', 'Norepinephrine'] },
+      { t: 'The genotype dial — Val158Met', b: 'The vault’s COMT genotype docs: Val/Val clears dopamine 3–4× faster (resilient under stress, thinner prefrontal signal), Met/Met clears slowly (richer prefrontal dopamine, stress-fragile). Same enzyme, different tempo — prefrontal cortex lives closest to this dial.', legend: [['#b79aff', 'Val158Met tempo']], vault: ['Val158Met', 'COMT', 'Prefrontal Cortex'] },
+      { t: 'Brakes and polyphenols — inhibitors in the vault', b: 'Parkinson drugs tolcapone and entacapone (plus opicapone) brake COMT to stretch L-DOPA; green-tea catechins, quercetin and luteolin mildly inhibit it in the vault’s supplement docs — the genotype-optimization angle the COMT notes are built around.', legend: [['#8a6ff0', 'COMT inhibitors'], ['#4ad6b5', 'polyphenol modulators']], vault: ['Tolcapone', 'Entacapone', 'Green tea', 'Quercetin', 'Luteolin'] },
+      { t: 'When clearance fails — quinone spillover', b: 'Catechols that escape COMT + MAO oxidize into o-quinones — the on-ramp to both the Pathway tour (adrenaline → adrenochrome) and the Neuromelanin tour (dopamine → pigment). Clearance is what keeps signaling molecules from becoming quinone chemistry.', legend: [['#ff5a4d', 'quinone spillover'], ['#9a7bd0', '→ pigment paths']], vault: ['Dopamine o-quinone', 'Adrenochrome', 'Neuromelanin'] },
+    ],
   },
   zh: {
     tabExplore: '探索', tabAdreno: '腎上腺色素路徑', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝', tabNM: '神經黑色素',
+    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝', tabNM: '神經黑色素', tabCOMT: 'COMT · 兒茶酚',
     labels: '標籤', rotate: '旋轉', cutaway: '剖面',
     stepOf: (a, b) => `步驟 ${a} / ${b}`, prev: '← 上一步', next: '下一步 →', play: '▶ 自動播放', pause: '⏸ 暫停',
     exploreTitle: '細胞組件', exploreBody: '點擊細胞中的任何結構（或下方按鈕），查看其真實尺寸、功能與知識庫連結。可拖曳旋轉、滾輪縮放、右鍵平移。',
@@ -276,6 +290,14 @@ export const STR = {
       { t: '入庫——溶酶體顆粒中的色素', b: '聚合的神經黑色素存入溶酶體相關顆粒——深色圓點在溶酶體旁累積，重演路徑導覽的色素結局。在籠子完好時，它螯合鐵、吸附醌類：稱職的守衛。', legend: [['#3a3348', '色素顆粒'], ['#d9403b', '溶酶體倉庫']], vault: ['Neuromelanin', 'Lysosome', 'Iron'] },
       { t: '籠破之時——帕金森連結', b: '超載或外洩的神經黑色素由盾轉為觸發器：鐵外溢餵養脂質過氧化，α-突觸核蛋白在色素表面聚集，氧化還原伴侶 DJ-1 被淹沒。知識庫的帕金森文件把黑質神經元放在正是這個失效點。', legend: [['#ff5a4d', '鐵外溢 → 過氧化'], ['#b79aff', '色素上的 α-突觸核蛋白']], vault: ['Alpha-Synuclein Aggregation', 'DJ-1', "Parkinson's Disease", 'Lipid Peroxidation'] },
     ],
+    comtSteps: [
+      { t: '門口的訊號——兒茶酚胺靠岸', b: '多巴胺、正腎上腺素與腎上腺素作用於膜受體——D1 類（興奮）與 D2 類（抑制）——然後必須被清除。傳訊是工作；滯留是本導覽要解決的問題。', legend: [['#51ff9e', '兒茶酚胺訊號']], vault: ['Dopamine', 'Norepinephrine', 'Epinephrine', 'D1 receptor', 'D2 receptor'] },
+      { t: 'COMT 甲基化——胞質的關閉開關', b: '兒茶酚-O-甲基轉移酶把 SAM 上的甲基（需 Mg²⁺）轉到兒茶酚的 –OH 上，使其靜默：多巴胺 → 3-甲氧基酪胺，正腎上腺素 → 去甲變腎上腺素。可溶性 COMT 在胞質工作；膜結合型守衛突觸。', legend: [['#ffc357', 'COMT 甲基化']], vault: ['COMT', 'Catechols', 'SAM', 'Methyl groups'] },
+      { t: 'MAO 收尾——粒線體的出口', b: '粒線體外膜的單胺氧化酶把 COMT 開的頭（反之亦然）脫氨收尾——終成可排出的酸。路徑導覽中以 H₂O₂ 副產打擊粒線體的那個 MAO，平日正是兒茶酚胺清除的清潔工。', legend: [['#ff7a1a', '粒線體上的 MAO']], vault: ['MAO', 'Dopamine', 'Norepinephrine'] },
+      { t: '基因型轉盤——Val158Met', b: '知識庫的 COMT 基因型文件：Val/Val 清除多巴胺快 3–4 倍（抗壓韌、前額葉訊號較薄），Met/Met 清得慢（前額葉多巴胺較濃、壓力下較脆）。同一種酶，不同節奏——前額葉皮質離這個轉盤最近。', legend: [['#b79aff', 'Val158Met 節奏']], vault: ['Val158Met', 'COMT', 'Prefrontal Cortex'] },
+      { t: '煞車與多酚——知識庫中的抑制劑', b: '帕金森藥物 tolcapone 與 entacapone（加 opicapone）煞停 COMT 以延長 L-DOPA；綠茶兒茶素、槲皮素與木犀草素在補充品文件中有輕度抑制——正是 COMT 筆記圍繞的基因型優化角度。', legend: [['#8a6ff0', 'COMT 抑制劑'], ['#4ad6b5', '多酚調節']], vault: ['Tolcapone', 'Entacapone', 'Green tea', 'Quercetin', 'Luteolin'] },
+      { t: '清除失效時——醌外溢', b: '逃過 COMT＋MAO 的兒茶酚氧化成鄰醌——通往路徑導覽（腎上腺素 → 腎上腺色素）與神經黑色素導覽（多巴胺 → 色素）的匝道。清除正是讓訊號分子免於淪為醌化學的原因。', legend: [['#ff5a4d', '醌外溢'], ['#9a7bd0', '→ 色素路徑']], vault: ['Dopamine o-quinone', 'Adrenochrome', 'Neuromelanin'] },
+    ],
   },
 };
 
@@ -294,6 +316,7 @@ const TOURS = {
   proto: { steps: 'protoSteps', markers: 'proto' },
   metab: { steps: 'metabSteps', markers: 'metab' },
   nm: { steps: 'nmSteps', markers: 'nm' },
+  comt: { steps: 'comtSteps', markers: 'comt' },
 };
 
 /* ============================== scene setup ============================== */
@@ -613,6 +636,9 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     nmCyto: marker(0xffe14d, V3(2.2, 0.2, 3.2), 0.26),
     nmMem: marker(0x7fd4ff, V3(7.5, -2.5, 5.5).setLength(9.4), 0.26),
     nmLyso: marker(0x9a7bd0, V3(-0.5, 3.6, 2.6), 0.26),
+    comtMem: marker(0x51ff9e, V3(7.5, -2.5, 5.5).setLength(9.4), 0.26),
+    comtCyto: marker(0xffc357, V3(2.2, 0.2, 3.2), 0.26),
+    comtMito: marker(0xff7a1a, mitos[0].position.clone(), 0.26),
   };
   const sirtuinMarkers = [S.s1, S.s2, S.s3, S.s4, S.s5, S.s6, S.s7];
   const adrenoMarkers = [S.mao, S.nqo1];
@@ -624,6 +650,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const protoMarkers = [S.protoMito, S.protoER, S.protoLyso];
   const metabMarkers = [S.metMem, S.metCyto, S.metMito];
   const nmMarkers = [S.nmCyto, S.nmMem, S.nmLyso];
+  const comtMarkers = [S.comtMem, S.comtCyto, S.comtMito];
 
   /* ---- flow particle pool (tour molecule traffic) ---- */
   const FN = 700;
@@ -764,7 +791,15 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 10], tgt: LYSO.toArray(), hi: ['lysosome'], pigment: true, fl: [{ a: CYTO, b: LYSO, color: '#9a7bd0', count: 300, spread: 0.5 }], mk: [S.nmLyso] },
     { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 9], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: LYSO.clone().add(V3(-1.5, 1, 0)), b: LYSO.clone().add(V3(1.5, -1, 0.5)), color: '#ff5a4d', count: 240, spread: 0.6 }, { a: CYTO, b: LYSO, color: '#b79aff', count: 160, spread: 0.5 }], mk: [S.nmLyso] },
   ];
-  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM, nm: NM_CAM };
+  const COMT_CAM = [
+    { cam: [MEMB.x + 2, MEMB.y + 2, MEMB.z + 10], tgt: MEMB.toArray(), hi: ['membrane'], fl: [{ a: EXTRA.clone().add(V3(2, -3, -1)), b: MEMB, color: '#51ff9e', count: 240, spread: 0.5 }], mk: [S.comtMem] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1.5, 0)), b: CYTO.clone().add(V3(2, -1.5, 0)), color: '#ffc357', count: 260, spread: 0.6 }], mk: [S.comtCyto] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: CYTO, b: MITO_A, color: '#ff7a1a', count: 240, spread: 0.5 }], mk: [S.comtMito, S.comtCyto] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-1.5, 1, 0)), b: CYTO.clone().add(V3(1.5, -1, 0)), color: '#b79aff', count: 220, spread: 0.6 }], mk: [S.comtCyto] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: EXTRA, b: CYTO, color: '#8a6ff0', count: 160, spread: 0.6 }, { a: CYTO.clone().add(V3(-1, -1, 1)), b: CYTO.clone().add(V3(1, 1, -1)), color: '#4ad6b5', count: 160, spread: 0.6 }], mk: [S.comtCyto, S.comtMem] },
+    { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 10], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: CYTO, b: MITO_A, color: '#ff5a4d', count: 180, spread: 0.5 }, { a: CYTO, b: LYSO, color: '#9a7bd0', count: 200, spread: 0.5 }], mk: [S.comtMito, S.comtCyto] },
+  ];
+  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM, nm: NM_CAM, comt: COMT_CAM };
 
   /* ---- labels (projected HTML chips) ---- */
   const labelDefs = [
@@ -838,6 +873,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       { key: 'DAT', fn: () => S.nmMem.position.toArray(), dx: 30 },
       { key: 'Pigment', fn: () => S.nmLyso.position.toArray(), dy: -14 },
     ],
+    comt: [
+      { key: 'D1/D2', fn: () => S.comtMem.position.toArray(), dx: 30 },
+      { key: 'COMT', fn: () => S.comtCyto.position.toArray(), dy: -14 },
+      { key: 'MAO', fn: () => S.comtMito.position.toArray(), dy: -14 },
+    ],
   };
   const stage = els.stage;
   function makeChip(text, tour) {
@@ -858,6 +898,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const protoChips = tourLabelDefs.proto.map((l) => ({ l, el: makeChip(l.key, true) }));
   const metabChips = tourLabelDefs.metab.map((l) => ({ l, el: makeChip(l.key, true) }));
   const nmChips = tourLabelDefs.nm.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const comtChips = tourLabelDefs.comt.map((l) => ({ l, el: makeChip(l.key, true) }));
   const PV = new THREE.Vector3();
   let showLabels = true, W = 800, H = 600;
   function placeChips(chips, active) {
@@ -915,7 +956,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       els.nav.style.display = 'flex';
       els.orgList.style.display = 'none';
       els.play.textContent = autoplay ? T.pause : T.play;
-      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM }[mode]} · ${stepIdx + 1}/${steps.length}`;
+      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM, comt: T.tabCOMT }[mode]} · ${stepIdx + 1}/${steps.length}`;
     }
   }
   function applyStep() {
@@ -932,6 +973,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     protoMarkers.forEach((m) => { m.visible = mode === 'proto' && (chore.mk || []).includes(m); });
     metabMarkers.forEach((m) => { m.visible = mode === 'metab' && (chore.mk || []).includes(m); });
     nmMarkers.forEach((m) => { m.visible = mode === 'nm' && (chore.mk || []).includes(m); });
+    comtMarkers.forEach((m) => { m.visible = mode === 'comt' && (chore.mk || []).includes(m); });
     rosLight.intensity = chore.ros || 0;
     rosPulse = !!chore.ros;
     pigment.visible = !!chore.pigment;
@@ -957,6 +999,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       protoMarkers.forEach((mm) => { mm.visible = false; });
       metabMarkers.forEach((mm) => { mm.visible = false; });
       nmMarkers.forEach((mm) => { mm.visible = false; });
+      comtMarkers.forEach((mm) => { mm.visible = false; });
       rosLight.intensity = 0; pigment.visible = false;
       mitoMat.emissive.setHex(0x5a2a00); mitoMat.emissiveIntensity = 0.45;
       flyTo([0, 7, 27], [0, 0, 0]);
@@ -1112,7 +1155,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       v.m.position.lerpVectors(v.a, v.b, go);
     }
     mitos.forEach((m, i) => { m.scale.setScalar(1 + 0.02 * Math.sin(time * 1.4 + i * 1.7)); });
-    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers, ...nmMarkers].forEach((m, i) => {
+    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers, ...nmMarkers, ...comtMarkers].forEach((m, i) => {
       if (m.visible) m.scale.setScalar(1 + 0.25 * Math.sin(time * 3.5 + i));
     });
     // tour highlight pulse
@@ -1141,6 +1184,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     placeChips(protoChips, mode === 'proto');
     placeChips(metabChips, mode === 'metab');
     placeChips(nmChips, mode === 'nm');
+    placeChips(comtChips, mode === 'comt');
     updateScaleBar();
   }
   const restored = readHash();
