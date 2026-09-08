@@ -324,17 +324,17 @@
         }
     },
     {
-        "id": "cell-death-animations",
+        "id": "cell-death-comparison-animations",
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Cell Death Animations [three.js]",
+                "title": "Cell Death Comparison [three.js]",
                 "path": "pages/en-US/cell-death-animations.html",
                 "created": "2026-09-07",
                 "updated": "2026-09-07"
             },
             "zh-TW": {
-                "title": "細胞死亡動畫 [three.js]",
+                "title": "細胞死亡對比 [three.js]",
                 "path": "pages/zh-TW/cell-death-animations.html",
                 "created": "2026-09-07",
                 "updated": "2026-09-07"
