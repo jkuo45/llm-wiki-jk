@@ -45,13 +45,19 @@ const VLT = {
   Resveratrol: 'Resveratrol', Creatine: 'Creatine',
   Aminoguanidine: 'Aminoguanidine', Carnosine: 'Carnosine', GlyNAC: 'GlyNAC',
   Methemoglobinemia: 'Methemoglobinemia', G6PD: 'G6PD',
+  Lactate: 'Lactate', Pyruvate: 'Pyruvate', PDK1: 'PDK1', 'HIF-1α': 'HIF-1α',
+  'c-Myc': 'c-Myc', AMPK: 'AMPK', 'Acetyl-CoA': 'Acetyl-CoA',
+  'TCA cycle': 'TCA cycle', 'Oxidative Phosphorylation': 'Oxidative Phosphorylation',
+  'Complex I': 'Complex I', Glutamine: 'Glutamine',
+  'Fatty acid oxidation': 'Fatty acid oxidation',
+  '2-deoxy-D-glucose': '2-deoxy-D-glucose',
 };
 const vlink = (n) => `<a href="https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}" target="_blank" rel="noopener">[[${VLT[n] || n}]]</a>`;
 
 export const STR = {
   en: {
     tabExplore: 'Explore', tabAdreno: 'Adrenochrome pathway', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]',
+    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism',
     labels: 'Labels', rotate: 'Rotate', cutaway: 'Cutaway',
     stepOf: (a, b) => `Step ${a} of ${b}`, prev: '← Prev', next: 'Next →', play: '▶ Auto-play', pause: '⏸ Pause',
     exploreTitle: 'Cellular components', exploreBody: 'Click any structure in the cell — or a button below — to read its real size, job, and vault links. Drag to orbit, scroll to zoom, right-drag to pan.',
@@ -138,10 +144,18 @@ export const STR = {
       { t: 'Counter-defense — the SIRT3/MnSOD axis [speculative]', b: 'The vault’s sirtuin trace: adrenochrome never touches sirtuins directly — it feeds the oxidative-stress field while sirtuins defend from the other side. SIRT3 deacetylates MnSOD to quench the very superoxide the trigger makes; the SIRT3/SIRT4 ratio sets the hormetic window width. Bridge back to the Sirtuins tour.', legend: [['#ffb347', 'SIRT3 → MnSOD'], ['#b79aff', 'SIRT1/PGC-1α backup']], vault: ['SIRT3', 'MnSOD', 'SIRT1', 'Mitophagy'] },
       { t: 'The window — why this is 8/10 hard [speculative]', b: 'Inverted-U, not a plateau: 50–500 nM pulsed is hormetic, µM+ sustained is ferroptosis, methemoglobinemia and cardiomyopathy. Guardrails from the vault: G6PD screening, co-oximetry, HRV gating, IV NAD+ preference, MB + SSRI serotonin risk, oral-AG histamine risk. Hypothesis only — not clinical.', legend: [['#51ff9e', 'window — adaptation'], ['#ff5a4d', 'overshoot — damage']], vault: ['Mitohormesis', 'Methemoglobinemia', 'G6PD', 'Ferroptosis'] },
     ],
+    metabSteps: [
+      { t: 'Sugar in — GLUT1 at the membrane', b: 'Glucose enters through GLUT1 transporters studding the plasma membrane. Cancer cells hang more doors: GLUT1 overexpression is the front gate of the Warburg effect in the vault — and the gate fenbendazole slams shut in the IVM × FBZ tour.', legend: [['#51ff9e', 'glucose entry']], vault: ['GLUT1', 'Warburg Effect'] },
+      { t: 'The split — glycolysis in the cytosol', b: 'Hexokinase 2 traps glucose by phosphorylation, and ten glycolytic steps net 2 ATP plus pyruvate. Fast but wasteful — the cytosol can run this without a single mitochondrion, which is exactly the point of the next step.', legend: [['#ffc357', 'glycolysis → pyruvate']], vault: ['Hexokinase 2', 'Pyruvate', 'Lactate'] },
+      { t: 'The Warburg switch — ferment despite oxygen', b: 'HIF-1α (even in normoxia) plus MYC drive glycolytic genes while PDK1 blocks pyruvate entry to mitochondria; p53 loss removes the brakes. Pyruvate ferments to lactate and exits — aerobic glycolysis feeding NAD+ recycling and biosynthesis, not efficiency.', legend: [['#f5a65b', 'lactate export'], ['#8a6ff0', 'HIF-1α/MYC program']], vault: ['HIF-1α', 'PDK1', 'c-Myc', 'p53', 'Warburg Effect'] },
+      { t: 'The engine — TCA + oxidative phosphorylation', b: 'Pyruvate that does enter is decarboxylated to acetyl-CoA and burned in the TCA cycle; NADH feeds Complex I and the chain pays ~30 ATP per glucose. The vault’s MYC-high breast cancer doc runs this engine on glutamine when glucose is gone.', legend: [['#7fd4ff', 'pyruvate → mitochondria'], ['#ffb347', 'TCA → OXPHOS']], vault: ['Acetyl-CoA', 'TCA cycle', 'Oxidative Phosphorylation', 'Complex I'] },
+      { t: 'Backup fuels — glutamine, fat, creatine', b: 'Glutamine refills TCA carbon (glutaminolysis), fatty-acid oxidation feeds acetyl-CoA straight in, and the creatine shuttle buffers ATP spikes. Three spare tanks the vault documents across cancer, fasting and exercise notes.', legend: [['#4ad6b5', 'glutamine + FAO inflow'], ['#b79aff', 'creatine buffer']], vault: ['Glutamine', 'Fatty acid oxidation', 'Creatine'] },
+      { t: 'The brake — AMPK/mTOR + the 2-DG choke', b: 'Low energy trips AMPK, which brakes mTOR and rations growth — the fasting/exercise sensor from the Autophagy tour. 2-deoxy-D-glucose jams glycolysis at hexokinase in the vault; the IVM × FBZ tour weaponizes the same choke with GLUT1/HK2 blockade.', legend: [['#4ad6b5', 'AMPK brake'], ['#ff5a4d', '2-DG glycolysis jam']], vault: ['AMPK', 'mTOR', '2-deoxy-D-glucose', 'Warburg Effect'] },
+    ],
   },
   zh: {
     tabExplore: '探索', tabAdreno: '腎上腺色素路徑', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］',
+    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝',
     labels: '標籤', rotate: '旋轉', cutaway: '剖面',
     stepOf: (a, b) => `步驟 ${a} / ${b}`, prev: '← 上一步', next: '下一步 →', play: '▶ 自動播放', pause: '⏸ 暫停',
     exploreTitle: '細胞組件', exploreBody: '點擊細胞中的任何結構（或下方按鈕），查看其真實尺寸、功能與知識庫連結。可拖曳旋轉、滾輪縮放、右鍵平移。',
@@ -228,6 +242,14 @@ export const STR = {
       { t: '反防禦——SIRT3/MnSOD 軸［假說］', b: '知識庫的 sirtuin 追蹤：腎上腺色素從不直連 sirtuin——它餵養氧化壓力場，sirtuin 在另一側防禦。SIRT3 去乙醯化 MnSOD，淬滅觸發器製造的超氧；SIRT3/SIRT4 比值決定毒物興奮窗口寬度。回到 Sirtuins 導覽的橋。', legend: [['#ffb347', 'SIRT3 → MnSOD'], ['#b79aff', 'SIRT1/PGC-1α 備援']], vault: ['SIRT3', 'MnSOD', 'SIRT1', 'Mitophagy'] },
       { t: '窗口——為何難度 8/10［假說］', b: '倒 U 形而非平台：50–500 nM 脈衝是毒物興奮，µM+ 持續則是鐵死亡、變性血紅素血症與心肌病。知識庫的護欄：G6PD 篩檢、碳氧血紅素監測、HRV 閘門、IV NAD+ 優先、MB＋SSRI 血清素風險、口服 AG 組織胺風險。純屬假說——非臨床。', legend: [['#51ff9e', '窗口——適應'], ['#ff5a4d', '超標——損傷']], vault: ['Mitohormesis', 'Methemoglobinemia', 'G6PD', 'Ferroptosis'] },
     ],
+    metabSteps: [
+      { t: '糖進來——膜上的 GLUT1', b: '葡萄糖經細胞膜上的 GLUT1 轉運蛋白進入。癌細胞掛更多的門：GLUT1 過度表現是知識庫中瓦伯格效應的前門——也是 IVM × FBZ 導覽裡芬苯達唑關上的那扇門。', legend: [['#51ff9e', '葡萄糖進入']], vault: ['GLUT1', 'Warburg Effect'] },
+      { t: '分流——胞質中的糖解', b: '己糖激酶 2 以磷酸化留住葡萄糖，十步糖解淨得 2 ATP 與丙酮酸。快而浪費——胞質不靠任何粒線體也能跑，這正是下一步的重點。', legend: [['#ffc357', '糖解 → 丙酮酸']], vault: ['Hexokinase 2', 'Pyruvate', 'Lactate'] },
+      { t: '瓦伯格開關——有氧也發酵', b: 'HIF-1α（即使不缺氧）加 MYC 推動糖解基因，PDK1 阻斷丙酮酸進粒線體，p53 缺失拆掉煞車。丙酮酸發酵成乳酸排出——有氧糖解餵養 NAD+ 再生與生物合成，而非效率。', legend: [['#f5a65b', '乳酸排出'], ['#8a6ff0', 'HIF-1α/MYC 程式']], vault: ['HIF-1α', 'PDK1', 'c-Myc', 'p53', 'Warburg Effect'] },
+      { t: '引擎——TCA＋氧化磷酸化', b: '進得去的丙酮酸脫羧成乙醯輔酶 A，在 TCA 循環燃燒；NADH 餵給複合體 I，電子鏈每葡萄糖支付約 30 ATP。知識庫中 MYC-high 乳癌文件在缺糖時用麩醯胺酸跑這具引擎。', legend: [['#7fd4ff', '丙酮酸 → 粒線體'], ['#ffb347', 'TCA → OXPHOS']], vault: ['Acetyl-CoA', 'TCA cycle', 'Oxidative Phosphorylation', 'Complex I'] },
+      { t: '備用燃料——麩醯胺酸、脂肪、肌酸', b: '麩醯胺酸補充 TCA 碳骨架（麩醯胺酸分解），脂肪酸氧化直送乙醯輔酶 A，肌酸穿梭緩衝 ATP 尖峰。知識庫橫跨癌症、禁食與運動筆記的三個備用油箱。', legend: [['#4ad6b5', '麩醯胺酸＋FAO 流入'], ['#b79aff', '肌酸緩衝']], vault: ['Glutamine', 'Fatty acid oxidation', 'Creatine'] },
+      { t: '煞車——AMPK/mTOR＋2-DG 扼喉', b: '能量低落觸發 AMPK，煞停 mTOR、配給生長——自噬導覽中的禁食／運動感測器。知識庫中 2-脫氧葡萄糖在己糖激酶處卡住糖解；IVM × FBZ 導覽以 GLUT1/HK2 封鎖武器化同一招。', legend: [['#4ad6b5', 'AMPK 煞車'], ['#ff5a4d', '2-DG 卡住糖解']], vault: ['AMPK', 'mTOR', '2-deoxy-D-glucose', 'Warburg Effect'] },
+    ],
   },
 };
 
@@ -244,6 +266,7 @@ const TOURS = {
   redox: { steps: 'redoxSteps', markers: 'redox' },
   sasp: { steps: 'saspSteps', markers: 'sasp' },
   proto: { steps: 'protoSteps', markers: 'proto' },
+  metab: { steps: 'metabSteps', markers: 'metab' },
 };
 
 /* ============================== scene setup ============================== */
@@ -557,6 +580,9 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     protoMito: marker(0x3ec9a7, mitos[0].position.clone(), 0.26),
     protoER: marker(0xffc357, V3(4.2, -0.6, 1.6), 0.26),
     protoLyso: marker(0x8a6ff0, V3(-0.5, 3.6, 2.6), 0.26),
+    metMem: marker(0x51ff9e, V3(-6, 3, 6).setLength(9.4), 0.26),
+    metCyto: marker(0xffc357, V3(2.2, 0.2, 3.2), 0.26),
+    metMito: marker(0xffb347, mitos[0].position.clone(), 0.26),
   };
   const sirtuinMarkers = [S.s1, S.s2, S.s3, S.s4, S.s5, S.s6, S.s7];
   const adrenoMarkers = [S.mao, S.nqo1];
@@ -566,6 +592,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const redoxMarkers = [S.nrfMito, S.nrfPer, S.nrfNuc];
   const saspMarkers = [S.senNuc, S.senGolgi, S.senMem];
   const protoMarkers = [S.protoMito, S.protoER, S.protoLyso];
+  const metabMarkers = [S.metMem, S.metCyto, S.metMito];
 
   /* ---- flow particle pool (tour molecule traffic) ---- */
   const FN = 700;
@@ -689,7 +716,16 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { cam: [0, 7, 27], tgt: [0, 0, 0], hi: ['mito'], fl: [{ a: MITO_A.clone().add(V3(-1.2, 0.8, 0)), b: MITO_A.clone().add(V3(1.2, -0.8, 0)), color: '#ffb347', count: 200, spread: 0.45 }, { a: NUC.clone().add(V3(1.5, 1.5, 1.5)), b: MITO_A, color: '#b79aff', count: 140, spread: 0.6 }], mk: [S.protoMito] },
     { cam: [0, 7, 27], tgt: [0, 0, 0], hi: [], fl: [{ a: CYTO, b: MITO_A, color: '#51ff9e', count: 140, spread: 0.6 }, { a: MITO_A, b: CYTO, color: '#ff5a4d', count: 120, spread: 0.6 }, { a: CYTO, b: MEMB, color: '#51ff9e', count: 100, spread: 0.5 }], mk: [S.protoMito, S.protoER, S.protoLyso] },
   ];
-  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM };
+  const MET_GLUT = V3(-6, 3, 6).setLength(9.4);
+  const METAB_CAM = [
+    { cam: [MET_GLUT.x + 2, MET_GLUT.y + 2, MET_GLUT.z + 10], tgt: MET_GLUT.toArray(), hi: ['membrane'], fl: [{ a: EXTRA, b: CYTO, color: '#51ff9e', count: 260, spread: 0.6 }], mk: [S.metMem] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO.clone().add(V3(-2, 1.5, 0)), b: CYTO.clone().add(V3(2, -1.5, 0)), color: '#ffc357', count: 280, spread: 0.7 }], mk: [S.metCyto] },
+    { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: CYTO, b: MET_GLUT, color: '#f5a65b', count: 220, spread: 0.5 }, { a: CYTO.clone().add(V3(-1.5, 1, 0)), b: CYTO.clone().add(V3(1.5, -1, 0)), color: '#8a6ff0', count: 160, spread: 0.6 }], mk: [S.metCyto, S.metMem] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: CYTO, b: MITO_A, color: '#7fd4ff', count: 240, spread: 0.5 }, { a: MITO_A.clone().add(V3(-1.2, 0.8, 0)), b: MITO_A.clone().add(V3(1.2, -0.8, 0)), color: '#ffb347', count: 200, spread: 0.5 }], mk: [S.metMito] },
+    { cam: [MITO_A.x + 3, MITO_A.y + 2.5, MITO_A.z + 9], tgt: MITO_A.toArray(), hi: ['mito'], fl: [{ a: CYTO.clone().add(V3(1, 1, -1)), b: MITO_A, color: '#4ad6b5', count: 200, spread: 0.5 }, { a: NUC.clone().add(V3(1.5, 1.5, 1.5)), b: MITO_A, color: '#b79aff', count: 120, spread: 0.6 }], mk: [S.metMito, S.metCyto] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: [], fl: [{ a: EXTRA, b: CYTO, color: '#51ff9e', count: 140, spread: 0.6 }, { a: CYTO, b: MITO_A, color: '#7fd4ff', count: 140, spread: 0.5 }, { a: CYTO.clone().add(V3(-1, 0, 1)), b: CYTO.clone().add(V3(1, 0, -1)), color: '#ff5a4d', count: 120, spread: 0.6 }], mk: [S.metMem, S.metCyto, S.metMito] },
+  ];
+  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM };
 
   /* ---- labels (projected HTML chips) ---- */
   const labelDefs = [
@@ -753,6 +789,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       { key: 'AMM', fn: () => S.protoER.position.toArray(), dy: -14 },
       { key: 'Rapamycin', fn: () => S.protoLyso.position.toArray(), dx: -28 },
     ],
+    metab: [
+      { key: 'GLUT1', fn: () => S.metMem.position.toArray(), dx: 30 },
+      { key: 'Glycolysis', fn: () => S.metCyto.position.toArray(), dy: -14 },
+      { key: 'TCA·OXPHOS', fn: () => S.metMito.position.toArray(), dy: -14 },
+    ],
   };
   const stage = els.stage;
   function makeChip(text, tour) {
@@ -771,6 +812,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const redoxChips = tourLabelDefs.redox.map((l) => ({ l, el: makeChip(l.key, true) }));
   const saspChips = tourLabelDefs.sasp.map((l) => ({ l, el: makeChip(l.key, true) }));
   const protoChips = tourLabelDefs.proto.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const metabChips = tourLabelDefs.metab.map((l) => ({ l, el: makeChip(l.key, true) }));
   const PV = new THREE.Vector3();
   let showLabels = true, W = 800, H = 600;
   function placeChips(chips, active) {
@@ -828,7 +870,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       els.nav.style.display = 'flex';
       els.orgList.style.display = 'none';
       els.play.textContent = autoplay ? T.pause : T.play;
-      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto }[mode]} · ${stepIdx + 1}/${steps.length}`;
+      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab }[mode]} · ${stepIdx + 1}/${steps.length}`;
     }
   }
   function applyStep() {
@@ -843,6 +885,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     redoxMarkers.forEach((m) => { m.visible = mode === 'redox' && (chore.mk || []).includes(m); });
     saspMarkers.forEach((m) => { m.visible = mode === 'sasp' && (chore.mk || []).includes(m); });
     protoMarkers.forEach((m) => { m.visible = mode === 'proto' && (chore.mk || []).includes(m); });
+    metabMarkers.forEach((m) => { m.visible = mode === 'metab' && (chore.mk || []).includes(m); });
     rosLight.intensity = chore.ros || 0;
     rosPulse = !!chore.ros;
     pigment.visible = !!chore.pigment;
@@ -866,6 +909,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       redoxMarkers.forEach((mm) => { mm.visible = false; });
       saspMarkers.forEach((mm) => { mm.visible = false; });
       protoMarkers.forEach((mm) => { mm.visible = false; });
+      metabMarkers.forEach((mm) => { mm.visible = false; });
       rosLight.intensity = 0; pigment.visible = false;
       mitoMat.emissive.setHex(0x5a2a00); mitoMat.emissiveIntensity = 0.45;
       flyTo([0, 7, 27], [0, 0, 0]);
@@ -1021,7 +1065,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       v.m.position.lerpVectors(v.a, v.b, go);
     }
     mitos.forEach((m, i) => { m.scale.setScalar(1 + 0.02 * Math.sin(time * 1.4 + i * 1.7)); });
-    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers].forEach((m, i) => {
+    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers].forEach((m, i) => {
       if (m.visible) m.scale.setScalar(1 + 0.25 * Math.sin(time * 3.5 + i));
     });
     // tour highlight pulse
@@ -1048,6 +1092,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     placeChips(redoxChips, mode === 'redox');
     placeChips(saspChips, mode === 'sasp');
     placeChips(protoChips, mode === 'proto');
+    placeChips(metabChips, mode === 'metab');
     updateScaleBar();
   }
   const restored = readHash();
