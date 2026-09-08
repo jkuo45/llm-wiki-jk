@@ -67,13 +67,18 @@ const VLT = {
   'Methyl groups': 'Methyl groups', 'Prefrontal Cortex': 'Prefrontal Cortex',
   Val158Met: 'Val158Met', Tolcapone: 'Tolcapone', Entacapone: 'Entacapone',
   'Green tea': 'Green tea', Quercetin: 'Quercetin', Luteolin: 'Luteolin',
+  OSKM: 'OSKM', Oct4: 'Oct4', Sox2: 'Sox2', Klf4: 'Klf4',
+  'Partial Reprogramming': 'Partial Reprogramming',
+  'Cellular Reprogramming': 'Cellular Reprogramming',
+  'Epigenetic Clock': 'Epigenetic Clock', H3K9me3: 'H3K9me3',
+  Reprogramming: 'Reprogramming',
 };
 const vlink = (n) => `<a href="https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}" target="_blank" rel="noopener">[[${VLT[n] || n}]]</a>`;
 
 export const STR = {
   en: {
     tabExplore: 'Explore', tabAdreno: 'Adrenochrome pathway', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism', tabNM: 'Neuromelanin', tabCOMT: 'COMT · Catechols',
+    tabCombi: 'IVM × FBZ cancer trace', tabAuto: 'Autophagy', tabDeath: 'Cell Death', tabRedox: 'Nrf2 · Hormesis', tabSASP: 'Senescence · SASP', tabProto: 'MB/AG Protocol [speculative]', tabMetab: 'Warburg · Metabolism', tabNM: 'Neuromelanin', tabCOMT: 'COMT · Catechols', tabOSKM: 'OSKM · Reprogramming',
     labels: 'Labels', rotate: 'Rotate', cutaway: 'Cutaway',
     stepOf: (a, b) => `Step ${a} of ${b}`, prev: '← Prev', next: 'Next →', play: '▶ Auto-play', pause: '⏸ Pause',
     exploreTitle: 'Cellular components', exploreBody: 'Click any structure in the cell — or a button below — to read its real size, job, and vault links. Drag to orbit, scroll to zoom, right-drag to pan.',
@@ -184,10 +189,18 @@ export const STR = {
       { t: 'Brakes and polyphenols — inhibitors in the vault', b: 'Parkinson drugs tolcapone and entacapone (plus opicapone) brake COMT to stretch L-DOPA; green-tea catechins, quercetin and luteolin mildly inhibit it in the vault’s supplement docs — the genotype-optimization angle the COMT notes are built around.', legend: [['#8a6ff0', 'COMT inhibitors'], ['#4ad6b5', 'polyphenol modulators']], vault: ['Tolcapone', 'Entacapone', 'Green tea', 'Quercetin', 'Luteolin'] },
       { t: 'When clearance fails — quinone spillover', b: 'Catechols that escape COMT + MAO oxidize into o-quinones — the on-ramp to both the Pathway tour (adrenaline → adrenochrome) and the Neuromelanin tour (dopamine → pigment). Clearance is what keeps signaling molecules from becoming quinone chemistry.', legend: [['#ff5a4d', 'quinone spillover'], ['#9a7bd0', '→ pigment paths']], vault: ['Dopamine o-quinone', 'Adrenochrome', 'Neuromelanin'] },
     ],
+    oskmSteps: [
+      { t: 'Aged chromatin — clock ticking, LINE-1 awake', b: 'Old nuclei lose H3K9me3 heterochromatin, LINE-1 retrotransposons stir, and the epigenetic clock advances — the vault’s aging-epigenetics docs. The genome is intact; its packaging has forgotten itself.', legend: [['#8a6ff0', 'H3K9me3 erosion'], ['#ff8a5a', 'LINE-1 stirring']], vault: ['H3K9me3', 'LINE-1', 'Epigenetic Clock'] },
+      { t: 'Four factors arrive — OSKM bind', b: 'Oct4, Sox2, Klf4 and c-Myc enter through the pore and clamp onto closed chromatin as pioneer factors — binding where nothing else can. Delivery through the nuclear pore is the first visible move.', legend: [['#3ec9a7', 'OSKM → nucleus']], vault: ['OSKM', 'Oct4', 'Sox2', 'Klf4', 'c-Myc'] },
+      { t: 'Guards step aside — heterochromatin opens', b: 'SIRT6-guarded heterochromatin (the Sirtuins tour’s chromatin guardian) loosens as OSKM recruit remodelers; SIRT1-repressed loci reopen. LINE-1 must stay leashed while the rest opens — the central tension of the vault’s reprogramming docs.', legend: [['#b79aff', 'chromatin opening'], ['#8a6ff0', 'SIRT6 watch']], vault: ['SIRT6', 'SIRT1', 'LINE-1', 'Cellular Reprogramming'] },
+      { t: 'The roadblock — p53/p21 count the damage', b: 'Forced reprogramming trips DNA-damage surveillance: p53–p21 halt or kill cells that open too fast. This brake is why efficiency is low — and why bypassing it trades rejuvenation for cancer risk in the vault.', legend: [['#ff5a4d', 'p53/p21 brake']], vault: ['p53', 'p21', 'Reprogramming'] },
+      { t: 'Nucleolar reboot — ribosomes return', b: 'The nucleolus reignites: rRNA transcription and ribosome biogenesis resume youthful output — the mirror image of the SIRT7 step in the Sirtuins tour. Protein-building capacity is a readout of reprogramming the vault tracks closely.', legend: [['#d0b8ff', 'nucleolar reignition']], vault: ['Ribosome Biogenesis', 'SIRT7', 'OSKM'] },
+      { t: 'Partial, not full — rejuvenate, keep identity', b: 'Transient pulses (the vault’s partial-reprogramming docs) roll the epigenetic clock back without reaching pluripotency: cells stay themselves, only younger. Washout restores the guards; senescent load falls without teratoma roulette.', legend: [['#4ad6b5', 'clock rolled back'], ['#51ff9e', 'identity kept']], vault: ['Partial Reprogramming', 'Cellular Reprogramming', 'Epigenetic Clock', 'Senescence'] },
+    ],
   },
   zh: {
     tabExplore: '探索', tabAdreno: '腎上腺色素路徑', tabSirtuin: 'Sirtuins',
-    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝', tabNM: '神經黑色素', tabCOMT: 'COMT · 兒茶酚',
+    tabCombi: 'IVM × FBZ 抗癌追蹤', tabAuto: '自噬', tabDeath: '細胞死亡', tabRedox: 'Nrf2 · 毒物興奮', tabSASP: '衰老 · SASP', tabProto: 'MB/AG 方案［假說］', tabMetab: '瓦伯格 · 代謝', tabNM: '神經黑色素', tabCOMT: 'COMT · 兒茶酚', tabOSKM: 'OSKM · 重編程',
     labels: '標籤', rotate: '旋轉', cutaway: '剖面',
     stepOf: (a, b) => `步驟 ${a} / ${b}`, prev: '← 上一步', next: '下一步 →', play: '▶ 自動播放', pause: '⏸ 暫停',
     exploreTitle: '細胞組件', exploreBody: '點擊細胞中的任何結構（或下方按鈕），查看其真實尺寸、功能與知識庫連結。可拖曳旋轉、滾輪縮放、右鍵平移。',
@@ -298,6 +311,14 @@ export const STR = {
       { t: '煞車與多酚——知識庫中的抑制劑', b: '帕金森藥物 tolcapone 與 entacapone（加 opicapone）煞停 COMT 以延長 L-DOPA；綠茶兒茶素、槲皮素與木犀草素在補充品文件中有輕度抑制——正是 COMT 筆記圍繞的基因型優化角度。', legend: [['#8a6ff0', 'COMT 抑制劑'], ['#4ad6b5', '多酚調節']], vault: ['Tolcapone', 'Entacapone', 'Green tea', 'Quercetin', 'Luteolin'] },
       { t: '清除失效時——醌外溢', b: '逃過 COMT＋MAO 的兒茶酚氧化成鄰醌——通往路徑導覽（腎上腺素 → 腎上腺色素）與神經黑色素導覽（多巴胺 → 色素）的匝道。清除正是讓訊號分子免於淪為醌化學的原因。', legend: [['#ff5a4d', '醌外溢'], ['#9a7bd0', '→ 色素路徑']], vault: ['Dopamine o-quinone', 'Adrenochrome', 'Neuromelanin'] },
     ],
+    oskmSteps: [
+      { t: '老化的染色質——時鐘走動、LINE-1 醒來', b: '老細胞核流失 H3K9me3 異染色質，LINE-1 反轉錄轉座子蠢動，表觀遺傳時鐘前進——知識庫的老化表觀遺傳文件。基因組完好；包裝忘了自己。', legend: [['#8a6ff0', 'H3K9me3 磨損'], ['#ff8a5a', 'LINE-1 蠢動']], vault: ['H3K9me3', 'LINE-1', 'Epigenetic Clock'] },
+      { t: '四因子駕到——OSKM 結合', b: 'Oct4、Sox2、Klf4 與 c-Myc 經核孔入核，以先鋒因子箝住關閉的染色質——結合在別無他物能結合之處。經核孔的遞送是第一個可見動作。', legend: [['#3ec9a7', 'OSKM → 入核']], vault: ['OSKM', 'Oct4', 'Sox2', 'Klf4', 'c-Myc'] },
+      { t: '守衛讓路——異染色質鬆開', b: 'SIRT6 守衛的異染色質（Sirtuins 導覽中的染色質守衛）隨 OSKM 招募重塑器而鬆動；SIRT1 壓制的位點重開。其餘鬆開時 LINE-1 必須拴住——知識庫重編程文件的核心張力。', legend: [['#b79aff', '染色質鬆開'], ['#8a6ff0', 'SIRT6 看守']], vault: ['SIRT6', 'SIRT1', 'LINE-1', 'Cellular Reprogramming'] },
+      { t: '路障——p53/p21 清點損傷', b: '強制重編程觸發 DNA 損傷監視：p53–p21 叫停或清除開得太快的細胞。這道煞車是效率低落的原因——繞過它，就是以癌症風險換回春。', legend: [['#ff5a4d', 'p53/p21 煞車']], vault: ['p53', 'p21', 'Reprogramming'] },
+      { t: '核仁重啟——核糖體歸來', b: '核仁重新點火：rRNA 轉錄與核糖體新生恢復年輕產量——Sirtuins 導覽中 SIRT7 步驟的鏡像。蛋白質建造產能是知識庫密切追蹤的重編程讀出。', legend: [['#d0b8ff', '核仁重新點火']], vault: ['Ribosome Biogenesis', 'SIRT7', 'OSKM'] },
+      { t: '部分而非完全——回春且保有身份', b: '短暫脈衝（知識庫的部分重編程文件）把表觀遺傳時鐘撥回而不達多能性：細胞仍是自己，只是更年輕。洗脫後守衛歸位；衰老負荷下降，無需畸胎瘤輪盤。', legend: [['#4ad6b5', '時鐘撥回'], ['#51ff9e', '身份保留']], vault: ['Partial Reprogramming', 'Cellular Reprogramming', 'Epigenetic Clock', 'Senescence'] },
+    ],
   },
 };
 
@@ -317,6 +338,7 @@ const TOURS = {
   metab: { steps: 'metabSteps', markers: 'metab' },
   nm: { steps: 'nmSteps', markers: 'nm' },
   comt: { steps: 'comtSteps', markers: 'comt' },
+  oskm: { steps: 'oskmSteps', markers: 'oskm' },
 };
 
 /* ============================== scene setup ============================== */
@@ -639,6 +661,9 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     comtMem: marker(0x51ff9e, V3(7.5, -2.5, 5.5).setLength(9.4), 0.26),
     comtCyto: marker(0xffc357, V3(2.2, 0.2, 3.2), 0.26),
     comtMito: marker(0xff7a1a, mitos[0].position.clone(), 0.26),
+    oskmNuc: marker(0xb79aff, NUC.clone().add(V3(0.7, 0.9, 1.2)), 0.26),
+    oskmNol: marker(0xd0b8ff, NUC.clone().add(V3(-0.6, 0.6, 0.7)), 0.26),
+    oskmPore: marker(0x3ec9a7, NUC.clone().add(V3(1.8, 2.2, 1.4)), 0.26),
   };
   const sirtuinMarkers = [S.s1, S.s2, S.s3, S.s4, S.s5, S.s6, S.s7];
   const adrenoMarkers = [S.mao, S.nqo1];
@@ -651,6 +676,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const metabMarkers = [S.metMem, S.metCyto, S.metMito];
   const nmMarkers = [S.nmCyto, S.nmMem, S.nmLyso];
   const comtMarkers = [S.comtMem, S.comtCyto, S.comtMito];
+  const oskmMarkers = [S.oskmNuc, S.oskmNol, S.oskmPore];
 
   /* ---- flow particle pool (tour molecule traffic) ---- */
   const FN = 700;
@@ -799,7 +825,15 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { cam: [5, 2, 15], tgt: CYTO.toArray(), hi: [], fl: [{ a: EXTRA, b: CYTO, color: '#8a6ff0', count: 160, spread: 0.6 }, { a: CYTO.clone().add(V3(-1, -1, 1)), b: CYTO.clone().add(V3(1, 1, -1)), color: '#4ad6b5', count: 160, spread: 0.6 }], mk: [S.comtCyto, S.comtMem] },
     { cam: [LYSO.x + 2, LYSO.y + 2, LYSO.z + 10], tgt: LYSO.toArray(), hi: ['lysosome'], fl: [{ a: CYTO, b: MITO_A, color: '#ff5a4d', count: 180, spread: 0.5 }, { a: CYTO, b: LYSO, color: '#9a7bd0', count: 200, spread: 0.5 }], mk: [S.comtMito, S.comtCyto] },
   ];
-  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM, nm: NM_CAM, comt: COMT_CAM };
+  const OSKM_CAM = [
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-2, 0, -1)), b: NUC.clone().add(V3(-0.5, -1.5, -0.5)), color: '#8a6ff0', count: 220, spread: 0.5 }, { a: NUC.clone().add(V3(-1.5, 1, 0.5)), b: NUC.clone().add(V3(1.5, -1, -0.5)), color: '#ff8a5a', count: 140, spread: 0.6 }], mk: [S.oskmNuc] },
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['npc'], fl: [{ a: CYTO, b: KPNB, color: '#3ec9a7', count: 260, spread: 0.5 }], mk: [S.oskmPore] },
+    { cam: [NUC.x - 1, NUC.y - 1, NUC.z + 10], tgt: NUC.clone().add(V3(-1.2, -0.9, -0.8)).toArray(), hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-2, 0, -1)), b: NUC.clone().add(V3(1.5, 1, 1)), color: '#b79aff', count: 240, spread: 0.7 }], mk: [S.oskmNuc] },
+    { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-1.5, 0, 0.5)), b: NUC.clone().add(V3(0.5, -1, 1)), color: '#ff5a4d', count: 220, spread: 0.5 }], mk: [S.oskmNuc] },
+    { cam: [NUC.x - 1, NUC.y + 2, NUC.z + 9], tgt: NUC.clone().add(V3(-0.6, 0.6, 0.7)).toArray(), hi: ['nucleolus'], fl: [{ a: NUC.clone().add(V3(-1.2, 1.2, 0.5)), b: NUC.clone().add(V3(0, 0, 1)), color: '#d0b8ff', count: 220, spread: 0.4 }], mk: [S.oskmNol] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-1.5, 1, 0.5)), b: NUC.clone().add(V3(1.5, -1, -0.5)), color: '#4ad6b5', count: 200, spread: 0.6 }, { a: CYTO, b: KPNB, color: '#51ff9e', count: 120, spread: 0.5 }], mk: [S.oskmNuc, S.oskmNol] },
+  ];
+  const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM, nm: NM_CAM, comt: COMT_CAM, oskm: OSKM_CAM };
 
   /* ---- labels (projected HTML chips) ---- */
   const labelDefs = [
@@ -878,6 +912,11 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       { key: 'COMT', fn: () => S.comtCyto.position.toArray(), dy: -14 },
       { key: 'MAO', fn: () => S.comtMito.position.toArray(), dy: -14 },
     ],
+    oskm: [
+      { key: 'OSKM', fn: () => S.oskmPore.position.toArray(), dx: -28 },
+      { key: 'Chromatin', fn: () => S.oskmNuc.position.toArray(), dy: -14 },
+      { key: 'Nucleolus', fn: () => S.oskmNol.position.toArray(), dx: 30 },
+    ],
   };
   const stage = els.stage;
   function makeChip(text, tour) {
@@ -899,6 +938,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const metabChips = tourLabelDefs.metab.map((l) => ({ l, el: makeChip(l.key, true) }));
   const nmChips = tourLabelDefs.nm.map((l) => ({ l, el: makeChip(l.key, true) }));
   const comtChips = tourLabelDefs.comt.map((l) => ({ l, el: makeChip(l.key, true) }));
+  const oskmChips = tourLabelDefs.oskm.map((l) => ({ l, el: makeChip(l.key, true) }));
   const PV = new THREE.Vector3();
   let showLabels = true, W = 800, H = 600;
   function placeChips(chips, active) {
@@ -956,7 +996,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       els.nav.style.display = 'flex';
       els.orgList.style.display = 'none';
       els.play.textContent = autoplay ? T.pause : T.play;
-      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM, comt: T.tabCOMT }[mode]} · ${stepIdx + 1}/${steps.length}`;
+      els.flag.textContent = `${{ adreno: T.tabAdreno, sirtuin: T.tabSirtuin, combi: T.tabCombi, auto: T.tabAuto, death: T.tabDeath, redox: T.tabRedox, sasp: T.tabSASP, proto: T.tabProto, metab: T.tabMetab, nm: T.tabNM, comt: T.tabCOMT, oskm: T.tabOSKM }[mode]} · ${stepIdx + 1}/${steps.length}`;
     }
   }
   function applyStep() {
@@ -974,6 +1014,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     metabMarkers.forEach((m) => { m.visible = mode === 'metab' && (chore.mk || []).includes(m); });
     nmMarkers.forEach((m) => { m.visible = mode === 'nm' && (chore.mk || []).includes(m); });
     comtMarkers.forEach((m) => { m.visible = mode === 'comt' && (chore.mk || []).includes(m); });
+    oskmMarkers.forEach((m) => { m.visible = mode === 'oskm' && (chore.mk || []).includes(m); });
     rosLight.intensity = chore.ros || 0;
     rosPulse = !!chore.ros;
     pigment.visible = !!chore.pigment;
@@ -1000,6 +1041,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       metabMarkers.forEach((mm) => { mm.visible = false; });
       nmMarkers.forEach((mm) => { mm.visible = false; });
       comtMarkers.forEach((mm) => { mm.visible = false; });
+      oskmMarkers.forEach((mm) => { mm.visible = false; });
       rosLight.intensity = 0; pigment.visible = false;
       mitoMat.emissive.setHex(0x5a2a00); mitoMat.emissiveIntensity = 0.45;
       flyTo([0, 7, 27], [0, 0, 0]);
@@ -1155,7 +1197,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       v.m.position.lerpVectors(v.a, v.b, go);
     }
     mitos.forEach((m, i) => { m.scale.setScalar(1 + 0.02 * Math.sin(time * 1.4 + i * 1.7)); });
-    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers, ...nmMarkers, ...comtMarkers].forEach((m, i) => {
+    [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers, ...nmMarkers, ...comtMarkers, ...oskmMarkers].forEach((m, i) => {
       if (m.visible) m.scale.setScalar(1 + 0.25 * Math.sin(time * 3.5 + i));
     });
     // tour highlight pulse
@@ -1185,6 +1227,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     placeChips(metabChips, mode === 'metab');
     placeChips(nmChips, mode === 'nm');
     placeChips(comtChips, mode === 'comt');
+    placeChips(oskmChips, mode === 'oskm');
     updateScaleBar();
   }
   const restored = readHash();
