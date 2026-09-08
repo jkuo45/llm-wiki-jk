@@ -122,6 +122,7 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 
 - 🧬 Cell-death vault expansion (03_SEP_2026): enriched `Apoptosis in cancer`, `Caspase`, honeybee venom/melittin (HER2/TNBC), ivermectin documents plus mitochondrial dynamics pair (`Fusion and Fission`, `role in disease`); new/expanded regulators — [[Caspase-8-c-FLIP Rheostat]], [[Ripoptosome]], [[Parthanatos]], [[Secondary Necrosis]], [[MBOAT1]]/[[MBOAT2]], `Complex I/II (TNFR1)`; merged duplicates (`glioblastoma`→`Glioblastoma`, `necrosis` stubs, `NADPH oxidase`→`NADPH Oxidase`).
 - 📄 New site pages: `cell-death-comparison-table` + `hormetic-range-assessment` (en-US/zh-TW, sitemap + `articles.json`/`llms.txt` updated).
+- 📄 Merged cell-death pages (08_SEP_2026): `cell-death-comparison-table` + `cell-death-animations` → single tabbed `cell-death-comparison` (`#table`/`#animations`, unified filter, render-guarded three.js); old URLs kept as redirect shims; sitemap + `articles.json`/`llms.txt` updated.
 - example: suggested schedule (Resveratrol, and Creatine)
   [resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol_en-US|wiki]]
 

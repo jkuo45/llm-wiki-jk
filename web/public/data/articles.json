@@ -306,38 +306,20 @@
         }
     },
     {
-        "id": "cell-death-comparison-table",
+        "id": "cell-death-comparison",
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Cell Death Comparison [table]",
-                "path": "pages/en-US/cell-death-comparison-table.html",
+                "title": "Cell Death Comparison [table + three.js]",
+                "path": "pages/en-US/cell-death-comparison.html",
                 "created": "2026-09-03",
-                "updated": "2026-09-03"
+                "updated": "2026-09-08"
             },
             "zh-TW": {
-                "title": "細胞死亡比較 [表格]",
-                "path": "pages/zh-TW/cell-death-comparison-table.html",
+                "title": "細胞死亡比較［表格＋three.js］",
+                "path": "pages/zh-TW/cell-death-comparison.html",
                 "created": "2026-09-03",
-                "updated": "2026-09-03"
-            }
-        }
-    },
-    {
-        "id": "cell-death-comparison-animations",
-        "active": true,
-        "langs": {
-            "en-US": {
-                "title": "Cell Death Comparison [three.js]",
-                "path": "pages/en-US/cell-death-animations.html",
-                "created": "2026-09-07",
-                "updated": "2026-09-07"
-            },
-            "zh-TW": {
-                "title": "細胞死亡對比 [three.js]",
-                "path": "pages/zh-TW/cell-death-animations.html",
-                "created": "2026-09-07",
-                "updated": "2026-09-07"
+                "updated": "2026-09-08"
             }
         }
     },
