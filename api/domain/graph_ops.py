@@ -14,7 +14,18 @@ logger = logging.getLogger(__name__)
 
 GRAPH_PATH = Path(__file__).parent.parent.parent / "graphify-out" / "graph.json"
 
+# Canonical combined (triples + wiki) web dataset — the default UI dataset.
+# Health reports these counts; graph ops still run on the triples GRAPH_PATH
+# above (typed relations). See scripts/combined/build.py.
+DATA_DIR = Path(__file__).parent.parent.parent / "web" / "public" / "data"
+COMBINED_NODES_PATH = DATA_DIR / "nodes.json"
+COMBINED_EDGES_PATH = DATA_DIR / "edges.json"
+
 _G: nx.MultiDiGraph | None = None
+
+# mtime-keyed cache so /v1/health stats files instead of re-parsing ~24MB
+# of JSON on every call. Reset in tests via monkeypatch.
+_COMBINED_CACHE: dict = {}
 
 
 def get_graph() -> nx.MultiDiGraph:
@@ -24,6 +35,35 @@ def get_graph() -> nx.MultiDiGraph:
         data = json.loads(GRAPH_PATH.read_text(encoding="utf-8"))
         _G = json_graph.node_link_graph(data, edges="links")
     return _G
+
+
+def _count_json_array(path: Path) -> int:
+    """Count top-level items in a JSON array file."""
+    return len(json.loads(path.read_text(encoding="utf-8")))
+
+
+def get_combined_counts() -> dict[str, int | None]:
+    """Return combined node/edge counts from the canonical web dataset.
+
+    Results are cached by file mtime; missing/unreadable files yield None
+    so callers can fall back to the triples graph counts.
+    """
+    try:
+        n_stat = COMBINED_NODES_PATH.stat()
+        e_stat = COMBINED_EDGES_PATH.stat()
+    except OSError:
+        return {"nodes": None, "edges": None}
+    key = (n_stat.st_mtime_ns, n_stat.st_size, e_stat.st_mtime_ns, e_stat.st_size)
+    if _COMBINED_CACHE.get("key") == key:
+        return {"nodes": _COMBINED_CACHE["nodes"], "edges": _COMBINED_CACHE["edges"]}
+    try:
+        nodes = _count_json_array(COMBINED_NODES_PATH)
+        edges = _count_json_array(COMBINED_EDGES_PATH)
+    except (OSError, ValueError):
+        logger.warning("combined counts unreadable; falling back to triples graph")
+        return {"nodes": None, "edges": None}
+    _COMBINED_CACHE.update({"key": key, "nodes": nodes, "edges": edges})
+    return {"nodes": nodes, "edges": edges}
 
 
 # --- Precomputed, graph-global indexes ---------------------------------------

@@ -24,6 +24,7 @@ from pydantic import BaseModel, Field
 
 from ..config import HEARTBEAT_SECONDS, MAX_SESSIONS, SESSION_SWEEP_SECONDS, SESSION_TTL_SECONDS
 from ..domain.graph_ops import (
+    get_combined_counts,
     get_graph,
     graph_analyze,
     graph_explain,
@@ -152,12 +153,21 @@ class ExecuteRequest(BaseModel):
 
 @router.get("/health")
 async def health():
-    """Health check for the adapter and the upstream opencode server."""
+    """Health check for the adapter and the upstream opencode server.
+
+    `nodes`/`edges` report the canonical combined (triples + wiki) dataset —
+    the default UI graph in web/public/data/nodes.json + edges.json.
+    `triples_nodes`/`triples_edges` report the graph ops backend
+    (graphify-out/graph.json) for provenance.
+    """
     G = get_graph()
+    combined = get_combined_counts()
     payload = {
         "status": "ok",
-        "nodes": G.number_of_nodes(),
-        "edges": G.number_of_edges(),
+        "nodes": combined["nodes"] if combined["nodes"] is not None else G.number_of_nodes(),
+        "edges": combined["edges"] if combined["edges"] is not None else G.number_of_edges(),
+        "triples_nodes": G.number_of_nodes(),
+        "triples_edges": G.number_of_edges(),
         "sessions": len(_sessions),
     }
     try:
