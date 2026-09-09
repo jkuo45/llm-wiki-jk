@@ -4,20 +4,20 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 06_SEP_2026 | 34 | 1762 | 1,127,790 | 10.56 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 08_SEP_2026 | 34 | 1770 | 1,132,308 | 10.59 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 03_SEP_2026 | 19 | 257 | 196,616 | 2.62 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 03_SEP_2026 | 12 | 226 | 181,598 | 1.70 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 06_SEP_2026 | 11 | 277 | 244,354 | 3.01 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 06_SEP_2026 | 4 | 7 | 4,536 | 0.05 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 08_SEP_2026 | 11 | 277 | 244,451 | 3.02 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 08_SEP_2026 | 4 | 7 | 4,646 | 0.05 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.52 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 03_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 06_SEP_2026 | 1 | 94 | 79,170 | 1.07 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_SEP_2026 | 15 | 65 | 155,510 | 2.20 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 06_SEP_2026 | 20 | 173 | 313,731 | 3.99 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 08_SEP_2026 | 20 | 173 | 313,781 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 06_SEP_2026 | **136** | **3220** | **2,664,243** | **29.34 MB** |
+| **subtotal** | 08_SEP_2026 | **136** | **3228** | **2,669,018** | **29.37 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -33,7 +33,7 @@
 | **Triples** | `triples-*.json` | 3,427 | 6,412 |
 | **Wiki** | `wiki-*.json` | 3,079 | 36,492 |
 
-Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
+Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 
 > [!NOTE] Combined merge
 > The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
@@ -124,7 +124,7 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 - 📄 New site pages: `cell-death-comparison-table` + `hormetic-range-assessment` (en-US/zh-TW, sitemap + `articles.json`/`llms.txt` updated).
 - 📄 Merged cell-death pages (08_SEP_2026): `cell-death-comparison-table` + `cell-death-animations` → single tabbed `cell-death-comparison` (`#table`/`#animations`, unified filter, render-guarded three.js); old URLs kept as redirect shims; sitemap + `articles.json`/`llms.txt` updated.
 - example: suggested schedule (Resveratrol, and Creatine)
-  [resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol_en-US|wiki]]
+  [resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol|wiki]]
 
   | Time | Meal | Supplement |
   | ------ | ---------------------------- | ---------------------- |
@@ -296,8 +296,9 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (101 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (102 total)</strong> — click to expand</summary>
 
+- [task_output_parthanatos_open_questions_08_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md) [[src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md|wiki]] (08_SEP_2026 04:09 PM PDT)
 - [task_output_arh3_par_aif_06_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_arh3_par_aif_06_SEP_2026.md) [[src/tasks/task_output_arh3_par_aif_06_SEP_2026.md|wiki]] (06_SEP_2026 11:01 AM PDT)
 - [task_output_sex_dimorphic_cell_death_05_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md) [[src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md|wiki]] (05_SEP_2026 10:57 PM PDT)
 - [task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md) [[src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md|wiki]] (05_SEP_2026 11:15 AM PDT)
@@ -334,6 +335,7 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 - [task_output_senescence_research_gaps_18_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_research_gaps_18_August_2026.md) [[src/tasks/task_output_senescence_research_gaps_18_August_2026.md|wiki]] (30_AUG_2026 04:05 PM PDT)
 - [task_output_sirtuin_caspase_crosstalk_28_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md) [[src/tasks/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md|wiki]] (29_AUG_2026 12:56 AM PDT)
 - [task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md) [[src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md|wiki]] (27_AUG_2026 06:53 AM PDT)
+- [task_output_sirtuins_resveratrol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_resveratrol.md) [[src/tasks/task_output_sirtuins_resveratrol.md|wiki]] (24_AUG_2026 01:59 PM PDT)
 - [task_output_adrenochrome_sirtuins_trace_17_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md) [[src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_alphafold_report_NAD+_26_JUN_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md) [[src/tasks/task_output_alphafold_report_NAD+_26_JUN_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_ap1_trace_21_JUL_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ap1_trace_21_JUL_2026.md) [[src/tasks/task_output_ap1_trace_21_JUL_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
@@ -356,7 +358,6 @@ Build: 06_SEP_2026 · hash `4e6adcddb531dd54`
 - [task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md) [[src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_sirtuins_pleiotropic_roles_12_August_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md) [[src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [task_output_sirtuins_recommendations_03_JULY_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md) [[src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md|wiki]] (24_AUG_2026 01:25 PM PDT)
-- [task_output_sirtuins_resveratrol_en-US](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_resveratrol_en-US.md) [[src/tasks/task_output_sirtuins_resveratrol_en-US.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md) [[src/tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [tbl_senescent_compounds_normalized](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_senescent_compounds_normalized.md) [[src/tasks/tbl_senescent_compounds_normalized.md|wiki]] (24_AUG_2026 01:25 PM PDT)
 - [tbl_tfeb_target_mechanisms](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_tfeb_target_mechanisms.md) [[src/tasks/tbl_tfeb_target_mechanisms.md|wiki]] (24_AUG_2026 01:25 PM PDT)

@@ -30,7 +30,7 @@ Platelet hyperreactivity contributes to atherothrombosis and cardiovascular even
 
 ## Documents
 
-- [[task_output_sirtuins_resveratrol_en-US]] — cited in cardiovascular/hemostatic context.
+- [[task_output_sirtuins_resveratrol]] — cited in cardiovascular/hemostatic context.
 - [[task_output_review_notes_epinephrine_sirtuins_06_July_2026]] — related vascular context.
 
 ## Connections

@@ -36,7 +36,7 @@ Age-related accumulation of senescent chondrocytes correlates with osteoarthriti
 
 ## Documents
 
-- [[task_output_sirtuins_resveratrol_en-US]] — referenced in broad senescence/tissue-context discussions.
+- [[task_output_sirtuins_resveratrol]] — referenced in broad senescence/tissue-context discussions.
 - [[task_output_review_notes_epinephrine_sirtuins_06_July_2026]] — related tissue-aging context.
 
 ## Connections

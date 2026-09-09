@@ -29,7 +29,7 @@ Physiologically essential for wound sealing; pathologically, excessive aggregati
 
 ## Documents
 
-- [[task_output_sirtuins_resveratrol_en-US]] — cardiovascular context.
+- [[task_output_sirtuins_resveratrol]] — cardiovascular context.
 - [[task_output_review_notes_epinephrine_sirtuins_06_July_2026]] — vascular/redox context.
 
 ## Connections

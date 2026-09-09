@@ -31,7 +31,7 @@ Chronic kidney disease (CKD) accelerates vascular calcification, AGE accumulatio
 
 ## Documents
 
-- [[task_output_sirtuins_resveratrol_en-US]] — systemic/renal context.
+- [[task_output_sirtuins_resveratrol]] — systemic/renal context.
 - [[task_output_review_notes_epinephrine_sirtuins_06_July_2026]] — aging context.
 
 ## Connections

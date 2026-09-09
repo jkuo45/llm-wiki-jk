@@ -1,5 +1,5 @@
 {
-  "generated": "06_SEP_2026 08:32 PM PDT",
+  "generated": "08_SEP_2026 05:38 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,56 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_parthanatos_open_questions_08_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Parthanatos Open Questions — Web Research Update",
+          "description": "All 17 open questions from Moura et al. 2024 updated with 2014–2026 literature plus Q18 PARG-executionary synthesis — NAD/glycolysis/PARG/free-PAR/TRPM2-Ca2+/Nudix-AMP-autophagy/AIF-MIF/apoptosis crosstalk.",
+          "created": "2026-09-08",
+          "updated": "2026-09-09",
+          "tags": [
+            "parthanatos",
+            "parp1",
+            "nad-plus",
+            "glycolysis",
+            "parg",
+            "arh3",
+            "aif",
+            "mif",
+            "trpm2",
+            "nudix",
+            "ampk",
+            "autophagy"
+          ],
+          "filename": "task_output_parthanatos_open_questions_08_Sep_2026.md",
+          "path": "tasks/en-US/task_output_parthanatos_open_questions_08_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "Parthanatos 未解問題 — 網路文獻更新",
+          "description": "以 2014–2026 年文獻更新 Moura 等人 2024 年提出的全部 17 個未解問題，外加 Q18 PARG 執行性綜合——NAD／糖解／PARG／游離 PAR／TRPM2-Ca2+／Nudix-AMP-自噬／AIF-MIF／凋亡串擾。",
+          "created": "2026-09-08",
+          "updated": "2026-09-09",
+          "tags": [
+            "parthanatos",
+            "parp1",
+            "nad-plus",
+            "glycolysis",
+            "parg",
+            "arh3",
+            "aif",
+            "mif",
+            "trpm2",
+            "nudix",
+            "ampk",
+            "autophagy"
+          ],
+          "filename": "task_output_parthanatos_open_questions_08_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_parthanatos_open_questions_08_Sep_2026.md"
         }
       }
     },
@@ -67,8 +117,8 @@
       "kind": "task",
       "langs": {
         "en-US": {
-          "title": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
-          "description": "",
+          "title": "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics",
+          "description": "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status.",
           "created": "2026-09-05",
           "updated": "2026-09-05",
           "tags": [],
@@ -1911,6 +1961,43 @@
       }
     },
     {
+      "id": "task:task_output_sirtuins_resveratrol",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
+          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol",
+            "sirt1",
+            "stacs",
+            "polyphenols"
+          ],
+          "filename": "task_output_sirtuins_resveratrol.md",
+          "path": "tasks/en-US/task_output_sirtuins_resveratrol.md"
+        },
+        "zh-TW": {
+          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
+          ],
+          "filename": "task_output_sirtuins_resveratrol.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_autophagy_and_cancer_13_JUL_2026",
       "kind": "task",
       "langs": {
@@ -2357,43 +2444,6 @@
           ],
           "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
           "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_sirtuins_resveratrol",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol",
-            "sirt1",
-            "stacs",
-            "polyphenols"
-          ],
-          "filename": "task_output_sirtuins_resveratrol_en-US.md",
-          "path": "tasks/en-US/task_output_sirtuins_resveratrol_en-US.md"
-        },
-        "zh-TW": {
-          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
-          "created": "2026-07-02",
-          "updated": "2026-07-05",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol"
-          ],
-          "filename": "task_output_sirtuins_resveratrol.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
         }
       }
     },
