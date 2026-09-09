@@ -128,8 +128,8 @@
   <div class="wrap">
     <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
     <div class="nav-links" role="tablist">
-      <a href="#table" id="tab-table" role="tab" class="is-active">比較表</a>
-      <a href="#animations" id="tab-animations" role="tab">動畫</a>
+      <a href="https://graph.johnnykuo.com/#reader=cell-death-comparison-zh" id="tab-table" role="tab" class="is-active">比較表</a>
+      <a href="https://graph.johnnykuo.com/#reader=cell-death-comparison-zh&amp;section=animations" id="tab-animations" role="tab">動畫</a>
     </div>
   </div>
 </nav>
@@ -333,6 +333,7 @@
           <option value="1" selected>1× 速度</option>
           <option value="2">2× 速度</option>
         </select>
+        <button id="shareAnim" title="複製在閱讀器開啟動畫分頁的連結">🔗 分享</button>
         <span class="hint">12 秒縮時循環 · T+ 時鐘為生物時間 · 捲動查看全部 10 種</span>
       </div>
     </div>
@@ -415,12 +416,31 @@
 <script>
 "use strict";
 (function(){
+  var READER_ID = 'cell-death-comparison-zh';
   var tableSec = document.getElementById('view-table'),
       animSec = document.getElementById('view-anim'),
       tabTable = document.getElementById('tab-table'),
       tabAnim = document.getElementById('tab-animations');
+  function readerBase(){
+    var base = /^https?:/.test(location.protocol) ? location.origin : 'https://graph.johnnykuo.com';
+    return base + '/#reader=' + READER_ID;
+  }
+  // Hrefs carry the full reader deep link so right-click → copy shares a
+  // reader-inside URL; plain left-clicks are intercepted below for in-place tabs.
+  tabTable.href = readerBase();
+  tabAnim.href = readerBase() + '&section=animations';
+  function notifyParent(isAnim){
+    try {
+      if (window.parent !== window) {
+        window.parent.postMessage({type:'reader-section', section: isAnim ? 'animations' : null}, location.origin);
+      }
+    } catch(_){}
+  }
   function apply(){
-    var isAnim = location.hash === '#animations';
+    var h = location.hash;
+    // '#animations' is the tab href; '#view-anim' is what the graph reader's
+    // section tracking writes (&section=view-anim) — both open the anim tab.
+    var isAnim = (h === '#animations' || h === '#view-anim');
     tableSec.hidden = isAnim;
     animSec.hidden = !isAnim;
     tabTable.classList.toggle('is-active', !isAnim);
@@ -428,7 +448,17 @@
     tabTable.setAttribute('aria-selected', String(!isAnim));
     tabAnim.setAttribute('aria-selected', String(isAnim));
     if (isAnim) dispatchEvent(new Event('resize')); // re-fit three.js canvases
+    notifyParent(isAnim);
   }
+  function go(e, target, isAnim){
+    if (e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey){
+      e.preventDefault();
+      if (location.hash !== target) location.hash = target; // fires hashchange → apply()
+      else notifyParent(isAnim);
+    }
+  }
+  tabTable.addEventListener('click', function(e){ go(e, '#table', false); });
+  tabAnim.addEventListener('click', function(e){ go(e, '#animations', true); });
   addEventListener('hashchange', apply);
   apply();
 })();
@@ -1020,6 +1050,19 @@ playAll.onclick = ()=>{ running=!running; syncPlayBtn(); };
 document.getElementById('speed').onchange = e=>{ speed = parseFloat(e.target.value); };
 syncPlayBtn();
 if (!running) playAll.textContent = '▶ 全部播放（減少動態）';
+// 分享按鈕：複製圖譜閱讀器的深層連結，在閱讀器內開啟動畫分頁
+document.getElementById('shareAnim').onclick = async (e)=>{
+  const btn = e.currentTarget;
+  const base = /^https?:/.test(location.protocol) ? location.origin : 'https://graph.johnnykuo.com';
+  const url = base + '/#reader=cell-death-comparison-zh&section=animations';
+  const done = (msg)=>{ const o = btn.textContent; btn.textContent = msg; setTimeout(()=>{ btn.textContent = o; }, 1600); };
+  try {
+    if (navigator.share) { await navigator.share({title: document.title, url}); return; }
+    throw 0;
+  } catch(_){ /* fall through to clipboard */ }
+  try { await navigator.clipboard.writeText(url); done('✓ 已複製'); }
+  catch(_){ location.hash = '#animations'; done(url); }
+};
 </script>
 </body>
 </html>
