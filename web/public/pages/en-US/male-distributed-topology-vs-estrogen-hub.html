@@ -128,6 +128,19 @@
   #cell3d-info .tag{ font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.06em; }
   /* copy button sits below the top-right HUD label, not over it */
   #fig-1b .copy-btn{ top:34px; right:8px; }
+  #parp-exec{margin-top:6px}
+  #parp-exec canvas{width:100%;height:520px;display:block;cursor:grab;touch-action:none;border:1px solid var(--rule);background:var(--paper)}
+  #parp-exec canvas:active{cursor:grabbing}
+  .parp-bar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:10px 0 6px}
+  .parp-bar button{font-family:var(--sans);font-size:12px;padding:6px 10px;border:1px solid var(--rule-strong);background:var(--sheet);color:var(--ink);border-radius:var(--radius);cursor:pointer}
+  .parp-bar button:hover{border-color:var(--gold)}
+  #parp-snum{font-family:var(--mono);font-size:11px;color:var(--mute);margin-left:auto}
+  #parp-stitle{font-size:.95rem;margin:4px 0}
+  #parp-sdesc{font-size:.86rem;color:var(--ink-soft);line-height:1.55;min-height:2.6em}
+  #parp-sbar{height:5px;background:var(--rule);margin-top:8px;border-radius:3px}
+  #parp-sfill{height:100%;width:0%;background:var(--gold);border-radius:3px}
+  .parp-legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.78rem;color:var(--mute);margin-top:8px}
+  @media (max-width:640px){#parp-exec canvas{height:420px}}
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -632,11 +645,25 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
         </div>
         <figcaption class="cap"><strong>How to read it.</strong> The bars are the proof that the two programs are genuinely sex-divergent (same deletion, opposite outcome). The cascades show why: PARP-1 sits <em>upstream</em> of the male death route but <em>parallel</em> to the female one — deleting it removes the male weapon while forcing females onto their backup weapon. Therapeutic corollary: PARP inhibitors male-leaning, caspase inhibitors female-leaning.</figcaption>
       </figure>
+      <figure class="fig" id="parp-exec">
+        <p class="fignum">Fig. 4b · PARP-1 → AIF execution in 3D (interactive walkthrough)</p>
+        <div class="copy-host">
+          <canvas id="parp-scene"></canvas>
+          <div class="parp-bar" role="group" aria-label="PARP-1 walkthrough controls">
+            <button id="parp-prev" type="button">◀</button><button id="parp-play" type="button">play</button><button id="parp-next" type="button">▶</button><button id="parp-pause" type="button">pause</button><button id="parp-spin" type="button">spin</button>
+            <span id="parp-snum"></span>
+          </div>
+          <div id="parp-stitle"><strong></strong></div>
+          <div id="parp-sdesc"></div>
+          <div id="parp-sbar"><div id="parp-sfill"></div></div>
+          <div class="parp-legend"><span><span class="dot" style="display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:#c1121f"></span>NAD⁺ / ATP energy</span><span><span class="dot" style="display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:#7b2cbf"></span>Free PAR → AIF release</span><span><span class="dot" style="display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:#b5892e"></span>Free ADPr → TRPM2 / Ca²⁺ / AMP</span><span><span class="dot" style="display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:#2e4a5d"></span>AIF → DNA fragmentation</span></div>
+        </div>
+        <figcaption class="cap"><strong>Walk the male death program.</strong> PARP-1 hyperactivation (nucleus) → NAD⁺ depletion + PARG/ARH3 cleavage → glycolysis/ATP collapse → TRPM2/Ca²⁺/MPTP → AIF release → DNA fragmentation. Press play or step through; drag to orbit.</figcaption>
+      </figure>
     </section>
 
     <!-- ==================== 6 TABLE ==================== -->
-    <section id="table">
-      <p class="sec-label">Synthesis</p>
+    <section id="table">      <p class="sec-label">Synthesis</p>
       <h2>Comparison table — hub vs five nodes</h2>
       <p>Filter by keyword, or highlight an axis (protection, pathogenesis, timing, death-mode).</p>
 
@@ -1249,6 +1276,99 @@ Removes p53 dual control → DNA-damage response dysregulation</code></pre>
   T2.initTooltip();
   T2.initLightbox();
   T2.initNavScrollHint();
+</script>
+<script type="module">
+/* Fig. 4b — PARP-1 execution cell, theme-matched. Lazy-init on scroll into view. */
+(function(){
+  var canvas=document.getElementById('parp-scene'); if(!canvas) return; var started=false;
+  function start(){ if(started) return; started=true;
+    Promise.all([import('three'),import('three/addons/controls/OrbitControls.js')]).then(function(m){
+      init(m[0],m[1].OrbitControls);
+    }).catch(function(e){console.warn('parp 3d failed',e);});
+  }
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){if(es.some(function(e){return e.isIntersecting;})){io.disconnect();start();}},{rootMargin:'400px'});io.observe(canvas);}else start();
+  function init(THREE,OrbitControls){
+    var renderer; try{renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true,preserveDrawingBuffer:true});}catch(e){return;}
+    // theme-matched paper background
+    var bg=new THREE.Color(0xf6f1e7);
+    try{var cs=getComputedStyle(document.documentElement).getPropertyValue('--paper').trim();if(cs)bg=new THREE.Color(cs);}catch(e){}
+    var scene=new THREE.Scene(); scene.background=bg; scene.fog=new THREE.Fog(bg,34,80);
+    var camera=new THREE.PerspectiveCamera(45,2,0.1,200); camera.position.set(14,11,24);
+    var controls=new OrbitControls(camera,canvas); controls.enableDamping=true; controls.target.set(0,0.5,0);
+    controls.minDistance=8; controls.maxDistance=60;
+    scene.add(new THREE.AmbientLight(0xffffff,0.9));
+    var dl=new THREE.DirectionalLight(0xffffff,1.2); dl.position.set(6,12,8); scene.add(dl);
+    var cellGroup=new THREE.Group(); scene.add(cellGroup);
+    var membrane=new THREE.Mesh(new THREE.SphereGeometry(9,48,32),new THREE.MeshPhysicalMaterial({color:0x9fc5d8,transparent:true,opacity:0.12,roughness:0.4,side:THREE.DoubleSide,depthWrite:false}));
+    membrane.scale.set(1.25,0.85,1.0); cellGroup.add(membrane);
+    var nucleus=new THREE.Mesh(new THREE.SphereGeometry(4.4,48,32),new THREE.MeshPhysicalMaterial({color:0xc9a06a,transparent:true,opacity:0.30,roughness:0.5}));
+    nucleus.position.set(-1,-2.2,-0.5); nucleus.scale.set(1.35,0.85,1.0); scene.add(nucleus);
+    var mito=new THREE.Group(); mito.position.set(5.5,2.8,-1); mito.rotation.z=-0.35; scene.add(mito);
+    var mitoOuter=new THREE.Mesh(new THREE.SphereGeometry(2.0,40,28),new THREE.MeshPhysicalMaterial({color:0xe07a5f,transparent:true,opacity:0.55,roughness:0.5}));
+    mitoOuter.scale.set(1.5,0.9,0.9); mito.add(mitoOuter);
+    for(var ci=-2;ci<=2;ci++){var c=new THREE.Mesh(new THREE.TorusGeometry(0.85-Math.abs(ci)*0.12,0.05,10,40,Math.PI),new THREE.MeshBasicMaterial({color:0x9e2b25}));c.position.x=ci*0.55;c.rotation.y=Math.PI/2;mito.add(c);}
+    var hpts=[];for(var hi=0;hi<=200;hi++){var ht=hi/200*Math.PI*6;hpts.push(new THREE.Vector3(-3+ht*0.35,-3.4+Math.sin(ht)*0.5,-1.2+Math.cos(ht)*0.2));}
+    scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(hpts),new THREE.LineBasicMaterial({color:0x2e4a5d})));
+    var parp=new THREE.Mesh(new THREE.SphereGeometry(0.55,24,24),new THREE.MeshStandardMaterial({color:0xb5892e,emissive:0x7a5c14,emissiveIntensity:0.9}));
+    parp.position.set(-1,-2.6,-0.6); scene.add(parp);
+    function label(text,bgc){var cv=document.createElement('canvas');var g=cv.getContext('2d');g.font='bold 44px Georgia, serif';
+      var w=Math.ceil(g.measureText(text).width)+36,h=68;cv.width=w*2;cv.height=h*2;g.scale(2,2);
+      g.fillStyle=bgc;g.strokeStyle='#3d3d3d';g.lineWidth=2;g.beginPath();g.roundRect(1,1,w-2,h-2,10);g.fill();g.stroke();
+      g.font='bold 44px Georgia, serif';g.fillStyle='#1a1a1a';g.textAlign='center';g.textBaseline='middle';g.fillText(text,w/2,h/2+2);
+      var t=new THREE.CanvasTexture(cv);t.colorSpace=THREE.SRGBColorSpace;
+      var s=new THREE.Sprite(new THREE.SpriteMaterial({map:t,transparent:true,depthTest:false}));s.scale.set(w/h*0.55,0.55,1);return s;}
+    var P={PARP1:new THREE.Vector3(-1,-2.6,-0.6),NAD:new THREE.Vector3(-1,-0.4,1.6),ADPr:new THREE.Vector3(-4.6,-0.6,1.2),FPAR:new THREE.Vector3(1.6,-0.8,1.6),NAM:new THREE.Vector3(-2.4,0.7,1.8),SAL:new THREE.Vector3(-2.2,2.0,1.4),ATP:new THREE.Vector3(-3.2,3.3,0.8),AMP:new THREE.Vector3(-5.2,1.0,0.6),AMPK:new THREE.Vector3(-5.8,2.8,0.4),GLY:new THREE.Vector3(0.2,3.2,1.0),TRPM:new THREE.Vector3(-2.2,5.4,0),CA:new THREE.Vector3(0.8,5.0,-0.4),CALP:new THREE.Vector3(3.0,4.2,-0.6),HK:new THREE.Vector3(2.6,1.6,1.2),MPTP:new THREE.Vector3(5.5,4.3,-1),AIFm:new THREE.Vector3(5.0,2.0,-0.4),AIF2:new THREE.Vector3(5.6,0.0,0.6),AIF3:new THREE.Vector3(4.4,-1.4,1.2),DNA:new THREE.Vector3(2.4,-3.0,1.4),AIFn:new THREE.Vector3(0.6,-2.2,1.8),PARGe:new THREE.Vector3(0.6,-1.8,1.4),ARH3:new THREE.Vector3(-3.2,-1.8,1.2)};
+    var defs=[['PARP1',P.PARP1,'#e9c46a'],['NAD+',P.NAD,'#f3b8bf'],['Free ADPr',P.ADPr,'#ffffff'],['Free PAR',P.FPAR,'#ffffff'],['NAM',P.NAM,'#fef3c7'],['NAD Salvage',P.SAL,'#cfe3d4'],['ATP',P.ATP,'#f3b8bf'],['AMP',P.AMP,'#fef3c7'],['AMPK',P.AMPK,'#fef3c7'],['Glycolysis',P.GLY,'#cfe3d4'],['TRPM2',P.TRPM,'#cfe3d4'],['Ca2+',P.CA,'#fef3c7'],['Calpain',P.CALP,'#fef3c7'],['HK',P.HK,'#fef3c7'],['MPTP',P.MPTP,'#fef3c7'],['AIF (mito)',P.AIFm,'#cfdde8'],['AIF',P.AIF2,'#cfdde8'],['AIF/MIF',P.AIF3,'#cfdde8'],['DNA fragmentation',P.DNA,'#f3b8bf'],['AIF/CypA',P.AIFn,'#ffffff'],['PARG (endo)',P.PARGe,'#fef3c7'],['ARH3',P.ARH3,'#fef3c7']];
+    var nodeObjs=[];
+    defs.forEach(function(d){var s=label(d[0],d[2]);s.position.copy(d[1]).add(new THREE.Vector3(0,0.75,0));s.userData.base=s.scale.clone();scene.add(s);
+      var dot=new THREE.Mesh(new THREE.SphereGeometry(0.12,12,12),new THREE.MeshBasicMaterial({color:0x2e4a5d,transparent:true}));dot.position.copy(d[1]);scene.add(dot);nodeObjs.push({name:d[0],sprite:s,dot:dot});});
+    var E=[[P.PARP1,P.NAD,0xc1121f],[P.NAD,P.NAM,0xc1121f],[P.NAM,P.SAL,0xc1121f],[P.SAL,P.ATP,0xc1121f],[P.GLY,P.ATP,0xc1121f],[P.NAD,P.GLY,0xc1121f],[P.FPAR,P.GLY,0x7b2cbf],[P.ADPr,P.GLY,0xb5892e],[P.PARP1,P.FPAR,0x7b2cbf],[P.PARP1,P.ADPr,0xb5892e],[P.ADPr,P.AMP,0xb5892e],[P.AMP,P.AMPK,0xb5892e],[P.ADPr,P.TRPM,0xb5892e],[P.TRPM,P.CA,0xb5892e],[P.CA,P.CALP,0xb5892e],[P.CA,P.MPTP,0xb5892e],[P.CALP,P.AIFm,0xb5892e],[P.MPTP,P.AIFm,0x7b2cbf],[P.FPAR,P.AIFm,0x7b2cbf],[P.AIFm,P.AIF2,0x2e4a5d],[P.AIF2,P.AIF3,0x2e4a5d],[P.AIF3,P.DNA,0x2e4a5d],[P.AIF2,P.AIFn,0x2e4a5d],[P.AIFn,P.DNA,0x2e4a5d],[P.FPAR,P.HK,0x7b2cbf],[P.HK,P.GLY,0x7b2cbf],[P.PARP1,P.PARGe,0x7b2cbf],[P.PARGe,P.FPAR,0x7b2cbf],[P.PARP1,P.ARH3,0xb5892e],[P.ARH3,P.ADPr,0xb5892e]];
+    var flows=[],edgeObjs=[];
+    E.forEach(function(e){var mid=e[0].clone().lerp(e[1],0.5);mid.z+=1.0;mid.y+=0.4;var curve=new THREE.QuadraticBezierCurve3(e[0],mid,e[1]);
+      var line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(curve.getPoints(32)),new THREE.LineBasicMaterial({color:e[2],transparent:true,opacity:0.5}));scene.add(line);
+      var g=new THREE.SphereGeometry(0.09,8,8),parts=[];
+      for(var i=0;i<8;i++){var m=new THREE.Mesh(g,new THREE.MeshBasicMaterial({color:e[2]}));m.userData={curve:curve,t:Math.random(),sp:0.15+Math.random()*0.15};scene.add(m);flows.push(m);parts.push(m);}
+      edgeObjs.push({line:line,parts:parts});});
+    var focus=[P.PARP1.clone(),P.NAD.clone(),P.GLY.clone(),P.AMP.clone(),P.CA.clone(),P.AIFm.clone(),P.DNA.clone()];
+    var steps=[
+      ["1 · START: PARP1 hyperactivation","DNA damage overactivates PARP1 on nuclear DNA. It consumes NAD⁺ and builds protein-linked PAR chains.",["PARP1"],[0,8,9]],
+      ["2 · NAD⁺ depletion + PARG / ARH3 cleavage","PAR chains are cut by PARG (endo) and ARH3 into free PAR chains and free ADP-ribose (ADPr) monomers.",["PARP1","NAD+","Free ADPr","Free PAR","PARG (endo)","ARH3"],[0,1,8,9,26,27,28,29]],
+      ["3 · Energy collapse","NAD⁺ loss + free PAR/ADPr inhibit glycolysis (via HK). NAD salvage drains further → ATP falls.",["NAD+","NAM","NAD Salvage","Free ADPr","Free PAR","Glycolysis","ATP","HK"],[1,2,3,4,5,6,7,24,25]],
+      ["4 · AMP/ATP alarm","Nudix hydrolases convert ADPr → AMP. Rising AMP/ATP activates AMPK.",["Free ADPr","AMP","AMPK","ATP"],[10,11]],
+      ["5 · Calcium influx","ADPr opens TRPM2 → Ca²⁺ entry → calpain activation; Ca²⁺ also primes the mitochondrial MPTP.",["Free ADPr","TRPM2","Ca2+","Calpain","MPTP"],[12,13,14,15]],
+      ["6 · AIF release","Free PAR + calpain + MPTP opening release AIF from mitochondria into the cytosol.",["Free PAR","Calpain","MPTP","AIF (mito)","AIF"],[16,17,18,19]],
+      ["7 · END: nuclear execution","AIF (±MIF / CypA-H2AX) translocates to the nucleus → DNA fragmentation = cell death.",["AIF","AIF/MIF","AIF/CypA","DNA fragmentation"],[20,21,22,23]]];
+    var paused=false,spin=true,stepIdx=0,playing=false,playT=0,t=0;
+    function applyStep(i){stepIdx=(i+steps.length)%steps.length;var s=steps[stepIdx];
+      document.getElementById('parp-stitle').textContent=s[0];document.getElementById('parp-sdesc').textContent=s[1];
+      document.getElementById('parp-snum').textContent=(stepIdx+1)+' / '+steps.length;
+      document.getElementById('parp-sfill').style.width=((stepIdx+1)/steps.length*100)+'%';
+      var eset=new Set(s[3]),nset=new Set(s[2]);
+      edgeObjs.forEach(function(o,k){var on=eset.has(k);o.line.material.opacity=on?0.95:0.08;o.parts.forEach(function(m){m.visible=on;});});
+      nodeObjs.forEach(function(o){var on=nset.has(o.name);o.sprite.material.opacity=on?1:0.25;o.dot.material.opacity=on?1:0.2;var b=o.sprite.userData.base;o.sprite.scale.set(b.x*(on?1.25:0.85),b.y*(on?1.25:0.85),1);});
+      if(focus[stepIdx])controls.target.lerp(focus[stepIdx],0.6);}
+    document.getElementById('parp-prev').onclick=function(){playing=false;document.getElementById('parp-play').textContent='play';applyStep(stepIdx-1);};
+    document.getElementById('parp-next').onclick=function(){playing=false;document.getElementById('parp-play').textContent='play';applyStep(stepIdx+1);};
+    document.getElementById('parp-play').onclick=function(e){playing=!playing;e.target.textContent=playing?'stop':'play';if(playing)playT=0;};
+    document.getElementById('parp-pause').onclick=function(e){paused=!paused;e.target.textContent=paused?'resume':'pause';};
+    document.getElementById('parp-spin').onclick=function(e){spin=!spin;e.target.style.opacity=spin?1:0.45;};
+    canvas.addEventListener('keydown',function(e){if(e.key==='ArrowRight')applyStep(stepIdx+1);if(e.key==='ArrowLeft')applyStep(stepIdx-1);});
+    canvas.tabIndex=0;
+    applyStep(0);
+    var visible=true;
+    if('IntersectionObserver' in window){new IntersectionObserver(function(es){visible=es[0].isIntersecting;}).observe(canvas);}
+    function resize(){var w=canvas.parentElement.clientWidth||canvas.clientWidth,h=canvas.clientWidth<640?420:520;renderer.setSize(w,h,false);renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));camera.aspect=w/h;camera.updateProjectionMatrix();}
+    window.addEventListener('resize',resize); resize();
+    var clock=new THREE.Clock();
+    (function tick(){requestAnimationFrame(tick);if(!visible)return;controls.update();
+      if(!paused){t+=0.016;parp.scale.setScalar(1+0.22*Math.sin(t*4));
+        if(playing){playT+=0.016;if(playT>4){playT=0;applyStep(stepIdx+1);}}
+        mito.position.y=2.8+Math.sin(t*1.2)*0.12;
+        for(var fi=0;fi<flows.length;fi++){var m=flows[fi];m.userData.t=(m.userData.t+m.userData.sp*0.016*3)%1;m.position.copy(m.userData.curve.getPoint(m.userData.t));}
+        if(spin)cellGroup.rotation.y+=0.0006;}
+      renderer.render(scene,camera);})();
+  }
+})();
 </script>
 <script src="../themes/theme-02/pages-svg.js"></script>
 
