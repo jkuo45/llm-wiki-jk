@@ -10383,5 +10383,45 @@
         "ocr": "圖示標題： 發生變化的衰老細胞\n區塊：\n衰老細胞具有：（此為細胞內變化清單的標題）\n形態學變化\n染色質變化\n端粒縮短\nDNA修復功能障礙\n巨分子氧化損傷\n細胞核損傷\n衰老因子\np21 與 p53 含量升高\n1. 發育重編程（此為以流程圖呈現的過程標題）\n去分化\n再分化\nES/iPSCs（胚胎幹細胞／誘導多潛能幹細胞）\n2. 年齡重編程（此為以流程圖呈現的過程標題）\n元素／符號：\n圖中包含數個視覺元素，包括：\n以圓形表示的衰老細胞，內部標示各種變化。\n以圓形表示的年輕細胞。\n箭頭指示各過程（發育重編程與年齡重編程）。\n與細胞衰老相關的因子清單。\n出現轉錄因子（Klf4、Sox2、Oct4、c-Myc 等山中因子）。"
       }
     }
+  },
+  {
+    "id": "n-20260908-parp1-cell-death-00",
+    "document": "",
+    "entities": [
+      "PARP1",
+      "NAD+",
+      "ATP",
+      "AIF",
+      "MIF",
+      "TRPM2",
+      "AMPK",
+      "PARG",
+      "Mitochondria",
+      "Calpain"
+    ],
+    "tags": [
+      "cell-death",
+      "diagrams-charts",
+      "mitochondria",
+      "nad-metabolism",
+      "metabolism"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "parp1_cell_death_1415-4757-GMB-47-s1-e20230357-gf1.jpg"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-09-08",
+    "updated": "2026-09-08",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "PARP1 cell death pathway figure (parthanatos)",
+        "ocr": "PARP1 cell death pathway diagram, compartments Cell membrane, Cytoplasm, Nucleus, Mitochondria\nNucleus: PARP1 on DNA produces Free PAR and Free ADPr, PARG (exo), ARH3, PARG (endo), decreased NAD+ down arrow\nNAD+ links to NAM to NAD Salvage to decreased ATP down arrow, RSP, AMP to AMPK, Free ADPr activates TRPM2 on cell membrane\nCytosol: decreased Glycolysis down arrow, HK Hexokinase, Ca2+ to Calpain to AIF release from mitochondria, MPTP opening\nMitochondria releases AIF, AIF binds MIF in cytosol, AIF-MIF translocates to nucleus with CypA and H2AX, causes DNA fragmentation\nLabels: TRPM2, Ca2+, Calpain, MPTP, AIF, HK, Glycolysis, ATP, AMPK, AMP, NAD Salvage, RSP, NAM, NAD+, Free ADPr, Free PAR, PARP1, PARG, ARH3, CypA, H2AX, MIF, DNA fragmentation"
+      }
+    }
   }
 ]
