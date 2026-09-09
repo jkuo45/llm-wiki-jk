@@ -55,6 +55,10 @@ offset by +1000).
   `web/public/sitemap.xml`, `web/public/data/articles.json`, `web/public/llms.txt`.
 - **Commit messages**: `chore(<scope>): <short lowercase description>` —
   single line, lowercase after the colon, ≤ ~72 chars. Scope optional.
+- **Headings / outline**: prefer descriptive `##` / `###` headings and outline
+  structure without enumeration — no numbered prefixes (`## 1. Foo`,
+  `## Step 1`, `## I. Foo`). Add numbering only when order itself is
+  meaningful (chronology, sequence, scale, ranking).
 
 ---
 
@@ -143,7 +147,9 @@ When answering biomedical questions, in priority order:
 - Display text is fine: `[[Retinoblastoma Protein|Rb]]`.
 - Use callouts (`> [!info]`, `[!tip]`, `[!important]`, `[!warning]`) for
   mechanisms, clinical significance, key findings.
-- Headings: drop enumeration unless it's meaningful (chronology, scale).
+- Headings: use descriptive headings and outline structure without
+  enumeration (`## Overview`, not `## 1. Overview`). Number a heading only
+  when the order itself is meaningful (chronology, sequence, scale, ranking).
 - Entity notes end with `## Documents`, `## Connections`, `## Linking Summary`
   (bidirectional connections with 2–3 sentence justifications).
 
