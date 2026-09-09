@@ -26,15 +26,20 @@ _XSS_RE = re.compile(
 )
 
 
+def _strip_html(text: str, max_len: int) -> str:
+    # ponytail: single html/control/whitespace pass for both inputs
+    text = _HTML_TAG_RE.sub("", text)
+    text = _CONTROL_CHAR_RE.sub("", text)
+    text = _WHITESPACE_RE.sub(" ", text).strip()
+    return text[:max_len]
+
+
 def sanitize_input(text: str) -> str:
     """Sanitize user input. Returns a cleaned string, or "" if invalid."""
     if not text or not isinstance(text, str):
         return ""
 
-    text = _HTML_TAG_RE.sub("", text)
-    text = _CONTROL_CHAR_RE.sub("", text)
-    text = _WHITESPACE_RE.sub(" ", text).strip()
-    text = text[:MAX_INPUT_LENGTH]
+    text = _strip_html(text, MAX_INPUT_LENGTH)
 
     if _XSS_RE.search(text):
         return ""
@@ -54,10 +59,7 @@ def sanitize_analysis(text: str) -> str:
     """Sanitize the free-text description of a custom node analysis."""
     if not text or not isinstance(text, str):
         return ""
-    text = _HTML_TAG_RE.sub("", text)
-    text = _CONTROL_CHAR_RE.sub("", text)
-    text = _WHITESPACE_RE.sub(" ", text).strip()
-    text = text[:MAX_ANALYSIS_LENGTH]
+    text = _strip_html(text, MAX_ANALYSIS_LENGTH)
     if _XSS_RE.search(text):
         return ""
     return text

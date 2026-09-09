@@ -264,10 +264,14 @@ async def reset_session(request: PromptRequest):
     return {"status": "ok"}
 
 
+def _message_result(kind: str, text: str) -> dict:
+    # ponytail: greeting + unknown share shape, only copy differs
+    return {"type": kind, "text": text, "highlight_nodes": [], "highlight_edges": []}
+
+
 def _greeting_result() -> dict:
-    return {
-        "type": "greeting",
-        "text": (
+    return _message_result(
+        "greeting",
             "Hey! I'm your knowledge graph assistant. With **Graphify** on I run graph "
             "operations; switch it off to answer from the wiki instead.\n\n"
             '- **explain** — *"Explain SASP"* — deep dive on a single entity\n'
@@ -275,26 +279,19 @@ def _greeting_result() -> dict:
             '- **analyze** — *"Compare the centrality of NAD+ and SIRT1"* — custom node analysis you can download\n'
             '- **query** — *"Key nodes in longevity research"* — open-ended, natural language questions\n\n'
             "Type a question to get started!"
-        ),
-        "highlight_nodes": [],
-        "highlight_edges": [],
-    }
+    )
 
 
 def _unknown_result() -> dict:
-    return {
-        "type": "unknown",
-        "text": (
+    return _message_result(
+        "unknown",
             "I couldn't understand your question. Try one of:\n\n"
             '- **explain** — *"What is Autophagy?"* — deep dive on a single entity\n'
             '- **path** — *"How does Rapamycin relate to mTOR?"* — traces the direct relationship between two or more nodes\n'
             '- **analyze** — *"Compare the centrality of NAD+ and SIRT1"*\n'
             '- **query** — *"Key nodes in longevity research"* — open-ended, natural language questions\n\n'
             "Or switch **Graphify** off to answer from the wiki instead."
-        ),
-        "highlight_nodes": [],
-        "highlight_edges": [],
-    }
+    )
 
 
 def _sse(payload: dict) -> str:

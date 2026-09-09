@@ -210,20 +210,13 @@ def _list_documents() -> list[dict]:
             out.append({"filename": p.name, "path": rel, "topic": p.parent.name})
     _documents_cache = (mtime, out)
     return out
-    return out
-
-
-def _tr(n: dict, code: str) -> dict:
-    """Resolve a locale block from a note's translations map (empty dict if absent)."""
-    tr = n.get("translations") or {}
-    loc = tr.get(code)
-    return loc if isinstance(loc, dict) else {}
 
 
 def _public_note(n: dict, with_private: bool = False) -> dict:
-    # Default content reads from translations["en-US"]; legacy root title/ocr
-    # fields remain as fallbacks for un-migrated or staged entries.
-    en = _tr(n, "en-US")
+    # ponytail: single accessor, locale dict or {} if absent
+    tr = n.get("translations") or {}
+    en = tr.get("en-US")
+    en = en if isinstance(en, dict) else {}
     title = en.get("title") or n.get("title") or n.get("id", "Untitled note")
     ocr = en.get("ocr") or n.get("ocr") or ""
     pub = {

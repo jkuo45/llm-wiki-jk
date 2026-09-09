@@ -135,31 +135,8 @@ def warm_index() -> None:
         logger.warning(f"entity matcher warm failed: {e}")
 
 
-def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
-    """Find best matching node by label. Returns node id or None."""
-    term_lower = term.lower()
-    terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
-
-    scored = []
-    for nid, ndata in G.nodes(data=True):
-        label = (ndata.get("label") or "").lower()
-        norm = (ndata.get("norm_label") or "").lower()
-        # Exact match bonus
-        if label == term_lower or norm == term_lower:
-            return nid
-        score = sum(1 for t in terms if t in label or t in norm)
-        if score > 0:
-            scored.append((score, len(label), nid))
-
-    if not scored:
-        return None
-
-    scored.sort(key=lambda x: (-x[0], x[1]))
-    return scored[0][2]
-
-
 def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
-    """Find top N matching nodes."""
+    """Find top N matching nodes (limit=1 + [0] replaces _find_node)."""
     term_lower = term.lower()
     terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
 
@@ -167,12 +144,19 @@ def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
     for nid, ndata in G.nodes(data=True):
         label = (ndata.get("label") or "").lower()
         norm = (ndata.get("norm_label") or "").lower()
+        # ponytail: exact match wins, same as old _find_node
+        if label == term_lower or (norm and norm == term_lower):
+            return [nid][:limit]
         score = sum(1 for t in terms if t in label or t in norm)
         if score > 0:
-            scored.append((score, nid))
+            scored.append((-score, len(label), nid))
+    scored.sort()
+    return [nid for _, _, nid in scored[:limit]]
 
-    scored.sort(reverse=True)
-    return [nid for _, nid in scored[:limit]]
+
+def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
+    # ponytail: compat alias, single-result view of _find_nodes
+    return next(iter(_find_nodes(G, term, limit=1)), None)
 
 
 def match_nodes_in_text(text: str, query_text: str = "") -> dict:
@@ -308,7 +292,7 @@ def graph_query(question: str) -> dict:
 def graph_explain(node_name: str) -> dict:
     """Explain a node: show all connections with context."""
     G = get_graph()
-    nid = _find_node(G, node_name)
+    nid = next(iter(_find_nodes(G, node_name, limit=1)), None)
 
     if not nid:
         return {
@@ -446,7 +430,7 @@ def graph_path(waypoints: list[str]) -> dict:
     resolved: list[str] = []
     missing: list[str] = []
     for term in terms:
-        nid = _find_node(G, term)
+        nid = next(iter(_find_nodes(G, term, limit=1)), None)
         if nid is None:
             missing.append(term)
         elif not resolved or resolved[-1] != nid:
@@ -547,7 +531,7 @@ def graph_analyze(nodes: list[str], analysis_text: str = "") -> dict:
     resolved: list[str] = []
     missing: list[str] = []
     for term in terms:
-        nid = _find_node(G, term)
+        nid = next(iter(_find_nodes(G, term, limit=1)), None)
         if nid is None:
             missing.append(term)
         elif not resolved or resolved[-1] != nid:
