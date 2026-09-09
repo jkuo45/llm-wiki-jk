@@ -21,7 +21,7 @@ tags:
 
 # Parthanatos Open Questions — Web Research Update
 Date: 08_Sep_2026 12:00 PM PDT; extended 09_Sep_2026 with all remaining sections
-Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by parthanatos: More questions than answers" (PMC11445734) — all 17 open questions verbatim across 5 sections. Update below integrates 2014–2026 literature.
+Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by parthanatos: More questions than answers" (PMC11445734) — all 17 open questions verbatim across 5 sections plus one supplemental question (Q18, raised in-text, not from Moura). Update below integrates 2014–2026 literature.
 
 ## 1. What factor(s) determine(s) whether NAD supplementation does or does not prevent parthanatos induction?
 
@@ -202,6 +202,8 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
 - Direction: Q-VD vs olaparib vs PAANIB-1 matrix + AIF-PAR-binding mutant + 89-kDa tracking + fragment sizing + CytC vs AIF timing.
 
 ## 18. Is PARG executionary in parthanatos — i.e. does PARG activity execute death rather than merely modulate PAR turnover?
+
+> Supplemental question raised in-text (not one of Moura et al. 2024's 17).
 
 **Status: yes — executionary, dose-dependent hinge. Direction: treat PARG endo-activity as obligate execution step for free-PAR generation.**
 

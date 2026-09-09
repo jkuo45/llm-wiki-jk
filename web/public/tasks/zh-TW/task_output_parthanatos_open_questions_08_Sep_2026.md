@@ -23,7 +23,7 @@ author: []
 # Parthanatos 未解問題 — 網路文獻更新
 
 日期：08_Sep_2026 12:00 PM PDT；09_Sep_2026 擴充至全部章節
-來源框架：Moura 等人 2024，"Molecular mechanisms of cell death by parthanatos: More questions than answers"（PMC11445734）——5 個章節共 17 個問題逐字收錄。以下更新整合 2014–2026 年文獻。
+來源框架：Moura 等人 2024，"Molecular mechanisms of cell death by parthanatos: More questions than answers"（PMC11445734）——5 個章節共 17 個問題逐字收錄，外加一個內文補充問題（Q18，非 Moura 原文）。以下更新整合 2014–2026 年文獻。
 
 ## 1. 決定 NAD 補充能否阻止 parthanatos 誘導的因素是什麼？
 
@@ -204,6 +204,8 @@ author: []
 - 方向：Q-VD vs olaparib vs PAANIB-1 矩陣＋AIF-PAR 結合突變＋89-kDa 追蹤＋片段分型＋CytC vs AIF 時序。
 
 ## 18. PARG 在 parthanatos 中具執行性嗎——即 PARG 活性是執行死亡，而非僅調節 PAR 周轉？
+
+> 內文補充問題（非 Moura 等人 2024 的 17 問之一）。
 
 **現況：是——具執行性、劑量依賴的樞紐。方向：將 PARG 內切活性視為游離 PAR 生成的必要執行步驟。**
 
