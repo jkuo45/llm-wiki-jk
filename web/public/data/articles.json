@@ -108,6 +108,30 @@
         }
     },
     {
+        "id": "cell-death-articles-and-figures",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Cell Death - Articles, figures, images (index)",
+                "path": "pages/en-US/cell-death-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
+            }
+        }
+    },
+    {
+        "id": "hormesis-articles-and-figures",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Hormesis - Articles, figures, images (index)",
+                "path": "pages/en-US/hormesis-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
+            }
+        }
+    },
+    {
         "id": "node-analysis-examples-biology",
         "active": true,
         "langs": {
