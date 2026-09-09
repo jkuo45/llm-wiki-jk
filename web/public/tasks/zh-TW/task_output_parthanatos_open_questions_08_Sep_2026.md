@@ -1,6 +1,6 @@
 ---
 title: "Parthanatos 未解問題 — 網路文獻更新"
-description: "以 2014–2026 年文獻更新 Moura 等人 2024 年提出的全部 17 個未解問題，外加 Q18 PARG 執行性綜合——NAD／糖解／PARG／游離 PAR／TRPM2-Ca2+／Nudix-AMP-自噬／AIF-MIF／凋亡串擾。"
+description: "以 2014–2026 年文獻更新 Moura 等人 2024 年提出的全部 17 個未解問題，外加 Q18 PARG 執行性綜合與 Q19 細胞類型／代謝狀態綜合——NAD／糖解／PARG／游離 PAR／TRPM2-Ca2+／Nudix-AMP-自噬／AIF-MIF／凋亡串擾。"
 created: 2026-09-08
 updated: 2026-09-09
 type: task-output
@@ -214,6 +214,21 @@ author: []
 - 機制：部分 PARG 內切活性產生游離 PAR 執行者（HK1-PBM 抑制＋AIF 567–592 結合）；完全阻斷餓死游離 PAR 池；極高外切活性摧毀游離 PAR（Mashimo 2013 雙功能；Barkauskaite 2015 外切為主）。新 PARG53 剪接亞型（exon-1→8，具催化活性）解釋存活的 exon-3/7 KO 低效株保留活性（Chen 團隊＋Hoch 實驗室 2026）；長期 KO 混雜自身 PAR 化 PARP1 累積（Gogola 2018）。
 - 原文註記（Moura 等人 2024，逐字）：> There is extensive but conflicting evidence as to the role of PARG in parthanatos, with several studies suggesting that PARG can either prevent or promote PARP1-dependent cell death. In favour of an inhibitory role, PARG overexpression reduced MNNG-induced cell death in mouse neuronal cultures (Andrabi et al., 2006) and reduced NMDA-induced AIF release from mitochondria (Yu et al., 2006) [...] In contrast, other studies suggest that PARG is necessary for, or at least contributes to, the process of parthanatos. PARG inhibition protected mice against brain ischaemia (Lu et al., 2003), and PARG silencing rendered cells more resistant to treatment with H2O2 but not MNNG (Blenn et al., 2006).
 - 方向：PARG 滴定（0.3–10 uM PDD00017273/COH34/JA2131）＋PARG53 意識 PCR＋MAR-vs-PAR blot＋同孔 NAD/ATP/PAR＋HK 活性＋AIF 定位；比較 H2O2 vs MNNG vs NMDA。
+
+## 19. 細胞類型與代謝狀態會改變 parthanatos 的進程嗎？
+
+**現況：會——細胞譜系與燃料狀態重排主導的執行臂。方向：每個實驗皆須報告譜系＋燃料＋TRPM2/AIF 狀態；勿跨細胞類型推論。**
+
+- 更複雜的是，不同細胞類型、在不同代謝狀態下，parthanatos 的進程似乎有明顯差異。
+- 譜系分流（AIF 依賴 vs 非依賴）：皮質／RGC／SH-SY5Y／MEFs——PAR → AIF–MIF 核轉位為必要，AIF-KD 可挽救（Moura Table 1；661W 光模型 64%→38%）；對比 ARPE-19/H2O2、BMDMs、HK-2-TGHQ、胰臟 ZZW-115——無可偵測的 AIF 轉位，AIF-siRNA 無挽救，死亡經由 NAD/ATP 跌＋粒線體分裂／OPA1-L 流失＋去極化（Jang CDD 2017；Regdon 2019）。
+- 代謝狀態決定因素：
+  1. **糖解 vs OXPHOS 依賴**：依賴糖解的細胞（神經元、LN428、僅葡萄糖 aCSF 的星形膠質細胞）經 PAR–HK1 阻斷更快死亡；具 pyruvate／glutamine 能力的細胞繞道至粒線體而抵抗（Zong 2004；Andrabi 2014；Fouquerel 2014）。
+  2. **培養基碳源**：僅葡萄糖暴露 HK 阻斷；＋pyruvate／＋glutamine 掩蓋之——解釋 Alano（星形膠質細胞、NAD 可挽救）vs Andrabi/Fouquerel（神經元／膠質母細胞瘤、NAD 不足）的分歧。
+  3. **氧化還原／PPP 狀態**：HK 阻斷餓死 PPP → NADPH/GSH 跌；GSH-ester／NADPH 支持可挽救且與 ATP 無關（Hossain 2024；Andrabi Fig.5E）。
+  4. **TRPM2/Ca2+ 線路**：TRPM2 高表現的可興奮細胞（紋狀體／皮質／海馬神經元、心肌細胞、β 細胞、小膠質細胞）使用 Ca2+→calpain→BID–BAX→AIF 臂；低 TRPM2／MNNG 系統使用 ER 庫或 Ca2+ 非依賴路徑（Bentle 2006；Munoz 2017；Zhong 2018）。
+  5. **增殖／靜止**：G1 停滯／衰老樣 BER 缺陷細胞累積毒性 PAR → 早期 OCR 跌而無 ECAR 代償 → 晚期 AIF（ResearchSquare rs.3.rs-10223032/v1 2026 年 7 月）；ATM-KO PARGi 死亡為複製壓力、AIF 陰性（J Transl Med 2026）。
+  6. **粒線體池**：SNpc DA 神經元呈現 mito-PAR＋VDAC1 共定位、鄰近 Lewy 體（Cell Death Dis 2026）——分裂後神經元預置外膜 AIF 池釋放條件。
+- 方向：最小細胞狀態組合——（a）譜系＋TRPM2 亞型／表現量、（b）ECAR/OCR＋燃料（葡萄糖 ± pyruvate/glutamine）、（c）同孔 NAD/PAR/ATP、（d）AIF IF＋分級分離＋挽救、（e）PARG53/ARH3 狀態。於同一株比較 pyruvate＋GSH-ester vs MIF 抑制劑 vs TRPM2-KO，以歸屬主導臂。
 
 ## 橫切最新指針（2024–2026）
 

@@ -1,5 +1,5 @@
 {
-  "generated": "08_SEP_2026 05:38 PM PDT",
+  "generated": "08_SEP_2026 06:55 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -1737,6 +1737,43 @@
       }
     },
     {
+      "id": "task:task_output_sirtuins_resveratrol",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
+          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol",
+            "sirt1",
+            "stacs",
+            "polyphenols"
+          ],
+          "filename": "task_output_sirtuins_resveratrol.md",
+          "path": "tasks/en-US/task_output_sirtuins_resveratrol.md"
+        },
+        "zh-TW": {
+          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
+          ],
+          "filename": "task_output_sirtuins_resveratrol.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
+        }
+      }
+    },
+    {
       "id": "task:task_output_node_analysis_biology_16_AUG_2026",
       "kind": "task",
       "langs": {
@@ -1957,43 +1994,6 @@
           ],
           "filename": "task_output_acid_ceramidase_27_July_2026.md",
           "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_sirtuins_resveratrol",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol",
-            "sirt1",
-            "stacs",
-            "polyphenols"
-          ],
-          "filename": "task_output_sirtuins_resveratrol.md",
-          "path": "tasks/en-US/task_output_sirtuins_resveratrol.md"
-        },
-        "zh-TW": {
-          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
-          "created": "2026-07-02",
-          "updated": "2026-07-05",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol"
-          ],
-          "filename": "task_output_sirtuins_resveratrol.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
         }
       }
     },
