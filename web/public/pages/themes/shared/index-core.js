@@ -51,11 +51,18 @@ window.IndexCore = (function () {
     if (isNaN(days)) return 3;
     return days <= 7 ? 1 : days <= 30 ? 2 : 3;
   }
+  /* Bucket 4 is reserved for de-emphasized entries (articles.json
+     `weight > 0`, e.g. *-articles-and-figures indexes). Pages assign it
+     explicitly — bucket() above never returns it — so all index-type
+     entries group together in one trailing section regardless of date.
+     Unused buckets render nothing (callers skip empty groups), so pages
+     without weighted entries (e.g. tasks-index) are unaffected. */
   var BUCKETS = [
     ["Starred", "星標", ""],
     ["Created this week", "本週建立", "fresh"],
     ["Created this month", "本月建立", "recent"],
     ["Older", "較早", "old"],
+    ["Indexes", "索引附錄", "old"],
   ];
 
   /* DB-backed flag overlay (content_flags via the FastAPI adapter).

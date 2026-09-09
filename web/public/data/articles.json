@@ -74,6 +74,7 @@
     {
         "id": "sirtuins-articles-and-figures",
         "active": true,
+        "weight": 100,
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Articles, figures, images (index)",
@@ -92,6 +93,7 @@
     {
         "id": "senescence-articles-and-figures",
         "active": true,
+        "weight": 100,
         "langs": {
             "en-US": {
                 "title": "Senescence - Articles, figures, images (index)",
@@ -110,6 +112,7 @@
     {
         "id": "cell-death-articles-and-figures",
         "active": true,
+        "weight": 100,
         "langs": {
             "en-US": {
                 "title": "Cell Death - Articles, figures, images (index)",
@@ -128,6 +131,7 @@
     {
         "id": "hormesis-articles-and-figures",
         "active": true,
+        "weight": 100,
         "langs": {
             "en-US": {
                 "title": "Hormesis - Articles, figures, images (index)",

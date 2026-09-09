@@ -77,6 +77,10 @@
 
 .article-meta:last-child { margin-bottom: 0; }
 
+/* Index-type entries (weight > 0 in articles.json) sit at the bottom of
+   each bucket and render dimmed so real articles stay prominent. */
+.article-card.is-index { opacity: 0.72; }
+
 /* Badge base + fill/accent variants come from theme.css .badge.fill */
 @media (max-width: 640px) {
   .article-card { padding: 16px 16px 14px; }
@@ -147,21 +151,26 @@
         const en = a.langs['en-US'];
         const zh = a.langs['zh-TW'];
         const starred = dbStarred(a);
+        const weight = a.weight || 0;
         return {
           id: a.id,
           _idx: ai,
           display: asStr(en.title),
           starred,
+          weight,
           zhTitle: zh ? asStr(zh.title) : '',
           desc: asStr(en.description || ''),
           enPath: en.path.replace(/^pages\//, ''),
           zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
           created: en.created || '',
           age: relAge(en.created || ''),
-          bucket: starred ? 0 : bucket(en.created || '')
+          /* Weighted entries (index pages) skip the time buckets and land
+             together in the trailing Indexes section (bucket 4). */
+          bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(en.created || ''))
         };
       })
       .sort((x, y) => (y.starred - x.starred) ||
+        (x.weight - y.weight) ||
         (y.created || '').localeCompare(x.created || ''));
 
       function render(){
@@ -176,7 +185,7 @@
           html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
                   `<span class="bucket-count">${group.length}</span></h2><ul class="article-list">`;
           html += group.map((a) => `
-            <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}">
+            <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}${a.weight > 0 ? ' is-index' : ''}">
               <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>

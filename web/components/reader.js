@@ -88,7 +88,9 @@ function sortedGroups(rows) {
   const groupKey = new Map();
   rows.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
   // Display order is derived here (not baked into the JSON): starred groups
-  // first, then newest group first. Each group is a single dropdown option,
+  // first, then lowest `weight` first (index-type entries carry
+  // `weight: 100` in articles.json so they sink to the bottom), then newest
+  // group first. Each group is a single dropdown option,
   // so en/zh pairs always stay together regardless of per-entry `created`
   // differences. Swap `created` for `updated` below if you'd rather sort by
   // last-modified.
@@ -100,6 +102,9 @@ function sortedGroups(rows) {
       const starDiff = (rows.find((r) => r.group === b)?.starred ? 1 : 0) -
         (rows.find((r) => r.group === a)?.starred ? 1 : 0);
       if (starDiff) return starDiff;
+      const weightDiff = (rows.find((r) => r.group === a)?.weight || 0) -
+        (rows.find((r) => r.group === b)?.weight || 0);
+      if (weightDiff) return weightDiff;
       return groupCreated(b).localeCompare(groupCreated(a));
     });
 }
@@ -234,7 +239,18 @@ function buildOptions() {
         : '')
       .join('');
   } else {
-    select.innerHTML = groups.map((g) => optionHTML(rows, g)).join('');
+    // Weighted groups (index pages, weight > 0 in articles.json) trail in
+    // their own optgroup so they stay together at the bottom of the
+    // dropdown instead of interleaving with time-sorted articles.
+    const groupWeight = (g) => rows.find((r) => r.group === g)?.weight || 0;
+    const main = groups.filter((g) => groupWeight(g) <= 0);
+    const indexes = groups.filter((g) => groupWeight(g) > 0);
+    select.innerHTML = main.map((g) => optionHTML(rows, g)).join('') +
+      (indexes.length
+        ? `<optgroup label="Indexes / 索引附錄 (${indexes.length})">` +
+          indexes.map((g) => optionHTML(rows, g)).join('') +
+          '</optgroup>'
+        : '');
   }
   // Nothing opened yet → preselect the source's index entry so the Reader
   // button opens the index by default (openReader re-selects afterwards).
