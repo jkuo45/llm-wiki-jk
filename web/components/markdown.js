@@ -89,31 +89,37 @@ export function renderMarkdown(text, opts = {}) {
     return `\u0000LI${listItems.length - 1}\u0000`;
   });
   // Rebuild each run of adjacent list-item placeholders as a nested <ul>/<ol>.
+  // The tree is built from indentation depth alone so a nested list of a
+  // different kind (e.g. `1.` containing `-`) stays inside its parent <li>;
+  // sibling runs of the same kind share one list element for valid HTML.
   html = html.replace(/(?:\u0000LI\d+\u0000\n?)+/g, (block) => {
     const run = [];
     block.replace(/\u0000LI(\d+)\u0000/g, (m, i) => { run.push(listItems[+i]); return m; });
     if (!run.length) return block;
-    const nest = (items, tag) => {
-      const root = { children: [] };
-      const stack = [root];
-      for (const it of items) {
-        while (stack.length > 1 && stack[stack.length - 1].depth >= it.depth) stack.pop();
-        const node = { depth: it.depth, text: it.text, children: [] };
-        stack[stack.length - 1].children.push(node);
-        stack.push(node);
-      }
-      const render = (n) => n.children.length
-        ? `<li>${n.text}<${tag}>${n.children.map(render).join('')}</${tag}></li>`
-        : `<li>${n.text}</li>`;
-      return `<${tag}>${root.children.map(render).join('')}</${tag}>`;
-    };
-    // Split the run into contiguous same-kind segments.
-    let out = '', seg = [run[0]];
-    for (let i = 1; i <= run.length; i++) {
-      if (i < run.length && run[i].kind === seg[seg.length - 1].kind) seg.push(run[i]);
-      else { out += nest(seg, seg[0].kind); seg = run[i] ? [run[i]] : []; }
+    const root = { depth: -1, children: [] };
+    const stack = [root];
+    for (const it of run) {
+      while (stack[stack.length - 1].depth >= it.depth) stack.pop();
+      const node = { ...it, children: [] };
+      stack[stack.length - 1].children.push(node);
+      stack.push(node);
     }
-    return out;
+    const renderNodes = (nodes) => {
+      let out = '', i = 0;
+      while (i < nodes.length) {
+        const tag = nodes[i].kind;
+        let j = i + 1;
+        while (j < nodes.length && nodes[j].kind === tag) j++;
+        const group = nodes.slice(i, j);
+        out += `<${tag}>` + group.map((n) => {
+          const inner = n.children.length ? renderNodes(n.children) : '';
+          return `<li>${n.text}${inner}</li>`;
+        }).join('') + `</${tag}>`;
+        i = j;
+      }
+      return out;
+    };
+    return renderNodes(root.children);
   });
   // Links: [text](url)
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
