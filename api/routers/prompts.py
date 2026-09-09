@@ -157,8 +157,6 @@ async def health():
 
     `nodes`/`edges` report the canonical combined (triples + wiki) dataset —
     the default UI graph in web/public/data/nodes.json + edges.json.
-    `triples_nodes`/`triples_edges` report the graph ops backend
-    (graphify-out/graph.json) for provenance.
     """
     G = get_graph()
     combined = get_combined_counts()
@@ -166,8 +164,6 @@ async def health():
         "status": "ok",
         "nodes": combined["nodes"] if combined["nodes"] is not None else G.number_of_nodes(),
         "edges": combined["edges"] if combined["edges"] is not None else G.number_of_edges(),
-        "triples_nodes": G.number_of_nodes(),
-        "triples_edges": G.number_of_edges(),
         "sessions": len(_sessions),
     }
     try:

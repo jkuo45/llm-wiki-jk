@@ -71,7 +71,6 @@ class TestHealth:
         assert body["status"] == "ok"
         # no combined dataset in tmp -> falls back to triples graph
         assert body["nodes"] == 5 and body["edges"] == 4
-        assert body["triples_nodes"] == 5 and body["triples_edges"] == 4
         assert body["opencode"] == {"status": "ok", "version": "1.18.5"}
 
     def test_combined_counts(self, api_env, monkeypatch, tmp_path):
@@ -85,7 +84,6 @@ class TestHealth:
             json.dumps([{"from": "0", "to": "1"} for _ in range(9)]))
         body = api_env.get("/v1/health").json()
         assert body["nodes"] == 7 and body["edges"] == 9
-        assert body["triples_nodes"] == 5 and body["triples_edges"] == 4
 
     def test_degraded_without_opencode(self, api_env, monkeypatch):
         async def down():
