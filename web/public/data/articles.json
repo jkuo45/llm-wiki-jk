@@ -116,6 +116,12 @@
                 "path": "pages/en-US/cell-death-articles-and-figures.html",
                 "created": "2026-09-09",
                 "updated": "2026-09-09"
+            },
+            "zh-TW": {
+                "title": "細胞死亡 — 文章中的圖像與圖表",
+                "path": "pages/zh-TW/cell-death-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
             }
         }
     },
@@ -126,6 +132,12 @@
             "en-US": {
                 "title": "Hormesis - Articles, figures, images (index)",
                 "path": "pages/en-US/hormesis-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
+            },
+            "zh-TW": {
+                "title": "毒物興奮效應 — 文章中的圖像與圖表",
+                "path": "pages/zh-TW/hormesis-articles-and-figures.html",
                 "created": "2026-09-09",
                 "updated": "2026-09-09"
             }

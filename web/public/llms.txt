@@ -66,6 +66,8 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [腎上腺色素 亞甲藍/銀 方案（推測性）](https://graph.johnnykuo.com/pages/zh-TW/adrenochrome-protocol.html): 互動式解說器 — 推測性方案，非醫療建議。
 - [Sirtuins — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/zh-TW/sirtuins-articles-and-figures.html): Sirtuin 相關文章圖像與圖表的索引。
 - [細胞衰老 — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/zh-TW/senescence-articles-and-figures.html): 細胞衰老相關文章圖像與圖表的索引。
+- [細胞死亡 — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/zh-TW/cell-death-articles-and-figures.html): 細胞死亡相關文章圖像與圖表的索引（壞死性凋亡、Parthanatos）。
+- [毒物興奮效應 — 文章中的圖像與圖表](https://graph.johnnykuo.com/pages/zh-TW/hormesis-articles-and-figures.html): 毒物興奮效應相關文章圖像與圖表的索引（預處理、飲食毒物興奮素、訓練免疫、運動、有益壓力）。
 - [用於生物學優先排序的節點層級網絡分析](https://graph.johnnykuo.com/pages/zh-TW/node-analysis-examples-biology.html): 一篇方法論簡報——運用 NetworkX 中心性指紋（度數、PageRank、中介中心性、聚類係數、k-core、社群）在具向知識圖譜中篩選生物醫學實體，並以本知識庫真實節點作為實作成例。
 - [Caspases — 圖譜分析（wiki + triples）](https://graph.johnnykuo.com/pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html)：在合併的 triples + wiki 圖譜上，對全部 13 個 caspase 節點的多指標分析——兩社群家族結構（死亡程序 vs 發炎老化楔形）、Caspase-8 為唯一主調控者、跨死亡模式的 PPR 簽名、分層分解顯示 PIDDosome 軸僅存在於 triples 層、經文獻裁決的連結預測（Caspase-9 → Cancer AA 0.90；Caspase-3 → Apoptosis AA 15.9），以及針對未接線的 senolytic 與衰老–caspase 軸的增補佇列。
 - [合併知識圖譜中的生物過程（wiki 與 triples）](https://graph.johnnykuo.com/pages/zh-TW/wiki-and-triples-graph-biological-processes.html): 以生物學為中心的合併（triples + wiki）圖譜導覽——聯集連通性（k-core 6 → 20、最大連通分量 94%）、僅 wiki 的過程（cGAS–STING／第一型干擾素、細胞週期、p53/TP53 整併、NMN／NAD+、粒線體自噬）、意外連結與預測邊，以及以聯集拓撲重新計算指標的工作生物學過程實例。
