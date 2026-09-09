@@ -161,7 +161,12 @@ function updatePrevBtn() {
 // Rendering
 // ------------------------------------------------------------
 function loadArticle(article, section) {
-  const anchor = section ? '#' + encodeURIComponent(section) : '';
+  // Tour state from an embedded tour page (e.g. Inside the Cell) travels in
+  // `section` verbatim as `tour=<mode>&step=<n>` and must be appended RAW —
+  // encodeURIComponent would break the page's own #tour=…&step=… parsing.
+  const anchor = !section ? ''
+    : /^tour=[A-Za-z0-9_]+(&step=\d+)?$/.test(section) ? '#' + section
+    : '#' + encodeURIComponent(section);
   let url;
   if (article.kind === 'task' && article.path.endsWith('.md')) {
     // Task outputs are raw markdown rendered by the shared md-viewer shell;
@@ -322,6 +327,9 @@ let trackingDoc = null;
 function pollActiveSection() {
   const doc = trackingDoc;
   if (!doc || !isReaderOpen()) return;
+  // A tour page mirrors its own state via postMessage — never let the
+  // section-id scroll spy overwrite it.
+  if (state.readerSection && state.readerSection.indexOf('tour=') === 0) return;
   const sections = Array.from(doc.querySelectorAll('section[id]'));
   if (!sections.length) return;
   const navBottom = 60; // sticky nav offset within the article
@@ -367,12 +375,41 @@ function stopSectionTracking() {
   trackingDoc = null;
 }
 
+/* Tour state from an embedded tour page (e.g. Inside the Cell) announces
+   itself via postMessage so the outer #reader=<id>&section=… hash stays in
+   sync — a URL copied from the address bar then reopens inside the reader
+   instead of on the standalone page. Mirrors with replaceState (no history
+   spam); the iframe's own hashchange listener applies outer back/forward
+   and language-toggle navigations without a reload. */
+window.addEventListener('message', (e) => {
+  if (e.origin !== window.location.origin) return;
+  if (!e.data || e.data.type !== 'reader-tour') return;
+  if (!isReaderOpen()) return;
+  if (e.source !== frame.contentWindow) return;
+  const section = typeof e.data.section === 'string' ? e.data.section : '';
+  if (!/^tour=[A-Za-z0-9_]+(&step=\d+)?$/.test(section)) return;
+  if (section === state.readerSection) return;
+  state.readerSection = section;
+  updateHash(false);
+});
+
 /* In-frame article links announce themselves via postMessage so the
    dropdown / lang toggle update immediately on click (the frame `load`
    handler below is the fallback that reconciles after navigation). */
 window.addEventListener('message', (e) => {
   if (e.origin !== window.location.origin) return;
-  if (!e.data || e.data.type !== 'reader-navigate') return;
+  if (!e.data || typeof e.data !== 'object') return;
+  // In-iframe tab switches (e.g. cell-death-comparison table ↔ animations)
+  // report their section so the parent hash stays shareable.
+  if (e.data.type === 'reader-section') {
+    if (!isReaderOpen()) return;
+    const sec = e.data.section || null;
+    if (state.readerSection === sec) return;
+    state.readerSection = sec;
+    updateHash();
+    return;
+  }
+  if (e.data.type !== 'reader-navigate') return;
   const article = getArticle(e.data.id);
   if (!article || article.id === state.readerId) return;
   if (readerStack[readerStack.length - 1] !== article.id) {

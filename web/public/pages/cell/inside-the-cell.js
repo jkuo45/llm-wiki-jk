@@ -1059,7 +1059,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     renderPanel();
     writeHash();
   }
-  function setMode(m, keepStep) {
+  function setMode(m, keepStep, push) {
     mode = m; if (!keepStep) stepIdx = 0; autoplay = false; selected = null;
     pulseIds = new Set();
     if (m === 'explore') {
@@ -1073,22 +1073,35 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       if (b.dataset && b.dataset.tour) b.classList.toggle('is-active', b.dataset.tour === m);
     });
     renderPanel();
-    writeHash();
+    writeHash(push);
   }
   /* Deep links: #tour=<mode>&step=<n> — written on every change, read on load,
-     so switching languages (or sharing the URL) restores the same section. */
-  function writeHash() {
+     back/forward (hashchange), so switching languages (or sharing the URL)
+     restores the same section. Tour switches push a history entry; step
+     changes replace it to avoid spamming history on every Next/Prev. */
+  function writeHash(push) {
+    let h = '';
     try {
-      const h = mode === 'explore' ? '#tour=explore' : `#tour=${mode}&step=${stepIdx + 1}`;
-      history.replaceState(null, '', h);
+      h = mode === 'explore' ? '#tour=explore' : `#tour=${mode}&step=${stepIdx + 1}`;
+      if (push) history.pushState(null, '', h);
+      else history.replaceState(null, '', h);
     } catch (e) { /* non-browser / sandboxed contexts */ }
+    /* Embedded in the Reader iframe: mirror the tour into the parent's
+       #reader=<id>&section=… hash (replace-only, no history spam) so a URL
+       copied from the address bar reopens inside the reader. */
+    try {
+      if (h && window.self !== window.top) {
+        window.parent.postMessage({ type: 'reader-tour', section: h.slice(1) }, window.location.origin);
+      }
+    } catch (e) { /* standalone — nothing to notify */ }
   }
   function readHash() {
     try {
       const h = location.hash || '';
       const tm = /tour=([A-Za-z0-9_]+)/.exec(h);
       const sm = /step=(\d+)/.exec(h);
-      if (tm && TOURS[tm[1]] && TOURS[tm[1]].steps) {
+      if (tm && TOURS[tm[1]]) {
+        if (!TOURS[tm[1]].steps) return { mode: tm[1], step: 0 };
         const n = T[TOURS[tm[1]].steps].length;
         const s = sm ? parseInt(sm[1], 10) - 1 : 0;
         return { mode: tm[1], step: Math.min(Math.max(isNaN(s) ? 0 : s, 0), n - 1) };
@@ -1106,7 +1119,9 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     els.orgList.appendChild(b);
   }
   if (els.tabs) [...els.tabs.children].forEach((b) => {
-    if (b.dataset && b.dataset.tour) b.onclick = (e) => { if (e && e.preventDefault) e.preventDefault(); setMode(b.dataset.tour); };
+    if (!(b.dataset && b.dataset.tour)) return;
+    b.href = `#tour=${b.dataset.tour}`;
+    b.onclick = (e) => { if (e && e.preventDefault) e.preventDefault(); setMode(b.dataset.tour, false, true); };
   });
   els.prev.onclick = () => {
     const n = T[TOURS[mode].steps].length;
@@ -1123,6 +1138,13 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     if (mode === 'explore' || /INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
     if (e.key === 'ArrowRight') els.next.onclick();
     if (e.key === 'ArrowLeft') els.prev.onclick();
+  });
+  addEventListener('hashchange', () => {
+    const r = readHash();
+    if (!r) return;
+    if (r.mode === mode && r.step === stepIdx) return;
+    mode = r.mode; stepIdx = r.step;
+    setMode(mode, true);
   });
 
   const FOCUS = {
