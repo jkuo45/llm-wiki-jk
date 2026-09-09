@@ -32,22 +32,32 @@ author: []
 - NAD 中心證據（星形膠質細胞、僅含葡萄糖的培養基）：Alano 等人 2004、2010；Ying 等人 2005——外源性 NAD+、pyruvate、α-ketoglutarate 可阻止死亡；FK866 耗竭 NAD 單獨即可表型模擬。Zong 等人 2004——依賴糖解的細胞更敏感，pyruvate 可挽救。某些條件下 NR/NMN 可挽救：Nishida 等人 2022；Santofimia-Castaño 等人 2022。
 - PAR 中心反證（皮質神經元、LN428 膠質母細胞瘤）：Andrabi 等人 2014（PNAS 111:10209）；Fouquerel 等人 2014（Cell Rep 8:1819）——深度 FK866 NAD 耗竭若無 PARP 過度活化，不會造成 ATP／糖解崩潰；NR 補充可恢復 NAD 池，但無法挽救 ECAR／糖解或 ATP 流失。
 - 新浮現的決定因素：
-  1. **PAR 負荷 vs NAD 流失**：若產生 PAR 聚合物（PARP 過度活化＋PARG 內切活性），單獨補 NAD 不足。若死亡主要由無大量游離 PAR 爆發的 NAD／能量衰竭驅動，則補 NAD 可挽救。
-  2. **碳源可用性**：培養基中的 pyruvate／glutamine 可繞過 hexokinase 阻斷，掩蓋 NAD 效應（Andrabi 2014；Alano 作者群自己也標示了 aCSF 僅含葡萄糖的人為假象）。
-  3. **區室化**：核／胞質 NAD 快速平衡 vs 獨立的粒線體池（Cambronne 2016；Covarrubias 2021）；粒線體 PARP1 池＋SLC25A51 NAD 轉運體（Girardi/Kory/Luongo 2020）意味全細胞 NAD 量測會誤導。胞質 NAD 決定糖解；粒線體 NAD 決定呼吸。
-  4. **NAD 補救成本**：每輪 ADP-ribose 的完整 NAD 補救需耗費 4 個高能磷酸鍵（Moura Fig.2）；高 PAR 周轉下，補救本身加深 ATP 流失——補充前驅物可能餵養 PARP、加劇 PAR 爆發（參 NAMPT→NAD→PARP 在乾癬模型、斑馬魚 2021 中助長 parthanatos；NAD 生合成高的卵巢癌 PARPi 抗性 2024）。
-  5. **PARG/ARH3 狀態**（見下方 2026 預印本）：完全抑制 PARG 可解除 NAD 耗竭（仍發生）與 ATP 耗竭／細胞死亡（被阻止）的耦合——單看 NAD 讀值無法預測存活。
-- 實務方向：務必報告（a）培養基（僅葡萄糖 vs ＋pyruvate）、（b）區室解析的 NAD＋PAR 量、（c）PARG/ARH3 活性、（d）NR/NMN 劑量時序。以 NAD＋pyruvate vs 單獨 NAD 拆解兩分支。
+  - **PAR 負荷 vs NAD 流失**：若產生 PAR 聚合物（PARP 過度活化＋PARG 內切活性），單獨補 NAD 不足。若死亡主要由無大量游離 PAR 爆發的 NAD／能量衰竭驅動，則補 NAD 可挽救。
+  - **碳源可用性**：培養基中的 pyruvate／glutamine 可繞過 hexokinase 阻斷，掩蓋 NAD 效應（Andrabi 2014；Alano 作者群自己也標示了 aCSF 僅含葡萄糖的人為假象）。
+  - **區室化**：核／胞質 NAD 快速平衡 vs 獨立的粒線體池（Cambronne 2016；Covarrubias 2021）；粒線體 PARP1 池＋SLC25A51 NAD 轉運體（Girardi/Kory/Luongo 2020）意味全細胞 NAD 量測會誤導。胞質 NAD 決定糖解；粒線體 NAD 決定呼吸。
+  - **NAD 補救成本**：每輪 ADP-ribose 的完整 NAD 補救需耗費 4 個高能磷酸鍵（Moura Fig.2）；高 PAR 周轉下，補救本身加深 ATP 流失——補充前驅物可能餵養 PARP、加劇 PAR 爆發（參 NAMPT→NAD→PARP 在乾癬模型、斑馬魚 2021 中助長 parthanatos；NAD 生合成高的卵巢癌 PARPi 抗性 2024）。
+  - **PARG/ARH3 狀態**（見下方 2026 預印本）：完全抑制 PARG 可解除 NAD 耗竭（仍發生）與 ATP 耗竭／細胞死亡（被阻止）的耦合——單看 NAD 讀值無法預測存活。
+- 實務方向：務必報告：
+  - 培養基（僅葡萄糖 vs ＋pyruvate）
+  - 區室解析的 NAD＋PAR 量
+  - PARG/ARH3 活性
+  - NR/NMN 劑量時序。以 NAD＋pyruvate vs 單獨 NAD 拆解兩分支。
 
 ## 2. 糖解抑制對 parthanatos 細胞死亡而言是必要且／或充分的嗎？
 
 **現況：核心但單獨既非嚴格必要亦非充分。方向：糖解阻斷是相關性最佳的代謝病灶；AIF/MIF DNA 切割是平行的致死臂。**
 
 - 支持必要性：pyruvate/α-ketoglutarate 繞道在 NAD 中心與 PAR 中心模型中皆可挽救死亡（Ying 2002/2003；Zong 2004；Andrabi 2014）——與糖解阻斷為瓶頸一致。OGD 模型 2024（FASEB J 202302559R）：PARP 抑制或 WT-HK1／PAR 結合突變 HK1 過表現可同步改善糖解＋粒線體功能＋氧化還原＋存活。
-- 反對充分性：（a）Bax/calpain KO 細胞：NAD+ 下降但存活如 DPQ 處理的 WT（引自 IJMS 2022 綜述）——僅有代謝病灶而無 AIF 釋放不足以致死。（b）存在不依賴 AIF 的 parthanatos——視網膜細胞、巨噬細胞、HK-2、胰臟模型呈現 PARP 依賴性死亡而無可偵測的 AIF 轉位（Moura 2024 Table 1）。（c）PARP1 KO MCAO 中 ATP 量不總是追蹤梗塞體積（同上）。
+- 反對充分性：
+  - Bax/calpain KO 細胞：NAD+ 下降但存活如 DPQ 處理的 WT（引自 IJMS 2022 綜述）——僅有代謝病灶而無 AIF 釋放不足以致死。
+  - 存在不依賴 AIF 的 parthanatos——視網膜細胞、巨噬細胞、HK-2、胰臟模型呈現 PARP 依賴性死亡而無可偵測的 AIF 轉位（Moura 2024 Table 1）。
+  - PARP1 KO MCAO 中 ATP 量不總是追蹤梗塞體積（同上）。
 - HK1 之外的糖解標的：腎臟 I/R 中 GAPDH PAR 化抑制糖解（Devalaraja-Narashimha 2009）；Krebs 循環酶（SDH、α-KGDH、PDH）出現於 PAR 交互作用體（Fouquerel 2014 suppl.）。
 - PPP 推論：HK 阻斷餓死 PPP → NADPH/GSH 流失（Hossain 等人 2024；Andrabi 2014 Fig.5E）——氧化還原崩潰可能是糖解抑制真正的致死輸出，而非 ATP 本身。
-- 方向：在單一系統中以正交挽救檢驗必要／充分性——（i）PBM 突變 HK1 knock-in、（ii）pyruvate＋GSH-ester＋NADPH 支持、（iii）MIF 核酸酶抑制劑（Park 等人 2022）± 糖解挽救。若挽救糖解而未阻斷 AIF 仍死亡（DNA 片段化持續），則糖解為促成因素而非充分條件。
+- 方向：在單一系統中以正交挽救檢驗必要／充分性：
+  - PBM 突變 HK1 knock-in
+  - pyruvate＋GSH-ester＋NADPH 支持
+  - MIF 核酸酶抑制劑（Park 等人 2022）± 糖解挽救。若挽救糖解而未阻斷 AIF 仍死亡（DNA 片段化持續），則糖解為促成因素而非充分條件。
 
 ## 3. 游離 PAR 鏈如何抑制 hexokinase 活性？
 
@@ -62,17 +72,21 @@ author: []
   - 抑制劑是游離 PAR 還是蛋白結合型 PAR？PARG 內切酶產生游離鏈；外切酶產生單體（Barkauskaite 2015——外切為主）。游離鏈如何以足夠長度／複雜度逃過核內 PARG 抵達胞質仍未知；鏈長／分支度與毒性相關（Andrabi 2006 BioPorter PAR 遞送）。
   - PARG 悖論：PARG-KD 在 LN428 挽救糖解（Fouquerel），但 PARG 過表現在神經元挽救（Andrabi）——意味劑量／脈絡決定 PARG 是製造抑制劑（游離 PAR）還是摧毀它（Mashimo 2013 雙功能假說）。
   - AIF–HK 連結：Andrabi 假設 PAR 誘導的 AIF 釋放破壞 AIF–HK 交互作用，加劇 HK 流失——未驗證。
-- 方向：（a）HK1–PAR 複合體冷凍電鏡／結構、鏈長滴定；（b）PAR 處理前後 VDAC–HK1 FRET；（c）具 PARG53 剪接變異意識的 PARG 操作（見 §5／2026 預印本）；（d）在同一裂解液中檢驗 GAPDH 共抑制。
+- 方向：
+  - HK1–PAR 複合體冷凍電鏡／結構、鏈長滴定
+  - PAR 處理前後 VDAC–HK1 FRET
+  - 具 PARG53 剪接變異意識的 PARG 操作（見 §5／2026 預印本）
+  - 在同一裂解液中檢驗 GAPDH 共抑制。
 
 ## 4. NAD+ 與 ATP 耗竭在機制上相連嗎？
 
 **現況：相連但可解離——至少三條耦合路徑加一個解耦證明。方向：視為 PAR 周轉的平行輸出，而非單一線性鏈。**
 
 - 耦合路徑：
-  1. **NAD 作為輔因子**：NAD+ 流失限制 GAPDH/LDH/TCA/NADH→OXPHOS（古典自殺假說，Berger 1985；Ha & Snyder 1999）。
-  2. **補救成本**：由 NAM＋ADP-ribose 衍生 R5P/PRPP 再合成 NAD，每循環耗費 4 個 ATP 當量（Moura Fig.2；Formentini 2009；Buonvicino 2013）。高 PAR 周轉 → ATP 燃燒＋AMP 累積 → ANT 抑制（阻斷 ADP 進入粒線體）→ ATP 合成進一步衰竭。
-  3. **PAR–HK 糖解阻斷**（§3）→ 糖解 ATP 衰竭 → 繼發性粒線體衰竭（pyruvate/glutamine 挽救證明神經元粒線體缺陷大半為糖解下游——Andrabi 2014）。
-  4. **Nudix → AMP → AMPK–mTORC1**：ADP-ribose 經 Nudix 轉為 AMP＋R5P；AMP/ATP 上升活化 AMPK、抑制 mTORC1（Ethier 等人 2012）——連結能量狀態與自噬反應，其保護／致死角色未明。
+  - **NAD 作為輔因子**：NAD+ 流失限制 GAPDH/LDH/TCA/NADH→OXPHOS（古典自殺假說，Berger 1985；Ha & Snyder 1999）。
+  - **補救成本**：由 NAM＋ADP-ribose 衍生 R5P/PRPP 再合成 NAD，每循環耗費 4 個 ATP 當量（Moura Fig.2；Formentini 2009；Buonvicino 2013）。高 PAR 周轉 → ATP 燃燒＋AMP 累積 → ANT 抑制（阻斷 ADP 進入粒線體）→ ATP 合成進一步衰竭。
+  - **PAR–HK 糖解阻斷**（§3）→ 糖解 ATP 衰竭 → 繼發性粒線體衰竭（pyruvate/glutamine 挽救證明神經元粒線體缺陷大半為糖解下游——Andrabi 2014）。
+  - **Nudix → AMP → AMPK–mTORC1**：ADP-ribose 經 Nudix 轉為 AMP＋R5P；AMP/ATP 上升活化 AMPK、抑制 mTORC1（Ethier 等人 2012）——連結能量狀態與自噬反應，其保護／致死角色未明。
 - 解耦證明（最新）：
   - Andrabi/Fouquerel 2014：FK866 NAD 耗竭 → 僅呼吸缺陷，無糖解／ATP 崩潰；MNNG → 糖解／ATP 崩潰先於 NAD 下降。
   - **2026 預印本（de Moura/Hoch 實驗室，bioRxiv 2026.05.12.724507）**：完全抑制 PARG 阻止 ATP 耗竭與 parthanatos，但不阻止 NAD+ 耗竭——NAD 與 ATP 形式上解耦；低殘留 PARG 即足以致死；RPE1/MNNG 系統中 ARH3 KO 無效應。證明 PAR 生成＋PAR 水解皆為必要；ATP 比 NAD 更能追蹤死亡。
@@ -86,12 +100,12 @@ author: []
   - Parthanatos→抗凋亡：嚴重 ATP 耗竭使凋亡執行無法進行；低／中度 DNA 損傷 → 短暫 NAD/ATP 下跌 → 凋亡；高度損傷 → 長期耗竭 → parthanatos（Nishida 等人 2022）。
   - 凋亡→抗 parthanatos：caspase 切割 PARP1（Asp214/Gly215，介於 DNA 結合與催化結構域之間）使其去活化，阻止過度活化（D'Amours 2001）。
 - 有證據的延伸：
-  1. **Calpain–BID–BAX–AIF**：MNNG parthanatos/necroptosis 需依序 PARP1→calpain→BID 切割（calpain 不可切割 BID G70A/Δ68-71 阻斷 BAX＋死亡）→tBID→粒線體 BAX→AIF 釋放（Moubarak/Galán-Malo/Susin, Cell Death Differ 2012；Polster 2005；Norberg 2008）。BAX/BID 為典型凋亡蛋白，在此以 caspase 非依賴方式運作。Calpain 亦切割 BAX 為 p18 片段。TRPM2/ER Ca2+ 內流（Moura 綜述 §ADP-ribose/TRPM2）為候選 calpain 觸發器——但 Ca2+ 螯合防護 H2O2 而非 MNNG（Bentle 2006），故具損傷特異性。
-  2. **兩邊都有 AIF**：某些凋亡刺激亦有 AIF 轉位，近期認為具 PARP 依賴性（Mashimo 2021）；凋亡 vs parthanatic AIF 釋放動力學／池不同（外膜 30% 池快速釋放先於 cytochrome c——Yu 2009）。
-  3. **89-kDa PARP1 片段為 PAR 載體**：2025 年工作（Mashimo/Onishi；Zhang 等人 J Adv Res 2025 綜述）——caspase 產生的 89-kDa 片段作為胞質 PAR 載體，驅動 AIF 介導的凋亡——即凋亡切割產物主動餵養 parthanatic 訊號，將拮抗模糊為協作。2025 亦報導 RSL3 ferroptosis–凋亡經 PARP1 串擾。
-  4. **HK1–VDAC–BCL2 家族**：HK–VDAC 解離敏化 BAX/BAK MOMP 與 TNF 凋亡（Ullu 2002；Shoshan-Barmatz/Front Physiol 2017）——parthanatic HK 抑制可能降低存活者的凋亡閾值。
-  5. **MIF vs CypA/H2AX 核酸酶選擇**：AIF–MIF 核酸酶（Wang 2016；MIF 抑制劑在巴金森模型具保護性——Park 2022）vs AIF–CypA–H2AX 內源核酸酶（Artus 2010；Novo 2022）——形成哪種複合體可能取決於 caspase/calpain 脈絡。
-  6. **組織病理對應**：高 PARP1 而無凋亡小體／壞死＝parthanatos；凋亡小體追蹤 PARP1 核→胞質重分布（Donizy 2013；Qiao 2024）——可用作組織分類器。
+  - **Calpain–BID–BAX–AIF**：MNNG parthanatos/necroptosis 需依序 PARP1→calpain→BID 切割（calpain 不可切割 BID G70A/Δ68-71 阻斷 BAX＋死亡）→tBID→粒線體 BAX→AIF 釋放（Moubarak/Galán-Malo/Susin, Cell Death Differ 2012；Polster 2005；Norberg 2008）。BAX/BID 為典型凋亡蛋白，在此以 caspase 非依賴方式運作。Calpain 亦切割 BAX 為 p18 片段。TRPM2/ER Ca2+ 內流（Moura 綜述 §ADP-ribose/TRPM2）為候選 calpain 觸發器——但 Ca2+ 螯合防護 H2O2 而非 MNNG（Bentle 2006），故具損傷特異性。
+  - **兩邊都有 AIF**：某些凋亡刺激亦有 AIF 轉位，近期認為具 PARP 依賴性（Mashimo 2021）；凋亡 vs parthanatic AIF 釋放動力學／池不同（外膜 30% 池快速釋放先於 cytochrome c——Yu 2009）。
+  - **89-kDa PARP1 片段為 PAR 載體**：2025 年工作（Mashimo/Onishi；Zhang 等人 J Adv Res 2025 綜述）——caspase 產生的 89-kDa 片段作為胞質 PAR 載體，驅動 AIF 介導的凋亡——即凋亡切割產物主動餵養 parthanatic 訊號，將拮抗模糊為協作。2025 亦報導 RSL3 ferroptosis–凋亡經 PARP1 串擾。
+  - **HK1–VDAC–BCL2 家族**：HK–VDAC 解離敏化 BAX/BAK MOMP 與 TNF 凋亡（Ullu 2002；Shoshan-Barmatz/Front Physiol 2017）——parthanatic HK 抑制可能降低存活者的凋亡閾值。
+  - **MIF vs CypA/H2AX 核酸酶選擇**：AIF–MIF 核酸酶（Wang 2016；MIF 抑制劑在巴金森模型具保護性——Park 2022）vs AIF–CypA–H2AX 內源核酸酶（Artus 2010；Novo 2022）——形成哪種複合體可能取決於 caspase/calpain 脈絡。
+  - **組織病理對應**：高 PARP1 而無凋亡小體／壞死＝parthanatos；凋亡小體追蹤 PARP1 核→胞質重分布（Donizy 2013；Qiao 2024）——可用作組織分類器。
 - 方向：在同一 MNNG/H2O2/NMDA panel 中合併 caspase 抑制（Q-VD）、calpain 抑制、BID/BAX KO、TRPM2 KO、MIF 核酸酶抑制，以及 89-kDa 片段追蹤。讀值：PAR 鏈長、HK 活性、ATP/NAD、AIF 定位、DNA 片段大小（大片段 parthanatic vs 寡核小體凋亡）。
 
 ## 6. PAR 水解酶（特別是 PARG）促進還是抑制 parthanatos 執行？
@@ -109,7 +123,11 @@ author: []
 **現況：大半未解；最佳線索＝無蛋白 PAR 合成＋PAR 載體片段＋胞質 PARG 亞型。方向：追蹤 PAR 物種，而非只看總 PAR。**
 
 - 生成：PARG 內切蛋白-PAR → 游離鏈；但核內 PARG 外切為主 → 游離鏈必須快速逃逸。2024 新機制：PARP1 從頭無蛋白 PAR 合成（Langelier 等人，Mol Cell 2024）——無需蛋白錨，直接可擴散。
-- 保護／運輸未知：未發現 PAR 輸出子；候選：（a）89-kDa PARP1 caspase 片段為胞質 PAR 載體（Mashimo/Onishi 2021；Zhang J Adv Res 2025）；（b）PAR 化的穿梭蛋白；（c）胞質 PARG102/99 在地產生第二波游離 PAR；（d）胞質 PAR 抗體中和可防 NMDA 死亡（Andrabi 2006），證明胞質 PAR 為致死池。
+- 保護／運輸未知：未發現 PAR 輸出子；候選：
+  - 89-kDa PARP1 caspase 片段為胞質 PAR 載體（Mashimo/Onishi 2021；Zhang J Adv Res 2025）
+  - PAR 化的穿梭蛋白
+  - 胞質 PARG102/99 在地產生第二波游離 PAR
+  - 胞質 PAR 抗體中和可防 NMDA 死亡（Andrabi 2006），證明胞質 PAR 為致死池。
 - 鏈規則：長／分支＞短／線形毒性（Andrabi 2006 BioPorter）；PARG 預消化 PAR 失去 HK 抑制＋AIF 釋放活性（Andrabi 2014；Fouquerel 2014）。
 - 方向：鏈長／分支 MS＋PAR-FRET 生物感測器（核 vs 胞質 vs 粒線體）＋PARG 內切死 vs 外切死突變＋89-kDa 片段追蹤 ± caspase 抑制。
 
@@ -135,10 +153,10 @@ author: []
 
 **現況：至少四臂；calpain–BID–BAX–AIF 與 parthanatos 連結最緊，Zn2+/mPTP／粒線體分裂新興。方向：拆解 Ca2+→X→AIF vs Ca2+→生物能量學。**
 
-- （a）Calpain I → AIF 截切（57 kDa）＋釋放；亦 BID→tBID→BAX→AIF（Polster 2005；Norberg 2008；Vosler 2009；Sun MPP+/MPTP 2018；Moubarak/Cabon BID–BAX 軸）——但 Wang 2009 證明某些 MNNG 模型中 calpain 可有可無。
-- （b）mPTP 開啟 → 腫脹／破裂 → AIF/CytC/EndoG 釋放（Yu 2006；Bernardi 2023 共識綜述——ATP 合成酶二聚體核心仍爭議）。
-- （c）粒線體分裂／片段化＋去極化＋NAD/ATP 下跌（Jang RPE 2017；光感受器光損模型——mTOR/PARP 在 AIF 上游）。
-- （d）激酶回饋：Ca2+→PYK2/MEK/ERK→更多 PARP/TRPM2（小膠質細胞 2025）；Ca2+→溶酶體→Zn2+→Complex-III ROS（Biomolecules 2025）；Ca2+ 以未明機制調節 PARP1 本身（Zhang 2014）——雙向。
+- Calpain I → AIF 截切（57 kDa）＋釋放；亦 BID→tBID→BAX→AIF（Polster 2005；Norberg 2008；Vosler 2009；Sun MPP+/MPTP 2018；Moubarak/Cabon BID–BAX 軸）——但 Wang 2009 證明某些 MNNG 模型中 calpain 可有可無。
+- mPTP 開啟 → 腫脹／破裂 → AIF/CytC/EndoG 釋放（Yu 2006；Bernardi 2023 共識綜述——ATP 合成酶二聚體核心仍爭議）。
+- 粒線體分裂／片段化＋去極化＋NAD/ATP 下跌（Jang RPE 2017；光感受器光損模型——mTOR/PARP 在 AIF 上游）。
+- 激酶回饋：Ca2+→PYK2/MEK/ERK→更多 PARP/TRPM2（小膠質細胞 2025）；Ca2+→溶酶體→Zn2+→Complex-III ROS（Biomolecules 2025）；Ca2+ 以未明機制調節 PARP1 本身（Zhang 2014）——雙向。
 - 方向：Ca2+ 螯合（BAPTA）vs TRPM2-KO vs calpain 抑制（calpeptin/PD150606＋calpain 抗性 AIF）vs mPTP 抑制（CsA/NIM811）vs Zn2+ 螯合（TPEN），同 MNNG/H2O2/NMDA 矩陣；讀 AIF 大小（62 vs 57 kDa）、BAX/BID 切割、OCR/ECAR、PAR。
 
 ## 11. Nudix 水解酶是 parthanatos 執行所需嗎？
@@ -222,13 +240,18 @@ author: []
 - 更複雜的是，不同細胞類型、在不同代謝狀態下，parthanatos 的進程似乎有明顯差異。
 - 譜系分流（AIF 依賴 vs 非依賴）：皮質／RGC／SH-SY5Y／MEFs——PAR → AIF–MIF 核轉位為必要，AIF-KD 可挽救（Moura Table 1；661W 光模型 64%→38%）；對比 ARPE-19/H2O2、BMDMs、HK-2-TGHQ、胰臟 ZZW-115——無可偵測的 AIF 轉位，AIF-siRNA 無挽救，死亡經由 NAD/ATP 跌＋粒線體分裂／OPA1-L 流失＋去極化（Jang CDD 2017；Regdon 2019）。
 - 代謝狀態決定因素：
-  1. **糖解 vs OXPHOS 依賴**：依賴糖解的細胞（神經元、LN428、僅葡萄糖 aCSF 的星形膠質細胞）經 PAR–HK1 阻斷更快死亡；具 pyruvate／glutamine 能力的細胞繞道至粒線體而抵抗（Zong 2004；Andrabi 2014；Fouquerel 2014）。
-  2. **培養基碳源**：僅葡萄糖暴露 HK 阻斷；＋pyruvate／＋glutamine 掩蓋之——解釋 Alano（星形膠質細胞、NAD 可挽救）vs Andrabi/Fouquerel（神經元／膠質母細胞瘤、NAD 不足）的分歧。
-  3. **氧化還原／PPP 狀態**：HK 阻斷餓死 PPP → NADPH/GSH 跌；GSH-ester／NADPH 支持可挽救且與 ATP 無關（Hossain 2024；Andrabi Fig.5E）。
-  4. **TRPM2/Ca2+ 線路**：TRPM2 高表現的可興奮細胞（紋狀體／皮質／海馬神經元、心肌細胞、β 細胞、小膠質細胞）使用 Ca2+→calpain→BID–BAX→AIF 臂；低 TRPM2／MNNG 系統使用 ER 庫或 Ca2+ 非依賴路徑（Bentle 2006；Munoz 2017；Zhong 2018）。
-  5. **增殖／靜止**：G1 停滯／衰老樣 BER 缺陷細胞累積毒性 PAR → 早期 OCR 跌而無 ECAR 代償 → 晚期 AIF（ResearchSquare rs.3.rs-10223032/v1 2026 年 7 月）；ATM-KO PARGi 死亡為複製壓力、AIF 陰性（J Transl Med 2026）。
-  6. **粒線體池**：SNpc DA 神經元呈現 mito-PAR＋VDAC1 共定位、鄰近 Lewy 體（Cell Death Dis 2026）——分裂後神經元預置外膜 AIF 池釋放條件。
-- 方向：最小細胞狀態組合——（a）譜系＋TRPM2 亞型／表現量、（b）ECAR/OCR＋燃料（葡萄糖 ± pyruvate/glutamine）、（c）同孔 NAD/PAR/ATP、（d）AIF IF＋分級分離＋挽救、（e）PARG53/ARH3 狀態。於同一株比較 pyruvate＋GSH-ester vs MIF 抑制劑 vs TRPM2-KO，以歸屬主導臂。
+  - **糖解 vs OXPHOS 依賴**：依賴糖解的細胞（神經元、LN428、僅葡萄糖 aCSF 的星形膠質細胞）經 PAR–HK1 阻斷更快死亡；具 pyruvate／glutamine 能力的細胞繞道至粒線體而抵抗（Zong 2004；Andrabi 2014；Fouquerel 2014）。
+  - **培養基碳源**：僅葡萄糖暴露 HK 阻斷；＋pyruvate／＋glutamine 掩蓋之——解釋 Alano（星形膠質細胞、NAD 可挽救）vs Andrabi/Fouquerel（神經元／膠質母細胞瘤、NAD 不足）的分歧。
+  - **氧化還原／PPP 狀態**：HK 阻斷餓死 PPP → NADPH/GSH 跌；GSH-ester／NADPH 支持可挽救且與 ATP 無關（Hossain 2024；Andrabi Fig.5E）。
+  - **TRPM2/Ca2+ 線路**：TRPM2 高表現的可興奮細胞（紋狀體／皮質／海馬神經元、心肌細胞、β 細胞、小膠質細胞）使用 Ca2+→calpain→BID–BAX→AIF 臂；低 TRPM2／MNNG 系統使用 ER 庫或 Ca2+ 非依賴路徑（Bentle 2006；Munoz 2017；Zhong 2018）。
+  - **增殖／靜止**：G1 停滯／衰老樣 BER 缺陷細胞累積毒性 PAR → 早期 OCR 跌而無 ECAR 代償 → 晚期 AIF（ResearchSquare rs.3.rs-10223032/v1 2026 年 7 月）；ATM-KO PARGi 死亡為複製壓力、AIF 陰性（J Transl Med 2026）。
+  - **粒線體池**：SNpc DA 神經元呈現 mito-PAR＋VDAC1 共定位、鄰近 Lewy 體（Cell Death Dis 2026）——分裂後神經元預置外膜 AIF 池釋放條件。
+- 方向：最小細胞狀態組合：
+  - 譜系＋TRPM2 亞型／表現量
+  - ECAR/OCR＋燃料（葡萄糖 ± pyruvate/glutamine）
+  - 同孔 NAD/PAR/ATP
+  - AIF IF＋分級分離＋挽救
+  - PARG53/ARH3 狀態。於同一株比較 pyruvate＋GSH-ester vs MIF 抑制劑 vs TRPM2-KO，以歸屬主導臂。
 
 ## 橫切最新指針（2024–2026）
 

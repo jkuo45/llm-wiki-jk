@@ -30,22 +30,32 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
 - NAD-centric evidence (astrocytes, glucose-only media): Alano et al. 2004, 2010; Ying et al. 2005 — exogenous NAD+, pyruvate, α-ketoglutarate prevent death; FK866 NAD depletion alone phenocopies. Zong et al. 2004 — glycolysis-reliant cells more sensitive, pyruvate rescues. NR/NMN rescue in some settings: Nishida et al. 2022; Santofimia-Castaño et al. 2022.
 - PAR-centric counter-evidence (cortical neurons, LN428 glioblastoma): Andrabi et al. 2014 (PNAS 111:10209); Fouquerel et al. 2014 (Cell Rep 8:1819) — profound FK866 NAD depletion without PARP hyperactivation does NOT cause ATP/glycolysis collapse; NR supplementation restores NAD pool but does NOT rescue ECAR/glycolysis or ATP loss.
 - Determinants emerging:
-  1. **PAR load vs NAD loss**: if PAR polymers are generated (PARP hyperactivation + PARG endo-activity), NAD alone is insufficient. If death is driven mainly by NAD/energy failure without large free-PAR burst, NAD rescues.
-  2. **Carbon-source availability**: pyruvate/glutamine in medium bypasses hexokinase block and masks NAD effect (Andrabi 2014; Alano authors themselves flagged aCSF glucose-only artefact).
-  3. **Compartmentalization**: nuclear/cytosolic NAD in rapid equilibrium vs separate mitochondrial pool (Cambronne 2016; Covarrubias 2021); mitochondrial PARP1 pool + SLC25A51 NAD transporter (Girardi/Kory/Luongo 2020) mean whole-cell NAD measurements mislead. Cytosolic NAD matters for glycolysis; mitochondrial NAD for respiration.
-  4. **NAD salvage cost**: full NAD salvage costs 4 high-energy phosphates per ADP-ribose (Moura Fig.2); at high PAR turnover, salvage itself deepens ATP loss — supplementing precursors can feed PARP and worsen PAR burst (cf. NAMPT→NAD→PARP fuels parthanatos in psoriasis model, zebrafish 2021; NAD-biosynthesis-high ovarian cancer PARPi resistance 2024).
-  5. **PARG/ARH3 status** (see 2026 preprint below): full PARG inhibition uncouples NAD depletion (still occurs) from ATP depletion/cell death (prevented) — so NAD readout alone does not predict survival.
-- Practical direction: always report (a) medium (glucose-only vs +pyruvate), (b) compartment-resolved NAD + PAR levels, (c) PARG/ARH3 activity, (d) NR/NMN dose-timing. Test NAD + pyruvate vs NAD alone to dissect branches.
+  - **PAR load vs NAD loss**: if PAR polymers are generated (PARP hyperactivation + PARG endo-activity), NAD alone is insufficient. If death is driven mainly by NAD/energy failure without large free-PAR burst, NAD rescues.
+  - **Carbon-source availability**: pyruvate/glutamine in medium bypasses hexokinase block and masks NAD effect (Andrabi 2014; Alano authors themselves flagged aCSF glucose-only artefact).
+  - **Compartmentalization**: nuclear/cytosolic NAD in rapid equilibrium vs separate mitochondrial pool (Cambronne 2016; Covarrubias 2021); mitochondrial PARP1 pool + SLC25A51 NAD transporter (Girardi/Kory/Luongo 2020) mean whole-cell NAD measurements mislead. Cytosolic NAD matters for glycolysis; mitochondrial NAD for respiration.
+  - **NAD salvage cost**: full NAD salvage costs 4 high-energy phosphates per ADP-ribose (Moura Fig.2); at high PAR turnover, salvage itself deepens ATP loss — supplementing precursors can feed PARP and worsen PAR burst (cf. NAMPT→NAD→PARP fuels parthanatos in psoriasis model, zebrafish 2021; NAD-biosynthesis-high ovarian cancer PARPi resistance 2024).
+  - **PARG/ARH3 status** (see 2026 preprint below): full PARG inhibition uncouples NAD depletion (still occurs) from ATP depletion/cell death (prevented) — so NAD readout alone does not predict survival.
+- Practical direction: always report:
+  - medium (glucose-only vs +pyruvate)
+  - compartment-resolved NAD + PAR levels
+  - PARG/ARH3 activity
+  - NR/NMN dose-timing. Test NAD + pyruvate vs NAD alone to dissect branches.
 
 ## 2. Is the inhibition of glycolysis necessary and/or sufficient for cell death by parthanatos?
 
 **Status: central but neither strictly necessary nor sufficient alone. Direction: glycolysis block is the best-correlated metabolic lesion; AIF/MIF DNA cleavage is the parallel lethal arm.**
 
 - For necessity: pyruvate/α-ketoglutarate bypass rescues death in both NAD-centric and PAR-centric models (Ying 2002/2003; Zong 2004; Andrabi 2014) — consistent with glycolytic block as bottleneck. OGD model 2024 (FASEB J 202302559R): PARP inhibition or WT-HK1 / PAR-binding-mutant-HK1 overexpression improves glycolysis + mitochondrial function + redox + survival together.
-- Against sufficiency: (a) Bax/calpain KO cells: NAD+ falls but cells survive like DPQ-treated WT (cited in IJMS 2022 review) — metabolism lesion without AIF release insufficient. (b) AIF-independent parthanatos exists — retinal cells, macrophages, HK-2, pancreatic models show PARP-dependent death without detectable AIF translocation (Table 1, Moura 2024). (c) ATP levels do not always track infarct size in PARP1 KO MCAO (ibid.).
+- Against sufficiency:
+  - Bax/calpain KO cells: NAD+ falls but cells survive like DPQ-treated WT (cited in IJMS 2022 review) — metabolism lesion without AIF release insufficient.
+  - AIF-independent parthanatos exists — retinal cells, macrophages, HK-2, pancreatic models show PARP-dependent death without detectable AIF translocation (Table 1, Moura 2024).
+  - ATP levels do not always track infarct size in PARP1 KO MCAO (ibid.).
 - Additional glycolytic target beyond HK1: GAPDH PARylation inhibits glycolysis in renal I/R (Devalaraja-Narashimha 2009); Krebs enzymes (SDH, α-KGDH, PDH) appear in PAR interactome (Fouquerel 2014 suppl.).
 - PPP corollary: HK block starves PPP → NADPH/GSH loss (Hossain et al. 2024; Andrabi 2014 Fig.5E) — redox collapse may be the actual lethal output of glycolysis inhibition, not ATP per se.
-- Direction: test necessity/sufficiency in ONE system with orthogonal rescues — (i) PBM-mutant HK1 knock-in, (ii) pyruvate + GSH-ester + NADPH support, (iii) MIF-nuclease inhibitor (Park et al. 2022) ± glycolysis rescue. If glycolysis rescue without AIF-block still dies (DNA fragmentation persists), glycolysis is contributory not sufficient.
+- Direction: test necessity/sufficiency in ONE system with orthogonal rescues:
+  - PBM-mutant HK1 knock-in
+  - pyruvate + GSH-ester + NADPH support
+  - MIF-nuclease inhibitor (Park et al. 2022) ± glycolysis rescue. If glycolysis rescue without AIF-block still dies (DNA fragmentation persists), glycolysis is contributory not sufficient.
 
 ## 3. How do free PAR chains inhibit hexokinase activity?
 
@@ -60,17 +70,21 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
   - Free vs protein-conjugated PAR as inhibitor? PARG-endo generates free chains; exo generates monomers (Barkauskaite 2015 — exo predominant). How free chains escape nuclear PARG at sufficient length/complexity to reach cytosol is unknown; chain length/branching correlates with toxicity (Andrabi 2006 BioPorter PAR delivery).
   - PARG paradox: PARG-KD rescues glycolysis in LN428 (Fouquerel) but PARG-overexpression rescues in neurons (Andrabi) — implies dose/context determines whether PARG creates the inhibitor (free PAR) or destroys it (Mashimo 2013 dual-function hypothesis).
   - AIF–HK link: Andrabi hypothesizes PAR-induced AIF release disrupts AIF–HK interaction contributing to HK loss — untested.
-- Direction: (a) cryo-EM/structure of HK1–PAR complex, chain-length titration; (b) VDAC–HK1 FRET before/after PAR; (c) PARG53 splice-variant-aware PARG manipulation (see §5/2026 preprint); (d) test GAPDH co-inhibition in same lysates.
+- Direction:
+  - cryo-EM/structure of HK1–PAR complex, chain-length titration
+  - VDAC–HK1 FRET before/after PAR
+  - PARG53 splice-variant-aware PARG manipulation (see §5/2026 preprint)
+  - test GAPDH co-inhibition in same lysates.
 
 ## 4. Are NAD+ and ATP depletion mechanistically connected?
 
 **Status: yes but dissociable — at least three coupling routes plus one uncoupling proof. Direction: treat as parallel outputs of PAR turnover, not a single linear chain.**
 
 - Coupling routes:
-  1. **NAD-as-cofactor**: NAD+ loss limits GAPDH/LDH/TCA/NADH→OXPHOS (classical suicide hypothesis, Berger 1985; Ha & Snyder 1999).
-  2. **Salvage cost**: NAD resynthesis from NAM + ADP-ribose-derived R5P/PRPP costs 4 ATP-equivalents per cycle (Moura Fig.2; Formentini 2009; Buonvicino 2013). High PAR turnover → ATP burn + AMP accumulation → ANT inhibition (blocks ADP import into mitochondria) → further ATP synthesis failure.
-  3. **PAR–HK glycolysis block** (§3) → glycolytic ATP failure → secondary mitochondrial failure (pyruvate/glutamine rescue proves mitochondrial defects largely downstream of glycolysis in neurons — Andrabi 2014).
-  4. **Nudix → AMP → AMPK–mTORC1**: ADP-ribose → AMP + R5P via Nudix; AMP/ATP rise activates AMPK, inhibits mTORC1 (Ethier et al. 2012) — links energy state to autophagy response of unclear protective/lethal role.
+  - **NAD-as-cofactor**: NAD+ loss limits GAPDH/LDH/TCA/NADH→OXPHOS (classical suicide hypothesis, Berger 1985; Ha & Snyder 1999).
+  - **Salvage cost**: NAD resynthesis from NAM + ADP-ribose-derived R5P/PRPP costs 4 ATP-equivalents per cycle (Moura Fig.2; Formentini 2009; Buonvicino 2013). High PAR turnover → ATP burn + AMP accumulation → ANT inhibition (blocks ADP import into mitochondria) → further ATP synthesis failure.
+  - **PAR–HK glycolysis block** (§3) → glycolytic ATP failure → secondary mitochondrial failure (pyruvate/glutamine rescue proves mitochondrial defects largely downstream of glycolysis in neurons — Andrabi 2014).
+  - **Nudix → AMP → AMPK–mTORC1**: ADP-ribose → AMP + R5P via Nudix; AMP/ATP rise activates AMPK, inhibits mTORC1 (Ethier et al. 2012) — links energy state to autophagy response of unclear protective/lethal role.
 - Uncoupling proof (latest):
   - Andrabi/Fouquerel 2014: FK866 NAD depletion → respiration defect only, no glycolysis/ATP collapse; MNNG → glycolysis/ATP collapse precedes NAD fall.
   - **2026 preprint (de Moura/Hoch lab, bioRxiv 2026.05.12.724507)**: full PARG inhibition prevents ATP depletion and parthanatos but NOT NAD+ depletion — NAD and ATP formally uncoupled; low residual PARG suffices for death; ARH3 KO no effect in RPE1/MNNG system. Demonstrates PAR formation + PAR hydrolysis both required; ATP tracks death better than NAD.
@@ -84,12 +98,12 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
   - Parthanatos→anti-apoptosis: severe ATP depletion precludes apoptotic execution; low/intermediate DNA damage → transient NAD/ATP dip → apoptosis; high damage → prolonged depletion → parthanatos (Nishida et al. 2022).
   - Apoptosis→anti-parthanatos: caspase cleavage of PARP1 (Asp214/Gly215, between DNA-binding and catalytic domains) inactivates hyperactivation (D'Amours 2001).
 - Extensions with evidence:
-  1. **Calpain–BID–BAX–AIF**: MNNG parthanatos/necroptosis requires sequential PARP1→calpain→BID cleavage (calpain-non-cleavable BID G70A/Δ68-71 blocks BAX + death)→tBID→mitochondrial BAX→AIF release (Moubarak/Galán-Malo/Susin, Cell Death Differ 2012; Polster 2005; Norberg 2008). BAX/BID are canonical apoptotic proteins operating caspase-independently here. Calpain also cleaves BAX to p18 fragment. TRPM2/ER Ca2+ influx (§ADP-ribose/TRPM2 in Moura review) is the candidate calpain trigger — but Ca2+ chelation protects vs H2O2 not MNNG (Bentle 2006), so insult-specific.
-  2. **AIF in both**: AIF translocates in some apoptotic stimuli too, recently suggested PARP-dependent (Mashimo 2021); apoptotic vs parthanatic AIF release kinetics/pools differ (outer-membrane 30% pool rapid release precedes cytochrome c — Yu 2009).
-  3. **89-kDa PARP1 fragment as PAR carrier**: 2025 work (Mashimo/Onishi; Zhang et al. J Adv Res 2025 review) — caspase-generated 89-kDa fragment serves as cytoplasmic PAR carrier to drive AIF-mediated apoptosis — i.e. apoptotic cleavage product actively feeds parthanatic signaling, blurring antagonism into cooperation. RSL3 ferroptosis–apoptosis crosstalk via PARP1 also reported 2025.
-  4. **HK1–VDAC–BCL2 family**: HK–VDAC dissociation sensitizes to BAX/BAK MOMP and TNF-apoptosis (Ullu 2002; Shoshan-Barmatz/Front Physiol 2017) — parthanatic HK inhibition may lower apoptotic threshold in survivors.
-  5. **MIF vs CypA/H2AX nuclease choice**: AIF–MIF nuclease (Wang 2016; MIF inhibitor protects in parkinsonism — Park 2022) vs AIF–CypA–H2AX intrinsic nuclease (Artus 2010; Novo 2022) — which complex forms may depend on caspase/calpain context.
-  6. **Histopathology correlate**: high PARP1 without apoptotic bodies/necrosis = parthanatos; apoptotic bodies track PARP1 nuclear→cytoplasmic redistribution (Donizy 2013; Qiao 2024) — usable tissue classifier.
+  - **Calpain–BID–BAX–AIF**: MNNG parthanatos/necroptosis requires sequential PARP1→calpain→BID cleavage (calpain-non-cleavable BID G70A/Δ68-71 blocks BAX + death)→tBID→mitochondrial BAX→AIF release (Moubarak/Galán-Malo/Susin, Cell Death Differ 2012; Polster 2005; Norberg 2008). BAX/BID are canonical apoptotic proteins operating caspase-independently here. Calpain also cleaves BAX to p18 fragment. TRPM2/ER Ca2+ influx (§ADP-ribose/TRPM2 in Moura review) is the candidate calpain trigger — but Ca2+ chelation protects vs H2O2 not MNNG (Bentle 2006), so insult-specific.
+  - **AIF in both**: AIF translocates in some apoptotic stimuli too, recently suggested PARP-dependent (Mashimo 2021); apoptotic vs parthanatic AIF release kinetics/pools differ (outer-membrane 30% pool rapid release precedes cytochrome c — Yu 2009).
+  - **89-kDa PARP1 fragment as PAR carrier**: 2025 work (Mashimo/Onishi; Zhang et al. J Adv Res 2025 review) — caspase-generated 89-kDa fragment serves as cytoplasmic PAR carrier to drive AIF-mediated apoptosis — i.e. apoptotic cleavage product actively feeds parthanatic signaling, blurring antagonism into cooperation. RSL3 ferroptosis–apoptosis crosstalk via PARP1 also reported 2025.
+  - **HK1–VDAC–BCL2 family**: HK–VDAC dissociation sensitizes to BAX/BAK MOMP and TNF-apoptosis (Ullu 2002; Shoshan-Barmatz/Front Physiol 2017) — parthanatic HK inhibition may lower apoptotic threshold in survivors.
+  - **MIF vs CypA/H2AX nuclease choice**: AIF–MIF nuclease (Wang 2016; MIF inhibitor protects in parkinsonism — Park 2022) vs AIF–CypA–H2AX intrinsic nuclease (Artus 2010; Novo 2022) — which complex forms may depend on caspase/calpain context.
+  - **Histopathology correlate**: high PARP1 without apoptotic bodies/necrosis = parthanatos; apoptotic bodies track PARP1 nuclear→cytoplasmic redistribution (Donizy 2013; Qiao 2024) — usable tissue classifier.
 - Direction: in one MNNG/H2O2/NMDA panel, combine caspase inhibition (Q-VD), calpain inhibition, BID/BAX KO, TRPM2 KO, MIF-nuclease inhibition, and 89-kDa-fragment tracking. Readouts: PAR chain length, HK activity, ATP/NAD, AIF localization, DNA-fragment size (large-scale parthanatic vs oligonucleosomal apoptotic).
 
 ## 6. Do PAR hydrolases, and PARG in particular, promote or inhibit parthanatos execution?
@@ -107,7 +121,11 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
 **Status: largely unresolved; best clues = protein-free PAR synthesis + PAR-carrier fragments + cytosolic PARG isoforms. Direction: track PAR species, not just bulk PAR.**
 
 - Generation: PARG endo-cut of protein-PAR → free chains; but nuclear PARG exo dominates → free chains must escape fast. New 2024 mechanism: PARP1 de novo protein-free PAR synthesis (Langelier et al., Mol Cell 2024) — no protein anchor needed, directly diffusible.
-- Protection/transport unknown: no PAR exporter identified; candidates: (a) 89-kDa PARP1 caspase fragment as cytoplasmic PAR carrier (Mashimo/Onishi 2021; Zhang J Adv Res 2025); (b) PARylated shuttling proteins; (c) cytosolic PARG102/99 generating second-wave free PAR locally; (d) PAR–antibody neutralization in cytosol protects vs NMDA death (Andrabi 2006) proving cytosolic PAR is the lethal pool.
+- Protection/transport unknown: no PAR exporter identified; candidates:
+  - 89-kDa PARP1 caspase fragment as cytoplasmic PAR carrier (Mashimo/Onishi 2021; Zhang J Adv Res 2025)
+  - PARylated shuttling proteins
+  - cytosolic PARG102/99 generating second-wave free PAR locally
+  - PAR–antibody neutralization in cytosol protects vs NMDA death (Andrabi 2006) proving cytosolic PAR is the lethal pool.
 - Chain rules: long/branched > short/linear toxicity (Andrabi 2006 BioPorter); PARG-predigested PAR loses HK-inhibitory + AIF-releasing activity (Andrabi 2014; Fouquerel 2014).
 - Direction: chain-length/branching MS + PAR-FRET biosensors (nucleus vs cytosol vs mitochondria) + PARG-endo-dead vs exo-dead mutants + 89-kDa-fragment tracking ± caspase inhibition.
 
@@ -133,10 +151,10 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
 
 **Status: at least four arms; calpain–BID–BAX–AIF best-linked to parthanatos, Zn2+/mPTP/mito-fission emerging. Direction: dissect Ca2+→X→AIF vs Ca2+→bioenergetics.**
 
-- (a) Calpain I → AIF truncation (57 kDa) + release; also BID→tBID→BAX→AIF (Polster 2005; Norberg 2008; Vosler 2009; Sun MPP+/MPTP 2018; Moubarak/Cabon BID–BAX axis) — but Wang 2009 shows calpain dispensable in some MNNG models.
-- (b) mPTP opening → swelling/rupture → AIF/CytC/EndoG release (Yu 2006; Bernardi 2023 consensus review — ATP-synthase dimer core debated).
-- (c) Mito fission/fragmentation + depolarization + NAD/ATP fall (Jang RPE 2017; photoreceptor light model — mTOR/PARP upstream of AIF).
-- (d) Kinase feedback: Ca2+→PYK2/MEK/ERK→more PARP/TRPM2 (microglia 2025); Ca2+→lysosome→Zn2+→Complex-III ROS (Biomolecules 2025); Ca2+ modulates PARP1 itself by unclear mechanism (Zhang 2014) — bidirectional.
+- Calpain I → AIF truncation (57 kDa) + release; also BID→tBID→BAX→AIF (Polster 2005; Norberg 2008; Vosler 2009; Sun MPP+/MPTP 2018; Moubarak/Cabon BID–BAX axis) — but Wang 2009 shows calpain dispensable in some MNNG models.
+- mPTP opening → swelling/rupture → AIF/CytC/EndoG release (Yu 2006; Bernardi 2023 consensus review — ATP-synthase dimer core debated).
+- Mito fission/fragmentation + depolarization + NAD/ATP fall (Jang RPE 2017; photoreceptor light model — mTOR/PARP upstream of AIF).
+- Kinase feedback: Ca2+→PYK2/MEK/ERK→more PARP/TRPM2 (microglia 2025); Ca2+→lysosome→Zn2+→Complex-III ROS (Biomolecules 2025); Ca2+ modulates PARP1 itself by unclear mechanism (Zhang 2014) — bidirectional.
 - Direction: Ca2+ chelator (BAPTA) vs TRPM2-KO vs calpain inhibitor (calpeptin/PD150606 + calpain-resistant AIF) vs mPTP inhibitor (CsA/NIM811) vs Zn2+ chelator (TPEN) in same MNNG/H2O2/NMDA matrix; read AIF size (62 vs 57 kDa), BAX/BID cleavage, OCR/ECAR, PAR.
 
 ## 11. Are Nudix hydrolases required for parthanatos execution?
