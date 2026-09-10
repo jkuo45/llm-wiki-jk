@@ -14,7 +14,7 @@ NAMPT (Nicotinamide phosphoribosyltransferase) is a key enzyme in the salvage pa
 ## Forms and Subcellular Localization
 NAMPT exists in two distinct functional forms in mammals:
 1. **Intracellular NAMPT (iNAMPT):** Localized in the cytoplasm and nucleus, iNAMPT is vital for maintaining cellular NAD⁺ pools. It is regulated by the circadian clock (via CLOCK:BMAL1 heterodimers binding to its promoter) to drive rhythmic NAD⁺ synthesis.
-2. **Extracellular NAMPT (eNAMPT / Visfatin / PBEF):** Secreted primarily by adipose tissue, immune cells, and hepatocytes. eNAMPT acts as an adipokine and cytokine with pro-inflammatory and systemic insulin-mimetic effects, binding to receptors such as Toll-like receptor 4 ([[Toll-like Receptor|TLR4]]).
+2. **Extracellular NAMPT (eNAMPT / Visfatin / PBEF):** Secreted primarily by adipose tissue, immune cells, and hepatocytes. eNAMPT acts as an adipokine and cytokine with pro-inflammatory and systemic insulin-mimetic effects, binding to receptors such as Toll-like receptor 4 ([[TLR4]]).
 ## Regulation of Sirtuin Activity
 By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts as a primary upstream master regulator of sirtuin-mediated deacetylation.
 - **AMPK Activation:** During energetic stress, activation of [[AMPK|AMPK]] phosphorylates and activates NAMPT, elevating NAD⁺ levels to boost SIRT1 activity.

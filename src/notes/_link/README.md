@@ -643,7 +643,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TLR3]] | Receptor | Toll-like receptor 3, an endosomal pattern-recognition receptor that binds double-stranded RNA and triggers antiviral/inflammatory signaling exclusively through the TRIF adaptor. |
 | [[TLR4]] | Receptor | Toll-like receptor 4, a cell-surface innate immune receptor for LPS that signals through both MyD88 and TRIF adaptors to drive inflammation. |
 | [[Toll-like Receptor]] | Receptor | A class of proteins that play a key role in the innate immune system by recognizing structurally conserved molecules derived from microbes. |
-| [[Toll-like Receptor 2]] | Receptor | TLR2, an innate immunity sensor upregulated in senescent cells that activates an immunity-regulating SASP. |
+| [[TLR2]] | Receptor | TLR2, an innate immunity sensor upregulated in senescent cells that activates an immunity-regulating SASP. |
 | [[TREM2]] | Receptor | Triggering receptor expressed on myeloid cells 2, a microglial immunoglobulin-superfamily receptor that gates cGAS-STING/IFN-I signaling and senescence. |
 | [[uPAR]] | Receptor | Urokinase plasminogen activator receptor (CD87), a GPI-anchored membrane protein that localizes uPA activity to the cell surface and promotes invasion |
 | [[VEGFR]] | Receptor | Vascular endothelial growth factor receptors (VEGFR-1/2/3) driving angiogenesis; TKI targets. |

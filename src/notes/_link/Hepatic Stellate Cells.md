@@ -40,7 +40,7 @@ Senescent HSC produce SASP factors that create a pro-inflammatory, pro-tumorigen
 In senescent HSC, [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]] accumulates due to downregulation of [[DNASE2]] and [[TREX1]]. This activates the [[cGAS-STING Pathway]], driving SASP factor transcription via [[NF-κB]] and [[IRF3]]. Knocking out *[[STING]]* in mouse models blunts SASP production in HSC and attenuates obesity-associated HCC (Takahashi et al., 2018, *Nat Commun* 9:1249; PMID 29593264).
 
 ### TLR2 and Innate Sensing
-[[Toll-like Receptor 2|TLR2]] on HSC recognizes [[Lipoteichoic Acid|lipoteichoic acid (LTA)]] from gram-positive bacteria (translocated due to obesity-related gut permeability) and [[DAMP|DAMPs]] such as serum amyloid A, further amplifying NF-κB-dependent SASP (Loo et al., 2017).
+[[TLR2]] on HSC recognizes [[Lipoteichoic Acid|lipoteichoic acid (LTA)]] from gram-positive bacteria (translocated due to obesity-related gut permeability) and [[DAMP|DAMPs]] such as serum amyloid A, further amplifying NF-κB-dependent SASP (Loo et al., 2017).
 
 ## Dual Role in Liver Disease
 
@@ -75,11 +75,11 @@ List of documents that mention this entity
 - [[COX-2]] / [[Prostaglandin E2]] — Mediates immune suppression by senescent HSC
 - [[STING]] — Knockout attenuates SASP and HCC in HSC
 - [[IL-1β]] — Key SASP factor from senescent HSC
-- [[Toll-like Receptor 2]] — Innate immune sensor amplifying SASP in HSC
+- [[TLR2]] — Innate immune sensor amplifying SASP in HSC
 - [[Senolytic]] — Eliminates senescent HSC to reduce HCC risk
 
 ## Linking Summary
 
-- New links added: [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[Fibrosis]], [[COX-2]], [[Prostaglandin E2]], [[STING]], [[IL-1β]], [[Toll-like Receptor 2]], [[Senolytic]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[Cytoplasmic Chromatin Fragments]], [[DNASE2]], [[TREX1]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[MMP]], [[IL-6]], [[CXCL1]], [[Extracellular Matrix]]
+- New links added: [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[Fibrosis]], [[COX-2]], [[Prostaglandin E2]], [[STING]], [[IL-1β]], [[TLR2]], [[Senolytic]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[Cytoplasmic Chromatin Fragments]], [[DNASE2]], [[TREX1]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[MMP]], [[IL-6]], [[CXCL1]], [[Extracellular Matrix]]
 - Suggested new entity notes to create: [[Hepatic Fibrosis]], [[Bile Acid Metabolism]]
 - Strong connections to strengthen: [[Hepatic Stellate Cells]] ↔ [[Hepatocellular Carcinoma]], [[Hepatic Stellate Cells]] ↔ [[Senescence]], [[Hepatic Stellate Cells]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Hepatic Stellate Cells]] ↔ [[cGAS-STING Pathway]], [[Hepatic Stellate Cells]] ↔ [[Deoxycholic Acid]]

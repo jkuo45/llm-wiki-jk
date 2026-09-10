@@ -48,4 +48,4 @@ TLR2 is a therapeutic target in infection, sepsis, and autoimmunity, and TLR2 ag
 
 - New links added: [[MyD88]], [[IKK complex]], [[NF-κB|NF-κB]], [[p38 MAPK]]
   - Suggested new entity notes to create: [[TLR1]], [[TLR6]], [[TRIF]]
-  - Strong connections to strengthen: [[Toll-like Receptor 2]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Toll-like Receptor 2]] ↔ [[Oncogene-Induced Senescence|OIS]]
+  - Strong connections to strengthen: [[TLR2]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[TLR2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TLR2]] ↔ [[Oncogene-Induced Senescence|OIS]]

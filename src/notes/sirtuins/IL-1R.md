@@ -25,7 +25,7 @@ The **Interleukin-1 receptor (IL-1R)** is the cell-surface receptor that binds t
 
 Sirtuins broadly exert **anti-inflammatory** effects by suppressing the [[NF-κB|NF-κB]] limb that IL-1R engages:
 - [[SIRT1]] and [[SIRT6]] deacetylate the RelA/[[p65]] subunit of NF-κB, blunting transcriptional activation downstream of IL-1R stimulation and reducing secretion of [[IL-1β]], [[TNFα|TNF-α]], and IL-6.
-- [[SIRT1]] counteracts IL-1β-mediated stress (e.g., in chondrocytes and vascular cells) through the [[Toll-like Receptor|TLR2]]/SIRT1/NF-κB axis.
+- [[SIRT1]] counteracts IL-1β-mediated stress (e.g., in chondrocytes and vascular cells) through the [[TLR2]]/SIRT1/NF-κB axis.
 - [[SIRT3]] deficiency amplifies macrophage inflammatory responses to LPS/IL-1R-family stimuli, with elevated [[IL-1β]] and inflammasome activation.
 
 Thus IL-1R-dependent signaling represents a major upstream trigger whose output is tuned by sirtuin-mediated deacetylation of NF-κB components.

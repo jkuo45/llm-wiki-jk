@@ -31,7 +31,7 @@ During [[Senescence]], cGAS–STING is activated by cytoplasmic DNA from multipl
 
 ### Sensing Mechanism
 - [[TOP1]] cleavage complexes (TOP1cc) and [[G3BP1]] assist cGAS recognition/binding to CCFs.
-- [[Toll-like Receptor 2|TLR2]] activates the SASP via the cGAS–STING–NF-κB cascade during OIS.
+- [[TLR2]] activates the SASP via the cGAS–STING–NF-κB cascade during OIS.
 - cGAS synthesizes cyclic GMP–AMP (cGAMP), which binds and activates [[STING]].
 - STING translocates from ER to Golgi, recruiting [[TBK1]], which phosphorylates [[IRF3]] (type I IFN) and activates [[NF-κB]] (pro-inflammatory cytokines).
 
@@ -113,7 +113,7 @@ List of documents that mention this entity
 - [[LINE-1]] — retrotransposable element providing cytoplasmic DNA ligand
 - [[BAX]] — releases mitochondrial DNA through macropores
 - [[BAK]] — releases mitochondrial DNA through macropores
-- [[Toll-like Receptor 2|TLR2]] — activates SASP via cGAS–STING–NF-κB cascade
+- [[TLR2]] — activates SASP via cGAS–STING–NF-κB cascade
 - [[DNASE2]] — degrades cytoplasmic DNA; downregulated in senescence
 - [[TREX1]] — degrades cytoplasmic DNA; downregulated in senescence
 - [[G3BP1]] — assists cGAS recognition of CCFs
@@ -146,6 +146,6 @@ List of documents that mention this entity
 - [[Acetyl-CoA]] — substrate for the H3K27ac SASP program independent of cGAS–STING
 
 ## Linking Summary
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]], [[MPC]], [[SLC25A1]], [[ACLY]], [[ACSS2]], [[CTPI2]], [[Acetyl-CoA]], [[STING Inhibitors]]
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]], [[MPC]], [[SLC25A1]], [[ACLY]], [[ACSS2]], [[CTPI2]], [[Acetyl-CoA]], [[STING Inhibitors]]
 - Suggested new entity notes to create: [[cGAS]], [[IFI16]], [[CCL3]]
   - Strong connections to strengthen: cGAS-STING Pathway ↔ [[SASP|Senescence-Associated Secretory Phenotype]], cGAS-STING Pathway ↔ [[Inflammaging]], cGAS-STING Pathway ↔ [[Aging]], cGAS-STING ↔ [[mtDNA]]
