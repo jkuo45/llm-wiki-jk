@@ -194,5 +194,2287 @@
     "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
     "created": "2026-09-07T02:27:28Z",
     "updated": "2026-09-07T02:27:28Z"
+  },
+  {
+    "id": "7744b79d5949",
+    "subject": "AIFM2",
+    "predicate": "encodes",
+    "object": "FSP1",
+    "context": {
+      "en-US": "AIFM2 is the human gene encoding FSP1 (ferroptosis suppressor protein 1). Although originally characterized as pro-apoptotic, AIFM2 was renamed FSP1 after 2019 studies showed its dominant cellular role is suppressing ferroptosis at the plasma membrane as a flavoprotein ubiquinone oxidoreductase.",
+      "zh-TW": "AIFM2 是人類編碼 FSP1（ferroptosis 抑制蛋白 1）的基因。雖然最初被歸類為促凋亡蛋白，2019 年的研究顯示其主要的細胞角色是在質膜上抑制 ferroptosis，作為黃素蛋白泛醌氧化還原酶，因而更名為 FSP1。"
+    },
+    "confidence": 0.9,
+    "source_document": "AIFM2.md",
+    "created": "2026-09-02T06:56:57Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "dc1176d81e7f",
+    "subject": "Apaf-1",
+    "predicate": "activates",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Cytochrome c released through BAX/BAK-permeabilized mitochondria binds Apaf-1 (apoptotic protease activating factor-1), which together with procaspase-9 assembles the heptameric apoptosome. Within this platform procaspase-9 is activated and in turn cleaves caspase-3, committing the cell to intrinsic apoptosis. The apoptosome is therefore the router that converts mitochondrial outer membrane permeabilization into caspase-9 activation, and it is the very complex whose additional components (such as SIRT1 after caspase cleavage) reshape cell fate.",
+      "zh-TW": "經由 BAX/BAK 通透化的粒線體所釋出的 Cytochrome c 會結合 Apaf-1（凋亡蛋白酶活化因子-1），並與 pro-Caspase-9 共同組裝成七聚體凋亡體（apoptosome）。在此平台上 pro-Caspase-9 被活化，進而切割 Caspase-3，使細胞走向內在凋亡。凋亡體因此是將粒線體外膜通透化轉換為 Caspase-9 活化的路由器，也正是 SIRT1（在 caspase 切割後）重塑細胞命運時所處的複合體。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "7c6b957cc07b",
+    "subject": "Bad",
+    "predicate": "inhibits",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Bad is a BH3-only sensitizer: rather than activating BAX/BAK directly, it displaces anti-apoptotic Bcl-2 family restraint (Bcl-2, Bcl-xL, Mcl-1), indirectly liberating the effectors. IKK-mediated phosphorylation of Bad at Ser26 inactivates it and confers TNFα resistance, and the BH3 mimetic compounds act on the same principle — competitively disrupting Bcl-2/Bcl-xL binding to beclin-1 as well, which releases beclin-1 for autophagy.",
+      "zh-TW": "Bad 是 BH3-only 的敏化因子：它不直接活化 BAX/BAK，而是置換抗凋亡 Bcl-2 家族（Bcl-2、Bcl-xL、Mcl-1）的抑制，間接解放效應蛋白。IKK 對 Bad Ser26 的磷酸化會使其失活並賦予 TNFα 抗性；BH3 擬似劑也基於相同原理——競爭性破壞 Bcl-2/Bcl-xL 與 beclin-1 的結合，同時釋出 beclin-1 以促進自噬。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "557daaa5a812",
+    "subject": "BAX",
+    "predicate": "triggers",
+    "object": "Mitochondrial Permeability Transition Pore",
+    "context": {
+      "en-US": "Activated BAX (with BAK) drives opening of the mitochondrial permeability transition pore, causing cytochrome c to diffuse into the cytosol where it nucleates the apoptosome with Apaf-1 and caspase-9. BH3-only activators (Bid, Bim, PUMA) can directly engage BAX/BAK, while sensitizers (Bad, Noxa, Bik) displace the anti-apoptotic Bcl-2, Bcl-xL, and Mcl-1 restraint. The pore event is the point of no return separating transcriptional death decisions from caspase execution.",
+      "zh-TW": "活化的 BAX（與 BAK）會驅動粒線體通透性轉換孔開啟，使 cytochrome c 擴散進入細胞質，並與 Apaf-1 及 Caspase-9 組裝凋亡體。BH3-only 活化因子（Bid、Bim、PUMA）可直接結合 BAX/BAK，而敏化因子（Bad、Noxa、Bik）則置換抗凋亡的 Bcl-2、Bcl-xL 與 Mcl-1。孔道開啟是區分轉錄層面死亡決定與 caspase 執行的不可逆節點。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "8dfdeb9691f3",
+    "subject": "Bid",
+    "predicate": "activates",
+    "object": "BAX",
+    "context": {
+      "en-US": "Bid is a BH3-only direct activator: in the absence of anti-apoptotic restraint it can directly bind and trigger BAX (and BAK), bypassing the need for sensitizer displacement. In the extrinsic pathway, caspase-8 cleavage of Bid (tBid) routes death-receptor signals into the intrinsic mitochondrial arm in type II cells, and in ischemia-reperfusion injury models caspase-1 cleavage of Bid likewise converts pyroptotic signaling into mitochondrial apoptosis when gasdermin pores are unavailable.",
+      "zh-TW": "Bid 是 BH3-only 的直接活化因子：在缺乏抗凋亡抑制時，它可直接結合並觸發 BAX（與 BAK），無需敏化因子的置換。在外在路徑中，caspase-8 對 Bid 的切割（tBid）使死亡受體訊號在 type II 細胞中轉入內在粒線體臂；而在缺血再灌注損傷模型中，Caspase-1 對 Bid 的切割同樣可在 gasdermin 孔道缺席時，將焦亡訊號轉為粒線體凋亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "10bf8edd0a59",
+    "subject": "Caspases",
+    "predicate": "executes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Caspases are a conserved family of cysteine-aspartate proteases that function as central regulators of apoptosis and inflammation. Initiator caspases sense death signals while executioner caspases dismantle the cell, placing caspases at the heart of the apoptotic program.",
+      "zh-TW": "Caspase 是保守的半胱氨酸-天門冬氨酸蛋白酶家族，是細胞凋亡與發炎的核心調控者。起始型 caspase 感知死亡訊號，執行型 caspase 則分解細胞，使 caspase 位居細胞凋亡程式的核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:56:57Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "b57bbc48780a",
+    "subject": "Caspase-1",
+    "predicate": "cleaves",
+    "object": "Bid",
+    "context": {
+      "en-US": "In ischemia-reperfusion injury, caspase-1 cleaves the BH3-only protein Bid, converting pyroptotic signaling into mitochondrial apoptosis. In gasdermin-D-deficient cells, caspase-1 drives the full Bid/caspase-9/caspase-3 apoptotic cascade — sometimes followed by GSDME-dependent pyroptosis to eliminate uncleared apoptotic bodies. This demonstrates that inflammasome sensors can trigger apoptosis when the pyroptotic executor is missing, a physiologically relevant mechanism in cells with minimal GSDMD expression such as neurons and mast cells.",
+      "zh-TW": "在缺血再灌注損傷中，Caspase-1 會切割 BH3-only 蛋白 Bid，將焦亡訊號轉為粒線體凋亡。在 gasdermin-D 缺陷細胞中，Caspase-1 可驅動完整的 Bid/Caspase-9/Caspase-3 凋亡級聯——有時隨後再以 GSDME 依賴的焦亡清除未被清理的凋亡小體。這證明當焦亡執行者缺席時，發炎體感應器也能觸發細胞凋亡；此機制在 GSDMD 表達極低的細胞（如神經元與肥大細胞）中具生理相關性。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "2a6614351a98",
+    "subject": "Caspase-1",
+    "predicate": "cleaves",
+    "object": "Parkin",
+    "context": {
+      "en-US": "Inflammasome-activated caspase-1 cleaves Parkin, the E3 ligase essential for PINK1/Parkin mitophagy, halting the mitophagy pathway. Caspase-1 simultaneously enhances mitochondrial ROS production, permeabilization, and fragmentation, pushing damage beyond mitophagy's repair capacity. This is the pyroptosis-to-mitophagy inhibitory arm: lytic inflammatory death not only runs ahead of mitochondrial cleanup but actively dismantles it — although ambient ozone exposure studies show ROS can also activate PINK1-Parkin mitophagy upstream of NLRP3 pyroptosis, so the relationship is bidirectional and context-dependent.",
+      "zh-TW": "發炎體活化的 Caspase-1 會切割 PINK1/Parkin 粒線體自噬所必需的 E3 連接酶 Parkin，使粒線體自噬路徑中止。Caspase-1 同時加劇粒線體 ROS 的產生、通透化與片段化，使損傷超出粒線體自噬的修復能力。這是焦亡至粒線體自噬的抑制臂：發炎性裂解死亡不只跑在粒線體清理之前，還主動拆解它——不過臭氧暴露研究顯示 ROS 也可在 NLRP3 焦亡的上游活化 PINK1-Parkin 粒線體自噬，因此兩者關係是雙向且取決於情境的。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "68b0e8671d02",
+    "subject": "Caspase-3",
+    "predicate": "inhibits",
+    "object": "Gasdermin D",
+    "context": {
+      "en-US": "Apoptotic caspases-3 and -7 cleave active gasdermin D (GSDMD) at the non-canonical aspartate-88 site, inactivating its pore-forming N-terminal fragment and thereby suppressing pyroptosis. Because these apoptotic caspases activate more slowly than caspase-1, this acts as a delayed negative-feedback brake: the inflammasome initiates pyroptosis, and the slower apoptotic arm damps it to prevent excessive inflammation. The nature of the death ultimately produced depends on which gasdermin substrate is available — GSDMD (inhibited by caspase-3/-7) versus GSDME (activated by caspase-3).",
+      "zh-TW": "凋亡性的 Caspase-3 與 Caspase-7 會在非典型天門冬胺酸-88 位點切割活化的 gasdermin D（GSDMD），使其成孔的 N 端片段失活，從而抑制焦亡。由於這些凋亡 caspases 的活化比 Caspase-1 慢，這形成延遲的負回饋剎車：發炎體啟動焦亡，而較慢的凋亡臂則抑制過度發炎。最終產生的死亡型態取決於可用的 gasdermin 受質——GSDMD（被 Caspase-3/-7 抑制）或 GSDME（被 Caspase-3 活化）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "010494658a59",
+    "subject": "Caspase-3",
+    "predicate": "activates",
+    "object": "Gasdermin E",
+    "context": {
+      "en-US": "Caspase-3 cleaves gasdermin E (GSDME), releasing its N-terminal pore-forming domain and converting apoptosis into pyroptosis. The outcome is dictated by GSDME expression level: in GSDME-high cancer cells, chemotherapy-activated caspase-3 drives pyroptotic lysis; in GSDME-low settings, GSDME instead acts upstream of caspase-3, reinforcing classical apoptosis. This caspase-3/GSDME switch is the clearest demonstration that the caspase substrate — not the caspase itself — determines the death modality.",
+      "zh-TW": "Caspase-3 會切割 gasdermin E（GSDME），釋出其成孔的 N 端片段，使細胞凋亡轉為焦亡。結果由 GSDME 的表達量決定：在 GSDME 高表達的癌細胞中，化療活化的 Caspase-3 驅動焦亡裂解；在 GSDME 低表達的情境下，GSDME 反而作為 Caspase-3 的上游活化因子，強化典型細胞凋亡。Caspase-3/GSDME 開關最清楚地表現出：決定死亡型態的是 caspase 的受質，而非 caspase 本身。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "2494a038b445",
+    "subject": "Caspase-8",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "In the extrinsic (death receptor) pathway, FasL or TNF-α engagement assembles the DISC, activating initiator caspase-8 (with caspase-10), which directly cleaves the executioner caspase-3 in type I cells. In type II cells caspase-8 instead cleaves Bid, routing through mitochondria. Caspase-8 sits at the crossroads of apoptosis, necroptosis, and pyroptosis because its active form also cleaves RIPK1 and RIPK3, preventing necroptosis — so caspase-8-to-caspase-3 flow is simultaneously a death signal and a necroptosis suppressor.",
+      "zh-TW": "在外在（死亡受體）路徑中，FasL 或 TNF-α 的結合組裝出 DISC，活化起始 caspase-8（與 caspase-10），其在 type I 細胞中直接切割執行者 Caspase-3；在 type II 細胞中 caspase-8 則切割 Bid，改經粒線體路徑。Caspase-8 位於細胞凋亡、程序性壞死與細胞焦亡的十字路口，因為其活化形式也會切割 RIPK1 與 RIPK3 從而阻止程序性壞死——因此 caspase-8 至 Caspase-3 的流動既是死亡訊號，也是程序性壞死的抑制者。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "d3f9d15bc07f",
+    "subject": "Erastin",
+    "predicate": "inhibits",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "Erastin, the prototype class-I ferroptosis inducer, blocks the cystine/glutamate antiporter system xc- (SLC7A11), depleting intracellular cysteine and thereby glutathione. Without GSH, GPX4 cannot reduce lipid peroxides, and iron-driven Fenton chemistry plus LOX-mediated oxidation accumulate lethal lipid peroxides. Erastin additionally induces ER stress that activates the CHOP-PUMA axis, recruiting apoptosis on top of ferroptosis — a combined-death approach relevant to cancer therapy.",
+      "zh-TW": "Erastin 是第一類鐵死亡誘導劑的原型，會阻斷胱胺酸/麩胺酸反向轉運蛋白 system xc-（SLC7A11），耗竭細胞內胱胺酸進而耗盡麩胱甘肽。缺乏 GSH 時，GPX4 無法還原脂質過氧化物，鐵驅動的 Fenton 化學與 LOX 介導的氧化便累積致命的脂質過氧化物。Erastin 還會誘導內質網壓力、活化 CHOP-PUMA 軸線，在鐵死亡之上疊加細胞凋亡——這是與癌症治療相關的複合死亡策略。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "67f77d6da317",
+    "subject": "Executioner Caspase",
+    "predicate": "drives",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Executioner caspases are the terminal proteases of the apoptotic cascade that dismantle the cell. In aging, senescent-cell resistance to executioner-caspase killing via SCAPs is a barrier to senescent-cell clearance, linking executioner-caspase biology to senescence persistence.",
+      "zh-TW": "執行型 caspase 是分解細胞的細胞凋亡級聯末端蛋白酶。在衰老中，衰老細胞經由 SCAPs 對執行型 caspase 殺傷的抵抗是衰老細胞清除的障礙，將執行型 caspase 生物學與衰老持續相連結。"
+    },
+    "confidence": 0.8,
+    "source_document": "Executioner Caspase.md",
+    "created": "2026-09-02T06:56:57Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "16424d506b55",
+    "subject": "Gasdermin E",
+    "predicate": "induces",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Gasdermin E (GSDME, formerly DFNA5) is cleaved by executioner caspase-3, releasing its N-terminal pore-forming domain. In GSDME-high cells, chemotherapy-activated caspase-3 converts the death program from quiet apoptosis into lytic, inflammatory pyroptosis; in GSDME-low settings GSDME instead acts upstream of caspase-3. PINK1-mediated mitophagy suppresses caspase-3/GSDME-dependent pyroptosis in postoperative cognitive dysfunction, tying mitophagy competence to which death modality prevails.",
+      "zh-TW": "Gasdermin E（GSDME，舊稱 DFNA5）會被執行者 Caspase-3 切割，釋出其成孔的 N 端片段。在 GSDME 高表達的細胞中，化療活化的 Caspase-3 會將死亡程序由安靜的細胞凋亡轉為裂解性、發炎性的焦亡；在 GSDME 低表達時，GSDME 反而位於 Caspase-3 的上游。PINK1 介導的粒線體自噬會抑制術後認知功能障礙中 Caspase-3/GSDME 依賴的焦亡，將粒線體自噬能力與何種死亡模式勝出連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gasdermin E.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "aef07c9d1bd4",
+    "subject": "HO-1",
+    "predicate": "regulates",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Heme oxygenase-1 has a biphasic relationship with ferroptosis. Mild damage: HO-1 expression stimulates mitophagy and disposal of damaged mitochondria, disposing of redox-active iron and reducing ferroptosis (as in cisplatin acute kidney injury via the ROS/HO-1/GPX4 axis). Sustained overexpression: HO-1 catabolizes heme into free iron, downregulates GPX4, and promotes lipid peroxidation and ferroptosis (as in TNBC cells). The direction depends on damage severity and HO-1 expression duration.",
+      "zh-TW": "血紅素加氧酶-1（HO-1）與鐵死亡之間呈雙相關係。輕度損傷時：HO-1 的表達會促進粒線體自噬並清除受損粒線體，處理具氧化還原活性的鐵而降低鐵死亡（如經由 ROS/HO-1/GPX4 軸線的 cisplatin 急性腎損傷）。持續過表達時：HO-1 將血紅素分解為游離鐵、下調 GPX4，促進脂質過氧化與鐵死亡（如 TNBC 細胞）。方向取決於損傷嚴重度與 HO-1 表達的持續時間。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "15ef7974f957",
+    "subject": "IL-1α",
+    "predicate": "is_processed_by",
+    "object": "Gasdermin D",
+    "context": {
+      "en-US": "Inflammatory caspases such as Caspase-11, Caspase-4, and Caspase-5 cleave IL-1α as well as Gasdermin D. Gasdermin-D cleavage forms pyroptotic pores while IL-1α processing shapes the SASP, linking non-canonical inflammasome signaling to senescence-associated inflammation.",
+      "zh-TW": "Caspase-11、Caspase-4、Caspase-5 等發炎性 caspase 會剪切 IL-1α 與 Gasdermin D。Gasdermin D 剪切形成焦亡孔道，IL-1α 處理則塑造 SASP，將非典型發炎體訊號與衰老相關發炎相連結。"
+    },
+    "confidence": 0.8,
+    "source_document": "Caspase-11.md",
+    "created": "2026-09-02T06:56:57Z",
+    "updated": "2026-09-02T06:56:57Z"
+  },
+  {
+    "id": "1611c23ccca1",
+    "subject": "Liproxstatin-1",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Liproxstatin-1 is a spiroquinoxalinamine small molecule that inhibits ferroptosis by suppressing lipid peroxidation as a lipophilic radical-trapping antioxidant. It has demonstrated in vivo efficacy in mouse models of ferroptosis-driven pathologies.",
+      "zh-TW": "Liproxstatin-1 是螺喹噁啉胺小分子，作為親脂自由基捕捉抗氧化劑抑制脂質過氧化來阻斷 ferroptosis。它在ferroptosis 驅動病理的小鼠模型中展現體內療效。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liproxstatin-1.md",
+    "created": "2026-09-02T06:56:57Z",
+    "updated": "2026-09-02T06:56:57Z"
+  },
+  {
+    "id": "d8007d92db03",
+    "subject": "Mitophagy",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Mitophagy primarily restrains ferroptosis by disposing of damaged, ROS-leaking mitochondria and by regulating iron translocation (mitoferrins, Fe-S clusters) between matrix and cytoplasm. The relationship is bidirectional, however: complex I inhibition (BAY 87-2243) can drive PINK1-dependent mitophagy that raises ROS and promotes ferroptosis, FUNDC1 can deliver GPX4 to lysosomes promoting ferroptosis, and O-GlcNAc transferase inhibition couples ferritinophagy and mitophagy to ferroptosis sensitivity. Net effect is context-dependent — governed by ROS level, iron availability, and the receptor engaged.",
+      "zh-TW": "粒線體自噬主要透過清除滲漏 ROS 的受損粒線體、並調節基質與細胞質之間的鐵轉運（mitoferrin、Fe-S cluster）來抑制鐵死亡。然而此關係是雙向的：Complex I 抑制（BAY 87-2243）可驅動 PINK1 依賴的粒線體自噬而升高 ROS 並促進鐵死亡；FUNDC1 可將 GPX4 送入溶酶體促進鐵死亡；O-GlcNAc 轉移酶的抑制則將鐵蛋白自噬與粒線體自噬偶聯至鐵死亡敏感性。整體效應取決於 ROS 水平、鐵可用性與所動用的受體。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "3d44278b0d0a",
+    "subject": "MLKL",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Activated MLKL attenuates autophagy following its translocation to intracellular membranes, meaning necroptosis does not merely co-occur with failing autophagy but actively suppresses it. Conversely autophagy can induce necroptosis through ROS byproducts — Baf-A1 (late-stage autophagy inhibition) downregulates RIP1/RIP3, and 3-MA (early inhibition) suppresses RIPK1/RIPK3 interaction — so the two pathways regulate each other in both directions, with TNF-induced necroptosis stimulating early autophagy (RIPK3-AMPK) while blocking late autophagosome-lysosome fusion.",
+      "zh-TW": "活化的 MLKL 在轉位至細胞內膜後會減弱自噬，這表示程序性壞死不只是伴隨自噬失能，還會主動抑制它。反過來，自噬也可透過 ROS 副產物誘導程序性壞死——晚期自噬抑制劑 Baf-A1 會下調 RIP1/RIP3，早期抑制劑 3-MA 會抑制 RIPK1/RIPK3 的交互作用——因此兩條路徑雙向調控彼此；TNF 誘導的程序性壞死會經 RIPK3-AMPK 刺激早期自噬，卻阻斷晚期的自噬體-溶酶體融合。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "3d441685cfe6",
+    "subject": "MLKL",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "MLKL-driven plasma membrane rupture releases damage-associated molecular patterns (DAMPs), which immune cells recognize to eliminate harmful cells and initiate repair. When the inflammatory response remains uncontrolled, this same mechanism drives pathology: cancer, Alzheimer's, parkinsonism, multiple sclerosis, pulmonary, liver, enteric, and cardiac diseases. MLKL-mediated DAMP release is therefore the mechanistic bridge between necroptosis as a host-defense program and necroinflammatory chronic disease.",
+      "zh-TW": "MLKL 驅動的細胞膜破裂會釋出損傷相關分子模式（DAMP），免疫細胞藉此辨識並清除有害細胞、啟動修復。當發炎反應失控時，同一機制便成為病理推手：癌症、阿茲海默症、帕金森氏症、多發性硬化症、肺、肝、腸道與心臟疾病。MLKL 介導的 DAMP 釋放因此是「程序性壞死作為宿主防禦程序」與「壞死性發炎慢性疾病」之間的機制橋樑。"
+    },
+    "confidence": 0.92,
+    "source_document": "MLKL.md",
+    "created": "2026-08-29T02:00:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "643583c4a1b9",
+    "subject": "MLKL",
+    "predicate": "activates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "MLKL pore formation at the plasma membrane triggers potassium efflux, which is a canonical activator of the NLRP3 inflammasome — establishing the RIPK3/MLKL/NLRP3 route by which necroptosis feeds pyroptosis. ASC oligomerization is reduced in MLKL-deficient cells, and RIPK3 can activate NLRP3 even without MLKL. This makes lytic necroptotic rupture a upstream driver of inflammatory interleukin maturation rather than a parallel endpoint.",
+      "zh-TW": "MLKL 在細胞膜形成的孔道會引發鉀離子外流——這是 NLRP3 發炎體的典型活化訊號——從而建立 RIPK3/MLKL/NLRP3 路徑，使程序性壞死餵養焦亡。在 MLKL 缺陷細胞中 ASC 聚集減少，而 RIPK3 即使沒有 MLKL 也能活化 NLRP3。這表示裂解性的程序性壞死破裂是發炎性介白素成熟的下游驅動者，而非平行終點。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "df0ff4ae4454",
+    "subject": "NCOA4",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "NCOA4-mediated ferritinophagy degrades ferritin stores, expanding the labile iron pool that feeds Fenton chemistry and lipid peroxidation — the core ferroptotic engine. Pharmacological or genetic inhibition of O-GlcNAc transferase activates both ferritinophagy and mitophagy, increasing labile iron and ROS and sensitizing cells to ferroptosis. Iron chelators (deferoxamine, ciclopirox) and ferritinophagy blockade therefore act on the same supply-side node of ferroptosis regulation.",
+      "zh-TW": "NCOA4 介導的鐵蛋白自噬會降解鐵蛋白儲存，擴大可動用鐵池，進而餵養 Fenton 化學與脂質過氧化——鐵死亡的核心引擎。藥理或遺傳抑制 O-GlcNAc 轉移酶會同時活化鐵蛋白自噬與粒線體自噬，增加可動用鐵與 ROS，並使細胞對鐵死亡敏感。因此鐵螯合劑（deferoxamine、ciclopirox）與阻斷鐵蛋白自噬都作用在鐵死亡調控的同一供給端節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "4430ddab5ed1",
+    "subject": "Necrosulfonamide",
+    "predicate": "inhibits",
+    "object": "MLKL",
+    "context": {
+      "en-US": "Necrosulfonamide blocks the necroptotic executor MLKL, preventing its pore formation and membrane rupture in human cells. Notably, the same compound also functions as an inhibitor of gasdermin D — the pyroptotic pore-former — so necrosulfonamide dually suppresses the two lytic, DAMP-releasing death modalities. This dual activity makes it a useful tool for dissecting necroptosis-pyroptosis crosstalk, and highlights that MLKL and GSDMD pores share pharmacological vulnerability despite being activated by different cascades.",
+      "zh-TW": "Necrosulfonamide 會阻斷程序性壞死的執行者 MLKL，在人類細胞中防止其形成孔道與膜破裂。值得注意的是，同一化合物也是 gasdermin D——焦亡的成孔蛋白——的抑制劑，因此 necrosulfonamide 可同時抑制兩種裂解性、釋放 DAMP 的死亡模式。這種雙重活性使其成為剖析程序性壞死與焦亡交互作用的实用工具，也突顯 MLKL 與 GSDMD 孔道雖由不同級聯活化，卻共享藥理脆弱性。"
+    },
+    "confidence": 0.88,
+    "source_document": "necrosome.md",
+    "created": "2026-08-29T02:00:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "742c69f0a47f",
+    "subject": "p53",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "p53 promotes ferroptosis transcriptionally by repressing the SLC7A11 cystine/glutamate antiporter (limiting cysteine influx and GSH synthesis) and preventing GPX4 formation. The tumor suppressor's dual action is transcription-independent as well: p53 binds and blocks DPP-4, limiting ferroptosis. iASPP-mediated p53 inhibition activates SLC7A11 and halts ferroptosis, confirming the p53-SLC7A11 axis. This makes ferroptosis a p53-executed tumor suppression program distinct from its apoptotic roles.",
+      "zh-TW": "p53 在轉錄層面促進鐵死亡：它抑制 SLC7A11 胱胺酸/麩胺酸反向轉運蛋白（限制胱胺酸流入與 GSH 合成），並阻止 GPX4 的形成。此腫瘤抑制蛋白也有不依賴轉錄的雙重作用：p53 會結合並阻斷 DPP-4，從而限制鐵死亡。由 iASPP 介導的 p53 抑制會活化 SLC7A11 並中止鐵死亡，確認了 p53-SLC7A11 軸線。這使鐵死亡成為 p53 執行的腫瘤抑制程序，有別於其細胞凋亡角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "88e85bc31e9b",
+    "subject": "p53",
+    "predicate": "activates",
+    "object": "Puma",
+    "context": {
+      "en-US": "Nuclear p53 transcriptionally activates PUMA (p53 upregulated modulator of apoptosis), a BH3-only protein that binds and inhibits the anti-apoptotic BCL-xL. Because PUMA can act both as a direct activator of BAX/BAK and as a sensitizer that displaces anti-apoptotic Bcl-2 family members, p53-PUMA signaling lowers the mitochondrial threshold for cytochrome c release. Cytoplasmic p53 additionally retains the ability to activate BAX and BAK directly.",
+      "zh-TW": "細胞核內的 p53 會轉錄活化 PUMA（p53 上調凋亡調控因子），一種可結合並抑制抗凋亡 BCL-xL 的 BH3-only 蛋白。由於 PUMA 既能直接活化 BAX/BAK，也能作為置換抗凋亡 Bcl-2 家族成員的敏化因子，p53-PUMA 訊號降低了粒線體釋出 cytochrome c 的門檻。此外，細胞質型的 p53 仍可直接活化 BAX 與 BAK。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "02f4e520609a",
+    "subject": "Parkin",
+    "predicate": "ubiquitinates",
+    "object": "VDAC",
+    "context": {
+      "en-US": "Parkin ubiquitinates the voltage-dependent anion channel VDAC on the mitochondrial outer membrane — a modification with dual cell-fate meaning: monoubiquitination of VDAC halts apoptosis, while polyubiquitination feeds PINK1/Parkin mitophagy. Parkin also ubiquitinates MFN1 and mitochondrial Rho GTPases, and regulates Drp1 activity and degradation. VDAC is therefore the point of intersection where the same E3 ligase executing mitophagy also restrains apoptotic permeabilization.",
+      "zh-TW": "Parkin 會對粒線體外膜的電壓依賴性陰離子通道 VDAC 進行泛素化——此修飾具有雙重的細胞命運意義：VDAC 的單泛素化可阻止細胞凋亡，而多泛素化則驅動 PINK1/Parkin 介導的粒線體自噬。Parkin 也會泛素化 MFN1 與粒線體 Rho GTPase，並調控 Drp1 的活性與降解。因此 VDAC 正是同一個 E3 連接酶在執行粒線體自噬之外、同時抑制凋亡通透化的交會點。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "8c48e2a8b2dd",
+    "subject": "PGAM5",
+    "predicate": "activates",
+    "object": "DRP1",
+    "context": {
+      "en-US": "PGAM5 activates the GTP-binding fission protein Drp1, which translocates to mitochondria to drive the fission that both segregates damaged mitochondria for PINK1/Parkin mitophagy and, under severe RIPK3 activation, contributes to necroptotic mitochondrial rupture. The RIPK3-PGAM5-Drp1 route is thus a shared conduit: mild damage routes it to mitophagy, severe damage to necroptosis. Some studies contest the importance of PGAM5 in Drp1 activation, so the exact mechanism remains under investigation.",
+      "zh-TW": "PGAM5 會活化 GTP 結合的分裂蛋白 Drp1，使其轉位至粒線體驅動分裂——此過程既能隔離受損粒線體供 PINK1/Parkin 粒線體自噬之用，在強烈 RIPK3 活化下也促成程序性壞死的粒線體破裂。RIPK3-PGAM5-Drp1 路徑因此是共享通道：輕度損傷導向粒線體自噬，嚴重損傷導向程序性壞死。部分研究質疑 PGAM5 在 Drp1 活化中的重要性，其確切機制仍在研究中。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "3f56294e0d12",
+    "subject": "PGAM5",
+    "predicate": "stabilizes",
+    "object": "PINK1",
+    "context": {
+      "en-US": "The mitochondrial phosphatase PGAM5 stabilizes PINK1 on damaged mitochondrial membranes and can attach to LC3, supporting PINK1/Parkin mitophagy. It simultaneously serves the necroptosis machinery by anchoring the necrosome and activating Drp1-driven fission. Which role dominates depends on damage severity: mild stress favors the PGAM5-PINK1 mitophagy arm (cell preservation), while severe RIPK3 activation shifts PGAM5-Drp1 toward necroptotic rupture.",
+      "zh-TW": "粒線體磷酸酶 PGAM5 會將 PINK1 穩定在受損的粒線體膜上並可結合 LC3，支持 PINK1/Parkin 介導的粒線體自噬。同時它也服務於程序性壞死機器：錨定 necrosome 並活化 Drp1 驅動的分裂。何種角色占上風取決於損傷程度：輕度壓力偏向 PGAM5-PINK1 的粒線體自噬臂（細胞保存），而強烈的 RIPK3 活化則使 PGAM5-Drp1 轉向程序性壞死破裂。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "6ac80183ecdc",
+    "subject": "Puma",
+    "predicate": "inhibits",
+    "object": "Bcl-xL",
+    "context": {
+      "en-US": "PUMA neutralizes the anti-apoptotic BCL-xL, freeing BAX and BAK to permeabilize the mitochondrial outer membrane. Notably, PUMA is dual-function: it can act as a direct BAX/BAK activator (like Bid and Bim) or as a sensitizer (like Bad, Noxa, and Bik) that displaces Bcl-2-family restraint. This places p53-PUMA signaling at the point where transcriptional death decisions become mitochondrial permeabilization.",
+      "zh-TW": "PUMA 會中和抗凋亡的 BCL-xL，釋放 BAX 與 BAK 以通透化粒線體外膜。值得注意的是 PUMA 具雙重功能：它既能像 Bid 與 Bim 一樣直接活化 BAX/BAK，也能像 Bad、Noxa 與 Bik 一樣作為敏化因子置換 Bcl-2 家族的抑制。這使 p53-PUMA 訊號正好位於轉錄層面的死亡決定轉換為粒線體通透化的節點。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "3bb2361b4737",
+    "subject": "RIPK3",
+    "predicate": "phosphorylates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "RIPK3 phosphorylates MLKL on its activation loop (human Thr357/Ser358), exposing the N-terminal four-helix bundle that executes necroptosis. This phosphorylation is the final licensure step of the necrosome cascade: without it MLKL stays monomeric and inert. Phosphorylated MLKL then oligomerizes and traffics to the plasma membrane, where its four-helix bundles form cation channels. MLKL is a pseudokinase — it binds ATP but does not hydrolyze it — so its function is structural membrane disruption rather than signaling.",
+      "zh-TW": "RIPK3 會將 MLKL 的活化環（人類 Thr357/Ser358）磷酸化，暴露出執行程序性壞死的 N 端四螺旋束。此磷酸化是 necrosome 級聯的最終許可步驟：缺少它時 MLKL 保持單體且不活化。磷酸化的 MLKL 隨後寡聚化並轉位至細胞膜，其四螺旋束在此形成陽離子通道。MLKL 是一種偽激酶——會結合 ATP 但不水解——因此其功能是結構性的膜破壞而非訊號傳遞。"
+    },
+    "confidence": 0.95,
+    "source_document": "MLKL.md",
+    "created": "2026-08-29T02:00:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "347321411002",
+    "subject": "RSL3",
+    "predicate": "inhibits",
+    "object": "GPX4",
+    "context": {
+      "en-US": "RSL3 is the prototype class-II ferroptosis inducer: it directly inhibits glutathione peroxidase 4 (GPX4), the only enzyme that can reduce lipid hydroperoxides inside membranes. GPX4 inhibition makes the cell unable to neutralize lipid peroxides regardless of GSH supply, committing it to ferroptotic death. RSL3 synergy with autophagic GPX4 degradation (Fin56, copper) and its use alongside system-xc- blockers like erastin represent the two supply-side and effector-side strategies for triggering ferroptosis in cancer.",
+      "zh-TW": "RSL3 是第二類鐵死亡誘導劑的原型：它直接抑制麩胱甘肽過氧化物酶 4（GPX4）——唯一能在膜內還原脂質氫過氧化物的酶。GPX4 受抑制後，無論 GSH 供應如何，細胞都無法中和脂質過氧化物，注定走向鐵死亡。RSL3 與自噬介導的 GPX4 降解（Fin56、銅）之間的協同，以及與 system xc- 阻斷劑（如 erastin）的並用，代表觸發癌症鐵死亡的供給端與效應端兩大策略。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "0d690e36c330",
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "SIRT1 is an upstream activator of PINK1/Parkin mitophagy — for example via the SIRT1-FOXO1/3-PINK1-Parkin axis recruited during exercise and stress adaptation. Sirtuins also drive mitophagy directly by post-translationally modifying mitophagy proteins (ATG5, ATG7, ATG8) or indirectly by inducing mTORC1-relieved, Parkin, beclin-1, and BNIP3 expression. Because mitophagy disposes of ROS-leaking damaged mitochondria, SIRT1's mitophagy arm connects NAD+ metabolism to both pyroptosis and ferroptosis suppression.",
+      "zh-TW": "SIRT1 是 PINK1/Parkin 粒線體自噬的上游活化因子——例如在運動與壓力適應中招募的 SIRT1-FOXO1/3-PINK1-Parkin 軸線。Sirtuins 也能透過對粒線體自噬蛋白（ATG5、ATG7、ATG8）的轉譯後修飾直接驅動粒線體自噬，或間接透過解除 mTORC1 抑制並誘導 Parkin、beclin-1 與 BNIP3 的表達。由於粒線體自噬會清除滲漏 ROS 的受損粒線體，SIRT1 的這條路徑將 NAD+ 代謝與焦亡及鐵死亡的抑制串聯起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "79526bc46918",
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "The AMPK/SIRT1 axis suppresses pyroptosis: colchicine activates AMPK, which upregulates SIRT1, whose anti-inflammatory histone deacetylation weakens the inflammatory tone, alleviates oxidative stress, and halts the pyroptotic process. SIRT1 also suppresses caspase-1-mediated pyroptosis via NRF2/PGC-1α signaling in Hirschsprung-associated enterocolitis models. Together with its suppression of NLRP3-priming NF-κB signaling, this makes SIRT1 an upstream rheostat of inflammasome-driven lytic death.",
+      "zh-TW": "AMPK/SIRT1 軸線會抑制焦亡：colchicine 活化 AMPK，進而上調 SIRT1，其抗發炎的組蛋白去乙醯化可減弱發炎張力、緩解氧化壓力並中止焦亡過程。在希施斯普倫病相關腸結腸炎模型中，SIRT1 也透過 NRF2/PGC-1α 訊號抑制 Caspase-1 介導的焦亡。加上其對 NLRP3 致敏所需 NF-κB 訊號的抑制，SIRT1 成為發炎體驅動裂解死亡的上游調節器。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "7c4cfb60eb2a",
+    "subject": "SIRT3",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "In myocardial ischemia-reperfusion injury, abnormalities in the SIRT1-SIRT3 axis inhibit PINK1/Parkin-mediated mitophagy, which raises mitochondrial ROS and activates ferroptosis. Restoring the axis therefore protects against ferroptotic cardiac injury. This places the mitochondrial sirtuins upstream of ferroptosis via mitophagy competence, complementary to SIRT3's direct deacetylation control of antioxidant enzymes (MnSOD K68/K122, IDH2) that determines the ROS burden feeding lipid peroxidation.",
+      "zh-TW": "在心肌缺血再灌注損傷中，SIRT1-SIRT3 軸線的異常會抑制 PINK1/Parkin 介導的粒線體自噬，進而升高粒線體 ROS 並活化鐵死亡。因此恢復該軸線可保護心臟免於鐵死亡損傷。這使粒線體 sirtuins 透過粒線體自噬能力位於鐵死亡的上游，並與 SIRT3 對抗氧化酶（MnSOD K68/K122、IDH2）的直接去乙醯化控制互補——後者決定餵入脂質過氧化的 ROS 負荷。"
+    },
+    "confidence": 0.87,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "fe89b842496d",
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "SIRT3 activates AMPK/Parkin-mediated mitophagy (for example via the FOXO3a/PINK1-Parkin route in retinal pigment epithelial cells under high glucose), and simultaneously suppresses NLRP3 inflammasome activation by lowering mitochondrial ROS in human macrophages. In myocardial ischemia-reperfusion injury, abnormalities in the SIRT1-SIRT3 axis silence PINK1/Parkin mitophagy, raising ROS and activating ferroptosis — making the SIRT1/SIRT3 pair a joint upstream gate for mitophagy and, through it, for multiple death modalities.",
+      "zh-TW": "SIRT3 會活化 AMPK/Parkin 介導的粒線體自噬（例如高糖環境下視網膜色素上皮細胞中的 FOXO3a/PINK1-Parkin 路徑），並在人類巨噬細胞中藉由降低粒線體 ROS 抑制 NLRP3 發炎體的活化。在心肌缺血再灌注損傷中，SIRT1-SIRT3 軸線的異常會沉默 PINK1/Parkin 粒線體自噬，升高 ROS 並活化鐵死亡——使 SIRT1/SIRT3 這一對成為粒線體自噬（進而及於多種死亡模式）的共同上游閘門。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "4d4c829f667a",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "SIRT3 — a key mitophagy regulator — decreases NLRP3 inflammasome activation in human macrophages by reducing ROS, for example in electrical-stimulation models of Val-boroPro-induced pyroptosis. Because mtROS is a canonical second signal for NLRP3 assembly, SIRT3's control of mitochondrial redox places it upstream of inflammasome priming. Quercetin's promotion of mitophagy and MSC-exosome-mediated mitophagy suppression of microglial pyroptosis act on the same axis, while Parkin additionally restrains NF-κB via A20 induction.",
+      "zh-TW": "作為粒線體自噬的關鍵調節者，SIRT3 藉由降低 ROS 抑制人類巨噬細胞中 NLRP3 發炎體的活化（例如在 Val-boroPro 誘導焦亡的電刺激模型中）。由於 mtROS 是 NLRP3 組裝的典型第二訊號，SIRT3 對粒線體氧化還原的控制使其位於發炎體致敏的上游。Quercetin 促進粒線體自噬、以及間質幹細胞外泌體促進粒線體自噬以抑制小膠細胞焦亡，都作用在同一軸線上；此外 Parkin 亦可透過誘導 A20 抑制 NF-κB。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
+    "created": "2026-08-29T01:45:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "e92916d3e074",
+    "subject": "TNFα",
+    "predicate": "triggers",
+    "object": "necrosome",
+    "context": {
+      "en-US": "TNF-α binding to TNFR1 assembles complex I (RIPK1, TRADD, TRAF2, LUBAC, cIAP1, CYLD, NEMO). When NF-κB activation is suppressed, RIPK1 deubiquitinates and assembles complex IIa (ripoptosome) with FADD, TRADD, and pro-caspase-8 for apoptosis; with cIAP1 inhibited, complex IIb forms. Only when caspase-8 is absent or inhibited does RIPK1 recruit RIPK3 and MLKL into the necrosome — making TNF signaling a three-way fate decision in which the necrosome is the final, caspase-suppressed branch.",
+      "zh-TW": "TNF-α 與 TNFR1 結合會組裝 complex I（RIPK1、TRADD、TRAF2、LUBAC、cIAP1、CYLD、NEMO）。當 NF-κB 活化受抑制時，RIPK1 去泛素化並與 FADD、TRADD 及 pro-Caspase-8 組裝出 complex IIa（ripoptosome）以進行細胞凋亡；當 cIAP1 受抑制時則形成 complex IIb。只有當 caspase-8 缺席或受抑制時，RIPK1 才會招募 RIPK3 與 MLKL 組成 necrosome——使 TNF 訊號成為三向的命運決定，而 necrosome 是 caspase 受壓制後的最終分支。"
+    },
+    "confidence": 0.92,
+    "source_document": "necrosome.md",
+    "created": "2026-08-29T02:00:00Z",
+    "updated": "2026-09-02T07:19:21Z"
+  },
+  {
+    "id": "499b9c0eff68",
+    "subject": "Apoptosis",
+    "predicate": "preferentially_executed_by",
+    "object": "Females",
+    "context": {
+      "en-US": "This is the most fundamental sex difference in the vault's cell-death biology: under stress, cells of female (XX) origin preferentially undergo caspase-dependent apoptosis (controlled, non-inflammatory), while male (XY) cells preferentially die by PARP-1/AIF-dependent necrosis (uncontrolled, proinflammatory). The divergence is cell-autonomous, persisting in hormone-free media and prepubertal animals, with major implications for stroke, MI, neurodegeneration and cancer therapy.",
+      "zh-TW": "這是資料庫細胞死亡生物學中最根本的性別差異：在壓力下，女性（XX）來源的細胞優先進行依賴 caspases 的凋亡（受控、非發炎），而男性（XY）細胞則偏好 PARP-1/AIF 依賴的壞死（不受控、促發炎）。此差異具細胞自主性，在無荷爾蒙培養基與青春期前動物中皆持續存在，對中風、心肌梗塞、神經退化與癌症治療具重大意義。"
+    },
+    "confidence": 0.85,
+    "source_document": "Apoptosis.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "66043062ae8f",
+    "subject": "Apoptosis",
+    "predicate": "inhibited_by",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Estrogen-driven Bcl-2 upregulation raises the female apoptotic threshold: post-ischemic Bcl-2 is >60% higher in female brains (Dubal et al., J Neurosci 1999), and both BAX knockout (Forger et al., PNAS 2004) and Bcl-2 overexpression (Zup et al., J Neurosci 2003) eliminate sex differences in neuron number — establishing the Bcl-2/BAX axis as the genetic basis of sex differences in cell number.",
+      "zh-TW": "雌激素驅動的 Bcl-2 上調提高女性凋亡閾值：缺血後女性腦部 Bcl-2 升高逾 60%（Dubal 等，J Neurosci 1999）；BAX 基因剔除（Forger 等，PNAS 2004）與 Bcl-2 過量表現（Zup 等，J Neurosci 2003）皆能消除神經元數目的性別差異——確立 Bcl-2/BAX 軸為細胞數目性別差異的基因基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Bcl-2.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "c2c4af212b3e",
+    "subject": "Apoptosis",
+    "predicate": "opposed_by",
+    "object": "PARP1",
+    "context": {
+      "en-US": "PARP-1 is the male-preferred death effector: XY cells die via PARP-1/AIF-dependent necrosis rather than caspases. PARP-1 knockout protects males from ischemic brain injury but exacerbates damage in females, and loss of PARP-1 abrogates estradiol's neuroprotective potential — the mirror image of the XX-caspase arm.",
+      "zh-TW": "PARP-1 是男性偏好的死亡效應因子：XY 細胞經 PARP-1/AIF 依賴的壞死而非 caspases 死亡。PARP-1 基因剔除保護雄性免於缺血性腦損傷，但在雌性卻加重損傷，且失去 PARP-1 會取消雌二醇的神經保護潛能——此為 XX-caspase 分支的鏡像。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "60fe4fa3c9a3",
+    "subject": "Apoptosis",
+    "predicate": "coupled_to",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Caspases are the executioner proteases of the female-preferred (XX) death arm: female cells show higher and earlier caspase-3 (Liu et al., Stroke 2009) and ~3x greater, uniquely nuclear-translocating caspase-8 (Sharma et al., ASN Neuro 2011) after ischemia, and pan-caspase inhibition protects females but not males in experimental stroke.",
+      "zh-TW": "Caspases 是女性偏好（XX）死亡分支的執行蛋白酶：缺血後女性細胞的 caspase-3 較高且更早（Liu 等，Stroke 2009），caspase-8 約 3 倍且具 XX 特有的核轉位（Sharma 等，ASN Neuro 2011），而廣效 caspase 抑制在實驗性中風中僅保護雌性而對雄性無效。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "1c39c146cd49",
+    "subject": "Caspases",
+    "predicate": "activated_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Caspases are the female-preferred death effectors in the XX-caspase / XY-PARP-1-AIF framework. Caspase-3/8 activation is higher and earlier in female (XX) cells and neurons after ischemia, and pan-caspase inhibition protects females but not males in experimental stroke.",
+      "zh-TW": "Caspases 是 XX-caspase / XY-PARP-1-AIF 架構中女性偏好的死亡效應因子。缺血後女性（XX）細胞與神經元的 caspase-3/8 活化較高且較早，而廣效 caspase 抑制在實驗性中風中僅保護雌性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspases.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "4eda0f0ab30b",
+    "subject": "Bcl-2",
+    "predicate": "upregulated_by",
+    "object": "Estrogen",
+    "context": {
+      "en-US": "Estrogen transcriptionally induces Bcl-2 (neuroprotection): post-ischemic Bcl-2 is >60% higher in female brains (Dubal et al., J Neurosci 1999; Alkayed et al., 2001). Estrogen also upregulates Bcl-w and downregulates Bim (Patterson et al., J Neurosci 2007). The higher female Bcl-2/Bax ratio favors survival and apoptotic resistance, and post-MI apoptosis is ~10x higher in men (25.9%) than women (2.6%) (Biondi-Zoccai et al., Heart 2005).",
+      "zh-TW": "雌激素在轉錄層面誘導 Bcl-2（神經保護）：缺血後女性腦部 Bcl-2 升高逾 60%（Dubal 等，J Neurosci 1999；Alkayed 等，2001）。雌激素亦上調 Bcl-w 並下調 Bim（Patterson 等，J Neurosci 2007）。女性較高的 Bcl-2/Bax 比值有利存活與凋亡抗性，而心肌梗塞後凋亡在男性（25.9%）約為女性（2.6%）的 10 倍（Biondi-Zoccai 等，Heart 2005）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Bcl-2.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "0d306b55f137",
+    "subject": "Bcl-2",
+    "predicate": "raises_apoptotic_threshold_in",
+    "object": "Females",
+    "context": {
+      "en-US": "Estrogen-driven Bcl-2 sets the female anti-apoptotic setpoint that raises the apoptotic threshold on the XX-caspase arm of the unified cell-death framework. Because tumors in women face a higher apoptotic threshold, Bcl-2-family-dependent drug resistance in cancers such as Breast Cancer and Prostate Cancer must be interpreted through a sex-hormonal lens; senolytic BH3 mimetics (e.g., Navitoclax/ABT-263) target these same pro-survival proteins.",
+      "zh-TW": "雌激素驅動的 Bcl-2 設定女性的抗凋亡基準點，在統一細胞死亡架構的 XX-caspase 分支上提高凋亡閾值。由於女性腫瘤面對較高的凋亡閾值，乳癌與攝護腺癌等癌症中依賴 Bcl-2 家族的藥物抗藥性必須以性荷爾蒙觀點詮釋；衰老溶解 BH3 擬似物（如 Navitoclax/ABT-263）即靶向這些同類促存活蛋白。"
+    },
+    "confidence": 0.8,
+    "source_document": "Bcl-2.md",
+    "created": "2026-09-02T06:00:00Z",
+    "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "5c7350055eed",
+    "subject": "Caspase-8",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Active caspase-8 cleaves RIPK1/RIPK3 to suppress necroptosis; its inhibition flips TNF signaling to necroptosis. Inhibition is the fate-switch mechanism.",
+      "zh-TW": "活化 caspase-8 切割 RIPK1/RIPK3 以抑制程序性壞死；其抑制將 TNF 訊號翻轉為壞死。抑制是命運開關機制。"
+    },
+    "confidence": 0.92,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "7fe587dc7ed3",
+    "subject": "RIPK1",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "RIPK1 scaffolds and activates RIPK3 to assemble the necrosome. Activation is the kinase relay of the cascade.",
+      "zh-TW": "RIPK1 支架化並活化 RIPK3 以組裝 necrosome。活化是級聯的激酶接力。"
+    },
+    "confidence": 0.88,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "336d13aaa9e9",
+    "subject": "Necrostatin-1",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Necrostatin-1 is the defining tool inhibitor of RIPK1 kinase activity. Inhibition blocks necrosome assembly.",
+      "zh-TW": "Necrostatin-1 是 RIPK1 激酶活性的定義性工具抑制劑。抑制阻斷 necrosome 組裝。"
+    },
+    "confidence": 0.93,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "191cb7678376",
+    "subject": "Necroptosis",
+    "predicate": "is_a_type_of",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Necroptosis is the programmed subform of necrotic death. Classification nests the regulated program in necrosis.",
+      "zh-TW": "程序性壞死是壞死性死亡的程序性子型。歸類將調控程序嵌套於壞死。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "29e1b56c6f09",
+    "subject": "Necrosis",
+    "predicate": "releases",
+    "object": "Damage-Associated Molecular Patterns",
+    "context": {
+      "en-US": "Necrotic rupture spills DAMPs that drive sterile inflammation. Release is the lytic-to-immune coupling.",
+      "zh-TW": "壞死破裂溢出 DAMP 驅動無菌發炎。釋放是裂解到免疫的耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "1382a5525194",
+    "subject": "Necrosis",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Necrotic DAMP release prominently induces inflammation via TLR/RAGE/NLRP3. Induction is the pro-inflammatory outcome.",
+      "zh-TW": "壞死 DAMP 釋放經由 TLR/RAGE/NLRP3 顯著誘發發炎。誘發是促發炎結果。"
+    },
+    "confidence": 0.88,
+    "source_document": "Necrosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "e8cb6bc7b575",
+    "subject": "TRAIL",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "TRAIL death-ligand engagement activates initiator caspase-8 at the DISC. Activation is the extrinsic entry point.",
+      "zh-TW": "TRAIL 死亡配體接合在 DISC 活化起始 caspase-8。活化是外源進入點。"
+    },
+    "confidence": 0.92,
+    "source_document": "Caspase-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "9fff65266159",
+    "subject": "FasL",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "FasL engagement activates initiator caspase-8 at the DISC. Parallel entry to the TRAIL edge.",
+      "zh-TW": "FasL 接合在 DISC 活化起始 caspase-8。與 TRAIL 邊平行的進入。"
+    },
+    "confidence": 0.92,
+    "source_document": "Caspase-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "7c48aa6f8b97",
+    "subject": "Caspase-8",
+    "predicate": "activates",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "Caspase-8 directly cleaves executioner caspase-7 in type I cells. Activation parallels the caspase-3 edge.",
+      "zh-TW": "Caspase-8 在 I 型細胞直接切割執行 caspase-7。活化與 caspase-3 邊平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caspase-8.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "4d13cfd615c6",
+    "subject": "p53",
+    "predicate": "suppresses",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "p53 transcriptionally represses the cystine/glutamate antiporter, limiting GSH synthesis for ferroptosis execution. Erastin phenocopies this suppression pharmacologically.",
+      "zh-TW": "p53 在轉錄抑制胱胺酸/麩胺酸反向轉運體，限制 GSH 合成以執行鐵死亡。Erastin 在藥理表型複製此抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "6e482492fe8c",
+    "subject": "SLC7A11",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Cystine import through system Xc- sustains GSH supply that brakes ferroptosis. Protection is the reverse of the Erastin inhibition edge.",
+      "zh-TW": "經由 system Xc- 的胱胺酸輸入維持 GSH 供應以煞車鐵死亡。保護是 Erastin 抑制邊的反向。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "53ab5b7e1b17",
+    "subject": "Selenocysteine",
+    "predicate": "is_required_for",
+    "object": "GPX4",
+    "context": {
+      "en-US": "The catalytic selenocysteine is essential for GPX4 peroxidase activity. Requirement links mevalonate-pathway tRNA maturation to ferroptosis defense.",
+      "zh-TW": "催化性硒半胱胺酸對 GPX4 過氧化酶活性必要。必要性將甲羥戊酸路徑 tRNA 成熟連結到鐵死亡防禦。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Ferroptosis past present and future.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "ce4da4a7c20b",
+    "subject": "LPCAT3",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "LPCAT3 remodels phosphatidylethanolamine with ACSL4-charged PUFA for peroxidation. Promotion completes the ACSL4 remodeling axis.",
+      "zh-TW": "LPCAT3 以 ACSL4 活化的 PUFA 重塑磷脂醯乙醇胺以供過氧化。促進完成 ACSL4 重塑軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "791b43903969",
+    "subject": "Artesunate",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Artesunate triggers ROS-dependent ferroptosis in pancreatic, ovarian and head-and-neck models. Induction extends the inducer set beyond erastin/RSL3.",
+      "zh-TW": "Artesunate 在胰臟、卵巢與頭頸模型觸發 ROS 依賴鐵死亡。誘發將誘發劑集合延伸至 erastin/RSL3 之外。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "cb0473a35039",
+    "subject": "NRF2",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "NRF2-driven antioxidant and iron-control programs suppress ferroptotic death via the p62-Keap1 axis. Suppression is the transcriptional brake.",
+      "zh-TW": "NRF2 驅動的抗氧化與鐵控制程序經由 p62-Keap1 軸抑制鐵死亡。抑制是轉錄煞車。"
+    },
+    "confidence": 0.75,
+    "source_document": "Ferroptosis.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "907e3ceb76fa",
+    "subject": "Transferrin",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Transferrin-receptor iron import supplies the labile iron feeding Fenton chemistry. Promotion is the iron-supply arm.",
+      "zh-TW": "Transferrin 受體鐵輸入供應餵養 Fenton 化學的可動用鐵。促進是鐵供應臂。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Ferroptosis past present and future.md",
+    "created": "2026-09-04T17:05:28Z",
+    "updated": "2026-09-04T17:05:28Z"
+  },
+  {
+    "id": "eb71efa107b2",
+    "subject": "Parthanatos",
+    "predicate": "is_a",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Parthanatos is a regulated cell death program defined by PARP1 hyperactivation, PAR signaling, and AIF/MIF-dependent large-scale DNA fragmentation, distinct from caspase-dependent apoptosis and accidental necrosis.",
+      "zh-TW": "Parthanatos 是一種受調控的細胞死亡程序，由 PARP1 過度活化、PAR 訊號傳遞以及 AIF/MIF 依賴的大尺度 DNA 片段化所定義，不同於 caspase 依賴的 apoptosis 與意外的 necrosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "980a6843db14",
+    "subject": "PARP1",
+    "predicate": "drives",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Severe DNA damage hyperactivates PARP1, generating long branched PAR polymers that translocate to mitochondria and trigger AIF release, committing the cell to parthanatos instead of DNA repair.",
+      "zh-TW": "嚴重 DNA 損傷使 PARP1 過度活化，產生長分支 PAR 聚合物，轉位至粒線體並觸發 AIF 釋放，使細胞走向 parthanatos 而非 DNA 修復。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "0aab43da2213",
+    "subject": "PARP1",
+    "predicate": "produces",
+    "object": "PAR",
+    "context": {
+      "en-US": "Hyperactivated PARP1 consumes NAD+ to synthesize poly(ADP-ribose) (PAR) chains on itself and chromatin targets; in parthanatos these chains accumulate to toxic levels and act as a death signal.",
+      "zh-TW": "過度活化的 PARP1 消耗 NAD+，在其自身與染色質目標上合成 poly(ADP-ribose)（PAR）鏈；在 parthanatos 中這些鏈累積至毒性濃度並作為死亡訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "b695a84ca080",
+    "subject": "PAR",
+    "predicate": "binds",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Cytosolic PAR binds mitochondrial Apoptosis-Inducing Factor at Arg588, releasing it from the inner membrane and licensing its nuclear translocation together with MIF.",
+      "zh-TW": "細胞質 PAR 在 Arg588 結合粒線體 Apoptosis-Inducing Factor，將其從內膜釋放，並促使其與 MIF 共同轉位入核。"
+    },
+    "confidence": 0.9,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "72050d73b275",
+    "subject": "nNOS",
+    "predicate": "promotes",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "In male ischemic neurons, nNOS-derived peroxynitrite drives the DNA damage that hyperactivates PARP1; nNOS blockade protects males by cutting off parthanatos at its source.",
+      "zh-TW": "在雄性缺血神經元中，nNOS 衍生的 peroxynitrite 造成 DNA 損傷並使 PARP1 過度活化；阻斷 nNOS 可從源頭切斷 parthanatos，保護雄性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "527535c9a917",
+    "subject": "PJ-34",
+    "predicate": "inhibits",
+    "object": "PARP1",
+    "context": {
+      "en-US": "PJ-34 is a PARP inhibitor that blocks parthanatos by preventing PARP1 hyperactivation and downstream PAR/AIF/MIF signaling; in stroke models it protects males only.",
+      "zh-TW": "PJ-34 是 PARP 抑制劑，透過阻止 PARP1 過度活化及下游 PAR/AIF/MIF 訊號來阻斷 parthanatos；在中風模型中僅保護雄性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Parthanatos.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "b48fa48a35bb",
+    "subject": "Ferrostatin-1",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Ferrostatin-1 is the defining ferroptosis inhibitor: a lipophilic radical-trapping antioxidant that halts lipid peroxidation propagation; rescue by Fer-1 is a diagnostic criterion for ferroptosis.",
+      "zh-TW": "Ferrostatin-1 是代表性的 ferroptosis 抑制劑：親脂性自由基捕捉抗氧化劑，可中止脂質過氧化鏈式反應；Fer-1 救援是 ferroptosis 的診斷標準。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ferrostatin-1.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "2073fccaacb5",
+    "subject": "Z-VAD-FMK",
+    "predicate": "blocks",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Z-VAD-FMK is a pan-caspase inhibitor that blocks caspase-dependent apoptosis; persistence of death under Z-VAD-FMK argues for necroptosis, ferroptosis, or parthanatos instead.",
+      "zh-TW": "Z-VAD-FMK 是泛 caspase 抑制劑，可阻斷 caspase 依賴的 apoptosis；在 Z-VAD-FMK 下仍發生的死亡指向 necroptosis、ferroptosis 或 parthanatos。"
+    },
+    "confidence": 0.95,
+    "source_document": "Z-VAD-FMK.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "93e7f6733974",
+    "subject": "Q-VD-OPh",
+    "predicate": "inhibits",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Q-VD-OPh is a neuroprotective pan-caspase inhibitor that blocks executioner Caspase-3; in ischemia models it protects females only, consistent with female-preferential caspase apoptosis.",
+      "zh-TW": "Q-VD-OPh 是神經保護型泛 caspase 抑制劑，可阻斷執行者 Caspase-3；在缺血模型中僅保護雌性，與雌性偏好 caspase apoptosis 一致。"
+    },
+    "confidence": 0.85,
+    "source_document": "Apoptosis.md",
+    "created": "2026-09-05T02:54:12Z",
+    "updated": "2026-09-05T02:54:12Z"
+  },
+  {
+    "id": "125b687463fc",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "induces",
+    "object": "chromatin condensation",
+    "context": {
+      "en-US": "AIF induces chromatin condensation. Apoptosis-inducing factor is a mitochondrial flavoprotein that, once released, executes a caspase-independent form of chromatin condensation and DNA fragmentation. Chromatin condensation is a terminal morphologic hallmark of death in which DNA is compacted, classically by caspase or AIF action. The relationship is directional, with AIF acting as the operative agent upon chromatin condensation rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "AIF 誘發chromatin condensation。 Apoptosis誘導因子是一種粒線體黃素蛋白，一旦釋放，就會執行不依賴半胱天冬酶的形式的chromatin condensation和DNA斷裂。 chromatin condensation 是死亡的終末形態學標誌，其中 DNA 被壓縮，通常是透過 caspase 或 AIF 作用實現的。這種關係是有方向的，AIF 充當 chromatin condensation 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosis-Inducing Factor.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "65921706d9b7",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "is_released_from",
+    "object": "MOMP",
+    "context": {
+      "en-US": "AIF relates to MOMP through the relation is_released_from. Apoptosis-inducing factor is a mitochondrial flavoprotein that, once released, executes a caspase-independent form of chromatin condensation and DNA fragmentation. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. The interaction is specific and directional within the cancer context. Understanding this link contributes to the broader map of tumor biology and potential intervention points.",
+      "zh-TW": "AIF 透過關係式 is_released_from 與 MOMP 相關。 Apoptosis誘導因子是一種粒線體黃素蛋白，一旦釋放，就會執行不依賴半胱天冬酶的形式的chromatin condensation和DNA斷裂。粒線體外膜透化 (MOMP) 是釋放膜間空間蛋白的內在細胞凋亡中關鍵的、基本上不可逆的步驟。在癌症背景下，這種相互作用是特定的和有方向的。瞭解這種關聯有助於更廣泛地瞭解腫瘤生物學和潛在的幹預點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosis-Inducing Factor.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "72f19709886a",
+    "subject": "Apoptosis",
+    "predicate": "is_inhibited_by",
+    "object": "Inhibitor of Apoptosis Proteins",
+    "context": {
+      "en-US": "Apoptosis is inhibited by Inhibitor of Apoptosis Proteins. Apoptosis is a genetically programmed, caspase-dependent form of cell death that dismantles cells without provoking inflammation. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. The directionality runs from Inhibitor of Apoptosis Proteins toward Apoptosis, so Inhibitor of Apoptosis Proteins is the active agent and Apoptosis the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Apoptosis 被 Apoptosis 抑制。 Apoptosis 是一種基因編程的半胱天冬酶依賴性細胞死亡形式，可以分解細胞而不引發發炎。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。方向性從Apoptosis向Apoptosis延伸，因此Apoptosis是活性劑，Apoptosis是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "2c064fa98745",
+    "subject": "Apoptosis",
+    "predicate": "is_induced_by",
+    "object": "TRAIL",
+    "context": {
+      "en-US": "Apoptosis is induced by TRAIL. Apoptosis is a genetically programmed, caspase-dependent form of cell death that dismantles cells without provoking inflammation. TRAIL (TNFSF10) is a death ligand that engages DR4 and DR5 to initiate extrinsic apoptosis with relative selectivity for malignant cells. The directionality runs from TRAIL toward Apoptosis, so TRAIL is the active agent and Apoptosis the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Apoptosis 由 TRAIL 誘發。 Apoptosis 是一種基因編程的半胱天冬酶依賴性細胞死亡形式，可以分解細胞而不引發發炎。 TRAIL (TNFSF10) 是一種死亡配體，它與 DR4 和 DR5 結合以啟動外源性細胞凋亡，對惡性細胞具有相對選擇性。方向性從 TRAIL 向 Apoptosis，因此 TRAIL 是主動主體，Apoptosis 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRAIL.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "dccd0e07083b",
+    "subject": "Apoptosome",
+    "predicate": "is_composed_of",
+    "object": "Apaf-1",
+    "context": {
+      "en-US": "Apoptosome is composed of Apaf-1. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. Apaf-1 is the scaffolding adaptor of the apoptosome, containing CARD, NB-ARC, and WD40 domains that bind cytochrome c and recruit procaspase-9. The directionality runs from Apaf-1 toward Apoptosome, so Apaf-1 is the active agent and Apoptosome the recipient of the effect. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Apoptosome由Apaf-1組成。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。 Apaf-1 是凋亡體的支架接頭，包含結合 Cytochrome c 並募集 procaspase-9 的 CARD、NB-ARC 和 WD40 結構域。方向性從 Apaf-1 朝向 Apoptosome，因此 Apaf-1 是活性劑，Apoptosome 是效果的接受者。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosome.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "01e0c267388d",
+    "subject": "Apoptosome",
+    "predicate": "is_prevented_by",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Apoptosome is prevented by Bcl-2. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. Bcl-2 is the founding anti-apoptotic Bcl-2 family member that preserves mitochondrial outer-membrane integrity and was the first apoptosis regulator linked to cancer. The directionality runs from Bcl-2 toward Apoptosome, so Bcl-2 is the active agent and Apoptosome the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Apoptosome 被 Bcl-2 阻止。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。 Bcl-2 是第一個抗凋亡Bcl-2 family 成員，可保護粒線體外膜的完整性，並且是第一個與癌症相關的細胞凋亡調節因子。方向性從 Bcl-2 朝向 Apoptosome，因此 Bcl-2 是活性劑，Apoptosome 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosome.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "5a208cde6928",
+    "subject": "Apoptosome",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Apoptosome activates Caspase-3. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The relationship is directional, with Apoptosome acting as the operative agent upon Caspase-3 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Apoptosome 啟動 Caspase-3。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。這種關係是有方向的，Apoptosome 充當 Caspase-3 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosome.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "beda81783cf5",
+    "subject": "Apoptosome",
+    "predicate": "activates",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Apoptosome activates Caspase-9. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. The relationship is directional, with Apoptosome acting as the operative agent upon Caspase-9 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Apoptosome 啟動 Caspase-9。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。這種關係是有方向的，Apoptosome 充當 Caspase-9 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosome.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "74ec7a256b04",
+    "subject": "Apoptosome",
+    "predicate": "is_triggered_by",
+    "object": "Cytochrome c",
+    "context": {
+      "en-US": "Apoptosome is triggered by Cytochrome c. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. Cytochrome c is an electron-carrier of the respiratory chain that, once released to the cytosol, nucleates apoptosome assembly. The directionality runs from Cytochrome c toward Apoptosome, so Cytochrome c is the active agent and Apoptosome the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Apoptosome 由Cytochrome c 觸發。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。 Cytochrome c 是呼吸鏈的電子載體，一旦釋放到細胞質中，就會使凋亡體組裝成核。方向性從 Cytochrome c 朝向 Apoptosome，因此 Cytochrome c 是活性劑，Apoptosome 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosome.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "70f3dda8f9f0",
+    "subject": "Apoptosome",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": {
+      "en-US": "Apoptosome is inhibited by XIAP. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. XIAP is the most potent mammalian IAP, directly inhibiting caspases-9, -3, and -7 and stabilized by survival kinases. The directionality runs from XIAP toward Apoptosome, so XIAP is the active agent and Apoptosome the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Apoptosome 被 XIAP 抑制。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。 XIAP 是最有效的哺乳動物 IAP，直接抑制 caspase-9、-3 和 -7，並透過生存激酶穩定。方向性從 XIAP 朝向 Apoptosome，因此 XIAP 是活性劑，Apoptosome 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apoptosome.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "14d1ea1c8e9d",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bak",
+    "context": {
+      "en-US": "Bcl-2 family includes Bak. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bak is a pro-apoptotic Bcl-2 effector anchored at the mitochondrial outer membrane that cooperates with Bax to execute MOMP. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bak rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括 Bak。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bak 是一種促凋亡 Bcl-2 效應子，錨定在粒線體外膜上，與 Bax 合作執行 MOMP。這種關係是有方向的，Bcl-2 family 充當 Bak 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "967bb30bb505",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bax",
+    "context": {
+      "en-US": "Bcl-2 family includes Bax. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bax is a pro-apoptotic Bcl-2 effector that, upon activation, oligomerizes to form the pores that permeabilize the mitochondrial outer membrane. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bax rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括Bax。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bax 是一種促凋亡 Bcl-2 效應子，活化後會寡聚形成使粒線體外膜通透的孔。這種關係是有方向的，Bcl-2 family 充當Bax 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "7de2bfd72a07",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Bcl-2 family includes Bcl-2. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bcl-2 is the founding anti-apoptotic Bcl-2 family member that preserves mitochondrial outer-membrane integrity and was the first apoptosis regulator linked to cancer. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bcl-2 rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括Bcl-2。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bcl-2 是第一個抗凋亡Bcl-2 family 成員，可保護粒線體外膜的完整性，並且是第一個與癌症相關的細胞凋亡調節因子。這種關係是有方向的，Bcl-2 family 充當 Bcl-2 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "43b43d3d4e78",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bcl-xL",
+    "context": {
+      "en-US": "Bcl-2 family includes Bcl-xL. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bcl-xL is an anti-apoptotic Bcl-2 family protein that maintains mitochondrial integrity and is essential for platelet and many tumor-cell survival. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bcl-xL rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括 Bcl-xL。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bcl-xL 是一種抗凋亡Bcl-2 family 蛋白，可維持粒線體完整性，對於血小板和許多腫瘤細胞的存活至關重要。這種關係是有方向的，Bcl-2 family 充當 Bcl-xL 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "43254afeb7f6",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bid",
+    "context": {
+      "en-US": "Bcl-2 family includes Bid. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bid is a BH3-only protein cleaved by caspase-8 into truncated Bid, physically linking the extrinsic and intrinsic apoptotic routes. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bid rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括Bid。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bid 是一種僅含有 BH3 的蛋白質，被 caspase-8 切割成截短的 Bid，在物理上連接外源性和內源性細胞凋亡途徑。這種關係是有方向的，Bcl-2 family 充當Bid 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "6d47db94cc76",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Bim",
+    "context": {
+      "en-US": "Bcl-2 family includes Bim. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bim is a sentinel BH3-only protein sequestered at microtubules that is released by stress to directly activate Bax/Bak. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bim rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括Bim。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bim 是一種隔離在微管中的前哨 BH3 蛋白，壓力釋放時可直接活化 Bax/Bak。這種關係是有方向的，Bcl-2 family 充當Bim 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "cda5b6787b42",
+    "subject": "Bcl-2 family",
+    "predicate": "is_dysregulated_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Bcl-2 family is dysregulated in Cancer. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Cancer is a family of diseases driven by the stepwise acquisition of mutations and epimutations that confer proliferative autonomy, survival, and dissemination. The directionality runs from Cancer toward Bcl-2 family, so Cancer is the active agent and Bcl-2 family the recipient of the effect. This altered abundance or activity is a recurring feature of malignancy that can serve as a diagnostic, prognostic, or predictive biomarker and sometimes as a therapeutic target.",
+      "zh-TW": "Bcl-2 family 在 Cancer 中失調。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Cancer 是由逐步獲得突變和表突變驅動的一系列疾病，這些突變和表突變賦予增殖自主性、生存和傳播。方向性從 Cancer 向 Bcl-2 family，因此 Cancer 是活性劑，Bcl-2 family 是效果的接受者。這種豐度或活性的改變是惡性腫瘤的一個反覆出現的特徵，可以作為診斷、預後或預測生物標記物，有時還可以作為治療標靶。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "17a04035ed5e",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Mcl-1",
+    "context": {
+      "en-US": "Bcl-2 family includes Mcl-1. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Mcl-1 is a labile anti-apoptotic Bcl-2 family protein whose rapid turnover makes it a frequent, difficult-to-target resistance determinant in cancer. The relationship is directional, with Bcl-2 family acting as the operative agent upon Mcl-1 rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括Mcl-1。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Mcl-1 是一種不穩定的抗凋亡Bcl-2 family 蛋白，其快速週轉使其成為癌症中常見的、難以靶向的抗藥性決定因素。這種關係是有方向的，Bcl-2 family 充當Mcl-1 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "0ebcbe05706f",
+    "subject": "Bcl-2 family",
+    "predicate": "regulates",
+    "object": "MOMP",
+    "context": {
+      "en-US": "Bcl-2 family regulates MOMP. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. The relationship is directional, with Bcl-2 family acting as the operative agent upon MOMP rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Bcl-2 family 調節 MOMP。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。粒線體外膜透化 (MOMP) 是釋放膜間空間蛋白的內在細胞凋亡中關鍵的、基本上不可逆的步驟。這種關係是有方向的，Bcl-2 family 充當 MOMP 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "f8acdffb4076",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Noxa",
+    "context": {
+      "en-US": "Bcl-2 family includes Noxa. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Noxa is a p53-inducible BH3-only protein with selective affinity for Mcl-1 and A1, sensitizing cells to mitochondrial apoptosis. The relationship is directional, with Bcl-2 family acting as the operative agent upon Noxa rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括 Noxa。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Noxa 是一種 p53 誘導型 BH3 蛋白，對 Mcl-1 和 A1 具有選擇性親和力，使細胞對粒線體凋亡敏感。這種關係是有方向的，Bcl-2 family 充當Noxa 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "9320e52a1f45",
+    "subject": "Bcl-2 family",
+    "predicate": "includes",
+    "object": "Puma",
+    "context": {
+      "en-US": "Bcl-2 family includes Puma. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Puma is a p53-inducible BH3-only protein that binds and neutralizes essentially all anti-apoptotic Bcl-2 relatives to license mitochondrial death. The relationship is directional, with Bcl-2 family acting as the operative agent upon Puma rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-2 family 包括 Puma。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Puma 是一種 p53 誘導型 BH3 蛋白，可結合並中和幾乎所有抗凋亡 Bcl-2 相關蛋白，從而允許粒線體死亡。這種關係是有方向的，Bcl-2 family 充當 Puma 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-2 family.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "75a021d0c897",
+    "subject": "Bcl-w",
+    "predicate": "is_inhibited_by",
+    "object": "ABT-263",
+    "context": {
+      "en-US": "Bcl-w is inhibited by ABT-263. Bcl-w is an anti-apoptotic Bcl-2 family member overexpressed in several carcinomas and hematologic malignancies where it blunts chemotherapy-induced death. ABT-263 (navitoclax) is the orally bioavailable successor to ABT-737 whose Bcl-xL inhibition causes on-target thrombocytopenia. The directionality runs from ABT-263 toward Bcl-w, so ABT-263 is the active agent and Bcl-w the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Bcl-w 被 ABT-263 抑制。 Bcl-w 是一種抗凋亡 Bcl-2 family 成員，在多種癌症和血液惡性腫瘤中過度表達，可減少化療引起的死亡。 ABT-263 (navitoclax) 是 ABT-737 的口服生物利用型後繼者，其 Bcl-xL 抑製作用會導致標靶血小板減少症。方向性從 ABT-263 朝向 Bcl-w，因此 ABT-263 是活性劑，Bcl-w 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-w.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "e826df96de42",
+    "subject": "Bcl-w",
+    "predicate": "is_inhibited_by",
+    "object": "ABT-737",
+    "context": {
+      "en-US": "Bcl-w is inhibited by ABT-737. Bcl-w is an anti-apoptotic Bcl-2 family member overexpressed in several carcinomas and hematologic malignancies where it blunts chemotherapy-induced death. ABT-737 is a pioneering pan-BH3 mimetic that binds Bcl-2, Bcl-xL, and Bcl-w but spares Mcl-1. The directionality runs from ABT-737 toward Bcl-w, so ABT-737 is the active agent and Bcl-w the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Bcl-w 被 ABT-737 抑制。 Bcl-w 是一種抗凋亡 Bcl-2 family 成員，在多種癌症和血液惡性腫瘤中過度表達，可減少化療引起的死亡。 ABT-737 是一種開創性的泛 BH3 類似物，它結合 Bcl-2、Bcl-xL 和 Bcl-w，但保留 Mcl-1。方向性從 ABT-737 朝向 Bcl-w，因此 ABT-737 是主動主體，Bcl-w 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-w.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "aff311c33959",
+    "subject": "Bcl-w",
+    "predicate": "is_a_member_of",
+    "object": "Bcl-2 family",
+    "context": {
+      "en-US": "Bcl-w is a member of Bcl-2 family. Bcl-w is an anti-apoptotic Bcl-2 family member overexpressed in several carcinomas and hematologic malignancies where it blunts chemotherapy-induced death. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. The directionality runs from Bcl-2 family toward Bcl-w, so Bcl-2 family is the active agent and Bcl-w the recipient of the effect. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Bcl-w 是Bcl-2 family 的成員。 Bcl-w 是一種抗凋亡 Bcl-2 family 成員，在多種癌症和血液惡性腫瘤中過度表達，可減少化療引起的死亡。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。方向性從 Bcl-2 family 向 Bcl-w，因此 Bcl-2 family 是活性劑，Bcl-w 是效果的接受者。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-w.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "596ce33a289c",
+    "subject": "Bcl-w",
+    "predicate": "is_overexpressed_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Bcl-w is overexpressed in Cancer. Bcl-w is an anti-apoptotic Bcl-2 family member overexpressed in several carcinomas and hematologic malignancies where it blunts chemotherapy-induced death. Cancer is a family of diseases driven by the stepwise acquisition of mutations and epimutations that confer proliferative autonomy, survival, and dissemination. The directionality runs from Cancer toward Bcl-w, so Cancer is the active agent and Bcl-w the recipient of the effect. This altered abundance or activity is a recurring feature of malignancy that can serve as a diagnostic, prognostic, or predictive biomarker and sometimes as a therapeutic target.",
+      "zh-TW": "Bcl-w 在 Cancer 中過度表現。 Bcl-w 是一種抗凋亡 Bcl-2 family 成員，在多種癌症和血液惡性腫瘤中過度表達，可減少化療引起的死亡。 Cancer 是由逐步獲得突變和表突變驅動的一系列疾病，這些突變和表突變賦予增殖自主性、生存和傳播。方向性從 Cancer 向 Bcl-w，因此 Cancer 是活性劑，Bcl-w 是效果的接受者。這種豐度或活性的改變是惡性腫瘤的一個反覆出現的特徵，可以作為診斷、預後或預測生物標記物，有時還可以作為治療標靶。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-w.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "22489252c1c8",
+    "subject": "Bcl-w",
+    "predicate": "confers_resistance_to",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "Bcl-w confers resistance to Chemotherapy. Bcl-w is an anti-apoptotic Bcl-2 family member overexpressed in several carcinomas and hematologic malignancies where it blunts chemotherapy-induced death. Chemotherapy uses cytotoxic agents to kill rapidly dividing cells, and its efficacy is limited by innate and acquired resistance mechanisms. The relationship is directional, with Bcl-w acting as the operative agent upon Chemotherapy rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Bcl-w 賦予對 Chemotherapy 的抵抗力。 Bcl-w 是一種抗凋亡 Bcl-2 family 成員，在多種癌症和血液惡性腫瘤中過度表達，可減少化療引起的死亡。 Chemotherapy 使用細胞毒性劑殺死快速分裂的細胞，其功效受到先天和後天抗藥性機制的限制。這種關係是有方向的，Bcl-w 充當Chemotherapy 的操作主體，而不是相反。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-w.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "945df7ffd003",
+    "subject": "Bcl-w",
+    "predicate": "inhibits",
+    "object": "MOMP",
+    "context": {
+      "en-US": "Bcl-w inhibits MOMP. Bcl-w is an anti-apoptotic Bcl-2 family member overexpressed in several carcinomas and hematologic malignancies where it blunts chemotherapy-induced death. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. The relationship is directional, with Bcl-w acting as the operative agent upon MOMP rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Bcl-w 抑制 MOMP。 Bcl-w 是一種抗凋亡 Bcl-2 family 成員，在多種癌症和血液惡性腫瘤中過度表達，可減少化療引起的死亡。粒線體外膜透化 (MOMP) 是釋放膜間空間蛋白的內在細胞凋亡中關鍵的、基本上不可逆的步驟。這種關係是有方向的，Bcl-w 充當 MOMP 的操作主體，而不是相反。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bcl-w.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "12db0dbc6b67",
+    "subject": "Caspase-10",
+    "predicate": "is_downregulated_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Caspase-10 is downregulated in Cancer. Caspase-10 is an initiator caspase related to caspase-8 that amplifies death-receptor signaling and is frequently silenced in tumors. Cancer is a family of diseases driven by the stepwise acquisition of mutations and epimutations that confer proliferative autonomy, survival, and dissemination. The directionality runs from Cancer toward Caspase-10, so Cancer is the active agent and Caspase-10 the recipient of the effect. This altered abundance or activity is a recurring feature of malignancy that can serve as a diagnostic, prognostic, or predictive biomarker and sometimes as a therapeutic target.",
+      "zh-TW": "Caspase-10 在 Cancer 中下調。 Caspase-10 是一種與 caspase-8 相關的起始 caspase，可放大死亡受體訊號傳導，並且在腫瘤中經常被沉默。 Cancer 是由逐步獲得突變和表突變驅動的一系列疾病，這些突變和表突變賦予增殖自主性、生存和傳播。方向性從 Cancer 向 Caspase-10，因此 Cancer 是活性劑，Caspase-10 是效果的接受者。這種豐度或活性的改變是惡性腫瘤的一個反覆出現的特徵，可以作為診斷、預後或預測生物標記物，有時還可以作為治療標靶。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-10.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "97d0a139b490",
+    "subject": "Caspase-10",
+    "predicate": "is_a_type_of",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Caspase-10 is a type of Caspase. Caspase-10 is an initiator caspase related to caspase-8 that amplifies death-receptor signaling and is frequently silenced in tumors. Caspases are cysteine aspartate-specific proteases that orchestrate inflammation or, in the apoptotic class, the proteolytic execution of cell death. The directionality runs from Caspase toward Caspase-10, so Caspase is the active agent and Caspase-10 the recipient of the effect. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Caspase-10 是 Caspase 的一種。 Caspase-10 是一種與 caspase-8 相關的起始 caspase，可放大死亡受體訊號傳導，並且在腫瘤中經常被沉默。它們是半胱氨酸天冬胺酸特異性蛋白酶，可協調炎症，或在細胞凋亡類別中，透過蛋白水解執行細胞死亡。方向性從 Caspase 朝向 Caspase-10，因此 Caspase 是活性劑，Caspase-10 是效果的接受者。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-10.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c11cbdf60742",
+    "subject": "Caspase-10",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Caspase-10 activates Caspase-3. Caspase-10 is an initiator caspase related to caspase-8 that amplifies death-receptor signaling and is frequently silenced in tumors. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The relationship is directional, with Caspase-10 acting as the operative agent upon Caspase-3 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-10 啟動 Caspase-3。 Caspase-10 是一種與 caspase-8 相關的起始 caspase，可放大死亡受體訊號傳導，並且在腫瘤中經常被沉默。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。這種關係是有方向的，Caspase-10 充當 Caspase-3 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-10.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "3749b3d1a53f",
+    "subject": "Caspase-10",
+    "predicate": "activates",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "Caspase-10 activates Caspase-7. Caspase-10 is an initiator caspase related to caspase-8 that amplifies death-receptor signaling and is frequently silenced in tumors. Caspase-7 is an executioner caspase closely related to caspase-3 that contributes to the proteolytic demolition of the cell. The relationship is directional, with Caspase-10 acting as the operative agent upon Caspase-7 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-10 啟動 Caspase-7。 Caspase-10 是一種與 caspase-8 相關的起始 caspase，可放大死亡受體訊號傳導，並且在腫瘤中經常被沉默。 Caspase-7 是一種與 caspase-3 密切相關的劊子手 caspase，有助於細胞的蛋白水解破壞。這種關係是有方向的，Caspase-10 充當 Caspase-7 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-10.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "233fed21636b",
+    "subject": "Caspase-10",
+    "predicate": "is_activated_at",
+    "object": "DISC",
+    "context": {
+      "en-US": "Caspase-10 is activated at DISC. Caspase-10 is an initiator caspase related to caspase-8 that amplifies death-receptor signaling and is frequently silenced in tumors. The death-inducing signaling complex assembles on ligand-bound death receptors and converts procaspase-8/10 into active initiator caspases. The directionality runs from DISC toward Caspase-10, so DISC is the active agent and Caspase-10 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-10 在 DISC 啟動。 Caspase-10 是一種與 caspase-8 相關的起始 caspase，可放大死亡受體訊號傳導，並且在腫瘤中經常被沉默。死亡誘導訊號複合物在配體結合的死亡受體上組裝，並將 procaspase-8/10 轉化為活性起始 caspase。方向性從 DISC 朝向 Caspase-10，因此 DISC 是活性劑，Caspase-10 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-10.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "5842456ed572",
+    "subject": "Caspase-12",
+    "predicate": "is_a_type_of",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Caspase-12 is a type of Caspase. Caspase-12 is an ER-localized protease that mediates apoptotic signaling arising specifically from endoplasmic-reticulum stress. Caspases are cysteine aspartate-specific proteases that orchestrate inflammation or, in the apoptotic class, the proteolytic execution of cell death. The directionality runs from Caspase toward Caspase-12, so Caspase is the active agent and Caspase-12 the recipient of the effect. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Caspase-12 是 Caspase 的一種。 Caspase-12 是一種內質網定位的蛋白酶，可介導由內質網壓力引起的細胞凋亡訊號傳導。它們是半胱氨酸天冬胺酸特異性蛋白酶，可協調炎症，或在細胞凋亡類別中，透過蛋白水解執行細胞死亡。方向性從 Caspase 朝向 Caspase-12，因此 Caspase 是活性劑，Caspase-12 是效果的接受者。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-12.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "11443071fc6d",
+    "subject": "Caspase-12",
+    "predicate": "is_activated_by",
+    "object": "Endoplasmic Reticulum Pathway",
+    "context": {
+      "en-US": "Caspase-12 is activated by Endoplasmic Reticulum Pathway. Caspase-12 is an ER-localized protease that mediates apoptotic signaling arising specifically from endoplasmic-reticulum stress. The endoplasmic-reticulum stress pathway of apoptosis is initiated by unfolded-protein accumulation and engages CHOP and caspase-12. The directionality runs from Endoplasmic Reticulum Pathway toward Caspase-12, so Endoplasmic Reticulum Pathway is the active agent and Caspase-12 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-12 由 Endoplasmic Reticulum Pathway 啟動。 Caspase-12 是一種內質網定位的蛋白酶，可介導由內質網壓力引起的細胞凋亡訊號傳導。細胞凋亡的內質網壓力途徑由未折疊蛋白累積啟動，並參與 CHOP 和 caspase-12。方向性從 Endoplasmic Reticulum Pathway 朝向 Caspase-12，因此 Endoplasmic Reticulum Pathway 是活性劑，Caspase-12 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-12.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "4cda9d20f277",
+    "subject": "Caspase-2",
+    "predicate": "is_inhibited_by",
+    "object": "14-3-3",
+    "context": {
+      "en-US": "14-3-3-zeta binds phospho-caspase-2 in a phosphorylation-dependent manner, shielding Ser135 from dephosphorylation and keeping the initiator caspase suppressed. Acetylation of 14-3-3-zeta causes it to dissociate from caspase-2, leading to caspase-2 activation and cell death. 14-3-3 thus serves as an inhibitory binding partner of caspase-2.",
+      "zh-TW": "14-3-3ζ 以磷酸化依賴方式與磷酸化 caspase-2 結合，保護 Ser135 免受去磷酸化，並使啟動型半胱天冬酶保持受抑制。14-3-3ζ 的乙醯化會使其與 caspase-2 分離，導致 caspase-2 激活與細胞死亡。因此 14-3-3 是 caspase-2 的抑制性結合夥伴。"
+    },
+    "confidence": 0.8,
+    "source_document": "Caspase-2.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "6134eb5b7cd9",
+    "subject": "Caspase-2",
+    "predicate": "cleaves",
+    "object": "Bid",
+    "context": {
+      "en-US": "Caspase-2 cleaves Bid. Caspase-2 is an ancient initiator caspase activated by the PIDDosome in response to DNA damage and mitotic catastrophe. Bid is a BH3-only protein cleaved by caspase-8 into truncated Bid, physically linking the extrinsic and intrinsic apoptotic routes. The relationship is directional, with Caspase-2 acting as the operative agent upon Bid rather than the reverse. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-2 劈開 Bid。 Caspase-2 是一種古老的起始半胱天冬酶，由 PIDDosome 響應 DNA Damage 和有絲分裂災難而激活。 Bid 是一種僅含有 BH3 的蛋白質，被 caspase-8 切割成截短的 Bid，在物理上連接外源性和內源性細胞凋亡途徑。這種關係是有方向的，Caspase-2 充當 Bid 的操作主體，而不是相反。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-2.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "a7f42e7aa2d4",
+    "subject": "Caspase-2",
+    "predicate": "is_phosphorylated_by",
+    "object": "CaMKII",
+    "context": {
+      "en-US": "Caspase-2 is phosphorylated by CaMKII. Caspase-2 is an ancient initiator caspase activated by the PIDDosome in response to DNA damage and mitotic catastrophe. CaMKII is a calcium/calmodulin-dependent kinase that, among other roles, phosphorylates caspase-2 in response to calcium fluxes. The directionality runs from CaMKII toward Caspase-2, so CaMKII is the active agent and Caspase-2 the recipient of the effect. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-2 被 CaMKII 磷酸化。 Caspase-2 是一種古老的起始半胱天冬酶，由 PIDDosome 響應 DNA Damage 和有絲分裂災難而激活。 CaMKII 是一種鈣/鈣調蛋白依賴性激酶，除其他作用外，它還響應鈣流而磷酸化 caspase-2。方向性從 CaMKII 朝向 Caspase-2，因此 CaMKII 是主動主體，Caspase-2 是效果的接受者。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-2.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "df94a124b179",
+    "subject": "Caspase-2",
+    "predicate": "is_a_type_of",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Caspase-2 is a type of Caspase. Caspase-2 is an ancient initiator caspase activated by the PIDDosome in response to DNA damage and mitotic catastrophe. Caspases are cysteine aspartate-specific proteases that orchestrate inflammation or, in the apoptotic class, the proteolytic execution of cell death. The directionality runs from Caspase toward Caspase-2, so Caspase is the active agent and Caspase-2 the recipient of the effect. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Caspase-2 是 Caspase 的一種。 Caspase-2 是一種古老的起始半胱天冬酶，由 PIDDosome 響應 DNA Damage 和有絲分裂災難而激活。它們是半胱氨酸天冬胺酸特異性蛋白酶，可協調炎症，或在細胞凋亡類別中，透過蛋白水解執行細胞死亡。方向性從 Caspase 朝向 Caspase-2，因此 Caspase 是主動主體，Caspase-2 是效果的接受者。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-2.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ce201b493f22",
+    "subject": "Caspase-2",
+    "predicate": "is_phosphorylated_by",
+    "object": "CDK1",
+    "context": {
+      "en-US": "Caspase-2 is phosphorylated by CDK1. Caspase-2 is an ancient initiator caspase activated by the PIDDosome in response to DNA damage and mitotic catastrophe. CDK1 in complex with cyclin B1 drives mitotic entry and can phosphorylate and regulate apical caspases such as caspase-2. The directionality runs from CDK1 toward Caspase-2, so CDK1 is the active agent and Caspase-2 the recipient of the effect. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-2 被 CDK1 磷酸化。 Caspase-2 是一種古老的起始半胱天冬酶，由 PIDDosome 響應 DNA Damage 和有絲分裂災難而激活。 CDK1 與細胞週期蛋白 B1 形成複合物，可驅動有絲分裂進入，並可磷酸化和調節頂端 caspase，例如 caspase-2。方向性從 CDK1 朝向 Caspase-2，因此 CDK1 是活性劑，Caspase-2 是效果的接受者。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-2.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "2ecab85710e7",
+    "subject": "Caspase-2",
+    "predicate": "is_phosphorylated_by",
+    "object": "CK2",
+    "context": {
+      "en-US": "Caspase-2 is phosphorylated at Ser157 by CK2, one of several kinase inputs that regulate this initiator caspase. Alongside CDK1/CYCLIN B1 (Ser308) and CaMKII (Ser164), CK2 contributes to the phosphorylation-dependent control of caspase-2. These modifications modulate its activity and its susceptibility to 14-3-3 binding.",
+      "zh-TW": "Caspase-2 在 Ser157 被 CK2 磷酸化，這是調控此啟動型半胱天冬酶的幾個激酶輸入之一。與 CDK1/CYCLIN B1（Ser308）和 CaMKII（Ser164）並列，CK2 也參與對 caspase-2 的磷酸化依賴性調控。這些修飾調節其活性及其對 14-3-3 結合的敏感性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Caspase-2.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "a82da1c5dc03",
+    "subject": "Caspase-2",
+    "predicate": "is_activated_by",
+    "object": "PIDDosome",
+    "context": {
+      "en-US": "Caspase-2 is activated by PIDDosome. Caspase-2 is an ancient initiator caspase activated by the PIDDosome in response to DNA damage and mitotic catastrophe. The PIDDosome is a DNA-damage-responsive multiprotein complex that activates caspase-2 and can also feed NF-kB survival signaling. The directionality runs from PIDDosome toward Caspase-2, so PIDDosome is the active agent and Caspase-2 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-2 由 PIDDosome 啟動。 Caspase-2 是一種古老的起始半胱天冬酶，由 PIDDosome 響應 DNA Damage 和有絲分裂災難而激活。 PIDDosome 是一種 DNA 損傷響應性多蛋白複合物，可活化 caspase-2，還可提供 NF-kB 生存訊號傳導。方向性從 PIDDosome 朝向 Caspase-2，因此 PIDDosome 是主動主體，Caspase-2 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-2.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "b67f1fbb76b8",
+    "subject": "Caspase-2",
+    "predicate": "is_suppressed_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Caspase-2 is metabolically suppressed through the SIRT1-14-3-3-zeta axis. SIRT1 deacetylates 14-3-3-zeta at Lys49, maintaining 14-3-3-zeta binding to phospho-caspase-2 and protecting Ser135 from dephosphorylation, which keeps caspase-2 inactive. SIRT1 inhibition releases this suppression and enhances caspase-2-dependent cell death and paclitaxel sensitivity in breast tumor cells.",
+      "zh-TW": "Caspase-2 透過 SIRT1–14-3-3ζ 軸被代謝性抑制。SIRT1 在 Lys49 去乙醯化 14-3-3ζ，維持 14-3-3ζ 與磷酸化 caspase-2 的結合，並保護 Ser135 免受去磷酸化，從而使 caspase-2 保持不活化。抑制 SIRT1 會解除此抑制，並增強乳癌細胞中依賴 caspase-2 的細胞死亡與紫杉醇敏感性。"
+    },
+    "confidence": 0.82,
+    "source_document": "Caspase-2.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "8bcd6892bb24",
+    "subject": "Caspase-2",
+    "predicate": "is_associated_with",
+    "object": "Sirtuin-Caspase Crosstalk",
+    "context": {
+      "en-US": "Caspase-2 serves as the metabolic arm of the sirtuin-caspase crosstalk, linking cellular metabolic state to the apoptotic threshold. Through the SIRT1-14-3-3-zeta axis, falling pentose-phosphate-pathway flux activates caspase-2. This places caspase-2 at the interface of metabolism and cell death.",
+      "zh-TW": "Caspase-2 是去乙醯化酶與半胱天冬酶交叉對話的代謝分支，將細胞代謝狀態與細胞凋亡閾值連結起來。透過 SIRT1–14-3-3ζ 軸，戊糖磷酸路徑流量的下降會激活 caspase-2。這使 caspase-2 位於代謝與細胞死亡的介面。"
+    },
+    "confidence": 0.78,
+    "source_document": "Caspase-2.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "9c2d44cf1148",
+    "subject": "Caspase-3",
+    "predicate": "is_activated_by",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Caspase-3 is activated by Caspase-8. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. The directionality runs from Caspase-8 toward Caspase-3, so Caspase-8 is the active agent and Caspase-3 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-3 由 Caspase-8 啟動。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。方向性從 Caspase-8 朝向 Caspase-3，因此 Caspase-8 是主動主體，Caspase-3 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ef71d9c489ec",
+    "subject": "Caspase-3",
+    "predicate": "is_activated_by",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Caspase-3 is activated by Caspase-9. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. The directionality runs from Caspase-9 toward Caspase-3, so Caspase-9 is the active agent and Caspase-3 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-3 由 Caspase-9 啟動。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。方向性從 Caspase-9 朝向 Caspase-3，因此 Caspase-9 是主動主體，Caspase-3 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "e4812954054a",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "ICAD",
+    "context": {
+      "en-US": "Caspase-3 cleaves ICAD. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. ICAD is the inhibitor of caspase-activated DNase that, upon caspase-3 cleavage, releases CAD to fragment nuclear DNA. The relationship is directional, with Caspase-3 acting as the operative agent upon ICAD rather than the reverse. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-3 分裂 ICAD。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 ICAD 是 caspase 活化的 DNase 抑制劑，在 caspase-3 裂解時，釋放 CAD 以片段化核 DNA。這種關係是有方向的，Caspase-3 充當 ICAD 的操作主體，而不是相反。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "697de2a1652c",
+    "subject": "Caspase-3",
+    "predicate": "is_induced_by",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "Caspase-3 is induced by Ivermectin. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. Ivermectin is an approved antiparasitic drug repurposed in oncology for its multi-kinase, anti-Wnt, and pro-death activities across cancers. The directionality runs from Ivermectin toward Caspase-3, so Ivermectin is the active agent and Caspase-3 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-3 由 Ivermectin 誘發。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 Ivermectin 是一種經批准的抗寄生蟲藥物，因其在癌症中的多激酶、抗 Wnt 和促死亡活性而被重新用於腫瘤學。方向性從 Ivermectin 朝向 Caspase-3，因此 Ivermectin 是活性劑，Caspase-3 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "b32f4a5a9ea7",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "Lamins",
+    "context": {
+      "en-US": "Caspase-3 cleaves Lamins. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. Lamins are the intermediate-filament proteins of the nuclear lamina whose cleavage by caspases drives nuclear collapse during apoptosis. The relationship is directional, with Caspase-3 acting as the operative agent upon Lamins rather than the reverse. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-3 劈開 Lamins。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 Lamins 是核纖層的中間絲蛋白，在細胞凋亡過程中被半胱天冬酶裂解驅動核塌陷。這種關係是有方向的，Caspase-3 充當 Lamins 的操作主體，而不是相反。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c94a3cca60d8",
+    "subject": "Caspase-3",
+    "predicate": "is_induced_by",
+    "object": "melittin",
+    "context": {
+      "en-US": "Caspase-3 is induced by melittin. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. Melittin is the principal peptide of honeybee venom that permeabilizes membranes and suppresses oncogenic receptors and checkpoints. The directionality runs from melittin toward Caspase-3, so melittin is the active agent and Caspase-3 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-3 由 melittin 誘導。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。蜂毒肽是蜜蜂毒液的主要勝肽，可透化膜並抑制致癌受體和檢查點。方向性從 melittin 朝向 Caspase-3，因此 melittin 是主動主體，Caspase-3 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "a49bd93172a1",
+    "subject": "Caspase-3",
+    "predicate": "is_suppressed_by",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "Caspase-3 is suppressed by p38 MAPK. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. p38 MAPK is a stress-activated kinase that can both promote and suppress apoptosis depending on context, including by phosphorylating caspases. The directionality runs from p38 MAPK toward Caspase-3, so p38 MAPK is the active agent and Caspase-3 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-3 被 p38 MAPK 抑制。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 p38 MAPK 是一種壓力激活激酶，可根據具體情況促進和抑制細胞凋亡，包括透過磷酸化半胱天冬酶。方向性從 p38 MAPK 朝向 Caspase-3，因此 p38 MAPK 是主動主體，Caspase-3 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ff23170e7d32",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "PARP1",
+    "context": {
+      "en-US": "Caspase-3 cleaves PARP1. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. PARP1 is a DNA-damage-sensing poly(ADP-ribose) polymerase whose cleavage by caspase-3 inactivates repair and conserves energy for apoptosis. The relationship is directional, with Caspase-3 acting as the operative agent upon PARP1 rather than the reverse. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-3 劈開 PARP1。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 PARP1 是一種 DNA 損傷感應聚 (ADP-核糖) 聚合酶，其被 caspase-3 裂解會使修復失活並為細胞凋亡保存能量。這種關係是有方向的，Caspase-3 充當 PARP1 的操作主體，而不是相反。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "edba13771c63",
+    "subject": "Caspase-3",
+    "predicate": "is_enhanced_by",
+    "object": "PKCδ",
+    "context": {
+      "en-US": "Caspase-3 is enhanced by PKCδ. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. PKCδ is a protein kinase C isoform that can both enhance caspase-3 activity and, in some contexts, promote apoptotic signaling. The directionality runs from PKCδ toward Caspase-3, so PKCδ is the active agent and Caspase-3 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-3 被 PKCδ 增強。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 PKCδ 是一種蛋白激酶 C 同工型，既可以增強 caspase-3 活性，也可以在某些情況下促進細胞凋亡訊號傳導。方向性從 PKCδ 朝向 Caspase-3，因此 PKCδ 是主動主體，Caspase-3 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "63c400bec9aa",
+    "subject": "Caspase-3",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": {
+      "en-US": "Caspase-3 is inhibited by XIAP. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. XIAP is the most potent mammalian IAP, directly inhibiting caspases-9, -3, and -7 and stabilized by survival kinases. The directionality runs from XIAP toward Caspase-3, so XIAP is the active agent and Caspase-3 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-3 被 XIAP 抑制。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。 XIAP 是最有效的哺乳動物 IAP，直接抑制 caspase-9、-3 和 -7，並透過生存激酶穩定。方向性從 XIAP 朝向 Caspase-3，因此 XIAP 是主動主體，Caspase-3 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-3.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ebd72947aed7",
+    "subject": "Caspase-6",
+    "predicate": "is_a_type_of",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Caspase-6 is a type of Caspase. Caspase-6 is an executioner caspase particularly important for cleavage of nuclear lamins and the structural collapse of the nucleus. Caspases are cysteine aspartate-specific proteases that orchestrate inflammation or, in the apoptotic class, the proteolytic execution of cell death. The directionality runs from Caspase toward Caspase-6, so Caspase is the active agent and Caspase-6 the recipient of the effect. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
+      "zh-TW": "Caspase-6 是 Caspase 的一種。 Caspase-6 是一種劊子手半胱天冬酶，對於核纖層蛋白的裂解和細胞核的結構崩潰特別重要。它們是半胱氨酸天冬胺酸特異性蛋白酶，可協調炎症，或在細胞凋亡類別中，透過蛋白水解執行細胞死亡。方向性從 Caspase 朝向 Caspase-6，因此 Caspase 是活性劑，Caspase-6 是效果的接受者。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-6.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ba6b47e4b01b",
+    "subject": "Caspase-6",
+    "predicate": "is_activated_by",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Caspase-6 is activated by Caspase-8. Caspase-6 is an executioner caspase particularly important for cleavage of nuclear lamins and the structural collapse of the nucleus. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. The directionality runs from Caspase-8 toward Caspase-6, so Caspase-8 is the active agent and Caspase-6 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-6 由 Caspase-8 活化。 Caspase-6 是一種劊子手半胱天冬酶，對於核纖層蛋白的裂解和細胞核的結構崩潰特別重要。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。方向性從 Caspase-8 朝向 Caspase-6，因此 Caspase-8 是活性劑，Caspase-6 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-6.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "0b01c818fc90",
+    "subject": "Caspase-6",
+    "predicate": "is_activated_by",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Caspase-6 is activated by Caspase-9. Caspase-6 is an executioner caspase particularly important for cleavage of nuclear lamins and the structural collapse of the nucleus. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. The directionality runs from Caspase-9 toward Caspase-6, so Caspase-9 is the active agent and Caspase-6 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-6 由 Caspase-9 活化。 Caspase-6 是一種劊子手半胱天冬酶，對於核纖層蛋白的裂解和細胞核的結構崩潰特別重要。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。方向性從 Caspase-9 朝向 Caspase-6，因此 Caspase-9 是活性劑，Caspase-6 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-6.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "300334a89977",
+    "subject": "Caspase-6",
+    "predicate": "contributes_to",
+    "object": "chromatin condensation",
+    "context": {
+      "en-US": "Caspase-6 contributes to chromatin condensation. Caspase-6 is an executioner caspase particularly important for cleavage of nuclear lamins and the structural collapse of the nucleus. Chromatin condensation is a terminal morphologic hallmark of death in which DNA is compacted, classically by caspase or AIF action. The relationship is directional, with Caspase-6 acting as the operative agent upon chromatin condensation rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-6 貢獻於 chromatin condensation。 Caspase-6 是一種劊子手半胱天冬酶，對於核纖層蛋白的裂解和細胞核的結構崩潰特別重要。 chromatin condensation 是死亡的終末形態學標誌，其中 DNA 被壓縮，通常是透過 caspase 或 AIF 作用實現的。這種關係是有方向的，Caspase-6 充當 chromatin condensation 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-6.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "b4849fdf3fce",
+    "subject": "Caspase-6",
+    "predicate": "cleaves",
+    "object": "Lamins",
+    "context": {
+      "en-US": "Caspase-6 cleaves Lamins. Caspase-6 is an executioner caspase particularly important for cleavage of nuclear lamins and the structural collapse of the nucleus. Lamins are the intermediate-filament proteins of the nuclear lamina whose cleavage by caspases drives nuclear collapse during apoptosis. The relationship is directional, with Caspase-6 acting as the operative agent upon Lamins rather than the reverse. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-6 劈開 Lamins。 Caspase-6 是一種劊子手半胱天冬酶，對於核纖層蛋白的裂解和細胞核的結構崩潰特別重要。 Lamins 是核纖層的中間絲蛋白，在細胞凋亡過程中被半胱天冬酶裂解驅動核塌陷。這種關係是有方向的，Caspase-6 充當 Lamins 的操作主體，而不是相反。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-6.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "04552343b9ca",
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "Bid",
+    "context": {
+      "en-US": "Caspase-8 cleaves Bid. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. Bid is a BH3-only protein cleaved by caspase-8 into truncated Bid, physically linking the extrinsic and intrinsic apoptotic routes. The relationship is directional, with Caspase-8 acting as the operative agent upon Bid rather than the reverse. The directness of this molecular event makes it a precise, often druggable point of control whose perturbation can decisively shift cell fate in cancer.",
+      "zh-TW": "Caspase-8 劈開Bid。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 Bid 是一種僅含有 BH3 的蛋白質，被 caspase-8 切割成截短的 Bid，在物理上連接外源性和內源性細胞凋亡途徑。這種關係是有方向的，Caspase-8 充當 Bid 的操作主體，而不是相反。這種分子事件的直接性使其成為精確的、通常可藥物控制的控制點，其擾動可以決定性地改變癌症中的細胞命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "2886448a66c8",
+    "subject": "Caspase-8",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Caspase-8 activates Caspase-3. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The relationship is directional, with Caspase-8 acting as the operative agent upon Caspase-3 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-8 啟動 Caspase-3。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。這種關係是有方向的，Caspase-8 充當 Caspase-3 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "3f2ca07dd42a",
+    "subject": "Caspase-8",
+    "predicate": "is_activated_at",
+    "object": "DISC",
+    "context": {
+      "en-US": "Caspase-8 is activated at DISC. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. The death-inducing signaling complex assembles on ligand-bound death receptors and converts procaspase-8/10 into active initiator caspases. The directionality runs from DISC toward Caspase-8, so DISC is the active agent and Caspase-8 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-8 在 DISC 啟動。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。死亡誘導訊號複合物在配體結合的死亡受體上組裝，並將 procaspase-8/10 轉化為活性起始 caspase。方向性從 DISC 朝向 Caspase-8，因此 DISC 是活性劑，Caspase-8 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "92746588755c",
+    "subject": "Caspase-8",
+    "predicate": "is_inhibited_by",
+    "object": "LYN",
+    "context": {
+      "en-US": "Caspase-8 is inhibited by LYN. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. LYN is a Src-family kinase that, like SRC and FYN, can phosphorylate and inactivate caspase-8 to promote cell survival. The directionality runs from LYN toward Caspase-8, so LYN is the active agent and Caspase-8 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-8 被 LYN 抑制。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 LYN 是一種 Src 家族激酶，與 SRC 和 FYN 一樣，可以磷酸化 caspase-8 並使其失去活性，以促進細胞存活。方向性從 LYN 向 Caspase-8，因此 LYN 是活性劑，Caspase-8 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "2a16c4a16ebf",
+    "subject": "Caspase-8",
+    "predicate": "is_suppressed_by",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "Caspase-8 is suppressed by p38 MAPK. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. p38 MAPK is a stress-activated kinase that can both promote and suppress apoptosis depending on context, including by phosphorylating caspases. The directionality runs from p38 MAPK toward Caspase-8, so p38 MAPK is the active agent and Caspase-8 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-8 被 p38 MAPK 抑制。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 p38 MAPK 是一種壓力激活激酶，可根據具體情況促進和抑制細胞凋亡，包括透過磷酸化半胱天冬酶。方向性從 p38 MAPK 朝向 Caspase-8，因此 p38 MAPK 是主動主體，Caspase-8 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "efeb737e72c4",
+    "subject": "Caspase-8",
+    "predicate": "is_restored_by",
+    "object": "SHP1",
+    "context": {
+      "en-US": "Caspase-8 is restored by SHP1. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. SHP1 is a protein tyrosine phosphatase that dephosphorylates and reactivates caspase-8, restoring death-receptor-induced apoptosis. The directionality runs from SHP1 toward Caspase-8, so SHP1 is the active agent and Caspase-8 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-8 由 SHP1 恢復。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 SHP1 是一種蛋白質酪胺酸磷酸酶，可去磷酸化並重新活化 caspase-8，恢復死亡受體誘導的細胞凋亡。方向性從 SHP1 朝向 Caspase-8，因此 SHP1 是主動主體，Caspase-8 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "54d269330664",
+    "subject": "Caspase-8",
+    "predicate": "is_inhibited_by",
+    "object": "SRC kinase",
+    "context": {
+      "en-US": "Caspase-8 is inhibited by SRC kinase. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. SRC is a non-receptor tyrosine kinase that promotes survival and, notably, phosphorylates and inactivates caspase-8 and Bik. The directionality runs from SRC kinase toward Caspase-8, so SRC kinase is the active agent and Caspase-8 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-8 被 SRC kinase 抑制。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 SRC 是一種非受體酪胺酸激酶，可促進存活，尤其是磷酸化 caspase-8 和 Bik 並使其失去活性。方向性從 SRC kinase 朝向 Caspase-8，因此 SRC kinase 是活性劑，Caspase-8 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-8.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "38afb3fe7aeb",
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "Akt",
+    "context": {
+      "en-US": "Caspase-9 is inhibited by Akt. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. Akt is a serine/threonine kinase that phosphorylates a broad panel of substrates to promote growth, glycolysis, and suppression of apoptosis. The directionality runs from Akt toward Caspase-9, so Akt is the active agent and Caspase-9 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-9 被 Akt 抑制。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 Akt 是一種絲胺酸/蘇胺酸激酶，可磷酸化多種底物，以促進生長、糖解和抑制細胞凋亡。方向性從 Akt 向 Caspase-9，因此 Akt 是主動主體，Caspase-9 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c03893640a13",
+    "subject": "Caspase-9",
+    "predicate": "is_activated_at",
+    "object": "Apoptosome",
+    "context": {
+      "en-US": "Caspase-9 is activated at Apoptosome. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. The apoptosome is a heptamer of Apaf-1, cytochrome c, and dATP that recruits and activates initiator caspase-9. The directionality runs from Apoptosome toward Caspase-9, so Apoptosome is the active agent and Caspase-9 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-9 在 Apoptosome 啟動。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。凋亡體是 Apaf-1、Cytochrome c 和 dATP 的七聚體，可招募並活化起始 caspase-9。方向性從 Apoptosome 向 Caspase-9，因此 Apoptosome 是主動主體，Caspase-9 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "0ccc04e896d0",
+    "subject": "Caspase-9",
+    "predicate": "is_activated_by",
+    "object": "c-ABL",
+    "context": {
+      "en-US": "Caspase-9 is activated by c-ABL. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. c-ABL is a tyrosine kinase that, upon genotoxic stress, can phosphorylate and activate caspase-9 to promote apoptosis. The directionality runs from c-ABL toward Caspase-9, so c-ABL is the active agent and Caspase-9 the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-9 由 c-ABL 活化。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 c-ABL 是一種酪胺酸激酶，在基因毒性壓力下，可以磷酸化並活化 caspase-9 以促進細胞凋亡。方向性從 c-ABL 朝向 Caspase-9，因此 c-ABL 是主動主體，Caspase-9 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "a679c39bc15f",
+    "subject": "Caspase-9",
+    "predicate": "activates",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Caspase-9 activates Caspase-3. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The relationship is directional, with Caspase-9 acting as the operative agent upon Caspase-3 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Caspase-9 啟動 Caspase-3。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。這種關係是有方向的，Caspase-9 充當 Caspase-3 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c64c625064bd",
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "ERK",
+    "context": {
+      "en-US": "Caspase-9 is inhibited by ERK. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. ERK1/2 are the terminal effectors of the RAS-RAF-MEK cascade that phosphorylate nuclear and cytoplasmic targets to drive division. The directionality runs from ERK toward Caspase-9, so ERK is the active agent and Caspase-9 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-9 被 ERK 抑制。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 ERK1/2 是 RAS-RAF-MEK 級聯的末端效應子，磷酸化細胞核和細胞質標靶以驅動分裂。方向性從 ERK 朝向 Caspase-9，因此 ERK 是主動主體，Caspase-9 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "16583eee689a",
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "Caspase-9 is inhibited by p38 MAPK. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. p38 MAPK is a stress-activated kinase that can both promote and suppress apoptosis depending on context, including by phosphorylating caspases. The directionality runs from p38 MAPK toward Caspase-9, so p38 MAPK is the active agent and Caspase-9 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-9 被 p38 MAPK 抑制。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 p38 MAPK 是一種壓力激活激酶，可根據具體情況促進和抑制細胞凋亡，包括透過磷酸化半胱天冬酶。方向性從 p38 MAPK 朝向 Caspase-9，因此 p38 MAPK 是主動主體，Caspase-9 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "4036f8386687",
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "PKCζ",
+    "context": {
+      "en-US": "Caspase-9 is inhibited by PKCζ. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. PKCzeta is an atypical protein kinase C isoform that can phosphorylate and inhibit caspase-9 to blunt apoptosis. The directionality runs from PKCζ toward Caspase-9, so PKCζ is the active agent and Caspase-9 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-9 被 PKCζ 抑制。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 PKCzeta 是一種非典型蛋白激酶 C 同工型，可磷酸化並抑制 caspase-9 以抑制細胞凋亡。方向性從 PKCζ 向 Caspase-9，因此 PKCζ 是主動主體，Caspase-9 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "ed1abe000062",
+    "subject": "Caspase-9",
+    "predicate": "is_inhibited_by",
+    "object": "XIAP",
+    "context": {
+      "en-US": "Caspase-9 is inhibited by XIAP. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. XIAP is the most potent mammalian IAP, directly inhibiting caspases-9, -3, and -7 and stabilized by survival kinases. The directionality runs from XIAP toward Caspase-9, so XIAP is the active agent and Caspase-9 the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Caspase-9 被 XIAP 抑制。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。 XIAP 是最有效的哺乳動物 IAP，直接抑制 caspase-9、-3 和 -7，並透過生存激酶穩定。方向性從 XIAP 朝向 Caspase-9，因此 XIAP 是主動主體，Caspase-9 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-9.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "5285bfa02df0",
+    "subject": "Inhibitor of Apoptosis Proteins",
+    "predicate": "are_overexpressed_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Inhibitor of Apoptosis Proteins are overexpressed in Cancer. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. Cancer is a family of diseases driven by the stepwise acquisition of mutations and epimutations that confer proliferative autonomy, survival, and dissemination. The directionality runs from Cancer toward Inhibitor of Apoptosis Proteins, so Cancer is the active agent and Inhibitor of Apoptosis Proteins the recipient of the effect. This altered abundance or activity is a recurring feature of malignancy that can serve as a diagnostic, prognostic, or predictive biomarker and sometimes as a therapeutic target.",
+      "zh-TW": "Cancer 中 Cancer 過度表現。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。 Cancer 是由逐步獲得突變和表突變驅動的一系列疾病，這些突變和表突變賦予增殖自主性、生存和傳播。方向性從 Cancer 向 Cancer 延伸，因此 Cancer 是活性劑，Cancer 是效果的接受者。這種豐度或活性的改變是惡性腫瘤的一個反覆出現的特徵，可以作為診斷、預後或預測生物標記物，有時還可以作為治療標靶。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "860ce86a404f",
+    "subject": "Inhibitor of Apoptosis Proteins",
+    "predicate": "inhibit",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Inhibitor of Apoptosis Proteins relates to Caspase-3 through the relation inhibit. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The interaction is specific and directional within the cancer context. Understanding this link contributes to the broader map of tumor biology and potential intervention points.",
+      "zh-TW": "Caspase-3 透過關係抑制與 Caspase-3 相關。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。在癌症背景下，這種相互作用是特定的和有方向的。瞭解這種關聯有助於更廣泛地瞭解腫瘤生物學和潛在的幹預點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "9edc465024c0",
+    "subject": "Inhibitor of Apoptosis Proteins",
+    "predicate": "inhibit",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "Inhibitor of Apoptosis Proteins relates to Caspase-7 through the relation inhibit. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. Caspase-7 is an executioner caspase closely related to caspase-3 that contributes to the proteolytic demolition of the cell. The interaction is specific and directional within the cancer context. Understanding this link contributes to the broader map of tumor biology and potential intervention points.",
+      "zh-TW": "Caspase-7 透過關係抑制與 Caspase-7 相關。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。 Caspase-7 是一種與 caspase-3 密切相關的劊子手 caspase，有助於細胞的蛋白水解破壞。在癌症背景下，這種相互作用是特定的和有方向的。瞭解這種關聯有助於更廣泛地瞭解腫瘤生物學和潛在的幹預點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "26f5210bade1",
+    "subject": "Inhibitor of Apoptosis Proteins",
+    "predicate": "inhibit",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Inhibitor of Apoptosis Proteins relates to Caspase-9 through the relation inhibit. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. Caspase-9 is the mitochondrial initiator caspase activated by the apoptosome to launch the execution phase. The interaction is specific and directional within the cancer context. Understanding this link contributes to the broader map of tumor biology and potential intervention points.",
+      "zh-TW": "Caspase-9 透過關係抑制與 Caspase-9 相關。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。 Caspase-9 是粒線體啟動子 caspase，被凋亡體活化以啟動執行階段。在癌症背景下，這種相互作用是特定的和有方向的。瞭解這種關聯有助於更廣泛地瞭解腫瘤生物學和潛在的幹預點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "3f327178e7f1",
+    "subject": "Inhibitor of Apoptosis Proteins",
+    "predicate": "are_antagonized_by",
+    "object": "Smac DIABLO",
+    "context": {
+      "en-US": "Inhibitor of Apoptosis Proteins are antagonized by Smac-DIABLO. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. The directionality runs from Smac-DIABLO toward Inhibitor of Apoptosis Proteins, so Smac-DIABLO is the active agent and Inhibitor of Apoptosis Proteins the recipient of the effect. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "被 Smac-DIABLO 對抗。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。 Smac/DIABLO 在 MOMP 期間從粒線體釋放，並透過結合 IAP 的 BIR 結構域釋放半胱天冬酶。方向性從 Smac-DIABLO 朝向 ϵ，因此 Smac-DIABLO 是活性劑，並且 是效果的接受者。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "c5f6f2a6f2dc",
+    "subject": "Omi/HtrA2",
+    "predicate": "antagonizes",
+    "object": "Inhibitor of Apoptosis Proteins",
+    "context": {
+      "en-US": "Omi/HtrA2 antagonizes Inhibitor of Apoptosis Proteins. Omi/HtrA2 is a mitochondrial serine protease released at MOMP that both antagonizes IAPs and degrades substrates to promote death. Inhibitor of Apoptosis Proteins (IAPs) are endogenous caspase-suppressor proteins that block cell death and are frequently co-opted by tumors. The relationship is directional, with Omi/HtrA2 acting as the operative agent upon Inhibitor of Apoptosis Proteins rather than the reverse. This restraint is biologically significant because it modulates the threshold at which the affected process engages, and when co-opted by tumors it fosters survival and treatment resistance that must be overcome therapeutically.",
+      "zh-TW": "Omi/HtrA2 對抗Omi/HtrA2。 Omi/HtrA2 是一種在 MOMP 釋放的粒線體絲胺酸蛋白酶，它既可以拮抗 IAP，又可以降解底物以促進死亡。 (IAP) 是內源性半胱天冬酶抑制蛋白，可阻止細胞死亡，並經常被腫瘤利用。這種關係是有方向的，Omi/HtrA2 充當Omi/HtrA2 的操作主體，而不是相反。這種限制具有生物學意義，因為它調節受影響過程參與的閾值，並且當被腫瘤選擇時，它會促進生存和必須在治療上克服的治療抗藥性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "09be50de3c82",
+    "subject": "Pyroptosis",
+    "predicate": "is_associated_with",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Pyroptosis is a form of programmed cell death distinct from apoptosis, although both are regulated cell-death modalities. In some contexts they are mutually regulated, for example when Ivermectin induces both apoptosis and autophagy alongside pyroptosis. Understanding their crosstalk matters for cancer therapy.",
+      "zh-TW": "Pyroptosis 是與細胞凋亡不同的程式性細胞死亡形式，雖然兩者都是受調控的細胞死亡方式。在某些情境下它們互相調節，例如 Ivermectin 在誘導細胞焦亡的同時也誘導細胞凋亡與自噬。了解它們的交叉對話對癌症治療很重要。"
+    },
+    "confidence": 0.72,
+    "source_document": "Pyroptosis.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "d9431c56e994",
+    "subject": "Pyroptosis",
+    "predicate": "is_activated_by",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "Pyroptosis is initiated by the assembly of inflammasomes containing a pattern recognition receptor, ASC, and pro-caspase-1, which activates Caspase-1. Active Caspase-1 cleaves pro-IL-1beta and pro-IL-18 into mature forms and cleaves Gasdermin D to execute pyroptosis. Caspase-1 is therefore the central executor protease of pyroptosis.",
+      "zh-TW": "Pyroptosis 由含有模式識別受體、ASC 和 pro-caspase-1 的發炎小體組裝所啟動，並激活 Caspase-1。活化的 Caspase-1 將 pro-IL-1beta 和 pro-IL-18 裂解為成熟形式，並裂解 Gasdermin D 以執行細胞焦亡。因此 Caspase-1 是細胞焦亡的核心執行蛋白酶。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pyroptosis.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "5e45f78bbde2",
+    "subject": "Pyroptosis",
+    "predicate": "is_executed_by",
+    "object": "Gasdermin D",
+    "context": {
+      "en-US": "Caspase-1 cleaves Gasdermin D, whose N-terminal fragment forms pores in the plasma membrane, executing pyroptosis. Pore formation leads to cell swelling and rupture with release of proinflammatory cytokines. Gasdermin D is thus the executioner of pyroptosis.",
+      "zh-TW": "Caspase-1 裂解 Gasdermin D，其 N 端片段在質膜上形成孔洞，執行細胞焦亡。孔洞形成導致細胞腫脹與破裂，並釋放促發炎細胞因子。因此 Gasdermin D 是細胞焦亡的執行者。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pyroptosis.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "315792d3f96d",
+    "subject": "Pyroptosis",
+    "predicate": "is_induced_by",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "NLRP3 is a common inflammasome involved in pyroptosis, functioning as an important component of innate immunity. Inflammasome assembly involving NLRP3 leads to Caspase-1 activation and pyroptotic cell death. NLRP3 thereby links inflammatory signaling to pyroptosis.",
+      "zh-TW": "NLRP3 是參與細胞焦亡的常見發炎小體，是先天免疫的重要組成部分。涉及 NLRP3 的發炎小體組裝會導致 Caspase-1 激活與細胞焦亡性細胞死亡。因此 NLRP3 將發炎訊號與細胞焦亡連結起來。"
+    },
+    "confidence": 0.82,
+    "source_document": "Pyroptosis.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "26a949480cdb",
+    "subject": "Pyroptosis",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Pyroptosis is a form of regulated (programmed) cell death induced by inflammasomes, distinct from apoptosis. It is characterized by cell swelling and rupturing, leading to the release of proinflammatory cytokines. Pyroptosis is therefore a distinct modality within regulated cell death.",
+      "zh-TW": "Pyroptosis 是由發炎小體誘導的一種受調控（程式性）細胞死亡形式，與細胞凋亡不同。其特徵是細胞腫脹與破裂，導致促發炎細胞因子的釋放。因此 Pyroptosis 是受調控細胞死亡中的一種獨特形式。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pyroptosis.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "5c46b7008999",
+    "subject": "Pyroptosis",
+    "predicate": "inhibits",
+    "object": "Tumorigenesis",
+    "context": {
+      "en-US": "Pyroptosis can inhibit tumor growth by inducing cell death and stimulating an inflammatory response in the tumor microenvironment. This positions pyroptosis as a tumor-suppressive modality in some contexts. Inducers such as Ivermectin have been observed to trigger pyroptosis in cancer cells.",
+      "zh-TW": "Pyroptosis 可透過誘導細胞死亡並刺激腫瘤微環境中的發炎反應來抑制腫瘤生長。這使細胞焦亡在某些情境下成為腫瘤抑制形式。已觀察到 Ivermectin 等誘導劑可觸發癌細胞中的細胞焦亡。"
+    },
+    "confidence": 0.72,
+    "source_document": "Pyroptosis.md",
+    "created": "2026-09-02T06:33:55Z",
+    "updated": "2026-09-02T06:33:55Z"
+  },
+  {
+    "id": "fa4494632277",
+    "subject": "Smac DIABLO",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Smac-DIABLO promotes Apoptosis. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. Apoptosis is a genetically programmed, caspase-dependent form of cell death that dismantles cells without provoking inflammation. The relationship is directional, with Smac-DIABLO acting as the operative agent upon Apoptosis rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Smac-DIABLO 推廣 Apoptosis。 Smac/DIABLO 在 MOMP 期間從粒線體釋放，並透過結合 IAP 的 BIR 結構域釋放半胱天冬酶。 Apoptosis 是一種基因編程的半胱天冬酶依賴性細胞死亡形式，可以分解細胞而不引發發炎。這種關係是定向的，Smac-DIABLO 充當 Apoptosis 的操作劑，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inhibitor of Apoptosis Proteins.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "102729d6191f",
+    "subject": "Smac DIABLO",
+    "predicate": "synergizes_with",
+    "object": "TRAIL",
+    "context": {
+      "en-US": "Smac-DIABLO synergizes with TRAIL. Smac/DIABLO is released from mitochondria during MOMP and unleashes caspases by binding the BIR domains of IAPs. TRAIL (TNFSF10) is a death ligand that engages DR4 and DR5 to initiate extrinsic apoptosis with relative selectivity for malignant cells. The relationship is directional, with Smac-DIABLO acting as the operative agent upon TRAIL rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
+      "zh-TW": "Smac-DIABLO 與 TRAIL 具有協同作用。 Smac/DIABLO 在 MOMP 期間從粒線體釋放，並透過結合 IAP 的 BIR 結構域釋放半胱天冬酶。 TRAIL (TNFSF10) 是一種死亡配體，它與 DR4 和 DR5 結合以啟動外源性細胞凋亡，對惡性細胞具有相對選擇性。這種關係是定向的，Smac-DIABLO 充當 TRAIL 的操作代理，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRAIL.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "cd8c6b97d029",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "mediates",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "AIF mediates caspase-independent cell death. Apoptosis-inducing factor is a mitochondrial flavoprotein that, once released via MOMP, drives chromatin condensation and DNA fragmentation without caspase activation.",
+      "zh-TW": "AIF 調節不依賴 caspase 的細胞死亡。Apoptosis 誘導因子是粒線體黃素蛋白，經 MOMP 釋放後，不經 caspase 活化即驅動 chromatin condensation 與 DNA 片段化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Apoptosis-Inducing Factor.md",
+    "created": "2026-08-16T22:55:28Z",
+    "updated": "2026-09-04T17:33:00Z"
+  },
+  {
+    "id": "e3011994c587",
+    "subject": "TNFR1",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "TNFR1 death signaling assembles Complex II via TRADD/FADD to activate initiator caspase-8.",
+      "zh-TW": "TNFR1 死亡訊號經 TRADD/FADD 組裝 Complex II 以活化起始 caspase-8。"
+    },
+    "confidence": 0.85,
+    "source_document": "TNFR1.md",
+    "created": "2026-09-04T17:50:46Z",
+    "updated": "2026-09-04T17:50:46Z"
+  },
+  {
+    "id": "c20dcaea0fa5",
+    "subject": "TNFR1",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "TNFR1 Complex I drives the pro-survival inflammatory arm via NF-kB activation.",
+      "zh-TW": "TNFR1 Complex I 經由 NF-κB 活化驅動促存活發炎分支。"
+    },
+    "confidence": 0.8,
+    "source_document": "TNFR1.md",
+    "created": "2026-09-04T17:50:46Z",
+    "updated": "2026-09-04T17:50:46Z"
+  },
+  {
+    "id": "ac66a05889aa",
+    "subject": "Necroptosis",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Necroptosis is a NCCD-standard regulated death modality distinct from apoptosis.",
+      "zh-TW": "Necroptosis 是與凋亡不同的 NCCD 標準受調控死亡形式。"
+    },
+    "confidence": 0.92,
+    "source_document": "Regulated Cell Death.md",
+    "created": "2026-09-04T17:50:46Z",
+    "updated": "2026-09-04T17:50:46Z"
+  },
+  {
+    "id": "6609e1885116",
+    "subject": "Ferroptosis",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Ferroptosis is an iron-dependent regulated death modality.",
+      "zh-TW": "Ferroptosis 是鐵依賴的受調控死亡形式。"
+    },
+    "confidence": 0.92,
+    "source_document": "Regulated Cell Death.md",
+    "created": "2026-09-04T17:50:46Z",
+    "updated": "2026-09-04T17:50:46Z"
+  },
+  {
+    "id": "3dfd92ba0a52",
+    "subject": "Apoptosis",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Apoptosis is the classic programmed arm of regulated cell death.",
+      "zh-TW": "Apoptosis 是受調控細胞死亡的典型程序臂。"
+    },
+    "confidence": 0.9,
+    "source_document": "Regulated Cell Death.md",
+    "created": "2026-09-04T17:50:46Z",
+    "updated": "2026-09-04T17:50:46Z"
+  },
+  {
+    "id": "3fe6bb3751c2",
+    "subject": "Glutathione",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Glutathione keeps lipid peroxides sub-toxic via GPX4, suppressing ferroptosis.",
+      "zh-TW": "Glutathione 經 GPX4 使脂質過氧化物維持次毒性，抑制 Ferroptosis。"
+    },
+    "confidence": 0.82,
+    "source_document": "Regulated Cell Death.md",
+    "created": "2026-09-04T17:50:46Z",
+    "updated": "2026-09-04T17:50:46Z"
   }
 ]
