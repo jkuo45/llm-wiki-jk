@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>毒物興奮範圍評估 — 映射你的生物韌性</title>
-<meta name="description" content="互動式評估工具，追蹤你在 12 個被忽視的生物領域中位於毒物興奮量表的何處。映射感測器、下游效應以及擴展毒物興奮範圍的實用途徑。">
+<meta name="description" content="互動式評估工具，追蹤你在 19 個被忽視的生物領域中位於毒物興奮量表的何處。映射感測器、下游效應以及擴展毒物興奮範圍的實用途徑。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/hormetic-range-assessment.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hormetic-range-assessment.html">
@@ -331,6 +331,53 @@
   .btn.primary { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
   .btn.primary:hover { background: var(--oxblood-soft); }
 
+  /* ---- weight tuner (collapsed <details>, advanced only) ---- */
+  #weightTuner {
+    border: 1px solid var(--rule);
+    padding: 10px 14px 12px;
+    margin: 14px 0 4px;
+    font-size: .85rem;
+  }
+  #weightTuner > summary {
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--mute);
+  }
+  #weightTuner > summary:hover { color: var(--ink); }
+  #weightMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
+  .tuner-hint { font-size: .8rem; color: var(--mute); margin: 8px 0 10px; line-height: 1.55; }
+  .tuner-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  .tuner-table th {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--mute);
+    text-align: left;
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .tuner-table td { padding: 4px 8px; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+  .tuner-table tr:last-child td { border-bottom: none; }
+  .tuner-table td:first-child { white-space: nowrap; }
+  .tuner-table input[type=number] {
+    width: 52px;
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 2px 4px;
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    color: var(--ink);
+    border-radius: var(--r-sm, 2px);
+  }
+  .tuner-share { font-family: var(--mono); font-size: 10px; color: var(--faint); margin-left: 6px; }
+  .tuner-lh { font-family: var(--mono); font-size: 10px; color: var(--faint); margin: 0 2px; }
+
   /* ---- footer attribution ---- */
   .page-footer {
     font-family: var(--mono);
@@ -353,7 +400,7 @@
     <div class="nav-links">
       <a href="#overview">總覽</a>
       <a href="#sensors">感測器</a>
-      <a href="#domains">12 大領域</a>
+      <a href="#domains">19 大領域</a>
       <a href="#timing">持續時間與時機</a>
       <a href="#interactions">交互作用</a>
       <a href="#language">語言落差</a>
@@ -370,7 +417,7 @@
     <h1>毒物興奮範圍評估</h1>
     <p class="lede">
       生命演化在一個持續、多變的壓力環境中。本工具映射你在
-      <b style="color:var(--oxblood)">12 個被忽視的生物領域</b>中位於毒物興奮量表的何處——
+      <b style="color:var(--oxblood)">19 個被忽視的生物領域</b>中位於毒物興奮量表的何處——
       從輻射到機械負荷，從發炎到禁食——並識別連接它們的保守分子感測器和效應器。
       你的檔案揭示了哪些毒物興奮路徑是活躍的、哪些是休眠的，以及你在何處有空間擴展你的範圍。
     </p>
@@ -387,7 +434,7 @@
     <ol>
       <li><a href="#overview">總覽</a></li>
       <li><a href="#sensors">核心感測器與效應器</a></li>
-      <li><a href="#domains">12 大領域</a></li>
+      <li><a href="#domains">19 大領域</a></li>
       <li><a href="#timing">持續時間與時機</a></li>
       <li><a href="#interactions">交互作用矩陣</a></li>
       <li><a href="#language">語言差異落差</a></li>
@@ -419,9 +466,9 @@
       </p>
 
       <div class="callout">
-        <p><strong>如何使用本頁：</strong>對於以下 12 個領域中的每一個，移動滑桿來評分你目前的毒物興奮實踐，
+        <p><strong>如何使用本頁：</strong>對於以下 19 個領域中的每一個，移動滑桿來評分你目前的毒物興奮實踐，
         從<em>無</em>（0）到<em>毒興窗口</em>（5）再到<em>過度</em>（10）。雷達圖和摘要面板會即時更新。
-        使用「匯出」按鈕儲存你的檔案，或用「列印 / PDF」取得快照。底部的指引區會根據你最弱的領域
+        使用「匯出」按鈕儲存你的檔案，或用「列印 / PDF」取得快照。底部的指引區會根據加權偏離影響
         推薦具體的途徑來擴展你的範圍。</p>
       </div>
     </section>
@@ -472,7 +519,7 @@
     <!-- ==================== 12 DOMAINS — INTERACTIVE SLIDERS ==================== -->
     <section id="domains">
       <p class="sec-label">評估</p>
-      <h2>12 大毒物興奮領域——評分你的實踐</h2>
+      <h2>19 大毒物興奮領域——評分你的實踐</h2>
       <p>
         將每個領域從 <strong>0 = 無</strong>（無實踐／無暴露）滑到
         <strong>5 = 毒興窗口</strong>（適度、可恢復、在 30–60% 適應窗口內）再到
@@ -678,6 +725,55 @@
               <td>骨骼重塑週期約 3–4 個月；肌腱適應速度慢於肌肉（重負荷間至少 48–72 小時）</td>
               <td>Wolff 定律依賴負荷頻率；微重力骨流失在數週內顯示「停止」狀態</td>
             </tr>
+            <tr>
+              <td><strong>光照</strong></td>
+              <td>晨間陽光 5–15 分鐘；紅光/近紅外 5–10 分鐘</td>
+              <td>每日早上 10 點前；紅光/近紅外每週 1–3 次</td>
+              <td>夜晚保持昏暗——晝夜節律重置在黑暗中鞏固；刺激 1–10 J/cm²、抑制 &gt;20 J/cm²</td>
+              <td>日光療法世代研究＋皮膚/關節疼痛光生物調節 RCT；深夜強光抑制褪黑激素</td>
+            </tr>
+            <tr>
+              <td><strong>化學 / 藥物</strong></td>
+              <td>膳食級苦味（sulforaphane、EGCG、curcumin）</td>
+              <td>每日膳食攝取；輪換來源</td>
+              <td>每次劑量 NRF2 活化脈衝約 6–24 小時；處方毒興素（metformin/rapamycin）僅限醫囑，無自行使用方案</td>
+              <td>AMPK/mTORC1 多效性文獻；大劑量翻轉為促氧化——與異體毒興列相同的上限</td>
+            </tr>
+            <tr>
+              <td><strong>缺血調節</strong></td>
+              <td>臨床袖帶 5 分鐘 × 3–4 循環</td>
+              <td>僅限手術前</td>
+              <td>窗口：早期 1–3 小時、延遲 12–72 小時；生活替代方案是間歇運動，並非替代品</td>
+              <td>心臟試驗梗塞面積減少 30–60%；自行阻斷無證據且有明確傷害訊號</td>
+            </tr>
+            <tr>
+              <td><strong>蛋白毒性 / 內質網</strong></td>
+              <td>桑拿 15–20 分鐘 80°C＋接近力竭的高強度組</td>
+              <td>每週 3–5 次，搭配蛋白＋受保護的睡眠</td>
+              <td>HSP/ERAD 方案在睡眠和恢復期鞏固——合成代謝寫入階段</td>
+              <td>HSF1/ATF4/XBP1 誘導文獻；長期睡眠剝奪破壞同一蛋白穩態網絡</td>
+            </tr>
+            <tr>
+              <td><strong>滲透壓</strong></td>
+              <td>一次大量出汗（桑拿 / 熱步行）</td>
+              <td>依耐受；每次都要充分補水</td>
+              <td>用水＋電解質補水是強制性的——沒有補水的適應只是缺水</td>
+              <td>水通道蛋白/冷凍保護蛋白誘導＋冷熱交叉耐受；腎病或利尿劑使用者不安全</td>
+            </tr>
+            <tr>
+              <td><strong>重力 / 振動</strong></td>
+              <td>跳繩 2–5 分鐘、階梯跳、農夫走；振動板 10 分鐘</td>
+              <td>每週 2–3 次</td>
+              <td>重負荷間至少 48–72 小時；骨骼重塑週期約 3–4 個月</td>
+              <td>超重力調節（模型中繁殖力/壽命 +30–60%）；不動骨流失數週內可見</td>
+            </tr>
+            <tr>
+              <td><strong>高氧 / 聲音</strong></td>
+              <td>—（樂器練習、合唱、自然漫步）</td>
+              <td>—</td>
+              <td>—</td>
+              <td><strong>不提供劑量建議。</strong>高壓氧/臭氧僅限臨床且居家效益未經證實；聲音豐富（BDNF → 認知儲備）是可行訊號，大聲場合做好耳朵保護</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -754,7 +850,7 @@
         <p>
           的毒興相關研究在標準搜尋詞下被遺漏，因為不同領域使用不同的詞彙來描述
           相同的生物學原理。<strong>這不是生物學問題——而是語言學問題</strong>。
-          底層機制（亞毒性壓力 → 經由保守感測器的適應性韌性）在所有 12 個領域中
+          底層機制（亞毒性壓力 → 經由保守感測器的適應性韌性）在所有 19 個領域中
           是相同的；只有命名慣例不同。
         </p>
       </div>
@@ -847,13 +943,55 @@
             <td>Wolff 定律、力學傳導適應、負荷介導重塑、力學恆溫器理論</td>
             <td>~80%</td>
           </tr>
+          <tr>
+            <td>光照 / 光生物調節</td>
+            <td>光生物調節毒興</td>
+            <td>光生物調節、LLLT、紅光/近紅外療法、日光療法</td>
+            <td>~80%</td>
+          </tr>
+          <tr>
+            <td>化學 / 藥物</td>
+            <td>化學毒興</td>
+            <td>Arndt-Schulz、雙相劑量反應、metformin/rapamycin 多效性</td>
+            <td>~65%</td>
+          </tr>
+          <tr>
+            <td>缺血調節</td>
+            <td>缺血毒興</td>
+            <td>IPC、RIPC、後處理、缺血耐受</td>
+            <td>~75%</td>
+          </tr>
+          <tr>
+            <td>蛋白毒性 / 內質網</td>
+            <td>蛋白毒性毒興</td>
+            <td>UPRmt、蛋白穩態預激、內質網毒興</td>
+            <td>~70%</td>
+          </tr>
+          <tr>
+            <td>滲透壓壓力</td>
+            <td>滲透壓毒興</td>
+            <td>乾燥硬化、滲透預激、POS</td>
+            <td>~85%</td>
+          </tr>
+          <tr>
+            <td>重力 / 振動</td>
+            <td>重力毒興</td>
+            <td>超重力調節、全身振動、擁擠毒興</td>
+            <td>~85%</td>
+          </tr>
+          <tr>
+            <td>高氧 / 聲音</td>
+            <td>高氧毒興</td>
+            <td>高氧預處理、高壓氧、臭氧療法、聲音豐富</td>
+            <td>~85%</td>
+          </tr>
         </tbody>
       </table>
 
       <p style="margin-top: 12px;">
-        <strong>所有 12 個領域的加權平均：約 73% 的毒興相關文獻使用領域特定術語而非
+        <strong>所有 19 個領域的加權平均：約 75% 的毒興相關文獻使用領域特定術語而非
         「hormesis」一詞。</strong>這意味著僅搜尋「hormesis」的研究者將系統性遺漏約
-        四分之三的證據基礎。其餘 ~27% 直接使用「hormesis」——主要在輻射生物學、
+        四分之三的證據基礎。其餘 ~25% 直接使用「hormesis」——主要在輻射生物學、
         熱量限制和異體毒興領域，這些是該術語起源或早期採用之處。
       </p>
       <p>
@@ -890,6 +1028,20 @@
 
         <div id="domainScores"></div>
 
+        <details id="weightTuner">
+          <summary>調整領域權重 <span id="weightMode">— 證據預設</span></summary>
+          <p class="tuner-hint">權重越高，在綜合分數和指引排序中的佔比越大。0 = 忽略該領域。L 適用於低於毒興窗口（滑桿 &lt; 5），H 適用於高於窗口（滑桿 &gt; 5）；1.0 = 對稱。</p>
+          <div class="tuner-presets">
+            <button class="btn" onclick="applyWeightPreset('evidence')">證據預設</button>
+            <button class="btn" onclick="applyWeightPreset('equal')">均等（全 1.0）</button>
+            <button class="btn" onclick="resetWeights()">重設權重</button>
+          </div>
+          <div class="table-wrap"><table class="tuner-table">
+            <thead><tr><th>領域</th><th>權重</th><th>低 / 高倍率</th></tr></thead>
+            <tbody id="weightTunerBody"></tbody>
+          </table></div>
+        </details>
+
         <div class="export-row">
           <button class="btn primary" onclick="exportJSON()">匯出檔案（JSON）</button>
           <button class="btn" onclick="resetAll()">重設所有滑桿</button>
@@ -903,7 +1055,7 @@
       <p class="sec-label">指引</p>
       <h2>擴展你的毒物興奮範圍——各領域途徑</h2>
       <p>
-        根據你的檔案，以下建議按你最低分的領域排序——你在適應性擴展方面最有空間的途徑。
+        根據你的檔案，以下建議按加權偏離影響排序——高權重且偏離毒興窗口的領域優先。
         每個建議對應共享分子架構中的特定感測器和效應器。
       </p>
       <div id="guidanceCards"></div>
@@ -1149,6 +1301,125 @@ const DOMAINS = [
       mid: '良好的機械毒興實踐。以複合動作為主的漸進式阻力訓練提供骨骼重塑的力學傳導訊號。肌肉-骨骼對話軸（工作肌肉產生的 irisine、IGF-1、IL-6 → 成骨細胞活化）是直接的毒興路徑。包含衝擊活動（跳躍、跑步）以刺激骨骼峰值應變。',
       high: '無漸進式負荷的突然過載導致骨折和肌腱退化——這並非毒興。「磨損」框架是不正確的；「適應性訊號」框架是正確的——但僅在漸進式負荷窗口內。週期化訓練、允許恢復並逐漸增加負荷。肌腱適應速度慢於肌肉——尊重這個時間表。'
     }
+  },
+  {
+    id: 'light',
+    num: '13',
+    title: '光照 / 光生物調節',
+    badge: 'strong',
+    desc: '晨間陽光重置晝夜節律和情緒；紅光/近紅外光有助皮膚和關節恢復。刺激劑量 1–10 J/cm²——超過 ~20 J/cm² 效應反轉為抑制，是典型的雙相窗口。',
+    sensors: ['OPN4/melanopsin', 'CLOCK/BMAL1'],
+    effectors: ['粒線體生長', 'BDNF', '晝夜節律重置'],
+    avoid: ['深夜 11 點–凌晨 2 點的強光螢幕', '全天室內黑暗', '超過 20 分鐘的紅光照射'],
+    zoneLabel: ['室內黑暗', '昏暗', '晨間陽光', '毒興', '深夜強光', '過度'],
+    zoneRange: '全天室內黑暗 → 晨間陽光 5–15 分鐘 → 長期深夜強光',
+    guidance: {
+      low: '若你整天待在室內，melanopsin → CLOCK/BMAL1 路徑刺激不足。早上 10 點前不戴墨鏡進行 5–15 分鐘戶外光照；在窗邊工作；日落後改用昏暗暖光。',
+      mid: '良好的光照實踐。維持晨間戶外光照；可考慮紅光/近紅外面板 5–10 分鐘、每週 1–3 次以促進皮膚和關節恢復。保持夜晚昏暗以保護晝夜節律重置。',
+      high: '深夜長期強光抑制褪黑激素並壓平晝夜節律振幅——與光生物調節背道而馳。減少深夜 11 點–凌晨 2 點的螢幕使用；紅光照射控制在 20 分鐘以內。'
+    }
+  },
+  {
+    id: 'chem',
+    num: '14',
+    title: '化學 / 藥物毒興',
+    badge: 'strong',
+    desc: '苦味植物化合物輕度刺激細胞從而開啟內源性防禦；處方毒興素（metformin、rapamycin）經 AMPK/mTORC1 起作用——僅限醫囑使用。居家農藥或金屬暴露並非毒興。',
+    sensors: ['AMPK/mTORC1'],
+    effectors: ['自噬/粒線體自噬', 'PGC-1α', 'GDF15'],
+    avoid: ['運動前後大劑量抗氧化藥丸', '將居家農藥/金屬暴露視為毒興', '自行服用 metformin/rapamycin'],
+    zoneLabel: ['無', '膳食苦味', '中度', '毒興', '補充劑', '大劑量'],
+    zoneRange: '無苦味植物化學物質 → 多樣苦味食物/茶 → 無監督的藥物給藥',
+    guidance: {
+      low: '若飲食缺乏苦味蔬菜、茶和十字花科，AMPK/mTORC1 毒興訊號刺激不足。加入花椰菜芽、薑黃加黑胡椒、綠茶和苦味蔬菜——輪換來源以保持訊號多變。',
+      mid: '良好的化學毒興實踐。保持膳食苦味食物多樣且間歇；切勿自行服用 metformin 或 rapamycin——處方毒興素需要醫療監督。',
+      high: '大劑量單一化合物補充劑會從毒興翻轉為促氧化或毒性。回到多樣的膳食劑量，任何藥物毒興素都應與醫師討論。'
+    }
+  },
+  {
+    id: 'ischemic',
+    num: '15',
+    title: '缺血預處理 / 遠端調節',
+    badge: 'strong',
+    desc: '手術前短暫、可控的血流阻斷可保護心臟和大腦，梗塞面積減少 30–60%。保護分兩個窗口：早期（1–3 小時）和延遲（12–72 小時）。僅限臨床方案——切勿自行使用止血帶。',
+    sensors: ['Adenosine/PKC', 'HIF-1α', 'mitoK-ATP'],
+    effectors: ['EPO', 'VEGF'],
+    avoid: ['自行使用止血帶', '長時間阻斷'],
+    zoneLabel: ['無', '輕度', '短暫袖帶', '毒興', '長時間', '阻斷損傷'],
+    zoneRange: '無調節 → 臨床袖帶 5 分鐘 × 3–4 循環 → 長時間阻斷',
+    guidance: {
+      low: '日常無需特別行動——安全的替代方案是間歇運動，它能安全地預處理血管。真正的缺血調節是手術前的臨床方案；若有手術計畫可詢問醫療團隊。',
+      mid: '若有手術計畫，臨床袖帶方案（術前 5 分鐘 × 3–4 循環）是有證據的窗口。切勿在家嘗試阻斷——效益需要精準、有監督的劑量。',
+      high: '長時間或無監督的阻斷會造成缺血損傷——與調節完全相反。停止任何自行血流限制，若出現麻木、蒼白或持續疼痛應就醫。'
+    }
+  },
+  {
+    id: 'proteo',
+    num: '16',
+    title: '蛋白毒性 / 內質網毒興',
+    badge: 'emerging',
+    desc: '熱加高強度運動經 HSF1/ATF4/XBP1 → HSP70/HSP90、ERAD 和粒線體自噬，教導細胞修復受損蛋白。保護老化的大腦和肌肉；長期睡眠剝奪則破壞同一網絡。',
+    sensors: ['HSF1/ATF4/XBP1'],
+    effectors: ['HSP70/HSP90', 'ERAD', '粒線體自噬'],
+    avoid: ['長期睡眠剝奪', '極端中暑'],
+    zoneLabel: ['久坐陰涼', '輕度', '桑拿 + 訓練', '毒興', '頻繁極端', '中暑'],
+    zoneRange: '無熱或運動 → 桑拿 15–20 分鐘 80°C、每週 3–5 次 + 高強度組 → 無恢復的極端高熱',
+    guidance: {
+      low: '若你從不練到接近力竭或使用熱暴露，蛋白穩態網絡處於閒置。加入桑拿 15–20 分鐘 80°C、每週 3–5 次，高強度組加充足蛋白，並保護睡眠——修復寫在恢復期。',
+      mid: '良好的蛋白毒性毒興實踐。運動後桑拿疊加热休克和運動訊號；保持蛋白攝取和睡眠，讓 HSP/ERAD 方案鞏固。',
+      high: '無恢復地堆高熱或訓練量會從適應翻轉為損傷——橫紋肌溶解和中暑並非毒興。退階、補水，逐漸重建漸進式負荷。'
+    }
+  },
+  {
+    id: 'osmotic',
+    num: '17',
+    title: '脫水 / 滲透壓壓力',
+    badge: 'emerging',
+    desc: '一次大量出汗後充分補水，經滲透壓感測 MAPK 和 NRF2 → 水通道蛋白和冷凍保護蛋白，訓練水分調節和對冷熱的交叉耐受。慢性脫水是損傷，不是訓練。',
+    sensors: ['滲透壓感測 MAPK', 'NRF2'],
+    effectors: ['水通道蛋白', 'HSP/冷凍保護蛋白', '交叉耐受'],
+    avoid: ['慢性脫水', '跳過補水（腎病、服用利尿劑的長者）'],
+    zoneLabel: ['過度補水', '正常', '桑拿出汗', '毒興', '頻繁缺水', '慢性脫水'],
+    zoneRange: '持續大量飲水 → 出汗訓練 + 充分補水 → 長期缺水',
+    guidance: {
+      low: '若你從不大汗，滲透壓感測路徑處於閒置。加入桑拿出汗或熱適應步行，搭配水和電解質——每次都要充分補水。',
+      mid: '良好的滲透壓實踐：出汗，然後用水和電解質充分補水。補水階段是水通道蛋白和冷熱交叉耐受適應寫入之處。',
+      high: '反覆缺水不補會損害腎臟和認知——腎病或服用利尿劑者不安全。每次訓練後充分補水並維持日常基礎攝取。'
+    }
+  },
+  {
+    id: 'gravity',
+    num: '18',
+    title: '重力 / 振動 / 擁擠',
+    badge: 'emerging',
+    desc: '骨骼需要衝擊而不只是鈣：短暫跳躍、負重行走和挖掘經 integrin/YAP-TAZ 和 AMPK 發出重塑訊號。關節受限時全身振動板有幫助；臥床是關閉狀態。',
+    sensors: ['Integrin/YAP-TAZ', 'AMPK'],
+    effectors: ['骨骼/肌肉重塑'],
+    avoid: ['無漸進的突然最大跳躍', '臥床 / 長期不動'],
+    zoneLabel: ['臥床', '輕度', '跳躍/負重', '毒興', '強振動', '受傷過載'],
+    zoneRange: '不動 → 跳繩 2–5 分鐘、階梯跳、農夫走 → 突然最大負荷',
+    guidance: {
+      low: '若你完全避免衝擊，力學傳導處於飢餓狀態。從跳繩 2–5 分鐘、階梯跳、農夫走和園藝挖掘開始；關節受限可試振動板 10 分鐘、每週 2–3 次。',
+      mid: '良好的重力實踐。逐漸增加跳躍和負重行走量；重負荷間隔 48–72 小時，讓比肌肉慢的肌腱跟上適應。',
+      high: '無漸進的突然最大跳躍會撕裂肌腱、造成骨折——並非毒興。減載，再以漸進式過載重建。'
+    }
+  },
+  {
+    id: 'hyperoxia',
+    num: '19',
+    title: '高氧 / 臭氧 / 聲音',
+    badge: 'contested',
+    desc: '臨床氧氣/臭氧療法居家使用未經證實——不適用居家劑量。此領域可行的毒興訊號是聲音豐富（合唱、樂器練習、自然漫步），經 BDNF 建立注意力和認知儲備。',
+    sensors: ['NRF2/HIF-1α', 'BDNF'],
+    effectors: ['抗氧化反彈', '認知儲備'],
+    avoid: ['居家臭氧機', '長期噪音', '無監督的高壓氧'],
+    zoneLabel: ['室內寂靜', '低', '音樂/自然', '毒興', '長期大聲', '耳毒性'],
+    zoneRange: '寂靜 → 合唱、樂器練習、自然聲音漫步 → 長期大聲暴露',
+    guidance: {
+      low: '若你的聲音環境只有單調的室內嗡鳴，聽覺豐富處於閒置。加入合唱、樂器練習或自然聲音漫步；演唱會佩戴耳塞。',
+      mid: '良好的聲音實踐。規律的音樂創作和自然暴露維持 BDNF 相關的認知儲備。高壓氧或臭氧若有適應症，僅限臨床——絕不使用居家設備。',
+      high: '長期噪音損傷聽力並增加心血管風險；居家臭氧機刺激肺部。減少暴露、保護耳朵，高壓氧/臭氧視為需監督的醫療或完全不用。'
+    }
   }
 ];
 
@@ -1159,6 +1430,136 @@ let values = {};
 
 function loadState() {
   DOMAINS.forEach(d => { values[d.id] = 5; });
+}
+
+// ============================================================
+//  DOMAIN WEIGHTS + ASYMMETRIC MULTIPLIERS (weight tuner)
+//  weight: share of the composite + guidance priority (0 = ignore).
+//  mults [L, H]: penalty multiplier below (slider < 5) / above
+//  (slider > 5) the hormetic zone; 1.0 = symmetric.
+// ============================================================
+const WEIGHT_DEFAULTS = {
+  psych: 1.5, ros: 1.4, fasting: 1.3, thermal: 1.2, xeno: 1.1,
+  inflammation: 1.0, immune: 1.0, gut: 1.0,
+  hypoxia: 0.8, light: 0.8, ischemic: 0.8, bone: 0.7, chem: 0.7, proteo: 0.7,
+  osmotic: 0.5, gravity: 0.5, alcohol: 0.3, radiation: 0.2, hyperoxia: 0.2
+};
+const MULT_DEFAULTS = {
+  radiation: [0.3, 2.0], alcohol: [0.3, 2.0], hyperoxia: [0.5, 2.0], ischemic: [0.5, 2.0],
+  psych: [1.0, 1.8], chem: [0.8, 1.8], osmotic: [1.0, 1.8],
+  ros: [1.2, 1.2], fasting: [1.0, 1.5], thermal: [1.2, 1.2],
+  xeno: [0.8, 1.6], immune: [1.0, 1.2], gut: [1.0, 1.2],
+  inflammation: [1.0, 1.2], hypoxia: [1.0, 1.6], light: [1.0, 1.4],
+  proteo: [1.0, 1.6], bone: [1.2, 1.2], gravity: [1.0, 1.5]
+};
+const WEIGHT_STORE = 'hormetic-weights-v2';
+let customW = {};
+let customM = {};
+let weightPreset = 'evidence';
+
+function getW(id) {
+  if (customW[id] != null) return customW[id];
+  return WEIGHT_DEFAULTS[id] != null ? WEIGHT_DEFAULTS[id] : 1.0;
+}
+function getM(id) {
+  if (customM[id] != null) return customM[id];
+  return MULT_DEFAULTS[id] || [1.0, 1.0];
+}
+function domainScoreParts(d) {
+  const v = values[d.id];
+  const w = getW(d.id);
+  const mPair = getM(d.id);
+  const gap = Math.abs(v - 5) / 5;
+  const m = v < 5 ? mPair[0] : v > 5 ? mPair[1] : 1.0;
+  const prox = Math.max(0, 1 - gap * m) * 100;
+  const priority = w * gap * m;
+  return { v, w, L: mPair[0], H: mPair[1], gap, m, prox, priority };
+}
+function loadWeights() {
+  try {
+    const raw = localStorage.getItem(WEIGHT_STORE);
+    if (!raw) return;
+    const saved = JSON.parse(raw);
+    if (saved.w) customW = saved.w;
+    if (saved.m) customM = saved.m;
+    if (saved.preset) weightPreset = saved.preset;
+  } catch (_) { /* private mode etc. — fall back to defaults */ }
+}
+function saveWeights() {
+  try {
+    localStorage.setItem(WEIGHT_STORE, JSON.stringify({ w: customW, m: customM, preset: weightPreset }));
+  } catch (_) { /* storage unavailable — session-only weights */ }
+}
+function setWeightModeLabel() {
+  const el = document.getElementById('weightMode');
+  if (el) el.textContent = weightPreset === 'equal' ? '— 均等（全 1.0）' : weightPreset === 'custom' ? '— 自訂' : '— 證據預設';
+}
+function renderWeightTuner() {
+  const body = document.getElementById('weightTunerBody');
+  if (!body) return;
+  const wSum = DOMAINS.reduce((a, d) => a + getW(d.id), 0);
+  body.innerHTML = DOMAINS.map(d => {
+    const w = getW(d.id);
+    const mPair = getM(d.id);
+    const share = wSum > 0 ? Math.round((w / wSum) * 100) : 0;
+    return `
+      <tr>
+        <td>${d.num} ${d.title}</td>
+        <td><input type="number" min="0" max="2" step="0.1" value="${w}"
+          onchange="onWeight('${d.id}', this.value)" aria-label="${d.title}權重"><span class="tuner-share">${share}%</span></td>
+        <td><span class="tuner-lh">L</span><input type="number" min="0" max="2.5" step="0.1" value="${mPair[0]}"
+          onchange="onMult('${d.id}', 0, this.value)" aria-label="${d.title}低區倍率"><span class="tuner-lh">H</span><input type="number" min="0" max="2.5" step="0.1" value="${mPair[1]}"
+          onchange="onMult('${d.id}', 1, this.value)" aria-label="${d.title}高區倍率"></td>
+      </tr>
+    `;
+  }).join('');
+  setWeightModeLabel();
+}
+function clampNum(x, lo, hi, fb) {
+  x = parseFloat(x);
+  if (!isFinite(x)) return fb;
+  return Math.min(hi, Math.max(lo, x));
+}
+function onWeight(id, val) {
+  customW[id] = clampNum(val, 0, 2, getW(id));
+  weightPreset = 'custom';
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
+}
+function onMult(id, side, val) {
+  const cur = getM(id).slice();
+  cur[side] = clampNum(val, 0, 2.5, cur[side]);
+  customM[id] = cur;
+  weightPreset = 'custom';
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
+}
+function applyWeightPreset(mode) {
+  if (mode === 'equal') {
+    DOMAINS.forEach(d => { customW[d.id] = 1.0; customM[d.id] = [1.0, 1.0]; });
+    weightPreset = 'equal';
+  } else {
+    customW = {};
+    customM = {};
+    weightPreset = 'evidence';
+  }
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
+}
+function resetWeights() {
+  customW = {};
+  customM = {};
+  weightPreset = 'evidence';
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
 }
 
 // ============================================================
@@ -1410,7 +1811,7 @@ function updateRadar() {
     const x = cx + r * Math.cos(angle);
     const y = cy + r * Math.sin(angle);
     ctx.beginPath();
-    ctx.arc(x, y, 4, 0, 2 * Math.PI);
+    ctx.arc(x, y, 3 + getW(DOMAINS[i].id), 0, 2 * Math.PI);
     ctx.fillStyle = 'rgba(122,49,44,0.9)';
     ctx.fill();
     ctx.strokeStyle = '#fff';
@@ -1431,13 +1832,9 @@ function updateRadar() {
 //  SCORE
 // ============================================================
 function updateScore() {
-  const vals = DOMAINS.map(d => values[d.id]);
-  const mean = vals.reduce((a,b) => a+b, 0) / vals.length;
-  // Score: how close each domain is to the ideal (5), penalize distance
-  let totalPenalty = 0;
-  vals.forEach(v => { totalPenalty += Math.abs(v - 5); });
-  const maxPenalty = vals.length * 5; // all at 0 or all at 10
-  const score = Math.round(((maxPenalty - totalPenalty) / maxPenalty) * 100);
+  const rows = DOMAINS.map(d => ({ d, parts: domainScoreParts(d) }));
+  const wSum = rows.reduce((a, r) => a + r.parts.w, 0);
+  const score = wSum > 0 ? Math.round(rows.reduce((a, r) => a + r.parts.w * r.parts.prox, 0) / wSum) : 0;
 
   document.getElementById('compositeScore').textContent = score + '%';
 
@@ -1448,15 +1845,15 @@ function updateScore() {
   else label = '狹窄的範圍。大多數領域要么休眠要么過度。從證據最充分的領域開始（ROS/運動、禁食、溫度）以獲得最大影響。';
   document.getElementById('compositeLabel').textContent = label;
 
-  // per-domain score bars
+  // per-domain score bars (weighted proximity to hormetic zone)
   const container = document.getElementById('domainScores');
-  container.innerHTML = DOMAINS.map(d => {
-    const v = values[d.id];
-    const proximity = (1 - Math.abs(v - 5) / 5) * 100;
+  container.innerHTML = rows.map(r => {
+    const v = r.parts.v;
+    const proximity = r.parts.prox;
     const color = v < 3 ? 'var(--blue)' : v > 7 ? 'var(--red)' : 'var(--teal)';
     return `
       <div class="score-bar-wrap">
-        <div class="score-bar-label">${d.num} ${d.title} — <strong>${v}</strong>/10（與毒興窗口的接近度：${Math.round(proximity)}%）</div>
+        <div class="score-bar-label">${r.d.num} ${r.d.title} — <strong>${v}</strong>/10（加權接近度：${Math.round(proximity)}% · w ${r.parts.w.toFixed(1)}）</div>
         <div class="score-bar">
           <div class="score-bar-fill" style="width:${proximity}%; background:${color}"></div>
         </div>
@@ -1469,16 +1866,19 @@ function updateScore() {
 //  GUIDANCE
 // ============================================================
 function renderGuidance() {
-  const sorted = [...DOMAINS].sort((a, b) => values[a.id] - values[b.id]);
+  // Prioritize by weighted off-target impact: high-weight domains off-zone first.
+  const rows = DOMAINS.map(d => ({ d, priority: domainScoreParts(d).priority }));
+  rows.sort((a, b) => b.priority - a.priority);
   const container = document.getElementById('guidanceCards');
-  container.innerHTML = sorted.map((d, i) => {
+  container.innerHTML = rows.map((r, i) => {
+    const d = r.d;
     const v = values[d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const label = tier === 'low' ? '擴展你的範圍' : tier === 'high' ? '減少暴露' : '維持';
     const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
     return `
       <div class="rec-card" style="border-left-color:${borderColor}">
-        <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label}（目前：${v}/10）</div>
+        <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label}（目前：${v}/10 · w ${getW(d.id).toFixed(1)}）</div>
         <p>${d.guidance[tier]}</p>
       </div>
     `;
@@ -1491,12 +1891,18 @@ function renderGuidance() {
 function exportJSON() {
   const data = {
     exported: new Date().toISOString(),
-    version: 'hormetic-range-v1',
+    version: 'hormetic-range-v2',
+    weightPreset,
     scores: {},
     compositeScore: document.getElementById('compositeScore').textContent
   };
   DOMAINS.forEach(d => {
-    data.scores[d.id] = { title: d.title, value: values[d.id], sensors: d.sensors, effectors: d.effectors };
+    const parts = domainScoreParts(d);
+    data.scores[d.id] = {
+      title: d.title, value: parts.v, sensors: d.sensors, effectors: d.effectors,
+      weight: parts.w, multLow: parts.L, multHigh: parts.H,
+      weightedProximity: Math.round(parts.prox), priority: Math.round(parts.priority * 100) / 100
+    };
   });
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
@@ -1518,7 +1924,9 @@ function resetAll() {
 //  INIT
 // ============================================================
 loadState();
+loadWeights();
 renderSliders();
+renderWeightTuner();
 updateRadar();
 updateScore();
 renderGuidance();

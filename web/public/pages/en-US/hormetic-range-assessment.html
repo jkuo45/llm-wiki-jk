@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hormetic Range Assessment — Map Your Biological Resilience</title>
-<meta name="description" content="Interactive assessment tool to track where you are along the hormetic scale across 12 overlooked biological domains. Maps sensors, downstream effects, and practical pathways to expand your hormetic range.">
+<meta name="description" content="Interactive assessment tool to track where you are along the hormetic scale across 19 overlooked biological domains. Maps sensors, downstream effects, and practical pathways to expand your hormetic range.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
@@ -328,6 +328,53 @@
   .btn.primary { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
   .btn.primary:hover { background: var(--oxblood-soft); }
 
+  /* ---- weight tuner (collapsed <details>, advanced only) ---- */
+  #weightTuner {
+    border: 1px solid var(--rule);
+    padding: 10px 14px 12px;
+    margin: 14px 0 4px;
+    font-size: .85rem;
+  }
+  #weightTuner > summary {
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--mute);
+  }
+  #weightTuner > summary:hover { color: var(--ink); }
+  #weightMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
+  .tuner-hint { font-size: .8rem; color: var(--mute); margin: 8px 0 10px; line-height: 1.55; }
+  .tuner-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  .tuner-table th {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--mute);
+    text-align: left;
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .tuner-table td { padding: 4px 8px; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+  .tuner-table tr:last-child td { border-bottom: none; }
+  .tuner-table td:first-child { white-space: nowrap; }
+  .tuner-table input[type=number] {
+    width: 52px;
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 2px 4px;
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    color: var(--ink);
+    border-radius: var(--r-sm, 2px);
+  }
+  .tuner-share { font-family: var(--mono); font-size: 10px; color: var(--faint); margin-left: 6px; }
+  .tuner-lh { font-family: var(--mono); font-size: 10px; color: var(--faint); margin: 0 2px; }
+
   /* ---- footer attribution ---- */
   .page-footer {
     font-family: var(--mono);
@@ -350,7 +397,7 @@
     <div class="nav-links">
       <a href="#overview">Overview</a>
       <a href="#sensors">Sensors</a>
-      <a href="#domains">12 Domains</a>
+      <a href="#domains">19 Domains</a>
       <a href="#timing">Duration &amp; Timing</a>
       <a href="#interactions">Interactions</a>
       <a href="#language">Language Gap</a>
@@ -367,7 +414,7 @@
     <h1>Hormetic Range Assessment</h1>
     <p class="lede">
       Life evolved in an environment of constant, variable stress. This tool maps where
-      you sit along the hormetic scale across <b style="color:var(--oxblood)">12 overlooked biological domains</b> —
+      you sit along the hormetic scale across <b style="color:var(--oxblood)">19 overlooked biological domains</b> —
       from radiation to mechanical load, inflammation to fasting — and identifies the conserved
       molecular sensors and effectors that connect them. Your profile reveals which hormetic
       pathways are active, which are dormant, and where you have room to expand your range.
@@ -385,7 +432,7 @@
     <ol>
       <li><a href="#overview">Overview</a></li>
       <li><a href="#sensors">Core Sensors &amp; Effectors</a></li>
-      <li><a href="#domains">12 Domains</a></li>
+      <li><a href="#domains">19 Domains</a></li>
       <li><a href="#timing">Duration &amp; Timing</a></li>
       <li><a href="#interactions">Interaction Matrix</a></li>
       <li><a href="#language">Language Variance Gap</a></li>
@@ -421,12 +468,12 @@
       </p>
 
       <div class="callout">
-        <p><strong>How to use this page:</strong> For each of the 12 domains below, move the
+        <p><strong>How to use this page:</strong> For each of the 19 domains below, move the
         slider to rate your current hormetic practice from <em>None</em> (0) through
         <em>Hormetic zone</em> (5) to <em>Excessive</em> (10). The radar chart and summary
         panel update in real time. Use the Export button to save your profile, or Print/PDF
         for a snapshot. The guidance section at the bottom recommends specific
-        pathways to expand your range based on your weakest domains.</p>
+        pathways to expand your range based on weighted off-target impact.</p>
       </div>
     </section>
 
@@ -479,7 +526,7 @@
     <!-- ==================== 12 DOMAINS — INTERACTIVE SLIDERS ==================== -->
     <section id="domains">
       <p class="sec-label">Assessment</p>
-      <h2>12 Hormetic Domains — Rate Your Practice</h2>
+      <h2>19 Hormetic Domains — Rate Your Practice</h2>
       <p>
         Slide each domain from <strong>0 = None</strong> (no practice / no exposure) through
         <strong>5 = Hormetic zone</strong> (moderate, recoverable, within the 30–60% adaptive
@@ -688,6 +735,55 @@
               <td>Bone remodeling cycle ~3–4 months; tendon adapts slower than muscle (48–72 h minimum between heavy loads)</td>
               <td>Wolff's Law is load-frequency dependent; microgravity bone loss shows the "off" state within weeks</td>
             </tr>
+            <tr>
+              <td><strong>Light</strong></td>
+              <td>5–15 min morning sun; red/NIR 5–10 min</td>
+              <td>Daily before 10am; red/NIR 1–3×/wk</td>
+              <td>Nights dim — circadian reset consolidates in darkness; stim 1–10 J/cm², inhib &gt;20 J/cm²</td>
+              <td>Heliotherapy cohorts + photobiomodulation RCTs for skin/joint pain; late-night brightness suppresses melatonin</td>
+            </tr>
+            <tr>
+              <td><strong>Chemical / Pharma</strong></td>
+              <td>Meal-level bitters (sulforaphane, EGCG, curcumin)</td>
+              <td>Daily dietary intake; rotate sources</td>
+              <td>NRF2 activation pulses ~6–24 h per dose; prescription hormetins (metformin/rapamycin) are doctor-only with no self-use protocol</td>
+              <td>AMPK/mTORC1 pleiotropy literature; megadose flips to pro-oxidant — same ceiling as the xenohormesis row</td>
+            </tr>
+            <tr>
+              <td><strong>Ischemic conditioning</strong></td>
+              <td>Clinic cuff 5 min × 3–4 cycles</td>
+              <td>Pre-procedure only</td>
+              <td>Windows: early 1–3 h, delayed 12–72 h; lifestyle proxy is interval exercise, not a substitute</td>
+              <td>Infarct-size reduction 30–60% in cardiac trials; DIY occlusion has no evidence and clear harm signal</td>
+            </tr>
+            <tr>
+              <td><strong>Proteotoxic / ER</strong></td>
+              <td>Sauna 15–20 min at 80°C + hard sets near-failure</td>
+              <td>3–5×/wk with protein + protected sleep</td>
+              <td>HSP/ERAD programs consolidate in sleep and refed recovery — the anabolic write phase</td>
+              <td>HSF1/ATF4/XBP1 induction literature; chronic sleep deprivation unwinds the same proteostasis network</td>
+            </tr>
+            <tr>
+              <td><strong>Osmotic</strong></td>
+              <td>One sweaty session (sauna / heat walk)</td>
+              <td>As tolerated; full rehydration every time</td>
+              <td>Rehydration with water + electrolytes is mandatory — adaptation without it is just deficit</td>
+              <td>Aquaporin/cryoprotectant induction + heat/cold cross-tolerance; unsafe with kidney disease or diuretic use</td>
+            </tr>
+            <tr>
+              <td><strong>Gravity / Vibration</strong></td>
+              <td>Jump rope 2–5 min, stair hops, farmer carries; vibration plate 10 min</td>
+              <td>2–3×/wk</td>
+              <td>48–72 h minimum between heavy loads; bone remodeling cycle ~3–4 months</td>
+              <td>Hypergravity conditioning (+30–60% fecundity/longevity in models); disuse bone loss visible within weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Hyperoxia / Acoustic</strong></td>
+              <td>— (music practice, choir, nature walks)</td>
+              <td>—</td>
+              <td>—</td>
+              <td><strong>No dosing recommendation offered.</strong> HBOT/ozone are clinic-only with unproven home benefit; sound enrichment (BDNF → cognitive reserve) is the actionable signal, with ear protection at loud events</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -780,7 +876,7 @@
           different fields use different vocabulary for the same biological principle.
           This is <strong>not a biology problem — it is a linguistics problem</strong>.
           The underlying mechanism (subtoxic stress → adaptive resilience via conserved
-          sensors) is identical across all 12 domains; only the naming convention changes.
+          sensors) is identical across all 19 domains; only the naming convention changes.
         </p>
       </div>
 
@@ -873,14 +969,56 @@
             <td>Wolff's Law, mechanotransduction adaptation, load-mediated remodeling, mechanostat theory</td>
             <td>~80%</td>
           </tr>
+          <tr>
+            <td>Light / Photobiomodulation</td>
+            <td>Photobiomodulation hormesis</td>
+            <td>Photobiomodulation, LLLT, red/NIR therapy, heliotherapy</td>
+            <td>~80%</td>
+          </tr>
+          <tr>
+            <td>Chemical / Pharma</td>
+            <td>Chemical hormesis</td>
+            <td>Arndt-Schulz, biphasic dose-response, metformin/rapamycin pleiotropy</td>
+            <td>~65%</td>
+          </tr>
+          <tr>
+            <td>Ischemic Conditioning</td>
+            <td>Ischemic hormesis</td>
+            <td>IPC, RIPC, postconditioning, ischemic tolerance</td>
+            <td>~75%</td>
+          </tr>
+          <tr>
+            <td>Proteotoxic / ER</td>
+            <td>Proteotoxic hormesis</td>
+            <td>UPRmt, proteostasis priming, ER hormesis</td>
+            <td>~70%</td>
+          </tr>
+          <tr>
+            <td>Osmotic Stress</td>
+            <td>Osmotic hormesis</td>
+            <td>Desiccation hardening, osmopriming, POS</td>
+            <td>~85%</td>
+          </tr>
+          <tr>
+            <td>Gravity / Vibration</td>
+            <td>Gravity hormesis</td>
+            <td>Hypergravity conditioning, whole-body vibration, crowding hormesis</td>
+            <td>~85%</td>
+          </tr>
+          <tr>
+            <td>Hyperoxia / Acoustic</td>
+            <td>Hyperoxic hormesis</td>
+            <td>Hyperoxic preconditioning, HBOT, ozone therapy, sound enrichment</td>
+            <td>~85%</td>
+          </tr>
         </tbody>
       </table>
 
       <p style="margin-top: 12px;">
-        <strong>Weighted average across all 12 domains: ~73% of hormesis-relevant literature
+        <strong>Weighted average across all 19 domains: ~75% of hormesis-relevant literature
         uses field-specific terminology rather than the word "hormesis."</strong> This means
         that a researcher searching only for "hormesis" will systematically miss roughly
-        three-quarters of the evidence base. The remaining ~27% uses "hormesis" directly —
+        three-quarters of the evidence base. The remaining ~25% uses "hormesis" directly —
         predominantly in radiation biology, caloric restriction, and xenohormesis, where the
         term originated or was early-adopted.
       </p>
@@ -920,6 +1058,20 @@
 
         <div id="domainScores"></div>
 
+        <details id="weightTuner">
+          <summary>Tune domain weights <span id="weightMode">— evidence default</span></summary>
+          <p class="tuner-hint">Higher weight = counts more in the composite and guidance priority. 0 = ignore domain. L applies below the hormetic zone (slider &lt; 5), H above it (slider &gt; 5); 1.0 = symmetric.</p>
+          <div class="tuner-presets">
+            <button class="btn" onclick="applyWeightPreset('evidence')">Evidence default</button>
+            <button class="btn" onclick="applyWeightPreset('equal')">Equal (all 1.0)</button>
+            <button class="btn" onclick="resetWeights()">Reset weights</button>
+          </div>
+          <div class="table-wrap"><table class="tuner-table">
+            <thead><tr><th>Domain</th><th>Weight</th><th>Low / High mult</th></tr></thead>
+            <tbody id="weightTunerBody"></tbody>
+          </table></div>
+        </details>
+
         <div class="export-row">
           <button class="btn primary" onclick="exportJSON()">Export profile (JSON)</button>
           <button class="btn" onclick="resetAll()">Reset all sliders</button>
@@ -933,8 +1085,8 @@
       <p class="sec-label">Guidance</p>
       <h2>Expanding Your Hormetic Range — Domain-Specific Pathways</h2>
       <p>
-        Based on your profile, the recommendations below are prioritized by your lowest-scoring
-        domains — the pathways where you have the most room for adaptive expansion. Each
+        Based on your profile, the recommendations below are prioritized by weighted
+        off-target impact — high-weight domains outside the hormetic zone first. Each
         recommendation maps to specific sensors and effectors from the shared molecular
         architecture.
       </p>
@@ -1181,6 +1333,125 @@ const DOMAINS = [
       mid: 'Good mechanical hormetic practice. Progressive resistance training with compound movements provides the mechanotransduction signal for bone remodeling. The muscle-bone crosstalk axis (irisin, IGF-1, IL-6 from working muscle → osteoblast activation) is a direct hormetic pathway. Include impact activities (jumping, running) for peak bone strain stimulation.',
       high: 'Sudden overload without progressive loading causes fracture and tendon degeneration — this is NOT hormetic. The "wear and tear" framing is incorrect; the "adaptive signal" framing is correct — but only within the progressive loading window. Periodize training, allow recovery, and increase load gradually. Tendons adapt slower than muscle — respect the timeline.'
     }
+  },
+  {
+    id: 'light',
+    num: '13',
+    title: 'Light / Photobiomodulation',
+    badge: 'strong',
+    desc: 'Morning sunlight resets circadian rhythm and mood; red/NIR light aids skin and joint recovery. Stimulatory dose 1–10 J/cm² — above ~20 J/cm² the effect inhibits, a textbook biphasic window.',
+    sensors: ['OPN4/melanopsin', 'CLOCK/BMAL1'],
+    effectors: ['Mitochondrial biogenesis', 'BDNF', 'Circadian reset'],
+    avoid: ['Bright screens 11pm–2am', 'All-day indoor darkness', '>20 min red-light sessions'],
+    zoneLabel: ['Indoor dark', 'Dim', 'Morning sun', 'Hormetic', 'Late-night bright', 'Excessive'],
+    zoneRange: 'All-day indoor darkness → 5–15 min morning sun → chronic late-night brightness',
+    guidance: {
+      low: 'If you spend all day indoors, the melanopsin → CLOCK/BMAL1 pathway is understimulated. Get 5–15 min outdoor light before 10am without sunglasses; work near a window; switch to dim warm lights after sunset.',
+      mid: 'Good light practice. Maintain morning outdoor light; consider a red/NIR panel 5–10 min 1–3x/wk for skin and joint recovery. Keep nights dim to protect the circadian reset.',
+      high: 'Chronic bright light late at night suppresses melatonin and flattens circadian amplitude — the opposite of photobiomodulation. Cut screens 11pm–2am and keep red-light sessions under 20 min.'
+    }
+  },
+  {
+    id: 'chem',
+    num: '14',
+    title: 'Chemical / Pharmaceutical Hormesis',
+    badge: 'strong',
+    desc: 'Bitter plant compounds mildly stress cells so endogenous defenses switch on; prescription hormetins (metformin, rapamycin) act via AMPK/mTORC1 — doctor-only. Home pesticide or metal exposure is NOT hormesis.',
+    sensors: ['AMPK/mTORC1'],
+    effectors: ['Autophagy/mitophagy', 'PGC-1α', 'GDF15'],
+    avoid: ['Megadose antioxidant pills around exercise', 'Home pesticide/metal exposure as hormesis', 'Self-dosing metformin/rapamycin'],
+    zoneLabel: ['None', 'Dietary bitter', 'Moderate', 'Hormetic', 'Supplemental', 'Megadose'],
+    zoneRange: 'No bitter phytochemicals → diverse bitters/teas → unsupervised drug dosing',
+    guidance: {
+      low: 'If your diet lacks bitter greens, teas, and crucifers, AMPK/mTORC1 hormetic signaling is understimulated. Add broccoli sprouts, turmeric with black pepper, green tea, and bitter greens — rotate sources to keep the signal variable.',
+      mid: 'Good chemical hormetic practice. Keep dietary bitters diverse and intermittent; do NOT self-dose metformin or rapamycin — prescription hormetins require medical supervision.',
+      high: 'Megadose single-compound supplements flip from hormetic to pro-oxidant or toxic. Return to diverse dietary doses and discuss any pharmaceutical hormetin with your doctor.'
+    }
+  },
+  {
+    id: 'ischemic',
+    num: '15',
+    title: 'Ischemic Pre/Remote Conditioning',
+    badge: 'strong',
+    desc: 'Brief controlled blood-flow cutoff before surgery protects heart and brain, cutting infarct size 30–60%. Protection arrives in two windows: early (1–3h) and delayed (12–72h). Clinic protocol only — never DIY tourniquets.',
+    sensors: ['Adenosine/PKC', 'HIF-1α', 'mitoK-ATP'],
+    effectors: ['EPO', 'VEGF'],
+    avoid: ['DIY tourniquets', 'Prolonged occlusion'],
+    zoneLabel: ['None', 'Mild', 'Brief cuff', 'Hormetic', 'Prolonged', 'Occlusive injury'],
+    zoneRange: 'No conditioning → clinic cuff 5 min × 3–4 cycles → prolonged occlusion',
+    guidance: {
+      low: 'No day-to-day action needed — the safe lifestyle proxy is interval exercise, which preconditions vasculature. True ischemic conditioning is a pre-procedure clinic protocol; ask your surgical team if one is planned.',
+      mid: 'If a procedure is planned, the clinic cuff protocol (5 min × 3–4 cycles pre-procedure) is the evidence-based window. Do not attempt occlusion at home — benefit requires calibrated, supervised dosing.',
+      high: 'Prolonged or unsupervised occlusion causes ischemic injury — the opposite of conditioning. Stop any DIY blood-flow restriction and seek care for numbness, pallor, or pain that outlasts a session.'
+    }
+  },
+  {
+    id: 'proteo',
+    num: '16',
+    title: 'Proteotoxic / ER Hormesis',
+    badge: 'emerging',
+    desc: 'Heat plus hard exercise teach cells to refold damaged proteins via HSF1/ATF4/XBP1 → HSP70/HSP90, ERAD, and mitophagy. Protects aging brain and muscle; chronic sleep deprivation unwinds the same network.',
+    sensors: ['HSF1/ATF4/XBP1'],
+    effectors: ['HSP70/HSP90', 'ERAD', 'Mitophagy'],
+    avoid: ['Chronic sleep deprivation', 'Extreme heat stroke'],
+    zoneLabel: ['Sedentary cool', 'Mild', 'Sauna + training', 'Hormetic', 'Frequent extreme', 'Heat stroke'],
+    zoneRange: 'No heat or exertion → sauna 15–20 min at 80°C 3–5x/wk + hard sets → extreme heat without recovery',
+    guidance: {
+      low: 'If you never train near-failure or use heat, the proteostasis network idles. Add sauna 15–20 min at 80°C 3–5x/wk, hard sets with adequate protein, and protect sleep — repair is written during recovery.',
+      mid: 'Good proteotoxic hormetic practice. Post-exercise sauna stacks heat-shock and exertion signals; keep protein intake up and sleep protected so HSP/ERAD programs consolidate.',
+      high: 'Pushing heat or volume without recovery flips adaptation into injury — rhabdomyolysis and heat stroke are NOT hormetic. Back off, rehydrate, and reintroduce progression gradually.'
+    }
+  },
+  {
+    id: 'osmotic',
+    num: '17',
+    title: 'Dehydration / Osmotic Stress',
+    badge: 'emerging',
+    desc: 'One sweaty session followed by full rehydration trains water-handling and cross-tolerance to heat and cold via osmosensing MAPK and NRF2 → aquaporins and cryoprotectants. Chronic dehydration is damage, not training.',
+    sensors: ['Osmosensing MAPK', 'NRF2'],
+    effectors: ['Aquaporins', 'HSP/cryoprotectants', 'Cross-tolerance'],
+    avoid: ['Chronic dehydration', 'Skipping rehydration (kidney disease, elderly on diuretics)'],
+    zoneLabel: ['Overhydrated', 'Normal', 'Sauna sweat', 'Hormetic', 'Frequent deficit', 'Chronic dehydration'],
+    zoneRange: 'Constant fluid load → sweaty session + full rehydration → chronic water deficit',
+    guidance: {
+      low: 'If you never sweat meaningfully, osmotic-sensing pathways idle. Add sauna sweats or heat-acclimation walks with water plus electrolytes — then rehydrate fully every time.',
+      mid: 'Good osmotic practice: sweat, then fully rehydrate with water and electrolytes. The rehydration phase is where aquaporin and heat/cold cross-tolerance adaptation is written.',
+      high: 'Repeated fluid deficit without rehydration strains kidneys and cognition — unsafe with kidney disease or diuretic use. Rehydrate fully after every session and keep baseline intake adequate.'
+    }
+  },
+  {
+    id: 'gravity',
+    num: '18',
+    title: 'Gravity / Vibration / Crowding',
+    badge: 'emerging',
+    desc: 'Bones need impact, not just calcium: brief jumps, carries, and digging signal remodeling via integrin/YAP-TAZ and AMPK. Whole-body vibration helps when joints limit impact; bed rest is the off-state.',
+    sensors: ['Integrin/YAP-TAZ', 'AMPK'],
+    effectors: ['Bone/muscle remodeling'],
+    avoid: ['Sudden maximal jumps without progression', 'Bed rest / prolonged disuse'],
+    zoneLabel: ['Bed rest', 'Light', 'Jumps/carries', 'Hormetic', 'Heavy vibration', 'Injury overload'],
+    zoneRange: 'Disuse → jump rope 2–5 min, stair hops, farmer carries → sudden maximal loading',
+    guidance: {
+      low: 'If you avoid impact entirely, mechanotransduction starves. Start jump rope 2–5 min, stair hops, farmer carries, and gardening digging; try a vibration plate 10 min 2–3x/wk if joints limit impact.',
+      mid: 'Good gravity practice. Progress jump and carry volume gradually; keep 48–72h between heavy loading so tendon — slower than muscle — adapts.',
+      high: 'Sudden maximal jumps without progression rupture tendons and fracture bone — not hormetic. Deload, then rebuild with progressive overload.'
+    }
+  },
+  {
+    id: 'hyperoxia',
+    num: '19',
+    title: 'Hyperoxia / Ozone / Acoustic',
+    badge: 'contested',
+    desc: 'Clinic oxygen/ozone is unproven for home use — no home dosing applies. The actionable hormetic signal here is sound enrichment (choir, music practice, nature walks), which builds attention and cognitive reserve via BDNF.',
+    sensors: ['NRF2/HIF-1α', 'BDNF'],
+    effectors: ['Antioxidant rebound', 'Cognitive reserve'],
+    avoid: ['Home ozone generators', 'Chronic loud noise', 'Unsupervised HBOT'],
+    zoneLabel: ['Silent indoor', 'Low', 'Music/nature', 'Hormetic', 'Loud chronic', 'Ototoxic'],
+    zoneRange: 'Silence → choir, music practice, nature sound walks → chronic loud exposure',
+    guidance: {
+      low: 'If your soundscape is flat indoor hum, auditory enrichment idles. Add choir, music practice, or nature sound walks; wear earplugs at concerts.',
+      mid: 'Good acoustic practice. Regular music-making and nature exposure sustain BDNF-linked cognitive reserve. HBOT or ozone, if ever indicated, are clinic-only — never home devices.',
+      high: 'Chronic loud noise damages hearing and raises cardiovascular risk; home ozone generators irritate lungs. Cut exposure, protect ears, and treat HBOT/ozone as supervised medicine or not at all.'
+    }
   }
 ];
 
@@ -1191,6 +1462,136 @@ let values = {};
 
 function loadState() {
   DOMAINS.forEach(d => { values[d.id] = 5; });
+}
+
+// ============================================================
+//  DOMAIN WEIGHTS + ASYMMETRIC MULTIPLIERS (weight tuner)
+//  weight: share of the composite + guidance priority (0 = ignore).
+//  mults [L, H]: penalty multiplier below (slider < 5) / above
+//  (slider > 5) the hormetic zone; 1.0 = symmetric.
+// ============================================================
+const WEIGHT_DEFAULTS = {
+  psych: 1.5, ros: 1.4, fasting: 1.3, thermal: 1.2, xeno: 1.1,
+  inflammation: 1.0, immune: 1.0, gut: 1.0,
+  hypoxia: 0.8, light: 0.8, ischemic: 0.8, bone: 0.7, chem: 0.7, proteo: 0.7,
+  osmotic: 0.5, gravity: 0.5, alcohol: 0.3, radiation: 0.2, hyperoxia: 0.2
+};
+const MULT_DEFAULTS = {
+  radiation: [0.3, 2.0], alcohol: [0.3, 2.0], hyperoxia: [0.5, 2.0], ischemic: [0.5, 2.0],
+  psych: [1.0, 1.8], chem: [0.8, 1.8], osmotic: [1.0, 1.8],
+  ros: [1.2, 1.2], fasting: [1.0, 1.5], thermal: [1.2, 1.2],
+  xeno: [0.8, 1.6], immune: [1.0, 1.2], gut: [1.0, 1.2],
+  inflammation: [1.0, 1.2], hypoxia: [1.0, 1.6], light: [1.0, 1.4],
+  proteo: [1.0, 1.6], bone: [1.2, 1.2], gravity: [1.0, 1.5]
+};
+const WEIGHT_STORE = 'hormetic-weights-v2';
+let customW = {};
+let customM = {};
+let weightPreset = 'evidence';
+
+function getW(id) {
+  if (customW[id] != null) return customW[id];
+  return WEIGHT_DEFAULTS[id] != null ? WEIGHT_DEFAULTS[id] : 1.0;
+}
+function getM(id) {
+  if (customM[id] != null) return customM[id];
+  return MULT_DEFAULTS[id] || [1.0, 1.0];
+}
+function domainScoreParts(d) {
+  const v = values[d.id];
+  const w = getW(d.id);
+  const mPair = getM(d.id);
+  const gap = Math.abs(v - 5) / 5;
+  const m = v < 5 ? mPair[0] : v > 5 ? mPair[1] : 1.0;
+  const prox = Math.max(0, 1 - gap * m) * 100;
+  const priority = w * gap * m;
+  return { v, w, L: mPair[0], H: mPair[1], gap, m, prox, priority };
+}
+function loadWeights() {
+  try {
+    const raw = localStorage.getItem(WEIGHT_STORE);
+    if (!raw) return;
+    const saved = JSON.parse(raw);
+    if (saved.w) customW = saved.w;
+    if (saved.m) customM = saved.m;
+    if (saved.preset) weightPreset = saved.preset;
+  } catch (_) { /* private mode etc. — fall back to defaults */ }
+}
+function saveWeights() {
+  try {
+    localStorage.setItem(WEIGHT_STORE, JSON.stringify({ w: customW, m: customM, preset: weightPreset }));
+  } catch (_) { /* storage unavailable — session-only weights */ }
+}
+function setWeightModeLabel() {
+  const el = document.getElementById('weightMode');
+  if (el) el.textContent = weightPreset === 'equal' ? '— equal (all 1.0)' : weightPreset === 'custom' ? '— custom' : '— evidence default';
+}
+function renderWeightTuner() {
+  const body = document.getElementById('weightTunerBody');
+  if (!body) return;
+  const wSum = DOMAINS.reduce((a, d) => a + getW(d.id), 0);
+  body.innerHTML = DOMAINS.map(d => {
+    const w = getW(d.id);
+    const mPair = getM(d.id);
+    const share = wSum > 0 ? Math.round((w / wSum) * 100) : 0;
+    return `
+      <tr>
+        <td>${d.num} ${d.title}</td>
+        <td><input type="number" min="0" max="2" step="0.1" value="${w}"
+          onchange="onWeight('${d.id}', this.value)" aria-label="${d.title} weight"><span class="tuner-share">${share}%</span></td>
+        <td><span class="tuner-lh">L</span><input type="number" min="0" max="2.5" step="0.1" value="${mPair[0]}"
+          onchange="onMult('${d.id}', 0, this.value)" aria-label="${d.title} below-zone multiplier"><span class="tuner-lh">H</span><input type="number" min="0" max="2.5" step="0.1" value="${mPair[1]}"
+          onchange="onMult('${d.id}', 1, this.value)" aria-label="${d.title} above-zone multiplier"></td>
+      </tr>
+    `;
+  }).join('');
+  setWeightModeLabel();
+}
+function clampNum(x, lo, hi, fb) {
+  x = parseFloat(x);
+  if (!isFinite(x)) return fb;
+  return Math.min(hi, Math.max(lo, x));
+}
+function onWeight(id, val) {
+  customW[id] = clampNum(val, 0, 2, getW(id));
+  weightPreset = 'custom';
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
+}
+function onMult(id, side, val) {
+  const cur = getM(id).slice();
+  cur[side] = clampNum(val, 0, 2.5, cur[side]);
+  customM[id] = cur;
+  weightPreset = 'custom';
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
+}
+function applyWeightPreset(mode) {
+  if (mode === 'equal') {
+    DOMAINS.forEach(d => { customW[d.id] = 1.0; customM[d.id] = [1.0, 1.0]; });
+    weightPreset = 'equal';
+  } else {
+    customW = {};
+    customM = {};
+    weightPreset = 'evidence';
+  }
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
+}
+function resetWeights() {
+  customW = {};
+  customM = {};
+  weightPreset = 'evidence';
+  saveWeights();
+  renderWeightTuner();
+  updateScore();
+  renderGuidance();
 }
 
 // ============================================================
@@ -1442,7 +1843,7 @@ function updateRadar() {
     const x = cx + r * Math.cos(angle);
     const y = cy + r * Math.sin(angle);
     ctx.beginPath();
-    ctx.arc(x, y, 4, 0, 2 * Math.PI);
+    ctx.arc(x, y, 3 + getW(DOMAINS[i].id), 0, 2 * Math.PI);
     ctx.fillStyle = 'rgba(122,49,44,0.9)';
     ctx.fill();
     ctx.strokeStyle = '#fff';
@@ -1463,13 +1864,9 @@ function updateRadar() {
 //  SCORE
 // ============================================================
 function updateScore() {
-  const vals = DOMAINS.map(d => values[d.id]);
-  const mean = vals.reduce((a,b) => a+b, 0) / vals.length;
-  // Score: how close each domain is to the ideal (5), penalize distance
-  let totalPenalty = 0;
-  vals.forEach(v => { totalPenalty += Math.abs(v - 5); });
-  const maxPenalty = vals.length * 5; // all at 0 or all at 10
-  const score = Math.round(((maxPenalty - totalPenalty) / maxPenalty) * 100);
+  const rows = DOMAINS.map(d => ({ d, parts: domainScoreParts(d) }));
+  const wSum = rows.reduce((a, r) => a + r.parts.w, 0);
+  const score = wSum > 0 ? Math.round(rows.reduce((a, r) => a + r.parts.w * r.parts.prox, 0) / wSum) : 0;
 
   document.getElementById('compositeScore').textContent = score + '%';
 
@@ -1480,15 +1877,15 @@ function updateScore() {
   else label = 'Narrow range. Most domains are either dormant or excessive. Start with the highest-evidence domains (ROS/exercise, fasting, thermal) for maximum impact.';
   document.getElementById('compositeLabel').textContent = label;
 
-  // per-domain score bars
+  // per-domain score bars (weighted proximity to hormetic zone)
   const container = document.getElementById('domainScores');
-  container.innerHTML = DOMAINS.map(d => {
-    const v = values[d.id];
-    const proximity = (1 - Math.abs(v - 5) / 5) * 100;
+  container.innerHTML = rows.map(r => {
+    const v = r.parts.v;
+    const proximity = r.parts.prox;
     const color = v < 3 ? 'var(--blue)' : v > 7 ? 'var(--red)' : 'var(--teal)';
     return `
       <div class="score-bar-wrap">
-        <div class="score-bar-label">${d.num} ${d.title} — <strong>${v}</strong>/10 (proximity to hormetic zone: ${Math.round(proximity)}%)</div>
+        <div class="score-bar-label">${r.d.num} ${r.d.title} — <strong>${v}</strong>/10 (weighted proximity: ${Math.round(proximity)}% · w ${r.parts.w.toFixed(1)})</div>
         <div class="score-bar">
           <div class="score-bar-fill" style="width:${proximity}%; background:${color}"></div>
         </div>
@@ -1501,16 +1898,19 @@ function updateScore() {
 //  GUIDANCE
 // ============================================================
 function renderGuidance() {
-  const sorted = [...DOMAINS].sort((a, b) => values[a.id] - values[b.id]);
+  // Prioritize by weighted off-target impact: high-weight domains off-zone first.
+  const rows = DOMAINS.map(d => ({ d, priority: domainScoreParts(d).priority }));
+  rows.sort((a, b) => b.priority - a.priority);
   const container = document.getElementById('guidanceCards');
-  container.innerHTML = sorted.map((d, i) => {
+  container.innerHTML = rows.map((r, i) => {
+    const d = r.d;
     const v = values[d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const label = tier === 'low' ? 'Expand your range' : tier === 'high' ? 'Reduce exposure' : 'Maintain';
     const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
     return `
       <div class="rec-card" style="border-left-color:${borderColor}">
-        <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label} (current: ${v}/10)</div>
+        <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label} (current: ${v}/10 · w ${getW(d.id).toFixed(1)})</div>
         <p>${d.guidance[tier]}</p>
       </div>
     `;
@@ -1523,12 +1923,18 @@ function renderGuidance() {
 function exportJSON() {
   const data = {
     exported: new Date().toISOString(),
-    version: 'hormetic-range-v1',
+    version: 'hormetic-range-v2',
+    weightPreset,
     scores: {},
     compositeScore: document.getElementById('compositeScore').textContent
   };
   DOMAINS.forEach(d => {
-    data.scores[d.id] = { title: d.title, value: values[d.id], sensors: d.sensors, effectors: d.effectors };
+    const parts = domainScoreParts(d);
+    data.scores[d.id] = {
+      title: d.title, value: parts.v, sensors: d.sensors, effectors: d.effectors,
+      weight: parts.w, multLow: parts.L, multHigh: parts.H,
+      weightedProximity: Math.round(parts.prox), priority: Math.round(parts.priority * 100) / 100
+    };
   });
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
@@ -1550,7 +1956,9 @@ function resetAll() {
 //  INIT
 // ============================================================
 loadState();
+loadWeights();
 renderSliders();
+renderWeightTuner();
 updateRadar();
 updateScore();
 renderGuidance();
