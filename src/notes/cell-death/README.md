@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-10
 ---
 # Cell Death
 
@@ -15,11 +15,21 @@ updated: 2026-09-07
 | [[_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk\|Mitochondrial and Nuclear Cross Talk in Cell Death: Parthanatos]] | Andrabi/Dawson 2008 review coining parthanatos (PAR + Thanatos); PARP-1 hyperactivation generates PAR polymer that triggers AIF translocation, caspase-independent death distinct from apoptosis/necrosis/autophagy. |
 | [[_document_ - Parthanatos David 2009 messenger of death\|Parthanatos, a messenger of death]] | David et al. 2009 foundational parthanatos review; PAR polymer itself (not NAD+ depletion) is the death signal downstream of PARP-1; PAR length/complexity toxicity, PARG biology, PAR-AIF nuclear-mitochondrial crosstalk. |
 | [[_document_ - Necroptosis a regulated inflammatory mode of cell death\|Necroptosis: a regulated inflammatory mode of cell death]] | Dhuriya and Sharma 2018 timeline review of necroptosis molecular mechanisms and disease relevance — RIPK3/MLKL axis, non-classical necrosomes, phospho-sites, inflammation, infection, neurodegeneration. |
+| [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9\|Insights on the crosstalk among different cell death mechanisms]] | Comprehensive review (Cell Death Discovery 2025) of apoptosis, autophagy, mitophagy, necroptosis, pyroptosis, and ferroptosis mechanisms, inducers, inhibitors, and crosstalk among key regulators including sirtuins. |
+| [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 
 ## Entity Notes
 
-| Entity | entity_type_1 | Description |
-|--------|---------------|-------------|
-| [[Regulated Cell Death]] | process | Genetically encoded cell death programs distinct from accidental necrosis, including apoptosis, necroptosis, pyroptosis, and ferroptosis; topic hub (protected). |
-| [[PARG]] | enzyme | The primary poly(ADP-ribose) glycohydrolase erasing PAR; its dosage bidirectionally sets parthanatos and stroke outcome. |
-| [[24(S)-Hydroxycholesterol]] | metabolite | Brain-derived oxysterol made by neuronal CYP46A1; LXR ligand and neurodegeneration biomarker with biphasic amyloid/necroptotic actions. |
+Core death machinery lives here per §7 (topic home outranks `_link/`; all notes below are `protected: true`).
+
+Modalities: [[Regulated Cell Death]], [[Apoptosis]], [[Apoptotic Bodies]], [[Apoptosome]], [[Necroptosis]], [[necrosome]], [[Necrosis]], [[Secondary Necrosis]], [[Parthanatos]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagic Cell Death]].
+
+Caspases: [[Caspase]], [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
+
+BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[VDAC1]], [[AIF]], [[AIFM2]], [[Apoptosis-Inducing Factor]].
+
+Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[Complex I (TNFR1)]], [[Complex II (TNFR1)]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
+
+PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]].
+
+Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrosulfonamide]].
