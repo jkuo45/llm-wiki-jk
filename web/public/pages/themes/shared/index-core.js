@@ -64,13 +64,14 @@ window.IndexCore = (function () {
     ["Older", "較早", "old"],
     ["Indexes", "索引附錄", "old"],
   ];
-  /* Updated-date variant for pages sorted by recency of update
+  /* Recency variant for pages sorted by the newer of created/updated
      (e.g. articles-index). Same shape/count as BUCKETS so bucket indexes
-     stay interchangeable; only the time-bucket labels differ. */
+     stay interchangeable; labels are verb-neutral ("This week") because
+     each card states whether its recency comes from creation or update. */
   var UPDATED_BUCKETS = [
     ["Starred", "星標", ""],
-    ["Updated this week", "本週更新", "fresh"],
-    ["Updated this month", "本月更新", "recent"],
+    ["This week", "本週", "fresh"],
+    ["This month", "本月", "recent"],
     ["Older", "較早", "old"],
     ["Indexes", "索引附錄", "old"],
   ];

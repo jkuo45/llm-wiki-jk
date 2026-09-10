@@ -153,10 +153,12 @@
         const zh = a.langs['zh-TW'];
         const starred = dbStarred(a);
         const weight = a.weight || 0;
-        /* Sort/group by update recency (fall back to created when an
-           entry has no updated date). */
+        /* Sort/group by whichever is newer — created or updated (fall
+           back to created when an entry has no updated date). */
         const updated = en.updated || en.created || '';
         const created = en.created || '';
+        const latest = (updated || '') > (created || '') ? updated : created;
+        const isNew = (created || '') >= (updated || '');
         return {
           id: a.id,
           _idx: ai,
@@ -169,15 +171,17 @@
           zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
           created,
           updated,
-          age: relAge(updated),
+          latest,
+          verb: isNew ? 'created' : 'updated',
+          age: relAge(latest),
           /* Weighted entries (index pages) skip the time buckets and land
              together in the trailing Indexes section (bucket 4). */
-          bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(updated))
+          bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(latest))
         };
       })
       .sort((x, y) => (y.starred - x.starred) ||
         (x.weight - y.weight) ||
-        (y.updated || '').localeCompare(x.updated || ''));
+        (y.latest || '').localeCompare(x.latest || ''));
 
       function render(){
         const tokens = parseQuery(searchBox.value);
@@ -196,7 +200,7 @@
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
               <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'updated today' : `updated ${esc(a.age)} ago`} (${esc(a.updated)})</span></p>
+              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`} (${esc(a.latest)})</span></p>
             </li>`).join('');
           html += '</ul>';
         });
