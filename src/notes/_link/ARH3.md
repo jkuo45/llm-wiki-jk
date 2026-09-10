@@ -38,7 +38,7 @@ Compared with [[PARG]]: [[PARG]] (macrodomain, Glu755/Asp737, no metals) cleaves
 
 - **DNA-damage reversal:** with [[PARG]], completes the PAR cycle. [[PARG]] removes bulk polymer; ARH3 removes terminal Ser-MAR on [[PARP1]], histones and hundreds of HPF1-dependent substrates. `ARH3-KO` cells accumulate Ser-MAR; `HPF1-KO` shows the opposite.
 - **Mitochondrial PAR/OAADPr control:** only active mitochondrial PAR degrader — short [[PARG]] splice forms PARG55/60 lack exon 5 and are inactive. By degrading OAADPr from [[SIRT3]]/[[SIRT5]] deacetylation, links [[Sirtuins]] to mitochondrial redox.
-- **Parthanatos brake:** `Arh3-/-` MEFs show exaggerated nuclear [[PAR]] at 10 min post-H2O2, cytoplasmic translocation by 30 min, [[AIF]] release and caspase-independent death. Re-expression rescues. Cytoplasmic [[PAR]] also inhibits Rab5 endocytosis in this model. Caveat (2026 RPE1/MNNG preprint, bioRxiv 2026.05.12.724507): ARH3 KO had no effect on parthanatos execution in that system — protective role is insult/cell-type dependent.
+- **Parthanatos brake:** `Arh3-/-` MEFs show exaggerated nuclear [[PAR]] at 10 min post-H2O2, cytoplasmic translocation by 30 min, [[Apoptosis-Inducing Factor|AIF]] release and caspase-independent death. Re-expression rescues. Cytoplasmic [[PAR]] also inhibits Rab5 endocytosis in this model. Caveat (2026 RPE1/MNNG preprint, bioRxiv 2026.05.12.724507): ARH3 KO had no effect on parthanatos execution in that system — protective role is insult/cell-type dependent.
 
 ## Pathology & Clinical relevance
 
@@ -58,7 +58,7 @@ No documents ingested yet.
 - [[PARG]] — partner eraser; bulk endo/exo PARase that cannot remove terminal MAR.
 - [[PAR]] — co-substrate; long chains to PARG, short/free chains and terminal residue to ARH3.
 - [[Parthanatos]] — ARH3 suppresses PAR-AIF death; loss sensitizes.
-- [[AIF]] — downstream effector released by the PAR ARH3 normally clears.
+- [[Apoptosis-Inducing Factor|AIF]] — downstream effector released by the PAR ARH3 normally clears.
 - [[NAD+]] — alpha-NAD+ substrate; PAR turnover restores the energy reservoir.
 - [[Sirtuins]] — OAADPr from SIRT deacetylation is an ARH3 substrate.
 - [[ADP-ribosylation]] — ARH3 is the Ser-deMARylase arm of the cycle.
@@ -68,6 +68,6 @@ No documents ingested yet.
 ## Linking Summary
 
 - New note in src/notes/_link/ as cross-topic entity (sirtuins / cell-death / DNA repair).
-- New links added: [[PARP1]], [[PARG]], [[PAR]], [[Parthanatos]], [[AIF]], [[NAD+]], [[Sirtuins]], [[ADP-ribosylation]], [[ARH1]], [[PARP inhibitors]], [[O-acetyl-ADP-ribose]], [[SIRT3]], [[SIRT5]].
+- New links added: [[PARP1]], [[PARG]], [[PAR]], [[Parthanatos]], [[Apoptosis-Inducing Factor|AIF]], [[NAD+]], [[Sirtuins]], [[ADP-ribosylation]], [[ARH1]], [[PARP inhibitors]], [[O-acetyl-ADP-ribose]], [[SIRT3]], [[SIRT5]].
 - Suggested new entity notes to create: [[PARG]], [[ARH1]], [[HPF1]].
 - Strong connections to strengthen: [[ARH3]] ↔ [[PARG]], [[ARH3]] ↔ [[Parthanatos]], [[ARH3]] ↔ [[ADP-ribosylation]].

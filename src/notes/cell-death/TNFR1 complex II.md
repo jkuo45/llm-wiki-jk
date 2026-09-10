@@ -3,7 +3,7 @@ title: TNFR1 complex II
 description: The cytosolic secondary TNF receptor complex of TRADD, RIPK1, FADD, caspase-8 and c-FLIP that forms after RIPK1 deubiquitination and executes the apoptosis-necroptosis-survival decision.
 protected: true
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-10
 tags:
   - protein-complex
   - cell-death
@@ -11,7 +11,7 @@ tags:
   - necroptosis
 url: #
 source: #
-aliases: [TNFR1 Complex II, complex II, TNF complex II, death-inducing complex II]
+aliases: [TNFR1 Complex II, complex II, TNF complex II, death-inducing complex II, Ripoptosome, Complex IIa, Complex IIb]
 ---
 
 # TNFR1 complex II
@@ -69,6 +69,12 @@ antimicrobial program has run, and termination of excess inflammatory signaling.
 - **Intestinal homeostasis:** IEC-specific *Cflip* deletion is perinatally lethal via TNFR1-driven
   complex-II death, rescued by *Tnfrsf1a* co-deletion (Tsuchiya 2015 review).
 
+## Complex IIa vs IIb (Consolidated)
+
+**Complex II (TNFR1)** is the cytosolic death complex forming after [[TNFR1 complex I]] dissolves: **IIa** (TRADD/FADD/pro-caspase-8 ripoptosome → active caspase-8 → executioner caspases → extrinsic [[Apoptosis]]) and **IIb** (RIPK1/FADD/caspase-8 without TRADD when cIAPs are depleted, same apoptotic outcome via RIPK1 kinase activity). It is the "second choice" (quiet death) of the TNFR1 decision.
+
+When [[Caspase-8]] is absent or inhibited, Complex II cannot complete apoptosis and instead hands RIPK1 to [[RIPK3]] via RHIM interactions — the necrosome assembly step of [[Necroptosis]]. The caspase-8/c-FLIP isoform rheostat (long heterodimers block necroptosis, short heterodimers favor it) tunes this handoff.
+
 ## Documents
 
 - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
@@ -89,6 +95,11 @@ antimicrobial program has run, and termination of excess inflammatory signaling.
 - [[RIPK3]] / [[MLKL]] — necroptosis effectors for the FLIP_S outcome
 - [[Ripoptosome]] — the receptor-independent sister platform
 - [[Apoptosis]] / [[Necroptosis]] — the two death outputs
+- [[Necroptosis]] — Complex II is the launchpad rerouted to the necrosome when caspase-8 is blocked.
+- [[Apoptosis]] — the default Complex II output via caspase-8 → executioner caspases.
+- [[Caspase-8]] — the effector whose activity state decides apoptosis vs necroptosis.
+- [[TNFR1 complex I]] — predecessor survival complex whose dissolution births Complex II.
+- [[RIPK1]] — shared subunit transitioning from scaffold (Complex I) to kinase (Complex II/necrosome).
 
 ## Linking Summary
 
@@ -98,3 +109,10 @@ antimicrobial program has run, and termination of excess inflammatory signaling.
 - Suggested new entity notes to create: (done 03_Sep_2026: [[CYLD]], [[TNFR1 complex I]])
 - Strong connections to strengthen: [[TNFR1 complex II]] ↔ [[Caspase-8-c-FLIP Rheostat]],
   [[TNFR1 complex II]] ↔ [[Ripoptosome]], [[TNFR1 complex II]] ↔ [[RIPK1]]
+
+## Linking Summary (Consolidated from Complex II (TNFR1).md)
+
+- New note in src/notes/_link/ as cross-topic entity (table audit 2026-09-03: Core-machinery coverage for the cell-death comparison page).
+- New links added: [[Necroptosis]], [[Apoptosis]], [[Caspase-8]], [[TNFR1 complex I]], [[RIPK1]].
+- Suggested new entity notes to create: [[FADD]], [[c-FLIP]].
+- Strong connections to strengthen: [[TNFR1 complex II]] ↔ [[Necroptosis]], [[TNFR1 complex II]] ↔ [[Apoptosis]].

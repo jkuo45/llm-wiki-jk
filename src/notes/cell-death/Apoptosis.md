@@ -75,7 +75,7 @@ aliases: []
 
 ### Therapeutic Implications
 
-> **[[Caspase]] inhibitors may preferentially protect females; [[PARP-1]]/AIF inhibitors may preferentially protect males.** This has been confirmed experimentally in stroke models: the pan-caspase inhibitor Q-VD-OPh reduced infarct volume only in females, while PARP-1 knockout protected males but exacerbated injury in females.
+> **[[Caspases|Caspase]] inhibitors may preferentially protect females; [[PARP-1]]/AIF inhibitors may preferentially protect males.** This has been confirmed experimentally in stroke models: the pan-caspase inhibitor Q-VD-OPh reduced infarct volume only in females, while PARP-1 knockout protected males but exacerbated injury in females.
 
 ### References (sex differences in cell death)
 

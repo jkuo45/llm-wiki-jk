@@ -24,7 +24,7 @@ Executioner (effector) caspases are the terminal proteases of the apoptotic casc
 
 ## Distinction from Inflammatory Caspases
 
-Unlike the inflammatory caspases (e.g., caspase-1, -4, -5, -11 that activate [[Gasdermin D]] and drive pyroptosis), executioner caspases mediate silent, immunologically contained cell death rather than inflammatory rupture. The broader **[[Caspase]]** family spans both branches.
+Unlike the inflammatory caspases (e.g., caspase-1, -4, -5, -11 that activate [[Gasdermin D]] and drive pyroptosis), executioner caspases mediate silent, immunologically contained cell death rather than inflammatory rupture. The broader **[[Caspases|Caspase]]** family spans both branches.
 
 ## Physiological and Pathological Roles
 
@@ -39,11 +39,11 @@ Executioner caspases enforce developmental pruning, tissue homeostasis, and elim
 - [[Caspase-3]]: The principal executioner caspase.
 - [[Caspase-7]]: Co-executioner with overlapping substrates.
 - [[Apoptosis]]: The cell-death program executed by these caspases.
-- [[Caspase]]: The broader caspase family containing initiator and executioner branches.
+- [[Caspases|Caspase]]: The broader caspase family containing initiator and executioner branches.
 - [[Gasdermin D]]: Effector of the distinct inflammatory (pyroptotic) caspase branch.
 
 ## Linking Summary
 
-- New links added: [[Caspase-3]], [[Caspase-7]], [[Apoptosis]], [[Caspase]], [[Gasdermin D]]
+- New links added: [[Caspase-3]], [[Caspase-7]], [[Apoptosis]], [[Caspases|Caspase]], [[Gasdermin D]]
 - Suggested new entity notes to create: [[Caspase-6]], [[Apoptosome]]
 - Strong connections to strengthen: [[Executioner Caspase]] ↔ [[Senescence]] (resistance to executioner-mediated clearance)

@@ -13,10 +13,10 @@ aliases: [p89 PARP1, 89 kDa PARP1 Cleavage Fragment, PARP1 p89]
 
 # 89-kDa PARP1 Fragment
 
-The **89-kDa PARP1 fragment** (p89) is the C-terminal catalytic product of caspase-3/7 cleavage of full-length 116-kDa [[PARP1]] (Asp214/Gly215, separating DNA-binding from catalytic domains). Classically viewed as a pure inactivation event ensuring apoptotic energy conservation, 2025 work reframes p89 as an active signal: a cytoplasmic [[PAR]] carrier that induces [[AIF]]-mediated death, blurring the apoptosis↔parthanatos antagonism into cooperation.
+The **89-kDa PARP1 fragment** (p89) is the C-terminal catalytic product of caspase-3/7 cleavage of full-length 116-kDa [[PARP1]] (Asp214/Gly215, separating DNA-binding from catalytic domains). Classically viewed as a pure inactivation event ensuring apoptotic energy conservation, 2025 work reframes p89 as an active signal: a cytoplasmic [[PAR]] carrier that induces [[Apoptosis-Inducing Factor|AIF]]-mediated death, blurring the apoptosis↔parthanatos antagonism into cooperation.
 
 > [!info] p89 in one sentence
-> Apoptotic caspases cut [[PARP1]] to stop nuclear hyperactivation — but the released p89 fragment carries [[PAR]] to the cytoplasm to drive [[AIF]] signaling.
+> Apoptotic caspases cut [[PARP1]] to stop nuclear hyperactivation — but the released p89 fragment carries [[PAR]] to the cytoplasm to drive [[Apoptosis-Inducing Factor|AIF]] signaling.
 
 ## Overview
 
@@ -39,11 +39,11 @@ List of documents that mention this entity
 - [[Apoptosis]] — generating context (caspase-3/7); canonical inactivation model.
 - [[Parthanatos]] — receiving program via PAR–AIF signaling.
 - [[PAR]] — cargo carried by p89.
-- [[AIF]] — downstream effector recruited by p89-PAR.
+- [[Apoptosis-Inducing Factor|AIF]] — downstream effector recruited by p89-PAR.
 - [[Caspase-3]] — executing protease.
 
 ## Linking Summary
 
 - New note in src/notes/_link/ per parthanatos open-questions task recommendation.
-- New links added: [[PARP1]], [[Apoptosis]], [[Parthanatos]], [[PAR]], [[AIF]], [[Caspase-3]].
+- New links added: [[PARP1]], [[Apoptosis]], [[Parthanatos]], [[PAR]], [[Apoptosis-Inducing Factor|AIF]], [[Caspase-3]].
 - Strong connections to strengthen: [[89-kDa PARP1 Fragment]] ↔ [[PARP1]], [[89-kDa PARP1 Fragment]] ↔ [[Parthanatos]].

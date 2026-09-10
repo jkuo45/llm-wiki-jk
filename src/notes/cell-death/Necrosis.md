@@ -63,7 +63,7 @@ Cytosolic [[Calcium]] overload activates [[Calpains]] — Ca2+-dependent cystein
 
 ### Lysosomal membrane permeabilization
 
-Lysosomal membrane permeabilization ([[LMP]]) releases hydrolytic [[Cathepsins]] (B, D, L) into cytosol. [[Cathepsin B]] and [[Cathepsin D]] amplify death by cleaving [[Bid]] to tBid, activating [[Caspase]] cascades, and degrading structures — a point of no return.
+Lysosomal membrane permeabilization ([[LMP]]) releases hydrolytic [[Cathepsins]] (B, D, L) into cytosol. [[Cathepsin B]] and [[Cathepsin D]] amplify death by cleaving [[Bid]] to tBid, activating [[Caspases|Caspase]] cascades, and degrading structures — a point of no return.
 
 ## Pathophysiology: DAMP release and sterile inflammation
 
@@ -127,7 +127,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Autolysis]], [[Oncosis]], [[Damage-Associated Molecular Patterns]], [[Na+/K+-ATPase]], [[Ca2+ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Mitochondrial Permeability Transition Pore|mPTP]], [[Cytochrome c]], [[LMP]], [[Cathepsin B]], [[Cathepsin D]], [[Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1beta]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]], [[Metastasis]], [[Pyroptosis]], [[Adrenochrome]], [[Cardiotoxicity]]
+- New links added: [[Autolysis]], [[Oncosis]], [[Damage-Associated Molecular Patterns]], [[Na+/K+-ATPase]], [[Ca2+ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Mitochondrial Permeability Transition Pore|mPTP]], [[Cytochrome c]], [[LMP]], [[Cathepsin B]], [[Cathepsin D]], [[Caspases|Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1beta]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]], [[Metastasis]], [[Pyroptosis]], [[Adrenochrome]], [[Cardiotoxicity]]
 - Suggested new entity notes to create: [[Regulated necrosis]], [[Lysosomal membrane permeabilization]], [[TLR2]], [[TLR4]], [[RAGE]], [[P2X7 Receptor]], [[NLRP3 Inflammasome]], [[cGAS-STING Pathway]], [[S100 proteins]], [[Calreticulin]], [[SERCA]], [[Xanthine Oxidase]], [[Electron Transport Chain]], [[Complex I]]
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Necrosis]], [[Adrenochrome]] ↔ [[Cardiomyocytes]], [[Inflammation]] ↔ [[Necrosis]], [[Necrosis]] ↔ [[Apoptosis]], [[Necrosis]] ↔ [[Necroptosis]]
 - Sex-bias note (2026-09-03): no verified intrinsic sex bias for accidental necrosis; dimorphism tracked to regulated executors ([[Necroptosis]], [[Pyroptosis]]).

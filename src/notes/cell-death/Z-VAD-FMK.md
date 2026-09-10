@@ -31,7 +31,7 @@ Z-VAD-FMK contains a fluoromethylketone (FMK) moiety that reacts with the active
 ## Connections
 
 - [[Apoptosis]] — Z-VAD-FMK blocks caspase-dependent apoptosis
-- [[Caspase]] — Inhibition target
+- [[Caspases|Caspase]] — Inhibition target
 - [[Necrostatin-1]] — Used in combination for cell death discrimination
 - [[Ferrostatin-1]] — Used in combination for cell death discrimination
 - [[Necroptosis]] — Not inhibited by Z-VAD-FMK
@@ -40,5 +40,5 @@ Z-VAD-FMK contains a fluoromethylketone (FMK) moiety that reacts with the active
 
 ## Linking Summary
 
-- New links added: [[Apoptosis]], [[Caspase]], [[Necrostatin-1]], [[Ferrostatin-1]], [[Necroptosis]], [[Ferroptosis]], [[Adrenochrome]]
-- Strong connections to strengthen: [[Z-VAD-FMK]] ↔ [[Apoptosis]], [[Z-VAD-FMK]] ↔ [[Caspase]]
+- New links added: [[Apoptosis]], [[Caspases|Caspase]], [[Necrostatin-1]], [[Ferrostatin-1]], [[Necroptosis]], [[Ferroptosis]], [[Adrenochrome]]
+- Strong connections to strengthen: [[Z-VAD-FMK]] ↔ [[Apoptosis]], [[Z-VAD-FMK]] ↔ [[Caspases|Caspase]]

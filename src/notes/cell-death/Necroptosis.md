@@ -131,6 +131,6 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 ## Linking Summary
 
 - New links added: [[RIPK1]], [[RIPK3]], [[MLKL]], [[Caspase-8]], [[c-FLIP]], [[FADD]], [[TRADD]], [[TNFR1]], [[TNFα]], [[ZBP1]], [[PGAM5]], [[Necrosis]], [[Apoptosis]], [[Pyroptosis]], [[Ferroptosis]], [[Mitophagy]], [[NLRP3]], [[Inflammation]], [[Necrostatin-1]], [[NF-κB]], [[SIRT3]], [[Regulated Cell Death]], [[Damage-Associated Molecular Patterns]], [[TLR3]], [[TLR4]], [[DRP1]], [[PINK1]], [[Parkin]], [[CYLD]], [[TAK1]], [[ACSL4]], [[Metastasis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[MAVS]]
-- Suggested new entity notes to create: [[RHIM domain]], [[Complex I (TNFR1)]], [[Complex IIa (RIPK1)]], [[GSK872]], [[Necrosulfonamide]]
+- Suggested new entity notes to create: [[RHIM domain]], [[TNFR1 complex I]], [[Complex IIa (RIPK1)]], [[GSK872]], [[Necrosulfonamide]]
 - Strong connections to strengthen: [[Necroptosis]] ↔ [[RIPK3]], [[Necroptosis]] ↔ [[MLKL]], [[Necroptosis]] ↔ [[Caspase-8]], [[Necroptosis]] ↔ [[PGAM5]], [[Necroptosis]] ↔ [[NLRP3]]
 - Sex-dimorphism enrichment (2026-09-03): male-biased RIPK1/RIPK3/p-MLKL in renal IRI, OVX-narrowed (Tran 2025, single-study, no KO causality); cardiac/cerebral/testosterone/X-linked claims excluded as unverified.

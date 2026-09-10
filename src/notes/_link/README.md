@@ -365,7 +365,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Vasopressin]] | Protein | Posterior-pituitary peptide hormone regulating water homeostasis and vasoconstriction; implicated in brain aging, redox stress, and autophagy modulation. |
 | [[VCP]] | Protein | Valosin-containing protein that induces excessive mitophagy in Huntington's disease by binding to mutant huntingtin, leading to neuronal death. |
 | [[VDAC]] | Protein | Overview: VDAC is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
-| [[VDAC1]] | Protein | Overview: VDAC1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
+| [[VDAC|VDAC1]] | Protein | Overview: VDAC1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
 | [[VHL]] | Protein | Overview: VHL is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell ... |
 | [[Vimentin]] | Protein | Vimentin is a type III intermediate filament protein that provides structural support to the cytoskeleton and is involved in cell integrity, motility, autophagy, vesicle trafficking, and proteostasis. |
 | [[WNT16B]] | Protein | A Wnt ligand and canonical SASP factor secreted by therapy-damaged stromal cells that promotes cancer therapy resistance; its expression is suppressed by apigenin. |
@@ -404,7 +404,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[BACE1]] | Enzyme | Catalytic function: BACE1 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[BRAF]] | Enzyme | BRAF (B-Raf Proto-Oncogene, Serine/Threonine Kinase) is a protein kinase in the RAS-RAF-MEK1/2-ERK1/2 (MAPK/ERK pathway) signaling cascade that regulates Cell Proliferation, Differentiation, and Su... |
 | [[Calpain]] | Enzyme | Catalytic function: Calpain is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
-| [[Caspase]] | Enzyme | A family of cysteine aspartate-specific proteases that orchestrate inflammation or, in the apoptotic class, the proteolytic execution of programmed cell death. |
+| [[Caspases|Caspase]] | Enzyme | A family of cysteine aspartate-specific proteases that orchestrate inflammation or, in the apoptotic class, the proteolytic execution of programmed cell death. |
 | [[Caspase-11]] | Enzyme | Mouse inflammatory caspase of the non-canonical inflammasome; detects cytosolic LPS, cleaves gasdermin D to form pyroptotic pores, and participates in IL-1α processing relevant to the SASP. |
 | [[Caspase-3]] | Enzyme | Primary executioner (effector) caspase of apoptosis; cleaves a wide array of cellular substrates to dismantle the cell and serves as the convergence point of intrinsic and extrinsic apoptotic pathw... |
 | [[Caspase-4]] | Enzyme | Human inflammatory (non-canonical) caspase; cytosolic sensor of Gram-negative bacterial LPS that cleaves gasdermin D to form pyroptotic pores, and a paralog of Caspase-5 with overlapping non-canoni... |

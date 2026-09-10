@@ -15,7 +15,7 @@ aliases: [Protein Aggregation Disease]
 
 ## Cytosolic dsDNA Generation
 
-The most consistent source of activating DNA across proteinopathies is leakage of [[mtDNA]] from [[Mitochondrial Dysfunction|damaged or stressed mitochondria]], often via [[Mitochondrial Permeability Transition Pore|mPTP]]/[[VDAC1]] opening or [[BAX|Bax]]-mediated [[Mitochondrial outer membrane permeabilization|outer membrane permeabilization]]. Nuclear [[DNA Damage|DNA damage]] provides an additional, albeit less universal, source of cytosolic dsDNA. Once in the cytosol, this self-DNA engages cGAS, driving [[Type I Interferon|IFN-I]] and [[Cytokines|cytokine]] production through [[IRF3]] and [[NF-κB|NF-κB]]. Different pathogenic proteins engage distinct mitochondrial release mechanisms that are both cell-type specific and trigger dependent.
+The most consistent source of activating DNA across proteinopathies is leakage of [[mtDNA]] from [[Mitochondrial Dysfunction|damaged or stressed mitochondria]], often via [[Mitochondrial Permeability Transition Pore|mPTP]]/[[VDAC|VDAC1]] opening or [[BAX|Bax]]-mediated [[Mitochondrial outer membrane permeabilization|outer membrane permeabilization]]. Nuclear [[DNA Damage|DNA damage]] provides an additional, albeit less universal, source of cytosolic dsDNA. Once in the cytosol, this self-DNA engages cGAS, driving [[Type I Interferon|IFN-I]] and [[Cytokines|cytokine]] production through [[IRF3]] and [[NF-κB|NF-κB]]. Different pathogenic proteins engage distinct mitochondrial release mechanisms that are both cell-type specific and trigger dependent.
 
 ## The Tau–PQBP1 Exception
 

@@ -3,10 +3,10 @@ title: VDAC
 description: 'Overview: VDAC is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell...'
 protected: true
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-10
 tags:
   - protein
-aliases: [Voltage-Dependent Anion Channel, Porin]
+aliases: [Voltage-Dependent Anion Channel, Porin, VDAC1, Voltage-Dependent Anion Channel 1]
 
 ---
 

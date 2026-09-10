@@ -46,12 +46,12 @@ List of documents that mention this entity
 - [[VDAC]] — mitochondrial anchor; dissociation couples glycolysis to OXPHOS failure.
 - [[Glycolysis]] — pathway gated at its first step.
 - [[NAD+]] — HK block precedes and is independent of NAD+ loss (FK866/NR controls).
-- [[AIF]] — parallel death arm; hypothesized AIF–HK interaction untested.
+- [[Apoptosis-Inducing Factor|AIF]] — parallel death arm; hypothesized AIF–HK interaction untested.
 - [[Hexokinase 2]] — paralog; cancer isoform, distinct regulation.
 
 ## Linking Summary
 
 - New note in src/notes/_link/ resolving orphan [[Hexokinase-1]] links from [[Parthanatos]] and [[PAR]].
-- New links added: [[Glycolysis]], [[VDAC]], [[PAR]], [[PARP1]], [[PARG]], [[NAD+]], [[AIF]], [[Hexokinase 2]], [[Parthanatos]].
+- New links added: [[Glycolysis]], [[VDAC]], [[PAR]], [[PARP1]], [[PARG]], [[NAD+]], [[Apoptosis-Inducing Factor|AIF]], [[Hexokinase 2]], [[Parthanatos]].
 - Suggested new entity notes to create: none (VDAC stub if orphan audit flags it).
 - Strong connections to strengthen: [[Hexokinase-1]] ↔ [[PAR]], [[Hexokinase-1]] ↔ [[Parthanatos]], [[Hexokinase-1]] ↔ [[VDAC]].

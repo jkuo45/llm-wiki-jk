@@ -3,7 +3,7 @@ title: TNFR1 complex I
 description: The membrane-bound TNFR1 signaling complex of TRADD, RIPK1, TRAF2 and cIAPs that drives NF-kB/MAPK survival output and induces c-FLIP before any death decision is made.
 protected: true
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-10
 tags:
   - protein-complex
   - cell-death
@@ -11,7 +11,7 @@ tags:
   - inflammation
 url: #
 source: #
-aliases: [TNFR1 Complex I, complex I, TNF complex I, TNFR1 survival complex]
+aliases: [TNFR1 Complex I, complex I, TNF complex I, TNFR1 survival complex, Death receptor Complex I, TNF Receptor Signaling Complex]
 ---
 
 # TNFR1 complex I
@@ -57,6 +57,9 @@ output to survive their own TNF during infection.
   otherwise survivable TNF exposure into [[TNFR1 complex II]]-mediated [[Apoptosis]] — a
   chemosensitization principle.
 
+> [!info] Mitochondrial namesake — consolidated from Complex I (TNFR1).md
+> Distinct from mitochondrial respiratory [[Complex I]] (NADH:ubiquinone oxidoreductase) — same numeral, unrelated machine. Complex I is the "first choice" (live) of the three-way TNFR1 decision.
+
 ## Documents
 
 - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
@@ -72,6 +75,12 @@ output to survive their own TNF during infection.
 - [[c-FLIP]] — the induced brake carried into complex II
 - [[TNFR1 complex II]] — the death-competent successor
 - [[Ripoptosome]] — the receptor-independent counterpart
+- [[Necroptosis]] — Complex I is the survival gate whose dissolution starts the march toward the necrosome.
+- [[TNFα]] — ligand initiating Complex I assembly at TNFR1.
+- [[NF-κB]] — Complex I survival output; its blockade licenses Complex II/necrosome formation.
+- [[RIPK1]] — scaffold subunit whose ubiquitination state is the branch-point switch.
+- [[TNFR1 complex II]] — successor death complex after deubiquitination.
+- [[Complex I]] — unrelated mitochondrial namesake; disambiguation anchor.
 
 ## Linking Summary
 
@@ -81,3 +90,10 @@ output to survive their own TNF during infection.
 - Suggested new entity notes to create: [[LUBAC]], [[TAK1]]
 - Strong connections to strengthen: [[TNFR1 complex I]] ↔ [[TNFR1 complex II]],
   [[TNFR1 complex I]] ↔ [[RIPK1]]
+
+## Linking Summary (Consolidated from Complex I (TNFR1).md)
+
+- New note in src/notes/_link/ as cross-topic entity (table audit 2026-09-03: Core-machinery coverage for the cell-death comparison page).
+- New links added: [[Necroptosis]], [[TNFα]], [[NF-κB]], [[RIPK1]], [[TNFR1 complex II]], [[Complex I]].
+- Suggested new entity notes to create: [[TRADD]], [[TNFR1]].
+- Strong connections to strengthen: [[TNFR1 complex I]] ↔ [[Necroptosis]], [[TNFR1 complex I]] ↔ [[TNFR1 complex II]].

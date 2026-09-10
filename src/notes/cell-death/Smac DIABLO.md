@@ -14,7 +14,7 @@ aliases: [DIABLO, Second Mitochondria-Derived Activator of Caspases, Smac-DIABLO
 
 # Smac DIABLO
 
-**Smac/DIABLO** (second mitochondria-derived activator of caspases) is a pro-apoptotic mitochondrial protein that promotes [[Caspase]] activation by neutralizing [[Inhibitor of Apoptosis Proteins]] (IAPs). Its function parallels that of [[Omi-HtrA2]].
+**Smac/DIABLO** (second mitochondria-derived activator of caspases) is a pro-apoptotic mitochondrial protein that promotes [[Caspases|Caspase]] activation by neutralizing [[Inhibitor of Apoptosis Proteins]] (IAPs). Its function parallels that of [[Omi-HtrA2]].
 
 ## Mechanism
 

@@ -41,13 +41,13 @@ Because DNA fragmentation is a late, definitive step in apoptosis, the ICAD/CAD 
 - [[Caspase-3]]: Executioner caspase that cleaves ICAD to activate CAD.
 - [[Apoptosis]]: The cell death program in which ICAD cleavage executes DNA fragmentation.
 - [[Executioner Caspase]]: The broader class of caspases that process ICAD.
-- [[Caspase]]: Protease family to which the ICAD-cleaving enzymes belong.
+- [[Caspases|Caspase]]: Protease family to which the ICAD-cleaving enzymes belong.
 - [[Nucleus]]: Compartment where CAD acts on DNA after ICAD cleavage.
 - [[p53]]: Upstream regulator of apoptosis that can engage the executioner cascade.
 
 ## Linking Summary
 
-- New links added: [[Caspase-3]], [[Apoptosis]], [[Executioner Caspase]], [[Caspase]], [[Nucleus]], [[p53]]
+- New links added: [[Caspase-3]], [[Apoptosis]], [[Executioner Caspase]], [[Caspases|Caspase]], [[Nucleus]], [[p53]]
 - Suggested new entity notes to create: [[Caspase-Activated DNase]], [[DFF40]]
 - Strong connections to strengthen:
     - [[Caspase-3]] ↔ [[ICAD]]

@@ -24,11 +24,11 @@ Core death machinery lives here per §7 (topic home outranks `_link/`; all notes
 
 Modalities: [[Regulated Cell Death]], [[Apoptosis]], [[Apoptotic Bodies]], [[Apoptosome]], [[Necroptosis]], [[necrosome]], [[Necrosis]], [[Secondary Necrosis]], [[Parthanatos]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagic Cell Death]].
 
-Caspases: [[Caspase]], [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
+Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
 
-BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[VDAC1]], [[AIF]], [[AIFM2]], [[Apoptosis-Inducing Factor]].
+BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[Apoptosis-Inducing Factor]], [[AIFM2]].
 
-Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[Complex I (TNFR1)]], [[Complex II (TNFR1)]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
+Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
 
 PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]].
 

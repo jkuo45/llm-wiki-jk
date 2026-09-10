@@ -61,7 +61,7 @@ PARP1 hyperactivation is also implicated in ischemia–reperfusion injury. Durin
 
 ### Sex-dimorphic PARP-1/AIF death
 
-The nNOS → PARP-1 → PAR → [[AIF]] cascade is the sexually dimorphic death switch in ischemic brain: males die via PARP/AIF caspase-independent death, females via caspase-mediated death with higher cleaved caspase-3 (Li et al. 2005, *Ann Neurol* 58:317–321; Liu et al. 2009, *Stroke* 40:1842–1848, PMID 19265047). In females PARP-1 is protective, not toxic: its loss shunts females toward enhanced cytochrome-c release and caspase-9/-3 activation, reversible by pan-caspase inhibition (*Stroke* 2011;42:739–745, PMID 21311064). PARP inhibitors, nNOS inhibitors, and related preconditioning protect males but worsen or fail in females even after ovariectomy, so preclinical neuroprotection must stratify by sex. Proposed female-side brakes (estrogen-receptor crosstalk, X-linked inhibitor dosage) remain hypotheses. See [[Parthanatos]] and [[Apoptosis]] for the graded evidence.
+The nNOS → PARP-1 → PAR → [[Apoptosis-Inducing Factor|AIF]] cascade is the sexually dimorphic death switch in ischemic brain: males die via PARP/AIF caspase-independent death, females via caspase-mediated death with higher cleaved caspase-3 (Li et al. 2005, *Ann Neurol* 58:317–321; Liu et al. 2009, *Stroke* 40:1842–1848, PMID 19265047). In females PARP-1 is protective, not toxic: its loss shunts females toward enhanced cytochrome-c release and caspase-9/-3 activation, reversible by pan-caspase inhibition (*Stroke* 2011;42:739–745, PMID 21311064). PARP inhibitors, nNOS inhibitors, and related preconditioning protect males but worsen or fail in females even after ovariectomy, so preclinical neuroprotection must stratify by sex. Proposed female-side brakes (estrogen-receptor crosstalk, X-linked inhibitor dosage) remain hypotheses. See [[Parthanatos]] and [[Apoptosis]] for the graded evidence.
 
 PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine expression, positioning it as a potential target in chronic inflammatory conditions. In the [[SASP|senescence-associated secretory phenotype]], the ATM–PARP1–IKK axis is acutely activated in advance of NF-κB signaling; PARP1 was initially shown to mediate NF-κB-associated SASP, with [[IκBζ]] acting as a selective co-activator for a subset of SASP genes (IL6, IL8). PARP inhibitors have demonstrated anti-inflammatory effects in models of arthritis, colitis, and endotoxemia.
 
@@ -108,7 +108,7 @@ The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regula
 ## Linking Summary
 
 - New links added: [[PARP2]], [[NAD+]], [[DNA Repair]], [[BRCA1]], [[XRCC1]], [[ATM]], [[PARP inhibitors]], [[Apoptosis]], [[Chromatin]], [[NF-κB]], [[Inflammation]], [[DNA Damage]], [[Histone Modification]], [[Oxidative Stress]], [[ATP]], [[SIRT1]], [[CD38]], [[SARM1]], [[Sirtuins]], [[cGAS]], [[OGG1]], [[SASP]], [[Autophagy]], [[Olaparib]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[Ischemia-reperfusion Injury]], [[Caspase-3]]
-- Suggested new entity notes to create: [[PARG]], [[Parthanatos]], [[AIF]]
+- Suggested new entity notes to create: [[PARG]], [[Parthanatos]], [[Apoptosis-Inducing Factor|AIF]]
 - Strong connections to strengthen:
   - [[PARP1]] ↔ [[NAD+]] — substrate competition across the NAD⁺ consumer network (CD38, SARM1, sirtuins)
   - [[PARP1]] ↔ [[SIRT1]] — metabolic crosstalk via NAD⁺ competition and PARP2-mediated transcriptional repression

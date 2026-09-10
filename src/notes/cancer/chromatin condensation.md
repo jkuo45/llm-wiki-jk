@@ -32,10 +32,10 @@ List of documents that mention this entity
 ## Connections
 - [[Apoptosis]]: A defining structural change during programmed death.
 - [[Caspase-6]]: A protease that triggers condensation via lamin cleavage.
-- [[AIF]]: A mitochondrial factor that induces condensation in a caspase-independent manner.
+- [[Apoptosis-Inducing Factor|AIF]]: A mitochondrial factor that induces condensation in a caspase-independent manner.
 - [[Necrosis]]: Contrast with the nuclear morphology of necrotic death.
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[Caspase-3]], [[Caspase-6]], [[AIF]], [[Necrosis]]
-- Suggested new entity notes to create: [[AIF]]
+- New links added: [[Apoptosis]], [[Caspase-3]], [[Caspase-6]], [[Apoptosis-Inducing Factor|AIF]], [[Necrosis]]
+- Suggested new entity notes to create: [[Apoptosis-Inducing Factor|AIF]]
 - Strong connections to strengthen: [[chromatin condensation]] ↔ [[Apoptosis]]

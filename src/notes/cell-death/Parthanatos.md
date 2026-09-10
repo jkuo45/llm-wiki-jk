@@ -14,16 +14,16 @@ aliases: [PARP-1-dependent cell death, PAR-mediated cell death]
 
 # Parthanatos
 
-**Parthanatos** (PAR + Thanatos) is the [[PARP1]]-dependent regulated death defined by hyperactivated [[PARP1]] -> toxic poly(ADP-ribose) ([[PAR]]) accumulation -> [[PAR]] binding to mitochondrial [[AIF]] -> [[AIF]] release and co-translocation with [[MIF]] (PAAN) to nucleus -> large-scale DNA fragmentation. It is caspase-independent, obligately [[PARP1]]-dependent, and distinct from [[Apoptosis]], [[Necrosis]], [[Necroptosis]], [[Ferroptosis]], and [[Pyroptosis]].
+**Parthanatos** (PAR + Thanatos) is the [[PARP1]]-dependent regulated death defined by hyperactivated [[PARP1]] -> toxic poly(ADP-ribose) ([[PAR]]) accumulation -> [[PAR]] binding to mitochondrial [[Apoptosis-Inducing Factor|AIF]] -> [[Apoptosis-Inducing Factor|AIF]] release and co-translocation with [[MIF]] (PAAN) to nucleus -> large-scale DNA fragmentation. It is caspase-independent, obligately [[PARP1]]-dependent, and distinct from [[Apoptosis]], [[Necrosis]], [[Necroptosis]], [[Ferroptosis]], and [[Pyroptosis]].
 
 > [!info] Parthanatos in one sentence
-> Severe DNA damage hyperactivates [[PARP1]] to make long branched [[PAR]]; [[PAR]] exits nucleus via histone H1.2, hits cytosol/mitochondria to inhibit [[Hexokinase-1]] and to bind [[AIF]] at Arg588/Lys589/Arg592, releasing [[AIF]] to recruit [[MIF]] nuclease to nucleus for chromatinolysis.
+> Severe DNA damage hyperactivates [[PARP1]] to make long branched [[PAR]]; [[PAR]] exits nucleus via histone H1.2, hits cytosol/mitochondria to inhibit [[Hexokinase-1]] and to bind [[Apoptosis-Inducing Factor|AIF]] at Arg588/Lys589/Arg592, releasing [[Apoptosis-Inducing Factor|AIF]] to recruit [[MIF]] nuclease to nucleus for chromatinolysis.
 
 ## Overview
 
-Unlike apoptosis (caspase ladder, silent) and accidental necrosis (ATP collapse, swelling), parthanatos shows: loss of membrane integrity + phosphatidylserine externalization **without** cell swelling or apoptotic bodies, mitochondrial depolarization with early [[AIF]] release **preceding** cytochrome c, ~50-kb large-scale fragmentation, Annexin V+/PI+, energy-independent in classic table, and strict rescue by [[PARP1]] deletion/inhibition but not by z-VAD-fmk.
+Unlike apoptosis (caspase ladder, silent) and accidental necrosis (ATP collapse, swelling), parthanatos shows: loss of membrane integrity + phosphatidylserine externalization **without** cell swelling or apoptotic bodies, mitochondrial depolarization with early [[Apoptosis-Inducing Factor|AIF]] release **preceding** cytochrome c, ~50-kb large-scale fragmentation, Annexin V+/PI+, energy-independent in classic table, and strict rescue by [[PARP1]] deletion/inhibition but not by z-VAD-fmk.
 
-Gold-standard models: MNNG 50-500 uM 5-25 min in HeLa/CHO/MEFs; NMDA 500 uM 5 min in cortical neurons; H2O2, NO, peroxynitrite, oxygen-glucose deprivation. Harlequin mice (80% [[AIF]] reduction) resist NMDA/[[PAR]] but develop oxidative neurodegeneration, proving [[AIF]] bifunctionality.
+Gold-standard models: MNNG 50-500 uM 5-25 min in HeLa/CHO/MEFs; NMDA 500 uM 5 min in cortical neurons; H2O2, NO, peroxynitrite, oxygen-glucose deprivation. Harlequin mice (80% [[Apoptosis-Inducing Factor|AIF]] reduction) resist NMDA/[[PAR]] but develop oxidative neurodegeneration, proving [[Apoptosis-Inducing Factor|AIF]] bifunctionality.
 
 ## Core cascade
 
@@ -33,16 +33,16 @@ Glutamate excitotoxicity (NMDA -> Ca2+ -> calmodulin -> nNOS -> NO + superoxide 
 
 ### 2. [[PAR]] generation and export
 
-[[PAR]] peaks nuclear/cytosolic at 15 min, mitochondrial at 30 min (COX1 colocalization), ~80 nM at 60 min -> ~60% neuronal death. Purified [[PAR]] delivered by lipid carrier kills dose/length-dependently, blocked by [[PARG]]/phosphodiesterase, not z-VAD. Carrier is PARylated histone H1.2; E3 ligase [[Iduna]] (RNF146) ubiquitinates H1.2 to block export. PAR-binding motif on [[AIF]]-D3 (Arg588/Lys589/Arg592) separate from DNA-binding site; mutation retains oxidase/DNA binding but blocks release/death.
+[[PAR]] peaks nuclear/cytosolic at 15 min, mitochondrial at 30 min (COX1 colocalization), ~80 nM at 60 min -> ~60% neuronal death. Purified [[PAR]] delivered by lipid carrier kills dose/length-dependently, blocked by [[PARG]]/phosphodiesterase, not z-VAD. Carrier is PARylated histone H1.2; E3 ligase [[Iduna]] (RNF146) ubiquitinates H1.2 to block export. PAR-binding motif on [[Apoptosis-Inducing Factor|AIF]]-D3 (Arg588/Lys589/Arg592) separate from DNA-binding site; mutation retains oxidase/DNA binding but blocks release/death.
 
 ### 3. Cytosolic dual hit
 
 - **Bioenergetics:** [[PAR]] binds/inhibits [[Hexokinase-1]], releases it from mitochondria -> glycolysis block, [[NAD+]]/ATP depletion, PPP/GSH/NADPH fall. Pyruvate/alpha-ketoglutarate bypass rescues in astrocyte models; cortical/glioblastoma models show NAD+ loss alone insufficient, HK-1 block primary. Salvage cost 4 ATP per ADP-ribose plus Nudix AMP -> AMPK-mTORC1 signaling adds autophagic overlay.
-- **Death:** [[PAR]] binds extramitochondrial [[AIF]] pool (20-30% on outer membrane cytosolic side) -> conformational release. Mature [[AIF]] 62 kDa (67 kDa precursor, Met53/Ala54 cleavage), intermembrane + outer pool; 62->57 kDa calpain cleavage seen in ischemia but dispensable for canonical parthanatos.
+- **Death:** [[PAR]] binds extramitochondrial [[Apoptosis-Inducing Factor|AIF]] pool (20-30% on outer membrane cytosolic side) -> conformational release. Mature [[Apoptosis-Inducing Factor|AIF]] 62 kDa (67 kDa precursor, Met53/Ala54 cleavage), intermembrane + outer pool; 62->57 kDa calpain cleavage seen in ischemia but dispensable for canonical parthanatos.
 
-### 4. [[AIF]]-[[MIF]] nuclear chromatinolysis
+### 4. [[Apoptosis-Inducing Factor|AIF]]-[[MIF]] nuclear chromatinolysis
 
-Cytosolic [[AIF]] binds [[MIF]] (PAAN, PD-D/E(X)K nuclease, E22 critical, tautomerase-independent). [[HDAC6]] keeps [[MIF]] deacetylated to permit binding; [[HDAC6]] inhibition -> acetylation -> no translocation. Co-translocation; [[MIF]] endo+exonuclease on ssDNA, [[AIF]] boosts DNA affinity. Alternative AIF-CypA-H2AX nuclease proposed; EndoG ruled out in mammals. HSP70 (aa 150-228, ATPase) sequesters [[AIF]] cytosolically as brake.
+Cytosolic [[Apoptosis-Inducing Factor|AIF]] binds [[MIF]] (PAAN, PD-D/E(X)K nuclease, E22 critical, tautomerase-independent). [[HDAC6]] keeps [[MIF]] deacetylated to permit binding; [[HDAC6]] inhibition -> acetylation -> no translocation. Co-translocation; [[MIF]] endo+exonuclease on ssDNA, [[Apoptosis-Inducing Factor|AIF]] boosts DNA affinity. Alternative AIF-CypA-H2AX nuclease proposed; EndoG ruled out in mammals. HSP70 (aa 150-228, ATPase) sequesters [[Apoptosis-Inducing Factor|AIF]] cytosolically as brake.
 
 ## Regulation
 
@@ -57,7 +57,7 @@ Primary death in post-mitotic neurons: stroke/MCAO (minutes-scale [[PAR]]/NO; PA
 
 ## Sex dimorphism
 
-Ischemic parthanatos signaling is sexually dimorphic. In adult mouse MCAO, PARP-1 deletion, nNOS blockade, or PARP inhibition (7-nitroindazole; PJ-34) reduces infarct in males but worsens injury in females, and PARP-1 loss abolishes 17β-estradiol neuroprotection — estradiol replacement paradoxically increases infarction in PARP-1−/− ovariectomized females (McCullough et al. 2005, *J Cereb Blood Flow Metab*, PMID 15689952). PAR formation and nuclear [[AIF]] translocation occur in both sexes, but kill only males: PARP-1 deletion suppresses PAR/AIF equally yet protects males only, and Harlequin AIF-deficient adults are protected in males only (Yuan et al. 2009, *Exp Neurol* 217:210–218). The neonatal pattern matches — PARP-1 disruption preferentially protects males from perinatal hypoxia-ischemia (Hagberg et al. 2004, *J Neurochem* 90:1068–1075), while females die via cytochrome-c/caspase-3, rescued by the pan-caspase inhibitor Q-VD-OPh in females only (*Stroke* 2011;42:739–745). Sex-chromosome complement alone recapitulates the split in vitro: XY neurons favor AIF-mediated caspase-independent death, XX neurons cytochrome-c/caspase death (Du et al. 2004, *J Biol Chem* 279:38563–38570). Caveat: neonatal Harlequin protection is additive with caspase inhibition in both sexes (Zhu et al. 2006, *Cell Death Differ*), so the male-selective AIF effect is adult-specific and model-dependent. No verified sex difference exists for the [[MIF]]/PAAN nuclease step. See also [[Apoptosis]] for the XX-caspase counterpart.
+Ischemic parthanatos signaling is sexually dimorphic. In adult mouse MCAO, PARP-1 deletion, nNOS blockade, or PARP inhibition (7-nitroindazole; PJ-34) reduces infarct in males but worsens injury in females, and PARP-1 loss abolishes 17β-estradiol neuroprotection — estradiol replacement paradoxically increases infarction in PARP-1−/− ovariectomized females (McCullough et al. 2005, *J Cereb Blood Flow Metab*, PMID 15689952). PAR formation and nuclear [[Apoptosis-Inducing Factor|AIF]] translocation occur in both sexes, but kill only males: PARP-1 deletion suppresses PAR/AIF equally yet protects males only, and Harlequin AIF-deficient adults are protected in males only (Yuan et al. 2009, *Exp Neurol* 217:210–218). The neonatal pattern matches — PARP-1 disruption preferentially protects males from perinatal hypoxia-ischemia (Hagberg et al. 2004, *J Neurochem* 90:1068–1075), while females die via cytochrome-c/caspase-3, rescued by the pan-caspase inhibitor Q-VD-OPh in females only (*Stroke* 2011;42:739–745). Sex-chromosome complement alone recapitulates the split in vitro: XY neurons favor AIF-mediated caspase-independent death, XX neurons cytochrome-c/caspase death (Du et al. 2004, *J Biol Chem* 279:38563–38570). Caveat: neonatal Harlequin protection is additive with caspase inhibition in both sexes (Zhu et al. 2006, *Cell Death Differ*), so the male-selective AIF effect is adult-specific and model-dependent. No verified sex difference exists for the [[MIF]]/PAAN nuclease step. See also [[Apoptosis]] for the XX-caspase counterpart.
 
 ## Tool compounds
 
@@ -65,18 +65,18 @@ Ischemic parthanatos signaling is sexually dimorphic. In adult mouse MCAO, PARP-
 |---|---|
 | [[PARP1]] hyperactivation | DPQ, DHIQ, benzamide/3-aminobenzamide, PJ34, veliparib, olaparib, INO-1001, 4'-methoxyflavone, 3',4'-dimethoxyflavone |
 | [[PAR]] signal | Anti-PAR antibodies, [[PARG]] overexpression, [[Iduna]] potentiation, crocetin via NOX2/HK-1 protection |
-| [[AIF]] release/translocation | No direct inhibitor; PAR-binding-dead AIF proof-of-concept, HSP70 overexpression, calpastatin in ischemia models |
-| [[AIF]]-[[MIF]] interaction | [[HDAC6]] inhibitors disrupt (acetylate [[MIF]]) |
+| [[Apoptosis-Inducing Factor|AIF]] release/translocation | No direct inhibitor; PAR-binding-dead AIF proof-of-concept, HSP70 overexpression, calpastatin in ischemia models |
+| [[Apoptosis-Inducing Factor|AIF]]-[[MIF]] interaction | [[HDAC6]] inhibitors disrupt (acetylate [[MIF]]) |
 | [[MIF]] nuclease | PAANIB-1 brain-penetrant selective inhibitor |
 | Bioenergetics | Pyruvate/alpha-ketoglutarate bypass, NR/NMN in permissive models, Ca2+ chelation in H2O2/renal I/R |
 
 > [!tip] Death-dissection panel
-> Combine PARP inhibitor (parthanatos) + z-VAD-FMK (apoptosis) + [[Necrostatin-1]] (necroptosis) + [[Ferrostatin-1]] (ferroptosis). Death blocked by PARP inhibition but not z-VAD implicates parthanatos; confirm with [[AIF]] nuclear translocation + [[PAR]] accumulation + NAD+ fall.
+> Combine PARP inhibitor (parthanatos) + z-VAD-FMK (apoptosis) + [[Necrostatin-1]] (necroptosis) + [[Ferrostatin-1]] (ferroptosis). Death blocked by PARP inhibition but not z-VAD implicates parthanatos; confirm with [[Apoptosis-Inducing Factor|AIF]] nuclear translocation + [[PAR]] accumulation + NAD+ fall.
 
 ## Crosstalk
 
-- **Parthanatos <-> [[Apoptosis]]:** mutual antagonism (NAD+/ATP switch; caspase cleavage of [[PARP1]]) plus cooperation nodes: calpain–BID–BAX–[[AIF]] axis (calpain-cleaved BID → tBID → BAX → AIF release, caspase-independent), [[89-kDa PARP1 Fragment]] as cytoplasmic PAR carrier driving AIF death (2025), HK1–VDAC dissociation lowering apoptotic threshold. [[AIF]] translocation in apoptosis likely epiphenomenon or PARP-dependent secondary.
-- **Parthanatos <-> [[Necroptosis]]:** both considered regulated necrosis subsets; TNF-alpha + [[PARP1]] ATP depletion links; but PAR/[[AIF]] signature unique.
+- **Parthanatos <-> [[Apoptosis]]:** mutual antagonism (NAD+/ATP switch; caspase cleavage of [[PARP1]]) plus cooperation nodes: calpain–BID–BAX–[[Apoptosis-Inducing Factor|AIF]] axis (calpain-cleaved BID → tBID → BAX → AIF release, caspase-independent), [[89-kDa PARP1 Fragment]] as cytoplasmic PAR carrier driving AIF death (2025), HK1–VDAC dissociation lowering apoptotic threshold. [[Apoptosis-Inducing Factor|AIF]] translocation in apoptosis likely epiphenomenon or PARP-dependent secondary.
+- **Parthanatos <-> [[Necroptosis]]:** both considered regulated necrosis subsets; TNF-alpha + [[PARP1]] ATP depletion links; but PAR/[[Apoptosis-Inducing Factor|AIF]] signature unique.
 - **Parthanatos <-> [[Autophagy]]:** AMPK-mTORC1 activation and autophagic figures in some models; protective vs executive role unresolved.
 - **Parthanatos <-> [[Ferroptosis]]:** shared ROS/JNK/MAPK/mTOR upstream, GSH/NADPH fall via HK-1/PPP; PARP activity during autophagy promotes ferroptosis in some models.
 - **Parthanatos -> inflammation:** [[PARP1]] co-activates NF-kB; fragmented DNA as DAMP -> cGAS-STING, AIM2, [[NLRP3]]; [[MIF]] drives NLRP3 IL-1beta and is PD/AD biomarker.
@@ -102,7 +102,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[PARP1]] — sensor/executor; hyperactivation defines parthanatos; target of DPQ/PJ34/veliparib/olaparib.
-- [[AIF]] — mitochondrial flavoprotein; PAR binding -> release -> nuclear commitment point; Hq model.
+- [[Apoptosis-Inducing Factor|AIF]] — mitochondrial flavoprotein; PAR binding -> release -> nuclear commitment point; Hq model.
 - [[PAR]] — polymer death signal; length/dose toxicity; H1.2-carried.
 - [[MIF]] — PAAN nuclease; E22-dependent AIF recruitment; PAANIB-1 target; PD/AD biomarker.
 - [[PARG]] — PAR eraser; overexpression protects, deletion lethal/sensitizing; context-dependent promoter/suppressor.
@@ -124,7 +124,7 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New note in src/notes/_link/ as cross-topic entity (apoptosis/oxidative-stress/sirtuins/neurodegeneration/cancer).
-- New links added: [[PAR]], [[MIF]], [[PARG]], [[Iduna]], [[Hexokinase-1]], [[Parthanatos]], [[Regulated Cell Death]], [[NLRP3]], [[SIRT1]], [[TRPM2]], [[HDAC6]], [[NAD+]], [[AIF]], [[PARP1]], [[Apoptosis]], [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagy]], [[Necrosis]].
+- New links added: [[PAR]], [[MIF]], [[PARG]], [[Iduna]], [[Hexokinase-1]], [[Parthanatos]], [[Regulated Cell Death]], [[NLRP3]], [[SIRT1]], [[TRPM2]], [[HDAC6]], [[NAD+]], [[Apoptosis-Inducing Factor|AIF]], [[PARP1]], [[Apoptosis]], [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagy]], [[Necrosis]].
 - Suggested new entity notes to create: [[PAR]], [[MIF]], [[PARG]], [[Iduna]], [[Hexokinase-1]], [[PAANIB-1]], [[H1.2]].
-- Strong connections to strengthen: [[Parthanatos]] <-> [[PARP1]], [[Parthanatos]] <-> [[AIF]], [[Parthanatos]] <-> [[MIF]], [[Parthanatos]] <-> [[NAD+]], [[Parthanatos]] <-> [[Apoptosis]] (sex-difference arm).
+- Strong connections to strengthen: [[Parthanatos]] <-> [[PARP1]], [[Parthanatos]] <-> [[Apoptosis-Inducing Factor|AIF]], [[Parthanatos]] <-> [[MIF]], [[Parthanatos]] <-> [[NAD+]], [[Parthanatos]] <-> [[Apoptosis]] (sex-difference arm).
 - Sex-dimorphism enrichment (2026-09-03): male-PARP/AIF vs female-caspase split across adult MCAO, neonatal HI, and XY/XX cultures (McCullough 2005; Yuan 2009; Hagberg 2004; Du 2004; Stroke 2011; Zhu 2006 caveat); no MIF/PAAN sex claim.
