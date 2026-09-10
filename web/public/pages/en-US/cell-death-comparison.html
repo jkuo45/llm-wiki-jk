@@ -182,7 +182,7 @@
               <td data-hl="">shrinkage, blebbing intact, apoptotic bodies, DNA ladder</td>
               <td data-hl="">Annexin V⁺/PI⁻, cleaved caspase-3, TUNEL, DNA ladder</td>
               <td data-hl="dna">extrinsic Caspase-8 → Caspase-3; intrinsic p53 → Bax / BAK → cytochrome c → Caspase-9 → Caspase-3; inhibited by Bcl-2 / XIAP</td>
-              <td data-hl="">Caspase-8 cleaves RIPK1/3 to block necroptosis; Caspase-3/7 cleave GSDMD to block pyroptosis</td>
+              <td data-hl="">Caspase-8 cleaves RIPK1/3 to block necroptosis; Caspase-3 cleaves GSDMD at D87 to inactivate it while activating GSDME — anti-GSDMD / pro-GSDME switch</td>
               <td data-hl="">silent, Annexin V+</td>
               <td data-hl="">z-VAD-FMK, Bcl-2</td>
               <td data-hl=""><b>↑</b> lymphocytes, neurons, cardiomyocytes (AICD, developmental pruning, MI) — <b>↓/n-a</b> RBCs, platelets (anucleate)</td>
@@ -226,7 +226,7 @@
               <td data-hl="lytic energy">TNFα → Complex I (NF-κB) → Complex II apoptosis → necrosome RIPK1 → RIPK3 → MLKL if Caspase-8 blocked; TRIF / ZBP1 bypass</td>
               <td data-hl="lytic energy">MLKL activates NLRP3 → pyroptosis; RIPK3–AMPK triggers early autophagy then blocks flux</td>
               <td data-hl="lytic">inflammatory by design, DAMP release</td>
-              <td data-hl="">Necrostatin-1, GSK872, necrosulfonamide</td>
+              <td data-hl="">Necrostatin-1, GSK872, necrosulfonamide (human MLKL only — inactive on mouse MLKL; RIPK1 / RIPK3 / human-MLKL respectively)</td>
               <td data-hl="lytic"><b>↑</b> intestinal epithelium, renal tubule, macrophages — <b>↓/n-a</b> RBCs (no RIPK3/MLKL), resting lymphocytes</td>
             </tr>
             <tr data-program="ferroptosis">
@@ -244,7 +244,7 @@
               <td data-hl="iron"><b>↑</b> renal proximal tubule, neurons, hepatocytes, cardiomyocytes — <b>↓</b> glycolytic / low-PUFA cells*</td>
             </tr>
             <tr data-program="autophagy">
-              <th scope="row"><b>Autophagy</b><span class="sub">survival → type-II death</span></th>
+              <th scope="row"><b>Autophagy</b><span class="sub">survival process; death only if ATG-dependent (NCCD criteria)</span></th>
               <td>Canonical Beclin-1/LC3 induction post-stroke; higher basal cardiac Beclin-1/LC3 (Campesi 2013); exhaustive exercise clears p62 only in young males</td>
               <td>Beclin-1-independent ATG7 route (Patrizz 2021); higher basal muscle autophagy/mitophagy, TFEB ~1.8×; E2 bidirectional (neuronal mTOR–ULK1 suppression vs ER+ pro-survival)</td>
               <td data-hl=""><span class="pill reg">regulated</span><br>yes, pro-survival; death only if excessive</td>
@@ -254,7 +254,7 @@
               <td data-hl="energy">ULK1–FIP200; Beclin-1–Vps34; Atg5-12-16L1 + LC3; TFEB via SIRT1</td>
               <td data-hl="lytic">PINK1 / Parkin mitophagy restrains necroptosis / NLRP3; Caspase-1 cleaves Parkin to break restraint</td>
               <td data-hl="">protective, clears DAMP sources</td>
-              <td data-hl="">3-MA / chloroquine; induced by rapamycin</td>
+              <td data-hl="">death requires rescue by ≥2 ATG interventions (e.g. ATG5/7 KO + 3-MA/CQ); LC3/p62 alone = flux, not death; induced by rapamycin</td>
               <td data-hl=""><b>↑</b> skeletal muscle, liver, neurons (TFEB/PINK1-Parkin dependent) — <b>↓/n-a</b> RBCs (no organelles)</td>
             </tr>
             <tr data-program="pyroptosis">
@@ -304,10 +304,10 @@
               <td>Higher NET burden reported in males in some infection/cardiovascular models — context-dependent, no cell-autonomous paradigm established</td>
               <td>E2 restrains NET formation in several models; no cell-autonomous XX/XY paradigm established</td>
               <td data-hl="lytic"><span class="pill reg">regulated</span><span class="pill lytic">lytic</span><br>yes — suicidal and vital forms</td>
-              <td data-hl="energy lytic">NADPH-oxidase-dependent ROS (suicidal); energy-dependent chromatin decondensation</td>
+              <td data-hl="energy lytic">mostly NADPH-oxidase-dependent ROS (suicidal); NOX-independent triggers exist; energy-dependent chromatin decondensation</td>
               <td data-hl="lytic dna">chromatin decondensation, nuclear envelope breakdown, NET extrusion (DNA + histones + elastase/MPO); suicidal form ruptures, vital form retains membrane</td>
               <td data-hl="lytic dna">extracellular DNA (Sytox Green), citrullinated histone H3 (cit-H3), MPO–DNA complexes</td>
-              <td data-hl="lytic dna">ROS → PAD4-mediated histone citrullination → chromatin unraveling → NET release; triggers: pathogens, LPS, PMA, immune complexes</td>
+              <td data-hl="lytic dna">NOX-ROS → largely PAD4-mediated histone citrullination (PAD4-independent / NOX-independent routes exist: NE-mediated, mito-ROS, ionomycin) → chromatin unraveling → NET release; triggers: pathogens, LPS, PMA, immune complexes</td>
               <td data-hl="lytic">NETs license NLRP3 / pyroptosis in macrophages; NET histones trigger platelet/coagulation cascades</td>
               <td data-hl="lytic">pro-inflammatory and pro-thrombotic: NET DNA/histones act as DAMPs</td>
               <td data-hl="lytic dna">PAD4 inhibitors (Cl-amidine), NE/MPO inhibition, DNase digestion of NETs</td>
@@ -500,7 +500,7 @@ const PROGRAMS = [
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR polymer <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>nucleus (large clumps)' },
  { id:'necrosis', title:'Necrosis', sub:'accidental · passive · ATP-depleted',
    pills:'<span class="pill acc">accidental</span>',
-   bioNote:'⏱ ≈20 min — fastest of the eight · 12 s loop (time-lapse)',
+   bioNote:'⏱ ≈20 min — fastest of the ten · 12 s loop (time-lapse)',
    phases:[[0,0,'injury — Na⁺/K⁺ pumps fail'],[2.5,4,'oncosis — water floods in, cell swells'],[5,9,'organelles swell · lysosomes leak'],[7,14,'membrane ruptures'],[8,18,'DAMP storm — HMGB1, ATP, uric acid']],
    steps:['Na⁺/K⁺ pumps fail — oncosis balloons the cell; mitochondria swell and pop, lysosomes leak.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
    labels:[
@@ -532,11 +532,11 @@ const PROGRAMS = [
     {text:'Fe²⁺ / ROS', pos:()=>[0.9,-0.78,0.5], show:(R,t)=>t>=2&&t<8},
     {text:'Peroxidized membrane', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
    legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>lipid-ROS patches <span class="legend-dot" style="background:#555"></span>shrunken mitochondria' },
- { id:'autophagy', title:'Autophagy', sub:'survival first — type-II death only if excessive',
+ { id:'autophagy', title:'Autophagy', sub:'survival process; death only if ATG-dependent (NCCD criteria)',
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈2 h starvation flux · one vesicle ≈10 min · 12 s loop (time-lapse)',
-   phases:[[0,0,'starvation — mTORC1 off, AMPK on'],[2.5,15,'phagophore crescents nucleate'],[5,35,'cargo engulfed — autophagosomes close'],[7.5,60,'fusion with lysosome → degrade'],[10,110,'cell recovers — survives']],
-   steps:['Starvation flips the switch — mTORC1 off, AMPK on; ULK1–FIP200 + Beclin-1–Vps34 nucleate.','Phagophore crescents grow, cup damaged cargo and close (LC3 lipidation).','Double-membrane autophagosomes ferry cargo to the lysosome.','Fusion flash — cargo degraded and recycled; cell survives unless flux overruns into type-II death.'],
+   phases:[[0,0,'starvation — mTORC1 off, AMPK on'],[2.5,15,'phagophore crescents nucleate'],[5,35,'cargo engulfed — autophagosomes close'],[7.5,60,'fusion with lysosome → degrade'],[10,110,'recovery — death only if ATG blockade rescues']],
+   steps:['Starvation flips the switch — mTORC1 off, AMPK on; ULK1–FIP200 + Beclin-1–Vps34 nucleate.','Phagophore crescents grow, cup damaged cargo and close (LC3 lipidation).','Double-membrane autophagosomes ferry cargo to the lysosome.','Fusion flash — cargo degraded and recycled; cell survives unless ATG blockade rescues — score as autophagy-dependent death only then.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.7,-0.8,0]},
@@ -558,7 +558,7 @@ const PROGRAMS = [
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>inflammasome/caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD pores <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
  { id:'panoptosis', title:'PANoptosis', sub:'all-in-one — ZBP1 PANoptosome, non-redundant',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
-   bioNote:'⏱ ≈12 h infection course — slowest of the original eight · 12 s loop (time-lapse)',
+   bioNote:'⏱ ≈12 h infection course — slowest of the ten · 12 s loop (time-lapse)',
    phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
    steps:['ZBP1 senses (or TAK1 lost) — PANoptosome assembles: RIPK1/RIPK3/caspase-8/caspase-1 + ASC/FADD.','Three arms fire in parallel: GSDMD pores + caspase-3 activity + pMLKL.','Hybrid morphology — pores, blebs and condensation happen simultaneously.','Total rupture + DAMP/cytokine storm; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
    labels:[

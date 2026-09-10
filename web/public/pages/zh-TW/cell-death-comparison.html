@@ -182,7 +182,7 @@
               <td data-hl="">細胞皺縮、起泡完整、凋亡小體、DNA 梯狀片段</td>
               <td data-hl="">Annexin V＋／PI−、cleaved caspase-3、TUNEL、DNA 梯狀片段</td>
               <td data-hl="dna">外源性 Caspase-8 → Caspase-3；內源性 p53 → Bax／BAK → 細胞色素 c → Caspase-9 → Caspase-3；受 Bcl-2／XIAP 抑制</td>
-              <td data-hl="">Caspase-8 切割 RIPK1／3 以阻斷壞死性凋亡；Caspase-3／7 切割 GSDMD 以阻斷焦亡</td>
+              <td data-hl="">Caspase-8 切割 RIPK1／3 以阻斷壞死性凋亡；Caspase-3 在 D87 切割 GSDMD 使其失活，同時活化 GSDME——抗 GSDMD／促 GSDME 轉換</td>
               <td data-hl="">靜默，Annexin V 陽性</td>
               <td data-hl="">z-VAD-FMK、Bcl-2</td>
               <td data-hl=""><b>↑</b> 淋巴球、神經元、心肌細胞（AICD、發育修剪、心肌梗塞）——<b>↓／不適用</b> 紅血球、血小板（無核）</td>
@@ -226,7 +226,7 @@
               <td data-hl="lytic energy">TNFα → 複合體 I（NF-κB）→ 複合體 II 凋亡 → 壞死小體 RIPK1 → RIPK3 → MLKL（Caspase-8 被阻斷時）；TRIF／ZBP1 旁路</td>
               <td data-hl="lytic energy">MLKL 活化 NLRP3 → 焦亡；RIPK3–AMPK 觸發早期自噬隨後阻斷通量</td>
               <td data-hl="lytic">設計上即發炎，DAMP 釋放</td>
-              <td data-hl="">Necrostatin-1、GSK872、necrosulfonamide</td>
+              <td data-hl="">Necrostatin-1、GSK872、necrosulfonamide（僅作用於人類 MLKL——對小鼠 MLKL 無效；依序對應 RIPK1／RIPK3／人類 MLKL）</td>
               <td data-hl="lytic"><b>↑</b> 腸上皮、腎小管、巨噬細胞——<b>↓／不適用</b> 紅血球（無 RIPK3／MLKL）、靜止淋巴球</td>
             </tr>
             <tr data-program="ferroptosis">
@@ -244,7 +244,7 @@
               <td data-hl="iron"><b>↑</b> 近端腎小管、神經元、肝細胞、心肌細胞——<b>↓</b> 糖解型／低 PUFA 細胞*</td>
             </tr>
             <tr data-program="autophagy">
-              <th scope="row"><b>自噬</b><span class="sub">存活 → 第二型死亡</span></th>
+              <th scope="row"><b>自噬</b><span class="sub">存活過程；僅 ATG 依賴時才計為死亡（NCCD 標準）</span></th>
               <td>中風後典型 Beclin-1／LC3 誘導；心臟基礎 Beclin-1／LC3 較高（Campesi 2013）；力竭運動僅在年輕雄性清除 p62</td>
               <td>非 Beclin-1 依賴的 ATG7 路徑（Patrizz 2021）；肌肉基礎自噬／粒線體自噬較高，TFEB 約 1.8 倍；E2 雙向作用（神經元 mTOR–ULK1 抑制 vs ER+ 促存活）</td>
               <td data-hl=""><span class="pill reg">調控性</span><br>是，以存活為主；僅過度時致死</td>
@@ -254,7 +254,7 @@
               <td data-hl="energy">ULK1–FIP200；Beclin-1–Vps34；Atg5-12-16L1＋LC3；經 SIRT1 的 TFEB</td>
               <td data-hl="lytic">PINK1／Parkin 粒線體自噬抑制壞死性凋亡／NLRP3；Caspase-1 切割 Parkin 以解除抑制</td>
               <td data-hl="">具保護性，清除 DAMP 來源</td>
-              <td data-hl="">3-MA／氯喹；rapamycin 誘導</td>
+              <td data-hl="">死亡需 ≥2 種 ATG 干預挽救（例如 ATG5／7 敲除＋3-MA／CQ）；單憑 LC3／p62＝通量而非死亡；rapamycin 誘導</td>
               <td data-hl=""><b>↑</b> 骨骼肌、肝臟、神經元（依賴 TFEB／PINK1-Parkin）——<b>↓／不適用</b> 紅血球（無胞器）</td>
             </tr>
             <tr data-program="pyroptosis">
@@ -304,10 +304,10 @@
               <td>部分感染／心血管模型報導男性 NET 負擔較高——具情境依賴性，尚未建立細胞自主性範式</td>
               <td>多個模型中 E2 抑制 NET 形成；尚未建立細胞自主性的 XX／XY 範式</td>
               <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是——自殺型與存活型</td>
-              <td data-hl="energy lytic">依賴 NADPH 氧化酶的 ROS（自殺型）；染色質去濃縮需耗能</td>
+              <td data-hl="energy lytic">多數依賴 NADPH 氧化酶的 ROS（自殺型）；存在 NOX 非依賴性誘因；染色質去濃縮需耗能</td>
               <td data-hl="lytic dna">染色質去濃縮、核膜崩解、NET 釋放（DNA＋組蛋白＋elastase／MPO）；自殺型破裂，存活型保留細胞膜</td>
               <td data-hl="lytic dna">胞外 DNA（Sytox Green）、瓜氨酸化組蛋白 H3（cit-H3）、MPO–DNA 複合物</td>
-              <td data-hl="lytic dna">ROS → PAD4 介導組蛋白瓜氨酸化 → 染色質解旋 → NET 釋放；誘因：病原體、LPS、PMA、免疫複合物</td>
+              <td data-hl="lytic dna">NOX-ROS → 多經 PAD4 介導組蛋白瓜氨酸化（存在 PAD4／NOX 非依賴路徑：NE 介導、粒線體 ROS、ionomycin）→ 染色質解旋 → NET 釋放；誘因：病原體、LPS、PMA、免疫複合物</td>
               <td data-hl="lytic">NET 授權巨噬細胞 NLRP3／焦亡；NET 組蛋白觸發血小板／凝血級聯反應</td>
               <td data-hl="lytic">促發炎且促血栓：NET DNA／組蛋白作為 DAMP</td>
               <td data-hl="lytic dna">PAD4 抑制劑（Cl-amidine）、NE／MPO 抑制、DNase 消化 NET</td>
@@ -500,7 +500,7 @@ const PROGRAMS = [
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR 聚合物 <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>細胞核（大片段聚集）' },
  { id:'necrosis', title:'壞死', sub:'意外性 · 被動 · ATP 耗竭',
    pills:'<span class="pill acc">意外性</span>',
-   bioNote:'⏱ 約 20 分鐘——八者中最快 · 12 秒循環（縮時）',
+   bioNote:'⏱ 約 20 分鐘——十者中最快 · 12 秒循環（縮時）',
    phases:[[0,0,'損傷——鈉／鉀幫浦失效'],[2.5,4,'滲透腫脹——水分湧入、細胞腫大'],[5,9,'胞器腫脹 · 溶酶體滲漏'],[7,14,'細胞膜破裂'],[8,18,'DAMP 風暴——HMGB1、ATP、尿酸']],
    steps:['Na⁺／K⁺ 幫浦失效——滲透腫脹使細胞脹大；粒線體腫脹破裂、溶酶體滲漏。','細胞膜在某一點撕裂——不規則破口。','DAMP 雲向外爆發 = 高度發炎。'],
    labels:[
@@ -532,11 +532,11 @@ const PROGRAMS = [
     {text:'Fe²⁺ / ROS', pos:()=>[0.9,-0.78,0.5], show:(R,t)=>t>=2&&t<8},
     {text:'過氧化的細胞膜', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
    legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>脂質 ROS 斑塊 <span class="legend-dot" style="background:#555"></span>皺縮的粒線體' },
- { id:'autophagy', title:'自噬', sub:'存活 → 第二型死亡',
+ { id:'autophagy', title:'自噬', sub:'存活過程；僅 ATG 依賴時才計為死亡（NCCD 標準）',
    pills:'<span class="pill reg">受調控</span>',
    bioNote:'⏱ 飢餓通量約 2 小時 · 單一囊泡約 10 分鐘 · 12 秒循環（縮時）',
-   phases:[[0,0,'飢餓——mTORC1 關閉、AMPK 開啟'],[2.5,15,'吞噬泡新月生成'],[5,35,'包裹貨物——自噬體閉合'],[7.5,60,'與溶酶體融合 → 降解'],[10,110,'細胞恢復——存活']],
-   steps:['飢餓撥動開關——mTORC1 關閉、AMPK 開啟；ULK1–FIP200 + Beclin-1–Vps34 啟動。','吞噬泡新月生長、包覆受損貨物並閉合（LC3 脂化）。','雙層膜自噬體將貨物運往溶酶體。','融合閃光——貨物降解回收；細胞存活，唯有通量失控才走向第二型死亡。'],
+   phases:[[0,0,'飢餓——mTORC1 關閉、AMPK 開啟'],[2.5,15,'吞噬泡新月生成'],[5,35,'包裹貨物——自噬體閉合'],[7.5,60,'與溶酶體融合 → 降解'],[10,110,'恢復——僅當 ATG 阻斷能挽救時才計為死亡']],
+   steps:['飢餓撥動開關——mTORC1 關閉、AMPK 開啟；ULK1–FIP200 + Beclin-1–Vps34 啟動。','吞噬泡新月生長、包覆受損貨物並閉合（LC3 脂化）。','雙層膜自噬體將貨物運往溶酶體。','融合閃光——貨物降解回收；細胞存活，僅當 ATG 阻斷能挽救時才計為自噬依賴性死亡。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.7,-0.8,0]},
@@ -558,7 +558,7 @@ const PROGRAMS = [
    legend:'<span class="legend-dot" style="background:#ffe14d"></span>發炎體／caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD 孔 <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
  { id:'panoptosis', title:'PANoptosis', sub:'三合一 · ZBP1 · 非冗餘',
    pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
-   bioNote:'⏱ 感染病程約 12 小時——原八者中最慢 · 12 秒循環（縮時）',
+   bioNote:'⏱ 感染病程約 12 小時——十者中最慢 · 12 秒循環（縮時）',
    phases:[[0,0,'ZBP1 感知——PANoptosome 組裝'],[3,240,'三臂齊發：GSDMD + caspase-3 + MLKL'],[6,480,'混合態：孔洞 + 起泡 + 腫脹同步'],[8.5,600,'全面破裂——單一抑制劑無效'],[10,690,'三臂齊發的 DAMP + 細胞激素風暴']],
    steps:['ZBP1 感知（或 TAK1 缺失）——PANoptosome 組裝：RIPK1／RIPK3／caspase-8／caspase-1 + ASC／FADD。','三臂平行開火：GSDMD 孔 + caspase-3 活性 + pMLKL。','混合形態——孔洞、起泡與濃縮同步發生。','全面破裂 + DAMP／細胞激素風暴；單臂藥物（z-VAD、necrostatin-1）無效——需多臂聯合阻斷。'],
    labels:[
