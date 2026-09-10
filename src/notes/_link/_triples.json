@@ -15538,5 +15538,103 @@
     "source_document": "ARH3.md",
     "created": "2026-09-06T17:22:34Z",
     "updated": "2026-09-06T17:22:34Z"
+  },
+  {
+    "id": "59c8b57c5521",
+    "subject": "RHIM",
+    "predicate": "mediates assembly of",
+    "object": "necrosome",
+    "context": {
+      "en-US": "RHIM-RHIM contacts between RIPK1/RIPK3 (classical TNFR1 necrosome) and ZBP1/TRIF-RIPK3 (non-classical, RIPK1-independent) nucleate the amyloid-like necrosome; caspase-8 cleavage of RHIM carriers dissolves the scaffold.",
+      "zh-TW": "RHIM-RHIM contacts between RIPK1/RIPK3 (classical TNFR1 necrosome) and ZBP1/TRIF-RIPK3 (non-classical, RIPK1-independent) nucleate the amyloid-like necrosome; caspase-8 cleavage of RHIM carriers dissolves the scaffold."
+    },
+    "confidence": 0.9,
+    "source_document": "RHIM.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "1c4d8a7c719a",
+    "subject": "TRIF",
+    "predicate": "recruits via RHIM",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "TLR3/TLR4-activated TRIF binds RIPK3 directly through RHIM-RHIM interaction, assembling a non-classical necrosome without RIPK1 and splitting signaling into IFN and necroptosis arms.",
+      "zh-TW": "TLR3/TLR4-activated TRIF binds RIPK3 directly through RHIM-RHIM interaction, assembling a non-classical necrosome without RIPK1 and splitting signaling into IFN and necroptosis arms."
+    },
+    "confidence": 0.9,
+    "source_document": "RHIM.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "f8ce85bed44a",
+    "subject": "ZBP1",
+    "predicate": "recruits via RHIM",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "ZBP1 senses viral z-RNA and recruits RIPK3 through RHIM-RHIM interaction, forming a RIPK1-independent necrosome that drives MLKL phosphorylation.",
+      "zh-TW": "ZBP1 senses viral z-RNA and recruits RIPK3 through RHIM-RHIM interaction, forming a RIPK1-independent necrosome that drives MLKL phosphorylation."
+    },
+    "confidence": 0.9,
+    "source_document": "RHIM.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "c02079f3da5a",
+    "subject": "Caspase-8",
+    "predicate": "cleaves RHIM carriers to suppress",
+    "object": "necrosome",
+    "context": {
+      "en-US": "Active caspase-8 cleaves RIPK1, RIPK3 and TRIF, dissolving RHIM scaffolds and flipping TNFR1/TLR signaling from necroptosis back toward apoptosis.",
+      "zh-TW": "Active caspase-8 cleaves RIPK1, RIPK3 and TRIF, dissolving RHIM scaffolds and flipping TNFR1/TLR signaling from necroptosis back toward apoptosis."
+    },
+    "confidence": 0.9,
+    "source_document": "RHIM.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "1cded3fd26ff",
+    "subject": "TRIF",
+    "predicate": "induces",
+    "object": "Interferon",
+    "context": {
+      "en-US": "TRIF recruits TRAF3-TBK1/IKKε to phosphorylate IRF3, driving type I interferon (IFN-β) transcription downstream of TLR3 and TLR4.",
+      "zh-TW": "TRIF recruits TRAF3-TBK1/IKKε to phosphorylate IRF3, driving type I interferon (IFN-β) transcription downstream of TLR3 and TLR4."
+    },
+    "confidence": 0.9,
+    "source_document": "Interferon.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "6cd7cea83607",
+    "subject": "IRF3",
+    "predicate": "drives transcription of",
+    "object": "Interferon",
+    "context": {
+      "en-US": "Phosphorylated IRF3 dimerizes, translocates to the nucleus, and induces IFN-β transcription; secreted IFN signals via IFNAR-JAK-STAT to interferon-stimulated genes.",
+      "zh-TW": "Phosphorylated IRF3 dimerizes, translocates to the nucleus, and induces IFN-β transcription; secreted IFN signals via IFNAR-JAK-STAT to interferon-stimulated genes."
+    },
+    "confidence": 0.9,
+    "source_document": "Interferon.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "e908009fe7a1",
+    "subject": "Interferon",
+    "predicate": "amplifies",
+    "object": "Necroptosis-associated inflammation",
+    "context": {
+      "en-US": "MLKL-driven DAMP release and TRIF-RIPK3 co-activation couple the IFN arm to IL-6/TNF programs and necroptotic inflammation.",
+      "zh-TW": "MLKL-driven DAMP release and TRIF-RIPK3 co-activation couple the IFN arm to IL-6/TNF programs and necroptotic inflammation."
+    },
+    "confidence": 0.9,
+    "source_document": "Interferon.md",
+    "created": "2026-09-10T19:38:48Z",
+    "updated": "2026-09-10T19:38:48Z"
   }
 ]
