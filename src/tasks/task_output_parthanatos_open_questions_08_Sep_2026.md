@@ -231,6 +231,26 @@ Source framing: Moura et al. 2024, "Molecular mechanisms of cell death by partha
 - Source note (Moura et al. 2024, verbatim): > There is extensive but conflicting evidence as to the role of PARG in parthanatos, with several studies suggesting that PARG can either prevent or promote PARP1-dependent cell death. In favour of an inhibitory role, PARG overexpression reduced MNNG-induced cell death in mouse neuronal cultures (Andrabi et al., 2006) and reduced NMDA-induced AIF release from mitochondria (Yu et al., 2006) [...] In contrast, other studies suggest that PARG is necessary for, or at least contributes to, the process of parthanatos. PARG inhibition protected mice against brain ischaemia (Lu et al., 2003), and PARG silencing rendered cells more resistant to treatment with H2O2 but not MNNG (Blenn et al., 2006).
 - Direction: PARG titration (0.3–10 uM PDD00017273/COH34/JA2131) + PARG53-aware PCR + MAR-vs-PAR blots + same-well NAD/ATP/PAR + HK activity + AIF localization; compare H2O2 vs MNNG vs NMDA.
 
+## 19. Do cell type and metabolic state change how parthanatos proceeds?
+
+**Status: yes — cell lineage and fuel state rewire the dominant execution arm. Direction: report lineage + fuel + TRPM2/AIF status in every experiment; do not generalize across cell types.**
+
+- Complicating matters even further, there seem to be clear differences in how parthanatos proceeds in different cell types and at different metabolic states.
+- Lineage split (AIF-dependent vs independent): cortical/RGC/SH-SY5Y/MEFs — PAR → AIF–MIF nuclear translocation required, AIF-KD rescues (Moura Table 1; 661W light model 64%→38%); vs ARPE-19/H2O2, BMDMs, HK-2-TGHQ, pancreatic ZZW-115 — no detectable AIF translocation, AIF-siRNA no rescue, death via NAD/ATP fall + mito fission/OPA1-L loss + depolarization (Jang CDD 2017; Regdon 2019).
+- Metabolic-state determinants:
+  - **Glycolysis vs OXPHOS reliance**: glycolysis-reliant cells (neurons, LN428, astrocytes in glucose-only aCSF) die faster via PAR–HK1 block; pyruvate/glutamine-capable cells bypass to mitochondria and resist (Zong 2004; Andrabi 2014; Fouquerel 2014).
+  - **Carbon source in medium**: glucose-only unmasks HK block; +pyruvate/+glutamine masks it — explains Alano (astrocytes, NAD-rescuable) vs Andrabi/Fouquerel (neurons/glioblastoma, NAD-insufficient) discrepancy.
+  - **Redox/PPP state**: HK block starves PPP → NADPH/GSH fall; GSH-ester/NADPH support rescues independent of ATP (Hossain 2024; Andrabi Fig.5E).
+  - **TRPM2/Ca2+ wiring**: TRPM2-high excitable cells (striatal/cortical/hippocampal neurons, cardiomyocytes, β-cells, microglia) use Ca2+→calpain→BID–BAX→AIF arm; low-TRPM2/MNNG systems use ER-store or Ca2+-independent routes (Bentle 2006; Munoz 2017; Zhong 2018).
+  - **Proliferation/quiescence**: G1-arrested/senescence-like BER-deficient cells accumulate toxic PAR → early OCR fall without ECAR compensation → late AIF (ResearchSquare rs.3.rs-10223032/v1 Jul 2026); ATM-KO PARGi death is replication-stress, AIF-negative (J Transl Med 2026).
+  - **Mito pool**: SNpc DA neurons show mito-PAR + VDAC1 colocalization adjacent to Lewy bodies (Cell Death Dis 2026) — postmitotic neurons pre-positioned for outer-membrane AIF-pool release.
+- Direction: minimal cell-state panel:
+  - lineage + TRPM2 isoform/expression
+  - ECAR/OCR + fuel (glucose ± pyruvate/glutamine)
+  - NAD/PAR/ATP same-well
+  - AIF IF + subfraction + rescue
+  - PARG53/ARH3 status. Test pyruvate + GSH-ester vs MIF-inhibitor vs TRPM2-KO in the same line to assign dominant arm.
+
 ## Cross-cutting latest pointer (2024–2026)
 
 - **PARG is the hinge**: 2026 Hoch-lab preprint resolves part of Table-1 heterogeneity — PARG activity required for parthanatos execution (ATP-loss arm), new 53-kDa splice isoform (PARG53; revises PARG55/60 annotation) explains CRISPR-vs-inhibitor discrepancy. Any future NAD/glycolysis/apoptosis experiment must genotype/quantify PARG isoforms and use graded inhibition, not just KO.
