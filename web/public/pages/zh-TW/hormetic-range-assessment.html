@@ -381,6 +381,22 @@
   .tuner-share { font-family: var(--mono); font-size: 10px; color: var(--faint); margin-left: 6px; }
   .tuner-lh { font-family: var(--mono); font-size: 10px; color: var(--faint); margin: 0 2px; }
 
+  /* ---- single advanced-settings card wrapping both tuners ---- */
+  .adv-card {
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    border-radius: var(--r-md, 2px);
+    padding: 2px 14px;
+    margin: 14px 0;
+  }
+  .adv-card #weightTuner,
+  .adv-card #responseTracker {
+    border: none;
+    padding: 10px 0;
+    margin: 0;
+  }
+  .adv-card #responseTracker { border-top: 1px solid var(--rule); }
+
   /* ---- response tracker (Layer B: baseline → retest) ---- */
   #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
   .resp-table input[type=number] { width: 64px; }
@@ -408,6 +424,16 @@
     margin-top: 28px;
   }
   .page-footer a { color: var(--mute); }
+
+  /* Visually-hidden H1: keeps document outline/SEO without display cost. */
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -418,33 +444,20 @@
   <div class="wrap">
     <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
     <div class="nav-links">
-      <a href="#overview">總覽</a>
-      <a href="#sensors">感測器</a>
-      <a href="#domains">19 大領域</a>
-      <a href="#timing">持續時間與時機</a>
-      <a href="#interactions">交互作用</a>
-      <a href="#language">語言落差</a>
+      <a href="#domains">評估</a>
       <a href="#radar">你的檔案</a>
       <a href="#guidance">指引</a>
+      <a href="#timing">時機</a>
+      <a href="#sensors">感測器</a>
       <a href="#refs">來源</a>
     </div>
   </div>
 </nav>
 
-<header class="hero">
+<header class="hero visually-hidden">
   <div class="wrap">
-    <p class="kicker">互動式評估 · llm-wiki-jk</p>
     <h1>毒物興奮範圍評估</h1>
-    <p class="lede">
-      生命演化在一個持續、多變的壓力環境中。本工具映射你在
-      <b style="color:var(--oxblood)">19 個被忽視的生物領域</b>中位於毒物興奮量表的何處——
-      從輻射到機械負荷，從發炎到禁食——並識別連接它們的保守分子感測器和效應器。
-      你的檔案揭示了哪些毒物興奮路徑是活躍的、哪些是休眠的，以及你在何處有空間擴展你的範圍。
-    </p>
-    <div class="meta">
-      <p><strong>來源：</strong> Li et al. 2024 <em>Nature</em> · Calabrese 2026 <em>Arch Toxicol</em> · 資料庫筆記（<code>src/notes/_link/Hormesis.md</code>、<code>Mitohormesis.md</code>、<code>Xenohormesis.md</code>）· 抗氧化酶簇綜述（2026 年 9 月 1 日）</p>
-      <p><strong>治療窗口：</strong>基線以上 30–60%——跨物種毒物興奮效應的定量特徵（Calabrese，被引用 338+ 次）</p>
-    </div>
+    <p class="lede">評分 19 個領域，讀取加權分數，執行行動計畫。</p>
   </div>
 </header>
 
@@ -452,91 +465,18 @@
   <aside class="toc" aria-label="本頁目錄">
     <p>目錄</p>
     <ol>
-      <li><a href="#overview">總覽</a></li>
-      <li><a href="#sensors">核心感測器與效應器</a></li>
-      <li><a href="#domains">19 大領域</a></li>
-      <li><a href="#timing">持續時間與時機</a></li>
-      <li><a href="#interactions">交互作用矩陣</a></li>
-      <li><a href="#language">語言差異落差</a></li>
+      <li><a href="#domains">評估</a></li>
       <li><a href="#radar">你的檔案</a></li>
       <li><a href="#guidance">指引</a></li>
+      <li><a href="#timing">持續時間與時機</a></li>
+      <li><a href="#sensors">核心感測器與效應器</a></li>
       <li><a href="#refs">來源</a></li>
     </ol>
   </aside>
 
   <main id="content">
 
-    <!-- ==================== OVERVIEW ==================== -->
-    <section id="overview">
-      <p class="sec-label">總覽</p>
-      <h2>30–60% 法則與你的毒物興奮範圍為何重要</h2>
-      <p class="drop">
-        在超過 800 個劑量反應資料集中——細菌、酵母菌、植物、動物——最大的毒物興奮刺激量
-        始終是<strong>基線以上 30–60%</strong>，不論壓力源類型、物種或終點指標
-        （Calabrese，被引用 338+ 次）。這個上限定義了生物可塑性的極限。你的
-        <em>毒物興奮範圍</em>是你對壓力源強度展現適應性超調而非崩潰受損的跨度。
-      </p>
-      <p>
-        相同的保守分子感測器——<strong>AMPK</strong>、<strong>NRF2</strong>、
-        <strong>HIF-1α</strong>、<strong>SIRT1/3</strong>、<strong>FOXO</strong>、
-        <strong>HSF1</strong>——偵測每一種毒物興奮訊號並啟動重疊的效應器程式：
-        粒線體生長、抗氧化酶誘導、自噬、熱休克蛋白合成、免疫調節和骨骼重塑。
-        理解這些感測器讓你跨領域轉譯：冷水浴和花椰菜芽劑量啟動相同的 NRF2 臂；
-        禁食窗口和離心運動匯聚到 AMPK → PGC-1α。
-      </p>
-
-      <div class="callout">
-        <p><strong>如何使用本頁：</strong>對於以下 19 個領域中的每一個，移動滑桿來評分你目前的毒物興奮實踐，
-        從<em>無</em>（0）到<em>毒興窗口</em>（5）再到<em>過度</em>（10）。雷達圖和摘要面板會即時更新。
-        使用「匯出」按鈕儲存你的檔案，或用「列印 / PDF」取得快照。底部的指引區會根據加權偏離影響
-        推薦具體的途徑來擴展你的範圍。</p>
-      </div>
-    </section>
-
-    <!-- ==================== CORE SENSORS ==================== -->
-    <section id="sensors">
-      <p class="sec-label">分子架構</p>
-      <h2>核心感測器與下游效應器</h2>
-      <p>
-        每個毒物興奮領域都匯聚到一個共享的感測器–效應器架構。感測器偵測特定的壓力源訊號
-        （ROS、氧氣張力、營養缺乏、溫度變化、機械負荷），並將其路由到重疊的轉錄程式。
-        來自抗氧化酶簇綜述的關鍵洞見是：<strong>區室、劑量窗口和氧化態設定點</strong>——
-        而非僅僅是表現水平——決定了感測器介導的反應是保護性的還是致病性的。
-      </p>
-
-      <div class="sensor-grid">
-        <div class="sensor-card">
-          <h4>AMPK</h4>
-          <p class="pathway">低能量 → PGC-1α → 粒線體生長；自噬經由 ULK1；TFEB → 溶酶體生長；抑制 mTORC1。禁食、運動、缺氧、metformin、異體毒興的匯聚節點。</p>
-        </div>
-        <div class="sensor-card">
-          <h4>NRF2</h4>
-          <p class="pathway">氧化/親電壓力 → ARE → 內源性抗氧化酶（SOD、catalase、GPx、HO-1、NQO1）；Trx/Srx 前饋迴路。由 sulforaphane、4-HNE、運動 ROS、LDR 活化。</p>
-        </div>
-        <div class="sensor-card">
-          <h4>HIF-1α</h4>
-          <p class="pathway">低 O₂ → EPO、VEGF、糖酵解酶；正向 ROS 反饋 → AMPK。間歇缺氧、運動、冷暴露的匯聚節點。短暫活化 = 適應性；慢性 = 致癌性。</p>
-        </div>
-        <div class="sensor-card">
-          <h4>SIRT1 / SIRT3</h4>
-          <p class="pathway">NAD⁺ 感應去乙醯酶。SIRT1 → FOXO → MnSOD/catalase/GSH；SIRT3 → MnSOD 乙醯化調節（K68）。毒興窗口：2.5–7.5× 保護性；12.5× 致病性（Alcendor 2007）。由禁食、運動、resveratrol 活化。</p>
-        </div>
-        <div class="sensor-card">
-          <h4>HSF1</h4>
-          <p class="pathway">蛋白質展開 → HSP70/HSP90 → 分子伴護蛋白質穩定網路。熱毒興（三溫暖、熱休克）的核心；也由運動、異體毒興（curcumin）和禁食活化。長壽的標誌之一。</p>
-        </div>
-        <div class="sensor-card">
-          <h4>FOXO</h4>
-          <p class="pathway">AMPK/SIRT1 的下游；MnSOD、catalase、GADD45、自噬基因、萎縮抗性的轉錄因子。連接營養壓力 → 壓力抗性基因程式的輸出臂。</p>
-        </div>
-      </div>
-
-      <div class="callout teal">
-        <p><strong>抗氧化酶的教訓：</strong>Trx1、MnSOD、catalase 和 peroxiredoxin 並非可互換的自由基海綿。區室（粒線體 vs. 胞質）、劑量窗口（SIRT3 乙醯化循環，而非固定的開/關）以及修飾的可逆性（經由 Srx 的亞磺酸修復 vs. 不可逆的硝化）決定了酶反應落在毒興窗口內還是退出到病理狀態。這就是為何<em>你如何進行毒興壓力</em>與<em>你是否進行</em>同樣重要。</p>
-      </div>
-    </section>
-
-    <!-- ==================== 12 DOMAINS — INTERACTIVE SLIDERS ==================== -->
+    <!-- ==================== 19 DOMAINS — INTERACTIVE SLIDERS ==================== -->
     <section id="domains">
       <p class="sec-label">評估</p>
       <h2>19 大毒物興奮領域——評分你的實踐</h2>
@@ -547,9 +487,83 @@
         區域條顯示你相對於適應甜蜜點的位置。
       </p>
 
+      <div class="callout">
+        <p><strong>如何使用本表單：</strong>移動滑桿時雷達圖、分數和行動計畫即時更新；「匯出」儲存你的檔案。下方的時機指引設定劑量間隔——其後的感測器和來源為參考資料。</p>
+      </div>
+
+        <div class="adv-card">
+        <details id="weightTuner">
+          <summary>調整領域權重 <span id="weightMode">— 證據預設</span></summary>
+          <p class="tuner-hint">權重越高，在綜合分數和指引排序中的佔比越大。0 = 忽略該領域。L 適用於低於毒興窗口（滑桿 &lt; 5），H 適用於高於窗口（滑桿 &gt; 5）；1.0 = 對稱。</p>
+          <div class="tuner-presets">
+            <button class="btn" onclick="applyWeightPreset('evidence')">證據預設</button>
+            <button class="btn" onclick="applyWeightPreset('equal')">均等（全 1.0）</button>
+            <button class="btn" onclick="resetWeights()">重設權重</button>
+          </div>
+          <div class="table-wrap"><table class="tuner-table">
+            <thead><tr><th>領域</th><th>權重</th><th>低 / 高倍率</th></tr></thead>
+            <tbody id="weightTunerBody"></tbody>
+          </table></div>
+        </details>
+        <details id="responseTracker">
+          <summary>追蹤生物標記反應 <span id="responseMode">— 基準 → 複測</span></summary>
+          <p class="tuner-hint">選填的第二層。輸入方案前的基準值和複測值（間隔 ≥2–4 週）。朝 ~30–60% 改善＝毒興反應（上限 +60%——超過並非更多毒興）；接近零變化＝休眠；反轉＝過度。此層用於確認實踐分數——不能取代它。爭議、EIMD 和僅限臨床的領域不設結果目標。</p>
+          <div class="table-wrap"><table class="tuner-table resp-table">
+            <thead><tr><th>指標</th><th>基準</th><th>複測</th><th>Δ</th><th>訊號</th></tr></thead>
+            <tbody id="responseTrackerBody"></tbody>
+          </table></div>
+        </details>
+        </div>
+
       <div id="domain-sliders"></div>
     </section>
+    <!-- ==================== RADAR CHART ==================== -->
+    <section id="radar">
+      <p class="sec-label">你的檔案</p>
+      <h2>毒物興奮範圍雷達</h2>
+      <p>
+        你的滑桿值繪製在下方的雷達圖上。理想的檔案是一個寬廣、平衡的多邊形，
+        在所有領域都填滿 <strong>3–6 區間</strong>——持續的毒興實踐而不會在任何
+        單一領域過度暴露。一個塌陷的多邊形（低值）表示未被充分利用的適應潛力；
+        一個尖刺的多邊形（某些領域極高、其他極低）表示不平衡的檔案，部分路徑有
+        慢性過載風險而其他路徑休眠。
+      </p>
+      <div class="radar-wrap">
+        <div class="copy-host">
+          <canvas id="radarCanvas" width="700" height="700"></canvas>
+          <button class="copy-btn" data-copy-canvas="radarCanvas" title="複製雷達圖為 PNG" aria-label="複製雷達圖為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== SCORE SUMMARY ==================== -->
+    <section id="summary">
+      <div class="score-panel">
+        <h2>綜合毒物興奮範圍分數</h2>
+        <div class="score-big" id="compositeScore">0</div>
+        <div class="score-sub" id="compositeLabel">設定你的領域滑桿以生成檔案。</div>
+        <div id="responseSummary"></div>
 
+        <div id="domainScores"></div>
+
+
+        <div class="export-row">
+          <button class="btn primary" onclick="exportJSON()">匯出檔案（JSON）</button>
+          <button class="btn" onclick="resetAll()">重設所有滑桿</button>
+          <button class="btn" onclick="window.print()">列印 / PDF</button>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== GUIDANCE ==================== -->
+    <section id="guidance">
+      <p class="sec-label">指引</p>
+      <h2>擴展你的毒物興奮範圍——各領域途徑</h2>
+      <p>
+        根據你的檔案，以下行動計畫按加權偏離影響排序——高權重且偏離毒興窗口的領域優先。
+        每張卡片給出行動、關鍵禁忌和生物標記狀態，並附跳回滑桿的連結。
+        完整指引位於上方各滑桿下方，此處不再重複。
+      </p>
+      <div id="guidanceCards"></div>
+    </section>
     <!-- ==================== DURATION & TIMING ==================== -->
     <section id="timing">
       <p class="sec-label">時間維度</p>
@@ -802,296 +816,51 @@
         <p><strong>序列洞見：</strong>因為早期窗口是翻譯後修飾（快速、短暫）而延遲窗口是轉錄性的（緩慢、持久），
         <em>同一壓力源過早重施</em>會落在無保護間隙中，或在延遲程式寫入前將其鈍化。相反地，
         <em>不同的</em>壓力源匯聚到相同感測器（如 cold + exercise 都作用於 AMPK）可以協同或干擾，
-        取決於間隔。時機是一個劑量維度——將其視為如此。</p>
+        取決於間隔。時機是一個劑量維度——將其視為如此。劑量上限依然適用：最大毒興刺激落在基線以上 30–60%（Calabrese）——生物標記追蹤的 +60% 上限即源於此。</p>
       </div>
     </section>
-
-    <!-- ==================== INTERACTION MATRIX ==================== -->
-    <section id="interactions">
-      <p class="sec-label">同時進行的實踐</p>
-      <h2>壓力源疊加——什麼干擾、什麼協同</h2>
+    <!-- ==================== CORE SENSORS ==================== -->
+    <section id="sensors">
+      <p class="sec-label">分子架構</p>
+      <h2>核心感測器與下游效應器</h2>
       <p>
-        毒興壓力源共享感測器（AMPK、NRF2、mTOR、HSF1），所以結合它們可以
-        <strong>放大</strong>適應性訊號或<strong>抵消</strong>它。最清晰的定量案例：
+        每個毒物興奮領域都匯聚到一個共享的感測器–效應器架構。感測器偵測特定的壓力源訊號
+        （ROS、氧氣張力、營養缺乏、溫度變化、機械負荷），並將其路由到重疊的轉錄程式。
+        來自抗氧化酶簇綜述的關鍵洞見是：<strong>區室、劑量窗口和氧化態設定點</strong>——
+        而非僅僅是表現水平——決定了感測器介導的反應是保護性的還是致病性的。
       </p>
 
-      <div class="rec-card interferes">
-        <div class="rec-label">干擾——間隔 ≥3 小時（理想為 24 小時）</div>
-        <p><strong>阻力訓練後的冷水浴。</strong>Piñero et al. 2024 統合分析
-       （8 項研究）：95.7% 的機率認為常規訓練後 CWI 會鈍化肌肥大——每項納入的研究都在訓練後
-        <em>20 分鐘內</em>施加冷暴露，而肌肉的成長敏感期長達 &gt;24 小時。機制：冷抑制 mTORC1、
-        核糖體生長、衛星細胞活化和 IL-6 發炎訊號。冷仍然是有效的毒興工具——只是
-        <strong>不在舉重後的合成窗口內</strong>。訓練前冷暴露，或在不同日期，可保留兩個訊號。</p>
-      </div>
-
-      <div class="rec-card interferes">
-        <div class="rec-label">干擾——間隔 ≥3 小時</div>
-        <p><strong>同日高強度耐力訓練先於力量訓練。</strong>AMPK 在耐力訓練後維持升高約 3 小時並直接抑制
-        mTORC1（RT 後維持活躍約 18 小時）。Frontiers 2026 半系統性綜述：耐力→力量需要
-        <strong>≥3 小時間隔</strong>以避免分子干擾；力量優先序列可優化神經肌肉適應。</p>
-      </div>
-
-      <div class="rec-card interferes">
-        <div class="rec-label">干擾——訓練前後應完全避免</div>
-        <p><strong>抗氧化補充劑（維生素 C/E）+ 運動。</strong>淬滅驅動 PGC-1α 和粒線體生長的 ROS 訊號——
-        與 metformin 同時給藥所見的鈍化相同。若與 sulforaphane 類化合物同時服用也會阻斷異體毒興 NRF2 脈衝。
-        問題在於補充劑量，而非食物中的膳食抗氧化劑。</p>
-      </div>
-
-      <div class="rec-card interferes">
-        <div class="rec-label">干擾——避開急性窗口</div>
-        <p><strong>離心運動後 / 輕度發燒期間使用 NSAIDs。</strong>阻斷前列腺素介導的衛星細胞增殖和
-        重複訓練記憶的寫入。保留用於真正的損傷。低度感染時常規使用退燒藥同理。</p>
-      </div>
-
-      <div class="rec-card synergy">
-        <div class="rec-label">協同——可安全疊加</div>
-        <p><strong>運動後三溫暖</strong>（Scoon 2007：耐力增加 32%）、<strong>缺氧條件下運動</strong>
-        （疊加 AMPK + HIF-1α）、<strong>禁食 + 訓練</strong>在分解窗口內（匯聚 AMPK——但根據 CACH 模型
-        之後刻意安排合成/進食階段）、<strong>植物化學物質多樣性 + 任何壓力源</strong>
-        （輕度 NRF2 預激降低適應閾值）。</p>
-      </div>
-
-      <div class="rec-card contextual">
-        <div class="rec-label">視情況而定</div>
-        <p><strong>無恢復期的慢性多重壓力源。</strong>CACH 模型的核心警告：合成階段並非可選。
-        每日疊加 5 種以上毒興實踐且無休息日會產生體內穩態負荷，而非適應——
-        <em>同時進行的壓力源數量</em>和任何單一劑量一樣適用倒 U 型曲線。</p>
-      </div>
-    </section>
-
-    <!-- ==================== LANGUAGE VARIANCE ==================== -->
-    <section id="language">
-      <p class="sec-label">可見度問題</p>
-      <h2>語言差異：為何 80–90% 的毒物興奮研究不可見</h2>
-
-      <div class="callout">
-        <p class="big-num">80–90%</p>
-        <p>
-          的毒興相關研究在標準搜尋詞下被遺漏，因為不同領域使用不同的詞彙來描述
-          相同的生物學原理。<strong>這不是生物學問題——而是語言學問題</strong>。
-          底層機制（亞毒性壓力 → 經由保守感測器的適應性韌性）在所有 19 個領域中
-          是相同的；只有命名慣例不同。
-        </p>
-      </div>
-
-      <p>
-        2024 年 Li et al. 的 <em>Nature</em> 綜述（101 次引用、36k 存取）和
-        2026 年 Springer「韌性熔爐」論文都認為詞彙碎片化是毒興在臨床上未被充分利用的
-        首要原因。以下是逐領域的詞彙落差映射：
-      </p>
-
-      <table class="vocab-table">
-        <thead>
-          <tr>
-            <th>領域</th>
-            <th>毒興術語</th>
-            <th>領域特定詞彙</th>
-            <th>使用替代術語的文獻比例</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>低劑量輻射</td>
-            <td>輻射毒興</td>
-            <td>適應性反應、放射適應性反應、預適應、基因毒性適應</td>
-            <td>~75%</td>
-          </tr>
-          <tr>
-            <td>ROS 訊號</td>
-            <td>粒線體毒興</td>
-            <td>氧化還原訊號、ROS 介導的訊號、氧化良性壓力、毒興氧化還原調節</td>
-            <td>~65%</td>
-          </tr>
-          <tr>
-            <td>發炎反應</td>
-            <td>發炎毒興</td>
-            <td>重複訓練效應、運動誘發肌肉損傷適應、免疫預激、發燒反應</td>
-            <td>~85%</td>
-          </tr>
-          <tr>
-            <td>間歇性缺氧</td>
-            <td>缺氧毒興</td>
-            <td>間歇缺氧調節（IHC）、缺氧預適應、高原訓練反應</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>熱量壓力 / 禁食</td>
-            <td>營養毒興</td>
-            <td>代謝切換、禁食誘發自噬、熱量限制反應、限時進食適應</td>
-            <td>~55%</td>
-          </tr>
-          <tr>
-            <td>免疫 / 衛生</td>
-            <td>微生物毒興</td>
-            <td>老朋友假說、衛生假說、免疫耐受訓練、Treg 教育</td>
-            <td>~80%</td>
-          </tr>
-          <tr>
-            <td>熱 / 冷</td>
-            <td>溫度毒興</td>
-            <td>熱休克反應、冷適應、棕色脂肪組織徵募、對比療法適應</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>心理壓力</td>
-            <td>心理毒興</td>
-            <td>良性壓力、壓力接種訓練（SIT）、創傷後成長、認知儲備、Yerkes-Dodson</td>
-            <td>~90%</td>
-          </tr>
-          <tr>
-            <td>異體毒興</td>
-            <td>異體毒興</td>
-            <td>植物化學訊號、毒興植物化學反應、雙相劑量反應</td>
-            <td>~60%</td>
-          </tr>
-          <tr>
-            <td>低劑量酒精</td>
-            <td>酒精毒興</td>
-            <td>J 型曲線、雙相死亡率、適度飲酒悖論</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>腸道微生物</td>
-            <td>微生物定殖毒興</td>
-            <td>定殖抗性、微生物組成熟、SCFA 訊號、抗生素後重建</td>
-            <td>~75%</td>
-          </tr>
-          <tr>
-            <td>機械力</td>
-            <td>機械毒興</td>
-            <td>Wolff 定律、力學傳導適應、負荷介導重塑、力學恆溫器理論</td>
-            <td>~80%</td>
-          </tr>
-          <tr>
-            <td>光照 / 光生物調節</td>
-            <td>光生物調節毒興</td>
-            <td>光生物調節、LLLT、紅光/近紅外療法、日光療法</td>
-            <td>~80%</td>
-          </tr>
-          <tr>
-            <td>化學 / 藥物</td>
-            <td>化學毒興</td>
-            <td>Arndt-Schulz、雙相劑量反應、metformin/rapamycin 多效性</td>
-            <td>~65%</td>
-          </tr>
-          <tr>
-            <td>缺血調節</td>
-            <td>缺血毒興</td>
-            <td>IPC、RIPC、後處理、缺血耐受</td>
-            <td>~75%</td>
-          </tr>
-          <tr>
-            <td>蛋白毒性 / 內質網</td>
-            <td>蛋白毒性毒興</td>
-            <td>UPRmt、蛋白穩態預激、內質網毒興</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>滲透壓壓力</td>
-            <td>滲透壓毒興</td>
-            <td>乾燥硬化、滲透預激、POS</td>
-            <td>~85%</td>
-          </tr>
-          <tr>
-            <td>重力 / 振動</td>
-            <td>重力毒興</td>
-            <td>超重力調節、全身振動、擁擠毒興</td>
-            <td>~85%</td>
-          </tr>
-          <tr>
-            <td>高氧 / 聲音</td>
-            <td>高氧毒興</td>
-            <td>高氧預處理、高壓氧、臭氧療法、聲音豐富</td>
-            <td>~85%</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p style="margin-top: 12px;">
-        <strong>所有 19 個領域的加權平均：約 75% 的毒興相關文獻使用領域特定術語而非
-        「hormesis」一詞。</strong>這意味著僅搜尋「hormesis」的研究者將系統性遺漏約
-        四分之三的證據基礎。其餘 ~25% 直接使用「hormesis」——主要在輻射生物學、
-        熱量限制和異體毒興領域，這些是該術語起源或早期採用之處。
-      </p>
-      <p>
-        心理壓力接種是最不可見的（~90% 替代術語），而熱量限制 / 禁食則最不隐蔽
-        （~55%）——反映了「毒興」語言在營養/長壽領域的較早採用（Mattson、Calabrese）。
-      </p>
-    </section>
-
-    <!-- ==================== RADAR CHART ==================== -->
-    <section id="radar">
-      <p class="sec-label">你的檔案</p>
-      <h2>毒物興奮範圍雷達</h2>
-      <p>
-        你的滑桿值繪製在下方的雷達圖上。理想的檔案是一個寬廣、平衡的多邊形，
-        在所有領域都填滿 <strong>3–6 區間</strong>——持續的毒興實踐而不會在任何
-        單一領域過度暴露。一個塌陷的多邊形（低值）表示未被充分利用的適應潛力；
-        一個尖刺的多邊形（某些領域極高、其他極低）表示不平衡的檔案，部分路徑有
-        慢性過載風險而其他路徑休眠。
-      </p>
-      <div class="radar-wrap">
-        <div class="copy-host">
-          <canvas id="radarCanvas" width="700" height="700"></canvas>
-          <button class="copy-btn" data-copy-canvas="radarCanvas" title="複製雷達圖為 PNG" aria-label="複製雷達圖為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      <div class="sensor-grid">
+        <div class="sensor-card">
+          <h4>AMPK</h4>
+          <p class="pathway">低能量 → PGC-1α → 粒線體生長；自噬經由 ULK1；TFEB → 溶酶體生長；抑制 mTORC1。禁食、運動、缺氧、metformin、異體毒興的匯聚節點。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>NRF2</h4>
+          <p class="pathway">氧化/親電壓力 → ARE → 內源性抗氧化酶（SOD、catalase、GPx、HO-1、NQO1）；Trx/Srx 前饋迴路。由 sulforaphane、4-HNE、運動 ROS、LDR 活化。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>HIF-1α</h4>
+          <p class="pathway">低 O₂ → EPO、VEGF、糖酵解酶；正向 ROS 反饋 → AMPK。間歇缺氧、運動、冷暴露的匯聚節點。短暫活化 = 適應性；慢性 = 致癌性。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>SIRT1 / SIRT3</h4>
+          <p class="pathway">NAD⁺ 感應去乙醯酶。SIRT1 → FOXO → MnSOD/catalase/GSH；SIRT3 → MnSOD 乙醯化調節（K68）。毒興窗口：2.5–7.5× 保護性；12.5× 致病性（Alcendor 2007）。由禁食、運動、resveratrol 活化。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>HSF1</h4>
+          <p class="pathway">蛋白質展開 → HSP70/HSP90 → 分子伴護蛋白質穩定網路。熱毒興（三溫暖、熱休克）的核心；也由運動、異體毒興（curcumin）和禁食活化。長壽的標誌之一。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>FOXO</h4>
+          <p class="pathway">AMPK/SIRT1 的下游；MnSOD、catalase、GADD45、自噬基因、萎縮抗性的轉錄因子。連接營養壓力 → 壓力抗性基因程式的輸出臂。</p>
         </div>
       </div>
-    </section>
 
-    <!-- ==================== SCORE SUMMARY ==================== -->
-    <section id="summary">
-      <div class="score-panel">
-        <h2>綜合毒物興奮範圍分數</h2>
-        <div class="score-big" id="compositeScore">0</div>
-        <div class="score-sub" id="compositeLabel">設定你的領域滑桿以生成檔案。</div>
-        <div id="responseSummary"></div>
-
-        <div id="domainScores"></div>
-
-        <details id="weightTuner">
-          <summary>調整領域權重 <span id="weightMode">— 證據預設</span></summary>
-          <p class="tuner-hint">權重越高，在綜合分數和指引排序中的佔比越大。0 = 忽略該領域。L 適用於低於毒興窗口（滑桿 &lt; 5），H 適用於高於窗口（滑桿 &gt; 5）；1.0 = 對稱。</p>
-          <div class="tuner-presets">
-            <button class="btn" onclick="applyWeightPreset('evidence')">證據預設</button>
-            <button class="btn" onclick="applyWeightPreset('equal')">均等（全 1.0）</button>
-            <button class="btn" onclick="resetWeights()">重設權重</button>
-          </div>
-          <div class="table-wrap"><table class="tuner-table">
-            <thead><tr><th>領域</th><th>權重</th><th>低 / 高倍率</th></tr></thead>
-            <tbody id="weightTunerBody"></tbody>
-          </table></div>
-        </details>
-
-        <details id="responseTracker">
-          <summary>追蹤生物標記反應 <span id="responseMode">— 基準 → 複測</span></summary>
-          <p class="tuner-hint">選填的第二層。輸入方案前的基準值和複測值（間隔 ≥2–4 週）。朝 ~30–60% 改善＝毒興反應（上限 +60%——超過並非更多毒興）；接近零變化＝休眠；反轉＝過度。此層用於確認實踐分數——不能取代它。爭議、EIMD 和僅限臨床的領域不設結果目標。</p>
-          <div class="table-wrap"><table class="tuner-table resp-table">
-            <thead><tr><th>指標</th><th>基準</th><th>複測</th><th>Δ</th><th>訊號</th></tr></thead>
-            <tbody id="responseTrackerBody"></tbody>
-          </table></div>
-        </details>
-
-        <div class="export-row">
-          <button class="btn primary" onclick="exportJSON()">匯出檔案（JSON）</button>
-          <button class="btn" onclick="resetAll()">重設所有滑桿</button>
-          <button class="btn" onclick="window.print()">列印 / PDF</button>
-        </div>
+      <div class="callout teal">
+        <p><strong>抗氧化酶的教訓：</strong>Trx1、MnSOD、catalase 和 peroxiredoxin 並非可互換的自由基海綿。區室（粒線體 vs. 胞質）、劑量窗口（SIRT3 乙醯化循環，而非固定的開/關）以及修飾的可逆性（經由 Srx 的亞磺酸修復 vs. 不可逆的硝化）決定了酶反應落在毒興窗口內還是退出到病理狀態。這就是為何<em>你如何進行毒興壓力</em>與<em>你是否進行</em>同樣重要。</p>
       </div>
     </section>
-
-    <!-- ==================== GUIDANCE ==================== -->
-    <section id="guidance">
-      <p class="sec-label">指引</p>
-      <h2>擴展你的毒物興奮範圍——各領域途徑</h2>
-      <p>
-        根據你的檔案，以下行動計畫按加權偏離影響排序——高權重且偏離毒興窗口的領域優先。
-        每張卡片給出行動、關鍵禁忌和生物標記狀態，並附跳回滑桿的連結。
-        完整指引位於上方各滑桿下方，此處不再重複。
-      </p>
-      <div id="guidanceCards"></div>
-    </section>
-
     <!-- ==================== SOURCES ==================== -->
     <section id="refs">
       <p class="sec-label">來源</p>
@@ -1120,6 +889,12 @@
         <p style="margin-top:6px;">由 <a href="https://graph.johnnykuo.com">llm-wiki-jk</a> 生成 · 所有評估僅供教育用途——開始任何壓力暴露方案前請諮詢醫療提供者。</p>
       </div>
     </section>
+
+  
+
+  
+
+  
 
   </main>
 </div>
@@ -1239,7 +1014,7 @@ const DOMAINS = [
     desc: '三溫暖每週 4–7 次 → 心血管死亡率降低 50%（Laukkanen，n=2,315，20.7 年）。冷：BAT 活化 + RBM3 突觸再生 + 多巴胺升高 250%。對比療法訓練內皮功能和自主神經靈活性。',
     sensors: ['HSF1/HSP70/HSP90', 'AMPK', 'UCP1', 'SIRT1/SIRT3'],
     effectors: ['蛋白質穩定（伴護網路）', 'BAT 產熱', 'RBM3 神經保護', '正腎上腺素湧現', '內皮訓練'],
-    avoid: ['極端熱中暑', '極端低溫體溫過低 / 心臟事件', '長期熱適應舒適區'],
+    avoid: ['極端熱中暑', '極端低溫體溫過低 / 心臟事件', '長期熱適應舒適區', '舉重後立即冷水浴（鈍化肌肉肥大）'],
     zoneLabel: ['舒適', '輕度', '中度', '毒興', '強烈', '危險'],
     zoneRange: '環境舒適 → 三溫暖/冷水浴 → 極端暴露',
     guidance: {
@@ -1483,7 +1258,6 @@ const MULT_DEFAULTS = {
   inflammation: [1.0, 1.2], hypoxia: [1.0, 1.6], light: [1.0, 1.4],
   proteo: [1.0, 1.6], bone: [1.2, 1.2], gravity: [1.0, 1.5]
 };
-const WEIGHT_STORE = 'hormetic-weights-v2';
 let customW = {};
 let customM = {};
 let weightPreset = 'evidence';
@@ -1505,21 +1279,6 @@ function domainScoreParts(d) {
   const prox = Math.max(0, 1 - gap * m) * 100;
   const priority = w * gap * m;
   return { v, w, L: mPair[0], H: mPair[1], gap, m, prox, priority };
-}
-function loadWeights() {
-  try {
-    const raw = localStorage.getItem(WEIGHT_STORE);
-    if (!raw) return;
-    const saved = JSON.parse(raw);
-    if (saved.w) customW = saved.w;
-    if (saved.m) customM = saved.m;
-    if (saved.preset) weightPreset = saved.preset;
-  } catch (_) { /* private mode etc. — fall back to defaults */ }
-}
-function saveWeights() {
-  try {
-    localStorage.setItem(WEIGHT_STORE, JSON.stringify({ w: customW, m: customM, preset: weightPreset }));
-  } catch (_) { /* storage unavailable — session-only weights */ }
 }
 function setWeightModeLabel() {
   const el = document.getElementById('weightMode');
@@ -1554,7 +1313,6 @@ function clampNum(x, lo, hi, fb) {
 function onWeight(id, val) {
   customW[id] = clampNum(val, 0, 2, getW(id));
   weightPreset = 'custom';
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1564,7 +1322,6 @@ function onMult(id, side, val) {
   cur[side] = clampNum(val, 0, 2.5, cur[side]);
   customM[id] = cur;
   weightPreset = 'custom';
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1578,7 +1335,6 @@ function applyWeightPreset(mode) {
     customM = {};
     weightPreset = 'evidence';
   }
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1587,7 +1343,6 @@ function resetWeights() {
   customW = {};
   customM = {};
   weightPreset = 'evidence';
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1652,7 +1407,6 @@ const RESPONSE_TRACKED = [
     { key: 'jump', label: '垂直跳高', unit: 'cm', lowerBetter: false }
   ] }
 ];
-const RESPONSE_STORE = 'hormetic-response-v1';
 const RESPONSE_NOISE = 5;   // |Δ| 低於此＝休眠（量測雜訊）
 const RESPONSE_CEIL = 60;   // 毒興計分封頂 +60%
 let respData = {};
@@ -1660,17 +1414,6 @@ let respData = {};
 function domainTitle(id) {
   const d = DOMAINS.find(x => x.id === id);
   return d ? `${d.num} ${d.title}` : id;
-}
-function loadResponse() {
-  try {
-    const raw = localStorage.getItem(RESPONSE_STORE);
-    if (raw) respData = JSON.parse(raw) || {};
-  } catch (_) { /* storage unavailable — session-only data */ }
-}
-function saveResponse() {
-  try {
-    localStorage.setItem(RESPONSE_STORE, JSON.stringify(respData));
-  } catch (_) { /* storage unavailable — session-only data */ }
 }
 function respEntry(id, key) {
   return respData[`${id}:${key}`] || {};
@@ -1724,7 +1467,6 @@ function onResponse(id, key, side, val) {
   cur[side] = (num != null && isFinite(num)) ? num : null;
   if (cur.b == null && cur.r == null) delete respData[k];
   else respData[k] = cur;
-  saveResponse();
   const t = RESPONSE_TRACKED.find(x => x.id === id);
   const ep = t.endpoints.find(e => e.key === key);
   const sig = respSignal(ep, (respData[k] || {}).b, (respData[k] || {}).r);
@@ -1835,8 +1577,8 @@ function renderSliders() {
           <div class="rec-label">指引</div>
           <p>${d.guidance.mid}</p>
         </div>
-        <div class="rec-card" id="rec-low-${d.id}" style="display:none">
-          <div class="rec-label">指引——擴展你的範圍</div>
+        <div class="rec-card" id="rec-low-${d.id}" style="display:none;border-left-color:var(--gold)">
+          <div class="rec-label" style="color:var(--gold)">指引——擴展你的範圍</div>
           <p>${d.guidance.low}</p>
         </div>
         <div class="rec-card" id="rec-high-${d.id}" style="display:none;border-left-color:var(--red)">
@@ -2118,7 +1860,7 @@ function renderGuidance() {
     const v = values[d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const label = tier === 'low' ? '擴展你的範圍' : tier === 'high' ? '減少暴露' : '維持';
-    const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
+    const borderColor = tier === 'low' ? 'var(--gold)' : tier === 'high' ? 'var(--red)' : 'var(--teal)';
     // Action plan only — the full zone paragraph lives under each slider,
     // so it is never repeated here. Watch-outs come from avoid[], which
     // appears nowhere else on the page.
@@ -2187,8 +1929,6 @@ function resetAll() {
 //  INIT
 // ============================================================
 loadState();
-loadWeights();
-loadResponse();
 renderSliders();
 renderWeightTuner();
 renderResponseTracker();

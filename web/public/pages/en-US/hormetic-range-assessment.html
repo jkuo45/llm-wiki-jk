@@ -378,6 +378,22 @@
   .tuner-share { font-family: var(--mono); font-size: 10px; color: var(--faint); margin-left: 6px; }
   .tuner-lh { font-family: var(--mono); font-size: 10px; color: var(--faint); margin: 0 2px; }
 
+  /* ---- single advanced-settings card wrapping both tuners ---- */
+  .adv-card {
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    border-radius: var(--r-md, 2px);
+    padding: 2px 14px;
+    margin: 14px 0;
+  }
+  .adv-card #weightTuner,
+  .adv-card #responseTracker {
+    border: none;
+    padding: 10px 0;
+    margin: 0;
+  }
+  .adv-card #responseTracker { border-top: 1px solid var(--rule); }
+
   /* ---- response tracker (Layer B: baseline → retest) ---- */
   #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
   .resp-table input[type=number] { width: 64px; }
@@ -405,6 +421,16 @@
     margin-top: 28px;
   }
   .page-footer a { color: var(--mute); }
+
+  /* Visually-hidden H1: keeps document outline/SEO without display cost. */
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -415,34 +441,20 @@
   <div class="wrap">
     <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
     <div class="nav-links">
-      <a href="#overview">Overview</a>
-      <a href="#sensors">Sensors</a>
-      <a href="#domains">19 Domains</a>
-      <a href="#timing">Duration &amp; Timing</a>
-      <a href="#interactions">Interactions</a>
-      <a href="#language">Language Gap</a>
+      <a href="#domains">Assessment</a>
       <a href="#radar">Your Profile</a>
       <a href="#guidance">Guidance</a>
+      <a href="#timing">Timing</a>
+      <a href="#sensors">Sensors</a>
       <a href="#refs">Sources</a>
     </div>
   </div>
 </nav>
 
-<header class="hero">
+<header class="hero visually-hidden">
   <div class="wrap">
-    <p class="kicker">Interactive assessment · llm-wiki-jk</p>
     <h1>Hormetic Range Assessment</h1>
-    <p class="lede">
-      Life evolved in an environment of constant, variable stress. This tool maps where
-      you sit along the hormetic scale across <b style="color:var(--oxblood)">19 overlooked biological domains</b> —
-      from radiation to mechanical load, inflammation to fasting — and identifies the conserved
-      molecular sensors and effectors that connect them. Your profile reveals which hormetic
-      pathways are active, which are dormant, and where you have room to expand your range.
-    </p>
-    <div class="meta">
-      <p><strong>Sources:</strong> Li et al. 2024 <em>Nature</em> · Calabrese 2026 <em>Arch Toxicol</em> · vault notes (<code>src/notes/_link/Hormesis.md</code>, <code>Mitohormesis.md</code>, <code>Xenohormesis.md</code>) · antioxidant-enzyme cluster review (01 Sep 2026)</p>
-      <p><strong>Therapeutic window:</strong> 30–60% above baseline — the quantitative signature of hormesis across taxa (Calabrese, cited by 338+)</p>
-    </div>
+    <p class="lede">Rate 19 domains, read your weighted score, work the action plan.</p>
   </div>
 </header>
 
@@ -450,100 +462,18 @@
   <aside class="toc" aria-label="On this page">
     <p>Contents</p>
     <ol>
-      <li><a href="#overview">Overview</a></li>
-      <li><a href="#sensors">Core Sensors &amp; Effectors</a></li>
-      <li><a href="#domains">19 Domains</a></li>
-      <li><a href="#timing">Duration &amp; Timing</a></li>
-      <li><a href="#interactions">Interaction Matrix</a></li>
-      <li><a href="#language">Language Variance Gap</a></li>
+      <li><a href="#domains">Assessment</a></li>
       <li><a href="#radar">Your Profile</a></li>
       <li><a href="#guidance">Guidance</a></li>
+      <li><a href="#timing">Duration & Timing</a></li>
+      <li><a href="#sensors">Core Sensors & Effectors</a></li>
       <li><a href="#refs">Sources</a></li>
     </ol>
   </aside>
 
   <main id="content">
 
-    <!-- ==================== OVERVIEW ==================== -->
-    <section id="overview">
-      <p class="sec-label">Overview</p>
-      <h2>The 30–60% Rule and Why Your Hormetic Range Matters</h2>
-      <p class="drop">
-        Across &gt;800 dose-response datasets — bacteria, yeast, plants, animals — maximum
-        hormetic stimulation is consistently <strong>30–60% above baseline</strong>, regardless
-        of stressor type, species, or endpoint (Calabrese, cited by 338+). This ceiling
-        defines the limits of biological plasticity. Your <em>hormetic range</em> is the
-        span of stressor intensities over which you mount this adaptive overshoot instead
-        of collapsing into damage.
-      </p>
-      <p>
-        The same conserved molecular sensors — <strong>AMPK</strong>, <strong>NRF2</strong>,
-        <strong>HIF-1α</strong>, <strong>SIRT1/3</strong>, <strong>FOXO</strong>,
-        <strong>HSF1</strong> — detect every type of hormetic signal and activate overlapping
-        effector programs: mitochondrial biogenesis, antioxidant enzyme induction, autophagy,
-        heat-shock protein synthesis, immune modulation, and bone remodeling. Understanding
-        these sensors lets you translate across domains: a cold plunge and a broccoli sprout
-        dose activate the same NRF2 arm; a fasting window and eccentric exercise converge on
-        AMPK → PGC-1α.
-      </p>
-
-      <div class="callout">
-        <p><strong>How to use this page:</strong> For each of the 19 domains below, move the
-        slider to rate your current hormetic practice from <em>None</em> (0) through
-        <em>Hormetic zone</em> (5) to <em>Excessive</em> (10). The radar chart and summary
-        panel update in real time. Use the Export button to save your profile, or Print/PDF
-        for a snapshot. The guidance section at the bottom recommends specific
-        pathways to expand your range based on weighted off-target impact.</p>
-      </div>
-    </section>
-
-    <!-- ==================== CORE SENSORS ==================== -->
-    <section id="sensors">
-      <p class="sec-label">Molecular Architecture</p>
-      <h2>Core Sensors and Downstream Effectors</h2>
-      <p>
-        Every hormetic domain converges on a shared sensor–effector architecture. The
-        sensors detect the specific stressor signal (ROS, oxygen tension, nutrient scarcity,
-        temperature shift, mechanical load) and route it to overlapping transcriptional
-        programs. The key insight from the antioxidant-enzyme cluster review is that
-        <strong>compartment, dose window, and oxidation-state set point</strong> — not
-        expression level alone — determine whether a sensor-mediated response is protective
-        or pathogenic.
-      </p>
-
-      <div class="sensor-grid">
-        <div class="sensor-card">
-          <h4>AMPK</h4>
-          <p class="pathway">Low energy → PGC-1α → mitochondrial biogenesis; autophagy via ULK1; TFEB → lysosomal biogenesis; inhibits mTORC1. Convergent node for fasting, exercise, hypoxia, metformin, xenohormetics.</p>
-        </div>
-        <div class="sensor-card">
-          <h4>NRF2</h4>
-          <p class="pathway">Oxidative/electrophilic stress → ARE → endogenous antioxidant enzymes (SOD, catalase, GPx, HO-1, NQO1); Trx/Srx feed-forward loop. Activated by sulforaphane, 4-HNE, exercise ROS, LDR.</p>
-        </div>
-        <div class="sensor-card">
-          <h4>HIF-1α</h4>
-          <p class="pathway">Low O₂ → EPO, VEGF, glycolytic enzymes; positive ROS feedback → AMPK. Convergent node for intermittent hypoxia, exercise, cold exposure. Transient activation = adaptive; chronic = oncogenic.</p>
-        </div>
-        <div class="sensor-card">
-          <h4>SIRT1 / SIRT3</h4>
-          <p class="pathway">NAD⁺-sensing deacetylases. SIRT1 → FOXO → MnSOD/catalase/GSH; SIRT3 → MnSOD acetylation dial (K68). Hormetic window: 2.5–7.5× protective; 12.5× pathogenic (Alcendor 2007). Activated by fasting, exercise, resveratrol.</p>
-        </div>
-        <div class="sensor-card">
-          <h4>HSF1</h4>
-          <p class="pathway">Protein unfolding → HSP70/HSP90 → molecular chaperone proteostasis network. Central to thermal hormesis (sauna, heat shock), also activated by exercise, xenohormetics (curcumin), and fasting. One of the hallmarks of longevity.</p>
-        </div>
-        <div class="sensor-card">
-          <h4>FOXO</h4>
-          <p class="pathway">Downstream of AMPK/SIRT1; transcription factor for MnSOD, catalase, GADD45, autophagy genes, atrophy resistance. The output arm linking nutrient stress → stress-resistance gene program.</p>
-        </div>
-      </div>
-
-      <div class="callout teal">
-        <p><strong>The antioxidant-enzyme lesson:</strong> Trx1, MnSOD, catalase, and peroxiredoxin are not interchangeable free-radical sponges. Compartment (mitochondrial vs. cytosolic), dose window (SIRT3 acetylation cycling, not fixed on/off), and reversibility of modification (sulfinic repair via Srx vs. irreversible nitration) determine whether the enzyme response falls within the hormetic zone or exits into pathology. This is why <em>how you hormetically stress</em> matters as much as <em>whether you do</em>.</p>
-      </div>
-    </section>
-
-    <!-- ==================== 12 DOMAINS — INTERACTIVE SLIDERS ==================== -->
+    <!-- ==================== 19 DOMAINS — INTERACTIVE SLIDERS ==================== -->
     <section id="domains">
       <p class="sec-label">Assessment</p>
       <h2>19 Hormetic Domains — Rate Your Practice</h2>
@@ -555,9 +485,88 @@
         sweet spot.
       </p>
 
+      <div class="callout">
+        <p><strong>How to use this form:</strong> Radar, score, and action plan update live
+        as you move each slider; Export saves your profile. Timing guidance below sets
+        dose intervals — sensors and sources after it are reference.</p>
+      </div>
+
+        <div class="adv-card">
+        <details id="weightTuner">
+          <summary>Tune domain weights <span id="weightMode">— evidence default</span></summary>
+          <p class="tuner-hint">Higher weight = counts more in the composite and guidance priority. 0 = ignore domain. L applies below the hormetic zone (slider &lt; 5), H above it (slider &gt; 5); 1.0 = symmetric.</p>
+          <div class="tuner-presets">
+            <button class="btn" onclick="applyWeightPreset('evidence')">Evidence default</button>
+            <button class="btn" onclick="applyWeightPreset('equal')">Equal (all 1.0)</button>
+            <button class="btn" onclick="resetWeights()">Reset weights</button>
+          </div>
+          <div class="table-wrap"><table class="tuner-table">
+            <thead><tr><th>Domain</th><th>Weight</th><th>Low / High mult</th></tr></thead>
+            <tbody id="weightTunerBody"></tbody>
+          </table></div>
+        </details>
+        <details id="responseTracker">
+          <summary>Track biomarker response <span id="responseMode">— baseline → retest</span></summary>
+          <p class="tuner-hint">Optional Layer B. Enter a pre-protocol baseline and a retest (≥2–4 weeks apart). Improvement toward ~30–60% = hormetic response (credit capped at +60% — beyond that is not extra hormesis); near-zero change = dormant; reversal = overshoot. This layer confirms the practice score — it does not replace it. Contested, EIMD, and clinic-only domains carry no outcome target.</p>
+          <div class="table-wrap"><table class="tuner-table resp-table">
+            <thead><tr><th>Endpoint</th><th>Baseline</th><th>Retest</th><th>Δ</th><th>Signal</th></tr></thead>
+            <tbody id="responseTrackerBody"></tbody>
+          </table></div>
+        </details>
+        </div>
+
       <div id="domain-sliders"></div>
     </section>
+    <!-- ==================== RADAR CHART ==================== -->
+    <section id="radar">
+      <p class="sec-label">Your Profile</p>
+      <h2>Hormetic Range Radar</h2>
+      <p>
+        Your slider values are plotted on the radar chart below. The ideal profile is a
+        broad, balanced polygon that fills the <strong>3–6 zone</strong> across all domains —
+        consistent hormetic practice without excessive exposure in any single domain. A
+        collapsed polygon (low values) suggests underexploited adaptive potential; a spiked
+        polygon (very high in some, low in others) suggests an imbalanced profile with
+        risk of chronic overload in some pathways and dormancy in others.
+      </p>
+      <div class="radar-wrap">
+        <div class="copy-host">
+          <canvas id="radarCanvas" width="700" height="700"></canvas>
+          <button class="copy-btn" data-copy-canvas="radarCanvas" title="Copy radar chart as PNG" aria-label="Copy radar chart as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== SCORE SUMMARY ==================== -->
+    <section id="summary">
+      <div class="score-panel">
+        <h2>Composite Hormetic Range Score</h2>
+        <div class="score-big" id="compositeScore">0</div>
+        <div class="score-sub" id="compositeLabel">Set your domain sliders to generate a profile.</div>
+        <div id="responseSummary"></div>
 
+        <div id="domainScores"></div>
+
+
+        <div class="export-row">
+          <button class="btn primary" onclick="exportJSON()">Export profile (JSON)</button>
+          <button class="btn" onclick="resetAll()">Reset all sliders</button>
+          <button class="btn" onclick="window.print()">Print / PDF</button>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== GUIDANCE ==================== -->
+    <section id="guidance">
+      <p class="sec-label">Guidance</p>
+      <h2>Expanding Your Hormetic Range — Domain-Specific Pathways</h2>
+      <p>
+        Based on your profile, the action plan below is prioritized by weighted
+        off-target impact — high-weight domains outside the hormetic zone first.
+        Each card gives the action, key watch-outs, and biomarker state, with a
+        jump link to the slider. The full zone guidance lives under each slider
+        above and is never repeated here.
+      </p>
+      <div id="guidanceCards"></div>
+    </section>
     <!-- ==================== DURATION & TIMING ==================== -->
     <section id="timing">
       <p class="sec-label">Temporal Dimension</p>
@@ -815,315 +824,54 @@
         the delayed program before it is written. Conversely, a <em>different</em> stressor
         converging on the same sensor (e.g. cold + exercise both hitting AMPK) can either
         synergize or interfere depending on the gap. Timing is a dose dimension — treat it
-        as one.</p>
+        as one. And the dose ceiling still applies: maximum hormetic stimulation sits 30–60% above baseline (Calabrese) — the same +60% cap used in the biomarker tracker.</p>
       </div>
     </section>
-
-    <!-- ==================== INTERACTION MATRIX ==================== -->
-    <section id="interactions">
-      <p class="sec-label">Concurrent Practices</p>
-      <h2>Stressor Stacking — What Interferes, What Synergizes</h2>
+    <!-- ==================== CORE SENSORS ==================== -->
+    <section id="sensors">
+      <p class="sec-label">Molecular Architecture</p>
+      <h2>Core Sensors and Downstream Effectors</h2>
       <p>
-        Hormetic stressors share sensors (AMPK, NRF2, mTOR, HSF1), so combining them can
-        either <strong>amplify</strong> the adaptive signal or <strong>cancel</strong> it.
-        The clearest quantitative cases:
+        Every hormetic domain converges on a shared sensor–effector architecture. The
+        sensors detect the specific stressor signal (ROS, oxygen tension, nutrient scarcity,
+        temperature shift, mechanical load) and route it to overlapping transcriptional
+        programs. The key insight from the antioxidant-enzyme cluster review is that
+        <strong>compartment, dose window, and oxidation-state set point</strong> — not
+        expression level alone — determine whether a sensor-mediated response is protective
+        or pathogenic.
       </p>
 
-      <div class="rec-card interferes">
-        <div class="rec-label">Interferes — separate by ≥3 h (ideally 24 h)</div>
-        <p><strong>Cold plunge after resistance training.</strong> Piñero et al. 2024 meta-analysis
-        (8 studies): 95.7% probability that routine post-workout CWI blunts hypertrophy — every
-        included study applied cold <em>within 20 minutes</em> of training, and muscle remains
-        growth-sensitive for &gt;24 h. Mechanism: cold suppresses mTORC1, ribosome biogenesis,
-        satellite-cell activation, and the IL-6 inflammatory signal. Cold is still a valid
-        hormetic tool — just <strong>not in the anabolic window after lifting</strong>. Cold
-        before training, or on separate days, preserves both signals.</p>
-      </div>
-
-      <div class="rec-card interferes">
-        <div class="rec-label">Interferes — separate by ≥3 h</div>
-        <p><strong>High-intensity endurance before strength (same day).</strong> AMPK stays
-        elevated ~3 h after endurance work and directly inhibits mTORC1 (which remains active
-        ~18 h post-RT). Frontiers 2026 semi-systematic review: endurance→strength needs
-        <strong>≥3 h separation</strong> to avoid molecular interference; strength-first
-        sequencing optimizes neuromuscular adaptation.</p>
-      </div>
-
-      <div class="rec-card interferes">
-        <div class="rec-label">Interferes — avoid entirely around training</div>
-        <p><strong>Antioxidant supplements (vitamin C/E) + exercise.</strong> Quenches the ROS
-        signal that drives PGC-1α and mitochondrial biogenesis — the same blunting seen with
-        metformin co-administration. Also blocks the xenohormetic NRF2 pulse if taken with
-        sulforaphane-type compounds. The supplemental dose is the problem, not dietary
-        antioxidants from food.</p>
-      </div>
-
-      <div class="rec-card interferes">
-        <div class="rec-label">Interferes — avoid the acute window</div>
-        <p><strong>NSAIDs after eccentric exercise / during mild fever.</strong> Blocks
-        prostaglandin-mediated satellite-cell proliferation and the repeated-bout memory write.
-        Reserve for genuine injury. Same logic for routine antipyretics during low-grade
-        infection.</p>
-      </div>
-
-      <div class="rec-card synergy">
-        <div class="rec-label">Synergizes — safe to stack</div>
-        <p><strong>Sauna after exercise</strong> (Scoon 2007: +32% endurance), <strong>exercise
-        in hypoxic conditions</strong> (stacks AMPK + HIF-1α), <strong>fasting + training</strong>
-        in the catabolic window (convergent AMPK — but sequence the anabolic/feeding phase
-        deliberately afterward, per the CACH model), <strong>phytochemical diversity +
-        any stressor</strong> (mild NRF2 priming lowers the threshold for adaptation).</p>
-      </div>
-
-      <div class="rec-card contextual">
-        <div class="rec-label">Context-dependent</div>
-        <p><strong>Chronic multiple stressors without recovery.</strong> The CACH model's
-        core warning: the anabolic phase is not optional. Stacking 5+ hormetic practices
-        daily with no off-days produces allostatic load, not adaptation — the same inverted-U
-        applies to the <em>number of concurrent stressors</em> as to any single dose.</p>
-      </div>
-    </section>
-
-    <!-- ==================== LANGUAGE VARIANCE ==================== -->
-    <section id="language">
-      <p class="sec-label">The Visibility Problem</p>
-      <h2>Language Variance: Why 80–90% of Hormesis Research Is Invisible</h2>
-
-      <div class="callout">
-        <p class="big-num">80–90%</p>
-        <p>
-          of hormesis-relevant studies are missed under standard search terms because
-          different fields use different vocabulary for the same biological principle.
-          This is <strong>not a biology problem — it is a linguistics problem</strong>.
-          The underlying mechanism (subtoxic stress → adaptive resilience via conserved
-          sensors) is identical across all 19 domains; only the naming convention changes.
-        </p>
-      </div>
-
-      <p>
-        The 2024 <em>Nature</em> review by Li et al. (101 citations, 36k accesses) and the
-        2026 Springer "Crucible of Resilience" paper both argue that this vocabulary
-        fragmentation is the primary reason hormesis remains clinically underexploited.
-        Below is a field-by-field map of the terminology gap:
-      </p>
-
-      <table class="vocab-table">
-        <thead>
-          <tr>
-            <th>Domain</th>
-            <th>Hormesis term</th>
-            <th>Field-specific vocabulary</th>
-            <th>% of literature using alternative terms</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Low-Dose Radiation</td>
-            <td>Radiation hormesis</td>
-            <td>Adaptive response, radio-adaptive response, preconditioning, genotoxic adaptation</td>
-            <td>~75%</td>
-          </tr>
-          <tr>
-            <td>ROS Signaling</td>
-            <td>Mitohormesis</td>
-            <td>Redox signaling, ROS-mediated signaling, oxidative eustress, hormetic redox regulation</td>
-            <td>~65%</td>
-          </tr>
-          <tr>
-            <td>Inflammation</td>
-            <td>Inflammatory hormesis</td>
-            <td>Repeated bout effect, exercise-induced muscle damage adaptation, immune priming, febrile response</td>
-            <td>~85%</td>
-          </tr>
-          <tr>
-            <td>Intermittent Hypoxia</td>
-            <td>Hypoxic hormesis</td>
-            <td>Intermittent hypoxia conditioning (IHC), hypoxic preconditioning, altitude training response</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>Caloric Stress / Fasting</td>
-            <td>Nutrient hormesis</td>
-            <td>Metabolic switching, fasting-induced autophagy, caloric restriction response, time-restricted feeding adaptation</td>
-            <td>~55%</td>
-          </tr>
-          <tr>
-            <td>Immune / Hygiene</td>
-            <td>Microbial hormesis</td>
-            <td>Old Friends hypothesis, hygiene hypothesis, immune tolerance training, Treg education</td>
-            <td>~80%</td>
-          </tr>
-          <tr>
-            <td>Heat / Cold</td>
-            <td>Thermal hormesis</td>
-            <td>Heat shock response, cold acclimation, brown adipose recruitment, contrast therapy adaptation</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>Psychological Stress</td>
-            <td>Psychological hormesis</td>
-            <td>Eustress, stress inoculation training (SIT), post-traumatic growth, cognitive reserve, Yerkes-Dodson</td>
-            <td>~90%</td>
-          </tr>
-          <tr>
-            <td>Xenohormesis</td>
-            <td>Xenohormesis</td>
-            <td>Phytochemical signaling, hormetic phytochemical response, biphasic dose response</td>
-            <td>~60%</td>
-          </tr>
-          <tr>
-            <td>Low-Dose Alcohol</td>
-            <td>Alcohol hormesis</td>
-            <td>J-shaped curve, biphasic mortality, moderate drinking paradox</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>Gut Microbiome</td>
-            <td>Microbial colonization hormesis</td>
-            <td>Colonization resistance, microbiome maturation, SCFA signaling, post-antibiotic reconstitution</td>
-            <td>~75%</td>
-          </tr>
-          <tr>
-            <td>Mechanical Stress</td>
-            <td>Mechanical hormesis</td>
-            <td>Wolff's Law, mechanotransduction adaptation, load-mediated remodeling, mechanostat theory</td>
-            <td>~80%</td>
-          </tr>
-          <tr>
-            <td>Light / Photobiomodulation</td>
-            <td>Photobiomodulation hormesis</td>
-            <td>Photobiomodulation, LLLT, red/NIR therapy, heliotherapy</td>
-            <td>~80%</td>
-          </tr>
-          <tr>
-            <td>Chemical / Pharma</td>
-            <td>Chemical hormesis</td>
-            <td>Arndt-Schulz, biphasic dose-response, metformin/rapamycin pleiotropy</td>
-            <td>~65%</td>
-          </tr>
-          <tr>
-            <td>Ischemic Conditioning</td>
-            <td>Ischemic hormesis</td>
-            <td>IPC, RIPC, postconditioning, ischemic tolerance</td>
-            <td>~75%</td>
-          </tr>
-          <tr>
-            <td>Proteotoxic / ER</td>
-            <td>Proteotoxic hormesis</td>
-            <td>UPRmt, proteostasis priming, ER hormesis</td>
-            <td>~70%</td>
-          </tr>
-          <tr>
-            <td>Osmotic Stress</td>
-            <td>Osmotic hormesis</td>
-            <td>Desiccation hardening, osmopriming, POS</td>
-            <td>~85%</td>
-          </tr>
-          <tr>
-            <td>Gravity / Vibration</td>
-            <td>Gravity hormesis</td>
-            <td>Hypergravity conditioning, whole-body vibration, crowding hormesis</td>
-            <td>~85%</td>
-          </tr>
-          <tr>
-            <td>Hyperoxia / Acoustic</td>
-            <td>Hyperoxic hormesis</td>
-            <td>Hyperoxic preconditioning, HBOT, ozone therapy, sound enrichment</td>
-            <td>~85%</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p style="margin-top: 12px;">
-        <strong>Weighted average across all 19 domains: ~75% of hormesis-relevant literature
-        uses field-specific terminology rather than the word "hormesis."</strong> This means
-        that a researcher searching only for "hormesis" will systematically miss roughly
-        three-quarters of the evidence base. The remaining ~25% uses "hormesis" directly —
-        predominantly in radiation biology, caloric restriction, and xenohormesis, where the
-        term originated or was early-adopted.
-      </p>
-      <p>
-        Psychological stress inoculation is the most invisible (~90% alternative terminology),
-        while caloric restriction / fasting is the least (~55%) — reflecting the earlier
-        adoption of "hormesis" language in the nutrition/longevity field (Mattson, Calabrese).
-      </p>
-    </section>
-
-    <!-- ==================== RADAR CHART ==================== -->
-    <section id="radar">
-      <p class="sec-label">Your Profile</p>
-      <h2>Hormetic Range Radar</h2>
-      <p>
-        Your slider values are plotted on the radar chart below. The ideal profile is a
-        broad, balanced polygon that fills the <strong>3–6 zone</strong> across all domains —
-        consistent hormetic practice without excessive exposure in any single domain. A
-        collapsed polygon (low values) suggests underexploited adaptive potential; a spiked
-        polygon (very high in some, low in others) suggests an imbalanced profile with
-        risk of chronic overload in some pathways and dormancy in others.
-      </p>
-      <div class="radar-wrap">
-        <div class="copy-host">
-          <canvas id="radarCanvas" width="700" height="700"></canvas>
-          <button class="copy-btn" data-copy-canvas="radarCanvas" title="Copy radar chart as PNG" aria-label="Copy radar chart as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      <div class="sensor-grid">
+        <div class="sensor-card">
+          <h4>AMPK</h4>
+          <p class="pathway">Low energy → PGC-1α → mitochondrial biogenesis; autophagy via ULK1; TFEB → lysosomal biogenesis; inhibits mTORC1. Convergent node for fasting, exercise, hypoxia, metformin, xenohormetics.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>NRF2</h4>
+          <p class="pathway">Oxidative/electrophilic stress → ARE → endogenous antioxidant enzymes (SOD, catalase, GPx, HO-1, NQO1); Trx/Srx feed-forward loop. Activated by sulforaphane, 4-HNE, exercise ROS, LDR.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>HIF-1α</h4>
+          <p class="pathway">Low O₂ → EPO, VEGF, glycolytic enzymes; positive ROS feedback → AMPK. Convergent node for intermittent hypoxia, exercise, cold exposure. Transient activation = adaptive; chronic = oncogenic.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>SIRT1 / SIRT3</h4>
+          <p class="pathway">NAD⁺-sensing deacetylases. SIRT1 → FOXO → MnSOD/catalase/GSH; SIRT3 → MnSOD acetylation dial (K68). Hormetic window: 2.5–7.5× protective; 12.5× pathogenic (Alcendor 2007). Activated by fasting, exercise, resveratrol.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>HSF1</h4>
+          <p class="pathway">Protein unfolding → HSP70/HSP90 → molecular chaperone proteostasis network. Central to thermal hormesis (sauna, heat shock), also activated by exercise, xenohormetics (curcumin), and fasting. One of the hallmarks of longevity.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>FOXO</h4>
+          <p class="pathway">Downstream of AMPK/SIRT1; transcription factor for MnSOD, catalase, GADD45, autophagy genes, atrophy resistance. The output arm linking nutrient stress → stress-resistance gene program.</p>
         </div>
       </div>
-    </section>
 
-    <!-- ==================== SCORE SUMMARY ==================== -->
-    <section id="summary">
-      <div class="score-panel">
-        <h2>Composite Hormetic Range Score</h2>
-        <div class="score-big" id="compositeScore">0</div>
-        <div class="score-sub" id="compositeLabel">Set your domain sliders to generate a profile.</div>
-        <div id="responseSummary"></div>
-
-        <div id="domainScores"></div>
-
-        <details id="weightTuner">
-          <summary>Tune domain weights <span id="weightMode">— evidence default</span></summary>
-          <p class="tuner-hint">Higher weight = counts more in the composite and guidance priority. 0 = ignore domain. L applies below the hormetic zone (slider &lt; 5), H above it (slider &gt; 5); 1.0 = symmetric.</p>
-          <div class="tuner-presets">
-            <button class="btn" onclick="applyWeightPreset('evidence')">Evidence default</button>
-            <button class="btn" onclick="applyWeightPreset('equal')">Equal (all 1.0)</button>
-            <button class="btn" onclick="resetWeights()">Reset weights</button>
-          </div>
-          <div class="table-wrap"><table class="tuner-table">
-            <thead><tr><th>Domain</th><th>Weight</th><th>Low / High mult</th></tr></thead>
-            <tbody id="weightTunerBody"></tbody>
-          </table></div>
-        </details>
-
-        <details id="responseTracker">
-          <summary>Track biomarker response <span id="responseMode">— baseline → retest</span></summary>
-          <p class="tuner-hint">Optional Layer B. Enter a pre-protocol baseline and a retest (≥2–4 weeks apart). Improvement toward ~30–60% = hormetic response (credit capped at +60% — beyond that is not extra hormesis); near-zero change = dormant; reversal = overshoot. This layer confirms the practice score — it does not replace it. Contested, EIMD, and clinic-only domains carry no outcome target.</p>
-          <div class="table-wrap"><table class="tuner-table resp-table">
-            <thead><tr><th>Endpoint</th><th>Baseline</th><th>Retest</th><th>Δ</th><th>Signal</th></tr></thead>
-            <tbody id="responseTrackerBody"></tbody>
-          </table></div>
-        </details>
-
-        <div class="export-row">
-          <button class="btn primary" onclick="exportJSON()">Export profile (JSON)</button>
-          <button class="btn" onclick="resetAll()">Reset all sliders</button>
-          <button class="btn" onclick="window.print()">Print / PDF</button>
-        </div>
+      <div class="callout teal">
+        <p><strong>The antioxidant-enzyme lesson:</strong> Trx1, MnSOD, catalase, and peroxiredoxin are not interchangeable free-radical sponges. Compartment (mitochondrial vs. cytosolic), dose window (SIRT3 acetylation cycling, not fixed on/off), and reversibility of modification (sulfinic repair via Srx vs. irreversible nitration) determine whether the enzyme response falls within the hormetic zone or exits into pathology. This is why <em>how you hormetically stress</em> matters as much as <em>whether you do</em>.</p>
       </div>
     </section>
-
-    <!-- ==================== GUIDANCE ==================== -->
-    <section id="guidance">
-      <p class="sec-label">Guidance</p>
-      <h2>Expanding Your Hormetic Range — Domain-Specific Pathways</h2>
-      <p>
-        Based on your profile, the action plan below is prioritized by weighted
-        off-target impact — high-weight domains outside the hormetic zone first.
-        Each card gives the action, key watch-outs, and biomarker state, with a
-        jump link to the slider. The full zone guidance lives under each slider
-        above and is never repeated here.
-      </p>
-      <div id="guidanceCards"></div>
-    </section>
-
     <!-- ==================== SOURCES ==================== -->
     <section id="refs">
       <p class="sec-label">Sources</p>
@@ -1152,6 +900,12 @@
         <p style="margin-top:6px;">Generated by <a href="https://graph.johnnykuo.com">llm-wiki-jk</a> · All assessments are for educational purposes only — consult a healthcare provider before beginning any stress-exposure protocol.</p>
       </div>
     </section>
+
+  
+
+  
+
+  
 
   </main>
 </div>
@@ -1271,7 +1025,7 @@ const DOMAINS = [
     desc: 'Sauna 4–7×/wk → 50% CVD mortality reduction (Laukkanen, n=2,315, 20.7 yr). Cold: BAT activation + RBM3 synapse regeneration + 250% dopamine. Contrast therapy trains endothelial function and autonomic flexibility.',
     sensors: ['HSF1/HSP70/HSP90', 'AMPK', 'UCP1', 'SIRT1/SIRT3'],
     effectors: ['Proteostasis (chaperone network)', 'BAT thermogenesis', 'RBM3 neuroprotection', 'Norepinephrine surge', 'Endothelial training'],
-    avoid: ['Extreme heat stroke', 'Extreme hypothermia / cardiac events', 'Chronic thermal comfort zone'],
+    avoid: ['Extreme heat stroke', 'Extreme hypothermia / cardiac events', 'Chronic thermal comfort zone', 'Cold plunge right after lifting (blunts hypertrophy)'],
     zoneLabel: ['Comfort', 'Mild', 'Moderate', 'Hormetic', 'Intense', 'Dangerous'],
     zoneRange: 'Ambient comfort → sauna/cold plunge → extreme exposure',
     guidance: {
@@ -1515,7 +1269,6 @@ const MULT_DEFAULTS = {
   inflammation: [1.0, 1.2], hypoxia: [1.0, 1.6], light: [1.0, 1.4],
   proteo: [1.0, 1.6], bone: [1.2, 1.2], gravity: [1.0, 1.5]
 };
-const WEIGHT_STORE = 'hormetic-weights-v2';
 let customW = {};
 let customM = {};
 let weightPreset = 'evidence';
@@ -1537,21 +1290,6 @@ function domainScoreParts(d) {
   const prox = Math.max(0, 1 - gap * m) * 100;
   const priority = w * gap * m;
   return { v, w, L: mPair[0], H: mPair[1], gap, m, prox, priority };
-}
-function loadWeights() {
-  try {
-    const raw = localStorage.getItem(WEIGHT_STORE);
-    if (!raw) return;
-    const saved = JSON.parse(raw);
-    if (saved.w) customW = saved.w;
-    if (saved.m) customM = saved.m;
-    if (saved.preset) weightPreset = saved.preset;
-  } catch (_) { /* private mode etc. — fall back to defaults */ }
-}
-function saveWeights() {
-  try {
-    localStorage.setItem(WEIGHT_STORE, JSON.stringify({ w: customW, m: customM, preset: weightPreset }));
-  } catch (_) { /* storage unavailable — session-only weights */ }
 }
 function setWeightModeLabel() {
   const el = document.getElementById('weightMode');
@@ -1586,7 +1324,6 @@ function clampNum(x, lo, hi, fb) {
 function onWeight(id, val) {
   customW[id] = clampNum(val, 0, 2, getW(id));
   weightPreset = 'custom';
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1596,7 +1333,6 @@ function onMult(id, side, val) {
   cur[side] = clampNum(val, 0, 2.5, cur[side]);
   customM[id] = cur;
   weightPreset = 'custom';
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1610,7 +1346,6 @@ function applyWeightPreset(mode) {
     customM = {};
     weightPreset = 'evidence';
   }
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1619,7 +1354,6 @@ function resetWeights() {
   customW = {};
   customM = {};
   weightPreset = 'evidence';
-  saveWeights();
   renderWeightTuner();
   updateScore();
   renderGuidance();
@@ -1686,7 +1420,6 @@ const RESPONSE_TRACKED = [
     { key: 'jump', label: 'Vertical jump height', unit: 'cm', lowerBetter: false }
   ] }
 ];
-const RESPONSE_STORE = 'hormetic-response-v1';
 const RESPONSE_NOISE = 5;   // |Δ| below this = dormant (measurement noise)
 const RESPONSE_CEIL = 60;   // hormetic credit capped at +60%
 let respData = {};
@@ -1694,17 +1427,6 @@ let respData = {};
 function domainTitle(id) {
   const d = DOMAINS.find(x => x.id === id);
   return d ? `${d.num} ${d.title}` : id;
-}
-function loadResponse() {
-  try {
-    const raw = localStorage.getItem(RESPONSE_STORE);
-    if (raw) respData = JSON.parse(raw) || {};
-  } catch (_) { /* storage unavailable — session-only data */ }
-}
-function saveResponse() {
-  try {
-    localStorage.setItem(RESPONSE_STORE, JSON.stringify(respData));
-  } catch (_) { /* storage unavailable — session-only data */ }
 }
 function respEntry(id, key) {
   return respData[`${id}:${key}`] || {};
@@ -1758,7 +1480,6 @@ function onResponse(id, key, side, val) {
   cur[side] = (num != null && isFinite(num)) ? num : null;
   if (cur.b == null && cur.r == null) delete respData[k];
   else respData[k] = cur;
-  saveResponse();
   const t = RESPONSE_TRACKED.find(x => x.id === id);
   const ep = t.endpoints.find(e => e.key === key);
   const sig = respSignal(ep, (respData[k] || {}).b, (respData[k] || {}).r);
@@ -1869,8 +1590,8 @@ function renderSliders() {
           <div class="rec-label">Guidance</div>
           <p>${d.guidance.mid}</p>
         </div>
-        <div class="rec-card" id="rec-low-${d.id}" style="display:none">
-          <div class="rec-label">Guidance — Expand your range</div>
+        <div class="rec-card" id="rec-low-${d.id}" style="display:none;border-left-color:var(--gold)">
+          <div class="rec-label" style="color:var(--gold)">Guidance — Expand your range</div>
           <p>${d.guidance.low}</p>
         </div>
         <div class="rec-card" id="rec-high-${d.id}" style="display:none;border-left-color:var(--red)">
@@ -2152,7 +1873,7 @@ function renderGuidance() {
     const v = values[d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const label = tier === 'low' ? 'Expand your range' : tier === 'high' ? 'Reduce exposure' : 'Maintain';
-    const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
+    const borderColor = tier === 'low' ? 'var(--gold)' : tier === 'high' ? 'var(--red)' : 'var(--teal)';
     // Action plan only — the full zone paragraph lives under each slider,
     // so it is never repeated here. Watch-outs come from avoid[], which
     // appears nowhere else on the page.
@@ -2221,8 +1942,6 @@ function resetAll() {
 //  INIT
 // ============================================================
 loadState();
-loadWeights();
-loadResponse();
 renderSliders();
 renderWeightTuner();
 renderResponseTracker();
