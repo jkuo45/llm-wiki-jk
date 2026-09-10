@@ -64,6 +64,16 @@ window.IndexCore = (function () {
     ["Older", "較早", "old"],
     ["Indexes", "索引附錄", "old"],
   ];
+  /* Updated-date variant for pages sorted by recency of update
+     (e.g. articles-index). Same shape/count as BUCKETS so bucket indexes
+     stay interchangeable; only the time-bucket labels differ. */
+  var UPDATED_BUCKETS = [
+    ["Starred", "星標", ""],
+    ["Updated this week", "本週更新", "fresh"],
+    ["Updated this month", "本月更新", "recent"],
+    ["Older", "較早", "old"],
+    ["Indexes", "索引附錄", "old"],
+  ];
 
   /* DB-backed flag overlay (content_flags via the FastAPI adapter).
      Currently OFF everywhere — static flags only. Flip per page to
@@ -117,6 +127,7 @@ window.IndexCore = (function () {
     relAge: relAge,
     bucket: bucket,
     BUCKETS: BUCKETS,
+    UPDATED_BUCKETS: UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED: FLAGS_OVERLAY_ENABLED,
     flagsUrl: flagsUrl,
     announceNavigate: announceNavigate,

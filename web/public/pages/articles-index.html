@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Articles — Index</title>
-<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, grouped by when they were created, with en-US editions and zh-TW editions alongside.">
+<meta name="description" content="Index of all articles in the llm-wiki-jk knowledge base, grouped by when they were updated, with en-US editions and zh-TW editions alongside.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/articles-index.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
@@ -103,9 +103,10 @@
 
 <script>
 (function(){
-  const { esc, highlight, parseQuery, asStr, relAge, bucket, BUCKETS,
+  const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
+  const BUCKETS = UPDATED_BUCKETS;
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
   const SEARCH_KEY = 'articles-index-search';
   const list = document.getElementById('articleList');
@@ -152,6 +153,10 @@
         const zh = a.langs['zh-TW'];
         const starred = dbStarred(a);
         const weight = a.weight || 0;
+        /* Sort/group by update recency (fall back to created when an
+           entry has no updated date). */
+        const updated = en.updated || en.created || '';
+        const created = en.created || '';
         return {
           id: a.id,
           _idx: ai,
@@ -162,16 +167,17 @@
           desc: asStr(en.description || ''),
           enPath: en.path.replace(/^pages\//, ''),
           zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
-          created: en.created || '',
-          age: relAge(en.created || ''),
+          created,
+          updated,
+          age: relAge(updated),
           /* Weighted entries (index pages) skip the time buckets and land
              together in the trailing Indexes section (bucket 4). */
-          bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(en.created || ''))
+          bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(updated))
         };
       })
       .sort((x, y) => (y.starred - x.starred) ||
         (x.weight - y.weight) ||
-        (y.created || '').localeCompare(x.created || ''));
+        (y.updated || '').localeCompare(x.updated || ''));
 
       function render(){
         const tokens = parseQuery(searchBox.value);
@@ -190,7 +196,7 @@
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
               <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'created today' : `created ${esc(a.age)} ago`} (${esc(a.created)})</span></p>
+              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? 'updated today' : `updated ${esc(a.age)} ago`} (${esc(a.updated)})</span></p>
             </li>`).join('');
           html += '</ul>';
         });
