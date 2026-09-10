@@ -10,7 +10,7 @@ viewer, a prompt backend, and graph-build tooling.
 
 | Path               | Purpose                                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `src/notes/`       | The wiki. Subdirectories are **topics** (`_link/` holds cross-topic shared entities). Each `.md` is one entity or document note.      |
+| `src/notes/`       | The wiki. Subdirectories are **topics** (`_link/` is the resolver pool for shared, non-protected entities). Each `.md` is one entity or document note. |
 | `src/tasks/`       | Task/analysis outputs. Default save location for task outputs.                                                                        |
 | `src/images/`      | Ingested images per `image-ingest` skill; `manifest.json` is the source of truth.                                                     |
 | `raw/`             | Unprocessed documents awaiting the Document Ingestion Workflow (§5).                                                                  |
@@ -195,19 +195,27 @@ Normalizations (verify canonical filenames first):
 
 ---
 
-## 7. Overlapping Link Resolution (`_link/` semantics)
+## 7. Topic Home vs `_link/` Placement
 
-- `src/notes/_link/` is the **single source of truth** for entities referenced
-  across multiple topics (e.g. `Inflammation.md`, `NAD+.md`). Topic dirs keep
-  their hub note (filename == directory name) and topic-specific entities only.
-- **Prevention check**: before creating any entity, verify no same-named file
-  exists anywhere in `src/notes/`.
-- Overlapping new entity → merge (append) its content into the `_link/`
-  version; keep only the consolidated file there. The note still stays listed
-  on the original topic's README.
-- **Protected entities**: frontmatter `protected: true` files are **never**
-  moved to `_link/` (topic hubs are protected by this flag too). Frontmatter
-  is the single source of truth — no hardcoded lists.
+- **Topic dir** (e.g. `cell-death/`) is the home for entities whose
+  primary context is that topic — core machinery, hub note
+  (filename == directory name), and any note with `protected: true`.
+  Example: apoptosis/necroptosis/parthanatos executors, regulators,
+  and complexes live in `cell-death/`.
+- **`src/notes/_link/`** is the resolver pool for shared,
+  non-protected entities with no single primary home (e.g.
+  `Inflammation.md`, `NAD+.md`). It is **not** the single source of
+  truth — a topic home outranks it. Its only hard guarantee: exactly
+  one resolvable copy of each non-protected shared entity.
+- **Prevention check**: before creating any entity, verify no
+  same-named file exists anywhere in `src/notes/`.
+- **New entity →** create in the topic dir if it has a clear primary
+  home; otherwise create in `_link/`. Set `protected: true` only to
+  pin a note to its topic home.
+- **Overlap found →** merge (append) into the primary-home version
+  if one qualifies, else into the `_link/` version; keep only the
+  consolidated file. Never move `protected: true` notes to `_link/`.
+  Frontmatter is the single source of truth — no hardcoded lists.
 
 ---
 
