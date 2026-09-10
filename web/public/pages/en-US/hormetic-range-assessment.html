@@ -328,14 +328,16 @@
   .btn.primary { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
   .btn.primary:hover { background: var(--oxblood-soft); }
 
-  /* ---- weight tuner (collapsed <details>, advanced only) ---- */
-  #weightTuner {
+  /* ---- weight tuner + response tracker (collapsed <details>, advanced only) ---- */
+  #weightTuner,
+  #responseTracker {
     border: 1px solid var(--rule);
     padding: 10px 14px 12px;
     margin: 14px 0 4px;
     font-size: .85rem;
   }
-  #weightTuner > summary {
+  #weightTuner > summary,
+  #responseTracker > summary {
     cursor: pointer;
     font-family: var(--mono);
     font-size: 11px;
@@ -343,8 +345,9 @@
     letter-spacing: .06em;
     color: var(--mute);
   }
-  #weightTuner > summary:hover { color: var(--ink); }
-  #weightMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
+  #weightTuner > summary:hover,
+  #responseTracker > summary:hover { color: var(--ink); }
+  #weightMode, #responseMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
   .tuner-hint { font-size: .8rem; color: var(--mute); margin: 8px 0 10px; line-height: 1.55; }
   .tuner-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
   .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
@@ -374,6 +377,23 @@
   }
   .tuner-share { font-family: var(--mono); font-size: 10px; color: var(--faint); margin-left: 6px; }
   .tuner-lh { font-family: var(--mono); font-size: 10px; color: var(--faint); margin: 0 2px; }
+
+  /* ---- response tracker (Layer B: baseline → retest) ---- */
+  #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
+  .resp-table input[type=number] { width: 64px; }
+  .resp-delta { font-family: var(--mono); font-size: 11px; white-space: nowrap; }
+  .sig {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 1px 6px;
+    border: 1px solid currentColor;
+    border-radius: var(--r-sm, 2px);
+    white-space: nowrap;
+  }
+  .sig-responding { color: var(--teal); }
+  .sig-dormant { color: var(--faint); }
+  .sig-negative { color: var(--red); }
+  .sig-capped { color: var(--gold); }
 
   /* ---- footer attribution ---- */
   .page-footer {
@@ -1055,6 +1075,7 @@
         <h2>Composite Hormetic Range Score</h2>
         <div class="score-big" id="compositeScore">0</div>
         <div class="score-sub" id="compositeLabel">Set your domain sliders to generate a profile.</div>
+        <div id="responseSummary"></div>
 
         <div id="domainScores"></div>
 
@@ -1072,6 +1093,15 @@
           </table></div>
         </details>
 
+        <details id="responseTracker">
+          <summary>Track biomarker response <span id="responseMode">— baseline → retest</span></summary>
+          <p class="tuner-hint">Optional Layer B. Enter a pre-protocol baseline and a retest (≥2–4 weeks apart). Improvement toward ~30–60% = hormetic response (credit capped at +60% — beyond that is not extra hormesis); near-zero change = dormant; reversal = overshoot. This layer confirms the practice score — it does not replace it. Contested, EIMD, and clinic-only domains carry no outcome target.</p>
+          <div class="table-wrap"><table class="tuner-table resp-table">
+            <thead><tr><th>Endpoint</th><th>Baseline</th><th>Retest</th><th>Δ</th><th>Signal</th></tr></thead>
+            <tbody id="responseTrackerBody"></tbody>
+          </table></div>
+        </details>
+
         <div class="export-row">
           <button class="btn primary" onclick="exportJSON()">Export profile (JSON)</button>
           <button class="btn" onclick="resetAll()">Reset all sliders</button>
@@ -1085,10 +1115,11 @@
       <p class="sec-label">Guidance</p>
       <h2>Expanding Your Hormetic Range — Domain-Specific Pathways</h2>
       <p>
-        Based on your profile, the recommendations below are prioritized by weighted
-        off-target impact — high-weight domains outside the hormetic zone first. Each
-        recommendation maps to specific sensors and effectors from the shared molecular
-        architecture.
+        Based on your profile, the action plan below is prioritized by weighted
+        off-target impact — high-weight domains outside the hormetic zone first.
+        Each card gives the action, key watch-outs, and biomarker state, with a
+        jump link to the slider. The full zone guidance lives under each slider
+        above and is never repeated here.
       </p>
       <div id="guidanceCards"></div>
     </section>
@@ -1595,6 +1626,200 @@ function resetWeights() {
 }
 
 // ============================================================
+//  RESPONSE TRACKER (Layer B: baseline → retest per endpoint)
+//  Practice sliders say WHERE exposure sits; endpoints say whether
+//  biology RESPONDED. Improvement toward ~+30-60% = hormetic
+//  response (capped); near-zero = dormant; reversal = overshoot.
+//  Contested domains (radiation, alcohol, hyperoxia) intentionally
+//  carry no outcome target.
+// ============================================================
+const RESPONSE_TRACKED = [
+  { id: 'ros', endpoints: [
+    { key: 'rhr', label: 'Resting heart rate', unit: 'bpm', lowerBetter: true },
+    { key: 'hrv', label: 'HRV (rMSSD)', unit: 'ms', lowerBetter: false }
+  ] },
+  { id: 'hypoxia', endpoints: [
+    { key: 'breathhold', label: 'Comfortable breath-hold', unit: 'sec', lowerBetter: false },
+    { key: 'resprate', label: 'Resting respiratory rate', unit: 'br/min', lowerBetter: true }
+  ] },
+  { id: 'fasting', endpoints: [
+    { key: 'fbg', label: 'Fasting glucose', unit: 'mg/dL', lowerBetter: true },
+    { key: 'a1c', label: 'HbA1c', unit: '%', lowerBetter: true }
+  ] },
+  { id: 'immune', endpoints: [
+    { key: 'sickdays', label: 'Respiratory sick days / year', unit: 'days', lowerBetter: true },
+    { key: 'allergy', label: 'Allergy symptoms (VAS)', unit: '0–10', lowerBetter: true }
+  ] },
+  { id: 'thermal', endpoints: [
+    { key: 'sbp', label: 'Resting systolic BP', unit: 'mmHg', lowerBetter: true }
+  ] },
+  { id: 'psych', endpoints: [
+    { key: 'pss', label: 'Perceived stress (PSS-10)', unit: '0–40', lowerBetter: true }
+  ] },
+  { id: 'xeno', endpoints: [
+    { key: 'crp', label: 'hs-CRP (lab)', unit: 'mg/L', lowerBetter: true }
+  ] },
+  { id: 'gut', endpoints: [
+    { key: 'plants', label: 'Plant species / week', unit: 'count', lowerBetter: false },
+    { key: 'bloat', label: 'Bloating (VAS)', unit: '0–10', lowerBetter: true }
+  ] },
+  { id: 'bone', endpoints: [
+    { key: 'grip', label: 'Grip strength', unit: 'kg', lowerBetter: false },
+    { key: 'balance', label: 'Single-leg stand', unit: 'sec', lowerBetter: false }
+  ] },
+  { id: 'light', endpoints: [
+    { key: 'sol', label: 'Sleep onset latency', unit: 'min', lowerBetter: true },
+    { key: 'alert', label: 'Morning alertness (VAS)', unit: '0–10', lowerBetter: false }
+  ] },
+  { id: 'chem', endpoints: [
+    { key: 'waist', label: 'Waist at navel, morning', unit: 'cm', lowerBetter: true }
+  ] },
+  { id: 'proteo', endpoints: [
+    { key: 'sts', label: '5× sit-to-stand time', unit: 'sec', lowerBetter: true },
+    { key: 'deep', label: 'Deep sleep (wearable)', unit: 'h', lowerBetter: false }
+  ] },
+  { id: 'osmotic', endpoints: [
+    { key: 'urine', label: 'Morning urine color', unit: '1–8', lowerBetter: true },
+    { key: 'sauna', label: 'Sauna time at 80°C', unit: 'min', lowerBetter: false }
+  ] },
+  { id: 'gravity', endpoints: [
+    { key: 'jump', label: 'Vertical jump height', unit: 'cm', lowerBetter: false }
+  ] }
+];
+const RESPONSE_STORE = 'hormetic-response-v1';
+const RESPONSE_NOISE = 5;   // |Δ| below this = dormant (measurement noise)
+const RESPONSE_CEIL = 60;   // hormetic credit capped at +60%
+let respData = {};
+
+function domainTitle(id) {
+  const d = DOMAINS.find(x => x.id === id);
+  return d ? `${d.num} ${d.title}` : id;
+}
+function loadResponse() {
+  try {
+    const raw = localStorage.getItem(RESPONSE_STORE);
+    if (raw) respData = JSON.parse(raw) || {};
+  } catch (_) { /* storage unavailable — session-only data */ }
+}
+function saveResponse() {
+  try {
+    localStorage.setItem(RESPONSE_STORE, JSON.stringify(respData));
+  } catch (_) { /* storage unavailable — session-only data */ }
+}
+function respEntry(id, key) {
+  return respData[`${id}:${key}`] || {};
+}
+// Returns {code, delta} where code ∈ nodata|dormant|responding|negative|capped
+// and delta is the raw % change (retest vs baseline, sign-preserved).
+function respSignal(ep, b, r) {
+  if (b == null || r == null || !isFinite(b) || !isFinite(r) || b === 0) return { code: 'nodata', delta: null };
+  const delta = ((r - b) / Math.abs(b)) * 100;
+  const good = ep.lowerBetter ? delta < 0 : delta > 0;
+  const mag = Math.abs(delta);
+  if (mag < RESPONSE_NOISE) return { code: 'dormant', delta };
+  if (good) return mag > RESPONSE_CEIL ? { code: 'capped', delta } : { code: 'responding', delta };
+  return { code: 'negative', delta };
+}
+function sigChip(sig) {
+  if (sig.code === 'nodata') return '<span class="sig sig-dormant">—</span>';
+  if (sig.code === 'responding') return '<span class="sig sig-responding">Responding</span>';
+  if (sig.code === 'negative') return '<span class="sig sig-negative">Worsening</span>';
+  if (sig.code === 'capped') return '<span class="sig sig-capped">Above ceiling — verify</span>';
+  return '<span class="sig sig-dormant">Dormant</span>';
+}
+function fmtDelta(delta) {
+  if (delta == null) return '—';
+  const sign = delta > 0 ? '+' : delta < 0 ? '−' : '';
+  return `${sign}${Math.abs(delta).toFixed(1)}%`;
+}
+function renderResponseTracker() {
+  const body = document.getElementById('responseTrackerBody');
+  if (!body) return;
+  body.innerHTML = RESPONSE_TRACKED.map(t => t.endpoints.map(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    return `
+      <tr>
+        <td>${domainTitle(t.id)} — ${ep.label} <span class="tuner-lh">(${ep.unit}${ep.lowerBetter ? ', lower better' : ''})</span></td>
+        <td><input type="number" step="any" min="0" value="${e.b != null ? e.b : ''}"
+          onchange="onResponse('${t.id}', '${ep.key}', 'b', this.value)" aria-label="${ep.label} baseline"></td>
+        <td><input type="number" step="any" min="0" value="${e.r != null ? e.r : ''}"
+          onchange="onResponse('${t.id}', '${ep.key}', 'r', this.value)" aria-label="${ep.label} retest"></td>
+        <td class="resp-delta" id="resp-delta-${t.id}-${ep.key}">${fmtDelta(sig.delta)}</td>
+        <td id="resp-sig-${t.id}-${ep.key}">${sigChip(sig)}</td>
+      </tr>
+    `;
+  }).join('')).join('');
+}
+function onResponse(id, key, side, val) {
+  const k = `${id}:${key}`;
+  const num = val === '' || val == null ? null : parseFloat(val);
+  const cur = respData[k] || {};
+  cur[side] = (num != null && isFinite(num)) ? num : null;
+  if (cur.b == null && cur.r == null) delete respData[k];
+  else respData[k] = cur;
+  saveResponse();
+  const t = RESPONSE_TRACKED.find(x => x.id === id);
+  const ep = t.endpoints.find(e => e.key === key);
+  const sig = respSignal(ep, (respData[k] || {}).b, (respData[k] || {}).r);
+  const dEl = document.getElementById(`resp-delta-${id}-${key}`);
+  const sEl = document.getElementById(`resp-sig-${id}-${key}`);
+  if (dEl) dEl.textContent = fmtDelta(sig.delta);
+  if (sEl) sEl.innerHTML = sigChip(sig);
+  updateResponseSummary();
+  renderGuidance();
+}
+// Weighted mean of endpoint signs (+1/0/−1; capped counts 0) over
+// endpoints with data, using practice weights.
+function responseScore() {
+  let wSum = 0, wSig = 0, n = 0;
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    if (sig.code === 'nodata') return;
+    const w = getW(t.id);
+    wSum += w;
+    wSig += w * (sig.code === 'responding' ? 1 : sig.code === 'negative' ? -1 : 0);
+    n++;
+  }));
+  return { score: wSum > 0 ? wSig / wSum : null, n };
+}
+function updateResponseSummary() {
+  const el = document.getElementById('responseSummary');
+  if (!el) return;
+  const counts = { responding: 0, negative: 0, dormant: 0, capped: 0, n: 0 };
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    if (sig.code === 'nodata') return;
+    counts.n++;
+    if (sig.code in counts) counts[sig.code]++;
+  }));
+  if (!counts.n) {
+    el.textContent = 'Response: no biomarker data — practice score only.';
+    return;
+  }
+  const rs = responseScore();
+  const s = rs.score >= 0 ? `+${rs.score.toFixed(2)}` : rs.score.toFixed(2);
+  el.textContent = `Response ${s} — ${counts.responding} responding · ${counts.negative} worsening · ${counts.dormant} dormant · ${counts.capped} above ceiling (${counts.n} endpoints with data)`;
+}
+// Domain-level response state for guidance flags: worsening wins,
+// then responding, then dormant/capped.
+function domainResponse(id) {
+  const t = RESPONSE_TRACKED.find(x => x.id === id);
+  if (!t) return 'untracked';
+  let seen = 'nodata';
+  for (const ep of t.endpoints) {
+    const e = respEntry(id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    if (sig.code === 'negative') return 'worsening';
+    if (sig.code === 'responding') seen = 'responding';
+    else if (seen === 'nodata' && (sig.code === 'dormant' || sig.code === 'capped')) seen = sig.code;
+  }
+  return seen;
+}
+
+// ============================================================
 //  RENDER SLIDERS
 // ============================================================
 function renderSliders() {
@@ -1892,6 +2117,7 @@ function updateScore() {
       </div>
     `;
   }).join('');
+  updateResponseSummary();
 }
 
 // ============================================================
@@ -1902,16 +2128,43 @@ function renderGuidance() {
   const rows = DOMAINS.map(d => ({ d, priority: domainScoreParts(d).priority }));
   rows.sort((a, b) => b.priority - a.priority);
   const container = document.getElementById('guidanceCards');
-  container.innerHTML = rows.map((r, i) => {
+  // Practice × Response flags: where sliders and biomarkers disagree.
+  const flags = [];
+  rows.forEach(r => {
+    const v = values[r.d.id];
+    const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
+    const resp = domainResponse(r.d.id);
+    if (resp === 'untracked' || resp === 'nodata' || resp === 'dormant' || resp === 'capped') return;
+    if (tier === 'mid' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>: exposure reads in-zone but biomarkers are worsening — check dose timing and recovery (early 1–3h gap, delayed 12–72h window) before increasing.`);
+    else if (tier === 'low' && resp === 'responding') flags.push(`<strong>${r.d.title}</strong>: responding despite low exposure — hold the dose and retest before increasing.`);
+    else if (tier === 'low' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>: low exposure but worsening — likely a non-hormetic cause; investigate, do not add stress.`);
+    else if (tier === 'high' && resp === 'responding') flags.push(`<strong>${r.d.title}</strong>: still responding but dose reads high — do not increase; watch for overshoot.`);
+    else if (tier === 'high' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>: dose and biomarkers agree — reduce exposure.`);
+  });
+  const flagCard = flags.length ? `
+      <div class="rec-card contextual">
+        <div class="rec-label" style="color:var(--gold)">Practice × Response flags</div>
+        <p>• ${flags.join('<br>• ')}</p>
+      </div>
+    ` : '';
+  container.innerHTML = flagCard + rows.map((r, i) => {
     const d = r.d;
     const v = values[d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const label = tier === 'low' ? 'Expand your range' : tier === 'high' ? 'Reduce exposure' : 'Maintain';
     const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
+    // Action plan only — the full zone paragraph lives under each slider,
+    // so it is never repeated here. Watch-outs come from avoid[], which
+    // appears nowhere else on the page.
+    const resp = domainResponse(d.id);
+    const respLine = (resp === 'responding' || resp === 'worsening' || resp === 'dormant' || resp === 'capped')
+      ? `<p style="margin:0 0 4px"><strong>Biomarker:</strong> ${resp === 'responding' ? 'responding' : resp === 'worsening' ? 'worsening' : resp === 'capped' ? 'above ceiling — verify measurement' : 'dormant'}</p>` : '';
     return `
       <div class="rec-card" style="border-left-color:${borderColor}">
         <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label} (current: ${v}/10 · w ${getW(d.id).toFixed(1)})</div>
-        <p>${d.guidance[tier]}</p>
+        <p style="margin:0 0 4px"><strong>Watch out:</strong> ${d.avoid.join('; ')}</p>
+        ${respLine}
+        <p style="margin:0"><a href="#block-${d.id}">Adjust slider ↑</a> <span class="tuner-lh">(full zone guidance lives under each slider)</span></p>
       </div>
     `;
   }).join('');
@@ -1923,9 +2176,10 @@ function renderGuidance() {
 function exportJSON() {
   const data = {
     exported: new Date().toISOString(),
-    version: 'hormetic-range-v2',
+    version: 'hormetic-range-v3',
     weightPreset,
     scores: {},
+    response: {},
     compositeScore: document.getElementById('compositeScore').textContent
   };
   DOMAINS.forEach(d => {
@@ -1936,6 +2190,17 @@ function exportJSON() {
       weightedProximity: Math.round(parts.prox), priority: Math.round(parts.priority * 100) / 100
     };
   });
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    data.response[`${t.id}:${ep.key}`] = {
+      domain: domainTitle(t.id), endpoint: ep.label, unit: ep.unit,
+      baseline: e.b != null ? e.b : null, retest: e.r != null ? e.r : null,
+      deltaPct: sig.delta != null ? Math.round(sig.delta * 10) / 10 : null, signal: sig.code
+    };
+  }));
+  const rs = responseScore();
+  data.responseScore = rs.score != null ? Math.round(rs.score * 100) / 100 : null;
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
@@ -1957,8 +2222,10 @@ function resetAll() {
 // ============================================================
 loadState();
 loadWeights();
+loadResponse();
 renderSliders();
 renderWeightTuner();
+renderResponseTracker();
 updateRadar();
 updateScore();
 renderGuidance();

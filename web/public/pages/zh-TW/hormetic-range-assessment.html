@@ -331,14 +331,16 @@
   .btn.primary { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
   .btn.primary:hover { background: var(--oxblood-soft); }
 
-  /* ---- weight tuner (collapsed <details>, advanced only) ---- */
-  #weightTuner {
+  /* ---- weight tuner + response tracker (collapsed <details>, advanced only) ---- */
+  #weightTuner,
+  #responseTracker {
     border: 1px solid var(--rule);
     padding: 10px 14px 12px;
     margin: 14px 0 4px;
     font-size: .85rem;
   }
-  #weightTuner > summary {
+  #weightTuner > summary,
+  #responseTracker > summary {
     cursor: pointer;
     font-family: var(--mono);
     font-size: 11px;
@@ -346,8 +348,9 @@
     letter-spacing: .06em;
     color: var(--mute);
   }
-  #weightTuner > summary:hover { color: var(--ink); }
-  #weightMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
+  #weightTuner > summary:hover,
+  #responseTracker > summary:hover { color: var(--ink); }
+  #weightMode, #responseMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
   .tuner-hint { font-size: .8rem; color: var(--mute); margin: 8px 0 10px; line-height: 1.55; }
   .tuner-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
   .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
@@ -377,6 +380,23 @@
   }
   .tuner-share { font-family: var(--mono); font-size: 10px; color: var(--faint); margin-left: 6px; }
   .tuner-lh { font-family: var(--mono); font-size: 10px; color: var(--faint); margin: 0 2px; }
+
+  /* ---- response tracker (Layer B: baseline → retest) ---- */
+  #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
+  .resp-table input[type=number] { width: 64px; }
+  .resp-delta { font-family: var(--mono); font-size: 11px; white-space: nowrap; }
+  .sig {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 1px 6px;
+    border: 1px solid currentColor;
+    border-radius: var(--r-sm, 2px);
+    white-space: nowrap;
+  }
+  .sig-responding { color: var(--teal); }
+  .sig-dormant { color: var(--faint); }
+  .sig-negative { color: var(--red); }
+  .sig-capped { color: var(--gold); }
 
   /* ---- footer attribution ---- */
   .page-footer {
@@ -1025,6 +1045,7 @@
         <h2>綜合毒物興奮範圍分數</h2>
         <div class="score-big" id="compositeScore">0</div>
         <div class="score-sub" id="compositeLabel">設定你的領域滑桿以生成檔案。</div>
+        <div id="responseSummary"></div>
 
         <div id="domainScores"></div>
 
@@ -1042,6 +1063,15 @@
           </table></div>
         </details>
 
+        <details id="responseTracker">
+          <summary>追蹤生物標記反應 <span id="responseMode">— 基準 → 複測</span></summary>
+          <p class="tuner-hint">選填的第二層。輸入方案前的基準值和複測值（間隔 ≥2–4 週）。朝 ~30–60% 改善＝毒興反應（上限 +60%——超過並非更多毒興）；接近零變化＝休眠；反轉＝過度。此層用於確認實踐分數——不能取代它。爭議、EIMD 和僅限臨床的領域不設結果目標。</p>
+          <div class="table-wrap"><table class="tuner-table resp-table">
+            <thead><tr><th>指標</th><th>基準</th><th>複測</th><th>Δ</th><th>訊號</th></tr></thead>
+            <tbody id="responseTrackerBody"></tbody>
+          </table></div>
+        </details>
+
         <div class="export-row">
           <button class="btn primary" onclick="exportJSON()">匯出檔案（JSON）</button>
           <button class="btn" onclick="resetAll()">重設所有滑桿</button>
@@ -1055,8 +1085,9 @@
       <p class="sec-label">指引</p>
       <h2>擴展你的毒物興奮範圍——各領域途徑</h2>
       <p>
-        根據你的檔案，以下建議按加權偏離影響排序——高權重且偏離毒興窗口的領域優先。
-        每個建議對應共享分子架構中的特定感測器和效應器。
+        根據你的檔案，以下行動計畫按加權偏離影響排序——高權重且偏離毒興窗口的領域優先。
+        每張卡片給出行動、關鍵禁忌和生物標記狀態，並附跳回滑桿的連結。
+        完整指引位於上方各滑桿下方，此處不再重複。
       </p>
       <div id="guidanceCards"></div>
     </section>
@@ -1563,6 +1594,198 @@ function resetWeights() {
 }
 
 // ============================================================
+//  RESPONSE TRACKER (Layer B: baseline → retest per endpoint)
+//  實踐滑桿說明暴露位置；指標說明生物是否產生反應。
+//  朝 ~+30-60% 改善＝毒興反應（封頂）；接近零＝休眠；
+//  反轉＝過度。爭議領域刻意不設結果目標。
+// ============================================================
+const RESPONSE_TRACKED = [
+  { id: 'ros', endpoints: [
+    { key: 'rhr', label: '靜息心率', unit: 'bpm', lowerBetter: true },
+    { key: 'hrv', label: 'HRV（rMSSD）', unit: 'ms', lowerBetter: false }
+  ] },
+  { id: 'hypoxia', endpoints: [
+    { key: 'breathhold', label: '舒適閉氣', unit: '秒', lowerBetter: false },
+    { key: 'resprate', label: '靜息呼吸率', unit: '次/分', lowerBetter: true }
+  ] },
+  { id: 'fasting', endpoints: [
+    { key: 'fbg', label: '空腹血糖', unit: 'mg/dL', lowerBetter: true },
+    { key: 'a1c', label: '糖化血色素', unit: '%', lowerBetter: true }
+  ] },
+  { id: 'immune', endpoints: [
+    { key: 'sickdays', label: '每年呼吸道病假天數', unit: '天', lowerBetter: true },
+    { key: 'allergy', label: '過敏症狀（VAS）', unit: '0–10', lowerBetter: true }
+  ] },
+  { id: 'thermal', endpoints: [
+    { key: 'sbp', label: '靜息收縮壓', unit: 'mmHg', lowerBetter: true }
+  ] },
+  { id: 'psych', endpoints: [
+    { key: 'pss', label: '知覺壓力（PSS-10）', unit: '0–40', lowerBetter: true }
+  ] },
+  { id: 'xeno', endpoints: [
+    { key: 'crp', label: 'hs-CRP（抽血）', unit: 'mg/L', lowerBetter: true }
+  ] },
+  { id: 'gut', endpoints: [
+    { key: 'plants', label: '每週植物種類', unit: '種', lowerBetter: false },
+    { key: 'bloat', label: '腹脹（VAS）', unit: '0–10', lowerBetter: true }
+  ] },
+  { id: 'bone', endpoints: [
+    { key: 'grip', label: '握力', unit: 'kg', lowerBetter: false },
+    { key: 'balance', label: '單腳站立', unit: '秒', lowerBetter: false }
+  ] },
+  { id: 'light', endpoints: [
+    { key: 'sol', label: '入睡時間', unit: '分鐘', lowerBetter: true },
+    { key: 'alert', label: '晨間清醒度（VAS）', unit: '0–10', lowerBetter: false }
+  ] },
+  { id: 'chem', endpoints: [
+    { key: 'waist', label: '腰圍（肚臍、晨間）', unit: 'cm', lowerBetter: true }
+  ] },
+  { id: 'proteo', endpoints: [
+    { key: 'sts', label: '五次坐站時間', unit: '秒', lowerBetter: true },
+    { key: 'deep', label: '深層睡眠（穿戴裝置）', unit: '小時', lowerBetter: false }
+  ] },
+  { id: 'osmotic', endpoints: [
+    { key: 'urine', label: '晨尿顏色', unit: '1–8', lowerBetter: true },
+    { key: 'sauna', label: '80°C 桑拿耐受時間', unit: '分鐘', lowerBetter: false }
+  ] },
+  { id: 'gravity', endpoints: [
+    { key: 'jump', label: '垂直跳高', unit: 'cm', lowerBetter: false }
+  ] }
+];
+const RESPONSE_STORE = 'hormetic-response-v1';
+const RESPONSE_NOISE = 5;   // |Δ| 低於此＝休眠（量測雜訊）
+const RESPONSE_CEIL = 60;   // 毒興計分封頂 +60%
+let respData = {};
+
+function domainTitle(id) {
+  const d = DOMAINS.find(x => x.id === id);
+  return d ? `${d.num} ${d.title}` : id;
+}
+function loadResponse() {
+  try {
+    const raw = localStorage.getItem(RESPONSE_STORE);
+    if (raw) respData = JSON.parse(raw) || {};
+  } catch (_) { /* storage unavailable — session-only data */ }
+}
+function saveResponse() {
+  try {
+    localStorage.setItem(RESPONSE_STORE, JSON.stringify(respData));
+  } catch (_) { /* storage unavailable — session-only data */ }
+}
+function respEntry(id, key) {
+  return respData[`${id}:${key}`] || {};
+}
+// Returns {code, delta} where code ∈ nodata|dormant|responding|negative|capped
+// and delta is the raw % change (retest vs baseline, sign-preserved).
+function respSignal(ep, b, r) {
+  if (b == null || r == null || !isFinite(b) || !isFinite(r) || b === 0) return { code: 'nodata', delta: null };
+  const delta = ((r - b) / Math.abs(b)) * 100;
+  const good = ep.lowerBetter ? delta < 0 : delta > 0;
+  const mag = Math.abs(delta);
+  if (mag < RESPONSE_NOISE) return { code: 'dormant', delta };
+  if (good) return mag > RESPONSE_CEIL ? { code: 'capped', delta } : { code: 'responding', delta };
+  return { code: 'negative', delta };
+}
+function sigChip(sig) {
+  if (sig.code === 'nodata') return '<span class="sig sig-dormant">—</span>';
+  if (sig.code === 'responding') return '<span class="sig sig-responding">適應中</span>';
+  if (sig.code === 'negative') return '<span class="sig sig-negative">惡化</span>';
+  if (sig.code === 'capped') return '<span class="sig sig-capped">超出上限—請確認</span>';
+  return '<span class="sig sig-dormant">無變化</span>';
+}
+function fmtDelta(delta) {
+  if (delta == null) return '—';
+  const sign = delta > 0 ? '+' : delta < 0 ? '−' : '';
+  return `${sign}${Math.abs(delta).toFixed(1)}%`;
+}
+function renderResponseTracker() {
+  const body = document.getElementById('responseTrackerBody');
+  if (!body) return;
+  body.innerHTML = RESPONSE_TRACKED.map(t => t.endpoints.map(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    return `
+      <tr>
+        <td>${domainTitle(t.id)} — ${ep.label} <span class="tuner-lh">(${ep.unit}${ep.lowerBetter ? '，越低越好' : ''})</span></td>
+        <td><input type="number" step="any" min="0" value="${e.b != null ? e.b : ''}"
+          onchange="onResponse('${t.id}', '${ep.key}', 'b', this.value)" aria-label="${ep.label}基準"></td>
+        <td><input type="number" step="any" min="0" value="${e.r != null ? e.r : ''}"
+          onchange="onResponse('${t.id}', '${ep.key}', 'r', this.value)" aria-label="${ep.label}複測"></td>
+        <td class="resp-delta" id="resp-delta-${t.id}-${ep.key}">${fmtDelta(sig.delta)}</td>
+        <td id="resp-sig-${t.id}-${ep.key}">${sigChip(sig)}</td>
+      </tr>
+    `;
+  }).join('')).join('');
+}
+function onResponse(id, key, side, val) {
+  const k = `${id}:${key}`;
+  const num = val === '' || val == null ? null : parseFloat(val);
+  const cur = respData[k] || {};
+  cur[side] = (num != null && isFinite(num)) ? num : null;
+  if (cur.b == null && cur.r == null) delete respData[k];
+  else respData[k] = cur;
+  saveResponse();
+  const t = RESPONSE_TRACKED.find(x => x.id === id);
+  const ep = t.endpoints.find(e => e.key === key);
+  const sig = respSignal(ep, (respData[k] || {}).b, (respData[k] || {}).r);
+  const dEl = document.getElementById(`resp-delta-${id}-${key}`);
+  const sEl = document.getElementById(`resp-sig-${id}-${key}`);
+  if (dEl) dEl.textContent = fmtDelta(sig.delta);
+  if (sEl) sEl.innerHTML = sigChip(sig);
+  updateResponseSummary();
+  renderGuidance();
+}
+// Weighted mean of endpoint signs (+1/0/−1; capped counts 0) over
+// endpoints with data, using practice weights.
+function responseScore() {
+  let wSum = 0, wSig = 0, n = 0;
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    if (sig.code === 'nodata') return;
+    const w = getW(t.id);
+    wSum += w;
+    wSig += w * (sig.code === 'responding' ? 1 : sig.code === 'negative' ? -1 : 0);
+    n++;
+  }));
+  return { score: wSum > 0 ? wSig / wSum : null, n };
+}
+function updateResponseSummary() {
+  const el = document.getElementById('responseSummary');
+  if (!el) return;
+  const counts = { responding: 0, negative: 0, dormant: 0, capped: 0, n: 0 };
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    if (sig.code === 'nodata') return;
+    counts.n++;
+    if (sig.code in counts) counts[sig.code]++;
+  }));
+  if (!counts.n) {
+    el.textContent = '反應：無生物標記資料——僅顯示實踐分數。';
+    return;
+  }
+  const rs = responseScore();
+  const s = rs.score >= 0 ? `+${rs.score.toFixed(2)}` : rs.score.toFixed(2);
+  el.textContent = `反應 ${s} —— ${counts.responding} 適應中 · ${counts.negative} 惡化 · ${counts.dormant} 無變化 · ${counts.capped} 超出上限（${counts.n} 個有資料指標）`;
+}
+// Domain-level response state for guidance flags: worsening wins,
+// then responding, then dormant/capped.
+function domainResponse(id) {
+  const t = RESPONSE_TRACKED.find(x => x.id === id);
+  if (!t) return 'untracked';
+  let seen = 'nodata';
+  for (const ep of t.endpoints) {
+    const e = respEntry(id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    if (sig.code === 'negative') return 'worsening';
+    if (sig.code === 'responding') seen = 'responding';
+    else if (seen === 'nodata' && (sig.code === 'dormant' || sig.code === 'capped')) seen = sig.code;
+  }
+  return seen;
+}
+
+// ============================================================
 //  RENDER SLIDERS
 // ============================================================
 function renderSliders() {
@@ -1860,6 +2083,7 @@ function updateScore() {
       </div>
     `;
   }).join('');
+  updateResponseSummary();
 }
 
 // ============================================================
@@ -1870,16 +2094,43 @@ function renderGuidance() {
   const rows = DOMAINS.map(d => ({ d, priority: domainScoreParts(d).priority }));
   rows.sort((a, b) => b.priority - a.priority);
   const container = document.getElementById('guidanceCards');
-  container.innerHTML = rows.map((r, i) => {
+  // Practice × Response flags: where sliders and biomarkers disagree.
+  const flags = [];
+  rows.forEach(r => {
+    const v = values[r.d.id];
+    const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
+    const resp = domainResponse(r.d.id);
+    if (resp === 'untracked' || resp === 'nodata' || resp === 'dormant' || resp === 'capped') return;
+    if (tier === 'mid' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>：暴露在窗口內但生物標記惡化——增加劑量前先檢查劑量時機和恢復（早期 1–3 小時空窗、延遲 12–72 小時窗口）。`);
+    else if (tier === 'low' && resp === 'responding') flags.push(`<strong>${r.d.title}</strong>：低暴露仍有反應——維持劑量，複測後再考慮增加。`);
+    else if (tier === 'low' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>：低暴露卻惡化——可能為非毒興原因；先檢查，勿加壓力。`);
+    else if (tier === 'high' && resp === 'responding') flags.push(`<strong>${r.d.title}</strong>：仍有反應但劑量偏高——勿再增加，注意過度跡象。`);
+    else if (tier === 'high' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>：劑量與生物標記一致——減少暴露。`);
+  });
+  const flagCard = flags.length ? `
+      <div class="rec-card contextual">
+        <div class="rec-label" style="color:var(--gold)">實踐 × 反應標記</div>
+        <p>• ${flags.join('<br>• ')}</p>
+      </div>
+    ` : '';
+  container.innerHTML = flagCard + rows.map((r, i) => {
     const d = r.d;
     const v = values[d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const label = tier === 'low' ? '擴展你的範圍' : tier === 'high' ? '減少暴露' : '維持';
     const borderColor = tier === 'low' ? 'var(--teal)' : tier === 'high' ? 'var(--red)' : 'var(--gold)';
+    // Action plan only — the full zone paragraph lives under each slider,
+    // so it is never repeated here. Watch-outs come from avoid[], which
+    // appears nowhere else on the page.
+    const resp = domainResponse(d.id);
+    const respLine = (resp === 'responding' || resp === 'worsening' || resp === 'dormant' || resp === 'capped')
+      ? `<p style="margin:0 0 4px"><strong>生物標記：</strong>${resp === 'responding' ? '適應中' : resp === 'worsening' ? '惡化' : resp === 'capped' ? '超出上限—請確認量測' : '無變化'}</p>` : '';
     return `
       <div class="rec-card" style="border-left-color:${borderColor}">
         <div class="rec-label" style="color:${borderColor}">${i+1}. ${d.title} — ${label}（目前：${v}/10 · w ${getW(d.id).toFixed(1)}）</div>
-        <p>${d.guidance[tier]}</p>
+        <p style="margin:0 0 4px"><strong>注意：</strong>${d.avoid.join('；')}</p>
+        ${respLine}
+        <p style="margin:0"><a href="#block-${d.id}">調整滑桿 ↑</a> <span class="tuner-lh">（完整指引位於上方各滑桿下方）</span></p>
       </div>
     `;
   }).join('');
@@ -1891,9 +2142,10 @@ function renderGuidance() {
 function exportJSON() {
   const data = {
     exported: new Date().toISOString(),
-    version: 'hormetic-range-v2',
+    version: 'hormetic-range-v3',
     weightPreset,
     scores: {},
+    response: {},
     compositeScore: document.getElementById('compositeScore').textContent
   };
   DOMAINS.forEach(d => {
@@ -1904,6 +2156,17 @@ function exportJSON() {
       weightedProximity: Math.round(parts.prox), priority: Math.round(parts.priority * 100) / 100
     };
   });
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const e = respEntry(t.id, ep.key);
+    const sig = respSignal(ep, e.b, e.r);
+    data.response[`${t.id}:${ep.key}`] = {
+      domain: domainTitle(t.id), endpoint: ep.label, unit: ep.unit,
+      baseline: e.b != null ? e.b : null, retest: e.r != null ? e.r : null,
+      deltaPct: sig.delta != null ? Math.round(sig.delta * 10) / 10 : null, signal: sig.code
+    };
+  }));
+  const rs = responseScore();
+  data.responseScore = rs.score != null ? Math.round(rs.score * 100) / 100 : null;
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
@@ -1925,8 +2188,10 @@ function resetAll() {
 // ============================================================
 loadState();
 loadWeights();
+loadResponse();
 renderSliders();
 renderWeightTuner();
+renderResponseTracker();
 updateRadar();
 updateScore();
 renderGuidance();
