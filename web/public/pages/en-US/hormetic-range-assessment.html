@@ -43,11 +43,21 @@
   .sensor-card .pathway { font-family: var(--mono); font-size: 11px; color: var(--mute); line-height: 1.4; }
 
   /* ---- slider track ---- */
-  .domain-block {
+  #domain-sliders {
     background: var(--sheet);
     border: 1px solid var(--rule);
-    padding: 20px 22px 18px;
+    padding: 6px 22px 10px;
     margin-bottom: 16px;
+  }
+  .domain-block {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--rule);
+    padding: 20px 0 18px;
+    margin-bottom: 0;
+  }
+  .domain-block:last-child {
+    border-bottom: none;
   }
   .domain-block h3 { margin: 0 0 2px; font-size: 1.05rem; }
   .domain-sub { font-size: .85rem; color: var(--mute); margin: 0 0 12px; }
@@ -125,6 +135,7 @@
     overflow: hidden;
     margin: 8px 0 10px;
     background: var(--rule);
+    position: relative;
   }
   .zone-bar .zone-under { background: var(--blue); }
   .zone-bar .zone-hormetic { background: var(--teal); }
@@ -133,9 +144,11 @@
     width: 3px;
     background: var(--ink);
     border-radius: 1px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    bottom: 0;
     z-index: 2;
-    transition: margin-left .2s;
+    transition: left .2s;
   }
   .zone-label {
     display: flex;
@@ -485,16 +498,19 @@
         sweet spot.
       </p>
 
-      <div class="callout">
+      <div class="callout teal">
         <p><strong>How to use this form:</strong> Radar, score, and action plan update live
-        as you move each slider; Export saves your profile. Timing guidance below sets
+        as you move each slider; Export saves your profile. Weights set each domain's share of
+        the composite score and guidance order (0 = ignore; ratios only, so doubling all weights
+        changes nothing) — L/H multipliers separately control how steeply below/above-zone doses
+        are penalized. Timing guidance below sets
         dose intervals — sensors and sources after it are reference.</p>
       </div>
 
         <div class="adv-card">
-        <details id="weightTuner">
+        <details id="weightTuner" open>
           <summary>Tune domain weights <span id="weightMode">— evidence default</span></summary>
-          <p class="tuner-hint">Higher weight = counts more in the composite and guidance priority. 0 = ignore domain. L applies below the hormetic zone (slider &lt; 5), H above it (slider &gt; 5); 1.0 = symmetric.</p>
+          <p class="tuner-hint">Higher weight = counts more in the composite and guidance priority. 0 = ignore domain. L applies below the hormetic zone (slider &lt; 5), H above it (slider &gt; 5); 1.0 = symmetric. Composite = weighted mean Σ(w × proximity) / Σ(w) — only relative ratios matter, so doubling all weights changes nothing.</p>
           <div class="tuner-presets">
             <button class="btn" onclick="applyWeightPreset('evidence')">Evidence default</button>
             <button class="btn" onclick="applyWeightPreset('equal')">Equal (all 1.0)</button>
@@ -505,9 +521,14 @@
             <tbody id="weightTunerBody"></tbody>
           </table></div>
         </details>
-        <details id="responseTracker">
+        <details id="responseTracker" open>
           <summary>Track biomarker response <span id="responseMode">— baseline → retest</span></summary>
           <p class="tuner-hint">Optional Layer B. Enter a pre-protocol baseline and a retest (≥2–4 weeks apart). Improvement toward ~30–60% = hormetic response (credit capped at +60% — beyond that is not extra hormesis); near-zero change = dormant; reversal = overshoot. This layer confirms the practice score — it does not replace it. Contested, EIMD, and clinic-only domains carry no outcome target.</p>
+          <div class="tuner-presets">
+            <button class="btn" onclick="loadResponseExample('good')">Load good example</button>
+            <button class="btn" onclick="loadResponseExample('bad')">Load bad example</button>
+            <button class="btn" onclick="clearResponseExamples()">Clear examples</button>
+          </div>
           <div class="table-wrap"><table class="tuner-table resp-table">
             <thead><tr><th>Endpoint</th><th>Baseline</th><th>Retest</th><th>Δ</th><th>Signal</th></tr></thead>
             <tbody id="responseTrackerBody"></tbody>
@@ -515,6 +536,9 @@
         </details>
         </div>
 
+      <div style="margin:0 0 10px">
+        <button class="btn" id="guideAllBtn" onclick="toggleAllGuides()">Hide all guidance</button>
+      </div>
       <div id="domain-sliders"></div>
     </section>
     <!-- ==================== RADAR CHART ==================== -->
@@ -523,7 +547,7 @@
       <h2>Hormetic Range Radar</h2>
       <p>
         Your slider values are plotted on the radar chart below. The ideal profile is a
-        broad, balanced polygon that fills the <strong>3–6 zone</strong> across all domains —
+        broad, balanced polygon that fills the <strong>4–6 zone</strong> across all domains —
         consistent hormetic practice without excessive exposure in any single domain. A
         collapsed polygon (low values) suggests underexploited adaptive potential; a spiked
         polygon (very high in some, low in others) suggests an imbalanced profile with
@@ -834,10 +858,10 @@
       <p>
         Every hormetic domain converges on a shared sensor–effector architecture. The
         sensors detect the specific stressor signal (ROS, oxygen tension, nutrient scarcity,
-        temperature shift, mechanical load) and route it to overlapping transcriptional
-        programs. The key insight from the antioxidant-enzyme cluster review is that
-        <strong>compartment, dose window, and oxidation-state set point</strong> — not
-        expression level alone — determine whether a sensor-mediated response is protective
+        temperature shift, mechanical load, microbial patterns, light, DNA breaks) and
+        route it to overlapping transcriptional programs. The general rule across all
+        domains is <strong>signal specificity, dose window, and reversibility/timing</strong>
+        — not expression level alone — determine whether a response is protective
         or pathogenic.
       </p>
 
@@ -866,10 +890,34 @@
           <h4>FOXO</h4>
           <p class="pathway">Downstream of AMPK/SIRT1; transcription factor for MnSOD, catalase, GADD45, autophagy genes, atrophy resistance. The output arm linking nutrient stress → stress-resistance gene program.</p>
         </div>
+        <div class="sensor-card">
+          <h4>ATM / p53</h4>
+          <p class="pathway">DNA breaks → ATM → p53 → BRCA1/GADD45 repair, FOXO antioxidant arm. Sensor for low-dose radiation; transient priming = adaptive, chronic high-dose = mutagenic.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>NF-κB / TLR / Treg axis</h4>
+          <p class="pathway">Damage- and microbe-pattern sensing → acute NF-κB repair vs. Treg tolerance (TGF-β, IL-25, SCFAs via GPR41/43). Sensors for EIMD, Old Friends, gut microbiome. Acute recoverable = repair; chronic = inflammaging.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>UPR — ATF4 / XBP1</h4>
+          <p class="pathway">Misfolded-protein load → HSF1/HSP arm plus ER arms (ATF4, XBP1) → chaperones, ERAD, mitophagy. Sensor for proteotoxic/ER hormesis (heat + hard sets); unwound by chronic sleep deprivation.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>OPN4 / CLOCK-BMAL1</h4>
+          <p class="pathway">Melanopsin light sensing → circadian clock reset → mitochondrial/BDNF rhythmicity. Sensor for photobiomodulation; morning light = entrainment, late-night bright = amplitude flattening.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>Integrin / YAP-TAZ + osmosensing MAPK</h4>
+          <p class="pathway">Mechanical load and osmolarity → integrin/YAP-TAZ remodeling, MAPK aquaporin program. Sensors for bone, gravity/vibration, osmotic stress. Progressive loading = remodeling; sudden overload or chronic deficit = injury.</p>
+        </div>
+        <div class="sensor-card">
+          <h4>mTORC1 / Adenosine-PKC-mitoK-ATP</h4>
+          <p class="pathway">Nutrient/energy and ischemia sensing → mTORC1 growth switch, adenosine/PKC preconditioning cascades. Sensors for fasting/chemical hormesis and ischemic conditioning; pulsed inhibition = autophagy/preconditioning, chronic = atrophy/reperfusion injury.</p>
+        </div>
       </div>
 
       <div class="callout teal">
-        <p><strong>The antioxidant-enzyme lesson:</strong> Trx1, MnSOD, catalase, and peroxiredoxin are not interchangeable free-radical sponges. Compartment (mitochondrial vs. cytosolic), dose window (SIRT3 acetylation cycling, not fixed on/off), and reversibility of modification (sulfinic repair via Srx vs. irreversible nitration) determine whether the enzyme response falls within the hormetic zone or exits into pathology. This is why <em>how you hormetically stress</em> matters as much as <em>whether you do</em>.</p>
+        <p><strong>Worked example — the antioxidant-enzyme lesson:</strong> Trx1, MnSOD, catalase, and peroxiredoxin are not interchangeable free-radical sponges. Compartment (mitochondrial vs. cytosolic), dose window (SIRT3 acetylation cycling, not fixed on/off), and reversibility of modification (sulfinic repair via Srx vs. irreversible nitration) determine whether the enzyme response falls within the hormetic zone or exits into pathology. The same specificity-window-reversibility logic applies to every sensor above. This is why <em>how you hormetically stress</em> matters as much as <em>whether you do</em>.</p>
       </div>
     </section>
     <!-- ==================== SOURCES ==================== -->
@@ -914,7 +962,7 @@
 // ============================================================
 //  DOMAIN DATA
 // ============================================================
-const DOMAINS = [
+const DOMAINS_FALLBACK = [
   {
     id: 'radiation',
     num: '01',
@@ -1243,6 +1291,8 @@ const DOMAINS = [
 // ============================================================
 //  STATE
 // ============================================================
+let DOMAINS = [];
+let RESPONSE_TRACKED = [];
 let values = {};
 
 function loadState() {
@@ -1302,7 +1352,7 @@ function renderWeightTuner() {
   body.innerHTML = DOMAINS.map(d => {
     const w = getW(d.id);
     const mPair = getM(d.id);
-    const share = wSum > 0 ? Math.round((w / wSum) * 100) : 0;
+    const share = wSum > 0 ? (w / wSum * 100).toFixed(1) : '0.0';
     return `
       <tr>
         <td>${d.num} ${d.title}</td>
@@ -1325,6 +1375,7 @@ function onWeight(id, val) {
   customW[id] = clampNum(val, 0, 2, getW(id));
   weightPreset = 'custom';
   renderWeightTuner();
+  updateRadar();
   updateScore();
   renderGuidance();
 }
@@ -1334,6 +1385,7 @@ function onMult(id, side, val) {
   customM[id] = cur;
   weightPreset = 'custom';
   renderWeightTuner();
+  updateRadar();
   updateScore();
   renderGuidance();
 }
@@ -1347,6 +1399,7 @@ function applyWeightPreset(mode) {
     weightPreset = 'evidence';
   }
   renderWeightTuner();
+  updateRadar();
   updateScore();
   renderGuidance();
 }
@@ -1355,6 +1408,7 @@ function resetWeights() {
   customM = {};
   weightPreset = 'evidence';
   renderWeightTuner();
+  updateRadar();
   updateScore();
   renderGuidance();
 }
@@ -1367,7 +1421,7 @@ function resetWeights() {
 //  Contested domains (radiation, alcohol, hyperoxia) intentionally
 //  carry no outcome target.
 // ============================================================
-const RESPONSE_TRACKED = [
+const RESPONSE_TRACKED_FALLBACK = [
   { id: 'ros', endpoints: [
     { key: 'rhr', label: 'Resting heart rate', unit: 'bpm', lowerBetter: true },
     { key: 'hrv', label: 'HRV (rMSSD)', unit: 'ms', lowerBetter: false }
@@ -1420,6 +1474,8 @@ const RESPONSE_TRACKED = [
     { key: 'jump', label: 'Vertical jump height', unit: 'cm', lowerBetter: false }
   ] }
 ];
+DOMAINS = DOMAINS_FALLBACK;
+RESPONSE_TRACKED = RESPONSE_TRACKED_FALLBACK;
 const RESPONSE_NOISE = 5;   // |Δ| below this = dormant (measurement noise)
 const RESPONSE_CEIL = 60;   // hormetic credit capped at +60%
 let respData = {};
@@ -1433,8 +1489,16 @@ function respEntry(id, key) {
 }
 // Returns {code, delta} where code ∈ nodata|dormant|responding|negative|capped
 // and delta is the raw % change (retest vs baseline, sign-preserved).
+// Zero baselines (e.g. VAS 0 → 3) cannot form a % — resolve by direction
+// with delta null so they report worsening/responding instead of nodata.
 function respSignal(ep, b, r) {
-  if (b == null || r == null || !isFinite(b) || !isFinite(r) || b === 0) return { code: 'nodata', delta: null };
+  if (b == null || r == null || !isFinite(b) || !isFinite(r)) return { code: 'nodata', delta: null };
+  if (b === 0) {
+    if (r === 0) return { code: 'dormant', delta: 0 };
+    const dir = Math.sign(r - b);
+    const good = ep.lowerBetter ? dir < 0 : dir > 0;
+    return { code: good ? 'responding' : 'negative', delta: null };
+  }
   const delta = ((r - b) / Math.abs(b)) * 100;
   const good = ep.lowerBetter ? delta < 0 : delta > 0;
   const mag = Math.abs(delta);
@@ -1490,6 +1554,35 @@ function onResponse(id, key, side, val) {
   updateResponseSummary();
   renderGuidance();
 }
+// Demo scenarios: realistic baselines; good = ~30% improvement,
+// bad = ~30% worsening (both clear the 5% noise band, under the 60% cap).
+const RESPONSE_EXAMPLE_BASELINES = {
+  rhr: 68, hrv: 42, breathhold: 45, resprate: 14, fbg: 95, a1c: 5.4,
+  sickdays: 8, allergy: 5, sbp: 122, pss: 18, crp: 1.6, plants: 12,
+  bloat: 5, grip: 32, balance: 20, sol: 25, alert: 5, waist: 86,
+  sts: 12, deep: 1.1, urine: 4, sauna: 10, jump: 28
+};
+function loadResponseExample(kind) {
+  respData = {};
+  const good = kind === 'good';
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const b = RESPONSE_EXAMPLE_BASELINES[ep.key];
+    if (b == null) return;
+    const improving = good ? true : false;
+    const dir = (improving === ep.lowerBetter) ? 0.7 : 1.3;
+    const r = Math.round(b * dir * 10) / 10;
+    respData[`${t.id}:${ep.key}`] = { b, r };
+  }));
+  renderResponseTracker();
+  updateResponseSummary();
+  renderGuidance();
+}
+function clearResponseExamples() {
+  respData = {};
+  renderResponseTracker();
+  updateResponseSummary();
+  renderGuidance();
+}
 // Weighted mean of endpoint signs (+1/0/−1; capped counts 0) over
 // endpoints with data, using practice weights.
 function responseScore() {
@@ -1521,23 +1614,32 @@ function updateResponseSummary() {
     return;
   }
   const rs = responseScore();
+  if (rs.score == null) {
+    el.textContent = `Response — ${counts.responding} responding · ${counts.negative} worsening · ${counts.dormant} dormant · ${counts.capped} above ceiling (${counts.n} endpoints with data)`;
+    return;
+  }
   const s = rs.score >= 0 ? `+${rs.score.toFixed(2)}` : rs.score.toFixed(2);
   el.textContent = `Response ${s} — ${counts.responding} responding · ${counts.negative} worsening · ${counts.dormant} dormant · ${counts.capped} above ceiling (${counts.n} endpoints with data)`;
 }
 // Domain-level response state for guidance flags: worsening wins,
-// then responding, then dormant/capped.
+// then responding, then capped, then dormant (deterministic — no
+// dependence on endpoint order).
 function domainResponse(id) {
   const t = RESPONSE_TRACKED.find(x => x.id === id);
   if (!t) return 'untracked';
-  let seen = 'nodata';
+  let hasResponding = false, hasCapped = false, hasDormant = false;
   for (const ep of t.endpoints) {
     const e = respEntry(id, ep.key);
     const sig = respSignal(ep, e.b, e.r);
     if (sig.code === 'negative') return 'worsening';
-    if (sig.code === 'responding') seen = 'responding';
-    else if (seen === 'nodata' && (sig.code === 'dormant' || sig.code === 'capped')) seen = sig.code;
+    if (sig.code === 'responding') hasResponding = true;
+    else if (sig.code === 'capped') hasCapped = true;
+    else if (sig.code === 'dormant') hasDormant = true;
   }
-  return seen;
+  if (hasResponding) return 'responding';
+  if (hasCapped) return 'capped';
+  if (hasDormant) return 'dormant';
+  return 'nodata';
 }
 
 // ============================================================
@@ -1547,7 +1649,7 @@ function renderSliders() {
   const container = document.getElementById('domain-sliders');
   container.innerHTML = DOMAINS.map(d => {
     const v = values[d.id];
-    const zoneIdx = Math.min(Math.floor(v / 2), 5);
+    const tierInit = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     return `
       <div class="domain-block" id="block-${d.id}">
         <div class="domain-header">
@@ -1575,39 +1677,65 @@ function renderSliders() {
         </div>
 
         <div class="zone-bar">
-          <div class="zone-under" style="flex:3"></div>
-          <div class="zone-hormetic" style="flex:4"></div>
-          <div class="zone-excess" style="flex:3"></div>
-          <div class="zone-marker" id="marker-${d.id}" style="margin-left:calc(${v*10}% - 1.5px)"></div>
+          <div class="zone-under" style="flex:4"></div>
+          <div class="zone-hormetic" style="flex:2"></div>
+          <div class="zone-excess" style="flex:4"></div>
+          <div class="zone-marker" id="marker-${d.id}" style="left:calc(${v*10}% - 1.5px)"></div>
         </div>
         <div class="zone-label">
-          <span>Below range</span>
-          <span>Hormetic window</span>
-          <span>Excessive</span>
+          <span>Below range (&lt;4)</span>
+          <span>Hormetic window (4–6)</span>
+          <span>Excessive (&gt;6)</span>
         </div>
 
-        <div class="rec-card" id="rec-${d.id}" style="display:${v === 5 ? 'block' : 'none'}">
+        <div style="margin:6px 0 2px">
+          <button class="btn" id="guide-btn-${d.id}" onclick="toggleGuide('${d.id}')">Hide guidance</button>
+        </div>
+        <div id="guide-${d.id}">
+        <div class="rec-card" id="rec-${d.id}" style="display:${tierInit === 'mid' ? 'block' : 'none'}">
           <div class="rec-label">Guidance</div>
           <p>${d.guidance.mid}</p>
         </div>
-        <div class="rec-card" id="rec-low-${d.id}" style="display:none;border-left-color:var(--gold)">
+        <div class="rec-card" id="rec-low-${d.id}" style="display:${tierInit === 'low' ? 'block' : 'none'};border-left-color:var(--gold)">
           <div class="rec-label" style="color:var(--gold)">Guidance — Expand your range</div>
           <p>${d.guidance.low}</p>
         </div>
-        <div class="rec-card" id="rec-high-${d.id}" style="display:none;border-left-color:var(--red)">
+        <div class="rec-card" id="rec-high-${d.id}" style="display:${tierInit === 'high' ? 'block' : 'none'};border-left-color:var(--red)">
           <div class="rec-label" style="color:var(--red)">Guidance — Reduce exposure</div>
           <p>${d.guidance.high}</p>
+        </div>
         </div>
       </div>
     `;
   }).join('');
 }
 
+function toggleAllGuides() {
+  const btn = document.getElementById('guideAllBtn');
+  const wraps = DOMAINS.map(d => document.getElementById('guide-' + d.id)).filter(Boolean);
+  const anyVisible = wraps.some(w => w.style.display !== 'none');
+  wraps.forEach(w => { w.style.display = anyVisible ? 'none' : 'block'; });
+  DOMAINS.forEach(d => {
+    const b = document.getElementById('guide-btn-' + d.id);
+    if (b) b.textContent = anyVisible ? 'Show guidance' : 'Hide guidance';
+  });
+  if (btn) btn.textContent = anyVisible ? 'Show all guidance' : 'Hide all guidance';
+}
+
+function toggleGuide(id) {
+  const wrap = document.getElementById('guide-' + id);
+  const btn = document.getElementById('guide-btn-' + id);
+  if (!wrap || !btn) return;
+  const hidden = wrap.style.display === 'none';
+  wrap.style.display = hidden ? 'block' : 'none';
+  btn.textContent = hidden ? 'Hide guidance' : 'Show guidance';
+}
+
 function onSlider(id, val) {
   val = parseInt(val);
   values[id] = val;
   document.getElementById('val-' + id).textContent = val;
-  document.getElementById('marker-' + id).style.marginLeft = `calc(${val*10}% - 1.5px)`;
+  document.getElementById('marker-' + id).style.left = `calc(${val*10}% - 1.5px)`;
 
   // guidance visibility
   const recBase = document.getElementById('rec-' + id);
@@ -1622,6 +1750,7 @@ function onSlider(id, val) {
 
   updateRadar();
   updateScore();
+  renderGuidance();
 }
 
 // ============================================================
@@ -1755,7 +1884,12 @@ function updateRadar() {
     if (align === 'center') maxW = 2 * Math.min(lx, W - lx) - pad;
     else if (align === 'left') maxW = (W - pad) - lx;
     else maxW = lx - pad;
-    const lines = wrapLabel(ctx, DOMAINS[i].title, maxW);
+    const lines = (() => {
+      ctx.font = '11px "IBM Plex Mono", monospace';
+      ctx.textAlign = align;
+      ctx.textBaseline = 'middle';
+      return wrapLabel(ctx, DOMAINS[i].title, maxW);
+    })();
     ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#1c1915';
     ctx.font = '11px "IBM Plex Mono", monospace';
     ctx.textAlign = align;
@@ -1828,10 +1962,10 @@ function updateScore() {
   container.innerHTML = rows.map(r => {
     const v = r.parts.v;
     const proximity = r.parts.prox;
-    const color = v < 3 ? 'var(--blue)' : v > 7 ? 'var(--red)' : 'var(--teal)';
+    const color = v < 4 ? 'var(--blue)' : v > 6 ? 'var(--red)' : 'var(--teal)';
     return `
       <div class="score-bar-wrap">
-        <div class="score-bar-label">${r.d.num} ${r.d.title} — <strong>${v}</strong>/10 (weighted proximity: ${Math.round(proximity)}% · w ${r.parts.w.toFixed(1)})</div>
+        <div class="score-bar-label">${r.d.num} ${r.d.title} — <strong>${v}</strong>/10 (proximity: ${Math.round(proximity)}% · w ${r.parts.w.toFixed(1)})</div>
         <div class="score-bar">
           <div class="score-bar-fill" style="width:${proximity}%; background:${color}"></div>
         </div>
@@ -1855,7 +1989,8 @@ function renderGuidance() {
     const v = values[r.d.id];
     const tier = v < 4 ? 'low' : v > 6 ? 'high' : 'mid';
     const resp = domainResponse(r.d.id);
-    if (resp === 'untracked' || resp === 'nodata' || resp === 'dormant' || resp === 'capped') return;
+    if (resp === 'untracked' || resp === 'nodata' || resp === 'dormant') return;
+    if (resp === 'capped') { flags.push(`<strong>${r.d.title}</strong>: change exceeds the +60% hormetic ceiling — verify measurement and do not chase further gain.`); return; }
     if (tier === 'mid' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>: exposure reads in-zone but biomarkers are worsening — check dose timing and recovery (early 1–3h gap, delayed 12–72h window) before increasing.`);
     else if (tier === 'low' && resp === 'responding') flags.push(`<strong>${r.d.title}</strong>: responding despite low exposure — hold the dose and retest before increasing.`);
     else if (tier === 'low' && resp === 'worsening') flags.push(`<strong>${r.d.title}</strong>: low exposure but worsening — likely a non-hormetic cause; investigate, do not add stress.`);
@@ -1901,7 +2036,8 @@ function exportJSON() {
     weightPreset,
     scores: {},
     response: {},
-    compositeScore: document.getElementById('compositeScore').textContent
+    compositeScore: parseInt(document.getElementById('compositeScore').textContent, 10),
+    compositeScoreLabel: document.getElementById('compositeScore').textContent
   };
   DOMAINS.forEach(d => {
     const parts = domainScoreParts(d);
@@ -1941,6 +2077,16 @@ function resetAll() {
 // ============================================================
 //  INIT
 // ============================================================
+async function loadDomainData() {
+  try {
+    const res = await fetch('../../data/hormetic-domains.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const j = await res.json();
+    if (Array.isArray(j.domains) && j.domains.length) DOMAINS = j.domains;
+    if (Array.isArray(j.responseTracked) && j.responseTracked.length) RESPONSE_TRACKED = j.responseTracked;
+  } catch (_) { /* offline/file:// — keep inline fallback */ }
+}
+loadDomainData().catch(() => {}).then(() => {
 loadState();
 renderSliders();
 renderWeightTuner();
@@ -1949,6 +2095,7 @@ updateRadar();
 updateScore();
 renderGuidance();
 bindRadarCopy();
+});
 // Shared theme-02 behaviors: scroll-spy, tooltip, diagram lightbox, nav hint.
 T2.initNav();
 T2.initTooltip();
