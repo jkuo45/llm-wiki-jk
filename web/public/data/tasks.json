@@ -1,5 +1,5 @@
 {
-  "generated": "10_SEP_2026 01:00 PM PDT",
+  "generated": "11_SEP_2026 03:46 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,42 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_decision_tree_11_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Decision Tree - Stress and Cell Type",
+          "description": "Flowchart mapping stress conditions and cell types to cell death modalities",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "cell-death",
+            "decision-tree",
+            "stress-response",
+            "cell-type",
+            "sex-dimorphism"
+          ],
+          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_decision_tree_11_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡決策樹 — 壓力與細胞類型",
+          "description": "將壓力條件與細胞類型對應到細胞死亡模式的流程圖",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "cell-death",
+            "decision-tree",
+            "stress-response",
+            "cell-type",
+            "sex-dimorphism"
+          ],
+          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md"
         }
       }
     },
