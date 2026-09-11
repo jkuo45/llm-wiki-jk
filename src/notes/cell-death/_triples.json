@@ -2476,5 +2476,271 @@
     "source_document": "Regulated Cell Death.md",
     "created": "2026-09-04T17:50:46Z",
     "updated": "2026-09-04T17:50:46Z"
+  },
+  {
+    "id": "256ff9520ee3",
+    "subject": "DAPK",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "DAPK (death-associated protein kinase 1, DAPK1) inhibits RIPK1 activity by directly phosphorylating the RIPK1 protein, restraining tumors.",
+      "zh-TW": "DAPK（死亡相關蛋白激酶1，DAPK1）透過直接磷酸化RIPK1蛋白來抑制RIPK1活性，進而抑制腫瘤。"
+    },
+    "confidence": 0.9,
+    "source_document": "DAPK.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T00:00:00Z"
+  },
+  {
+    "id": "efde98878747",
+    "subject": "ROS",
+    "predicate": "promotes",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "ROS promote necroptosis by inducing RIPK1 autophosphorylation in septic cardiomyopathy and viral myocarditis.",
+      "zh-TW": "ROS透過誘導RIPK1自身磷酸化來促進necroptosis，見於敗血性心肌病變與病毒性心肌炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "ROS.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "e83a34771252",
+    "subject": "SHP1",
+    "predicate": "dephosphorylates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Tyrosine phosphatase-6 (SHP1/PTPN6) dephosphorylates tyrosine residues on the RIPK1 protein in tumors and inflammatory disease.",
+      "zh-TW": "酪胺酸磷酸酶-6（SHP1/PTPN6）可去磷酸化RIPK1蛋白上的酪胺酸殘基，調控腫瘤與發炎性疾病中的necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "SHP1.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "ff1e65833759",
+    "subject": "PI3K",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "The PI3K/Akt pathway suppresses RIPK1-dependent necroptosis by phosphorylating and inhibiting RIPK1 kinase activity.",
+      "zh-TW": "PI3K/Akt路徑透過磷酸化並抑制RIPK1激酶活性，來抑制RIPK1依賴的necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "PI3K.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "44d41d3011d2",
+    "subject": "TRIM21",
+    "predicate": "ubiquitinates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "TRIM21 directly interacts with RIPK1 and ubiquitinates it through its RING domain, regulating antiviral immunity and autoimmunity.",
+      "zh-TW": "TRIM21直接與RIPK1交互作用，並透過其RING結構域泛素化RIPK1，調控抗病毒免疫與自體免疫。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRIM21.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "55df3da07cf7",
+    "subject": "CYLD",
+    "predicate": "deubiquitinates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Cylindromatosis (CYLD) modulates the ubiquitination status of RIPK1, gating neuroinflammation and hyperinflammatory syndromes.",
+      "zh-TW": "圓柱瘤蛋白（CYLD）調控RIPK1的泛素化狀態，掌控神經發炎與全身性高發炎症候群。"
+    },
+    "confidence": 0.9,
+    "source_document": "CYLD.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "28006097a01b",
+    "subject": "OTULIN",
+    "predicate": "regulates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Phosphorylation of OTULIN at Tyr-56 regulates RIPK1 ubiquitination and drives necroptotic cell death in inflammation.",
+      "zh-TW": "OTULIN在Tyr-56的磷酸化可調控RIPK1泛素化，並在發炎中驅動necroptosis細胞死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "OTULIN.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "43bb9518c55f",
+    "subject": "Caspase-6",
+    "predicate": "interacts with",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Caspase-6 promotes the ZBP1-RIPK3 inflammatory response through interaction with RIPK3 in viral infection.",
+      "zh-TW": "Caspase-6透過與RIPK3交互作用，促進ZBP1-RIPK3觸發的發炎反應，見於病毒感染性疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caspase-6.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "6f988e3d0a26",
+    "subject": "ZBP1",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "ZBP1 recruits RIPK3 via its RHIM domain, causing RIPK3 autophosphorylation in viral, inflammatory, and reproductive disorders.",
+      "zh-TW": "ZBP1透過其RHIM結構域招募RIPK3，引起RIPK3自身磷酸化，見於病毒感染、發炎性疾病與生殖系統疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "ZBP1.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "e9fd5f7bfd30",
+    "subject": "TRIF",
+    "predicate": "activates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "TRIF binds the RHIM domain of RIPK3, directly activating downstream necroptosis in infection, inflammation, and tumors.",
+      "zh-TW": "TRIF結合RIPK3的RHIM結構域，直接活化下游necroptosis，見於感染、發炎損傷與腫瘤。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRIF.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "2d4b48e2b3e4",
+    "subject": "RSK3",
+    "predicate": "phosphorylates",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "RSK3 acts upstream of RIPK3 phosphorylation, promoting necroptosis in ischemic retinal injury.",
+      "zh-TW": "RSK3作為RIPK3磷酸化的上游調控因子，促進necroptosis活化，見於缺血性視網膜損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "RSK3.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "82bf7ea98d6c",
+    "subject": "CSNK1G2",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Casein kinase 1G2 binds RIPK3 to inhibit its kinase activity and necroptosis signaling in male reproductive aging.",
+      "zh-TW": "酪蛋白激酶1G2結合RIPK3以抑制其激酶活性與下游necroptosis訊號，見於雄性生殖老化。"
+    },
+    "confidence": 0.9,
+    "source_document": "CSNK1G2.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "af3a7955a015",
+    "subject": "RIPK3",
+    "predicate": "phosphorylates",
+    "object": "CaMKII",
+    "context": {
+      "en-US": "RIPK3 phosphorylates and activates CaMKII, triggering necroptosis or neuroprotection in cardiac and neurological injury.",
+      "zh-TW": "RIPK3磷酸化並活化CaMKII，觸發necroptosis或抑制興奮性毒性以發揮神經保護作用，見於心肌缺血再灌注損傷、心衰竭與神經損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "CaMKII.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "db7cd2e90b2d",
+    "subject": "RIPK3",
+    "predicate": "phosphorylates",
+    "object": "Pyruvate Dehydrogenase",
+    "context": {
+      "en-US": "RIPK3 phosphorylates threonine 135 on the E3 subunit of the pyruvate dehydrogenase complex, enhancing PDC activity in cancer.",
+      "zh-TW": "RIPK3磷酸化丙酮酸去氫酶複合體E3次單元的蘇胺酸135，增強PDC催化活性，見於癌症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pyruvate Dehydrogenase.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "6f227d9cc211",
+    "subject": "PGAM5",
+    "predicate": "amplifies",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "PGAM5 activated by RIPK3 phosphorylation dephosphorylates Drp1, promoting mitochondrial fission in ischemia-reperfusion and neurodegeneration.",
+      "zh-TW": "經RIPK3磷酸化活化的PGAM5去磷酸化Drp1，促進粒線體分裂，見於缺血再灌注損傷與神經退化性疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "PGAM5.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "430450135ffa",
+    "subject": "BRD4",
+    "predicate": "upregulates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "Bromodomain protein 4 positively regulates necroptosis by transcriptionally controlling MLKL expression.",
+      "zh-TW": "溴結構域蛋白4透過轉錄調控MLKL表現，正向調控necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "BRD4.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "398b5184e4e8",
+    "subject": "HSP90",
+    "predicate": "stabilizes",
+    "object": "MLKL",
+    "context": {
+      "en-US": "Heat shock protein 90 binds MLKL, preventing proteasomal degradation and promoting MLKL activation and membrane translocation.",
+      "zh-TW": "熱休克蛋白90結合MLKL，防止其經蛋白酶體降解，並促進MLKL活化與膜轉位。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hsp90.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "0fd05401c6c6",
+    "subject": "RIPK1",
+    "predicate": "phosphorylates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "RIPK1 directly phosphorylates MLKL under specific conditions, particularly in mouse inflammation models.",
+      "zh-TW": "RIPK1在特定條件下（特別是小鼠細胞）可直接磷酸化MLKL，見於發炎模型。"
+    },
+    "confidence": 0.9,
+    "source_document": "RIPK1.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "3b632eb7d0fd",
+    "subject": "TAM Kinases",
+    "predicate": "phosphorylates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "During phagocytosis, TAM kinases (Tyro3, Axl, Mer) activated by phosphatidylserine directly phosphorylate MLKL in inflammatory disease.",
+      "zh-TW": "吞噬作用期間，經磷脂醯絲胺酸活化的TAM激酶（Tyro3、Axl、Mer）可直接磷酸化MLKL，見於發炎相關疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "TAM Kinases.md",
+    "created": "2026-09-11T16:47:59Z",
+    "updated": "2026-09-11T16:47:59Z"
   }
 ]
