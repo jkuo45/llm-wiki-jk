@@ -11,6 +11,7 @@ aliases:
   - PDH
   - PDHC
   - pyruvate dehydrogenase complex
+  - PDC
 ---
 
 # Pyruvate Dehydrogenase
@@ -28,12 +29,16 @@ PDH was identified as a mitochondrial gatekeeper for oncogene-induced senescence
 > [!info] Source: [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
 > Kaplon et al. (2013) established PDH as the mitochondrial gatekeeper of senescence (ref [^11]); this study places PDH upstream of the mitochondrial citrate–acetyl-CoA axis that drives H3K27ac-dependent SASP gene expression.
 
+**Necroptosis regulation.** [[RIPK3]] phosphorylates threonine 135 on the E3 subunit of the pyruvate dehydrogenase complex (PDC), enhancing PDC catalytic activity in cancer.
+
 ## Documents
 
 - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
   - Contextualizes PDH as the entry point of the mitochondrial metabolic checkpoint controlling SASP chromatin.
 
 ## Connections
+
+- [[RIPK3]] — RIPK3 phosphorylates the PDC E3 subunit to enhance activity
 
 - [[Pyruvate]] — PDH substrate
 - [[Acetyl-CoA]] — PDH product feeding the TCA cycle

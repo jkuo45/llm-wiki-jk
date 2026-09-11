@@ -54,6 +54,8 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 
 ## Connections
 
+- [[RIPK3]] — TRIF binds the RHIM domain of RIPK3, directly activating necroptosis
+
 - [[TLR3]] → uses → [[TRIF]]
 - [[TRIF]] → activates → [[TRAF3]] → [[TBK1]] → [[IRF3]]
 - [[TRIF]] → activates → [[NF-κB]], [[STAT1]]

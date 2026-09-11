@@ -30,6 +30,8 @@ Caspase-6 is pivotal for the ordered demolition of cells during development and 
 
 Because caspase-6 can execute apoptosis independently of caspase-3, it is a candidate target for overcoming caspase-3-resistant malignancies. Small-molecule caspase-6 activators and peptides that disrupt its inhibitory interactions are under preclinical investigation. Conversely, caspase-6 inhibitors are explored neuroprotectively. Biomarkers of caspase-6 activity (e.g., circulating cleaved cytokeratin-18 fragments) reflect epithelial tumor cell death and are used as pharmacodynamic readouts in early-phase trials.
 
+**Necroptosis regulation.** Caspase-6 promotes the inflammatory response triggered by [[RIPK3]] binding to [[ZBP1]] through interaction with [[RIPK3]] in viral infectious disease.
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,6 +44,8 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[RIPK3]] — Caspase-6 interacts with RIPK3 to promote ZBP1-triggered inflammation
 
 - [[Apoptosis]]: Caspase-6 is a terminal executioner protease.
 - [[Caspase-3]]: Cooperates with and amplifies caspase-6 activation.

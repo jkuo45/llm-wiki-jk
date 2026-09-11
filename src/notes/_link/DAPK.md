@@ -5,7 +5,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [Death-Associated Protein Kinase]
+aliases: [Death-Associated Protein Kinase, DAPK1, Death-associated protein kinase 1]
 
 ---
 
@@ -23,6 +23,10 @@ aliases: [Death-Associated Protein Kinase]
 
 # 
 
+## Mechanism of Action & Pathways
+
+- **RIPK1 inhibition.** Death-associated protein kinase 1 (DAPK1) inhibits [[RIPK1]] activity by directly phosphorylating the [[RIPK1]] protein, restraining tumors.
+
 ## Documents
 
 List of documents that mention this entity
@@ -32,6 +36,8 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[RIPK1]] — DAPK1 directly phosphorylates and inhibits RIPK1
 - [[DAPK]] — related entity
 
 ## Linking Summary

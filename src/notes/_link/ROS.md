@@ -25,6 +25,8 @@ aliases: [Reactive oxygen species, Reactive oxygen intermediates]
 
 # 
 
+**Necroptosis regulation.** [[ROS]] promote necroptosis by inducing [[RIPK1]] autophosphorylation in septic cardiomyopathy and viral myocarditis.
+
 ## Documents
 
 List of documents that mention this entity
@@ -49,6 +51,8 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[RIPK1]] — ROS induce RIPK1 autophosphorylation
 - [[Superoxide Radicals]] — related entity
 - [[Hydrogen Peroxide]] — related entity
 - [[Hydroxyl Radicals]] — related entity

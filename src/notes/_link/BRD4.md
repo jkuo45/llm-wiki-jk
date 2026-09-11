@@ -10,7 +10,7 @@ tags:
   - sasp
   - bromodomain
   - bet-inhibitor
-aliases: [BRD4, Bromodomain-containing protein 4]
+aliases: [BRD4, Bromodomain-containing protein 4, Bromodomain protein 4]
 ---
 
 # BRD4
@@ -31,6 +31,8 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 - Selective SASP suppression may blunt the tumor-promoting and fibrogenic paracrine effects of therapy-induced senescence.
 - Risk: broad BET blockade can perturb hematopoiesis and cytokine networks, requiring tissue-selective delivery.
 
+**Necroptosis regulation.** Bromodomain protein 4 (BRD4) positively regulates necroptosis by transcriptionally controlling [[MLKL]] expression in inflammation-related diseases.
+
 ## Documents
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review presents BRD4 as a BET-family epigenetic reader recruited to senescence-activated enhancers in oncogene-induced senescence to drive SASP factor expression without perturbing the cell-cycle arrest. BET inhibitors such as JQ1 suppress the OIS-associated SASP (IL-6, IL-8, MCP-1) while preserving the arrest, establishing BRD4 as a selective senomorphic target.
@@ -39,6 +41,8 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
     - Review describes BRD4 as a BET-family reader recruited to senescence-activated super-enhancers marked by H3K27ac, where it cooperates with AP-1/C/EBPα to drive NF-κB-regulated SASP; its depletion also triggers H3.3 clipping and SASP.
 
 ## Connections
+
+- [[MLKL]] — BRD4 transcriptionally controls MLKL expression
 
 - [[SASP|Senescence-Associated Secretory Phenotype]]: BRD4 regulates SASP gene expression
 - [[Oncogene-Induced Senescence|OIS]]: BRD4 is recruited to senescence-activated enhancers in OIS

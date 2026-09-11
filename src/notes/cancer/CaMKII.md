@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - enzyme
-aliases: []
+aliases: [Calcium-dependent protein kinase II, CAMK2, CAMKII]
 ---
 
 # CaMKII
@@ -28,6 +28,8 @@ CaMKII is indispensable for excitable-cell function, but its overexpression and 
 
 CaMKII inhibitors (e.g., KN-93, tatCN21) are investigated as sensitizers that disable the caspase-2 brake and restore apoptotic competence in resistant malignancies. Because CaMKII cross-talks with [[ERK]] and other survival kinases, combinatorial blockade is being explored. Monitoring CaMKII autophosphorylation (p-Thr286/287) serves as a biomarker of calcium stress in preclinical models, and its interplay with [[Caspase-2]] and [[PP1]] defines a druggable apoptotic regulatory axis.
 
+**Necroptosis regulation.** [[RIPK3]] directly phosphorylates and activates CaMKII, triggering necroptosis or suppressing excitotoxicity with neuroprotective effects in myocardial ischemia/reperfusion injury, heart failure, and neurological injury.
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,6 +39,8 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[RIPK3]] — RIPK3 phosphorylates and activates CaMKII
 
 - [[Caspase-2]]: Direct substrate phosphorylated at Ser164 by CaMKII.
 - [[PP1]]: Opposing phosphatase that dephosphorylates caspase-2 Ser164.
