@@ -10423,5 +10423,47 @@
         "ocr": "PARP1 cell death pathway diagram, compartments Cell membrane, Cytoplasm, Nucleus, Mitochondria\nNucleus: PARP1 on DNA produces Free PAR and Free ADPr, PARG (exo), ARH3, PARG (endo), decreased NAD+ down arrow\nNAD+ links to NAM to NAD Salvage to decreased ATP down arrow, RSP, AMP to AMPK, Free ADPr activates TRPM2 on cell membrane\nCytosol: decreased Glycolysis down arrow, HK Hexokinase, Ca2+ to Calpain to AIF release from mitochondria, MPTP opening\nMitochondria releases AIF, AIF binds MIF in cytosol, AIF-MIF translocates to nucleus with CypA and H2AX, causes DNA fragmentation\nLabels: TRPM2, Ca2+, Calpain, MPTP, AIF, HK, Glycolysis, ATP, AMPK, AMP, NAD Salvage, RSP, NAM, NAD+, Free ADPr, Free PAR, PARP1, PARG, ARH3, CypA, H2AX, MIF, DNA fragmentation"
       }
     }
+  },
+  {
+    "id": "n-20260911-necroptosis-ripk1-ripk3-mlkl-00",
+    "document": "",
+    "entities": [
+      "RIPK1",
+      "RIPK3",
+      "MLKL",
+      "DAPK1",
+      "TRIM21",
+      "CYLD",
+      "ZBP1",
+      "TRIF",
+      "CaMKII",
+      "PGAM5",
+      "BRD4",
+      "HSP90"
+    ],
+    "tags": [
+      "cell-death",
+      "diagrams-charts",
+      "inflammation",
+      "mitochondria",
+      "redox"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "fimmu-17-1824460-g002.jpg"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-09-11",
+    "updated": "2026-09-11",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "Necroptosis regulation: RIPK1, RIPK3 and MLKL modifications (panels A-C)",
+        "ocr": "Panel A, RIPK1 regulation, left Phosphorylation modification, right Ubiquitination modification. DAPK1 adds +P to RIPK1, red arrow, Necroptosis down. ROS adds +P to RIPK1, green arrow, Necroptosis up. PTPN6 removes -P from RIPK1, green arrow, Necroptosis up. TRIM21 adds +Ub to RIPK1, green arrow, Necroptosis up. CYLD removes -Ub from RIPK1, red arrow, Necroptosis down. OTULIN (labeled OUTLIN in figure) removes -Ub from RIPK1, red arrow, Necroptosis down. Legend: green arrow Necroptosis up, red arrow Necroptosis down.\nPanel B, RIPK3 regulation, left activators, right effectors. RHIM-dependent Activation box: RIPK1, ZBP1, TRIF, each adds +P to RIPK3. p90 RSK3 adds +P to RIPK3. CK1G2 arrow to RIPK3. SFTSV NSs inhibits -P to RIPK3. RIPK3 activates MLKL via phosphorylation +P, crossed-out P arrow also shown. RIPK3 leads to Mitochondrial Dysfunction and ROS box: CaMKII, PGAM5, PDC-E3.\nPanel C, MLKL regulation, left inputs, right outputs. BRD4 via Transcription Regulation to MLKL. RIPK3, RIPK1, TAM kinases add +P to MLKL. HSP90 via Interactions to MLKL. MLKL binds Membrane Phospholipids leading to plasma membrane rupture diagram on right. MLKL activates CaMKII and Ion Channels."
+      }
+    }
   }
 ]
