@@ -105,7 +105,7 @@
         <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
-        <div class="meter"><span>死亡閾值</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
+        <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
         <div class="tip" id="tip"></div>
       </div>
       <div class="toolbar" role="toolbar" aria-label="動畫控制">
@@ -116,7 +116,7 @@
         </div>
         <button id="play" class="is-on">⏸ 暫停</button>
         <button id="reset">重設視角</button>
-        <span class="hint">24 秒循環</span>
+        <span class="hint">24 秒循環 ≈ 4 小時 TSZ 進程 · T+ 為生物時間</span>
       </div>
       <div class="side">
       <div class="card" id="cardA">
@@ -174,6 +174,8 @@ const canvas = document.getElementById('canvas');
 const stage = document.getElementById('stage');
 const phaseEl = document.getElementById('phase');
 const meterfill = document.getElementById('meterfill');
+const meterlabel = document.getElementById('meterlabel');
+const BIO_H = 4; // ≈4 h TSZ course maps onto the 24 s loop (L929 ≈1 h → HT-29 ≈6 h)
 const tip = document.getElementById('tip');
 
 let running = !matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -287,15 +289,20 @@ function node(geo, mat, pos, id, label, lscale, group) {
 }
 
 /* ---------- cell shell + organelles ---------- */
+const shellGroup = new THREE.Group(); gCell.add(shellGroup);
+let memMesh = null; const memBase = []; let woundGlow = null;
+const poreDir = new THREE.Vector3(4.9, 0.5, 0.2).normalize();
+const memCalm = new THREE.Color(0xcfd8e6), memStress = new THREE.Color(0xe08a70);
 {
   const mem = new THREE.Mesh(
     new THREE.SphereGeometry(6.4, 48, 32),
     new THREE.MeshStandardMaterial({ color: 0xcfd8e6, transparent: true, opacity: 0.10, roughness: .9, side: THREE.DoubleSide, depthWrite: false })
   );
-  mem.scale.set(1.15, 0.85, 1); gCell.add(mem);
+  mem.scale.set(1.15, 0.85, 1); shellGroup.add(mem);
+  memMesh = mem; memBase.push(...mem.geometry.attributes.position.array);
   const rimT = new THREE.Mesh(new THREE.TorusGeometry(6.35, 0.03, 8, 128),
     new THREE.MeshBasicMaterial({ color: 0x8fa8c0, transparent: true, opacity: .5 }));
-  rimT.rotation.x = Math.PI / 2.15; rimT.scale.set(1.15, 1, 1); gCell.add(rimT);
+  rimT.rotation.x = Math.PI / 2.15; rimT.scale.set(1.15, 1, 1); shellGroup.add(rimT);
 
   // nucleus (left-back) with DNA ribbon + BRD4
   const nuc = new THREE.Mesh(new THREE.SphereGeometry(1.7, 32, 24),
@@ -412,6 +419,13 @@ const poreGroup = new THREE.Group(); poreGroup.position.set(4.9, 0.5, 0.2); pore
     s.position.set(Math.cos(a) * 0.5, Math.sin(a) * 0.5, 0.1); s.rotation.z = a; poreGroup.add(s);
   }
   const lb = makeLabel('MLKL 孔洞', .85); lb.position.set(0, 1.7, 0); poreGroup.add(lb);
+  woundGlow = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: (() => { const c = document.createElement('canvas'); c.width = c.height = 64; const g2 = c.getContext('2d');
+      const gr = g2.createRadialGradient(32, 32, 2, 32, 32, 30); gr.addColorStop(0, 'rgba(255,70,50,.95)'); gr.addColorStop(1, 'rgba(255,70,50,0)');
+      g2.fillStyle = gr; g2.fillRect(0, 0, 64, 64); return new THREE.CanvasTexture(c); })(),
+    transparent: true, opacity: 0, depthWrite: false
+  }));
+  woundGlow.scale.set(2.2, 2.2, 1); poreGroup.add(woundGlow);
   poreGroup.userData.id = 'pore';
   poreGroup.traverse(o => { o.userData.id = 'pore'; if ((o.isMesh || o.isSprite) && !pickables.includes(o)) pickables.push(o); });
 }
@@ -478,12 +492,27 @@ function puff(n, color, size) {
 }
 const mrna = puff(26, 0xd8ccff, 0.09);
 const oligo = puff(14, 0xff7a6e, 0.12);
-const damp = puff(160, 0xffb066, 0.10);
+const damp = puff(220, 0xffb066, 0.16);
 const ions = puff(60, 0x7fd4ff, 0.08);
-const dampVel = new Float32Array(160 * 3);
-for (let i = 0; i < 160; i++) {
+const dampVel = new Float32Array(220 * 3);
+for (let i = 0; i < 220; i++) {
   const th = Math.random() * Math.PI * 2, ph = Math.acos(2 * Math.random() - 1), sp = 0.6 + Math.random() * 1.4;
   dampVel[i * 3] = Math.sin(ph) * Math.cos(th) * sp; dampVel[i * 3 + 1] = Math.cos(ph) * sp * 0.8; dampVel[i * 3 + 2] = Math.sin(ph) * Math.sin(th) * sp;
+}
+
+/* ---------- global dissolve: everything fades as the cell lyses ---------- */
+const fadeMats = [];
+{
+  const skip = new Set([memMesh.material]);
+  mitoRefs.forEach(m => skip.add(m.glow.material));
+  if (woundGlow) skip.add(woundGlow.material);
+  [gA, gB, gC, gCell].forEach(gr => gr.traverse(o => {
+    const mt = o.material;
+    if ((o.isMesh || o.isSprite) && mt && !skip.has(mt) && !fadeMats.some(f => f.m === mt)) {
+      mt.transparent = true;
+      fadeMats.push({ m: mt, base: mt.opacity });
+    }
+  }));
 }
 
 /* ---------- phases ---------- */
@@ -491,7 +520,8 @@ const PHASES = [
   [0, 'A · RIPK1 整合 — 磷酸＋泛素密碼設定閾值'],
   [6, 'B · RIPK3 點火 — RHIM 組裝，RSK3/NSs 開火，CK1G2 煞車'],
   [12, 'C · MLKL 放行 — BRD4 轉錄、HSP90 保護、磷酸化'],
-  [17.5, '執行 — 膜孔打穿細胞膜，離子湧入，DAMP 爆發']
+  [17.5, '執行 — 細胞腫脹、膜孔打穿細胞膜，離子湧入，DAMP 爆發'],
+  [20.5, '裂解 — DAMP 大量釋放，細胞塌陷']
 ];
 function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }
 
@@ -610,6 +640,8 @@ function animate() {
   const dt = Math.min(clk.getDelta(), 0.05);
   if (running) T = (T + dt) % DUR;
   const t = T;
+  const sstep = (a, b, x) => { const u = Math.min(Math.max((x - a) / (b - a), 0), 1); return u * u * (3 - 2 * u); };
+  const dissolveK = sstep(21, 23.5, t);
 
   // flows
   for (const f of flows) {
@@ -632,43 +664,78 @@ function animate() {
   mlkl.scale.setScalar(1 + (t >= 12 ? 0.14 * Math.sin(t * 5) : 0.04));
   mitoLight.intensity = t >= 17.5 ? 2.2 + Math.sin(t * 9) : (t >= 6 ? 0.8 : 0.25);
   mitoRefs.forEach((m, i) => {
-    m.glow.material.opacity = t >= 17.5 ? 0.75 : (t >= 6 ? 0.3 + 0.1 * Math.sin(t * 3 + i) : 0.12);
+    m.glow.material.opacity = (t >= 17.5 ? 0.75 : (t >= 6 ? 0.3 + 0.1 * Math.sin(t * 3 + i) : 0.12)) * (1 - dissolveK);
     m.g.position.y += Math.sin(t * 1.5 + i * 2) * 0.0008;
     const swell = t >= 17.5 ? 1 + 0.18 * Math.sin(t * 7 + i) : 1;
     m.outer.scale.set(swell, swell, swell);
   });
+
+  // cell morphology follows the death threshold: swell → bulge → rupture → collapse
+  const swellK = sstep(9, 17.5, t);
+  const execK = t >= 17.5 ? Math.min((t - 17.5) / 2.5, 1) : 0;
+  const postK = t >= 20.5 ? Math.min((t - 20.5) / 3.5, 1) : 0;
+  if (memMesh) {
+    shellGroup.scale.setScalar((1 + 0.07 * swellK + 0.05 * execK) * (1 - 0.14 * postK));
+    const pos = memMesh.geometry.attributes.position;
+    const arr = pos.array;
+    const shiver = execK * (1 - postK);
+    for (let i = 0; i < pos.count; i++) {
+      const bx = memBase[i * 3], by = memBase[i * 3 + 1], bz = memBase[i * 3 + 2];
+      const il = 1 / (Math.hypot(bx / 1.15, by / 0.85, bz) || 1);
+      const d = (bx / 1.15 * poreDir.x + by / 0.85 * poreDir.y + bz * poreDir.z) * il;
+      const inner = Math.max((d - 0.85) / 0.15, 0);
+      const lip = Math.max((d - 0.60) / 0.25, 0) * (1 - Math.min(inner, 1));
+      const wob = 1 + 0.05 * Math.sin(bx * 1.3 + t * 22) * Math.sin(by * 1.7 - t * 19) * shiver;
+      const push = (inner * inner * 2.1 + lip * lip * 0.7) * execK * (1 - postK * 0.6);
+      arr[i * 3] = bx * wob + poreDir.x * push;
+      arr[i * 3 + 1] = by * wob + poreDir.y * push;
+      arr[i * 3 + 2] = bz * wob + poreDir.z * push;
+    }
+    pos.needsUpdate = true;
+    memMesh.geometry.computeVertexNormals();
+    memMesh.material.color.copy(memCalm).lerp(memStress, Math.min(execK + postK * 0.3, 1));
+    memMesh.material.opacity = (0.10 + 0.05 * swellK + 0.03 * execK * (1 - postK) - 0.08 * postK) * (1 - dissolveK);
+  }
+  if (woundGlow) {
+    woundGlow.material.opacity = 0.9 * execK * (1 - postK * 0.8) * (1 - dissolveK);
+    const ws = 2.2 + 3.2 * execK;
+    woundGlow.scale.set(ws, ws, 1);
+  }
 
   // mRNA nucleus → MLKL (act C)
   setPts(mrna, (i, v) => {
     const u = (t * 0.12 + i / 26) % 1;
     v.set(-3.0 + u * 6.1, 1.3 - u * 1.4 + Math.sin(u * 9 + i) * 0.15, -1.2 + u * 1.6);
   });
-  mrna.visible = showC && t >= 10;
+  mrna.visible = showC && t >= 10 && dissolveK < 0.5;
   // oligomers MLKL → pore
   setPts(oligo, (i, v) => {
     const u = (t * 0.18 + i / 14) % 1;
     v.set(3.1 + u * 1.8, -0.1 + u * 0.6 + Math.sin(u * 7 + i) * 0.12, 0.4 - u * 0.2);
   });
-  oligo.visible = showC && t >= 12;
+  oligo.visible = showC && t >= 12 && dissolveK < 0.5;
   // ions inward through pore
   setPts(ions, (i, v) => {
     const u = (t * 0.5 + i / 60) % 1;
     v.set(6.2 - u * 1.6, 0.5 + Math.sin(i * 3.1) * 0.5 * (1 - u), 0.2 + Math.cos(i * 2.3) * 0.4 * (1 - u));
   });
-  ions.visible = t >= 17.5;
+  ions.visible = t >= 17.5 && dissolveK < 0.5;
   // DAMP burst
   setPts(damp, (i, v) => {
     const age = ((t - 17.5 + DUR) % DUR) / 6.5; // 0..1 after rupture
     const k = Math.min(Math.max(age, 0.02), 1);
-    v.set(4.9 + dampVel[i * 3] * k * 2.2, 0.5 + dampVel[i * 3 + 1] * k * 2.2, 0.2 + dampVel[i * 3 + 2] * k * 2.2);
+    v.set(4.9 + dampVel[i * 3] * k * 3.2, 0.5 + dampVel[i * 3 + 1] * k * 3.2, 0.2 + dampVel[i * 3 + 2] * k * 3.2);
   });
   damp.visible = t >= 17.5;
-  damp.material.opacity = t >= 17.5 ? Math.max(1 - ((t - 17.5) / 6.5), 0.15) : 0;
+  damp.material.opacity = t >= 17.5 ? Math.max(1 - ((t - 17.5) / 6.5), 0.35) * (1 - dissolveK * 0.95) : 0;
 
   poreGroup.scale.setScalar(t >= 17.5 ? 1 + 0.1 * Math.sin(t * 8) : (t >= 12 ? 0.85 + (t - 12) * 0.03 : 0.8));
 
+  for (const f of fadeMats) f.m.opacity = f.base * (1 - dissolveK);
+
   phaseEl.textContent = phaseAt(t);
   meterfill.style.width = Math.min(8 + t / DUR * 92, 100) + '%';
+  meterlabel.textContent = '死亡閾值 · T+ ' + (t / DUR * BIO_H).toFixed(1) + ' 小時';
   metertrack.setAttribute('aria-valuenow', t.toFixed(1));
 
   controls.update();
