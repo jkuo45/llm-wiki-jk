@@ -230,3 +230,25 @@ class TestUpsertTable:
 
     def test_empty_rows_noop(self):
         assert sync.upsert_table(None, "user_nodes", [], "id") == 0
+
+
+class TestGraphBaseDdlParity:
+    """deploy/supabase/graph_base.sql must match the ON CONFLICT targets and
+    row-builder fields used by scripts/sync/graph_to_db.py."""
+
+    DDL = (sync.ROOT / "deploy" / "supabase" / "graph_base.sql").read_text()
+
+    def test_on_conflict_targets_exist_in_ddl(self):
+        assert "unique (from_id, to_id, predicate, graph_source, context)" in self.DDL
+        assert "primary key (norm_id, mode)" in self.DDL
+        assert "primary key (a, b, method, mode)" in self.DDL
+
+    def test_builder_fields_have_columns(self):
+        for col in ("description_zh_tw", "topic_slug", "context_zh_tw",
+                    "community_name", "shared_top", "cross_community",
+                    "build_id"):
+            assert col in self.DDL, f"missing column {col} in graph_base.sql"
+
+    def test_modes_constrained(self):
+        assert "check (mode in ('combined', 'triples', 'wiki'))" in self.DDL
+        assert "check (graph_source in ('triples', 'wiki'))" in self.DDL
