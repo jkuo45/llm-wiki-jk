@@ -164,13 +164,269 @@ export function renderMarkdown(text, opts = {}) {
   html = html.replace(new RegExp(`(</${BLOCK}>|<hr>)((<br>)+)`, 'g'), '$1');
   // Restore extracted code blocks (unwrap placeholder-only paragraphs first).
   // Content is escaped here — once — and real newlines are preserved.
+  // ```mermaid fences get a figure skeleton (toolbar + zoomable canvas +
+  // code fallback) so enhanceMermaid() can render SVG in place and wire
+  // per-diagram zoom in/out/reset + fullscreen. The raw source stays in
+  // <code> so consumers read it back via textContent with real newlines.
   html = html.replace(/<p>\s*\u0000CODE(\d+)\u0000\s*<\/p>/g, '\u0000CODE$1\u0000');
   html = html.replace(/\u0000CODE(\d+)\u0000/g, (m, i) => {
     const { lang, code } = codeBlocks[i];
-    return `<pre><code${lang ? ` class="language-${lang.toLowerCase()}"` : ''}>${esc(code)}</code></pre>`;
+    const cls = lang ? ` class="language-${lang.toLowerCase()}"` : '';
+    if ((lang || '').toLowerCase() === 'mermaid') {
+      return `<figure class="mermaid-figure" data-mermaid-pending>` +
+        `<div class="mermaid-toolbar" role="toolbar" aria-label="Diagram controls">` +
+        `<button type="button" data-m-action="zoom-out" title="Zoom out">−</button>` +
+        `<span class="mermaid-zoom-label" data-m-zoom-label>100%</span>` +
+        `<button type="button" data-m-action="zoom-in" title="Zoom in">+</button>` +
+        `<button type="button" data-m-action="zoom-reset" title="Reset zoom">Reset</button>` +
+        `<button type="button" data-m-action="fullscreen" title="Fullscreen diagram">⛶ Fullscreen</button>` +
+        `</div>` +
+        `<div class="mermaid-canvas"><div class="mermaid-zoom"><pre><code${cls}>${esc(code)}</code></pre></div></div>` +
+        `</figure>`;
+    }
+    return `<pre><code${cls}>${esc(code)}</code></pre>`;
   });
   // Restore extracted callouts (unwrap placeholder-only paragraphs first)
   html = html.replace(/<p>\s*\u0000CALLOUT(\d+)\u0000\s*<\/p>/g, '\u0000CALLOUT$1\u0000');
   html = html.replace(/\u0000CALLOUT(\d+)\u0000/g, (m, i) => callouts[i]);
   return html;
+}
+
+// ------------------------------------------------------------
+// Mermaid enhancement: SVG render + per-diagram zoom/fullscreen.
+// ------------------------------------------------------------
+// renderMarkdown() above emits each ```mermaid fence as
+// <figure class="mermaid-figure"> with a toolbar skeleton and the raw
+// source in <code class="language-mermaid">. Call enhanceMermaid(root)
+// after inserting the HTML — it lazily imports mermaid from CDN (only
+// when a diagram exists), swaps the fallback <pre> for SVG, and wires
+// each figure's zoom in/out/reset + fullscreen buttons. Legacy markup
+// (<pre><code class="language-mermaid"> without a figure) is upgraded
+// to the same figure shape first, so older callers keep working.
+// Fullscreen prefers the Fullscreen API with a fixed-overlay fallback
+// class (.is-fullscreen) for iframes without fullscreen permission.
+export const MERMAID_CDN =
+  'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+const MERMAID_CSS = `
+.mermaid-figure{margin:14px 0;padding:0;background:var(--card,#fff);border:1px solid var(--line, #e2e2e2);border-radius:8px;overflow:hidden}
+.mermaid-toolbar{display:flex;align-items:center;gap:6px;padding:6px 10px;border-bottom:1px solid var(--line,#e2e2e2);background:color-mix(in srgb, var(--card,#fff) 80%, transparent)}
+.mermaid-toolbar button{font-size:12px;line-height:1;padding:4px 10px;border:1px solid var(--line2,#ccc);border-radius:6px;background:var(--bg,#fff);color:var(--text,#111);cursor:pointer}
+.mermaid-toolbar button:hover{border-color:var(--teal,#0e9b8b);color:var(--teal,#0e9b8b)}
+.mermaid-zoom-label{font-size:12px;min-width:44px;text-align:center;color:var(--dim,#666);font-variant-numeric:tabular-nums}
+.mermaid-canvas{overflow:auto;max-height:560px;padding:12px;cursor:grab;text-align:center}
+.mermaid-canvas:active{cursor:grabbing}
+.mermaid-zoom{transform-origin:top center;display:inline-block;min-width:100%;text-align:center}
+.mermaid-zoom svg{max-width:none;height:auto}
+.mermaid-figure.is-fullscreen{position:fixed;inset:0;z-index:9999;border-radius:0;display:flex;flex-direction:column;background:var(--bg,#fff)}
+.mermaid-figure.is-fullscreen .mermaid-canvas{flex:1;max-height:none}
+.mermaid-figure:fullscreen{display:flex;flex-direction:column}
+.mermaid-figure:fullscreen .mermaid-canvas{flex:1;max-height:none}
+`;
+
+let mermaidLib = null;
+let mermaidSeq = 0;
+let mermaidStyleDone = false;
+let mermaidThemeListenerDone = false;
+
+function ensureMermaidStyles() {
+  if (mermaidStyleDone) return;
+  if (typeof document === 'undefined') return;
+  if (document.querySelector('style[data-mermaid-controls]')) {
+    mermaidStyleDone = true;
+    return;
+  }
+  const el = document.createElement('style');
+  el.setAttribute('data-mermaid-controls', '');
+  el.textContent = MERMAID_CSS;
+  document.head.appendChild(el);
+  mermaidStyleDone = true;
+}
+
+async function getMermaid() {
+  if (mermaidLib) return mermaidLib;
+  const mod = await import(MERMAID_CDN);
+  mermaidLib = mod.default;
+  return mermaidLib;
+}
+
+function activeMermaidTheme() {
+  try {
+    return localStorage.getItem('llm-wiki-theme') === 'dark' ? 'dark' : 'neutral';
+  } catch { return 'neutral'; }
+}
+
+async function renderMermaidSource(source) {
+  const mermaid = await getMermaid();
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: activeMermaidTheme(),
+    securityLevel: 'loose',
+    flowchart: { htmlLabels: true, useMaxWidth: true },
+  });
+  const id = 'mmd-' + (++mermaidSeq) + '-' + Date.now().toString(36);
+  try {
+    const { svg } = await mermaid.render(id, source);
+    return svg;
+  } catch (err) {
+    if (typeof document !== 'undefined') document.getElementById('d' + id)?.remove();
+    throw err;
+  }
+}
+
+function applyZoom(fig) {
+  const zoom = fig.querySelector('.mermaid-zoom');
+  const label = fig.querySelector('[data-m-zoom-label]');
+  const z = parseFloat(fig.dataset.zoom || '1') || 1;
+  if (zoom) zoom.style.transform = z === 1 ? '' : `scale(${z})`;
+  if (label) label.textContent = Math.round(z * 100) + '%';
+}
+
+function setZoom(fig, z) {
+  fig.dataset.zoom = String(Math.min(3, Math.max(0.4, Math.round(z * 100) / 100)));
+  applyZoom(fig);
+}
+
+function toggleFullscreen(fig) {
+  if (typeof document === 'undefined') return;
+  const doc = document;
+  if (doc.fullscreenElement === fig) {
+    doc.exitFullscreen?.();
+    return;
+  }
+  if (fig.classList.contains('is-fullscreen')) {
+    fig.classList.remove('is-fullscreen');
+    return;
+  }
+  // Fullscreen API may be blocked inside iframes; fall back to fixed overlay.
+  try {
+    const p = fig.requestFullscreen?.();
+    if (p && typeof p.catch === 'function') {
+      p.catch(() => fig.classList.add('is-fullscreen'));
+    } else if (!fig.requestFullscreen) {
+      fig.classList.add('is-fullscreen');
+    }
+  } catch {
+    fig.classList.add('is-fullscreen');
+  }
+}
+
+function wireFigure(fig) {
+  if (fig.dataset.mermaidWired) return;
+  fig.dataset.mermaidWired = '1';
+  if (!fig.dataset.zoom) fig.dataset.zoom = '1';
+  const toolbar = fig.querySelector('.mermaid-toolbar');
+  toolbar?.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-m-action]');
+    if (!btn) return;
+    const z = parseFloat(fig.dataset.zoom || '1') || 1;
+    const action = btn.dataset.mAction;
+    if (action === 'zoom-in') setZoom(fig, z + 0.2);
+    else if (action === 'zoom-out') setZoom(fig, z - 0.2);
+    else if (action === 'zoom-reset') setZoom(fig, 1);
+    else if (action === 'fullscreen') toggleFullscreen(fig);
+  });
+  // Ctrl/Cmd + wheel zooms; plain drag pans the scrollable canvas.
+  const canvas = fig.querySelector('.mermaid-canvas');
+  canvas?.addEventListener('wheel', (e) => {
+    if (!e.ctrlKey && !e.metaKey) return;
+    e.preventDefault();
+    const z = parseFloat(fig.dataset.zoom || '1') || 1;
+    setZoom(fig, z + (e.deltaY < 0 ? 0.1 : -0.1));
+  }, { passive: false });
+  if (canvas) {
+    let down = false, sx = 0, sy = 0, sl = 0, st = 0;
+    canvas.addEventListener('pointerdown', (e) => {
+      down = true; sx = e.clientX; sy = e.clientY; sl = canvas.scrollLeft; st = canvas.scrollTop;
+    });
+    window.addEventListener('pointermove', (e) => {
+      if (!down) return;
+      canvas.scrollLeft = sl - (e.clientX - sx);
+      canvas.scrollTop = st - (e.clientY - sy);
+    });
+    window.addEventListener('pointerup', () => { down = false; });
+  }
+  applyZoom(fig);
+}
+
+function upgradeLegacyBlocks(root) {
+  // <pre><code class="language-mermaid"> not yet wrapped in a figure —
+  // rebuild the figure skeleton around it so all diagrams share controls.
+  root.querySelectorAll('pre > code.language-mermaid').forEach((code) => {
+    if (code.closest('.mermaid-figure')) return;
+    const pre = code.closest('pre');
+    if (!pre) return;
+    const parent = pre.parentNode;
+    const next = pre.nextSibling;
+    const fig = document.createElement('figure');
+    fig.className = 'mermaid-figure';
+    fig.setAttribute('data-mermaid-pending', '');
+    fig.innerHTML =
+      `<div class="mermaid-toolbar" role="toolbar" aria-label="Diagram controls">` +
+      `<button type="button" data-m-action="zoom-out" title="Zoom out">−</button>` +
+      `<span class="mermaid-zoom-label" data-m-zoom-label>100%</span>` +
+      `<button type="button" data-m-action="zoom-in" title="Zoom in">+</button>` +
+      `<button type="button" data-m-action="zoom-reset" title="Reset zoom">Reset</button>` +
+      `<button type="button" data-m-action="fullscreen" title="Fullscreen diagram">⛶ Fullscreen</button>` +
+      `</div><div class="mermaid-canvas"><div class="mermaid-zoom"></div></div>`;
+    fig.querySelector('.mermaid-zoom').appendChild(pre);
+    parent.insertBefore(fig, next);
+  });
+}
+
+export async function enhanceMermaid(root = document, opts = {}) {
+  if (!root || typeof root.querySelectorAll !== 'function') return 0;
+  ensureMermaidStyles();
+  upgradeLegacyBlocks(root);
+  const figs = Array.from(root.querySelectorAll('.mermaid-figure'));
+  if (!figs.length) return 0;
+  figs.forEach(wireFigure);
+  if (!mermaidThemeListenerDone && typeof document !== 'undefined') {
+    mermaidThemeListenerDone = true;
+    document.addEventListener('wiki-theme', () => {
+      document.querySelectorAll('.mermaid-figure[data-mermaid-source]').forEach(async (fig) => {
+        try {
+          const svg = await renderMermaidSource(fig.dataset.mermaidSource);
+          const zoom = fig.querySelector('.mermaid-zoom');
+          if (zoom) zoom.innerHTML = svg;
+          applyZoom(fig);
+        } catch { /* keep previous rendering on failure */ }
+      });
+    });
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        document.querySelectorAll('.mermaid-figure.is-fullscreen').forEach((f) => {
+          if (f !== document.fullscreenElement) f.classList.remove('is-fullscreen');
+        });
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.mermaid-figure.is-fullscreen')
+          .forEach((f) => f.classList.remove('is-fullscreen'));
+      }
+    });
+  }
+  const cdn = opts.cdn || MERMAID_CDN;
+  if (cdn !== MERMAID_CDN) { /* reserved for self-hosted mermaid */ }
+  let done = 0;
+  for (const fig of figs) {
+    if (fig.dataset.mermaidDone) continue;
+    const code = fig.querySelector('code.language-mermaid');
+    const source = (fig.dataset.mermaidSource || code?.textContent || '').trim();
+    if (!source) continue;
+    try {
+      const svg = await renderMermaidSource(source);
+      fig.dataset.mermaidSource = source;
+      fig.removeAttribute('data-mermaid-pending');
+      const zoom = fig.querySelector('.mermaid-zoom');
+      if (zoom) zoom.innerHTML = svg;
+      applyZoom(fig);
+      fig.dataset.mermaidDone = '1';
+      done++;
+    } catch (err) {
+      console.warn('mermaid render failed; keeping code block', err);
+    }
+  }
+  return done;
 }

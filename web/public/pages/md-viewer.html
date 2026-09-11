@@ -43,9 +43,11 @@
 .md-body table thead th:first-child { z-index:3; }
 .md-body tr:nth-child(even) td { background:color-mix(in srgb, var(--card) 45%, transparent); }
 .md-body pre { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; overflow-x:auto; }
-/* Rendered ```mermaid fences (replaces the fallback <pre><code> block) */
-.mermaid-figure { margin:14px 0; padding:12px; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow-x:auto; text-align:center; }
-.mermaid-figure svg { max-width:100%; height:auto; }
+/* Rendered ```mermaid fences: figure skeleton + toolbar come from
+   renderMarkdown(); layout/overlay styles are injected by
+   enhanceMermaid() (components/markdown.js) so all consumers share
+   zoom + fullscreen. Keep only page-specific tweaks here. */
+.mermaid-figure { margin:14px 0; }
 /* Deeper indentation for (nested) bullet points */
 .md-body ul, .md-body ol { padding-left:32px; }
 .md-body ul ul, .md-body ol ul, .md-body ul ol, .md-body ol ol { padding-left:36px; }
@@ -134,7 +136,7 @@
 </div>
 
 <script type="module">
-import { renderMarkdown, esc, wikiExcerpt } from '../components/markdown.js';
+import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid } from '../components/markdown.js';
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
@@ -309,66 +311,15 @@ wikiModalOverlay.addEventListener('click', (e) => {
 });
 
 
-// Mermaid diagram support — ```mermaid fences render as SVG figures.
-// The library is imported lazily from CDN only when a fence exists; on any
-// load or parse failure the original <pre><code> block stays as fallback.
-// Diagram source is kept on the figure so 'wiki-theme' switches (dispatched
-// by pages-core.js) re-render with the active light/dark palette.
-const MERMAID_CDN = 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-let mermaidLib = null;
-async function getMermaid() {
-  if (mermaidLib) return mermaidLib;
-  const mod = await import(MERMAID_CDN);
-  mermaidLib = mod.default;
-  return mermaidLib;
-}
-const activeMermaidTheme = () => {
-  try { return localStorage.getItem('llm-wiki-theme') === 'dark' ? 'dark' : 'neutral'; }
-  catch { return 'neutral'; }
-};
-let mermaidSeq = 0;
-async function renderMermaidSource(source) {
-  const mermaid = await getMermaid();
-  mermaid.initialize({
-    startOnLoad: false,
-    theme: activeMermaidTheme(),
-    securityLevel: 'loose', // first-party vault content; enables <br/> in labels
-    flowchart: { htmlLabels: true, useMaxWidth: true },
-  });
-  const id = 'mmd-' + (++mermaidSeq);
-  try {
-    const { svg } = await mermaid.render(id, source);
-    return svg;
-  } catch (err) {
-    document.getElementById('d' + id)?.remove(); // drop mermaid's error element
-    throw err;
-  }
-}
+// Mermaid diagrams: renderMarkdown() emits each ```mermaid fence as a
+// <figure class="mermaid-figure"> with a toolbar skeleton; the shared
+// enhanceMermaid() helper (components/markdown.js) swaps the fallback
+// <pre> for SVG and wires per-diagram zoom in/out/reset + fullscreen.
+// Theme re-render ('wiki-theme') and fallback-on-failure live there too.
 async function renderMermaidDiagrams(root) {
-  const blocks = root.querySelectorAll('code.language-mermaid');
-  if (!blocks.length) return;
-  for (const code of blocks) {
-    const pre = code.closest('pre');
-    if (!pre) continue;
-    const source = code.textContent;
-    try {
-      const svg = await renderMermaidSource(source);
-      const fig = document.createElement('div');
-      fig.className = 'mermaid-figure';
-      fig.dataset.mermaidSource = source;
-      fig.innerHTML = svg;
-      pre.replaceWith(fig);
-    } catch (err) {
-      console.warn('mermaid render failed; keeping code block', err);
-    }
-  }
+  try { await enhanceMermaid(root); }
+  catch (err) { console.warn('mermaid enhance failed; keeping code block', err); }
 }
-document.addEventListener('wiki-theme', () => {
-  document.querySelectorAll('.mermaid-figure[data-mermaid-source]').forEach(async (fig) => {
-    try { fig.innerHTML = await renderMermaidSource(fig.dataset.mermaidSource); }
-    catch { /* keep the previous rendering on failure */ }
-  });
-});
 
 // Group rendered blocks under <section id> per h1/h2 so the reader's
 // scroll tracking and #section deep links work like article pages.
