@@ -47,6 +47,9 @@
   .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
   /* paradigm cells: female/apoptosis + male/parthanatos (XX-caspase / XY-PAR/AIF) */
   .table-wrap td.paradigm{ background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); border-left:2px solid var(--gold); }
+  /* cell-type selection: highlight matching cells, never filters rows */
+  .table-wrap td.cell-hl{ background:color-mix(in srgb, var(--slate) 16%, var(--sheet)); box-shadow:inset 0 0 0 1px var(--slate); }
+  .table-wrap td.cell-nodata{ color:var(--mute); font-style:italic; }
   td[data-hl]{ border-left:2px solid transparent; }
   .table-wrap.hl-lytic td[data-hl~="lytic"]{ background:color-mix(in srgb, var(--oxblood) 9%, var(--sheet)); border-left-color:var(--oxblood); }
   .table-wrap.hl-energy td[data-hl~="energy"]{ background:color-mix(in srgb, var(--gold) 12%, var(--sheet)); border-left-color:var(--gold); }
@@ -150,6 +153,14 @@
             <option value="hl-iron">Iron &amp; lipid peroxidation</option>
             <option value="hl-dna">DNA-damage / PARP axis</option>
           </select>
+          <select id="cell" aria-label="Cell type filter">
+            <option value="">Cell type: all</option>
+            <option value="neuron">Neurons</option>
+            <option value="macrophage">Macrophages / microglia</option>
+            <option value="fibroblast">Fibroblasts</option>
+            <option value="rbc">RBCs (eryptosis)</option>
+            <option value="neutrophil">Neutrophils (NETosis)</option>
+          </select>
           <span class="count" id="count">10 programs · 11 features</span>
         </div>
       </div>
@@ -175,8 +186,8 @@
           <tbody>
             <tr data-program="apoptosis">
               <th scope="row"><b>Apoptosis</b><span class="sub">programmed · silent</span></th>
-              <td>Lower caspase-3/8 activation after ischemia; higher post-MI apoptotic index (25.9% vs 2.6%) with higher cardiac Bax (Biondi-Zoccai 2005)</td>
-              <td class="paradigm">Females preferentially undergo caspase-dependent apoptosis over PARP-1/AIF necrosis — cell-autonomous, persists in hormone-free media and prepubertal animals; higher/earlier caspase-3, predominant caspase-8 nuclear import; Q-VD-OPh protects females only (Liu 2009; Sharma 2011); E2→Bcl-2 (Dubal 1999); XIAP mosaic threshold (Dziadzio 2015)</td>
+              <td>Lower caspase-3/8 activation after ischemia; higher post-MI apoptotic index (25.9% vs 2.6%) with higher cardiac Bax (Biondi-Zoccai 2005); fibroblast mito-stress reversal — XY higher apoptosis, see <a href="#scope-note">scope note</a></td>
+              <td class="paradigm">Females preferentially undergo caspase-dependent apoptosis over PARP-1/AIF necrosis — cell-autonomous, persists in hormone-free media and prepubertal animals; higher/earlier caspase-3, predominant caspase-8 nuclear import; Q-VD-OPh protects females only (Liu 2009; Sharma 2011); E2→Bcl-2 (Dubal 1999); XIAP mosaic threshold (Dziadzio 2015); except fibroblast mito-stress — see <a href="#scope-note">scope note</a></td>
               <td data-hl=""><span class="pill reg">regulated</span><span class="pill silent">non-lytic</span><br>yes</td>
               <td data-hl="energy">ATP-dependent</td>
               <td data-hl="">shrinkage, blebbing intact, apoptotic bodies, DNA ladder</td>
@@ -246,7 +257,7 @@
             <tr data-program="autophagy">
               <th scope="row"><b>Autophagy</b><span class="sub">survival process; death only if ATG-dependent (NCCD criteria)</span></th>
               <td>Canonical Beclin-1/LC3 induction post-stroke; higher basal cardiac Beclin-1/LC3 (Campesi 2013); exhaustive exercise clears p62 only in young males</td>
-              <td>Beclin-1-independent ATG7 route (Patrizz 2021); higher basal muscle autophagy/mitophagy, TFEB ~1.8×; E2 bidirectional (neuronal mTOR–ULK1 suppression vs ER+ pro-survival)</td>
+              <td>Beclin-1-independent ATG7 route (Patrizz 2021); higher basal muscle autophagy/mitophagy, TFEB ~1.8×; E2 bidirectional (neuronal mTOR–ULK1 suppression vs ER+ pro-survival); fibroblast mito-stress — XX resistance via autophagy, see <a href="#scope-note">scope note</a></td>
               <td data-hl=""><span class="pill reg">regulated</span><br>yes, pro-survival; death only if excessive</td>
               <td data-hl="energy">mTORC1-inhibited, AMPK-activated</td>
               <td data-hl="">double-membrane autophagosome → autolysosome</td>
@@ -318,7 +329,7 @@
       </div>
       <footer class="legend">
         <p class="tldr">Across ischemia–reperfusion models, female cells default to caspase-dependent apoptosis; male cells to PARP1–AIF parthanatos; the lytic and iron arms add context-specific exceptions.
-          <span class="scope">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking. Eryptosis (RBC, anucleate) and NETosis (neutrophil) are blood-cell-specific and outside the XX/XY paradigm — no cell-autonomous sex split established.</span></p>
+          <span class="scope" id="scope-note">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking. Reversal: under mitochondrial stress, fibroblasts flip the pattern — XY males show higher classical apoptosis while XX females resist via autophagy. Cell-type selector (neurons / macrophages-microglia / fibroblasts / RBCs / neutrophils) swaps Male/Female cells from per-type data (strong: neuron apoptosis/parthanatos, macrophage pyroptosis; 9 single-study; 38 no-direct-data, shown muted-italic) — "all" restores the blended defaults. Eryptosis (RBC, anucleate) and NETosis (neutrophil) are blood-cell-specific and outside the XX/XY paradigm — no cell-autonomous sex split established.</span></p>
         <p><b>Legend</b> — <span class="sw"></span> gold cells: the central sex paradigm (XX → caspase-dependent apoptosis; XY → PARP1/AIF parthanatos). Pills: <span class="pill reg">regulated</span> <span class="pill acc">accidental</span> <span class="pill lytic">lytic</span> <span class="pill silent">non-lytic</span>. <b>*</b> = inferred from cross-program biology, not directly demonstrated in the cited sex-difference studies.</p>
       </footer>
     
@@ -394,6 +405,74 @@
       });
   }
   q.addEventListener('input', apply);
+  // cell-type layer: highlight matching cells (always) + swap Male/Female
+  // content from celltype-sex.json when available (phase 1: neurons).
+  // default Male/Female preference stays visible via gold .paradigm cells (pure CSS).
+  var cell = document.getElementById('cell');
+  var CELL_TERMS = {
+    neuron: ['neuron'],
+    macrophage: ['macrophage', 'microglia'],
+    fibroblast: ['fibroblast'],
+    rbc: ['rbc', 'eryptosis', 'red blood'],
+    neutrophil: ['neutrophil', 'netosis']
+  };
+  var CELLDATA = null, ORIG = {};
+  function snapshotOrig(){
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      var p = r.getAttribute('data-program');
+      var tds = r.querySelectorAll('td');
+      // Male = first td, Female = second td (Program header is TH)
+      if (p && tds.length >= 2 && !ORIG[p]) ORIG[p] = {male: tds[0].innerHTML, female: tds[1].innerHTML, maleHl: tds[0].classList.contains('paradigm'), femaleHl: tds[1].classList.contains('paradigm'), det: tds.length > 5 ? tds[5].innerHTML : null, vul: tds.length > 10 ? tds[10].innerHTML : null};
+    });
+  }
+  snapshotOrig();
+  fetch('../../data/celltype-sex.json').then(function(res){ return res.ok ? res.json() : null; }).then(function(j){ CELLDATA = j; }).catch(function(){ CELLDATA = null; });
+  function swapCells(v){
+    var pack = CELLDATA && CELLDATA[v];
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      var p = r.getAttribute('data-program');
+      var tds = r.querySelectorAll('td');
+      if (!p || tds.length < 2 || !ORIG[p]) return;
+      if (pack && pack[p]){
+        tds[0].innerHTML = pack[p].male;
+        tds[1].innerHTML = pack[p].female;
+        if (pack[p].evidence === 'nodata'){ tds[0].classList.add('cell-nodata'); tds[1].classList.add('cell-nodata'); }
+        else { tds[0].classList.remove('cell-nodata'); tds[1].classList.remove('cell-nodata'); }
+        // move gold preference highlight with the data, only where evidence exists
+        tds[0].classList.toggle('paradigm', pack[p].highlight === 'male');
+        tds[1].classList.toggle('paradigm', pack[p].highlight === 'female');
+        // dependent columns: swap only where the pack defines an override
+        if (tds.length > 5 && pack[p].detection) tds[5].innerHTML = pack[p].detection;
+        if (tds.length > 10 && pack[p].vulnerable) tds[10].innerHTML = pack[p].vulnerable;
+      } else {
+        tds[0].innerHTML = ORIG[p].male;
+        tds[1].innerHTML = ORIG[p].female;
+        tds[0].classList.remove('cell-nodata');
+        tds[1].classList.remove('cell-nodata');
+        tds[0].classList.toggle('paradigm', !!ORIG[p].maleHl);
+        tds[1].classList.toggle('paradigm', !!ORIG[p].femaleHl);
+        if (tds.length > 5 && ORIG[p].det) tds[5].innerHTML = ORIG[p].det;
+        if (tds.length > 10 && ORIG[p].vul) tds[10].innerHTML = ORIG[p].vul;
+      }
+    });
+  }
+  function paintCells(){
+    var v = cell.value;
+    var terms = CELL_TERMS[v] || [];
+    tbl.querySelectorAll('td.cell-hl').forEach(function(td){ td.classList.remove('cell-hl'); });
+    if (!terms.length) return;
+    tbl.tBodies[0].rows;
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      Array.prototype.forEach.call(r.cells, function(td){
+        if (td.tagName !== 'TD') return;
+        var txt = td.textContent.toLowerCase();
+        for (var i=0;i<terms.length;i++){
+          if (txt.indexOf(terms[i]) > -1){ td.classList.add('cell-hl'); break; }
+        }
+      });
+    });
+  }
+  cell.addEventListener('change', function(){ paintCells(); swapCells(cell.value); });
   hl.addEventListener('change', function(){
     wrap.classList.remove('hl-lytic','hl-energy','hl-iron','hl-dna');
     if (hl.value) wrap.classList.add(hl.value);
