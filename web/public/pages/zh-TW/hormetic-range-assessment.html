@@ -492,9 +492,9 @@
       </div>
 
         <div class="adv-card">
-        <details id="weightTuner">
+        <details id="weightTuner" open>
           <summary>調整領域權重 <span id="weightMode">— 證據預設</span></summary>
-          <p class="tuner-hint">權重越高，在綜合分數和指引排序中的佔比越大。0 = 忽略該領域。L 適用於低於毒興窗口（滑桿 &lt; 5），H 適用於高於窗口（滑桿 &gt; 5）；1.0 = 對稱。</p>
+          <p class="tuner-hint">權重越高，在綜合分數和指引排序中的佔比越大。0 = 忽略該領域。L 適用於低於毒興窗口（滑桿 &lt; 5），H 適用於高於窗口（滑桿 &gt; 5）；1.0 = 對稱。綜合分數＝加權平均 Σ(w × 接近度) / Σ(w)——只有相對比例重要，同時加倍所有權重不會改變結果。</p>
           <div class="tuner-presets">
             <button class="btn" onclick="applyWeightPreset('evidence')">證據預設</button>
             <button class="btn" onclick="applyWeightPreset('equal')">均等（全 1.0）</button>
@@ -505,9 +505,14 @@
             <tbody id="weightTunerBody"></tbody>
           </table></div>
         </details>
-        <details id="responseTracker">
+        <details id="responseTracker" open>
           <summary>追蹤生物標記反應 <span id="responseMode">— 基準 → 複測</span></summary>
           <p class="tuner-hint">選填的第二層。輸入方案前的基準值和複測值（間隔 ≥2–4 週）。朝 ~30–60% 改善＝毒興反應（上限 +60%——超過並非更多毒興）；接近零變化＝休眠；反轉＝過度。此層用於確認實踐分數——不能取代它。爭議、EIMD 和僅限臨床的領域不設結果目標。</p>
+          <div class="tuner-presets">
+            <button class="btn" onclick="loadResponseExample('good')">載入良好範例</button>
+            <button class="btn" onclick="loadResponseExample('bad')">載入不良範例</button>
+            <button class="btn" onclick="clearResponseExamples()">清除範例</button>
+          </div>
           <div class="table-wrap"><table class="tuner-table resp-table">
             <thead><tr><th>指標</th><th>基準</th><th>複測</th><th>Δ</th><th>訊號</th></tr></thead>
             <tbody id="responseTrackerBody"></tbody>
@@ -825,9 +830,9 @@
       <h2>核心感測器與下游效應器</h2>
       <p>
         每個毒物興奮領域都匯聚到一個共享的感測器–效應器架構。感測器偵測特定的壓力源訊號
-        （ROS、氧氣張力、營養缺乏、溫度變化、機械負荷），並將其路由到重疊的轉錄程式。
-        來自抗氧化酶簇綜述的關鍵洞見是：<strong>區室、劑量窗口和氧化態設定點</strong>——
-        而非僅僅是表現水平——決定了感測器介導的反應是保護性的還是致病性的。
+        （ROS、氧氣張力、營養缺乏、溫度變化、機械負荷、微生物模式、光、DNA 斷裂），並將其路由到重疊的轉錄程式。
+        所有領域的通用規則是<strong>訊號特異性、劑量窗口、可逆性/時機</strong>——
+        而非僅僅是表現水平——決定了反應是保護性的還是致病性的。
       </p>
 
       <div class="sensor-grid">
@@ -855,10 +860,34 @@
           <h4>FOXO</h4>
           <p class="pathway">AMPK/SIRT1 的下游；MnSOD、catalase、GADD45、自噬基因、萎縮抗性的轉錄因子。連接營養壓力 → 壓力抗性基因程式的輸出臂。</p>
         </div>
+        <div class="sensor-card">
+          <h4>ATM / p53</h4>
+          <p class="pathway">DNA 斷裂 → ATM → p53 → BRCA1/GADD45 修復、FOXO 抗氧化臂。低劑量輻射的感測器；短暫啟動 = 適應性，慢性高劑量 = 致突變性。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>NF-κB / TLR / Treg 軸</h4>
+          <p class="pathway">損傷與微生物模式感應 → 急性 NF-κB 修復 vs. Treg 耐受（TGF-β、IL-25、SCFAs 經由 GPR41/43）。EIMD、老朋友、腸道微生物群的感測器。急性可恢復 = 修復；慢性 = 炎性老化。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>UPR — ATF4 / XBP1</h4>
+          <p class="pathway">錯誤摺疊蛋白負荷 → HSF1/HSP 臂加上內質網臂（ATF4、XBP1）→ 伴護蛋白、ERAD、粒線體自噬。蛋白毒性/內質網毒興的感測器（熱 + 高強度組）；慢性睡眠剝奪會瓦解它。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>OPN4 / CLOCK-BMAL1</h4>
+          <p class="pathway">黑視蛋白光感應 → 生理時鐘重置 → 粒線體/BDNF 節律性。光生物調節的感測器；晨光 = 校準，深夜強光 = 振幅扁平化。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>Integrin / YAP-TAZ + 滲透壓感應 MAPK</h4>
+          <p class="pathway">機械負荷與滲透壓 → integrin/YAP-TAZ 重塑、MAPK 水通道蛋白程式。骨骼、重力/振動、滲透壓力的感測器。漸進負荷 = 重塑；突然超載或慢性不足 = 損傷。</p>
+        </div>
+        <div class="sensor-card">
+          <h4>mTORC1 / Adenosine-PKC-mitoK-ATP</h4>
+          <p class="pathway">營養/能量與缺血感應 → mTORC1 生長開關、adenosine/PKC 預處理級聯。禁食/化學毒興與缺血預處理的感測器；脈衝式抑制 = 自噬/預處理，慢性 = 萎縮/再灌流損傷。</p>
+        </div>
       </div>
 
       <div class="callout teal">
-        <p><strong>抗氧化酶的教訓：</strong>Trx1、MnSOD、catalase 和 peroxiredoxin 並非可互換的自由基海綿。區室（粒線體 vs. 胞質）、劑量窗口（SIRT3 乙醯化循環，而非固定的開/關）以及修飾的可逆性（經由 Srx 的亞磺酸修復 vs. 不可逆的硝化）決定了酶反應落在毒興窗口內還是退出到病理狀態。這就是為何<em>你如何進行毒興壓力</em>與<em>你是否進行</em>同樣重要。</p>
+        <p><strong>實例——抗氧化酶的教訓：</strong>Trx1、MnSOD、catalase 和 peroxiredoxin 並非可互換的自由基海綿。區室（粒線體 vs. 胞質）、劑量窗口（SIRT3 乙醯化循環，而非固定的開/關）以及修飾的可逆性（經由 Srx 的亞磺酸修復 vs. 不可逆的硝化）決定了酶反應落在毒興窗口內還是退出到病理狀態。同樣的特異性–窗口–可逆性邏輯適用於上述每個感測器。這就是為何<em>你如何進行毒興壓力</em>與<em>你是否進行</em>同樣重要。</p>
       </div>
     </section>
     <!-- ==================== SOURCES ==================== -->
@@ -903,7 +932,7 @@
 // ============================================================
 //  DOMAIN DATA
 // ============================================================
-const DOMAINS = [
+const DOMAINS_FALLBACK = [
   {
     id: 'radiation',
     num: '01',
@@ -1232,6 +1261,8 @@ const DOMAINS = [
 // ============================================================
 //  STATE
 // ============================================================
+let DOMAINS = [];
+let RESPONSE_TRACKED = [];
 let values = {};
 
 function loadState() {
@@ -1354,7 +1385,7 @@ function resetWeights() {
 //  朝 ~+30-60% 改善＝毒興反應（封頂）；接近零＝休眠；
 //  反轉＝過度。爭議領域刻意不設結果目標。
 // ============================================================
-const RESPONSE_TRACKED = [
+const RESPONSE_TRACKED_FALLBACK = [
   { id: 'ros', endpoints: [
     { key: 'rhr', label: '靜息心率', unit: 'bpm', lowerBetter: true },
     { key: 'hrv', label: 'HRV（rMSSD）', unit: 'ms', lowerBetter: false }
@@ -1407,6 +1438,8 @@ const RESPONSE_TRACKED = [
     { key: 'jump', label: '垂直跳高', unit: 'cm', lowerBetter: false }
   ] }
 ];
+DOMAINS = DOMAINS_FALLBACK;
+RESPONSE_TRACKED = RESPONSE_TRACKED_FALLBACK;
 const RESPONSE_NOISE = 5;   // |Δ| 低於此＝休眠（量測雜訊）
 const RESPONSE_CEIL = 60;   // 毒興計分封頂 +60%
 let respData = {};
@@ -1474,6 +1507,33 @@ function onResponse(id, key, side, val) {
   const sEl = document.getElementById(`resp-sig-${id}-${key}`);
   if (dEl) dEl.textContent = fmtDelta(sig.delta);
   if (sEl) sEl.innerHTML = sigChip(sig);
+  updateResponseSummary();
+  renderGuidance();
+}
+// 示範情境：真實基準值；良好＝~30% 改善、不良＝~30% 惡化（皆超過 5% 雜訊帶、低於 60% 上限）。
+const RESPONSE_EXAMPLE_BASELINES = {
+  rhr: 68, hrv: 42, breathhold: 45, resprate: 14, fbg: 95, a1c: 5.4,
+  sickdays: 8, allergy: 5, sbp: 122, pss: 18, crp: 1.6, plants: 12,
+  bloat: 5, grip: 32, balance: 20, sol: 25, alert: 5, waist: 86,
+  sts: 12, deep: 1.1, urine: 4, sauna: 10, jump: 28
+};
+function loadResponseExample(kind) {
+  respData = {};
+  const good = kind === 'good';
+  RESPONSE_TRACKED.forEach(t => t.endpoints.forEach(ep => {
+    const b = RESPONSE_EXAMPLE_BASELINES[ep.key];
+    if (b == null) return;
+    const dir = (good === ep.lowerBetter) ? 0.7 : 1.3;
+    const r = Math.round(b * dir * 10) / 10;
+    respData[`${t.id}:${ep.key}`] = { b, r };
+  }));
+  renderResponseTracker();
+  updateResponseSummary();
+  renderGuidance();
+}
+function clearResponseExamples() {
+  respData = {};
+  renderResponseTracker();
   updateResponseSummary();
   renderGuidance();
 }
@@ -1928,6 +1988,17 @@ function resetAll() {
 // ============================================================
 //  INIT
 // ============================================================
+async function loadDomainData() {
+  try {
+    let res = await fetch('../../data/hormetic-domains.zh-TW.json', { cache: 'no-store' });
+    if (!res.ok) res = await fetch('../../data/hormetic-domains.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const j = await res.json();
+    if (Array.isArray(j.domains) && j.domains.length) DOMAINS = j.domains;
+    if (Array.isArray(j.responseTracked) && j.responseTracked.length) RESPONSE_TRACKED = j.responseTracked;
+  } catch (_) { /* offline/file:// — keep inline fallback */ }
+}
+loadDomainData().catch(() => {}).then(() => {
 loadState();
 renderSliders();
 renderWeightTuner();
@@ -1936,6 +2007,7 @@ updateRadar();
 updateScore();
 renderGuidance();
 bindRadarCopy();
+});
 // Shared theme-02 behaviors: scroll-spy, tooltip, diagram lightbox, nav hint.
 T2.initNav();
 T2.initTooltip();
