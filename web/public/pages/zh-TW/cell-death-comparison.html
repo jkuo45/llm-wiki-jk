@@ -47,6 +47,9 @@
   .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
   /* paradigm cells: female/apoptosis + male/parthanatos (XX-caspase / XY-PAR/AIF) */
   .table-wrap td.paradigm{ background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); border-left:2px solid var(--gold); }
+  /* cell-type selection: highlight matching cells, never filters rows */
+  .table-wrap td.cell-hl{ background:color-mix(in srgb, var(--slate) 16%, var(--sheet)); box-shadow:inset 0 0 0 1px var(--slate); }
+  .table-wrap td.cell-nodata{ color:var(--mute); font-style:italic; }
   td[data-hl]{ border-left:2px solid transparent; }
   .table-wrap.hl-lytic td[data-hl~="lytic"]{ background:color-mix(in srgb, var(--oxblood) 9%, var(--sheet)); border-left-color:var(--oxblood); }
   .table-wrap.hl-energy td[data-hl~="energy"]{ background:color-mix(in srgb, var(--gold) 12%, var(--sheet)); border-left-color:var(--gold); }
@@ -150,6 +153,14 @@
             <option value="hl-iron">鐵與脂質過氧化</option>
             <option value="hl-dna">DNA 損傷／PARP 軸</option>
           </select>
+          <select id="cell" aria-label="細胞類型篩選">
+            <option value="">細胞類型：全部</option>
+            <option value="neuron">神經元</option>
+            <option value="macrophage">巨噬細胞／小膠質細胞</option>
+            <option value="fibroblast">纖維母細胞</option>
+            <option value="rbc">紅血球（紅細胞凋亡）</option>
+            <option value="neutrophil">嗜中性球（NETosis）</option>
+          </select>
           <span class="count" id="count">10 個程序 · 11 個特徵</span>
         </div>
       </div>
@@ -175,8 +186,8 @@
           <tbody>
             <tr data-program="apoptosis">
               <th scope="row"><b>細胞凋亡</b><span class="sub">程序性 · 靜默</span></th>
-              <td>缺血後 caspase-3／8 活化較低；心肌梗塞後凋亡指數較高（25.9% vs 2.6%），心臟 Bax 較高（Biondi-Zoccai 2005）</td>
-              <td class="paradigm">女性優先以 caspase 依賴性凋亡而非 PARP-1／AIF 壞死死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；caspase-3 活化較高較早，caspase-8 核轉位為主；Q-VD-OPh 僅保護雌性（Liu 2009；Sharma 2011）；E2→Bcl-2（Dubal 1999）；XIAP 鑲嵌閾值（Dziadzio 2015）</td>
+              <td>缺血後 caspase-3／8 活化較低；心肌梗塞後凋亡指數較高（25.9% vs 2.6%），心臟 Bax 較高（Biondi-Zoccai 2005）；纖維母細胞粒線體壓力反轉——XY 凋亡較高，見<a href="#scope-note">範圍註</a></td>
+              <td class="paradigm">女性優先以 caspase 依賴性凋亡而非 PARP-1／AIF 壞死死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；caspase-3 活化較高較早，caspase-8 核轉位為主；Q-VD-OPh 僅保護雌性（Liu 2009；Sharma 2011）；E2→Bcl-2（Dubal 1999）；XIAP 鑲嵌閾值（Dziadzio 2015）；纖維母細胞粒線體壓力除外——見<a href="#scope-note">範圍註</a></td>
               <td data-hl=""><span class="pill reg">調控性</span><span class="pill silent">非裂解</span><br>是</td>
               <td data-hl="energy">依賴 ATP</td>
               <td data-hl="">細胞皺縮、起泡完整、凋亡小體、DNA 梯狀片段</td>
@@ -246,7 +257,7 @@
             <tr data-program="autophagy">
               <th scope="row"><b>自噬</b><span class="sub">存活過程；僅 ATG 依賴時才計為死亡（NCCD 標準）</span></th>
               <td>中風後典型 Beclin-1／LC3 誘導；心臟基礎 Beclin-1／LC3 較高（Campesi 2013）；力竭運動僅在年輕雄性清除 p62</td>
-              <td>非 Beclin-1 依賴的 ATG7 路徑（Patrizz 2021）；肌肉基礎自噬／粒線體自噬較高，TFEB 約 1.8 倍；E2 雙向作用（神經元 mTOR–ULK1 抑制 vs ER+ 促存活）</td>
+              <td>非 Beclin-1 依賴的 ATG7 路徑（Patrizz 2021）；肌肉基礎自噬／粒線體自噬較高，TFEB 約 1.8 倍；E2 雙向作用（神經元 mTOR–ULK1 抑制 vs ER+ 促存活）；纖維母細胞粒線體壓力——XX 經自噬抵抗，見<a href="#scope-note">範圍註</a></td>
               <td data-hl=""><span class="pill reg">調控性</span><br>是，以存活為主；僅過度時致死</td>
               <td data-hl="energy">mTORC1 受抑制，AMPK 被活化</td>
               <td data-hl="">雙層膜自噬體 → 自噬溶酶體</td>
@@ -318,7 +329,7 @@
       </div>
       <footer class="legend">
         <p class="tldr">在缺血–再灌流模型中，雌性細胞傾向 caspase 依賴性凋亡，雄性細胞傾向 PARP1–AIF parthanatos；裂解與鐵依賴機制則依情境加入例外。
-          <span class="scope">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。紅細胞凋亡（紅血球、無核）與 NETosis（嗜中性球）具血球特異性，位於 XX/XY 範式之外——尚未建立細胞自主性性別差異。</span></p>
+          <span class="scope" id="scope-note">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。反轉例：粒線體壓力下纖維母細胞翻轉模式——XY 雄性呈現較高的典型凋亡，XX 雌性經自噬抵抗。細胞類型選擇器（神經元／巨噬細胞–小膠質細胞／纖維母細胞／紅血球／嗜中性球）依各類型資料替換男性／女性儲存格（強證據：神經元凋亡／parthanatos、巨噬細胞焦亡；9 項單一研究；38 項無直接資料，以淡斜體顯示）——「全部」恢復混合預設值。紅細胞凋亡（紅血球、無核）與 NETosis（嗜中性球）具血球特異性，位於 XX/XY 範式之外——尚未建立細胞自主性性別差異。</span></p>
         <p><b>圖例</b>——<span class="sw"></span> 金色儲存格：核心性別範式（XX → caspase 依賴性凋亡；XY → PARP1/AIF parthanatos）。標籤：<span class="pill reg">調控性</span> <span class="pill acc">意外性</span> <span class="pill lytic">裂解</span> <span class="pill silent">非裂解</span>。<b>*</b> = 由跨程序生物學推論而來，並未在所引性別差異研究中直接驗證。</p>
       </footer>
     
@@ -394,6 +405,69 @@
       });
   }
   q.addEventListener('input', apply);
+  // 細胞類型圖層：醒目提示相符儲存格（不篩選列）＋自 celltype-sex-zh.json 替換男性／女性內容。
+  // 預設男性／女性偏好以金色 .paradigm 儲存格呈現（純 CSS）。
+  var cell = document.getElementById('cell');
+  var CELL_TERMS = {
+    neuron: ['神經元', 'neuron'],
+    macrophage: ['巨噬細胞', '小膠質細胞', 'macrophage', 'microglia'],
+    fibroblast: ['纖維母細胞', 'fibroblast'],
+    rbc: ['紅血球', '紅細胞凋亡', 'rbc', 'eryptosis'],
+    neutrophil: ['嗜中性球', 'neutrophil', 'netosis']
+  };
+  var CELLDATA = null, ORIG = {};
+  function snapshotOrig(){
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      var p = r.getAttribute('data-program');
+      var tds = r.querySelectorAll('td');
+      if (p && tds.length >= 2 && !ORIG[p]) ORIG[p] = {male: tds[0].innerHTML, female: tds[1].innerHTML, maleHl: tds[0].classList.contains('paradigm'), femaleHl: tds[1].classList.contains('paradigm'), det: tds.length > 5 ? tds[5].innerHTML : null, vul: tds.length > 10 ? tds[10].innerHTML : null};
+    });
+  }
+  snapshotOrig();
+  fetch('../../data/celltype-sex-zh.json').then(function(res){ return res.ok ? res.json() : null; }).then(function(j){ CELLDATA = j; }).catch(function(){ CELLDATA = null; });
+  function swapCells(v){
+    var pack = CELLDATA && CELLDATA[v];
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      var p = r.getAttribute('data-program');
+      var tds = r.querySelectorAll('td');
+      if (!p || tds.length < 2 || !ORIG[p]) return;
+      if (pack && pack[p]){
+        tds[0].innerHTML = pack[p].male;
+        tds[1].innerHTML = pack[p].female;
+        if (pack[p].evidence === 'nodata'){ tds[0].classList.add('cell-nodata'); tds[1].classList.add('cell-nodata'); }
+        else { tds[0].classList.remove('cell-nodata'); tds[1].classList.remove('cell-nodata'); }
+        tds[0].classList.toggle('paradigm', pack[p].highlight === 'male');
+        tds[1].classList.toggle('paradigm', pack[p].highlight === 'female');
+        if (tds.length > 5 && pack[p].detection) tds[5].innerHTML = pack[p].detection;
+        if (tds.length > 10 && pack[p].vulnerable) tds[10].innerHTML = pack[p].vulnerable;
+      } else {
+        tds[0].innerHTML = ORIG[p].male;
+        tds[1].innerHTML = ORIG[p].female;
+        tds[0].classList.remove('cell-nodata');
+        tds[1].classList.remove('cell-nodata');
+        tds[0].classList.toggle('paradigm', !!ORIG[p].maleHl);
+        tds[1].classList.toggle('paradigm', !!ORIG[p].femaleHl);
+        if (tds.length > 5 && ORIG[p].det) tds[5].innerHTML = ORIG[p].det;
+        if (tds.length > 10 && ORIG[p].vul) tds[10].innerHTML = ORIG[p].vul;
+      }
+    });
+  }
+  function paintCells(){
+    var v = cell.value;
+    var terms = CELL_TERMS[v] || [];
+    tbl.querySelectorAll('td.cell-hl').forEach(function(td){ td.classList.remove('cell-hl'); });
+    if (!terms.length) return;
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      Array.prototype.forEach.call(r.cells, function(td){
+        if (td.tagName !== 'TD') return;
+        var txt = td.textContent.toLowerCase();
+        for (var i=0;i<terms.length;i++){
+          if (txt.indexOf(terms[i].toLowerCase()) > -1){ td.classList.add('cell-hl'); break; }
+        }
+      });
+    });
+  }
+  cell.addEventListener('change', function(){ paintCells(); swapCells(cell.value); });
   hl.addEventListener('change', function(){
     wrap.classList.remove('hl-lytic','hl-energy','hl-iron','hl-dna');
     if (hl.value) wrap.classList.add(hl.value);
