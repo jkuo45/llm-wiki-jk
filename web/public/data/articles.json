@@ -380,5 +380,23 @@
                 "updated": "2026-09-07"
             }
         }
+    },
+    {
+        "id": "necroptosis",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Necroptosis [three.js]",
+                "path": "pages/en-US/necroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "壞死性凋亡［three.js］",
+                "path": "pages/zh-TW/necroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
     }
 ]
