@@ -1,5 +1,5 @@
 {
-  "generated": "11_SEP_2026 03:46 PM PDT",
+  "generated": "11_SEP_2026 08:45 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,30 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Selenium attenuation of Cd/Pb-induced necroptosis via MAPK/NF-kB — Web Research",
+          "description": "Deep research on selenium protection against cadmium/lead necroptosis — selenoprotein redox gate, MAPK/NF-kB brake, metal antagonism, forms and window.",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "selenium",
+            "necroptosis",
+            "cadmium",
+            "lead",
+            "nf-kb",
+            "mapk",
+            "gpx4",
+            "thioredoxin-reductase"
+          ],
+          "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
+          "path": "tasks/en-US/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
         }
       }
     },

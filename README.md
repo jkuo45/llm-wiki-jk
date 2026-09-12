@@ -6,9 +6,9 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 11_SEP_2026 | 32 | 1732 | 1,072,636 | 10.04 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 10_SEP_2026 | 19 | 257 | 196,616 | 2.62 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 10_SEP_2026 | 12 | 226 | 181,598 | 1.70 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 11_SEP_2026 | 12 | 226 | 181,647 | 1.70 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_SEP_2026 | 11 | 265 | 238,488 | 2.85 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 11_SEP_2026 | 6 | 74 | 76,311 | 0.82 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 11_SEP_2026 | 6 | 74 | 76,358 | 0.82 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.52 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 10_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
@@ -17,7 +17,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 10_SEP_2026 | 15 | 65 | 155,500 | 2.20 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 10_SEP_2026 | 20 | 173 | 313,779 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 11_SEP_2026 | **136** | **3245** | **2,675,033** | **29.43 MB** |
+| **subtotal** | 11_SEP_2026 | **136** | **3245** | **2,675,129** | **29.43 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -296,9 +296,10 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (103 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (104 total)</strong> — click to expand</summary>
 
-- [task_output_cell_death_decision_tree_11_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md) [[src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md|wiki]] (11_SEP_2026 03:39 PM PDT)
+- [task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md) [[src/tasks/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md|wiki]] (11_SEP_2026 05:29 PM PDT)
+- [task_output_cell_death_decision_tree_11_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md) [[src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md|wiki]] (11_SEP_2026 03:48 PM PDT)
 - [task_output_parthanatos_open_questions_08_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md) [[src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md|wiki]] (10_SEP_2026 01:02 PM PDT)
 - [task_output_sex_dimorphic_cell_death_05_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md) [[src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md|wiki]] (08_SEP_2026 05:58 PM PDT)
 - [task_output_sirtuins_resveratrol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_resveratrol.md) [[src/tasks/task_output_sirtuins_resveratrol.md|wiki]] (08_SEP_2026 05:38 PM PDT)

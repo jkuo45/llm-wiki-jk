@@ -11,34 +11,38 @@ tags: [cell-death, decision-tree, stress-response, cell-type, sex-dimorphism]
 Source synthesis: `src/notes/cell-death/`, `src/notes/_link/` stress notes, PANoptosis reviews Jul 2026.
 Generated: 11_Sep_2026 08:00 AM PDT.
 
+> [!warning] Evidence caveats
+> The sex-stratification axis is strongest in adult stroke and neonatal hypoxia-ischemia neuron models (McCullough 2005; Liu 2009/2011; Du 2004) and in renal IRI (Tran 2025, single study). It is **not** a universal binary. Cardiac and cerebral necroptosis sex biases are **not** established, and no PANoptosis sex bias is reported. Every "male/female rescue" rule must be validated in the model at hand.
+
 ## Master flowchart — stress to modality
 
 ```mermaid
 flowchart TD
     S["Stress input"] --> ATP{"ATP preserved?"}
     ATP -- "No: ischemia, severe ATP collapse" --> NEC["Accidental necrosis / oncosis\nNa+/K+ fail → Ca2+ overload → mPTP → rupture\nSex-neutral bypass"]
-    ATP -- "Yes" --> SEX{"Sex / hormonal context?\nXY male-like vs XX female-like\nOVX / low-estrogen → male-like"}
+    ATP -- "Yes" --> SEX{"Sex context?\nchromosomal (cell-autonomous) ± hormonal\nOVX / low-estrogen → male-like"}
     SEX -- "all →" --> MITO["Mitochondrial hub\nMOMP? mPTP? mtROS? mtDNA release?"]
 
     MITO --> LIG{"Death ligand + caspase-8?"}
-    LIG -- "TNFa / FasL / TRAIL\ncaspase-8 active" --> APOP_EX["Extrinsic apoptosis\nDISC → casp-8 → casp-3/7"]
-    LIG -- "Caspase-8 blocked\n(z-VAD, viral, TAK1 loss)\n+ RIPK1/3 present" --> NECRO["Necroptosis\nRIPK1→RIPK3→MLKL pores\nXY / renal IRI male-high"]
+    LIG -- "TNFα / FasL / TRAIL\ncaspase-8 active" --> APOP_EX["Extrinsic apoptosis\nDISC → casp-8 → casp-3/7"]
+    LIG -- "Caspase-8 blocked\n(z-VAD, viral cFLIP)\n+ RIPK1/3 present" --> NECRO["Necroptosis\nRIPK1→RIPK3→MLKL pores\nrenal IRI male-high (single study)"]
     LIG -- "No ligand" --> DNA{"Severe DNA damage?"}
+    MITO -- "TAK1 loss → RIPK1 kinase death\n(independently of caspase-8)" --> PAN
 
-    DNA -- "Yes: MNNG, ROS, NMDA/NO,\nAβ, α-syn" --> PARP{"PARP-1 hyperactive\n10-500x PAR?\nXY favors YES → parthanatos\nXX favors NO → apoptosis"}
-    PARP -- "Yes, caspase-independent\nXY / male-like" --> PARTH["Parthanatos\nPAR → AIF+MIF nuclear cleavage"]
-    PARP -- "No, p53-driven\nXX / female-like" --> APOP_IN["Intrinsic apoptosis\np53→PUMA/BAX/BAK→MOMP→casp-9→casp-3\nXX favors; Q-VD protects females"]
+    DNA -- "Yes: MNNG, ROS, NMDA/NO,\nAβ, α-syn" --> PARP{"PARP-1 hyperactivated?\n10-500x PAR; severity: prolonged\nNAD+/ATP fall → parthanatos\n(sex modifies executor)"}
+    PARP -- "Yes, caspase-independent\nXY/male-favored (adult, model-dep.)" --> PARTH["Parthanatos\nPAR → AIF+MIF nuclear cleavage"]
+    PARP -- "No: low/moderate damage\np53-driven (sex modifies)" --> APOP_IN["Intrinsic apoptosis\np53→PUMA/BAX/BAK→MOMP→casp-9→casp-3\nXX-favored; Q-VD protects females only\n(neonatal HI/stroke models)"]
     DNA -- "No" --> INF{"PAMP/DAMP + inflammasome?"}
 
-    INF -- "LPS, mtDNA, K+ efflux,\nhypoxia, lysosomal damage\nXX estradiol restrains priming" --> PYRO["Pyroptosis\nNLRP3/AIM2→casp-1→GSDMD + IL-1β/18"]
-    INF -- "ZBP1/AIM2/RIPK1/NLRP12\n+ IFN priming" --> PAN["PANoptosis\nXY→RIPK3/necro skew\nXX→casp-8/apop skew"]
-    INF -- "No" --> IRON{"Iron + PUFA + GPX4 loss?\nXY susceptible\nXX NRF2 resilient"}
+    INF -- "LPS, mtDNA, K+ efflux,\nhypoxia, lysosomal damage\nXX estradiol restrains priming\n(noncanonical: casp-4/5/11)" --> PYRO["Pyroptosis\nNLRP3/AIM2/casp-4/5/11→GSDMD\n+ GSDME; IL-1β/18"]
+    INF -- "ZBP1/AIM2/RIPK1/NLRP12/TAK1\n+ IFN priming" --> PAN["PANoptosis\nsingle-pathway block fails\n(no established sex bias)"]
+    INF -- "No" --> IRON{"Iron + PUFA + GPX4 loss?\nXY susceptible\nXX tissue-dependent resilience"}
 
-    IRON -- "Erastin, RSL3, cystine starvation\np53→SLC7A11, ACSL4/LOX" --> FERRO["Ferroptosis\nLipid peroxidation, no caspase"]
+    IRON -- "Erastin, RSL3, cystine starvation\np53 ⊣ SLC7A11; ACSL4/ALOX15 ↑" --> FERRO["Ferroptosis\nLipid peroxidation, no caspase"]
     IRON -- "No" --> ER{"ER stress / starvation?"}
 
     ER -- "Prolonged PERK-ATF4-CHOP" --> APOP_IN
-    ER -- "Early / hypoxia /\nmTOR inhibition" --> AUTO["Adaptive autophagy\n→ ADCD if excessive"]
+    ER -- "Early / hypoxia /\nmTOR inhibition" --> AUTO["Adaptive autophagy\n→ ADCD only if ≥2 ATG genes required"]
     ER -- "Reperfusion ROS burst\n+ mtDNA + Ca2+" --> PAN
 
     APOP_EX --> T12{"DISC strength?"}
@@ -48,8 +52,8 @@ flowchart TD
     NECRO --> K{"MLKL K+ efflux?"}
     K -- "Yes" --> PYRO
     PYRO --> G{"GSDMD level?"}
-    G -- "Low: neuron, mast cell" --> APOP_IN
-    G -- "High: macrophage" --> DIE3["Lytic pyroptosis"]
+    G -- "Low GSDMD: neuron, mast cell\ncaspase-1/Bid inflammasome apoptosis" --> APOP_IN
+    G -- "High GSDMD: macrophage" --> DIE3["Lytic pyroptosis"]
 ```
 
 ## Cell-type selector — who dies how
@@ -59,12 +63,12 @@ flowchart LR
     C["Cell type + context"] --> N["Neuron / dopaminergic\nSNpc iron, NMDA, α-syn"]
     C --> H["Cardiomyocyte / renal tubule\nI/R, doxorubicin, cisplatin"]
     C --> I["Macrophage / microglia\nPAMP, LPS, OGD/R"]
-    C --> E["Hepatocyte / β-cell / PDAC\nType II, sorafenib"]
+    C --> E["Hepatocyte / β-cell / PDAC\nType II; HCC sorafenib"]
     C --> F["Fibroblast / chondrocyte\nSenescent, OA"]
     C --> T["Cancer persister / TNBC\nMesenchymal, GPX4-addicted"]
 
     N --> N1["Parthanatos > ferroptosis > apoptosis\nXY→AIF, XX→caspase"]
-    H --> H1["Ferroptosis + necroptosis\nMale-biased RIPK/MLKL\nFemale NRF2 resilient"]
+    H --> H1["Ferroptosis + necroptosis\nRenal IRI: male RIPK/MLKL\nKidney: NRF2; heart: SmgGDS"]
     I --> I1["Pyroptosis → PANoptosis\nMitophagy suppresses"]
     E --> E1["Type II apoptosis + ferroptosis\nBcl-2 / venetoclax sensitive"]
     F --> F1["ACase-high ferroptosis\nNLRP3 pyroptosis in OA"]
@@ -77,8 +81,8 @@ Apply after modality + cell-type are set. Sex shifts executor choice, not stress
 
 ```mermaid
 flowchart LR
-    SEX{"Sex / hormonal context"} --> XY["XY / male\ntestosterone, low estradiol"]
-    SEX --> XX["XX / female\nestradiol, NRF2 high"]
+    SEX{"Sex context"} --> XY["XY / male\ntestosterone, low estradiol"]
+    SEX --> XX["XX / female\nestradiol; NRF2 high (tissue-dep.)"]
     SEX --> OVX["OVX / aged / low-estrogen"]
 
     XY --> XY1["Favor: parthanatos\nnecroptosis\nferroptosis"]
@@ -86,19 +90,19 @@ flowchart LR
     OVX --> OVX1["Male-like shift\n↑ RIPK/MLKL, ↑ NLRP3"]
 
     XY1 --> RX["Rescue: PARP inhib\nNec-1, Fer-1/DFO\nQ-VAD fails"]
-    XX1 --> RF["Rescue: Q-VD-OPh\nBcl-2 / venetoclax\nPARP inhib harms"]
-    OVX1 --> RO["Rescue: estradiol restores\nNRF2/GPX4, NLRP3 restraint"]
+    XX1 --> RF["Rescue: Q-VD-OPh\nBcl-2 / venetoclax\nPARP inhib harms (adult stroke; model-dep.)"]
+    OVX1 --> RO["Rescue: estradiol restores\nrenal NRF2; cardiac SmgGDS"]
 ```
 
 | Modality | Male bias | Female bias | Evidence anchor |
 |---|---|---|---|
-| [[Parthanatos]] | Strong XY — stroke/MI, NMDA, MPTP | Weak | PARP-1/AIF-KO protects males only; PARP inhib harms females |
-| [[Apoptosis]] | Weak | Strong XX — cyto c/casp-3 | Q-VD-OPh protects females only; cell-autonomous XX→caspase |
-| [[Necroptosis]] | Renal IRI, cardiac p-MLKL male-high | OVX narrows gap | Male RIPK1/RIPK3/p-MLKL; cisplatin AKI SIRT2 male |
-| [[Ferroptosis]] | Tubule Gpx4-KO injures males | NRF2 resilient | Female NRF2/GPX4 shield; check kidney/heart/brain |
-| [[Pyroptosis]] | High IL-1β output once primed | Estradiol restrains priming; trauma GSDMD score female-high | Estradiol→NLRP3 restraint; context-dependent readout |
+| [[Parthanatos]] | Strong XY — adult stroke/MI, NMDA, MPTP | Weak | PARP-1/AIF-KO protects male adults; model-dependent; no MIF/PAAN sex claim |
+| [[Apoptosis]] | Weak | Strong XX — cyto c/casp-3 | Q-VD-OPh protects females only (neonatal HI/stroke); cell-autonomous XX→caspase |
+| [[Necroptosis]] | Renal IRI (single study): male ↑RIPK1/RIPK3/p-MLKL | OVX narrows gap | Tran 2025; cardiac/cerebral unverified; SIRT3 (not SIRT2) kidney IRI |
+| [[Ferroptosis]] | Tubule Gpx4-KO injures males | Renal NRF2 resilience; cardiac estradiol/SmgGDS | Kidney NRF2 (Ide 2022); heart SmgGDS; no verified basal GPX4 dimorphism |
+| [[Pyroptosis]] | IL-1β higher once primed (model-qualified) | Estradiol restrains NLRP3 priming; trauma GSDMD score female-high | ERβ/estradiol restraint robust; male LPS-shock bias not universal |
 | [[Necrosis]] | Neutral | Neutral | Dimorphism is in regulated executors, not oncosis itself |
-| [[PANoptosis]] | ZBP1-RIPK3 skew to necro arm | Casp-8 skew to apoptotic arm | Same stimulus, different flux; validate per cell |
+| [[PANoptosis]] | No established sex bias | — | Not reported in vault; sex listed only as an open experimental variable |
 
 Rule: if male + neuronal/renal/IRI → test PARP/AIF + RIPK/MLKL + Fer-1 in parallel. If female + same → test caspase/Bcl-2 first, PARP inhib last.
 
@@ -110,23 +114,23 @@ Rule: if male + neuronal/renal/IRI → test PARP/AIF + RIPK/MLKL + Fer-1 in para
 | p-MLKL, RIPK3, DAMPs, swelling | [[Necroptosis]] | Necrostatin-1, RIPK3/MLKL KO |
 | IL-1β/IL-18, GSDMD pores, ASC specks | [[Pyroptosis]] | NLRP3 block (MCC950), casp-1 inhib |
 | Lipid-ROS, iron, shrunken mitochondria, no caspase | [[Ferroptosis]] | Fer-1, liproxstatin-1, DFO, GPX4 rescue |
-| PAR surge, AIF nuclear, ~50-kb fragments, NAD+/ATP fall | [[Parthanatos]] | PARP inhib (males), PARG, AIF block |
+| PAR surge, AIF nuclear, ~50-kb fragments, NAD+/ATP fall | [[Parthanatos]] | PARP inhib (males), PARG; no direct AIF inhibitor (experimental) |
 | All three arms together, single block fails | [[PANoptosis]] | Combined / upstream ZBP1/TAK1/RIPK1 |
 | ATP absent, oncosis, calpains, cathepsins | [[Necrosis]] | Restore ATP / Ca2+ chelation (early only) |
-| LC3/ATG, mTOR off, starvation/hypoxia | [[Autophagic Cell Death]] | Chloroquine / mTOR reactivation |
+| LC3/ATG flux, mTOR off, starvation/hypoxia | [[Autophagic Cell Death]] | Require ≥2 ATG genes (ADCD vs AMCD); chloroquine nonspecific |
 
 ## Cell-type quick rules
 
 * **Lymphocyte vs hepatocyte/β-cell:** use Type I vs Type II split — Bcl-2 protects only Type II.
 * **Neuron:** default parthanatos/ferroptosis suspect; check sex (XY→PARP/AIF, XX→caspase) and GSDMD (low→apoptosis fallback).
-* **Kidney/heart IRI:** test ferroptosis first (Fer-1), then necroptosis; expect male bias.
+* **Kidney/heart IRI:** test ferroptosis first (Fer-1), then necroptosis; male bias established in kidney (single study), not heart.
 * **Macrophage:** default pyroptosis/PANoptosis; IFN priming + TNF-α/IFN-γ synergy is the gate.
 * **Senescent fibroblast/chondrocyte:** test ACase/ferroptosis and NLRP3 in parallel.
 * **Mesenchymal cancer:** test GPX4 addiction; GSDME-high → chemo triggers pyroptosis.
 
 ## Stress entry points
 
-* **[[Endoplasmic Reticulum Stress]] / [[Integrated Stress Response]]** → CHOP duration decides autophagy vs apoptosis.
+* **[[Endoplasmic Reticulum Stress]] / [[Integrated Stress Response]]** → adaptive UPR → autophagy/survival; sustained PERK-ATF4-CHOP → apoptosis.
 * **[[Reactive Oxygen Species]] / [[Hypoxia]] / [[Ischemia]]** → ROS→RIPK1 vs HIF-autophagy vs ATP-necrosis.
 * **[[Ischemia-reperfusion Injury]]** → assume mixed death; validate PANoptosome (ASC/casp-8/RIPK3 colocalization), not single markers.
 * **[[DNA Damage]] / [[Genotoxic Stress]]** → PARP hyperactivation threshold decides parthanatos vs p53 apoptosis.
@@ -150,4 +154,4 @@ Rule: if male + neuronal/renal/IRI → test PARP/AIF + RIPK/MLKL + Fer-1 in para
 ## Linking Summary
 
 * Decision logic: ATP → caspase-8 → DNA/PARP → inflammasome/PANoptosome → iron/GPX4 → ER/CHOP.
-* Cell-type overlay determines threshold, not pathway identity; sex determines executor (caspase vs PARP/AIF).
+* Cell-type overlay determines threshold, not pathway identity; sex determines executor (caspase vs PARP/AIF) in adult stroke/renal models, not universally.
