@@ -45,6 +45,24 @@
           ],
           "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
           "path": "tasks/en-US/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "硒減輕鎘/鉛誘發壞死性凋亡 via MAPK/NF-kB — 網路研究",
+          "description": "硒對抗鎘/鉛壞死性凋亡保護作用之深入研究 — 硒蛋白氧化還原閘門、MAPK/NF-kB 煞車、金屬拮抗、劑型與安全窗。",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "selenium",
+            "necroptosis",
+            "cadmium",
+            "lead",
+            "nf-kb",
+            "mapk",
+            "gpx4",
+            "thioredoxin-reductase"
+          ],
+          "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
         }
       }
     },
