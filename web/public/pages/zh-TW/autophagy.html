@@ -736,7 +736,7 @@ function animate() {
     m.g.position.y += Math.sin(t * 1.5 + i * 2) * 0.0008;
   });
 
-  // cell morphology follows the death threshold: swell → bulge → rupture → collapse
+  // cell morphology follows the biological time course
   const swellK = sstep(9, 17.5, t);
   const execK = t >= 17.5 ? Math.min((t - 17.5) / 2.5, 1) : 0;
   const postK = t >= 20.5 ? Math.min((t - 20.5) / 3.5, 1) : 0;
