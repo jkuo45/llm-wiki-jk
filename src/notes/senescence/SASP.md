@@ -5,7 +5,7 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
 created: 2024-01-01
-updated: 2026-09-02
+updated: 2026-09-12
 tags:
   - biological-process
   - senescence
@@ -108,6 +108,8 @@ Small extracellular vesicles, especially exosomes (30–150 nm), mediate paracri
 - [[TLR2]]: Innate immunity sensor upregulated in senescent cells; essential for immunity-regulating SASP during OIS through cGAS–STING.
 - **LINE1 retrotransposable elements**: Elevated during late senescence; cytoplasmic LINE1 cDNA triggers interferon signalling.
 - **Minority mitochondrial outer membrane permeabilization (miMOMP)**: [[BAX]] and [[BAK]] macropores allow mitochondrial inner membrane herniation to release mitochondrial DNA, activating cGAS–STING and SASP.
+- **Fission-fusion gate on miMOMP**: hyperfusion restrains, [[DRP1]]-driven fission plus [[MFN2]] loss licenses, [[BAX]]/[[BAK]] macropores release mtDNA plus mt-dsRNA → [[cGAS]]-[[STING]] (dominant) plus RIG/MDA5-[[MAVS]] → SASP, separable from p16/p21 arrest in vitro and in vivo (Victorelli *Nature* 2023; *Nat Commun* 2025; *Front Aging* 2025 review).
+- **Nucleotide-pool arm**: senescent rNTP/dNTP imbalance → ribonucleotide-rich mtDNA → release; deoxyribonucleoside supplementation lowers SASP without affecting SA-β-gal (Bahat et al. *Nature* Sep 2025).
 
 ### Mitochondrial Metabolic Checkpoint
 
@@ -216,6 +218,8 @@ SASP factors serve as surrogate markers for senescence burden. The SASP Atlas pr
 - **[[Resveratrol]]**: Inhibits pro-inflammatory SASP cytokines
 - **Apigenin**: Reduces breast cancer aggressiveness by inhibiting NF-κB-dependent SASP
 - **Nucleoside reverse transcriptase inhibitors (NRTIs)**: Lamivudine (3TC) inhibits LINE1 propagation, reducing cGAS–STING–NF-κB SASP
+- **BAX inhibitors (BAI1, eltrombopag)**: suppress miMOMP-SASP, preserve arrest, improve healthspan in aged mice — candidate new senomorphic class
+- **MFN agonists / DRP1 inhibitors**: genetic rationale strong, pharmacologic SASP-separation in vivo still unproven — priority test
 - **[[Autophagy Inducer|Autophagy inducers]]** (e.g., [[Rapamycin]], [[Metformin]], [[Spermidine]]): Clear damaged organelles and limit inflammasome activation, suppressing SASP and [[Inflammaging]]; [[Autophagy]] itself suppresses SASP by clearing damaged organelles and restraining inflammasome activation.
 
 ### Lifestyle Interventions

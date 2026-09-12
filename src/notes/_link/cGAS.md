@@ -2,7 +2,7 @@
 title: cGAS
 description: Cyclic GMP-AMP synthase that senses cytosolic DNA to activate the cGAS-STING innate immune pathway, linking genome stress, senescence, and inflammaging.
 created: 2026-07-09
-updated: 2026-09-02
+updated: 2026-09-12
 tags:
   - protein
   - enzyme
@@ -32,6 +32,9 @@ cGAMP–STING recruitment activates [[TBK1]] and [[IRF3]], driving type I interf
 
 ## Redox, Senescence & Longevity
 Mitochondrial DNA released during [[Mitochondrial Dysfunction]] or [[Minority MOMP]] can activate cGAS-STING, fueling [[Inflammaging]] and [[Aging]]. Suppression of chronic cGAS signaling is emerging as a senotherapeutic strategy. Balanced pathway tone intersects with [[Immunosenescence]] and redox control, positioning cGAS as a longevity-relevant innate immune checkpoint.
+
+> [!info] Source hierarchy update (EMBO J 2025 perspective)
+> Cytosolic [[mtDNA]], [[Cytoplasmic Chromatin Fragments|CCFs]], and LINE-1 cDNA crosstalk — removing any one often suppresses SASP. Blocking mtDNA source (BAX inhibition, mitophagy, dN supplementation) preserves acute immune response to transfected DNA, unlike direct [[cGAS Inhibitors|cGAS]] / [[STING Inhibitors|STING]] blockade which risks immunosuppression.
 
 ## Noncanonical & Nuclear Functions
 

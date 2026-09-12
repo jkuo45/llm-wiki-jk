@@ -3,7 +3,7 @@ title: BAX
 description: Pro-apoptotic Bcl-2 family effector protein that oligomerizes in the outer mitochondrial membrane to drive mitochondrial outer membrane permeabilization (MOMP) and apoptotic cell death.
 protected: true
 created: 2026-07-09
-updated: 2026-07-16
+updated: 2026-09-12
 tags:
   - protein
   - apoptosis
@@ -42,6 +42,9 @@ Activated BAX translocates to mitochondria, where it cooperates with BAK to perm
 ## Physiology, Redox & Longevity
 Beyond classical apoptosis, BAX/BAK-mediated leakage intersects with [[Mitophagy]] and [[Parkin]]-dependent quality control, and with [[Reactive Oxygen Species]] amplification in [[Mitochondrial Dysfunction]]. Senescent cells that evade BAX-dependent death can persist and secrete the [[SASP|Senescence-Associated Secretory Phenotype]], driving [[Inflammaging]]. Compounds such as [[Fisetin]] and [[Urolithin A]] modulate these death/cleanup pathways, making BAX a node connecting apoptosis, mitophagy, and longevity.
 
+> [!info] miMOMP separates SASP from arrest — in vivo proof
+> *Bax/Bak* deletion, BAX inhibitors BAI1 and eltrombopag suppress cytosolic [[mtDNA]] / mtRNA, [[cGAS]]-[[STING]] and RIG/MDA5-[[MAVS]] SASP while preserving Cdkn2a/Cdkn1a and SA-β-gal. In aged mice BAI1 reduces circulating SASP in bone/brain, improves bone mass, frailty, neuromuscular coordination (Victorelli 2023); in MASH, *Bax/Bak* or *Mavs* deletion reduces SASP and improves liver parameters (2025). BAX depletion alone has strongest SASP effect vs [[BAK]].
+
 ## Documents
 
   - [[_document_ - SASP, senescent cells, grok|SASP & Senescent Cells]]
@@ -60,6 +63,9 @@ Beyond classical apoptosis, BAX/BAK-mediated leakage intersects with [[Mitophagy
   - [[p53]]: Transcriptional activator of BAX under genotoxic stress.
   - [[Mitophagy]]: BAX leakage feeds Parkin-dependent mitophagy and mitochondrial quality control.
   - [[Senescent Cells]]: Cells that survive by downregulating BAX/BAK-dependent death.
+  - [[Minority MOMP]]: Sublethal BAX/BAK pores releasing mtDNA/mtRNA to drive SASP without death.
+  - [[cGAS]] / [[STING]] / [[MAVS]]: Nucleic-acid sensors downstream of BAX-driven miMOMP.
+  - [[SASP]]: Inflammatory secretome separable from arrest by BAX inhibition.
 
 ## Linking Summary
 

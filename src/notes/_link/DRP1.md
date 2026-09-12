@@ -2,7 +2,7 @@
 title: DRP1
 description: Dynamin-Related Protein 1 is the cytosolic dynamin-like GTPase that mediates mitochondrial fission, recruited to mitochondria by MFF/MID49/MID51/FIS1 adaptors.
 created: 2026-07-04
-updated: 2026-07-24
+updated: 2026-09-12
 tags:
   - protein
   - mitochondria
@@ -66,6 +66,14 @@ Fission is initiated where [[Endoplasmic Reticulum|ER]] tubules contact mitochon
 - [[PKA]] — Phosphorylates DRP1 at inhibitory sites (Ser637).
 - [[Heart Failure]] — DRP1 upregulated; DRP1 deletion causes lethal heart defects.
 - [[Alzheimer's Disease]] — DRP1/Ser616 phosphorylation increased; S-nitrosylation triggers fission.
+
+> [!important] Fission licenses miMOMP-SASP without controlling arrest
+> Only fragmented mitochondria in senescent cells are BAX6A7+ / Cyt-c-negative and release [[mtDNA]] (Victorelli et al. *Nature* 2023). [[MFN2]] knockdown or CCCP-induced fission increases BAX activation, cytosolic mtDNA foci, and [[SASP|IL-6 / IL-8 / IL-1β]] with no change in [[p16INK4A|p16]] / [[p21 CIP1|p21]]. Senescent hyperfusion is therefore protective — it homogenizes [[Bcl-2]] and limits [[Minority MOMP]].
+
+- [[BAX]] / [[BAK]] — Effectors that execute fission-associated miMOMP pores.
+- [[cGAS]] / [[STING]] — DNA sensors downstream of fission-driven mtDNA release.
+- [[RIG-I]] / [[MDA5]] / [[MAVS]] — RNA sensors for fission-driven mt-dsRNA release (*Nat Commun* Dec 2025).
+- [[Mdivi-1]] — Tool DRP1 inhibitor; SASP-separation in vivo not yet demonstrated.
 
 ## Linking Summary
 

@@ -3,7 +3,7 @@ title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
 created: 2024-01-01
-updated: 2026-09-02
+updated: 2026-09-12
 tags:
   - innate-immunity
   - cgas-sting-pathway
@@ -67,6 +67,8 @@ STING serves multiple protective roles in host defense and homeostasis:
 **Aicardi-Goutières syndrome (AGS)**: AGS is an autoinflammatory interferonopathy caused by chronic cGAS-STING activation by endogenous nucleic acids. Mutations in DNase III (TREX1) or SAMHD1 impair DNA degradation, leading to accumulation of cytosolic DNA that chronically activates cGAS-STING.
 
 **Neurodegeneration**: Mitochondrial DNA released from damaged mitochondria activates cGAS-STING in microglia, driving neuroinflammation implicated in Alzheimer's disease, Parkinson's disease, and amyotrophic lateral sclerosis (ALS). STING inhibition has emerged as a therapeutic strategy for neurodegenerative conditions.
+
+**Senescence-miMOMP-SASP**: STING is the dominant SASP driver downstream of fission-miMOMP-mtDNA; [[MAVS]] is milder and redundant. Combined inhibition is not additive. [[BAX]] inhibition suppresses this arm while preserving p16/p21 arrest.
 
 ## Noncanonical, Nuclear & Context-Dependent Functions
 
