@@ -134,7 +134,7 @@
       <div class="card" id="cardC">
         <h2>MLKL — 執行者</h2>
         <p class="meta">細胞質 → 細胞膜 · 轉錄＋磷酸化＋孔洞</p>
-        <p>BRD4 驅動 MLKL mRNA 供應；HSP90 保護蛋白免於蛋白酶體降解；RIPK3 磷酸化 Thr357/Ser358（小鼠 RIPK1 與吞噬作用中的 TAM 激酶亦可磷酸化）。寡聚體結合 PIPs／心磷脂並打出膜孔 → 離子內流、腫脹、DAMP 釋放。</p>
+        <p>BRD4 驅動 MLKL mRNA 供應；HSP90 保護蛋白免於蛋白酶體降解；RIPK3 磷酸化 Thr357/Ser358（小鼠 RIPK1 亦可；吞噬作用中的 TAM 激酶可添加 p-Tyr376 以驅動寡聚）。寡聚體結合 PIPs／心磷脂並打出膜孔 → 離子內流、腫脹、DAMP 釋放。</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>已放行的 p-MLKL <span class="dot" style="background:#9a8ae0"></span>供應 · 保護 <span class="dot" style="background:#ff5a5e"></span>孔洞 · DAMP</p>
       </div>
       </div>
@@ -242,10 +242,10 @@ const INFO = {
   camk2: ['CaMKII — 粒線體劊子手', 'RIPK3 → p-CaMKII → mPTP', '開啟粒線體通透轉換孔；經 MFN2 繫留造成鈣超載。心臟缺血再灌流、心衰竭。'],
   pgam5: ['PGAM5 → Drp1 分裂', 'RIPK3 → PGAM5 →去磷酸化-Drp1', '驅動粒線體分裂，放大死亡。缺血再灌流＋神經退化。'],
   pdc: ['PDC-E3 — 代謝重編程', 'RIPK3 → p-Thr135', '提升丙酮酸脫氫酶催化活性；連結死亡訊號與腫瘤代謝。'],
-  mlkl: ['MLKL — 終端執行者', 'p-Thr357/Ser358 → 寡聚 → 孔洞', '由 RIPK3 磷酸化（小鼠亦可由 RIPK1；吞噬作用中由 TAM 激酶）。結合 PIPs／心磷脂、寡聚化、破壞細胞膜；亦可調控 TRPM7 離子。'],
+  mlkl: ['MLKL — 終端執行者', 'p-Thr357/Ser358 → 寡聚 → 孔洞', '由 RIPK3 磷酸化（小鼠亦可由 RIPK1；吞噬作用中 TAM 激酶添加 p-Tyr376 以許可寡聚）。結合 PIPs／心磷脂、寡聚化、破壞細胞膜；亦可調控 TRPM7 離子。'],
   brd4: ['BRD4 — 轉錄調節鈕', '細胞核 → MLKL 啟動子', 'BET 蛋白驅動 MLKL mRNA 供應。決定蛋白豐度＝死亡敏感度。溴結構域抑制劑可降低。'],
   hsp90: ['HSP90 — 伴護盾', '結合 MLKL、阻擋蛋白酶體', '穩定 MLKL 並放行其膜轉位。HSP90/CDC37 軸。'],
-  tam: ['TAM 激酶 — 情境激酶', 'Tyro3/Axl/Mer → p-MLKL', '吞噬作用中被外翻的磷脂醯絲胺酸活化；直接磷酸化 MLKL。'],
+  tam: ['TAM 激酶 — 情境激酶', 'Tyro3/Axl/Mer → p-MLKL', '吞噬作用中被外翻的磷脂醯絲胺酸活化；磷酸化 MLKL Tyr376 驅動寡聚，不影響 RIPK3 位點 Ser358（Najafov 2019）。'],
   pore: ['MLKL 孔洞 — 破裂位點', 'PIPs＋心磷脂區', '寡聚環使雙層膜通透：離子內流、腫脹、DAMP（HMGB1/ATP/DNA）釋放 → 發炎。NSA 阻斷人類 MLKL。'],
   mito: ['粒線體 — 失能樞紐', 'ROS＋分裂＋mPTP', '壞死小體觸發粒線體 ROS、通透轉換與分裂；代謝（MPC/PDC）回饋調節敏感度。'],
   damp: ['DAMP 雲 — 發炎代價', 'HMGB1 · ATP · mtDNA', '裂解釋放招募／活化先天免疫（TLR/RAGE/NLRP3）。宿主防禦與無菌損傷的雙重性。']

@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="3-D necroptosis regulatory cell"></canvas>
+        <canvas id="canvas" aria-label="3-D parthanatos regulatory cell"></canvas>
         <div class="phase" id="phase">loading…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">death threshold · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Death threshold — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -128,7 +128,7 @@
       <div class="card" id="cardB">
         <h2>PAR — polymer messenger</h2>
         <p class="meta">nucleus → mitochondria + calcium</p>
-        <p>PAR binds mitochondrial AIF and opens TRPM2 calcium; calpain cuts BID → BAX pores release AIF — apoptotic proteins working caspase-free. PARG/ARH3 erase PAR.</p>
+        <p>PAR binds mitochondrial AIF and its ADP-ribose opens TRPM2 calcium influx; calpain cuts BID → BAX pores release AIF — apoptotic proteins working caspase-free. PARG/ARH3 erase PAR.</p>
         <p class="legend"><span class="dot" style="background:#ffe14d"></span>PAR signal <span class="dot" style="background:#51ff9e"></span>AIF handoff <span class="dot" style="background:#ff5a5e"></span>erasers (PARG, ARH3)</p>
       </div>
       <div class="card" id="cardC">
@@ -238,12 +238,12 @@ const INFO = {
   par: ['PAR polymer — death signal', 'nucleus → mitochondria', 'Free/bound poly-ADP-ribose leaves the nucleus and binds mitochondrial AIF. Degraded by PARG/ARH3.'],
   parg: ['PARG — PAR eraser ⊣', 'glycohydrolase', 'Main PAR-degrading brake; loss sensitizes.'],
   arh3: ['ARH3 — PAR eraser ⊣', 'hydrolase', 'Second PAR-clearance brake alongside PARG.'],
-  trpm2: ['TRPM2 — calcium gate', 'ADP-ribose-gated channel', 'PAR-derived ADP-ribose opens TRPM2; ER Ca2+ influx candidate for calpain trigger.'],
+  trpm2: ['TRPM2 — calcium gate', 'ADP-ribose-gated channel', 'PAR-derived ADP-ribose opens TRPM2 at the plasma membrane; ER Ca2+ release is a separate contributing calpain trigger.'],
   calpain: ['Calpain — BID cutter', 'Ca2+-dependent protease', 'Cleaves BID (non-cleavable G70A blocks death) downstream of PARP1; insult-specific.'],
   bidbax: ['tBID → BAX — AIF release', 'caspase-independent', 'Apoptotic proteins operating without caspases: tBID → mitochondrial BAX → AIF release.'],
   hpf1: ['HPF1 — PARP tuner', 'cofactor', 'Reshapes PARP1 specificity; tunes initiation vs elongation balance.'],
   parbind: ['PAR → AIF binding', 'mitochondrial handoff', 'PAR docks on AIF, licensing its release from the inner membrane.'],
-  erCa: ['ER calcium store', 'TRPM2-triggered release', 'Candidate calpain trigger; chelation protects vs H2O2 but not MNNG.'],
+  erCa: ['ER calcium store', 'independent release candidate', 'Separate from TRPM2 influx; candidate calpain trigger; chelation protects vs H2O2 but not MNNG.'],
   baxpore: ['BAX pore — AIF exit', 'outer membrane', 'BAX macropores let AIF escape; BAX/BID act caspase-independently here.'],
   aif: ['AIF/MIF — nuclear executors', 'mito → nucleus march', 'AIF streams nucleus-ward with MIF nuclease; MIF cuts DNA into ~50-kbp fragments. No caspases, no apoptotic ladder.'],
   mif: ['MIF nuclease — cutter', 'PD-D/E(X)K nuclease', 'Follows AIF into the nucleus; PAANIB-1 blocks it while sparing apoptosis/necroptosis.'],

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NETosis — NOX · PAD4 · NET 釋放多層調控</title>
-<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現 NETosis 的多層調控：NADPH 氧化酶 ROS 爆發、PAD4 組蛋白瓜氨酸化、染色質去凝縮與 NET 噴出。自殺型破裂 vs 存活型釋放。">
+<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現 NETosis 的多層調控：NADPH 氧化酶 ROS 爆發、PAD4 組織蛋白瓜胺酸化、染色質去凝縮與 NET 噴出。自殺型破裂 vs 存活型釋放。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/netosis.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/netosis.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/netosis.html">
@@ -96,13 +96,13 @@
   <header class="top">
     <p class="kicker">細胞 · 調控性死亡</p>
     <h1>NETosis — 嗜中性球如何撒出 DNA 網</h1>
-    <p class="sub"><b>NOX ROS</b>隨病原訊號爆發 · <b>PAD4</b>瓜氨酸化組蛋白 · <b>染色質</b>去凝縮、核膜崩解，DNA–組蛋白–MPO 網噴湧而出。綠色流推動，紅色流抑制。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
+    <p class="sub"><b>NOX ROS</b>隨病原訊號爆發 · <b>PAD4</b>瓜胺酸化組織蛋白 · <b>染色質</b>去凝縮、核膜崩解，DNA–組織蛋白–MPO 網噴湧而出。綠色流推動，紅色流抑制。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
     <p class="src">改編自比較表（嗜中性球專一；Thiam 2020 核心；Yasuda 2019 E2 細節）· three.js r160 · <span id="embedlink"></span></p>
   </header>
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
+        <canvas id="canvas" aria-label="NETosis 調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -122,18 +122,18 @@
       <div class="card" id="cardA">
         <h2>NOX ROS——爆發源</h2>
         <p class="meta">細胞膜 · 病原／LPS／PMA</p>
-        <p>NADPH 氧化酶組裝開火；粒線體 ROS 與 ionomycin 路徑繞過它。E2 在體內 restraint，GPR30 促效劑在體外增強（Yasuda 2019）。</p>
+        <p>NADPH 氧化酶組裝開火；粒線體 ROS 與 ionomycin 路徑繞過它。E2 在體內 抑制，GPR30 促效劑在體外增強（Yasuda 2019）。</p>
         <p class="legend"><span class="dot" style="background:#ff7a1a"></span>ROS 爆發 <span class="dot" style="background:#7fd4ff"></span>替代路徑</p>
       </div>
       <div class="card" id="cardB">
-        <h2>PAD4——瓜氨酸化器</h2>
+        <h2>PAD4——瓜胺酸化器</h2>
         <p class="meta">細胞核 · H3 → cit-H3</p>
-        <p>組蛋白瓜氨酸化解開分葉染色質；NE 提供 PAD4 非依賴路徑；MPO／彈性酶顆粒混入。Cl-amidine 與 NE／MPO 抑制為煞車。</p>
+        <p>組織蛋白瓜胺酸化解開分葉染色質；NE 提供 PAD4 非依賴路徑；MPO／彈性酶顆粒混入。Cl-amidine 與 NE／MPO 抑制為煞車。</p>
         <p class="legend"><span class="dot" style="background:#ffe14d"></span>cit-H3 <span class="dot" style="background:#9a7bd0"></span>解旋</p>
       </div>
       <div class="card" id="cardC">
         <h2>NET 網——DNA 陷阱</h2>
-        <p class="meta">胞外 · DNA＋組蛋白＋MPO</p>
+        <p class="meta">胞外 · DNA＋組織蛋白＋MPO</p>
         <p>自殺型（約 2–4 小時）破裂並噴出網；存活型數分鐘釋放且保留膜。捕捉病原、觸發凝血；DNase 消化。</p>
         <p class="legend"><span class="dot" style="background:#d0b8ff"></span>網 <span class="dot" style="background:#ff8a3d"></span>貨物 <span class="dot" style="background:#51d88a"></span>陷阱</p>
       </div>
@@ -231,13 +231,13 @@ const INFO = {
   nox: ['NOX ROS——爆發源', 'NADPH 氧化酶組裝', '病原／LPS／PMA 組裝 NOX；ROS 爆發啟動自殺時鐘（約 2–4 小時）。存在 NOX 非依賴路徑。'],
   pma: ['PMA／LPS——觸發', '實驗＋微生物', '橫跨無菌模型到活病原的典型誘導劑。'],
   icpx: ['免疫複合體——觸發', 'FcR 訊號', '微生物之外的自體免疫情境入口。'],
-  e2n: ['E2——帶細節的 restraint ⊣', '刺激依賴', '在體內 restraint NET，在體外 E2／GPR30 促效劑增強 A23187 NETosis。'],
+  e2n: ['E2——帶細節的 抑制 ⊣', '刺激依賴', '在體內 抑制 NET，在體外 E2／GPR30 促效劑增強 A23187 NETosis。'],
   mitoros: ['粒線體 ROS——替代路徑', 'NOX 非依賴', '粒線體氧化劑可替代 NOX 爆發。'],
   iono: ['Ionomycin——替代路徑', '鈣離子載體', '經 NE 的 PAD4 非依賴／NOX 非依賴路徑。'],
   gpr30: ['GPR30——E2 增強器', '膜 ER 訊號', '體外 E2 增強悖論背後的受體。'],
-  pad4: ['PAD4——瓜氨酸化器', '組蛋白 H3 → cit-H3', '精氨酸轉瓜氨酸；染色質解開。大致必需，存在 NE 介導的例外。'],
-  cith3: ['cit-H3——檢測標記', '瓜氨酸化組蛋白 H3', '搭配 Sytox Green 胞外 DNA 與 MPO–DNA 複合體。'],
-  clam: ['Cl-amidine——PAD4 煞車', '泛 PAD 抑制劑', '阻斷瓜氨酸化與 NET 釋放；挽救檢驗。'],
+  pad4: ['PAD4——瓜胺酸化器', '組織蛋白 H3 → cit-H3', '精胺酸轉瓜胺酸；染色質解開。大致必需，存在 NE 介導的例外。'],
+  cith3: ['cit-H3——檢測標記', '瓜胺酸化組織蛋白 H3', '搭配 Sytox Green 胞外 DNA 與 MPO–DNA 複合體。'],
+  clam: ['Cl-amidine——PAD4 煞車', '泛 PAD 抑制劑', '阻斷瓜胺酸化與 NET 釋放；挽救檢驗。'],
   ne: ['NE——替代解旋器', '嗜中性球彈性酶路徑', '繞過 PAD4 時由蛋白酶驅動去凝縮。'],
   mpo: ['MPO／彈性酶——網貨物', '顆粒混合', '顆粒蛋白包裹噴出的染色質；MPO–DNA 複合體標記 NET。'],
   dnase: ['DNase——網消化器 ⊣', '溶解 NET', '證明捕捉表型的 NET 依賴性。'],
@@ -245,12 +245,12 @@ const INFO = {
   decon: ['去凝縮——核腫脹', '分葉合併擴張', '分節核充滿細胞；永無凋亡梯。'],
   envbr: ['核膜崩解——混合', '核＋顆粒合併', '染色質在噴出前與彈性酶／MPO 混合。'],
   lobed: ['分葉核——起始形', '分節嗜中性球', '靜息的多分葉態，腫脹合併為一團。'],
-  net: ['NET 網——DNA 陷阱', 'DNA＋組蛋白＋MPO', '自殺型破裂並噴出網；存活型數分鐘釋放且保留膜。促血栓 DAMP。'],
-  dnaweb: ['DNA／組蛋白——網纖維', '淡色染色質絲', '物理陷阱；組蛋白兼為授權巨噬細胞 NLRP3 的 DAMP。'],
-  trap: ['病原陷阱——紅利', '固定＋殺滅', '微生物困於組蛋白／蛋白酶網；血小板／凝血被觸發。'],
+  net: ['NET 網——DNA 陷阱', 'DNA＋組織蛋白＋MPO', '自殺型破裂並噴出網；存活型數分鐘釋放且保留膜。促血栓 DAMP。'],
+  dnaweb: ['DNA／組織蛋白——網纖維', '淡色染色質絲', '物理陷阱；組織蛋白兼為授權巨噬細胞 NLRP3 的 DAMP。'],
+  trap: ['病原陷阱——效益', '固定＋殺滅', '微生物困於組織蛋白／蛋白酶網；血小板／凝血被觸發。'],
   vital: ['存活型——保留膜', '分鐘級釋放', '囊泡式 NET 輸出而不死亡；對比用的非裂解兄弟。'],
   mito: ['粒線體——替代 ROS', '粒線體 ROS 路徑', '繞過 NOX 時餵養 PAD4 活化。'],
-  damp: ['NET DAMP——血栓告警', 'DNA／組蛋白即 DAMP', '促發炎且促血栓；DNase 解除。']
+  damp: ['NET DAMP——血栓告警', 'DNA／組織蛋白即 DAMP', '促發炎且促血栓；DNase 解除。']
 };
 /* node id → component card (A/B/C); clicking a blob flashes its card, cards stay static */
 const COMP = {
@@ -407,7 +407,7 @@ B_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .8, gB
 /* ---------- C · MLKL hub (right) ---------- */
 const hubC = node(new THREE.IcosahedronGeometry(0.58, 1), M.hubC, [3.1, -0.1, 0.4], 'net', 'NET 網', 1.1, gC);
 const C_REGS = [
-  ['dnaweb', 'DNA＋組蛋白', [1.7, 2.1, -1.0], new THREE.TorusKnotGeometry(0.2, 0.06), M.reg(0xd0b8ff, 0x4a3490), 'pro'],
+  ['dnaweb', 'DNA＋組織蛋白', [1.7, 2.1, -1.0], new THREE.TorusKnotGeometry(0.2, 0.06), M.reg(0xd0b8ff, 0x4a3490), 'pro'],
   ['trap', '病原陷阱', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0x51d88a, 0x0b4a1e), 'pro'],
   ['vital', '存活型保留膜', [1.8, -1.15, 0.7], new THREE.CapsuleGeometry(0.2, 0.32), M.reg(0x7fd4c9, 0x0e4a3e), 'anti']
 ];
@@ -569,9 +569,9 @@ const fadeMats = [];
 /* ---------- phases ---------- */
 const PHASES = [
   [0, 'A · 病原／LPS——NADPH 氧化酶 ROS 爆發'],
-  [6, 'B · PAD4 瓜氨酸化組蛋白——cit-H3 上升'],
+  [6, 'B · PAD4 瓜胺酸化組織蛋白——cit-H3 上升'],
   [12, 'C · 染色質去凝縮——分葉合併、核腫脹'],
-  [17.5, '核膜崩解——DNA／組蛋白／MPO 網噴出'],
+  [17.5, '核膜崩解——DNA／組織蛋白／MPO 網噴出'],
   [20.5, '陷阱布好——病原被擒；存活型保留膜']
 ];
 function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }

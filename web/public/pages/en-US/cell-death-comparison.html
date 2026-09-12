@@ -201,7 +201,7 @@
               <td data-hl="energy">ATP-dependent</td>
               <td data-hl="">shrinkage, blebbing intact, apoptotic bodies, DNA ladder</td>
               <td data-hl="">Annexin V⁺/PI⁻, cleaved caspase-3, TUNEL, DNA ladder</td>
-              <td data-hl="dna">extrinsic Caspase-8 → Caspase-3; intrinsic p53 → Bax / BAK → cytochrome c → Caspase-9 → Caspase-3; inhibited by Bcl-2 / XIAP</td>
+              <td data-hl="dna">extrinsic Caspase-8 → Caspase-3; intrinsic p53 → PUMA/NOXA/BAX → Bax/BAK activation and MOMP → cytochrome c → Caspase-9 → Caspase-3; inhibited by Bcl-2 / XIAP</td>
               <td data-hl="">Caspase-8 cleaves RIPK1/3 to block necroptosis; Caspase-3 cleaves GSDMD at D87 to inactivate it while activating GSDME — anti-GSDMD / pro-GSDME switch</td>
               <td data-hl="">silent, Annexin V+</td>
               <td data-hl="">z-VAD-FMK, Bcl-2</td>
@@ -241,12 +241,12 @@
               <td>Lower, delayed RIPK peak; ovariectomy narrows the gap (ovarian-hormone protection)</td>
               <td data-hl="lytic"><span class="pill reg">regulated</span><span class="pill lytic">lytic</span><br>yes</td>
               <td data-hl="energy">ATP-dependent kinase cascade</td>
-              <td data-hl="lytic">swelling + rupture like necrosis, moderate condensation</td>
-              <td data-hl="lytic">pMLKL (human Ser358 / mouse Ser345), pRIPK3, necrostatin / GSK872 rescue</td>
+              <td data-hl="lytic">swelling + rupture like necrosis, no apoptotic ladder — slight/variable pyknosis</td>
+              <td data-hl="lytic">pMLKL (human Ser358 / mouse Ser345), pRIPK3, necrostatin / GSK'872 rescue</td>
               <td data-hl="lytic energy">TNFα → Complex I (NF-κB) → Complex II apoptosis → necrosome RIPK1 → RIPK3 → MLKL if Caspase-8 blocked; TRIF / ZBP1 bypass</td>
               <td data-hl="lytic energy">MLKL activates NLRP3 → pyroptosis; RIPK3–AMPK triggers early autophagy then blocks flux</td>
               <td data-hl="lytic">inflammatory by design, DAMP release</td>
-              <td data-hl="">Necrostatin-1, GSK872, necrosulfonamide (human MLKL only — inactive on mouse MLKL; RIPK1 / RIPK3 / human-MLKL respectively)</td>
+              <td data-hl="">Necrostatin-1, GSK'872, necrosulfonamide (human MLKL only — inactive on mouse MLKL; RIPK1 / RIPK3 / human-MLKL respectively)</td>
               <td data-hl="lytic"><b>↑</b> intestinal epithelium, renal tubule, macrophages — <b>↓/n-a</b> RBCs (no RIPK3/MLKL), resting lymphocytes</td>
             </tr>
             <tr data-program="ferroptosis">
@@ -602,7 +602,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈4 h TSZ course (L929 ≈1 h → HT-29 ≈6 h) · 12 s loop (time-lapse)',
    phases:[[0,0,'TNFα signal — caspase-8 blocked'],[2.5,60,'necrosome assembles (RIPK1/RIPK3)'],[5,120,'p-MLKL rings punch membrane pores'],[7,180,'swelling through pores → rupture'],[8.5,220,'DAMP release + NLRP3 handoff']],
-   steps:['TNFα signal with caspase-8 blocked — RIPK1/RIPK3 necrosome speck assembles.','RIPK3 phosphorylates MLKL; MLKL oligomers punch membrane pores.','Ion influx swells the cell through the pore zone.','Rupture + DAMP release with NLRP3 handoff; blocked by necrostatin-1/GSK872 in real assays.'],
+   steps:['TNFα signal with caspase-8 blocked — RIPK1/RIPK3 necrosome speck assembles.','RIPK3 phosphorylates MLKL; MLKL oligomers punch membrane pores.','Ion influx swells the cell through the pore zone.','Rupture + DAMP release with NLRP3 handoff; blocked by necrostatin-1/GSK\'872 in real assays.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
@@ -681,10 +681,10 @@ const PROGRAMS = [
 ];
 
 const REG_DETAIL = {
- apoptosis: { layers: [['Sense / integrate', 'Extrinsic FasL/TRAIL to Caspase-8; intrinsic p53 to Bax/BAK to cytochrome c to Caspase-9. Caspase-8 also cleaves RIPK1/3 to block necroptosis.'], ['Amplify', 'Executioner Caspase-3/7; Caspase-3 cleaves GSDMD at D87 off while activating GSDME on.'], ['Execute', 'Shrinkage, sealed blebbing, apoptotic bodies, DNA ladder; PS eat-me signal, silent clearance.']], regulators: 'Bcl-2 / XIAP restrain; Smac/DIABLO relieve.', inhibitors: 'Blocked by z-VAD-FMK, Bcl-2 overexpression.' },
+ apoptosis: { layers: [['Sense / integrate', 'Extrinsic FasL/TRAIL to Caspase-8; intrinsic p53 to PUMA/NOXA/BAX to Bax/BAK activation and MOMP to cytochrome c to Caspase-9. Caspase-8 also cleaves RIPK1/3 to block necroptosis.'], ['Amplify', 'Executioner Caspase-3/7; Caspase-3 cleaves GSDMD at D87 off while activating GSDME on.'], ['Execute', 'Shrinkage, sealed blebbing, apoptotic bodies, DNA ladder; PS eat-me signal, silent clearance.']], regulators: 'Bcl-2 / XIAP restrain; Smac/DIABLO relieve.', inhibitors: 'Blocked by z-VAD-FMK, Bcl-2 overexpression.' },
  parthanatos: { layers: [['Sense / integrate', 'Heavy DNA damage to PARP1 overactivation; consumes NAD+/ATP, cell dims.'], ['Amplify', 'PAR polymer leaves nucleus, binds mitochondrial AIF; MIF nuclease recruited.'], ['Execute', 'AIF+MIF to nucleus gives ~50-kbp large-scale fragmentation, PS flip plus slight leak, no swelling, no ladder.']], regulators: 'SIRT1-PARP1 NAD+ competition; AIF release precedes cytochrome c.', inhibitors: 'PARP inhibitors, AIF blockade, NAD+ preservation.' },
  necrosis: { layers: [['Sense / integrate', 'Severe injury to Na+/K+ pump failure, ATP depletion.'], ['Amplify', 'Ca2+ overload to calpains; ROS to mPTP; lysosomal leakage to cathepsins.'], ['Execute', 'Oncosis swelling, early ragged rupture, random DNA smear, DAMP storm.']], regulators: 'No regulated brakes - accidental by definition.', inhibitors: 'None specific; secondary necrosis if apoptotic bodies uncleared.' },
- necroptosis: { layers: [['RIPK1 - decision integrator', 'DAPK1-Ser321 / PTPN6 restrain; ROS autophosphorylation, TRIM21 Ub activate; CYLD deubiquitinates to license necrosome; Caspase-8 cleavage is the brake (off here).'], ['RIPK3 - amplifier', 'RHIM recruitment (RIPK1/ZBP1/TRIF), RSK3, viral SFTSV-NSs bypass; CK1G2 brake. Outputs to MLKL plus mito (CaMKII to mPTP, PGAM5 to Drp1, PDC-E3-T135).'], ['MLKL - executor', 'BRD4 supply, HSP90 shield, RIPK3 p-Thr357/Ser358 to oligomer to PIPs/cardiolipin pores to ion influx, DAMPs, NLRP3 handoff.']], regulators: 'Green flows drive death, red restrain - toggle RIPK1/RIPK3/MLKL chips in the full cell.', inhibitors: 'Nec-1 (RIPK1), GSK872 (RIPK3), NSA (human MLKL only).', iframe: 'necroptosis.html?embed=1' },
+ necroptosis: { layers: [['RIPK1 - decision integrator', 'DAPK1-Ser321 / PTPN6 restrain; ROS autophosphorylation, TRIM21 Ub activate; CYLD deubiquitinates to license necrosome; Caspase-8 cleavage is the brake (off here).'], ['RIPK3 - amplifier', 'RHIM recruitment (RIPK1/ZBP1/TRIF), RSK3, viral SFTSV-NSs bypass; CK1G2 brake. Outputs to MLKL plus mito (CaMKII to mPTP, PGAM5 to Drp1, PDC-E3-T135).'], ['MLKL - executor', 'BRD4 supply, HSP90 shield, RIPK3 p-Thr357/Ser358 to oligomer to PIPs/cardiolipin pores to ion influx, DAMPs, NLRP3 handoff.']], regulators: 'Green flows drive death, red restrain - toggle RIPK1/RIPK3/MLKL chips in the full cell.', inhibitors: 'Nec-1 (RIPK1), GSK\'872 (RIPK3), NSA (human MLKL only).', iframe: 'necroptosis.html?embed=1' },
  ferroptosis: { layers: [['Sense / integrate', 'System Xc- (SLC7A11) to GSH to GPX4 fails; FSP1-ubiquinone-NADPH backup overwhelmed; GSH/NADPH drain.'], ['Amplify', 'Labile Fe2+ Fenton ROS; ACSL4 loads PUFA-phospholipids; NCOA4 ferritinophagy feeds iron.'], ['Execute', 'Lipid-ROS patches spread (C11-BODIPY), mitochondria shrink/condense, nucleus intact, late rupture at peroxidized patch.']], regulators: 'MBOAT1/2 remodeling gates; SIRT3 failure feeds ROS.', inhibitors: 'Ferrostatin-1, liproxstatin-1, deferoxamine.' },
  autophagy: { layers: [['Sense / integrate', 'Starvation: mTORC1 off, AMPK on to ULK1-FIP200 plus Beclin-1-Vps34 nucleation; TFEB via SIRT1.'], ['Amplify', 'Phagophore crescents grow (LC3 lipidation), close around cargo to double-membrane autophagosomes.'], ['Execute', 'Lysosome fusion flash to degrade/recycle; survival unless 2-plus ATG interventions rescue (NCCD criterion).']], regulators: 'PINK1/Parkin mitophagy restrains NLRP3; Caspase-1 cleaves Parkin to break restraint.', inhibitors: 'Death claim needs ATG5/7 KO plus 3-MA/CQ rescue; induced by rapamycin.' },
  pyroptosis: { layers: [['Sense / integrate', 'PRR plus ASC plus pro-Caspase-1 to inflammasome speck; non-canonical Caspase-4/5/11 sense LPS to K+ efflux to NLRP3.'], ['Amplify', 'Caspase-1 to GSDMD cleavage; Caspase-3/GSDME arm converges.'], ['Execute', 'GSDMD-N 10-20 nm pore rings to IL-1beta/IL-18 jets plus swelling to rupture, cytokine storm.']], regulators: 'GSDMD pores license NLRP3; SIRT3 lowers mtROS to suppress.', inhibitors: 'NLRP3 / Caspase-1 inhibitors, disulfiram / GSDMD blockade.' },

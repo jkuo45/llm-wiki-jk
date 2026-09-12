@@ -134,7 +134,7 @@
       <div class="card" id="cardC">
         <h2>MLKL — executor</h2>
         <p class="meta">cytosol → membrane · transcription + phosphorylation + pores</p>
-        <p>BRD4 drives MLKL mRNA supply; HSP90 shields the protein from the proteasome; RIPK3 phosphorylates Thr357/Ser358 (mouse RIPK1 and TAM kinases in phagocytosis can also phosphorylate). Oligomers bind PIPs/cardiolipin and punch membrane pores → ion influx, swelling, DAMP release.</p>
+        <p>BRD4 drives MLKL mRNA supply; HSP90 shields the protein from the proteasome; RIPK3 phosphorylates Thr357/Ser358 (mouse RIPK1 can also; TAM kinases add p-Tyr376 during phagocytosis to drive oligomerization). Oligomers bind PIPs/cardiolipin and punch membrane pores → ion influx, swelling, DAMP release.</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>licensed p-MLKL <span class="dot" style="background:#9a8ae0"></span>supply · shield <span class="dot" style="background:#ff5a5e"></span>pore · DAMP</p>
       </div>
       </div>
@@ -242,10 +242,10 @@ const INFO = {
   camk2: ['CaMKII — mito executioner', 'RIPK3 → p-CaMKII → mPTP', 'Opens mitochondrial permeability transition pore; calcium overload via MFN2 tethering. Cardiac I/R, heart failure.'],
   pgam5: ['PGAM5 → Drp1 fission', 'RIPK3 → PGAM5 → de-p-Drp1', 'Drives mitochondrial fission, amplifying death. I/R + neurodegeneration.'],
   pdc: ['PDC-E3 — metabolic reprogramming', 'RIPK3 → p-Thr135', 'Boosts pyruvate-dehydrogenase catalysis; links death signalling to tumour metabolism.'],
-  mlkl: ['MLKL — terminal executor', 'p-Thr357/Ser358 → oligomer → pore', 'Phosphorylated by RIPK3 (mouse also RIPK1; TAM kinases in phagocytosis). Binds PIPs/cardiolipin, oligomerises, ruptures membrane; can also gate TRPM7 ions.'],
+  mlkl: ['MLKL — terminal executor', 'p-Thr357/Ser358 → oligomer → pore', 'Phosphorylated by RIPK3 (mouse also RIPK1; TAM kinases add p-Tyr376 in phagocytosis to license oligomerization). Binds PIPs/cardiolipin, oligomerises, ruptures membrane; can also gate TRPM7 ions.'],
   brd4: ['BRD4 — transcriptional dial', 'nucleus → MLKL promoter', 'BET protein driving MLKL mRNA supply. Sets protein abundance = death sensitivity. Bromodomain inhibitors lower it.'],
   hsp90: ['HSP90 — chaperone shield', 'binds MLKL, blocks proteasome', 'Stabilises MLKL and licenses membrane translocation. HSP90/CDC37 axis.'],
-  tam: ['TAM kinases — context kinases', 'Tyro3/Axl/Mer → p-MLKL', 'Activated by exposed phosphatidylserine during phagocytosis; direct MLKL phosphorylation.'],
+  tam: ['TAM kinases — context kinases', 'Tyro3/Axl/Mer → p-MLKL', 'Activated by exposed phosphatidylserine during phagocytosis; phosphorylates MLKL at Tyr376 to drive oligomerization without affecting the RIPK3 site Ser358 (Najafov 2019).'],
   pore: ['MLKL pore — rupture site', 'PIPs + cardiolipin patch', 'Oligomer ring permeabilises bilayer: ion influx, swelling, DAMP (HMGB1/ATP/DNA) release → inflammation. NSA blocks human MLKL.'],
   mito: ['Mitochondrion — dysfunction hub', 'ROS + fission + mPTP', 'Necrosome triggers mtROS, permeability transition and fission; metabolism (MPC/PDC) feeds back on sensitivity.'],
   damp: ['DAMP cloud — inflammatory payoff', 'HMGB1 · ATP · mtDNA', 'Lytic release recruits/activates innate immunity (TLR/RAGE/NLRP3). Host defence vs sterile injury duality.']

@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
+        <canvas id="canvas" aria-label="PANoptosis 調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -140,7 +140,7 @@
       </div>
     </div>
   </div>
-  <footer class="foot">調控邏輯改編自知識庫串擾文獻＋比較表：共組裝、設計即不可替代。挽救判準：每種單臂阻斷皆失敗。靶向上游 ZBP1／RIPK3 或聯合多臂。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></footer>
+  <footer class="foot">調控邏輯改編自知識庫串擾文獻＋比較表：共組裝、設計即不可替代。挽救判準：每種單臂阻斷皆失敗（操作型定義；PANoptosis 仍屬概念框架，尚無單一分子標記）。靶向上游 ZBP1／RIPK3 或聯合多臂。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></footer>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -236,7 +236,7 @@ const INFO = {
   ripk1s: ['RIPK1——支架', '橋接感測器與三臂', '招募 RIPK3＋Caspase-8＋FADD 的結構樞紐。'],
   casp6p: ['Caspase-6——增強器', '流感情境', '流感中增強 ZBP1 訊號；複合體內的臂間串擾。'],
   panopt: ['全景體——超級複合體', 'RIPK1／RIPK3／Casp8／Casp1＋ASC／FADD', '焦亡＋凋亡＋壞死性凋亡機器共組裝。NLRP3 活化內建。'],
-  ripk3p: ['RIPK3——壞死臂', '→ pMLKL', '複合體內的壞死性凋亡肢；單用 GSK872 無法挽救。'],
+  ripk3p: ['RIPK3——壞死臂', '→ pMLKL', '複合體內的壞死性凋亡肢；單用 GSK\'872 無法挽救。'],
   casp8p: ['Caspase-8——凋亡臂', '→ Caspase-3', '凋亡肢；單用 z-VAD 無法挽救。'],
   casp1pp: ['Caspase-1——焦亡臂', '→ GSDMD', '焦亡肢；單用 VX-765 無法挽救。'],
   ascfadd: ['ASC／FADD——接頭', '雙重招募', '將兩條 caspase 臂接入同一顆粒。'],

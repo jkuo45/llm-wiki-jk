@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="3-D necroptosis regulatory cell"></canvas>
+        <canvas id="canvas" aria-label="3-D PANoptosis regulatory cell"></canvas>
         <div class="phase" id="phase">loading…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">death threshold · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Death threshold — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -140,7 +140,7 @@
       </div>
     </div>
   </div>
-  <footer class="foot">Regulatory logic from vault crosstalk document (crosstalk_cell_death_mechanisms) + comparison table: co-assembled, non-redundant by design. Rescue criterion: failure of every single-arm blockade. Target upstream ZBP1/RIPK3 or combine arms. <a href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html#animations">Cell-death animations</a></footer>
+  <footer class="foot">Regulatory logic from vault crosstalk document (crosstalk_cell_death_mechanisms) + comparison table: co-assembled, non-redundant by design. Rescue criterion: failure of every single-arm blockade — the operational definition; PANoptosis remains a framework concept with no single molecular marker yet. Target upstream ZBP1/RIPK3 or combine arms. <a href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html#animations">Cell-death animations</a></footer>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -236,7 +236,7 @@ const INFO = {
   ripk1s: ['RIPK1 — scaffold', 'bridges sensor to arms', 'Structural hub recruiting RIPK3 + Caspase-8 + FADD.'],
   casp6p: ['Caspase-6 — potentiator', 'flu context', 'Boosts ZBP1 signaling in influenza; arm-crosstalk within the complex.'],
   panopt: ['PANoptosome — super-complex', 'RIPK1/RIPK3/Casp8/Casp1 + ASC/FADD', 'Co-assembled pyroptosis + apoptosis + necroptosis machinery. NLRP3 activation wired in.'],
-  ripk3p: ['RIPK3 — necro arm', '→ pMLKL', 'The necroptosis limb inside the complex; GSK872 alone cannot rescue.'],
+  ripk3p: ['RIPK3 — necro arm', '→ pMLKL', 'The necroptosis limb inside the complex; GSK\'872 alone cannot rescue.'],
   casp8p: ['Caspase-8 — apoptosis arm', '→ Caspase-3', 'The apoptosis limb; z-VAD alone cannot rescue.'],
   casp1pp: ['Caspase-1 — pyro arm', '→ GSDMD', 'The pyroptosis limb; VX-765 alone cannot rescue.'],
   ascfadd: ['ASC/FADD — adaptors', 'dual recruitment', 'Wire both caspase arms into one particle.'],

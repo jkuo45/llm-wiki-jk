@@ -102,10 +102,10 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="3-D necroptosis regulatory cell"></canvas>
+        <canvas id="canvas" aria-label="3-D autophagy regulatory cell"></canvas>
         <div class="phase" id="phase">loading…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
-        <div class="meter"><span id="meterlabel">death threshold · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Death threshold — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
+        <div class="meter"><span id="meterlabel">flux monitor · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Flux monitor — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
         <div class="tip" id="tip"></div>
       </div>
       <div class="toolbar" role="toolbar" aria-label="Animation controls">
@@ -241,7 +241,7 @@ const INFO = {
   lc3: ['LC3 — membrane tag', 'LC3-II flux ± bafilomycin', 'Lipidated onto cups and closed vesicles; flux—not level—defines activity.'],
   ma3: ['3-MA — nucleation brake', 'Vps34 inhibitor', 'One of the ≥2 ATG interventions needed to claim autophagic death.'],
   cq: ['CQ — flux brake', 'lysosome alkalinizer', 'Blocks degradation readout; p62 accumulates when flux stalls.'],
-  wipi: ['WIPI2/ATG7 — route switch', 'sex-divergent routes', 'Females use Beclin-independent ATG7 route (Patrizz 2021); Atg7 KO rescues neurons but kills fibroblasts.'],
+  wipi: ['WIPI2/ATG7 — route switch', 'sex-divergent routes', 'Females use Beclin-independent ATG7 route (Patrizz 2021); Atg7 knockdown rescues starved neurons but increases fibroblast death (Du 2009, PMID 19036730).'],
   cargo: ['Cargo — damaged goods', 'mito bits + aggregates', 'Cups close around cargo (LC3+) and ferry it to the lysosome.'],
   pink1: ['PINK1/Parkin — mitophagy guard', 'restrains NLRP3/necroptosis', 'Clears damaged mitochondria that would otherwise fire inflammasomes.'],
   casp1p: ['Caspase-1 — guard cutter', 'cleaves Parkin', 'Inflammation breaks the mitophagy restraint; pyroptosis wins.'],
@@ -249,7 +249,7 @@ const INFO = {
   lamp: ['Fusion flash — handoff', 'SNARE-mediated merger', 'The visible flash as green cups meet the red lysosome.'],
   p62: ['p62 — flux reporter', 'cleared when flux runs', 'Accumulates under CQ; drops as cargo degrades. Never a death marker alone.'],
   recycle: ['Recycle — survival payoff', 'amino acids + lipids out', 'Degradation products refuel the starved cell; death only if blocking ATGs rescues.'],
-  mito: ['Mitochondrion — cargo + client', 'pruned by mitophagy', 'Damaged units are eaten first; network survives. XX neurons resist via lipid droplets.'],
+  mito: ['Mitochondrion — cargo + client', 'pruned by mitophagy', 'Damaged units are eaten first; network survives. XX neurons resist starvation via lipid droplets (Du 2009, PMID 19036730).'],
   damp: ['No DAMP — sources cleared', 'protective by design', 'Eating leaky mitochondria removes future alarms. Anti-inflammatory program.']
 };
 /* node id → component card (A/B/C); clicking a blob flashes its card, cards stay static */
@@ -736,7 +736,7 @@ function animate() {
     m.g.position.y += Math.sin(t * 1.5 + i * 2) * 0.0008;
   });
 
-  // cell morphology follows the death threshold: swell → bulge → rupture → collapse
+  // cell morphology follows the biological time course
   const swellK = sstep(9, 17.5, t);
   const execK = t >= 17.5 ? Math.min((t - 17.5) / 2.5, 1) : 0;
   const postK = t >= 20.5 ? Math.min((t - 20.5) / 3.5, 1) : 0;
@@ -848,7 +848,7 @@ function animate() {
 
   phaseEl.textContent = phaseAt(t);
   meterfill.style.width = Math.min(8 + t / DUR * 92, 100) + '%';
-  meterlabel.textContent = 'death threshold · T+ ' + (BIO_H < 1 ? (t / DUR * BIO_H * 60).toFixed(0) + ' min' : (t / DUR * BIO_H).toFixed(1) + ' h');
+  meterlabel.textContent = 'flux monitor · T+ ' + (BIO_H < 1 ? (t / DUR * BIO_H * 60).toFixed(0) + ' min' : (t / DUR * BIO_H).toFixed(1) + ' h');
   metertrack.setAttribute('aria-valuenow', t.toFixed(1));
 
   controls.update();

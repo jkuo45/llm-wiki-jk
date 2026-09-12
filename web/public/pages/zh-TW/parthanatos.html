@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
+        <canvas id="canvas" aria-label="Parthanatos 調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -128,7 +128,7 @@
       <div class="card" id="cardB">
         <h2>PAR——聚合物信使</h2>
         <p class="meta">核 → 粒線體＋鈣</p>
-        <p>PAR 結合粒線體 AIF 並開啟 TRPM2 鈣流；calpain 切割 BID → BAX 孔釋放 AIF——凋亡蛋白無 caspase 上工。PARG／ARH3 擦除 PAR。</p>
+        <p>PAR 結合粒線體 AIF，其 ADP-核糖開啟細胞膜 TRPM2 鈣內流；calpain 切割 BID → BAX 孔釋放 AIF——凋亡蛋白無 caspase 上工。PARG／ARH3 擦除 PAR。</p>
         <p class="legend"><span class="dot" style="background:#ffe14d"></span>PAR 訊號 <span class="dot" style="background:#51ff9e"></span>AIF 交接 <span class="dot" style="background:#ff5a5e"></span>擦除器（PARG、ARH3）</p>
       </div>
       <div class="card" id="cardC">
@@ -231,19 +231,19 @@ const INFO = {
   parp1: ['PARP1——過度活化的感測器', '細胞核 · ADP-核糖轉移酶', '嚴重 DNA 損傷使 PARP1 過度活化；大量 PAR 合成耗竭 NAD⁺／ATP。雄性偏好此臂（PARP 缺失僅保護雄性）。'],
   breaks: ['DNA 斷裂——觸發', '烷化／氧化損傷', 'MNNG、H2O2 型損傷招募並過度活化 PARP1。'],
   pj34: ['PJ-34——PARP 煞車', 'PARP 抑制劑，僅救雄性', '在 MCAO 保護雄性；典型 parthanatos 挽救。'],
-  sirt1: ['SIRT1——NAD⁺ 競爭者', '經 AIF restraint 求生', '與 PARP1 競爭 NAD⁺；促進存活。雌性缺 PARP-1 則轉向 caspase 死亡。'],
+  sirt1: ['SIRT1——NAD⁺ 競爭者', '經 AIF 抑制 求生', '與 PARP1 競爭 NAD⁺；促進存活。雌性缺 PARP-1 則轉向 caspase 死亡。'],
   nad: ['NAD⁺——流失的燃料', 'PARP1 消耗、細胞變暗', 'NAD⁺／ATP 崩潰為代謝特徵；保存可挽救。'],
   olap: ['Olaparib——臨床 PARP 煞車', 'PARP 抑制劑', '與 PJ-34 同類邏輯；從源頭阻斷 PAR 合成。'],
   rosdna: ['ROS——斷裂製造機', '氧化 DNA 損傷', '餵養損傷負荷，將 PARP1 推入過度活化。'],
   par: ['PAR 聚合物——死亡訊號', '核 → 粒線體', '游離／結合態聚 ADP-核糖離核結合粒線體 AIF。被 PARG／ARH3 降解。'],
   parg: ['PARG——PAR 擦除器 ⊣', '糖水解酶', '主要 PAR 降解煞車；缺失增敏。'],
   arh3: ['ARH3——PAR 擦除器 ⊣', '水解酶', 'PARG 之外的第二 PAR 清除煞車。'],
-  trpm2: ['TRPM2——鈣門', 'ADP-核糖門控通道', 'PAR 衍生 ADP-核糖開啟 TRPM2；內質網 Ca²⁺ 為候選 calpain 觸發。'],
+  trpm2: ['TRPM2——鈣門', 'ADP-核糖門控通道', 'PAR 衍生 ADP-核糖在細胞膜開啟 TRPM2；內質網 Ca²⁺ 釋放為另一候選 calpain 觸發。'],
   calpain: ['Calpain——BID 切割器', 'Ca²⁺ 依賴蛋白酶', '在 PARP1 下游切割 BID（不可切割突變阻斷死亡）；具損傷特異性。'],
   bidbax: ['tBID → BAX——AIF 釋放', '非 caspase', '凋亡蛋白無 caspase 上工：tBID → 粒線體 BAX → AIF 釋放。'],
   hpf1: ['HPF1——PARP 調節器', '輔因子', '重塑 PARP1 特異性；調節起始／延伸平衡。'],
   parbind: ['PAR → AIF 結合', '粒線體交接', 'PAR 停靠 AIF，授權其自內膜釋放。'],
-  erCa: ['內質網鈣庫', 'TRPM2 觸發釋放', '候選 calpain 觸發；螯合抗 H2O2 不抗 MNNG。'],
+  erCa: ['內質網鈣庫', '獨立釋放候選', '獨立於 TRPM2 內流；候選 calpain 觸發；螯合抗 H2O2 不抗 MNNG。'],
   baxpore: ['BAX 孔——AIF 出口', '外膜', 'BAX 大孔讓 AIF 逃出；BAX／BID 在此無 caspase 運作。'],
   aif: ['AIF／MIF——核內執行器', '粒線體 → 核挺進', 'AIF 偕 MIF 核酸酶向核挺進；MIF 將 DNA 切成約 50-kbp 片段。無 caspase、無凋亡梯。'],
   mif: ['MIF 核酸酶——切割器', 'PD-D／E（X）K 核酸酶', '隨 AIF 入核；PAANIB-1 阻斷它而不傷凋亡／壞死性凋亡。'],

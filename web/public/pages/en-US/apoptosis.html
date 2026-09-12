@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="3-D necroptosis regulatory cell"></canvas>
+        <canvas id="canvas" aria-label="3-D apoptosis regulatory cell"></canvas>
         <div class="phase" id="phase">loading…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">death threshold · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Death threshold — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -128,7 +128,7 @@
       <div class="card" id="cardB">
         <h2>Caspase-9 — amplifier</h2>
         <p class="meta">mitochondria · apoptosome</p>
-        <p>p53 → Bax/BAK → MOMP → cytochrome c + Apaf-1 apoptosome → Caspase-9. Bcl-2/Bcl-xL guard; XIAP brakes executioners until Smac/DIABLO release.</p>
+        <p>p53 → PUMA/NOXA + BAX → Bax/BAK activation → MOMP → cytochrome c + Apaf-1 apoptosome → Caspase-9. Bcl-2/Bcl-xL guard; XIAP brakes executioners until Smac/DIABLO release.</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>pro (Bax/BAK, Smac) <span class="dot" style="background:#ff5a5e"></span>brakes (Bcl-2, XIAP)</p>
       </div>
       <div class="card" id="cardC">
@@ -231,7 +231,7 @@ const INFO = {
   casp8: ['Caspase-8 — initiator', 'cytosol · DISC + death receptors', 'Ignites at Fas/TRAIL DISC via FADD; c-FLIP is the brake. Cleaves BID (mito link) and RIPK1/3 (necroptosis off-switch).'],
   fasl: ['FasL — death ligand', 'extrinsic entry', 'Fas/CD95 ligand trimerizes receptors to nucleate the DISC. Immune cytotoxicity / AICD.'],
   fadd: ['FADD — adaptor', 'DISC scaffold', 'Bridges death receptors to pro-Caspase-8 filaments.'],
-  flip: ['c-FLIP — DISC brake', 'caspase-8 homolog, no activity', 'Competes with Caspase-8 at the DISC; rheostat with Caspase-8 sets life/death (see Caspase-8-c-FLIP Rheostat).'],
+  flip: ['c-FLIP — DISC brake', 'caspase-8 homolog, low activity', 'Competes with Caspase-8 at the DISC; rheostat with Caspase-8 sets life/death (see Caspase-8-c-FLIP Rheostat).'],
   trail: ['TRAIL — death ligand', 'extrinsic entry', 'TNF-family ligand; second DISC input alongside FasL.'],
   bid: ['BID — mito bridge', 'Caspase-8 → tBID', 'Truncated BID relays extrinsic signal to Bax/BAK and MOMP. Also operates in parthanatos via calpain.'],
   ripkcut: ['RIPK1/3 cleavage — necro off-switch', 'Caspase-8 substrates', 'Caspase-8 cuts RIPK1/RIPK3 to abort necroptosis. Why caspase blockade licenses necroptosis.'],

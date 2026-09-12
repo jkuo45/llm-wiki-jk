@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>紅細胞凋亡 — 鈣 · Calpain · PS 外翻調控</title>
-<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現無核紅血球的紅細胞凋亡調控：鈣內流、calpain／scramblase 活化、PS 外翻。含皺縮、起泡與靜默清除。">
+<title>紅血球凋亡 — 鈣 · Calpain · PS 外翻調控</title>
+<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現無核紅血球的凋亡調控（eryptosis）：鈣內流、calpain／scramblase 活化、PS 外翻。含皺縮、起泡與靜默清除。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html">
@@ -95,14 +95,14 @@
 <div class="wrap">
   <header class="top">
     <p class="kicker">細胞 · 調控性死亡</p>
-    <h1>紅細胞凋亡 — 無核的凋亡</h1>
+    <h1>紅血球凋亡 — 無核的凋亡</h1>
     <p class="sub"><b>觸發</b>在無核紅血球開啟鈣門 · <b>Calpain＋scramblase</b>放大 · <b>PS 外翻</b>標記殘體供脾臟清除。無核、無粒線體、不破裂。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
     <p class="src">改編自比較表（紅血球專一、非 caspase）· three.js r160 · <span id="embedlink"></span></p>
   </header>
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
+        <canvas id="canvas" aria-label="紅血球凋亡調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -122,7 +122,7 @@
       <div class="card" id="cardA">
         <h2>觸發——四門一離子</h2>
         <p class="meta">紅血球膜 · 壓力入口</p>
-        <p>氧化、滲透、能量耗竭與神經醯胺觸發（CKD／敗血症情境）皆開啟陽離子進入。EPO restraint。</p>
+        <p>氧化、滲透、能量耗竭與神經醯胺觸發（CKD／敗血症情境）皆開啟陽離子進入。EPO 抑制。</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>觸發輸入 <span class="dot" style="background:#7fd4ff"></span>Ca²⁺ 進入</p>
       </div>
       <div class="card" id="cardB">
@@ -228,15 +228,15 @@ function makeLabel(text, scale = 1) {
 
 /* ---------- info ---------- */
 const INFO = {
-  trig: ['觸發——四門', '氧化／滲透／能量／神經醯胺', '四者皆匯於鈣進入。CKD 與敗血症為臨床情境。EPO restraint。'],
-  oxs: ['氧化壓力——觸發', '耗 GSH、開門', '與鐵死亡共享脂質過氧化觸發；此處無鐵機器。'],
+  trig: ['觸發——四門', '氧化／滲透／能量／神經醯胺', '四者皆匯於鈣進入。CKD 與敗血症為臨床情境。EPO 抑制。'],
+  oxs: ['氧化壓力——觸發', '耗 GSH、開門', '與鐵死亡共享脂質過氧化觸發；紅血球未確立典型 GPX4／ACSL4 鐵死亡機器。'],
   osmo: ['滲透休克——觸發', '皺縮訊號', '高滲壓力數分鐘內開啟陽離子進入。'],
   edepl: ['能量耗竭——觸發', 'ATP 依賴外排失效', '無 ATP 則 Ca²⁺ 無法泵出；小尺度的壞死幫浦邏輯。'],
   cer: ['神經醯胺——觸發', '鞘磷脂酶產物', '膜神經醯胺平台增敏 scramblase。檢測直接染色。'],
-  ckd: ['CKD／敗血症——情境', '尿毒＋發炎環境', '臨床上紅細胞凋亡率上升之處；前向散射皺縮讀值。'],
+  ckd: ['CKD／敗血症——情境', '尿毒＋發炎環境', '臨床上紅血球凋亡率上升之處；前向散射皺縮讀值。'],
   epo: ['EPO——煞車*', '紅血球生成素挽救', '標星為跨生物學推論；直接煞車為 calpain 抑制劑與螯合。'],
   ca2: ['Ca²⁺ 樞紐——整合器', '內流 → 酶', '胞質 Ca²⁺ 為單一第二信使；Fluo-3 報告。'],
-  cain: ['Ca²⁺ 內流——進入', '非選擇陽離子通道', '承諾步驟；下游皆為鈣酶學。'],
+  cain: ['Ca²⁺ 內流——進入', '非選擇陽離子通道', '關鍵步驟；下游皆為鈣酶學。'],
   calp: ['Calpain——切割器', 'spectrin／ankyrin 切割', '拆解膜骨架 → 起泡。與 parthanatos BID 切割器同家族。'],
   scram: ['Scramblase——PS 翻轉器開', 'TMEM16F 類活性', '攪亂脂雙層；PS 外露＝Annexin V＋。'],
   flipase: ['Flippase——關閉開關', '胺基磷脂轉位酶', '平時將 PS 藏於內側；鈣將其關閉。'],

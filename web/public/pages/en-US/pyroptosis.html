@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="3-D necroptosis regulatory cell"></canvas>
+        <canvas id="canvas" aria-label="3-D pyroptosis regulatory cell"></canvas>
         <div class="phase" id="phase">loading…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">death threshold · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Death threshold — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -140,7 +140,7 @@
       </div>
     </div>
   </div>
-  <footer class="foot">Regulatory logic from vault Pyroptosis / Gasdermin D / Gasdermin E notes + comparison table (canonical + non-canonical arms; macrophage-strong evidence JCI 2026). Detection: GSDMD-N, FLICA, IL-1β/IL-18 + LDH. Inhibitor landmarks: MCC950, VX-765, disulfiram/GSDMD blockade*. <a href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html#animations">Cell-death animations</a></footer>
+  <footer class="foot">Regulatory logic from vault Pyroptosis / Gasdermin D / Gasdermin E notes + comparison table (canonical + non-canonical arms; ERβ-loss macrophage evidence Zhu 2026, JCI). Detection: GSDMD-N, FLICA, IL-1β/IL-18 + LDH. Inhibitor landmarks: MCC950, VX-765, disulfiram/GSDMD blockade*. <a href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html#animations">Cell-death animations</a></footer>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -231,7 +231,7 @@ const INFO = {
   sensor: ['PRR/ASC — danger sensors', 'NLRP3 + ASC + pro-Caspase-1', 'Pattern receptors nucleate the speck; NEK7 licenses NLRP3, K+ efflux triggers it. E2/ERβ restrains.'],
   nlrp3: ['NLRP3 — flagship sensor', 'ATP-gated oligomer', 'Male-high in bacterial/CLP and cardiac LPS models; restrained by E2/ERβ and SIRT3-mtROS control.'],
   asc: ['ASC — speck adaptor', 'PYD + CARD filaments', 'Bridges sensor to pro-Caspase-1; the visible ignition speck.'],
-  e2rest: ['E2/ERβ — NLRP3 brake', 'hormonal restraint', 'Dampens IL-1β in OVX lung/brain; loss drives macrophage pyroptosis (JCI 2026).'],
+  e2rest: ['E2/ERβ — NLRP3 brake', 'hormonal restraint', 'Dampens IL-1β in OVX lung/brain; ERβ loss drives macrophage pyroptosis (Zhu 2026, JCI).'],
   lps: ['LPS/PAMPs — trigger', 'non-canonical entry', 'Cytosolic LPS is sensed directly by Caspase-4/5/11.'],
   keff: ['K+ efflux — common trigger', 'GSDMD → NLRP3 loop', 'Pore-driven K+ loss re-fires NLRP3; the amplification loop.'],
   nek7: ['NEK7 — license factor', 'mitotic kinase moonlight', 'Binds NLRP3 to license assembly downstream of K+ efflux.'],

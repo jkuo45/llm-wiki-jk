@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>自噬 — mTORC1 · ULK1 · 溶酶體多層調控</title>
-<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現自噬的多層調控：mTORC1／AMPK 感測、ULK1／Beclin 成核、LC3 延伸、溶酶體融合。存活通量；僅 ATG 依賴才算死亡。">
+<title>自噬 — mTORC1 · ULK1 · 溶體多層調控</title>
+<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現自噬的多層調控：mTORC1／AMPK 感測、ULK1／Beclin 成核、LC3 延伸、溶體融合。存活通量；僅 ATG 依賴才算死亡。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/autophagy.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/autophagy.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/autophagy.html">
@@ -96,23 +96,23 @@
   <header class="top">
     <p class="kicker">細胞 · 存活程式</p>
     <h1>自噬 — 細胞如何吃自己求生</h1>
-    <p class="sub"><b>mTORC1／AMPK</b> 感測飢餓 · <b>ULK1／Beclin</b> 使新月成核 · <b>溶酶體</b>融合回收。綠色流推動通量，紅色流煞車。僅 ATG 阻斷能挽救才算死亡。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
+    <p class="sub"><b>mTORC1／AMPK</b> 感測飢餓 · <b>ULK1／Beclin</b> 使新月成核 · <b>溶體</b>融合回收。綠色流推動通量，紅色流煞車。僅 ATG 阻斷能挽救才算死亡。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
     <p class="src">改編自知識庫 Autophagic Cell Death 筆記＋比較表（NCCD 標準）· three.js r160 · <span id="embedlink"></span></p>
   </header>
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
+        <canvas id="canvas" aria-label="自噬調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
-        <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
+        <div class="meter"><span id="meterlabel">通量監測 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="通量監測 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
         <div class="tip" id="tip"></div>
       </div>
       <div class="toolbar" role="toolbar" aria-label="動畫控制">
         <div class="chips">
           <button id="chipA" class="chip-a is-on" title="只顯示mTORC1／AMPK整合層">mTORC1／AMPK</button>
           <button id="chipB" class="chip-b is-on" title="只顯示ULK1／Beclin放大層">ULK1／Beclin</button>
-          <button id="chipC" class="chip-c is-on" title="只顯示溶酶體執行層">溶酶體</button>
+          <button id="chipC" class="chip-c is-on" title="只顯示溶體執行層">溶體</button>
         </div>
         <button id="play" class="is-on">⏸ 暫停</button>
         <button id="reset">重設視角</button>
@@ -122,7 +122,7 @@
       <div class="card" id="cardA">
         <h2>mTORC1／AMPK——營養開關</h2>
         <p class="meta">細胞質 · 飢餓感測</p>
-        <p>mTORC1 關＋AMPK 開使 ULK1–FIP200 成核；TFEB 經 SIRT1 擴張溶酶體。Rapamycin 誘導；E2 依情境調節。</p>
+        <p>mTORC1 關＋AMPK 開使 ULK1–FIP200 成核；TFEB 經 SIRT1 擴張溶體。Rapamycin 誘導；E2 依情境調節。</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>啟動（AMPK、飢餓） <span class="dot" style="background:#ff5a5e"></span>煞車（進食態 mTORC1）</p>
       </div>
       <div class="card" id="cardB">
@@ -132,10 +132,10 @@
         <p class="legend"><span class="dot" style="background:#51ff9e"></span>杯／自噬體 <span class="dot" style="background:#ffb347"></span>貨物</p>
       </div>
       <div class="card" id="cardC">
-        <h2>溶酶體——回收器</h2>
+        <h2>溶體——回收器</h2>
         <p class="meta">融合閃光＋降解＋復原</p>
-        <p>融合閃光合併囊泡；貨物降解、p62 清除、代謝物回補。PINK1／Parkin 線粒體自噬抑制 NLRP3，直到 Caspase-1 切割 Parkin。</p>
-        <p class="legend"><span class="dot" style="background:#ff5a4d"></span>溶酶體 <span class="dot" style="background:#51ff9e"></span>存活通量</p>
+        <p>融合閃光合併囊泡；貨物降解、p62 清除、代謝物回補。PINK1／Parkin 粒線體自噬抑制 NLRP3，直到 Caspase-1 切割 Parkin。</p>
+        <p class="legend"><span class="dot" style="background:#ff5a4d"></span>溶體 <span class="dot" style="background:#51ff9e"></span>存活通量</p>
       </div>
       </div>
     </div>
@@ -233,23 +233,23 @@ const INFO = {
   mtorc1: ['mTORC1——通量煞車', '進食態抑制 ULK1', '生長訊號活躍時壓住自噬；其喪失放行成核。'],
   ampk: ['AMPK——能量啟動', 'AMP／ATP 感測', '低能量開火 AMPK → 活化 ULK1＋抑制 mTORC1。'],
   rapa: ['Rapamycin——誘導劑', 'mTORC1 抑制劑', '藥理性飢餓模擬；通量讀值對照。'],
-  tfeb: ['TFEB／SIRT1——溶酶體程式', '轉錄', 'TFEB（雌肌約 1.8 倍）經 SIRT1 擴張溶酶體容量。'],
+  tfeb: ['TFEB／SIRT1——溶體程式', '轉錄', 'TFEB（雌肌約 1.8 倍）經 SIRT1 擴張溶體容量。'],
   e2a: ['E2——雙向情境', '神經 vs ER＋效應', '神經經 mTOR–ULK1 抑制；ER＋情境促存活。'],
   ulk1: ['ULK1／Beclin——成核器', '吞噬泡新月', 'ULK1–FIP200＋Beclin-1–Vps34 建杯；3-MA 阻此。'],
   beclin: ['Beclin-1–Vps34——PI3K 杯', '成核複合體', '中風後典型誘導讀值；雄性心臟基礎值較高。'],
   atg5: ['Atg5-12-16L1——延伸器', '泛素樣接合系統', 'LC3 脂化的 E3 樣支架；KO 檢驗死亡依賴。'],
   lc3: ['LC3——膜標籤', 'LC3-II 通量 ± bafilomycin', '脂化於杯與閉合囊泡；通量——非量——定義活性。'],
   ma3: ['3-MA——成核煞車', 'Vps34 抑制劑', '主張自噬性死亡所需的 2 種以上 ATG 干預之一。'],
-  cq: ['CQ——通量煞車', '溶酶體鹼化劑', '阻斷降解讀值；通量停滯時 p62 堆積。'],
-  wipi: ['WIPI2／ATG7——路徑開關', '性別分歧路徑', '雌性走 Beclin 非依賴 ATG7 路徑；Atg7 KO 救神經元卻殺纖維母細胞。'],
-  cargo: ['貨物——損壞品', '粒線體碎片＋聚集體', '杯閉合包覆貨物（LC3＋）並運往溶酶體。'],
-  pink1: ['PINK1／Parkin——線粒體自噬守衛', '抑制 NLRP3／壞死性凋亡', '清除會點燃發炎體的損傷粒線體。'],
-  casp1p: ['Caspase-1——守衛切割器', '切割 Parkin', '發炎打破線粒體自噬 restraint；焦亡獲勝。'],
-  lyso: ['溶酶體——回收器', '融合閃光＋降解', '自噬體融合閃光回收貨物；細胞復原。p62 清除＝通量完成。'],
-  lamp: ['融合閃光——交接', 'SNARE 介導合併', '綠杯遇紅溶酶體的可見閃光。'],
+  cq: ['CQ——通量煞車', '溶體鹼化劑', '阻斷降解讀值；通量停滯時 p62 堆積。'],
+  wipi: ['WIPI2／ATG7——路徑開關', '性別分歧路徑', '雌性走 Beclin 非依賴 ATG7 路徑；Atg7 敲低救飢餓神經元卻增加纖維母細胞死亡（Du 2009，PMID 19036730）。'],
+  cargo: ['貨物——損壞品', '粒線體碎片＋聚集體', '杯閉合包覆貨物（LC3＋）並運往溶體。'],
+  pink1: ['PINK1／Parkin——粒線體自噬守衛', '抑制 NLRP3／壞死性凋亡', '清除會點燃發炎體的損傷粒線體。'],
+  casp1p: ['Caspase-1——守衛剪除者', '切割 Parkin', '發炎打破粒線體自噬的抑制；焦亡獲勝。'],
+  lyso: ['溶體——回收器', '融合閃光＋降解', '自噬體融合閃光回收貨物；細胞復原。p62 清除＝通量完成。'],
+  lamp: ['融合閃光——交接', 'SNARE 介導合併', '綠杯遇紅溶體的可見閃光。'],
   p62: ['p62——通量報告器', '通量運行則清除', 'CQ 下堆積；貨物降解則下降。單獨永非死亡標記。'],
-  recycle: ['回收——存活紅利', '胺基酸＋脂質輸出', '降解產物回補飢餓細胞；僅阻斷 ATG 能挽救才算死亡。'],
-  mito: ['粒線體——貨物＋客戶', '線粒體自噬修剪', '損傷單位先被吃；網路存活。XX 神經元靠脂滴抵抗。'],
+  recycle: ['回收——存活效益', '胺基酸＋脂質輸出', '降解產物回補飢餓細胞；僅阻斷 ATG 能挽救才算死亡。'],
+  mito: ['粒線體——貨物＋客戶', '粒線體自噬修剪', '損傷單位先被吃；網路存活。XX 神經元靠脂滴抵抗飢餓（Du 2009，PMID 19036730）。'],
   damp: ['無 DAMP——源頭清除', '設計即保護', '吃掉滲漏粒線體即移除未來的警報。抗發炎程式。']
 };
 /* node id → component card (A/B/C); clicking a blob flashes its card, cards stay static */
@@ -405,7 +405,7 @@ const B_REGS = [
 B_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .8, gB));
 
 /* ---------- C · MLKL hub (right) ---------- */
-const hubC = node(new THREE.IcosahedronGeometry(0.58, 1), M.hubC, [3.1, -0.1, 0.4], 'lyso', '溶酶體', 1.1, gC);
+const hubC = node(new THREE.IcosahedronGeometry(0.58, 1), M.hubC, [3.1, -0.1, 0.4], 'lyso', '溶體', 1.1, gC);
 const C_REGS = [
   ['lamp', '融合閃光', [1.7, 2.1, -1.0], new THREE.TorusKnotGeometry(0.2, 0.06), M.reg(0xffd166, 0x7a5a00), 'pro'],
   ['p62', 'p62 清除', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0xc98d5a, 0x4d2805), 'pro'],
@@ -570,7 +570,7 @@ const PHASES = [
   [0, 'A · 飢餓翻轉開關——mTORC1 關、AMPK 開'],
   [6, 'B · 新月成核——ULK1／Beclin、LC3 脂化'],
   [12, 'C · 杯狀包覆貨物——雙層自噬體'],
-  [17.5, '融合閃光——溶酶體降解、p62 清除'],
+  [17.5, '融合閃光——溶體降解、p62 清除'],
   [20.5, '復原——存活；僅 ATG 挽救能證明死亡']
 ];
 function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }
@@ -848,7 +848,7 @@ function animate() {
 
   phaseEl.textContent = phaseAt(t);
   meterfill.style.width = Math.min(8 + t / DUR * 92, 100) + '%';
-  meterlabel.textContent = '死亡閾值 · T+ ' + (BIO_H < 1 ? (t / DUR * BIO_H * 60).toFixed(0) + ' 分鐘' : (t / DUR * BIO_H).toFixed(1) + ' 小時');
+  meterlabel.textContent = '通量監測 · T+ ' + (BIO_H < 1 ? (t / DUR * BIO_H * 60).toFixed(0) + ' 分鐘' : (t / DUR * BIO_H).toFixed(1) + ' 小時');
   metertrack.setAttribute('aria-valuenow', t.toFixed(1));
 
   controls.update();

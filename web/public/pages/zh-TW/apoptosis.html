@@ -97,12 +97,12 @@
     <p class="kicker">細胞 · 調控性死亡</p>
     <h1>細胞凋亡 — 細胞如何安靜地死亡</h1>
     <p class="sub"><b>Caspase-8</b> 在 DISC 啟動 · <b>Caspase-9</b> 經粒線體放大 · <b>Caspase-3</b> 執行密封碎裂。綠色流推動凋亡，紅色流抑制。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
-    <p class="src">改編自知識庫 Apoptosis／Caspases／Bcl-2 family／IAP 筆記＋比較表 · three.js r160 · <span id="embedlink"></span></p>
+    <p class="src">改編自知識庫 Apoptosis／Caspases／Bcl-2 家族／IAP 筆記＋比較表 · three.js r160 · <span id="embedlink"></span></p>
   </header>
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="壞死性凋亡調控 3-D 細胞"></canvas>
+        <canvas id="canvas" aria-label="細胞凋亡調控 3-D 細胞"></canvas>
         <div class="phase" id="phase">載入中…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -128,7 +128,7 @@
       <div class="card" id="cardB">
         <h2>Caspase-9——放大器</h2>
         <p class="meta">粒線體 · 凋亡體</p>
-        <p>p53 → Bax／BAK → MOMP → 細胞色素 c＋Apaf-1 凋亡體 → Caspase-9。Bcl-2／Bcl-xL 把守；XIAP 煞住執行者直到 Smac／DIABLO 解除。</p>
+        <p>p53 → PUMA／NOXA＋BAX → Bax／BAK 活化 → MOMP → 細胞色素 c＋Apaf-1 凋亡體 → Caspase-9。Bcl-2／Bcl-xL 把守；XIAP 煞住執行者直到 Smac／DIABLO 解除。</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>促（Bax／BAK、Smac） <span class="dot" style="background:#ff5a5e"></span>煞車（Bcl-2、XIAP）</p>
       </div>
       <div class="card" id="cardC">
@@ -140,7 +140,7 @@
       </div>
     </div>
   </div>
-  <footer class="foot">調控邏輯改編自知識庫 Apoptosis／Caspases／Bcl-2 family／IAP／Caspase-8-c-FLIP 筆記＋比較表。女性偏好此臂（Q-VD-OPh 僅保護雌性，Liu 2009）。抑制劑里程碑：z-VAD-FMK、Q-VD-OPh、Bcl-2 過表現。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></footer>
+  <footer class="foot">調控邏輯改編自知識庫 Apoptosis／Caspases／Bcl-2 家族／IAP／Caspase-8-c-FLIP 筆記＋比較表。女性偏好此臂（Q-VD-OPh 僅保護雌性，Liu 2009）。抑制劑里程碑：z-VAD-FMK、Q-VD-OPh、Bcl-2 過表現。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></footer>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -231,7 +231,7 @@ const INFO = {
   casp8: ['Caspase-8——啟動器', '細胞質 · DISC＋死亡受體', '在 Fas／TRAIL DISC 經 FADD 點火；c-FLIP 為煞車。切割 BID（粒線體連結）與 RIPK1／3（關閉壞死性凋亡）。'],
   fasl: ['FasL——死亡配體', '外源性入口', '三聚化受體以成核 DISC。免疫毒殺／AICD。'],
   fadd: ['FADD——接頭', 'DISC 支架', '橋接死亡受體與 pro-Caspase-8 纖維。'],
-  flip: ['c-FLIP——DISC 煞車', '無活性同源物', '在 DISC 競爭 Caspase-8；與之構成生死變阻器。'],
+  flip: ['c-FLIP——DISC 煞車', '低活性同源物', '在 DISC 競爭 Caspase-8；與之構成生死變阻器。'],
   trail: ['TRAIL——死亡配體', '外源性入口', 'TNF 家族配體；FasL 之外的第二 DISC 輸入。'],
   bid: ['BID——粒線體橋', 'Caspase-8 → tBID', '截短 BID 將外源訊號傳給 Bax／BAK 與 MOMP；亦經 calpain 參與 parthanatos。'],
   ripkcut: ['RIPK1／3 切割——關閉壞死', 'Caspase-8 底物', 'Caspase-8 切割 RIPK1／RIPK3 以中止壞死性凋亡；故 caspase 阻斷會放行壞死性凋亡。'],

@@ -102,7 +102,7 @@
   <div class="layout">
     <div class="stage-card">
       <div class="stage" id="stage">
-        <canvas id="canvas" aria-label="3-D necroptosis regulatory cell"></canvas>
+        <canvas id="canvas" aria-label="3-D eryptosis regulatory cell"></canvas>
         <div class="phase" id="phase">loading…</div>
         <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
         <div class="meter"><span id="meterlabel">death threshold · T+ 0.0 h</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Death threshold — scrub animation" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
@@ -229,7 +229,7 @@ function makeLabel(text, scale = 1) {
 /* ---------- info ---------- */
 const INFO = {
   trig: ['Triggers — four doors', 'oxidative / osmotic / energy / ceramide', 'All four converge on calcium entry. CKD and sepsis are the clinical contexts. EPO restrains.'],
-  oxs: ['Oxidative stress — trigger', 'depletes GSH, opens gates', 'Shares lipid-peroxidation triggers with ferroptosis; no iron machinery here.'],
+  oxs: ['Oxidative stress — trigger', 'depletes GSH, opens gates', 'Shares lipid-peroxidation triggers with ferroptosis; canonical GPX4/ACSL4 iron-death machinery is not established in RBCs.'],
   osmo: ['Osmotic shock — trigger', 'shrinkage signal', 'Hyperosmotic stress opens cation entry within minutes.'],
   edepl: ['Energy depletion — trigger', 'ATP-dependent extrusion fails', 'Without ATP, Ca2+ cannot be pumped out; the pump logic mirrors necrosis at small scale.'],
   cer: ['Ceramide — trigger', 'sphingomyelinase product', 'Membrane ceramide platforms sensitize scramblase. Stained directly in assays.'],
