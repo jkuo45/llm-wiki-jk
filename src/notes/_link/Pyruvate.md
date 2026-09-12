@@ -2,7 +2,7 @@
 title: Pyruvate
 description: Three-carbon keto acid that is the end product of glycolysis and the primary mitochondrial fuel, entering mitochondria via the mitochondrial pyruvate carrier (MPC) to feed the TCA cycle.
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-09-12
 tags:
   - chemical-compound
   - metabolism
@@ -30,10 +30,16 @@ In senescent cells, MPC expression is increased and mitochondrial pyruvate impor
 > [!info] Source: [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
 > MPC inhibition reduced TCA intermediates upregulated in senescence, increased lactate (consistent with impaired pyruvate import), and suppressed SASP across multiple senescence models — identifying mitochondrial pyruvate entry as an upstream node of the SASP metabolic checkpoint.
 
+## Role in Necroptosis
+
+Mitochondrial pyruvate oxidation promotes [[Necroptosis]]. [[RIPK3]] activates the [[Pyruvate Dehydrogenase]] complex to convert imported [[Pyruvate]] into [[Acetyl-CoA]], increasing aerobic respiration and mitochondrial [[ROS]], which feed back on the necrosome. Depleting pyruvate or blocking its mitochondrial import ([[MPC]] inhibition, e.g. [[UK5099]]) suppresses TNF-induced necroptosis (Yang et al., *Nat Cell Biol* 2018). Notably, pyruvate can also be **anti-necroptotic** through a cytosolic, MPC-independent mechanism: it non-enzymatically scavenges mitochondrial superoxide, protecting hypoxic and chemotherapy-treated colorectal cancer cells even when [[UK5099]] is present (Huang et al., *Cell Death Dis* 2013).
+
 ## Documents
 
 - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
   - Shows MPC upregulation in senescence and SASP suppression upon MPC inhibition.
+- [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
+  - Pyruvate oxidation via PDC drives the aerobic-respiration/ROS arm of TNF-induced necroptosis.
 
 ## Connections
 
@@ -45,10 +51,14 @@ In senescent cells, MPC expression is increased and mitochondrial pyruvate impor
 - [[Lactate]] — Cytosolic reduction product of pyruvate
 - [[UK5099]] — Pharmacological MPC inhibitor
 - [[SASP]] — Secretory phenotype sustained by the pyruvate–citrate–acetyl-CoA axis
+- [[Necroptosis]] — Cell-death program promoted by mitochondrial pyruvate oxidation (and opposed by cytosolic pyruvate ROS scavenging)
+- [[RIPK3]] — Activates PDC to drive pyruvate-dependent respiration and ROS
+- [[ROS]] — Mitochondrial by-product that feeds back on the necrosome
 
 ## Linking Summary
 
-- New links added: [[MPC]], [[Pyruvate Dehydrogenase]], [[Acetyl-CoA]], [[TCA cycle]], [[Glycolysis]], [[Lactate]], [[UK5099]], [[SASP]]
+- New links added: [[MPC]], [[Pyruvate Dehydrogenase]], [[Acetyl-CoA]], [[TCA cycle]], [[Glycolysis]], [[Lactate]], [[UK5099]], [[SASP]], [[Necroptosis]], [[RIPK3]], [[ROS]]
 - Suggested new entity notes to create: [[Pyruvate Carboxylase]]
 - Strong connections to strengthen:
     - [[Pyruvate]] ↔ [[MPC]] ↔ [[Pyruvate Dehydrogenase]] ↔ [[Acetyl-CoA]]
+    - [[Pyruvate]] ↔ [[Necroptosis]] ↔ [[RIPK3]]

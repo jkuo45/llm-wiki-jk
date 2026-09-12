@@ -3,7 +3,7 @@ title: Necroptosis
 description: Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.
 protected: true
 created: 2026-07-04
-updated: 2026-09-03
+updated: 2026-09-12
 tags: [biological-process, cell-death, inflammation, regulated-cell-death]
 url: #
 source: #
@@ -51,6 +51,22 @@ When [[Caspase-8]] is absent or inhibited (z-VAD-FMK, viral inhibitors, genetic 
 > See [[PGAM5]] supplemental research (2024–2026) for disease models and inhibitor detail.
 
 **Sirtuins.** [[SIRT3]] is context-dependent: it promotes [[Apoptosis]] and necroptosis to suppress cancer growth, yet protects against stress injury; SIRT3 deficiency aggravates hyperglycemic mitochondrial damage, ROS, necroptosis, and [[NLRP3]] activation in diabetic cardiomyopathy. SIRT1/SIRT3 failure also silences PINK1/Parkin mitophagy, raising ROS that feeds necroptosis and [[Ferroptosis]].
+
+## Mitochondrial metabolism
+
+Beyond its role as an ROS source, mitochondrial substrate metabolism is a positive regulator of necroptosis — most clearly through [[Pyruvate]] oxidation. [[RIPK3]] acts as the node coupling the necrosome to aerobic respiration:
+
+- **RIP3 activates PDC.** [[RIPK3]] directly phosphorylates the E3 subunit of the [[Pyruvate Dehydrogenase]] complex (PDC) at Thr135, increasing PDC activity and the conversion of [[Pyruvate]] to [[Acetyl-CoA]] for the [[TCA cycle]]. This raises aerobic respiration and mitochondrial [[ROS]].
+- **ROS feeds back on the necrosome.** Mitochondrial ROS oxidize [[RIPK1]] cysteines to promote its autophosphorylation, which is required for [[RIPK3]] recruitment into the necrosome (Zhang et al., *Nat Commun* 2017). The result is a self-reinforcing loop: RIP3 activity → respiration/ROS → necrosome assembly → more RIP3 activity.
+- **MLKL gates the metabolic arm.** [[MLKL]] recruitment to the necrosome is required for RIP3 to reach mitochondria-localized PDC, linking the death effector to the metabolic amplification loop.
+- **Blocking pyruvate uptake suppresses necroptosis.** Depletion of pyruvate, inhibition of mitochondrial pyruvate transport (via the [[MPC]]), or PDC blockade all inhibit TNF-induced necroptosis (Yang et al., *Nat Cell Biol* 2018). The tool compound [[UK5099]] is the standard MPC inhibitor used for this, and the Han laboratory's commentary summarizes the evidence as inhibition of mitochondrial pyruvate transport/carrier proteins blunting necroptosis.
+
+> [!warning] Context-dependence and selectivity caveats
+> The metabolic requirement is not universal. In hypoxia- and chemotherapy-induced necroptosis of colorectal cancer cells, glucose/pyruvate protection was **not** reversed by [[UK5099]]: cytosolic pyruvate scavenges mitochondrial superoxide non-enzymatically, without entering mitochondria (Huang et al., *Cell Death Dis* 2013;4:e622). Widespread mitochondrial depletion via [[Mitophagy]] also fails to compromise necroptosis in some models (Tait et al., *Cell Rep* 2013;5:878–885). Finally, [[UK5099]] has well-documented **MPC-independent** effects ([[NLRP3]] inflammasome inhibition, impaired OXPHOS/glutamate oxidation at high doses), so MPC-specific conclusions require genetic validation (MPC1/MPC2 knockdown or knockout).
+
+> [!note]
+> Source: Yang et al., *Nat Cell Biol* 2018;20:186–197 (PMID 29358703); Qiu, Zhang & Han, *Cell Death Differ* 2018 (doi:10.1038/s41418-018-0075-x).
+> See [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]] for the full mechanism and evidence.
 
 ## Physiological function
 
@@ -102,6 +118,8 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
   - Table 1 contrast of ferroptosis/apoptosis/autophagy/necroptosis; complex-I-inhibition ROS co-triggering necroptosis + ferroptosis; folic-acid AKI as ferroptosis-not-necroptosis control.
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
   - Timeline synthesis: TNFR1 Complex I/II/necrosome, non-classical TRIF/ZBP1 arms, RIPK1/RIPK3 phospho-site map, RIPK3 inflammasome scaffolding, bacterial/viral evasion, neurodegeneration (ALS/PD/MS/SCI) and Nec-1/SAHA/24S-OHC agents.
+- [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
+  - RIP3 phosphorylates PDC-E3 at Thr135 to raise aerobic respiration and mitochondrial ROS, which feed back on the necrosome; blocking pyruvate uptake/MPC suppresses TNF-induced necroptosis.
 
 ## Connections
 
@@ -127,10 +145,19 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 - [[NF-κB]] — Complex I survival output whose blockade licenses Complex II/necrosome formation.
 - [[SIRT3]] — context-dependent gate: pro-necroptotic in cancer, anti-necroptotic in metabolic/stress injury.
 - [[Regulated Cell Death]] — parent program grouping necroptosis with apoptosis, pyroptosis, and ferroptosis.
+- [[Pyruvate Dehydrogenase]] — RIPK3 substrate (E3 Thr135); converts pyruvate to acetyl-CoA to drive the respiratory–ROS amplification loop.
+- [[Pyruvate]] — Mitochondrial substrate whose oxidation and PDC-dependent catabolism promote necroptosis.
+- [[MPC]] — Mitochondrial pyruvate carrier; blocking pyruvate import suppresses the metabolic arm.
+- [[UK5099]] — Tool MPC inhibitor that suppresses necroptosis in pyruvate-dependent models (interpret with MPC-independent caveats).
+- [[TCA cycle]] — Receives PDC-derived acetyl-CoA in the respiration/ROS feedback loop.
+- [[Glycolysis]] — Upstream source of pyruvate feeding the mitochondrial arm.
+- [[Acetyl-CoA]] — PDC product feeding the TCA cycle.
+- [[ROS]] — Mitochondrial signal that oxidizes RIPK1 to reinforce necrosome assembly.
 
 ## Linking Summary
 
 - New links added: [[RIPK1]], [[RIPK3]], [[MLKL]], [[Caspase-8]], [[c-FLIP]], [[FADD]], [[TRADD]], [[TNFR1]], [[TNFα]], [[ZBP1]], [[PGAM5]], [[Necrosis]], [[Apoptosis]], [[Pyroptosis]], [[Ferroptosis]], [[Mitophagy]], [[NLRP3]], [[Inflammation]], [[Necrostatin-1]], [[NF-κB]], [[SIRT3]], [[Regulated Cell Death]], [[Damage-Associated Molecular Patterns]], [[TLR3]], [[TLR4]], [[DRP1]], [[PINK1]], [[Parkin]], [[CYLD]], [[TAK1]], [[ACSL4]], [[Metastasis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[MAVS]]
 - Suggested new entity notes to create: [[RHIM domain]], [[TNFR1 complex I]], [[Complex IIa (RIPK1)]], [[GSK872]], [[Necrosulfonamide]]
 - Strong connections to strengthen: [[Necroptosis]] ↔ [[RIPK3]], [[Necroptosis]] ↔ [[MLKL]], [[Necroptosis]] ↔ [[Caspase-8]], [[Necroptosis]] ↔ [[PGAM5]], [[Necroptosis]] ↔ [[NLRP3]]
+- Mitochondrial-metabolism enrichment (2026-09-12): added [[Pyruvate Dehydrogenase]], [[Pyruvate]], [[MPC]], [[UK5099]], [[TCA cycle]], [[Glycolysis]], [[Acetyl-CoA]], [[ROS]]; new section "Mitochondrial metabolism" (RIP3→PDC-E3 Thr135 → respiration/ROS → necrosome feedback loop; context-dependence and UK5099 selectivity caveats).
 - Sex-dimorphism enrichment (2026-09-03): male-biased RIPK1/RIPK3/p-MLKL in renal IRI, OVX-narrowed (Tran 2025, single-study, no KO causality); cardiac/cerebral/testosterone/X-linked claims excluded as unverified.
