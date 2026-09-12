@@ -107,8 +107,17 @@
   .card-body ol{ margin:6px 0 8px; padding-left:1.2em; font-family:var(--sans); font-size:12.5px; }
   .card-body ol li::marker{ color:var(--oxblood); font-family:var(--mono); }
   .legend-dot{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:4px; vertical-align:0; }
-  .card-foot{ display:flex; gap:8px; padding:0 14px 12px; }
+  .card-foot{ display:flex; gap:8px; padding:0 14px 12px; flex-wrap:wrap; }
   .card-foot button{ font-family:var(--sans); font-size:11.5px; padding:5px 10px; border:1px solid var(--rule-strong); background:transparent; color:var(--ink-soft); border-radius:var(--radius); cursor:pointer; }
+  .card-foot button[data-reg].is-on{ background:var(--ink); color:var(--sheet); border-color:var(--ink); }
+  .reg-panel{ border-top:1px solid var(--rule); padding:10px 14px 12px; font-size:12.5px; line-height:1.6; color:var(--ink-soft); }
+  .reg-panel h3{ font-size:12px; margin:0 0 6px; letter-spacing:.02em; }
+  .reg-panel .layers{ display:grid; gap:6px; margin:0 0 8px; }
+  .reg-panel .layer{ border:1px solid var(--rule); border-radius:var(--radius); padding:6px 8px; background:color-mix(in srgb, var(--paper) 60%, var(--sheet)); }
+  .reg-panel .layer b{ display:block; font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--mute); margin-bottom:2px; }
+  .reg-panel .meta{ font-family:var(--mono); font-size:10.5px; color:var(--mute); margin:6px 0 0; }
+  .reg-panel iframe.deep-frame{ width:100%; height:420px; border:1px solid var(--rule-strong); border-radius:var(--radius); background:#141210; margin-top:8px; }
+  @media (max-width:640px){ .reg-panel iframe.deep-frame{ height:340px; } }
   .legend{ padding:10px 2px 26px; font-size:11.5px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); }
   @media print{ .toolbar,.card-foot{ display:none; } .grid{ grid-template-columns:1fr 1fr; } .stage{ height:240px; } }
 
@@ -345,7 +354,7 @@
           <option value="2">2× speed</option>
         </select>
         <button id="shareAnim" title="Copy reader link that opens this animations tab">🔗 Share</button>
-        <span class="hint">12 s time-lapse loop · T+ clock = biological time · scroll for all 10</span>
+        <span class="hint">12 s time-lapse loop · T+ clock = biological time · scroll for all 10 · 🧬 opens regulatory depth</span>
       </div>
     </div>
       <div class="grid" id="anim"></div>
@@ -356,7 +365,8 @@
       Each 12 s loop is a time-lapse — the T+ clock runs at biological speed, so identical loop lengths cover wildly different real durations:
       ≈20 min (necrosis) and ≈45 min (pyroptosis) at the fast end, ≈2 h starvation flux (autophagy) and ≈3–4 h (apoptosis, necroptosis) in the middle,
       ≈8 h (parthanatos, ferroptosis) and ≈12 h infection courses (PANoptosis) at the slow end, ≈2–4 h suicidal NETosis and hours-scale eryptosis alongside. Single-cell timing varies by cell type and stimulus — treat clocks as representative, not exact.
-      Built with three.js r160 (CDN importmap); vertex-displaced membranes, instanced particles, no post-processing. Respects <code>prefers-reduced-motion</code> (starts paused).</p>
+      Built with three.js r160 (CDN importmap); vertex-displaced membranes, instanced particles, no post-processing. Respects <code>prefers-reduced-motion</code> (starts paused).
+      Each card's 🧬 regulatory detail adds a sense → amplify → execute breakdown with key residues and inhibitors, plus an embedded full multilayered regulatory cell (necroptosis-style: RIPK1 · RIPK3 · MLKL was the exemplar).</p>
     </footer>
     </section>
 
@@ -670,6 +680,19 @@ const PROGRAMS = [
    legend:'<span class="legend-dot" style="background:#9a7bd0"></span>chromatin/NET DNA <span class="legend-dot" style="background:#ffe14d"></span>PAD4 <span class="legend-dot" style="background:#ff8a3d"></span>elastase/MPO' },
 ];
 
+const REG_DETAIL = {
+ apoptosis: { layers: [['Sense / integrate', 'Extrinsic FasL/TRAIL to Caspase-8; intrinsic p53 to Bax/BAK to cytochrome c to Caspase-9. Caspase-8 also cleaves RIPK1/3 to block necroptosis.'], ['Amplify', 'Executioner Caspase-3/7; Caspase-3 cleaves GSDMD at D87 off while activating GSDME on.'], ['Execute', 'Shrinkage, sealed blebbing, apoptotic bodies, DNA ladder; PS eat-me signal, silent clearance.']], regulators: 'Bcl-2 / XIAP restrain; Smac/DIABLO relieve.', inhibitors: 'Blocked by z-VAD-FMK, Bcl-2 overexpression.' },
+ parthanatos: { layers: [['Sense / integrate', 'Heavy DNA damage to PARP1 overactivation; consumes NAD+/ATP, cell dims.'], ['Amplify', 'PAR polymer leaves nucleus, binds mitochondrial AIF; MIF nuclease recruited.'], ['Execute', 'AIF+MIF to nucleus gives ~50-kbp large-scale fragmentation, PS flip plus slight leak, no swelling, no ladder.']], regulators: 'SIRT1-PARP1 NAD+ competition; AIF release precedes cytochrome c.', inhibitors: 'PARP inhibitors, AIF blockade, NAD+ preservation.' },
+ necrosis: { layers: [['Sense / integrate', 'Severe injury to Na+/K+ pump failure, ATP depletion.'], ['Amplify', 'Ca2+ overload to calpains; ROS to mPTP; lysosomal leakage to cathepsins.'], ['Execute', 'Oncosis swelling, early ragged rupture, random DNA smear, DAMP storm.']], regulators: 'No regulated brakes - accidental by definition.', inhibitors: 'None specific; secondary necrosis if apoptotic bodies uncleared.' },
+ necroptosis: { layers: [['RIPK1 - decision integrator', 'DAPK1-Ser321 / PTPN6 restrain; ROS autophosphorylation, TRIM21 Ub activate; CYLD deubiquitinates to license necrosome; Caspase-8 cleavage is the brake (off here).'], ['RIPK3 - amplifier', 'RHIM recruitment (RIPK1/ZBP1/TRIF), RSK3, viral SFTSV-NSs bypass; CK1G2 brake. Outputs to MLKL plus mito (CaMKII to mPTP, PGAM5 to Drp1, PDC-E3-T135).'], ['MLKL - executor', 'BRD4 supply, HSP90 shield, RIPK3 p-Thr357/Ser358 to oligomer to PIPs/cardiolipin pores to ion influx, DAMPs, NLRP3 handoff.']], regulators: 'Green flows drive death, red restrain - toggle RIPK1/RIPK3/MLKL chips in the full cell.', inhibitors: 'Nec-1 (RIPK1), GSK872 (RIPK3), NSA (human MLKL only).', iframe: 'necroptosis.html?embed=1' },
+ ferroptosis: { layers: [['Sense / integrate', 'System Xc- (SLC7A11) to GSH to GPX4 fails; FSP1-ubiquinone-NADPH backup overwhelmed; GSH/NADPH drain.'], ['Amplify', 'Labile Fe2+ Fenton ROS; ACSL4 loads PUFA-phospholipids; NCOA4 ferritinophagy feeds iron.'], ['Execute', 'Lipid-ROS patches spread (C11-BODIPY), mitochondria shrink/condense, nucleus intact, late rupture at peroxidized patch.']], regulators: 'MBOAT1/2 remodeling gates; SIRT3 failure feeds ROS.', inhibitors: 'Ferrostatin-1, liproxstatin-1, deferoxamine.' },
+ autophagy: { layers: [['Sense / integrate', 'Starvation: mTORC1 off, AMPK on to ULK1-FIP200 plus Beclin-1-Vps34 nucleation; TFEB via SIRT1.'], ['Amplify', 'Phagophore crescents grow (LC3 lipidation), close around cargo to double-membrane autophagosomes.'], ['Execute', 'Lysosome fusion flash to degrade/recycle; survival unless 2-plus ATG interventions rescue (NCCD criterion).']], regulators: 'PINK1/Parkin mitophagy restrains NLRP3; Caspase-1 cleaves Parkin to break restraint.', inhibitors: 'Death claim needs ATG5/7 KO plus 3-MA/CQ rescue; induced by rapamycin.' },
+ pyroptosis: { layers: [['Sense / integrate', 'PRR plus ASC plus pro-Caspase-1 to inflammasome speck; non-canonical Caspase-4/5/11 sense LPS to K+ efflux to NLRP3.'], ['Amplify', 'Caspase-1 to GSDMD cleavage; Caspase-3/GSDME arm converges.'], ['Execute', 'GSDMD-N 10-20 nm pore rings to IL-1beta/IL-18 jets plus swelling to rupture, cytokine storm.']], regulators: 'GSDMD pores license NLRP3; SIRT3 lowers mtROS to suppress.', inhibitors: 'NLRP3 / Caspase-1 inhibitors, disulfiram / GSDMD blockade.' },
+ panoptosis: { layers: [['Sense / integrate', 'ZBP1 senses (or TAK1 loss) to PANoptosome: RIPK1-RIPK3-Caspase-8-Caspase-1 plus ASC/FADD.'], ['Amplify', 'Three arms fire in parallel: GSDMD pores plus Caspase-3 plus pMLKL; NLRP3 wired in.'], ['Execute', 'Hybrid pores plus blebs plus condensation at once to total rupture; no single inhibitor rescues.']], regulators: 'It is the crosstalk - co-assembled pyroptosis plus apoptosis plus necroptosis.', inhibitors: 'Upstream ZBP1/RIPK3 targeting; combined multi-arm blockade.' },
+ eryptosis: { layers: [['Sense / integrate', 'Oxidative / osmotic / energy-depletion / ceramide trigger in anucleate RBC; no nucleus/mitochondria.'], ['Amplify', 'Ca2+ influx to calpain plus scramblase activation.'], ['Execute', 'Shrinkage, blebbing, PS exposure (Annexin V+); splenic clearance - hemolysis only if overwhelming.']], regulators: 'Mirrors apoptosis PS without caspases; shares lipid-peroxidation triggers with ferroptosis.', inhibitors: 'Ca2+ chelation, calpain inhibitors, erythropoietin*.' },
+ netosis: { layers: [['Sense / integrate', 'Pathogen/LPS/PMA to NADPH-oxidase ROS burst (NOX-independent routes exist).'], ['Amplify', 'Largely PAD4-mediated histone citrullination (cit-H3); NE-mediated / mito-ROS / ionomycin routes exist.'], ['Execute', 'Chromatin decondenses, envelope breaks, DNA+histone+elastase/MPO web extrudes; suicidal ruptures, vital keeps membrane.']], regulators: 'NETs license macrophage NLRP3; histones trigger coagulation.', inhibitors: 'PAD4 inhibitors (Cl-amidine), NE/MPO inhibition, DNase digestion.' }
+};
+
 const grid = document.getElementById('anim');
 for (const p of PROGRAMS){
   const el = document.createElement('section');
@@ -678,7 +701,8 @@ for (const p of PROGRAMS){
   el.innerHTML = `<header><h2>${p.title}</h2><p class="sub">${p.sub}</p><p class="bio">${p.bioNote}</p><div>${p.pills}</div></header>
     <div class="stage"><canvas id="cv-${p.id}" aria-label="${p.title} animation"></canvas><div class="phase"></div><div class="tbar"><i></i></div><button class="copy-btn" data-copy-canvas="cv-${p.id}" title="Copy snapshot as PNG" aria-label="Copy ${p.title} snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
     <div class="card-body"><ol>${p.steps.map(s=>`<li>${s}</li>`).join('')}</ol><div style="font-family:var(--sans);font-size:11.5px;color:var(--mute)">${p.legend}</div></div>
-    <div class="card-foot"><button data-replay>↺ replay</button><button data-pp>⏸ pause</button></div>`;
+    <div class="reg-panel" hidden></div>
+    <div class="card-foot"><button data-replay>↺ replay</button><button data-pp>⏸ pause</button><button data-reg aria-expanded="false">🧬 regulatory detail</button></div>`;
   grid.appendChild(el);
   p._phaseEl = el.querySelector('.phase'); p._barEl = el.querySelector('.tbar i');
   p._canvas = el.querySelector('canvas'); p._stage = el.querySelector('.stage');
@@ -686,6 +710,20 @@ for (const p of PROGRAMS){
   el.querySelector('[data-replay]').onclick = ()=>{ p._t = 0; };
   const pp = el.querySelector('[data-pp]');
   pp.onclick = ()=>{ p._paused = !p._paused; pp.textContent = p._paused ? '▶ play' : '⏸ pause'; };
+  const regBtn = el.querySelector('[data-reg]');
+  const panel = el.querySelector('.reg-panel');
+  regBtn.onclick = ()=>{
+    const open = panel.hidden;
+    const spec = REG_DETAIL[p.id];
+    if (open && spec){
+      const deep = spec.iframe || (p.id + '.html?embed=1');
+      panel.innerHTML = `<h3>Regulatory depth — sense to amplify to execute</h3><div class="layers">${spec.layers.map(([h, b])=>`<div class="layer"><b>${h}</b>${b}</div>`).join('')}</div><div>${spec.regulators} ${spec.inhibitors}</div><iframe class="deep-frame" title="${p.title} regulatory cell" loading="lazy" src="${deep}"></iframe><p class="meta">Full multilayered cell: drag to orbit, scroll to zoom, click blobs for mechanism. Standalone: <a href="${deep.replace('?embed=1','')}">${p.title} regulatory cell</a></p>`;
+    }
+    panel.hidden = !open;
+    regBtn.classList.toggle('is-on', open);
+    regBtn.setAttribute('aria-expanded', String(open));
+    if (open) dispatchEvent(new Event('resize'));
+  };
 }
 
 /* ---- scene factory ---- */

@@ -332,13 +332,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Cell Death Comparison [table + three.js]",
+                "title": "Cell Death Comparison [table + 3d]",
                 "path": "pages/en-US/cell-death-comparison.html",
                 "created": "2026-09-03",
                 "updated": "2026-09-09"
             },
             "zh-TW": {
-                "title": "細胞死亡比較［表格＋three.js］",
+                "title": "細胞死亡比較［表格＋3d］",
                 "path": "pages/zh-TW/cell-death-comparison.html",
                 "created": "2026-09-03",
                 "updated": "2026-09-09"
@@ -368,7 +368,7 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Inside the Human Cell [three.js]",
+                "title": "Inside the Human Cell [3d]",
                 "path": "pages/en-US/inside-the-cell.html",
                 "created": "2026-09-07",
                 "updated": "2026-09-07"
@@ -383,17 +383,179 @@
     },
     {
         "id": "necroptosis",
-        "active": true,
+        "active": false,
         "langs": {
             "en-US": {
-                "title": "Necroptosis [three.js]",
+                "title": "Necroptosis",
                 "path": "pages/en-US/necroptosis.html",
                 "created": "2026-09-11",
                 "updated": "2026-09-11"
             },
             "zh-TW": {
-                "title": "壞死性凋亡［three.js］",
+                "title": "壞死性凋亡",
                 "path": "pages/zh-TW/necroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "apoptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Apoptosis",
+                "path": "pages/en-US/apoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "細胞凋亡",
+                "path": "pages/zh-TW/apoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "parthanatos",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Parthanatos",
+                "path": "pages/en-US/parthanatos.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "Parthanatos",
+                "path": "pages/zh-TW/parthanatos.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "necrosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Necrosis",
+                "path": "pages/en-US/necrosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "壞死",
+                "path": "pages/zh-TW/necrosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "ferroptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Ferroptosis",
+                "path": "pages/en-US/ferroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "鐵死亡",
+                "path": "pages/zh-TW/ferroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "autophagy",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Autophagy",
+                "path": "pages/en-US/autophagy.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "自噬",
+                "path": "pages/zh-TW/autophagy.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "pyroptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Pyroptosis",
+                "path": "pages/en-US/pyroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "焦亡",
+                "path": "pages/zh-TW/pyroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "panoptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "PANoptosis",
+                "path": "pages/en-US/panoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "PANoptosis",
+                "path": "pages/zh-TW/panoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "eryptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Eryptosis",
+                "path": "pages/en-US/eryptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "紅細胞凋亡",
+                "path": "pages/zh-TW/eryptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "netosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "NETosis",
+                "path": "pages/en-US/netosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "NETosis",
+                "path": "pages/zh-TW/netosis.html",
                 "created": "2026-09-11",
                 "updated": "2026-09-11"
             }

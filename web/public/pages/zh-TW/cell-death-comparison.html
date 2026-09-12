@@ -107,8 +107,17 @@
   .card-body ol{ margin:6px 0 8px; padding-left:1.2em; font-family:var(--sans); font-size:12.5px; }
   .card-body ol li::marker{ color:var(--oxblood); font-family:var(--mono); }
   .legend-dot{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:4px; vertical-align:0; }
-  .card-foot{ display:flex; gap:8px; padding:0 14px 12px; }
+  .card-foot{ display:flex; gap:8px; padding:0 14px 12px; flex-wrap:wrap; }
   .card-foot button{ font-family:var(--sans); font-size:11.5px; padding:5px 10px; border:1px solid var(--rule-strong); background:transparent; color:var(--ink-soft); border-radius:var(--radius); cursor:pointer; }
+  .card-foot button[data-reg].is-on{ background:var(--ink); color:var(--sheet); border-color:var(--ink); }
+  .reg-panel{ border-top:1px solid var(--rule); padding:10px 14px 12px; font-size:12.5px; line-height:1.6; color:var(--ink-soft); }
+  .reg-panel h3{ font-size:12px; margin:0 0 6px; letter-spacing:.02em; }
+  .reg-panel .layers{ display:grid; gap:6px; margin:0 0 8px; }
+  .reg-panel .layer{ border:1px solid var(--rule); border-radius:var(--radius); padding:6px 8px; background:color-mix(in srgb, var(--paper) 60%, var(--sheet)); }
+  .reg-panel .layer b{ display:block; font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--mute); margin-bottom:2px; }
+  .reg-panel .meta{ font-family:var(--mono); font-size:10.5px; color:var(--mute); margin:6px 0 0; }
+  .reg-panel iframe.deep-frame{ width:100%; height:420px; border:1px solid var(--rule-strong); border-radius:var(--radius); background:#141210; margin-top:8px; }
+  @media (max-width:640px){ .reg-panel iframe.deep-frame{ height:340px; } }
   .legend{ padding:10px 2px 26px; font-size:11.5px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); }
   @media print{ .toolbar,.card-foot{ display:none; } .grid{ grid-template-columns:1fr 1fr; } .stage{ height:240px; } }
 
@@ -345,7 +354,7 @@
           <option value="2">2× 速度</option>
         </select>
         <button id="shareAnim" title="複製在閱讀器開啟動畫分頁的連結">🔗 分享</button>
-        <span class="hint">12 秒縮時循環 · T+ 時鐘為生物時間 · 捲動查看全部 10 種</span>
+        <span class="hint">12 秒縮時循環 · T+ 時鐘為生物時間 · 捲動查看全部 10 種 · 🧬 開啟調控深度</span>
       </div>
     </div>
       <div class="grid" id="anim"></div>
@@ -356,7 +365,8 @@
       每個 12 秒循環都是縮時——T+ 時鐘以生物速度走，因此相同的循環長度涵蓋差異極大的真實時間：
       快速端約 20 分鐘（壞死）與約 45 分鐘（焦亡），中段約 2 小時飢餓通量（自噬）與約 3–4 小時（細胞凋亡、壞死性凋亡），
       慢速端約 8 小時（Parthanatos、鐵死亡）與約 12 小時感染病程（PANoptosis），另有約 2–4 小時自殺型 NETosis 與數小時級紅細胞凋亡。單細胞時間因細胞種類與刺激而異——時鐘為代表值，非精確值。
-      使用 three.js r160（CDN importmap）建構；頂點位移細胞膜、實例化粒子、無後處理。支援 <code>prefers-reduced-motion</code>（預設暫停）。</p>
+      使用 three.js r160（CDN importmap）建構；頂點位移細胞膜、實例化粒子、無後處理。支援 <code>prefers-reduced-motion</code>（預設暫停）。
+      每張卡片的 🧬 調控細節提供感測 → 放大 → 執行三層拆解與關鍵修飾位點、抑制劑，並內嵌專屬的完整多層調控細胞（壞死性凋亡 RIPK1 · RIPK3 · MLKL 為首例）。</p>
     </footer>
     </section>
 
@@ -666,6 +676,19 @@ const PROGRAMS = [
 
 ];
 
+const REG_DETAIL = {
+ apoptosis: { layers: [['感測 / 整合', '外源性 FasL/TRAIL → Caspase-8；內源性 p53 → Bax/BAK → 細胞色素 c → Caspase-9。Caspase-8 同時切割 RIPK1/3 以阻斷 necroptosis。'], ['放大', '執行者 Caspase-3/7；Caspase-3 在 D87 切割 GSDMD（關閉）同時活化 GSDME（開啟）。'], ['執行', '皺縮、密封起泡、凋亡小體、DNA 梯狀斷裂；PS 外翻為吞噬訊號，靜默清除。']], regulators: 'Bcl-2 / XIAP 抑制；Smac/DIABLO 解除抑制。', inhibitors: '阻斷劑：z-VAD-FMK、Bcl-2 過表現。' },
+ parthanatos: { layers: [['感測 / 整合', '嚴重 DNA 損傷 → PARP1 過度活化；耗竭 NAD⁺/ATP，細胞變暗。'], ['放大', 'PAR 聚合物離開細胞核，結合粒線體 AIF；招募 MIF 核酸酶。'], ['執行', 'AIF+MIF 入核 → 約 50-kbp 大片段斷裂，PS 外翻加輕微滲漏，不腫脹、無梯狀斷裂。']], regulators: 'SIRT1–PARP1 競爭 NAD⁺；AIF 釋放早於細胞色素 c。', inhibitors: 'PARP 抑制劑、AIF 阻斷、NAD⁺ 保存。' },
+ necrosis: { layers: [['感測 / 整合', '嚴重損傷 → Na⁺/K⁺ 幫浦衰竭、ATP 耗竭。'], ['放大', 'Ca²⁺ 超載 → calpain；ROS → mPTP；溶酶體滲漏 → cathepsin。'], ['執行', '腫脹（oncosis）、早期不規則破裂、DNA 隨機塗抹、DAMP 風暴。']], regulators: '無調控煞車——定義上屬意外性。', inhibitors: '無專一阻斷劑；凋亡小體未清除則繼發性壞死。' },
+ necroptosis: { layers: [['RIPK1——決策整合器', 'DAPK1-Ser321 / PTPN6 抑制；ROS 自磷酸化、TRIM21 泛素化活化；CYLD 去泛素化以進入 necrosome；Caspase-8 切割為煞車（此處關閉）。'], ['RIPK3——放大器', 'RHIM 招募（RIPK1/ZBP1/TRIF）、RSK3、病毒 SFTSV-NSs 旁路；CK1G2 煞車。輸出至 MLKL＋粒線體（CaMKII→mPTP、PGAM5→Drp1、PDC-E3-T135）。'], ['MLKL——執行器', 'BRD4 供應、HSP90 保護、RIPK3 p-Thr357/Ser358 → 寡聚 → PIPs/心磷脂孔洞 → 離子內流、DAMP、NLRP3 交接。']], regulators: '綠色流推動死亡、紅色抑制——可在完整細胞中切換 RIPK1/RIPK3/MLKL 圖層。', inhibitors: 'Nec-1（RIPK1）、GSK′872（RIPK3）、NSA（僅人類 MLKL）。', iframe: 'necroptosis.html?embed=1' },
+ ferroptosis: { layers: [['感測 / 整合', 'System Xc⁻（SLC7A11）→ GSH → GPX4 失效；FSP1–泛醌–NADPH 備援被壓垮；GSH/NADPH 耗竭。'], ['放大', '游離 Fe²⁺ 芬頓 ROS；ACSL4 裝載 PUFA 磷脂；NCOA4 鐵自噬供應鐵。'], ['執行', '脂質 ROS 斑塊擴散（C11-BODIPY），粒線體皺縮緻密，細胞核完整，晚期在過氧化斑塊處破裂。']], regulators: 'MBOAT1/2 重塑閘門；SIRT3 失效加劇 ROS。', inhibitors: 'Ferrostatin-1、liproxstatin-1、deferoxamine。' },
+ autophagy: { layers: [['感測 / 整合', '飢餓：mTORC1 關、AMPK 開 → ULK1–FIP200＋Beclin-1–Vps34 成核；TFEB 經 SIRT1。'], ['放大', '吞噬泡新月生長（LC3 脂化），包覆貨物閉合 → 雙層自噬體。'], ['執行', '與溶酶體融合閃光 → 降解回收；存活，除非 2 種以上 ATG 干預能挽救（NCCD 死亡判定標準）。']], regulators: 'PINK1/Parkin 線粒體自噬抑制 NLRP3；Caspase-1 切割 Parkin 打破抑制。', inhibitors: '死亡判定需 ATG5/7 KO＋3-MA/CQ 挽救；rapamycin 誘導。' },
+ pyroptosis: { layers: [['感測 / 整合', 'PRR＋ASC＋pro-Caspase-1 → 發炎體斑點；非典型 Caspase-4/5/11 感測 LPS → K⁺ 外流 → NLRP3。'], ['放大', 'Caspase-1 → GSDMD 切割；Caspase-3/GSDME 臂匯合。'], ['執行', 'GSDMD-N 10–20 nm 孔環 → IL-1β/IL-18 噴流＋腫脹 → 破裂，細胞激素風暴。']], regulators: 'GSDMD 孔洞授權 NLRP3；SIRT3 降低 mtROS 以抑制。', inhibitors: 'NLRP3 / Caspase-1 抑制劑、disulfiram / GSDMD 阻斷。' },
+ panoptosis: { layers: [['感測 / 整合', 'ZBP1 感測（或 TAK1 缺失）→ PANoptosome：RIPK1–RIPK3–Caspase-8–Caspase-1 ± ASC/FADD。'], ['放大', '三臂並行：GSDMD 孔洞＋Caspase-3＋pMLKL；NLRP3 內建連動。'], ['執行', '孔洞＋起泡＋凝縮同時發生 → 完全破裂；單一抑制劑無法挽救。']], regulators: '即串擾本身——焦亡＋凋亡＋壞死性凋亡共組裝。', inhibitors: '上游 ZBP1/RIPK3 靶向；多臂聯合阻斷。' },
+ eryptosis: { layers: [['感測 / 整合', '氧化／滲透／能量耗竭／神經醯胺觸發無核紅血球；無核、無粒線體。'], ['放大', 'Ca²⁺ 內流 → calpain＋scramblase 活化。'], ['執行', '皺縮、起泡、PS 外翻（Annexin V+）；脾臟清除——僅壓垮時溶血。']], regulators: '無 caspase 卻重演凋亡 PS；與 ferroptosis 共享脂質過氧化觸發。', inhibitors: 'Ca²⁺ 螯合、calpain 抑制劑、erythropoietin*。' },
+ netosis: { layers: [['感測 / 整合', '病原/LPS/PMA → NADPH 氧化酶 ROS 爆發（存在 NOX 非依賴路徑）。'], ['放大', '主要經 PAD4 組蛋白瓜氨酸化（cit-H3）；存在 NE 介導／粒線體 ROS／ionomycin 路徑。'], ['執行', '染色質去凝縮、核膜崩解，DNA＋組蛋白＋elastase/MPO 網噴出；自殺型破裂，存活型保留膜。']], regulators: 'NET 授權巨噬細胞 NLRP3；組蛋白觸發凝血。', inhibitors: 'PAD4 抑制劑（Cl-amidine）、NE/MPO 抑制、DNase 消化。' }
+};
+
 const grid = document.getElementById('anim');
 for (const p of PROGRAMS){
   const el = document.createElement('section');
@@ -674,7 +697,8 @@ for (const p of PROGRAMS){
   el.innerHTML = `<header><h2>${p.title}</h2><p class="sub">${p.sub}</p><p class="bio">${p.bioNote}</p><div>${p.pills}</div></header>
     <div class="stage"><canvas id="cv-${p.id}" aria-label="${p.title} 動畫"></canvas><div class="phase"></div><div class="tbar"><i></i></div><button class="copy-btn" data-copy-canvas="cv-${p.id}" title="複製快照為 PNG" aria-label="複製${p.title}快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
     <div class="card-body"><ol>${p.steps.map(s=>`<li>${s}</li>`).join('')}</ol><div style="font-family:var(--sans);font-size:11.5px;color:var(--mute)">${p.legend}</div></div>
-    <div class="card-foot"><button data-replay>↺ 重播</button><button data-pp>⏸ 暫停</button></div>`;
+    <div class="reg-panel" hidden></div>
+    <div class="card-foot"><button data-replay>↺ 重播</button><button data-pp>⏸ 暫停</button><button data-reg aria-expanded="false">🧬 調控細節</button></div>`;
   grid.appendChild(el);
   p._phaseEl = el.querySelector('.phase'); p._barEl = el.querySelector('.tbar i');
   p._canvas = el.querySelector('canvas'); p._stage = el.querySelector('.stage');
@@ -682,6 +706,20 @@ for (const p of PROGRAMS){
   el.querySelector('[data-replay]').onclick = ()=>{ p._t = 0; };
   const pp = el.querySelector('[data-pp]');
   pp.onclick = ()=>{ p._paused = !p._paused; pp.textContent = p._paused ? '▶ 播放' : '⏸ 暫停'; };
+  const regBtn = el.querySelector('[data-reg]');
+  const panel = el.querySelector('.reg-panel');
+  regBtn.onclick = ()=>{
+    const open = panel.hidden;
+    const spec = REG_DETAIL[p.id];
+    if (open && spec){
+      const deep = spec.iframe || (p.id + '.html?embed=1');
+      panel.innerHTML = `<h3>調控深度 — 感測 → 放大 → 執行</h3><div class="layers">${spec.layers.map(([h, b])=>`<div class="layer"><b>${h}</b>${b}</div>`).join('')}</div><div>${spec.regulators} ${spec.inhibitors}</div><iframe class="deep-frame" title="${p.title}調控細胞" loading="lazy" src="${deep}"></iframe><p class="meta">完整多層調控細胞：拖曳旋轉、滾輪縮放、點擊色塊看機制。獨立頁：<a href="${deep.replace('?embed=1','')}">${p.title}調控細胞</a></p>`;
+    }
+    panel.hidden = !open;
+    regBtn.classList.toggle('is-on', open);
+    regBtn.setAttribute('aria-expanded', String(open));
+    if (open) dispatchEvent(new Event('resize'));
+  };
 }
 
 /* ---- scene factory ---- */
