@@ -2770,5 +2770,215 @@
     "source_document": "BAX.md",
     "created": "2026-09-12T18:53:13Z",
     "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "0f5f0a88767f",
+    "subject": "Necroptosis",
+    "predicate": "releases",
+    "object": "Damage-Associated Molecular Patterns",
+    "context": {
+      "en-US": "Necroptotic plasma-membrane rupture spills intracellular contents — HMGB1, ATP, mitochondrial DNA — that are recognized as DAMPs by TLRs and inflammasomes; the DAMP release is the defining inflammatory payoff that separates necroptosis from silent apoptosis (Dhuriya & Sharma 2018).",
+      "zh-TW": "Necroptotic 質膜破裂釋出胞內內容物（HMGB1、ATP、粒線體 DNA），被 TLR 與炎症小體辨識為 DAMP；DAMP 釋放是區分 necroptosis 與無聲凋亡的關鍵發炎特徵（Dhuriya & Sharma 2018）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "469a6bcd8baa",
+    "subject": "Necroptosis",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "DAMP release plus direct RIPK3-dependent inflammasome activation (caspase-8- and NLRP3-mediated arms) make necroptosis intrinsically pro-inflammatory; uncontrolled necroptosis converts host defense into chronic necroinflammatory disease.",
+      "zh-TW": "DAMP 釋放加上 RIPK3 直接驅動的炎症小體活化（caspase-8 與 NLRP3 兩臂）使 necroptosis 本質上促發炎；失控的 necroptosis 將宿主防禦轉為慢性壞死性發炎疾病。"
+    },
+    "confidence": 0.92,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "206beb0e83d1",
+    "subject": "RIPK1",
+    "predicate": "forms_complex_with",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "RIPK1 recruits RIPK3 through RHIM interactions to assemble the necrosome; RIPK1 kinase activity then phosphorylates RIPK3, the obligatory relay of the necroptotic cascade.",
+      "zh-TW": "RIPK1 經 RHIM 交互作用招募 RIPK3 組裝 necrosome；RIPK1 激酶活性隨後磷酸化 RIPK3，為 necroptosis 級聯的必需接續步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "necrosome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "77427fdda87c",
+    "subject": "RIPK3",
+    "predicate": "activates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "RIPK3 phosphorylates MLKL (human Thr357/Ser358) to license its oligomerization and membrane-pore formation, the terminal executor step of necroptosis.",
+      "zh-TW": "RIPK3 磷酸化 MLKL（人類 Thr357/Ser358），准許其寡聚化並形成膜孔，為 necroptosis 的末端執行步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "necrosome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bb8f935b743b",
+    "subject": "TNFα",
+    "predicate": "activates",
+    "object": "TNFR1",
+    "context": {
+      "en-US": "TNFα binding to TNFR1 nucleates Complex I (TRADD/RIPK1/TRAF2/cIAPs/NEMO-IKK) for NF-κB survival signaling; when NF-κB output is blocked and caspase-8 inhibited the same receptor licenses the necrosome.",
+      "zh-TW": "TNFα 結合 TNFR1 組裝 Complex I（TRADD/RIPK1/TRAF2/cIAPs/NEMO-IKK）啟動 NF-κB 生存訊號；當 NF-κB 受阻且 caspase-8 被抑制時，同一受體轉而准許 necrosome 形成。"
+    },
+    "confidence": 0.92,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "782cf36e9bd6",
+    "subject": "Cerulein-Induced Pancreatitis",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Supramaximal cerulein (CCK analogue) hyperstimulates pancreatic acinar cells and drives RIPK3/MLKL-dependent acinar necroptosis — the standard in vivo necroptotic pancreatitis model.",
+      "zh-TW": "超最大量 cerulein（CCK 類似物）過度刺激胰臟腺泡細胞並驅動 RIPK3/MLKL 依賴的腺泡 necroptosis，為標準的 in vivo necroptotic 胰臟炎模型。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "05a1c5bd7266",
+    "subject": "Cerulein-Induced Pancreatitis",
+    "predicate": "leads_to",
+    "object": "Systemic Inflammatory Response Syndrome",
+    "context": {
+      "en-US": "Acinar necroptosis in CIP releases DAMPs (HMGB1 etc.) that spill into the circulation and escalate local pancreatitis into systemic inflammatory response syndrome.",
+      "zh-TW": "CIP 中腺泡 necroptosis 釋出 DAMP（如 HMGB1）進入循環，使局部胰臟炎惡化為全身性發炎反應症候群（SIRS）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "24eb097fca06",
+    "subject": "RIPK3",
+    "predicate": "contributes_to",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "RIPK3 deletion attenuates acinar necrosis, edema, and serum amylase in cerulein-induced pancreatitis, supporting a causal necroptotic component.",
+      "zh-TW": "RIPK3 缺失減輕 cerulein 誘導胰臟炎的腺泡壞死、水腫與血清澱粉酶，支持 necroptosis 的因果角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "44761022c040",
+    "subject": "MLKL",
+    "predicate": "contributes_to",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "MLKL oligomerization ruptures acinar plasma membranes in cerulein-induced pancreatitis; MLKL ablation parallels RIPK3 loss in attenuating CIP severity.",
+      "zh-TW": "MLKL 寡聚化使 CIP 中腺泡質膜破裂；MLKL 缺失與 RIPK3 缺失同樣減輕 CIP 嚴重度。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "e5e4a9e39539",
+    "subject": "Necrostatin-1",
+    "predicate": "protects_against",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "RIPK1 inhibition with Necrostatin-1 attenuates acinar necrosis, edema, and serum amylase in cerulein-induced pancreatitis, confirming RIPK1 dependence of the necroptotic component.",
+      "zh-TW": "在 CIP 中以 Necrostatin-1 抑制 RIPK1 可減輕腺泡壞死、水腫與血清澱粉酶，證實該 necroptotic 成分依賴 RIPK1。"
+    },
+    "confidence": 0.83,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "54e2e8884a59",
+    "subject": "Necrostatin-1s",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Necrostatin-1s (Nec-1s) is the second-generation allosteric RIPK1 inhibitor: the same mechanism as Necrostatin-1 with improved metabolic stability and kinase selectivity.",
+      "zh-TW": "Necrostatin-1s（Nec-1s）為第二代 RIPK1 異位抑制劑：機制與 Nec-1 相同，但代謝穩定性與激酶選擇性更佳。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrostatin-1s.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "d99c76e635fc",
+    "subject": "Necrostatin-1s",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "By blocking RIPK1 kinase activity, Nec-1s prevents necrosome assembly and therefore RIPK3-MLKL necroptosis in vivo and in vitro.",
+      "zh-TW": "透過阻斷 RIPK1 激酶活性，Nec-1s 阻止 necrosome 組裝，進而抑制 RIPK3-MLKL necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrostatin-1s.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "a8fa0085c35a",
+    "subject": "Necrostatin-1s",
+    "predicate": "is_successor_of",
+    "object": "Necrostatin-1",
+    "context": {
+      "en-US": "Nec-1s was developed as the second-generation successor to Necrostatin-1, retaining the RIPK1-targeting scaffold while eliminating the indoleamine-2,3-dioxygenase (IDO) off-target activity of the first-generation compound.",
+      "zh-TW": "Nec-1s 為 Nec-1 的第二代後繼化合物，保留靶向 RIPK1 的骨架，同時消除第一代化合物的 IDO 非靶標活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Necrostatin-1s.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "e770489ed510",
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Active caspase-8 (often as the caspase-8/cFLIP-L heterodimer) cleaves RIPK1 to terminate necrosome signaling; its inhibition is a key precondition for necroptosis (Dhuriya & Sharma 2018).",
+      "zh-TW": "活化型 caspase-8（常為 caspase-8/cFLIP-L 異二聚體）切割 RIPK1 以終止 necrosome 訊號；其被抑制是 necroptosis 的關鍵前提之一（Dhuriya & Sharma 2018）。"
+    },
+    "confidence": 0.93,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "535f67c314f0",
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Active caspase-8 cleaves RIPK3 as well as RIPK1, disassembling the necrosome and blocking necroptosis; genetic loss of this cleavage is epistatically rescued by RIPK3/MLKL knockout.",
+      "zh-TW": "活化型 caspase-8 同樣切割 RIPK3 與 RIPK1，拆解 necrosome 並阻斷 necroptosis；此切割的遺傳缺失可由 RIPK3/MLKL 敲除表型挽救。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
   }
 ]

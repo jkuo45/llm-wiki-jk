@@ -15720,5 +15720,383 @@
     "source_document": "cGAS.md",
     "created": "2026-09-12T18:53:13Z",
     "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "5fe27216b14d",
+    "subject": "Cyclosporine A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Cyclosporine A is a potent MPT inhibitor: binding mitochondrial cyclophilin D desensitizes the permeability transition pore, preventing the common inner/outer membrane permeability increase, swelling, and ROS burst that drive necrotic death.",
+      "zh-TW": "Cyclosporine A 為強效 MPT 抑制劑：結合粒線體 Cyclophilin D 使通透性轉換孔脫敏，防止內外膜共同通透化、腫脹與 ROS 爆發所驅動的壞死性死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cyclosporine A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "774cdf161234",
+    "subject": "Cyclosporine A",
+    "predicate": "binds",
+    "object": "Cyclophilin D",
+    "context": {
+      "en-US": "CsA binds cyclophilin D with high affinity; the CsA-CypD complex is the mechanistic basis of its MPT blockade, independent of its calcineurin-dependent immunosuppression.",
+      "zh-TW": "CsA 以高親和力結合 Cyclophilin D；CsA-CypD 複合體為其 MPT 阻斷的機制基礎，與其以 calcineurin 依賴的免疫抑制無關。"
+    },
+    "confidence": 0.92,
+    "source_document": "Cyclosporine A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "27d77ea87720",
+    "subject": "Cyclosporine A",
+    "predicate": "prevents",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "By blocking MPT, CsA prevents mitochondrial swelling, ROS generation, NAD+ depletion, and the downstream necrotic death — making it the reference tool for identifying MPT-dependent necrosis. It does not directly block canonical RIPK3-MLKL necroptosis.",
+      "zh-TW": "CsA 藉阻斷 MPT 防止粒線體腫脹、ROS 產生、NAD+ 耗竭與後續壞死性死亡，為判別 MPT 依賴壞死的參考工具；並不直接阻斷典型 RIPK3-MLKL necroptosis。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cyclosporine A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "b5e7068ea9fd",
+    "subject": "Sanglifehrin A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Sanglifehrin A (SfA) is a structurally distinct macrolide that binds cyclophilins and potently inhibits MPT, providing pharmacologic dissection of MPT-dependent necrosis.",
+      "zh-TW": "Sanglifehrin A（SfA）為結構不同的巨環內酯，結合親環蛋白並強效抑制 MPT，用於藥理學判別 MPT 依賴壞死。"
+    },
+    "confidence": 0.88,
+    "source_document": "Sanglifehrin A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "11d7eaa93e9f",
+    "subject": "Sanglifehrin A",
+    "predicate": "binds",
+    "object": "Cyclophilin D",
+    "context": {
+      "en-US": "SfA binds cyclophilin D through a different scaffold than CsA, blocking the permeability transition without inhibiting calcineurin — hence without the immunosuppressive confound.",
+      "zh-TW": "SfA 以與 CsA 不同的骨架結合 Cyclophilin D，阻斷通透性轉換但不抑制 calcineurin，因此無免疫抑制干擾。"
+    },
+    "confidence": 0.88,
+    "source_document": "Sanglifehrin A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "77e9e0a6b386",
+    "subject": "Sanglifehrin A",
+    "predicate": "is_distinct_from",
+    "object": "Cyclosporine A",
+    "context": {
+      "en-US": "Both bind cyclophilin D and block MPT, but SfA lacks calcineurin inhibition: a survival phenotype sensitive to both compounds but resistant to Necrostatin-1 indicates MPT-driven necrosis rather than RIPK3-MLKL necroptosis.",
+      "zh-TW": "二者皆結合 Cyclophilin D 並阻斷 MPT，但 SfA 不抑制 calcineurin：對兩者敏感而對 Nec-1 抗性的死亡表型指向 MPT 驅動的壞死而非 necroptosis。"
+    },
+    "confidence": 0.87,
+    "source_document": "Sanglifehrin A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "511898d5eef9",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "causes",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "MPT — a common increase in inner and outer mitochondrial membrane permeability — produces mitochondrial swelling, ROS, and NAD+/ATP depletion and culminates in necrotic cell death.",
+      "zh-TW": "MPT（內外粒線體膜通透性共同升高）導致粒線體腫脹、ROS 與 NAD+/ATP 耗竭，最終造成壞死性細胞死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bce035684041",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Persistent pore opening across both mitochondrial membranes dissipates the matrix NAD+ pool, contributing to bioenergetic collapse during MPT-driven necrosis.",
+      "zh-TW": "跨內外膜的持續孔道開啟耗散粒線體基質 NAD+ 池，促成 MPT 驅動壞死中的能量崩潰。"
+    },
+    "confidence": 0.8,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "ea0a68e20075",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_regulated_by",
+    "object": "Cyclophilin D",
+    "context": {
+      "en-US": "Cyclophilin D is the key modulator of MPT pore opening: CypD ligands such as CsA and SfA desensitize the pore, and CypD-null mitochondria resist swelling-induced permeability transition.",
+      "zh-TW": "Cyclophilin D 為 MPT 孔道開啟的關鍵調控者：CsA、SfA 等 CypD 配體使孔道脫敏，CypD 缺失粒線體抵抗腫脹誘導的通透性轉換。"
+    },
+    "confidence": 0.88,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "fb22395ba8e1",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "triggers",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Mitochondrial/oxidative ROS promotes RIPK1 autophosphorylation and drives MPT opening upstream of necroptotic and necrotic death; ROS-driven MPTP opening feeds the RIPK1/RIPK3/MLKL axis.",
+      "zh-TW": "粒線體/氧化性 ROS 促進 RIPK1 自磷酸化，並在 necroptotic/壞死性死亡上游驅動 MPT 開啟；ROS 驅動的 mPTP 開啟回饋 RIPK1/RIPK3/MLKL 軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "dfba3598922c",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_distinct_from",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "MPT and necroptosis are genetically and pharmacologically separable necrosis programs: CsA/SfA block MPT-dependent death, whereas Nec-1/NSA block RIPK1/RIPK3/MLKL necroptosis, and RIPK3-MLKL can kill without MPT.",
+      "zh-TW": "MPT 與 necroptosis 在遺傳與藥理上可區分：CsA/SfA 阻斷 MPT 依賴的死亡，Nec-1/NSA 阻斷 RIPK1/RIPK3/MLKL necroptosis，且 RIPK3-MLKL 可不經 MPT 致死。"
+    },
+    "confidence": 0.88,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "2fd7786c2af5",
+    "subject": "Necroptosis",
+    "predicate": "triggers",
+    "object": "Systemic Inflammatory Response Syndrome",
+    "context": {
+      "en-US": "Massive necroptotic DAMP release from ruptured cells (e.g., in severe pancreatitis) activates TLR and inflammasome cascades systemically, escalating local necrosis into SIRS.",
+      "zh-TW": "大量破裂細胞（如嚴重胰臟炎）釋出的 necroptotic DAMP 全身性激活 TLR 與炎症小體級聯，使局部壞死升級為 SIRS。"
+    },
+    "confidence": 0.82,
+    "source_document": "Systemic Inflammatory Response Syndrome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "8f1be8b15ad1",
+    "subject": "Damage-Associated Molecular Patterns",
+    "predicate": "induce",
+    "object": "Systemic Inflammatory Response Syndrome",
+    "context": {
+      "en-US": "DAMPs such as HMGB1, ATP, and mitochondrial DNA spill from necrotic (including necroptotic) cells into the circulation and drive the systemic inflammation of SIRS; DAMP release is not restricted to any single necrotic death modality.",
+      "zh-TW": "HMGB1、ATP、粒線體 DNA 等 DAMP 自壞死（含 necroptotic）細胞溢入循環，驅動 SIRS 的全身性發炎；DAMP 釋放不限於任何單一壞死型態。"
+    },
+    "confidence": 0.82,
+    "source_document": "Systemic Inflammatory Response Syndrome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "4bbfe15e3ce8",
+    "subject": "Systemic Inflammatory Response Syndrome",
+    "predicate": "is_associated_with",
+    "object": "Sepsis",
+    "context": {
+      "en-US": "SIRS criteria define the systemic inflammatory state that, when accompanied by infection, constitutes sepsis; sterile necroptotic DAMP release produces the same clinical syndrome.",
+      "zh-TW": "SIRS 標準定義全身性發炎狀態，若伴隨感染即構成敗血症（sepsis）；無菌性 necroptotic DAMP 釋放可產生相同臨床症候群。"
+    },
+    "confidence": 0.85,
+    "source_document": "Systemic Inflammatory Response Syndrome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "6c2f59d93eae",
+    "subject": "Interferon",
+    "predicate": "induces",
+    "object": "Protein Kinase R",
+    "context": {
+      "en-US": "Interferon signaling transcriptionally upregulates PKR (EIF2AK2), which in turn is required for IFN-induced RIPK1/RIPK3 necroptosis in addition to its classical eIF2α translational block (Thapa et al. 2016).",
+      "zh-TW": "干擾素訊號轉錄性上調 PKR（EIF2AK2）；PKR 除經典的 eIF2α 轉譯阻斷外，亦為 IFN 誘導 RIPK1/RIPK3 necroptosis 所必需（Thapa et al. 2016）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Kinase R.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "221e8ec748b1",
+    "subject": "Protein Kinase R",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "PKR is required for interferon-induced RIPK1/RIPK3-mediated necroptosis (Thapa et al., Cell Host Microbe 2016) and can scaffold RIPK1 in dsRNA-sensing death contexts.",
+      "zh-TW": "PKR 為干擾素誘導 RIPK1/RIPK3 介導 necroptosis 所必需（Thapa et al., Cell Host Microbe 2016），並可在 dsRNA 感測死亡情境中支架化 RIPK1。"
+    },
+    "confidence": 0.8,
+    "source_document": "Protein Kinase R.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bbe1655859b4",
+    "subject": "Protein Kinase R",
+    "predicate": "activates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "In virus- and IFN-driven settings PKR engages and activates RIPK1 upstream of necrosome assembly, bridging nucleic-acid sensing to regulated necrosis.",
+      "zh-TW": "在病毒與 IFN 驅動的情境中，PKR 在 necrosome 組裝上游結合並活化 RIPK1，橋接核酸感測與受調控壞死。"
+    },
+    "confidence": 0.68,
+    "source_document": "Protein Kinase R.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "528daae6513b",
+    "subject": "Interferon",
+    "predicate": "activates",
+    "object": "JAK-STAT Signaling",
+    "context": {
+      "en-US": "Interferon binding to its receptor activates JAK kinases, which phosphorylate STAT transcription factors — the canonical JAK-STAT cascade that primes necroptosis machinery.",
+      "zh-TW": "干擾素結合其受體活化 JAK 激酶，JAK 磷酸化 STAT 轉錄因子——此為啟動 necroptosis 機器的經典 JAK-STAT 級聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "STAT.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "5e7f0f2d43ed",
+    "subject": "JAK",
+    "predicate": "activates",
+    "object": "STAT",
+    "context": {
+      "en-US": "JAK (Janus kinase) phosphorylates latent cytoplasmic STAT transcription factors on tyrosine residues, triggering their dimerization and nuclear translocation.",
+      "zh-TW": "JAK（Janus 激酶）對潛伏於胞質的 STAT 轉錄因子進行酪胺酸磷酸化，促使其二聚化並轉位入核。"
+    },
+    "confidence": 0.92,
+    "source_document": "STAT.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "763a25ded5d3",
+    "subject": "JAK-STAT Signaling",
+    "predicate": "upregulates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "IFN-JAK-STAT signaling transcriptionally upregulates death machinery including MLKL and PKR, priming cells for necroptosis when caspases are blocked.",
+      "zh-TW": "IFN-JAK-STAT 訊號轉錄性上調 MLKL、PKR 等死亡機器，當 caspase 受阻時使細胞進入可執行 necroptosis 的預啟動狀態。"
+    },
+    "confidence": 0.78,
+    "source_document": "STAT.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bd360b62cd74",
+    "subject": "DAI",
+    "predicate": "is_identical_to",
+    "object": "ZBP1",
+    "context": {
+      "en-US": "DAI (DNA-dependent activator of IRFs) is the original name of ZBP1 (Z-DNA binding protein 1); the molecules are identical, with ZBP1 now the canonical gene name.",
+      "zh-TW": "DAI（IRF 的 DNA 依賴活化因子）為 ZBP1（Z-DNA 結合蛋白 1）的原名；兩者為同一分子，ZBP1 為現行規範基因名。"
+    },
+    "confidence": 0.95,
+    "source_document": "DAI.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "347a92ec727d",
+    "subject": "DAI",
+    "predicate": "forms_complex_with",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "DAI/ZBP1 carries a RHIM motif that nucleates a RIPK1-independent necrosome directly with RIPK3 upon Z-nucleic-acid sensing.",
+      "zh-TW": "DAI/ZBP1 帶有 RHIM 基序，在感測 Z-核酸時可不經 RIPK1 直接與 RIPK3 組成非經典 necrosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "DAI.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "d20b5c2a67b4",
+    "subject": "TNFR1",
+    "predicate": "is_a_member_of",
+    "object": "TNFR",
+    "context": {
+      "en-US": "TNFR1 is the death-domain-containing member of the TNF receptor family and the canonical necroptosis entry point; other TNFR-superfamily members lack the same direct necrosome coupling.",
+      "zh-TW": "TNFR1 為 TNF 受體家族中具死亡結構域的成員，是 necroptosis 的經典入口；其他 TNFR 超家族成員無相同的直接 necrosome 偶聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "TNFR.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "1a706e428691",
+    "subject": "c-FLIP",
+    "predicate": "inhibits",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "FLIP (FLICE/caspase-8 inhibitory protein) is a catalytically inactive homolog that heterodimerizes with and restrains procaspase-8 activation; the FLIP-L/Caspase-8 heterodimer retains partial cleavage of RIPK1/RIPK3 that suppresses necroptosis.",
+      "zh-TW": "FLIP（FLICE/caspase-8 抑制蛋白）為催化失活的同源物，與 pro-caspase-8 異二聚化並抑制其活化；FLIP-L/Caspase-8 異二聚體保留部分切割 RIPK1/RIPK3 的能力以抑制 necroptosis。"
+    },
+    "confidence": 0.92,
+    "source_document": "c-FLIP.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "5aef218a6364",
+    "subject": "NEMO",
+    "predicate": "is_required_for",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "NEMO (NF-κB essential modulator) is the regulatory subunit of the IKK complex; without NEMO the canonical IKKα/IKKβ activation that degrades IκB and liberates NF-κB cannot proceed.",
+      "zh-TW": "NEMO（NF-κB 必需調控因子）為 IKK 複合體的調節亞基；缺乏 NEMO 時，降解 IκB 並釋放 NF-κB 的典型 IKKα/IKKβ 活化無法進行。"
+    },
+    "confidence": 0.9,
+    "source_document": "NEMO.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "c48aef07ef82",
+    "subject": "TLR3",
+    "predicate": "activates",
+    "object": "TRIF",
+    "context": {
+      "en-US": "TLR3 (and TLR4 endosomal TLR4/TRIF arm) signals through the TIR-domain adapter TRIF, which carries a RHIM and activates RIPK3 to form a RIPK1-independent necrosome.",
+      "zh-TW": "TLR3（及 TLR4 的 TRIF 臂）經由含 TIR 結構域的接合蛋白 TRIF 傳訊；TRIF 帶 RHIM，可活化 RIPK3 形成不依賴 RIPK1 的 necrosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toll-like Receptor.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "a02da1b776e3",
+    "subject": "Toll-like Receptor",
+    "predicate": "is_a_type_of",
+    "object": "Pattern Recognition Receptors",
+    "context": {
+      "en-US": "Toll-like receptors are the membrane-spanning class of pattern recognition receptors that sense PAMPs and DAMPs and, via TRIF/RIPK3 in the TLR3/4 arm, can trigger necroptosis.",
+      "zh-TW": "Toll 樣受體為辨識 PAMP 與 DAMP 的跨膜模式識別受體；經 TLR3/4 臂的 TRIF/RIPK3 可觸發 necroptosis。"
+    },
+    "confidence": 0.88,
+    "source_document": "Toll-like Receptor.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
   }
 ]

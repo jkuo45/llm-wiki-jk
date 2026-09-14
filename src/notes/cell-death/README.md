@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-09-10
+updated: 2026-09-14
 ---
 # Cell Death
 
@@ -30,6 +30,8 @@ BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
 
+Disease models: [[Cerulein-Induced Pancreatitis]] (RIPK3/MLKL-driven acinar necroptosis → DAMP release → SIRS).
+
 PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]].
 
-Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrosulfonamide]].
+Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrostatin-1s]], [[Necrosulfonamide]].
