@@ -1,5 +1,5 @@
 {
-  "generated": "06_SEP_2026 08:32 PM PDT",
+  "generated": "14_SEP_2026 10:10 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,8 +25,371 @@
       }
     },
     {
-      "id": "task:task_output_arh3_par_aif_06_SEP_2026",
-      "kind": "task",
+      "id": "task_output_cell_death_modality_distribution_research_13_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Cell-Death Modality Distribution — Research Review: Primary Forms, Classification Axes, and Turnover Quantification",
+          "description": "Literature review of whether apoptosis/necrosis remain the primary cell-death forms, how modern taxonomy classifies modalities along controlled, lytic, inflammatory, and immunogenic axes, how favorability is determined, and what is actually known about the quantitative distribution of cell death in humans.",
+          "created": "2026-09-13",
+          "updated": "2026-09-13",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "pyroptosis",
+            "ferroptosis",
+            "parthanatos",
+            "panoptosis",
+            "immunogenic-cell-death",
+            "turnover",
+            "eryptosis"
+          ],
+          "filename": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡型式分布 — 研究綜述：主要型式、分類軸與週轉量量化",
+          "description": "文獻回顧：凋亡／壞死是否仍是主要細胞死亡型式、現代分類學如何沿調控性、溶裂性、發炎性與免疫原性軸分類型式、有利性如何判定，以及人類細胞死亡的量化分布實際已知為何。",
+          "created": "2026-09-13",
+          "updated": "2026-09-14",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "pyroptosis",
+            "ferroptosis",
+            "parthanatos",
+            "panoptosis",
+            "immunogenic-cell-death",
+            "turnover",
+            "eryptosis"
+          ],
+          "filename": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_cell_death_senescence_research_12_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death × Cellular Senescence — Web-Research",
+          "description": "Extended analysis of the connection between regulated cell death and cellular senescence, grounded in vault notes and supplemented with 2017–2026 primary literature and reviews (p53 dynamics, minority MOMP, SCAP biology, ferroptosis vulnerability, TIS escape).",
+          "created": "2026-09-12",
+          "updated": "2026-09-12",
+          "tags": [
+            "cell-death",
+            "senescence",
+            "apoptosis",
+            "ferroptosis",
+            "minority-momp",
+            "senolytics",
+            "therapy-induced-senescence",
+            "literature-review",
+            "cancer"
+          ],
+          "filename": "task_output_cell_death_senescence_research_12_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_senescence_research_12_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡 × 細胞衰老 — 網路研究",
+          "description": "受調控細胞死亡與細胞衰老之間連結的延伸分析，奠基於知識庫筆記並以 2017–2026 年原始文獻與綜述補充（p53 動態、minority MOMP、SCAP 生物學、鐵死亡脆弱性、TIS 逃脫）。",
+          "created": "2026-09-12",
+          "updated": "2026-09-14",
+          "tags": [
+            "cell-death",
+            "senescence",
+            "apoptosis",
+            "ferroptosis",
+            "minority-momp",
+            "senolytics",
+            "therapy-induced-senescence",
+            "literature-review",
+            "cancer"
+          ],
+          "filename": "task_output_cell_death_senescence_research_12_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_senescence_research_12_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Hormesis and Cell Death — RCD, ACD, and the Tiered Stress-Response Model",
+          "description": "Whether accidental (ACD) and regulated (RCD) cell death can be viewed through the hormetic lens; maps the hormetic window onto the hierarchical Nrf2/NF-κB/apoptosis tier model and argues RCD is the first death tier above the window while ACD sits outside it.",
+          "created": "2026-09-13",
+          "updated": "2026-09-13",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "cell-death",
+            "regulated-cell-death",
+            "accidental-cell-death",
+            "apoptosis",
+            "necrosis",
+            "mitohormesis",
+            "preconditioning"
+          ],
+          "filename": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "激素效應與細胞死亡 — RCD、ACD 與分層壓力反應模型",
+          "description": "意外性（ACD）與受調控（RCD）細胞死亡能否以激素效應之鏡檢視；將激素效應窗口映射至階層式 Nrf2/NF-κB/細胞凋亡分層模型，並論證 RCD 是窗口之上的第一死亡層級，而 ACD 位於其外。",
+          "created": "2026-09-13",
+          "updated": "2026-09-14",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "cell-death",
+            "regulated-cell-death",
+            "accidental-cell-death",
+            "apoptosis",
+            "necrosis",
+            "mitohormesis",
+            "preconditioning"
+          ],
+          "filename": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_senescence_regulators_sensors_organs_12_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Senescence Regulators and Sensors Across Organs — Prostate Breast Lung Colon Skin",
+          "description": "Organ-by-regulator and sensor maps of cellular senescence across top cancers, grounded in vault notes and supplemented with general biology",
+          "created": "2026-09-12",
+          "updated": "2026-09-12",
+          "tags": [
+            "senescence",
+            "sasp",
+            "prostate-cancer",
+            "breast-cancer",
+            "lung-cancer",
+            "colorectal-cancer",
+            "skin-cancer",
+            "sirtuins",
+            "p53",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
+          "path": "tasks/en-US/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "跨器官的衰老調節因子與感測器 — 攝護腺、乳癌、肺癌、結腸、皮膚",
+          "description": "主要癌症中細胞衰老之器官對調節因子與感測器地圖，奠基於知識庫筆記並以一般生物學補充",
+          "created": "2026-09-12",
+          "updated": "2026-09-14",
+          "tags": [
+            "senescence",
+            "sasp",
+            "prostate-cancer",
+            "breast-cancer",
+            "lung-cancer",
+            "colorectal-cancer",
+            "skin-cancer",
+            "sirtuins",
+            "p53",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Cell-Death-Modality-First Therapeutics with Sex Stratification: Framework, Sex-Stratified Stroke Trial Design, and the Parthanatos Translation Gap",
+          "description": "Three-part research write-up: (1) the modality-first/patient-second drug-development framework and whether it is common or overlooked; (2) a concrete sex-stratified acute ischemic stroke trial design (PARP/parthanatos arm for males, pan-caspase + ER-beta arm for females) grounded in vault evidence; (3) the clinical-translation gap for Parthanatos (JPI-289/amelparib) with recommended note update.",
+          "created": "2026-09-13",
+          "updated": "2026-09-13",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "parthanatos",
+            "apoptosis",
+            "necroptosis",
+            "ferroptosis",
+            "pyroptosis",
+            "sex-dimorphism",
+            "precision-medicine",
+            "stroke",
+            "estrogen",
+            "ER-beta",
+            "bh3-profiling",
+            "gasdermin",
+            "trial-design"
+          ],
+          "filename": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "以細胞死亡型式優先的療法與性別分層：框架、性別分層中風試驗設計，與 Parthanatos 轉譯落差",
+          "description": "三部分研究撰文：(1) 型式優先／病人其次的藥物開發框架及其是否普遍或被忽視；(2) 基於知識庫證據的具體性別分層急性缺血性中風試驗設計（男性 PARP/parthanatos 組、女性泛 caspase + ER-β 組）；(3) Parthanatos 的臨床轉譯落差（JPI-289/amelparib），並附建議的筆記更新。",
+          "created": "2026-09-13",
+          "updated": "2026-09-14",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "parthanatos",
+            "apoptosis",
+            "necroptosis",
+            "ferroptosis",
+            "pyroptosis",
+            "sex-dimorphism",
+            "precision-medicine",
+            "stroke",
+            "estrogen",
+            "ER-beta",
+            "bh3-profiling",
+            "gasdermin",
+            "trial-design"
+          ],
+          "filename": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_cell_death_decision_tree_11_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Decision Tree - Stress and Cell Type",
+          "description": "Flowchart mapping stress conditions and cell types to cell death modalities",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "cell-death",
+            "decision-tree",
+            "stress-response",
+            "cell-type",
+            "sex-dimorphism"
+          ],
+          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_decision_tree_11_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡決策樹 — 壓力與細胞類型",
+          "description": "將壓力條件與細胞類型對應到細胞死亡模式的流程圖",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "cell-death",
+            "decision-tree",
+            "stress-response",
+            "cell-type",
+            "sex-dimorphism"
+          ],
+          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Selenium attenuation of Cd/Pb-induced necroptosis via MAPK/NF-kB — Web Research",
+          "description": "Deep research on selenium protection against cadmium/lead necroptosis — selenoprotein redox gate, MAPK/NF-kB brake, metal antagonism, forms and window.",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "selenium",
+            "necroptosis",
+            "cadmium",
+            "lead",
+            "nf-kb",
+            "mapk",
+            "gpx4",
+            "thioredoxin-reductase"
+          ],
+          "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
+          "path": "tasks/en-US/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "硒減輕鎘/鉛誘發壞死性凋亡 via MAPK/NF-kB — 網路研究",
+          "description": "硒對抗鎘/鉛壞死性凋亡保護作用之深入研究 — 硒蛋白氧化還原閘門、MAPK/NF-kB 煞車、金屬拮抗、劑型與安全窗。",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "selenium",
+            "necroptosis",
+            "cadmium",
+            "lead",
+            "nf-kb",
+            "mapk",
+            "gpx4",
+            "thioredoxin-reductase"
+          ],
+          "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_parthanatos_open_questions_08_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Parthanatos Open Questions — Web Research Update",
+          "description": "All 17 open questions from Moura et al. 2024 updated with 2014–2026 literature plus Q18 PARG-executionary synthesis — NAD/glycolysis/PARG/free-PAR/TRPM2-Ca2+/Nudix-AMP-autophagy/AIF-MIF/apoptosis crosstalk.",
+          "created": "2026-09-08",
+          "updated": "2026-09-09",
+          "tags": [
+            "parthanatos",
+            "parp1",
+            "nad-plus",
+            "glycolysis",
+            "parg",
+            "arh3",
+            "aif",
+            "mif",
+            "trpm2",
+            "nudix",
+            "ampk",
+            "autophagy"
+          ],
+          "filename": "task_output_parthanatos_open_questions_08_Sep_2026.md",
+          "path": "tasks/en-US/task_output_parthanatos_open_questions_08_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "Parthanatos 未解問題 — 網路文獻更新",
+          "description": "以 2014–2026 年文獻更新 Moura 等人 2024 年提出的全部 17 個未解問題，外加 Q18 PARG 執行性綜合與 Q19 細胞類型／代謝狀態綜合——NAD／糖解／PARG／游離 PAR／TRPM2-Ca2+／Nudix-AMP-自噬／AIF-MIF／凋亡串擾。",
+          "created": "2026-09-08",
+          "updated": "2026-09-09",
+          "tags": [
+            "parthanatos",
+            "parp1",
+            "nad-plus",
+            "glycolysis",
+            "parg",
+            "arh3",
+            "aif",
+            "mif",
+            "trpm2",
+            "nudix",
+            "ampk",
+            "autophagy"
+          ],
+          "filename": "task_output_parthanatos_open_questions_08_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_parthanatos_open_questions_08_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_arh3_par_aif_06_SEP_2026",
       "langs": {
         "en-US": {
           "title": "ARH3 and PAR-induced AIF release — research synthesis",
@@ -63,12 +426,11 @@
       }
     },
     {
-      "id": "task:task_output_sex_dimorphic_cell_death_05_Sep_2026",
-      "kind": "task",
+      "id": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
       "langs": {
         "en-US": {
-          "title": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
-          "description": "",
+          "title": "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics",
+          "description": "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status.",
           "created": "2026-09-05",
           "updated": "2026-09-05",
           "tags": [],
@@ -87,8 +449,7 @@
       }
     },
     {
-      "id": "task:task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026",
-      "kind": "task",
+      "id": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026",
       "langs": {
         "en-US": {
           "title": "Cell-Death Quadrants: Controlled vs Uncontrolled x Inflammatory vs Non-Inflammatory Vault Lens",
@@ -129,8 +490,7 @@
       }
     },
     {
-      "id": "task:task_output_tbl_cell_death_comparison_03_SEP_2026",
-      "kind": "task",
+      "id": "task_output_tbl_cell_death_comparison_03_SEP_2026",
       "langs": {
         "en-US": {
           "title": "Cell Death Comparison — Apoptosis, Parthanatos, Necrosis, Necroptosis, Ferroptosis, Autophagy, Pyroptosis",
@@ -171,8 +531,7 @@
       }
     },
     {
-      "id": "task:task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026",
-      "kind": "task",
+      "id": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026",
       "langs": {
         "en-US": {
           "title": "Male Biology as Distributed Topology vs Centralized Estrogen Hub",
@@ -217,8 +576,7 @@
       }
     },
     {
-      "id": "task:task_output_hormetic_range_expansion_03_Sep_2026",
-      "kind": "task",
+      "id": "task_output_hormetic_range_expansion_03_Sep_2026",
       "langs": {
         "en-US": {
           "title": "Hormetic Range Expansion: 7 Candidate Domains for Follow-Up",
@@ -251,8 +609,7 @@
       }
     },
     {
-      "id": "task:task_output_hormesis_literature_invisibility_02_Sep_2026",
-      "kind": "task",
+      "id": "task_output_hormesis_literature_invisibility_02_Sep_2026",
       "langs": {
         "en-US": {
           "title": "The 80-90% Blind Spot: Mapping Solutions to Hormesis Literature Invisibility Through Vocabulary Fragmentation",
@@ -297,8 +654,7 @@
       }
     },
     {
-      "id": "task:task_output_gender_specific_attributes_vault_topics_02_SEP_2026",
-      "kind": "task",
+      "id": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026",
       "langs": {
         "en-US": {
           "title": "Gender-Specific Attributes: Primary Vault Topics",
@@ -343,8 +699,7 @@
       }
     },
     {
-      "id": "task:task_output_mnsod_thioredoxin_link_01_Sep_2026",
-      "kind": "task",
+      "id": "task_output_mnsod_thioredoxin_link_01_Sep_2026",
       "langs": {
         "en-US": {
           "title": "The MnSOD–Thioredoxin Axis: An Integrated Mitochondrial Peroxide-Relay and Shared Stress-Resistance Program — Focused Analysis",
@@ -389,8 +744,7 @@
       }
     },
     {
-      "id": "task:task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026",
-      "kind": "task",
+      "id": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026",
       "langs": {
         "en-US": {
           "title": "Antioxidant-Enzyme Hormesis and Stress Resistance: The Thioredoxin-System Cluster — Entity Review and Web Verification",
@@ -435,8 +789,7 @@
       }
     },
     {
-      "id": "task:task_output_parallel_relation_links_impact_01_Sep_2026",
-      "kind": "task",
+      "id": "task_output_parallel_relation_links_impact_01_Sep_2026",
       "langs": {
         "en-US": {
           "title": "Parallel-Relation Links in the Triples Graph — Full List & Metric Impact",
@@ -473,8 +826,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
       "langs": {
         "en-US": {
           "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
@@ -509,8 +861,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_price_estimates_13_JUL_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
@@ -543,8 +894,7 @@
       }
     },
     {
-      "id": "task:task_output_pharmacologist_feasibility_16_JUN_2026",
-      "kind": "task",
+      "id": "task_output_pharmacologist_feasibility_16_JUN_2026",
       "langs": {
         "en-US": {
           "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
@@ -581,8 +931,7 @@
       }
     },
     {
-      "id": "task:task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
-      "kind": "task",
+      "id": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026",
       "langs": {
         "en-US": {
           "title": "Triples Human-Review Report — Adrenochrome, Mitohormesis, Autophagy, Sirtuins",
@@ -621,8 +970,7 @@
       }
     },
     {
-      "id": "task:task_output_hormesis_overlooked_paradigms_30_Aug_2026",
-      "kind": "task",
+      "id": "task_output_hormesis_overlooked_paradigms_30_Aug_2026",
       "langs": {
         "en-US": {
           "title": "Beyond Mitohormesis: Biological Processes Where the 'A Little Bad Is Good' Paradigm Is Overlooked",
@@ -665,8 +1013,7 @@
       }
     },
     {
-      "id": "task:task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026",
-      "kind": "task",
+      "id": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026",
       "langs": {
         "en-US": {
           "title": "Reading a Discovery Arrival - How Graph Metrics and Typed Edges Behave When New Entities Enter a Knowledge Graph (Ferroptosis 2012 and COVID/Vaccine as Worked Examples)",
@@ -711,8 +1058,7 @@
       }
     },
     {
-      "id": "task:task_output_caspase_graph_analysis_28_AUG_2026",
-      "kind": "task",
+      "id": "task_output_caspase_graph_analysis_28_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Caspases - Graph (wiki + triples) Analysis + Literature Synthesis",
@@ -751,8 +1097,7 @@
       }
     },
     {
-      "id": "task:task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
-      "kind": "task",
+      "id": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
       "langs": {
         "en-US": {
           "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
@@ -789,8 +1134,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
@@ -825,8 +1169,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome Protocol Network Traces, Round 2",
@@ -861,8 +1204,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_protocol_traces_20_AUG_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_protocol_traces_20_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
@@ -899,8 +1241,7 @@
       }
     },
     {
-      "id": "task:task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026",
-      "kind": "task",
+      "id": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Neurodegeneration Review: AD, PD, HD, ALS/FTD — Comparative Synthesis from the Wiki, Graphs, and 2025–2026 Literature",
@@ -941,8 +1282,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuin_caspase_crosstalk_28_AUG_2026",
-      "kind": "task",
+      "id": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Sirtuin-Caspase Crosstalk — Research Synthesis (Wiki, Graph, Web)",
@@ -977,8 +1317,7 @@
       }
     },
     {
-      "id": "task:task_output_node_metrics_combined_graph_27_Aug_2026",
-      "kind": "task",
+      "id": "task_output_node_metrics_combined_graph_27_Aug_2026",
       "langs": {
         "en-US": {
           "title": "Graph Metrics (wiki + triples) - Combined",
@@ -1019,8 +1358,7 @@
       }
     },
     {
-      "id": "task:task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026",
-      "kind": "task",
+      "id": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026",
       "langs": {
         "en-US": {
           "title": "FSP1–CoQ10–NAD(P)H Ferroptosis Axis (deep dive)",
@@ -1057,8 +1395,7 @@
       }
     },
     {
-      "id": "task:_document_ - GOPS - glyco-oxidative proteostasis",
-      "kind": "task",
+      "id": "_document_ - GOPS - glyco-oxidative proteostasis",
       "langs": {
         "en-US": {
           "title": "GOPS - Glyco-Oxidative Proteostasis Shield",
@@ -1089,8 +1426,7 @@
       }
     },
     {
-      "id": "task:_document_ - MB, AG nitric oxide pathway signaling",
-      "kind": "task",
+      "id": "_document_ - MB, AG nitric oxide pathway signaling",
       "langs": {
         "en-US": {
           "title": "Nitric Oxide Pathway Inhibitors - Aminoguanidine and Methylene Blue",
@@ -1123,8 +1459,7 @@
       }
     },
     {
-      "id": "task:_document_ - MRR - mitohormesis, MB, NAD",
-      "kind": "task",
+      "id": "_document_ - MRR - mitohormesis, MB, NAD",
       "langs": {
         "en-US": {
           "title": "MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)",
@@ -1155,8 +1490,7 @@
       }
     },
     {
-      "id": "task:_document_ - SRAC - senescent, ligand-conjugated",
-      "kind": "task",
+      "id": "_document_ - SRAC - senescent, ligand-conjugated",
       "langs": {
         "en-US": {
           "title": "SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)",
@@ -1187,8 +1521,7 @@
       }
     },
     {
-      "id": "task:_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
-      "kind": "task",
+      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
       "langs": {
         "en-US": {
           "title": "outline_adrenochrome_combo_therapy_gemini",
@@ -1215,8 +1548,7 @@
       }
     },
     {
-      "id": "task:outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
-      "kind": "task",
+      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
       "langs": {
         "en-US": {
           "title": "Outline - Adrenochrome (MB, AG) Protocol",
@@ -1253,8 +1585,7 @@
       }
     },
     {
-      "id": "task:task_output_SRAC_revision_log_08_JULY_2026",
-      "kind": "task",
+      "id": "task_output_SRAC_revision_log_08_JULY_2026",
       "langs": {
         "en-US": {
           "title": "SRAC Protocol Revision Log",
@@ -1289,8 +1620,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_gap_analysis_09_JUL_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_gap_analysis_09_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Gap Analysis - _triples.json vs. Task Docs (Adrenochrome)",
@@ -1325,8 +1655,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_neutrophil_protocol_25_May_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
       "langs": {
         "en-US": {
           "title": "Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)",
@@ -1359,8 +1688,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
       "langs": {
         "en-US": {
           "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
@@ -1395,8 +1723,7 @@
       }
     },
     {
-      "id": "task:task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
-      "kind": "task",
+      "id": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
       "langs": {
         "en-US": {
           "title": "Adrenochrome → Inflammaging Trace",
@@ -1431,8 +1758,7 @@
       }
     },
     {
-      "id": "task:_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
-      "kind": "task",
+      "id": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
       "langs": {
         "en-US": {
           "title": "DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
@@ -1465,8 +1791,7 @@
       }
     },
     {
-      "id": "task:_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
-      "kind": "task",
+      "id": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
       "langs": {
         "en-US": {
           "title": "DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
@@ -1499,8 +1824,7 @@
       }
     },
     {
-      "id": "task:_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
-      "kind": "task",
+      "id": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
       "langs": {
         "en-US": {
           "title": "Shingles vaccine may slow biological aging and reduce inflammation",
@@ -1533,8 +1857,7 @@
       }
     },
     {
-      "id": "task:_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
-      "kind": "task",
+      "id": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
       "langs": {
         "en-US": {
           "title": "The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
@@ -1567,8 +1890,7 @@
       }
     },
     {
-      "id": "task:task_output_graph_structure_conclusions_26_AUG_2026",
-      "kind": "task",
+      "id": "task_output_graph_structure_conclusions_26_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Further Graph-Level Conclusions From graph.json",
@@ -1605,8 +1927,7 @@
       }
     },
     {
-      "id": "task:task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026",
-      "kind": "task",
+      "id": "task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Node Analysis — Ivermectin, Fenbendazole & Mebendazole Against Cancer and Tumour Subtypes",
@@ -1653,8 +1974,7 @@
       }
     },
     {
-      "id": "task:task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026",
-      "kind": "task",
+      "id": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Comparative Review — Ferroptosis & Cancer vs. Apoptosis & Cancer",
@@ -1687,8 +2007,43 @@
       }
     },
     {
-      "id": "task:task_output_node_analysis_biology_16_AUG_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_resveratrol",
+      "langs": {
+        "en-US": {
+          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
+          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol",
+            "sirt1",
+            "stacs",
+            "polyphenols"
+          ],
+          "filename": "task_output_sirtuins_resveratrol.md",
+          "path": "tasks/en-US/task_output_sirtuins_resveratrol.md"
+        },
+        "zh-TW": {
+          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
+          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
+          "created": "2026-07-02",
+          "updated": "2026-07-05",
+          "tags": [
+            "gemini",
+            "clippings",
+            "sirtuins",
+            "resveratrol"
+          ],
+          "filename": "task_output_sirtuins_resveratrol.md",
+          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_node_analysis_biology_16_AUG_2026",
       "langs": {
         "en-US": {
           "title": "Node-Level Network Analysis for Biological Prioritization",
@@ -1729,8 +2084,7 @@
       }
     },
     {
-      "id": "task:task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
-      "kind": "task",
+      "id": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026",
       "langs": {
         "en-US": {
           "title": "Node Analysis — Mammalian Sirtuins (SIRT1–7) vs. Targets & Substrates from the Ageing Review",
@@ -1775,8 +2129,7 @@
       }
     },
     {
-      "id": "task:task_output_node_comt_mao_15_August_2026",
-      "kind": "task",
+      "id": "task_output_node_comt_mao_15_August_2026",
       "langs": {
         "en-US": {
           "title": "COMT × MAO Node Analysis vs Dopamine/Epinephrine — 15 August 2026",
@@ -1823,8 +2176,7 @@
       }
     },
     {
-      "id": "task:task_output_node_sirtuins_catecholamines_15_August_2026",
-      "kind": "task",
+      "id": "task_output_node_sirtuins_catecholamines_15_August_2026",
       "langs": {
         "en-US": {
           "title": "Sirtuins × Catecholamines Combined Node Analysis — 15 August 2026",
@@ -1873,8 +2225,7 @@
       }
     },
     {
-      "id": "task:task_output_acid_ceramidase_27_July_2026",
-      "kind": "task",
+      "id": "task_output_acid_ceramidase_27_July_2026",
       "langs": {
         "en-US": {
           "title": "Acid Ceramidase in Ferroptosis & Cellular Senescence",
@@ -1911,8 +2262,7 @@
       }
     },
     {
-      "id": "task:task_output_autophagy_and_cancer_13_JUL_2026",
-      "kind": "task",
+      "id": "task_output_autophagy_and_cancer_13_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Autophagy During Chemotherapy — Conflicting and Agreeing Views",
@@ -1943,8 +2293,7 @@
       }
     },
     {
-      "id": "task:task_output_autophagy_mammals_longevity_22_JULY_2026",
-      "kind": "task",
+      "id": "task_output_autophagy_mammals_longevity_22_JULY_2026",
       "langs": {
         "en-US": {
           "title": "Autophagy in Companion Mammals (Dogs/Cats) and Longevity",
@@ -1989,8 +2338,7 @@
       }
     },
     {
-      "id": "task:task_output_autophagy_vs_mitophagy_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_autophagy_vs_mitophagy_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
@@ -2025,8 +2373,7 @@
       }
     },
     {
-      "id": "task:task_output_caspase_01_JUN_2026",
-      "kind": "task",
+      "id": "task_output_caspase_01_JUN_2026",
       "langs": {
         "en-US": {
           "title": "Molecular Mechanisms of Caspase and Bcl-2 Family Regulation",
@@ -2065,8 +2412,7 @@
       }
     },
     {
-      "id": "task:task_output_comt_fisetin_senolytic_09_July_2026",
-      "kind": "task",
+      "id": "task_output_comt_fisetin_senolytic_09_July_2026",
       "langs": {
         "en-US": {
           "title": "Fisetin as a COMT Inhibitor — Senolytic Intersections and Experimental Plan",
@@ -2107,8 +2453,7 @@
       }
     },
     {
-      "id": "task:task_output_cr_vs_spermidine_autophagy_15_July_2026",
-      "kind": "task",
+      "id": "task_output_cr_vs_spermidine_autophagy_15_July_2026",
       "langs": {
         "en-US": {
           "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
@@ -2143,8 +2488,7 @@
       }
     },
     {
-      "id": "task:task_output_dj1_glycation_trace_27_JUL_2026",
-      "kind": "task",
+      "id": "task_output_dj1_glycation_trace_27_JUL_2026",
       "langs": {
         "en-US": {
           "title": "DJ-1 / Glycation Defense Trace",
@@ -2181,8 +2525,7 @@
       }
     },
     {
-      "id": "task:task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026",
-      "kind": "task",
+      "id": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026",
       "langs": {
         "en-US": {
           "title": "Anticancer Mechanisms: Ivermectin & Fenbendazole — Synergy and Combined Impact",
@@ -2219,8 +2562,7 @@
       }
     },
     {
-      "id": "task:task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026",
-      "kind": "task",
+      "id": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Ivermectin, Yamanaka Factors & Aging — graphify exploration",
@@ -2273,8 +2615,7 @@
       }
     },
     {
-      "id": "task:task_output_mitochondria_fusion_fission_27_JUL_2026",
-      "kind": "task",
+      "id": "task_output_mitochondria_fusion_fission_27_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Research Gaps in Mitochondrial Fission & Fusion Mechanisms",
@@ -2317,8 +2658,7 @@
       }
     },
     {
-      "id": "task:task_output_node_sirtuins_adrenochrome_15_August_2026",
-      "kind": "task",
+      "id": "task_output_node_sirtuins_adrenochrome_15_August_2026",
       "langs": {
         "en-US": {
           "title": "Sirtuins × Adrenochrome Node Analysis — NetworkX & SciPy — 15 August 2026",
@@ -2361,45 +2701,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_resveratrol",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Resveratrol in SIRT1 and Other Sirtuin Modulators",
-          "description": "Overview of resveratrol's role in SIRT1 activation (K-type allosteric mechanism, controversy over direct vs. indirect activation), compounds targeting SIRT2–SIRT7, dietary polyphenol sources, and therapeutic dose considerations",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol",
-            "sirt1",
-            "stacs",
-            "polyphenols"
-          ],
-          "filename": "task_output_sirtuins_resveratrol_en-US.md",
-          "path": "tasks/en-US/task_output_sirtuins_resveratrol_en-US.md"
-        },
-        "zh-TW": {
-          "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
-          "description": "白藜蘆醇在 SIRT1 活化中的作用、標靶其他 sirtuins (SIRT2–SIRT7) 的化合物、膳食來源與治療劑量",
-          "created": "2026-07-02",
-          "updated": "2026-07-05",
-          "tags": [
-            "gemini",
-            "clippings",
-            "sirtuins",
-            "resveratrol"
-          ],
-          "filename": "task_output_sirtuins_resveratrol.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_senescence_research_gaps_18_August_2026",
-      "kind": "task",
+      "id": "task_output_senescence_research_gaps_18_August_2026",
       "langs": {
         "en-US": {
           "title": "Research Gaps in Cellular Senescence Biology — Most Recent Documents",
@@ -2432,8 +2734,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuin_research_gaps_14_August_2026",
-      "kind": "task",
+      "id": "task_output_sirtuin_research_gaps_14_August_2026",
       "langs": {
         "en-US": {
           "title": "Research Gaps in Sirtuin Biology — Most Recent Documents",
@@ -2466,8 +2767,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_disease",
-      "kind": "task",
+      "id": "task_output_sirtuins_disease_complications_11_August_2026_by_disease",
       "langs": {
         "en-US": {
           "title": "Sirtuins in Health and Disease — Complication-by-Complication Excerpt Compilation",
@@ -2516,8 +2816,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin",
-      "kind": "task",
+      "id": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin",
       "langs": {
         "en-US": {
           "title": "Sirtuins in Health and Disease — SIRT-by-SIRT Disease Landscape",
@@ -2564,8 +2863,7 @@
       }
     },
     {
-      "id": "task:task_output_sirt1_ktype_allosteric_activation_14_August_2026",
-      "kind": "task",
+      "id": "task_output_sirt1_ktype_allosteric_activation_14_August_2026",
       "langs": {
         "en-US": {
           "title": "SIRT1 K-type Allosteric Activation by STACs & Natural Polyphenols",
@@ -2604,8 +2902,7 @@
       }
     },
     {
-      "id": "task:task_output_benign_tumor_longevity_14_August_2026",
-      "kind": "task",
+      "id": "task_output_benign_tumor_longevity_14_August_2026",
       "langs": {
         "en-US": {
           "title": "Benign Tumors & Longevity",
@@ -2642,8 +2939,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_pleiotropic_roles_12_August_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_pleiotropic_roles_12_August_2026",
       "langs": {
         "en-US": {
           "title": "Pleiotropic Roles of SIRTs in Tumor Cell Metabolism and Therapeutic Targeting",
@@ -2686,8 +2982,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_sirtuins_trace_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome → Sirtuins Counter-Defense Trace — Graph-Derived Mechanistic Map",
@@ -2730,8 +3025,7 @@
       }
     },
     {
-      "id": "task:task_output_review_notes_epinephrine_sirtuins_06_July_2026",
-      "kind": "task",
+      "id": "task_output_review_notes_epinephrine_sirtuins_06_July_2026",
       "langs": {
         "en-US": {
           "title": "Epinephrine ↔ Neutrophils/Erythrocytes ↔ Sirtuins: Mechanistic Connections and Longevity Implications",
@@ -2772,8 +3066,7 @@
       }
     },
     {
-      "id": "task:task_output_mitohormesis_antioxidants_05_August_2026",
-      "kind": "task",
+      "id": "task_output_mitohormesis_antioxidants_05_August_2026",
       "langs": {
         "en-US": {
           "title": "Do Antioxidants Block Mitohormesis? — Evidence Ranking and Timing",
@@ -2814,8 +3107,7 @@
       }
     },
     {
-      "id": "task:task_output_nad_to_bnip3_trace_21_JUL_2026",
-      "kind": "task",
+      "id": "task_output_nad_to_bnip3_trace_21_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Graph Trace: NAD+ to BNIP3 — Metabolic Signaling to Mitophagy",
@@ -2858,8 +3150,7 @@
       }
     },
     {
-      "id": "task:task_output_ap1_trace_21_JUL_2026",
-      "kind": "task",
+      "id": "task_output_ap1_trace_21_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Graph Trace: AP-1 as a Cross-Community Bridge in the Src Knowledge Graph",
@@ -2902,8 +3193,7 @@
       }
     },
     {
-      "id": "task:task_output_alphafold_report_NAD+_26_JUN_2026",
-      "kind": "task",
+      "id": "task_output_alphafold_report_NAD+_26_JUN_2026",
       "langs": {
         "en-US": {
           "title": "AlphaFold Structural Analysis Report — NAD+ Metabolism Proteins (CD38, BST1, SARM1, NAMPT, NT5E, SIRT1/3/6, PARP1)",
@@ -2946,8 +3236,7 @@
       }
     },
     {
-      "id": "task:task_output_ivermectin_cancer_14_JUL_2026",
-      "kind": "task",
+      "id": "task_output_ivermectin_cancer_14_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Ivermectin as a Preventative / Cancer Measure — Graphified Findings",
@@ -2980,8 +3269,7 @@
       }
     },
     {
-      "id": "task:task_output_physiologist_shred_vs_bulk",
-      "kind": "task",
+      "id": "task_output_physiologist_shred_vs_bulk",
       "langs": {
         "en-US": {
           "title": "Bulk vs. Shred Scenario Analysis — Elevated RMR & Bio-Entity Interplay",
@@ -3024,8 +3312,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_recommendations_03_JULY_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_recommendations_03_JULY_2026",
       "langs": {
         "en-US": {
           "title": "Strategic Research Recommendations — Sirtuin-Centric Longevity & Regenerative Medicine",
@@ -3064,8 +3351,7 @@
       }
     },
     {
-      "id": "task:tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
-      "kind": "task",
+      "id": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00",
       "langs": {
         "en-US": {
           "title": "Cancer Connections of Apoptotic Regulators — Caspases, Bcl-2 Family & Phosphorylation Sites",
@@ -3102,8 +3388,7 @@
       }
     },
     {
-      "id": "task:tbl_senescent_compounds_normalized",
-      "kind": "task",
+      "id": "tbl_senescent_compounds_normalized",
       "langs": {
         "en-US": {
           "title": "Normalized Table — Senescence-Inducing Small Compounds by Mechanism of Action",
@@ -3142,8 +3427,7 @@
       }
     },
     {
-      "id": "task:tbl_tfeb_target_mechanisms",
-      "kind": "task",
+      "id": "tbl_tfeb_target_mechanisms",
       "langs": {
         "en-US": {
           "title": "TFEB Targeting Regulatory Mechanisms Across Disease Models",
@@ -3182,8 +3466,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Graphify Trace — Adrenochrome → Autophagy/Mitophagy & Foam Cells",
@@ -3224,8 +3507,7 @@
       }
     },
     {
-      "id": "task:task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026",
-      "kind": "task",
+      "id": "task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome → Lipid Peroxidation: Mechanistic Bridge and Research Opportunities",
@@ -3260,8 +3542,7 @@
       }
     },
     {
-      "id": "task:task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Microglia-CD38 vs Neuronal-SARM1 — CNS NAD+ Competition Map",
@@ -3306,8 +3587,7 @@
       }
     },
     {
-      "id": "task:task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "CD38–NAD+ Consumption — Parallel Trace to Adrenochrome Counter-Defense",
@@ -3352,8 +3632,7 @@
       }
     },
     {
-      "id": "task:task_output_CD38_NADplus_trace_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_CD38_NADplus_trace_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "CD38–NAD+ Trace — Graph-Derived Mechanistic Map",
@@ -3394,8 +3673,7 @@
       }
     },
     {
-      "id": "task:task_output_CD38_SARM1_NADplus_competition_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_CD38_SARM1_NADplus_competition_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "CD38 ↔ SARM1 NAD+ Competition — Graph-Derived Mechanistic Map",
@@ -3440,8 +3718,7 @@
       }
     },
     {
-      "id": "task:task_output_CD38_SARM1_bridging_gaps_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_CD38_SARM1_bridging_gaps_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "CD38–SARM1 Bridging Gaps — Missing Edges, Metabolic Overlap, and Research Opportunities",
@@ -3480,8 +3757,7 @@
       }
     },
     {
-      "id": "task:task_output_CD38_SARM1_synergy_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_CD38_SARM1_synergy_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Combined CD38 + SARM1 Inhibition Synergy — Graph-Derived Mechanistic Map",
@@ -3526,8 +3802,7 @@
       }
     },
     {
-      "id": "task:task_output_SARM1_NADplus_trace_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_SARM1_NADplus_trace_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "SARM1–NAD+ Trace — Graph-Derived Mechanistic Map",
@@ -3568,8 +3843,7 @@
       }
     },
     {
-      "id": "task:task_output_research_CD38_SARM1_gaps_17_JUL_2026",
-      "kind": "task",
+      "id": "task_output_research_CD38_SARM1_gaps_17_JUL_2026",
       "langs": {
         "en-US": {
           "title": "CD38–SARM1 Research Gaps — Literature Investigation",
@@ -3612,8 +3886,7 @@
       }
     },
     {
-      "id": "task:task_output_fisetin_sasp_cxcl12_15_July_2026",
-      "kind": "task",
+      "id": "task_output_fisetin_sasp_cxcl12_15_July_2026",
       "langs": {
         "en-US": {
           "title": "CXCL12 → Endothelial Dysfunction Mechanistic Trace & Fisetin Rescue Path",
@@ -3650,8 +3923,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Commercial Product Map — Non-Invasive Surrogate Readouts (MnSOD Redox Axis \"Alternatives\")",
@@ -3686,8 +3958,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026",
       "langs": {
         "en-US": {
           "title": "SIRT3/SIRT4 Biomarker Feasibility & MnSOD Redox Axis as a Mitohormetic-Window Indicator",
@@ -3724,8 +3995,7 @@
       }
     },
     {
-      "id": "task:task_output_mitohormetic_window_13_JUL_2026",
-      "kind": "task",
+      "id": "task_output_mitohormetic_window_13_JUL_2026",
       "langs": {
         "en-US": {
           "title": "Mitohormetic Window — Difficulty Review & Personalized Protocol (75 kg healthy male)",
@@ -3762,8 +4032,7 @@
       }
     },
     {
-      "id": "task:_document_ - MRR - mitohormesis",
-      "kind": "task",
+      "id": "_document_ - MRR - mitohormesis",
       "langs": {
         "en-US": {
           "title": "Mitohormetic Redox-Relay (MRR) — A Multi-Component Mitochondrial Rejuvenation Strategy",
@@ -3796,8 +4065,7 @@
       }
     },
     {
-      "id": "task:_document_ - SRAC - SASP-Remodeling Aminochrome Complex",
-      "kind": "task",
+      "id": "_document_ - SRAC - SASP-Remodeling Aminochrome Complex",
       "langs": {
         "en-US": {
           "title": "SASP-Remodeling Aminochrome Complex",
@@ -3826,8 +4094,7 @@
       }
     },
     {
-      "id": "task:task_output_research-scientist_combo_therapy_11_JUN_2026",
-      "kind": "task",
+      "id": "task_output_research-scientist_combo_therapy_11_JUN_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome-Based Combination Therapies",
@@ -3862,8 +4129,7 @@
       }
     },
     {
-      "id": "task:_document_ - Mitohormetic Redox-Relay",
-      "kind": "task",
+      "id": "_document_ - Mitohormetic Redox-Relay",
       "langs": {
         "en-US": {
           "title": "Mitohormetic Redox-Relay",
@@ -3896,8 +4162,7 @@
       }
     },
     {
-      "id": "task:task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026",
-      "kind": "task",
+      "id": "task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026",
       "langs": {
         "en-US": {
           "title": "MnSOD in Sirtuin Signaling vs. Adrenochrome Pathway: A Comparative Mechanistic Analysis",
@@ -3938,8 +4203,7 @@
       }
     },
     {
-      "id": "task:outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00",
-      "kind": "task",
+      "id": "outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00",
       "langs": {
         "en-US": {
           "title": "mb, aminoguanidine",
@@ -3970,8 +4234,7 @@
       }
     },
     {
-      "id": "task:task_output_research-scientist_research_plan_11_JUN_2026",
-      "kind": "task",
+      "id": "task_output_research-scientist_research_plan_11_JUN_2026",
       "langs": {
         "en-US": {
           "title": "Adrenochrome Longevity Research Plan",

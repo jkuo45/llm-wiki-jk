@@ -19,8 +19,11 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // defaults; `active` is group-level.
 // Only entries with `active: true` are listed/opened by the reader —
 // set `active: false` while an entry is being edited so it stays hidden.
-// Task outputs (tasks.json) carry kind: "task" and ids prefixed "task:" so they
-// never collide with article groups in the hash route. Entity notes are not
+// Task outputs (tasks.json) are namespaced by file membership (data.js loads
+// them as TASKS) and stamped kind: "task" by flattenRegistry below, so they
+// never collide with article groups in the hash route. Bare snake_case ids
+// (no "task:" prefix). Legacy "task:<stem>" deep links still resolve via
+// normalizeTaskId in getArticle. Entity notes are not
 // published to the website — the reader only browses articles + task outputs,
 // so there is no third registries here. The source tabs (#reader-source) switch
 // the dropdown between the two registries; task options are grouped by recency
@@ -42,7 +45,12 @@ const ACTIVE_ARTICLES = flattenRegistry(ARTICLES, 'article');
 const ACTIVE_TASKS = flattenRegistry(TASKS, 'task');
 const ALL_ROWS = [...ACTIVE_ARTICLES, ...ACTIVE_TASKS];
 
-const getArticle = (id) => ALL_ROWS.find((a) => a.id === id) || null;
+const normalizeTaskId = (id) =>
+  typeof id === 'string' ? id.replace(/^task:/, '') : id;
+
+const getArticle = (id) => ALL_ROWS.find((a) => a.id === id)
+  || ALL_ROWS.find((a) => a.id === normalizeTaskId(id))
+  || ALL_ROWS.find((a) => a.group === normalizeTaskId(id)) || null;
 
 // Index entry for a source mode — the reader's default landing entry (opened
 // by tab clicks, the modal title, and whenever no specific article applies).
@@ -88,7 +96,9 @@ function sortedGroups(rows) {
   const groupKey = new Map();
   rows.forEach((a) => { if (!groupKey.has(a.group)) groupKey.set(a.group, a); });
   // Display order is derived here (not baked into the JSON): starred groups
-  // first, then newest group first. Each group is a single dropdown option,
+  // first, then lowest `weight` first (index-type entries carry
+  // `weight: 100` in articles.json so they sink to the bottom), then newest
+  // group first. Each group is a single dropdown option,
   // so en/zh pairs always stay together regardless of per-entry `created`
   // differences. Swap `created` for `updated` below if you'd rather sort by
   // last-modified.
@@ -100,6 +110,9 @@ function sortedGroups(rows) {
       const starDiff = (rows.find((r) => r.group === b)?.starred ? 1 : 0) -
         (rows.find((r) => r.group === a)?.starred ? 1 : 0);
       if (starDiff) return starDiff;
+      const weightDiff = (rows.find((r) => r.group === a)?.weight || 0) -
+        (rows.find((r) => r.group === b)?.weight || 0);
+      if (weightDiff) return weightDiff;
       return groupCreated(b).localeCompare(groupCreated(a));
     });
 }
@@ -161,7 +174,12 @@ function updatePrevBtn() {
 // Rendering
 // ------------------------------------------------------------
 function loadArticle(article, section) {
-  const anchor = section ? '#' + encodeURIComponent(section) : '';
+  // Tour state from an embedded tour page (e.g. Inside the Cell) travels in
+  // `section` verbatim as `tour=<mode>&step=<n>` and must be appended RAW —
+  // encodeURIComponent would break the page's own #tour=…&step=… parsing.
+  const anchor = !section ? ''
+    : /^tour=[A-Za-z0-9_]+(&step=\d+)?$/.test(section) ? '#' + section
+    : '#' + encodeURIComponent(section);
   let url;
   if (article.kind === 'task' && article.path.endsWith('.md')) {
     // Task outputs are raw markdown rendered by the shared md-viewer shell;
@@ -229,7 +247,18 @@ function buildOptions() {
         : '')
       .join('');
   } else {
-    select.innerHTML = groups.map((g) => optionHTML(rows, g)).join('');
+    // Weighted groups (index pages, weight > 0 in articles.json) trail in
+    // their own optgroup so they stay together at the bottom of the
+    // dropdown instead of interleaving with time-sorted articles.
+    const groupWeight = (g) => rows.find((r) => r.group === g)?.weight || 0;
+    const main = groups.filter((g) => groupWeight(g) <= 0);
+    const indexes = groups.filter((g) => groupWeight(g) > 0);
+    select.innerHTML = main.map((g) => optionHTML(rows, g)).join('') +
+      (indexes.length
+        ? `<optgroup label="Indexes / 索引附錄 (${indexes.length})">` +
+          indexes.map((g) => optionHTML(rows, g)).join('') +
+          '</optgroup>'
+        : '');
   }
   // Nothing opened yet → preselect the source's index entry so the Reader
   // button opens the index by default (openReader re-selects afterwards).
@@ -322,6 +351,9 @@ let trackingDoc = null;
 function pollActiveSection() {
   const doc = trackingDoc;
   if (!doc || !isReaderOpen()) return;
+  // A tour page mirrors its own state via postMessage — never let the
+  // section-id scroll spy overwrite it.
+  if (state.readerSection && state.readerSection.indexOf('tour=') === 0) return;
   const sections = Array.from(doc.querySelectorAll('section[id]'));
   if (!sections.length) return;
   const navBottom = 60; // sticky nav offset within the article
@@ -367,12 +399,41 @@ function stopSectionTracking() {
   trackingDoc = null;
 }
 
+/* Tour state from an embedded tour page (e.g. Inside the Cell) announces
+   itself via postMessage so the outer #reader=<id>&section=… hash stays in
+   sync — a URL copied from the address bar then reopens inside the reader
+   instead of on the standalone page. Mirrors with replaceState (no history
+   spam); the iframe's own hashchange listener applies outer back/forward
+   and language-toggle navigations without a reload. */
+window.addEventListener('message', (e) => {
+  if (e.origin !== window.location.origin) return;
+  if (!e.data || e.data.type !== 'reader-tour') return;
+  if (!isReaderOpen()) return;
+  if (e.source !== frame.contentWindow) return;
+  const section = typeof e.data.section === 'string' ? e.data.section : '';
+  if (!/^tour=[A-Za-z0-9_]+(&step=\d+)?$/.test(section)) return;
+  if (section === state.readerSection) return;
+  state.readerSection = section;
+  updateHash(false);
+});
+
 /* In-frame article links announce themselves via postMessage so the
    dropdown / lang toggle update immediately on click (the frame `load`
    handler below is the fallback that reconciles after navigation). */
 window.addEventListener('message', (e) => {
   if (e.origin !== window.location.origin) return;
-  if (!e.data || e.data.type !== 'reader-navigate') return;
+  if (!e.data || typeof e.data !== 'object') return;
+  // In-iframe tab switches (e.g. cell-death-comparison table ↔ animations)
+  // report their section so the parent hash stays shareable.
+  if (e.data.type === 'reader-section') {
+    if (!isReaderOpen()) return;
+    const sec = e.data.section || null;
+    if (state.readerSection === sec) return;
+    state.readerSection = sec;
+    updateHash();
+    return;
+  }
+  if (e.data.type !== 'reader-navigate') return;
   const article = getArticle(e.data.id);
   if (!article || article.id === state.readerId) return;
   if (readerStack[readerStack.length - 1] !== article.id) {

@@ -48,5 +48,5 @@ In neurodegenerative contexts, RIPK1 activation contributes to neuronal loss in 
 ## Linking Summary
 
 - New links added: [[TRADD]], [[FADD]], [[TRAF2]], [[TRAF5]], [[TRAF6]], [[RIPK3]], [[Caspase-8]], [[MLKL]], [[IRF3]], [[IKK]], [[TAK1]], [[CRIA syndrome]], [[Necrostatin-1]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Ischemia-reperfusion injury]]
-- Suggested new entity notes to create: [[Necrosome]], [[RHIM domain]], [[Complex I (TNFR1)]], [[Complex IIa (RIPK1)]], [[cIAP1]], [[cIAP2]]
+- Suggested new entity notes to create: [[Necrosome]], [[RHIM domain]], [[TNFR1 complex I]], [[Complex IIa (RIPK1)]], [[cIAP1]], [[cIAP2]]
 - Strong connections to strengthen: [[RIPK1]] ↔ [[MAVS]], [[RIPK1]] ↔ [[TNFα]], [[RIPK1]] ↔ [[Necroptosis]], [[RIPK1]] ↔ [[NF-κB]]

@@ -43,6 +43,7 @@ from graphify.report import generate
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.lib.graph_common import (  # noqa: E402
     PALETTE,
+    dataset_counts,
     enrich_graph_metrics,
     generate_community_colors,
     inject_graph_metadata,
@@ -535,6 +536,7 @@ def write_version_file() -> None:
             {
                 "generated": time.strftime("%Y-%m-%d %H:%M:%S"),
                 "hash": data_hash,
+                "datasets": dataset_counts(DATA_DIR),
                 "files": [p.name for p in files],
             },
             ensure_ascii=False,

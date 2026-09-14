@@ -38,5 +38,5 @@ aliases: [Glyceraldehyde-3-phosphate dehydrogenase, G3PDH]
 
 ## Linking Summary
   - New links added: [[Glycolysis]], [[Oxidative Stress]], [[Apoptosis]], [[NAD+]], [[Transcription]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
-  - Suggested new entity notes to create: [[S-Glutathionylation]], [[Nuclear GAPDH]], [[AIF]]
+  - Suggested new entity notes to create: [[S-Glutathionylation]], [[Nuclear GAPDH]], [[Apoptosis-Inducing Factor|AIF]]
   - Strong connections to strengthen: [[GAPDH]] ↔ [[Glycolysis]], [[GAPDH]] ↔ [[Oxidative Stress]]

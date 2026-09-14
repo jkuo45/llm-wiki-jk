@@ -1,3 +1,13 @@
+---
+title: "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics"
+description: "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status."
+created: 2026-09-05
+updated: 2026-09-05
+type: task-output
+tags: []
+author: []
+---
+
 # Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics
 
 Date: 05_Sep_2026 09:30 PM PDT

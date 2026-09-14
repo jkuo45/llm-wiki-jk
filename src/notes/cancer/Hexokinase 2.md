@@ -2,7 +2,7 @@
 title: Hexokinase 2
 description: Hexokinase 2 (HK2) is the enzyme that catalyzes the first step of glycolysis; it is highly expressed in cancer cells and is a key node of the Warburg Effect, bound to mitochondria to suppress apoptosis.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-09-08
 tags:
   - enzyme
 aliases: []
@@ -23,6 +23,9 @@ HK2 is transcriptionally induced by [[HIF-1α]] under [[Hypoxia]] and by [[Akt]]
 ## Therapeutic Targeting
 
 Blocking HK2 collapses glycolytic flux and restores death sensitivity. [[Fenbendazole]], a benzimidazole anthelmintic, down-regulates/inhibits HK2 in tumor models, synergizing with [[GLUT1]] suppression. Classical inhibitors include [[2-deoxy-D-glucose]] (a competitive substrate that halts glycolysis) and 3-BrPA (which detaches HK2 from mitochondria, unleashing apoptosis). Combination with HK2 detachment and VDAC modulators is a studied strategy to overcome [[Chemotherapy]] resistance.
+
+> [!info] Isoform note
+> [[Hexokinase-1]] (neuronal/housekeeping) — not HK2 — is the validated [[Parthanatos]] target: free [[PAR]] binds its PBM, inhibits catalysis, and dissociates it from [[VDAC]]. See [[Hexokinase-1]].
 
 ## Connections
 

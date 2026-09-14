@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>細胞死亡 — 文章中的圖像與圖表</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+  <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-articles-and-figures.html">
+  <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-articles-and-figures.html">
+  <link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html">
+  <link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<style>
+    /* 行動版表格欄位標籤（覆寫 pages-gallery.css 的英文預設值） */
+    :root {
+      --tbl-col-1: "文獻";
+      --tbl-col-2: "引用";
+      --tbl-col-3: "圖表";
+      --tbl-col-4: "來源";
+    }
+  </style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#necroptosis">壞死性凋亡</a>
+    <a class="n" href="#parthanatos">PAR 死亡訊號</a>
+    <a class="n" href="#crosstalk">核–粒線體交談</a>
+    <a class="n" href="#review">死亡信使</a>
+    <a class="n" href="#cflip">cFLIP 開關</a>
+    <a class="n" href="#necronet">壞死性凋亡網絡</a>
+    <a class="n" href="#parthanatos-plus">Parthanatos 延伸</a>
+    <a class="n" href="#panoptosis">PANoptosis</a>
+    <a class="n" href="#eryptosis">紅細胞凋亡</a>
+    <a class="n" href="#netosis">NETosis</a>
+    <a class="n" href="#library">文獻索引</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">主題索引 · llm-wiki-jk</div>
+    <h1>細胞死亡 — 文章中的圖像與圖表</h1>
+    <p class="lead" style="margin-top:14px;">
+      本頁是 <b style="color:var(--text)">wiki 中細胞死亡主題的索引</b>——下方完整收錄
+      <code>src/notes/cell-death/</code> 中的全部 <b style="color:var(--text)">4 份 vault 文件</b>，
+      以及 <b style="color:var(--text)"><code>raw/</code> 中 17 份待匯入的細胞死亡文件</b>，
+      從同儕審查文章（多為 PMC 開放取用）到實體筆記，皆附引用資訊與原始出版品連結。圖庫以
+      17 個開放取用來源的 <b style="color:var(--text)">45 張圖表</b>說明這些文章——涵蓋 RIPK1／RIPK3／MLKL
+      壞死性凋亡軸及其發炎效應、cFLIP／ripoptosome 命運開關、
+      <b style="color:var(--text)">PAR 聚合物 → AIF 的 parthanatos 程式</b>（從 2006 年發現，
+      經 2009–2014 年機制解析，至 2024 年現代綜合）、整合焦亡、凋亡與壞死性凋亡的
+      <b style="color:var(--text)">PANoptosome</b>、
+      <b style="color:var(--text)">紅細胞凋亡</b>（無核紅血球的 Ca<sup>2+</sup>／神經醯胺調控性死亡，2025 年命名綜述），以及
+      <b style="color:var(--text)">NETosis</b>（自殺型、非典型與存活型 NET 釋放，PAD4／GSDMD 執行）。
+    </p>
+    <div class="meta">
+      收錄 21 份文件：4 份 vault＋17 份待匯入 raw 文件 · 圖像出自開放取用出版品
+      （PMC、PNAS、Frontiers、MDPI）。
+    </div>
+    <div class="pill-row" style="margin-top:14px;">
+      <span class="badge teal">21 份文件</span>
+      <span class="badge">4 份 vault · 17 份 raw</span>
+      <span class="badge">45 張圖表</span>
+      <span class="badge">壞死性凋亡 · parthanatos · PANoptosis · 紅細胞凋亡 · NETosis</span>
+      <span class="badge">RIPK3 · MLKL · cFLIP · PAR · AIF · PAD4 · GSDMD</span>
+    </div>
+  </div>
+</header>
+
+<!-- ==================== NECROPTOSIS ==================== -->
+<section id="necroptosis">
+  <div class="wrap">
+    <h2>壞死性凋亡 — Dhuriya 與 Sharma（2018）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      將壞死性凋亡系統化的時間軸綜述——當 caspase-8 受阻時，以 RIPK3／MLKL 取代凋亡的死亡程式——涵蓋起始機制、
+      典型與非典型 necrosome、磷酸化位點調控，以及其與發炎、感染和神經退化的連結。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6035417/" target="_blank">"Necroptosis: a regulated inflammatory mode of cell death"</a> (<i>J Neuroinflammation</i>, 2018)
+    </p>
+    <div class="gallery-grid" data-gallery="necroptosis">
+
+      <div class="gallery-card" data-cat="necroptosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1493/6035417/03991061a8c4/12974_2018_1235_Fig1_HTML.jpg"
+               alt="凋亡與壞死性凋亡的分子機制：死亡受體、RIPK1／RIPK3 necrosome、MLKL 成孔"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · 壞死性凋亡（2018）</div>
+          <h3>凋亡與壞死性凋亡之辨：Caspase-8 開關</h3>
+          <div class="caption">
+            死亡受體同時驅動外源性凋亡與壞死性凋亡。具活性的 caspase-8 將路徑推向凋亡；一旦受抑制，RIPK1 與 RIPK3
+            便經由 RHIM 結構域相互作用形成 necrosome。RIPK3 磷酸化 MLKL，其寡聚體轉位至細胞膜——招募鈉／鈣離子通道或
+            結合磷脂醯肌醇磷酸脂——形成孔洞並觸發發炎性的裂解式死亡。
+          </div>
+          <div class="context">
+            此開關有兩個前提：細胞必須表現 RIPK3／MLKL，且 caspase-8 必須受抑制或缺失。單獨過度表現 RIPK3
+            或強制其二聚化，即足以在無 RIPK1 的情況下驅動 MLKL 依賴性死亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6035417/" target="_blank">來源：PMC6035417 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="necroptosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1493/6035417/07ced86e1aca/12974_2018_1235_Fig2_HTML.jpg"
+               alt="RIPK 依賴的發炎：RIPK3 激酶活性驅動 MLKL 寡聚化與發炎小體活化"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · 壞死性凋亡（2018）</div>
+          <h3>RIPK 依賴的發炎反應</h3>
+          <div class="caption">
+            RIPK3 激酶活性——可由 RIPK1，以及 TLR3／TLR4–TRIF、ZBP1／DAI 與干擾素訊號活化——驅動 MLKL 寡聚化，最終引發發炎。
+            除了經由 MLKL 孔洞釋放 DAMP，RIPK3 還直接活化發炎小體（caspase-8 介導與 NLRP3 介導兩臂 → caspase-1／11 → 成熟 IL-1β）。
+          </div>
+          <div class="context">
+            MLKL 是否為 NLRP3 活化所必需仍有爭議——部分 MLKL 基因剔除仍保留 IL-1β 成熟。此外，RIPK1 還能以支架蛋白身分、
+            不依賴 RIPK3 驅動細胞激素（TNF–NF-κB／JNK、TLR4–IL-1α、自泌性 TNF）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6035417/" target="_blank">來源：PMC6035417 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PARTHANATOS DISCOVERY ==================== -->
+<section id="parthanatos">
+  <div class="wrap">
+    <h2>Parthanatos 的發現 — Andrabi 等人（2006）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      這篇 PNAS 發現性論文證明，PAR 聚合物本身——PARP-1 過度活化的產物，而非 NAD<sup>+</sup> 耗竭——是一種前所未見的
+      細胞死亡訊號：純化的 PAR 可致死，以 PARG 或磷酸二酯酶 1 降解它可阻斷死亡，而 PARG 的基因劑量決定了活體中風的預後。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838747/" target="_blank">"Poly(ADP-ribose) (PAR) polymer is a death signal"</a> (<i>Proc Natl Acad Sci U S A</i>, 2006)
+    </p>
+    <div class="gallery-grid" data-gallery="parthanatos">
+
+      <div class="gallery-card" data-cat="parthanatos">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/74c3/1838747/0a1a8947a9e7/zpq0460641650001.jpg"
+               alt="以 BioPorter 遞送的 PAR 聚合物誘發神經元死亡，可被 PARG 或磷酸二酯酶 1 阻斷"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Andrabi 2006</div>
+          <h3>純化的 PAR 聚合物具直接毒性</h3>
+          <div class="caption">
+            以體外 PARP-1 自我修飾合成的 PAR 聚合物（平均約 40 聚體，範圍 6–100 聚體），經 BioPorter 遞送後在 80 nM
+            下殺死約五成皮質神經元；預先以 PARG 或磷酸二酯酶 1 處理可完全消除毒性，而電荷對照 poly(A) 無毒。PAR
+            也能殺死 PARP-1 基因剔除神經元——顯示該聚合物作用於酵素下游。
+          </div>
+          <div class="context">
+            Parthanatos 的奠基性充分條件驗證：在能量充足的細胞中，外源 PAR 即具致死性，而以酵素降解它具保護作用——僅以
+            NAD<sup>+</sup> 下降不足以解釋 PARP-1 依賴性死亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838747/" target="_blank">來源：PMC1838747 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/74c3/1838747/d6cdc02a8ab6/zpq0460641650002.jpg"
+               alt="PAR 毒性具長度與劑量依賴性，且不依賴 caspase"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Andrabi 2006</div>
+          <h3>長度、劑量與 Caspase 非依賴性</h3>
+          <div class="caption">
+            分級分離的 PAR：16 聚體毒性弱，30 聚體中等，約 60 聚體（40–100 範圍）在 80 nM 下造成約八成神經元死亡，
+            劑量反應自 20 nM 起——其大小與濃度與 NMDA 興奮性毒性下完整細胞內的 PAR 相符（60 分鐘時約 80 nM）。
+            廣效 caspase 抑制劑 z-VAD-fmk 無法保護神經元或 HeLa 細胞，且 PAR 不直接活化 caspase。
+          </div>
+          <div class="context">
+            複雜度即致死性：PARP-1 依賴性損傷後產生的長鏈分支聚合物才是毒性物種——此結構–毒性規則貫穿後續所有 parthanatos 研究。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838747/" target="_blank">來源：PMC1838747 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/74c3/1838747/22aac9c34019/zpq0460641650003.jpg"
+               alt="中和性 PAR 抗血清與細胞質 PARG 過度表現減輕 NMDA 誘發的神經元死亡"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Andrabi 2006</div>
+          <h3>阻斷 PAR 訊號保護神經元</h3>
+          <div class="caption">
+            細胞內 anti-PAR 抗血清（可免疫清除純化 PAR 與核上清中的 PAR）使 NMDA（500 μM、5 分鐘）誘發的神經元死亡減半；
+            免疫前／正常血清無效。以缺失 exon-1 的野生型 PARG 腺病毒表現於細胞質，可降低細胞質 PAR 並使 NMDA 死亡減半，
+            而催化失活突變體（E756A／E757A）與 GFP 對照無此效果。同樣的保護作用亦見於 MNNG 殺傷 HeLa 細胞。
+          </div>
+          <div class="context">
+            必要性補充分性：中和或降解內源性 PAR 可挽救兩種獨立的 PARP-1 依賴模型（興奮性毒性神經元、基因毒性 HeLa）——殘餘死亡
+            反映清除不完全（20 nM PAR 仍具毒性）或平行路徑的存在。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838747/" target="_blank">來源：PMC1838747 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/74c3/1838747/31e897f16c06/zpq0460641650004.jpg"
+               alt="活體局部缺血後，PARG 基因劑量決定 PAR 累積與梗塞體積"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · Andrabi 2006</div>
+          <h3>PARG 劑量決定活體易感性</h3>
+          <div class="caption">
+            PARG<sup>+/−</sup> 皮質神經元在 NMDA 處理後累積約兩倍 PAR，基礎值亦較高，死亡多出約兩成——與純化 PAR
+            的劑量反應相符。以 PrP 啟動子表現 PARG 的轉基因鼠在 120 分鐘大腦中動脈阻塞後，半球梗塞減少 62%、紋狀體減少
+            52%、皮質減少 59%；PARG 異型合子在 90 分鐘阻塞後則分別增加 56%／56%／62%，且血流灌注、體溫與神經缺損評分皆匹配。
+          </div>
+          <div class="context">
+            PAR 假說的活體驗證：PAR 清除者雙向決定中風預後，提名 PAR 中和與 PARG 增強作為中風、創傷與缺血再灌注損傷的治療策略。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838747/" target="_blank">來源：PMC1838747 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NUCLEAR-MITO CROSSTALK ==================== -->
+<section id="crosstalk">
+  <div class="wrap">
+    <h2>核–粒線體交談 — Andrabi／Dawson（2008）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      為 <i>parthanatos</i>（PAR＋Thanatos）命名的綜述：PARP-1 過度活化產生 PAR 聚合物，由細胞核轉位至細胞質，
+      與粒線體共定位並觸發 AIF 釋放——一種不依賴 caspase、異於凋亡、壞死與自噬的死亡方式。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4454457/" target="_blank">"Mitochondrial and Nuclear Cross Talk in Cell Death: Parthanatos"</a> (<i>Ann N Y Acad Sci</i>, 2008)
+    </p>
+    <div class="gallery-grid" data-gallery="crosstalk">
+
+      <div class="gallery-card" data-cat="crosstalk">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ee7b/4454457/bddf2e0bc605/nihms693535f1.jpg"
+               alt="PARP-1 利用 NAD⁺ 在受質上建構 PAR；PARG 水解之；輕度損傷走向修復，過量 PAR 經 parthanatos 致死"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Andrabi 2008</div>
+          <h3>PAR 代謝：修復與死亡之辨</h3>
+          <div class="caption">
+            PARP-1 利用 NAD<sup>+</sup> 在受質蛋白（異體修飾）或自身（自我修飾）上建構 PAR，並釋出菸鹼醯胺（PARP
+            回饋抑制劑，回補 NAD<sup>+</sup> 補救循環）。PARG 將 PAR 水解為游離聚合物或 ADP-核糖。輕度 DNA 切口經
+            poly（ADP-核糖基）化啟動修復；超出修復閾值的損傷產生過量 PAR，經 parthanatos 致死。
+          </div>
+          <div class="context">
+            劑量閾值模型：同一酵素在低活性時是基因體守護者，過度活化時則是死亡啟動者——此生死二元性框定了所有 parthanatos 治療策略。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4454457/" target="_blank">來源：PMC4454457 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="crosstalk">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ee7b/4454457/af044bbeee8b/nihms693535f2.jpg"
+               alt="PARP-1 活化與 PAR 驅動的 AIF 釋放：核內 PAR 轉位至細胞質與粒線體"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Andrabi 2008</div>
+          <h3>PAR → 粒線體 → AIF 級聯反應</h3>
+          <div class="caption">
+            DNA 損傷活化核內 PARP-1，在其自身與受質蛋白上建構 PAR。PARG 可修剪核內 PAR，但累積的 PAR 會轉位至細胞質——游離或與蛋白結合——細胞質
+            PARG 異構物僅在生成與降解平衡時才能清除。細胞質 PAR 作用於粒線體釋放 AIF，AIF 轉位至細胞核驅動大規模 DNA 片段化與死亡。
+          </div>
+          <div class="context">
+            Harlequin 小鼠（AIF 減少約八成）抵抗 NMDA、純化 PAR、興奮性毒性與中風損傷，重新表現 AIF 即恢復易感性——AIF
+            是 PAR 訊號下游的執行者。釋放步驟的待驗候選機制：mPTP（ANT／VDAC／cyclophilin D）、BAX 轉位、calpain 截切 AIF。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4454457/" target="_blank">來源：PMC4454457 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== MESSENGER OF DEATH ==================== -->
+<section id="review">
+  <div class="wrap">
+    <h2>死亡信使 — David 等人（2009）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      奠基性綜合論述，主張 PAR 聚合物——而非 NAD<sup>+</sup> 消耗——才是 PARP-1 下游的細胞毒性效應物：PARP 結構域生物學、
+      PAR 合成與降解、NAD<sup>+</sup>／AIF 爭議、PARG 遺傳學，以及仍待描繪的核–粒線體連結。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4450718/" target="_blank">"Parthanatos, a messenger of death"</a> (<i>Front Biosci</i>, 2009)
+    </p>
+    <div class="gallery-grid" data-gallery="review">
+
+      <div class="gallery-card" data-cat="review">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5fc7/4450718/3886c08af693/nihms-693559-f0001.jpg"
+               alt="PARP-1 結構域圖：鋅指、含 caspase 位點的核定位訊號、自我修飾 BRCT 結構域、催化性 NAD⁺ 摺疊"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · David 2009</div>
+          <h3>PARP-1 結構域架構</h3>
+          <div class="caption">
+            PARP-1 利用 NAD<sup>+</sup> 在受質上形成 ADP-核糖聚合物。主要結構域：（1）偵測 DNA 斷裂的兩個鋅指，
+            （2）含 caspase 切割位點的雙分核定位訊號，（3）帶 BRCT 蛋白交互作用基序的自我修飾結構域，以及（4）攜帶 PARP
+            特徵 NAD<sup>+</sup> 摺疊的 C 端催化位點（與細菌 ADP-核糖基化毒素共享）。
+          </div>
+          <div class="context">
+            結構解釋調控：DNA 斷裂感測（鋅指）與催化（NAD<sup>+</sup> 摺疊）相偶聯，caspase 切割與 BRCT 交互作用則調控生存
+            （修復／轉錄／有絲分裂）與死亡輸出。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4450718/" target="_blank">來源：PMC4450718 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="review">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5fc7/4450718/6ff7468fda5a/nihms-693559-f0002.jpg"
+               alt="PAR 聚合物代謝：起始、延長、分支與 PARG 降解"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · David 2009</div>
+          <h3>PAR 的合成、分支與降解</h3>
+          <div class="caption">
+            起始（1）：PARP-1 將 NAD<sup>+</sup> 轉為 ADP-核糖加菸鹼醯胺，經酯鍵將第一個單位接至受質的 Glu／Asp。延長（2）
+            與分支（3）分別經由 2′-OH 與 2″-OH 核糖鍵進行（每 20–50 單位約一分支；最長可達 200–400 單位）。降解（4）由 PARG
+            的內切／外切醣苷酶活性催化，最後一個單位由 mono-ADP-核糖基–蛋白裂解酶移除。
+          </div>
+          <div class="context">
+            異質性即功能：游離或結合、線性或分支、短或長的聚合物——隨刺激與 PARP 異構物而異——可能區分 17 成員 PARP 家族中的生存與死亡訊號。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4450718/" target="_blank">來源：PMC4450718 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="review">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5fc7/4450718/a1bc060baf5c/nihms-693559-f0003.jpg"
+               alt="PARP-1 過度活化導致 AIF 釋放：過量 PAR 穿梭至細胞質並擾動粒線體蛋白"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · David 2009</div>
+          <h3>核–粒線體交談模型</h3>
+          <div class="caption">
+            造成過度 DNA 損傷的死亡刺激（1）使 PARP-1 過度活化（2），AIF 自粒線體釋放（3）。過量的游離或蛋白結合複合 PAR
+            由細胞核移往細胞質，擾亂蛋白交互作用——在膜電位喪失的背景下，作用於 AIF 釋放、膜通透化或粒線體功能蛋白。下游事件包括
+            calpain 活化與 BAX 轉位，假說認為 calpain 切割 AIF 使其經由 BAX 孔洞釋放。
+          </div>
+          <div class="context">
+            該綜述結論性的盤點：NAD<sup>+</sup>／ATP 下降真實存在但不足以致死（粒線體 NAD<sup>+</sup> 維持生理濃度；BAX／calpain
+            基因剔除在 NAD<sup>+</sup> 大幅下降下仍耐受 MNNG；PARP-1 基因剔除的梗塞保護作用無能量狀態差異）——PAR 誘發的 AIF
+            轉位定義了 parthanatos，而 PAR→通透化／calpain／BAX 連結與可成藥的 PAR 結合蛋白仍是未解問題。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4450718/" target="_blank">來源：PMC4450718 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CFLIP SWITCH (RAW) ==================== -->
+<section id="cflip">
+  <div class="wrap">
+    <h2>cFLIP 開關 — DISC、Ripoptosome 與 Necrosome（待匯入）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      cFLIP 異構物作為存活、凋亡與壞死性凋亡之間的命運開關：cFLIP<sub>L</sub> 在不完全切割的情況下活化
+      procaspase-8（存活），cFLIP<sub>S/R</sub> 阻斷之——而當 RIPK1 無法被切割時，ripoptosome 將接力交給
+      RIPK1–RIPK3–MLKL necrosome。待匯入的 raw 素材。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4691174/" target="_blank">"FLIP the Switch: Regulation of Apoptosis and Necroptosis by cFLIP"</a> (Tsuchiya et al., <i>Int J Mol Sci</i>, 2015)
+       · 相關 raw：Feoktistova et al., <i>Mol Cell</i> 2011 （2 MDa ripoptosome；付費牆，無開放取用圖表） ·
+      Micheau et al., <i>J Biol Chem</i> 2002 （FLIP<sub>L</sub> 於 Fas DISC 活化 caspase-8；無開放取用圖表）.
+    </p>
+    <div class="gallery-grid" data-gallery="cflip">
+
+      <div class="gallery-card" data-cat="cflip">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/748c/4691174/51366facfc1c/ijms-16-26232-g001.jpg"
+               alt="人類 cFLIP 異構物之基因與蛋白結構（CFLAR 基因座）"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Tsuchiya 2015 ◆</div>
+          <h3>人類 cFLIP 的基因與蛋白結構</h3>
+          <div class="caption">
+            位於人類染色體 2q33–34 的 <i>CFLAR</i> 基因（鄰近 caspase-8／10，為古老重複事件）及其蛋白產物：cFLIP<sub>L</sub>
+            （55 kDa，兩個 DED＋催化失活的 caspase 樣結構域）、cFLIP<sub>S</sub>（27 kDa，僅 DED）與 cFLIP<sub>R</sub>（25 kDa）——以及
+            caspase-8 於 Asp376／Asp196 切割產生的 p43-FLIP／p22-FLIP 片段。
+          </div>
+          <div class="context">
+            所有異構物皆經由 DED–DED 交互作用與 caspase-8 形成異二聚體；異構物種類、濃度與組織情境——由泛素–蛋白酶體系統監管——決定存活或死亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4691174/" target="_blank">來源：PMC4691174 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="cflip">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/748c/4691174/c2a0953ff753/ijms-16-26232-g002.jpg"
+               alt="cFLIP 於死亡受體 DISC 中的功能：同二聚體與異二聚體的不同結局"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Tsuchiya 2015 ◆</div>
+          <h3>DISC 中的 cFLIP：凋亡或存活</h3>
+          <div class="caption">
+            死亡配體三聚體 → 受體 → FADD → 經 DED 將 procaspase-8、cFLIP<sub>L</sub> 與 cFLIP<sub>S</sub> 招募至 DISC。
+            Procaspase-8 同二聚體產生完全切割的 caspase-8 並走向凋亡；procaspase-8–cFLIP<sub>L</sub> 異二聚體產生 p43／p22-FLIP，
+            滯留於 DISC 且受質受限（存活）；procaspase-8–cFLIP<sub>S</sub> 異二聚體無催化活性（凋亡受阻）。
+          </div>
+          <div class="context">
+            定量 DISC 化學計量（質譜：procaspase-8 遠多於 FADD，cFLIP 極少）加上 DED 鏈與兩步模型，解釋了微量 cFLIP 如何設定死亡配體閾值——一個雙穩態的生死開關。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4691174/" target="_blank">來源：PMC4691174 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="cflip">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/748c/4691174/5062b4269fe6/ijms-16-26232-g003.jpg"
+               alt="cFLIP 於 ripoptosome 形成及交棒至 necrosome 的功能"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Tsuchiya 2015 ◆</div>
+          <h3>Ripoptosome → Necrosome 交棒中的 cFLIP</h3>
+          <div class="caption">
+            基因毒性壓力或 IAP 缺失暴露 RIPK1 的死亡結構域 → FADD → DED 蛋白組裝成 2 MDa ripoptosome
+            （RIPK1／FADD／caspase-8／cFLIP），無需死亡受體。同二聚體 caspase-8 切割 RIPK1 並解散複合體（凋亡）；
+            cFLIP<sub>L</sub> 異二聚體亦切割 RIPK1 但保留 procaspase-8（存活）；cFLIP<sub>S</sub> 異二聚體無法切割 RIPK1——於是
+            RIPK1–RIPK3–MLKL 組裝成 necrosome 並執行壞死性凋亡。
+          </div>
+          <div class="context">
+            連結 vault 壞死性凋亡筆記與 raw 素材的橋樑：<i>Cflip</i><sup>−/−</sup> 胚胎致死唯有在同時刪除 <i>Fadd</i>＋<i>Ripk3</i>
+            時才獲挽救——cFLIP<sub>L</sub> 在活體中同時箝制凋亡與壞死性凋亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4691174/" target="_blank">來源：PMC4691174 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NECROPTOSIS NETWORK (RAW) ==================== -->
+<section id="necronet">
+  <div class="wrap">
+    <h2>壞死性凋亡網絡 — 調控與 MLKL／Drp1 驗證（待匯入）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      從 2026 年壞死性凋亡調控的領域現況綜合，到一錘定音的遺傳學驗證：RIPK3 驅動的壞死性凋亡嚴格需要
+      MLKL——但不需要粒線體分裂 GTPase Drp1。待匯入的 raw 素材。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13171333/" target="_blank">"Regulatory complexity and therapeutic targeting of the necroptosis network"</a> (Niu et al., <i>Front Immunol</i>, 2026)
+      &amp; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3944236/" target="_blank">"Necroptosis induced by RIPK3 requires MLKL but not Drp1"</a> (Moujalled et al., <i>Cell Death Dis</i>, 2014)
+    </p>
+    <div class="gallery-grid" data-gallery="necronet">
+
+      <div class="gallery-card" data-cat="necronet">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efc6/13171333/99b44cc47062/fimmu-17-1824460-g001.jpg"
+               alt="經由 RIPK3–MLKL 軸的壞死性凋亡訊號路徑總覽"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Niu 2026 ◆</div>
+          <h3>壞死性凋亡訊號路徑一覽</h3>
+          <div class="caption">
+            壞死性凋亡經由 RIPK3／MLKL 軸執行，上游有三條主要路徑：（1）TNFR1–TNF 結合驅動 RIPK1／RIPK3／MLKL 級聯，
+            （2）ZBP1 感測病毒 Z-RNA，（3）TLR3／4–TRIF 訊號——典型與非典型誘發最終匯聚於 RIPK3 磷酸化 MLKL 與細胞膜成孔。
+          </div>
+          <div class="context">
+            Vault 2018 年時間軸綜述的現代對應版：核心軸相同，誘發因子清單擴增，並明確框出治療脆弱性（發炎、神經退化、缺血適應症；腫瘤學上針對凋亡抗性細胞）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13171333/" target="_blank">來源：PMC13171333 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="necronet">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efc6/13171333/26ca76aa0f14/fimmu-17-1824460-g002.jpg"
+               alt="轉譯後修飾與表觀遺傳機制對 RIPK1／RIPK3／MLKL 的多層調控"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Niu 2026 ◆</div>
+          <h3>核心執行者的多層調控</h3>
+          <div class="caption">
+            上游訊號匯聚於 RIPK1，由其整合存活與死亡訊息；RIPK3 經由磷酸化 MLKL 放大並傳散死亡訊號。每個執行者皆受轉譯後修飾
+            （磷酸化、泛素化）與表觀遺傳機制微調，作為 necrosome 組裝與 MLKL 膜定位的開關。
+          </div>
+          <div class="context">
+            將 vault 筆記的磷酸化位點目錄（RIPK1 Ser89／161／166／321；RIPK3 Ser199／227／232）直接擴展為完整的調控架構——藥物開發必須穿越的層次。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13171333/" target="_blank">來源：PMC13171333 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="necronet">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efc6/13171333/97ad4e90a95b/fimmu-17-1824460-g003.jpg"
+               alt="壞死性凋亡與凋亡、自噬、發炎及代謝的交談"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Niu 2026 ◆</div>
+          <h3>與凋亡、自噬及代謝的交談</h3>
+          <div class="caption">
+            壞死性凋亡在不同條件下與凋亡、自噬、發炎（NF-κB）及代謝（以 PDC 為中心）訊號交互作用——共享節點（RIPK1、caspase-8、
+            cFLIP）在各程式間分流細胞，這正是單一路徑抑制可能改道而非挽救死亡的原因。
+          </div>
+          <div class="context">
+            將 vault 的 cFLIP／ripoptosome 與 PANoptosis raw 素材框定為同一原則的實例：細胞死亡模式是一個耦合網絡，而非孤立路徑。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13171333/" target="_blank">來源：PMC13171333 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="necronet">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8b1c/3944236/743571917cf7/cddis201418f1.jpg"
+               alt="TNF 加 smac 模擬物經由凋亡殺死野生型、Mlkl 基因剔除與 Drp1 基因剔除 MEF"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Moujalled 2014 ◆</div>
+          <h3>TNF＋Smac 模擬物：無需 MLKL 或 Drp1 的凋亡</h3>
+          <div class="caption">
+            基因型確認（MLKL／RIPK3／Drp1 免疫墨點——注意 Drp1<sup>−/−</sup> MEF 測不到 RIPK3／MLKL）與 TNF＋smac 模擬物殺傷曲線：
+            WT 與 <i>Mlkl</i><sup>−/−</sup> MEF 經 QVD 可阻斷的 caspase 依賴性凋亡快速死亡；<i>Drp1</i><sup>−/−</sup> MEF
+            死亡較慢（48–72 小時）但仍死亡——回補 Drp1 即恢復 WT 動力學。此凋亡分支不需要 MLKL 或 Drp1。
+          </div>
+          <div class="context">
+            分離問題的對照實驗：此處 TNF＋smac 模擬物誘發的死亡是凋亡，因此後續測試的任何 MLKL／Drp1 需求皆專屬於 RIPK3 驅動的壞死性凋亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3944236/" target="_blank">來源：PMC3944236 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="necronet">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8b1c/3944236/efd30f045324/cddis201418f2.jpg"
+               alt="RIPK3 二聚化不依賴 Drp1 誘發壞死性凋亡；mdivi-1 無保護作用"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Moujalled 2014 ◆</div>
+          <h3>RIPK3 二聚化無需 Drp1 即可致死</h3>
+          <div class="caption">
+            誘導型 RIPK3–gyrase 二聚化（4HT＋coumermycin，無需 TNF）殺死約七成 WT、<i>Mlkl</i><sup>−/−</sup> 與
+            <i>Drp1</i><sup>−/−</sup> MEF。QVD 使 WT 死亡減半，但完全保護 <i>Mlkl</i><sup>−/−</sup>（其死亡純為凋亡），
+            而 <i>Drp1</i><sup>−/−</sup> 細胞在 QVD 下仍死亡。Drp1 GTPase 抑制劑 mdivi-1 既不保護存活率也不保護群落形成能力。
+          </div>
+          <div class="context">
+            反駁 PGAM5→Drp1 必要步驟模型（Wang 等人，2012）：經由 Drp1 的粒線體片段化對壞死性凋亡執行並非必要——MLKL 才是不可或缺的效應物。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3944236/" target="_blank">來源：PMC3944236 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="necronet">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8b1c/3944236/5c01c5263645/cddis201418f3.jpg"
+               alt="顯性活性 MLKL 突變體不依賴 caspase 殺死野生型與 Drp1 基因剔除 MEF"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Moujalled 2014 ◆</div>
+          <h3>活化 MLKL 本身即足夠——無需 Drp1</h3>
+          <div class="caption">
+            Doxycycline 誘導的 WT MLKL 殺死部分 WT MEF；顯性活性突變體 Q343A 與磷酸模擬 SSEE（S345E／S347E）殺傷力強——在 WT
+            與 <i>Drp1</i><sup>−/−</sup> MEF 皆然，且 QVD 無法阻斷。共同誘導 RIPK3–gyrase 放大對 <i>Drp1</i><sup>−/−</sup>
+            細胞的殺傷，仍對 QVD 不敏感：MLKL 下游的壞死性凋亡不需要 Drp1。
+          </div>
+          <div class="context">
+            與必要性結果相匹配的充分性：MLKL 活化是終端、不依賴 Drp1 的執行步驟——與「致死事件是 MLKL 於細胞膜成孔，而非粒線體分裂」一致。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3944236/" target="_blank">來源：PMC3944236 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PARTHANATOS PLUS (RAW) ==================== -->
+<section id="parthanatos-plus">
+  <div class="wrap">
+    <h2>Parthanatos 延伸 — 機制、治療與未解問題（待匯入）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Vault 2006–2009 年 parthanatos 核心，以 raw 素材延伸：引用最高的機制綜述（Fatokun 2014）、PAR→AIF
+      關鍵事件綜合（Wang 2009）、證明 PAR 釋放 AIF 的姊妹篇（Yu 2006）、2024 年 Dawson 實驗室治療進展（Yang 2024），
+      以及未解問題路線圖（Moura 2024）。待匯入的 raw 素材。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3976618/" target="_blank">Fatokun et al., <i>Br J Pharmacol</i> 2014</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2752872/" target="_blank">Wang et al., <i>Exp Neurol</i> 2009</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838748/" target="_blank">Yu et al., <i>PNAS</i> 2006</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11410548/" target="_blank">Yang et al., <i>Biochem Pharmacol</i> 2024</a> ·
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11445734/" target="_blank">Moura et al., <i>Genet Mol Biol</i> 2024</a>
+       · 相關 raw：Yu et al., <i>Science</i> 2002 （PARP-1→AIF 奠基摘要；付費牆，無開放取用圖表）.
+    </p>
+    <div class="gallery-grid" data-gallery="parthanatos-plus">
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9228/3976618/bbcff2c0a132/bph0171-2000-f1.jpg"
+               alt="PARP-1 一級結構：DNA 結合、自我修飾與催化結構域"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Fatokun 2014 ◆</div>
+          <h3>PARP-1 一級結構</h3>
+          <div class="caption">
+            116 kDa PARP-1 由三個結構域組成：N 端 DNA 結合結構域（兩個鋅指＋NLS）、中央自我修飾結構域（帶調控磷酸化位點的 BRCT
+            基序），以及 C 端催化結構域（NAD<sup>+</sup> 結合位點＋PAR 合成結構域）——人鼠同源性約 92%，以催化 PARP 特徵區最高。
+          </div>
+          <div class="context">
+            結構解釋 DNA 損傷時高達 500 倍的活化：斷裂感測（鋅指）偶聯持續性 PAR 合成——輕度損傷走向修復，重度損傷產生長鏈分支致死聚合物。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3976618/" target="_blank">來源：PMC3976618 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9228/3976618/358da00c5c2e/bph0171-2000-f2.jpg"
+               alt="從 NMDA 到 AIF 依賴性 DNA 片段化的 parthanatos 事件級聯"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Fatokun 2014 ◆</div>
+          <h3>完整的 Parthanatos 級聯反應</h3>
+          <div class="caption">
+            NMDA → Ca<sup>2+</sup> → nNOS → NO＋粒線體超氧物 → 過氧亞硝酸鹽 → DNA 損傷 → PARP-1 過度活化 → PAR 累積
+            （NAD<sup>+</sup>／ATP 耗竭標示為非因果，？？？）→ PAR 結合 AIF 上的 PAR 結合位點 → 粒線體釋放 → 核轉位 →
+            經由尚未鑑定的 PAAN（parthanatos AIF 相關核酸酶）造成約 50 kb DNA 片段化與染色質濃縮。
+          </div>
+          <div class="context">
+            該領域的標竿圖解（被引約 600 次）：每個箭頭都是一個治療假說，而兩個明確的未知——能量耗竭因果（已否定）與 PAAN
+            身分（未解）——十年後仍組織著文獻版圖。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3976618/" target="_blank">來源：PMC3976618 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9228/3976618/4a7386c463ee/bph0171-2000-f3.jpg"
+               alt="parthanatos 級聯中的潛在治療介入點"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Fatokun 2014 ◆</div>
+          <h3>級聯反應中的治療機會</h3>
+          <div class="caption">
+            從毒性刺激到死亡的介入地圖：PARP 阻斷劑（進展最快，多款已進入臨床試驗）、PAR 中和／PARG 增強、AIF 釋放阻斷，
+            以及下游核酸酶抑制——每個方框介入點連結其調控的級聯步驟，涵蓋中風、創傷、帕金森氏症、阿茲海默症、糖尿病與缺血再灌注適應症。
+          </div>
+          <div class="context">
+            注意該綜述標示的腫瘤學反轉：在癌症中，同樣的 PARP 抑制劑用於<i>促進</i>死亡（阻斷修復缺陷腫瘤的修復），而非預防死亡。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3976618/" target="_blank">來源：PMC3976618 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a15f/2752872/4cb1cf1ecb19/nihms106018f1.jpg"
+               alt="人類 AIF 異構物及前驅體–成熟體–截短體加工"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Wang 2009 ◆</div>
+          <h3>AIF 異構物與加工</h3>
+          <div class="caption">
+            X 染色體 16 外顯子基因產生的五種人類 AIF 異構物：全長 AIF（613 個胺基酸）與 AIF-exB，具 FAD 結合（D1）、NADH
+            結合（D2）與 C 端死亡（D3）結構域及 MLS／NLS 訊號；短版細胞質 AIFsh（外顯子 10–16，無氧化還原酶部分仍可致死）；
+            粒線體 AIFsh2（無 C 端，無法致死）。前驅體（67 kDa）→ 成熟體（62 kDa，Met53／Ala54 切割）→ 截短體（57 kDa）
+            加工決定膜錨定或可釋放性。
+          </div>
+          <div class="context">
+            結構域邏輯：氧化還原酶活性（生存）可與 C 端死亡功能分離——也與 PAR 結合分離，PAR 結合位點異於 DNA 結合位點（Wang 等人，2011）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2752872/" target="_blank">來源：PMC2752872 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a15f/2752872/af872c169da1/nihms106018f2.jpg"
+               alt="PARP 生成與 PARG 降解對 PAR 聚合物的調控"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Wang 2009 ◆</div>
+          <h3>PAR 的生成與降解之爭</h3>
+          <div class="caption">
+            嚴重 DNA 損傷過度活化 PARP（PARP-1 佔聚合物九成以上）：NAD<sup>+</sup> → PAR＋菸鹼醯胺，接合至 PARP-1
+            自身與核內受質（聚合物暴增 10–500 倍，長達數百單位）。PARG 快速水解核糖–核糖鍵產生游離 ADP-核糖——合成與降解競賽的結局
+            （PAR 累積或清除）決定 parthanatos。
+          </div>
+          <div class="context">
+            與 vault 的 PARG 劑量遺傳學呼應（Andrabi 2006 圖 4）：PARG 轉基因抵抗中風，異型合子敏感化，完全剔除死於胚胎 E3.5——PAR
+            量調控攸關存活。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2752872/" target="_blank">來源：PMC2752872 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a15f/2752872/4cc29a5b055b/nihms106018f3.jpg"
+               alt="parthanatos 中 PARP-1–PAR 聚合物–AIF 死亡訊號的四步示意模型"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Wang 2009 ◆</div>
+          <h3>四步 Parthanatos 模型</h3>
+          <div class="caption">
+            步驟一：DNA 損傷（NMDA → Ca<sup>2+</sup>／nNOS／NO／超氧物 → 過氧亞硝酸鹽；或 MNNG、ROS、H<sub>2</sub>O<sub>2</sub>、
+            輻射）活化 PARP-1。步驟二：PAR 聚合物於核內形成並轉位至粒線體。步驟三：PAR 介導 AIF 釋放與核轉位。步驟四：AIF
+            以未知機制驅動染色質濃縮與大規模（約 50 kb）DNA 片段化。
+          </div>
+          <div class="context">
+            承諾點框架：AIF 核轉位——而非 caspase 活化或能量崩潰——是不歸點，使 PAR 介導的 AIF 釋放成為神經疾病的首要治療標靶。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2752872/" target="_blank">來源：PMC2752872 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4647/1838748/a58b7c9492df/zpq0460641390001.jpg"
+               alt="PARP-1 活化的核上清誘發分離粒線體釋放 AIF"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Yu 2006 ◆</div>
+          <h3>釋放 AIF 的因子不是蛋白質</h3>
+          <div class="caption">
+            PARP-1 活化的 HeLa／神經元核上清 SN（PAR）誘發分離小鼠腦粒線體釋放 AIF（以 COX IV 為對照）；對照上清與單獨
+            NAD<sup>+</sup> 無此作用。Proteinase K 降解上清中多數蛋白，AIF 釋放活性依然存活——該訊號非蛋白質。
+          </div>
+          <div class="context">
+            鎖定 PAR 的關鍵實驗：PARP-1 製造的 AIF 釋放物耐受蛋白酶消化——指向核酸樣聚合物，而非蛋白質死亡因子。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838748/" target="_blank">來源：PMC1838748 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4647/1838748/188e06cf4a3b/zpq0460641390002.jpg"
+               alt="純化 PAR 聚合物以長度與劑量依賴方式誘發 AIF 釋放；PARG 阻斷之"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Yu 2006 ◆</div>
+          <h3>純化 PAR 釋放 AIF——長度與劑量</h3>
+          <div class="caption">
+            純化 PAR 如 SN（PAR）般誘發 AIF 釋放；proteinase K 無法阻止，但以 PARG／PD1 降解聚合物即消除釋放。16 聚體釋放少，
+            30 聚體中等，60 聚體以上在 80 nM 下強力釋放 AIF；20 nM 為閾值，釋放量隨濃度升至 160 nM——毒性物種（Andrabi 2006）
+            即 AIF 釋放物種。
+          </div>
+          <div class="context">
+            與 Andrabi 2006 姊妹篇步調一致：殺傷（該文圖 2）與 AIF 釋放（本文）遵循相同的長度／劑量規則——一種聚合物，一種機制。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838748/" target="_blank">來源：PMC1838748 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4647/1838748/67f41df2565b/zpq0460641390003.jpg"
+               alt="NMDA 受體刺激後 PAR 聚合物出現於細胞質與粒線體"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Yu 2006 ◆</div>
+          <h3>NMDA 後的細胞質 PAR：15 → 30 → 60 分鐘</h3>
+          <div class="caption">
+            5 分鐘 NMDA（500 μM）處理後的共軛焦追蹤：15 分鐘時 PAR 位於核內；30–60 分鐘時在核周形成細胞質環並抵達粒線體分離層
+            （與細胞色素氧化酶共定位）——在完整神經元中可視化核→細胞質→粒線體之旅，並以分離層墨點確認。
+          </div>
+          <div class="context">
+            交談模型的時空證據：PAR 在數分鐘內於核內生成，並在 AIF 離開之前抵達粒線體——訊號先於執行。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838748/" target="_blank">來源：PMC1838748 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4647/1838748/202af97ba6a4/zpq0460641390005.jpg"
+               alt="NMDA 誘發的 AIF 轉位由 PAR 聚合物介導，可被 PARG 阻斷"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 5 · Yu 2006 ◆</div>
+          <h3>神經元中的 NMDA → PAR → AIF 轉位</h3>
+          <div class="caption">
+            NMDA 驅動皮質神經元 AIF 由粒線體轉位至細胞核；降解 PAR（PARG 過度表現）或中和 PAR 可阻止轉位與死亡，
+            而 Harlequin（AIF 低量）神經元抵抗 NMDA 與純化 PAR 殺傷——以病毒重新表現 AIF 即恢復易感性。
+          </div>
+          <div class="context">
+            閉合體外→活體迴路：內源性 PAR 是 NMDA 誘發 AIF 轉位的必要條件，AIF 是 PAR 誘發殺傷的必要條件——PAR→AIF 軸的雙重必要性證明。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838748/" target="_blank">來源：PMC1838748 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f2f/11410548/94cc522701a3/nihms-1985958-f0001.jpg"
+               alt="2024 年 parthanatos 細胞死亡機制總覽"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Yang 2024 ◆</div>
+          <h3>Parthanatos 機制——2024 年現況</h3>
+          <div class="caption">
+            Dawson 實驗室最新機制圖：PARP-1 過度活化 → PAR 累積 → 粒線體 AIF 釋放 → AIF–MIF 核酸酶核複合體 → 大規模 DNA
+            片段化——新增 H1.2 PAR 載體、Iduna（RNF146）PAR 依賴性調控、hexokinase-1 生物能量學、HDAC6，以及驅動帕金森氏症、
+            阿茲海默症、亨丁頓舞蹈症、ALS 與中風病理的神經發炎分支。
+          </div>
+          <div class="context">
+            2014 年以來的新進展：PAR 有載體運送（H1.2），AIF 的核酸酶搭檔已鑑定（MIF），parthanatos 被框定為疾病修飾標靶——目前尚無
+            FDA 核准的抗死亡藥物。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11410548/" target="_blank">來源：PMC11410548 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f2f/11410548/7cfa3a77cf7c/nihms-1985958-f0002.jpg"
+               alt="parthanatos 路徑中的介入點"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Yang 2024 ◆</div>
+          <h3>Parthanatos 的介入點</h3>
+          <div class="caption">
+            映射於路徑上的可成藥節點：PARP-1 抑制、PAR 累積阻斷（PARG／Iduna 軸）、AIF 釋放與 AIF–MIF 交互作用阻斷，
+            以及生物能量（HK-1）與神經發炎調節劑——疾病修飾 parthanatos 藥物的藥物化學候選清單。
+          </div>
+          <div class="context">
+            Fatokun 2014 圖 3 的 2024 年繼承者：級聯邏輯相同，但 AIF–MIF 核酸酶與 PAR 載體步驟已分子定義，標靶更精準。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11410548/" target="_blank">來源：PMC11410548 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f2f/11410548/405bb0f2fc7f/nihms-1985958-f0003.jpg"
+               alt="人類 PARP-1 結構與抑制劑結合"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Yang 2024 ◆</div>
+          <h3>PARP-1 結構與抑制劑</h3>
+          <div class="caption">
+            人類 PARP-1 結構域架構與抑制劑結合口袋：與細菌 ADP-核糖基化毒素共享的催化 ART 摺疊、螺旋自抑制次結構域，
+            以及 DNA 結合鋅指／WGR 活化裝置——PARP 抑制劑指南的結構基礎（將臨床腫瘤藥物再利用於抗 parthanatos 神經保護）。
+          </div>
+          <div class="context">
+            早期綜述缺少的結構導向視角：抑制劑化學型是「捕捉」或僅「抑制」PARP-1，決定了阻斷在不同情境下是細胞保護或細胞毒性。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11410548/" target="_blank">來源：PMC11410548 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f2f/11410548/a38a5a103d69/nihms-1985958-f0004.jpg"
+               alt="parthanatos 執行中 AIF 與 MIF 核酸酶結構"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · Yang 2024 ◆</div>
+          <h3>AIF 與 MIF：執行者複合體</h3>
+          <div class="caption">
+            AIF 結構（FAD／NADH 氧化還原酶摺疊＋C 端死亡結構域＋相異的 PAR 結合面與 DNA 結合面）與巨噬細胞遷移抑制因子（MIF）——尋覓已久的
+            PAAN：AIF 將 MIF 的核酸酶活性招募至染色質，執行大規模 DNA 片段化。
+          </div>
+          <div class="context">
+            閉合 Fatokun 2014 標示的十年 PAAN 缺口：AIF 相關核酸酶即 MIF，而 AIF–MIF 蛋白–蛋白／核酸酶介面如今是 parthanatos
+            最下游的可成藥步驟。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11410548/" target="_blank">來源：PMC11410548 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f7e2/11445734/6f8f422b8ef9/1415-4757-GMB-47-s1-e20230357-gf1.jpg"
+               alt="PARP1 過度活化下游的潛在細胞死亡路徑"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Moura 2024 ◆</div>
+          <h3>PARP1 過度活化造成哪種死亡？</h3>
+          <div class="caption">
+            PARP1 過度活化下游候選路徑的分支圖——parthanatos 對 NAD<sup>+</sup> 耗竭／糖解阻斷對重疊的凋亡／壞死程式——以及判別檢驗
+            （PARP1 依賴性、PAR 充分性、AIF 必要性、caspase 非依賴性），用以判定特定死亡屬於 parthanatos 而非其擬態。
+          </div>
+          <div class="context">
+            懷疑論者的圖：嚴格的 PARP1 依賴性定義 parthanatos，但多數下游事件機制仍未定——該綜述逐節列出未解問題而非答案。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11445734/" target="_blank">來源：PMC11445734 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="parthanatos-plus">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f7e2/11445734/912f43e2d685/1415-4757-GMB-47-s1-e20230357-gf2.jpg"
+               alt="PARP1 每消耗一分子 NAD⁺ 的 NAD⁺ 補救能量成本"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Moura 2024 ◆</div>
+          <h3>自殺假說的能量成本</h3>
+          <div class="caption">
+            完整的 NAD<sup>+</sup> 補救循環中，PARP1 每消耗一分子 NAD<sup>+</sup> 花費四個高能磷酸基——能量耗竭（「自殺」）假說的定量支柱，
+            此處公平地與 PAR 訊號證據並陳（基因毒性壓力下粒線體 NAD<sup>+</sup> 維持；PARP-1 基因剔除的梗塞保護無能量狀態差異）。
+          </div>
+          <div class="context">
+            爭議延續的原因：成本真實且龐大，但區室特異性測量一再洗清能量崩潰作為主因——該領域延宕最久的未定之量。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11445734/" target="_blank">來源：PMC11445734 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PANOPTOSIS (RAW) ==================== -->
+<section id="panoptosis">
+  <div class="wrap">
+    <h2>PANoptosis — PANoptosome（待匯入）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      焦亡＋凋亡＋壞死性凋亡經由單一細胞質複合體——PANoptosome（NLRP3／ASC／RIPK1／RIPK3／caspase-8／FADD／ZBP1）——集體執行，
+      使宿主防禦得以繞過病原體對任一單一路徑的封鎖。待匯入的 raw 素材。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://doi.org/10.3389/fcimb.2020.00237" target="_blank">Christgen et al., <i>Front Cell Infect Microbiol</i> 10:237 (2020)</a> ·
+      <a href="https://doi.org/10.3389/fcimb.2020.00238" target="_blank">Samir et al., <i>Front Cell Infect Microbiol</i> 10:238 (2020)</a> ·
+      <a href="https://doi.org/10.3389/fcimb.2019.00406" target="_blank">Malireddi et al., <i>Front Cell Infect Microbiol</i> 9:406 (2019)</a>
+    </p>
+    <div class="gallery-grid" data-gallery="panoptosis">
+
+      <div class="gallery-card" data-cat="panoptosis">
+        <div class="img-wrap">
+          <img src="https://www.frontiersin.org/files/Articles/548552/fcimb-10-00237-HTML/image_m/fcimb-10-00237-g001.jpg"
+               alt="PANoptosis 的病原觸發因子與橫跨三條死亡分支的遺傳阻斷設計"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Christgen 2020 ◆</div>
+          <h3>觸發 PANoptosis 的病原體</h3>
+          <div class="caption">
+            A 型流感病毒、水泡性口炎病毒、鼠傷寒沙門氏菌與單核球李斯特菌各自誘發具三種程式特徵的巨噬細胞死亡。遺傳阻斷設計：
+            以 CASP1／11 或 GSDMD 刪除阻斷焦亡，以 RIPK3／MLKL 刪除阻斷壞死性凋亡，以 caspase-8 刪除阻斷外源性凋亡——單一刪除幾無保護，
+            合併刪除 caspase-1／11＋RIPK3＋caspase-8 則大致有效。
+          </div>
+          <div class="context">
+            集體執行的功能性證明：單臂基因剔除皆無法挽救，三重阻斷可以——死亡是三種程式的 OR 閘輸出，而非單一程式。
+          </div>
+          <a class="source-link" href="https://doi.org/10.3389/fcimb.2020.00237" target="_blank">來源：DOI 10.3389/fcimb.2020.00237 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="panoptosis">
+        <div class="img-wrap">
+          <img src="https://www.frontiersin.org/files/Articles/548553/fcimb-10-00238-HTML/image_m/fcimb-10-00238-g001.jpg"
+               alt="PANoptosome 複合體模型：組成、結構域與組裝"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Samir 2020 ◆</div>
+          <h3>PANoptosome：組成與組裝</h3>
+          <div class="caption">
+            PANoptosome 的綜述級模型：推定組成（ASC、caspase-1、RIPK1、RIPK3、ZBP1、caspase-8 與接頭蛋白）、來自親緣分析的交互作用結構域／基序
+            （RHIM、DED、CARD、PYD）、遺傳支架與催化證據，以及將該複合體連結至自體發炎、神經退化、腫瘤、感染與代謝疾病的替代組裝模型。
+          </div>
+          <div class="context">
+            結構域文法即論證：共享的 RHIM／DED／CARD／PYD 基序使單一多聚複合體在物理上合理——正是 vault necrosome／ripoptosome
+            圖中的同樣基序（RHIM、DED）。
+          </div>
+          <a class="source-link" href="https://doi.org/10.3389/fcimb.2020.00238" target="_blank">來源：DOI 10.3389/fcimb.2020.00238 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="panoptosis">
+        <div class="img-wrap">
+          <img src="https://www.frontiersin.org/files/Articles/508352/fcimb-09-00406-HTML/image_m/fcimb-09-00406-g001.jpg"
+               alt="ZBP1 與 TAK1 經由 RIPK1–RIPK3–FADD–caspase-8 複合體作為 PANoptosis 總調控者"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Malireddi 2019 ◆</div>
+          <h3>ZBP1 與 TAK1：總調控者</h3>
+          <div class="caption">
+            先天感測器 ZBP1 與存活激酶 TAK1 編排 RIPK1／RIPK3–FADD–caspase-8 複合體，及其執行焦亡、凋亡與壞死性凋亡（PANoptosis）
+            的多功能性——在感染、發炎與癌症中標靶這些調控者具治療意涵。
+          </div>
+          <div class="context">
+            連結 vault 的非典型 necrosome（ZBP1／DAI–RIPK3，不依賴 RIPK1）：在壞死性凋亡中繞過 RIPK1 的同一感測器，也指揮三程式複合體。
+          </div>
+          <a class="source-link" href="https://doi.org/10.3389/fcimb.2019.00406" target="_blank">來源：DOI 10.3389/fcimb.2019.00406 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ERYPTOSIS (RAW) ==================== -->
+<section id="eryptosis">
+  <div class="wrap">
+    <h2>紅細胞凋亡 — 無核紅血球的調控性死亡（raw）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      2025 年紅細胞凋亡共識綜述：成熟紅血球的 Ca<sup>2+</sup> 驅動、不依賴 caspase 的調控性死亡——Gardos 通道皺縮、
+      scramblase 介導的磷脂醯絲胺酸外翻、calpain 起泡——附命名準則釐清其與細胞衰老及溶血之別，
+      以及紅血球壞死性凋亡（RIPK1／RIPK3／MLKL）交談。Raw 素材，待匯入。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12216432/" target="_blank">Tkachenko et al., <i>Cell Death Dis.</i> 16:467 (2025)</a>
+    </p>
+    <div class="gallery-grid" data-gallery="eryptosis">
+
+      <div class="gallery-card" data-cat="eryptosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e67/12216432/eb39a49e1601/41419_2025_7784_Fig1_HTML.jpg"
+               alt="有核細胞與成熟紅血球的意外性及調控性死亡模式對照"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Tkachenko 2025 ◆</div>
+          <h3>死亡模式：有核細胞 vs. 紅血球</h3>
+          <div class="caption">
+            成熟紅血球的 RCD 庫存稀少：紅血球生成過程中的胞器清除，剔除了有核細胞的大部分死亡機制（凋亡、鐵死亡、
+            焦亡、parthanatos、自噬依賴性死亡），僅留下溶血作為意外性模式，以及兩種調控性模式——紅細胞凋亡
+            （凋亡的對應體）與紅血球壞死性凋亡（RIPK1／RIPK3／MLKL 壞死性凋亡的對應體）。
+          </div>
+          <div class="context">
+            為比較表的框架提供依據：紅血球無核／無粒線體，不適用 caspase 與 PARP1／AIF 的選擇——適用的是
+            Ca<sup>2+</sup>／神經醯胺／能量耗竭誘因。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12216432/" target="_blank">來源：PMC12216432 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="eryptosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e67/12216432/c33ea586dc2c/41419_2025_7784_Fig2_HTML.jpg"
+               alt="紅細胞凋亡訊號：鈣離子內流、Gardos 皺縮、磷脂醯絲胺酸外翻與巨噬細胞清除"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Tkachenko 2025 ◆</div>
+          <h3>鈣離子介導的紅細胞凋亡訊號</h3>
+          <div class="caption">
+            陽離子通道 Ca<sup>2+</sup> 內流（TRPC6、PIEZO1、NMDA／AMPA、Cav2.1）開啟 Gardos 鉀通道
+            （KCa3.1／KCNN4）→ 鉀氯水流失 → 皺縮；抑制 flippase、活化 scramblase → PS 外翻；活化 calpain-1 →
+            細胞骨架崩解 → 起泡——由巨噬細胞胞葬清除。調控因子：ROS、神經醯胺／鞘磷脂酶、PGE2、PKC、CK1α、
+            JAK3、p38 MAPK、Fas／FADD、NO–cGKI 抑制、AMPK 能量感測。
+          </div>
+          <div class="context">
+            表格該列的機制依據：Annexin V＋／Fluo-3 鈣離子／前向散射皺縮／神經醯胺檢測、紅血球生成素與鈣螯合阻斷、
+            靜默清除。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12216432/" target="_blank">來源：PMC12216432 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NETOSIS (RAW) ==================== -->
+<section id="netosis">
+  <div class="wrap">
+    <h2>NETosis — 自殺型、非典型與存活型 NET 釋放（raw）</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      Schroder 實驗室關於宿主防禦中嗜中性球胞外陷阱的綜述：三條釋放路徑匯聚於染色質去濃縮——慢速自殺型
+      （NADPH 氧化酶／NE／MPO／GSDMD）、胞質 LPS 非典型（caspase-4／11／GSDMD），以及快速存活型
+      （Ca<sup>2+</sup>／PAD4、保留細胞膜）——病原體大小／位置決定嗜中性球是否撒網。Raw 素材，待匯入。
+    </p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:10px;">
+      出自：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7328462/" target="_blank">Burgener &amp; Schroder, <i>Cold Spring Harb. Perspect. Biol.</i> 12:a037028 (2020)</a>
+    </p>
+    <div class="gallery-grid" data-gallery="netosis">
+
+      <div class="gallery-card" data-cat="netosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6f7b/7328462/8092175ae45d/cshperspect-CSD-037028_F1.jpg"
+               alt="NETosis 形態序列：去分葉、膜通透、染色質擴張與釋放"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 1 · Burgener 2020 ◆</div>
+          <h3>NETosis：異於凋亡的獨立程式</h3>
+          <div class="caption">
+            六個連續變化：（1）分葉核消失，（2）核膜／顆粒膜通透，（3）組蛋白切割／瓜氨酸化使染色質向胞質擴張，
+            （4）染色質與顆粒內容物（NE、MPO、cathepsin G）混合，（5）內膜消失，（6）細胞膜破裂釋出 NET——
+            以 DNA 為網、綴滿組蛋白與抗菌蛋白，誘捕病原體。
+          </div>
+          <div class="context">
+            真正的 NET 結構不會在凋亡或壞死性凋亡中釋出——支持表格獨立成列，以及 Sytox／cit-H3／MPO–DNA 檢測標記。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7328462/" target="_blank">來源：PMC7328462 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="netosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6f7b/7328462/79c4cf9e951e/cshperspect-CSD-037028_F2.jpg"
+               alt="自殺型 NETosis：PMA 誘發 NADPH 氧化酶 ROS、NE MPO 釋放與 GSDMD 成孔破裂"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 2 · Burgener 2020 ◆</div>
+          <h3>自殺型 NETosis：ROS → NE／MPO → GSDMD</h3>
+          <div class="caption">
+            PMA／病原體 → ERK 依賴的 NADPH 氧化酶組裝 → ROS → MPO 活化與 azurosome 解離 → NE 釋出
+            （肌動蛋白解聚、組蛋白 H4／H2B 切割）→ NE 切割的 GSDMD-p30 孔洞以前饋迴路依序撐破顆粒膜與細胞膜。
+            PAD4 瓜氨酸化常伴隨但非必需；離子載體觸發的自殺型 NETosis 可不依賴 NE／MPO／ROS。
+          </div>
+          <div class="context">
+            支持表格「多數依賴 NADPH 氧化酶」及其但書：多數依賴，存在 NOX 非依賴路徑——以及 DNase 消化 NET 的阻斷。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7328462/" target="_blank">來源：PMC7328462 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="netosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6f7b/7328462/990eaa15a8a8/cshperspect-CSD-037028_F3.jpg"
+               alt="非典型 NETosis：胞質 LPS、caspase-4/11、GSDMD 核孔與 NLRP3 IL-1beta"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 3 · Burgener 2020 ◆</div>
+          <h3>非典型 NETosis：發炎體驅動</h3>
+          <div class="caption">
+            胞質革蘭氏陰性菌 LPS → 非典型發炎體 → caspase-4／11 → GSDMD-p30 孔洞打穿顆粒膜、核膜與細胞膜；
+            caspase-11 入核切割組蛋白（扮演 NE 的角色）；GSDMD 驅動的 NLRP3 活化釋放 IL-1β——具焦亡訊號、
+            NETosis 形態，不依賴 NE／MPO。
+          </div>
+          <div class="context">
+            NET–焦亡橋樑，即表格交互作用欄所記（NET 授權巨噬細胞 NLRP3／焦亡；GSDMD 孔洞為兩列共享）。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7328462/" target="_blank">來源：PMC7328462 ↗</a>
+        </div>
+      </div>
+
+      <div class="gallery-card" data-cat="netosis">
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6f7b/7328462/2d3adf9924a1/cshperspect-CSD-037028_F4.jpg"
+               alt="存活型 NETosis：TLR 血小板 補體受體、鈣離子 PAD4 與囊泡式染色質釋放"
+               loading="lazy" onclick="openLightbox(this.src, this.alt)">
+        </div>
+        <div class="card-body">
+          <div class="fig-label">圖 4 · Burgener 2020 ◆</div>
+          <h3>存活型 NETosis：快速、PAD4 依賴、保留細胞膜</h3>
+          <div class="caption">
+            病原體產物／活化血小板 → TLR2／4、補體受體 3 → 胞質 Ca<sup>2+</sup> 驟升 → PAD4 組蛋白瓜氨酸化 →
+            核泡以囊泡運輸將染色質送出，不撐破細胞膜——不依賴 NADPH 氧化酶、數分鐘級，嗜中性球保留遷移／吞噬功能。
+            DNA 來源未定：核泡 vs. 粒線體 DNA。
+          </div>
+          <div class="context">
+            表格「自殺型與存活型」調控欄與動畫存活型註記（保留細胞膜、數分鐘）的依據——以及 Cl-amidine（PAD4）阻斷原理。
+          </div>
+          <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7328462/" target="_blank">來源：PMC7328462 ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== DOCUMENTS INDEX ==================== -->
+<section id="library">
+  <div class="wrap">
+    <h2>文獻索引 — <code>src/notes/cell-death/</code> 索引</h2>
+    <p class="lead" style="margin-bottom:6px;">
+      本頁同時充當 llm-wiki-jk 知識庫中細胞死亡主題文件的索引：下方完整收錄 <code>src/notes/cell-death/</code> 中的全部
+      <b style="color:var(--text)">4 份來源文件</b>（權威索引：<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/README.md" target="_blank">src/notes/cell-death/README.md</a></code>），以及
+      <b style="color:var(--text)"><code>raw/</code> 中 17 份待匯入的細胞死亡文件</b>。上方圖庫中的每一張圖表皆出自某一篇標星號（★）
+      的 vault 文獻或 raw 文獻（◆）。
+    </p>
+    <div class="pill-row" style="margin-top:14px;">
+      <span class="badge teal">21 份文件</span>
+      <span class="badge">4 個 vault 圖表來源 ★ · 13 個 raw 圖表來源 ◆</span>
+      <span class="badge">17 篇 PMC 文章 · 3 篇 Frontiers 文章</span>
+      <span class="badge">3 則實體筆記</span>
+    </div>
+    <div class="tbl-wrap" style="margin-top:16px;">
+      <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable">
+        <thead>
+          <tr>
+            <th style="width:36%;">文獻</th>
+            <th>引用</th>
+            <th style="width:8%;">圖表</th>
+            <th style="width:17%;">來源</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Andrabi et al. 2006 — PAR Polymer Death Signal</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20Andrabi%202006%20PAR%20polymer%20death%20signal.md" target="_blank">_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">PNAS 發現性論文，證明 PAR 聚合物本身即 parthanatos 死亡訊號；PARG 過度表現／抗血清清除具保護作用，純化 PAR 以劑量與長度依賴方式致死。</span>
+            </td>
+            <td style="white-space:normal;">Andrabi et al., <i>Proc. Natl. Acad. Sci. U.S.A.</i> 103(48):18308–18313 (2006)</td>
+            <td>4 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1073/pnas.0606526103" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838747/" target="_blank">PMC1838747 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Andrabi / Dawson 2008 — Mitochondrial &amp; Nuclear Crosstalk</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20Andrabi%202008%20mitochondrial%20nuclear%20crosstalk.md" target="_blank">_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">為 parthanatos（PAR＋Thanatos）命名的綜述；PARP-1 過度活化產生 PAR 觸發 AIF 轉位，為異於凋亡／壞死／自噬的不依賴 caspase 死亡。</span>
+            </td>
+            <td style="white-space:normal;">Andrabi, Dawson &amp; Dawson, <i>Ann. N. Y. Acad. Sci.</i> 1147:233–241 (2008)</td>
+            <td>2 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1196/annals.1427.014" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4454457/" target="_blank">PMC4454457 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>David et al. 2009 — Parthanatos, a Messenger of Death</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20David%202009%20messenger%20of%20death.md" target="_blank">_document_ - Parthanatos David 2009 messenger of death.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">奠基性綜述；PAR 聚合物本身（而非 NAD⁺ 耗竭）是 PARP-1 下游的死亡訊號；PAR 長度／複雜度毒性、PARG 生物學、PAR–AIF 交談。</span>
+            </td>
+            <td style="white-space:normal;">David, Andrabi, Dawson &amp; Dawson, <i>Front. Biosci.</i> 14:1116–1128 (2009)</td>
+            <td>3 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.2741/3297" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4450718/" target="_blank">PMC4450718 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>Dhuriya &amp; Sharma 2018 — Necroptosis</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;"><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Necroptosis%20a%20regulated%20inflammatory%20mode%20of%20cell%20death.md" target="_blank">_document_ - Necroptosis a regulated inflammatory mode of cell death.md</a></code><br>
+              <span style="color:var(--dim); font-size:.8rem;">壞死性凋亡時間軸綜述——RIPK3／MLKL 軸、非典型 necrosome、磷酸化位點、發炎、感染、神經退化。</span>
+            </td>
+            <td style="white-space:normal;">Dhuriya &amp; Sharma, <i>J. Neuroinflammation</i> 15:199 (2018)</td>
+            <td>2 ★</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1186/s12974-018-1235-0" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6035417/" target="_blank">PMC6035417 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Feoktistova et al. 2011 — cIAPs Block Ripoptosome Formation</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">標竿研究，定義 2 MDa ripoptosome（RIPK1–FADD–caspase-8–cFLIP），顯示 caspase 活性是受 cFLIP 異構物調控的變阻器。</span>
+            </td>
+            <td style="white-space:normal;">Feoktistova et al., <i>Mol. Cell</i> 43:449–465 (2011)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1016/j.molcel.2011.06.011" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Tsuchiya et al. 2015 — FLIP the Switch</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">cFLIP 異構物作為存活、凋亡與壞死性凋亡之間的開關：DISC 化學計量、ripoptosome、泛素–蛋白酶體調控、小鼠遺傳學。</span>
+            </td>
+            <td style="white-space:normal;">Tsuchiya, Nakabayashi &amp; Nakano, <i>Int. J. Mol. Sci.</i> 16:30321–30341 (2015)</td>
+            <td>3 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4691174/" target="_blank">PMC4691174 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Micheau et al. 2002 — FLIP<sub>L</sub> Activates Caspase-8 at the Fas DISC</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - The Long Form of FLIP Is an Activator of Caspase-8 at the Fas DISC.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">奠基性研究：FLIP 長型經由異二聚化於 Fas DISC 活化 caspase-8，同時阻斷完整的凋亡切割。</span>
+            </td>
+            <td style="white-space:normal;">Micheau et al., <i>J. Biol. Chem.</i> 277:45162–45169 (2002)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1074/jbc.M206882200" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Moujalled et al. 2014 — RIPK3 Requires MLKL, Not Drp1</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Necroptosis induced by RIPK3 requires MLKL but not Drp1.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">PGAM5–Drp1 模型的遺傳學驗證：誘導型 RIPK3 二聚化無需 TNF 即可致死；MLKL 不可或缺，Drp1 可有可無（mdivi-1 無效）。</span>
+            </td>
+            <td style="white-space:normal;">Moujalled et al., <i>Cell Death Dis.</i> 5:e1086 (2014)</td>
+            <td>3 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3944236/" target="_blank">PMC3944236 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Niu et al. 2026 — Regulatory Complexity of the Necroptosis Network</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">2026 年綜合：典型／非典型誘發、RIPK1／RIPK3／MLKL 的轉譯後修飾＋表觀遺傳調控、與凋亡／自噬／代謝的交談、轉譯策略。</span>
+            </td>
+            <td style="white-space:normal;">Niu et al., <i>Front. Immunol.</i> (2026)</td>
+            <td>3 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13171333/" target="_blank">PMC13171333 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Fatokun, Dawson &amp; Dawson 2014 — Parthanatos Review</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Parthanatos Fatokun 2014 mitochondrial mechanisms.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">高被引（約 600 次）綜述，將 parthanatos 定義為 PARP-1／PAR／AIF 調控性死亡，含級聯圖、PAAN 缺口與治療地圖。</span>
+            </td>
+            <td style="white-space:normal;">Fatokun, Dawson &amp; Dawson, <i>Br. J. Pharmacol.</i> 171:2000–2016 (2014)</td>
+            <td>3 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3976618/" target="_blank">PMC3976618 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Wang, Dawson &amp; Dawson 2009 — PAR Signals to AIF</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Parthanatos Wang 2009 PAR signals to AIF.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">Dawson 實驗室綜述，確立核→粒線體 PAR 轉位為 AIF 釋放的承諾步驟；附與凋亡／壞死／自噬的鑑別表。</span>
+            </td>
+            <td style="white-space:normal;">Wang, Dawson &amp; Dawson, <i>Exp. Neurol.</i> 218:193–202 (2009)</td>
+            <td>3 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2752872/" target="_blank">PMC2752872 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Yu et al. 2002 — PARP-1 Death by AIF</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Parthanatos Yu 2002 PARP-1 death by AIF abstract.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;"><i>Science</i> 2002 年 parthanatos 機制基礎（僅摘要紀錄，付費牆）：PARP-1 依賴性死亡需要 AIF 釋放與核轉位。</span>
+            </td>
+            <td style="white-space:normal;">Yu et al., <i>Science</i> 297:259–263 (2002)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1126/science.1072221" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Yu et al. 2006 — AIF Mediates PAR-Induced Death</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Parthanatos Yu 2006 AIF mediates PAR-induced death.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">PNAS 姊妹篇，連結 PAR 聚合物與 AIF 釋放：非蛋白 SN（PAR）因子、純化 PAR 誘發 AIF 釋放、細胞質 PAR 追蹤、Harlequin 抗性。</span>
+            </td>
+            <td style="white-space:normal;">Yu et al., <i>Proc. Natl. Acad. Sci. U.S.A.</i> 103(48):18314–18319 (2006)</td>
+            <td>4 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1073/pnas.0606528103" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1838748/" target="_blank">PMC1838748 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Yang et al. 2024 — Parthanatos Mechanisms &amp; Therapeutics</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Parthanatos Yang 2024 mechanisms therapeutics.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">2024 年 Dawson 實驗室進展：H1.2 PAR 載體、Iduna、HK-1 生物能量學、AIF–MIF 核酸酶、HDAC6、神經發炎、結構抑制劑指南。</span>
+            </td>
+            <td style="white-space:normal;">Yang, Guttman, Dawson &amp; Dawson, <i>Biochem. Pharmacol.</i> (2024)</td>
+            <td>4 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11410548/" target="_blank">PMC11410548 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Moura et al. 2024 — Parthanatos: More Questions Than Answers</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">PARP1 過度活化下游未解問題的小型綜述路線圖；NAD<sup>+</sup> 補救能量學對 PAR 訊號證據。</span>
+            </td>
+            <td style="white-space:normal;">Moura et al., <i>Genet. Mol. Biol.</i> 47:e20230357 (2024)</td>
+            <td>2 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11445734/" target="_blank">PMC11445734 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Jog &amp; Caricchio 2013 — PARP-1 &amp; Estradiol Sex Bias</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Jog_Caricchio_2013_CellDeathDis_PAR P1-estradiol-sex-bias-cell-death.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">免疫性腎炎中的雄 vs. 雌細胞死亡程式：PARP-1 抑制僅於雄性減少壞死；雌二醇使雄性轉向凋亡；RIPK3 無性別偏差。</span>
+            </td>
+            <td style="white-space:normal;">Jog &amp; Caricchio, <i>Cell Death Dis.</i> 4:e758 (2013)</td>
+            <td>—</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1038/cddis.2013.251" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Christgen et al. 2020 — Identification of the PANoptosome</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Identification of the PANoptosome Christgen 2020.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">IAV、VSV、鼠傷寒沙門氏菌與單核球李斯特菌於巨噬細胞活化 PANoptosis；PANoptosome 複合體由 NLRP3／ASC／RIPK1／RIPK3／caspase-8／FADD／ZBP1 組成。</span>
+            </td>
+            <td style="white-space:normal;">Christgen et al., <i>Front. Cell. Infect. Microbiol.</i> 10:237 (2020)</td>
+            <td>1 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.3389/fcimb.2020.00237" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Samir et al. 2020 — The PANoptosome Review</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - The PANoptosome Deadly Protein Complex Samir 2020.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">PANoptosome 作為執行 PANoptosis 的細胞質複合體：組成、疾病連結、結構域親緣組裝模型。</span>
+            </td>
+            <td style="white-space:normal;">Samir, Malireddi &amp; Kanneganti, <i>Front. Cell. Infect. Microbiol.</i> 10:238 (2020)</td>
+            <td>1 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.3389/fcimb.2020.00238" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Malireddi et al. 2019 — ZBP1 &amp; TAK1 Master Regulators</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - ZBP1 and TAK1 Master Regulators of PANoptosis Malireddi 2019.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">ZBP1 與 TAK1 經由 RIPK1／RIPK3–FADD–caspase-8 複合體編排焦亡／凋亡／壞死性凋亡。</span>
+            </td>
+            <td style="white-space:normal;">Malireddi, Kesavardhana &amp; Kanneganti, <i>Front. Cell. Infect. Microbiol.</i> 9:406 (2019)</td>
+            <td>1 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.3389/fcimb.2019.00406" target="_blank">DOI ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Tkachenko et al. 2025 — Eryptosis Mechanisms &amp; Nomenclature</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - Eryptosis Tkachenko 2025 mechanisms nomenclature.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">共識綜述：Ca2+／Gardos／scramblase／calpain 核心、ROS／神經醯胺／Fas／激酶分支、衰老–凋亡–溶血命名準則、紅血球壞死性凋亡交談。</span>
+            </td>
+            <td style="white-space:normal;">Tkachenko et al., <i>Cell Death Dis.</i> 16:467 (2025)</td>
+            <td>2 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1038/s41419-025-07784-w" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12216432/" target="_blank">PMC12216432 ↗</a></td>
+          </tr>
+
+          <tr>
+            <td style="white-space:normal;">
+              <b>[raw] Burgener &amp; Schroder 2020 — NETs in Host Defense</b><br>
+              <code style="font-size:.7rem; color:var(--mute); word-break:break-all;">raw/_document_ - NETosis Burgener Schroder 2020 host defense.md</code><br>
+              <span style="color:var(--dim); font-size:.8rem;">自殺型（NE／MPO／GSDMD）、非典型（caspase-4／11／GSDMD）與存活型（Ca2+／PAD4）NETosis；病原體大小／位置門控；NET 抗菌功能與病原體逃逸。</span>
+            </td>
+            <td style="white-space:normal;">Burgener &amp; Schroder, <i>Cold Spring Harb. Perspect. Biol.</i> 12:a037028 (2020)</td>
+            <td>4 ◆</td>
+            <td style="white-space:normal;"><a class="source-link" href="https://doi.org/10.1101/cshperspect.a037028" target="_blank">DOI ↗</a>&nbsp;<a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7328462/" target="_blank">PMC7328462 ↗</a></td>
+          </tr>
+
+        </tbody>
+      </table></div>
+    </div>
+    <p class="sub" style="font-size:.78rem; margin-top:10px;">
+      ★＝vault 圖表來源 · ◆＝raw 圖表來源（待匯入） · —＝未收錄開放取用圖表（付費牆或尚未收集） · 本主題實體筆記（無圖表）：
+      <code>Regulated Cell Death.md</code>（主題中心，protected） ·
+      <code>PARG.md</code> · <code>24(S)-Hydroxycholesterol.md</code>.
+    </p>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="gallery-lightbox" id="galleryLightbox" onclick="closeLightbox()">
+  <button class="gallery-lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+  <div class="gallery-lightbox-cap" id="lightboxCap"></div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><b>資料來源</b></p>
+    <p>
+      1. Dhuriya &amp; Sharma, <i>Necroptosis: a regulated inflammatory mode of cell death</i>, J. Neuroinflammation 15:199 (2018) — PMC6035417<br>
+      2. Andrabi et al., <i>Poly(ADP-ribose) (PAR) polymer is a death signal</i>, Proc. Natl. Acad. Sci. U.S.A. 103(48):18308–18313 (2006) — PMC1838747<br>
+      3. Andrabi, Dawson &amp; Dawson, <i>Mitochondrial and Nuclear Cross Talk in Cell Death: Parthanatos</i>, Ann. N. Y. Acad. Sci. 1147:233–241 (2008) — PMC4454457<br>
+      4. David et al., <i>Parthanatos, a messenger of death</i>, Front. Biosci. 14:1116–1128 (2009) — PMC4450718<br>
+      5. Tsuchiya et al., <i>FLIP the Switch: Regulation of Apoptosis and Necroptosis by cFLIP</i>, Int. J. Mol. Sci. 16:30321–30341 (2015) — PMC4691174<br>
+      6. Niu et al., <i>Regulatory complexity and therapeutic targeting of the necroptosis network</i>, Front. Immunol. (2026) — PMC13171333<br>
+      7. Moujalled et al., <i>Necroptosis induced by RIPK3 requires MLKL but not Drp1</i>, Cell Death Dis. 5:e1086 (2014) — PMC3944236<br>
+      8. Fatokun, Dawson &amp; Dawson, <i>Parthanatos: mitochondrial-linked mechanisms and therapeutic opportunities</i>, Br. J. Pharmacol. 171:2000–2016 (2014) — PMC3976618<br>
+      9. Wang, Dawson &amp; Dawson, <i>Poly(ADP-ribose) Signals to Mitochondrial AIF: A Key Event in Parthanatos</i>, Exp. Neurol. 218:193–202 (2009) — PMC2752872<br>
+      10. Yu et al., <i>Apoptosis-inducing factor mediates poly(ADP-ribose) (PAR) polymer-induced cell death</i>, Proc. Natl. Acad. Sci. U.S.A. 103(48):18314–18319 (2006) — PMC1838748<br>
+      11. Yang et al., <i>Parthanatos: mechanisms, modulation, and therapeutic prospects in neurodegenerative disease and stroke</i>, Biochem. Pharmacol. (2024) — PMC11410548<br>
+      12. Moura et al., <i>Molecular mechanisms of cell death by parthanatos: More questions than answers</i>, Genet. Mol. Biol. 47:e20230357 (2024) — PMC11445734<br>
+      13. Christgen et al., <i>Identification of the PANoptosome</i>, Front. Cell. Infect. Microbiol. 10:237 (2020) — doi:10.3389/fcimb.2020.00237<br>
+      14. Samir et al., <i>The PANoptosome: A Deadly Protein Complex Driving PANoptosis</i>, Front. Cell. Infect. Microbiol. 10:238 (2020) — doi:10.3389/fcimb.2020.00238<br>
+      15. Malireddi et al., <i>ZBP1 and TAK1 Master Regulators of PAN-optosis</i>, Front. Cell. Infect. Microbiol. 9:406 (2019) — doi:10.3389/fcimb.2019.00406<br>
+      16. Tkachenko et al., <i>Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations</i>, Cell Death Dis. 16:467 (2025) — PMC12216432<br>
+      17. Burgener &amp; Schroder, <i>Neutrophil Extracellular Traps in Host Defense</i>, Cold Spring Harb. Perspect. Biol. 12:a037028 (2020) — PMC7328462
+    </p>
+    <p style="margin-top:10px; color:var(--mute);">
+      所有圖庫圖像皆出自開放取用出版品（PMC、Frontiers）。Vault 圖表（來源 1–4）來自
+      <code>src/notes/cell-death/</code>；raw 圖表（來源 5–17）來自 <code>raw/</code>，待匯入。
+      未收錄圖表的 raw 文件：Feoktistova et al., <i>Mol. Cell</i> 2011（付費牆）；
+      Micheau et al., <i>J. Biol. Chem.</i> 2002; Yu et al., <i>Science</i> 2002（付費牆）；
+      Jog &amp; Caricchio, <i>Cell Death Dis.</i> 2013. 為 llm-wiki-jk 知識圖譜建置。
+    </p>
+  </div>
+</footer>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/shared/lightbox.js"></script>
+  <script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

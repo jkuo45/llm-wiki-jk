@@ -33,25 +33,25 @@ The druggability of ferroptosis (e.g., via GPX4 or system xc− inhibition) and 
 
 ## Documents
 
-  - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Could this enzyme help remove "zombie" cells from our tissues?]]
-    - This document introduces ferroptosis as a regulated, iron-dependent death pathway distinct from necrosis and apoptosis, framing it alongside cellular senescence as a druggable target for healthy aging.
+- [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Could this enzyme help remove "zombie" cells from our tissues?]]
+  - This document introduces ferroptosis as a regulated, iron-dependent death pathway distinct from necrosis and apoptosis, framing it alongside cellular senescence as a druggable target for healthy aging.
 
 ## Connections
 
-  - [[Ferroptosis]]: The iron-dependent regulated death program emphasized in this cluster.
-  - [[Apoptosis]]: The classic programmed death pathway.
-  - [[Necroptosis]]: Regulated necrotic-like death pathway.
-  - [[Pyroptosis]]: Inflammatory regulated death program.
-  - [[Cellular Senescence]]: Arrest state contrasting with and complementing regulated death.
-  - [[Glutathione]]: Antioxidant that keeps lipid peroxides below toxic thresholds.
-  - [[Lipid Peroxidation]]: The lethal event accumulated in ferroptosis.
-  - [[Cancer]]: Disease context in which RCD evasion drives tumor growth.
+- [[Ferroptosis]]: The iron-dependent regulated death program emphasized in this cluster.
+- [[Apoptosis]]: The classic programmed death pathway.
+- [[Necroptosis]]: Regulated necrotic-like death pathway.
+- [[Pyroptosis]]: Inflammatory regulated death program.
+- [[Cellular Senescence]]: Arrest state contrasting with and complementing regulated death.
+- [[Glutathione]]: Antioxidant that keeps lipid peroxides below toxic thresholds.
+- [[Lipid Peroxidation]]: The lethal event accumulated in ferroptosis.
+- [[Cancer]]: Disease context in which RCD evasion drives tumor growth.
 
 ## Linking Summary
 
 - New links added: [[Ferroptosis]], [[Apoptosis]], [[Necroptosis]], [[Pyroptosis]], [[Cellular Senescence]], [[Glutathione]], [[Lipid Peroxidation]], [[Cancer]], [[Autophagic Cell Death]]
 - Suggested new entity notes to create: [[Glutathione Peroxidase 4]]
 - Strong connections to strengthen:
-    - [[Ferroptosis]] ↔ [[Cellular Senescence]]
+  - [[Ferroptosis]] ↔ [[Cellular Senescence]]
 
   - GPX4 is the critical enzyme executing ferroptosis suppression and deserves its own note; the ferroptosis–senescence relationship is the central theme of the source document.

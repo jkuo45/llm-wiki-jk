@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>細胞死亡比較——表格＋即時 3-D 動畫——凋亡 · Parthanatos · 壞死 · 壞死性凋亡 · 鐵死亡 · 自噬 · 焦亡 · PANoptosis · 紅血球凋亡 · NETosis</title>
+<meta name="description" content="十種主要細胞死亡程序比較表＋循環 three.js 3-D 動畫——細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、焦亡、PANoptosis、紅血球凋亡（紅血球）、NETosis（嗜中性球）——附篩選與軸線強調顯示。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☠</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{"three": "https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"}}
+</script>
+<style>
+  /* page-specific only — shared chrome lives in themes/theme-02/theme.css */
+  :root{ --wrap: 1400px; }
+  /* table expands full-length: natural page flow, page-level vertical scroll */
+  body{ min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; }
+  .wide{ width:min(1560px,100% - 24px); margin-inline:auto; flex:1; min-height:0; display:flex; flex-direction:column; }
+  main#content{ flex:1; min-height:0; display:flex; flex-direction:column; }
+  .visually-hidden{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+  main section#view-table{ padding:0; margin:0; border-bottom:0; }
+  /* plasticlist-style toolbar */
+  .toolbar{ background:color-mix(in srgb, var(--paper) 92%, white); border:1px solid var(--rule); box-shadow:var(--shadow); padding:10px 12px; margin:0; }
+  .toolbar .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar input[type="search"]{ font-family:var(--sans); font-size:13px; padding:7px 10px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); min-width:min(260px,100%); flex:1 1 220px; border-radius:var(--radius); }
+  .toolbar select{ font-family:var(--sans); font-size:12.5px; padding:7px 9px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink-soft); border-radius:var(--radius); }
+  .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
+  /* full-length table: horizontal scroll only, vertical grows with the page */
+  .table-wrap{ margin-top:10px; overflow-x:auto; }
+  .table-wrap table{ font-size:13px; min-width:1180px; border-collapse:separate; border-spacing:0; }
+  .table-wrap tr:last-child th{ border-bottom:0; }
+  .table-wrap thead th{ position:sticky; top:0; z-index:4; }
+  .table-wrap thead th:first-child{ z-index:5; }
+  .table-wrap tbody th{ font-family:var(--sans); font-size:12px; text-align:left; position:sticky; left:0; z-index:2; background:var(--sheet); border-bottom:1px solid var(--rule); padding:9px 12px; white-space:nowrap; vertical-align:top; min-width:170px; }
+  .table-wrap td{ min-width:200px; }
+  .table-wrap tbody th b{ display:block; font-size:12.5px; }
+  .table-wrap tbody th .sub{ display:block; font-size:10.5px; font-weight:400; letter-spacing:.02em; text-transform:none; color:var(--mute); margin-top:2px; }
+  .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; }
+  .pill.lytic{ color:var(--oxblood); } .pill.silent{ color:var(--forest); }
+  .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
+  /* paradigm cells: female/apoptosis + male/parthanatos (XX-caspase / XY-PAR/AIF) */
+  .table-wrap td.paradigm{ background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); border-left:2px solid var(--gold); }
+  /* cell-type selection: highlight matching cells, never filters rows */
+  .table-wrap td.cell-hl{ background:color-mix(in srgb, var(--slate) 16%, var(--sheet)); box-shadow:inset 0 0 0 1px var(--slate); }
+  .table-wrap td.cell-nodata{ color:var(--mute); font-style:italic; }
+  td[data-hl]{ border-left:2px solid transparent; }
+  .table-wrap.hl-lytic td[data-hl~="lytic"]{ background:color-mix(in srgb, var(--oxblood) 9%, var(--sheet)); border-left-color:var(--oxblood); }
+  .table-wrap.hl-energy td[data-hl~="energy"]{ background:color-mix(in srgb, var(--gold) 12%, var(--sheet)); border-left-color:var(--gold); }
+  .table-wrap.hl-iron td[data-hl~="iron"]{ background:color-mix(in srgb, var(--slate) 12%, var(--sheet)); border-left-color:var(--slate); }
+  .table-wrap.hl-dna td[data-hl~="dna"]{ background:color-mix(in srgb, var(--forest) 10%, var(--sheet)); border-left-color:var(--forest); }
+  tr.row-hidden{ display:none; }
+  td mark{ background:color-mix(in srgb, var(--gold) 35%, transparent); padding:0 .15em; }
+  /* TL;DR + scope note */
+  .tldr{ font-size:12.5px; line-height:1.55; color:var(--ink-soft); max-width:120ch; margin:10px 0 0; }
+  .tldr .scope{ display:block; font-size:11px; color:var(--mute); margin-top:2px; }
+  /* legend under the table */
+  .legend{ padding:10px 2px 16px; font-size:11px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); margin-top:10px; }
+  .legend .sw{ display:inline-block; width:10px; height:10px; border:1px solid var(--gold); background:color-mix(in srgb, var(--gold) 14%, var(--sheet)); vertical-align:-1px; margin-right:3px; }
+  /* mobile: rows become stacked cards (labels injected from thead via JS) */
+  @media (max-width:768px){
+    .table-wrap{ overflow:visible; }
+    .table-wrap table{ min-width:0; width:100%; height:auto; }
+    .table-wrap thead{ display:none; }
+    .table-wrap tr{ display:block; border:1px solid var(--rule); border-radius:var(--radius); background:var(--sheet); padding:10px 12px 6px; margin:0 0 12px; }
+    .table-wrap tbody th{ position:static; min-width:0; white-space:normal; background:transparent; border-bottom:1px solid var(--rule); padding:0 0 8px; margin:0 0 8px; }
+    .table-wrap td{ display:block; min-width:0; border:0; padding:8px 0; }
+    .table-wrap td[data-hl]{ border-left:0; }
+    .table-wrap td.paradigm{ border-left:0; }
+    .table-wrap td::before{ content:attr(data-label); display:block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--mute); margin-bottom:3px; }
+    .table-wrap tr.row-hidden{ display:none; }
+  }
+  @media print{ body{ display:block; height:auto; } .wide,main#content,main section#view-table{ display:block; } .toolbar{ display:none; } .table-wrap{ overflow:visible; } }
+
+  :root{ --wrap: 1400px; }
+  body{ min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; }
+  .wide{ width:min(1560px,100% - 24px); margin-inline:auto; flex:1; display:flex; flex-direction:column; }
+  main#content{ flex:1; display:flex; flex-direction:column; }
+  .toolbar{ background:color-mix(in srgb, var(--paper) 92%, white); border:1px solid var(--rule); box-shadow:var(--shadow); padding:10px 12px; margin:12px 0 0; }
+  .toolbar .row{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar button, .toolbar select{ font-family:var(--sans); font-size:12.5px; padding:7px 12px; border:1px solid var(--rule-strong); background:var(--sheet); color:var(--ink); border-radius:var(--radius); cursor:pointer; }
+  .toolbar button.is-on{ background:var(--ink); color:var(--sheet); border-color:var(--ink); }
+  .toolbar .hint{ font-family:var(--sans); font-size:11.5px; color:var(--mute); margin-left:auto; }
+  .grid{ display:grid; grid-template-columns:1fr; gap:14px; padding:14px 0 20px; }
+  @media (min-width:900px){ .grid{ grid-template-columns:1fr 1fr; } }
+  .cell-card{ background:var(--sheet); border:1px solid var(--rule); box-shadow:var(--shadow); border-radius:var(--radius); overflow:hidden; display:flex; flex-direction:column; }
+  .cell-card header{ padding:12px 14px 8px; border-bottom:1px solid var(--rule); }
+  .cell-card header h2{ font-size:1.15rem; margin:0 0 2px; }
+  .cell-card header .sub{ font-family:var(--sans); font-size:11.5px; color:var(--mute); margin:0 0 6px; }
+  .cell-card header .bio{ font-family:var(--mono); font-size:10.5px; color:var(--mute); margin:0 0 6px; }
+  .pill{ display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; border-radius:3px; padding:1px 6px; margin:0 4px 4px 0; }
+  .pill.lytic{ color:var(--oxblood); } .pill.silent{ color:var(--forest); }
+  .pill.reg{ color:var(--slate); } .pill.acc{ color:var(--gold); }
+  .stage{ position:relative; height:300px; background:radial-gradient(420px 220px at 50% 30%, rgba(46,74,93,.10), transparent 70%), #141210; }
+  .stage canvas{ width:100%; height:100%; display:block; }
+  .phase{ position:absolute; left:10px; top:8px; font-family:var(--mono); font-size:11px; color:#f2ece1; background:rgba(20,18,16,.72); border:1px solid rgba(255,255,255,.18); padding:3px 9px; border-radius:20px; pointer-events:none; }
+  .tbar{ position:absolute; left:10px; right:10px; bottom:8px; height:4px; background:rgba(255,255,255,.15); border-radius:2px; overflow:hidden; pointer-events:none; }
+  .tbar i{ display:block; height:100%; width:0; background:var(--gold-soft); }
+  .lbl{ position:absolute; left:0; top:0; z-index:3; font-family:var(--sans); font-size:10.5px; letter-spacing:.02em; color:#f2ece1; background:rgba(20,18,16,.72); border:1px solid rgba(255,255,255,.25); padding:1px 8px; border-radius:20px; pointer-events:none; white-space:nowrap; transform:translate(-50%,-135%); display:none; }
+  .card-body{ padding:10px 14px 14px; font-size:13.5px; line-height:1.55; color:var(--ink-soft); }
+  .card-body ol{ margin:6px 0 8px; padding-left:1.2em; font-family:var(--sans); font-size:12.5px; }
+  .card-body ol li::marker{ color:var(--oxblood); font-family:var(--mono); }
+  .legend-dot{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:4px; vertical-align:0; }
+  .card-foot{ display:flex; gap:8px; padding:0 14px 12px; flex-wrap:wrap; }
+  .card-foot button{ font-family:var(--sans); font-size:11.5px; padding:5px 10px; border:1px solid var(--rule-strong); background:transparent; color:var(--ink-soft); border-radius:var(--radius); cursor:pointer; }
+  .card-foot button[data-reg].is-on{ background:var(--ink); color:var(--sheet); border-color:var(--ink); }
+  .reg-panel{ border-top:1px solid var(--rule); padding:10px 14px 12px; font-size:12.5px; line-height:1.6; color:var(--ink-soft); }
+  .reg-panel h3{ font-size:12px; margin:0 0 6px; letter-spacing:.02em; }
+  .reg-panel .layers{ display:grid; gap:6px; margin:0 0 8px; }
+  .reg-panel .layer{ border:1px solid var(--rule); border-radius:var(--radius); padding:6px 8px; background:color-mix(in srgb, var(--paper) 60%, var(--sheet)); }
+  .reg-panel .layer b{ display:block; font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--mute); margin-bottom:2px; }
+  .reg-panel .meta{ font-family:var(--mono); font-size:10.5px; color:var(--mute); margin:6px 0 0; }
+  .reg-panel iframe.deep-frame{ width:100%; height:420px; border:1px solid var(--rule-strong); border-radius:var(--radius); background:#141210; margin-top:8px; }
+  @media (max-width:640px){ .reg-panel iframe.deep-frame{ height:340px; } }
+  .legend{ padding:10px 2px 26px; font-size:11.5px; line-height:1.7; color:var(--mute); border-top:1px solid var(--rule); }
+  @media print{ .toolbar,.card-foot{ display:none; } .grid{ grid-template-columns:1fr 1fr; } .stage{ height:240px; } }
+
+  /* merged-page additions: tab views */
+  [hidden]{ display:none !important; }
+  .compact-kicker{ margin:10px 0 0; font-size:11px; }
+  .view-table .toolbar{ margin:0; }
+  #view-table{ padding:0; margin:0; border-bottom:0; }
+  #view-anim .toolbar{ margin:12px 0 0; }
+  .cell-card{ content-visibility:auto; contain-intrinsic-size:320px; }
+
+  @media print{ #view-anim{ display:none !important; } }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links" role="tablist">
+      <a href="https://graph.johnnykuo.com/#reader=cell-death-comparison-zh" id="tab-table" role="tab" class="is-active">比較表</a>
+      <a href="https://graph.johnnykuo.com/#reader=cell-death-comparison-zh&amp;section=animations" id="tab-animations" role="tab">動畫</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap wide">
+  <main id="content">
+    <p class="kicker compact-kicker">參考表 * 動畫 * 細胞死亡</p>
+    <h1 class="visually-hidden">細胞死亡比較——表格＋即時動畫</h1>
+    <section id="view-table" role="tabpanel" aria-labelledby="tab-table">
+
+      <div class="toolbar" role="search" aria-label="表格控制">
+        <div class="row">
+          <input type="search" id="q" placeholder="篩選程序——例如 caspase、iron、NAD+、GSDMD…" aria-label="篩選表格">
+          <select id="hl" aria-label="強調模式">
+            <option value="">強調顯示：關閉</option>
+            <option value="hl-lytic">裂解／發炎爆發</option>
+            <option value="hl-energy">能量與 NAD⁺ 軸</option>
+            <option value="hl-iron">鐵與脂質過氧化</option>
+            <option value="hl-dna">DNA 損傷／PARP 軸</option>
+          </select>
+          <select id="cell" aria-label="細胞類型篩選">
+            <option value="">細胞類型：全部</option>
+            <option value="neuron">神經元</option>
+            <option value="macrophage">巨噬細胞／小膠質細胞</option>
+            <option value="fibroblast">纖維母細胞</option>
+            <option value="rbc">紅血球（紅血球凋亡）</option>
+            <option value="neutrophil">嗜中性球（NETosis）</option>
+          </select>
+          <span class="count" id="count">10 個程序 · 11 個特徵</span>
+        </div>
+      </div>
+
+      <div class="table-wrap" id="tblwrap">
+        <table id="cdtbl" aria-label="細胞死亡比較表">
+          <thead>
+            <tr>
+              <th scope="col">程序</th>
+              <th scope="col">男性</th>
+              <th scope="col">女性</th>
+              <th scope="col">調控</th>
+              <th scope="col">能量</th>
+              <th scope="col">形態學</th>
+              <th scope="col">檢測</th>
+              <th scope="col">核心機制</th>
+              <th scope="col">交互作用</th>
+              <th scope="col">免疫</th>
+              <th scope="col">阻斷方式</th>
+              <th scope="col">最易感／抗性細胞</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-program="apoptosis">
+              <th scope="row"><b>細胞凋亡</b><span class="sub">程序性 · 靜默</span></th>
+              <td>缺血後 caspase-3／8 活化較低；心肌梗塞後凋亡指數較高（25.9% vs 2.6%），心臟 Bax 較高（Biondi-Zoccai 2005）；纖維母細胞粒線體壓力反轉——XY 凋亡較高，見<a href="#scope-note">範圍註</a></td>
+              <td class="paradigm">女性優先以 caspase 依賴性凋亡而非 PARP-1／AIF 壞死死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；caspase-3 活化較高較早，caspase-8 核轉位為主；Q-VD-OPh 僅保護雌性（Liu 2009；Sharma 2011）；E2→Bcl-2（Dubal 1999）；XIAP 鑲嵌閾值（Dziadzio 2015）；纖維母細胞粒線體壓力除外——見<a href="#scope-note">範圍註</a></td>
+              <td data-hl=""><span class="pill reg">調控性</span><span class="pill silent">非裂解</span><br>是</td>
+              <td data-hl="energy">依賴 ATP</td>
+              <td data-hl="">細胞皺縮、起泡完整、凋亡小體、DNA 梯狀片段</td>
+              <td data-hl="">Annexin V＋／PI−、cleaved caspase-3、TUNEL、DNA 梯狀片段</td>
+              <td data-hl="dna">外源性 Caspase-8 → Caspase-3；內源性 p53 → PUMA／NOXA／BAX → Bax／BAK 活化與 MOMP → 細胞色素 c → Caspase-9 → Caspase-3；受 Bcl-2／XIAP 抑制</td>
+              <td data-hl="">Caspase-8 切割 RIPK1／3 以阻斷壞死性凋亡；Caspase-3 在 D87 切割 GSDMD 使其失活，同時活化 GSDME——抗 GSDMD／促 GSDME 轉換</td>
+              <td data-hl="">靜默，Annexin V 陽性</td>
+              <td data-hl="">z-VAD-FMK、Bcl-2</td>
+              <td data-hl=""><b>↑</b> 淋巴球、神經元、心肌細胞（AICD、發育修剪、心肌梗塞）——<b>↓／不適用</b> 紅血球、血小板（無核）</td>
+            </tr>
+            <tr data-program="parthanatos">
+              <th scope="row"><b>Parthanatos</b><span class="sub">調控性壞死——PARP1 · AIF · MIF</span></th>
+              <td class="paradigm">男性優先以 PARP-1／AIF 依賴性調控性壞死（parthanatos）而非 caspase 凋亡死亡——具細胞自主性，無激素培養基及青春期前動物中依然存在；PARP 缺失、nNOS 阻斷、PJ-34 僅保護雄性（McCullough 2005；Yuan 2009；Du 2004）</td>
+              <td>PARP-1 在雌性具保護作用——缺失則轉向細胞色素 c／caspase，可被 Q-VD-OPh 挽救；雌二醇神經保護需要 PARP-1（Stroke 2011）；AIF 亦會轉位但不致死（Yuan 2009）</td>
+              <td data-hl="dna energy"><span class="pill reg">調控性</span><br>是</td>
+              <td data-hl="energy dna">消耗 NAD⁺——PARP1 耗盡 NAD⁺／ATP</td>
+              <td data-hl="dna"><span data-tip="磷脂醯絲胺酸（PS）由膜內葉翻轉至外葉——被 Annexin V 檢測的「吃我」訊號">PS 外翻</span>＋膜完整性喪失，但無腫脹、無凋亡小體；粒線體去極化，AIF 釋放早於細胞色素 c；約 50-kbp 大規模片段化，Annexin V＋／PI＋</td>
+              <td data-hl="dna">PAR 聚合物 IHC／Western、核內 AIF、約 50-kb 片段（PFGE）</td>
+              <td data-hl="dna energy">嚴重 DNA 損傷 → PARP1 過度活化 → PAR → AIF 釋放 → MIF 核轉位 → 大規模片段化，非 caspase 依賴</td>
+              <td data-hl="dna energy">SIRT1 經 AIF 促進 PARP1 存活；PARP1 與 SIRTs 競爭 NAD⁺*</td>
+              <td data-hl="energy lytic">經 NAD⁺ 崩潰＋DAMPs 引起發炎*</td>
+              <td data-hl="dna energy">PARP 抑制劑、AIF 阻斷、NAD⁺ 保存*</td>
+              <td data-hl="dna energy"><b>↑</b> 皮質神經元、星狀膠細胞（中風／MCAO）——<b>↓／不適用</b> 紅血球（無核）、淋巴球</td>
+            </tr>
+            <tr data-program="necrosis">
+              <th scope="row"><b>壞死</b><span class="sub">意外性 · 被動</span></th>
+              <td>意外性破裂本身無已驗證的內在性別偏倚；觀察到的梗塞／AKI 男女差異來自調控性執行者（見 Parthanatos 列）</td>
+              <td>無已驗證的內在性別偏倚；若存在調控性選擇，雌性偏好 caspase 凋亡（見凋亡列）</td>
+              <td data-hl=""><span class="pill acc">意外性</span><br>否，意外發生</td>
+              <td data-hl="energy">ATP 耗竭</td>
+              <td data-hl="lytic">腫脹（膨脹壞死）伴水分流入＋空泡化，早期破裂；胞器崩解（粒線體腫脹、溶體滲漏）；核濃縮 → 核碎裂 → 核溶解；DNA 隨機塗抹狀</td>
+              <td data-hl="">PI＋、HMGB1 釋放、ATP 耗竭、LDH</td>
+              <td data-hl="energy">鈉鉀泵衰竭 → Ca²⁺ 超載 → calpain；ROS → mPTP；LMP → cathepsin</td>
+              <td data-hl="">凋亡小體未被清除則發生繼發性壞死</td>
+              <td data-hl="lytic">高度發炎：HMGB1、ATP、尿酸 → TLR／RAGE／NLRP3</td>
+              <td data-hl="">無特異性阻斷劑</td>
+              <td data-hl="lytic"><b>↑</b> 嚴重 ATP 耗竭下所有細胞；尤以心肌細胞、神經元、腎小管為甚——<b>↓</b> 無（紅血球以溶血呈現）</td>
+            </tr>
+            <tr data-program="necroptosis">
+              <th scope="row"><b>壞死性凋亡</b><span class="sub">調控性壞死</span></th>
+              <td>腎臟 IRI 中 RIPK1（約 10 倍）／RIPK3／p-MLKL 更早且持續；肌酸酐／BUN 較差，恢復延遲（Tran 2025，單一研究）</td>
+              <td>RIPK 峰值較低且延遲；卵巢切除縮小差距（卵巢激素保護）</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是</td>
+              <td data-hl="energy">依賴 ATP 的激酶級聯反應</td>
+              <td data-hl="lytic">如壞死般腫脹＋破裂，無凋亡階梯——核濃縮輕微且不一</td>
+              <td data-hl="lytic">pMLKL（人類 Ser358／小鼠 Ser345）、pRIPK3、necrostatin／GSK'872 挽救</td>
+              <td data-hl="lytic energy">TNFα → 複合體 I（NF-κB）→ 複合體 II 凋亡 → 壞死小體 RIPK1 → RIPK3 → MLKL（Caspase-8 被阻斷時）；TRIF／ZBP1 旁路</td>
+              <td data-hl="lytic energy">MLKL 活化 NLRP3 → 焦亡；RIPK3–AMPK 觸發早期自噬隨後阻斷通量</td>
+              <td data-hl="lytic">設計上即發炎，DAMP 釋放</td>
+              <td data-hl="">Necrostatin-1、GSK'872、necrosulfonamide（僅作用於人類 MLKL——對小鼠 MLKL 無效；依序對應 RIPK1／RIPK3／人類 MLKL）</td>
+              <td data-hl="lytic"><b>↑</b> 腸上皮、腎小管、巨噬細胞——<b>↓／不適用</b> 紅血球（無 RIPK3／MLKL）、靜止淋巴球</td>
+            </tr>
+            <tr data-program="ferroptosis">
+              <th scope="row"><b>鐵死亡</b><span class="sub">鐵 · 脂質</span></th>
+              <td>AR→MBOAT2 重塑閘門（Cell 2023）；腎缺血中睪固酮易感性（Park 2004，鐵死亡命名前研究）；腎小管 Gpx4 缺失損傷雄性腎臟（Ide 2022）</td>
+              <td>ER→MBOAT1 重塑閘門（Cell 2023）；腎小管 Gpx4 缺失因 NRF2 抗氧化張力而倖免，卵巢切除部分取消保護（Ide 2022）；E2／SmgGDS 心臟保護</td>
+              <td data-hl="iron"><span class="pill reg">調控性</span><br>是</td>
+              <td data-hl="energy iron">依賴 GSH／NADPH</td>
+              <td data-hl="iron">粒線體皺縮緻密，無核片段化，破裂</td>
+              <td data-hl="iron">C11-BODIPY 脂質 ROS、GPX4 下降／PTGS2 上升、MDA／4-HNE、Fe²⁺</td>
+              <td data-hl="iron energy">System Xc⁻（SLC7A11）→ GSH → GPX4；平行 FSP1–泛醌–NADPH 軸；驅動因子 ACSL4、Fe²⁺ 芬頓反應、NCOA4</td>
+              <td data-hl="iron energy">SIRT3 缺失經 ROS 同時助長壞死性凋亡＋鐵死亡</td>
+              <td data-hl="iron lytic">發炎性脂質 MDA／4-HNE</td>
+              <td data-hl="iron">Ferrostatin-1、liproxstatin-1、deferoxamine</td>
+              <td data-hl="iron"><b>↑</b> 近端腎小管、神經元、肝細胞、心肌細胞——<b>↓</b> 糖解型／低 PUFA 細胞*</td>
+            </tr>
+            <tr data-program="autophagy">
+              <th scope="row"><b>自噬</b><span class="sub">存活過程；僅 ATG 依賴時才計為死亡（NCCD 標準）</span></th>
+              <td>中風後典型 Beclin-1／LC3 誘導；心臟基礎 Beclin-1／LC3 較高（Campesi 2013）；力竭運動僅在年輕雄性清除 p62</td>
+              <td>非 Beclin-1 依賴的 ATG7 路徑（Patrizz 2021）；肌肉基礎自噬／粒線體自噬較高，TFEB 約 1.8 倍；E2 雙向作用（神經元 mTOR–ULK1 抑制 vs ER+ 促存活）；纖維母細胞粒線體壓力——XX 經自噬抵抗，見<a href="#scope-note">範圍註</a></td>
+              <td data-hl=""><span class="pill reg">調控性</span><br>是，以存活為主；僅過度時致死</td>
+              <td data-hl="energy">mTORC1 受抑制，AMPK 被活化</td>
+              <td data-hl="">雙層膜自噬體 → 自噬溶體</td>
+              <td data-hl="">LC3-II 通量 ± bafilomycin、p62、mRFP-GFP-LC3</td>
+              <td data-hl="energy">ULK1–FIP200；Beclin-1–Vps34；Atg5-12-16L1＋LC3；經 SIRT1 的 TFEB</td>
+              <td data-hl="lytic">PINK1／Parkin 粒線體自噬抑制壞死性凋亡／NLRP3；Caspase-1 切割 Parkin 以解除抑制</td>
+              <td data-hl="">具保護性，清除 DAMP 來源</td>
+              <td data-hl="">死亡需 ≥2 種 ATG 干預挽救（例如 ATG5／7 敲除＋3-MA／CQ）；單憑 LC3／p62＝通量而非死亡；rapamycin 誘導</td>
+              <td data-hl=""><b>↑</b> 骨骼肌、肝臟、神經元（依賴 TFEB／PINK1-Parkin）——<b>↓／不適用</b> 紅血球（無胞器）</td>
+            </tr>
+            <tr data-program="pyroptosis">
+              <th scope="row"><b>焦亡</b><span class="sub">發炎體 · 裂解</span></th>
+              <td>細菌／CLP 及心臟 LPS 模型中 NLRP3／IL-1β 較高——具模型依賴性，在純 LPS 休克中反轉</td>
+              <td>E2／ERβ 抑制 OVX 肺／腦中 NLRP3→IL-1β（Liu 2019；Thakkar 2016；Xu 2016）；創傷後 GSDMD 全身性風暴評分雌性較高（Sun 2025）</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是</td>
+              <td data-hl="energy lytic">依賴 ATP 的發炎體組裝</td>
+              <td data-hl="lytic">腫脹，10–20 nm 孔洞，破裂，無梯狀片段</td>
+              <td data-hl="lytic">GSDMD-N、caspase-1 FLICA、IL-1β／IL-18＋LDH 釋放</td>
+              <td data-hl="lytic">典型：PRR＋ASC＋pro-Caspase-1 → Caspase-1 → Gasdermin D 孔洞＋IL-1β／IL-18；非典型：Caspase-4／5／11 感測 LPS → GSDMD → K⁺ 外流 → NLRP3；Caspase-3／Gasdermin E 分支</td>
+              <td data-hl="lytic">GSDMD 孔洞授權 NLRP3；SIRT3 降低 mtROS 以抑制 NLRP3</td>
+              <td data-hl="lytic">高度發炎：IL-1β／IL-18＋HMGB1、IL-1α、經孔洞釋出的 mtDNA</td>
+              <td data-hl="lytic">NLRP3 抑制劑、Caspase-1 抑制劑、disulfiram／GSDMD 阻斷*</td>
+              <td data-hl="lytic"><b>↑</b> 巨噬細胞、微膠細胞、樹突細胞、腸上皮——<b>↓／不適用</b> 紅血球、血小板</td>
+            </tr>
+            <tr data-program="panoptosis">
+              <th scope="row"><b>PANoptosis</b><span class="sub">三合一 · ZBP1 · 非冗餘</span></th>
+              <td>尚無明確的性別偏倚證據；情境為嚴重感染（流感、耶爾森菌）與缺血–再灌流，PANoptosome 組裝會凌駕單一路徑的性別偏好</td>
+              <td>同上——尚無直接性別差異研究；同時活化 caspase 與 PAR 兩臂，會繞過凋亡／Parthanatos 的選擇</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是——設計上如此</td>
+              <td data-hl="energy lytic">依賴 ATP 的多臂執行</td>
+              <td data-hl="lytic">混合型：gasdermin 孔洞＋破裂＋染色質濃縮；單一抑制劑無法挽救</td>
+              <td data-hl="lytic">無單一標記——GSDMD-N＋cleaved caspase-3＋pMLKL 同時出現，且單臂阻斷失效</td>
+              <td data-hl="lytic energy">感測器（ZBP1 或 TAK1 失能）→ PANoptosome（RIPK1–RIPK3–Caspase-8–Caspase-1 ± ASC/FADD）→ 並行 GSDMD 孔洞＋caspase-3＋pMLKL</td>
+              <td data-hl="lytic">本身即交互作用：焦亡＋凋亡＋壞死性凋亡共組裝；NLRP3 活化內建；單用 z-VAD 或 necrostatin-1 失效</td>
+              <td data-hl="lytic">發炎最強：IL-1β／IL-18＋三臂共同釋出的 DAMP 風暴</td>
+              <td data-hl="">上游：ZBP1／RIPK3 標靶；多臂合併阻斷</td>
+              <td data-hl="lytic"><b>↑</b> 嚴重感染下巨噬細胞、肺上皮——<b>↓／不適用</b> 紅血球、血小板</td>
+            </tr>
+            <tr data-program="eryptosis">
+              <th scope="row"><b>紅血球凋亡</b><span class="sub">紅血球 · 類凋亡、無核</span></th>
+              <td>尚無明確性別偏倚；紅血球無細胞核／粒線體，不適用 caspase 與 PARP1／AIF 的選擇</td>
+              <td>同上——尚無直接性別差異研究；雌二醇對紅血球變形能力的影響有報導，但未證實影響紅血球凋亡速率本身</td>
+              <td data-hl=""><span class="pill reg">調控性</span><span class="pill silent">非裂解</span><br>是——非 caspase 依賴</td>
+              <td data-hl="energy">依賴 ATP 的 Ca²⁺ 外排；能量耗竭會觸發</td>
+              <td data-hl="">細胞皺縮、膜起泡、PS 外翻，無細胞核／粒線體可片段化；由脾臟巨噬細胞清除</td>
+              <td data-hl="">Annexin V＋、Fluo-3 鈣離子上升、前向散射皺縮、神經醯胺染色</td>
+              <td data-hl="energy">Ca²⁺ 內流 → calpain＋scramblase 活化 → PS 外翻；誘因：氧化壓力、滲透壓休克、能量耗竭、神經醯胺</td>
+              <td data-hl="iron energy">與鐵死亡共享脂質過氧化誘因；PS 外翻類似凋亡但無 caspase 參與</td>
+              <td data-hl="">靜默、抗發炎清除（如凋亡），除非隨後發生大量溶血</td>
+              <td data-hl="">鈣螯合、calpain 抑制劑、紅血球生成素*</td>
+              <td data-hl=""><b>↑</b> 僅紅血球（Ca²⁺／氧化／滲透壓壓力、CKD、敗血症）——<b>不適用</b> 所有有核細胞</td>
+            </tr>
+            <tr data-program="netosis">
+              <th scope="row"><b>NETosis</b><span class="sub">嗜中性球 · PAD4 · NET 釋放</span></th>
+              <td>部分感染／心血管模型報導男性 NET 負擔較高——具情境依賴性，尚未建立細胞自主性範式</td>
+              <td>多個模型中 E2 抑制 NET 形成；尚未建立細胞自主性的 XX／XY 範式</td>
+              <td data-hl="lytic"><span class="pill reg">調控性</span><span class="pill lytic">裂解</span><br>是——自殺型與存活型</td>
+              <td data-hl="energy lytic">多數依賴 NADPH 氧化酶的 ROS（自殺型）；存在 NOX 非依賴性誘因；染色質去濃縮需耗能</td>
+              <td data-hl="lytic dna">染色質去濃縮、核膜崩解、NET 釋放（DNA＋組織蛋白＋elastase／MPO）；自殺型破裂，存活型保留細胞膜</td>
+              <td data-hl="lytic dna">胞外 DNA（Sytox Green）、瓜胺酸化組織蛋白 H3（cit-H3）、MPO–DNA 複合物</td>
+              <td data-hl="lytic dna">NOX-ROS → 多經 PAD4 介導組織蛋白瓜胺酸化（存在 PAD4／NOX 非依賴路徑：NE 介導、粒線體 ROS、ionomycin）→ 染色質解旋 → NET 釋放；誘因：病原體、LPS、PMA、免疫複合物</td>
+              <td data-hl="lytic">NET 授權巨噬細胞 NLRP3／焦亡；NET 組織蛋白觸發血小板／凝血級聯反應</td>
+              <td data-hl="lytic">促發炎且促血栓：NET DNA／組織蛋白作為 DAMP</td>
+              <td data-hl="lytic dna">PAD4 抑制劑（Cl-amidine）、NE／MPO 抑制、DNase 消化 NET</td>
+              <td data-hl="lytic"><b>↑</b> 僅嗜中性球（病原體、免疫複合物）；存活型保留細胞膜——<b>不適用</b> 其他白血球、紅血球</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <footer class="legend">
+        <p class="tldr">在缺血–再灌流模型中，雌性細胞傾向 caspase 依賴性凋亡，雄性細胞傾向 PARP1–AIF parthanatos；裂解與鐵依賴機制則依情境加入例外。
+          <span class="scope" id="scope-note">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。反轉例：粒線體壓力下纖維母細胞翻轉模式——XY 雄性呈現較高的典型凋亡，XX 雌性經自噬抵抗。細胞類型選擇器（神經元／巨噬細胞–小膠質細胞／纖維母細胞／紅血球／嗜中性球）依各類型資料替換男性／女性儲存格（強證據：神經元凋亡／parthanatos、巨噬細胞焦亡；9 項單一研究；38 項無直接資料，以淡斜體顯示）——「全部」恢復混合預設值。紅血球凋亡（紅血球、無核）與 NETosis（嗜中性球）具血球特異性，位於 XX/XY 範式之外——尚未建立細胞自主性性別差異。</span></p>
+        <p><b>圖例</b>——<span class="sw"></span> 金色儲存格：核心性別範式（XX → caspase 依賴性凋亡；XY → PARP1/AIF parthanatos）。標籤：<span class="pill reg">調控性</span> <span class="pill acc">意外性</span> <span class="pill lytic">裂解</span> <span class="pill silent">非裂解</span>。<b>*</b> = 由跨程序生物學推論而來，並未在所引性別差異研究中直接驗證。</p>
+      </footer>
+    
+    </section>
+
+    <section id="view-anim" role="tabpanel" aria-labelledby="tab-animations" hidden>
+<div class="toolbar" role="toolbar" aria-label="動畫控制">
+      <div class="row">
+        <button id="playAll" class="is-on">⏸ 全部暫停</button>
+        <select id="speed" aria-label="播放速度">
+          <option value="0.5">0.5× 速度</option>
+          <option value="1" selected>1× 速度</option>
+          <option value="2">2× 速度</option>
+        </select>
+        <button id="shareAnim" title="複製在閱讀器開啟動畫分頁的連結">🔗 分享</button>
+        <span class="hint">12 秒縮時循環 · T+ 時鐘為生物時間 · 捲動查看全部 10 種 · 🧬 開啟調控深度</span>
+      </div>
+    </div>
+      <div class="grid" id="anim"></div>
+<footer class="legend">
+      <p><b>如何判讀。</b>腫脹 + 碎片雲驟爆 = 裂解型（壞死、壞死性凋亡、焦亡、PANoptosis、晚期鐵死亡）。
+      收縮 + 表面起泡掐斷成獨立小球 = 細胞凋亡。PAR 訊號 → AIF 向核挺進且無腫脹 = Parthanatos。
+      過氧化斑塊 + 收縮濃縮的粒線體 = 鐵死亡。新月形膜包覆貨物並與溶體融合 = 自噬。
+      每個 12 秒循環都是縮時——T+ 時鐘以生物速度走，因此相同的循環長度涵蓋差異極大的真實時間：
+      快速端約 20 分鐘（壞死）與約 45 分鐘（焦亡），中段約 2 小時飢餓通量（自噬）與約 3–4 小時（細胞凋亡、壞死性凋亡），
+      慢速端約 8 小時（Parthanatos、鐵死亡）與約 12 小時感染病程（PANoptosis），另有約 2–4 小時自殺型 NETosis 與數小時級紅血球凋亡。單細胞時間因細胞種類與刺激而異——時鐘為代表值，非精確值。
+      使用 three.js r160（CDN importmap）建構；頂點位移細胞膜、實例化粒子、無後處理。支援 <code>prefers-reduced-motion</code>（預設暫停）。
+      每張卡片的 🧬 調控細節提供感測 → 放大 → 執行三層拆解與關鍵修飾位點、抑制劑，並內嵌專屬的完整多層調控細胞（壞死性凋亡 RIPK1 · RIPK3 · MLKL 為首例）。</p>
+    </footer>
+    </section>
+
+  </main>
+</div>
+
+<script>
+"use strict";
+(function(){
+  var q = document.getElementById('q'), hl = document.getElementById('hl'),
+      wrap = document.getElementById('tblwrap'), tbl = document.getElementById('cdtbl'),
+      count = document.getElementById('count');
+  // stamp column labels onto cells for the mobile card view
+  var cols = Array.prototype.map.call(tbl.tHead.rows[0].cells, function(c){ return c.textContent; });
+  Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+    Array.prototype.forEach.call(r.cells, function(c, i){ if(i > 0) c.setAttribute('data-label', cols[i]); });
+  });
+  function stripe(tag){ return tag.replace(/[^\w+²⁻→\/-]+/g,' ').trim(); }
+  function apply(){
+    var needle = (q.value||'').toLowerCase().trim(), vis = 0;
+    var rows = tbl.tBodies[0].rows;
+    for (var i=0;i<rows.length;i++){
+      var r = rows[i], txt = r.textContent.toLowerCase();
+      var show = !needle || txt.indexOf(needle) > -1;
+      r.classList.toggle('row-hidden', !show);
+      if (show) vis++;
+      // in-cell match highlight
+      r.querySelectorAll('td').forEach(function(td){
+        td.querySelectorAll('mark').forEach(function(m){ m.replaceWith(document.createTextNode(m.textContent)); });
+        if (needle && show){
+          var node = Array.prototype.find.call(td.childNodes, function(n){ return n.nodeType===3 && n.textContent.toLowerCase().indexOf(needle)>-1; });
+          if (node){
+            var idx = node.textContent.toLowerCase().indexOf(needle), rng = document.createRange();
+            rng.setStart(node, idx); rng.setEnd(node, idx+needle.length);
+            var mk = document.createElement('mark'); rng.surroundContents(mk);
+          }
+        }
+      });
+    }
+    count.textContent = vis + ' 個程序 · 11 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
+
+      // merged page: mirror the table filter onto animation cards
+      document.querySelectorAll('.cell-card').forEach(function(c){
+        var showCard = !needle || c.textContent.toLowerCase().indexOf(needle) > -1;
+        c.style.display = showCard ? '' : 'none';
+      });
+  }
+  q.addEventListener('input', apply);
+  // 細胞類型圖層：醒目提示相符儲存格（不篩選列）＋自 celltype-sex-zh.json 替換男性／女性內容。
+  // 預設男性／女性偏好以金色 .paradigm 儲存格呈現（純 CSS）。
+  var cell = document.getElementById('cell');
+  var CELL_TERMS = {
+    neuron: ['神經元', 'neuron'],
+    macrophage: ['巨噬細胞', '小膠質細胞', 'macrophage', 'microglia'],
+    fibroblast: ['纖維母細胞', 'fibroblast'],
+    rbc: ['紅血球', '紅血球凋亡', 'rbc', 'eryptosis'],
+    neutrophil: ['嗜中性球', 'neutrophil', 'netosis']
+  };
+  var CELLDATA = null, ORIG = {};
+  function snapshotOrig(){
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      var p = r.getAttribute('data-program');
+      var tds = r.querySelectorAll('td');
+      if (p && tds.length >= 2 && !ORIG[p]) ORIG[p] = {male: tds[0].innerHTML, female: tds[1].innerHTML, maleHl: tds[0].classList.contains('paradigm'), femaleHl: tds[1].classList.contains('paradigm'), det: tds.length > 5 ? tds[5].innerHTML : null, vul: tds.length > 10 ? tds[10].innerHTML : null};
+    });
+  }
+  snapshotOrig();
+  fetch('../../data/celltype-sex-zh.json').then(function(res){ return res.ok ? res.json() : null; }).then(function(j){ CELLDATA = j; }).catch(function(){ CELLDATA = null; });
+  function swapCells(v){
+    var pack = CELLDATA && CELLDATA[v];
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      var p = r.getAttribute('data-program');
+      var tds = r.querySelectorAll('td');
+      if (!p || tds.length < 2 || !ORIG[p]) return;
+      if (pack && pack[p]){
+        tds[0].innerHTML = pack[p].male;
+        tds[1].innerHTML = pack[p].female;
+        if (pack[p].evidence === 'nodata'){ tds[0].classList.add('cell-nodata'); tds[1].classList.add('cell-nodata'); }
+        else { tds[0].classList.remove('cell-nodata'); tds[1].classList.remove('cell-nodata'); }
+        tds[0].classList.toggle('paradigm', pack[p].highlight === 'male');
+        tds[1].classList.toggle('paradigm', pack[p].highlight === 'female');
+        if (tds.length > 5 && pack[p].detection) tds[5].innerHTML = pack[p].detection;
+        if (tds.length > 10 && pack[p].vulnerable) tds[10].innerHTML = pack[p].vulnerable;
+      } else {
+        tds[0].innerHTML = ORIG[p].male;
+        tds[1].innerHTML = ORIG[p].female;
+        tds[0].classList.remove('cell-nodata');
+        tds[1].classList.remove('cell-nodata');
+        tds[0].classList.toggle('paradigm', !!ORIG[p].maleHl);
+        tds[1].classList.toggle('paradigm', !!ORIG[p].femaleHl);
+        if (tds.length > 5 && ORIG[p].det) tds[5].innerHTML = ORIG[p].det;
+        if (tds.length > 10 && ORIG[p].vul) tds[10].innerHTML = ORIG[p].vul;
+      }
+    });
+  }
+  function paintCells(){
+    var v = cell.value;
+    var terms = CELL_TERMS[v] || [];
+    tbl.querySelectorAll('td.cell-hl').forEach(function(td){ td.classList.remove('cell-hl'); });
+    if (!terms.length) return;
+    Array.prototype.forEach.call(tbl.tBodies[0].rows, function(r){
+      Array.prototype.forEach.call(r.cells, function(td){
+        if (td.tagName !== 'TD') return;
+        var txt = td.textContent.toLowerCase();
+        for (var i=0;i<terms.length;i++){
+          if (txt.indexOf(terms[i].toLowerCase()) > -1){ td.classList.add('cell-hl'); break; }
+        }
+      });
+    });
+  }
+  cell.addEventListener('change', function(){ paintCells(); swapCells(cell.value); });
+  hl.addEventListener('change', function(){
+    wrap.classList.remove('hl-lytic','hl-energy','hl-iron','hl-dna');
+    if (hl.value) wrap.classList.add(hl.value);
+  });
+  apply();
+})();
+</script>
+<script>
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+</script>
+
+<!-- Copy-to-clipboard: auto-attaches copy buttons to every data table,
+     with TSV export (shared theme-02/pages-svg.js). Each 3-D stage has an
+     explicit snapshot button (data-copy-canvas) for PNG export. -->
+<script src="../themes/theme-02/pages-svg.js"></script>
+
+<script>
+"use strict";
+(function(){
+  var READER_ID = 'cell-death-comparison-zh';
+  var tableSec = document.getElementById('view-table'),
+      animSec = document.getElementById('view-anim'),
+      tabTable = document.getElementById('tab-table'),
+      tabAnim = document.getElementById('tab-animations');
+  function readerBase(){
+    var base = /^https?:/.test(location.protocol) ? location.origin : 'https://graph.johnnykuo.com';
+    return base + '/#reader=' + READER_ID;
+  }
+  // Hrefs carry the full reader deep link so right-click → copy shares a
+  // reader-inside URL; plain left-clicks are intercepted below for in-place tabs.
+  tabTable.href = readerBase();
+  tabAnim.href = readerBase() + '&section=animations';
+  function notifyParent(isAnim){
+    try {
+      if (window.parent !== window) {
+        window.parent.postMessage({type:'reader-section', section: isAnim ? 'animations' : null}, location.origin);
+      }
+    } catch(_){}
+  }
+  function apply(){
+    var h = location.hash;
+    // '#animations' is the tab href; '#view-anim' is what the graph reader's
+    // section tracking writes (&section=view-anim) — both open the anim tab.
+    var isAnim = (h === '#animations' || h === '#view-anim');
+    tableSec.hidden = isAnim;
+    animSec.hidden = !isAnim;
+    tabTable.classList.toggle('is-active', !isAnim);
+    tabAnim.classList.toggle('is-active', isAnim);
+    tabTable.setAttribute('aria-selected', String(!isAnim));
+    tabAnim.setAttribute('aria-selected', String(isAnim));
+    if (isAnim) dispatchEvent(new Event('resize')); // re-fit three.js canvases
+    notifyParent(isAnim);
+  }
+  function go(e, target, isAnim){
+    if (e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey){
+      e.preventDefault();
+      if (location.hash !== target) location.hash = target; // fires hashchange → apply()
+      else notifyParent(isAnim);
+    }
+  }
+  tabTable.addEventListener('click', function(e){ go(e, '#table', false); });
+  tabAnim.addEventListener('click', function(e){ go(e, '#animations', true); });
+  addEventListener('hashchange', apply);
+  apply();
+})();
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+
+/* ============ shared engine ============ */
+const DUR = 12; // seconds per loop
+let running = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+let speed = 1;
+
+const PROGRAMS = [
+ { id:'apoptosis', title:'細胞凋亡', sub:'程序性 · 靜默 · 非裂解',
+   pills:'<span class="pill reg">受調控</span><span class="pill silent">非裂解性</span>',
+   bioNote:'⏱ 單細胞執行約 3 小時 · 12 秒循環（縮時）',
+   phases:[[0,0,'死亡訊號——caspase-8/9 點火'],[2.5,30,'細胞收縮 · 染色質濃縮'],[5,75,'細胞膜起泡——保持完整'],[7.5,140,'凋亡小體掐斷分離'],[10,170,'包裹完成待吞噬']],
+   steps:['啟動——caspase-8/9 點燃 caspase-3；PS 開始外翻（Annexin V+）。','細胞收縮；染色質濃縮後斷裂成 DNA 梯狀片段。','細胞膜起泡但保持密封——PS 染色標示吃我訊號，絕不破裂。','分裂成密封的凋亡小體——無碎片雲；被靜默吞噬。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
+    {text:'粒線體', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<8.5},
+    {text:'PS 訊號（Annexin V+）', pos:()=>[0,2.1,0], show:(R,t)=>t>=4&&t<10},
+    {text:'凋亡小體', pos:(R)=>R.frags[0].visible?R.frags[0].position.toArray():null}],
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>細胞膜 <span class="legend-dot" style="background:#9a7bd0"></span>細胞核 → 片段 <span class="legend-dot" style="background:#ffb347"></span>粒線體（保留） <span class="legend-dot" style="background:#c98d6e"></span>PS 外翻' },
+ { id:'parthanatos', title:'Parthanatos', sub:'PARP-1 · AIF · MIF — NAD⁺ 耗竭型',
+   pills:'<span class="pill reg">受調控</span>',
+   bioNote:'⏱ MNNG 類型病程約 8 小時 · 12 秒循環（縮時）',
+   phases:[[0,0,'嚴重 DNA 損傷——PARP-1 過度活化'],[3,15,'PAR 鏈爆發 · NAD⁺ 耗竭（細胞變暗）'],[5.5,120,'AIF 離開粒線體 → 細胞核'],[8,300,'大片段（~50 kbp）聚集——無梯狀'],[10.3,450,'PS 外翻 · 細胞膜滲漏、不腫脹']],
+   steps:['DNA 損傷使 PARP-1 過度活化；PAR 自細胞核爆發。','NAD⁺／ATP 耗竭——全細胞光度下降；PAR 結合粒線體上的 AIF。','AIF 湧入細胞核；MIF 核酸酶隨後跟進切割 DNA。','細胞核聚成 ~50-kbp 大片段（無梯狀）；PS 外翻、輕微滲漏——不腫脹、不爆裂。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
+    {text:'粒線體', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12},
+    {text:'PAR 聚合物', pos:()=>[1.25,0.85,0], show:(R,t)=>t>=2&&t<=8.5},
+    {text:'AIF', pos:()=>[-0.55,0.32,0.4], show:(R,t)=>t>=5&&t<=10},
+    {text:'MIF 核酸酶', pos:()=>[-0.35,-0.35,0.4], show:(R,t)=>t>=6.5&&t<=10.5}],
+   legend:'<span class="legend-dot" style="background:#ffe14d"></span>PAR 聚合物 <span class="legend-dot" style="background:#51ff9e"></span>AIF <span class="legend-dot" style="background:#9a7bd0"></span>細胞核（大片段聚集）' },
+ { id:'necrosis', title:'壞死', sub:'意外性 · 被動 · ATP 耗竭',
+   pills:'<span class="pill acc">意外性</span>',
+   bioNote:'⏱ 約 20 分鐘——十者中最快 · 12 秒循環（縮時）',
+   phases:[[0,0,'損傷——鈉／鉀幫浦失效'],[2.5,4,'滲透腫脹——水分湧入、細胞腫大'],[5,9,'胞器腫脹 · 溶體滲漏'],[7,14,'細胞膜破裂'],[8,18,'DAMP 風暴——HMGB1、ATP、尿酸']],
+   steps:['Na⁺／K⁺ 幫浦失效——滲透腫脹使細胞脹大；粒線體腫脹破裂、溶體滲漏。','細胞膜在某一點撕裂——不規則破口。','DAMP 雲向外爆發 = 高度發炎。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
+    {text:'粒線體', pos:()=>[-1.1,0.5,0.4], dx:-38, dy:-12, show:(R,t)=>t<7},
+    {text:'DAMPs', pos:()=>[2.7,1.2,0], show:(R,t)=>t>=7}],
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>細胞膜 <span class="legend-dot" style="background:#ff5a4d"></span>DAMPs <span class="legend-dot" style="background:#7fd4ff"></span>水分湧入' },
+ { id:'necroptosis', title:'壞死性凋亡', sub:'調控性壞死——RIPK1 → RIPK3 → MLKL',
+   pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
+   bioNote:'⏱ TSZ 病程約 4 小時（L929 約 1 小時 → HT-29 約 6 小時）· 12 秒循環（縮時）',
+   phases:[[0,0,'TNFα 訊號——caspase-8 被阻斷'],[2.5,60,'壞死小體組裝（RIPK1／RIPK3）'],[5,120,'p-MLKL 環狀打孔'],[7,180,'經孔道腫脹 → 破裂'],[8.5,220,'DAMP 釋放 + NLRP3 交棒']],
+   steps:['TNFα 訊號下 caspase-8 被阻斷——RIPK1／RIPK3 壞死小體斑點組裝。','RIPK3 磷酸化 MLKL；MLKL 寡聚體在細胞膜打孔。','離子內流使細胞經孔區腫脹。','破裂 + DAMP 釋放並交棒 NLRP3；實際檢測可用 necrostatin-1／GSK\'872 阻斷。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'粒線體', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'壞死小體（RIPK1/3）', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
+    {text:'MLKL 孔', pos:(R)=>R.pores[5].position.toArray(), show:(R,t)=>t>=4.5}],
+   legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK1/3 壞死小體 <span class="legend-dot" style="background:#ffd9c4"></span>MLKL 孔（大） <span class="legend-dot" style="background:#ffb347"></span>DAMPs' },
+ { id:'ferroptosis', title:'鐵死亡', sub:'鐵 · 脂質過氧化 · GPX4 失效',
+   pills:'<span class="pill reg">受調控</span>',
+   bioNote:'⏱ erastin 類型病程約 8 小時（RSL3 約 4–5 小時）· 12 秒循環（縮時）',
+   phases:[[0,0,'system Xc⁻／GPX4 失效——GSH 耗竭'],[3,120,'Fe²⁺ 火花 · 芬頓 ROS'],[5.5,240,'脂質過氧化擴散'],[8,360,'粒線體收縮濃縮'],[10,450,'在過氧化斑塊處破裂']],
+   steps:['system Xc⁻ → GSH → GPX4 失效（FSP1 備援被壓垮）——抗氧化盾失效。','游離 Fe²⁺ 驅動芬頓 ROS；ACSL4 裝載的 PUFA 磷脂過氧化。','脂質 ROS 斑塊沿細胞膜蔓延（C11-BODIPY 訊號）；粒線體皺縮濃縮。','細胞核保持完整——無斷裂；晚期在過氧化斑塊處破裂。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
+    {text:'粒線體', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'Fe²⁺ / ROS', pos:()=>[0.9,-0.78,0.5], show:(R,t)=>t>=2&&t<8},
+    {text:'過氧化的細胞膜', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
+   legend:'<span class="legend-dot" style="background:#ff7a1a"></span>Fe²⁺/ROS <span class="legend-dot" style="background:#8a4b1f"></span>脂質 ROS 斑塊 <span class="legend-dot" style="background:#555"></span>皺縮的粒線體' },
+ { id:'autophagy', title:'自噬', sub:'存活過程；僅 ATG 依賴時才計為死亡（NCCD 標準）',
+   pills:'<span class="pill reg">受調控</span>',
+   bioNote:'⏱ 飢餓通量約 2 小時 · 單一囊泡約 10 分鐘 · 12 秒循環（縮時）',
+   phases:[[0,0,'飢餓——mTORC1 關閉、AMPK 開啟'],[2.5,15,'吞噬泡新月生成'],[5,35,'包裹貨物——自噬體閉合'],[7.5,60,'與溶體融合 → 降解'],[10,110,'恢復——僅當 ATG 阻斷能挽救時才計為死亡']],
+   steps:['飢餓撥動開關——mTORC1 關閉、AMPK 開啟；ULK1–FIP200 + Beclin-1–Vps34 啟動。','吞噬泡新月生長、包覆受損貨物並閉合（LC3 脂化）。','雙層膜自噬體將貨物運往溶體。','融合閃光——貨物降解回收；細胞存活，僅當 ATG 阻斷能挽救時才計為自噬依賴性死亡。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.7,-0.8,0]},
+    {text:'粒線體', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:(t)=>t<6.5?'吞噬泡':'自噬體', pos:(R)=>R.crescents[0].position.toArray(), dy:-18, show:(R,t)=>t>=1.5&&t<8.5},
+    {text:'溶體', pos:(R)=>R.lyso.position.toArray(), dx:28, show:(R,t)=>t>=2}],
+   legend:'<span class="legend-dot" style="background:#51ff9e"></span>吞噬泡／自噬體 <span class="legend-dot" style="background:#ff5a4d"></span>溶體 <span class="legend-dot" style="background:#ffb347"></span>貨物' },
+ { id:'pyroptosis', title:'焦亡', sub:'發炎體 · GSDMD 孔 · 裂解型',
+   pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
+   bioNote:'⏱ 刺激到破裂約 45 分鐘 · 12 秒循環（縮時）',
+   phases:[[0,0,'PRR 感知危險——發炎體斑點'],[2.5,8,'caspase-1 點火——GSDMD 被切割'],[5,18,'10–20 nm 孔環佈滿細胞膜'],[7,30,'IL-1β／IL-18 噴射 + 腫脹'],[8.5,40,'破裂——細胞激素風暴']],
+   steps:['PRR 感知危險——發炎體斑點組裝；caspase-1 點火、GSDMD 被切割。','GSDMD-N 的 10–20 nm 孔環佈滿細胞膜。','IL-1β／IL-18 經孔道噴泉湧出，細胞腫脹。','破裂——細胞激素風暴。（非典型 caspase-4/5/11 與 caspase-3／GSDME 臂匯聚於此。）'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
+    {text:'發炎體', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
+    {text:'GSDMD 孔', pos:(R)=>R.pores[3].position.toArray(), show:(R,t)=>t>=4},
+    {text:'IL-1β / IL-18', pos:()=>[2.6,-1.0,0], show:(R,t)=>t>=6}],
+   legend:'<span class="legend-dot" style="background:#ffe14d"></span>發炎體／caspase-1 <span class="legend-dot" style="background:#ffffff"></span>GSDMD 孔 <span class="legend-dot" style="background:#7fd4ff"></span>IL-1β/IL-18' },
+ { id:'panoptosis', title:'PANoptosis', sub:'三合一 · ZBP1 · 非冗餘',
+   pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
+   bioNote:'⏱ 感染病程約 12 小時——十者中最慢 · 12 秒循環（縮時）',
+   phases:[[0,0,'ZBP1 感知——PANoptosome 組裝'],[3,240,'三臂齊發：GSDMD + caspase-3 + MLKL'],[6,480,'混合態：孔洞 + 起泡 + 腫脹同步'],[8.5,600,'全面破裂——單一抑制劑無效'],[10,690,'三臂齊發的 DAMP + 細胞激素風暴']],
+   steps:['ZBP1 感知（或 TAK1 缺失）——PANoptosome 組裝：RIPK1／RIPK3／caspase-8／caspase-1 + ASC／FADD。','三臂平行開火：GSDMD 孔 + caspase-3 活性 + pMLKL。','混合形態——孔洞、起泡與濃縮同步發生。','全面破裂 + DAMP／細胞激素風暴；單臂藥物（z-VAD、necrostatin-1）無效——需多臂聯合阻斷。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
+    {text:'粒線體', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
+    {text:'PANoptosome', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=0.5},
+    {text:'孔洞（GSDMD + MLKL）', pos:(R)=>R.pores[9].position.toArray(), show:(R,t)=>t>=3.5}],
+   legend:'<span class="legend-dot" style="background:#ff5a4d"></span>RIPK <span class="legend-dot" style="background:#ffe14d"></span>caspase <span class="legend-dot" style="background:#ffffff"></span>GSDMD／MLKL 孔' },
+ { id:'eryptosis', title:'紅血球凋亡', sub:'紅血球 · 類凋亡、無核 — Ca2+/神經醯胺',
+   pills:'<span class="pill reg">受調控</span><span class="pill silent">非裂解性</span>',
+   bioNote:'⏱ 約數小時（氧化／滲透壓／能量耗竭誘因）· 12 秒循環（縮時）',
+   phases:[[0,0,'誘因——Ca2+ 內流、能量耗竭'],[2.5,30,'細胞收縮 · Ca2+ 湧入'],[5,90,'PS 外翻 · 細胞膜起泡'],[8,150,'皺縮的 PS 陽性殘體——待清除'],[10.5,180,'被巨噬細胞靜默吞噬——不破裂']],
+   steps:['圓盤狀紅血球收縮——Ca2+ 湧入（氧化／滲透壓／能量耗竭／神經醯胺誘因）；無核、無粒線體。','細胞膜起泡；PS 外翻染色標示吃我訊號（Annexin V+）。','PS 陽性殘體被巨噬細胞清除——僅失控時溶血。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'Ca2+ 內流', pos:()=>[-0.2,0.9,0.4], show:(R,t)=>t>=1.5&&t<9},
+    {text:'PS 訊號', pos:()=>[0,2.1,0], show:(R,t)=>t>=5}],
+   legend:'<span class="legend-dot" style="background:#e8b4a0"></span>細胞膜 <span class="legend-dot" style="background:#7fd4ff"></span>Ca2+ <span class="legend-dot" style="background:#c98d6e"></span>PS 外翻' },
+ { id:'netosis', title:'NETosis', sub:'嗜中性球 · PAD4 · NET 釋放 — 裂解型',
+   pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
+   bioNote:'⏱ 自殺型約 2–4 小時（存活型約數分鐘、保留細胞膜）· 12 秒循環（縮時）',
+   phases:[[0,0,'病原體／LPS——NADPH 氧化酶 ROS 爆發'],[2.5,30,'PAD4 活化——組織蛋白瓜胺酸化'],[5,90,'染色質去濃縮——細胞核腫大'],[7.5,150,'核膜崩解——NET 擠出'],[10,210,'DNA 網 + elastase／MPO——捕捉病原體']],
+   steps:['病原體／LPS 誘發——NADPH 氧化酶 ROS 爆發；PAD4 瓜胺酸化組織蛋白（cit-H3）。','分葉核去濃縮、腫大並充滿細胞——無凋亡梯狀片段。','核膜崩解——染色質與 elastase／MPO 顆粒混合。','自殺型（如圖）：細胞膜破裂，DNA–組織蛋白網噴湧而出；存活型保留細胞膜、數分鐘內釋放 NET。'],
+   labels:[
+    {text:'細胞膜', pos:()=>[1.5,1.45,0]},
+    {text:'分葉核（去濃縮中）', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
+    {text:'PAD4（cit-H3）', pos:()=>[0,-0.66,0.3], show:(R,t)=>t>=1.5&&t<8},
+    {text:'NET（DNA + MPO）', pos:()=>[2.6,1.0,0], show:(R,t)=>t>=7}],
+   legend:'<span class="legend-dot" style="background:#9a7bd0"></span>染色質／NET DNA <span class="legend-dot" style="background:#ffe14d"></span>PAD4 <span class="legend-dot" style="background:#ff8a3d"></span>elastase／MPO' },
+
+];
+
+const REG_DETAIL = {
+ apoptosis: { layers: [['感測 / 整合', '外源性 FasL/TRAIL → Caspase-8；內源性 p53 → PUMA／NOXA／BAX → Bax／BAK 活化與 MOMP → 細胞色素 c → Caspase-9。Caspase-8 同時切割 RIPK1/3 以阻斷 necroptosis。'], ['放大', '執行者 Caspase-3/7；Caspase-3 在 D87 切割 GSDMD（關閉）同時活化 GSDME（開啟）。'], ['執行', '皺縮、密封起泡、凋亡小體、DNA 梯狀斷裂；PS 外翻為吞噬訊號，靜默清除。']], regulators: 'Bcl-2 / XIAP 抑制；Smac/DIABLO 解除抑制。', inhibitors: '阻斷劑：z-VAD-FMK、Bcl-2 過表現。' },
+ parthanatos: { layers: [['感測 / 整合', '嚴重 DNA 損傷 → PARP1 過度活化；耗竭 NAD⁺/ATP，細胞變暗。'], ['放大', 'PAR 聚合物離開細胞核，結合粒線體 AIF；招募 MIF 核酸酶。'], ['執行', 'AIF+MIF 入核 → 約 50-kbp 大片段斷裂，PS 外翻加輕微滲漏，不腫脹、無梯狀斷裂。']], regulators: 'SIRT1–PARP1 競爭 NAD⁺；AIF 釋放早於細胞色素 c。', inhibitors: 'PARP 抑制劑、AIF 阻斷、NAD⁺ 保存。' },
+ necrosis: { layers: [['感測 / 整合', '嚴重損傷 → Na⁺/K⁺ 幫浦衰竭、ATP 耗竭。'], ['放大', 'Ca²⁺ 超載 → calpain；ROS → mPTP；溶體滲漏 → cathepsin。'], ['執行', '腫脹（oncosis）、早期不規則破裂、DNA 隨機塗抹、DAMP 風暴。']], regulators: '意外性細胞死亡（NCCD）——無專職煞車；在組織中常是調控性途徑的終點。', inhibitors: '無專一阻斷劑；凋亡小體未清除則繼發性壞死。' },
+ necroptosis: { layers: [['RIPK1——決策整合器', 'DAPK1-Ser321 / PTPN6 抑制；ROS 自磷酸化、TRIM21 泛素化活化；CYLD 去泛素化以進入 necrosome；Caspase-8 切割為煞車（此處關閉）。'], ['RIPK3——放大器', 'RHIM 招募（RIPK1/ZBP1/TRIF）、RSK3、病毒 SFTSV-NSs 旁路；CK1G2 煞車。輸出至 MLKL＋粒線體（CaMKII→mPTP、PGAM5→Drp1、PDC-E3-T135）。'], ['MLKL——執行器', 'BRD4 供應、HSP90 保護、RIPK3 p-Thr357/Ser358 → 寡聚 → PIPs/心磷脂孔洞 → 離子內流、DAMP、NLRP3 交接。']], regulators: '綠色流推動死亡、紅色抑制——可在完整細胞中切換 RIPK1/RIPK3/MLKL 圖層。', inhibitors: 'Nec-1（RIPK1）、GSK\'872（RIPK3）、NSA（僅人類 MLKL）。', iframe: 'necroptosis.html?embed=1' },
+ ferroptosis: { layers: [['感測 / 整合', 'System Xc⁻（SLC7A11）→ GSH → GPX4 失效；FSP1–泛醌–NADPH 備援被壓垮；GSH/NADPH 耗竭。'], ['放大', '游離 Fe²⁺ 芬頓 ROS；ACSL4 裝載 PUFA 磷脂；NCOA4 鐵自噬供應鐵。'], ['執行', '脂質 ROS 斑塊擴散（C11-BODIPY），粒線體皺縮緻密，細胞核完整，晚期在過氧化斑塊處破裂。']], regulators: 'MBOAT1/2 重塑閘門；SIRT3 失效加劇 ROS。', inhibitors: 'Ferrostatin-1、liproxstatin-1、deferoxamine。' },
+ autophagy: { layers: [['感測 / 整合', '飢餓：mTORC1 關、AMPK 開 → ULK1–FIP200＋Beclin-1–Vps34 成核；TFEB 經 SIRT1。'], ['放大', '吞噬泡新月生長（LC3 脂化），包覆貨物閉合 → 雙層自噬體。'], ['執行', '與溶體融合閃光 → 降解回收；存活，除非 2 種以上 ATG 干預能挽救（NCCD 死亡判定標準）。']], regulators: 'PINK1/Parkin 粒線體自噬抑制 NLRP3；Caspase-1 切割 Parkin 打破抑制。', inhibitors: '死亡判定需 ATG5/7 KO＋3-MA/CQ 挽救；rapamycin 誘導。' },
+ pyroptosis: { layers: [['感測 / 整合', 'PRR＋ASC＋pro-Caspase-1 → 發炎體斑點；非典型 Caspase-4/5/11 感測 LPS → K⁺ 外流 → NLRP3。'], ['放大', 'Caspase-1 → GSDMD 切割；Caspase-3/GSDME 臂匯合。'], ['執行', 'GSDMD-N 10–20 nm 孔環 → IL-1β/IL-18 噴流＋腫脹 → 破裂，細胞激素風暴。']], regulators: 'GSDMD 孔洞授權 NLRP3；SIRT3 降低 mtROS 以抑制。', inhibitors: 'NLRP3 / Caspase-1 抑制劑、disulfiram / GSDMD 阻斷。' },
+ panoptosis: { layers: [['感測 / 整合', 'ZBP1 感測（或 TAK1 缺失）→ PANoptosome：RIPK1–RIPK3–Caspase-8–Caspase-1 ± ASC/FADD。'], ['放大', '三臂並行：GSDMD 孔洞＋Caspase-3＋pMLKL；NLRP3 內建連動。'], ['執行', '孔洞＋起泡＋凝縮同時發生 → 完全破裂；單一抑制劑無法挽救。']], regulators: '即串擾本身——焦亡＋凋亡＋壞死性凋亡共組裝。', inhibitors: '上游 ZBP1/RIPK3 靶向；多臂聯合阻斷。' },
+ eryptosis: { layers: [['感測 / 整合', '氧化／滲透／能量耗竭／神經醯胺觸發無核紅血球；無核、無粒線體。'], ['放大', 'Ca²⁺ 內流 → calpain＋scramblase 活化。'], ['執行', '皺縮、起泡、PS 外翻（Annexin V+）；脾臟清除——僅壓垮時溶血。']], regulators: '無 caspase 卻重演凋亡 PS；與 ferroptosis 共享脂質過氧化觸發。', inhibitors: 'Ca²⁺ 螯合、calpain 抑制劑、erythropoietin*。' },
+ netosis: { layers: [['感測 / 整合', '病原/LPS/PMA → NADPH 氧化酶 ROS 爆發（存在 NOX 非依賴路徑）。'], ['放大', '主要經 PAD4 組織蛋白瓜胺酸化（cit-H3）；存在 NE 介導／粒線體 ROS／ionomycin 路徑。'], ['執行', '染色質去凝縮、核膜崩解，DNA＋組織蛋白＋elastase/MPO 網噴出；自殺型破裂，存活型保留膜。']], regulators: 'NET 授權巨噬細胞 NLRP3；組織蛋白觸發凝血。', inhibitors: 'PAD4 抑制劑（Cl-amidine）、NE/MPO 抑制、DNase 消化。' }
+};
+
+const grid = document.getElementById('anim');
+for (const p of PROGRAMS){
+  const el = document.createElement('section');
+  el.className = 'cell-card';
+  el.dataset.program = p.id;
+  el.innerHTML = `<header><h2>${p.title}</h2><p class="sub">${p.sub}</p><p class="bio">${p.bioNote}</p><div>${p.pills}</div></header>
+    <div class="stage"><canvas id="cv-${p.id}" aria-label="${p.title} 動畫"></canvas><div class="phase"></div><div class="tbar"><i></i></div><button class="copy-btn" data-copy-canvas="cv-${p.id}" title="複製快照為 PNG" aria-label="複製${p.title}快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+    <div class="card-body"><ol>${p.steps.map(s=>`<li>${s}</li>`).join('')}</ol><div style="font-family:var(--sans);font-size:11.5px;color:var(--mute)">${p.legend}</div></div>
+    <div class="reg-panel" hidden></div>
+    <div class="card-foot"><button data-replay>↺ 重播</button><button data-pp>⏸ 暫停</button><button data-reg aria-expanded="false">🧬 調控細節</button></div>`;
+  grid.appendChild(el);
+  p._phaseEl = el.querySelector('.phase'); p._barEl = el.querySelector('.tbar i');
+  p._canvas = el.querySelector('canvas'); p._stage = el.querySelector('.stage');
+  p._t = Math.random()*DUR; p._paused = false;
+  el.querySelector('[data-replay]').onclick = ()=>{ p._t = 0; };
+  const pp = el.querySelector('[data-pp]');
+  pp.onclick = ()=>{ p._paused = !p._paused; pp.textContent = p._paused ? '▶ 播放' : '⏸ 暫停'; };
+  const regBtn = el.querySelector('[data-reg]');
+  const panel = el.querySelector('.reg-panel');
+  regBtn.onclick = ()=>{
+    const open = panel.hidden;
+    const spec = REG_DETAIL[p.id];
+    if (open && spec){
+      const deep = spec.iframe || (p.id + '.html?embed=1');
+      panel.innerHTML = `<h3>調控深度 — 感測 → 放大 → 執行</h3><div class="layers">${spec.layers.map(([h, b])=>`<div class="layer"><b>${h}</b>${b}</div>`).join('')}</div><div>${spec.regulators} ${spec.inhibitors}</div><iframe class="deep-frame" title="${p.title}調控細胞" loading="lazy" src="${deep}"></iframe><p class="meta">完整多層調控細胞：拖曳旋轉、滾輪縮放、點擊色塊看機制。獨立頁：<a href="${deep.replace('?embed=1','')}">${p.title}調控細胞</a></p>`;
+    }
+    panel.hidden = !open;
+    regBtn.classList.toggle('is-on', open);
+    regBtn.setAttribute('aria-expanded', String(open));
+    if (open) dispatchEvent(new Event('resize'));
+  };
+}
+
+/* ---- scene factory ---- */
+function makeStage(canvas){
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:false, preserveDrawingBuffer:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x141210);
+  scene.fog = new THREE.Fog(0x141210, 9, 18);
+  const camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
+  camera.position.set(0, 0.6, 7.2);
+  camera.lookAt(0,0,0);
+  scene.add(new THREE.AmbientLight(0xfff2e0, 0.85));
+  const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(4,6,6); scene.add(key);
+  const rim = new THREE.DirectionalLight(0x7fd4ff, 0.7); rim.position.set(-5,-2,-4); scene.add(rim);
+  // soft extracellular medium
+  const medium = new THREE.Points(
+    new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(Float32Array.from({length:240*3},()=> (Math.random()-0.5)*14),3)),
+    new THREE.PointsMaterial({color:0x4a4438, size:0.03, transparent:true, opacity:0.6}));
+  scene.add(medium);
+  const R = {};
+  // membrane
+  const mg = new THREE.SphereGeometry(2, 48, 32);
+  R.mBase = mg.attributes.position.array.slice();
+  R.mPhase = Float32Array.from({length: mg.attributes.position.count}, ()=> Math.random()*Math.PI*2);
+  R.membrane = new THREE.Mesh(mg, new THREE.MeshStandardMaterial({color:0xe8a58c, roughness:0.45, metalness:0.05, transparent:true, opacity:0.92}));
+  scene.add(R.membrane);
+  // nucleus
+  R.nucleus = new THREE.Mesh(new THREE.SphereGeometry(0.9, 32, 24),
+    new THREE.MeshStandardMaterial({color:0x9a7bd0, roughness:0.5, emissive:0x2a1a4a, emissiveIntensity:0.5}));
+  scene.add(R.nucleus);
+  // nucleolus fleck
+  R.nucleolus = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 12),
+    new THREE.MeshStandardMaterial({color:0x6a4bb0, roughness:0.6}));
+  R.nucleolus.position.set(0.25,0.15,0.4); scene.add(R.nucleolus);
+  // extra nuclear lobes (neutrophil segmented nucleus — NETosis only, hidden otherwise)
+  R.lobes = [];
+  [[-0.75,0.35,-0.2],[0.65,-0.35,0.1]].forEach((pos)=>{
+    const lb = new THREE.Mesh(new THREE.SphereGeometry(0.55, 20, 14),
+      new THREE.MeshStandardMaterial({color:0x9a7bd0, roughness:0.5, emissive:0x2a1a4a, emissiveIntensity:0.5, transparent:true, opacity:0}));
+    lb.position.set(...pos); lb.visible = false; scene.add(lb); R.lobes.push(lb);
+  });
+  // mitochondria
+  R.mitos = [];
+  const mitoG = new THREE.CapsuleGeometry(0.16, 0.34, 6, 12);
+  [[-1.1,0.5,0.4],[1.05,-0.4,0.5],[0.1,1.05,-0.5]].forEach((pos,i)=>{
+    const m = new THREE.Mesh(mitoG, new THREE.MeshStandardMaterial({color:0xffb347, roughness:0.4, emissive:0x5a2a00, emissiveIntensity:0.4}));
+    m.position.set(...pos); m.rotation.set(Math.random()*3, Math.random()*3, 0); scene.add(m); R.mitos.push(m);
+  });
+  // apoptotic fragments (hidden until needed)
+  R.frags = [];
+  for(let i=0;i<4;i++){
+    const f = new THREE.Mesh(new THREE.SphereGeometry(0.55 - i*0.07, 24, 18),
+      new THREE.MeshStandardMaterial({color:0xe8a58c, roughness:0.5, transparent:true, opacity:0}));
+    const n = new THREE.Mesh(new THREE.SphereGeometry(0.24, 16, 12),
+      new THREE.MeshStandardMaterial({color:0x9a7bd0, roughness:0.5}));
+    f.add(n); f.visible = false; scene.add(f); R.frags.push(f);
+  }
+  // pore rings (necroptosis/pyroptosis/panoptosis)
+  R.pores = [];
+  const poreG = new THREE.TorusGeometry(0.12, 0.035, 10, 20);
+  for(let i=0;i<26;i++){
+    const pr = new THREE.Mesh(poreG, new THREE.MeshBasicMaterial({color:0xffffff, transparent:true, opacity:0}));
+    const th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+    pr.position.set(2*Math.sin(ph)*Math.cos(th), 2*Math.cos(ph), 2*Math.sin(ph)*Math.sin(th));
+    pr.lookAt(0,0,0); scene.add(pr); R.pores.push(pr);
+  }
+  // generic particle cloud (repurposed per program)
+  const N = 420;
+  R.pGeo = new THREE.BufferGeometry();
+  R.pPos = new Float32Array(N*3); R.pVel = new Float32Array(N*3); R.pCol = new Float32Array(N*3);
+  R.pGeo.setAttribute('position', new THREE.BufferAttribute(R.pPos,3));
+  R.pGeo.setAttribute('color', new THREE.BufferAttribute(R.pCol,3));
+  R.cloud = new THREE.Points(R.pGeo, new THREE.PointsMaterial({size:0.09, vertexColors:true, transparent:true, opacity:0.95, depthWrite:false}));
+  scene.add(R.cloud);
+  // hub speck (necroptosis/pyroptosis/panoptosis/autophagy-lysosome)
+  R.hub = new THREE.Mesh(new THREE.SphereGeometry(0.22, 20, 14),
+    new THREE.MeshBasicMaterial({color:0xffe14d, transparent:true, opacity:0}));
+  scene.add(R.hub);
+  R.lyso = new THREE.Mesh(new THREE.SphereGeometry(0.42, 24, 18),
+    new THREE.MeshStandardMaterial({color:0xd9403b, roughness:0.35, emissive:0x5a0f0c, emissiveIntensity:0.6, transparent:true, opacity:0}));
+  R.lyso.position.set(1.15, -0.9, 0.2); scene.add(R.lyso);
+  // autophagy crescents
+  R.crescents = [];
+  for(let i=0;i<3;i++){
+    const c = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.07, 10, 28, Math.PI*1.4),
+      new THREE.MeshStandardMaterial({color:0x51ff9e, roughness:0.4, emissive:0x0a4a26, emissiveIntensity:0.7, transparent:true, opacity:0}));
+    c.position.set(-0.9+i*0.85, 0.55-i*0.5, 0.3); c.rotation.set(0.6,0.4,i); scene.add(c); R.crescents.push(c);
+  }
+  // rupture shards
+  R.shards = [];
+  for(let i=0;i<14;i++){
+    const s = new THREE.Mesh(new THREE.TetrahedronGeometry(0.09+Math.random()*0.1),
+      new THREE.MeshStandardMaterial({color:0xe8a58c, roughness:0.6, transparent:true, opacity:0}));
+    s.userData.v = new THREE.Vector3((Math.random()-0.5)*3,(Math.random()-0.5)*3,(Math.random()-0.5)*3);
+    scene.add(s); R.shards.push(s);
+  }
+  return {renderer, scene, camera, R};
+}
+
+const stages = PROGRAMS.map(p => ({p, ...makeStage(p._canvas)}));
+function sizeStages(){
+  for (const s of stages){
+    const w = s.p._canvas.clientWidth || 400, h = 300;
+    s.W = w; s.H = h;
+    s.renderer.setSize(w, h, false);
+    s.camera.aspect = w/h; s.camera.updateProjectionMatrix();
+  }
+}
+addEventListener('resize', sizeStages); sizeStages();
+
+/* ---- floating organelle labels (HTML projected from 3-D anchors) ---- */
+for (const s of stages){
+  s.labelObjs = (s.p.labels||[]).map(spec=>{
+    const d = document.createElement('div');
+    d.className = 'lbl';
+    s.p._stage.appendChild(d);
+    return {spec, el:d};
+  });
+}
+const PV = new THREE.Vector3();
+function updateLabels(s){
+  for (const {spec, el} of s.labelObjs){
+    let arr = null;
+    try { arr = spec.pos(s.R, s.p._t); } catch(e){ arr = null; }
+    if (!arr || (spec.show && !spec.show(s.R, s.p._t))){ el.style.display='none'; continue; }
+    PV.set(arr[0], arr[1], arr[2]).project(s.camera);
+    if (PV.z > 1){ el.style.display='none'; continue; }
+    el.style.display = 'block';
+    el.textContent = typeof spec.text === 'function' ? spec.text(s.p._t) : spec.text;
+    el.style.left = ((PV.x*0.5+0.5)*s.W + (spec.dx||0)) + 'px';
+    el.style.top = ((-PV.y*0.5+0.5)*s.H + (spec.dy||0)) + 'px';
+  }
+}
+
+const smooth = (a,b,x)=>{ const t = Math.min(1, Math.max(0,(x-a)/(b-a))); return t*t*(3-2*t); };
+function setCloud(R, i, x,y,z, r,g,b, vx=0,vy=0,vz=0){
+  R.pPos[i*3]=x; R.pPos[i*3+1]=y; R.pPos[i*3+2]=z;
+  R.pCol[i*3]=r; R.pCol[i*3+1]=g; R.pCol[i*3+2]=b;
+  R.pVel[i*3]=vx; R.pVel[i*3+1]=vy; R.pVel[i*3+2]=vz;
+}
+function burstUpdate(R, dt){
+  for(let i=0;i<R.pPos.length/3;i++){
+    R.pPos[i*3]+=R.pVel[i*3]*dt; R.pPos[i*3+1]+=R.pVel[i*3+1]*dt; R.pPos[i*3+2]+=R.pVel[i*3+2]*dt;
+  }
+  R.pGeo.attributes.position.needsUpdate = true; R.pGeo.attributes.color.needsUpdate = true;
+}
+/* membrane deform: opts {scale, bleb, wobble, hole} */
+function deformMembrane(R, time, {scale=1, bleb=0, wobble=0.02, rust=0}={}){
+  const pos = R.membrane.geometry.attributes.position, base = R.mBase;
+  for(let i=0;i<pos.count;i++){
+    const bx=base[i*3], by=base[i*3+1], bz=base[i*3+2];
+    const ph = R.mPhase[i];
+    const n = Math.sin(bx*2.1+time*2+ph)*Math.sin(by*2.6-time*1.7)*Math.sin(bz*2.3+time*1.3);
+    const blebN = Math.max(0, Math.sin(bx*1.4+time*3.2+ph*2)*Math.sin(by*1.7-time*2.6)) ** 2;
+    const k = scale * (1 + wobble*n + bleb*blebN*0.55);
+    pos.setXYZ(i, bx*k, by*k, bz*k);
+  }
+  pos.needsUpdate = true;
+  R.membrane.geometry.computeVertexNormals();
+  if (rust>0){
+    R.membrane.material.color.setHex(0xe8a58c).lerp(new THREE.Color(0x7a3d16), rust*0.8);
+  } else R.membrane.material.color.setHex(0xe8a58c);
+}
+
+/* ---- per-program choreography ---- */
+function animateProgram(id, t, dt, S){
+  const {R, scene} = S;
+  const time = performance.now()/1000;
+  // reset shared props
+  R.hub.material.opacity = 0; R.lyso.material.opacity = 0;
+  R.crescents.forEach(c=>c.material.opacity=0);
+  R.pores.forEach(pr=>pr.material.opacity=0);
+  R.shards.forEach(s=>s.material.opacity=0);
+  R.lobes.forEach(l=>{ l.visible = false; l.material.opacity = 0; });
+  R.cloud.visible = true;
+
+  if (id==='apoptosis'){
+    const shrink = 1 - 0.28*smooth(1.5,5,t);
+    deformMembrane(R, time, {scale:shrink, bleb:smooth(4,7,t)*0.9, wobble:0.015});
+    R.nucleus.scale.setScalar(1 - 0.35*smooth(1.5,5,t));
+    R.nucleus.material.emissiveIntensity = 0.5 + smooth(1.5,5,t);
+    const frag = smooth(7,9,t);
+    R.nucleus.visible = frag < 0.9; R.nucleolus.visible = frag < 0.5;
+    R.membrane.material.opacity = 1 - frag;
+    R.membrane.material.color.setHex(0xe8a58c).lerp(new THREE.Color(0xc98d6e), smooth(3.5,6,t)*0.6); // PS-flip eat-me tint, stays sealed
+    R.mitos.forEach(m=>{ m.visible = frag<0.7; });
+    R.frags.forEach((f,i)=>{
+      f.visible = frag>0;
+      const a = i*1.7 + 0.6;
+      f.position.set(Math.cos(a)*(1.1+frag*0.9), Math.sin(a*1.3)*(0.8+frag*0.7), Math.sin(a)*0.6);
+      f.scale.setScalar(Math.max(0.01, frag));
+      f.material.opacity = frag;
+    });
+    for(let i=0;i<140;i++) setCloud(R,i, 99,99,99, 0,0,0);
+    burstUpdate(R,0);
+  }
+  else if (id==='parthanatos'){
+    deformMembrane(R, time, {scale:1+0.03*Math.sin(time*2), bleb:0.08, wobble:0.02});
+    const par = smooth(2,5.5,t), dim = smooth(3,6,t), aif = smooth(5,8.5,t);
+    // PAR signal around nucleus
+    for(let i=0;i<200;i++){
+      const a=Math.random()*Math.PI*2, r=Math.random()*(0.6+par*1.2);
+      const on = Math.random()<par;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r*0.8:99, on?(Math.random()-0.5)*1.4:99, 1,0.88,0.3);
+    }
+    // AIF stream mito -> nucleus (green); MIF nuclease follows late (yellow)
+    for(let i=200;i<330;i++){
+      const f = (time*0.35 + i*0.02)%1;
+      const sx = i%2? -1.1:1.05, sy = i%2? 0.5:-0.4;
+      const on = Math.random()<aif;
+      const mif = (i%3===0) && smooth(6.5,8.5,t) > Math.random();
+      setCloud(R,i, on?sx+(0-sx)*f:99, on?sy+(0-sy)*f:99, on?0.4:99, mif?1:0.32, mif?0.88:1, mif?0.3:0.62);
+    }
+    burstUpdate(R,0);
+    R.nucleus.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0x3d6a4a), smooth(7,10,t)*0.6);
+    R.nucleus.scale.set(1+smooth(7,10,t)*0.15, 1-smooth(7,10,t)*0.1, 1);
+    R.membrane.material.color.lerp(new THREE.Color(0xc98d6e), smooth(9,11,t)*0.7); // PS flip tint
+    R.membrane.material.opacity = 1 - 0.25*smooth(9.5,11.5,t);
+    scene.children.forEach(()=>{});
+    S.renderer.toneMappingExposure = 1 - dim*0.35; // NAD+ drain dims the cell
+  }
+  else if (id==='necrosis'){
+    const swell = 1 + 0.45*smooth(1.5,7,t);
+    deformMembrane(R, time, {scale:swell, bleb:0.05, wobble:0.05});
+    R.mitos.forEach((m,i)=>{ m.scale.setScalar(1+0.9*smooth(3+i,6.5,t)); m.material.color.setHex(0xffb347).lerp(new THREE.Color(0x777777), smooth(4,7,t)); });
+    R.nucleus.scale.setScalar(1-0.4*smooth(4,7.5,t));
+    const rup = smooth(7,7.8,t);
+    R.membrane.material.opacity = 1 - rup*0.85;
+    // DAMP explosion
+    for(let i=0;i<420;i++){
+      if (t<7){ const a=Math.random()*6.28; setCloud(R,i, Math.cos(a)*Math.random()*1.6, Math.sin(a)*Math.random()*1.6,(Math.random()-0.5)*2, 0.4,0.4,0.4, 0,0,0); }
+      else if (R.pVel[i*3]===0 && R.pPos[i*3]<90){ const a=Math.random()*6.28, e=Math.random()*2+1; setCloud(R,i, Math.cos(a)*2, Math.sin(a)*1.2, (Math.random()-0.5)*1, 1,0.35+Math.random()*0.3,0.2, Math.cos(a)*e, Math.sin(a)*e,(Math.random()-0.5)*2); }
+    }
+    burstUpdate(R, dt*(t>7?1:0));
+    R.shards.forEach((s,i)=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.6); s.rotation.x+=dt*3; } else s.position.set(0,0,0); });
+  }
+  else if (id==='necroptosis'){
+    deformMembrane(R, time, {scale:1+0.35*smooth(4.5,8,t), bleb:0.06, wobble:0.035});
+    const nec = smooth(1.5,4.5,t), pores = smooth(4.5,6.5,t), rup = smooth(7.5,8.5,t);
+    R.hub.material.opacity = nec; R.hub.scale.setScalar(1+nec*1.6+Math.sin(time*6)*0.12);
+    R.hub.material.color.setHex(0xff5a4d);
+    R.pores.forEach((pr,i)=>{ pr.material.opacity = pores*(i/26 < pores? 1:0.15); pr.material.color.setHex(0xffd9c4); pr.scale.setScalar(0.7+pores*1.1); }); // MLKL: larger warm-tinted rings (vs white GSDMD)
+    R.membrane.material.opacity = 1 - rup*0.9;
+    for(let i=0;i<300;i++){
+      if (t<7.5){ const a=Math.random()*6.28; setCloud(R,i, Math.cos(a)*Math.random()*1.7,Math.sin(a)*Math.random()*1.7,(Math.random()-0.5)*2, 0.5,0.2,0.2, 0,0,0); }
+      else if (R.pVel[i*3]===0){ const a=Math.random()*6.28,e=Math.random()*2+0.8; setCloud(R,i, Math.cos(a)*2.1,Math.sin(a)*1.4,(Math.random()-0.5), 1,0.6,0.25, Math.cos(a)*e,Math.sin(a)*e,(Math.random()-0.5)*2); }
+    }
+    burstUpdate(R, dt*(t>7.5?1:0));
+    R.nucleus.material.color.setHex(0x9a7bd0);
+  }
+  else if (id==='ferroptosis'){
+    const rust = smooth(4.5,9.5,t);
+    deformMembrane(R, time, {scale:1+0.12*smooth(8,10.5,t), bleb:0.05, wobble:0.03, rust});
+    // iron sparks
+    for(let i=0;i<160;i++){
+      const on = Math.random()<smooth(2,6,t);
+      const a=Math.random()*6.28, r=Math.random()*1.6;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r:99, on?(Math.random()-0.5)*2:99, 1,0.48+Math.random()*0.2,0.1);
+    }
+    // rust patches crawl on membrane: brown dots on shell
+    for(let i=160;i<360;i++){
+      const th=(i*2.399)+t*0.05, ph=Math.acos(((i*0.37)%2)-1);
+      const on = Math.random() < rust*0.9;
+      setCloud(R,i, on?2.05*Math.sin(ph)*Math.cos(th):99, on?2.05*Math.cos(ph):99, on?2.05*Math.sin(ph)*Math.sin(th):99, 0.54,0.29,0.11);
+    }
+    // lipid ROS haze
+    for(let i=360;i<420;i++){ const on=Math.random()<rust*0.5; setCloud(R,i, on?(Math.random()-0.5)*3.4:99, on?(Math.random()-0.5)*3:99, on?(Math.random()-0.5)*2:99, 1,0.3,0.1); }
+    burstUpdate(R,0);
+    R.mitos.forEach(m=>{ m.scale.set(1-0.45*rust, 1-0.35*rust, 1-0.45*rust); m.material.color.setHex(0xffb347).lerp(new THREE.Color(0x2b2b2b), rust); });
+    R.nucleus.scale.setScalar(1); // explicitly intact
+    R.membrane.material.opacity = 1 - smooth(10,11,t)*0.85;
+  }
+  else if (id==='autophagy'){
+    deformMembrane(R, time, {scale:1+0.02*Math.sin(time*1.5), bleb:0.05, wobble:0.02});
+    const cup = smooth(1.5,4.5,t), close = smooth(4.5,6.5,t), fuse = smooth(7,8.5,t);
+    R.crescents.forEach((c,i)=>{
+      c.material.opacity = cup*(1-fuse*0.7);
+      c.scale.setScalar(0.6+cup*0.7);
+      c.rotation.z += dt*(0.3+i*0.15);
+      c.material.color.setHex(close>0.5?0x2aff8a:0x51ff9e);
+    });
+    R.lyso.material.opacity = smooth(2,4,t);
+    R.lyso.material.emissiveIntensity = 0.6 + fuse*2.2; // fusion flash
+    R.lyso.scale.setScalar(1+fuse*0.35);
+    // cargo dots drift into crescents then to lysosome
+    for(let i=0;i<200;i++){
+      const f=(time*0.15+i*0.005)%1;
+      const tx = f<0.6? -0.9+ f*0.8 : -0.4+(1.55)*(f-0.6)/0.4;
+      const ty = f<0.6? 0.4-f*0.3 : 0.22+(-1.1-0.22)*(f-0.6)/0.4;
+      setCloud(R,i, tx+(Math.random()-0.5)*0.2, ty+(Math.random()-0.5)*0.2, 0.4, 1,0.7,0.28);
+    }
+    for(let i=200;i<420;i++) setCloud(R,i, 99,99,99, 0,0,0);
+    burstUpdate(R,0);
+    R.nucleus.scale.setScalar(1);
+  }
+  else if (id==='pyroptosis'){
+    deformMembrane(R, time, {scale:1+0.3*smooth(5,8.5,t), bleb:0.12, wobble:0.04});
+    const speck = smooth(0.5,2.5,t), pores = smooth(4,6,t), jet = smooth(6,8,t), rup = smooth(8.2,9,t);
+    R.hub.material.opacity = speck; R.hub.material.color.setHex(0xffe14d);
+    R.hub.scale.setScalar(1+Math.sin(time*7)*0.15+speck);
+    R.pores.forEach(pr=>{ pr.material.opacity = pores; pr.scale.setScalar(0.5+pores*0.8); });
+    // cytokine jets outward through pores
+    for(let i=0;i<420;i++){
+      if (Math.random()<jet){
+        const pr = R.pores[i%26];
+        const d = pr.position.clone().normalize();
+        const dist = (time*1.6+i*0.05)%3;
+        const blue = i%2===0;
+        setCloud(R,i, d.x*(2+dist), d.y*(2+dist), d.z*(2+dist), blue?0.5:1, blue?0.83:0.88, blue?1:0.3, d.x*1.4, d.y*1.4, d.z*1.4);
+      } else setCloud(R,i, 99,99,99, 0,0,0);
+    }
+    burstUpdate(R, dt*0.6);
+    R.membrane.material.opacity = 1 - rup*0.9;
+    R.nucleus.scale.setScalar(1-0.15*jet);
+  }
+  else if (id==='panoptosis'){
+    deformMembrane(R, time, {scale:1+0.32*smooth(5,8.5,t), bleb:smooth(4,7,t)*0.7, wobble:0.045});
+    const hub = smooth(0.5,3,t), pores = smooth(3.5,6,t), rup = smooth(8.2,9.2,t);
+    R.hub.material.opacity = hub; R.hub.scale.setScalar(1+hub*2);
+    R.hub.material.color.setHex(0xff8a3d);
+    R.pores.forEach((pr,i)=>{ pr.material.opacity = pores; pr.material.color.set(i%2?0xffffff:0xffe14d); pr.scale.setScalar(0.5+pores); });
+    R.nucleus.scale.set(1-0.25*smooth(3,7,t), 1-0.2*smooth(3,7,t), 1);
+    for(let i=0;i<420;i++){
+      if (t<8.2){ const on=Math.random()<hub*0.7; const a=Math.random()*6.28;
+        const pick=Math.random(); const c = pick<0.33?[1,0.35,0.3]:pick<0.66?[1,0.88,0.3]:[0.5,0.83,1];
+        setCloud(R,i, on?Math.cos(a)*Math.random()*1.8:99, on?Math.sin(a)*Math.random()*1.8:99, on?(Math.random()-0.5)*2:99, ...c, 0,0,0); }
+      else if (R.pVel[i*3]===0){ const a=Math.random()*6.28,e=Math.random()*2.6+1;
+        setCloud(R,i, Math.cos(a)*2.1,Math.sin(a)*1.5,(Math.random()-0.5), 1,0.5+Math.random()*0.4,0.3, Math.cos(a)*e,Math.sin(a)*e,(Math.random()-0.5)*2.4); }
+    }
+    burstUpdate(R, dt*(t>8.2?1:0));
+    R.membrane.material.opacity = 1 - rup*0.92;
+    R.shards.forEach(s=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.8); s.rotation.x+=dt*4; } else s.position.set(0,0,0); });
+  }
+  else if (id==='eryptosis'){
+    // anucleate RBC: hide nucleus / mitochondria / fragments
+    R.nucleus.visible = false; R.nucleolus.visible = false;
+    R.mitos.forEach(m=>{ m.visible = false; });
+    R.frags.forEach(f=>{ f.visible = false; });
+    S.renderer.toneMappingExposure = 1;
+    const ca = smooth(1.5,4,t), ps = smooth(5,8,t);
+    deformMembrane(R, time, {scale:1-0.3*smooth(1.5,6,t), bleb:smooth(4,7,t)*0.8, wobble:0.02});
+    R.membrane.scale.set(1.25, 0.55 - 0.1*smooth(1.5,6,t), 1.25); // discocyte disc → spherocyte, not a sphere
+    for(let i=0;i<200;i++){
+      const on = Math.random()<ca;
+      const a=Math.random()*6.28, r=Math.random()*1.5;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r*0.85:99, on?(Math.random()-0.5)*1.6:99, 0.5,0.83,1);
+    }
+    for(let i=200;i<420;i++) setCloud(R,i, 99,99,99, 0,0,0);
+    burstUpdate(R,0);
+    R.membrane.material.color.setHex(0xe8a58c).lerp(new THREE.Color(0xc98d6e), ps*0.7); // PS-flip tint
+    R.membrane.material.opacity = 1 - 0.08*ps; // stays sealed — clearance, not rupture
+  }
+  else if (id==='netosis'){
+    S.renderer.toneMappingExposure = 1;
+    const ros = smooth(0.5,3,t), pad = smooth(1.5,4.5,t), decon = smooth(4,7,t), rup = smooth(7.5,8.5,t);
+    deformMembrane(R, time, {scale:1+0.15*decon+0.15*rup, bleb:0.06, wobble:0.04});
+    R.hub.material.opacity = pad; R.hub.material.color.setHex(0xffe14d);
+    R.hub.scale.setScalar(1+pad*1.4+Math.sin(time*6)*0.1);
+    R.nucleolus.visible = decon < 0.3;
+    R.nucleus.visible = rup < 0.9;
+    R.nucleus.scale.setScalar(1+0.8*decon);
+    R.nucleus.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0xd0b8ff), decon*0.7);
+    R.lobes.forEach((l,j)=>{ // segmented neutrophil nucleus: lobes swell with decondensation, vanish at rupture
+      l.visible = rup < 0.9;
+      l.material.opacity = 1;
+      l.material.color.setHex(0x9a7bd0).lerp(new THREE.Color(0xd0b8ff), decon*0.7);
+      l.scale.setScalar(1+0.8*decon);
+      l.position.y += Math.sin(time*2+j*2.1)*0.002;
+    });
+    R.mitos.forEach(m=>{ m.visible = rup<0.5; });
+    // ROS burst inside
+    for(let i=0;i<160;i++){
+      const on = Math.random()<ros;
+      const a=Math.random()*6.28, r=Math.random()*1.6;
+      setCloud(R,i, on?Math.cos(a)*r:99, on?Math.sin(a)*r:99, on?(Math.random()-0.5)*2:99, 1,0.48+Math.random()*0.2,0.1);
+    }
+    // NET web: pale chromatin strands + elastase/MPO flecks jet outward after rupture
+    for(let i=160;i<420;i++){
+      if (t<7.5){ const on=Math.random()<decon*0.6; const a=Math.random()*6.28;
+        setCloud(R,i, on?Math.cos(a)*Math.random()*1.6:99, on?Math.sin(a)*Math.random()*1.6:99, on?(Math.random()-0.5)*1.6:99, 0.6,0.47,0.82, 0,0,0); }
+      else if (R.pVel[i*3]===0){ const a=Math.random()*6.28, e=Math.random()*1.6+0.6;
+        const elast = (i%5===0);
+        setCloud(R,i, Math.cos(a)*2.1, Math.sin(a)*1.4, (Math.random()-0.5), elast?1:0.82, elast?0.54:0.72, elast?0.24:1, Math.cos(a)*e, Math.sin(a)*e, (Math.random()-0.5)*1.6); }
+    }
+    burstUpdate(R, dt*(t>7.5?1:0));
+    R.membrane.material.opacity = 1 - rup*0.9;
+    R.shards.forEach(s=>{ s.material.opacity = rup; if(rup>0){ s.position.copy(s.userData.v).multiplyScalar(rup*1.6); s.rotation.x+=dt*3; } else s.position.set(0,0,0); });
+  }
+}
+
+/* ---- main loop ---- */
+const clock = new THREE.Clock();
+function fmtBio(m){
+  m = Math.max(0, Math.round(m));
+  if (m < 60) return `T+${m} 分鐘`;
+  const h = Math.floor(m/60), mm = m%60;
+  return mm ? `T+${h} 小時 ${String(mm).padStart(2,'0')} 分` : `T+${h} 小時`;
+}
+/* phases are [loopSec, bioMin, label] — interpolate biological time between anchors */
+function phaseAt(p, t){
+  const ph = p.phases;
+  let i = 0;
+  for (let k=0;k<ph.length;k++) if (t>=ph[k][0]) i = k;
+  const [l0,b0,label] = ph[i];
+  let bio = b0;
+  if (i < ph.length-1){
+    const [l1,b1] = ph[i+1];
+    bio = b0 + (b1-b0)*(t-l0)/(l1-l0);
+  }
+  return {label, bio};
+}
+function tick(){
+  requestAnimationFrame(tick);
+  const dt = Math.min(clock.getDelta(), 0.05);
+  const animHidden = document.getElementById('view-anim').hidden;
+  for (const s of stages){
+    if (running && !s.p._paused) s.p._t = (s.p._t + dt*speed) % DUR;
+    if (animHidden) continue; // table tab: clocks advance, GPU rests
+    const rc = s.p._canvas.getBoundingClientRect();
+    if (rc.bottom < 0 || rc.top > innerHeight) continue; // offscreen card
+    const t = s.p._t;
+    // gentle camera drift
+    const ct = performance.now()/1000*0.12;
+    s.camera.position.x = Math.sin(ct)*0.7; s.camera.position.y = 0.6+Math.sin(ct*0.7)*0.3;
+    s.camera.lookAt(0,0,0);
+    animateProgram(s.p.id, t, running&&!s.p._paused?dt*speed:0, s);
+    s.renderer.render(s.scene, s.camera);
+    updateLabels(s);
+    const pa = phaseAt(s.p, t);
+    s.p._phaseEl.textContent = `${fmtBio(pa.bio)} · ${pa.label}`;
+    s.p._barEl.style.width = (t/DUR*100)+'%';
+  }
+}
+tick();
+
+const playAll = document.getElementById('playAll');
+function syncPlayBtn(){ playAll.textContent = running ? '⏸ 全部暫停' : '▶ 全部播放'; playAll.classList.toggle('is-on', running); }
+playAll.onclick = ()=>{ running=!running; syncPlayBtn(); };
+document.getElementById('speed').onchange = e=>{ speed = parseFloat(e.target.value); };
+syncPlayBtn();
+if (!running) playAll.textContent = '▶ 全部播放（減少動態）';
+// 分享按鈕：複製圖譜閱讀器的深層連結，在閱讀器內開啟動畫分頁
+document.getElementById('shareAnim').onclick = async (e)=>{
+  const btn = e.currentTarget;
+  const base = /^https?:/.test(location.protocol) ? location.origin : 'https://graph.johnnykuo.com';
+  const url = base + '/#reader=cell-death-comparison-zh&section=animations';
+  const done = (msg)=>{ const o = btn.textContent; btn.textContent = msg; setTimeout(()=>{ btn.textContent = o; }, 1600); };
+  try {
+    if (navigator.share) { await navigator.share({title: document.title, url}); return; }
+    throw 0;
+  } catch(_){ /* fall through to clipboard */ }
+  try { await navigator.clipboard.writeText(url); done('✓ 已複製'); }
+  catch(_){ location.hash = '#animations'; done(url); }
+};
+</script>
+</body>
+</html>

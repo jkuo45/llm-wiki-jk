@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>細胞凋亡 — Caspase-8 · Caspase-9 · Caspase-3 多層調控</title>
+<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現細胞凋亡的多層調控：Caspase-8 啟動、粒線體 Caspase-9 放大、Caspase-3 執行。含 DISC、Bcl-2／XIAP 煞車、GSDMD／GSDME 開關與凋亡小體。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/apoptosis.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☠</text></svg>">
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<style>
+  :root{
+    --r-sm: 4px; --r-md: 8px; --r-lg: 14px; --r-pill: 999px;
+    --paper: #f6f3ec; --sheet: #fffdf8; --ink: #23201b; --ink-soft: #5a544a;
+    --mute: #8a8478; --rule: #e4ddd0; --rule-strong: #cfc6b4;
+    --accent: #8a2b1d; --gold: #9a7b2d; --forest: #2f6b4f; --slate: #2e4a5d;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family: ui-sans-system, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    background: var(--paper); color: var(--ink);
+    min-height:100vh; min-height:100dvh; display:flex; flex-direction:column;
+  }
+  .wrap{width:min(1180px,100% - 20px);margin-inline:auto;flex:1;display:flex;flex-direction:column}
+  .top{padding:12px 2px 8px}
+  .kicker{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0 0 4px}
+  h1{font-size:1.25rem;line-height:1.25;margin:0 0 4px;letter-spacing:-.01em}
+  .sub{font-size:12.5px;line-height:1.55;color:var(--ink-soft);margin:0;max-width:110ch}
+  .sub a{color:var(--accent)}
+  .src{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--mute);margin-top:4px}
+  .layout{padding:10px 0 14px}
+  .stage-card{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-lg,14px);overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+  .stage{position:relative;height:560px;background:transparent}
+  @media (max-width:640px){.stage{height:440px}}
+  .stage canvas{width:100%;height:100%;display:block}
+  .phase{position:absolute;left:10px;top:8px;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#f2ece1;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.18);padding:3px 10px;border-radius:var(--r-pill,999px);pointer-events:none;max-width:min(60%,480px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .copy-btn{position:absolute;right:10px;top:10px;z-index:5;width:34px;height:34px;display:flex;align-items:center;justify-content:center;margin:0;padding:7px;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.18);border-radius:var(--r-md,8px);color:#f2ece1;cursor:pointer;opacity:.6}
+  .copy-btn:hover,.copy-btn:focus-visible{border-color:rgba(255,255,255,.45);opacity:1}
+  .copy-btn:focus-visible{outline:2px solid #e8c26a;outline-offset:2px}
+  .copy-btn:disabled{opacity:.7;cursor:wait}
+  .copy-btn svg{width:100%;height:100%;display:block}
+  .copy-btn.ok{color:#7fd4a8;border-color:#7fd4a8;opacity:1}
+  .copy-btn.err{color:#ff5a5e;border-color:#ff5a5e;opacity:1}
+  .meter{position:absolute;left:10px;right:10px;bottom:12px;display:flex;gap:8px;align-items:center;pointer-events:none}
+  .meter span{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#f2ece1;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.16);padding:2px 8px;border-radius:var(--r-pill,999px);pointer-events:none}
+  .meter .track{flex:1;height:10px;background:rgba(255,255,255,.14);border-radius:var(--r-pill,999px);overflow:hidden;pointer-events:auto;cursor:pointer;touch-action:none}
+  .meter .track b{display:block;height:100%;width:0;background:linear-gradient(90deg,#7fd4a8,#e8c26a,#ff5a4d);pointer-events:none}
+  .meter .track:focus-visible{outline:2px solid #e8c26a;outline-offset:2px}
+  .tip{position:absolute;z-index:5;max-width:250px;display:none;background:rgba(18,16,14,.92);color:#f2ece1;border:1px solid rgba(255,255,255,.2);border-radius:var(--r-md,8px);padding:8px 10px;font-size:11.5px;line-height:1.5;pointer-events:none}
+  .tip b{display:block;font-size:12px;margin-bottom:2px}
+  .tip code{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#e8c26a}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;border-top:1px solid var(--rule);background:color-mix(in srgb, var(--paper) 88%, white)}
+  .toolbar button,.toolbar select{font-family:ui-sans-system,sans-serif;font-size:12px;padding:7px 11px;border:1px solid var(--rule-strong);background:var(--sheet);color:var(--ink);border-radius:var(--r-md,8px);cursor:pointer}
+  .toolbar button.is-on{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+  .toolbar .hint{font-size:11px;color:var(--mute);margin-left:auto}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip-a.is-on{box-shadow:inset 0 0 0 2px #7fb8dd}
+  .chip-b.is-on{box-shadow:inset 0 0 0 2px #e09a4d}
+  .chip-c.is-on{box-shadow:inset 0 0 0 2px #7fd4a8}
+  .side{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule)}
+  @media (max-width:960px){.side{grid-template-columns:1fr}}
+  .card{background:transparent;border:0;border-radius:0;padding:12px 14px;box-shadow:none}
+  .card + .card{border-left:1px solid var(--rule)}
+  @media (max-width:960px){.card + .card{border-left:0;border-top:1px solid var(--rule)}}
+  .card h2{font-size:.95rem;margin:0 0 6px}
+  .card{transition:border-color .3s, box-shadow .3s}
+  .card.flash{border-color:var(--accent);box-shadow:none;outline:2px solid var(--accent);outline-offset:-2px}
+  .card p{font-size:12.5px;line-height:1.6;color:var(--ink-soft);margin:6px 0}
+  .card .meta{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--mute);margin:0}
+  .legend{font-size:11.5px;line-height:1.7;color:var(--ink-soft)}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:0}
+  .legend code{font-family:ui-monospace,Menlo,monospace;font-size:10.5px}
+  .foot{padding:0 2px 18px;font-size:11px;line-height:1.7;color:var(--mute);border-top:1px solid var(--rule);margin-top:2px;padding-top:10px}
+  .foot a{color:var(--accent)}
+  a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  /* embed mode: hide article chrome, keep only stage + minimal bar */
+  body.is-embed{background:transparent}
+  body.is-embed .wrap{width:100%;margin:0}
+  body.is-embed .top,body.is-embed .side,body.is-embed .foot{display:none}
+  body.is-embed .layout{display:block;padding:0}
+  body.is-embed .stage-card{border:0;border-radius:0;box-shadow:none}
+  body.is-embed .stage{height:100vh;height:100dvh}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <p class="kicker">細胞 · 調控性死亡</p>
+    <h1>細胞凋亡 — 細胞如何安靜地死亡</h1>
+    <p class="sub"><b>Caspase-8</b> 在 DISC 啟動 · <b>Caspase-9</b> 經粒線體放大 · <b>Caspase-3</b> 執行密封碎裂。綠色流推動凋亡，紅色流抑制。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
+    <p class="src">改編自知識庫 Apoptosis／Caspases／Bcl-2 家族／IAP 筆記＋比較表 · three.js r160 · <span id="embedlink"></span></p>
+  </header>
+  <div class="layout">
+    <div class="stage-card">
+      <div class="stage" id="stage">
+        <canvas id="canvas" aria-label="細胞凋亡調控 3-D 細胞"></canvas>
+        <div class="phase" id="phase">載入中…</div>
+        <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+        <div class="meter"><span id="meterlabel">死亡閾值 · T+ 0.0 小時</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="死亡閾值 — 拖曳快轉動畫" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
+        <div class="tip" id="tip"></div>
+      </div>
+      <div class="toolbar" role="toolbar" aria-label="動畫控制">
+        <div class="chips">
+          <button id="chipA" class="chip-a is-on" title="只顯示Caspase-8整合層">Caspase-8</button>
+          <button id="chipB" class="chip-b is-on" title="只顯示Caspase-9放大層">Caspase-9</button>
+          <button id="chipC" class="chip-c is-on" title="只顯示Caspase-3執行層">Caspase-3</button>
+        </div>
+        <button id="play" class="is-on">⏸ 暫停</button>
+        <button id="reset">重設視角</button>
+        <span class="hint">24 秒循環 ≈ 3 小時單細胞執行 · T+ 為生物時間</span>
+      </div>
+      <div class="side">
+      <div class="card" id="cardA">
+        <h2>Caspase-8——啟動器</h2>
+        <p class="meta">細胞質 · DISC＋死亡受體</p>
+        <p>FasL／TRAIL 成核 FADD DISC；c-FLIP 為變阻煞車。Caspase-8 切割 BID 通往粒線體，並切割 RIPK1／3 關閉壞死性凋亡。</p>
+        <p class="legend"><span class="dot" style="background:#51d88a"></span>促（→死亡） <span class="dot" style="background:#ff5a5e"></span>抑（c-FLIP、RIPK 切割煞車）</p>
+      </div>
+      <div class="card" id="cardB">
+        <h2>Caspase-9——放大器</h2>
+        <p class="meta">粒線體 · 凋亡體</p>
+        <p>p53 → PUMA／NOXA＋BAX → Bax／BAK 活化 → MOMP → 細胞色素 c＋Apaf-1 凋亡體 → Caspase-9。Bcl-2／Bcl-xL 把守；XIAP 煞住執行者直到 Smac／DIABLO 解除。</p>
+        <p class="legend"><span class="dot" style="background:#51d88a"></span>促（Bax／BAK、Smac） <span class="dot" style="background:#ff5a5e"></span>煞車（Bcl-2、XIAP）</p>
+      </div>
+      <div class="card" id="cardC">
+        <h2>Caspase-3——執行器</h2>
+        <p class="meta">細胞質 → 膜＋核</p>
+        <p>切割 ICAD（DNA 梯）、ROCK1（起泡）、外翻 PS。在 D87 切割 GSDMD 使其失活，同時活化 GSDME——抗 GSDMD／促 GSDME 開關。小體保持密封。</p>
+        <p class="legend"><span class="dot" style="background:#51d88a"></span>密封執行 <span class="dot" style="background:#c98d6e"></span>PS 吞噬訊號 <span class="dot" style="background:#9a7bd0"></span>梯狀染色質</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <footer class="foot">調控邏輯改編自知識庫 Apoptosis／Caspases／Bcl-2 家族／IAP／Caspase-8-c-FLIP 筆記＋比較表。女性偏好此臂（Q-VD-OPh 僅保護雌性，Liu 2009）。抑制劑里程碑：z-VAD-FMK、Q-VD-OPh、Bcl-2 過表現。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></footer>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const qs = new URLSearchParams(location.search);
+if (qs.has('embed')) document.body.classList.add('is-embed');
+/* embed ⇄ full switch: updates the URL (shareable) and swaps views without reload */
+function setEmbed(on) {
+  document.body.classList.toggle('is-embed', on);
+  if (typeof fit === 'function') fit();
+}
+function navTo(url, on) {
+  const abs = new URL(url, location.href).href;
+  if (on && window.top !== window) {
+    /* framed (e.g. previewed inside another page): the address bar belongs to
+       the outer page, so take the whole tab to the shareable embed URL */
+    try { window.top.location.href = abs; return; }
+    catch (_) { /* sandboxed frame: fall through to in-frame switch */ }
+  }
+  try { history.pushState({ embed: on }, '', url); }
+  catch (_) { location.href = abs; return; }
+  setEmbed(on);
+}
+document.getElementById('embedlink').innerHTML =
+  '<a href="' + location.pathname + '?embed=1" id="embedgo" title="極簡 iframe 版本">嵌入</a>';
+document.getElementById('embedgo').addEventListener('click', e => { e.preventDefault(); navTo(location.pathname + '?embed=1', true); });
+addEventListener('popstate', () => setEmbed(new URLSearchParams(location.search).has('embed')));
+
+const canvas = document.getElementById('canvas');
+const stage = document.getElementById('stage');
+const phaseEl = document.getElementById('phase');
+const meterfill = document.getElementById('meterfill');
+const meterlabel = document.getElementById('meterlabel');
+const BIO_H = 3; // biological hours mapped onto the 24 s loop
+const PAGE = {"mode": "shrink", "lytic": false, "dim": false, "pores": false, "ub": false, "nuc": true, "mitoShow": true, "er": true, "mitoMode": "normal", "mrna": false, "mrnaT0": 10, "oligoOn": true, "oligoF": [-3.1, 0.1, 0.9], "oligoT": [0.1, 0.15, 0.5], "oligoT0": 4, "oligoGate": "B", "oligo2On": true, "oligo2F": [0.1, 0.15, 0.5], "oligo2T": [3.1, -0.1, 0.4], "oligo2T0": 8, "oligo2Gate": "C", "ionsOn": false, "ionsDir": 1, "ionsT0": 17.5, "dampOn": false, "dampT0": 17.5, "frags": true, "crescents": false, "lobes": false, "sparkOn": false, "sparkColor": 0xff7a1a, "sparkT0": 4, "sparkT1": 14, "oligo2Color": 0xd8ccff};
+let nucRef = null;
+const tip = document.getElementById('tip');
+
+let running = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+const DUR = 24;
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+scene.background = null;
+const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+const CAM0 = new THREE.Vector3(0.4, 2.6, 13.2);
+camera.position.copy(CAM0);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = 0.08;
+controls.minDistance = 6; controls.maxDistance = 24;
+controls.target.set(0, 0.1, 0);
+
+scene.add(new THREE.AmbientLight(0xfff2df, 0.75));
+const key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(5, 8, 6); scene.add(key);
+const rim = new THREE.DirectionalLight(0x88bbff, 0.5); rim.position.set(-6, 3, -5); scene.add(rim);
+const mitoLight = new THREE.PointLight(0xff8a3d, 0, 9); mitoLight.position.set(0.6, -0.6, 0.6); scene.add(mitoLight);
+
+function fit() {
+  const r = stage.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width / r.height; camera.updateProjectionMatrix();
+}
+new ResizeObserver(fit).observe(stage); fit();
+addEventListener('resize', fit);
+
+/* ---------- label sprites ---------- */
+const labelObjs = [];
+function makeLabel(text, scale = 1) {
+  const c = document.createElement('canvas'); c.width = 256; c.height = 64;
+  const g = c.getContext('2d');
+  g.fillStyle = 'rgba(16,14,12,0.78)';
+  const w = Math.min(240, 18 + text.length * 11.5);
+  g.beginPath(); g.roundRect(128 - w / 2, 10, w, 34, 17); g.fill();
+  g.strokeStyle = 'rgba(255,255,255,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = '#f5efe2'; g.font = '600 21px system-ui,sans-serif';
+  g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 128, 28);
+  const tex = new THREE.CanvasTexture(c); tex.anisotropy = 4;
+  const m = new THREE.SpriteMaterial({ map: tex, transparent: true, depthTest: false });
+  const s = new THREE.Sprite(m); s.scale.set(2.25 * scale, 0.56 * scale, 1);
+  s.renderOrder = 20; labelObjs.push(s); return s;
+}
+
+/* ---------- info ---------- */
+const INFO = {
+  casp8: ['Caspase-8——啟動器', '細胞質 · DISC＋死亡受體', '在 Fas／TRAIL DISC 經 FADD 點火；c-FLIP 為煞車。切割 BID（粒線體連結）與 RIPK1／3（關閉壞死性凋亡）。'],
+  fasl: ['FasL——死亡配體', '外源性入口', '三聚化受體以成核 DISC。免疫毒殺／AICD。'],
+  fadd: ['FADD——接頭', 'DISC 支架', '橋接死亡受體與 pro-Caspase-8 纖維。'],
+  flip: ['c-FLIP——DISC 煞車', '低活性同源物', '在 DISC 競爭 Caspase-8；與之構成生死變阻器。'],
+  trail: ['TRAIL——死亡配體', '外源性入口', 'TNF 家族配體；FasL 之外的第二 DISC 輸入。'],
+  bid: ['BID——粒線體橋', 'Caspase-8 → tBID', '截短 BID 將外源訊號傳給 Bax／BAK 與 MOMP；亦經 calpain 參與 parthanatos。'],
+  ripkcut: ['RIPK1／3 切割——關閉壞死', 'Caspase-8 底物', 'Caspase-8 切割 RIPK1／RIPK3 以中止壞死性凋亡；故 caspase 阻斷會放行壞死性凋亡。'],
+  casp9: ['Caspase-9——放大器', '凋亡體 · 細胞色素 c＋Apaf-1', 'MOMP 後在七聚凋亡體上活化；驅動執行者 Caspase-3／7。'],
+  p53: ['p53——損傷哨兵', '轉錄 → Bax／Puma／Noxa', 'DNA 損傷輸入，上調促凋亡 Bcl-2 蛋白。'],
+  baxbak: ['Bax／BAK——成孔器', 'MOMP 執行者', '在粒線體外膜寡聚以釋放細胞色素 c；被 Bcl-2／Bcl-xL 阻擋。'],
+  bcl2: ['Bcl-2——守衛煞車', '扣押 Bax／BAK／BH3', '抗凋亡原型；過表現阻斷內源性凋亡。'],
+  cytc: ['細胞色素 c——凋亡體燃料', '粒線體 → 細胞質', 'MOMP 釋放；與 Apaf-1＋dATP 建構凋亡體。'],
+  xiap: ['XIAP——caspase 煞車', '結合 Caspase-9／3／7', '直接抑制執行者；雌性呈鑲嵌閾值。被 Smac 拮抗。'],
+  smac: ['Smac／DIABLO——解除煞車', '粒線體 → 解除 XIAP', 'MOMP 共釋放以中和 XIAP；Smac 模擬物即仿此。'],
+  momp: ['MOMP——不歸點', '外膜通透化', '內源性凋亡的承諾步驟；釋放細胞色素 c＋Smac。'],
+  apaf1: ['Apaf-1——凋亡體輪', '七聚支架', '結合細胞色素 c 的 Apaf-1 寡聚以招募活化 Caspase-9。'],
+  bclxl: ['Bcl-xL——守衛煞車', '扣押 BH3 蛋白', 'Bcl-2 之外的第二抗凋亡守衛。'],
+  casp3: ['Caspase-3——終端執行器', '切割數百底物', '凝縮染色質（ICAD／DFF40）、起泡（ROCK1）、外翻 PS。在 D87 切割 GSDMD（關閉焦亡）同時活化 GSDME（開啟）。'],
+  gsdmd87: ['GSDMD-D87——關閉焦亡', 'Caspase-3 切割位', 'Caspase-3 在此使 GSDMD 失活——串擾開關的抗 GSDMD 臂。'],
+  gsdme: ['GSDME——開啟焦亡', 'Caspase-3 底物', '被切割的 GSDME 成孔：Caspase-3 可將凋亡翻轉為繼發焦亡。'],
+  psflip: ['PS 外翻——吞噬訊號', 'Annexin V＋', '磷脂醯絲氨酸外翻標記密封細胞／小體以供靜默吞噬。'],
+  frag: ['凋亡小體——密封包裹', '膜泡掐斷', '攜帶凝縮染色質的完整包裹；被吞噬而不釋 DAMP。安靜的結局。'],
+  mito: ['粒線體——MOMP 位點', 'Bax／BAK＋細胞色素 c', '結構保留；功能在 MOMP 被突破，隨後被清除。'],
+  damp: ['無 DAMP 雲——設計即靜默', '清除而不告警', '密封碎裂＋胞葬作用將 HMGB1／ATP 留在內部。與裂解程序對比。']
+};
+/* node id → component card (A/B/C); clicking a blob flashes its card, cards stay static */
+const COMP = {
+  casp8: 'A',
+  fasl: 'A',
+  fadd: 'A',
+  flip: 'A',
+  trail: 'A',
+  bid: 'A',
+  ripkcut: 'A',
+  casp9: 'B',
+  p53: 'B',
+  baxbak: 'B',
+  bcl2: 'B',
+  cytc: 'B',
+  xiap: 'B',
+  smac: 'B',
+  momp: 'B',
+  apaf1: 'B',
+  bclxl: 'B',
+  mito: 'B',
+  casp3: 'C',
+  gsdmd87: 'C',
+  gsdme: 'C',
+  psflip: 'C',
+  frag: 'C',
+  damp: 'C'
+};
+function flashCard(c) {
+  ['A', 'B', 'C'].forEach(k => { const el = document.getElementById('card' + k); if (el) el.classList.remove('flash'); });
+  const el = document.getElementById('card' + c); if (!el) return;
+  el.classList.add('flash');
+  clearTimeout(el._h); el._h = setTimeout(() => el.classList.remove('flash'), 1600);
+}
+
+/* ---------- materials ---------- */
+const M = {
+  pro: new THREE.MeshBasicMaterial({ color: 0x51d88a }),
+  anti: new THREE.MeshBasicMaterial({ color: 0xff5a5e }),
+  carrier: new THREE.MeshBasicMaterial({ color: 0xffd166 }),
+  hubA: new THREE.MeshStandardMaterial({ color: 0x9fd4f5, roughness: .45, metalness: .05, emissive: 0x1a3a55, emissiveIntensity: .5 }),
+  hubB: new THREE.MeshStandardMaterial({ color: 0x7fd4c9, roughness: .5, metalness: .05, emissive: 0x0e4a3e, emissiveIntensity: .55 }),
+  hubC: new THREE.MeshStandardMaterial({ color: 0xb9a8f5, roughness: .5, metalness: .05, emissive: 0x2a2060, emissiveIntensity: .5 }),
+  reg: (c, e) => new THREE.MeshStandardMaterial({ color: c, roughness: .55, metalness: .05, emissive: e, emissiveIntensity: .45 })
+};
+
+/* ---------- groups ---------- */
+const gA = new THREE.Group(), gB = new THREE.Group(), gC = new THREE.Group();
+const gCell = new THREE.Group(), gFlow = new THREE.Group();
+scene.add(gCell, gA, gB, gC, gFlow);
+const pickables = [];
+function node(geo, mat, pos, id, label, lscale, group) {
+  const m = new THREE.Mesh(geo, mat);
+  m.position.set(...pos); m.userData.id = id;
+  group.add(m); pickables.push(m);
+  if (label) { const s = makeLabel(label, lscale || 1); s.position.set(pos[0], pos[1] + 0.95, pos[2]); s.userData.id = id; group.add(s); pickables.push(s); m.userData.label = s; }
+  return m;
+}
+
+/* ---------- cell shell + organelles ---------- */
+const shellGroup = new THREE.Group(); gCell.add(shellGroup);
+let memMesh = null; const memBase = []; let woundGlow = null;
+const poreDir = new THREE.Vector3(4.9, 0.5, 0.2).normalize();
+const memCalm = new THREE.Color(0xcfd8e6), memStress = new THREE.Color(0xc9a06e);
+{
+  const mem = new THREE.Mesh(
+    new THREE.SphereGeometry(6.4, 48, 32),
+    new THREE.MeshStandardMaterial({ color: 0xcfd8e6, transparent: true, opacity: 0.10, roughness: .9, side: THREE.DoubleSide, depthWrite: false })
+  );
+  mem.scale.set(1.15, 0.85, 1); shellGroup.add(mem);
+  memMesh = mem; memBase.push(...mem.geometry.attributes.position.array);
+  const rimT = new THREE.Mesh(new THREE.TorusGeometry(6.35, 0.03, 8, 128),
+    new THREE.MeshBasicMaterial({ color: 0x8fa8c0, transparent: true, opacity: .5 }));
+  rimT.rotation.x = Math.PI / 2.15; rimT.scale.set(1.15, 1, 1); shellGroup.add(rimT);
+
+  if (PAGE.nuc) {
+  // nucleus (left-back) with DNA ribbon
+  const nuc = new THREE.Mesh(new THREE.SphereGeometry(1.7, 32, 24),
+    new THREE.MeshStandardMaterial({ color: 0x8f7fd4, transparent: true, opacity: .32, roughness: .7 }));
+  nuc.position.set(-3.6, 1.15, -1.6); nuc.userData.id = 'casp8'; gCell.add(nuc); pickables.push(nuc);
+  const pts = [];
+  for (let i = 0; i <= 60; i++) { const t = i / 60 * Math.PI * 4; pts.push(new THREE.Vector3(-3.6 + Math.cos(t) * .9, 1.15 + (i / 60 - .5) * 1.6, -1.6 + Math.sin(t) * .9)); }
+  gCell.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 120, 0.035, 6),
+    new THREE.MeshStandardMaterial({ color: 0xc9b8ff, emissive: 0x4a3490, emissiveIntensity: .7 })));
+  const pore = new THREE.Mesh(new THREE.TorusGeometry(.32, .06, 8, 24),
+    new THREE.MeshStandardMaterial({ color: 0xd8ccff, emissive: 0x5544aa, emissiveIntensity: .5 }));
+  pore.position.set(-2.2, 0.6, -0.9); pore.rotation.y = 1.1; gCell.add(pore);
+  nucRef = nuc;
+  }
+}
+
+/* mitochondria */
+const mitoRefs = [];
+function mitochondrion(x, y, z, id) {
+  const g = new THREE.Group(); g.position.set(x, y, z);
+  const outer = new THREE.Mesh(new THREE.CapsuleGeometry(0.5, 1.0, 6, 16),
+    new THREE.MeshStandardMaterial({ color: 0xffb066, transparent: true, opacity: .85, roughness: .55, emissive: 0x6b2d05, emissiveIntensity: .4 }));
+  outer.rotation.z = Math.PI / 2.4; outer.userData.id = id || 'mito'; g.add(outer); pickables.push(outer);
+  for (let i = -1; i <= 1; i++) {
+    const c = new THREE.Mesh(new THREE.TorusGeometry(0.32, 0.05, 8, 24),
+      new THREE.MeshStandardMaterial({ color: 0xffd9a8, emissive: 0x8a4400, emissiveIntensity: .5 }));
+    c.position.x = i * 0.4; c.rotation.y = Math.PI / 2; g.add(c);
+  }
+  const glow = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: (() => { const c = document.createElement('canvas'); c.width = c.height = 64; const g2 = c.getContext('2d');
+      const gr = g2.createRadialGradient(32, 32, 2, 32, 32, 30); gr.addColorStop(0, 'rgba(255,150,60,.9)'); gr.addColorStop(1, 'rgba(255,150,60,0)');
+      g2.fillStyle = gr; g2.fillRect(0, 0, 64, 64); return new THREE.CanvasTexture(c); })(),
+    transparent: true, opacity: 0, depthWrite: false
+  }));
+  glow.scale.set(3.2, 3.2, 1); g.add(glow);
+  const lb = makeLabel('粒線體', .8); lb.position.set(0, 1.0, 0); lb.userData.id = id || 'mito'; g.add(lb); pickables.push(lb);
+  gCell.add(g); mitoRefs.push({ g, outer, glow });
+  return g;
+}
+if (PAGE.mitoShow) { mitochondrion(0.7, -1.5, 0.9); mitochondrion(2.2, -0.9, -1.2); }
+
+/* ER tubules */
+if (PAGE.er) {
+  const mat = new THREE.MeshStandardMaterial({ color: 0x7fb6c9, roughness: .7, transparent: true, opacity: .5 });
+  [[-1.5, -0.5, 0.5, 2.2], [-0.5, -1.8, -0.6, 2.6]].forEach(([x, y, z, len]) => {
+    const t = new THREE.Mesh(new THREE.TorusGeometry(len / 2.4, 0.07, 8, 40, Math.PI * 1.4), mat);
+    t.position.set(x, y, z); t.rotation.set(0.6, 0.4, 1.2); gCell.add(t);
+  });
+  }
+
+/* ---------- A · RIPK1 hub (left) ---------- */
+const AX = -3.1;
+const hubA = node(new THREE.IcosahedronGeometry(0.55, 1), M.hubA, [AX, 0.1, 0.9], 'casp8', 'Caspase-8', 1.1, gA);
+const ubChain = [];
+const A_REGS = [
+  ['fasl', 'FasL', [-5.3, 1.7, 0.4], new THREE.DodecahedronGeometry(0.34), M.reg(0x51c46b, 0x0b4a1e), 'pro'],
+  ['fadd', 'FADD', [-5.4, 0.35, 1.0], new THREE.OctahedronGeometry(0.32), M.reg(0xffe14d, 0x7a5a00), 'pro'],
+  ['flip', 'c-FLIP ⊣', [-5.1, -1.05, 0.7], new THREE.CapsuleGeometry(0.2, 0.3), M.reg(0xaac8e8, 0x1c3a5a), 'anti'],
+  ['trail', 'TRAIL', [-1.4, 1.75, 0.3], new THREE.TorusKnotGeometry(0.22, 0.07), M.reg(0xe893b0, 0x5a1030), 'pro'],
+  ['bid', 'BID → 粒線體', [-1.3, 0.35, 0.5], new THREE.CylinderGeometry(0.28, 0.28, 0.22), M.reg(0x6f9fd8, 0x12365e), 'pro'],
+  ['ripkcut', 'RIPK1/3 切割', [-1.4, -1.1, 0.6], new THREE.TorusGeometry(0.26, 0.11), M.reg(0xc2b8e8, 0x3a2f6b), 'anti']
+];
+A_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .85, gA));
+
+/* ---------- B · RIPK3 hub (center) ---------- */
+const hubB = node(new THREE.IcosahedronGeometry(0.6, 1), M.hubB, [0.1, 0.15, 0.5], 'casp9', 'Caspase-9', 1.15, gB);
+const B_REGS = [
+  ['p53', 'p53', [-1.7, 1.5, -0.4], new THREE.BoxGeometry(0.5, 0.3, 0.3), M.reg(0x9fd4f5, 0x1a3a55), 'pro'],
+  ['baxbak', 'Bax／BAK', [-1.7, 1.0, -0.5], new THREE.SphereGeometry(0.26, 14, 12), M.reg(0xe893c0, 0x5a1040), 'pro'],
+  ['bcl2', 'Bcl-2 ⊣', [-1.7, 0.55, -0.5], new THREE.ConeGeometry(0.26, 0.5), M.reg(0xf2a8c0, 0x5a1030), 'anti'],
+  ['cytc', '細胞色素 c', [-1.9, -0.35, 0.1], new THREE.DodecahedronGeometry(0.3), M.reg(0xe09a4d, 0x5a2e05), 'pro'],
+  ['xiap', 'XIAP ⊣', [-1.85, -1.05, 0.2], new THREE.OctahedronGeometry(0.3), M.reg(0xaac8e8, 0x1c3a5a), 'anti'],
+  ['smac', 'Smac／DIABLO', [-1.7, -1.75, 0.0], new THREE.IcosahedronGeometry(0.3, 0), M.reg(0x8a8f5a, 0x2e3005), 'pro'],
+  ['momp', 'MOMP', [2.0, 0.7, -0.9], new THREE.BoxGeometry(0.55, 0.34, 0.34), M.reg(0xd85ab0, 0x4d0a35), 'pro'],
+  ['apaf1', 'Apaf-1', [2.1, 0.0, -1.0], new THREE.SphereGeometry(0.28, 14, 12), M.reg(0xa8d85a, 0x2e4d0a), 'pro'],
+  ['bclxl', 'Bcl-xL ⊣', [2.1, -0.7, -1.0], new THREE.CylinderGeometry(0.26, 0.26, 0.3), M.reg(0x8fa8c0, 0x1c2a3a), 'anti']
+];
+B_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .8, gB));
+
+/* ---------- C · MLKL hub (right) ---------- */
+const hubC = node(new THREE.IcosahedronGeometry(0.58, 1), M.hubC, [3.1, -0.1, 0.4], 'casp3', 'Caspase-3', 1.1, gC);
+const C_REGS = [
+  ['gsdmd87', 'GSDMD-D87 ⊣', [1.7, 2.1, -1.0], new THREE.TorusKnotGeometry(0.2, 0.06), M.reg(0x9a8ae0, 0x2a2060), 'anti'],
+  ['gsdme', 'GSDME', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0xc98d5a, 0x4d2805), 'pro'],
+  ['psflip', 'PS 外翻', [1.8, -1.15, 0.7], new THREE.CapsuleGeometry(0.2, 0.32), M.reg(0xf2b8c8, 0x5a1a30), 'pro']
+];
+C_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .85, gC));
+
+/* membrane pore patch */
+const poreGroup = new THREE.Group(); poreGroup.position.set(4.9, 0.5, 0.2); poreGroup.rotation.y = -Math.PI / 2.3; gC.add(poreGroup);
+{
+  const bilayer = new THREE.Mesh(new THREE.PlaneGeometry(3.4, 2.6, 1, 1),
+    new THREE.MeshStandardMaterial({ color: 0xe8b89a, transparent: true, opacity: .35, side: THREE.DoubleSide }));
+  poreGroup.add(bilayer);
+  // lipid heads
+  const headGeo = new THREE.SphereGeometry(0.07, 8, 8);
+  const headMat = new THREE.MeshStandardMaterial({ color: 0x9fd4e8, emissive: 0x123a4a, emissiveIntensity: .5 });
+  const heads = new THREE.InstancedMesh(headGeo, headMat, 120);
+  const d = new THREE.Object3D(); let k = 0;
+  for (let ix = 0; ix < 12; ix++) for (let iy = 0; iy < 10; iy++) {
+    const x = (ix - 5.5) * 0.28, y = (iy - 4.5) * 0.25;
+    if (Math.hypot(x, y) < 0.55) continue; // pore hole
+    d.position.set(x, y, 0.12); d.updateMatrix(); heads.setMatrixAt(k++, d.matrix);
+  }
+  heads.count = k; poreGroup.add(heads);
+  // MLKL oligomer ring
+  for (let i = 0; i < 8; i++) {
+    const a = i / 8 * Math.PI * 2;
+    const s = new THREE.Mesh(new THREE.CapsuleGeometry(0.09, 0.28, 4, 8),
+      new THREE.MeshStandardMaterial({ color: 0xff5a4d, emissive: 0x5a0e08, emissiveIntensity: .7 }));
+    s.position.set(Math.cos(a) * 0.5, Math.sin(a) * 0.5, 0.1); s.rotation.z = a; poreGroup.add(s);
+  }
+  const lb = makeLabel('', .85); lb.position.set(0, 1.7, 0); poreGroup.add(lb);
+  woundGlow = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: (() => { const c = document.createElement('canvas'); c.width = c.height = 64; const g2 = c.getContext('2d');
+      const gr = g2.createRadialGradient(32, 32, 2, 32, 32, 30); gr.addColorStop(0, 'rgba(255,70,50,.95)'); gr.addColorStop(1, 'rgba(255,70,50,0)');
+      g2.fillStyle = gr; g2.fillRect(0, 0, 64, 64); return new THREE.CanvasTexture(c); })(),
+    transparent: true, opacity: 0, depthWrite: false
+  }));
+  woundGlow.scale.set(2.2, 2.2, 1); poreGroup.add(woundGlow);
+  poreGroup.userData.id = 'pore';
+  poreGroup.traverse(o => { o.userData.id = 'pore'; if ((o.isMesh || o.isSprite) && !pickables.includes(o)) pickables.push(o); });
+  poreGroup.visible = PAGE.pores;
+}
+
+/* ---------- edges (curved flows) ---------- */
+const flows = [];
+function edge(a, b, kind, group, lift = 0.5, tag = '') {
+  const va = new THREE.Vector3(...a), vb = new THREE.Vector3(...b);
+  const mid = va.clone().lerp(vb, 0.5); mid.y += lift; mid.z += 0.25;
+  const curve = new THREE.QuadraticBezierCurve3(va, mid, vb);
+  const tube = new THREE.Mesh(new THREE.TubeGeometry(curve, 24, 0.028, 6),
+    new THREE.MeshBasicMaterial({ color: kind === 'pro' ? 0x51d88a : 0xff5a5e, transparent: true, opacity: kind === 'pro' ? .85 : .8 }));
+  group.add(tube);
+  const dot = new THREE.Mesh(new THREE.SphereGeometry(0.085, 10, 8),
+    new THREE.MeshBasicMaterial({ color: kind === 'carrier' ? 0xffd166 : (kind === 'pro' ? 0x7dffab : 0xff8a8e) }));
+  group.add(dot);
+  const head = new THREE.Mesh(new THREE.ConeGeometry(0.09, 0.22, 10),
+    new THREE.MeshBasicMaterial({ color: kind === 'pro' ? 0x51d88a : 0xff5a5e }));
+  group.add(head);
+  flows.push({ curve, dot, head, tag, speed: 0.25 + Math.random() * 0.2, off: Math.random() });
+  return tube;
+}
+edge([-5.3, 1.7, 0.4], [-3.1, 0.1, 0.9], 'anti', gA, 0.4, 'A');
+edge([-5.4, 0.35, 1.0], [-3.1, 0.1, 0.9], 'pro', gA, 0.2, 'A');
+edge([-5.1, -1.05, 0.7], [-3.1, 0.1, 0.9], 'anti', gA, 0.5, 'A');
+edge([-1.4, 1.75, 0.3], [-3.1, 0.1, 0.9], 'pro', gA, 0.4, 'A');
+edge([-1.3, 0.35, 0.5], [-3.1, 0.1, 0.9], 'pro', gA, 0.25, 'A');
+edge([-1.4, -1.1, 0.6], [-3.1, 0.1, 0.9], 'anti', gA, 0.45, 'A');
+edge([-4.2, 2.5, -1.2], [-3.1, 0.1, 0.9], 'pro', gA, 0.6, 'A');
+edge([-1.7, 1.0, -0.5], [0.1, 0.15, 0.5], 'pro', gB, 0.35, 'B');
+edge([-1.7, 0.55, -0.5], [0.1, 0.15, 0.5], 'pro', gB, 0.4, 'B');
+edge([-1.7, 1.5, -0.4], [0.1, 0.15, 0.5], 'pro', gB, 0.3, 'B');
+edge([-1.9, -0.35, 0.1], [0.1, 0.15, 0.5], 'pro', gB, 0.3, 'B');
+edge([-1.85, -1.05, 0.2], [0.1, 0.15, 0.5], 'anti', gB, 0.4, 'B');
+edge([-1.7, -1.75, 0.0], [0.1, 0.15, 0.5], 'pro', gB, 0.5, 'B');
+edge([0.1, 0.15, 0.5], [3.1, -0.1, 0.4], 'pro', gB, 0.7, 'B');
+edge([0.1, 0.15, 0.5], [2.0, 0.7, -0.9], 'pro', gB, -0.2, 'B');
+edge([0.1, 0.15, 0.5], [2.1, 0.0, -1.0], 'pro', gB, -0.3, 'B');
+edge([0.1, 0.15, 0.5], [2.1, -0.7, -1.0], 'pro', gB, -0.35, 'B');
+edge([1.7, 2.1, -1.0], [3.1, -0.1, 0.4], 'pro', gC, 0.5, 'C');
+edge([1.8, 0.5, 0.9], [3.1, -0.1, 0.4], 'pro', gC, 0.3, 'C');
+edge([1.8, -1.15, 0.7], [3.1, -0.1, 0.4], 'pro', gC, 0.4, 'C');
+edge([-3.1, 0.1, 0.9], [3.1, -0.1, 0.4], 'pro', gC, 0.9, 'C');
+
+// TNFR1 ghost node + label
+{
+  const t = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.5, 16),
+    new THREE.MeshStandardMaterial({ color: 0x8fa8c0, emissive: 0x1c2a3a, emissiveIntensity: .5, transparent: true, opacity: .9 }));
+  t.position.set(-4.2, 2.5, -1.2); t.userData.id = 'casp8'; gA.add(t); pickables.push(t);
+  const s = makeLabel('FasL · TRAIL · TNFR1 上游', .8); s.position.set(-4.2, 3.15, -1.2); s.userData.id = 'casp8'; gA.add(s); pickables.push(s);
+}
+
+/* particles: mRNA, oligomers, DAMPs, ions */
+function puff(n, color, size) {
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(n * 3), 3));
+  const m = new THREE.PointsMaterial({ color, size, transparent: true, opacity: .9, depthWrite: false });
+  const p = new THREE.Points(g, m); gFlow.add(p); return p;
+}
+const mrna = puff(26, 0xd8ccff, 0.09);
+const oligo = puff(14, 0x7dffab, 0.12);
+const damp = puff(220, 0xffb066, 0.16);
+const ions = puff(60, 0x7fd4ff, 0.08);
+const dampVel = new Float32Array(220 * 3);
+for (let i = 0; i < 220; i++) {
+  const th = Math.random() * Math.PI * 2, ph = Math.acos(2 * Math.random() - 1), sp = 0.6 + Math.random() * 1.4;
+  dampVel[i * 3] = Math.sin(ph) * Math.cos(th) * sp; dampVel[i * 3 + 1] = Math.cos(ph) * sp * 0.8; dampVel[i * 3 + 2] = Math.sin(ph) * Math.sin(th) * sp;
+}
+
+
+/* ---------- program extras (frags / crescents / lobes / sparks / oligo2) ---------- */
+const frags = [];
+if (PAGE.frags) {
+  for (let i = 0; i < 4; i++) {
+    const f = new THREE.Mesh(new THREE.SphereGeometry(0.55 - i * 0.07, 24, 18),
+      new THREE.MeshStandardMaterial({ color: 0xe8a58c, roughness: .5, transparent: true, opacity: 0 }));
+    const nn = new THREE.Mesh(new THREE.SphereGeometry(0.24, 16, 12),
+      new THREE.MeshStandardMaterial({ color: 0x9a7bd0, roughness: .5, transparent: true, opacity: 0 }));
+    f.add(nn); f.visible = false; scene.add(f); frags.push({ f, nn });
+  }
+}
+const crescents = []; let lysoMesh = null;
+if (PAGE.crescents) {
+  for (let i = 0; i < 3; i++) {
+    const c = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.07, 10, 28, Math.PI * 1.4),
+      new THREE.MeshStandardMaterial({ color: 0x51ff9e, roughness: .4, emissive: 0x0a4a26, emissiveIntensity: .7, transparent: true, opacity: 0 }));
+    c.position.set(-0.9 + i * 0.85, 0.55 - i * 0.5, 0.3); c.rotation.set(0.6, 0.4, i); scene.add(c); crescents.push(c);
+  }
+  lysoMesh = new THREE.Mesh(new THREE.SphereGeometry(0.42, 24, 18),
+    new THREE.MeshStandardMaterial({ color: 0xd9403b, roughness: .35, emissive: 0x5a0f0c, emissiveIntensity: .6, transparent: true, opacity: 0 }));
+  lysoMesh.position.set(1.15, -0.9, 0.2); scene.add(lysoMesh);
+}
+const lobes = [];
+if (PAGE.lobes) {
+  [[-0.75, 0.35, -0.2], [0.65, -0.35, 0.1]].forEach(p => {
+    const lb = new THREE.Mesh(new THREE.SphereGeometry(0.55, 20, 14),
+      new THREE.MeshStandardMaterial({ color: 0x9a7bd0, roughness: .5, emissive: 0x2a1a4a, emissiveIntensity: .5, transparent: true, opacity: 0 }));
+    lb.position.set(...p); lb.visible = false; scene.add(lb); lobes.push(lb);
+  });
+}
+let sparkPts = null;
+if (PAGE.sparkOn) { sparkPts = puff(120, PAGE.sparkColor, 0.09); }
+const oligo2 = puff(14, PAGE.oligo2Color, 0.12);
+
+/* ---------- global dissolve: everything fades as the cell lyses ---------- */
+const fadeMats = [];
+{
+  const skip = new Set([memMesh.material]);
+  mitoRefs.forEach(m => skip.add(m.glow.material));
+  if (woundGlow) skip.add(woundGlow.material);
+  [gA, gB, gC, gCell].forEach(gr => gr.traverse(o => {
+    const mt = o.material;
+    if ((o.isMesh || o.isSprite) && mt && !skip.has(mt) && !fadeMats.some(f => f.m === mt)) {
+      mt.transparent = true;
+      fadeMats.push({ m: mt, base: mt.opacity });
+    }
+  }));
+}
+
+/* ---------- phases ---------- */
+const PHASES = [
+  [0, 'A · Caspase-8 點火——DISC 組裝、切割 RIPK1／3（關閉壞死性凋亡）'],
+  [6, 'B · 粒線體放大——Bax／BAK、細胞色素 c、凋亡體，Smac 解除 XIAP'],
+  [12, 'C · Caspase-3 執行——密封起泡，GSDMD-D87 關／GSDME 開'],
+  [17.5, '小體掐斷——密封包裹、PS 吞噬訊號'],
+  [20.5, '清除——靜默吞噬、無 DAMP 警報']
+];
+function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }
+
+/* ---------- UI ---------- */
+const chipA = document.getElementById('chipA'), chipB = document.getElementById('chipB'), chipC = document.getElementById('chipC');
+const playBtn = document.getElementById('play'), resetBtn = document.getElementById('reset');
+const metertrack = document.getElementById('metertrack');
+let showA = true, showB = true, showC = true;
+function applyVis() {
+  gA.visible = showA; gB.visible = showB; gC.visible = showC;
+  // flows live inside groups except gFlow particles stay
+  chipA.classList.toggle('is-on', showA); chipB.classList.toggle('is-on', showB); chipC.classList.toggle('is-on', showC);
+}
+chipA.onclick = () => { showA = !showA; applyVis(); flashCard('A'); };
+chipB.onclick = () => { showB = !showB; applyVis(); flashCard('B'); };
+chipC.onclick = () => { showC = !showC; applyVis(); flashCard('C'); };
+function setRunning(v) { running = v; playBtn.textContent = v ? '⏸ 暫停' : '▶ 播放'; playBtn.classList.toggle('is-on', v); }
+playBtn.onclick = () => setRunning(!running);
+setRunning(running);
+resetBtn.onclick = () => { camera.position.copy(CAM0); controls.target.set(0, 0.1, 0); };
+/* copy stage snapshot as PNG (clipboard, download fallback) */
+const copyBtn = document.getElementById('copybtn');
+const ICON_COPY = copyBtn.innerHTML;
+const ICON_OK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+const ICON_DL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
+const ICON_ERR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+function flashCopyBtn(cls, title, icon) {
+  copyBtn.classList.add(cls);
+  copyBtn.title = title;
+  copyBtn.innerHTML = icon;
+  setTimeout(() => { copyBtn.innerHTML = ICON_COPY; copyBtn.title = '複製舞台快照為 PNG'; copyBtn.classList.remove('ok', 'err'); }, 1800);
+}
+function snapshotBlob() {
+  return new Promise((resolve, reject) => {
+    renderer.render(scene, camera);
+    canvas.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
+  });
+}
+copyBtn.onclick = async () => {
+  copyBtn.disabled = true;
+  try {
+    const blob = await snapshotBlob();
+    if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+    await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+    flashCopyBtn('ok', '已複製 ✓', ICON_OK);
+  } catch (_) {
+    try {
+      const blob = await snapshotBlob();
+      const a = document.createElement('a');
+      a.download = 'apoptosis.png';
+      a.href = URL.createObjectURL(blob);
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+      flashCopyBtn('ok', '已下載', ICON_DL);
+    } catch (_) {
+      flashCopyBtn('err', '複製失敗', ICON_ERR);
+    }
+  }
+  setTimeout(() => { copyBtn.disabled = false; }, 50);
+};
+/* death-threshold scrubber: drag the meter track to seek the 24 s loop (stays paused until play) */
+let scrubbing = false;
+function scrubTo(clientX) {
+  const r = metertrack.getBoundingClientRect();
+  const f = Math.min(Math.max((clientX - r.left) / r.width, 0), 1);
+  T = f * DUR;
+}
+metertrack.addEventListener('pointerdown', e => {
+  scrubbing = true; setRunning(false);
+  try { metertrack.setPointerCapture(e.pointerId); } catch (_) {}
+  scrubTo(e.clientX);
+});
+metertrack.addEventListener('pointermove', e => { if (scrubbing) scrubTo(e.clientX); });
+metertrack.addEventListener('pointerup', () => { scrubbing = false; });
+metertrack.addEventListener('pointercancel', () => { scrubbing = false; });
+metertrack.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') { T = (T - 1 + DUR) % DUR; e.preventDefault(); }
+  else if (e.key === 'ArrowRight') { T = (T + 1) % DUR; e.preventDefault(); }
+  else if (e.key === 'Home') { T = 0; e.preventDefault(); }
+  else if (e.key === 'End') { T = DUR - 0.01; e.preventDefault(); }
+});
+
+const ray = new THREE.Raycaster(); const ptr = new THREE.Vector2();
+function isShown(o) { while (o) { if (!o.visible) return false; o = o.parent; } return true; }
+function pick(e) {
+  const r = canvas.getBoundingClientRect();
+  ptr.x = ((e.clientX - r.left) / r.width) * 2 - 1;
+  ptr.y = -((e.clientY - r.top) / r.height) * 2 + 1;
+  ray.setFromCamera(ptr, camera);
+  const hit = ray.intersectObjects(pickables, false).find(h => isShown(h.object));
+  return hit ? hit.object.userData.id : null;
+}
+canvas.addEventListener('click', e => {
+  const id = pick(e); if (!id) return;
+  if (COMP[id]) flashCard(COMP[id]);
+  const d = INFO[id]; if (!d) return;
+  tip.innerHTML = '<b>' + d[0] + '</b><code>' + d[1] + '</code><br>' + d[2];
+  tip.style.display = 'block';
+  tip.style.left = Math.min(e.offsetX + 14, stage.clientWidth - 260) + 'px';
+  tip.style.top = Math.max(e.offsetY - 10, 8) + 'px';
+  clearTimeout(tip._h); tip._h = setTimeout(() => tip.style.display = 'none', 4200);
+});
+canvas.addEventListener('pointermove', e => { canvas.style.cursor = pick(e) ? 'pointer' : 'grab'; });
+
+/* ---------- animate ---------- */
+const clk = new THREE.Clock();
+let T = 0;
+const V = new THREE.Vector3(), V2 = new THREE.Vector3();
+function setPts(p, fn) {
+  const a = p.geometry.attributes.position;
+  for (let i = 0; i < a.count; i++) { fn(i, V); a.setXYZ(i, V.x, V.y, V.z); }
+  a.needsUpdate = true;
+}
+function animate() {
+  requestAnimationFrame(animate);
+  const dt = Math.min(clk.getDelta(), 0.05);
+  if (running) T = (T + dt) % DUR;
+  const t = T;
+  const sstep = (a, b, x) => { const u = Math.min(Math.max((x - a) / (b - a), 0), 1); return u * u * (3 - 2 * u); };
+  const dissolveK = PAGE.lytic ? sstep(21, 23.5, t) : 0;
+
+  // flows
+  for (const f of flows) {
+    const u = (t * f.speed + f.off) % 1;
+    f.curve.getPoint(u, V); f.dot.position.copy(V);
+    f.curve.getPoint(Math.min(u + 0.04, 1), V2);
+    f.head.position.copy(V2); f.head.lookAt(V2.clone().add(V2.clone().sub(V)));
+    const tagOn = (f.tag === 'A' && showA) || (f.tag === 'B' && showB) || (f.tag === 'C' && showC);
+    const actBoost =
+      (t < 6 && f.tag === 'A') || (t >= 6 && t < 12 && f.tag === 'B') || (t >= 12 && f.tag === 'C') ? 1.6 : 0.7;
+    f.dot.scale.setScalar(tagOn ? actBoost : 0.001);
+    f.head.visible = tagOn;
+  }
+
+  if (PAGE.ub) {
+    const aAct = t < 6 ? 1 : 0.45;
+    ubChain.forEach((b, i) => b.scale.setScalar(aAct * (1 + 0.15 * Math.sin(t * 3 + i))));
+  }
+  hubA.scale.setScalar(1 + (t < 6 ? 0.12 * Math.sin(t * 4) : 0.04));
+  hubB.scale.setScalar(1 + ((t >= 6 && t < 12) ? 0.16 * Math.sin(t * 5) : 0.04));
+  hubC.scale.setScalar(1 + (t >= 12 ? 0.14 * Math.sin(t * 5) : 0.04));
+  mitoLight.intensity = t >= 17.5 ? 2.2 + Math.sin(t * 9) : (t >= 6 ? 0.8 : 0.25);
+  mitoRefs.forEach((m, i) => {
+    if (PAGE.mitoMode === 'shrink') {
+      const rK = sstep(10, 16, t);
+      m.glow.material.opacity = 0.12 * (1 - rK * 0.5) * (1 - dissolveK);
+      const sh = 1 - 0.40 * rK;
+      m.outer.scale.set(sh, sh * 0.85, sh);
+      m.outer.material.color.setHex(0xffb066).lerp(new THREE.Color(0x2b2b2b), rK);
+    } else if (PAGE.mitoMode === 'pop') {
+      const pK = sstep(6, 14, t);
+      m.glow.material.opacity = (0.12 + 0.5 * pK) * (1 - sstep(17, 18.5, t)) * (1 - dissolveK);
+      const sw = 1 + 0.85 * pK;
+      m.outer.scale.set(sw, sw, sw);
+      m.outer.material.color.setHex(0xffb066).lerp(new THREE.Color(0x777777), pK);
+      m.g.visible = t < 18;
+    } else {
+      m.glow.material.opacity = (t >= 17.5 ? 0.75 : (t >= 6 ? 0.3 + 0.1 * Math.sin(t * 3 + i) : 0.12)) * (1 - dissolveK);
+      const swell = t >= 17.5 ? 1 + 0.18 * Math.sin(t * 7 + i) : 1;
+      m.outer.scale.set(swell, swell, swell);
+    }
+    m.g.position.y += Math.sin(t * 1.5 + i * 2) * 0.0008;
+  });
+
+  // cell morphology follows the death threshold: swell → bulge → rupture → collapse
+  const swellK = sstep(9, 17.5, t);
+  const execK = t >= 17.5 ? Math.min((t - 17.5) / 2.5, 1) : 0;
+  const postK = t >= 20.5 ? Math.min((t - 20.5) / 3.5, 1) : 0;
+  if (memMesh) {
+    const shrinkK = sstep(6, 14, t);
+    const blebK = sstep(12, 17.5, t);
+    const fragK2 = sstep(16.5, 18.5, t);
+    shellGroup.scale.setScalar(1 - 0.20 * shrinkK);
+    const pos = memMesh.geometry.attributes.position;
+    const arr = pos.array;
+    for (let i = 0; i < pos.count; i++) {
+      const bx = memBase[i * 3], by = memBase[i * 3 + 1], bz = memBase[i * 3 + 2];
+      const bl = Math.max(0, Math.sin(bx * 1.4 + t * 3.2) * Math.sin(by * 1.7 - t * 2.6)) ** 2;
+      const k = (1 - 0.06 * shrinkK) * (1 + blebK * bl * 0.35);
+      arr[i * 3] = bx * k; arr[i * 3 + 1] = by * k; arr[i * 3 + 2] = bz * k;
+    }
+    pos.needsUpdate = true;
+    memMesh.geometry.computeVertexNormals();
+    memMesh.material.color.copy(memCalm).lerp(memStress, 0.45 * sstep(10, 16, t));
+    memMesh.material.opacity = 0.10 + 0.03 * shrinkK - 0.055 * fragK2;
+  }
+  if (woundGlow) {
+    woundGlow.material.opacity = 0.9 * execK * (1 - postK * 0.8) * (1 - dissolveK);
+    const ws = 2.2 + 3.2 * execK;
+    woundGlow.scale.set(ws, ws, 1);
+  }
+
+  // mRNA nucleus → MLKL (act C)
+  setPts(mrna, (i, v) => {
+    const u = (t * 0.12 + i / 26) % 1;
+    v.set(-3.0 + u * 6.1, 1.3 - u * 1.4 + Math.sin(u * 9 + i) * 0.15, -1.2 + u * 1.6);
+  });
+  mrna.visible = false;
+  // oligomers MLKL → pore
+  setPts(oligo, (i, v) => {
+    const u = (t * 0.18 + i / 14) % 1;
+    v.set(PAGE.oligoF[0] + (PAGE.oligoT[0] - PAGE.oligoF[0]) * u, PAGE.oligoF[1] + (PAGE.oligoT[1] - PAGE.oligoF[1]) * u + Math.sin(u * 7 + i) * 0.12, PAGE.oligoF[2] + (PAGE.oligoT[2] - PAGE.oligoF[2]) * u);
+  });
+  oligo.visible = (PAGE.oligoGate === 'B' ? showB : showC) && t >= PAGE.oligoT0 && dissolveK < 0.5;
+  // ions inward through pore
+  setPts(ions, (i, v) => {
+    const u = (t * 0.5 + i / 60) % 1;
+    v.set(6.2 - u * 1.6, 0.5 + Math.sin(i * 3.1) * 0.5 * (1 - u), 0.2 + Math.cos(i * 2.3) * 0.4 * (1 - u));
+  });
+  ions.visible = false;
+  // DAMP burst
+  setPts(damp, (i, v) => {
+    const age = ((t - 17.5 + DUR) % DUR) / 6.5; // 0..1 after rupture
+    const k = Math.min(Math.max(age, 0.02), 1);
+    v.set(4.9 + dampVel[i * 3] * k * 3.2, 0.5 + dampVel[i * 3 + 1] * k * 3.2, 0.2 + dampVel[i * 3 + 2] * k * 3.2);
+  });
+  damp.visible = false;
+  damp.material.opacity = t >= 17.5 ? Math.max(1 - ((t - 17.5) / 6.5), 0.35) * (1 - dissolveK * 0.95) : 0;
+
+  poreGroup.scale.setScalar(t >= 17.5 ? 1 + 0.1 * Math.sin(t * 8) : (t >= 12 ? 0.85 + (t - 12) * 0.03 : 0.8));
+
+  if (PAGE.frags) {
+    const fragK = sstep(16.5, 18.5, t);
+    frags.forEach(({ f, nn }, i) => {
+      f.visible = fragK > 0.02;
+      const a = i * 1.7 + 0.6;
+      f.position.set(Math.cos(a) * (1.1 + fragK * 0.9), Math.sin(a * 1.3) * (0.8 + fragK * 0.7), Math.sin(a) * 0.6);
+      f.scale.setScalar(Math.max(0.01, fragK));
+      f.material.opacity = fragK; nn.material.opacity = fragK;
+    });
+  }
+  if (PAGE.crescents) {
+    const cupK = sstep(4, 8, t), fuseK = sstep(14, 16, t);
+    crescents.forEach(c => {
+      c.material.opacity = cupK * (1 - fuseK * 0.5);
+      c.scale.setScalar(0.6 + cupK * 0.7);
+      c.rotation.z += dt * 0.3;
+    });
+    if (lysoMesh) {
+      lysoMesh.material.opacity = Math.max(sstep(2, 4, t), fuseK);
+      lysoMesh.material.emissiveIntensity = 0.6 + fuseK * 2.2;
+      lysoMesh.scale.setScalar(1 + fuseK * 0.35);
+    }
+  }
+  if (PAGE.lobes) {
+    const deconK = sstep(8, 14, t), nlRup = sstep(17.5, 18.5, t);
+    lobes.forEach(l => {
+      l.visible = nlRup < 0.9;
+      l.material.opacity = 1;
+      l.scale.setScalar(1 + 0.8 * deconK);
+    });
+    if (nucRef) { nucRef.scale.setScalar(1 + 0.8 * deconK); nucRef.visible = nlRup < 0.9; }
+  }
+  if (sparkPts) {
+    const spK = sstep(PAGE.sparkT0, PAGE.sparkT0 + 1.5, t) * (1 - sstep(PAGE.sparkT1 - 1, PAGE.sparkT1, t));
+    setPts(sparkPts, (i, v) => {
+      if (Math.random() < spK) {
+        const a = Math.random() * Math.PI * 2, r = Math.random() * 2.2;
+        v.set(Math.cos(a) * r, Math.sin(a) * r * 0.8, (Math.random() - 0.5) * 2);
+      } else v.set(99, 99, 99);
+    });
+    sparkPts.visible = spK > 0.02;
+  }
+  if (PAGE.oligo2On) {
+    setPts(oligo2, (i, v) => {
+      const u = (t * 0.18 + i / 14) % 1;
+      v.set(PAGE.oligo2F[0] + (PAGE.oligo2T[0] - PAGE.oligo2F[0]) * u,
+            PAGE.oligo2F[1] + (PAGE.oligo2T[1] - PAGE.oligo2F[1]) * u + Math.sin(u * 7 + i) * 0.12,
+            PAGE.oligo2F[2] + (PAGE.oligo2T[2] - PAGE.oligo2F[2]) * u);
+    });
+    oligo2.visible = (PAGE.oligo2Gate === 'B' ? showB : showC) && t >= PAGE.oligo2T0 && dissolveK < 0.5;
+  } else { oligo2.visible = false; }
+
+
+  for (const f of fadeMats) f.m.opacity = f.base * (1 - dissolveK);
+
+  phaseEl.textContent = phaseAt(t);
+  meterfill.style.width = Math.min(8 + t / DUR * 92, 100) + '%';
+  meterlabel.textContent = '死亡閾值 · T+ ' + (BIO_H < 1 ? (t / DUR * BIO_H * 60).toFixed(0) + ' 分鐘' : (t / DUR * BIO_H).toFixed(1) + ' 小時');
+  metertrack.setAttribute('aria-valuenow', t.toFixed(1));
+
+  controls.update();
+  renderer.render(scene, camera);
+}
+applyVis();
+animate();
+</script>
+</body>
+</html>

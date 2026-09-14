@@ -50,26 +50,6 @@
   </url>
 
 <url>
-    <loc>https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/oxidized-catecholamines-feed-lysosomal-stress.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html"/>
-  </url>
-
-<url>
-    <loc>https://graph.johnnykuo.com/pages/zh-TW/oxidized-catecholamines-feed-lysosomal-stress.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/oxidized-catecholamines-feed-lysosomal-stress.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html"/>
-  </url>
-
-<url>
     <loc>https://graph.johnnykuo.com/pages/en-US/sirtuins_disease_complications.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -147,6 +127,46 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/senescence-articles-and-figures.html"/>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/senescence-articles-and-figures.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/senescence-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/cell-death-articles-and-figures.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/hormesis-articles-and-figures.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormesis-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hormesis-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hormesis-articles-and-figures.html"/>
+  </url>
+
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/hormesis-articles-and-figures.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormesis-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hormesis-articles-and-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hormesis-articles-and-figures.html"/>
   </url>
 
 <url>
@@ -311,7 +331,7 @@
 
 <url>
     <loc>https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hormetic-range-assessment.html"/>
@@ -319,43 +339,43 @@
   </url>
 
 <url>
-    <loc>https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <loc>https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html"/>
   </url>
 
 <url>
-    <loc>https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-animations.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html"/>
   </url>
 
 <url>
-    <loc>https://graph.johnnykuo.com/pages/zh-TW/cell-death-animations.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <loc>https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html</loc>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-animations.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-animations.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html"/>
   </url>
 
 <url>
-    <loc>https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html</loc>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison-table.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison-table.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html"/>
   </url>
 
 <url>
@@ -378,4 +398,206 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/male-distributed-topology-vs-estrogen-hub.html"/>
   </url>
 
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/necroptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/necroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/necroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/necroptosis.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/necroptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/necroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/necroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/necroptosis.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/apoptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/apoptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/apoptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/apoptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/parthanatos.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/parthanatos.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/parthanatos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/parthanatos.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/parthanatos.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/parthanatos.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/parthanatos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/parthanatos.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/necrosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/necrosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/necrosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/necrosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/necrosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/ferroptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/ferroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/ferroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/ferroptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/ferroptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/ferroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/ferroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/ferroptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/autophagy.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/autophagy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/autophagy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/autophagy.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/autophagy.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/autophagy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/autophagy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/autophagy.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/pyroptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/pyroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/pyroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/pyroptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/pyroptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/pyroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/pyroptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/pyroptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/panoptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/panoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/panoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/panoptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/panoptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/panoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/panoptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/panoptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/eryptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/netosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/netosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/netosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/netosis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/netosis.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/netosis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/netosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/netosis.html"/>
+  </url>
 </urlset>

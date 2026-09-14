@@ -2,7 +2,7 @@
 title: TRPM2
 description: TRPM2 (Transient Receptor Potential Melastatin-Related Channel 2) is a calcium-permeable non-selective cation channel expressed highly in the brain, immune system, and cardiovascular system. It functions as an oxidative stress sensor whose prolonged activation leads to calcium overload and cell death.
 created: 2026-07-03
-updated: 2026-07-07
+updated: 2026-09-08
 tags:
   - ion-channel
 aliases:
@@ -32,6 +32,9 @@ This creates a feedback loop in which sirtuin activation — normally cytoprotec
 ## Physiological and Pathological Relevance
 
 TRPM2 mediates cytokine release in immune cells, insulin secretion in β-cells, and neuronal vulnerability to ischemia and [[Oxidative Stress]]. Its OAADPr sensitivity ties membrane physiology to the [[NAD+]] redox economy and the sirtuin network, making it a sensor of the same metabolic state that sirtuins monitor. Dysregulation of TRPM2 contributes to neurodegeneration (stroke, Alzheimer's), inflammatory disease, and glycemic dysfunction, underscoring its cross-topic importance to [[Aging]] and [[Neurodegeneration]].
+
+> [!info] Parthanatos arm
+> PARP1/PARG-derived free ADP-ribose (not only sirtuin OAADPr) gates TRPM2 → Ca2+ influx → calpain/MPTP candidates → [[Apoptosis-Inducing Factor|AIF]] release in [[Parthanatos]]. PARG-dependent (Blenn 2011); Ca2+ chelation protects renal I/R and H2O2 models but not MNNG (insult-specific); ER Ca2+ release contributes via a PARG-independent route. See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
 
 ## Documents
 

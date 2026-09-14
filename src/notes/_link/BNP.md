@@ -31,7 +31,7 @@ Plasma BNP/NT-proBNP is a cornerstone biomarker for the diagnosis and prognosis 
 
 ## Documents
 
-- [[task_output_sirtuins_resveratrol_en-US]] — cardiac biomarker context.
+- [[task_output_sirtuins_resveratrol]] — cardiac biomarker context.
 - [[task_output_review_notes_epinephrine_sirtuins_06_July_2026]] — cardiovascular context.
 
 ## Connections

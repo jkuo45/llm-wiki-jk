@@ -286,12 +286,105 @@ function bindTableCopyBtn(btn){
   });
 }
 /* ============================= COPY CANVAS (e.g. WebGL) =============================
-   Snapshots a <canvas> (2D or WebGL) as PNG. WebGL pages must create their
-   renderer with preserveDrawingBuffer:true, otherwise the buffer is cleared
-   before toBlob runs and the export comes out blank. Falls back to download. */
+   Snapshots a <canvas> (2D or WebGL) as PNG, compositing the HTML overlay
+   labels (.lbl / .ic-lbl / .phase / #ic-stepflag / #ic-scalebar) that sit on
+   top of the 3-D stage. cv.toBlob alone only captures the WebGL buffer, so
+   without this the exported PNG would lose every label. WebGL pages must
+   create their renderer with preserveDrawingBuffer:true, otherwise the buffer
+   is cleared before toBlob runs and the export comes out blank.
+   Falls back to download. */
+function pillPath(ctx, x, y, w, h){
+  const r = Math.min(h / 2, 8);
+  if (ctx.roundRect){ ctx.beginPath(); ctx.roundRect(x, y, w, h, r); return; }
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+}
+function drawPill(ctx, x, y, w, h, cs){
+  const bg = cs.backgroundColor;
+  if (bg && bg !== 'rgba(0, 0, 0, 0)' && bg !== 'transparent'){
+    pillPath(ctx, x, y, w, h);
+    ctx.fillStyle = bg; ctx.fill();
+  }
+  const bw = parseFloat(cs.borderWidth) || 0;
+  if (bw > 0 && cs.borderStyle !== 'none'){
+    pillPath(ctx, x, y, w, h);
+    ctx.strokeStyle = cs.borderColor || '#fff';
+    ctx.lineWidth = bw;
+    ctx.stroke();
+  }
+}
+function drawPillText(ctx, text, x, y, w, h, cs, scale){
+  const t = (text || '').trim();
+  if (!t) return;
+  const size = (parseFloat(cs.fontSize) || 11) * scale;
+  ctx.font = (cs.fontWeight || '400') + ' ' + size + 'px ' + (cs.fontFamily || 'sans-serif');
+  ctx.fillStyle = cs.color || '#fff';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(t, x + w / 2, y + h / 2, Math.max(w - 4, 10));
+}
+function compositeStageLabels(cv, ctx, scale){
+  const stage = (cv.closest && (cv.closest('.stage') || cv.closest('#ic-stage'))) || cv.parentElement;
+  if (!stage || !stage.querySelectorAll) return;
+  const cvRect = cv.getBoundingClientRect();
+  const nodes = stage.querySelectorAll('.lbl, .ic-lbl, .phase, #ic-stepflag, #ic-scalebar');
+  nodes.forEach((el)=>{
+    if (el.closest && el.closest('.copy-btn')) return;
+    let cs;
+    try { cs = getComputedStyle(el); } catch(_){ return; }
+    if (!cs || cs.display === 'none' || cs.visibility === 'hidden') return;
+    const r = el.getBoundingClientRect();
+    if (!r.width || !r.height) return;
+    const x = (r.left - cvRect.left) * scale, y = (r.top - cvRect.top) * scale;
+    const w = r.width * scale, h = r.height * scale;
+    // Scale-bar card (text span + .bar meter): draw the text at the span's
+    // own rect and the meter as a filled bar so both survive the export.
+    const bar = el.querySelector && el.querySelector('.bar');
+    if (bar){
+      drawPill(ctx, x, y, w, h, cs);
+      const span = el.querySelector('span');
+      const rs = span ? span.getBoundingClientRect() : null;
+      if (rs && rs.width){
+        drawPillText(ctx, span.textContent, (rs.left - cvRect.left) * scale,
+          (rs.top - cvRect.top) * scale, rs.width * scale, rs.height * scale, getComputedStyle(span), scale);
+      } else {
+        drawPillText(ctx, el.textContent, x, y, w, h * 0.6, cs, scale);
+      }
+      const rb = bar.getBoundingClientRect();
+      if (rb.width){
+        let bcs;
+        try { bcs = getComputedStyle(bar); } catch(_){ bcs = null; }
+        ctx.fillStyle = (bcs && bcs.backgroundColor) || '#fff';
+        ctx.fillRect((rb.left - cvRect.left) * scale, (rb.top - cvRect.top) * scale,
+          rb.width * scale, Math.max(rb.height * scale, 2));
+      }
+      return;
+    }
+    drawPill(ctx, x, y, w, h, cs);
+    drawPillText(ctx, el.textContent, x, y, w, h, cs, scale);
+  });
+}
 function canvasToBlob(cv){
   return new Promise((resolve, reject)=>{
-    if (cv.toBlob) cv.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
+    const scale = (cv.clientWidth ? cv.width / cv.clientWidth : 1) || 1;
+    const finish = (srcCanvas)=>{
+      try {
+        // Composite overlay labels onto a fresh canvas so the export keeps
+        // them; canvases without overlays (e.g. plain 2-D charts) just copy.
+        const out = document.createElement('canvas');
+        out.width = srcCanvas.width; out.height = srcCanvas.height;
+        const ctx = out.getContext('2d');
+        ctx.drawImage(srcCanvas, 0, 0);
+        compositeStageLabels(cv, ctx, scale);
+        if (out.toBlob) out.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
+        else reject(new Error('no-toblob'));
+      } catch(err){ reject(err); }
+    };
+    if (cv.toBlob) cv.toBlob(b => b ? finish(cv) : reject(new Error('no-blob')), 'image/png');
     else reject(new Error('no-toblob'));
   });
 }

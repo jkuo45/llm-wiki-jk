@@ -6074,5 +6074,47 @@
     "source_document": "Immunosenescence.md",
     "created": "2026-09-04T16:31:31Z",
     "updated": "2026-09-04T16:31:31Z"
+  },
+  {
+    "id": "e59021314d47",
+    "subject": "STING",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "STING, activated by cGAS-derived cGAMP after miMOMP mtDNA release, recruits TBK1 to phosphorylate IRF3 and activate NF-kB, producing type I interferon and pro-inflammatory SASP cytokines; STING inhibition suppresses most SASP factors.",
+      "zh-TW": "STING 在 miMOMP mtDNA 釋放後被 cGAS 衍生的 cGAMP 活化，招募 TBK1 磷酸化 IRF3 並活化 NF-kB，產生第一型干擾素與促發炎 SASP 細胞激素；抑制 STING 可抑制大多數 SASP 因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "STING.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "47ca66c7514e",
+    "subject": "mtDNA ribonucleotide misincorporation",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "Senescent cells show an elevated rNTP/dNTP ratio with continued mtDNA replication, causing ribonucleotide misincorporation into mtDNA that promotes its cytosolic release and SASP; exogenous deoxyribonucleoside supplementation lowers this release and suppresses inflammatory SASP without affecting SA-beta-gal arrest.",
+      "zh-TW": "衰老細胞呈現升高的 rNTP/dNTP 比值且 mtDNA 持續複製，導致核糖核苷酸錯誤摻入 mtDNA，促進其胞質釋放與 SASP；補充外源去氧核糖核苷可降低釋放並抑制發炎性 SASP，且不影響 SA-beta-gal 停滯。"
+    },
+    "confidence": 0.8,
+    "source_document": "SASP.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "2435d238ed7c",
+    "subject": "Minority MOMP",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "Minority MOMP releases mitochondrial nucleic acids that drive the senescence-associated secretory phenotype of IL-6, IL-8, IL-1beta and interferons, while the p53-p21 and p16-Rb cell-cycle arrest programs remain intact; this decoupling is shown by BAX/BAK deletion, MFN2 knockdown and BAX inhibitor studies.",
+      "zh-TW": "Minority MOMP 釋放粒線體核酸，驅動 IL-6、IL-8、IL-1beta 與干擾素的衰老相關分泌表型，而 p53-p21 與 p16-Rb 細胞週期停滯程序保持完整；BAX/BAK 缺失、MFN2 敲低與 BAX 抑制劑研究均證明此脫鉤。"
+    },
+    "confidence": 0.95,
+    "source_document": "SASP.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
   }
 ]

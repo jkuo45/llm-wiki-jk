@@ -23,6 +23,8 @@ aliases: [Heat Shock Protein 90, HSP90]
 
 # 
 
+**Necroptosis regulation.** Heat shock protein 90 binds to [[MLKL]], preventing its proteasomal degradation and promoting [[MLKL]] activation and membrane translocation in inflammatory and infectious disease.
+
 ## Documents
 
 List of documents that mention this entity
@@ -32,6 +34,8 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[MLKL]] — Hsp90 stabilizes MLKL and promotes its activation
 - [[Hsp90]] — related entity
 
 ## Linking Summary

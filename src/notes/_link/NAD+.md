@@ -4,7 +4,7 @@ description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme fou
   in every cell, essential for energy Metabolism and a vital signaling molecule. It
   serves as an obligatory co-substrate for all ...
 created: 2026-07-04
-updated: 2026-09-02
+updated: 2026-09-08
 tags:
   - chemical-compound
   - nad-plus
@@ -102,6 +102,9 @@ A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dy
 ## Biosynthesis
 
 NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside|NR]], [[Nicotinamide Mononucleotide|NMN]]) via the [[Preiss-Handler pathway]] and salvage pathway involving [[NAMPT]].
+
+> [!tip] Parthanatos rescue rule
+> Whether NAD/NR/NMN prevents parthanatos depends on: (1) PAR load — NAD restores the pool but not PAR–[[Hexokinase-1]] glycolysis block; (2) medium carbon sources — pyruvate/glutamine bypass masks the defect; (3) compartment — nuclear/cytosolic vs [[SLC25A51]]-gated mitochondrial pools; (4) salvage ATP cost (~4 phosphates/cycle) plus [[Nudix Hydrolases]] AMP arm. Full PARG inhibition uncouples NAD loss (persists) from ATP loss/death (prevented). See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
 
 # 
 

@@ -23,7 +23,7 @@ aliases: [Parkinson Disease, PD, Parkinson disease, Idiopathic Parkinson's disea
 - α-[[Synuclein]] aggregation ([[Lewy Bodies]])
 - [[Oxidative Stress]] and [[Mitochondrial Dysfunction]]
 - Impaired [[Energy Metabolism|cellular energy metabolism]]
-- Neuroinflammation, with [[TLR-4]] signaling implicated in neuronal loss
+- Neuroinflammation, with [[TLR4]] signaling implicated in neuronal loss
 - Defective [[Autophagic Flux]] contributes to the buildup of toxic aggregates and neuronal death
 - Impaired [[Mitophagy]] (selective [[Autophagy]] of mitochondria)
 
@@ -65,7 +65,7 @@ In terms of cell replacement therapy, iPSC-derived dopaminergic progenitors have
 [[Creatine in Health and Disease]] reviews creatine's role in PD:
 
 - **Resistance training + creatine**: Hass et al. reported that [[Creatine Supplementation|creatine]] during resistance training in PD patients improved muscle strength and the chair sit-to-rise test.
-- **Neuroprotection**: The review notes that [[TLR-4]] downregulation by creatine may alter PD pathology and inhibit [[Neuronal Death|neuronal death]].
+- **Neuroprotection**: The review notes that [[TLR4]] downregulation by creatine may alter PD pathology and inhibit [[Neuronal Death|neuronal death]].
 - **Large trial**: The Bender et al. multicenter study (creatine 9.5 g/day, up to 5 years; n=1687 across PD, HD, ALS) found no significant improvement in PD outcomes.
 
 ## COMT and Treatment
@@ -144,7 +144,7 @@ Parkinson's disease is the most common movement disorder of older adults. Sirtui
 - [[Levodopa]]: The primary medication used to treat Parkinson's symptoms
 - [[COMT Inhibitors]]: Medications used to prevent the breakdown of dopamine and levodopa
 - [[Substantia Nigra]]: Degenerating nucleus in PD
-- [[TLR-4]]: Creatine modulates in PD pathology
+- [[TLR4]]: Creatine modulates in PD pathology
 - [[Neuronal Death]]: Target of creatine protection
 - [[Oxidative Stress]] / [[Mitochondrial Dysfunction]]: Key mechanisms in PD pathogenesis
 - [[Creatine Supplementation]]: Supportive; mixed trial results
@@ -162,6 +162,6 @@ Parkinson's disease is the most common movement disorder of older adults. Sirtui
 
 ## Linking Summary
 
-- New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Neuroinflammation]], [[Alpha-synuclein]], [[IL-6]], [[IL-1α]], [[Neurodegenerative Diseases]], [[Dopamine]], [[Substantia Nigra]], [[Tremor]], [[Rigidity]], [[Bradykinesia]], [[Cognitive Decline]], [[Depression]], [[Synuclein]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Energy Metabolism]], [[TLR-4]], [[Neuronal Death]], [[Creatine Supplementation]], [[Resistance Training]], [[Amyotrophic Lateral Sclerosis (ALS)]], [[Huntington's Disease (HD)]], [[TFEB]], [[Autophagic Flux]], [[Autophagy]], [[Mitophagy]], [[COMT Inhibitors]], [[Disease Modeling]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]], [[Advanced Glycation End Products]], [[Neurodegeneration]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[NAD+]]
+- New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Neuroinflammation]], [[Alpha-synuclein]], [[IL-6]], [[IL-1α]], [[Neurodegenerative Diseases]], [[Dopamine]], [[Substantia Nigra]], [[Tremor]], [[Rigidity]], [[Bradykinesia]], [[Cognitive Decline]], [[Depression]], [[Synuclein]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Energy Metabolism]], [[TLR4]], [[Neuronal Death]], [[Creatine Supplementation]], [[Resistance Training]], [[Amyotrophic Lateral Sclerosis (ALS)]], [[Huntington's Disease (HD)]], [[TFEB]], [[Autophagic Flux]], [[Autophagy]], [[Mitophagy]], [[COMT Inhibitors]], [[Disease Modeling]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]], [[Advanced Glycation End Products]], [[Neurodegeneration]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[NAD+]]
 - Suggested new entity notes to create: [[Dopamine Neuron]], [[Dopamine Agonists]], [[Dopaminergic Neurons]], [[Dyskinesia]], [[Resting Tremor]]
-- Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Parkinson's Disease]] ↔ [[Creatine Supplementation]], [[Parkinson's Disease]] ↔ [[Dopamine]], [[Parkinson's Disease]] ↔ [[TLR-4]], [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] ↔ [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ [[Substantia Nigra]], [[SIRT1]] ↔ [[Parkinson's Disease]], [[SIRT2]] ↔ [[Parkinson's Disease]]
+- Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Parkinson's Disease]] ↔ [[Creatine Supplementation]], [[Parkinson's Disease]] ↔ [[Dopamine]], [[Parkinson's Disease]] ↔ [[TLR4]], [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] ↔ [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ [[Substantia Nigra]], [[SIRT1]] ↔ [[Parkinson's Disease]], [[SIRT2]] ↔ [[Parkinson's Disease]]

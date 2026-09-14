@@ -435,6 +435,35 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
     )
 
 
+def dataset_counts(web_data_dir: Path) -> dict:
+    """Per-dataset node/edge counts for the view-mode slider.
+
+    The slider in web/index.html shows counts for all three datasets, but the
+    app only downloads the active one — so the counts ride inside version.json
+    (already fetched at startup) instead of a separate file. Missing files
+    yield null (app keeps its hardcoded fallback)."""
+    web_data_dir = Path(web_data_dir)
+
+    def count(prefix: str) -> dict:
+        nodes_p = web_data_dir / f"{prefix}nodes.json"
+        edges_p = web_data_dir / f"{prefix}edges.json"
+        try:
+            nodes = len(json.loads(nodes_p.read_text(encoding="utf-8")))
+        except Exception:
+            nodes = None
+        try:
+            edges = len(json.loads(edges_p.read_text(encoding="utf-8")))
+        except Exception:
+            edges = None
+        return {"nodes": nodes, "edges": edges}
+
+    return {
+        "triples": count("triples-"),
+        "wiki": count("wiki-"),
+        "combined": count(""),
+    }
+
+
 def write_web_version(web_data_dir: Path) -> None:
     """Recompute web/public/data/version.json content hash over all data files.
 
@@ -450,12 +479,14 @@ def write_web_version(web_data_dir: Path) -> None:
         h.update(p.name.encode("utf-8"))
         h.update(p.read_bytes())
     data_hash = h.hexdigest()[:16]
+    datasets = dataset_counts(web_data_dir)
     (web_data_dir / "version.json").write_text(
         json.dumps(
             {"generated": time.strftime("%Y-%m-%d %H:%M:%S"), "hash": data_hash,
+             "datasets": datasets,
              "files": [p.name for p in files]},
             ensure_ascii=False, indent=2,
         ),
         encoding="utf-8",
     )
-    print(f"Wrote web/public/data/version.json (hash {data_hash}, {len(files)} files)")
+    print(f"Wrote web/public/data/version.json (hash {data_hash}, {len(files)} files, {datasets})")

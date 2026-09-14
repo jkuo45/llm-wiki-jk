@@ -16,6 +16,7 @@ aliases:
   - SHP-1
   - SH2 domain-containing phosphatase 1
   - Hematopoietic phosphatase
+  - Tyrosine phosphatase-6
 ---
 
 # SHP1
@@ -41,12 +42,16 @@ SHP1 contains two N-terminal SH2 domains that mediate recruitment to phosphotyro
 - **Autoimmunity**: Loss-of-function mutations in SHP1 cause autoimmune-like inflammation in mice (motheaten mice) and potentially in humans.
 - **Therapeutic Potential**: Demethylating agents that restore SHP1 expression or small molecules that activate SHP1 could sensitize tumors to death ligand therapy.
 
+- **RIPK1 dephosphorylation.** Tyrosine phosphatase-6 (SHP1/[[PTPN6]]) dephosphorylates tyrosine residues on the [[RIPK1]] protein, gating necroptosis in tumors and inflammatory disease.
+
 ## Documents
 
 - [[task_output_caspase_01_JUN_2026|Molecular Mechanisms of Caspase and Bcl-2 Family Regulation]]
   - Details SHP1 as the phosphatase that dephosphorylates Caspase-8 at Tyr380, restoring apoptotic sensitivity and opposing Src-mediated inhibition.
 
 ## Connections
+
+- [[RIPK1]] — SHP1 dephosphorylates RIPK1 tyrosine residues
 
 - [[Caspase-8]] — SHP1 dephosphorylates Caspase-8 at Tyr380, restoring its pro-apoptotic function
 - [[Src]] — Kinase whose phosphorylation of Caspase-8 is reversed by SHP1

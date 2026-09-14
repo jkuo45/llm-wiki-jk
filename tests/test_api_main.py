@@ -22,6 +22,9 @@ def api_env(tmp_path, monkeypatch, client):
     monkeypatch.setattr(go, "_NAME_TO_NODE", None)
     monkeypatch.setattr(go, "_METRICS_CACHE", None)
     monkeypatch.setattr(go, "GRAPH_PATH", tmp_path / "graph.json")
+    monkeypatch.setattr(go, "_COMBINED_CACHE", {})
+    monkeypatch.setattr(go, "COMBINED_NODES_PATH", tmp_path / "nodes.json")
+    monkeypatch.setattr(go, "COMBINED_EDGES_PATH", tmp_path / "edges.json")
 
     (tmp_path / "notes").mkdir()
     (tmp_path / "tasks").mkdir()
@@ -66,8 +69,21 @@ class TestHealth:
         monkeypatch.setattr(prompts_mod, "opencode_health", healthy)
         body = api_env.get("/v1/health").json()
         assert body["status"] == "ok"
+        # no combined dataset in tmp -> falls back to triples graph
         assert body["nodes"] == 5 and body["edges"] == 4
         assert body["opencode"] == {"status": "ok", "version": "1.18.5"}
+
+    def test_combined_counts(self, api_env, monkeypatch, tmp_path):
+        async def healthy():
+            return {"version": "1.18.5"}
+
+        monkeypatch.setattr(prompts_mod, "opencode_health", healthy)
+        (tmp_path / "nodes.json").write_text(
+            json.dumps([{"id": str(i)} for i in range(7)]))
+        (tmp_path / "edges.json").write_text(
+            json.dumps([{"from": "0", "to": "1"} for _ in range(9)]))
+        body = api_env.get("/v1/health").json()
+        assert body["nodes"] == 7 and body["edges"] == 9
 
     def test_degraded_without_opencode(self, api_env, monkeypatch):
         async def down():

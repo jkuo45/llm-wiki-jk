@@ -49,7 +49,7 @@ The SASP plays a context-dependent dual role in the liver:
 
 ### TLR2 and Innate Immune Sensing
 
-[[Toll-like Receptor 2|TLR2]] on HSC recognizes both [[Lipoteichoic Acid|lipoteichoic acid (LTA)]] from gram-positive bacteria (translocated due to obesity-related gut permeability) and [[DAMP|damage-associated molecular patterns (DAMPs)]] such as serum amyloid A. TLR2 signaling through NF-κB induces SASP factor expression, further promoting obesity-associated HCC (Loo et al., 2017, *Cancer Discov* 7:522-538).
+[[TLR2]] on HSC recognizes both [[Lipoteichoic Acid|lipoteichoic acid (LTA)]] from gram-positive bacteria (translocated due to obesity-related gut permeability) and [[DAMP|damage-associated molecular patterns (DAMPs)]] such as serum amyloid A. TLR2 signaling through NF-κB induces SASP factor expression, further promoting obesity-associated HCC (Loo et al., 2017, *Cancer Discov* 7:522-538).
 
 ### Therapeutic Implications
 
@@ -113,11 +113,11 @@ List of documents that mention this entity
 - [[Gut Microbiome]]: Obesity-altered microbiota produce DCA, driving the senescence-SASP-HCC axis.
 - [[COX-2]] / [[Prostaglandin E2]]: Mediates immune suppression in obesity-associated HCC.
 - [[Senolytic]]: Potential therapeutic strategy to eliminate senescent HSC and reduce HCC risk.
-- [[Toll-like Receptor 2]]: Innate immune sensor driving SASP in HSC.
+- [[TLR2]]: Innate immune sensor driving SASP in HSC.
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[p53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
+- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[p53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[TLR2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NF-κB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
 - Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]], [[Therapy-Induced Senescence]], [[Cytoplasmic Chromatin Fragments]]
 - Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]
 

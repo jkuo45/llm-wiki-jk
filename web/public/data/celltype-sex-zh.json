@@ -1,0 +1,348 @@
+{
+  "neuron": {
+    "apoptosis": {
+      "male": "缺血後 caspase-3 活化較低較晚，caspase-8 核轉位較少（Liu 2009；Sharma 2011）。",
+      "female": "caspase-3 活化較高較早，以 caspase-8 核轉位為主；Q-VD-OPh 僅保護雌性（Liu 2009；Stroke 2011）。",
+      "evidence": "strong",
+      "highlight": "female",
+      "vulnerable": "神經元：雌性以 caspase 死亡為主（HI／MCAO）；CA1 最易感。",
+      "detection": "cleaved caspase-3 IHC、TUNEL、MAP2 流失；MTT 呼吸（24 小時飢餓：雄性約 31% vs 雌性約 51%）。"
+    },
+    "parthanatos": {
+      "male": "PAR 生成＋核 AIF 轉位只殺死雄性；PARP-1 缺失、nNOS 阻斷、PJ-34 僅保護雄性（McCullough 2005；Yuan 2009；Du 2004）。",
+      "female": "PARP-1 具保護作用——缺失則轉向 cytochrome-c／caspase，可被 Q-VD-OPh 挽救；雌二醇保護需 PARP-1（Stroke 2011）。",
+      "evidence": "strong",
+      "highlight": "male",
+      "vulnerable": "皮層神經元／星形膠質細胞（中風／MCAO）；雄性深灰質＋白質更重（仔豬 HI）。",
+      "detection": "PAR 聚合物 IHC／Western、核 AIF；約 50-kb 片段（PFGE）。"
+    },
+    "necrosis": {
+      "male": "新生兒 HI 後壞死性神經元較多（仔豬全腦 HI，雄性壞死 p<0.0001；Alonso-Alconada 2025）。",
+      "female": "同模型中壞死少於雄性；但兩性皆以壞死為主要形態。",
+      "evidence": "single",
+      "highlight": "male"
+    },
+    "necroptosis": {
+      "male": "尚無神經元性別差異的直接證據。",
+      "female": "尚無神經元性別差異的直接證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "神經元高度易感（富含 PUFA、高鐵）；尚無神經元特異的性別差異證據。",
+      "female": "尚無神經元特異的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "神經元 Atg7 缺失使 HI 組織損傷減少（約 −42%）；飢餓下 XY 神經元死亡更多（MTT 約 31% vs 51%；Du 2009）。",
+      "female": "XX 神經元以脂滴抵抗飢餓；抑制 Atg7 可阻斷神經元飢餓死亡（Du 2009）。",
+      "evidence": "single",
+      "highlight": "female"
+    },
+    "pyroptosis": {
+      "male": "MCAO 後神經元 NLRP3 上調伴隨凋亡增加；雌雄差異未直接定量。",
+      "female": "E2／ERβ 抑制全腦缺血後海馬 NLRP3→IL-1β；OVX 活化、E2 逆轉（Thakkar 2016；Xu 2016）。",
+      "evidence": "single",
+      "highlight": "female"
+    },
+    "panoptosis": {
+      "male": "尚無神經元特異的性別資料；PANoptosome 將繞過單臂選擇。",
+      "female": "尚無神經元特異的性別資料。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "不適用——無核紅血球程序，不適用於神經元。",
+      "female": "不適用——無核紅血球程序，不適用於神經元。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "netosis": {
+      "male": "不適用——嗜中性球專屬程序，不適用於神經元。",
+      "female": "不適用——嗜中性球專屬程序，不適用於神經元。",
+      "evidence": "nodata",
+      "highlight": null
+    }
+  },
+  "macrophage": {
+    "apoptosis": {
+      "male": "雄性來源 BMDM 的 TNF-α／IL-1β 誘導較低；睪固酮抑制 IL-1β 產量但不改變 M1 極化（IJMS 2024）。",
+      "female": "雌性來源 BMDM 對刺激更敏感（TNF-α／IL-1β 與 Fizz1／Ym1 較高）；E2 抑制 IL-1β 並促進抗發炎轉向（IJMS 2024）。",
+      "evidence": "single",
+      "highlight": "female",
+      "vulnerable": "BMDM：雌性來源對刺激更敏感。",
+      "detection": "cleaved caspase-3／IL-1β qPCR＋微珠免疫分析；極化標誌（iNOS／TNF vs Arg1／Fizz1／Ym1）。"
+    },
+    "parthanatos": {
+      "male": "尚無巨噬細胞特異的 PARP-1／AIF 性別差異證據。",
+      "female": "尚無巨噬細胞特異的 PARP-1／AIF 性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necrosis": {
+      "male": "尚無巨噬細胞意外性壞死的性別差異證據。",
+      "female": "尚無巨噬細胞意外性壞死的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necroptosis": {
+      "male": "RIPK3–MLKL 可在巨噬細胞中執行，但尚無性別差異資料。",
+      "female": "尚無巨噬細胞壞死性凋亡的性別差異資料。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "尚無巨噬細胞鐵死亡的性別差異證據。",
+      "female": "尚無巨噬細胞鐵死亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "E2 經 RelB 抑制促進訓練免疫 M1 極化；OVX／雄性訓練反應較弱（Front Immunol 2020）。",
+      "female": "雌性 β-glucan 訓練免疫更強，脾臟 M1 巨噬細胞更多；E2 驅動此效應（Front Immunol 2020）。",
+      "evidence": "single",
+      "highlight": "female"
+    },
+    "pyroptosis": {
+      "male": "ERβ 基調較低→NLRP3 組裝、Casp1 p10／GSDMD-N、IL-1β／IL-18 及 LDH 釋放更多；雄性敗血症易感性較高（JCI 2026；Metabolism 2024）。",
+      "female": "E2／ERβ 抑制 NLRP3→IL-1β（肺／腦 OVX 模型；Liu 2019；Thakkar 2016；Xu 2016）；ERβ 缺失驅動巨噬細胞焦亡並惡化細菌清除（JCI 2026）。",
+      "evidence": "strong",
+      "highlight": "male",
+      "vulnerable": "巨噬細胞／小膠質細胞——典型執行者（BMDM、肺泡、結腸、腹腔）。",
+      "detection": "Casp1 p10、GSDMD-N、ASC specks、IL-1β／IL-18＋LDH；VX-765 挽救試驗。"
+    },
+    "panoptosis": {
+      "male": "巨噬細胞是嚴重感染中 PANoptosis 的典型執行者，但尚無性別差異證據。",
+      "female": "尚無巨噬細胞 PANoptosis 的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "不適用——無核紅血球程序，不適用於巨噬細胞。",
+      "female": "不適用——無核紅血球程序，不適用於巨噬細胞。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "netosis": {
+      "male": "巨噬細胞不執行 NETosis；NET 組蛋白／DNA 可活化巨噬細胞 NLRP3（交互作用，無性別差異）。",
+      "female": "同上——為反應者而非執行者；尚無性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    }
+  },
+  "fibroblast": {
+    "apoptosis": {
+      "male": "24 小時飢餓下 XY 纖維母細胞 PI＋死亡多於 XX（Du 2009）；rotenone＞0.1µM 誘導 MRC-5 凋亡但未做性別比較（Marthandan 2015）。",
+      "female": "XX 纖維母細胞較耐飢餓（與神經元同方向）；雌性細胞整體較耐氧化壓力（Tower 2020）。",
+      "evidence": "single",
+      "highlight": "male",
+      "vulnerable": "纖維母細胞：24 小時飢餓 XY＞XX PI＋死亡（Du 2009）。",
+      "detection": "PI 標記 ± 3-MA／Atg7 siRNA（飢餓）；rotenone 凋亡以 p38 磷酸化判定。"
+    },
+    "parthanatos": {
+      "male": "尚無纖維母細胞特異的 PARP-1／AIF 性別差異證據。",
+      "female": "尚無纖維母細胞特異的 PARP-1／AIF 性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necrosis": {
+      "male": "尚無纖維母細胞意外性壞死的性別差異證據。",
+      "female": "尚無纖維母細胞意外性壞死的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necroptosis": {
+      "male": "尚無纖維母細胞壞死性凋亡的性別差異證據。",
+      "female": "尚無纖維母細胞壞死性凋亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "尚無纖維母細胞鐵死亡的性別差異證據。",
+      "female": "尚無纖維母細胞鐵死亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "抑制 Atg7 使 XY 纖維母細胞飢餓死亡增加（保護性角色）——與神經元相反（Du 2009）。",
+      "female": "XX 纖維母細胞同為保護性方向（Atg7 缺失惡化 24 小時死亡）；E2／ERβ 在纖維母細胞樣滑膜細胞中抑制 NLRP3（不同情境）。",
+      "evidence": "single",
+      "highlight": "female",
+      "vulnerable": "纖維母細胞依賴保護性自噬（Atg7 缺失惡化死亡）——與神經元相反。",
+      "detection": "LC3 通量 ± bafilomycin；Atg7 siRNA 試驗（死亡增加＝保護性角色）。"
+    },
+    "pyroptosis": {
+      "male": "尚無纖維母細胞焦亡的性別差異證據。",
+      "female": "尚無纖維母細胞焦亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "panoptosis": {
+      "male": "尚無纖維母細胞 PANoptosis 資料。",
+      "female": "尚無纖維母細胞 PANoptosis 資料。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "不適用——無核紅血球程序，不適用於纖維母細胞。",
+      "female": "不適用——無核紅血球程序，不適用於纖維母細胞。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "netosis": {
+      "male": "不適用——嗜中性球專屬程序，不適用於纖維母細胞。",
+      "female": "不適用——嗜中性球專屬程序，不適用於纖維母細胞。",
+      "evidence": "nodata",
+      "highlight": null
+    }
+  },
+  "rbc": {
+    "apoptosis": {
+      "male": "不適用——無核，無 caspase 級聯可分性別。",
+      "female": "不適用——無核，無 caspase 級聯可分性別。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "parthanatos": {
+      "male": "不適用——無細胞核，PARP-1／AIF 軸無法作用。",
+      "female": "不適用——無細胞核，PARP-1／AIF 軸無法作用。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "necrosis": {
+      "male": "紅血球以溶血而非腫脹爆裂死亡；尚無性別差異證據。",
+      "female": "同上——溶血，尚無性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "necroptosis": {
+      "male": "不適用——紅血球無 RIPK3／MLKL 機制。",
+      "female": "不適用——紅血球無 RIPK3／MLKL 機制。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "ferroptosis": {
+      "male": "與鐵死亡共享脂質過氧化觸發因子，但尚無紅血球性別差異證據。",
+      "female": "尚無紅血球性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "autophagy": {
+      "male": "不適用——無胞器可經自噬清除。",
+      "female": "不適用——無胞器可經自噬清除。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "pyroptosis": {
+      "male": "不適用——紅血球無發炎體／GSDMD 程序。",
+      "female": "不適用——紅血球無發炎體／GSDMD 程序。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "panoptosis": {
+      "male": "不適用——不適用於紅血球。",
+      "female": "不適用——不適用於紅血球。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    },
+    "eryptosis": {
+      "male": "Ca2+ 內流→calpain／scramblase→PS 外翻；觸發因子為氧化／滲透／能量耗竭／神經醯胺。尚無性別速率差異證據。",
+      "female": "觸發因子相同；E2 對變形能力有影響的報告，但非紅細胞凋亡速率本身——尚無性別差異證據。",
+      "evidence": "single",
+      "highlight": null,
+      "vulnerable": "僅紅血球（Ca2+／氧化／滲透壓力、CKD、敗血症）。",
+      "detection": "Annexin V＋、Fluo-3 Ca2+、前向散射縮小、神經醯胺染色。"
+    },
+    "netosis": {
+      "male": "不適用——嗜中性球專屬程序，不適用於紅血球。",
+      "female": "不適用——嗜中性球專屬程序，不適用於紅血球。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——需細胞核／粒線體或白血球機制。",
+      "detection": "不適用——需細胞核／粒線體的檢測不適用於紅血球。"
+    }
+  },
+  "neutrophil": {
+    "apoptosis": {
+      "male": "現有資料中嗜中性球組成性凋亡未見性別差異。",
+      "female": "尚無嗜中性球凋亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "parthanatos": {
+      "male": "尚無嗜中性球 PARP-1／AIF 性別差異證據。",
+      "female": "尚無嗜中性球 PARP-1／AIF 性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necrosis": {
+      "male": "尚無嗜中性球意外性壞死的性別差異證據。",
+      "female": "尚無嗜中性球意外性壞死的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necroptosis": {
+      "male": "尚無嗜中性球壞死性凋亡的性別差異證據。",
+      "female": "尚無嗜中性球壞死性凋亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "尚無嗜中性球鐵死亡的性別差異證據。",
+      "female": "尚無嗜中性球鐵死亡的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "尚無嗜中性球自噬的性別差異證據。",
+      "female": "尚無嗜中性球自噬的性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "pyroptosis": {
+      "male": "NET 組蛋白活化巨噬細胞 NLRP3；嗜中性球側尚無性別差異證據。",
+      "female": "交互作用方向相同；尚無嗜中性球側性別差異證據。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "panoptosis": {
+      "male": "尚無嗜中性球 PANoptosis 性別資料。",
+      "female": "尚無嗜中性球 PANoptosis 性別資料。",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "不適用——紅血球專屬程序，不適用於嗜中性球。",
+      "female": "不適用——紅血球專屬程序，不適用於嗜中性球。",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "不適用——紅血球專屬程序。",
+      "detection": "不適用於嗜中性球。"
+    },
+    "netosis": {
+      "male": "部分感染／心血管模型中雄性 NET 負擔較高（具情境依賴性）；PAD4→cit-H3→釋放為核心機制（Thiam 2020）。",
+      "female": "E2 雙向作用：多個活體模型中抑制 NET，但在體外經 GPR30 增強 A23187 誘導的 NETosis（Yasuda 2019）——具刺激依賴性，無細胞自主 XX／XY 範式。",
+      "evidence": "single",
+      "highlight": null,
+      "vulnerable": "僅嗜中性球（病原、免疫複合物）；自殺型（2–4 小時、破裂）vs 存活型（數分鐘、保膜）。",
+      "detection": "Sytox Green 胞外 DNA、cit-H3、MPO–DNA 複合物；PAD4 抑制（Cl-amidine）／DNase 試驗。"
+    }
+  }
+}

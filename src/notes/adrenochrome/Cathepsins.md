@@ -26,7 +26,7 @@ Cathepsins are grouped by catalytic mechanism. **Cysteine cathepsins** (B, C, F,
 
 **Prohormone Processing.** Cathepsin L participates in the limited proteolysis of prohormones and neuropeptide precursors within secretory vesicles, contributing to endocrine signaling.
 
-**Apoptosis.** During [[Lysosomal membrane permeabilization]] (LMP), [[Cathepsin B]] and [[Cathepsin D]] are released into the cytosol, where they cleave [[Bid]] to generate truncated Bid (tBid), triggering mitochondrial outer membrane permeabilization and subsequent [[Caspase|caspase]] activation. This lysosomal–mitochondrial apoptotic axis represents a critical cell death pathway under stress conditions.
+**Apoptosis.** During [[Lysosomal membrane permeabilization]] (LMP), [[Cathepsin B]] and [[Cathepsin D]] are released into the cytosol, where they cleave [[Bid]] to generate truncated Bid (tBid), triggering mitochondrial outer membrane permeabilization and subsequent [[Caspases|caspase]] activation. This lysosomal–mitochondrial apoptotic axis represents a critical cell death pathway under stress conditions.
 
 **Autophagy.** In [[Autophagy|autophagic]] flux, cathepsins mediate the degradation of autophagosomal cargo after autophagosome–lysosome fusion, a step essential for quality control of cytoplasmic components and nutrient recycling.
 
@@ -67,5 +67,5 @@ Cathepsins are grouped by catalytic mechanism. **Cysteine cathepsins** (B, C, F,
 ## Linking Summary
 
 - New links added: [[Lysosome]], [[Cathepsin B]], [[Cathepsin D]], [[Apoptosis]], [[Autophagy]], [[Cancer]], [[Extracellular Matrix]], [[Osteoporosis]], [[Atherosclerosis]], [[Inflammation]], [[Collagen]]
-- Suggested new entity notes to create: [[MHC II]], [[Osteoclasts]], [[Bone remodeling]], [[Lysosomal membrane permeabilization]], [[Bid]], [[Caspase]], [[Ceroid lipofuscinosis]], [[Cathepsin K]], [[Cathepsin S]], [[Odanacatib]], [[Antigen processing]], [[Prohormone]], [[Autoimmune disease]], [[Asthma]]
+- Suggested new entity notes to create: [[MHC II]], [[Osteoclasts]], [[Bone remodeling]], [[Lysosomal membrane permeabilization]], [[Bid]], [[Caspases|Caspase]], [[Ceroid lipofuscinosis]], [[Cathepsin K]], [[Cathepsin S]], [[Odanacatib]], [[Antigen processing]], [[Prohormone]], [[Autoimmune disease]], [[Asthma]]
 - Strong connections to strengthen: [[Cathepsins]] ↔ [[Lysosome]], [[Cathepsins]] ↔ [[Apoptosis]], [[Cathepsins]] ↔ [[Cathepsin B]], [[Cathepsins]] ↔ [[Cathepsin D]]

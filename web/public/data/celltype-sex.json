@@ -1,0 +1,348 @@
+{
+  "neuron": {
+    "apoptosis": {
+      "male": "Lower/ later caspase-3 and less caspase-8 nuclear import after ischemia (Liu 2009; Sharma 2011).",
+      "female": "Higher/earlier caspase-3, predominant caspase-8 nuclear import; Q-VD-OPh protects females only (Liu 2009; Stroke 2011).",
+      "evidence": "strong",
+      "highlight": "female",
+      "vulnerable": "Neurons: XX > XY caspase death (HI/MCAO); CA1 most vulnerable.",
+      "detection": "Cleaved caspase-3 IHC, TUNEL, MAP2 loss; MTT respiration (31% XY vs 51% XX at 24h starvation)."
+    },
+    "parthanatos": {
+      "male": "PAR formation + nuclear AIF kill males; PARP-1 deletion, nNOS blockade, PJ-34 protect males only (McCullough 2005; Yuan 2009; Du 2004).",
+      "female": "PARP-1 protective — loss shunts to cytochrome-c/caspase, rescued by Q-VD-OPh; estradiol protection requires PARP-1 (Stroke 2011).",
+      "evidence": "strong",
+      "highlight": "male",
+      "vulnerable": "Cortical neurons/astrocytes (stroke/MCAO); deep gray + white matter in males (piglet HI).",
+      "detection": "PAR polymer IHC/Western, nuclear AIF; ~50-kb fragments (PFGE)."
+    },
+    "necrosis": {
+      "male": "More necrotic neurons after neonatal HI (piglet global HI, males higher necrosis p<0.0001; Alonso-Alconada 2025).",
+      "female": "Less necrosis than males in same HI model; necrosis still the dominant morphology in both sexes.",
+      "evidence": "single",
+      "highlight": "male"
+    },
+    "necroptosis": {
+      "male": "No direct neuron sex-split established.",
+      "female": "No direct neuron sex-split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "Neurons highly vulnerable (PUFA-rich, high iron); no neuron-specific sex split established.",
+      "female": "No neuron-specific sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "Neuronal Atg7 deletion reduces HI tissue loss (~42% vs WT); starvation kills XY neurons more (MTT ~31% vs ~51% of control; Du 2009).",
+      "female": "XX neurons resist starvation via lipid droplets; Atg7 knockdown blocks starvation death in neurons (Du 2009).",
+      "evidence": "single",
+      "highlight": "female"
+    },
+    "pyroptosis": {
+      "male": "Neuronal NLRP3 upregulated after MCAO with higher apoptosis (Franke et al.); male/female split not directly quantified.",
+      "female": "E2/ERβ restrains hippocampal NLRP3→IL-1β after global ischemia; OVX activates, E2 reverses (Thakkar 2016; Xu 2016).",
+      "evidence": "single",
+      "highlight": "female"
+    },
+    "panoptosis": {
+      "male": "No neuron-specific sex data; PANoptosome would bypass single-arm choice.",
+      "female": "No neuron-specific sex data.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "n/a — anucleate RBC program, not applicable to neurons.",
+      "female": "n/a — anucleate RBC program, not applicable to neurons.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "netosis": {
+      "male": "n/a — neutrophil-only program, not applicable to neurons.",
+      "female": "n/a — neutrophil-only program, not applicable to neurons.",
+      "evidence": "nodata",
+      "highlight": null
+    }
+  },
+  "macrophage": {
+    "apoptosis": {
+      "male": "Male-derived BMDMs lower baseline TNF-α/IL-1β induction; testosterone impairs IL-1β output without changing M1 polarization (IJMS 2024).",
+      "female": "Female-derived BMDMs more stimulus-sensitive (higher TNF-α/IL-1β and Fizz1/Ym1); E2 dampens IL-1β and favors anti-inflammatory shift (IJMS 2024).",
+      "evidence": "single",
+      "highlight": "female",
+      "vulnerable": "BMDMs: female-derived more stimulus-sensitive.",
+      "detection": "Cleaved caspase-3/IL-1β qPCR + bead immunoassay; polarization markers (iNOS/TNF vs Arg1/Fizz1/Ym1)."
+    },
+    "parthanatos": {
+      "male": "No macrophage-specific PARP-1/AIF sex split established.",
+      "female": "No macrophage-specific PARP-1/AIF sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necrosis": {
+      "male": "No macrophage-specific accidental-necrosis sex split established.",
+      "female": "No macrophage-specific accidental-necrosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necroptosis": {
+      "male": "RIPK3–MLKL executes in macrophages, but no sex-split data established.",
+      "female": "No sex-split data established for macrophage necroptosis.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "No macrophage-specific ferroptosis sex split established.",
+      "female": "No macrophage-specific ferroptosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "E2 promotes trained-immunity M1 polarization via RelB suppression; OVX/males show weaker trained response (Front Immunol 2020).",
+      "female": "Females mount stronger β-glucan trained immunity with more splenic M1 macrophages; E2 drives the effect (Front Immunol 2020).",
+      "evidence": "single",
+      "highlight": "female"
+    },
+    "pyroptosis": {
+      "male": "Lower ERβ tone → more NLRP3 assembly, Casp1 p10/GSDMD-N, IL-1β/IL-18 and LDH release; males more sepsis-prone (JCI 2026; Metabolism 2024).",
+      "female": "E2/ERβ restrains NLRP3→IL-1β (lung/brain OVX models; Liu 2019; Thakkar 2016; Xu 2016); ERβ loss drives macrophage pyroptosis and worse bacterial clearance (JCI 2026).",
+      "evidence": "strong",
+      "highlight": "male",
+      "vulnerable": "Macrophages/microglia — canonical executors (BMDM, alveolar, colonic, peritoneal).",
+      "detection": "Casp1 p10, GSDMD-N, ASC specks, IL-1β/IL-18 + LDH; VX-765 rescue test."
+    },
+    "panoptosis": {
+      "male": "Macrophages are the canonical PANoptosis executors in severe infection, but no sex split established.",
+      "female": "No sex split established for macrophage PANoptosis.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "n/a — anucleate RBC program, not applicable to macrophages.",
+      "female": "n/a — anucleate RBC program, not applicable to macrophages.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "netosis": {
+      "male": "Macrophages do not execute NETosis; NET histones/DNA license macrophage NLRP3 (crosstalk, no sex split).",
+      "female": "Same — responder, not executor; no sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    }
+  },
+  "fibroblast": {
+    "apoptosis": {
+      "male": "XY fibroblasts more PI+ death after 24h starvation than XX (Du 2009); rotenone >0.1µM induces apoptosis in MRC-5 but not sex-compared (Marthandan 2015).",
+      "female": "XX fibroblasts resist starvation better (same direction as neurons); female cells generally more oxidative-stress resistant (Tower 2020).",
+      "evidence": "single",
+      "highlight": "male",
+      "vulnerable": "Fibroblasts: XY > XX PI+ death at 24h starvation (Du 2009).",
+      "detection": "PI labeling ± 3-MA/Atg7 siRNA (starvation); p38 phosphorylation for rotenone apoptosis."
+    },
+    "parthanatos": {
+      "male": "No fibroblast-specific PARP-1/AIF sex split established.",
+      "female": "No fibroblast-specific PARP-1/AIF sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necrosis": {
+      "male": "No fibroblast accidental-necrosis sex split established.",
+      "female": "No fibroblast accidental-necrosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necroptosis": {
+      "male": "No fibroblast necroptosis sex split established.",
+      "female": "No fibroblast necroptosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "No fibroblast ferroptosis sex split established.",
+      "female": "No fibroblast ferroptosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "Atg7 knockdown increases starvation death in XY fibroblasts (protective role) — opposite to neurons where it rescues (Du 2009).",
+      "female": "Same protective direction in XX fibroblasts (Atg7 loss worsens 24h death); E2/ERβ suppresses NLRP3 in fibroblast-like synoviocytes (separate context).",
+      "evidence": "single",
+      "highlight": "female",
+      "vulnerable": "Fibroblasts rely on protective autophagy (Atg7 loss worsens death) — opposite to neurons.",
+      "detection": "LC3 flux ± bafilomycin; Atg7 siRNA test (death increases = protective role)."
+    },
+    "pyroptosis": {
+      "male": "No fibroblast pyroptosis sex split established.",
+      "female": "No fibroblast pyroptosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "panoptosis": {
+      "male": "No fibroblast PANoptosis data.",
+      "female": "No fibroblast PANoptosis data.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "n/a — anucleate RBC program, not applicable to fibroblasts.",
+      "female": "n/a — anucleate RBC program, not applicable to fibroblasts.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "netosis": {
+      "male": "n/a — neutrophil-only program, not applicable to fibroblasts.",
+      "female": "n/a — neutrophil-only program, not applicable to fibroblasts.",
+      "evidence": "nodata",
+      "highlight": null
+    }
+  },
+  "rbc": {
+    "apoptosis": {
+      "male": "n/a — anucleate, no caspase cascade to split by sex.",
+      "female": "n/a — anucleate, no caspase cascade to split by sex.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "parthanatos": {
+      "male": "n/a — no nucleus, PARP-1/AIF axis cannot apply.",
+      "female": "n/a — no nucleus, PARP-1/AIF axis cannot apply.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "necrosis": {
+      "male": "RBCs lyse as hemolysis rather than oncosis; no sex split established.",
+      "female": "Same — hemolysis, no sex split established.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "necroptosis": {
+      "male": "n/a — no RIPK3/MLKL machinery in RBCs.",
+      "female": "n/a — no RIPK3/MLKL machinery in RBCs.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "ferroptosis": {
+      "male": "Lipid-peroxidation triggers shared with ferroptosis, but no RBC sex split established.",
+      "female": "No RBC sex split established.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "autophagy": {
+      "male": "n/a — no organelles to clear via autophagy.",
+      "female": "n/a — no organelles to clear via autophagy.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "pyroptosis": {
+      "male": "n/a — no inflammasome/GSDMD program in RBCs.",
+      "female": "n/a — no inflammasome/GSDMD program in RBCs.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "panoptosis": {
+      "male": "n/a — not applicable to RBCs.",
+      "female": "n/a — not applicable to RBCs.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    },
+    "eryptosis": {
+      "male": "Ca2+ influx → calpain/scramblase → PS exposure; triggers oxidative/osmotic/energy-depletion/ceramide. No verified sex bias in rate (reviews: Pretorius 2016; Lang reviews).",
+      "female": "Same triggers; E2 effects on deformability reported, not on eryptosis rate itself — no sex split established.",
+      "evidence": "single",
+      "highlight": null,
+      "vulnerable": "RBCs only (Ca2+/oxidative/osmotic stress, CKD, sepsis).",
+      "detection": "Annexin V+, Fluo-3 Ca2+, forward-scatter shrinkage, ceramide staining."
+    },
+    "netosis": {
+      "male": "n/a — neutrophil-only program, not applicable to RBCs.",
+      "female": "n/a — neutrophil-only program, not applicable to RBCs.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a RBCs — program requires nucleus/mitochondria or leukocyte machinery.",
+      "detection": "n/a in RBCs — assays requiring nuclei/mitochondria do not apply."
+    }
+  },
+  "neutrophil": {
+    "apoptosis": {
+      "male": "Neutrophil constitutive apoptosis not sex-split in available data.",
+      "female": "No sex split established for neutrophil apoptosis.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "parthanatos": {
+      "male": "No neutrophil PARP-1/AIF sex split established.",
+      "female": "No neutrophil PARP-1/AIF sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necrosis": {
+      "male": "No neutrophil accidental-necrosis sex split established.",
+      "female": "No neutrophil accidental-necrosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "necroptosis": {
+      "male": "No neutrophil necroptosis sex split established.",
+      "female": "No neutrophil necroptosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "ferroptosis": {
+      "male": "No neutrophil ferroptosis sex split established.",
+      "female": "No neutrophil ferroptosis sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "autophagy": {
+      "male": "No neutrophil autophagy sex split established.",
+      "female": "No neutrophil autophagy sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "pyroptosis": {
+      "male": "NET histones license macrophage NLRP3; neutrophil-side sex split not established.",
+      "female": "Same crosstalk direction; no neutrophil-side sex split established.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "panoptosis": {
+      "male": "No neutrophil PANoptosis sex data.",
+      "female": "No neutrophil PANoptosis sex data.",
+      "evidence": "nodata",
+      "highlight": null
+    },
+    "eryptosis": {
+      "male": "n/a — RBC-only program, not applicable to neutrophils.",
+      "female": "n/a — RBC-only program, not applicable to neutrophils.",
+      "evidence": "nodata",
+      "highlight": null,
+      "vulnerable": "n/a — RBC-only program.",
+      "detection": "n/a in neutrophils."
+    },
+    "netosis": {
+      "male": "Higher NET burden in males in some infection/CV models (context-dependent); PAD4→cit-H3→extrusion core machinery (Thiam 2020).",
+      "female": "Bidirectional E2: restrains NETs in several in vivo models, but E2/GPR30 agonist enhances A23187-induced NETosis in vitro (Yasuda 2019) — stimulus-dependent, no cell-autonomous XX/XY paradigm.",
+      "evidence": "single",
+      "highlight": null,
+      "vulnerable": "Neutrophils only (pathogens, immune complexes); suicidal (2–4h, ruptures) vs vital (minutes, membrane kept).",
+      "detection": "Sytox Green extracellular DNA, cit-H3, MPO–DNA complexes; PAD4 inhibition (Cl-amidine)/DNase test."
+    }
+  }
+}

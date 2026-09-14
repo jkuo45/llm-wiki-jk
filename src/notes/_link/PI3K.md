@@ -27,6 +27,8 @@ aliases: []
 
 # 
 
+**Necroptosis regulation.** The PI3K/Akt pathway suppresses [[RIPK1]]-dependent necroptosis by phosphorylating and inhibiting [[RIPK1]] kinase activity in tumors, systemic inflammation, and myocardial ischemia/reperfusion injury.
+
 ## Documents
 
 List of documents that mention this entity
@@ -59,6 +61,8 @@ List of documents that mention this entity
     - PI3K is a core node of the mTOR-PI3K cascade modeled in the rapamycin-hormesis study; its activation of [[mTORC2]] (and inactivation by [[PTEN]]) forms one branch of the [[Incoherent Bivalent Motif]] centered on [[mTORC1]].
 
 ## Connections
+
+- [[RIPK1]] — PI3K/Akt phosphorylates and inhibits RIPK1
 - [[mTORC2]] — PI3K activates mTORC2, the Output of the rapamycin incoherent bivalent loop
 - [[Incoherent Bivalent Motif]] — PI3K is one branch of the mTORC1-centered motif
 - [[Biphasic Dose-Response Curve]] — PI3K's role in generating rapamycin hormesis

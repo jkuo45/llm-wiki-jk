@@ -1,0 +1,891 @@
+{
+  "version": "hormetic-range-v1",
+  "domains": [
+    {
+      "id": "radiation",
+      "num": "01",
+      "title": "Low-Dose Radiation",
+      "badge": "contested",
+      "desc": "LDR activates ATM → p53 → DNA repair → FOXO → antioxidant defense. Ramsar residents: up to 260 mSv/yr with no increased DNA damage. Regulatory LNT model blocks clinical translation.",
+      "sensors": [
+        "ATM",
+        "p53",
+        "NF-κB"
+      ],
+      "effectors": [
+        "DNA repair (BRCA1, GADD45)",
+        "CD69⁺ T cells",
+        "NRF2/ARE enzymes"
+      ],
+      "avoid": [
+        "Chronic high-dose LDR",
+        "LNT model zero-tolerance framing"
+      ],
+      "zoneLabel": [
+        "None",
+        "Priming",
+        "Hormetic",
+        "Adaptive",
+        "Caution",
+        "Excess"
+      ],
+      "zoneRange": "Below background → ~10 cGy → 10–100 mSv",
+      "guidance": {
+        "low": "Background radiation exposure is hormetically negligible for most people. Consider that natural background variation (2–10 mSv/yr globally, up to 260 mSv/yr in Ramsar) is well within evolutionary exposure ranges. No deliberate dosing is recommended — the hormetic window for radiation is narrow and the data is contested.",
+        "mid": "You are within natural background exposure ranges. The ATM → DNA repair cascade is tonically active. No deliberate supplementation needed — this domain is best served by avoiding unnecessary radiation (CT scans, etc.) while recognizing that natural background exposure is not harmful.",
+        "high": "The data for deliberate LDR hormesis is contested. The LNT model, while potentially conservative, remains the regulatory standard. Chronic elevated exposure beyond natural background has not been shown to confer benefit in controlled human studies. Consider focusing hormetic practice on better-evidenced domains."
+      }
+    },
+    {
+      "id": "ros",
+      "num": "02",
+      "title": "ROS Signaling / Exercise",
+      "badge": "strong",
+      "desc": "Exercise-generated ROS at moderate levels orchestrate mitochondrial biogenesis, antioxidant defense, and metabolic regulation. High-dose antioxidant supplements block these benefits — identical to the metformin/antioxidant paradox.",
+      "sensors": [
+        "AMPK",
+        "NRF2",
+        "PGC-1α"
+      ],
+      "effectors": [
+        "Mitochondrial biogenesis",
+        "Endogenous SOD/catalase/GPx induction",
+        "TFEB → lysosomal biogenesis"
+      ],
+      "avoid": [
+        "High-dose antioxidant co-supplementation during exercise",
+        "Chronic maximal ROS scavenging"
+      ],
+      "zoneLabel": [
+        "Sedentary",
+        "Light",
+        "Moderate",
+        "Hormetic",
+        "Intense",
+        "Overtraining"
+      ],
+      "zoneRange": "No exercise → moderate aerobic → high-intensity interval",
+      "guidance": {
+        "low": "Sedentary behavior is the most significant hormetic deficit for most people. The exercise → mitochondrial ROS → AMPK → PGC-1α cascade is the best-characterized mitohormetic pathway. Start with 150 min/week moderate aerobic activity. Avoid antioxidant co-supplementation (vitamin C/E) around workouts — it blunts the adaptive signal.",
+        "mid": "Good mitochondrial hormetic practice. Maintain moderate-to-vigorous activity. Add 1–2 HIIT sessions/week to push the AMPK/PGC-1α response. Avoid chronic antioxidant supplements around exercise windows. If using metformin, note that antioxidant co-administration attenuates its longevity benefits.",
+        "high": "Chronic overtraining can exceed the hormetic window, producing excessive ROS that overwhelms antioxidant capacity. Signs: persistent fatigue, elevated resting HR, frequent illness. Periodize training with recovery weeks. The MnSOD acetylation dial lesson: activity must cycle inside a window, not be locked permanently on."
+      }
+    },
+    {
+      "id": "inflammation",
+      "num": "03",
+      "title": "Inflammation / EIMD",
+      "badge": "strong",
+      "desc": "Acute inflammation drives tissue repair. NSAIDs impair satellite cell proliferation and the repeated bout effect. The repeated bout effect = tissue-level hormetic memory: neural, architectural, and molecular adaptation.",
+      "sensors": [
+        "NF-κB",
+        "TNF-α",
+        "IL-6 (myokine)"
+      ],
+      "effectors": [
+        "Satellite cell proliferation",
+        "Muscle regeneration",
+        "Repeated bout adaptation"
+      ],
+      "avoid": [
+        "Post-exercise NSAID use",
+        "Blunting acute fever during mild infection"
+      ],
+      "zoneLabel": [
+        "None",
+        "Mild DOMS",
+        "Moderate EIMD",
+        "Hormetic",
+        "Severe EIMD",
+        "Rhabdomyolysis"
+      ],
+      "zoneRange": "No muscle stress → eccentric training → unaccustomed overload",
+      "guidance": {
+        "low": "If you never experience delayed-onset muscle soreness (DOMS) or avoid all inflammatory responses, you are missing a key adaptive signal. Eccentric exercise (downhill running, slow negatives) triggers TNF-α → satellite cell activation. NSAIDs taken post-exercise inhibit this pathway — reserve them for genuine injury, not routine soreness.",
+        "mid": "Good inflammatory hormetic practice. Progressive eccentric loading provides the repeated bout effect — each exposure makes the next less damaging. Avoid routine NSAID use around workouts. If you get mild fevers during infections, consider that fever enhances T cell proliferation and pathogen clearance before reaching for antipyretics.",
+        "high": "Severe, unrelenting inflammation exits the hormetic window into inflammaging. Chronic muscle damage without recovery, persistent high CRP, or autoimmune flare are NOT hormetic — they are pathological. The key distinction: acute, recoverable, and stage-dependent = adaptive; chronic, overwhelming, and persistent = maladaptive."
+      }
+    },
+    {
+      "id": "hypoxia",
+      "num": "04",
+      "title": "Intermittent Hypoxia",
+      "badge": "emerging",
+      "desc": "Controlled intermittent mild hypoxia → HIF-1α → EPO, VEGF, BDNF, mitochondrial ROS → AMPK → PGC-1α. Improves cognition in older adults across 7 studies. Converges with the mitohormetic cascade almost exactly.",
+      "sensors": [
+        "HIF-1α",
+        "AMPK",
+        "SIRT1"
+      ],
+      "effectors": [
+        "EPO (erythropoiesis)",
+        "VEGF (angiogenesis)",
+        "BDNF (neuroplasticity)",
+        "BAT activation"
+      ],
+      "avoid": [
+        "Chronic severe hypoxia (stroke, prolonged altitude)",
+        "Uncontrolled sleep apnea"
+      ],
+      "zoneLabel": [
+        "Sea level",
+        "Mild",
+        "Moderate",
+        "Hormetic",
+        "High altitude",
+        "Severe"
+      ],
+      "zoneRange": "Sea level → 2000–3000m intermittent → >5000m chronic",
+      "guidance": {
+        "low": "If you live at low altitude and never experience oxygen deprivation, the HIF-1α pathway is chronically understimulated. Options: altitude training masks (intermittent), exercising in hypoxic conditions, or supervised intermittent hypobaric protocols. The 2026 AIMS Neuroscience review notes cognitive benefits across multiple pilot studies.",
+        "mid": "Good hypoxic hormetic practice. Intermittent altitude training or controlled hypoxic exposure activates HIF-1α → EPO + VEGF + BDNF. Exercise in hypoxic conditions may combine both hormetic stressors. Monitor for excessive fatigue or headache — these indicate you are approaching the threshold.",
+        "high": "Chronic severe hypoxia (uncontrolled sleep apnea, prolonged high altitude without acclimatization) activates HIF-1α chronically, which can become oncogenic (Warburg effect). The adaptive benefit requires intermittent, recoverable exposure. If you have diagnosed sleep apnea, treat it — it is not hormetic."
+      }
+    },
+    {
+      "id": "fasting",
+      "num": "05",
+      "title": "Caloric Stress / Fasting",
+      "badge": "strong",
+      "desc": "Fasting activates AMPK → TFEB → autophagy; BHB induces BDNF via HDAC inhibition; energy deficit IS the signal. The 2025 Nature Communications study showed fasting duration, not just caloric reduction, is the hormetic trigger.",
+      "sensors": [
+        "AMPK",
+        "mTORC1 (inhibition)",
+        "SIRT1",
+        "TFEB"
+      ],
+      "effectors": [
+        "Autophagy (mitophagy, protein aggregate clearance)",
+        "BDNF → hippocampal neurogenesis",
+        "Lysosomal biogenesis",
+        "Circadian clock resetting"
+      ],
+      "avoid": [
+        "Chronic severe caloric deprivation",
+        "Isocaloric time-restricted eating without deficit"
+      ],
+      "zoneLabel": [
+        "Fed",
+        "12h",
+        "16h",
+        "Hormetic",
+        "36h+",
+        "Starvation"
+      ],
+      "zoneRange": "Constant fed → 12–36h intermittent → prolonged starvation",
+      "guidance": {
+        "low": "Constant eating keeps mTORC1 tonically active and autophagy suppressed. Start with 12–14h overnight fasts (e.g., 8pm–8am). Progress to 16:8 time-restricted eating. The 2025 DZD study showed that without caloric deficit, time-restricted eating alone did not improve cardiometabolic health — the metabolic stress component matters.",
+        "mid": "Good fasting hormetic practice. Consider periodic 24–36h fasts for deeper autophagy activation (AMPK → TFEB → lysosomal biogenesis). Alternate-day fasting or 5:2 protocols maintain the metabolic switch between glucose and BHB fuel. Ensure adequate protein on feeding days to avoid excessive muscle catabolism.",
+        "high": "Prolonged fasting (>36h) without medical supervision risks excessive muscle wasting, electrolyte imbalance, and immune suppression. The hormetic benefit requires recovery between fasting bouts — chronic caloric deprivation is starvation, not hormesis. Cycle fasting periods with adequate nutrition."
+      }
+    },
+    {
+      "id": "immune",
+      "num": "06",
+      "title": "Immune / Old Friends",
+      "badge": "strong",
+      "desc": "Microbial exposure trains regulatory T cells (Tregs) and calibrates immune tolerance. Farm children have dramatically lower asthma. Helminth therapy achieved 79% remission in Crohn's. Antibiotic overuse strips training signals.",
+      "sensors": [
+        "TLR signaling",
+        "TGF-β",
+        "IL-25",
+        "TSLP"
+      ],
+      "effectors": [
+        "Treg differentiation",
+        "Tolerogenic dendritic cells",
+        "Th1/Th17 → Th2/Treg skewing"
+      ],
+      "avoid": [
+        "Routine antibiotic overuse",
+        "Complete microbial avoidance",
+        "Over-sanitization of environment"
+      ],
+      "zoneLabel": [
+        "Sterile",
+        "Minimal",
+        "Moderate",
+        "Hormetic",
+        "Diverse",
+        "Pathogenic"
+      ],
+      "zoneRange": "Antibiotic-treated → normal hygiene → farm/diverse exposure",
+      "guidance": {
+        "low": "If you live in a hyper-sanitized environment, use antibiotics frequently, and avoid natural microbial exposure, your Treg education may be deficient. Increase: outdoor play, gardening, pet ownership, fermented foods (kimchi, kefir, sauerkraut), diverse dietary fiber for SCFA production. Practice \"targeted hygiene\" — wash hands after raw meat but encourage environmental microbial diversity.",
+        "mid": "Good microbial diversity. Maintain fermented food intake, diverse plant fiber (SCFA production → GPR41/43 → autophagy), and outdoor exposure. Avoid unnecessary antibiotics — when prescribed, consider probiotic co-administration. The farm protective effect data is strong: diverse microbial exposure → tolerogenic mucosal immune balance.",
+        "high": "Overwhelming pathogenic infection is NOT hormetic. The Old Friends hypothesis is about commensal organisms (saprophytic mycobacteria, helminths, gut commensals), not pathogens. Immunocompromised individuals should follow standard infection prevention. The hormetic window requires training signals, not disease."
+      }
+    },
+    {
+      "id": "thermal",
+      "num": "07",
+      "title": "Heat / Cold Exposure",
+      "badge": "strong",
+      "desc": "Sauna 4–7×/wk → 50% CVD mortality reduction (Laukkanen, n=2,315, 20.7 yr). Cold: BAT activation + RBM3 synapse regeneration + 250% dopamine. Contrast therapy trains endothelial function and autonomic flexibility.",
+      "sensors": [
+        "HSF1/HSP70/HSP90",
+        "AMPK",
+        "UCP1",
+        "SIRT1/SIRT3"
+      ],
+      "effectors": [
+        "Proteostasis (chaperone network)",
+        "BAT thermogenesis",
+        "RBM3 neuroprotection",
+        "Norepinephrine surge",
+        "Endothelial training"
+      ],
+      "avoid": [
+        "Extreme heat stroke",
+        "Extreme hypothermia / cardiac events",
+        "Chronic thermal comfort zone",
+        "Cold plunge right after lifting (blunts hypertrophy)"
+      ],
+      "zoneLabel": [
+        "Comfort",
+        "Mild",
+        "Moderate",
+        "Hormetic",
+        "Intense",
+        "Dangerous"
+      ],
+      "zoneRange": "Ambient comfort → sauna/cold plunge → extreme exposure",
+      "guidance": {
+        "low": "Thermal comfort is the modern default and a significant hormetic deficit. Start with: 15 min sauna at 80°C (1–3×/week) OR 1–3 min cold water immersion at 10–15°C (start with cool water, progress). The Søberg Protocol: 11 min/week cold + 57 min/week heat, ending on cold for maximum metabolic benefit. HSP70/HSP90 are the same proteins activated by caloric restriction and exercise.",
+        "mid": "Good thermal hormetic practice. Sauna 3–5×/week (4–7× shows strongest Finnish cohort data). Cold exposure 3–5 min at 10–15°C. Contrast therapy (alternating hot/cold) trains endothelial function and autonomic nervous system flexibility — essentially a \"vascular workout.\" Monitor heart rate variability and recovery.",
+        "high": "Extreme heat (>100°C sauna, prolonged exposure) risks heat stroke. Extreme cold (ice baths >10 min, cold water immersion in cardiac patients) risks hypothermia and cardiac events. The hormetic window is moderate: warm enough to trigger HSP70, cold enough to activate BAT and RBM3, but recoverable between bouts."
+      }
+    },
+    {
+      "id": "psych",
+      "num": "08",
+      "title": "Psychological Stress Inoculation",
+      "badge": "emerging",
+      "desc": "SIT → larger prefrontal cortex volume in primates. Yerkes-Dodson inverted-U = psychological hormesis. ~50% of trauma survivors report post-traumatic growth. Cognitive reserve from moderate adversity builds resilience.",
+      "sensors": [
+        "HPA axis (cortisol)",
+        "Norepinephrine",
+        "BDNF"
+      ],
+      "effectors": [
+        "Prefrontal cortex thickening",
+        "Dendritic branching",
+        "Synaptogenesis",
+        "Hippocampal volume increase",
+        "Cognitive reserve"
+      ],
+      "avoid": [
+        "Chronic overwhelming stress",
+        "Trauma without recovery",
+        "Complete adversity avoidance"
+      ],
+      "zoneLabel": [
+        "Avoidant",
+        "Low",
+        "Moderate",
+        "Hormetic",
+        "High",
+        "Traumatic"
+      ],
+      "zoneRange": "Stress avoidance → manageable challenge → overwhelming adversity",
+      "guidance": {
+        "low": "Complete stress avoidance paradoxically reduces resilience. The Yerkes-Dodson law shows performance improves with arousal up to an optimal point. Graduated exposure to manageable stressors (cold exposure, physical challenge, public speaking, cognitive demands) builds prefrontal cortex volume and cognitive reserve. Stress inoculation training (SIT) is an evidence-based protocol for building stress resilience.",
+        "mid": "Good psychological hormetic practice. You are experiencing manageable challenges that build cognitive reserve and prefrontal cortex capacity. The key distinction: acute, recoverable stress = hormetic; chronic, overwhelming stress = pathological. Maintain recovery periods between challenges. The brain physically adapts to challenge through dendritic branching and synaptogenesis.",
+        "high": "Chronic, overwhelming stress physically shrinks the hippocampus, dysregulates the HPA axis, and causes allostatic overload. This is NOT hormetic — it is pathological. If you experience persistent anxiety, insomnia, or burnout, you have exceeded the hormetic window. Seek support, reduce stressor load, and prioritize recovery. The inverted-U is clear: past the peak, more stress = less function."
+      }
+    },
+    {
+      "id": "xeno",
+      "num": "09",
+      "title": "Xenohormesis / Phytochemicals",
+      "badge": "strong",
+      "desc": "Sulforaphane activates NRF2 10–100× more effectively than dietary antioxidants. Poor bioavailability may keep compounds in the hormetic window. The \"antioxidant\" framing obscures the actual mechanism: mild toxicity → endogenous defense activation.",
+      "sensors": [
+        "NRF2",
+        "HSF1",
+        "AMPK",
+        "SIRT1"
+      ],
+      "effectors": [
+        "Endogenous antioxidant enzymes (SOD, catalase, GPx, HO-1)",
+        "Phase II detoxification",
+        "Proteostasis network"
+      ],
+      "avoid": [
+        "High-dose single-antioxidant supplements",
+        "\"Antioxidant\" framing that ignores hormetic mechanism"
+      ],
+      "zoneLabel": [
+        "None",
+        "Dietary",
+        "Moderate",
+        "Hormetic",
+        "Supplemental",
+        "Megadose"
+      ],
+      "zoneRange": "Standard diet → diverse phytochemicals → high-dose supplements",
+      "guidance": {
+        "low": "If your diet is low in diverse plant foods, the NRF2 pathway is understimulated. Prioritize sulforaphane sources (broccoli sprouts, cruciferous vegetables), curcumin (turmeric with black pepper), resveratrol-containing foods (berries, grapes), and green tea (EGCG). These work by mild toxicity → NRF2 activation → 10–100× more endogenous antioxidant production than the phytochemicals themselves.",
+        "mid": "Good xenohormetic practice. Diverse phytochemical intake provides mild, intermittent NRF2/HSF1 activation. Consider rotating phytochemical sources to avoid adaptation (hormesis requires variable, not chronic, signaling). Poor bioavailability of curcumin may actually be advantageous — keeping tissue concentrations in the hormetic window.",
+        "high": "High-dose single-antioxidant supplements can be pro-oxidant and have increased mortality in RCTs (ATBC: β-carotene +7%, CARET: β-carotene +28% lung cancer). The hormetic principle: the compound works by being mildly toxic, activating endogenous defenses. Megadosing overwhelms the adaptive response. Diverse dietary phytochemicals at moderate doses are safer and more effective than concentrated supplements."
+      }
+    },
+    {
+      "id": "alcohol",
+      "num": "10",
+      "title": "Low-Dose Alcohol (J-Curve)",
+      "badge": "contested",
+      "desc": "J-shaped curve: low-to-moderate consumption correlates with lower CVD mortality than abstinence (Copenhagen Heart Study, RR 0.51). Mendelian randomization studies challenge causality. Public health: \"no safe level\" (WHO 2023).",
+      "sensors": [
+        "AMPK",
+        "eNOS",
+        "HDL-C modulation"
+      ],
+      "effectors": [
+        "↑ HDL-C",
+        "↓ Fibrinogen",
+        "↓ Platelet aggregation",
+        "↑ Insulin sensitivity",
+        "↑ eNOS activity"
+      ],
+      "avoid": [
+        "Chronic heavy drinking",
+        "Using J-curve to justify binge drinking",
+        "Ignoring Mendelian randomization confounders"
+      ],
+      "zoneLabel": [
+        "Abstinent",
+        "Low",
+        "Moderate",
+        "Hormetic",
+        "Heavy",
+        "Alcoholism"
+      ],
+      "zoneRange": "Abstinent → 1–2 standard drinks/day → >4 drinks/day",
+      "guidance": {
+        "low": "If you abstain from alcohol, you are avoiding potential confounders but also missing any possible low-dose adaptive signaling. The J-curve data is contested — Mendelian randomization studies (Kember et al., 2024, >250k individuals) suggest the benefit may partly reflect systematic biases (sick quitter abstainer groups, socioeconomic confounders). Safe approach: if you don't drink, don't start for health reasons.",
+        "mid": "If you consume 1–2 standard drinks/day, the epidemiological signal is mildly favorable but mechanistically uncertain. The hormetic zone for any single agent is typically only 30–60% above baseline — easily lost in noisy epidemiological data. Red wine provides resveratrol + polyphenols in addition to ethanol. WHO 2023: \"no safe level\" — weigh individual risk.",
+        "high": "Heavy drinking (>4 standard drinks/day) exits the hormetic window decisively. Alcohol is hepatotoxic, neurotoxic, and carcinogenic at high doses. The J-curve, even if real, applies only to very low consumption levels. Any perceived benefit of moderate drinking is overwhelmed by harm at higher intake. If dependent, seek support — this is not a hormetic practice."
+      }
+    },
+    {
+      "id": "gut",
+      "num": "11",
+      "title": "Gut Microbial Colonization",
+      "badge": "strong",
+      "desc": "FMT >80% cure for recurrent C. difficile. Germ-free animals: stunted immunity, reduced BDNF, abnormal brain development. SCFAs (butyrate) activate GPR41/43 → autophagy. Antibiotic overuse creates secondary extinction of commensals.",
+      "sensors": [
+        "GPR41/43 (SCFA receptors)",
+        "TLR signaling",
+        "Gut-brain axis (vagus nerve)"
+      ],
+      "effectors": [
+        "SCFA production (butyrate, propionate)",
+        "Treg differentiation",
+        "Gut barrier integrity",
+        "BDNF via gut-brain axis"
+      ],
+      "avoid": [
+        "Routine broad-spectrum antibiotics",
+        "Low-fiber diet",
+        "Chronic PPI use"
+      ],
+      "zoneLabel": [
+        "Depleted",
+        "Low diversity",
+        "Moderate",
+        "Hormetic",
+        "Diverse",
+        "Dysbiotic"
+      ],
+      "zoneRange": "Antibiotic-depleted → normal diversity → prebiotic/probiotic enriched",
+      "guidance": {
+        "low": "If your diet is low in fiber and diverse plant foods, your gut microbiome likely has reduced SCFA production and lower microbial diversity. Increase: diverse fiber sources (legumes, whole grains, vegetables, fruits), fermented foods (kefir, kimchi, sauerkraut, miso), prebiotic fibers (inulin, FOS from garlic, onions, leeks). The gut microbiome is an endocrine organ — it produces SCFAs that activate autophagy and regulate systemic inflammation.",
+        "mid": "Good gut microbial diversity. Maintain diverse fiber intake (30+ plant species/week target), fermented foods, and minimize unnecessary antibiotics. If prescribed antibiotics, consider probiotic co-administration (Saccharomyces boulardii, Lactobacillus). The SCFA → GPR41/43 → autophagy axis is a direct hormetic pathway from microbial metabolism to cellular cleanup.",
+        "high": "Dysbiosis (microbial imbalance) can be as problematic as depletion. Symptoms: chronic bloating, irregular bowel, systemic inflammation. If you suspect dysbiotic overgrowth (SIBO, Candida overgrowth), seek clinical evaluation — the gut microbiome requires balanced diversity, not just abundance. Prebiotic/probiotic supplementation should support diversity, not create monocultures."
+      }
+    },
+    {
+      "id": "bone",
+      "num": "12",
+      "title": "Mechanical Stress on Bone",
+      "badge": "emerging",
+      "desc": "Wolff's Law: bone adapts to loads. Microgravity → rapid bone loss; loading → remodeling. Muscle-bone crosstalk: myokines (IL-6, IGF-1, irisin) stimulate osteoblasts. Fracture prevention focuses on Ca²⁺/D rather than progressive loading.",
+      "sensors": [
+        "Mechanotransduction (osteocyte signaling)",
+        "Myokines (irisin, IL-6, IGF-1)"
+      ],
+      "effectors": [
+        "Osteoblast activation",
+        "Bone mineral density increase",
+        "Tendon strengthening",
+        "Muscle-bone crosstalk"
+      ],
+      "avoid": [
+        "Complete disuse (bed rest, microgravity)",
+        "Sudden overload without progressive loading",
+        "\"Wear and tear\" framing that discourages loading"
+      ],
+      "zoneLabel": [
+        "Sedentary",
+        "Light",
+        "Moderate",
+        "Hormetic",
+        "High impact",
+        "Overload"
+      ],
+      "zoneRange": "No loading → weight-bearing exercise → progressive overload",
+      "guidance": {
+        "low": "Disuse is the primary driver of bone loss — more significant than calcium deficiency. Start with weight-bearing exercise: walking, stair climbing, light resistance training. Progress to progressive overload: squats, deadlifts, jump training. Mechanical loading is the PRIMARY signal for bone remodeling — Wolff's Law. Calcium and vitamin D are necessary but insufficient without the mechanical stimulus.",
+        "mid": "Good mechanical hormetic practice. Progressive resistance training with compound movements provides the mechanotransduction signal for bone remodeling. The muscle-bone crosstalk axis (irisin, IGF-1, IL-6 from working muscle → osteoblast activation) is a direct hormetic pathway. Include impact activities (jumping, running) for peak bone strain stimulation.",
+        "high": "Sudden overload without progressive loading causes fracture and tendon degeneration — this is NOT hormetic. The \"wear and tear\" framing is incorrect; the \"adaptive signal\" framing is correct — but only within the progressive loading window. Periodize training, allow recovery, and increase load gradually. Tendons adapt slower than muscle — respect the timeline."
+      }
+    },
+    {
+      "id": "light",
+      "num": "13",
+      "title": "Light / Photobiomodulation",
+      "badge": "strong",
+      "desc": "Morning sunlight resets circadian rhythm and mood; red/NIR light aids skin and joint recovery. Stimulatory dose 1–10 J/cm² — above ~20 J/cm² the effect inhibits, a textbook biphasic window.",
+      "sensors": [
+        "OPN4/melanopsin",
+        "CLOCK/BMAL1"
+      ],
+      "effectors": [
+        "Mitochondrial biogenesis",
+        "BDNF",
+        "Circadian reset"
+      ],
+      "avoid": [
+        "Bright screens 11pm–2am",
+        "All-day indoor darkness",
+        ">20 min red-light sessions"
+      ],
+      "zoneLabel": [
+        "Indoor dark",
+        "Dim",
+        "Morning sun",
+        "Hormetic",
+        "Late-night bright",
+        "Excessive"
+      ],
+      "zoneRange": "All-day indoor darkness → 5–15 min morning sun → chronic late-night brightness",
+      "guidance": {
+        "low": "If you spend all day indoors, the melanopsin → CLOCK/BMAL1 pathway is understimulated. Get 5–15 min outdoor light before 10am without sunglasses; work near a window; switch to dim warm lights after sunset.",
+        "mid": "Good light practice. Maintain morning outdoor light; consider a red/NIR panel 5–10 min 1–3x/wk for skin and joint recovery. Keep nights dim to protect the circadian reset.",
+        "high": "Chronic bright light late at night suppresses melatonin and flattens circadian amplitude — the opposite of photobiomodulation. Cut screens 11pm–2am and keep red-light sessions under 20 min."
+      }
+    },
+    {
+      "id": "chem",
+      "num": "14",
+      "title": "Chemical / Pharmaceutical Hormesis",
+      "badge": "strong",
+      "desc": "Bitter plant compounds mildly stress cells so endogenous defenses switch on; prescription hormetins (metformin, rapamycin) act via AMPK/mTORC1 — doctor-only. Home pesticide or metal exposure is NOT hormesis.",
+      "sensors": [
+        "AMPK/mTORC1"
+      ],
+      "effectors": [
+        "Autophagy/mitophagy",
+        "PGC-1α",
+        "GDF15"
+      ],
+      "avoid": [
+        "Megadose antioxidant pills around exercise",
+        "Home pesticide/metal exposure as hormesis",
+        "Self-dosing metformin/rapamycin"
+      ],
+      "zoneLabel": [
+        "None",
+        "Dietary bitter",
+        "Moderate",
+        "Hormetic",
+        "Supplemental",
+        "Megadose"
+      ],
+      "zoneRange": "No bitter phytochemicals → diverse bitters/teas → unsupervised drug dosing",
+      "guidance": {
+        "low": "If your diet lacks bitter greens, teas, and crucifers, AMPK/mTORC1 hormetic signaling is understimulated. Add broccoli sprouts, turmeric with black pepper, green tea, and bitter greens — rotate sources to keep the signal variable.",
+        "mid": "Good chemical hormetic practice. Keep dietary bitters diverse and intermittent; do NOT self-dose metformin or rapamycin — prescription hormetins require medical supervision.",
+        "high": "Megadose single-compound supplements flip from hormetic to pro-oxidant or toxic. Return to diverse dietary doses and discuss any pharmaceutical hormetin with your doctor."
+      }
+    },
+    {
+      "id": "ischemic",
+      "num": "15",
+      "title": "Ischemic Pre/Remote Conditioning",
+      "badge": "strong",
+      "desc": "Brief controlled blood-flow cutoff before surgery protects heart and brain, cutting infarct size 30–60%. Protection arrives in two windows: early (1–3h) and delayed (12–72h). Clinic protocol only — never DIY tourniquets.",
+      "sensors": [
+        "Adenosine/PKC",
+        "HIF-1α",
+        "mitoK-ATP"
+      ],
+      "effectors": [
+        "EPO",
+        "VEGF"
+      ],
+      "avoid": [
+        "DIY tourniquets",
+        "Prolonged occlusion"
+      ],
+      "zoneLabel": [
+        "None",
+        "Mild",
+        "Brief cuff",
+        "Hormetic",
+        "Prolonged",
+        "Occlusive injury"
+      ],
+      "zoneRange": "No conditioning → clinic cuff 5 min × 3–4 cycles → prolonged occlusion",
+      "guidance": {
+        "low": "No day-to-day action needed — the safe lifestyle proxy is interval exercise, which preconditions vasculature. True ischemic conditioning is a pre-procedure clinic protocol; ask your surgical team if one is planned.",
+        "mid": "If a procedure is planned, the clinic cuff protocol (5 min × 3–4 cycles pre-procedure) is the evidence-based window. Do not attempt occlusion at home — benefit requires calibrated, supervised dosing.",
+        "high": "Prolonged or unsupervised occlusion causes ischemic injury — the opposite of conditioning. Stop any DIY blood-flow restriction and seek care for numbness, pallor, or pain that outlasts a session."
+      }
+    },
+    {
+      "id": "proteo",
+      "num": "16",
+      "title": "Proteotoxic / ER Hormesis",
+      "badge": "emerging",
+      "desc": "Heat plus hard exercise teach cells to refold damaged proteins via HSF1/ATF4/XBP1 → HSP70/HSP90, ERAD, and mitophagy. Protects aging brain and muscle; chronic sleep deprivation unwinds the same network.",
+      "sensors": [
+        "HSF1/ATF4/XBP1"
+      ],
+      "effectors": [
+        "HSP70/HSP90",
+        "ERAD",
+        "Mitophagy"
+      ],
+      "avoid": [
+        "Chronic sleep deprivation",
+        "Extreme heat stroke"
+      ],
+      "zoneLabel": [
+        "Sedentary cool",
+        "Mild",
+        "Sauna + training",
+        "Hormetic",
+        "Frequent extreme",
+        "Heat stroke"
+      ],
+      "zoneRange": "No heat or exertion → sauna 15–20 min at 80°C 3–5x/wk + hard sets → extreme heat without recovery",
+      "guidance": {
+        "low": "If you never train near-failure or use heat, the proteostasis network idles. Add sauna 15–20 min at 80°C 3–5x/wk, hard sets with adequate protein, and protect sleep — repair is written during recovery.",
+        "mid": "Good proteotoxic hormetic practice. Post-exercise sauna stacks heat-shock and exertion signals; keep protein intake up and sleep protected so HSP/ERAD programs consolidate.",
+        "high": "Pushing heat or volume without recovery flips adaptation into injury — rhabdomyolysis and heat stroke are NOT hormetic. Back off, rehydrate, and reintroduce progression gradually."
+      }
+    },
+    {
+      "id": "osmotic",
+      "num": "17",
+      "title": "Dehydration / Osmotic Stress",
+      "badge": "emerging",
+      "desc": "One sweaty session followed by full rehydration trains water-handling and cross-tolerance to heat and cold via osmosensing MAPK and NRF2 → aquaporins and cryoprotectants. Chronic dehydration is damage, not training.",
+      "sensors": [
+        "Osmosensing MAPK",
+        "NRF2"
+      ],
+      "effectors": [
+        "Aquaporins",
+        "HSP/cryoprotectants",
+        "Cross-tolerance"
+      ],
+      "avoid": [
+        "Chronic dehydration",
+        "Skipping rehydration (kidney disease, elderly on diuretics)"
+      ],
+      "zoneLabel": [
+        "Overhydrated",
+        "Normal",
+        "Sauna sweat",
+        "Hormetic",
+        "Frequent deficit",
+        "Chronic dehydration"
+      ],
+      "zoneRange": "Constant fluid load → sweaty session + full rehydration → chronic water deficit",
+      "guidance": {
+        "low": "If you never sweat meaningfully, osmotic-sensing pathways idle. Add sauna sweats or heat-acclimation walks with water plus electrolytes — then rehydrate fully every time.",
+        "mid": "Good osmotic practice: sweat, then fully rehydrate with water and electrolytes. The rehydration phase is where aquaporin and heat/cold cross-tolerance adaptation is written.",
+        "high": "Repeated fluid deficit without rehydration strains kidneys and cognition — unsafe with kidney disease or diuretic use. Rehydrate fully after every session and keep baseline intake adequate."
+      }
+    },
+    {
+      "id": "gravity",
+      "num": "18",
+      "title": "Gravity / Vibration / Crowding",
+      "badge": "emerging",
+      "desc": "Bones need impact, not just calcium: brief jumps, carries, and digging signal remodeling via integrin/YAP-TAZ and AMPK. Whole-body vibration helps when joints limit impact; bed rest is the off-state.",
+      "sensors": [
+        "Integrin/YAP-TAZ",
+        "AMPK"
+      ],
+      "effectors": [
+        "Bone/muscle remodeling"
+      ],
+      "avoid": [
+        "Sudden maximal jumps without progression",
+        "Bed rest / prolonged disuse"
+      ],
+      "zoneLabel": [
+        "Bed rest",
+        "Light",
+        "Jumps/carries",
+        "Hormetic",
+        "Heavy vibration",
+        "Injury overload"
+      ],
+      "zoneRange": "Disuse → jump rope 2–5 min, stair hops, farmer carries → sudden maximal loading",
+      "guidance": {
+        "low": "If you avoid impact entirely, mechanotransduction starves. Start jump rope 2–5 min, stair hops, farmer carries, and gardening digging; try a vibration plate 10 min 2–3x/wk if joints limit impact.",
+        "mid": "Good gravity practice. Progress jump and carry volume gradually; keep 48–72h between heavy loading so tendon — slower than muscle — adapts.",
+        "high": "Sudden maximal jumps without progression rupture tendons and fracture bone — not hormetic. Deload, then rebuild with progressive overload."
+      }
+    },
+    {
+      "id": "hyperoxia",
+      "num": "19",
+      "title": "Hyperoxia / Ozone / Acoustic",
+      "badge": "contested",
+      "desc": "Clinic oxygen/ozone is unproven for home use — no home dosing applies. The actionable hormetic signal here is sound enrichment (choir, music practice, nature walks), which builds attention and cognitive reserve via BDNF.",
+      "sensors": [
+        "NRF2/HIF-1α",
+        "BDNF"
+      ],
+      "effectors": [
+        "Antioxidant rebound",
+        "Cognitive reserve"
+      ],
+      "avoid": [
+        "Home ozone generators",
+        "Chronic loud noise",
+        "Unsupervised HBOT"
+      ],
+      "zoneLabel": [
+        "Silent indoor",
+        "Low",
+        "Music/nature",
+        "Hormetic",
+        "Loud chronic",
+        "Ototoxic"
+      ],
+      "zoneRange": "Silence → choir, music practice, nature sound walks → chronic loud exposure",
+      "guidance": {
+        "low": "If your soundscape is flat indoor hum, auditory enrichment idles. Add choir, music practice, or nature sound walks; wear earplugs at concerts.",
+        "mid": "Good acoustic practice. Regular music-making and nature exposure sustain BDNF-linked cognitive reserve. HBOT or ozone, if ever indicated, are clinic-only — never home devices.",
+        "high": "Chronic loud noise damages hearing and raises cardiovascular risk; home ozone generators irritate lungs. Cut exposure, protect ears, and treat HBOT/ozone as supervised medicine or not at all."
+      }
+    }
+  ],
+  "responseTracked": [
+    {
+      "id": "ros",
+      "endpoints": [
+        {
+          "key": "rhr",
+          "label": "Resting heart rate",
+          "unit": "bpm",
+          "lowerBetter": true
+        },
+        {
+          "key": "hrv",
+          "label": "HRV (rMSSD)",
+          "unit": "ms",
+          "lowerBetter": false
+        }
+      ]
+    },
+    {
+      "id": "hypoxia",
+      "endpoints": [
+        {
+          "key": "breathhold",
+          "label": "Comfortable breath-hold",
+          "unit": "sec",
+          "lowerBetter": false
+        },
+        {
+          "key": "resprate",
+          "label": "Resting respiratory rate",
+          "unit": "br/min",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "fasting",
+      "endpoints": [
+        {
+          "key": "fbg",
+          "label": "Fasting glucose",
+          "unit": "mg/dL",
+          "lowerBetter": true
+        },
+        {
+          "key": "a1c",
+          "label": "HbA1c",
+          "unit": "%",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "immune",
+      "endpoints": [
+        {
+          "key": "sickdays",
+          "label": "Respiratory sick days / year",
+          "unit": "days",
+          "lowerBetter": true
+        },
+        {
+          "key": "allergy",
+          "label": "Allergy symptoms (VAS)",
+          "unit": "0–10",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "thermal",
+      "endpoints": [
+        {
+          "key": "sbp",
+          "label": "Resting systolic BP",
+          "unit": "mmHg",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "psych",
+      "endpoints": [
+        {
+          "key": "pss",
+          "label": "Perceived stress (PSS-10)",
+          "unit": "0–40",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "xeno",
+      "endpoints": [
+        {
+          "key": "crp",
+          "label": "hs-CRP (lab)",
+          "unit": "mg/L",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "gut",
+      "endpoints": [
+        {
+          "key": "plants",
+          "label": "Plant species / week",
+          "unit": "count",
+          "lowerBetter": false
+        },
+        {
+          "key": "bloat",
+          "label": "Bloating (VAS)",
+          "unit": "0–10",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "bone",
+      "endpoints": [
+        {
+          "key": "grip",
+          "label": "Grip strength",
+          "unit": "kg",
+          "lowerBetter": false
+        },
+        {
+          "key": "balance",
+          "label": "Single-leg stand",
+          "unit": "sec",
+          "lowerBetter": false
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "endpoints": [
+        {
+          "key": "sol",
+          "label": "Sleep onset latency",
+          "unit": "min",
+          "lowerBetter": true
+        },
+        {
+          "key": "alert",
+          "label": "Morning alertness (VAS)",
+          "unit": "0–10",
+          "lowerBetter": false
+        }
+      ]
+    },
+    {
+      "id": "chem",
+      "endpoints": [
+        {
+          "key": "waist",
+          "label": "Waist at navel, morning",
+          "unit": "cm",
+          "lowerBetter": true
+        }
+      ]
+    },
+    {
+      "id": "proteo",
+      "endpoints": [
+        {
+          "key": "sts",
+          "label": "5× sit-to-stand time",
+          "unit": "sec",
+          "lowerBetter": true
+        },
+        {
+          "key": "deep",
+          "label": "Deep sleep (wearable)",
+          "unit": "h",
+          "lowerBetter": false
+        }
+      ]
+    },
+    {
+      "id": "osmotic",
+      "endpoints": [
+        {
+          "key": "urine",
+          "label": "Morning urine color",
+          "unit": "1–8",
+          "lowerBetter": true
+        },
+        {
+          "key": "sauna",
+          "label": "Sauna time at 80°C",
+          "unit": "min",
+          "lowerBetter": false
+        }
+      ]
+    },
+    {
+      "id": "gravity",
+      "endpoints": [
+        {
+          "key": "jump",
+          "label": "Vertical jump height",
+          "unit": "cm",
+          "lowerBetter": false
+        }
+      ]
+    }
+  ]
+}

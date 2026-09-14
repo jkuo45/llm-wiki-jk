@@ -15,7 +15,7 @@ const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 let CACHE_HASH = '';
 
 // Graph build identity (from data/version.json) shown in the home-page footer.
-export const BUILD_INFO = { hash: '', generated: '' };
+export const BUILD_INFO = { hash: '', generated: '', datasets: null };
 
 async function loadCacheTag() {
   try {
@@ -26,6 +26,7 @@ async function loadCacheTag() {
       if (v) {
         BUILD_INFO.hash = v.hash || '';
         BUILD_INFO.generated = v.generated || '';
+        BUILD_INFO.datasets = (v && v.datasets) || null;
       }
     }
   } catch (e) {

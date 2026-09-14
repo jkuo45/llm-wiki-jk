@@ -20,7 +20,7 @@ In its basal state, Parkin exists in an autoinhibited conformation where the UBL
 > [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
 > Once activated by PINK1, Parkin polyubiquitinates OMM proteins including MFN1/2, leading to mitochondria fission, fragmentation, and subsequent mitophagy degradation. Parkin expression is lost in various types of cancer (breast, lung, ovarian, bladder), and inactivating mutations are observed in glioblastoma — suggesting a tumor-suppressive role. PRKN mutations are the most common cause of autosomal recessive early-onset Parkinson's disease.
 
-Parkin recruitment to depolarized mitochondria initiates a cascade of [[Mitophagy]] events: (i) Parkin ubiquitinates outer mitochondrial membrane proteins including mitofusins, [[Miro]], and [[VDAC1]]; (ii) ubiquitin chains recruit autophagy adaptors such as [[p62]], [[OPTN]], and [[NDP52]]; and (iii) these adaptors engage [[LC3]] on the phagophore membrane to engulf the mitochondrion. Parkin-dependent ubiquitination also promotes proteasomal degradation of outer membrane proteins via [[VCP|p97/VCP]], facilitating mitochondrial fragmentation prior to engulfment.
+Parkin recruitment to depolarized mitochondria initiates a cascade of [[Mitophagy]] events: (i) Parkin ubiquitinates outer mitochondrial membrane proteins including mitofusins, [[Miro]], and [[VDAC|VDAC1]]; (ii) ubiquitin chains recruit autophagy adaptors such as [[p62]], [[OPTN]], and [[NDP52]]; and (iii) these adaptors engage [[LC3]] on the phagophore membrane to engulf the mitochondrion. Parkin-dependent ubiquitination also promotes proteasomal degradation of outer membrane proteins via [[VCP|p97/VCP]], facilitating mitochondrial fragmentation prior to engulfment.
 ## Mutations in Parkinson's Disease
 Mutations in [[PARK2]] are the most common cause of autosomal recessive early-onset [[Parkinson's Disease]], accounting for up to 50% of familial cases and ~15% of sporadic early-onset cases. Over 200 pathogenic mutations have been identified, including missense, nonsense, frameshift, and exon deletion variants distributed throughout all Parkin domains. Loss of Parkin function impairs mitophagy, leading to accumulation of dysfunctional mitochondria, [[Oxidative Stress]], and selective vulnerability of dopaminergic neurons in the [[Substantia Nigra]].
 ## Connection to Adrenochrome and Aging
@@ -60,7 +60,7 @@ List of documents that mention this entity
 - [[Ubiquitin-like domain]] — interacts with Parkin
 - [[Ubiquitin]] — interacts with Parkin
 - [[Miro]] — interacts with Parkin
-- [[VDAC1]] — interacts with Parkin
+- [[VDAC|VDAC1]] — interacts with Parkin
 - [[p62]] — interacts with Parkin
 - [[FBXO7]] — Scaffold that accelerates Parkin translocation to damaged mitochondria
 - [[MFN2]] — Parkin ubiquitylates PINK1-phosphorylated MFN2, targeting it for mitophagy

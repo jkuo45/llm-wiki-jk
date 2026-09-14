@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
 <meta name="description" content="Knowledge graph exploring longevity through adrenochrome, autophagy, mitohormesis, and disease prevention. Biomedical wiki visualization. EN/中文 graph agent">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <title>llm-wiki-jk: graph view (EN/中文)</title>
 <link rel="stylesheet" href="/tokens.css">
 <link rel="stylesheet" href="/three-graph.css">
@@ -114,19 +115,21 @@
               <output id="set-dataset-val" for="set-dataset">Combined</output>
             </div>
             <input type="range" id="set-dataset" min="0" max="2" step="1" value="2" aria-label="Graph source">
-            <!-- Node/edge counts below are build-time values (from web/public/data/*). Keep in sync when graphs are rebuilt (§8 pipeline). -->
+            <!-- Tick counts are fallback values; setupDatasetSlider() in
+                 components/ui.js overwrites them at startup from the
+                 `datasets` key in web/public/data/version.json. -->
             <div class="slider-ticks" aria-hidden="true">
               <span class="slider-tick" title="Triples — extracted relations, fewest edges">
                 <span class="tick-name">Triples</span>
-                <span class="tick-meta"><span class="tick-nodes">2,653 nodes</span><span class="tick-edges">4,092 edges</span></span>
+                <span class="tick-meta"><span class="tick-nodes">3,427 nodes</span><span class="tick-edges">6,412 edges</span></span>
               </span>
               <span class="slider-tick" title="Wiki — Obsidian wikilinks">
                 <span class="tick-name">Wiki</span>
-                <span class="tick-meta"><span class="tick-nodes">3,007 nodes</span><span class="tick-edges">35,150 edges</span></span>
+                <span class="tick-meta"><span class="tick-nodes">3,079 nodes</span><span class="tick-edges">36,492 edges</span></span>
               </span>
               <span class="slider-tick" title="Combined — union, most edges">
                 <span class="tick-name">Combined</span>
-                <span class="tick-meta"><span class="tick-nodes">4,098 nodes</span><span class="tick-edges">37,319 edges</span></span>
+                <span class="tick-meta"><span class="tick-nodes">4,436 nodes</span><span class="tick-edges">39,386 edges</span></span>
               </span>
             </div>
           </div>

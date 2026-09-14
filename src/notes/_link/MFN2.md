@@ -2,7 +2,7 @@
 title: MFN2
 description: Mitofusin 2 is an outer-mitochondrial-membrane dynamin-related GTPase that mediates mitochondrial fusion and ER–mitochondria tethering; mutations cause CMT2A.
 created: 2026-07-04
-updated: 2026-07-24
+updated: 2026-09-12
 tags:
   - protein
   - mitochondria
@@ -59,6 +59,12 @@ Like [[MFN1|MFN1]], MFN2 has an N-terminal GTPase domain, HR1 and HR2 helical re
 - [[DRP1]] — Opposing fission GTPase.
 - [[Heart Failure]] — MFN2 is downregulated in HF and idiopathic dilated cardiomyopathy.
 - [[Mitophagy]] — MFN2 ubiquitination by Parkin leads to mitophagy degradation.
+
+> [!tip] MFN2 as senomorphic node
+> MFN2 knockdown alone fragments mitochondria and is sufficient to enhance [[Minority MOMP]], mtDNA release, and SASP in senescent MRC5/IMR90, without altering arrest (Victorelli 2023). Conversely hyperfusion limits BAX recruitment. Positions MFN agonists / OPA1 stabilizers as candidate senomorphics distinct from [[STING Inhibitors|STING inhibition]].
+
+- [[BAX]] — MFN2 restrains BAX6A7+ activation on fragmented mitochondria.
+- [[SASP|Senescence-Associated Secretory Phenotype]] — MFN2 tone gates IL-6/IL-8/IL-1β output.
 
 ## Linking Summary
 

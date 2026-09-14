@@ -158,7 +158,7 @@ async function ensureLoaded(type) {
                backfill script + tasks-index page use), articles by id. */
             const id = type === 'article'
               ? a.id
-              : (en.filename || String(a.id).replace(/^task:/, '') + '.md');
+              : (en.filename || String(a.id) + '.md');
             return {
               id,
               title: String(en.title || a.id),

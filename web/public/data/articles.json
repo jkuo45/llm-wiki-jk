@@ -74,6 +74,7 @@
     {
         "id": "sirtuins-articles-and-figures",
         "active": true,
+        "weight": 100,
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Articles, figures, images (index)",
@@ -90,26 +91,9 @@
         }
     },
     {
-        "id": "oxidized-catecholamines-feed-lysosomal-stress",
-        "active": false,
-        "langs": {
-            "en-US": {
-                "title": "[Speculative] Oxidized Catecholamines Feed Lysosomal Stress",
-                "path": "pages/en-US/oxidized-catecholamines-feed-lysosomal-stress.html",
-                "created": "2026-08-17",
-                "updated": "2026-08-17"
-            },
-            "zh-TW": {
-                "title": "氧化兒茶酚胺誘發溶酶體壓力（推測性）",
-                "path": "pages/zh-TW/oxidized-catecholamines-feed-lysosomal-stress.html",
-                "created": "2026-08-17",
-                "updated": "2026-08-17"
-            }
-        }
-    },
-    {
         "id": "senescence-articles-and-figures",
         "active": true,
+        "weight": 100,
         "langs": {
             "en-US": {
                 "title": "Senescence - Articles, figures, images (index)",
@@ -122,6 +106,44 @@
                 "path": "pages/zh-TW/senescence-articles-and-figures.html",
                 "created": "2026-08-18",
                 "updated": "2026-08-18"
+            }
+        }
+    },
+    {
+        "id": "cell-death-articles-and-figures",
+        "active": true,
+        "weight": 100,
+        "langs": {
+            "en-US": {
+                "title": "Cell Death - Articles, figures, images (index)",
+                "path": "pages/en-US/cell-death-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
+            },
+            "zh-TW": {
+                "title": "細胞死亡 — 文章中的圖像與圖表",
+                "path": "pages/zh-TW/cell-death-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
+            }
+        }
+    },
+    {
+        "id": "hormesis-articles-and-figures",
+        "active": true,
+        "weight": 100,
+        "langs": {
+            "en-US": {
+                "title": "Hormesis - Articles, figures, images (index)",
+                "path": "pages/en-US/hormesis-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
+            },
+            "zh-TW": {
+                "title": "毒物興奮效應 — 文章中的圖像與圖表",
+                "path": "pages/zh-TW/hormesis-articles-and-figures.html",
+                "created": "2026-09-09",
+                "updated": "2026-09-09"
             }
         }
     },
@@ -292,52 +314,34 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Hormetic Range Assessment — Map Your Biological Resilience",
+                "title": "Hormetic Range Assessment",
                 "path": "pages/en-US/hormetic-range-assessment.html",
                 "created": "2026-09-02",
-                "updated": "2026-09-02"
+                "updated": "2026-09-10"
             },
             "zh-TW": {
                 "title": "毒物興奮範圍評估 — 映射你的生物韌性",
                 "path": "pages/zh-TW/hormetic-range-assessment.html",
                 "created": "2026-09-02",
-                "updated": "2026-09-02"
+                "updated": "2026-09-10"
             }
         }
     },
     {
-        "id": "cell-death-comparison-table",
+        "id": "cell-death-comparison",
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Cell Death Comparison [table]",
-                "path": "pages/en-US/cell-death-comparison-table.html",
+                "title": "Cell Death Comparison [table + 3d]",
+                "path": "pages/en-US/cell-death-comparison.html",
                 "created": "2026-09-03",
-                "updated": "2026-09-03"
+                "updated": "2026-09-09"
             },
             "zh-TW": {
-                "title": "細胞死亡比較 [表格]",
-                "path": "pages/zh-TW/cell-death-comparison-table.html",
+                "title": "細胞死亡比較［表格＋3d］",
+                "path": "pages/zh-TW/cell-death-comparison.html",
                 "created": "2026-09-03",
-                "updated": "2026-09-03"
-            }
-        }
-    },
-    {
-        "id": "cell-death-animations",
-        "active": true,
-        "langs": {
-            "en-US": {
-                "title": "Cell Death Animations [three.js]",
-                "path": "pages/en-US/cell-death-animations.html",
-                "created": "2026-09-07",
-                "updated": "2026-09-07"
-            },
-            "zh-TW": {
-                "title": "細胞死亡動畫 [three.js]",
-                "path": "pages/zh-TW/cell-death-animations.html",
-                "created": "2026-09-07",
-                "updated": "2026-09-07"
+                "updated": "2026-09-09"
             }
         }
     },
@@ -356,6 +360,222 @@
                 "path": "pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html",
                 "created": "2026-09-05",
                 "updated": "2026-09-05"
+            }
+        }
+    },
+    {
+        "id": "inside-the-cell",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Inside the Human Cell [3d]",
+                "path": "pages/en-US/inside-the-cell.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
+            },
+            "zh-TW": {
+                "title": "人體細胞內部 [3d]",
+                "path": "pages/zh-TW/inside-the-cell.html",
+                "created": "2026-09-07",
+                "updated": "2026-09-07"
+            }
+        }
+    },
+    {
+        "id": "necroptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Necroptosis",
+                "path": "pages/en-US/necroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "壞死性凋亡",
+                "path": "pages/zh-TW/necroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "apoptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Apoptosis",
+                "path": "pages/en-US/apoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "細胞凋亡",
+                "path": "pages/zh-TW/apoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "parthanatos",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Parthanatos",
+                "path": "pages/en-US/parthanatos.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "Parthanatos",
+                "path": "pages/zh-TW/parthanatos.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "necrosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Necrosis",
+                "path": "pages/en-US/necrosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "壞死",
+                "path": "pages/zh-TW/necrosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "ferroptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Ferroptosis",
+                "path": "pages/en-US/ferroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "鐵死亡",
+                "path": "pages/zh-TW/ferroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "autophagy",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Autophagy",
+                "path": "pages/en-US/autophagy.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "自噬",
+                "path": "pages/zh-TW/autophagy.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "pyroptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Pyroptosis",
+                "path": "pages/en-US/pyroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "焦亡",
+                "path": "pages/zh-TW/pyroptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "panoptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "PANoptosis",
+                "path": "pages/en-US/panoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "PANoptosis",
+                "path": "pages/zh-TW/panoptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "eryptosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Eryptosis",
+                "path": "pages/en-US/eryptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "紅血球凋亡",
+                "path": "pages/zh-TW/eryptosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "netosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "NETosis",
+                "path": "pages/en-US/netosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            },
+            "zh-TW": {
+                "title": "NETosis",
+                "path": "pages/zh-TW/netosis.html",
+                "created": "2026-09-11",
+                "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "apoptosis-vs-necrosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Apoptosis vs Necrosis",
+                "path": "pages/en-US/apoptosis-vs-necrosis.html",
+                "created": "2026-09-13",
+                "updated": "2026-09-13"
+            },
+            "zh-TW": {
+                "title": "細胞凋亡 vs 壞死",
+                "path": "pages/zh-TW/apoptosis-vs-necrosis.html",
+                "created": "2026-09-13",
+                "updated": "2026-09-13"
             }
         }
     }

@@ -24,6 +24,7 @@ from pydantic import BaseModel, Field
 
 from ..config import HEARTBEAT_SECONDS, MAX_SESSIONS, SESSION_SWEEP_SECONDS, SESSION_TTL_SECONDS
 from ..domain.graph_ops import (
+    get_combined_counts,
     get_graph,
     graph_analyze,
     graph_explain,
@@ -152,12 +153,17 @@ class ExecuteRequest(BaseModel):
 
 @router.get("/health")
 async def health():
-    """Health check for the adapter and the upstream opencode server."""
+    """Health check for the adapter and the upstream opencode server.
+
+    `nodes`/`edges` report the canonical combined (triples + wiki) dataset —
+    the default UI graph in web/public/data/nodes.json + edges.json.
+    """
     G = get_graph()
+    combined = get_combined_counts()
     payload = {
         "status": "ok",
-        "nodes": G.number_of_nodes(),
-        "edges": G.number_of_edges(),
+        "nodes": combined["nodes"] if combined["nodes"] is not None else G.number_of_nodes(),
+        "edges": combined["edges"] if combined["edges"] is not None else G.number_of_edges(),
         "sessions": len(_sessions),
     }
     try:
@@ -258,10 +264,14 @@ async def reset_session(request: PromptRequest):
     return {"status": "ok"}
 
 
+def _message_result(kind: str, text: str) -> dict:
+    # ponytail: greeting + unknown share shape, only copy differs
+    return {"type": kind, "text": text, "highlight_nodes": [], "highlight_edges": []}
+
+
 def _greeting_result() -> dict:
-    return {
-        "type": "greeting",
-        "text": (
+    return _message_result(
+        "greeting",
             "Hey! I'm your knowledge graph assistant. With **Graphify** on I run graph "
             "operations; switch it off to answer from the wiki instead.\n\n"
             '- **explain** — *"Explain SASP"* — deep dive on a single entity\n'
@@ -269,26 +279,19 @@ def _greeting_result() -> dict:
             '- **analyze** — *"Compare the centrality of NAD+ and SIRT1"* — custom node analysis you can download\n'
             '- **query** — *"Key nodes in longevity research"* — open-ended, natural language questions\n\n'
             "Type a question to get started!"
-        ),
-        "highlight_nodes": [],
-        "highlight_edges": [],
-    }
+    )
 
 
 def _unknown_result() -> dict:
-    return {
-        "type": "unknown",
-        "text": (
+    return _message_result(
+        "unknown",
             "I couldn't understand your question. Try one of:\n\n"
             '- **explain** — *"What is Autophagy?"* — deep dive on a single entity\n'
             '- **path** — *"How does Rapamycin relate to mTOR?"* — traces the direct relationship between two or more nodes\n'
             '- **analyze** — *"Compare the centrality of NAD+ and SIRT1"*\n'
             '- **query** — *"Key nodes in longevity research"* — open-ended, natural language questions\n\n'
             "Or switch **Graphify** off to answer from the wiki instead."
-        ),
-        "highlight_nodes": [],
-        "highlight_edges": [],
-    }
+    )
 
 
 def _sse(payload: dict) -> str:

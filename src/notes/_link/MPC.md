@@ -2,7 +2,7 @@
 title: MPC
 description: Mitochondrial pyruvate carrier, a heterodimeric complex of MPC1 and MPC2 in the inner mitochondrial membrane that imports pyruvate into the matrix for the TCA cycle. Upregulated in cellular senescence; its inhibition suppresses the SASP without affecting cell cycle arrest.
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-09-12
 tags:
   - transporter
   - mitochondria
@@ -33,10 +33,16 @@ The MPC is the rate-limiting entry point for glucose-derived carbon into the TCA
 > [!info] MPC Is an Upstream Node of the Citrate–Acetyl-CoA Axis
 > MPC-dependent pyruvate import feeds the TCA cycle, which generates the citrate exported by [[SLC25A1]] and converted to [[Acetyl-CoA]] by [[ACLY]]. Inhibition at any of these nodes (MPC, SLC25A1, ACLY) suppresses histone acetylation at SASP loci and the SASP programme.
 
+## Role in Necroptosis
+
+MPC-dependent [[Pyruvate]] import also supplies a pro-death mitochondrial arm. [[RIPK3]] activates the [[Pyruvate Dehydrogenase]] complex to raise aerobic respiration and mitochondrial [[ROS]], which feed back on the necrosome and promote [[Necroptosis]]. Consequently, blocking mitochondrial pyruvate uptake — with [[UK5099]] or by pyruvate depletion — suppresses TNF-induced necroptosis (Yang et al., *Nat Cell Biol* 2018). The effect is context-dependent: in hypoxic or chemotherapy-treated colorectal cancer cells, cytosolic pyruvate protects by scavenging mitochondrial superoxide **without** entering mitochondria, so [[UK5099]] does not reverse protection (Huang et al., *Cell Death Dis* 2013).
+
 ## Documents
 
 - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial Metabolism and Epigenetic Crosstalk Drive SASP]]
   - Establishes MPC upregulation in senescence and the SASP-suppressive effect of its inhibition.
+- [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
+  - Blocking mitochondrial pyruvate uptake suppresses TNF-induced necroptosis, implicating MPC-dependent pyruvate oxidation in the death program.
 
 ## Connections
 
@@ -49,11 +55,15 @@ The MPC is the rate-limiting entry point for glucose-derived carbon into the TCA
 - [[SLC25A1]] — Downstream citrate export node of the same metabolic axis
 - [[ACLY]] — Converts exported citrate to cytosolic acetyl-CoA
 - [[SASP]] — Inflammatory programme suppressed by MPC inhibition
+- [[Necroptosis]] — Pro-death programme suppressed by blocking MPC-dependent pyruvate import
+- [[RIPK3]] — Activates PDC to drive the pyruvate-dependent respiratory/ROS arm
+- [[ROS]] — Mitochondrial by-product feeding back on the necrosome
 
 ## Linking Summary
 
-- New links added: [[Pyruvate]], [[Pyruvate Dehydrogenase]], [[TCA cycle]], [[Glycolysis]], [[Lactate]], [[UK5099]]
+- New links added: [[Pyruvate]], [[Pyruvate Dehydrogenase]], [[TCA cycle]], [[Glycolysis]], [[Lactate]], [[UK5099]], [[Necroptosis]], [[RIPK3]], [[ROS]]
 - Suggested new entity notes to create: (none — resolved in this pass)
 - Strong connections to strengthen:
     - [[MPC]] ↔ [[SLC25A1]] ↔ [[ACLY]] (the citrate–acetyl-CoA axis)
     - [[MPC]] ↔ [[SASP]]
+    - [[MPC]] ↔ [[Necroptosis]] ↔ [[RIPK3]]

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inside the Cell — A To-Scale 3-D Human Cell: Pathway, MB/AG Protocol, Sirtuins, Autophagy, Cell Death, Nrf2, Senescence, Metabolism, Neuromelanin, COMT, OSKM & IVM × FBZ</title>
+<meta name="description" content="Full-size to-scale three.js human cell (1 unit = 1 µm) with labeled organelles. Guided tours of vault processes: the adrenochrome oxidation/detox pathway, the speculative MB/AG longevity protocol, the seven sirtuins in their compartments, autophagy to the lysosome, regulated cell death paths, Nrf2/hormesis, senescence/SASP, Warburg metabolism, neuromelanin, COMT catechol clearance, OSKM reprogramming, and the preclinical ivermectin × fenbendazole cancer trace.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/inside-the-cell.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/inside-the-cell.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<link rel="stylesheet" href="../cell/inside-the-cell.css">
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links" id="ic-tours">
+      <a href="#tour=explore" data-tour="explore" class="is-active">Explore</a>
+      <a href="#tour=adreno" data-tour="adreno">Pathway</a>
+      <a href="#tour=proto" data-tour="proto">MB/AG Protocol</a>
+      <a href="#tour=sirtuin" data-tour="sirtuin">Sirtuins</a>
+      <a href="#tour=auto" data-tour="auto">Autophagy</a>
+      <a href="#tour=death" data-tour="death">Cell Death</a>
+      <a href="#tour=redox" data-tour="redox">Nrf2 · Hormesis</a>
+      <a href="#tour=sasp" data-tour="sasp">Senescence · SASP</a>
+      <a href="#tour=metab" data-tour="metab">Warburg · Metabolism</a>
+      <a href="#tour=nm" data-tour="nm">Neuromelanin</a>
+      <a href="#tour=comt" data-tour="comt">COMT · Catechols</a>
+      <a href="#tour=oskm" data-tour="oskm">OSKM · Reprogramming</a>
+      <a href="#tour=combi" data-tour="combi">IVM × FBZ</a>
+    </div>
+  </div>
+</nav>
+<div class="wrap wide">
+  <main id="content">
+    <div class="ic-layout">
+      <div class="ic-stage-card">
+        <div id="ic-stage">
+          <canvas id="ic-canvas" aria-label="To-scale 3-D human cell"></canvas>
+          <button class="copy-btn" data-copy-canvas="ic-canvas" title="Copy cell snapshot as PNG" aria-label="Copy cell snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          <div id="ic-stepflag"></div>
+          <button id="ic-anim" aria-label="Pause cell animation">⏸ Pause</button>
+          <div id="ic-scalebar"><span id="ic-scalenum">5 µm</span><div class="bar" id="ic-scalefill" style="width:80px"></div></div>
+        </div>
+        <div class="ic-controls" role="toolbar" aria-label="Cell controls">
+          <div class="row">
+            <button id="ic-labels">Labels</button>
+            <button id="ic-rotate">Rotate</button>
+            <button id="ic-cut">Cutaway</button>
+            <span class="cut"><input type="range" id="ic-cutrange" min="-4" max="10" step="0.1" value="1.5" disabled aria-label="Cutaway plane"></span>
+            <span class="hint">drag = orbit · scroll = zoom · right-drag = pan · ←/→ = tour steps</span>
+          </div>
+        </div>
+      </div>
+      <div class="ic-side">
+        <div class="ic-card">
+          <h2 id="ic-steptitle"></h2>
+          <p class="ic-stepcount" id="ic-stepcount"></p>
+          <p class="ic-org-meta" id="ic-stepmeta"></p>
+          <p class="ic-stepbody" id="ic-stepbody"></p>
+          <p class="ic-legend" id="ic-legend"></p>
+          <p class="ic-vault" id="ic-vault"></p>
+          <div class="ic-nav" id="ic-nav">
+            <button id="ic-prev">← Prev</button>
+            <button id="ic-play" class="primary">▶ Auto-play</button>
+            <button id="ic-next">Next →</button>
+          </div>
+        </div>
+        <div class="ic-card">
+          <h2>Organelles</h2>
+          <div class="ic-org-list" id="ic-orglist"></div>
+          <p class="ic-stepbody" style="font-size:12px">Molecules, ribosomes and membrane proteins are enlarged for visibility — see the scale table below for true sizes.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="ic-scale">
+      <p><b>How to read the scale.</b> The cell is Ø 20 µm and the bar at bottom-right is live — it recomputes every frame from camera distance.
+      Mitochondria, ER tubules, Golgi, lysosomes, centrioles and microtubules are true 1:1.
+      Ribosomes (Ø 25 nm) are shown ×4, membrane proteins ≈ ×3, and tour molecules are enlarged dots — at true scale all three would be subpixel, which is why the render enlarges them.</p>
+      <p><b>One model, many cell types.</b> The 3-D morphology is a single generic human cell; each tour relabels it (see the cell-type line above each step and the overlay pill on the canvas). Adrenochrome shows a target cell in a neutrophil-rich inflammatory milieu — MPO/ROS make adrenochrome outside, damage lands inside. MB/AG stays a generic cell (speculative, no neutrophil link in the vault). Senescence, cell death and neuromelanin add macrophages/microglia as responders (surveillance, corpse clearance, neuronophagia); Warburg and IVM × FBZ are cancer cells.</p>
+      <table>
+        <tr><th>Structure</th><th>Real size</th><th>Rendered</th></tr>
+        <tr><td>Cell</td><td>Ø ~20 µm</td><td>1:1</td></tr>
+        <tr><td>Nucleus / nucleolus</td><td>Ø ~6 µm / ~2 µm</td><td>1:1</td></tr>
+        <tr><td>Mitochondrion</td><td>Ø 0.5–1 µm × 1–4 µm</td><td>1:1</td></tr>
+        <tr><td>Rough / smooth ER</td><td>sheets + Ø ~50 nm tubules</td><td>1:1 (tubule Ø ×1.8 for visibility)</td></tr>
+        <tr><td>Golgi stack</td><td>~1–2 µm across</td><td>1:1</td></tr>
+        <tr><td>Lysosome / peroxisome</td><td>Ø 0.2–0.5 / 0.1–1 µm</td><td>1:1</td></tr>
+        <tr><td>Centriole / microtubule</td><td>Ø 0.25 × 0.5 µm / Ø 25 nm</td><td>1:1</td></tr>
+        <tr><td>Nuclear pore</td><td>Ø ~120 nm</td><td>≈ ×1.5</td></tr>
+        <tr><td>Ribosome</td><td>Ø ~25 nm</td><td>×4</td></tr>
+        <tr><td>Membrane proteins / molecules</td><td>~5–10 nm / &lt; 1 nm</td><td>enlarged dots</td></tr>
+      </table>
+      <p>Developers: new processes plug in as data — add a step array to <code>STR</code> and a choreography to the tour registry in <code>pages/cell/inside-the-cell.js</code>.</p>
+    </footer>
+  </main>
+</div>
+<script>
+  T2.initNav(); T2.initTooltip(); T2.initLightbox(); T2.initNavScrollHint();
+</script>
+<script src="../themes/theme-02/pages-svg.js"></script>
+<script type="module">
+import { initCellPage } from '../cell/inside-the-cell.js';
+initCellPage({
+  lang: 'en',
+  canvas: document.getElementById('ic-canvas'),
+  els: {
+    stage: document.getElementById('ic-stage'),
+    tabs: document.getElementById('ic-tours'),
+    flag: document.getElementById('ic-stepflag'),
+    stepTitle: document.getElementById('ic-steptitle'),
+    stepCount: document.getElementById('ic-stepcount'),
+    stepMeta: document.getElementById('ic-stepmeta'),
+    stepBody: document.getElementById('ic-stepbody'),
+    legend: document.getElementById('ic-legend'),
+    vault: document.getElementById('ic-vault'),
+    nav: document.getElementById('ic-nav'),
+    prev: document.getElementById('ic-prev'),
+    play: document.getElementById('ic-play'),
+    next: document.getElementById('ic-next'),
+    orgList: document.getElementById('ic-orglist'),
+    tglLabels: document.getElementById('ic-labels'),
+    tglRotate: document.getElementById('ic-rotate'),
+    tglCut: document.getElementById('ic-cut'),
+    cutRange: document.getElementById('ic-cutrange'),
+    scaleNum: document.getElementById('ic-scalenum'),
+    scaleFill: document.getElementById('ic-scalefill'),
+    animToggle: document.getElementById('ic-anim'),
+  },
+});
+</script>
+</body>
+</html>

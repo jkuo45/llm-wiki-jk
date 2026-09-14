@@ -147,7 +147,7 @@ The [[cGAS-STING Pathway|cGAS–STING]] complex promotes the SASP through interf
 > [!important] cGAS–STING Activation
 > During this process, both [[TOP1]] cleavage complexes (TOP1cc) and [[G3BP1]] have crucial roles in assisting cGAS recognition of and binding to CCFs, which is essential for downstream SASP regulation. Inhibition of cGAS or STING greatly suppresses the activation of NF-κB in TIS, indicating that NF-κB is part of the pathway.
 
-[[Toll-like Receptor 2|TLR2]] is an innate immunity sensor that is upregulated in senescent cells and is essential for the activation of an immunity-regulating SASP during OIS through the cGAS–STING pathway. Levels of the retrotransposable element [[LINE-1]] are elevated during late senescence, and cytoplasmic LINE1 cDNA triggers interferon signalling in long-term senescence cells, reinforcing the production of SASP factors.
+[[TLR2]] is an innate immunity sensor that is upregulated in senescent cells and is essential for the activation of an immunity-regulating SASP during OIS through the cGAS–STING pathway. Levels of the retrotransposable element [[LINE-1]] are elevated during late senescence, and cytoplasmic LINE1 cDNA triggers interferon signalling in long-term senescence cells, reinforcing the production of SASP factors.
 
 > [!warning] Mitochondrial DNA Release
 > In senescent cells with minority mitochondrial outer membrane permeabilization (miMOMP), the [[BAX]] and [[BAK]] macropores allowed the mitochondrial inner membrane to herniate into the cytosol to release mitochondrial DNA, leading to activation of cGAS–STING and SASP. Cytoplasmic DNA released from mitochondria and cGAS–STING were shown to be the drivers of ageing-associated and SASP-like low-grade inflammation.

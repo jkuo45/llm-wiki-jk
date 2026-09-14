@@ -14,7 +14,18 @@ logger = logging.getLogger(__name__)
 
 GRAPH_PATH = Path(__file__).parent.parent.parent / "graphify-out" / "graph.json"
 
+# Canonical combined (triples + wiki) web dataset — the default UI dataset.
+# Health reports these counts; graph ops still run on the triples GRAPH_PATH
+# above (typed relations). See scripts/combined/build.py.
+DATA_DIR = Path(__file__).parent.parent.parent / "web" / "public" / "data"
+COMBINED_NODES_PATH = DATA_DIR / "nodes.json"
+COMBINED_EDGES_PATH = DATA_DIR / "edges.json"
+
 _G: nx.MultiDiGraph | None = None
+
+# mtime-keyed cache so /v1/health stats files instead of re-parsing ~24MB
+# of JSON on every call. Reset in tests via monkeypatch.
+_COMBINED_CACHE: dict = {}
 
 
 def get_graph() -> nx.MultiDiGraph:
@@ -24,6 +35,35 @@ def get_graph() -> nx.MultiDiGraph:
         data = json.loads(GRAPH_PATH.read_text(encoding="utf-8"))
         _G = json_graph.node_link_graph(data, edges="links")
     return _G
+
+
+def _count_json_array(path: Path) -> int:
+    """Count top-level items in a JSON array file."""
+    return len(json.loads(path.read_text(encoding="utf-8")))
+
+
+def get_combined_counts() -> dict[str, int | None]:
+    """Return combined node/edge counts from the canonical web dataset.
+
+    Results are cached by file mtime; missing/unreadable files yield None
+    so callers can fall back to the triples graph counts.
+    """
+    try:
+        n_stat = COMBINED_NODES_PATH.stat()
+        e_stat = COMBINED_EDGES_PATH.stat()
+    except OSError:
+        return {"nodes": None, "edges": None}
+    key = (n_stat.st_mtime_ns, n_stat.st_size, e_stat.st_mtime_ns, e_stat.st_size)
+    if _COMBINED_CACHE.get("key") == key:
+        return {"nodes": _COMBINED_CACHE["nodes"], "edges": _COMBINED_CACHE["edges"]}
+    try:
+        nodes = _count_json_array(COMBINED_NODES_PATH)
+        edges = _count_json_array(COMBINED_EDGES_PATH)
+    except (OSError, ValueError):
+        logger.warning("combined counts unreadable; falling back to triples graph")
+        return {"nodes": None, "edges": None}
+    _COMBINED_CACHE.update({"key": key, "nodes": nodes, "edges": edges})
+    return {"nodes": nodes, "edges": edges}
 
 
 # --- Precomputed, graph-global indexes ---------------------------------------
@@ -95,31 +135,8 @@ def warm_index() -> None:
         logger.warning(f"entity matcher warm failed: {e}")
 
 
-def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
-    """Find best matching node by label. Returns node id or None."""
-    term_lower = term.lower()
-    terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
-
-    scored = []
-    for nid, ndata in G.nodes(data=True):
-        label = (ndata.get("label") or "").lower()
-        norm = (ndata.get("norm_label") or "").lower()
-        # Exact match bonus
-        if label == term_lower or norm == term_lower:
-            return nid
-        score = sum(1 for t in terms if t in label or t in norm)
-        if score > 0:
-            scored.append((score, len(label), nid))
-
-    if not scored:
-        return None
-
-    scored.sort(key=lambda x: (-x[0], x[1]))
-    return scored[0][2]
-
-
 def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
-    """Find top N matching nodes."""
+    """Find top N matching nodes (limit=1 + [0] replaces _find_node)."""
     term_lower = term.lower()
     terms = [t for t in re.split(r"\s+", term_lower) if len(t) >= 2]
 
@@ -127,12 +144,19 @@ def _find_nodes(G: nx.MultiDiGraph, term: str, limit: int = 3) -> list[str]:
     for nid, ndata in G.nodes(data=True):
         label = (ndata.get("label") or "").lower()
         norm = (ndata.get("norm_label") or "").lower()
+        # ponytail: exact match wins, same as old _find_node
+        if label == term_lower or (norm and norm == term_lower):
+            return [nid][:limit]
         score = sum(1 for t in terms if t in label or t in norm)
         if score > 0:
-            scored.append((score, nid))
+            scored.append((-score, len(label), nid))
+    scored.sort()
+    return [nid for _, _, nid in scored[:limit]]
 
-    scored.sort(reverse=True)
-    return [nid for _, nid in scored[:limit]]
+
+def _find_node(G: nx.MultiDiGraph, term: str) -> str | None:
+    # ponytail: compat alias, single-result view of _find_nodes
+    return next(iter(_find_nodes(G, term, limit=1)), None)
 
 
 def match_nodes_in_text(text: str, query_text: str = "") -> dict:
@@ -268,7 +292,7 @@ def graph_query(question: str) -> dict:
 def graph_explain(node_name: str) -> dict:
     """Explain a node: show all connections with context."""
     G = get_graph()
-    nid = _find_node(G, node_name)
+    nid = next(iter(_find_nodes(G, node_name, limit=1)), None)
 
     if not nid:
         return {
@@ -406,7 +430,7 @@ def graph_path(waypoints: list[str]) -> dict:
     resolved: list[str] = []
     missing: list[str] = []
     for term in terms:
-        nid = _find_node(G, term)
+        nid = next(iter(_find_nodes(G, term, limit=1)), None)
         if nid is None:
             missing.append(term)
         elif not resolved or resolved[-1] != nid:
@@ -507,7 +531,7 @@ def graph_analyze(nodes: list[str], analysis_text: str = "") -> dict:
     resolved: list[str] = []
     missing: list[str] = []
     for term in terms:
-        nid = _find_node(G, term)
+        nid = next(iter(_find_nodes(G, term, limit=1)), None)
         if nid is None:
             missing.append(term)
         elif not resolved or resolved[-1] != nid:
