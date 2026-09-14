@@ -4,7 +4,7 @@ description: The Hormetic Window is the dose range over which a stressor or toxi
   produces adaptive, beneficial effects rather than damage. It is the quantitative
   boundary separating Hormesis from toxici...
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-09-13
 tags:
   - scientific-concept
   - hormesis
@@ -54,6 +54,31 @@ The width and position of the hormetic window are set by multiple molecular para
 - **[[UCP2]]** and other uncoupling proteins dissipate the mitochondrial membrane potential (ΔΨm), reducing ROS production at Complex I. Higher UCP expression widens the window by lowering the ROS ceiling.
 ### Genetic Background
 - Polymorphisms in **[[FOXO3a]]**, **[[SIRT1]]**, **[[PGC1A]]**, and **[[NRF2]]** shift individual hormetic windows. This explains inter-individual variability in responses to exercise, caloric restriction, and pharmacological interventions.
+
+## What Lies Above the Window: RCD vs ACD
+
+The upper bound of the window (the NOAEL) is the point where the adaptive response can no longer hold its controlled variables (e.g. ROS, Ca²⁺, DNA adducts) within the operating range. Above it lies death — but of two mechanistically distinct kinds, and the distinction matters for how the window is understood:
+
+- **Regulated cell death (RCD)** — death executed by dedicated, genetically encoded machinery ([[Apoptosis]] first, then [[Necroptosis]], [[Pyroptosis]], [[Ferroptosis]], [[Parthanatos]]). RCD is **hormetically tunable**: prior sub-lethal exposure raises the threshold, which is precisely how preconditioning widens the window.
+- **Accidental cell death (ACD)** — instantaneous, passive, biophysical collapse (extreme trauma, denaturation) with no sensor, no signal, and no checkpoint. ACD has no low-dose adaptive arm and cannot be widened by preconditioning.
+
+The relevant mechanistic bridge is the **hierarchical stress-response tier** model (Xiao/Nel; adapted for hormesis by Zhang et al., *Dose-Response* 2008):
+
+| Tier | Stress level | Dominant program | Cellular state |
+| --- | --- | --- | --- |
+| I | Low (within window) | [[NRF2]]/[[ARE]] antioxidant + phase II enzymes | Adaptive (reversible) |
+| II | Intermediate | [[NF-κB]]-driven inflammatory response | Stressed (reversible) |
+| III | High | Apoptotic / necrotic execution | Toxic (irreversible) |
+
+So **RCD is the first death tier above the hormetic window** (tier III), and the window's upper boundary is the tier I → tier III transition. **ACD sits beyond RCD** as a terminal, unregulated tier reached only when a stressor is instantly overwhelming and bypasses signaling altogether.
+
+Two consequences:
+
+1. **The window is defined by RCD resistance, not by ACD avoidance.** Ischemic, thermal, oxidative, and caloric preconditioning engage tier I–II programs that raise the RCD threshold; none make a cell physically resistant to catastrophic trauma.
+2. **The ACD/RCD boundary is not sharp.** MPT-driven necrosis and the regulated necroses blur the divide, so the hormetic lens can reach into nominally accidental death through its regulated component.
+
+The full argument is developed in `src/tasks/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md`.
+
 ## Tissue-Specific Windows
 The hormetic window varies across tissues, creating therapeutic challenges:
 | Tissue | Window Width | Key Determinants | Clinical Implication |
@@ -107,6 +132,10 @@ The universal recurrence of the inverted-U across mitochondrial, radiation, ther
 - [[Incoherent Bivalent Motif]] — network origin of the biphasic shape
 - [[Hormesis]] — Parent concept; the hormetic window is its quantitative expression
 - [[Mitohormesis]] — Mitochondrial-specific hormesis; window determines adaptive vs. damaging outcomes
+- [[Regulated Cell Death]] — RCD defines the window's upper edge (the first death tier above the NOAEL) and is itself hormetically tunable
+- [[Apoptosis]] — the first RCD tier above the window; preconditioning raises its threshold
+- [[Necrosis]] — accidental cell death (ACD) beyond RCD; no adaptive arm, not preconditionable
+- [[NF-κB]] — tier II stress program: inflammatory/stressed state between Nrf2 adaptation and execution
 - [[SIRT3]]/[[SIRT4]] ratio — Primary molecular determinant of mitochondrial hormetic window width
 - [[MnSOD]] — Enzyme whose activity sets the superoxide clearance rate within the window
 - [[_document_ - Mitohormetic Redox-Relay]] — Therapeutic framework that explicitly optimizes the window
@@ -127,4 +156,5 @@ The universal recurrence of the inverted-U across mitochondrial, radiation, ther
 ## Linking Summary
 - New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC-1α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]], [[Biphasic Dose-Response Curve]], [[Incoherent Bivalent Motif]], [[Saturated Enzymatic Regime]]
 - Suggested new entity notes to create: [[Hormetic Dose-Response Curve]], [[Therapeutic Window Optimization]], [[Yerkes-Dodson Law]]
-  - Strong connections to strengthen: Hormetic Window ↔ [[SIRT3]]/[[SIRT4]] ratio, Hormetic Window ↔ Mitohormetic Redox-Relay, Hormetic Window ↔ [[Yerkes-Dodson Law]], Hormetic Window ↔ [[Hormesis in Non-Mitochondrial Systems]]
+  - Strong connections to strengthen: Hormetic Window ↔ [[SIRT3]]/[[SIRT4]] ratio, Hormetic Window ↔ Mitohormetic Redox-Relay, Hormetic Window ↔ [[Yerkes-Dodson Law]]
+- Cell-death tier update (2026-09-13): added "What Lies Above the Window: RCD vs ACD" — RCD ([[Regulated Cell Death]]) is the first, hormetically tunable death tier above the NOAEL; accidental cell death (ACD, [[Necrosis]]) lies beyond signaling and is not preconditionable. Added the tier I [[NRF2]] / tier II [[NF-κB]] / tier III execution mapping (Zhang et al., *Dose-Response* 2008). New links: [[Regulated Cell Death]], [[Necrosis]], [[NF-κB]].
