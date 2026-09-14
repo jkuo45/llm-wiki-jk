@@ -18,7 +18,7 @@ Protein kinase R (PKR, EIF2AK2) is a double-stranded-RNA sensor classically know
 
 ## Role in Necroptosis
 
-PKR can scaffold or activate [[RIPK1]] and feed into [[necrosome]] assembly, promoting [[RIPK3]]–[[MLKL]] [[Necroptosis]] in certain viral and inflammatory settings. It thus bridges nucleic-acid sensing (alongside [[ZBP1]] and [[Toll-like Receptor]] pathways) to regulated necrosis.
+PKR can contribute to [[RIPK1]]-dependent [[necrosome]] assembly, promoting [[RIPK3]]–[[MLKL]] [[Necroptosis]] in certain viral and inflammatory settings. It thus bridges nucleic-acid sensing (alongside [[ZBP1]] and [[Toll-like Receptor]] pathways) to regulated necrosis.
 
 ## Documents
 
@@ -26,7 +26,7 @@ None yet.
 
 ## Connections
 
-- [[RIPK1]] — kinase PKR can engage upstream of the [[necrosome]].
+- [[RIPK1]] — upstream kinase whose necrosome function PKR may contribute to.
 - [[RIPK3]] — downstream necroptosis effector.
 - [[Necroptosis]] — death program PKR can trigger.
 - [[ZBP1]] — parallel nucleic-acid sensor feeding the [[necrosome]].

@@ -2844,16 +2844,16 @@
   {
     "id": "782cf36e9bd6",
     "subject": "Cerulein-Induced Pancreatitis",
-    "predicate": "triggers",
+    "predicate": "is_driven_by",
     "object": "Necroptosis",
     "context": {
-      "en-US": "Supramaximal cerulein (CCK analogue) hyperstimulates pancreatic acinar cells and drives RIPK3/MLKL-dependent acinar necroptosis — the standard in vivo necroptotic pancreatitis model.",
-      "zh-TW": "超最大量 cerulein（CCK 類似物）過度刺激胰臟腺泡細胞並驅動 RIPK3/MLKL 依賴的腺泡 necroptosis，為標準的 in vivo necroptotic 胰臟炎模型。"
+      "en-US": "Acinar necrosis in cerulein-induced pancreatitis is driven in large part by necroptosis: supramaximal cerulein hyperstimulation activates RIPK3, whose phosphorylation of MLKL ruptures acinar membranes; RIPK3 or MLKL deletion attenuates severity.",
+      "zh-TW": "cerulein 誘導胰臟炎的腺泡壞死主要由 necroptosis 驅動：超最大量 cerulein 過度刺激活化 RIPK3，其磷酸化 MLKL 使腺泡膜破裂；RIPK3 或 MLKL 缺失可減輕嚴重度。"
     },
     "confidence": 0.88,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-14T03:00:00Z"
   },
   {
     "id": "05a1c5bd7266",
@@ -2889,10 +2889,10 @@
     "predicate": "contributes_to",
     "object": "Cerulein-Induced Pancreatitis",
     "context": {
-      "en-US": "MLKL oligomerization ruptures acinar plasma membranes in cerulein-induced pancreatitis; MLKL ablation parallels RIPK3 loss in attenuating CIP severity.",
-      "zh-TW": "MLKL 寡聚化使 CIP 中腺泡質膜破裂；MLKL 缺失與 RIPK3 缺失同樣減輕 CIP 嚴重度。"
+      "en-US": "MLKL oligomerization is the proposed executor of acinar plasma-membrane rupture in cerulein-induced pancreatitis, but MLKL knockout does not consistently reduce CIP severity (He et al. 2015), suggesting RIPK3 may act through MLKL-independent substrates in this model.",
+      "zh-TW": "MLKL 寡聚化是 CIP 中腺泡質膜破裂的假定執行者，但 MLKL 敲除並未一致降低 CIP 嚴重度（He et al. 2015），提示 RIPK3 可能在此模型中透過 MLKL 非依賴底物作用。"
     },
-    "confidence": 0.85,
+    "confidence": 0.7,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
     "updated": "2026-09-14T02:30:00Z"

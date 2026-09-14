@@ -18,7 +18,7 @@ STAT (signal transducer and activator of transcription) proteins are latent cyto
 
 ## Family and Necroptotic Context
 
-Mammals express STAT1–6 (see [[STAT1]], [[STAT3]], [[STAT6]]). In necroptotic inflammation, [[Interferon]]–[[JAK-STAT Signaling]] drives expression of death machinery components (including [[MLKL]] and [[Protein Kinase R]]) and amplifies [[NF-κB]]-dependent cytokine output surrounding [[Necroptosis]] lesions.
+Mammals express STAT1–6 (see [[STAT1]], [[STAT3]], [[STAT6]]). In necroptotic inflammation, [[Interferon]]–[[JAK-STAT Signaling]] transcriptionally primes the necroptosis machinery — most robustly documented for [[Protein Kinase R]] and, in several cell types, [[RIPK3]] and [[ZBP1]] (both IFN-stimulated) — and amplifies [[NF-κB]]-dependent cytokine output surrounding [[Necroptosis]] lesions. Type I and II interferons thereby sensitize cells to RIPK1/RIPK3/MLKL necroptosis (Thapa et al., *Cell Host Microbe* 2016).
 
 ## Documents
 

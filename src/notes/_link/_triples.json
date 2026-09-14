@@ -15853,10 +15853,10 @@
     "predicate": "triggers",
     "object": "Mitochondrial Permeability Transition",
     "context": {
-      "en-US": "Mitochondrial/oxidative ROS promotes RIPK1 autophosphorylation and drives MPT opening upstream of necroptotic and necrotic death; ROS-driven MPTP opening feeds the RIPK1/RIPK3/MLKL axis.",
-      "zh-TW": "粒線體/氧化性 ROS 促進 RIPK1 自磷酸化，並在 necroptotic/壞死性死亡上游驅動 MPT 開啟；ROS 驅動的 mPTP 開啟回饋 RIPK1/RIPK3/MLKL 軸。"
+      "en-US": "Mitochondrial ROS can trigger MPT independently of necroptosis signaling; ROS can also promote RIPK1 autophosphorylation as a parallel upstream input. The two pathways (ROS→MPT and ROS→RIPK1) are distinct and context-dependent rather than a single linear chain.",
+      "zh-TW": "粒線體 ROS 可獨立於 necroptosis 訊號觸發 MPT；ROS 亦可促進 RIPK1 自磷酸化作為平行上游輸入。兩條路徑（ROS→MPT 與 ROS→RIPK1）為獨立且取決於情境，而非單一線性鏈。"
     },
-    "confidence": 0.85,
+    "confidence": 0.82,
     "source_document": "Mitochondrial Permeability Transition.md",
     "created": "2026-09-14T02:30:00Z",
     "updated": "2026-09-14T02:30:00Z"
@@ -15878,16 +15878,16 @@
   {
     "id": "2fd7786c2af5",
     "subject": "Necroptosis",
-    "predicate": "triggers",
+    "predicate": "contributes_to",
     "object": "Systemic Inflammatory Response Syndrome",
     "context": {
-      "en-US": "Massive necroptotic DAMP release from ruptured cells (e.g., in severe pancreatitis) activates TLR and inflammasome cascades systemically, escalating local necrosis into SIRS.",
-      "zh-TW": "大量破裂細胞（如嚴重胰臟炎）釋出的 necroptotic DAMP 全身性激活 TLR 與炎症小體級聯，使局部壞死升級為 SIRS。"
+      "en-US": "Massive necroptotic DAMP release from ruptured cells (e.g., in severe pancreatitis) contributes to SIRS by activating TLR and inflammasome cascades systemically, escalating local necrosis into whole-body inflammation.",
+      "zh-TW": "破裂細胞大量釋出的 necroptotic DAMP（如嚴重胰臟炎）經由全身性活化 TLR 與炎症小體級聯，促成 SIRS，使局部壞死升級為全身性發炎。"
     },
     "confidence": 0.82,
     "source_document": "Systemic Inflammatory Response Syndrome.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-14T03:00:00Z"
   },
   {
     "id": "8f1be8b15ad1",
@@ -15937,10 +15937,10 @@
     "predicate": "promotes",
     "object": "Necroptosis",
     "context": {
-      "en-US": "PKR is required for interferon-induced RIPK1/RIPK3-mediated necroptosis (Thapa et al., Cell Host Microbe 2016) and can scaffold RIPK1 in dsRNA-sensing death contexts.",
-      "zh-TW": "PKR 為干擾素誘導 RIPK1/RIPK3 介導 necroptosis 所必需（Thapa et al., Cell Host Microbe 2016），並可在 dsRNA 感測死亡情境中支架化 RIPK1。"
+      "en-US": "PKR is required for interferon-induced RIPK1/RIPK3-mediated necroptosis (Thapa et al., Cell Host Microbe 2016) and may contribute to necrosome assembly in dsRNA-sensing contexts, though whether it directly scaffolds RIPK1 or acts upstream via eIF2α remains under investigation.",
+      "zh-TW": "PKR 為干擾素誘導 RIPK1/RIPK3 介導 necroptosis 所必需（Thapa et al., Cell Host Microbe 2016），並可能在 dsRNA 感測情境中促進 necrosome 組裝，但其是否直接支架化 RIPK1 或經由 eIF2α 上游作用仍在研究中。"
     },
-    "confidence": 0.8,
+    "confidence": 0.78,
     "source_document": "Protein Kinase R.md",
     "created": "2026-09-14T02:30:00Z",
     "updated": "2026-09-14T02:30:00Z"
@@ -15948,16 +15948,16 @@
   {
     "id": "bbe1655859b4",
     "subject": "Protein Kinase R",
-    "predicate": "activates",
+    "predicate": "interacts_with",
     "object": "RIPK1",
     "context": {
-      "en-US": "In virus- and IFN-driven settings PKR engages and activates RIPK1 upstream of necrosome assembly, bridging nucleic-acid sensing to regulated necrosis.",
-      "zh-TW": "在病毒與 IFN 驅動的情境中，PKR 在 necrosome 組裝上游結合並活化 RIPK1，橋接核酸感測與受調控壞死。"
+      "en-US": "In the IFN- and virus-driven necrosome, PKR co-immunoprecipitates with RIPK1 (as well as RIPK3 and FADD) and is required for interferon-induced necroptosis (Thapa et al., Cell Host Microbe 2016); whether this reflects direct scaffolding or indirect upstream contribution remains unclear.",
+      "zh-TW": "在 IFN 與病毒驅動的 necrosome 中，PKR 與 RIPK1（亦與 RIPK3、FADD）共免疫沉澱，且為干擾素誘導 necroptosis 所必需（Thapa et al., Cell Host Microbe 2016）；此相互作用是直接支架化還是間接上游貢獻尚不明確。"
     },
-    "confidence": 0.68,
+    "confidence": 0.72,
     "source_document": "Protein Kinase R.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-14T03:00:00Z"
   },
   {
     "id": "528daae6513b",
@@ -15989,17 +15989,17 @@
   },
   {
     "id": "763a25ded5d3",
-    "subject": "JAK-STAT Signaling",
-    "predicate": "upregulates",
-    "object": "MLKL",
+    "subject": "Interferon",
+    "predicate": "sensitizes_to",
+    "object": "Necroptosis",
     "context": {
-      "en-US": "IFN-JAK-STAT signaling transcriptionally upregulates death machinery including MLKL and PKR, priming cells for necroptosis when caspases are blocked.",
-      "zh-TW": "IFN-JAK-STAT 訊號轉錄性上調 MLKL、PKR 等死亡機器，當 caspase 受阻時使細胞進入可執行 necroptosis 的預啟動狀態。"
+      "en-US": "Type I/II interferons prime the RIPK1/RIPK3/MLKL pathway through JAK-STAT signaling, most robustly by inducing PKR and (in several cell types) RIPK3 and ZBP1; interferon-activated cells are thereby sensitized to necroptosis when caspases are blocked (Thapa et al., Cell Host Microbe 2016).",
+      "zh-TW": "第一/二型干擾素經 JAK-STAT 訊號啟動 RIPK1/RIPK3/MLKL 路徑，最明確的機制是誘導 PKR 及（多種細胞中）RIPK3 與 ZBP1；經干擾素活化的細胞在 caspase 受阻時對 necroptosis 更敏感（Thapa et al., Cell Host Microbe 2016）。"
     },
-    "confidence": 0.78,
+    "confidence": 0.8,
     "source_document": "STAT.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-14T03:00:00Z"
   },
   {
     "id": "bd360b62cd74",
@@ -16098,5 +16098,19 @@
     "source_document": "Toll-like Receptor.md",
     "created": "2026-09-14T02:30:00Z",
     "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "b17759edf311",
+    "subject": "Interferon",
+    "predicate": "upregulates",
+    "object": "ZBP1",
+    "context": {
+      "en-US": "ZBP1 (DAI) is an interferon-stimulated gene: type I/II IFN signaling induces ZBP1 expression, priming the ZBP1-RIPK3 necrosome for antiviral necroptosis (MURI-viable sensors; Malireddi et al.; Kuriakose et al., Cell Host Microbe 2016).",
+      "zh-TW": "ZBP1（DAI）為干擾素刺激基因：第一/二型 IFN 訊號誘導 ZBP1 表現，啟動 ZBP1-RIPK3 necrosome 以執行抗病毒 necroptosis（Kuriakose et al., Cell Host Microbe 2016）。"
+    },
+    "confidence": 0.85,
+    "source_document": "DAI.md",
+    "created": "2026-09-14T03:00:00Z",
+    "updated": "2026-09-14T03:00:00Z"
   }
 ]
