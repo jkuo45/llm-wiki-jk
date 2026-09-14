@@ -5,7 +5,7 @@ description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-f
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
 protected: true
 created: 2024-01-01
-updated: 2026-09-08
+updated: 2026-09-13
 tags:
   - enzyme
 aliases: [PARP-1, Poly(ADP-ribose) polymerase 1, ARTD1]
@@ -63,6 +63,8 @@ PARP1 hyperactivation is also implicated in ischemia–reperfusion injury. Durin
 
 The nNOS → PARP-1 → PAR → [[Apoptosis-Inducing Factor|AIF]] cascade is the sexually dimorphic death switch in ischemic brain: males die via PARP/AIF caspase-independent death, females via caspase-mediated death with higher cleaved caspase-3 (Li et al. 2005, *Ann Neurol* 58:317–321; Liu et al. 2009, *Stroke* 40:1842–1848, PMID 19265047). In females PARP-1 is protective, not toxic: its loss shunts females toward enhanced cytochrome-c release and caspase-9/-3 activation, reversible by pan-caspase inhibition (*Stroke* 2011;42:739–745, PMID 21311064). PARP inhibitors, nNOS inhibitors, and related preconditioning protect males but worsen or fail in females even after ovariectomy, so preclinical neuroprotection must stratify by sex. Proposed female-side brakes (estrogen-receptor crosstalk, X-linked inhibitor dosage) remain hypotheses. See [[Parthanatos]] and [[Apoptosis]] for the graded evidence.
 
+Clinical translation has not followed the biology (2026-09-13): the only stroke PARP-inhibitor program to reach the clinic, JPI-289 ([[Amelparib]], Jeil; Ph2a NCT03062397), was built on the male-arm mechanism yet enrolled without sex stratification — its Ph1 ran in healthy male volunteers and neither trial used the male-selective parthanatos biology in its design. Female-side candidates — pan-caspase inhibition (Q-VD-OPh, female-only rescue) and ERβ-selective agonism — carry preclinical rescue evidence but have no stroke program; clinical pan-caspase data are discouraging (emricasan, NASH Ph2b miss, *J Hepatol* 2020), and chronic estradiol stroke trials (WEST, WHI) failed, so the female strategy must target the executor and the ERβ axis rather than hormone replacement. See [[Parthanatos]] §Sex dimorphism for the clinical-translation gap and a straw-man sex-stratified trial design.
+
 PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine expression, positioning it as a potential target in chronic inflammatory conditions. In the [[SASP|senescence-associated secretory phenotype]], the ATM–PARP1–IKK axis is acutely activated in advance of NF-κB signaling; PARP1 was initially shown to mediate NF-κB-associated SASP, with [[IκBζ]] acting as a selective co-activator for a subset of SASP genes (IL6, IL8). PARP inhibitors have demonstrated anti-inflammatory effects in models of arthritis, colitis, and endotoxemia.
 
 Nuclear [[cGAS]] interacts directly with PARP1, disrupting the PARP1–Timeless complex and thereby suppressing [[Homologous Recombination|homologous recombination]]. This cGAS–PARP1 interaction positions nuclear cGAS as a regulator of genome stability independent of its cytosolic DNA-sensing role. In contrast, cGAS from the long-lived [[Naked Mole Rat]] exhibits prolonged chromatin retention and enhances DNA repair, suggesting that PARP1–cGAS crosstalk may be tuned differently in long-lived species.
@@ -88,6 +90,7 @@ The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regula
 - [[XRCC1]] — scaffold protein recruited by PARP1 for single-strand break repair
 - [[ATM]] — kinase recruited to DSBs with assistance from PARP1-dependent PARylation; ATM–PARP1–IKK axis drives SASP
 - [[PARP inhibitors]] — therapeutic agents that exploit synthetic lethality in BRCA-mutant cancers
+- [[Amelparib]] — JPI-289, the only stroke PARP-inhibitor program to reach the clinic; male-arm parthanatos biology, enrolled without sex stratification
 - [[Apoptosis]] — excessive PARP1 activation triggers parthanatos, a caspase-independent cell death pathway
 - [[Chromatin]] — PARylation of histones remodels chromatin structure at damage sites
 - [[NF-κB]] — transcription factor whose activity is modulated by PARP1-dependent PARylation
@@ -116,3 +119,4 @@ The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regula
   - [[PARP1]] ↔ [[cGAS]] — nuclear cGAS suppresses homologous recombination via PARP1 binding
   - [[PARP1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]] — PARP1 relocation to DSBs drives epigenetic drift
   - Sex-dimorphism enrichment (2026-09-03): male PARP/AIF vs female caspase death switch; PARP loss shunts females to caspase (Stroke 2011); inhibitors stratify by sex. New links: [[Parthanatos]].
+  - Clinical-translation enrichment (2026-09-13): JPI-289 ([[Amelparib]]) Ph2a NCT03062397 enrolled without sex stratification despite male-arm biology; female-arm candidates (pan-caspase, ERβ agonism) lack stroke programs. New links: [[Amelparib]].

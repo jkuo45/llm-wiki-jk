@@ -5,7 +5,7 @@ description: PARP-1-dependent regulated cell death executed by PAR polymer signa
   DNA fragmentation and NAD+ depletion.
 protected: true
 created: 2026-09-03
-updated: 2026-09-08
+updated: 2026-09-13
 tags: [biological-process, cell-death, regulated-cell-death, neurodegeneration]
 url: #
 source: #
@@ -59,11 +59,13 @@ Primary death in post-mitotic neurons: stroke/MCAO (minutes-scale [[PAR]]/NO; PA
 
 Ischemic parthanatos signaling is sexually dimorphic. In adult mouse MCAO, PARP-1 deletion, nNOS blockade, or PARP inhibition (7-nitroindazole; PJ-34) reduces infarct in males but worsens injury in females, and PARP-1 loss abolishes 17β-estradiol neuroprotection — estradiol replacement paradoxically increases infarction in PARP-1−/− ovariectomized females (McCullough et al. 2005, *J Cereb Blood Flow Metab*, PMID 15689952). PAR formation and nuclear [[Apoptosis-Inducing Factor|AIF]] translocation occur in both sexes, but kill only males: PARP-1 deletion suppresses PAR/AIF equally yet protects males only, and Harlequin AIF-deficient adults are protected in males only (Yuan et al. 2009, *Exp Neurol* 217:210–218). The neonatal pattern matches — PARP-1 disruption preferentially protects males from perinatal hypoxia-ischemia (Hagberg et al. 2004, *J Neurochem* 90:1068–1075), while females die via cytochrome-c/caspase-3, rescued by the pan-caspase inhibitor Q-VD-OPh in females only (*Stroke* 2011;42:739–745). Sex-chromosome complement alone recapitulates the split in vitro: XY neurons favor AIF-mediated caspase-independent death, XX neurons cytochrome-c/caspase death (Du et al. 2004, *J Biol Chem* 279:38563–38570). Caveat: neonatal Harlequin protection is additive with caspase inhibition in both sexes (Zhu et al. 2006, *Cell Death Differ*), so the male-selective AIF effect is adult-specific and model-dependent. No verified sex difference exists for the [[MIF]]/PAAN nuclease step. See also [[Apoptosis]] for the XX-caspase counterpart.
 
+**Clinical-translation gap (2026-09-13):** the sex split remains clinically untested. The only parthanatos-targeting stroke program, JPI-289 (amelparib, Jeil; PARP-1 IC50 18.5 nM, cellular PAR 10.7 nM; ~49% infarct reduction in monkey tMCAO), ran its Ph1 in healthy male volunteers and its Ph2a (NCT03062397, acute ischemic stroke + tPA) without sex stratification — male-selective biology was never used to design it, and no sex-stratified cell-death neuroprotection trial exists. Female-side candidates lag further: pan-caspase inhibition is the modality-matched strategy (Q-VD-OPh rescues females only), but clinical pan-caspase data are discouraging (emricasan Ph2b NASH miss, *J Hepatol* 2020), ERβ-selective agonism has reached Ph2 only in non-stroke indications (erteberel/LY500307 schizophrenia + perimenopausal depression; ERB-041 IBD), and non-feminizing ER-silent estradiol analogues never left preclinical. Chronic estradiol stroke trials failed (WEST, WHI), so a female-arm design should target the executor (caspase-3) and the ERβ axis, not replace estrogen. See `task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md` for the full framework and a straw-man sex-stratified stroke trial design.
+
 ## Tool compounds
 
 | Target | Agents |
 |---|---|
-| [[PARP1]] hyperactivation | DPQ, DHIQ, benzamide/3-aminobenzamide, PJ34, veliparib, olaparib, INO-1001, 4'-methoxyflavone, 3',4'-dimethoxyflavone |
+| [[PARP1]] hyperactivation | DPQ, DHIQ, benzamide/3-aminobenzamide, PJ34, veliparib, olaparib, INO-1001, 4'-methoxyflavone, 3',4'-dimethoxyflavone, [[Amelparib]] (JPI-289; water-soluble, clinical) |
 | [[PAR]] signal | Anti-PAR antibodies, [[PARG]] overexpression, [[Iduna]] potentiation, crocetin via NOX2/HK-1 protection |
 | [[Apoptosis-Inducing Factor|AIF]] release/translocation | No direct inhibitor; PAR-binding-dead AIF proof-of-concept, HSP70 overexpression, calpastatin in ischemia models |
 | [[Apoptosis-Inducing Factor|AIF]]-[[MIF]] interaction | [[HDAC6]] inhibitors disrupt (acetylate [[MIF]]) |
@@ -102,6 +104,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[PARP1]] — sensor/executor; hyperactivation defines parthanatos; target of DPQ/PJ34/veliparib/olaparib.
+- [[Amelparib]] — JPI-289, the only parthanatos-targeting stroke program to reach the clinic (Ph2a NCT03062397); male-arm biology, designed without sex stratification.
 - [[Apoptosis-Inducing Factor|AIF]] — mitochondrial flavoprotein; PAR binding -> release -> nuclear commitment point; Hq model.
 - [[PAR]] — polymer death signal; length/dose toxicity; H1.2-carried.
 - [[MIF]] — PAAN nuclease; E22-dependent AIF recruitment; PAANIB-1 target; PD/AD biomarker.
@@ -128,3 +131,4 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[PAR]], [[MIF]], [[PARG]], [[Iduna]], [[Hexokinase-1]], [[PAANIB-1]], [[H1.2]].
 - Strong connections to strengthen: [[Parthanatos]] <-> [[PARP1]], [[Parthanatos]] <-> [[Apoptosis-Inducing Factor|AIF]], [[Parthanatos]] <-> [[MIF]], [[Parthanatos]] <-> [[NAD+]], [[Parthanatos]] <-> [[Apoptosis]] (sex-difference arm).
 - Sex-dimorphism enrichment (2026-09-03): male-PARP/AIF vs female-caspase split across adult MCAO, neonatal HI, and XY/XX cultures (McCullough 2005; Yuan 2009; Hagberg 2004; Du 2004; Stroke 2011; Zhu 2006 caveat); no MIF/PAAN sex claim.
+- Clinical-translation enrichment (2026-09-13): JPI-289 ([[Amelparib]]) Ph2a NCT03062397 unstratified; female-arm candidates (pan-caspase, ERβ agonism) without stroke programs; full write-up in `task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md`. New links: [[Amelparib]].
