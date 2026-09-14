@@ -1,5 +1,5 @@
 {
-  "generated": "11_SEP_2026 08:45 PM PDT",
+  "generated": "14_SEP_2026 10:03 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,286 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_modality_distribution_research_13_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell-Death Modality Distribution — Research Review: Primary Forms, Classification Axes, and Turnover Quantification",
+          "description": "Literature review of whether apoptosis/necrosis remain the primary cell-death forms, how modern taxonomy classifies modalities along controlled, lytic, inflammatory, and immunogenic axes, how favorability is determined, and what is actually known about the quantitative distribution of cell death in humans.",
+          "created": "2026-09-13",
+          "updated": "2026-09-13",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "pyroptosis",
+            "ferroptosis",
+            "parthanatos",
+            "panoptosis",
+            "immunogenic-cell-death",
+            "turnover",
+            "eryptosis"
+          ],
+          "filename": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡型式分布 — 研究綜述：主要型式、分類軸與週轉量量化",
+          "description": "文獻回顧：凋亡／壞死是否仍是主要細胞死亡型式、現代分類學如何沿調控性、溶裂性、發炎性與免疫原性軸分類型式、有利性如何判定，以及人類細胞死亡的量化分布實際已知為何。",
+          "created": "2026-09-13",
+          "updated": "2026-09-14",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "apoptosis",
+            "necrosis",
+            "necroptosis",
+            "pyroptosis",
+            "ferroptosis",
+            "parthanatos",
+            "panoptosis",
+            "immunogenic-cell-death",
+            "turnover",
+            "eryptosis"
+          ],
+          "filename": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_senescence_research_12_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death × Cellular Senescence — Web-Research",
+          "description": "Extended analysis of the connection between regulated cell death and cellular senescence, grounded in vault notes and supplemented with 2017–2026 primary literature and reviews (p53 dynamics, minority MOMP, SCAP biology, ferroptosis vulnerability, TIS escape).",
+          "created": "2026-09-12",
+          "updated": "2026-09-12",
+          "tags": [
+            "cell-death",
+            "senescence",
+            "apoptosis",
+            "ferroptosis",
+            "minority-momp",
+            "senolytics",
+            "therapy-induced-senescence",
+            "literature-review",
+            "cancer"
+          ],
+          "filename": "task_output_cell_death_senescence_research_12_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_senescence_research_12_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡 × 細胞衰老 — 網路研究",
+          "description": "受調控細胞死亡與細胞衰老之間連結的延伸分析，奠基於知識庫筆記並以 2017–2026 年原始文獻與綜述補充（p53 動態、minority MOMP、SCAP 生物學、鐵死亡脆弱性、TIS 逃脫）。",
+          "created": "2026-09-12",
+          "updated": "2026-09-14",
+          "tags": [
+            "cell-death",
+            "senescence",
+            "apoptosis",
+            "ferroptosis",
+            "minority-momp",
+            "senolytics",
+            "therapy-induced-senescence",
+            "literature-review",
+            "cancer"
+          ],
+          "filename": "task_output_cell_death_senescence_research_12_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_senescence_research_12_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_hormesis_rcd_acd_tier_model_13_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Hormesis and Cell Death — RCD, ACD, and the Tiered Stress-Response Model",
+          "description": "Whether accidental (ACD) and regulated (RCD) cell death can be viewed through the hormetic lens; maps the hormetic window onto the hierarchical Nrf2/NF-κB/apoptosis tier model and argues RCD is the first death tier above the window while ACD sits outside it.",
+          "created": "2026-09-13",
+          "updated": "2026-09-13",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "cell-death",
+            "regulated-cell-death",
+            "accidental-cell-death",
+            "apoptosis",
+            "necrosis",
+            "mitohormesis",
+            "preconditioning"
+          ],
+          "filename": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "激素效應與細胞死亡 — RCD、ACD 與分層壓力反應模型",
+          "description": "意外性（ACD）與受調控（RCD）細胞死亡能否以激素效應之鏡檢視；將激素效應窗口映射至階層式 Nrf2/NF-κB/細胞凋亡分層模型，並論證 RCD 是窗口之上的第一死亡層級，而 ACD 位於其外。",
+          "created": "2026-09-13",
+          "updated": "2026-09-14",
+          "tags": [
+            "task-output",
+            "hormesis",
+            "cell-death",
+            "regulated-cell-death",
+            "accidental-cell-death",
+            "apoptosis",
+            "necrosis",
+            "mitohormesis",
+            "preconditioning"
+          ],
+          "filename": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_senescence_regulators_sensors_organs_12_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Senescence Regulators and Sensors Across Organs — Prostate Breast Lung Colon Skin",
+          "description": "Organ-by-regulator and sensor maps of cellular senescence across top cancers, grounded in vault notes and supplemented with general biology",
+          "created": "2026-09-12",
+          "updated": "2026-09-12",
+          "tags": [
+            "senescence",
+            "sasp",
+            "prostate-cancer",
+            "breast-cancer",
+            "lung-cancer",
+            "colorectal-cancer",
+            "skin-cancer",
+            "sirtuins",
+            "p53",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
+          "path": "tasks/en-US/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "跨器官的衰老調節因子與感測器 — 攝護腺、乳癌、肺癌、結腸、皮膚",
+          "description": "主要癌症中細胞衰老之器官對調節因子與感測器地圖，奠基於知識庫筆記並以一般生物學補充",
+          "created": "2026-09-12",
+          "updated": "2026-09-14",
+          "tags": [
+            "senescence",
+            "sasp",
+            "prostate-cancer",
+            "breast-cancer",
+            "lung-cancer",
+            "colorectal-cancer",
+            "skin-cancer",
+            "sirtuins",
+            "p53",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell-Death-Modality-First Therapeutics with Sex Stratification: Framework, Sex-Stratified Stroke Trial Design, and the Parthanatos Translation Gap",
+          "description": "Three-part research write-up: (1) the modality-first/patient-second drug-development framework and whether it is common or overlooked; (2) a concrete sex-stratified acute ischemic stroke trial design (PARP/parthanatos arm for males, pan-caspase + ER-beta arm for females) grounded in vault evidence; (3) the clinical-translation gap for Parthanatos (JPI-289/amelparib) with recommended note update.",
+          "created": "2026-09-13",
+          "updated": "2026-09-13",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "parthanatos",
+            "apoptosis",
+            "necroptosis",
+            "ferroptosis",
+            "pyroptosis",
+            "sex-dimorphism",
+            "precision-medicine",
+            "stroke",
+            "estrogen",
+            "ER-beta",
+            "bh3-profiling",
+            "gasdermin",
+            "trial-design"
+          ],
+          "filename": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "以細胞死亡型式優先的療法與性別分層：框架、性別分層中風試驗設計，與 Parthanatos 轉譯落差",
+          "description": "三部分研究撰文：(1) 型式優先／病人其次的藥物開發框架及其是否普遍或被忽視；(2) 基於知識庫證據的具體性別分層急性缺血性中風試驗設計（男性 PARP/parthanatos 組、女性泛 caspase + ER-β 組）；(3) Parthanatos 的臨床轉譯落差（JPI-289/amelparib），並附建議的筆記更新。",
+          "created": "2026-09-13",
+          "updated": "2026-09-14",
+          "tags": [
+            "task-output",
+            "research",
+            "cell-death",
+            "parthanatos",
+            "apoptosis",
+            "necroptosis",
+            "ferroptosis",
+            "pyroptosis",
+            "sex-dimorphism",
+            "precision-medicine",
+            "stroke",
+            "estrogen",
+            "ER-beta",
+            "bh3-profiling",
+            "gasdermin",
+            "trial-design"
+          ],
+          "filename": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task:task_output_cell_death_decision_tree_11_Sep_2026",
+      "kind": "task",
+      "langs": {
+        "en-US": {
+          "title": "Cell Death Decision Tree - Stress and Cell Type",
+          "description": "Flowchart mapping stress conditions and cell types to cell death modalities",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "cell-death",
+            "decision-tree",
+            "stress-response",
+            "cell-type",
+            "sex-dimorphism"
+          ],
+          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "path": "tasks/en-US/task_output_cell_death_decision_tree_11_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞死亡決策樹 — 壓力與細胞類型",
+          "description": "將壓力條件與細胞類型對應到細胞死亡模式的流程圖",
+          "created": "2026-09-11",
+          "updated": "2026-09-11",
+          "tags": [
+            "cell-death",
+            "decision-tree",
+            "stress-response",
+            "cell-type",
+            "sex-dimorphism"
+          ],
+          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md"
         }
       }
     },
@@ -63,42 +343,6 @@
           ],
           "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
           "path": "tasks/zh-TW/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task:task_output_cell_death_decision_tree_11_Sep_2026",
-      "kind": "task",
-      "langs": {
-        "en-US": {
-          "title": "Cell Death Decision Tree - Stress and Cell Type",
-          "description": "Flowchart mapping stress conditions and cell types to cell death modalities",
-          "created": "2026-09-11",
-          "updated": "2026-09-11",
-          "tags": [
-            "cell-death",
-            "decision-tree",
-            "stress-response",
-            "cell-type",
-            "sex-dimorphism"
-          ],
-          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
-          "path": "tasks/en-US/task_output_cell_death_decision_tree_11_Sep_2026.md"
-        },
-        "zh-TW": {
-          "title": "細胞死亡決策樹 — 壓力與細胞類型",
-          "description": "將壓力條件與細胞類型對應到細胞死亡模式的流程圖",
-          "created": "2026-09-11",
-          "updated": "2026-09-11",
-          "tags": [
-            "cell-death",
-            "decision-tree",
-            "stress-response",
-            "cell-type",
-            "sex-dimorphism"
-          ],
-          "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md"
         }
       }
     },
