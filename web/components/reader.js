@@ -19,8 +19,11 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // defaults; `active` is group-level.
 // Only entries with `active: true` are listed/opened by the reader —
 // set `active: false` while an entry is being edited so it stays hidden.
-// Task outputs (tasks.json) carry kind: "task" and ids prefixed "task:" so they
-// never collide with article groups in the hash route. Entity notes are not
+// Task outputs (tasks.json) are namespaced by file membership (data.js loads
+// them as TASKS) and stamped kind: "task" by flattenRegistry below, so they
+// never collide with article groups in the hash route. Bare snake_case ids
+// (no "task:" prefix). Legacy "task:<stem>" deep links still resolve via
+// normalizeTaskId in getArticle. Entity notes are not
 // published to the website — the reader only browses articles + task outputs,
 // so there is no third registries here. The source tabs (#reader-source) switch
 // the dropdown between the two registries; task options are grouped by recency
@@ -42,7 +45,12 @@ const ACTIVE_ARTICLES = flattenRegistry(ARTICLES, 'article');
 const ACTIVE_TASKS = flattenRegistry(TASKS, 'task');
 const ALL_ROWS = [...ACTIVE_ARTICLES, ...ACTIVE_TASKS];
 
-const getArticle = (id) => ALL_ROWS.find((a) => a.id === id) || null;
+const normalizeTaskId = (id) =>
+  typeof id === 'string' ? id.replace(/^task:/, '') : id;
+
+const getArticle = (id) => ALL_ROWS.find((a) => a.id === id)
+  || ALL_ROWS.find((a) => a.id === normalizeTaskId(id))
+  || ALL_ROWS.find((a) => a.group === normalizeTaskId(id)) || null;
 
 // Index entry for a source mode — the reader's default landing entry (opened
 // by tab clicks, the modal title, and whenever no specific article applies).

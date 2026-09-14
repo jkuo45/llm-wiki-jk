@@ -119,16 +119,22 @@ def build_articles() -> list[dict]:
 
 def build_tasks() -> list[dict]:
     data = _read_json(DATA_DIR / "tasks.json", {})
-    return [
-        {
-            "content_type": "task_output",
-            "content_id": t["id"],
-            "langs": t.get("langs") or {},
-            "active": t.get("active", True),
-        }
-        for t in (data.get("tasks") or [])
-        if isinstance(t, dict) and t.get("id")
-    ]
+    rows = []
+    for t in (data.get("tasks") or []):
+        if not isinstance(t, dict) or not t.get("id"):
+            continue
+        # Legacy ids were "task:<stem>"; normalize to the bare stem so old
+        # and new payloads yield the same registry key.
+        cid = str(t["id"]).removeprefix("task:")
+        rows.append(
+            {
+                "content_type": "task_output",
+                "content_id": cid,
+                "langs": t.get("langs") or {},
+                "active": t.get("active", True),
+            }
+        )
+    return rows
 
 
 def build_image_notes() -> list[dict]:

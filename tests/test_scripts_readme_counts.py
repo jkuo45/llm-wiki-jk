@@ -169,7 +169,8 @@ class TestBuildWebTasks:
         assert tasks[0]["id"] == "tasks-index" and tasks[0]["active"] is True
 
         by_id = {t["id"]: t for t in tasks[1:]}
-        foo = by_id["task:foo"]
+        foo = by_id["foo"]
+        assert "kind" not in foo
         assert set(foo["langs"]) == {"en-US", "zh-TW"}
         assert foo["starred"] is True
         en = foo["langs"]["en-US"]
@@ -177,7 +178,7 @@ class TestBuildWebTasks:
         assert en["created"] == "2026-01-01"
         assert en["path"] == "tasks/en-US/foo.md"
         assert foo["langs"]["zh-TW"]["path"] == "tasks/zh-TW/foo_zh-TW.md"
-        assert by_id["task:bar"]["langs"]["en-US"]["path"] == "tasks/en-US/sub/bar.md"
+        assert by_id["bar"]["langs"]["en-US"]["path"] == "tasks/en-US/sub/bar.md"
 
         # copies landed, zh-TW untouched
         assert (args.web_tasks_dir / "en-US" / "foo.md").exists()

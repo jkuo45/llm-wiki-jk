@@ -105,10 +105,10 @@
   .then(([data, flagData]) => {
     const dbFlags = (flagData && flagData.flags && flagData.flags.task_output) || {};
     /* The DB (and the admin panel) key task flags by the markdown filename;
-       tasks.json ids are `task:<filename-without-.md>`. */
+       tasks.json ids are bare filename stems (legacy "task:<stem>" ids still resolve via the reader). */
     const taskIdOf = (t) => {
       const en = t.langs?.['en-US'] || {};
-      return asStr(en.filename) || t.id.replace(/^task:/, '') + '.md';
+      return asStr(en.filename) || String(t.id) + '.md';
     };
     const dbStarred = (t, key) => {
       const f = dbFlags[key];

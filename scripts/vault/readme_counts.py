@@ -239,7 +239,7 @@ def build_web_tasks(task_data, args):
             dest_rel = os.path.join(lang, rel)
         entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
         group = groups.setdefault(
-            stem, {"id": f"task:{stem}", "kind": "task", "langs": {}}
+            stem, {"id": stem, "langs": {}}
         )
         if lang not in group["langs"]:
             group["langs"][lang] = entry
