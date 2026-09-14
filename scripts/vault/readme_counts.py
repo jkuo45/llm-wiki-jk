@@ -686,8 +686,10 @@ def main():
         + overlap_body
     )
 
-    # Build marker-delimited sections
-    summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
+    # Build marker-delimited sections. Section headings live outside the
+    # generated markers (authored in the README, like the graph-datasets
+    # heading) so they can be reworded without being clobbered on regeneration.
+    summary_table_content = "\n".join(topics_table)
     doc_list_content = (
         "## Documents\n\n"
         "<details>\n"
@@ -710,6 +712,12 @@ def main():
         "graph_datasets": graph_datasets_content,
     }
 
+    # Headings authored outside the generated markers; only emitted when
+    # bootstrapping a brand-new README (existing READMEs keep their own).
+    section_headings = {
+        "summary_table": "## Summary Table",
+    }
+
     if args.skip_readme:
         print(
             "Reader web artifacts refreshed (tasks); README left "
@@ -728,6 +736,9 @@ def main():
         # Fresh build (first run or pre-marker README)
         final = "# llm-wiki-jk\n\n"
         for name, content in sections.items():
+            heading = section_headings.get(name)
+            if heading:
+                final += heading + "\n\n"
             final += make_marker_block(name, content) + "\n\n"
     else:
         # Update markers in-place, preserving everything else
