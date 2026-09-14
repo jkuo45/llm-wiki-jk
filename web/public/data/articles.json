@@ -314,7 +314,7 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Hormetic Range Assessment — Map Your Biological Resilience",
+                "title": "Hormetic Range Assessment",
                 "path": "pages/en-US/hormetic-range-assessment.html",
                 "created": "2026-09-02",
                 "updated": "2026-09-10"
@@ -374,7 +374,7 @@
                 "updated": "2026-09-07"
             },
             "zh-TW": {
-                "title": "人體細胞內部 [three.js]",
+                "title": "人體細胞內部 [3d]",
                 "path": "pages/zh-TW/inside-the-cell.html",
                 "created": "2026-09-07",
                 "updated": "2026-09-07"
@@ -558,6 +558,24 @@
                 "path": "pages/zh-TW/netosis.html",
                 "created": "2026-09-11",
                 "updated": "2026-09-11"
+            }
+        }
+    },
+    {
+        "id": "apoptosis-vs-necrosis",
+        "active": false,
+        "langs": {
+            "en-US": {
+                "title": "Apoptosis vs Necrosis",
+                "path": "pages/en-US/apoptosis-vs-necrosis.html",
+                "created": "2026-09-13",
+                "updated": "2026-09-13"
+            },
+            "zh-TW": {
+                "title": "細胞凋亡 vs 壞死",
+                "path": "pages/zh-TW/apoptosis-vs-necrosis.html",
+                "created": "2026-09-13",
+                "updated": "2026-09-13"
             }
         }
     }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>細胞凋亡 vs 壞死 — 雙模型對照 (three.js)</title>
+<meta name="description" content="以 three.js 並排呈現細胞凋亡與意外性壞死的細胞層級模型：死亡受體與粒線體訊號、MOMP、凋亡體組裝、磷脂醯絲胺酸外翻與胞葬作用，對照 ATP 耗竭、腫脹性變性、mPTP 開放、細胞膜破裂與 DAMP 介導的無菌性炎症。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<link rel="stylesheet" href="../cell/apo-nec-compare.css">
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="apoptosis-vs-necrosis.html" class="is-active">細胞凋亡 vs 壞死</a>
+      <a href="apoptosis.html">細胞凋亡</a>
+      <a href="necrosis.html">壞死</a>
+      <a href="cell-death-comparison.html">比較表</a>
+      <a href="inside-the-cell.html">細胞內部</a>
+    </div>
+  </div>
+</nav>
+<div class="an-wide">
+  <main id="content">
+    <header class="an-hero">
+      <p class="an-kicker">細胞死亡 · 3-D 對照模型 · 細胞凋亡 vs 壞死</p>
+      <h1>細胞凋亡對意外性壞死：程序性清除與意外破裂之對照</h1>
+      <p class="an-sub">兩個起始形態相同的三維細胞模型並排呈現。左：<a href="https://graph.johnnykuo.com/#node=Apoptosis">細胞凋亡</a>——死亡受體與 p53／BH3-only 訊號、MOMP、凋亡體組裝、磷脂醯絲胺酸外翻、凋亡小體形成與胞葬作用。右：意外性<a href="https://graph.johnnykuo.com/#node=Necrosis">壞死</a>——ATP 耗竭、鈉鉀 ATP 酶失效、腫脹性變性、Ca<sup>2+</sup> 超載伴 mPTP 開放、細胞膜破裂與 DAMP 釋放。時間軸經壓縮且各自獨立（數小時 vs 數分鐘）。拖曳旋轉 · 點選結構查看註解 · 空白鍵暫停。 <span id="embedlink"><a href="?embed=1" id="embedgo" title="精簡 iframe 版本">embed</a></span></p>
+    </header>
+    <div class="an-layout">
+      <div class="an-stage-card">
+        <div id="an-stage">
+          <canvas id="an-canvas" aria-label="細胞凋亡與意外性壞死的並排 three.js 模型"></canvas>
+          <div class="an-flag" id="an-flag">載入中…</div>
+          <div class="an-clocks">
+            <span class="an-clock apo" id="an-clock-apo"></span>
+            <span class="an-clock nec" id="an-clock-nec"></span>
+          </div>
+          <button class="copy-btn" data-copy-canvas="an-canvas" title="複製舞台快照為 PNG" aria-label="複製舞台快照為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          <div class="an-meter">
+            <span id="an-meterlabel">共用時間軸</span>
+            <div class="track" id="an-metertrack" role="slider" tabindex="0" aria-label="拖動共用壓縮時間軸" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><b id="an-meterfill"></b></div>
+          </div>
+          <div class="an-tip" id="an-tip"></div>
+        </div>
+        <div class="an-toolbar" role="toolbar" aria-label="動畫控制">
+          <button id="an-play" class="is-on">⏸ 暫停</button>
+          <button id="an-labels" class="is-on">標籤</button>
+          <button id="an-xray">X 光視圖</button>
+          <button id="an-focus-both" class="is-on">雙模型</button>
+          <button id="an-focus-apo">凋亡模型</button>
+          <button id="an-focus-nec">壞死模型</button>
+          <span class="hint">拖曳＝旋轉 · 滾輪＝縮放 · 點選結構 · 空白鍵＝暫停</span>
+        </div>
+      </div>
+      <aside class="an-side">
+        <div class="an-card">
+          <h2>階段註解</h2>
+          <p class="an-meta" id="an-stepcount"></p>
+          <div class="an-phases" id="an-phases" aria-label="跳到階段"></div>
+          <div class="an-split">
+            <div class="an-col apo">
+              <h3>細胞凋亡</h3>
+              <p class="an-meta" id="an-apo-meta"></p>
+              <h2 id="an-apo-title"></h2>
+              <p class="an-body" id="an-apo-body"></p>
+            </div>
+            <div class="an-col nec">
+              <h3>壞死</h3>
+              <p class="an-meta" id="an-nec-meta"></p>
+              <h2 id="an-nec-title"></h2>
+              <p class="an-body" id="an-nec-body"></p>
+            </div>
+          </div>
+          <p class="an-vault" id="an-vault"></p>
+        </div>
+        <div class="an-card">
+          <h2>圖例</h2>
+          <p class="an-legend">
+            <span class="an-dot" style="background:var(--forest-soft)"></span>肌動蛋白皮質＋雙層（凋亡）<br>
+            <span class="an-dot" style="background:var(--oxblood-soft)"></span>相同模型（壞死）<br>
+            <span class="an-dot" style="background:#2ed573"></span>Annexin V–FITC 樣標記（外翻 PS，凋亡）<br>
+            <span class="an-dot" style="background:#ffe14d"></span>細胞色素 c 免疫標記（凋亡）<br>
+            <span class="an-dot" style="background:#8a7bb8"></span>染色質（核固縮 vs 核溶解）<br>
+            <span class="an-dot" style="background:#e09a4d"></span>粒線體（MOMP vs mPTP 腫脹）<br>
+            <span class="an-dot" style="background:#2bff7a"></span>胞質 Ca<sup>2+</sup> 指示劑，Fluo-4 樣（壞死）<br>
+            <span class="an-dot" style="background:#ff5a5e"></span>DAMP 釋放（HMGB1／ATP／mtDNA／尿酸）
+          </p>
+          <p class="an-body" style="margin-top:8px">X 光模式降低膜不透明度，以顯示染色質、嵴摺疊與凋亡體組裝。呈現之幾何為示意圖，未按比例繪製。</p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="an-prose">
+      <h2>模型設計與範圍</h2>
+      <p>兩個模型起始於相同的幾何：二十面體肌動蛋白皮質、內外磷脂葉、包覆三個染色質結構域的核膜，以及具摺疊嵴的粒線體。分歧變項為生物能量學：細胞凋亡在 ATP 可用下驅動 caspase 級聯、皮質收縮與脂質重塑；壞死則繼 ATP 耗竭、轉運衰竭與滲透性裂解。</p>
+
+      <table>
+        <thead>
+          <tr><th>特徵</th><th>凋亡模型</th><th>壞死模型</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>調控</td><td>程序性（RCD）——死亡受體、p53、Bcl-2 家族平衡</td><td>按 NCCD 判準為意外性（ACD）；組織中的「壞死」常為調控性裂解程序之終點</td></tr>
+          <tr><td>能量</td><td>全程依賴 ATP</td><td>觸發即耗竭 ATP</td></tr>
+          <tr><td>離子／水</td><td>梯度維持；凋亡性體積縮小</td><td>鈉鉀 ATP 酶失效；腫脹性變性</td></tr>
+          <tr><td>粒線體</td><td>MOMP：Bax／BAK 通透化、細胞色素 c 釋放、胞器保留</td><td>mPTP 開放：膜電位崩潰、嵴展開、腫脹、破裂</td></tr>
+          <tr><td>細胞核</td><td>核固縮；核小體間梯狀圖譜（CAD／ICAD）</td><td>核固縮 → 核碎裂 → 核溶解；非特異性塗抹圖譜</td></tr>
+          <tr><td>細胞膜</td><td>PS 外翻（annexin V+）、ROCK1 依賴起泡、密封小體</td><td>局灶至廣泛破裂；無專屬孔道形成程式</td></tr>
+          <tr><td>免疫</td><td>沉默胞葬作用（TGF-β、IL-10）</td><td>DAMP 釋放——HMGB1、ATP、mtDNA、尿酸 → 無菌性炎症</td></tr>
+          <tr><td>時間軸（壓縮）</td><td>T+ 0–3 小時</td><td>T+ 0–20 分鐘</td></tr>
+          <tr><td>已報導之性別偏向（知識庫模型）</td><td>XX 細胞偏好 caspase 臂</td><td>缺血後 XY 細胞偏好 PARP-1／AIF 壞死程序</td></tr>
+        </tbody>
+      </table>
+
+      <div class="note forest">
+        <h4>繼發性壞死</h4>
+        <p>未被吞噬的凋亡小體——如高細胞密度、體外培養或巨噬細胞功能受損——喪失膜完整性並釋放 DAMP，匯入壞死終點。兩個軌跡以各自獨立的時間軸呈現，使此區別明確。</p>
+      </div>
+    </section>
+
+    <footer class="an-foot">
+      幾何為本頁原創（測地線晶格、Fibonacci 雙層、摺疊嵴、雙模型佈局），與本站單一程序模型不同。內容交叉引用知識庫 <a href="https://graph.johnnykuo.com/#node=Apoptosis">Apoptosis</a>、<a href="https://graph.johnnykuo.com/#node=Necrosis">Necrosis</a>、<a href="https://graph.johnnykuo.com/#node=Apoptotic%20Bodies">Apoptotic Bodies</a>、<a href="https://graph.johnnykuo.com/#node=Secondary%20Necrosis">Secondary Necrosis</a> 與<a href="cell-death-comparison.html">十種程序比較表</a>。three.js r160。遵循 <code>prefers-reduced-motion</code>（預設暫停）。教育內容；非醫療建議。
+    </footer>
+  </main>
+</div>
+<script type="module">
+  import { boot } from '../cell/apo-nec-compare.js';
+  boot({ lang: 'zh' });
+</script>
+<script src="../themes/theme-02/pages-svg.js"></script>
+</body>
+</html>
