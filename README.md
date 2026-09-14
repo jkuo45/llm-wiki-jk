@@ -4,20 +4,20 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 11_SEP_2026 | 32 | 1732 | 1,072,636 | 10.04 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_SEP_2026 | 32 | 1732 | 1,074,901 | 10.07 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 10_SEP_2026 | 19 | 257 | 196,616 | 2.62 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 11_SEP_2026 | 12 | 226 | 181,647 | 1.70 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_SEP_2026 | 11 | 265 | 238,488 | 2.85 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 11_SEP_2026 | 6 | 74 | 76,358 | 0.82 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 13_SEP_2026 | 7 | 76 | 79,214 | 0.85 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.52 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 10_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 10_SEP_2026 | 1 | 94 | 79,167 | 1.07 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 10_SEP_2026 | 15 | 65 | 155,500 | 2.20 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 12_SEP_2026 | 15 | 65 | 155,606 | 2.21 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 10_SEP_2026 | 20 | 173 | 313,779 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 11_SEP_2026 | **136** | **3245** | **2,675,129** | **29.43 MB** |
+| **subtotal** | 14_SEP_2026 | **137** | **3247** | **2,680,356** | **29.48 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -150,8 +150,9 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 ## Documents
 
 <details>
-<summary><strong>Documents (136 total)</strong> — click to expand</summary>
+<summary><strong>Documents (137 total)</strong> — click to expand</summary>
 
+- `cell-death`: [RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necrop...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20RIP3%20targets%20pyruvate%20dehydrogenase%20complex%20to%20increase%20aerobic%20respiration%20in%20TNF-induced%20necroptosis.md) [[src/notes/cell-death/_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis.md|wiki]] (12_SEP_2026 12:27 AM PDT)
 - `_link`: [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[src/notes/_link/_document_ - Creatine in Health and Disease.md|wiki]] (10_SEP_2026 01:03 PM PDT)
 - `senescence`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pa...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[src/notes/senescence/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md|wiki]] (10_SEP_2026 01:03 PM PDT)
 - `senescence`: [The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[src/notes/senescence/_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md|wiki]] (10_SEP_2026 01:03 PM PDT)
@@ -296,10 +297,15 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (104 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (109 total)</strong> — click to expand</summary>
 
+- [task_output_cell_death_modality_distribution_research_13_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md) [[src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
+- [task_output_cell_death_senescence_research_12_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md) [[src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
+- [task_output_hormesis_rcd_acd_tier_model_13_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md) [[src/tasks/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
+- [task_output_senescence_regulators_sensors_organs_12_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md) [[src/tasks/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
+- [task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md) [[src/tasks/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md|wiki]] (13_SEP_2026 10:10 PM PDT)
+- [task_output_cell_death_decision_tree_11_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md) [[src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md|wiki]] (11_SEP_2026 08:47 PM PDT)
 - [task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md) [[src/tasks/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md|wiki]] (11_SEP_2026 05:29 PM PDT)
-- [task_output_cell_death_decision_tree_11_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md) [[src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md|wiki]] (11_SEP_2026 03:48 PM PDT)
 - [task_output_parthanatos_open_questions_08_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md) [[src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md|wiki]] (10_SEP_2026 01:02 PM PDT)
 - [task_output_sex_dimorphic_cell_death_05_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md) [[src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md|wiki]] (08_SEP_2026 05:58 PM PDT)
 - [task_output_sirtuins_resveratrol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_resveratrol.md) [[src/tasks/task_output_sirtuins_resveratrol.md|wiki]] (08_SEP_2026 05:38 PM PDT)
