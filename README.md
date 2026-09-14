@@ -2,6 +2,7 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table
+
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_SEP_2026 | 32 | 1732 | 1,074,901 | 10.07 MB |
@@ -29,13 +30,16 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,436 | 39,386 |
+| **Combined** _(default)_ | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,436 | 39,386 |
 | **Triples** | `triples-*.json` | 3,427 | 6,412 |
 | **Wiki** | `wiki-*.json` | 3,079 | 36,492 |
 
 Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 
-> [!NOTE] Combined merge
+> [!NOTE]
+>
+> **Combined Merge**
+>
 > The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 <!-- END GENERATED: graph_datasets -->
 
