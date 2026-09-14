@@ -31,10 +31,10 @@ The best-validated example in all of biomedicine is ischemic brain injury: male 
 
 | Modality | Drug classes | Clinical status (as of Sep 2026) |
 | --- | --- | --- |
-| **Apoptosis** | BH3 mimetics (BCL-2/MCL-1/BCL-XL: venetoclax, navitoclax, MCL-1 programs), death-receptor agonists, IAP antagonists (LCL161 geared trial in TNBC, 2018) | Venetoclax approved; MCL-1/BCL-XL in trials; IAP-antagonist + chemo trials stratified by gene signature |
+| **Apoptosis** | BH3 mimetics (BCL-2/MCL-1/BCL-XL: venetoclax, navitoclax, MCL-1 programs), death-receptor agonists, IAP antagonists (LCL161 geared trial in TNBC, 2018) | Venetoclax approved; MCL-1/BCL-XL in trials; IAP-antagonist + chemo trials stratified by TNF-α–related gene signature |
 | **Necroptosis** | RIPK1 inhibitors (GSK2982772; Sanofi/Denali SIR1-365) | Ph2 reached (psoriasis, UC, RA); well-tolerated but no efficacy separation; programs largely deprioritized. First-in-class RIPK1 → human was 2017 (Weisel, *Pharmacol Res Perspect*) |
 | **Pyroptosis** | Gasdermin platform (GSDMD/GSDME); inflammasome (NLRP3) inhibitors | Early/translational; GSDME biology is the cleanest "modality-switch" story (Nature 2017) |
-| **Ferroptosis** | GPX4/System x_c⁻ pathway inducers and inhibitors | No approvals; reviews state patient-population selection is the missing step; first Ph1s beginning (e.g., CNSI-Fe(II) NCT06048367; Houston Methodist myeloma program) |
+| **Ferroptosis** | GPX4/System x_c⁻ pathway inducers and inhibitors | No approvals; reviews state patient-population selection is the missing step; first Ph1s beginning (e.g., CNSI-Fe(II) NCT06048367; Sichuan Enray/West China Hospital; advanced solid tumors, completed Ph1) |
 | **Parthanatos** | PARP-1 inhibitors (DPQ, PJ-34, veliparib, olaparib; stroke-specific: JPI-289/amelparib, MP-124) | Massive oncology success via **HRD/synthetic lethality — not parthanatos**. Only stroke program: JPI-289 Ph2a (NCT03062397) |
 
 So "kill the cell *via* pathway X" is normal drug design. The non-obvious part is choosing X *from* the patient.
@@ -67,7 +67,7 @@ Concept design (straw-man protocol; requires modeling, regulatory, and KOL input
 
 - Modality split is the best-validated in biomedicine (adult MCAO, neonatal HI, XY/XX cultures).
 - JPI-289 (amelparib, Jeil): water-soluble PARP-1 inhibitor, IC50 ~18.5 nM (PARP activity) / 10.7 nM (cellular PAR); 49% infarct reduction in monkey tMCAO (vs 21% for MP-124); Ph1 in **healthy male volunteers**; Ph2a NCT03062397 (acute ischemic stroke, SOC + tPA) without sex stratification.
-- Female side candidates exist but are undeveloped for stroke: pan-caspase inhibitors (preclinical Q-VD-OPh; clinical emricasan validated the class in humans but missed in NASH), ERβ-selective agonism (erteberel/LY500307 reached Ph2 in schizophrenia/BPH/perimenopausal depression; ERB-041 in IBD — discontinued programs, reusable).
+- Female side candidates exist but are undeveloped for stroke: pan-caspase inhibitors (preclinical Q-VD-OPh; clinical emricasan validated the class in humans but missed in NASH), ERβ-selective agonism (erteberel/LY500307 reached Ph2 in schizophrenia/BPH/perimenopausal depression; ERB-041 in Crohn's disease — discontinued programs, reusable).
 
 ### 2.2 Design
 
@@ -114,14 +114,14 @@ Each sex arm is a randomized, double-blind, placebo-controlled comparison (2:1 t
 
 - **JPI-289 / amelparib** (Jeil Pharmaceutical): the only parthanatos-targeting (PARP-1) program in stroke. IC50 18.5 nM against PARP-1 activity, 10.7 nM cellular PAR; neuroprotective in rat OGD, tMCAO/pMCAO, and monkey tMCAO (~49% infarct reduction). Ph1 in healthy **male** volunteers; Ph2a (NCT03062397) and registries list no sex-stratified design; later translational work shows Treg upregulation in AIS patients. (Vault cross-ref: `task_output_sex_dimorphic_cell_death_05_Sep_2026.md`, which also records NCT01983358.)
 - **Sex-stratified cell-death stroke trial:** none exists as of Sep 2026 (registry search).
-- **Female-arm molecular space:** pan-caspase inhibition (Q-VD-OPh preclinical-only, female-only rescue); emricasan (clinical pan-caspase, NASH miss 2020); ERβ-selective agonists (erteberel LY500307 — Ph2 schizophrenia NCT01874756, perimenopausal depression NCT03689543, BPH — discontinued; ERB-041 Ph2 IBD; OSU-ERβ-12 preclinical 2026, PK-superior to erteberel); non-feminizing ER-silent estradiol analogues (Wise 2004) never left preclinical.
+- **Female-arm molecular space:** pan-caspase inhibition (Q-VD-OPh preclinical-only, female-only rescue); emricasan (clinical pan-caspase, NASH miss 2020); ERβ-selective agonists (erteberel LY500307 — Ph2 schizophrenia NCT01874756, perimenopausal depression NCT03689543, BPH — discontinued; ERB-041 Ph1b/2a Crohn's disease; OSU-ERβ-12 preclinical 2026, PK-superior to erteberel); non-feminizing ER-silent estradiol analogues (Wise 2004) never left preclinical.
 - **Estradiol-based clinical stroke trials failed** (WEST, WHI chronic E2) — the female strategy should be modality-matched (caspase) and ERβ-targeted, not chronic estrogen.
 
 ### 3.2 Recommended note text
 
 Appended to the [[Parthanatos]] §Sex dimorphism section (implemented in this session):
 
-> Clinical translation of the sex split remains untested. The only parthanatos-targeting stroke program, JPI-289 (amelparib, Jeil; PARP-1 IC50 18.5 nM; ~49% infarct reduction in monkey tMCAO), ran its Ph1 in healthy male volunteers and its Ph2a (NCT03062397, acute ischemic stroke) without sex stratification — male-selective biology was never used to design it. No sex-stratified cell-death neuroprotection trial exists. Female-side candidates are further behind: pan-caspase inhibition is the modality-matched strategy (Q-VD-OPh, female-only rescue), but clinical pan-caspase data (emricasan, NASH Ph2b miss) are discouraging, and ERβ-selective agonism (erteberel/LY500307, ERB-041) has reached Ph2 only in non-stroke indications. Chronic estradiol stroke trials failed (WEST, WHI), so female-arm design should target the executor (caspase-3) and ERβ axis, not replace estrogen.
+> Clinical translation of the sex split remains untested. The only parthanatos-targeting stroke program, JPI-289 (amelparib, Jeil; PARP-1 IC50 18.5 nM; ~49% infarct reduction in monkey tMCAO), ran its Ph1 in healthy male volunteers and its Ph2a (NCT03062397, acute ischemic stroke) without sex stratification — male-selective biology was never used to design it. No sex-stratified cell-death neuroprotection trial exists. Female-side candidates are further behind: pan-caspase inhibition is the modality-matched strategy (Q-VD-OPh, female-only rescue), but clinical pan-caspase data (emricasan, NASH Ph2b miss) are discouraging, and ERβ-selective agonism (erteberel/LY500307, ERB-041) has reached Ph2 only in non-stroke indications (schizophrenia, BPH, Crohn's disease). Chronic estradiol stroke trials failed (WEST, WHI), so female-arm design should target the executor (caspase-3) and ERβ axis, not replace estrogen.
 
 ### 3.3 Status of this write-up's wiki change
 
@@ -139,15 +139,15 @@ Appended to the [[Parthanatos]] §Sex dimorphism section (implemented in this se
 
 ## References (selected)
 
-- McCullough LD et al. Estrogen-mediated neuroprotection after experimental stroke in male rats. *J Cereb Blood Flow Metab* 2005;25:1108. PMID 15689952.
+- McCullough LD et al. Ischemic nitric oxide and poly(ADP-ribose) polymerase-1 in cerebral ischemia: male toxicity, female protection. *J Cereb Blood Flow Metab* 2005;25(4):502–512. PMID 15689952.
 - Yuan M et al. Sex differences in the response to activation of the poly(ADP-ribose) polymerase pathway after experimental stroke. *Exp Neurol* 2009;217:210–218.
 - Liu F et al. Sex differences in the response to PARP-1 deletion and intervention in experimental stroke. *Stroke* 2011;42:739–745. PMID 21311064.
 - Du L et al. Innate gender-based proclivity in response to cytotoxicity and programmed cell death pathway. *J Biol Chem* 2004;279:38563–38570.
 - Hagberg H et al. PARP-1 disruption preferentially protects males from perinatal hypoxia-ischemia. *J Neurochem* 2004;90:1068–1075.
-- Wang YY et al. (Nature 2017) Chemotherapy drugs induce pyroptosis through caspase-3 cleavage of a gasdermin. *Nature* 547:99–103 (GSDME switch).
+- Wang Y et al. (Nature 2017) Chemotherapy drugs induce pyroptosis through caspase-3 cleavage of a gasdermin. *Nature* 547:99–103 (GSDME switch).
 - Zhaorigetu S et al. JPI-289 Ph2a, NCT03062397 (ClinicalTrials.gov); Kim et al. 2018a (JPI-289 stroke program).
 - Singh M et al. Ferroptosis in cancer: mechanism and therapeutic potential. *Int J Mol Sci* 2025;26(8):3852; *Signal Transduct Target Ther* 2024 (ferroptosis stratification gap).
 - Weisel K et al. RIPK1 inhibitor GSK2982772 — FIH (*Pharmacol Res Perspect* 2017) and Ph2 psoriasis (*Clin Pharmacol Ther* 2020) / UC (fail, *BMJ Open Gastro* 2021).
 - Ryan J, Montero J, Rocco J, Letai A. iBH3: fixable BH3 profiling. *Biol Chem* 2016;397:671–678; Manzano-Muñoz A et al. Microfluidic dynamic BH3 profiling. *npj Precis Oncol* 2022.
-- Harrison SA et al. Pan-caspase inhibition with emricasan in NASH. *J Hepatol* 2020;72:808.
-- ERβ agonists: erteberel (LY500307) NCT01874756, NCT03689543; OSU-ERβ-12, *J Med Chem* 2026 (preclinical); Zhu et al. *J Clin Invest* 2026;136(10):e196636 (ERβ and pyroptosis).
+- Garcia-Tsao G et al. Pan-caspase inhibition with emricasan in NASH. *J Hepatol* 2020;72:885–895.
+- ERβ agonists: erteberel (LY500307) NCT01874756, NCT03689543; OSU-ERβ-12, *J Med Chem* 2021 (preclinical); Zhu et al. *J Clin Invest* 2026;136(10):e196636 (ERβ and pyroptosis).
