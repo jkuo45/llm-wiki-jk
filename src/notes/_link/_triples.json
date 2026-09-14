@@ -15636,5 +15636,89 @@
     "source_document": "Interferon.md",
     "created": "2026-09-10T19:38:48Z",
     "updated": "2026-09-10T19:38:48Z"
+  },
+  {
+    "id": "e9a1e889cb1e",
+    "subject": "DRP1",
+    "predicate": "licenses",
+    "object": "Minority MOMP",
+    "context": {
+      "en-US": "In senescent cells only fragmented mitochondria are BAX6A7-positive and release TFAM-bound mtDNA; DRP1-driven fission licenses this minority MOMP event, while hyperfusion protects by homogenizing Bcl-2 across the network.",
+      "zh-TW": "在衰老細胞中，只有片段化的粒線體呈 BAX6A7 陽性並釋放 TFAM 結合的 mtDNA；DRP1 驅動的分裂促使這種 minority MOMP，而高度融合則透過均質化 Bcl-2 來保護。"
+    },
+    "confidence": 0.95,
+    "source_document": "DRP1.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "b1ec6f1f7e99",
+    "subject": "MFN2",
+    "predicate": "restrains",
+    "object": "Minority MOMP",
+    "context": {
+      "en-US": "MFN2 knockdown fragments the mitochondrial network and increases BAX activation, cytosolic mtDNA foci and IL-6/IL-8/IL-1beta SASP expression without changing p16 or p21 arrest; MFN2-mediated fusion therefore restrains miMOMP-driven inflammation.",
+      "zh-TW": "敲低 MFN2 會使粒線體網路片段化，並增加 BAX 活化、胞質 mtDNA 焦點及 IL-6/IL-8/IL-1beta SASP 表現，但不改變 p16 或 p21 停滯；因此 MFN2 介導的融合抑制了 miMOMP 驅動的發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "MFN2.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "29b22a8394a3",
+    "subject": "MFN2",
+    "predicate": "opposes",
+    "object": "DRP1",
+    "context": {
+      "en-US": "MFN2-driven outer-membrane fusion opposes DRP1-driven fission; the balance of this fusion-fission cycle determines whether a damaged daughter mitochondrion undergoes mitophagy or BAX-mediated miMOMP and SASP release.",
+      "zh-TW": "MFN2 驅動的外膜融合拮抗 DRP1 驅動的分裂；此融合-分裂平衡決定受損子粒線體走向 mitophagy，或走向 BAX 介導的 miMOMP 與 SASP 釋放。"
+    },
+    "confidence": 0.8,
+    "source_document": "MFN2.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "051e0f2386d3",
+    "subject": "mtDNA",
+    "predicate": "activates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "Cytosolic mtDNA released through BAX/BAK miMOMP pores binds cGAS, which synthesizes cGAMP to activate STING; this cGAS-STING axis is the dominant transcriptional driver of IL-6/IL-8/IL-1beta and interferon SASP factors.",
+      "zh-TW": "經 BAX/BAK miMOMP 孔釋放到胞質的 mtDNA 結合 cGAS，合成 cGAMP 以活化 STING；此 cGAS-STING 軸是 IL-6/IL-8/IL-1beta 與干擾素 SASP 因子的主要轉錄驅動者。"
+    },
+    "confidence": 0.95,
+    "source_document": "SASP.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "a34c0342a48b",
+    "subject": "mt-dsRNA",
+    "predicate": "activates",
+    "object": "MAVS",
+    "context": {
+      "en-US": "Cytosolic mitochondrial double-stranded RNA released through BAX/BAK pores binds RIG-I and MDA5, causing MAVS aggregation that induces a subset of SASP factors; MAVS signaling is milder than STING and converges on shared inflammatory pathways.",
+      "zh-TW": "經 BAX/BAK 孔釋放到胞質的粒線體雙股 RNA 結合 RIG-I 與 MDA5，引起 MAVS 聚集並誘導部分 SASP 因子；MAVS 訊號較 STING溫和，並匯聚於共同的發炎路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "BAX.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "396233a82ddb",
+    "subject": "Cytosolic DNA crosstalk",
+    "predicate": "amplifies",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Cytosolic mtDNA, cytoplasmic chromatin fragments and LINE-1 cDNA crosstalk to amplify cGAS-STING signaling in senescence; removing any single DNA source often suppresses SASP, and blocking the mitochondrial source preserves acute immune responses better than direct cGAS or STING blockade.",
+      "zh-TW": "胞質 mtDNA、細胞質染色質片段與 LINE-1 cDNA 交互作用以放大衰老中的 cGAS-STING 訊號；去除任一 DNA 來源常可抑制 SASP，而阻斷粒線體來源比直接抑制 cGAS 或 STING 更能保留急性免疫反應。"
+    },
+    "confidence": 0.95,
+    "source_document": "cGAS.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
   }
 ]

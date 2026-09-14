@@ -2742,5 +2742,33 @@
     "source_document": "TAM Kinases.md",
     "created": "2026-09-11T16:47:59Z",
     "updated": "2026-09-11T16:47:59Z"
+  },
+  {
+    "id": "28f85d61e157",
+    "subject": "BAX",
+    "predicate": "executes",
+    "object": "Minority MOMP",
+    "context": {
+      "en-US": "BAX and BAK oligomerize into macropores in a subset of mitochondria during senescence, releasing mtDNA and mt-dsRNA into the cytosol; this sublethal minority MOMP drives SASP without causing cell death.",
+      "zh-TW": "BAX 與 BAK 在衰老過程中於部分粒線體寡聚形成大孔，將 mtDNA 與 mt-dsRNA 釋放到胞質；這種亞致死性 minority MOMP 在不引起細胞死亡的情況下驅動 SASP。"
+    },
+    "confidence": 0.95,
+    "source_document": "BAX.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "8c95f8a515b7",
+    "subject": "BAI1",
+    "predicate": "suppresses",
+    "object": "Minority MOMP",
+    "context": {
+      "en-US": "Pharmacologic BAX inhibitors BAI1 and eltrombopag block BAX translocation and oligomerization, reducing cytosolic mtDNA/mtRNA and SASP secretion in senescent fibroblasts; in aged mice BAI1 lowers circulating SASP factors and improves bone strength and frailty without altering p16/p21 arrest.",
+      "zh-TW": "藥理學 BAX 抑制劑 BAI1 與 eltrombopag 阻斷 BAX 轉位與寡聚，減少衰老纖維母細胞的胞質 mtDNA/mtRNA 與 SASP 分泌；在老齡小鼠中 BAI1 降低循環 SASP 因子並改善骨強度與衰弱，且不改變 p16/p21 停滯。"
+    },
+    "confidence": 0.95,
+    "source_document": "BAX.md",
+    "created": "2026-09-12T18:53:13Z",
+    "updated": "2026-09-12T18:54:20Z"
   }
 ]
