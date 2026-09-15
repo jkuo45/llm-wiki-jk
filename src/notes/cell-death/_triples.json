@@ -3456,5 +3456,285 @@
     "source_document": "PARG53.md",
     "created": "2026-09-14T21:00:00Z",
     "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "5dcf6a119483",
+    "subject": "ZBP1",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "ZBP1 senses viral or endogenous Z-nucleic acids and recruits RIPK3 via RHIM-RHIM interaction, driving RIPK3 autophosphorylation and MLKL activation; it is a central non-canonical necroptosis sensor in viral infection and genomic stress (Niu et al. 2026).",
+      "zh-TW": "ZBP1 感測病毒或內源性 Z-核酸，經 RHIM-RHIM 交互作用招募 RIPK3，驅動 RIPK3 自磷酸化與 MLKL 活化；是病毒感染與基因組壓力下核心的非經典 necroptosis 感測器（Niu et al. 2026）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "1eb1a2feda23",
+    "subject": "ZBP1",
+    "predicate": "requires",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "In human cells ZBP1 cannot efficiently engage RIPK3 without RIPK1, which acts as an essential bridging adaptor; in murine cells ZBP1 binds and activates RIPK3 directly and RIPK1 is inhibitory, so ZBP1-dependent necroptosis is species-dependently RIPK1-requiring or RIPK1-restrained (Niu et al. 2026).",
+      "zh-TW": "在人類細胞中，ZBP1 若無 RIPK1 無法有效接合 RIPK3，RIPK1 作為必需的橋接接頭；在小鼠細胞中 ZBP1 直接結合並活化 RIPK3，而 RIPK1 具抑制作用，故 ZBP1 依賴性 necroptosis 對 RIPK1 的需求具物種特異性（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "490190ecb647",
+    "subject": "TRIF",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "TRIF carries a RHIM domain that directly recruits and activates RIPK3 downstream of TLR3/TLR4, enabling RIPK1-bypassing necroptosis under caspase inhibition (poly(I:C) or LPS); this pathway is implicated in acute pancreatitis and immune dysregulation (Niu et al. 2026).",
+      "zh-TW": "TRIF 具 RHIM 結構域，可在 TLR3/TLR4 下游直接招募並活化 RIPK3，於 caspase 受抑制時（poly(I:C) 或 LPS）促成繞過 RIPK1 的 necroptosis；此路徑與急性胰臟炎及免疫失調相關（Niu et al. 2026）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "b40358b65d0a",
+    "subject": "TLR3",
+    "predicate": "signals_via",
+    "object": "TRIF",
+    "context": {
+      "en-US": "TLR3 is the receptor whose signaling is mediated solely by the TRIF adaptor; dsRNA (poly(I:C)) engagement under caspase inhibition can then drive a TRIF/RIPK3 necrosome (Niu et al. 2026).",
+      "zh-TW": "TLR3 是唯一完全經由 TRIF 接頭傳遞訊號的受體；在 caspase 受抑制時，dsRNA（poly(I:C)）接合可驅動 TRIF/RIPK3 necrosome（Niu et al. 2026）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "cda9302b511b",
+    "subject": "TLR4",
+    "predicate": "signals_via",
+    "object": "TRIF",
+    "context": {
+      "en-US": "TLR4 engages both MyD88 and TRIF adaptors; MyD88 drives early NF-kB and can feed forward via autocrine TNF to promote RIPK1/RIPK3 activation, while TRIF couples directly to RIPK3 and can be antagonized to reduce necroptosis in acute pancreatitis models (Niu et al. 2026).",
+      "zh-TW": "TLR4 同時使用 MyD88 與 TRIF 接頭；MyD88 驅動早期 NF-kB，並可經自分泌 TNF 前饋促進 RIPK1/RIPK3 活化，而 TRIF 直接偶聯 RIPK3，且可被拮抗以減少急性胰臟炎模型中的 necroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "9bd1383fb16e",
+    "subject": "ZBP1",
+    "predicate": "nucleates",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "ZBP1 senses viral Z-nucleic acids and nucleates a PANoptosome that simultaneously activates RIPK3/MLKL necroptosis, caspase-8-dependent apoptosis, and inflammasome-driven pyroptosis during viral infection or cytokine storm (Niu et al. 2026).",
+      "zh-TW": "ZBP1 感測病毒 Z-核酸並成核 PANoptosome，在病毒感染或細胞激素風暴中同時活化 RIPK3/MLKL necroptosis、caspase-8 依賴性 apoptosis 與發炎體驅動的 pyroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "94657a07cbdf",
+    "subject": "AIM2",
+    "predicate": "nucleates",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "Beyond ZBP1, the DNA sensor AIM2 can nucleate PANoptosomes in response to distinct pathogens, broadening the sensor repertoire that co-assembles the three death arms (Niu et al. 2026).",
+      "zh-TW": "除 ZBP1 外，DNA 感測器 AIM2 可針對不同病原體成核 PANoptosome，擴展共同組裝三種死亡臂的感測器陣容（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "27101ae8c36e",
+    "subject": "PANoptosome",
+    "predicate": "executes",
+    "object": "PANoptosis",
+    "context": {
+      "en-US": "The PANoptosome is the supramolecular platform that co-assembles pyroptosis, apoptosis, and necroptosis, incorporating RIPK1, RIPK3, FADD, caspase-8, and NLRP3; its defining property is non-redundancy, so blocking any single arm does not prevent death (Niu et al. 2026).",
+      "zh-TW": "PANoptosome 是共同組裝 pyroptosis、apoptosis 與 necroptosis 的超分子平台，包含 RIPK1、RIPK3、FADD、caspase-8 與 NLRP3；其定義特性為非冗餘性，故阻斷任一單一臂無法阻止死亡（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "1f13f3be3b57",
+    "subject": "Caspase-6",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Caspase-6, though dispensable for canonical TNF-induced necroptosis, facilitates ZBP1/RIPK3 complex formation during influenza A virus infection, potentiating necroptosis signaling and NLRP3 inflammasome activation (Niu et al. 2026).",
+      "zh-TW": "Caspase-6 雖對典型 TNF 誘導的 necroptosis 非必需，卻在流感 A 病毒感染時促進 ZBP1/RIPK3 複合體形成，增強 necroptosis 訊號與 NLRP3 發炎體活化（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "09b4d8762f0f",
+    "subject": "RIPK3",
+    "predicate": "phosphorylates",
+    "object": "MFN2",
+    "context": {
+      "en-US": "RIPK3 phosphorylates mitofusin-2 (MFN2), promoting endoplasmic-reticulum-mitochondria tethering and mitochondrial Ca2+ overload that drives necroptotic death (Niu et al. 2026).",
+      "zh-TW": "RIPK3 磷酸化 mitofusin-2（MFN2），促進內質網-粒線體繫連與粒線體 Ca2+ 超載，進而驅動 necroptotic 死亡（Niu et al. 2026）。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "0b02c0ea2743",
+    "subject": "CaMKII",
+    "predicate": "activates",
+    "object": "Mitochondrial Permeability Transition Pore",
+    "context": {
+      "en-US": "RIPK3-phosphorylated CaMKII drives mitochondrial dysfunction by promoting mitochondrial permeability transition pore opening, a RIPK3/CaMKII/mPTP axis implicated in myocardial ischemia-reperfusion injury, heart failure, and neurological injury (Niu et al. 2026).",
+      "zh-TW": "受 RIPK3 磷酸化的 CaMKII 透過促進粒線體通透性轉換孔開啟而驅動粒線體功能障礙，此 RIPK3/CaMKII/mPTP 軸與心肌缺血再灌注損傷、心衰竭與神經損傷相關（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "c0cc0b5e042b",
+    "subject": "GSK872",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "GSK872 (GSK'872) is a selective RIPK3 kinase inhibitor used alongside RIPK1 (Necrostatin-1) and MLKL (necrosulfonamide) inhibitors to dissect and block necroptosis in preclinical models (Niu et al. 2026).",
+      "zh-TW": "GSK872（GSK'872）是選擇性 RIPK3 激酶抑制劑，常與 RIPK1（Necrostatin-1）及 MLKL（necrosulfonamide）抑制劑併用，以剖析並阻斷臨床前模型中的 necroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "3af368ff6404",
+    "subject": "Necroptosis",
+    "predicate": "promotes",
+    "object": "Antitumor Immunity",
+    "context": {
+      "en-US": "Necroptotic tumor cells release damage-associated molecular patterns that can promote immunogenic cell death and activate antitumor immunity; sustained necroptotic signaling may instead contribute to therapy resistance, giving necroptosis a dual, context-dependent role in cancer (Niu et al. 2026).",
+      "zh-TW": "necroptotic 腫瘤細胞釋放損傷相關分子模式，可促進免疫原性細胞死亡並活化抗腫瘤免疫；但持續的 necroptotic 訊號反而可能促成治療抗性，使 necroptosis 在癌症中具雙重且依情境而定的角色（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "9c01866f6dcb",
+    "subject": "NF-κB",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "NF-kB activation induces TNF and other cytokines that sensitize cells to necroptosis, and necroptotic DAMP release further activates NF-kB, forming a pathogenic feed-forward loop in ischemic, neurodegenerative, and inflammatory bowel disease (Niu et al. 2026).",
+      "zh-TW": "NF-kB 活化誘導 TNF 及其他細胞激素而使細胞對 necroptosis 更敏感，而 necroptotic DAMP 釋放又進一步活化 NF-kB，在缺血性、神經退化性與發炎性腸道疾病中形成致病性前饋迴路（Niu et al. 2026）。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "40c1a7c1bc00",
+    "subject": "Autophagy",
+    "predicate": "restrains",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Under energy stress autophagy can rescue cells by restoring ATP, and its inhibition may precipitate a metabolic crisis that promotes necroptosis; the crosstalk is bidirectional and phase-dependent, with early RIPK3-AMPK autophagy followed by necroptotic suppression of autophagic flux (Niu et al. 2026).",
+      "zh-TW": "在能量壓力下自噬可透過恢復 ATP 挽救細胞，其受抑制可能引發代謝危機而促進 necroptosis；此交互作用為雙向且具時相性，先有早期 RIPK3-AMPK 自噬，隨後 necroptotic 訊號抑制自噬通量（Niu et al. 2026）。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "ae2a1e71132a",
+    "subject": "GSK840",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "GSK840 (GSK'840) is an ATP-competitive RIPK3 kinase inhibitor used alongside GSK872 as a necroptosis-blocking tool; like other RIPK3 inhibitors, its rescue must be interpreted with kinase-dead-rerouting-to-apoptosis controls (Niu et al. 2026).",
+      "zh-TW": "GSK840（GSK'840）是 ATP 競爭性 RIPK3 激酶抑制劑，與 GSK872 併用作為阻斷 necroptosis 的工具；如同其他 RIPK3 抑制劑，其救援效果須以「激酶死亡型重導向凋亡」對照來解讀（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "GSK840.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "b67b0b4a0cca",
+    "subject": "Zharp-99",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Zharp-99 is a small-molecule RIPK3 kinase inhibitor in the same direct-inhibitor class as GSK872 and GSK840, blocking necrosome output by preventing MLKL phosphorylation (Niu et al. 2026).",
+      "zh-TW": "Zharp-99 是與 GSK872、GSK840 同屬直接抑制劑類別的小分子 RIPK3 激酶抑制劑，透過阻止 MLKL 磷酸化而阻斷 necrosome 輸出（Niu et al. 2026）。"
+    },
+    "confidence": 0.75,
+    "source_document": "Zharp-99.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "f2bb1c013117",
+    "subject": "HG-9-91-01",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "HG-9-91-01 is a salt-inducible kinase inhibitor that suppresses necroptosis by disrupting the RIPK3/MLKL interaction, demonstrating that the terminal necroptosis execution step is pharmacologically targetable independently of RIPK1 (Niu et al. 2026).",
+      "zh-TW": "HG-9-91-01 是 salt-inducible kinase 抑制劑，透過破壞 RIPK3/MLKL 交互作用而抑制 necroptosis，證明 necroptosis 的終端執行步驟可在不依賴 RIPK1 的情況下被藥理靶向（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "HG-9-91-01.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "18a7461b30d0",
+    "subject": "Apelin",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "In streptozotocin-induced diabetic rats, apelin treatment reversed hippocampal necroptosis (RIPK3/MLKL axis), alleviated cognitive impairment, and preserved neuronal viability, evidence that endogenous peptides can restrain necroptosis in metabolic/neurological injury (Niu et al. 2026).",
+      "zh-TW": "在鏈脲佐菌素誘導的糖尿病大鼠中，apelin 治療逆轉海馬 necroptosis（RIPK3/MLKL 軸）、改善認知障礙並維持神經元存活，證明內源性胜肽可在代謝/神經損傷中抑制 necroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Apelin.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "16bedb2702d6",
+    "subject": "TRPM7",
+    "predicate": "contributes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "TRPM7 is a Mg2+/Ca2+-permeable cation channel proposed to mediate indirect/MLKL-independent membrane compromise during necroptosis; the review highlights such ion-channel routes as evidence that the terminal execution phase is more heterogeneous than a single pore mechanism (Niu et al. 2026).",
+      "zh-TW": "TRPM7 是可通透 Mg2+/Ca2+ 的陽離子通道，被提出在 necroptosis 中媒介間接/不依賴 MLKL 的膜損傷；該綜述以此類離子通道途徑說明終端執行階段比單一孔道機制更具異質性（Niu et al. 2026）。"
+    },
+    "confidence": 0.7,
+    "source_document": "TRPM7.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
   }
 ]

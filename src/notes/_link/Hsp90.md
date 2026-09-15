@@ -2,7 +2,7 @@
 title: Hsp90
 description: 'Overview: Hsp90 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-14
 tags:
   - protein
 aliases: [Heat Shock Protein 90, HSP90]
@@ -31,6 +31,8 @@ List of documents that mention this entity
 
   - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
     - Besides, small molecules antagonists of Survivin such as cyclin-dependent kinase inhibitors and Hsp90 inhibitors and gene therapy have also been attempted in targeting Survivin in cancer therapy (reviewed by Pennati _et al_., 2007 \[\]).
+  - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+    - HSP90 binds MLKL, protecting it from proteasomal degradation and facilitating its activation and membrane translocation; necroptosis-relevant HSP90 inhibitors include tanespimycin and kongensin A.
 
 
 ## Connections
@@ -41,4 +43,5 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Hsp90]]
   - Strong connections to strengthen: [[Hsp90]] ↔ [[Hsp90]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — HSP90 stabilizes MLKL. New links: [[MLKL]], [[Necroptosis]].
 

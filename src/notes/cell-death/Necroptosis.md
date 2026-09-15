@@ -3,7 +3,7 @@ title: Necroptosis
 description: Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.
 protected: true
 created: 2026-07-04
-updated: 2026-09-12
+updated: 2026-09-14
 tags: [biological-process, cell-death, inflammation, regulated-cell-death]
 url: #
 source: #
@@ -37,6 +37,10 @@ When [[Caspase-8]] is absent or inhibited (z-VAD-FMK, viral inhibitors, genetic 
 
 > [!important] RIPK1-independent routes
 > [[TLR3]]/[[TLR4]] activation (dsRNA/LPS) signals via TRIF–RIPK3, and viral/Z-nucleic-acid sensing via [[ZBP1]]/DAI–RIPK3, forming necrosomes **without RIPK1**. The death domain of [[RIPK1]] normally restrains ZBP1- and TRIF-mediated death.
+
+> [!info]
+> Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
+> The review extends the non-canonical catalogue and stresses context dependence. [[ZBP1]] needs [[RIPK1]] as a bridging adaptor in human cells but not in murine cells (where RIPK1 is inhibitory); [[TRIF]] recruits RIPK3 directly via RHIM downstream of [[TLR3]]/[[TLR4]]; and [[Caspase-6]] facilitates ZBP1/RIPK3 assembly during influenza A. Additional RIPK3 effectors beyond [[MLKL]] include [[CaMKII]] (mPTP opening in myocardial I/R) and [[MFN2|mitofusin-2]] (ER–mitochondria tethering and Ca2+ overload). The review also frames [[PANoptosis]]/[[PANoptosome|PANoptosomes]] as the integration point where necroptosis, apoptosis, and pyroptosis are co-executed.
 
 ## Regulation
 
@@ -120,6 +124,8 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
   - Timeline synthesis: TNFR1 Complex I/II/necrosome, non-classical TRIF/ZBP1 arms, RIPK1/RIPK3 phospho-site map, RIPK3 inflammasome scaffolding, bacterial/viral evasion, neurodegeneration (ALS/PD/MS/SCI) and Nec-1/SAHA/24S-OHC agents.
 - [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
   - RIP3 phosphorylates PDC-E3 at Thr135 to raise aerobic respiration and mitochondrial ROS, which feed back on the necrosome; blocking pyruvate uptake/MPC suppresses TNF-induced necroptosis.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - Canonical vs non-canonical induction (TNFR1, ZBP1 with species-dependent RIPK1 requirement, TRIF/TLR3/4) and the multilayered PTM/transcriptional regulation of RIPK1/RIPK3/MLKL (DAPK1, PTPN6, PI3K/Akt, TRIM21, CYLD, OTULIN, RSK3, CSNK1G2, CaMKII, PDC, PGAM5, BRD4, HSP90, TAM kinases); crosstalk with apoptosis/autophagy/inflammation/metabolism and PANoptosomes; therapeutic duality of inhibiting vs inducing necroptosis.
 
 ## Connections
 
@@ -161,3 +167,4 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 - Strong connections to strengthen: [[Necroptosis]] ↔ [[RIPK3]], [[Necroptosis]] ↔ [[MLKL]], [[Necroptosis]] ↔ [[Caspase-8]], [[Necroptosis]] ↔ [[PGAM5]], [[Necroptosis]] ↔ [[NLRP3]]
 - Mitochondrial-metabolism enrichment (2026-09-12): added [[Pyruvate Dehydrogenase]], [[Pyruvate]], [[MPC]], [[UK5099]], [[TCA cycle]], [[Glycolysis]], [[Acetyl-CoA]], [[ROS]]; new section "Mitochondrial metabolism" (RIP3→PDC-E3 Thr135 → respiration/ROS → necrosome feedback loop; context-dependence and UK5099 selectivity caveats).
 - Sex-dimorphism enrichment (2026-09-03): male-biased RIPK1/RIPK3/p-MLKL in renal IRI, OVX-narrowed (Tran 2025, single-study, no KO causality); cardiac/cerebral/testosterone/X-linked claims excluded as unverified.
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — non-canonical ZBP1/TRIF routes and their species/context dependence, PTM regulation of RIPK1/RIPK3/MLKL, PANoptosome co-execution, and therapeutic duality. New links: [[PANoptosome]], [[CaMKII]], [[MFN2]], [[CSNK1G2]], [[RSK3]], [[BRD4]], [[Hsp90]], [[TAM Kinases]], [[TRIM21]], [[OTULIN]], [[DAPK]], [[SHP1]].

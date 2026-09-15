@@ -3,7 +3,7 @@ title: OTULIN
 description: OTU deubiquitinase with linear linkage specificity that regulates RIPK1 ubiquitination during necroptosis; phosphorylation at Tyr-56 drives cell death and inflammation.
 protected: false
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-14
 tags: [enzyme, cell-death, ubiquitin, inflammation]
 url: #
 source: #
@@ -35,6 +35,8 @@ Fine-tunes TNF-induced survival vs death decisions; restrains spontaneous inflam
 
 - [[_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms|Feoktistova et al. 2011]]
   - LUBAC/deubiquitinase balance governing complex I stability and ripoptosome formation.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - OTULIN Tyr-56 phosphorylation during necroptosis regulates RIPK1 ubiquitination to drive cell death; positioned opposite CYLD in the RIPK1 ubiquitin-editing balance.
 
 ## Connections
 
@@ -48,3 +50,4 @@ Fine-tunes TNF-induced survival vs death decisions; restrains spontaneous inflam
 
 - New links added: [[RIPK1]], [[CYLD]], [[TNFR1 complex I]], [[Necroptosis]], [[Inflammation]]
 - Strong connections to strengthen: [[OTULIN]] ↔ [[RIPK1]], [[OTULIN]] ↔ [[CYLD]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — OTULIN Tyr-56 switch and its place in the RIPK1 ubiquitin-editing balance.

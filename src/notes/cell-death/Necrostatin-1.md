@@ -3,7 +3,7 @@ title: Necrostatin-1
 description: A small-molecule inhibitor of necroptosis that targets receptor-interacting protein kinase 1 (RIPK1).
 protected: true
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-09-14
 tags:
   - chemical-compound
   - cell-death
@@ -32,6 +32,8 @@ Nec-1 allosterically inhibits RIPK1 kinase activity, preventing the formation of
 
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
   - Mechanism (phosphorylation/translocation block), AD/PD/HD Table 1, TBI Akt/mTOR off-target note, SOD1-G93A ALS rescue.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - Necrostatin-1 as the reference RIPK1 inhibitor in the therapeutic landscape, alongside RIPK3 (GSK'840/GSK'872/Zharp-99) and MLKL (necrosulfonamide) inhibitors; context-dependent duality of inhibiting vs inducing necroptosis.
 
 ## Connections
 
@@ -47,3 +49,4 @@ Nec-1 allosterically inhibits RIPK1 kinase activity, preventing the formation of
 
 - New links added: [[Necroptosis]], [[RIPK1]], [[Z-VAD-FMK]], [[Ferrostatin-1]], [[Apoptosis]], [[Ferroptosis]], [[Adrenochrome]]
 - Strong connections to strengthen: [[Necrostatin-1]] ↔ [[RIPK1]], [[Necrostatin-1]] ↔ [[Necroptosis]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — Nec-1 in the direct-inhibitor landscape of the necroptosis network. New links: [[GSK872]].

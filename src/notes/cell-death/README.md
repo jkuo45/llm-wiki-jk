@@ -16,6 +16,7 @@ updated: 2026-09-14
 | [[_document_ - Parthanatos David 2009 messenger of death\|Parthanatos, a messenger of death]] | David et al. 2009 foundational parthanatos review; PAR polymer itself (not NAD+ depletion) is the death signal downstream of PARP-1; PAR length/complexity toxicity, PARG biology, PAR-AIF nuclear-mitochondrial crosstalk. |
 | [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers\|Molecular mechanisms of cell death by parthanatos: More questions than answers]] | Moura et al. 2024 mini-review of the contested downstream cascade — NAD+/glycolysis vs PAR–HK1, free ADP-ribose–TRPM2 Ca2+, Nudix–AMP–AMPK, and AIF-dependent vs AIF-independent DNA fragmentation; lists 17 open questions. |
 | [[_document_ - Necroptosis a regulated inflammatory mode of cell death\|Necroptosis: a regulated inflammatory mode of cell death]] | Dhuriya and Sharma 2018 timeline review of necroptosis molecular mechanisms and disease relevance — RIPK3/MLKL axis, non-classical necrosomes, phospho-sites, inflammation, infection, neurodegeneration. |
+| [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network\|Regulatory complexity and therapeutic targeting of the necroptosis network]] | Niu et al. 2026 review of canonical (TNFR1) and non-canonical (ZBP1, TRIF) necroptosis induction, the multilayered PTM/transcriptional regulation of RIPK1/RIPK3/MLKL, crosstalk with apoptosis/autophagy/inflammation/metabolism and PANoptosomes, and the therapeutic duality of inhibiting vs inducing necroptosis. |
 | [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9\|Insights on the crosstalk among different cell death mechanisms]] | Comprehensive review (Cell Death Discovery 2025) of apoptosis, autophagy, mitophagy, necroptosis, pyroptosis, and ferroptosis mechanisms, inducers, inhibitors, and crosstalk among key regulators including sirtuins. |
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 
@@ -30,6 +31,10 @@ Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5
 BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[Apoptosis-Inducing Factor]], [[AIFM2]].
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
+
+Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[Hsp90]], [[BRD4]].
+
+Necroptosis tools and modulators (mostly `_link/`): [[GSK872]], [[GSK840]], [[Zharp-99]], [[HG-9-91-01]], [[Apelin]], [[TRPM7]].
 
 Disease models: [[Cerulein-Induced Pancreatitis]] (RIPK3/MLKL-driven acinar necroptosis → DAMP release → SIRS).
 

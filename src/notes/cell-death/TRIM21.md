@@ -3,7 +3,7 @@ title: TRIM21
 description: Tripartite motif containing 21, a RING E3 ubiquitin ligase that interacts with RIPK1 and catalyzes its ubiquitination to regulate necroptosis and antiviral immunity.
 protected: false
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-14
 tags: [enzyme, cell-death, ubiquitin, innate-immunity]
 url: #
 source: #
@@ -36,6 +36,8 @@ Regulates viral infections and antiviral immunity, balancing interferon inductio
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - TNFR1–TRAF2–TRIM21 induction of mitochondrial ROS feeding necroptosis.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - TRIM21 RING-domain ubiquitination of RIPK1 promotes its activation/pro-necrotic function; the specific ubiquitin chain types and their stability-vs-signaling contributions remain unresolved.
 
 ## Connections
 
@@ -49,3 +51,4 @@ Regulates viral infections and antiviral immunity, balancing interferon inductio
 
 - New links added: [[RIPK1]], [[RIPK3]], [[MLKL]], [[ROS]], [[TNFR1]]
 - Strong connections to strengthen: [[TRIM21]] ↔ [[RIPK1]], [[TRIM21]] ↔ [[ROS]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — TRIM21 as a positive RIPK1 regulator; unresolved ubiquitin-chain-type question.

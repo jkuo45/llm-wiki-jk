@@ -3,7 +3,7 @@ title: TAM Kinases
 description: Tyro3, Axl, and Mer receptor tyrosine kinases that phosphorylate MLKL during phagocytosis to regulate necroptosis and inflammation.
 protected: false
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-14
 tags: [enzyme, kinase, cell-death, inflammation]
 url: #
 source: #
@@ -34,6 +34,8 @@ Coordinate silent clearance of apoptotic/necroptotic corpses; TAM loss converts 
 
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Necroptosis Review]]
   - Phosphatidylserine–TAM sensing coupling phagocytosis to MLKL regulation.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - TAM kinases (Tyro3, Axl, Mer) activated by exposed phosphatidylserine directly phosphorylate MLKL during phagocytosis.
 
 ## Connections
 
@@ -46,3 +48,4 @@ Coordinate silent clearance of apoptotic/necroptotic corpses; TAM loss converts 
 
 - New links added: [[MLKL]], [[RIPK3]], [[Necroptosis]], [[Inflammation]]
 - Strong connections to strengthen: [[TAM Kinases]] ↔ [[MLKL]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — TAM-kinase MLKL phosphorylation during phagocytosis.

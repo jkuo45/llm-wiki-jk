@@ -2,7 +2,7 @@
 title: BRD4
 description: Bromodomain-containing protein 4, an epigenetic reader recruited to senescence-activated enhancers to promote SASP.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-09-14
 tags:
   - epigenetics
   - protein
@@ -39,6 +39,8 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review describes BRD4 as a BET-family reader recruited to senescence-activated super-enhancers marked by H3K27ac, where it cooperates with AP-1/C/EBPα to drive NF-κB-regulated SASP; its depletion also triggers H3.3 clipping and SASP.
+  - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+    - BRD4 binds the MLKL promoter to transcriptionally promote MLKL expression, positively regulating necroptosis; bromodomain inhibitors targeting BRD4 are noted as MLKL-axis therapeutics.
 
 ## Connections
 
@@ -62,3 +64,4 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 
 - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Oncogene-Induced Senescence|OIS]], [[NF-κB]], [[p38 MAPK]], [[CDK9]], [[Epigenetic Alterations]], [[Histone Variant]], [[AP-1]], [[cGAS-STING Pathway]], [[KDM4]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
 - Strong connections to strengthen: [[BRD4]] ↔ SASP regulation, [[BRD4]] ↔ OIS, [[BRD4]] ↔ BET inhibitors (senomorphic)
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — BRD4 as a transcriptional regulator of [[MLKL]] and druggable necroptosis node. New links: [[MLKL]], [[Necroptosis]].

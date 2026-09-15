@@ -2,7 +2,7 @@
 title: CaMKII
 description: CaMKII (Calmodulin-dependent protein kinase II) is a multifunctional serine/threonine kinase that phosphorylates Caspase-2 at Ser164, modulating apoptotic commitment in a calcium-dependent manner opposed by the phosphatase PP1.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-09-14
 tags:
   - enzyme
 aliases: [Calcium-dependent protein kinase II, CAMK2, CAMKII]
@@ -36,6 +36,8 @@ List of documents that mention this entity
 
   - [[_document_ - Caspase|Caspase]]
     - Suppressing mitotic cell death | | Caspase-2 | | CaMKII (PP1) | Ser164 | Suppression of activity | Metabolically regulated | | Ca
+  - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+    - RIPK3 directly phosphorylates and activates CaMKII, leading to mitochondrial dysfunction (mPTP opening) in myocardial ischemia-reperfusion injury, heart failure, and neurological damage.
 
 
 ## Connections
@@ -54,4 +56,5 @@ List of documents that mention this entity
 
 - New links added: [[Caspase-2]], [[PP1]], [[Apoptosis]], [[Calcium Ions]], [[Cancer]], [[ERK]], [[Phosphorylation]]
 - Suggested new entity notes to create: [[PP1]], [[Calcium Ions]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — RIPK3–CaMKII–mPTP axis in myocardial I/R, heart failure, and neurological injury. New links: [[RIPK3]], [[Mitochondrial Permeability Transition Pore]], [[Necroptosis]].
 - Strong connections to strengthen: [[CaMKII]] ↔ [[Caspase-2]], [[CaMKII]] ↔ [[PP1]]
