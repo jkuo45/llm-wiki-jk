@@ -413,8 +413,10 @@
 
   /* ---- response tracker (Layer B: baseline → retest) ---- */
   #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
-  .resp-table input[type=number] { width: 64px; }
-  .resp-table td:first-child { white-space: normal; min-width: 0; }
+  .resp-table { table-layout: fixed; min-width: 560px; }
+  .resp-table input[type=number] { width: 52px; }
+  .resp-table th:first-child,
+  .resp-table td:first-child { width: 220px; white-space: normal; overflow-wrap: anywhere; }
   .resp-delta { font-family: var(--mono); font-size: 11px; white-space: nowrap; }
   .sig {
     font-family: var(--mono);
@@ -422,12 +424,15 @@
     padding: 1px 6px;
     border: 1px solid currentColor;
     border-radius: var(--r-sm, 2px);
-    white-space: nowrap;
+    white-space: normal;
   }
   .sig-responding { color: var(--teal); }
   .sig-dormant { color: var(--faint); }
   .sig-negative { color: var(--red); }
   .sig-capped { color: var(--gold); }
+  @media (max-width: 720px) {
+    .tuner-table th, .tuner-table td { padding: 4px 5px; }
+  }
 
   /* ---- footer attribution ---- */
   .page-footer {
@@ -1512,7 +1517,7 @@ function renderResponseTracker() {
     const sig = respSignal(ep, e.b, e.r);
     return `
       <tr>
-        <td>${domainTitle(t.id)} — ${ep.label} <span class="tuner-lh">(${ep.unit}${ep.lowerBetter ? '，越低越好' : ''})</span></td>
+        <td title="${domainTitle(t.id)} — ${ep.label} (${ep.unit})">${domainTitle(t.id)} — ${ep.label} <span class="tuner-lh">(${ep.unit}${ep.lowerBetter ? '，越低越好' : ''})</span></td>
         <td><input type="number" step="any" min="0" value="${e.b != null ? e.b : ''}"
           onchange="onResponse('${t.id}', '${ep.key}', 'b', this.value)" aria-label="${ep.label}基準"></td>
         <td><input type="number" step="any" min="0" value="${e.r != null ? e.r : ''}"
