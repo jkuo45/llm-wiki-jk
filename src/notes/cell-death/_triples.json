@@ -336,20 +336,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "2494a038b445",
-    "subject": "Caspase-8",
-    "predicate": "activates",
-    "object": "Caspase-3",
-    "context": {
-      "en-US": "In the extrinsic (death receptor) pathway, FasL or TNF-α engagement assembles the DISC, activating initiator caspase-8 (with caspase-10), which directly cleaves the executioner caspase-3 in type I cells. In type II cells caspase-8 instead cleaves Bid, routing through mitochondria. Caspase-8 sits at the crossroads of apoptosis, necroptosis, and pyroptosis because its active form also cleaves RIPK1 and RIPK3, preventing necroptosis — so caspase-8-to-caspase-3 flow is simultaneously a death signal and a necroptosis suppressor.",
-      "zh-TW": "在外在（死亡受體）路徑中，FasL 或 TNF-α 的結合組裝出 DISC，活化起始 caspase-8（與 caspase-10），其在 type I 細胞中直接切割執行者 Caspase-3；在 type II 細胞中 caspase-8 則切割 Bid，改經粒線體路徑。Caspase-8 位於細胞凋亡、程序性壞死與細胞焦亡的十字路口，因為其活化形式也會切割 RIPK1 與 RIPK3 從而阻止程序性壞死——因此 caspase-8 至 Caspase-3 的流動既是死亡訊號，也是程序性壞死的抑制者。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
-    "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "d3f9d15bc07f",
     "subject": "Erastin",
     "predicate": "inhibits",
@@ -1993,13 +1979,13 @@
     "predicate": "activates",
     "object": "Caspase-3",
     "context": {
-      "en-US": "Caspase-8 activates Caspase-3. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The relationship is directional, with Caspase-8 acting as the operative agent upon Caspase-3 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
-      "zh-TW": "Caspase-8 啟動 Caspase-3。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。這種關係是有方向的，Caspase-8 充當 Caspase-3 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+      "en-US": "Caspase-8 activates Caspase-3: as the initiator caspase of the extrinsic (death receptor) pathway, DISC-assembled caspase-8 (with caspase-10) directly cleaves the executioner Caspase-3 in type I cells, while in type II cells it cleaves Bid to route through mitochondria. Caspase-3 is the principal executioner that cleaves hundreds of substrates to produce the apoptotic phenotype. Caspase-8 also sits at the crossroads of apoptosis, necroptosis, and pyroptosis — its active form cleaves RIPK1 and RIPK3, preventing necroptosis — so the caspase-8-to-Caspase-3 flow is simultaneously a death signal and a necroptosis suppressor.",
+      "zh-TW": "Caspase-8 啟動 Caspase-3：作為外在（死亡受體）路徑之起始 caspase，經 DISC 組裝之 caspase-8（與 caspase-10）在 type I 細胞中直接切割執行者 Caspase-3；在 type II 細胞中則切割 Bid，改經粒線體路徑。Caspase-3 是 主要的執行者 caspase，可切割數百種受質以產生凋亡表型。Caspase-8 亦位於凋亡、necroptosis 與焦亡之十字路口——其活化 形式會切割 RIPK1 與 RIPK3 以阻止 necroptosis——因此 Caspase-8 至 Caspase-3 之流動既是死亡訊號，也是 necroptosis 之抑制者。"
     },
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-14T23:30:00Z"
   },
   {
     "id": "3f2ca07dd42a",
@@ -3736,5 +3722,383 @@
     "source_document": "TRPM7.md",
     "created": "2026-09-14T23:00:00Z",
     "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "f638ba33d67d",
+    "subject": "Necroptosis",
+    "predicate": "is_defined_by",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Following the Nomenclature Committee on Cell Death 2012 recommendations, necroptosis is canonically defined as necrotic cell death dependent on RIPK3 — not synonymous with all active necrosis, and mechanistically distinct from other regulated-necrosis programs such as MPT (Linkermann & Green, NEJM 2014).",
+      "zh-TW": "依 Nomenclature Committee on Cell Death 2012 之建議，necroptosis 被規範性定義為依賴 RIPK3 的壞死性細胞死亡——不等同於所有活化性壞死，且在機制上與其他 regulated necrosis 程序（如 MPT）截然不同。"
+    },
+    "confidence": 0.97,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "c8c8dda2117d",
+    "subject": "c-FLIP",
+    "predicate": "suppresses",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "c-FLIP, structurally related to but catalytically inactive as a homodimer partner, pairs with Caspase-8 to block apoptosis; when Caspase-8 or c-FLIP is lost or its activation interrupted, RIPK1 complexes with RIPK3 to assemble the necrosome — the FADD–caspase-8–c-FLIP complex acts as the rheostat that suppresses RIPK3-mediated death.",
+      "zh-TW": "c-FLIP 與 Caspase-8 結構相近但具催化惰性，與 Caspase-8 配對以阻斷凋亡；當 Caspase-8 或 c-FLIP 缺失、或其中斷活化時，RIPK1 與 RIPK3 複合組裝成 necrosome——FADD–caspase-8–c-FLIP 複合物即為抑制 RIPK3 媒介死亡的調節器。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "3a4660d3a81b",
+    "subject": "FADD",
+    "predicate": "suppresses",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Deleting FADD, c-FLIP, or Caspase-8 in mice is embryonic lethal at ~e10.5 and fully rescued on a RIPK3-deficient background; tissue-specific FADD loss likewise drives RIPK3-dependent necroptosis in keratinocytes and intestinal epithelium, establishing FADD as a suppressor of necroptosis.",
+      "zh-TW": "小鼠中敲除 FADD、c-FLIP 或 Caspase-8 約在胚胎 e10.5 致死，於 RIPK3 缺失背景下可被完全拯救；組織特異性 FADD 缺失同樣驅動角質細胞與腸道上皮之 RIPK3 依賴型 necroptosis，確立 FADD 為 necroptosis 抑制因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "96ae0c7b2f2c",
+    "subject": "Protein Kinase R",
+    "predicate": "phosphorylates",
+    "object": "FADD",
+    "context": {
+      "en-US": "In the viral PKR route, type I interferon drives JAK/STAT-dependent de novo synthesis of Protein Kinase R, which phosphorylates FADD; phosphorylated FADD interacts with RIPK1 to induce necrosome formation (as reviewed in 2014).",
+      "zh-TW": "在病毒 PKR 路徑中，第一型干擾素驅動 JAK/STAT 依賴性之 Protein Kinase R 新合成，PKR 隨後磷酸化 FADD；磷酸化的 FADD 與 RIPK1 交互作用誘導 necrosome 形成（依 2014 年綜述所述）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "a2e9249b8b0b",
+    "subject": "Protein Kinase R",
+    "predicate": "interacts with",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "PKR-mediated FADD phosphorylation licenses FADD–RIPK1 interaction that induces necrosome assembly, providing an IFN-coupled route to necroptosis.",
+      "zh-TW": "PKR 媒介之 FADD 磷酸化使 FADD–RIPK1 交互作用獲得許可，誘導 necrosome 組裝，提供一條與干擾素耦合之 necroptosis 路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "fcc775835d71",
+    "subject": "Type I Interferon",
+    "predicate": "induces",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Both apoptosis and necroptosis are induced by type I and II interferons, promoting death and removal of virally infected cells — positioning necroptosis as an evolutionarily conserved anti-infective program.",
+      "zh-TW": "第一型與第二型干擾素均誘導凋亡與 necroptosis，促進病毒感染細胞之死亡與清除——將 necroptosis 定位為演化上保守的抗感染程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "4ddd8383af24",
+    "subject": "Toll-like Receptor",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Beyond death receptors, Toll-like receptors and intracellular triggers such as DAI and Protein Kinase R were added as necroptosis inducers; TLR3/TLR4 signal via TRIF to the necrosome.",
+      "zh-TW": "除死亡受體外，Toll-like 受體及 DAI、Protein Kinase R 等胞內觸發物被加入為 necroptosis 誘導物；TLR3/TLR4 經 TRIF 向 necrosome 傳遞訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "54b73789ee7e",
+    "subject": "Necroptosis",
+    "predicate": "co_occurs_with",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Apoptosis and necroptosis are not mutually exclusive programs and can co-occur in the same organ — e.g. photoreceptor death in retinal detachment and retinal ischemia triggers both simultaneously, and cones but not rods undergo necroptosis in a retinitis-pigmentosa model.",
+      "zh-TW": "凋亡與 necroptosis 並非互斥程序，可於同一器官中同時發生——例如視網膜剝離與視網膜缺血之感光細胞死亡同時觸發兩者；在色素性視網膜炎模型中僅錐狀細胞（而非桿狀細胞）發生 necroptosis。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "1ef87aedcec6",
+    "subject": "RIPK3",
+    "predicate": "contributes_to",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "RIPK3-deficient mice are protected from ischemia-reperfusion injury across models and Nec-1 adds nothing on top of the deficiency; glomerular endothelial cells (unlike tubular cells, mesangial cells, or podocytes) express the highest RIPK3, correlating with necroptosis propensity.",
+      "zh-TW": "RIPK3 缺失小鼠在多個缺血–再灌注模型中受保護，且在此基礎上 Nec-1 不再增加效果；腎小球內皮細胞（與腎小管細胞、系膜細胞或足細胞不同）表現最高之 RIPK3，與 necroptosis 傾向相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "44de498a6c4c",
+    "subject": "Necrostatin-1",
+    "predicate": "worsens",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "Despite RIPK3- and MLKL-deficiency protecting in the cerulein pancreatitis model, Nec-1 administration worsened histological damage and raised serum lipase/amylase — attributed by the authors to Nec-1's short half-life rather than genuine pathway agonism.",
+      "zh-TW": "儘管在雨蛙素（cerulein）胰臟炎模型中 RIPK3 與 MLKL 缺失具保護作用，Nec-1 給藥卻惡化組織學損傷並升高血清脂肪酶/澱粉酶——作者歸因於 Nec-1 半衰期過短，而非真正促進該路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "e7e6d20d5e59",
+    "subject": "Necrostatin-1",
+    "predicate": "inhibits",
+    "object": "IDO1",
+    "context": {
+      "en-US": "Nec-1 was later found to be identical to a previously reported indoleamine 2,3-dioxygenase inhibitor, i.e. it blocks both RIPK1 and IDO — a caveat for interpreting Nec-1-based disease studies.",
+      "zh-TW": "Nec-1 後來被發現與先前報導的 indoleamine 2,3-dioxygenase 抑制劑為同一化合物，即其同時抑制 RIPK1 與 IDO——解讀以 Nec-1 為基礎之疾病研究時必須注意的警訊。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "9f8f0674b063",
+    "subject": "SHARPIN",
+    "predicate": "regulates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "SHARPIN, a component of the linear ubiquitin chain assembly complex (LUBAC), is a RIPK1-regulator; SHARPIN deficiency causes chronic proliferative dermatitis in mice that is reversed on a TNFR1-deficient background.",
+      "zh-TW": "SHARPIN 為線性泛素鏈組裝複合物（LUBAC）之組分，是 RIPK1 之調節者；SHARPIN 缺失在小鼠引起慢性增生性皮炎，並在 TNFR1 缺失背景下被逆轉。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "6184f89c5933",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Inflammatory Bowel Disease",
+    "context": {
+      "en-US": "Deleting Caspase-8 or FADD from intestinal epithelium causes spontaneous necroptosis with pathology morphologically similar to inflammatory bowel disease, and RIPK3 deletion completely prevents it.",
+      "zh-TW": "從腸道上皮刪除 Caspase-8 或 FADD 會引起自發性 necroptosis，其病理形態類似發炎性腸道疾病（IBD），而 RIPK3 缺失可完全預防之。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "bf33c7692fee",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Crohn's Disease",
+    "context": {
+      "en-US": "The intestinal-epithelial necroptosis driven by FADD/caspase-8 loss is morphologically most similar to Crohn's disease; high immunogenicity of necrotic cells plus loss of barrier function are implicated.",
+      "zh-TW": "FADD/caspase-8 缺失所驅動之腸道上皮 necroptosis，其形態學最接近克隆氏症；壞死細胞之高度免疫原性加上屏障功能喪失被認為牽涉其中。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "4f2555250356",
+    "subject": "A20",
+    "predicate": "deubiquitinates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "A20 is a RIPK1-deubiquitinase whose ablation sensitizes mice to lethal TNF-mediated colitis via intestinal epithelial cell death (interpreted as apoptosis, with possible necroptosis involvement).",
+      "zh-TW": "A20 是 RIPK1 去泛素化酶，其缺失使小鼠對 TNF 媒介之致死性結腸炎敏感，機制為腸道上皮細胞死亡（被解讀為凋亡，可能牽涉 necroptosis）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "390a9cda4742",
+    "subject": "Damage-Associated Molecular Patterns",
+    "predicate": "induce",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "DAMPs released from necroptotic cells are heavy triggers of innate and adaptive immunity and plausibly drive allograft rejection — the rationale for necroptosis inhibition in solid-organ transplantation.",
+      "zh-TW": "由 necroptosis 細胞釋出之 DAMPs 是先天與適應性免疫之強力觸發物，很可能驅動移植物排斥——此為實體器官移植中抑制 necroptosis 之理論依據。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "2a55b74b9721",
+    "subject": "Cyclophilin D",
+    "predicate": "mediates",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "MPT is an independent regulated-necrosis program: cyclophilin D-dependent opening of the permeability transition pore; cyclophilin D-deficient mice are partially protected from organ ischemia-reperfusion injury.",
+      "zh-TW": "MPT 是獨立的 regulated necrosis 程序：由 Cyclophilin D 依賴性之通透性轉換孔開啟所介導；Cyclophilin D 缺失小鼠在器官缺血–再灌注損傷中獲得部分保護。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "4258064e548e",
+    "subject": "Cyclosporine A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Cyclosporine A inhibits MPT intracellularly via cyclophilin D and prevented ischemic myocardial damage in a human trial — an anti-regulate- necrosis effect beyond its immunosuppressive role.",
+      "zh-TW": "Cyclosporine A（CsA）於胞內經由 Cyclophilin D 抑制 MPT，且在一項人體試驗中預防缺血性心肌損傷——此為超越其免疫抑制作用之抗 regulated necrosis 效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "840f7830fd7f",
+    "subject": "Sanglifehrin A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Sanglifehrin A (SfA) blocks MPT; combination of Nec-1 + SfA gave significantly stronger protection in ischemia-reperfusion injury than either monotherapy, confirming MPT and necroptosis as independent programs.",
+      "zh-TW": "Sanglifehrin A（SfA）阻斷 MPT；在缺血–再灌注損傷中 Nec-1 與 SfA 併用較任何單一療法提供顯著更強之保護，證實 MPT 與 necroptosis 為獨立程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "1054fa0d6dae",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_distinct_from",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "MPT and necroptosis are cleanly separate programs, shown by ischemia-reperfusion experiments in cyclophilin D–RIPK3 double-deficient mice.",
+      "zh-TW": "MPT 與 necroptosis 是截然不同的程序，由 Cyclophilin D–RIPK3 雙缺失小鼠之缺血–再灌注實驗所證實。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "b1568067291c",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Regulated necrosis — the lytic subset of regulated cell death — covers necroptosis, MPT, ferroptosis, pyroptosis, PARP-1-mediated and NADPH-oxidase-mediated regulated necrosis, lysosomal membrane permeabilization and others.",
+      "zh-TW": "Regulated necrosis——regulated cell death 之裂解性子集——涵蓋 necroptosis、MPT、鐵死亡、焦亡、PARP-1 媒介與 NADPH 氧化酶媒介之 regulated necrosis、溶酶體膜通透化等。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "19691530876b",
+    "subject": "SIRT2",
+    "predicate": "contributes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "The NAD-dependent deacetylase SIRT2, together with acid sphingomyelinase and PGAM5, was proposed in 2014 as an additional regulator of programmed necrosis awaiting confirmation.",
+      "zh-TW": "NAD 依賴性去乙醯酶 SIRT2，連同酸性鞘磷脂酶與 PGAM5，於 2014 年被提出為程序性壞死之額外調節者，該角色尚待證實。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "5bf78c10e7c2",
+    "subject": "Acid Sphingomyelinase",
+    "predicate": "contributes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Acid sphingomyelinase was listed among proposed regulators of necroptosis in the 2014 review, pending definitive confirmation.",
+      "zh-TW": "酸性鞘磷脂酶在 2014 年綜述中被列為 necroptosis 之候選調節者，尚待明確證實。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "a5815f9cde9d",
+    "subject": "TNFα",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Intravenous TNFα causes acute TNFR1-dependent apoptotic detachment of enterocytes and kills mice within 48 h ('hyperacute TNF shock'); this is the default TNF response that pan-caspase inhibition redirects toward necroptosis.",
+      "zh-TW": "靜脈注射 TNFα 引起急性、依賴 TNFR1 之腸上皮細胞凋亡性剝離，並於 48 小時內致小鼠死亡（「超急性 TNF 休克」）；廣效性 Caspase 抑制可將此預設 TNF 反應改向為 necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "45c6c9d8360d",
+    "subject": "Z-VAD-FMK",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Necroptosis was first recognized when TNFα was given together with the pan-caspase inhibitor zVAD-fmk: eliminating the apoptosis branch unmasks RIPK3-dependent necrosis; in the TNF-shock model zVAD-fmk accelerates death from 48 h to 24 h.",
+      "zh-TW": "Necroptosis 最初是在 TNFα 與廣效性 Caspase 抑制劑 zVAD-fmk 併用時被發現：消除凋亡分支後顯露 RIPK3 依賴性壞死；在 TNF 休克模型中 zVAD-fmk 將死亡時間由 48 小時縮短為 24 小時。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "5c455d0fbf93",
+    "subject": "TNFR1",
+    "predicate": "is_dispensable_for",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Despite the in-vitro prominence of TNFR1 in necroptosis induction, TNFR1-deficient or TNFR1/2-double-deficient mice are not protected in renal ischemia-reperfusion injury — evidence that additional inducers matter in vivo.",
+      "zh-TW": "儘管 TNFR1 在體外 necroptosis 誘導中地位顯著，TNFR1 缺失或 TNFR1/2 雙缺失小鼠在腎缺血–再灌注損傷中並未受到保護——證明體內尚有其他誘導物扮演角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "1c5786d6f353",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Sepsis",
+    "context": {
+      "en-US": "The role of necroptosis in sepsis remains open: cecal-ligation-and-puncture (CLP) studies conflict (Nec-1 protective in one report, accelerating in others) and RIPK3-/MLKL-deficient mice show no benefit.",
+      "zh-TW": "Necroptosis 在敗血症之角色仍未有定論：盲腸結紮穿刺（CLP）模式之研究結果相互矛盾（一篇報告 Nec-1 具保護作用，其他則顯示加速），而 RIPK3/MLKL 缺失小鼠未見獲益。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
   }
 ]
