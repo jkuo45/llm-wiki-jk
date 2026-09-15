@@ -363,7 +363,8 @@
   #weightMode, #responseMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
   .tuner-hint { font-size: .8rem; color: var(--mute); margin: 8px 0 10px; line-height: 1.55; }
   .tuner-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
-  .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .tuner-table th {
     font-family: var(--mono);
     font-size: 10px;
