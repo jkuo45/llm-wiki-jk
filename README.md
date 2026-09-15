@@ -1,8 +1,8 @@
 # llm-wiki-jk
 
-<!-- GENERATED: summary_table -->
-## Summary Table
+## ℹ️ Summary Table
 
+<!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_SEP_2026 | 32 | 1732 | 1,074,901 | 10.07 MB |
@@ -23,9 +23,7 @@
 
 **_\*Summary Table: notes directory only_\***
 
----
-
-## Knowledge Graphs (Triples · Wiki · Combined)
+## 📐 Knowledge Graphs (Triples · Wiki · Combined)
 
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
@@ -36,30 +34,12 @@
 
 Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 
-> [!NOTE]
->
-> **Combined Merge**
->
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+**Combined Merge**
+
+The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 <!-- END GENERATED: graph_datasets -->
 
----
-
-## 📝 updates
-
-> [!NOTE]
->
-> **Sirtuins, Cellular Senescence, `task_output`**:
->
-> - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
-> - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
-> - [Sirtuins - Biological Relevance](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20and%20their%20Biological%20Relevance%20in%20Aging%20and%20Age-Related%20Diseases.md) [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|wiki]]
-
----
-
-### 📌 notable
-
-`from recent modified or notes directory: cell death, sex differences, hormesis, sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.`
+## 📝 Updates
 
 - 🧬 [Cell Death Comparison — 10-way table](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md) [[task_output_tbl_cell_death_comparison_03_SEP_2026|wiki]] — [web page](https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html)
   - Ten-way synthesis (Apoptosis, Parthanatos, Necrosis, Necroptosis, Ferroptosis, Autophagy/Autophagic Cell Death, Pyroptosis, PANoptosis, Eryptosis, NETosis) — regulation, energetics, morphology, immune output, core machinery, inhibitors, and crosstalk (Caspase-8↔RIPK, MLKL→NLRP3, SIRT3→mtROS, PARP1↔SIRT NAD⁺ competition); backs the `cell-death-comparison` site page (`#table`/`#animations` tabs) with 40+ enriched entity notes (TNFR1 complexes, RIPoptosome, c-FLIP isoforms, MBOAT1/2, GSK872, necrosulfonamide).
@@ -117,24 +97,6 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 - 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|wiki]]
   - Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
   - 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
-
----
-
-### 📅 recent
-
-`from notes, raw: cell death expansion, mitochondrial dynamics, site pages, wine grape calculation for resveratrol, task_output recommendations, etc.`
-
-- 🧬 Cell-death vault expansion (03_SEP_2026): enriched `Apoptosis in cancer`, `Caspase`, honeybee venom/melittin (HER2/TNBC), ivermectin documents plus mitochondrial dynamics pair (`Fusion and Fission`, `role in disease`); new/expanded regulators — [[Caspase-8-c-FLIP Rheostat]], [[Ripoptosome]], [[Parthanatos]], [[Secondary Necrosis]], [[MBOAT1]]/[[MBOAT2]], `Complex I/II (TNFR1)`; merged duplicates (`glioblastoma`→`Glioblastoma`, `necrosis` stubs, `NADPH oxidase`→`NADPH Oxidase`).
-- 📄 New site pages: `cell-death-comparison-table` + `hormetic-range-assessment` (en-US/zh-TW, sitemap + `articles.json`/`llms.txt` updated).
-- 📄 Merged cell-death pages (08_SEP_2026): `cell-death-comparison-table` + `cell-death-animations` → single tabbed `cell-death-comparison` (`#table`/`#animations`, unified filter, render-guarded three.js); old URLs kept as redirect shims; sitemap + `articles.json`/`llms.txt` updated.
-- example: suggested schedule (Resveratrol, and Creatine)
-  [resveratrol- Sinclair](https://x.com/davidasinclair/status/2076000921402675509) [[task_output_sirtuins_resveratrol|wiki]]
-
-  | Time | Meal | Supplement |
-  | ------ | ---------------------------- | ---------------------- |
-  | Lunch | Chicken soup + rice | Creatine 5 g |
-  | Dinner | Butter chicken + garlic naan | Resveratrol 150–500 mg |
-
 - 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[_document_ - Creatine in Health and Disease|wiki]]
   - Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
   - 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
