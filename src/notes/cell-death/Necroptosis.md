@@ -21,6 +21,10 @@ aliases: [Programmed Necrosis, programmed necrosis]
 
 Unlike accidental necrosis (ATP collapse, trauma) and non-lytic apoptosis (blebbing, silent clearance), necroptosis is **programmed yet inflammatory**. Morphology: plasma membrane rupture, cytoplasmic swelling, moderate chromatin condensation. Biochemistry: necrosome formation, RIPK1/RIPK3/MLKL phosphorylation, DAMP release. Function: backup death when pathogens or tumors block caspases; cost is sterile [[Inflammation]] that clears debris but drives disease if uncontrolled.
 
+> [!info] The 2014 canonical definition
+> Source: [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green, NEJM 2014]]
+> Following the Nomenclature Committee on Cell Death 2012 recommendations, necroptosis is defined precisely as **"necrotic cell death dependent on RIPK3"** — not equivalent to all active necrosis. [[Mitochondrial Permeability Transition]] (cyclophilin-D dependent) is a separate regulated-necrosis program proven by cyclophilin D–RIPK3 double-knockout IRI experiments, and combined blockade ([[Necrostatin-1]] + [[Sanglifehrin A]]) is additive. Regulated necrosis as an umbrella also encompasses [[Ferroptosis]], [[Pyroptosis]], [[PARP1|PARP-1]]-mediated, NADPH-oxidase-mediated, and [[Lysosomal Membrane Permeabilization|lysosomal-membrane-permeabilization]]-driven necrosis.
+
 ## TNFR1 pathway: three choices
 
 ### Complex I — survival
@@ -116,6 +120,8 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - Canonical TNFR1 Complex I/IIa/IIb/necrosome schema; RIPK1-independent TRIF/ZBP1 arms; PGAM5 necrosome anchoring; caspase-8/c-FLIP rheostat; MLKL crosstalk to pyroptosis/autophagy/ferroptosis; activator/inhibitor tables.
+- [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
+  - The canonical 2014 definition (RIPK3-dependent necrotic cell death per NCD 2012); historical framing (Virchow necrosis vs apoptosis); the FADD–caspase-8–FLIP embryo-lethality rescue; Nec-1's IDO-duality and off-target timing caveats; "is all necrosis regulated?" umbrella (MPT/cyclophilin D, ferroptosis, pyroptosis, PARP-1, NADPH-oxidase, LMP) and Nec-1 + sanglifehrin A combination therapy in IRI.
 - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
   - SIRT3 promotes apoptosis and necroptosis to inhibit cancer growth but protects in stress injury; SIRT3 deficiency promotes necroptosis and NLRP3 in diabetic cardiomyopathy; SIRT2 modulates cisplatin renal apoptosis/necroptosis.
 - [[_document_ - Ferroptosis past present and future|Ferroptosis past present and future]]
@@ -159,6 +165,13 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 - [[Glycolysis]] — Upstream source of pyruvate feeding the mitochondrial arm.
 - [[Acetyl-CoA]] — PDC product feeding the TCA cycle.
 - [[ROS]] — Mitochondrial signal that oxidizes RIPK1 to reinforce necrosome assembly.
+- [[Mitochondrial Permeability Transition]] — Separate RIPK3-independent regulated necrosis program (cyclophilin D/MPTP); dual blockade with necroptosis is additive in IRI.
+- [[Cyclophilin D]] — MPT effector whose double-deletion with RIPK3 proves necroptosis/MPT independence.
+- [[Cyclosporine A]] — MPT blocker (and immunosuppressant); transplant graft-protection may partly reflect MPT prevention.
+- [[Sanglifehrin A]] — MPT inhibitor; Nec-1 + SfA combination protection in IRI.
+- [[Inflammatory Bowel Disease]] / [[Crohn's Disease]] — intestinal-epithelial necroptosis (FADD/caspase-8 loss → RIPK3-dependent colitis-like pathology).
+- [[Sepsis]] — open question: CLP-model data conflict on Nec-1/RIPK3 ablation benefit.
+- [[SHARPIN]] — LUBAC/RIPK1-regulator whose loss causes TNFR1-dependent proliferative dermatitis.
 
 ## Linking Summary
 
@@ -168,3 +181,4 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 - Mitochondrial-metabolism enrichment (2026-09-12): added [[Pyruvate Dehydrogenase]], [[Pyruvate]], [[MPC]], [[UK5099]], [[TCA cycle]], [[Glycolysis]], [[Acetyl-CoA]], [[ROS]]; new section "Mitochondrial metabolism" (RIP3→PDC-E3 Thr135 → respiration/ROS → necrosome feedback loop; context-dependence and UK5099 selectivity caveats).
 - Sex-dimorphism enrichment (2026-09-03): male-biased RIPK1/RIPK3/p-MLKL in renal IRI, OVX-narrowed (Tran 2025, single-study, no KO causality); cardiac/cerebral/testosterone/X-linked claims excluded as unverified.
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — non-canonical ZBP1/TRIF routes and their species/context dependence, PTM regulation of RIPK1/RIPK3/MLKL, PANoptosome co-execution, and therapeutic duality. New links: [[PANoptosome]], [[CaMKII]], [[MFN2]], [[CSNK1G2]], [[RSK3]], [[BRD4]], [[Hsp90]], [[TAM Kinases]], [[TRIM21]], [[OTULIN]], [[DAPK]], [[SHP1]].
+- Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM]] — canonical definition (RIPK3-dependence), Virchow/apoptosis history, embryo-lethality rescue (FADD/FLIP/caspase-8→RIPK3), Nec-1 IDO-duality and post-reperfusion timing caveat, regulated-necrosis umbrella and Nec-1 + SfA combination. New links: [[Mitochondrial Permeability Transition]], [[Cyclophilin D]], [[Cyclosporine A]], [[Sanglifehrin A]], [[Inflammatory Bowel Disease]], [[Crohn's Disease]], [[Sepsis]], [[SHARPIN]].

@@ -34,12 +34,18 @@ The **necrosome** is the amyloid-like signaling complex that executes [[Necropto
 > Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
 > The review details the alternative assemblies: [[TRIF]] binds the RIPK3 RHIM directly downstream of [[TLR3]]/[[TLR4]], and [[ZBP1]] recruits RIPK3 via RHIM—with [[RIPK1]] required as a bridging adaptor in human cells but dispensable/inhibitory in murine cells. Necrosome output is tuned by RHIM-independent regulators ([[RSK3]], [[CSNK1G2]]) and by pathogen proteins (e.g. SFTSV NSs) that activate RIPK3 without RHIM engagement.
 
+> [!info]
+> Source: [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green, NEJM 2014]]
+> The necrosome was established (Li et al., *Cell* 2012) as "an intracellular **amyloid-like structure** that acts as the transducer of the necroptotic signal," assembled when [[Caspase-8]] or [[c-FLIP]] is lost or its activation interrupted. Only four RHIM-domain proteins exist in the human genome — RIPK1, RIPK3, [[TRIF]], and [[DAI]] — so the necrosome's RHIM interactome is small and heavily reused: TRIF activates it downstream of Toll-like receptors, DAI integrates viral-RNA-sensor signals, and a JAK/STAT-dependent [[Protein Kinase R]] route (PKR → phosphorylated [[FADD]]) provides an interferon-driven assembly path. Because necrosome assembly is rapid, therapeutic windows in disease are narrow.
+
 ## Documents
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - Necrosome formation as the caspase-8-blocked third choice of TNFR1 signaling, with PGAM5 anchoring and MLKL-driven rupture.
 - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
   - TRIF–RIPK3 and ZBP1–RIPK3 alternative necrosome assemblies (species-dependent RIPK1 role); RHIM-independent activation by RSK3/CSNK1G2/pathogen proteins.
+- [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
+  - The necrosome as a functional amyloid signaling complex; the four-RHIM-protein genome (RIPK1, RIPK3, DAI, TRIF); TRIF/DAI/PKR assembly routes; rapid-assembly therapeutic-window caveat.
 
 ## Connections
 
@@ -56,3 +62,4 @@ The **necrosome** is the amyloid-like signaling complex that executes [[Necropto
 - New links added: [[RIPK1]], [[RIPK3]], [[MLKL]], [[PGAM5]], [[Caspase-8]], [[c-FLIP]], [[TNFα]], [[Necroptosis]], [[Inflammation]]
 - Strong connections to strengthen: [[necrosome]] ↔ [[RIPK3]], [[necrosome]] ↔ [[MLKL]], [[necrosome]] ↔ [[PGAM5]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — TRIF/ZBP1 assemblies and RHIM-independent regulation. New links: [[TRIF]], [[ZBP1]], [[RSK3]], [[CSNK1G2]].
+- Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — amyloid-like necrosome structure (Li 2012); four-RHIM-proteins genome (RIPK1, RIPK3, DAI, TRIF); TRIF/DAI/PKR routes; rapid assembly. New links: [[DAI]], [[Protein Kinase R]], [[c-FLIP]], [[JAK-STAT Signaling]].

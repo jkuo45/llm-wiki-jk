@@ -38,12 +38,18 @@ In neurodegenerative contexts, RIPK1 activation contributes to neuronal loss in 
 > Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
 > RIPK1 activity is set by antagonistic kinases/phosphatases and ubiquitin writers/erasers. [[DAPK|DAPK1]] phosphorylates RIPK1 at Ser321 to inhibit its pro-necrotic function; [[ROS]] drive RIPK1 autophosphorylation in a feedforward loop; [[SHP1|PTPN6]] dephosphorylates RIPK1 tyrosines and the [[PI3K]]/[[Akt]] pathway inhibits its kinase activity. [[TRIM21]] ubiquitinates RIPK1 to promote activation, [[CYLD]] deubiquitinates it to license necrosome entry, and [[OTULIN]] (phosphorylated at Tyr-56 during necroptosis) counteracts CYLD. Phosphorylation and ubiquitination layers cross-regulate each other, so the integrated modification code — not any single mark — decides survival vs death. In [[ZBP1]]-driven necroptosis, the RIPK1 requirement is species-dependent: RIPK1 is an essential bridging adaptor in human cells but inhibitory in murine cells.
 
+> [!info] The 2014 tool-reagent story
+> Source: [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green, NEJM 2014]]
+> [[Necrostatin-1]] (Nec-1) was later found identical to a previously reported indoleamine 2,3-dioxygenase ([[IDO1]]) inhibitor; its complex with the RIPK1 kinase domain has been solved (Xie et al., *Structure* 2013). RIPK1-deficient mice die perinatally, so RIPK1 may act as an *inhibitor* of necroptosis unless its kinase activity is engaged — Nec-1 possibly stabilizing the inhibitory state. Nec-1 has non-death effects (capillary-diameter changes) and **failed to protect renal ischemia-reperfusion injury when given 30 min after reperfusion**, and can accelerate death in models where RIPK3 ablation is beneficial; the stable second-generation inhibitor [[Necrostatin-1s]] avoids the TNF-shock acceleration. The LUBAC component [[SHARPIN]] regulates RIPK1-dependent signaling — SHARPIN loss causes a TNFR1-dependent proliferative dermatitis.
+
 ## Documents
 
 List of documents that mention this entity
 
 - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
   - Multilayered regulation of RIPK1 by DAPK1, ROS, PTPN6, PI3K/Akt, TRIM21, CYLD, and OTULIN; RIPK1 as the survival/death integrator of the necroptosis network.
+- [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
+  - Nec-1/IDO duality and solved Nec-1–RIPK1 structure; perinatal RIPK1-KO lethality suggesting an inhibitory RIPK1 state; 30-min-post-reperfusion Nec-1 failure in renal IRI; SHARPIN/LUBAC regulation.
 
 ## Connections
 
@@ -62,3 +68,4 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[Necrosome]], [[RHIM domain]], [[TNFR1 complex I]], [[Complex IIa (RIPK1)]], [[cIAP1]], [[cIAP2]]
 - Strong connections to strengthen: [[RIPK1]] ↔ [[MAVS]], [[RIPK1]] ↔ [[TNFα]], [[RIPK1]] ↔ [[Necroptosis]], [[RIPK1]] ↔ [[NF-κB]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — antagonistic phospho/ubiquitin regulation (DAPK1, ROS, PTPN6, PI3K/Akt, TRIM21, CYLD, OTULIN) and species-dependent RIPK1 role in ZBP1 necroptosis. New links: [[DAPK]], [[SHP1]], [[TRIM21]], [[OTULIN]], [[PI3K]], [[Akt]], [[ZBP1]], [[ROS]].
+- Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — Nec-1 as an IDO inhibitor, solved Nec-1–RIPK1 complex, potential RIPK1-inhibitory-state stabilization, post-reperfusion timing caveat, SHARPIN/LUBAC axis. New links: [[Necrostatin-1]], [[Necrostatin-1s]], [[IDO1]], [[SHARPIN]], [[NEMO]].
