@@ -2489,7 +2489,7 @@
     "confidence": 0.9,
     "source_document": "DAPK.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T00:00:00Z"
+    "updated": "2026-09-11T16:47:59Z"
   },
   {
     "id": "efde98878747",
@@ -2980,5 +2980,481 @@
     "source_document": "Necroptosis.md",
     "created": "2026-09-14T02:30:00Z",
     "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "6e54f2238e6b",
+    "subject": "Parthanatos",
+    "predicate": "requires",
+    "object": "PARP1",
+    "context": {
+      "en-US": "Parthanatos is strictly PARP1-dependent: genetic PARP1 deletion or pharmacological inhibition is strongly cytoprotective, and this obligatory dependence is the defining feature that separates it from apoptosis, necrosis and other regulated death modes (Moura et al. 2024).",
+      "zh-TW": "Parthanatos 嚴格依賴 PARP1：基因缺失或藥理抑制 PARP1 具強力細胞保護作用，且此絕對依賴性為其區別於 apoptosis、necrosis 等死亡模式的定義特徵（Moura et al. 2024）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "091464a7ba4b",
+    "subject": "MNNG",
+    "predicate": "induces",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "The alkylating agent MNNG (N-methyl-N'-nitro-N-nitrosoguanidine) generates a high load of PARP1-activating DNA strand breaks and is a classic trigger of parthanatos; MMS acts similarly (Moura et al. 2024).",
+      "zh-TW": "烷化劑 MNNG 產生大量可活化 PARP1 的 DNA 斷裂，是 parthanatos 的經典誘導劑；MMS 作用類似（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "daf3188592a1",
+    "subject": "NMDA receptor",
+    "predicate": "induces",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Glutamate/NMDA-receptor overstimulation in neurons (glutamate excitotoxicity) hyperactivates PARP1 and triggers parthanatos, the neuronal excitotoxic route to the pathway (Moura et al. 2024).",
+      "zh-TW": "神經元中麩胺酸/NMDA 受體過度刺激（麩胺酸興奮性毒性）過度活化 PARP1 並觸發 parthanatos，是此路徑的神經興奮性毒性途徑（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "8fc4da6fb56c",
+    "subject": "PARP1",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Because every ADP-ribose unit transferred consumes one NAD+, processive PARP1 hyperactivation rapidly and profoundly depletes cellular NAD+, accompanied by ATP loss that may drive energetic collapse during parthanatos (Moura et al. 2024).",
+      "zh-TW": "由於每轉移一個 ADP-ribose 即消耗一個 NAD+，持續的 PARP1 過度活化會迅速且大幅耗竭細胞 NAD+，並伴隨 ATP 下降，可能在 parthanatos 中驅動能量崩潰（Moura et al. 2024）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "e8a1a2530e42",
+    "subject": "NAD+ Salvage Pathway",
+    "predicate": "consumes",
+    "object": "ATP",
+    "context": {
+      "en-US": "Re-synthesizing NAD+ by the salvage pathway after PARP1 turnover is expensive: the complete cycle costs four high-energy phosphates per ADP-ribose unit. With NAD(H) around 0.3 mM versus ATP around 3-4 mM, full NAD+ turnover could itself contribute substantially to ATP depletion during parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARP1 周轉後經救援路徑重新合成 NAD+ 成本高昂：完整循環每單位 ADP-ribose 耗費四個高能磷酸鍵。NAD(H) 約 0.3 mM、ATP 約 3-4 mM，故 NAD+ 完全周轉本身即可顯著促成 parthanatos 中的 ATP 耗竭（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "270b8868d40b",
+    "subject": "PAR",
+    "predicate": "inhibits",
+    "object": "Hexokinase-1",
+    "context": {
+      "en-US": "In cortical neurons and glioblastoma lines, free PAR released from target proteins binds the PAR-binding motif of hexokinase-1 and inhibits its catalytic activity, blocking the first step of glycolysis; pyruvate bypass restores survival while NAD+ restoration alone does not (Moura et al. 2024).",
+      "zh-TW": "在皮質神經元與膠質母細胞瘤細胞中，自標靶蛋白釋出的游離 PAR 結合 hexokinase-1 的 PAR 結合模體並抑制其催化活性，阻斷糖解第一步；補充 pyruvate 可恢復存活，單純回復 NAD+ 則無效（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "3a61a7942b0f",
+    "subject": "Hexokinase-1",
+    "predicate": "supports",
+    "object": "Pentose Phosphate Pathway",
+    "context": {
+      "en-US": "As hexokinase-1 produces glucose-6-phosphate, its PAR-mediated inhibition also starves the pentose phosphate pathway, providing a mechanistic link to the NADPH and reduced-glutathione depletion observed during parthanatos (Moura et al. 2024).",
+      "zh-TW": "由於 hexokinase-1 產生 glucose-6-phosphate，其受 PAR 抑制亦使戊糖磷酸途徑缺乏底物，為 parthanatos 中觀察到的 NADPH 與還原態穀胱甘肽耗竭提供機制連結（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "365126009738",
+    "subject": "PARG",
+    "predicate": "generates",
+    "object": "ADP-ribose",
+    "context": {
+      "en-US": "PARG hydrolyzes PAR chains, releasing free ADP-ribose monomers. This free ADP-ribose is the ligand that gates TRPM2 and the substrate for Nudix degradation, making PARG activity a determinant of the downstream Ca2+ and AMP arms of parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARG 水解 PAR 鏈釋出游離 ADP-ribose 單體。此游離 ADP-ribose 是開啟 TRPM2 的配體及 Nudix 降解的受質，使 PARG 活性成為 parthanatos 下游 Ca2+ 與 AMP 分支的決定因素（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "1e25369c52c6",
+    "subject": "ARH3",
+    "predicate": "is_dispensable_for",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "ARH3, the exo-PARase and serine-ADP-ribosylhydrolase partner of PARG, is dispensable for PARP1-dependent death in an RPE1/MNNG model, so its protective role is cell-type and insult dependent and contrasts with its sensitivity in ischemia and H2O2 systems (Moura et al. 2024).",
+      "zh-TW": "ARH3（PARG 的外切 PAR 酶與絲胺酸 ADP-ribosyl 水解酶夥伴）在 RPE1/MNNG 模型中對 PARP1 依賴性死亡並非必需，其保護作用取決於細胞類型與刺激，並與其在缺血與 H2O2 系統中的敏感性形成對比（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "917f70fd5f25",
+    "subject": "ADP-ribose",
+    "predicate": "activates",
+    "object": "TRPM2",
+    "context": {
+      "en-US": "Free ADP-ribose binds the NUDT9-homology domain of the Ca2+-permeable channel TRPM2 to open it. In parthanatos this ADP-ribose-dependent gating requires PARG activity and links PAR turnover to Ca2+ influx (Moura et al. 2024).",
+      "zh-TW": "游離 ADP-ribose 結合鈣通透通道 TRPM2 的 NUDT9 同源結構域使其開啟。在 parthanatos 中此依賴 ADP-ribose 的開啟需要 PARG 活性，將 PAR 周轉連結至 Ca2+ 內流（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "129796512557",
+    "subject": "TRPM2",
+    "predicate": "contributes_to",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "TRPM2-mediated Ca2+ influx is contributory in H2O2, amyloid-beta, cardiomyocyte, beta-cell and renal ischemia-reperfusion models, where PARP1 inhibition or Ca2+ chelation protects. However Ca2+ chelation fails in MNNG models and endoplasmic-reticulum Ca2+ release can operate independently of PARG, so TRPM2-dependent and TRPM2-independent parthanatos likely coexist (Moura et al. 2024).",
+      "zh-TW": "TRPM2 介導的 Ca2+ 內流在 H2O2、amyloid-beta、心肌細胞、beta 細胞與腎缺血再灌注模型中具貢獻，PARP1 抑制或 Ca2+ 螯合可保護。然而在 MNNG 模型中 Ca2+ 螯合無效，且內質網 Ca2+ 釋放可獨立於 PARG，故 TRPM2 依賴性與非依賴性 parthanatos 可能並存（Moura et al. 2024）。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "653588bfdd2f",
+    "subject": "Nudix Hydrolases",
+    "predicate": "degrades",
+    "object": "ADP-ribose",
+    "context": {
+      "en-US": "Phosphodiesterases of the Nudix superfamily cleave free ADP-ribose at its phosphodiester bond, degrading it to AMP and ribose-5-phosphate; they can also leave a phosphoribose mark on ADP-ribosylated proteins in vitro (Moura et al. 2024).",
+      "zh-TW": "Nudix 超家族的磷酸二酯酶切割游離 ADP-ribose 的磷酸二酯鍵，將其降解為 AMP 與 ribose-5-phosphate；在體外亦可於 ADP-ribosylated 蛋白上留下 phosphoribose 標記（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "147aa3d3694e",
+    "subject": "Nudix Hydrolases",
+    "predicate": "produces",
+    "object": "AMP",
+    "context": {
+      "en-US": "Nudix cleavage of ADP-ribose yields AMP, and the resulting ribose-5-phosphate can form PRPP for NAD+ salvage. The accumulating ADP and especially AMP may be an important death signal, and AMP can inhibit the mitochondrial adenine nucleotide translocator (Moura et al. 2024).",
+      "zh-TW": "Nudix 切割 ADP-ribose 產生 AMP，所得 ribose-5-phosphate 可形成 PRPP 供 NAD+ 救援。蓄積的 ADP 與特別是 AMP 可能是重要死亡訊號，且 AMP 可抑制粒線體 adenine nucleotide translocator（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "7618df425b13",
+    "subject": "AMP",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "MNNG treatment of HEK-293 cells raised the AMP/ATP ratio and activated AMP-activated protein kinase (AMPK). The relative contribution of Nudix-derived AMP versus glycolytic ATP loss to this activation remains unresolved (Moura et al. 2024).",
+      "zh-TW": "MNNG 處理 HEK-293 細胞提高 AMP/ATP 比值並活化 AMPK。Nudix 產生的 AMP 與糖解 ATP 流失對此活化的相對貢獻仍未釐清（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "c36eb0d6d267",
+    "subject": "AMPK",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "AMPK activated downstream of PARP1 hyperactivation inhibits mTORC1 signaling, which regulates cell death/survival and energy metabolism; this predicts an autophagic response in parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARP1 過度活化下游活化的 AMPK 抑制 mTORC1 訊號，後者調控細胞死亡/存活與能量代謝；此預期 parthanatos 中會出現自噬反應（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "9f8d88d4d6f0",
+    "subject": "AMPK",
+    "predicate": "modulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "AMPK-mTORC1 signaling downstream of AMP accumulation has been proposed to induce an autophagic response in parthanatos, but whether AMPK activation and autophagy contribute to death execution or are protective is currently unclear (Moura et al. 2024).",
+      "zh-TW": "AMP 蓄積下游的 AMPK-mTORC1 訊號被認為在 parthanatos 中誘導自噬反應，但 AMPK 活化與自噬究竟促成死亡執行或具保護作用目前仍不清楚（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "7fd356215ec3",
+    "subject": "SLC25A51",
+    "predicate": "imports",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Mitochondrial NAD+ is maintained separately from the rapidly equilibrating nuclear/cytosolic pool and can be imported via the SLC25A51 transporter. Together with a reported mitochondrial PARP1 pool, this suggests PARP1 hyperactivation may also deplete mitochondrial NAD+ and shape parthanatos execution (Moura et al. 2024).",
+      "zh-TW": "粒線體 NAD+ 與快速平衡的核/胞質池分開維持，可經 SLC25A51 轉運蛋白輸入。加上據報導存在的粒線體 PARP1 池，這提示 PARP1 過度活化亦可能耗竭粒線體 NAD+ 並影響 parthanatos 執行（Moura et al. 2024）。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "e225a0edc9a9",
+    "subject": "Calpain",
+    "predicate": "releases",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Calpain I, a Ca2+-dependent protease, can cleave and release AIF from mitochondria (62 to 57 kDa) and cleaves BID to route Ca2+ signals through BAX, providing a candidate Ca2+-calpain-AIF route in parthanatos. However calpain inhibition or knockout does not prevent AIF release in some models, so its role is context dependent (Moura et al. 2024).",
+      "zh-TW": "鈣依賴蛋白酶 calpain I 可切割並自粒線體釋放 AIF（62 至 57 kDa），並切割 BID 使 Ca2+ 訊號經 BAX 傳遞，為 parthanatos 中 Ca2+-calpain-AIF 的候選路徑。然而部分模型中 calpain 抑制或敲除無法阻止 AIF 釋放，故其角色取決於情境（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "628c26fedc73",
+    "subject": "Mitochondrial Permeability Transition Pore",
+    "predicate": "releases",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Opening of the mitochondrial permeability transition pore allows non-selective solute diffusion, mitochondrial swelling and rupture, and is a candidate route for AIF release during parthanatos alongside direct PAR binding and calpain proteolysis (Moura et al. 2024).",
+      "zh-TW": "粒線體通透性轉換孔開啟使溶質非選擇性擴散、粒線體腫脹與破裂，為 parthanatos 中 AIF 釋放的候選途徑之一，與直接 PAR 結合及 calpain 蛋白酶解並列（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "8b1d00e45550",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "translocates_to",
+    "object": "Nucleus",
+    "context": {
+      "en-US": "After PARP1 hyperactivation AIF is often observed to translocate from mitochondria to the nucleus, where it is associated with large-scale DNA fragmentation. However some PARP1-dependent death models show no detectable AIF translocation, implying AIF-independent parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARP1 過度活化後常觀察到 AIF 自粒線體轉位至細胞核，並與大規模 DNA 斷裂相關。然而部分 PARP1 依賴性死亡模型未見 AIF 轉位，提示存在不依賴 AIF 的 parthanatos（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "95d6cfb7c505",
+    "subject": "MIF",
+    "predicate": "cleaves",
+    "object": "DNA",
+    "context": {
+      "en-US": "Cytoplasmic AIF binds macrophage migration inhibitory factor (MIF), which has nuclease activity, and the pair co-translocates to the nucleus to execute large-scale DNA fragmentation; a selective MIF-nuclease inhibitor protects in a mouse model of parkinsonism. An AIF-cyclophilin A-histone H2AX complex with intrinsic AIF nuclease activity is the alternative model (Moura et al. 2024).",
+      "zh-TW": "胞質 AIF 結合具核酸酶活性的 MIF，兩者共同轉位至細胞核執行大規模 DNA 斷裂；選擇性 MIF 核酸酶抑制劑在帕金森氏症小鼠模型中具保護作用。具內在 AIF 核酸酶活性的 AIF-cyclophilin A-histone H2AX 複合體為替代模型（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "e1995185f2ed",
+    "subject": "Parthanatos",
+    "predicate": "can_occur_independently_of",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Some PARP1-dependent death models, including retinal cells and macrophages, show no detectable AIF translocation yet still die, indicating AIF-independent parthanatos. This likely reflects death via NAD+/ATP depletion and mitochondrial fission/dysfunction rather than large-scale DNA fragmentation (Moura et al. 2024).",
+      "zh-TW": "部分 PARP1 依賴性死亡模型（包括視網膜細胞與巨噬細胞）未見 AIF 轉位卻仍死亡，提示存在不依賴 AIF 的 parthanatos。其可能經由 NAD+/ATP 耗竭與粒線體分裂/功能障礙而非大規模 DNA 斷裂致死（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "c4c1ec15c359",
+    "subject": "Parthanatos",
+    "predicate": "is_distinct_from",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Although parthanatos shares loss of membrane integrity with necrosis, it is a regulated, strictly PARP1-dependent, caspase-independent death featuring PAR accumulation, AIF translocation and large-scale DNA fragmentation, distinguishing it from accidental necrosis (Moura et al. 2024).",
+      "zh-TW": "雖然 parthanatos 與 necrosis 同樣失去膜完整性，但其為受調控、嚴格依賴 PARP1、caspase 非依賴的死亡，具 PAR 累積、AIF 轉位與大規模 DNA 斷裂特徵，與意外性 necrosis 有別（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "f250d1109ba4",
+    "subject": "Parthanatos",
+    "predicate": "antagonizes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Parthanatos can preclude apoptosis: prolonged NAD+/ATP depletion after severe DNA damage blocks apoptotic execution, whereas lower damage allows a transient dip and apoptosis; conversely apoptotic caspases cleave PARP1 to prevent parthanatos. Whether the crosstalk extends beyond mutual antagonism is an open question (Moura et al. 2024).",
+      "zh-TW": "Parthanatos 可排除 apoptosis：嚴重 DNA 損傷後持續的 NAD+/ATP 耗竭阻斷凋亡執行，而較輕損傷僅造成短暫下降並容許凋亡；反之凋亡 caspase 切割 PARP1 以阻止 parthanatos。此交互作用是否不僅止於相互拮抗仍是未解問題（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "fae890dc0fcc",
+    "subject": "PAANIB-1",
+    "predicate": "inhibits",
+    "object": "MIF",
+    "context": {
+      "en-US": "PAANIB-1 is a brain-penetrant, selective inhibitor of the MIF (PAAN) nuclease function; it protects cells from parthanatos in a mouse model of parkinsonism, supporting MIF as a druggable terminal effector (Moura et al. 2024).",
+      "zh-TW": "PAANIB-1 是可穿透血腦屏障、選擇性抑制 MIF（PAAN）核酸酶功能的抑制劑；在帕金森氏症小鼠模型中保護細胞免於 parthanatos，支持 MIF 為可成藥的終端效應器（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "2e36306d69a8",
+    "subject": "PARG",
+    "predicate": "modulates",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "The role of PARG in parthanatos is conflicting: overexpression or knockdown of PARG can protect (Andrabi 2006; Yu 2006), yet PARG inhibition also protects in brain ischaemia (Lu 2003) and PARG silencing protects against H2O2 but not MNNG (Blenn 2006). The review treats whether PARG promotes or inhibits execution as an open question, plausibly dose- and context-dependent (Moura et al. 2024).",
+      "zh-TW": "PARG 在 parthanatos 中的角色相互矛盾：過度表現或敲低 PARG 皆可保護（Andrabi 2006；Yu 2006），但 PARG 抑制在腦缺血中亦具保護作用（Lu 2003），且 PARG 沉默對 H2O2 有保護但對 MNNG 無效（Blenn 2006）。該綜述將 PARG 促成或抑制執行視為未解問題，可能取決於劑量與情境（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "731afa9e4e0f",
+    "subject": "MNNG",
+    "predicate": "activates",
+    "object": "PARP1",
+    "context": {
+      "en-US": "MNNG is a methylating alkylating agent that generates a high load of DNA strand breaks, hyperactivating PARP1 and driving the parthanatos cascade; PARP inhibitors (DPQ, PJ-34) but not z-VAD block MNNG-induced death (Moura et al. 2024).",
+      "zh-TW": "MNNG 是產生大量 DNA 斷裂的甲基化烷化劑，會過度活化 PARP1 並驅動 parthanatos 級聯；PARP 抑制劑（DPQ、PJ-34）而非 z-VAD 能阻斷 MNNG 誘導的死亡（Moura et al. 2024）。"
+    },
+    "confidence": 0.95,
+    "source_document": "MNNG.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "85cfaf1a05c7",
+    "subject": "MMS",
+    "predicate": "induces",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "MMS is a direct-acting methylating agent whose DNA lesions (mainly N3-methyladenine and N7-methylguanine, repaired by base excision repair) activate PARP1 and can trigger PARP1-dependent parthanatos, alongside apoptosis at other doses (Moura et al. 2024).",
+      "zh-TW": "MMS 是直接作用的甲基化劑，其 DNA 損傷（主要為 N3-methyladenine 與 N7-methylguanine，經鹼基切除修復）會活化 PARP1，並可觸發依賴 PARP1 的 parthanatos，於其他劑量下亦可引發 apoptosis（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMS.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "ded92f6b9e50",
+    "subject": "Iduna",
+    "predicate": "ubiquitinates",
+    "object": "H1.2",
+    "context": {
+      "en-US": "Iduna (RNF146) is a PAR-dependent E3 ubiquitin ligase whose WWE domain binds the iso-ADP-ribose linkage of PAR; it ubiquitinates the PARylated linker histone H1.2, tagging this PAR carrier for proteasomal degradation and blocking poly(ADP-ribose) nuclear export (Andrabi 2011; Kang 2011).",
+      "zh-TW": "Iduna（RNF146）是依賴 PAR 的 E3 泛素連接酶，其 WWE 結構域結合 PAR 的 iso-ADP-ribose 連結；它泛素化受 PAR 修飾的連結組蛋白 H1.2，將此 PAR 載體標記以進行蛋白酶體降解，並阻斷聚(ADP-核糖)的核輸出（Andrabi 2011；Kang 2011）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Iduna.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "6aadf675d133",
+    "subject": "Iduna",
+    "predicate": "protects_against",
+    "object": "Ischemic Stroke",
+    "context": {
+      "en-US": "Iduna protects the brain from glutamate excitotoxicity and ischemic stroke by interfering with PAR-induced cell death; conversely, loss of this PAR-dependent E3 ligase sensitizes neurons to parthanatos (Andrabi et al. 2011, Nat Med; Kang et al. 2011, PNAS).",
+      "zh-TW": "Iduna 透過干擾 PAR 誘導的細胞死亡，保護大腦免受麩胺酸興奮性毒性與缺血性中風；反之，失去此依賴 PAR 的 E3 連接酶會使神經元對 parthanatos 更敏感（Andrabi et al. 2011, Nat Med；Kang et al. 2011, PNAS）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Iduna.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "8e919a093a3c",
+    "subject": "Iduna",
+    "predicate": "inhibits",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Iduna restrains parthanatos by removing PARylated H1.2 and thereby limiting the cytosolic PAR pool that would otherwise inhibit hexokinase-1 and release AIF; potentiating this brake is a proposed anti-parthanatos strategy (Moura et al. 2024; Andrabi 2011).",
+      "zh-TW": "Iduna 透過移除受 PAR 修飾的 H1.2，限制胞質 PAR 池（否則會抑制 hexokinase-1 並釋放 AIF），從而抑制 parthanatos；增強此剎車為一種擬議的抗 parthanatos 策略（Moura et al. 2024；Andrabi 2011）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Iduna.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "d14d5114f9f0",
+    "subject": "H1.2",
+    "predicate": "transports",
+    "object": "PAR",
+    "context": {
+      "en-US": "PARylated histone H1.2 carries poly(ADP-ribose) out of the nucleus during parthanatos, delivering the polymer to cytosolic and mitochondrial targets; PAR-dependent ubiquitination of H1.2 by Iduna blocks this export (Moura et al. 2024; Andrabi 2011).",
+      "zh-TW": "在 parthanatos 中，受 PAR 修飾的組蛋白 H1.2 將聚(ADP-核糖)攜出細胞核，將此聚合物遞送至胞質與粒線體標靶；Iduna 對 H1.2 的 PAR 依賴性泛素化會阻斷此輸出（Moura et al. 2024；Andrabi 2011）。"
+    },
+    "confidence": 0.8,
+    "source_document": "H1.2.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "7c5d61e2e11f",
+    "subject": "Cyclophilin A",
+    "predicate": "forms_complex_with",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Cyclophilin A is proposed to form an AIF-cyclophilin A-histone H2AX complex in which AIF provides nuclease activity for large-scale DNA fragmentation, an alternative to the MIF/PAAN nuclease model of AIF-dependent parthanatos (Moura et al. 2024).",
+      "zh-TW": "Cyclophilin A 被提出與 AIF 及組蛋白 H2AX 形成複合體，其中由 AIF 提供核酸酶活性以進行大規模 DNA 斷裂，為 AIF 依賴性 parthanatos 中 MIF/PAAN 核酸酶模型之外的替代機制（Moura et al. 2024）。"
+    },
+    "confidence": 0.65,
+    "source_document": "Cyclophilin A.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "e044d8c50895",
+    "subject": "PARG53",
+    "predicate": "is_isoform_of",
+    "object": "PARG",
+    "context": {
+      "en-US": "PARG53 is a catalytically active ~53-kDa splice isoform of PARG (exons 1-8) described in 2026; its existence revises the prior PARG55/60 annotation and explains why exon 2-7 knockout clones can retain PAR-hydrolytic activity and still die, confounding knockout-versus-inhibitor comparisons (bioRxiv 2026.05.12.724507).",
+      "zh-TW": "PARG53 是 2026 年描述的 PARG 具催化活性之約 53 kDa 剪接異構體（外顯子 1-8）；其存在修正了先前的 PARG55/60 註解，並解釋為何外顯子 2-7 敲除株仍可保留 PAR 水解活性並死亡，因而混淆了敲除與抑制劑的比較（bioRxiv 2026.05.12.724507）。"
+    },
+    "confidence": 0.75,
+    "source_document": "PARG53.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
   }
 ]

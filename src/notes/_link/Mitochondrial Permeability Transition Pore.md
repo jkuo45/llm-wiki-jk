@@ -3,7 +3,7 @@ title: Mitochondrial Permeability Transition Pore
 description: The Mitochondrial Permeability Transition Pore is a calcium- and ROS-gated inner-membrane channel whose prolonged opening collapses energetics and releases pro-death factors.
 protected: false
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-14
 tags: [protein-complex, cell-death, mitochondria]
 url: #
 source: #
@@ -16,11 +16,16 @@ aliases: [mPTP, MPT pore, Permeability transition pore, PTP]
 
 In the comparison-table context, mPTP is the mitochondrial execution step of the necrosis core-machinery chain (ROS → mPTP) and a parallel candidate downstream of calpain-driven damage.
 
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> In [[Parthanatos]], mPTP opening is one candidate route for [[Apoptosis-Inducing Factor|AIF]] release and mitochondrial rupture, alongside direct [[PAR]] binding and [[Calpain|calpain I]] proteolysis. Which route operates — and whether mPTP is required for AIF release — remains an open question; the pore's molecular identity is itself unresolved.
+
 ## Documents
 
 List of documents that mention this entity
 
-No documents ingested yet.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - mPTP as a candidate AIF-release route in parthanatos (swelling/rupture), alongside PAR binding and calpain; pore identity debated.
 
 ## Connections
 
@@ -37,3 +42,4 @@ No documents ingested yet.
 - New links added: [[Necrosis]], [[Ca2+ overload]], [[ROS]], [[Cytochrome c]], [[Mitochondrial ROS]], [[MPTP]].
 - Suggested new entity notes to create: [[Cyclophilin D]].
 - Strong connections to strengthen: [[Mitochondrial Permeability Transition Pore]] ↔ [[Necrosis]], [[Mitochondrial Permeability Transition Pore]] ↔ [[Ca2+ overload]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — mPTP as candidate AIF-release route in [[Parthanatos]]. New links: [[Parthanatos]], [[Apoptosis-Inducing Factor|AIF]], [[Calpain]], [[PAR]].

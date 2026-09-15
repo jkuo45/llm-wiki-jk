@@ -3,7 +3,7 @@ title: PAR
 description: PAR is the toxic poly(ADP-ribose) polymer death signal linking PARP1 hyperactivation to mitochondrial AIF release.
 protected: false
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-14
 tags: [metabolite, cell-death, parthanatos]
 url: #
 source: #
@@ -16,6 +16,10 @@ aliases: [Poly(ADP-ribose), Poly ADP-ribose, Poly-ADP-ribose]
 
 Purified PAR delivered by lipid carrier kills dose- and length-dependently, blocked by PAR glycohydrolase ([[PARG]]) but not by z-VAD — the formal proof that the polymer, not the enzyme, is the commitment signal. PAR is erased chiefly by [[PARG]]/[[ARH3]]; anti-PAR antibodies and PARG overexpression are parthanatos-blocking interventions.
 
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> The lethal species is thought to be **free** PAR released from proteins by hydrolase (endo) activity, which then binds [[Hexokinase-1]] and the AIF PAR-binding motif. How free chains reach sufficient length/amount, escape nuclear [[PARG]], and are exported to the cytosol is unresolved (no exporter identified; carrier models include PARylated histone H1.2/[[Iduna]], [[89-kDa PARP1 Fragment]], and cytosolic PARG isoforms). The review lists this among its open questions; see [[Parthanatos]] §Open questions.
+
 ## Documents
 
 List of documents that mention this entity
@@ -26,6 +30,8 @@ List of documents that mention this entity
   - Parthanatos coined; cytosolic PAR minutes after NMDA colocalizes with mitochondria to trigger AIF release; anti-PAR/PARG blockade protects.
 - [[_document_ - Parthanatos David 2009 messenger of death|David et al. 2009 Front Biosci]]
   - PAR heterogeneity (200–400 units, branching 1/20–50) encodes life-vs-death; >60-mer lethal threshold; PARG/ARH3 erasure; non-covalent binding hierarchy branched > long linear > short.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - Free-PAR generation/protection/export as an open question; PAR binding to [[Hexokinase-1]] and the AIF PAR-binding motif as the cytosolic/mitochondrial lethal nodes.
 
 ## Connections
 
@@ -35,6 +41,8 @@ List of documents that mention this entity
 - [[NAD+]] — the substrate consumed 10–500x to build toxic PAR loads.
 - [[Hexokinase-1]] — PAR-inhibited glycolytic gate coupling the polymer to energy collapse.
 - [[ARH3]] — exo-PARase and sole Ser-deMARylase completing PAR erasure with [[PARG]].
+- [[ADP-ribose]] — monomer released as PAR is degraded; gates [[TRPM2]] and feeds Nudix salvage.
+- [[Iduna]] — PAR-dependent E3 ligase gating H1.2-carried PAR export.
 
 ## Linking Summary
 
@@ -42,3 +50,4 @@ List of documents that mention this entity
 - New links added: [[Parthanatos]], [[PARP1]], [[Apoptosis-Inducing Factor|AIF]], [[NAD+]], [[Hexokinase-1]], [[Iduna]], [[PARG]].
 - Suggested new entity notes to create: [[PARG]], [[Iduna]], [[Hexokinase-1]].
 - Strong connections to strengthen: [[PAR]] ↔ [[Parthanatos]], [[PAR]] ↔ [[Apoptosis-Inducing Factor|AIF]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — free-PAR generation/export open question and the [[ADP-ribose]] degradation branch. New links: [[ADP-ribose]], [[TRPM2]], [[Nudix Hydrolases]].
