@@ -410,10 +410,14 @@
 
   /* ---- response tracker (Layer B: baseline → retest) ---- */
   #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
-  .resp-table { table-layout: fixed; min-width: 560px; }
+  .resp-table { table-layout: fixed; min-width: 520px; }
   .resp-table input[type=number] { width: 52px; }
   .resp-table th:first-child,
-  .resp-table td:first-child { width: 220px; white-space: normal; overflow-wrap: anywhere; }
+  .resp-table td:first-child { white-space: normal; overflow-wrap: anywhere; }
+  .resp-table th:nth-child(2), .resp-table td:nth-child(2),
+  .resp-table th:nth-child(3), .resp-table td:nth-child(3) { width: 70px; }
+  .resp-table th:nth-child(4), .resp-table td:nth-child(4) { width: 66px; }
+  .resp-table th:nth-child(5), .resp-table td:nth-child(5) { width: 100px; }
   .resp-delta { font-family: var(--mono); font-size: 11px; white-space: nowrap; }
   .sig {
     font-family: var(--mono);
@@ -1695,9 +1699,6 @@ function renderSliders() {
           <span>Excessive (&gt;6)</span>
         </div>
 
-        <div style="margin:6px 0 2px">
-          <button class="btn" id="guide-btn-${d.id}" onclick="toggleGuide('${d.id}')">Hide guidance</button>
-        </div>
         <div id="guide-${d.id}">
         <div class="rec-card" id="rec-${d.id}" style="display:${tierInit === 'mid' ? 'block' : 'none'}">
           <div class="rec-label">Guidance</div>
@@ -1722,20 +1723,7 @@ function toggleAllGuides() {
   const wraps = DOMAINS.map(d => document.getElementById('guide-' + d.id)).filter(Boolean);
   const anyVisible = wraps.some(w => w.style.display !== 'none');
   wraps.forEach(w => { w.style.display = anyVisible ? 'none' : 'block'; });
-  DOMAINS.forEach(d => {
-    const b = document.getElementById('guide-btn-' + d.id);
-    if (b) b.textContent = anyVisible ? 'Show guidance' : 'Hide guidance';
-  });
   if (btn) btn.textContent = anyVisible ? 'Show all guidance' : 'Hide all guidance';
-}
-
-function toggleGuide(id) {
-  const wrap = document.getElementById('guide-' + id);
-  const btn = document.getElementById('guide-btn-' + id);
-  if (!wrap || !btn) return;
-  const hidden = wrap.style.display === 'none';
-  wrap.style.display = hidden ? 'block' : 'none';
-  btn.textContent = hidden ? 'Hide guidance' : 'Show guidance';
 }
 
 function onSlider(id, val) {
