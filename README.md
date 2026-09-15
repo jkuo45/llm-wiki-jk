@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_SEP_2026 | 32 | 1732 | 1,074,901 | 10.07 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 10_SEP_2026 | 19 | 257 | 196,616 | 2.62 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_SEP_2026 | 32 | 1755 | 1,086,105 | 10.17 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 14_SEP_2026 | 19 | 257 | 197,039 | 2.62 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 11_SEP_2026 | 12 | 226 | 181,647 | 1.70 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_SEP_2026 | 11 | 265 | 238,488 | 2.85 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 13_SEP_2026 | 7 | 76 | 79,214 | 0.85 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 14_SEP_2026 | 11 | 265 | 238,564 | 2.85 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 14_SEP_2026 | 10 | 84 | 93,565 | 1.02 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.52 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 10_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 10_SEP_2026 | 1 | 94 | 79,167 | 1.07 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 12_SEP_2026 | 15 | 65 | 155,606 | 2.21 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 10_SEP_2026 | 20 | 173 | 313,779 | 3.99 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 14_SEP_2026 | 20 | 173 | 313,884 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_SEP_2026 | **137** | **3247** | **2,680,356** | **29.48 MB** |
+| **subtotal** | 14_SEP_2026 | **140** | **3278** | **2,706,515** | **29.76 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -28,15 +28,17 @@
 <!-- GENERATED: graph_datasets -->
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** _(default)_ | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,436 | 39,386 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,436 | 39,386 |
 | **Triples** | `triples-*.json` | 3,427 | 6,412 |
 | **Wiki** | `wiki-*.json` | 3,079 | 36,492 |
 
 Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 
-**Combined Merge**
-
-The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> [!NOTE]
+>
+> **Combined Merge**
+>
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,070 entities appear in both sources (3,427 triples + 3,079 wiki − 2,070 shared → 4,436); edges are unioned by (`from`, `to`) pair — 3,210 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
@@ -116,8 +118,11 @@ The combined dataset is the union of the triples and wiki graphs, deduplicated b
 ## Documents
 
 <details>
-<summary><strong>Documents (137 total)</strong> — click to expand</summary>
+<summary><strong>Documents (140 total)</strong> — click to expand</summary>
 
+- `cell-death`: [Necroptosis (2014), Linkermann, Green](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Necroptosis%20%282014%29%2C%20Linkermann%2C%20Green.md) [[src/notes/cell-death/_document_ - Necroptosis (2014), Linkermann, Green.md|wiki]] (14_SEP_2026 07:14 PM PDT)
+- `cell-death`: [Regulatory complexity and therapeutic targeting of the necroptosis network](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Regulatory%20complexity%20and%20therapeutic%20targeting%20of%20the%20necroptosis%20network.md) [[src/notes/cell-death/_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md|wiki]] (14_SEP_2026 06:32 PM PDT)
+- `cell-death`: [Parthanatos Moura 2024 molecular mechanisms more questions than answers](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20Moura%202024%20molecular%20mechanisms%20more%20questions%20than%20answers.md) [[src/notes/cell-death/_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md|wiki]] (14_SEP_2026 06:13 PM PDT)
 - `cell-death`: [RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necrop...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20RIP3%20targets%20pyruvate%20dehydrogenase%20complex%20to%20increase%20aerobic%20respiration%20in%20TNF-induced%20necroptosis.md) [[src/notes/cell-death/_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis.md|wiki]] (12_SEP_2026 12:27 AM PDT)
 - `_link`: [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[src/notes/_link/_document_ - Creatine in Health and Disease.md|wiki]] (10_SEP_2026 01:03 PM PDT)
 - `senescence`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pa...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[src/notes/senescence/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md|wiki]] (10_SEP_2026 01:03 PM PDT)
