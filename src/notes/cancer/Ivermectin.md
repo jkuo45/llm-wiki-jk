@@ -45,6 +45,10 @@ List of documents that mention this entity
 - [[YAP1]]: Ivermectin inhibits YAP1 activity in gastric and liver cancers.
 - [[Wnt]]: Ivermectin inhibits the Wnt pathway in breast and colorectal cancers.
 - [[Multidrug Resistance]]: Ivermectin reverses MDR by inhibiting [[P-gp]].
+- [[Selamectin]]: Avermectin-family relative with heartworm/flea coverage and a wide margin in MDR1 dogs.
+- [[Moxidectin]]: Longer-acting milbemycin cousin used for canine heartworm prevention.
+- [[Doramectin]]: Livestock-oriented avermectin relative.
+- [[Milbemycin Oxime]]: Preferred macrocyclic-lactone alternative for MDR1-affected dogs.
 
 ## Linking Summary
 - New links added: [[Avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Cisplatin]], [[docetaxel]], [[paclitaxel]], [[Daunorubicin]], [[cytarabine]], [[erlotinib]], [[Dasatinib]], [[dabrafenib]], [[Akt]], [[mTOR]], [[Wnt]], [[MAPK]].

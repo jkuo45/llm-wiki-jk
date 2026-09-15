@@ -7,10 +7,10 @@ updated: 2026-08-31
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1578 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1579 entities** across **110 categories** and **32 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1571 | Categories: 110 | Documents: 32
+> `_link` index. Total entities: 1572 | Categories: 110 | Documents: 32
 >
 
 ## Documents
@@ -754,7 +754,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Uric Acid Crystals]] | Biological Molecule | Monosodium urate (MSU) and uric acid crystals are potent NLRP3 inflammasome activators that cause gouty inflammation through lysosomal rupture and IL-1β secretion. |
 | [[Very Low Density Lipoprotein]] | Biological Molecule | Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression to... |
 
-### Chemical Compound (156)
+### Chemical Compound (157)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -846,6 +846,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Metformin]] | Chemical Compound | Metformin is the world''s most widely prescribed medication for type 2 Diabetes Mellitus. Beyond its role in controlling blood sugar, metformin has gained significant attention in Geroscience as... |
 | [[Methionine]] | Chemical Compound | Essential sulfur-containing amino acid and precursor of S-adenosylmethionine, the universal methyl donor. Its dietary restriction (methionine restriction) extends lifespan and recapitulates many be... |
 | [[Methylene blue]] | Chemical Compound | Methylene blue (methylthioninium chloride) is an FDA-approved first-line treatment for acquired methemoglobinemia and a redox-cycling mitochondrial electron carrier with off-label uses in vasoplegi... |
+| [[Milbemycin Oxime]] | Chemical Compound | Milbemycin-class macrocyclic lactone (Interceptor/Sentinel) for monthly heartworm prevention and intestinal-worm control in dogs and cats; the widest-margin ivermectin-like option, preferred for dogs carrying the MDR1 (ABCB1-1Δ) mutation. |
 | [[Mitochondrial-Derived Peptide]] | Chemical Compound | Small bioactive peptides encoded within the mitochondrial genome that function as retrograde signals and endocrine factors |
 | [[MJ33]] | Chemical Compound | A selective inhibitor of the iPLA2 (acidic calcium-independent phospholipase A2) activity of peroxiredoxin 6 (PRDX6); phenocopies apigenin's senomorphic SASP suppression. |
 | [[Myricetin]] | Chemical Compound | Myricetin is a flavonol polyphenol with antioxidant and senotherapeutic activity, tested alongside fisetin in a 10-flavonoid senolytic screen. |
