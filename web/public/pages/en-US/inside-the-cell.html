@@ -20,7 +20,7 @@
   "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
 }}
 </script>
-<link rel="stylesheet" href="../cell/inside-the-cell.css">
+<link rel="stylesheet" href="../shared/inside-the-cell.css">
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
 <body>
@@ -105,7 +105,7 @@
         <tr><td>Ribosome</td><td>Ø ~25 nm</td><td>×4</td></tr>
         <tr><td>Membrane proteins / molecules</td><td>~5–10 nm / &lt; 1 nm</td><td>enlarged dots</td></tr>
       </table>
-      <p>Developers: new processes plug in as data — add a step array to <code>STR</code> and a choreography to the tour registry in <code>pages/cell/inside-the-cell.js</code>.</p>
+      <p>Developers: new processes plug in as data — add a step array to <code>STR</code> and a choreography to the tour registry in <code>pages/shared/inside-the-cell.js</code>.</p>
     </footer>
   </main>
 </div>
@@ -114,7 +114,7 @@
 </script>
 <script src="../themes/theme-02/pages-svg.js"></script>
 <script type="module">
-import { initCellPage } from '../cell/inside-the-cell.js';
+import { initCellPage } from '../shared/inside-the-cell.js';
 initCellPage({
   lang: 'en',
   canvas: document.getElementById('ic-canvas'),
