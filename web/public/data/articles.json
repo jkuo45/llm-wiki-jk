@@ -563,7 +563,7 @@
     },
     {
         "id": "apoptosis-vs-necrosis",
-        "active": false,
+        "active": true,
         "langs": {
             "en-US": {
                 "title": "Apoptosis vs Necrosis",
@@ -576,6 +576,24 @@
                 "path": "pages/zh-TW/apoptosis-vs-necrosis.html",
                 "created": "2026-09-13",
                 "updated": "2026-09-13"
+            }
+        }
+    },
+    {
+        "id": "sasp-regulation",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Regulation of the SASP — Sensors, Signalling, Transcription Factors",
+                "path": "pages/en-US/sasp-regulation.html",
+                "created": "2026-09-15",
+                "updated": "2026-09-15"
+            },
+            "zh-TW": {
+                "title": "SASP 的調控 — 感測器、訊號與轉錄因子",
+                "path": "pages/zh-TW/sasp-regulation.html",
+                "created": "2026-09-15",
+                "updated": "2026-09-15"
             }
         }
     }

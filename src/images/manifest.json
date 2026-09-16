@@ -10465,5 +10465,73 @@
         "ocr": "Panel A, RIPK1 regulation, left Phosphorylation modification, right Ubiquitination modification. DAPK1 adds +P to RIPK1, red arrow, Necroptosis down. ROS adds +P to RIPK1, green arrow, Necroptosis up. PTPN6 removes -P from RIPK1, green arrow, Necroptosis up. TRIM21 adds +Ub to RIPK1, green arrow, Necroptosis up. CYLD removes -Ub from RIPK1, red arrow, Necroptosis down. OTULIN (labeled OUTLIN in figure) removes -Ub from RIPK1, red arrow, Necroptosis down. Legend: green arrow Necroptosis up, red arrow Necroptosis down.\nPanel B, RIPK3 regulation, left activators, right effectors. RHIM-dependent Activation box: RIPK1, ZBP1, TRIF, each adds +P to RIPK3. p90 RSK3 adds +P to RIPK3. CK1G2 arrow to RIPK3. SFTSV NSs inhibits -P to RIPK3. RIPK3 activates MLKL via phosphorylation +P, crossed-out P arrow also shown. RIPK3 leads to Mitochondrial Dysfunction and ROS box: CaMKII, PGAM5, PDC-E3.\nPanel C, MLKL regulation, left inputs, right outputs. BRD4 via Transcription Regulation to MLKL. RIPK3, RIPK1, TAM kinases add +P to MLKL. HSP90 via Interactions to MLKL. MLKL binds Membrane Phospholipids leading to plasma membrane rupture diagram on right. MLKL activates CaMKII and Ion Channels."
       }
     }
+  },
+  {
+    "id": "n-20260915-sasp-regulation-scheme-00",
+    "document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "entities": [
+      "SASP",
+      "Cellular Senescence",
+      "Inflammasome",
+      "p38 MAPK",
+      "cGAS",
+      "STING",
+      "TBK1",
+      "IRF3",
+      "NF-kappaB",
+      "CEBPβ",
+      "GATA4",
+      "MAPKAPK2",
+      "IL-6",
+      "IL-1β",
+      "IL-1α",
+      "IL-1R",
+      "IL-6R",
+      "mTOR",
+      "AMPK",
+      "NAMPT",
+      "NAD+",
+      "HMGB1",
+      "TLR2/6",
+      "Notch",
+      "RIG-I",
+      "TGF-β",
+      "HMGA1",
+      "MLL1",
+      "BRD4",
+      "IRAK1",
+      "Cytoplasmic Chromatin Fragments",
+      "PTBP1"
+    ],
+    "tags": [
+      "senescence",
+      "diagrams-charts",
+      "sasp",
+      "nf-kappab",
+      "inflammation",
+      "innate-immunity",
+      "nad-metabolism"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "cellular_senescence_1565f02.jpg"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-09-15",
+    "updated": "2026-09-15",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "SASP regulation scheme: sensors, signalling components and transcription factors",
+        "ocr": "SASP regulation scheme. Two compartments: Cytoplasm (upper) and Nucleus (lower). Transcription factors are yellow, intracellular signalling components are orange, sensors and receptors and ligands are red.\nMembrane and extracellular: HMGB1, SAA1, SAA2, TLR2, NOTCH1, IL-6, IL-1alpha, IL-6R, IL-1R, SASP.\nCytoplasm: N1ICD, Inflammasome, pro-IL-1beta, IL-1beta, mTOR, SASP mRNA stabilization, MAPKAPK2, RNA, RIG-I, p38, AMPK, NAMPT, NAD+/NADH, mitochondria, CCF, cGAS, STING, IRAK1, TBK1, DNA, JAK, STAT.\nNucleus: DNA damage response, DSB, HMGA1, MLL1, BRD4, Epigenetic regulation, Alternative splicing of trafficking genes, Pre mRNA, PTBP1, N1ICD, MAML, TGF-beta, C/EBPbeta, STAT, NF-kB, GATA4, IRF3, Pro-inflammatory SASP, Type I IFNs / late SASP.\nArrows: HMGB1/SAA1/SAA2 to TLR2 and TLR2 to the inflammasome; NOTCH1 to N1ICD, with N1ICD inhibiting the inflammasome; the inflammasome to pro-IL-1beta and IL-1beta; IL-6 and IL-1alpha to IL-6R and IL-1R, which signal through JAK and STAT; mTOR to SASP mRNA stabilization and to MAPKAPK2; MAPKAPK2 and p38 linked, and p38 to the DNA damage response; NAMPT and AMPK to NAD+/NADH and to p38; CCF to cGAS; cGAS to STING; STING to TBK1 and IRF3; IL-1R to IRAK1; DSB to the DNA damage response; nuclear N1ICD with MAML and TGF-beta; C/EBPbeta, STAT, NF-kB and GATA4 to Pro-inflammatory SASP; IRF3 and NF-kB to Type I IFNs / late SASP.\nFigure caption: Regulation of the senescence-associated secretory phenotype (SASP). Scheme showing the different factors contributing to SASP induction. Transcription factors are shown in yellow. Intracellular signaling components are shown in orange. Sensors and receptors and ligands are shown in red. (DSB) Double-strand breaks, (CCF) chromatin cytoplasmic foci.\nSource: Birch J, Gil J. Senescence and the SASP: many therapeutic avenues. Genes Dev. 2020;34(23-24):1565-1576. doi:10.1101/gad.343129.120. Figure 2."
+      },
+      "zh-TW": {
+        "title": "SASP 調控架構圖：感測器、訊號組件與轉錄因子",
+        "ocr": "SASP 調控架構圖。分為兩個區室：上方為細胞質、下方為細胞核。黃色為轉錄因子，橘色為胞內訊號組件，紅色為感測器、受體與配體。\n細胞膜與細胞外：HMGB1、SAA1、SAA2、TLR2、NOTCH1、IL-6、IL-1α、IL-6R、IL-1R、SASP。\n細胞質：N1ICD、發炎體、pro-IL-1β、IL-1β、mTOR、SASP mRNA 穩定化、MAPKAPK2、RNA、RIG-I、p38、AMPK、NAMPT、NAD+/NADH、粒線體、CCF、cGAS、STING、IRAK1、TBK1、DNA、JAK、STAT。\n細胞核：DNA 損傷反應、DSB、HMGA1、MLL1、BRD4、表觀遺傳調控、運輸基因的替代剪接、Pre mRNA、PTBP1、N1ICD、MAML、TGF-β、C/EBPβ、STAT、NF-κB、GATA4、IRF3、促炎 SASP、第一型干擾素／晚期 SASP。\n箭號：HMGB1／SAA1／SAA2 指向 TLR2，TLR2 指向發炎體；NOTCH1 指向 N1ICD，N1ICD 抑制發炎體；發炎體指向 pro-IL-1β 與 IL-1β；IL-6 與 IL-1α 指向 IL-6R 與 IL-1R，經 JAK 與 STAT 傳訊；mTOR 指往 SASP mRNA 穩定化與 MAPKAPK2；MAPKAPK2 與 p38 相連，p38 指往 DNA 損傷反應；NAMPT 與 AMPK 指往 NAD+/NADH 與 p38；CCF 指往 cGAS；cGAS 指往 STING；STING 指往 TBK1 與 IRF3；IL-1R 指往 IRAK1；DSB 指往 DNA 損傷反應；細胞核內 N1ICD 與 MAML、TGF-β 相連；C/EBPβ、STAT、NF-κB 與 GATA4 指往促炎 SASP；IRF3 與 NF-κB 指往第一型干擾素／晚期 SASP。\n圖說：衰老相關分泌表型（SASP）的調控。示意圖顯示促成 SASP 誘導的各種因子。黃色為轉錄因子，橘色為胞內訊號組件，紅色為感測器、受體與配體。(DSB) 雙股斷裂、(CCF) 染色質細胞質病灶。\n出處：Birch J, Gil J. Senescence and the SASP: many therapeutic avenues. Genes Dev. 2020;34(23-24):1565-1576. doi:10.1101/gad.343129.120. Figure 2。"
+      }
+    }
   }
 ]

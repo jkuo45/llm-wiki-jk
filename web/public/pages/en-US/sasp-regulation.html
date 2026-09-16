@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulation of the SASP — Sensors, Signalling Components, Transcription Factors</title>
+<meta name="description" content="Interactive three.js model of the SASP-induction scheme (Birch and Gil 2020, Genes &amp; Development, Figure 2). Nodes are classified by the figure's legend — red sensors, receptors and ligands; orange intracellular signalling components; yellow transcription factors. Traces the DNA damage response, p38 MAPK, mTOR/MAPKAPK2 transcript stabilization, CCF–cGAS–STING and inflammasome signalling, and the NF-κB/C/EBPβ/GATA4/STAT transcriptional programme to secretion of SASP factors.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/sasp-regulation.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/sasp-regulation.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/sasp-regulation.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/sasp-regulation.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<style>
+  :root{
+    --r-sm: 4px; --r-md: 8px; --r-lg: 14px; --r-pill: 999px;
+    --paper: #f6f3ec; --sheet: #fffdf8; --ink: #23201b; --ink-soft: #5a544a;
+    --mute: #8a8478; --rule: #e4ddd0; --rule-strong: #cfc6b4;
+    --accent: #8a2b1d; --gold: #9a7b2d; --forest: #2f6b4f; --slate: #2e4a5d;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family: ui-sans-system, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    background: var(--paper); color: var(--ink);
+    min-height:100vh; min-height:100dvh; display:flex; flex-direction:column;
+  }
+  .wrap{width:min(1180px,100% - 20px);margin-inline:auto;flex:1;display:flex;flex-direction:column}
+  .top{padding:12px 2px 8px}
+  .kicker{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0 0 4px}
+  h1{font-size:1.25rem;line-height:1.25;margin:0 0 4px;letter-spacing:-.01em}
+  .sub{font-size:12.5px;line-height:1.55;color:var(--ink-soft);margin:0;max-width:110ch}
+  .sub a{color:var(--accent)}
+  .src{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--mute);margin-top:4px}
+  .layout{padding:10px 0 14px}
+  .stage-card{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-lg,14px);overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+  .stage{position:relative;height:560px;background:transparent}
+  @media (max-width:640px){.stage{height:440px}}
+  .stage canvas{width:100%;height:100%;display:block}
+  .phase{position:absolute;left:10px;top:8px;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#f2ece1;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.18);padding:3px 10px;border-radius:var(--r-pill,999px);pointer-events:none;max-width:min(60%,480px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .compartment{position:absolute;right:10px;top:8px;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#f2ece1;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.18);padding:3px 10px;border-radius:var(--r-pill,999px);pointer-events:none}
+  .copy-btn{position:absolute;right:10px;top:44px;z-index:5;width:34px;height:34px;display:flex;align-items:center;justify-content:center;margin:0;padding:7px;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.18);border-radius:var(--r-md,8px);color:#f2ece1;cursor:pointer;opacity:.6}
+  .copy-btn:hover,.copy-btn:focus-visible{border-color:rgba(255,255,255,.45);opacity:1}
+  .copy-btn:focus-visible{outline:2px solid #e8c26a;outline-offset:2px}
+  .copy-btn:disabled{opacity:.7;cursor:wait}
+  .copy-btn svg{width:100%;height:100%;display:block}
+  .copy-btn.ok{color:#7fd4a8;border-color:#7fd4a8;opacity:1}
+  .copy-btn.err{color:#ff5a5e;border-color:#ff5a5e;opacity:1}
+  .meter{position:absolute;left:10px;right:10px;bottom:12px;display:flex;gap:8px;align-items:center;pointer-events:none}
+  .meter span{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#f2ece1;background:rgba(20,18,16,.74);border:1px solid rgba(255,255,255,.16);padding:2px 8px;border-radius:var(--r-pill,999px);pointer-events:none}
+  .meter .track{flex:1;height:10px;background:rgba(255,255,255,.14);border-radius:var(--r-pill,999px);overflow:hidden;pointer-events:auto;cursor:pointer;touch-action:none}
+  .meter .track b{display:block;height:100%;width:0;background:linear-gradient(90deg,#7fd4a8,#e8c26a,#ff5a4d);pointer-events:none}
+  .meter .track:focus-visible{outline:2px solid #e8c26a;outline-offset:2px}
+  .tip{position:absolute;z-index:5;max-width:250px;display:none;background:rgba(18,16,14,.92);color:#f2ece1;border:1px solid rgba(255,255,255,.2);border-radius:var(--r-md,8px);padding:8px 10px;font-size:11.5px;line-height:1.5;pointer-events:none}
+  .tip b{display:block;font-size:12px;margin-bottom:2px}
+  .tip code{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#e8c26a}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;border-top:1px solid var(--rule);background:color-mix(in srgb, var(--paper) 88%, white)}
+  .toolbar button,.toolbar select{font-family:ui-sans-system,sans-serif;font-size:12px;padding:7px 11px;border:1px solid var(--rule-strong);background:var(--sheet);color:var(--ink);border-radius:var(--r-md,8px);cursor:pointer}
+  .toolbar button.is-on{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+  .toolbar .hint{font-size:11px;color:var(--mute);margin-left:auto}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip-a.is-on{box-shadow:inset 0 0 0 2px #e05a5e}
+  .chip-b.is-on{box-shadow:inset 0 0 0 2px #e09a4d}
+  .chip-c.is-on{box-shadow:inset 0 0 0 2px #d8b93c}
+  .side{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule)}
+  @media (max-width:960px){.side{grid-template-columns:1fr}}
+  .card{background:transparent;border:0;border-radius:0;padding:12px 14px;box-shadow:none}
+  .card + .card{border-left:1px solid var(--rule)}
+  @media (max-width:960px){.card + .card{border-left:0;border-top:1px solid var(--rule)}}
+  .card h2{font-size:.95rem;margin:0 0 6px}
+  .card{transition:border-color .3s, box-shadow .3s}
+  .card.flash{border-color:var(--accent);box-shadow:none;outline:2px solid var(--accent);outline-offset:-2px}
+  .card p{font-size:12.5px;line-height:1.6;color:var(--ink-soft);margin:6px 0}
+  .card .meta{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--mute);margin:0}
+  .legend{font-size:11.5px;line-height:1.7;color:var(--ink-soft)}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:0}
+  .legend code{font-family:ui-monospace,Menlo,monospace;font-size:10.5px}
+  .figrow{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:14px;padding:14px;border-top:1px solid var(--rule)}
+  @media (max-width:960px){.figrow{grid-template-columns:1fr}}
+  .figrow img{width:100%;height:auto;display:block;border:1px solid var(--rule);border-radius:var(--r-md,8px);background:#fff;cursor:zoom-in}
+  .figrow figure{margin:0}
+  .figrow figcaption{font-size:10.5px;line-height:1.55;color:var(--mute);margin-top:6px}
+  .figrow figcaption code{font-size:10px}
+  .figrow h2{font-size:.95rem;margin:0 0 6px}
+  .figrow p{font-size:12.5px;line-height:1.65;color:var(--ink-soft);margin:6px 0}
+  .figrow .howto{font-size:12px;line-height:1.65;color:var(--ink-soft)}
+  .figrow .howto b{color:var(--ink)}
+  .foot{padding:0 2px 18px;font-size:11px;line-height:1.7;color:var(--mute);border-top:1px solid var(--rule);margin-top:2px;padding-top:10px}
+  .foot a{color:var(--accent)}
+  a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  body.is-embed{background:transparent}
+  body.is-embed .wrap{width:100%;margin:0}
+  body.is-embed .top,body.is-embed .side,body.is-embed .figrow,body.is-embed .foot{display:none}
+  body.is-embed .layout{display:block;padding:0}
+  body.is-embed .stage-card{border:0;border-radius:0;box-shadow:none}
+  body.is-embed .stage{height:100vh;height:100dvh}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <p class="kicker">Senescence · regulation of the senescence-associated secretory phenotype</p>
+    <h1>Regulation of the SASP — sensors, signalling components and transcription factors</h1>
+    <p class="sub">Interactive three.js model of the SASP-induction scheme (Birch and Gil 2020, Figure 2 — see the source figure below). The figure is organized principally by <b>molecular class</b>, following its legend: <b>red</b> — sensors, receptors and ligands; <b>orange</b> — intracellular signalling components; <b>yellow</b> — transcription factors. Its spatial layout places the cytoplasm above and the nucleus below; that division is mechanistically significant at three steps rather than being the organizing axis — <b>CCF</b> are generated in the nucleus and sensed in the cytosol, <b>SASP transcripts</b> are transcribed in the nucleus and stabilized post-transcriptionally in the cytosol, and <b>chromatin and splicing</b> regulation is nuclear. Drag to orbit · scroll to zoom · click a node for its function and evidence.</p>
+    <p class="src">After the vault SASP / senescence / cGAS–STING notes and the SASP-induction scheme · three.js r160 · <span id="embedlink"></span></p>
+  </header>
+  <div class="layout">
+    <div class="stage-card">
+      <div class="stage" id="stage">
+        <canvas id="canvas" aria-label="Three-dimensional model of SASP induction showing sensors, signalling components and transcription factors"></canvas>
+        <div class="phase" id="phase">loading…</div>
+        <div class="compartment" id="compartment">cytoplasm (upper) · nucleus (lower)</div>
+        <button class="copy-btn" id="copybtn" data-copy-canvas="canvas" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+        <div class="meter"><span id="meterlabel">SASP induction · T+ 0.0 d</span><div class="track" id="metertrack" role="slider" tabindex="0" aria-label="Time course of SASP induction — scrub" aria-valuemin="0" aria-valuemax="24" aria-valuenow="0"><b id="meterfill"></b></div></div>
+        <div class="tip" id="tip"></div>
+      </div>
+      <div class="toolbar" role="toolbar" aria-label="Animation controls">
+        <div class="chips">
+          <button id="chipA" class="chip-a is-on" title="Show only red nodes: sensors, receptors and ligands">Sensors · receptors</button>
+          <button id="chipB" class="chip-b is-on" title="Show only orange nodes: intracellular signalling components">Signalling</button>
+          <button id="chipC" class="chip-c is-on" title="Show only yellow nodes: transcription factors">Transcription factors</button>
+        </div>
+        <button id="play" class="is-on">⏸ Pause</button>
+        <button id="reset">Reset view</button>
+        <span class="hint">24 s corresponds to 7 d from DNA damage to secreted SASP · T+ = time from the initiating stimulus</span>
+      </div>
+      <div class="side">
+      <div class="card" id="cardA">
+        <h2>Sensors, receptors and ligands</h2>
+        <p class="meta">red · membrane-associated and cytosolic</p>
+        <p>NOTCH1; TLR2 with its ligands HMGB1, SAA1 and SAA2; IL-1R and IL-6R with the cytokines IL-1α and IL-6; and the cytosolic nucleic-acid sensors RIG-I and cGAS. Cleavage of NOTCH1 releases N1ICD, which inhibits inflammasome-dependent maturation of IL-1β; loss of NOTCH1 signalling therefore increases IL-1β production.</p>
+        <p class="legend"><span class="dot" style="background:#e05a5e"></span>TLR2 · cGAS · RIG-I · IL-1R/IL-6R and ligands <span class="dot" style="background:#b9b3a8"></span>CCF</p>
+      </div>
+      <div class="card" id="cardB">
+        <h2>Intracellular signalling components</h2>
+        <p class="meta">orange · cytoplasm</p>
+        <p>Inflammasome-dependent maturation of IL-1β; mTOR-dependent stabilization of SASP transcripts through MAPKAPK2; AMPK, NAMPT and the NAD⁺/NADH ratio feeding into p38 MAPK; and cGAS–STING–TBK1 signalling with the IRAK1 input from IL-1R. Secreted IL-6 and IL-1 stimulate their own receptors, producing autocrine JAK–STAT activation.</p>
+        <p class="legend"><span class="dot" style="background:#e09a4d"></span>inflammasome · mTOR · p38 · STING <span class="dot" style="background:#7fd4ff"></span>secreted SASP factors</p>
+      </div>
+      <div class="card" id="cardC">
+        <h2>Transcription factors and nuclear regulation</h2>
+        <p class="meta">yellow · DNA-associated; green indicates DNA-damage and RNA-processing steps</p>
+        <p>Double-strand breaks sustain the DNA damage response. C/EBPβ, STAT, NF-κB and GATA4 activate pro-inflammatory SASP genes, while IRF3 and a second NF-κB pool activate type I interferon and late-SASP genes. The chromatin regulators HMGA1, MLL1 and BRD4 determine accessibility at SASP loci, and N1ICD/MAML with PTBP1 regulate alternative splicing of trafficking genes. TGF-β induces senescence in neighbouring cells.</p>
+        <p class="legend"><span class="dot" style="background:#e8c53a"></span>NF-κB · C/EBPβ · GATA4 · STAT <span class="dot" style="background:#7fd4a8"></span>DDR · chromatin · splicing</p>
+      </div>
+      </div>
+      <div class="figrow">
+        <figure>
+          <a href="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images/n-20260915-sasp-regulation-scheme-00/cellular_senescence_1565f02.jpg" target="_blank" rel="noopener" title="Open full-resolution figure"><img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images/n-20260915-sasp-regulation-scheme-00/cellular_senescence_1565f02.jpg" alt="SASP induction scheme: sensors and intracellular signalling components converging on transcription factors at DNA (DSB, CCF)" loading="lazy"></a>
+          <figcaption>Birch J, Gil J. Senescence and the SASP: many therapeutic avenues. <i>Genes &amp; Dev.</i> 2020;34(23-24):1565–1576. doi:10.1101/gad.343129.120 — Figure 2. Ingested into the Notes panel as <code>n-20260915-sasp-regulation-scheme-00</code> (CC BY-NC 4.0).</figcaption>
+        </figure>
+        <div>
+          <h2>Correspondence between figure and model</h2>
+          <p>The scheme and the model share the same layout: cytoplasm above, nucleus below. Nodes are classified by the figure's legend — red for sensors, receptors and ligands; orange for intracellular signalling components; yellow for transcription factors. The compartment division should be read as spatial organization of one pathway, not as a comparison; only the steps below are restricted to a single compartment in a way that matters mechanistically.</p>
+          <p class="howto"><b>1 · DNA damage.</b> Unrepaired double-strand breaks sustain DNA damage response signalling, which activates p38 MAPK and maintains the senescent state.<br><b>2 · Cytosolic sensing.</b> Chromatin cytoplasmic foci released from the nucleus activate cGAS–STING; independently, the inflammasome matures IL-1β. This is the principal nucleus-to-cytosol step in the network.<br><b>3 · Transcription.</b> NF-κB, C/EBPβ, GATA4 and STAT activate the pro-inflammatory SASP programme; IRF3 and NF-κB activate type I interferon and late-SASP genes.<br><b>4 · Post-transcriptional control and secretion.</b> mTOR with MAPKAPK2 stabilizes SASP transcripts in the cytosol, and secreted IL-6 and IL-1β act on their receptors to sustain the programme.</p>
+          <p>Abbreviations as defined in the figure: (DSB) double-strand breaks · (CCF) chromatin cytoplasmic foci. The vault notes use the equivalent term cytoplasmic chromatin fragments for CCF.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="foot">Content follows the vault <a href="https://graph.johnnykuo.com/#node=SASP">SASP</a> / <a href="https://graph.johnnykuo.com/#node=Senescence">Senescence</a> / <a href="https://graph.johnnykuo.com/#node=Inflammasome">Inflammasome</a> notes (NF-κB as principal regulator, C/EBPβ co-operation, GATA4–TRAF3IP2, p38 MAPK and mTOR arms, cGAS–STING sensing of CCF, IL-1/IL-6 autocrine feedback). Figure: Birch J, Gil J. Senescence and the SASP: many therapeutic avenues. <i>Genes &amp; Dev.</i> 2020;34(23-24):1565–1576 (doi:10.1101/gad.343129.120), Figure 2 — ingested as Notes-panel entry <code>n-20260915-sasp-regulation-scheme-00</code>; node colours follow the figure legend. <a href="senescence-articles-and-figures.html">Senescence figures index</a> · three.js r160 · starts paused under <code>prefers-reduced-motion</code>. Educational content; not medical advice.</footer>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const qs = new URLSearchParams(location.search);
+if (qs.has('embed')) document.body.classList.add('is-embed');
+function setEmbed(on) {
+  document.body.classList.toggle('is-embed', on);
+  if (typeof fit === 'function') fit();
+}
+function navTo(url, on) {
+  const abs = new URL(url, location.href).href;
+  if (on && window.top !== window) {
+    try { window.top.location.href = abs; return; }
+    catch (_) {}
+  }
+  try { history.pushState({ embed: on }, '', url); }
+  catch (_) { location.href = abs; return; }
+  setEmbed(on);
+}
+document.getElementById('embedlink').innerHTML =
+  '<a href="' + location.pathname + '?embed=1" id="embedgo" title="Minimal iframe version">embed</a>';
+document.getElementById('embedgo').addEventListener('click', e => { e.preventDefault(); navTo(location.pathname + '?embed=1', true); });
+addEventListener('popstate', () => setEmbed(new URLSearchParams(location.search).has('embed')));
+
+const canvas = document.getElementById('canvas');
+const stage = document.getElementById('stage');
+const phaseEl = document.getElementById('phase');
+const meterfill = document.getElementById('meterfill');
+const meterlabel = document.getElementById('meterlabel');
+const BIO_D = 7; // biological days mapped onto the 24 s loop
+const tip = document.getElementById('tip');
+
+let running = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+const DUR = 24;
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+scene.background = null;
+const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+const CAM0 = new THREE.Vector3(0.6, 2.2, 14.6);
+camera.position.copy(CAM0);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = 0.08;
+controls.minDistance = 6; controls.maxDistance = 26;
+controls.target.set(0, -0.3, 0);
+
+scene.add(new THREE.AmbientLight(0xfff2df, 0.8));
+const key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(5, 8, 6); scene.add(key);
+const rim = new THREE.DirectionalLight(0x88bbff, 0.5); rim.position.set(-6, 3, -5); scene.add(rim);
+const nucLight = new THREE.PointLight(0xe8c53a, 0, 12); nucLight.position.set(0, -3, 1); scene.add(nucLight);
+
+/* figure palette: red sensors · orange signaling · yellow TFs · green support */
+const COL = { red: 0xe05a5e, orange: 0xe09a4d, yellow: 0xe8c53a, green: 0x51c878, blue: 0x7fb3d5, grey: 0xb9b3a8, cyan: 0x7fd4ff };
+
+function fit() {
+  const r = stage.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width / r.height; camera.updateProjectionMatrix();
+}
+new ResizeObserver(fit).observe(stage); fit();
+addEventListener('resize', fit);
+
+/* ---------- label sprites ---------- */
+const labelObjs = [];
+function makeLabel(text, scale = 1) {
+  const c = document.createElement('canvas'); c.width = 256; c.height = 64;
+  const g = c.getContext('2d');
+  g.fillStyle = 'rgba(16,14,12,0.78)';
+  const w = Math.min(240, 18 + text.length * 11.5);
+  g.beginPath(); g.roundRect(128 - w / 2, 10, w, 34, 17); g.fill();
+  g.strokeStyle = 'rgba(255,255,255,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = '#f5efe2'; g.font = '600 21px system-ui,sans-serif';
+  g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 128, 28);
+  const tex = new THREE.CanvasTexture(c); tex.anisotropy = 4;
+  const m = new THREE.SpriteMaterial({ map: tex, transparent: true, depthTest: false });
+  const s = new THREE.Sprite(m); s.scale.set(2.25 * scale, 0.56 * scale, 1);
+  s.renderOrder = 20; labelObjs.push(s); return s;
+}
+
+/* ---------- info ---------- */
+const INFO = {
+  notch1: ['NOTCH1 — membrane receptor', 'red · receptor', 'Cleavage of NOTCH1 releases the intracellular domain N1ICD. N1ICD inhibits inflammasome-dependent maturation of IL-1β, so reduced NOTCH1 signalling increases IL-1β production.'],
+  n1icd_c: ['N1ICD — NOTCH intracellular domain', 'yellow · cleaved receptor fragment', 'Cytoplasmic N1ICD inhibits inflammasome-dependent IL-1β production. A nuclear pool associates with MAML and contributes to alternative splicing of trafficking genes.'],
+  tlr2: ['TLR2 with HMGB1, SAA1 and SAA2', 'red · receptor and ligands', 'HMGB1, SAA1 and SAA2 act as ligands at TLR2 and signal upstream of the inflammasome, linking tissue damage to SASP induction.'],
+  inflam: ['Inflammasome — IL-1β maturation', 'orange · signalling complex', 'Converts pro-IL-1β to the secreted form. Inhibited by N1ICD; activated by TLR2 and DAMP signalling.'],
+  il1b: ['IL-1β — secreted and autocrine', 'red · cytokine', 'Secreted IL-1β acts on IL-1R and signals through IRAK1, forming a positive-feedback loop that sustains the secretory programme.'],
+  proil1b: ['pro-IL-1β and SASP transcripts', 'green · stabilized mRNA', 'mTOR stabilizes SASP transcripts through MAPKAPK2, allowing pro-IL-1β to accumulate for inflammasome processing.'],
+  mtor: ['mTOR — transcript stabilization', 'orange · kinase', 'Stabilizes SASP mRNA and signals through MAPKAPK2. Represents post-transcriptional, rather than transcriptional, control of the SASP.'],
+  mapkap: ['MAPKAPK2 — mRNA stability', 'orange · kinase', 'Acts downstream of p38 MAPK and mTOR. Stabilizes SASP transcripts and has been linked to RNA signalling toward RIG-I.'],
+  p38: ['p38 MAPK — DNA damage to SASP', 'orange · kinase', 'The first kinase shown to activate NF-κB-dependent SASP gene expression independently of ongoing DNA damage. Integrates DDR, AMPK/NAD⁺ and TGF-β inputs.'],
+  ampk: ['AMPK — energy status', 'orange · kinase', 'Responds to the NAD⁺/NADH ratio and mitochondrial status and modulates p38 MAPK, coupling bioenergetic stress to SASP gene expression.'],
+  nampt: ['NAMPT — NAD⁺ salvage', 'orange · enzyme', 'Rate-limiting enzyme of NAD⁺ salvage. With AMPK, couples NAD⁺/NADH redox state to p38-dependent SASP regulation.'],
+  mitoL: ['Mitochondrion — NAD⁺/NADH and CCF source', 'green · organelle', 'Mitochondrial dysfunction alters the NAD⁺/NADH ratio and releases DNA-containing fragments that contribute to the cytosolic CCF pool.'],
+  mitoR: ['Mitochondrion — CCF source', 'green · organelle', 'A second mitochondrial pool contributes fragments to cytosolic DNA sensing; the figure shows both sides feeding cGAS.'],
+  rig1: ['RIG-I — cytosolic RNA sensor', 'red · sensor', 'Detects cytosolic RNA and signals toward interferon induction, complementing the DNA-sensing arm of SASP regulation.'],
+  il6: ['IL-6 — principal SASP cytokine', 'red · cytokine', 'The most abundantly secreted SASP cytokine. Acts on IL-6R to activate JAK–STAT, providing autocrine amplification.'],
+  il6r: ['IL-6R with JAK–STAT', 'red + orange · receptor and kinases', 'IL-6 binding activates JAK–STAT signalling and delivers STAT to SASP promoters in the nucleus.'],
+  il1a: ['IL-1α — membrane-associated cytokine', 'red · cytokine', 'IL-1 family cytokine that signals through IL-1R in parallel with secreted IL-1β.'],
+  il1r: ['IL-1R with JAK–STAT and IRAK1', 'red + orange · receptor and kinases', 'IL-1 signalling proceeds through IRAK1 toward STING and NF-κB, and through JAK–STAT to the nucleus.'],
+  cgas: ['cGAS — cytosolic DNA sensor', 'red · sensor', 'Binds chromatin cytoplasmic foci and other cytosolic DNA and synthesizes cGAMP, which activates STING. The principal DNA-driven input to the SASP.'],
+  sting: ['STING — adaptor', 'orange · adaptor', 'Activated by cGAMP; recruits TBK1 and links to NF-κB and IRF3, separating pro-inflammatory SASP output from type I interferon output.'],
+  irak1: ['IRAK1 — IL-1R to STING', 'orange · kinase', 'Transmits IL-1R signalling into the STING axis, connecting receptor-level feedback to DNA-sensing output.'],
+  tbk1: ['TBK1 — STING effector kinase', 'orange · kinase', 'Phosphorylates IRF3 downstream of STING and drives the type I interferon / late-SASP programme.'],
+  ddr: ['DNA damage response', 'green · nuclear signalling', 'Persistent DDR signalling at double-strand breaks maintains the senescent state and activates p38 MAPK.'],
+  dsb: ['DSB — double-strand breaks', 'chromatin lesion', 'Unrepaired double-strand breaks on the chromatin fibre sustain DDR signalling. The initiating lesion of the network.'],
+  cebpb: ['C/EBPβ — transcription factor', 'yellow · transcription factor', 'Cooperates with NF-κB at CXCR2-ligand and other pro-inflammatory SASP genes.'],
+  statn: ['STAT — transcription factor', 'yellow · transcription factor', 'Delivered to the nucleus by JAK–STAT signalling from the IL-6 and IL-1 receptor arcs; binds SASP promoters.'],
+  nfkbn: ['NF-κB — principal SASP transcription factor', 'yellow · transcription factor', 'Principal regulator of SASP interleukins, chemokines and growth factors. GATA4 and STING signalling converge on it.'],
+  gata4: ['GATA4 — NF-κB activator', 'yellow · transcription factor', 'Activates NF-κB through TRAF3IP2. Stabilized when autophagic turnover is impaired, amplifying NF-κB-dependent SASP gene expression.'],
+  irf3: ['IRF3 — interferon transcription factor', 'yellow · transcription factor', 'Phosphorylated by TBK1 downstream of STING; activates type I interferon genes and the late-SASP programme.'],
+  nfkbb: ['NF-κB — interferon arm', 'yellow · transcription factor', 'A second nuclear NF-κB pool that, with IRF3, activates type I interferon and late-SASP genes.'],
+  epi: ['HMGA1, MLL1 and BRD4 — chromatin regulation', 'blue · chromatin regulators', 'Regulate chromatin accessibility at SASP loci and are required for transcription-factor-dependent SASP gene expression.'],
+  splice: ['N1ICD, MAML and PTBP1 — splicing regulation', 'yellow/green · RNA processing', 'Regulate alternative splicing of trafficking genes and thereby the export machinery required for secretion.'],
+  tgfb: ['TGF-β — paracrine senescence', 'cytokine · secreted factor', 'Secreted factor that induces senescence in neighbouring cells (paracrine senescence).'],
+  saspout: ['SASP — secreted output', 'cyan · secreted factors', 'Cytokines, chemokines, growth factors, proteases and extracellular vesicles that remodel the tissue microenvironment and propagate senescence.'],
+  ccf: ['CCF — chromatin cytoplasmic foci', 'grey · nucleus to cytosol', 'Chromatin fragments released from the nucleus into the cytosol. Ligands for cGAS, and triggers of DNA damage signalling in recipient cells.']
+};
+const COMP = {
+  notch1: 'A', n1icd_c: 'A', tlr2: 'A', il1b: 'A', il6: 'A', il6r: 'A', il1a: 'A', il1r: 'A',
+  rig1: 'A', cgas: 'A', ccf: 'A',
+  inflam: 'B', proil1b: 'B', mtor: 'B', mapkap: 'B', p38: 'B', ampk: 'B', nampt: 'B',
+  mitoL: 'B', mitoR: 'B', sting: 'B', irak1: 'B', tbk1: 'B',
+  ddr: 'C', dsb: 'C', cebpb: 'C', statn: 'C', nfkbn: 'C', gata4: 'C', irf3: 'C', nfkbb: 'C',
+  epi: 'C', splice: 'C', tgfb: 'C', saspout: 'C'
+};
+function flashCard(c) {
+  ['A', 'B', 'C'].forEach(k => { const el = document.getElementById('card' + k); if (el) el.classList.remove('flash'); });
+  const el = document.getElementById('card' + c); if (!el) return;
+  el.classList.add('flash');
+  clearTimeout(el._h); el._h = setTimeout(() => el.classList.remove('flash'), 1600);
+}
+
+const M = {
+  pro: new THREE.MeshBasicMaterial({ color: 0x51d88a }),
+  anti: new THREE.MeshBasicMaterial({ color: 0xff5a5e }),
+  carrier: new THREE.MeshBasicMaterial({ color: 0xffd166 }),
+  hubA: new THREE.MeshStandardMaterial({ color: COL.red, roughness: .45, metalness: .05, emissive: 0x5a0e08, emissiveIntensity: .55 }),
+  hubB: new THREE.MeshStandardMaterial({ color: COL.orange, roughness: .5, metalness: .05, emissive: 0x5a2e05, emissiveIntensity: .55 }),
+  hubC: new THREE.MeshStandardMaterial({ color: COL.yellow, roughness: .5, metalness: .05, emissive: 0x5a4a05, emissiveIntensity: .55 }),
+  reg: (c, e) => new THREE.MeshStandardMaterial({ color: c, roughness: .55, metalness: .05, emissive: e, emissiveIntensity: .45 })
+};
+
+const gA = new THREE.Group(), gB = new THREE.Group(), gC = new THREE.Group();
+const gCell = new THREE.Group(), gFlow = new THREE.Group();
+scene.add(gCell, gA, gB, gC, gFlow);
+const pickables = [];
+function node(geo, mat, pos, id, label, lscale, group) {
+  const m = new THREE.Mesh(geo, mat);
+  m.position.set(...pos); m.userData.id = id;
+  group.add(m); pickables.push(m);
+  if (label) { const s = makeLabel(label, lscale || 1); s.position.set(pos[0], pos[1] + 0.95, pos[2]); s.userData.id = id; group.add(s); pickables.push(s); m.userData.label = s; }
+  return m;
+}
+
+/* ---------- cell shell: cytoplasm above, nucleus below ---------- */
+const DIVY = -0.9;
+{
+  const mem = new THREE.Mesh(
+    new THREE.SphereGeometry(6.4, 48, 32),
+    new THREE.MeshStandardMaterial({ color: 0xbfd4e6, transparent: true, opacity: 0.10, roughness: .9, side: THREE.DoubleSide, depthWrite: false })
+  );
+  mem.scale.set(1.15, 0.92, 1); gCell.add(mem);
+  // divider plane: cytoplasm | nucleus
+  const div = new THREE.Mesh(new THREE.CircleGeometry(6.9, 48),
+    new THREE.MeshBasicMaterial({ color: 0x8fa8c0, transparent: true, opacity: 0.16, side: THREE.DoubleSide, depthWrite: false }));
+  div.rotation.x = -Math.PI / 2; div.position.y = DIVY; div.scale.set(1.12, 0.97, 1); gCell.add(div);
+  const rimT = new THREE.Mesh(new THREE.TorusGeometry(6.7, 0.035, 8, 128),
+    new THREE.MeshBasicMaterial({ color: 0x8fa8c0, transparent: true, opacity: .55 }));
+  rimT.rotation.x = Math.PI / 2; rimT.position.y = DIVY; rimT.scale.set(1.12, 0.97, 1); gCell.add(rimT);
+  const lc = makeLabel('Cytoplasm', 1.0); lc.position.set(-6.2, 3.4, 0); gCell.add(lc);
+  const ln = makeLabel('Nucleus', 1.0); ln.position.set(6.0, -3.6, 0); gCell.add(ln);
+  // nucleus body
+  const nuc = new THREE.Mesh(new THREE.SphereGeometry(2.7, 40, 28),
+    new THREE.MeshStandardMaterial({ color: 0x9a8fd0, transparent: true, opacity: .20, roughness: .8, depthWrite: false }));
+  nuc.position.set(0.3, -3.3, -0.6); nuc.scale.set(1.6, 0.75, 1.2); gCell.add(nuc);
+  // chromatin ribbon with DSB gap
+  const pts = [];
+  for (let i = 0; i <= 80; i++) { const t = i / 80 * Math.PI * 5; pts.push(new THREE.Vector3(-3.4 + i / 80 * 7.2, -3.5 + Math.sin(t) * 0.35, -0.6 + Math.cos(t * 0.7) * 0.5)); }
+  gCell.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 160, 0.05, 6),
+    new THREE.MeshStandardMaterial({ color: 0xc9b8ff, emissive: 0x4a3490, emissiveIntensity: .7 })));
+}
+let hubA, hubB, hubC;
+
+/* ---------- A · red sensors / receptors / ligands ---------- */
+hubA = node(new THREE.IcosahedronGeometry(0.5, 1), M.hubA, [-2.6, 3.3, 0.3], 'tlr2', 'TLR2 · DAMPs', 1.05, gA);
+[
+  ['notch1', 'NOTCH1', [-4.9, 4.0, 0.0], new THREE.CylinderGeometry(0.3, 0.3, 0.55, 14), M.reg(COL.red, 0x5a0e08)],
+  ['n1icd_c', 'N1ICD ⊣', [-4.7, 1.5, 0.4], new THREE.SphereGeometry(0.3, 16, 12), M.reg(COL.yellow, 0x5a4a05)],
+  ['il1b', 'IL-1β ↑', [-1.5, 3.6, 0.2], new THREE.BoxGeometry(0.55, 0.34, 0.34), M.reg(COL.red, 0x5a0e08)],
+  ['rig1', 'RIG-I', [0.6, 0.1, 0.5], new THREE.OctahedronGeometry(0.3), M.reg(COL.red, 0x5a0e08)],
+  ['il6', 'IL-6 ↑', [1.7, 4.6, 0.1], new THREE.SphereGeometry(0.3, 16, 12), M.reg(COL.red, 0x5a0e08)],
+  ['il6r', 'IL-6R', [1.1, 3.5, 0.2], new THREE.TorusGeometry(0.28, 0.11, 10, 20), M.reg(COL.red, 0x5a0e08)],
+  ['il1a', 'IL-1α ↑', [2.9, 4.6, 0.0], new THREE.SphereGeometry(0.3, 16, 12), M.reg(COL.red, 0x5a0e08)],
+  ['il1r', 'IL-1R', [2.4, 3.5, 0.2], new THREE.TorusGeometry(0.28, 0.11, 10, 20), M.reg(COL.red, 0x5a0e08)],
+  ['cgas', 'cGAS', [2.7, 1.2, 0.3], new THREE.DodecahedronGeometry(0.32), M.reg(COL.red, 0x5a0e08)],
+  ['ccf', 'CCF', [1.5, -0.2, 0.6], new THREE.SphereGeometry(0.2, 12, 10), M.reg(COL.grey, 0x3a382f)]
+].forEach(([id, lb, p, geo, mat]) => node(geo, mat, p, id, lb, .8, gA));
+{
+  const t = new THREE.Mesh(new THREE.BoxGeometry(1.3, 0.4, 0.3),
+    new THREE.MeshStandardMaterial({ color: 0xe893b0, emissive: 0x5a1030, emissiveIntensity: .5 }));
+  t.position.set(-2.6, 4.7, 0.1); t.userData.id = 'tlr2'; gA.add(t); pickables.push(t);
+  const s = makeLabel('HMGB1 · SAA1 · SAA2', .75); s.position.set(-2.6, 5.35, 0.1); s.userData.id = 'tlr2'; gA.add(s); pickables.push(s);
+}
+
+/* ---------- B · orange intracellular signaling ---------- */
+hubB = node(new THREE.IcosahedronGeometry(0.55, 1), M.hubB, [-3.3, 2.3, 0.3], 'inflam', 'Inflammasome', 1.1, gB);
+[
+  ['proil1b', 'pro-IL-1β · SASP mRNA', [-1.4, 1.5, 0.2], new THREE.BoxGeometry(0.7, 0.3, 0.3), M.reg(COL.green, 0x0b4a1e)],
+  ['mtor', 'mTOR', [-0.4, 1.9, 0.2], new THREE.SphereGeometry(0.34, 16, 12), M.reg(COL.orange, 0x5a2e05)],
+  ['mapkap', 'MAPKAPK2', [-0.5, 0.6, 0.3], new THREE.BoxGeometry(0.55, 0.32, 0.32), M.reg(COL.orange, 0x5a2e05)],
+  ['p38', 'p38', [-0.6, -0.4, 0.3], new THREE.IcosahedronGeometry(0.34, 0), M.reg(COL.orange, 0x5a2e05)],
+  ['ampk', 'AMPK', [-2.5, -0.1, 0.3], new THREE.BoxGeometry(0.5, 0.32, 0.32), M.reg(COL.orange, 0x5a2e05)],
+  ['nampt', 'NAMPT', [-3.0, -1.0, 0.2], new THREE.CylinderGeometry(0.24, 0.24, 0.34, 12), M.reg(COL.orange, 0x5a2e05)],
+  ['mitoL', 'Mitochondria', [-3.9, 0.3, -0.3], new THREE.CapsuleGeometry(0.32, 0.7, 6, 12), M.reg(0xffb066, 0x6b2d05)],
+  ['mitoR', 'Mitochondria', [4.4, -1.2, -0.2], new THREE.CapsuleGeometry(0.32, 0.7, 6, 12), M.reg(0xffb066, 0x6b2d05)],
+  ['sting', 'STING', [2.7, 0.2, 0.3], new THREE.OctahedronGeometry(0.32), M.reg(COL.orange, 0x5a2e05)],
+  ['irak1', 'IRAK1', [1.7, 1.8, 0.2], new THREE.TorusGeometry(0.24, 0.1, 10, 20), M.reg(COL.orange, 0x5a2e05)],
+  ['tbk1', 'TBK1', [4.5, -0.2, 0.0], new THREE.BoxGeometry(0.5, 0.32, 0.32), M.reg(COL.orange, 0x5a2e05)]
+].forEach(([id, lb, p, geo, mat]) => node(geo, mat, p, id, lb, .8, gB));
+{
+  const j1 = node(new THREE.SphereGeometry(0.24, 14, 12), M.reg(COL.orange, 0x5a2e05), [1.1, 2.7, 0.2], 'il6r', null, 0, gB);
+  const j2 = node(new THREE.SphereGeometry(0.24, 14, 12), M.reg(COL.orange, 0x5a2e05), [2.4, 2.7, 0.2], 'il1r', null, 0, gB);
+  const sj = makeLabel('JAK · STAT', .75); sj.position.set(1.75, 2.7, 0.2); sj.userData.id = 'il6r'; gB.add(sj); pickables.push(sj);
+  const nd = makeLabel('NAD⁺/NADH', .7); nd.position.set(-3.3, -0.5, 0.3); nd.userData.id = 'ampk'; gB.add(nd); pickables.push(nd);
+  j1.userData.id = 'il6r'; j2.userData.id = 'il1r';
+}
+
+/* ---------- C · yellow transcription factors + green/blue regulatory factors ---------- */
+hubC = node(new THREE.IcosahedronGeometry(0.55, 1), M.hubC, [0.9, -1.9, 0.3], 'nfkbn', 'NF-κB', 1.1, gC);
+[
+  ['ddr', 'DNA damage response', [0.0, -1.3, 0.3], new THREE.BoxGeometry(0.8, 0.34, 0.3), M.reg(COL.green, 0x0b4a1e)],
+  ['dsb', 'DSB', [0.4, -3.0, -0.2], new THREE.OctahedronGeometry(0.26), M.reg(0xffffff, 0x4a3490)],
+  ['cebpb', 'C/EBPβ', [-1.3, -2.0, 0.3], new THREE.SphereGeometry(0.32, 16, 12), M.reg(COL.yellow, 0x5a4a05)],
+  ['statn', 'STAT', [-0.2, -2.0, 0.3], new THREE.SphereGeometry(0.32, 16, 12), M.reg(COL.yellow, 0x5a4a05)],
+  ['gata4', 'GATA4', [2.0, -2.0, 0.3], new THREE.SphereGeometry(0.32, 16, 12), M.reg(COL.yellow, 0x5a4a05)],
+  ['irf3', 'IRF3', [-0.7, -4.1, 0.0], new THREE.OctahedronGeometry(0.3), M.reg(COL.yellow, 0x5a4a05)],
+  ['nfkbb', 'NF-κB', [0.8, -4.1, 0.0], new THREE.SphereGeometry(0.32, 16, 12), M.reg(COL.yellow, 0x5a4a05)],
+  ['epi', 'HMGA1 · MLL1 · BRD4', [-3.2, -2.3, 0.0], new THREE.BoxGeometry(1.1, 0.36, 0.3), M.reg(COL.blue, 0x1a3a55)],
+  ['splice', 'N1ICD · MAML · PTBP1', [-3.2, -3.8, 0.0], new THREE.BoxGeometry(1.1, 0.36, 0.3), M.reg(COL.green, 0x0b4a1e)],
+  ['tgfb', 'TGF-β', [-1.4, -3.1, 0.2], new THREE.SphereGeometry(0.28, 14, 12), M.reg(0xe893b0, 0x5a1030)],
+  ['saspout', 'Pro-inflammatory SASP', [3.6, -2.2, 0.2], new THREE.BoxGeometry(0.8, 0.34, 0.3), M.reg(COL.cyan, 0x12365e)]
+].forEach(([id, lb, p, geo, mat]) => node(geo, mat, p, id, lb, .8, gC));
+{
+  const s = makeLabel('Type I IFNs · late SASP', .75); s.position.set(2.2, -3.3, 0.0); s.userData.id = 'nfkbb'; gC.add(s); pickables.push(s);
+  const e = makeLabel('Epigenetic regulation', .7); e.position.set(-3.2, -2.75, 0.0); e.userData.id = 'epi'; gC.add(e); pickables.push(e);
+  const a = makeLabel('Alternative splicing of trafficking genes', .68); a.position.set(-3.2, -4.3, 0.0); a.userData.id = 'splice'; gC.add(a); pickables.push(a);
+}
+
+/* ---------- edges (curved flows) ---------- */
+const flows = [];
+function edge(a, b, kind, group, lift = 0.5, tag = '') {
+  const va = new THREE.Vector3(...a), vb = new THREE.Vector3(...b);
+  const mid = va.clone().lerp(vb, 0.5); mid.y += lift; mid.z += 0.25;
+  const curve = new THREE.QuadraticBezierCurve3(va, mid, vb);
+  const tube = new THREE.Mesh(new THREE.TubeGeometry(curve, 24, 0.028, 6),
+    new THREE.MeshBasicMaterial({ color: kind === 'pro' ? 0x51d88a : (kind === 'carrier' ? 0xffd166 : 0xff5a5e), transparent: true, opacity: .85 }));
+  group.add(tube);
+  const dot = new THREE.Mesh(new THREE.SphereGeometry(0.085, 10, 8),
+    new THREE.MeshBasicMaterial({ color: kind === 'carrier' ? 0xffd166 : (kind === 'pro' ? 0x7dffab : 0xff8a8e) }));
+  group.add(dot);
+  const head = new THREE.Mesh(new THREE.ConeGeometry(0.09, 0.22, 10),
+    new THREE.MeshBasicMaterial({ color: kind === 'pro' ? 0x51d88a : (kind === 'carrier' ? 0xffd166 : 0xff5a5e) }));
+  group.add(head);
+  flows.push({ curve, dot, head, tag, speed: 0.25 + Math.random() * 0.2, off: Math.random() });
+  return tube;
+}
+// A-layer: DAMP → TLR2 → inflammasome; NOTCH1 → N1ICD ⊣ inflammasome
+edge([-2.6, 4.7, 0.1], [-2.6, 3.3, 0.3], 'pro', gA, 0.2, 'A');
+edge([-2.6, 3.3, 0.3], [-3.3, 2.3, 0.3], 'pro', gA, 0.3, 'A');
+edge([-4.9, 4.0, 0.0], [-4.7, 1.5, 0.4], 'pro', gA, 0.3, 'A');
+edge([-4.7, 1.5, 0.4], [-3.3, 2.3, 0.3], 'anti', gA, 0.3, 'A');
+edge([1.5, -0.2, 0.6], [2.7, 1.2, 0.3], 'carrier', gA, 0.4, 'A'); // CCF → cGAS
+edge([2.7, 1.2, 0.3], [0.6, 0.1, 0.5], 'pro', gA, 0.3, 'A');       // cGAS → RIG-I zone/RNA
+// autocrine arcs: IL-6/IL-1α up then back to receptors
+edge([1.7, 4.6, 0.1], [1.1, 3.5, 0.2], 'pro', gA, 0.35, 'A');
+edge([2.9, 4.6, 0.0], [2.4, 3.5, 0.2], 'pro', gA, 0.35, 'A');
+// B-layer: inflammasome → IL-1β; mTOR/MAPKAPK2; AMPK/NAMPT → p38; cGAS → STING → TBK1; IRAK1 bridge
+edge([-3.3, 2.3, 0.3], [-1.5, 3.6, 0.2], 'pro', gB, 0.4, 'B');
+edge([-1.4, 1.5, 0.2], [-1.5, 3.6, 0.2], 'carrier', gB, 0.3, 'B');
+edge([-0.4, 1.9, 0.2], [-1.4, 1.5, 0.2], 'carrier', gB, 0.2, 'B');
+edge([-0.4, 1.9, 0.2], [-0.5, 0.6, 0.3], 'pro', gB, 0.25, 'B');
+edge([-0.5, 0.6, 0.3], [-0.6, -0.4, 0.3], 'anti', gB, 0.2, 'B'); // MAPKAPK2 ⇄ p38 feedback
+edge([-2.5, -0.1, 0.3], [-0.6, -0.4, 0.3], 'pro', gB, 0.25, 'B');
+edge([-3.0, -1.0, 0.2], [-2.5, -0.1, 0.3], 'carrier', gB, 0.25, 'B');
+edge([-3.9, 0.3, -0.3], [-2.5, -0.1, 0.3], 'carrier', gB, 0.3, 'B');
+edge([2.7, 1.2, 0.3], [2.7, 0.2, 0.3], 'pro', gB, 0.15, 'B');
+edge([2.7, 0.2, 0.3], [4.5, -0.2, 0.0], 'pro', gB, 0.3, 'B');
+edge([1.7, 1.8, 0.2], [2.7, 0.2, 0.3], 'pro', gB, 0.2, 'B');
+edge([2.4, 2.7, 0.2], [1.7, 1.8, 0.2], 'pro', gB, 0.2, 'B');
+edge([1.1, 2.7, 0.2], [-0.2, -2.0, 0.3], 'carrier', gB, -0.4, 'B'); // JAK-STAT → nuclear STAT
+// C-layer: DDR → p38 is B; nuclear: DSB → DDR; transcription-factor row; regulatory factors; outputs
+edge([0.4, -3.0, -0.2], [0.0, -1.3, 0.3], 'pro', gC, 0.3, 'C');
+edge([-1.3, -2.0, 0.3], [0.9, -1.9, 0.3], 'pro', gC, 0.2, 'C');
+edge([-0.2, -2.0, 0.3], [0.9, -1.9, 0.3], 'pro', gC, 0.2, 'C');
+edge([2.0, -2.0, 0.3], [0.9, -1.9, 0.3], 'pro', gC, 0.2, 'C');
+edge([0.9, -1.9, 0.3], [3.6, -2.2, 0.2], 'pro', gC, 0.25, 'C');
+edge([-0.7, -4.1, 0.0], [2.2, -3.3, 0.0], 'pro', gC, 0.25, 'C');
+edge([0.8, -4.1, 0.0], [2.2, -3.3, 0.0], 'pro', gC, 0.25, 'C');
+edge([-3.2, -2.3, 0.0], [0.9, -1.9, 0.3], 'carrier', gC, 0.5, 'C');
+edge([-3.2, -3.8, 0.0], [-1.5, 3.6, 0.2], 'carrier', gC, 0.9, 'C'); // spliced trafficking → secretion
+edge([-1.4, -3.1, 0.2], [-0.6, -0.4, 0.3], 'pro', gC, 0.5, 'C');    // TGF-β → p38/paracrine
+edge([2.7, 0.2, 0.3], [0.9, -1.9, 0.3], 'pro', gC, -0.5, 'C');     // STING → NF-κB (dashed in figure)
+
+/* particles: CCF translocation (nucleus → cGAS), secreted SASP factors (up), STAT translocation (membrane → nucleus) */
+function puff(n, color, size) {
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(n * 3), 3));
+  const m = new THREE.PointsMaterial({ color, size, transparent: true, opacity: .9, depthWrite: false });
+  const p = new THREE.Points(g, m); gFlow.add(p); return p;
+}
+const ccf = puff(40, COL.grey, 0.14);
+const sasp = puff(160, COL.cyan, 0.15);
+const stat = puff(24, COL.yellow, 0.11);
+const saspVel = new Float32Array(160 * 3);
+for (let i = 0; i < 160; i++) {
+  const src = [[-1.5, 3.6], [1.7, 4.6], [2.9, 4.6]][i % 3];
+  saspVel[i * 3] = src[0]; saspVel[i * 3 + 1] = (Math.random() - 0.5) * 0.6; saspVel[i * 3 + 2] = (Math.random() - 0.5) * 0.8;
+}
+
+/* ---------- phases ---------- */
+const PHASES = [
+  [0, 'A · Double-strand breaks sustain DNA damage response signalling, activating p38 MAPK'],
+  [6, 'B · Chromatin cytoplasmic foci activate cGAS–STING; the inflammasome matures IL-1β'],
+  [12, 'C · Transcription factors assemble at SASP loci: NF-κB, C/EBPβ, GATA4, STAT'],
+  [17.5, 'D · Secretion of SASP factors; autocrine IL-6 and IL-1 signalling'],
+  [21, 'Late SASP: IRF3-dependent type I interferons; TGF-β induces paracrine senescence']
+];
+function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }
+
+/* ---------- UI ---------- */
+const chipA = document.getElementById('chipA'), chipB = document.getElementById('chipB'), chipC = document.getElementById('chipC');
+const playBtn = document.getElementById('play'), resetBtn = document.getElementById('reset');
+const metertrack = document.getElementById('metertrack');
+let showA = true, showB = true, showC = true;
+function applyVis() {
+  gA.visible = showA; gB.visible = showB; gC.visible = showC;
+  chipA.classList.toggle('is-on', showA); chipB.classList.toggle('is-on', showB); chipC.classList.toggle('is-on', showC);
+}
+chipA.onclick = () => { showA = !showA; applyVis(); flashCard('A'); };
+chipB.onclick = () => { showB = !showB; applyVis(); flashCard('B'); };
+chipC.onclick = () => { showC = !showC; applyVis(); flashCard('C'); };
+function setRunning(v) { running = v; playBtn.textContent = v ? '⏸ Pause' : '▶ Play'; playBtn.classList.toggle('is-on', v); }
+playBtn.onclick = () => setRunning(!running);
+setRunning(running);
+resetBtn.onclick = () => { camera.position.copy(CAM0); controls.target.set(0, -0.3, 0); };
+const copyBtn = document.getElementById('copybtn');
+const ICON_COPY = copyBtn.innerHTML;
+const ICON_OK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+const ICON_DL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
+const ICON_ERR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+function flashCopyBtn(cls, title, icon) {
+  copyBtn.classList.add(cls);
+  copyBtn.title = title;
+  copyBtn.innerHTML = icon;
+  setTimeout(() => { copyBtn.innerHTML = ICON_COPY; copyBtn.title = 'Copy stage snapshot as PNG'; copyBtn.classList.remove('ok', 'err'); }, 1800);
+}
+function snapshotBlob() {
+  return new Promise((resolve, reject) => {
+    renderer.render(scene, camera);
+    canvas.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
+  });
+}
+copyBtn.onclick = async () => {
+  copyBtn.disabled = true;
+  try {
+    const blob = await snapshotBlob();
+    if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+    await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+    flashCopyBtn('ok', 'Copied ✓', ICON_OK);
+  } catch (_) {
+    try {
+      const blob = await snapshotBlob();
+      const a = document.createElement('a');
+      a.download = 'sasp-regulation.png';
+      a.href = URL.createObjectURL(blob);
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+      flashCopyBtn('ok', 'Downloaded', ICON_DL);
+    } catch (_) {
+      flashCopyBtn('err', 'Copy failed', ICON_ERR);
+    }
+  }
+  setTimeout(() => { copyBtn.disabled = false; }, 50);
+};
+let scrubbing = false;
+function scrubTo(clientX) {
+  const r = metertrack.getBoundingClientRect();
+  const f = Math.min(Math.max((clientX - r.left) / r.width, 0), 1);
+  T = f * DUR;
+}
+metertrack.addEventListener('pointerdown', e => {
+  scrubbing = true; setRunning(false);
+  try { metertrack.setPointerCapture(e.pointerId); } catch (_) {}
+  scrubTo(e.clientX);
+});
+metertrack.addEventListener('pointermove', e => { if (scrubbing) scrubTo(e.clientX); });
+metertrack.addEventListener('pointerup', () => { scrubbing = false; });
+metertrack.addEventListener('pointercancel', () => { scrubbing = false; });
+metertrack.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') { T = (T - 1 + DUR) % DUR; e.preventDefault(); }
+  else if (e.key === 'ArrowRight') { T = (T + 1) % DUR; e.preventDefault(); }
+  else if (e.key === 'Home') { T = 0; e.preventDefault(); }
+  else if (e.key === 'End') { T = DUR - 0.01; e.preventDefault(); }
+});
+
+const ray = new THREE.Raycaster(); const ptr = new THREE.Vector2();
+function isShown(o) { while (o) { if (!o.visible) return false; o = o.parent; } return true; }
+function pick(e) {
+  const r = canvas.getBoundingClientRect();
+  ptr.x = ((e.clientX - r.left) / r.width) * 2 - 1;
+  ptr.y = -((e.clientY - r.top) / r.height) * 2 + 1;
+  ray.setFromCamera(ptr, camera);
+  const hit = ray.intersectObjects(pickables, false).find(h => isShown(h.object));
+  return hit ? hit.object.userData.id : null;
+}
+canvas.addEventListener('click', e => {
+  const id = pick(e); if (!id) return;
+  if (COMP[id]) flashCard(COMP[id]);
+  const d = INFO[id]; if (!id || !d) return;
+  tip.innerHTML = '<b>' + d[0] + '</b><code>' + d[1] + '</code><br>' + d[2];
+  tip.style.display = 'block';
+  tip.style.left = Math.min(e.offsetX + 14, stage.clientWidth - 260) + 'px';
+  tip.style.top = Math.max(e.offsetY - 10, 8) + 'px';
+  clearTimeout(tip._h); tip._h = setTimeout(() => tip.style.display = 'none', 4200);
+});
+canvas.addEventListener('pointermove', e => { canvas.style.cursor = pick(e) ? 'pointer' : 'grab'; });
+
+/* ---------- animate ---------- */
+const clk = new THREE.Clock();
+let T = 0;
+const V = new THREE.Vector3(), V2 = new THREE.Vector3();
+function setPts(p, fn) {
+  const a = p.geometry.attributes.position;
+  for (let i = 0; i < a.count; i++) { fn(i, V); a.setXYZ(i, V.x, V.y, V.z); }
+  a.needsUpdate = true;
+}
+function animate() {
+  requestAnimationFrame(animate);
+  const dt = Math.min(clk.getDelta(), 0.05);
+  if (running) T = (T + dt) % DUR;
+  const t = T;
+  const sstep = (a, b, x) => { const u = Math.min(Math.max((x - a) / (b - a), 0), 1); return u * u * (3 - 2 * u); };
+
+  for (const f of flows) {
+    const u = (t * f.speed + f.off) % 1;
+    f.curve.getPoint(u, V); f.dot.position.copy(V);
+    f.curve.getPoint(Math.min(u + 0.04, 1), V2);
+    f.head.position.copy(V2); f.head.lookAt(V2.clone().add(V2.clone().sub(V)));
+    const tagOn = (f.tag === 'A' && showA) || (f.tag === 'B' && showB) || (f.tag === 'C' && showC);
+    const actBoost =
+      ((t < 6 || t >= 21) && f.tag === 'A') || (t >= 6 && t < 12 && f.tag === 'B') ||
+      ((t >= 12 && t < 17.5) && f.tag === 'C') || (t >= 17.5 && f.tag !== '') ? 1.6 : 0.7;
+    f.dot.scale.setScalar(tagOn ? actBoost : 0.001);
+    f.head.visible = tagOn;
+  }
+
+  hubA.scale.setScalar(1 + ((t < 6 || t >= 17.5) ? 0.12 * Math.sin(t * 4) : 0.04));
+  hubB.scale.setScalar(1 + ((t >= 6 && t < 12) ? 0.14 * Math.sin(t * 5) : 0.04));
+  hubC.scale.setScalar(1 + ((t >= 12 && t < 21) ? 0.14 * Math.sin(t * 5) : 0.04));
+  nucLight.intensity = t >= 12 && t < 21 ? 1.6 + Math.sin(t * 6) * 0.4 : 0.4;
+
+  // CCF translocation: nucleus → cGAS (phase B onward)
+  setPts(ccf, (i, v) => {
+    const u = (t * 0.14 + i / 40) % 1;
+    v.set(0.3 + (2.7 - 0.3) * u + Math.sin(u * 8 + i) * 0.25,
+          -2.4 + (1.2 + 2.4) * u,
+          -0.2 + (0.3 + 0.2) * u + Math.cos(u * 6 + i) * 0.2);
+  });
+  ccf.visible = showA && t >= 4;
+  ccf.material.opacity = t >= 4 ? 0.9 : 0;
+  // Secreted SASP factors leaving the membrane (phase D onward)
+  setPts(sasp, (i, v) => {
+    const bx = saspVel[i * 3];
+    const u = (t * 0.35 + i / 160) % 1;
+    v.set(bx + Math.sin(u * 9 + i) * 0.25 * u, (i % 3 === 0 ? 3.8 : 4.8) + u * 3.4, saspVel[i * 3 + 2] * (1 + u));
+  });
+  sasp.visible = showB && t >= 16;
+  sasp.material.opacity = t >= 16 ? Math.min((t - 16) / 1.5, 1) * 0.95 : 0;
+  // STAT shuttle: membrane JAK → nuclear STAT (phase C/D)
+  setPts(stat, (i, v) => {
+    const u = (t * 0.2 + i / 24) % 1;
+    v.set(1.1 + (-0.2 - 1.1) * u, 2.7 + (-2.0 - 2.7) * u + Math.sin(u * 7 + i) * 0.15, 0.2);
+  });
+  stat.visible = (showB || showC) && t >= 10 && t < 22;
+
+  phaseEl.textContent = phaseAt(t);
+  meterfill.style.width = Math.min(8 + t / DUR * 92, 100) + '%';
+  meterlabel.textContent = 'SASP maturation · T+ ' + (t / DUR * BIO_D).toFixed(1) + ' d';
+  metertrack.setAttribute('aria-valuenow', t.toFixed(1));
+
+  controls.update();
+  renderer.render(scene, camera);
+}
+applyVis();
+animate();
+</script>
+</body>
+</html>
