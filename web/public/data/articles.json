@@ -5,17 +5,15 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
-                "path": "pages/en-US/sirtuins-pleiotropic-roles.html",
-                "created": "2026-08-13",
-                "updated": "2026-08-15"
+                "path": "pages/en-US/sirtuins-pleiotropic-roles.html"
             },
             "zh-TW": {
                 "title": "腫瘤細胞代謝中的多效性",
-                "path": "pages/zh-TW/sirtuins-pleiotropic-roles.html",
-                "created": "2026-08-14",
-                "updated": "2026-08-16"
+                "path": "pages/zh-TW/sirtuins-pleiotropic-roles.html"
             }
-        }
+        },
+        "created": "2026-08-13",
+        "updated": "2026-08-15"
     },
     {
         "id": "sirtuin-disease-complications",
@@ -23,17 +21,15 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Disease Complications",
-                "path": "pages/en-US/sirtuins_disease_complications.html",
-                "created": "2026-08-14",
-                "updated": "2026-08-15"
+                "path": "pages/en-US/sirtuins_disease_complications.html"
             },
             "zh-TW": {
                 "title": "疾病併發症",
-                "path": "pages/zh-TW/sirtuins_disease_complications.html",
-                "created": "2026-08-14",
-                "updated": "2026-08-15"
+                "path": "pages/zh-TW/sirtuins_disease_complications.html"
             }
-        }
+        },
+        "created": "2026-08-14",
+        "updated": "2026-08-15"
     },
     {
         "id": "ivermectin-fenbendazole-anticancer",
@@ -41,17 +37,15 @@
         "langs": {
             "en-US": {
                 "title": "[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)",
-                "path": "pages/en-US/ivermectin-fenbendazole-anticancer.html",
-                "created": "2026-08-16",
-                "updated": "2026-08-16"
+                "path": "pages/en-US/ivermectin-fenbendazole-anticancer.html"
             },
             "zh-TW": {
                 "title": "伊維菌素 × 芬苯達唑（互補抗癌機制）",
-                "path": "pages/zh-TW/ivermectin-fenbendazole-anticancer.html",
-                "created": "2026-08-16",
-                "updated": "2026-08-16"
+                "path": "pages/zh-TW/ivermectin-fenbendazole-anticancer.html"
             }
-        }
+        },
+        "created": "2026-08-16",
+        "updated": "2026-08-16"
     },
     {
         "id": "adrenochrome-protocol",
@@ -59,17 +53,15 @@
         "langs": {
             "en-US": {
                 "title": "[Speculative] Adrenochrome MB/AG Protocol",
-                "path": "pages/en-US/adrenochrome-protocol.html",
-                "created": "2026-08-16",
-                "updated": "2026-08-16"
+                "path": "pages/en-US/adrenochrome-protocol.html"
             },
             "zh-TW": {
                 "title": "腎上腺色素 亞甲藍/銀 方案（推測性）",
-                "path": "pages/zh-TW/adrenochrome-protocol.html",
-                "created": "2026-08-16",
-                "updated": "2026-08-16"
+                "path": "pages/zh-TW/adrenochrome-protocol.html"
             }
-        }
+        },
+        "created": "2026-08-16",
+        "updated": "2026-08-16"
     },
     {
         "id": "sirtuins-articles-and-figures",
@@ -78,17 +70,15 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Articles, figures, images (index)",
-                "path": "pages/en-US/sirtuins-articles-and-figures.html",
-                "created": "2026-08-17",
-                "updated": "2026-08-17"
+                "path": "pages/en-US/sirtuins-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "Sirtuins — 文章中的圖像與圖表",
-                "path": "pages/zh-TW/sirtuins-articles-and-figures.html",
-                "created": "2026-08-17",
-                "updated": "2026-08-17"
+                "path": "pages/zh-TW/sirtuins-articles-and-figures.html"
             }
-        }
+        },
+        "created": "2026-08-17",
+        "updated": "2026-08-17"
     },
     {
         "id": "senescence-articles-and-figures",
@@ -97,17 +87,15 @@
         "langs": {
             "en-US": {
                 "title": "Senescence - Articles, figures, images (index)",
-                "path": "pages/en-US/senescence-articles-and-figures.html",
-                "created": "2026-08-18",
-                "updated": "2026-08-18"
+                "path": "pages/en-US/senescence-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "細胞衰老 — 文章中的圖像與圖表",
-                "path": "pages/zh-TW/senescence-articles-and-figures.html",
-                "created": "2026-08-18",
-                "updated": "2026-08-18"
+                "path": "pages/zh-TW/senescence-articles-and-figures.html"
             }
-        }
+        },
+        "created": "2026-08-18",
+        "updated": "2026-08-18"
     },
     {
         "id": "cell-death-articles-and-figures",
@@ -116,17 +104,15 @@
         "langs": {
             "en-US": {
                 "title": "Cell Death - Articles, figures, images (index)",
-                "path": "pages/en-US/cell-death-articles-and-figures.html",
-                "created": "2026-09-09",
-                "updated": "2026-09-09"
+                "path": "pages/en-US/cell-death-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "細胞死亡 — 文章中的圖像與圖表",
-                "path": "pages/zh-TW/cell-death-articles-and-figures.html",
-                "created": "2026-09-09",
-                "updated": "2026-09-09"
+                "path": "pages/zh-TW/cell-death-articles-and-figures.html"
             }
-        }
+        },
+        "created": "2026-09-09",
+        "updated": "2026-09-09"
     },
     {
         "id": "hormesis-articles-and-figures",
@@ -135,17 +121,15 @@
         "langs": {
             "en-US": {
                 "title": "Hormesis - Articles, figures, images (index)",
-                "path": "pages/en-US/hormesis-articles-and-figures.html",
-                "created": "2026-09-09",
-                "updated": "2026-09-09"
+                "path": "pages/en-US/hormesis-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "毒物興奮效應 — 文章中的圖像與圖表",
-                "path": "pages/zh-TW/hormesis-articles-and-figures.html",
-                "created": "2026-09-09",
-                "updated": "2026-09-09"
+                "path": "pages/zh-TW/hormesis-articles-and-figures.html"
             }
-        }
+        },
+        "created": "2026-09-09",
+        "updated": "2026-09-09"
     },
     {
         "id": "node-analysis-examples-biology",
@@ -153,17 +137,15 @@
         "langs": {
             "en-US": {
                 "title": "Node-level Network Analysis for Biological Knowledge Graphs",
-                "path": "pages/en-US/node-analysis-examples-biology.html",
-                "created": "2026-08-20",
-                "updated": "2026-08-20"
+                "path": "pages/en-US/node-analysis-examples-biology.html"
             },
             "zh-TW": {
                 "title": "用於生物學優先排序的節點層級網絡分析",
-                "path": "pages/zh-TW/node-analysis-examples-biology.html",
-                "created": "2026-08-20",
-                "updated": "2026-08-20"
+                "path": "pages/zh-TW/node-analysis-examples-biology.html"
             }
-        }
+        },
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
     },
     {
         "id": "adrenochrome-protocol-node-network-analysis",
@@ -171,17 +153,15 @@
         "langs": {
             "en-US": {
                 "title": "[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
-                "path": "pages/en-US/adrenochrome-protocol-node-network-analysis.html",
-                "created": "2026-08-20",
-                "updated": "2026-08-20"
+                "path": "pages/en-US/adrenochrome-protocol-node-network-analysis.html"
             },
             "zh-TW": {
                 "title": "腎上腺素紅方案：作用劑—觸發器網絡追蹤",
-                "path": "pages/zh-TW/adrenochrome-protocol-node-network-analysis.html",
-                "created": "2026-08-20",
-                "updated": "2026-08-20"
+                "path": "pages/zh-TW/adrenochrome-protocol-node-network-analysis.html"
             }
-        }
+        },
+        "created": "2026-08-20",
+        "updated": "2026-08-20"
     },
     {
         "id": "articles-index",
@@ -189,17 +169,15 @@
         "langs": {
             "en-US": {
                 "title": "[index] articles",
-                "path": "pages/articles-index.html",
-                "created": "2026-08-21",
-                "updated": "2026-08-21"
+                "path": "pages/articles-index.html"
             },
             "zh-TW": {
                 "title": "文章索引",
-                "path": "pages/articles-index.html",
-                "created": "2026-08-21",
-                "updated": "2026-08-21"
+                "path": "pages/articles-index.html"
             }
-        }
+        },
+        "created": "2026-08-21",
+        "updated": "2026-08-21"
     },
     {
         "id": "wiki-and-triples-graph-biological-processes",
@@ -207,17 +185,15 @@
         "langs": {
             "en-US": {
                 "title": "Biological Processes in the Combined Knowledge Graph (wiki + triples)",
-                "path": "pages/en-US/wiki-and-triples-graph-biological-processes.html",
-                "created": "2026-08-27",
-                "updated": "2026-08-27"
+                "path": "pages/en-US/wiki-and-triples-graph-biological-processes.html"
             },
             "zh-TW": {
                 "title": "合併知識圖譜中的生物過程（wiki + triples）",
-                "path": "pages/zh-TW/wiki-and-triples-graph-biological-processes.html",
-                "created": "2026-08-27",
-                "updated": "2026-08-27"
+                "path": "pages/zh-TW/wiki-and-triples-graph-biological-processes.html"
             }
-        }
+        },
+        "created": "2026-08-27",
+        "updated": "2026-08-27"
     },
     {
         "id": "caspase-graph-analysis-28-AUG-2026",
@@ -225,17 +201,15 @@
         "langs": {
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
-                "path": "pages/en-US/caspase-graph-analysis-28-AUG-2026.html",
-                "created": "2026-08-28",
-                "updated": "2026-08-28"
+                "path": "pages/en-US/caspase-graph-analysis-28-AUG-2026.html"
             },
             "zh-TW": {
                 "title": "Caspases — 圖譜分析（wiki + triples）",
-                "path": "pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html",
-                "created": "2026-08-28",
-                "updated": "2026-08-28"
+                "path": "pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html"
             }
-        }
+        },
+        "created": "2026-08-28",
+        "updated": "2026-08-28"
     },
     {
         "id": "neurodegeneration-ad-pd-hd-als-review",
@@ -243,17 +217,15 @@
         "langs": {
             "en-US": {
                 "title": "Neurodegeneration Compared — AD, PD, HD, and the ALS–FTD Spectrum",
-                "path": "pages/en-US/neurodegeneration-ad-pd-hd-als-review.html",
-                "created": "2026-08-29",
-                "updated": "2026-08-29"
+                "path": "pages/en-US/neurodegeneration-ad-pd-hd-als-review.html"
             },
             "zh-TW": {
                 "title": "神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系",
-                "path": "pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html"
             }
-        }
+        },
+        "created": "2026-08-29",
+        "updated": "2026-08-29"
     },
     {
         "id": "sirt3-aging-aging-related-diseases",
@@ -261,17 +233,15 @@
         "langs": {
             "en-US": {
                 "title": "SIRT3 — The Mitochondrial Deacetylase at the Center of Aging",
-                "path": "pages/en-US/sirt3-aging-aging-related-diseases.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/en-US/sirt3-aging-aging-related-diseases.html"
             },
             "zh-TW": {
                 "title": "SIRT3 — 居於老化核心的粒線體去乙醯酶",
-                "path": "pages/zh-TW/sirt3-aging-aging-related-diseases.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/zh-TW/sirt3-aging-aging-related-diseases.html"
             }
-        }
+        },
+        "created": "2026-08-30",
+        "updated": "2026-08-30"
     },
     {
         "id": "discovery-arrival-graph-metrics",
@@ -279,17 +249,15 @@
         "langs": {
             "en-US": {
                 "title": "Reading a Discovery Arrival — Graph Metrics and Typed Edges (Ferroptosis & COVID)",
-                "path": "pages/en-US/discovery-arrival-graph-metrics.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/en-US/discovery-arrival-graph-metrics.html"
             },
             "zh-TW": {
                 "title": "解讀一次新發現的抵達 — 圖譜指標與型別化邊（鐵死亡與 COVID）",
-                "path": "pages/zh-TW/discovery-arrival-graph-metrics.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/zh-TW/discovery-arrival-graph-metrics.html"
             }
-        }
+        },
+        "created": "2026-08-30",
+        "updated": "2026-08-30"
     },
     {
         "id": "beyond-mitohormesis-overlooked-paradigms",
@@ -297,17 +265,15 @@
         "langs": {
             "en-US": {
                 "title": "Beyond Mitohormesis — 12 Overlooked Hormetic Domains",
-                "path": "pages/en-US/beyond-mitohormesis-overlooked-paradigms.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"
             },
             "zh-TW": {
                 "title": "超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域",
-                "path": "pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html",
-                "created": "2026-08-30",
-                "updated": "2026-08-30"
+                "path": "pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html"
             }
-        }
+        },
+        "created": "2026-08-30",
+        "updated": "2026-08-30"
     },
     {
         "id": "hormetic-range-assessment",
@@ -315,17 +281,15 @@
         "langs": {
             "en-US": {
                 "title": "Hormetic Range Assessment",
-                "path": "pages/en-US/hormetic-range-assessment.html",
-                "created": "2026-09-02",
-                "updated": "2026-09-10"
+                "path": "pages/en-US/hormetic-range-assessment.html"
             },
             "zh-TW": {
                 "title": "毒物興奮範圍評估 — 映射你的生物韌性",
-                "path": "pages/zh-TW/hormetic-range-assessment.html",
-                "created": "2026-09-02",
-                "updated": "2026-09-10"
+                "path": "pages/zh-TW/hormetic-range-assessment.html"
             }
-        }
+        },
+        "created": "2026-09-02",
+        "updated": "2026-09-10"
     },
     {
         "id": "cell-death-comparison",
@@ -333,17 +297,15 @@
         "langs": {
             "en-US": {
                 "title": "Cell Death Comparison [table + 3d]",
-                "path": "pages/en-US/cell-death-comparison.html",
-                "created": "2026-09-03",
-                "updated": "2026-09-09"
+                "path": "pages/en-US/cell-death-comparison.html"
             },
             "zh-TW": {
                 "title": "細胞死亡比較［表格＋3d］",
-                "path": "pages/zh-TW/cell-death-comparison.html",
-                "created": "2026-09-03",
-                "updated": "2026-09-09"
+                "path": "pages/zh-TW/cell-death-comparison.html"
             }
-        }
+        },
+        "created": "2026-09-03",
+        "updated": "2026-09-09"
     },
     {
         "id": "male-distributed-topology-vs-estrogen-hub",
@@ -351,17 +313,15 @@
         "langs": {
             "en-US": {
                 "title": "Male Distributed Topology vs the Centralized Estrogen Hub",
-                "path": "pages/en-US/male-distributed-topology-vs-estrogen-hub.html",
-                "created": "2026-09-05",
-                "updated": "2026-09-05"
+                "path": "pages/en-US/male-distributed-topology-vs-estrogen-hub.html"
             },
             "zh-TW": {
                 "title": "男性分散式拓撲 vs 集中式雌激素樞紐",
-                "path": "pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html",
-                "created": "2026-09-05",
-                "updated": "2026-09-05"
+                "path": "pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html"
             }
-        }
+        },
+        "created": "2026-09-05",
+        "updated": "2026-09-05"
     },
     {
         "id": "inside-the-cell",
@@ -369,17 +329,15 @@
         "langs": {
             "en-US": {
                 "title": "Inside the Human Cell [3d]",
-                "path": "pages/en-US/inside-the-cell.html",
-                "created": "2026-09-07",
-                "updated": "2026-09-07"
+                "path": "pages/en-US/inside-the-cell.html"
             },
             "zh-TW": {
                 "title": "人體細胞內部 [3d]",
-                "path": "pages/zh-TW/inside-the-cell.html",
-                "created": "2026-09-07",
-                "updated": "2026-09-07"
+                "path": "pages/zh-TW/inside-the-cell.html"
             }
-        }
+        },
+        "created": "2026-09-07",
+        "updated": "2026-09-07"
     },
     {
         "id": "necroptosis",
@@ -387,17 +345,15 @@
         "langs": {
             "en-US": {
                 "title": "Necroptosis",
-                "path": "pages/en-US/necroptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/necroptosis.html"
             },
             "zh-TW": {
                 "title": "壞死性凋亡",
-                "path": "pages/zh-TW/necroptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/necroptosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "apoptosis",
@@ -405,17 +361,15 @@
         "langs": {
             "en-US": {
                 "title": "Apoptosis",
-                "path": "pages/en-US/apoptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/apoptosis.html"
             },
             "zh-TW": {
                 "title": "細胞凋亡",
-                "path": "pages/zh-TW/apoptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/apoptosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "parthanatos",
@@ -423,17 +377,15 @@
         "langs": {
             "en-US": {
                 "title": "Parthanatos",
-                "path": "pages/en-US/parthanatos.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/parthanatos.html"
             },
             "zh-TW": {
                 "title": "Parthanatos",
-                "path": "pages/zh-TW/parthanatos.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/parthanatos.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "necrosis",
@@ -441,17 +393,15 @@
         "langs": {
             "en-US": {
                 "title": "Necrosis",
-                "path": "pages/en-US/necrosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/necrosis.html"
             },
             "zh-TW": {
                 "title": "壞死",
-                "path": "pages/zh-TW/necrosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/necrosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "ferroptosis",
@@ -459,17 +409,15 @@
         "langs": {
             "en-US": {
                 "title": "Ferroptosis",
-                "path": "pages/en-US/ferroptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/ferroptosis.html"
             },
             "zh-TW": {
                 "title": "鐵死亡",
-                "path": "pages/zh-TW/ferroptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/ferroptosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "autophagy",
@@ -477,17 +425,15 @@
         "langs": {
             "en-US": {
                 "title": "Autophagy",
-                "path": "pages/en-US/autophagy.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/autophagy.html"
             },
             "zh-TW": {
                 "title": "自噬",
-                "path": "pages/zh-TW/autophagy.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/autophagy.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "pyroptosis",
@@ -495,17 +441,15 @@
         "langs": {
             "en-US": {
                 "title": "Pyroptosis",
-                "path": "pages/en-US/pyroptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/pyroptosis.html"
             },
             "zh-TW": {
                 "title": "焦亡",
-                "path": "pages/zh-TW/pyroptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/pyroptosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "panoptosis",
@@ -513,17 +457,15 @@
         "langs": {
             "en-US": {
                 "title": "PANoptosis",
-                "path": "pages/en-US/panoptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/panoptosis.html"
             },
             "zh-TW": {
                 "title": "PANoptosis",
-                "path": "pages/zh-TW/panoptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/panoptosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "eryptosis",
@@ -531,17 +473,15 @@
         "langs": {
             "en-US": {
                 "title": "Eryptosis",
-                "path": "pages/en-US/eryptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/eryptosis.html"
             },
             "zh-TW": {
                 "title": "紅血球凋亡",
-                "path": "pages/zh-TW/eryptosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/eryptosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
         "id": "netosis",
@@ -549,35 +489,31 @@
         "langs": {
             "en-US": {
                 "title": "NETosis",
-                "path": "pages/en-US/netosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/en-US/netosis.html"
             },
             "zh-TW": {
                 "title": "NETosis",
-                "path": "pages/zh-TW/netosis.html",
-                "created": "2026-09-11",
-                "updated": "2026-09-11"
+                "path": "pages/zh-TW/netosis.html"
             }
-        }
+        },
+        "created": "2026-09-11",
+        "updated": "2026-09-11"
     },
     {
-        "id": "apoptosis-vs-necrosis",
+        "id": "apoptosis-vs-necrosis-dichotomy",
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Apoptosis vs Necrosis",
-                "path": "pages/en-US/apoptosis-vs-necrosis.html",
-                "created": "2026-09-13",
-                "updated": "2026-09-13"
+                "title": "Apoptosis vs Necrosis - Classical Dichotomy",
+                "path": "pages/en-US/apoptosis-vs-necrosis.html"
             },
             "zh-TW": {
-                "title": "細胞凋亡 vs 壞死",
-                "path": "pages/zh-TW/apoptosis-vs-necrosis.html",
-                "created": "2026-09-13",
-                "updated": "2026-09-13"
+                "title": "細胞凋亡 vs 壞死 — 經典二分法",
+                "path": "pages/zh-TW/apoptosis-vs-necrosis.html"
             }
-        }
+        },
+        "created": "2026-09-13",
+        "updated": "2026-09-16"
     },
     {
         "id": "sasp-regulation",
@@ -585,16 +521,14 @@
         "langs": {
             "en-US": {
                 "title": "Regulation of the SASP — Sensors, Signalling, Transcription Factors",
-                "path": "pages/en-US/sasp-regulation.html",
-                "created": "2026-09-15",
-                "updated": "2026-09-15"
+                "path": "pages/en-US/sasp-regulation.html"
             },
             "zh-TW": {
                 "title": "SASP 的調控 — 感測器、訊號與轉錄因子",
-                "path": "pages/zh-TW/sasp-regulation.html",
-                "created": "2026-09-15",
-                "updated": "2026-09-15"
+                "path": "pages/zh-TW/sasp-regulation.html"
             }
-        }
+        },
+        "created": "2026-09-15",
+        "updated": "2026-09-15"
     }
 ]
