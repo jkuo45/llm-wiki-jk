@@ -54,7 +54,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 ## Entity Notes
 
-### Protein (314)
+### Protein (320)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -224,6 +224,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Livin]] | Protein | Livin (BIRC7/ML-IAP) is an inhibitor of apoptosis protein that binds and inhibits caspases, promoting cancer cell survival; its expression is a biomarker and potential therapeutic target in multipl... |
 | [[LRRK2]] | Protein | Kinase mutated in familial Parkinson's disease that regulates mitophagy, lysosomal function, and vesicle sorting. |
 | [[macroH2A]] | Protein | H2A histone variant that accumulates in senescent and aged cells, stabilizing SAHF, reinforcing proliferation arrest, and helping time SASP expression. |
+| [[MAML1]] | Protein | Mastermind-like 1, the obligate transcriptional co-activator that nucleates the NOTCH–CSL/RBPJ ternary complex; with N1ICD it forms part of the nuclear control layer of SASP induction. |
 | [[MAP2]] | Protein | Microtubule-associated protein 2, a dendritic cytoskeletal protein of neurons important for microtubule stabilization and neuronal morphology. |
 | [[MAPK]] | Protein | The MAPK (Mitogen-Activated Protein Kinase) pathway is a series of proteins in the cell that communicates a signal from a receptor on the surface of the cell to the DNA in the nucleus. It is a ... |
 | [[MCP-1]] | Protein | Overview: MCP-1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
@@ -297,6 +298,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Plasminogen]] | Protein | Inactive zymogen precursor of Plasmin, synthesised in the liver and circulating in plasma; converted to active plasmin by tPA and uPA to initiate fibrinolysis. |
 | [[PML]] | Protein | Promyelocytic leukemia tumor suppressor protein (TRIM19) that nucleates PML nuclear bodies, the scaffolds to which HIRA relocalizes to drive SAHF formation in senescence and through which SIRT1 reg... |
 | [[PQBP1]] | Protein | Polyglutamine binding protein 1, an intranuclear RNA-binding protein that adapts monomeric tau to cGAS to activate cGAS-STING independently of DNA. |
+| [[PTBP1]] | Protein | Polypyrimidine tract-binding protein 1 (PTB, hnRNP I), an RNA-binding protein that represses alternative exon inclusion and regulates the splicing programmes governing secretory trafficking gene expression. |
 | [[Pro-inflammatory Cytokines]] | Protein | Overview: Pro-inflammatory Cytokines is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling net... |
 | [[Progerin]] | Protein | Progerin is a truncated, farnesylated version of the Lamin A protein. It is the primary molecular driver of **Hutchinson-Gilford Progeria Syndrome** (HGPS). |
 | [[Rab8]] | Protein | Small GTPase that interacts with the mitophagy receptor Optineurin and is required for retrograde transport of mitochondria-containing autophagosomes in neurons. |
@@ -309,6 +311,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Receptor Tyrosine Kinases]] | Protein | Overview: Receptor Tyrosine Kinases is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling netw... |
 | [[RhoA]] | Protein | Overview: RhoA is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
 | [[Ribosomal Protein S6]] | Protein | A component of the 40S ribosomal subunit whose phosphorylation by S6K1 serves as the canonical pharmacodynamic biomarker of mTORC1 activity. |
+| [[RIG-I]] | Protein | Retinoic acid-inducible gene I (DDX58), the cytosolic RIG-I-like receptor that senses short 5′-triphosphate double-stranded RNA and signals via MAVS to drive type I interferon and inflammatory gene expression, mediating senescence-associated inflammation. |
 | [[RIPK3]] | Protein | Overview: RIPK3 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
 | [[RNF185]] | Protein | Mitochondrial ubiquitin E3 ligase that regulates autophagy through interaction with BNIP1, using K63-linked ubiquitin chains to recruit p62 for mitophagy. |
 | [[RRM1]] | Protein | RRM1 encodes the large (α) catalytic subunit of human ribonucleotide reductase (RNR); its homodimer carries the active site where ribonucleoside diphosphates are reduced to deoxyribonucleoside diphosphates, plus the allosteric specificity/activity sites and the redox-active disulfide re-reduced each cycle by thioredoxin-1 or glutaredoxin. RRM1 overexpression predicts chemoresistance, notably to gemcitabine. |
@@ -607,7 +610,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[SLC25A1]] | Transporter | Mitochondrial citrate carrier (CIC) that exports citrate from the mitochondrial matrix to the cytosol, where it is converted to acetyl-CoA by ACLY. Upregulated in cellular senescence; its inhibitio... |
 | [[Transferrin receptor 1]] | Transporter | Overview: Transferrin receptor 1 is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformation... |
 
-### Receptor (36)
+### Receptor (37)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -630,6 +633,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[GABA_A receptor]] | Receptor | A ligand-gated chloride channel and the principal inhibitory receptor in the CNS; target of benzodiazepines, barbiturates, and neuroactive phytochemicals such as honokiol and magnolol. |
 | [[IFNAR1]] | Receptor | Interferon alpha/beta receptor subunit 1, the type I interferon receptor subunit that transmits microglial IFN-I signaling to neurons. |
 | [[IL-1 Receptor]] | Receptor | The interleukin-1 receptor (IL-1R1) is the primary signaling receptor for IL-1α and IL-1β, activating MyD88-dependent NF-κB and MAPK pathways to drive inflammatory gene transcription. |
+| [[IL-6R]] | Receptor | Interleukin-6 receptor (CD126), the ligand-binding subunit of the gp130-family receptor complex that activates JAK–STAT3 — the receptor arm of the autocrine loop sustaining the SASP. |
 | [[IL-8]] | Receptor | IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory Chemokine that recruits Neutrophils and other immune cells to sites of Inflammation and infection. It is produced by Macrophages, Epithelial Cells,... |
 | [[NKG2A]] | Receptor | NKG2A (KLRC1), an inhibitory C-type lectin-like receptor that pairs with CD94 to recognize HLA-E and deliver ITIM-mediated stop signals to NK cells and a subset of T cells. |
 | [[NMDA receptor]] | Receptor | A glutamate-gated ion channel central to excitatory neurotransmission, synaptic plasticity, and Ca2+ signaling; implicated in seizures, stroke, and excitotoxicity, and a target of honokiol. |

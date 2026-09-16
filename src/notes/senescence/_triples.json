@@ -6116,5 +6116,355 @@
     "source_document": "SASP.md",
     "created": "2026-09-12T18:53:13Z",
     "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "2aa982ab2479",
+    "subject": "DNA Damage Response",
+    "predicate": "activates",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "The DNA damage response engages the p38 MAPK cascade, providing the link between persistent double-strand breaks and SASP gene expression. In the SASP-induction scheme this is the first signalling step after damage sensing: unresolved breaks sustain DDR signalling, which in turn activates p38 MAPK. p38 then acts on two downstream arms, activating NF-kB and stabilising SASP transcripts through MAPKAPK2. Persistent DDR and sustained p38 activity are therefore coupled features of the senescent state, and interrupting either step reduces secretome output without reversing the growth arrest.",
+      "zh-TW": "DNA 損傷反應活化 p38 MAPK 級聯，連結持續的雙股斷裂與 SASP 基因表現。在 SASP 誘導架構圖中，這是損傷感測後的第一個訊號步驟：未修復的斷裂持續維持 DDR 訊號，進而活化 p38 MAPK。p38 接著作用於兩個下游臂，活化 NF-kB 並經 MAPKAPK2 穩定 SASP 轉錄本。因此持續的 DDR 與持續的 p38 活性是衰老狀態中相伴的特徵，阻斷任一步驟都能降低分泌輸出而不逆轉生長停滯。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "289bd6b8bafa",
+    "subject": "p38 MAPK",
+    "predicate": "activates",
+    "object": "MAPKAPK2",
+    "context": {
+      "en-US": "p38 MAPK phosphorylates and activates MAPKAPK2 (MK2), making MK2 the principal effector through which p38 controls the stability of labile inflammatory transcripts. Active MK2 phosphorylates RNA-binding decay factors such as ZFP36L1/TTP, preventing them from recruiting deadenylation machinery to AU-rich elements in SASP mRNAs. The consequence is post-transcriptional prolongation of cytokine and chemokine transcripts, a control layer distinct from transcription-factor-driven expression. In the SASP-induction scheme the p38 to MK2 connection is drawn explicitly, separating transcriptional from post-transcriptional regulation of the secretome.",
+      "zh-TW": "p38 MAPK 磷酸化並活化 MAPKAPK2（MK2），使 MK2 成為 p38 控制不穩定發炎轉錄本穩定性的主要效應者。活化的 MK2 磷酸化 ZFP36L1/TTP 等 RNA 結合衰變因子，阻止其招募去腺苷酸化機制至 SASP mRNA 的 AU-rich 元件。結果是細胞激素與趨化激素轉錄本的轉錄後延長，此調控層不同於轉錄因子驅動的表現。在 SASP 誘導架構圖中，p38 至 MK2 的連結被明確畫出，區分了 secretome 的轉錄與轉錄後調控。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "052b354f707d",
+    "subject": "MAPKAPK2",
+    "predicate": "stabilizes",
+    "object": "SASP",
+    "context": {
+      "en-US": "MAPKAPK2 stabilises SASP transcripts, prolonging the half-life of cytokines, chemokines and matrix remodellers after transcription has been initiated. This post-transcriptional activity is what allows the secretome to persist in senescent cells: p38 to MK2 signalling keeps decay factors inactive so that ARE-containing SASP mRNAs accumulate. Inhibiting p38 or MK2, or silencing MK2, sharply reduces SASP factor secretion without reversing the DNA-damage-induced cell-cycle arrest, which is the pharmacological signature of a senomorphic rather than a senolytic intervention.",
+      "zh-TW": "MAPKAPK2 穩定 SASP 轉錄本，在轉錄起始後延長細胞激素、趨化激素與基質重塑因子的半衰期。此轉錄後活性使 secretome 得以在衰老細胞中持續：p38 至 MK2 訊號使衰變因子維持不活化，含 ARE 的 SASP mRNA 因而累積。抑制 p38 或 MK2、或靜默 MK2，可大幅降低 SASP 因子分泌而不逆轉 DNA 損傷誘發的細胞週期停滯，這是 senomorphic 而非 senolytic 干預的藥理特徵。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "83f41a6e706b",
+    "subject": "mTOR",
+    "predicate": "regulates",
+    "object": "MAPKAPK2",
+    "context": {
+      "en-US": "mTOR is drawn upstream of MAPKAPK2 in the SASP-induction scheme, placing the growth-signalling pathway on the mRNA-stabilisation arm of SASP control. The mechanistic basis is less fully resolved than the p38 to MK2 connection: mTORC1 supports the translation and stability of a broad set of transcripts, and the figure abstracts this into a direct regulatory input to MK2. What the placement conveys is that SASP magnitude depends on both the transcriptional programme and the growth and metabolic state of the cell, consistent with the senomorphic activity of rapamycin and other mTOR inhibitors.",
+      "zh-TW": "在 SASP 誘導架構圖中，mTOR 被畫在 MAPKAPK2 上游，將生長訊號路徑置於 SASP 調控的 mRNA 穩定化臂上。其機制基礎不如 p38 至 MK2 的連結那樣明確：mTORC1 支持廣泛轉錄本的轉譯與穩定性，而原圖將其抽象為對 MK2 的直接調控輸入。此配置所傳達的是 SASP 強度同時取決於轉錄程序與細胞的生長及代謝狀態，這與 rapamycin 及其他 mTOR 抑制劑的 senomorphic 活性一致。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "cd2bde0798c6",
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "AMPK is drawn as an upstream input to p38 MAPK in the SASP-induction scheme, coupling metabolic state to secretome output. The accompanying text of the source review describes the metabolic arm slightly differently, emphasising altered NAD+/NADH ratios influencing the SASP via AMPK-mediated activation of p53 and NAMPT salvage promoting a high pro-inflammatory SASP; NAMPT and the NAD+/NADH pool are shown feeding this arm. The shared implication is that bioenergetic and redox status set the gain on SASP signalling rather than merely permitting it.",
+      "zh-TW": "在 SASP 誘導架構圖中，AMPK 被畫為 p38 MAPK 的上游輸入，將代謝狀態耦合至 secretome 輸出。原回顧的正文對此代謝臂的描述略有不同，強調 NAD+/NADH 比值改變經 AMPK 介導的 p53 活化影響 SASP，以及 NAMPT 回收促進高促炎 SASP；圖中顯示 NAMPT 與 NAD+/NADH 池供應此臂。共同含義是生物能量與氧化還原狀態設定 SASP 訊號的增益，而不僅是允許其發生。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "623b44b51857",
+    "subject": "cGAS",
+    "predicate": "activates",
+    "object": "STING",
+    "context": {
+      "en-US": "cGAS binds cytosolic double-stranded DNA and synthesises cyclic GMP-AMP, which binds and activates STING. In senescence the DNA ligands are predominantly endogenous: chromatin cytoplasmic foci blebbed from the nucleus, mitochondrial DNA released from damaged mitochondria, and retrotransposon-derived cDNA. This cGAS to STING step is the point at which nuclear and mitochondrial damage are converted into the interferon and NF-kB signalling that drives the SASP, which is why the axis is regarded as a central regulator of SASP induction rather than a peripheral pathway.",
+      "zh-TW": "cGAS 結合胞質雙股 DNA 並合成 cyclic GMP-AMP，後者結合並活化 STING。在衰老中，DNA 配體主要為內源性：由細胞核起泡排出的染色質細胞質病灶、受損粒線體釋出的粒線體 DNA，以及反轉錄轉座子來源的 cDNA。此 cGAS 至 STING 步驟是細胞核與粒線體損傷轉換為驅動 SASP 的干擾素與 NF-kB 訊號之處，因此該軸被視為 SASP 誘導的中樞調控者而非周邊路徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "d7cf9cfc7a68",
+    "subject": "STING",
+    "predicate": "recruits",
+    "object": "TBK1",
+    "context": {
+      "en-US": "Activated STING recruits TBK1, which autophosphorylates and then phosphorylates downstream substrates to initiate interferon and inflammatory transcription. In the SASP-induction scheme this is the step linking cGAMP generation to cytokine output, and it is a therapeutically attractive node because STING inhibitors act upstream of both the IRF3 and NF-kB arms. The recruitment is part of the canonical STING trafficking itinerary: after cGAMP binding, STING moves from the endoplasmic reticulum through the ERGIC, where TBK1 engagement and downstream signalling occur.",
+      "zh-TW": "活化的 STING 招募 TBK1，後者自體磷酸化並磷酸化下游受質，啟動干擾素與發炎轉錄。在 SASP 誘導架構圖中，這是連結 cGAMP 生成與細胞激素輸出的步驟，也是具治療吸引力的節點，因為 STING 抑制劑作用於 IRF3 與 NF-kB 兩臂的上游。此招募是典型 STING 運輸路徑的一部分：結合 cGAMP 後，STING 由內質網經 ERGIC 移動，TBK1 的接合與下游訊號即在該處發生。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "dea21e368b38",
+    "subject": "TBK1",
+    "predicate": "phosphorylates",
+    "object": "IRF3",
+    "context": {
+      "en-US": "TBK1 phosphorylates IRF3 on C-terminal serine residues, driving IRF3 dimerisation, nuclear translocation and transcription of type I interferon genes. In senescence this arm generates the interferon component of the secretome, which in turn reinforces the inflammatory programme through interferon-stimulated genes and autocrine interferon signalling. Because TBK1 is shared between the DNA-sensing and RNA-sensing pathways, its activity integrates cGAS-STING and RIG-I inputs before they diverge into interferon and NF-kB outputs.",
+      "zh-TW": "TBK1 磷酸化 IRF3 的 C 端絲胺酸殘基，驅動 IRF3 二聚化、入核轉位與第一型干擾素基因轉錄。在衰老中，此臂產生 secretome 的干擾素成分，並經干擾素刺激基因與自泌干擾素訊號進一步強化發炎程序。由於 TBK1 為 DNA 感測與 RNA 感測路徑共用，其活性整合 cGAS-STING 與 RIG-I 的輸入，之後才分流為干擾素與 NF-kB 輸出。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "fe003c87b2c2",
+    "subject": "STING",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "STING signalling also activates NF-kB, providing the second transcriptional arm that connects cytosolic DNA sensing to the pro-inflammatory SASP. The scheme draws this as an indirect connection, and mechanistically it involves IKK activation downstream of STING-associated kinases rather than a direct STING to NF-kB interaction. The functional consequence is that a single DNA-sensing event can drive both type I interferon and pro-inflammatory cytokine gene expression, which is why the cGAS-STING axis is described as a master regulator of SASP induction.",
+      "zh-TW": "STING 訊號亦活化 NF-kB，提供第二條轉錄臂，將胞質 DNA 感測連結至促炎 SASP。圖中將此畫為間接連結，機制上涉及 STING 相關激酶下游的 IKK 活化，而非 STING 與 NF-kB 的直接交互作用。功能上的結果是單一 DNA 感測事件即可同時驅動第一型干擾素與促炎細胞激素基因表現，這也是 cGAS-STING 軸被描述為 SASP 誘導主調控者的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "b87aeec39992",
+    "subject": "Notch",
+    "predicate": "inhibits",
+    "object": "Inflammasome",
+    "context": {
+      "en-US": "Notch signalling restrains inflammasome-dependent IL-1beta production. In the SASP-induction scheme the released Notch1 intracellular domain (N1ICD) is drawn as a cytoplasmic inhibitor of the inflammasome, in addition to its nuclear role with MAML1. The consequence is that loss of NOTCH1 signalling de-represses IL-1beta maturation, and because IL-1beta is itself a potent SASP amplifier, Notch acts as a brake whose removal increases the inflammatory output of senescent cells.",
+      "zh-TW": "Notch 訊號抑制依賴發炎體的 IL-1beta 產生。在 SASP 誘導架構圖中，受切割釋出的 Notch1 胞內結構域（N1ICD）除了與 MAML1 的細胞核角色外，也被畫為發炎體的細胞質抑制者。結果是 NOTCH1 訊號喪失會解除對 IL-1beta 成熟的抑制，而由於 IL-1beta 本身是強效的 SASP 放大器，Notch 因而扮演煞車角色，其移除會提高衰老細胞的發炎輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "cab40bb8974b",
+    "subject": "Notch",
+    "predicate": "represses",
+    "object": "CEBPβ",
+    "context": {
+      "en-US": "Notch restrains the late pro-inflammatory SASP by repressing the transcriptional activity of C/EBPbeta. The mechanism is attributed in the source review to NOTCH1-driven inhibition, and it explains the temporal phasing of the secretome: Notch gates the transition from an early, TGFbeta-dominated secretome to a late, IL-6/IL-8-dominated inflammatory one by limiting C/EBPbeta-dependent transcription. Because C/EBPbeta cooperates with NF-kB at CXCR2-ligand and other SASP genes, its repression by Notch damps a broad subset of pro-inflammatory outputs rather than a single cytokine.",
+      "zh-TW": "Notch 藉由抑制 C/EBPbeta 的轉錄活性來約束晚期促炎 SASP。原回顧將此機制歸因於 NOTCH1 驅動的抑制，這也解釋了 secretome 的時間分期：Notch 藉由限制 C/EBPbeta 依賴性轉錄，管制由早期 TGFbeta 主導的 secretome 轉換為晚期 IL-6/IL-8 主導的發炎型。由於 C/EBPbeta 與 NF-kB 在 CXCR2 配體及其他 SASP 基因上協同，Notch 對其抑制會壓低一大類促炎輸出，而非僅單一細胞激素。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "0d58575c1053",
+    "subject": "CEBPβ",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "C/EBPbeta is one of the two principal transcription factors driving the inflammatory SASP, cooperating with NF-kB to activate CXCR2-ligand genes including IL-8. Loss of C/EBPbeta together with NF-kB reduces IL-8 and other chemokine receptor ligands and also impairs the growth arrest that defines oncogene-induced senescence, indicating that this transcription factor sits at the intersection of the arrest and secretory programmes. In the SASP-induction scheme C/EBPbeta occupies the transcription-factor tier alongside NF-kB, STAT and GATA4, and it is the target through which Notch modulates the late SASP.",
+      "zh-TW": "C/EBPbeta 是驅動發炎型 SASP 的兩大主要轉錄因子之一，與 NF-kB 協同活化包括 IL-8 在內的 CXCR2 配體基因。C/EBPbeta 與 NF-kB 同時缺失會降低 IL-8 及其他趨化激素受體配體，並損害定義癌基因誘導衰老的生長停滯，顯示此轉錄因子位於停滯與分泌程序的交會處。在 SASP 誘導架構圖中，C/EBPbeta 與 NF-kB、STAT、GATA4 同處轉錄因子層，也是 Notch 調節晚期 SASP 的作用靶點。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "83675f64de3c",
+    "subject": "HMGA1",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "HMGA1 is grouped with MLL1 and BRD4 in the SASP-induction scheme as part of the epigenetic control of SASP loci. HMGA1 is a non-histone chromatin architectural protein upregulated in oncogene-induced senescence, where it promotes NAMPT expression and, through it, NAD+-mediated modulation of AMPK signalling; it also associates with senescence-associated heterochromatin foci. Its placement in the scheme indicates that chromatin-level remodelling, and not only transcription-factor availability, sets which SASP genes can be expressed.",
+      "zh-TW": "在 SASP 誘導架構圖中，HMGA1 與 MLL1、BRD4 同組，屬於 SASP 基因座的表觀遺傳調控。HMGA1 是一種非組蛋白染色質結構蛋白，在癌基因誘導衰老中上調，促進 NAMPT 表現並藉此調節 NAD+ 介導的 AMPK 訊號；它亦與衰老相關異染色質病灶相關。其在圖中的位置顯示，決定哪些 SASP 基因可被表現的是染色質層級的重塑，而不僅是轉錄因子的可用性。"
+    },
+    "confidence": 0.82,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "743af86247a4",
+    "subject": "MLL1",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "MLL1 (KMT2A) is a histone H3 lysine 4 methyltransferase and is grouped with HMGA1 and BRD4 in the SASP-induction scheme as an epigenetic regulator of SASP loci. MLL1 deposits H3K4me3, an active-promoter mark, and thereby contributes to the permissive chromatin state at inflammatory genes. The grouping reflects the broader finding that SASP expression is epigenetically licensed: chromatin modifiers determine the accessibility of SASP enhancers and promoters, which is the rationale for epigenetic-modulating drugs acting as senomorphics.",
+      "zh-TW": "MLL1（KMT2A）是組蛋白 H3 離胺酸 4 甲基轉移酶，在 SASP 誘導架構圖中與 HMGA1、BRD4 同組，作為 SASP 基因座的表觀遺傳調控者。MLL1 沉積活化啟動子標記 H3K4me3，因而促進發炎基因的許可型染色質狀態。此分組反映了更廣泛的發現：SASP 表現受表觀遺傳許可控管，染色質修飾者決定 SASP 增強子與啟動子的可及性，這也是表觀遺傳調節藥物可作為 senomorphics 的理由。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "cfe9ebae8921",
+    "subject": "IL-6",
+    "predicate": "signals_through",
+    "object": "IL-6R",
+    "context": {
+      "en-US": "IL-6 signals through the interleukin-6 receptor, the ligand-binding subunit that must associate with gp130 to transduce a signal. In the SASP this is the entry point of the autocrine amplification loop: secreted IL-6 acts on IL-6R in the same or neighbouring cells, which is one reason IL-6 is described as both an output and a driver of the senescent secretory programme. Soluble IL-6R generated by shedding or alternative splicing extends the loop to cells that lack membrane IL-6R, broadening the set of cells that can respond.",
+      "zh-TW": "IL-6 經介白素-6 受體訊號，該受體為配體結合次單元，必須與 gp130 結合才能傳遞訊號。在 SASP 中，這是自泌放大環路的進入點：分泌的 IL-6 作用於同一或鄰近細胞的 IL-6R，這也是 IL-6 同時被描述為衰老分泌程序的輸出與驅動者的原因之一。由切割或替代剪接產生的可溶性 IL-6R 可將此環路延伸至缺乏膜性 IL-6R 的細胞，擴大可回應的細胞範圍。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "7256b11cdce1",
+    "subject": "IL-6R",
+    "predicate": "activates",
+    "object": "JAK-STAT Signaling",
+    "context": {
+      "en-US": "IL-6R activates JAK-STAT signalling after assembling with gp130: receptor-associated JAK kinases phosphorylate gp130 tyrosines, recruiting and activating STAT3 (and STAT1), which dimerise and translocate to the nucleus. In senescence, JAK-STAT activation downstream of IL-6R promotes SASP gene expression, and JAK inhibition with ruxolitinib suppresses the secretome without clearing senescent cells, establishing this arm as a validated senomorphic target. The scheme draws IL-6R feeding JAK and STAT, with STAT reaching the nuclear transcription-factor tier.",
+      "zh-TW": "IL-6R 與 gp130 組裝後活化 JAK-STAT 訊號：與受體結合的 JAK 激酶磷酸化 gp130 酪胺酸，招募並活化 STAT3（及 STAT1），使其二聚化並入核。在衰老中，IL-6R 下游的 JAK-STAT 活化促進 SASP 基因表現，而 ruxolitinib 抑制 JAK 可壓制 secretome 而不清除衰老細胞，確立此臂為經驗證的 senomorphic 靶點。圖中顯示 IL-6R 供應 JAK 與 STAT，STAT 並到達細胞核轉錄因子層。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "ea1c05082ef6",
+    "subject": "IL-1β",
+    "predicate": "signals_through",
+    "object": "IL-1R",
+    "context": {
+      "en-US": "Secreted IL-1beta acts on the interleukin-1 receptor, the receptor arm through which the inflammasome-IL-1 axis propagates inflammation. In the SASP-induction scheme both IL-1alpha and IL-1beta are shown engaging IL-1R, and IL-1beta is additionally the product of inflammasome-dependent cleavage of pro-IL-1beta. Because IL-1 signalling feeds back onto NF-kB and IRAK1, this connection closes the autocrine loop that sustains the inflammatory secretome and makes IL-1R a candidate point of senomorphic intervention.",
+      "zh-TW": "分泌的 IL-1beta 作用於介白素-1 受體，這是發炎體-IL-1 軸傳播發炎的受體臂。在 SASP 誘導架構圖中，IL-1alpha 與 IL-1beta 皆顯示接合 IL-1R，而 IL-1beta 另外是發炎體依賴性切割 pro-IL-1beta 的產物。由於 IL-1 訊號回饋至 NF-kB 與 IRAK1，此連結封閉了維持發炎型 secretome 的自泌環路，也使 IL-1R 成為 senomorphic 干預的候選節點。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "3ecb62551e91",
+    "subject": "IL-1R",
+    "predicate": "signals_through",
+    "object": "IRAK1",
+    "context": {
+      "en-US": "IL-1R transduces signals through IRAK1, the kinase recruited to the receptor complex via the adaptor MyD88. IRAK1 activation leads to NF-kB-dependent transcription and, in the SASP-induction scheme, is also drawn feeding the STING axis, a link that connects receptor-level cytokine feedback to cytosolic DNA-sensing output. This makes IRAK1 a convergence point where autocrine IL-1 signalling and damage-sensing pathways are integrated before they act on the inflammatory transcriptional programme.",
+      "zh-TW": "IL-1R 經 IRAK1 傳遞訊號，該激酶經銜接蛋白 MyD88 被招募至受體複合體。IRAK1 活化導致 NF-kB 依賴性轉錄，而在 SASP 誘導架構圖中亦被畫為供應 STING 軸，此連結將受體層級的細胞激素回饋接至胞質 DNA 感測輸出。這使 IRAK1 成為匯聚點，自泌 IL-1 訊號與損傷感測路徑在此整合後才作用於發炎轉錄程序。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "0c19824bdf29",
+    "subject": "IRAK1",
+    "predicate": "activates",
+    "object": "STING",
+    "context": {
+      "en-US": "IRAK1 has been reported to activate STING, providing a route by which IL-1 receptor signalling converges on the cytosolic DNA-sensing pathway. In the SASP-induction scheme IRAK1 sits between IL-1R and STING, which means that autocrine IL-1 feedback can amplify the cGAS-STING arm driving interferon and NF-kB output. Functionally this couples two otherwise distinct arms of the SASP, cytokine receptor signalling and nucleic-acid sensing, so that their outputs are not independent of one another.",
+      "zh-TW": "IRAK1 已被報導可活化 STING，提供 IL-1 受體訊號匯聚至胞質 DNA 感測路徑的途徑。在 SASP 誘導架構圖中，IRAK1 位於 IL-1R 與 STING 之間，意味著自泌 IL-1 回饋可放大驅動干擾素與 NF-kB 輸出的 cGAS-STING 臂。功能上這耦合了 SASP 中兩個原本不同的臂，即細胞激素受體訊號與核酸感測，使其輸出彼此不再獨立。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "ff71d269f27a",
+    "subject": "HMGB1",
+    "predicate": "binds",
+    "object": "TLR2/6",
+    "context": {
+      "en-US": "HMGB1 acts as a ligand at TLR2/6, in addition to its established interactions with TLR4 and RAGE. In the SASP-induction scheme HMGB1 is grouped with the acute-phase serum amyloids SAA1 and SAA2 as a damage-associated molecular pattern acting on TLR2, which in turn primes the inflammasome. This places a nuclear chromatin protein at the top of a receptor-to-inflammasome axis: HMGB1 released from damaged cells becomes an extracellular signal that sustains the inflammatory secretome.",
+      "zh-TW": "HMGB1 除了已知與 TLR4 及 RAGE 的交互作用外，亦作為 TLR2/6 的配體。在 SASP 誘導架構圖中，HMGB1 與急性期血清澱粉樣蛋白 SAA1、SAA2 同組，作為作用於 TLR2 的損傷相關分子模式，進而預處理發炎體。這將一個細胞核染色質蛋白置於受體至發炎體軸的頂端：由受損細胞釋出的 HMGB1 成為維持發炎型 secretome 的細胞外訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "ab9048872300",
+    "subject": "TLR2/6",
+    "predicate": "activates",
+    "object": "Inflammasome",
+    "context": {
+      "en-US": "TLR2/6 signalling activates the inflammasome, providing an innate-immune priming step for SASP induction. In oncogene-induced senescence this is triggered by acute-phase serum amyloid A1 and A2 acting at TLR2, and HMGB1 can act through the same receptor to induce the SASP. Inflammasome activation leads to caspase-1-dependent maturation of pro-IL-1beta, which is then secreted as a SASP factor and feeds back on IL-1R, closing the loop from tissue damage to inflammatory output.",
+      "zh-TW": "TLR2/6 訊號活化發炎體，為 SASP 誘導提供先天免疫預處理步驟。在癌基因誘導衰老中，此由作用於 TLR2 的急性期血清澱粉樣蛋白 A1 與 A2 觸發，HMGB1 亦可經同一受體誘導 SASP。發炎體活化導致 caspase-1 依賴性 pro-IL-1beta 成熟，隨後以 SASP 因子分泌並回饋至 IL-1R，封閉由組織損傷到發炎輸出的環路。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "3d45f69dfd79",
+    "subject": "RIG-I",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "RIG-I senses cytosolic RNA and promotes the senescence-associated inflammatory programme. Its RNA ligands include retroelement-derived transcripts, which are de-repressed during senescence and deep senescence, and mitochondrial double-stranded RNA released when mitochondrial dynamics or quality control are impaired. RIG-I signals through MAVS to TBK1 and IRF3 as well as NF-kB, so its output overlaps the type I interferon and inflammatory arms of the SASP. In the SASP-induction scheme RIG-I occupies the RNA-sensing position, parallel to DNA sensing by cGAS.",
+      "zh-TW": "RIG-I 感測胞質 RNA 並促進衰老相關發炎程序。其 RNA 配體包括在衰老與深度衰老中解除抑制的反轉錄元件來源轉錄本，以及粒線體動態或品質管制受損時釋出的粒線體雙股 RNA。RIG-I 經 MAVS 傳訊至 TBK1、IRF3 以及 NF-kB，因此其輸出與 SASP 的第一型干擾素臂及發炎臂重疊。在 SASP 誘導架構圖中，RIG-I 佔據 RNA 感測位置，與 cGAS 的 DNA 感測平行。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "fbf095c30d0a",
+    "subject": "PTBP1",
+    "predicate": "regulates",
+    "object": "Alternative Splicing",
+    "context": {
+      "en-US": "PTBP1 regulates alternative splicing as a broadly acting repressive factor: it binds polypyrimidine-rich elements near splice sites and competes with core spliceosome components such as U2AF65, biasing exons toward skipping. The SASP-induction scheme places PTBP1 in the nuclear control layer under alternative splicing of trafficking genes, proposing that splicing of genes governing vesicular trafficking shapes whether a transcriptional SASP programme can be exported as protein. This is a schematic placement identifying the regulatory layer rather than an established dedicated role for PTBP1 in the SASP.",
+      "zh-TW": "PTBP1 以廣泛作用的抑制型因子調控替代剪接：它結合剪接位點附近富含聚嘧啶的元件，與 U2AF65 等核心剪接體組分競爭，使外顯子偏向跳過。SASP 誘導架構圖將 PTBP1 置於細胞核調控層的「運輸基因替代剪接」之下，提出管控囊泡運輸的基因剪接會決定轉錄型 SASP 程序能否以蛋白形式輸出。此為示意性配置，指出的是調控層級，而非 PTBP1 在 SASP 中已確立的專一角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "28c1ba27111a",
+    "subject": "MAML1",
+    "predicate": "coactivates",
+    "object": "Notch",
+    "context": {
+      "en-US": "MAML1 is the obligate transcriptional co-activator of Notch signalling. Its N-terminal domain binds the composite surface formed by the Notch intracellular domain (N1ICD) and the DNA-binding factor CSL/RBPJ, nucleating a ternary complex at Notch target promoters, while its C-terminal activation domain recruits p300/CBP to drive histone acetylation and transcriptional activation. Because Notch restrains the late pro-inflammatory SASP by repressing C/EBPbeta, MAML1 is the effector through which N1ICD executes that programme. The SASP-induction scheme groups MAML1 with N1ICD in the nuclear trafficking-gene control layer.",
+      "zh-TW": "MAML1 是 Notch 訊號的必要轉錄共活化者。其 N 端結構域結合由 Notch 胞內結構域（N1ICD）與 DNA 結合因子 CSL/RBPJ 形成的複合表面，在 Notch 標的啟動子上成核三元複合體；其 C 端活化結構域則招募 p300/CBP 以驅動組蛋白乙醯化與轉錄活化。由於 Notch 藉抑制 C/EBPbeta 約束晚期促炎 SASP，MAML1 即為 N1ICD 執行該程序的效應者。SASP 誘導架構圖將 MAML1 與 N1ICD 同置於細胞核運輸基因調控層。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
+  },
+  {
+    "id": "fa36549f64e0",
+    "subject": "IRF3",
+    "predicate": "drives",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "IRF3 drives transcription of type I interferon genes after being phosphorylated by TBK1 downstream of STING or MAVS. This is the branch of SASP regulation that produces the interferon component of the secretome and, in deep senescence, the late interferon-dependent reinforcement of the inflammatory programme. Interferon released from senescent cells can act on neighbouring cells through IFNAR-JAK-STAT signalling, reinforcing interferon-stimulated gene expression and contributing to paracrine senescence.",
+      "zh-TW": "IRF3 在 STING 或 MAVS 下游被 TBK1 磷酸化後，驅動第一型干擾素基因轉錄。這是 SASP 調控中產生 secretome 干擾素成分的分支，並在深度衰老中形成晚期依賴干擾素的發炎程序強化。衰老細胞釋出的干擾素可經 IFNAR-JAK-STAT 訊號作用於鄰近細胞，強化干擾素刺激基因表現並促成旁分泌衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
+    "created": "2026-09-15T00:00:00Z",
+    "updated": "2026-09-15T00:00:00Z"
   }
 ]
