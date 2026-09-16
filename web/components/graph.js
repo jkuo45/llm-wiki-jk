@@ -16,7 +16,7 @@ import { openReader, closeReader, isReaderOpen } from './reader.js';
 // Side-effect import: analysis.js attaches its own listeners.
 import { applyAnalysisUiLang } from './analysis.js';
 // Notes panel (gallery / lightbox).
-import { isNotesOpen, closeNotes, restoreNotes } from './notes.js';
+import { isNotesOpen, closeNotes, restoreNotes, notesIdFromParams } from './notes.js';
 // Side-effect import: theme.js wires the settings popover theme toggle.
 import './theme.js';
 // Side-effect import: auth.js shows the login overlay until a session exists
@@ -35,7 +35,7 @@ async function restoreFromHash(params) {
   } else if (isReaderOpen()) {
     closeReader();
   }
-  if (params && (params.note || params.notes)) {
+  if (params && (notesIdFromParams(params) || params.notes)) {
     // Notes wins over analysis when both are in the hash. Close the analysis
     // panel FIRST — clicking its button while notes is open would close notes
     // via the notes panel's btn-analysis capture listener.
@@ -85,7 +85,7 @@ async function restoreFromHash(params) {
   // A selection with NO analysis marker still opens the panel (hand-authored
   // deep-link intent), but a closed-with-selection state carries `analysis=off`
   // and is never auto-reopened.
-  const notesActive = !!(params && (params.notes || params.note));
+  const notesActive = !!(params && (params.notes || notesIdFromParams(params)));
   const hasSelection = !!(params && (params.node || params.edge || params.trace));
   const analysisBtn = document.getElementById('btn-analysis');
   const panelOpen = analysisBtn.classList.contains('open');

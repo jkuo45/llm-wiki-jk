@@ -1696,10 +1696,15 @@ export function isNotesOpen() {
 
 // Restore the notes panel from URL-hash params:
 //   #notes          → open the panel to the gallery (browse) view
-//   &note=<id>      → open that note in the lightbox
+//   #notes=<id>     → open that note in the lightbox (legacy `note=<id>` also read)
 //   &page=N         → open that page of the note
 //   &noteview=full  → open in fullscreen image view
 // Called by graph.js's restoreFromHash; updateHash is suppressed during restore.
+export function notesIdFromParams(params) {
+  if (!params) return null;
+  if (params.note) return params.note;
+  return typeof params.notes === 'string' ? params.notes : null;
+}
 export async function restoreNotes(params) {
   if (!notesPanel.classList.contains('open')) openNotes();
   setView();
@@ -1707,7 +1712,8 @@ export async function restoreNotes(params) {
     applyUiLang(params.uilang);
   }
   renderGallery();
-  if (!params || !params.note) return;
+  const noteId = notesIdFromParams(params);
+  if (!noteId) return;
   try {
     await ensureIndexLoaded();
   } catch (err) {
@@ -1715,8 +1721,8 @@ export async function restoreNotes(params) {
   }
   // Bail if the hash changed while the gallery was loading (e.g. the user
   // pressed Back before the fetch resolved) — don't force-open a stale note.
-  if (parseHash()?.note !== params.note) return;
-  const note = notes.find((n) => n.id === params.note);
+  if (notesIdFromParams(parseHash()) !== noteId) return;
+  const note = notes.find((n) => n.id === noteId);
   if (!note) return; // unknown / deleted id → stays in gallery view
   openLightbox(note);
   const page = parseInt(params.page, 10);
