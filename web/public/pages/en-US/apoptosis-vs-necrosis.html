@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Apoptosis vs Necrosis — Dual-Model Comparison (three.js)</title>
-<meta name="description" content="Side-by-side three.js models comparing apoptosis with accidental necrosis at cellular resolution: death-receptor and mitochondrial signaling, MOMP, apoptosome assembly, phosphatidylserine externalization and efferocytosis versus ATP depletion, oncosis, mPTP opening, membrane rupture and DAMP-mediated sterile inflammation.">
+<meta name="description" content="Classical Kerr–Wyllie–Currie dichotomy in three.js: apoptosis with death-receptor and mitochondrial signaling, MOMP, apoptosome assembly, phosphatidylserine externalization and efferocytosis versus accidental necrosis with ATP depletion, oncosis, mPTP opening, membrane rupture and DAMP-mediated sterile inflammation.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html">
@@ -40,9 +40,9 @@
 <div class="an-wide">
   <main id="content">
     <header class="an-hero">
-      <p class="an-kicker">Cell death · comparative 3-D model · apoptosis vs necrosis</p>
-      <h1>Apoptosis versus necrosis: programmed clearance contrasted with accidental rupture</h1>
-      <p class="an-sub">Two three-dimensional cell models sharing an initial morphology, displayed side by side. Left: <a href="https://graph.johnnykuo.com/#node=Apoptosis">apoptosis</a> — death-receptor and p53/BH3-only signaling, MOMP, apoptosome assembly, phosphatidylserine externalization, apoptotic body formation, and efferocytosis. Right: accidental <a href="https://graph.johnnykuo.com/#node=Necrosis">necrosis</a> — ATP depletion, Na+/K+-ATPase failure, oncosis, Ca<sup>2+</sup> overload with mPTP opening, membrane rupture, and DAMP release. Timescales are compressed and independent (hours versus minutes). Drag to orbit · click a structure for annotation · space pauses. <span id="embedlink"><a href="?embed=1" id="embedgo" title="Minimal iframe version">embed</a></span></p>
+      <p class="an-kicker">Cell death · classical dichotomy · Kerr–Wyllie–Currie model</p>
+      <h1>Regulated deletion with silent clearance versus unregulated lysis with inflammatory spillage</h1>
+      <p class="an-sub">The classical dichotomy of cell death, rendered as two three-dimensional models sharing an initial morphology. <a href="https://graph.johnnykuo.com/#node=Apoptosis">Apoptosis</a> is ATP-dependent programmed death: death-receptor or p53/BH3-only signaling converges on MOMP, apoptosome assembly, and executioner caspases, producing shrinkage, chromatin <i>pyknosis</i>, phosphatidylserine externalization, and sealed apoptotic bodies cleared silently by efferocytosis. Accidental <a href="https://graph.johnnykuo.com/#node=Necrosis">necrosis</a> is unprogrammed death from irrecoverable bioenergetic failure — Na+/K+-ATPase arrest, <i>oncosis</i>, Ca<sup>2+</sup> overload with mPTP opening, membrane rupture, and DAMP release driving sterile inflammation. Timescales compressed and independent (hours vs minutes). Drag to orbit · click a structure for annotation · space pauses. <span id="embedlink"><a href="?embed=1" id="embedgo" title="Minimal iframe version">embed</a></span></p>
     </header>
     <div class="an-layout">
       <div class="an-stage-card">
@@ -110,7 +110,7 @@
 
     <section class="an-prose">
       <h2>Model design and scope</h2>
-      <p>Both models initialize from an identical geometry: an icosahedral actin cortex, inner and outer phospholipid leaflets, a nuclear envelope enclosing three chromatin domains, and mitochondria with folded cristae. The divergent variable is bioenergetics. Apoptosis proceeds with ATP available to caspase cascades, cortical contraction, and lipid remodeling; necrosis follows ATP depletion, transport failure, and osmotic lysis.</p>
+      <p>Both models initialize from identical geometry — icosahedral actin cortex, inner and outer phospholipid leaflets, nuclear envelope enclosing three chromatin domains, mitochondria with folded cristae — so morphology diverges only by bioenergetic state. The apoptosis arm preserves ATP for caspase activation, cortical contraction, and lipid remodeling; the necrosis arm depletes ATP from the trigger, so ion gradients, volume control, and membrane integrity fail progressively. Per NCCD criteria this page models accidental necrosis (ACD) only; regulated lytic programs (necroptosis, pyroptosis, ferroptosis) are tabulated in the <a href="cell-death-comparison.html">ten-way comparison</a>.</p>
 
       <table>
         <thead>
@@ -119,9 +119,9 @@
         <tbody>
           <tr><td>Regulation</td><td>Programmed (RCD) — death receptors, p53, Bcl-2 family balance</td><td>Accidental (ACD) per NCCD criteria; tissue “necrosis” is frequently the endpoint of regulated lytic programs</td></tr>
           <tr><td>Energy</td><td>ATP-dependent throughout</td><td>ATP-depleted from the trigger</td></tr>
-          <tr><td>Ion / water</td><td>Gradients maintained; apoptotic volume decrease</td><td>Na+/K+-ATPase failure; oncosis</td></tr>
+          <tr><td>Ion / water</td><td>Gradients maintained; apoptotic volume decrease</td><td>Na+/K+-ATPase failure; <i>oncosis</i></td></tr>
           <tr><td>Mitochondria</td><td>MOMP: Bax/BAK permeabilization, cytochrome c release, organelle retained</td><td>mPTP opening: Δψm collapse, cristae unfolding, swelling, rupture</td></tr>
-          <tr><td>Nucleus</td><td>Pyknosis; internucleosomal ladder pattern (CAD/ICAD)</td><td>Pyknosis → karyorrhexis → karyolysis; nonspecific smear pattern</td></tr>
+          <tr><td>Nucleus</td><td><i>Pyknosis</i>; internucleosomal ladder pattern (CAD/ICAD)</td><td><i>Pyknosis</i> → <i>karyorrhexis</i> → <i>karyolysis</i>; nonspecific smear pattern</td></tr>
           <tr><td>Membrane</td><td>PS externalization (annexin V+), ROCK1-dependent blebbing, sealed bodies</td><td>Focal-to-extensive rupture; no dedicated pore-forming program</td></tr>
           <tr><td>Immunity</td><td>Silent efferocytosis (TGF-β, IL-10)</td><td>DAMP release — HMGB1, ATP, mtDNA, uric acid → sterile inflammation</td></tr>
           <tr><td>Timescale (compressed)</td><td>T+ 0–3 h</td><td>T+ 0–20 min</td></tr>

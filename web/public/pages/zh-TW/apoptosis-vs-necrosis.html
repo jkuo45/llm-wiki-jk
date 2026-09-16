@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>細胞凋亡 vs 壞死 — 雙模型對照 (three.js)</title>
-<meta name="description" content="以 three.js 並排呈現細胞凋亡與意外性壞死的細胞層級模型：死亡受體與粒線體訊號、MOMP、凋亡體組裝、磷脂醯絲胺酸外翻與胞葬作用，對照 ATP 耗竭、腫脹性變性、mPTP 開放、細胞膜破裂與 DAMP 介導的無菌性炎症。">
+<meta name="description" content="經典 Kerr–Wyllie–Currie 二分法之 three.js 模型：細胞凋亡經死亡受體與粒線體訊號、MOMP、凋亡體組裝、磷脂醯絲胺酸外翻與胞葬作用，對照意外性壞死之 ATP 耗竭、腫脹性變性、mPTP 開放、細胞膜破裂與 DAMP 介導的無菌性炎症。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/apoptosis-vs-necrosis.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/apoptosis-vs-necrosis.html">
@@ -40,9 +40,9 @@
 <div class="an-wide">
   <main id="content">
     <header class="an-hero">
-      <p class="an-kicker">細胞死亡 · 3-D 對照模型 · 細胞凋亡 vs 壞死</p>
-      <h1>細胞凋亡對意外性壞死：程序性清除與意外破裂之對照</h1>
-      <p class="an-sub">兩個起始形態相同的三維細胞模型並排呈現。左：<a href="https://graph.johnnykuo.com/#node=Apoptosis">細胞凋亡</a>——死亡受體與 p53／BH3-only 訊號、MOMP、凋亡體組裝、磷脂醯絲胺酸外翻、凋亡小體形成與胞葬作用。右：意外性<a href="https://graph.johnnykuo.com/#node=Necrosis">壞死</a>——ATP 耗竭、鈉鉀 ATP 酶失效、腫脹性變性、Ca<sup>2+</sup> 超載伴 mPTP 開放、細胞膜破裂與 DAMP 釋放。時間軸經壓縮且各自獨立（數小時 vs 數分鐘）。拖曳旋轉 · 點選結構查看註解 · 空白鍵暫停。 <span id="embedlink"><a href="?embed=1" id="embedgo" title="精簡 iframe 版本">embed</a></span></p>
+      <p class="an-kicker">細胞死亡 · 經典二分法 · Kerr–Wyllie–Currie 模型</p>
+      <h1>程序性刪除伴沉默清除，對照非調控性裂解伴發炎性外溢</h1>
+      <p class="an-sub">以起始形態相同的三維模型呈現細胞死亡的經典二分法。<a href="https://graph.johnnykuo.com/#node=Apoptosis">細胞凋亡</a>為 ATP 依賴的程序性死亡：死亡受體或 p53／BH3-only 訊號匯聚於 MOMP、凋亡體組裝與效應 caspase，表現為細胞縮小、染色質<i>核固縮</i>、磷脂醯絲胺酸外翻，形成膜包覆完整的凋亡小體並經胞葬作用沉默清除。意外性<a href="https://graph.johnnykuo.com/#node=Necrosis">壞死</a>則為不可逆生物能量衰竭所致的非程序性死亡——鈉鉀 ATP 酶停擺、<i>腫脹性變性</i>、Ca<sup>2+</sup> 超載伴 mPTP 開放、細胞膜破裂、DAMP 釋放並驅動無菌性炎症。時間軸經壓縮且各自獨立（數小時 vs 數分鐘）。拖曳旋轉 · 點選結構查看註解 · 空白鍵暫停。 <span id="embedlink"><a href="?embed=1" id="embedgo" title="精簡 iframe 版本">embed</a></span></p>
     </header>
     <div class="an-layout">
       <div class="an-stage-card">
@@ -110,7 +110,7 @@
 
     <section class="an-prose">
       <h2>模型設計與範圍</h2>
-      <p>兩個模型起始於相同的幾何：二十面體肌動蛋白皮質、內外磷脂葉、包覆三個染色質結構域的核膜，以及具摺疊嵴的粒線體。分歧變項為生物能量學：細胞凋亡在 ATP 可用下驅動 caspase 級聯、皮質收縮與脂質重塑；壞死則繼 ATP 耗竭、轉運衰竭與滲透性裂解。</p>
+      <p>兩個模型起始於相同的幾何——二十面體肌動蛋白皮質、內外磷脂葉、包覆三個染色質結構域的核膜、具摺疊嵴的粒線體——使形態分歧僅取決於生物能量狀態：凋亡臂保留 ATP 以驅動 caspase 活化、皮質收縮與脂質重塑；壞死臂自觸發即耗竭 ATP，離子梯度、體積調控與膜完整性遂漸進崩解。按 NCCD 判準，本頁僅建模意外性壞死（ACD）；調控性裂解程序（壞死性凋亡、焦亡、鐵死亡）見<a href="cell-death-comparison.html">十種程序比較表</a>。</p>
 
       <table>
         <thead>
