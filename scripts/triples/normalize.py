@@ -26,6 +26,7 @@ import argparse
 import hashlib
 import json
 import re
+import unicodedata
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -56,9 +57,36 @@ def strip_wikilink(s: str) -> str:
     ).strip()
 
 
+# Greek letters -> ASCII spelled-out names. Transliterating to the full name
+# (rather than a single Latin letter) makes symbol forms collapse onto their
+# spelled-out equivalents, e.g. "NF-κB" ("kappa" + "b") and "NF-kappab" both
+# normalize to "nfkappab".
+#
+# NOTE: this mirrors scripts/lib/graph_common.py verbatim. It is duplicated
+# here only because that module imports networkx at module scope and this
+# script is documented to run without it. A previous local variant that merely
+# STRIPPED non-ASCII characters caused "IL-1α" and "IL-1β" to collapse to the
+# same id ("il_1"). Keep the two implementations in sync, or better, extract
+# them into a dependency-free scripts/lib module that both import.
+_GREEK = {
+    "α": "alpha", "β": "beta", "γ": "gamma", "δ": "delta", "ε": "epsilon",
+    "ζ": "zeta", "η": "eta", "θ": "theta", "ι": "iota", "κ": "kappa",
+    "λ": "lambda", "μ": "mu", "ν": "nu", "ξ": "xi", "ο": "omicron",
+    "π": "pi", "ρ": "rho", "σ": "sigma", "ς": "sigma", "τ": "tau",
+    "υ": "upsilon", "φ": "phi", "χ": "chi", "ψ": "psi", "ω": "omega",
+    "Α": "alpha", "Β": "beta", "Γ": "gamma", "Δ": "delta", "Ε": "epsilon",
+    "Ζ": "zeta", "Η": "eta", "Θ": "theta", "Ι": "iota", "Κ": "kappa",
+    "Λ": "lambda", "Μ": "mu", "Ν": "nu", "Ξ": "xi", "Ο": "omicron",
+    "Π": "pi", "Ρ": "rho", "Σ": "sigma", "Τ": "tau", "Υ": "upsilon",
+    "Φ": "phi", "Χ": "chi", "Ψ": "psi", "Ω": "omega",
+}
+
+
 def norm(label: str) -> str:
-    """Stable snake_case node id (mirrors scripts/triples/rebuild.py)."""
-    s = strip_wikilink(label).strip().lower()
+    """Stable snake_case node id (mirrors scripts/lib/graph_common.py)."""
+    s = strip_wikilink(label).strip()
+    s = unicodedata.normalize("NFKC", s).lower()
+    s = "".join(_GREEK.get(ch, ch) for ch in s)
     return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
 
 
