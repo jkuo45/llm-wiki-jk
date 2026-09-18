@@ -16294,5 +16294,103 @@
     "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
     "created": "2026-09-17T17:35:08Z",
     "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "06cc01173fb4",
+    "subject": "Berberine",
+    "predicate": "inhibits",
+    "object": "CYP3A4",
+    "context": {
+      "en-US": "Berberine is a clinically relevant inhibitor of the drug-metabolizing enzyme CYP3A4 (along with CYP2D6 and P-glycoprotein), elevating plasma levels of co-administered CYP3A4 substrates such as certain statins, cyclosporine, and warfarin; because Fisetin is itself a CYP3A4 substrate and partial inhibitor, berberine-fisetin co-administration may mutually raise exposure, warranting temporal dose separation pending dedicated interaction trials.",
+      "zh-TW": "Berberine 是具臨床意義的藥物代謝酶 CYP3A4 抑制劑（兼抑制 CYP2D6 與 P-glycoprotein），會墊高併用 CYP3A4 受質（如特定 statins、cyclosporine、warfarin）的血漿濃度；因 Fisetin 本身亦為 CYP3A4 受質兼部分抑制劑，兩者併用可能相互墊高暴露量，在專門交互作用試驗完成前宜分時給藥。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "bbc88b11f738",
+    "subject": "Spermidine",
+    "predicate": "suppresses",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Under the autophagy-senescence threshold model, Spermidine-induced autophagic flux suppresses entry into Senescence while cellular damage stays below a critical threshold; once damage exceeds it, autophagy is reprogrammed to support senescent-cell survival and senolytics such as Fisetin are required, making spermidine and fisetin sequential non-redundant partners on the same continuum.",
+      "zh-TW": "在 autophagy–senescence 閾值模型下，Spermidine 誘導的自噬通量可在細胞損傷低於臨界閾值時抑制進入 Senescence；損傷超越閾值後，自噬被重編程以支持衰老細胞存活，此時需 Fisetin 等 senolytics 清除，使兩者在同一連續體上成為先後有序、非冗餘的搭檔。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "b8627e8be37d",
+    "subject": "Gut Microbiome",
+    "predicate": "produces",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "The Gut Microbiome is the obligate producer of Urolithin A: colonic bacteria convert dietary ellagitannin-derived Ellagic Acid through urolithin M6/C to terminal Urolithin A, principally via Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens with Enterocloster contributions; because the converter consortium is absent in metabotype 0 individuals, direct Urolithin A supplementation bypasses microbiome dependency.",
+      "zh-TW": "Gut Microbiome 是 Urolithin A 的必要生產者：結腸菌將飲食 ellagitannin 來源的 Ellagic Acid 經 urolithin M6/C 轉為終端 Urolithin A，主要經 Gordonibacter urolithinfaciens 與 Ellagibacter isourolithinifaciens，另有 Enterocloster 參與；因 metabotype 0 個體缺乏轉換菌叢，直接補充 Urolithin A 可繞過菌相依賴。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "38953818804f",
+    "subject": "Gordonibacter urolithinfaciens",
+    "predicate": "metabolizes",
+    "object": "Ellagic Acid",
+    "context": {
+      "en-US": "Gordonibacter urolithinfaciens, an Eggerthellaceae gut anaerobe, metabolizes dietary Ellagic Acid as the principal upstream converter in the urolithin pathway, generating intermediate urolithins (M5/D/C) that downstream consortium members finish to Urolithin A; its carriage underpins metabotype A converter status.",
+      "zh-TW": "Gordonibacter urolithinfaciens 為 Eggerthellaceae 腸道厭氧菌，是 urolithin 途徑的主要上游轉換者，代謝飲食 Ellagic Acid 產生中間 urolithins（M5/D/C），再由下游菌叢完成為 Urolithin A；其攜帶與否決定 metabotype A 轉換者身分。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "ebe5a6a4d842",
+    "subject": "Ellagibacter isourolithinifaciens",
+    "predicate": "produces",
+    "object": "Isourolithin A",
+    "context": {
+      "en-US": "Ellagibacter isourolithinifaciens, an Eggerthellaceae gut bacterium, is specifically characterized by producing Isourolithin A, the structural isomer of Urolithin A, from dietary Ellagic Acid; its activity defines urolithin metabotype B (urolithin B plus isourolithin A producers) as distinct from Urolithin A-predominant metabotype A.",
+      "zh-TW": "Ellagibacter isourolithinifaciens 為 Eggerthellaceae 腸道菌，其特徵是能由飲食 Ellagic Acid 產生 Isourolithin A（Urolithin A 的結構異構物）；其活性定義了 urolithin metabotype B（產 urolithin B 與 isourolithin A 者），有別於以 Urolithin A 為主的 metabotype A。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "727132674518",
+    "subject": "Enterocloster",
+    "predicate": "contributes_to",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Select Enterocloster gut species contribute to the multi-step consortium conversion of Ellagic Acid toward Urolithin A alongside the principal converters Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens; as a minor contributor its presence modulates but does not alone determine urolithin metabotype.",
+      "zh-TW": "特定 Enterocloster 腸道菌種與主要轉換者 Gordonibacter urolithinfaciens 及 Ellagibacter isourolithinifaciens 共同參與 Ellagic Acid 往 Urolithin A 的多步菌叢轉換；作為次要貢獻者，其存在可調節但不足以單獨決定 urolithin metabotype。"
+    },
+    "confidence": 0.65,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "f5465a436bc4",
+    "subject": "Metabotypes",
+    "predicate": "determines",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Urolithin Metabotypes (A: Urolithin A producers, ~25-55%; B: urolithin B/isourolithin A producers; 0: non-producers) determine whether dietary ellagitannins yield systemic Urolithin A exposure: only metabotype A converts efficiently, so ellagitannin foods fail for most people while direct Urolithin A supplementation works across all metabotypes.",
+      "zh-TW": "Urolithin Metabotypes（A：產 Urolithin A 者，約 25–55%；B：產 urolithin B/isourolithin A 者；0：非生產者）決定飲食 ellagitannins 能否帶來全身 Urolithin A 暴露：僅 A 型能有效轉換，故 ellagitannin 食物對多數人無效，而直接補充 Urolithin A 適用所有 metabotypes。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
   }
 ]

@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-08-31
+updated: 2026-09-18
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1579 entities** across **110 categories** and **32 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1583 entities** across **110 categories** and **33 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1572 | Categories: 110 | Documents: 32
+> `_link` index. Total entities: 1576 | Categories: 110 | Documents: 33
 >
 
 ## Documents
@@ -51,6 +51,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[_document_ - speakman2003_Resting Metabolic Rate|Physical activity and resting metabolic rate]] | Speakman & Selman (2003) review examining the relationship between physical activity, exercise training, and resting metabolic rate (RMR), integrating animal and human studies on EPOC, NEAT, energy expenditure components, and the obesity epidemic. |
 | [[_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis|Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis]] | Nease et al. (Nature Cancer, 2024): FTSJ1 installs the Um34 modification on tRNA[Ser]Sec, required for efficient UGA recoding of selenocysteine; drives antioxidant selenoprotein translation and melanoma metastatic colonization. |
 | [[_document_ - How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage|How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage]] | Pace et al. (Biomolecules, 2025) narrative review contrasting cysteine (GSH precursor, redox switch) and selenocysteine (selenol, pKa ~5.2) redox defenses, and their age-related decline. |
+| [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A|Natural Bioactive Compounds Targeting Key Hallmarks of Aging (Rzeski 2026)]] | Narrative review (Nutrients 2026) framing spermidine (autophagy), fisetin (senolysis), berberine (metabolic/microbiome, PREMOTE), and urolithin A (mitophagy, ATLAS) as mechanistically complementary functional-food ingredients; no combined-use trial data yet. |
 
 ## Entity Notes
 
@@ -1064,15 +1065,17 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Th2]] | Cell Type | Type 2 helper T cells are a CD4+ T cell subset that drives humoral and anti-helminth immunity through IL-4, IL-5, and IL-13 production. |
 | [[Thymic Epithelial Cells]] | Cell Type | Stromal cells in the thymus cortex and medulla that form a supportive network essential for T cell development, selection, and tolerance induction. |
 
-### Organism (17)
+### Organism (19)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Actinobacteria]] | Organism | Actinobacteria is a phylum of Gram-positive bacteria with high guanine and cytosine content in their DNA, playing diverse roles in the environment and the human gut. |
 | [[Akkermansia]] | Organism | Akkermansia is a genus of bacteria in the phylum Verrucomicrobia, specifically Akkermansia muciniphila, which is associated with gut health, metabolic homeostasis, and longevity. |
+| [[Akkermansia muciniphila]] | Organism | Mucin-degrading gut bacterium enriched by berberine, associated with gut barrier integrity and metabolic health. |
 | [[Bacteroidetes]] | Organism | Bacteroidetes is a phylum of Gram-negative, non-spore-forming, anaerobic or aerobic, and rod-shaped bacteria that are widely distributed in the environment, including the human gut. |
 | [[Bifidobacterium]] | Organism | Bifidobacterium is a genus of Gram-positive, non-motile, often branched anaerobic bacteria that are common inhabitants of the gastrointestinal tract and are often used as probiotics. |
 | [[Christensenellaceae]] | Organism | Christensenellaceae is a family of bacteria in the phylum Firmicutes, found to be highly heritable and associated with a lean body mass index and healthy aging. |
+| [[Enterocloster]] | Organism | Gut bacterial genus contributing to ellagitannin conversion toward urolithin A. |
 | [[Epstein-Barr virus]] | Organism | Epstein-Barr virus (EBV) is a double-stranded DNA virus of the Herpesviridae family (subfamily Gammaherpesvirinae). It infects >90% of the adult human population worldwide and establishes lifel... |
 | [[Faecalibacterium]] | Organism | Faecalibacterium is a genus of bacteria, with Faecalibacterium prausnitzii being a key species, known for its high production of butyrate and its anti-inflammatory effects in the gut. |
 | [[Firmicutes]] | Organism | Firmicutes is a dominant phylum of Gram-positive bacteria in the human gut, encompassing Bacilli, Clostridia, and Lactobacilli, and contributing to short-chain fatty acid production and metabolic h... |
@@ -1690,10 +1693,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Rapalogs]] | Chemical Class | Rapalogs are analogs and derivatives of rapamycin (sirolimus) that inhibit mTORC1 via the FKBP12-FRB interface; used as immunosuppressants, anticancer agents, and geroprotectors, and like rapamycin... |
 | [[Selective Androgen Receptor Modulators]] | Chemical Class | Tissue-selective androgen receptor ligands that promote anabolism and muscle mass with reduced androgenic side effects versus testosterone. |
 
-### Clinical Trial (1)
+### Clinical Trial (3)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
+| [[ATLAS]] | Clinical Trial | Randomized trial (n=88) showing urolithin A improves muscle strength, endurance, and mitochondrial biomarkers in middle-aged adults. |
+| [[PREMOTE]] | Clinical Trial | Multi-center trial showing berberine lowers HbA1c with gut-microbiome shifts, linking metabolic benefit to microbiome mechanisms. |
 | [[TRIAD]] | Clinical Trial | Test of Rapamycin In Aging Dogs — first rigorous pharmacologic geroscience trial with lifespan endpoints outside the lab, in any species. |
 
 ### Cohort Study (1)

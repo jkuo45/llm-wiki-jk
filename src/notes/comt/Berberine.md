@@ -19,7 +19,7 @@ Structurally, berberine is a positively charged, planar heterocycle built from a
 
 ## Mechanism of Action
 
-Berberine exerts effects through multiple targets. It activates AMP-activated protein kinase (AMPK), thereby improving insulin sensitivity, enhancing skeletal muscle glucose uptake, and suppressing hepatic gluconeogenesis. It modulates the gut microbiota (enriching butyrate producers and *Akkermansia*), inhibits intestinal α-glucosidases, and downregulates pro-inflammatory NF-κB and TNF-α signaling. It also interacts with mitochondrial complexes and may influence lipid metabolism via PPARα/γ. These pleiotropic actions explain its studied benefits in type 2 diabetes, dyslipidemia, and [[Anti-inflammatory]] contexts.
+Berberine exerts effects through multiple targets. It activates AMP-activated protein kinase (AMPK), thereby improving insulin sensitivity, enhancing skeletal muscle glucose uptake, and suppressing hepatic gluconeogenesis. It modulates the gut microbiota (enriching [[Akkermansia muciniphila]], [[Bifidobacterium]] spp., and SCFA-producing [[Lactobacillus]] spp. via high intraluminal exposure at 1–5% systemic bioavailability), inhibits intestinal α-glucosidases, and downregulates pro-inflammatory NF-κB and TNF-α signaling. It also interacts with mitochondrial complexes and may influence lipid metabolism via PPARα/γ. These pleiotropic actions explain its studied benefits in type 2 diabetes, dyslipidemia, and [[Anti-inflammatory]] contexts.
 
 ## Relevance to Slow COMT
 
@@ -57,10 +57,12 @@ List of documents that mention this entity
 - [[Fisetin]]: Co-administration caution — berberine CYP3A4/P-gp inhibition may elevate fisetin levels; separate dosing times.
 - [[AMPK]]: Primary berberine effector (complex-I inhibition → Thr172 phosphorylation).
 - [[Akkermansia muciniphila]]: Beneficial taxon enriched by berberine's intraluminal action.
+- [[Bifidobacterium]]: Beneficial genus enriched by berberine's intraluminal action (PREMOTE).
+- [[Lactobacillus]]: SCFA-producing genus enriched by berberine's intraluminal action.
 - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]: Four-compound synthesis note.
 
 ## Linking Summary
 
-- New links added: [[Anti-inflammatory]], [[COMT]], [[Methylation Cycle]], [[Val158Met]], [[Dopamine]].
-- Suggested new entity notes to create: [[AMPK]], [[Berberis]], [[Akkermansia]].
+- New links added: [[Anti-inflammatory]], [[COMT]], [[Methylation Cycle]], [[Val158Met]], [[Dopamine]], [[Akkermansia muciniphila]], [[Bifidobacterium]], [[Lactobacillus]].
+- Suggested new entity notes to create: [[AMPK]], [[Berberis]].
 - Strong connections to strengthen: [[Berberine]] ↔ [[COMT]]; [[Berberine]] ↔ [[Quercetin]].
