@@ -4,7 +4,7 @@ description: Fisetin is a plant Flavonoids and antioxidant found in many fruits 
   vegetables, such as strawberries and apples. It has been identified as a potent
   senolytic agent, selectively inducing apoptosi...
 created: 2026-05-25
-updated: 2026-07-29
+updated: 2026-09-17
 tags:
   - chemical-compound
 aliases: []
@@ -93,6 +93,10 @@ In a 10-flavonoid screen, [[Fisetin]] was the most potent [[Senolytic|senolytic]
 > - Fisetin plasma prevented SASP-induced [[Senescence]], rescued [[Nitric Oxide|NO]] production (20% improvement), reduced mitochondrial [[Reactive Oxygen Species|superoxide]] (58% reduction), and blocked [[Endothelial-to-Mesenchymal Transition|EndoMT]]
 > - CXCL12 add-back to fisetin plasma recapitulated age-related [[Endothelial Dysfunction|endothelial dysfunction]], confirming CXCL12 as the key mediator
 
+## Four-Compound Synthesis (Rzeski 2026)
+
+In the Rzeski four-compound framework ([[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]), [[Fisetin]] is the senolytic arm: PI3K/[[Akt]] + [[Bcl-2]]/[[Bcl-xL]] inhibition clearing established senescent cells that [[Spermidine]]-driven autophagy can no longer rescue (threshold model). The intermittent preclinical paradigm (1 wk on / 2 off / 1 on) suits periodic food/supplement dosing; galactomannan complex raises bioavailability >25-fold. Caution: [[Fisetin]] is a CYP3A4 substrate and partial inhibitor — co-administration with [[Berberine]] (CYP3A4/P-gp inhibitor) may mutually elevate plasma levels; temporal separation (berberine AM / fisetin PM) is the interim mitigation. Only registered combo trial: NCT06990256 (UA + fisetin).
+
 ## Documents
 
 List of documents that mention this entity
@@ -117,6 +121,9 @@ List of documents that mention this entity
 
   - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
     - Comprehensive evaluation of fisetin as a COMT substrate-inhibitor (IC₅₀ 2.6–5.8 µM, mixed kinetics) with dual senolytic–neuromodulatory potential. Covers geraldol metabolite formation, pharmacokinetic limitations, genotype-dependent effects, and proposed experimental plan.
+
+  - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]
+    - Positions fisetin as the senolytic arm of a four-compound stack; intermittent food-compatible dosing, galactomannan bioavailability fix, berberine CYP3A4 co-administration caution, NCT06990256 combo trial.
 
 
 ## Connections
@@ -152,6 +159,10 @@ List of documents that mention this entity
 - [[Geraldol]]: Active COMT-generated metabolite of fisetin with uncharacterized pharmacology
 - [[Val158Met]]: COMT genotype modifier determining fisetin response; no clinical trial has stratified outcomes by genotype
 - [[Epigenetic Aging]]: Proposed primary endpoint in fisetin pharmacogenomic clinical trial
+- [[Spermidine]]: Sequential partner — autophagy prevents senescence pre-threshold, fisetin clears post-threshold cells.
+- [[Urolithin A]]: Only registered combo partner (NCT06990256, UA 300 mg + fisetin 200 mg arm).
+- [[Berberine]]: Co-administration caution — mutual CYP3A4 substrate/inhibitor interaction; separate dosing times.
+- [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]: Four-compound synthesis note.
 
 ---
 

@@ -4,7 +4,7 @@ description: Spermidine is a naturally occurring polyamine that is found in all
   living cells. It is recognized as a potent ''geroprotector'' due to its ability
   to extend the lifespan of various organisms, inc...
 created: 2026-05-29
-updated: 2026-07-07
+updated: 2026-09-17
 tags:
   - chemical-compound
 aliases: []
@@ -33,6 +33,10 @@ Spermidine is an endogenous polyamine metabolite that induces [[TFEB]]-driven au
 
 # 
 
+## Four-Compound Synthesis (Rzeski 2026)
+
+In the Rzeski four-compound framework ([[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]), [[Spermidine]] is the bulk-[[Autophagy]] arm: [[EP300]] inhibition with mTOR-independent action, non-redundant with [[Urolithin A]] (selective [[Mitophagy]]) and [[Fisetin]] (post-threshold senolysis) under the autophagy–senescence threshold model. Trial extract doses (0.9–3.3 mg/d) sit well below habitual dietary intake (8–12 mg/d); SmartAge IIb showed safety without cognition benefit at 0.9 mg/d. Food strategies: wheat-germ enrichment, natto/fermented matrices, legume beverages — with heat-degradation control.
+
 ## Documents
 
 List of documents that mention this entity
@@ -52,6 +56,9 @@ List of documents that mention this entity
   - [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis|GOPS Protocol]]
     - Autophagy inducer facilitating clearance of glycated/oxidized proteins in the Glyco-Oxidative Proteostasis Shield.
 
+  - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]
+    - Positions spermidine as the bulk-autophagy (EP300) arm of a four-compound stack; Bruneck mortality data, SmartAge dosing caveat, wheat-germ/fermented food strategies.
+
 
 ## Connections
 - **[[Autophagy]]**: The primary cellular process induced by spermidine.
@@ -60,6 +67,11 @@ List of documents that mention this entity
 - **[[Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
 - **[[Adrenochrome monoaminoguanidine]]**: Hybrid molecule in GOPS whose hormetic ER-stress signaling is complemented by spermidine-induced autophagy clearance.
 - **[[Carnosine]]**: Metal chelator co-administered with spermidine in the GOPS protocol to stabilize the proteostatic environment.
+- [[Urolithin A]]: Complementary clearance arm (selective mitophagy vs bulk autophagy); combination proposed more comprehensive than either alone.
+- [[Fisetin]]: Sequential partner — spermidine prevents senescence pre-threshold, fisetin clears post-threshold cells.
+- [[Berberine]]: Fellow caloric-restriction mimetic via complementary AMPK/microbiota axes.
+- [[EP300]]: Primary spermidine target derepressing ATG proteins.
+- [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]: Four-compound synthesis note.
 
 ## Linking Summary
 - New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]], [[Adrenochrome monoaminoguanidine]], [[Carnosine]]
