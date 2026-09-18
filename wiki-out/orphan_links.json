@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-07T03:23:16Z",
-  "node_count": 3079,
-  "edge_count": 36492,
+  "generated_at": "2026-09-18T23:05:36Z",
+  "node_count": 3146,
+  "edge_count": 37454,
   "reference_links": {
     "document_notes": {
-      "total_targets": 135,
-      "total_links": 4119
+      "total_targets": 141,
+      "total_links": 4300
     },
     "task_outputs": {
       "total_targets": 24,
       "total_links": 146
     }
   },
-  "total_orphan_targets": 4740,
-  "total_orphan_links": 11684,
+  "total_orphan_targets": 4734,
+  "total_orphan_links": 11616,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",
@@ -73,11 +73,6 @@
     {
       "norm_id": "down_syndrome",
       "raw": "down_syndrome",
-      "link_count": 18
-    },
-    {
-      "norm_id": "inflammatory_bowel_disease",
-      "raw": "inflammatory_bowel_disease",
       "link_count": 18
     },
     {
@@ -163,11 +158,6 @@
     {
       "norm_id": "lens_crystallins",
       "raw": "lens_crystallins",
-      "link_count": 14
-    },
-    {
-      "norm_id": "stat",
-      "raw": "stat",
       "link_count": 14
     },
     {
@@ -263,6 +253,16 @@
     {
       "norm_id": "muscle",
       "raw": "muscle",
+      "link_count": 12
+    },
+    {
+      "norm_id": "mlh1",
+      "raw": "mlh1",
+      "link_count": 12
+    },
+    {
+      "norm_id": "threonine",
+      "raw": "threonine",
       "link_count": 12
     }
   ]

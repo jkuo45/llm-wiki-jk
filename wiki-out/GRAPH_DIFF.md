@@ -1,45 +1,45 @@
 # Triples vs Wiki Graph Diff
 
-- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3427 nodes, 6412 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3079 nodes, 36492 edges)
+- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3493 nodes, 6605 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3146 nodes, 37454 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 2070
-- **Wiki-only** (linked, no triple): 1009
-- **Triples-only** (triple, no wikilink): 1357
+- **Shared** (in both): 2132
+- **Wiki-only** (linked, no triple): 1014
+- **Triples-only** (triple, no wikilink): 1361
 
 ## Edge overlap
 
-- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6104 / wiki 36492 — the triples graph carries 6412 links over 6104 pairs (308 parallel-relation links preserved by the MultiDiGraph rebuild).
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 37454 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
 
-- **Wiki-only pairs** (under-extracted triples / curation gaps): 33282
-- **Triples-only pairs** (not surfaced as a wikilink): 2894
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 34124
+- **Triples-only pairs** (not surfaced as a wikilink): 2955
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
 | Macrophage | 76 |
-| Endothelial Cells | 68 |
-| Fibroblast | 68 |
-| Epigenetics and aging | 64 |
+| Fibroblast | 69 |
+| Endothelial Cells | 69 |
+| Glutathione Peroxidase 4 | 68 |
 | Histone Variant | 64 |
+| Epigenetics and aging | 64 |
+| Citric Acid Cycle | 59 |
 | Unfolded Protein Response | 57 |
-| Citric Acid Cycle | 57 |
 | MMP-12 | 55 |
 | Caenorhabditis elegans | 54 |
+| PARK2 | 54 |
 | Atg1 | 53 |
-| PARK2 | 53 |
 | ALS | 50 |
 | Immunity | 49 |
 | Cardiomyocyte Toxicity | 49 |
 | Fat Oxidation | 46 |
+| Caspase-8-c-FLIP Rheostat | 45 |
 | Insulin | 44 |
 | Retrograde Response | 44 |
-| Caspase-8-c-FLIP Rheostat | 44 |
 | Mitochondrial outer membrane permeabilization | 42 |
-| Hypertension | 39 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -50,21 +50,21 @@
 | NF-kB | 5 |
 | Sodium Chloride | 5 |
 | Cell Migration | 5 |
-| Mice | 4 |
-| Physical Activity | 4 |
 | slow COMT | 4 |
-| Biphasic Dose Response | 4 |
 | SIRT3 deficiency | 4 |
+| Biphasic Dose Response | 4 |
+| Physical Activity | 4 |
 | COMT Val158 allele | 4 |
-| DNA Polymerase | 4 |
-| JAK-STAT3 | 4 |
 | SIRT1 and SIRT2 | 4 |
-| SIRT6 overexpression | 3 |
-| Streptomyces avermectinius | 3 |
-| Reactive Species | 3 |
-| Alkylating agent | 3 |
-| Antioxidant Properties | 3 |
+| DNA Polymerase | 4 |
+| Mice | 4 |
+| JAK-STAT3 | 4 |
 | Dietary Advanced Glycation End Products | 3 |
+| H4K16 | 3 |
+| catechol flavonoid | 3 |
+| Securin | 3 |
+| H3K9 | 3 |
+| Reactive Species | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 
@@ -101,6 +101,8 @@
 | Zellweger syndrome | PEX gene mutations |
 | Zeb1 | CDH1 |
 | ZCCHC11 | TUTase |
+| ZBP1 | PANoptosome |
+| ZBP1 | Necroptosis |
 | YAP1 | Cancer |
 | Yamanaka Factors | HFF1 |
 | Yamanaka Factors | Epigenetic Remodeling |
@@ -113,5 +115,3 @@
 | Withaferin A | SIRT3 for anti-fibrotic effect |
 | William C. Campbell | Nobel Prize in Physiology or Medicine |
 | Western Diet | NLRP3-Dependent Trained Immunity |
-| Western blot analysis | Acetylated p53, histone 3 and gamma-tubulin |
-| Vitamin E | Singlet Oxygen |

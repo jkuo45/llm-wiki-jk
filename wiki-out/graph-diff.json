@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-06T20:23:45Z",
+  "generated_at": "2026-09-18T16:06:16Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 3427,
-    "wiki_nodes": 3079,
-    "shared_nodes": 2070,
-    "wiki_only_nodes": 1009,
-    "triples_only_nodes": 1357,
-    "triples_edges": 6412,
-    "wiki_edges": 36492,
-    "triples_edge_pairs": 6104,
-    "wiki_edge_pairs": 36492,
-    "wiki_only_edges": 33282,
-    "triples_only_edges": 2894
+    "triples_nodes": 3493,
+    "wiki_nodes": 3146,
+    "shared_nodes": 2132,
+    "wiki_only_nodes": 1014,
+    "triples_only_nodes": 1361,
+    "triples_edges": 6605,
+    "wiki_edges": 37454,
+    "triples_edge_pairs": 6285,
+    "wiki_edge_pairs": 37454,
+    "wiki_only_edges": 34124,
+    "triples_only_edges": 2955
   },
   "top_wiki_only_nodes": [
     {
@@ -22,19 +22,19 @@
       "degree": 76
     },
     {
-      "id": "endothelial_cells",
-      "label": "Endothelial Cells",
-      "degree": 68
-    },
-    {
       "id": "fibroblast",
       "label": "Fibroblast",
-      "degree": 68
+      "degree": 69
     },
     {
-      "id": "epigenetics_and_aging",
-      "label": "Epigenetics and aging",
-      "degree": 64
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
+      "degree": 69
+    },
+    {
+      "id": "glutathione_peroxidase_4",
+      "label": "Glutathione Peroxidase 4",
+      "degree": 68
     },
     {
       "id": "histone_variant",
@@ -42,13 +42,18 @@
       "degree": 64
     },
     {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
-      "degree": 57
+      "id": "epigenetics_and_aging",
+      "label": "Epigenetics and aging",
+      "degree": 64
     },
     {
       "id": "citric_acid_cycle",
       "label": "Citric Acid Cycle",
+      "degree": 59
+    },
+    {
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
       "degree": 57
     },
     {
@@ -62,13 +67,13 @@
       "degree": 54
     },
     {
-      "id": "atg1",
-      "label": "Atg1",
-      "degree": 53
-    },
-    {
       "id": "park2",
       "label": "PARK2",
+      "degree": 54
+    },
+    {
+      "id": "atg1",
+      "label": "Atg1",
       "degree": 53
     },
     {
@@ -92,6 +97,11 @@
       "degree": 46
     },
     {
+      "id": "caspase_8_c_flip_rheostat",
+      "label": "Caspase-8-c-FLIP Rheostat",
+      "degree": 45
+    },
+    {
       "id": "insulin",
       "label": "Insulin",
       "degree": 44
@@ -102,19 +112,9 @@
       "degree": 44
     },
     {
-      "id": "caspase_8_c_flip_rheostat",
-      "label": "Caspase-8-c-FLIP Rheostat",
-      "degree": 44
-    },
-    {
       "id": "mitochondrial_outer_membrane_permeabilization",
       "label": "Mitochondrial outer membrane permeabilization",
       "degree": 42
-    },
-    {
-      "id": "hypertension",
-      "label": "Hypertension",
-      "degree": 39
     }
   ],
   "top_triples_only_nodes": [
@@ -144,23 +144,8 @@
       "degree": 5
     },
     {
-      "id": "mice",
-      "label": "Mice",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
-      "degree": 4
-    },
-    {
       "id": "slow_comt",
       "label": "slow COMT",
-      "degree": 4
-    },
-    {
-      "id": "biphasic_dose_response",
-      "label": "Biphasic Dose Response",
       "degree": 4
     },
     {
@@ -169,18 +154,18 @@
       "degree": 4
     },
     {
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
+      "degree": 4
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
       "id": "comt_val158_allele",
       "label": "COMT Val158 allele",
-      "degree": 4
-    },
-    {
-      "id": "dna_polymerase",
-      "label": "DNA Polymerase",
-      "degree": 4
-    },
-    {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
       "degree": 4
     },
     {
@@ -189,33 +174,48 @@
       "degree": 4
     },
     {
-      "id": "sirt6_overexpression",
-      "label": "SIRT6 overexpression",
+      "id": "dna_polymerase",
+      "label": "DNA Polymerase",
+      "degree": 4
+    },
+    {
+      "id": "mice",
+      "label": "Mice",
+      "degree": 4
+    },
+    {
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
+    },
+    {
+      "id": "dietary_advanced_glycation_end_products",
+      "label": "Dietary Advanced Glycation End Products",
       "degree": 3
     },
     {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
+      "id": "h4k16",
+      "label": "H4K16",
+      "degree": 3
+    },
+    {
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "securin",
+      "label": "Securin",
+      "degree": 3
+    },
+    {
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     },
     {
       "id": "reactive_species",
       "label": "Reactive Species",
-      "degree": 3
-    },
-    {
-      "id": "alkylating_agent",
-      "label": "Alkylating agent",
-      "degree": 3
-    },
-    {
-      "id": "antioxidant_properties",
-      "label": "Antioxidant Properties",
-      "degree": 3
-    },
-    {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
       "degree": 3
     }
   ],
@@ -405,6 +405,20 @@
       "weight": 1
     },
     {
+      "source": "zbp1",
+      "target": "panoptosome",
+      "source_label": "ZBP1",
+      "target_label": "PANoptosome",
+      "weight": 1
+    },
+    {
+      "source": "zbp1",
+      "target": "necroptosis",
+      "source_label": "ZBP1",
+      "target_label": "Necroptosis",
+      "weight": 1
+    },
+    {
       "source": "yap1",
       "target": "cancer",
       "source_label": "YAP1",
@@ -486,20 +500,6 @@
       "target": "nlrp3_dependent_trained_immunity",
       "source_label": "Western Diet",
       "target_label": "NLRP3-Dependent Trained Immunity",
-      "weight": 1
-    },
-    {
-      "source": "western_blot_analysis",
-      "target": "acetylated_p53_histone_3_and_gamma_tubulin",
-      "source_label": "Western blot analysis",
-      "target_label": "Acetylated p53, histone 3 and gamma-tubulin",
-      "weight": 1
-    },
-    {
-      "source": "vitamin_e",
-      "target": "singlet_oxygen",
-      "source_label": "Vitamin E",
-      "target_label": "Singlet Oxygen",
       "weight": 1
     }
   ]
