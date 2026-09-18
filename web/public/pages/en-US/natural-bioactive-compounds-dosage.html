@@ -28,7 +28,7 @@
   #calc-top label, #calc label { font-size: .85rem; font-weight: 600; display: block; margin: 10px 0 4px; }
   #calc-top input[type=number], #calc input[type=number] { font-size: 1.1rem; padding: 8px 10px; width: 160px; max-width: 100%; }
   #calc-top input[type=range], #calc input[type=range] { width: 100%; }
-  #calc-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; position: sticky; top: 0; z-index: 50; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  #calc-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; position: sticky; top: 40px; z-index: 50; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
   #calc-top label { flex: 1 1 100%; margin: 0; font-size: .8rem; }
   #calc-top .units { margin: 0; }
   #calc-top input[type=number] { width: 104px; padding: 6px 8px; font-size: 1rem; }
@@ -56,10 +56,29 @@
 </style>
 </head>
 <body>
-<div class="wrap page">
+<a class="skip" href="#content">Skip to content</a>
 
-<h1>Four Bioactives, Four Hallmarks — Spermidine · Fisetin · Berberine · Urolithin A</h1>
-<p class="lede">Summary of <a href="https://doi.org/10.3390/nu18152511">Rzeski &amp; Rzeska, <i>Nutrients</i> 2026, 18, 2511</a> — a narrative review framing four mechanistically distinct, non-redundant compounds as complementary functional-food ingredients: <b>spermidine</b> (bulk autophagy via EP300), <b>fisetin</b> (senolysis via PI3K/Akt + Bcl-2/Bcl-xL), <b>berberine</b> (metabolic + microbiome via AMPK), and <b>urolithin&nbsp;A</b> (selective mitophagy via PINK1/Parkin). Includes a weight-based dose-and-interval estimator below. Educational content; <b>not medical advice</b>.</p>
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#compounds">Compounds</a>
+      <a href="#estimator">Estimator</a>
+      <a href="#combinations">Combinations</a>
+      <a href="#source">Source</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Bioactive Compounds · Hallmarks of Aging · Nutrients 2026</p>
+    <h1>Four Bioactives, Four Hallmarks — Spermidine · Fisetin · Berberine · Urolithin A</h1>
+    <p class="lede">Summary of <a href="https://doi.org/10.3390/nu18152511">Rzeski &amp; Rzeska, <i>Nutrients</i> 2026, 18, 2511</a> — a narrative review framing four mechanistically distinct, non-redundant compounds as complementary functional-food ingredients: <b>spermidine</b> (bulk autophagy via EP300), <b>fisetin</b> (senolysis via PI3K/Akt + Bcl-2/Bcl-xL), <b>berberine</b> (metabolic + microbiome via AMPK), and <b>urolithin&nbsp;A</b> (selective mitophagy via PINK1/Parkin). Includes a weight-based dose-and-interval estimator below. Educational content; <b>not medical advice</b>.</p>
+  </div>
+</header>
+
+<div class="wrap page" id="content">
 
 <div id="calc-top">
   <label for="wt">Body weight — doses below scale to this</label>
@@ -72,7 +91,7 @@
   <p class="mono" id="wt-readout">70 kg (154 lb)</p>
 </div>
 
-<h2>The four compounds at a glance</h2>
+<h2 id="compounds">The four compounds at a glance</h2>
 <div class="grid2">
   <div class="card">
     <h3>Spermidine — the autophagy inducer</h3>
@@ -121,7 +140,7 @@
   </div>
 </div>
 
-<h2>Weight-based dose &amp; interval estimator</h2>
+<h2 id="estimator">Weight-based dose &amp; interval estimator</h2>
 <div id="calc">
   <p style="font-size:.82rem">Method: linear scaling from a 70-kg reference to published human trial ranges, clamped to those ranges (illustrative only — trials used flat doses, and no weight-based regimen is validated). Spermidine is weight-independent at dietary doses, shown flat.</p>
   <table class="doses">
@@ -131,12 +150,12 @@
   <p class="mono" id="us-readout" style="font-size:.8rem"></p>
 </div>
 
-<h2>Combinations: what the review actually says</h2>
+<h2 id="combinations">Combinations: what the review actually says</h2>
 <div class="warn"><b>Paraphrase of the review's position (not verbatim):</b> “No completed trial has tested all four together; the combination hypothesis is mechanistically grounded but prospectively unvalidated.” The review found <b>no peer-reviewed direct evidence for all-four co-administration</b>. The only registered trial combining any two is <b>NCT06990256</b> (n=80, 45–70&nbsp;y: urolithin&nbsp;A 500&nbsp;mg and fisetin 500&nbsp;mg single/combination arms incl. UA&nbsp;300&nbsp;mg + fisetin&nbsp;200&nbsp;mg; 12-week sleep, DNA-methylation age, inflammation, BMAL1, HOMA-IR endpoints).</div>
 <p style="font-size:.9rem;line-height:1.65">Promising early signals cited: <b>spermidine + urolithin&nbsp;A</b> (broad autophagy + selective mitophagy) and <b>spermidine + berberine</b> (caloric-restriction mimetics via deacetylation/autophagy vs AMPK–microbiota axes) are argued to be <b>additive rather than redundant</b>; the autophagy–senescence threshold model rationalizes sequencing (spermidine prevents senescence initiation pre-threshold; fisetin clears established senescent cells post-threshold). Network-medicine logic supports multi-node modulation — but the review stresses pharmacokinetics, disease stage, and individual (incl. urolithin metabotype) variability may dominate outcomes.</p>
 <div class="danger"><b>Interaction caution:</b> berberine (CYP3A4/P-gp inhibitor) + fisetin (CYP3A4 substrate and partial inhibitor) may mutually elevate plasma levels. Interim mitigation proposed: temporal separation (berberine AM / fisetin PM); avoid co-administration with narrow-therapeutic-index CYP3A4 substrates. Berberine is contraindicated in pregnancy. Pharmacokinetic co-administration studies are an explicit unmet gap — do not combine without clinician supervision.</div>
 
-<h2>Source &amp; citation</h2>
+<h2 id="source">Source &amp; citation</h2>
 <p style="font-size:.88rem;line-height:1.65">Rzeski W., Rzeska W. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. <i>Nutrients</i> 2026, 18, 2511. <a href="https://doi.org/10.3390/nu18152511">https://doi.org/10.3390/nu18152511</a> (CC&nbsp;BY). Vault note: <a href="https://graph.johnnykuo.com/#node=Spermidine">Spermidine</a> · <a href="https://graph.johnnykuo.com/#node=Fisetin">Fisetin</a> · <a href="https://graph.johnnykuo.com/#node=Berberine">Berberine</a> · <a href="https://graph.johnnykuo.com/#node=Urolithin%20A">Urolithin&nbsp;A</a>.</p>
 
 <footer class="foot">Estimator outputs are illustrative scalings of published trial ranges, not prescriptions. Evidence maturity varies widely (berberine: 46-RCT meta-analysis; urolithin&nbsp;A: small RCTs; spermidine: epidemiology + small RCTs; fisetin: preclinical + early-phase). Consult a clinician, especially for berberine (drug interactions, pregnancy) and any multi-compound use. Educational content; not medical advice.</footer>

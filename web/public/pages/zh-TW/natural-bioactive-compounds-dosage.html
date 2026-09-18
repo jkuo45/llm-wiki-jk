@@ -28,7 +28,7 @@
   #calc-top label, #calc label { font-size: .85rem; font-weight: 600; display: block; margin: 10px 0 4px; }
   #calc-top input[type=number], #calc input[type=number] { font-size: 1.1rem; padding: 8px 10px; width: 160px; max-width: 100%; }
   #calc-top input[type=range], #calc input[type=range] { width: 100%; }
-  #calc-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; position: sticky; top: 0; z-index: 50; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  #calc-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; position: sticky; top: 40px; z-index: 50; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
   #calc-top label { flex: 1 1 100%; margin: 0; font-size: .8rem; }
   #calc-top .units { margin: 0; }
   #calc-top input[type=number] { width: 104px; padding: 6px 8px; font-size: 1rem; }
@@ -56,10 +56,29 @@
 </style>
 </head>
 <body>
-<div class="wrap page">
+<a class="skip" href="#content">跳到內容</a>
 
-<h1>四種生物活性物，四個老化標誌 — 亞精胺 · 非瑟酮 · 小檗鹼 · 尿石素 A</h1>
-<p class="lede"><a href="https://doi.org/10.3390/nu18152511">Rzeski &amp; Rzeska, <i>Nutrients</i> 2026, 18, 2511</a> 摘要 — 一篇敘述性綜述，將四種機制不同、互不重疊的化合物定位為互補的功能性食品成分：<b>亞精胺</b>（經 EP300 促進整體自噬）、<b>非瑟酮</b>（經 PI3K/Akt + Bcl-2/Bcl-xL 清除衰老細胞）、<b>小檗鹼</b>（經 AMPK 調節代謝與腸道菌群）、<b>尿石素&nbsp;A</b>（經 PINK1/Parkin 促進選擇性粒線體自噬）。下方附依體重估算劑量與服用頻率的工具。教育內容；<b>非醫療建議</b>。</p>
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#compounds">化合物</a>
+      <a href="#estimator">劑量估算</a>
+      <a href="#combinations">合併使用</a>
+      <a href="#source">來源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">生物活性化合物 · 老化標誌 · Nutrients 2026</p>
+    <h1>四種生物活性物，四個老化標誌 — 亞精胺 · 非瑟酮 · 小檗鹼 · 尿石素 A</h1>
+    <p class="lede"><a href="https://doi.org/10.3390/nu18152511">Rzeski &amp; Rzeska, <i>Nutrients</i> 2026, 18, 2511</a> 摘要 — 一篇敘述性綜述，將四種機制不同、互不重疊的化合物定位為互補的功能性食品成分：<b>亞精胺</b>（經 EP300 促進整體自噬）、<b>非瑟酮</b>（經 PI3K/Akt + Bcl-2/Bcl-xL 清除衰老細胞）、<b>小檗鹼</b>（經 AMPK 調節代謝與腸道菌群）、<b>尿石素&nbsp;A</b>（經 PINK1/Parkin 促進選擇性粒線體自噬）。下方附依體重估算劑量與服用頻率的工具。教育內容；<b>非醫療建議</b>。</p>
+  </div>
+</header>
+
+<div class="wrap page" id="content">
 
 <div id="calc-top">
   <label for="wt">體重 — 以下劑量依此換算</label>
@@ -72,7 +91,7 @@
   <p class="mono" id="wt-readout">70 kg (154 lb)</p>
 </div>
 
-<h2>四種化合物一覽</h2>
+<h2 id="compounds">四種化合物一覽</h2>
 <div class="grid2">
   <div class="card">
     <h3>亞精胺 — 自噬誘導劑</h3>
@@ -121,7 +140,7 @@
   </div>
 </div>
 
-<h2>依體重估算劑量與服用頻率</h2>
+<h2 id="estimator">依體重估算劑量與服用頻率</h2>
 <div id="calc">
   <p style="font-size:.82rem">方法：以 70 公斤為基準，對已發表人體試驗劑量範圍作線性換算並箝制於該範圍內（僅供示意 — 試驗採固定劑量，目前並無驗證過的體重公式）。亞精胺在膳食劑量下與體重無關，以固定值顯示。</p>
   <table class="doses">
@@ -131,12 +150,12 @@
   <p class="mono" id="us-readout" style="font-size:.8rem"></p>
 </div>
 
-<h2>合併使用：綜述實際怎麼說</h2>
+<h2 id="combinations">合併使用：綜述實際怎麼說</h2>
 <div class="warn"><b>綜述立場意譯（非逐字引文）：</b>「尚無完成全四種合併的試驗；合併假說有機制依據，但未經前瞻性驗證。」綜述未找到<b>四種合併給藥的同儕審查直接證據</b>。唯一登錄合併其中兩者的試驗是 <b>NCT06990256</b>（n=80，45–70 歲：尿石素&nbsp;A 500&nbsp;mg 與非瑟酮 500&nbsp;mg 單獨／合併組，含 UA&nbsp;300&nbsp;mg＋非瑟酮&nbsp;200&nbsp;mg；12 週睡眠、DNA 甲基化年齡、發炎、BMAL1、HOMA-IR 指標）。</div>
 <p style="font-size:.9rem;line-height:1.65">引用的早期正面訊號：<b>亞精胺＋尿石素&nbsp;A</b>（廣泛自噬＋選擇性粒線體自噬）與<b>亞精胺＋小檗鹼</b>（分別經去乙醯化／自噬與 AMPK–菌群軸模擬熱量限制）被認為是<b>相加而非重疊</b>；自噬–衰老閾值模型支持先後順序（閾值前亞精胺預防衰老啟動，閾值後非瑟酮清除已形成的衰老細胞）。網絡醫學的多節點調控邏輯支持此假說 — 但綜述強調藥物動力學、疾病階段與個體差異（含尿石素代謝型）可能主導結果。</p>
 <div class="danger"><b>交互作用警示：</b>小檗鹼（CYP3A4／P-gp 抑制劑）＋非瑟酮（CYP3A4 受質兼部分抑制劑）可能相互墊高血中濃度。綜述建議的過渡作法：分時服用（小檗鹼早上／非瑟酮晚上）；避免與治療窗窄的 CYP3A4 受質併用。小檗鹼孕期禁用。合併藥動學研究是明確的未滿足缺口 — 未經醫師監督請勿合併使用。</div>
 
-<h2>來源與引用</h2>
+<h2 id="source">來源與引用</h2>
 <p style="font-size:.88rem;line-height:1.65">Rzeski W., Rzeska W. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. <i>Nutrients</i> 2026, 18, 2511. <a href="https://doi.org/10.3390/nu18152511">https://doi.org/10.3390/nu18152511</a>（CC&nbsp;BY）。知識庫：<a href="https://graph.johnnykuo.com/#node=Spermidine">Spermidine</a> · <a href="https://graph.johnnykuo.com/#node=Fisetin">Fisetin</a> · <a href="https://graph.johnnykuo.com/#node=Berberine">Berberine</a> · <a href="https://graph.johnnykuo.com/#node=Urolithin%20A">Urolithin&nbsp;A</a>。</p>
 
 <footer class="foot">估算值為已發表試驗範圍的示意性換算，非處方建議。證據成熟度差異大（小檗鹼：46 項 RCT 統合分析；尿石素 A：小型 RCT；亞精胺：流行病學＋小型 RCT；非瑟酮：臨床前＋早期試驗）。請諮詢醫師，特別是小檗鹼（藥物交互作用、孕期）與任何多重复方使用。教育內容；非醫療建議。</footer>
