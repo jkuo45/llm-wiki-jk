@@ -39,8 +39,6 @@
 | **Wiki** | `wiki-*.json` | 3,146 | 37,454 |
 
 Build: 18_SEP_2026 · hash `44f8731feedc4b63`
-
-Triples extracted: 6,823 subject–predicate–object statements → 6,605 graph edges after dedupe.
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
