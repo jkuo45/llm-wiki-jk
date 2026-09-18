@@ -3,7 +3,7 @@ title: PARG
 description: PARG is the primary poly(ADP-ribose) glycohydrolase erasing PAR; its dosage bidirectionally sets parthanatos and stroke outcome.
 protected: false
 created: 2026-09-06
-updated: 2026-09-08
+updated: 2026-09-14
 tags: [enzyme, cell-death, parthanatos]
 url: #
 source: #
@@ -13,6 +13,10 @@ aliases: [Poly(ADP-ribose) glycohydrolase, PAR glycohydrolase]
 # PARG
 
 **PARG** (poly(ADP-ribose) glycohydrolase) is the primary [[PAR]]-degrading enzyme, using endo- and exo-glycosidase activity to hydrolyze glycosidic bonds between ADP-ribose units. Single mammalian gene encoding nuclear 110–111 kDa, cytosolic 102/99 kDa (human), and 59–60 kDa isoforms; exon-1-deleted cytosolic constructs are the experimental parthanatos-blocking tool. A 2026 preprint adds a 53-kDa splice isoform (PARG53) and revises PARG55/60 annotation (bioRxiv 2026.05.12.724507).
+
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> The review flags the PARG paradox as an explicit open question: "There is extensive but conflicting evidence as to the role of PARG in parthanatos, with several studies suggesting that PARG can either prevent or promote PARP1-dependent cell death." Protection by PARG overexpression/knockdown (Andrabi 2006 neurons; Yu 2006 NMDA-AIF) contrasts with protection by PARG inhibition (Lu 2003 brain ischaemia) or PARG silencing (Blenn 2006, H2O2 but not MNNG). Endo-activity generates the free-[[PAR]] executioner; high exo-activity destroys it — a dose-balanced dual function.
 
 > [!info]
 > Source: [[_document_ - Parthanatos Andrabi 2006 PAR polymer death signal|Andrabi et al. 2006 PNAS]]
@@ -39,6 +43,8 @@ List of documents that mention this entity
   - KO lethality, trophoblast PARP-inhibitor dependence, transgenic protection.
 - [[_document_ - Parthanatos David 2009 messenger of death|David et al. 2009 Front Biosci]]
   - Isoform genetics (hypomorph vs null) and joint PARG/ARH3 half-life control.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - Frames the PARG promote-vs-inhibit paradox as an open question; links PARG activity to TRPM2-gating free-ADP-ribose generation and to the free-PAR executioner pool.
 
 ## Connections
 
@@ -51,9 +57,11 @@ List of documents that mention this entity
 - [[Excitotoxicity]] — NMDA death halved by cytosolic PARG.
 - [[Hexokinase-1]] — glycolytic target downstream of the PARG-regulated free-PAR pool.
 - [[Nudix Hydrolases]] — consume PARG-generated ADP-ribose monomers into AMP/R5P.
+- [[ADP-ribose]] — monomeric product; gating ligand for [[TRPM2]].
 
 ## Linking Summary
 
 - New note in src/notes/cell-death/ as cell-death topic entity (cell-death/oxidative-stress/neurodegeneration).
 - New links added: [[PAR]], [[Parthanatos]], [[PARP1]], [[ARH3]], [[Apoptosis-Inducing Factor]], [[Stroke]], [[Excitotoxicity]], [[NMDA receptor]].
 - Strong connections to strengthen: [[PARG]] ↔ [[PAR]], [[PARG]] ↔ [[Parthanatos]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — PARG promote-vs-inhibit paradox as an explicit open question; free-[[ADP-ribose]]/[[TRPM2]] link. New links: [[ADP-ribose]], [[TRPM2]].

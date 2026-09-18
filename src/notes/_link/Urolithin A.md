@@ -4,7 +4,7 @@ description: Urolithin A is a postbiotic metabolite derived from ellagitannins
   (found in pomegranates and nuts) that has been shown to induce mitophagy and improve
   muscle function and longevity in various m...
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-09-17
 tags:
   - chemical-compound
 aliases: []
@@ -30,6 +30,10 @@ Urolithin A's mitophagy-activating mechanism positions it as a complementary age
 
 # 
 
+## Four-Compound Synthesis (Rzeski 2026)
+
+In the Rzeski four-compound framework ([[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]), [[Urolithin A]] is the selective-[[Mitophagy]] arm ([[PINK1]]/[[Parkin]]), non-redundant with [[Spermidine]] bulk [[Autophagy]]: impaired mitophagy drives ROS and cGAS-[[STING]] inflammation even when general autophagy is intact. ATLAS RCT: +~12% hamstring strength at 500 mg/d; 1000 mg/d adds OXPHOS/mtDNA gains; 2025 *Nat Aging* RCT shows naive-T/TSCM expansion. Direct supplementation (Tmax 4–6 h, t½ ~20 h, once-daily) bypasses metabotype B/0 non-conversion; ellagitannin foods serve only Metabotype A (~25–55%). Only registered combo trial: NCT06990256 (UA 300 mg + [[Fisetin]] 200 mg arm). Regulatory: FDA GRAS 2018, EU novel-food pending — most advanced of the four.
+
 ## Documents
 
 List of documents that mention this entity
@@ -43,6 +47,9 @@ List of documents that mention this entity
 
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - A potent mitophagy inducer (a core mitohormetic mechanism); taken with a fat-containing meal to enhance absorption.
+
+  - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]
+    - Positions Urolithin A as the selective-mitophagy (PINK1/Parkin) arm of a four-compound stack; ATLAS strength data, metabotype-stratified delivery, NCT06990256 combo trial, GRAS/EU status.
 
 ## Connections
 - [[_document_ - Mitohormetic Redox-Relay]] — interacts with Urolithin A
@@ -60,6 +67,10 @@ List of documents that mention this entity
 - [[PTEN-Induced Kinase 1]] — signals through Urolithin A
 - [[PINK1]] — initiates mitophagy after mitochondrial depolarization
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
+- [[Spermidine]] — complementary clearance arm (bulk autophagy vs selective mitophagy); combination proposed more comprehensive than either alone
+- [[Fisetin]] — only registered combo partner (NCT06990256, UA 300 mg + fisetin 200 mg arm)
+- [[Berberine]] — complementary stack partner (metabolic/microbiome + mitochondrial QC)
+- [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]] — four-compound synthesis note
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Autophagy]], [[_document_ - Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Ellagitannins]], [[Mitophagy]], Pomegranates, Raspberries, Walnuts, Strawberries, [[Ellagic acid]], [[Gordonibacter urolithinfaciens]], [[Skeletal Muscle]], Brain, [[Adipose Tissue]], [[PINK1]], [[Parkin]], [[MFN1]], [[MFN2]], [[VDAC|VDAC1]], [[LC3]], [[p62]], [[mTORC1]], [[AMPK]], [[ULK1]], [[C. elegans]], [[Mus musculus]], [[Rattus norvegicus]], [[Parkinson's Disease]], [[MPTP]], [[Atherosclerosis]], [[Acylcarnitines]], [[TNFα]], [[Interleukin-6]], [[Sarcopenia]], [[Alzheimer's Disease]], [[Cardiovascular Aging]], [[Adrenochrome]], [[PGC-1α]], [[Dinitrophenol]], [[BAM15]]
 - Suggested new entity notes to create: [[Metabotypes]], [[Gordonibacter urolithinfaciens]], [[Ellagibacter isourolithinifaciens]]

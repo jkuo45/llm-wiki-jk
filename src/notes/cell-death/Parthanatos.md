@@ -5,7 +5,7 @@ description: PARP-1-dependent regulated cell death executed by PAR polymer signa
   DNA fragmentation and NAD+ depletion.
 protected: true
 created: 2026-09-03
-updated: 2026-09-13
+updated: 2026-09-14
 tags: [biological-process, cell-death, regulated-cell-death, neurodegeneration]
 url: #
 source: #
@@ -84,6 +84,12 @@ Ischemic parthanatos signaling is sexually dimorphic. In adult mouse MCAO, PARP-
 - **Parthanatos -> inflammation:** [[PARP1]] co-activates NF-kB; fragmented DNA as DAMP -> cGAS-STING, AIM2, [[NLRP3]]; [[MIF]] drives NLRP3 IL-1beta and is PD/AD biomarker.
 - **Parthanatos <-> [[Mitophagy]]:** PINK1/Parkin clears ROS sources restraining [[PARP1]]; caspase/MIF-nuclease axis opposes.
 
+## Open questions
+
+> [!note]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> The review's central claim is that the steps downstream of [[PARP1]] hyperactivation remain contested, and that the apparent inconsistencies may reflect genuinely different routes in different cell types and metabolic states. Its four mechanistic sections pose 17 open questions: (1) what determines whether [[NAD+]] supplementation rescues; (2) whether glycolytic inhibition is necessary and/or sufficient; (3) how free [[PAR]] inhibits [[Hexokinase-1]]; (4) whether NAD+ and [[ATP]] loss are mechanistically coupled; (5) whether [[Apoptosis]]–parthanatos crosstalk exceeds mutual antagonism; (6) whether [[PARG]] promotes or inhibits execution; (7) how free PAR is generated, protected, and exported from the nucleus; (8) whether [[ADP-ribose]]-gated [[TRPM2]] Ca2+ is necessary and/or sufficient; (9) whether TRPM2-dependent and TRPM2-independent modes exist; (10) the downstream effects of TRPM2-mediated Ca2+; (11) whether [[Nudix Hydrolases]] are required; (12) the relative AMP-from-ADP-ribose versus ATP-from-glycolysis contributions to [[AMPK]]; (13) whether AMPK/[[Autophagy]] is protective or executive; (14) the precise sequence of [[Apoptosis-Inducing Factor|AIF]] release; (15) which nuclease fragments DNA; (16) what defines AIF-dependent versus AIF-independent parthanatos; and (17) apoptotic versus parthanatic AIF translocation. See `task_output_parthanatos_open_questions_08_Sep_2026.md` for the 2014–2026 literature update.
+
 ## Documents
 
 List of documents that mention this entity
@@ -100,6 +106,8 @@ List of documents that mention this entity
   - Term coined (PAR + Thanatos); PAR→AIF nuclear-mitochondrial crosstalk; PARG-KO lethality; Harlequin AIF model; BAX/calpain/mPTP candidates left open.
 - [[_document_ - Parthanatos David 2009 messenger of death|David et al. 2009 Front Biosci]]
   - PAR-not-NAD+ thesis; PARP domain/synthesis chemistry; AIF flavoprotein biology; PARG isoform genetics; BAX/calpain/PTP wiring as open questions.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - Hoch-lab mini-review of downstream mechanisms and their inconsistencies: NAD+ compartment/salvage-cost vs PAR–HK1 glycolytic block, free-ADP-ribose–[[TRPM2]] Ca2+, [[Nudix Hydrolases]]–AMP–AMPK/mTORC1, and AIF-dependent vs AIF-independent DNA fragmentation; lists 17 open questions across four mechanistic sections.
 
 ## Connections
 
@@ -132,3 +140,4 @@ List of documents that mention this entity
 - Strong connections to strengthen: [[Parthanatos]] <-> [[PARP1]], [[Parthanatos]] <-> [[Apoptosis-Inducing Factor|AIF]], [[Parthanatos]] <-> [[MIF]], [[Parthanatos]] <-> [[NAD+]], [[Parthanatos]] <-> [[Apoptosis]] (sex-difference arm).
 - Sex-dimorphism enrichment (2026-09-03): male-PARP/AIF vs female-caspase split across adult MCAO, neonatal HI, and XY/XX cultures (McCullough 2005; Yuan 2009; Hagberg 2004; Du 2004; Stroke 2011; Zhu 2006 caveat); no MIF/PAAN sex claim.
 - Clinical-translation enrichment (2026-09-13): JPI-289 ([[Amelparib]]) Ph2a NCT03062397 unstratified; female-arm candidates (pan-caspase, ERβ agonism) without stroke programs; full write-up in `task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md`. New links: [[Amelparib]].
+- Source enrichment (2026-09-14): Moura et al. 2024 review added — downstream-mechanism open questions (NAD+/glycolysis, free [[ADP-ribose]]–[[TRPM2]] Ca2+, [[Nudix Hydrolases]]–AMP, AIF-dependent vs -independent DNA fragmentation). New links: [[ADP-ribose]], [[Nudix Hydrolases]], [[TRPM2]]. Document: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers]].

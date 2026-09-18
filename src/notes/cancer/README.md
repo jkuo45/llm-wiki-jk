@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 15_August_2026 12:00 PM PDT
-- Total count of entities: 353
+- Last updated: 15_September_2026 09:17 AM PDT
+- Total count of entities: 356
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -83,6 +83,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[DAMP]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 8 | 0 | Damage-Associated Molecular Patterns; cytosolic DNA and other endogenous danger signals activate cGAS-STING in senescence. |
 | [[Diethylcarbamazine]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 7 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[docetaxel]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Doramectin]] | 15_September_2026 09:17 AM PDT | Chemical Compound | 7 | 1 | Semi-synthetic avermectin (Dectomax) developed for livestock; long-acting family member with a narrow safety margin in MDR1-affected dogs and preclinical anticancer interest. |
 | [[Drug Repositioning]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 10 | 1 | The core strategy of finding new medical uses for existing, approved drugs. |
 | [[ECM]] | 26_May_2026 05:03 PM PDT | Anatomy | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[EGFR]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
@@ -141,6 +142,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Mectizan]] | 21_May_2026 06:20 PM PDT | Medical Product | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Mectizan Donation Program]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Metformin]] | 30_May_2026 07:45 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
+| [[Moxidectin]] | 15_September_2026 09:17 AM PDT | Chemical Compound | 7 | 1 | Long-acting milbemycin endectocide used for canine heartworm prevention and human onchocerciasis; more potent than ivermectin with a dose-margin caveat in MDR1 dogs. |
 | [[Melanoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[melittin]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 10 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[MKP-3]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | Dual-specificity phosphatase that dephosphorylates and stabilizes Bcl-2. |
@@ -192,6 +194,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[RGD peptide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Satoshi Ōmura]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
+| [[Selamectin]] | 15_September_2026 09:17 AM PDT | Chemical Compound | 7 | 1 | Topical avermectin endectocide (Revolution/Stronghold) for dogs and cats covering heartworm, fleas, ear mites, sarcoptic mange, roundworms and hookworms; low CNS penetration supports MDR1-dog safety. |
 | [[Simulium]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[SLC19A1]] | 09_Jul_2026 01:00 PM PDT | Transporter | 7 | 0 | Reduced folate carrier; imports extracellular cGAMP to amplify paracrine STING signaling. |

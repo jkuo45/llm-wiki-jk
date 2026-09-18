@@ -2,7 +2,7 @@
 title: TRIF
 description: TIR-domain-containing adaptor protein inducing interferon-β (TRIF/TICAM1), the sole adaptor for TLR3 signaling and a key branch of TLR4 signaling that activates IRF3, NF-κB, and STAT1.
 created: 2026-07-08
-updated: 2026-09-03
+updated: 2026-09-14
 tags:
   - protein
   - adaptor-protein
@@ -43,6 +43,10 @@ Dysregulated TRIF signaling contributes to excessive inflammation, viral immunop
 > 2011): TRIF-recruited [[RIPK1]] seeds the platform where the [[Caspase-8-c-FLIP Rheostat]] then
 > decides [[Apoptosis]] vs [[Necroptosis]] — the death-receptor-independent arm of the switch.
 
+> [!info] TRIF–RIPK3 necroptosis
+> Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
+> TRIF carries a RHIM domain that directly recruits and activates [[RIPK3]], allowing a TRIF/RIPK3 necrosome that can bypass [[RIPK1]] in some contexts. Under caspase inhibition, [[TLR3]] agonists (poly(I:C)) or [[TLR4]] agonists ([[Lipopolysaccharide|LPS]]) drive this axis; LPS plus caspase inhibition induces RIPK3-dependent necroptosis in macrophages. [[TLR4]] engages both [[MyD88]] and TRIF, and MyD88-driven autocrine TNF can feed forward into RIPK1/RIPK3 activation. TRIF/RIPK3 necroptosis is implicated in acute pancreatitis and immune dysregulation, and TLR4 signaling crosstalks with ferroptosis (a TLR4/TRIF/type I IFN axis preceding a necroptotic wave in cardiac transplant).
+
 ## Role in the Urolithin A Review
 
 The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* reports that [[Urolithin A]] inactivates [[TLR3]]/TRIF signaling to block the [[NF-κB]]/[[STAT1]] axis, reducing [[Inflammation|inflammation]] and bolstering [[Antioxidants|antioxidant]] defenses in macrophages—a mechanism relevant to UA's muscle-recovery and anti-inflammatory effects.
@@ -51,6 +55,8 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 
 - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Urolithin A and Muscle Health Review]]
   - Cites UA blockade of TLR3/TRIF → NF-κB/STAT1 as an anti-inflammatory mechanism.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - TRIF's RHIM directly recruits/activates RIPK3 downstream of TLR3/TLR4, enabling RIPK1-bypassing necroptosis; MyD88-driven autocrine TNF feed-forward; TLR4/TRIF crosstalk with ferroptosis.
 
 ## Connections
 
@@ -68,3 +74,4 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 - New links added: [[Toll-like Receptor]], [[TLR3]], [[TLR4]], [[TRAF3]], [[TBK1]], [[IRF3]], [[RIPK1]], [[TRAF6]], [[NF-κB]], [[MAPK]], [[STAT1]], [[TNF-alpha]], [[IL-6]], [[Urolithin A]], [[Inflammation]], [[Antioxidants]]
 - Suggested new entity notes to create: [[TLR4]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[TRIF]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — TRIF–RIPK3 necroptosis downstream of TLR3/4. New links: [[TLR3]], [[TLR4]], [[MyD88]], [[Lipopolysaccharide]].

@@ -4,7 +4,7 @@ description: ARH3 (ADPRHL2) is a 39-kDa Mg2+-dependent ADP-ribosylhydrolase that
   erases serine-MARylation and degrades PAR exoglycosidically
 protected: false
 created: 2026-09-06
-updated: 2026-09-08
+updated: 2026-09-14
 tags: [enzyme, adp-ribosylation, dna-repair, parthanatos, neurodegeneration]
 url: #
 source: #
@@ -40,6 +40,10 @@ Compared with [[PARG]]: [[PARG]] (macrodomain, Glu755/Asp737, no metals) cleaves
 - **Mitochondrial PAR/OAADPr control:** only active mitochondrial PAR degrader — short [[PARG]] splice forms PARG55/60 lack exon 5 and are inactive. By degrading OAADPr from [[SIRT3]]/[[SIRT5]] deacetylation, links [[Sirtuins]] to mitochondrial redox.
 - **Parthanatos brake:** `Arh3-/-` MEFs show exaggerated nuclear [[PAR]] at 10 min post-H2O2, cytoplasmic translocation by 30 min, [[Apoptosis-Inducing Factor|AIF]] release and caspase-independent death. Re-expression rescues. Cytoplasmic [[PAR]] also inhibits Rab5 endocytosis in this model. Caveat (2026 RPE1/MNNG preprint, bioRxiv 2026.05.12.724507): ARH3 KO had no effect on parthanatos execution in that system — protective role is insult/cell-type dependent.
 
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> The review positions ARH3 with [[PARG]] as the hydrolase pair that erases [[PAR]] and liberates free [[ADP-ribose]]: [[PARG]] removes bulk polymer, ARH3 trims short/free chains and the terminal protein-linked ADP-ribose. Whether PAR hydrolases promote or inhibit parthanatos is one of the review's open questions, and ARH3's contribution is model-dependent (protective in ischaemia/H2O2 systems, dispensable in MNNG/RPE1).
+
 ## Pathology & Clinical relevance
 
 - **CONDSIAS:** biallelic `ADPRHL2` loss causes stress-induced childhood-onset neurodegeneration with variable ataxia and seizures (autosomal recessive); severe cases fatal. PARP inhibition prevents [[PAR]] accumulation and death in ARH3-deficient cells — proposed therapeutic.
@@ -50,7 +54,8 @@ Compared with [[PARG]]: [[PARG]] (macrodomain, Glu755/Asp737, no metals) cleaves
 
 List of documents that mention this entity
 
-No documents ingested yet.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - Places ARH3 in the PAR-erasure pair with [[PARG]]; PAR-hydrolase promotion-vs-inhibition and free-ADP-ribose generation are open questions, and ARH3 is dispensable in the MNNG/RPE1 parthanatos model.
 
 ## Connections
 
@@ -71,3 +76,4 @@ No documents ingested yet.
 - New links added: [[PARP1]], [[PARG]], [[PAR]], [[Parthanatos]], [[Apoptosis-Inducing Factor|AIF]], [[NAD+]], [[Sirtuins]], [[ADP-ribosylation]], [[ARH1]], [[PARP inhibitors]], [[O-acetyl-ADP-ribose]], [[SIRT3]], [[SIRT5]].
 - Suggested new entity notes to create: [[PARG]], [[ARH1]], [[HPF1]].
 - Strong connections to strengthen: [[ARH3]] ↔ [[PARG]], [[ARH3]] ↔ [[Parthanatos]], [[ARH3]] ↔ [[ADP-ribosylation]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — ARH3 as the second eraser liberating free [[ADP-ribose]]; model-dependent role in parthanatos. New links: [[ADP-ribose]].

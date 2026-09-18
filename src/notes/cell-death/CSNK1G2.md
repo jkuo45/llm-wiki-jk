@@ -3,7 +3,7 @@ title: CSNK1G2
 description: Casein kinase 1G2, a serine/threonine kinase that binds RIPK3 to inhibit its kinase activity and downstream necroptosis; implicated in male reproductive aging.
 protected: false
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-14
 tags: [enzyme, cell-death, kinase, necroptosis]
 url: #
 source: #
@@ -34,6 +34,8 @@ Protects aging-sensitive tissues (notably male reproductive tract) from spurious
 
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Necroptosis Review]]
   - Endogenous RIPK3 inhibitors gating necroptosis in aging tissues.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - CSNK1G2 as a negative RIPK3 regulator linked to male reproductive aging.
 
 ## Connections
 
@@ -45,3 +47,4 @@ Protects aging-sensitive tissues (notably male reproductive tract) from spurious
 
 - New links added: [[RIPK3]], [[MLKL]], [[Necroptosis]]
 - Strong connections to strengthen: [[CSNK1G2]] ↔ [[RIPK3]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — CSNK1G2 as an endogenous RIPK3 inhibitor in male reproductive aging.

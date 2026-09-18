@@ -4,7 +4,7 @@ description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme fou
   in every cell, essential for energy Metabolism and a vital signaling molecule. It
   serves as an obligatory co-substrate for all ...
 created: 2026-07-04
-updated: 2026-09-08
+updated: 2026-09-14
 tags:
   - chemical-compound
   - nad-plus
@@ -104,7 +104,7 @@ A reduced NAD+/NADH ratio is sufficient to trigger [[Senescence|mitochondrial dy
 NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside|NR]], [[Nicotinamide Mononucleotide|NMN]]) via the [[Preiss-Handler pathway]] and salvage pathway involving [[NAMPT]].
 
 > [!tip] Parthanatos rescue rule
-> Whether NAD/NR/NMN prevents parthanatos depends on: (1) PAR load — NAD restores the pool but not PAR–[[Hexokinase-1]] glycolysis block; (2) medium carbon sources — pyruvate/glutamine bypass masks the defect; (3) compartment — nuclear/cytosolic vs [[SLC25A51]]-gated mitochondrial pools; (4) salvage ATP cost (~4 phosphates/cycle) plus [[Nudix Hydrolases]] AMP arm. Full PARG inhibition uncouples NAD loss (persists) from ATP loss/death (prevented). See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]] — whether NAD/NR/NMN prevents parthanatos depends on: (1) PAR load — NAD restores the pool but not PAR–[[Hexokinase-1]] glycolysis block; (2) medium carbon sources — pyruvate/glutamine bypass masks the defect; (3) compartment — nuclear/cytosolic vs [[SLC25A51]]-gated mitochondrial pools; (4) salvage ATP cost (~4 phosphates/cycle) plus [[Nudix Hydrolases]] AMP arm. Full PARG inhibition uncouples NAD loss (persists) from ATP loss/death (prevented). See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
 
 # 
 
@@ -151,6 +151,9 @@ List of documents that mention this entity
 
   - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
     - NAD+ depletion is a central metabolic axis of mitochondrial failure in aging; compromises sirtuin-dependent resilience and enforces MiDAS; stem cells are especially vulnerable.
+
+  - [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+    - NAD+ is the consumed substrate of PARP1 hyperactivation; compartmentalized pools (nuclear/cytosolic vs [[SLC25A51]]-gated mitochondrial), salvage ATP cost, and context-dependent NR/NMN rescue are framed as open questions.
 
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes
@@ -232,4 +235,10 @@ The discovery that Sir2 deacetylase activity is **absolutely dependent on NAD⁺
 ## NAD⁺ and Neuroprotection
 
 SIRT1-mediated neuroprotection in the context of axonal degeneration requires **Nmnat** (nicotinate mononucleotide adenylyltransferase), a key NAD⁺ biosynthetic enzyme. Increased nuclear NAD⁺ biosynthesis activates [[SIRT1]] and prevents axonal/Wallerian degeneration, demonstrating NAD⁺ as a neuroprotective metabolite.
+
+## Linking Summary (Parthanatos source, 2026-09-14)
+
+- Source enrichment from [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]: NAD+ compartmentalization (nuclear/cytosolic vs mitochondrial), [[SLC25A51]] import, mitochondrial [[PARP1]], salvage ATP cost via [[Nudix Hydrolases]], and context-dependent [[Nicotinamide Riboside|NR]]/[[Nicotinamide Mononucleotide|NMN]] rescue.
+- New links added: [[Parthanatos]], [[PARP1]], [[PAR]], [[Hexokinase-1]], [[SLC25A51]], [[Nudix Hydrolases]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Glycolysis]].
+- Strong connections to strengthen: [[NAD+]] ↔ [[Parthanatos]], [[NAD+]] ↔ [[PARP1]], [[NAD+]] ↔ [[SLC25A51]].
 

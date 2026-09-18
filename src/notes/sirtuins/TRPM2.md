@@ -2,7 +2,7 @@
 title: TRPM2
 description: TRPM2 (Transient Receptor Potential Melastatin-Related Channel 2) is a calcium-permeable non-selective cation channel expressed highly in the brain, immune system, and cardiovascular system. It functions as an oxidative stress sensor whose prolonged activation leads to calcium overload and cell death.
 created: 2026-07-03
-updated: 2026-09-08
+updated: 2026-09-14
 tags:
   - ion-channel
 aliases:
@@ -34,7 +34,7 @@ This creates a feedback loop in which sirtuin activation — normally cytoprotec
 TRPM2 mediates cytokine release in immune cells, insulin secretion in β-cells, and neuronal vulnerability to ischemia and [[Oxidative Stress]]. Its OAADPr sensitivity ties membrane physiology to the [[NAD+]] redox economy and the sirtuin network, making it a sensor of the same metabolic state that sirtuins monitor. Dysregulation of TRPM2 contributes to neurodegeneration (stroke, Alzheimer's), inflammatory disease, and glycemic dysfunction, underscoring its cross-topic importance to [[Aging]] and [[Neurodegeneration]].
 
 > [!info] Parthanatos arm
-> PARP1/PARG-derived free ADP-ribose (not only sirtuin OAADPr) gates TRPM2 → Ca2+ influx → calpain/MPTP candidates → [[Apoptosis-Inducing Factor|AIF]] release in [[Parthanatos]]. PARG-dependent (Blenn 2011); Ca2+ chelation protects renal I/R and H2O2 models but not MNNG (insult-specific); ER Ca2+ release contributes via a PARG-independent route. See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]] — PARP1/[[PARG]]-derived free [[ADP-ribose]] (not only sirtuin [[OAADPr]]) gates TRPM2 → Ca2+ influx → [[Calpain]]/[[Mitochondrial Permeability Transition Pore|mPTP]] candidates → [[Apoptosis-Inducing Factor|AIF]] release in [[Parthanatos]]. PARG-dependent (Blenn 2011); Ca2+ chelation protects renal I/R and H2O2 models but not MNNG (insult-specific); ER Ca2+ release contributes via a PARG-independent route. Whether ADPR-gated TRPM2 is necessary/sufficient, and whether TRPM2-dependent and -independent modes exist, are open questions. See `task_output_parthanatos_open_questions_08_Sep_2026.md`.
 
 ## Documents
 
@@ -42,6 +42,8 @@ List of documents that mention this entity
 
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - OAADPr binds to and activates the cytoplasmic domain of the TRPM2 (transient receptor potential melastatin-related channel 2), a non-selective cation channel, whose prolonged activation leads to cell death.
+  - [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+    - Free [[ADP-ribose]] from PAR catabolism gates TRPM2 during parthanatos (PARG-dependent); ER Ca2+ release is an alternative PARG-independent route; TRPM2-dependence is insult/cell-type specific.
 
 
 ## Connections
@@ -57,3 +59,4 @@ List of documents that mention this entity
 - New links added: [[OAADPr]], [[SIRT2]], [[SIRT3]], [[NAD+]], [[Oxidative Stress]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[Calcium Influx]], [[Excitotoxicity]]
 - Strong connections to strengthen: [[TRPM2]] ↔ [[OAADPr]]
+- Source enrichment (2026-09-14): Moura et al. 2024 — free-[[ADP-ribose]]-gated TRPM2 in parthanatos; PARG-dependent vs ER Ca2+ arm. New links: [[ADP-ribose]], [[PARG]], [[Parthanatos]], [[Calpain]], [[Mitochondrial Permeability Transition Pore]], [[Apoptosis-Inducing Factor]].

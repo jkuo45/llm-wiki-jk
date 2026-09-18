@@ -5,7 +5,7 @@ description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-f
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
 protected: true
 created: 2024-01-01
-updated: 2026-09-13
+updated: 2026-09-14
 tags:
   - enzyme
 aliases: [PARP-1, Poly(ADP-ribose) polymerase 1, ARTD1]
@@ -40,6 +40,10 @@ PARP1 also regulates DNA repair enzymes at the post-translational level. [[PARP1
 Through its PARylation activity, PARP1 participates in the regulation of [[Autophagy]]. PARsylation of [[ULK1]], [[TFEB]], and [[mTORC1]] components by PARP family enzymes — including PARP1 — modulates autophagic flux. PARP inhibitors such as [[Olaparib]] induce autophagy in cancer cells, suggesting that PARP1 restrains autophagy under basal conditions and that its inhibition relieves this brake.
 
 A critical downstream consequence of excessive PARP1 activation is parthanatos: hyperactivation of PARP1 leads to massive [[NAD+]] consumption, which depletes cellular ATP pools and triggers a caspase-independent form of programmed cell death. During parthanatos, PAR polymers themselves translocate from the nucleus to the mitochondria, where they trigger the release of apoptosis-inducing factor (AIF) from the inner mitochondrial membrane. AIF then translocates to the nucleus and promotes large-scale DNA fragmentation — a morphologically distinct cell death pathway separable from apoptosis, necroptosis, and ferroptosis. NAD+/ATP depletion and PAR–[[Hexokinase-1]] glycolysis inhibition are dissociable arms (2026 PARG-inhibition uncoupling; FK866/NR controls) — see [[Parthanatos]] and `task_output_parthanatos_open_questions_08_Sep_2026.md`. Apoptotic caspase cleavage yields the [[89-kDa PARP1 Fragment]], classically inactivating but now shown (2025) to act as a cytoplasmic PAR carrier feeding AIF signaling.
+
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> PARP1 domain architecture (ZnF1–3, BRCT, WGR, helical autoinhibitory + ART catalytic subdomains) and its high-affinity DNA-break binding make it the defining upstream sensor: genetic deletion or pharmacological inhibition is strongly cytoprotective, the criterion separating parthanatos from [[Apoptosis]]/[[Necrosis]]. The review stresses that whether PARP1 can be catalytically activated without a DNA strand break (in its chromatin, gene-regulation, and inflammation roles) remains unclear, and that the downstream cascade is context-dependent across cell types.
 
 ## NAD+ Consumer Network
 
@@ -79,6 +83,8 @@ The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regula
     - Nuclear cGAS interacts with PARP1, disrupting the PARP1–Timeless complex to suppress homologous recombination.
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Implications]]
     - PARP1 mediates NF-κB-associated SASP via the ATM–PARP1–IKK axis; IκBζ is a downstream regulator of SASP genes.
+  - [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+    - PARP1 domain architecture and DNA-break-driven hyperactivation as the defining upstream step of parthanatos; open questions on DNA-independent activation and on the downstream cascade.
 
 
 ## Connections
@@ -120,3 +126,4 @@ The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regula
   - [[PARP1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]] — PARP1 relocation to DSBs drives epigenetic drift
   - Sex-dimorphism enrichment (2026-09-03): male PARP/AIF vs female caspase death switch; PARP loss shunts females to caspase (Stroke 2011); inhibitors stratify by sex. New links: [[Parthanatos]].
   - Clinical-translation enrichment (2026-09-13): JPI-289 ([[Amelparib]]) Ph2a NCT03062397 enrolled without sex stratification despite male-arm biology; female-arm candidates (pan-caspase, ERβ agonism) lack stroke programs. New links: [[Amelparib]].
+  - Source enrichment (2026-09-14): Moura et al. 2024 — PARP1 domain/DNA-break activation framing and downstream-cascade open questions. New links: [[Parthanatos]].

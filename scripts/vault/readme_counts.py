@@ -661,26 +661,35 @@ def main():
     w_pairs = _json_pairs(os.path.join(args.web_data_dir, "wiki-edges.json"))
     both_edges = len(t_pairs & w_pairs) if t_pairs and w_pairs else None
 
-    graph_datasets_content = (
-        "\n".join(datasets_table)
-        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
-        + "\n\n> [!NOTE] Combined merge\n"
-        + "> The combined dataset is the union of the triples and wiki graphs, "
-        "deduplicated by canonical id (`norm(label)`). "
-        + (
+    if shared_nodes is not None and both_edges is not None:
+        overlap_body = (
             f"{format_number(shared_nodes)} entities appear in both sources "
             f"({format_number(len(t_ids))} triples + {format_number(len(w_ids))} wiki "
             f"− {format_number(shared_nodes)} shared → {format_number(counts['nodes.json'])}); "
             f"edges are unioned by (`from`, `to`) pair — "
             f"{format_number(both_edges)} edge pairs are shared, and an edge present "
             "in both graphs is emitted once with both sources recorded."
-            if shared_nodes is not None and both_edges is not None
-            else "> Overlap stats unavailable (missing source files)."
         )
+    else:
+        overlap_body = "Overlap stats unavailable (missing source files)."
+
+    # GitHub-flavored alert/callout: the `[!NOTE]` marker must sit alone on the
+    # first blockquote line (no custom title — GitHub only supports the five
+    # alert types), and every continuation line must carry the leading `>`.
+    # Obsidian renders this same block as a titled callout.
+    graph_datasets_content = (
+        "\n".join(datasets_table)
+        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
+        + "\n\n> [!NOTE]\n>\n> **Combined Merge**\n>\n"
+        + "> The combined dataset is the union of the triples and wiki graphs, "
+        + "deduplicated by canonical id (`norm(label)`). "
+        + overlap_body
     )
 
-    # Build marker-delimited sections
-    summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
+    # Build marker-delimited sections. Section headings live outside the
+    # generated markers (authored in the README, like the graph-datasets
+    # heading) so they can be reworded without being clobbered on regeneration.
+    summary_table_content = "\n".join(topics_table)
     doc_list_content = (
         "## Documents\n\n"
         "<details>\n"
@@ -703,6 +712,12 @@ def main():
         "graph_datasets": graph_datasets_content,
     }
 
+    # Headings authored outside the generated markers; only emitted when
+    # bootstrapping a brand-new README (existing READMEs keep their own).
+    section_headings = {
+        "summary_table": "## Summary Table",
+    }
+
     if args.skip_readme:
         print(
             "Reader web artifacts refreshed (tasks); README left "
@@ -721,6 +736,9 @@ def main():
         # Fresh build (first run or pre-marker README)
         final = "# llm-wiki-jk\n\n"
         for name, content in sections.items():
+            heading = section_headings.get(name)
+            if heading:
+                final += heading + "\n\n"
             final += make_marker_block(name, content) + "\n\n"
     else:
         # Update markers in-place, preserving everything else

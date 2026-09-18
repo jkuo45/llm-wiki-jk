@@ -13627,13 +13627,13 @@
     "predicate": "induces",
     "object": "Mitophagy",
     "context": {
-      "en-US": "Urolithin A is a potent inducer of mitophagy, the clean-up process that recycles old, damaged mitochondria so new ones can take their place, and is described as a core mitohormetic mechanism. It is recommended to be taken with the first fat-containing meal of the day, as co-ingesting with healthy fats such as eggs, avocado, or yogurt can enhance its absorption. By supporting mitochondrial recycling, Urolithin A complements the energy production and renewal pathways targeted by the overall mitohormesis protocol.",
-      "zh-TW": "尿石素 A 是一種有效的線粒體自噬誘導劑，該清理過程回收老舊受損的線粒體以便新線粒體取而代之，被描述為核心的 mitohormetic 機制。建議在一天中第一頓含脂肪的餐食中服用，因為與健康脂肪（如雞蛋、酪梨或優格）一起攝入可以增強其吸收。通過支持線粒體回收，尿石素 A 補充了整體 mitohormesis 方案所靶向的能量產生和更新通路。"
+      "en-US": "Urolithin A is a potent inducer of mitophagy, the clean-up process that recycles old, damaged mitochondria so new ones can take their place, and is described as a core mitohormetic mechanism. It is recommended to be taken with the first fat-containing meal of the day, as co-ingesting with healthy fats such as eggs, avocado, or yogurt can enhance its absorption. By supporting mitochondrial recycling, Urolithin A complements the energy production and renewal pathways targeted by the overall mitohormesis protocol. Rzeski 2026 adds the molecular anchor: PINK1 stabilization on depolarized mitochondria with Parkin-mediated ubiquitination, extending C. elegans median lifespan 45.4% via dct-1/bec-1-dependent mitophagy (Ryu 2016).",
+      "zh-TW": "尿石素 A 是一種有效的線粒體自噬誘導劑，該清理過程回收老舊受損的線粒體以便新線粒體取而代之，被描述為核心的 mitohormetic 機制。建議在一天中第一頓含脂肪的餐食中服用，因為與健康脂肪（如雞蛋、酪梨或優格）一起攝入可以增強其吸收。通過支持線粒體回收，尿石素 A 補充了整體 mitohormesis 方案所靶向的能量產生和更新通路。Rzeski 2026 補充分子機制：PINK1 穩定化與 Parkin 泛素化，線蟲中位壽命延長 45.4%（Ryu 2016）。"
     },
     "confidence": 0.91,
     "source_document": "_document_ - mitohormesis, heart rate variability.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:15:52Z"
+    "updated": "2026-09-17T08:00:00Z"
   },
   {
     "id": "224b90152556",
@@ -15055,13 +15055,13 @@
     "predicate": "suppresses",
     "object": "SASP",
     "context": {
-      "en-US": "Low-exposure fisetin suppresses SASP and NF-kB output as a senomorphic action distinct from senolysis. No existing Fisetin-SASP edge covers this.",
-      "zh-TW": "低暴露 fisetin 以 senomorphic 作用抑制 SASP 與 NF-κB 輸出，不同於 senolysis。既無 Fisetin-SASP 邊涵蓋此。"
+      "en-US": "Low-exposure fisetin suppresses SASP and NF-kB output as a senomorphic action distinct from senolysis. No existing Fisetin-SASP edge covers this. Rzeski 2026 details effectors: IL-6, IL-8, MMP-1/MMP-3 down with NLRP3 inhibition and Nrf2/SIRT1 activation, dose/context-dependent senolytic versus senomorphic behavior.",
+      "zh-TW": "低暴露 fisetin 以 senomorphic 作用抑制 SASP 與 NF-κB 輸出，不同於 senolysis。既無 Fisetin-SASP 邊涵蓋此。Rzeski 2026 補充效應分子：IL-6、IL-8、MMP-1/MMP-3 下降，伴 NLRP3 抑制與 Nrf2/SIRT1 活化，依劑量與情境呈 senolytic 或 senomorphic。"
     },
     "confidence": 0.85,
     "source_document": "Fisetin.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-17T08:00:00Z"
   },
   {
     "id": "d5ac0f1ae668",
@@ -15720,5 +15720,677 @@
     "source_document": "cGAS.md",
     "created": "2026-09-12T18:53:13Z",
     "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "5fe27216b14d",
+    "subject": "Cyclosporine A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Cyclosporine A is a potent MPT inhibitor: binding mitochondrial cyclophilin D desensitizes the permeability transition pore, preventing the common inner/outer membrane permeability increase, swelling, and ROS burst that drive necrotic death.",
+      "zh-TW": "Cyclosporine A 為強效 MPT 抑制劑：結合粒線體 Cyclophilin D 使通透性轉換孔脫敏，防止內外膜共同通透化、腫脹與 ROS 爆發所驅動的壞死性死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cyclosporine A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "774cdf161234",
+    "subject": "Cyclosporine A",
+    "predicate": "binds",
+    "object": "Cyclophilin D",
+    "context": {
+      "en-US": "CsA binds cyclophilin D with high affinity; the CsA-CypD complex is the mechanistic basis of its MPT blockade, independent of its calcineurin-dependent immunosuppression.",
+      "zh-TW": "CsA 以高親和力結合 Cyclophilin D；CsA-CypD 複合體為其 MPT 阻斷的機制基礎，與其以 calcineurin 依賴的免疫抑制無關。"
+    },
+    "confidence": 0.92,
+    "source_document": "Cyclosporine A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "27d77ea87720",
+    "subject": "Cyclosporine A",
+    "predicate": "prevents",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "By blocking MPT, CsA prevents mitochondrial swelling, ROS generation, NAD+ depletion, and the downstream necrotic death — making it the reference tool for identifying MPT-dependent necrosis. It does not directly block canonical RIPK3-MLKL necroptosis.",
+      "zh-TW": "CsA 藉阻斷 MPT 防止粒線體腫脹、ROS 產生、NAD+ 耗竭與後續壞死性死亡，為判別 MPT 依賴壞死的參考工具；並不直接阻斷典型 RIPK3-MLKL necroptosis。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cyclosporine A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "b5e7068ea9fd",
+    "subject": "Sanglifehrin A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Sanglifehrin A (SfA) is a structurally distinct macrolide that binds cyclophilins and potently inhibits MPT, providing pharmacologic dissection of MPT-dependent necrosis.",
+      "zh-TW": "Sanglifehrin A（SfA）為結構不同的巨環內酯，結合親環蛋白並強效抑制 MPT，用於藥理學判別 MPT 依賴壞死。"
+    },
+    "confidence": 0.88,
+    "source_document": "Sanglifehrin A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "11d7eaa93e9f",
+    "subject": "Sanglifehrin A",
+    "predicate": "binds",
+    "object": "Cyclophilin D",
+    "context": {
+      "en-US": "SfA binds cyclophilin D through a different scaffold than CsA, blocking the permeability transition without inhibiting calcineurin — hence without the immunosuppressive confound.",
+      "zh-TW": "SfA 以與 CsA 不同的骨架結合 Cyclophilin D，阻斷通透性轉換但不抑制 calcineurin，因此無免疫抑制干擾。"
+    },
+    "confidence": 0.88,
+    "source_document": "Sanglifehrin A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "77e9e0a6b386",
+    "subject": "Sanglifehrin A",
+    "predicate": "is_distinct_from",
+    "object": "Cyclosporine A",
+    "context": {
+      "en-US": "Both bind cyclophilin D and block MPT, but SfA lacks calcineurin inhibition: a survival phenotype sensitive to both compounds but resistant to Necrostatin-1 indicates MPT-driven necrosis rather than RIPK3-MLKL necroptosis.",
+      "zh-TW": "二者皆結合 Cyclophilin D 並阻斷 MPT，但 SfA 不抑制 calcineurin：對兩者敏感而對 Nec-1 抗性的死亡表型指向 MPT 驅動的壞死而非 necroptosis。"
+    },
+    "confidence": 0.87,
+    "source_document": "Sanglifehrin A.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "511898d5eef9",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "causes",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "MPT — a common increase in inner and outer mitochondrial membrane permeability — produces mitochondrial swelling, ROS, and NAD+/ATP depletion and culminates in necrotic cell death.",
+      "zh-TW": "MPT（內外粒線體膜通透性共同升高）導致粒線體腫脹、ROS 與 NAD+/ATP 耗竭，最終造成壞死性細胞死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bce035684041",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Persistent pore opening across both mitochondrial membranes dissipates the matrix NAD+ pool, contributing to bioenergetic collapse during MPT-driven necrosis.",
+      "zh-TW": "跨內外膜的持續孔道開啟耗散粒線體基質 NAD+ 池，促成 MPT 驅動壞死中的能量崩潰。"
+    },
+    "confidence": 0.8,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "ea0a68e20075",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_regulated_by",
+    "object": "Cyclophilin D",
+    "context": {
+      "en-US": "Cyclophilin D is the key modulator of MPT pore opening: CypD ligands such as CsA and SfA desensitize the pore, and CypD-null mitochondria resist swelling-induced permeability transition.",
+      "zh-TW": "Cyclophilin D 為 MPT 孔道開啟的關鍵調控者：CsA、SfA 等 CypD 配體使孔道脫敏，CypD 缺失粒線體抵抗腫脹誘導的通透性轉換。"
+    },
+    "confidence": 0.88,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "fb22395ba8e1",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "triggers",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Mitochondrial ROS can trigger MPT independently of necroptosis signaling; ROS can also promote RIPK1 autophosphorylation as a parallel upstream input. The two pathways (ROS→MPT and ROS→RIPK1) are distinct and context-dependent rather than a single linear chain.",
+      "zh-TW": "粒線體 ROS 可獨立於 necroptosis 訊號觸發 MPT；ROS 亦可促進 RIPK1 自磷酸化作為平行上游輸入。兩條路徑（ROS→MPT 與 ROS→RIPK1）為獨立且取決於情境，而非單一線性鏈。"
+    },
+    "confidence": 0.82,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "dfba3598922c",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_distinct_from",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "MPT and necroptosis are genetically and pharmacologically separable necrosis programs: CsA/SfA block MPT-dependent death, whereas Nec-1/NSA block RIPK1/RIPK3/MLKL necroptosis, and RIPK3-MLKL can kill without MPT.",
+      "zh-TW": "MPT 與 necroptosis 在遺傳與藥理上可區分：CsA/SfA 阻斷 MPT 依賴的死亡，Nec-1/NSA 阻斷 RIPK1/RIPK3/MLKL necroptosis，且 RIPK3-MLKL 可不經 MPT 致死。"
+    },
+    "confidence": 0.88,
+    "source_document": "Mitochondrial Permeability Transition.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "2fd7786c2af5",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Systemic Inflammatory Response Syndrome",
+    "context": {
+      "en-US": "Massive necroptotic DAMP release from ruptured cells (e.g., in severe pancreatitis) contributes to SIRS by activating TLR and inflammasome cascades systemically, escalating local necrosis into whole-body inflammation.",
+      "zh-TW": "破裂細胞大量釋出的 necroptotic DAMP（如嚴重胰臟炎）經由全身性活化 TLR 與炎症小體級聯，促成 SIRS，使局部壞死升級為全身性發炎。"
+    },
+    "confidence": 0.82,
+    "source_document": "Systemic Inflammatory Response Syndrome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T03:00:00Z"
+  },
+  {
+    "id": "8f1be8b15ad1",
+    "subject": "Damage-Associated Molecular Patterns",
+    "predicate": "induce",
+    "object": "Systemic Inflammatory Response Syndrome",
+    "context": {
+      "en-US": "DAMPs such as HMGB1, ATP, and mitochondrial DNA spill from necrotic (including necroptotic) cells into the circulation and drive the systemic inflammation of SIRS; DAMP release is not restricted to any single necrotic death modality.",
+      "zh-TW": "HMGB1、ATP、粒線體 DNA 等 DAMP 自壞死（含 necroptotic）細胞溢入循環，驅動 SIRS 的全身性發炎；DAMP 釋放不限於任何單一壞死型態。"
+    },
+    "confidence": 0.82,
+    "source_document": "Systemic Inflammatory Response Syndrome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "4bbfe15e3ce8",
+    "subject": "Systemic Inflammatory Response Syndrome",
+    "predicate": "is_associated_with",
+    "object": "Sepsis",
+    "context": {
+      "en-US": "SIRS criteria define the systemic inflammatory state that, when accompanied by infection, constitutes sepsis; sterile necroptotic DAMP release produces the same clinical syndrome.",
+      "zh-TW": "SIRS 標準定義全身性發炎狀態，若伴隨感染即構成敗血症（sepsis）；無菌性 necroptotic DAMP 釋放可產生相同臨床症候群。"
+    },
+    "confidence": 0.85,
+    "source_document": "Systemic Inflammatory Response Syndrome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "6c2f59d93eae",
+    "subject": "Interferon",
+    "predicate": "induces",
+    "object": "Protein Kinase R",
+    "context": {
+      "en-US": "Interferon signaling transcriptionally upregulates PKR (EIF2AK2), which in turn is required for IFN-induced RIPK1/RIPK3 necroptosis in addition to its classical eIF2α translational block (Thapa et al. 2016).",
+      "zh-TW": "干擾素訊號轉錄性上調 PKR（EIF2AK2）；PKR 除經典的 eIF2α 轉譯阻斷外，亦為 IFN 誘導 RIPK1/RIPK3 necroptosis 所必需（Thapa et al. 2016）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Kinase R.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "221e8ec748b1",
+    "subject": "Protein Kinase R",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "PKR is required for interferon-induced RIPK1/RIPK3-mediated necroptosis (Thapa et al., Cell Host Microbe 2016) and may contribute to necrosome assembly in dsRNA-sensing contexts, though whether it directly scaffolds RIPK1 or acts upstream via eIF2α remains under investigation.",
+      "zh-TW": "PKR 為干擾素誘導 RIPK1/RIPK3 介導 necroptosis 所必需（Thapa et al., Cell Host Microbe 2016），並可能在 dsRNA 感測情境中促進 necrosome 組裝，但其是否直接支架化 RIPK1 或經由 eIF2α 上游作用仍在研究中。"
+    },
+    "confidence": 0.78,
+    "source_document": "Protein Kinase R.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bbe1655859b4",
+    "subject": "Protein Kinase R",
+    "predicate": "interacts_with",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "In the IFN- and virus-driven necrosome, PKR co-immunoprecipitates with RIPK1 (as well as RIPK3 and FADD) and is required for interferon-induced necroptosis (Thapa et al., Cell Host Microbe 2016); whether this reflects direct scaffolding or indirect upstream contribution remains unclear.",
+      "zh-TW": "在 IFN 與病毒驅動的 necrosome 中，PKR 與 RIPK1（亦與 RIPK3、FADD）共免疫沉澱，且為干擾素誘導 necroptosis 所必需（Thapa et al., Cell Host Microbe 2016）；此相互作用是直接支架化還是間接上游貢獻尚不明確。"
+    },
+    "confidence": 0.72,
+    "source_document": "Protein Kinase R.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T03:00:00Z"
+  },
+  {
+    "id": "528daae6513b",
+    "subject": "Interferon",
+    "predicate": "activates",
+    "object": "JAK-STAT Signaling",
+    "context": {
+      "en-US": "Interferon binding to its receptor activates JAK kinases, which phosphorylate STAT transcription factors — the canonical JAK-STAT cascade that primes necroptosis machinery.",
+      "zh-TW": "干擾素結合其受體活化 JAK 激酶，JAK 磷酸化 STAT 轉錄因子——此為啟動 necroptosis 機器的經典 JAK-STAT 級聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "STAT.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "5e7f0f2d43ed",
+    "subject": "JAK",
+    "predicate": "activates",
+    "object": "STAT",
+    "context": {
+      "en-US": "JAK (Janus kinase) phosphorylates latent cytoplasmic STAT transcription factors on tyrosine residues, triggering their dimerization and nuclear translocation.",
+      "zh-TW": "JAK（Janus 激酶）對潛伏於胞質的 STAT 轉錄因子進行酪胺酸磷酸化，促使其二聚化並轉位入核。"
+    },
+    "confidence": 0.92,
+    "source_document": "STAT.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "763a25ded5d3",
+    "subject": "Interferon",
+    "predicate": "sensitizes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Type I/II interferons prime the RIPK1/RIPK3/MLKL pathway through JAK-STAT signaling, most robustly by inducing PKR and (in several cell types) RIPK3 and ZBP1; interferon-activated cells are thereby sensitized to necroptosis when caspases are blocked (Thapa et al., Cell Host Microbe 2016).",
+      "zh-TW": "第一/二型干擾素經 JAK-STAT 訊號啟動 RIPK1/RIPK3/MLKL 路徑，最明確的機制是誘導 PKR 及（多種細胞中）RIPK3 與 ZBP1；經干擾素活化的細胞在 caspase 受阻時對 necroptosis 更敏感（Thapa et al., Cell Host Microbe 2016）。"
+    },
+    "confidence": 0.8,
+    "source_document": "STAT.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T03:00:00Z"
+  },
+  {
+    "id": "bd360b62cd74",
+    "subject": "DAI",
+    "predicate": "is_identical_to",
+    "object": "ZBP1",
+    "context": {
+      "en-US": "DAI (DNA-dependent activator of IRFs) is the original name of ZBP1 (Z-DNA binding protein 1); the molecules are identical, with ZBP1 now the canonical gene name.",
+      "zh-TW": "DAI（IRF 的 DNA 依賴活化因子）為 ZBP1（Z-DNA 結合蛋白 1）的原名；兩者為同一分子，ZBP1 為現行規範基因名。"
+    },
+    "confidence": 0.95,
+    "source_document": "DAI.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "347a92ec727d",
+    "subject": "DAI",
+    "predicate": "forms_complex_with",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "DAI/ZBP1 carries a RHIM motif that nucleates a RIPK1-independent necrosome directly with RIPK3 upon Z-nucleic-acid sensing.",
+      "zh-TW": "DAI/ZBP1 帶有 RHIM 基序，在感測 Z-核酸時可不經 RIPK1 直接與 RIPK3 組成非經典 necrosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "DAI.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "d20b5c2a67b4",
+    "subject": "TNFR1",
+    "predicate": "is_a_member_of",
+    "object": "TNFR",
+    "context": {
+      "en-US": "TNFR1 is the death-domain-containing member of the TNF receptor family and the canonical necroptosis entry point; other TNFR-superfamily members lack the same direct necrosome coupling.",
+      "zh-TW": "TNFR1 為 TNF 受體家族中具死亡結構域的成員，是 necroptosis 的經典入口；其他 TNFR 超家族成員無相同的直接 necrosome 偶聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "TNFR.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "1a706e428691",
+    "subject": "c-FLIP",
+    "predicate": "inhibits",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "FLIP (FLICE/caspase-8 inhibitory protein) is a catalytically inactive homolog that heterodimerizes with and restrains procaspase-8 activation; the FLIP-L/Caspase-8 heterodimer retains partial cleavage of RIPK1/RIPK3 that suppresses necroptosis.",
+      "zh-TW": "FLIP（FLICE/caspase-8 抑制蛋白）為催化失活的同源物，與 pro-caspase-8 異二聚化並抑制其活化；FLIP-L/Caspase-8 異二聚體保留部分切割 RIPK1/RIPK3 的能力以抑制 necroptosis。"
+    },
+    "confidence": 0.92,
+    "source_document": "c-FLIP.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "5aef218a6364",
+    "subject": "NEMO",
+    "predicate": "is_required_for",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "NEMO (NF-κB essential modulator) is the regulatory subunit of the IKK complex; without NEMO the canonical IKKα/IKKβ activation that degrades IκB and liberates NF-κB cannot proceed.",
+      "zh-TW": "NEMO（NF-κB 必需調控因子）為 IKK 複合體的調節亞基；缺乏 NEMO 時，降解 IκB 並釋放 NF-κB 的典型 IKKα/IKKβ 活化無法進行。"
+    },
+    "confidence": 0.9,
+    "source_document": "NEMO.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "c48aef07ef82",
+    "subject": "TLR3",
+    "predicate": "activates",
+    "object": "TRIF",
+    "context": {
+      "en-US": "TLR3 (and TLR4 endosomal TLR4/TRIF arm) signals through the TIR-domain adapter TRIF, which carries a RHIM and activates RIPK3 to form a RIPK1-independent necrosome.",
+      "zh-TW": "TLR3（及 TLR4 的 TRIF 臂）經由含 TIR 結構域的接合蛋白 TRIF 傳訊；TRIF 帶 RHIM，可活化 RIPK3 形成不依賴 RIPK1 的 necrosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toll-like Receptor.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "a02da1b776e3",
+    "subject": "Toll-like Receptor",
+    "predicate": "is_a_type_of",
+    "object": "Pattern Recognition Receptors",
+    "context": {
+      "en-US": "Toll-like receptors are the membrane-spanning class of pattern recognition receptors that sense PAMPs and DAMPs and, via TRIF/RIPK3 in the TLR3/4 arm, can trigger necroptosis.",
+      "zh-TW": "Toll 樣受體為辨識 PAMP 與 DAMP 的跨膜模式識別受體；經 TLR3/4 臂的 TRIF/RIPK3 可觸發 necroptosis。"
+    },
+    "confidence": 0.88,
+    "source_document": "Toll-like Receptor.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "b17759edf311",
+    "subject": "Interferon",
+    "predicate": "upregulates",
+    "object": "ZBP1",
+    "context": {
+      "en-US": "ZBP1 (DAI) is an interferon-stimulated gene: type I/II IFN signaling induces ZBP1 expression, priming the ZBP1-RIPK3 necrosome for antiviral necroptosis (MURI-viable sensors; Malireddi et al.; Kuriakose et al., Cell Host Microbe 2016).",
+      "zh-TW": "ZBP1（DAI）為干擾素刺激基因：第一/二型 IFN 訊號誘導 ZBP1 表現，啟動 ZBP1-RIPK3 necrosome 以執行抗病毒 necroptosis（Kuriakose et al., Cell Host Microbe 2016）。"
+    },
+    "confidence": 0.85,
+    "source_document": "DAI.md",
+    "created": "2026-09-14T03:00:00Z",
+    "updated": "2026-09-14T03:00:00Z"
+  },
+  {
+    "id": "90b77cc5fa79",
+    "subject": "Spermidine",
+    "predicate": "inhibits",
+    "object": "EP300",
+    "context": {
+      "en-US": "Spermidine induces autophagy primarily by inhibiting the acetyltransferase EP300, causing hypoacetylation of ATG proteins (ATG5, ATG7, ATG12, LC3) and derepressing autophagic flux through an mTOR-independent route distinct from rapamycin (Pietrocola 2015; Rzeski 2026).",
+      "zh-TW": "Spermidine 主要透過抑制乙醯轉移酶 EP300 誘導 autophagy，使 ATG 蛋白（ATG5、ATG7、ATG12、LC3）去乙醯化，並以 mTOR 非依賴途徑啟動自噬通量，有別於 rapamycin（Pietrocola 2015；Rzeski 2026）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "d7b5aadb954a",
+    "subject": "Spermidine",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Spermidine is a dietary caloric-restriction mimetic whose lifespan extension in yeast, worms, flies, and mice is abolished by atg-gene knockouts; it additionally supports mitochondrial function via eIF5A hypusination and suppresses NLRP3/NF-kB inflammaging signals.",
+      "zh-TW": "Spermidine 為飲食性熱量限制模擬物，其在酵母、線蟲、果蠅與小鼠的延壽效應可被 atg 基因敲除消除；另經 eIF5A hypusination 支持粒線體功能，並抑制 NLRP3/NF-kB 炎性老化訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "1c56e94cf95a",
+    "subject": "Spermidine",
+    "predicate": "associated_with",
+    "object": "Mortality",
+    "context": {
+      "en-US": "In the prospective Bruneck cohort (n=829, 20-year follow-up), higher dietary spermidine intake was independently associated with reduced all-cause mortality (40.5 to 15.1 deaths/1000 person-years across tertiles), replicated in the Salzburg cohort; observational, residual confounding possible.",
+      "zh-TW": "前瞻性 Bruneck 世代（n=829，追蹤 20 年）顯示，較高飲食 spermidine 攝取與較低全因死亡率獨立相關（三分位由 40.5 降至 15.1 deaths/1000 person-years），Salzburg 世代亦複驗；屬觀察性研究，仍有殘餘干擾可能。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "3b2ab7c04c66",
+    "subject": "Spermidine",
+    "predicate": "complements",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Spermidine (broad EP300-dependent bulk autophagy) and Urolithin A (PINK1/Parkin-selective mitophagy) operate through distinct but convergent clearance pathways; their combination is proposed to give more comprehensive proteostatic and mitochondrial quality control than either alone (Borsky 2025).",
+      "zh-TW": "Spermidine（廣泛性 EP300 依賴巨自噬）與 Urolithin A（PINK1/Parkin 選擇性 mitophagy）經由不同但匯聚的清除途徑作用；兩者併用被認為可提供比單用更全面的蛋白質恆定與粒線體品質控制（Borsky 2025）。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "98e40e911499",
+    "subject": "Fisetin",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Fisetin was the most potent senolytic among ten flavonoids screened (1-10 uM clearing 25-50% of senescent fibroblasts); late-life administration extended median and maximum lifespan in mice, and intermittent dosing matched genetic p16+ clearance for frailty and grip strength (Yousefzadeh 2018; Murray 2025).",
+      "zh-TW": "在十種 flavonoid 篩選中，Fisetin 是最強 senolytic（1–10 uM 清除 25–50% 老化纖維母細胞）；老年給藥延長小鼠中位與最大壽命，間歇給藥在衰弱與握力改善上媲美基因清除 p16+ 細胞（Yousefzadeh 2018；Murray 2025）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "c50db2093875",
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "PI3K",
+    "context": {
+      "en-US": "Fisetin exerts senolytic activity by inhibiting the constitutively active PI3K/AKT pro-survival axis in senescent cells (reducing FOXO phosphorylation and NF-kB survival signaling) together with direct inhibition of anti-apoptotic Bcl-2/Bcl-xL proteins, lowering the mitochondrial apoptotic threshold selectively in senescent cells.",
+      "zh-TW": "Fisetin 透過抑制老化細胞中持續活化的 PI3K/AKT 存活軸（降低 FOXO 磷酸化與 NF-kB 存活訊號），並直接抑制抗凋亡 Bcl-2/Bcl-xL 蛋白，選擇性降低老化細胞的粒線體凋亡閾值，發揮 senolytic 作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "b3204b8b60bd",
+    "subject": "Berberine",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Berberine activates AMPK via mitochondrial complex-I inhibition (elevated AMP:ATP, Thr172 phosphorylation), driving GLUT4 translocation, fatty-acid oxidation, SREBP-1c suppression, and mTORC1 inhibition — paralleling caloric-restriction and exercise metabolic adaptations.",
+      "zh-TW": "Berberine 經粒線體 complex-I 抑制（AMP:ATP 上升、Thr172 磷酸化）活化 AMPK，促進 GLUT4 轉位、脂肪酸氧化，抑制 SREBP-1c 與 mTORC1，類似熱量限制與運動的代謝適應。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "33c7dafb87ad",
+    "subject": "Berberine",
+    "predicate": "promotes",
+    "object": "Akkermansia",
+    "context": {
+      "en-US": "With only 1-5% systemic bioavailability, berberine reaches high intraluminal concentrations that reshape the microbiome — enriching Akkermansia muciniphila, Bifidobacterium, and SCFA-producing Lactobacillus — an effect linked to metabolic improvement in the PREMOTE trial independently of systemic absorption.",
+      "zh-TW": "Berberine 全身生體可用率僅 1–5%，腸腔濃度高因而重塑菌相——增加 Akkermansia muciniphila、 Bifidobacterium 與產 SCFA 的 Lactobacillus；PREMOTE 試驗顯示此效應與代謝改善相關，且獨立於全身吸收。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "e8a58a714f9e",
+    "subject": "Berberine",
+    "predicate": "treats",
+    "object": "Type 2 Diabetes",
+    "context": {
+      "en-US": "Berberine holds the strongest clinical dataset of the four compounds: head-to-head equivalence with metformin (Yin 2008, 500 mg TID), a 46-RCT meta-analysis (HbA1c -0.73%, fasting glucose -0.86 mmol/L, LDL-C -0.86 mmol/L), and PREMOTE (HbA1c ~-1% with microbiome shifts); BUDCA salt extends efficacy to NASH liver fat.",
+      "zh-TW": "Berberine 擁有四者中最強臨床證據：與 metformin 等效（Yin 2008，500 mg TID）、46 個 RCT 統合分析（HbA1c -0.73%、空腹血糖 -0.86 mmol/L、LDL-C -0.86 mmol/L）、PREMOTE（HbA1c 約 -1% 伴菌相變化）；BUDCA 鹽型更擴及 NASH 肝脂肪。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "f9320358795e",
+    "subject": "Berberine",
+    "predicate": "interacts_with",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Berberine inhibits CYP3A4, CYP2D6, and P-glycoprotein while fisetin is itself a CYP3A4 substrate and partial inhibitor; co-administration could mutually elevate plasma levels with unpredictable pharmacodynamics — an unstudied interaction warranting dedicated PK trials, with temporal dose separation as interim mitigation.",
+      "zh-TW": "Berberine 抑制 CYP3A4、CYP2D6 與 P-gp，而 Fisetin 本身是 CYP3A4 受質兼部分抑制劑；併用可能相互墊高血漿濃度、藥效難測——此交互作用尚未被研究，需專門 PK 試驗，暫以分時給藥因應。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "865cc2e48cbf",
+    "subject": "Urolithin A",
+    "predicate": "enhances",
+    "object": "Skeletal Muscle",
+    "context": {
+      "en-US": "In the ATLAS RCT (n=88, 500/1000 mg/day, 4 months), Urolithin A improved hamstring strength ~12%, aerobic endurance (VO2), and 6-min walk distance with reduced acylcarnitines/CRP; muscle biopsies showed Parkin-mediated ubiquitin-proteasome enrichment (500 mg) and OXPHOS upregulation (1000 mg).",
+      "zh-TW": "ATLAS RCT（n=88，500/1000 mg/天，4 個月）中，Urolithin A 提升腿後肌力約 12%、有氧耐力（VO2）與 6 分鐘步行距離，並降低 acylcarnitines/CRP；肌肉切片顯示 Parkin 相關泛素-蛋白酶體富集（500 mg）與 OXPHOS 上調（1000 mg）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "403eb2a936f3",
+    "subject": "Ellagic Acid",
+    "predicate": "converts_to",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Dietary ellagitannins hydrolyze to Ellagic Acid, which colonic Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens convert through urolithin M6/C to terminal Urolithin A; only Metabotype A individuals (25-55%) convert efficiently, so direct UA supplementation bypasses microbiome dependency.",
+      "zh-TW": "飲食 ellagitannins 水解為 Ellagic Acid，再由結腸 Gordonibacter urolithinfaciens 與 Ellagibacter isourolithinifaciens 經 urolithin M6/C 轉為終端 Urolithin A；僅 Metabotype A 個體（25–55%）能有效轉換，故直接補充 UA 可繞過菌相依賴。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "d4d6f2889b33",
+    "subject": "Urolithin A",
+    "predicate": "combined_with",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "NCT06990256 is the only registered trial combining any two of the four compounds: Urolithin A (500 mg) and Fisetin (500 mg), including a UA 300 mg + fisetin 200 mg arm, assessing sleep and aging biomarkers (DNA-methylation age, inflammation, BMAL1/PER2, HOMA-IR) over 12 weeks; results pending.",
+      "zh-TW": "NCT06990256 是唯一註冊的四者任二併用試驗：Urolithin A（500 mg）與 Fisetin（500 mg），含 UA 300 mg + fisetin 200 mg 組，評估睡眠與老化生物標誌（DNA 甲基化年齡、發炎、BMAL1/PER2、HOMA-IR）12 週；結果待公布。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-17T17:35:08Z",
+    "updated": "2026-09-17T17:35:08Z"
+  },
+  {
+    "id": "06cc01173fb4",
+    "subject": "Berberine",
+    "predicate": "inhibits",
+    "object": "CYP3A4",
+    "context": {
+      "en-US": "Berberine is a clinically relevant inhibitor of the drug-metabolizing enzyme CYP3A4 (along with CYP2D6 and P-glycoprotein), elevating plasma levels of co-administered CYP3A4 substrates such as certain statins, cyclosporine, and warfarin; because Fisetin is itself a CYP3A4 substrate and partial inhibitor, berberine-fisetin co-administration may mutually raise exposure, warranting temporal dose separation pending dedicated interaction trials.",
+      "zh-TW": "Berberine 是具臨床意義的藥物代謝酶 CYP3A4 抑制劑（兼抑制 CYP2D6 與 P-glycoprotein），會墊高併用 CYP3A4 受質（如特定 statins、cyclosporine、warfarin）的血漿濃度；因 Fisetin 本身亦為 CYP3A4 受質兼部分抑制劑，兩者併用可能相互墊高暴露量，在專門交互作用試驗完成前宜分時給藥。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "bbc88b11f738",
+    "subject": "Spermidine",
+    "predicate": "suppresses",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Under the autophagy-senescence threshold model, Spermidine-induced autophagic flux suppresses entry into Senescence while cellular damage stays below a critical threshold; once damage exceeds it, autophagy is reprogrammed to support senescent-cell survival and senolytics such as Fisetin are required, making spermidine and fisetin sequential non-redundant partners on the same continuum.",
+      "zh-TW": "在 autophagy–senescence 閾值模型下，Spermidine 誘導的自噬通量可在細胞損傷低於臨界閾值時抑制進入 Senescence；損傷超越閾值後，自噬被重編程以支持衰老細胞存活，此時需 Fisetin 等 senolytics 清除，使兩者在同一連續體上成為先後有序、非冗餘的搭檔。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "b8627e8be37d",
+    "subject": "Gut Microbiome",
+    "predicate": "produces",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "The Gut Microbiome is the obligate producer of Urolithin A: colonic bacteria convert dietary ellagitannin-derived Ellagic Acid through urolithin M6/C to terminal Urolithin A, principally via Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens with Enterocloster contributions; because the converter consortium is absent in metabotype 0 individuals, direct Urolithin A supplementation bypasses microbiome dependency.",
+      "zh-TW": "Gut Microbiome 是 Urolithin A 的必要生產者：結腸菌將飲食 ellagitannin 來源的 Ellagic Acid 經 urolithin M6/C 轉為終端 Urolithin A，主要經 Gordonibacter urolithinfaciens 與 Ellagibacter isourolithinifaciens，另有 Enterocloster 參與；因 metabotype 0 個體缺乏轉換菌叢，直接補充 Urolithin A 可繞過菌相依賴。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "38953818804f",
+    "subject": "Gordonibacter urolithinfaciens",
+    "predicate": "metabolizes",
+    "object": "Ellagic Acid",
+    "context": {
+      "en-US": "Gordonibacter urolithinfaciens, an Eggerthellaceae gut anaerobe, metabolizes dietary Ellagic Acid as the principal upstream converter in the urolithin pathway, generating intermediate urolithins (M5/D/C) that downstream consortium members finish to Urolithin A; its carriage underpins metabotype A converter status.",
+      "zh-TW": "Gordonibacter urolithinfaciens 為 Eggerthellaceae 腸道厭氧菌，是 urolithin 途徑的主要上游轉換者，代謝飲食 Ellagic Acid 產生中間 urolithins（M5/D/C），再由下游菌叢完成為 Urolithin A；其攜帶與否決定 metabotype A 轉換者身分。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "ebe5a6a4d842",
+    "subject": "Ellagibacter isourolithinifaciens",
+    "predicate": "produces",
+    "object": "Isourolithin A",
+    "context": {
+      "en-US": "Ellagibacter isourolithinifaciens, an Eggerthellaceae gut bacterium, is specifically characterized by producing Isourolithin A, the structural isomer of Urolithin A, from dietary Ellagic Acid; its activity defines urolithin metabotype B (urolithin B plus isourolithin A producers) as distinct from Urolithin A-predominant metabotype A.",
+      "zh-TW": "Ellagibacter isourolithinifaciens 為 Eggerthellaceae 腸道菌，其特徵是能由飲食 Ellagic Acid 產生 Isourolithin A（Urolithin A 的結構異構物）；其活性定義了 urolithin metabotype B（產 urolithin B 與 isourolithin A 者），有別於以 Urolithin A 為主的 metabotype A。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "727132674518",
+    "subject": "Enterocloster",
+    "predicate": "contributes_to",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Select Enterocloster gut species contribute to the multi-step consortium conversion of Ellagic Acid toward Urolithin A alongside the principal converters Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens; as a minor contributor its presence modulates but does not alone determine urolithin metabotype.",
+      "zh-TW": "特定 Enterocloster 腸道菌種與主要轉換者 Gordonibacter urolithinfaciens 及 Ellagibacter isourolithinifaciens 共同參與 Ellagic Acid 往 Urolithin A 的多步菌叢轉換；作為次要貢獻者，其存在可調節但不足以單獨決定 urolithin metabotype。"
+    },
+    "confidence": 0.65,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "f5465a436bc4",
+    "subject": "Metabotypes",
+    "predicate": "determines",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Urolithin Metabotypes (A: Urolithin A producers, ~25-55%; B: urolithin B/isourolithin A producers; 0: non-producers) determine whether dietary ellagitannins yield systemic Urolithin A exposure: only metabotype A converts efficiently, so ellagitannin foods fail for most people while direct Urolithin A supplementation works across all metabotypes.",
+      "zh-TW": "Urolithin Metabotypes（A：產 Urolithin A 者，約 25–55%；B：產 urolithin B/isourolithin A 者；0：非生產者）決定飲食 ellagitannins 能否帶來全身 Urolithin A 暴露：僅 A 型能有效轉換，故 ellagitannin 食物對多數人無效，而直接補充 Urolithin A 適用所有 metabotypes。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
+    "created": "2026-09-18T17:50:24Z",
+    "updated": "2026-09-18T17:50:24Z"
   }
 ]

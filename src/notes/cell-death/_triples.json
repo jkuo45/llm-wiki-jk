@@ -336,20 +336,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "2494a038b445",
-    "subject": "Caspase-8",
-    "predicate": "activates",
-    "object": "Caspase-3",
-    "context": {
-      "en-US": "In the extrinsic (death receptor) pathway, FasL or TNF-α engagement assembles the DISC, activating initiator caspase-8 (with caspase-10), which directly cleaves the executioner caspase-3 in type I cells. In type II cells caspase-8 instead cleaves Bid, routing through mitochondria. Caspase-8 sits at the crossroads of apoptosis, necroptosis, and pyroptosis because its active form also cleaves RIPK1 and RIPK3, preventing necroptosis — so caspase-8-to-caspase-3 flow is simultaneously a death signal and a necroptosis suppressor.",
-      "zh-TW": "在外在（死亡受體）路徑中，FasL 或 TNF-α 的結合組裝出 DISC，活化起始 caspase-8（與 caspase-10），其在 type I 細胞中直接切割執行者 Caspase-3；在 type II 細胞中 caspase-8 則切割 Bid，改經粒線體路徑。Caspase-8 位於細胞凋亡、程序性壞死與細胞焦亡的十字路口，因為其活化形式也會切割 RIPK1 與 RIPK3 從而阻止程序性壞死——因此 caspase-8 至 Caspase-3 的流動既是死亡訊號，也是程序性壞死的抑制者。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
-    "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "d3f9d15bc07f",
     "subject": "Erastin",
     "predicate": "inhibits",
@@ -1993,13 +1979,13 @@
     "predicate": "activates",
     "object": "Caspase-3",
     "context": {
-      "en-US": "Caspase-8 activates Caspase-3. Caspase-8 is the initiator caspase of the extrinsic pathway and also gates the intrinsic pathway through Bid cleavage. Caspase-3 is the principal executioner caspase that cleaves hundreds of substrates to produce the apoptotic phenotype. The relationship is directional, with Caspase-8 acting as the operative agent upon Caspase-3 rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
-      "zh-TW": "Caspase-8 啟動 Caspase-3。 Caspase-8 是 Extrinsic Pathway 的起始半胱天冬酶，也透過 Bid 裂解對 Intrinsic Pathway 進行門控。 Caspase-3 是主要的劊子手半胱天冬酶，可切割數百個底物以產生凋亡表型。這種關係是有方向的，Caspase-8 充當 Caspase-3 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
+      "en-US": "Caspase-8 activates Caspase-3: as the initiator caspase of the extrinsic (death receptor) pathway, DISC-assembled caspase-8 (with caspase-10) directly cleaves the executioner Caspase-3 in type I cells, while in type II cells it cleaves Bid to route through mitochondria. Caspase-3 is the principal executioner that cleaves hundreds of substrates to produce the apoptotic phenotype. Caspase-8 also sits at the crossroads of apoptosis, necroptosis, and pyroptosis — its active form cleaves RIPK1 and RIPK3, preventing necroptosis — so the caspase-8-to-Caspase-3 flow is simultaneously a death signal and a necroptosis suppressor.",
+      "zh-TW": "Caspase-8 啟動 Caspase-3：作為外在（死亡受體）路徑之起始 caspase，經 DISC 組裝之 caspase-8（與 caspase-10）在 type I 細胞中直接切割執行者 Caspase-3；在 type II 細胞中則切割 Bid，改經粒線體路徑。Caspase-3 是 主要的執行者 caspase，可切割數百種受質以產生凋亡表型。Caspase-8 亦位於凋亡、necroptosis 與焦亡之十字路口——其活化 形式會切割 RIPK1 與 RIPK3 以阻止 necroptosis——因此 Caspase-8 至 Caspase-3 之流動既是死亡訊號，也是 necroptosis 之抑制者。"
     },
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-14T23:30:00Z"
   },
   {
     "id": "3f2ca07dd42a",
@@ -2489,7 +2475,7 @@
     "confidence": 0.9,
     "source_document": "DAPK.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T00:00:00Z"
+    "updated": "2026-09-11T16:47:59Z"
   },
   {
     "id": "efde98878747",
@@ -2770,5 +2756,1349 @@
     "source_document": "BAX.md",
     "created": "2026-09-12T18:53:13Z",
     "updated": "2026-09-12T18:54:20Z"
+  },
+  {
+    "id": "0f5f0a88767f",
+    "subject": "Necroptosis",
+    "predicate": "releases",
+    "object": "Damage-Associated Molecular Patterns",
+    "context": {
+      "en-US": "Necroptotic plasma-membrane rupture spills intracellular contents — HMGB1, ATP, mitochondrial DNA — that are recognized as DAMPs by TLRs and inflammasomes; the DAMP release is the defining inflammatory payoff that separates necroptosis from silent apoptosis (Dhuriya & Sharma 2018).",
+      "zh-TW": "Necroptotic 質膜破裂釋出胞內內容物（HMGB1、ATP、粒線體 DNA），被 TLR 與炎症小體辨識為 DAMP；DAMP 釋放是區分 necroptosis 與無聲凋亡的關鍵發炎特徵（Dhuriya & Sharma 2018）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "469a6bcd8baa",
+    "subject": "Necroptosis",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "DAMP release plus direct RIPK3-dependent inflammasome activation (caspase-8- and NLRP3-mediated arms) make necroptosis intrinsically pro-inflammatory; uncontrolled necroptosis converts host defense into chronic necroinflammatory disease.",
+      "zh-TW": "DAMP 釋放加上 RIPK3 直接驅動的炎症小體活化（caspase-8 與 NLRP3 兩臂）使 necroptosis 本質上促發炎；失控的 necroptosis 將宿主防禦轉為慢性壞死性發炎疾病。"
+    },
+    "confidence": 0.92,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "206beb0e83d1",
+    "subject": "RIPK1",
+    "predicate": "forms_complex_with",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "RIPK1 recruits RIPK3 through RHIM interactions to assemble the necrosome; RIPK1 kinase activity then phosphorylates RIPK3, the obligatory relay of the necroptotic cascade.",
+      "zh-TW": "RIPK1 經 RHIM 交互作用招募 RIPK3 組裝 necrosome；RIPK1 激酶活性隨後磷酸化 RIPK3，為 necroptosis 級聯的必需接續步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "necrosome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "77427fdda87c",
+    "subject": "RIPK3",
+    "predicate": "activates",
+    "object": "MLKL",
+    "context": {
+      "en-US": "RIPK3 phosphorylates MLKL (human Thr357/Ser358) to license its oligomerization and membrane-pore formation, the terminal executor step of necroptosis.",
+      "zh-TW": "RIPK3 磷酸化 MLKL（人類 Thr357/Ser358），准許其寡聚化並形成膜孔，為 necroptosis 的末端執行步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "necrosome.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "bb8f935b743b",
+    "subject": "TNFα",
+    "predicate": "activates",
+    "object": "TNFR1",
+    "context": {
+      "en-US": "TNFα binding to TNFR1 nucleates Complex I (TRADD/RIPK1/TRAF2/cIAPs/NEMO-IKK) for NF-κB survival signaling; when NF-κB output is blocked and caspase-8 inhibited the same receptor licenses the necrosome.",
+      "zh-TW": "TNFα 結合 TNFR1 組裝 Complex I（TRADD/RIPK1/TRAF2/cIAPs/NEMO-IKK）啟動 NF-κB 生存訊號；當 NF-κB 受阻且 caspase-8 被抑制時，同一受體轉而准許 necrosome 形成。"
+    },
+    "confidence": 0.92,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "782cf36e9bd6",
+    "subject": "Cerulein-Induced Pancreatitis",
+    "predicate": "is_driven_by",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Acinar necrosis in cerulein-induced pancreatitis is driven in large part by necroptosis: supramaximal cerulein hyperstimulation activates RIPK3, whose phosphorylation of MLKL ruptures acinar membranes; RIPK3 or MLKL deletion attenuates severity.",
+      "zh-TW": "cerulein 誘導胰臟炎的腺泡壞死主要由 necroptosis 驅動：超最大量 cerulein 過度刺激活化 RIPK3，其磷酸化 MLKL 使腺泡膜破裂；RIPK3 或 MLKL 缺失可減輕嚴重度。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T03:00:00Z"
+  },
+  {
+    "id": "05a1c5bd7266",
+    "subject": "Cerulein-Induced Pancreatitis",
+    "predicate": "leads_to",
+    "object": "Systemic Inflammatory Response Syndrome",
+    "context": {
+      "en-US": "Acinar necroptosis in CIP releases DAMPs (HMGB1 etc.) that spill into the circulation and escalate local pancreatitis into systemic inflammatory response syndrome.",
+      "zh-TW": "CIP 中腺泡 necroptosis 釋出 DAMP（如 HMGB1）進入循環，使局部胰臟炎惡化為全身性發炎反應症候群（SIRS）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "24eb097fca06",
+    "subject": "RIPK3",
+    "predicate": "contributes_to",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "RIPK3 deletion attenuates acinar necrosis, edema, and serum amylase in cerulein-induced pancreatitis, supporting a causal necroptotic component.",
+      "zh-TW": "RIPK3 缺失減輕 cerulein 誘導胰臟炎的腺泡壞死、水腫與血清澱粉酶，支持 necroptosis 的因果角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "44761022c040",
+    "subject": "MLKL",
+    "predicate": "contributes_to",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "MLKL oligomerization is the proposed executor of acinar plasma-membrane rupture in cerulein-induced pancreatitis, but MLKL knockout does not consistently reduce CIP severity (He et al. 2015), suggesting RIPK3 may act through MLKL-independent substrates in this model.",
+      "zh-TW": "MLKL 寡聚化是 CIP 中腺泡質膜破裂的假定執行者，但 MLKL 敲除並未一致降低 CIP 嚴重度（He et al. 2015），提示 RIPK3 可能在此模型中透過 MLKL 非依賴底物作用。"
+    },
+    "confidence": 0.7,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "e5e4a9e39539",
+    "subject": "Necrostatin-1",
+    "predicate": "protects_against",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "RIPK1 inhibition with Necrostatin-1 attenuates acinar necrosis, edema, and serum amylase in cerulein-induced pancreatitis, confirming RIPK1 dependence of the necroptotic component.",
+      "zh-TW": "在 CIP 中以 Necrostatin-1 抑制 RIPK1 可減輕腺泡壞死、水腫與血清澱粉酶，證實該 necroptotic 成分依賴 RIPK1。"
+    },
+    "confidence": 0.83,
+    "source_document": "Cerulein-Induced Pancreatitis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "54e2e8884a59",
+    "subject": "Necrostatin-1s",
+    "predicate": "inhibits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Necrostatin-1s (Nec-1s) is the second-generation allosteric RIPK1 inhibitor: the same mechanism as Necrostatin-1 with improved metabolic stability and kinase selectivity.",
+      "zh-TW": "Necrostatin-1s（Nec-1s）為第二代 RIPK1 異位抑制劑：機制與 Nec-1 相同，但代謝穩定性與激酶選擇性更佳。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrostatin-1s.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "d99c76e635fc",
+    "subject": "Necrostatin-1s",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "By blocking RIPK1 kinase activity, Nec-1s prevents necrosome assembly and therefore RIPK3-MLKL necroptosis in vivo and in vitro.",
+      "zh-TW": "透過阻斷 RIPK1 激酶活性，Nec-1s 阻止 necrosome 組裝，進而抑制 RIPK3-MLKL necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necrostatin-1s.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "a8fa0085c35a",
+    "subject": "Necrostatin-1s",
+    "predicate": "is_successor_of",
+    "object": "Necrostatin-1",
+    "context": {
+      "en-US": "Nec-1s was developed as the second-generation successor to Necrostatin-1, retaining the RIPK1-targeting scaffold while eliminating the indoleamine-2,3-dioxygenase (IDO) off-target activity of the first-generation compound.",
+      "zh-TW": "Nec-1s 為 Nec-1 的第二代後繼化合物，保留靶向 RIPK1 的骨架，同時消除第一代化合物的 IDO 非靶標活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Necrostatin-1s.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "e770489ed510",
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "Active caspase-8 (often as the caspase-8/cFLIP-L heterodimer) cleaves RIPK1 to terminate necrosome signaling; its inhibition is a key precondition for necroptosis (Dhuriya & Sharma 2018).",
+      "zh-TW": "活化型 caspase-8（常為 caspase-8/cFLIP-L 異二聚體）切割 RIPK1 以終止 necrosome 訊號；其被抑制是 necroptosis 的關鍵前提之一（Dhuriya & Sharma 2018）。"
+    },
+    "confidence": 0.93,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "535f67c314f0",
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Active caspase-8 cleaves RIPK3 as well as RIPK1, disassembling the necrosome and blocking necroptosis; genetic loss of this cleavage is epistatically rescued by RIPK3/MLKL knockout.",
+      "zh-TW": "活化型 caspase-8 同樣切割 RIPK3 與 RIPK1，拆解 necrosome 並阻斷 necroptosis；此切割的遺傳缺失可由 RIPK3/MLKL 敲除表型挽救。"
+    },
+    "confidence": 0.9,
+    "source_document": "Necroptosis.md",
+    "created": "2026-09-14T02:30:00Z",
+    "updated": "2026-09-14T02:30:00Z"
+  },
+  {
+    "id": "6e54f2238e6b",
+    "subject": "Parthanatos",
+    "predicate": "requires",
+    "object": "PARP1",
+    "context": {
+      "en-US": "Parthanatos is strictly PARP1-dependent: genetic PARP1 deletion or pharmacological inhibition is strongly cytoprotective, and this obligatory dependence is the defining feature that separates it from apoptosis, necrosis and other regulated death modes (Moura et al. 2024).",
+      "zh-TW": "Parthanatos 嚴格依賴 PARP1：基因缺失或藥理抑制 PARP1 具強力細胞保護作用，且此絕對依賴性為其區別於 apoptosis、necrosis 等死亡模式的定義特徵（Moura et al. 2024）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "091464a7ba4b",
+    "subject": "MNNG",
+    "predicate": "induces",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "The alkylating agent MNNG (N-methyl-N'-nitro-N-nitrosoguanidine) generates a high load of PARP1-activating DNA strand breaks and is a classic trigger of parthanatos; MMS acts similarly (Moura et al. 2024).",
+      "zh-TW": "烷化劑 MNNG 產生大量可活化 PARP1 的 DNA 斷裂，是 parthanatos 的經典誘導劑；MMS 作用類似（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "daf3188592a1",
+    "subject": "NMDA receptor",
+    "predicate": "induces",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Glutamate/NMDA-receptor overstimulation in neurons (glutamate excitotoxicity) hyperactivates PARP1 and triggers parthanatos, the neuronal excitotoxic route to the pathway (Moura et al. 2024).",
+      "zh-TW": "神經元中麩胺酸/NMDA 受體過度刺激（麩胺酸興奮性毒性）過度活化 PARP1 並觸發 parthanatos，是此路徑的神經興奮性毒性途徑（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "8fc4da6fb56c",
+    "subject": "PARP1",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Because every ADP-ribose unit transferred consumes one NAD+, processive PARP1 hyperactivation rapidly and profoundly depletes cellular NAD+, accompanied by ATP loss that may drive energetic collapse during parthanatos (Moura et al. 2024).",
+      "zh-TW": "由於每轉移一個 ADP-ribose 即消耗一個 NAD+，持續的 PARP1 過度活化會迅速且大幅耗竭細胞 NAD+，並伴隨 ATP 下降，可能在 parthanatos 中驅動能量崩潰（Moura et al. 2024）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "e8a1a2530e42",
+    "subject": "NAD+ Salvage Pathway",
+    "predicate": "consumes",
+    "object": "ATP",
+    "context": {
+      "en-US": "Re-synthesizing NAD+ by the salvage pathway after PARP1 turnover is expensive: the complete cycle costs four high-energy phosphates per ADP-ribose unit. With NAD(H) around 0.3 mM versus ATP around 3-4 mM, full NAD+ turnover could itself contribute substantially to ATP depletion during parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARP1 周轉後經救援路徑重新合成 NAD+ 成本高昂：完整循環每單位 ADP-ribose 耗費四個高能磷酸鍵。NAD(H) 約 0.3 mM、ATP 約 3-4 mM，故 NAD+ 完全周轉本身即可顯著促成 parthanatos 中的 ATP 耗竭（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "270b8868d40b",
+    "subject": "PAR",
+    "predicate": "inhibits",
+    "object": "Hexokinase-1",
+    "context": {
+      "en-US": "In cortical neurons and glioblastoma lines, free PAR released from target proteins binds the PAR-binding motif of hexokinase-1 and inhibits its catalytic activity, blocking the first step of glycolysis; pyruvate bypass restores survival while NAD+ restoration alone does not (Moura et al. 2024).",
+      "zh-TW": "在皮質神經元與膠質母細胞瘤細胞中，自標靶蛋白釋出的游離 PAR 結合 hexokinase-1 的 PAR 結合模體並抑制其催化活性，阻斷糖解第一步；補充 pyruvate 可恢復存活，單純回復 NAD+ 則無效（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "3a61a7942b0f",
+    "subject": "Hexokinase-1",
+    "predicate": "supports",
+    "object": "Pentose Phosphate Pathway",
+    "context": {
+      "en-US": "As hexokinase-1 produces glucose-6-phosphate, its PAR-mediated inhibition also starves the pentose phosphate pathway, providing a mechanistic link to the NADPH and reduced-glutathione depletion observed during parthanatos (Moura et al. 2024).",
+      "zh-TW": "由於 hexokinase-1 產生 glucose-6-phosphate，其受 PAR 抑制亦使戊糖磷酸途徑缺乏底物，為 parthanatos 中觀察到的 NADPH 與還原態穀胱甘肽耗竭提供機制連結（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "365126009738",
+    "subject": "PARG",
+    "predicate": "generates",
+    "object": "ADP-ribose",
+    "context": {
+      "en-US": "PARG hydrolyzes PAR chains, releasing free ADP-ribose monomers. This free ADP-ribose is the ligand that gates TRPM2 and the substrate for Nudix degradation, making PARG activity a determinant of the downstream Ca2+ and AMP arms of parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARG 水解 PAR 鏈釋出游離 ADP-ribose 單體。此游離 ADP-ribose 是開啟 TRPM2 的配體及 Nudix 降解的受質，使 PARG 活性成為 parthanatos 下游 Ca2+ 與 AMP 分支的決定因素（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "1e25369c52c6",
+    "subject": "ARH3",
+    "predicate": "is_dispensable_for",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "ARH3, the exo-PARase and serine-ADP-ribosylhydrolase partner of PARG, is dispensable for PARP1-dependent death in an RPE1/MNNG model, so its protective role is cell-type and insult dependent and contrasts with its sensitivity in ischemia and H2O2 systems (Moura et al. 2024).",
+      "zh-TW": "ARH3（PARG 的外切 PAR 酶與絲胺酸 ADP-ribosyl 水解酶夥伴）在 RPE1/MNNG 模型中對 PARP1 依賴性死亡並非必需，其保護作用取決於細胞類型與刺激，並與其在缺血與 H2O2 系統中的敏感性形成對比（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "917f70fd5f25",
+    "subject": "ADP-ribose",
+    "predicate": "activates",
+    "object": "TRPM2",
+    "context": {
+      "en-US": "Free ADP-ribose binds the NUDT9-homology domain of the Ca2+-permeable channel TRPM2 to open it. In parthanatos this ADP-ribose-dependent gating requires PARG activity and links PAR turnover to Ca2+ influx (Moura et al. 2024).",
+      "zh-TW": "游離 ADP-ribose 結合鈣通透通道 TRPM2 的 NUDT9 同源結構域使其開啟。在 parthanatos 中此依賴 ADP-ribose 的開啟需要 PARG 活性，將 PAR 周轉連結至 Ca2+ 內流（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "129796512557",
+    "subject": "TRPM2",
+    "predicate": "contributes_to",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "TRPM2-mediated Ca2+ influx is contributory in H2O2, amyloid-beta, cardiomyocyte, beta-cell and renal ischemia-reperfusion models, where PARP1 inhibition or Ca2+ chelation protects. However Ca2+ chelation fails in MNNG models and endoplasmic-reticulum Ca2+ release can operate independently of PARG, so TRPM2-dependent and TRPM2-independent parthanatos likely coexist (Moura et al. 2024).",
+      "zh-TW": "TRPM2 介導的 Ca2+ 內流在 H2O2、amyloid-beta、心肌細胞、beta 細胞與腎缺血再灌注模型中具貢獻，PARP1 抑制或 Ca2+ 螯合可保護。然而在 MNNG 模型中 Ca2+ 螯合無效，且內質網 Ca2+ 釋放可獨立於 PARG，故 TRPM2 依賴性與非依賴性 parthanatos 可能並存（Moura et al. 2024）。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "653588bfdd2f",
+    "subject": "Nudix Hydrolases",
+    "predicate": "degrades",
+    "object": "ADP-ribose",
+    "context": {
+      "en-US": "Phosphodiesterases of the Nudix superfamily cleave free ADP-ribose at its phosphodiester bond, degrading it to AMP and ribose-5-phosphate; they can also leave a phosphoribose mark on ADP-ribosylated proteins in vitro (Moura et al. 2024).",
+      "zh-TW": "Nudix 超家族的磷酸二酯酶切割游離 ADP-ribose 的磷酸二酯鍵，將其降解為 AMP 與 ribose-5-phosphate；在體外亦可於 ADP-ribosylated 蛋白上留下 phosphoribose 標記（Moura et al. 2024）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "147aa3d3694e",
+    "subject": "Nudix Hydrolases",
+    "predicate": "produces",
+    "object": "AMP",
+    "context": {
+      "en-US": "Nudix cleavage of ADP-ribose yields AMP, and the resulting ribose-5-phosphate can form PRPP for NAD+ salvage. The accumulating ADP and especially AMP may be an important death signal, and AMP can inhibit the mitochondrial adenine nucleotide translocator (Moura et al. 2024).",
+      "zh-TW": "Nudix 切割 ADP-ribose 產生 AMP，所得 ribose-5-phosphate 可形成 PRPP 供 NAD+ 救援。蓄積的 ADP 與特別是 AMP 可能是重要死亡訊號，且 AMP 可抑制粒線體 adenine nucleotide translocator（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "7618df425b13",
+    "subject": "AMP",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "MNNG treatment of HEK-293 cells raised the AMP/ATP ratio and activated AMP-activated protein kinase (AMPK). The relative contribution of Nudix-derived AMP versus glycolytic ATP loss to this activation remains unresolved (Moura et al. 2024).",
+      "zh-TW": "MNNG 處理 HEK-293 細胞提高 AMP/ATP 比值並活化 AMPK。Nudix 產生的 AMP 與糖解 ATP 流失對此活化的相對貢獻仍未釐清（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "c36eb0d6d267",
+    "subject": "AMPK",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "AMPK activated downstream of PARP1 hyperactivation inhibits mTORC1 signaling, which regulates cell death/survival and energy metabolism; this predicts an autophagic response in parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARP1 過度活化下游活化的 AMPK 抑制 mTORC1 訊號，後者調控細胞死亡/存活與能量代謝；此預期 parthanatos 中會出現自噬反應（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "9f8d88d4d6f0",
+    "subject": "AMPK",
+    "predicate": "modulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "AMPK-mTORC1 signaling downstream of AMP accumulation has been proposed to induce an autophagic response in parthanatos, but whether AMPK activation and autophagy contribute to death execution or are protective is currently unclear (Moura et al. 2024).",
+      "zh-TW": "AMP 蓄積下游的 AMPK-mTORC1 訊號被認為在 parthanatos 中誘導自噬反應，但 AMPK 活化與自噬究竟促成死亡執行或具保護作用目前仍不清楚（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "7fd356215ec3",
+    "subject": "SLC25A51",
+    "predicate": "imports",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Mitochondrial NAD+ is maintained separately from the rapidly equilibrating nuclear/cytosolic pool and can be imported via the SLC25A51 transporter. Together with a reported mitochondrial PARP1 pool, this suggests PARP1 hyperactivation may also deplete mitochondrial NAD+ and shape parthanatos execution (Moura et al. 2024).",
+      "zh-TW": "粒線體 NAD+ 與快速平衡的核/胞質池分開維持，可經 SLC25A51 轉運蛋白輸入。加上據報導存在的粒線體 PARP1 池，這提示 PARP1 過度活化亦可能耗竭粒線體 NAD+ 並影響 parthanatos 執行（Moura et al. 2024）。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "e225a0edc9a9",
+    "subject": "Calpain",
+    "predicate": "releases",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Calpain I, a Ca2+-dependent protease, can cleave and release AIF from mitochondria (62 to 57 kDa) and cleaves BID to route Ca2+ signals through BAX, providing a candidate Ca2+-calpain-AIF route in parthanatos. However calpain inhibition or knockout does not prevent AIF release in some models, so its role is context dependent (Moura et al. 2024).",
+      "zh-TW": "鈣依賴蛋白酶 calpain I 可切割並自粒線體釋放 AIF（62 至 57 kDa），並切割 BID 使 Ca2+ 訊號經 BAX 傳遞，為 parthanatos 中 Ca2+-calpain-AIF 的候選路徑。然而部分模型中 calpain 抑制或敲除無法阻止 AIF 釋放，故其角色取決於情境（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "628c26fedc73",
+    "subject": "Mitochondrial Permeability Transition Pore",
+    "predicate": "releases",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Opening of the mitochondrial permeability transition pore allows non-selective solute diffusion, mitochondrial swelling and rupture, and is a candidate route for AIF release during parthanatos alongside direct PAR binding and calpain proteolysis (Moura et al. 2024).",
+      "zh-TW": "粒線體通透性轉換孔開啟使溶質非選擇性擴散、粒線體腫脹與破裂，為 parthanatos 中 AIF 釋放的候選途徑之一，與直接 PAR 結合及 calpain 蛋白酶解並列（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "8b1d00e45550",
+    "subject": "Apoptosis-Inducing Factor",
+    "predicate": "translocates_to",
+    "object": "Nucleus",
+    "context": {
+      "en-US": "After PARP1 hyperactivation AIF is often observed to translocate from mitochondria to the nucleus, where it is associated with large-scale DNA fragmentation. However some PARP1-dependent death models show no detectable AIF translocation, implying AIF-independent parthanatos (Moura et al. 2024).",
+      "zh-TW": "PARP1 過度活化後常觀察到 AIF 自粒線體轉位至細胞核，並與大規模 DNA 斷裂相關。然而部分 PARP1 依賴性死亡模型未見 AIF 轉位，提示存在不依賴 AIF 的 parthanatos（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "95d6cfb7c505",
+    "subject": "MIF",
+    "predicate": "cleaves",
+    "object": "DNA",
+    "context": {
+      "en-US": "Cytoplasmic AIF binds macrophage migration inhibitory factor (MIF), which has nuclease activity, and the pair co-translocates to the nucleus to execute large-scale DNA fragmentation; a selective MIF-nuclease inhibitor protects in a mouse model of parkinsonism. An AIF-cyclophilin A-histone H2AX complex with intrinsic AIF nuclease activity is the alternative model (Moura et al. 2024).",
+      "zh-TW": "胞質 AIF 結合具核酸酶活性的 MIF，兩者共同轉位至細胞核執行大規模 DNA 斷裂；選擇性 MIF 核酸酶抑制劑在帕金森氏症小鼠模型中具保護作用。具內在 AIF 核酸酶活性的 AIF-cyclophilin A-histone H2AX 複合體為替代模型（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "e1995185f2ed",
+    "subject": "Parthanatos",
+    "predicate": "can_occur_independently_of",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Some PARP1-dependent death models, including retinal cells and macrophages, show no detectable AIF translocation yet still die, indicating AIF-independent parthanatos. This likely reflects death via NAD+/ATP depletion and mitochondrial fission/dysfunction rather than large-scale DNA fragmentation (Moura et al. 2024).",
+      "zh-TW": "部分 PARP1 依賴性死亡模型（包括視網膜細胞與巨噬細胞）未見 AIF 轉位卻仍死亡，提示存在不依賴 AIF 的 parthanatos。其可能經由 NAD+/ATP 耗竭與粒線體分裂/功能障礙而非大規模 DNA 斷裂致死（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "c4c1ec15c359",
+    "subject": "Parthanatos",
+    "predicate": "is_distinct_from",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Although parthanatos shares loss of membrane integrity with necrosis, it is a regulated, strictly PARP1-dependent, caspase-independent death featuring PAR accumulation, AIF translocation and large-scale DNA fragmentation, distinguishing it from accidental necrosis (Moura et al. 2024).",
+      "zh-TW": "雖然 parthanatos 與 necrosis 同樣失去膜完整性，但其為受調控、嚴格依賴 PARP1、caspase 非依賴的死亡，具 PAR 累積、AIF 轉位與大規模 DNA 斷裂特徵，與意外性 necrosis 有別（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "f250d1109ba4",
+    "subject": "Parthanatos",
+    "predicate": "antagonizes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Parthanatos can preclude apoptosis: prolonged NAD+/ATP depletion after severe DNA damage blocks apoptotic execution, whereas lower damage allows a transient dip and apoptosis; conversely apoptotic caspases cleave PARP1 to prevent parthanatos. Whether the crosstalk extends beyond mutual antagonism is an open question (Moura et al. 2024).",
+      "zh-TW": "Parthanatos 可排除 apoptosis：嚴重 DNA 損傷後持續的 NAD+/ATP 耗竭阻斷凋亡執行，而較輕損傷僅造成短暫下降並容許凋亡；反之凋亡 caspase 切割 PARP1 以阻止 parthanatos。此交互作用是否不僅止於相互拮抗仍是未解問題（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "fae890dc0fcc",
+    "subject": "PAANIB-1",
+    "predicate": "inhibits",
+    "object": "MIF",
+    "context": {
+      "en-US": "PAANIB-1 is a brain-penetrant, selective inhibitor of the MIF (PAAN) nuclease function; it protects cells from parthanatos in a mouse model of parkinsonism, supporting MIF as a druggable terminal effector (Moura et al. 2024).",
+      "zh-TW": "PAANIB-1 是可穿透血腦屏障、選擇性抑制 MIF（PAAN）核酸酶功能的抑制劑；在帕金森氏症小鼠模型中保護細胞免於 parthanatos，支持 MIF 為可成藥的終端效應器（Moura et al. 2024）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "2e36306d69a8",
+    "subject": "PARG",
+    "predicate": "modulates",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "The role of PARG in parthanatos is conflicting: overexpression or knockdown of PARG can protect (Andrabi 2006; Yu 2006), yet PARG inhibition also protects in brain ischaemia (Lu 2003) and PARG silencing protects against H2O2 but not MNNG (Blenn 2006). The review treats whether PARG promotes or inhibits execution as an open question, plausibly dose- and context-dependent (Moura et al. 2024).",
+      "zh-TW": "PARG 在 parthanatos 中的角色相互矛盾：過度表現或敲低 PARG 皆可保護（Andrabi 2006；Yu 2006），但 PARG 抑制在腦缺血中亦具保護作用（Lu 2003），且 PARG 沉默對 H2O2 有保護但對 MNNG 無效（Blenn 2006）。該綜述將 PARG 促成或抑制執行視為未解問題，可能取決於劑量與情境（Moura et al. 2024）。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
+    "created": "2026-09-14T20:00:00Z",
+    "updated": "2026-09-14T20:00:00Z"
+  },
+  {
+    "id": "731afa9e4e0f",
+    "subject": "MNNG",
+    "predicate": "activates",
+    "object": "PARP1",
+    "context": {
+      "en-US": "MNNG is a methylating alkylating agent that generates a high load of DNA strand breaks, hyperactivating PARP1 and driving the parthanatos cascade; PARP inhibitors (DPQ, PJ-34) but not z-VAD block MNNG-induced death (Moura et al. 2024).",
+      "zh-TW": "MNNG 是產生大量 DNA 斷裂的甲基化烷化劑，會過度活化 PARP1 並驅動 parthanatos 級聯；PARP 抑制劑（DPQ、PJ-34）而非 z-VAD 能阻斷 MNNG 誘導的死亡（Moura et al. 2024）。"
+    },
+    "confidence": 0.95,
+    "source_document": "MNNG.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "85cfaf1a05c7",
+    "subject": "MMS",
+    "predicate": "induces",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "MMS is a direct-acting methylating agent whose DNA lesions (mainly N3-methyladenine and N7-methylguanine, repaired by base excision repair) activate PARP1 and can trigger PARP1-dependent parthanatos, alongside apoptosis at other doses (Moura et al. 2024).",
+      "zh-TW": "MMS 是直接作用的甲基化劑，其 DNA 損傷（主要為 N3-methyladenine 與 N7-methylguanine，經鹼基切除修復）會活化 PARP1，並可觸發依賴 PARP1 的 parthanatos，於其他劑量下亦可引發 apoptosis（Moura et al. 2024）。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMS.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "ded92f6b9e50",
+    "subject": "Iduna",
+    "predicate": "ubiquitinates",
+    "object": "H1.2",
+    "context": {
+      "en-US": "Iduna (RNF146) is a PAR-dependent E3 ubiquitin ligase whose WWE domain binds the iso-ADP-ribose linkage of PAR; it ubiquitinates the PARylated linker histone H1.2, tagging this PAR carrier for proteasomal degradation and blocking poly(ADP-ribose) nuclear export (Andrabi 2011; Kang 2011).",
+      "zh-TW": "Iduna（RNF146）是依賴 PAR 的 E3 泛素連接酶，其 WWE 結構域結合 PAR 的 iso-ADP-ribose 連結；它泛素化受 PAR 修飾的連結組蛋白 H1.2，將此 PAR 載體標記以進行蛋白酶體降解，並阻斷聚(ADP-核糖)的核輸出（Andrabi 2011；Kang 2011）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Iduna.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "6aadf675d133",
+    "subject": "Iduna",
+    "predicate": "protects_against",
+    "object": "Ischemic Stroke",
+    "context": {
+      "en-US": "Iduna protects the brain from glutamate excitotoxicity and ischemic stroke by interfering with PAR-induced cell death; conversely, loss of this PAR-dependent E3 ligase sensitizes neurons to parthanatos (Andrabi et al. 2011, Nat Med; Kang et al. 2011, PNAS).",
+      "zh-TW": "Iduna 透過干擾 PAR 誘導的細胞死亡，保護大腦免受麩胺酸興奮性毒性與缺血性中風；反之，失去此依賴 PAR 的 E3 連接酶會使神經元對 parthanatos 更敏感（Andrabi et al. 2011, Nat Med；Kang et al. 2011, PNAS）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Iduna.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "8e919a093a3c",
+    "subject": "Iduna",
+    "predicate": "inhibits",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Iduna restrains parthanatos by removing PARylated H1.2 and thereby limiting the cytosolic PAR pool that would otherwise inhibit hexokinase-1 and release AIF; potentiating this brake is a proposed anti-parthanatos strategy (Moura et al. 2024; Andrabi 2011).",
+      "zh-TW": "Iduna 透過移除受 PAR 修飾的 H1.2，限制胞質 PAR 池（否則會抑制 hexokinase-1 並釋放 AIF），從而抑制 parthanatos；增強此剎車為一種擬議的抗 parthanatos 策略（Moura et al. 2024；Andrabi 2011）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Iduna.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "d14d5114f9f0",
+    "subject": "H1.2",
+    "predicate": "transports",
+    "object": "PAR",
+    "context": {
+      "en-US": "PARylated histone H1.2 carries poly(ADP-ribose) out of the nucleus during parthanatos, delivering the polymer to cytosolic and mitochondrial targets; PAR-dependent ubiquitination of H1.2 by Iduna blocks this export (Moura et al. 2024; Andrabi 2011).",
+      "zh-TW": "在 parthanatos 中，受 PAR 修飾的組蛋白 H1.2 將聚(ADP-核糖)攜出細胞核，將此聚合物遞送至胞質與粒線體標靶；Iduna 對 H1.2 的 PAR 依賴性泛素化會阻斷此輸出（Moura et al. 2024；Andrabi 2011）。"
+    },
+    "confidence": 0.8,
+    "source_document": "H1.2.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "7c5d61e2e11f",
+    "subject": "Cyclophilin A",
+    "predicate": "forms_complex_with",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "Cyclophilin A is proposed to form an AIF-cyclophilin A-histone H2AX complex in which AIF provides nuclease activity for large-scale DNA fragmentation, an alternative to the MIF/PAAN nuclease model of AIF-dependent parthanatos (Moura et al. 2024).",
+      "zh-TW": "Cyclophilin A 被提出與 AIF 及組蛋白 H2AX 形成複合體，其中由 AIF 提供核酸酶活性以進行大規模 DNA 斷裂，為 AIF 依賴性 parthanatos 中 MIF/PAAN 核酸酶模型之外的替代機制（Moura et al. 2024）。"
+    },
+    "confidence": 0.65,
+    "source_document": "Cyclophilin A.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "e044d8c50895",
+    "subject": "PARG53",
+    "predicate": "is_isoform_of",
+    "object": "PARG",
+    "context": {
+      "en-US": "PARG53 is a catalytically active ~53-kDa splice isoform of PARG (exons 1-8) described in 2026; its existence revises the prior PARG55/60 annotation and explains why exon 2-7 knockout clones can retain PAR-hydrolytic activity and still die, confounding knockout-versus-inhibitor comparisons (bioRxiv 2026.05.12.724507).",
+      "zh-TW": "PARG53 是 2026 年描述的 PARG 具催化活性之約 53 kDa 剪接異構體（外顯子 1-8）；其存在修正了先前的 PARG55/60 註解，並解釋為何外顯子 2-7 敲除株仍可保留 PAR 水解活性並死亡，因而混淆了敲除與抑制劑的比較（bioRxiv 2026.05.12.724507）。"
+    },
+    "confidence": 0.75,
+    "source_document": "PARG53.md",
+    "created": "2026-09-14T21:00:00Z",
+    "updated": "2026-09-14T21:00:00Z"
+  },
+  {
+    "id": "5dcf6a119483",
+    "subject": "ZBP1",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "ZBP1 senses viral or endogenous Z-nucleic acids and recruits RIPK3 via RHIM-RHIM interaction, driving RIPK3 autophosphorylation and MLKL activation; it is a central non-canonical necroptosis sensor in viral infection and genomic stress (Niu et al. 2026).",
+      "zh-TW": "ZBP1 感測病毒或內源性 Z-核酸，經 RHIM-RHIM 交互作用招募 RIPK3，驅動 RIPK3 自磷酸化與 MLKL 活化；是病毒感染與基因組壓力下核心的非經典 necroptosis 感測器（Niu et al. 2026）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "1eb1a2feda23",
+    "subject": "ZBP1",
+    "predicate": "requires",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "In human cells ZBP1 cannot efficiently engage RIPK3 without RIPK1, which acts as an essential bridging adaptor; in murine cells ZBP1 binds and activates RIPK3 directly and RIPK1 is inhibitory, so ZBP1-dependent necroptosis is species-dependently RIPK1-requiring or RIPK1-restrained (Niu et al. 2026).",
+      "zh-TW": "在人類細胞中，ZBP1 若無 RIPK1 無法有效接合 RIPK3，RIPK1 作為必需的橋接接頭；在小鼠細胞中 ZBP1 直接結合並活化 RIPK3，而 RIPK1 具抑制作用，故 ZBP1 依賴性 necroptosis 對 RIPK1 的需求具物種特異性（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "490190ecb647",
+    "subject": "TRIF",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "TRIF carries a RHIM domain that directly recruits and activates RIPK3 downstream of TLR3/TLR4, enabling RIPK1-bypassing necroptosis under caspase inhibition (poly(I:C) or LPS); this pathway is implicated in acute pancreatitis and immune dysregulation (Niu et al. 2026).",
+      "zh-TW": "TRIF 具 RHIM 結構域，可在 TLR3/TLR4 下游直接招募並活化 RIPK3，於 caspase 受抑制時（poly(I:C) 或 LPS）促成繞過 RIPK1 的 necroptosis；此路徑與急性胰臟炎及免疫失調相關（Niu et al. 2026）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "b40358b65d0a",
+    "subject": "TLR3",
+    "predicate": "signals_via",
+    "object": "TRIF",
+    "context": {
+      "en-US": "TLR3 is the receptor whose signaling is mediated solely by the TRIF adaptor; dsRNA (poly(I:C)) engagement under caspase inhibition can then drive a TRIF/RIPK3 necrosome (Niu et al. 2026).",
+      "zh-TW": "TLR3 是唯一完全經由 TRIF 接頭傳遞訊號的受體；在 caspase 受抑制時，dsRNA（poly(I:C)）接合可驅動 TRIF/RIPK3 necrosome（Niu et al. 2026）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "cda9302b511b",
+    "subject": "TLR4",
+    "predicate": "signals_via",
+    "object": "TRIF",
+    "context": {
+      "en-US": "TLR4 engages both MyD88 and TRIF adaptors; MyD88 drives early NF-kB and can feed forward via autocrine TNF to promote RIPK1/RIPK3 activation, while TRIF couples directly to RIPK3 and can be antagonized to reduce necroptosis in acute pancreatitis models (Niu et al. 2026).",
+      "zh-TW": "TLR4 同時使用 MyD88 與 TRIF 接頭；MyD88 驅動早期 NF-kB，並可經自分泌 TNF 前饋促進 RIPK1/RIPK3 活化，而 TRIF 直接偶聯 RIPK3，且可被拮抗以減少急性胰臟炎模型中的 necroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "9bd1383fb16e",
+    "subject": "ZBP1",
+    "predicate": "nucleates",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "ZBP1 senses viral Z-nucleic acids and nucleates a PANoptosome that simultaneously activates RIPK3/MLKL necroptosis, caspase-8-dependent apoptosis, and inflammasome-driven pyroptosis during viral infection or cytokine storm (Niu et al. 2026).",
+      "zh-TW": "ZBP1 感測病毒 Z-核酸並成核 PANoptosome，在病毒感染或細胞激素風暴中同時活化 RIPK3/MLKL necroptosis、caspase-8 依賴性 apoptosis 與發炎體驅動的 pyroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "94657a07cbdf",
+    "subject": "AIM2",
+    "predicate": "nucleates",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "Beyond ZBP1, the DNA sensor AIM2 can nucleate PANoptosomes in response to distinct pathogens, broadening the sensor repertoire that co-assembles the three death arms (Niu et al. 2026).",
+      "zh-TW": "除 ZBP1 外，DNA 感測器 AIM2 可針對不同病原體成核 PANoptosome，擴展共同組裝三種死亡臂的感測器陣容（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "27101ae8c36e",
+    "subject": "PANoptosome",
+    "predicate": "executes",
+    "object": "PANoptosis",
+    "context": {
+      "en-US": "The PANoptosome is the supramolecular platform that co-assembles pyroptosis, apoptosis, and necroptosis, incorporating RIPK1, RIPK3, FADD, caspase-8, and NLRP3; its defining property is non-redundancy, so blocking any single arm does not prevent death (Niu et al. 2026).",
+      "zh-TW": "PANoptosome 是共同組裝 pyroptosis、apoptosis 與 necroptosis 的超分子平台，包含 RIPK1、RIPK3、FADD、caspase-8 與 NLRP3；其定義特性為非冗餘性，故阻斷任一單一臂無法阻止死亡（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "1f13f3be3b57",
+    "subject": "Caspase-6",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Caspase-6, though dispensable for canonical TNF-induced necroptosis, facilitates ZBP1/RIPK3 complex formation during influenza A virus infection, potentiating necroptosis signaling and NLRP3 inflammasome activation (Niu et al. 2026).",
+      "zh-TW": "Caspase-6 雖對典型 TNF 誘導的 necroptosis 非必需，卻在流感 A 病毒感染時促進 ZBP1/RIPK3 複合體形成，增強 necroptosis 訊號與 NLRP3 發炎體活化（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "09b4d8762f0f",
+    "subject": "RIPK3",
+    "predicate": "phosphorylates",
+    "object": "MFN2",
+    "context": {
+      "en-US": "RIPK3 phosphorylates mitofusin-2 (MFN2), promoting endoplasmic-reticulum-mitochondria tethering and mitochondrial Ca2+ overload that drives necroptotic death (Niu et al. 2026).",
+      "zh-TW": "RIPK3 磷酸化 mitofusin-2（MFN2），促進內質網-粒線體繫連與粒線體 Ca2+ 超載，進而驅動 necroptotic 死亡（Niu et al. 2026）。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "0b02c0ea2743",
+    "subject": "CaMKII",
+    "predicate": "activates",
+    "object": "Mitochondrial Permeability Transition Pore",
+    "context": {
+      "en-US": "RIPK3-phosphorylated CaMKII drives mitochondrial dysfunction by promoting mitochondrial permeability transition pore opening, a RIPK3/CaMKII/mPTP axis implicated in myocardial ischemia-reperfusion injury, heart failure, and neurological injury (Niu et al. 2026).",
+      "zh-TW": "受 RIPK3 磷酸化的 CaMKII 透過促進粒線體通透性轉換孔開啟而驅動粒線體功能障礙，此 RIPK3/CaMKII/mPTP 軸與心肌缺血再灌注損傷、心衰竭與神經損傷相關（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "c0cc0b5e042b",
+    "subject": "GSK872",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "GSK872 (GSK'872) is a selective RIPK3 kinase inhibitor used alongside RIPK1 (Necrostatin-1) and MLKL (necrosulfonamide) inhibitors to dissect and block necroptosis in preclinical models (Niu et al. 2026).",
+      "zh-TW": "GSK872（GSK'872）是選擇性 RIPK3 激酶抑制劑，常與 RIPK1（Necrostatin-1）及 MLKL（necrosulfonamide）抑制劑併用，以剖析並阻斷臨床前模型中的 necroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "3af368ff6404",
+    "subject": "Necroptosis",
+    "predicate": "promotes",
+    "object": "Antitumor Immunity",
+    "context": {
+      "en-US": "Necroptotic tumor cells release damage-associated molecular patterns that can promote immunogenic cell death and activate antitumor immunity; sustained necroptotic signaling may instead contribute to therapy resistance, giving necroptosis a dual, context-dependent role in cancer (Niu et al. 2026).",
+      "zh-TW": "necroptotic 腫瘤細胞釋放損傷相關分子模式，可促進免疫原性細胞死亡並活化抗腫瘤免疫；但持續的 necroptotic 訊號反而可能促成治療抗性，使 necroptosis 在癌症中具雙重且依情境而定的角色（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "9c01866f6dcb",
+    "subject": "NF-κB",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "NF-kB activation induces TNF and other cytokines that sensitize cells to necroptosis, and necroptotic DAMP release further activates NF-kB, forming a pathogenic feed-forward loop in ischemic, neurodegenerative, and inflammatory bowel disease (Niu et al. 2026).",
+      "zh-TW": "NF-kB 活化誘導 TNF 及其他細胞激素而使細胞對 necroptosis 更敏感，而 necroptotic DAMP 釋放又進一步活化 NF-kB，在缺血性、神經退化性與發炎性腸道疾病中形成致病性前饋迴路（Niu et al. 2026）。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "40c1a7c1bc00",
+    "subject": "Autophagy",
+    "predicate": "restrains",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Under energy stress autophagy can rescue cells by restoring ATP, and its inhibition may precipitate a metabolic crisis that promotes necroptosis; the crosstalk is bidirectional and phase-dependent, with early RIPK3-AMPK autophagy followed by necroptotic suppression of autophagic flux (Niu et al. 2026).",
+      "zh-TW": "在能量壓力下自噬可透過恢復 ATP 挽救細胞，其受抑制可能引發代謝危機而促進 necroptosis；此交互作用為雙向且具時相性，先有早期 RIPK3-AMPK 自噬，隨後 necroptotic 訊號抑制自噬通量（Niu et al. 2026）。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
+    "created": "2026-09-14T22:00:00Z",
+    "updated": "2026-09-14T22:00:00Z"
+  },
+  {
+    "id": "ae2a1e71132a",
+    "subject": "GSK840",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "GSK840 (GSK'840) is an ATP-competitive RIPK3 kinase inhibitor used alongside GSK872 as a necroptosis-blocking tool; like other RIPK3 inhibitors, its rescue must be interpreted with kinase-dead-rerouting-to-apoptosis controls (Niu et al. 2026).",
+      "zh-TW": "GSK840（GSK'840）是 ATP 競爭性 RIPK3 激酶抑制劑，與 GSK872 併用作為阻斷 necroptosis 的工具；如同其他 RIPK3 抑制劑，其救援效果須以「激酶死亡型重導向凋亡」對照來解讀（Niu et al. 2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "GSK840.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "b67b0b4a0cca",
+    "subject": "Zharp-99",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Zharp-99 is a small-molecule RIPK3 kinase inhibitor in the same direct-inhibitor class as GSK872 and GSK840, blocking necrosome output by preventing MLKL phosphorylation (Niu et al. 2026).",
+      "zh-TW": "Zharp-99 是與 GSK872、GSK840 同屬直接抑制劑類別的小分子 RIPK3 激酶抑制劑，透過阻止 MLKL 磷酸化而阻斷 necrosome 輸出（Niu et al. 2026）。"
+    },
+    "confidence": 0.75,
+    "source_document": "Zharp-99.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "f2bb1c013117",
+    "subject": "HG-9-91-01",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "HG-9-91-01 is a salt-inducible kinase inhibitor that suppresses necroptosis by disrupting the RIPK3/MLKL interaction, demonstrating that the terminal necroptosis execution step is pharmacologically targetable independently of RIPK1 (Niu et al. 2026).",
+      "zh-TW": "HG-9-91-01 是 salt-inducible kinase 抑制劑，透過破壞 RIPK3/MLKL 交互作用而抑制 necroptosis，證明 necroptosis 的終端執行步驟可在不依賴 RIPK1 的情況下被藥理靶向（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "HG-9-91-01.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "18a7461b30d0",
+    "subject": "Apelin",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "In streptozotocin-induced diabetic rats, apelin treatment reversed hippocampal necroptosis (RIPK3/MLKL axis), alleviated cognitive impairment, and preserved neuronal viability, evidence that endogenous peptides can restrain necroptosis in metabolic/neurological injury (Niu et al. 2026).",
+      "zh-TW": "在鏈脲佐菌素誘導的糖尿病大鼠中，apelin 治療逆轉海馬 necroptosis（RIPK3/MLKL 軸）、改善認知障礙並維持神經元存活，證明內源性胜肽可在代謝/神經損傷中抑制 necroptosis（Niu et al. 2026）。"
+    },
+    "confidence": 0.8,
+    "source_document": "Apelin.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "16bedb2702d6",
+    "subject": "TRPM7",
+    "predicate": "contributes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "TRPM7 is a Mg2+/Ca2+-permeable cation channel proposed to mediate indirect/MLKL-independent membrane compromise during necroptosis; the review highlights such ion-channel routes as evidence that the terminal execution phase is more heterogeneous than a single pore mechanism (Niu et al. 2026).",
+      "zh-TW": "TRPM7 是可通透 Mg2+/Ca2+ 的陽離子通道，被提出在 necroptosis 中媒介間接/不依賴 MLKL 的膜損傷；該綜述以此類離子通道途徑說明終端執行階段比單一孔道機制更具異質性（Niu et al. 2026）。"
+    },
+    "confidence": 0.7,
+    "source_document": "TRPM7.md",
+    "created": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:00:00Z"
+  },
+  {
+    "id": "f638ba33d67d",
+    "subject": "Necroptosis",
+    "predicate": "is_defined_by",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Following the Nomenclature Committee on Cell Death 2012 recommendations, necroptosis is canonically defined as necrotic cell death dependent on RIPK3 — not synonymous with all active necrosis, and mechanistically distinct from other regulated-necrosis programs such as MPT (Linkermann & Green, NEJM 2014).",
+      "zh-TW": "依 Nomenclature Committee on Cell Death 2012 之建議，necroptosis 被規範性定義為依賴 RIPK3 的壞死性細胞死亡——不等同於所有活化性壞死，且在機制上與其他 regulated necrosis 程序（如 MPT）截然不同。"
+    },
+    "confidence": 0.97,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "c8c8dda2117d",
+    "subject": "c-FLIP",
+    "predicate": "suppresses",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "c-FLIP, structurally related to but catalytically inactive as a homodimer partner, pairs with Caspase-8 to block apoptosis; when Caspase-8 or c-FLIP is lost or its activation interrupted, RIPK1 complexes with RIPK3 to assemble the necrosome — the FADD–caspase-8–c-FLIP complex acts as the rheostat that suppresses RIPK3-mediated death.",
+      "zh-TW": "c-FLIP 與 Caspase-8 結構相近但具催化惰性，與 Caspase-8 配對以阻斷凋亡；當 Caspase-8 或 c-FLIP 缺失、或其中斷活化時，RIPK1 與 RIPK3 複合組裝成 necrosome——FADD–caspase-8–c-FLIP 複合物即為抑制 RIPK3 媒介死亡的調節器。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "3a4660d3a81b",
+    "subject": "FADD",
+    "predicate": "suppresses",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Deleting FADD, c-FLIP, or Caspase-8 in mice is embryonic lethal at ~e10.5 and fully rescued on a RIPK3-deficient background; tissue-specific FADD loss likewise drives RIPK3-dependent necroptosis in keratinocytes and intestinal epithelium, establishing FADD as a suppressor of necroptosis.",
+      "zh-TW": "小鼠中敲除 FADD、c-FLIP 或 Caspase-8 約在胚胎 e10.5 致死，於 RIPK3 缺失背景下可被完全拯救；組織特異性 FADD 缺失同樣驅動角質細胞與腸道上皮之 RIPK3 依賴型 necroptosis，確立 FADD 為 necroptosis 抑制因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "96ae0c7b2f2c",
+    "subject": "Protein Kinase R",
+    "predicate": "phosphorylates",
+    "object": "FADD",
+    "context": {
+      "en-US": "In the viral PKR route, type I interferon drives JAK/STAT-dependent de novo synthesis of Protein Kinase R, which phosphorylates FADD; phosphorylated FADD interacts with RIPK1 to induce necrosome formation (as reviewed in 2014).",
+      "zh-TW": "在病毒 PKR 路徑中，第一型干擾素驅動 JAK/STAT 依賴性之 Protein Kinase R 新合成，PKR 隨後磷酸化 FADD；磷酸化的 FADD 與 RIPK1 交互作用誘導 necrosome 形成（依 2014 年綜述所述）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "a2e9249b8b0b",
+    "subject": "Protein Kinase R",
+    "predicate": "interacts with",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "PKR-mediated FADD phosphorylation licenses FADD–RIPK1 interaction that induces necrosome assembly, providing an IFN-coupled route to necroptosis.",
+      "zh-TW": "PKR 媒介之 FADD 磷酸化使 FADD–RIPK1 交互作用獲得許可，誘導 necrosome 組裝，提供一條與干擾素耦合之 necroptosis 路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "fcc775835d71",
+    "subject": "Type I Interferon",
+    "predicate": "induces",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Both apoptosis and necroptosis are induced by type I and II interferons, promoting death and removal of virally infected cells — positioning necroptosis as an evolutionarily conserved anti-infective program.",
+      "zh-TW": "第一型與第二型干擾素均誘導凋亡與 necroptosis，促進病毒感染細胞之死亡與清除——將 necroptosis 定位為演化上保守的抗感染程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "4ddd8383af24",
+    "subject": "Toll-like Receptor",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Beyond death receptors, Toll-like receptors and intracellular triggers such as DAI and Protein Kinase R were added as necroptosis inducers; TLR3/TLR4 signal via TRIF to the necrosome.",
+      "zh-TW": "除死亡受體外，Toll-like 受體及 DAI、Protein Kinase R 等胞內觸發物被加入為 necroptosis 誘導物；TLR3/TLR4 經 TRIF 向 necrosome 傳遞訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "54b73789ee7e",
+    "subject": "Necroptosis",
+    "predicate": "co_occurs_with",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Apoptosis and necroptosis are not mutually exclusive programs and can co-occur in the same organ — e.g. photoreceptor death in retinal detachment and retinal ischemia triggers both simultaneously, and cones but not rods undergo necroptosis in a retinitis-pigmentosa model.",
+      "zh-TW": "凋亡與 necroptosis 並非互斥程序，可於同一器官中同時發生——例如視網膜剝離與視網膜缺血之感光細胞死亡同時觸發兩者；在色素性視網膜炎模型中僅錐狀細胞（而非桿狀細胞）發生 necroptosis。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "1ef87aedcec6",
+    "subject": "RIPK3",
+    "predicate": "contributes_to",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "RIPK3-deficient mice are protected from ischemia-reperfusion injury across models and Nec-1 adds nothing on top of the deficiency; glomerular endothelial cells (unlike tubular cells, mesangial cells, or podocytes) express the highest RIPK3, correlating with necroptosis propensity.",
+      "zh-TW": "RIPK3 缺失小鼠在多個缺血–再灌注模型中受保護，且在此基礎上 Nec-1 不再增加效果；腎小球內皮細胞（與腎小管細胞、系膜細胞或足細胞不同）表現最高之 RIPK3，與 necroptosis 傾向相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "44de498a6c4c",
+    "subject": "Necrostatin-1",
+    "predicate": "worsens",
+    "object": "Cerulein-Induced Pancreatitis",
+    "context": {
+      "en-US": "Despite RIPK3- and MLKL-deficiency protecting in the cerulein pancreatitis model, Nec-1 administration worsened histological damage and raised serum lipase/amylase — attributed by the authors to Nec-1's short half-life rather than genuine pathway agonism.",
+      "zh-TW": "儘管在雨蛙素（cerulein）胰臟炎模型中 RIPK3 與 MLKL 缺失具保護作用，Nec-1 給藥卻惡化組織學損傷並升高血清脂肪酶/澱粉酶——作者歸因於 Nec-1 半衰期過短，而非真正促進該路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "e7e6d20d5e59",
+    "subject": "Necrostatin-1",
+    "predicate": "inhibits",
+    "object": "IDO1",
+    "context": {
+      "en-US": "Nec-1 was later found to be identical to a previously reported indoleamine 2,3-dioxygenase inhibitor, i.e. it blocks both RIPK1 and IDO — a caveat for interpreting Nec-1-based disease studies.",
+      "zh-TW": "Nec-1 後來被發現與先前報導的 indoleamine 2,3-dioxygenase 抑制劑為同一化合物，即其同時抑制 RIPK1 與 IDO——解讀以 Nec-1 為基礎之疾病研究時必須注意的警訊。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "9f8f0674b063",
+    "subject": "SHARPIN",
+    "predicate": "regulates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "SHARPIN, a component of the linear ubiquitin chain assembly complex (LUBAC), is a RIPK1-regulator; SHARPIN deficiency causes chronic proliferative dermatitis in mice that is reversed on a TNFR1-deficient background.",
+      "zh-TW": "SHARPIN 為線性泛素鏈組裝複合物（LUBAC）之組分，是 RIPK1 之調節者；SHARPIN 缺失在小鼠引起慢性增生性皮炎，並在 TNFR1 缺失背景下被逆轉。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "6184f89c5933",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Inflammatory Bowel Disease",
+    "context": {
+      "en-US": "Deleting Caspase-8 or FADD from intestinal epithelium causes spontaneous necroptosis with pathology morphologically similar to inflammatory bowel disease, and RIPK3 deletion completely prevents it.",
+      "zh-TW": "從腸道上皮刪除 Caspase-8 或 FADD 會引起自發性 necroptosis，其病理形態類似發炎性腸道疾病（IBD），而 RIPK3 缺失可完全預防之。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "bf33c7692fee",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Crohn's Disease",
+    "context": {
+      "en-US": "The intestinal-epithelial necroptosis driven by FADD/caspase-8 loss is morphologically most similar to Crohn's disease; high immunogenicity of necrotic cells plus loss of barrier function are implicated.",
+      "zh-TW": "FADD/caspase-8 缺失所驅動之腸道上皮 necroptosis，其形態學最接近克隆氏症；壞死細胞之高度免疫原性加上屏障功能喪失被認為牽涉其中。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "4f2555250356",
+    "subject": "A20",
+    "predicate": "deubiquitinates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "A20 is a RIPK1-deubiquitinase whose ablation sensitizes mice to lethal TNF-mediated colitis via intestinal epithelial cell death (interpreted as apoptosis, with possible necroptosis involvement).",
+      "zh-TW": "A20 是 RIPK1 去泛素化酶，其缺失使小鼠對 TNF 媒介之致死性結腸炎敏感，機制為腸道上皮細胞死亡（被解讀為凋亡，可能牽涉 necroptosis）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "390a9cda4742",
+    "subject": "Damage-Associated Molecular Patterns",
+    "predicate": "induce",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "DAMPs released from necroptotic cells are heavy triggers of innate and adaptive immunity and plausibly drive allograft rejection — the rationale for necroptosis inhibition in solid-organ transplantation.",
+      "zh-TW": "由 necroptosis 細胞釋出之 DAMPs 是先天與適應性免疫之強力觸發物，很可能驅動移植物排斥——此為實體器官移植中抑制 necroptosis 之理論依據。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "2a55b74b9721",
+    "subject": "Cyclophilin D",
+    "predicate": "mediates",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "MPT is an independent regulated-necrosis program: cyclophilin D-dependent opening of the permeability transition pore; cyclophilin D-deficient mice are partially protected from organ ischemia-reperfusion injury.",
+      "zh-TW": "MPT 是獨立的 regulated necrosis 程序：由 Cyclophilin D 依賴性之通透性轉換孔開啟所介導；Cyclophilin D 缺失小鼠在器官缺血–再灌注損傷中獲得部分保護。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "4258064e548e",
+    "subject": "Cyclosporine A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Cyclosporine A inhibits MPT intracellularly via cyclophilin D and prevented ischemic myocardial damage in a human trial — an anti-regulate- necrosis effect beyond its immunosuppressive role.",
+      "zh-TW": "Cyclosporine A（CsA）於胞內經由 Cyclophilin D 抑制 MPT，且在一項人體試驗中預防缺血性心肌損傷——此為超越其免疫抑制作用之抗 regulated necrosis 效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "840f7830fd7f",
+    "subject": "Sanglifehrin A",
+    "predicate": "inhibits",
+    "object": "Mitochondrial Permeability Transition",
+    "context": {
+      "en-US": "Sanglifehrin A (SfA) blocks MPT; combination of Nec-1 + SfA gave significantly stronger protection in ischemia-reperfusion injury than either monotherapy, confirming MPT and necroptosis as independent programs.",
+      "zh-TW": "Sanglifehrin A（SfA）阻斷 MPT；在缺血–再灌注損傷中 Nec-1 與 SfA 併用較任何單一療法提供顯著更強之保護，證實 MPT 與 necroptosis 為獨立程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "1054fa0d6dae",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_distinct_from",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "MPT and necroptosis are cleanly separate programs, shown by ischemia-reperfusion experiments in cyclophilin D–RIPK3 double-deficient mice.",
+      "zh-TW": "MPT 與 necroptosis 是截然不同的程序，由 Cyclophilin D–RIPK3 雙缺失小鼠之缺血–再灌注實驗所證實。"
+    },
+    "confidence": 0.93,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "b1568067291c",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "is_a_type_of",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Regulated necrosis — the lytic subset of regulated cell death — covers necroptosis, MPT, ferroptosis, pyroptosis, PARP-1-mediated and NADPH-oxidase-mediated regulated necrosis, lysosomal membrane permeabilization and others.",
+      "zh-TW": "Regulated necrosis——regulated cell death 之裂解性子集——涵蓋 necroptosis、MPT、鐵死亡、焦亡、PARP-1 媒介與 NADPH 氧化酶媒介之 regulated necrosis、溶酶體膜通透化等。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "19691530876b",
+    "subject": "SIRT2",
+    "predicate": "contributes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "The NAD-dependent deacetylase SIRT2, together with acid sphingomyelinase and PGAM5, was proposed in 2014 as an additional regulator of programmed necrosis awaiting confirmation.",
+      "zh-TW": "NAD 依賴性去乙醯酶 SIRT2，連同酸性鞘磷脂酶與 PGAM5，於 2014 年被提出為程序性壞死之額外調節者，該角色尚待證實。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "5bf78c10e7c2",
+    "subject": "Acid Sphingomyelinase",
+    "predicate": "contributes_to",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Acid sphingomyelinase was listed among proposed regulators of necroptosis in the 2014 review, pending definitive confirmation.",
+      "zh-TW": "酸性鞘磷脂酶在 2014 年綜述中被列為 necroptosis 之候選調節者，尚待明確證實。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "a5815f9cde9d",
+    "subject": "TNFα",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Intravenous TNFα causes acute TNFR1-dependent apoptotic detachment of enterocytes and kills mice within 48 h ('hyperacute TNF shock'); this is the default TNF response that pan-caspase inhibition redirects toward necroptosis.",
+      "zh-TW": "靜脈注射 TNFα 引起急性、依賴 TNFR1 之腸上皮細胞凋亡性剝離，並於 48 小時內致小鼠死亡（「超急性 TNF 休克」）；廣效性 Caspase 抑制可將此預設 TNF 反應改向為 necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "45c6c9d8360d",
+    "subject": "Z-VAD-FMK",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Necroptosis was first recognized when TNFα was given together with the pan-caspase inhibitor zVAD-fmk: eliminating the apoptosis branch unmasks RIPK3-dependent necrosis; in the TNF-shock model zVAD-fmk accelerates death from 48 h to 24 h.",
+      "zh-TW": "Necroptosis 最初是在 TNFα 與廣效性 Caspase 抑制劑 zVAD-fmk 併用時被發現：消除凋亡分支後顯露 RIPK3 依賴性壞死；在 TNF 休克模型中 zVAD-fmk 將死亡時間由 48 小時縮短為 24 小時。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "5c455d0fbf93",
+    "subject": "TNFR1",
+    "predicate": "is_dispensable_for",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Despite the in-vitro prominence of TNFR1 in necroptosis induction, TNFR1-deficient or TNFR1/2-double-deficient mice are not protected in renal ischemia-reperfusion injury — evidence that additional inducers matter in vivo.",
+      "zh-TW": "儘管 TNFR1 在體外 necroptosis 誘導中地位顯著，TNFR1 缺失或 TNFR1/2 雙缺失小鼠在腎缺血–再灌注損傷中並未受到保護——證明體內尚有其他誘導物扮演角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
+  },
+  {
+    "id": "1c5786d6f353",
+    "subject": "Necroptosis",
+    "predicate": "contributes_to",
+    "object": "Sepsis",
+    "context": {
+      "en-US": "The role of necroptosis in sepsis remains open: cecal-ligation-and-puncture (CLP) studies conflict (Nec-1 protective in one report, accelerating in others) and RIPK3-/MLKL-deficient mice show no benefit.",
+      "zh-TW": "Necroptosis 在敗血症之角色仍未有定論：盲腸結紮穿刺（CLP）模式之研究結果相互矛盾（一篇報告 Nec-1 具保護作用，其他則顯示加速），而 RIPK3/MLKL 缺失小鼠未見獲益。"
+    },
+    "confidence": 0.6,
+    "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
+    "created": "2026-09-14T23:30:00Z",
+    "updated": "2026-09-14T23:30:00Z"
   }
 ]

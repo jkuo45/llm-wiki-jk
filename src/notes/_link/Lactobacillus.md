@@ -26,6 +26,8 @@ aliases: []
     - Discusses Lactobacillus and overall microbial composition in relation to aging.
   - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors (NMN/NR)]]
     - References gut microbial composition, including Lactobacillus, in metabolic health.
+  - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]
+    - Berberine enriches SCFA-producing Lactobacillus spp. via high intraluminal exposure (1–5% bioavailability).
 
 ## Connections
   - [[Gut Microbiome]]: Lactobacillus is a common commensal and probiotic genus.
@@ -33,6 +35,7 @@ aliases: []
   - [[Short-chain Fatty Acids]]: Fermentation products supporting host health.
   - [[Immune System]]: Lactobacilli shape mucosal immunity.
   - [[Aging]]: Lactobacillus abundance shifts with age.
+  - [[Berberine]]: Enriches SCFA-producing Lactobacillus spp. via high intraluminal concentrations (1–5% systemic bioavailability).
 
 ## Linking Summary
   - New links added: [[Gut Microbiome]], [[Bifidobacterium]], [[Short-chain Fatty Acids]], [[Immune System]], [[Aging]], [[Inflammation]]

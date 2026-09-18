@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-09-10
+updated: 2026-09-14
 ---
 # Cell Death
 
@@ -14,7 +14,9 @@ updated: 2026-09-10
 | [[_document_ - Parthanatos Andrabi 2006 PAR polymer death signal\|Poly(ADP-ribose) (PAR) polymer is a death signal]] | Andrabi et al. 2006 PNAS discovery paper proving PAR polymer itself is the parthanatos death signal; PARG overexpression/antiserum depletion protects, purified PAR kills dose- and length-dependently. |
 | [[_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk\|Mitochondrial and Nuclear Cross Talk in Cell Death: Parthanatos]] | Andrabi/Dawson 2008 review coining parthanatos (PAR + Thanatos); PARP-1 hyperactivation generates PAR polymer that triggers AIF translocation, caspase-independent death distinct from apoptosis/necrosis/autophagy. |
 | [[_document_ - Parthanatos David 2009 messenger of death\|Parthanatos, a messenger of death]] | David et al. 2009 foundational parthanatos review; PAR polymer itself (not NAD+ depletion) is the death signal downstream of PARP-1; PAR length/complexity toxicity, PARG biology, PAR-AIF nuclear-mitochondrial crosstalk. |
+| [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers\|Molecular mechanisms of cell death by parthanatos: More questions than answers]] | Moura et al. 2024 mini-review of the contested downstream cascade — NAD+/glycolysis vs PAR–HK1, free ADP-ribose–TRPM2 Ca2+, Nudix–AMP–AMPK, and AIF-dependent vs AIF-independent DNA fragmentation; lists 17 open questions. |
 | [[_document_ - Necroptosis a regulated inflammatory mode of cell death\|Necroptosis: a regulated inflammatory mode of cell death]] | Dhuriya and Sharma 2018 timeline review of necroptosis molecular mechanisms and disease relevance — RIPK3/MLKL axis, non-classical necrosomes, phospho-sites, inflammation, infection, neurodegeneration. |
+| [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network\|Regulatory complexity and therapeutic targeting of the necroptosis network]] | Niu et al. 2026 review of canonical (TNFR1) and non-canonical (ZBP1, TRIF) necroptosis induction, the multilayered PTM/transcriptional regulation of RIPK1/RIPK3/MLKL, crosstalk with apoptosis/autophagy/inflammation/metabolism and PANoptosomes, and the therapeutic duality of inhibiting vs inducing necroptosis. |
 | [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9\|Insights on the crosstalk among different cell death mechanisms]] | Comprehensive review (Cell Death Discovery 2025) of apoptosis, autophagy, mitophagy, necroptosis, pyroptosis, and ferroptosis mechanisms, inducers, inhibitors, and crosstalk among key regulators including sirtuins. |
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 
@@ -30,6 +32,14 @@ BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
 
-PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]].
+Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[Hsp90]], [[BRD4]].
 
-Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrosulfonamide]].
+Necroptosis tools and modulators (mostly `_link/`): [[GSK872]], [[GSK840]], [[Zharp-99]], [[HG-9-91-01]], [[Apelin]], [[TRPM7]].
+
+Disease models: [[Cerulein-Induced Pancreatitis]] (RIPK3/MLKL-driven acinar necroptosis → DAMP release → SIRS).
+
+PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]], [[PAR]], [[PARG]], [[ARH3]], [[ADP-ribose]].
+
+Parthanatos triggers and machinery: [[MNNG]], [[MMS]], [[PAANIB-1]], [[Iduna]], [[H1.2]], [[Cyclophilin A]], [[PARG53]].
+
+Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrostatin-1s]], [[Necrosulfonamide]].

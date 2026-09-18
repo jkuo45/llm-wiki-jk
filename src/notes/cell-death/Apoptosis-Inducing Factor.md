@@ -3,7 +3,7 @@ title: Apoptosis-Inducing Factor
 description: Apoptosis-Inducing Factor (AIF) is a mitochondrial flavoprotein originally linked to caspase-independent apoptosis; its paralog AIFM2 is the ferroptosis suppressor FSP1.
 protected: true
 created: 2026-08-24
-updated: 2026-09-10
+updated: 2026-09-14
 tags: [protein, mitochondria, ferroptosis, apoptosis, cell-death]
 aliases: [AIF, AIFM1, apoptosis-inducing factor mitochondria-associated 1]
 ---
@@ -46,6 +46,10 @@ Following mitochondrial outer membrane permeabilization (see [[Intrinsic Pathway
 > [!info] Parthanatos specifics
 > PAR-binding motif on AIF-D3 (Arg588/Lys589/Arg592), separate from the DNA-binding site — mutation retains oxidase/DNA binding but blocks PAR-induced release/death. Rapid release of the 20–30% outer-membrane pool precedes cytochrome c. Calpain cleavage (62→57 kDa) is dispensable for canonical parthanatos; calpain–BID–BAX wiring (tBID → BAX → AIF) operates caspase-independently (Galán-Malo 2012). Nuclear execution via [[MIF]]/PAAN or CypA–H2AX complexes; [[HSP70]] sequesters cytosolic AIF as brake.
 
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> The review separates **AIF-dependent** from **AIF-independent** parthanatos: some PARP1-dependent death models (retinal cells, macrophages) show no detectable AIF translocation and die via energy collapse/mitochondrial fission instead. It lists as open questions the precise sequence of AIF release, the nuclease that fragments DNA, and the difference between apoptotic and parthanatic AIF translocation. Competing release models are direct [[PAR]] binding, [[Calpain|calpain I]] proteolysis (evidence against a central role in some models), and the [[Mitochondrial Permeability Transition Pore]]; competing nucleases are [[MIF]]/PAAN and an AIF–cyclophilin A–[[H2A.X]] complex.
+
 ## Physiological Function (Development & Viability)
 
 Beyond cell death, AIF is essential for life: AIFM1 loss causes a severe mitochondrial encephalopathy (combined oxidative phosphorylation deficiency) in humans. In development, AIF-mediated caspase-independent death shapes cavitation during lumen formation and removes superfluous cells in select tissues.
@@ -72,6 +76,8 @@ Nuclear AIF translocation kills males but not females after adult cerebral ische
     - Other apoptotic factors released from the mitochondrial intermembrane space include AIF, Smac DIABLO and Omi/HtrA2.
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - SIRT1 promotes PARP-1-mediated cell survival via AIF; SIRT1 deacetylates histone variant H2A.Z linked to cardiac hypertrophy.
+  - [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+    - AIF-dependent vs AIF-independent parthanatos; release routes (PAR binding, calpain, mPTP) and DNA-cleavage models ([[MIF]]/PAAN vs AIF–cyclophilin A–[[H2A.X]]) framed as open questions.
 
 ## Connections
 
@@ -102,3 +108,4 @@ Nuclear AIF translocation kills males but not females after adult cerebral ische
 - Suggested new entity notes to create: [[Cyclophilin A]], [[AIFM1]], [[caspase-independent cell death]]
 - Strong connections to strengthen: [[Apoptosis-Inducing Factor|AIF]] ↔ [[Intrinsic Pathway]], [[Apoptosis-Inducing Factor|AIF]] ↔ [[Oxidative Stress]]
 - Sex-dimorphism enrichment (2026-09-03): AIF translocation lethal in males only; cell-autonomous XY/XX split (McCullough 2005; Yuan 2009; Du 2004). New links: [[Parthanatos]], [[PARP1]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — AIF-dependent vs AIF-independent parthanatos and unresolved release/nuclease models. New links: [[MIF]], [[Calpain]], [[Mitochondrial Permeability Transition Pore]], [[H2A.X]], [[PAR]].

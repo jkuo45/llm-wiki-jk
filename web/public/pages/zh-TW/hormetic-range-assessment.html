@@ -366,7 +366,8 @@
   #weightMode, #responseMode { color: var(--faint); text-transform: none; letter-spacing: 0; }
   .tuner-hint { font-size: .8rem; color: var(--mute); margin: 8px 0 10px; line-height: 1.55; }
   .tuner-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
-  .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  .tuner-table { width: 100%; border-collapse: collapse; font-size: .82rem; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .tuner-table th {
     font-family: var(--mono);
     font-size: 10px;
@@ -412,7 +413,14 @@
 
   /* ---- response tracker (Layer B: baseline → retest) ---- */
   #responseSummary { font-family: var(--mono); font-size: 11px; color: var(--mute); margin: 2px 0 6px; }
-  .resp-table input[type=number] { width: 64px; }
+  .resp-table { table-layout: fixed; min-width: 520px; }
+  .resp-table input[type=number] { width: 52px; }
+  .resp-table th:first-child,
+  .resp-table td:first-child { white-space: normal; overflow-wrap: anywhere; }
+  .resp-table th:nth-child(2), .resp-table td:nth-child(2),
+  .resp-table th:nth-child(3), .resp-table td:nth-child(3) { width: 70px; }
+  .resp-table th:nth-child(4), .resp-table td:nth-child(4) { width: 66px; }
+  .resp-table th:nth-child(5), .resp-table td:nth-child(5) { width: 100px; }
   .resp-delta { font-family: var(--mono); font-size: 11px; white-space: nowrap; }
   .sig {
     font-family: var(--mono);
@@ -420,12 +428,15 @@
     padding: 1px 6px;
     border: 1px solid currentColor;
     border-radius: var(--r-sm, 2px);
-    white-space: nowrap;
+    white-space: normal;
   }
   .sig-responding { color: var(--teal); }
   .sig-dormant { color: var(--faint); }
   .sig-negative { color: var(--red); }
   .sig-capped { color: var(--gold); }
+  @media (max-width: 720px) {
+    .tuner-table th, .tuner-table td { padding: 4px 5px; }
+  }
 
   /* ---- footer attribution ---- */
   .page-footer {
@@ -1510,7 +1521,7 @@ function renderResponseTracker() {
     const sig = respSignal(ep, e.b, e.r);
     return `
       <tr>
-        <td>${domainTitle(t.id)} — ${ep.label} <span class="tuner-lh">(${ep.unit}${ep.lowerBetter ? '，越低越好' : ''})</span></td>
+        <td title="${domainTitle(t.id)} — ${ep.label} (${ep.unit})">${domainTitle(t.id)} — ${ep.label} <span class="tuner-lh">(${ep.unit}${ep.lowerBetter ? '，越低越好' : ''})</span></td>
         <td><input type="number" step="any" min="0" value="${e.b != null ? e.b : ''}"
           onchange="onResponse('${t.id}', '${ep.key}', 'b', this.value)" aria-label="${ep.label}基準"></td>
         <td><input type="number" step="any" min="0" value="${e.r != null ? e.r : ''}"
@@ -1670,9 +1681,6 @@ function renderSliders() {
           <span>過度（&gt;6）</span>
         </div>
 
-        <div style="margin:6px 0 2px">
-          <button class="btn" id="guide-btn-${d.id}" onclick="toggleGuide('${d.id}')">隱藏指引</button>
-        </div>
         <div id="guide-${d.id}">
         <div class="rec-card" id="rec-${d.id}" style="display:${tierInit === 'mid' ? 'block' : 'none'}">
           <div class="rec-label">指引</div>
@@ -1697,20 +1705,7 @@ function toggleAllGuides() {
   const wraps = DOMAINS.map(d => document.getElementById('guide-' + d.id)).filter(Boolean);
   const anyVisible = wraps.some(w => w.style.display !== 'none');
   wraps.forEach(w => { w.style.display = anyVisible ? 'none' : 'block'; });
-  DOMAINS.forEach(d => {
-    const b = document.getElementById('guide-btn-' + d.id);
-    if (b) b.textContent = anyVisible ? '顯示指引' : '隱藏指引';
-  });
   if (btn) btn.textContent = anyVisible ? '顯示全部指引' : '隱藏全部指引';
-}
-
-function toggleGuide(id) {
-  const wrap = document.getElementById('guide-' + id);
-  const btn = document.getElementById('guide-btn-' + id);
-  if (!wrap || !btn) return;
-  const hidden = wrap.style.display === 'none';
-  wrap.style.display = hidden ? 'block' : 'none';
-  btn.textContent = hidden ? '隱藏指引' : '顯示指引';
 }
 
 function onSlider(id, val) {

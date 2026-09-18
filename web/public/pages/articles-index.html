@@ -146,6 +146,7 @@
       return f && Object.prototype.hasOwnProperty.call(f, 'starred')
         ? f.starred === true : a.starred === true;
     };
+    const toTime = (s) => { const t = Date.parse(s || ''); return Number.isNaN(t) ? -Infinity : t; };
     const articles = data
       .filter(a => a.active !== false && a.id !== 'articles-index' && a.langs && a.langs['en-US'])
       .map((a, ai) => {
@@ -154,11 +155,16 @@
         const starred = dbStarred(a);
         const weight = a.weight || 0;
         /* Sort/group by whichever is newer — created or updated (fall
-           back to created when an entry has no updated date). */
-        const updated = en.updated || en.created || '';
-        const created = en.created || '';
-        const latest = (updated || '') > (created || '') ? updated : created;
-        const isNew = (created || '') >= (updated || '');
+           back to created when an entry has no updated date).
+           Date.parse comparison (not string >) so mixed ISO formats
+           still order correctly; unparsable dates sort as oldest. */
+        /* Dates live at the top level (one created/updated per article id;
+           zh-TW ships no dates). Lang-level dates still win if present
+           (backward compat with older articles.json snapshots). */
+        const updated = en.updated || a.updated || en.created || a.created || '';
+        const created = en.created || a.created || '';
+        const latest = toTime(updated) >= toTime(created) ? (updated || created) : created;
+        const isNew = toTime(created) >= toTime(updated);
         return {
           id: a.id,
           _idx: ai,
@@ -179,9 +185,9 @@
           bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(latest))
         };
       })
-      .sort((x, y) => (y.starred - x.starred) ||
+      .sort((x, y) => (Number(y.starred) - Number(x.starred)) ||
         (x.weight - y.weight) ||
-        (y.latest || '').localeCompare(x.latest || ''));
+        (toTime(y.latest) - toTime(x.latest)));
 
       function render(){
         const tokens = parseQuery(searchBox.value);
@@ -200,7 +206,7 @@
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
               <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-              <p class="article-meta"><span class="${cls}">${a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`} (${esc(a.latest)})</span></p>
+              <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`} (${esc(a.latest || '—')})</span></p>
             </li>`).join('');
           html += '</ul>';
         });

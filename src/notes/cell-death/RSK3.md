@@ -3,7 +3,7 @@ title: RSK3
 description: p90 ribosomal protein S6 kinase 3, an upstream regulator of RIPK3 phosphorylation that promotes necroptosis activation; implicated in ischemic retinal injury.
 protected: false
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-14
 tags: [enzyme, cell-death, kinase, necroptosis]
 url: #
 source: #
@@ -34,6 +34,8 @@ Couples MAPK/ERK stress signaling to necroptotic clearance of damaged cells.
 
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Necroptosis Review]]
   - Upstream kinases licensing RIPK3 activation and necrosome assembly.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - RSK3 as a context-specific RIPK3-activating kinase in ischemic retinal injury.
 
 ## Connections
 
@@ -46,3 +48,4 @@ Couples MAPK/ERK stress signaling to necroptotic clearance of damaged cells.
 
 - New links added: [[RIPK3]], [[MLKL]], [[RSK]], [[Necroptosis]]
 - Strong connections to strengthen: [[RSK3]] ↔ [[RIPK3]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — RSK3 as a context-specific RIPK3 activator in ischemic retinal injury.

@@ -3,7 +3,7 @@ title: Necrosulfonamide
 description: Necrosulfonamide is a small-molecule MLKL inhibitor that also blocks Gasdermin D, complicating necroptosis-vs-pyroptosis dissection.
 protected: true
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-14
 tags: [chemical-compound, cell-death]
 url: #
 source: #
@@ -16,11 +16,16 @@ aliases: [NSA, Necrosulfonamide (NSA)]
 
 In the comparison-table context, necrosulfonamide completes the necroptosis Blocked-by triad (RIPK1 → RIPK3 → MLKL).
 
+> [!info]
+> Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
+> NSA is the prototypical MLKL inhibitor in the review's therapeutic landscape, used alongside [[Necrostatin-1]] (RIPK1) and RIPK3 inhibitors (GSK'840, GSK'872, Zharp-99). It also illustrates the field's selectivity problem: many necroptosis inhibitors have moderate selectivity, poor pharmacokinetics, or off-target effects (NSA's Gasdermin D blockade being the canonical example).
+
 ## Documents
 
 List of documents that mention this entity
 
-No documents ingested yet.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - NSA as the reference MLKL inhibitor in the direct-inhibitor landscape; notes selectivity/PK/off-target limitations of current necroptosis drugs.
 
 ## Connections
 
@@ -36,3 +41,4 @@ No documents ingested yet.
 - New links added: [[Necroptosis]], [[MLKL]], [[Gasdermin D]], [[Pyroptosis]], [[Necrostatin-1]].
 - Suggested new entity notes to create: none.
 - Strong connections to strengthen: [[Necrosulfonamide]] ↔ [[MLKL]], [[Necrosulfonamide]] ↔ [[Gasdermin D]].
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — NSA in the direct necroptosis-inhibitor landscape and the selectivity caveat. New links: [[GSK872]].

@@ -3,7 +3,7 @@ title: MIF
 description: MIF is a moonlighting protein acting both as a pro-inflammatory cytokine and as the PAAN nuclease executing parthanatotic chromatinolysis.
 protected: false
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-14
 tags: [protein, cell-death, inflammation]
 url: #
 source: #
@@ -16,11 +16,16 @@ aliases: [Macrophage Migration Inhibitory Factor, PAAN, Parthanatos-Associated A
 
 [[HDAC6]] keeps MIF deacetylated to license AIF binding (HDAC6 inhibition blocks translocation); HSP70 sequesters cytosolic AIF as a brake; the brain-penetrant PAANIB-1 selectively inhibits the nuclease function. No verified sex difference exists for the MIF/PAAN step.
 
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> MIF/PAAN is the leading model for how [[Apoptosis-Inducing Factor|AIF]] translocation causes DNA fragmentation: cytoplasmic AIF binds MIF and co-translocates, and a MIF-nuclease inhibitor protects in a mouse model of parkinsonism. The competing model is an AIF-intrinsic nuclease acting in an AIF–cyclophilin A–[[H2A.X]] complex; which is used, and how it relates to apoptotic DNA cleavage, remains an open question.
+
 ## Documents
 
 List of documents that mention this entity
 
-No documents ingested yet.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - MIF as the leading downstream nuclease model in parthanatos (AIF binding and nuclear translocation); PAANIB-1 protects in parkinsonism; AIF–CypA–H2AX is the alternative.
 
 ## Connections
 
@@ -36,3 +41,4 @@ No documents ingested yet.
 - New links added: [[Parthanatos]], [[Apoptosis-Inducing Factor|AIF]], [[NLRP3]], [[Pyroptosis]], [[HDAC6]], [[Parkinson's Disease]], [[Alzheimer's Disease]].
 - Suggested new entity notes to create: [[HDAC6]], [[PAANIB-1]].
 - Strong connections to strengthen: [[MIF]] ↔ [[Parthanatos]], [[MIF]] ↔ [[Apoptosis-Inducing Factor|AIF]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — MIF/PAAN as lead DNA-fragmentation model vs AIF–CypA–[[H2A.X]] alternative. New links: [[H2A.X]].

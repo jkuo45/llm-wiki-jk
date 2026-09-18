@@ -3,7 +3,7 @@ title: PGAM5
 description: Phosphoglycerate mutase family member 5 (PGAM5) — a mitochondrial serine/threonine phosphatase at the crossroads of mitophagy and necroptosis; it stabilizes PINK1 for mitophagy and anchors the necrosome to activate Drp1-driven fission and cell rupture.
 protected: false
 created: 2026-08-29
-updated: 2026-09-03
+updated: 2026-09-14
 tags:
   - protein
   - mitochondria
@@ -55,6 +55,8 @@ aliases:
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - PGAM5 as the mitophagy↔necroptosis hinge: necrosome anchoring, RIPK3–PGAM5–Drp1 fission, PINK1-stabilizing mitophagy, and the severity-dependent fate switch.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - RIPK3-phosphorylated PGAM5 dephosphorylates Drp1 to promote mitochondrial fission and amplify the death signal in ischemia-reperfusion and neurodegenerative disease.
 
 ## Connections
 
@@ -77,4 +79,5 @@ aliases:
 - New links added: [[PINK1]], [[Parkin]], [[DRP1]], [[RIPK3]], [[MLKL]], [[Mitophagy]], [[Necroptosis]], [[Mitochondria]], [[LC3]], [[Sirtuin-Caspase Crosstalk]]
 - Supplemental links added 2026-09-03: [[CypD]], [[OPA1]], [[FUNDC1]], [[Ferroptosis]]
 - Suggested new entity notes to create: [[MFN1]], [[necrosome]], [[Plantainoside D]], [[PGAM5-S]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — RIPK3–PGAM5–Drp1 fission arm in I/R and neurodegeneration.
 - Strong connections to strengthen: [[PGAM5]] ↔ [[PINK1]], [[PGAM5]] ↔ [[DRP1]], [[PGAM5]] ↔ [[RIPK3]]

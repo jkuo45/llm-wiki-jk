@@ -3,7 +3,7 @@ title: CYLD
 description: The K63/M1 deubiquitinase cylindromatosis that strips ubiquitin from RIPK1, TRAF2 and TRAF6 — the enzymatic switch converting TNFR1 complex I survival signaling into complex II death signaling.
 protected: false
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-14
 tags:
   - enzyme
   - cell-death
@@ -58,6 +58,8 @@ via excess complex-II flux.
   - CYLD-mediated RIPK1 deubiquitination destabilizing complex I toward ripoptosome/complex II.
 - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
   - Complex I → II transition framing the c-FLIP switch.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - CYLD-mediated deubiquitination of RIPK1 as a core node releasing it from pro-survival complex I into the pro-death necrosome; counterbalanced by OTULIN (Tyr-56 switch).
 
 ## Connections
 
@@ -75,3 +77,4 @@ via excess complex-II flux.
   [[TRAF2]], [[NEMO]], [[Ripoptosome]], [[Caspase-8-c-FLIP Rheostat]]
 - Suggested new entity notes to create: [[LUBAC]], [[OTULIN]]
 - Strong connections to strengthen: [[CYLD]] ↔ [[RIPK1]], [[CYLD]] ↔ [[TNFR1 complex II]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — CYLD/OTULIN balance in RIPK1 ubiquitin editing. New links: [[OTULIN]].

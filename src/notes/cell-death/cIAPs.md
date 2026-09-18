@@ -3,7 +3,7 @@ title: cIAPs
 description: Cellular inhibitor of apoptosis proteins cIAP1 and cIAP2 (BIRC2/BIRC3) — E3 ubiquitin ligases that ubiquitinate RIPK1 to sustain survival signaling and preclude ripoptosome assembly.
 protected: true
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-14
 tags:
   - protein
   - cell-death
@@ -72,8 +72,8 @@ pro-survival (complex I) mode in barrier epithelia.
   - cIAP loss as the trigger of spontaneous 2 MDa ripoptosome formation; MG-132 epistasis.
 - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
   - cIAP–RIPK1 ubiquitination as the upstream gate of the c-FLIP switch.
-- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Necroptosis network review]]
-  - IAP antagonism strategies and resistance mechanisms in the necroptosis network.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - Places cIAP-mediated RIPK1 ubiquitination in the multilayered regulation of the necroptosis network and discusses IAP-antagonist strategies and resistance mechanisms.
 
 ## Connections
 
@@ -92,3 +92,4 @@ pro-survival (complex I) mode in barrier epithelia.
 - Suggested new entity notes to create: (done 03_Sep_2026: [[Smac mimetics]], [[BIRC2]]; pre-existing: [[TRAF2]], [[TRIF]])
 - Strong connections to strengthen: [[cIAPs]] ↔ [[Ripoptosome]], [[cIAPs]] ↔ [[RIPK1]],
   [[cIAPs]] ↔ [[Caspase-8-c-FLIP Rheostat]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — cIAP/RIPK1 ubiquitination in the necroptosis regulatory network; resolves the prior red document link.

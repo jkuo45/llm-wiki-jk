@@ -3,7 +3,7 @@ title: MLKL
 description: Mixed lineage kinase domain-like protein (MLKL) — the pseudokinase executor of necroptosis; phosphorylated by RIPK3, it oligomerizes at the plasma membrane to rupture the cell, and doubles as a trigger of NLRP3 inflammasome activation.
 protected: true
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-14
 tags:
   - protein
   - cell-death
@@ -29,6 +29,14 @@ aliases:
 > [!important]
 > MLKL is a cell-fate switch, not just an endpoint: its pore-forming K⁺ efflux activates the [[NLRP3]] [[Inflammasome]] (RIPK3/MLKL/NLRP3 axis), linking necroptosis to [[Pyroptosis]]; MLKL intracellular membrane association attenuates [[Autophagy]]; and MLKL-driven membrane-lipid demands make necroptosis and [[Ferroptosis]] mutually alternative via ACSL4-dependent PUFA composition.
 
+> [!info]
+> Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
+> MLKL is regulated beyond RIPK3 phosphorylation: [[BRD4]] transcriptionally promotes MLKL expression, while [[Hsp90]] binds MLKL and protects it from proteasomal degradation to facilitate activation/translocation. During phagocytosis, [[TAM Kinases]] (Tyro3, Axl, Mer) activated by exposed phosphatidylserine can also phosphorylate MLKL, and RIPK1 can phosphorylate MLKL under specific (particularly murine) conditions. The salt-inducible kinase inhibitor HG-9-91-01 suppresses necroptosis by disrupting RIPK3/MLKL interaction. Execution is heterogeneous — a glaucoma axonal-degeneration model shows necroptosis-like death independent of MLKL pore formation, and MLKL can indirectly compromise membranes via ion channels such as TRPM7.
+
+> [!info]
+> Source: [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green, NEJM 2014]]
+> In 2014 MLKL was still "a pseudokinase that functions to cause necroptosis in a manner that has not yet been elucidated" — its membrane-pore function had not been defined. Functional evidence available then: [[MLKL]]-deficient mice were protected from cerulein-induced [[Pancreatitis|pancreatitis]] (Wu et al., *Cell Res* 2013), supporting MLKL deletion as the expected confirmation of necroptosis in ischemia-reperfusion injury. [[Necrosulfonamide]] emerged as the first direct inhibitor of human MLKL, establishing MLKL as a druggable target in principle.
+
 ## Crosstalk roles (Eskander et al., 2025)
 
 - **Necroptosis → pyroptosis**: MLKL pore formation triggers K⁺ efflux that activates the NLRP3 inflammasome.
@@ -40,6 +48,10 @@ aliases:
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - MLKL as the necroptosis executor and the crosstalk hub linking necroptosis to pyroptosis (K⁺ efflux → NLRP3), autophagy inhibition, and ferroptosis via membrane-lipid composition.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - Multilayered MLKL regulation (BRD4 transcription, HSP90 stability, TAM-kinase/RIPK1 phosphorylation) and context-dependent/non-canonical execution (MLKL-pore-independent glaucoma axonopathy; TRPM7-linked membrane compromise).
+- [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
+  - MLKL as the (then-unelucidated) pseudokinase executor; MLKL-KO protection in cerulein-induced pancreatitis; necrosulfonamide as the first direct human MLKL inhibitor; MLKL-KO as the awaited confirmation for IRI necroptosis.
 
 ## Connections
 
@@ -59,3 +71,5 @@ aliases:
 - New links added: [[RIPK3]], [[RIPK1]], [[Caspase-8]], [[NLRP3]], [[Pyroptosis]], [[ACSL4]], [[Autophagy]], [[TNFα]], [[Inflammation]], [[Inflammasome]], [[Ferroptosis]], [[Necroptosis]], [[Sirtuin-Caspase Crosstalk]]
 - Suggested new entity notes to create: [[DAMPs]], [[necrosome]], [[PANoptosis]]
 - Strong connections to strengthen: [[MLKL]] ↔ [[RIPK3]], [[MLKL]] ↔ [[NLRP3]], [[MLKL]] ↔ [[ACSL4]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — MLKL regulation by BRD4, HSP90, TAM kinases, and RIPK1; MLKL-pore-independent execution routes. New links: [[BRD4]], [[Hsp90]], [[TAM Kinases]].
+- Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — 2014-era pseudokinase status; MLKL-KO protection in cerulein pancreatitis; necrosulfonamide as first direct MLKL inhibitor. New links: [[Necrosulfonamide]], [[Pancreatitis]].

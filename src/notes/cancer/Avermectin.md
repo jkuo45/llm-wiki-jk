@@ -46,6 +46,10 @@ List of documents that mention this entity
 ## Connections
 
 - [[Ivermectin]]: Lead avermectin derivative.
+- [[Selamectin]]: Semi-synthetic avermectin endectocide approved for dogs and cats (topical); the family's dog-label member alongside ivermectin.
+- [[Doramectin]]: Cyclohexyl-substituted avermectin developed for livestock; not a dog-labeled product.
+- [[Moxidectin]]: Long-acting milbemycin cousin used for canine heartworm prevention and human onchocerciasis.
+- [[Milbemycin Oxime]]: Related macrocyclic lactone (milbemycin class) with the widest canine safety margin, preferred for MDR1-affected dogs.
 - [[Satoshi Ōmura]]: Co-discoverer.
 - [[William C. Campbell]]: Co-discoverer.
 - [[Kitasato Institute]]: Origin of the discovery.

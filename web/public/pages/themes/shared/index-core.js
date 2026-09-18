@@ -38,7 +38,9 @@ window.IndexCore = (function () {
   }
   function relAge(iso) {
     if (!iso) return "";
-    var ms = Date.now() - new Date(iso).getTime();
+    var t = Date.parse(iso);
+    if (Number.isNaN(t)) return "date unknown";
+    var ms = Date.now() - t;
     if (ms < 864e5) return "today";
     var days = Math.floor(ms / 864e5);
     if (days < 7) return days + "d";

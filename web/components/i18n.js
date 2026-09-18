@@ -244,7 +244,7 @@ const UI_STRINGS = {
     starred: 'Starred',
     // ---- Reader source tabs (single-language per UI lang) ----
     readerTabArticles: 'Articles',
-    readerTabTasks: 'Task Outputs',
+    readerTabTasks: 'Tasks',
   },
   'zh-TW': {
     // ---- Analysis / chat panel ----
@@ -444,7 +444,7 @@ const UI_STRINGS = {
     starred: '已加星號',
     // ---- Reader source tabs (single-language per UI lang) ----
     readerTabArticles: '文章',
-    readerTabTasks: '任務輸出',
+    readerTabTasks: '任務',
   },
 };
 

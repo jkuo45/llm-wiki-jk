@@ -15,8 +15,8 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // (`id`) with a `langs` block per language. They are flattened below to
 // one row per item × lang, with `id` derived (en-US → the item id, other
 // langs → <id>-<lang>) so existing URLs like #reader=<id>-zh keep
-// resolving. Lang-level fields (title/path/dates) override group
-// defaults; `active` is group-level.
+// resolving. `created`/`updated` are group-level (one pair per id);
+// lang-level title/path override group defaults; `active` is group-level.
 // Only entries with `active: true` are listed/opened by the reader —
 // set `active: false` while an entry is being edited so it stays hidden.
 // Task outputs (tasks.json) are namespaced by file membership (data.js loads

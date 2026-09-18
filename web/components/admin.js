@@ -162,7 +162,7 @@ async function ensureLoaded(type) {
             return {
               id,
               title: String(en.title || a.id),
-              meta: en.created || '',
+              meta: en.created || a.created || '',
               staticStarred: a.starred === true,
               staticActive: a.active !== false,
             };

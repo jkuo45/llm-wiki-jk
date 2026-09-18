@@ -68,6 +68,7 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [PANoptosis](https://graph.johnnykuo.com/pages/en-US/panoptosis.html): Minimalist embeddable three.js cell illustrating PANoptosis — ZBP1 sensing (or TAK1 loss), PANoptosome co-assembly (RIPK1/RIPK3/Caspase-8/Caspase-1 + ASC/FADD), parallel GSDMD + Caspase-3 + pMLKL triple-arm rupture that no single inhibitor rescues (≈12 h course).
 - [Eryptosis](https://graph.johnnykuo.com/pages/en-US/eryptosis.html): Minimalist embeddable three.js cell illustrating eryptosis regulation in the anucleate red blood cell — oxidative/osmotic/energy-depletion/ceramide triggers, calcium-driven calpain/scramblase amplification, PS-exposure remnant with silent splenic clearance.
 - [NETosis](https://graph.johnnykuo.com/pages/en-US/netosis.html): Minimalist embeddable three.js cell illustrating multilayered NETosis regulation — NADPH-oxidase ROS burst, PAD4 histone citrullination (cit-H3, Cl-amidine checkpoint, NE-mediated bypass), chromatin decondensation with envelope rupture and DNA–histone–MPO web extrusion.
+- [Regulation of the SASP — Sensors, Signalling, Transcription Factors](https://graph.johnnykuo.com/pages/en-US/sasp-regulation.html): Interactive three.js model of the SASP-induction scheme, with nodes classified by the figure's legend — red sensors/receptors/ligands, orange intracellular signalling components, yellow transcription factors. Traces the DNA damage response, p38 MAPK, mTOR/MAPKAPK2 transcript stabilization, CCF–cGAS–STING and inflammasome signalling, and the NF-κB/C/EBPβ/GATA4/STAT programme to secretion. Explains which steps are compartment-restricted (CCF nucleus-to-cytosol relay; transcriptional versus post-transcriptional control).
 
 ## Articles (Traditional Chinese / 中文)
 
@@ -104,6 +105,7 @@ Gallery of handwritten notes and diagrams with OCR transcripts from the wiki's r
 - [PANoptosis](https://graph.johnnykuo.com/pages/zh-TW/panoptosis.html)：極簡可嵌入式 three.js 細胞，呈現 PANoptosis——ZBP1 感測（或 TAK1 缺失）、全景體共組裝（RIPK1／RIPK3／Caspase-8／Caspase-1＋ASC／FADD）、GSDMD＋Caspase-3＋pMLKL 並行三臂破裂，單一抑制劑無法挽救（約 12 小時病程）。
 - [紅細胞凋亡](https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html)：極簡可嵌入式 three.js 細胞，呈現無核紅血球的紅細胞凋亡調控——氧化／滲透／能量耗竭／神經醯胺觸發、鈣驅動 calpain／scramblase 放大、PS 外翻殘體伴靜默脾臟清除。
 - [NETosis](https://graph.johnnykuo.com/pages/zh-TW/netosis.html)：極簡可嵌入式 three.js 細胞，呈現 NETosis 的多層調控——NADPH 氧化酶 ROS 爆發、PAD4 組蛋白瓜氨酸化（cit-H3、Cl-amidine 檢查點、NE 介導旁路）、染色質去凝縮伴核膜破裂與 DNA–組蛋白–MPO 網噴出。
+- [SASP 的調控 — 感測器、訊號與轉錄因子](https://graph.johnnykuo.com/pages/zh-TW/sasp-regulation.html)：SASP 誘導架構圖的互動式 three.js 模型，節點依原圖圖例分類——紅色感測器、受體與配體；橘色胞內訊號組件；黃色轉錄因子。涵蓋 DNA 損傷反應、p38 MAPK、mTOR／MAPKAPK2 轉錄本穩定化、CCF–cGAS–STING 與發炎體訊號，以及 NF-κB／C/EBPβ／GATA4／STAT 程序至分泌。並說明哪些步驟受區室限制（CCF 的細胞核至細胞質傳遞；轉錄與轉錄後調控的分層）。
 
 - Wiki source and the curated document corpus (100+ papers and reviews) live in the [llm-wiki-jk GitHub repository](https://github.com/jkuo45/llm-wiki-jk).
 - Machine-readable graph data (nodes / links / communities with per-node descriptions) is served as JSON under the app's `/data/` path — see `web/data/` in the repository.

@@ -2,7 +2,7 @@
 title: Pyruvate Dehydrogenase
 description: Mitochondrial enzyme complex that converts pyruvate to acetyl-CoA, the committed step feeding the TCA cycle. Its activity gates glucose-derived carbon entry into the mitochondrial citrate–acetyl-CoA axis.
 created: 2026-07-31
-updated: 2026-09-12
+updated: 2026-09-14
 tags:
   - enzyme
   - metabolism
@@ -37,6 +37,8 @@ PDH was identified as a mitochondrial gatekeeper for oncogene-induced senescence
   - Contextualizes PDH as the entry point of the mitochondrial metabolic checkpoint controlling SASP chromatin.
 - [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
   - RIPK3 phosphorylates PDC-E3 at Thr135 to drive aerobic respiration and mitochondrial ROS, coupling PDC activity to necrosome assembly.
+- [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
+  - Lists RIPK3-phosphorylated PDC (E3 Thr135) among the non-MLKL substrates linking necroptosis to cancer metabolic reprogramming, while noting the broader disease relevance remains an open question.
 
 ## Connections
 
@@ -60,3 +62,4 @@ PDH was identified as a mitochondrial gatekeeper for oncogene-induced senescence
 - Strong connections to strengthen:
     - [[Pyruvate Dehydrogenase]] ↔ [[Pyruvate]] ↔ [[Acetyl-CoA]] ↔ [[TCA cycle]]
     - [[Pyruvate Dehydrogenase]] ↔ [[RIPK3]] ↔ [[Necroptosis]]
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — PDC as a non-MLKL RIPK3 substrate in cancer metabolic reprogramming.

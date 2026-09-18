@@ -1,0 +1,38 @@
+---
+title: TNFR
+description: Tumor necrosis factor receptor family mediating TNFR1 death-complex assembly toward necroptosis.
+protected: false
+created: 2026-09-14
+updated: 2026-09-14
+tags: [receptor, cell-death]
+url: #
+source: #
+aliases: [TNF-receptor]
+---
+
+# TNFR
+
+## Overview
+
+TNFR (TNF receptor) denotes the receptor family for [[TNFα]]. The death-domain-containing member [[TNFR1]] is the canonical [[Necroptosis]] entry point: ligand binding assembles Complex I (survival/[[NF-κB]]) and, upon deubiquitination and [[Caspase-8]] inhibition, Complex II/[[necrosome]] with [[RIPK1]] and [[RIPK3]].
+
+## Family Context
+
+See [[TNFR1]] for the death receptor proper. Other members — TNFR2 (no death domain), and death-domain receptors Fas and TRAIL-R — can also drive RIPK1-dependent necroptosis when [[Caspase-8]] is blocked (e.g. Holler et al. 2000), but their [[necrosome]] coupling is less defined than TNFR1's and they mainly modulate the inflammatory milieu around necroptotic lesions.
+
+## Documents
+
+None yet.
+
+## Connections
+
+- [[TNFR1]] — principal death receptor family member.
+- [[TNFα]] — ligand; see also [[TNF-alpha]].
+- [[RIPK1]] — adaptor recruited to TNFR1 complexes.
+- [[necrosome]] — death complex downstream of TNFR1.
+- [[Necroptosis]] — death program initiated at TNFR1.
+- [[Caspase-8]] — gatekeeper deciding apoptosis versus necroptosis.
+
+## Linking Summary
+
+[[TNFR]] receptors, above all [[TNFR1]], are the gateway from [[TNFα]] to [[Necroptosis]]: ubiquitination state and [[Caspase-8]] activity at the receptor complex determine whether signaling resolves to [[NF-κB]] survival, apoptosis, or [[RIPK1]]–[[RIPK3]] [[necrosome]] formation.

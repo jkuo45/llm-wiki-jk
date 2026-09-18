@@ -14,19 +14,22 @@ export function updateHash(pushState = true) {
   const mode = currentParams.get("mode");
   if (mode === "wiki" || mode === "triples") parts.push(`mode=${encodeURIComponent(mode)}`);
   // Notes panel first so the hash always opens with #notes when it's shown.
+  //   #notes          → gallery open (no note selected)
+  //   #notes=<id>     → lightbox open on that note (legacy `note=<id>` still read)
   if (state.notesOpen) {
-    parts.push('notes');
-    if (state.notesUiLang && state.notesUiLang !== 'en-US') {
-      parts.push(`uilang=${encodeURIComponent(state.notesUiLang)}`);
-    }
     if (state.notesNoteId) {
-      parts.push(`note=${encodeURIComponent(state.notesNoteId)}`);
+      parts.push(`notes=${encodeURIComponent(state.notesNoteId)}`);
       if (state.notesPage != null) {
         parts.push(`page=${state.notesPage}`);
       }
       if (state.notesViewMode) {
         parts.push('noteview=full');
       }
+    } else {
+      parts.push('notes');
+    }
+    if (state.notesUiLang && state.notesUiLang !== 'en-US') {
+      parts.push(`uilang=${encodeURIComponent(state.notesUiLang)}`);
     }
   }
   if (state.activeTrace) {

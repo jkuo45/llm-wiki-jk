@@ -5,7 +5,7 @@ description: Apoptosis (programmed cell death) is a highly regulated mechanism
   inducing inflammation.
 protected: true
 created: 2026-05-29
-updated: 2026-09-03
+updated: 2026-09-14
 tags:
   - biological-process
   - apoptosis
@@ -18,6 +18,10 @@ aliases: []
 - **Mitochondrial Pathway:** High levels of [[Reactive Oxygen Species]] (ROS) can damage [[Mitochondria]], leading to the release of **Cytochrome c**. This activates the caspase cascade (e.g., [[Caspase-3]]), leading to cell death.
 - **DNA Damage Response:** Severe [[DNA Damage]] activates [[p53]], which can trigger apoptosis as a fail-safe mechanism.
 - **Cross-talk:** Apoptosis often exhibits cross-talk with [[Autophagy]] to determine cell fate under stress.
+
+> [!info]
+> Source: [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024]]
+> Apoptosis and [[Parthanatos]] are mutually antagonistic but more interconnected than a simple two-node switch: severe [[PARP1]] hyperactivation depletes [[NAD+]]/[[ATP]] and precludes apoptotic execution (high DNA damage → parthanatos; lower damage → transient dip → apoptosis), while apoptotic [[Caspases]] cleave PARP1 between its DNA-binding and catalytic domains to spare ATP for apoptosis. Whether the crosstalk extends beyond this is an open question; [[Apoptosis-Inducing Factor|AIF]] translocation occurs in both, and the [[89-kDa PARP1 Fragment]] can act as a cytoplasmic PAR carrier feeding AIF-mediated death.
 ## Role in [[Aging]] and Epigenetics
 - **The Epigenetic-Apoptosis Axis:** [[Epigenetics]] serves as a regulatory layer determining cell survival. Hypermethylation of pro-apoptotic genes (like *FAS*, *BAX*, or *TP53*) can prevent the clearance of damaged cells, increasing [[Cancer]] risk.
 - **[[Sirtuins]]s:** Sirtuins like [[SIRT1]] and [[SIRT6]] (dependent on NAD+) modulate p53 to balance survival and apoptosis.
@@ -183,6 +187,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Notably, this protein family plays a variety of important roles in cellular biology such as inflammation, metabolism, oxidative stress, and Apoptosis, etc., thus, it is considered a potential therapeutic target for different kinds of pathologies including c...
 
+  - [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+    - Apoptosis–parthanatos antagonism as an open question: ATP-dependent death-mode switch and caspase cleavage of PARP1, versus cooperative nodes (shared AIF translocation, 89-kDa PARP1 PAR-carrier fragment).
+
 
 ## Connections
 - [[Mitochondria]]: The central organelle and sensor for the intrinsic apoptotic pathway.
@@ -205,3 +212,4 @@ List of documents that mention this entity
 - New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]], [[Necrosis]], [[Caspases]].
   - Strong connections to strengthen: [[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ Cellular Senescence, [[Apoptosis]] ↔ [[p53]], [[Apoptosis]] ↔ [[Mitochondrial Dysfunction]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — ATP-switch and caspase-cleavage antagonism vs cooperative AIF/89-kDa-fragment nodes. New links: [[Parthanatos]], [[89-kDa PARP1 Fragment]], [[PARP1]].

@@ -4,7 +4,7 @@ description: Hexokinase-1 (HK1) is the neuronal glycolytic gate whose PAR bindin
   and VDAC dissociation couples PARP1 hyperactivation to glycolytic collapse in parthanatos.
 protected: false
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-14
 tags: [enzyme, glycolysis, parthanatos, bioenergetics]
 url: #
 source: #
@@ -36,6 +36,8 @@ List of documents that mention this entity
   - Early PAR-not-NAD+ framing; HK as candidate PAR-effector context.
 - Task synthesis: `task_output_parthanatos_open_questions_08_Sep_2026.md`
   - Q2–Q3 determinants: pyruvate bypass, PBM evidence, PARG paradox, PPP/GSH arm.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - Frames "how do free PAR chains inhibit hexokinase" as an open question and contrasts the PAR–HK1 block with the NAD+-centric model; notes the PPP/[[NADPH]]/[[Glutathione]] corollary.
 
 ## Connections
 
@@ -55,3 +57,4 @@ List of documents that mention this entity
 - New links added: [[Glycolysis]], [[VDAC]], [[PAR]], [[PARP1]], [[PARG]], [[NAD+]], [[Apoptosis-Inducing Factor|AIF]], [[Hexokinase 2]], [[Parthanatos]].
 - Suggested new entity notes to create: none (VDAC stub if orphan audit flags it).
 - Strong connections to strengthen: [[Hexokinase-1]] ↔ [[PAR]], [[Hexokinase-1]] ↔ [[Parthanatos]], [[Hexokinase-1]] ↔ [[VDAC]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — PAR–HK1 inhibition as a core contested mechanism; PPP/[[NADPH]]/[[Glutathione]] redox corollary. New links: [[NADPH]], [[Glutathione]], [[Pentose Phosphate Pathway]].

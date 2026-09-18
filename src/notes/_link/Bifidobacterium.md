@@ -30,6 +30,8 @@ aliases: []
     - Notes NAD+ precursor-associated shifts in Bifidobacterium abundance.
   - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|Gut Microbiome, Aging & Longevity Review]]
     - Highlights Bifidobacterium enrichment as a signature of healthy aging and longevity.
+  - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]
+    - Berberine enriches Bifidobacterium spp. via high intraluminal exposure (1–5% bioavailability); PREMOTE links shifts to metabolic improvement.
 
 ## Connections
 
@@ -40,6 +42,7 @@ aliases: []
   - [[Centenarians]]: Enriched in long-lived individuals.
   - [[Short-chain Fatty Acids]]: Major fermentation products.
   - [[Lactobacillus]]: Another commensal genus often paired in probiotic formulations.
+  - [[Berberine]]: Enriches Bifidobacterium spp. via high intraluminal concentrations (1–5% systemic bioavailability).
 
 ## Linking Summary
 

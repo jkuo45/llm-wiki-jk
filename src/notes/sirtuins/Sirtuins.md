@@ -1,8 +1,6 @@
 ---
-title: 'Sirtuins: The Sirtuin Family in Health and Disease'
-description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide adenine
-  dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases
-  (HDACs). Spanning all domains of life, sirtu...
+title: Sirtuins
+description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide adenine dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases (HDACs). Spanning all domains of life, sirtu...
 created: 2026-07-04
 updated: 2026-08-03
 tags:
@@ -15,7 +13,6 @@ aliases:
   - Mammalian Sirtuins
   - Sirtuin
   - Class III HDACs
-
 source: _document_ - sirtuins (resveratrol), gemini.md, _document_ - sirtuins in health and disease s41392-022-01257-8.md, _document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md
 protected: true
 ---
@@ -166,7 +163,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ## Evidence for Lifespan and Healthspan (Giblin et al., 2014)
 
-The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) is the key reference establishing sirtuins as guardians of mammalian healthspan:
+The _Trends in Genetics_ review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) is the key reference establishing sirtuins as guardians of mammalian healthspan:
 
 - **Lifespan extension in mammals:** brain-specific [[SIRT1]] overexpression (BRASTO) extends median lifespan ~11% via hypothalamic [[OX2R]]; whole-body [[SIRT6]] overexpression extends male median lifespan 14.5%/9.9% via reduced IGF-1/IIS. No SIRT3-overexpressing model exists.
 - **Invertebrate evidence:** yeast [[Sir2 (yeast)|Sir2]] (+1 copy → +30% lifespan); worm [[SIR-2.1]] (+10–15% via [[DAF-16]]/IIS and ascaroside sensing); fly dSIR2 overexpression in nervous system/fat body increases longevity.
@@ -177,30 +174,29 @@ The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian 
 
 List of documents that mention this entity
 
-  - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
-    - Landmark review consolidating SIRT1 (BRASTO, ~11% lifespan), SIRT3 (SNPs, DR, SOD2/IDH2), and SIRT6 (male lifespan 14.5%/9.9%, IGF-1) as guardians of mammalian healthspan across neurodegeneration, metabolism, inflammation, cancer, and CVD.
+- [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+  - Landmark review consolidating SIRT1 (BRASTO, ~11% lifespan), SIRT3 (SNPs, DR, SOD2/IDH2), and SIRT6 (male lifespan 14.5%/9.9%, IGF-1) as guardians of mammalian healthspan across neurodegeneration, metabolism, inflammation, cancer, and CVD.
 
-  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
-    - Although we detected no changes in the level of markers for Dopamine synthesis and Dopamine Transporter, we found that COMT-OE mice display an increase in Dopamine release capacity in the Sirtuins.
+- [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+  - Although we detected no changes in the level of markers for Dopamine synthesis and Dopamine Transporter, we found that COMT-OE mice display an increase in Dopamine release capacity in the Sirtuins.
 
-  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
-    - Shreds of evidence are there to support the fact that miRNAs also influence other aging pathways like mTOR, AMPK, and Sirtuins.
+- [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+  - Shreds of evidence are there to support the fact that miRNAs also influence other aging pathways like mTOR, AMPK, and Sirtuins.
 
-  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
-    - I'm highlighting the metabolic pathways activated, like Sirtuins and AMPK, along with the link to Caloric Restriction. Synthesizing Findings Objectively I've successfully documented the scientific consensus and criticisms surrounding this topic.
+- [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+  - I'm highlighting the metabolic pathways activated, like Sirtuins and AMPK, along with the link to Caloric Restriction. Synthesizing Findings Objectively I've successfully documented the scientific consensus and criticisms surrounding this topic.
 
-  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
-    - Although the complete mechanism of Resveratrol has yet to be fully elucidated, the Sirtuins, consisting of 7 highly conserved families of regulator genes, are thought to be instrumental in establishing the various health benefits.
+- [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+  - Although the complete mechanism of Resveratrol has yet to be fully elucidated, the Sirtuins, consisting of 7 highly conserved families of regulator genes, are thought to be instrumental in establishing the various health benefits.
 
-  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
-    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+- [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+  - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
 
-  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
-    - Sirtuins in mammals: insights into their biological function Shaday MICHAN and David SINCLAIR Department of Pathology, Paul F. Glenn Laboratories for the Biological Mechanisms of Aging, Harvard Medical School, 77 Ave Louis Pasteur, Boston, MA, U.S.A.
+- [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+  - Sirtuins in mammals: insights into their biological function Shaday MICHAN and David SINCLAIR Department of Pathology, Paul F. Glenn Laboratories for the Biological Mechanisms of Aging, Harvard Medical School, 77 Ave Louis Pasteur, Boston, MA, U.S.A.
 
-
-  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by [[NMN]]/[[Nicotinamide Riboside|NR]] supplementation.
+- [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
+  - SIRT1 uses NAD+ to repair DNA and stimulate mitochondrial biogenesis; the NAD+/SIRT1 axis is supported by [[NMN]]/[[Nicotinamide Riboside|NR]] supplementation.
 
 - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
   - The review frames SIRT1 as the paradigmatic sirtuin whose context-dependent deacetylase activity couples cellular metabolism to stress adaptation and disease.
@@ -209,6 +205,7 @@ List of documents that mention this entity
   - NAD+ depletion compromises sirtuin-dependent resilience, particularly SIRT1 and SIRT3, weakening antioxidant defenses and mitochondrial detoxification. Reduced sirtuin activity enforces MiDAS and contributes to inflammaging.
 
   - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
 ## Connections
 
 - [[SIRT2]]: - **Class I**: SIRT1, SIRT2, and [[SIRT3]] (possess robust deacetylase activity).
@@ -244,8 +241,9 @@ List of documents that mention this entity
 
 - [[NAD+ Salvage Pathway]]: Sirtuin activity is gated by NAD+ salvage (NAMPT) and diverted by NNMT methylation of nicotinamide
 - [[NNMT]]: NNMT consumption of nicotinamide indirectly modulates the sirtuin network
+
 ## Linking Summary
+
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NF-κB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
 - **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
-

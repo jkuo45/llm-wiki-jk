@@ -4,7 +4,7 @@ description: Nudix phosphodiesterases cleave free ADP-ribose into AMP and ribose
   linking PAR turnover to AMPK signaling and NAD+ salvage cost in parthanatos.
 protected: false
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-14
 tags: [enzyme, adp-ribosylation, parthanatos, energy-metabolism]
 url: #
 source: #
@@ -32,6 +32,8 @@ List of documents that mention this entity
 
 - Task synthesis: `task_output_parthanatos_open_questions_08_Sep_2026.md`
   - Q4 coupling route; Moura 2024 Fig.2 salvage-cost accounting.
+- [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
+  - Nudix degradation of free [[ADP-ribose]] to [[AMP]] + ribose-5-phosphate, the ~4-ATP salvage cost per ADP-ribose, and the AMP→[[AMPK]]–[[mTORC1]] arm; whether Nudix enzymes are required for parthanatos is an open question.
 
 ## Connections
 
@@ -48,3 +50,4 @@ List of documents that mention this entity
 - New note in src/notes/_link/ per parthanatos open-questions task recommendation.
 - New links added: [[Parthanatos]], [[PARG]], [[ARH3]], [[NAD+]], [[TRPM2]], [[Glycolysis]], [[Hexokinase-1]], [[Autophagy]].
 - Strong connections to strengthen: [[Nudix Hydrolases]] ↔ [[PARG]], [[Nudix Hydrolases]] ↔ [[Parthanatos]].
+- Source enrichment (2026-09-14): Moura et al. 2024 — Nudix as the ADP-ribose→AMP/R5P node and salvage-cost ATP sink. New links: [[ADP-ribose]], [[AMPK]], [[mTORC1]].
