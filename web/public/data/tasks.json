@@ -1,5 +1,5 @@
 {
-  "generated": "14_SEP_2026 10:10 AM PDT",
+  "generated": "18_SEP_2026 11:01 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,51 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Natural Bioactive Compounds Targeting Hallmarks of Aging — Spermidine, Fisetin, Berberine, Urolithin A",
+          "description": "Task summary of Rzeski & Rzeska Nutrients 2026 review on four complementary geroprotective food compounds, with key pathways, organ systems, and combined formulation rationale.",
+          "created": "2026-09-17",
+          "updated": "2026-09-17",
+          "tags": [
+            "task-output",
+            "spermidine",
+            "fisetin",
+            "berberine",
+            "urolithin-A",
+            "autophagy",
+            "senolytic",
+            "mitophagy",
+            "functional-food",
+            "aging"
+          ],
+          "filename": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
+          "path": "tasks/en-US/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "針對老化特徵的天然生物活性化合物 — 亞精胺、非瑟酮、小檗鹼、尿石素 A",
+          "description": "Rzeski & Rzeska Nutrients 2026 綜述之任務摘要，介紹四種互補的老化保護食品化合物，含關鍵路徑、器官系統與複方配方的依據。",
+          "created": "2026-09-17",
+          "updated": "2026-09-18",
+          "tags": [
+            "task-output",
+            "spermidine",
+            "fisetin",
+            "berberine",
+            "urolithin-A",
+            "autophagy",
+            "senolytic",
+            "mitophagy",
+            "functional-food",
+            "aging"
+          ],
+          "filename": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md"
         }
       }
     },

@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 14_SEP_2026 | 32 | 1756 | 1,086,802 | 10.17 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 18_SEP_2026 | 33 | 1766 | 1,097,429 | 10.28 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 14_SEP_2026 | 19 | 257 | 197,039 | 2.62 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 11_SEP_2026 | 12 | 226 | 181,647 | 1.70 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 14_SEP_2026 | 11 | 268 | 240,732 | 2.87 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 15_SEP_2026 | 11 | 268 | 240,847 | 2.87 MB |
 | [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 14_SEP_2026 | 10 | 84 | 93,565 | 1.04 MB |
-| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_AUG_2026 | 2 | 44 | 25,881 | 0.52 MB |
+| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 18_SEP_2026 | 2 | 44 | 26,118 | 0.53 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 10_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 10_SEP_2026 | 1 | 94 | 79,167 | 1.07 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 12_SEP_2026 | 15 | 65 | 155,606 | 2.21 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 14_SEP_2026 | 20 | 173 | 313,884 | 3.99 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 15_SEP_2026 | 16 | 66 | 157,145 | 2.25 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 17_SEP_2026 | 20 | 173 | 313,877 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 14_SEP_2026 | **140** | **3282** | **2,709,380** | **29.80 MB** |
+| **subtotal** | 18_SEP_2026 | **142** | **3293** | **2,721,891** | **29.95 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -118,8 +118,11 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 ## Documents
 
 <details>
-<summary><strong>Documents (140 total)</strong> — click to expand</summary>
+<summary><strong>Documents (142 total)</strong> — click to expand</summary>
 
+- `_link`: [Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Natural%20Bioactive%20Compounds%20Spermidine%20Fisetin%20Berberine%20Urolithin%20A.md) [[src/notes/_link/_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md|wiki]] (18_SEP_2026 10:57 AM PDT)
+- `senescence`: [Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Birch%20and%20Gil%202020%20-%20Senescence%20and%20the%20SASP%20many%20therapeutic%20avenues.md) [[src/notes/senescence/_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md|wiki]] (15_SEP_2026 09:55 PM PDT)
+- `cancer`: [Ivermectin, a potential anticancer drug derived from an antiparasitic drug](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) [[src/notes/cancer/_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md|wiki]] (15_SEP_2026 09:22 AM PDT)
 - `cell-death`: [Necroptosis (2014), Linkermann, Green](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Necroptosis%20%282014%29%2C%20Linkermann%2C%20Green.md) [[src/notes/cell-death/_document_ - Necroptosis (2014), Linkermann, Green.md|wiki]] (14_SEP_2026 07:14 PM PDT)
 - `cell-death`: [Regulatory complexity and therapeutic targeting of the necroptosis network](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Regulatory%20complexity%20and%20therapeutic%20targeting%20of%20the%20necroptosis%20network.md) [[src/notes/cell-death/_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md|wiki]] (14_SEP_2026 06:32 PM PDT)
 - `cell-death`: [Parthanatos Moura 2024 molecular mechanisms more questions than answers](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Parthanatos%20Moura%202024%20molecular%20mechanisms%20more%20questions%20than%20answers.md) [[src/notes/cell-death/_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md|wiki]] (14_SEP_2026 06:13 PM PDT)
@@ -151,7 +154,6 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 - `_link`: [The role of mitochondrial dynamics in disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20The%20role%20of%20mitochondrial%20dynamics%20in%20disease.md) [[src/notes/_link/_document_ - The role of mitochondrial dynamics in disease.md|wiki]] (03_SEP_2026 11:52 AM PDT)
 - `cancer`: [Caspase](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Caspase.md) [[src/notes/cancer/_document_ - Caspase.md|wiki]] (03_SEP_2026 11:52 AM PDT)
 - `cancer`: [Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and tripl...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Honeybee%20venom%20and%20melittin%20suppress%20growth%20factor%20receptor%20activation%20in%20HER2-enriched%20and%20triple-negative%20breast%20cancer%20-%20npj%20Precision%20Oncology.md) [[src/notes/cancer/_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md|wiki]] (03_SEP_2026 11:52 AM PDT)
-- `cancer`: [Ivermectin, a potential anticancer drug derived from an antiparasitic drug](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) [[src/notes/cancer/_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md|wiki]] (03_SEP_2026 11:52 AM PDT)
 - `sirtuins`: [sirtuins (overview, CD38 KO risks, cancer therapies)](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) [[src/notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md|wiki]] (03_SEP_2026 11:52 AM PDT)
 - `adrenochrome`: [The Adrenochrome Pathway](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20The%20Adrenochrome%20Pathway.md) [[src/notes/adrenochrome/_document_ - The Adrenochrome Pathway.md|wiki]] (03_SEP_2026 10:18 AM PDT)
 - `_link`: [Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Fisetin%E2%80%94In%20Search%20of%20Better%20Bioavailability%E2%80%94From%20Macro%20to%20Nano%20Modifications%20A%20Review.md) [[src/notes/_link/_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review.md|wiki]] (02_SEP_2026 12:45 AM PDT)
@@ -268,8 +270,9 @@ Build: 07_SEP_2026 · hash `dda9f6d716ce1020`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (109 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (110 total)</strong> — click to expand</summary>
 
+- [task_output_bioactive_compounds_aging_formulations_17_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md) [[src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md|wiki]] (18_SEP_2026 09:49 AM PDT)
 - [task_output_cell_death_modality_distribution_research_13_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md) [[src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
 - [task_output_cell_death_senescence_research_12_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md) [[src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
 - [task_output_hormesis_rcd_acd_tier_model_13_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md) [[src/tasks/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
