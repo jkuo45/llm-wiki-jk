@@ -50,6 +50,8 @@
   .warn { border-left: 4px solid var(--gold, #b58900); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
   .danger { border-left: 4px solid var(--red, #c1121f); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
   .mono { font-family: var(--mono); font-size: .82rem; }
+  .foodviz { display: flex; align-items: center; gap: 8px; margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--rule); }
+  .foodviz .flabel { font-size: .76rem; line-height: 1.5; }
   footer.foot { margin-top: 26px; font-size: .8rem; color: var(--mute); line-height: 1.6; }
 </style>
 </head>
@@ -82,6 +84,7 @@
       <li><b>食物優先：</b>可行 — 穀物強化／發酵食品是主要策略。</li>
       <li><b>製備提醒：</b>高溫加工會降解亞精胺 — 優先選擇低加熱來源（熟成起司、納豆、發酵食品、生小麥胚芽），烹調宜溫和，避免高溫久煮。</li>
     </ul>
+    <div class="foodviz" id="food-spermidine" aria-live="polite"></div>
   </div>
   <div class="card">
     <h3>非瑟酮 — 衰老細胞清除型類黃酮</h3>
@@ -93,6 +96,7 @@
       <li><b>劑型：</b>半乳甘露聚醣複合可提高生體可用率 25 倍以上。</li>
       <li><b>製備提醒：</b>非瑟酮集中於外層果皮 — 蘋果、小黃瓜、柿子不要削皮，草莓整顆吃，並減少加工耗損；把皮吃掉。</li>
     </ul>
+    <div class="foodviz" id="food-fisetin" aria-live="polite"></div>
   </div>
   <div class="card">
     <h3>小檗鹼 — 代謝／菌群調節劑</h3>
@@ -103,6 +107,7 @@
       <li><b>試驗劑量：</b><span class="mono" id="card-dose-berberine">900–1500 mg/天，分次隨餐（每日三次）</span>。</li>
       <li><b>注意：</b>CYP3A4／CYP2D6／P-gp 抑制劑；孕期禁用；常見腸胃不適。</li>
     </ul>
+    <div class="foodviz" id="food-berberine" aria-live="polite"></div>
   </div>
   <div class="card">
     <h3>尿石素 A — 粒線體自噬後生元</h3>
@@ -112,6 +117,7 @@
       <li><b>證據：</b>粒線體自噬臨床資料最豐富 — ATLAS 試驗：500&nbsp;mg/天提升大腿後肌力約 12%；另有耐力、VO₂、免疫重塑訊號；單次 2000&nbsp;mg／每日 1000&nbsp;mg 安全。</li>
       <li><b>試驗劑量：</b><span class="mono" id="card-dose-urolithin">500–1000 mg/天，每日一次</span>（T<sub>max</sub> 4–6&nbsp;小時，半衰期約 20&nbsp;小時）。</li>
     </ul>
+    <div class="foodviz" id="food-urolithin" aria-live="polite"></div>
   </div>
 </div>
 
@@ -157,6 +163,11 @@
   function range2(lo, hi) { return mgOz(lo) + '<br>– ' + mgOz(hi); }
   function range1(lo, hi) { return mgOz(lo) + ' – ' + mgOz(hi); }
   function set(id, html) { var el = document.getElementById(id); if (el) el.innerHTML = html; }
+  // ponytail: flat hand-drawn food icons; upgrade to a proper icon set only if the pile grows
+  function iconWheat() { return '<svg viewBox="0 0 24 44" width="18" height="33" role="img" aria-label="小麥"><line x1="12" y1="42" x2="12" y2="8" stroke="#b58900" stroke-width="2"/><g fill="#e9c46a" stroke="#b58900" stroke-width="1"><ellipse cx="12" cy="9" rx="4" ry="5"/><ellipse cx="7" cy="17" rx="3.4" ry="4.6" transform="rotate(-25 7 17)"/><ellipse cx="17" cy="17" rx="3.4" ry="4.6" transform="rotate(25 17 17)"/><ellipse cx="7" cy="26" rx="3.4" ry="4.6" transform="rotate(-25 7 26)"/><ellipse cx="17" cy="26" rx="3.4" ry="4.6" transform="rotate(25 17 26)"/><ellipse cx="12" cy="34" rx="4" ry="5"/></g></svg>'; }
+  function iconStraw() { return '<svg viewBox="0 0 36 40" width="24" height="27" role="img" aria-label="草莓"><path d="M10 7L6 3M18 8V2M26 7l4-4" stroke="#2a7a3f" stroke-width="2.5" stroke-linecap="round"/><path d="M18 38C10 32 4 24 4 15c0-3 2-5 5-5 3 0 5 1 9 1s6-1 9-1c3 0 5 2 5 5 0 9-6 17-14 23z" fill="#c1121f"/><path d="M8 10c4 3 16 3 20 0l-2 4c-5 2-11 2-16 0z" fill="#2a7a3f"/><g fill="#ffd9a0"><circle cx="13" cy="18" r="1"/><circle cx="18" cy="16" r="1"/><circle cx="23" cy="18" r="1"/><circle cx="15" cy="23" r="1"/><circle cx="21" cy="23" r="1"/><circle cx="18" cy="28" r="1"/></g></svg>'; }
+  function iconPom() { return '<svg viewBox="0 0 40 40" width="28" height="28" role="img" aria-label="石榴"><circle cx="20" cy="23" r="14" fill="#a4133c"/><path d="M14 10l2 5 4-4 4 4 2-5 3 2-2 6H13z" fill="#7f1d2e"/><g fill="#e5383b"><circle cx="15" cy="22" r="2.2"/><circle cx="21" cy="25" r="2.2"/><circle cx="25" cy="20" r="2.2"/></g><circle cx="18" cy="19" r="2.2" fill="#ff5d73"/></svg>'; }
+  function iconCap() { return '<svg viewBox="0 0 44 22" width="36" height="18" role="img" aria-label="膠囊"><rect x="2" y="3" width="40" height="16" rx="8" fill="#e9c46a"/><path d="M22 3h12a8 8 0 010 16H22z" fill="#2a9d8f"/><rect x="2" y="3" width="40" height="16" rx="8" fill="none" stroke="#7a6a3f" stroke-width="1.5"/></svg>'; }
   function render() {
     var k = kg(), s = k / REF, lb = k * KG2LB;
     stateKg = k;
@@ -180,6 +191,13 @@
     set('card-dose-berberine', range1(bLo, bHi) + '／天');
     set('card-dose-urolithin', range1(uLo, uHi) + '／天');
     set('card-dose-fisetin', range1(fLo, fHi) + '／脈衝日');
+    // food equivalents from paper source values: wheat germ 337 mg/kg, strawberries 160 mg/kg (~12 g/berry), 1 tbsp wheat germ ≈ 7 g
+    var spLo = 0.9/337*1000, spHi = 3.3/337*1000,
+        gLo = fLo/160*1000, gHi = fHi/160*1000;
+    set('food-spermidine', iconWheat() + '<span class="flabel mono">≈ ' + spLo.toFixed(1) + '–' + spHi.toFixed(1) + ' 克小麥胚芽（約 ' + (spLo/7).toFixed(1) + '–' + (spHi/7).toFixed(1) + ' 湯匙） — 食物優先可行</span>');
+    set('food-fisetin', iconStraw() + '<span class="flabel mono">≈ ' + (gLo/1000).toFixed(1) + '–' + (gHi/1000).toFixed(1) + ' 公斤草莓（約 ' + Math.round(gLo/12) + '–' + Math.round(gHi/12) + ' 顆） — 單靠飲食不切實際</span>');
+    set('food-berberine', iconCap() + '<span class="flabel mono">一般食物無可靠來源 — 需補充劑</span>');
+    set('food-urolithin', iconPom() + '<span class="flabel mono">約每日半顆至一顆石榴當量，僅 A 型代謝型 — 其餘需直接補充</span>');
   }
   function setMetric(m) {
     metric = m;
