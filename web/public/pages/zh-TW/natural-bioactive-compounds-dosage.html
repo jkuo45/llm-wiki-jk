@@ -92,7 +92,7 @@
     <p>黃酮醇（草莓約 160&nbsp;mg/kg、蘋果、柿子、洋蔥）。十種類黃酮篩選中最強的衰老細胞清除劑（1–10&nbsp;µM 清除 25–50% 衰老細胞）；小鼠間歇給藥可延長壽命、改善衰弱。口服生體可用率極低（快速葡萄糖醛酸化）。</p>
     <ul>
       <li><b>證據：</b>四者中最早期 — 臨床前＋早期人體安全性；尚無第三期試驗；STOP-Sepsis（NCT05758246）進行中。</li>
-      <li><b>試驗劑量：</b><span class="mono" id="card-dose-fisetin">100–1000 mg/天，間歇給藥</span>（例如短期脈衝，非長期每日服用）。</li>
+      <li><b>試驗劑量：</b><span class="mono" id="card-dose-fisetin">100–1000 mg/天，間歇給藥</span>（吃一週／休息兩週／再吃一週的脈衝療法，非長期每日服用 — Murray 等人 2025）。</li>
       <li><b>劑型：</b>半乳甘露聚醣複合可提高生體可用率 25 倍以上。</li>
       <li><b>製備提醒：</b>非瑟酮集中於外層果皮 — 蘋果、小黃瓜、柿子不要削皮，草莓整顆吃，並減少加工耗損；把皮吃掉。</li>
     </ul>
@@ -181,7 +181,7 @@
       ['亞精胺', range2(0.9, 3.3) + '／天', '每日一次，隨餐', '固定值 — 膳食劑量下與體重無關；地中海飲食約 8–12 mg／天來自食物。'],
       ['小檗鹼', range2(bLo, bHi) + '／天<br><span class="mono">每次劑量（÷3）：' + mgOz(bLo/3) + ' – ' + mgOz(bHi/3) + '</span>', '每日三次，隨餐分服', '證據最強；常見腸胃不適；CYP／P-gp 交互作用。'],
       ['尿石素 A', range2(uLo, uHi) + '／天', '每日一次', '除非確認為 A 型代謝型，否則直接補充才能穩定暴露。'],
-      ['非瑟酮', range2(fLo, fHi) + '／天<br><span class="mono">兩日脈衝總量：' + mgOz(fLo*2) + ' – ' + mgOz(fHi*2) + '</span>', '每月兩日脈衝（非長期每日服用）', '間歇清除衰老細胞模式；未經改良劑型生體可用率低。']
+      ['非瑟酮', range2(fLo, fHi) + '／天<br><span class="mono">一週脈衝總量：' + mgOz(fLo*7) + ' – ' + mgOz(fHi*7) + '</span>', '一週服用／兩週休息／一週服用', '間歇清除衰老細胞模式（Murray 2025）；未經改良劑型生體可用率低。']
     ];
     rows.innerHTML = d.map(function (r) {
       return '<tr><td><b>' + r[0] + '</b></td><td>公制／英制：<br>' + r[1] + '<br><span class="mono" style="color:var(--mute)">' + r[3] + '</span></td><td>' + r[2] + '</td></tr>';
@@ -190,7 +190,7 @@
     set('card-dose-spermidine', range1(0.9, 3.3) + '／天');
     set('card-dose-berberine', range1(bLo, bHi) + '／天');
     set('card-dose-urolithin', range1(uLo, uHi) + '／天');
-    set('card-dose-fisetin', range1(fLo, fHi) + '／脈衝日');
+    set('card-dose-fisetin', range1(fLo, fHi) + '／天（脈衝期間）');
     // food equivalents from paper source values: wheat germ 337 mg/kg, strawberries 160 mg/kg (~12 g/berry), 1 tbsp wheat germ ≈ 7 g
     var spLo = 0.9/337*1000, spHi = 3.3/337*1000,
         gLo = fLo/160*1000, gHi = fHi/160*1000;

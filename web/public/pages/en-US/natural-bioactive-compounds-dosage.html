@@ -92,7 +92,7 @@
     <p>Flavonol (strawberries ~160&nbsp;mg/kg, apples, persimmons, onions). Most potent senolytic of ten flavonoids screened (25–50% senescent-cell clearance at 1–10&nbsp;µM); mouse lifespan/frailty benefit with intermittent dosing. Severely limited oral bioavailability (rapid glucuronidation).</p>
     <ul>
       <li><b>Evidence:</b> earliest-stage of the four — preclinical + early human safety; no completed phase&nbsp;III; STOP-Sepsis (NCT05758246) ongoing.</li>
-      <li><b>Trial doses:</b> <span class="mono" id="card-dose-fisetin">100–1000 mg/day, intermittent</span> (e.g. short pulses, not chronic daily).</li>
+      <li><b>Trial doses:</b> <span class="mono" id="card-dose-fisetin">100–1000 mg/day, intermittent</span> (1-week on / 2-week off / 1-week on pulses, not chronic daily — Murray et al. 2025).</li>
       <li><b>Formulation:</b> galactomannan complexation raised bioavailability &gt;25-fold.</li>
       <li><b>Preparation note:</b> fisetin concentrates in outer layers/skins — don't peel apples, cucumbers, or persimmons, eat strawberries whole, and minimize processing losses; eat the skin.</li>
     </ul>
@@ -181,7 +181,7 @@
       ['Spermidine', range2(0.9, 3.3) + ' / day', 'Once daily with food', 'Flat — weight-independent at dietary doses; Mediterranean intake ~8–12 mg/day from food.'],
       ['Berberine', range2(bLo, bHi) + ' / day<br><span class="mono">per dose (÷3): ' + mgOz(bLo/3) + ' – ' + mgOz(bHi/3) + '</span>', 'Divided 3×/day with meals', 'Strongest evidence; GI effects common; CYP/P-gp interactions.'],
       ['Urolithin A', range2(uLo, uHi) + ' / day', 'Once daily', 'Direct supplement for consistent exposure unless metabotype A confirmed.'],
-      ['Fisetin', range2(fLo, fHi) + ' / day<br><span class="mono">2-day pulse total: ' + mgOz(fLo*2) + ' – ' + mgOz(fHi*2) + '</span>', '2-day pulse / month (not chronic daily)', 'Intermittent senolytic paradigm; bioavailability poor without enhanced forms.']
+      ['Fisetin', range2(fLo, fHi) + ' / day<br><span class="mono">1-week pulse total: ' + mgOz(fLo*7) + ' – ' + mgOz(fHi*7) + '</span>', '1-week on / 2-week off / 1-week on pulse', 'Intermittent senolytic paradigm (Murray 2025); bioavailability poor without enhanced forms.']
     ];
     rows.innerHTML = d.map(function (r) {
       return '<tr><td><b>' + r[0] + '</b></td><td>Metric/US:<br>' + r[1] + '<br><span class="mono" style="color:var(--mute)">' + r[3] + '</span></td><td>' + r[2] + '</td></tr>';
@@ -190,7 +190,7 @@
     set('card-dose-spermidine', range1(0.9, 3.3) + ' / day');
     set('card-dose-berberine', range1(bLo, bHi) + ' / day');
     set('card-dose-urolithin', range1(uLo, uHi) + ' / day');
-    set('card-dose-fisetin', range1(fLo, fHi) + ' / pulse-day');
+    set('card-dose-fisetin', range1(fLo, fHi) + ' / day, on-pulse');
     // food equivalents from paper source values: wheat germ 337 mg/kg, strawberries 160 mg/kg (~12 g/berry), 1 tbsp wheat germ ≈ 7 g
     var spLo = 0.9/337*1000, spHi = 3.3/337*1000,
         gLo = fLo/160*1000, gHi = fHi/160*1000;
