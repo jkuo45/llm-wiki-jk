@@ -530,5 +530,21 @@
         },
         "created": "2026-09-15",
         "updated": "2026-09-15"
+    },
+    {
+        "id": "natural-bioactive-compounds-dosage",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Natural Bioactive Compounds — Spermidine, Fisetin, Berberine, Urolithin A (Dose Estimator)",
+                "path": "pages/en-US/natural-bioactive-compounds-dosage.html"
+            },
+            "zh-TW": {
+                "title": "天然生物活性化合物 — 亞精胺、非瑟酮、小檗鹼、尿石素 A（劑量估算）",
+                "path": "pages/zh-TW/natural-bioactive-compounds-dosage.html"
+            }
+        },
+        "created": "2026-09-18",
+        "updated": "2026-09-18"
     }
 ]

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Natural Bioactive Compounds — Spermidine · Fisetin · Berberine · Urolithin A (Dose Estimator)</title>
+<meta name="description" content="Summary of four mechanistically complementary bioactive compounds (spermidine, fisetin, berberine, urolithin A) with a weight-based dose-and-interval estimator in metric and US units. Educational content; not medical advice.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/natural-bioactive-compounds-dosage.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/natural-bioactive-compounds-dosage.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/natural-bioactive-compounds-dosage.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/natural-bioactive-compounds-dosage.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  .wrap.page { max-width: 880px; }
+  .lede { font-size: 1.02rem; line-height: 1.65; }
+  .grid2 { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 14px 0; }
+  @media (min-width: 720px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+  .card { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; }
+  .card h3 { margin: 0 0 4px; font-size: 1rem; }
+  .card .tag { font-family: var(--mono); font-size: 11px; color: var(--mute); }
+  .card p, .card li { font-size: .88rem; line-height: 1.6; }
+  .card ul { margin: 6px 0 4px; padding-left: 18px; }
+  #calc, #calc-top { background: var(--sheet); border: 1px solid var(--rule); padding: 18px; margin: 18px 0; }
+  #calc-top label, #calc label { font-size: .85rem; font-weight: 600; display: block; margin: 10px 0 4px; }
+  #calc-top input[type=number], #calc input[type=number] { font-size: 1.1rem; padding: 8px 10px; width: 160px; max-width: 100%; }
+  #calc-top input[type=range], #calc input[type=range] { width: 100%; }
+  #calc-top { position: sticky; top: 0; z-index: 50; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  #wt-readout { min-height: 1.5em; font-variant-numeric: tabular-nums; margin: 8px 0 0; }
+  .units button { min-width: 130px; }
+  .units { display: flex; gap: 8px; margin: 8px 0; }
+  .units button { cursor: pointer; padding: 6px 14px; border: 1px solid var(--rule); background: none; font: inherit; font-size: .85rem; }
+  .units button[aria-pressed=true] { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
+  table.doses { width: 100%; border-collapse: collapse; font-size: .87rem; margin-top: 12px; }
+  table.doses th, table.doses td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
+  table.doses th { background: var(--sheet); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+  .warn { border-left: 4px solid var(--gold, #b58900); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
+  .danger { border-left: 4px solid var(--red, #c1121f); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
+  .mono { font-family: var(--mono); font-size: .82rem; }
+  footer.foot { margin-top: 26px; font-size: .8rem; color: var(--mute); line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap page">
+
+<h1>Four Bioactives, Four Hallmarks — Spermidine · Fisetin · Berberine · Urolithin A</h1>
+<p class="lede">Summary of <a href="https://doi.org/10.3390/nu18152511">Rzeski &amp; Rzeska, <i>Nutrients</i> 2026, 18, 2511</a> — a narrative review framing four mechanistically distinct, non-redundant compounds as complementary functional-food ingredients: <b>spermidine</b> (bulk autophagy via EP300), <b>fisetin</b> (senolysis via PI3K/Akt + Bcl-2/Bcl-xL), <b>berberine</b> (metabolic + microbiome via AMPK), and <b>urolithin&nbsp;A</b> (selective mitophagy via PINK1/Parkin). Includes a weight-based dose-and-interval estimator below. Educational content; <b>not medical advice</b>.</p>
+
+<div id="calc-top">
+  <label for="wt">Body weight — doses below scale to this</label>
+  <div class="units" role="group" aria-label="unit system">
+    <button id="u-metric" aria-pressed="true" type="button">Metric (kg)</button>
+    <button id="u-us" aria-pressed="false" type="button">US (lb)</button>
+  </div>
+  <input id="wt" type="number" min="30" max="200" step="0.5" value="70" inputmode="decimal" aria-label="body weight in kilograms">
+  <input id="wt-slider" type="range" min="30" max="200" step="1" value="70" aria-label="body weight slider">
+  <p class="mono" id="wt-readout">70 kg (154 lb)</p>
+</div>
+
+<h2>The four compounds at a glance</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>Spermidine — the autophagy inducer</h3>
+    <div class="tag">EP300 ↓ · AMPK ↑ · SIRT1 ↑ · mTOR-independent</div>
+    <p>Dietary polyamine (wheat germ ~337&nbsp;mg/kg, soy, mushrooms, legumes, aged cheese, natto). Habitual intake ~8–12&nbsp;mg/day. Inhibits acetyltransferase EP300, derepressing ATG5/ATG7/ATG12/LC3 autophagic flux; suppresses NLRP3/NF-κB inflammation.</p>
+    <ul>
+      <li><b>Evidence:</b> lifespan extension in yeast/worms/flies/mice (autophagy-dependent); Bruneck cohort (n=829, 20-yr) linked higher intake to ~10-point lower 20-yr mortality; SmartAge RCTs at 0.9–1.2&nbsp;mg/day inconclusive.</li>
+      <li><b>Trial doses:</b> <span class="mono" id="card-dose-spermidine">0.9–3.3 mg/day</span> (wheat-germ extract), daily.</li>
+      <li><b>Food-first:</b> works — enrichment/fortification is the strategy.</li>
+      <li><b>Preparation note:</b> heat degrades spermidine during processing — favor minimal-heat sources (mature cheeses, natto, fermented foods, raw wheat germ) and gentle cooking over high-heat methods.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Fisetin — the senolytic flavonoid</h3>
+    <div class="tag">PI3K/Akt ↓ · Bcl-2/Bcl-xL ↓ · SASP ↓ · NRF2 ↑</div>
+    <p>Flavonol (strawberries ~160&nbsp;mg/kg, apples, persimmons, onions). Most potent senolytic of ten flavonoids screened (25–50% senescent-cell clearance at 1–10&nbsp;µM); mouse lifespan/frailty benefit with intermittent dosing. Severely limited oral bioavailability (rapid glucuronidation).</p>
+    <ul>
+      <li><b>Evidence:</b> earliest-stage of the four — preclinical + early human safety; no completed phase&nbsp;III; STOP-Sepsis (NCT05758246) ongoing.</li>
+      <li><b>Trial doses:</b> <span class="mono" id="card-dose-fisetin">100–1000 mg/day, intermittent</span> (e.g. short pulses, not chronic daily).</li>
+      <li><b>Formulation:</b> galactomannan complexation raised bioavailability &gt;25-fold.</li>
+      <li><b>Preparation note:</b> fisetin concentrates in outer layers/skins — don't peel apples, cucumbers, or persimmons, eat strawberries whole, and minimize processing losses; eat the skin.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Berberine — the metabolic/microbiome modulator</h3>
+    <div class="tag">AMPK ↑ · mTORC1 ↓ · NF-κB ↓ · Akkermansia/Bifidobacterium ↑</div>
+    <p>Isoquinoline alkaloid (<i>Berberis</i>, <i>Coptis</i> spp.; absent from common Western foods at relevant levels). Complex-I inhibition → AMPK activation; 1–5% oral bioavailability gives high intraluminal levels that reshape gut microbiota independent of systemic action.</p>
+    <ul>
+      <li><b>Evidence:</b> strongest of the four — 46-RCT meta-analysis: HbA1c −0.73%, fasting glucose −0.86&nbsp;mmol/L, LDL-C −0.86&nbsp;mmol/L; PREMOTE trial linked benefit to microbiome shifts.</li>
+      <li><b>Trial doses:</b> <span class="mono" id="card-dose-berberine">900–1500 mg/day, divided (TID with meals)</span>.</li>
+      <li><b>Caution:</b> CYP3A4/CYP2D6/P-gp inhibitor; contraindicated in pregnancy; GI effects common.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Urolithin A — the mitophagy postbiotic</h3>
+    <div class="tag">PINK1/Parkin ↑ · SIRT1/PGC-1α ↑ · NLRP3 ↓</div>
+    <p>Not in food — made by colonic microbiota (<i>Gordonibacter</i>, <i>Ellagibacter</i>) from pomegranate/berry/nut ellagitannins. Only metabotype&nbsp;A (~25–55% of people) produces it from diet; others need direct purified supplement (e.g. Mitopure) for consistent exposure.</p>
+    <ul>
+      <li><b>Evidence:</b> richest mitophagy clinical dataset — ATLAS RCT: ~12% hamstring-strength gain at 500&nbsp;mg/day; endurance, VO₂, immune-remodeling signals; safe to 2000&nbsp;mg single / 1000&nbsp;mg/day.</li>
+      <li><b>Trial doses:</b> <span class="mono" id="card-dose-urolithin">500–1000 mg/day, once daily</span> (T<sub>max</sub> 4–6&nbsp;h, half-life ~20&nbsp;h).</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Weight-based dose &amp; interval estimator</h2>
+<div id="calc">
+  <p style="font-size:.82rem">Method: linear scaling from a 70-kg reference to published human trial ranges, clamped to those ranges (illustrative only — trials used flat doses, and no weight-based regimen is validated). Spermidine is weight-independent at dietary doses, shown flat.</p>
+  <table class="doses">
+    <thead><tr><th>Compound</th><th>Suggested amount</th><th>Interval</th></tr></thead>
+    <tbody id="dose-rows"></tbody>
+  </table>
+  <p class="mono" id="us-readout" style="font-size:.8rem"></p>
+</div>
+
+<h2>Combinations: what the review actually says</h2>
+<div class="warn"><b>Paraphrase of the review's position (not verbatim):</b> “No completed trial has tested all four together; the combination hypothesis is mechanistically grounded but prospectively unvalidated.” The review found <b>no peer-reviewed direct evidence for all-four co-administration</b>. The only registered trial combining any two is <b>NCT06990256</b> (n=80, 45–70&nbsp;y: urolithin&nbsp;A 500&nbsp;mg and fisetin 500&nbsp;mg single/combination arms incl. UA&nbsp;300&nbsp;mg + fisetin&nbsp;200&nbsp;mg; 12-week sleep, DNA-methylation age, inflammation, BMAL1, HOMA-IR endpoints).</div>
+<p style="font-size:.9rem;line-height:1.65">Promising early signals cited: <b>spermidine + urolithin&nbsp;A</b> (broad autophagy + selective mitophagy) and <b>spermidine + berberine</b> (caloric-restriction mimetics via deacetylation/autophagy vs AMPK–microbiota axes) are argued to be <b>additive rather than redundant</b>; the autophagy–senescence threshold model rationalizes sequencing (spermidine prevents senescence initiation pre-threshold; fisetin clears established senescent cells post-threshold). Network-medicine logic supports multi-node modulation — but the review stresses pharmacokinetics, disease stage, and individual (incl. urolithin metabotype) variability may dominate outcomes.</p>
+<div class="danger"><b>Interaction caution:</b> berberine (CYP3A4/P-gp inhibitor) + fisetin (CYP3A4 substrate and partial inhibitor) may mutually elevate plasma levels. Interim mitigation proposed: temporal separation (berberine AM / fisetin PM); avoid co-administration with narrow-therapeutic-index CYP3A4 substrates. Berberine is contraindicated in pregnancy. Pharmacokinetic co-administration studies are an explicit unmet gap — do not combine without clinician supervision.</div>
+
+<h2>Source &amp; citation</h2>
+<p style="font-size:.88rem;line-height:1.65">Rzeski W., Rzeska W. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. <i>Nutrients</i> 2026, 18, 2511. <a href="https://doi.org/10.3390/nu18152511">https://doi.org/10.3390/nu18152511</a> (CC&nbsp;BY). Vault note: <a href="https://graph.johnnykuo.com/#node=Spermidine">Spermidine</a> · <a href="https://graph.johnnykuo.com/#node=Fisetin">Fisetin</a> · <a href="https://graph.johnnykuo.com/#node=Berberine">Berberine</a> · <a href="https://graph.johnnykuo.com/#node=Urolithin%20A">Urolithin&nbsp;A</a>.</p>
+
+<footer class="foot">Estimator outputs are illustrative scalings of published trial ranges, not prescriptions. Evidence maturity varies widely (berberine: 46-RCT meta-analysis; urolithin&nbsp;A: small RCTs; spermidine: epidemiology + small RCTs; fisetin: preclinical + early-phase). Consult a clinician, especially for berberine (drug interactions, pregnancy) and any multi-compound use. Educational content; not medical advice.</footer>
+</div>
+
+<script>
+// ponytail: linear weight scaling clamped to published trial ranges; upgrade to PK model only if validated data exists.
+(function () {
+  var REF = 70; // kg reference
+  var wt = document.getElementById('wt'),
+      slider = document.getElementById('wt-slider'),
+      readout = document.getElementById('wt-readout'),
+      rows = document.getElementById('dose-rows'),
+      usReadout = document.getElementById('us-readout'),
+      bM = document.getElementById('u-metric'),
+      bU = document.getElementById('u-us'),
+      metric = true;
+  var KG2LB = 2.20462, MG2OZ = 1 / 28349.5;
+  var stateKg = REF; // ponytail: canonical kg; toggles convert from here so values can't drift
+  function clamp(x, lo, hi) { return Math.min(hi, Math.max(lo, x)); }
+  function kg() { var v = parseFloat(metric ? wt.value : parseFloat(wt.value) / KG2LB); return isFinite(v) ? clamp(v, 30, 200) : REF; }
+  function fmt(n) { return n >= 100 ? Math.round(n).toString() : (Math.round(n * 10) / 10).toString(); }
+  function mgOz(mg) { return fmt(mg) + ' mg (' + (mg/1000).toFixed(mg < 100 ? 3 : 1) + ' g) ≈ ' + (mg * MG2OZ).toFixed(3) + ' oz'; }
+  function range2(lo, hi) { return mgOz(lo) + '<br>– ' + mgOz(hi); }
+  function range1(lo, hi) { return mgOz(lo) + ' – ' + mgOz(hi); }
+  function set(id, html) { var el = document.getElementById(id); if (el) el.innerHTML = html; }
+  function render() {
+    var k = kg(), s = k / REF, lb = k * KG2LB;
+    stateKg = k;
+    if (metric) { readout.textContent = fmt(k) + ' kg (' + Math.round(lb) + ' lb)'; }
+    else { readout.textContent = Math.round(lb) + ' lb (' + fmt(k) + ' kg)'; }
+    // [name, amountHTML(metric + US), intervalHTML, note]
+    var bLo = clamp(900*s,500,2000), bHi = clamp(1500*s,500,2000),
+        uLo = clamp(500*s,250,1000), uHi = clamp(1000*s,250,1000),
+        fLo = clamp(500*s,100,1000), fHi = clamp(1000*s,100,1000);
+    var d = [
+      ['Spermidine', range2(0.9, 3.3) + ' / day', 'Once daily with food', 'Flat — weight-independent at dietary doses; Mediterranean intake ~8–12 mg/day from food.'],
+      ['Berberine', range2(bLo, bHi) + ' / day<br><span class="mono">per dose (÷3): ' + mgOz(bLo/3) + ' – ' + mgOz(bHi/3) + '</span>', 'Divided 3×/day with meals', 'Strongest evidence; GI effects common; CYP/P-gp interactions.'],
+      ['Urolithin A', range2(uLo, uHi) + ' / day', 'Once daily', 'Direct supplement for consistent exposure unless metabotype A confirmed.'],
+      ['Fisetin', range2(fLo, fHi) + ' / day<br><span class="mono">2-day pulse total: ' + mgOz(fLo*2) + ' – ' + mgOz(fHi*2) + '</span>', '2-day pulse / month (not chronic daily)', 'Intermittent senolytic paradigm; bioavailability poor without enhanced forms.']
+    ];
+    rows.innerHTML = d.map(function (r) {
+      return '<tr><td><b>' + r[0] + '</b></td><td>Metric/US:<br>' + r[1] + '<br><span class="mono" style="color:var(--mute)">' + r[3] + '</span></td><td>' + r[2] + '</td></tr>';
+    }).join('');
+    usReadout.textContent = 'Amounts shown as metric (mg/g) + US (oz) for ' + (metric ? fmt(k) + ' kg (' + Math.round(lb) + ' lb)' : Math.round(lb) + ' lb (' + fmt(k) + ' kg)') + '.';
+    set('card-dose-spermidine', range1(0.9, 3.3) + ' / day');
+    set('card-dose-berberine', range1(bLo, bHi) + ' / day');
+    set('card-dose-urolithin', range1(uLo, uHi) + ' / day');
+    set('card-dose-fisetin', range1(fLo, fHi) + ' / pulse-day');
+  }
+  function setMetric(m) {
+    metric = m;
+    var k = stateKg;
+    // ponytail: keep single source of truth in the visible box; convert on toggle
+    if (m) { wt.value = Math.round(k*10)/10; wt.min=30; wt.max=200; wt.step=0.5; slider.min=30; slider.max=200; slider.step=1; slider.value=Math.round(k); }
+    else { wt.value = Math.round(k*KG2LB); wt.min=66; wt.max=440; wt.step=1; slider.min=66; slider.max=440; slider.step=1; slider.value=Math.round(k*KG2LB); }
+    bM.setAttribute('aria-pressed', m); bU.setAttribute('aria-pressed', !m);
+    render();
+  }
+  wt.addEventListener('input', function () { var v = parseFloat(wt.value); if (isFinite(v)) slider.value = v; render(); });
+  slider.addEventListener('input', function () { wt.value = slider.value; render(); });
+  bM.addEventListener('click', function () { setMetric(true); });
+  bU.addEventListener('click', function () { setMetric(false); });
+  render();
+})();
+</script>
+</body>
+</html>
