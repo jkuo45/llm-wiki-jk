@@ -673,17 +673,47 @@ def main():
     else:
         overlap_body = "Overlap stats unavailable (missing source files)."
 
+    # Raw extracted-triples count (pre-dedupe) for the README note. Written
+    # by the triples rebuild alongside the web artifacts.
+    triples_total = None
+    try:
+        with open(
+            os.path.join(args.web_data_dir, "i18n-coverage.json"),
+            "r",
+            encoding="utf-8",
+        ) as f:
+            triples_total = json.load(f).get("triples_total")
+    except Exception:
+        pass
+    triples_edges = _json_len(os.path.join(args.web_data_dir, "triples-edges.json"))
+    if triples_total and triples_edges:
+        triples_note = (
+            f"\n\nTriples extracted: {format_number(triples_total)} "
+            "subject–predicate–object statements → "
+            f"{format_number(triples_edges)} graph edges after dedupe."
+        )
+    elif triples_total:
+        triples_note = (
+            f"\n\nTriples extracted: {format_number(triples_total)} "
+            "subject–predicate–object statements (pre-dedupe) backing the "
+            "Triples graph above."
+        )
+    else:
+        triples_note = ""
+
     # GitHub-flavored alert/callout: the `[!NOTE]` marker must sit alone on the
     # first blockquote line (no custom title — GitHub only supports the five
     # alert types), and every continuation line must carry the leading `>`.
     # Obsidian renders this same block as a titled callout.
     graph_datasets_content = (
-        "\n".join(datasets_table)
-        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
-        + "\n\n> [!NOTE]\n>\n> **Combined Merge**\n>\n"
+        "> [!NOTE]\n>\n> **Combined Merge**\n>\n"
         + "> The combined dataset is the union of the triples and wiki graphs, "
         + "deduplicated by canonical id (`norm(label)`). "
         + overlap_body
+        + "\n\n"
+        + "\n".join(datasets_table)
+        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
+        + triples_note
     )
 
     # Build marker-delimited sections. Section headings live outside the

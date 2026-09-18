@@ -26,6 +26,12 @@
 ## 📐 Knowledge Graphs (Triples · Wiki · Combined)
 
 <!-- GENERATED: graph_datasets -->
+> [!NOTE]
+>
+> **Combined Merge**
+>
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,132 entities appear in both sources (3,493 triples + 3,146 wiki − 2,132 shared → 4,507); edges are unioned by (`from`, `to`) pair — 3,330 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
 | **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,507 | 40,409 |
@@ -34,11 +40,7 @@
 
 Build: 18_SEP_2026 · hash `44f8731feedc4b63`
 
-> [!NOTE]
->
-> **Combined Merge**
->
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,132 entities appear in both sources (3,493 triples + 3,146 wiki − 2,132 shared → 4,507); edges are unioned by (`from`, `to`) pair — 3,330 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+Triples extracted: 6,823 subject–predicate–object statements → 6,605 graph edges after dedupe.
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
