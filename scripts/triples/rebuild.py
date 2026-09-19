@@ -32,7 +32,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import networkx as nx
-from graphify.analyze import god_nodes, suggest_questions, surprising_connections
+from graphify.analyze import god_nodes, suggest_questions
 from graphify.cluster import cluster, score_all
 from graphify.export import to_json
 from graphify.report import generate
@@ -49,6 +49,7 @@ from scripts.lib.graph_common import (  # noqa: E402
     inject_graph_metadata,
     norm,
     strip_wikilink,
+    surprising_connections_capped,
 )
 
 ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
@@ -857,7 +858,7 @@ def main() -> int:
 
     cohesion = score_all(G, communities)
     gods = god_nodes(G)
-    surprises = surprising_connections(G, communities)
+    surprises = surprising_connections_capped(G, communities)
     questions = suggest_questions(G, communities, new_labels)
 
     # --- enrich graph with pre-computed metrics ---
