@@ -31,6 +31,9 @@
   --warning: #E8A33D;         /* thinking pulse, OCR warnings */
   --warning-ink: #2a1f0a;
   --teal-hover: #5fe3c0;
+  /* Dark-theme info cursor: solid teal disc, dark "i" (tokens.css holds
+     the light default; the light sheet remaps this back). */
+  --cursor-info: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%235fe3c0'/%3E%3Cpath d='M12 16.5v-5' stroke='%2316162b' stroke-width='2.4' stroke-linecap='round'/%3E%3Ccircle cx='12' cy='7.5' r='1.4' fill='%2316162b'/%3E%3C/svg%3E") 12 12;
 }
 html, body { height: 100%; }
 body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; flex-direction: column; height: 100vh; height: 100dvh; overflow: hidden; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
@@ -825,7 +828,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 /* Consolidated stat cards (Dataset Overview / Network Topology): all metrics as
    key/value rows in a single card. */
 .at-stat-rows { display: flex; flex-direction: column; }
-.at-stat-row { position: relative; display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 6px 10px; border-radius: var(--r-md); cursor: help; }
+.at-stat-row { position: relative; display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 6px 10px; border-radius: var(--r-md); cursor: var(--cursor-info), pointer; }
 .at-stat-row:hover { background: rgba(120,120,140,0.08); }
 .at-stat-key { font-size: 11px; color: var(--ink-5); text-transform: uppercase; letter-spacing: 0.04em; flex-shrink: 0; }
 .at-stat-val { font-size: 13px; font-weight: 600; color: var(--ink-hi); font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -1039,7 +1042,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   background: rgba(230,158,60,0.15);
   color: #f2c078;
   border: 1px solid #b57a26;
-  cursor: help;
+  cursor: var(--cursor-info), pointer;
 }
 .at-empty { opacity: 0.5; font-size: 12px; padding: 4px 0; }
 .at-node-desc { font-size: 12px; color: var(--ink-2); line-height: 1.55; max-height: 120px; overflow: hidden; }

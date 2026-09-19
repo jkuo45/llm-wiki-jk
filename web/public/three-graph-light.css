@@ -50,6 +50,8 @@ body {
   --ink-7: #8B94A2;
   --ink-8: #808A98;
   --ink-9: #97A0AC;
+  /* Light info cursor: white disc, dark-teal ring + "i" (overrides dark base). */
+  --cursor-info: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%23ffffff' stroke='%230f766e' stroke-width='2'/%3E%3Cpath d='M12 16.5v-5' stroke='%230f766e' stroke-width='2.4' stroke-linecap='round'/%3E%3Ccircle cx='12' cy='7.5' r='1.4' fill='%230f766e'/%3E%3C/svg%3E") 12 12;
 }
 
 /* CSS2D labels on the graph canvas */

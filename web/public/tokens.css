@@ -50,6 +50,11 @@
   /* ---- focus ring ---- */
   --focus-ring: 0 0 0 2px color-mix(in srgb, var(--accent) 45%, transparent);
 
+  /* ---- info cursor (light default; three-graph.css remaps for dark,
+          three-graph-light.css remaps back for light) —
+          solid disc + bold "i" ---- */
+  --cursor-info: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%23ffffff' stroke='%230f766e' stroke-width='2'/%3E%3Cpath d='M12 16.5v-5' stroke='%230f766e' stroke-width='2.4' stroke-linecap='round'/%3E%3Ccircle cx='12' cy='7.5' r='1.4' fill='%230f766e'/%3E%3C/svg%3E") 12 12;
+
   /* ---- legacy namespaces used by panels that predate tokens.
           Aliased here so they follow the active theme instead of
           their old hardcoded fallbacks (admin panel). ---- */
