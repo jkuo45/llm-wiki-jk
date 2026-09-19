@@ -2,7 +2,7 @@
 title: Fatty acid oxidation
 description: 'Definition: Fatty acid oxidation is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - biological-process
 aliases: [Beta-Oxidation]
@@ -11,7 +11,7 @@ aliases: [Beta-Oxidation]
 
 # Fatty acid oxidation
 
-**Definition:** Fatty acid oxidation is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.
+**Definition:** Fatty acid oxidation (β-oxidation) is mitochondrial/peroxisomal lipid catabolism promoted by [[AMPK]] alongside mitochondrial biogenesis to generate ATP.
 
 **Mechanism:** The process of Fatty acid oxidation is executed by specific protein complexes, organelles, and signaling cascades. Key regulatory nodes control its initiation, progression, and termination.
 
@@ -32,9 +32,11 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[Fatty acid oxidation]] — related entity
+- [[AMPK]] — promotes fatty acid oxidation and mitochondrial biogenesis
+- [[Mitochondria]] — primary site of β-oxidation
+- [[Metabolism]] — pathway context for lipid catabolism
 
 ## Linking Summary
-- New links added: [[Fatty acid oxidation]]
-  - Strong connections to strengthen: Fatty acid oxidation ↔ Fatty acid oxidation
+- New links added: [[AMPK]], [[Mitochondria]], [[Metabolism]]
+  - Strong connections to strengthen: Fatty acid oxidation ↔ [[AMPK]]
 

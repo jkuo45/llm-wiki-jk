@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-18T16:06:16Z",
+  "generated_at": "2026-09-18T22:12:21Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
     "triples_nodes": 3493,
-    "wiki_nodes": 3146,
-    "shared_nodes": 2132,
-    "wiki_only_nodes": 1014,
-    "triples_only_nodes": 1361,
+    "wiki_nodes": 3185,
+    "shared_nodes": 2139,
+    "wiki_only_nodes": 1046,
+    "triples_only_nodes": 1354,
     "triples_edges": 6605,
-    "wiki_edges": 37454,
+    "wiki_edges": 37999,
     "triples_edge_pairs": 6285,
-    "wiki_edge_pairs": 37454,
-    "wiki_only_edges": 34124,
-    "triples_only_edges": 2955
+    "wiki_edge_pairs": 37999,
+    "wiki_only_edges": 34655,
+    "triples_only_edges": 2941
   },
   "top_wiki_only_nodes": [
     {
@@ -22,13 +22,13 @@
       "degree": 76
     },
     {
-      "id": "fibroblast",
-      "label": "Fibroblast",
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
       "degree": 69
     },
     {
-      "id": "endothelial_cells",
-      "label": "Endothelial Cells",
+      "id": "fibroblast",
+      "label": "Fibroblast",
       "degree": 69
     },
     {
@@ -37,13 +37,13 @@
       "degree": 68
     },
     {
-      "id": "histone_variant",
-      "label": "Histone Variant",
-      "degree": 64
-    },
-    {
       "id": "epigenetics_and_aging",
       "label": "Epigenetics and aging",
+      "degree": 66
+    },
+    {
+      "id": "histone_variant",
+      "label": "Histone Variant",
       "degree": 64
     },
     {
@@ -54,22 +54,22 @@
     {
       "id": "unfolded_protein_response",
       "label": "Unfolded Protein Response",
-      "degree": 57
+      "degree": 58
     },
     {
-      "id": "mmp_12",
-      "label": "MMP-12",
+      "id": "park2",
+      "label": "PARK2",
       "degree": 55
     },
     {
       "id": "c_elegans",
       "label": "Caenorhabditis elegans",
-      "degree": 54
+      "degree": 55
     },
     {
-      "id": "park2",
-      "label": "PARK2",
-      "degree": 54
+      "id": "mmp_12",
+      "label": "MMP-12",
+      "degree": 55
     },
     {
       "id": "atg1",
@@ -84,7 +84,7 @@
     {
       "id": "immunity",
       "label": "Immunity",
-      "degree": 49
+      "degree": 50
     },
     {
       "id": "cardiomyocyte_toxicity",
@@ -92,9 +92,14 @@
       "degree": 49
     },
     {
+      "id": "muscle",
+      "label": "Muscle",
+      "degree": 48
+    },
+    {
       "id": "fat_oxidation",
       "label": "Fat Oxidation",
-      "degree": 46
+      "degree": 47
     },
     {
       "id": "caspase_8_c_flip_rheostat",
@@ -104,17 +109,12 @@
     {
       "id": "insulin",
       "label": "Insulin",
-      "degree": 44
+      "degree": 45
     },
     {
       "id": "retrograde_response",
       "label": "Retrograde Response",
       "degree": 44
-    },
-    {
-      "id": "mitochondrial_outer_membrane_permeabilization",
-      "label": "Mitochondrial outer membrane permeabilization",
-      "degree": 42
     }
   ],
   "top_triples_only_nodes": [
@@ -134,33 +134,28 @@
       "degree": 5
     },
     {
+      "id": "cdk4",
+      "label": "CDK4",
+      "degree": 5
+    },
+    {
       "id": "sodium_chloride",
       "label": "Sodium Chloride",
       "degree": 5
     },
     {
-      "id": "cell_migration",
-      "label": "Cell Migration",
+      "id": "p21",
+      "label": "p21",
       "degree": 5
+    },
+    {
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
     },
     {
       "id": "slow_comt",
       "label": "slow COMT",
-      "degree": 4
-    },
-    {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
-      "degree": 4
-    },
-    {
-      "id": "biphasic_dose_response",
-      "label": "Biphasic Dose Response",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -169,13 +164,13 @@
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
       "degree": 4
     },
     {
-      "id": "dna_polymerase",
-      "label": "DNA Polymerase",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
@@ -184,38 +179,43 @@
       "degree": 4
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "cdk6",
+      "label": "CDK6",
       "degree": 4
     },
     {
-      "id": "dietary_advanced_glycation_end_products",
-      "label": "Dietary Advanced Glycation End Products",
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
+      "id": "tlr2_6",
+      "label": "TLR2/6",
       "degree": 3
     },
     {
-      "id": "h4k16",
-      "label": "H4K16",
+      "id": "anti_inflammatory_properties",
+      "label": "anti-inflammatory properties",
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
+      "id": "alkylating_agent",
+      "label": "Alkylating agent",
       "degree": 3
     },
     {
-      "id": "securin",
-      "label": "Securin",
+      "id": "s6k1_2",
+      "label": "S6K1/2",
       "degree": 3
     },
     {
-      "id": "h3k9",
-      "label": "H3K9",
-      "degree": 3
-    },
-    {
-      "id": "reactive_species",
-      "label": "Reactive Species",
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
       "degree": 3
     }
   ],

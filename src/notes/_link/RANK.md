@@ -2,7 +2,7 @@
 title: RANK
 description: 'Overview: RANK is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - protein
 aliases: [Receptor Activator of NF-κB, TNFRSF11A]
@@ -11,7 +11,7 @@ aliases: [Receptor Activator of NF-κB, TNFRSF11A]
 
 # RANK
 
-**Overview:** RANK is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
+**Overview:** RANK (TNFRSF11A) is the receptor for [[RANKL]] that drives [[Osteoclast]] differentiation via [[NF-κB]] and MAPK signaling, with downstream [[TFE3]] activation.
 
 **Structure and domains:** RANK contains conserved structural motifs that mediate its interactions with binding partners, nucleic acids, or lipid membranes. Post-translational modifications such as phosphorylation and ubiquitination regulate its activity.
 
@@ -32,9 +32,12 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[RANK]] — related entity
+- [[RANKL]] — ligand that activates RANK
+- [[TFE3]] — activated downstream of RANK via MAPK
+- [[Osteoclast]] — cell type driven by RANK signaling
+- [[NF-κB]] — pathway engaged by RANK
 
 ## Linking Summary
-- New links added: [[RANK]]
-  - Strong connections to strengthen: [[RANK]] ↔ [[RANK]]
+- New links added: [[RANKL]], [[TFE3]], [[Osteoclast]], [[NF-κB]]
+  - Strong connections to strengthen: [[RANK]] ↔ [[RANKL]]
 

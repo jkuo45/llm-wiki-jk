@@ -1,45 +1,45 @@
 # Triples vs Wiki Graph Diff
 
 - Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3493 nodes, 6605 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3146 nodes, 37454 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3185 nodes, 37999 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 2132
-- **Wiki-only** (linked, no triple): 1014
-- **Triples-only** (triple, no wikilink): 1361
+- **Shared** (in both): 2139
+- **Wiki-only** (linked, no triple): 1046
+- **Triples-only** (triple, no wikilink): 1354
 
 ## Edge overlap
 
-- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 37454 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 37999 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
 
-- **Wiki-only pairs** (under-extracted triples / curation gaps): 34124
-- **Triples-only pairs** (not surfaced as a wikilink): 2955
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 34655
+- **Triples-only pairs** (not surfaced as a wikilink): 2941
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
 | Macrophage | 76 |
-| Fibroblast | 69 |
 | Endothelial Cells | 69 |
+| Fibroblast | 69 |
 | Glutathione Peroxidase 4 | 68 |
+| Epigenetics and aging | 66 |
 | Histone Variant | 64 |
-| Epigenetics and aging | 64 |
 | Citric Acid Cycle | 59 |
-| Unfolded Protein Response | 57 |
+| Unfolded Protein Response | 58 |
+| PARK2 | 55 |
+| Caenorhabditis elegans | 55 |
 | MMP-12 | 55 |
-| Caenorhabditis elegans | 54 |
-| PARK2 | 54 |
 | Atg1 | 53 |
 | ALS | 50 |
-| Immunity | 49 |
+| Immunity | 50 |
 | Cardiomyocyte Toxicity | 49 |
-| Fat Oxidation | 46 |
+| Muscle | 48 |
+| Fat Oxidation | 47 |
 | Caspase-8-c-FLIP Rheostat | 45 |
-| Insulin | 44 |
+| Insulin | 45 |
 | Retrograde Response | 44 |
-| Mitochondrial outer membrane permeabilization | 42 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -48,23 +48,23 @@
 | Adrenochrome formation | 11 |
 | Females | 9 |
 | NF-kB | 5 |
+| CDK4 | 5 |
 | Sodium Chloride | 5 |
-| Cell Migration | 5 |
-| slow COMT | 4 |
-| SIRT3 deficiency | 4 |
-| Biphasic Dose Response | 4 |
-| Physical Activity | 4 |
-| COMT Val158 allele | 4 |
-| SIRT1 and SIRT2 | 4 |
-| DNA Polymerase | 4 |
-| Mice | 4 |
+| p21 | 5 |
 | JAK-STAT3 | 4 |
-| Dietary Advanced Glycation End Products | 3 |
-| H4K16 | 3 |
-| catechol flavonoid | 3 |
-| Securin | 3 |
-| H3K9 | 3 |
-| Reactive Species | 3 |
+| slow COMT | 4 |
+| COMT Val158 allele | 4 |
+| Biphasic Dose Response | 4 |
+| SIRT3 deficiency | 4 |
+| Mice | 4 |
+| CDK6 | 4 |
+| SIRT1 and SIRT2 | 4 |
+| Physical Activity | 4 |
+| TLR2/6 | 3 |
+| anti-inflammatory properties | 3 |
+| Alkylating agent | 3 |
+| S6K1/2 | 3 |
+| PI3K/Akt | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

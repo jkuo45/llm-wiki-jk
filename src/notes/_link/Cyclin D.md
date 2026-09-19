@@ -2,7 +2,7 @@
 title: Cyclin D
 description: 'Overview: Cyclin D is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern ...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - protein
 aliases: [CCND]
@@ -11,7 +11,7 @@ aliases: [CCND]
 
 # Cyclin D
 
-**Overview:** Cyclin D is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
+**Overview:** Cyclin D (CCND) is the regulatory partner of [[CDK4 6]] that drives [[G1 Phase]] progression via [[Retinoblastoma Protein]] phosphorylation.
 
 **Structure and domains:** Cyclin D contains conserved structural motifs that mediate its interactions with binding partners, nucleic acids, or lipid membranes. Post-translational modifications such as phosphorylation and ubiquitination regulate its activity.
 
@@ -32,9 +32,11 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[Cyclin D]] — related entity
+- [[CDK4 6]] — kinase partner of Cyclin D
+- [[Retinoblastoma Protein]] — phosphorylated by Cyclin D-CDK4/6
+- [[G1 Phase]] — cell-cycle stage driven by Cyclin D
 
 ## Linking Summary
-- New links added: [[Cyclin D]]
-  - Strong connections to strengthen: Cyclin D ↔ Cyclin D
+- New links added: [[CDK4 6]], [[Retinoblastoma Protein]], [[G1 Phase]]
+  - Strong connections to strengthen: Cyclin D ↔ [[CDK4 6]]
 

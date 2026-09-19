@@ -2,7 +2,7 @@
 title: Cell Stress
 description: 'Definition: Cell Stress is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and envi...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - biological-process
 aliases: [Cellular Stress]
@@ -11,7 +11,7 @@ aliases: [Cellular Stress]
 
 # Cell Stress
 
-**Definition:** Cell Stress is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.
+**Definition:** Cell Stress covers adverse states — [[Oxidative Stress]], [[DNA Damage Response|DNA damage]], [[DNA Replication Stress]] — that can resolve, adapt, or lock into [[Senescence]].
 
 **Mechanism:** The process of Cell Stress is executed by specific protein complexes, organelles, and signaling cascades. Key regulatory nodes control its initiation, progression, and termination.
 
@@ -32,9 +32,11 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[Cell Stress]] — related entity
+- [[Oxidative Stress]] — major cell-stress input
+- [[DNA Damage Response]] — stress sensor that can trigger senescence
+- [[Senescence]] — stable arrest outcome of unresolved cell stress
 
 ## Linking Summary
-- New links added: [[Cell Stress]]
-  - Strong connections to strengthen: Cell Stress ↔ Cell Stress
+- New links added: [[Oxidative Stress]], [[DNA Damage Response]], [[Senescence]]
+  - Strong connections to strengthen: Cell Stress ↔ [[Senescence]]
 

@@ -4,10 +4,10 @@ description: Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes
   the rate-limiting step in heme degradation, producing biliverdin, carbon monoxide
   (CO), and ferrous iron (Fe²⁺). It is a key ...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - enzyme
-aliases: [Heme oxygenase 1, HMOX1, Hsp32]
+aliases: [Heme oxygenase 1, Heme oxygenase-1, HMOX1, Hsp32]
 
 ---
 

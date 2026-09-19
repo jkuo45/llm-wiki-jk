@@ -4,7 +4,7 @@ description: p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor
   that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP
   profile.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-09-19
 tags:
   - protein
   - senescence
@@ -73,6 +73,9 @@ List of documents that mention this entity
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - p21^CIP1 is induced by p53/DDR in IPF senescent alveolar epithelium and serves as a senescence marker.
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Lists p21 (CDKN1A) with p27/p57 as CDK inhibitors gating G0/G1 via Cyclin–CDK and Rb control.
 
 ## Connections
 - [[Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest

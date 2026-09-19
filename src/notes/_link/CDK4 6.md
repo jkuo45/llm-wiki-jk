@@ -4,7 +4,7 @@ description: CDK4 and CDK6 are closely related Cyclin-Dependent Kinases that
   regulate the G1 Phase-to-S Phase phase transition of the Cell Cycle. They form active
   complexes with Cyclin D (D1, D2, D3) to...
 created: 2026-07-04
-updated: 2026-07-06
+updated: 2026-09-19
 tags:
   - protein
 aliases: [CDK4, CDK6, Cyclin-Dependent Kinase 4, Cyclin-Dependent Kinase 6, CDK46, CDK4/6, cyclin-dependent kinase 4/6]
@@ -28,6 +28,10 @@ CDK4/6 activity is controlled by:
 CDK4/6 is overactive in many cancers via [[Cyclin D amplification]] (breast cancer, mantle cell lymphoma), [[p16INK4A]] loss, and [[pRb]] inactivation. [[CDK4]]/[[CDK6]] inhibitors ([[Palbociclib]], [[Ribociclib]], [[Abemaciclib]]) are FDA-approved for HR+/HER2− breast cancer and cause [[Cell Cycle Arrest]] in [[G1 Phase]].
 
 #
+
+## Documents
+- [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|TFEB regulation review]] — TFEB S142 phosphorylation by [[CDK4]]/[[CDK6]] in the nucleus is CRM1-dependent and promotes nuclear export.
+- [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Quiescence review]] — Cyclin D-CDK4/CDK6 complexes promote G1 progression; high Cyclin D/E + CDK4/6 drives passage through G1.
 
 ## Connections
 - [[Cell Cycle]] — CDK4/6 drives G1-to-S phase progression

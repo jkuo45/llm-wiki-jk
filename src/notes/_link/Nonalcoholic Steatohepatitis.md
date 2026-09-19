@@ -2,7 +2,7 @@
 title: Nonalcoholic Steatohepatitis
 description: 'Etiology and pathophysiology: Nonalcoholic Steatohepatitis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - medical-condition
 aliases: [NASH]
@@ -11,7 +11,7 @@ aliases: [NASH]
 
 # Nonalcoholic Steatohepatitis
 
-**Etiology and pathophysiology:** Nonalcoholic Steatohepatitis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
+**Etiology and pathophysiology:** Nonalcoholic steatohepatitis (NASH) is progressive fatty liver disease where deficient [[Autophagy]] and impaired [[Fatty acid oxidation]] combine with [[Inflammation]] to drive steatosis-to-fibrosis progression.
 
 **Clinical presentation:** Nonalcoholic Steatohepatitis presents with characteristic signs and symptoms that reflect the underlying pathophysiology. Diagnosis is based on clinical evaluation, laboratory tests, and imaging studies.
 
@@ -32,9 +32,11 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[Nonalcoholic Steatohepatitis]] — related entity
+- [[Autophagy]] — deficient autophagic response drives NASH progression
+- [[Fatty acid oxidation]] — impaired lipid catabolism in steatosis
+- [[Inflammation]] — steatohepatitis driver
 
 ## Linking Summary
-- New links added: [[Nonalcoholic Steatohepatitis]]
-  - Strong connections to strengthen: Nonalcoholic Steatohepatitis ↔ Nonalcoholic Steatohepatitis
+- New links added: [[Autophagy]], [[Fatty acid oxidation]], [[Inflammation]]
+  - Strong connections to strengthen: Nonalcoholic Steatohepatitis ↔ [[Autophagy]]
 

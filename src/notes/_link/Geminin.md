@@ -2,7 +2,7 @@
 title: Geminin
 description: 'Overview: Geminin is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern c...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - protein
 aliases: []
@@ -10,7 +10,7 @@ aliases: []
 
 # Geminin
 
-**Overview:** Geminin is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
+**Overview:** Geminin is a [[Cell Cycle]] regulator that blocks MCM loading onto [[Chromatin]], preventing re-replication; it accumulates in [[S Phase]]/G2 and is degraded at mitotic exit.
 
 **Structure and domains:** Geminin contains conserved structural motifs that mediate its interactions with binding partners, nucleic acids, or lipid membranes. Post-translational modifications such as phosphorylation and ubiquitination regulate its activity.
 
@@ -31,9 +31,11 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[Geminin]] — related entity
+- [[Cell Cycle]] — process Geminin regulates via replication licensing
+- [[Chromatin]] — MCM loading target blocked by Geminin
+- [[S Phase]] — phase where Geminin prevents re-replication
 
 ## Linking Summary
-- New links added: [[Geminin]]
-  - Strong connections to strengthen: [[Geminin]] ↔ [[Geminin]]
+- New links added: [[Cell Cycle]], [[Chromatin]], [[S Phase]]
+  - Strong connections to strengthen: [[Geminin]] ↔ [[Cell Cycle]]
 
