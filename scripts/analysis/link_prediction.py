@@ -341,7 +341,8 @@ def build_doc(
 
     doc = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source_graph": "graphify-out/graph.json",
+        # ponytail: reflect the actual input graph so wiki runs don't mislabel as triples
+        "source_graph": str(graph_path.relative_to(ROOT)) if graph_path.is_absolute() else str(graph_path),
         "graph_build": "",  # filled by caller when graph carries built_at_commit
         "params": {
             "method": "adamic_adar",

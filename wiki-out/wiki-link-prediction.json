@@ -1,1 +1,3143 @@
-{"generated":"2026-08-28T02:39:15Z","source_graph":"graphify-out/graph.json","graph_build":"5b257720","params":{"method":"adamic_adar","min_degree":3,"max_candidates":150,"ppr_alpha":0.85,"ppr_top_k":8,"spectral":false},"summary":{"pairs_scored":4337328,"candidates":150,"cross_community":133,"ppr_seeds":10},"candidates":[{"a":"alzheimer_s_disease","b":"parkinson_s_disease","label_a":"Alzheimer's Disease","label_b":"Parkinson's Disease","score":26.394868,"shared_neighbors":94,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[1,0]},{"a":"mitochondria","b":"ros","label_a":"Mitochondria","label_b":"ROS","score":24.971341,"shared_neighbors":80,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":false,"community_pair":[2,2]},{"a":"aging","b":"neurodegeneration","label_a":"Aging","label_b":"Neurodegeneration","score":22.198916,"shared_neighbors":68,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[6,2]},{"a":"cancer","b":"neurodegeneration","label_a":"Cancer","label_b":"Neurodegeneration","score":20.809456,"shared_neighbors":63,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[26,2]},{"a":"il_6","b":"il_8","label_a":"IL-6","label_b":"IL-8","score":20.697364,"shared_neighbors":71,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":false,"community_pair":[36,36]},{"a":"sirt3","b":"sirt6","label_a":"SIRT3","label_b":"SIRT6","score":19.502505,"shared_neighbors":62,"shared_top":["Cellular Senescence","SIRT1","NAD+"],"cross_community":true,"community_pair":[12,29]},{"a":"parkinson_s_disease","b":"ros","label_a":"Parkinson's Disease","label_b":"ROS","score":17.933612,"shared_neighbors":64,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[0,2]},{"a":"inflammation","b":"sasp","label_a":"Inflammation","label_b":"Senescence-Associated Secretory Phenotype","score":17.9161,"shared_neighbors":62,"shared_top":["Oxidative Stress","Cancer","Apoptosis"],"cross_community":true,"community_pair":[2,33]},{"a":"cancer","b":"sirt1","label_a":"Cancer","label_b":"SIRT1","score":17.885268,"shared_neighbors":63,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[26,9]},{"a":"gpx4","b":"lipid_peroxidation","label_a":"GPX4","label_b":"Lipid Peroxidation","score":17.309296,"shared_neighbors":49,"shared_top":["Parkinson's Disease","Adrenochrome","Alzheimer's Disease"],"cross_community":false,"community_pair":[4,4]},{"a":"oxidative_stress","b":"sirt3","label_a":"Oxidative Stress","label_b":"SIRT3","score":16.018537,"shared_neighbors":55,"shared_top":["Cancer","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[20,12]},{"a":"ampk","b":"nad","label_a":"AMPK","label_b":"NAD+","score":16.014771,"shared_neighbors":58,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[18,11]},{"a":"glutathione","b":"ros","label_a":"Glutathione","label_b":"ROS","score":15.229816,"shared_neighbors":55,"shared_top":["Oxidative Stress","Inflammation","SIRT1"],"cross_community":true,"community_pair":[4,2]},{"a":"mitochondrial_dysfunction","b":"ros","label_a":"Mitochondrial Dysfunction","label_b":"ROS","score":14.482862,"shared_neighbors":49,"shared_top":["Oxidative Stress","Apoptosis","NF-κB"],"cross_community":true,"community_pair":[0,2]},{"a":"cancer","b":"lysosome","label_a":"Cancer","label_b":"Lysosome","score":14.414175,"shared_neighbors":40,"shared_top":["Autophagy","Aging","mTORC1"],"cross_community":true,"community_pair":[26,34]},{"a":"dna_damage","b":"sasp","label_a":"DNA Damage","label_b":"Senescence-Associated Secretory Phenotype","score":14.387438,"shared_neighbors":53,"shared_top":["Oxidative Stress","Cancer","Apoptosis"],"cross_community":true,"community_pair":[6,33]},{"a":"atherosclerosis","b":"inflammation","label_a":"Atherosclerosis","label_b":"Inflammation","score":14.207629,"shared_neighbors":49,"shared_top":["Oxidative Stress","Aging","Cellular Senescence"],"cross_community":true,"community_pair":[20,2]},{"a":"mitochondria","b":"parkinson_s_disease","label_a":"Mitochondria","label_b":"Parkinson's Disease","score":13.954964,"shared_neighbors":50,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[2,0]},{"a":"autophagy","b":"mitochondria","label_a":"Autophagy","label_b":"Mitochondria","score":13.8179,"shared_neighbors":50,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[13,2]},{"a":"nad","b":"oxidative_stress","label_a":"NAD+","label_b":"Oxidative Stress","score":13.608855,"shared_neighbors":49,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[11,20]},{"a":"aging","b":"mitochondria","label_a":"Aging","label_b":"Mitochondria","score":13.553265,"shared_neighbors":47,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[6,2]},{"a":"ferroptosis","b":"ros","label_a":"Ferroptosis","label_b":"ROS","score":13.389806,"shared_neighbors":43,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Adrenochrome"],"cross_community":true,"community_pair":[4,2]},{"a":"brd4","b":"senomorphic_therapy","label_a":"BRD4","label_b":"Senomorphic Therapy","score":13.196341,"shared_neighbors":41,"shared_top":["Senescence-Associated Secretory Phenotype","Cellular Senescence","NF-κB"],"cross_community":false,"community_pair":[15,15]},{"a":"aging","b":"tfeb","label_a":"Aging","label_b":"TFEB","score":13.106661,"shared_neighbors":42,"shared_top":["Oxidative Stress","Autophagy","Cellular Senescence"],"cross_community":true,"community_pair":[6,24]},{"a":"cancer","b":"cardiovascular_disease","label_a":"Cancer","label_b":"Cardiovascular Disease","score":12.753915,"shared_neighbors":46,"shared_top":["Oxidative Stress","Autophagy","Aging"],"cross_community":true,"community_pair":[26,2]},{"a":"cardiovascular_disease","b":"diabetes_mellitus","label_a":"Cardiovascular Disease","label_b":"Diabetes Mellitus","score":12.733797,"shared_neighbors":46,"shared_top":["Oxidative Stress","Aging","Cellular Senescence"],"cross_community":false,"community_pair":[2,2]},{"a":"inflammation","b":"parkinson_s_disease","label_a":"Inflammation","label_b":"Parkinson's Disease","score":12.655276,"shared_neighbors":49,"shared_top":["Oxidative Stress","Apoptosis","Aging"],"cross_community":true,"community_pair":[2,0]},{"a":"alzheimer_s_disease","b":"nf_kappab","label_a":"Alzheimer's Disease","label_b":"NF-κB","score":12.606069,"shared_neighbors":49,"shared_top":["Oxidative Stress","Apoptosis","SIRT1"],"cross_community":true,"community_pair":[1,37]},{"a":"ferroptosis","b":"oxidative_stress","label_a":"Ferroptosis","label_b":"Oxidative Stress","score":12.574881,"shared_neighbors":46,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Parkinson's Disease"],"cross_community":true,"community_pair":[4,20]},{"a":"apoptosis","b":"phosphorylation","label_a":"Apoptosis","label_b":"Phosphorylation","score":12.437357,"shared_neighbors":40,"shared_top":["Autophagy","p53","Alzheimer's Disease"],"cross_community":true,"community_pair":[16,49]},{"a":"cancer","b":"cell_cycle","label_a":"Cancer","label_b":"Cell Cycle","score":12.387396,"shared_neighbors":35,"shared_top":["DNA Damage","Senescent Cells","MYC"],"cross_community":true,"community_pair":[26,19]},{"a":"aging","b":"nf_kappab","label_a":"Aging","label_b":"NF-κB","score":12.262012,"shared_neighbors":48,"shared_top":["Oxidative Stress","Cancer","Senescence-Associated Secretory Phenotype"],"cross_community":true,"community_pair":[6,37]},{"a":"cardiovascular_disease","b":"inflammation","label_a":"Cardiovascular Disease","label_b":"Inflammation","score":12.257776,"shared_neighbors":46,"shared_top":["Oxidative Stress","Aging","Cellular Senescence"],"cross_community":false,"community_pair":[2,2]},{"a":"kdm4","b":"senomorphic_therapy","label_a":"KDM4","label_b":"Senomorphic Therapy","score":12.090578,"shared_neighbors":38,"shared_top":["Senescence-Associated Secretory Phenotype","Cellular Senescence","NF-κB"],"cross_community":false,"community_pair":[15,15]},{"a":"akt","b":"nf_kappab","label_a":"Akt","label_b":"NF-κB","score":12.031348,"shared_neighbors":42,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[17,37]},{"a":"ampk","b":"cancer","label_a":"AMPK","label_b":"Cancer","score":11.986686,"shared_neighbors":44,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Autophagy"],"cross_community":true,"community_pair":[18,26]},{"a":"alzheimer_s_disease","b":"cancer","label_a":"Alzheimer's Disease","label_b":"Cancer","score":11.923838,"shared_neighbors":46,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[1,26]},{"a":"atherosclerosis","b":"ros","label_a":"Atherosclerosis","label_b":"ROS","score":11.869168,"shared_neighbors":46,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":true,"community_pair":[20,2]},{"a":"inflammation","b":"mitochondria","label_a":"Inflammation","label_b":"Mitochondria","score":11.591769,"shared_neighbors":43,"shared_top":["Oxidative Stress","Apoptosis","Cellular Senescence"],"cross_community":false,"community_pair":[2,2]},{"a":"macrophages","b":"sasp","label_a":"Macrophages","label_b":"Senescence-Associated Secretory Phenotype","score":11.546916,"shared_neighbors":35,"shared_top":["Oxidative Stress","NF-κB","Atherosclerosis"],"cross_community":true,"community_pair":[50,33]},{"a":"apoptosis","b":"metastasis","label_a":"Apoptosis","label_b":"Metastasis","score":11.422279,"shared_neighbors":33,"shared_top":["Cancer","Ivermectin","Hallmarks of Cancer"],"cross_community":true,"community_pair":[16,23]},{"a":"autophagy","b":"inflammation","label_a":"Autophagy","label_b":"Inflammation","score":11.406541,"shared_neighbors":41,"shared_top":["Oxidative Stress","Cancer","Apoptosis"],"cross_community":true,"community_pair":[13,2]},{"a":"apoptosis","b":"breast_cancer","label_a":"Apoptosis","label_b":"Breast Cancer","score":11.374866,"shared_neighbors":40,"shared_top":["Cancer","Autophagy","SIRT1"],"cross_community":true,"community_pair":[16,23]},{"a":"chemotherapy","b":"metastasis","label_a":"Chemotherapy","label_b":"Metastasis","score":11.323239,"shared_neighbors":33,"shared_top":["Cancer","Hallmarks of Cancer","VEGF"],"cross_community":false,"community_pair":[23,23]},{"a":"mapk","b":"pi3k","label_a":"MAPK","label_b":"PI3K","score":11.286224,"shared_neighbors":38,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":false,"community_pair":[17,17]},{"a":"aging","b":"p53","label_a":"Aging","label_b":"p53","score":11.258919,"shared_neighbors":40,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[6,28]},{"a":"sirt2","b":"sirt6","label_a":"SIRT2","label_b":"SIRT6","score":11.212894,"shared_neighbors":37,"shared_top":["Aging","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[9,29]},{"a":"cancer","b":"tfeb","label_a":"Cancer","label_b":"TFEB","score":11.155256,"shared_neighbors":34,"shared_top":["Oxidative Stress","Autophagy","Cellular Senescence"],"cross_community":true,"community_pair":[26,24]},{"a":"metformin","b":"oxidative_stress","label_a":"Metformin","label_b":"Oxidative Stress","score":11.153777,"shared_neighbors":46,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[25,20]},{"a":"alzheimer_s_disease","b":"cardiovascular_disease","label_a":"Alzheimer's Disease","label_b":"Cardiovascular Disease","score":11.055743,"shared_neighbors":42,"shared_top":["Oxidative Stress","Autophagy","Aging"],"cross_community":true,"community_pair":[1,2]},{"a":"nf_kappab","b":"sirt3","label_a":"NF-κB","label_b":"SIRT3","score":11.045552,"shared_neighbors":40,"shared_top":["Cancer","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[37,12]},{"a":"aging","b":"ros","label_a":"Aging","label_b":"ROS","score":10.946912,"shared_neighbors":42,"shared_top":["Oxidative Stress","Cancer","Senescence-Associated Secretory Phenotype"],"cross_community":true,"community_pair":[6,2]},{"a":"nf_kappab","b":"parkinson_s_disease","label_a":"NF-κB","label_b":"Parkinson's Disease","score":10.920482,"shared_neighbors":46,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[37,0]},{"a":"alzheimer_s_disease","b":"atherosclerosis","label_a":"Alzheimer's Disease","label_b":"Atherosclerosis","score":10.917878,"shared_neighbors":42,"shared_top":["Oxidative Stress","Aging","SIRT1"],"cross_community":true,"community_pair":[1,20]},{"a":"ampk","b":"nf_kappab","label_a":"AMPK","label_b":"NF-κB","score":10.842351,"shared_neighbors":43,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":true,"community_pair":[18,37]},{"a":"akt","b":"mapk","label_a":"Akt","label_b":"MAPK","score":10.730046,"shared_neighbors":37,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":false,"community_pair":[17,17]},{"a":"sirt1","b":"sirt5","label_a":"SIRT1","label_b":"SIRT5","score":10.610737,"shared_neighbors":33,"shared_top":["NAD+","SIRT3","Sirtuins: The Sirtuin Family in Health and Disease"],"cross_community":true,"community_pair":[9,12]},{"a":"mapk","b":"nf_kappab","label_a":"MAPK","label_b":"NF-κB","score":10.595383,"shared_neighbors":36,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":true,"community_pair":[17,37]},{"a":"oxidative_stress","b":"sirtuins","label_a":"Oxidative Stress","label_b":"Sirtuins: The Sirtuin Family in Health and Disease","score":10.578034,"shared_neighbors":39,"shared_top":["Apoptosis","Autophagy","Aging"],"cross_community":true,"community_pair":[20,11]},{"a":"epinephrine","b":"ros","label_a":"Epinephrine","label_b":"ROS","score":10.56764,"shared_neighbors":35,"shared_top":["Oxidative Stress","Inflammation","Adrenochrome"],"cross_community":true,"community_pair":[3,2]},{"a":"il_8","b":"inflammaging","label_a":"IL-8","label_b":"Inflammaging","score":10.551726,"shared_neighbors":38,"shared_top":["Senescence-Associated Secretory Phenotype","Cellular Senescence","Inflammation"],"cross_community":true,"community_pair":[36,22]},{"a":"glutathione","b":"nrf2","label_a":"Glutathione","label_b":"Nrf2","score":10.551677,"shared_neighbors":38,"shared_top":["Oxidative Stress","Neurodegeneration","Mitohormesis"],"cross_community":true,"community_pair":[4,3]},{"a":"alzheimer_s_disease","b":"senescence","label_a":"Alzheimer's Disease","label_b":"Cellular Senescence","score":10.540769,"shared_neighbors":41,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[1,14]},{"a":"cardiovascular_disease","b":"nf_kappab","label_a":"Cardiovascular Disease","label_b":"NF-κB","score":10.490055,"shared_neighbors":41,"shared_top":["Oxidative Stress","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[2,37]},{"a":"mitochondria","b":"sirt1","label_a":"Mitochondria","label_b":"SIRT1","score":10.484681,"shared_neighbors":41,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[2,9]},{"a":"cgas_sting_pathway","b":"dna_damage","label_a":"cGAS-STING Pathway","label_b":"DNA Damage","score":10.473781,"shared_neighbors":36,"shared_top":["Cancer","Aging","Cellular Senescence"],"cross_community":true,"community_pair":[1,6]},{"a":"inflammation","b":"macrophages","label_a":"Inflammation","label_b":"Macrophages","score":10.362764,"shared_neighbors":30,"shared_top":["Oxidative Stress","NF-κB","Mitohormesis"],"cross_community":true,"community_pair":[2,50]},{"a":"inflammaging","b":"oxidative_stress","label_a":"Inflammaging","label_b":"Oxidative Stress","score":10.349844,"shared_neighbors":42,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[22,20]},{"a":"apoptosis","b":"mitophagy","label_a":"Apoptosis","label_b":"Mitophagy","score":10.319397,"shared_neighbors":39,"shared_top":["Oxidative Stress","Cancer","Autophagy"],"cross_community":true,"community_pair":[16,1]},{"a":"aging","b":"mitohormesis","label_a":"Aging","label_b":"Mitohormesis","score":10.311354,"shared_neighbors":42,"shared_top":["Oxidative Stress","Cancer","Autophagy"],"cross_community":true,"community_pair":[6,5]},{"a":"apoptosis","b":"pi3k","label_a":"Apoptosis","label_b":"PI3K","score":10.268797,"shared_neighbors":37,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Autophagy"],"cross_community":true,"community_pair":[16,17]},{"a":"cancer","b":"induced_pluripotent_stem_cells","label_a":"Cancer","label_b":"Induced Pluripotent Stem Cells","score":10.060745,"shared_neighbors":32,"shared_top":["Apoptosis","p53","cGAS-STING Pathway"],"cross_community":true,"community_pair":[26,10]},{"a":"levodopa","b":"neuromelanin","label_a":"Levodopa","label_b":"Neuromelanin","score":10.026141,"shared_neighbors":29,"shared_top":["Parkinson's Disease","Dopamine","Substantia Nigra Pars Compacta"],"cross_community":false,"community_pair":[0,0]},{"a":"apoptosis","b":"sirt3","label_a":"Apoptosis","label_b":"SIRT3","score":10.010585,"shared_neighbors":31,"shared_top":["Cancer","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[16,12]},{"a":"cancer","b":"inflammaging","label_a":"Cancer","label_b":"Inflammaging","score":9.9675,"shared_neighbors":38,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[26,22]},{"a":"epinephrine","b":"glutathione","label_a":"Epinephrine","label_b":"Glutathione","score":9.933084,"shared_neighbors":34,"shared_top":["Oxidative Stress","Inflammation","Adrenochrome"],"cross_community":true,"community_pair":[3,4]},{"a":"cell_cycle","b":"senescence","label_a":"Cell Cycle","label_b":"Cellular Senescence","score":9.887855,"shared_neighbors":29,"shared_top":["DNA Damage","TFEB","Senescent Cells"],"cross_community":true,"community_pair":[19,14]},{"a":"ampk","b":"mitochondria","label_a":"AMPK","label_b":"Mitochondria","score":9.849077,"shared_neighbors":39,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":true,"community_pair":[18,2]},{"a":"alzheimer_s_disease","b":"ros","label_a":"Alzheimer's Disease","label_b":"ROS","score":9.767158,"shared_neighbors":38,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[1,2]},{"a":"tnf_alpha","b":"tnfalpha","label_a":"TNF-α","label_b":"TNFα","score":9.719178,"shared_neighbors":32,"shared_top":["Senescence-Associated Secretory Phenotype","Apoptosis","Inflammation"],"cross_community":true,"community_pair":[2,37]},{"a":"aging","b":"rapamycin","label_a":"Aging","label_b":"Rapamycin","score":9.709462,"shared_neighbors":33,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Parkinson's Disease"],"cross_community":true,"community_pair":[6,25]},{"a":"cancer","b":"mitochondria","label_a":"Cancer","label_b":"Mitochondria","score":9.702986,"shared_neighbors":37,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[26,2]},{"a":"glutathione","b":"mitochondria","label_a":"Glutathione","label_b":"Mitochondria","score":9.690081,"shared_neighbors":33,"shared_top":["Oxidative Stress","Neurodegeneration","Mitohormesis"],"cross_community":true,"community_pair":[4,2]},{"a":"inflammaging","b":"p38_mapk","label_a":"Inflammaging","label_b":"p38 MAPK","score":9.671548,"shared_neighbors":32,"shared_top":["Senescence-Associated Secretory Phenotype","NF-κB","cGAS-STING Pathway"],"cross_community":true,"community_pair":[22,33]},{"a":"alzheimer_s_disease","b":"inflammation","label_a":"Alzheimer's Disease","label_b":"Inflammation","score":9.635167,"shared_neighbors":36,"shared_top":["Oxidative Stress","Apoptosis","Aging"],"cross_community":true,"community_pair":[1,2]},{"a":"cgas_sting_pathway","b":"senescent_cells","label_a":"cGAS-STING Pathway","label_b":"Senescent Cells","score":9.577121,"shared_neighbors":32,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Aging"],"cross_community":true,"community_pair":[1,14]},{"a":"apoptosis","b":"mapk","label_a":"Apoptosis","label_b":"MAPK","score":9.565007,"shared_neighbors":32,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Aging"],"cross_community":true,"community_pair":[16,17]},{"a":"glutathione","b":"nf_kappab","label_a":"Glutathione","label_b":"NF-κB","score":9.539098,"shared_neighbors":37,"shared_top":["Oxidative Stress","Inflammation","SIRT1"],"cross_community":true,"community_pair":[4,37]},{"a":"apoptosis","b":"mtor","label_a":"Apoptosis","label_b":"mTOR","score":9.537407,"shared_neighbors":33,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Autophagy"],"cross_community":true,"community_pair":[16,25]},{"a":"dna_damage","b":"sirt1","label_a":"DNA Damage","label_b":"SIRT1","score":9.524211,"shared_neighbors":35,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[6,9]},{"a":"autophagy","b":"nf_kappab","label_a":"Autophagy","label_b":"NF-κB","score":9.494565,"shared_neighbors":40,"shared_top":["Oxidative Stress","Cancer","Senescence-Associated Secretory Phenotype"],"cross_community":true,"community_pair":[13,37]},{"a":"inflammation","b":"neurodegeneration","label_a":"Inflammation","label_b":"Neurodegeneration","score":9.481164,"shared_neighbors":34,"shared_top":["Oxidative Stress","Apoptosis","NF-κB"],"cross_community":false,"community_pair":[2,2]},{"a":"inflammaging","b":"ros","label_a":"Inflammaging","label_b":"ROS","score":9.427967,"shared_neighbors":37,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Cellular Senescence"],"cross_community":true,"community_pair":[22,2]},{"a":"autophagy","b":"pgc_1alpha","label_a":"Autophagy","label_b":"PGC-1α","score":9.423954,"shared_neighbors":37,"shared_top":["Oxidative Stress","SIRT1","NAD+"],"cross_community":true,"community_pair":[13,18]},{"a":"mitochondrial_permeability_transition_pore","b":"parkinson_s_disease","label_a":"Mitochondrial Permeability Transition Pore","label_b":"Parkinson's Disease","score":9.396221,"shared_neighbors":32,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":false,"community_pair":[0,0]},{"a":"lifespan","b":"mitochondria","label_a":"Lifespan","label_b":"Mitochondria","score":9.393742,"shared_neighbors":31,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","NAD+"],"cross_community":true,"community_pair":[5,2]},{"a":"nf_kappab","b":"pi3k","label_a":"NF-κB","label_b":"PI3K","score":9.381269,"shared_neighbors":33,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Cellular Senescence"],"cross_community":true,"community_pair":[37,17]},{"a":"inflammaging","b":"sirt1","label_a":"Inflammaging","label_b":"SIRT1","score":9.342447,"shared_neighbors":39,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[22,9]},{"a":"oxidative_stress","b":"p53","label_a":"Oxidative Stress","label_b":"p53","score":9.323336,"shared_neighbors":36,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[20,28]},{"a":"alpha_synuclein","b":"oxidative_stress","label_a":"Alpha-synuclein","label_b":"Oxidative Stress","score":9.305233,"shared_neighbors":32,"shared_top":["Autophagy","Parkinson's Disease","Neurodegeneration"],"cross_community":true,"community_pair":[0,20]},{"a":"neurodegeneration","b":"tfeb","label_a":"Neurodegeneration","label_b":"TFEB","score":9.30167,"shared_neighbors":28,"shared_top":["Oxidative Stress","Autophagy","Parkinson's Disease"],"cross_community":true,"community_pair":[2,24]},{"a":"nrf2","b":"sirt1","label_a":"Nrf2","label_b":"SIRT1","score":9.277285,"shared_neighbors":34,"shared_top":["Oxidative Stress","Autophagy","NF-κB"],"cross_community":true,"community_pair":[3,9]},{"a":"cancer","b":"rb","label_a":"Cancer","label_b":"Rb","score":9.271317,"shared_neighbors":31,"shared_top":["Senescence-Associated Secretory Phenotype","Cellular Senescence","p53"],"cross_community":true,"community_pair":[26,19]},{"a":"aging","b":"sirt3","label_a":"Aging","label_b":"SIRT3","score":9.253436,"shared_neighbors":36,"shared_top":["Cancer","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[6,12]},{"a":"lifespan","b":"mitochondrial_unfolded_protein_response","label_a":"Lifespan","label_b":"Mitochondrial Unfolded Protein Response","score":9.212601,"shared_neighbors":24,"shared_top":["NAD+","Mitohormesis","Mitophagy"],"cross_community":false,"community_pair":[5,5]},{"a":"longevity","b":"mitochondria","label_a":"Longevity","label_b":"Mitochondria","score":9.107007,"shared_neighbors":33,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","NF-κB"],"cross_community":true,"community_pair":[35,2]},{"a":"cancer","b":"parkinson_s_disease","label_a":"Cancer","label_b":"Parkinson's Disease","score":9.103687,"shared_neighbors":37,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Apoptosis"],"cross_community":true,"community_pair":[26,0]},{"a":"angiogenesis","b":"metastasis","label_a":"Angiogenesis","label_b":"Metastasis","score":9.087786,"shared_neighbors":28,"shared_top":["Cancer","IL-8","Tumor Microenvironment"],"cross_community":false,"community_pair":[23,23]},{"a":"atherosclerosis","b":"diabetes_mellitus","label_a":"Atherosclerosis","label_b":"Diabetes Mellitus","score":9.086982,"shared_neighbors":36,"shared_top":["Oxidative Stress","Aging","Cellular Senescence"],"cross_community":true,"community_pair":[20,2]},{"a":"lysosome","b":"neurodegeneration","label_a":"Lysosome","label_b":"Neurodegeneration","score":9.074886,"shared_neighbors":26,"shared_top":["Autophagy","Mitophagy","Advanced Glycation End Products"],"cross_community":true,"community_pair":[34,2]},{"a":"cardiovascular_disease","b":"parkinson_s_disease","label_a":"Cardiovascular Disease","label_b":"Parkinson's Disease","score":9.063707,"shared_neighbors":35,"shared_top":["Oxidative Stress","Autophagy","Aging"],"cross_community":true,"community_pair":[2,0]},{"a":"aging","b":"mitochondrial_dysfunction","label_a":"Aging","label_b":"Mitochondrial Dysfunction","score":9.042726,"shared_neighbors":33,"shared_top":["Oxidative Stress","Apoptosis","Parkinson's Disease"],"cross_community":true,"community_pair":[6,0]},{"a":"diabetes_mellitus","b":"nf_kappab","label_a":"Diabetes Mellitus","label_b":"NF-κB","score":9.030366,"shared_neighbors":36,"shared_top":["Oxidative Stress","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[2,37]},{"a":"oxidative_stress","b":"sirt6","label_a":"Oxidative Stress","label_b":"SIRT6","score":8.99374,"shared_neighbors":36,"shared_top":["Senescence-Associated Secretory Phenotype","Apoptosis","Aging"],"cross_community":true,"community_pair":[20,29]},{"a":"adrenochrome","b":"mitohormesis","label_a":"Adrenochrome","label_b":"Mitohormesis","score":8.898146,"shared_neighbors":30,"shared_top":["Oxidative Stress","Inflammation","NF-κB"],"cross_community":true,"community_pair":[3,5]},{"a":"autophagy","b":"sirt3","label_a":"Autophagy","label_b":"SIRT3","score":8.81444,"shared_neighbors":36,"shared_top":["Cancer","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[13,12]},{"a":"aging","b":"pgc_1alpha","label_a":"Aging","label_b":"PGC-1α","score":8.781475,"shared_neighbors":34,"shared_top":["Oxidative Stress","SIRT1","NAD+"],"cross_community":true,"community_pair":[6,18]},{"a":"mtorc1","b":"oxidative_stress","label_a":"mTORC1","label_b":"Oxidative Stress","score":8.703587,"shared_neighbors":35,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Autophagy"],"cross_community":true,"community_pair":[32,20]},{"a":"apoptosis","b":"glutathione","label_a":"Apoptosis","label_b":"Glutathione","score":8.702495,"shared_neighbors":32,"shared_top":["Oxidative Stress","Inflammation","SIRT1"],"cross_community":true,"community_pair":[16,4]},{"a":"apoptosis","b":"cell_cycle","label_a":"Apoptosis","label_b":"Cell Cycle","score":8.700983,"shared_neighbors":25,"shared_top":["DNA Damage","Senescent Cells","Ubiquitination"],"cross_community":true,"community_pair":[16,19]},{"a":"akt","b":"chemotherapy","label_a":"Akt","label_b":"Chemotherapy","score":8.686791,"shared_neighbors":28,"shared_top":["Cancer","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[17,23]},{"a":"alzheimer_s_disease","b":"ampk","label_a":"Alzheimer's Disease","label_b":"AMPK","score":8.644604,"shared_neighbors":34,"shared_top":["Oxidative Stress","Autophagy","Aging"],"cross_community":true,"community_pair":[1,18]},{"a":"inflammation","b":"mitochondrial_dysfunction","label_a":"Inflammation","label_b":"Mitochondrial Dysfunction","score":8.641603,"shared_neighbors":31,"shared_top":["Oxidative Stress","Apoptosis","NF-κB"],"cross_community":true,"community_pair":[2,0]},{"a":"aging","b":"nmn","label_a":"Aging","label_b":"NMN (Nicotinamide Mononucleotide)","score":8.623325,"shared_neighbors":29,"shared_top":["Autophagy","Cellular Senescence","SIRT1"],"cross_community":true,"community_pair":[6,11]},{"a":"cancer","b":"nad","label_a":"Cancer","label_b":"NAD+","score":8.596272,"shared_neighbors":32,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Aging"],"cross_community":true,"community_pair":[26,11]},{"a":"methylene_blue","b":"ros","label_a":"Methylene blue","label_b":"ROS","score":8.594836,"shared_neighbors":26,"shared_top":["Oxidative Stress","Fisetin","Mitochondrial Respiration"],"cross_community":true,"community_pair":[8,2]},{"a":"cancer","b":"sirtuins","label_a":"Cancer","label_b":"Sirtuins: The Sirtuin Family in Health and Disease","score":8.549254,"shared_neighbors":29,"shared_top":["Apoptosis","Autophagy","Aging"],"cross_community":true,"community_pair":[26,11]},{"a":"chemotherapy","b":"nf_kappab","label_a":"Chemotherapy","label_b":"NF-κB","score":8.497312,"shared_neighbors":28,"shared_top":["Cancer","Apoptosis","Cellular Senescence"],"cross_community":true,"community_pair":[23,37]},{"a":"apoptosis","b":"mitohormesis","label_a":"Apoptosis","label_b":"Mitohormesis","score":8.480126,"shared_neighbors":33,"shared_top":["Oxidative Stress","Cancer","Autophagy"],"cross_community":true,"community_pair":[16,5]},{"a":"mtorc1","b":"neurodegeneration","label_a":"mTORC1","label_b":"Neurodegeneration","score":8.463981,"shared_neighbors":27,"shared_top":["Autophagy","Mitochondria","Mitophagy"],"cross_community":true,"community_pair":[32,2]},{"a":"mitochondrial_respiration","b":"nad","label_a":"Mitochondrial Respiration","label_b":"NAD+","score":8.445068,"shared_neighbors":26,"shared_top":["Mitochondria","Mitohormesis","Longevity"],"cross_community":true,"community_pair":[8,11]},{"a":"mitochondrial_dysfunction","b":"mitohormesis","label_a":"Mitochondrial Dysfunction","label_b":"Mitohormesis","score":8.407837,"shared_neighbors":30,"shared_top":["Oxidative Stress","NF-κB","Mitochondria"],"cross_community":true,"community_pair":[0,5]},{"a":"apigenin","b":"cancer","label_a":"Apigenin","label_b":"Cancer","score":8.390492,"shared_neighbors":31,"shared_top":["Senescence-Associated Secretory Phenotype","NF-κB","p53"],"cross_community":true,"community_pair":[33,26]},{"a":"cancer","b":"neurodegenerative_diseases","label_a":"Cancer","label_b":"Neurodegenerative Diseases","score":8.368264,"shared_neighbors":31,"shared_top":["Oxidative Stress","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[26,13]},{"a":"nad","b":"neurodegeneration","label_a":"NAD+","label_b":"Neurodegeneration","score":8.355772,"shared_neighbors":31,"shared_top":["Autophagy","Mitochondria","Parkinson's Disease"],"cross_community":true,"community_pair":[11,2]},{"a":"ischemia_reperfusion_injury","b":"lipid_peroxidation","label_a":"Ischemia-reperfusion Injury","label_b":"Lipid Peroxidation","score":8.317744,"shared_neighbors":27,"shared_top":["NF-κB","ROS","Adrenochrome"],"cross_community":true,"community_pair":[2,4]},{"a":"apoptosis","b":"ferroptosis","label_a":"Apoptosis","label_b":"Ferroptosis","score":8.308307,"shared_neighbors":29,"shared_top":["Cancer","Senescence-Associated Secretory Phenotype","Parkinson's Disease"],"cross_community":true,"community_pair":[16,4]},{"a":"ampk","b":"ros","label_a":"AMPK","label_b":"ROS","score":8.29015,"shared_neighbors":33,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Autophagy"],"cross_community":true,"community_pair":[18,2]},{"a":"alzheimer_s_disease","b":"cgas","label_a":"Alzheimer's Disease","label_b":"cGAS","score":8.286295,"shared_neighbors":27,"shared_top":["Aging","Inflammaging","cGAS-STING Pathway"],"cross_community":false,"community_pair":[1,1]},{"a":"antioxidant","b":"inflammation","label_a":"Antioxidant","label_b":"Inflammation","score":8.254914,"shared_neighbors":28,"shared_top":["Oxidative Stress","Aging","ROS"],"cross_community":true,"community_pair":[20,2]},{"a":"nad","b":"ros","label_a":"NAD+","label_b":"ROS","score":8.234369,"shared_neighbors":30,"shared_top":["Senescence-Associated Secretory Phenotype","Autophagy","Cellular Senescence"],"cross_community":true,"community_pair":[11,2]},{"a":"chemotherapy","b":"ivermectin","label_a":"Chemotherapy","label_b":"Ivermectin","score":8.22762,"shared_neighbors":25,"shared_top":["Cancer","Apoptosis","Autophagy"],"cross_community":true,"community_pair":[23,26]},{"a":"inflammation","b":"neuroinflammation","label_a":"Inflammation","label_b":"Neuroinflammation","score":8.216039,"shared_neighbors":27,"shared_top":["Cellular Senescence","NF-κB","ROS"],"cross_community":true,"community_pair":[2,1]},{"a":"ampk","b":"nrf2","label_a":"AMPK","label_b":"Nrf2","score":8.189728,"shared_neighbors":31,"shared_top":["Oxidative Stress","Autophagy","Mitohormesis"],"cross_community":true,"community_pair":[18,3]},{"a":"nf_kappab","b":"pgc_1alpha","label_a":"NF-κB","label_b":"PGC-1α","score":8.17201,"shared_neighbors":32,"shared_top":["Oxidative Stress","SIRT1","Mitochondria"],"cross_community":true,"community_pair":[37,18]},{"a":"alzheimer_s_disease","b":"nad","label_a":"Alzheimer's Disease","label_b":"NAD+","score":8.158609,"shared_neighbors":31,"shared_top":["Autophagy","Aging","SIRT1"],"cross_community":true,"community_pair":[1,11]},{"a":"cgas_sting_pathway","b":"inflammation","label_a":"cGAS-STING Pathway","label_b":"Inflammation","score":8.156136,"shared_neighbors":30,"shared_top":["Cancer","Aging","Cellular Senescence"],"cross_community":true,"community_pair":[1,2]},{"a":"apoptosis","b":"atherosclerosis","label_a":"Apoptosis","label_b":"Atherosclerosis","score":8.155677,"shared_neighbors":32,"shared_top":["Oxidative Stress","Senescence-Associated Secretory Phenotype","Aging"],"cross_community":true,"community_pair":[16,20]},{"a":"cardiovascular_disease","b":"sasp","label_a":"Cardiovascular Disease","label_b":"Senescence-Associated Secretory Phenotype","score":8.115013,"shared_neighbors":33,"shared_top":["Oxidative Stress","Autophagy","Aging"],"cross_community":true,"community_pair":[2,33]},{"a":"chemotherapy","b":"p53","label_a":"Chemotherapy","label_b":"p53","score":8.099554,"shared_neighbors":25,"shared_top":["Cancer","Apoptosis","Cellular Senescence"],"cross_community":true,"community_pair":[23,28]}],"ppr_similar":{"oxidative_stress":[{"id":"nad","label":"NAD+","score":0.00251703},{"id":"sirt3","label":"SIRT3","score":0.00232974},{"id":"ferroptosis","label":"Ferroptosis","score":0.00193878},{"id":"mtorc1","label":"mTORC1","score":0.00188686},{"id":"inflammaging","label":"Inflammaging","score":0.00186141},{"id":"p53","label":"p53","score":0.00176009},{"id":"sirtuins","label":"Sirtuins: The Sirtuin Family in Health and Disease","score":0.00172351},{"id":"sirt6","label":"SIRT6","score":0.00149013}],"cancer":[{"id":"sirt1","label":"SIRT1","score":0.00356525},{"id":"neurodegeneration","label":"Neurodegeneration","score":0.00247153},{"id":"mitochondria","label":"Mitochondria","score":0.00243979},{"id":"nad","label":"NAD+","score":0.00218731},{"id":"inflammaging","label":"Inflammaging","score":0.00211334},{"id":"tfeb","label":"TFEB","score":0.00210346},{"id":"parkinson_s_disease","label":"Parkinson's Disease","score":0.00207029},{"id":"alzheimer_s_disease","label":"Alzheimer's Disease","score":0.00193066}],"sasp":[{"id":"inflammation","label":"Inflammation","score":0.00399982},{"id":"dna_damage","label":"DNA Damage","score":0.00227086},{"id":"alzheimer_s_disease","label":"Alzheimer's Disease","score":0.00187783},{"id":"macrophages","label":"Macrophages","score":0.00166146},{"id":"sirt3","label":"SIRT3","score":0.00165575},{"id":"cardiovascular_disease","label":"Cardiovascular Disease","score":0.00159338},{"id":"caloric_restriction","label":"Caloric Restriction","score":0.00153411},{"id":"neurodegeneration","label":"Neurodegeneration","score":0.00152316}],"sirt1":[{"id":"cancer","label":"Cancer","score":0.00538022},{"id":"mitochondria","label":"Mitochondria","score":0.00305373},{"id":"inflammaging","label":"Inflammaging","score":0.00215302},{"id":"dna_damage","label":"DNA Damage","score":0.00204298},{"id":"neurodegeneration","label":"Neurodegeneration","score":0.00201115},{"id":"akt","label":"Akt","score":0.00184947},{"id":"adrenochrome","label":"Adrenochrome","score":0.00183683},{"id":"cgas_sting_pathway","label":"cGAS-STING Pathway","score":0.00149111}],"apoptosis":[{"id":"sirt3","label":"SIRT3","score":0.00222168},{"id":"nad","label":"NAD+","score":0.00220303},{"id":"inflammaging","label":"Inflammaging","score":0.00208857},{"id":"mitophagy","label":"Mitophagy","score":0.00189258},{"id":"phosphorylation","label":"Phosphorylation","score":0.00188748},{"id":"mtorc1","label":"mTORC1","score":0.00187854},{"id":"mitohormesis","label":"Mitohormesis","score":0.00179577},{"id":"cgas_sting_pathway","label":"cGAS-STING Pathway","score":0.00175735}],"autophagy":[{"id":"inflammation","label":"Inflammation","score":0.00331845},{"id":"mitochondria","label":"Mitochondria","score":0.00323299},{"id":"nf_kappab","label":"NF-κB","score":0.00292834},{"id":"sirt3","label":"SIRT3","score":0.0020592},{"id":"p53","label":"p53","score":0.00186682},{"id":"cgas_sting_pathway","label":"cGAS-STING Pathway","score":0.00160749},{"id":"mitochondrial_dysfunction","label":"Mitochondrial Dysfunction","score":0.00156936},{"id":"pgc_1alpha","label":"PGC-1α","score":0.0015674}],"senescence":[{"id":"alzheimer_s_disease","label":"Alzheimer's Disease","score":0.00216349},{"id":"sirtuins","label":"Sirtuins: The Sirtuin Family in Health and Disease","score":0.0017493},{"id":"cell_cycle","label":"Cell Cycle","score":0.00173883},{"id":"mitophagy","label":"Mitophagy","score":0.00164955},{"id":"neurodegeneration","label":"Neurodegeneration","score":0.00163539},{"id":"mitohormesis","label":"Mitohormesis","score":0.00150372},{"id":"induced_pluripotent_stem_cells","label":"Induced Pluripotent Stem Cells","score":0.00145144},{"id":"longevity","label":"Longevity","score":0.00145026}],"aging":[{"id":"nf_kappab","label":"NF-κB","score":0.00325464},{"id":"mitochondria","label":"Mitochondria","score":0.00320946},{"id":"neurodegeneration","label":"Neurodegeneration","score":0.00308},{"id":"ros","label":"ROS","score":0.00283064},{"id":"tfeb","label":"TFEB","score":0.0024854},{"id":"p53","label":"p53","score":0.00229805},{"id":"sirt3","label":"SIRT3","score":0.00218714},{"id":"mitohormesis","label":"Mitohormesis","score":0.00198098}],"nf_kappab":[{"id":"aging","label":"Aging","score":0.00360208},{"id":"autophagy","label":"Autophagy","score":0.00326423},{"id":"parkinson_s_disease","label":"Parkinson's Disease","score":0.00248934},{"id":"nad","label":"NAD+","score":0.00235499},{"id":"sirt3","label":"SIRT3","score":0.00232754},{"id":"alzheimer_s_disease","label":"Alzheimer's Disease","score":0.00227259},{"id":"akt","label":"Akt","score":0.00222621},{"id":"ampk","label":"AMPK","score":0.00198241}],"inflammation":[{"id":"sasp","label":"Senescence-Associated Secretory Phenotype","score":0.00495617},{"id":"autophagy","label":"Autophagy","score":0.00360914},{"id":"mitochondria","label":"Mitochondria","score":0.00297398},{"id":"parkinson_s_disease","label":"Parkinson's Disease","score":0.00289986},{"id":"atherosclerosis","label":"Atherosclerosis","score":0.0023175},{"id":"neurodegeneration","label":"Neurodegeneration","score":0.00224472},{"id":"sirt3","label":"SIRT3","score":0.00224042},{"id":"alzheimer_s_disease","label":"Alzheimer's Disease","score":0.00222326}]}}
+{
+    "generated": "2026-09-19T16:12:18Z",
+    "source_graph": "wiki-out/graph.json",
+    "graph_build": "7463103d",
+    "params": {
+        "method": "adamic_adar",
+        "min_degree": 3,
+        "max_candidates": 150,
+        "ppr_alpha": 0.85,
+        "ppr_top_k": 8,
+        "spectral": false
+    },
+    "summary": {
+        "pairs_scored": 4974346,
+        "candidates": 150,
+        "cross_community": 135,
+        "ppr_seeds": 10
+    },
+    "candidates": [
+        {
+            "a": "alzheimer_s_disease",
+            "b": "parkinson_s_disease",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "Parkinson's Disease",
+            "score": 26.900198,
+            "shared_neighbors": 96,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                0
+            ]
+        },
+        {
+            "a": "mitochondria",
+            "b": "ros",
+            "label_a": "Mitochondria",
+            "label_b": "ROS",
+            "score": 24.750368,
+            "shared_neighbors": 80,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                26
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "neurodegeneration",
+            "label_a": "Aging",
+            "label_b": "Neurodegeneration",
+            "score": 22.050219,
+            "shared_neighbors": 68,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                6
+            ]
+        },
+        {
+            "a": "il_6",
+            "b": "il_8",
+            "label_a": "IL-6",
+            "label_b": "IL-8",
+            "score": 20.983703,
+            "shared_neighbors": 72,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                34,
+                34
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "neurodegeneration",
+            "label_a": "Cancer",
+            "label_b": "Neurodegeneration",
+            "score": 20.612132,
+            "shared_neighbors": 63,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                6
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "sasp",
+            "label_a": "Inflammation",
+            "label_b": "Senescence-Associated Secretory Phenotype",
+            "score": 19.248942,
+            "shared_neighbors": 66,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Apoptosis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                18
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "sirt1",
+            "label_a": "Cancer",
+            "label_b": "SIRT1",
+            "score": 18.778032,
+            "shared_neighbors": 67,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                10
+            ]
+        },
+        {
+            "a": "parkinson_s_disease",
+            "b": "ros",
+            "label_a": "Parkinson's Disease",
+            "label_b": "ROS",
+            "score": 18.505304,
+            "shared_neighbors": 67,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                0,
+                26
+            ]
+        },
+        {
+            "a": "oxidative_stress",
+            "b": "sirt3",
+            "label_a": "Oxidative Stress",
+            "label_b": "SIRT3",
+            "score": 17.455737,
+            "shared_neighbors": 62,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                13
+            ]
+        },
+        {
+            "a": "glutathione",
+            "b": "ros",
+            "label_a": "Glutathione",
+            "label_b": "ROS",
+            "score": 16.735731,
+            "shared_neighbors": 60,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "Inflammation"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                5,
+                26
+            ]
+        },
+        {
+            "a": "ferroptosis",
+            "b": "ros",
+            "label_a": "Ferroptosis",
+            "label_b": "ROS",
+            "score": 15.787979,
+            "shared_neighbors": 52,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "SIRT3"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                5,
+                26
+            ]
+        },
+        {
+            "a": "atherosclerosis",
+            "b": "inflammation",
+            "label_a": "Atherosclerosis",
+            "label_b": "Inflammation",
+            "score": 15.041214,
+            "shared_neighbors": 51,
+            "shared_top": [
+                "Oxidative Stress",
+                "Aging",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                42,
+                6
+            ]
+        },
+        {
+            "a": "dna_damage",
+            "b": "sasp",
+            "label_a": "DNA Damage",
+            "label_b": "Senescence-Associated Secretory Phenotype",
+            "score": 14.712064,
+            "shared_neighbors": 55,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Apoptosis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                27,
+                18
+            ]
+        },
+        {
+            "a": "mitochondrial_dysfunction",
+            "b": "ros",
+            "label_a": "Mitochondrial Dysfunction",
+            "label_b": "ROS",
+            "score": 14.401079,
+            "shared_neighbors": 49,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "NF-κB"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                0,
+                26
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "lysosome",
+            "label_a": "Cancer",
+            "label_b": "Lysosome",
+            "score": 14.390927,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Autophagy",
+                "Aging",
+                "mTORC1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                40
+            ]
+        },
+        {
+            "a": "nad",
+            "b": "oxidative_stress",
+            "label_a": "NAD+",
+            "label_b": "Oxidative Stress",
+            "score": 14.291526,
+            "shared_neighbors": 53,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                14,
+                33
+            ]
+        },
+        {
+            "a": "mitochondria",
+            "b": "parkinson_s_disease",
+            "label_a": "Mitochondria",
+            "label_b": "Parkinson's Disease",
+            "score": 13.869101,
+            "shared_neighbors": 50,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                0
+            ]
+        },
+        {
+            "a": "autophagy",
+            "b": "mitochondria",
+            "label_a": "Autophagy",
+            "label_b": "Mitochondria",
+            "score": 13.668681,
+            "shared_neighbors": 50,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                35,
+                33
+            ]
+        },
+        {
+            "a": "ferroptosis",
+            "b": "oxidative_stress",
+            "label_a": "Ferroptosis",
+            "label_b": "Oxidative Stress",
+            "score": 13.625052,
+            "shared_neighbors": 51,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Parkinson's Disease"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                5,
+                33
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "mitochondria",
+            "label_a": "Aging",
+            "label_b": "Mitochondria",
+            "score": 13.501936,
+            "shared_neighbors": 47,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                33
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "tfeb",
+            "label_a": "Aging",
+            "label_b": "TFEB",
+            "score": 13.408123,
+            "shared_neighbors": 43,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                22
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "nf_kappab",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "NF-κB",
+            "score": 13.133505,
+            "shared_neighbors": 52,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                18
+            ]
+        },
+        {
+            "a": "akt",
+            "b": "nf_kappab",
+            "label_a": "Akt",
+            "label_b": "NF-κB",
+            "score": 13.126086,
+            "shared_neighbors": 47,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                25,
+                18
+            ]
+        },
+        {
+            "a": "brd4",
+            "b": "senomorphic_therapy",
+            "label_a": "BRD4",
+            "label_b": "Senomorphic Therapy",
+            "score": 13.06448,
+            "shared_neighbors": 41,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence",
+                "NF-κB"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                24,
+                24
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "parkinson_s_disease",
+            "label_a": "Inflammation",
+            "label_b": "Parkinson's Disease",
+            "score": 13.041392,
+            "shared_neighbors": 51,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                0
+            ]
+        },
+        {
+            "a": "autophagy",
+            "b": "inflammation",
+            "label_a": "Autophagy",
+            "label_b": "Inflammation",
+            "score": 12.843749,
+            "shared_neighbors": 45,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Apoptosis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                35,
+                6
+            ]
+        },
+        {
+            "a": "cardiovascular_disease",
+            "b": "diabetes_mellitus",
+            "label_a": "Cardiovascular Disease",
+            "label_b": "Diabetes Mellitus",
+            "score": 12.672642,
+            "shared_neighbors": 46,
+            "shared_top": [
+                "Oxidative Stress",
+                "Aging",
+                "SIRT1"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                6,
+                6
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "cardiovascular_disease",
+            "label_a": "Cancer",
+            "label_b": "Cardiovascular Disease",
+            "score": 12.647683,
+            "shared_neighbors": 46,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                6
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "phosphorylation",
+            "label_a": "Apoptosis",
+            "label_b": "Phosphorylation",
+            "score": 12.550195,
+            "shared_neighbors": 41,
+            "shared_top": [
+                "Autophagy",
+                "p53",
+                "Alzheimer's Disease"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                25
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "nf_kappab",
+            "label_a": "Aging",
+            "label_b": "NF-κB",
+            "score": 12.527795,
+            "shared_neighbors": 50,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Apoptosis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                18
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "cell_cycle",
+            "label_a": "Cancer",
+            "label_b": "Cell Cycle",
+            "score": 12.358874,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "DNA Damage",
+                "Senescent Cells",
+                "MYC"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                15
+            ]
+        },
+        {
+            "a": "cardiovascular_disease",
+            "b": "inflammation",
+            "label_a": "Cardiovascular Disease",
+            "label_b": "Inflammation",
+            "score": 12.218705,
+            "shared_neighbors": 46,
+            "shared_top": [
+                "Oxidative Stress",
+                "Aging",
+                "SIRT1"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                6,
+                6
+            ]
+        },
+        {
+            "a": "ampk",
+            "b": "cancer",
+            "label_a": "AMPK",
+            "label_b": "Cancer",
+            "score": 12.037093,
+            "shared_neighbors": 45,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                4
+            ]
+        },
+        {
+            "a": "kdm4",
+            "b": "senomorphic_therapy",
+            "label_a": "KDM4",
+            "label_b": "Senomorphic Therapy",
+            "score": 12.006703,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence",
+                "NF-κB"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                24,
+                24
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "cancer",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "Cancer",
+            "score": 11.963325,
+            "shared_neighbors": 46,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                4
+            ]
+        },
+        {
+            "a": "nf_kappab",
+            "b": "parkinson_s_disease",
+            "label_a": "NF-κB",
+            "label_b": "Parkinson's Disease",
+            "score": 11.953703,
+            "shared_neighbors": 51,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                18,
+                0
+            ]
+        },
+        {
+            "a": "sirt2",
+            "b": "sirt6",
+            "label_a": "SIRT2",
+            "label_b": "SIRT6",
+            "score": 11.933602,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Aging",
+                "SIRT1",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                10,
+                46
+            ]
+        },
+        {
+            "a": "glutathione",
+            "b": "nf_kappab",
+            "label_a": "Glutathione",
+            "label_b": "NF-κB",
+            "score": 11.868057,
+            "shared_neighbors": 45,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "Inflammation"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                5,
+                18
+            ]
+        },
+        {
+            "a": "atherosclerosis",
+            "b": "ros",
+            "label_a": "Atherosclerosis",
+            "label_b": "ROS",
+            "score": 11.803487,
+            "shared_neighbors": 46,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                42,
+                26
+            ]
+        },
+        {
+            "a": "mitochondria",
+            "b": "sirt1",
+            "label_a": "Mitochondria",
+            "label_b": "SIRT1",
+            "score": 11.792857,
+            "shared_neighbors": 46,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                10
+            ]
+        },
+        {
+            "a": "metformin",
+            "b": "oxidative_stress",
+            "label_a": "Metformin",
+            "label_b": "Oxidative Stress",
+            "score": 11.747272,
+            "shared_neighbors": 48,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                33
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "mitochondria",
+            "label_a": "Inflammation",
+            "label_b": "Mitochondria",
+            "score": 11.537833,
+            "shared_neighbors": 43,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                33
+            ]
+        },
+        {
+            "a": "macrophages",
+            "b": "sasp",
+            "label_a": "Macrophages",
+            "label_b": "Senescence-Associated Secretory Phenotype",
+            "score": 11.463212,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "NF-κB",
+                "Atherosclerosis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                42,
+                18
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "sirt3",
+            "label_a": "Aging",
+            "label_b": "SIRT3",
+            "score": 11.411685,
+            "shared_neighbors": 45,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                13
+            ]
+        },
+        {
+            "a": "ampk",
+            "b": "mitochondria",
+            "label_a": "AMPK",
+            "label_b": "Mitochondria",
+            "score": 11.326527,
+            "shared_neighbors": 43,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                33
+            ]
+        },
+        {
+            "a": "sirt1",
+            "b": "sirt5",
+            "label_a": "SIRT1",
+            "label_b": "SIRT5",
+            "score": 11.324148,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "NAD+",
+                "SIRT3",
+                "Sirtuins"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                10,
+                13
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "metastasis",
+            "label_a": "Apoptosis",
+            "label_b": "Metastasis",
+            "score": 11.304283,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Cancer",
+                "Necroptosis",
+                "Ivermectin"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                4
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "p53",
+            "label_a": "Aging",
+            "label_b": "p53",
+            "score": 11.244489,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                10
+            ]
+        },
+        {
+            "a": "mapk",
+            "b": "pi3k",
+            "label_a": "MAPK",
+            "label_b": "PI3K",
+            "score": 11.19496,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                25,
+                25
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "tfeb",
+            "label_a": "Cancer",
+            "label_b": "TFEB",
+            "score": 11.10159,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                22
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "mitophagy",
+            "label_a": "Apoptosis",
+            "label_b": "Mitophagy",
+            "score": 11.054582,
+            "shared_neighbors": 43,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                32
+            ]
+        },
+        {
+            "a": "mapk",
+            "b": "nf_kappab",
+            "label_a": "MAPK",
+            "label_b": "NF-κB",
+            "score": 11.04483,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                25,
+                18
+            ]
+        },
+        {
+            "a": "cardiovascular_disease",
+            "b": "nf_kappab",
+            "label_a": "Cardiovascular Disease",
+            "label_b": "NF-κB",
+            "score": 11.037726,
+            "shared_neighbors": 44,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                18
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "cardiovascular_disease",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "Cardiovascular Disease",
+            "score": 10.988776,
+            "shared_neighbors": 42,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                6
+            ]
+        },
+        {
+            "a": "chemotherapy",
+            "b": "metastasis",
+            "label_a": "Chemotherapy",
+            "label_b": "Metastasis",
+            "score": 10.954206,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Cancer",
+                "Hallmarks of Cancer",
+                "VEGF"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                4,
+                4
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "ros",
+            "label_a": "Aging",
+            "label_b": "ROS",
+            "score": 10.906046,
+            "shared_neighbors": 42,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Apoptosis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                26
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "nad",
+            "label_a": "Cancer",
+            "label_b": "NAD+",
+            "score": 10.846965,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                14
+            ]
+        },
+        {
+            "a": "glutathione",
+            "b": "nrf2",
+            "label_a": "Glutathione",
+            "label_b": "Nrf2",
+            "score": 10.834313,
+            "shared_neighbors": 39,
+            "shared_top": [
+                "Oxidative Stress",
+                "Neurodegeneration",
+                "Mitohormesis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                5,
+                54
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "atherosclerosis",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "Atherosclerosis",
+            "score": 10.83244,
+            "shared_neighbors": 42,
+            "shared_top": [
+                "Oxidative Stress",
+                "Aging",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                42
+            ]
+        },
+        {
+            "a": "inflammaging",
+            "b": "oxidative_stress",
+            "label_a": "Inflammaging",
+            "label_b": "Oxidative Stress",
+            "score": 10.742122,
+            "shared_neighbors": 44,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                43,
+                33
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "mitochondria",
+            "label_a": "Cancer",
+            "label_b": "Mitochondria",
+            "score": 10.712788,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                33
+            ]
+        },
+        {
+            "a": "dna_damage",
+            "b": "sirt1",
+            "label_a": "DNA Damage",
+            "label_b": "SIRT1",
+            "score": 10.646684,
+            "shared_neighbors": 39,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                27,
+                10
+            ]
+        },
+        {
+            "a": "akt",
+            "b": "mapk",
+            "label_a": "Akt",
+            "label_b": "MAPK",
+            "score": 10.63952,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                25,
+                25
+            ]
+        },
+        {
+            "a": "oxidative_stress",
+            "b": "p53",
+            "label_a": "Oxidative Stress",
+            "label_b": "p53",
+            "score": 10.619844,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                10
+            ]
+        },
+        {
+            "a": "epinephrine",
+            "b": "ros",
+            "label_a": "Epinephrine",
+            "label_b": "ROS",
+            "score": 10.597538,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "Inflammation",
+                "Adrenochrome"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                3,
+                26
+            ]
+        },
+        {
+            "a": "il_8",
+            "b": "inflammaging",
+            "label_a": "IL-8",
+            "label_b": "Inflammaging",
+            "score": 10.483571,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence",
+                "Inflammation"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                34,
+                43
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "mapk",
+            "label_a": "Apoptosis",
+            "label_b": "MAPK",
+            "score": 10.47388,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                25
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "pi3k",
+            "label_a": "Apoptosis",
+            "label_b": "PI3K",
+            "score": 10.431493,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                25
+            ]
+        },
+        {
+            "a": "cgas_sting_pathway",
+            "b": "dna_damage",
+            "label_a": "cGAS-STING Pathway",
+            "label_b": "DNA Damage",
+            "score": 10.414116,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Cancer",
+                "Aging",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                43,
+                27
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "senescence",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "Cellular Senescence",
+            "score": 10.368004,
+            "shared_neighbors": 41,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                20
+            ]
+        },
+        {
+            "a": "oxidative_stress",
+            "b": "sirtuins",
+            "label_a": "Oxidative Stress",
+            "label_b": "Sirtuins",
+            "score": 10.341919,
+            "shared_neighbors": 39,
+            "shared_top": [
+                "Apoptosis",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                14
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "glutathione",
+            "label_a": "Apoptosis",
+            "label_b": "Glutathione",
+            "score": 10.297048,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "Inflammation"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                5
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "mitohormesis",
+            "label_a": "Aging",
+            "label_b": "Mitohormesis",
+            "score": 10.217342,
+            "shared_neighbors": 42,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                29
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "macrophages",
+            "label_a": "Inflammation",
+            "label_b": "Macrophages",
+            "score": 10.212365,
+            "shared_neighbors": 30,
+            "shared_top": [
+                "Oxidative Stress",
+                "NF-κB",
+                "Mitohormesis"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                42
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "inflammaging",
+            "label_a": "Cancer",
+            "label_b": "Inflammaging",
+            "score": 10.183427,
+            "shared_neighbors": 39,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                43
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "ros",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "ROS",
+            "score": 10.059047,
+            "shared_neighbors": 40,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                26
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "ferroptosis",
+            "label_a": "Apoptosis",
+            "label_b": "Ferroptosis",
+            "score": 10.052451,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Parkinson's Disease"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                5
+            ]
+        },
+        {
+            "a": "glutathione",
+            "b": "mitochondria",
+            "label_a": "Glutathione",
+            "label_b": "Mitochondria",
+            "score": 10.019213,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT3",
+                "Neurodegeneration"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                5,
+                33
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "mtor",
+            "label_a": "Apoptosis",
+            "label_b": "mTOR",
+            "score": 10.006425,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                30
+            ]
+        },
+        {
+            "a": "nf_kappab",
+            "b": "pi3k",
+            "label_a": "NF-κB",
+            "label_b": "PI3K",
+            "score": 9.989043,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                18,
+                25
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "induced_pluripotent_stem_cells",
+            "label_a": "Cancer",
+            "label_b": "Induced Pluripotent Stem Cells",
+            "score": 9.979405,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Apoptosis",
+                "p53",
+                "cGAS-STING Pathway"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                16
+            ]
+        },
+        {
+            "a": "epinephrine",
+            "b": "glutathione",
+            "label_a": "Epinephrine",
+            "label_b": "Glutathione",
+            "score": 9.950556,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Oxidative Stress",
+                "Inflammation",
+                "Adrenochrome"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                3,
+                5
+            ]
+        },
+        {
+            "a": "autophagy",
+            "b": "sirt3",
+            "label_a": "Autophagy",
+            "label_b": "SIRT3",
+            "score": 9.867313,
+            "shared_neighbors": 41,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                35,
+                13
+            ]
+        },
+        {
+            "a": "levodopa",
+            "b": "neuromelanin",
+            "label_a": "Levodopa",
+            "label_b": "Neuromelanin",
+            "score": 9.784296,
+            "shared_neighbors": 29,
+            "shared_top": [
+                "Parkinson's Disease",
+                "Dopamine",
+                "Melanoma"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                0,
+                0
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "inflammation",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "Inflammation",
+            "score": 9.736108,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                6
+            ]
+        },
+        {
+            "a": "tnf_alpha",
+            "b": "tnfalpha",
+            "label_a": "TNF-α",
+            "label_b": "TNFα",
+            "score": 9.718261,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Inflammation"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                12
+            ]
+        },
+        {
+            "a": "cell_cycle",
+            "b": "senescence",
+            "label_a": "Cell Cycle",
+            "label_b": "Cellular Senescence",
+            "score": 9.712089,
+            "shared_neighbors": 29,
+            "shared_top": [
+                "DNA Damage",
+                "TFEB",
+                "Senescent Cells"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                15,
+                20
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "rapamycin",
+            "label_a": "Aging",
+            "label_b": "Rapamycin",
+            "score": 9.678744,
+            "shared_neighbors": 33,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy",
+                "Parkinson's Disease"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                30
+            ]
+        },
+        {
+            "a": "inflammaging",
+            "b": "p38_mapk",
+            "label_a": "Inflammaging",
+            "label_b": "p38 MAPK",
+            "score": 9.606813,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "NF-κB",
+                "cGAS-STING Pathway"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                43,
+                18
+            ]
+        },
+        {
+            "a": "nad",
+            "b": "ros",
+            "label_a": "NAD+",
+            "label_b": "ROS",
+            "score": 9.602949,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                14,
+                26
+            ]
+        },
+        {
+            "a": "lifespan",
+            "b": "mitochondria",
+            "label_a": "Lifespan",
+            "label_b": "Mitochondria",
+            "score": 9.58662,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "NAD+"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                29,
+                33
+            ]
+        },
+        {
+            "a": "akt",
+            "b": "sirt1",
+            "label_a": "Akt",
+            "label_b": "SIRT1",
+            "score": 9.555794,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                25,
+                10
+            ]
+        },
+        {
+            "a": "inflammaging",
+            "b": "ros",
+            "label_a": "Inflammaging",
+            "label_b": "ROS",
+            "score": 9.541313,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                43,
+                26
+            ]
+        },
+        {
+            "a": "cgas_sting_pathway",
+            "b": "senescent_cells",
+            "label_a": "cGAS-STING Pathway",
+            "label_b": "Senescent Cells",
+            "score": 9.49934,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                43,
+                20
+            ]
+        },
+        {
+            "a": "nrf2",
+            "b": "sirt1",
+            "label_a": "Nrf2",
+            "label_b": "SIRT1",
+            "score": 9.444513,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                54,
+                10
+            ]
+        },
+        {
+            "a": "ampk",
+            "b": "nrf2",
+            "label_a": "AMPK",
+            "label_b": "Nrf2",
+            "score": 9.431343,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                54
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "parkinson_s_disease",
+            "label_a": "Cancer",
+            "label_b": "Parkinson's Disease",
+            "score": 9.39481,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                0
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "neurodegeneration",
+            "label_a": "Inflammation",
+            "label_b": "Neurodegeneration",
+            "score": 9.391694,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "NF-κB"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                6,
+                6
+            ]
+        },
+        {
+            "a": "mitochondrial_respiration",
+            "b": "nad",
+            "label_a": "Mitochondrial Respiration",
+            "label_b": "NAD+",
+            "score": 9.372733,
+            "shared_neighbors": 30,
+            "shared_top": [
+                "Mitochondria",
+                "SIRT3",
+                "AMPK"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                55,
+                14
+            ]
+        },
+        {
+            "a": "oxidative_stress",
+            "b": "sirt6",
+            "label_a": "Oxidative Stress",
+            "label_b": "SIRT6",
+            "score": 9.345535,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                33,
+                46
+            ]
+        },
+        {
+            "a": "diabetes_mellitus",
+            "b": "nf_kappab",
+            "label_a": "Diabetes Mellitus",
+            "label_b": "NF-κB",
+            "score": 9.344833,
+            "shared_neighbors": 38,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                18
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "sirt3",
+            "label_a": "Inflammation",
+            "label_b": "SIRT3",
+            "score": 9.341554,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                13
+            ]
+        },
+        {
+            "a": "mitochondrial_permeability_transition_pore",
+            "b": "parkinson_s_disease",
+            "label_a": "Mitochondrial Permeability Transition Pore",
+            "label_b": "Parkinson's Disease",
+            "score": 9.293902,
+            "shared_neighbors": 31,
+            "shared_top": [
+                "Oxidative Stress",
+                "Neurodegeneration",
+                "Mitohormesis"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                0,
+                0
+            ]
+        },
+        {
+            "a": "ampk",
+            "b": "apoptosis",
+            "label_a": "AMPK",
+            "label_b": "Apoptosis",
+            "score": 9.287552,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                7
+            ]
+        },
+        {
+            "a": "neurodegeneration",
+            "b": "tfeb",
+            "label_a": "Neurodegeneration",
+            "label_b": "TFEB",
+            "score": 9.280603,
+            "shared_neighbors": 28,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "Parkinson's Disease"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                22
+            ]
+        },
+        {
+            "a": "alpha_synuclein",
+            "b": "oxidative_stress",
+            "label_a": "Alpha-synuclein",
+            "label_b": "Oxidative Stress",
+            "score": 9.236686,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Autophagy",
+                "Parkinson's Disease",
+                "Neurodegeneration"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                0,
+                33
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "mitochondrial_dysfunction",
+            "label_a": "Aging",
+            "label_b": "Mitochondrial Dysfunction",
+            "score": 9.223464,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Parkinson's Disease"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                0
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "rb",
+            "label_a": "Cancer",
+            "label_b": "Rb",
+            "score": 9.217456,
+            "shared_neighbors": 31,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Cellular Senescence",
+                "p53"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                15
+            ]
+        },
+        {
+            "a": "lifespan",
+            "b": "mitochondrial_unfolded_protein_response",
+            "label_a": "Lifespan",
+            "label_b": "Mitochondrial Unfolded Protein Response",
+            "score": 9.202468,
+            "shared_neighbors": 24,
+            "shared_top": [
+                "NAD+",
+                "Mitohormesis",
+                "Mitophagy"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                29,
+                29
+            ]
+        },
+        {
+            "a": "ros",
+            "b": "tnf_alpha",
+            "label_a": "ROS",
+            "label_b": "TNF-α",
+            "score": 9.200909,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                26,
+                6
+            ]
+        },
+        {
+            "a": "autophagy",
+            "b": "pgc_1alpha",
+            "label_a": "Autophagy",
+            "label_b": "PGC-1α",
+            "score": 9.115771,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "NAD+"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                35,
+                19
+            ]
+        },
+        {
+            "a": "p53",
+            "b": "sirt3",
+            "label_a": "p53",
+            "label_b": "SIRT3",
+            "score": 9.108802,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                10,
+                13
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "sirtuins",
+            "label_a": "Cancer",
+            "label_b": "Sirtuins",
+            "score": 9.083393,
+            "shared_neighbors": 31,
+            "shared_top": [
+                "Apoptosis",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                14
+            ]
+        },
+        {
+            "a": "longevity",
+            "b": "mitochondria",
+            "label_a": "Longevity",
+            "label_b": "Mitochondria",
+            "score": 9.069352,
+            "shared_neighbors": 33,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "NF-κB"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                37,
+                33
+            ]
+        },
+        {
+            "a": "lysosome",
+            "b": "neurodegeneration",
+            "label_a": "Lysosome",
+            "label_b": "Neurodegeneration",
+            "score": 9.068128,
+            "shared_neighbors": 26,
+            "shared_top": [
+                "Autophagy",
+                "Mitophagy",
+                "Advanced Glycation End Products"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                40,
+                6
+            ]
+        },
+        {
+            "a": "atherosclerosis",
+            "b": "diabetes_mellitus",
+            "label_a": "Atherosclerosis",
+            "label_b": "Diabetes Mellitus",
+            "score": 9.0254,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Oxidative Stress",
+                "Aging",
+                "SIRT1"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                42,
+                6
+            ]
+        },
+        {
+            "a": "cardiovascular_disease",
+            "b": "parkinson_s_disease",
+            "label_a": "Cardiovascular Disease",
+            "label_b": "Parkinson's Disease",
+            "score": 9.013433,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                0
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "inflammaging",
+            "label_a": "Apoptosis",
+            "label_b": "Inflammaging",
+            "score": 8.996989,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                43
+            ]
+        },
+        {
+            "a": "nad",
+            "b": "nf_kappab",
+            "label_a": "NAD+",
+            "label_b": "NF-κB",
+            "score": 8.989196,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Apoptosis",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                14,
+                18
+            ]
+        },
+        {
+            "a": "mtorc1",
+            "b": "oxidative_stress",
+            "label_a": "mTORC1",
+            "label_b": "Oxidative Stress",
+            "score": 8.975482,
+            "shared_neighbors": 36,
+            "shared_top": [
+                "Cancer",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                31,
+                33
+            ]
+        },
+        {
+            "a": "apigenin",
+            "b": "senescence",
+            "label_a": "Apigenin",
+            "label_b": "Cellular Senescence",
+            "score": 8.868045,
+            "shared_neighbors": 33,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "NF-κB",
+                "Inflammaging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                18,
+                20
+            ]
+        },
+        {
+            "a": "ampk",
+            "b": "ros",
+            "label_a": "AMPK",
+            "label_b": "ROS",
+            "score": 8.791132,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                26
+            ]
+        },
+        {
+            "a": "mitophagy",
+            "b": "sasp",
+            "label_a": "Mitophagy",
+            "label_b": "Senescence-Associated Secretory Phenotype",
+            "score": 8.769844,
+            "shared_neighbors": 37,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                32,
+                18
+            ]
+        },
+        {
+            "a": "adrenochrome",
+            "b": "mitohormesis",
+            "label_a": "Adrenochrome",
+            "label_b": "Mitohormesis",
+            "score": 8.729589,
+            "shared_neighbors": 30,
+            "shared_top": [
+                "Oxidative Stress",
+                "Inflammation",
+                "NF-κB"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                3,
+                29
+            ]
+        },
+        {
+            "a": "angiogenesis",
+            "b": "metastasis",
+            "label_a": "Angiogenesis",
+            "label_b": "Metastasis",
+            "score": 8.723196,
+            "shared_neighbors": 27,
+            "shared_top": [
+                "Cancer",
+                "IL-8",
+                "Tumor Microenvironment"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                4,
+                4
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "nmn",
+            "label_a": "Aging",
+            "label_b": "NMN (Nicotinamide Mononucleotide)",
+            "score": 8.594501,
+            "shared_neighbors": 29,
+            "shared_top": [
+                "Autophagy",
+                "SIRT1",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                14
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "mitohormesis",
+            "label_a": "Apoptosis",
+            "label_b": "Mitohormesis",
+            "score": 8.594422,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "Cancer",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                29
+            ]
+        },
+        {
+            "a": "chemotherapy",
+            "b": "nf_kappab",
+            "label_a": "Chemotherapy",
+            "label_b": "NF-κB",
+            "score": 8.59339,
+            "shared_neighbors": 29,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                18
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "mitochondrial_dysfunction",
+            "label_a": "Inflammation",
+            "label_b": "Mitochondrial Dysfunction",
+            "score": 8.589645,
+            "shared_neighbors": 31,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "NF-κB"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                0
+            ]
+        },
+        {
+            "a": "methylene_blue",
+            "b": "ros",
+            "label_a": "Methylene blue",
+            "label_b": "ROS",
+            "score": 8.581256,
+            "shared_neighbors": 26,
+            "shared_top": [
+                "Oxidative Stress",
+                "Fisetin",
+                "Mitochondrial Respiration"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                2,
+                26
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "ampk",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "AMPK",
+            "score": 8.580151,
+            "shared_neighbors": 34,
+            "shared_top": [
+                "Oxidative Stress",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                19
+            ]
+        },
+        {
+            "a": "ischemia_reperfusion_injury",
+            "b": "lipid_peroxidation",
+            "label_a": "Ischemia-reperfusion Injury",
+            "label_b": "Lipid Peroxidation",
+            "score": 8.566349,
+            "shared_neighbors": 29,
+            "shared_top": [
+                "NF-κB",
+                "ROS",
+                "Adrenochrome"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                5,
+                5
+            ]
+        },
+        {
+            "a": "sirt2",
+            "b": "sirt5",
+            "label_a": "SIRT2",
+            "label_b": "SIRT5",
+            "score": 8.559165,
+            "shared_neighbors": 27,
+            "shared_top": [
+                "NAD+",
+                "SIRT3",
+                "Sirtuins"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                10,
+                13
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "cgas",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "cGAS",
+            "score": 8.55021,
+            "shared_neighbors": 28,
+            "shared_top": [
+                "Aging",
+                "Inflammaging",
+                "cGAS-STING Pathway"
+            ],
+            "cross_community": false,
+            "community_pair": [
+                9,
+                9
+            ]
+        },
+        {
+            "a": "nf_kappab",
+            "b": "pgc_1alpha",
+            "label_a": "NF-κB",
+            "label_b": "PGC-1α",
+            "score": 8.548263,
+            "shared_neighbors": 35,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "Mitochondria"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                18,
+                19
+            ]
+        },
+        {
+            "a": "apigenin",
+            "b": "cancer",
+            "label_a": "Apigenin",
+            "label_b": "Cancer",
+            "score": 8.544046,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "NF-κB",
+                "p53"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                18,
+                4
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "cell_cycle",
+            "label_a": "Apoptosis",
+            "label_b": "Cell Cycle",
+            "score": 8.537512,
+            "shared_neighbors": 25,
+            "shared_top": [
+                "DNA Damage",
+                "Senescent Cells",
+                "Ubiquitination"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                15
+            ]
+        },
+        {
+            "a": "cancer",
+            "b": "neurodegenerative_diseases",
+            "label_a": "Cancer",
+            "label_b": "Neurodegenerative Diseases",
+            "score": 8.487854,
+            "shared_neighbors": 31,
+            "shared_top": [
+                "Oxidative Stress",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                4,
+                35
+            ]
+        },
+        {
+            "a": "mitochondrial_biogenesis",
+            "b": "mitohormesis",
+            "label_a": "Mitochondrial Biogenesis",
+            "label_b": "Mitohormesis",
+            "score": 8.485007,
+            "shared_neighbors": 31,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "ROS"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                19,
+                29
+            ]
+        },
+        {
+            "a": "inflammation",
+            "b": "nrf2",
+            "label_a": "Inflammation",
+            "label_b": "Nrf2",
+            "score": 8.475183,
+            "shared_neighbors": 28,
+            "shared_top": [
+                "Oxidative Stress",
+                "NF-κB",
+                "ROS"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                6,
+                54
+            ]
+        },
+        {
+            "a": "aging",
+            "b": "pgc_1alpha",
+            "label_a": "Aging",
+            "label_b": "PGC-1α",
+            "score": 8.451128,
+            "shared_neighbors": 33,
+            "shared_top": [
+                "Oxidative Stress",
+                "SIRT1",
+                "NAD+"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                11,
+                19
+            ]
+        },
+        {
+            "a": "mtorc1",
+            "b": "neurodegeneration",
+            "label_a": "mTORC1",
+            "label_b": "Neurodegeneration",
+            "score": 8.448688,
+            "shared_neighbors": 27,
+            "shared_top": [
+                "Autophagy",
+                "Mitochondria",
+                "Mitophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                31,
+                6
+            ]
+        },
+        {
+            "a": "interferon",
+            "b": "sasp",
+            "label_a": "Interferon",
+            "label_b": "Senescence-Associated Secretory Phenotype",
+            "score": 8.43293,
+            "shared_neighbors": 28,
+            "shared_top": [
+                "NF-κB",
+                "Inflammaging",
+                "cGAS-STING Pathway"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                18
+            ]
+        },
+        {
+            "a": "lc3",
+            "b": "mitophagy",
+            "label_a": "LC3",
+            "label_b": "Mitophagy",
+            "score": 8.379796,
+            "shared_neighbors": 25,
+            "shared_top": [
+                "Autophagy",
+                "SIRT1",
+                "Ubiquitination"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                28,
+                32
+            ]
+        },
+        {
+            "a": "akt",
+            "b": "chemotherapy",
+            "label_a": "Akt",
+            "label_b": "Chemotherapy",
+            "score": 8.355462,
+            "shared_neighbors": 27,
+            "shared_top": [
+                "Cancer",
+                "Apoptosis",
+                "Autophagy"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                25,
+                4
+            ]
+        },
+        {
+            "a": "nad",
+            "b": "neurodegeneration",
+            "label_a": "NAD+",
+            "label_b": "Neurodegeneration",
+            "score": 8.329804,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Apoptosis",
+                "Autophagy",
+                "Mitochondria"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                14,
+                6
+            ]
+        },
+        {
+            "a": "mitochondrial_dysfunction",
+            "b": "mitohormesis",
+            "label_a": "Mitochondrial Dysfunction",
+            "label_b": "Mitohormesis",
+            "score": 8.310934,
+            "shared_neighbors": 30,
+            "shared_top": [
+                "Oxidative Stress",
+                "NF-κB",
+                "Mitochondria"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                0,
+                29
+            ]
+        },
+        {
+            "a": "inflammaging",
+            "b": "p53",
+            "label_a": "Inflammaging",
+            "label_b": "p53",
+            "score": 8.2974,
+            "shared_neighbors": 33,
+            "shared_top": [
+                "Senescence-Associated Secretory Phenotype",
+                "SIRT1",
+                "Cellular Senescence"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                43,
+                10
+            ]
+        },
+        {
+            "a": "apoptosis",
+            "b": "atherosclerosis",
+            "label_a": "Apoptosis",
+            "label_b": "Atherosclerosis",
+            "score": 8.270983,
+            "shared_neighbors": 33,
+            "shared_top": [
+                "Oxidative Stress",
+                "Senescence-Associated Secretory Phenotype",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                7,
+                42
+            ]
+        },
+        {
+            "a": "alzheimer_s_disease",
+            "b": "nad",
+            "label_a": "Alzheimer's Disease",
+            "label_b": "NAD+",
+            "score": 8.266584,
+            "shared_neighbors": 32,
+            "shared_top": [
+                "Apoptosis",
+                "Autophagy",
+                "Aging"
+            ],
+            "cross_community": true,
+            "community_pair": [
+                9,
+                14
+            ]
+        }
+    ],
+    "ppr_similar": {
+        "oxidative_stress": [
+            {
+                "id": "nad",
+                "label": "NAD+",
+                "score": 0.00253888
+            },
+            {
+                "id": "sirt3",
+                "label": "SIRT3",
+                "score": 0.00251934
+            },
+            {
+                "id": "ferroptosis",
+                "label": "Ferroptosis",
+                "score": 0.00203446
+            },
+            {
+                "id": "mtorc1",
+                "label": "mTORC1",
+                "score": 0.00184951
+            },
+            {
+                "id": "inflammaging",
+                "label": "Inflammaging",
+                "score": 0.00181176
+            },
+            {
+                "id": "p53",
+                "label": "p53",
+                "score": 0.0018067
+            },
+            {
+                "id": "sirtuins",
+                "label": "Sirtuins",
+                "score": 0.00162983
+            },
+            {
+                "id": "sirt6",
+                "label": "SIRT6",
+                "score": 0.00145998
+            }
+        ],
+        "cancer": [
+            {
+                "id": "sirt1",
+                "label": "SIRT1",
+                "score": 0.00361894
+            },
+            {
+                "id": "mitochondria",
+                "label": "Mitochondria",
+                "score": 0.00238011
+            },
+            {
+                "id": "nad",
+                "label": "NAD+",
+                "score": 0.00231827
+            },
+            {
+                "id": "neurodegeneration",
+                "label": "Neurodegeneration",
+                "score": 0.00231392
+            },
+            {
+                "id": "inflammaging",
+                "label": "Inflammaging",
+                "score": 0.00202849
+            },
+            {
+                "id": "parkinson_s_disease",
+                "label": "Parkinson's Disease",
+                "score": 0.00199831
+            },
+            {
+                "id": "tfeb",
+                "label": "TFEB",
+                "score": 0.00197898
+            },
+            {
+                "id": "ampk",
+                "label": "AMPK",
+                "score": 0.00188121
+            }
+        ],
+        "sasp": [
+            {
+                "id": "inflammation",
+                "label": "Inflammation",
+                "score": 0.00401733
+            },
+            {
+                "id": "dna_damage",
+                "label": "DNA Damage",
+                "score": 0.00214636
+            },
+            {
+                "id": "alzheimer_s_disease",
+                "label": "Alzheimer's Disease",
+                "score": 0.00178002
+            },
+            {
+                "id": "macrophages",
+                "label": "Macrophages",
+                "score": 0.00153709
+            },
+            {
+                "id": "cardiovascular_disease",
+                "label": "Cardiovascular Disease",
+                "score": 0.00149329
+            },
+            {
+                "id": "mitophagy",
+                "label": "Mitophagy",
+                "score": 0.00149245
+            },
+            {
+                "id": "neurodegeneration",
+                "label": "Neurodegeneration",
+                "score": 0.00145763
+            },
+            {
+                "id": "caloric_restriction",
+                "label": "Caloric Restriction",
+                "score": 0.00145645
+            }
+        ],
+        "apoptosis": [
+            {
+                "id": "inflammaging",
+                "label": "Inflammaging",
+                "score": 0.0020017
+            },
+            {
+                "id": "mitophagy",
+                "label": "Mitophagy",
+                "score": 0.00179464
+            },
+            {
+                "id": "ferroptosis",
+                "label": "Ferroptosis",
+                "score": 0.00178702
+            },
+            {
+                "id": "mtorc1",
+                "label": "mTORC1",
+                "score": 0.00178461
+            },
+            {
+                "id": "ampk",
+                "label": "AMPK",
+                "score": 0.00172267
+            },
+            {
+                "id": "phosphorylation",
+                "label": "Phosphorylation",
+                "score": 0.00170463
+            },
+            {
+                "id": "mitohormesis",
+                "label": "Mitohormesis",
+                "score": 0.00164831
+            },
+            {
+                "id": "cgas_sting_pathway",
+                "label": "cGAS-STING Pathway",
+                "score": 0.00161607
+            }
+        ],
+        "sirt1": [
+            {
+                "id": "cancer",
+                "label": "Cancer",
+                "score": 0.0052169
+            },
+            {
+                "id": "mitochondria",
+                "label": "Mitochondria",
+                "score": 0.00294296
+            },
+            {
+                "id": "dna_damage",
+                "label": "DNA Damage",
+                "score": 0.00201399
+            },
+            {
+                "id": "neurodegeneration",
+                "label": "Neurodegeneration",
+                "score": 0.00185306
+            },
+            {
+                "id": "akt",
+                "label": "Akt",
+                "score": 0.00179101
+            },
+            {
+                "id": "adrenochrome",
+                "label": "Adrenochrome",
+                "score": 0.00170434
+            },
+            {
+                "id": "nrf2",
+                "label": "Nrf2",
+                "score": 0.00146615
+            },
+            {
+                "id": "ferroptosis",
+                "label": "Ferroptosis",
+                "score": 0.00138415
+            }
+        ],
+        "autophagy": [
+            {
+                "id": "inflammation",
+                "label": "Inflammation",
+                "score": 0.00338439
+            },
+            {
+                "id": "mitochondria",
+                "label": "Mitochondria",
+                "score": 0.00306689
+            },
+            {
+                "id": "sirt3",
+                "label": "SIRT3",
+                "score": 0.00226909
+            },
+            {
+                "id": "p53",
+                "label": "p53",
+                "score": 0.00186606
+            },
+            {
+                "id": "pgc_1alpha",
+                "label": "PGC-1α",
+                "score": 0.00151475
+            },
+            {
+                "id": "cgas_sting_pathway",
+                "label": "cGAS-STING Pathway",
+                "score": 0.00151398
+            },
+            {
+                "id": "sirt6",
+                "label": "SIRT6",
+                "score": 0.00148649
+            },
+            {
+                "id": "mitochondrial_dysfunction",
+                "label": "Mitochondrial Dysfunction",
+                "score": 0.00148371
+            }
+        ],
+        "senescence": [
+            {
+                "id": "alzheimer_s_disease",
+                "label": "Alzheimer's Disease",
+                "score": 0.00201064
+            },
+            {
+                "id": "sirtuins",
+                "label": "Sirtuins",
+                "score": 0.00165656
+            },
+            {
+                "id": "cell_cycle",
+                "label": "Cell Cycle",
+                "score": 0.00164173
+            },
+            {
+                "id": "mitophagy",
+                "label": "Mitophagy",
+                "score": 0.0015899
+            },
+            {
+                "id": "neurodegeneration",
+                "label": "Neurodegeneration",
+                "score": 0.00152281
+            },
+            {
+                "id": "mitohormesis",
+                "label": "Mitohormesis",
+                "score": 0.00140038
+            },
+            {
+                "id": "induced_pluripotent_stem_cells",
+                "label": "Induced Pluripotent Stem Cells",
+                "score": 0.00136397
+            },
+            {
+                "id": "mtor",
+                "label": "mTOR",
+                "score": 0.00136284
+            }
+        ],
+        "nf_kappab": [
+            {
+                "id": "aging",
+                "label": "Aging",
+                "score": 0.00337427
+            },
+            {
+                "id": "nad",
+                "label": "NAD+",
+                "score": 0.00241188
+            },
+            {
+                "id": "parkinson_s_disease",
+                "label": "Parkinson's Disease",
+                "score": 0.00238827
+            },
+            {
+                "id": "alzheimer_s_disease",
+                "label": "Alzheimer's Disease",
+                "score": 0.00211849
+            },
+            {
+                "id": "akt",
+                "label": "Akt",
+                "score": 0.00206566
+            },
+            {
+                "id": "mtorc1",
+                "label": "mTORC1",
+                "score": 0.00182577
+            },
+            {
+                "id": "glutathione",
+                "label": "Glutathione",
+                "score": 0.00179735
+            },
+            {
+                "id": "cardiovascular_disease",
+                "label": "Cardiovascular Disease",
+                "score": 0.00172795
+            }
+        ],
+        "aging": [
+            {
+                "id": "nf_kappab",
+                "label": "NF-κB",
+                "score": 0.00326387
+            },
+            {
+                "id": "mitochondria",
+                "label": "Mitochondria",
+                "score": 0.00306677
+            },
+            {
+                "id": "neurodegeneration",
+                "label": "Neurodegeneration",
+                "score": 0.00291305
+            },
+            {
+                "id": "ros",
+                "label": "ROS",
+                "score": 0.00277239
+            },
+            {
+                "id": "sirt3",
+                "label": "SIRT3",
+                "score": 0.00245385
+            },
+            {
+                "id": "tfeb",
+                "label": "TFEB",
+                "score": 0.00239576
+            },
+            {
+                "id": "p53",
+                "label": "p53",
+                "score": 0.00227271
+            },
+            {
+                "id": "mitohormesis",
+                "label": "Mitohormesis",
+                "score": 0.00188197
+            }
+        ],
+        "inflammation": [
+            {
+                "id": "sasp",
+                "label": "Senescence-Associated Secretory Phenotype",
+                "score": 0.00485557
+            },
+            {
+                "id": "autophagy",
+                "label": "Autophagy",
+                "score": 0.00354404
+            },
+            {
+                "id": "mitochondria",
+                "label": "Mitochondria",
+                "score": 0.00278496
+            },
+            {
+                "id": "parkinson_s_disease",
+                "label": "Parkinson's Disease",
+                "score": 0.00274676
+            },
+            {
+                "id": "sirt3",
+                "label": "SIRT3",
+                "score": 0.0024433
+            },
+            {
+                "id": "atherosclerosis",
+                "label": "Atherosclerosis",
+                "score": 0.00225164
+            },
+            {
+                "id": "mtorc1",
+                "label": "mTORC1",
+                "score": 0.00207605
+            },
+            {
+                "id": "neurodegeneration",
+                "label": "Neurodegeneration",
+                "score": 0.00207139
+            }
+        ]
+    }
+}

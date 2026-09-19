@@ -398,6 +398,24 @@ def git_commit() -> str:
 # Main
 # ----------------------------------------------------------------------
 
+def run_wiki_link_prediction() -> None:
+    # ponytail: subprocess so networkx stays isolated; warn-and-skip like triples rebuild
+    try:
+        subprocess.run(
+            [sys.executable, "-m", "scripts.analysis.link_prediction",
+             "--graph", str(WIKI_GRAPH),
+             "--out", str(WIKI_OUT / "wiki-link-prediction.json"),
+             "--quiet"],
+            cwd=str(ROOT),
+            check=True,
+            timeout=600,
+        )
+    except Exception as e:  # noqa: BLE001
+        print(f"wiki link prediction skipped ({e}); run manually: "
+              "uv run --with networkx python3 -m scripts predict-links "
+              "--graph wiki-out/graph.json --out wiki-out/wiki-link-prediction.json")
+
+
 def main() -> int:
     t_start = time.time()
     print("=== Building wiki graph from Obsidian wikilinks ===")
@@ -538,6 +556,9 @@ def main() -> int:
             f"Orphan links (unresolved targets): {len(orphan_counts)} "
             f"({int(sum(orphan_counts.values()))} total) -- see orphan_links.json"
         )
+
+    # --- refresh wiki link-prediction artifact (subprocess, warn-and-skip) ---
+    run_wiki_link_prediction()
 
     # --- regenerate the combined (triples + wiki) web dataset ---
     try:
