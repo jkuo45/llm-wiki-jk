@@ -79,6 +79,8 @@ const UI_STRINGS = {
     removeTag: 'Remove tag',
     tagHint: 'Remove tag',
     suggestMore: 'Suggest more analyses',
+    showMore: 'Show more',
+    showLess: 'Show less',
     // Explore / Graph analytics
     tabOverview: 'Overview',
     tabNetwork: 'A/B',
@@ -282,6 +284,8 @@ const UI_STRINGS = {
     removeTag: '移除標記',
     tagHint: '移除標記',
     suggestMore: '產生更多分析建議',
+    showMore: '顯示更多',
+    showLess: '顯示較少',
     tabOverview: '總覽',
     tabNetwork: 'A/B',
     tabSearch: '搜尋',

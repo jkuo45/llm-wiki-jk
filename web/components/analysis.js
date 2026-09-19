@@ -1547,6 +1547,9 @@ function renderAnalysisTools() {
   // ground truth, also used by the Communities section) — NOT the first node
   // inside a community, which would give a misleading node label.
   const largestCommL = LEGEND.slice().sort((a, b) => (b.count || 0) - (a.count || 0))[0] || null;
+  // Surprising-connection count is sync (graph-meta.json); the predicted count
+  // arrives async and is filled into #at-predicted-count by hydratePredictedList.
+  const surpriseCount = ((GRAPH_META && GRAPH_META.surprising_connections) || []).length;
 
   // Styled tooltip inner rows (label → value). Renders nothing when empty.
   const statRowTip = (facts) => {
@@ -1658,11 +1661,11 @@ function renderAnalysisTools() {
       <ul class="at-list" id="at-role-list"></ul>
     </section>
     <section class="at-section at-span-6">
-      <h4 class="at-h"><span>${esc(t('surprisingTitle'))}</span><span class="at-note">${esc(t('surprisingNote'))}</span></h4>
+      <h4 class="at-h"><span>${esc(t('surprisingTitle'))} (${surpriseCount})</span><span class="at-note">${esc(t('surprisingNote'))}</span></h4>
       <div id="at-surprise-list" class="at-surprise-list"></div>
     </section>
     <section class="at-section at-span-6">
-      <h4 class="at-h"><span>${esc(t('predictedTitle'))}</span></h4>
+      <h4 class="at-h"><span>${esc(t('predictedTitle'))}<span class="at-note" id="at-predicted-count"></span></span></h4>
       <p class="at-hint">${esc(t('predictedNote'))}</p>
       <div id="at-predicted-list" class="at-surprise-list"><div class="at-loading">…</div></div>
     </section>
@@ -1847,6 +1850,10 @@ function hydrateSurpriseList() {
 // ------------------------------------------------------------
 // Predicted Connections (scripts/analysis/link_prediction.py artifact)
 // ------------------------------------------------------------
+// ponytail: expanded view is longer (20), not all 150 — full list via download/analysis.
+const PREDICTED_PREVIEW_N = 6;
+const PREDICTED_EXPANDED_N = 20;
+let predictedExpanded = true; // default expanded; toggle persists across re-renders
 async function hydratePredictedList() {
   const host = document.getElementById('at-predicted-list');
   if (!host) return;
@@ -1855,13 +1862,17 @@ async function hydratePredictedList() {
   const live = document.getElementById('at-predicted-list');
   if (!live || host !== live) return;
   const cands = lp.candidates || [];
+  const countEl = document.getElementById('at-predicted-count');
+  if (countEl) countEl.textContent = cands.length ? ` (${cands.length})` : '';
   if (!cands.length) {
     live.innerHTML = `<div class="at-empty">—</div>`;
     return;
   }
-  const maxScore = cands[0].score || 1;
-  const crossLabel = esc(t('crossCommFlag'));
-  live.innerHTML = cands.slice(0, 40).map(c => `
+  const render = () => {
+    const maxScore = cands[0].score || 1;
+    const crossLabel = esc(t('crossCommFlag'));
+    const shown = predictedExpanded ? cands.slice(0, PREDICTED_EXPANDED_N) : cands.slice(0, PREDICTED_PREVIEW_N);
+    live.innerHTML = shown.map(c => `
     <div class="at-surprise-row at-pair-row" data-a="${esc(c.a)}" data-b="${esc(c.b)}">
       <div class="at-surprise-pair">
         <span class="at-name">${esc(c.label_a)} ↔ ${esc(c.label_b)}</span>
@@ -1871,17 +1882,26 @@ async function hydratePredictedList() {
         <span style="width:${Math.max(4, Math.round((c.score / maxScore) * 100))}%"></span>
       </div>
       <div class="at-surprise-why">${esc(t('predictedVia'))} [${esc((c.shared_top || []).join(', '))}] · ${c.shared_neighbors}</div>
-    </div>`).join('');
-  live.querySelectorAll('.at-pair-row').forEach(row => {
-    row.addEventListener('click', () => exploreIsolate([row.dataset.a, row.dataset.b]));
-  });
+    </div>`).join('') + (cands.length > PREDICTED_PREVIEW_N
+      ? `<button class="at-reset" id="at-predicted-more">${esc(predictedExpanded ? t('showLess') : `${t('showMore')} (${cands.length})`)}</button>`
+      : '');
+    live.querySelectorAll('.at-pair-row').forEach(row => {
+      row.addEventListener('click', () => exploreIsolate([row.dataset.a, row.dataset.b]));
+    });
+    live.querySelector('#at-predicted-more')?.addEventListener('click', () => {
+      predictedExpanded = !predictedExpanded;
+      render();
+    });
+  };
+  render();
 }
 
 // ------------------------------------------------------------
 // Role Explorer (roles-meta.json: rules + live thresholds + counts)
 // ------------------------------------------------------------
 const ROLE_CHIP_ORDER = ['Spreader', 'Sink', 'Master regulator', 'Bottleneck', 'Module member', 'Core backbone'];
-let activeRole = null;
+// ponytail: default-expanded role; per-role toggle still collapses to null.
+let activeRole = 'Spreader';
 
 function fmtThreshold(v) {
   if (typeof v !== 'number') return String(v);
