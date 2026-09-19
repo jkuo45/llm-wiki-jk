@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>天然生物活性化合物 — 亞精胺 · 非瑟酮 · 小檗鹼 · 尿石素 A（劑量估算）</title>
+<meta name="description" content="四種機制互補的生物活性化合物（亞精胺、非瑟酮、小檗鹼、尿石素 A）摘要，附依體重估算劑量與服用頻率的互動工具（公制與英制單位）。教育內容；非醫療建議。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/natural-bioactive-compounds-dosage.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/natural-bioactive-compounds-dosage.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/natural-bioactive-compounds-dosage.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/natural-bioactive-compounds-dosage.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  .wrap.page { max-width: 880px; }
+  /* ponytail: tighter hero/kicker like recent theme-01 pages; drop if theme converges */
+  .hero { padding: 28px 0 18px; }
+  .kicker { margin: 0 0 8px; }
+  .lede { font-size: 1.02rem; line-height: 1.65; }
+  .grid2 { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 14px 0; }
+  @media (min-width: 720px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+  .card { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; }
+  .card h3 { margin: 0 0 4px; font-size: 1rem; }
+  .card .tag { font-family: var(--mono); font-size: 11px; color: var(--mute); }
+  .card p, .card li { font-size: .88rem; line-height: 1.6; }
+  .card ul { margin: 6px 0 4px; padding-left: 18px; }
+  #calc, #calc-top { background: var(--sheet); border: 1px solid var(--rule); padding: 18px; margin: 18px 0; }
+  #calc-top label, #calc label { font-size: .85rem; font-weight: 600; display: block; margin: 10px 0 4px; }
+  #calc-top input[type=number], #calc input[type=number] { font-size: 1.1rem; padding: 8px 10px; width: 160px; max-width: 100%; }
+  #calc-top input[type=range], #calc input[type=range] { width: 100%; }
+  #calc-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; margin: 0 0 18px; position: sticky; top: 36px; z-index: 50; box-shadow: 0 -4px 0 0 var(--paper), 0 2px 8px rgba(0,0,0,.08); transition: top .25s ease; }
+  /* ponytail: track nav auto-hide via :has(); drop to top when nav is gone, mirror its timing */
+  body:has(.site-nav.nav-hidden) #calc-top { top: 0; }
+  @media (prefers-reduced-motion: reduce) { #calc-top { transition: none; } }
+  #calc-top label { flex: 1 1 100%; margin: 0; font-size: .8rem; }
+  #calc-top .units { margin: 0; }
+  #calc-top input[type=number] { width: 104px; padding: 6px 8px; font-size: 1rem; }
+  #calc-top input[type=range] { flex: 1 1 120px; width: auto; }
+  #wt-readout { flex: 1 1 100%; }
+  @media (max-width: 719px) {
+    #calc-top { position: static; box-shadow: none; margin: 18px 0; }
+    #calc-top .units { flex: 1 1 100%; display: flex; }
+    #calc-top .units button { flex: 1; min-width: 0; }
+  }
+  #wt-readout { min-height: 1.5em; font-variant-numeric: tabular-nums; margin: 8px 0 0; }
+  .units button { min-width: 130px; }
+  .units { display: flex; gap: 8px; margin: 8px 0; }
+  .units button { cursor: pointer; padding: 6px 14px; border: 1px solid var(--rule); background: none; font: inherit; font-size: .85rem; }
+  .units button[aria-pressed=true] { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
+  table.doses { width: 100%; border-collapse: collapse; font-size: .87rem; margin-top: 12px; }
+  table.doses th, table.doses td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
+  table.doses th { background: var(--sheet); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+  .warn { border-left: 4px solid var(--gold, #b58900); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
+  .danger { border-left: 4px solid var(--red, #c1121f); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
+  .mono { font-family: var(--mono); font-size: .82rem; }
+  .foodviz { display: flex; align-items: center; gap: 8px; margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--rule); }
+  .foodviz .flabel { font-size: .76rem; line-height: 1.5; }
+  footer.foot { margin-top: 26px; font-size: .8rem; color: var(--mute); line-height: 1.6; }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#compounds">化合物</a>
+      <a href="#estimator">劑量估算</a>
+      <a href="#combinations">合併使用</a>
+      <a href="#source">來源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">生物活性化合物 · 老化標誌 · Nutrients 2026</p>
+    <h1>四種生物活性物，四個老化標誌 — 亞精胺 · 非瑟酮 · 小檗鹼 · 尿石素 A</h1>
+    <p class="lede"><a href="https://doi.org/10.3390/nu18152511">Rzeski &amp; Rzeska, <i>Nutrients</i> 2026, 18, 2511</a> 摘要 — 一篇敘述性綜述，將四種機制不同、互不重疊的化合物定位為互補的功能性食品成分：<b>亞精胺</b>（經 EP300 促進整體自噬）、<b>非瑟酮</b>（經 PI3K/Akt + Bcl-2/Bcl-xL 清除衰老細胞）、<b>小檗鹼</b>（經 AMPK 調節代謝與腸道菌群）、<b>尿石素&nbsp;A</b>（經 PINK1/Parkin 促進選擇性粒線體自噬）。下方附依體重估算劑量與服用頻率的工具。教育內容；<b>非醫療建議</b>。</p>
+  </div>
+</header>
+
+<div class="wrap page" id="content">
+
+<div id="calc-top">
+  <label for="wt">體重 — 以下劑量依此換算</label>
+  <div class="units" role="group" aria-label="單位系統">
+    <button id="u-metric" aria-pressed="true" type="button">公制（公斤）</button>
+    <button id="u-us" aria-pressed="false" type="button">英制（磅）</button>
+  </div>
+  <input id="wt" type="number" min="30" max="200" step="0.5" value="70" inputmode="decimal" aria-label="體重（公斤）">
+  <input id="wt-slider" type="range" min="30" max="200" step="1" value="70" aria-label="體重滑桿">
+  <p class="mono" id="wt-readout">70 kg (154 lb)</p>
+</div>
+
+<h2 id="compounds">四種化合物一覽</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>亞精胺 — 自噬誘導劑</h3>
+    <div class="tag">EP300 ↓ · AMPK ↑ · SIRT1 ↑ · 非 mTOR 依賴</div>
+    <p>膳食多胺（小麥胚芽約 337&nbsp;mg/kg、大豆、菇類、豆類、熟成起司、納豆）。日常攝取約 8–12&nbsp;mg/天。抑制乙醯轉移酶 EP300，解除 ATG5/ATG7/ATG12/LC3 自噬通量的抑制；並抑制 NLRP3/NF-κB 發炎反應。</p>
+    <ul>
+      <li><b>證據：</b>酵母菌／線蟲／果蠅／小鼠壽命延長（依賴自噬）；Bruneck 世代研究（n=829，20 年追蹤）顯示攝取較高者 20 年死亡率約低 10 個百分點；SmartAge 臨床試驗（0.9–1.2&nbsp;mg/天）結果未定。</li>
+      <li><b>試驗劑量：</b><span class="mono" id="card-dose-spermidine">0.9–3.3 mg/天</span>（小麥胚芽萃取物），每日。</li>
+      <li><b>食物優先：</b>可行 — 穀物強化／發酵食品是主要策略。</li>
+      <li><b>製備提醒：</b>高溫加工會降解亞精胺 — 優先選擇低加熱來源（熟成起司、納豆、發酵食品、生小麥胚芽），烹調宜溫和，避免高溫久煮。</li>
+    </ul>
+    <div class="foodviz" id="food-spermidine" aria-live="polite"></div>
+  </div>
+  <div class="card">
+    <h3>非瑟酮 — 衰老細胞清除型類黃酮</h3>
+    <div class="tag">PI3K/Akt ↓ · Bcl-2/Bcl-xL ↓ · SASP ↓ · NRF2 ↑</div>
+    <p>黃酮醇（草莓約 160&nbsp;mg/kg、蘋果、柿子、洋蔥）。十種類黃酮篩選中最強的衰老細胞清除劑（1–10&nbsp;µM 清除 25–50% 衰老細胞）；小鼠間歇給藥可延長壽命、改善衰弱。口服生體可用率極低（快速葡萄糖醛酸化）。</p>
+    <ul>
+      <li><b>證據：</b>四者中最早期 — 臨床前＋早期人體安全性；尚無第三期試驗；STOP-Sepsis（NCT05758246）進行中。</li>
+      <li><b>試驗劑量：</b><span class="mono" id="card-dose-fisetin">100–1000 mg/天，間歇給藥</span>（吃一週／休息兩週／再吃一週的脈衝療法，非長期每日服用 — Murray 等人 2025）。</li>
+      <li><b>劑型：</b>半乳甘露聚醣複合可提高生體可用率 25 倍以上。</li>
+      <li><b>製備提醒：</b>非瑟酮集中於外層果皮 — 蘋果、小黃瓜、柿子不要削皮，草莓整顆吃，並減少加工耗損；把皮吃掉。</li>
+    </ul>
+    <div class="foodviz" id="food-fisetin" aria-live="polite"></div>
+  </div>
+  <div class="card">
+    <h3>小檗鹼 — 代謝／菌群調節劑</h3>
+    <div class="tag">AMPK ↑ · mTORC1 ↓ · NF-κB ↓ · Akkermansia／Bifidobacterium ↑</div>
+    <p>異喹啉生物鹼（小檗屬、黃連屬；一般西方飲食中未達有效濃度）。抑制粒線體複合體 I → 活化 AMPK；口服生體可用率僅 1–5%，腸腔高濃度可重塑腸道菌群，獨立於全身作用產生效益。</p>
+    <ul>
+      <li><b>證據：</b>四者中最強 — 46 項 RCT 統合分析：HbA1c −0.73%、空腹血糖 −0.86&nbsp;mmol/L、LDL-C −0.86&nbsp;mmol/L；PREMOTE 試驗將效益與菌群變化連結。</li>
+      <li><b>試驗劑量：</b><span class="mono" id="card-dose-berberine">900–1500 mg/天，分次隨餐（每日三次）</span>。</li>
+      <li><b>注意：</b>CYP3A4／CYP2D6／P-gp 抑制劑；孕期禁用；常見腸胃不適。</li>
+    </ul>
+    <div class="foodviz" id="food-berberine" aria-live="polite"></div>
+  </div>
+  <div class="card">
+    <h3>尿石素 A — 粒線體自噬後生元</h3>
+    <div class="tag">PINK1／Parkin ↑ · SIRT1／PGC-1α ↑ · NLRP3 ↓</div>
+    <p>食物中不存在 — 由結腸菌群（<i>Gordonibacter</i>、<i>Ellagibacter</i>）從石榴／莓果／堅果的鞣花單寧轉化而來。僅 A 型代謝型（約 25–55% 人口）能從飲食產生；其餘需直接補充純化製劑（如 Mitopure）才能穩定暴露。</p>
+    <ul>
+      <li><b>證據：</b>粒線體自噬臨床資料最豐富 — ATLAS 試驗：500&nbsp;mg/天提升大腿後肌力約 12%；另有耐力、VO₂、免疫重塑訊號；單次 2000&nbsp;mg／每日 1000&nbsp;mg 安全。</li>
+      <li><b>試驗劑量：</b><span class="mono" id="card-dose-urolithin">500–1000 mg/天，每日一次</span>（T<sub>max</sub> 4–6&nbsp;小時，半衰期約 20&nbsp;小時）。</li>
+    </ul>
+    <div class="foodviz" id="food-urolithin" aria-live="polite"></div>
+  </div>
+</div>
+
+<h2 id="estimator">依體重估算劑量與服用頻率</h2>
+<div id="calc">
+  <p style="font-size:.82rem">方法：以 70 公斤為基準，對已發表人體試驗劑量範圍作線性換算並箝制於該範圍內（僅供示意 — 試驗採固定劑量，目前並無驗證過的體重公式）。亞精胺在膳食劑量下與體重無關，以固定值顯示。</p>
+  <table class="doses">
+    <thead><tr><th>化合物</th><th>建議劑量</th><th>頻率</th></tr></thead>
+    <tbody id="dose-rows"></tbody>
+  </table>
+  <p class="mono" id="us-readout" style="font-size:.8rem"></p>
+</div>
+
+<h2 id="combinations">合併使用：綜述實際怎麼說</h2>
+<div class="warn"><b>綜述立場意譯（非逐字引文）：</b>「尚無完成全四種合併的試驗；合併假說有機制依據，但未經前瞻性驗證。」綜述未找到<b>四種合併給藥的同儕審查直接證據</b>。唯一登錄合併其中兩者的試驗是 <b>NCT06990256</b>（n=80，45–70 歲：尿石素&nbsp;A 500&nbsp;mg 與非瑟酮 500&nbsp;mg 單獨／合併組，含 UA&nbsp;300&nbsp;mg＋非瑟酮&nbsp;200&nbsp;mg；12 週睡眠、DNA 甲基化年齡、發炎、BMAL1、HOMA-IR 指標）。</div>
+<p style="font-size:.9rem;line-height:1.65">引用的早期正面訊號：<b>亞精胺＋尿石素&nbsp;A</b>（廣泛自噬＋選擇性粒線體自噬）與<b>亞精胺＋小檗鹼</b>（分別經去乙醯化／自噬與 AMPK–菌群軸模擬熱量限制）被認為是<b>相加而非重疊</b>；自噬–衰老閾值模型支持先後順序（閾值前亞精胺預防衰老啟動，閾值後非瑟酮清除已形成的衰老細胞）。網絡醫學的多節點調控邏輯支持此假說 — 但綜述強調藥物動力學、疾病階段與個體差異（含尿石素代謝型）可能主導結果。</p>
+<div class="danger"><b>交互作用警示：</b>小檗鹼（CYP3A4／P-gp 抑制劑）＋非瑟酮（CYP3A4 受質兼部分抑制劑）可能相互墊高血中濃度。綜述建議的過渡作法：分時服用（小檗鹼早上／非瑟酮晚上）；避免與治療窗窄的 CYP3A4 受質併用。小檗鹼孕期禁用。合併藥動學研究是明確的未滿足缺口 — 未經醫師監督請勿合併使用。</div>
+
+<h2 id="source">來源與引用</h2>
+<p style="font-size:.88rem;line-height:1.65">Rzeski W., Rzeska W. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. <i>Nutrients</i> 2026, 18, 2511. <a href="https://doi.org/10.3390/nu18152511">https://doi.org/10.3390/nu18152511</a>（CC&nbsp;BY）。知識庫：<a href="https://graph.johnnykuo.com/#node=Spermidine">Spermidine</a> · <a href="https://graph.johnnykuo.com/#node=Fisetin">Fisetin</a> · <a href="https://graph.johnnykuo.com/#node=Berberine">Berberine</a> · <a href="https://graph.johnnykuo.com/#node=Urolithin%20A">Urolithin&nbsp;A</a>。</p>
+
+<footer class="foot">估算值為已發表試驗範圍的示意性換算，非處方建議。證據成熟度差異大（小檗鹼：46 項 RCT 統合分析；尿石素 A：小型 RCT；亞精胺：流行病學＋小型 RCT；非瑟酮：臨床前＋早期試驗）。請諮詢醫師，特別是小檗鹼（藥物交互作用、孕期）與任何多重复方使用。教育內容；非醫療建議。</footer>
+</div>
+
+<script>
+// ponytail: linear weight scaling clamped to published trial ranges; upgrade to PK model only if validated data exists.
+(function () {
+  var REF = 70; // kg reference
+  var wt = document.getElementById('wt'),
+      slider = document.getElementById('wt-slider'),
+      readout = document.getElementById('wt-readout'),
+      rows = document.getElementById('dose-rows'),
+      usReadout = document.getElementById('us-readout'),
+      bM = document.getElementById('u-metric'),
+      bU = document.getElementById('u-us'),
+      metric = true;
+  var KG2LB = 2.20462, MG2OZ = 1 / 28349.5;
+  var stateKg = REF; // ponytail: canonical kg; toggles convert from here so values can't drift
+  function clamp(x, lo, hi) { return Math.min(hi, Math.max(lo, x)); }
+  function kg() { var v = parseFloat(metric ? wt.value : parseFloat(wt.value) / KG2LB); return isFinite(v) ? clamp(v, 30, 200) : REF; }
+  function fmt(n) { return n >= 100 ? Math.round(n).toString() : (Math.round(n * 10) / 10).toString(); }
+  function mgOz(mg) { return fmt(mg) + ' mg (' + (mg/1000).toFixed(mg < 100 ? 3 : 1) + ' g) ≈ ' + (mg * MG2OZ).toFixed(3) + ' oz'; }
+  function range2(lo, hi) { return mgOz(lo) + '<br>– ' + mgOz(hi); }
+  function range1(lo, hi) { return mgOz(lo) + ' – ' + mgOz(hi); }
+  function set(id, html) { var el = document.getElementById(id); if (el) el.innerHTML = html; }
+  // ponytail: flat hand-drawn food icons; upgrade to a proper icon set only if the pile grows
+  function iconWheat() { return '<svg viewBox="0 0 24 44" width="18" height="33" role="img" aria-label="小麥"><line x1="12" y1="42" x2="12" y2="8" stroke="#b58900" stroke-width="2"/><g fill="#e9c46a" stroke="#b58900" stroke-width="1"><ellipse cx="12" cy="9" rx="4" ry="5"/><ellipse cx="7" cy="17" rx="3.4" ry="4.6" transform="rotate(-25 7 17)"/><ellipse cx="17" cy="17" rx="3.4" ry="4.6" transform="rotate(25 17 17)"/><ellipse cx="7" cy="26" rx="3.4" ry="4.6" transform="rotate(-25 7 26)"/><ellipse cx="17" cy="26" rx="3.4" ry="4.6" transform="rotate(25 17 26)"/><ellipse cx="12" cy="34" rx="4" ry="5"/></g></svg>'; }
+  function iconStraw() { return '<svg viewBox="0 0 36 40" width="24" height="27" role="img" aria-label="草莓"><path d="M10 7L6 3M18 8V2M26 7l4-4" stroke="#2a7a3f" stroke-width="2.5" stroke-linecap="round"/><path d="M18 38C10 32 4 24 4 15c0-3 2-5 5-5 3 0 5 1 9 1s6-1 9-1c3 0 5 2 5 5 0 9-6 17-14 23z" fill="#c1121f"/><path d="M8 10c4 3 16 3 20 0l-2 4c-5 2-11 2-16 0z" fill="#2a7a3f"/><g fill="#ffd9a0"><circle cx="13" cy="18" r="1"/><circle cx="18" cy="16" r="1"/><circle cx="23" cy="18" r="1"/><circle cx="15" cy="23" r="1"/><circle cx="21" cy="23" r="1"/><circle cx="18" cy="28" r="1"/></g></svg>'; }
+  function iconPom() { return '<svg viewBox="0 0 40 40" width="28" height="28" role="img" aria-label="石榴"><circle cx="20" cy="23" r="14" fill="#a4133c"/><path d="M14 10l2 5 4-4 4 4 2-5 3 2-2 6H13z" fill="#7f1d2e"/><g fill="#e5383b"><circle cx="15" cy="22" r="2.2"/><circle cx="21" cy="25" r="2.2"/><circle cx="25" cy="20" r="2.2"/></g><circle cx="18" cy="19" r="2.2" fill="#ff5d73"/></svg>'; }
+  function iconCap() { return '<svg viewBox="0 0 44 22" width="36" height="18" role="img" aria-label="膠囊"><rect x="2" y="3" width="40" height="16" rx="8" fill="#e9c46a"/><path d="M22 3h12a8 8 0 010 16H22z" fill="#2a9d8f"/><rect x="2" y="3" width="40" height="16" rx="8" fill="none" stroke="#7a6a3f" stroke-width="1.5"/></svg>'; }
+  function render() {
+    var k = kg(), s = k / REF, lb = k * KG2LB;
+    stateKg = k;
+    if (metric) { readout.textContent = fmt(k) + ' kg (' + Math.round(lb) + ' lb)'; }
+    else { readout.textContent = Math.round(lb) + ' lb (' + fmt(k) + ' kg)'; }
+    // [name, amountHTML(metric + US), intervalHTML, note]
+    var bLo = clamp(900*s,500,2000), bHi = clamp(1500*s,500,2000),
+        uLo = clamp(500*s,250,1000), uHi = clamp(1000*s,250,1000),
+        fLo = clamp(500*s,100,1000), fHi = clamp(1000*s,100,1000);
+    var d = [
+      ['亞精胺', range2(0.9, 3.3) + '／天', '每日一次，隨餐', '固定值 — 膳食劑量下與體重無關；地中海飲食約 8–12 mg／天來自食物。'],
+      ['小檗鹼', range2(bLo, bHi) + '／天<br><span class="mono">每次劑量（÷3）：' + mgOz(bLo/3) + ' – ' + mgOz(bHi/3) + '</span>', '每日三次，隨餐分服', '證據最強；常見腸胃不適；CYP／P-gp 交互作用。'],
+      ['尿石素 A', range2(uLo, uHi) + '／天', '每日一次', '除非確認為 A 型代謝型，否則直接補充才能穩定暴露。'],
+      ['非瑟酮', range2(fLo, fHi) + '／天<br><span class="mono">一週脈衝總量：' + mgOz(fLo*7) + ' – ' + mgOz(fHi*7) + '</span>', '一週服用／兩週休息／一週服用', '間歇清除衰老細胞模式（Murray 2025）；未經改良劑型生體可用率低。']
+    ];
+    rows.innerHTML = d.map(function (r) {
+      return '<tr><td><b>' + r[0] + '</b></td><td>公制／英制：<br>' + r[1] + '<br><span class="mono" style="color:var(--mute)">' + r[3] + '</span></td><td>' + r[2] + '</td></tr>';
+    }).join('');
+    usReadout.textContent = '劑量以公制（毫克／克）＋英制（盎司）顯示，對應體重 ' + (metric ? fmt(k) + ' kg (' + Math.round(lb) + ' lb)' : Math.round(lb) + ' lb (' + fmt(k) + ' kg)') + '。';
+    set('card-dose-spermidine', range1(0.9, 3.3) + '／天');
+    set('card-dose-berberine', range1(bLo, bHi) + '／天');
+    set('card-dose-urolithin', range1(uLo, uHi) + '／天');
+    set('card-dose-fisetin', range1(fLo, fHi) + '／天（脈衝期間）');
+    // food equivalents from paper source values: wheat germ 337 mg/kg, strawberries 160 mg/kg (~12 g/berry), 1 tbsp wheat germ ≈ 7 g
+    var spLo = 0.9/337*1000, spHi = 3.3/337*1000,
+        gLo = fLo/160*1000, gHi = fHi/160*1000;
+    set('food-spermidine', iconWheat() + '<span class="flabel mono">≈ ' + spLo.toFixed(1) + '–' + spHi.toFixed(1) + ' 克小麥胚芽（約 ' + (spLo/7).toFixed(1) + '–' + (spHi/7).toFixed(1) + ' 湯匙） — 食物優先可行</span>');
+    set('food-fisetin', iconStraw() + '<span class="flabel mono">≈ ' + (gLo/1000).toFixed(1) + '–' + (gHi/1000).toFixed(1) + ' 公斤草莓（約 ' + Math.round(gLo/12) + '–' + Math.round(gHi/12) + ' 顆） — 單靠飲食不切實際</span>');
+    set('food-berberine', iconCap() + '<span class="flabel mono">一般食物無可靠來源 — 需補充劑</span>');
+    set('food-urolithin', iconPom() + '<span class="flabel mono">約每日半顆至一顆石榴當量，僅 A 型代謝型 — 其餘需直接補充</span>');
+  }
+  function setMetric(m) {
+    metric = m;
+    var k = stateKg;
+    // ponytail: keep single source of truth in the visible box; convert on toggle
+    if (m) { wt.value = Math.round(k*10)/10; wt.min=30; wt.max=200; wt.step=0.5; slider.min=30; slider.max=200; slider.step=1; slider.value=Math.round(k); }
+    else { wt.value = Math.round(k*KG2LB); wt.min=66; wt.max=440; wt.step=1; slider.min=66; slider.max=440; slider.step=1; slider.value=Math.round(k*KG2LB); }
+    bM.setAttribute('aria-pressed', m); bU.setAttribute('aria-pressed', !m);
+    render();
+  }
+  wt.addEventListener('input', function () { var v = parseFloat(wt.value); if (isFinite(v)) slider.value = v; render(); });
+  slider.addEventListener('input', function () { wt.value = slider.value; render(); });
+  bM.addEventListener('click', function () { setMetric(true); });
+  bU.addEventListener('click', function () { setMetric(false); });
+  render();
+})();
+</script>
+</body>
+</html>

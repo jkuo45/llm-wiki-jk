@@ -678,12 +678,13 @@ def main():
     # alert types), and every continuation line must carry the leading `>`.
     # Obsidian renders this same block as a titled callout.
     graph_datasets_content = (
-        "\n".join(datasets_table)
-        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
-        + "\n\n> [!NOTE]\n>\n> **Combined Merge**\n>\n"
+        "> [!NOTE]\n>\n> **Combined Merge**\n>\n"
         + "> The combined dataset is the union of the triples and wiki graphs, "
         + "deduplicated by canonical id (`norm(label)`). "
         + overlap_body
+        + "\n\n"
+        + "\n".join(datasets_table)
+        + f"\n\nBuild: {build_str} · hash `{build_hash or '---'}`"
     )
 
     # Build marker-delimited sections. Section headings live outside the

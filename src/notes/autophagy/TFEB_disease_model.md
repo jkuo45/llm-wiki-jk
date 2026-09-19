@@ -9,6 +9,9 @@ tags:
 aliases: []
 protected: true
 ---
+
+TFEB-targeted disease models: [[TFEB]] activation (via [[mTORC1]] inhibition, nuclear translocation, or gene therapy) rescues [[Lysosome]]/[[Autophagy]] function across lysosomal storage, neurodegenerative, and metabolic disease models. Summary table below.
+
 | Targeting regulatory mechanisms of TFEB    | Disease                            | Characteristics of disease                                                                                                           | The disease models                                                                            | Methods of targeting TFEB                                                                                       | The improved phenotype                                                                                     | References (PMID) |
 | ------------------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |
 | **Gene therapy**                           | Pompe disease                      | An LSD and severe metabolic myopathy caused by the deficiency of acid alpha-glucosidase (GAA)                                        | GAA knockdown mice                                                                            | Intramuscular injection of AAV-TFEB                                                                             | Increasing clearance of glycogen stores and amelioration of muscle pathology                               | 23606558          |
@@ -26,3 +29,9 @@ protected: true
 | **PTM: Akt-mediated phosphorylation**      | Acute kidney injury (AKI)          | Sudden renal function decline                                                                                                        | Cisplatin-induced AKI mice                                                                    | Administration of trehalose.                                                                                    | The decreased levels of BUN and serum creatinine, and decreased pathological damage                        | 32483422          |
 | **PTM: p38 MAPK-mediated phosphorylation** | Parkinson’s disease                | A neurodegenerative disease, characterized by loss of dopaminergic neurons in the substantia nigra and accumulation of α-synuclein   | α-synuclein A53T-tg mice model of Parkinson’s disease                                         | Treatment with p38 MAPK inhibitor SB203580                                                                      | Reduction of synapsin-1 (a presynaptic protein)                                                            | 34930303          |
 | **PTM: SIRT1-mediated deacetylation**      | Alzheimer’s disease                | A neurodegenerative disease, presenting with deposition of β-amyloid (Aβ) in the brain                                               | Incubated fAβ in primary microglia                                                            | Treatment with resveratrol, an agonist of SIRT1                                                                 | Degradation of fAβ                                                                                         | 27209302          |
+
+## Connections
+- [[TFEB]] — transcription factor targeted in these disease models
+- [[Autophagy]] — pathway rescued by TFEB activation
+- [[Lysosome]] — organelle restored by TFEB-driven biogenesis
+- [[mTORC1]] — kinase inhibiting TFEB; its inhibition activates TFEB

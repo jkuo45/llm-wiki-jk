@@ -40,7 +40,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import networkx as nx
-from graphify.analyze import god_nodes, suggest_questions, surprising_connections
+from graphify.analyze import god_nodes, suggest_questions
 from graphify.cluster import cluster, score_all
 from graphify.export import to_json
 from graphify.report import generate
@@ -57,6 +57,7 @@ from scripts.lib.graph_common import (  # noqa: E402
     inject_graph_metadata,
     norm,
     parse_wikilink_target,
+    surprising_connections_capped,
     write_web_version,
 )
 
@@ -398,6 +399,24 @@ def git_commit() -> str:
 # Main
 # ----------------------------------------------------------------------
 
+def run_wiki_link_prediction() -> None:
+    # ponytail: subprocess so networkx stays isolated; warn-and-skip like triples rebuild
+    try:
+        subprocess.run(
+            [sys.executable, "-m", "scripts.analysis.link_prediction",
+             "--graph", str(WIKI_GRAPH),
+             "--out", str(WIKI_OUT / "wiki-link-prediction.json"),
+             "--quiet"],
+            cwd=str(ROOT),
+            check=True,
+            timeout=600,
+        )
+    except Exception as e:  # noqa: BLE001
+        print(f"wiki link prediction skipped ({e}); run manually: "
+              "uv run --with networkx python3 -m scripts predict-links "
+              "--graph wiki-out/graph.json --out wiki-out/wiki-link-prediction.json")
+
+
 def main() -> int:
     t_start = time.time()
     print("=== Building wiki graph from Obsidian wikilinks ===")
@@ -417,7 +436,7 @@ def main() -> int:
     new_labels = assign_labels(G, communities, old_labels, old_comm)
     cohesion = score_all(G, communities)
     gods = god_nodes(G)
-    surprises = surprising_connections(G, communities)
+    surprises = surprising_connections_capped(G, communities)
     questions = suggest_questions(G, communities, new_labels)
 
     graph_meta = enrich_graph_metrics(
@@ -538,6 +557,9 @@ def main() -> int:
             f"Orphan links (unresolved targets): {len(orphan_counts)} "
             f"({int(sum(orphan_counts.values()))} total) -- see orphan_links.json"
         )
+
+    # --- refresh wiki link-prediction artifact (subprocess, warn-and-skip) ---
+    run_wiki_link_prediction()
 
     # --- regenerate the combined (triples + wiki) web dataset ---
     try:

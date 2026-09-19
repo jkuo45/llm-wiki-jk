@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-07T03:23:16Z",
-  "node_count": 3079,
-  "edge_count": 36492,
+  "generated_at": "2026-09-19T05:12:20Z",
+  "node_count": 3185,
+  "edge_count": 37999,
   "reference_links": {
     "document_notes": {
-      "total_targets": 135,
-      "total_links": 4119
+      "total_targets": 141,
+      "total_links": 4293
     },
     "task_outputs": {
       "total_targets": 24,
       "total_links": 146
     }
   },
-  "total_orphan_targets": 4740,
-  "total_orphan_links": 11684,
+  "total_orphan_targets": 4678,
+  "total_orphan_links": 10895,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",
@@ -21,49 +21,9 @@
       "link_count": 51
     },
     {
-      "norm_id": "dna_polymerase",
-      "raw": "dna_polymerase",
-      "link_count": 27
-    },
-    {
       "norm_id": "document_mrr_mitohormesis",
       "raw": "document_mrr_mitohormesis",
       "link_count": 23
-    },
-    {
-      "norm_id": "protein_synthesis",
-      "raw": "protein_synthesis",
-      "link_count": 21
-    },
-    {
-      "norm_id": "actin",
-      "raw": "actin",
-      "link_count": 20
-    },
-    {
-      "norm_id": "immunotherapy",
-      "raw": "immunotherapy",
-      "link_count": 20
-    },
-    {
-      "norm_id": "cystatin_c",
-      "raw": "cystatin_c",
-      "link_count": 20
-    },
-    {
-      "norm_id": "cytoskeleton",
-      "raw": "cytoskeleton",
-      "link_count": 20
-    },
-    {
-      "norm_id": "p22phox",
-      "raw": "p22phox",
-      "link_count": 20
-    },
-    {
-      "norm_id": "cyclin_e",
-      "raw": "cyclin_e",
-      "link_count": 19
     },
     {
       "norm_id": "document_drosha_dependent_aim2_inflammasome_activation_contributes_to_lung_inflammation_during_idiopathic_pulmonary_fibrosis",
@@ -71,183 +31,8 @@
       "link_count": 18
     },
     {
-      "norm_id": "down_syndrome",
-      "raw": "down_syndrome",
-      "link_count": 18
-    },
-    {
-      "norm_id": "inflammatory_bowel_disease",
-      "raw": "inflammatory_bowel_disease",
-      "link_count": 18
-    },
-    {
-      "norm_id": "arginine_glycine_amidinotransferase",
-      "raw": "arginine_glycine_amidinotransferase",
-      "link_count": 17
-    },
-    {
-      "norm_id": "regulatory_t_cell",
-      "raw": "regulatory_t_cell",
-      "link_count": 16
-    },
-    {
-      "norm_id": "heart",
-      "raw": "heart",
-      "link_count": 16
-    },
-    {
-      "norm_id": "ige",
-      "raw": "ige",
-      "link_count": 16
-    },
-    {
-      "norm_id": "pex2",
-      "raw": "pex2",
-      "link_count": 16
-    },
-    {
-      "norm_id": "pex10",
-      "raw": "pex10",
-      "link_count": 16
-    },
-    {
-      "norm_id": "pex12",
-      "raw": "pex12",
-      "link_count": 16
-    },
-    {
-      "norm_id": "securin",
-      "raw": "securin",
-      "link_count": 16
-    },
-    {
-      "norm_id": "olaparib",
-      "raw": "olaparib",
-      "link_count": 15
-    },
-    {
-      "norm_id": "adm",
-      "raw": "adm",
-      "link_count": 15
-    },
-    {
-      "norm_id": "bcr_abl",
-      "raw": "bcr_abl",
-      "link_count": 15
-    },
-    {
-      "norm_id": "zellweger_spectrum_disorders",
-      "raw": "zellweger_spectrum_disorders",
-      "link_count": 15
-    },
-    {
-      "norm_id": "rigidity",
-      "raw": "rigidity",
-      "link_count": 15
-    },
-    {
-      "norm_id": "genomic_imprinting",
-      "raw": "genomic_imprinting",
-      "link_count": 15
-    },
-    {
-      "norm_id": "cantos_trial",
-      "raw": "cantos_trial",
-      "link_count": 14
-    },
-    {
-      "norm_id": "t_bet",
-      "raw": "t_bet",
-      "link_count": 14
-    },
-    {
-      "norm_id": "lens_crystallins",
-      "raw": "lens_crystallins",
-      "link_count": 14
-    },
-    {
-      "norm_id": "stat",
-      "raw": "stat",
-      "link_count": 14
-    },
-    {
-      "norm_id": "apc",
-      "raw": "apc",
-      "link_count": 14
-    },
-    {
-      "norm_id": "swi_snf",
-      "raw": "swi_snf",
-      "link_count": 14
-    },
-    {
-      "norm_id": "age_1",
-      "raw": "age_1",
-      "link_count": 14
-    },
-    {
-      "norm_id": "brg1",
-      "raw": "brg1",
-      "link_count": 14
-    },
-    {
-      "norm_id": "palb2",
-      "raw": "palb2",
-      "link_count": 13
-    },
-    {
-      "norm_id": "ire1",
-      "raw": "ire1",
-      "link_count": 13
-    },
-    {
-      "norm_id": "fgf",
-      "raw": "fgf",
-      "link_count": 13
-    },
-    {
-      "norm_id": "inflammatory_diseases",
-      "raw": "inflammatory_diseases",
-      "link_count": 13
-    },
-    {
-      "norm_id": "cd4",
-      "raw": "cd4",
-      "link_count": 13
-    },
-    {
-      "norm_id": "amiodarone",
-      "raw": "amiodarone",
-      "link_count": 13
-    },
-    {
-      "norm_id": "wnt_beta_catenin",
-      "raw": "wnt_beta_catenin",
-      "link_count": 13
-    },
-    {
-      "norm_id": "cell_migration",
-      "raw": "cell_migration",
-      "link_count": 13
-    },
-    {
-      "norm_id": "p47phox",
-      "raw": "p47phox",
-      "link_count": 13
-    },
-    {
-      "norm_id": "myosin",
-      "raw": "myosin",
-      "link_count": 12
-    },
-    {
       "norm_id": "document_shingles_vaccine_may_slow_biological_aging_and_reduce_inflammation",
       "raw": "document_shingles_vaccine_may_slow_biological_aging_and_reduce_inflammation",
-      "link_count": 12
-    },
-    {
-      "norm_id": "ctla_4",
-      "raw": "ctla_4",
       "link_count": 12
     },
     {
@@ -256,14 +41,229 @@
       "link_count": 12
     },
     {
-      "norm_id": "chromosome",
-      "raw": "chromosome",
+      "norm_id": "elastic_fibers",
+      "raw": "elastic_fibers",
       "link_count": 12
     },
     {
-      "norm_id": "muscle",
-      "raw": "muscle",
+      "norm_id": "endometrial_cancer",
+      "raw": "endometrial_cancer",
       "link_count": 12
+    },
+    {
+      "norm_id": "epigenetic",
+      "raw": "epigenetic",
+      "link_count": 11
+    },
+    {
+      "norm_id": "document_methylene_blue_and_aminoguanidine",
+      "raw": "document_methylene_blue_and_aminoguanidine",
+      "link_count": 11
+    },
+    {
+      "norm_id": "motor_neurons",
+      "raw": "motor_neurons",
+      "link_count": 11
+    },
+    {
+      "norm_id": "nsaids",
+      "raw": "nsaids",
+      "link_count": 11
+    },
+    {
+      "norm_id": "document_the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis",
+      "raw": "document_the_human_digeorge_syndrome_critical_region_gene_8_and_its_d_melanogaster_homolog_are_required_for_mirna_biogenesis",
+      "link_count": 11
+    },
+    {
+      "norm_id": "atg3",
+      "raw": "atg3",
+      "link_count": 11
+    },
+    {
+      "norm_id": "deoxycytidine_kinase",
+      "raw": "deoxycytidine_kinase",
+      "link_count": 11
+    },
+    {
+      "norm_id": "cetuximab",
+      "raw": "cetuximab",
+      "link_count": 11
+    },
+    {
+      "norm_id": "gata3",
+      "raw": "gata3",
+      "link_count": 11
+    },
+    {
+      "norm_id": "nnos",
+      "raw": "nnos",
+      "link_count": 11
+    },
+    {
+      "norm_id": "methotrexate",
+      "raw": "methotrexate",
+      "link_count": 11
+    },
+    {
+      "norm_id": "carboxyethyllysine",
+      "raw": "carboxyethyllysine",
+      "link_count": 11
+    },
+    {
+      "norm_id": "bee_venom",
+      "raw": "bee_venom",
+      "link_count": 11
+    },
+    {
+      "norm_id": "nematode",
+      "raw": "nematode",
+      "link_count": 11
+    },
+    {
+      "norm_id": "reverse_transcriptase",
+      "raw": "reverse_transcriptase",
+      "link_count": 11
+    },
+    {
+      "norm_id": "cytarabine",
+      "raw": "cytarabine",
+      "link_count": 11
+    },
+    {
+      "norm_id": "p67phox",
+      "raw": "p67phox",
+      "link_count": 11
+    },
+    {
+      "norm_id": "p40phox",
+      "raw": "p40phox",
+      "link_count": 11
+    },
+    {
+      "norm_id": "angiotensin_ii_type_1_receptor",
+      "raw": "angiotensin_ii_type_1_receptor",
+      "link_count": 11
+    },
+    {
+      "norm_id": "anticoagulant",
+      "raw": "anticoagulant",
+      "link_count": 11
+    },
+    {
+      "norm_id": "long_term_potentiation",
+      "raw": "long_term_potentiation",
+      "link_count": 10
+    },
+    {
+      "norm_id": "bip",
+      "raw": "bip",
+      "link_count": 10
+    },
+    {
+      "norm_id": "enzyme",
+      "raw": "enzyme",
+      "link_count": 10
+    },
+    {
+      "norm_id": "il_1racp",
+      "raw": "il_1racp",
+      "link_count": 10
+    },
+    {
+      "norm_id": "document_ciaps_block_ripoptosome_formation_differentially_regulated_by_cflip_isoforms",
+      "raw": "document_ciaps_block_ripoptosome_formation_differentially_regulated_by_cflip_isoforms",
+      "link_count": 10
+    },
+    {
+      "norm_id": "biomarkers_of_aging",
+      "raw": "biomarkers_of_aging",
+      "link_count": 10
+    },
+    {
+      "norm_id": "antibody",
+      "raw": "antibody",
+      "link_count": 10
+    },
+    {
+      "norm_id": "cytokinesis",
+      "raw": "cytokinesis",
+      "link_count": 10
+    },
+    {
+      "norm_id": "vinca_alkaloids",
+      "raw": "vinca_alkaloids",
+      "link_count": 10
+    },
+    {
+      "norm_id": "adenosine_triphosphate_atp",
+      "raw": "adenosine_triphosphate_atp",
+      "link_count": 10
+    },
+    {
+      "norm_id": "autism",
+      "raw": "autism",
+      "link_count": 10
+    },
+    {
+      "norm_id": "il8",
+      "raw": "il8",
+      "link_count": 10
+    },
+    {
+      "norm_id": "document_dgcr8_is_essential_for_microrna_biogenesis_and_silencing_of_embryonic_stem_cell_self_renewal",
+      "raw": "document_dgcr8_is_essential_for_microrna_biogenesis_and_silencing_of_embryonic_stem_cell_self_renewal",
+      "link_count": 10
+    },
+    {
+      "norm_id": "ctcf",
+      "raw": "ctcf",
+      "link_count": 10
+    },
+    {
+      "norm_id": "ornithine",
+      "raw": "ornithine",
+      "link_count": 10
+    },
+    {
+      "norm_id": "lamp2",
+      "raw": "lamp2",
+      "link_count": 10
+    },
+    {
+      "norm_id": "26s_proteasome",
+      "raw": "26s_proteasome",
+      "link_count": 10
+    },
+    {
+      "norm_id": "lsd",
+      "raw": "lsd",
+      "link_count": 10
+    },
+    {
+      "norm_id": "atrial_fibrillation",
+      "raw": "atrial_fibrillation",
+      "link_count": 10
+    },
+    {
+      "norm_id": "calcium_channel_blockers",
+      "raw": "calcium_channel_blockers",
+      "link_count": 10
+    },
+    {
+      "norm_id": "mad2",
+      "raw": "mad2",
+      "link_count": 10
+    },
+    {
+      "norm_id": "wolbachia",
+      "raw": "wolbachia",
+      "link_count": 10
+    },
+    {
+      "norm_id": "mhc_class_i",
+      "raw": "mhc_class_i",
+      "link_count": 10
     }
   ]
 }

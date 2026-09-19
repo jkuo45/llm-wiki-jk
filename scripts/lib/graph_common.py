@@ -212,6 +212,24 @@ def enrich_graph_metrics(
     return graph_meta
 
 
+# ----------------------------------------------------------------------
+# Surprising connections — ambiguous-first with rank top-up
+# ----------------------------------------------------------------------
+
+def surprising_connections_capped(G, communities, minimum=15):
+    """Rank via graphify, keep every AMBIGUOUS edge, top up by rank to at
+    least `minimum`. No fixed cap: the list grows with genuinely uncertain
+    edges instead of a hardcoded top_n."""
+    from graphify.analyze import surprising_connections as _rank
+    ranked = _rank(G, communities, top_n=G.number_of_edges() + 1)
+    ambiguous = [s for s in ranked if s.get("confidence") == "AMBIGUOUS"]
+    rest = [s for s in ranked if s.get("confidence") != "AMBIGUOUS"]
+    picked = ambiguous + rest[: max(0, minimum - len(ambiguous))]
+    for s in picked:
+        s.setdefault("why", s.get("note", ""))
+    return picked
+
+
 def inject_graph_metadata(path: Path, metadata: dict) -> None:
     """Post-process a graph.json-style file to add graph-level metadata.
 

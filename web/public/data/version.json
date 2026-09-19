@@ -1,24 +1,28 @@
 {
-  "generated": "2026-09-07 09:00:53",
-  "hash": "dda9f6d716ce1020",
+  "generated": "2026-09-18 22:28:53",
+  "hash": "249b929d5ee50a9f",
   "datasets": {
     "triples": {
-      "nodes": 3427,
-      "edges": 6412
+      "nodes": 3493,
+      "edges": 6605
     },
     "wiki": {
-      "nodes": 3079,
-      "edges": 36492
+      "nodes": 3185,
+      "edges": 37999
     },
     "combined": {
-      "nodes": 4436,
-      "edges": 39386
+      "nodes": 4539,
+      "edges": 40940
     }
   },
   "files": [
     "articles.json",
+    "celltype-sex-zh.json",
+    "celltype-sex.json",
     "edges.json",
     "graph-meta.json",
+    "hormetic-domains.json",
+    "hormetic-domains.zh-TW.json",
     "i18n-coverage.json",
     "legend.json",
     "link-prediction.json",

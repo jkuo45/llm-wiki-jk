@@ -2,7 +2,7 @@
 title: Pediculosis
 description: Pediculosis is an infestation of the hairy parts of the body or clothing with eggs, larvae, or adults of lice.
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-09-19
 tags:
   - medical-condition
 aliases: []
@@ -26,11 +26,11 @@ The hallmark symptom of pediculosis is intense pruritus (itching) driven by a hy
 
 ## Treatment
 
-**Head lice**: First-line therapy is 1% permethrin cream rinse applied to damp hair and left for 10 minutes. Alternative agents include spinosad (Natroba), topical ivermectin lotion 0.5% (Sklice), and malathion lotion 0.5%. Manual nit removal with a fine-toothed comb is recommended to remove residual nits. Resistance to permethrin is increasingly reported, necessitating rotation of agents.
+**Head lice**: First-line therapy is 1% permethrin cream rinse applied to damp hair and left for 10 minutes. Alternative agents include spinosad (Natroba), topical [[Ivermectin]] lotion 0.5% (Sklice), and malathion lotion 0.5%. Manual nit removal with a fine-toothed comb is recommended to remove residual nits. Resistance to permethrin is increasingly reported, necessitating rotation of agents.
 
 **Body lice**: Treatment focuses on improving hygiene and laundering clothing and bedding in hot water. In institutional or outbreak settings, 5% permethrin powder can be applied to clothing. Antibiotic therapy is required if secondary infection or louse-borne disease is present (e.g., doxycycline for typhus or trench fever).
 
-**Pubic lice**: Treated with 1% permethrin cream rinse or oral ivermectin 200 µg/kg repeated in 7–10 days. Sexual partners and close household contacts should be treated simultaneously. Clothing and bedding should be washed in hot water.
+**Pubic lice**: Treated with 1% permethrin cream rinse or oral [[Ivermectin]] 200 µg/kg repeated in 7–10 days. Sexual partners and close household contacts should be treated simultaneously. Clothing and bedding should be washed in hot water. Excoriations and secondary infection reflect local [[Inflammation]].
 
 ## Documents
 

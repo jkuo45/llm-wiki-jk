@@ -2,7 +2,7 @@
 title: Bardoxolone methyl
 description: 'Chemical properties: Bardoxolone methyl is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-19
 tags:
   - chemical-compound
 aliases: [CDDO-Me, RTA 402]
@@ -13,7 +13,7 @@ aliases: [CDDO-Me, RTA 402]
 
 **Chemical properties:** Bardoxolone methyl is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.
 
-**Biological activity:** Bardoxolone methyl interacts with cellular targets including enzymes, receptors, and ion channels. Its pharmacological effects depend on concentration, route of exposure, and metabolic fate.
+**Biological activity:** Bardoxolone methyl (CDDO-Me) is a synthetic triterpenoid [[Nrf2]] activator; it induces antioxidant genes via the Antioxidant Response Element to counter [[Oxidative Stress]] and [[Inflammation]], investigated in chronic kidney disease.
 
 **Research and therapeutic applications:** Bardoxolone methyl is used in biomedical research as a tool compound to probe biological mechanisms. It has clinical applications in disease treatment and prevention.
 
@@ -22,9 +22,11 @@ aliases: [CDDO-Me, RTA 402]
 #
 
 ## Connections
-- [[Bardoxolone methyl]] — related entity
+- [[Nrf2]] — pathway activated by bardoxolone methyl
+- [[Oxidative Stress]] — process it counteracts via ARE genes
+- [[Inflammation]] — process it suppresses
 
 ## Linking Summary
-- New links added: [[Bardoxolone methyl]]
-  - Strong connections to strengthen: Bardoxolone methyl ↔ Bardoxolone methyl
+- New links added: [[Nrf2]], [[Oxidative Stress]], [[Inflammation]]
+  - Strong connections to strengthen: Bardoxolone methyl ↔ [[Nrf2]]
 
