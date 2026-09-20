@@ -1,5 +1,5 @@
 {
-  "generated": "18_SEP_2026 04:10 PM PDT",
+  "generated": "19_SEP_2026 09:05 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,39 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Why the SASP Exerts Pleiotropic and Opposing Effects — Vault Synthesis plus Latest Literature",
+          "description": "Task output tracing the Birch and Gil 2020 pleiotropy question through vault notes and 2024-2026 literature — heterogeneity axes, bidirectional signaling, and what remains undeciphered.",
+          "created": "2026-09-20",
+          "updated": "2026-09-20",
+          "tags": [
+            "senescence",
+            "sasp",
+            "pleiotropy",
+            "literature-review"
+          ],
+          "filename": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "為何 SASP 產生多效且相反的效應 — 知識庫綜合與最新文獻",
+          "description": "任務輸出：沿 Birch and Gil 2020 的多效性問題，貫穿知識庫筆記與 2024–2026 年文獻——異質性軸線、雙向訊號，以及仍未解之處。",
+          "created": "2026-09-20",
+          "updated": "2026-09-20",
+          "tags": [
+            "senescence",
+            "sasp",
+            "pleiotropy",
+            "literature-review"
+          ],
+          "filename": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
         }
       }
     },

@@ -5,10 +5,10 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 18_SEP_2026 | 33 | 1766 | 1,097,429 | 10.28 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 18_SEP_2026 | 33 | 1805 | 1,104,081 | 10.33 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 14_SEP_2026 | 19 | 257 | 197,039 | 2.62 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 11_SEP_2026 | 12 | 226 | 181,647 | 1.70 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 15_SEP_2026 | 11 | 268 | 240,847 | 2.87 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 18_SEP_2026 | 12 | 226 | 181,712 | 1.70 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 18_SEP_2026 | 11 | 268 | 240,854 | 2.87 MB |
 | [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 14_SEP_2026 | 10 | 84 | 93,565 | 1.04 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 18_SEP_2026 | 2 | 44 | 26,118 | 0.53 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 10_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
@@ -18,7 +18,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 15_SEP_2026 | 16 | 66 | 157,145 | 2.25 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 17_SEP_2026 | 20 | 173 | 313,877 | 3.99 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 18_SEP_2026 | **142** | **3293** | **2,721,891** | **29.95 MB** |
+| **subtotal** | 18_SEP_2026 | **142** | **3332** | **2,728,615** | **30.00 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -30,15 +30,15 @@
 >
 > **Combined Merge**
 >
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,132 entities appear in both sources (3,493 triples + 3,146 wiki − 2,132 shared → 4,507); edges are unioned by (`from`, `to`) pair — 3,330 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,139 entities appear in both sources (3,493 triples + 3,185 wiki − 2,139 shared → 4,539); edges are unioned by (`from`, `to`) pair — 3,344 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,507 | 40,409 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,539 | 40,940 |
 | **Triples** | `triples-*.json` | 3,493 | 6,605 |
-| **Wiki** | `wiki-*.json` | 3,146 | 37,454 |
+| **Wiki** | `wiki-*.json` | 3,185 | 37,999 |
 
-Build: 18_SEP_2026 · hash `44f8731feedc4b63`
+Build: 18_SEP_2026 · hash `249b929d5ee50a9f`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
@@ -270,8 +270,9 @@ Build: 18_SEP_2026 · hash `44f8731feedc4b63`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (110 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (111 total)</strong> — click to expand</summary>
 
+- [task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md) [[src/tasks/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md|wiki]] (19_SEP_2026 08:19 PM PDT)
 - [task_output_bioactive_compounds_aging_formulations_17_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md) [[src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md|wiki]] (18_SEP_2026 09:49 AM PDT)
 - [task_output_cell_death_modality_distribution_research_13_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md) [[src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)
 - [task_output_cell_death_senescence_research_12_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md) [[src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md|wiki]] (14_SEP_2026 08:56 AM PDT)

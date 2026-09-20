@@ -39,7 +39,7 @@
 <body>
 <div class="wrap">
   <header class="top">
-    <p class="kicker">細胞衰老 · 衰老相關分泌表型（SASP）的調控</p>
+    <p class="kicker">細胞衰老 · 衰老相關分泌表型（SASP）的調控與多效性</p>
     <h1>SASP 的調控——感測器、胞內訊號組件與轉錄因子</h1>
     <p class="sub">SASP 誘導架構圖（Birch、Gil 2020，Figure 2——見下方原圖）的互動式 three.js 模型。原圖主要以<b>分子類別</b>分群，依其圖例：<b>紅色</b>——感測器、受體與配體；<b>橘色</b>——胞內訊號組件；<b>黃色</b>——轉錄因子。其空間配置將細胞質置於上方、細胞核置於下方；此分界僅在三個步驟具有機制意義，並非原圖的組織主軸——<b>CCF</b> 於細胞核產生、在細胞質被感測，<b>SASP 轉錄本</b>於細胞核轉錄、在細胞質進行轉錄後穩定化，而<b>染色質與剪接</b>調控屬細胞核內事件。拖曳旋轉 · 滾輪縮放 · 點擊節點查看功能與證據。</p>
     <p class="src">改編自知識庫 SASP／Senescence／cGAS–STING 筆記與 SASP 誘導架構圖 · three.js r160 · <span id="embedlink"></span></p>
@@ -94,6 +94,19 @@
           <p>原圖與模型採相同配置：上方為細胞質、下方為細胞核。節點依原圖圖例分類——紅色為感測器、受體與配體；橘色為胞內訊號組件；黃色為轉錄因子。此區隔應理解為同一條路徑的空間配置，而非比較；僅下列步驟在機制上確實受限於單一區室。</p>
           <p class="howto"><b>1 · DNA 損傷。</b>未修復的雙股斷裂持續維持 DNA 損傷反應訊號，活化 p38 MAPK 並維持衰老狀態。<br><b>2 · 胞質感測。</b>細胞核釋出的染色質細胞質病灶活化 cGAS–STING；同時發炎體使 IL-1β 成熟。這是此網路中主要的細胞核→細胞質步驟。<br><b>3 · 轉錄。</b>NF-κB、C/EBPβ、GATA4 與 STAT 活化促炎 SASP 程序；IRF3 與 NF-κB 活化第一型干擾素與晚期 SASP 基因。<br><b>4 · 轉錄後調控與分泌。</b>mTOR 與 MAPKAPK2 在細胞質中穩定 SASP 轉錄本，分泌的 IL-6 與 IL-1β 作用於自身受體以維持該程序。</p>
           <p>原圖縮寫：(DSB) 雙股斷裂 · (CCF) 染色質細胞質病灶（chromatin cytoplasmic foci）。知識庫筆記使用同義詞「細胞質染色質片段」。</p>
+        </div>
+      </div>
+      <div class="figrow" id="pleiotropy">
+        <div>
+          <h2>為何 SASP 具多效性——同一分泌體，相反效應</h2>
+          <p>Birch 與 Gil（2020）留下一個開放問題：<i>為何 SASP 產生如此多效且常相反的效應，難以釐清，仍多有未知</i>——並指出誘導因子、細胞類型、衰老階段與組織微環境為形塑軸線。知識庫編碼了相同的四軸，2024–2026 年文獻進一步確認與細化。</p>
+          <p class="howto"><b>1 · 不存在單一 SASP。</b>跨誘導因子與細胞類型僅約 19 個共有因子，其餘為情境特異條碼（纖維母細胞 vs. 上皮 &lt;50% 重疊；OIS ≠ TIS ≠ 缺 IL-1 臂的 MiDAS）。<br><b>2 · 時間切換輸出。</b>早期 NOTCH1-high 為 TGF-β 豐富、免疫抑制／促纖維化（容許修復）；晚期為 IL-6／IL-8／MMP 豐富的促炎型；深層衰老再疊加 LINE1 驅動的第一型干擾素。有益→有害的閾值仍未定義。<br><b>3 · 雙閘門缺一不可。</b>粒線體檸檬酸→乙醯輔酶 A（MPC–SLC25A1–ACLY）開啟 SASP 位點染色質，cGAS–STING 提供發炎活化——單一臂不足（Nature 2026 年 7 月；CTPI2 抑制 SASP 而不逆轉停滯）。<br><b>4 · 對話是雙向的。</b>硬度、共培養、肝臟分區與性別（雌激素抑制 NF-κB／STING）都會回寫 SASP；單細胞研究發現大部分 IL-6 來自約 8% 高濃度亞群，總量檢測看不見。<br><b>5 · 癌症呈現兩面。</b>急性 p53 恢復型 SASP（CCL2、CXCL9／10／14、IL-15）招募 NK／巨噬細胞清除；慢性 NF-κB 型 SASP（IL-6／IL-8／VEGF／CCL2／CXCL12／MMPs／TGF-β）驅動 EMT、血管新生與 MDSC／Treg 逃逸——故需誘導–啟動–清除的給藥順序。</p>
+          <p>治療推論：不應全面清除 SASP——應按臂、按情境調節（JAK、mTOR、p38／MK2、cGAS–STING、NAMPT、SLC25A1、NRTIs），並保留急性修復與癌前監控。完整綜述見 <a href="https://graph.johnnykuo.com/#node=SASP">SASP 筆記</a>。</p>
+        </div>
+        <div>
+          <h2>仍未解之處</h2>
+          <p class="howto">有益↔有害轉折點 · 非發炎臂（纖維化／血管新生／ECM）的調控者 · 在體內區分 SASP 與一般發炎 · 按受體組織與年齡的旁觀者規則 · 經驗證的負荷指標與性別感知劑量。</p>
+          <p>縮寫：(MiDAS) 粒線體功能障礙相關衰老 · (TIS) 治療誘導衰老 · (OIS) 癌基因誘導衰老。</p>
         </div>
       </div>
     </div>
