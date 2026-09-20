@@ -593,10 +593,13 @@ figcaption { font-size: 12.5px; }
         注意：8 月運行中的通用 <code>Caspase</code> 標的節點已不存在（整併為 <code>Caspases</code>），
         因此重跑使用 13 來源 × 14 標的。
       </p>
-      <div class="copy-host"><pre><code># 多指標 來源×標的 分析（路徑、Jaccard、Adamic-Adar、k-core、
+      <div class="copy-host"><pre><code># 將合併網頁資料集序列化為 graph.json schema（/tmp，不入版控）
+uv run python3 scripts/analysis/web_to_graph.py
+
+# 多指標 來源×標的 分析（路徑、Jaccard、Adamic-Adar、k-core、
 # 光譜、有效電阻、PPR）——合併聯集 + wiki 層
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
-  --graph &lt;序列化為 graph.json schema 的合併聯集&gt; \
+  --graph /tmp/combined_graph.json \
   --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
             caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
   --targets apoptosis pyroptosis necroptosis inflammasome ferroptosis senescence \

@@ -630,10 +630,13 @@ figcaption { font-size: 12.5px; }
         Note: the generic <code>Caspase</code> target node from the August run no longer exists as a
         separate node (consolidated into <code>Caspases</code>), so the re-run uses 13 sources × 14 targets.
       </p>
-      <div class="copy-host"><pre><code># Multi-metric source×target analysis (paths, Jaccard, Adamic-Adar, k-core,
+      <div class="copy-host"><pre><code># Serialize the combined web dataset to graph.json schema (/tmp, untracked)
+uv run python3 scripts/analysis/web_to_graph.py
+
+# Multi-metric source×target analysis (paths, Jaccard, Adamic-Adar, k-core,
 # spectral, effective-resistance, PPR) — combined union + wiki layer
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
-  --graph &lt;combined union serialized to graph.json schema&gt; \
+  --graph /tmp/combined_graph.json \
   --sources caspase_1 caspase_2 caspase_3 caspase_4 caspase_5 caspase_6 \
             caspase_7 caspase_8 caspase_9 caspase_10 caspase_11 caspase_12 caspases \
   --targets apoptosis pyroptosis necroptosis inflammasome ferroptosis senescence \
