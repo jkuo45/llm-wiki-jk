@@ -26,14 +26,22 @@ body { font-size: 16.5px; line-height: 1.55; }
 }
 .meta details { margin-top: 4px; }
 .meta summary { cursor: pointer; color: var(--ink-soft); font-weight: 600; }
-.page { padding: 24px 0 56px; }
+.page { padding-bottom: 0; } /* ponytail: theme gives 80/60px; footer + last-section margin already separate */
 main section { padding: 6px 0 28px; margin-bottom: 24px; }
 h2 { font-size: clamp(1.25rem, 2vw, 1.55rem); margin-bottom: 10px; }
 h3 { margin-top: 20px; }
 table { font-size: 13px; }
 th, td { padding: 6px 10px; }
 td.num, th.num { font-size: 12px; }
-.note { padding: 10px 14px; box-shadow: none; }
+.table-host { margin: 12px 0 16px; }
+ul + .note, ol + .note, table + .note, .table-host + .note { margin-top: 16px; }
+.table-host + p, .fig + p { margin-top: 14px; }
+pre { white-space: pre-wrap; word-break: break-word; }
+.note { padding: 10px 14px; }
+.pill { font-family: var(--sans); font-size: 10.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border: 1px solid currentColor; border-radius: 2px; white-space: nowrap; }
+.pill.ok { color: var(--forest-soft); }
+.pill.part { color: var(--gold); }
+.pill.open { color: var(--oxblood-soft); }
 .fig { margin: 16px 0 20px; }
 figcaption { font-size: 12.5px; }
 </style>
@@ -46,15 +54,9 @@ figcaption { font-size: 12.5px; }
     <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
     <div class="nav-links">
       <a href="#biological-role">Biology</a>
-      <a href="#scope">Scope</a>
-      <a href="#communities">Communities</a>
-      <a href="#layers">Layers</a>
-      <a href="#centrality">Centrality</a>
-      <a href="#paths">Paths</a>
-      <a href="#ppr">PPR</a>
+      <a href="#communities">Network</a>
       <a href="#predictions">Predictions</a>
-      <a href="#gaps">Gaps</a>
-      <a href="#enrichment">Enrichment</a>
+      <a href="#gaps-enrichment">Gaps</a>
       <a href="#literature">Literature</a>
       <a href="#method">Method</a>
     </div>
@@ -72,9 +74,9 @@ figcaption { font-size: 12.5px; }
     </p>
     <div class="meta">
       <p><strong>Published</strong> 28 Aug 2026 · <strong>Figures re-run</strong> 20 Sep 2026 (combined 4539n / 40940e; Aug build: triples 9f8805f7 · wiki 5b257720, combined 4084n / 31842e)</p>
+      <details><summary>Data, source, and raw files</summary>
       <p><strong>Data</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/nodes.json" target="_blank">nodes.json</a> + <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank">edges.json</a> (combined, per-edge source tags) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank">wiki-out/graph.json</a> (wiki layer) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/node_roles.json" target="_blank">node_roles.json</a> (roles)</p>
       <p><strong>Source</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank">task output + raw metric runs</a> · <strong>Methods</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Knowledge Graphs</a> · <strong>Code</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">node_analysis</a>, <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">link_prediction</a>, <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">role_query</a></p>
-      <details><summary>Raw data files</summary>
       <p><strong>20 Sep 2026 re-run:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph_20_SEP_2026.txt" target="_blank">raw_caspases_combined_graph_20_SEP_2026.txt</a> (combined union, 4539n/40940e).</p>
       <p><strong>28 Aug 2026:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank">raw_caspases_combined_graph.txt</a> (combined union), <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank">raw_caspases_wiki_graph_node.txt</a> (wiki layer), <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank">raw_caspases_wiki_graph_link_prediction.txt</a> (wiki Adamic-Adar sweep)</p>
       </details>
@@ -94,8 +96,7 @@ figcaption { font-size: 12.5px; }
       <li><a href="#paths">Shortest-path structure</a></li>
       <li><a href="#ppr">Cross-modal death pathways (PPR)</a></li>
       <li><a href="#predictions">Predicted missing connections</a></li>
-      <li><a href="#gaps">Graph gaps</a></li>
-      <li><a href="#enrichment">Enrichment queue</a></li>
+      <li><a href="#gaps-enrichment">Gaps and enrichment queue</a></li>
       <li><a href="#literature">Literature deep dive</a></li>
       <li><a href="#method">Method</a></li>
     </ol>
@@ -146,6 +147,16 @@ figcaption { font-size: 12.5px; }
           the wiki layer alone hides.
         </p>
       </div>
+      <h3>At a glance</h3>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Module</th><th>Hubs</th><th>Weakest link</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Apoptotic (c16)</td><td>Caspase-8 (deg 99) · Caspase-3 (deg 93)</td><td rowspan="2">Ferroptosis (best CASP-3 #240) · senescence–caspase edges still partial</td></tr>
+          <tr><td>Inflammasome–pyroptosis (c22)</td><td>Caspase-1 (deg 43) · 4/5/11 near-duplicates (Jaccard 0.82)</td></tr>
+        </tbody>
+      </table></div>
     </section>
 
 
@@ -206,7 +217,7 @@ figcaption { font-size: 12.5px; }
 
           <path d="M 460 200 C 490 200, 490 200, 520 200" stroke="rgba(128,128,128,0.6)" stroke-width="2" fill="none" marker-end="url(#arr)"/>
           <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="rgba(128,128,128,0.6)"/></marker></defs>
-          <text x="490" y="188" text-anchor="middle" font-size="11" fill="rgba(128,128,128,0.9)">GSDMD</text>
+          <text x="490" y="188" text-anchor="middle" font-size="12.5" fill="rgba(128,128,128,0.9)">GSDMD</text>
         </svg>
         </div>
         <figcaption>
@@ -266,7 +277,7 @@ figcaption { font-size: 12.5px; }
         its triples assignment "Paracrine Senescence" — the wiki IL-1alpha grouping is unchanged
         topologically.)
       </p>
-      <p><strong>Edges only the combined view exposes</strong> (absent from the wiki layer):</p>
+      <p><strong>Combined-only edges</strong> (absent from the wiki layer):</p>
       <ul>
         <li>
           <strong><code>Caspase-2 → PIDDosome</code> (triples-only)</strong>
@@ -348,36 +359,38 @@ figcaption { font-size: 12.5px; }
       <p>
         Computed on the <strong>combined giant component</strong> (4,271 nodes / 34,780 unique-pair edges).
       </p>
-      <ul>
-        <li>
-          <strong>Caspase-1 → Pyroptosis / Inflammasome / SASP</strong>: direct 1-hop edges
-          (<code>promotes</code> to SASP is new since August). Reaching
-          <strong>Ferroptosis</strong> is now a single 2-hop path via SASP (was 81 paths through ~20
-          intermediates), and reaching <strong>Senescence</strong> passes through 7 intermediates
-          (Drosha, Idiopathic Pulmonary Fibrosis, Inflammaging, Inflammation, Paracrine Senescence,
-          SASP, SIRT1). <strong>CASP-1 → Bcl-2 family</strong> now has a 2-hop path via Bid
-          (<code>cleaves</code>) — the senolytic axis is no longer disconnected.
-        </li>
-        <li>
-          <strong>Caspase-3/8/9 → Apoptosis</strong>: direct edges for CASP-3 and CASP-8; combined
-          Adamic-Adar proximity is CASP-3 20.1, CASP-8 17.2, CASP-9 11.5, Caspases 11.6, CASP-7 7.5.
-        </li>
-        <li>
-          <strong>Caspase-8 → Necroptosis is now a direct edge</strong>
-          (<code>inhibits</code>, both layers) — the August prediction is resolved. New since August:
-          a <strong>Caspase-8-c-FLIP Rheostat</strong> node (degree 45, Necroptosis community) now
-          models the inhibitory rheostat mechanistically.
-        </li>
-        <li>
-          <strong>Weakest apoptotic wiring</strong>: Caspase-12 (AA 2.09, no direct inflammasome/pyroptosis
-          proximity); Caspase-10 (AA 5.2 but Jaccard with CASP-8 down to 0.22).
-        </li>
-        <li>
-          <strong>Caspase-2 → Apoptosis is still missing</strong> (14 two-hop paths via PIDD, RAIDD,
-          CDK1, SIRT1, Bid, and others; AA 4.65, strongest anchor ahead of p53 at 2.65). The defect is
-          the absent direct edge, not the biology.
-        </li>
-      </ul>
+      <h3>Caspase-1 → death and senescence programs</h3>
+      <p>
+        <strong>Caspase-1 → Pyroptosis / Inflammasome / SASP</strong>: direct 1-hop edges
+        (<code>promotes</code> to SASP is new since August). Reaching
+        <strong>Ferroptosis</strong> is now a single 2-hop path via SASP (was 81 paths through ~20
+        intermediates), and reaching <strong>Senescence</strong> passes through 7 intermediates
+        (Drosha, Idiopathic Pulmonary Fibrosis, Inflammaging, Inflammation, Paracrine Senescence,
+        SASP, SIRT1). <strong>CASP-1 → Bcl-2 family</strong> now has a 2-hop path via Bid
+        (<code>cleaves</code>) — the senolytic axis is no longer disconnected.
+      </p>
+      <h3>Caspase-3/8/9 → Apoptosis</h3>
+      <p>
+        Direct edges for CASP-3 and CASP-8; combined
+        Adamic-Adar proximity is CASP-3 20.1, CASP-8 17.2, CASP-9 11.5, Caspases 11.6, CASP-7 7.5.
+      </p>
+      <h3>Caspase-8 → Necroptosis rheostat</h3>
+      <p>
+        <strong>Caspase-8 → Necroptosis is now a direct edge</strong>
+        (<code>inhibits</code>, both layers) — the August prediction is resolved. New since August:
+        a <strong>Caspase-8-c-FLIP Rheostat</strong> node (degree 45, Necroptosis community) now
+        models the inhibitory rheostat mechanistically.
+      </p>
+      <h3>Weakest wiring</h3>
+      <p>
+        <strong>Weakest apoptotic wiring</strong>: Caspase-12 (AA 2.09, no direct inflammasome/pyroptosis
+        proximity); Caspase-10 (AA 5.2 but Jaccard with CASP-8 down to 0.22).
+      </p>
+      <p>
+        <strong>Caspase-2 → Apoptosis is still missing</strong> (14 two-hop paths via PIDD, RAIDD,
+        CDK1, SIRT1, Bid, and others; AA 4.65, strongest anchor ahead of p53 at 2.65). The defect is
+        the absent direct edge, not the biology.
+      </p>
     </section>
 
     <section id="ppr">
@@ -399,7 +412,9 @@ figcaption { font-size: 12.5px; }
           <tr><td>Gasdermin D</td><td>CASP-1 #5 (0.0113), CASP-4 #13, CASP-11 #14, CASP-5 #15, CASP-3 #17</td><td>GSDMD cleavage partners; CASP-1 now leads (was #16)</td></tr>
           <tr><td>Apoptosome / XIAP / Executioner Caspase</td><td>CASP-3 #3, CASP-7 #5–8, CASP-9 #5–7</td><td>intrinsic-pathway machinery recovered exactly</td></tr>
           <tr><td>Ferroptosis</td><td>best CASP-3 #240; all caspases #240–2644</td><td><strong>no caspase is enriched for ferroptosis</strong> — consistent with caspase-independent regulation; C1→Ferroptosis now routes via the direct C1→SASP edge</td></tr>
-          <tr><td>Senescence / SASP / Autophagy</td><td>SASP seed: CASP-1 #129 (via direct edge); Senescence seed: CASP-3 #232; Autophagy seed: CASP-3 #355</td><td><strong>senescence–caspase linkage remains the weakest region</strong>, but the direct C1→SASP and C3→Cellular Senescence edges are new since August</td></tr>
+          <tr><td>SASP</td><td>CASP-1 #129 (via direct edge)</td><td rowspan="3"><strong>senescence–caspase linkage remains the weakest region</strong>, but the direct C1→SASP and C3→Cellular Senescence edges are new since August</td></tr>
+          <tr><td>Senescence</td><td>CASP-3 #232</td></tr>
+          <tr><td>Autophagy</td><td>CASP-3 #355</td></tr>
         </tbody>
       </table></div>
       <p>
@@ -412,19 +427,20 @@ figcaption { font-size: 12.5px; }
       <p class="sec-label">Predictions</p>
       <h2>Predicted missing connections (link prediction)</h2>
       <p>
-        Adamic-Adar over non-adjacent pairs. Combined-union scores below are from the 20 Sep 2026
-        re-run (full per-caspase lists in the new raw run). Resolved since August:
-        <strong>Caspase-3 → Apoptosis, Caspase-8 → Necroptosis, Caspase-1 → SASP,
+        Adamic-Adar over non-adjacent pairs (20 Sep 2026 re-run; full per-caspase lists in the new raw run).
+        Resolved since August: <strong>Caspase-3 → Apoptosis, Caspase-8 → Necroptosis, Caspase-1 → SASP,
         Caspase-3 → Cellular Senescence, and Caspase-3 → Gasdermin E are now direct edges</strong>.
       </p>
-      <p><strong>From the global artifact</strong> (regenerated 18 Sep 2026; caspase-involving pairs in the top-150):</p>
+      <h3>Global top-150 pairs</h3>
+      <p>From the global artifact (regenerated 18 Sep 2026; caspase-involving pairs in the top-150):</p>
       <ol>
         <li><strong>Caspase-3 ↔ Caspase-6</strong> (AA 2.13, shared: Caspase-8/9, Lamins) — real biology; CASP-6 is activated by CASP-3 and cleaves Lamins</li>
         <li><strong>Inhibitor of Apoptosis Proteins ↔ XIAP</strong> (AA 2.53, shared incl. Caspase-3/9/7) — XIAP is the IAP family archetype; an <code>is_member_of</code> edge is warranted. <strong>Apoptosis ↔ XIAP</strong> (AA 4.13) is the highest-scoring XIAP pair</li>
         <li><strong>Caspase-3 ↔ Pyroptosis</strong> (AA 2.45, shared: SIRT1, Ivermectin, Gasdermin D) — new since August; non-canonical CASP-3 pyroptosis crosstalk candidate</li>
         <li><strong>Ivermectin ↔ melittin</strong> (AA 2.35; shared neighbors now include Caspase-3) and <strong>Fenbendazole ↔ Ivermectin</strong> (AA 3.28, shared: Cancer, Apoptosis) — the repurposing cluster converges on caspase-3-mediated apoptosis as a candidate shared mechanism</li>
       </ol>
-      <p><strong>From the combined-graph sweep</strong>, the most actionable predictions (adjudicated against literature):</p>
+      <h3>Actionable sweep</h3>
+      <p>From the combined-graph sweep, the most actionable predictions (adjudicated against literature):</p>
       <div class="copy-host table-host"><table>
         <thead>
           <tr><th>Prediction</th><th class="num">AA (shared)</th><th>Adjudication</th></tr>
@@ -456,37 +472,31 @@ figcaption { font-size: 12.5px; }
       </div>
     </section>
 
-    <section id="gaps">
-      <p class="sec-label">Gaps</p>
-      <h2>Graph gaps surfaced (candidate enrichment targets)</h2>
-      <ol>
-        <li><strong>PIDDosome direct edge still triples-only</strong> — <code>Caspase-2 → PIDDosome</code> has no wiki-layer representation, though PIDD/RAIDD/CDK1 now link Caspase-2 in both layers (see enrichment #1).</li>
-        <li><strong>No Caspase-14 node; no cGAS-STING node</strong> — epidermal differentiation caspase and the noncanonical-priming sensor are both absent (see enrichment #7).</li>
-        <li><strong>Ferroptosis–caspase crosstalk unrepresented.</strong> <strong>Gasdermin E node now exists</strong> with a direct <code>Caspase-3 → Gasdermin E</code> edge (resolved); remaining gap is CASP-8 ferroptosis potentiation coverage.</li>
-        <li><strong>Senescence edges partly resolved</strong> — <code>Caspase-1 → SASP</code> and <code>Caspase-3 → Cellular Senescence</code> are now direct; still absent: CASP-1→IL-1α, CASP-8/RIPK1 senescence-exit edges, and generic <code>Caspase-3 → Senescence</code> (AA 3.97).</li>
-        <li><strong>BCL-2/senolytic axis partly resolved</strong> — <code>Caspase-9 → BH3 mimetics</code> is now direct and <code>Caspase-1 → Bcl-2 family</code> routes via Bid; still absent: <code>Caspase-9 → BAX/Bim/Bad</code> upstream wiring (see enrichment #4).</li>
-        <li><strong>Caspase-3 (at Ser150)</strong> remains a degree-1 triples stub (PAK2 phospho-inactivation context) — a normalization candidate.</li>
-      </ol>
-    </section>
-
-    <section id="enrichment">
-      <p class="sec-label">Enrichment</p>
-      <h2>Enrichment queue (literature support × graph impact, ordered)</h2>
+    <section id="gaps-enrichment">
+      <p class="sec-label">Gaps · Enrichment</p>
+      <h2>Graph gaps and enrichment queue</h2>
+      <p>Ordered by literature support × graph impact. Status is current as of the 20 Sep 2026 re-run.</p>
       <div class="copy-host table-host"><table>
         <thead>
-          <tr><th class="num">#</th><th>Action</th><th>Basis</th></tr>
+          <tr><th class="num">#</th><th>Action</th><th>Basis</th><th>Status</th></tr>
         </thead>
         <tbody>
-          <tr><td class="num">1</td><td><code>Caspase-2 → Apoptosis</code> direct link</td><td>still open — 14 two-hop paths, AA 4.65</td></tr>
-          <tr><td class="num">2</td><td><code>Caspase-3 ↔ Senescence</code> (generic node)</td><td>partially resolved — Cellular Senescence edge added (PMID 22863278); generic Senescence edge still absent</td></tr>
-          <tr><td class="num">3</td><td><code>Caspase-1 → SASP</code></td><td><strong>resolved</strong> — direct <code>promotes</code> edge (triples)</td></tr>
-          <tr><td class="num">4</td><td>BCL-2-family wiring on the intrinsic arm: <code>Caspase-9 → BAX/Bim/Bad</code></td><td>partially resolved — <code>Caspase-9 → BH3 mimetics</code> and <code>Caspase-1 → Bcl-2</code> (via Bid) added; BAX/Bim/Bad edges still absent</td></tr>
-          <tr><td class="num">5</td><td><code>Caspase-8 → Necroptosis</code></td><td><strong>resolved</strong> — direct <code>inhibits</code> edge, both layers</td></tr>
-          <tr><td class="num">6</td><td>Noncanonical trio upstream: <code>NLRP3 / cGAS-STING → Caspase-4/5/11</code>, <code>Caspase-1 → IL-18</code></td><td>partially resolved — <code>Caspase-1 → IL-18</code> added; NLRP3/cGAS-STING edges still absent (no cGAS-STING node)</td></tr>
-          <tr><td class="num">7</td><td>New entities: Gasdermin E, Caspase-14</td><td>partially resolved — Gasdermin E node + <code>Caspase-3 → GSDME</code> added; Caspase-14 still absent</td></tr>
-          <tr><td class="num">8</td><td>Therapeutic edges: Canakinumab/Anakinra → IL-1β axis; Dasatinib → Caspase-8</td><td>still open</td></tr>
+          <tr><td class="num">1</td><td><code>Caspase-2 → Apoptosis</code> direct link</td><td>14 two-hop paths, AA 4.65; PIDD/RAIDD/CDK1 now linked in both layers but PIDDosome edge stays triples-only</td><td><span class="pill open">open</span></td></tr>
+          <tr><td class="num">2</td><td><code>Caspase-3 ↔ Senescence</code> (generic node)</td><td>Cellular Senescence edge added (PMID 22863278); generic Senescence edge still absent</td><td><span class="pill part">partial</span></td></tr>
+          <tr><td class="num">3</td><td><code>Caspase-1 → SASP</code></td><td>direct <code>promotes</code> edge (triples)</td><td><span class="pill ok">resolved</span></td></tr>
+          <tr><td class="num">4</td><td>BCL-2-family wiring on the intrinsic arm: <code>Caspase-9 → BAX/Bim/Bad</code></td><td><code>Caspase-9 → BH3 mimetics</code> and <code>Caspase-1 → Bcl-2</code> (via Bid) added; BAX/Bim/Bad edges still absent</td><td><span class="pill part">partial</span></td></tr>
+          <tr><td class="num">5</td><td><code>Caspase-8 → Necroptosis</code></td><td>direct <code>inhibits</code> edge, both layers</td><td><span class="pill ok">resolved</span></td></tr>
+          <tr><td class="num">6</td><td>Noncanonical trio upstream: <code>NLRP3 / cGAS-STING → Caspase-4/5/11</code>, <code>Caspase-1 → IL-18</code></td><td><code>Caspase-1 → IL-18</code> added; NLRP3/cGAS-STING edges still absent (no cGAS-STING node)</td><td><span class="pill part">partial</span></td></tr>
+          <tr><td class="num">7</td><td>New entities: Gasdermin E, Caspase-14</td><td>Gasdermin E node + <code>Caspase-3 → GSDME</code> added; Caspase-14 still absent; CASP-8 ferroptosis potentiation still thin</td><td><span class="pill part">partial</span></td></tr>
+          <tr><td class="num">8</td><td>Therapeutic edges: Canakinumab/Anakinra → IL-1β axis; Dasatinib → Caspase-8</td><td>nodes exist without effector edges</td><td><span class="pill open">open</span></td></tr>
         </tbody>
       </table></div>
+      <div class="note">
+        <h4>Normalization watch</h4>
+        <p>
+          <code>Caspase-3 (at Ser150)</code> remains a degree-1 triples stub (PAK2 phospho-inactivation context) — a merge candidate, not a new entity.
+        </p>
+      </div>
     </section>
 
     <section id="literature">
@@ -547,7 +557,7 @@ figcaption { font-size: 12.5px; }
         BCL-2/BCL-xL/BCL-W, downregulate Bim/Puma/Noxa, and show blunted CASP-8/3 activation;
         senolytics (dasatinib+quercetin, navitoclax/ABT-263) partly act by re-engaging this machinery
         (de Keizer 2017, PMID 28266040). <em>Graph correspondence: no edge path connects the senolytic
-        nodes to caspases even in the combined graph (§Gaps).</em>
+        nodes to caspases even in the combined graph (see Gaps below).</em>
       </p>
       <p>
         <strong>CASP-3 / senescence</strong> — CASP-3 is activated early in oncogene-induced senescence
@@ -605,7 +615,7 @@ figcaption { font-size: 12.5px; }
         <li>Caspases are not solely death proteases — inflammation (1/4/5/11), differentiation (14), tumor suppression (2), and senescence regulation (3) are all represented.</li>
         <li>Activation is scaffolded (apoptosome/DISC/inflammasome) — platform identity determines outcome.</li>
         <li>Aging biology is caspase-entangled at three axes: CASP-1 inflammaging, CASP-2 genome stability, and senescent-cell apoptosis resistance.</li>
-        <li>The combined graph reproduces the two-module structure and pyroptosis/necroptosis/apoptosis assignments. Since August: Gasdermin E node added with Caspase-3→GSDME, Caspase-8→Necroptosis and Caspase-1→SASP / Caspase-3→Cellular Senescence directly wired. Remaining gaps: CASP-14, cGAS-STING, Caspase-2→Apoptosis, BAX/Bim/Bad upstream wiring, therapeutic edges — see §Gaps/§Enrichment.</li>
+        <li>The combined graph reproduces the two-module structure and pyroptosis/necroptosis/apoptosis assignments. Since August: Gasdermin E node added with Caspase-3→GSDME, Caspase-8→Necroptosis and Caspase-1→SASP / Caspase-3→Cellular Senescence directly wired. Remaining gaps: CASP-14, cGAS-STING, Caspase-2→Apoptosis, BAX/Bim/Bad upstream wiring, therapeutic edges — see Gaps and enrichment queue.</li>
       </ol>
     </section>
 
