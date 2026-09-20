@@ -150,7 +150,7 @@
 <div id="calc">
   <p style="font-size:.82rem">方法：以 70 公斤為基準，對已發表人體試驗劑量範圍作線性換算並箝制於該範圍內（僅供示意 — 試驗採固定劑量，目前並無驗證過的體重公式）。亞精胺在膳食劑量下與體重無關，以固定值顯示。</p>
   <table class="doses">
-    <thead><tr><th>化合物</th><th>建議劑量</th><th>頻率</th></tr></thead>
+    <thead><tr><th>化合物</th><th>建議劑量</th><th>頻率</th><th>性別差異</th></tr></thead>
     <tbody id="dose-rows"></tbody>
   </table>
   <p class="mono" id="us-readout" style="font-size:.8rem"></p>
@@ -203,13 +203,13 @@
         uLo = clamp(500*s,250,1000), uHi = clamp(1000*s,250,1000),
         fLo = clamp(500*s,100,1000), fHi = clamp(1000*s,100,1000);
     var d = [
-      ['亞精胺', range2(0.9, 3.3) + '／天', '每日一次，隨餐', '固定值 — 膳食劑量下與體重無關；地中海飲食約 8–12 mg／天來自食物。'],
-      ['小檗鹼', range2(bLo, bHi) + '／天<br><span class="mono">每次劑量（÷3）：' + mgOz(bLo/3) + ' – ' + mgOz(bHi/3) + '</span>', '每日三次，隨餐分服', '證據最強；常見腸胃不適；CYP／P-gp 交互作用。'],
-      ['尿石素 A', range2(uLo, uHi) + '／天', '每日一次', '除非確認為 A 型代謝型，否則直接補充才能穩定暴露。'],
-      ['非瑟酮', range2(fLo, fHi) + '／天<br><span class="mono">一週脈衝總量：' + mgOz(fLo*7) + ' – ' + mgOz(fHi*7) + '</span>', '一週服用／兩週休息／一週服用', '間歇清除衰老細胞模式（Murray 2025）；未經改良劑型生體可用率低。']
+      ['亞精胺', range2(0.9, 3.3) + '／天', '每日一次，隨餐', '固定值 — 膳食劑量下與體重無關；地中海飲食約 8–12 mg／天來自食物。', '人體數據無性別交互作用。'],
+      ['小檗鹼', range2(bLo, bHi) + '／天<br><span class="mono">每次劑量（÷3）：' + mgOz(bLo/3) + ' – ' + mgOz(bHi/3) + '</span>', '每日三次，隨餐分服', '證據最強；常見腸胃不適；CYP／P-gp 交互作用。', '同劑量下女性 AUC 約為男性 2.8 倍 — 固定範圍未按性別調整。'],
+      ['尿石素 A', range2(uLo, uHi) + '／天', '每日一次', '除非確認為 A 型代謝型，否則直接補充才能穩定暴露。', '無人體性別分層數據。'],
+      ['非瑟酮', range2(fLo, fHi) + '／天<br><span class="mono">一週脈衝總量：' + mgOz(fLo*7) + ' – ' + mgOz(fHi*7) + '</span>', '一週服用／兩週休息／一週服用', '間歇清除衰老細胞模式（Murray 2025）；未經改良劑型生體可用率低。', '臨床前效應隨性別與疾病階段而異；無人體性別數據。']
     ];
     rows.innerHTML = d.map(function (r) {
-      return '<tr><td><b>' + r[0] + '</b></td><td>公制／英制：<br>' + r[1] + '<br><span class="mono" style="color:var(--mute)">' + r[3] + '</span></td><td>' + r[2] + '</td></tr>';
+      return '<tr><td><b>' + r[0] + '</b></td><td>公制／英制：<br>' + r[1] + '<br><span class="mono" style="color:var(--mute)">' + r[3] + '</span></td><td>' + r[2] + '</td><td>' + r[4] + '</td></tr>';
     }).join('');
     usReadout.textContent = '劑量以公制（毫克／克）＋英制（盎司）顯示，對應體重 ' + (metric ? fmt(k) + ' kg (' + Math.round(lb) + ' lb)' : Math.round(lb) + ' lb (' + fmt(k) + ' kg)') + '。';
     set('card-dose-spermidine', range1(0.9, 3.3) + '／天');
