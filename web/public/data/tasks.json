@@ -1,5 +1,5 @@
 {
-  "generated": "19_SEP_2026 09:05 PM PDT",
+  "generated": "21_SEP_2026 11:19 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,78 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_berberine_type2_diabetes_21_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Berberine and Type 2 Diabetes — Mechanisms, Clinical Evidence, and Graph Context",
+          "description": "Synthesis of berberine mechanisms (AMPK, gut microbiome, anti-inflammatory, lipid), clinical evidence (Yin 2008, Guo 46-RCT meta-analysis, PREMOTE, HTD1801 phase 2), safety and regulatory caveats, and the graph-topology reading (Type 2 Diabetes periphery-bottleneck gateway into the Berberine community).",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "task-output",
+            "berberine",
+            "type-2-diabetes",
+            "ampk",
+            "gut-microbiome",
+            "gateway-node",
+            "review"
+          ],
+          "filename": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
+          "path": "tasks/en-US/task_output_berberine_type2_diabetes_21_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "小檗鹼與第二型糖尿病 — 機制、臨床證據與圖譜脈絡",
+          "description": "綜述小檗鹼的作用機制（AMPK、腸道菌相、抗發炎、血脂）、臨床證據（Yin 2008、Guo 46 項 RCT 統合分析、PREMOTE、HTD1801 二期試驗）、安全性與法規注意事項，以及圖譜拓撲解讀（第二型糖尿病作為邊緣瓶頸閘道，通往小檗鹼社群）。",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "task-output",
+            "berberine",
+            "type-2-diabetes",
+            "ampk",
+            "gut-microbiome",
+            "gateway-node",
+            "review"
+          ],
+          "filename": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_berberine_type2_diabetes_21_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Multiple Scenarios Explaining Senescence-Mediated Organ Dysfunction — Vault Trace plus 2024-2026 Update",
+          "description": "Task output tracing the Birch and Gil 2020 Fig.3 claim through vault notes and most-recent literature for each of the five scenarios.",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "senescence",
+            "sasp",
+            "inflammaging",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
+          "path": "tasks/en-US/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "解釋衰老介導器官功能障礙的多重情境 — 知識庫追溯加 2024–2026 年更新",
+          "description": "任務輸出：沿 Birch and Gil 2020 Fig.3 主張，貫穿知識庫筆記與最新文獻，逐一追溯五種情境。",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "senescence",
+            "sasp",
+            "inflammaging",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
         }
       }
     },
