@@ -14,6 +14,12 @@
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
 <script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
 <style>
   .wrap.page { max-width: 880px; }
   /* ponytail: tighter hero/kicker like recent theme-01 pages; drop if theme converges */
@@ -63,6 +69,18 @@
   .foodviz { display: flex; align-items: center; gap: 8px; margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--rule); }
   .foodviz .flabel { font-size: .76rem; line-height: 1.5; }
   footer.foot { margin-top: 26px; font-size: .8rem; color: var(--mute); line-height: 1.6; }
+  /* ponytail: three.js r160 selectivity stage; drop if a shared 3D component lands */
+  #sel3d { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; margin: 12px 0; }
+  #sel3d-stage { position: relative; height: 320px; overflow: hidden; touch-action: none; }
+  #sel3d-canvas { width: 100%; height: 100%; display: block; }
+  #sel3d-phase { position: absolute; left: 10px; top: 8px; font-size: .74rem; color: var(--mute); font-family: var(--mono); pointer-events: none; }
+  #sel3d-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; font-size: .82rem; }
+  #sel3d-bar button { cursor: pointer; padding: 4px 12px; border: 1px solid var(--rule); background: none; font: inherit; font-size: .8rem; }
+  #sel3d-bar button[aria-pressed=true] { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
+  #sel3d-detail { font-size: .85rem; line-height: 1.6; min-height: 2.6em; margin: 8px 0 0; }
+  #sel3d-fallback { font-size: .85rem; line-height: 1.6; }
+  .reffig { margin: 14px 0 0; }
+  .reffig img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
 </style>
 </head>
 <body>
@@ -75,6 +93,7 @@
       <a href="#compounds">化合物</a>
       <a href="#estimator">劑量估算</a>
       <a href="#combinations">合併使用</a>
+      <a href="#selectivity">非瑟酮</a>
       <a href="#source">來源</a>
     </div>
   </div>
@@ -88,7 +107,7 @@
   </div>
 </header>
 
-<div class="wrap page" id="content">
+<main class="wrap page" id="content">
 
 <div id="calc-top">
   <label for="wt">體重 — 以下劑量依此換算</label>
@@ -101,6 +120,7 @@
   <p class="mono" id="wt-readout">70 kg (154 lb)</p>
 </div>
 
+<section>
 <h2 id="compounds">四種化合物一覽</h2>
 <div class="grid2">
   <div class="card">
@@ -149,7 +169,9 @@
     <div class="foodviz" id="food-urolithin" aria-live="polite"></div>
   </div>
 </div>
+</section>
 
+<section>
 <h2 id="estimator">依體重估算劑量與服用頻率</h2>
 <div id="calc">
   <p style="font-size:.82rem">方法：以 70 公斤為基準，對已發表人體試驗劑量範圍作線性換算並箝制於該範圍內（僅供示意 — 試驗採固定劑量，目前並無驗證過的體重公式）。亞精胺在膳食劑量下與體重無關，以固定值顯示。</p>
@@ -159,17 +181,48 @@
   </table></div>
   <p class="mono" id="us-readout" style="font-size:.8rem"></p>
 </div>
+</section>
 
+<section>
 <h2 id="combinations">合併使用：綜述實際怎麼說</h2>
 <div class="warn"><b>綜述立場意譯（非逐字引文）：</b>「尚無完成全四種合併的試驗；合併假說有機制依據，但未經前瞻性驗證。」綜述未找到<b>四種合併給藥的同儕審查直接證據</b>。唯一登錄合併其中兩者的試驗是 <b>NCT06990256</b>（n=80，45–70 歲：尿石素&nbsp;A 500&nbsp;mg 與非瑟酮 500&nbsp;mg 單獨／合併組，含 UA&nbsp;300&nbsp;mg＋非瑟酮&nbsp;200&nbsp;mg；12 週睡眠、DNA 甲基化年齡、發炎、BMAL1、HOMA-IR 指標）。</div>
 <p style="font-size:.9rem;line-height:1.65">引用的早期正面訊號：<b>亞精胺＋尿石素&nbsp;A</b>（廣泛自噬＋選擇性粒線體自噬）與<b>亞精胺＋小檗鹼</b>（分別經去乙醯化／自噬與 AMPK–菌群軸模擬熱量限制）被認為是<b>相加而非重疊</b>；自噬–衰老閾值模型支持先後順序（閾值前亞精胺預防衰老啟動，閾值後非瑟酮清除已形成的衰老細胞）。網絡醫學的多節點調控邏輯支持此假說 — 但綜述強調藥物動力學、疾病階段與個體差異（含尿石素代謝型）可能主導結果。</p>
 <div class="danger"><b>交互作用警示：</b>小檗鹼（CYP3A4／P-gp 抑制劑）＋非瑟酮（CYP3A4 受質兼部分抑制劑）可能相互墊高血中濃度。綜述建議的過渡作法：分時服用（小檗鹼早上／非瑟酮晚上）；避免與治療窗窄的 CYP3A4 受質併用。小檗鹼孕期禁用。合併藥動學研究是明確的未滿足缺口 — 未經醫師監督請勿合併使用。</div>
+</section>
 
+<section>
+<h2 id="selectivity">非瑟酮具選擇性</h2>
+<p style="font-size:.9rem;line-height:1.65">教科書的衰老細胞清除圖只畫一個指向 <b>apoptosis</b>（細胞凋亡）的箭頭。但在老齡小鼠脂肪／主動脈（CyTOF＋單細胞定序，Yousefzadeh 2018 及後續研究）中，間歇性非瑟酮<b>清除了 4 種衰老亞型、放過 2 種</b> — 且效應隨<b>性別與疾病階段</b>而異（例如早期給藥對雄性有益；尚無人體性別分層數據）。拖曳旋轉 · 滾輪縮放 · 點選細胞 · 觸發脈衝。</p>
+<div id="sel3d">
+  <div id="sel3d-stage" role="group" aria-label="非瑟酮敏感 vs 放過的衰老細胞類型 three.js 模型">
+    <canvas id="sel3d-canvas" aria-label="3-D 非瑟酮選擇性模型"></canvas>
+    <div id="sel3d-phase">three.js 載入中…</div>
+  </div>
+  <div id="sel3d-bar">
+    <button id="sel3d-pulse" type="button">非瑟酮脈衝</button>
+    <button id="sel3d-reset" type="button">重置細胞</button>
+    <button id="sel3d-pause" aria-pressed="false" type="button">暫停旋轉</button>
+    <span class="mono" aria-hidden="true">— 綠色＝清除 · 紅色＝放過 —</span>
+  </div>
+  <p id="sel3d-detail" aria-live="polite">顯示 4 種清除 vs 2 種放過的衰老細胞類型。點選細胞查看證據。</p>
+  <noscript><ul id="sel3d-fallback">
+    <li>清除：T 淋巴細胞、NK 細胞、間充質前驅細胞、內皮細胞。</li>
+    <li>放過：活化類衰老巨噬細胞、樹突細胞。</li>
+  </ul></noscript>
+</div>
+  <figure class="reffig">
+    <a href="https://api.johnnykuo.com/v1/notes/image/n-20260921-senolytics-senomorphics-00/1" target="_blank" rel="noopener" title="開啟全解析度原圖"><img src="https://api.johnnykuo.com/v1/notes/image/n-20260921-senolytics-senomorphics-00/1" alt="Birch and Gil 2020 Figure 4：（A）senolytics 匯入單一 Apoptosis 箭頭；（B）senomorphics 匯入 SASP 調控" loading="lazy"></a>
+    <figcaption><b>參考 — Birch &amp; Gil 2020, Figure 4。</b>圖 A 把所有 senolytics（dasatinib、quercetin、ABT-26/73、FOXO4-DRI、ouabain……）匯入單一 <b>Apoptosis</b> 箭頭 — 正是本節認為過度簡化的均一性。圖 B 是另一條路：senomorphics（rapamycin、ruxolitinib、anakinra、MCC950……）匯入 <b>SASP 調控</b>。全文：<a href="https://doi.org/10.1101/gad.343129.120">doi:10.1101/gad.343129.120</a>（CC BY-NC 4.0）· 已收錄為 <a href="https://graph.johnnykuo.com/#notes=n-20260921-senolytics-senomorphics-00"><code>n-20260921-senolytics-senomorphics-00</code></a>。</figcaption>
+  </figure>
+</section>
+
+<section>
 <h2 id="source">來源與引用</h2>
 <p style="font-size:.88rem;line-height:1.65">Rzeski W., Rzeska W. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. <i>Nutrients</i> 2026, 18, 2511. <a href="https://doi.org/10.3390/nu18152511">https://doi.org/10.3390/nu18152511</a>（CC&nbsp;BY）。知識庫：<a href="https://graph.johnnykuo.com/#node=Spermidine">Spermidine</a> · <a href="https://graph.johnnykuo.com/#node=Fisetin">Fisetin</a> · <a href="https://graph.johnnykuo.com/#node=Berberine">Berberine</a> · <a href="https://graph.johnnykuo.com/#node=Urolithin%20A">Urolithin&nbsp;A</a>。</p>
+</section>
 
 <footer class="foot">估算值為已發表試驗範圍的示意性換算，非處方建議。證據成熟度差異大（小檗鹼：46 項 RCT 統合分析；尿石素 A：小型 RCT；亞精胺：流行病學＋小型 RCT；非瑟酮：臨床前＋早期試驗）。請諮詢醫師，特別是小檗鹼（藥物交互作用、孕期）與任何多重复方使用。教育內容；非醫療建議。</footer>
-</div>
+</main>
 
 <script>
 // ponytail: linear weight scaling clamped to published trial ranges; upgrade to PK model only if validated data exists.
@@ -242,6 +295,198 @@
   bM.addEventListener('click', function () { setMetric(true); });
   bU.addEventListener('click', function () { setMetric(false); });
   render();
+})();
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+// ponytail: one compact scene (hub + 6 labeled cells + pulse); split out only if reused elsewhere.
+(function () {
+  var stage = document.getElementById('sel3d-stage'),
+      canvas = document.getElementById('sel3d-canvas'),
+      phase = document.getElementById('sel3d-phase'),
+      detail = document.getElementById('sel3d-detail');
+  if (!stage || !canvas) return;
+  var renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+  } catch (_) { if (phase) phase.textContent = '無 WebGL — 請見下方文字摘要。'; return; }
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+  camera.position.set(0, 3.4, 11.5);
+  var controls = new OrbitControls(camera, canvas);
+  controls.enableDamping = true; controls.dampingFactor = 0.08;
+  controls.enablePan = false; controls.minDistance = 6; controls.maxDistance = 20;
+  controls.autoRotate = !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  controls.autoRotateSpeed = 0.9;
+  var CAM0 = camera.position.clone(); // ponytail: reset restores view too; drop if a shared reset lands
+  scene.add(new THREE.AmbientLight(0xfff2df, 0.85));
+  var key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(5, 8, 6); scene.add(key);
+  var rim = new THREE.DirectionalLight(0x88bbff, 0.5); rim.position.set(-6, 3, -5); scene.add(rim);
+
+  function label(text, sub, fg) {
+    var c = document.createElement('canvas'); c.width = 256; c.height = 96;
+    var g = c.getContext('2d');
+    g.fillStyle = 'rgba(0,0,0,0)'; g.fillRect(0, 0, 256, 96);
+    g.textAlign = 'center'; g.fillStyle = fg || '#222';
+    g.font = 'bold 26px system-ui,sans-serif'; g.fillText(text, 128, 38);
+    g.font = '20px system-ui,sans-serif'; g.fillStyle = sub === '✕ 清除' ? '#2a7a3f' : '#c1121f';
+    g.fillText(sub, 128, 68);
+    var t = new THREE.CanvasTexture(c); t.anisotropy = 4;
+    var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthTest: false });
+    var s = new THREE.Sprite(m); s.scale.set(2.6, 1.0, 1); return s;
+  }
+
+  var CLEAR = 0x2a9d8f, SPARE = 0xc1121f;
+  var cells = [
+    { n: 'T 淋巴細胞', s: 'cleared', d: '清除 — 老齡白色脂肪 CyTOF：p16+ T 細胞下降；周邊 CD3+ p16/p21 與 SASP 下降。' },
+    { n: 'NK 細胞', s: 'cleared', d: '清除 — 短程非瑟酮後，老齡脂肪中衰老 NK 比例下降。' },
+    { n: '前驅細胞', s: 'cleared', d: '清除 — 間充質幹／前驅細胞被移除；對 p16+ 作用大於 p21+ 細胞。' },
+    { n: '內皮細胞', s: 'cleared', d: '清除 — 主動脈單細胞定序：衰老內皮細胞被清除，Cxcl12／SASP 下降，功能恢復。' },
+    { n: '巨噬細胞', s: 'spared', d: '放過 — 活化類衰老巨噬細胞未被減少。單一「apoptosis」箭頭過度簡化。' },
+    { n: '樹突細胞', s: 'spared', d: '放過 — 樹突細胞未被減少。效應亦隨性別與疾病階段而異；無人體性別數據。' }
+  ];
+  var R = 3.6, groups = [];
+  cells.forEach(function (c, i) {
+    var a = i * Math.PI * 2 / cells.length - Math.PI / 2;
+    var grp = new THREE.Group();
+    grp.position.set(Math.cos(a) * R, (i % 2 ? 0.9 : -0.9), Math.sin(a) * R * 0.55);
+    var col = c.s === 'cleared' ? CLEAR : SPARE;
+    var body = new THREE.Mesh(
+      new THREE.SphereGeometry(0.8, 28, 22),
+      new THREE.MeshStandardMaterial({ color: col, transparent: true, opacity: 0.88, roughness: 0.45 })
+    );
+    var nuc = new THREE.Mesh(
+      new THREE.SphereGeometry(0.36, 20, 16),
+      new THREE.MeshStandardMaterial({ color: 0x333333, roughness: 0.6 })
+    );
+    nuc.position.set(0.15, 0.12, 0.3);
+    var tag = label(c.n, c.s === 'cleared' ? '✕ 清除' : '○ 放過');
+    tag.position.y = 1.35;
+    grp.add(body); grp.add(nuc); grp.add(tag);
+    grp.userData = { cell: c, body: body, nuc: nuc, base: grp.position.y, ph: Math.random() * 6.28, dead: 0 };
+    scene.add(grp); groups.push(grp);
+  });
+  // hub: fisetin pulse source
+  var hub = new THREE.Mesh(
+    new THREE.IcosahedronGeometry(0.65, 1),
+    new THREE.MeshStandardMaterial({ color: 0xe9c46a, emissive: 0x7a5a00, emissiveIntensity: 0.5, roughness: 0.3 })
+  );
+  scene.add(hub);
+  var hubTag = label('非瑟酮', 'PI3K/Akt + Bcl-2/xL', '#7a5a00'); hubTag.position.y = 1.25; scene.add(hubTag);
+  hubTag.position.set(0, 1.25, 0);
+  var ring = new THREE.Mesh(
+    new THREE.SphereGeometry(0.7, 32, 24),
+    new THREE.MeshBasicMaterial({ color: 0xe9c46a, transparent: true, opacity: 0, wireframe: true })
+  );
+  scene.add(ring);
+  var frags = [];
+  var pulseT = -1; // <0 idle; else seconds since fired
+
+  function fire() {
+    if (pulseT >= 0) return;
+    pulseT = 0;
+    groups.forEach(function (grp) {
+      if (grp.userData.cell.s === 'cleared') {
+        for (var k = 0; k < 6; k++) {
+          var f = new THREE.Mesh(
+            new THREE.IcosahedronGeometry(0.09 + Math.random() * 0.08, 0),
+            new THREE.MeshBasicMaterial({ color: CLEAR, transparent: true, opacity: 0.95 })
+          );
+          f.position.copy(grp.position);
+          f.userData.v = new THREE.Vector3((Math.random() - 0.5) * 2.4, Math.random() * 2.0, (Math.random() - 0.5) * 2.4);
+          scene.add(f); frags.push(f);
+        }
+      }
+    });
+    if (detail) detail.textContent = '脈衝觸發：綠色細胞起泡、碎裂並被清除；紅色細胞晃動但存續。這正是單一「apoptosis」箭頭掩蓋的選擇性。';
+  }
+  function reset() {
+    pulseT = -1;
+    frags.forEach(function (f) { scene.remove(f); f.geometry.dispose(); f.material.dispose(); });
+    frags = [];
+    groups.forEach(function (grp) {
+      grp.userData.dead = 0;
+      grp.userData.body.scale.setScalar(1);
+      grp.userData.body.material.opacity = 0.88;
+      grp.userData.nuc.scale.setScalar(1);
+      grp.rotation.z = 0;
+      grp.visible = true;
+    });
+    camera.position.copy(CAM0); controls.target.set(0, 0, 0);
+    ring.material.opacity = 0; ring.scale.setScalar(1);
+    if (detail) detail.textContent = '顯示 4 種清除 vs 2 種放過的衰老細胞類型。點選細胞查看證據。';
+  }
+  document.getElementById('sel3d-pulse').addEventListener('click', fire);
+  document.getElementById('sel3d-reset').addEventListener('click', reset);
+  var pauseBtn = document.getElementById('sel3d-pause');
+  function paintPause() { pauseBtn.setAttribute('aria-pressed', String(!controls.autoRotate)); pauseBtn.textContent = controls.autoRotate ? '暫停旋轉' : '繼續旋轉'; }
+  pauseBtn.addEventListener('click', function () { controls.autoRotate = !controls.autoRotate; paintPause(); });
+  paintPause();
+
+  var ray = new THREE.Raycaster(), ptr = new THREE.Vector2(), downAt = null;
+  canvas.addEventListener('pointerdown', function (e) { downAt = [e.clientX, e.clientY]; });
+  canvas.addEventListener('pointerup', function (e) {
+    if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 6) return;
+    var r = canvas.getBoundingClientRect();
+    ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(ptr, camera);
+    var hits = ray.intersectObjects(groups.map(function (g) { return g.userData.body; }));
+    if (hits.length) {
+      var grp = groups.find(function (g) { return g.userData.body === hits[0].object; });
+      if (grp && detail) detail.textContent = grp.userData.cell.n + '：' + grp.userData.cell.d;
+    }
+  });
+
+  function fit() {
+    var w = stage.clientWidth || 600, h = 320;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', fit); fit();
+  if (phase) phase.textContent = '拖曳旋轉 · 滾輪縮放 · 點選細胞';
+
+  var clock = new THREE.Clock();
+  (function loop() {
+    requestAnimationFrame(loop);
+    var dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
+    hub.rotation.y += 0.01; hubTag.position.y = 1.25 + Math.sin(t * 1.4) * 0.05;
+    if (pulseT >= 0) {
+      pulseT += dt;
+      var k = Math.min(pulseT / 2.5, 1);
+      ring.scale.setScalar(1 + pulseT * 4);
+      ring.material.opacity = Math.max(0, 0.5 * (1 - pulseT / 2.5));
+      groups.forEach(function (grp, i) {
+        if (grp.userData.cell.s === 'cleared') {
+          var d = Math.min(Math.max((pulseT - i * 0.15) / 1.8, 0), 1);
+          grp.userData.dead = d;
+          var jitter = d < 1 ? Math.sin(t * 40 + grp.userData.ph) * 0.06 * (1 - d) : 0;
+          grp.userData.body.scale.setScalar(Math.max(0.001, (1 - d) + jitter));
+          grp.userData.body.material.opacity = 0.88 * (1 - d);
+          grp.userData.nuc.scale.setScalar(Math.max(0.001, 1 - d));
+          if (d >= 1) grp.visible = false;
+        } else {
+          grp.rotation.z = Math.sin(t * 6 + grp.userData.ph) * 0.08 * Math.max(0, 1 - pulseT / 3);
+        }
+      });
+      frags.forEach(function (f) {
+        f.position.addScaledVector(f.userData.v, dt);
+        f.userData.v.y -= dt * 1.2;
+        f.material.opacity = Math.max(0, f.material.opacity - dt * 0.25);
+      });
+    } else {
+      groups.forEach(function (grp) {
+        grp.position.y = grp.userData.base + Math.sin(t * 1.2 + grp.userData.ph) * 0.09;
+        if (grp.userData.cell.s === 'cleared') {
+          var s = 1 + Math.sin(t * 2 + grp.userData.ph) * 0.03;
+          grp.userData.body.scale.setScalar(s);
+        }
+      });
+    }
+    controls.update();
+    renderer.render(scene, camera);
+  })();
 })();
 </script>
 </body>

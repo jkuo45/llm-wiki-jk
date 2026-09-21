@@ -14,6 +14,12 @@
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
 <script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
 <style>
   .wrap.page { max-width: 880px; }
   /* ponytail: tighter hero/kicker like recent theme-01 pages; drop if theme converges */
@@ -63,6 +69,18 @@
   .foodviz { display: flex; align-items: center; gap: 8px; margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--rule); }
   .foodviz .flabel { font-size: .76rem; line-height: 1.5; }
   footer.foot { margin-top: 26px; font-size: .8rem; color: var(--mute); line-height: 1.6; }
+  /* ponytail: three.js r160 selectivity stage; drop if a shared 3D component lands */
+  #sel3d { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; margin: 12px 0; }
+  #sel3d-stage { position: relative; height: 320px; overflow: hidden; touch-action: none; }
+  #sel3d-canvas { width: 100%; height: 100%; display: block; }
+  #sel3d-phase { position: absolute; left: 10px; top: 8px; font-size: .74rem; color: var(--mute); font-family: var(--mono); pointer-events: none; }
+  #sel3d-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; font-size: .82rem; }
+  #sel3d-bar button { cursor: pointer; padding: 4px 12px; border: 1px solid var(--rule); background: none; font: inherit; font-size: .8rem; }
+  #sel3d-bar button[aria-pressed=true] { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
+  #sel3d-detail { font-size: .85rem; line-height: 1.6; min-height: 2.6em; margin: 8px 0 0; }
+  #sel3d-fallback { font-size: .85rem; line-height: 1.6; }
+  .reffig { margin: 14px 0 0; }
+  .reffig img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
 </style>
 </head>
 <body>
@@ -75,6 +93,7 @@
       <a href="#compounds">Compounds</a>
       <a href="#estimator">Estimator</a>
       <a href="#combinations">Combinations</a>
+      <a href="#selectivity">Fisetin</a>
       <a href="#source">Source</a>
     </div>
   </div>
@@ -88,7 +107,7 @@
   </div>
 </header>
 
-<div class="wrap page" id="content">
+<main class="wrap page" id="content">
 
 <div id="calc-top">
   <label for="wt">Body weight — doses below scale to this</label>
@@ -101,6 +120,7 @@
   <p class="mono" id="wt-readout">70 kg (154 lb)</p>
 </div>
 
+<section>
 <h2 id="compounds">The four compounds at a glance</h2>
 <div class="grid2">
   <div class="card">
@@ -149,7 +169,9 @@
     <div class="foodviz" id="food-urolithin" aria-live="polite"></div>
   </div>
 </div>
+</section>
 
+<section>
 <h2 id="estimator">Weight-based dose &amp; interval estimator</h2>
 <div id="calc">
   <p style="font-size:.82rem">Method: linear scaling from a 70-kg reference to published human trial ranges, clamped to those ranges (illustrative only — trials used flat doses, and no weight-based regimen is validated). Spermidine is weight-independent at dietary doses, shown flat.</p>
@@ -159,17 +181,48 @@
   </table></div>
   <p class="mono" id="us-readout" style="font-size:.8rem"></p>
 </div>
+</section>
 
+<section>
 <h2 id="combinations">Combinations: what the review actually says</h2>
 <div class="warn"><b>Paraphrase of the review's position (not verbatim):</b> “No completed trial has tested all four together; the combination hypothesis is mechanistically grounded but prospectively unvalidated.” The review found <b>no peer-reviewed direct evidence for all-four co-administration</b>. The only registered trial combining any two is <b>NCT06990256</b> (n=80, 45–70&nbsp;y: urolithin&nbsp;A 500&nbsp;mg and fisetin 500&nbsp;mg single/combination arms incl. UA&nbsp;300&nbsp;mg + fisetin&nbsp;200&nbsp;mg; 12-week sleep, DNA-methylation age, inflammation, BMAL1, HOMA-IR endpoints).</div>
 <p style="font-size:.9rem;line-height:1.65">Promising early signals cited: <b>spermidine + urolithin&nbsp;A</b> (broad autophagy + selective mitophagy) and <b>spermidine + berberine</b> (caloric-restriction mimetics via deacetylation/autophagy vs AMPK–microbiota axes) are argued to be <b>additive rather than redundant</b>; the autophagy–senescence threshold model rationalizes sequencing (spermidine prevents senescence initiation pre-threshold; fisetin clears established senescent cells post-threshold). Network-medicine logic supports multi-node modulation — but the review stresses pharmacokinetics, disease stage, and individual (incl. urolithin metabotype) variability may dominate outcomes.</p>
 <div class="danger"><b>Interaction caution:</b> berberine (CYP3A4/P-gp inhibitor) + fisetin (CYP3A4 substrate and partial inhibitor) may mutually elevate plasma levels. Interim mitigation proposed: temporal separation (berberine AM / fisetin PM); avoid co-administration with narrow-therapeutic-index CYP3A4 substrates. Berberine is contraindicated in pregnancy. Pharmacokinetic co-administration studies are an explicit unmet gap — do not combine without clinician supervision.</div>
+</section>
 
+<section>
+<h2 id="selectivity">Fisetin is selective</h2>
+<p style="font-size:.9rem;line-height:1.65">Textbook senolytic diagrams draw a single arrow to <b>apoptosis</b>. In aged-mouse adipose/aorta (CyTOF + scRNA-seq, Yousefzadeh 2018 and follow-ups), intermittent fisetin <b>clears 4 senescent sub-types and spares 2</b> — and effects differ by <b>sex and disease stage</b> (e.g. early-life dosing beneficial in males; no human sex-stratified data). Drag to orbit · scroll to zoom · click a cell · fire the pulse.</p>
+<div id="sel3d">
+  <div id="sel3d-stage" role="group" aria-label="Three.js model of fisetin-sensitive vs spared senescent cell types">
+    <canvas id="sel3d-canvas" aria-label="3-D fisetin selectivity model"></canvas>
+    <div id="sel3d-phase">loading three.js…</div>
+  </div>
+  <div id="sel3d-bar">
+    <button id="sel3d-pulse" type="button">Fisetin pulse</button>
+    <button id="sel3d-reset" type="button">Reset cells</button>
+    <button id="sel3d-pause" aria-pressed="false" type="button">Pause rotation</button>
+    <span class="mono" aria-hidden="true">— green = cleared · red = spared —</span>
+  </div>
+  <p id="sel3d-detail" aria-live="polite">Showing 4 cleared vs 2 spared senescent cell types. Select a cell for the evidence.</p>
+  <noscript><ul id="sel3d-fallback">
+    <li>Cleared: T lymphocytes, NK cells, mesenchymal progenitor cells, endothelial cells.</li>
+    <li>Spared: activated senescent-like macrophages, dendritic cells.</li>
+  </ul></noscript>
+</div>
+  <figure class="reffig">
+    <a href="https://api.johnnykuo.com/v1/notes/image/n-20260921-senolytics-senomorphics-00/1" target="_blank" rel="noopener" title="Open full-resolution figure"><img src="https://api.johnnykuo.com/v1/notes/image/n-20260921-senolytics-senomorphics-00/1" alt="Birch and Gil 2020 Figure 4: (A) senolytics converging on a single Apoptosis arrow; (B) senomorphics converging on SASP modulation" loading="lazy"></a>
+    <figcaption><b>Reference — Birch &amp; Gil 2020, Figure 4.</b> Panel A funnels every senolytic (dasatinib, quercetin, ABT-26/73, FOXO4-DRI, ouabain…) into a single <b>Apoptosis</b> arrow — the uniformity this section argues against. Panel B shows the alternative: senomorphics (rapamycin, ruxolitinib, anakinra, MCC950…) converging on <b>SASP modulation</b> instead. Full text: <a href="https://doi.org/10.1101/gad.343129.120">doi:10.1101/gad.343129.120</a> (CC BY-NC 4.0) · ingested as <a href="https://graph.johnnykuo.com/#notes=n-20260921-senolytics-senomorphics-00"><code>n-20260921-senolytics-senomorphics-00</code></a>.</figcaption>
+  </figure>
+</section>
+
+<section>
 <h2 id="source">Source &amp; citation</h2>
 <p style="font-size:.88rem;line-height:1.65">Rzeski W., Rzeska W. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. <i>Nutrients</i> 2026, 18, 2511. <a href="https://doi.org/10.3390/nu18152511">https://doi.org/10.3390/nu18152511</a> (CC&nbsp;BY). Vault note: <a href="https://graph.johnnykuo.com/#node=Spermidine">Spermidine</a> · <a href="https://graph.johnnykuo.com/#node=Fisetin">Fisetin</a> · <a href="https://graph.johnnykuo.com/#node=Berberine">Berberine</a> · <a href="https://graph.johnnykuo.com/#node=Urolithin%20A">Urolithin&nbsp;A</a>.</p>
+</section>
 
 <footer class="foot">Estimator outputs are illustrative scalings of published trial ranges, not prescriptions. Evidence maturity varies widely (berberine: 46-RCT meta-analysis; urolithin&nbsp;A: small RCTs; spermidine: epidemiology + small RCTs; fisetin: preclinical + early-phase). Consult a clinician, especially for berberine (drug interactions, pregnancy) and any multi-compound use. Educational content; not medical advice.</footer>
-</div>
+</main>
 
 <script>
 // ponytail: linear weight scaling clamped to published trial ranges; upgrade to PK model only if validated data exists.
@@ -242,6 +295,198 @@
   bM.addEventListener('click', function () { setMetric(true); });
   bU.addEventListener('click', function () { setMetric(false); });
   render();
+})();
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+// ponytail: one compact scene (hub + 6 labeled cells + pulse); split out only if reused elsewhere.
+(function () {
+  var stage = document.getElementById('sel3d-stage'),
+      canvas = document.getElementById('sel3d-canvas'),
+      phase = document.getElementById('sel3d-phase'),
+      detail = document.getElementById('sel3d-detail');
+  if (!stage || !canvas) return;
+  var renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+  } catch (_) { if (phase) phase.textContent = 'WebGL unavailable — see text summary below.'; return; }
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+  camera.position.set(0, 3.4, 11.5);
+  var controls = new OrbitControls(camera, canvas);
+  controls.enableDamping = true; controls.dampingFactor = 0.08;
+  controls.enablePan = false; controls.minDistance = 6; controls.maxDistance = 20;
+  controls.autoRotate = !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  controls.autoRotateSpeed = 0.9;
+  var CAM0 = camera.position.clone(); // ponytail: reset restores view too; drop if a shared reset lands
+  scene.add(new THREE.AmbientLight(0xfff2df, 0.85));
+  var key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(5, 8, 6); scene.add(key);
+  var rim = new THREE.DirectionalLight(0x88bbff, 0.5); rim.position.set(-6, 3, -5); scene.add(rim);
+
+  function label(text, sub, fg) {
+    var c = document.createElement('canvas'); c.width = 256; c.height = 96;
+    var g = c.getContext('2d');
+    g.fillStyle = 'rgba(0,0,0,0)'; g.fillRect(0, 0, 256, 96);
+    g.textAlign = 'center'; g.fillStyle = fg || '#222';
+    g.font = 'bold 26px system-ui,sans-serif'; g.fillText(text, 128, 38);
+    g.font = '20px system-ui,sans-serif'; g.fillStyle = sub === '✕ cleared' ? '#2a7a3f' : '#c1121f';
+    g.fillText(sub, 128, 68);
+    var t = new THREE.CanvasTexture(c); t.anisotropy = 4;
+    var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthTest: false });
+    var s = new THREE.Sprite(m); s.scale.set(2.6, 1.0, 1); return s;
+  }
+
+  var CLEAR = 0x2a9d8f, SPARE = 0xc1121f;
+  var cells = [
+    { n: 'T lymphocytes', s: 'cleared', d: 'Cleared — aged WAT CyTOF: p16+ T cells fall; peripheral CD3+ p16/p21 and SASP fall.' },
+    { n: 'NK cells', s: 'cleared', d: 'Cleared — senescent NK fraction in aged fat reduced after short-course fisetin.' },
+    { n: 'Progenitor', s: 'cleared', d: 'Cleared — mesenchymal stem/progenitor cells removed; stronger on p16+ than p21+ cells.' },
+    { n: 'Endothelial', s: 'cleared', d: 'Cleared — aortic scRNA-seq: senescent ECs eliminated, Cxcl12/SASP down, function restored.' },
+    { n: 'Macrophage', s: 'spared', d: 'Spared — activated senescent-like macrophages NOT reduced. A uniform “apoptosis” arrow overstates.' },
+    { n: 'Dendritic', s: 'spared', d: 'Spared — dendritic cells NOT reduced. Sex/disease-stage effects also differ; no human sex data.' }
+  ];
+  var R = 3.6, groups = [];
+  cells.forEach(function (c, i) {
+    var a = i * Math.PI * 2 / cells.length - Math.PI / 2;
+    var grp = new THREE.Group();
+    grp.position.set(Math.cos(a) * R, (i % 2 ? 0.9 : -0.9), Math.sin(a) * R * 0.55);
+    var col = c.s === 'cleared' ? CLEAR : SPARE;
+    var body = new THREE.Mesh(
+      new THREE.SphereGeometry(0.8, 28, 22),
+      new THREE.MeshStandardMaterial({ color: col, transparent: true, opacity: 0.88, roughness: 0.45 })
+    );
+    var nuc = new THREE.Mesh(
+      new THREE.SphereGeometry(0.36, 20, 16),
+      new THREE.MeshStandardMaterial({ color: 0x333333, roughness: 0.6 })
+    );
+    nuc.position.set(0.15, 0.12, 0.3);
+    var tag = label(c.n, c.s === 'cleared' ? '✕ cleared' : '○ spared');
+    tag.position.y = 1.35;
+    grp.add(body); grp.add(nuc); grp.add(tag);
+    grp.userData = { cell: c, body: body, nuc: nuc, base: grp.position.y, ph: Math.random() * 6.28, dead: 0 };
+    scene.add(grp); groups.push(grp);
+  });
+  // hub: fisetin pulse source
+  var hub = new THREE.Mesh(
+    new THREE.IcosahedronGeometry(0.65, 1),
+    new THREE.MeshStandardMaterial({ color: 0xe9c46a, emissive: 0x7a5a00, emissiveIntensity: 0.5, roughness: 0.3 })
+  );
+  scene.add(hub);
+  var hubTag = label('Fisetin', 'PI3K/Akt + Bcl-2/xL', '#7a5a00'); hubTag.position.y = 1.25; scene.add(hubTag);
+  hubTag.position.set(0, 1.25, 0);
+  var ring = new THREE.Mesh(
+    new THREE.SphereGeometry(0.7, 32, 24),
+    new THREE.MeshBasicMaterial({ color: 0xe9c46a, transparent: true, opacity: 0, wireframe: true })
+  );
+  scene.add(ring);
+  var frags = [];
+  var pulseT = -1; // <0 idle; else seconds since fired
+
+  function fire() {
+    if (pulseT >= 0) return;
+    pulseT = 0;
+    groups.forEach(function (grp) {
+      if (grp.userData.cell.s === 'cleared') {
+        for (var k = 0; k < 6; k++) {
+          var f = new THREE.Mesh(
+            new THREE.IcosahedronGeometry(0.09 + Math.random() * 0.08, 0),
+            new THREE.MeshBasicMaterial({ color: CLEAR, transparent: true, opacity: 0.95 })
+          );
+          f.position.copy(grp.position);
+          f.userData.v = new THREE.Vector3((Math.random() - 0.5) * 2.4, Math.random() * 2.0, (Math.random() - 0.5) * 2.4);
+          scene.add(f); frags.push(f);
+        }
+      }
+    });
+    if (detail) detail.textContent = 'Pulse fired: green cells bleb into fragments and clear; red cells wobble but persist. That is the selectivity the single “apoptosis” arrow hides.';
+  }
+  function reset() {
+    pulseT = -1;
+    frags.forEach(function (f) { scene.remove(f); f.geometry.dispose(); f.material.dispose(); });
+    frags = [];
+    groups.forEach(function (grp) {
+      grp.userData.dead = 0;
+      grp.userData.body.scale.setScalar(1);
+      grp.userData.body.material.opacity = 0.88;
+      grp.userData.nuc.scale.setScalar(1);
+      grp.rotation.z = 0;
+      grp.visible = true;
+    });
+    camera.position.copy(CAM0); controls.target.set(0, 0, 0);
+    ring.material.opacity = 0; ring.scale.setScalar(1);
+    if (detail) detail.textContent = 'Showing 4 cleared vs 2 spared senescent cell types. Select a cell for the evidence.';
+  }
+  document.getElementById('sel3d-pulse').addEventListener('click', fire);
+  document.getElementById('sel3d-reset').addEventListener('click', reset);
+  var pauseBtn = document.getElementById('sel3d-pause');
+  function paintPause() { pauseBtn.setAttribute('aria-pressed', String(!controls.autoRotate)); pauseBtn.textContent = controls.autoRotate ? 'Pause rotation' : 'Resume rotation'; }
+  pauseBtn.addEventListener('click', function () { controls.autoRotate = !controls.autoRotate; paintPause(); });
+  paintPause();
+
+  var ray = new THREE.Raycaster(), ptr = new THREE.Vector2(), downAt = null;
+  canvas.addEventListener('pointerdown', function (e) { downAt = [e.clientX, e.clientY]; });
+  canvas.addEventListener('pointerup', function (e) {
+    if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 6) return;
+    var r = canvas.getBoundingClientRect();
+    ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(ptr, camera);
+    var hits = ray.intersectObjects(groups.map(function (g) { return g.userData.body; }));
+    if (hits.length) {
+      var grp = groups.find(function (g) { return g.userData.body === hits[0].object; });
+      if (grp && detail) detail.textContent = grp.userData.cell.n + ': ' + grp.userData.cell.d;
+    }
+  });
+
+  function fit() {
+    var w = stage.clientWidth || 600, h = 320;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', fit); fit();
+  if (phase) phase.textContent = 'drag to orbit · scroll to zoom · click a cell';
+
+  var clock = new THREE.Clock();
+  (function loop() {
+    requestAnimationFrame(loop);
+    var dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
+    hub.rotation.y += 0.01; hubTag.position.y = 1.25 + Math.sin(t * 1.4) * 0.05;
+    if (pulseT >= 0) {
+      pulseT += dt;
+      var k = Math.min(pulseT / 2.5, 1);
+      ring.scale.setScalar(1 + pulseT * 4);
+      ring.material.opacity = Math.max(0, 0.5 * (1 - pulseT / 2.5));
+      groups.forEach(function (grp, i) {
+        if (grp.userData.cell.s === 'cleared') {
+          var d = Math.min(Math.max((pulseT - i * 0.15) / 1.8, 0), 1);
+          grp.userData.dead = d;
+          var jitter = d < 1 ? Math.sin(t * 40 + grp.userData.ph) * 0.06 * (1 - d) : 0;
+          grp.userData.body.scale.setScalar(Math.max(0.001, (1 - d) + jitter));
+          grp.userData.body.material.opacity = 0.88 * (1 - d);
+          grp.userData.nuc.scale.setScalar(Math.max(0.001, 1 - d));
+          if (d >= 1) grp.visible = false;
+        } else {
+          grp.rotation.z = Math.sin(t * 6 + grp.userData.ph) * 0.08 * Math.max(0, 1 - pulseT / 3);
+        }
+      });
+      frags.forEach(function (f) {
+        f.position.addScaledVector(f.userData.v, dt);
+        f.userData.v.y -= dt * 1.2;
+        f.material.opacity = Math.max(0, f.material.opacity - dt * 0.25);
+      });
+    } else {
+      groups.forEach(function (grp) {
+        grp.position.y = grp.userData.base + Math.sin(t * 1.2 + grp.userData.ph) * 0.09;
+        if (grp.userData.cell.s === 'cleared') {
+          var s = 1 + Math.sin(t * 2 + grp.userData.ph) * 0.03;
+          grp.userData.body.scale.setScalar(s);
+        }
+      });
+    }
+    controls.update();
+    renderer.render(scene, camera);
+  })();
 })();
 </script>
 </body>
