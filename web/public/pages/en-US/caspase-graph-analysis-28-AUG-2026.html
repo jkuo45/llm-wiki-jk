@@ -360,37 +360,27 @@ figcaption { font-size: 12.5px; }
         Computed on the <strong>combined giant component</strong> (4,271 nodes / 34,780 unique-pair edges).
       </p>
       <h3>Caspase-1 → death and senescence programs</h3>
-      <p>
-        <strong>Caspase-1 → Pyroptosis / Inflammasome / SASP</strong>: direct 1-hop edges
-        (<code>promotes</code> to SASP is new since August). Reaching
-        <strong>Ferroptosis</strong> is now a single 2-hop path via SASP (was 81 paths through ~20
-        intermediates), and reaching <strong>Senescence</strong> passes through 7 intermediates
-        (Drosha, Idiopathic Pulmonary Fibrosis, Inflammaging, Inflammation, Paracrine Senescence,
-        SASP, SIRT1). <strong>CASP-1 → Bcl-2 family</strong> now has a 2-hop path via Bid
-        (<code>cleaves</code>) — the senolytic axis is no longer disconnected.
-      </p>
+      <ul>
+        <li><strong>Direct 1-hop edges</strong> — Caspase-1 → Pyroptosis / Inflammasome / SASP (<code>promotes</code> to SASP is new since August).</li>
+        <li><strong>Ferroptosis</strong> — now a single 2-hop path via SASP (was 81 paths through ~20 intermediates).</li>
+        <li><strong>Senescence</strong> — passes through 7 intermediates (Drosha, Idiopathic Pulmonary Fibrosis, Inflammaging, Inflammation, Paracrine Senescence, SASP, SIRT1).</li>
+        <li><strong>Bcl-2 family</strong> — now a 2-hop path via Bid (<code>cleaves</code>); the senolytic axis is no longer disconnected.</li>
+      </ul>
       <h3>Caspase-3/8/9 → Apoptosis</h3>
-      <p>
-        Direct edges for CASP-3 and CASP-8; combined
-        Adamic-Adar proximity is CASP-3 20.1, CASP-8 17.2, CASP-9 11.5, Caspases 11.6, CASP-7 7.5.
-      </p>
+      <ul>
+        <li><strong>Direct edges</strong> for CASP-3 and CASP-8.</li>
+        <li><strong>Adamic-Adar proximity</strong> — CASP-3 20.1 · CASP-8 17.2 · CASP-9 11.5 · Caspases 11.6 · CASP-7 7.5.</li>
+      </ul>
       <h3>Caspase-8 → Necroptosis rheostat</h3>
-      <p>
-        <strong>Caspase-8 → Necroptosis is now a direct edge</strong>
-        (<code>inhibits</code>, both layers) — the August prediction is resolved. New since August:
-        a <strong>Caspase-8-c-FLIP Rheostat</strong> node (degree 45, Necroptosis community) now
-        models the inhibitory rheostat mechanistically.
-      </p>
+      <ul>
+        <li><strong>Caspase-8 → Necroptosis is now a direct edge</strong> (<code>inhibits</code>, both layers) — the August prediction is resolved.</li>
+        <li><strong>New node:</strong> Caspase-8-c-FLIP Rheostat (degree 45, Necroptosis community) now models the inhibitory rheostat mechanistically.</li>
+      </ul>
       <h3>Weakest wiring</h3>
-      <p>
-        <strong>Weakest apoptotic wiring</strong>: Caspase-12 (AA 2.09, no direct inflammasome/pyroptosis
-        proximity); Caspase-10 (AA 5.2 but Jaccard with CASP-8 down to 0.22).
-      </p>
-      <p>
-        <strong>Caspase-2 → Apoptosis is still missing</strong> (14 two-hop paths via PIDD, RAIDD,
-        CDK1, SIRT1, Bid, and others; AA 4.65, strongest anchor ahead of p53 at 2.65). The defect is
-        the absent direct edge, not the biology.
-      </p>
+      <ul>
+        <li><strong>Weakest apoptotic wiring</strong> — Caspase-12 (AA 2.09, no direct inflammasome/pyroptosis proximity); Caspase-10 (AA 5.2 but Jaccard with CASP-8 down to 0.22).</li>
+        <li><strong>Caspase-2 → Apoptosis still missing</strong> — 14 two-hop paths via PIDD, RAIDD, CDK1, SIRT1, Bid, and others; AA 4.65, strongest anchor ahead of p53 at 2.65. The defect is the absent direct edge, not the biology.</li>
+      </ul>
     </section>
 
     <section id="ppr">
