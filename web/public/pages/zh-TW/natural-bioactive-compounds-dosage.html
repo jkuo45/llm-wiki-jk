@@ -50,9 +50,13 @@
   .units { display: flex; gap: 8px; margin: 8px 0; }
   .units button { cursor: pointer; padding: 6px 14px; border: 1px solid var(--rule); background: none; font: inherit; font-size: .85rem; }
   .units button[aria-pressed=true] { background: var(--oxblood); color: #fff; border-color: var(--oxblood); }
-  table.doses { width: 100%; border-collapse: collapse; font-size: .87rem; margin-top: 12px; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-top: 12px; }
+  table.doses { width: 100%; min-width: 640px; border-collapse: collapse; font-size: .87rem; margin-top: 0; }
   table.doses th, table.doses td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
   table.doses th { background: var(--sheet); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+  /* ponytail: frozen first column mirrors md-viewer pattern; solid bg so scrolled rows don't show through */
+  table.doses thead th:first-child, table.doses tbody td:first-child { position: sticky; left: 0; z-index: 1; background: var(--sheet); box-shadow: 1px 0 0 var(--rule); }
+  table.doses thead th:first-child { z-index: 2; }
   .warn { border-left: 4px solid var(--gold, #b58900); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
   .danger { border-left: 4px solid var(--red, #c1121f); background: var(--sheet); padding: 10px 14px; font-size: .87rem; margin: 12px 0; }
   .mono { font-family: var(--mono); font-size: .82rem; }
@@ -149,10 +153,10 @@
 <h2 id="estimator">依體重估算劑量與服用頻率</h2>
 <div id="calc">
   <p style="font-size:.82rem">方法：以 70 公斤為基準，對已發表人體試驗劑量範圍作線性換算並箝制於該範圍內（僅供示意 — 試驗採固定劑量，目前並無驗證過的體重公式）。亞精胺在膳食劑量下與體重無關，以固定值顯示。</p>
-  <table class="doses">
+  <div class="table-wrap"><table class="doses">
     <thead><tr><th>化合物</th><th>建議劑量</th><th>頻率</th><th>性別差異</th></tr></thead>
     <tbody id="dose-rows"></tbody>
-  </table>
+  </table></div>
   <p class="mono" id="us-readout" style="font-size:.8rem"></p>
 </div>
 
