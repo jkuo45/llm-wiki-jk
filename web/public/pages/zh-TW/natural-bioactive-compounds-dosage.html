@@ -230,7 +230,7 @@
 
 <section>
 <h2 id="prodrug">前藥可行性 — 非瑟酮 3,7-二異丁酸酯</h2>
-<p style="font-size:.9rem;line-height:1.65">非瑟酮的四個酚羥基（3、7、3′、4′）使它成為 UGT／SULT 結合反應的主要受質 — 這正是口服暴露崩壞的主因。將 <b>3-OH 與 7-OH</b> 遮蔽為<b>異丁醯酯</b>（保留衰老細胞清除所需的兒茶酚），可使 logP 上升約 1.7 個單位、氫鍵供體由 4 降至 2，並在組織羧酸酯酶（CES1／2）再生游離非瑟酮之前，阻斷兩個主要第二相代謝位點。下方為 RDKit MMFF 最佳化 3D 幾何（PubChem CID&nbsp;5281614），逐步展示：結合失敗 → 膜穿透 → CES 活化。拖曳旋轉 · 滾輪縮放。</p>
+<p style="font-size:.9rem;line-height:1.65">非瑟酮的四個酚羥基（3、7、3′、4′）使它成為 UGT／SULT 結合反應的主要受質 — 這正是口服暴露崩壞的主因。將 <b>3-OH 與 7-OH</b> 遮蔽為<b>異丁醯酯</b>（保留衰老細胞清除所需的兒茶酚），可使 logP 上升約 1.7 個單位、氫鍵供體由 4 降至 2，並在組織羧酸酯酶（CES1／2）再生游離非瑟酮之前，阻斷兩個主要第二相代謝位點。下方為 RDKit MMFF 最佳化 3D 幾何（PubChem CID&nbsp;5281614），逐步展示：結合失敗 → 膜穿透 → CES 活化 → 腸道 → 門脈 → 肝臟首過（小葉分區：CES vs UGT vs CYP3A4 節點）。拖曳旋轉 · 滾輪縮放。</p>
 <div id="pd3d">
   <div id="pd3d-stage" role="group" aria-label="非瑟酮前藥活化階段 three.js 分子模型">
     <canvas id="pd3d-canvas" aria-label="3-D 非瑟酮前藥分子模型"></canvas>
@@ -250,6 +250,9 @@
     <li>階段二 — 二異丁酸酯前藥：遮蔽 3-OH 與 7-OH；logP 2.3→4.0、HBD 4→2；兒茶酚保留給衰老細胞靶點結合。</li>
     <li>階段三 — 膜穿透：較高親脂性驅動被動跨細胞擴散，通過腸上皮細胞雙層膜。</li>
     <li>階段四 — CES 活化：羧酸酯酶切割兩個酯帽，在目標組織釋放游離非瑟酮＋異丁酸。</li>
+    <li>階段五 — 腸腔：支鏈酯耐受腸道酯酶；分區示意 — 腔內 vs 腸壁。</li>
+    <li>階段六 — 門靜脈：完整前藥經內臟循環運送至肝臟（示意 T+ 約 10–30 分鐘）。</li>
+    <li>階段七 — 肝臟首過分區：小葉周邊 CES1/2 偏向釋放母體；中帶／中央靜脈周 CYP3A4＋UGT 偏向氧化／葡萄糖醛酸化；各器官分配決定全身母體暴露。CYP3A4 亦是小檗鹼抑制的節點（見合併使用警示）。</li>
   </ul></noscript>
 </div>
 </section>
@@ -714,6 +717,72 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     capG.visible = false; scene.add(capG); caps.push(capG);
   }
 
+  // --- PK props: lumen → portal → liver lobule (phases 5–7) ---
+  var lumen = new THREE.Group();
+  lumen.add(new THREE.Mesh(
+    new THREE.BoxGeometry(14, 0.3, 4),
+    new THREE.MeshStandardMaterial({ color: 0xb58900, transparent: true, opacity: 0.28 })
+  ));
+  var lumenTag = label('腸腔', '口服劑量', '#b58900'); lumenTag.position.y = 1.5; lumen.add(lumenTag);
+  lumen.visible = false; scene.add(lumen);
+
+  var giEst = new THREE.Group();
+  [-3.5, 3.5].forEach(function (x) {
+    var b = new THREE.Mesh(
+      new THREE.IcosahedronGeometry(0.7, 1),
+      new THREE.MeshStandardMaterial({ color: 0xbc4749, roughness: 0.5, transparent: true, opacity: 0.88 })
+    );
+    b.position.set(x, 1.8, 1.2);
+    giEst.add(b);
+  });
+  var giTag = label('腸道酯酶', '位阻彈開', '#bc4749'); giTag.position.set(0, 3.4, 1.2); giEst.add(giTag);
+  giEst.visible = false; scene.add(giEst);
+
+  var portalCurve = new THREE.CatmullRomCurve3([
+    new THREE.Vector3(-10, -2.5, 0),
+    new THREE.Vector3(-6, -1.2, 0.8),
+    new THREE.Vector3(-3, -0.4, 0),
+    new THREE.Vector3(0, 0, 0)
+  ]);
+  var portalG = new THREE.Group();
+  portalG.add(new THREE.Mesh(
+    new THREE.TubeGeometry(portalCurve, 48, 0.32, 8, false),
+    new THREE.MeshStandardMaterial({ color: 0x9b2226, transparent: true, opacity: 0.55 })
+  ));
+  var portalTag = label('門靜脈', '內臟 → 肝', '#9b2226'); portalTag.position.set(-5, 2.0, 0); portalG.add(portalTag);
+  portalG.visible = false; scene.add(portalG);
+
+  var lobule = new THREE.Group();
+  lobule.add(new THREE.Mesh(
+    new THREE.CircleGeometry(3.4, 48),
+    new THREE.MeshStandardMaterial({ color: 0x2a9d8f, transparent: true, opacity: 0.1, side: THREE.DoubleSide })
+  ));
+  [{ r: 1.3, c: 0x2a9d8f }, { r: 2.3, c: 0xe9c46a }, { r: 3.3, c: 0x7b2cbf }].forEach(function (z) {
+    lobule.add(new THREE.Mesh(
+      new THREE.TorusGeometry(z.r, 0.12, 8, 48),
+      new THREE.MeshStandardMaterial({ color: z.c, transparent: true, opacity: 0.75 })
+    ));
+  });
+  var lobTag = label('肝小葉', '分區', '#0f766e'); lobTag.position.y = 4.1; lobule.add(lobTag);
+  var z1 = label('Z1 小葉周邊', 'CES1/2 ↑', '#2a7a3f'); z1.position.set(-1.8, 1.7, 0.3); z1.scale.set(3.4, 1.2, 1); lobule.add(z1);
+  var z2 = label('Z2 中帶', '混合', '#7a5a00'); z2.position.set(0.2, 0.2, 0.3); z2.scale.set(2.4, 1.0, 1); lobule.add(z2);
+  var z3 = label('Z3 中央靜脈周', 'CYP3A4 + UGT ↑', '#7b2cbf'); z3.position.set(2.0, -1.8, 0.3); z3.scale.set(3.6, 1.2, 1); lobule.add(z3);
+  lobule.visible = false; scene.add(lobule);
+
+  var cyp = new THREE.Group();
+  cyp.add(new THREE.Mesh(
+    new THREE.IcosahedronGeometry(1.1, 1),
+    new THREE.MeshStandardMaterial({ color: 0x7b2cbf, roughness: 0.45, transparent: true, opacity: 0.92 })
+  ));
+  var cypTag = label('CYP3A4', '氧化 → 代謝物', '#7b2cbf'); cypTag.position.y = 1.7; cyp.add(cypTag);
+  cyp.visible = false; scene.add(cyp);
+
+  function hidePk() {
+    lumen.visible = false; giEst.visible = false; portalG.visible = false;
+    lobule.visible = false; cyp.visible = false;
+    ugt.scale.setScalar(1); ces.scale.setScalar(1);
+  }
+
   var PHASES = [
     {
       name: '一 · 游離非瑟酮第一相失敗',
@@ -776,14 +845,65 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
           c.position.set(3.5 + i * 2.2, -2.5 + i * 0.8, 0.5);
         });
       }
+    },
+    {
+      name: '五 · 腸腔存活',
+      stats: statsHTML(MOLS.prodrug) + '<br>分區：腔 → 腸壁<br>腸道酯酶：彈開',
+      detail: '口服劑量位於腸腔。胰腺／刷狀緣酯酶會攻擊普通酯；支鏈異丁醯帽可耐受（示意：腔內約 80% 前藥完整，而游離非瑟酮會在腸壁被結合）。下方膜＝腸上皮細胞，承接階段三的邏輯。',
+      setup: function () {
+        fisGroup.visible = false; proGroup.visible = true;
+        membrane.visible = true; memTag.visible = false;
+        lumen.visible = true; lumen.position.set(0, -4.5, 0);
+        giEst.visible = true;
+        ugt.visible = false; glc.visible = false; ces.visible = false; cyp.visible = false;
+        caps.forEach(function (c) { c.visible = false; });
+        proGroup.position.set(0, -2.2, 0); proGroup.scale.setScalar(0.9);
+        proGroup.rotation.set(0.3, 0.4, 0);
+      }
+    },
+    {
+      name: '六 · 門脈運送',
+      stats: statsHTML(MOLS.prodrug) + '<br>腸壁 → 門脈血<br>T+ 約 10–30 分（示意）',
+      detail: '完整前藥跨腸上皮吸收進入門靜脈 — 內臟血流在任何全身逃逸之前直接將其送往肝臟。門脈血流占心輸出量比例高，使這條路徑成為口服劑量的主導首過路徑。',
+      setup: function () {
+        fisGroup.visible = false; proGroup.visible = true;
+        membrane.visible = false; memTag.visible = false;
+        lumen.visible = false; giEst.visible = false;
+        portalG.visible = true;
+        ugt.visible = false; glc.visible = false; ces.visible = false; cyp.visible = false;
+        lobule.visible = false;
+        caps.forEach(function (c) { c.visible = false; });
+        proGroup.scale.setScalar(0.75); proGroup.rotation.set(0, 0, 0);
+      }
+    },
+    {
+      name: '七 · 肝臟首過＋分區',
+      stats: statsHTML(MOLS.prodrug) + '<br>Z1 CES1/2 → 母體 ~40%<br>Z2/Z3 CYP3A4+UGT → 代謝物 ~60%<br>（示意分配）',
+      detail: '小葉分區決定這場競賽：小葉周邊肝細胞（Z1）富含 CES，將二異丁酸酯水解回游離非瑟酮以進入全身；中帶／中央靜脈周（Z2/Z3）以 CYP3A4 氧化與 UGT 葡萄糖醛酸化為主，將前藥與母體導入無活性代謝物（膽汁／尿液）。CYP3A4 正是小檗鹼抑制的節點 — 合併給藥可能改變此分配（見合併使用警示）。各器官分配細節：富含 CES 的腸壁已釋放部分母體；肝臟再將其餘分配為全身母體 vs 結合清除。',
+      setup: function () {
+        fisGroup.visible = false; proGroup.visible = true;
+        membrane.visible = false; memTag.visible = false;
+        lumen.visible = false; giEst.visible = false; portalG.visible = false;
+        lobule.visible = true; lobule.position.set(0, -1.5, 0);
+        ugt.visible = true; ugt.position.set(4.8, 1.5, 1); ugt.scale.setScalar(0.85);
+        ces.visible = true; ces.position.set(-4.2, 2.0, 1); ces.scale.setScalar(0.85);
+        cyp.visible = true; cyp.position.set(2.2, -3.5, 1); cyp.scale.setScalar(0.85);
+        glc.visible = false;
+        caps.forEach(function (c) { c.visible = false; });
+        proGroup.position.set(0, 3.2, 0); proGroup.scale.setScalar(0.7);
+        proGroup.rotation.set(0.5, 0, 0);
+      }
     }
   ];
 
   var phase = -1;
+  var pkTPlus = 0;
   function setPhase(i) {
     phase = ((i % PHASES.length) + PHASES.length) % PHASES.length;
+    hidePk();
     var p = PHASES[phase];
     p.setup();
+    pkTPlus = 0;
     if (phaseEl) phaseEl.textContent = p.name;
     if (statsEl) statsEl.innerHTML = p.stats;
     if (detailEl) detailEl.textContent = p.detail;
@@ -836,6 +956,37 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       caps.forEach(function (c, i) {
         c.position.y = (-2.5 + i * 0.8) + Math.sin(t * 1.5 + i) * 0.35;
         c.rotation.y += dt * (0.4 + i * 0.15);
+      });
+    } else if (phase === 4 && proGroup.visible) {
+      proGroup.position.y = -2.2 + Math.sin(t * 1.3) * 0.2;
+      proGroup.rotation.y += dt * 0.3;
+      giEst.children.forEach(function (b, i) {
+        if (b.isMesh) b.position.y = 1.8 + Math.abs(Math.sin(t * 2.2 + i)) * 0.6;
+      });
+    } else if (phase === 5 && proGroup.visible) {
+      var pu = (Math.sin(t * 0.45) + 1) / 2;
+      portalCurve.getPointAt(Math.min(0.999, Math.max(0.001, pu)), proGroup.position);
+      proGroup.position.y += 1.0;
+      proGroup.rotation.y += dt * 0.5;
+      var tNow = Math.round(10 + pu * 20);
+      if (statsEl && tNow !== pkTPlus) {
+        pkTPlus = tNow;
+        statsEl.innerHTML = statsHTML(MOLS.prodrug) +
+          '<br>腸壁 → 門脈血<br>T+ 約 ' + tNow + ' 分（示意）';
+      }
+    } else if (phase === 6) {
+      ugt.position.y = 1.5 + Math.sin(t * 1.9) * 0.3;
+      ugt.rotation.y += dt * 0.5;
+      ces.position.y = 2.0 + Math.sin(t * 1.6 + 1) * 0.3;
+      cyp.position.y = -3.5 + Math.sin(t * 2.1 + 2) * 0.35;
+      cyp.rotation.y -= dt * 0.55;
+      proGroup.position.y = 3.2 + Math.sin(t * 1.4) * 0.25;
+      proGroup.rotation.y += dt * 0.4;
+      lobule.children.forEach(function (ch, idx) {
+        if (ch.geometry && ch.geometry.type === 'TorusGeometry') {
+          var pulse = idx === 1 ? 0.75 + Math.sin(t * 3) * 0.2 : 0.55;
+          ch.material.opacity = pulse;
+        }
       });
     }
     controls.update();
