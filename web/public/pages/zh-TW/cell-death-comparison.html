@@ -34,7 +34,7 @@
   .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
   /* full-length table: horizontal scroll only, vertical grows with the page */
   .table-wrap{ margin-top:10px; overflow-x:auto; }
-  .table-wrap table{ font-size:13px; min-width:1180px; border-collapse:separate; border-spacing:0; }
+    .table-wrap table{ font-size:13px; min-width:1560px; border-collapse:separate; border-spacing:0; }
   .table-wrap tr:last-child th{ border-bottom:0; }
   .table-wrap thead th{ position:sticky; top:0; z-index:4; }
   .table-wrap thead th:first-child{ z-index:5; }
@@ -170,7 +170,7 @@
             <option value="rbc">紅血球（紅血球凋亡）</option>
             <option value="neutrophil">嗜中性球（NETosis）</option>
           </select>
-          <span class="count" id="count">10 個程序 · 11 個特徵</span>
+          <span class="count" id="count">10 個程序 · 13 個特徵</span>
         </div>
       </div>
 
@@ -190,6 +190,8 @@
               <th scope="col">免疫</th>
               <th scope="col">阻斷方式</th>
               <th scope="col">最易感／抗性細胞</th>
+              <th scope="col">死亡占比（估計）</th>
+              <th scope="col">備註</th>
             </tr>
           </thead>
           <tbody>
@@ -206,6 +208,8 @@
               <td data-hl="">靜默，Annexin V 陽性</td>
               <td data-hl="">z-VAD-FMK、Bcl-2</td>
               <td data-hl=""><b>↑</b> 淋巴球、神經元、心肌細胞（AICD、發育修剪、心肌梗塞）——<b>↓／不適用</b> 紅血球、血小板（無核）</td>
+              <td data-hl=""><b>~90%</b> 的所有細胞死亡（穩態預設）</td>
+              <td data-hl="">常規更新的預設路徑（腸道、血液、發育）；每日約 10⁹–10¹¹ 個細胞 → 以每日約 1500 億計，全身更新約 248 天（約 8 個月）</td>
             </tr>
             <tr data-program="parthanatos">
               <th scope="row"><b>Parthanatos</b><span class="sub">調控性壞死——PARP1 · AIF · MIF</span></th>
@@ -220,6 +224,8 @@
               <td data-hl="energy lytic">經 NAD⁺ 崩潰＋DAMPs 引起發炎*</td>
               <td data-hl="dna energy">PARP 抑制劑、AIF 阻斷、NAD⁺ 保存*</td>
               <td data-hl="dna energy"><b>↑</b> 皮質神經元、星狀膠細胞（中風／MCAO）——<b>↓／不適用</b> 紅血球（無核）、淋巴球</td>
+              <td data-hl="">非凋亡死亡的 ~5%（≈佔全部 0.5%）</td>
+              <td data-hl="">小眾——主要為缺血神經元（中風）；與凋亡的性別分工見核心範式</td>
             </tr>
             <tr data-program="necrosis">
               <th scope="row"><b>壞死</b><span class="sub">意外性 · 被動</span></th>
@@ -234,6 +240,8 @@
               <td data-hl="lytic">高度發炎：HMGB1、ATP、尿酸 → TLR／RAGE／NLRP3</td>
               <td data-hl="">無特異性阻斷劑</td>
               <td data-hl="lytic"><b>↑</b> 嚴重 ATP 耗竭下所有細胞；尤以心肌細胞、神經元、腎小管為甚——<b>↓</b> 無（紅血球以溶血呈現）</td>
+              <td data-hl="">非凋亡死亡的 ~40–50%（≈佔全部 4–5%）</td>
+              <td data-hl="">非凋亡死亡的最大桶：未清除凋亡細胞的繼發性壞死＋損傷；穩態下比例小，創傷時飆升</td>
             </tr>
             <tr data-program="necroptosis">
               <th scope="row"><b>壞死性凋亡</b><span class="sub">調控性壞死</span></th>
@@ -248,6 +256,8 @@
               <td data-hl="lytic">設計上即發炎，DAMP 釋放</td>
               <td data-hl="">Necrostatin-1、GSK'872、necrosulfonamide（僅作用於人類 MLKL——對小鼠 MLKL 無效；依序對應 RIPK1／RIPK3／人類 MLKL）</td>
               <td data-hl="lytic"><b>↑</b> 腸上皮、腎小管、巨噬細胞——<b>↓／不適用</b> 紅血球（無 RIPK3／MLKL）、靜止淋巴球</td>
+              <td data-hl="">非凋亡死亡的 ~10–15%（≈佔全部 1–1.5%）</td>
+              <td data-hl="">感染、缺血–再灌流、腸上皮</td>
             </tr>
             <tr data-program="ferroptosis">
               <th scope="row"><b>鐵死亡</b><span class="sub">鐵 · 脂質</span></th>
@@ -262,6 +272,8 @@
               <td data-hl="iron lytic">發炎性脂質 MDA／4-HNE</td>
               <td data-hl="iron">Ferrostatin-1、liproxstatin-1、deferoxamine</td>
               <td data-hl="iron"><b>↑</b> 近端腎小管、神經元、肝細胞、心肌細胞——<b>↓</b> 糖解型／低 PUFA 細胞*</td>
+              <td data-hl="">非凋亡死亡的 ~5–10%（≈佔全部 0.5–1%）</td>
+              <td data-hl="">在缺血–再灌流、神經退化、腎臟中快速上升；純感染中近乎為零</td>
             </tr>
             <tr data-program="autophagy">
               <th scope="row"><b>自噬</b><span class="sub">存活過程；僅 ATG 依賴時才計為死亡（NCCD 標準）</span></th>
@@ -276,6 +288,8 @@
               <td data-hl="">具保護性，清除 DAMP 來源</td>
               <td data-hl="">死亡需 ≥2 種 ATG 干預挽救（例如 ATG5／7 敲除＋3-MA／CQ）；單憑 LC3／p62＝通量而非死亡；rapamycin 誘導</td>
               <td data-hl=""><b>↑</b> 骨骼肌、肝臟、神經元（依賴 TFEB／PINK1-Parkin）——<b>↓／不適用</b> 紅血球（無胞器）</td>
+              <td data-hl="">非凋亡死亡的 ~5%（≈佔全部 0.5%）</td>
+              <td data-hl="">作為純死亡模式罕見——主要是存活過程（NCCD 標準）</td>
             </tr>
             <tr data-program="pyroptosis">
               <th scope="row"><b>焦亡</b><span class="sub">發炎體 · 裂解</span></th>
@@ -290,6 +304,8 @@
               <td data-hl="lytic">高度發炎：IL-1β／IL-18＋HMGB1、IL-1α、經孔洞釋出的 mtDNA</td>
               <td data-hl="lytic">NLRP3 抑制劑、Caspase-1 抑制劑、disulfiram／GSDMD 阻斷*</td>
               <td data-hl="lytic"><b>↑</b> 巨噬細胞、微膠細胞、樹突細胞、腸上皮——<b>↓／不適用</b> 紅血球、血小板</td>
+              <td data-hl="">非凋亡死亡的 ~10–15%（≈佔全部 1–1.5%）</td>
+              <td data-hl="">細胞內感染＋發炎體驅動的無菌發炎；敗血症中占比居首</td>
             </tr>
             <tr data-program="panoptosis">
               <th scope="row"><b>PANoptosis</b><span class="sub">三合一 · ZBP1 · 非冗餘</span></th>
@@ -304,6 +320,8 @@
               <td data-hl="lytic">發炎最強：IL-1β／IL-18＋三臂共同釋出的 DAMP 風暴</td>
               <td data-hl="">上游：ZBP1／RIPK3 標靶；多臂合併阻斷</td>
               <td data-hl="lytic"><b>↑</b> 嚴重感染下巨噬細胞、肺上皮——<b>↓／不適用</b> 紅血球、血小板</td>
+              <td data-hl="">非凋亡死亡的 ~2–5%（≈佔全部 0.2–0.5%）</td>
+              <td data-hl="">僅見於嚴重感染；與焦亡＋壞死性凋亡＋凋亡各臂重疊／重複計數</td>
             </tr>
             <tr data-program="eryptosis">
               <th scope="row"><b>紅血球凋亡</b><span class="sub">紅血球 · 類凋亡、無核</span></th>
@@ -318,6 +336,8 @@
               <td data-hl="">靜默、抗發炎清除（如凋亡），除非隨後發生大量溶血</td>
               <td data-hl="">鈣螯合、calpain 抑制劑、紅血球生成素*</td>
               <td data-hl=""><b>↑</b> 僅紅血球（Ca²⁺／氧化／滲透壓壓力、CKD、敗血症）——<b>不適用</b> 所有有核細胞</td>
+              <td data-hl="">非凋亡死亡的 ~1–3%（分母＝紅血球；≈佔全部 0.1–0.3%）</td>
+              <td data-hl="">分母僅為紅血球；CKD、敗血症、氧化／藥物溶血時上升</td>
             </tr>
             <tr data-program="netosis">
               <th scope="row"><b>NETosis</b><span class="sub">嗜中性球 · PAD4 · NET 釋放</span></th>
@@ -332,6 +352,8 @@
               <td data-hl="lytic">促發炎且促血栓：NET DNA／組織蛋白作為 DAMP</td>
               <td data-hl="lytic dna">PAD4 抑制劑（Cl-amidine）、NE／MPO 抑制、DNase 消化 NET</td>
               <td data-hl="lytic"><b>↑</b> 僅嗜中性球（病原體、免疫複合物）；存活型保留細胞膜——<b>不適用</b> 其他白血球、紅血球</td>
+              <td data-hl="">非凋亡死亡的 ~1–3%（分母＝嗜中性球；≈佔全部 0.1–0.3%）</td>
+              <td data-hl="">分母僅為嗜中性球；敗血症、COVID、自體免疫血栓時飆升</td>
             </tr>
           </tbody>
         </table>
@@ -339,7 +361,8 @@
       <footer class="legend">
         <p class="tldr">在缺血–再灌流模型中，雌性細胞傾向 caspase 依賴性凋亡，雄性細胞傾向 PARP1–AIF parthanatos；裂解與鐵依賴機制則依情境加入例外。
           <span class="scope" id="scope-note">範圍：細胞自主性的 XX/XY 分化建立於小鼠缺血–再灌流模型（MCAO 中風、新生兒缺氧缺血、腎臟 IRI）與 XX/XY 培養；人類僅有一項對應證據——心肌梗塞屍檢顯示男性凋亡指數約高 10 倍（Biondi-Zoccai 2005）。PARP1/AIF 臂仍缺乏直接的人類驗證。反轉例：粒線體壓力下纖維母細胞翻轉模式——XY 雄性呈現較高的典型凋亡，XX 雌性經自噬抵抗。細胞類型選擇器（神經元／巨噬細胞–小膠質細胞／纖維母細胞／紅血球／嗜中性球）依各類型資料替換男性／女性儲存格（強證據：神經元凋亡／parthanatos、巨噬細胞焦亡；9 項單一研究；38 項無直接資料，以淡斜體顯示）——「全部」恢復混合預設值。紅血球凋亡（紅血球、無核）與 NETosis（嗜中性球）具血球特異性，位於 XX/XY 範式之外——尚未建立細胞自主性性別差異。</span></p>
-        <p><b>圖例</b>——<span class="sw"></span> 金色儲存格：核心性別範式（XX → caspase 依賴性凋亡；XY → PARP1/AIF parthanatos）。標籤：<span class="pill reg">調控性</span> <span class="pill acc">意外性</span> <span class="pill lytic">裂解</span> <span class="pill silent">非裂解</span>。<b>*</b> = 由跨程序生物學推論而來，並未在所引性別差異研究中直接驗證。</p>
+        <p><b>圖例</b>——<span class="sw"></span> 金色儲存格：核心性別範式（XX → caspase 依賴性凋亡；XY → PARP1/AIF parthanatos）。標籤：<span class="pill reg">調控性</span> <span class="pill acc">意外性</span> <span class="pill lytic">裂解</span> <span class="pill silent">非裂解</span>。<b>*</b> = 由跨程序生物學推論而來，並未在所引性別差異研究中直接驗證。
+          死亡占比欄：僅為估計——健康成人所有細胞死亡中，凋亡約佔 90%（穩態更新的預設路徑）；其餘百分比為剩餘約 10%（非凋亡）死亡的占比，括號內為約佔全部死亡的比例。混合生理＋病理情境；目前無體內普查數據。PANoptosis 與焦亡／壞死性凋亡／凋亡各臂重疊（重複計數）；NETosis／紅血球凋亡使用細胞類型限定的分母。</p>
       </footer>
     
     </section>
@@ -405,7 +428,7 @@
         }
       });
     }
-    count.textContent = vis + ' 個程序 · 11 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
+    count.textContent = vis + ' 個程序 · 13 個特徵' + (needle ? ' · “' + stripe(needle) + '”' : '');
 
       // merged page: mirror the table filter onto animation cards
       document.querySelectorAll('.cell-card').forEach(function(c){
