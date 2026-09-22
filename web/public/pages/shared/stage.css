@@ -71,3 +71,15 @@
   body.is-embed .layout{display:block;padding:0}
   body.is-embed .stage-card{border:0;border-radius:0;box-shadow:none}
   body.is-embed .stage{height:100vh;height:100dvh}
+
+  /* Dark mode: [data-theme="dark"] set by themes/theme-02/theme.js (same
+     localStorage key as the rest of the site). Palette mirrors theme-02/dark.css. */
+  [data-theme="dark"]{
+    --paper:#0f0f1a; --sheet:#1a1a2e; --ink:#e0e0e0; --ink-soft:#c9c9dd;
+    --mute:#9a9ab0; --rule:#2a2a4e; --rule-strong:#3a3a5e;
+    --accent:#e4575e; --gold:#e8a33d; --forest:#58d68d; --slate:#5da8ff;
+  }
+  /* light mode mixes toolbar toward white; dark must mix toward black */
+  [data-theme="dark"] .toolbar{
+    background:color-mix(in srgb, var(--paper) 88%, black);
+  }
