@@ -81,6 +81,17 @@
   #sel3d-fallback { font-size: .85rem; line-height: 1.6; }
   .reffig { margin: 14px 0 0; }
   .reffig img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
+  /* prodrug molecular stage — mirrors sel3d chrome */
+  #pd3d { background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; margin: 12px 0; }
+  #pd3d-stage { position: relative; height: 360px; overflow: hidden; touch-action: none; }
+  #pd3d-canvas { width: 100%; height: 100%; display: block; }
+  #pd3d-phase { position: absolute; left: 10px; top: 8px; font-size: .74rem; color: var(--mute); font-family: var(--mono); pointer-events: none; max-width: 70%; }
+  #pd3d-stats { position: absolute; right: 10px; top: 8px; font-size: .72rem; color: var(--mute); font-family: var(--mono); text-align: right; pointer-events: none; line-height: 1.5; }
+  #pd3d-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; font-size: .82rem; }
+  #pd3d-bar button { cursor: pointer; padding: 4px 12px; border: 1px solid var(--rule); background: none; font: inherit; font-size: .8rem; min-height: 32px; }
+  #pd3d-bar button[aria-pressed=true] { background: var(--oxblood); color: var(--sheet); border-color: var(--oxblood); }
+  #pd3d-detail { font-size: .85rem; line-height: 1.6; min-height: 3.2em; margin: 8px 0 0; }
+  #pd3d-fallback { font-size: .85rem; line-height: 1.6; }
 </style>
 </head>
 <body>
@@ -94,6 +105,7 @@
       <a href="#estimator">劑量估算</a>
       <a href="#combinations">合併使用</a>
       <a href="#selectivity">非瑟酮</a>
+      <a href="#prodrug">前藥</a>
       <a href="#source">來源</a>
     </div>
   </div>
@@ -214,6 +226,32 @@
     <a href="https://api.johnnykuo.com/v1/notes/image/n-20260921-senolytics-senomorphics-00/1" target="_blank" rel="noopener" title="開啟全解析度原圖"><img src="https://api.johnnykuo.com/v1/notes/image/n-20260921-senolytics-senomorphics-00/1" alt="Birch and Gil 2020 Figure 4：（A）senolytics 匯入單一 Apoptosis 箭頭；（B）senomorphics 匯入 SASP 調控" loading="lazy"></a>
     <figcaption><b>參考 — Birch &amp; Gil 2020, Figure 4。</b>針對年齡相關疾病中的衰老細胞，主要有兩種策略：以 senolytics 誘導細胞死亡（A），以及干預調控路徑以調節 SASP（B）。圖 A 把所有 senolytics（dasatinib、quercetin、ABT-26/73、FOXO4-DRI、ouabain……）匯入單一 <b>Apoptosis</b> 箭頭 — 正是本節認為過度簡化的均一性。圖 B 是另一條路：senomorphics（rapamycin、ruxolitinib、anakinra、MCC950……）匯入 <b>SASP 調控</b>。全文：<a href="https://doi.org/10.1101/gad.343129.120">doi:10.1101/gad.343129.120</a>（CC BY-NC 4.0）· 已收錄為 <a href="https://graph.johnnykuo.com/#notes=n-20260921-senolytics-senomorphics-00"><code>n-20260921-senolytics-senomorphics-00</code></a>。</figcaption>
   </figure>
+</section>
+
+<section>
+<h2 id="prodrug">前藥可行性 — 非瑟酮 3,7-二異丁酸酯</h2>
+<p style="font-size:.9rem;line-height:1.65">非瑟酮的四個酚羥基（3、7、3′、4′）使它成為 UGT／SULT 結合反應的主要受質 — 這正是口服暴露崩壞的主因。將 <b>3-OH 與 7-OH</b> 遮蔽為<b>異丁醯酯</b>（保留衰老細胞清除所需的兒茶酚），可使 logP 上升約 1.7 個單位、氫鍵供體由 4 降至 2，並在組織羧酸酯酶（CES1／2）再生游離非瑟酮之前，阻斷兩個主要第二相代謝位點。下方為 RDKit MMFF 最佳化 3D 幾何（PubChem CID&nbsp;5281614），逐步展示：結合失敗 → 膜穿透 → CES 活化。拖曳旋轉 · 滾輪縮放。</p>
+<div id="pd3d">
+  <div id="pd3d-stage" role="group" aria-label="非瑟酮前藥活化階段 three.js 分子模型">
+    <canvas id="pd3d-canvas" aria-label="3-D 非瑟酮前藥分子模型"></canvas>
+    <div id="pd3d-phase">three.js 載入中…</div>
+    <div id="pd3d-stats" aria-hidden="true"></div>
+  </div>
+  <div id="pd3d-bar" role="group" aria-label="前藥階段控制">
+    <button id="pd-prev" type="button">← 上一步</button>
+    <button id="pd-next" type="button">下一步 →</button>
+    <button id="pd-reset" type="button">重置</button>
+    <button id="pd-pause" aria-pressed="false" type="button">暫停旋轉</button>
+    <span class="mono" aria-hidden="true">— 灰球＝游離態 · 琥珀帽＝異丁醯基 —</span>
+  </div>
+  <p id="pd3d-detail" aria-live="polite"></p>
+  <noscript><ul id="pd3d-fallback">
+    <li>階段一 — 游離非瑟酮：四個游離 OH 皆為 UGT／SULT 結合位點；葡萄糖醛酸化在吸收前即崩壞口服暴露。</li>
+    <li>階段二 — 二異丁酸酯前藥：遮蔽 3-OH 與 7-OH；logP 2.3→4.0、HBD 4→2；兒茶酚保留給衰老細胞靶點結合。</li>
+    <li>階段三 — 膜穿透：較高親脂性驅動被動跨細胞擴散，通過腸上皮細胞雙層膜。</li>
+    <li>階段四 — CES 活化：羧酸酯酶切割兩個酯帽，在目標組織釋放游離非瑟酮＋異丁酸。</li>
+  </ul></noscript>
+</div>
 </section>
 
 <section>
@@ -482,6 +520,322 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
           var s = 1 + Math.sin(t * 2 + grp.userData.ph) * 0.03;
           grp.userData.body.scale.setScalar(s);
         }
+      });
+    }
+    controls.update();
+    renderer.render(scene, camera);
+  })();
+})();
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+// ponytail: RDKit/MMFF heavy-atom ball-and-stick + 4-phase ADME story; coords from PubChem CID 5281614.
+(function () {
+  var stage = document.getElementById('pd3d-stage'),
+      canvas = document.getElementById('pd3d-canvas'),
+      phaseEl = document.getElementById('pd3d-phase'),
+      statsEl = document.getElementById('pd3d-stats'),
+      detailEl = document.getElementById('pd3d-detail');
+  if (!stage || !canvas) return;
+
+  var MOLS = {"fisetin":{"name":"Fisetin","formula":"C15H10O6","mw":286.24,"logp":2.28,"hbd":4,"hba":6,"tpsa":111.1,"atoms":[{"i":0,"el":"C","r":"C","x":-2.604,"y":-0.566,"z":1.124,"ar":1},{"i":1,"el":"C","r":"C","x":-3.982,"y":-0.381,"z":0.962,"ar":1},{"i":2,"el":"C","r":"C","x":-4.458,"y":0.137,"z":-0.234,"ar":1},{"i":3,"el":"C","r":"C","x":-3.573,"y":0.469,"z":-1.255,"ar":1},{"i":4,"el":"C","r":"C","x":-2.205,"y":0.288,"z":-1.102,"ar":1},{"i":5,"el":"C","r":"C","x":-1.7,"y":-0.245,"z":0.094,"ar":1},{"i":6,"el":"C","r":"C","x":-0.24,"y":-0.415,"z":0.261,"ar":0},{"i":7,"el":"C","r":"C","x":0.321,"y":-1.535,"z":0.753,"ar":0},{"i":8,"el":"C","r":"C","x":1.798,"y":-1.605,"z":0.863,"ar":0},{"i":9,"el":"O","r":"C=O-ketone","x":2.33,"y":-2.617,"z":1.308,"ar":0},{"i":10,"el":"C","r":"C","x":2.555,"y":-0.43,"z":0.421,"ar":1},{"i":11,"el":"C","r":"C","x":1.852,"y":0.665,"z":-0.072,"ar":1},{"i":12,"el":"O","r":"O-ring","x":0.485,"y":0.693,"z":-0.164,"ar":0},{"i":13,"el":"C","r":"C","x":2.544,"y":1.796,"z":-0.501,"ar":1},{"i":14,"el":"C","r":"C","x":3.934,"y":1.817,"z":-0.43,"ar":1},{"i":15,"el":"C","r":"C","x":4.646,"y":0.725,"z":0.063,"ar":1},{"i":16,"el":"C","r":"C","x":3.952,"y":-0.408,"z":0.492,"ar":1},{"i":17,"el":"O","r":"OH","x":4.572,"y":2.942,"z":-0.859,"ar":0},{"i":18,"el":"O","r":"OH","x":-0.388,"y":-2.653,"z":1.156,"ar":0},{"i":19,"el":"O","r":"OH-catechol","x":-4.05,"y":0.983,"z":-2.428,"ar":0},{"i":20,"el":"O","r":"OH-catechol","x":-5.792,"y":0.342,"z":-0.455,"ar":0},{"i":21,"el":"H","r":"H","x":-2.237,"y":-0.968,"z":2.067,"ar":0},{"i":22,"el":"H","r":"H","x":-4.652,"y":-0.645,"z":1.774,"ar":0},{"i":23,"el":"H","r":"H","x":-1.541,"y":0.557,"z":-1.919,"ar":0},{"i":24,"el":"H","r":"H","x":2.006,"y":2.656,"z":-0.888,"ar":0},{"i":25,"el":"H","r":"H","x":5.731,"y":0.737,"z":0.12,"ar":0},{"i":26,"el":"H","r":"H","x":4.497,"y":-1.267,"z":0.878,"ar":0},{"i":27,"el":"H","r":"H","x":5.531,"y":2.821,"z":-0.76,"ar":0},{"i":28,"el":"H","r":"H","x":0.298,"y":-3.301,"z":1.425,"ar":0},{"i":29,"el":"H","r":"H","x":-5.019,"y":1.016,"z":-2.303,"ar":0},{"i":30,"el":"H","r":"H","x":-6.276,"y":0.052,"z":0.338,"ar":0}],"bonds":[[0,1,1.5,1],[1,2,1.5,1],[2,3,1.5,1],[3,4,1.5,1],[4,5,1.5,1],[5,6,1,0],[6,7,2,0],[7,8,1,0],[8,9,2,0],[8,10,1,0],[10,11,1.5,1],[11,12,1,0],[11,13,1.5,1],[13,14,1.5,1],[14,15,1.5,1],[15,16,1.5,1],[14,17,1,0],[7,18,1,0],[3,19,1,0],[2,20,1,0],[5,0,1.5,1],[12,6,1,0],[16,10,1.5,1],[0,21,1,0],[1,22,1,0],[4,23,1,0],[13,24,1,0],[15,25,1,0],[16,26,1,0],[17,27,1,0],[18,28,1,0],[19,29,1,0],[20,30,1,0]],"ohFree":4,"masked":0},"prodrug":{"name":"Fisetin 3,7-diisobutyrate","formula":"C23H22O8","mw":426.42,"logp":3.99,"hbd":2,"hba":8,"tpsa":123.3,"atoms":[{"i":0,"el":"C","r":"C","x":-2.947,"y":0.785,"z":1.845,"ar":1},{"i":1,"el":"C","r":"C","x":-3.866,"y":1.705,"z":2.363,"ar":1},{"i":2,"el":"C","r":"C","x":-3.864,"y":3.006,"z":1.878,"ar":1},{"i":3,"el":"C","r":"C","x":-2.959,"y":3.388,"z":0.891,"ar":1},{"i":4,"el":"C","r":"C","x":-2.043,"y":2.482,"z":0.372,"ar":1},{"i":5,"el":"C","r":"C","x":-2.034,"y":1.163,"z":0.844,"ar":1},{"i":6,"el":"C","r":"C","x":-1.059,"y":0.2,"z":0.303,"ar":0},{"i":7,"el":"C","r":"C","x":-1.438,"y":-0.937,"z":-0.309,"ar":0},{"i":8,"el":"C","r":"C","x":-0.392,"y":-1.865,"z":-0.808,"ar":0},{"i":9,"el":"O","r":"C=O-ketone","x":-0.672,"y":-2.958,"z":-1.287,"ar":0},{"i":10,"el":"C","r":"C","x":1.0,"y":-1.41,"z":-0.675,"ar":1},{"i":11,"el":"C","r":"C","x":1.251,"y":-0.193,"z":-0.042,"ar":1},{"i":12,"el":"O","r":"O-ring","x":0.256,"y":0.605,"z":0.463,"ar":0},{"i":13,"el":"C","r":"C","x":2.561,"y":0.261,"z":0.103,"ar":1},{"i":14,"el":"C","r":"C","x":3.606,"y":-0.527,"z":-0.38,"ar":1},{"i":15,"el":"C","r":"C","x":3.367,"y":-1.737,"z":-1.031,"ar":1},{"i":16,"el":"C","r":"C","x":2.054,"y":-2.186,"z":-1.173,"ar":1},{"i":17,"el":"O","r":"O-ester","x":4.921,"y":-0.07,"z":-0.279,"ar":0},{"i":18,"el":"O","r":"O-ester","x":-2.777,"y":-1.304,"z":-0.49,"ar":0},{"i":19,"el":"O","r":"OH-catechol","x":-2.964,"y":4.671,"z":0.423,"ar":0},{"i":20,"el":"O","r":"OH-catechol","x":-4.735,"y":3.952,"z":2.342,"ar":0},{"i":21,"el":"C","r":"C-cap","x":-3.157,"y":-1.123,"z":-1.799,"ar":0},{"i":22,"el":"O","r":"C=O-ester","x":-2.501,"y":-0.566,"z":-2.672,"ar":0},{"i":23,"el":"C","r":"C-cap","x":-4.545,"y":-1.708,"z":-1.998,"ar":0},{"i":24,"el":"C","r":"C-cap","x":-5.207,"y":-1.121,"z":-3.242,"ar":0},{"i":25,"el":"C","r":"C-cap","x":-4.453,"y":-3.226,"z":-2.094,"ar":0},{"i":26,"el":"C","r":"C-cap","x":5.492,"y":-0.314,"z":0.968,"ar":0},{"i":27,"el":"O","r":"C=O-ester","x":4.951,"y":-0.867,"z":1.917,"ar":0},{"i":28,"el":"C","r":"C-cap","x":6.918,"y":0.212,"z":0.961,"ar":0},{"i":29,"el":"C","r":"C-cap","x":7.822,"y":-0.767,"z":0.223,"ar":0},{"i":30,"el":"C","r":"C-cap","x":7.413,"y":0.448,"z":2.385,"ar":0},{"i":31,"el":"H","r":"H","x":-2.943,"y":-0.232,"z":2.235,"ar":0},{"i":32,"el":"H","r":"H","x":-4.559,"y":1.388,"z":3.135,"ar":0},{"i":33,"el":"H","r":"H","x":-1.349,"y":2.806,"z":-0.398,"ar":0},{"i":34,"el":"H","r":"H","x":2.762,"y":1.209,"z":0.592,"ar":0},{"i":35,"el":"H","r":"H","x":4.192,"y":-2.328,"z":-1.419,"ar":0},{"i":36,"el":"H","r":"H","x":1.853,"y":-3.132,"z":-1.67,"ar":0},{"i":37,"el":"H","r":"H","x":-3.678,"y":5.113,"z":0.924,"ar":0},{"i":38,"el":"H","r":"H","x":-5.288,"y":3.545,"z":3.031,"ar":0},{"i":39,"el":"H","r":"H","x":-5.156,"y":-1.425,"z":-1.132,"ar":0},{"i":40,"el":"H","r":"H","x":-6.229,"y":-1.498,"z":-3.353,"ar":0},{"i":41,"el":"H","r":"H","x":-5.253,"y":-0.029,"z":-3.18,"ar":0},{"i":42,"el":"H","r":"H","x":-4.65,"y":-1.377,"z":-4.151,"ar":0},{"i":43,"el":"H","r":"H","x":-4.015,"y":-3.651,"z":-1.184,"ar":0},{"i":44,"el":"H","r":"H","x":-5.444,"y":-3.67,"z":-2.229,"ar":0},{"i":45,"el":"H","r":"H","x":-3.821,"y":-3.533,"z":-2.935,"ar":0},{"i":46,"el":"H","r":"H","x":6.918,"y":1.18,"z":0.445,"ar":0},{"i":47,"el":"H","r":"H","x":8.854,"y":-0.402,"z":0.196,"ar":0},{"i":48,"el":"H","r":"H","x":7.488,"y":-0.908,"z":-0.811,"ar":0},{"i":49,"el":"H","r":"H","x":7.819,"y":-1.751,"z":0.705,"ar":0},{"i":50,"el":"H","r":"H","x":6.748,"y":1.135,"z":2.919,"ar":0},{"i":51,"el":"H","r":"H","x":8.418,"y":0.884,"z":2.38,"ar":0},{"i":52,"el":"H","r":"H","x":7.451,"y":-0.486,"z":2.956,"ar":0}],"bonds":[[0,1,1.5,1],[1,2,1.5,1],[2,3,1.5,1],[3,4,1.5,1],[4,5,1.5,1],[5,6,1,0],[6,7,2,0],[7,8,1,0],[8,9,2,0],[8,10,1,0],[10,11,1.5,1],[11,12,1,0],[11,13,1.5,1],[13,14,1.5,1],[14,15,1.5,1],[15,16,1.5,1],[14,17,1,0],[7,18,1,0],[3,19,1,0],[2,20,1,0],[5,0,1.5,1],[12,6,1,0],[16,10,1.5,1],[18,21,1,0],[21,22,2,0],[21,23,1,0],[23,24,1,0],[23,25,1,0],[17,26,1,0],[26,27,2,0],[26,28,1,0],[28,29,1,0],[28,30,1,0],[0,31,1,0],[1,32,1,0],[4,33,1,0],[13,34,1,0],[15,35,1,0],[16,36,1,0],[19,37,1,0],[20,38,1,0],[23,39,1,0],[24,40,1,0],[24,41,1,0],[24,42,1,0],[25,43,1,0],[25,44,1,0],[25,45,1,0],[28,46,1,0],[29,47,1,0],[29,48,1,0],[29,49,1,0],[30,50,1,0],[30,51,1,0],[30,52,1,0]],"ohFree":2,"masked":2},"delta":{"mw":140.2,"logp":1.71,"hbd":-2,"tpsa":12.2}};
+
+  var COL = { C: 0x555b66, cap: 0xc9a227, O: 0xc1121f, H: 0xcccccc, oh: 0xe9c46a };
+  var renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+  } catch (_) { if (phaseEl) phaseEl.textContent = '無 WebGL — 請見下方階段列表。'; return; }
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(42, 1, 0.1, 200);
+  camera.position.set(0, 4.5, 22);
+  var controls = new OrbitControls(camera, canvas);
+  controls.enableDamping = true; controls.dampingFactor = 0.08;
+  controls.enablePan = false; controls.minDistance = 10; controls.maxDistance = 40;
+  controls.autoRotate = !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  controls.autoRotateSpeed = 0.8;
+  var CAM0 = camera.position.clone();
+  scene.add(new THREE.AmbientLight(0xfff2df, 0.9));
+  var key = new THREE.DirectionalLight(0xffffff, 1.05); key.position.set(6, 10, 8); scene.add(key);
+  var rim = new THREE.DirectionalLight(0x88bbff, 0.45); rim.position.set(-8, 4, -6); scene.add(rim);
+
+  function label(text, sub, fg) {
+    var c = document.createElement('canvas'); c.width = 256; c.height = 96;
+    var g = c.getContext('2d');
+    g.textAlign = 'center'; g.fillStyle = fg || '#222';
+    g.font = 'bold 24px system-ui,sans-serif'; g.fillText(text, 128, 36);
+    g.font = '18px system-ui,sans-serif'; g.fillStyle = '#666';
+    g.fillText(sub || '', 128, 64);
+    var t = new THREE.CanvasTexture(c); t.anisotropy = 4;
+    var s = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, transparent: true, depthTest: false }));
+    s.scale.set(4.2, 1.55, 1); return s;
+  }
+
+  var bondMat = new THREE.MeshStandardMaterial({ color: 0x8a8f98, roughness: 0.55 });
+  var matCache = {};
+  function atomMat(el, role) {
+    var col = COL[el] != null ? COL[el] : 0x888888;
+    if (el === 'C' && role === 'C-cap') col = COL.cap;
+    if (el === 'O' && (role === 'OH' || role === 'OH-catechol')) col = COL.oh;
+    var k = col + '_' + el;
+    if (!matCache[k]) matCache[k] = new THREE.MeshStandardMaterial({ color: col, roughness: 0.4 });
+    return matCache[k];
+  }
+
+  function buildMol(payload) {
+    var g = new THREE.Group();
+    var S = 0.55; // Å → scene
+    payload.atoms.forEach(function (a) {
+      if (a.el === 'H') return; // heavy atoms only; O–H drawn as stub
+      var r = a.el === 'O' ? 0.34 : 0.3;
+      var m = new THREE.Mesh(new THREE.SphereGeometry(r, 18, 14), atomMat(a.el, a.r));
+      m.position.set(a.x * S, a.y * S, a.z * S);
+      m.userData = { a: a };
+      g.add(m);
+    });
+    var byI = {};
+    payload.atoms.forEach(function (a) { byI[a.i] = a; });
+    payload.bonds.forEach(function (b) {
+      var A = byI[b[0]], B = byI[b[1]];
+      if (!A || !B) return;
+      var ha = A.el === 'H', hb = B.el === 'H';
+      if (ha && hb) return;
+      if (ha || hb) {
+        var O = ha ? B : A, H = ha ? A : B;
+        if (O.el !== 'O') return;
+        var oP = new THREE.Vector3(O.x * S, O.y * S, O.z * S);
+        var hP = new THREE.Vector3(H.x * S, H.y * S, H.z * S);
+        var end = oP.clone().lerp(hP, 0.55);
+        var dirH = end.clone().sub(oP);
+        var lenH = dirH.length();
+        if (lenH < 1e-4) return;
+        var stub = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, lenH, 8), bondMat);
+        stub.position.copy(oP).add(end).multiplyScalar(0.5);
+        stub.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), dirH.normalize());
+        g.add(stub);
+        return;
+      }
+      var va = new THREE.Vector3(A.x * S, A.y * S, A.z * S);
+      var vb = new THREE.Vector3(B.x * S, B.y * S, B.z * S);
+      var dir = vb.clone().sub(va);
+      var len = dir.length();
+      if (len < 1e-4) return;
+      var axis = dir.clone().normalize();
+      var thick = b[3] ? 0.07 : (b[2] >= 2 ? 0.09 : 0.07);
+      var cyl = new THREE.Mesh(new THREE.CylinderGeometry(thick, thick, len, 8), bondMat);
+      cyl.position.copy(va).add(vb).multiplyScalar(0.5);
+      cyl.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), axis);
+      g.add(cyl);
+      if (b[2] >= 2 && !b[3]) {
+        var off = new THREE.Vector3().crossVectors(axis, new THREE.Vector3(0, 0, 1));
+        if (off.lengthSq() < 1e-6) off.set(1, 0, 0);
+        off.normalize().multiplyScalar(0.14);
+        var cyl2 = cyl.clone();
+        cyl2.position.add(off);
+        g.add(cyl2);
+        cyl.position.sub(off.clone().multiplyScalar(0.5));
+        cyl2.position.sub(off.clone().multiplyScalar(0.5));
+      }
+    });
+    return g;
+  }
+
+  function statsHTML(m) {
+    return m.formula + '<br>MW ' + m.mw + ' · logP ' + m.logp +
+           '<br>HBD ' + m.hbd + ' · TPSA ' + m.tpsa;
+  }
+
+  var fisGroup = buildMol(MOLS.fisetin);
+  var proGroup = buildMol(MOLS.prodrug);
+  scene.add(fisGroup); scene.add(proGroup);
+
+  var membrane = new THREE.Group();
+  var headMat = new THREE.MeshStandardMaterial({ color: 0x2a9d8f, roughness: 0.6, transparent: true, opacity: 0.85 });
+  var tailMat = new THREE.MeshStandardMaterial({ color: 0x7a8f5a, roughness: 0.7, transparent: true, opacity: 0.45 });
+  for (var layer = -1; layer <= 1; layer += 2) {
+    for (var i = -7; i <= 7; i++) {
+      var h = new THREE.Mesh(new THREE.SphereGeometry(0.28, 10, 8), headMat);
+      h.position.set(i * 1.15, layer * 1.6, 0);
+      membrane.add(h);
+      var t = new THREE.Mesh(new THREE.BoxGeometry(0.18, 1.3, 0.18), tailMat);
+      t.position.set(i * 1.15, layer * 0.9, 0);
+      membrane.add(t);
+    }
+  }
+  var memMid = new THREE.Mesh(
+    new THREE.BoxGeometry(17.5, 1.6, 1.2),
+    new THREE.MeshStandardMaterial({ color: 0xe9c46a, transparent: true, opacity: 0.12, roughness: 0.8 })
+  );
+  membrane.add(memMid);
+  membrane.visible = false;
+  scene.add(membrane);
+  var memTag = label('腸上皮雙層膜', '被動擴散', '#2a7a3f');
+  memTag.position.set(0, 3.4, 0); memTag.visible = false; scene.add(memTag);
+
+  var ugt = new THREE.Group();
+  var ugtBody = new THREE.Mesh(
+    new THREE.IcosahedronGeometry(1.1, 1),
+    new THREE.MeshStandardMaterial({ color: 0xc1121f, roughness: 0.5, transparent: true, opacity: 0.9 })
+  );
+  ugt.add(ugtBody);
+  var ugtTag = label('UGT', '葡萄糖醛酸化', '#c1121f'); ugtTag.position.y = 1.7; ugt.add(ugtTag);
+  ugt.position.set(4.5, 3.5, 1); scene.add(ugt);
+
+  var glc = new THREE.Group();
+  for (var gi = 0; gi < 6; gi++) {
+    var ga = gi * Math.PI / 3;
+    var gs = new THREE.Mesh(new THREE.SphereGeometry(0.22, 10, 8),
+      new THREE.MeshStandardMaterial({ color: 0x9b2226, roughness: 0.5 }));
+    gs.position.set(Math.cos(ga) * 0.5, Math.sin(ga) * 0.5, 0);
+    glc.add(gs);
+  }
+  var glcTag = label('GlcUA', '結合物', '#9b2226'); glcTag.position.y = 1.1; glc.add(glcTag);
+  glc.visible = false; scene.add(glc);
+
+  var ces = new THREE.Group();
+  ces.add(new THREE.Mesh(
+    new THREE.IcosahedronGeometry(1.3, 1),
+    new THREE.MeshStandardMaterial({ color: 0x0f766e, roughness: 0.45, transparent: true, opacity: 0.92 })
+  ));
+  var cesTag = label('CES1/2', '酯水解', '#0f766e'); cesTag.position.y = 1.9; ces.add(cesTag);
+  ces.position.set(-5, 4, 1); ces.visible = false; scene.add(ces);
+
+  var caps = [];
+  for (var ci = 0; ci < 2; ci++) {
+    var capG = new THREE.Group();
+    for (var cj = 0; cj < 4; cj++) {
+      var cs = new THREE.Mesh(new THREE.SphereGeometry(0.26, 10, 8),
+        new THREE.MeshStandardMaterial({ color: COL.cap, roughness: 0.45 }));
+      cs.position.set((cj % 2) * 0.55 - 0.25, Math.floor(cj / 2) * 0.55 - 0.25, 0);
+      capG.add(cs);
+    }
+    var capTag = label('iBu', '異丁酸', '#7a5a00'); capTag.position.y = 1.0; capG.add(capTag);
+    capG.visible = false; scene.add(capG); caps.push(capG);
+  }
+
+  var PHASES = [
+    {
+      name: '一 · 游離非瑟酮第一相失敗',
+      stats: statsHTML(MOLS.fisetin) + '<br>UGT 位點：4 個游離 OH',
+      detail: '游離非瑟酮暴露四個酚羥基（3、7、3′、4′）。腸道／肝臟 UGT 在全身暴露前即將 3-OH 與 7-OH 葡萄糖醛酸化 — 結合物無活性並經腎臟清除。logP 2.28 · HBD 4 · TPSA 111 Å²。',
+      setup: function () {
+        fisGroup.visible = true; proGroup.visible = false;
+        membrane.visible = false; memTag.visible = false;
+        ugt.visible = true; ugt.position.set(4.2, 3.2, 1);
+        glc.visible = true; glc.position.set(1.2, 2.2, 0.5);
+        ces.visible = false;
+        caps.forEach(function (c) { c.visible = false; });
+        fisGroup.position.set(0, 0, 0); fisGroup.scale.setScalar(1);
+        fisGroup.rotation.set(0, 0, 0);
+      }
+    },
+    {
+      name: '二 · 3,7-二異丁酸酯遮蔽',
+      stats: statsHTML(MOLS.prodrug) + '<br>Δ logP +' + MOLS.delta.logp + ' · Δ HBD ' + MOLS.delta.hbd,
+      detail: '3-OH 與 7-OH 上的異丁醯基帽阻斷兩個主要結合位點，氫鍵供體由 4 降至 2，logP 由 2.28 升至 3.99 — 足以進行被動跨細胞攝取。3′,4′-兒茶酚保留游離，供衰老細胞靶點結合。支鏈醯基在到達腸上皮細胞前可耐受血漿酯酶。',
+      setup: function () {
+        fisGroup.visible = false; proGroup.visible = true;
+        membrane.visible = false; memTag.visible = false;
+        ugt.visible = true; ugt.position.set(5.5, 4, 1.5);
+        glc.visible = false;
+        ces.visible = false;
+        caps.forEach(function (c) { c.visible = false; });
+        proGroup.position.set(0, 0, 0); proGroup.scale.setScalar(1);
+        proGroup.rotation.set(0, 0, 0);
+      }
+    },
+    {
+      name: '三 · 膜穿透',
+      stats: statsHTML(MOLS.prodrug) + '<br>被動跨細胞',
+      detail: '較高親脂性使前藥分配進入脂質雙層並通過腸上皮細胞。游離非瑟酮停在頭部基團界面；二異丁酸酯嵌入疏水核心（logP 約 4 位在甜蜜點 — 不會過油而被困住）。',
+      setup: function () {
+        fisGroup.visible = false; proGroup.visible = true;
+        membrane.visible = true; memTag.visible = true;
+        ugt.visible = false; glc.visible = false;
+        ces.visible = false;
+        caps.forEach(function (c) { c.visible = false; });
+        proGroup.position.set(0, 3.8, 0);
+        proGroup.scale.setScalar(0.85);
+        proGroup.rotation.set(0.4, 0, 0.2);
+      }
+    },
+    {
+      name: '四 · CES 釋放非瑟酮',
+      stats: statsHTML(MOLS.fisetin) + '<br>母體＋2 iBu',
+      detail: '組織羧酸酯酶（CES1／2）水解兩個酯帽 → 游離非瑟酮＋異丁酸。活化發生在吸收之後、目標組織之處 — 與 UGT 結合的順序恰好相反。這就是可行性論證：先阻斷結合，再用另一種酶切開。',
+      setup: function () {
+        fisGroup.visible = true; proGroup.visible = false;
+        membrane.visible = true; memTag.visible = false;
+        ugt.visible = false; glc.visible = false;
+        ces.visible = true; ces.position.set(-4.5, 3.5, 1);
+        fisGroup.position.set(1.5, -3.5, 0);
+        fisGroup.scale.setScalar(1);
+        caps.forEach(function (c, i) {
+          c.visible = true;
+          c.position.set(3.5 + i * 2.2, -2.5 + i * 0.8, 0.5);
+        });
+      }
+    }
+  ];
+
+  var phase = -1;
+  function setPhase(i) {
+    phase = ((i % PHASES.length) + PHASES.length) % PHASES.length;
+    var p = PHASES[phase];
+    p.setup();
+    if (phaseEl) phaseEl.textContent = p.name;
+    if (statsEl) statsEl.innerHTML = p.stats;
+    if (detailEl) detailEl.textContent = p.detail;
+    controls.target.set(0, phase === 2 ? 1.5 : 0, 0);
+  }
+
+  document.getElementById('pd-prev').addEventListener('click', function () { setPhase(phase - 1); });
+  document.getElementById('pd-next').addEventListener('click', function () { setPhase(phase + 1); });
+  document.getElementById('pd-reset').addEventListener('click', function () {
+    camera.position.copy(CAM0); controls.target.set(0, 0, 0); setPhase(0);
+  });
+  var pauseBtn = document.getElementById('pd-pause');
+  function paintPause() {
+    pauseBtn.setAttribute('aria-pressed', String(!controls.autoRotate));
+    pauseBtn.textContent = controls.autoRotate ? '暫停旋轉' : '繼續旋轉';
+  }
+  pauseBtn.addEventListener('click', function () { controls.autoRotate = !controls.autoRotate; paintPause(); });
+  paintPause();
+
+  function fit() {
+    var w = stage.clientWidth || 600, h = 360;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', fit); fit();
+  setPhase(0);
+
+  var clock = new THREE.Clock();
+  (function loop() {
+    requestAnimationFrame(loop);
+    var t = clock.elapsedTime, dt = Math.min(clock.getDelta(), 0.05);
+    if (phase === 0 && fisGroup.visible) {
+      fisGroup.position.y = Math.sin(t * 1.3) * 0.25;
+      ugt.position.y = 3.2 + Math.sin(t * 2.1) * 0.3;
+      ugt.rotation.y += dt * 0.6;
+      glc.position.y = 2.2 + Math.sin(t * 2.1 + 1) * 0.2;
+    } else if (phase === 1 && proGroup.visible) {
+      proGroup.position.y = Math.sin(t * 1.3) * 0.25;
+      proGroup.rotation.y += dt * 0.35;
+      ugt.position.y = 4 + Math.sin(t * 2.4) * 0.35;
+      ugt.position.x = 5.5 + Math.max(0, Math.sin(t * 2.4)) * 0.8;
+    } else if (phase === 2 && proGroup.visible) {
+      var prog = (Math.sin(t * 0.7) + 1) / 2;
+      proGroup.position.y = 3.8 - prog * 7.2;
+      proGroup.rotation.z += dt * 0.4;
+    } else if (phase === 3) {
+      fisGroup.position.y = -3.5 + Math.sin(t * 1.4) * 0.2;
+      ces.position.y = 3.5 + Math.sin(t * 1.8) * 0.25;
+      ces.rotation.y += dt * 0.5;
+      caps.forEach(function (c, i) {
+        c.position.y = (-2.5 + i * 0.8) + Math.sin(t * 1.5 + i) * 0.35;
+        c.rotation.y += dt * (0.4 + i * 0.15);
       });
     }
     controls.update();
