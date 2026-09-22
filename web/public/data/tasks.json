@@ -1,5 +1,5 @@
 {
-  "generated": "21_SEP_2026 11:19 AM PDT",
+  "generated": "22_SEP_2026 07:29 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,37 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_proximity_graph_learning_21_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Proximity-guided graph learning — techniques & repo implementation plan",
+          "description": "Key graph analysis techniques from Scandore et al. (Nature, 2026; proximity-guided TAPA discovery) mapped onto concrete adjustments to llm-wiki-jk's graph pipeline.",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "graph-analysis",
+            "link-prediction",
+            "task"
+          ],
+          "filename": "task_output_proximity_graph_learning_21_Sep_2026.md",
+          "path": "tasks/en-US/task_output_proximity_graph_learning_21_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "鄰近性導向圖譜學習 — 技術與儲存庫實作計畫",
+          "description": "將 Scandore 等人（Nature, 2026；鄰近性導向 TAPA 發現）的關鍵圖譜分析技術，映射至 llm-wiki-jk 圖譜管線的具體調整。",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "graph-analysis",
+            "link-prediction",
+            "task"
+          ],
+          "filename": "task_output_proximity_graph_learning_21_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_proximity_graph_learning_21_Sep_2026.md"
         }
       }
     },
