@@ -353,7 +353,6 @@
           <option value="1" selected>1× 速度</option>
           <option value="2">2× 速度</option>
         </select>
-        <button id="shareAnim" title="複製在閱讀器開啟動畫分頁的連結">🔗 分享</button>
         <span class="hint">12 秒縮時循環 · T+ 時鐘為生物時間 · 捲動查看全部 10 種 · 🧬 開啟調控深度</span>
       </div>
     </div>
@@ -561,7 +560,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span><span class="pill silent">非裂解性</span>',
    bioNote:'⏱ 單細胞執行約 3 小時 · 12 秒循環（縮時）',
    phases:[[0,0,'死亡訊號——caspase-8/9 點火'],[2.5,30,'細胞收縮 · 染色質濃縮'],[5,75,'細胞膜起泡——保持完整'],[7.5,140,'凋亡小體掐斷分離'],[10,170,'包裹完成待吞噬']],
-   steps:['啟動——caspase-8/9 點燃 caspase-3；PS 開始外翻（Annexin V+）。','細胞收縮；染色質濃縮後斷裂成 DNA 梯狀片段。','細胞膜起泡但保持密封——PS 染色標示吃我訊號，絕不破裂。','分裂成密封的凋亡小體——無碎片雲；被靜默吞噬。'],
+   steps:['啟動——caspase-8/9 點燃 caspase-3；PS 開始外翻（Annexin V+）。','<strong>細胞收縮</strong>；染色質濃縮後斷裂成 DNA 梯狀片段。','細胞膜起泡但保持密封——PS 染色標示吃我訊號，絕不破裂。','分裂成密封的<strong>凋亡小體</strong>——無碎片雲；被靜默吞噬。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
@@ -573,7 +572,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span>',
    bioNote:'⏱ MNNG 類型病程約 8 小時 · 12 秒循環（縮時）',
    phases:[[0,0,'嚴重 DNA 損傷——PARP-1 過度活化'],[3,15,'PAR 鏈爆發 · NAD⁺ 耗竭（細胞變暗）'],[5.5,120,'AIF 離開粒線體 → 細胞核'],[8,300,'大片段（~50 kbp）聚集——無梯狀'],[10.3,450,'PS 外翻 · 細胞膜滲漏、不腫脹']],
-   steps:['DNA 損傷使 PARP-1 過度活化；PAR 自細胞核爆發。','NAD⁺／ATP 耗竭——全細胞光度下降；PAR 結合粒線體上的 AIF。','AIF 湧入細胞核；MIF 核酸酶隨後跟進切割 DNA。','細胞核聚成 ~50-kbp 大片段（無梯狀）；PS 外翻、輕微滲漏——不腫脹、不爆裂。'],
+   steps:['DNA 損傷使 PARP-1 過度活化；PAR 自細胞核爆發。','NAD⁺／ATP 耗竭——全細胞光度下降；PAR 結合粒線體上的 AIF。','AIF 湧入細胞核；MIF 核酸酶隨後跟進切割 DNA。','細胞核聚成 <strong>~50-kbp 大片段</strong>（無梯狀）；PS 外翻、輕微滲漏——<strong>不腫脹</strong>、不爆裂。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
@@ -586,7 +585,7 @@ const PROGRAMS = [
    pills:'<span class="pill acc">意外性</span>',
    bioNote:'⏱ 約 20 分鐘——十者中最快 · 12 秒循環（縮時）',
    phases:[[0,0,'損傷——鈉／鉀幫浦失效'],[2.5,4,'滲透腫脹——水分湧入、細胞腫大'],[5,9,'胞器腫脹 · 溶體滲漏'],[7,14,'細胞膜破裂'],[8,18,'DAMP 風暴——HMGB1、ATP、尿酸']],
-   steps:['Na⁺／K⁺ 幫浦失效——滲透腫脹使細胞脹大；粒線體腫脹破裂、溶體滲漏。','細胞膜在某一點撕裂——不規則破口。','DAMP 雲向外爆發 = 高度發炎。'],
+   steps:['Na⁺／K⁺ 幫浦失效——<strong>滲透腫脹使細胞脹大</strong>；粒線體腫脹破裂、溶體滲漏。','<strong>細胞膜在某一點撕裂</strong>——不規則破口。','DAMP 雲向外爆發 = 高度發炎。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
@@ -597,7 +596,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
    bioNote:'⏱ TSZ 病程約 4 小時（L929 約 1 小時 → HT-29 約 6 小時）· 12 秒循環（縮時）',
    phases:[[0,0,'TNFα 訊號——caspase-8 被阻斷'],[2.5,60,'壞死小體組裝（RIPK1／RIPK3）'],[5,120,'p-MLKL 環狀打孔'],[7,180,'經孔道腫脹 → 破裂'],[8.5,220,'DAMP 釋放 + NLRP3 交棒']],
-   steps:['TNFα 訊號下 caspase-8 被阻斷——RIPK1／RIPK3 壞死小體斑點組裝。','RIPK3 磷酸化 MLKL；MLKL 寡聚體在細胞膜打孔。','離子內流使細胞經孔區腫脹。','破裂 + DAMP 釋放並交棒 NLRP3；實際檢測可用 necrostatin-1／GSK\'872 阻斷。'],
+   steps:['TNFα 訊號下 caspase-8 被阻斷——RIPK1／RIPK3 壞死小體斑點組裝。','RIPK3 磷酸化 MLKL；MLKL 寡聚體在細胞膜打孔。','離子內流使細胞經孔區<strong>腫脹</strong>。','<strong>破裂</strong> + DAMP 釋放並交棒 NLRP3；實際檢測可用 necrostatin-1／GSK\'872 阻斷。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'粒線體', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
@@ -608,7 +607,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span>',
    bioNote:'⏱ erastin 類型病程約 8 小時（RSL3 約 4–5 小時）· 12 秒循環（縮時）',
    phases:[[0,0,'system Xc⁻／GPX4 失效——GSH 耗竭'],[3,120,'Fe²⁺ 火花 · 芬頓 ROS'],[5.5,240,'脂質過氧化擴散'],[8,360,'粒線體收縮濃縮'],[10,450,'在過氧化斑塊處破裂']],
-   steps:['system Xc⁻ → GSH → GPX4 失效（FSP1 備援被壓垮）——抗氧化盾失效。','游離 Fe²⁺ 驅動芬頓 ROS；ACSL4 裝載的 PUFA 磷脂過氧化。','脂質 ROS 斑塊沿細胞膜蔓延（C11-BODIPY 訊號）；粒線體皺縮濃縮。','細胞核保持完整——無斷裂；晚期在過氧化斑塊處破裂。'],
+   steps:['system Xc⁻ → GSH → GPX4 失效（FSP1 備援被壓垮）——抗氧化盾失效。','游離 Fe²⁺ 驅動芬頓 ROS；ACSL4 裝載的 PUFA 磷脂過氧化。','脂質 ROS 斑塊沿細胞膜蔓延（C11-BODIPY 訊號）；<strong>粒線體皺縮濃縮</strong>。','細胞核保持完整——<strong>無斷裂</strong>；晚期在過氧化斑塊處破裂。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
@@ -620,7 +619,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span>',
    bioNote:'⏱ 飢餓通量約 2 小時 · 單一囊泡約 10 分鐘 · 12 秒循環（縮時）',
    phases:[[0,0,'飢餓——mTORC1 關閉、AMPK 開啟'],[2.5,15,'吞噬泡新月生成'],[5,35,'包裹貨物——自噬體閉合'],[7.5,60,'與溶體融合 → 降解'],[10,110,'恢復——僅當 ATG 阻斷能挽救時才計為死亡']],
-   steps:['飢餓撥動開關——mTORC1 關閉、AMPK 開啟；ULK1–FIP200 + Beclin-1–Vps34 啟動。','吞噬泡新月生長、包覆受損貨物並閉合（LC3 脂化）。','雙層膜自噬體將貨物運往溶體。','融合閃光——貨物降解回收；細胞存活，僅當 ATG 阻斷能挽救時才計為自噬依賴性死亡。'],
+   steps:['飢餓撥動開關——mTORC1 關閉、AMPK 開啟；ULK1–FIP200 + Beclin-1–Vps34 啟動。','吞噬泡新月生長、包覆受損貨物並閉合（LC3 脂化）。','<strong>雙層膜自噬體</strong>將貨物運往溶體。','融合閃光——貨物降解回收；細胞存活，僅當 ATG 阻斷能挽救時才計為自噬依賴性死亡。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.7,-0.8,0]},
@@ -632,7 +631,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
    bioNote:'⏱ 刺激到破裂約 45 分鐘 · 12 秒循環（縮時）',
    phases:[[0,0,'PRR 感知危險——發炎體斑點'],[2.5,8,'caspase-1 點火——GSDMD 被切割'],[5,18,'10–20 nm 孔環佈滿細胞膜'],[7,30,'IL-1β／IL-18 噴射 + 腫脹'],[8.5,40,'破裂——細胞激素風暴']],
-   steps:['PRR 感知危險——發炎體斑點組裝；caspase-1 點火、GSDMD 被切割。','GSDMD-N 的 10–20 nm 孔環佈滿細胞膜。','IL-1β／IL-18 經孔道噴泉湧出，細胞腫脹。','破裂——細胞激素風暴。（非典型 caspase-4/5/11 與 caspase-3／GSDME 臂匯聚於此。）'],
+   steps:['PRR 感知危險——發炎體斑點組裝；caspase-1 點火、GSDMD 被切割。','GSDMD-N 的 <strong>10–20 nm 孔環</strong>佈滿細胞膜。','IL-1β／IL-18 經孔道噴泉湧出，細胞<strong>腫脹</strong>。','破裂——細胞激素風暴。（非典型 caspase-4/5/11 與 caspase-3／GSDME 臂匯聚於此。）'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
@@ -644,7 +643,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
    bioNote:'⏱ 感染病程約 12 小時——十者中最慢 · 12 秒循環（縮時）',
    phases:[[0,0,'ZBP1 感知——PANoptosome 組裝'],[3,240,'三臂齊發：GSDMD + caspase-3 + MLKL'],[6,480,'混合態：孔洞 + 起泡 + 腫脹同步'],[8.5,600,'全面破裂——單一抑制劑無效'],[10,690,'三臂齊發的 DAMP + 細胞激素風暴']],
-   steps:['ZBP1 感知（或 TAK1 缺失）——PANoptosome 組裝：RIPK1／RIPK3／caspase-8／caspase-1 + ASC／FADD。','三臂平行開火：GSDMD 孔 + caspase-3 活性 + pMLKL。','混合形態——孔洞、起泡與濃縮同步發生。','全面破裂 + DAMP／細胞激素風暴；單臂藥物（z-VAD、necrostatin-1）無效——需多臂聯合阻斷。'],
+   steps:['ZBP1 感知（或 TAK1 缺失）——PANoptosome 組裝：RIPK1／RIPK3／caspase-8／caspase-1 + ASC／FADD。','三臂平行開火：GSDMD 孔 + caspase-3 活性 + pMLKL。','<strong>混合形態——孔洞、起泡與濃縮同步發生</strong>。','全面破裂 + DAMP／細胞激素風暴；<strong>單臂藥物（z-VAD、necrostatin-1）無效</strong>——需多臂聯合阻斷。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'細胞核', pos:()=>[-0.8,-0.7,0]},
@@ -656,7 +655,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span><span class="pill silent">非裂解性</span>',
    bioNote:'⏱ 約數小時（氧化／滲透壓／能量耗竭誘因）· 12 秒循環（縮時）',
    phases:[[0,0,'誘因——Ca2+ 內流、能量耗竭'],[2.5,30,'細胞收縮 · Ca2+ 湧入'],[5,90,'PS 外翻 · 細胞膜起泡'],[8,150,'皺縮的 PS 陽性殘體——待清除'],[10.5,180,'被巨噬細胞靜默吞噬——不破裂']],
-   steps:['圓盤狀紅血球收縮——Ca2+ 湧入（氧化／滲透壓／能量耗竭／神經醯胺誘因）；無核、無粒線體。','細胞膜起泡；PS 外翻染色標示吃我訊號（Annexin V+）。','PS 陽性殘體被巨噬細胞清除——僅失控時溶血。'],
+   steps:['圓盤狀紅血球<strong>收縮</strong>——Ca2+ 湧入（氧化／滲透壓／能量耗竭／神經醯胺誘因）；無核、無粒線體。','細胞膜起泡；<strong>PS 外翻染色標示吃我訊號</strong>（Annexin V+）。','PS 陽性殘體被巨噬細胞清除——僅失控時溶血。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'Ca2+ 內流', pos:()=>[-0.2,0.9,0.4], show:(R,t)=>t>=1.5&&t<9},
@@ -666,7 +665,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">受調控</span><span class="pill lytic">裂解性</span>',
    bioNote:'⏱ 自殺型約 2–4 小時（存活型約數分鐘、保留細胞膜）· 12 秒循環（縮時）',
    phases:[[0,0,'病原體／LPS——NADPH 氧化酶 ROS 爆發'],[2.5,30,'PAD4 活化——組織蛋白瓜胺酸化'],[5,90,'染色質去濃縮——細胞核腫大'],[7.5,150,'核膜崩解——NET 擠出'],[10,210,'DNA 網 + elastase／MPO——捕捉病原體']],
-   steps:['病原體／LPS 誘發——NADPH 氧化酶 ROS 爆發；PAD4 瓜胺酸化組織蛋白（cit-H3）。','分葉核去濃縮、腫大並充滿細胞——無凋亡梯狀片段。','核膜崩解——染色質與 elastase／MPO 顆粒混合。','自殺型（如圖）：細胞膜破裂，DNA–組織蛋白網噴湧而出；存活型保留細胞膜、數分鐘內釋放 NET。'],
+   steps:['病原體／LPS 誘發——NADPH 氧化酶 ROS 爆發；PAD4 瓜胺酸化組織蛋白（cit-H3）。','分葉核<strong>去濃縮</strong>、腫大並充滿細胞——無凋亡梯狀片段。','核膜崩解——染色質與 elastase／MPO 顆粒混合。','自殺型（如圖）：細胞膜破裂，<strong>DNA–組織蛋白網噴湧而出</strong>；存活型保留細胞膜、數分鐘內釋放 NET。'],
    labels:[
     {text:'細胞膜', pos:()=>[1.5,1.45,0]},
     {text:'分葉核（去濃縮中）', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
@@ -1162,19 +1161,6 @@ playAll.onclick = ()=>{ running=!running; syncPlayBtn(); };
 document.getElementById('speed').onchange = e=>{ speed = parseFloat(e.target.value); };
 syncPlayBtn();
 if (!running) playAll.textContent = '▶ 全部播放（減少動態）';
-// 分享按鈕：複製圖譜閱讀器的深層連結，在閱讀器內開啟動畫分頁
-document.getElementById('shareAnim').onclick = async (e)=>{
-  const btn = e.currentTarget;
-  const base = /^https?:/.test(location.protocol) ? location.origin : 'https://graph.johnnykuo.com';
-  const url = base + '/#reader=cell-death-comparison-zh&section=animations';
-  const done = (msg)=>{ const o = btn.textContent; btn.textContent = msg; setTimeout(()=>{ btn.textContent = o; }, 1600); };
-  try {
-    if (navigator.share) { await navigator.share({title: document.title, url}); return; }
-    throw 0;
-  } catch(_){ /* fall through to clipboard */ }
-  try { await navigator.clipboard.writeText(url); done('✓ 已複製'); }
-  catch(_){ location.hash = '#animations'; done(url); }
-};
 </script>
 </body>
 </html>
