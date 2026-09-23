@@ -1,5 +1,5 @@
 {
-  "generated": "23_SEP_2026 08:49 AM PDT",
+  "generated": "23_SEP_2026 10:02 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,53 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Caspases vs Kinases vs Sirtuins — Enzyme-Superfamily Comparison",
+          "description": "Compare-and-contrast of the three major post-translational enzyme superfamilies (caspases, kinases, sirtuins) by chemistry, reversibility, cofactor, and biological role; their crosstalk nodes; and how their interactions regulate wanted vs unwanted cell death.",
+          "created": "2026-09-22",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "caspase",
+            "kinase",
+            "sirtuin",
+            "enzyme",
+            "post-translational-modification",
+            "apoptosis",
+            "pyroptosis",
+            "signaling",
+            "nad-plus",
+            "cell-death"
+          ],
+          "filename": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
+          "path": "tasks/en-US/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "Caspases vs Kinases vs Sirtuins — 酶超家族比較",
+          "description": "三大翻譯後修飾酶超家族（caspases、kinases、sirtuins）在化學反應、可逆性、輔因子與生物角色上的比較；其串擾節點；以及它們如何調控「需要的」與「不需要的」細胞死亡。",
+          "created": "2026-09-22",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "caspase",
+            "kinase",
+            "sirtuin",
+            "enzyme",
+            "post-translational-modification",
+            "apoptosis",
+            "pyroptosis",
+            "signaling",
+            "nad-plus",
+            "cell-death"
+          ],
+          "filename": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
         }
       }
     },
