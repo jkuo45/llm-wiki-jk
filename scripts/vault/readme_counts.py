@@ -265,6 +265,7 @@ def build_web_tasks(task_data, args):
         ),
         reverse=True,
     )
+    n_tasks = len(ordered)  # real task outputs, before the index pseudo-entry
     # Index pseudo-entry (no markdown behind it): opened when the reader's
     # Task Outputs tab is clicked. Empty dates keep it out of the newest
     # sort position and the "Older" recency bucket.
@@ -304,7 +305,7 @@ def build_web_tasks(task_data, args):
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(
-        f"Wrote {out_path} ({len(ordered)} tasks, {copied} files copied to {args.web_tasks_dir}/)"
+        f"Wrote {out_path} ({n_tasks} tasks, {copied} files copied to {args.web_tasks_dir}/)"
     )
 
 def read_env_file(path):
