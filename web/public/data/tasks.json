@@ -1,5 +1,5 @@
 {
-  "generated": "23_SEP_2026 11:11 AM PDT",
+  "generated": "23_SEP_2026 03:41 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,49 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "SIRT1/SIRT3 Pace & Kinetic Modulators — Rate-Setting Therapeutics (Not Classical On/Off)",
+          "description": "Web research on therapeutics that target SIRT1 or SIRT3 through reaction speed, cofactor flux, and catalytic efficiency rather than binary inhibition/activation — including the Guan 2024 steady-state SIRT3 activators (compounds 5329973 / 5689785) and the CCM-SRX pipeline.",
+          "created": "2026-09-23",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "sirt1",
+            "sirt3",
+            "enzyme-kinetics",
+            "nad-metabolism",
+            "pace-of-aging",
+            "cd38",
+            "nampt",
+            "drug-discovery"
+          ],
+          "filename": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "SIRT1/SIRT3 步調與動力學調節劑 — 設定反應速度的療法（非古典開／關）",
+          "description": "以反應速度、輔因子通量與催化效率（而非二元抑制／活化）為框架的 SIRT1 或 SIRT3 療法網路研究 — 含 Guan 2024 穩態 SIRT3 活化劑（化合物 5329973 / 5689785）與 CCM-SRX 管線。",
+          "created": "2026-09-23",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "sirt1",
+            "sirt3",
+            "enzyme-kinetics",
+            "nad-metabolism",
+            "pace-of-aging",
+            "cd38",
+            "nampt",
+            "drug-discovery"
+          ],
+          "filename": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
         }
       }
     },
