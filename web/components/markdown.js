@@ -253,7 +253,7 @@ function ensureMermaidStyles() {
 
 async function getMermaid() {
   if (mermaidLib) return mermaidLib;
-  const mod = await import(MERMAID_CDN);
+  const mod = await import(/* @vite-ignore */ MERMAID_CDN);
   mermaidLib = mod.default;
   return mermaidLib;
 }
