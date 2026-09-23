@@ -3,7 +3,7 @@ title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
-updated: 2026-07-26
+updated: 2026-09-23
 ---
 # Cancer
 
@@ -21,10 +21,26 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 * 0 (Neutral): Standard biological components, enzymes, proteins, and neutral concepts (e.g., Akt, EGFR, Glycolysis).
 * 1 (Positive): Potential therapies, beneficial mechanisms (like Apoptosis for cell death induction), and organizations/individuals contributing to the solution (e.g., Ivermectin, Mectizan Donation Program).
 
+## Documents
+
+| Document | Description |
+| --- | --- |
+| [[_document_ - Apoptosis in cancer from pathogenesis to treatment\|Apoptosis in cancer: from pathogenesis to treatment]] | Apoptosis is an ordered and orchestrated cellular process that occurs |
+| [[_document_ - Caspase\|Caspase]] | Table of caspase phosphorylation sites and their regulation in cancer |
+| [[_document_ - Chemotherapy NAD+ Loss Pöllänen 2026\|Chemotherapy induces tissue NAD+ loss, and downregulation of NAD+ biosynthetic enzyme Nrk2 marks muscle wasting]] | BioRxiv preprint demonstrating that chemotherapy alone disrupts tissue NAD+ metabolism independent of tumor burden, with skeletal muscle NAD+ loss accompanying muscle atrophy and Nrk2 downregulatio... |
+| [[_document_ - Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells (NAD+)\|Complex I drives glutamine-dependent TCA cycle to support viability of MYChigh breast cancer cells]] | Anttila et al. show that elevated OXPHOS is a hallmark of MYChigh breast cancers, where complex I-driven NAD+ regeneration sustains a glutamine-fueled TCA cycle to meet anabolic demand. Co-inhibiti... |
+| [[_document_ - Evading apoptosis in cancer\|Evading apoptosis in cancer]] | Carcinogenesis is a mechanistically complex and variable process with |
+| [[_document_ - Fenbendazole as a Potential Anticancer Drug\|Fenbendazole as a Potential Anticancer Drug]] | 2013 primary research article testing fenbendazole anticancer activity in EMT6 mouse mammary tumor cells in vitro and in vivo; found no evidence of antitumor efficacy or radiosensitization. |
+| [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology\|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched]] | Despite decades of study, the molecular mechanisms and selectivity of |
+| [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug\|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]] | Ivermectin has powerful antitumor effects, including the inhibition of |
+| [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective\|Ivermectin, ‘Wonder drug’ from Japan: the human use perspective]] | Discovered in the late-1970s, the pioneering drug ivermectin, a dihydro |
+| [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals\|Oral Fenbendazole for Cancer Therapy in Humans and Animals]] | Fenbendazole is a Benzimidazole anthelmintic agent commonly used to treat |
+| [[_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions\|RGD peptide in cancer targeting: Benefits, challenges, solutions, and possible integrin–RGD interactions]] | RGD peptide can be found in cell adhesion and signaling proteins, such as fibronectin, vitronectin, and fibrinogen. RGD peptides' principal function is to facilitate cell adhesion by interacting wi... |
+
 ## Maintenance
 
-- Last updated: 15_September_2026 09:17 AM PDT
-- Total count of entities: 356
+- Last updated: 23_September_2026 12:00 PM PDT
+- Total count of entities: 257
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -286,6 +302,71 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[VEGFR3]] | 15_August_2026 12:00 PM PDT | Receptor | 6 | 0 | The receptor for VEGF-C on lymphatic endothelium, promoting lymphangiogenesis and lymphatic vessel sprouting; a canonical mediator of lym... |
 | [[Xp11 translocation RCC]] | 15_August_2026 12:00 PM PDT | Medical Condition | 6 | -1 | A distinct subtype of renal cell carcinoma defined by TFE3 gene fusions, most often arising in children and young adults, with constituti... |
 | [[acute promyelocytic leukaemia]] | 15_August_2026 12:00 PM PDT | Medical Condition | 7 | -1 | A distinct subtype of acute myeloid leukemia caused by the PML-RARA fusion, in which SIRT2 activity sits upstream of leukaemia cell survi... |
+
+| [[A1-Bfl-1]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | A1/Bfl-1 (Bcl-2-related protein A1), encoded by the BCL2A1 gene, is an anti-apoptotic member of the Bcl-2 family. |
+| [[ASK1]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Apoptosis signal-regulating kinase 1 (ASK1), also known as MAP3K5, is a ~155 kDa serine-threonine MAP kinase kinase kinase that activates the JNK and p38 MAPK pathways in response to cellular stres... |
+| [[Bad]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bad (Bcl-2-associated death promoter) is a pro-apoptotic BH3-only |
+| [[Bik]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bik (Bcl-2-interacting killer) is a BH3-only protein whose degradation is promoted by SRC kinase through an ERK-dependent mechanism, suppressing Apoptosis and favoring tumor survival. |
+| [[Bim]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bim (Bcl-2-like protein 11) is a potent pro-apoptotic BH3-only member |
+| [[Bladder Cancer]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bladder cancer is a common malignancy of the urinary tract, with approximately 550,000 new cases worldwide annually. It is the 4th most common cancer in men, with a peak incidence at age 65–70 and... |
+| [[Bmf]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bmf (Bcl-2-modifying factor) is a BH3-only protein whose pro-apoptotic activity is suppressed by ERK2 phosphorylation at Ser77 and by sequestration at the actin cytoskeleton. |
+| [[Bmi-1]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bmi-1 (B lymphoma Mo-MLV insertion region 1 homolog) is a protein |
+| [[CDK1]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | CDK1 (Cyclin-dependent kinase 1) is the master mitotic kinase that, in complex with CYCLIN B1, drives G2/M transition and phosphorylates Caspase-2 at Ser308 to suppress apoptosis during mitosis. |
+| [[CYCLIN B1]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | CYCLIN B1 is the regulatory subunit of the CDK1–Cyclin B1 maturation-promoting factor that drives G2/M progression and, by phosphorylating Caspase-2 at Ser308, inhibits apoptosis during mitosis. |
+| [[Colon Cancer]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Colon cancer is a malignancy of the large intestine (colon), representing a major subset of colorectal cancer. It is the third most common cancer worldwide, with approximately 1.9 million new cases... |
+| [[Common Pathway]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | The Common Pathway (or execution phase) of Apoptosis is the final |
+| [[DISC]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | The Death-Inducing Signaling Complex (DISC) is a multi-protein assembly |
+| [[DR4]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | DR4 (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is |
+| [[DR5]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | DR5 (Death Receptor 5), also known as TRAIL-R2 or TNFRSF10B, is |
+| [[Endoplasmic Reticulum Pathway]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | The Endoplasmic Reticulum (ER) Pathway is an initiation route for |
+| [[Esophageal Cancer]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Esophageal cancer is a malignancy of the esophagus with approximately 600,000 new cases worldwide annually, ranking 9th among all cancers globally. The two main histological types are squamous cell... |
+| [[FADD]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | FADD (Fas-associated via death domain) is a critical adaptor protein |
+| [[Gossypol]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Gossypol is a natural polyphenolic compound derived from the cotton |
+| [[HSP90β]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias. |
+| [[IBRDC2]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | IBRDC2 (also known as p53RFP or RNF144B) is an E3 ubiquitin ligase that ubiquitinates Bax on the mitochondrial outer membrane, regulating its stability and apoptotic activation. |
+| [[IKK]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | IKK (IκB kinase) is the regulatory kinase complex of the NFκB pathway that also phosphorylates Bcl-2 family proteins such as Puma and Bad to modulate apoptotic function. |
+| [[IKKε]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | IKKε (IκB kinase epsilon) is a non-canonical IKK family kinase that phosphorylates XIAP to trigger its degradation, sensitizing virus-infected and malignant cells to Apoptosis. |
+| [[JNK1]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | JNK1 (c-Jun N-terminal kinase 1) is a member of the MAPK family that regulates Apoptosis by phosphorylating members of the Bcl-2 family. |
+| [[JNK2]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | JNK2 (MAPK9) is a ubiquitously expressed JNK isoform that phosphorylates Bcl-xL at Ser62 during G2 arrest, inactivating this anti-apoptotic protein and sensitizing cells such as cervical cancer cel... |
+| [[Lymphoma]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Lymphoma is a cancer of the lymphatic system, which is part of the body's |
+| [[MDM2]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | MDM2 (Mouse double minute 2 homolog) is a nuclear phosphoprotein |
+| [[Mcl-1]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Mcl-1 (Myeloid cell leukemia 1) is a potent anti-apoptotic member |
+| [[Noxa]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Noxa (Latin for ''damage'') is a pro-apoptotic BH3-only member of |
+| [[Omi-HtrA2]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Omi/HtrA2 (High temperature requirement protein A2) is a serine |
+| [[PAK4]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | PAK4 is a Group II p21-activated kinase and Rho-family effector that drives proliferation, survival, and invasion in cancer by phosphorylating Bad, Raf, and β-catenin. |
+| [[PAK5]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | PAK5 (PAK7) is a brain-enriched Group II p21-activated kinase that promotes neuronal survival and is upregulated in carcinomas, where it phosphorylates Bad to suppress apoptosis and support growth. |
+| [[PKA]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Protein kinase A (PKA, cAMP-dependent protein kinase) is a serine/threonine kinase activated by cAMP that regulates metabolism, gene transcription, and apoptosis by phosphorylating diverse substrat... |
+| [[PKCδ]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Protein kinase C delta (PKCδ) is a novel/DAG-regulated PKC isoform that functions as both a pro-apoptotic and proliferative kinase depending on context, phosphorylating Caspase-3 and modulating dea... |
+| [[PKCζ]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Protein kinase C zeta (PKCζ) is an atypical, calcium- and DAG-independent PKC isoform that promotes cell survival and proliferation through NF-κB activation and inhibition of pro-apoptotic proteins... |
+| [[PKCι]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Protein kinase C iota (PKCι) is an atypical PKC isoform and probable oncogene that promotes cell survival, proliferation, and transformation by phosphorylating and inactivating the pro-apoptotic pr... |
+| [[PLK1]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Polo-like kinase 1 (PLK1) is a serine/threonine kinase and master regulator of mitosis that controls centrosome maturation, spindle assembly, and cytokinesis, and modulates apoptosis by phosphoryla... |
+| [[PP1α]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Protein phosphatase 1 alpha (PP1α, PPP1CA) is the catalytic alpha isoform of PP1 that dephosphorylates and activates Caspase-9 by reversing inhibitory phosphorylation at Thr125. |
+| [[PTPN family]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | The PTPN family (Protein Tyrosine Phosphatase Non-receptor type) |
+| [[Polo kinase 3]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Polo kinase 3 (Plk3) is the stress-responsive Polo-like kinase that phosphorylates Bcl-xL at Ser49 during cell cycle progression and checkpoints to modulate its anti-apoptotic function. This note i... |
+| [[Puma]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Puma (p53 upregulated modulator of apoptosis), also known as BBC3, |
+| [[Rectal Cancer]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Rectal cancer is cancer that begins in the rectum. It is distinct from colon cancer in anatomy, treatment approach, recurrence patterns, and molecular profile. |
+| [[SRC kinase]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | SRC (proto-oncogene c-Src) is a non-receptor tyrosine kinase, the founding member of the SRC family, that transduces growth-factor and integrin signals and promotes proliferation, survival, invasio... |
+| [[Small-cell lung cancer]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Small-cell lung cancer (SCLC) is a highly aggressive neuroendocrine carcinoma accounting for approximately 15% of lung cancers, strongly associated with tobacco smoking, and characterized by rapid... |
+| [[TRADD]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | TRADD (TNFR1-associated death domain protein) is an adaptor that nucleates TNF receptor 1 signaling complexes, bifurcating into caspase-8-driven apoptosis or NFκB/ MAPK-mediated survival and inflam... |
+| [[TRIM2]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | TRIM2 (tripartite motif-containing protein 2) is an E3 ubiquitin ligase that promotes ERK-dependent degradation of the pro-apoptotic protein Bim, conferring neuronal and potentially tumor-cell prot... |
+| [[Trim17]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | TRIM17 (tripartite motif-containing protein 17) is an E3 ubiquitin ligase that ubiquitylates Mcl-1 and other substrates to promote apoptosis; its tumor relevance lies in damping anti-apoptotic prot... |
+| [[bioluminescence resonance energy transfer]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Bioluminescence resonance energy transfer (BRET) is a non-radiative energy-transfer technique between a luminescent donor enzyme and a fluorescent acceptor, used to monitor protein-protein proximit... |
+| [[c-ABL]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | c-ABL (ABL1) is a non-receptor tyrosine kinase that regulates Caspase-9 autocleavage and stress/apoptotic responses, and is oncogenically activated as BCR-ABL in chronic myeloid leukemia. |
+| [[c-CBL]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | c-CBL is an E3 ubiquitin ligase and proto-oncogene that negatively regulates receptor tyrosine kinase signaling by targeting activated receptors for ubiquitination and degradation. |
+| [[chromatin condensation]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Chromatin condensation is a morphological hallmark of Apoptosis. |
+| [[erlotinib]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Erlotinib (Tarceva) is a small-molecule EGFR tyrosine kinase inhibitor used in non-small-cell lung cancer and pancreatic cancer that blocks proliferation and induces apoptosis, and is combined with... |
+| [[fenbendazole_3725.full]] | 28_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | 2024 review on orally administered fenbendazole pharmacokinetics and anticancer mechanisms (glycolysis inhibition, microtubule destabilization, apoptosis, oxidative stress) in humans and animals. |
+| [[irinotecan]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Irinotecan (Camptosar) is a camptothecin-derived prodrug converted to SN-38, a potent topoisomerase I poison used in Colorectal Cancer and small cell lung cancer. |
+| [[membrane blebbing]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Membrane blebbing is a hallmark morphological change of the apoptotic execution phase, driven by caspase-mediated cytoskeletal cleavage (e.g., ROCK1) that forces actin-myosin contractions to bulge... |
+| [[miR-101]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | miR-101 is a tumor-suppressive microRNA frequently down-regulated in Hepatocellular Carcinoma and other cancers; it promotes Apoptosis and suppresses tumorigenicity by directly targeting the anti-a... |
+| [[miR-24]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | miR-24 is a microRNA that promotes cancer cell survival by repressing XIAP-targeting mechanisms and reducing the Apoptosis threshold; its overexpression is associated with chemoresistance in severa... |
+| [[miR-29b]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | miR-29b is a tumor-suppressive microRNA that regulates apoptosis, extracellular matrix remodeling, and epigenetic silencing across multiple cancers. |
+| [[miR-7]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | miR-7 is a tumor-suppressive microRNA that targets EGFR and the PI3K/Akt axis, suppressing proliferation and promoting apoptosis in multiple carcinomas. |
+| [[oncosis]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | A form of accidental cell death characterized by cell swelling, increased membrane permeability, and eventual lysis, often associated with ischemia and extreme metabolic stress. |
+| [[p70S6 kinase]] | 07_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | p70S6 kinase (S6K1) is an mTORC1-effector serine/threonine kinase that promotes growth and survival by phosphorylating S6 ribosomal protein and inactivating the pro-apoptotic Bad. |
+| [[paclitaxel]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | Paclitaxel (also known as Taxol) is a widely used chemotherapy agent |
+| [[siRNA]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | siRNA (Small interfering RNA), also known as silencing RNA, is a |
+| [[tumour microenvironment]] | 06_Jul_2026 12:00 PM PDT | Uncategorized | 6 | 0 | The complex ecosystem surrounding a tumor, comprising various cell types, signaling molecules, and the extracellular matrix, which plays a critical role in tumor growth, progression, and therapeuti... |
 
 ## Consolidated to notes/_link/
 
