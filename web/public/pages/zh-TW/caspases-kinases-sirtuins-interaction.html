@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caspase、激酶與 Sirtuin — 細胞死亡的分子調控</title>
+<meta name="description" content="Caspase、激酶與 Sirtuin 在分子、胞器、細胞與組織層級交互作用的互動科學指南：Three.js 網路、反應式、共享調控節點、失效模式與研究方法。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/caspases-kinases-sirtuins-interaction.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/caspases-kinases-sirtuins-interaction.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/caspases-kinases-sirtuins-interaction.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/caspases-kinases-sirtuins-interaction.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='82'>⚗</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<style>
+/* page-specific only — shared chrome lives in themes/theme-02/theme.css */
+:root {
+  --caspase: #b44f47;
+  --kinase: #3478a5;
+  --sirtuin: #76569c;
+  --shared: #59524a;
+  --cleavage: #b5752c;
+  --inhibit: #8f2f2f;
+  --activate: #3b765a;
+  --warn: #9a632b;
+}
+[data-theme="dark"] {
+  --caspase: #e37b70;
+  --kinase: #76b7df;
+  --sirtuin: #b79be0;
+  --shared: #a89f90;
+  --cleavage: #e4ad5f;
+  --inhibit: #ff9b9b;
+  --activate: #79cda4;
+  --warn: #e6b46e;
+}
+body {
+  background:
+    radial-gradient(circle at 12% 0%, color-mix(in srgb, var(--kinase) 10%, transparent), transparent 32rem),
+    radial-gradient(circle at 88% 4%, color-mix(in srgb, var(--sirtuin) 9%, transparent), transparent 30rem),
+    var(--paper);
+}
+main { padding-bottom: 2rem; }
+.lede { max-width: 78ch; }
+.provenance { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-top: 1.4rem; color: var(--mute); font: .78rem/1.5 var(--mono); }
+.provenance a { color: var(--ink-soft); }
+h2 { max-width: 24ch; margin-top: .55rem; }
+h3 { margin: 1.8rem 0 .65rem; }
+p { max-width: 82ch; }
+.intro { color: var(--ink-soft); font-size: 1.05rem; }
+.viewer-shell { margin-top: 1.5rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.viewer-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; padding: .75rem; border-bottom: 1px solid var(--rule); background: var(--sheet); }
+.viewer-toolbar .spacer { flex: 1; }
+button, select {
+  min-height: 2.35rem; padding: .5rem .8rem; color: var(--ink); background: var(--sheet);
+  border: 1px solid var(--rule-strong); border-radius: var(--radius); font: 600 .78rem/1.1 var(--sans); cursor: pointer;
+}
+button:hover, select:hover { border-color: var(--oxblood); }
+button[aria-pressed="true"] { color: var(--sheet); background: var(--ink); border-color: var(--ink); }
+.viewer-grid { display: grid; grid-template-columns: minmax(0, 1fr) 310px; min-height: 620px; }
+.stage { position: relative; min-height: 620px; overflow: hidden; background: radial-gradient(circle at 52% 42%, color-mix(in srgb, var(--kinase) 10%, var(--paper-deep)), var(--paper-deep)); }
+/* ponytail: absolute so the canvas never contributes intrinsic height to
+   .stage — in flow + height:100% + setPixelRatio(2) on retina doubles the
+   stage every ResizeObserver tick until the buffer hits GPU max and blanks. */
+canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+.stage-status, .stage-scale, .stage-help {
+  position: absolute; z-index: 4; color: var(--sheet); background: color-mix(in srgb, var(--ink) 83%, transparent);
+  border: 1px solid color-mix(in srgb, var(--sheet) 24%, transparent); border-radius: 999px; font: .7rem/1.4 var(--mono);
+}
+.stage-status { left: 1rem; top: 1rem; padding: .35rem .7rem; }
+.stage-scale { right: 1rem; top: 1rem; padding: .35rem .7rem; }
+.stage-help { left: 1rem; bottom: 1rem; padding: .4rem .7rem; }
+.snapshot { position: absolute; right: 1rem; bottom: 1rem; z-index: 5; min-width: 2.5rem; min-height: 2.5rem; padding: .5rem; color: var(--sheet); background: color-mix(in srgb, var(--ink) 83%, transparent); }
+.detail { padding: 1.15rem; border-left: 1px solid var(--rule); background: var(--sheet); }
+.detail .tag { display: inline-block; padding: .2rem .55rem; color: var(--sheet); background: var(--shared); border-radius: 999px; font: 700 .68rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.detail h3 { margin: .8rem 0 .2rem; }
+.detail .level { color: var(--mute); font: .73rem/1.5 var(--mono); }
+.detail p { font-size: .88rem; color: var(--ink-soft); }
+.detail .evidence { padding-top: .8rem; border-top: 1px solid var(--rule); font-size: .78rem; }
+.legend { display: flex; flex-wrap: wrap; gap: .5rem 1rem; padding: .75rem 1rem; border-top: 1px solid var(--rule); color: var(--mute); font-size: .75rem; }
+.legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.swatch { width: .75rem; height: .75rem; display: inline-block; border-radius: 50%; margin-right: 0; }
+.swatch.line { width: 1.4rem; height: 0; border-radius: 0; border-top: 2px dashed; }
+.fallback { display: none; position: absolute; inset: 20%; padding: 1rem; color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.caption { margin: .7rem 0 0; color: var(--mute); font-size: .78rem; }
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.card { padding: 1.15rem; background: var(--sheet); border: 1px solid var(--rule); border-top: 3px solid var(--rule-strong); border-radius: var(--radius); }
+.card.kinase { border-top-color: var(--kinase); }
+.card.sirtuin { border-top-color: var(--sirtuin); }
+.card.caspase { border-top-color: var(--caspase); }
+.card h3 { margin-top: 0; }
+.card p, .card li { color: var(--ink-soft); font-size: .9rem; }
+.card .metric { display: block; margin: .8rem 0; color: var(--mute); font: .73rem/1.5 var(--mono); }
+.card .reaction { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .5rem; margin: 1rem 0 .8rem; padding: .8rem; background: var(--paper-deep); border-radius: var(--radius); font: 700 .95rem/1.35 var(--mono); }
+.card .arrow { color: var(--mute); }
+.card dl { margin: 0; }
+.card dt { margin-top: .7rem; color: var(--mute); font: 700 .7rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.card dd { margin: .1rem 0 0; color: var(--ink-soft); font-size: .85rem; }
+.flow-figure { margin-top: 1.5rem; padding: 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); overflow-x: auto; }
+.flow-figure svg { min-width: 760px; width: 100%; height: auto; }
+.node-label { fill: var(--ink); font: 600 14px var(--sans); }
+.small-label { fill: var(--mute); font: 12px var(--mono); }
+.flow-line { fill: none; stroke: var(--rule-strong); stroke-width: 2; }
+.flow-activate { fill: none; stroke: var(--activate); stroke-width: 2.5; }
+.flow-inhibit { fill: none; stroke: var(--inhibit); stroke-width: 2.5; stroke-dasharray: 7 5; }
+.flow-cleave { fill: none; stroke: var(--cleavage); stroke-width: 2.5; stroke-dasharray: 2 5; }
+.box-kinase { fill: color-mix(in srgb, var(--kinase) 13%, var(--sheet)); stroke: var(--kinase); }
+.box-sirtuin { fill: color-mix(in srgb, var(--sirtuin) 13%, var(--sheet)); stroke: var(--sirtuin); }
+.box-caspase { fill: color-mix(in srgb, var(--caspase) 13%, var(--sheet)); stroke: var(--caspase); }
+.box-shared { fill: color-mix(in srgb, var(--shared) 12%, var(--sheet)); stroke: var(--shared); }
+.scenario-bar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .65rem; margin: 1.4rem 0; }
+.scenario { min-height: 5.7rem; text-align: left; }
+.scenario strong { display: block; color: inherit; font-size: .85rem; }
+.scenario span { display: block; margin-top: .25rem; opacity: .8; font-size: .7rem; font-weight: 500; }
+.scenario-output { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.readout { min-height: 150px; padding: 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); transition: border-color .2s ease, background .2s ease; }
+.readout h3 { margin: 0 0 .5rem; font-size: 1.05rem; display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.readout .ts { font: 600 .65rem var(--mono); color: var(--mute); text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+.readout.lead { border-color: var(--oxblood); background: color-mix(in srgb, var(--oxblood) 7%, var(--sheet)); }
+.readout.lead .ts { color: var(--oxblood); }
+.readout p { margin: 0; color: var(--ink-soft); font-size: .86rem; }
+.readout ul { margin: .5rem 0 0; padding-left: 1.1rem; color: var(--ink-soft); font-size: .82rem; }
+.ts-order { margin: .9rem 0 0; padding: .7rem .95rem; border-left: 3px solid var(--oxblood); background: var(--paper-deep); border-radius: 0 var(--radius) var(--radius) 0; color: var(--ink-soft); font-size: .85rem; }
+.ts-order b { font: 600 .66rem var(--mono); color: var(--oxblood); text-transform: uppercase; letter-spacing: .06em; margin-right: .55rem; }
+.timeline { margin: .9rem 0 0; padding: .85rem 1rem .9rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.tl-title { font: 600 .64rem var(--mono); color: var(--mute); text-transform: uppercase; letter-spacing: .06em; }
+.tl-lane { display: grid; grid-template-columns: 68px 1fr; gap: .6rem; align-items: center; margin-top: .45rem; }
+.tl-lbl { font: 600 .62rem var(--mono); color: var(--mute); text-transform: uppercase; letter-spacing: .04em; transition: color .2s ease; }
+.tl-track { position: relative; height: 15px; background: var(--paper-deep); border-radius: 4px; }
+.tl-bar { position: absolute; top: 2.5px; bottom: 2.5px; left: var(--x); width: var(--w); border-radius: 3px; transform-origin: left center; border: 1px solid transparent; transition: box-shadow .25s ease, opacity .25s ease; }
+.tl-lane[data-lane="kinase"] .tl-bar { background: color-mix(in srgb, var(--kinase) 50%, transparent); border-color: var(--kinase); }
+.tl-lane[data-lane="sirtuin"] .tl-bar { background: color-mix(in srgb, var(--sirtuin) 50%, transparent); border-color: var(--sirtuin); }
+.tl-lane[data-lane="caspase"] .tl-bar { background: color-mix(in srgb, var(--caspase) 50%, transparent); border-color: var(--caspase); }
+.timeline .tl-lane.is-lead .tl-lbl { color: var(--oxblood); }
+.timeline .tl-lane.is-lead .tl-bar { box-shadow: 0 0 0 2px color-mix(in srgb, var(--oxblood) 55%, transparent), 0 0 10px color-mix(in srgb, var(--oxblood) 35%, transparent); animation: leadPulse 1.1s ease 2; }
+.tl-axis { display: grid; grid-template-columns: 68px 1fr; gap: .6rem; margin-top: .3rem; }
+.tl-ticks { position: relative; height: 1.1em; }
+.tl-ticks span { position: absolute; transform: translateX(-50%); font: .6rem var(--mono); color: var(--mute); }
+.timeline.sweep .tl-lane .tl-bar { animation: laneSweep .55s cubic-bezier(.2,.75,.3,1) both; }
+.timeline.sweep .tl-lane:nth-child(2) .tl-bar { animation-delay: .12s; }
+.timeline.sweep .tl-lane:nth-child(3) .tl-bar { animation-delay: .24s; }
+.timeline.sweep .tl-lane.is-lead .tl-bar { animation: laneSweep .55s cubic-bezier(.2,.75,.3,1) both, leadPulse 1.1s ease .7s 2; }
+@keyframes laneSweep { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes leadPulse { 50% { opacity: .55; } }
+caption { padding: .6rem; color: var(--mute); font-size: .76rem; text-align: left; }
+.anatomy-grid { display: grid; grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr); gap: 1.4rem; align-items: start; }
+.anatomy { padding: 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.organ-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; }
+.organ { display: flex; flex-direction: column; align-items: center; gap: .55rem; padding: 1.1rem .5rem .9rem; background: var(--paper-deep); border: 1px solid var(--rule); border-radius: var(--radius); cursor: pointer; font: 600 .9rem var(--sans); color: var(--ink); transition: border-color .15s ease, filter .15s ease; }
+.organ svg { width: 46px; height: 46px; fill: none; stroke: var(--mute); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke .15s ease; }
+.organ:hover { filter: brightness(1.05); }
+.organ:hover svg, .organ:focus svg { stroke: var(--ink); }
+.organ[aria-pressed="true"] { background: var(--paper-deep); color: var(--ink); border-color: var(--oxblood); box-shadow: inset 0 0 0 1px var(--oxblood); }
+.organ[aria-pressed="true"] svg { stroke: var(--oxblood); }
+.anatomy-note { min-height: 270px; padding: 1.2rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.anatomy-note h3 { margin-top: 0; }
+.anatomy-note p, .anatomy-note li { color: var(--ink-soft); font-size: .9rem; }
+.two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-top: 1.4rem; }
+.research-block { padding: 1.2rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.research-block ol { padding-left: 1.2rem; }
+.research-block li { margin: .55rem 0; color: var(--ink-soft); }
+.assay { display: inline-block; margin: .2rem .25rem .2rem 0; padding: .25rem .5rem; color: var(--ink-soft); background: var(--paper-deep); border-radius: var(--radius); font: .75rem/1.4 var(--mono); }
+.caveat { margin-top: 1.2rem; padding: 1rem 1.15rem; border-left: 4px solid var(--warn); background: color-mix(in srgb, var(--warn) 8%, var(--sheet)); }
+.caveat strong { color: var(--ink); }
+.refs { list-style: decimal; margin: 0; padding-left: 1.3rem; }
+.refs li { margin: .7rem 0; color: var(--ink-soft); font-size: .88rem; }
+@media (max-width: 920px) {
+  .viewer-grid { grid-template-columns: 1fr; }
+  .detail { border-left: 0; border-top: 1px solid var(--rule); }
+  .stage { min-height: 520px; }
+  .cards, .scenario-output { grid-template-columns: 1fr; }
+  .scenario-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .anatomy-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 620px) {
+  .viewer-toolbar { align-items: stretch; }
+  .viewer-toolbar .spacer { display: none; }
+  .viewer-toolbar button, .viewer-toolbar select { flex: 1 1 42%; }
+  .stage { min-height: 460px; }
+  .scenario-bar, .two-col { grid-template-columns: 1fr; }
+  .stage-scale { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳至內容</a>
+<div class="site-nav">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#perturbation">干預狀態</a>
+      <a href="#chemistry">反應化學</a>
+      <a href="#regulation">調控結構</a>
+      <a href="#scenarios">命運情景</a>
+      <a href="#anatomy">組織情境</a>
+      <a href="#research">研究設計</a>
+    </div>
+  </div>
+</div>
+
+<header class="hero wrap">
+  <p class="kicker">酵素 · Caspase · 激酶 · Sirtuin</p>
+  <h1>Caspase、激酶與 Sirtuin</h1>
+  <p class="lede">這三大酵素超家族以不同的反應化學、時間尺度與次細胞位置調控細胞死亡。本頁描繪其直接交互作用，從蛋白質修飾、胞器功能、細胞命運決定，一路到組織層級的後果。</p>
+  <div class="provenance">
+    <span>來源整合：2026 年 9 月 22–23 日任務輸出</span>
+    <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md">Vault 任務</a>
+    <span>Three.js r160</span>
+  </div>
+</header>
+
+<main id="content" class="wrap">
+  <section id="perturbation">
+    <p class="sec-label">干預狀態</p>
+    <h2>一個網路，三種時間尺度</h2>
+    <p class="intro">激酶以可逆磷酸化快速調整蛋白質狀態；Sirtuin 將蛋白質去醯化與 NAD<sup>+</sup> 可用性及次細胞脈絡耦合；Caspase 切割底物，並可形成較穩定的死亡承諾。三維視圖將共享調控因子置於同一網路；選擇<strong>細胞區隔</strong>可將同一批節點重新配置到細胞核、細胞質、粒線體、細胞膜與炎質體位置。</p>
+    <div class="viewer-shell">
+      <div class="viewer-toolbar" role="toolbar" aria-label="互動模型控制項">
+        <button type="button" id="networkMode" aria-pressed="true">分子網路</button>
+        <button type="button" id="cellMode" aria-pressed="false">細胞區隔</button>
+        <span class="spacer"></span>
+        <label class="small-label" for="scenarioSelect">干預</label>
+        <select id="scenarioSelect">
+          <option value="homeostasis">參考狀態</option>
+          <option value="wanted">預期性死亡</option>
+          <option value="neuro">神經 Caspase 過量</option>
+          <option value="aging">Sirtuin 制約減弱</option>
+          <option value="tumor">腫瘤存活訊號</option>
+        </select>
+        <button type="button" id="playButton" aria-pressed="true">暫停</button>
+        <button type="button" id="resetView">重設視圖</button>
+      </div>
+      <div class="viewer-grid">
+        <div class="stage" id="stage">
+          <canvas id="scene" aria-label="Caspase、激酶、Sirtuin 與共享細胞死亡調控因子交互作用的互動三維模型"></canvas>
+          <div class="stage-status" id="stageStatus">分子網路 · 參考狀態</div>
+          <div class="stage-scale">空間配置為示意，非等比例</div>
+          <div class="stage-help">拖曳旋轉 · 滾輪縮放 · 點選節點</div>
+          <button class="snapshot" id="snapshot" type="button" aria-label="下載模型為 PNG">PNG</button>
+          <div class="fallback" id="fallback">WebGL 無法使用。下方的科學摘要與圖表仍可閱覽。</div>
+        </div>
+        <aside class="detail" id="detail" aria-live="polite">
+          <span class="tag" id="detailTag">網路總覽</span>
+          <h3 id="detailTitle">細胞死亡的分層調控</h3>
+          <p class="level" id="detailLevel">交互作用層級 · 急性至慢速調控</p>
+          <p id="detailText">激酶提供快速、可逆的控制；Sirtuin 提供 NAD⁺ 耦合的控制；Caspase 執行蛋白水解變化。其共享節點整合受體訊號、DNA 損傷、代謝、粒線體完整性與轉錄。</p>
+          <p class="evidence" id="detailEvidence">點選彩色節點或組織圖示，檢視其機轉與證據界線。</p>
+        </aside>
+      </div>
+      <div class="legend" aria-label="模型圖例">
+        <span><i class="swatch" style="background:var(--kinase)"></i> 激酶</span>
+        <span><i class="swatch" style="background:var(--sirtuin)"></i> Sirtuin</span>
+        <span><i class="swatch" style="background:var(--caspase)"></i> Caspase</span>
+        <span><i class="swatch" style="background:var(--shared)"></i> 共享調控因子</span>
+        <span><i class="swatch line" style="border-color:var(--activate)"></i> 活化／許可</span>
+        <span><i class="swatch line" style="border-color:var(--inhibit)"></i> 抑制</span>
+        <span><i class="swatch line" style="border-color:var(--cleavage)"></i> 切割／降解</span>
+      </div>
+    </div>
+    <p class="caption">此模型為機轉抽象。邊的方向呈現整合文件中的原始陳述；並不意味每項交互作用都會發生於每一種細胞型別或每一種底物計量比。</p>
+  </section>
+
+  <section id="chemistry">
+    <p class="sec-label">反應化學</p>
+    <h2>不同的底物、燃料與可逆性</h2>
+    <p>三大家族都會改變既有蛋白質，但化學操作與啟動邏輯不同。磷酸化與去醯化各有對應的反向酵素；Caspase 的蛋白水解改變共價結構，無法僅還原一個翻譯後修飾就逆轉。</p>
+    <div class="cards" aria-label="各酵素家族的代表性反應式">
+      <article class="card kinase">
+        <h3>激酶</h3>
+        <span class="metric">ATP 依賴性磷轉移 · 快速 · 可逆</span>
+        <p>激酶將 ATP 的末端 γ-磷酸轉移到受體羥基，最常見於絲胺酸、蘇胺酸或酪胺酸。磷酸酶可逆轉此反應。</p>
+        <ul>
+          <li>定位與支架結合決定哪些底物可及。</li>
+          <li>磷酸化可改變催化狀態、定位、結合或降解速率。</li>
+          <li>激酶輸出取決於脈絡；Akt 在某處境支持存活，在另一處境則參與壓力訊號。</li>
+        </ul>
+        <div class="reaction"><span>protein–OH</span><span class="arrow">+ ATP →</span></div>
+        <div class="reaction"><span>protein–O–PO<sub>3</sub><sup>2−</sup></span><span class="arrow">+ ADP</span></div>
+        <dl>
+          <dt>反向反應</dt><dd>蛋白質磷酸酶移除磷酸基。</dd>
+          <dt>典型時間尺度</dt><dd>訊號傳導為數秒至數分鐘；各蛋白質的停留時間不一。</dd>
+          <dt>細胞死亡範例</dt><dd>Akt–Caspase-9、Src–Caspase-8、PAK2–Caspase-7、CDK1–Caspase-2。</dd>
+        </dl>
+      </article>
+      <article class="card sirtuin">
+        <h3>Sirtuin</h3>
+        <span class="metric">NAD⁺ 依賴性去醯化 · 代謝耦合 · 原則上可逆</span>
+        <p>Sirtuin 將醯基從離胺酸連結的底物轉移到 NAD⁺，產生菸鹼醯胺與 2′-O-醯基-ADP-核糖。醯基轉移酶可重新加上部分標記。</p>
+        <ul>
+          <li>NAD⁺ 可用性、菸鹼醯胺回饋、定位與翻譯後修飾共同調節活性。</li>
+          <li>SIRT1/6/7 主要位於細胞核；SIRT2 廣布於細胞質；SIRT3/4/5 主要位於粒線體。</li>
+          <li>去醯化可改變轉錄因子活性、蛋白質交互作用、定位或代謝酵素功能。</li>
+        </ul>
+        <div class="reaction"><span>protein–NHCO–R</span><span class="arrow">+ NAD⁺ →</span></div>
+        <div class="reaction"><span>protein–NH₂</span><span class="arrow">+ NAM + OAADPR</span></div>
+        <dl>
+          <dt>反向反應</dt><dd>組蛋白／蛋白質乙醯轉移酶及其他醯基轉移酶可還原部分標記。</dd>
+          <dt>主要輸入</dt><dd>NAD⁺ 將 Sirtuin 反應速率與細胞代謝狀態相連。</dd>
+          <dt>細胞死亡範例</dt><dd>SIRT1–p53/FOXO、SIRT5–細胞色素 c、SIRT3–NLRP3／粒線體制約。</dd>
+        </dl>
+      </article>
+      <article class="card caspase">
+        <h3>Caspase</h3>
+        <span class="metric">Asp 後半胱胺酸蛋白水解 · 放大 · 難以逆轉</span>
+        <p>Caspase 水解特定天門冬胺酸殘基 C 端的肽鍵。啟動型在鄰近平台上活化；執行型切割結構、細胞核與修復相關蛋白質。</p>
+        <ul>
+          <li>DISC、凋亡體、炎質體等組裝體控制鄰近性與催化資格。</li>
+          <li>有限切割可切換調控因子；廣泛切割可拆解細胞底物。</li>
+          <li>Caspase-1 另可成熟 IL-1β／IL-18 並切割 gasdermin；發炎型 Caspase 可在明顯裂解前就釋放細胞激素。</li>
+        </ul>
+        <div class="reaction"><span>protein–Asp↓X–peptide</span><span class="arrow">+ H₂O →</span></div>
+        <div class="reaction"><span>fragment A + fragment B</span><span class="arrow">+ 2 H⁺</span></div>
+        <dl>
+          <dt>反向反應</dt><dd>蛋白水解產物須被降解或重新聚合；磷酸酶無法還原原始肽鍵。</dd>
+          <dt>啟動控制</dt><dd>鄰近性、抑制因子結合、平台組裝，以及啟動型–執行型回饋。</dd>
+          <dt>細胞死亡範例</dt><dd>Caspase-3/7 效應；Caspase-1 發炎底物加工；切割 SIRT1 或 PKCδ 可改變回饋。</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <section id="regulation">
+    <p class="sec-label">調控結構</p>
+    <h2>匯聚於共享控制節點</h2>
+    <p class="intro">三大家族在受體訊號、轉錄、粒線體完整性、炎質體組裝與抑制因子穩定性交會之處匯聚。綠色實線表示活化或許可；紅色虛線表示抑制；琥珀色點線表示切割。最具資訊量的研究靶點往往是這些共享節點，因為一次擾動可同時改變不只一層控制。</p>
+    <figure class="flow-figure">
+      <svg viewBox="0 0 1100 620" role="img" aria-labelledby="reg-title reg-desc">
+        <title id="reg-title">激酶、Sirtuin 與 Caspase 調控整合圖</title>
+        <desc id="reg-desc">激酶、Sirtuin 與 Caspase 匯聚於 p53、FOXO、XIAP、Bax 與細胞色素 c，以及 NLRP3 炎質體。Caspase 亦切割 SIRT1（圖中已示）；Caspase 對 PKCδ 與 Parkin 的切割見上方互動模型。</desc>
+        <rect class="box-kinase" x="35" y="55" width="250" height="130" rx="12"/>
+        <text class="node-label" x="160" y="92" text-anchor="middle">激酶 · 數秒–數分鐘</text>
+        <text class="small-label" x="160" y="120" text-anchor="middle">Akt · Src · PAK2 · CDK1</text>
+        <text class="small-label" x="160" y="145" text-anchor="middle">ERK2 · JNK/p38 · PKCδ</text>
+        <text class="small-label" x="160" y="168" text-anchor="middle">磷酸化 · 定位</text>
+
+        <rect class="box-sirtuin" x="425" y="55" width="250" height="130" rx="12"/>
+        <text class="node-label" x="550" y="92" text-anchor="middle">Sirtuin · NAD⁺ 耦合</text>
+        <text class="small-label" x="550" y="120" text-anchor="middle">SIRT1 · SIRT3 · SIRT5/6</text>
+        <text class="small-label" x="550" y="145" text-anchor="middle">去醯化 · NAD⁺ 可用性</text>
+        <text class="small-label" x="550" y="168" text-anchor="middle">區隔特異輸出</text>
+
+        <rect class="box-caspase" x="815" y="55" width="250" height="130" rx="12"/>
+        <text class="node-label" x="940" y="92" text-anchor="middle">Caspase · 蛋白水解</text>
+        <text class="small-label" x="940" y="120" text-anchor="middle">啟動型 → 執行型</text>
+        <text class="small-label" x="940" y="145" text-anchor="middle">DISC · apoptosome · inflammasome</text>
+        <text class="small-label" x="940" y="168" text-anchor="middle">底物切割 · 放大</text>
+
+        <rect class="box-shared" x="35" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="127" y="333" text-anchor="middle">p53</text>
+        <text class="small-label" x="127" y="360" text-anchor="middle">Bax/PUMA 轉錄</text>
+        <rect class="box-shared" x="250" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="342" y="333" text-anchor="middle">FOXO</text>
+        <text class="small-label" x="342" y="360" text-anchor="middle">Bim/Puma ＋壓力基因</text>
+        <rect class="box-shared" x="465" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="557" y="333" text-anchor="middle">XIAP</text>
+        <text class="small-label" x="557" y="360" text-anchor="middle">執行型閾值</text>
+        <rect class="box-shared" x="680" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="772" y="333" text-anchor="middle">Bax / cytochrome c</text>
+        <text class="small-label" x="772" y="360" text-anchor="middle">MOMP → Caspase-9</text>
+        <rect class="box-shared" x="895" y="300" width="170" height="86" rx="10"/>
+        <text class="node-label" x="980" y="333" text-anchor="middle">NLRP3</text>
+        <text class="small-label" x="980" y="360" text-anchor="middle">Caspase-1 → GSDMD</text>
+
+        <path class="flow-activate" d="M150 185 C190 230 185 250 135 300"/>
+        <path class="flow-activate" d="M255 185 C285 230 285 250 335 300"/>
+        <path class="flow-inhibit" d="M300 185 C285 235 300 255 345 300"/>
+        <path class="flow-activate" d="M275 185 C340 230 430 250 500 300"/>
+        <path class="flow-activate" d="M240 185 C320 225 620 240 695 300"/>
+        <path class="flow-activate" d="M285 185 C420 215 860 235 925 300"/>
+
+        <path class="flow-inhibit" d="M480 185 C420 235 220 245 165 300"/>
+        <path class="flow-inhibit" d="M505 185 C470 235 400 255 365 300"/>
+        <path class="flow-inhibit" d="M610 185 C690 230 720 250 770 300"/>
+        <path class="flow-inhibit" d="M640 185 C760 215 990 235 1020 300"/>
+
+        <path class="flow-cleave" d="M815 128 C770 118 730 120 675 132"/>
+        <path class="flow-activate" d="M855 185 C835 230 810 260 830 300"/>
+
+        <path class="flow-activate" d="M435 360 C500 455 660 460 772 386"/>
+        <path class="flow-activate" d="M220 365 C430 500 700 500 865 365"/>
+        <path class="flow-inhibit" d="M650 330 C740 290 850 235 920 185"/>
+        <path class="flow-activate" d="M980 300 C980 258 972 220 962 185"/>
+
+        <text class="node-label" x="550" y="545" text-anchor="middle">細胞命運輸出</text>
+        <text class="small-label" x="550" y="575" text-anchor="middle">修復或壓力適應 · 受控清除 · 發炎訊號 · 腫瘤細胞持存</text>
+      </svg>
+      <figcaption>任務整合的概念性整併。「Caspase 活化」不等同單一表現型：執行型 Caspase、發炎型 Caspase 與有限的啟動型切割事件可能有不同後果。</figcaption>
+    </figure>
+
+    <div class="table-wrap">
+      <table>
+        <caption>共享控制節點與具代表性的實驗判別指標</caption>
+        <thead><tr><th>節點</th><th>激酶輸入</th><th>Sirtuin 輸入</th><th>Caspase 連結</th><th>主要讀值</th></tr></thead>
+        <tbody>
+          <tr><td><strong>p53</strong></td><td>DNA 損傷激酶改變 p53 穩定性與活性。</td><td>SIRT1 去乙醯化 p53，在所引脈絡中通常降低其促凋亡的轉錄輸出。</td><td>p53 誘導 BAX/PUMA，並可促進粒線體 Caspase-9 活化。</td><td>p53 乙醯化、PUMA/BAX 轉錄本、MOMP、切割型 Caspase-3。</td></tr>
+          <tr><td><strong>FOXO</strong></td><td>Akt 磷酸化促進核排除；AMPK/JNK 可促進核內活性。</td><td>SIRT1 去乙醯化可使轉錄偏向壓力抗性與自噬。</td><td>FOXO 相關的 BIM/PUMA 表達可降低凋亡閾值。</td><td>FOXO 定位、靶基因轉錄、自噬通量、Caspase-3。</td></tr>
+          <tr><td><strong>XIAP</strong></td><td>Akt 可穩定 XIAP；TBK1/IKKε 可促進其去穩定化。</td><td>此處不需要直接的 Sirtuin 規則；Sirtuin 經由共享壓力網路於上游作用。</td><td>XIAP 直接抑制 Caspase-3/7 與部分啟動型 Caspase。</td><td>XIAP 豐度、泛素依賴性周轉、Caspase-3/7 活性。</td></tr>
+          <tr><td><strong>Bax / cytochrome c</strong></td><td>JNK/p38 與 ERK2 在相反脈絡中調控 Bax Thr167。</td><td>SIRT1/Ku70 可制約 Bax；SIRT5 修飾細胞色素 c。</td><td>細胞色素 c–Apaf-1 組裝活化 Caspase-9。</td><td>Bax 寡聚合、細胞色素 c 釋放、凋亡體組裝。</td></tr>
+          <tr><td><strong>NLRP3–Caspase-1–GSDMD</strong></td><td>AMPK、TAK1 等訊號輸入依脈絡調節炎質體活化。</td><td>SIRT1/2/3 可經由轉錄與粒線體機制制約 NLRP3 活化。</td><td>Caspase-1 加工 IL-1β/IL-18 並切割 GSDMD；Caspase-3/7 稍後亦可切割 GSDMD。</td><td>NLRP3 組裝、成熟細胞激素、GSDMD-N、LDH 釋放、電生理。</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="scenarios">
+    <p class="sec-label">細胞命運情景</p>
+    <h2>當一層控制失效時，什麼改變了？</h2>
+    <p class="intro">同一套酵素家族支撐發育期細胞清除、壓力適應、免疫調節與腫瘤持存。結果取決於哪些調控輸入占優勢。選擇一個情景以更新三維模型與機轉摘要。</p>
+    <div class="scenario-bar" role="group" aria-label="細胞命運情景">
+      <button class="scenario" type="button" data-scenario="homeostasis"><strong>參考狀態</strong><span>激酶與 Sirtuin 的制約大於促死亡輸入。</span></button>
+      <button class="scenario" type="button" data-scenario="wanted"><strong>預期性死亡</strong><span>啟動訊號克服抑制性閾值。</span></button>
+      <button class="scenario" type="button" data-scenario="neuro"><strong>神經死亡過量</strong><span>執行型與發炎型 Caspase 輸出超過制約。</span></button>
+      <button class="scenario" type="button" data-scenario="aging"><strong>制約減弱</strong><span>低 NAD⁺ 削弱 Sirtuin 依賴的控制。</span></button>
+      <button class="scenario" type="button" data-scenario="tumor"><strong>腫瘤持存</strong><span>存活激酶與 SIRT1 活性喪失抬高閾值。</span></button>
+    </div>
+    <div class="scenario-output" aria-live="polite">
+      <article class="readout" data-layer="kinase">
+        <h3>激酶層 <span class="ts">數秒 → 數分鐘</span></h3>
+        <p id="kinaseReadout">Akt、Src 與檢查點激酶施加快速抑制或改變支架使用。磷酸酶允許重置與重複訊號傳導。</p>
+      </article>
+      <article class="readout" data-layer="sirtuin">
+        <h3>Sirtuin 層 <span class="ts">數分鐘 → 數小時</span></h3>
+        <p id="sirtuinReadout">充足的 NAD⁺ 支撐 SIRT1/SIRT3/SIRT5 對轉錄、粒線體與炎質體組裝的制約，並受定位與底物脈絡影響。</p>
+      </article>
+      <article class="readout" data-layer="caspase">
+        <h3>Caspase 層 <span class="ts">數分鐘 → 不可逆</span></h3>
+        <p id="caspaseReadout">啟動型與執行型活性仍低於廣泛底物切割所需之程度；發炎型 Caspase 亦相應受限。</p>
+      </article>
+    </div>
+    <div class="timeline" id="timeline" data-lead="kinase" aria-hidden="true">
+      <span class="tl-title">時間尺度時間軸 · 數秒 → 數天</span>
+      <div class="tl-lane" data-lane="kinase">
+        <span class="tl-lbl">激酶</span>
+        <div class="tl-track"><i class="tl-bar" style="--x:3%; --w:24%"></i></div>
+      </div>
+      <div class="tl-lane" data-lane="sirtuin">
+        <span class="tl-lbl">Sirtuin</span>
+        <div class="tl-track"><i class="tl-bar" style="--x:26%; --w:34%"></i></div>
+      </div>
+      <div class="tl-lane" data-lane="caspase">
+        <span class="tl-lbl">Caspase</span>
+        <div class="tl-track"><i class="tl-bar" style="--x:26%; --w:71%"></i></div>
+      </div>
+      <div class="tl-axis">
+        <span></span>
+        <div class="tl-ticks"><span style="left:4%">秒</span><span style="left:27%">分</span><span style="left:59%">時</span><span style="left:88%">天</span><span style="left:97%">→ 不可逆</span></div>
+      </div>
+    </div>
+    <p class="ts-order" id="tsOrder" aria-live="polite"><b>時間尺度焦點</b><span></span></p>
+  </section>
+
+  <section id="anatomy">
+    <p class="sec-label">組織情境</p>
+    <h2>組織後果源自不同的易損細胞</h2>
+    <p class="intro">分子網路為各組織共享，但細胞組成、胞器負荷、胞外訊號與清除能力會改變後果。選擇一個器官以檢視代表性情境。這些是機轉範例，不是完整的組織圖譜或臨床風險模型。</p>
+    <div class="anatomy-grid">
+      <div class="anatomy">
+        <div class="organ-grid" role="group" aria-label="選擇組織情境">
+          <button type="button" class="organ" data-region="brain" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 4.5A3.5 3.5 0 0 0 6 8a3 3 0 0 0-1 5.2A3.5 3.5 0 0 0 8.5 19H10a2 2 0 0 0 2-2V6.5a2 2 0 0 0-2.5-2z"/><path d="M14.5 4.5A3.5 3.5 0 0 1 18 8a3 3 0 0 1 1 5.2A3.5 3.5 0 0 1 15.5 19H14a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2.5-2z"/></svg>
+            <span>腦</span>
+          </button>
+          <button type="button" class="organ" data-region="heart" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3C7.3 16.9 4 13.6 4 10.2A4.2 4.2 0 0 1 12 8a4.2 4.2 0 0 1 8 2.2c0 3.4-3.3 6.7-8 10.1z"/></svg>
+            <span>心臟</span>
+          </button>
+          <button type="button" class="organ" data-region="liver" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 9.2c4.8-2.4 13-2.8 17 .6.5 5.4-2.4 9.7-7.2 10.9-5.2 1.3-9.3-1.8-10.3-6.3-.4-1.7-.4-3.4.5-5.2z"/><path d="M10.6 8.6 11.8 20.2"/></svg>
+            <span>肝臟</span>
+          </button>
+          <button type="button" class="organ" data-region="lung" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v9"/><path d="M12 9c-1-1.5-2.5-2-4-1.5-2.5.8-3.5 4.5-3.5 7.5 0 2.5 1.8 4 3.5 3.3L10 17.5V13c0-1.5.5-3 2-4z"/><path d="M12 9c1-1.5 2.5-2 4-1.5 2.5.8 3.5 4.5 3.5 7.5 0 2.5-1.8 4-3.5 3.3L14 17.5V13c0-1.5-.5-3-2-4z"/></svg>
+            <span>肺臟</span>
+          </button>
+          <button type="button" class="organ" data-region="kidney" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5.5C6.5 5.5 4.5 9 5.2 13c.6 3.5 3 5.5 5.3 4.7 1.7-.6 2.3-3 1.8-5.5-.5-2.7-1-6.7-2.3-6.7z"/><path d="M14 5.5c3.5 0 5.5 3.5 4.8 7.5-.6 3.5-3 5.5-5.3 4.7-1.7-.6-2.3-3-1.8-5.5.5-2.7 1-6.7 2.3-6.7z"/></svg>
+            <span>腎臟</span>
+          </button>
+          <button type="button" class="organ" data-region="immune" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 2.8 7.5 7 9.5 4.2-2 7-5 7-9.5V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg>
+            <span>免疫</span>
+          </button>
+        </div>
+      </div>
+      <aside class="anatomy-note" id="tissueNote" aria-live="polite">
+        <h3>選擇組織情境</h3>
+        <p>組織示意圖刻意簡化。它對應的是反覆出現的機轉問題，而非解剖尺寸或疾病盛行率。</p>
+        <p>從圖示中選擇腦、心臟、肝臟、肺臟、腎臟或免疫／上皮組織。</p>
+      </aside>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>取自任務整合與 Vault 筆記的代表性組織情境</caption>
+        <thead><tr><th>情境</th><th>細胞型別</th><th>主導耦合</th><th>實驗注意</th></tr></thead>
+        <tbody>
+          <tr><td><strong>腦</strong></td><td>神經元、膠細胞、小膠質細胞、血管細胞</td><td>過量 Caspase-3、粒線體功能障礙、發炎型 Caspase 訊號與 Sirtuin 依賴的壓力反應可匯聚為神經退化或膠細胞活化。</td><td>需要細胞型別解析的測量；整塊組織的蛋白酶活性無法定位責任區隔。</td></tr>
+          <tr><td><strong>心臟</strong></td><td>心肌細胞、纖維母細胞、內皮細胞、免疫細胞</td><td>SIRT1 效應取決於劑量與脈絡；中度活性可能具保護作用，過度或疾病相關活性則可能伴隨纖維化與細胞死亡。</td><td>區分急性缺血與慢性重塑；SIRT1 總量不等於酵素活性。</td></tr>
+          <tr><td><strong>肝臟</strong></td><td>肝細胞、庫佛細胞、星狀／內皮細胞</td><td>SIRT3/5 相關的粒線體控制、ROS、Caspase 敏感性與發炎訊號影響損傷–修復結果。</td><td>肝細胞死亡與庫佛細胞的細胞激素輸出是機轉上不同的測量。</td></tr>
+          <tr><td><strong>肺臟</strong></td><td>上皮、內皮細胞、巨噬細胞、氣道上皮</td><td>炎質體活化、Caspase-1/GSDMD、激酶發炎訊號與 Sirtuin 制約可調節細胞激素釋放與屏障損傷。</td><td>分泌型細胞激素活性、孔洞形成與上皮死亡應分開測量。</td></tr>
+          <tr><td><strong>腎臟</strong></td><td>足細胞、小管上皮、內皮、免疫細胞</td><td>粒線體 Sirtuin、NAD<sup>+</sup> 可用性、ROS 與凋亡／細胞焦亡在缺血與代謝損傷時交錯。</td><td>須做節段特異取樣，因為腎元各段細胞的基轉運體與壓力型態不同。</td></tr>
+          <tr><td><strong>免疫／上皮</strong></td><td>T 與 B 淋巴細胞、髓系細胞、屏障上皮</td><td>發育期修剪、感染或轉化細胞的清除、炎質體依賴的細胞激素釋放，以及腫瘤免疫逃逸，是同一套調控模組的不同結果。</td><td>細胞存活、增殖、細胞激素產生與裂解性死亡不應壓縮成單一活性終點。</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="research">
+    <p class="sec-label">研究設計</p>
+    <h2>分開測量狀態、反應、位置與後果</h2>
+    <p class="intro">有說服力的實驗要區分酵素豐度與催化活性、修飾狀態與總蛋白、細胞結果與通路標籤。擾動一層、至少測量兩個空間層級，並納入一個正交的活性或發炎終點。</p>
+    <div class="two-col">
+      <article class="research-block">
+        <h3>核心測量面板</h3>
+        <ol>
+          <li><strong>定義啟動輸入：</strong>死亡受體、DNA 損傷、內質網壓力、病原訊號、代謝壓力或處理。</li>
+          <li><strong>測量激酶狀態：</strong>在已驗證處使用位點特異磷酸抗體，並搭配總蛋白與磷酸酶敏感讀值。</li>
+          <li><strong>測量 Sirtuin 功能：</strong>NAD⁺/NADH、位點特異乙醯化、次細胞定位，以及催化測定或靶點特異救援。</li>
+          <li><strong>測量 Caspase 加工：</strong>全長與切割型啟動／執行 Caspase、活性報告基因、直接底物切割與抑制因子救援。</li>
+          <li><strong>解析位置：</strong>以影像或分級分離定位膜 DISC、凋亡體、粒線體、細胞核與炎質體組裝。</li>
+          <li><strong>測量結果：</strong>克隆形成存活、細胞膜完整性、凋亡標記、細胞激素釋放、發炎孔洞形成與吞噬細胞清除。</li>
+        </ol>
+        <p>
+          <span class="assay">site phospho</span><span class="assay">acetylation</span><span class="assay">cleaved caspase</span><span class="assay">NAD⁺</span><span class="assay">cytochrome c</span><span class="assay">GSDMD-N</span><span class="assay">cytotoxicity</span><span class="assay">clonogenic survival</span>
+        </p>
+      </article>
+      <article class="research-block">
+        <h3>擾動邏輯</h3>
+        <ol>
+          <li><strong>激酶抑制或突變：</strong>檢驗快速磷酸化變化是否先於 Caspase 活性。</li>
+          <li><strong>磷酸酶活化：</strong>檢驗可逆性，以及反應是否需要激酶本身而非下游蛋白豐度。</li>
+          <li><strong>SIRT1/3/5 基因操作：</strong>區分催化功能與支架效應，並控制定位。</li>
+          <li><strong>NAD<sup>+</sup> 導向擾動：</strong>區分 Sirtuin 依賴效應與 PARP、CD38 等其他耗用 NAD<sup>+</sup> 的過程。</li>
+          <li><strong>選擇性與廣譜 Caspase 阻斷：</strong>區分啟動訊號、執行型凋亡與發炎細胞激素加工。</li>
+          <li><strong>組合條件：</strong>檢測共享節點（p53、FOXO、XIAP、Bax、NLRP3），而不只是三個酵素家族的名字。</li>
+        </ol>
+        <p>
+          <span class="assay">CRISPR</span><span class="assay">siRNA</span><span class="assay">kinase-dead</span><span class="assay">catalytically dead SIRT</span><span class="assay">caspase inhibitor</span><span class="assay">NLRP3 blockade</span><span class="assay">XIAP rescue</span>
+        </p>
+      </article>
+    </div>
+    <div class="caveat">
+      <strong>詮釋界線。</strong>「抑制 Sirtuin 對癌症具治療性」與「活化 Sirtuin 對老化具保護性」都不是普適陳述。效應取決於同工酶、定位、底物、NAD<sup>+</sup> 可用性、疾病狀態、劑量、時間與細胞型別。同樣的推理適用於常用語「Caspase 活化」。請確認特定 Caspase、活性位點、底物、區隔與表現型終點。
+    </div>
+  </section>
+
+  <section id="references">
+    <p class="sec-label">資料來源與延伸閱讀</p>
+    <h2>精選參考文獻</h2>
+    <ol class="refs">
+      <li><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md">專案任務輸出：「Caspase vs 激酶 vs Sirtuin — 酵素超家族比較」（2026 年 9 月 22–23 日）。</a>本頁將該整合內容重整為視覺化與互動式學習。</li>
+      <li>Mcllwain DR, Berger SB, Mak TW. 細胞死亡與非死亡活動中的 Caspase。 <em>Nature Reviews Molecular Cell Biology.</em> 2013;14:463–477. <a href="https://doi.org/10.1038/nrm3646">doi:10.1038/nrm3646</a>.</li>
+      <li>Galluzzi L, Vitale I, Abrams J, et al. 細胞死亡的分子機制：NCCD 2018 建議。 <em>Cell Death &amp; Differentiation.</em> 2018;25:486–541. <a href="https://doi.org/10.1038/s41418-017-0012-4">doi:10.1038/s41418-017-0012-4</a>.</li>
+      <li>Manning G, Whyte DB, et al. 人類基因體的蛋白質激酶全貌。 <em>Nature Reviews Genetics.</em> 2002;3:745–752. <a href="https://doi.org/10.1038/nature960" rel="noopener">doi:10.1038/nature960</a>.</li>
+      <li>Covarrubias AJ, et al. NAD<sup>+</sup> 代謝及其在老化期間細胞過程中的角色。 <em>Nature Reviews Molecular Cell Biology.</em> 2021;22:119–141. <a href="https://doi.org/10.1038/s41580-020-00305-1">doi:10.1038/s41580-020-00305-1</a>.</li>
+      <li>Seto E, et al. SIRT7 是以複製叉蛋白質為靶的核內組蛋白 H3K18 去乙醯酶。 <em>Nature Communications.</em> 2017;8:… <a href="https://pubmed.ncbi.nlm.nih.gov/28881156/" rel="noopener">PMID 28881156</a> （核內 Sirtuin 底物特異性的例子；非死亡調控研究）。</li>
+    </ol>
+    <p class="caption">本頁為教育性整合，非醫療建議。蛋白質豐度、酵素活性、切割、胞器狀態、細胞死亡與組織結果不應被視為可互換的測量。</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>互動模型：Three.js r160。動畫依使用者的減少動態偏好啟動。本頁提供示意性的關聯模型，而非量化模擬。</p>
+</footer>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const canvas = document.getElementById('scene');
+const stage = document.getElementById('stage');
+const fallback = document.getElementById('fallback');
+const status = document.getElementById('stageStatus');
+const playButton = document.getElementById('playButton');
+const scenarioSelect = document.getElementById('scenarioSelect');
+const detailTag = document.getElementById('detailTag');
+const detailTitle = document.getElementById('detailTitle');
+const detailLevel = document.getElementById('detailLevel');
+const detailText = document.getElementById('detailText');
+const detailEvidence = document.getElementById('detailEvidence');
+const prefersReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let running = !prefersReduced;
+
+const info = {
+  overview: {
+    tag: '網路總覽', title: '細胞死亡的分層調控', level: '交互作用層級 · 急性至慢速調控',
+    text: '激酶提供快速、可逆的控制；Sirtuin 提供 NAD⁺ 耦合的控制；Caspase 執行蛋白水解變化。共享節點整合受體訊號、DNA 損傷、代謝、粒線體完整性與轉錄。',
+    evidence: '此網路摘要自 Vault 中經整理的關聯，未編碼定量速率或濃度。'
+  },
+  kinase: {
+    tag: '激酶', title: '快速、可逆的狀態控制', level: '分子層級 · 磷酸化',
+    text: 'Akt、Src、PAK2、CDK1、JNK/p38 與 PKCδ 將訊號狀態連到抑制因子穩定性、Caspase 活性、支架功能或轉錄。',
+    evidence: '解讀位點特異磷酸化時需搭配總蛋白測量與磷酸酶敏感對照；激酶活性不等於激酶總量。'
+  },
+  sirtuin: {
+    tag: 'Sirtuin', title: 'NAD⁺ 耦合的去醯化', level: '分子與代謝層級',
+    text: 'SIRT1 調控核內轉錄與壓力網路；SIRT3 與 SIRT5 調控粒線體蛋白質；NAD⁺ 可用性與定位制約活性。',
+    evidence: 'NAD⁺ 前體可影響多種 NAD⁺ 依賴過程。補充研究應搭配 NAD⁺ 測量、定位與催化失活對照。'
+  },
+  caspase: {
+    tag: 'Caspase', title: '蛋白水解活化與承諾', level: '分子與胞器層級',
+    text: '啟動型 Caspase 於死亡或發炎平台上形成。執行型 Caspase 切割結構與修復底物；發炎型 Caspase 成熟細胞激素並切割 gasdermin。',
+    evidence: '請報告 Caspase 身份、全長／切割型、催化活性、底物切割、區隔與細胞命運。廣譜 Caspase 抑制不具機轉特異性。'
+  },
+  p53: {
+    tag: '共享調控因子', title: 'p53 整合損傷與轉錄', level: '細胞核 · 轉錄',
+    text: 'DNA 損傷訊號穩定 p53。SIRT1 介導的去乙醯化與激酶輸入改變 p53 轉錄活性，包括 BAX 與 PUMA 表達及粒線體閾值。',
+    evidence: '乙醯化位點佔據率與 p53 靶基因輸出應一起測量；僅測 p53 總量不足。'
+  },
+  foxo: {
+    tag: '共享調控因子', title: 'FOXO 輸出取決於狀態與定位', level: '細胞質與細胞核',
+    text: 'Akt 磷酸化可將 FOXO 排除於核外。JNK/AMPK 可促進核內活性，而 SIRT1 去乙醯化可使輸出偏向壓力抗性、自噬或凋亡相關基因。',
+    evidence: '在同一擾動系列中測量核定位、靶基因轉錄、自噬通量與存活。'
+  },
+  xiap: {
+    tag: '共享調控因子', title: 'XIAP 設定執行型閾值', level: '細胞質 · 抑制因子結合',
+    text: 'XIAP 結合部分啟動型與執行型 Caspase。Akt 可穩定 XIAP，而 TBK1/IKKε 訊號可促進其去穩定化。',
+    evidence: 'XIAP 豐度本身不能定義抑制；應納入次細胞定位、交互作用狀態與 Caspase 活性。'
+  },
+  momp: {
+    tag: '共享調控因子', title: 'Bax 與細胞色素 c 控制粒線體承諾', level: '粒線體 · MOMP',
+    text: 'JNK/p38 與 ERK2 在相反脈絡中調控 Bax。SIRT1/Ku70 可制約 Bax，SIRT5 修飾細胞色素 c。MOMP 隨後促成凋亡體組裝與 Caspase-9 活化。',
+    evidence: 'Bax 寡聚合與細胞色素 c 釋放應與下游 Caspase 活性區分。'
+  },
+  nlrp3: {
+    tag: '共享調控因子', title: 'NLRP3 將壓力感測耦合到發炎型 Caspase', level: '細胞質 · 炎質體',
+    text: 'SIRT1/2/3 可經由轉錄與粒線體機制制約 NLRP3。Caspase-1 加工 IL-1β/IL-18 並切割 GSDMD；稍後的 Caspase-3/7 切割可終止成孔狀態。',
+    evidence: '將 NLRP3 組裝、成熟細胞激素、GSDMD-N、離子電導、細胞膜完整性與 LDH 釋放作為不同終點測量。'
+  },
+  sirt1cleave: {
+    tag: 'Caspase → Sirtuin', title: 'Caspase 切割可移除 Sirtuin 制約', level: '細胞質／細胞核 · 回饋',
+    text: 'Caspase-3/-9 在 DEPDVP 處切割 SIRT1 已被關聯到定位改變、轉錄保護喪失，以及經回饋機制的降解。',
+    evidence: '隨時間驗證切割片段與定位；僅有全長減少不足以判定 Caspase 依賴性切割。'
+  },
+  pkc: {
+    tag: 'Caspase → 激酶', title: '切割型 PKCδ 可放大訊號', level: '細胞質 · 前饋回饋',
+    text: '在實驗系統中，Caspase-3 切割 PKCδ 可產生組成性活性片段，將蛋白水解事件連到持續的激酶訊號。',
+    evidence: '區分全長 PKCδ、切割片段、膜轉位與靶底物磷酸化。'
+  },
+  park: {
+    tag: 'Caspase → 品質控制', title: 'Caspase-1 可損害 Parkin 依賴的粒線體自噬', level: '粒線體 · 發炎回饋',
+    text: 'Caspase-1 切割 Parkin 被描述為一條降低粒線體自噬、可能增加粒線體 ROS 並回饋到炎質體活化的路徑。',
+    evidence: '以互補測定測量粒線體自噬通量；僅 LC3 豐度無法確立通量。'
+  }
+};
+
+const nodeDefs = [
+  { id:'kinase', family:'kinase', label:'激酶', net:[-5.0,2.0,0.4], cell:[-3.8,2.6,0.5], shape:'octa' },
+  { id:'sirtuin', family:'sirtuin', label:'Sirtuin', net:[0,2.0,0.4], cell:[2.4,2.8,-0.3], shape:'icosa' },
+  { id:'caspase', family:'caspase', label:'Caspase', net:[5.0,2.0,0.4], cell:[4.1,0.7,1.0], shape:'tetra' },
+  { id:'p53', family:'shared', label:'p53', net:[-3.0,0.0,0.2], cell:[-1.8,-2.2,-0.8], shape:'sphere' },
+  { id:'foxo', family:'shared', label:'FOXO', net:[-1.0,0.0,0.2], cell:[-0.4,-3.2,-1.1], shape:'sphere' },
+  { id:'xiap', family:'shared', label:'XIAP', net:[1.0,0.0,0.2], cell:[1.2,0.2,2.3], shape:'box' },
+  { id:'momp', family:'shared', label:'Bax / cyto c', net:[3.0,0.0,0.2], cell:[3.7,-1.6,-1.6], shape:'capsule' },
+  { id:'nlrp3', family:'shared', label:'NLRP3–Caspase-1', net:[-4.4,-2.2,0.1], cell:[-2.0,0.1,2.7], shape:'dodeca' },
+  { id:'sirt1cleave', family:'caspase', label:'SIRT1 切割', net:[2.6,-2.4,0.2], cell:[0.3,2.0,2.0], shape:'box' },
+  { id:'pkc', family:'kinase', label:'PKCδ 切割', net:[0.3,-2.4,0.2], cell:[-4.4,-1.2,1.7], shape:'octa' },
+  { id:'park', family:'caspase', label:'Parkin 切割', net:[-2.0,-2.2,0.1], cell:[4.4,1.9,-1.4], shape:'tetra' }
+];
+const edgeDefs = [
+  ['kinase','p53','act'], ['kinase','foxo','inhibit'], ['kinase','xiap','act'], ['kinase','momp','act'], ['kinase','nlrp3','act'],
+  ['sirtuin','p53','inhibit'], ['sirtuin','foxo','inhibit'], ['sirtuin','momp','inhibit'], ['sirtuin','nlrp3','inhibit'],
+  ['caspase','momp','act'], ['nlrp3','caspase','act'], ['caspase','sirt1cleave','cleave'], ['caspase','pkc','cleave'], ['caspase','park','cleave'],
+  ['p53','momp','act'], ['foxo','momp','act'], ['xiap','caspase','inhibit']
+];
+
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true, preserveDrawingBuffer:true });
+} catch (error) {
+  fallback.style.display = 'block';
+  status.textContent = '3-D 無法使用 · 靜態圖表作用中';
+  throw error;
+}
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+const scene = new THREE.Scene();
+scene.add(new THREE.AmbientLight(0xffffff, 1.25));
+const key = new THREE.DirectionalLight(0xffffff, 1.5); key.position.set(6,8,9); scene.add(key);
+const rim = new THREE.DirectionalLight(0x8fbfff, .8); rim.position.set(-7,3,-5); scene.add(rim);
+const camera = new THREE.PerspectiveCamera(42,1,.1,100);
+const initialCamera = new THREE.Vector3(0,1.0,17.5);
+camera.position.copy(initialCamera);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = .07;
+controls.minDistance = 8; controls.maxDistance = 28;
+controls.target.set(0,-.3,0);
+
+const palette = { kinase:0x3478a5, sirtuin:0x76569c, caspase:0xb44f47, shared:0x59524a };
+const actionColor = { act:0x3b765a, inhibit:0x8f2f2f, cleave:0xb5752c };
+const nodes = new Map();
+const pickables = [];
+const labelGroup = new THREE.Group();
+scene.add(labelGroup);
+
+function makeLabel(text) {
+  const c = document.createElement('canvas'); c.width=512; c.height=112;
+  const g=c.getContext('2d');
+  g.fillStyle='rgba(14,16,22,.82)';
+  g.beginPath(); g.roundRect(10,16,492,80,24); g.fill();
+  g.strokeStyle='rgba(255,255,255,.24)'; g.lineWidth=2; g.stroke();
+  g.fillStyle='#f4f1ea'; g.font='600 30px system-ui,sans-serif'; g.textAlign='center'; g.textBaseline='middle'; g.fillText(text,256,57,460);
+  const tex=new THREE.CanvasTexture(c); tex.colorSpace=THREE.SRGBColorSpace;
+  const sprite=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true,depthTest:false}));
+  sprite.scale.set(3.35,.73,1); sprite.renderOrder=20; return sprite;
+}
+function geometryFor(shape) {
+  if(shape==='octa') return new THREE.OctahedronGeometry(.56,1);
+  if(shape==='icosa') return new THREE.IcosahedronGeometry(.58,1);
+  if(shape==='tetra') return new THREE.TetrahedronGeometry(.68,1);
+  if(shape==='box') return new THREE.BoxGeometry(.85,.58,.62);
+  if(shape==='capsule') return new THREE.CapsuleGeometry(.34,.85,6,12);
+  if(shape==='dodeca') return new THREE.DodecahedronGeometry(.59,1);
+  return new THREE.SphereGeometry(.54,24,16);
+}
+nodeDefs.forEach(def=>{
+  const material=new THREE.MeshStandardMaterial({color:palette[def.family],roughness:.38,metalness:.08,emissive:palette[def.family],emissiveIntensity:.18});
+  const mesh=new THREE.Mesh(geometryFor(def.shape),material);
+  mesh.position.set(...def.net); mesh.userData.id=def.id; scene.add(mesh); pickables.push(mesh);
+  const label=makeLabel(def.label); label.position.set(def.net[0],def.net[1]+1.0,def.net[2]); label.userData.id=def.id; labelGroup.add(label); pickables.push(label);
+  nodes.set(def.id,{...def,mesh,label,target:new THREE.Vector3(...def.net),base:new THREE.Vector3(...def.net),baseScale:1});
+});
+
+const contextGroup=new THREE.Group(); scene.add(contextGroup);
+// Keep the cell context in its own group for reliable visibility toggling.
+const cellShape=new THREE.Group();
+{
+  const membrane=new THREE.Mesh(new THREE.SphereGeometry(6.7,44,30),new THREE.MeshBasicMaterial({color:0x7ea6c5,transparent:true,opacity:.08,side:THREE.DoubleSide,depthWrite:false}));
+  membrane.scale.set(1.12,.88,1); cellShape.add(membrane);
+  const nucleus=new THREE.Mesh(new THREE.SphereGeometry(2.4,36,24),new THREE.MeshBasicMaterial({color:0x76569c,transparent:true,opacity:.16,side:THREE.DoubleSide,depthWrite:false}));
+  nucleus.position.set(-1.2,-2.5,-1.2); nucleus.scale.set(1.45,.78,1); cellShape.add(nucleus);
+  [[2.9,-1.8,-1.8],[4.4,1.8,-1.5]].forEach((p,i)=>{
+    const mito=new THREE.Mesh(new THREE.CapsuleGeometry(.55,1.6,8,16),new THREE.MeshStandardMaterial({color:0xb44f47,roughness:.5,emissive:0x4a1714,emissiveIntensity:.25}));
+    mito.position.set(...p); mito.rotation.z=i?-.55:.55; cellShape.add(mito);
+  });
+  contextGroup.add(cellShape); contextGroup.visible=false;
+}
+const contextLabels=new THREE.Group(); labelGroup.add(contextLabels);
+const membraneLabel=makeLabel('細胞膜'); membraneLabel.position.set(0,-5.7,1.5); membraneLabel.scale.multiplyScalar(.82); contextLabels.add(membraneLabel);
+const nucleusLabel=makeLabel('細胞核'); nucleusLabel.position.set(-1.2,-4.2,-1.2); nucleusLabel.scale.multiplyScalar(.72); contextLabels.add(nucleusLabel);
+const mitoLabel=makeLabel('粒線體'); mitoLabel.position.set(4.0,2.9,-1.6); mitoLabel.scale.multiplyScalar(.76); contextLabels.add(mitoLabel);
+contextLabels.visible=false;
+
+const flows=[];
+function makeFlow(a,b,kind) {
+  const from=nodes.get(a).target.clone(), to=nodes.get(b).target.clone();
+  const mid=from.clone().lerp(to,.5); mid.z+=1.0; mid.y+=.35;
+  const curve=new THREE.QuadraticBezierCurve3(from,mid,to);
+  const material=kind==='inhibit'
+    ? new THREE.LineDashedMaterial({color:actionColor[kind],dashSize:.25,gapSize:.16,transparent:true,opacity:.9})
+    : new THREE.LineDashedMaterial({color:actionColor[kind],dashSize:kind==='cleave'?.08:.32,gapSize:kind==='cleave'?.13:.08,transparent:true,opacity:.9});
+  const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(curve.getPoints(44)),material);
+  line.computeLineDistances(); scene.add(line);
+  const particle=new THREE.Mesh(new THREE.SphereGeometry(.095,10,8),new THREE.MeshBasicMaterial({color:actionColor[kind]}));
+  scene.add(particle);
+  const head=new THREE.Mesh(new THREE.ConeGeometry(.13,.34,10),new THREE.MeshBasicMaterial({color:actionColor[kind]}));
+  scene.add(head);
+  flows.push({line,particle,head,curve,kind,a,b,offset:Math.random()});
+}
+edgeDefs.forEach(e=>makeFlow(...e));
+const raycaster=new THREE.Raycaster(); const pointer=new THREE.Vector2(); let pointerDown=null;
+function showInfo(id) {
+  const item=info[id]||info.overview;
+  detailTag.textContent=item.tag; detailTitle.textContent=item.title; detailLevel.textContent=item.level; detailText.textContent=item.text; detailEvidence.textContent=item.evidence;
+}
+function setPointer(e) {
+  const rect=canvas.getBoundingClientRect();
+  pointer.set(((e.clientX-rect.left)/rect.width)*2-1,-((e.clientY-rect.top)/rect.height)*2+1);
+}
+canvas.addEventListener('pointerdown',e=>{ pointerDown={x:e.clientX,y:e.clientY}; setPointer(e); });
+canvas.addEventListener('pointerup',e=>{
+  if(!pointerDown || Math.hypot(e.clientX-pointerDown.x,e.clientY-pointerDown.y)>5) { pointerDown=null; return; }
+  pointerDown=null;
+  setPointer(e);
+  raycaster.setFromCamera(pointer,camera);
+  const hit=raycaster.intersectObjects(pickables,false)[0];
+  if(hit) showInfo(hit.object.userData.id);
+});
+canvas.addEventListener('pointermove',e=>{
+  setPointer(e);
+  raycaster.setFromCamera(pointer,camera); canvas.style.cursor=raycaster.intersectObjects(pickables,false).length?'pointer':'grab';
+});
+
+let mode='network';
+function setMode(next) {
+  mode=next;
+  const cell=mode==='cell'; contextGroup.visible=cell; contextLabels.visible=cell;
+  document.getElementById('networkMode').setAttribute('aria-pressed',String(!cell));
+  document.getElementById('cellMode').setAttribute('aria-pressed',String(cell));
+  status.textContent=`${cell?'細胞區隔':'分子網路'} · ${scenarioSelect.options[scenarioSelect.selectedIndex].text}`;
+  nodes.forEach(n=>n.target.set(...(cell?n.cell:n.net)));
+  if(cell){ controls.target.set(.2,-.5,-.3); camera.position.set(.5,.8,17.5); } else { controls.target.set(0,-.3,0); camera.position.copy(initialCamera); }
+  if(prefersReduced){ nodes.forEach(n=>{n.mesh.position.copy(n.target);n.label.position.copy(n.target).add(new THREE.Vector3(0,1,0));}); }
+}
+document.getElementById('networkMode').addEventListener('click',()=>setMode('network'));
+document.getElementById('cellMode').addEventListener('click',()=>setMode('cell'));
+document.getElementById('resetView').addEventListener('click',()=>setMode(mode));
+playButton.addEventListener('click',()=>{
+  running=!running; playButton.textContent=running?'暫停':'播放'; playButton.setAttribute('aria-pressed',String(running));
+});
+if(prefersReduced){ running=false; playButton.textContent='播放'; playButton.setAttribute('aria-pressed','false'); }
+
+const scenarioReadouts = {
+  homeostasis: {
+    kinase:'Akt、Src 與檢查點激酶施加快速抑制或改變支架使用。磷酸酶允許重置與重複訊號傳導。',
+    sirtuin:'充足的 NAD⁺ 支撐 SIRT1/SIRT3/SIRT5 對轉錄、粒線體與炎質體組裝的制約，並受定位與底物脈絡影響。',
+    caspase:'啟動型與執行型活性仍低於廣泛底物切割所需之程度；發炎型 Caspase 亦相應受限。'
+  },
+  wanted: {
+    kinase:'死亡受體或損傷訊號必須克服 XIAP、Akt/Src/PAK2 介導的制約，以及轉錄性抗凋亡程式。',
+    sirtuin:'Sirtuin 活性存在，但在啟動訊號跨過通路閾值後不足以阻止活化。',
+    caspase:'DISC 或凋亡體活化產生啟動型到執行型的放大。受控執行支撐修剪與免疫細胞刪除；gasdermin 切割可限制發炎過衝。'
+  },
+  neuro: {
+    kinase:'激酶失調可能加速壓力訊號，或在損傷後無法恢復保護性訊號；方向取決於特定激酶與位點。',
+    sirtuin:'SIRT1/3 活性或 NAD⁺ 可用性下降可削弱轉錄、粒線體與炎質體制約。',
+    caspase:'在任務整合中，過量執行型 Caspase-3 活性與發炎型 Caspase 訊號被關聯到神經退化、缺血損傷與無菌性 NLRP3 炎症。'
+  },
+  aging: {
+    kinase:'激酶通路可能部分代償，但急性磷酸化無法取代持續的代謝與轉錄制約。',
+    sirtuin:'年齡相關的 NAD⁺ 下降可降低 Sirtuin 反應速率，削弱 p53/FOXO/粒線體/炎質體控制。效應具通路與組織特異性。',
+    caspase:'較低的 Sirtuin 閾值可增加對 Caspase 活化的易感性；慢性低度發炎訊號與細胞流失未必共享單一機制。'
+  },
+  tumor: {
+    kinase:'Akt、XIAP、PAK2、CDK1 及相關存活程式抬高 Caspase 閾值，或將 Caspase 保留於非蛋白水解的支架角色。',
+    sirtuin:'SIRT1 減少或被抑制可在特定腫瘤中移除轉錄制約；SIRT6 與其他同工酶可能有不同、甚至相反的效應。',
+    caspase:'治療目標是重新啟用啟動型與執行型活性。結果取決於 TP53 狀態、XIAP、死亡受體、藥物機轉與腫瘤基因型。'
+  }
+};
+// emissive = each family's pathway drive/output in the scenario (not its
+// "importance"): aging/neuro/tumor must all show sirtuin DIM when the
+// readout says sirtuin restraint is lost.
+const scenarioFx = {
+  homeostasis: { kinase:.25, sirtuin:.3,  caspase:.2,  scale:1 },
+  wanted:      { kinase:.55, sirtuin:.2,  caspase:.9,  scale:1.05 },
+  neuro:       { kinase:.5,  sirtuin:.15, caspase:1,   scale:1.18 },
+  aging:       { kinase:.3,  sirtuin:.15, caspase:.6,  scale:1 },
+  tumor:       { kinase:1,   sirtuin:.2,  caspase:.3,  scale:.86 },
+};
+// Which timescale leads the transition into each state, and how the three
+// onsets sequence (seconds kinase → minutes caspase commit → hours sirtuin tone).
+const scenarioTs = {
+  homeostasis: { lead:'kinase', order:'快速的激酶重置（數秒–數分鐘）維持網路平衡；Sirtuin 調性（數分鐘–數小時）將 Caspase 活性壓在閾值之下。' },
+  wanted:      { lead:'caspase', order:'受體／損傷激酶觸發（數秒）——Caspase 放大在數分鐘內完成承諾；一旦執行開始，Sirtuin 調性（數小時）已無法補償。' },
+  neuro:       { lead:'caspase', order:'局部 Caspase 與 NLRP3 輸出（數分鐘）快過失敗的激酶重置（數秒–數分鐘）與長期虛弱的 Sirtuin 調性（數小時）。' },
+  aging:       { lead:'sirtuin', order:'緩慢的 NAD⁺/Sirtuin 下降（數小時–數天）鋪下背景——急性激酶訊號（數秒）無法取代，Caspase 閾值遂在數週間緩緩下移。' },
+  tumor:       { lead:'kinase', order:'組成性的存活激酶驅動（數秒–數分鐘、慢性）使 Caspase 閾值維持高位，儘管 Sirtuin 制約（數小時）已減弱。' }
+};
+function setScenario(key) {
+  scenarioSelect.value=key;
+  document.querySelectorAll('[data-scenario]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scenario===key)));
+  const data=scenarioReadouts[key]; document.getElementById('kinaseReadout').textContent=data.kinase; document.getElementById('sirtuinReadout').textContent=data.sirtuin; document.getElementById('caspaseReadout').textContent=data.caspase;
+  const ts=scenarioTs[key];
+  document.querySelectorAll('.readout[data-layer]').forEach(a=>a.classList.toggle('lead',a.dataset.layer===ts.lead));
+  document.querySelector('#tsOrder span').textContent=ts.order;
+  const tl=document.getElementById('timeline');
+  tl.dataset.lead=ts.lead;
+  document.querySelectorAll('.tl-lane[data-lane]').forEach(l=>l.classList.toggle('is-lead',l.dataset.lane===ts.lead));
+  tl.classList.remove('sweep'); void tl.offsetWidth; tl.classList.add('sweep');
+  const fx=scenarioFx[key];
+  nodes.get('kinase').mesh.material.emissiveIntensity=fx.kinase;
+  nodes.get('sirtuin').mesh.material.emissiveIntensity=fx.sirtuin;
+  nodes.get('caspase').mesh.material.emissiveIntensity=fx.caspase;
+  nodes.get('caspase').baseScale=fx.scale;
+  status.textContent=`${mode==='cell'?'細胞區隔':'分子網路'} · ${scenarioSelect.options[scenarioSelect.selectedIndex].text}`;
+}
+scenarioSelect.addEventListener('change',e=>setScenario(e.target.value));
+document.querySelectorAll('[data-scenario]').forEach(b=>b.addEventListener('click',()=>setScenario(b.dataset.scenario)));
+setScenario('homeostasis');
+
+function fit() {
+  const rect=stage.getBoundingClientRect(); renderer.setSize(rect.width,rect.height,false); camera.aspect=rect.width/rect.height; camera.updateProjectionMatrix();
+}
+new ResizeObserver(fit).observe(stage); fit(); addEventListener('resize',fit);
+document.getElementById('snapshot').addEventListener('click',()=>{
+  renderer.render(scene,camera); const a=document.createElement('a'); a.download='caspases-kinases-sirtuins-model.png'; a.href=canvas.toDataURL('image/png'); a.click();
+});
+
+const clock=new THREE.Clock();
+const tmp=new THREE.Vector3();
+function animate() {
+  requestAnimationFrame(animate);
+  const dt=Math.min(clock.getDelta(),.05);
+  controls.update();
+  nodes.forEach(n=>{
+    const k=prefersReduced?1:1-Math.exp(-dt*4.5);
+    n.mesh.position.lerp(n.target,k); n.mesh.rotation.y+=running?dt*.25:0; n.mesh.rotation.x+=running?dt*.08:0;
+    tmp.copy(n.mesh.position); tmp.y+=1; n.label.position.lerp(tmp,k);
+    const pulse=1+(n.family==='shared'?.035:.02)*Math.sin(clock.elapsedTime*2+n.base.x);
+    const baseScale=n.baseScale*pulse;
+    n.mesh.scale.lerp(new THREE.Vector3(baseScale,baseScale,baseScale),.06);
+  });
+  flows.forEach(f=>{
+    const a=nodes.get(f.a).mesh.position.clone(), b=nodes.get(f.b).mesh.position.clone();
+    const mid=a.clone().lerp(b,.5); mid.z+=1; mid.y+=.35;
+    f.curve.v0.copy(a); f.curve.v1.copy(mid); f.curve.v2.copy(b);
+    const geometry=f.line.geometry; const points=f.curve.getPoints(44); geometry.setFromPoints(points); f.line.computeLineDistances();
+    const t=running?(clock.elapsedTime*.22+f.offset)%1:0;
+    f.particle.position.copy(f.curve.getPoint(t));
+    f.particle.visible=running; f.head.visible=running;
+    if(running){ const p=f.curve.getPoint(Math.min(.97,t)); const tangent=f.curve.getTangent(Math.min(.99,t)); f.head.position.copy(p); f.head.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),tangent); }
+    f.line.material.opacity=f.kind==='inhibit'?.68:.88;
+  });
+  renderer.render(scene,camera);
+}
+animate();
+
+// Tissue schematic interactions.
+const tissueData={
+  brain:{title:'腦 — 神經元、膠細胞與小膠質細胞',text:'神經組織展現區隔特異的耦合。神經元粒線體、tau/α-突觸蛋白相關壓力、小膠質細胞炎質體訊號與局部蛋白酶活性，可在不同細胞型別中改變同一套激酶/Sirtuin/Caspase 模組。',bullets:['分別解析神經元、星狀膠細胞、小膠質細胞與血管細胞。','將 Caspase-3 活性的空間影像與發炎細胞激素來源配對。','在無區隔解析測量的情況下，勿由腦組織 NAD⁺ 推論循環 NAD⁺。']},
+  heart:{title:'心臟 — 缺血與重塑',text:'心肌細胞存活、發炎細胞募集與纖維母細胞活化發生在不同時間尺度。SIRT1 具劑量與脈絡依賴效應；中度過表達在某些模型中可具保護性，而高水平在疾病處境下可伴隨纖維化或凋亡。',bullets:['在明顯收縮功能障礙之前與重塑期間測量 Caspase 活性。','區分心肌細胞死亡與發炎細胞募集。','SIRT1 劑量研究請報告催化活性、定位與疾病狀態。']},
+  liver:{title:'肝臟 — 代謝損傷與修復',text:'肝細胞死亡、巨噬細胞細胞激素輸出、星狀細胞活化與再生是可分離的反應。粒線體 SIRT3/5 活性、NAD⁺ 代謝、ROS 與 Caspase 敏感性可影響損傷與恢復。',bullets:['將肝細胞活性與庫佛細胞細胞激素測量配對。','以代謝體學區分 NAD⁺ 變化與下游蛋白乙醯化。','將纖維化作為多細胞過程測量，而非單一細胞終點。']},
+  lung:{title:'肺臟 — 屏障上皮與髓系細胞',text:'肺上皮與巨噬細胞可獨立活化 NLRP3–Caspase-1–GSDMD 軸。激酶發炎訊號與 Sirtuin 依賴的粒線體制約改變細胞激素釋放、離子通透性與屏障損傷。',bullets:['將成熟 IL-1β/IL-18 與 GSDMD 孔洞形成分開測量。','以電阻或離子通量測定檢測屏障功能。','在歸因全身性炎症前先確認細胞激素來源細胞。']},
+  kidney:{title:'腎臟 — 腎元節段壓力',text:'足細胞、小管上皮細胞、內皮細胞與浸潤白血球在運輸、NAD<sup>+</sup> 處理與壓力閾值上各異。粒線體 Sirtuin 與 Caspase/細胞焦亡程式在缺血與代謝損傷時交錯。',bullets:['取樣受影響的腎元節段，而非整塊組織。','將粒線體 ROS 與 NAD<sup>+</sup> 連同 Caspase 活性一起測量。','納入通透性與發炎細胞終點。']},
+  immune:{title:'免疫與上皮組織 — 刪除對照發炎',text:'同一條通路可清除感染或轉化細胞、成熟發炎細胞激素、釋放抗菌因子，或支撐腫瘤持存。細胞數量、增殖、裂解性死亡與細胞激素產生應作為分開的變量測量。',bullets:['在惡性細胞中使用死亡受體資格與 XIAP/Caspase 測量。','T 細胞選擇須區分發育期修剪與周邊活化。','在上皮模型中，區分屏障喪失與細胞激素釋放。']}
+};
+const tissueNote=document.getElementById('tissueNote');
+function showTissue(key) {
+  const d=tissueData[key]; if(!d) return;
+  document.querySelectorAll('[data-region]').forEach(g=>g.setAttribute('aria-pressed',String(g.dataset.region===key)));
+  tissueNote.innerHTML=`<h3>${d.title}</h3><p>${d.text}</p><ul>${d.bullets.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+}
+document.querySelectorAll('[data-region]').forEach(g=>{g.addEventListener('click',()=>showTissue(g.dataset.region));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showTissue(g.dataset.region);}});});
+</script>
+</body>
+</html>

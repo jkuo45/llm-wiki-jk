@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caspases, Kinases, and Sirtuins — Molecular Control of Cell Death</title>
+<meta name="description" content="Interactive scientific guide to the molecular, organelle, cellular, and tissue-level interactions among caspases, kinases, and sirtuins, with a Three.js network, reaction schemes, shared regulatory nodes, failure modes, and research methods.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/caspases-kinases-sirtuins-interaction.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/caspases-kinases-sirtuins-interaction.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/caspases-kinases-sirtuins-interaction.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/caspases-kinases-sirtuins-interaction.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='82'>⚗</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<style>
+/* page-specific only — shared chrome lives in themes/theme-02/theme.css */
+:root {
+  --caspase: #b44f47;
+  --kinase: #3478a5;
+  --sirtuin: #76569c;
+  --shared: #59524a;
+  --cleavage: #b5752c;
+  --inhibit: #8f2f2f;
+  --activate: #3b765a;
+  --warn: #9a632b;
+}
+[data-theme="dark"] {
+  --caspase: #e37b70;
+  --kinase: #76b7df;
+  --sirtuin: #b79be0;
+  --shared: #a89f90;
+  --cleavage: #e4ad5f;
+  --inhibit: #ff9b9b;
+  --activate: #79cda4;
+  --warn: #e6b46e;
+}
+body {
+  background:
+    radial-gradient(circle at 12% 0%, color-mix(in srgb, var(--kinase) 10%, transparent), transparent 32rem),
+    radial-gradient(circle at 88% 4%, color-mix(in srgb, var(--sirtuin) 9%, transparent), transparent 30rem),
+    var(--paper);
+}
+main { padding-bottom: 2rem; }
+.lede { max-width: 78ch; }
+.provenance { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-top: 1.4rem; color: var(--mute); font: .78rem/1.5 var(--mono); }
+.provenance a { color: var(--ink-soft); }
+h2 { max-width: 24ch; margin-top: .55rem; }
+h3 { margin: 1.8rem 0 .65rem; }
+p { max-width: 82ch; }
+.intro { color: var(--ink-soft); font-size: 1.05rem; }
+.viewer-shell { margin-top: 1.5rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.viewer-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; padding: .75rem; border-bottom: 1px solid var(--rule); background: var(--sheet); }
+.viewer-toolbar .spacer { flex: 1; }
+button, select {
+  min-height: 2.35rem; padding: .5rem .8rem; color: var(--ink); background: var(--sheet);
+  border: 1px solid var(--rule-strong); border-radius: var(--radius); font: 600 .78rem/1.1 var(--sans); cursor: pointer;
+}
+button:hover, select:hover { border-color: var(--oxblood); }
+button[aria-pressed="true"] { color: var(--sheet); background: var(--ink); border-color: var(--ink); }
+.viewer-grid { display: grid; grid-template-columns: minmax(0, 1fr) 310px; min-height: 620px; }
+.stage { position: relative; min-height: 620px; overflow: hidden; background: radial-gradient(circle at 52% 42%, color-mix(in srgb, var(--kinase) 10%, var(--paper-deep)), var(--paper-deep)); }
+/* ponytail: absolute so the canvas never contributes intrinsic height to
+   .stage — in flow + height:100% + setPixelRatio(2) on retina doubles the
+   stage every ResizeObserver tick until the buffer hits GPU max and blanks. */
+canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+.stage-status, .stage-scale, .stage-help {
+  position: absolute; z-index: 4; color: var(--sheet); background: color-mix(in srgb, var(--ink) 83%, transparent);
+  border: 1px solid color-mix(in srgb, var(--sheet) 24%, transparent); border-radius: 999px; font: .7rem/1.4 var(--mono);
+}
+.stage-status { left: 1rem; top: 1rem; padding: .35rem .7rem; }
+.stage-scale { right: 1rem; top: 1rem; padding: .35rem .7rem; }
+.stage-help { left: 1rem; bottom: 1rem; padding: .4rem .7rem; }
+.snapshot { position: absolute; right: 1rem; bottom: 1rem; z-index: 5; min-width: 2.5rem; min-height: 2.5rem; padding: .5rem; color: var(--sheet); background: color-mix(in srgb, var(--ink) 83%, transparent); }
+.detail { padding: 1.15rem; border-left: 1px solid var(--rule); background: var(--sheet); }
+.detail .tag { display: inline-block; padding: .2rem .55rem; color: var(--sheet); background: var(--shared); border-radius: 999px; font: 700 .68rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.detail h3 { margin: .8rem 0 .2rem; }
+.detail .level { color: var(--mute); font: .73rem/1.5 var(--mono); }
+.detail p { font-size: .88rem; color: var(--ink-soft); }
+.detail .evidence { padding-top: .8rem; border-top: 1px solid var(--rule); font-size: .78rem; }
+.legend { display: flex; flex-wrap: wrap; gap: .5rem 1rem; padding: .75rem 1rem; border-top: 1px solid var(--rule); color: var(--mute); font-size: .75rem; }
+.legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.swatch { width: .75rem; height: .75rem; display: inline-block; border-radius: 50%; margin-right: 0; }
+.swatch.line { width: 1.4rem; height: 0; border-radius: 0; border-top: 2px dashed; }
+.fallback { display: none; position: absolute; inset: 20%; padding: 1rem; color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.caption { margin: .7rem 0 0; color: var(--mute); font-size: .78rem; }
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.card { padding: 1.15rem; background: var(--sheet); border: 1px solid var(--rule); border-top: 3px solid var(--rule-strong); border-radius: var(--radius); }
+.card.kinase { border-top-color: var(--kinase); }
+.card.sirtuin { border-top-color: var(--sirtuin); }
+.card.caspase { border-top-color: var(--caspase); }
+.card h3 { margin-top: 0; }
+.card p, .card li { color: var(--ink-soft); font-size: .9rem; }
+.card .metric { display: block; margin: .8rem 0; color: var(--mute); font: .73rem/1.5 var(--mono); }
+.card .reaction { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .5rem; margin: 1rem 0 .8rem; padding: .8rem; background: var(--paper-deep); border-radius: var(--radius); font: 700 .95rem/1.35 var(--mono); }
+.card .arrow { color: var(--mute); }
+.card dl { margin: 0; }
+.card dt { margin-top: .7rem; color: var(--mute); font: 700 .7rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.card dd { margin: .1rem 0 0; color: var(--ink-soft); font-size: .85rem; }
+.flow-figure { margin-top: 1.5rem; padding: 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); overflow-x: auto; }
+.flow-figure svg { min-width: 760px; width: 100%; height: auto; }
+.node-label { fill: var(--ink); font: 600 14px var(--sans); }
+.small-label { fill: var(--mute); font: 12px var(--mono); }
+.flow-line { fill: none; stroke: var(--rule-strong); stroke-width: 2; }
+.flow-activate { fill: none; stroke: var(--activate); stroke-width: 2.5; }
+.flow-inhibit { fill: none; stroke: var(--inhibit); stroke-width: 2.5; stroke-dasharray: 7 5; }
+.flow-cleave { fill: none; stroke: var(--cleavage); stroke-width: 2.5; stroke-dasharray: 2 5; }
+.box-kinase { fill: color-mix(in srgb, var(--kinase) 13%, var(--sheet)); stroke: var(--kinase); }
+.box-sirtuin { fill: color-mix(in srgb, var(--sirtuin) 13%, var(--sheet)); stroke: var(--sirtuin); }
+.box-caspase { fill: color-mix(in srgb, var(--caspase) 13%, var(--sheet)); stroke: var(--caspase); }
+.box-shared { fill: color-mix(in srgb, var(--shared) 12%, var(--sheet)); stroke: var(--shared); }
+.scenario-bar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .65rem; margin: 1.4rem 0; }
+.scenario { min-height: 5.7rem; text-align: left; }
+.scenario strong { display: block; color: inherit; font-size: .85rem; }
+.scenario span { display: block; margin-top: .25rem; opacity: .8; font-size: .7rem; font-weight: 500; }
+.scenario-output { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.readout { min-height: 150px; padding: 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); transition: border-color .2s ease, background .2s ease; }
+.readout h3 { margin: 0 0 .5rem; font-size: 1.05rem; display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.readout .ts { font: 600 .65rem var(--mono); color: var(--mute); text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+.readout.lead { border-color: var(--oxblood); background: color-mix(in srgb, var(--oxblood) 7%, var(--sheet)); }
+.readout.lead .ts { color: var(--oxblood); }
+.readout p { margin: 0; color: var(--ink-soft); font-size: .86rem; }
+.readout ul { margin: .5rem 0 0; padding-left: 1.1rem; color: var(--ink-soft); font-size: .82rem; }
+.ts-order { margin: .9rem 0 0; padding: .7rem .95rem; border-left: 3px solid var(--oxblood); background: var(--paper-deep); border-radius: 0 var(--radius) var(--radius) 0; color: var(--ink-soft); font-size: .85rem; }
+.ts-order b { font: 600 .66rem var(--mono); color: var(--oxblood); text-transform: uppercase; letter-spacing: .06em; margin-right: .55rem; }
+.timeline { margin: .9rem 0 0; padding: .85rem 1rem .9rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.tl-title { font: 600 .64rem var(--mono); color: var(--mute); text-transform: uppercase; letter-spacing: .06em; }
+.tl-lane { display: grid; grid-template-columns: 68px 1fr; gap: .6rem; align-items: center; margin-top: .45rem; }
+.tl-lbl { font: 600 .62rem var(--mono); color: var(--mute); text-transform: uppercase; letter-spacing: .04em; transition: color .2s ease; }
+.tl-track { position: relative; height: 15px; background: var(--paper-deep); border-radius: 4px; }
+.tl-bar { position: absolute; top: 2.5px; bottom: 2.5px; left: var(--x); width: var(--w); border-radius: 3px; transform-origin: left center; border: 1px solid transparent; transition: box-shadow .25s ease, opacity .25s ease; }
+.tl-lane[data-lane="kinase"] .tl-bar { background: color-mix(in srgb, var(--kinase) 50%, transparent); border-color: var(--kinase); }
+.tl-lane[data-lane="sirtuin"] .tl-bar { background: color-mix(in srgb, var(--sirtuin) 50%, transparent); border-color: var(--sirtuin); }
+.tl-lane[data-lane="caspase"] .tl-bar { background: color-mix(in srgb, var(--caspase) 50%, transparent); border-color: var(--caspase); }
+.timeline .tl-lane.is-lead .tl-lbl { color: var(--oxblood); }
+.timeline .tl-lane.is-lead .tl-bar { box-shadow: 0 0 0 2px color-mix(in srgb, var(--oxblood) 55%, transparent), 0 0 10px color-mix(in srgb, var(--oxblood) 35%, transparent); animation: leadPulse 1.1s ease 2; }
+.tl-axis { display: grid; grid-template-columns: 68px 1fr; gap: .6rem; margin-top: .3rem; }
+.tl-ticks { position: relative; height: 1.1em; }
+.tl-ticks span { position: absolute; transform: translateX(-50%); font: .6rem var(--mono); color: var(--mute); }
+.timeline.sweep .tl-lane .tl-bar { animation: laneSweep .55s cubic-bezier(.2,.75,.3,1) both; }
+.timeline.sweep .tl-lane:nth-child(2) .tl-bar { animation-delay: .12s; }
+.timeline.sweep .tl-lane:nth-child(3) .tl-bar { animation-delay: .24s; }
+.timeline.sweep .tl-lane.is-lead .tl-bar { animation: laneSweep .55s cubic-bezier(.2,.75,.3,1) both, leadPulse 1.1s ease .7s 2; }
+@keyframes laneSweep { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes leadPulse { 50% { opacity: .55; } }
+caption { padding: .6rem; color: var(--mute); font-size: .76rem; text-align: left; }
+.anatomy-grid { display: grid; grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr); gap: 1.4rem; align-items: start; }
+.anatomy { padding: 1rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.organ-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; }
+.organ { display: flex; flex-direction: column; align-items: center; gap: .55rem; padding: 1.1rem .5rem .9rem; background: var(--paper-deep); border: 1px solid var(--rule); border-radius: var(--radius); cursor: pointer; font: 600 .9rem var(--sans); color: var(--ink); transition: border-color .15s ease, filter .15s ease; }
+.organ svg { width: 46px; height: 46px; fill: none; stroke: var(--mute); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke .15s ease; }
+.organ:hover { filter: brightness(1.05); }
+.organ:hover svg, .organ:focus svg { stroke: var(--ink); }
+.organ[aria-pressed="true"] { background: var(--paper-deep); color: var(--ink); border-color: var(--oxblood); box-shadow: inset 0 0 0 1px var(--oxblood); }
+.organ[aria-pressed="true"] svg { stroke: var(--oxblood); }
+.anatomy-note { min-height: 270px; padding: 1.2rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.anatomy-note h3 { margin-top: 0; }
+.anatomy-note p, .anatomy-note li { color: var(--ink-soft); font-size: .9rem; }
+.two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-top: 1.4rem; }
+.research-block { padding: 1.2rem; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); }
+.research-block ol { padding-left: 1.2rem; }
+.research-block li { margin: .55rem 0; color: var(--ink-soft); }
+.assay { display: inline-block; margin: .2rem .25rem .2rem 0; padding: .25rem .5rem; color: var(--ink-soft); background: var(--paper-deep); border-radius: var(--radius); font: .75rem/1.4 var(--mono); }
+.caveat { margin-top: 1.2rem; padding: 1rem 1.15rem; border-left: 4px solid var(--warn); background: color-mix(in srgb, var(--warn) 8%, var(--sheet)); }
+.caveat strong { color: var(--ink); }
+.refs { list-style: decimal; margin: 0; padding-left: 1.3rem; }
+.refs li { margin: .7rem 0; color: var(--ink-soft); font-size: .88rem; }
+@media (max-width: 920px) {
+  .viewer-grid { grid-template-columns: 1fr; }
+  .detail { border-left: 0; border-top: 1px solid var(--rule); }
+  .stage { min-height: 520px; }
+  .cards, .scenario-output { grid-template-columns: 1fr; }
+  .scenario-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .anatomy-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 620px) {
+  .viewer-toolbar { align-items: stretch; }
+  .viewer-toolbar .spacer { display: none; }
+  .viewer-toolbar button, .viewer-toolbar select { flex: 1 1 42%; }
+  .stage { min-height: 460px; }
+  .scenario-bar, .two-col { grid-template-columns: 1fr; }
+  .stage-scale { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="site-nav">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#perturbation">Perturbation</a>
+      <a href="#chemistry">Chemistry</a>
+      <a href="#regulation">Regulation</a>
+      <a href="#scenarios">Scenarios</a>
+      <a href="#anatomy">Anatomy</a>
+      <a href="#research">Research</a>
+    </div>
+  </div>
+</div>
+
+<header class="hero wrap">
+  <p class="kicker">Enzymes · Capases · Kinases · Sirtuins</p>
+  <h1>Caspases, kinases, and sirtuins</h1>
+  <p class="lede">These enzyme superfamilies regulate cell death through different reaction chemistries, timescales, and subcellular locations. This page maps their direct interactions from protein modification to organelle function, cell-fate decisions, and tissue consequences.</p>
+  <div class="provenance">
+    <span>Source synthesis: 22–23 Sep 2026 task output</span>
+    <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md">Vault task</a>
+    <span>Three.js r160</span>
+  </div>
+</header>
+
+<main id="content" class="wrap">
+  <section id="perturbation">
+    <p class="sec-label">Perturbation State</p>
+    <h2>One network, three timescales</h2>
+    <p class="intro">Kinases adjust protein state rapidly through reversible phosphorylation. Sirtuins couple protein deacylation to NAD<sup>+</sup> availability and subcellular context. Caspases cleave substrates and can create a more stable commitment to cell death. The 3-D view places their shared regulators in a single network; select <strong>Cell compartments</strong> to relocate the same nodes to nucleus, cytosol, mitochondria, membrane, and inflammasome locations.</p>
+    <div class="viewer-shell">
+      <div class="viewer-toolbar" role="toolbar" aria-label="Interactive model controls">
+        <button type="button" id="networkMode" aria-pressed="true">Molecular network</button>
+        <button type="button" id="cellMode" aria-pressed="false">Cell compartments</button>
+        <span class="spacer"></span>
+        <label class="small-label" for="scenarioSelect">Perturbation</label>
+        <select id="scenarioSelect">
+          <option value="homeostasis">Reference state</option>
+          <option value="wanted">Wanted death</option>
+          <option value="neuro">Excess neural caspase</option>
+          <option value="aging">Reduced sirtuin restraint</option>
+          <option value="tumor">Tumor survival signaling</option>
+        </select>
+        <button type="button" id="playButton" aria-pressed="true">Pause</button>
+        <button type="button" id="resetView">Reset view</button>
+      </div>
+      <div class="viewer-grid">
+        <div class="stage" id="stage">
+          <canvas id="scene" aria-label="Interactive three-dimensional model of interactions among caspases, kinases, sirtuins, and shared cell-death regulators"></canvas>
+          <div class="stage-status" id="stageStatus">Molecular network · reference state</div>
+          <div class="stage-scale">spatial layout is schematic, not to scale</div>
+          <div class="stage-help">Drag to orbit · scroll to zoom · select a node</div>
+          <button class="snapshot" id="snapshot" type="button" aria-label="Download model as PNG">PNG</button>
+          <div class="fallback" id="fallback">WebGL is unavailable. The scientific summaries and diagrams below remain available.</div>
+        </div>
+        <aside class="detail" id="detail" aria-live="polite">
+          <span class="tag" id="detailTag">Network overview</span>
+          <h3 id="detailTitle">Layered control of cell death</h3>
+          <p class="level" id="detailLevel">interaction level · acute-to-slow regulation</p>
+          <p id="detailText">Kinases provide rapid, reversible control; sirtuins provide NAD⁺-coupled control; caspases execute proteolytic changes. Their shared nodes integrate receptor signals, DNA damage, metabolism, mitochondrial integrity, and transcription.</p>
+          <p class="evidence" id="detailEvidence">Select a colored node or a tissue region to inspect its mechanism and evidence limits.</p>
+        </aside>
+      </div>
+      <div class="legend" aria-label="Model legend">
+        <span><i class="swatch" style="background:var(--kinase)"></i> kinase</span>
+        <span><i class="swatch" style="background:var(--sirtuin)"></i> sirtuin</span>
+        <span><i class="swatch" style="background:var(--caspase)"></i> caspase</span>
+        <span><i class="swatch" style="background:var(--shared)"></i> shared regulator</span>
+        <span><i class="swatch line" style="border-color:var(--activate)"></i> activates / permits</span>
+        <span><i class="swatch line" style="border-color:var(--inhibit)"></i> inhibits</span>
+        <span><i class="swatch line" style="border-color:var(--cleavage)"></i> cleaves / degrades</span>
+      </div>
+    </div>
+    <p class="caption">The model is a mechanistic abstraction. Edge direction shows the source statement in the synthesis; it does not imply that every interaction occurs in every cell type or at every substrate stoichiometry.</p>
+  </section>
+
+  <section id="chemistry">
+    <p class="sec-label">Reaction chemistry</p>
+    <h2>Different substrates, fuels, and reversibility</h2>
+    <p>All three families alter existing proteins, but the chemical operation and the logic of activation differ. Phosphorylation and deacylation are paired with counter-enzymes; caspase proteolysis changes covalent structure and is not reversed by simply restoring a post-translational mark.</p>
+    <div class="cards" aria-label="Representative reaction equations by enzyme family">
+      <article class="card kinase">
+        <h3>Kinases</h3>
+        <span class="metric">ATP-dependent phosphotransfer · rapid · reversible</span>
+        <p>A kinase transfers the terminal γ-phosphate of ATP to an acceptor hydroxyl, most commonly on serine, threonine, or tyrosine. Phosphatases reverse the reaction.</p>
+        <ul>
+          <li>Localization and scaffold binding determine which substrates are accessible.</li>
+          <li>Phosphorylation can change catalytic state, localization, binding, or degradation rate.</li>
+          <li>Kinase output is context-dependent; Akt can support survival in one setting and participate in stress signaling in another.</li>
+        </ul>
+        <div class="reaction"><span>protein–OH</span><span class="arrow">+ ATP →</span></div>
+        <div class="reaction"><span>protein–O–PO<sub>3</sub><sup>2−</sup></span><span class="arrow">+ ADP</span></div>
+        <dl>
+          <dt>Counter-reaction</dt><dd>Protein phosphatase removes the phosphate group.</dd>
+          <dt>Typical timescale</dt><dd>Seconds to minutes for signaling; protein-specific residence times vary.</dd>
+          <dt>Cell-death examples</dt><dd>Akt–Caspase-9, Src–Caspase-8, PAK2–Caspase-7, CDK1–Caspase-2.</dd>
+        </dl>
+      </article>
+      <article class="card sirtuin">
+        <h3>Sirtuins</h3>
+        <span class="metric">NAD⁺-dependent deacylation · metabolic · reversible in principle</span>
+        <p>Sirtuins transfer an acyl group from a lysine-linked substrate to NAD⁺, generating nicotinamide and 2′-O-acyl-ADP-ribose. Acyltransferases can reinstall some marks.</p>
+        <ul>
+          <li>NAD⁺ availability, nicotinamide feedback, localization, and post-translational modification regulate activity.</li>
+          <li>SIRT1/6/7 are predominantly nuclear; SIRT2 is broadly cytosolic; SIRT3/4/5 are principally mitochondrial.</li>
+          <li>Deacylation can change transcription-factor activity, protein interaction, localization, or metabolic enzyme function.</li>
+        </ul>
+        <div class="reaction"><span>protein–NHCO–R</span><span class="arrow">+ NAD⁺ →</span></div>
+        <div class="reaction"><span>protein–NH₂</span><span class="arrow">+ NAM + OAADPR</span></div>
+        <dl>
+          <dt>Counter-reaction</dt><dd>Histone/protein acetyltransferases and other acyltransferases can restore selected marks.</dd>
+          <dt>Primary input</dt><dd>NAD⁺ links sirtuin reaction rate to cellular metabolic state.</dd>
+          <dt>Cell-death examples</dt><dd>SIRT1–p53/FOXO, SIRT5–cytochrome c, SIRT3–NLRP3/mitochondrial restraint.</dd>
+        </dl>
+      </article>
+      <article class="card caspase">
+        <h3>Caspases</h3>
+        <span class="metric">Cysteine proteolysis after Asp · amplification · difficult to reverse</span>
+        <p>Caspases hydrolyze peptide bonds C-terminal to selected aspartate residues. Initiators are activated on proximity platforms; executioners cleave structural, nuclear, and repair proteins.</p>
+        <ul>
+          <li>DISC, apoptosome, inflammasome, and related assemblies control proximity and catalytic competence.</li>
+          <li>Limited cleavage can switch a regulator; broad cleavage can dismantle cellular substrates.</li>
+          <li>Caspase-1 additionally matures IL-1β and IL-18 and cleaves gasdermins; inflammatory caspases can support cytokine release before overt lysis.</li>
+        </ul>
+        <div class="reaction"><span>protein–Asp↓X–peptide</span><span class="arrow">+ H₂O →</span></div>
+        <div class="reaction"><span>fragment A + fragment B</span><span class="arrow">+ 2 H⁺</span></div>
+        <dl>
+          <dt>Counter-reaction</dt><dd>Proteolytic products must be degraded or repolymerized; the original peptide bond is not restored by a phosphatase.</dd>
+          <dt>Activation control</dt><dd>Proximity, inhibitor binding, platform assembly, and initiator–executioner feedback.</dd>
+          <dt>Cell-death examples</dt><dd>Caspase-3/7 effectors; Caspase-1 inflammatory substrate processing; cleavage of SIRT1 or PKCδ can alter feedback.</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <section id="regulation">
+    <p class="sec-label">Regulatory structure</p>
+    <h2>Convergence at shared control nodes</h2>
+    <p class="intro">The families converge where receptor signaling, transcription, mitochondrial integrity, inflammasome assembly, and inhibitor stability meet. Solid green lines indicate activation or permission; dashed red lines indicate inhibition; dotted amber lines indicate cleavage. The most informative research targets are often these shared nodes because a perturbation can alter more than one control layer.</p>
+    <figure class="flow-figure">
+      <svg viewBox="0 0 1100 620" role="img" aria-labelledby="reg-title reg-desc">
+        <title id="reg-title">Integrated diagram of kinase, sirtuin, and caspase regulation</title>
+        <desc id="reg-desc">Kinases, sirtuins, and caspases converge on p53, FOXO, XIAP, Bax and cytochrome c, and the NLRP3 inflammasome. Caspases also cleave SIRT1 (shown); caspase cleavage of PKCδ and Parkin appears in the interactive model above.</desc>
+        <rect class="box-kinase" x="35" y="55" width="250" height="130" rx="12"/>
+        <text class="node-label" x="160" y="92" text-anchor="middle">Kinases · seconds–minutes</text>
+        <text class="small-label" x="160" y="120" text-anchor="middle">Akt · Src · PAK2 · CDK1</text>
+        <text class="small-label" x="160" y="145" text-anchor="middle">ERK2 · JNK/p38 · PKCδ</text>
+        <text class="small-label" x="160" y="168" text-anchor="middle">phosphorylation · localization</text>
+
+        <rect class="box-sirtuin" x="425" y="55" width="250" height="130" rx="12"/>
+        <text class="node-label" x="550" y="92" text-anchor="middle">Sirtuins · NAD⁺ coupled</text>
+        <text class="small-label" x="550" y="120" text-anchor="middle">SIRT1 · SIRT3 · SIRT5/6</text>
+        <text class="small-label" x="550" y="145" text-anchor="middle">deacylation · NAD⁺ availability</text>
+        <text class="small-label" x="550" y="168" text-anchor="middle">compartment-specific output</text>
+
+        <rect class="box-caspase" x="815" y="55" width="250" height="130" rx="12"/>
+        <text class="node-label" x="940" y="92" text-anchor="middle">Caspases · proteolysis</text>
+        <text class="small-label" x="940" y="120" text-anchor="middle">initiator → executioner</text>
+        <text class="small-label" x="940" y="145" text-anchor="middle">DISC · apoptosome · inflammasome</text>
+        <text class="small-label" x="940" y="168" text-anchor="middle">substrate cleavage · amplification</text>
+
+        <rect class="box-shared" x="35" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="127" y="333" text-anchor="middle">p53</text>
+        <text class="small-label" x="127" y="360" text-anchor="middle">Bax/PUMA transcription</text>
+        <rect class="box-shared" x="250" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="342" y="333" text-anchor="middle">FOXO</text>
+        <text class="small-label" x="342" y="360" text-anchor="middle">Bim/Puma + stress genes</text>
+        <rect class="box-shared" x="465" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="557" y="333" text-anchor="middle">XIAP</text>
+        <text class="small-label" x="557" y="360" text-anchor="middle">executioner threshold</text>
+        <rect class="box-shared" x="680" y="300" width="185" height="86" rx="10"/>
+        <text class="node-label" x="772" y="333" text-anchor="middle">Bax / cytochrome c</text>
+        <text class="small-label" x="772" y="360" text-anchor="middle">MOMP → Caspase-9</text>
+        <rect class="box-shared" x="895" y="300" width="170" height="86" rx="10"/>
+        <text class="node-label" x="980" y="333" text-anchor="middle">NLRP3</text>
+        <text class="small-label" x="980" y="360" text-anchor="middle">Caspase-1 → GSDMD</text>
+
+        <path class="flow-activate" d="M150 185 C190 230 185 250 135 300"/>
+        <path class="flow-activate" d="M255 185 C285 230 285 250 335 300"/>
+        <path class="flow-inhibit" d="M300 185 C285 235 300 255 345 300"/>
+        <path class="flow-activate" d="M275 185 C340 230 430 250 500 300"/>
+        <path class="flow-activate" d="M240 185 C320 225 620 240 695 300"/>
+        <path class="flow-activate" d="M285 185 C420 215 860 235 925 300"/>
+
+        <path class="flow-inhibit" d="M480 185 C420 235 220 245 165 300"/>
+        <path class="flow-inhibit" d="M505 185 C470 235 400 255 365 300"/>
+        <path class="flow-inhibit" d="M610 185 C690 230 720 250 770 300"/>
+        <path class="flow-inhibit" d="M640 185 C760 215 990 235 1020 300"/>
+
+        <path class="flow-cleave" d="M815 128 C770 118 730 120 675 132"/>
+        <path class="flow-activate" d="M855 185 C835 230 810 260 830 300"/>
+
+        <path class="flow-activate" d="M435 360 C500 455 660 460 772 386"/>
+        <path class="flow-activate" d="M220 365 C430 500 700 500 865 365"/>
+        <path class="flow-inhibit" d="M650 330 C740 290 850 235 920 185"/>
+        <path class="flow-activate" d="M980 300 C980 258 972 220 962 185"/>
+
+        <text class="node-label" x="550" y="545" text-anchor="middle">Cell-fate output</text>
+        <text class="small-label" x="550" y="575" text-anchor="middle">repair or stress adaptation · controlled removal · inflammatory signaling · tumor-cell persistence</text>
+      </svg>
+      <figcaption>Conceptual integration of the task synthesis. “Caspase activation” is not equivalent to one phenotype: executioner caspases, inflammatory caspases, and limited initiator-cleavage events can have different consequences.</figcaption>
+    </figure>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Shared control nodes and representative experimental discriminators</caption>
+        <thead><tr><th>Node</th><th>Kinase input</th><th>Sirtuin input</th><th>Caspase connection</th><th>Primary readouts</th></tr></thead>
+        <tbody>
+          <tr><td><strong>p53</strong></td><td>DNA-damage kinases modify p53 stability and activity.</td><td>SIRT1 deacetylates p53 and usually reduces its pro-apoptotic transcriptional output in the cited context.</td><td>p53 induces BAX/PUMA and can promote mitochondrial Caspase-9 activation.</td><td>p53 acetylation, PUMA/BAX transcripts, MOMP, cleaved Caspase-3.</td></tr>
+          <tr><td><strong>FOXO</strong></td><td>Akt phosphorylation promotes nuclear exclusion; AMPK/JNK can promote nuclear activity.</td><td>SIRT1 deacetylation can shift transcription toward stress resistance and autophagy.</td><td>FOXO-linked BIM/PUMA expression can lower the apoptotic threshold.</td><td>FOXO localization, target-gene transcription, autophagic flux, Caspase-3.</td></tr>
+          <tr><td><strong>XIAP</strong></td><td>Akt can stabilize XIAP; TBK1/IKKε can promote its destabilization.</td><td>No direct sirtuin rule is required here; sirtuins act upstream through shared stress networks.</td><td>XIAP directly inhibits Caspase-3/7 and selected initiator caspases.</td><td>XIAP abundance, ubiquitin-dependent turnover, Caspase-3/7 activity.</td></tr>
+          <tr><td><strong>Bax / cytochrome c</strong></td><td>JNK/p38 and ERK2 regulate Bax Thr167 in opposing contexts.</td><td>SIRT1/Ku70 can restrain Bax; SIRT5 modifies cytochrome c.</td><td>Cytochrome c–Apaf-1 assembly activates Caspase-9.</td><td> Bax oligomerization, cytochrome-c release, apoptosome assembly.</td></tr>
+          <tr><td><strong>NLRP3–Caspase-1–GSDMD</strong></td><td>AMPK, TAK1, and other signaling inputs regulate inflammasome activation contextually.</td><td>SIRT1/2/3 can restrain NLRP3 activation through transcriptional and mitochondrial mechanisms.</td><td>Caspase-1 processes IL-1β/IL-18 and cleaves GSDMD; Caspase-3/7 can cleave GSDMD later.</td><td>NLRP3 assembly, mature cytokines, GSDMD-N, LDH release, electrophysiology.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="scenarios">
+    <p class="sec-label">Cell-fate scenarios</p>
+    <h2>What changes when a control layer fails?</h2>
+    <p class="intro">The same enzyme families support developmental cell removal, stress adaptation, immune regulation, and tumor persistence. The outcome is determined by which regulatory inputs dominate. Select a scenario to update the 3-D model and the mechanistic summary.</p>
+    <div class="scenario-bar" role="group" aria-label="Cell-fate scenarios">
+      <button class="scenario" type="button" data-scenario="homeostasis"><strong>Reference state</strong><span>Kinase and sirtuin restraints exceed pro-death input.</span></button>
+      <button class="scenario" type="button" data-scenario="wanted"><strong>Wanted death</strong><span>Initiator signal overcomes inhibitory thresholds.</span></button>
+      <button class="scenario" type="button" data-scenario="neuro"><strong>Excess neural death</strong><span>Executioner and inflammatory caspase output exceeds restraint.</span></button>
+      <button class="scenario" type="button" data-scenario="aging"><strong>Reduced restraint</strong><span>Low NAD⁺ weakens sirtuin-dependent control.</span></button>
+      <button class="scenario" type="button" data-scenario="tumor"><strong>Tumor persistence</strong><span>Survival kinases and loss of SIRT1 activity raise the threshold.</span></button>
+    </div>
+    <div class="scenario-output" aria-live="polite">
+      <article class="readout" data-layer="kinase">
+        <h3>Kinase layer <span class="ts">seconds → minutes</span></h3>
+        <p id="kinaseReadout">Akt, Src, and checkpoint kinases impose rapid inhibition or alter scaffold use. Phosphatases permit reset and repeated signaling.</p>
+      </article>
+      <article class="readout" data-layer="sirtuin">
+        <h3>Sirtuin layer <span class="ts">minutes → hours</span></h3>
+        <p id="sirtuinReadout">Adequate NAD⁺ supports SIRT1/SIRT3/SIRT5 restraint of transcription, mitochondria, and inflammasome assembly, subject to localization and substrate context.</p>
+      </article>
+      <article class="readout" data-layer="caspase">
+        <h3>Caspase layer <span class="ts">minutes → irreversible</span></h3>
+        <p id="caspaseReadout">Initiator and executioner activity remain below the level required for broad substrate cleavage; inflammatory caspases are correspondingly constrained.</p>
+      </article>
+    </div>
+    <div class="timeline" id="timeline" data-lead="kinase" aria-hidden="true">
+      <span class="tl-title">Timescale timeline · seconds → days</span>
+      <div class="tl-lane" data-lane="kinase">
+        <span class="tl-lbl">Kinase</span>
+        <div class="tl-track"><i class="tl-bar" style="--x:3%; --w:24%"></i></div>
+      </div>
+      <div class="tl-lane" data-lane="sirtuin">
+        <span class="tl-lbl">Sirtuin</span>
+        <div class="tl-track"><i class="tl-bar" style="--x:26%; --w:34%"></i></div>
+      </div>
+      <div class="tl-lane" data-lane="caspase">
+        <span class="tl-lbl">Caspase</span>
+        <div class="tl-track"><i class="tl-bar" style="--x:26%; --w:71%"></i></div>
+      </div>
+      <div class="tl-axis">
+        <span></span>
+        <div class="tl-ticks"><span style="left:4%">s</span><span style="left:27%">min</span><span style="left:59%">hours</span><span style="left:88%">days</span><span style="left:97%">→ irr.</span></div>
+      </div>
+    </div>
+    <p class="ts-order" id="tsOrder" aria-live="polite"><b>Timescale focus</b><span></span></p>
+  </section>
+
+  <section id="anatomy">
+    <p class="sec-label">Anatomical context</p>
+    <h2>Tissue consequences arise from different vulnerable cells</h2>
+    <p class="intro">The molecular network is shared across tissues, but cell composition, organelle load, extracellular signals, and clearance capacity alter the consequence. Select an organ to inspect representative contexts. These are mechanistic examples, not a complete tissue atlas or clinical risk model.</p>
+    <div class="anatomy-grid">
+      <div class="anatomy">
+        <div class="organ-grid" role="group" aria-label="Select a tissue context">
+          <button type="button" class="organ" data-region="brain" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 4.5A3.5 3.5 0 0 0 6 8a3 3 0 0 0-1 5.2A3.5 3.5 0 0 0 8.5 19H10a2 2 0 0 0 2-2V6.5a2 2 0 0 0-2.5-2z"/><path d="M14.5 4.5A3.5 3.5 0 0 1 18 8a3 3 0 0 1 1 5.2A3.5 3.5 0 0 1 15.5 19H14a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2.5-2z"/></svg>
+            <span>Brain</span>
+          </button>
+          <button type="button" class="organ" data-region="heart" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3C7.3 16.9 4 13.6 4 10.2A4.2 4.2 0 0 1 12 8a4.2 4.2 0 0 1 8 2.2c0 3.4-3.3 6.7-8 10.1z"/></svg>
+            <span>Heart</span>
+          </button>
+          <button type="button" class="organ" data-region="liver" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 9.2c4.8-2.4 13-2.8 17 .6.5 5.4-2.4 9.7-7.2 10.9-5.2 1.3-9.3-1.8-10.3-6.3-.4-1.7-.4-3.4.5-5.2z"/><path d="M10.6 8.6 11.8 20.2"/></svg>
+            <span>Liver</span>
+          </button>
+          <button type="button" class="organ" data-region="lung" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v9"/><path d="M12 9c-1-1.5-2.5-2-4-1.5-2.5.8-3.5 4.5-3.5 7.5 0 2.5 1.8 4 3.5 3.3L10 17.5V13c0-1.5.5-3 2-4z"/><path d="M12 9c1-1.5 2.5-2 4-1.5 2.5.8 3.5 4.5 3.5 7.5 0 2.5-1.8 4-3.5 3.3L14 17.5V13c0-1.5-.5-3-2-4z"/></svg>
+            <span>Lung</span>
+          </button>
+          <button type="button" class="organ" data-region="kidney" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5.5C6.5 5.5 4.5 9 5.2 13c.6 3.5 3 5.5 5.3 4.7 1.7-.6 2.3-3 1.8-5.5-.5-2.7-1-6.7-2.3-6.7z"/><path d="M14 5.5c3.5 0 5.5 3.5 4.8 7.5-.6 3.5-3 5.5-5.3 4.7-1.7-.6-2.3-3-1.8-5.5.5-2.7 1-6.7 2.3-6.7z"/></svg>
+            <span>Kidney</span>
+          </button>
+          <button type="button" class="organ" data-region="immune" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 2.8 7.5 7 9.5 4.2-2 7-5 7-9.5V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg>
+            <span>Immune</span>
+          </button>
+        </div>
+      </div>
+      <aside class="anatomy-note" id="tissueNote" aria-live="polite">
+        <h3>Select a tissue context</h3>
+        <p>The tissue schematic is intentionally simplified. It maps recurring mechanistic questions rather than anatomical dimensions or disease prevalence.</p>
+        <p>Choose brain, heart, liver, lung, kidney, or immune/epithelial tissue from the icons.</p>
+      </aside>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>Representative tissue contexts drawn from the task synthesis and vault notes</caption>
+        <thead><tr><th>Context</th><th>Cell types</th><th>Dominant coupling</th><th>Experimental caution</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Brain</strong></td><td>Neurons, glia, microglia, vascular cells</td><td>Excessive Caspase-3, mitochondrial dysfunction, inflammatory caspase signaling, and sirtuin-dependent stress responses can converge on neurodegeneration or glial activation.</td><td>Cell-type-resolved measurements are required; bulk-tissue protease activity cannot identify the responsible compartment.</td></tr>
+          <tr><td><strong>Heart</strong></td><td>Cardiomyocytes, fibroblasts, endothelial cells, immune cells</td><td>SIRT1 effects are dose- and context-dependent; moderate activity may be protective while excessive or disease-associated activity can accompany fibrosis and cell death.</td><td>Distinguish acute ischemia from chronic remodeling; total SIRT1 abundance is not equivalent to enzymatic activity.</td></tr>
+          <tr><td><strong>Liver</strong></td><td>Hepatocytes, Kupffer cells, stellate/endothelial cells</td><td>SIRT3/5-linked mitochondrial control, ROS, caspase sensitivity, and inflammatory signaling affect injury–repair outcomes.</td><td>Hepatocyte death and Kupffer-cell cytokine output are mechanistically distinct measurements.</td></tr>
+          <tr><td><strong>Lung</strong></td><td>Epithelium, endothelial cells, macrophages, airway epithelium</td><td>Inflammasome activation, Caspase-1/GSDMD, kinase inflammatory signaling, and sirtuin restraint can regulate cytokine release and barrier injury.</td><td>Secreted cytokine activity, pore formation, and epithelial death should be measured separately.</td></tr>
+          <tr><td><strong>Kidney</strong></td><td>Podocytes, tubular epithelium, endothelium, immune cells</td><td>Mitochondrial sirtuins, NAD<sup>+</sup> availability, ROS, and apoptosis/pyroptosis intersect during ischemic and metabolic injury.</td><td>Segment-specific sampling is necessary because nephron cell types have different baseline transporter and stress profiles.</td></tr>
+          <tr><td><strong>Immune / epithelial</strong></td><td>T and B lymphocytes, myeloid cells, barrier epithelium</td><td>Developmental pruning, removal of infected or transformed cells, inflammasome-dependent cytokine release, and tumor immune evasion are distinct outcomes of the same regulatory modules.</td><td>Cell survival, proliferation, cytokine production, and lytic death should not be collapsed into one viability endpoint.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="research">
+    <p class="sec-label">Research design</p>
+    <h2>Measure state, reaction, location, and consequence separately</h2>
+    <p class="intro">A convincing experiment distinguishes enzyme abundance from catalytic activity, modification state from total protein, and cellular outcome from pathway label. Perturb one layer, measure at least two spatial levels, and include an orthogonal viability or inflammatory endpoint.</p>
+    <div class="two-col">
+      <article class="research-block">
+        <h3>Core measurement panel</h3>
+        <ol>
+          <li><strong>Define the initiating input:</strong> death receptor, DNA damage, ER stress, pathogen signal, metabolic stress, or treatment.</li>
+          <li><strong>Measure kinase state:</strong> site-specific phospho-antibodies where validated, plus total protein and phosphatase-sensitive readouts.</li>
+          <li><strong>Measure sirtuin function:</strong> NAD⁺/NADH, site-specific acetylation, subcellular localization, and a catalytic assay or target-specific rescue.</li>
+          <li><strong>Measure caspase processing:</strong> full-length and cleaved initiator/executioner caspases, activity reporter, direct substrate cleavage, and inhibitor rescue.</li>
+          <li><strong>Resolve location:</strong> imaging or fractionation for membrane DISC, apoptosome, mitochondria, nucleus, and inflammasome assembly.</li>
+          <li><strong>Measure outcome:</strong> clonogenic survival, membrane integrity, apoptosis markers, cytokine release, inflammatory pore formation, and clearance by phagocytes.</li>
+        </ol>
+        <p>
+          <span class="assay">site phospho</span><span class="assay">acetylation</span><span class="assay">cleaved caspase</span><span class="assay">NAD⁺</span><span class="assay">cytochrome c</span><span class="assay">GSDMD-N</span><span class="assay">cytotoxicity</span><span class="assay">clonogenic survival</span>
+        </p>
+      </article>
+      <article class="research-block">
+        <h3>Perturbation logic</h3>
+        <ol>
+          <li><strong>Kinase inhibition or mutation:</strong> test whether rapid phosphorylation changes precede caspase activity.</li>
+          <li><strong>Phosphatase activation:</strong> test reversibility and whether a response requires the kinase rather than downstream protein abundance.</li>
+          <li><strong>SIRT1/3/5 genetic manipulation:</strong> separate catalytic function from scaffolding effects and control for localization.</li>
+          <li><strong>NAD<sup>+</sup>-directed perturbation:</strong> distinguish sirtuin-dependent effects from other NAD<sup>+</sup>-consuming processes such as PARP and CD38.</li>
+          <li><strong>Selective versus broad caspase blockade:</strong> distinguish initiator signaling, executioner apoptosis, and inflammatory cytokine processing.</li>
+          <li><strong>Combination conditions:</strong> test the shared nodes (p53, FOXO, XIAP, Bax, NLRP3) rather than only the three enzyme-family names.</li>
+        </ol>
+        <p>
+          <span class="assay">CRISPR</span><span class="assay">siRNA</span><span class="assay">kinase-dead</span><span class="assay">catalytically dead SIRT</span><span class="assay">caspase inhibitor</span><span class="assay">NLRP3 blockade</span><span class="assay">XIAP rescue</span>
+        </p>
+      </article>
+    </div>
+    <div class="caveat">
+      <strong>Interpretive boundary.</strong> “Sirtuin inhibition is therapeutic in cancer” and “sirtuin activation is protective in aging” are not universal statements. Effects depend on paralog, localization, substrate, NAD<sup>+</sup> availability, disease state, dose, duration, and cell type. The same reasoning applies to the frequently used phrase “caspase activation.” Confirm the specific caspase, active site, substrate, compartment, and phenotypic endpoint.
+    </div>
+  </section>
+
+  <section id="references">
+    <p class="sec-label">Sources and further reading</p>
+    <h2>Selected references</h2>
+    <ol class="refs">
+      <li><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md">Project task output: “Caspases vs Kinases vs Sirtuins — Enzyme-Superfamily Comparison” (22–23 Sep 2026).</a> This page reorganizes that synthesis for visual and interactive study.</li>
+      <li>Mcllwain DR, Berger SB, Mak TW. Caspases in cell death and non-death activities. <em>Nature Reviews Molecular Cell Biology.</em> 2013;14:463–477. <a href="https://doi.org/10.1038/nrm3646">doi:10.1038/nrm3646</a>.</li>
+      <li>Galluzzi L, Vitale I, Abrams J, et al. Molecular mechanisms of cell death: recommendations from the NCCD 2018. <em>Cell Death &amp; Differentiation.</em> 2018;25:486–541. <a href="https://doi.org/10.1038/s41418-017-0012-4">doi:10.1038/s41418-017-0012-4</a>.</li>
+      <li>Manning G, Whyte DB, et al. The protein kinase complement of the human genome. <em>Nature Reviews Genetics.</em> 2002;3:745–752. <a href="https://doi.org/10.1038/nature960" rel="noopener">doi:10.1038/nature960</a>.</li>
+      <li>Covarrubias AJ, et al. NAD<sup>+</sup> metabolism and its roles in cellular processes during ageing. <em>Nature Reviews Molecular Cell Biology.</em> 2021;22:119–141. <a href="https://doi.org/10.1038/s41580-020-00305-1">doi:10.1038/s41580-020-00305-1</a>.</li>
+      <li>Seto E, et al. SIRT7 is a nuclear histone H3K18 deacetylase that targets replication-fork proteins. <em>Nature Communications.</em> 2017;8:… <a href="https://pubmed.ncbi.nlm.nih.gov/28881156/" rel="noopener">PMID 28881156</a> (example of nuclear sirtuin substrate specificity; not a death-regulatory study).</li>
+    </ol>
+    <p class="caption">The page is an educational synthesis, not medical advice. Protein abundance, enzyme activity, cleavage, organelle state, cell death, and tissue outcome should not be treated as interchangeable measurements.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Interactive model: Three.js r160. Animation starts according to the user's reduced-motion preference. This page provides a schematic, linked model rather than a quantitative simulation.</p>
+</footer>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const canvas = document.getElementById('scene');
+const stage = document.getElementById('stage');
+const fallback = document.getElementById('fallback');
+const status = document.getElementById('stageStatus');
+const playButton = document.getElementById('playButton');
+const scenarioSelect = document.getElementById('scenarioSelect');
+const detailTag = document.getElementById('detailTag');
+const detailTitle = document.getElementById('detailTitle');
+const detailLevel = document.getElementById('detailLevel');
+const detailText = document.getElementById('detailText');
+const detailEvidence = document.getElementById('detailEvidence');
+const prefersReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let running = !prefersReduced;
+
+const info = {
+  overview: {
+    tag: 'Network overview', title: 'Layered control of cell death', level: 'interaction level · acute-to-slow regulation',
+    text: 'Kinases provide rapid, reversible control; sirtuins provide NAD⁺-coupled control; caspases execute proteolytic changes. Shared nodes integrate receptor signals, DNA damage, metabolism, mitochondrial integrity, and transcription.',
+    evidence: 'The network summarizes curated vault relationships and does not encode quantitative rates or concentrations.'
+  },
+  kinase: {
+    tag: 'Kinase', title: 'Rapid, reversible state control', level: 'molecular level · phosphorylation',
+    text: 'Akt, Src, PAK2, CDK1, JNK/p38, and PKCδ connect signaling state to inhibitor stability, caspase activity, scaffold function, or transcription.',
+    evidence: 'Interpret site-specific phosphorylation with total-protein measurements and phosphatase-sensitive controls; kinase activity is not equivalent to total kinase abundance.'
+  },
+  sirtuin: {
+    tag: 'Sirtuin', title: 'NAD⁺-coupled deacylation', level: 'molecular and metabolic level',
+    text: 'SIRT1 regulates nuclear transcription and stress networks; SIRT3 and SIRT5 regulate mitochondrial proteins; NAD⁺ availability and localization constrain activity.',
+    evidence: 'NAD⁺ precursors can affect multiple NAD⁺-dependent processes. Pair supplementation studies with NAD⁺ measurements, localization, and catalytically dead controls.'
+  },
+  caspase: {
+    tag: 'Caspase', title: 'Proteolytic activation and commitment', level: 'molecular and organelle level',
+    text: 'Initiator caspases form on death or inflammatory platforms. Executioner caspases cleave structural and repair substrates; inflammatory caspases mature cytokines and cleave gasdermins.',
+    evidence: 'Report caspase identity, full-length/cleaved forms, catalytic activity, substrate cleavage, compartment, and cell fate. Broad caspase inhibition is not mechanism-specific.'
+  },
+  p53: {
+    tag: 'Shared regulator', title: 'p53 integrates damage with transcription', level: 'nucleus · transcription',
+    text: 'DNA-damage signaling stabilizes p53. SIRT1-mediated deacetylation and kinase inputs alter p53 transcriptional activity, including BAX and PUMA expression and the mitochondrial threshold.',
+    evidence: 'Acetylation-site occupancy and p53 target-gene output should be measured together; total p53 is insufficient.'
+  },
+  foxo: {
+    tag: 'Shared regulator', title: 'FOXO output depends on state and localization', level: 'cytosol and nucleus',
+    text: 'Akt phosphorylation can exclude FOXO from the nucleus. JNK/AMPK can promote nuclear activity, while SIRT1 deacetylation can shift output toward stress resistance, autophagy, or apoptosis-associated genes.',
+    evidence: 'Measure nuclear localization, target-gene transcription, autophagic flux, and survival in the same perturbation series.'
+  },
+  xiap: {
+    tag: 'Shared regulator', title: 'XIAP sets an executioner threshold', level: 'cytosol · inhibitor binding',
+    text: 'XIAP binds selected initiator and executioner caspases. Akt can stabilize XIAP, whereas TBK1/IKKε signaling can promote its destabilization.',
+    evidence: 'XIAP abundance does not alone define inhibition; include subcellular localization, interaction state, and caspase activity.'
+  },
+  momp: {
+    tag: 'Shared regulator', title: 'Bax and cytochrome c control mitochondrial commitment', level: 'mitochondria · MOMP',
+    text: 'JNK/p38 and ERK2 regulate Bax in opposing contexts. SIRT1/Ku70 can restrain Bax, and SIRT5 modifies cytochrome c. MOMP then enables apoptosome assembly and Caspase-9 activation.',
+    evidence: 'Bax oligomerization and cytochrome-c release should be distinguished from downstream caspase activity.'
+  },
+  nlrp3: {
+    tag: 'Shared regulator', title: 'NLRP3 couples stress sensing to inflammatory caspases', level: 'cytosol · inflammasome',
+    text: 'SIRT1/2/3 can restrain NLRP3 through transcriptional and mitochondrial mechanisms. Caspase-1 processes IL-1β/IL-18 and cleaves GSDMD; later Caspase-3/7 cleavage can terminate the pore-forming state.',
+    evidence: 'Measure NLRP3 assembly, mature cytokines, GSDMD-N, ion conductance, membrane integrity, and LDH release as distinct endpoints.'
+  },
+  sirt1cleave: {
+    tag: 'Caspase → sirtuin', title: 'Caspase cleavage can remove sirtuin restraint', level: 'cytosol/nucleus · feedback',
+    text: 'Caspase-3/-9 cleavage of SIRT1 at DEPDVP has been associated with altered localization, loss of transcriptional protection, and degradation through feedback mechanisms.',
+    evidence: 'Verify cleavage fragments and localization over time; a full-length reduction alone does not identify caspase-dependent cleavage.'
+  },
+  pkc: {
+    tag: 'Caspase → kinase', title: 'Cleaved PKCδ can amplify signaling', level: 'cytosol · feed-forward feedback',
+    text: 'Caspase-3 cleavage of PKCδ can generate a constitutively active fragment in experimental systems, linking a proteolytic event to continued kinase signaling.',
+    evidence: 'Distinguish full-length PKCδ, cleavage fragments, membrane translocation, and target-substrate phosphorylation.'
+  },
+  park: {
+    tag: 'Caspase → quality control', title: 'Caspase-1 can impair Parkin-dependent mitophagy', level: 'mitochondria · inflammatory feedback',
+    text: 'Caspase-1 cleavage of Parkin has been described as a route that reduces mitophagy and can increase mitochondrial ROS, feeding back onto inflammasome activation.',
+    evidence: 'Measure mitophagy flux with complementary assays; LC3 abundance alone cannot establish flux.'
+  }
+};
+
+const nodeDefs = [
+  { id:'kinase', family:'kinase', label:'Kinases', net:[-5.0,2.0,0.4], cell:[-3.8,2.6,0.5], shape:'octa' },
+  { id:'sirtuin', family:'sirtuin', label:'Sirtuins', net:[0,2.0,0.4], cell:[2.4,2.8,-0.3], shape:'icosa' },
+  { id:'caspase', family:'caspase', label:'Caspases', net:[5.0,2.0,0.4], cell:[4.1,0.7,1.0], shape:'tetra' },
+  { id:'p53', family:'shared', label:'p53', net:[-3.0,0.0,0.2], cell:[-1.8,-2.2,-0.8], shape:'sphere' },
+  { id:'foxo', family:'shared', label:'FOXO', net:[-1.0,0.0,0.2], cell:[-0.4,-3.2,-1.1], shape:'sphere' },
+  { id:'xiap', family:'shared', label:'XIAP', net:[1.0,0.0,0.2], cell:[1.2,0.2,2.3], shape:'box' },
+  { id:'momp', family:'shared', label:'Bax / cyto c', net:[3.0,0.0,0.2], cell:[3.7,-1.6,-1.6], shape:'capsule' },
+  { id:'nlrp3', family:'shared', label:'NLRP3–Caspase-1', net:[-4.4,-2.2,0.1], cell:[-2.0,0.1,2.7], shape:'dodeca' },
+  { id:'sirt1cleave', family:'caspase', label:'SIRT1 cleavage', net:[2.6,-2.4,0.2], cell:[0.3,2.0,2.0], shape:'box' },
+  { id:'pkc', family:'kinase', label:'PKCδ cleavage', net:[0.3,-2.4,0.2], cell:[-4.4,-1.2,1.7], shape:'octa' },
+  { id:'park', family:'caspase', label:'Parkin cleavage', net:[-2.0,-2.2,0.1], cell:[4.4,1.9,-1.4], shape:'tetra' }
+];
+const edgeDefs = [
+  ['kinase','p53','act'], ['kinase','foxo','inhibit'], ['kinase','xiap','act'], ['kinase','momp','act'], ['kinase','nlrp3','act'],
+  ['sirtuin','p53','inhibit'], ['sirtuin','foxo','inhibit'], ['sirtuin','momp','inhibit'], ['sirtuin','nlrp3','inhibit'],
+  ['caspase','momp','act'], ['nlrp3','caspase','act'], ['caspase','sirt1cleave','cleave'], ['caspase','pkc','cleave'], ['caspase','park','cleave'],
+  ['p53','momp','act'], ['foxo','momp','act'], ['xiap','caspase','inhibit']
+];
+
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true, preserveDrawingBuffer:true });
+} catch (error) {
+  fallback.style.display = 'block';
+  status.textContent = '3-D unavailable · static diagrams active';
+  throw error;
+}
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+const scene = new THREE.Scene();
+scene.add(new THREE.AmbientLight(0xffffff, 1.25));
+const key = new THREE.DirectionalLight(0xffffff, 1.5); key.position.set(6,8,9); scene.add(key);
+const rim = new THREE.DirectionalLight(0x8fbfff, .8); rim.position.set(-7,3,-5); scene.add(rim);
+const camera = new THREE.PerspectiveCamera(42,1,.1,100);
+const initialCamera = new THREE.Vector3(0,1.0,17.5);
+camera.position.copy(initialCamera);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = .07;
+controls.minDistance = 8; controls.maxDistance = 28;
+controls.target.set(0,-.3,0);
+
+const palette = { kinase:0x3478a5, sirtuin:0x76569c, caspase:0xb44f47, shared:0x59524a };
+const actionColor = { act:0x3b765a, inhibit:0x8f2f2f, cleave:0xb5752c };
+const nodes = new Map();
+const pickables = [];
+const labelGroup = new THREE.Group();
+scene.add(labelGroup);
+
+function makeLabel(text) {
+  const c = document.createElement('canvas'); c.width=512; c.height=112;
+  const g=c.getContext('2d');
+  g.fillStyle='rgba(14,16,22,.82)';
+  g.beginPath(); g.roundRect(10,16,492,80,24); g.fill();
+  g.strokeStyle='rgba(255,255,255,.24)'; g.lineWidth=2; g.stroke();
+  g.fillStyle='#f4f1ea'; g.font='600 30px system-ui,sans-serif'; g.textAlign='center'; g.textBaseline='middle'; g.fillText(text,256,57,460);
+  const tex=new THREE.CanvasTexture(c); tex.colorSpace=THREE.SRGBColorSpace;
+  const sprite=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true,depthTest:false}));
+  sprite.scale.set(3.35,.73,1); sprite.renderOrder=20; return sprite;
+}
+function geometryFor(shape) {
+  if(shape==='octa') return new THREE.OctahedronGeometry(.56,1);
+  if(shape==='icosa') return new THREE.IcosahedronGeometry(.58,1);
+  if(shape==='tetra') return new THREE.TetrahedronGeometry(.68,1);
+  if(shape==='box') return new THREE.BoxGeometry(.85,.58,.62);
+  if(shape==='capsule') return new THREE.CapsuleGeometry(.34,.85,6,12);
+  if(shape==='dodeca') return new THREE.DodecahedronGeometry(.59,1);
+  return new THREE.SphereGeometry(.54,24,16);
+}
+nodeDefs.forEach(def=>{
+  const material=new THREE.MeshStandardMaterial({color:palette[def.family],roughness:.38,metalness:.08,emissive:palette[def.family],emissiveIntensity:.18});
+  const mesh=new THREE.Mesh(geometryFor(def.shape),material);
+  mesh.position.set(...def.net); mesh.userData.id=def.id; scene.add(mesh); pickables.push(mesh);
+  const label=makeLabel(def.label); label.position.set(def.net[0],def.net[1]+1.0,def.net[2]); label.userData.id=def.id; labelGroup.add(label); pickables.push(label);
+  nodes.set(def.id,{...def,mesh,label,target:new THREE.Vector3(...def.net),base:new THREE.Vector3(...def.net),baseScale:1});
+});
+
+const contextGroup=new THREE.Group(); scene.add(contextGroup);
+// Keep the cell context in its own group for reliable visibility toggling.
+const cellShape=new THREE.Group();
+{
+  const membrane=new THREE.Mesh(new THREE.SphereGeometry(6.7,44,30),new THREE.MeshBasicMaterial({color:0x7ea6c5,transparent:true,opacity:.08,side:THREE.DoubleSide,depthWrite:false}));
+  membrane.scale.set(1.12,.88,1); cellShape.add(membrane);
+  const nucleus=new THREE.Mesh(new THREE.SphereGeometry(2.4,36,24),new THREE.MeshBasicMaterial({color:0x76569c,transparent:true,opacity:.16,side:THREE.DoubleSide,depthWrite:false}));
+  nucleus.position.set(-1.2,-2.5,-1.2); nucleus.scale.set(1.45,.78,1); cellShape.add(nucleus);
+  [[2.9,-1.8,-1.8],[4.4,1.8,-1.5]].forEach((p,i)=>{
+    const mito=new THREE.Mesh(new THREE.CapsuleGeometry(.55,1.6,8,16),new THREE.MeshStandardMaterial({color:0xb44f47,roughness:.5,emissive:0x4a1714,emissiveIntensity:.25}));
+    mito.position.set(...p); mito.rotation.z=i?-.55:.55; cellShape.add(mito);
+  });
+  contextGroup.add(cellShape); contextGroup.visible=false;
+}
+const contextLabels=new THREE.Group(); labelGroup.add(contextLabels);
+const membraneLabel=makeLabel('Plasma membrane'); membraneLabel.position.set(0,-5.7,1.5); membraneLabel.scale.multiplyScalar(.82); contextLabels.add(membraneLabel);
+const nucleusLabel=makeLabel('Nucleus'); nucleusLabel.position.set(-1.2,-4.2,-1.2); nucleusLabel.scale.multiplyScalar(.72); contextLabels.add(nucleusLabel);
+const mitoLabel=makeLabel('Mitochondria'); mitoLabel.position.set(4.0,2.9,-1.6); mitoLabel.scale.multiplyScalar(.76); contextLabels.add(mitoLabel);
+contextLabels.visible=false;
+
+const flows=[];
+function makeFlow(a,b,kind) {
+  const from=nodes.get(a).target.clone(), to=nodes.get(b).target.clone();
+  const mid=from.clone().lerp(to,.5); mid.z+=1.0; mid.y+=.35;
+  const curve=new THREE.QuadraticBezierCurve3(from,mid,to);
+  const material=kind==='inhibit'
+    ? new THREE.LineDashedMaterial({color:actionColor[kind],dashSize:.25,gapSize:.16,transparent:true,opacity:.9})
+    : new THREE.LineDashedMaterial({color:actionColor[kind],dashSize:kind==='cleave'?.08:.32,gapSize:kind==='cleave'?.13:.08,transparent:true,opacity:.9});
+  const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(curve.getPoints(44)),material);
+  line.computeLineDistances(); scene.add(line);
+  const particle=new THREE.Mesh(new THREE.SphereGeometry(.095,10,8),new THREE.MeshBasicMaterial({color:actionColor[kind]}));
+  scene.add(particle);
+  const head=new THREE.Mesh(new THREE.ConeGeometry(.13,.34,10),new THREE.MeshBasicMaterial({color:actionColor[kind]}));
+  scene.add(head);
+  flows.push({line,particle,head,curve,kind,a,b,offset:Math.random()});
+}
+edgeDefs.forEach(e=>makeFlow(...e));
+const raycaster=new THREE.Raycaster(); const pointer=new THREE.Vector2(); let pointerDown=null;
+function showInfo(id) {
+  const item=info[id]||info.overview;
+  detailTag.textContent=item.tag; detailTitle.textContent=item.title; detailLevel.textContent=item.level; detailText.textContent=item.text; detailEvidence.textContent=item.evidence;
+}
+function setPointer(e) {
+  const rect=canvas.getBoundingClientRect();
+  pointer.set(((e.clientX-rect.left)/rect.width)*2-1,-((e.clientY-rect.top)/rect.height)*2+1);
+}
+canvas.addEventListener('pointerdown',e=>{ pointerDown={x:e.clientX,y:e.clientY}; setPointer(e); });
+canvas.addEventListener('pointerup',e=>{
+  if(!pointerDown || Math.hypot(e.clientX-pointerDown.x,e.clientY-pointerDown.y)>5) { pointerDown=null; return; }
+  pointerDown=null;
+  setPointer(e);
+  raycaster.setFromCamera(pointer,camera);
+  const hit=raycaster.intersectObjects(pickables,false)[0];
+  if(hit) showInfo(hit.object.userData.id);
+});
+canvas.addEventListener('pointermove',e=>{
+  setPointer(e);
+  raycaster.setFromCamera(pointer,camera); canvas.style.cursor=raycaster.intersectObjects(pickables,false).length?'pointer':'grab';
+});
+
+let mode='network';
+function setMode(next) {
+  mode=next;
+  const cell=mode==='cell'; contextGroup.visible=cell; contextLabels.visible=cell;
+  document.getElementById('networkMode').setAttribute('aria-pressed',String(!cell));
+  document.getElementById('cellMode').setAttribute('aria-pressed',String(cell));
+  status.textContent=`${cell?'Cell compartments':'Molecular network'} · ${scenarioSelect.options[scenarioSelect.selectedIndex].text}`;
+  nodes.forEach(n=>n.target.set(...(cell?n.cell:n.net)));
+  if(cell){ controls.target.set(.2,-.5,-.3); camera.position.set(.5,.8,17.5); } else { controls.target.set(0,-.3,0); camera.position.copy(initialCamera); }
+  if(prefersReduced){ nodes.forEach(n=>{n.mesh.position.copy(n.target);n.label.position.copy(n.target).add(new THREE.Vector3(0,1,0));}); }
+}
+document.getElementById('networkMode').addEventListener('click',()=>setMode('network'));
+document.getElementById('cellMode').addEventListener('click',()=>setMode('cell'));
+document.getElementById('resetView').addEventListener('click',()=>setMode(mode));
+playButton.addEventListener('click',()=>{
+  running=!running; playButton.textContent=running?'Pause':'Play'; playButton.setAttribute('aria-pressed',String(running));
+});
+if(prefersReduced){ running=false; playButton.textContent='Play'; playButton.setAttribute('aria-pressed','false'); }
+
+const scenarioReadouts = {
+  homeostasis: {
+    kinase:'Akt, Src, and checkpoint kinases impose rapid inhibition or alter scaffold use. Phosphatases permit reset and repeated signaling.',
+    sirtuin:'Adequate NAD⁺ supports SIRT1/SIRT3/SIRT5 restraint of transcription, mitochondria, and inflammasome assembly, subject to localization and substrate context.',
+    caspase:'Initiator and executioner activity remain below the level required for broad substrate cleavage; inflammatory caspases are correspondingly constrained.'
+  },
+  wanted: {
+    kinase:'Death-receptor or damage signaling must overcome XIAP, Akt/Src/PAK2-mediated restraint, and transcriptional anti-apoptotic programs.',
+    sirtuin:'Sirtuin activity is present but insufficient to prevent activation after the initiating signal crosses the pathway threshold.',
+    caspase:'DISC or apoptosome activation generates initiator-to-executioner amplification. Controlled execution supports pruning and immune-cell deletion; gasdermin cleavage can limit inflammatory overshoot.'
+  },
+  neuro: {
+    kinase:'Kinase dysregulation may accelerate stress signaling or fail to restore protective signaling after injury; direction depends on the specific kinase and site.',
+    sirtuin:'Reduced SIRT1/3 activity or NAD⁺ availability can weaken transcriptional, mitochondrial, and inflammasome restraint.',
+    caspase:'Excess executioner Caspase-3 activity and inflammatory caspase signaling are associated in the task synthesis with neurodegeneration, ischemic injury, and sterile NLRP3 inflammation.'
+  },
+  aging: {
+    kinase:'Kinase pathways may compensate partially, but acute phosphorylation cannot substitute for sustained metabolic and transcriptional restraint.',
+    sirtuin:'Age-related NAD⁺ decline can reduce sirtuin reaction rates and weaken p53/FOXO/mitochondrial/inflammasome control. The effect is pathway- and tissue-specific.',
+    caspase:'A lower sirtuin threshold can increase susceptibility to caspase activation; chronic low-level inflammatory signaling and cell loss need not share a single mechanism.'
+  },
+  tumor: {
+    kinase:'Akt, XIAP, PAK2, CDK1, and related survival programs raise the caspase threshold or retain caspases in non-proteolytic scaffold roles.',
+    sirtuin:'Reduced or inhibited SIRT1 can remove transcriptional restraint in selected tumors; SIRT6 and other paralogs may have different, sometimes opposite effects.',
+    caspase:'The therapeutic objective is to re-enable initiator and executioner activity. Outcome depends on TP53 status, XIAP, death receptors, drug mechanism, and tumor genotype.'
+  }
+};
+// emissive = each family's pathway drive/output in the scenario (not its
+// "importance"): aging/neuro/tumor must all show sirtuin DIM when the
+// readout says sirtuin restraint is lost.
+const scenarioFx = {
+  homeostasis: { kinase:.25, sirtuin:.3,  caspase:.2,  scale:1 },
+  wanted:      { kinase:.55, sirtuin:.2,  caspase:.9,  scale:1.05 },
+  neuro:       { kinase:.5,  sirtuin:.15, caspase:1,   scale:1.18 },
+  aging:       { kinase:.3,  sirtuin:.15, caspase:.6,  scale:1 },
+  tumor:       { kinase:1,   sirtuin:.2,  caspase:.3,  scale:.86 },
+};
+// Which timescale leads the transition into each state, and how the three
+// onsets sequence (seconds kinase → minutes caspase commit → hours sirtuin tone).
+const scenarioTs = {
+  homeostasis: { lead:'kinase', order:'Fast kinase reset (seconds–minutes) keeps the network balanced; sirtuin tone (minutes–hours) holds caspase activity sub-threshold.' },
+  wanted:      { lead:'caspase', order:'Receptor/damage kinase trigger (seconds) — caspase amplification commits within minutes; once execution begins, sirtuin tone (hours) can no longer compensate.' },
+  neuro:       { lead:'caspase', order:'Local caspase and NLRP3 output (minutes) outpaces a failed kinase reset (seconds–minutes) and chronically weak sirtuin tone (hours).' },
+  aging:       { lead:'sirtuin', order:'Slow NAD⁺/sirtuin decline (hours–days) sets the backdrop — acute kinase signaling (seconds) cannot substitute, so the caspase threshold drifts down over weeks.' },
+  tumor:       { lead:'kinase', order:'Constitutive survival-kinase drive (seconds–minutes, chronic) holds the caspase threshold high despite reduced sirtuin restraint (hours).' }
+};
+function setScenario(key) {
+  scenarioSelect.value=key;
+  document.querySelectorAll('[data-scenario]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scenario===key)));
+  const data=scenarioReadouts[key]; document.getElementById('kinaseReadout').textContent=data.kinase; document.getElementById('sirtuinReadout').textContent=data.sirtuin; document.getElementById('caspaseReadout').textContent=data.caspase;
+  const ts=scenarioTs[key];
+  document.querySelectorAll('.readout[data-layer]').forEach(a=>a.classList.toggle('lead',a.dataset.layer===ts.lead));
+  document.querySelector('#tsOrder span').textContent=ts.order;
+  const tl=document.getElementById('timeline');
+  tl.dataset.lead=ts.lead;
+  document.querySelectorAll('.tl-lane[data-lane]').forEach(l=>l.classList.toggle('is-lead',l.dataset.lane===ts.lead));
+  tl.classList.remove('sweep'); void tl.offsetWidth; tl.classList.add('sweep');
+  const fx=scenarioFx[key];
+  nodes.get('kinase').mesh.material.emissiveIntensity=fx.kinase;
+  nodes.get('sirtuin').mesh.material.emissiveIntensity=fx.sirtuin;
+  nodes.get('caspase').mesh.material.emissiveIntensity=fx.caspase;
+  nodes.get('caspase').baseScale=fx.scale;
+  status.textContent=`${mode==='cell'?'Cell compartments':'Molecular network'} · ${scenarioSelect.options[scenarioSelect.selectedIndex].text}`;
+}
+scenarioSelect.addEventListener('change',e=>setScenario(e.target.value));
+document.querySelectorAll('[data-scenario]').forEach(b=>b.addEventListener('click',()=>setScenario(b.dataset.scenario)));
+setScenario('homeostasis');
+
+function fit() {
+  const rect=stage.getBoundingClientRect(); renderer.setSize(rect.width,rect.height,false); camera.aspect=rect.width/rect.height; camera.updateProjectionMatrix();
+}
+new ResizeObserver(fit).observe(stage); fit(); addEventListener('resize',fit);
+document.getElementById('snapshot').addEventListener('click',()=>{
+  renderer.render(scene,camera); const a=document.createElement('a'); a.download='caspases-kinases-sirtuins-model.png'; a.href=canvas.toDataURL('image/png'); a.click();
+});
+
+const clock=new THREE.Clock();
+const tmp=new THREE.Vector3();
+function animate() {
+  requestAnimationFrame(animate);
+  const dt=Math.min(clock.getDelta(),.05);
+  controls.update();
+  nodes.forEach(n=>{
+    const k=prefersReduced?1:1-Math.exp(-dt*4.5);
+    n.mesh.position.lerp(n.target,k); n.mesh.rotation.y+=running?dt*.25:0; n.mesh.rotation.x+=running?dt*.08:0;
+    tmp.copy(n.mesh.position); tmp.y+=1; n.label.position.lerp(tmp,k);
+    const pulse=1+(n.family==='shared'?.035:.02)*Math.sin(clock.elapsedTime*2+n.base.x);
+    const baseScale=n.baseScale*pulse;
+    n.mesh.scale.lerp(new THREE.Vector3(baseScale,baseScale,baseScale),.06);
+  });
+  flows.forEach(f=>{
+    const a=nodes.get(f.a).mesh.position.clone(), b=nodes.get(f.b).mesh.position.clone();
+    const mid=a.clone().lerp(b,.5); mid.z+=1; mid.y+=.35;
+    f.curve.v0.copy(a); f.curve.v1.copy(mid); f.curve.v2.copy(b);
+    const geometry=f.line.geometry; const points=f.curve.getPoints(44); geometry.setFromPoints(points); f.line.computeLineDistances();
+    const t=running?(clock.elapsedTime*.22+f.offset)%1:0;
+    f.particle.position.copy(f.curve.getPoint(t));
+    f.particle.visible=running; f.head.visible=running;
+    if(running){ const p=f.curve.getPoint(Math.min(.97,t)); const tangent=f.curve.getTangent(Math.min(.99,t)); f.head.position.copy(p); f.head.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),tangent); }
+    f.line.material.opacity=f.kind==='inhibit'?.68:.88;
+  });
+  renderer.render(scene,camera);
+}
+animate();
+
+// Tissue schematic interactions.
+const tissueData={
+  brain:{title:'Brain — neurons, glia, and microglia',text:'Neural tissue illustrates compartment-specific coupling. Neuronal mitochondria, tau/α-synuclein-associated stress, microglial inflammasome signaling, and local protease activity can change the same kinase/sirtuin/caspase modules in different cell types.',bullets:['Resolve neurons, astrocytes, microglia, and vascular cells separately.','Pair spatial imaging of Caspase-3 activity with inflammatory cytokine source.','Do not infer circulating NAD⁺ from brain tissue NAD⁺ without compartment-resolved measurement.']},
+  heart:{title:'Heart — ischemia and remodeling',text:'Cardiomyocyte survival, inflammatory-cell recruitment, and fibroblast activation occur on different timescales. SIRT1 has dose- and context-dependent effects; moderate overexpression can be protective in some models while high levels can accompany fibrosis or apoptosis in disease settings.',bullets:['Measure caspase activity before overt contractile dysfunction and during remodeling.','Separate cardiomyocyte cell death from inflammatory-cell recruitment.','For SIRT1 dose studies, report catalytic activity, localization, and disease state.']},
+  liver:{title:'Liver — metabolic injury and repair',text:'Hepatocyte death, macrophage cytokine output, stellate-cell activation, and regeneration are separable responses. Mitochondrial SIRT3/5 activity, NAD⁺ metabolism, ROS, and caspase sensitivity can influence injury and recovery.',bullets:['Pair hepatocyte viability with Kupffer-cell cytokine measurements.','Use metabolomics to distinguish NAD⁺ changes from downstream protein acetylation.','Measure fibrosis as a multicellular process rather than a single-cell endpoint.']},
+  lung:{title:'Lung — barrier epithelium and myeloid cells',text:'Pulmonary epithelium and macrophages can independently activate the NLRP3–Caspase-1–GSDMD axis. Kinase inflammatory signaling and sirtuin-dependent mitochondrial restraint alter cytokine release, ion permeability, and barrier damage.',bullets:['Measure mature IL-1β/IL-18 separately from GSDMD pore formation.','Use electrical resistance or ion-flux assays to test barrier function.','Identify the cytokine source cell before assigning systemic inflammation.']},
+  kidney:{title:'Kidney — nephron-segment stress',text:'Podocytes, tubular epithelial cells, endothelial cells, and infiltrating leukocytes differ in transport, NAD<sup>+</sup> handling, and stress thresholds. Mitochondrial sirtuins and caspase/pyroptosis programs intersect during ischemic and metabolic injury.',bullets:['Sample the affected nephron segment rather than whole-knee-like bulk tissue.','Measure mitochondrial ROS and NAD<sup>+</sup> together with caspase activity.','Include permeability and inflammatory-cell endpoints.']},
+  immune:{title:'Immune and epithelial tissue — deletion versus inflammation',text:'The same pathway can remove infected or transformed cells, mature inflammatory cytokines, release antimicrobial factors, or support tumor persistence. Cell number, proliferation, lytic death, and cytokine production should be measured as separate variables.',bullets:['Use death-receptor competence and XIAP/caspase measurements in malignant cells.','For T-cell selection, distinguish developmental pruning from peripheral activation.','In epithelial models, separate barrier loss from cytokine release.']}
+};
+const tissueNote=document.getElementById('tissueNote');
+function showTissue(key) {
+  const d=tissueData[key]; if(!d) return;
+  document.querySelectorAll('[data-region]').forEach(g=>g.setAttribute('aria-pressed',String(g.dataset.region===key)));
+  tissueNote.innerHTML=`<h3>${d.title}</h3><p>${d.text}</p><ul>${d.bullets.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+}
+document.querySelectorAll('[data-region]').forEach(g=>{g.addEventListener('click',()=>showTissue(g.dataset.region));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showTissue(g.dataset.region);}});});
+</script>
+</body>
+</html>
