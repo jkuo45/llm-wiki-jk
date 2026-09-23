@@ -270,9 +270,10 @@ Build: 18_SEP_2026 · hash `249b929d5ee50a9f`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (114 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (115 total)</strong> — click to expand</summary>
 
-- [task_output_proximity_graph_learning_21_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_proximity_graph_learning_21_Sep_2026.md) [[src/tasks/task_output_proximity_graph_learning_21_Sep_2026.md|wiki]] (21_SEP_2026 08:48 PM PDT)
+- [task_output_turnover_rate_tradeoffs_22_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_turnover_rate_tradeoffs_22_Sep_2026.md) [[src/tasks/task_output_turnover_rate_tradeoffs_22_Sep_2026.md|wiki]] (22_SEP_2026 09:03 AM PDT)
+- [task_output_proximity_graph_learning_21_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_proximity_graph_learning_21_Sep_2026.md) [[src/tasks/task_output_proximity_graph_learning_21_Sep_2026.md|wiki]] (22_SEP_2026 07:32 AM PDT)
 - [task_output_berberine_type2_diabetes_21_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_berberine_type2_diabetes_21_Sep_2026.md) [[src/tasks/task_output_berberine_type2_diabetes_21_Sep_2026.md|wiki]] (21_SEP_2026 11:37 AM PDT)
 - [task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md) [[src/tasks/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md|wiki]] (21_SEP_2026 11:37 AM PDT)
 - [task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md) [[src/tasks/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md|wiki]] (19_SEP_2026 09:09 PM PDT)
