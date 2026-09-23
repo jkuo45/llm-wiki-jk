@@ -88,9 +88,9 @@ Developmental pruning (Caspase-3 KO causes brain hyperplasia and perinatal letha
 
 ### Unwanted death — three failure modes
 
-1. **Too much caspase activity:** neurodegeneration (excessive Caspase-3 in AD/PD/stroke), ischemic injury, sterile NLRP3 inflammation when the SIRT3/mtROS brake fails (`Caspase-3.md`, `NLRP3 Inflammasome.md`).
-2. **Too little sirtuin brake:** NAD⁺ decline with age → unchecked p53 acetylation and inflammasome tone; cardiac SIRT1 is hormetic (moderate overexpression protective, high levels pro-fibrotic/pro-apoptotic — `SIRT1.md`).
-3. **Too much survival signaling (the mirror image — cancer):** tumors co-opt the anti-death kinases — Akt+XIAP, Src keeping Caspase-8 as a scaffold, PAK2 holding Caspase-7 off, CDK1 silencing Caspase-2 — welding the system shut; SIRT1 inhibition is therapeutic in many tumors precisely because it re-releases caspase-2/-3.
+- **Too much caspase activity:** neurodegeneration (excessive Caspase-3 in AD/PD/stroke), ischemic injury, sterile NLRP3 inflammation when the SIRT3/mtROS brake fails (`Caspase-3.md`, `NLRP3 Inflammasome.md`).
+- **Too little sirtuin brake:** NAD⁺ decline with age → unchecked p53 acetylation and inflammasome tone; cardiac SIRT1 is hormetic (moderate overexpression protective, high levels pro-fibrotic/pro-apoptotic — `SIRT1.md`).
+- **Too much survival signaling (the mirror image — cancer):** tumors co-opt the anti-death kinases — Akt+XIAP, Src keeping Caspase-8 as a scaffold, PAK2 holding Caspase-7 off, CDK1 silencing Caspase-2 — welding the system shut; SIRT1 inhibition is therapeutic in many tumors precisely because it re-releases caspase-2/-3.
 
 **Summary:** kinases provide fast, reversible, context-dependent tuning of caspase activity (mostly inhibitory); sirtuins provide slower, NAD⁺-coupled restraint on both caspases and the inflammatory caspase-1 axis; once caspases engage, cleavage of SIRT1, PKCδ, Parkin, and GSDMD flips the system from reversible regulation to irreversible (or self-terminating) execution. Wanted death requires the system armed and releasable; unwanted death is either failure to restrain it (neurodegeneration, sterile inflammation) or failure to ever release it (cancer).
 

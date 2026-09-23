@@ -88,9 +88,9 @@ Sirtuins 主要將 caspases 與炎性小體約束在一定範圍內，由 NAD⁺
 
 ### 不需要的死亡 — 三種失效模式
 
-1. **Caspase 活性過高：** 神經退行性疾病（AD/PD/中風中 Caspase-3 過度活化）、缺血性損傷、SIRT3/mtROS 制動失效時的無菌性 NLRP3 發炎（`Caspase-3.md`、`NLRP3 Inflammasome.md`）。
-2. **Sirtuin 制動過弱：** NAD⁺ 隨年齡下降 → p53 乙醯化與炎性小體張力失控；心臟 SIRT1 具毒物興奮效應（適度過度表達具保護性，高水平則促纖維化/促細胞凋亡 — `SIRT1.md`）。
-3. **存活訊號過強（鏡像 — 癌症）：** 腫瘤徵用抗死亡激酶 — Akt+XIAP、Src 將 Caspase-8 留作支架、PAK2 壓住 Caspase-7、CDK1 沉默 Caspase-2 — 將系統焊死；SIRT1 抑制在許多腫瘤中具有治療價值，正因它重新釋放 caspase-2/-3。
+- **Caspase 活性過高：** 神經退行性疾病（AD/PD/中風中 Caspase-3 過度活化）、缺血性損傷、SIRT3/mtROS 制動失效時的無菌性 NLRP3 發炎（`Caspase-3.md`、`NLRP3 Inflammasome.md`）。
+- **Sirtuin 制動過弱：** NAD⁺ 隨年齡下降 → p53 乙醯化與炎性小體張力失控；心臟 SIRT1 具毒物興奮效應（適度過度表達具保護性，高水平則促纖維化/促細胞凋亡 — `SIRT1.md`）。
+- **存活訊號過強（鏡像 — 癌症）：** 腫瘤徵用抗死亡激酶 — Akt+XIAP、Src 將 Caspase-8 留作支架、PAK2 壓住 Caspase-7、CDK1 沉默 Caspase-2 — 將系統焊死；SIRT1 抑制在許多腫瘤中具有治療價值，正因它重新釋放 caspase-2/-3。
 
 **總結：** 激酶提供快速、可逆、脈絡依賴的 caspase 活性調節（多為抑制）；sirtuins 提供較慢、與 NAD⁺ 耦合的約束，同時作用於 caspases 與發炎性 caspase-1 軸；一旦 caspases 參與，SIRT1、PKCδ、Parkin 與 GSDMD 的切割將系統從可逆調控翻轉為不可逆（或自我終止）的執行。需要的死亡要求系統武裝完畢且可釋出；不需要的死亡則是未能約束它（神經退行性疾病、無菌性發炎），或始終無法釋出它（癌症）。
 
