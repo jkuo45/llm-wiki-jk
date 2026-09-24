@@ -3,7 +3,7 @@ title: Polyphenols
 description: Polyphenols are a category of phytochemicals that are naturally found
   in plants.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-23
 tags:
   - chemical-class
 aliases: [Polyphenols]
@@ -131,6 +131,9 @@ List of documents that mention this entity
    - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
      - Polyphenols including resveratrol, quercetin, and curcumin are identified as Sirtuin-activating compounds (STACs) that engage SIRT1.
 
+   - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
+     - Queen Palm fruit carries ~590–1,100 mg GAE/100 g extractable phenolics (ferulic/caffeic acids, quercetin and kaempferol glycosides) driving DPPH/ORAC activity despite low vitamin C.
+
 
 ## Connections
 - [[Flavonoids]]
@@ -145,8 +148,9 @@ List of documents that mention this entity
 - [[Melatonin]]: Synergistic antioxidant with polyphenols
 - [[NRF2]]: Key downstream mediator of polyphenol benefits
 - [[STACs]]: Polyphenols function as STACs activating SIRT1; [[SIRT1]]: Polyphenols activate SIRT1.
+- [[Queen Palm]]: Dietary fruit source rich in hydroxycinnamic acids and flavonol glycosides; phenolics complement its carotenoid/tocopherol suite.
 
 ## Linking Summary
-- New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]]
+- New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]], [[Queen Palm]]
 - Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]], [[Proanthocyanidins]]
-  - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]
+  - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]], [[Polyphenols]] ↔ [[Queen Palm]]

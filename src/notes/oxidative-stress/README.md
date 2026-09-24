@@ -3,7 +3,7 @@ title: Oxidative Stress
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-09-23
 ---
 # Oxidative Stress
 
@@ -89,6 +89,7 @@ updated: 2026-08-16
 | [[UDP-glucuronosyltransferases]] | enzyme | Phase II conjugation enzymes that glucuronidate polyphenols like fisetin, limiting their oral bioavailability. |
 | [[A20]] | protein | A20 (TNF alpha-induced protein 3, TNFAIP3) is a dual-function ubiquitin-editing enzyme that functions as a master negative regulator of NF-kappa B signaling and Inflammation. |
 | [[Genistein]] | oxidative-stress | Genistein is an isoflavone that is described as an angiogenesis inhibitor and a phytoestrogen. It belongs to the class of Flavonoids and exhibits significant antioxidant activity, contributing to t... |
+| [[Queen Palm]] | plant | Syagrus romanzoffiana (jerivá) ornamental palm whose fruit pulp and kernel supply carotenoids, polyphenols, tocopherols and medium-chain lipids — a studied dietary source of lipophilic defense against lipid peroxidation. |
 | [[Cyanidin-3-glucoside]] | chemical | Anthocyanin abundant in elderberries; a natural SIRT6 activator with antioxidant activity and immunomodulatory potential. |
 | [[flavanone]] | chemical | Flavonoid subclass with saturated C-ring lacking catechol motifs; includes hesperidin and naringenin. |
 | [[Indoles]] | chemical | Heterocyclic chemical class whose indoline-5,6-dione scaffold underlies adrenochrome and related catecholamine pigments. |

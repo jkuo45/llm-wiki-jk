@@ -10601,5 +10601,46 @@
       }
     },
     "updated": "2026-09-21"
+  },
+  {
+    "id": "n-20260923-queen-palm-fruit-cluster-00",
+    "document": "",
+    "entities": [
+      "Lipid Peroxidation",
+      "Antioxidants",
+      "Reactive Oxygen Species",
+      "Vitamin E",
+      "Polyphenols",
+      "Ferroptosis"
+    ],
+    "tags": [
+      "oxidative-stress",
+      "antioxidants",
+      "polyphenols",
+      "redox",
+      "nutrition",
+      "plant-physiology"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "83548add-e155-44ad-a839-82c362a4c0fa.jpeg"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-09-23",
+    "updated": "2026-09-23",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "Queen Palm (Syagrus romanzoffiana) ripe fruit cluster",
+        "ocr": "There is no text in the image. It shows clusters of orange berries hanging from a palm tree. Dry fronds are visible to the left, while green palm leaves fill the background. The structure consists of thin stems supporting dense bunches of round fruit."
+      },
+      "zh-TW": {
+        "title": "皇后棕（Syagrus romanzoffiana）成熟果串",
+        "ocr": "圖中無文字。棕櫚樹上懸掛著成串的橙色漿果，左側可見乾枯葉片，背景為綠色棕櫚葉，細長果梗支撐著密集的圓形果實。"
+      }
+    }
   }
 ]

@@ -3,7 +3,7 @@ title: Vitamin E
 description: Vitamin E is a group of eight fat-soluble compounds that include
   four tocopherols and four tocotrienols. It acts as a potent antioxidant.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-09-23
 tags:
   - chemical-compound
 aliases: []
@@ -43,6 +43,9 @@ List of documents that mention this entity
   - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
     - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
 
+  - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
+    - Queen Palm pulp oil averages >320 mg/kg α-tocopherol, acting as a natural tocopherol carrier that works synergistically with co-delivered carotenoids against lipid peroxidation.
+
 
 ## Connections
 - [[Oxidative Stress]]
@@ -51,8 +54,9 @@ List of documents that mention this entity
 - [[Alpha-tocopherol]]: The most common form of Vitamin E used in supplements.
 - [[COMT]]: Genetic variants of this enzyme influence the response to Vitamin E.
 - [[Cancer]]: Risk levels are affected by the interaction between Vitamin E and COMT.
+- [[Queen Palm]]: Fruit pulp oil rich in α-tocopherol plus carotenoids; dietary exemplar of vitamin-E-centered membrane protection.
 
 ## Linking Summary
-- New links added: [[Oxidative Stress]], [[Atherosclerosis]], [[Asthma]], [[Lipid Peroxidation]], [[Alpha-tocopherol]], [[COMT]], [[Cancer]]., [[Cancer]]
+- New links added: [[Oxidative Stress]], [[Atherosclerosis]], [[Asthma]], [[Lipid Peroxidation]], [[Alpha-tocopherol]], [[COMT]], [[Cancer]]., [[Cancer]], [[Queen Palm]]
 - Suggested new entity notes to create: [[Tocopherols]], [[Tocotrienols]], [[Cell Membranes]]
-  - Strong connections to strengthen: Vitamin E ↔ Lipid Peroxidation
+  - Strong connections to strengthen: Vitamin E ↔ Lipid Peroxidation, Vitamin E ↔ Queen Palm

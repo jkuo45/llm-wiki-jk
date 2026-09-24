@@ -2,7 +2,7 @@
 title: Lipid Peroxidation
 description: The oxidative degradation of polyunsaturated fatty acids via a free radical chain reaction; a central execution pathway of oxidative stress that damages membranes, proteins, and DNA and drives atherosclerosis and ferroptosis.
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-09-23
 tags:
   - chemical-process
   - oxidative-stress
@@ -87,6 +87,9 @@ List of documents that mention this entity
   - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
     - Relevant Scientific Findings - Limited formation/oxidation in blood: Epinephrine can be oxidized to Adrenochrome in blood, and Hemoglobin (abundant in Erythrocytes) can catalyze this Peroxidation/oxidation process.
 
+  - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
+    - Dietary food-source angle on structural protection against lipid peroxidation; ranks Queen Palm pulp oil's carotenoid + tocopherol suite in a high-potency peer tier (below buriti/red palm oil, above carrots/common fruit) among lipophilic defenders.
+
 ## Connections
 
 - [[Malondialdehyde]]: Key reactive aldehyde end-product and biomarker of LPO.
@@ -118,9 +121,10 @@ List of documents that mention this entity
 - [[Peroxynitrite]]: Initiates LPO by hydrogen abstraction from bis-allylic methylene groups.
 - [[Apoptosis]]: Cardiolipin peroxidation facilitates cytochrome c release and apoptosis.
 - [[NF-κB]]: 4-HNE-modified proteins in plaques activate NF-κB.
+- [[Queen Palm]]: Dietary source whose pulp oil co-delivers carotenoids, α-tocopherol and oleic/linoleic vehicle lipids — an exogenous structural-defense case against LPO.
 
 ## Linking Summary
 
 - New links added: [[Adrenochrome]], [[Catecholamine-induced cardiomyopathy]], [[Takotsubo Cardiomyopathy]], [[Hydroxyl Radicals]], [[Lipid peroxyl radical]], [[Lipid hydroperoxide]], [[Polyunsaturated fatty acids]], [[Oxidized LDL]], [[Conjugated Dienes]], [[Atherosclerosis]], [[LDL]], [[HDL]], [[Oxidative Stress]], [[Resveratrol]], [[Vitamin E]], [[PON1]], [[Foam Cells]], [[Macrophages]], [[Cholesterol Efflux]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[F2-Isoprostanes]], [[Ferroptosis]], [[Mitochondria]], [[Apoptosis]], [[NF-κB]], [[Peroxynitrite]], [[Hemoglobin]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Lipoxygenases]], [[Leukotrienes]], [[Cyclooxygenases]], [[Isoprostanes]], [[Arachidonic acid]], [[Docosahexaenoic acid]], [[Cardiomyocyte]], [[NADPH]], [[Glutathione]]
 - Suggested new entity notes to create: [[Acrolein]], [[Oxidized LDL]], [[Calpain]], [[Hydroxyeicosatetraenoic acids]], [[Prostaglandin G₂]]
-- Strong connections to strengthen: [[Lipid Peroxidation]] ↔ [[Vitamin E]], [[Lipid Peroxidation]] ↔ [[Atherosclerosis]], [[Lipid Peroxidation]] ↔ [[Ferroptosis]], [[Lipid Peroxidation]] ↔ [[Adrenochrome]], [[Lipid Peroxidation]] ↔ [[LDL]]
+- Strong connections to strengthen: [[Lipid Peroxidation]] ↔ [[Vitamin E]], [[Lipid Peroxidation]] ↔ [[Atherosclerosis]], [[Lipid Peroxidation]] ↔ [[Ferroptosis]], [[Lipid Peroxidation]] ↔ [[Adrenochrome]], [[Lipid Peroxidation]] ↔ [[LDL]], [[Lipid Peroxidation]] ↔ [[Queen Palm]]

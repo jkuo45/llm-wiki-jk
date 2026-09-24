@@ -2,7 +2,7 @@
 title: Antioxidants
 description: Antioxidants is a concept related to Adrenochrome and catecholamine metabolism.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-09-23
 tags:
   - chemical-compound
   - antioxidant
@@ -50,11 +50,15 @@ List of documents that mention this entity
   - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
     - The Oxidative Stress theory has been associated with Atherosclerosis and has prompted a multitude of studies to evaluate the effects of Antioxidants on Cardiovascular Disease prevention.
 
+  - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
+    - Fruit-based example of an almost purely lipophilic antioxidant suite (carotenoids, α-tocopherol, phenolics, negligible vitamin C) delivered in a co-located lipid vehicle.
+
 
 ## Connections
 - **[[Oxidative Stress]]**: The state resulting from insufficient antioxidant capacity.
 - **[[Reactive Oxygen Species]]**: The primary targets of antioxidant defense.
 - **[[Mitochondria]]**: A major site of both ROS production and antioxidant activity.
+- **[[Queen Palm]]**: Dietary plant source whose pulp co-delivers lipophilic antioxidants with their lipid vehicle.
 
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Reactive Oxygen Species]], [[Superoxide Dismutase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Catalase]], [[Glutathione Peroxidase]], [[Glutathione]], [[Vitamin E]], [[Vitamin C]], [[Coenzyme Q10]], [[Polyphenols]], [[Flavonoids]], [[Lipid Peroxidation]], [[Oxidative Stress]], [[Cancer]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Mitochondria]]
