@@ -171,18 +171,52 @@ export function renderMarkdown(text, opts = {}) {
     const colgroup = `<colgroup><col style="width:170px">${'<col style="width:350px">'.repeat(Math.max(0, nCols - 1))}</colgroup>`;
     return `<div class="tbl-wrap"><table class="md-table">${colgroup}<thead><tr>${hCells}</tr></thead><tbody>${rows}</tbody></table></div>`;
   });
-  // Paragraphs: double newlines
-  html = html.replace(/\n\n+/g, '</p><p>');
-  // Single newlines to <br>
-  html = html.replace(/\n/g, '<br>');
-  // Wrap in paragraph
-  html = '<p>' + html + '</p>';
-  // Clean up empty paragraphs
-  html = html.replace(/<p>\s*<\/p>/g, '');
-  // Drop trailing line breaks at the end of paragraphs
-  html = html.replace(/(<br>)+<\/p>/g, '</p>');
-  // Merge adjacent blockquotes
-  html = html.replace(/<\/blockquote>\s*<blockquote>/g, '<br>');
+  // Block assembly + heading-scoped indent: force blank lines around headings
+  // and flush blocks so every segment classifies cleanly, then wrap text
+  // segments (prose, lists, blockquotes) with the current heading's indent
+  // (h3/h4 → 1/2 steps of 1.25em; h1/h2 flush). Images indent at the figure
+  // level (margin-left on <figure>/<img> itself); tables, code, callouts and
+  // hr stay full-width. Callout bodies re-enter at depth 0 (recursive
+  // renderMarkdown above).
+  // ponytail: an image sharing a line with prose indents with the paragraph;
+  // keep images on their own line for figure-level indent.
+  html = html.replace(/<\/blockquote>[ \t]*\n[ \t]*<blockquote>/g, '<br>');
+  html = html
+    .replace(/\n*(<h([1-4])[^>]*>[\s\S]*?<\/h\2>)\n*/g, '\n\n$1\n\n')
+    .replace(/\n*(\u0000(?:CODE|CALLOUT|HTML)\d+\u0000|<div class="tbl-wrap">[\s\S]*?<\/div>|<hr>)\n*/g, '\n\n$1\n\n');
+  const STEP = 1.25;
+  const indentTag = (block, css) => block.replace(/<(figure|img)\b([^>]*)>/, (m, tag, attrs) =>
+    /style="/.test(attrs)
+      ? `<${tag}${attrs.replace('style="', `style="${css};`)}>`
+      : `<${tag}${attrs} style="${css}">`);
+  let depth = 0;
+  html = html.split(/\n\n+/).map((seg) => {
+    const s = seg.trim();
+    if (!s) return '';
+    const h = s.match(/^<h([1-4])([^>]*)>[\s\S]*?<\/h\1>$/);
+    if (h) {
+      depth = Math.max(0, +h[1] - 2);
+      const pad = depth ? ` style="margin-left:${depth * STEP}em"` : '';
+      return s.replace(/^<h([1-4])([^>]*)>/, (m, lvl, attrs) => `<h${lvl}${attrs}${pad}>`);
+    }
+    const pad = depth ? `margin-left:${depth * STEP}em` : '';
+    // Raw <figure>/<img> HTML: indent the tag itself (restore is in-scope here).
+    const hp = s.match(/^\u0000HTML(\d+)\u0000$/);
+    if (hp) {
+      const raw = htmlBlocks[+hp[1]];
+      return pad ? indentTag(raw, pad) : raw;
+    }
+    if (/^\u0000(?:CODE|CALLOUT)\d+\u0000$/.test(s)
+        || s.startsWith('<div class="tbl-wrap">') || s === '<hr>') return s;
+    // Standalone markdown image: indent the <img>/<figure> tag, not a wrapper.
+    if (/^(?:<figure\b[\s\S]*<\/figure>|<img\b[^>]*>)$/.test(s)) {
+      return pad ? indentTag(s, pad) : s;
+    }
+    const body = s.replace(/\n/g, '<br>');
+    return /<(?:ul|ol|blockquote|div|pre|figure|table)\b/.test(s)
+      ? `<div class="md-seg" style="margin:8px 0${pad ? ';' + pad : ''}">${body}</div>`
+      : `<p${pad ? ` style="${pad}"` : ''}>${body}</p>`;
+  }).join('');
   // Tidy stray line breaks around block-level lists
   html = html.replace(/(<br>)+(?=<ul>|<ol>)/g, '');
   html = html.replace(/(<\/(?:ul|ol)>)(<br>)+/g, '$1');
@@ -632,4 +666,21 @@ export async function enhanceMermaid(root = document, opts = {}) {
     }
   }
   return done;
+}
+
+// ponytail: self-check — `node web/components/markdown.js`. One smoke assert
+// per indent rule; delete once the nesting looks right in the UI.
+if (typeof process !== 'undefined' && import.meta.url.endsWith(process.argv[1]?.replace(/\\/g, '/').split('/').pop() || '\u0000')) {
+  const fail = (m) => { console.error('self-check FAIL:', m); process.exit(1); };
+  const out = renderMarkdown(
+    '# T\n\n## H2\n\npara2\n\n### H3\n\npara3\n\n![x](y.png)\n\n#### H4\n\n- li4\n\n| a |\n| - |\n| 1 |\n\n```\ncode\n```');
+  if (/<h2[^>]*style/.test(out)) fail('h2 should be flush');
+  if (!/<h3[^>]*style="margin-left:1\.25em"/.test(out)) fail('h3 one step');
+  if (!/<h4[^>]*style="margin-left:2\.5em"/.test(out)) fail('h4 two steps');
+  if (!/<p style="margin-left:1\.25em">para3/.test(out)) fail('para under h3');
+  if (!/<img src="y\.png"[^>]*style="margin-left:1\.25em"/.test(out)) fail('image under h3 indents at tag level');
+  if (!/margin-left:2\.5em[^>]*><ul><li>li4/.test(out)) fail('list under h4');
+  if (/<div class="tbl-wrap">[^]*?<p style/.test(out.split('<div class="tbl-wrap">')[1]?.slice(0, 200) || '')) fail('table not flushed');
+  if (/margin-left/.test((out.match(/<pre>[\s\S]*?<\/pre>/) || [''])[0])) fail('code not flushed');
+  console.log('self-check OK');
 }
