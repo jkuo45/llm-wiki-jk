@@ -2,7 +2,7 @@
 title: Queen Palm (Syagrus romanzoffiana) — Biochemical Nutrients, Edibility, Health Benefits, and Lipid-Peroxidation Ranking
 description: Gemini conversation export covering Queen Palm fruit identification, biochemical/nutritional profile, edibility for humans and pets, research literature, commercial availability, health benefits (antioxidant, metabolic, cardioprotective, neuroprotective), similar plants, structural protection against lipid peroxidation, and ranking of its lipophilic antioxidant compounds.
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-09-24
 tags:
   - task-output
   - queen-palm
@@ -12,20 +12,24 @@ tags:
   - antioxidants
   - phytochemicals
   - jeriva
+  - mitohormesis
+  - vitamin-e
 source: https://share.gemini.google/GVpvWagNzj0I
 ---
 
 # Queen Palm — Biochemical Nutrients Profile
 
-Gemini conversation, created 23_Sep_2026 05:32 PM PDT, published 23_Sep_2026 08:24 PM. Source: https://share.gemini.google/GVpvWagNzj0I
+Gemini conversation, created 23_Sep_2026 05:32 PM PDT, published 23_Sep_2026 08:24 PM. Source: <https://share.gemini.google/GVpvWagNzj0I>
 
 ## Identify this plant and its biochemical nutrients
 
 This plant is the Queen Palm (*Syagrus romanzoffiana*), a tropical and subtropical palm species native to South America. It produces dense, hanging infructescences bearing hundreds of ovoid, fleshy, bright yellow-to-orange drupes.
 
+<figure>
 <img src="https://raw.githubusercontent.com/jkuo45/llm-wiki-jk/dev/src/images/n-20260923-queen-palm-fruit-cluster-00/83548add-e155-44ad-a839-82c362a4c0fa.jpeg" alt="Ripe orange Queen Palm fruit cluster hanging in the canopy (photo ingested as note n-20260923-queen-palm-fruit-cluster-00)" width="480">
 
 *Photo: ripe infructescence, source image ingested as Notes entry `n-20260923-queen-palm-fruit-cluster-00`.*
+</figure>
 
 <figure>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/QueenPalmFlorida.jpg/960px-QueenPalmFlorida.jpg" alt="Queen Palm tree in Central Florida" width="480">
@@ -278,3 +282,23 @@ For lipid peroxidation defense—which specifically requires lipid-soluble antio
 - **Common Cultivated Fruits (Apples, Plums, Grapes):** Higher in water-soluble polyphenols, but significantly lower in lipophilic antioxidants capable of halting lipid radical propagation cascades (LOO•).
 
 > [!info] Gemini disclaimer: Gemini may display inaccurate info; double-check responses.
+
+## Vitamin E and Mitohormesis — editorial note (24_Sep_2026)
+
+Vault annotation, not part of the Gemini export above. Follow-up question on review: given that [[Vitamin E]] may blunt [[Mitohormesis]], how should it be approached when optimizing for mitohormesis?
+
+General prior art on the antioxidant-vs-mitohormesis question — which antioxidants interfere most, and why timing matters — is already covered in `task_output_mitohormesis_antioxidants_05_August_2026.md` (NAC, vitamins C/E, Gomez-Cabrera 2008, HOPE, the post-workout window). This note is limited to the vitamin-E-specific angle and the food-matrix framing that the Queen Palm material illustrates.
+
+**The premise needs a qualifier.** The conflict is dose- and timing-dependent, not absolute. The mitohormetic signal is largely aqueous-phase [[Hydrogen Peroxide]] (10–100 nM) reversibly oxidizing cysteines on phosphatases and kinases (see [[Mitohormesis]], ROS Signaling Specificity). [[Vitamin E]] is a lipophilic [[Radical-trapping Antioxidant]] that terminates LOO• chain propagation inside the bilayer ([[Lipid Peroxidation]]). Different compartment, different chemistry — it removes the damage arm more readily than the signal arm.
+
+**Practical approach**
+
+- **Timing.** Keep it out of the hormetic pulse. [[Antioxidant Supplementation Paradox]] and [[Exercise Hormesis]]: co-dosing antioxidants with [[Exercise]], fasting, or [[Metformin]] suppresses the mROS → AMPK → [[PGC-1α]] and [[NRF2]] cascades. Take it in the non-stress window, never as a post-workout supplement.
+- **Dose ceiling.** Food-level, not supplement-level. In-note threshold: >400 IU/day. SELECT (+17% prostate cancer) and HOPE (no CV benefit) are cited in [[Antioxidant Supplementation Paradox]].
+- **Food matrix over isolates.** Queen Palm is the exemplar — α-tocopherol (>320 mg/kg pulp oil) delivered with carotenoids and polyphenols inside a lipid vehicle. [[Dietary Hormesis]]: the matrix keeps intake inside the [[Hormetic Window]]; concentrates overshoot.
+- **Form.** Prefer α-tocopherol. γ-Tocopherol is proinflammatory in allergic airway contexts (VCAM-1 and eosinophil recruitment up; inverse FEV1/FVC association in CARDIA) per [[_document_ - Oxidative Stress Harms and Benefits for Human Health]].
+- **Genotype gate.** [[COMT]] [[Val158Met]]: slow COMT (Met/Met) showed ~12% cancer reduction on α-tocopherol; fast COMT (Val/Val) showed increased risk. Fast COMT flips the cost-benefit.
+- **When vitamin E is the right tool.** When the stress is distress rather than eustress — high PUFA/oxidant load, [[Ferroptosis]] risk, oxLDL and cardiolipin threat. Protecting cardiolipin and restraining mPTP / cytochrome c release keeps stress *inside* the [[Hormetic Window]] rather than above it. Chronic [[Malondialdehyde]] / [[4-Hydroxynonenal]] generation degrades mitohormetic capacity; preventing that is not the same as blunting it.
+- **For the hormesis goal itself**, prefer xenohormetins ([[Sulforaphane]], [[Curcumin]], [[Resveratrol]]) — mild electrophilic stressors that drive [[NRF2]] rather than scavenge ([[Antioxidant Supplementation Paradox]], xenohormetic alternative). Treat vitamin E as situational membrane insurance, not a longevity signal; low-dose [[Alpha-Lipoic Acid]] / [[Coenzyme Q10]] regenerate tocopherol and beat larger E boluses.
+
+Sources: vault notes as cited. The compartment/timing framing and the pulsing suggestion are synthesis beyond the notes, not established vault fact.

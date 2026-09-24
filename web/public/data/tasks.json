@@ -1,5 +1,5 @@
 {
-  "generated": "24_SEP_2026 10:07 AM PDT",
+  "generated": "24_SEP_2026 10:34 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -31,7 +31,7 @@
           "title": "Queen Palm (Syagrus romanzoffiana) — Biochemical Nutrients, Edibility, Health Benefits, and Lipid-Peroxidation Ranking",
           "description": "Gemini conversation export covering Queen Palm fruit identification, biochemical/nutritional profile, edibility for humans and pets, research literature, commercial availability, health benefits (antioxidant, metabolic, cardioprotective, neuroprotective), similar plants, structural protection against lipid peroxidation, and ranking of its lipophilic antioxidant compounds.",
           "created": "2026-09-23",
-          "updated": "2026-09-23",
+          "updated": "2026-09-24",
           "tags": [
             "task-output",
             "queen-palm",
@@ -40,7 +40,9 @@
             "lipid-peroxidation",
             "antioxidants",
             "phytochemicals",
-            "jeriva"
+            "jeriva",
+            "mitohormesis",
+            "vitamin-e"
           ],
           "filename": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
           "path": "tasks/en-US/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
@@ -49,7 +51,7 @@
           "title": "皇后棕（Syagrus romanzoffiana）— 生化營養素、可食性、健康益處與脂質過氧化排序",
           "description": "Gemini 對話匯出，涵蓋皇后棕果實辨識、生化／營養組成、人類與寵物可食性、研究文獻、商品通路、健康益處（抗氧化、代謝、心臟保護、神經保護）、相似植物、脂質過氧化的結構性防護，以及其親脂性抗氧化化合物的排序。",
           "created": "2026-09-23",
-          "updated": "2026-09-23",
+          "updated": "2026-09-24",
           "tags": [
             "task-output",
             "queen-palm",
@@ -58,7 +60,9 @@
             "lipid-peroxidation",
             "antioxidants",
             "phytochemicals",
-            "jeriva"
+            "jeriva",
+            "mitohormesis",
+            "vitamin-e"
           ],
           "filename": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
           "path": "tasks/zh-TW/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
