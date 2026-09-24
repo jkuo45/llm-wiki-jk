@@ -61,7 +61,18 @@ export function renderMarkdown(text, opts = {}) {
     codeBlocks.push({ lang, code: code.trim() });
     return `\u0000CODE${codeBlocks.length - 1}\u0000`;
   });
-  let html = esc(fenced);
+  // Raw <figure>/<img> HTML (task outputs embed Wikimedia + ingested photos)
+  // is extracted before esc() — after code fences, so img strings inside code
+  // stay code — with a cheap sanitize (strip scripts + inline event handlers);
+  // content is a local vault + ingested web docs, not arbitrary user HTML.
+  const htmlBlocks = [];
+  const withImgs = fenced.replace(/<figure>[\s\S]*?<\/figure>|<img\b[^>]*>/gi, (m) => {
+    htmlBlocks.push(m
+      .replace(/<\/?(?:script|iframe|object|embed|link|meta)\b[^>]*>/gi, '')
+      .replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, ''));
+    return `\u0000HTML${htmlBlocks.length - 1}\u0000`;
+  });
+  let html = esc(withImgs);
   // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref
   html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, display) => {
     const label = target.trim();
@@ -135,6 +146,10 @@ export function renderMarkdown(text, opts = {}) {
     };
     return renderNodes(root.children);
   });
+  // Images: ![alt](url) — must run before the link regex or the leading "!" survives.
+  // Optional title arrives as &quot;…&quot; (text is already esc()'d); drop it.
+  html = html.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+(?:&quot;[\s\S]*?&quot;|"[^"]*"))?\)/g,
+    '<img src="$2" alt="$1" loading="lazy">');
   // Links: [text](url)
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
   // Tables: simple pipe tables — wrapped in .tbl-wrap so wide tables scroll
@@ -173,7 +188,7 @@ export function renderMarkdown(text, opts = {}) {
   html = html.replace(/(<\/(?:ul|ol)>)(<br>)+/g, '$1');
   // Strip redundant <br> around all block-level elements (headings, hr,
   // lists, callouts, quotes...) — block margins provide the spacing.
-  const BLOCK = '(?:h[1-4]|ul|ol|table|pre|blockquote|div)';
+  const BLOCK = '(?:h[1-4]|ul|ol|table|pre|blockquote|div|figure)';
   html = html.replace(new RegExp(`(<br>)+(?=<${BLOCK}[ >]|<hr>)`, 'g'), '');
   html = html.replace(new RegExp(`(</${BLOCK}>|<hr>)((<br>)+)`, 'g'), '$1');
   // Restore extracted code blocks (unwrap placeholder-only paragraphs first).
@@ -197,6 +212,9 @@ export function renderMarkdown(text, opts = {}) {
   // Restore extracted callouts (unwrap placeholder-only paragraphs first)
   html = html.replace(/<p>\s*\u0000CALLOUT(\d+)\u0000\s*<\/p>/g, '\u0000CALLOUT$1\u0000');
   html = html.replace(/\u0000CALLOUT(\d+)\u0000/g, (m, i) => callouts[i]);
+  // Restore extracted <figure>/<img> HTML (unwrap placeholder-only paragraphs)
+  html = html.replace(/<p>\s*\u0000HTML(\d+)\u0000\s*<\/p>/g, '\u0000HTML$1\u0000');
+  html = html.replace(/\u0000HTML(\d+)\u0000/g, (m, i) => htmlBlocks[i]);
   return html;
 }
 
