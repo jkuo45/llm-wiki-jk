@@ -302,3 +302,56 @@ General prior art on the antioxidant-vs-mitohormesis question — which antioxid
 - **For the hormesis goal itself**, prefer xenohormetins ([[Sulforaphane]], [[Curcumin]], [[Resveratrol]]) — mild electrophilic stressors that drive [[NRF2]] rather than scavenge ([[Antioxidant Supplementation Paradox]], xenohormetic alternative). Treat vitamin E as situational membrane insurance, not a longevity signal; low-dose [[Alpha-Lipoic Acid]] / [[Coenzyme Q10]] regenerate tocopherol and beat larger E boluses.
 
 Sources: vault notes as cited. The compartment/timing framing and the pulsing suggestion are synthesis beyond the notes, not established vault fact.
+
+## Practical dosing — how much pulp to reach therapeutic levels (24_Sep_2026 editorial)
+
+Vault annotation, not part of the Gemini export above. Follow-up question on review: roughly how many Queen Palm fruits' pulp must one eat to reach a therapeutic intake of the lipophilic defenders above — and how does that compare with African Oil Palm (*Elaeis guineensis*)? The whole-fruit answer turns on a factor the tier ranking omits: the pulp oil *fraction*, not just the oil's composition.
+
+**Input data (literature, not the Gemini export):**
+
+| Input | Queen Palm (jerivá) | African Oil Palm | Source |
+| --- | --- | --- | --- |
+| Fruit fresh mass | 5.61 g (pulp 59.29% ≈ 3.4 g) | 6–20 g (mesocarp ~50–70%) | Goudel et al., *Acta Bot Bras* 2013 (thesis mean pulp 3.44 g); FAO oil-palm chapter |
+| Oil in fresh pulp | 1.19 g/100 g | 25–30 g/100 g | Gorski et al., *Visão Acadêmica* 2023 (UFPR); FAO / PMC mesocarp drying study |
+| Carotenoids in pulp oil | 1,219 µg/g (β-carotene predominant) | 500–700 µg/g (CPO typical) | Coimbra & Jorge, *JSFA* 2012; CPO spec + RPO review |
+| α-tocopherol in pulp oil | 323.5 mg/kg | ~220 mg/kg (α-tocotrienol 178, γ-tocotrienol 245) | Coimbra & Jorge 2012; FAPC-248 tocol table |
+
+Per fruit: **Queen Palm ≈ 50 µg carotenoids + 13 µg α-tocopherol; Oil Palm ≈ 1 mg carotenoids + 0.4 mg α-tocopherol (+ ~0.9 mg tocotrienols).**
+
+**Dose counts** (targets: 6–15 mg carotenoids — Mayo supplement dosing / five-a-day ≈ 6–8 mg; 15 mg α-tocopherol = RDA):
+
+| Target | Queen Palm pulp | Oil Palm mesocarp | Red palm oil equivalent |
+| --- | --- | --- | --- |
+| 6–15 mg carotenoids | **~120–300 fruits** (~0.4–1 kg pulp) | **~6–15 fruits** (~60–150 g) | 1 tbsp unrefined (~8–10 mg) |
+| 1 mg carotenoids (food-serving bump) | ~20 fruits | ~1 fruit | — |
+| 15 mg α-tocopherol (RDA) | ~1,160 fruits — not feasible | ~40 fruits | ~4–5 tbsp |
+| 1 tsp/5 g pulp oil | ≈ 6 mg carotenoids ≈ 120 Queen Palm fruits' worth | — | — |
+
+**Reading the gap.** Oil-basis densities are comparable — Queen Palm pulp oil is actually ~2× denser in carotenoids (1,219 vs 500–700 µg/g). The ~20× practical difference is the vehicle: mesocarp oil fraction 25–30% vs 1.19%. A dilute-carotenoid oil carried in a dilute-oil pulp compounds the dilution. Vitamin E via whole Queen Palm fruit is out of reach at food-level intake; the fruit is a carotenoid source, not a tocopherol source.
+
+> [!info] Cross-check and caveats
+> Derived Queen Palm pulp carotenoids ≈ 4 mg/100 g dry matter (1.44 mg/100 g fresh; moisture 63.94%) vs Mello et al., *Antioxidants* 2024 (doi:10.3390/antiox13060711) peel (all-E)-β-carotene 5.16 mg/100 g dm (peel > pulp) — consistent within ~2×, supporting the oil-basis reading of the Coimbra figures. Counts are intake-side only (no absorption/plasma modeling; lipid matrix improves bioavailability but intake ≠ tissue level). Must be **unrefined red** palm oil — refining strips ~70% of carotenoids. The "tocotrienols 40–60×" neuroprotective figure in the tier ranking is Gemini-export indicative, not validated.
+
+Sources: Goudel F. et al., *Fruit biometry and seed germination of Syagrus romanzoffiana*, Acta Bot Bras 27(1):147-154, 2013 · Gorski D. et al., *Avaliação dos componentes nutricionais presentes no fruto de jerivá*, Visão Acadêmica 24(4), 2023 · Coimbra M.C. & Jorge N., *J Sci Food Agric* 92:679-684, 2012 · Mello B.C.B.S. et al., *Antioxidants* 13(6):711, 2024 · FAO, *Oil Palm* (fruit structure, oil per mesocarp) · OSU FAPC-248 *Properties of Palm Oil* (carotenoid/tocol ranges) · Mayo Clinic β-carotene oral dosing · NIH ODS vitamin E RDA. Targets chosen as supplement-equivalent carotenoid intake, not a clinical protocol.
+
+### Red palm oil by the tablespoon
+
+Follow-up (24_Sep_2026): the practical form of the African Oil Palm comparison is the oil itself, not whole mesocarp. Per tbsp (~13–14 g, density ~0.9 g/mL):
+
+| Per tbsp | Amount |
+| --- | --- |
+| Carotenoids (500–700 µg/g oil) | ~8 mg (range 6–10) |
+| α-tocopherol (~220 mg/kg) | ~3 mg |
+| Total tocols (~800 mg/kg) | ~11 mg (incl. α/γ-tocotrienols) |
+
+| Target | Tbsp needed |
+| --- | --- |
+| 6–15 mg carotenoids (Mayo dosing / five-a-day) | **~1–2** |
+| 30 mg carotenoids (high-end trial range) | ~4 |
+| 15 mg α-tocopherol (RDA, α-tocopherol only) | ~5 |
+| 15 mg vitamin E as total tocols (tocotrienols counted) | ~1.5 |
+
+Practical dose: **1–2 tbsp/day** (~120–250 kcal fat) delivers the full carotenoid target plus ~6–11 mg tocols — comfortably under the [[Vitamin E]] >400 IU ceiling in the mitohormesis note above. Beyond ~2 tbsp the extra intake is mostly fat and calories, not hormetic benefit.
+
+> [!warning] It must be the red kind
+> Only carotene-retaining red palm oil works for this purpose — **unrefined/virgin red palm oil, or carotene-retaining refined red palm oil / red palm olein** (food-grade, still deep red-orange). Standard refined–bleached–deodorized palm oil is stripped of ~70% of its carotenoids and most tocols — pale, shelf-stable, and useless as a lipid-peroxidation defender. If it isn't visibly red-orange, it doesn't count.
