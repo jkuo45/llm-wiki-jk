@@ -1,5 +1,5 @@
 {
-  "generated": "24_SEP_2026 11:14 AM PDT",
+  "generated": "24_SEP_2026 12:55 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,47 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "COMT Val158Met Genotype Gate — α-Tocopherol Supplementation and Cancer Risk",
+          "description": "Deep dive into the COMT Val158Met genotype gate for vitamin E — Hall et al. JNCI 2019 pharmacogenetic re-analysis of WGHS and ATBC (Met/Met ~12% cancer reduction, Val/Val +18%, heterozygotes null), dose-robustness, colorectal follow-up and HCT116 mechanism work, caveats (supplements only, European ancestry), and adjacent evidence on dietary vitamin E and COMT as a general supplement-response modifier.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "comt",
+            "val158met",
+            "vitamin-e",
+            "alpha-tocopherol",
+            "pharmacogenomics",
+            "cancer",
+            "supplementation"
+          ],
+          "filename": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "COMT Val158Met 基因型關卡 — α-生育醇補充與癌症風險",
+          "description": "深入解析維生素 E 的 COMT Val158Met 基因型關卡 — Hall 等人 JNCI 2019 對 WGHS 與 ATBC 的藥物基因體學再分析（Met/Met 癌症風險下降約 12%、Val/Val 上升 18%、異型合子無效應），劑量穩健性、大腸直腸癌後續研究與 HCT116 機制實驗、注意事項（僅限補充劑、歐洲血統），以及關於膳食維生素 E 與 COMT 作為通用補充劑反應調節因子的旁證。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "comt",
+            "val158met",
+            "vitamin-e",
+            "alpha-tocopherol",
+            "pharmacogenomics",
+            "cancer",
+            "supplementation"
+          ],
+          "filename": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
         }
       }
     },
