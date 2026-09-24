@@ -191,6 +191,21 @@ Yes, several plants share a strikingly similar biochemical and nutritional profi
 - **Structural Analogy:** Unprocessed raw fruit mirrors the dual lipid-carotenoid framework.
 - **Nutritional Alignment:** Unrefined red palm oil (pulp): rich in β-carotene, α-carotene, lycopene, α-tocopherol, tocotrienols. Palm kernel oil (seed): highly saturated, lauric acid (C12:0) ~45–50% of lipid profile.
 
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Elaeis_guineensis_-_African_Oil_Palm_tree%2C_ripening_fruits%2C_detail.jpg/960px-Elaeis_guineensis_-_African_Oil_Palm_tree%2C_ripening_fruits%2C_detail.jpg" alt="Ripening African Oil Palm fruit cluster on the tree" width="480">
+<figcaption>Ripening African Oil Palm fruits — Piki-photow, <a href="https://commons.wikimedia.org/wiki/File:Elaeis_guineensis_-_African_Oil_Palm_tree,_ripening_fruits,_detail.jpg">Wikimedia Commons</a>, CC BY-SA 4.0</figcaption>
+</figure>
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Elaeis_guineensis_-_noix_de_palme_-_oil_palm_fruit_detail.jpg/960px-Elaeis_guineensis_-_noix_de_palme_-_oil_palm_fruit_detail.jpg" alt="Close-up of oil palm fruits showing exocarp and mesocarp" width="480">
+<figcaption>Oil palm fruit detail (exocarp / mesocarp / kernel) — Piki-photow, <a href="https://commons.wikimedia.org/wiki/File:Elaeis_guineensis_-_noix_de_palme_-_oil_palm_fruit_detail.jpg">Wikimedia Commons</a>, CC BY-SA 4.0</figcaption>
+</figure>
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Epo_%28red_palm_oil%29.jpg/960px-Epo_%28red_palm_oil%29.jpg" alt="Unrefined red palm oil, deep red-orange from carotenoids" width="480">
+<figcaption>Unrefined red palm oil (carotenoid-rich pulp fraction) — 6th.quan, <a href="https://commons.wikimedia.org/wiki/File:Epo_(red_palm_oil).jpg">Wikimedia Commons</a>, CC BY-SA 4.0</figcaption>
+</figure>
+
 **Coconut (*Cocos nucifera*)** — For the Kernel Profile: The inner nut (endosperm) is biochemically almost identical to the Queen Palm's kernel — both rich in lauric (C12:0) and myristic (C14:0) medium-chain triglycerides (MCTs), absorbed via the hepatic portal system for direct metabolic oxidation.
 
 **Sea Buckthorn (*Hippophae rhamnoides*)** — Non-Palm Twin: Intensely orange pulp high in β-carotene, zeaxanthin, and lutein, combined with rare fatty acid-rich pulp oil (high in palmitoleic and oleic acids) and high polyphenolic density.

@@ -191,6 +191,21 @@ Gemini 對話，建立於 23_Sep_2026 05:32 PM PDT，發布於 23_Sep_2026 08:24
 - **結構類比：** 未加工生果反映相同的雙重脂質–類胡蘿蔔素框架。
 - **營養對應：** 未精煉紅棕櫚油（果肉）：富含 β-胡蘿蔔素、α-胡蘿蔔素、番茄紅素、α-生育酚、生育三烯酚。棕櫚仁油（種子）：高度飽和，月桂酸（C12:0）約佔脂質組成 45–50%。
 
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Elaeis_guineensis_-_African_Oil_Palm_tree%2C_ripening_fruits%2C_detail.jpg/960px-Elaeis_guineensis_-_African_Oil_Palm_tree%2C_ripening_fruits%2C_detail.jpg" alt="樹上成熟的非洲油棕果串" width="480">
+<figcaption>成熟的非洲油棕果實 — Piki-photow，<a href="https://commons.wikimedia.org/wiki/File:Elaeis_guineensis_-_African_Oil_Palm_tree,_ripening_fruits,_detail.jpg">Wikimedia Commons</a>，CC BY-SA 4.0</figcaption>
+</figure>
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Elaeis_guineensis_-_noix_de_palme_-_oil_palm_fruit_detail.jpg/960px-Elaeis_guineensis_-_noix_de_palme_-_oil_palm_fruit_detail.jpg" alt="油棕果實特寫，可見外果皮與中果皮" width="480">
+<figcaption>油棕果實細節（外果皮／中果皮／種仁）— Piki-photow，<a href="https://commons.wikimedia.org/wiki/File:Elaeis_guineensis_-_noix_de_palme_-_oil_palm_fruit_detail.jpg">Wikimedia Commons</a>，CC BY-SA 4.0</figcaption>
+</figure>
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Epo_%28red_palm_oil%29.jpg/960px-Epo_%28red_palm_oil%29.jpg" alt="未精煉紅棕櫚油，因類胡蘿蔔素而呈深紅橙色" width="480">
+<figcaption>未精煉紅棕櫚油（富含類胡蘿蔔素的果肉部分）— 6th.quan，<a href="https://commons.wikimedia.org/wiki/File:Epo_(red_palm_oil).jpg">Wikimedia Commons</a>，CC BY-SA 4.0</figcaption>
+</figure>
+
 **椰子（*Cocos nucifera*）** — 種仁組成：內果（胚乳）在生化上與皇后棕種仁幾乎相同——皆富含月桂酸（C12:0）與肉豆蔻酸（C14:0）中鏈甘油三酯（MCT），經肝門脈系統吸收直接代謝氧化。
 
 **沙棘（*Hippophae rhamnoides*）** — 非棕櫚雙生：極橙的果肉富含 β-胡蘿蔔素、玉米黃質與葉黃素，結合罕見的富含脂肪酸果肉油（高棕櫚油酸與油酸）與高多酚密度。
