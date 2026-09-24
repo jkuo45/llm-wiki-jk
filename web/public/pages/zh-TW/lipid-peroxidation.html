@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>脂質過氧化 — 鏽蝕膜結構的自由基鏈式反應</title>
+<meta name="description" content="脂質過氧化視覺化綜述：多元不飽和脂肪酸上的引發—傳播—終止鏈式反應與芬頓分支、產物級聯（共軛二烯、脂質氫過氧化物、丙二醛 MDA、4-羥基壬烯醛 4-HNE、F2-異前列腺素、丙烯醛）、酵素型（LOX／COX）與非酵素型路徑、PUFA 易感性、疾病主軸（動脈粥樣硬化／oxLDL、鐵死亡、神經退化、兒茶酚胺心肌病變）、推測性腎上腺素紅雙重鐵死亡橋接（氧化還原循環鄰醌 → ROS → PUFA 氧化，以及假說性 GPX4 硒代半胱胺酸芳基化）、酸性神經醯胺酶／Lands 循環受質池軸（衰老相關 PUFA-PL 載入、SASP 旁分泌敏化、衰老調節型抑制劑），與防禦網絡（維生素 E、抗壞血酸、GPX4、PON1、類胡蘿蔔素、輔酶 Q10、白藜蘆醇、ferrostatin-1、鐵螯合）及飲食親脂防禦分級。改編自 llm-wiki-jk 知識庫。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #products .tbl-wrap{
+    --tbl-col-1:"標記物"; --tbl-col-2:"階段";
+    --tbl-col-3:"來源"; --tbl-col-4:"檢測";
+  }
+  #defense .tbl-wrap{
+    --tbl-col-1:"防禦因子"; --tbl-col-2:"機制"; --tbl-col-3:"情境";
+  }
+  a.badge{text-decoration:none; cursor:pointer;}
+  a.badge:hover{filter:brightness(1.15); border-color:var(--teal);}
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#overview">總覽</a>
+    <a class="n" href="#chain">鏈式反應</a>
+    <a class="n" href="#products">產物</a>
+    <a class="n" href="#pathways">途徑</a>
+    <a class="n" href="#disease">疾病</a>
+    <a class="n" href="#adrenochrome">腎上腺素紅</a>
+    <a class="n" href="#defense">防禦</a>
+    <a class="n" href="#sources">資料來源</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">專題綜述 · 氧化壓力 · 2026 年 9 月 23 日</div>
+    <h1>脂質過氧化 — 鏽蝕膜結構的鏈式反應</h1>
+    <p class="lead" style="margin-top:14px;">
+      <b style="color:var(--text)">脂質過氧化（lipid peroxidation, LPO）</b>是一種自由基鏈式反應：單一引發自由基從膜或
+      脂蛋白中的<b style="color:var(--text)">多元不飽和脂肪酸（PUFA）</b>抽取一個氫原子，殘留的碳自由基隨即啟動
+      自我傳播的循環，將數百個脂質轉化為<b style="color:var(--text)">脂質氫過氧化物</b>，並在裂解後產生反應性醛類——
+      <b style="color:var(--text)">丙二醛（MDA）</b>與<b style="color:var(--text)">4-羥基壬烯醛（4-HNE）</b>。
+      這是氧化壓力的核心執行途徑：它破壞膜結構、使蛋白質與 DNA 產生交聯，並驅動
+      <b style="color:var(--text)">動脈粥樣硬化</b>、<b style="color:var(--text)">鐵死亡</b>與神經元損傷。
+      同一反應在低於損傷閾值時又是氧化還原訊號——教科書式的激效（hormesis）接縫。
+    </p>
+    <div class="meta">
+      資料來源：llm-wiki-jk 知識庫筆記
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Lipid%20Peroxidation.md"><code>src/notes/oxidative-stress/Lipid Peroxidation.md</code></a>
+      · Berrougui et al., <i>Atherosclerosis</i> 2009（白藜蘆醇的抗動脈粥樣硬化作用），經知識庫文獻筆記
+      <code>_document_ - berrougui2009_resveratrol_as_atheroprotective_compound</code>
+      · 任務產出：
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"><code>女王棕生化營養素</code></a>（Gemini 匯出）、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>腎上腺素紅 → LPO 橋接</code></a>（推測性）、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md"><code>酸性神經醯胺酶與鐵死亡</code></a>（Soriano-Castell et al. 2026）
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#overview">chemical-process</a>
+      <a class="badge" href="#chain">自由基鏈式反應</a>
+      <a class="badge red" href="#products">MDA · 4-HNE · F₂-異前列腺素 · oxLDL</a>
+      <a class="badge red" href="#disease">動脈粥樣硬化 · 鐵死亡 · 神經退化</a>
+      <a class="badge amber" href="#defense">防禦：維生素 E · GPX4 · PON1 · 白藜蘆醇</a>
+      <a class="badge speculative" href="#adrenochrome">推測：腎上腺素紅雙重鐵死亡假說</a>
+      <a class="badge teal" href="#dietary">飲食親脂防禦 · 類胡蘿蔔素 · 生育酚</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 總覽 ============ -->
+<section id="overview">
+  <div class="wrap">
+    <h2>為何一個自由基就能毀掉一層膜</h2>
+    <p class="lead">
+      膜磷脂與循環脂蛋白中富含 PUFA，其雙烯丙基亞甲基上的氫異常脆弱（鍵解離能約 75 kcal/mol）。
+      氫氧自由基、過氧亞硝酸鹽或鐵醯複合物在近乎擴散極限的碰撞中即可奪走其中一個氫原子——
+      留下的碳自由基並非就此消耗殆盡。它在微秒內與 O₂ 反應，變成攻擊<i>下一個</i>脂質的過氧自由基。
+      一個引發因子，數十至數百個被氧化的脂質。
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--red);">鏈式反應，非化學計量燃燒</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          引發罕見而傳播迅速且自我維持（L• + O₂，k ≈ 10⁸ M⁻¹s⁻¹）。氫過氧化物經芬頓化學分解會分支出
+          新的鏈——指數式放大，直到兩個自由基重合或斷鏈型抗氧化劑截獲過氧自由基為止。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">受質的幾何結構決定易感性</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          易感性隨雙鍵數呈幾何級數上升：DHA（22:6）的氧化易感性約為亞麻油酸（18:2）的 10 倍。
+          因此富含 DHA 的神經元膜與花生四烯酸訊號池是最先燃燒的脂質。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">產物本身就是病理</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          氫過氧化物裂解為親電性醛類（MDA、4-HNE、丙烯醛），與蛋白質的半胱胺酸／組胺酸／離胺酸及
+          DNA（M₁dG 病變）形成共價加合物——在自由基消失後很久，仍留下氧化事件的持久分子記錄。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">一體兩面的化學</span>
+      <p>
+        低通量時，脂質氫過氧化物與 4-HNE 擔任第二信使——4-HNE 活化 NRF2/ARE 保護程序。
+        高通量時，同一批物質將膜推向損傷、將細胞推向鐵死亡或凋亡。劑量劃分了訊號與執行——
+        這是 [[Oxidative Stress]] 經典的激效開關。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 鏈式反應 ============ -->
+<section id="chain">
+  <div class="wrap">
+    <h2>引發、傳播與終止</h2>
+    <p class="lead">
+      三個經典相支配每一次脂質過氧化事件。以下速率常數取自知識庫筆記及其所綜述的物理有機自由基文獻。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="chainSvg" viewBox="0 0 1000 440" role="img" aria-labelledby="chainSvgTitle">
+          <title id="chainSvgTitle">脂質過氧化鏈式反應——引發、含芬頓分支的傳播循環與終止</title>
+          <defs>
+            <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="arrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-teal"/>
+            </marker>
+            <marker id="arrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-amber"/>
+            </marker>
+          </defs>
+
+          <!-- lane panels -->
+          <rect x="14" y="58" width="286" height="356" rx="14" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <rect x="356" y="58" width="342" height="356" rx="14" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <rect x="754" y="58" width="232" height="356" rx="14" class="panel-f stroke-line" fill-opacity="0.55"/>
+
+          <!-- lane headers -->
+          <text x="157" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" class="s-red">引發</text>
+          <text x="527" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" class="s-amber">傳播</text>
+          <text x="870" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" class="s-teal">終止</text>
+          <text x="157" y="50" text-anchor="middle" font-size="10.5" class="s-mute">罕見 · 需要觸發因子</text>
+          <text x="527" y="50" text-anchor="middle" font-size="10.5" class="s-mute">快速 · 自我維持 · 分支</text>
+          <text x="870" y="50" text-anchor="middle" font-size="10.5" class="s-mute">自由基重合 ＋ 氫供體</text>
+
+          <!-- ================= 引發 ================= -->
+          <text x="157" y="100" text-anchor="middle" font-size="12" class="s-text">X&#8226; &#8594; 奪氫反應</text>
+          <text x="157" y="124" text-anchor="middle" font-size="11.5" class="s-dim">自 PUFA（LH）的雙烯丙基 &#8211;CH&#8322;&#8211;</text>
+          <g>
+            <rect x="54" y="150" width="206" height="44" rx="10" class="card-f stroke-line2"/>
+            <text x="157" y="169" text-anchor="middle" font-size="11.5" class="s-text">觸發因子：&#8226;OH &#8226; ONOO&#8315; &#8226; 鐵醯</text>
+            <text x="157" y="185" text-anchor="middle" font-size="11" class="s-mute">芬頓 Fe&#178;&#8314; &#183; 兒茶酚胺自氧化</text>
+          </g>
+          <line x1="157" y1="196" x2="157" y2="236" class="stroke-line2" stroke-width="1.6" marker-end="url(#arrR)"/>
+          <text x="168" y="222" font-size="11" class="s-dim">奪氫</text>
+          <g>
+            <rect x="54" y="240" width="206" height="52" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="54" y="240" width="206" height="52" rx="10" class="stroke-line2" fill="none"/>
+            <text x="157" y="262" text-anchor="middle" font-size="12.5" font-weight="700" class="s-red">L&#8226; 碳自由基</text>
+            <text x="157" y="280" text-anchor="middle" font-size="11" class="s-dim">相鄰 &#960; 鍵共振穩定</text>
+          </g>
+          <text x="157" y="330" text-anchor="middle" font-size="11.5" class="s-dim">LH + X&#8226; &#8594; L&#8226; + XH</text>
+          <text x="157" y="354" text-anchor="middle" font-size="11.5" class="s-mute">決定性步驟——鏈式時鐘啟動</text>
+
+          <!-- ================= 傳播 ================= -->
+          <!-- nodes -->
+          <g>
+            <rect x="384" y="120" width="110" height="44" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="384" y="120" width="110" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="439" y="148" text-anchor="middle" font-size="14" font-weight="700" class="s-red">L&#8226;</text>
+          </g>
+          <g>
+            <rect x="552" y="120" width="118" height="44" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="552" y="120" width="118" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="611" y="148" text-anchor="middle" font-size="14" font-weight="700" class="s-red">LOO&#8226;</text>
+          </g>
+          <g>
+            <rect x="552" y="250" width="118" height="44" rx="10" class="amber-f" fill-opacity="0.16"/>
+            <rect x="552" y="250" width="118" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="611" y="272" text-anchor="middle" font-size="13" font-weight="700" class="s-amber">LOOH</text>
+            <text x="611" y="287" text-anchor="middle" font-size="10" class="s-mute">主要一次產物</text>
+          </g>
+          <g>
+            <rect x="384" y="250" width="110" height="44" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="384" y="250" width="110" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="439" y="272" text-anchor="middle" font-size="13" font-weight="700" class="s-red">LO&#8226;</text>
+            <text x="439" y="287" text-anchor="middle" font-size="10" class="s-mute">烷氧自由基</text>
+          </g>
+
+          <!-- L• + O2 -> LOO• -->
+          <line x1="496" y1="142" x2="548" y2="142" class="stroke-line2" stroke-width="1.8" marker-end="url(#arrR)"/>
+          <text x="522" y="132" text-anchor="middle" font-size="11" class="s-dim">+ O&#8322;</text>
+          <text x="522" y="172" text-anchor="middle" font-size="10" class="s-mute">k &#8776; 10&#8312; M&#8315;&#185;s&#8315;&#185;</text>
+
+          <!-- LOO• + LH -> LOOH -->
+          <line x1="611" y1="166" x2="611" y2="246" class="stroke-line2" stroke-width="1.8" marker-end="url(#arrA)"/>
+          <text x="624" y="210" font-size="11" class="s-dim">+ LH &#8594; LOOH</text>
+          <text x="624" y="226" font-size="10" class="s-mute">氫轉移：產生新的 L&#8226;</text>
+
+          <!-- LOOH --Fenton--> LO• -->
+          <line x1="548" y1="272" x2="498" y2="272" class="stroke-line2" stroke-width="1.8" marker-end="url(#arrR)"/>
+          <text x="523" y="262" text-anchor="middle" font-size="10.5" class="s-red">+ Fe&#178;&#8314;</text>
+          <text x="523" y="310" text-anchor="middle" font-size="10" class="s-mute">芬頓：LOOH + Fe&#178;&#8314; &#8594; LO&#8226;</text>
+          <text x="523" y="324" text-anchor="middle" font-size="10" class="s-mute">+ OH&#8315; + Fe&#179;&#8314;</text>
+
+          <!-- LO• -> L•  (branching) -->
+          <path d="M 439 246 C 439 210 439 200 439 168" class="stroke-line2" stroke-width="1.6" stroke-dasharray="5 4" fill="none" marker-end="url(#arrR)"/>
+          <text x="372" y="212" font-size="10.5" class="s-red">分支</text>
+          <text x="372" y="226" font-size="10" class="s-mute">+ LH &#8594; L&#8226;</text>
+
+          <!-- recycle LOOH exit to products -->
+          <line x1="672" y1="272" x2="716" y2="272" class="stroke-line2" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrA)"/>
+          <text x="694" y="258" text-anchor="middle" font-size="10" class="s-mute">裂解</text>
+
+          <!-- cycle caption -->
+          <text x="527" y="368" text-anchor="middle" font-size="11.5" class="s-dim">每個引發因子可氧化數十至數百個脂質</text>
+          <text x="527" y="388" text-anchor="middle" font-size="11.5" class="s-mute">LOOH &#8594; MDA &#183; 4-HNE &#183; 丙烯醛 &#183; F&#8322;-異前列腺素</text>
+
+          <!-- ================= 終止 ================= -->
+          <text x="870" y="100" text-anchor="middle" font-size="11.5" class="s-dim">2 LOO&#8226; &#8594; LOOL + O&#8322;</text>
+          <text x="870" y="118" text-anchor="middle" font-size="10.5" class="s-mute">Russell 機制</text>
+          <text x="870" y="150" text-anchor="middle" font-size="11.5" class="s-dim">L&#8226; + L&#8226; &#8594; L&#8211;L &#183; 交聯</text>
+          <line x1="870" y1="170" x2="870" y2="196" class="stroke-line2" stroke-width="1.4" marker-end="url(#arrT)"/>
+          <g>
+            <rect x="774" y="200" width="192" height="58" rx="10" class="teal-f" fill-opacity="0.12"/>
+            <rect x="774" y="200" width="192" height="58" rx="10" class="stroke-line2" fill="none"/>
+            <text x="870" y="222" text-anchor="middle" font-size="12" font-weight="700" class="s-teal">維生素 E&#8211;OH</text>
+            <text x="870" y="240" text-anchor="middle" font-size="10.5" class="s-dim">LOO&#8226; &#8594; LOOH + 生育酚自由基&#8226;</text>
+          </g>
+          <text x="870" y="278" text-anchor="middle" font-size="10.5" class="s-mute">k &#8776; 10&#8310; M&#8315;&#185;s&#8315;&#185;——斷鏈型氫供體</text>
+          <line x1="870" y1="292" x2="870" y2="316" class="stroke-line2" stroke-width="1.4" marker-end="url(#arrT)"/>
+          <g>
+            <rect x="774" y="320" width="192" height="48" rx="10" class="teal-f" fill-opacity="0.12"/>
+            <rect x="774" y="320" width="192" height="48" rx="10" class="stroke-line2" fill="none"/>
+            <text x="870" y="340" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">抗壞血酸再生</text>
+            <text x="870" y="357" text-anchor="middle" font-size="10.5" class="s-dim">於膜—水介面再生 α-生育酚</text>
+          </g>
+          <text x="870" y="396" text-anchor="middle" font-size="11" class="s-mute">GPX4（未繪）：LOOH &#8594; LOH，與 GSH 偶聯</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 1 — 自由基鏈式反應。</b>
+        引發（左）：觸發自由基自 PUFA 抽取一個雙烯丙基氫原子，使該脂質進入氧化程序。
+        傳播（中）：L• → LOO• → LOOH ＋ 新 L• 的自我維持循環；LOOH 的芬頓分解（Fe²⁺）產出烷氧自由基，
+        分支出額外的鏈——即指數式放大的步驟。終止（右）：自由基重合，或由維生素 E／抗壞血酸組合截獲 LOO•。
+        反應常數引自知識庫脂質過氧化筆記。本圖為客戶端 SVG，使用 theme-01 調色盤 class——隨網站深／淺色切換自動重上色。</figcaption>
+    </figure>
+
+    <div class="callout red">
+      <span class="callout-tag">放大步驟——鐵為何是助燃劑</span>
+      <p>
+        LOOH 並非死路。經芬頓反應（LOOH + Fe²⁺ → LO• + OH⁻ + Fe³⁺），每個氫過氧化物都能鑄出一批新的
+        自由基池，將線性的鏈式傳播轉為指數式分支。這正是鐵死亡的機制樞紐——鐵依賴、自由基放大的
+        脂質過氧化——也是鐵螯合（去鐵胺）能中止整條級聯的原因。
+      </p>
+    </div>
+
+    <div class="callout" style="margin-top:16px;">
+      <span class="callout-tag">來源：Berrougui et al., Atherosclerosis 2009</span>
+      <p>
+        脂質過氧化的特徵是共軛二烯、脂質氫過氧化物、TBARS 與醛類的形成。在 LDL 中，PUFA 的氧化產生
+        共軛二烯（於 234 nm 測量）並改變 apoB 蛋白部分。在 HDL 中，脂質過氧化改變磷脂流動性、修飾
+        脂蛋白結構，並降低 PON1 活性。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 產物 ============ -->
+<section id="products">
+  <div class="wrap">
+    <h2>主要產物與反應性</h2>
+    <p class="lead">
+      一次產物是脂質氫過氧化物。它們的裂解與還原給出承載病理的二次產物——同時也是臨床生物標記面板。
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:22%;">標記物</th>
+            <th style="width:16%;">階段</th>
+            <th style="width:34%;">來源</th>
+            <th style="width:28%;">檢測</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>共軛二烯</b></td>
+            <td>一次 · 早期</td>
+            <td>PUFA 首次奪氫時的雙鍵重排</td>
+            <td>234 nm 紫外吸光</td>
+          </tr>
+          <tr>
+            <td><b>脂質氫過氧化物（LOOH）</b></td>
+            <td>一次</td>
+            <td>LOO• 自相鄰 PUFA 轉移氫原子——傳播反應的產物</td>
+            <td>FOX 法、碘量法；為 GPX4 與 PON1 的受質</td>
+          </tr>
+          <tr>
+            <td><b>丙二醛（MDA）</b></td>
+            <td>二次</td>
+            <td>含 ≥3 個雙鍵的 PUFA 裂解；前列腺素內過氧化物側反應</td>
+            <td>TBARS 測定（經典但非特異）；HPLC；M₁dG DNA 加合物</td>
+          </tr>
+          <tr>
+            <td><b>4-羥基壬烯醛（4-HNE）</b></td>
+            <td>二次</td>
+            <td>n-6 PUFA（花生四烯酸、亞麻油酸）裂解</td>
+            <td>HNE–蛋白加合物 ELISA／質譜</td>
+          </tr>
+          <tr>
+            <td><b>F₂-異前列腺素</b></td>
+            <td>二次 · 非酵素型</td>
+            <td>花生四烯酸的自由基過氧化——前列腺素樣異構物</td>
+            <td>GC-MS／LC-MS——體內標記的黃金標準</td>
+          </tr>
+          <tr>
+            <td><b>丙烯醛</b></td>
+            <td>二次</td>
+            <td>胺基酸與脂質氧化裂解；髓過氧化物酶途徑</td>
+            <td>蛋白加合物測定</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2" style="margin-top:22px;">
+      <div class="card">
+        <h3 style="color:var(--red);">醛類造成持久損傷</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          4-HNE 與 MDA 是親電體：與蛋白質的半胱胺酸、組胺酸、離胺酸殘基以及 DNA（M₁dG 病變）形成共價
+          加合物。脂質來源醛類對 apoB 的交聯是 oxLDL 形成的結構性步驟；4-HNE 加合星形膠質細胞的麩胺酸
+          轉運體 GLT-1（EAAT2）會削弱麩胺酸清除，開啟興奮性毒性的神經損傷路徑。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">低劑量 4-HNE 是訊號，不是毒素</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          低濃度下 4-HNE 活化 NRF2/ARE 保護途徑——上調麩胺酸合成、血紅素加氧酶-1 與第二相解毒系統的
+          適應性臂膀。因此脂質過氧化的產物光譜編碼了劑量：閾值之下是適應性訊號，之上是蛋白毒性與
+          基因毒性的加合作用。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 途徑 ============ -->
+<section id="pathways">
+  <div class="wrap">
+    <h2>酵素型與非酵素型路徑——以及 PUFA 結構的重要性</h2>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="card">
+        <h3 style="color:var(--purple);">酵素型過氧化</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          立體特異性的氧化還原酶將花生四烯酸導入定義明確的訊號產物。<b>脂氧合酶（LOX）</b>在特定位點
+          插入 O₂，產生白三烯與羥基二十碳四烯酸（HETEs）；<b>環氧合酶（COX-1／COX-2）</b>執行花生四烯酸
+          的雙加氧反應生成前列腺素 G₂，啟動前列腺素級聯。產物的位置與立體化學受控——為訊號用途而
+          調控的過氧化。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--red);">非酵素型過氧化</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          不受調控的自由基攻擊產生異構物混合物——花生四烯酸來源的異前列腺素。沒有酵素控制位置或立體
+          化學，這正是 F₂-異前列腺素能作為體內氧化損傷可靠生物標記的原因：其生成速率追蹤的是自由基
+          通量，而非酵素表現量。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">PUFA 易感性隨雙鍵數呈幾何級數上升</span>
+      <p>
+        雙烯丙基亞甲基是弱點。花生四烯酸（20:4, n-6）與二十二碳六烯酸（DHA, 22:6, n-3）帶有多個此類
+        位置；含六個雙鍵的 DHA 氧化易感性約為亞麻油酸（18:2）的 10 倍。神經元膜富含 DHA——這就是神經
+        組織對脂質過氧化級聯格外脆弱的原因，也是大腦濃集維生素 E 與縮醛磷脂作為犧牲性防護層的理由。
+      </p>
+    </div>
+
+    <h3 style="margin-top:30px;">受質池調控——酸性神經醯胺酶／Lands 循環軸</h3>
+    <p class="lead" style="margin-top:8px;">
+      過氧化需要受質，而細胞會調節膜磷脂中裝載多少可氧化的 PUFA。一項 2026 年研究（Soriano-Castell
+      et al., <i>Cell Death Dis</i>) 發現衰老細胞以錯誤的方式加載膜：酸性神經醯胺酶（ACase／ASAH1）在
+      複製性衰老的成纖維細胞中過度表現 5–20 倍，其神經醯胺分解代謝主動將可過氧化脂質送進雙層膜——
+      一條 GPX4／GSH／鐵非依賴的鐵死亡易感性途徑。
+    </p>
+
+    <div class="grid g2" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--purple);">Lands 循環的載入機制</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          神經醯胺的合成會將游離飽和／單元不飽和脂肪酸扣押遠離磷脂 PUFA。ACase 切割神經醯胺
+          （→ 鞘氨醇 ＋ 游離脂肪酸），釋出的 SFA／MUFA 進入 Lands 循環——被交換進膜磷脂的
+          <i>sn-2</i> 位，使含 PUFA 的種類（所有花生四烯酸磷脂，以及 PC-LA、PC-DHA、PE-DHA、PG-DHA）
+          富集。膜成為鐵依賴脂質過氧化的優先受質。以 ACase 基因沉默或 ARN14794 抑制可縮小 PL-PUFA 池，
+          保護細胞免於 RSL3 誘導的鐵死亡。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">獨立於經典角色群</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          ACase 基因沉默後細胞仍受保護——<i>儘管</i> GPX4 蛋白下降、GSH 上升（且保護力在 BSO 耗竭 GSH
+          後仍持續），易變鐵池與鐵蛋白也同步上升。儘管 PL-PUFA 減少，ACSL4 蛋白並未改變。ACase 作用於
+          所有這些因子的上游——它設定脂質過氧化受質池的大小，而不牽動 GPX4／GSH／Fe²⁺ 機器。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">經 SASP 的旁分泌擴散——與衰老清除悖論</span>
+      <p>
+        衰老細胞會「出口」脆弱性：SASP 細胞因子 IL-6 與 IL-8（以 2:1 比例可重現此效應）使鄰近增殖中的
+        細胞上調 ACase，提高其脂質過氧化與鐵死亡敏感性——一條 SASP → ACase → 促鐵死亡脂質圖譜的軸，
+        解釋了少數衰老細胞如何傷害整個組織。與此同時，ACase 的另一項產物鞘氨醇-1-磷酸（S1P）具抗凋亡
+        作用（衰老細胞抗凋亡途徑，SCAP）：讓衰老細胞存活的同一代謝轉變，也使它們易感鐵死亡。因此 ACase
+        抑制（ARN14794 約 100 nM；具腦穿透性的 ARN14974，79 nM；已在日本核准的卡莫氟，29 nM）扮演
+        <b>衰老調節型（senomorphic）</b>角色——移除鐵死亡易感性，同時保留衰老停滯與 SASP，
+        並可能一併保護旁分泌鄰居。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 疾病 ============ -->
+<section id="disease">
+  <div class="wrap">
+    <h2>生理與病理後果</h2>
+    <p class="lead">
+      過氧化將極性基團插入雙層膜的疏水核心：通透性上升、流動性漂移、融合傾向增加。下游方面，
+      醛類產物改寫蛋白質與 DNA 的化學。
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--red);">動脈粥樣硬化</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          LDL 脂質過氧化產生<b>氧化 LDL（oxLDL）</b>，經巨噬細胞清道夫受體（SR-A、CD36）不受調控地清除
+          → <b>泡沫細胞</b>。斑塊中被 4-HNE 修飾的蛋白活化 NF-κB，延續血管發炎。HDL 過氧化削弱膽固醇
+          外流並降低 PON1 活性——脂蛋白失去抗動脈粥樣硬化能力。LPO 標記物與斑塊進程相關。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">粒線體與細胞凋亡</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          心磷脂過氧化——由複合體 III 處的 ROS 驅動——使細胞色素 c 從內膜釋出，將細胞送入內在凋亡途徑。
+          氧化的心磷脂訊號也是粒線體自噬的提示：損傷感知把膜過氧化接到胞器清除上。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">鐵死亡</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          鐵依賴的脂質過氧化<i>就是</i>鐵死亡的執行機制——受調控的程式性壞死，可被自由基捕獲型抗氧化劑
+          （ferrostatin-1、liproxstatin-1）與鐵螯合劑阻斷，而非 caspase 抑制劑。ACSL4／LPCAT3 裝載可氧化
+          的 PUFA 磷脂；GPX4 是將其還原回去的守門人。受質供應本身也受調控——衰老相關的酸性神經醯胺酶
+          軸經 Lands 循環為膜加載 PUFA 磷脂（見「途徑」）。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--blue);">神經退化</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          阿茲海默症、巴金森氏症與 ALS 的腦脊髓液與組織中 MDA、4-HNE 升高，標記神經元損傷。
+          4-HNE 加合星形膠質細胞的 GLT-1（EAAT2）削弱麩胺酸清除並造成興奮性毒性；醛類加合 tau
+          促進寡聚合體化。富含 DHA 的膜解釋了這種選擇性脆弱。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--red);">兒茶酚胺驅動的心肌 LPO</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          兒茶酚胺自氧化是專一的引發來源：腎上腺素氧化產生超氧陰離子與 H₂O₂ → 芬頓 •OH → 心肌膜過氧化，
+          離子恆定失衡與收縮功能障礙。氨基色素（aminochromes，如腎上腺素紅）藉由與 NADPH 進行氧化還原
+          循環並消耗穀胱甘肽進一步放大損傷——涉及兒茶酚胺誘導性心肌病變與應激性心肌病變（章魚壺心肌症）。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--green);">糖化交互作用</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          脂質過氧化衍生的二羰基物供應晚期糖化終產物（AGE）池，葡萄糖自氧化則反向而行——過氧化與糖化
+          共享自由基與羰基化學，其產物匯聚於 RAGE 驅動的發炎與蛋白質交聯。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout red" style="margin-top:22px;">
+      <span class="callout-tag">重點結論</span>
+      <p>
+        脂質過氧化是氧化壓力從氧化還原比值變成結構損傷的那一刻：一個會自我傳播的膜化學問題，
+        把持久的醛類加合物寫進蛋白質與 DNA，並——透過 oxLDL 與鐵死亡——為知識庫中兩條最重要的
+        退化性疾病主軸（動脈粥樣硬化與鐵依賴性細胞死亡）提供最貼近的執行機制。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 腎上腺素紅橋接 ============ -->
+<section id="adrenochrome">
+  <div class="wrap">
+    <h2>推測性橋接——腎上腺素紅作為雙重鐵死亡誘導因子</h2>
+    <p class="lead">
+      一份任務產出分析（Research Scientist agent，2026 年 7 月 17 日）追蹤出一條化學上直接、歷史上卻
+      連結不足的路徑：從兒茶酚胺氧化到脂質過氧化——並提出第二擊：腎上腺素紅可能同時解除 GPX4 的武裝。
+      以下自由基化學在知識庫中已有文獻記載；GPX4 抑制那一臂則是<b style="color:var(--red)">假說，尚無實驗驗證</b>。
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--red);">氧化還原循環的<i>鄰</i>醌</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          腎上腺素紅在「腎上腺素紅 ↔ 半醌自由基 ↔ 無色腎上腺素紅（leuco-adrenochrome）」之間穿梭。
+          每一循環中，半醌自由基把一個電子丟給 O₂ → 超氧陰離子（SOD → H₂O₂ → 芬頓 •OH）。
+          此循環是<b>催化性、非化學計量</b>的：只要 NADPH 與 GSH 持續將其還原，一個分子就能鑄出許多
+          ROS 當量——是放大引擎，不是一次性氧化劑。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">GSH 反饋螺旋</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          脂質過氧化產物（4-HNE、MDA）損傷粒線體並耗竭穀胱甘肽；GSH 耗竭減緩腎上腺素紅的解毒；
+          更多腎上腺素紅持續存在並循環 → 更多 •OH → 更多過氧化。引發來源與修復缺口彼此餵養——
+          這正是知識庫兒茶酚胺章節所載的螺旋。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">多巴胺色素的平行案例</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          黑質中多巴胺氧化產生多巴胺色素（dopaminochrome）——同樣的<i>鄰</i>醌氧化還原循環——
+          並隨年齡在神經黑色素顆粒中累積。這顯示心臟的兒茶酚胺路徑可能映照著巴金森氏症中多巴胺性
+          神經元的喪失：兒茶酚胺<i>鄰</i>醌 → 脂質過氧化 → 細胞死亡，橫跨兩種組織。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout red" style="margin-top:22px;">
+      <span class="callout-tag">雙重機制假說——推測性</span>
+      <p>
+        腎上腺素紅可能以兩擊同時的方式，在兒茶酚胺高周轉的細胞（心肌細胞、多巴胺性神經元）中誘導
+        鐵死亡：（1）氧化還原循環供給致命訊號——•OH 引發的磷脂過氧化；（2）作為親電性<i>鄰</i>醌，
+        它可能芳基化 GPX4 的硒代半胱胺酸活性位點（類似 RSL3），解除剎車。實質上是催化性鐵死亡
+        誘導因子：一邊放火、一邊切斷水管。建議的檢測面板：C11-BODIPY 氧化、TBARS、重組 GPX4 活性，
+        以及救援矩陣（ferrostatin-1、liproxstatin-1、necrostatin-1、Z-VAD-FMK）以判定死亡型態。
+        臨床上可能涉及的情境：兒茶酚胺誘導性心肌病變、章魚壺心肌症，以及缺血再灌流損傷——後者中
+        嗜中性球釋出的骨髓過氧化物酶（MPO）在再灌流的心肌內將局部高濃度腎上腺素轉為腎上腺素紅。
+      </p>
+    </div>
+
+    <div class="callout" style="margin-top:16px;">
+      <span class="callout-tag">圖譜缺口即文獻缺口</span>
+      <p>
+        在橋接分析之前，知識圖譜中 Adrenochrome → Lipid Peroxidation 只有一條迂迴的 4 跳路徑
+        （Compound C → AMPK → sirtuins 綜述）。直接的化學邊——氧化還原循環 → 超氧陰離子 → H₂O₂ →
+        •OH → 雙烯丙基奪氫——在知識庫中有記載卻連結不足：這是兒茶酚胺藥理學與氧化壓力生物學兩套
+        文獻鮮少互相引用所留下的邊界產物。以實驗補上它將具新意。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 防禦 ============ -->
+<section id="defense">
+  <div class="wrap">
+    <h2>抑制——防禦網絡</h2>
+    <p class="lead">
+      終止化學可以被招募。防禦作用於三個層級：攔截鏈載體（自由基捕獲）、清除氫過氧化物產物，
+      以及餓死芬頓助燃劑。
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:22%;">防禦因子</th>
+            <th style="width:42%;">機制</th>
+            <th style="width:36%;">情境</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>維生素 E（α-生育酚）</b></td>
+            <td>斷鏈型氫供體：LOO• → LOOH ＋ 穩定的生育酚自由基（k ≈ 10⁶ M⁻¹s⁻¹）</td>
+            <td>脂蛋白與膜的內源性抗氧化劑</td>
+          </tr>
+          <tr>
+            <td><b>抗壞血酸</b></td>
+            <td>於膜—水介面將 α-生育酚自其生育酚自由基再生</td>
+            <td>維生素 E 循環的水溶性夥伴</td>
+          </tr>
+          <tr>
+            <td><b>穀胱甘肽過氧化物酶（GPX4）</b></td>
+            <td>還原脂質氫過氧化物（LOOH → LOH），與 GSH 偶聯——移除芬頓的受質</td>
+            <td>鐵死亡的守門人；其喪失使膜走向過氧化</td>
+          </tr>
+          <tr>
+            <td><b>PON1</b></td>
+            <td>HDL 相關酶，水解脂質過氧化物</td>
+            <td>維持 HDL 流動性、脂蛋白結構與膽固醇外流</td>
+          </tr>
+          <tr>
+            <td><b>白藜蘆醇</b></td>
+            <td>抑制銅離子與自由基誘導的 LDL、HDL 脂質過氧化</td>
+            <td>抗動脈粥樣硬化多酚（Berrougui et al., <i>Atherosclerosis</i> 2009）</td>
+          </tr>
+          <tr>
+            <td><b>Ferrostatin-1／liproxstatin-1</b></td>
+            <td>嵌入膜中的自由基捕獲型抗氧化劑——在脂相中淬滅 LOO•</td>
+            <td>實驗用鐵死亡抑制劑；機制研究中的救援標記</td>
+          </tr>
+          <tr>
+            <td><b>去鐵胺</b></td>
+            <td>鐵螯合——阻斷 LOOH 經芬頓轉為 LO•，使鏈分支崩解</td>
+            <td>鐵死亡阻斷；鐵過載狀態的治療性鐵螯合</td>
+          </tr>
+          <tr>
+            <td><b>類胡蘿蔔素（β-胡蘿蔔素、葉黃素、玉米黃質）</b></td>
+            <td>淬滅單線態氧（¹O₂），並在膜脂中耗散過剩的輻射／氧化能量</td>
+            <td>果肉油與種子油的親脂性光保護劑；飲食防護的第一線</td>
+          </tr>
+          <tr>
+            <td><b>輔酶 Q10（泛醇）</b></td>
+            <td>直接在脂質膜內將氧化的維生素 E 再生回活性型式</td>
+            <td>粒線體與脂蛋白膜；與抗壞血酸共用同一再生迴路</td>
+          </tr>
+          <tr>
+            <td><b>酸性神經醯胺酶抑制劑（ARN14794、ARN14974、卡莫氟）</b></td>
+            <td>縮小膜上 PUFA 磷脂受質池——神經醯胺分解不再供給 Lands 循環的 PUFA 載入</td>
+            <td>作用於 GPX4／GSH／鐵的上游；衰老調節型保護衰老細胞與 SASP 暴露的鄰居（Soriano-Castell et al. 2026）</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 id="dietary" style="margin-top:30px;">飲食親脂防禦——外源層級</h3>
+    <p class="lead" style="margin-top:8px;">
+      對脂質過氧化的結構性防護需要<i>住在雙層膜裡</i>的防禦因子——隨飲食脂質吸收、併入膜中的脂溶性
+      化合物，能在鏈式反應所在的同一相中攔截 LOO• 或淬滅 ¹O₂。以此指標（親脂 ORAC、類胡蘿蔔素與
+      生育酚密度、以功能性脂質基質共同輸送）衡量，果肉油的排名與水溶性抗氧化劑排行榜截然不同
+      （任務產出：女王棕生化營養素檔案，2026 年 9 月 23 日）。
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--amber);">第一級 · 精英／紀錄保持者</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b>布里提棕櫚</b>（<i>Mauritia flexuosa</i>）——類胡蘿蔔素密度為女王棕果肉油的 5–10 倍，
+          β-胡蘿蔔素含量居植物界最高之列。<b>紅棕櫚油</b>（<i>Elaeis guineensis</i>）——生育三烯酚
+          的膜性神經保護效率據報為標準 α-生育酚的 40–60 倍。<b>沙棘</b>——頂級親脂 ORAC，
+          並含罕見的棕櫚油酸（omega-7）。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">第二級 · 高效價同儕（女王棕在此級）</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b>女王棕</b>（<i>Syagrus romanzoffiana</i>，jerivá）果肉油：總類胡蘿蔔素高達約 1,200 μg/g
+          （以 β-胡蘿蔔素為主）、α-生育酚超過 320 mg/kg——與油酸／亞麻油酸載體脂質共同輸送，
+          防禦因子已溶入瞄準膜相的組分中。同級：果凍棕櫚、玫瑰果、巴西莓（巴西莓的親水花青素領先；
+          女王棕在抗單線態氧驅動過氧化的維生素 A 前體類胡蘿蔔素防護上勝出）。
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--dim);">第三級 · 一般農藝作物</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          胡蘿蔔與甘薯的 β-胡蘿蔔素重量比更高，但缺乏內在脂質基質——需要額外膳食脂肪才能有效吸收
+          與併入膜中。一般栽培水果（蘋果、李子、葡萄）富含水溶性多酚，但截獲 LOO• 的親脂能力薄弱。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout teal" style="margin-top:22px;">
+      <span class="callout-tag">結構性防護守住了什麼</span>
+      <p>
+        保衛膜脂就是組織層級的縱深防禦：完整的雙層膜維持離子泵（Na⁺/K⁺- 與 Ca²⁺-ATPase）的電化學
+        梯度——神經與肌肉以此運作；受保護的心磷脂維持嵴褶與電子傳遞鏈超複合體的對位（解偶聯與
+        mPTP 開孔是其失效模式）；氧化脂質與 4-HNE 無從成為驅動 TLR4／NF-κB 與 NLRP3–IL-1β 發炎的
+        DAMP 訊號；血管膜維持 eNOS 偶聯的 NO 以利血管擴張；富含 DHA 的神經元膜抵抗 4-HNE 對
+        類澱粉蛋白 β、τ 與 α-突觸核蛋白的加合——那會加速錯誤摺疊。GPX4 與維生素 E 是內源層級；
+        飲食來源的生育酚與類胡蘿蔔素把同一套化學外源性地延伸出去。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 資料來源 ============ -->
+<footer id="sources">
+  <div class="wrap">
+    <h2 style="font-size:1.1rem;">資料來源與方法</h2>
+    <p style="margin-top:10px;">主要來源：llm-wiki-jk 知識庫筆記
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Lipid%20Peroxidation.md"><code>src/notes/oxidative-stress/Lipid Peroxidation.md</code></a>
+      （chemical-process／oxidative-stress 綜述，更新於 2026-09-23）· 內嵌來源引文：Berrougui H et al.
+      <i>Resveratrol as atheroprotective compound</i>, Atherosclerosis 2009，經知識庫文獻筆記
+      <code>_document_ - berrougui2009_resveratrol_as_atheroprotective_compound</code>。</p>
+    <p>收錄之任務產出：
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"><code>task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md</code></a>
+      （女王棕生化營養素檔案——Gemini 對話匯出，2026-09-23；飲食親脂防禦分級與結構性防護框架）·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>
+      （腎上腺素紅 → 脂質過氧化機制橋接——Research Scientist agent，2026-07-17；雙重鐵死亡假說與圖譜缺口分析）·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md"><code>task_output_acid_ceramidase_27_July_2026.md</code></a>
+      （酸性神經醯胺酶與鐵死亡、細胞衰老——Soriano-Castell et al., <i>Cell Death Dis</i> 2026 之研究綜述，
+      doi:<a href="https://doi.org/10.1038/s41419-026-09108-y" target="_blank" rel="noopener">10.1038/s41419-026-09108-y</a>；
+      受質池／Lands 循環軸、SASP 旁分泌傳播、衰老調節型抑制劑面板）。</p>
+    <p>相關知識庫筆記：[[Lipid Peroxidation]]、[[Oxidative Stress]]、[[Hydroxyl Radicals]]、[[Peroxynitrite]]、
+      [[Lipid peroxyl radical]]、[[Lipid hydroperoxide]]、[[Polyunsaturated fatty acids]]、[[Malondialdehyde]]、
+      [[4-Hydroxynonenal]]、[[F2-Isoprostanes]]、[[Conjugated Dienes]]、[[Arachidonic acid]]、
+      [[Docosahexaenoic acid]]、[[Vitamin E]]、[[Ascorbic Acid]]、[[Glutathione]]、[[Coenzyme Q10]]、
+      [[PON1]]、[[Resveratrol]]、[[Ferroptosis]]、[[GPX4]]、[[RSL3]]、[[Ferrostatin-1]]、[[Liproxstatin-1]]、
+      [[Deferoxamine]]、[[C11-BODIPY]]、[[Oxidized LDL]]、[[LDL]]、[[HDL]]、[[Foam Cells]]、[[Macrophages]]、
+      [[Cholesterol Efflux]]、[[Atherosclerosis]]、[[Mitochondria]]、[[Apoptosis]]、[[NF-κB]]、
+      [[Adrenochrome]]、[[Leuco-adrenochrome]]、[[Epinephrine]]、[[Hemoglobin]]、[[Dopaminochrome]]、
+      [[Dopamine]]、[[Neuromelanin]]、[[Catecholamine-induced cardiomyopathy]]、
+      [[Takotsubo Cardiomyopathy]]、[[Ischemia-reperfusion Injury]]、[[Myeloperoxidase]]、
+      [[Alzheimer's Disease]]、[[Parkinson's Disease]]、[[Amyotrophic Lateral Sclerosis]]、
+      [[Acid ceramidase]]、[[ASAH1]]、[[Ceramide]]、[[Sphingosine-1-phosphate]]、[[Lands cycle]]、
+      [[ACSL4]]、[[Senescence]]、[[SASP]]、[[ARN14794]]、[[ARN14974]]、[[Carmofur]]、[[RSL3]]、
+      [[Lipoxygenases]]、[[Cyclooxygenases]]、[[Leukotrienes]]、[[Isoprostanes]]、[[Queen Palm]]。</p>
+    <p>知識圖譜：<code>graphify-out/graph.json</code>（triples） · <code>wiki-out/graph.json</code>（wikilinks） ·
+      圖 1 為客戶端 SVG，使用 theme-01 的 CSS 變數——無外部依賴，隨網站深／淺色切換自動重上色，可離線運作。</p>
+    <p style="margin-top:8px; color:var(--mute);">資訊性綜述，非醫療建議。速率常數與相對氧化易感性數字
+      （DHA 約為亞麻油酸的 10 倍）引自知識庫筆記；引發／傳播／終止示意圖為標準自由基鏈式化學的編輯性
+      重述，並非實驗數據。腎上腺素紅雙重鐵死亡機制（GPX4 硒代半胱胺酸芳基化）為橋接任務產出中的
+      <b>推測性假說</b>，尚無實驗驗證。女王棕營養數字與親脂防禦分級源自 Gemini 對話匯出（任務產出）——
+      數字僅供參考，非經確證的成分分析數據。</p>
+  </div>
+</footer>
+
+<div id="netTip"></div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
+</body>
+</html>

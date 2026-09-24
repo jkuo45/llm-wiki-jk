@@ -654,4 +654,22 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/caspases-kinases-sirtuins-interaction.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/caspases-kinases-sirtuins-interaction.html"/>
   </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html"/>
+  </url>
 </urlset>
