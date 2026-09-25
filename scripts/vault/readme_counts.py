@@ -136,8 +136,14 @@ def parse_frontmatter(filepath):
                 props[key] = value.strip("\"'") if value else []
         elif key is not None:
             item = re.sub(r"^-\s+", "", stripped).rstrip(",").strip("\"'")
-            if isinstance(props[key], list) and item:
+            if not item:
+                continue
+            if isinstance(props[key], list):
                 props[key].append(item)
+            elif isinstance(props[key], str):
+                # Folded multi-line scalar (description wrapped across source
+                # lines): join continuation lines instead of dropping them.
+                props[key] = (props[key] + " " + item).strip()
     return props
 
 
@@ -308,6 +314,242 @@ def build_web_tasks(task_data, args):
         f"Wrote {out_path} ({n_tasks} tasks, {copied} files copied to {args.web_tasks_dir}/)"
     )
 
+
+# --- Web artifacts: wiki notes for the reader panel ---------------------------
+# Mirror of the task-output flow above, capped at --wiki-limit entries: the top
+# entity notes by newest created/updated are registered in
+# web/public/data/wiki.json and copied into web/public/wiki/en-US/ (wiped + regenerated
+# each run). web/public/wiki/zh-TW is hand-maintained (translations are stored
+# web-only) and must survive rebuilds, exactly like tasks zh-TW.
+# Entities only: README/index and _document_* notes are excluded from the feed.
+
+ISO_LINE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T")
+
+
+def scan_web_zh_wiki(args):
+    """Scan hand-maintained zh-TW translations in web/public/wiki/zh-TW/.
+
+    Same contract as tasks: discovered at their serving location, registered
+    without a copy step, and never wiped by a rebuild.
+    """
+    out = []
+    zh_dir = os.path.join(args.web_wiki_dir, "zh-TW")
+    if not os.path.isdir(zh_dir):
+        return out
+    for dirpath, dirnames, filenames in os.walk(zh_dir):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fname in sorted(filenames):
+            if fname.endswith(".md") and not fname.startswith("."):
+                fpath = os.path.join(dirpath, fname)
+                out.append({
+                    "datetime": datetime.fromtimestamp(os.path.getmtime(fpath)).astimezone(),
+                    "path": fpath,
+                })
+    return out
+
+
+def fm_text(value):
+    """Frontmatter value as one string (joined when the parser folded a list)."""
+    if isinstance(value, list):
+        return " ".join(str(v) for v in value)
+    return str(value or "")
+
+
+def scan_notes_for_web(notes_dir):
+    """Entity-note .md files eligible for the wiki reader feed."""
+    rows = []
+    for dirpath, dirnames, filenames in os.walk(notes_dir):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fname in sorted(filenames):
+            if not fname.endswith(".md") or fname.startswith("."):
+                continue
+            if fname.lower() in ("readme.md", "index.md") or fname.startswith("_document_"):
+                continue
+            fpath = os.path.join(dirpath, fname)
+            rows.append({
+                "path": fpath,
+                "datetime": datetime.fromtimestamp(os.path.getmtime(fpath)).astimezone(),
+            })
+    return rows
+
+
+def batch_git_dates(subdir, repo_root):
+    """Map of repo-relative path -> last commit date from ONE `git log` pass.
+
+    Newest-first log, so the first date seen for a path wins. Used only for
+    notes missing both frontmatter dates; git failure falls back to mtime.
+    """
+    dates = {}
+    try:
+        result = subprocess.run(
+            ["git", "log", "--format=%aI", "--name-only", "--", subdir],
+            capture_output=True,
+            text=True,
+            cwd=repo_root,
+        )
+        if result.returncode != 0:
+            return dates
+        cur = None
+        for line in result.stdout.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            if ISO_LINE_RE.match(line):
+                cur = line
+            elif cur and line not in dates:
+                dates[line] = cur
+    except Exception:
+        pass
+    return dates
+
+
+def build_web_wiki(note_rows, args, repo_root):
+    """Emit web/public/data/wiki.json and copy the selected notes into web/public/wiki/en-US/."""
+    en_dir = os.path.join(args.web_wiki_dir, "en-US")
+    if os.path.isdir(en_dir):
+        shutil.rmtree(en_dir)
+    os.makedirs(en_dir, exist_ok=True)
+
+    # Resolve dates: frontmatter created/updated first, then git, then mtime.
+    resolved = []
+    for n in note_rows:
+        fm = parse_frontmatter(n["path"])
+        resolved.append({
+            "src": n,
+            "fm": fm,
+            "created_dt": parse_iso_date(fm.get("created")),
+            "updated_dt": parse_iso_date(fm.get("updated")),
+        })
+    missing = [r for r in resolved if r["created_dt"] is None and r["updated_dt"] is None]
+    git_map = batch_git_dates(args.notes_dir, repo_root) if missing else {}
+    for r in resolved:
+        if r["created_dt"] is None and r["updated_dt"] is None:
+            iso = git_map.get(os.path.relpath(r["src"]["path"], "."))
+            fb = r["src"]["datetime"]
+            if iso:
+                try:
+                    fb = datetime.fromisoformat(iso).astimezone()
+                except ValueError:
+                    pass
+            r["created_dt"] = r["updated_dt"] = fb
+        elif r["created_dt"] is None:
+            r["created_dt"] = r["updated_dt"]
+        elif r["updated_dt"] is None:
+            r["updated_dt"] = r["created_dt"]
+
+    # Rank by newest created/updated, keep the top --wiki-limit. The cap bounds
+    # the reader dropdown, the EN copies on disk, and the hand-maintained
+    # zh-TW set (translations only need to cover the same capped notes).
+    ranked = sorted(
+        resolved,
+        key=lambda r: max(r["created_dt"], r["updated_dt"]),
+        reverse=True,
+    )[: args.wiki_limit]
+
+    groups = OrderedDict()
+    ranks = {}
+    copied = 0
+    for r in ranked:
+        fm = r["fm"]
+        basename = os.path.basename(r["src"]["path"])
+        stem = re.sub(r"\.md$", "", basename)
+        entry = {
+            "title": fm_text(fm.get("title")) or stem,
+            "description": fm_text(fm.get("description")),
+            "created": r["created_dt"].date().isoformat(),
+            "updated": r["updated_dt"].date().isoformat(),
+            "tags": fm.get("tags") or [],
+            "filename": basename,
+        }
+        rel = os.path.relpath(r["src"]["path"], args.notes_dir)
+        dest_rel = os.path.join("en-US", rel)
+        entry["path"] = f"wiki/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
+        group = groups.setdefault(stem, {"id": stem, "langs": {}})
+        group["langs"]["en-US"] = entry
+        ranks[stem] = max(r["created_dt"], r["updated_dt"])
+        if str(fm.get("starred", "")).lower() == "true":
+            group["starred"] = True
+        dest_path = os.path.join(args.web_wiki_dir, dest_rel)
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+        try:
+            shutil.copy2(r["src"]["path"], dest_path)
+            copied += 1
+        except OSError as e:
+            print(f"Warning: could not copy {r['src']['path']}: {e}")
+
+    # Hand-maintained zh-TW translations (web-only) join their EN group by
+    # filename; notes outside the capped selection are ignored.
+    for z in scan_web_zh_wiki(args):
+        basename = os.path.basename(z["path"])
+        stem = re.sub(r"\.md$", "", basename)
+        group = groups.get(stem)
+        if group is None:
+            continue
+        fm = parse_frontmatter(z["path"])
+        created_dt = parse_iso_date(fm.get("created")) or z["datetime"]
+        updated_dt = parse_iso_date(fm.get("updated")) or z["datetime"]
+        rel = os.path.relpath(z["path"], args.web_wiki_dir)
+        group["langs"]["zh-TW"] = {
+            "title": fm_text(fm.get("title")) or stem,
+            "description": fm_text(fm.get("description")),
+            "created": created_dt.date().isoformat(),
+            "updated": updated_dt.date().isoformat(),
+            "tags": fm.get("tags") or [],
+            "filename": basename,
+            "path": f"wiki/{urllib.parse.quote(rel.replace(os.sep, '/'))}",
+        }
+        if str(fm.get("starred", "")).lower() == "true":
+            group["starred"] = True
+
+    epoch = datetime.fromtimestamp(0).astimezone()
+    ordered = sorted(
+        groups.values(),
+        key=lambda g: ranks.get(g["id"], epoch),
+        reverse=True,
+    )
+    n_notes = len(ordered)  # before the index pseudo-entry
+    # Index pseudo-entry (no markdown behind it): opened when the reader's
+    # Wiki tab is clicked. Empty dates keep it out of the recency sort.
+    ordered.insert(
+        0,
+        {
+            "id": "wiki-index",
+            "kind": "wiki",
+            "active": True,
+            "langs": {
+                "en-US": {
+                    "title": "[index] wiki notes",
+                    "description": "Index of the most recently created/updated wiki notes.",
+                    "created": "",
+                    "updated": "",
+                    "tags": [],
+                    "path": "pages/wiki-index.html",
+                },
+                "zh-TW": {
+                    "title": "Wiki 筆記索引",
+                    "description": "最近建立／更新的 wiki 筆記索引。",
+                    "created": "",
+                    "updated": "",
+                    "tags": [],
+                    "path": "pages/wiki-index.html",
+                },
+            },
+        },
+    )
+    os.makedirs(args.web_data_dir, exist_ok=True)
+    out_path = os.path.join(args.web_data_dir, "wiki.json")
+    payload = {
+        "generated": get_timestamp(),
+        "wiki": ordered,
+    }
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(
+        f"Wrote {out_path} ({n_notes} notes, {copied} files copied to {args.web_wiki_dir}/)"
+    )
+
+
 def read_env_file(path):
     """Parse simple KEY=VALUE lines from a .env file into a dict."""
     env = {}
@@ -352,6 +594,17 @@ def main():
         "--web_tasks_dir",
         default="web/public/tasks",
         help="Directory task markdown is copied to for the reader (default: web/public/tasks)",
+    )
+    parser.add_argument(
+        "--web_wiki_dir",
+        default="web/public/wiki",
+        help="Directory wiki-note markdown is copied to for the reader (default: web/public/wiki)",
+    )
+    parser.add_argument(
+        "--wiki-limit",
+        type=int,
+        default=30,
+        help="Max wiki notes in the reader feed / translation batch (default: 30)",
     )
     parser.add_argument(
         "--skip-web",
@@ -520,6 +773,9 @@ def main():
         # Hand-maintained zh-TW translations live web-only under
         # web/public/tasks/zh-TW/; register them alongside the src/tasks scan.
         build_web_tasks(task_data + scan_web_zh_tasks(args), args)
+        # Wiki feed: top --wiki-limit entity notes -> wiki.json + en-US copies.
+        # zh-TW joins via web/public/wiki/zh-TW (hand-maintained, like tasks).
+        build_web_wiki(scan_notes_for_web(notes_dir), args, repo_root)
 
     # Prepare new content
     new_timestamp = get_timestamp()

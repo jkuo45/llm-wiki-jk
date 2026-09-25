@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 07:13 AM PDT",
+  "generated": "25_SEP_2026 08:43 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -1796,7 +1796,7 @@
       "langs": {
         "en-US": {
           "title": "Male Biology as Distributed Topology vs Centralized Estrogen Hub",
-          "description": ">",
+          "description": "Companion to Gender-Specific Attributes audit (02_SEP_2026). Establishes the distributed male topology — AR + PARP-1/AIF + single-X vulnerability + LOY — against the centralized female E2→ER hub across sirtuins, redox, apoptosis, senescence, autophagy, NAD+, NF-kB telomeres, and cancer. Synthesizes vault content with peer-reviewed web research.",
           "created": "2026-09-05",
           "updated": "2026-09-05",
           "tags": [
@@ -1816,7 +1816,7 @@
         },
         "zh-TW": {
           "title": "男性生物學即分散式拓撲 vs 集中式雌激素樞紐",
-          "description": ">",
+          "description": "性別特異屬性稽核（02_SEP_2026）的姊妹篇。 確立分散式男性拓撲——AR + PARP-1/AIF + 單一 X 染色體脆弱性 + LOY——對照集中式女性 E2→ER 樞紐， 橫跨 sirtuins、氧化還原、細胞凋亡、衰老、自噬、NAD+、NF-kB、 端粒與癌症。綜合 vault 內容與經同儕審查的網路研究。",
           "created": "2026-09-05",
           "updated": "2026-09-05",
           "tags": [
@@ -1919,7 +1919,7 @@
       "langs": {
         "en-US": {
           "title": "Gender-Specific Attributes: Primary Vault Topics",
-          "description": ">",
+          "description": "> Comprehensive audit of sex- and gender-dependent differences across the wiki vault's primary topic areas: sirtuins, MnSOD, thioredoxin-1, caspases/apoptosis, senescence/SASP autophagy/mTOR/AMPK, NAD+ metabolism, NF-κB/inflammation, telomere biology, and cancer. Synthesizes vault content with peer-reviewed web research.",
           "created": "2026-09-02",
           "updated": "2026-09-02",
           "tags": [
@@ -1939,7 +1939,7 @@
         },
         "zh-TW": {
           "title": "性別特異屬性：vault 主要主題",
-          "description": ">",
+          "description": "> 針對 wiki vault 主要主題領域中，性別（sex）與性別認同（gender）依賴性差異之全面稽核：sirtuins、MnSOD、硫氧還蛋白-1、caspase／細胞凋亡、衰老／SASP、 自噬／mTOR／AMPK、NAD+ 代謝、NF-κB／發炎、端粒生物學與癌症。綜合 vault 內容與經同儕審查的網路研究。",
           "created": "2026-09-02",
           "updated": "2026-09-02",
           "tags": [
@@ -4549,7 +4549,7 @@
       "langs": {
         "en-US": {
           "title": "SASP-Remodeling Aminochrome Complex",
-          "description": "The SASP-Remodeling Aminochrome Complex (SRAC) is a sequential",
+          "description": "The SASP-Remodeling Aminochrome Complex (SRAC) is a sequential senomorphic-senolytic strategy using AMM, methylene blue, rapamycin, fisetin and GlyNAC to reprogram the senescent phenotype and mitigate inflammaging.",
           "created": "2026-07-04",
           "updated": "2026-07-09",
           "tags": [
@@ -4613,7 +4613,7 @@
       "langs": {
         "en-US": {
           "title": "Mitohormetic Redox-Relay",
-          "description": "The Mitohormetic Redox-Relay (MRR) is a therapeutic strategy designed",
+          "description": "The Mitohormetic Redox-Relay (MRR) is a therapeutic strategy designed to address mitochondrial dysfunction by using a controlled, low-amplitude oxidative pulse to trigger adaptive stress respon...",
           "created": "2026-07-04",
           "updated": "2026-07-07",
           "tags": [

@@ -1,0 +1,970 @@
+{
+  "generated": "25_SEP_2026 08:43 AM PDT",
+  "wiki": [
+    {
+      "id": "wiki-index",
+      "kind": "wiki",
+      "active": true,
+      "langs": {
+        "en-US": {
+          "title": "[index] wiki notes",
+          "description": "Index of the most recently created/updated wiki notes.",
+          "created": "",
+          "updated": "",
+          "tags": [],
+          "path": "pages/wiki-index.html"
+        },
+        "zh-TW": {
+          "title": "Wiki 筆記索引",
+          "description": "最近建立／更新的 wiki 筆記索引。",
+          "created": "",
+          "updated": "",
+          "tags": [],
+          "path": "pages/wiki-index.html"
+        }
+      }
+    },
+    {
+      "id": "Glutathione",
+      "langs": {
+        "en-US": {
+          "title": "Glutathione",
+          "description": "Glutathione (GSH) is the most abundant endogenous thiol antioxidant, a tripeptide of glutamate, cysteine, and glycine that buffers cellular redox state, reduces peroxides via GPX enzymes, and conjugates electrophiles for excretion.",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "antioxidant",
+            "redox-signaling",
+            "peptide"
+          ],
+          "filename": "Glutathione.md",
+          "path": "wiki/en-US/_link/Glutathione.md"
+        },
+        "zh-TW": {
+          "title": "Glutathione",
+          "description": "Glutathione（GSH）是含量最豐富的內源性硫醇抗氧化劑，為由麩胺酸、半胱胺酸與甘胺酸組成的三肽，能緩衝細胞氧化還原狀態、透過 GPX 酶還原過氧化物，並與親電子物質結合以排出體外。",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "antioxidant",
+            "redox-signaling",
+            "peptide"
+          ],
+          "filename": "Glutathione.md",
+          "path": "wiki/zh-TW/_link/Glutathione.md"
+        }
+      }
+    },
+    {
+      "id": "Hydroxyeicosatetraenoic acids",
+      "langs": {
+        "en-US": {
+          "title": "Hydroxyeicosatetraenoic acids",
+          "description": "HETEs are monohydroxylated derivatives of arachidonic acid produced by lipoxygenases, cytochrome P450 enzymes, or non-enzymatic lipid peroxidation; bioactive oxylipins and markers of oxidative stress.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "eicosanoid",
+            "oxidative-stress",
+            "signaling-molecule"
+          ],
+          "filename": "Hydroxyeicosatetraenoic acids.md",
+          "path": "wiki/en-US/_link/Hydroxyeicosatetraenoic%20acids.md"
+        },
+        "zh-TW": {
+          "title": "羥基二十碳四烯酸",
+          "description": "HETEs 為花生四烯酸（arachidonic acid）的單羥基化衍生物，可由脂氧合酶、細胞色素 P450 酶或非酵素性脂質過氧化反應生成；屬具生物活性的氧脂質（oxylipins），亦為氧化壓力的標記物。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "eicosanoid",
+            "oxidative-stress",
+            "signaling-molecule"
+          ],
+          "filename": "Hydroxyeicosatetraenoic acids.md",
+          "path": "wiki/zh-TW/_link/Hydroxyeicosatetraenoic%20acids.md"
+        }
+      }
+    },
+    {
+      "id": "Lipoxygenase",
+      "langs": {
+        "en-US": {
+          "title": "Lipoxygenase",
+          "description": "Lipoxygenases (LOXs) are iron-containing dioxygenases that oxidize polyunsaturated fatty acids to bioactive hydroperoxides and signaling lipids such as leukotrienes, linking lipid peroxidation to inflammation and ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "enzyme",
+            "lipid-metabolism",
+            "inflammatory"
+          ],
+          "filename": "Lipoxygenase.md",
+          "path": "wiki/en-US/_link/Lipoxygenase.md"
+        },
+        "zh-TW": {
+          "title": "脂氧合酶",
+          "description": "脂氧合酶（LOXs）是含鐵的雙加氧酶，能將多元不飽和脂肪酸氧化為具有生物活性的氫過氧化物與訊號脂質（如白三烯），將脂質過氧化與發炎及鐵死亡連結起來。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "enzyme",
+            "lipid-metabolism",
+            "inflammatory"
+          ],
+          "filename": "Lipoxygenase.md",
+          "path": "wiki/zh-TW/_link/Lipoxygenase.md"
+        }
+      }
+    },
+    {
+      "id": "Prostacyclin",
+      "langs": {
+        "en-US": {
+          "title": "Prostacyclin",
+          "description": "Prostacyclin (PGI2) is the prostaglandin produced by prostacyclin synthase in endothelium; a potent vasodilator and inhibitor of platelet aggregation that balances thromboxane A2.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Prostacyclin.md",
+          "path": "wiki/en-US/_link/Prostacyclin.md"
+        },
+        "zh-TW": {
+          "title": "前列環素",
+          "description": "Prostacyclin（PGI2）是由內皮細胞中 prostacyclin synthase 產生的前列腺素；為強效血管擴張劑與血小板聚集抑制劑，並與 thromboxane A2 相互平衡。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Prostacyclin.md",
+          "path": "wiki/zh-TW/_link/Prostacyclin.md"
+        }
+      }
+    },
+    {
+      "id": "Prostaglandin G₂",
+      "langs": {
+        "en-US": {
+          "title": "Prostaglandin G2",
+          "description": "Prostaglandin G2 (PGG2) is the prostaglandin endoperoxide formed by cyclooxygenase dioxygenation of arachidonic acid; the first committed intermediate of the prostanoid cascade and a potent lipid hydroperoxide.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "oxidative-stress"
+          ],
+          "filename": "Prostaglandin G₂.md",
+          "path": "wiki/en-US/_link/Prostaglandin%20G%E2%82%82.md"
+        },
+        "zh-TW": {
+          "title": "Prostaglandin G2",
+          "description": "Prostaglandin G2（PGG2）是由 cyclooxygenase 對 arachidonic acid 進行雙加氧作用所形成的 prostaglandin endoperoxide；為 prostanoid 級聯反應中第一個已定案的中間產物，亦是一種強效的脂質氫過氧化物。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "oxidative-stress"
+          ],
+          "filename": "Prostaglandin G₂.md",
+          "path": "wiki/zh-TW/_link/Prostaglandin%20G%E2%82%82.md"
+        }
+      }
+    },
+    {
+      "id": "Prostaglandin H₂",
+      "langs": {
+        "en-US": {
+          "title": "Prostaglandin H2",
+          "description": "Prostaglandin H2 (PGH2) is the prostaglandin endoperoxide produced by reduction of PGG2; the common precursor of all prostanoids, including prostaglandins, thromboxane A2, and prostacyclin.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule"
+          ],
+          "filename": "Prostaglandin H₂.md",
+          "path": "wiki/en-US/_link/Prostaglandin%20H%E2%82%82.md"
+        },
+        "zh-TW": {
+          "title": "Prostaglandin H2",
+          "description": "Prostaglandin H2（PGH2）是 PGG2 經還原反應所產生的前列腺素內過氧化物，為所有類前列腺素（prostanoids）的共同前驅物，包括前列腺素、血栓素 A2（thromboxane A2）與前列環素（prostacyclin）。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule"
+          ],
+          "filename": "Prostaglandin H₂.md",
+          "path": "wiki/zh-TW/_link/Prostaglandin%20H%E2%82%82.md"
+        }
+      }
+    },
+    {
+      "id": "Prostaglandins",
+      "langs": {
+        "en-US": {
+          "title": "Prostaglandins",
+          "description": "Prostaglandins are lipid-derived autacoids produced from arachidonic acid via cyclooxygenase and terminal synthases; local mediators of inflammation, pain, fever, vascular tone, and platelet function.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "signaling-molecule",
+            "lipid",
+            "inflammatory"
+          ],
+          "filename": "Prostaglandins.md",
+          "path": "wiki/en-US/_link/Prostaglandins.md"
+        },
+        "zh-TW": {
+          "title": "前列腺素",
+          "description": "前列腺素是衍生自脂質的自體活性物質，由花生四烯酸經環氧合酶與終端合成酶產生；為調節發炎、疼痛、發燒、血管張力與血小板功能的局部介質。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "signaling-molecule",
+            "lipid",
+            "inflammatory"
+          ],
+          "filename": "Prostaglandins.md",
+          "path": "wiki/zh-TW/_link/Prostaglandins.md"
+        }
+      }
+    },
+    {
+      "id": "Resolvins",
+      "langs": {
+        "en-US": {
+          "title": "Resolvins",
+          "description": "Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "signaling-molecule",
+            "anti-inflammatory",
+            "eicosanoid"
+          ],
+          "filename": "Resolvins.md",
+          "path": "wiki/en-US/_link/Resolvins.md"
+        },
+        "zh-TW": {
+          "title": "消退素",
+          "description": "Resolvins 是源自 EPA 與 DHA 的特化促消退脂質介質，能主動終止發炎並促進組織修復，而非僅止於抑制發炎。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "signaling-molecule",
+            "anti-inflammatory",
+            "eicosanoid"
+          ],
+          "filename": "Resolvins.md",
+          "path": "wiki/zh-TW/_link/Resolvins.md"
+        }
+      }
+    },
+    {
+      "id": "Thromboxane A₂",
+      "langs": {
+        "en-US": {
+          "title": "Thromboxane A2",
+          "description": "Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Thromboxane A₂.md",
+          "path": "wiki/en-US/_link/Thromboxane%20A%E2%82%82.md"
+        },
+        "zh-TW": {
+          "title": "Thromboxane A2",
+          "description": "Thromboxane A2（TXA2）是 thromboxane synthase 於血小板中生成的 prostanoid；為強效的血管收縮劑並促進血小板聚集，與 prostacyclin 相互平衡。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Thromboxane A₂.md",
+          "path": "wiki/zh-TW/_link/Thromboxane%20A%E2%82%82.md"
+        }
+      }
+    },
+    {
+      "id": "Tocopherols",
+      "langs": {
+        "en-US": {
+          "title": "Tocopherols",
+          "description": "Tocopherols are the four chromanol-based forms of vitamin E (alpha, beta, gamma, delta) distinguished by methyl substitution of the chromanol ring; the principal lipid-phase chain-breaking antioxidants in membranes and lipoproteins.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocopherols.md",
+          "path": "wiki/en-US/_link/Tocopherols.md"
+        },
+        "zh-TW": {
+          "title": "生育醇",
+          "description": "生育醇是維生素 E 的四種色烷醇（chromanol）形式（alpha、beta、gamma、delta），以色烷醇環上的甲基取代位置作為區分；為細胞膜與脂蛋白中主要的脂相斷鏈抗氧化劑。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocopherols.md",
+          "path": "wiki/zh-TW/_link/Tocopherols.md"
+        }
+      }
+    },
+    {
+      "id": "Tocotrienols",
+      "langs": {
+        "en-US": {
+          "title": "Tocotrienols",
+          "description": "Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocotrienols.md",
+          "path": "wiki/en-US/_link/Tocotrienols.md"
+        },
+        "zh-TW": {
+          "title": "生育三烯醇",
+          "description": "生育三烯酚（Tocotrienols）是維生素E的四種不飽和形式（alpha、beta、gamma、delta），帶有含三個雙鍵的類異戊二烯側鏈；屬於斷鏈抗氧化劑，具有獨特的抗發炎、抗癌與降膽固醇特性。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocotrienols.md",
+          "path": "wiki/zh-TW/_link/Tocotrienols.md"
+        }
+      }
+    },
+    {
+      "id": "Vitamin C",
+      "langs": {
+        "en-US": {
+          "title": "Vitamin C",
+          "description": "Vitamin C (ascorbic acid) is a water-soluble vitamin and essential antioxidant that regenerates vitamin E at membrane interfaces, recycles glutathione, and serves as a cofactor for collagen, carnitine, and catecholamine synthesis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin"
+          ],
+          "filename": "Vitamin C.md",
+          "path": "wiki/en-US/_link/Vitamin%20C.md"
+        },
+        "zh-TW": {
+          "title": "維生素C",
+          "description": "維生素C（抗壞血酸）是一種水溶性維生素與必需抗氧化劑，能在膜界面再生維生素E、回收穀胱甘肽，並作為膠原蛋白、肉鹼與兒茶酚胺合成的輔因子。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin"
+          ],
+          "filename": "Vitamin C.md",
+          "path": "wiki/zh-TW/_link/Vitamin%20C.md"
+        }
+      }
+    },
+    {
+      "id": "Vitamin E",
+      "langs": {
+        "en-US": {
+          "title": "Vitamin E",
+          "description": "Vitamin E is a group of eight fat-soluble compounds that include four tocopherols and four tocotrienols. It acts as a potent antioxidant.",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Vitamin E.md",
+          "path": "wiki/en-US/_link/Vitamin%20E.md"
+        },
+        "zh-TW": {
+          "title": "維生素E",
+          "description": "維生素 E 是一組八種脂溶性化合物的總稱，包含四種生育酚（tocopherols）與四種生育三烯酚（tocotrienols）。它是一種強效的抗氧化劑。",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Vitamin E.md",
+          "path": "wiki/zh-TW/_link/Vitamin%20E.md"
+        }
+      }
+    },
+    {
+      "id": "4-Hydroxynonenal",
+      "langs": {
+        "en-US": {
+          "title": "4-Hydroxynonenal",
+          "description": "4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal) is a highly reactive α,β-unsaturated aldehyde generated as a major end-product of n-6 polyunsaturated fatty acid (Lipid Peroxidation), particularly...",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "4-Hydroxynonenal.md",
+          "path": "wiki/en-US/oxidative-stress/4-Hydroxynonenal.md"
+        },
+        "zh-TW": {
+          "title": "4-Hydroxynonenal",
+          "description": "4-Hydroxynonenal（4-HNE, 4-hydroxy-2-nonenal）是一種高反應活性的 α,β-不飽和醛，為 n-6 多元不飽和脂肪酸（Lipid Peroxidation）的主要終產物，特別是……",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "4-Hydroxynonenal.md",
+          "path": "wiki/zh-TW/oxidative-stress/4-Hydroxynonenal.md"
+        }
+      }
+    },
+    {
+      "id": "Acrolein",
+      "langs": {
+        "en-US": {
+          "title": "Acrolein",
+          "description": "Acrolein is a highly reactive alpha,beta-unsaturated aldehyde generated by lipid peroxidation, myeloperoxidase chemistry, and polyamine oxidation; the simplest and most electrophilic of the toxic alkenals.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "oxidative-stress",
+            "lipid-peroxidation",
+            "aldehyde"
+          ],
+          "filename": "Acrolein.md",
+          "path": "wiki/en-US/oxidative-stress/Acrolein.md"
+        },
+        "zh-TW": {
+          "title": "丙烯醛",
+          "description": "Acrolein 是一種高反應性的 α,β-不飽和醛，由脂質過氧化、髓過氧化物酶（myeloperoxidase）反應與多胺氧化所生成；是有毒烯醛類中最簡單且最具親電性者。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "oxidative-stress",
+            "lipid-peroxidation",
+            "aldehyde"
+          ],
+          "filename": "Acrolein.md",
+          "path": "wiki/zh-TW/oxidative-stress/Acrolein.md"
+        }
+      }
+    },
+    {
+      "id": "F2-Isoprostanes",
+      "langs": {
+        "en-US": {
+          "title": "F2-Isoprostanes",
+          "description": "F2-Isoprostanes (F2-IsoPs) are prostaglandin-like compounds formed non-enzymatically by free radical-mediated Lipid Peroxidation of Arachidonic acid, widely considered the gold-standard biomarker for endogenous Oxidative Stress.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "oxidative-stress"
+          ],
+          "filename": "F2-Isoprostanes.md",
+          "path": "wiki/en-US/oxidative-stress/F2-Isoprostanes.md"
+        },
+        "zh-TW": {
+          "title": "F2-Isoprostanes",
+          "description": "F2-Isoprostanes（F2-IsoPs）是一類類似 prostaglandin 的化合物，由自由基引發的脂質過氧化作用（Lipid Peroxidation）作用於 Arachidonic acid 後非酵素途徑形成，被廣泛視為內源性氧化壓力（Oxidative Stress）的黃金標準生物標記。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "oxidative-stress"
+          ],
+          "filename": "F2-Isoprostanes.md",
+          "path": "wiki/zh-TW/oxidative-stress/F2-Isoprostanes.md"
+        }
+      }
+    },
+    {
+      "id": "MDA-LDL",
+      "langs": {
+        "en-US": {
+          "title": "MDA-LDL",
+          "description": "MDA-LDL is malondialdehyde-modified low-density lipoprotein in which MDA forms Schiff-base adducts with apolipoprotein B lysine residues; an immunogenic, atherogenic form of oxidatively modified LDL.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "oxidative-stress",
+            "atherosclerosis",
+            "biomarker"
+          ],
+          "filename": "MDA-LDL.md",
+          "path": "wiki/en-US/oxidative-stress/MDA-LDL.md"
+        },
+        "zh-TW": {
+          "title": "MDA-LDL",
+          "description": "MDA-LDL 為丙二醛修飾的低密度脂蛋白，其中 MDA 與載脂蛋白 B 的離胺酸殘基形成席夫鹼（Schiff-base）加合物；是一種具免疫原性與致動脈粥樣硬化性的氧化修飾 LDL 形式。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "oxidative-stress",
+            "atherosclerosis",
+            "biomarker"
+          ],
+          "filename": "MDA-LDL.md",
+          "path": "wiki/zh-TW/oxidative-stress/MDA-LDL.md"
+        }
+      }
+    },
+    {
+      "id": "Malondialdehyde",
+      "langs": {
+        "en-US": {
+          "title": "Malondialdehyde",
+          "description": "Malondialdehyde (MDA) is a reactive dialdehyde end-product of Lipid Peroxidation, widely measured as a Biomarker of chronic Oxidative Stress and oxidative damage to lipids, proteins, and DNA.",
+          "created": "2026-05-09",
+          "updated": "2026-09-24",
+          "tags": [
+            "oxidative-stress",
+            "biological-molecule"
+          ],
+          "filename": "Malondialdehyde.md",
+          "path": "wiki/en-US/oxidative-stress/Malondialdehyde.md"
+        },
+        "zh-TW": {
+          "title": "Malondialdehyde",
+          "description": "丙二醛（MDA）是 Lipid Peroxidation 的活性雙醛終產物，廣泛作為慢性 Oxidative Stress 以及脂質、蛋白質與 DNA 氧化損傷的 Biomarker 進行測量。",
+          "created": "2026-05-09",
+          "updated": "2026-09-24",
+          "tags": [
+            "oxidative-stress",
+            "biological-molecule"
+          ],
+          "filename": "Malondialdehyde.md",
+          "path": "wiki/zh-TW/oxidative-stress/Malondialdehyde.md"
+        }
+      }
+    },
+    {
+      "id": "M₁dG",
+      "langs": {
+        "en-US": {
+          "title": "M1dG",
+          "description": "M1dG (pyrimido[1,2-a]purin-10(3H)-one deoxyguanosine) is the exocyclic DNA adduct formed when malondialdehyde reacts with deoxyguanosine; the principal mutagenic lesion marking lipid peroxidation damage to the genome.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "dna-damage",
+            "oxidative-stress",
+            "biomarker",
+            "chemical-compound"
+          ],
+          "filename": "M₁dG.md",
+          "path": "wiki/en-US/oxidative-stress/M%E2%82%81dG.md"
+        },
+        "zh-TW": {
+          "title": "M1dG",
+          "description": "M1dG（pyrimido[1,2-a]purin-10(3H)-one deoxyguanosine）是 malondialdehyde 與 deoxyguanosine 反應後形成的環外 DNA 加合物；為標記脂質過氧化對基因體造成損傷的主要致突變性病變。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "dna-damage",
+            "oxidative-stress",
+            "biomarker",
+            "chemical-compound"
+          ],
+          "filename": "M₁dG.md",
+          "path": "wiki/zh-TW/oxidative-stress/M%E2%82%81dG.md"
+        }
+      }
+    },
+    {
+      "id": "Polyunsaturated fatty acids",
+      "langs": {
+        "en-US": {
+          "title": "Polyunsaturated Fatty Acids",
+          "description": "Polyunsaturated fatty acids (PUFAs) are fatty acids with two or more carbon-carbon double bonds. Essential structural components of cell membranes, they are especially susceptible to Lipid Peroxidation and drive Ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "lipid",
+            "fatty-acid",
+            "oxidative-stress",
+            "ferroptosis"
+          ],
+          "filename": "Polyunsaturated fatty acids.md",
+          "path": "wiki/en-US/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
+        },
+        "zh-TW": {
+          "title": "多元不飽和脂肪酸",
+          "description": "多元不飽和脂肪酸（PUFAs）是具有兩個或以上碳碳雙鍵的脂肪酸。作為細胞膜不可或缺的結構成分，它們特別容易發生 Lipid Peroxidation，並驅動 Ferroptosis。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "lipid",
+            "fatty-acid",
+            "oxidative-stress",
+            "ferroptosis"
+          ],
+          "filename": "Polyunsaturated fatty acids.md",
+          "path": "wiki/zh-TW/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
+        }
+      }
+    },
+    {
+      "id": "Alpha-tocopherol",
+      "langs": {
+        "en-US": {
+          "title": "Alpha-tocopherol",
+          "description": "Alpha-tocopherol is the principal form of Vitamin E, selectively retained in human plasma and tissue by alpha-tocopherol transfer protein; the reference chain-breaking antioxidant of membranes and lipoproteins.",
+          "created": "2026-05-25",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Alpha-tocopherol.md",
+          "path": "wiki/en-US/comt/Alpha-tocopherol.md"
+        },
+        "zh-TW": {
+          "title": "α-生育酚",
+          "description": "Alpha-tocopherol 是 Vitamin E 的主要形式，由 alpha-tocopherol transfer protein 選擇性地保留於人體血漿與組織中；是膜與脂蛋白的標準斷鏈抗氧化劑。",
+          "created": "2026-05-25",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Alpha-tocopherol.md",
+          "path": "wiki/zh-TW/comt/Alpha-tocopherol.md"
+        }
+      }
+    },
+    {
+      "id": "Antioxidants",
+      "langs": {
+        "en-US": {
+          "title": "Antioxidants",
+          "description": "Antioxidants is a concept related to Adrenochrome and catecholamine metabolism.",
+          "created": "2026-05-29",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-compound",
+            "antioxidant"
+          ],
+          "filename": "Antioxidants.md",
+          "path": "wiki/en-US/_link/Antioxidants.md"
+        },
+        "zh-TW": {
+          "title": "抗氧化劑",
+          "description": "Antioxidants 是與 Adrenochrome 及兒茶酚胺代謝相關的概念。",
+          "created": "2026-05-29",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-compound",
+            "antioxidant"
+          ],
+          "filename": "Antioxidants.md",
+          "path": "wiki/zh-TW/_link/Antioxidants.md"
+        }
+      }
+    },
+    {
+      "id": "Polyphenols",
+      "langs": {
+        "en-US": {
+          "title": "Polyphenols",
+          "description": "Polyphenols are a category of phytochemicals that are naturally found in plants.",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-class"
+          ],
+          "filename": "Polyphenols.md",
+          "path": "wiki/en-US/_link/Polyphenols.md"
+        },
+        "zh-TW": {
+          "title": "多酚",
+          "description": "多酚是一類天然存在於植物中的植物化學物質。",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-class"
+          ],
+          "filename": "Polyphenols.md",
+          "path": "wiki/zh-TW/_link/Polyphenols.md"
+        }
+      }
+    },
+    {
+      "id": "Lipid Peroxidation",
+      "langs": {
+        "en-US": {
+          "title": "Lipid Peroxidation",
+          "description": "The oxidative degradation of polyunsaturated fatty acids via a free radical chain reaction; a central execution pathway of oxidative stress that damages membranes, proteins, and DNA and drives atherosclerosis and ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-process",
+            "oxidative-stress",
+            "cell-membrane",
+            "free-radicals",
+            "atherosclerosis"
+          ],
+          "filename": "Lipid Peroxidation.md",
+          "path": "wiki/en-US/oxidative-stress/Lipid%20Peroxidation.md"
+        },
+        "zh-TW": {
+          "title": "脂質過氧化",
+          "description": "多元不飽和脂肪酸經由自由基連鎖反應所進行的氧化降解；此為氧化壓力的核心執行途徑，會損傷細胞膜、蛋白質與 DNA，並驅動動脈粥狀硬化與鐵死亡。",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-process",
+            "oxidative-stress",
+            "cell-membrane",
+            "free-radicals",
+            "atherosclerosis"
+          ],
+          "filename": "Lipid Peroxidation.md",
+          "path": "wiki/zh-TW/oxidative-stress/Lipid%20Peroxidation.md"
+        }
+      }
+    },
+    {
+      "id": "Queen Palm",
+      "langs": {
+        "en-US": {
+          "title": "Queen Palm",
+          "description": "Syagrus romanzoffiana (jerivá) ornamental palm whose fruit pulp and kernel supply carotenoids, polyphenols, tocopherols and medium-chain lipids — a studied dietary source of lipophilic defense against lipid peroxidation.",
+          "created": "2026-09-23",
+          "updated": "2026-09-23",
+          "tags": [
+            "oxidative-stress",
+            "plant",
+            "antioxidant"
+          ],
+          "filename": "Queen Palm.md",
+          "path": "wiki/en-US/oxidative-stress/Queen%20Palm.md"
+        },
+        "zh-TW": {
+          "title": "皇后葵",
+          "description": "Syagrus romanzoffiana（jerivá）觀賞棕櫚，果肉與果仁提供類胡蘿蔔素、多酚、生育酚與中鏈脂質——一種經研究的膳食來源，可提供對抗脂質過氧化的親脂性防禦。",
+          "created": "2026-09-23",
+          "updated": "2026-09-23",
+          "tags": [
+            "oxidative-stress",
+            "plant",
+            "antioxidant"
+          ],
+          "filename": "Queen Palm.md",
+          "path": "wiki/zh-TW/oxidative-stress/Queen%20Palm.md"
+        }
+      }
+    },
+    {
+      "id": "ADM",
+      "langs": {
+        "en-US": {
+          "title": "ADM",
+          "description": "Adrenomedullin vasodilatory peptide; plasma aging biomarker in GrimAge clocks alongside cystatin C.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "peptide",
+            "biomarker",
+            "aging"
+          ],
+          "filename": "ADM.md",
+          "path": "wiki/en-US/_link/ADM.md"
+        },
+        "zh-TW": {
+          "title": "ADM",
+          "description": "Adrenomedullin 血管擴張肽；GrimAge 時鐘中的血漿老化生物標記，與 cystatin C 並列。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "peptide",
+            "biomarker",
+            "aging"
+          ],
+          "filename": "ADM.md",
+          "path": "wiki/zh-TW/_link/ADM.md"
+        }
+      }
+    },
+    {
+      "id": "AGE-1",
+      "langs": {
+        "en-US": {
+          "title": "AGE-1",
+          "description": "C. elegans PI3K catalytic subunit downstream of DAF-2; founding longevity gene of insulin/IGF-1 signaling.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "gene",
+            "aging",
+            "c-elegans"
+          ],
+          "filename": "AGE-1.md",
+          "path": "wiki/en-US/_link/AGE-1.md"
+        },
+        "zh-TW": {
+          "title": "AGE-1",
+          "description": "C. elegans 中位於 DAF-2 下游的 PI3K 催化次體；胰島素/IGF-1 訊號傳導的奠基長壽基因。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "gene",
+            "aging",
+            "c-elegans"
+          ],
+          "filename": "AGE-1.md",
+          "path": "wiki/zh-TW/_link/AGE-1.md"
+        }
+      }
+    },
+    {
+      "id": "APC",
+      "langs": {
+        "en-US": {
+          "title": "APC",
+          "description": "Tumor suppressor scaffolding the beta-catenin destruction complex; germline loss causes familial adenomatous polyposis.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "gene",
+            "tumor-suppressor",
+            "wnt-signaling"
+          ],
+          "filename": "APC.md",
+          "path": "wiki/en-US/_link/APC.md"
+        },
+        "zh-TW": {
+          "title": "APC",
+          "description": "腫瘤抑制因子，作為 beta-catenin 破壞複合體的支架；種系（germline）功能喪失會導致家族性腺瘤性息肉病。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "gene",
+            "tumor-suppressor",
+            "wnt-signaling"
+          ],
+          "filename": "APC.md",
+          "path": "wiki/zh-TW/_link/APC.md"
+        }
+      }
+    },
+    {
+      "id": "Actin",
+      "langs": {
+        "en-US": {
+          "title": "Actin",
+          "description": "Cytoskeletal filament protein driving cell shape, motility, junctions, and phagocytosis.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cytoskeleton",
+            "protein"
+          ],
+          "filename": "Actin.md",
+          "path": "wiki/en-US/_link/Actin.md"
+        },
+        "zh-TW": {
+          "title": "Actin",
+          "description": "驅動細胞形狀、運動、細胞連結與吞噬作用的細胞骨架絲狀蛋白。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cytoskeleton",
+            "protein"
+          ],
+          "filename": "Actin.md",
+          "path": "wiki/zh-TW/_link/Actin.md"
+        }
+      }
+    },
+    {
+      "id": "Amiodarone",
+      "langs": {
+        "en-US": {
+          "title": "Amiodarone",
+          "description": "Iodinated antiarrhythmic for refractory arrhythmias with thyroid, lung, and liver toxicity profile.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "drug",
+            "antiarrhythmic"
+          ],
+          "filename": "Amiodarone.md",
+          "path": "wiki/en-US/_link/Amiodarone.md"
+        },
+        "zh-TW": {
+          "title": "胺碘酮",
+          "description": "用於難治性心律不整的含碘抗心律不整藥，具甲狀腺、肺臟與肝臟毒性特徵。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "drug",
+            "antiarrhythmic"
+          ],
+          "filename": "Amiodarone.md",
+          "path": "wiki/zh-TW/_link/Amiodarone.md"
+        }
+      }
+    }
+  ]
+}
