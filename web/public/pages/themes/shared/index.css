@@ -28,6 +28,49 @@
 .star-badge.on { color: #d4a017; }
 .star-badge.off { color: var(--rule); -webkit-text-stroke: 0.5px var(--faint); }
 
+/* Inline star (wiki-index pilot): rendered only on starred cards, tucked
+   after the filename chip in the meta row. */
+.card-star {
+  color: #d4a017;
+  font-size: .8rem;
+  line-height: 1;
+  margin-left: 6px;
+}
+
+/* Trello-style stat chips: small SVG icon + count, pinned to the card's
+   bottom-right corner (index-core statChips builds the markup; the card's
+   position: relative is the anchor, so this holds wherever the markup
+   sits). Falls back to the inline end of the meta row below 640px, where
+   the corner would crowd the text. */
+.stat-chips {
+  position: absolute;
+  right: 20px;
+  bottom: 13px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 640px) {
+  .stat-chips { position: static; margin-left: auto; }
+}
+.stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--faint);
+}
+.stat svg {
+  width: 12px;
+  height: 12px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.meta-sep { color: var(--rule); }
+
 /* Freshness badge mirrors the reader's updated chip buckets */
 .fresh { color: #15803d; }
 .recent { color: #b45309; }

@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 12:02 PM PDT",
+  "generated": "25_SEP_2026 12:12 PM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -41,6 +41,12 @@
           "filename": "SASP.md",
           "path": "wiki/en-US/senescence/SASP.md"
         }
+      },
+      "stats": {
+        "words": 6046,
+        "images": 0,
+        "links": 491,
+        "diagrams": 0
       }
     },
     {
@@ -60,6 +66,12 @@
           "filename": "SIRT1.md",
           "path": "wiki/en-US/sirtuins/SIRT1.md"
         }
+      },
+      "stats": {
+        "words": 7270,
+        "images": 0,
+        "links": 626,
+        "diagrams": 0
       }
     },
     {
@@ -77,6 +89,12 @@
           "filename": "Apoptosis.md",
           "path": "wiki/en-US/cell-death/Apoptosis.md"
         }
+      },
+      "stats": {
+        "words": 3248,
+        "images": 0,
+        "links": 212,
+        "diagrams": 0
       }
     },
     {
@@ -95,6 +113,12 @@
           "filename": "Autophagy.md",
           "path": "wiki/en-US/autophagy/Autophagy.md"
         }
+      },
+      "stats": {
+        "words": 5129,
+        "images": 0,
+        "links": 467,
+        "diagrams": 0
       }
     },
     {
@@ -112,6 +136,12 @@
           "filename": "NAD+.md",
           "path": "wiki/en-US/_link/NAD%2B.md"
         }
+      },
+      "stats": {
+        "words": 2745,
+        "images": 0,
+        "links": 184,
+        "diagrams": 0
       }
     },
     {
@@ -145,6 +175,12 @@
           "filename": "Glutathione.md",
           "path": "wiki/zh-TW/_link/Glutathione.md"
         }
+      },
+      "stats": {
+        "words": 1202,
+        "images": 0,
+        "links": 97,
+        "diagrams": 0
       }
     },
     {
@@ -162,6 +198,12 @@
           "filename": "SIRT3.md",
           "path": "wiki/en-US/sirtuins/SIRT3.md"
         }
+      },
+      "stats": {
+        "words": 5738,
+        "images": 0,
+        "links": 363,
+        "diagrams": 0
       }
     },
     {
@@ -181,6 +223,12 @@
           "filename": "NF-κB.md",
           "path": "wiki/en-US/_link/NF-%CE%BAB.md"
         }
+      },
+      "stats": {
+        "words": 1486,
+        "images": 0,
+        "links": 138,
+        "diagrams": 0
       }
     },
     {
@@ -216,6 +264,12 @@
           "filename": "Lipid Peroxidation.md",
           "path": "wiki/zh-TW/oxidative-stress/Lipid%20Peroxidation.md"
         }
+      },
+      "stats": {
+        "words": 1588,
+        "images": 0,
+        "links": 152,
+        "diagrams": 0
       }
     },
     {
@@ -235,6 +289,12 @@
           "filename": "Necroptosis.md",
           "path": "wiki/en-US/cell-death/Necroptosis.md"
         }
+      },
+      "stats": {
+        "words": 2808,
+        "images": 0,
+        "links": 230,
+        "diagrams": 0
       }
     },
     {
@@ -255,6 +315,12 @@
           "filename": "Senescence.md",
           "path": "wiki/en-US/senescence/Senescence.md"
         }
+      },
+      "stats": {
+        "words": 3523,
+        "images": 0,
+        "links": 260,
+        "diagrams": 0
       }
     },
     {
@@ -271,6 +337,12 @@
           "filename": "Fisetin.md",
           "path": "wiki/en-US/_link/Fisetin.md"
         }
+      },
+      "stats": {
+        "words": 2194,
+        "images": 0,
+        "links": 213,
+        "diagrams": 0
       }
     },
     {
@@ -290,6 +362,12 @@
           "filename": "Parthanatos.md",
           "path": "wiki/en-US/cell-death/Parthanatos.md"
         }
+      },
+      "stats": {
+        "words": 2547,
+        "images": 0,
+        "links": 189,
+        "diagrams": 0
       }
     },
     {
@@ -306,6 +384,12 @@
           "filename": "Urolithin A.md",
           "path": "wiki/en-US/_link/Urolithin%20A.md"
         }
+      },
+      "stats": {
+        "words": 1342,
+        "images": 0,
+        "links": 124,
+        "diagrams": 0
       }
     },
     {
@@ -333,6 +417,12 @@
           "filename": "Vitamin E.md",
           "path": "wiki/zh-TW/_link/Vitamin%20E.md"
         }
+      },
+      "stats": {
+        "words": 1804,
+        "images": 0,
+        "links": 75,
+        "diagrams": 0
       }
     },
     {
@@ -364,6 +454,12 @@
           "filename": "Lipoxygenase.md",
           "path": "wiki/zh-TW/_link/Lipoxygenase.md"
         }
+      },
+      "stats": {
+        "words": 289,
+        "images": 0,
+        "links": 27,
+        "diagrams": 0
       }
     },
     {
@@ -393,6 +489,12 @@
           "filename": "Malondialdehyde.md",
           "path": "wiki/zh-TW/oxidative-stress/Malondialdehyde.md"
         }
+      },
+      "stats": {
+        "words": 879,
+        "images": 0,
+        "links": 85,
+        "diagrams": 0
       }
     },
     {
@@ -420,6 +522,12 @@
           "filename": "4-Hydroxynonenal.md",
           "path": "wiki/zh-TW/oxidative-stress/4-Hydroxynonenal.md"
         }
+      },
+      "stats": {
+        "words": 896,
+        "images": 0,
+        "links": 84,
+        "diagrams": 0
       }
     },
     {
@@ -449,6 +557,12 @@
           "filename": "Antioxidants.md",
           "path": "wiki/zh-TW/_link/Antioxidants.md"
         }
+      },
+      "stats": {
+        "words": 530,
+        "images": 0,
+        "links": 50,
+        "diagrams": 0
       }
     },
     {
@@ -476,6 +590,12 @@
           "filename": "Polyphenols.md",
           "path": "wiki/zh-TW/_link/Polyphenols.md"
         }
+      },
+      "stats": {
+        "words": 1216,
+        "images": 0,
+        "links": 82,
+        "diagrams": 0
       }
     },
     {
@@ -493,6 +613,12 @@
           "filename": "Muscle.md",
           "path": "wiki/en-US/_link/Muscle.md"
         }
+      },
+      "stats": {
+        "words": 126,
+        "images": 0,
+        "links": 19,
+        "diagrams": 0
       }
     },
     {
@@ -516,6 +642,12 @@
           "filename": "BAX.md",
           "path": "wiki/en-US/cell-death/BAX.md"
         }
+      },
+      "stats": {
+        "words": 682,
+        "images": 0,
+        "links": 73,
+        "diagrams": 0
       }
     },
     {
@@ -532,6 +664,12 @@
           "filename": "Ferroptosis.md",
           "path": "wiki/en-US/cell-death/Ferroptosis.md"
         }
+      },
+      "stats": {
+        "words": 2074,
+        "images": 0,
+        "links": 244,
+        "diagrams": 0
       }
     },
     {
@@ -561,6 +699,12 @@
           "filename": "F2-Isoprostanes.md",
           "path": "wiki/zh-TW/oxidative-stress/F2-Isoprostanes.md"
         }
+      },
+      "stats": {
+        "words": 937,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
       }
     },
     {
@@ -592,6 +736,12 @@
           "filename": "Vitamin C.md",
           "path": "wiki/zh-TW/_link/Vitamin%20C.md"
         }
+      },
+      "stats": {
+        "words": 1192,
+        "images": 0,
+        "links": 95,
+        "diagrams": 0
       }
     },
     {
@@ -608,6 +758,12 @@
           "filename": "RIPK3.md",
           "path": "wiki/en-US/cell-death/RIPK3.md"
         }
+      },
+      "stats": {
+        "words": 760,
+        "images": 0,
+        "links": 78,
+        "diagrams": 0
       }
     },
     {
@@ -643,6 +799,12 @@
           "filename": "Polyunsaturated fatty acids.md",
           "path": "wiki/zh-TW/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
         }
+      },
+      "stats": {
+        "words": 1134,
+        "images": 0,
+        "links": 94,
+        "diagrams": 0
       }
     },
     {
@@ -659,6 +821,12 @@
           "filename": "p53.md",
           "path": "wiki/en-US/_link/p53.md"
         }
+      },
+      "stats": {
+        "words": 2355,
+        "images": 0,
+        "links": 110,
+        "diagrams": 0
       }
     },
     {
@@ -692,6 +860,12 @@
           "filename": "Alpha-tocopherol.md",
           "path": "wiki/zh-TW/comt/Alpha-tocopherol.md"
         }
+      },
+      "stats": {
+        "words": 1212,
+        "images": 0,
+        "links": 80,
+        "diagrams": 0
       }
     },
     {
@@ -708,6 +882,12 @@
           "filename": "RIPK1.md",
           "path": "wiki/en-US/adrenochrome/RIPK1.md"
         }
+      },
+      "stats": {
+        "words": 1317,
+        "images": 0,
+        "links": 96,
+        "diagrams": 0
       }
     },
     {
@@ -724,6 +904,12 @@
           "filename": "PARP1.md",
           "path": "wiki/en-US/cell-death/PARP1.md"
         }
+      },
+      "stats": {
+        "words": 2878,
+        "images": 0,
+        "links": 133,
+        "diagrams": 0
       }
     },
     {
@@ -757,6 +943,12 @@
           "filename": "Acrolein.md",
           "path": "wiki/zh-TW/oxidative-stress/Acrolein.md"
         }
+      },
+      "stats": {
+        "words": 739,
+        "images": 0,
+        "links": 48,
+        "diagrams": 0
       }
     },
     {
@@ -775,6 +967,12 @@
           "filename": "Regulatory T Cell.md",
           "path": "wiki/en-US/_link/Regulatory%20T%20Cell.md"
         }
+      },
+      "stats": {
+        "words": 140,
+        "images": 0,
+        "links": 18,
+        "diagrams": 0
       }
     },
     {
@@ -808,6 +1006,12 @@
           "filename": "Thromboxane A₂.md",
           "path": "wiki/zh-TW/_link/Thromboxane%20A%E2%82%82.md"
         }
+      },
+      "stats": {
+        "words": 548,
+        "images": 0,
+        "links": 40,
+        "diagrams": 0
       }
     },
     {
@@ -837,6 +1041,12 @@
           "filename": "Actin.md",
           "path": "wiki/zh-TW/_link/Actin.md"
         }
+      },
+      "stats": {
+        "words": 140,
+        "images": 0,
+        "links": 21,
+        "diagrams": 0
       }
     },
     {
@@ -858,6 +1068,12 @@
           "filename": "SIRT6.md",
           "path": "wiki/en-US/sirtuins/SIRT6.md"
         }
+      },
+      "stats": {
+        "words": 3487,
+        "images": 0,
+        "links": 228,
+        "diagrams": 0
       }
     },
     {
@@ -874,6 +1090,12 @@
           "filename": "mTORC1.md",
           "path": "wiki/en-US/_link/mTORC1.md"
         }
+      },
+      "stats": {
+        "words": 2471,
+        "images": 0,
+        "links": 256,
+        "diagrams": 0
       }
     },
     {
@@ -894,6 +1116,12 @@
           "filename": "Apoptosis-Inducing Factor.md",
           "path": "wiki/en-US/cell-death/Apoptosis-Inducing%20Factor.md"
         }
+      },
+      "stats": {
+        "words": 1441,
+        "images": 0,
+        "links": 83,
+        "diagrams": 0
       }
     },
     {
@@ -910,6 +1138,12 @@
           "filename": "Spermidine.md",
           "path": "wiki/en-US/_link/Spermidine.md"
         }
+      },
+      "stats": {
+        "words": 811,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
       }
     },
     {
@@ -927,6 +1161,12 @@
           "filename": "Cytoskeleton.md",
           "path": "wiki/en-US/_link/Cytoskeleton.md"
         }
+      },
+      "stats": {
+        "words": 114,
+        "images": 0,
+        "links": 18,
+        "diagrams": 0
       }
     },
     {
@@ -944,6 +1184,12 @@
           "filename": "Chromosome.md",
           "path": "wiki/en-US/_link/Chromosome.md"
         }
+      },
+      "stats": {
+        "words": 155,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
       }
     },
     {
@@ -962,6 +1208,12 @@
           "filename": "Zellweger Spectrum Disorders.md",
           "path": "wiki/en-US/_link/Zellweger%20Spectrum%20Disorders.md"
         }
+      },
+      "stats": {
+        "words": 119,
+        "images": 0,
+        "links": 20,
+        "diagrams": 0
       }
     },
     {
@@ -995,6 +1247,12 @@
           "filename": "Tocopherols.md",
           "path": "wiki/zh-TW/_link/Tocopherols.md"
         }
+      },
+      "stats": {
+        "words": 877,
+        "images": 0,
+        "links": 56,
+        "diagrams": 0
       }
     },
     {
@@ -1013,6 +1271,12 @@
           "filename": "Immunotherapy.md",
           "path": "wiki/en-US/_link/Immunotherapy.md"
         }
+      },
+      "stats": {
+        "words": 123,
+        "images": 0,
+        "links": 17,
+        "diagrams": 0
       }
     },
     {
@@ -1046,6 +1310,12 @@
           "filename": "Tocotrienols.md",
           "path": "wiki/zh-TW/_link/Tocotrienols.md"
         }
+      },
+      "stats": {
+        "words": 782,
+        "images": 0,
+        "links": 49,
+        "diagrams": 0
       }
     },
     {
@@ -1066,6 +1336,12 @@
           "filename": "p21 CIP1.md",
           "path": "wiki/en-US/_link/p21%20CIP1.md"
         }
+      },
+      "stats": {
+        "words": 753,
+        "images": 0,
+        "links": 48,
+        "diagrams": 0
       }
     },
     {
@@ -1099,6 +1375,12 @@
           "filename": "M₁dG.md",
           "path": "wiki/zh-TW/oxidative-stress/M%E2%82%81dG.md"
         }
+      },
+      "stats": {
+        "words": 733,
+        "images": 0,
+        "links": 38,
+        "diagrams": 0
       }
     },
     {
@@ -1132,6 +1414,12 @@
           "filename": "MDA-LDL.md",
           "path": "wiki/zh-TW/oxidative-stress/MDA-LDL.md"
         }
+      },
+      "stats": {
+        "words": 727,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
       }
     },
     {
@@ -1149,6 +1437,12 @@
           "filename": "PEX2.md",
           "path": "wiki/en-US/_link/PEX2.md"
         }
+      },
+      "stats": {
+        "words": 109,
+        "images": 0,
+        "links": 16,
+        "diagrams": 0
       }
     },
     {
@@ -1182,6 +1476,12 @@
           "filename": "Hydroxyeicosatetraenoic acids.md",
           "path": "wiki/zh-TW/_link/Hydroxyeicosatetraenoic%20acids.md"
         }
+      },
+      "stats": {
+        "words": 722,
+        "images": 0,
+        "links": 45,
+        "diagrams": 0
       }
     }
   ]

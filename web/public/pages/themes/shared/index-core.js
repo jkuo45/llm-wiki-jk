@@ -142,6 +142,28 @@ window.IndexCore = (function () {
     return function () { return descLang; };
   }
 
+  /* Trello-style stat chips for index cards: raw word count plus
+     icon+count badges for images, links, and mermaid diagrams. Zero or
+     missing counts are skipped; returns '' when there is nothing to show.
+     SVGs inherit currentColor via CSS (.stat svg in index.css). */
+  function statChips(stats) {
+    if (!stats) return "";
+    var ICONS = [
+      ["words", "Words / 字數", '<path d="M6 4h12v16H6z"/><path d="M9 8h6M9 12h6M9 16h4"/>'],
+      ["images", "Images / 圖片", '<path d="M4 6h16v12H4z"/><circle cx="9" cy="11" r="1.4"/><path d="M20 15l-4.5-4.5L12 14l-2-2-6 6"/>'],
+      ["links", "Links / 連結", '<path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.8-2.8a4 4 0 1 0-5.7-5.7l-1.4 1.4"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0L5 13.3a4 4 0 1 0 5.7 5.7l1.4-1.4"/>'],
+      ["diagrams", "Mermaid diagrams / 圖表", '<rect x="3.5" y="4" width="6" height="5" rx="1"/><rect x="14.5" y="15" width="6" height="5" rx="1"/><path d="M6.5 9v5.5a2 2 0 0 0 2 2H14"/>'],
+    ];
+    var out = "";
+    ICONS.forEach(function (spec) {
+      var n = Number(stats[spec[0]]) || 0;
+      if (n <= 0) return;
+      out += '<span class="stat" title="' + esc(spec[1]) + '"><svg viewBox="0 0 24 24" aria-hidden="true">' +
+        spec[2] + "</svg>" + (spec[0] === "words" ? n.toLocaleString("en-US") : String(n)) + "</span>";
+    });
+    return out ? '<span class="stat-chips">' + out + "</span>" : "";
+  }
+
   function restoreQuery(box, key) {
     try { box.value = sessionStorage.getItem(key) || ""; } catch (e) { /* storage unavailable */ }
   }
@@ -182,6 +204,7 @@ window.IndexCore = (function () {
     announceNavigate: announceNavigate,
     wireSort: wireSort,
     wireDescLang: wireDescLang,
+    statChips: statChips,
     restoreQuery: restoreQuery,
     persistQuery: persistQuery,
     wireSearch: wireSearch,

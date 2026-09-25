@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="themes/shared/index.css">
 <style>
 /* Page-specific only — shared index chrome lives in themes/shared/index.css
-   (.card, .star-badge, buckets); the card classes below are wiki-* and
-   defined here only (tasks-index.html keeps its own task-* copies). */
+   (.card, .card-star/.stat chips, buckets); the card classes below are
+   wiki-* and defined here only (tasks-index.html keeps its own task-* copies). */
 .wiki-list { list-style: none; margin: 0; padding: 0; }
 .wiki-card {
   padding: 16px 20px 13px;
@@ -29,11 +29,23 @@
 .wiki-title a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
 .wiki-title a:hover { color: var(--oxblood); }
 .wiki-card { position: relative; }
-/* Page-specific: zh subtitle + meta rows (star badge comes from index.css) */
+/* Page-specific: zh subtitle + meta rows (star + stat chips come from index.css) */
 .wiki-zh { font-size: .95rem; color: var(--ink-soft); margin: 0 0 10px; }
 .wiki-zh a { color: var(--mute); text-decoration: none; border-bottom: 1px solid var(--rule); }
 .wiki-zh a:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
-.wiki-meta { font-family: var(--mono); font-size: 12px; color: var(--faint); margin: 0 0 4px; }
+.wiki-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--faint);
+  margin: 0 0 4px;
+  /* Reserve room for the absolutely-positioned corner chips (index.css
+     .stat-chips) so long filenames/dates never run under them. */
+  padding-right: 160px;
+}
 .wiki-meta:last-child { margin-bottom: 0; }
 /* Descriptions are hidden by default (compact card list); the toggle in the
    search row flips this class on. Search still matches desc text either way. */
@@ -44,7 +56,11 @@
 .desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 /* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
 .sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
-@media (max-width: 640px) { .wiki-card { padding: 14px 14px 12px; } }
+@media (max-width: 640px) {
+  .wiki-card { padding: 14px 14px 12px; }
+  /* Chips fall back to the meta row below 640px — no corner reservation. */
+  .wiki-meta { padding-right: 0; }
+}
 </style>
 <link rel="stylesheet" href="themes/theme-02/dark.css">
 </head>
@@ -69,7 +85,7 @@
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
-    restoreQuery, persistQuery, wireSearch } = window.IndexCore;
+    restoreQuery, persistQuery, wireSearch, statChips } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('wikiIndex');
   const emptyNote = document.getElementById('emptyNote');
@@ -136,6 +152,7 @@
           id: t.id,
           display: asStr(en.title),
           starred,
+          stats: t.stats,
           descEn: asStr(en.description || ''),
           descZh: zh ? asStr(zh.description || '') : '',
           enPath: en.path,
@@ -182,12 +199,10 @@
                   `<span class="bucket-count">${group.length}</span></h2><ul class="wiki-list">`;
           html += group.map(t => `
             <li class="wiki-card card">
-              <span class="star-badge ${t.starred ? 'on' : 'off'}" title="${t.starred ? 'Starred' : ''}">${t.starred ? '★' : '☆'}</span>
               <p class="wiki-title"><a href="${esc(viewerHref(t.enPath))}" data-wiki-id="${esc(t.id)}">${highlight(t.display, tokens)}</a></p>
               ${t.zhTitle ? `<p class="wiki-zh"><a href="${esc(viewerHref(t.zhPath))}" data-wiki-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="wiki-desc">${highlight(t.desc, tokens)}</p>` : ''}
-              <p class="wiki-meta"><code>${esc(t.file)}</code></p>
-              <p class="wiki-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span></p>
+              <p class="wiki-meta"><code>${esc(t.file)}</code>${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span>${statChips(t.stats)}</p>
             </li>`).join('');
           html += '</ul>';
         });

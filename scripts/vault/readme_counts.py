@@ -61,6 +61,39 @@ def count_words(filepath):
         return 0
 
 
+# --- Reader card stats --------------------------------------------------------
+MD_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)|!\[\[[^\]]*\]\]")
+MD_LINK_RE = re.compile(r"\[\[[^\]]+\]\]|\[[^\]]+\]\([^)]+\)")
+MERMAID_FENCE_RE = re.compile(r"^```mermaid[ \t]*\r?$", re.MULTILINE)
+MERMAID_DIV_RE = re.compile(r"<div[^>]*class=[\"'][^\"']*mermaid")
+CJK_RE = re.compile(r"[\u4e00-\u9fff]")
+LATIN_WORD_RE = re.compile(r"[A-Za-z0-9]+")
+
+
+def content_stats(filepath):
+    """Card stats for one markdown file: {words, images, links, diagrams}.
+
+    Raw word count = latin tokens + CJK characters (frontmatter stripped);
+    images/links counted with image syntax removed first so an image never
+    leaks into the links total; diagrams = ```mermaid fences + <div
+    class="mermaid"> blocks. Missing files return zeros.
+    """
+    zero = {"words": 0, "images": 0, "links": 0, "diagrams": 0}
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return zero
+    text = FRONTMATTER_RE.sub("", text, count=1)
+    images = len(MD_IMAGE_RE.findall(text))
+    links = len(MD_LINK_RE.findall(MD_IMAGE_RE.sub("", text)))
+    diagrams = len(MERMAID_FENCE_RE.findall(text)) + len(MERMAID_DIV_RE.findall(text))
+    words = len(CJK_RE.findall(text)) + len(
+        LATIN_WORD_RE.findall(CJK_RE.sub(" ", text))
+    )
+    return {"words": words, "images": images, "links": links, "diagrams": diagrams}
+
+
 MARKER_RE = re.compile(
     r"<!--\s*GENERATED:\s*(\w+)\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*\1\s*-->",
     re.DOTALL,
@@ -576,6 +609,9 @@ def build_web_wiki(note_rows, args, repo_root):
         entry["path"] = f"wiki/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
         group = groups.setdefault(stem, {"id": stem, "langs": {}})
         group["langs"]["en-US"] = entry
+        # Group-level card stats (en-US source; the zh copy mirrors it closely
+        # enough that one chip row per card is correct).
+        group["stats"] = content_stats(r["src"]["path"])
         ranks[stem] = r["score"]
         if str(fm.get("starred", "")).lower() == "true":
             group["starred"] = True

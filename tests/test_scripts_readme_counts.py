@@ -39,6 +39,29 @@ class TestFormatting:
             r"\d{2}_[A-Z]{3}_\d{4} \d{2}:\d{2} [AP]M [A-Z]{2,5}", ts)
 
 
+class TestContentStats:
+    def test_counts_words_images_links_diagrams(self, tmp_path):
+        f = tmp_path / "note.md"
+        f.write_text(
+            "---\ntitle: X\ndescription: d\n---\n"
+            "One two [link](https://x) [[Alpha]] and ![](img.png).\n"
+            "中文測試\n"
+            "```mermaid\ngraph TD;\n```\n"
+            'More ![[Embed.png]] <div class="mermaid">graph</div>\n',
+            encoding="utf-8",
+        )
+        s = rc.content_stats(f)
+        assert s["images"] == 2
+        assert s["links"] == 2          # image syntax never leaks into links
+        assert s["diagrams"] == 2       # fence + <div class="mermaid">
+        assert s["words"] == 24         # 20 latin tokens (incl. image/url bits) + 4 CJK chars, no frontmatter
+
+    def test_missing_file_returns_zeros(self, tmp_path):
+        assert rc.content_stats(tmp_path / "nope.md") == {
+            "words": 0, "images": 0, "links": 0, "diagrams": 0,
+        }
+
+
 # ----------------------------------------------------------------------
 # Marker sections
 # ----------------------------------------------------------------------
@@ -265,6 +288,15 @@ class TestBuildWebWikiScoring:
 
     def test_default_limit_is_50(self):
         assert rc.WIKI_LIMIT_DEFAULT == 50
+
+    def test_entries_carry_card_stats(self, tmp_path):
+        args = self._seed(tmp_path)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        hub = next(g for g in doc["wiki"] if g["id"] == "hub")
+        assert hub["stats"] == {
+            "words": 2000, "images": 0, "links": 0, "diagrams": 0,
+        }
 
     def test_central_hub_beats_fresh_stub(self, tmp_path):
         args = self._seed(tmp_path)
