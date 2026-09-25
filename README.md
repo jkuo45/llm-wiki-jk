@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 23_SEP_2026 | 33 | 1805 | 1,109,561 | 10.36 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 23_SEP_2026 | 33 | 1809 | 1,117,848 | 10.43 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 23_SEP_2026 | 19 | 257 | 198,404 | 2.63 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 18_SEP_2026 | 12 | 226 | 181,712 | 1.70 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 23_SEP_2026 | 11 | 268 | 243,576 | 2.89 MB |
 | [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 23_SEP_2026 | 10 | 84 | 93,661 | 1.04 MB |
-| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 18_SEP_2026 | 2 | 44 | 26,118 | 0.53 MB |
+| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 18_SEP_2026 | 2 | 44 | 27,069 | 0.53 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 10_SEP_2026 | 9 | 210 | 203,453 | 2.21 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 06_SEP_2026 | 7 | 15 | 68,028 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 31_AUG_2026 | 2 | 90 | 63,576 | 0.79 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 23_SEP_2026 | 1 | 95 | 80,232 | 1.08 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 23_SEP_2026 | 1 | 98 | 84,308 | 1.11 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 15_SEP_2026 | 16 | 66 | 157,145 | 2.25 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 23_SEP_2026 | 20 | 173 | 314,894 | 4.00 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 23_SEP_2026 | **142** | **3333** | **2,740,360** | **30.08 MB** |
+| **subtotal** | 23_SEP_2026 | **142** | **3340** | **2,753,674** | **30.18 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -272,7 +272,7 @@ Build: 18_SEP_2026 · hash `249b929d5ee50a9f`
 <details>
 <summary><strong>Tasks (119 total)</strong> — click to expand</summary>
 
-- [task_output_comt_vitamin_e_genotype_gate_24_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md) [[src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md|wiki]] (24_SEP_2026 11:50 AM PDT)
+- [task_output_comt_vitamin_e_genotype_gate_24_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md) [[src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md|wiki]] (24_SEP_2026 12:56 PM PDT)
 - [task_output_queen_palm_biochemical_nutrients_23_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md) [[src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md|wiki]] (24_SEP_2026 11:20 AM PDT)
 - [task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md) [[src/tasks/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md|wiki]] (23_SEP_2026 03:42 PM PDT)
 - [task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md) [[src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md|wiki]] (23_SEP_2026 11:12 AM PDT)

@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-09-23
+updated: 2026-09-24
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1772 entities** across **123 categories** and **33 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1776 entities** across **124 categories** and **33 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1772 | Categories: 123 | Documents: 33
+> `_link` index. Total entities: 1776 | Categories: 124 | Documents: 33
 >
 
 ## Documents
@@ -490,7 +490,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Glutamate-Cysteine Ligase]] | Enzyme | Catalytic function: Glutamate-Cysteine Ligase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Glutaredoxin]] | Enzyme | Glutaredoxins (Grx) are a family of small (~9–14 kDa) glutathione-dependent thiol oxidoreductases that reduce protein disulfides and protein-glutathione mixed disulfides, using electrons from reduced glutathione instead of thioredoxin reductase; they constitute the GSH-coupled half of the cellular disulfide-reducing system that sustains ribonucleotide reductase, peroxiredoxins, and redox signaling. |
 | [[Glutathione Peroxidase]] | Enzyme | Glutathione peroxidase (GPx) is an enzyme family with peroxidase activity whose main biological role is to protect the organism from oxidative damage. |
-| [[Glutathione Peroxidase 4]] | Enzyme | Glutathione Peroxidase 4 (GPX4) is a selenium-dependent selenoenzyme that reduces phospholipid hydroperoxides in membranes using glutathione, serving as the central inhibitor of ferroptotic cell de... |
 | [[Glutathione Reductase]] | Enzyme | Catalytic function: Glutathione Reductase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Glutathione S-Transferase]] | Enzyme | A family of phase II detoxifying enzymes that conjugate glutathione to electrophilic substrates, regulated by the NRF2–ARE pathway and implicated in cellular antioxidant defense and mitophagy. |
 | [[Glutathione Synthetase]] | Enzyme | Catalytic function: Glutathione Synthetase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
@@ -520,7 +519,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[JNK]] | Enzyme | c-Jun N-terminal kinase (stress-activated protein kinase); a stress-activated MAPK that regulates apoptosis, proliferation, and inflammation by phosphorylating BAX, Bim, Mcl-1, and c-Jun, with cont... |
 | [[Kinase]] | Enzyme | Kinases are enzymes that catalyze the transfer of the gamma-phosphate of ATP to substrate hydroxyl groups (kinase activity), regulating nearly every signaling pathway. Protein kinases share an aden... |
 | [[Lipoxygenase]] | Enzyme | Lipoxygenases (LOXs) are iron-containing dioxygenases that oxidize polyunsaturated fatty acids to bioactive hydroperoxides and signaling lipids such as leukotrienes, linking lipid peroxidation to i... |
-| [[Lipoxygenases]] | Enzyme | Catalytic function: Lipoxygenases is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Malate Dehydrogenase]] | Enzyme | Enzyme catalyzing the reversible NAD+-dependent interconversion of oxaloacetate and malate in the TCA cycle and the malate-aspartate shuttle; cytosolic MDH1 loss lowers NAD+/NADH and can induce sen... |
 | [[MAPKAPK2]] | Enzyme | Mitogen-activated protein kinase-activated protein kinase 2, a key regulator of SASP mRNA stability. |
 | [[Matrix Metalloproteinase]] | Enzyme | Zinc-dependent endopeptidases (MMPs) that degrade extracellular matrix; MMP-2 and MMP-9 mediate tumor invasion, metastasis, and angiogenesis. |
@@ -760,7 +758,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Homocysteine]] | Biological Molecule | Biochemical properties: Homocysteine is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic... |
 | [[Humanin]] | Biological Molecule | Humanin is a 24-amino acid peptide encoded by a cryptic open reading frame within the mitochondrial 16S ribosomal RNA gene. It is considered a founding member of the class of Mitokines or mitochond... |
 | [[Interferon-gamma]] | Biological Molecule | Interferon-gamma (IFNγ) is a pro-inflammatory cytokine that plays a central role in innate and adaptive immunity, potently inducing IDO1 expression and activating macrophages. |
-| [[Isoprostanes]] | Biological Molecule | Biochemical properties: Isoprostanes is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic... |
 | [[Lactate]] | Biological Molecule | Biochemical properties: Lactate is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux... |
 | [[LDL]] | Biological Molecule | Low-density lipoprotein (LDL) is a lipoprotein particle that transports cholesterol and triglycerides from the liver to peripheral tissues. Elevated LDL is a major risk factor for Atheroscleros... |
 | [[Leptin]] | Biological Molecule | Biochemical properties: Leptin is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux ... |
@@ -819,7 +816,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Apigenin]] | Chemical Compound | A natural flavone (4',5,7-trihydroxyflavone) with CDK-inhibitory, p53-stabilizing, senomorphic/senolytic, and broad anticancer activities across human malignancies. |
 | [[ARN14794]] | Chemical Compound | A benzoxazolone carboxamide small-molecule inhibitor of acid ceramidase (ACase, ASAH1), specifically used in the 2026 Soriano-Castell study demonstrating that ACase inhibition protects cells from f... |
 | [[ARN14974]] | Chemical Compound | A potent and systemically active benzoxazolone carboxamide inhibitor of acid ceramidase (IC50 79 nM) that reduces ACase activity across multiple organs including brain; developed by Pizzirani et al... |
-| [[Ascorbic Acid]] | Chemical Compound | Ascorbic Acid, also known as Vitamin C, is a potent antioxidant and essential nutrient found in various foods and used as a dietary supplement. |
 | [[ATP]] | Chemical Compound | Adenosine triphosphate (ATP) is a nucleotide composed of adenine, ribose, and three phosphate groups that serves as the universal energy currency of living cells. Hydrolysis of ATP to ADP and P... |
 | [[Auranofin]] | Chemical Compound | Auranofin (Ridaura) is an oral gold(I) coordination compound FDA-approved for rheumatoid arthritis (1985) and repurposed as a first-in-class covalent inhibitor of the selenoprotein thioredoxin reductases (TXNRD1/TXNRD2), under clinical investigation as an anticancer, antiparasitic, and antibacterial agent. |
 | [[Bafilomycin A1]] | Chemical Compound | Chemical properties: Bafilomycin A1 is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
@@ -1732,7 +1728,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[HeLa Cells]] | Cell Line | Immortalized human cervical carcinoma epithelial cell line; widely used in molecular and virology research including miRNA biogenesis assays. |
 | [[WI-38]] | Cell Line | A diploid human fetal lung fibroblast cell line derived by Leonard Hayflick in 1962, widely used as a model for replicative senescence and aging research; the cell line in which the ACase-ferroptos... |
 
-### Chemical Class (27)
+### Chemical Class (29)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1763,6 +1759,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Quinone]] | Chemical Class | Quinones are a class of organic compounds derived from aromatic compounds (such as benzene or naphthalene) by conversion of an even number of -CH= groups into -C(=O)- groups, resulting in a ful... |
 | [[Rapalogs]] | Chemical Class | Rapalogs are analogs and derivatives of rapamycin (sirolimus) that inhibit mTORC1 via the FKBP12-FRB interface; used as immunosuppressants, anticancer agents, and geroprotectors, and like rapamycin... |
 | [[Selective Androgen Receptor Modulators]] | Chemical Class | Tissue-selective androgen receptor ligands that promote anabolism and muscle mass with reduced androgenic side effects versus testosterone. |
+| [[Tocopherols]] | Chemical Class | Tocopherols are the four chromanol-based forms of vitamin E (alpha, beta, gamma, delta) distinguished by methyl substitution of the chromanol ring; the principal lipid-phase chain-breaking antioxidants in membranes and lipoproteins. |
+| [[Tocotrienols]] | Chemical Class | Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties. |
 
 ### Clinical Trial (4)
 
@@ -2031,17 +2029,28 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[IFN-β]] | Interferon | Interferon beta is a type I interferon and a primary output of the cGAS-STING pathway in senescent cells, reinforcing arrest and driving sterile inflammaging. |
 
-### Lipid (7)
+### Lipid (9)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Ceramide]] | Lipid | A central sphingolipid composed of sphingosine linked to a fatty acid; a pro-apoptotic/senescence-associated lipid whose catabolism by acid ceramidase releases free fatty acids that feed pro-ferrop... |
 | [[Phospholipid]] | Lipid | Glycerophospholipids forming cellular membranes; their polyunsaturated fatty acid (PUFA) content at the sn-2 position determines susceptibility to lipid peroxidation and ferroptosis. |
-| [[PUFA]] | Lipid | Polyunsaturated fatty acids; long-chain fatty acids with multiple double bonds whose esterification into membrane phospholipids provides the substrates oxidized during lipid peroxidation and ferrop... |
+| [[Hydroxyeicosatetraenoic acids]] | Lipid | HETEs are monohydroxylated derivatives of arachidonic acid produced by lipoxygenases, cytochrome P450 enzymes, or non-enzymatic lipid peroxidation; bioactive oxylipins and markers of oxidative stress. |
+| [[Resolvins]] | Lipid | Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it. |
 | [[Sphingomyelin]] | Lipid | A phosphosphingolipid synthesized from ceramide; a structural component of membranes and a reservoir for ceramide generation via sphingomyelinases. |
 | [[Sphingosine]] | Lipid | An amino alcohol backbone of sphingolipids; produced by acid ceramidase-mediated cleavage of ceramide and phosphorylated to sphingosine-1-phosphate, a pro-survival signaling lipid. |
 | [[Sphingosine-1-phosphate]] | Lipid | A bioactive sphingolipid signaling lipid phosphorylated from sphingosine; generally pro-survival, pro-proliferative, and anti-apoptotic, counterbalancing ceramide. |
 | [[Phosphatidylethanolamine]] | Lipid | Phosphatidylethanolamine is a major membrane phospholipid whose polyunsaturated (arachidonate/adrenate) species are the key peroxidation substrates that execute ferroptosis. |
+
+### Eicosanoid (5)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Prostaglandins]] | Eicosanoid | Prostaglandins are lipid-derived autacoids produced from arachidonic acid via cyclooxygenase and terminal synthases; local mediators of inflammation, pain, fever, vascular tone, and platelet function. |
+| [[Prostaglandin G₂]] | Eicosanoid | Prostaglandin G2 (PGG2) is the prostaglandin endoperoxide formed by cyclooxygenase dioxygenation of arachidonic acid; the first committed intermediate of the prostanoid cascade and a potent lipid hydroperoxide. |
+| [[Prostaglandin H₂]] | Eicosanoid | Prostaglandin H2 (PGH2) is the prostaglandin endoperoxide produced by reduction of PGG2; the common precursor of all prostanoids, including prostaglandins, thromboxane A2, and prostacyclin. |
+| [[Prostacyclin]] | Eicosanoid | Prostacyclin (PGI2) is the prostaglandin produced by prostacyclin synthase in endothelium; a potent vasodilator and inhibitor of platelet aggregation that balances thromboxane A2. |
+| [[Thromboxane A₂]] | Eicosanoid | Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin. |
 
 ### Medical Treatment (1)
 

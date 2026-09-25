@@ -2,12 +2,12 @@
 title: Lipoxygenase
 description: Lipoxygenases (LOXs) are iron-containing dioxygenases that oxidize polyunsaturated fatty acids to bioactive hydroperoxides and signaling lipids such as leukotrienes, linking lipid peroxidation to inflammation and ferroptosis.
 created: 2026-07-04
-updated: 2026-07-09
+updated: 2026-09-24
 tags:
   - enzyme
   - lipid-metabolism
   - inflammatory
-aliases: [LOX, Lipoxygenase, ALOX]
+aliases: [LOX, Lipoxygenase, Lipoxygenases, ALOX, Lipoxygenase family]
 ---
 
 # Lipoxygenase
