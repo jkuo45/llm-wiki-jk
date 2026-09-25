@@ -116,7 +116,7 @@
 <script>
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
-    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort,
+    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
@@ -138,7 +138,8 @@
 
   function matches(a, tokens){
     if (!tokens.length) return true;
-    const hay = [a.display, a.zhTitle, a.desc, a.id].join('\n').toLowerCase();
+    /* Search both language descriptions regardless of the shown one. */
+    const hay = [a.display, a.zhTitle, a.descEn, a.descZh, a.id].join('\n').toLowerCase();
     return tokens.every(t => hay.includes(t));
   }
 
@@ -190,7 +191,8 @@
           starred,
           weight,
           zhTitle: zh ? asStr(zh.title) : '',
-          desc: asStr(en.description || ''),
+          descEn: asStr(en.description || ''),
+          descZh: zh ? asStr(zh.description || '') : '',
           enPath: en.path.replace(/^pages\//, ''),
           zhPath: zh ? zh.path.replace(/^pages\//, '') : en.path.replace(/^pages\//, ''),
           created,
@@ -213,7 +215,13 @@
           ((toTime(y.latest) - toTime(x.latest)) * getDir()));
       }
 
+      /* Active card description follows the Reader's EN/中 toggle
+         (index-core wireDescLang); fallback covers single-language entries. */
+      const getDescLang = wireDescLang(render);
+
       function render(){
+        const zhDesc = getDescLang() === 'zh-TW';
+        articles.forEach(a => { a.desc = zhDesc ? (a.descZh || a.descEn) : (a.descEn || a.descZh); });
         sortArticles();
         const tokens = parseQuery(searchBox.value);
         searchClear.hidden = !searchBox.value;

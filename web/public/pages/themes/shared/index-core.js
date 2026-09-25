@@ -122,6 +122,26 @@ window.IndexCore = (function () {
     return function () { return asc ? -1 : 1; };
   }
 
+  /* Description language for the index cards, driven by the Reader's EN/中
+     lang toggle (parent → child `reader-lang` postMessage, announced after
+     every frame load and language switch). Cards always exist in both
+     languages; this only picks which description to show. Standalone views
+     stay English (page chrome is English). Returns a getter for render. */
+  var descLang = "en-US";
+  var descLangRender = null;
+  window.addEventListener("message", function (e) {
+    if (e.origin !== window.location.origin) return;
+    if (!e.data || e.data.type !== "reader-lang") return;
+    var lang = e.data.lang === "zh-TW" ? "zh-TW" : "en-US";
+    if (lang === descLang) return;
+    descLang = lang;
+    if (descLangRender) descLangRender();
+  });
+  function wireDescLang(render) {
+    descLangRender = render;
+    return function () { return descLang; };
+  }
+
   function restoreQuery(box, key) {
     try { box.value = sessionStorage.getItem(key) || ""; } catch (e) { /* storage unavailable */ }
   }
@@ -161,6 +181,7 @@ window.IndexCore = (function () {
     flagsUrl: flagsUrl,
     announceNavigate: announceNavigate,
     wireSort: wireSort,
+    wireDescLang: wireDescLang,
     restoreQuery: restoreQuery,
     persistQuery: persistQuery,
     wireSearch: wireSearch,

@@ -68,7 +68,7 @@
 <script>
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
-    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort,
+    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('wikiIndex');
@@ -89,7 +89,8 @@
 
   function matches(t, tokens){
     if (!tokens.length) return true;
-    const hay = [t.display, t.zhTitle, t.desc, t.id, t.file].join('\n').toLowerCase();
+    /* Search both language descriptions regardless of the shown one. */
+    const hay = [t.display, t.zhTitle, t.descEn, t.descZh, t.id, t.file].join('\n').toLowerCase();
     return tokens.every(tok => hay.includes(tok));
   }
 
@@ -135,7 +136,8 @@
           id: t.id,
           display: asStr(en.title),
           starred,
-          desc: asStr(en.description || ''),
+          descEn: asStr(en.description || ''),
+          descZh: zh ? asStr(zh.description || '') : '',
           enPath: en.path,
           file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
           zhPath: zh ? zh.path : en.path,
@@ -160,7 +162,13 @@
       const viewerHref = (path) =>
         'md-viewer.html?kind=wiki&src=' + encodeURIComponent('../' + path);
 
+      /* Active card description follows the Reader's EN/中 toggle
+         (index-core wireDescLang); fallback covers single-language entries. */
+      const getDescLang = wireDescLang(render);
+
       function render(){
+        const zhDesc = getDescLang() === 'zh-TW';
+        notes.forEach(n => { n.desc = zhDesc ? (n.descZh || n.descEn) : (n.descEn || n.descZh); });
         sortNotes();
         const tokens = parseQuery(searchBox.value);
         searchClear.hidden = !searchBox.value;

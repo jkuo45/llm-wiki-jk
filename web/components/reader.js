@@ -173,6 +173,16 @@ const prevBtn = document.getElementById('reader-prev');
 const modalTitle = document.getElementById('page-modal-title');
 const sourceBtns = Array.from(document.querySelectorAll('#reader-source [data-source]'));
 
+// Tell the loaded page which language edition is active so index cards can
+// render their description in the reader's chosen language (index-core.js
+// listens for `reader-lang`; other pages ignore it).
+function announceReaderLang() {
+  try {
+    const w = frame.contentWindow;
+    if (w) w.postMessage({ type: 'reader-lang', lang: currentArticle().lang }, window.location.origin);
+  } catch (e) { /* frame not ready */ }
+}
+
 // ------------------------------------------------------------
 // Session stack of visited articles (route history)
 // ------------------------------------------------------------
@@ -483,6 +493,7 @@ frame.addEventListener('load', () => {
     if (w) w.scrollTo(0, 0);
   }
   startSectionTracking();
+  announceReaderLang();
 });
 
 // Match the iframe's current location against the registry by page path.
@@ -492,8 +503,14 @@ frame.addEventListener('load', () => {
 function matchFrameArticle() {
   try {
     const path = frame.contentWindow.location.pathname;
-    const exact = ALL_ROWS.find((a) => path.endsWith('/' + a.path));
-    if (exact) return exact;
+    const exact = ALL_ROWS.filter((a) => path.endsWith('/' + a.path));
+    if (exact.length > 1) {
+      // Several rows share this file (index pages: one path for both
+      // languages). The document is identical either way, so keep the row
+      // the user selected rather than resetting to the first (en) match.
+      return exact.find((a) => a.id === state.readerId) || exact[0];
+    }
+    if (exact.length === 1) return exact[0];
     const file = path.split('/').pop();
     const groups = new Set(
       ALL_ROWS.filter((a) => a.path.split('/').pop() === file).map((a) => a.group)
@@ -556,6 +573,7 @@ langBtns.forEach((btn) => {
     if (target && target.id !== cur.id) {
       openReader(target.id, { section: state.readerSection });
     }
+    announceReaderLang();
   });
 });
 
