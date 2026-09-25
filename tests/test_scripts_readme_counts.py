@@ -39,6 +39,29 @@ class TestFormatting:
             r"\d{2}_[A-Z]{3}_\d{4} \d{2}:\d{2} [AP]M [A-Z]{2,5}", ts)
 
 
+class TestContentStats:
+    def test_counts_words_images_links_diagrams(self, tmp_path):
+        f = tmp_path / "note.md"
+        f.write_text(
+            "---\ntitle: X\ndescription: d\n---\n"
+            "One two [link](https://x) [[Alpha]] and ![](img.png).\n"
+            "中文測試\n"
+            "```mermaid\ngraph TD;\n```\n"
+            'More ![[Embed.png]] <div class="mermaid">graph</div>\n',
+            encoding="utf-8",
+        )
+        s = rc.content_stats(f)
+        assert s["images"] == 2
+        assert s["links"] == 2          # image syntax never leaks into links
+        assert s["diagrams"] == 2       # fence + <div class="mermaid">
+        assert s["words"] == 24         # 20 latin tokens (incl. image/url bits) + 4 CJK chars, no frontmatter
+
+    def test_missing_file_returns_zeros(self, tmp_path):
+        assert rc.content_stats(tmp_path / "nope.md") == {
+            "words": 0, "images": 0, "links": 0, "diagrams": 0,
+        }
+
+
 # ----------------------------------------------------------------------
 # Marker sections
 # ----------------------------------------------------------------------
@@ -198,3 +221,153 @@ class TestBuildWebTasks:
         assert not stale.exists()
         assert (args.web_tasks_dir / "en-US" / "foo.md").exists()
         assert (args.web_tasks_dir / "zh-TW" / "foo_zh-TW.md").exists()
+
+
+# ----------------------------------------------------------------------
+# build_web_wiki — scored top-N selection
+# ----------------------------------------------------------------------
+
+def wiki_args(tmp_path, **over):
+    ns = argparse.Namespace(
+        notes_dir=tmp_path / "notes",
+        web_wiki_dir=tmp_path / "web_wiki",
+        web_data_dir=tmp_path / "web_data",
+        wiki_roles=tmp_path / "node_roles.json",
+        wiki_limit=30,
+        wiki_half_life=60.0,
+        wiki_weights=(0.5, 0.35, 0.10, 0.05),
+        wiki_no_score=False,
+    )
+    for k, v in over.items():
+        setattr(ns, k, v)
+    return ns
+
+
+def write_note(args, name, *, created, updated, starred=False, words=50):
+    d = args.notes_dir / "topic"
+    d.mkdir(parents=True, exist_ok=True)
+    lines = ["---", f"title: {name}", "description: d",
+             f"created: {created}", f"updated: {updated}", "tags: [x]"]
+    if starred:
+        lines.append("starred: true")
+    lines.append("---")
+    (d / f"{name}.md").write_text(
+        "\n".join(lines) + "\n\n" + " ".join(["w"] * words) + "\n",
+        encoding="utf-8",
+    )
+
+
+def write_roles(args, nodes):
+    """nodes: {id: (pagerank, betweenness, degree)}"""
+    payload = {"nodes": [
+        {"id": i, "label": i,
+         "metrics": {"pagerank": p, "betweenness": b, "degree": d}}
+        for i, (p, b, d) in nodes.items()
+    ]}
+    args.wiki_roles.write_text(json.dumps(payload), encoding="utf-8")
+
+
+def wiki_ids(args):
+    doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+    return [g["id"] for g in doc["wiki"]]
+
+
+class TestBuildWebWikiScoring:
+    def _seed(self, tmp_path, **over):
+        from datetime import timedelta
+        args = wiki_args(tmp_path, **over)
+        today = datetime.now(timezone.utc).date()
+        write_roles(args, {
+            "hub": (0.01, 0.18, 300),       # graph-max on every metric
+            "base": (0.0001, 0.0, 2),       # low-metric baseline node
+        })
+        write_note(args, "hub", created="2026-01-01",
+                   updated=str(today - timedelta(days=30)), words=2000)
+        write_note(args, "fresh", created=str(today), updated=str(today))
+        return args
+
+    def test_default_limit_is_50(self):
+        assert rc.WIKI_LIMIT_DEFAULT == 50
+
+    def test_entries_carry_card_stats(self, tmp_path):
+        args = self._seed(tmp_path)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        hub = next(g for g in doc["wiki"] if g["id"] == "hub")
+        assert hub["stats"] == {
+            "words": 2000, "images": 0, "links": 0, "diagrams": 0,
+        }
+
+    def test_central_hub_beats_fresh_stub(self, tmp_path):
+        args = self._seed(tmp_path)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        ids = wiki_ids(args)
+        assert ids[0] == "wiki-index"
+        assert ids[1:3] == ["hub", "fresh"]  # pure recency would pick fresh first
+
+    def test_no_score_flag_restores_recency_order(self, tmp_path):
+        args = self._seed(tmp_path, wiki_no_score=True)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        assert wiki_ids(args)[1:3] == ["fresh", "hub"]
+
+    def test_star_is_bonus_not_pin(self, tmp_path):
+        from datetime import timedelta
+        args = self._seed(tmp_path)
+        today = datetime.now(timezone.utc).date()
+        # Two equally-old isolated notes: the starred one gets the 0.10 bonus
+        # and ranks higher, but neither outranks the hub, and with limit=1 the
+        # starred note falls out of the feed entirely (bonus, not pin).
+        write_note(args, "oldstar", created="2026-01-01",
+                   updated=str(today - timedelta(days=120)), starred=True)
+        write_note(args, "oldplain", created="2026-01-01",
+                   updated=str(today - timedelta(days=150)))
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        ids = wiki_ids(args)
+        assert ids[1] == "hub"
+        assert ids.index("oldstar") < ids.index("oldplain")
+
+        args.wiki_limit = 1
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        assert wiki_ids(args)[1] == "hub"
+
+    def test_missing_roles_falls_back_to_recency(self, tmp_path):
+        args = self._seed(tmp_path)
+        args.wiki_roles = tmp_path / "nope.json"
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        assert wiki_ids(args)[1:3] == ["fresh", "hub"]
+
+
+class TestGithubBlob:
+    def test_url_quoting_and_guards(self):
+        from types import SimpleNamespace
+        args = SimpleNamespace(repo_url="https://github.com/x/y", branch="dev")
+        assert rc.github_blob(args, "src/notes/a b/NF-κB.md") == (
+            "https://github.com/x/y/blob/dev/src/notes/a%20b/NF-%CE%BAB.md")
+        assert rc.github_blob(args, "/abs/notes/a.md") == ""  # outside repo
+        assert rc.github_blob(
+            SimpleNamespace(repo_url="https://github.com/x/y", branch=""),
+            "src/notes/a.md",
+        ) == ""
+
+    def test_wiki_entry_carries_github(self, tmp_path, monkeypatch):
+        monkeypatch.chdir(tmp_path)  # so the fixture notes dir can be relative
+        args = wiki_args(
+            tmp_path,
+            notes_dir=Path("notes"),
+            repo_url="https://github.com/example/repo",
+            branch="dev",
+        )
+        write_note(args, "hub", created="2026-01-01", updated="2026-01-01")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        hub = next(g for g in doc["wiki"] if g["id"] == "hub")
+        assert hub["langs"]["en-US"]["github"] == (
+            "https://github.com/example/repo/blob/dev/notes/topic/hub.md")
+
+        # Without repo/branch (bare Namespace) the key is omitted entirely.
+        args2 = wiki_args(tmp_path)
+        write_note(args2, "hub", created="2026-01-01", updated="2026-01-01")
+        rc.build_web_wiki(rc.scan_notes_for_web(args2.notes_dir), args2, tmp_path)
+        doc2 = json.loads((args2.web_data_dir / "wiki.json").read_text())
+        hub2 = next(g for g in doc2["wiki"] if g["id"] == "hub")
+        assert "github" not in hub2["langs"]["en-US"]

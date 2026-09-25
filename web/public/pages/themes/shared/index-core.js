@@ -96,6 +96,74 @@ window.IndexCore = (function () {
     } catch (e) { /* standalone view — nothing to notify */ }
   }
 
+  /* Single sort-direction toggle shared by both index pages. Returns a
+     getter giving 1 (newest first, default) or -1 (oldest first) for the
+     date term of the page comparator — starred/weight ordering never
+     flips. Choice persists for the session across both pages; the button
+     paints its own glyph (↓/↑) and tooltip. */
+  function wireSort(btn, render) {
+    var asc = false;
+    try { asc = sessionStorage.getItem("index-sort-dir") === "asc"; } catch (e) { /* storage unavailable */ }
+    function paint() {
+      btn.textContent = asc ? "↑" : "↓";
+      btn.setAttribute("aria-pressed", asc ? "true" : "false");
+      btn.title = asc
+        ? "Sort: oldest first / 排序：最舊在前"
+        : "Sort: newest first / 排序：最新在前";
+    }
+    btn.addEventListener("click", function () {
+      asc = !asc;
+      try { sessionStorage.setItem("index-sort-dir", asc ? "asc" : "desc"); }
+      catch (e) { /* storage unavailable */ }
+      paint();
+      render();
+    });
+    paint();
+    return function () { return asc ? -1 : 1; };
+  }
+
+  /* Description language for the index cards, driven by the Reader's EN/中
+     lang toggle (parent → child `reader-lang` postMessage, announced after
+     every frame load and language switch). Cards always exist in both
+     languages; this only picks which description to show. Standalone views
+     stay English (page chrome is English). Returns a getter for render. */
+  var descLang = "en-US";
+  var descLangRender = null;
+  window.addEventListener("message", function (e) {
+    if (e.origin !== window.location.origin) return;
+    if (!e.data || e.data.type !== "reader-lang") return;
+    var lang = e.data.lang === "zh-TW" ? "zh-TW" : "en-US";
+    if (lang === descLang) return;
+    descLang = lang;
+    if (descLangRender) descLangRender();
+  });
+  function wireDescLang(render) {
+    descLangRender = render;
+    return function () { return descLang; };
+  }
+
+  /* Trello-style stat chips for index cards: raw word count plus
+     icon+count badges for images, links, and mermaid diagrams. Zero or
+     missing counts are skipped; returns '' when there is nothing to show.
+     SVGs inherit currentColor via CSS (.stat svg in index.css). */
+  function statChips(stats) {
+    if (!stats) return "";
+    var ICONS = [
+      ["words", "Words / 字數", '<path d="M6 4h12v16H6z"/><path d="M9 8h6M9 12h6M9 16h4"/>'],
+      ["images", "Images / 圖片", '<path d="M4 6h16v12H4z"/><circle cx="9" cy="11" r="1.4"/><path d="M20 15l-4.5-4.5L12 14l-2-2-6 6"/>'],
+      ["links", "Links / 連結", '<path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.8-2.8a4 4 0 1 0-5.7-5.7l-1.4 1.4"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0L5 13.3a4 4 0 1 0 5.7 5.7l1.4-1.4"/>'],
+      ["diagrams", "Mermaid diagrams / 圖表", '<rect x="3.5" y="4" width="6" height="5" rx="1"/><rect x="14.5" y="15" width="6" height="5" rx="1"/><path d="M6.5 9v5.5a2 2 0 0 0 2 2H14"/>'],
+    ];
+    var out = "";
+    ICONS.forEach(function (spec) {
+      var n = Number(stats[spec[0]]) || 0;
+      if (n <= 0) return;
+      out += '<span class="stat" title="' + esc(spec[1]) + '"><svg viewBox="0 0 24 24" aria-hidden="true">' +
+        spec[2] + "</svg>" + (spec[0] === "words" ? n.toLocaleString("en-US") : String(n)) + "</span>";
+    });
+    return out ? '<span class="stat-chips">' + out + "</span>" : "";
+  }
+
   function restoreQuery(box, key) {
     try { box.value = sessionStorage.getItem(key) || ""; } catch (e) { /* storage unavailable */ }
   }
@@ -134,6 +202,9 @@ window.IndexCore = (function () {
     FLAGS_OVERLAY_ENABLED: FLAGS_OVERLAY_ENABLED,
     flagsUrl: flagsUrl,
     announceNavigate: announceNavigate,
+    wireSort: wireSort,
+    wireDescLang: wireDescLang,
+    statChips: statChips,
     restoreQuery: restoreQuery,
     persistQuery: persistQuery,
     wireSearch: wireSearch,

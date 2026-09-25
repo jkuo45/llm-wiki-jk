@@ -2,12 +2,14 @@
 
 /* Wiki-link tooltips sourced directly from web/data/nodes.json node
  * descriptions. Converts [[Entity]] / [[Entity|Display]] in page prose into
- * hover-tooltip spans. Reuses the shared #netTip element and
- * showTip/moveTip/hideTip helpers from pages-core.js.
+ * hover-tooltip spans. theme-01 pages render through the shared #netTip
+ * element (showTip/moveTip/hideTip from pages-core.js); theme-02 pages, which
+ * have no #netTip, publish a plain-text [data-tip] that T2.initTooltip()
+ * renders instead.
  *
  * Highlighting is applied immediately (no network needed); the definition
  * tooltip is enriched once nodes.json has loaded. The file is fetched from a
- * path relative to this page (web/pages/ -> ../data/nodes.json), and every
+ * path relative to this page (pages/<lang>/ -> ../../data/nodes.json), and every
  * node carries a description, so tooltip coverage is complete.
  *
  * A MutationObserver also processes content rendered after load (e.g.
@@ -16,10 +18,16 @@
  */
 
 (function () {
-  if (typeof showTip !== "function") return; // tooltip infra missing
+  // theme-01 pages expose the shared #netTip helpers (pages-core.js); theme-02
+  // pages have no #netTip but T2.initTooltip() renders [data-tip] spans as plain
+  // text, so both get wiki-link tooltips from this one converter.
+  var NETTIP = typeof showTip === "function";
+  var SPANS = []; // data-tip spans, refreshed once nodes.json lands
 
-  var CTX_URL = "../data/nodes.json";
+  var CTX_URL = "../../data/nodes.json";
   var MAP = null; // populated after fetch
+  // zh-Hant pages read the Traditional-Chinese descriptions; en pages the English.
+  var ZH = (document.documentElement.lang || "").toLowerCase().indexOf("zh") === 0;
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -38,8 +46,11 @@
   function buildMap(nodes) {
     var byLabel = {}, byId = {};
     (nodes || []).forEach(function (n) {
-      if (!n.description) return;
-      var info = { description: n.description, label: n.label };
+      // description_zh_TW covers only the triples-derived nodes; fall back to the
+      // English description so zh pages stay as complete as en pages.
+      var desc = (ZH && n.description_zh_TW) || n.description;
+      if (!desc) return;
+      var info = { description: desc, label: n.label };
       byId[n.id] = info;
       byLabel[n.label] = info;
       var lower = n.label.toLowerCase();
@@ -60,14 +71,20 @@
     );
   }
 
-  function tipFor(key, disp) {
+  function tipBody(key) {
     var e = lookup(key);
-    if (e && e.description) {
-      var body = e.description.replace(/\s+/g, " ").trim();
-      if (body.length > 300) {
-        var c = body.lastIndexOf(".", 300);
-        body = (c > 150 ? body.slice(0, c) : body.slice(0, 300)).replace(/[.,;:]\s*$/, "") + "…";
-      }
+    if (!e || !e.description) return "";
+    var body = e.description.replace(/\s+/g, " ").trim();
+    if (body.length > 300) {
+      var c = body.lastIndexOf(".", 300);
+      body = (c > 150 ? body.slice(0, c) : body.slice(0, 300)).replace(/[.,;:]\s*$/, "") + "…";
+    }
+    return body;
+  }
+
+  function tipFor(key, disp) {
+    var body = tipBody(key);
+    if (body) {
       return (
         '<b style="color:var(--teal)">' + esc(disp) + "</b><br>" +
         '<span style="color:var(--text)">' + esc(body) + "</span>"
@@ -76,12 +93,29 @@
     return '<span style="color:var(--dim)">No wiki note yet for ' + esc(disp) + "</span>";
   }
 
+  // theme-02 path: [data-tip] is rendered as textContent, so keep it plain.
+  function tipText(key, disp) {
+    var body = tipBody(key);
+    return body ? disp + " — " + body : "No wiki note yet for " + disp;
+  }
+
+  function refreshDataTips() {
+    for (var i = 0; i < SPANS.length; i++) {
+      SPANS[i][0].setAttribute("data-tip", tipText(SPANS[i][1], SPANS[i][2]));
+    }
+  }
+
   function attach(span, key, disp) {
-    span.addEventListener("mouseenter", function () {
-      showTip(tipFor(key, disp));
-    });
-    span.addEventListener("mousemove", moveTip);
-    span.addEventListener("mouseleave", hideTip);
+    if (NETTIP) {
+      span.addEventListener("mouseenter", function () {
+        showTip(tipFor(key, disp));
+      });
+      span.addEventListener("mousemove", moveTip);
+      span.addEventListener("mouseleave", hideTip);
+    } else {
+      SPANS.push([span, key, disp]);
+      span.setAttribute("data-tip", tipText(key, disp));
+    }
   }
 
   function processNode(node) {
@@ -122,7 +156,10 @@
         p.tagName === "STYLE" ||
         p.tagName === "SVG" ||
         p.tagName === "NOSCRIPT" ||
-        p.tagName === "TEXTAREA")
+        p.tagName === "TEXTAREA" ||
+        // code samples show [[wikilinks]] as literal syntax, not entity prose
+        p.tagName === "PRE" ||
+        p.tagName === "CODE")
     )
       return NodeFilter.FILTER_REJECT;
     return NodeFilter.FILTER_ACCEPT;
@@ -171,12 +208,16 @@
     // by CORS. Falls back to fetching the full node list over HTTP when absent.
     if (window.__WIKI_CTX__ && Array.isArray(window.__WIKI_CTX__) && window.__WIKI_CTX__.length) {
       MAP = buildMap(window.__WIKI_CTX__);
+      if (!NETTIP) refreshDataTips();
       return;
     }
     if (typeof fetch !== "function") return;
     fetch(CTX_URL)
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-      .then(function (nodes) { MAP = buildMap(nodes); })
+      .then(function (nodes) {
+        MAP = buildMap(nodes);
+        if (!NETTIP) refreshDataTips();
+      })
       .catch(function () { /* tooltips stay unavailable; highlight still works */ });
   }
 

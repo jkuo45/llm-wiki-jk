@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wiki Notes — Index</title>
+<meta name="description" content="Index of the most recently created/updated wiki notes in the llm-wiki-jk knowledge base, grouped by recency.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="themes/theme-02/theme.css">
+<script src="themes/theme-02/theme.js"></script>
+<script src="themes/theme-02/pages-core.js"></script>
+<script src="themes/shared/index-core.js"></script>
+<link rel="stylesheet" href="themes/shared/index.css">
+<style>
+/* Page-specific only — shared index chrome lives in themes/shared/index.css
+   (.card, .card-star/.stat chips, buckets); the card classes below are
+   wiki-* and defined here only (tasks-index.html keeps its own task-* copies). */
+.wiki-list { list-style: none; margin: 0; padding: 0; }
+.wiki-card {
+  padding: 16px 20px 13px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.wiki-card:hover {
+  border-left-color: var(--oxblood-soft);
+  transform: translateY(-1px);
+}
+.wiki-title { font-size: 1.05rem; font-weight: 600; line-height: 1.35; margin: 0 0 4px; }
+.wiki-title a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.wiki-title a:hover { color: var(--oxblood); }
+.wiki-card { position: relative; }
+/* Page-specific: zh subtitle + meta rows (star + stat chips come from index.css) */
+.wiki-zh { font-size: .95rem; color: var(--ink-soft); margin: 0 0 10px; }
+.wiki-zh a { color: var(--mute); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.wiki-zh a:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
+.wiki-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--faint);
+  margin: 0 0 4px;
+  /* Reserve room for the absolutely-positioned corner chips (index.css
+     .stat-chips) so long filenames/dates never run under them. */
+  padding-right: 160px;
+}
+.wiki-meta:last-child { margin-bottom: 0; }
+/* Card filename → note source on GitHub (dev branch). Keeps the chip look;
+   recolors + underlines on hover so it reads as a link. */
+.wiki-meta .file-link { color: inherit; text-decoration: none; }
+.wiki-meta .file-link:hover { color: var(--oxblood); text-decoration: underline; }
+/* Descriptions are hidden by default (compact card list); the toggle in the
+   search row flips this class on. Search still matches desc text either way. */
+.no-desc .wiki-desc { display: none; }
+.wiki-desc { color: var(--mute); font-size: .92rem; margin: 0 0 10px; }
+
+/* Descriptions toggle: reads as "off" when dimmed, "on" when accented */
+.desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
+/* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
+.sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
+@media (max-width: 640px) {
+  .wiki-card { padding: 14px 14px 12px; }
+  /* Chips fall back to the meta row below 640px — no corner reservation. */
+  .wiki-meta { padding-right: 0; }
+}
+</style>
+<link rel="stylesheet" href="themes/theme-02/dark.css">
+</head>
+<body>
+<main class="index" id="content">
+  <div class="wrap">
+    <div class="search-row" id="searchRow">
+      <input type="search" id="searchBox" placeholder="search wiki notes… / 搜尋 Wiki 筆記" autocomplete="off">
+      <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+      <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
+      <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
+    </div>
+    <div id="wikiIndex"></div>
+  </div>
+  <div class="wrap">
+    <p class="empty-note" id="noMatchNote" hidden></p>
+    <p class="empty-note" id="emptyNote" hidden></p>
+  </div>
+</main>
+
+<script>
+(function(){
+  const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
+    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
+    restoreQuery, persistQuery, wireSearch, statChips } = window.IndexCore;
+  const BUCKETS = UPDATED_BUCKETS;
+  const list = document.getElementById('wikiIndex');
+  const emptyNote = document.getElementById('emptyNote');
+  const noMatchNote = document.getElementById('noMatchNote');
+  const searchBox = document.getElementById('searchBox');
+  const searchClear = document.getElementById('searchClear');
+  const descToggle = document.getElementById('descToggle');
+  const SEARCH_KEY = 'wiki-index-search';
+  const DESC_KEY = 'wiki-index-desc';
+  /* Descriptions hidden by default; the ¶ toggle flips them and remembers
+     the choice for the session. */
+  let showDesc = false;
+  try { showDesc = sessionStorage.getItem(DESC_KEY) === '1'; } catch { /* storage unavailable */ }
+  /* Restore the query from a previous visit so returning from a note
+     keeps the active filter. */
+  restoreQuery(searchBox, SEARCH_KEY);
+
+  function matches(t, tokens){
+    if (!tokens.length) return true;
+    /* Search both language descriptions regardless of the shown one. */
+    const hay = [t.display, t.zhTitle, t.descEn, t.descZh, t.id, t.file].join('\n').toLowerCase();
+    return tokens.every(tok => hay.includes(tok));
+  }
+
+  /* DB-backed flag overlay (content_flags via the FastAPI adapter); static
+     frontmatter-derived flags stay as the offline fallback. See
+     tasks-index.html — same FLAGS_OVERLAY_ENABLED switch. */
+  const FLAGS_API = flagsUrl();
+
+  Promise.all([
+    fetch('../data/wiki.json').then(r => r.json()),
+    FLAGS_OVERLAY_ENABLED
+      ? fetch(FLAGS_API).then(r => r.json()).catch(() => null)
+      : Promise.resolve(null),
+  ])
+  .then(([data, flagData]) => {
+    const dbFlags = (flagData && flagData.flags && flagData.flags.wiki_note) || {};
+    /* DB (and admin panel) key wiki flags by the markdown filename. */
+    const noteIdOf = (t) => {
+      const en = t.langs?.['en-US'] || {};
+      return asStr(en.filename) || String(t.id) + '.md';
+    };
+    const dbStarred = (t, key) => {
+      const f = dbFlags[key];
+      return f && Object.prototype.hasOwnProperty.call(f, 'starred')
+        ? f.starred === true : t.starred === true;
+    };
+    const toTime = (s) => { const t = Date.parse(s || ''); return Number.isNaN(t) ? -Infinity : t; };
+    const notes = (data.wiki || [])
+      .filter(t => t.active !== false && t.id !== 'wiki-index' && t.langs && t.langs['en-US'])
+      .map(t => {
+        const en = t.langs['en-US'];
+        const zh = t.langs['zh-TW'];
+        /* Sort/group by whichever is newer — created or updated (fall
+           back to created when an entry has no updated date): the wiki
+           feed is a recent-activity list. Dates live under langs. */
+        const updated = en.updated || zh?.updated || en.created || zh?.created || '';
+        const created = en.created || zh?.created || '';
+        const latest = toTime(updated) >= toTime(created) ? (updated || created) : created;
+        const isNew = toTime(created) >= toTime(updated);
+        const key = noteIdOf(t);
+        const starred = dbStarred(t, key);
+        return {
+          id: t.id,
+          display: asStr(en.title),
+          starred,
+          stats: t.stats,
+          descEn: asStr(en.description || ''),
+          descZh: zh ? asStr(zh.description || '') : '',
+          enPath: en.path,
+          file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
+          github: asStr(en.github || ''),
+          zhPath: zh ? zh.path : en.path,
+          zhTitle: zh ? asStr(zh.title) : '',
+          created,
+          updated,
+          latest,
+          verb: isNew ? 'created' : 'updated',
+          age: relAge(latest),
+          bucket: starred ? 0 : bucket(latest),
+        };
+      });
+
+      /* Sort order flips only the date term (starred stays first);
+         newest-first is the default. */
+      const getDir = wireSort(document.getElementById('sortToggle'), render);
+      function sortNotes(){
+        notes.sort((x, y) => (y.starred - x.starred) ||
+          ((toTime(y.latest) - toTime(x.latest)) * getDir()));
+      }
+
+      const viewerHref = (path) =>
+        'md-viewer.html?kind=wiki&src=' + encodeURIComponent('../' + path);
+
+      /* Active card description follows the Reader's EN/中 toggle
+         (index-core wireDescLang); fallback covers single-language entries. */
+      const getDescLang = wireDescLang(render);
+
+      function render(){
+        const zhDesc = getDescLang() === 'zh-TW';
+        notes.forEach(n => { n.desc = zhDesc ? (n.descZh || n.descEn) : (n.descEn || n.descZh); });
+        sortNotes();
+        const tokens = parseQuery(searchBox.value);
+        searchClear.hidden = !searchBox.value;
+        let shown = 0;
+        let html = '';
+        BUCKETS.forEach(([label, zhLabel, cls], bi) => {
+          const group = notes.filter(t => t.bucket === bi && matches(t, tokens));
+          if (!group.length) return;
+          shown += group.length;
+          html += `<h2 class="bucket-heading">${label} / ${zhLabel}` +
+                  `<span class="bucket-count">${group.length}</span></h2><ul class="wiki-list">`;
+          html += group.map(t => `
+            <li class="wiki-card card">
+              <p class="wiki-title"><a href="${esc(viewerHref(t.enPath))}" data-wiki-id="${esc(t.id)}">${highlight(t.display, tokens)}</a></p>
+              ${t.zhTitle ? `<p class="wiki-zh"><a href="${esc(viewerHref(t.zhPath))}" data-wiki-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
+              ${t.desc ? `<p class="wiki-desc">${highlight(t.desc, tokens)}</p>` : ''}
+              <p class="wiki-meta">${t.github
+                ? `<a class="file-link" href="${esc(t.github)}" target="_blank" rel="noopener" title="View source on GitHub / 在 GitHub 檢視原始檔"><code>${esc(t.file)}</code></a>`
+                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span>${statChips(t.stats)}</p>
+            </li>`).join('');
+          html += '</ul>';
+        });
+        list.innerHTML = html;
+        list.classList.toggle('no-desc', !showDesc);
+        descToggle.setAttribute('aria-pressed', showDesc ? 'true' : 'false');
+        noMatchNote.hidden = !(notes.length && !shown && tokens.length);
+        noMatchNote.textContent = `No wiki notes match “${searchBox.value.trim()}” / 沒有符合的 Wiki 筆記`;
+        persistQuery(searchBox, SEARCH_KEY);
+      }
+      render();
+
+      emptyNote.hidden = notes.length > 0;
+      if (!notes.length) emptyNote.textContent = 'No active wiki notes found.';
+
+      /* Debounced re-render on input; the query survives navigation via
+         sessionStorage so returning from a note keeps the filter. */
+      wireSearch(searchBox, searchClear, SEARCH_KEY, render);
+
+      descToggle.addEventListener('click', () => {
+        showDesc = !showDesc;
+        try { sessionStorage.setItem(DESC_KEY, showDesc ? '1' : '0'); }
+        catch { /* storage unavailable */ }
+        render();
+      });
+
+      /* Embedded in the Reader: announce navigation so the parent dropdown
+         updates immediately (before iframe load). The real href above still
+         navigates the frame, mirroring how tasks-index.html works. */
+      list.addEventListener('click', (e) => {
+        const a = e.target.closest('a[data-wiki-id]');
+        if (!a) return;
+        announceNavigate(a.dataset.wikiId);
+      });
+    })
+    .catch(err => {
+      emptyNote.textContent = 'Failed to load data/wiki.json: ' + err.message;
+      emptyNote.hidden = false;
+    });
+})();
+</script>
+</body>
+</html>

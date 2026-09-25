@@ -83,7 +83,7 @@ async function loadAllData() {
   // page with the other mode's files — so they are skipped entirely.
   const mode = DATASET_MODE;
   const prefix = mode === 'triples' ? 'triples-' : mode === 'wiki' ? 'wiki-' : '';
-  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, TRACES, ARTICLES, TASKS, PREDICATES, SUGGESTED_PROMPTS] = await Promise.all([
+  const [RAW_NODES, RAW_EDGES, LEGEND, GRAPH_META, TRANSLATIONS, TRACES, ARTICLES, TASKS, WIKI, PREDICATES, SUGGESTED_PROMPTS] = await Promise.all([
     getJSONRequired(prefix + 'nodes.json', 'nodes'),
     getJSONRequired(prefix + 'edges.json', 'edges'),
     getJSONRequired(prefix + 'legend.json', 'legend'),
@@ -92,6 +92,7 @@ async function loadAllData() {
     getJSON('query.json', 'traces'),
     getJSON('articles.json', 'articles'),
     getJSON('tasks.json', 'tasks'),
+    getJSON('wiki.json', 'wiki'),
     getJSON('predicates-zh-TW.json', 'predicates'),
     getJSON('suggested-prompts.json', 'suggested-prompts'),
   ]);
@@ -104,6 +105,7 @@ async function loadAllData() {
     TRACES: TRACES || [],
     ARTICLES: ARTICLES || [],
     TASKS: (TASKS && TASKS.tasks) || [],
+    WIKI: (WIKI && WIKI.wiki) || [],
     PREDICATES: PREDICATES || {},
     SUGGESTED_PROMPTS: SUGGESTED_PROMPTS || {},
   };
@@ -147,6 +149,7 @@ export let TRACES = [];
 export let TRANSLATIONS = {};
 export let ARTICLES = [];
 export let TASKS = [];
+export let WIKI = [];
 export let PREDICATES = {};
 export let SUGGESTED_PROMPTS = {}; // suggested chat prompts, keyed by UI language
 
@@ -174,6 +177,7 @@ TRANSLATIONS = loaded ? loaded.TRANSLATIONS : {};
 TRACES = loaded ? loaded.TRACES : [];
 ARTICLES = loaded ? loaded.ARTICLES : [];
 TASKS = loaded ? loaded.TASKS : [];
+WIKI = loaded ? loaded.WIKI : [];
 PREDICATES = loaded ? loaded.PREDICATES : {};
 SUGGESTED_PROMPTS = loaded ? loaded.SUGGESTED_PROMPTS : {};
 

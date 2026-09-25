@@ -1,10 +1,10 @@
 <!--
   Generic standalone markdown viewer, shared by the reader's Task Outputs and
-  Entities tabs. Fetch a single raw .md file (tasks/… or notes/…) at its
+  Wiki Notes tabs. Fetch a single raw .md file (tasks/… or wiki/…) at its
   serving location under web/public/ and render it with the same renderer the
-  app uses (../components/markdown.js). `?src=` is the page-relative markdown path.
-  This viewer only serves task outputs — entity notes are not published on the
-  website.
+  app uses (../components/markdown.js). `?src=` is the page-relative markdown
+  path; `?kind=task|wiki` picks the registry, back-link, and Next button
+  (tasks-index.html / wiki-index.html + tasks.json / wiki.json).
 
   Entity descriptions shown on hover are sourced from the canonical knowledge
   graph web/public/data/nodes.json — build of the active dataset. The backend
@@ -64,6 +64,11 @@
 .callout-note      { border-left-color:#4da3ff; }
 .callout-example   { border-left-color:#38c793; }
 .callout-quote     { border-left-color:var(--dim); }
+/* Embedded task images: keep them inside the column, captions muted. */
+.md-body img { max-width:100%; height:auto; border-radius:8px; }
+.md-body figure { margin:16px 0; }
+.md-body figure img { display:block; }
+.md-body figcaption { color:var(--dim); font-size:.85rem; margin-top:6px; line-height:1.45; }
  a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
  span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
 /* Entities backed by a graphify-out/graph.json description get a hover tooltip + click-to-expand
@@ -140,21 +145,25 @@ import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid } from '../components/
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
-// Which registry + back-link to use: always task outputs.
-const KIND = 'task';
+// Which registry + back-link to use: `?kind=wiki` serves the wiki feed,
+// anything else falls back to task outputs (legacy links have no kind param).
+const KIND = new URLSearchParams(location.search).get('kind') === 'wiki' ? 'wiki' : 'task';
+const IS_WIKI = KIND === 'wiki';
 const backIndex = document.getElementById('back-index');
-backIndex.href = 'tasks-index.html';
-backIndex.title = 'Back to task outputs index / 返回任務輸出索引';
-document.title = 'Task Output';
+backIndex.href = IS_WIKI ? 'wiki-index.html' : 'tasks-index.html';
+backIndex.title = IS_WIKI
+  ? 'Back to wiki notes index / 返回 Wiki 筆記索引'
+  : 'Back to task outputs index / 返回任務輸出索引';
+document.title = IS_WIKI ? 'Wiki Note' : 'Task Output';
 
-// Only files under tasks/ may be loaded through this viewer.
+// Only files under tasks/ or wiki/ may be loaded through this viewer.
 function safeSrc() {
   const raw = new URLSearchParams(location.search).get('src') || '';
   const decoded = decodeURIComponent(raw);
   // Optional "../" prefix (page-relative). Allow nested subdirectories
   // (e.g. tasks/en-US/<task>/file.md) but no traversal (".." segments), no
   // backslashes, no empty segments.
-  const m = decoded.match(/^(?:\.\.\/)?(tasks\/.+)$/);
+  const m = decoded.match(/^(?:\.\.\/)?((?:tasks|wiki)\/.+)$/);
   if (!m) return null;
   const segs = m[1].split('/');
   const ok = segs.length >= 2 &&
@@ -194,7 +203,9 @@ async function loadEntityDescriptions() {
   const byLabel = new Map();
   const byLabelZh = new Map();
   try {
-    const resp = await fetch('../data/nodes.json?v=' + Date.now());
+    // No ?v= cache-buster: the SPA already fingerprints data files via
+    // version.json, and a 4.9 MB re-download on every note view is not free.
+    const resp = await fetch('../data/nodes.json');
     const g = await resp.json();
     (Array.isArray(g) ? g : (g.nodes || [])).forEach((n) => {
       if (!n.description) return;
@@ -364,7 +375,11 @@ if (!src) {
     activeByLabelZh = entity.byLabelZh;
     activeHref = wikiHref;
     content.querySelectorAll('a.wikilink, span.wikilink').forEach((el) => {
-      const label = el.textContent.trim();
+      // data-wiki is the link target (renderMarkdown emits it), so
+      // [[Retinoblastoma Protein|Rb]] resolves on "Retinoblastoma Protein",
+      // not on the display text. Fall back to the text for legacy markup.
+      const label = el.dataset.wiki || el.textContent.trim();
+      const text = el.textContent.trim();
       const key = wikiKeyFor(label, entity.byLabel);
       const gh = wikiHref ? wikiHref(label) : '';
       // Upgrade to a tooltip span when the entity has either a stored
@@ -374,7 +389,7 @@ if (!src) {
       span.className = 'md-entity-link';
       span.dataset.wiki = key || label;
       if (gh) span.dataset.gh = gh;
-      span.textContent = label;
+      span.textContent = text;
       el.replaceWith(span);
     });
     content.addEventListener('mouseover', (e) => {
@@ -403,8 +418,9 @@ if (!src) {
     const firstH1 = content.querySelector('h1');
     if (firstH1) document.title = firstH1.textContent;
     // Next button → open the next note in registry order (newest first —
-    // mirrors the reader dropdown). The registry is fetched lazily; the button
-    // stays inert until a next document resolves.
+    // mirrors the reader dropdown; wiki.json is already rank-sorted by the
+    // build, tasks.json by updated date). The registry is fetched lazily; the
+    // button stays inert until a next document resolves.
     const NAV_OFFSET = 60; // matches nav height + breathing room
     const tocSelect = document.getElementById('toc-select');
     const nextBtn = document.getElementById('toc-next');
@@ -412,15 +428,16 @@ if (!src) {
 
     async function initNext() {
       try {
-        const resp = await fetch('../data/tasks.json');
+        const resp = await fetch(IS_WIKI ? '../data/wiki.json' : '../data/tasks.json');
         if (!resp.ok) return;
         const data = await resp.json();
         // Flatten to one row per entry (prefer en-US), keep .md docs only.
-        const rows = (data.tasks || [])
+        const rows = ((IS_WIKI ? data.wiki : data.tasks) || [])
           .filter((t) => t.active !== false)
           .map((t) => t.langs?.['en-US'] || Object.values(t.langs || {})[0])
           .filter((l) => l && l.path && /\.md$/.test(l.path))
-          .sort((a, b) => (b.created || '').localeCompare(a.created || ''));
+          .sort((a, b) => String(b.updated || b.created || '')
+            .localeCompare(String(a.updated || a.created || '')));
         const curPath = decodeURIComponent(
           new URLSearchParams(location.search).get('src') || ''
         ).replace(/^\.\.\//, '');
@@ -429,7 +446,7 @@ if (!src) {
         if (next) {
           nextHref = 'md-viewer.html?kind=' + KIND +
             '&src=' + encodeURIComponent('../' + next.path);
-          nextBtn.title = 'Next task output: ' + next.title;
+          nextBtn.title = 'Next ' + (IS_WIKI ? 'wiki note: ' : 'task output: ') + next.title;
         }
       } catch (e) { /* registry unavailable → button stays inert */ }
     }

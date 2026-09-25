@@ -1,0 +1,1922 @@
+{
+  "generated": "25_SEP_2026 01:01 PM PDT",
+  "wiki": [
+    {
+      "id": "wiki-index",
+      "kind": "wiki",
+      "active": true,
+      "langs": {
+        "en-US": {
+          "title": "[index] wiki notes",
+          "description": "Index of the most recently created/updated wiki notes.",
+          "created": "",
+          "updated": "",
+          "tags": [],
+          "path": "pages/wiki-index.html"
+        },
+        "zh-TW": {
+          "title": "Wiki 筆記索引",
+          "description": "最近建立／更新的 wiki 筆記索引。",
+          "created": "",
+          "updated": "",
+          "tags": [],
+          "path": "pages/wiki-index.html"
+        }
+      }
+    },
+    {
+      "id": "SASP",
+      "langs": {
+        "en-US": {
+          "title": "Senescence-Associated Secretory Phenotype",
+          "description": "The senescence-associated secretory phenotype (SASP) is a complex mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, bioactive lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent cells, mediating paracrine and systemic effects on the tissue microenvironment.",
+          "created": "2024-01-01",
+          "updated": "2026-09-15",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "inflammaging",
+            "aging"
+          ],
+          "filename": "SASP.md",
+          "path": "wiki/en-US/senescence/SASP.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md"
+        },
+        "zh-TW": {
+          "title": "Senescence-Associated Secretory Phenotype",
+          "description": "衰老相關分泌表型（SASP）是衰老細胞分泌的一複雜混合物，包含細胞激素、趨化因子、生長因子、基質金屬蛋白酶、生物活性脂質、細胞外囊泡與非編碼核酸，對組織微環境介導旁分泌與全身性效應。",
+          "created": "2024-01-01",
+          "updated": "2026-09-15",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "inflammaging",
+            "aging"
+          ],
+          "filename": "SASP.md",
+          "path": "wiki/zh-TW/senescence/SASP.md"
+        }
+      },
+      "stats": {
+        "words": 6046,
+        "images": 0,
+        "links": 491,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "SIRT1",
+      "langs": {
+        "en-US": {
+          "title": "SIRT1",
+          "description": "Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin) and the most extensively characterized member of the Sirtuins family. It links cellular energy status to chromatin regulation, ...",
+          "created": "2026-07-06",
+          "updated": "2026-09-02",
+          "tags": [
+            "gene",
+            "protein",
+            "sirtuin",
+            "deacetylase"
+          ],
+          "filename": "SIRT1.md",
+          "path": "wiki/en-US/sirtuins/SIRT1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md"
+        },
+        "zh-TW": {
+          "title": "SIRT1",
+          "description": "Sirt1 是 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、...",
+          "created": "2026-07-06",
+          "updated": "2026-09-02",
+          "tags": [
+            "gene",
+            "protein",
+            "sirtuin",
+            "deacetylase"
+          ],
+          "filename": "SIRT1.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT1.md"
+        }
+      },
+      "stats": {
+        "words": 7270,
+        "images": 0,
+        "links": 626,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Apoptosis",
+      "langs": {
+        "en-US": {
+          "title": "Apoptosis",
+          "description": "Apoptosis (programmed cell death) is a highly regulated mechanism for removing damaged, infected, redundant, or potentially cancerous cells without inducing inflammation.",
+          "created": "2026-05-29",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "apoptosis"
+          ],
+          "filename": "Apoptosis.md",
+          "path": "wiki/en-US/cell-death/Apoptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis.md"
+        },
+        "zh-TW": {
+          "title": "Apoptosis",
+          "description": "凋亡（程式性細胞死亡）是一種高度受調控的機制，可在不引發發炎的情況下清除受損、感染、多餘或具潛在癌變風險的細胞。",
+          "created": "2026-05-29",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "apoptosis"
+          ],
+          "filename": "Apoptosis.md",
+          "path": "wiki/zh-TW/cell-death/Apoptosis.md"
+        }
+      },
+      "stats": {
+        "words": 3248,
+        "images": 0,
+        "links": 212,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Autophagy",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy",
+          "description": "Cellular degradation pathway that delivers cytoplasmic material to lysosomes for recycling; maintains energy homeostasis and quality control.",
+          "created": "2026-07-04",
+          "updated": "2026-09-11",
+          "tags": [
+            "biological-process",
+            "lysosome",
+            "degradation"
+          ],
+          "filename": "Autophagy.md",
+          "path": "wiki/en-US/autophagy/Autophagy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md"
+        },
+        "zh-TW": {
+          "title": "Autophagy",
+          "description": "細胞降解途徑，將胞質物質送往溶酶體以利回收； 維持能量恆定與品質控制。",
+          "created": "2026-07-04",
+          "updated": "2026-09-11",
+          "tags": [
+            "biological-process",
+            "lysosome",
+            "degradation"
+          ],
+          "filename": "Autophagy.md",
+          "path": "wiki/zh-TW/autophagy/Autophagy.md"
+        }
+      },
+      "stats": {
+        "words": 5129,
+        "images": 0,
+        "links": 467,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "NAD+",
+      "langs": {
+        "en-US": {
+          "title": "NAD+",
+          "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell, essential for energy Metabolism and a vital signaling molecule. It serves as an obligatory co-substrate for all ...",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "chemical-compound",
+            "nad-plus"
+          ],
+          "filename": "NAD+.md",
+          "path": "wiki/en-US/_link/NAD%2B.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAD%2B.md"
+        },
+        "zh-TW": {
+          "title": "NAD+",
+          "description": "NAD+（菸醯胺腺嘌呤二核苷酸）是存在於每個細胞中的關鍵輔酶，對能量代謝不可或缺，也是重要的訊號分子；它作為所有 sirtuin 酵素的必需共同受質。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "chemical-compound",
+            "nad-plus"
+          ],
+          "filename": "NAD+.md",
+          "path": "wiki/zh-TW/_link/NAD%2B.md"
+        }
+      },
+      "stats": {
+        "words": 2745,
+        "images": 0,
+        "links": 184,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Glutathione",
+      "langs": {
+        "en-US": {
+          "title": "Glutathione",
+          "description": "Glutathione (GSH) is the most abundant endogenous thiol antioxidant, a tripeptide of glutamate, cysteine, and glycine that buffers cellular redox state, reduces peroxides via GPX enzymes, and conjugates electrophiles for excretion.",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "antioxidant",
+            "redox-signaling",
+            "peptide"
+          ],
+          "filename": "Glutathione.md",
+          "path": "wiki/en-US/_link/Glutathione.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Glutathione.md"
+        },
+        "zh-TW": {
+          "title": "Glutathione",
+          "description": "Glutathione（GSH）是含量最豐富的內源性硫醇抗氧化劑，為由麩胺酸、半胱胺酸與甘胺酸組成的三肽，能緩衝細胞氧化還原狀態、透過 GPX 酶還原過氧化物，並與親電子物質結合以排出體外。",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "antioxidant",
+            "redox-signaling",
+            "peptide"
+          ],
+          "filename": "Glutathione.md",
+          "path": "wiki/zh-TW/_link/Glutathione.md"
+        }
+      },
+      "stats": {
+        "words": 1202,
+        "images": 0,
+        "links": 97,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "SIRT3",
+      "langs": {
+        "en-US": {
+          "title": "SIRT3",
+          "description": "SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized within the Mitochondria.",
+          "created": "2026-07-04",
+          "updated": "2026-09-02",
+          "tags": [
+            "enzyme",
+            "nad-plus"
+          ],
+          "filename": "SIRT3.md",
+          "path": "wiki/en-US/sirtuins/SIRT3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT3.md"
+        },
+        "zh-TW": {
+          "title": "SIRT3",
+          "description": "SIRT3（Sirtuin 3）是主要定位於粒線體內的 NAD⁺-依賴性去乙醯化酶。",
+          "created": "2026-07-04",
+          "updated": "2026-09-02",
+          "tags": [
+            "enzyme",
+            "nad-plus"
+          ],
+          "filename": "SIRT3.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT3.md"
+        }
+      },
+      "stats": {
+        "words": 5738,
+        "images": 0,
+        "links": 363,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "NF-κB",
+      "langs": {
+        "en-US": {
+          "title": "NF-κB",
+          "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a central role in immunity, inflammation, and redox signaling.",
+          "created": "2026-05-09",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "transcription-factor",
+            "inflammation",
+            "oxidative-stress"
+          ],
+          "filename": "NF-κB.md",
+          "path": "wiki/en-US/_link/NF-%CE%BAB.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NF-%CE%BAB.md"
+        },
+        "zh-TW": {
+          "title": "NF-κB",
+          "description": "活化 B 細胞核因子 κ 輕鏈增強子（NF-κB）是控制 DNA 轉錄、胞激素生成與細胞存活的蛋白質複合體，在免疫、發炎與氧化還原訊號中扮演核心角色。",
+          "created": "2026-05-09",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "transcription-factor",
+            "inflammation",
+            "oxidative-stress"
+          ],
+          "filename": "NF-κB.md",
+          "path": "wiki/zh-TW/_link/NF-%CE%BAB.md"
+        }
+      },
+      "stats": {
+        "words": 1486,
+        "images": 0,
+        "links": 138,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Lipid Peroxidation",
+      "langs": {
+        "en-US": {
+          "title": "Lipid Peroxidation",
+          "description": "The oxidative degradation of polyunsaturated fatty acids via a free radical chain reaction; a central execution pathway of oxidative stress that damages membranes, proteins, and DNA and drives atherosclerosis and ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-process",
+            "oxidative-stress",
+            "cell-membrane",
+            "free-radicals",
+            "atherosclerosis"
+          ],
+          "filename": "Lipid Peroxidation.md",
+          "path": "wiki/en-US/oxidative-stress/Lipid%20Peroxidation.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Lipid%20Peroxidation.md"
+        },
+        "zh-TW": {
+          "title": "脂質過氧化",
+          "description": "多元不飽和脂肪酸經由自由基連鎖反應所進行的氧化降解；此為氧化壓力的核心執行途徑，會損傷細胞膜、蛋白質與 DNA，並驅動動脈粥狀硬化與鐵死亡。",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-process",
+            "oxidative-stress",
+            "cell-membrane",
+            "free-radicals",
+            "atherosclerosis"
+          ],
+          "filename": "Lipid Peroxidation.md",
+          "path": "wiki/zh-TW/oxidative-stress/Lipid%20Peroxidation.md"
+        }
+      },
+      "stats": {
+        "words": 1588,
+        "images": 0,
+        "links": 152,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Necroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Necroptosis",
+          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/en-US/cell-death/Necroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
+        },
+        "zh-TW": {
+          "title": "Necroptosis",
+          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 2808,
+        "images": 0,
+        "links": 230,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Senescence",
+      "langs": {
+        "en-US": {
+          "title": "Cellular Senescence",
+          "description": "Cellular Senescence is a state of permanent cell cycle arrest triggered by DNA damage, oxidative stress, telomere erosion, or oncogene activation. Senescent cells secrete a pro-inflammatory SASP that drives aging and tissue dysfunction.",
+          "created": "2026-07-04",
+          "updated": "2026-09-02",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "cell-cycle",
+            "aging",
+            "chromatin"
+          ],
+          "filename": "Senescence.md",
+          "path": "wiki/en-US/senescence/Senescence.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senescence.md"
+        },
+        "zh-TW": {
+          "title": "Cellular Senescence",
+          "description": "細胞衰老是 DNA 損傷、氧化壓力、端粒耗損或致癌基因活化所觸發的永久性細胞週期停滯狀態。衰老細胞會分泌促發炎的衰老相關分泌表型（SASP），驅動老化與組織功能障礙。",
+          "created": "2026-07-04",
+          "updated": "2026-09-02",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "cell-cycle",
+            "aging",
+            "chromatin"
+          ],
+          "filename": "Senescence.md",
+          "path": "wiki/zh-TW/senescence/Senescence.md"
+        }
+      },
+      "stats": {
+        "words": 3523,
+        "images": 0,
+        "links": 260,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Fisetin",
+      "langs": {
+        "en-US": {
+          "title": "Fisetin",
+          "description": "Fisetin is a plant Flavonoids and antioxidant found in many fruits and vegetables, such as strawberries and apples. It has been identified as a potent senolytic agent, selectively inducing apoptosi...",
+          "created": "2026-05-25",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Fisetin.md",
+          "path": "wiki/en-US/_link/Fisetin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fisetin.md"
+        },
+        "zh-TW": {
+          "title": "Fisetin",
+          "description": "非瑟酮是存在於草莓、蘋果等多種水果與蔬菜的植物類黃酮與抗氧化劑，已被確認為強效的衰老細胞清除劑，可選擇性誘導衰老細胞凋亡……",
+          "created": "2026-05-25",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Fisetin.md",
+          "path": "wiki/zh-TW/_link/Fisetin.md"
+        }
+      },
+      "stats": {
+        "words": 2194,
+        "images": 0,
+        "links": 213,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Parthanatos",
+      "langs": {
+        "en-US": {
+          "title": "Parthanatos",
+          "description": "PARP-1-dependent regulated cell death executed by PAR polymer signaling to mitochondrial AIF and nuclear MIF nuclease; caspase-independent, with large-scale DNA fragmentation and NAD+ depletion.",
+          "created": "2026-09-03",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "regulated-cell-death",
+            "neurodegeneration"
+          ],
+          "filename": "Parthanatos.md",
+          "path": "wiki/en-US/cell-death/Parthanatos.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Parthanatos.md"
+        },
+        "zh-TW": {
+          "title": "Parthanatos",
+          "description": "PARP-1 依賴的調控性細胞死亡，由 PAR 聚合物訊號傳遞至粒線體 AIF 與 核內 MIF 核酸酶執行；不依賴 caspase，伴隨大規模 DNA 片段化與 NAD+ 耗竭。",
+          "created": "2026-09-03",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "regulated-cell-death",
+            "neurodegeneration"
+          ],
+          "filename": "Parthanatos.md",
+          "path": "wiki/zh-TW/cell-death/Parthanatos.md"
+        }
+      },
+      "stats": {
+        "words": 2547,
+        "images": 0,
+        "links": 189,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Urolithin A",
+      "langs": {
+        "en-US": {
+          "title": "Urolithin A",
+          "description": "Urolithin A is a postbiotic metabolite derived from ellagitannins (found in pomegranates and nuts) that has been shown to induce mitophagy and improve muscle function and longevity in various m...",
+          "created": "2024-01-01",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Urolithin A.md",
+          "path": "wiki/en-US/_link/Urolithin%20A.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Urolithin%20A.md"
+        },
+        "zh-TW": {
+          "title": "Urolithin A",
+          "description": "尿石素 A 是源自鞣花單寧（存在於石榴與堅果）的後生元代謝物，已顯示可在多種模型中誘導粒線體自噬，並改善肌肉功能與壽命。",
+          "created": "2024-01-01",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Urolithin A.md",
+          "path": "wiki/zh-TW/_link/Urolithin%20A.md"
+        }
+      },
+      "stats": {
+        "words": 1342,
+        "images": 0,
+        "links": 124,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Vitamin E",
+      "langs": {
+        "en-US": {
+          "title": "Vitamin E",
+          "description": "Vitamin E is a group of eight fat-soluble compounds that include four tocopherols and four tocotrienols. It acts as a potent antioxidant.",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Vitamin E.md",
+          "path": "wiki/en-US/_link/Vitamin%20E.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Vitamin%20E.md"
+        },
+        "zh-TW": {
+          "title": "維生素E",
+          "description": "維生素 E 是一組八種脂溶性化合物的總稱，包含四種生育酚（tocopherols）與四種生育三烯酚（tocotrienols）。它是一種強效的抗氧化劑。",
+          "created": "2026-05-29",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Vitamin E.md",
+          "path": "wiki/zh-TW/_link/Vitamin%20E.md"
+        }
+      },
+      "stats": {
+        "words": 1804,
+        "images": 0,
+        "links": 75,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Lipoxygenase",
+      "langs": {
+        "en-US": {
+          "title": "Lipoxygenase",
+          "description": "Lipoxygenases (LOXs) are iron-containing dioxygenases that oxidize polyunsaturated fatty acids to bioactive hydroperoxides and signaling lipids such as leukotrienes, linking lipid peroxidation to inflammation and ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "enzyme",
+            "lipid-metabolism",
+            "inflammatory"
+          ],
+          "filename": "Lipoxygenase.md",
+          "path": "wiki/en-US/_link/Lipoxygenase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lipoxygenase.md"
+        },
+        "zh-TW": {
+          "title": "脂氧合酶",
+          "description": "脂氧合酶（LOXs）是含鐵的雙加氧酶，能將多元不飽和脂肪酸氧化為具有生物活性的氫過氧化物與訊號脂質（如白三烯），將脂質過氧化與發炎及鐵死亡連結起來。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "enzyme",
+            "lipid-metabolism",
+            "inflammatory"
+          ],
+          "filename": "Lipoxygenase.md",
+          "path": "wiki/zh-TW/_link/Lipoxygenase.md"
+        }
+      },
+      "stats": {
+        "words": 289,
+        "images": 0,
+        "links": 27,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Malondialdehyde",
+      "langs": {
+        "en-US": {
+          "title": "Malondialdehyde",
+          "description": "Malondialdehyde (MDA) is a reactive dialdehyde end-product of Lipid Peroxidation, widely measured as a Biomarker of chronic Oxidative Stress and oxidative damage to lipids, proteins, and DNA.",
+          "created": "2026-05-09",
+          "updated": "2026-09-24",
+          "tags": [
+            "oxidative-stress",
+            "biological-molecule"
+          ],
+          "filename": "Malondialdehyde.md",
+          "path": "wiki/en-US/oxidative-stress/Malondialdehyde.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Malondialdehyde.md"
+        },
+        "zh-TW": {
+          "title": "Malondialdehyde",
+          "description": "丙二醛（MDA）是 Lipid Peroxidation 的活性雙醛終產物，廣泛作為慢性 Oxidative Stress 以及脂質、蛋白質與 DNA 氧化損傷的 Biomarker 進行測量。",
+          "created": "2026-05-09",
+          "updated": "2026-09-24",
+          "tags": [
+            "oxidative-stress",
+            "biological-molecule"
+          ],
+          "filename": "Malondialdehyde.md",
+          "path": "wiki/zh-TW/oxidative-stress/Malondialdehyde.md"
+        }
+      },
+      "stats": {
+        "words": 879,
+        "images": 0,
+        "links": 85,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "4-Hydroxynonenal",
+      "langs": {
+        "en-US": {
+          "title": "4-Hydroxynonenal",
+          "description": "4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal) is a highly reactive α,β-unsaturated aldehyde generated as a major end-product of n-6 polyunsaturated fatty acid (Lipid Peroxidation), particularly...",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "4-Hydroxynonenal.md",
+          "path": "wiki/en-US/oxidative-stress/4-Hydroxynonenal.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/4-Hydroxynonenal.md"
+        },
+        "zh-TW": {
+          "title": "4-Hydroxynonenal",
+          "description": "4-Hydroxynonenal（4-HNE, 4-hydroxy-2-nonenal）是一種高反應活性的 α,β-不飽和醛，為 n-6 多元不飽和脂肪酸（Lipid Peroxidation）的主要終產物，特別是……",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "4-Hydroxynonenal.md",
+          "path": "wiki/zh-TW/oxidative-stress/4-Hydroxynonenal.md"
+        }
+      },
+      "stats": {
+        "words": 896,
+        "images": 0,
+        "links": 84,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Antioxidants",
+      "langs": {
+        "en-US": {
+          "title": "Antioxidants",
+          "description": "Antioxidants is a concept related to Adrenochrome and catecholamine metabolism.",
+          "created": "2026-05-29",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-compound",
+            "antioxidant"
+          ],
+          "filename": "Antioxidants.md",
+          "path": "wiki/en-US/_link/Antioxidants.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Antioxidants.md"
+        },
+        "zh-TW": {
+          "title": "抗氧化劑",
+          "description": "Antioxidants 是與 Adrenochrome 及兒茶酚胺代謝相關的概念。",
+          "created": "2026-05-29",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-compound",
+            "antioxidant"
+          ],
+          "filename": "Antioxidants.md",
+          "path": "wiki/zh-TW/_link/Antioxidants.md"
+        }
+      },
+      "stats": {
+        "words": 530,
+        "images": 0,
+        "links": 50,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Polyphenols",
+      "langs": {
+        "en-US": {
+          "title": "Polyphenols",
+          "description": "Polyphenols are a category of phytochemicals that are naturally found in plants.",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-class"
+          ],
+          "filename": "Polyphenols.md",
+          "path": "wiki/en-US/_link/Polyphenols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Polyphenols.md"
+        },
+        "zh-TW": {
+          "title": "多酚",
+          "description": "多酚是一類天然存在於植物中的植物化學物質。",
+          "created": "2026-07-04",
+          "updated": "2026-09-23",
+          "tags": [
+            "chemical-class"
+          ],
+          "filename": "Polyphenols.md",
+          "path": "wiki/zh-TW/_link/Polyphenols.md"
+        }
+      },
+      "stats": {
+        "words": 1216,
+        "images": 0,
+        "links": 82,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Muscle",
+      "langs": {
+        "en-US": {
+          "title": "Muscle",
+          "description": "Contractile tissue spanning skeletal, cardiac, and smooth types; major metabolic and creatine reservoir.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "tissue",
+            "metabolism"
+          ],
+          "filename": "Muscle.md",
+          "path": "wiki/en-US/_link/Muscle.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Muscle.md"
+        },
+        "zh-TW": {
+          "title": "Muscle",
+          "description": "涵蓋骨骼肌、心肌與平滑肌類型的收縮組織；重要的代謝與肌酸儲存庫。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "tissue",
+            "metabolism"
+          ],
+          "filename": "Muscle.md",
+          "path": "wiki/zh-TW/_link/Muscle.md"
+        }
+      },
+      "stats": {
+        "words": 126,
+        "images": 0,
+        "links": 19,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "BAX",
+      "langs": {
+        "en-US": {
+          "title": "BAX",
+          "description": "Pro-apoptotic Bcl-2 family effector protein that oligomerizes in the outer mitochondrial membrane to drive mitochondrial outer membrane permeabilization (MOMP) and apoptotic cell death.",
+          "created": "2026-07-09",
+          "updated": "2026-09-12",
+          "tags": [
+            "protein",
+            "apoptosis",
+            "mitochondrial",
+            "cell-death",
+            "redox",
+            "phosphorylation",
+            "isomerase",
+            "cancer"
+          ],
+          "filename": "BAX.md",
+          "path": "wiki/en-US/cell-death/BAX.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/BAX.md"
+        },
+        "zh-TW": {
+          "title": "BAX",
+          "description": "促凋亡的 Bcl-2 家族效應蛋白質，會在粒線體外膜寡聚化，驅動粒線體外膜通透化（MOMP）並導致凋亡性細胞死亡。",
+          "created": "2026-07-09",
+          "updated": "2026-09-12",
+          "tags": [
+            "protein",
+            "apoptosis",
+            "mitochondrial",
+            "cell-death",
+            "redox",
+            "phosphorylation",
+            "isomerase",
+            "cancer"
+          ],
+          "filename": "BAX.md",
+          "path": "wiki/zh-TW/cell-death/BAX.md"
+        }
+      },
+      "stats": {
+        "words": 682,
+        "images": 0,
+        "links": 73,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Ferroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Ferroptosis",
+          "description": "Ferroptosis is a non-apoptotic form of regulated cell death driven by iron-dependent Lipid Peroxidation.",
+          "created": "2024-01-01",
+          "updated": "2026-09-03",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Ferroptosis.md",
+          "path": "wiki/en-US/cell-death/Ferroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ferroptosis.md"
+        },
+        "zh-TW": {
+          "title": "Ferroptosis",
+          "description": "鐵死亡是一種非凋亡型的受調控細胞死亡，由鐵依賴性的脂質過氧化所驅動。",
+          "created": "2024-01-01",
+          "updated": "2026-09-03",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Ferroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Ferroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 2074,
+        "images": 0,
+        "links": 244,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "F2-Isoprostanes",
+      "langs": {
+        "en-US": {
+          "title": "F2-Isoprostanes",
+          "description": "F2-Isoprostanes (F2-IsoPs) are prostaglandin-like compounds formed non-enzymatically by free radical-mediated Lipid Peroxidation of Arachidonic acid, widely considered the gold-standard biomarker for endogenous Oxidative Stress.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "oxidative-stress"
+          ],
+          "filename": "F2-Isoprostanes.md",
+          "path": "wiki/en-US/oxidative-stress/F2-Isoprostanes.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/F2-Isoprostanes.md"
+        },
+        "zh-TW": {
+          "title": "F2-Isoprostanes",
+          "description": "F2-Isoprostanes（F2-IsoPs）是一類類似 prostaglandin 的化合物，由自由基引發的脂質過氧化作用（Lipid Peroxidation）作用於 Arachidonic acid 後非酵素途徑形成，被廣泛視為內源性氧化壓力（Oxidative Stress）的黃金標準生物標記。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "oxidative-stress"
+          ],
+          "filename": "F2-Isoprostanes.md",
+          "path": "wiki/zh-TW/oxidative-stress/F2-Isoprostanes.md"
+        }
+      },
+      "stats": {
+        "words": 937,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Vitamin C",
+      "langs": {
+        "en-US": {
+          "title": "Vitamin C",
+          "description": "Vitamin C (ascorbic acid) is a water-soluble vitamin and essential antioxidant that regenerates vitamin E at membrane interfaces, recycles glutathione, and serves as a cofactor for collagen, carnitine, and catecholamine synthesis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin"
+          ],
+          "filename": "Vitamin C.md",
+          "path": "wiki/en-US/_link/Vitamin%20C.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Vitamin%20C.md"
+        },
+        "zh-TW": {
+          "title": "維生素C",
+          "description": "維生素C（抗壞血酸）是一種水溶性維生素與必需抗氧化劑，能在膜界面再生維生素E、回收穀胱甘肽，並作為膠原蛋白、肉鹼與兒茶酚胺合成的輔因子。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin"
+          ],
+          "filename": "Vitamin C.md",
+          "path": "wiki/zh-TW/_link/Vitamin%20C.md"
+        }
+      },
+      "stats": {
+        "words": 1192,
+        "images": 0,
+        "links": 95,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "RIPK3",
+      "langs": {
+        "en-US": {
+          "title": "RIPK3",
+          "description": "Overview: RIPK3 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel...",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "protein"
+          ],
+          "filename": "RIPK3.md",
+          "path": "wiki/en-US/cell-death/RIPK3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/RIPK3.md"
+        },
+        "zh-TW": {
+          "title": "RIPK3",
+          "description": "概述：RIPK3 是一種在真核細胞中具有結構、訊號或調控功能的細胞蛋白質。它參與主導細胞命運的巨分子複合體與訊號網路...",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "protein"
+          ],
+          "filename": "RIPK3.md",
+          "path": "wiki/zh-TW/cell-death/RIPK3.md"
+        }
+      },
+      "stats": {
+        "words": 760,
+        "images": 0,
+        "links": 78,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Polyunsaturated fatty acids",
+      "langs": {
+        "en-US": {
+          "title": "Polyunsaturated Fatty Acids",
+          "description": "Polyunsaturated fatty acids (PUFAs) are fatty acids with two or more carbon-carbon double bonds. Essential structural components of cell membranes, they are especially susceptible to Lipid Peroxidation and drive Ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "lipid",
+            "fatty-acid",
+            "oxidative-stress",
+            "ferroptosis"
+          ],
+          "filename": "Polyunsaturated fatty acids.md",
+          "path": "wiki/en-US/oxidative-stress/Polyunsaturated%20fatty%20acids.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
+        },
+        "zh-TW": {
+          "title": "多元不飽和脂肪酸",
+          "description": "多元不飽和脂肪酸（PUFAs）是具有兩個或以上碳碳雙鍵的脂肪酸。作為細胞膜不可或缺的結構成分，它們特別容易發生 Lipid Peroxidation，並驅動 Ferroptosis。",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "lipid",
+            "fatty-acid",
+            "oxidative-stress",
+            "ferroptosis"
+          ],
+          "filename": "Polyunsaturated fatty acids.md",
+          "path": "wiki/zh-TW/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
+        }
+      },
+      "stats": {
+        "words": 1134,
+        "images": 0,
+        "links": 94,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "p53",
+      "langs": {
+        "en-US": {
+          "title": "p53",
+          "description": "p53 (also known as tumor protein P53 or TP53) is a crucial tumor suppressor protein that regulates the cell cycle and prevents cancer formation. It is often referred to as the ''guardian of the ...",
+          "created": "2026-05-29",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "p53.md",
+          "path": "wiki/en-US/_link/p53.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p53.md"
+        },
+        "zh-TW": {
+          "title": "p53",
+          "description": "p53（又稱腫瘤蛋白 P53 或 TP53）是調節細胞週期、 防止癌症形成的重要腫瘤抑制蛋白，常被譽為基因組的守護者。",
+          "created": "2026-05-29",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "p53.md",
+          "path": "wiki/zh-TW/_link/p53.md"
+        }
+      },
+      "stats": {
+        "words": 2355,
+        "images": 0,
+        "links": 110,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Alpha-tocopherol",
+      "langs": {
+        "en-US": {
+          "title": "Alpha-tocopherol",
+          "description": "Alpha-tocopherol is the principal form of Vitamin E, selectively retained in human plasma and tissue by alpha-tocopherol transfer protein; the reference chain-breaking antioxidant of membranes and lipoproteins.",
+          "created": "2026-05-25",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Alpha-tocopherol.md",
+          "path": "wiki/en-US/comt/Alpha-tocopherol.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/comt/Alpha-tocopherol.md"
+        },
+        "zh-TW": {
+          "title": "α-生育酚",
+          "description": "Alpha-tocopherol 是 Vitamin E 的主要形式，由 alpha-tocopherol transfer protein 選擇性地保留於人體血漿與組織中；是膜與脂蛋白的標準斷鏈抗氧化劑。",
+          "created": "2026-05-25",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Alpha-tocopherol.md",
+          "path": "wiki/zh-TW/comt/Alpha-tocopherol.md"
+        }
+      },
+      "stats": {
+        "words": 1212,
+        "images": 0,
+        "links": 80,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "RIPK1",
+      "langs": {
+        "en-US": {
+          "title": "RIPK1",
+          "description": "RIPK1 (Receptor-interacting serine/threonine-protein kinase 1) is a 76 kDa kinase and death domain-containing protein that serves as a central molecular switch governing cell fate decisions between survival, apoptosis, and necroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "RIPK1.md",
+          "path": "wiki/en-US/adrenochrome/RIPK1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md"
+        },
+        "zh-TW": {
+          "title": "RIPK1",
+          "description": "RIPK1（受體交互作用絲胺酸／蘇胺酸蛋白激酶 1）是分子量 76 kDa 的激酶與含死亡結構域蛋白質，作為核心分子開關，主導細胞在存活、凋亡與壞死性凋亡之間的命運決定。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "RIPK1.md",
+          "path": "wiki/zh-TW/adrenochrome/RIPK1.md"
+        }
+      },
+      "stats": {
+        "words": 1317,
+        "images": 0,
+        "links": 96,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "PARP1",
+      "langs": {
+        "en-US": {
+          "title": "PARP1",
+          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/en-US/cell-death/PARP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
+        },
+        "zh-TW": {
+          "title": "PARP1",
+          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/zh-TW/cell-death/PARP1.md"
+        }
+      },
+      "stats": {
+        "words": 2878,
+        "images": 0,
+        "links": 133,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Acrolein",
+      "langs": {
+        "en-US": {
+          "title": "Acrolein",
+          "description": "Acrolein is a highly reactive alpha,beta-unsaturated aldehyde generated by lipid peroxidation, myeloperoxidase chemistry, and polyamine oxidation; the simplest and most electrophilic of the toxic alkenals.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "oxidative-stress",
+            "lipid-peroxidation",
+            "aldehyde"
+          ],
+          "filename": "Acrolein.md",
+          "path": "wiki/en-US/oxidative-stress/Acrolein.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Acrolein.md"
+        },
+        "zh-TW": {
+          "title": "丙烯醛",
+          "description": "Acrolein 是一種高反應性的 α,β-不飽和醛，由脂質過氧化、髓過氧化物酶（myeloperoxidase）反應與多胺氧化所生成；是有毒烯醛類中最簡單且最具親電性者。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "oxidative-stress",
+            "lipid-peroxidation",
+            "aldehyde"
+          ],
+          "filename": "Acrolein.md",
+          "path": "wiki/zh-TW/oxidative-stress/Acrolein.md"
+        }
+      },
+      "stats": {
+        "words": 739,
+        "images": 0,
+        "links": 48,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Regulatory T Cell",
+      "langs": {
+        "en-US": {
+          "title": "Regulatory T Cell",
+          "description": "FoxP3+ immunosuppressive T cells maintaining tolerance; induced by TGF-beta, IDO1, and AhR signaling.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "immune-cell",
+            "tolerance",
+            "inflammation"
+          ],
+          "filename": "Regulatory T Cell.md",
+          "path": "wiki/en-US/_link/Regulatory%20T%20Cell.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Regulatory%20T%20Cell.md"
+        },
+        "zh-TW": {
+          "title": "Regulatory T Cell",
+          "description": "維持耐受性的 FoxP3+ 免疫抑制性 T 細胞；由 TGF-beta、IDO1 與 AhR 訊號誘導。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "immune-cell",
+            "tolerance",
+            "inflammation"
+          ],
+          "filename": "Regulatory T Cell.md",
+          "path": "wiki/zh-TW/_link/Regulatory%20T%20Cell.md"
+        }
+      },
+      "stats": {
+        "words": 140,
+        "images": 0,
+        "links": 18,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Thromboxane A₂",
+      "langs": {
+        "en-US": {
+          "title": "Thromboxane A2",
+          "description": "Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Thromboxane A₂.md",
+          "path": "wiki/en-US/_link/Thromboxane%20A%E2%82%82.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Thromboxane%20A%E2%82%82.md"
+        },
+        "zh-TW": {
+          "title": "Thromboxane A2",
+          "description": "Thromboxane A2（TXA2）是 thromboxane synthase 於血小板中生成的 prostanoid；為強效的血管收縮劑並促進血小板聚集，與 prostacyclin 相互平衡。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Thromboxane A₂.md",
+          "path": "wiki/zh-TW/_link/Thromboxane%20A%E2%82%82.md"
+        }
+      },
+      "stats": {
+        "words": 548,
+        "images": 0,
+        "links": 40,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Actin",
+      "langs": {
+        "en-US": {
+          "title": "Actin",
+          "description": "Cytoskeletal filament protein driving cell shape, motility, junctions, and phagocytosis.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cytoskeleton",
+            "protein"
+          ],
+          "filename": "Actin.md",
+          "path": "wiki/en-US/_link/Actin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Actin.md"
+        },
+        "zh-TW": {
+          "title": "Actin",
+          "description": "驅動細胞形狀、運動、細胞連結與吞噬作用的細胞骨架絲狀蛋白。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cytoskeleton",
+            "protein"
+          ],
+          "filename": "Actin.md",
+          "path": "wiki/zh-TW/_link/Actin.md"
+        }
+      },
+      "stats": {
+        "words": 140,
+        "images": 0,
+        "links": 21,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "SIRT6",
+      "langs": {
+        "en-US": {
+          "title": "SIRT6",
+          "description": "SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As a \"longevity gene,\" SIRT6 serves as an essent...",
+          "created": "2026-07-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "nad-plus",
+            "sirtuin-6",
+            "nuclear-sirtuin-6",
+            "sirt6-adp-ribosyl-transferase",
+            "sirt6-adp-ribosyl-transferase"
+          ],
+          "filename": "SIRT6.md",
+          "path": "wiki/en-US/sirtuins/SIRT6.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT6.md"
+        },
+        "zh-TW": {
+          "title": "SIRT6",
+          "description": "SIRT6（Sirtuin 6）是位於細胞核、與染色質結合的 sirtuin，在系統發生分類上屬 Class IVa，與其核仁同源蛋白 SIRT7（Class IVb）並列。作為「長壽基因」，SIRT6 是...",
+          "created": "2026-07-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "nad-plus",
+            "sirtuin-6",
+            "nuclear-sirtuin-6",
+            "sirt6-adp-ribosyl-transferase",
+            "sirt6-adp-ribosyl-transferase"
+          ],
+          "filename": "SIRT6.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT6.md"
+        }
+      },
+      "stats": {
+        "words": 3487,
+        "images": 0,
+        "links": 228,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "mTORC1",
+      "langs": {
+        "en-US": {
+          "title": "mTORC1",
+          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/en-US/_link/mTORC1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
+        },
+        "zh-TW": {
+          "title": "mTORC1",
+          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/zh-TW/_link/mTORC1.md"
+        }
+      },
+      "stats": {
+        "words": 2471,
+        "images": 0,
+        "links": 256,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Apoptosis-Inducing Factor",
+      "langs": {
+        "en-US": {
+          "title": "Apoptosis-Inducing Factor",
+          "description": "Apoptosis-Inducing Factor (AIF) is a mitochondrial flavoprotein originally linked to caspase-independent apoptosis; its paralog AIFM2 is the ferroptosis suppressor FSP1.",
+          "created": "2026-08-24",
+          "updated": "2026-09-14",
+          "tags": [
+            "protein",
+            "mitochondria",
+            "ferroptosis",
+            "apoptosis",
+            "cell-death"
+          ],
+          "filename": "Apoptosis-Inducing Factor.md",
+          "path": "wiki/en-US/cell-death/Apoptosis-Inducing%20Factor.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis-Inducing%20Factor.md"
+        },
+        "zh-TW": {
+          "title": "Apoptosis-Inducing Factor",
+          "description": "凋亡誘導因子（AIF）是粒線體黃素蛋白，最初與 caspase 不依賴性凋亡相關；其旁系同源蛋白 AIFM2 即是鐵死亡抑制因子 FSP1。",
+          "created": "2026-08-24",
+          "updated": "2026-09-14",
+          "tags": [
+            "protein",
+            "mitochondria",
+            "ferroptosis",
+            "apoptosis",
+            "cell-death"
+          ],
+          "filename": "Apoptosis-Inducing Factor.md",
+          "path": "wiki/zh-TW/cell-death/Apoptosis-Inducing%20Factor.md"
+        }
+      },
+      "stats": {
+        "words": 1441,
+        "images": 0,
+        "links": 83,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Spermidine",
+      "langs": {
+        "en-US": {
+          "title": "Spermidine",
+          "description": "Spermidine is a naturally occurring polyamine that is found in all living cells. It is recognized as a potent ''geroprotector'' due to its ability to extend the lifespan of various organisms, inc...",
+          "created": "2026-05-29",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Spermidine.md",
+          "path": "wiki/en-US/_link/Spermidine.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Spermidine.md"
+        },
+        "zh-TW": {
+          "title": "Spermidine",
+          "description": "亞精胺是存在於所有活細胞中的天然多胺。因具延長多種生物壽命的能力，被公認為強效的「geroprotector（抗老保護因子）」，inc...",
+          "created": "2026-05-29",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Spermidine.md",
+          "path": "wiki/zh-TW/_link/Spermidine.md"
+        }
+      },
+      "stats": {
+        "words": 811,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Cytoskeleton",
+      "langs": {
+        "en-US": {
+          "title": "Cytoskeleton",
+          "description": "Actin, microtubule, and intermediate-filament networks governing shape, adhesion, and migration.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cytoskeleton",
+            "cell-biology"
+          ],
+          "filename": "Cytoskeleton.md",
+          "path": "wiki/en-US/_link/Cytoskeleton.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cytoskeleton.md"
+        },
+        "zh-TW": {
+          "title": "Cytoskeleton",
+          "description": "掌管細胞形狀、黏附與遷移的肌動蛋白、微管與中間絲網絡。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cytoskeleton",
+            "cell-biology"
+          ],
+          "filename": "Cytoskeleton.md",
+          "path": "wiki/zh-TW/_link/Cytoskeleton.md"
+        }
+      },
+      "stats": {
+        "words": 114,
+        "images": 0,
+        "links": 18,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Chromosome",
+      "langs": {
+        "en-US": {
+          "title": "Chromosome",
+          "description": "Packaged DNA-protein structure carrying genetic information; segregated during mitosis and meiosis.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cell-biology",
+            "genetics"
+          ],
+          "filename": "Chromosome.md",
+          "path": "wiki/en-US/_link/Chromosome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Chromosome.md"
+        },
+        "zh-TW": {
+          "title": "Chromosome",
+          "description": "承載遺傳資訊的 DNA-蛋白質包裝結構；在有絲分裂與減數分裂時進行分離。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "cell-biology",
+            "genetics"
+          ],
+          "filename": "Chromosome.md",
+          "path": "wiki/zh-TW/_link/Chromosome.md"
+        }
+      },
+      "stats": {
+        "words": 155,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Zellweger Spectrum Disorders",
+      "langs": {
+        "en-US": {
+          "title": "Zellweger Spectrum Disorders",
+          "description": "Peroxisome-biogenesis disorders from PEX gene loss, ranging from Zellweger syndrome to milder variants.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "disease",
+            "peroxisome",
+            "genetics"
+          ],
+          "filename": "Zellweger Spectrum Disorders.md",
+          "path": "wiki/en-US/_link/Zellweger%20Spectrum%20Disorders.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Zellweger%20Spectrum%20Disorders.md"
+        },
+        "zh-TW": {
+          "title": "Zellweger Spectrum Disorders",
+          "description": "因 PEX 基因缺失導致的過氧化物酶體生合成疾病，從齊維格爾症候群到較輕微的變異型。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "disease",
+            "peroxisome",
+            "genetics"
+          ],
+          "filename": "Zellweger Spectrum Disorders.md",
+          "path": "wiki/zh-TW/_link/Zellweger%20Spectrum%20Disorders.md"
+        }
+      },
+      "stats": {
+        "words": 119,
+        "images": 0,
+        "links": 20,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Tocopherols",
+      "langs": {
+        "en-US": {
+          "title": "Tocopherols",
+          "description": "Tocopherols are the four chromanol-based forms of vitamin E (alpha, beta, gamma, delta) distinguished by methyl substitution of the chromanol ring; the principal lipid-phase chain-breaking antioxidants in membranes and lipoproteins.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocopherols.md",
+          "path": "wiki/en-US/_link/Tocopherols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocopherols.md"
+        },
+        "zh-TW": {
+          "title": "生育醇",
+          "description": "生育醇是維生素 E 的四種色烷醇（chromanol）形式（alpha、beta、gamma、delta），以色烷醇環上的甲基取代位置作為區分；為細胞膜與脂蛋白中主要的脂相斷鏈抗氧化劑。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocopherols.md",
+          "path": "wiki/zh-TW/_link/Tocopherols.md"
+        }
+      },
+      "stats": {
+        "words": 877,
+        "images": 0,
+        "links": 56,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Immunotherapy",
+      "langs": {
+        "en-US": {
+          "title": "Immunotherapy",
+          "description": "Cancer treatment harnessing the immune system via checkpoint blockade, cell therapies, and cancer vaccines.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "therapy",
+            "cancer",
+            "immunity"
+          ],
+          "filename": "Immunotherapy.md",
+          "path": "wiki/en-US/_link/Immunotherapy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Immunotherapy.md"
+        },
+        "zh-TW": {
+          "title": "Immunotherapy",
+          "description": "透過檢查點阻斷、細胞療法與癌症疫苗運用免疫系統的癌症治療方式。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "therapy",
+            "cancer",
+            "immunity"
+          ],
+          "filename": "Immunotherapy.md",
+          "path": "wiki/zh-TW/_link/Immunotherapy.md"
+        }
+      },
+      "stats": {
+        "words": 123,
+        "images": 0,
+        "links": 17,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Tocotrienols",
+      "langs": {
+        "en-US": {
+          "title": "Tocotrienols",
+          "description": "Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocotrienols.md",
+          "path": "wiki/en-US/_link/Tocotrienols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocotrienols.md"
+        },
+        "zh-TW": {
+          "title": "生育三烯醇",
+          "description": "生育三烯酚（Tocotrienols）是維生素E的四種不飽和形式（alpha、beta、gamma、delta），帶有含三個雙鍵的類異戊二烯側鏈；屬於斷鏈抗氧化劑，具有獨特的抗發炎、抗癌與降膽固醇特性。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocotrienols.md",
+          "path": "wiki/zh-TW/_link/Tocotrienols.md"
+        }
+      },
+      "stats": {
+        "words": 782,
+        "images": 0,
+        "links": 49,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "p21 CIP1",
+      "langs": {
+        "en-US": {
+          "title": "p21 CIP1",
+          "description": "p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP profile.",
+          "created": "2026-07-07",
+          "updated": "2026-09-19",
+          "tags": [
+            "protein",
+            "senescence",
+            "cell-cycle",
+            "tumor-suppressor",
+            "biomarker"
+          ],
+          "filename": "p21 CIP1.md",
+          "path": "wiki/en-US/_link/p21%20CIP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p21%20CIP1.md"
+        },
+        "zh-TW": {
+          "title": "p21 CIP1",
+          "description": "p21CIP1（由 CDKN1A 編碼）是細胞週期依賴性激酶抑制劑，可介導 DNA 損傷誘導的細胞週期停滯，並支持具免疫監視功能的早期 SASP 表型。",
+          "created": "2026-07-07",
+          "updated": "2026-09-19",
+          "tags": [
+            "protein",
+            "senescence",
+            "cell-cycle",
+            "tumor-suppressor",
+            "biomarker"
+          ],
+          "filename": "p21 CIP1.md",
+          "path": "wiki/zh-TW/_link/p21%20CIP1.md"
+        }
+      },
+      "stats": {
+        "words": 753,
+        "images": 0,
+        "links": 48,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "M₁dG",
+      "langs": {
+        "en-US": {
+          "title": "M1dG",
+          "description": "M1dG (pyrimido[1,2-a]purin-10(3H)-one deoxyguanosine) is the exocyclic DNA adduct formed when malondialdehyde reacts with deoxyguanosine; the principal mutagenic lesion marking lipid peroxidation damage to the genome.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "dna-damage",
+            "oxidative-stress",
+            "biomarker",
+            "chemical-compound"
+          ],
+          "filename": "M₁dG.md",
+          "path": "wiki/en-US/oxidative-stress/M%E2%82%81dG.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/M%E2%82%81dG.md"
+        },
+        "zh-TW": {
+          "title": "M1dG",
+          "description": "M1dG（pyrimido[1,2-a]purin-10(3H)-one deoxyguanosine）是 malondialdehyde 與 deoxyguanosine 反應後形成的環外 DNA 加合物；為標記脂質過氧化對基因體造成損傷的主要致突變性病變。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "dna-damage",
+            "oxidative-stress",
+            "biomarker",
+            "chemical-compound"
+          ],
+          "filename": "M₁dG.md",
+          "path": "wiki/zh-TW/oxidative-stress/M%E2%82%81dG.md"
+        }
+      },
+      "stats": {
+        "words": 733,
+        "images": 0,
+        "links": 38,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "MDA-LDL",
+      "langs": {
+        "en-US": {
+          "title": "MDA-LDL",
+          "description": "MDA-LDL is malondialdehyde-modified low-density lipoprotein in which MDA forms Schiff-base adducts with apolipoprotein B lysine residues; an immunogenic, atherogenic form of oxidatively modified LDL.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "oxidative-stress",
+            "atherosclerosis",
+            "biomarker"
+          ],
+          "filename": "MDA-LDL.md",
+          "path": "wiki/en-US/oxidative-stress/MDA-LDL.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/MDA-LDL.md"
+        },
+        "zh-TW": {
+          "title": "MDA-LDL",
+          "description": "MDA-LDL 為丙二醛修飾的低密度脂蛋白，其中 MDA 與載脂蛋白 B 的離胺酸殘基形成席夫鹼（Schiff-base）加合物；是一種具免疫原性與致動脈粥樣硬化性的氧化修飾 LDL 形式。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "biological-molecule",
+            "oxidative-stress",
+            "atherosclerosis",
+            "biomarker"
+          ],
+          "filename": "MDA-LDL.md",
+          "path": "wiki/zh-TW/oxidative-stress/MDA-LDL.md"
+        }
+      },
+      "stats": {
+        "words": 727,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "PEX2",
+      "langs": {
+        "en-US": {
+          "title": "PEX2",
+          "description": "Peroxisomal RING-finger ubiquitin ligase of the importomer; mutated in Zellweger spectrum disorders.",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "gene",
+            "peroxisome"
+          ],
+          "filename": "PEX2.md",
+          "path": "wiki/en-US/_link/PEX2.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PEX2.md"
+        },
+        "zh-TW": {
+          "title": "PEX2",
+          "description": "過氧化物酶體輸入體的 RING finger 泛素連結酶；於齊維格爾症候群光譜疾病中發生突變。",
+          "created": "2026-09-19",
+          "updated": "2026-09-19",
+          "tags": [
+            "gene",
+            "peroxisome"
+          ],
+          "filename": "PEX2.md",
+          "path": "wiki/zh-TW/_link/PEX2.md"
+        }
+      },
+      "stats": {
+        "words": 109,
+        "images": 0,
+        "links": 16,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Hydroxyeicosatetraenoic acids",
+      "langs": {
+        "en-US": {
+          "title": "Hydroxyeicosatetraenoic acids",
+          "description": "HETEs are monohydroxylated derivatives of arachidonic acid produced by lipoxygenases, cytochrome P450 enzymes, or non-enzymatic lipid peroxidation; bioactive oxylipins and markers of oxidative stress.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "eicosanoid",
+            "oxidative-stress",
+            "signaling-molecule"
+          ],
+          "filename": "Hydroxyeicosatetraenoic acids.md",
+          "path": "wiki/en-US/_link/Hydroxyeicosatetraenoic%20acids.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hydroxyeicosatetraenoic%20acids.md"
+        },
+        "zh-TW": {
+          "title": "羥基二十碳四烯酸",
+          "description": "HETEs 為花生四烯酸（arachidonic acid）的單羥基化衍生物，可由脂氧合酶、細胞色素 P450 酶或非酵素性脂質過氧化反應生成；屬具生物活性的氧脂質（oxylipins），亦為氧化壓力的標記物。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "eicosanoid",
+            "oxidative-stress",
+            "signaling-molecule"
+          ],
+          "filename": "Hydroxyeicosatetraenoic acids.md",
+          "path": "wiki/zh-TW/_link/Hydroxyeicosatetraenoic%20acids.md"
+        }
+      },
+      "stats": {
+        "words": 722,
+        "images": 0,
+        "links": 45,
+        "diagrams": 0
+      }
+    }
+  ]
+}

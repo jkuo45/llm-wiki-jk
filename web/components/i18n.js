@@ -247,6 +247,7 @@ const UI_STRINGS = {
     // ---- Reader source tabs (single-language per UI lang) ----
     readerTabArticles: 'Articles',
     readerTabTasks: 'Tasks',
+    readerTabWiki: 'Wiki',
   },
   'zh-TW': {
     // ---- Analysis / chat panel ----
@@ -449,6 +450,7 @@ const UI_STRINGS = {
     // ---- Reader source tabs (single-language per UI lang) ----
     readerTabArticles: '文章',
     readerTabTasks: '任務',
+    readerTabWiki: '筆記',
   },
 };
 

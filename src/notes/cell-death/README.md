@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-09-14
+updated: 2026-09-23
 ---
 # Cell Death
 
@@ -19,6 +19,8 @@ updated: 2026-09-14
 | [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network\|Regulatory complexity and therapeutic targeting of the necroptosis network]] | Niu et al. 2026 review of canonical (TNFR1) and non-canonical (ZBP1, TRIF) necroptosis induction, the multilayered PTM/transcriptional regulation of RIPK1/RIPK3/MLKL, crosstalk with apoptosis/autophagy/inflammation/metabolism and PANoptosomes, and the therapeutic duality of inhibiting vs inducing necroptosis. |
 | [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9\|Insights on the crosstalk among different cell death mechanisms]] | Comprehensive review (Cell Death Discovery 2025) of apoptosis, autophagy, mitophagy, necroptosis, pyroptosis, and ferroptosis mechanisms, inducers, inhibitors, and crosstalk among key regulators including sirtuins. |
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
+| [[_document_ - Necroptosis (2014), Linkermann, Green\|Necroptosis (2014), Linkermann & Green]] | Linkermann and Green 2014 review of necroptosis — regulated necrotic cell death downstream of RIPK1/RIPK3/MLKL, its inflammatory signaling, and roles in ischemia-reperfusion injury. |
+| [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis\|RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis]] | Yang et al. 2018 — RIP3 phosphorylates the PDH E3 subunit at Thr135 to boost aerobic respiration and mitochondrial ROS, feeding back on the necrosome; blocking mitochondrial pyruvate uptake suppresses necroptosis. |
 
 ## Entity Notes
 
@@ -38,7 +40,7 @@ Necroptosis tools and modulators (mostly `_link/`): [[GSK872]], [[GSK840]], [[Zh
 
 Disease models: [[Cerulein-Induced Pancreatitis]] (RIPK3/MLKL-driven acinar necroptosis → DAMP release → SIRS).
 
-PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]], [[PAR]], [[PARG]], [[ARH3]], [[ADP-ribose]].
+PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 Fragment]], [[PAR]], [[PARG]], [[ARH3]], [[ADP-ribose]], [[Amelparib]].
 
 Parthanatos triggers and machinery: [[MNNG]], [[MMS]], [[PAANIB-1]], [[Iduna]], [[H1.2]], [[Cyclophilin A]], [[PARG53]].
 

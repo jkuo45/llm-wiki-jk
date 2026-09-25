@@ -137,7 +137,7 @@
         <div id="appearance-panel" class="settings-panel">
           <h3>Appearance / 外觀</h3>
           <div class="settings-row">
-            <label>Accent / 强调色</label>
+            <label for="set-accent-color">Accent / 强调色</label>
             <span class="settings-inline accent-presets" id="accent-presets">
               <button type="button" class="accent-swatch" data-accent="#0F766E" style="--sw:#0F766E" title="Teal #0F766E" aria-label="Teal #0F766E"></button>
               <button type="button" class="accent-swatch" data-accent="#4E79A7" style="--sw:#4E79A7" title="Blue #4E79A7" aria-label="Blue #4E79A7"></button>
@@ -538,6 +538,7 @@
         <div class="reader-source-toggle" id="reader-source" role="group" aria-label="Content source / 內容來源">
           <button type="button" data-source="articles" class="active" title="Articles / 文章">Articles / 文章</button>
           <button type="button" data-source="tasks" title="Task outputs / 任務輸出">Task Outputs / 任務輸出</button>
+          <button type="button" data-source="wiki" title="Recently updated wiki notes / 最近更新的 Wiki 筆記">Wiki / 筆記</button>
         </div>
         <div class="controls-spacer" aria-hidden="true"></div>
         <div class="lang-toggle panel-lang" id="reader-lang" role="group" aria-label="Language / 語言">
@@ -565,6 +566,7 @@
         </div>
       </div>
     </div>
+    <!-- Never add allow-scripts here: srcdoc is same-origin (allow-same-origin) and would get full parent-DOM access. -->
     <iframe id="html-mode-frame" title="HTML response" sandbox="allow-same-origin"></iframe>
   </div>
 </div>

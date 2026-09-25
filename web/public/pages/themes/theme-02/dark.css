@@ -113,10 +113,28 @@
   stroke: rgba(224, 224, 224, 0.25);
 }
 
-/* ——— Beyond-mitohormesis page custom palette ——— */
+/* ——— Shared custom palettes (hormetic / male-hub / beyond-mitohormesis pages) ——— */
 [data-theme="dark"] [fill="#2a9d8f"] { fill: #40c9b8; }
 [data-theme="dark"] [stroke="#2a9d8f"] { stroke: #40c9b8; }
 [data-theme="dark"] [fill="#264653"] { fill: var(--slate); }
 [data-theme="dark"] [stroke="#264653"] { stroke: var(--slate); }
 [data-theme="dark"] [fill="#c1121f"] { fill: var(--oxblood); }
 [data-theme="dark"] [stroke="#c1121f"] { stroke: var(--oxblood); }
+[data-theme="dark"] [fill="#7b2cbf"] { fill: #b07fe8; }
+[data-theme="dark"] [stroke="#7b2cbf"] { stroke: #b07fe8; }
+[data-theme="dark"] [fill="#e9c46a"] { fill: var(--gold-soft); }
+[data-theme="dark"] [stroke="#e9c46a"] { stroke: var(--gold-soft); }
+
+/* ——— Natural-bioactive page dose-band palette ——— */
+[data-theme="dark"] [fill="#7f1d2e"] { fill: var(--oxblood); }
+[data-theme="dark"] [stroke="#7f1d2e"] { stroke: var(--oxblood); }
+[data-theme="dark"] [fill="#a4133c"] { fill: var(--oxblood); }
+[data-theme="dark"] [stroke="#a4133c"] { stroke: var(--oxblood); }
+[data-theme="dark"] [fill="#e5383b"] { fill: var(--oxblood); }
+[data-theme="dark"] [stroke="#e5383b"] { stroke: var(--oxblood); }
+[data-theme="dark"] [fill="#ff5d73"] { fill: var(--oxblood-soft); }
+[data-theme="dark"] [stroke="#ff5d73"] { stroke: var(--oxblood-soft); }
+[data-theme="dark"] [fill="#2a7a3f"] { fill: var(--forest); }
+[data-theme="dark"] [stroke="#2a7a3f"] { stroke: var(--forest); }
+[data-theme="dark"] [fill="#ffd9a0"] { fill: var(--gold-soft); }
+[data-theme="dark"] [stroke="#ffd9a0"] { stroke: var(--gold-soft); }

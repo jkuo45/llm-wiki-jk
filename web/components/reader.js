@@ -4,7 +4,7 @@
 
 import { state } from './state.js';
 import { updateHash } from './routing.js';
-import { ARTICLES, TASKS } from './data.js';
+import { ARTICLES, TASKS, WIKI } from './data.js';
 import { tLang, onUiLangChange } from './i18n.js';
 import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 
@@ -23,11 +23,12 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // them as TASKS) and stamped kind: "task" by flattenRegistry below, so they
 // never collide with article groups in the hash route. Bare snake_case ids
 // (no "task:" prefix). Legacy "task:<stem>" deep links still resolve via
-// normalizeTaskId in getArticle. Entity notes are not
-// published to the website — the reader only browses articles + task outputs,
-// so there is no third registries here. The source tabs (#reader-source) switch
-// the dropdown between the two registries; task options are grouped by recency
-// of their `updated` date (this week / this month / older).
+// normalizeTaskId in getArticle. Entity notes are published to the website
+// as a capped wiki registry (wiki.json — the top `--wiki-limit` notes by a
+// recency + graph-centrality score, emitted by readme-counts).
+// The source tabs (#reader-source) switch the dropdown between the three
+// registries; task and wiki options are grouped by recency of their
+// `updated` date (this week / this month / older).
 // ------------------------------------------------------------
 
 const flattenRegistry = (rows, kind) => rows.flatMap((a) => {
@@ -43,7 +44,8 @@ const flattenRegistry = (rows, kind) => rows.flatMap((a) => {
 
 const ACTIVE_ARTICLES = flattenRegistry(ARTICLES, 'article');
 const ACTIVE_TASKS = flattenRegistry(TASKS, 'task');
-const ALL_ROWS = [...ACTIVE_ARTICLES, ...ACTIVE_TASKS];
+const ACTIVE_WIKI = flattenRegistry(WIKI, 'wiki');
+const ALL_ROWS = [...ACTIVE_ARTICLES, ...ACTIVE_TASKS, ...ACTIVE_WIKI];
 
 const normalizeTaskId = (id) =>
   typeof id === 'string' ? id.replace(/^task:/, '') : id;
@@ -56,17 +58,21 @@ const getArticle = (id) => ALL_ROWS.find((a) => a.id === id)
 // by tab clicks, the modal title, and whenever no specific article applies).
 // Fixed here in code rather than flagged in the registry JSON.
 const indexIdForMode = (mode) =>
-  mode === 'tasks' ? 'tasks-index' : 'articles-index';
+  mode === 'tasks' ? 'tasks-index'
+    : mode === 'wiki' ? 'wiki-index'
+      : 'articles-index';
 
 const getDefaultArticle = () =>
   getArticle(indexIdForMode('articles')) || ACTIVE_ARTICLES[0] || ACTIVE_TASKS[0];
 
 // ------------------------------------------------------------
-// Source mode (Articles vs Task Outputs tabs)
+// Source mode (Articles vs Task Outputs vs Wiki tabs)
 // ------------------------------------------------------------
 let sourceMode = 'articles';
 const rowsForMode = () =>
-  sourceMode === 'tasks' ? ACTIVE_TASKS : ACTIVE_ARTICLES;
+  sourceMode === 'tasks' ? ACTIVE_TASKS
+    : sourceMode === 'wiki' ? ACTIVE_WIKI
+      : ACTIVE_ARTICLES;
 
 function setSourceMode(mode) {
   if (sourceMode === mode) return;
@@ -80,6 +86,7 @@ function setSourceMode(mode) {
 const TAB_KEYS = {
   articles: 'readerTabArticles',
   tasks: 'readerTabTasks',
+  wiki: 'readerTabWiki',
 };
 
 function applyTabLabels() {
@@ -100,11 +107,16 @@ function sortedGroups(rows) {
   // `weight: 100` in articles.json so they sink to the bottom), then newest
   // group first. Each group is a single dropdown option,
   // so en/zh pairs always stay together regardless of per-entry `created`
-  // differences. Swap `created` for `updated` below if you'd rather sort by
-  // last-modified.
-  const groupCreated = (group) => rows
+  // differences. Articles/tasks sort by `created`; the wiki feed sorts by the
+  // newer of created/updated (it is a recent-activity feed).
+  const groupDate = (group) => rows
     .filter((a) => a.group === group)
-    .reduce((max, a) => ((a.created || '') > max ? a.created : max), '');
+    .reduce((max, a) => {
+      const d = sourceMode === 'wiki'
+        ? ((a.created || '') > (a.updated || '') ? (a.created || '') : (a.updated || ''))
+        : (a.created || '');
+      return d > max ? d : max;
+    }, '');
   return Array.from(groupKey.keys())
     .sort((a, b) => {
       const starDiff = (rows.find((r) => r.group === b)?.starred ? 1 : 0) -
@@ -113,7 +125,7 @@ function sortedGroups(rows) {
       const weightDiff = (rows.find((r) => r.group === a)?.weight || 0) -
         (rows.find((r) => r.group === b)?.weight || 0);
       if (weightDiff) return weightDiff;
-      return groupCreated(b).localeCompare(groupCreated(a));
+      return groupDate(b).localeCompare(groupDate(a));
     });
 }
 
@@ -128,7 +140,7 @@ function groupTitle(rows, group) {
   const zh = rows.find((a) => a.group === group && a.lang === 'zh-TW');
   const base = en || zh || rows.find((a) => a.group === group);
   if (!base) return group;
-  if (zh) return `${base.title} · ${zh.title}`;
+  if (zh && zh.title !== base.title) return `${base.title} · ${zh.title}`;
   return base.title;
 }
 
@@ -161,6 +173,16 @@ const prevBtn = document.getElementById('reader-prev');
 const modalTitle = document.getElementById('page-modal-title');
 const sourceBtns = Array.from(document.querySelectorAll('#reader-source [data-source]'));
 
+// Tell the loaded page which language edition is active so index cards can
+// render their description in the reader's chosen language (index-core.js
+// listens for `reader-lang`; other pages ignore it).
+function announceReaderLang() {
+  try {
+    const w = frame.contentWindow;
+    if (w) w.postMessage({ type: 'reader-lang', lang: currentArticle().lang }, window.location.origin);
+  } catch (e) { /* frame not ready */ }
+}
+
 // ------------------------------------------------------------
 // Session stack of visited articles (route history)
 // ------------------------------------------------------------
@@ -181,10 +203,10 @@ function loadArticle(article, section) {
     : /^tour=[A-Za-z0-9_]+(&step=\d+)?$/.test(section) ? '#' + section
     : '#' + encodeURIComponent(section);
   let url;
-  if (article.kind === 'task' && article.path.endsWith('.md')) {
-    // Task outputs are raw markdown rendered by the shared md-viewer shell;
-    // index pages are plain HTML and load directly.
-    url = 'pages/md-viewer.html?kind=task&src=' +
+  if ((article.kind === 'task' || article.kind === 'wiki') && article.path.endsWith('.md')) {
+    // Task outputs and wiki notes are raw markdown rendered by the shared
+    // md-viewer shell; index pages are plain HTML and load directly.
+    url = 'pages/md-viewer.html?kind=' + article.kind + '&src=' +
       encodeURIComponent('../' + article.path) + anchor;
   } else {
     url = article.path + anchor;
@@ -222,11 +244,11 @@ const BUCKET_LABELS = [
 function optionHTML(rows, group) {
   const title = groupTitle(rows, group);
   const star = rows.find((r) => r.group === group)?.starred ? '★ ' : '';
-  if (sourceMode !== 'tasks') {
+  if (sourceMode === 'articles') {
     return `<option value="${group}">${star}${title}</option>`;
   }
-  // Task outputs carry a relative-age suffix so freshness is visible in the
-  // closed dropdown too; grouping into recency optgroups does the rest.
+  // Task/wiki options carry a relative-age suffix so freshness is visible in
+  // the closed dropdown too; grouping into recency optgroups does the rest.
   const updated = latestUpdated(group);
   const suffix = updated ? ` · ${relativeAge(updated)}` : '';
   return `<option value="${group}">${star}${title}${suffix}</option>`;
@@ -235,8 +257,8 @@ function optionHTML(rows, group) {
 function buildOptions() {
   const rows = rowsForMode();
   const groups = sortedGroups(rows);
-  if (sourceMode === 'tasks') {
-    // Group task options by recency of their last modification.
+  if (sourceMode === 'tasks' || sourceMode === 'wiki') {
+    // Group task/wiki options by recency of their last modification.
     const buckets = [[], [], []];
     groups.forEach((g) => buckets[recencyBucket(latestUpdated(g))].push(g));
     select.innerHTML = buckets
@@ -290,7 +312,9 @@ export function openReader(id, { restore = false, section = null } = {}) {
   if (!article) return;
   // Tabs follow the opened entry (deep links may target the other source).
   setSourceMode(
-    article.kind === 'task' ? 'tasks' : 'articles'
+    article.kind === 'task' ? 'tasks'
+      : article.kind === 'wiki' ? 'wiki'
+        : 'articles'
   );
   buildOptions();
   if (restore) {
@@ -469,6 +493,7 @@ frame.addEventListener('load', () => {
     if (w) w.scrollTo(0, 0);
   }
   startSectionTracking();
+  announceReaderLang();
 });
 
 // Match the iframe's current location against the registry by page path.
@@ -478,8 +503,14 @@ frame.addEventListener('load', () => {
 function matchFrameArticle() {
   try {
     const path = frame.contentWindow.location.pathname;
-    const exact = ALL_ROWS.find((a) => path.endsWith('/' + a.path));
-    if (exact) return exact;
+    const exact = ALL_ROWS.filter((a) => path.endsWith('/' + a.path));
+    if (exact.length > 1) {
+      // Several rows share this file (index pages: one path for both
+      // languages). The document is identical either way, so keep the row
+      // the user selected rather than resetting to the first (en) match.
+      return exact.find((a) => a.id === state.readerId) || exact[0];
+    }
+    if (exact.length === 1) return exact[0];
     const file = path.split('/').pop();
     const groups = new Set(
       ALL_ROWS.filter((a) => a.path.split('/').pop() === file).map((a) => a.group)
@@ -542,6 +573,7 @@ langBtns.forEach((btn) => {
     if (target && target.id !== cur.id) {
       openReader(target.id, { section: state.readerSection });
     }
+    announceReaderLang();
   });
 });
 

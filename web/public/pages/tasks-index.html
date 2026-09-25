@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Task Outputs — Index</title>
-<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by when they were created.">
+<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by when they were created or updated.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
 <script src="themes/theme-02/theme.js"></script>
@@ -40,6 +40,8 @@
 
 /* Descriptions toggle: reads as "off" when dimmed, "on" when accented */
 .desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
+/* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
+.sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 @media (max-width: 640px) { .task-card { padding: 14px 14px 12px; } }
 </style>
 <link rel="stylesheet" href="themes/theme-02/dark.css">
@@ -50,6 +52,7 @@
     <div class="search-row" id="searchRow">
       <input type="search" id="searchBox" placeholder="search task outputs… / 搜尋任務輸出" autocomplete="off">
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+      <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
       <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
     </div>
     <div id="taskIndex"></div>
@@ -62,9 +65,10 @@
 
 <script>
 (function(){
-  const { esc, highlight, parseQuery, asStr, relAge, bucket, BUCKETS,
-    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate,
+  const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
+    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
+  const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('taskIndex');
   const emptyNote = document.getElementById('emptyNote');
   const noMatchNote = document.getElementById('noMatchNote');
@@ -83,7 +87,8 @@
 
   function matches(t, tokens){
     if (!tokens.length) return true;
-    const hay = [t.display, t.zhTitle, t.desc, t.id, t.file].join('\n').toLowerCase();
+    /* Search both language descriptions regardless of the shown one. */
+    const hay = [t.display, t.zhTitle, t.descEn, t.descZh, t.id, t.file].join('\n').toLowerCase();
     return tokens.every(tok => hay.includes(tok));
   }
 
@@ -115,34 +120,61 @@
       return f && Object.prototype.hasOwnProperty.call(f, 'starred')
         ? f.starred === true : t.starred === true;
     };
+    const toTime = (s) => { const t = Date.parse(s || ''); return Number.isNaN(t) ? -Infinity : t; };
     const tasks = (data.tasks || [])
       .filter(t => t.active !== false && t.id !== 'tasks-index' && t.langs && t.langs['en-US'])
       .map(t => {
         const en = t.langs['en-US'];
         const zh = t.langs['zh-TW'];
+        /* Sort/group by whichever is newer — created or updated (fall
+           back to created when an entry has no updated date).
+           Date.parse comparison (not string >) so mixed ISO formats
+           still order correctly; unparsable dates sort as oldest.
+           Task dates live under langs (no top-level dates like articles). */
+        const updated = en.updated || zh?.updated || en.created || zh?.created || '';
         const created = en.created || zh?.created || '';
+        const latest = toTime(updated) >= toTime(created) ? (updated || created) : created;
+        const isNew = toTime(created) >= toTime(updated);
         const key = taskIdOf(t);
         const starred = dbStarred(t, key);
         return {
           id: t.id,
           display: asStr(en.title),
           starred,
-          desc: asStr(en.description || ''),
+          descEn: asStr(en.description || ''),
+          descZh: zh ? asStr(zh.description || '') : '',
           enPath: en.path,
           file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
           zhPath: zh ? zh.path : en.path,
           zhTitle: zh ? asStr(zh.title) : '',
           created,
-          age: relAge(created),
-          bucket: starred ? 0 : bucket(created),
+          updated,
+          latest,
+          verb: isNew ? 'created' : 'updated',
+          age: relAge(latest),
+          bucket: starred ? 0 : bucket(latest),
         };
-      })
-      .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
+      });
+
+      /* Sort order flips only the date term (starred stays first);
+         newest-first is the default. */
+      const getDir = wireSort(document.getElementById('sortToggle'), render);
+      function sortTasks(){
+        tasks.sort((x, y) => (y.starred - x.starred) ||
+          ((toTime(y.latest) - toTime(x.latest)) * getDir()));
+      }
 
       const viewerHref = (path) =>
         'md-viewer.html?kind=task&src=' + encodeURIComponent('../' + path);
 
+      /* Active card description follows the Reader's EN/中 toggle
+         (index-core wireDescLang); fallback covers single-language entries. */
+      const getDescLang = wireDescLang(render);
+
       function render(){
+        const zhDesc = getDescLang() === 'zh-TW';
+        tasks.forEach(t => { t.desc = zhDesc ? (t.descZh || t.descEn) : (t.descEn || t.descZh); });
+        sortTasks();
         const tokens = parseQuery(searchBox.value);
         searchClear.hidden = !searchBox.value;
         let shown = 0;
@@ -160,7 +192,7 @@
               ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="task-desc">${highlight(t.desc, tokens)}</p>` : ''}
               <p class="task-meta"><code>${esc(t.file)}</code></p>
-              <p class="task-meta"><span class="${cls}">${t.age === 'today' ? 'created today' : `created ${esc(t.age)} ago`} (${esc(t.created)})</span></p>
+              <p class="task-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span></p>
             </li>`).join('');
           html += '</ul>';
         });

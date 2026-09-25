@@ -1,5 +1,5 @@
 {
-  "generated": "18_SEP_2026 04:10 PM PDT",
+  "generated": "25_SEP_2026 12:12 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,1222 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondrial Fission and the Fat-Soluble Vitamins: How Vitamins A and E Set the Fission–Fusion Balance",
+          "description": "Task output covering the Drp1 fission machinery and its redox/lipid control points, where vitamin E sits in the outer mitochondrial membrane and how it defends cardiolipin and Drp1 from peroxidation-driven hyperfragmentation, and the dual-edged role of vitamin A — retinol as a PKCδ/OXPHOS cofactor versus all-trans retinoic acid as an inducer of Drp1 and fission.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "粒線體分裂與脂溶性維生素：維生素 A 與 E 如何設定分裂–融合平衡",
+          "description": "任務輸出，涵蓋 DRP1 分裂機器與其氧化還原／脂質控制點、維生素 E 在粒線體外膜中的定位及其對心磷脂與 DRP1 的防護（避免過氧化驅動的過度分裂），以及維生素 A 的雙重角色——視黃醇作為 PKCδ/OXPHOS 輔因子，相對於全反式視黃酸誘導 DRP1 與分裂。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Lipid Peroxidation and the Ascorbate–Tocopherol Relay: Biochemistry of the Membrane Antioxidant Network",
+          "description": "Task output covering the biochemistry of lipid peroxidation and the phase-partitioned antioxidant network — the vitamin C–vitamin E recycling relay, glutathione/GPX4 membrane repair, FSP1–CoQ10 parallel defense, aldehyde and DNA adduct products, and the enzymatic versus radical split in eicosanoid biology.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-c",
+            "antioxidants",
+            "ferroptosis",
+            "eicosanoids",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "脂質過氧化與抗壞血酸–生育醇接力：膜抗氧化網絡的生物化學",
+          "description": "任務輸出，涵蓋脂質過氧化與分相抗氧化網絡的生物化學——維生素 C–維生素 E 再生接力、穀胱甘肽／GPX4 膜修復、FSP1–CoQ10 平行防禦、醛類與 DNA 加合物產物，以及二十碳烯酸生物學中酵素性與自由基路徑的分流。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-c",
+            "antioxidants",
+            "ferroptosis",
+            "eicosanoids",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "COMT Val158Met Genotype Gate — α-Tocopherol Supplementation and Cancer Risk",
+          "description": "Deep dive into the COMT Val158Met genotype gate for vitamin E — Hall et al. JNCI 2019 pharmacogenetic re-analysis of WGHS and ATBC (Met/Met ~12% cancer reduction, Val/Val +18%, heterozygotes null), dose-robustness, colorectal follow-up and HCT116 mechanism work, caveats (supplements only, European ancestry), and adjacent evidence on dietary vitamin E and COMT as a general supplement-response modifier.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "comt",
+            "val158met",
+            "vitamin-e",
+            "alpha-tocopherol",
+            "pharmacogenomics",
+            "cancer",
+            "supplementation"
+          ],
+          "filename": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "COMT Val158Met 基因型關卡 — α-生育醇補充與癌症風險",
+          "description": "深入解析維生素 E 的 COMT Val158Met 基因型關卡 — Hall 等人 JNCI 2019 對 WGHS 與 ATBC 的藥物基因體學再分析（Met/Met 癌症風險下降約 12%、Val/Val 上升 18%、異型合子無效應），劑量穩健性、大腸直腸癌後續研究與 HCT116 機制實驗、注意事項（僅限補充劑、歐洲血統），以及關於膳食維生素 E 與 COMT 作為通用補充劑反應調節因子的旁證。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "comt",
+            "val158met",
+            "vitamin-e",
+            "alpha-tocopherol",
+            "pharmacogenomics",
+            "cancer",
+            "supplementation"
+          ],
+          "filename": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Queen Palm (Syagrus romanzoffiana) — Biochemical Nutrients, Edibility, Health Benefits, and Lipid-Peroxidation Ranking",
+          "description": "Gemini conversation export covering Queen Palm fruit identification, biochemical/nutritional profile, edibility for humans and pets, research literature, commercial availability, health benefits (antioxidant, metabolic, cardioprotective, neuroprotective), similar plants, structural protection against lipid peroxidation, and ranking of its lipophilic antioxidant compounds.",
+          "created": "2026-09-23",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "queen-palm",
+            "syagrus-romanzoffiana",
+            "carotenoids",
+            "lipid-peroxidation",
+            "antioxidants",
+            "phytochemicals",
+            "jeriva",
+            "mitohormesis",
+            "vitamin-e"
+          ],
+          "filename": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
+          "path": "tasks/en-US/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "皇后棕（Syagrus romanzoffiana）— 生化營養素、可食性、健康益處與脂質過氧化排序",
+          "description": "Gemini 對話匯出，涵蓋皇后棕果實辨識、生化／營養組成、人類與寵物可食性、研究文獻、商品通路、健康益處（抗氧化、代謝、心臟保護、神經保護）、相似植物、脂質過氧化的結構性防護，以及其親脂性抗氧化化合物的排序。",
+          "created": "2026-09-23",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "queen-palm",
+            "syagrus-romanzoffiana",
+            "carotenoids",
+            "lipid-peroxidation",
+            "antioxidants",
+            "phytochemicals",
+            "jeriva",
+            "mitohormesis",
+            "vitamin-e"
+          ],
+          "filename": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "SIRT1/SIRT3 Pace & Kinetic Modulators — Rate-Setting Therapeutics (Not Classical On/Off)",
+          "description": "Web research on therapeutics that target SIRT1 or SIRT3 through reaction speed, cofactor flux, and catalytic efficiency rather than binary inhibition/activation — including the Guan 2024 steady-state SIRT3 activators (compounds 5329973 / 5689785) and the CCM-SRX pipeline.",
+          "created": "2026-09-23",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "sirt1",
+            "sirt3",
+            "enzyme-kinetics",
+            "nad-metabolism",
+            "pace-of-aging",
+            "cd38",
+            "nampt",
+            "drug-discovery"
+          ],
+          "filename": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "SIRT1/SIRT3 步調與動力學調節劑 — 設定反應速度的療法（非古典開／關）",
+          "description": "以反應速度、輔因子通量與催化效率（而非二元抑制／活化）為框架的 SIRT1 或 SIRT3 療法網路研究 — 含 Guan 2024 穩態 SIRT3 活化劑（化合物 5329973 / 5689785）與 CCM-SRX 管線。",
+          "created": "2026-09-23",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "sirt1",
+            "sirt3",
+            "enzyme-kinetics",
+            "nad-metabolism",
+            "pace-of-aging",
+            "cd38",
+            "nampt",
+            "drug-discovery"
+          ],
+          "filename": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Caspases vs Kinases vs Sirtuins — Enzyme-Superfamily Comparison",
+          "description": "Compare-and-contrast of the three major post-translational enzyme superfamilies (caspases, kinases, sirtuins) by chemistry, reversibility, cofactor, and biological role; their crosstalk nodes; and how their interactions regulate wanted vs unwanted cell death.",
+          "created": "2026-09-22",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "caspase",
+            "kinase",
+            "sirtuin",
+            "enzyme",
+            "post-translational-modification",
+            "apoptosis",
+            "pyroptosis",
+            "signaling",
+            "nad-plus",
+            "cell-death"
+          ],
+          "filename": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
+          "path": "tasks/en-US/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "Caspases vs Kinases vs Sirtuins — 酶超家族比較",
+          "description": "三大翻譯後修飾酶超家族（caspases、kinases、sirtuins）在化學反應、可逆性、輔因子與生物角色上的比較；其串擾節點；以及它們如何調控「需要的」與「不需要的」細胞死亡。",
+          "created": "2026-09-22",
+          "updated": "2026-09-23",
+          "tags": [
+            "task-output",
+            "caspase",
+            "kinase",
+            "sirtuin",
+            "enzyme",
+            "post-translational-modification",
+            "apoptosis",
+            "pyroptosis",
+            "signaling",
+            "nad-plus",
+            "cell-death"
+          ],
+          "filename": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_turnover_rate_tradeoffs_22_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Cellular Turnover Rate Trade-offs — Outcomes of Higher vs Lower Turnover",
+          "description": "Positive and negative consequences of higher or lower cellular turnover rates across tissues, framing the cancer-mutation vs senescent-accumulation trade-off.",
+          "created": "2026-09-22",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "turnover",
+            "apoptosis",
+            "senescence",
+            "cancer",
+            "aging",
+            "homeostasis",
+            "regeneration"
+          ],
+          "filename": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
+          "path": "tasks/en-US/task_output_turnover_rate_tradeoffs_22_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞週轉率的權衡 — 較高與較低週轉的後果",
+          "description": "較高或較低細胞週轉率在各組織中的正面與負面後果，框定癌症突變 vs 衰老細胞累積的權衡。",
+          "created": "2026-09-22",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "turnover",
+            "apoptosis",
+            "senescence",
+            "cancer",
+            "aging",
+            "homeostasis",
+            "regeneration"
+          ],
+          "filename": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_turnover_rate_tradeoffs_22_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
+      "langs": {
+        "en-US": {
+          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
+          "created": "2026-08-20",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
+          "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
+          "created": "2026-08-20",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "sirtuins",
+            "knowledge-graph"
+          ],
+          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
+          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json, with primary-source grounding.",
+          "created": "2026-08-24",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
+          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
+          "created": "2026-08-24",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 2",
+          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
+          "created": "2026-08-21",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素協定網路追蹤，第二輪",
+          "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
+          "created": "2026-08-21",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_protocol_traces_20_AUG_2026",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
+          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
+          "created": "2026-08-20",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
+          "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
+          "created": "2026-08-20",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "methylene-blue",
+            "aminoguanidine",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026",
+      "langs": {
+        "en-US": {
+          "title": "FSP1–CoQ10–NAD(P)H Ferroptosis Axis (deep dive)",
+          "description": "Synthesis of the Doll et al. (2019) discovery that FSP1 uses NAD(P)H to regenerate ubiquinone (CoQ10) to ubiquinol at the plasma membrane, acting as a GPX4-independent parallel brake on ferroptosis, and how mevalonate-pathway loss of ubiquinone converges on FSP1 to predict ferroptosis sensitivity.",
+          "created": "2026-08-24",
+          "updated": "2026-08-24",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "fsp1",
+            "coenzyme-q10",
+            "lipid-peroxidation",
+            "mevalonate-pathway"
+          ],
+          "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+          "path": "tasks/en-US/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
+        },
+        "zh-TW": {
+          "title": "FSP1–CoQ10–NAD(P)H 鐵死亡軸（深度剖析）",
+          "description": "綜整 Doll 等人（2019）的發現：FSP1 利用 NAD(P)H 在細胞膜上將泛醌（CoQ10）再生為泛醇，作為不依賴 GPX4 的平行煞車機制抑制鐵死亡；以及甲羥戊酸途徑因泛醌流失而匯聚於 FSP1，如何預測鐵死亡敏感性。",
+          "created": "2026-08-24",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "fsp1",
+            "coenzyme-q10",
+            "lipid-peroxidation",
+            "mevalonate-pathway"
+          ],
+          "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+          "path": "tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - GOPS - glyco-oxidative proteostasis",
+      "langs": {
+        "en-US": {
+          "title": "GOPS - Glyco-Oxidative Proteostasis Shield",
+          "description": "Conceptual longevity protocol combining the adrenochrome monoaminoguanidine hybrid molecule, spermidine autophagy induction, and carnosine/EDTA metal chelation to counter glycation (AGEs), oxidative stress, and impaired proteostasis in aging and metabolic stress contexts.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "glycation",
+            "proteostasis"
+          ],
+          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+        },
+        "zh-TW": {
+          "title": "GOPS - 糖氧化蛋白穩態防護盾",
+          "description": "一個概念性的長壽方案，結合腎上腺紅質單胺基胍雜合分子、精胺（spermidine）自噬誘導，以及肌肽／EDTA 金屬螯合，以對抗老化與代謝壓力情境下的糖化（AGEs）、氧化壓力與受損的蛋白穩態。",
+          "created": "2026-06-19",
+          "updated": "2026-09-22",
+          "tags": [
+            "clippings",
+            "glycation",
+            "proteostasis"
+          ],
+          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - MB, AG nitric oxide pathway signaling",
+      "langs": {
+        "en-US": {
+          "title": "Nitric Oxide Pathway Inhibitors - Aminoguanidine and Methylene Blue",
+          "description": "Comparison of aminoguanidine (upstream iNOS inhibition) and methylene blue (downstream soluble guanylyl cyclase inhibition) as mechanistically complementary modulators of the nitric oxide–cGMP signaling cascade in inflammation, shock, and transplant research.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "nitric-oxide",
+            "aminoguanidine",
+            "methylene-blue"
+          ],
+          "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
+        },
+        "zh-TW": {
+          "title": "一氧化氮路徑抑制劑 - Aminoguanidine 與 Methylene Blue",
+          "description": "比較 aminoguanidine（上游 iNOS 抑制）與 methylene blue（下游可溶性鳥苷酸環化酶抑制）作為一氧化氮–cGMP 訊號級聯在發炎、休克與移植研究中機制互補的調節劑。",
+          "created": "2026-06-19",
+          "updated": "2026-09-22",
+          "tags": [
+            "clippings",
+            "nitric-oxide",
+            "aminoguanidine",
+            "methylene-blue"
+          ],
+          "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - MRR - mitohormesis, MB, NAD",
+      "langs": {
+        "en-US": {
+          "title": "MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)",
+          "description": "Speculative mitohormetic stack using low-dose carbazochrome redox pulsing, methylene blue electron shunting, NAD+ precursors (NR/NMN), and urolithin A mitophagy to address mitochondrial dysfunction through controlled oxidative eustress and biogenesis signaling.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "mitohormesis",
+            "mitochondria"
+          ],
+          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+        },
+        "zh-TW": {
+          "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
+          "description": "一個推測性的粒線體激效性堆疊，使用低劑量 carbazochrome 氧化還原脈衝、methylene blue 電子分流、NAD+ 前驅物（NR/NMN），以及 urolithin A 粒線體自噬，透過受控的氧化性良性壓力與生合成訊號來處理粒線體功能障礙。",
+          "created": "2026-06-19",
+          "updated": "2026-09-22",
+          "tags": [
+            "clippings",
+            "mitohormesis",
+            "mitochondria"
+          ],
+          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - SRAC - senescent, ligand-conjugated",
+      "langs": {
+        "en-US": {
+          "title": "SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)",
+          "description": "Original SRAC senotherapeutic hypothesis (superseded) using nanoparticle-delivered adrenochrome to sensitize senescent cells, combined with rapamycin SASP suppression, fisetin senolysis, and GlyNAC redox buffering to target cellular senescence and inflammaging.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "senescence",
+            "inflammaging"
+          ],
+          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+        },
+        "zh-TW": {
+          "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
+          "description": "原始的 SRAC 衰老治療假說（已被取代），使用奈米顆粒遞送的腎上腺紅質來致敏衰老細胞，結合 rapamycin 的 SASP 抑制、fisetin 的衰老溶解，以及 GlyNAC 的氧化還原緩衝，以標靶細胞衰老與發炎老化。",
+          "created": "2026-06-19",
+          "updated": "2026-09-22",
+          "tags": [
+            "剪報",
+            "老化",
+            "發炎"
+          ],
+          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
+      "langs": {
+        "en-US": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
+          "created": "2026-07-21",
+          "updated": "2026-08-23",
+          "tags": [
+            "gemini"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        },
+        "zh-TW": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
+          "created": "2026-07-21",
+          "updated": "2026-09-22",
+          "tags": [
+            "雙子座"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        }
+      }
+    },
+    {
+      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
+      "langs": {
+        "en-US": {
+          "title": "Outline - Adrenochrome (MB, AG) Protocol",
+          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
+          "created": "2026-06-27",
+          "updated": "2026-08-23",
+          "tags": [
+            "outline",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "methylene-blue",
+            "aminoguanidine"
+          ],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        },
+        "zh-TW": {
+          "title": "大綱 - Adrenochrome (MB, AG) 協定",
+          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
+          "created": "2026-06-27",
+          "updated": "2026-09-22",
+          "tags": [
+            "大綱",
+            "腎上腺素紅",
+            "粒線體毒物興奮作用",
+            "自噬",
+            "亞甲基藍",
+            "氨基胍"
+          ],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_SRAC_revision_log_08_JULY_2026",
+      "langs": {
+        "en-US": {
+          "title": "SRAC Protocol Revision Log",
+          "description": "Revision log documenting two structural changes to the SRAC senotherapy protocol — sequential rapamycin-to-fisetin dosing to resolve the senomorphic/senolytic timing conflict, and carbazochrome substitution for adrenochrome to remove nanoparticle delivery.",
+          "created": "2026-07-08",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "senescence",
+            "rapamycin",
+            "fisetin",
+            "carbazochrome"
+          ],
+          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "SRAC 協定修訂日誌",
+          "description": "記錄 SRAC 衰老治療協定兩項結構性變更的修訂日誌——序列性 rapamycin 至 fisetin 給藥以解決衰老修飾／衰老溶解的時程衝突，以及以 carbazochrome 取代腎上腺紅質以移除奈米顆粒遞送。",
+          "created": "2026-07-08",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "senescence",
+            "rapamycin",
+            "fisetin",
+            "carbazochrome"
+          ],
+          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_gap_analysis_09_JUL_2026",
+      "langs": {
+        "en-US": {
+          "title": "Gap Analysis - _triples.json vs. Task Docs (Adrenochrome)",
+          "description": "Coverage gap analysis comparing the adrenochrome triples knowledge base (184 entities) against task documents, surfacing unexplored clusters such as the methemoglobinemia safety paradox of methylene blue's dual electron-shuttle and antidote roles.",
+          "created": "2026-07-09",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "gap-analysis",
+            "adrenochrome",
+            "methemoglobinemia"
+          ],
+          "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "差距分析 - _triples.json vs. 任務文件（Adrenochrome）",
+          "description": "覆蓋率差距分析，將 adrenochrome triples 知識庫（184 個實體）與任務文件進行比較，揭示未探索的叢集，例如 methylene blue 雙重電子穿梭與解毒角色所構成的變性血紅素血症安全性悖論。",
+          "created": "2026-07-09",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "knowledge-graph",
+            "gap-analysis",
+            "adrenochrome",
+            "methemoglobinemia"
+          ],
+          "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
+      "langs": {
+        "en-US": {
+          "title": "Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)",
+          "description": "Hypothetical replenishment protocol grounded in adrenochrome chemistry — instability and redox cycling risks, endogenous production at neutrophil-rich inflammatory sites, stabilization with antioxidants and inert-atmosphere storage, and carbazochrome as a stable delivery form.",
+          "created": "2026-05-25",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "carbazochrome",
+            "redox-cycling"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+        },
+        "zh-TW": {
+          "title": "人類腎上腺素紅補充的分析和方案（假設）",
+          "description": "假設的補充方案是基於腎上腺素紅化學——不穩定性和氧化還原循環風險、富含嗜中性球的發炎部位的內源性產生、抗氧化劑的穩定和惰性氣氛儲存以及卡唑鉻作為穩定的遞送形式。",
+          "created": "2026-05-25",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "carbazochrome",
+            "redox-cycling"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
+      "langs": {
+        "en-US": {
+          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
+          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
+          "created": "2026-05-25",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        },
+        "zh-TW": {
+          "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
+          "description": "假設性方案，利用嗜中性球的氧化爆發——PMA/酵母聚醣活化 NADPH oxidase 與髓過氧化物酶途徑——於誘導發炎期間催化腎上腺素轉化為腎上腺素紅。",
+          "created": "2026-05-25",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
+      "langs": {
+        "en-US": {
+          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
+          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
+          "created": "2026-07-13",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
+          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
+          "created": "2026-07-13",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_pharmacologist_feasibility_16_JUN_2026",
+      "langs": {
+        "en-US": {
+          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
+          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
+          "created": "2026-06-16",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        },
+        "zh-TW": {
+          "title": "藥理學分析 — 腎上腺色素複方療法",
+          "description": "藥理學家針對三種複方療法（MRR、SRAC、GOPS）的可行性評估，該等療法利用腎上腺色素衍生物作為精準粒線體激效觸發劑，目標為粒線體生合成、細胞衰老/SASP 及蛋白質恆定，並附有評分的合理性與安全性評估。",
+          "created": "2026-06-16",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
+      "langs": {
+        "en-US": {
+          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
+          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
+          "created": "2026-07-04",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
+          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
+          "created": "2026-07-04",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome → Inflammaging Trace",
+          "description": "Knowledge-graph shortest-path traces linking adrenochrome to inflammaging, identifying the DGCR8/Drosha miRNA-biogenesis axis as the dominant two-hop epigenetic bridge between catecholamine oxidation products and chronic inflammatory aging.",
+          "created": "2026-07-16",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "inflammaging",
+            "knowledge-graph",
+            "microrna"
+          ],
+          "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
+        },
+        "zh-TW": {
+          "title": "Adrenochrome → Inflammaging Trace",
+          "description": "知識圖譜最短路徑追蹤，連結腎上腺色素至發炎性老化，辨識 DGCR8/Drosha miRNA 生成軸作為兒茶酚胺氧化產物與慢性發炎性老化之間的主導性兩跳表觀遺傳橋樑。",
+          "created": "2026-07-16",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "inflammaging",
+            "knowledge-graph",
+            "microrna"
+          ],
+          "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
+      "langs": {
+        "en-US": {
+          "title": "DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
+          "description": "DGCR8 knockout ES cells show global loss of miRNAs, failure to silence pluripotency upon differentiation, G1 accumulation, and prolonged doubling time — establishing DGCR8/miRNA as essential for silencing embryonic stem cell self-renewal.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "stem-cells"
+          ],
+          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
+        },
+        "zh-TW": {
+          "title": "DGCR8 對微小 RNA 生成及胚胎幹細胞自我更新沉默至關重要",
+          "description": "DGCR8 基因剔除的 ES 細胞顯示 miRNA 全面喪失、分化時無法沉默多潛能性、G1 期堆積以及群體倍增時間延長——確立 DGCR8/miRNA 對胚胎幹細胞自我更新沉默的必要性。",
+          "created": "2026-07-16",
+          "updated": "2026-09-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "stem-cells"
+          ],
+          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
+      "langs": {
+        "en-US": {
+          "title": "DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
+          "description": "In IPF, DROSHA is elevated in alveolar macrophages and promotes AIM2 inflammasome activation, caspase-1 cleavage, and IL-1β/IL-18 release; DROSHA deficiency suppresses this lung inflammation. Links Microprocessor dysfunction to innate immune inflammation.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "inflammaging",
+            "innate-immunity"
+          ],
+          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
+        },
+        "zh-TW": {
+          "title": "DROSHA 依賴性 AIM2 發炎體活化參與特發性肺纖維化期間的肺部發炎",
+          "description": "在 IPF 中，DROSHA 在肺泡巨噬細胞中升高，並促進 AIM2 發炎體活化、caspase-1 切割以及 IL-1β/IL-18 釋放；DROSHA 缺失可抑制此肺部發炎。將微處理複體功能障礙連結至先天免疫發炎。",
+          "created": "2026-07-16",
+          "updated": "2026-09-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "inflammaging",
+            "innate-immunity"
+          ],
+          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
+      "langs": {
+        "en-US": {
+          "title": "Shingles vaccine may slow biological aging and reduce inflammation",
+          "description": "A U.S. population-based cohort study (HRS, n>3,800 adults ≥70) found shingles vaccination associated with slower biological aging, lower chronic inflammation (inflammaging), and slower epigenetic/transcriptomic aging — effects persisting ≥4 years.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "inflammaging",
+            "vaccine",
+            "aging"
+          ],
+          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
+        },
+        "zh-TW": {
+          "title": "帶狀皰疹疫苗或可減緩生物性老化並降低發炎",
+          "description": "一項美國基於族群的世代研究（HRS，n>3,800 名 70 歲以上成人）發現，帶狀皰疹疫苗接種與較慢的生物性老化、較低的慢性發炎（發炎性老化）以及較慢的表觀遺傳/轉錄體老化相關——效果持續至少 4 年。",
+          "created": "2026-07-16",
+          "updated": "2026-09-22",
+          "tags": [
+            "adrenochrome-trace",
+            "inflammaging",
+            "vaccine",
+            "aging"
+          ],
+          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
+        }
+      }
+    },
+    {
+      "id": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
+      "langs": {
+        "en-US": {
+          "title": "The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
+          "description": "Biochemical and RNAi evidence that DGCR8 (human) and dmDGCR8 (Drosophila) are essential Microprocessor cofactors that recognize pri-miRNAs, interact with Drosha, and are required for pre-/mature miRNA production.",
+          "created": "2026-07-16",
+          "updated": "2026-08-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "rna-processing"
+          ],
+          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
+        },
+        "zh-TW": {
+          "title": "人類迪喬治症候群關鍵區域基因 8 及其 D. melanogaster 同源基因對 miRNA 生成不可或缺",
+          "description": "生化合與 RNAi 證據顯示，DGCR8（人類）與 dmDGCR8（果蠅）為不可或缺的微處理複體輔因子，可辨識 pri-miRNA、與 Drosha 交互作用，並對 pre-/成熟 miRNA 產生所需。",
+          "created": "2026-07-16",
+          "updated": "2026-09-22",
+          "tags": [
+            "adrenochrome-trace",
+            "mirna",
+            "epigenetics",
+            "rna-processing"
+          ],
+          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_proximity_graph_learning_21_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Proximity-guided graph learning — techniques & repo implementation plan",
+          "description": "Key graph analysis techniques from Scandore et al. (Nature, 2026; proximity-guided TAPA discovery) mapped onto concrete adjustments to llm-wiki-jk's graph pipeline.",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "graph-analysis",
+            "link-prediction",
+            "task"
+          ],
+          "filename": "task_output_proximity_graph_learning_21_Sep_2026.md",
+          "path": "tasks/en-US/task_output_proximity_graph_learning_21_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "鄰近性導向圖譜學習 — 技術與儲存庫實作計畫",
+          "description": "將 Scandore 等人（Nature, 2026；鄰近性導向 TAPA 發現）的關鍵圖譜分析技術，映射至 llm-wiki-jk 圖譜管線的具體調整。",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "graph-analysis",
+            "link-prediction",
+            "task"
+          ],
+          "filename": "task_output_proximity_graph_learning_21_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_proximity_graph_learning_21_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_berberine_type2_diabetes_21_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Berberine and Type 2 Diabetes — Mechanisms, Clinical Evidence, and Graph Context",
+          "description": "Synthesis of berberine mechanisms (AMPK, gut microbiome, anti-inflammatory, lipid), clinical evidence (Yin 2008, Guo 46-RCT meta-analysis, PREMOTE, HTD1801 phase 2), safety and regulatory caveats, and the graph-topology reading (Type 2 Diabetes periphery-bottleneck gateway into the Berberine community).",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "task-output",
+            "berberine",
+            "type-2-diabetes",
+            "ampk",
+            "gut-microbiome",
+            "gateway-node",
+            "review"
+          ],
+          "filename": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
+          "path": "tasks/en-US/task_output_berberine_type2_diabetes_21_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "小檗鹼與第二型糖尿病 — 機制、臨床證據與圖譜脈絡",
+          "description": "綜述小檗鹼的作用機制（AMPK、腸道菌相、抗發炎、血脂）、臨床證據（Yin 2008、Guo 46 項 RCT 統合分析、PREMOTE、HTD1801 二期試驗）、安全性與法規注意事項，以及圖譜拓撲解讀（第二型糖尿病作為邊緣瓶頸閘道，通往小檗鹼社群）。",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "task-output",
+            "berberine",
+            "type-2-diabetes",
+            "ampk",
+            "gut-microbiome",
+            "gateway-node",
+            "review"
+          ],
+          "filename": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_berberine_type2_diabetes_21_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Multiple Scenarios Explaining Senescence-Mediated Organ Dysfunction — Vault Trace plus 2024-2026 Update",
+          "description": "Task output tracing the Birch and Gil 2020 Fig.3 claim through vault notes and most-recent literature for each of the five scenarios.",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "senescence",
+            "sasp",
+            "inflammaging",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
+          "path": "tasks/en-US/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "解釋衰老介導器官功能障礙的多重情境 — 知識庫追溯加 2024–2026 年更新",
+          "description": "任務輸出：沿 Birch and Gil 2020 Fig.3 主張，貫穿知識庫筆記與最新文獻，逐一追溯五種情境。",
+          "created": "2026-09-21",
+          "updated": "2026-09-21",
+          "tags": [
+            "senescence",
+            "sasp",
+            "inflammaging",
+            "literature-review"
+          ],
+          "filename": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
+        }
+      }
+    },
+    {
+      "id": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Why the SASP Exerts Pleiotropic and Opposing Effects — Vault Synthesis plus Latest Literature",
+          "description": "Task output tracing the Birch and Gil 2020 pleiotropy question through vault notes and 2024-2026 literature — heterogeneity axes, bidirectional signaling, and what remains undeciphered.",
+          "created": "2026-09-20",
+          "updated": "2026-09-20",
+          "tags": [
+            "senescence",
+            "sasp",
+            "pleiotropy",
+            "literature-review"
+          ],
+          "filename": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "為何 SASP 產生多效且相反的效應 — 知識庫綜合與最新文獻",
+          "description": "任務輸出：沿 Birch and Gil 2020 的多效性問題，貫穿知識庫筆記與 2024–2026 年文獻——異質性軸線、雙向訊號，以及仍未解之處。",
+          "created": "2026-09-20",
+          "updated": "2026-09-20",
+          "tags": [
+            "senescence",
+            "sasp",
+            "pleiotropy",
+            "literature-review"
+          ],
+          "filename": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
         }
       }
     },
@@ -580,7 +1796,7 @@
       "langs": {
         "en-US": {
           "title": "Male Biology as Distributed Topology vs Centralized Estrogen Hub",
-          "description": ">",
+          "description": "> Companion to Gender-Specific Attributes audit (02_SEP_2026). Establishes the distributed male topology — AR + PARP-1/AIF + single-X vulnerability + LOY — against the centralized female E2→ER hub across sirtuins, redox, apoptosis, senescence, autophagy, NAD+, NF-kB telomeres, and cancer. Synthesizes vault content with peer-reviewed web research.",
           "created": "2026-09-05",
           "updated": "2026-09-05",
           "tags": [
@@ -600,7 +1816,7 @@
         },
         "zh-TW": {
           "title": "男性生物學即分散式拓撲 vs 集中式雌激素樞紐",
-          "description": ">",
+          "description": "> 性別特異屬性稽核（02_SEP_2026）的姊妹篇。 確立分散式男性拓撲——AR + PARP-1/AIF + 單一 X 染色體脆弱性 + LOY——對照集中式女性 E2→ER 樞紐， 橫跨 sirtuins、氧化還原、細胞凋亡、衰老、自噬、NAD+、NF-kB、 端粒與癌症。綜合 vault 內容與經同儕審查的網路研究。",
           "created": "2026-09-05",
           "updated": "2026-09-05",
           "tags": [
@@ -703,7 +1919,7 @@
       "langs": {
         "en-US": {
           "title": "Gender-Specific Attributes: Primary Vault Topics",
-          "description": ">",
+          "description": "> Comprehensive audit of sex- and gender-dependent differences across the wiki vault's primary topic areas: sirtuins, MnSOD, thioredoxin-1, caspases/apoptosis, senescence/SASP autophagy/mTOR/AMPK, NAD+ metabolism, NF-κB/inflammation, telomere biology, and cancer. Synthesizes vault content with peer-reviewed web research.",
           "created": "2026-09-02",
           "updated": "2026-09-02",
           "tags": [
@@ -723,7 +1939,7 @@
         },
         "zh-TW": {
           "title": "性別特異屬性：vault 主要主題",
-          "description": ">",
+          "description": "> 針對 wiki vault 主要主題領域中，性別（sex）與性別認同（gender）依賴性差異之全面稽核：sirtuins、MnSOD、硫氧還蛋白-1、caspase／細胞凋亡、衰老／SASP、 自噬／mTOR／AMPK、NAD+ 代謝、NF-κB／發炎、端粒生物學與癌症。綜合 vault 內容與經同儕審查的網路研究。",
           "created": "2026-09-02",
           "updated": "2026-09-02",
           "tags": [
@@ -867,111 +2083,6 @@
           ],
           "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
           "path": "tasks/zh-TW/task_output_parallel_relation_links_impact_01_Sep_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
-      "langs": {
-        "en-US": {
-          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
-          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
-          "created": "2026-05-25",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        },
-        "zh-TW": {
-          "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
-          "description": "假設性方案，利用嗜中性球的氧化爆發——PMA/酵母聚醣活化 NADPH oxidase 與髓過氧化物酶途徑——於誘導發炎期間催化腎上腺素轉化為腎上腺素紅。",
-          "created": "2026-05-25",
-          "updated": "2026-09-01",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
-      "langs": {
-        "en-US": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
-          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
-          "created": "2026-07-13",
-          "updated": "2026-09-01",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_pharmacologist_feasibility_16_JUN_2026",
-      "langs": {
-        "en-US": {
-          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
-          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
-          "created": "2026-06-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        },
-        "zh-TW": {
-          "title": "藥理學分析 — 腎上腺色素複方療法",
-          "description": "藥理學家針對三種複方療法（MRR、SRAC、GOPS）的可行性評估，該等療法利用腎上腺色素衍生物作為精準粒線體激效觸發劑，目標為粒線體生合成、細胞衰老/SASP 及蛋白質恆定，並附有評分的合理性與安全性評估。",
-          "created": "2026-06-16",
-          "updated": "2026-09-01",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
         }
       }
     },
@@ -1142,150 +2253,6 @@
       }
     },
     {
-      "id": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026",
-      "langs": {
-        "en-US": {
-          "title": "Study Design - One Damage Node, Three Defense Programs: Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
-          "description": "Knowledge-graph study design coupling the adrenochrome damage module to three defense programs (mitohormesis, autophagy, sirtuins), turning metric fingerprints and relation-aware graph analyses into falsifiable hypotheses, an in-silico perturbation experiment, and validation arms.",
-          "created": "2026-08-20",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
-          "description": "知識圖譜研究設計，將腎上腺色素損傷模組耦合至三套防禦程式（mitohormesis、autophagy、sirtuins），將指標指紋與關係感知圖譜分析轉化為可證偽的假說、一項計算內擾動實驗，以及驗證臂。",
-          "created": "2026-08-20",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "sirtuins",
-            "knowledge-graph"
-          ],
-          "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
-          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json, with primary-source grounding.",
-          "created": "2026-08-24",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
-          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
-          "created": "2026-08-24",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces, Round 2",
-          "description": "Second round of graph traces executing five queued analyses — NAD+ fuel-line wiring (NR vs NMN vs GlyNAC), confidence-weighted PPR re-rank of the protocol ladder, MB-carbazochrome Complex-I competition subgraph, hormetic-window/SIRT3-SIRT4 ego-graphs, and NF-κB entity-resolution re-run.",
-          "created": "2026-08-21",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺色素協定網路追蹤，第二輪",
-          "description": "第二輪圖譜追蹤，執行五項排隊的分析——NAD+ 燃料線連線（NR 對 NMN 對 GlyNAC）、協定階梯的置信度加權 PPR 重新排序、MB-卡巴色腙 Complex-I 競爭子圖、 hormetic-window/SIRT3-SIRT4 自我圖，以及 NF-κB 實體解析重跑。",
-          "created": "2026-08-21",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_protocol_traces_20_AUG_2026",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces (MB + AG + Stack)",
-          "description": "Graph-network extension of the four-node quartet study to the full adrenochrome protocol — methylene blue, aminoguanidine, and the supporting stack (carbazochrome, urolithin A, spermidine, rapamycin, fisetin, creatine, resveratrol) — ranked by personalized PageRank and shortest-path coupling to adrenochrome.",
-          "created": "2026-08-20",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "methylene-blue",
-            "aminoguanidine",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
-          "description": "將四節點四重奏研究以圖譜網路擴展至完整的腎上腺色素協定——亞甲藍、氨基胍，以及支援堆疊（卡巴色腙、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）——依個人化 PageRank 與至腎上腺色素的最短路徑耦合度排序。",
-          "created": "2026-08-20",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "methylene-blue",
-            "aminoguanidine",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
-        }
-      }
-    },
-    {
       "id": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026",
       "langs": {
         "en-US": {
@@ -1399,538 +2366,6 @@
           ],
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
           "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026",
-      "langs": {
-        "en-US": {
-          "title": "FSP1–CoQ10–NAD(P)H Ferroptosis Axis (deep dive)",
-          "description": "Synthesis of the Doll et al. (2019) discovery that FSP1 uses NAD(P)H to regenerate ubiquinone (CoQ10) to ubiquinol at the plasma membrane, acting as a GPX4-independent parallel brake on ferroptosis, and how mevalonate-pathway loss of ubiquinone converges on FSP1 to predict ferroptosis sensitivity.",
-          "created": "2026-08-24",
-          "updated": "2026-08-24",
-          "tags": [
-            "task-output",
-            "ferroptosis",
-            "fsp1",
-            "coenzyme-q10",
-            "lipid-peroxidation",
-            "mevalonate-pathway"
-          ],
-          "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-          "path": "tasks/en-US/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
-        },
-        "zh-TW": {
-          "title": "FSP1–CoQ10–NAD(P)H 鐵死亡軸（深度剖析）",
-          "description": "綜整 Doll 等人（2019）的發現：FSP1 利用 NAD(P)H 在細胞膜上將泛醌（CoQ10）再生為泛醇，作為不依賴 GPX4 的平行煞車機制抑制鐵死亡；以及甲羥戊酸途徑因泛醌流失而匯聚於 FSP1，如何預測鐵死亡敏感性。",
-          "created": "2026-08-24",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "ferroptosis",
-            "fsp1",
-            "coenzyme-q10",
-            "lipid-peroxidation",
-            "mevalonate-pathway"
-          ],
-          "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-          "path": "tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - GOPS - glyco-oxidative proteostasis",
-      "langs": {
-        "en-US": {
-          "title": "GOPS - Glyco-Oxidative Proteostasis Shield",
-          "description": "Conceptual longevity protocol combining the adrenochrome monoaminoguanidine hybrid molecule, spermidine autophagy induction, and carnosine/EDTA metal chelation to counter glycation (AGEs), oxidative stress, and impaired proteostasis in aging and metabolic stress contexts.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "glycation",
-            "proteostasis"
-          ],
-          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
-        },
-        "zh-TW": {
-          "title": "GOPS - 糖氧化蛋白穩態防護盾",
-          "description": "一個概念性的長壽方案，結合腎上腺紅質單胺基胍雜合分子、精胺（spermidine）自噬誘導，以及肌肽／EDTA 金屬螯合，以對抗老化與代謝壓力情境下的糖化（AGEs）、氧化壓力與受損的蛋白穩態。",
-          "created": "2026-06-19",
-          "updated": "2026-08-27",
-          "tags": [
-            "clippings",
-            "glycation",
-            "proteostasis"
-          ],
-          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - MB, AG nitric oxide pathway signaling",
-      "langs": {
-        "en-US": {
-          "title": "Nitric Oxide Pathway Inhibitors - Aminoguanidine and Methylene Blue",
-          "description": "Comparison of aminoguanidine (upstream iNOS inhibition) and methylene blue (downstream soluble guanylyl cyclase inhibition) as mechanistically complementary modulators of the nitric oxide–cGMP signaling cascade in inflammation, shock, and transplant research.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "nitric-oxide",
-            "aminoguanidine",
-            "methylene-blue"
-          ],
-          "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
-        },
-        "zh-TW": {
-          "title": "一氧化氮路徑抑制劑 - Aminoguanidine 與 Methylene Blue",
-          "description": "比較 aminoguanidine（上游 iNOS 抑制）與 methylene blue（下游可溶性鳥苷酸環化酶抑制）作為一氧化氮–cGMP 訊號級聯在發炎、休克與移植研究中機制互補的調節劑。",
-          "created": "2026-06-19",
-          "updated": "2026-08-27",
-          "tags": [
-            "clippings",
-            "nitric-oxide",
-            "aminoguanidine",
-            "methylene-blue"
-          ],
-          "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - MRR - mitohormesis, MB, NAD",
-      "langs": {
-        "en-US": {
-          "title": "MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)",
-          "description": "Speculative mitohormetic stack using low-dose carbazochrome redox pulsing, methylene blue electron shunting, NAD+ precursors (NR/NMN), and urolithin A mitophagy to address mitochondrial dysfunction through controlled oxidative eustress and biogenesis signaling.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "mitohormesis",
-            "mitochondria"
-          ],
-          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
-        },
-        "zh-TW": {
-          "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
-          "description": "一個推測性的粒線體激效性堆疊，使用低劑量 carbazochrome 氧化還原脈衝、methylene blue 電子分流、NAD+ 前驅物（NR/NMN），以及 urolithin A 粒線體自噬，透過受控的氧化性良性壓力與生合成訊號來處理粒線體功能障礙。",
-          "created": "2026-06-19",
-          "updated": "2026-08-27",
-          "tags": [
-            "clippings",
-            "mitohormesis",
-            "mitochondria"
-          ],
-          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - SRAC - senescent, ligand-conjugated",
-      "langs": {
-        "en-US": {
-          "title": "SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)",
-          "description": "Original SRAC senotherapeutic hypothesis (superseded) using nanoparticle-delivered adrenochrome to sensitize senescent cells, combined with rapamycin SASP suppression, fisetin senolysis, and GlyNAC redox buffering to target cellular senescence and inflammaging.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "senescence",
-            "inflammaging"
-          ],
-          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
-        },
-        "zh-TW": {
-          "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
-          "description": "原始的 SRAC 衰老治療假說（已被取代），使用奈米顆粒遞送的腎上腺紅質來致敏衰老細胞，結合 rapamycin 的 SASP 抑制、fisetin 的衰老溶解，以及 GlyNAC 的氧化還原緩衝，以標靶細胞衰老與發炎老化。",
-          "created": "2026-06-19",
-          "updated": "2026-08-27",
-          "tags": [
-            "剪報",
-            "老化",
-            "發炎"
-          ],
-          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
-      "langs": {
-        "en-US": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
-          "created": "2026-07-21",
-          "updated": "2026-08-23",
-          "tags": [
-            "gemini"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        },
-        "zh-TW": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
-          "created": "2026-07-21",
-          "updated": "2026-08-27",
-          "tags": [
-            "雙子座"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        }
-      }
-    },
-    {
-      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
-      "langs": {
-        "en-US": {
-          "title": "Outline - Adrenochrome (MB, AG) Protocol",
-          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
-          "created": "2026-06-27",
-          "updated": "2026-08-23",
-          "tags": [
-            "outline",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "methylene-blue",
-            "aminoguanidine"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        },
-        "zh-TW": {
-          "title": "大綱 - Adrenochrome (MB, AG) 協定",
-          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
-          "created": "2026-06-27",
-          "updated": "2026-08-27",
-          "tags": [
-            "大綱",
-            "腎上腺素紅",
-            "粒線體毒物興奮作用",
-            "自噬",
-            "亞甲基藍",
-            "氨基胍"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_SRAC_revision_log_08_JULY_2026",
-      "langs": {
-        "en-US": {
-          "title": "SRAC Protocol Revision Log",
-          "description": "Revision log documenting two structural changes to the SRAC senotherapy protocol — sequential rapamycin-to-fisetin dosing to resolve the senomorphic/senolytic timing conflict, and carbazochrome substitution for adrenochrome to remove nanoparticle delivery.",
-          "created": "2026-07-08",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "senescence",
-            "rapamycin",
-            "fisetin",
-            "carbazochrome"
-          ],
-          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "SRAC 協定修訂日誌",
-          "description": "記錄 SRAC 衰老治療協定兩項結構性變更的修訂日誌——序列性 rapamycin 至 fisetin 給藥以解決衰老修飾／衰老溶解的時程衝突，以及以 carbazochrome 取代腎上腺紅質以移除奈米顆粒遞送。",
-          "created": "2026-07-08",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "senescence",
-            "rapamycin",
-            "fisetin",
-            "carbazochrome"
-          ],
-          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_gap_analysis_09_JUL_2026",
-      "langs": {
-        "en-US": {
-          "title": "Gap Analysis - _triples.json vs. Task Docs (Adrenochrome)",
-          "description": "Coverage gap analysis comparing the adrenochrome triples knowledge base (184 entities) against task documents, surfacing unexplored clusters such as the methemoglobinemia safety paradox of methylene blue's dual electron-shuttle and antidote roles.",
-          "created": "2026-07-09",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "gap-analysis",
-            "adrenochrome",
-            "methemoglobinemia"
-          ],
-          "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "差距分析 - _triples.json vs. 任務文件（Adrenochrome）",
-          "description": "覆蓋率差距分析，將 adrenochrome triples 知識庫（184 個實體）與任務文件進行比較，揭示未探索的叢集，例如 methylene blue 雙重電子穿梭與解毒角色所構成的變性血紅素血症安全性悖論。",
-          "created": "2026-07-09",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "knowledge-graph",
-            "gap-analysis",
-            "adrenochrome",
-            "methemoglobinemia"
-          ],
-          "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
-      "langs": {
-        "en-US": {
-          "title": "Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)",
-          "description": "Hypothetical replenishment protocol grounded in adrenochrome chemistry — instability and redox cycling risks, endogenous production at neutrophil-rich inflammatory sites, stabilization with antioxidants and inert-atmosphere storage, and carbazochrome as a stable delivery form.",
-          "created": "2026-05-25",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "carbazochrome",
-            "redox-cycling"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
-        },
-        "zh-TW": {
-          "title": "人類腎上腺素紅補充的分析和方案（假設）",
-          "description": "假設的補充方案是基於腎上腺素紅化學——不穩定性和氧化還原循環風險、富含嗜中性球的發炎部位的內源性產生、抗氧化劑的穩定和惰性氣氛儲存以及卡唑鉻作為穩定的遞送形式。",
-          "created": "2026-05-25",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "carbazochrome",
-            "redox-cycling"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
-      "langs": {
-        "en-US": {
-          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
-          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
-          "created": "2026-07-04",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
-          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
-          "created": "2026-07-04",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        }
-      }
-    },
-    {
-      "id": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome → Inflammaging Trace",
-          "description": "Knowledge-graph shortest-path traces linking adrenochrome to inflammaging, identifying the DGCR8/Drosha miRNA-biogenesis axis as the dominant two-hop epigenetic bridge between catecholamine oxidation products and chronic inflammatory aging.",
-          "created": "2026-07-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "inflammaging",
-            "knowledge-graph",
-            "microrna"
-          ],
-          "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
-        },
-        "zh-TW": {
-          "title": "Adrenochrome → Inflammaging Trace",
-          "description": "知識圖譜最短路徑追蹤，連結腎上腺色素至發炎性老化，辨識 DGCR8/Drosha miRNA 生成軸作為兒茶酚胺氧化產物與慢性發炎性老化之間的主導性兩跳表觀遺傳橋樑。",
-          "created": "2026-07-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "inflammaging",
-            "knowledge-graph",
-            "microrna"
-          ],
-          "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
-      "langs": {
-        "en-US": {
-          "title": "DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal",
-          "description": "DGCR8 knockout ES cells show global loss of miRNAs, failure to silence pluripotency upon differentiation, G1 accumulation, and prolonged doubling time — establishing DGCR8/miRNA as essential for silencing embryonic stem cell self-renewal.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "stem-cells"
-          ],
-          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
-        },
-        "zh-TW": {
-          "title": "DGCR8 對微小 RNA 生成及胚胎幹細胞自我更新沉默至關重要",
-          "description": "DGCR8 基因剔除的 ES 細胞顯示 miRNA 全面喪失、分化時無法沉默多潛能性、G1 期堆積以及群體倍增時間延長——確立 DGCR8/miRNA 對胚胎幹細胞自我更新沉默的必要性。",
-          "created": "2026-07-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "stem-cells"
-          ],
-          "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
-      "langs": {
-        "en-US": {
-          "title": "DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis",
-          "description": "In IPF, DROSHA is elevated in alveolar macrophages and promotes AIM2 inflammasome activation, caspase-1 cleavage, and IL-1β/IL-18 release; DROSHA deficiency suppresses this lung inflammation. Links Microprocessor dysfunction to innate immune inflammation.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "inflammaging",
-            "innate-immunity"
-          ],
-          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
-        },
-        "zh-TW": {
-          "title": "DROSHA 依賴性 AIM2 發炎體活化參與特發性肺纖維化期間的肺部發炎",
-          "description": "在 IPF 中，DROSHA 在肺泡巨噬細胞中升高，並促進 AIM2 發炎體活化、caspase-1 切割以及 IL-1β/IL-18 釋放；DROSHA 缺失可抑制此肺部發炎。將微處理複體功能障礙連結至先天免疫發炎。",
-          "created": "2026-07-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "inflammaging",
-            "innate-immunity"
-          ],
-          "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation",
-      "langs": {
-        "en-US": {
-          "title": "Shingles vaccine may slow biological aging and reduce inflammation",
-          "description": "A U.S. population-based cohort study (HRS, n>3,800 adults ≥70) found shingles vaccination associated with slower biological aging, lower chronic inflammation (inflammaging), and slower epigenetic/transcriptomic aging — effects persisting ≥4 years.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "inflammaging",
-            "vaccine",
-            "aging"
-          ],
-          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
-        },
-        "zh-TW": {
-          "title": "帶狀皰疹疫苗或可減緩生物性老化並降低發炎",
-          "description": "一項美國基於族群的世代研究（HRS，n>3,800 名 70 歲以上成人）發現，帶狀皰疹疫苗接種與較慢的生物性老化、較低的慢性發炎（發炎性老化）以及較慢的表觀遺傳/轉錄體老化相關——效果持續至少 4 年。",
-          "created": "2026-07-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "adrenochrome-trace",
-            "inflammaging",
-            "vaccine",
-            "aging"
-          ],
-          "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
-        }
-      }
-    },
-    {
-      "id": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
-      "langs": {
-        "en-US": {
-          "title": "The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis",
-          "description": "Biochemical and RNAi evidence that DGCR8 (human) and dmDGCR8 (Drosophila) are essential Microprocessor cofactors that recognize pri-miRNAs, interact with Drosha, and are required for pre-/mature miRNA production.",
-          "created": "2026-07-16",
-          "updated": "2026-08-22",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "rna-processing"
-          ],
-          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
-        },
-        "zh-TW": {
-          "title": "人類迪喬治症候群關鍵區域基因 8 及其 D. melanogaster 同源基因對 miRNA 生成不可或缺",
-          "description": "生化合與 RNAi 證據顯示，DGCR8（人類）與 dmDGCR8（果蠅）為不可或缺的微處理複體輔因子，可辨識 pri-miRNA、與 Drosha 交互作用，並對 pre-/成熟 miRNA 產生所需。",
-          "created": "2026-07-16",
-          "updated": "2026-08-27",
-          "tags": [
-            "adrenochrome-trace",
-            "mirna",
-            "epigenetics",
-            "rna-processing"
-          ],
-          "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
         }
       }
     },
@@ -4114,7 +4549,7 @@
       "langs": {
         "en-US": {
           "title": "SASP-Remodeling Aminochrome Complex",
-          "description": "The SASP-Remodeling Aminochrome Complex (SRAC) is a sequential",
+          "description": "The SASP-Remodeling Aminochrome Complex (SRAC) is a sequential senomorphic-senolytic strategy using AMM, methylene blue, rapamycin, fisetin and GlyNAC to reprogram the senescent phenotype and mitigate inflammaging.",
           "created": "2026-07-04",
           "updated": "2026-07-09",
           "tags": [
@@ -4178,7 +4613,7 @@
       "langs": {
         "en-US": {
           "title": "Mitohormetic Redox-Relay",
-          "description": "The Mitohormetic Redox-Relay (MRR) is a therapeutic strategy designed",
+          "description": "The Mitohormetic Redox-Relay (MRR) is a therapeutic strategy designed to address mitochondrial dysfunction by using a controlled, low-amplitude oxidative pulse to trigger adaptive stress respon...",
           "created": "2026-07-04",
           "updated": "2026-07-07",
           "tags": [

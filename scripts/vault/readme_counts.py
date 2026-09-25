@@ -1,13 +1,22 @@
 import argparse
 import glob
 import json
+import math
 import os
 import re
 import shutil
 import subprocess
+import sys
 import urllib.parse
 from collections import OrderedDict
 from datetime import datetime
+from pathlib import Path
+
+try:
+    from scripts.triples.normalize import norm  # canonical node id (stdlib-only)
+except ModuleNotFoundError:  # direct `python3 scripts/vault/readme_counts.py` run
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+    from scripts.triples.normalize import norm
 
 
 def format_number(n):
@@ -50,6 +59,39 @@ def count_words(filepath):
             return len(content.split())
     except Exception:
         return 0
+
+
+# --- Reader card stats --------------------------------------------------------
+MD_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)|!\[\[[^\]]*\]\]")
+MD_LINK_RE = re.compile(r"\[\[[^\]]+\]\]|\[[^\]]+\]\([^)]+\)")
+MERMAID_FENCE_RE = re.compile(r"^```mermaid[ \t]*\r?$", re.MULTILINE)
+MERMAID_DIV_RE = re.compile(r"<div[^>]*class=[\"'][^\"']*mermaid")
+CJK_RE = re.compile(r"[\u4e00-\u9fff]")
+LATIN_WORD_RE = re.compile(r"[A-Za-z0-9]+")
+
+
+def content_stats(filepath):
+    """Card stats for one markdown file: {words, images, links, diagrams}.
+
+    Raw word count = latin tokens + CJK characters (frontmatter stripped);
+    images/links counted with image syntax removed first so an image never
+    leaks into the links total; diagrams = ```mermaid fences + <div
+    class="mermaid"> blocks. Missing files return zeros.
+    """
+    zero = {"words": 0, "images": 0, "links": 0, "diagrams": 0}
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return zero
+    text = FRONTMATTER_RE.sub("", text, count=1)
+    images = len(MD_IMAGE_RE.findall(text))
+    links = len(MD_LINK_RE.findall(MD_IMAGE_RE.sub("", text)))
+    diagrams = len(MERMAID_FENCE_RE.findall(text)) + len(MERMAID_DIV_RE.findall(text))
+    words = len(CJK_RE.findall(text)) + len(
+        LATIN_WORD_RE.findall(CJK_RE.sub(" ", text))
+    )
+    return {"words": words, "images": images, "links": links, "diagrams": diagrams}
 
 
 MARKER_RE = re.compile(
@@ -136,8 +178,14 @@ def parse_frontmatter(filepath):
                 props[key] = value.strip("\"'") if value else []
         elif key is not None:
             item = re.sub(r"^-\s+", "", stripped).rstrip(",").strip("\"'")
-            if isinstance(props[key], list) and item:
+            if not item:
+                continue
+            if isinstance(props[key], list):
                 props[key].append(item)
+            elif isinstance(props[key], str):
+                # Folded multi-line scalar (description wrapped across source
+                # lines): join continuation lines instead of dropping them.
+                props[key] = (props[key] + " " + item).strip()
     return props
 
 
@@ -265,6 +313,7 @@ def build_web_tasks(task_data, args):
         ),
         reverse=True,
     )
+    n_tasks = len(ordered)  # real task outputs, before the index pseudo-entry
     # Index pseudo-entry (no markdown behind it): opened when the reader's
     # Task Outputs tab is clicked. Empty dates keep it out of the newest
     # sort position and the "Older" recency bucket.
@@ -304,8 +353,361 @@ def build_web_tasks(task_data, args):
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(
-        f"Wrote {out_path} ({len(ordered)} tasks, {copied} files copied to {args.web_tasks_dir}/)"
+        f"Wrote {out_path} ({n_tasks} tasks, {copied} files copied to {args.web_tasks_dir}/)"
     )
+
+
+# --- Web artifacts: wiki notes for the reader panel ---------------------------
+# Mirror of the task-output flow above, capped at --wiki-limit entries: entity
+# notes are scored (recency + graph centrality + star + quality — see
+# score_note) and the top N are registered in web/public/data/wiki.json and
+# copied into web/public/wiki/en-US/ (wiped + regenerated each run).
+# web/public/wiki/zh-TW is hand-maintained (translations are stored
+# web-only) and must survive rebuilds, exactly like tasks zh-TW.
+# Entities only: README/index and _document_* notes are excluded from the feed.
+
+ISO_LINE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T")
+
+
+def scan_web_zh_wiki(args):
+    """Scan hand-maintained zh-TW translations in web/public/wiki/zh-TW/.
+
+    Same contract as tasks: discovered at their serving location, registered
+    without a copy step, and never wiped by a rebuild.
+    """
+    out = []
+    zh_dir = os.path.join(args.web_wiki_dir, "zh-TW")
+    if not os.path.isdir(zh_dir):
+        return out
+    for dirpath, dirnames, filenames in os.walk(zh_dir):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fname in sorted(filenames):
+            if fname.endswith(".md") and not fname.startswith("."):
+                fpath = os.path.join(dirpath, fname)
+                out.append({
+                    "datetime": datetime.fromtimestamp(os.path.getmtime(fpath)).astimezone(),
+                    "path": fpath,
+                })
+    return out
+
+
+def fm_text(value):
+    """Frontmatter value as one string (joined when the parser folded a list)."""
+    if isinstance(value, list):
+        return " ".join(str(v) for v in value)
+    return str(value or "")
+
+
+def scan_notes_for_web(notes_dir):
+    """Entity-note .md files eligible for the wiki reader feed."""
+    rows = []
+    for dirpath, dirnames, filenames in os.walk(notes_dir):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fname in sorted(filenames):
+            if not fname.endswith(".md") or fname.startswith("."):
+                continue
+            if fname.lower() in ("readme.md", "index.md") or fname.startswith("_document_"):
+                continue
+            fpath = os.path.join(dirpath, fname)
+            rows.append({
+                "path": fpath,
+                "datetime": datetime.fromtimestamp(os.path.getmtime(fpath)).astimezone(),
+            })
+    return rows
+
+
+def batch_git_dates(subdir, repo_root):
+    """Map of repo-relative path -> last commit date from ONE `git log` pass.
+
+    Newest-first log, so the first date seen for a path wins. Used only for
+    notes missing both frontmatter dates; git failure falls back to mtime.
+    """
+    dates = {}
+    try:
+        result = subprocess.run(
+            ["git", "log", "--format=%aI", "--name-only", "--", subdir],
+            capture_output=True,
+            text=True,
+            cwd=repo_root,
+        )
+        if result.returncode != 0:
+            return dates
+        cur = None
+        for line in result.stdout.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            if ISO_LINE_RE.match(line):
+                cur = line
+            elif cur and line not in dates:
+                dates[line] = cur
+    except Exception:
+        pass
+    return dates
+
+
+# --- Scored top-N selection for the wiki feed ---------------------------------
+# Replaces the old pure newest-first slice with a composite score so graph hubs
+# (SIRT1, SASP, ...) stay visible between bursts of note creation while fresh
+# notes still surface quickly:
+#
+#   score = 0.50*recency + 0.35*centrality + 0.10*star + 0.05*quality
+#
+# recency    exp half-life decay on days since max(created, updated)
+# centrality 0.5*log-norm(pagerank) + 0.3*log-norm(betweenness) +
+#            0.2*log-norm(degree), each divided by the graph max; missing
+#            roles file or unknown node -> 0 (recency alone still ranks it)
+# star       frontmatter `starred: true` (bonus only — can still fall out)
+# quality    norm(log(words)) so a one-line stub can't outrank a full note
+#
+# ponytail: no LLM/prompt judge here — the graph metrics already encode "which
+# entities matter". Add a prompt-pass only if editorial overrides are wanted.
+
+WIKI_LIMIT_DEFAULT = 50
+WIKI_HALF_LIFE_DAYS = 60.0
+WIKI_WEIGHTS_DEFAULT = (0.50, 0.35, 0.10, 0.05)
+
+
+def _parse_weights(s):
+    parts = tuple(float(x) for x in s.split(","))
+    if len(parts) != 4 or any(w < 0 for w in parts) or sum(parts) <= 0:
+        raise argparse.ArgumentTypeError("need 4 non-negative comma-separated floats")
+    return parts
+
+
+def load_role_metrics(path):
+    """id -> {pagerank, betweenness, degree} from node_roles.json; {} when absent."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            doc = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    out = {}
+    for n in doc.get("nodes", []):
+        if n.get("id"):
+            out[n["id"]] = n.get("metrics") or {}
+    return out
+
+
+def _log_max(metrics_by_id, key):
+    """max(log1p(metric)) over the graph — stable normalizer for one metric."""
+    vals = [math.log1p(float(m.get(key) or 0)) for m in metrics_by_id.values()]
+    return max(vals) if vals else 0.0
+
+
+def centrality_of(metrics, log_maxima):
+    """0..1 blended centrality for one node's metrics (0 when unknown)."""
+    if not metrics:
+        return 0.0
+    parts = (("pagerank", 0.5), ("betweenness", 0.3), ("degree", 0.2))
+    score = 0.0
+    for key, weight in parts:
+        hi = log_maxima.get(key, 0.0)
+        if hi > 0:
+            score += weight * min(1.0, math.log1p(float(metrics.get(key) or 0)) / hi)
+    return score
+
+
+def score_note(created_dt, updated_dt, words, starred, centrality,
+                *, half_life=WIKI_HALF_LIFE_DAYS, weights=WIKI_WEIGHTS_DEFAULT,
+                now=None):
+    """Composite 0..1 reader score for one note."""
+    now = now or datetime.now().astimezone()
+    w_rec, w_cen, w_star, w_qual = weights
+    days = max(0.0, (now - max(created_dt, updated_dt)).total_seconds() / 86400.0)
+    recency = 0.5 ** (days / half_life)
+    quality = min(1.0, math.log1p(max(0, words)) / math.log1p(5000))
+    return (w_rec * recency + w_cen * centrality
+            + w_star * (1.0 if starred else 0.0) + w_qual * quality)
+
+
+def github_blob(args, path):
+    """GitHub blob URL for a repo path on the configured branch; "" when the
+    repo/branch are unknown (tests) or the path is outside the repo."""
+    repo = getattr(args, "repo_url", "") or ""
+    branch = getattr(args, "branch", "") or ""
+    if not repo or not branch or os.path.isabs(path):
+        return ""
+    return f"{repo}/blob/{branch}/{urllib.parse.quote(path.replace(os.sep, '/'), safe='/')}"
+
+
+def build_web_wiki(note_rows, args, repo_root):
+    """Emit web/public/data/wiki.json and copy the selected notes into web/public/wiki/en-US/."""
+    en_dir = os.path.join(args.web_wiki_dir, "en-US")
+    if os.path.isdir(en_dir):
+        shutil.rmtree(en_dir)
+    os.makedirs(en_dir, exist_ok=True)
+
+    # Resolve dates: frontmatter created/updated first, then git, then mtime.
+    resolved = []
+    for n in note_rows:
+        fm = parse_frontmatter(n["path"])
+        resolved.append({
+            "src": n,
+            "fm": fm,
+            "created_dt": parse_iso_date(fm.get("created")),
+            "updated_dt": parse_iso_date(fm.get("updated")),
+        })
+    missing = [r for r in resolved if r["created_dt"] is None and r["updated_dt"] is None]
+    git_map = batch_git_dates(args.notes_dir, repo_root) if missing else {}
+    for r in resolved:
+        if r["created_dt"] is None and r["updated_dt"] is None:
+            iso = git_map.get(os.path.relpath(r["src"]["path"], "."))
+            fb = r["src"]["datetime"]
+            if iso:
+                try:
+                    fb = datetime.fromisoformat(iso).astimezone()
+                except ValueError:
+                    pass
+            r["created_dt"] = r["updated_dt"] = fb
+        elif r["created_dt"] is None:
+            r["created_dt"] = r["updated_dt"]
+        elif r["updated_dt"] is None:
+            r["updated_dt"] = r["created_dt"]
+
+    # Score + rank, keep the top --wiki-limit. The cap bounds the reader
+    # dropdown, the EN copies on disk, and the hand-maintained zh-TW set
+    # (translations only need to cover the same capped notes). --wiki-no-score
+    # restores the old pure newest-first order (weights -> recency only).
+    roles = {} if args.wiki_no_score else load_role_metrics(args.wiki_roles)
+    if not args.wiki_no_score and not roles:
+        print(f"Warning: no role metrics at {args.wiki_roles} — scoring by recency only")
+    log_maxima = {k: _log_max(roles, k) for k in ("pagerank", "betweenness", "degree")}
+    weights = (1.0, 0.0, 0.0, 0.0) if args.wiki_no_score else args.wiki_weights
+    now = datetime.now().astimezone()
+    for r in resolved:
+        fm = r["fm"]
+        stem = re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
+        # Node id comes from the graph's canonical norm(label): try the filename
+        # stem, then the frontmatter title (they normally agree).
+        metrics = roles.get(norm(stem)) or roles.get(norm(fm_text(fm.get("title"))))
+        r["score"] = score_note(
+            r["created_dt"], r["updated_dt"],
+            count_words(r["src"]["path"]),
+            str(fm.get("starred", "")).lower() == "true",
+            centrality_of(metrics, log_maxima),
+            half_life=args.wiki_half_life, weights=weights, now=now,
+        )
+    ranked = sorted(
+        resolved,
+        key=lambda r: (r["score"], max(r["created_dt"], r["updated_dt"])),
+        reverse=True,
+    )[: args.wiki_limit]
+    if ranked:
+        names = [re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
+                 for r in ranked[:5]]
+        top = ", ".join(f"{n}={r['score']:.3f}" for n, r in zip(names, ranked[:5]))
+        print(f"wiki score top5: {top}")
+
+    groups = OrderedDict()
+    ranks = {}
+    copied = 0
+    for r in ranked:
+        fm = r["fm"]
+        basename = os.path.basename(r["src"]["path"])
+        stem = re.sub(r"\.md$", "", basename)
+        entry = {
+            "title": fm_text(fm.get("title")) or stem,
+            "description": fm_text(fm.get("description")),
+            "created": r["created_dt"].date().isoformat(),
+            "updated": r["updated_dt"].date().isoformat(),
+            "tags": fm.get("tags") or [],
+            "filename": basename,
+        }
+        rel = os.path.relpath(r["src"]["path"], args.notes_dir)
+        dest_rel = os.path.join("en-US", rel)
+        entry["path"] = f"wiki/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
+        # Card filename links to the note's source in the repo (dev branch).
+        gh = github_blob(args, os.path.join(args.notes_dir, rel))
+        if gh:
+            entry["github"] = gh
+        group = groups.setdefault(stem, {"id": stem, "langs": {}})
+        group["langs"]["en-US"] = entry
+        # Group-level card stats (en-US source; the zh copy mirrors it closely
+        # enough that one chip row per card is correct).
+        group["stats"] = content_stats(r["src"]["path"])
+        ranks[stem] = r["score"]
+        if str(fm.get("starred", "")).lower() == "true":
+            group["starred"] = True
+        dest_path = os.path.join(args.web_wiki_dir, dest_rel)
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+        try:
+            shutil.copy2(r["src"]["path"], dest_path)
+            copied += 1
+        except OSError as e:
+            print(f"Warning: could not copy {r['src']['path']}: {e}")
+
+    # Hand-maintained zh-TW translations (web-only) join their EN group by
+    # filename; notes outside the capped selection are ignored.
+    for z in scan_web_zh_wiki(args):
+        basename = os.path.basename(z["path"])
+        stem = re.sub(r"\.md$", "", basename)
+        group = groups.get(stem)
+        if group is None:
+            continue
+        fm = parse_frontmatter(z["path"])
+        created_dt = parse_iso_date(fm.get("created")) or z["datetime"]
+        updated_dt = parse_iso_date(fm.get("updated")) or z["datetime"]
+        rel = os.path.relpath(z["path"], args.web_wiki_dir)
+        group["langs"]["zh-TW"] = {
+            "title": fm_text(fm.get("title")) or stem,
+            "description": fm_text(fm.get("description")),
+            "created": created_dt.date().isoformat(),
+            "updated": updated_dt.date().isoformat(),
+            "tags": fm.get("tags") or [],
+            "filename": basename,
+            "path": f"wiki/{urllib.parse.quote(rel.replace(os.sep, '/'))}",
+        }
+        if str(fm.get("starred", "")).lower() == "true":
+            group["starred"] = True
+
+    ordered = sorted(
+        groups.values(),
+        key=lambda g: ranks.get(g["id"], 0.0),
+        reverse=True,
+    )
+    n_notes = len(ordered)  # before the index pseudo-entry
+    # Index pseudo-entry (no markdown behind it): opened when the reader's
+    # Wiki tab is clicked. Empty dates keep it out of the recency sort.
+    ordered.insert(
+        0,
+        {
+            "id": "wiki-index",
+            "kind": "wiki",
+            "active": True,
+            "langs": {
+                "en-US": {
+                    "title": "[index] wiki notes",
+                    "description": "Index of the most recently created/updated wiki notes.",
+                    "created": "",
+                    "updated": "",
+                    "tags": [],
+                    "path": "pages/wiki-index.html",
+                },
+                "zh-TW": {
+                    "title": "Wiki 筆記索引",
+                    "description": "最近建立／更新的 wiki 筆記索引。",
+                    "created": "",
+                    "updated": "",
+                    "tags": [],
+                    "path": "pages/wiki-index.html",
+                },
+            },
+        },
+    )
+    os.makedirs(args.web_data_dir, exist_ok=True)
+    out_path = os.path.join(args.web_data_dir, "wiki.json")
+    payload = {
+        "generated": get_timestamp(),
+        "wiki": ordered,
+    }
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(
+        f"Wrote {out_path} ({n_notes} notes, {copied} files copied to {args.web_wiki_dir}/)"
+    )
+
 
 def read_env_file(path):
     """Parse simple KEY=VALUE lines from a .env file into a dict."""
@@ -351,6 +753,40 @@ def main():
         "--web_tasks_dir",
         default="web/public/tasks",
         help="Directory task markdown is copied to for the reader (default: web/public/tasks)",
+    )
+    parser.add_argument(
+        "--web_wiki_dir",
+        default="web/public/wiki",
+        help="Directory wiki-note markdown is copied to for the reader (default: web/public/wiki)",
+    )
+    parser.add_argument(
+        "--wiki-limit",
+        type=int,
+        default=WIKI_LIMIT_DEFAULT,
+        help=f"Max wiki notes in the reader feed / translation batch (default: {WIKI_LIMIT_DEFAULT})",
+    )
+    parser.add_argument(
+        "--wiki-roles",
+        default="web/public/data/node_roles.json",
+        help="node_roles.json supplying centrality for wiki scoring",
+    )
+    parser.add_argument(
+        "--wiki-half-life",
+        type=float,
+        default=WIKI_HALF_LIFE_DAYS,
+        help="Recency half-life in days (default: 60)",
+    )
+    parser.add_argument(
+        "--wiki-weights",
+        type=lambda s: _parse_weights(s),
+        default=WIKI_WEIGHTS_DEFAULT,
+        metavar="REC,CEN,STAR,QUAL",
+        help="Score weights, 4 comma-separated floats (default: 0.5,0.35,0.1,0.05)",
+    )
+    parser.add_argument(
+        "--wiki-no-score",
+        action="store_true",
+        help="Skip centrality scoring; rank by recency only (old behavior)",
     )
     parser.add_argument(
         "--skip-web",
@@ -519,6 +955,9 @@ def main():
         # Hand-maintained zh-TW translations live web-only under
         # web/public/tasks/zh-TW/; register them alongside the src/tasks scan.
         build_web_tasks(task_data + scan_web_zh_tasks(args), args)
+        # Wiki feed: top --wiki-limit entity notes -> wiki.json + en-US copies.
+        # zh-TW joins via web/public/wiki/zh-TW (hand-maintained, like tasks).
+        build_web_wiki(scan_notes_for_web(notes_dir), args, repo_root)
 
     # Prepare new content
     new_timestamp = get_timestamp()

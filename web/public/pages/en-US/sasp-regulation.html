@@ -16,6 +16,7 @@
   "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
 }}
 </script>
+<script src="../themes/theme-02/theme.js"></script>
 <link rel="stylesheet" href="../shared/stage.css">
 <style>
   /* sasp-regulation overrides on top of ../shared/stage.css */
@@ -25,7 +26,7 @@
   .chip-c.is-on{box-shadow:inset 0 0 0 2px #d8b93c}
   .figrow{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:14px;padding:14px;border-top:1px solid var(--rule)}
   @media (max-width:960px){.figrow{grid-template-columns:1fr}}
-  .figrow img{width:100%;height:auto;display:block;border:1px solid var(--rule);border-radius:var(--r-md,8px);background:#fff;cursor:zoom-in}
+  .figrow img{width:100%;height:auto;display:block;border:1px solid var(--rule);border-radius:var(--r-md,8px);background:var(--sheet);cursor:zoom-in}
   .figrow figure{margin:0}
   .figrow figcaption{font-size:10.5px;line-height:1.55;color:var(--mute);margin-top:6px}
   .figrow figcaption code{font-size:10px}
@@ -39,7 +40,7 @@
 <body>
 <div class="wrap">
   <header class="top">
-    <p class="kicker">Senescence · regulation of the senescence-associated secretory phenotype</p>
+    <p class="kicker">Senescence · regulation and pleiotropy of the senescence-associated secretory phenotype</p>
     <h1>Regulation of the SASP — sensors, signalling components and transcription factors</h1>
     <p class="sub">Interactive three.js model of the SASP-induction scheme (Birch and Gil 2020, Figure 2 — see the source figure below). The figure is organized principally by <b>molecular class</b>, following its legend: <b>red</b> — sensors, receptors and ligands; <b>orange</b> — intracellular signalling components; <b>yellow</b> — transcription factors. Its spatial layout places the cytoplasm above and the nucleus below; that division is mechanistically significant at three steps rather than being the organizing axis — <b>CCF</b> are generated in the nucleus and sensed in the cytosol, <b>SASP transcripts</b> are transcribed in the nucleus and stabilized post-transcriptionally in the cytosol, and <b>chromatin and splicing</b> regulation is nuclear. Drag to orbit · scroll to zoom · click a node for its function and evidence.</p>
     <p class="src">After the vault SASP / senescence / cGAS–STING notes and the SASP-induction scheme · three.js r160 · <span id="embedlink"></span></p>
@@ -94,6 +95,19 @@
           <p>The scheme and the model share the same layout: cytoplasm above, nucleus below. Nodes are classified by the figure's legend — red for sensors, receptors and ligands; orange for intracellular signalling components; yellow for transcription factors. The compartment division should be read as spatial organization of one pathway, not as a comparison; only the steps below are restricted to a single compartment in a way that matters mechanistically.</p>
           <p class="howto"><b>1 · DNA damage.</b> Unrepaired double-strand breaks sustain DNA damage response signalling, which activates p38 MAPK and maintains the senescent state.<br><b>2 · Cytosolic sensing.</b> Chromatin cytoplasmic foci released from the nucleus activate cGAS–STING; independently, the inflammasome matures IL-1β. This is the principal nucleus-to-cytosol step in the network.<br><b>3 · Transcription.</b> NF-κB, C/EBPβ, GATA4 and STAT activate the pro-inflammatory SASP programme; IRF3 and NF-κB activate type I interferon and late-SASP genes.<br><b>4 · Post-transcriptional control and secretion.</b> mTOR with MAPKAPK2 stabilizes SASP transcripts in the cytosol, and secreted IL-6 and IL-1β act on their receptors to sustain the programme.</p>
           <p>Abbreviations as defined in the figure: (DSB) double-strand breaks · (CCF) chromatin cytoplasmic foci. The vault notes use the equivalent term cytoplasmic chromatin fragments for CCF.</p>
+        </div>
+      </div>
+      <div class="figrow" id="pleiotropy">
+        <div>
+          <h2>Why the SASP is pleiotropic — same secretome, opposing effects</h2>
+          <p>Birch and Gil (2020) close on an open question: <i>why the SASP exerts such pleiotropic and often opposing effects is difficult to disentangle, and much remains to be deciphered</i> — pointing to inducer, cell type, senescence stage, and tissue microenvironment as the shaping axes. The vault encodes the same four axes, and 2024–2026 work confirms and sharpens them.</p>
+          <p class="howto"><b>1 · No single SASP.</b> Only ~19 factors are shared across inducers and cell types; the rest is a context-specific barcode (fibroblast vs. epithelial &lt;50% overlap; OIS ≠ TIS ≠ MiDAS, which lacks the IL-1 arm).<br><b>2 · Time switches output.</b> Early NOTCH1-high SASP is TGF-β-rich and immunosuppressive/profibrotic (repair-permissive); late SASP is IL-6/IL-8/MMP-rich and pro-inflammatory; deep senescence adds LINE1-driven type-I interferon. The beneficial→detrimental threshold is still undefined.<br><b>3 · Two gates must coincide.</b> Mitochondrial citrate→acetyl-CoA (MPC–SLC25A1–ACLY) opens chromatin at SASP loci while cGAS–STING provides inflammatory activation — either alone is insufficient (Nature Jul 2026; CTPI2 suppresses SASP without reversing arrest).<br><b>4 · Talk is bidirectional.</b> Stiffness, co-culture, liver zonation, and sex (estrogen suppression of NF-κB/STING) rewrite the SASP in return; single-cell work finds the bulk of IL-6 output in a ~8% high-concentration subpopulation invisible to bulk assays.<br><b>5 · Cancer shows both faces.</b> Acute p53-restored SASP (CCL2, CXCL9/10/14, IL-15) recruits NK/macrophage clearance; chronic NF-κB SASP (IL-6/IL-8/VEGF/CCL2/CXCL12/MMPs/TGF-β) drives EMT, angiogenesis, and MDSC/Treg evasion — hence induce–prime–purge sequencing.</p>
+          <p>Therapeutic corollary: never fully ablate the SASP — modulate arm- and context-specifically (JAK, mTOR, p38/MK2, cGAS–STING, NAMPT, SLC25A1, NRTIs), timed to spare acute repair and pre-malignant surveillance. Full synthesis: <a href="https://graph.johnnykuo.com/#node=SASP">SASP note</a>.</p>
+        </div>
+        <div>
+          <h2>What remains undeciphered</h2>
+          <p class="howto">Beneficial↔detrimental tipping point · regulators of non-inflammatory (fibrotic/angiogenic/ECM) arms · separating SASP from generic inflammation in vivo · bystander rules by recipient tissue and age · validated burden panels and sex-aware dosing.</p>
+          <p>Abbreviations: (MiDAS) mitochondrial dysfunction-associated senescence · (TIS) therapy-induced senescence · (OIS) oncogene-induced senescence.</p>
         </div>
       </div>
     </div>

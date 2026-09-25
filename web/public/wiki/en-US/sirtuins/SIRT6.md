@@ -1,0 +1,304 @@
+---
+title: SIRT6
+description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified
+  in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
+  a "longevity gene," SIRT6 serves as an essent...
+created: 2026-07-02
+updated: 2026-09-02
+tags:
+  - protein
+  - nad-plus
+  - sirtuin-6
+  - nuclear-sirtuin-6
+  - sirt6-adp-ribosyl-transferase
+  - sirt6-adp-ribosyl-transferase
+protected: true
+---
+
+
+
+
+# SIRT6
+
+**SIRT6** (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic **Class IVa** alongside its nucleolar homolog [[SIRT7]] (Class IVb). As a "longevity gene," SIRT6 serves as an essential guardian of genome integrity, an epigenetic scaffold, and a master regulator of mammalian aging and cellular metabolism.
+
+> [!info] Mammalian signaling-pathway roles (review Table 3)
+> Per the mammalian sirtuin signaling-pathway survey, SIRT6 functions in aging via **lifespan extension, DNA repair, genome stability, and telomere maintenance**. Positive pathway regulators include [[Nrf2]], [[eNOS]], [[IGF1|IGF-1/AKT]], and [[p53]]; negative regulators include [[p21]], [[NF-κB]], [[ICAM-1]], and [[PAI-1]].
+
+---
+
+## 1. Overview & Evolutionary Context
+
+SIRT6 is a member of the class III histone deacetylase (HDAC) family, possessing both NAD⁺-dependent deacetylase and mono-ADP-ribosyltransferase activities. Evolutionary analysis places SIRT6 in **Class IVa**. Class IV sirtuins are absent from prokaryotes but broadly distributed across metazoans, plants, and vertebrates, indicating they evolved later in eukaryotic history to coordinate complex chromatin dynamics.
+
+---
+
+## 2. Subcellular Localization & Enzymatic Diversity
+
+### Subcellular Localization
+Unlike [[SIRT1]], which predominantly associates with euchromatin, or [[SIRT7]], which localizes to the nucleolus, SIRT6 is **predominantly nuclear and tightly associated with heterochromatin**. During cellular stress, SIRT6 coordinates the recruitment of DNA repair machinery directly to damaged chromatin loci.
+
+### Enzymatic Activities
+SIRT6 catalyzes multiple distinct enzymatic modifications:
+1. **Histone Deacetylation**: SIRT6 selectively deacetylates histone H3 at lysine 9 (H3K9ac) and lysine 56 (H3K56ac), promoting a transcriptionally repressive, compacted chromatin state.
+2. **Mono-ADP-Ribosylation**: SIRT6 catalyzes mono-ADP-ribosylation using [[NAD+]] as a donor substrate. Along with [[SIRT4]], it is one of the few mammalian sirtuins whose primary physiological actions depend heavily on ADP-ribosyltransferase activity.
+3. **Long-Chain Fatty Acyl Deacetylation**: Recent biochemical studies reveal that SIRT6 acts as a deacylase, facilitating the hydrolysis of long-chain fatty acyl lysine modifications.
+
+---
+
+## 3. Mechanism of Action & Biological Pathways
+
+### DNA Double-Strand Break (DSB) & Base Excision Repair (BER)
+SIRT6 plays a critical role in preserving genomic stability through dual mechanisms:
+- **Base Excision Repair**: SIRT6-deficient cells exhibit severe defects in BER, increasing sensitivity to genotoxic agents. SIRT6 interacts with and deacetylates DNA polymerase $\beta$ to coordinate BER machinery.
+- **Double-Strand Break Repair**: Under conditions of DNA damage, SIRT6 is recruited to DSB sites, where it mono-ADP-ribosylates the nuclear scaffold protein PARP-1, stimulating its activity and facilitating homologous recombination and non-homologous end-joining.
+
+### Repression of Transposable Elements
+SIRT6 is essential for keeping repetitive and transposable genomic elements (such as [[LINE-1]]) tightly packed in heterochromatin. In senescent and aging cells, the depletion or redistribution of SIRT6 allows these elements to "jump," causing significant genomic instability, DNA damage, and sterile inflammation.
+
+### Metabolic Reprogramming & Glycolysis
+SIRT6 acts as a corepressor of **[[HIF-1α]]** and **[[AMPK|AMPK]]** target genes:
+- **Aerobic Glycolysis**: SIRT6 suppresses the transcription of key glycolytic enzymes (e.g., glucose transporters, hexokinase 2) to prevent the "Warburg-like" metabolic reprogramming of cells.
+- **Lipid Homeostasis**: SIRT6 recruits to the SREBP2 promoter, deacetylating histone H3 to suppress SREBP1/2 and ChREBP, thereby inhibiting de novo lipogenesis and hypercholesterolemia.
+
+---
+
+## 4. Physiological Function & Organ Protection
+
+### Cardiovascular Protection
+SIRT6 protects against cardiorenal remodeling, hypertrophy, and fibrosis:
+- **Pathological Hypertrophy**: Prevents cardiomyocyte hypertrophy by downregulating the transcriptional activity of NF-κB p65 and blocking IGF-Akt signaling.
+- **Cardiac Fibrosis**: Inhibits myofibroblast differentiation by suppressing the profibrotic TGF-$\beta$/Smad3 pathway and targeting AMPK-ACE2 signaling.
+
+### Macrophage Polarization & Inflammation
+SIRT6 acts as a potent anti-inflammatory agent by deacetylating the RelA/p65 subunit of [[NF-κB|NF-κB]] on chromatin, suppressing its target inflammatory cytokine promoters (such as TNF-$\alpha$ and IL-6). SIRT6 deficiency in myeloid cells drives persistent macrophage activation and accelerates chronic inflammatory diseases (e.g., rheumatoid arthritis).
+
+### Diabetic Nephropathy & Podocyte Protection
+SIRT6 protects renal podocytes from apoptosis and structural injury. It maintains glomerular basement membrane integrity, preventing diabetic glomerulosclerosis and albuminuria.
+
+---
+
+## 5. Pathology & Clinical Relevance
+
+### Premature Aging (Progeroid Phenotype)
+The absolute requirement of SIRT6 for mammalian survival is demonstrated by **SIRT6 knockout (KO) mice**:
+- KO mice develop normally until birth but rapidly exhibit a dramatic progeroid phenotype, including a complete loss of subcutaneous fat, severe lymphopenia, colitis, spinal curvature, and metabolic defects.
+- SIRT6-null mice suffer from profound hypoglycemia and typically **die within approximately 4 weeks of age**.
+- Conversely, male transgenic mice overexpressing SIRT6 display a **significant (up to 30%) extension in median lifespan** accompanied by a reduced incidence of age-related diseases.
+
+### Chronic Respiratory Diseases (COPD & Asthma)
+- **COPD**: SIRT6 levels are substantially decreased in the lungs of patients with COPD due to cigarette smoke exposure, driving cellular senescence through deficient autophagy.
+- **Asthma**: Forced overexpression of SIRT6 reduces airway remodeling and suppresses the profibrotic EMT process by blocking TGF-$\beta$1/Smad3 pathways.
+
+### Context-Dependent Oncology Roles
+Like other sirtuins, SIRT6 acts as a double-edged sword in cancer depending on genetic context:
+- **Tumor Suppressor**: SIRT6 suppresses tumor growth and aerobic glycolysis in hepatocellular carcinoma (HCC) and glioma cells, acting via the suppression of Janase Kinase 2 (JAK2)/STAT3 signaling.
+- **Oncogenic Promoter**: SIRT6 drives epithelial-to-mesenchymal transition (EMT) and metastasis in non-small cell lung cancer (NSCLC) through snail-dependent transrepression of KLF4.
+
+---
+
+### Centenarian SIRT6 Variants (CentSIRT6)
+Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs183444295) — enriched in [[Centenarians|Ashkenazi Jewish centenarians]] exert multifaceted gain-of-function effects:
+- **Elevated Protein Levels**: Weakened interaction with [[Vimentin]] via the N308K mutation, independent of [[USP10]], leading to increased SIRT6 abundance in both nuclear and cytoplasmic compartments.
+- **Altered Enzymatic Activities**: Reduced deacetylase activity (increased H3K9ac, H3K18ac, H3K27ac) and enhanced mono-[[ADP-ribosylation|ADP-ribosyltransferase (mADPr)]] activity.
+- **Cellular Stress Resistance**: Delayed replicative senescence, resistance to [[Progerin]]-induced stress, preservation of [[DNA Repair]] gene expression, and suppression of [[LINE-1]] derepression.
+- **Translational Potential**: AAV-mediated delivery of CentSIRT6 or pharmacological activation with [[Fucoidan]]-FV attenuates [[LINE-1]] reactivation in [[Hutchinson-Gilford Progeria Syndrome|HGPS]] fibroblasts.
+
+### Sirtuin Modulators targeting SIRT6
+
+- **[[UBCS039]]** — the first synthetic allosteric SIRT6 activator, targeting its distal hydrophobic pocket.
+- **[[MDL-801]] (and MDL-800)** — potent, selective small-molecule allosteric activators of SIRT6 that downregulate the TGF-$\beta$1/Smad pathway, reducing fibrosis and promoting angiogenesis during wound healing.
+- **[[Cyanidin]]** — a natural anthocyanidin that strongly activates SIRT6-mediated H3K9/H3K56 deacetylation *in vitro*.
+
+---
+
+## 6.5 Lifespan and Healthspan (Giblin et al., 2014)
+
+The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan]], PMC4077918) reports:
+
+- **Lifespan extension:** whole-body SIRT6 overexpression extends median lifespan of male mice by **14.5% and 9.9%** in two independent strains, with no significant effect in females. The male-specific benefit tracks reduced serum [[IGF1|IGF-1]] and downstream IIS; male transgenics also show protection against lung tumors and preservation of glucose tolerance with age.
+
+### Sex Differences in Lifespan Extension
+
+SIRT6 is best described as a **male-dominant** longevity gene whose sex dependence is strain- and background-specific:
+
+- **Original finding (mixed-CB6 background; Kanfi et al., *Nature* 2012):** whole-body SIRT6 overexpression extended median lifespan **only in males** (14.5% and 9.9% in two strains), with no significant effect in females. The male-specific benefit co-segregated with reduced serum [[IGF1|IGF-1]] and lower downstream [[Insulin/IGF-1 Signaling|IIS]].
+- **Update (Roichman et al., *Nat Commun* 2021; PMID 34050173):** in the separate inbred C57BL/6JOlaHsd background, SIRT6 overexpression extended lifespan **in both sexes** — 27% (male) and 15% (female) median extension — while still leaving males relatively more responsive. The authors attribute the residual sex difference to the lower baseline IGF-1 in females: since female WT IGF-1 is already low, further SIRT6-driven suppression produces less additive benefit; improved weight maintenance contributed to the female effect.
+- **Human genetics (Hirvonen et al., *BMC Med Genet* 2017; PMID 28399814):** the SIRT6 intronic polymorphism **rs117385980** is associated with longevity and healthy aging in **Finnish men**, contributing male-specific genetic evidence.
+- **SIRT6 and female biology:** SIRT6's role in stabilizing estrogen receptor alpha (ERα) in preosteoblastic cells (see §6.6 bone) illustrates an estrogen-relevant axis, although direct data on sex bias in SIRT6's cardiac/anti-fibrotic effects remain sparse. This is part of the broader estrogen–sirtuin hub (see [[SIRT1]], [[SIRT3]]).
+
+> [!note]
+> The message across studies is consistent: SIRT6 benefits **both** sexes, but the **magnitude and reproducibility of the effect are strongest in males**, and the mechanism (IGF-1 suppression) is gated by baseline sex-hormonal status. This is the mirror image of SIRT3 (see [[SIRT3]]), whose estrogen-dependent expression favors female biology.
+- **Loss-of-function:** germline *Sirt6* deletion causes progressive lethal hypoglycemia, lymphopenia, and genomic instability by ~4 weeks; glucose-supplemented outbred knockouts can survive to ~1 year.
+- **Enzymatic targets:** deacetylation of [[H3K9ac|H3K9Ac]], [[H3K56ac|H3K56Ac]], [[CtIP]], and [[GCN5]]; mono-ADP-ribosylation activates [[PARP1]]; long-chain deacylation promotes [[TNFα]] secretion; SIRT6/SIR-2.4 support stress granules.
+- **Metabolism:** SIRT6 suppresses [[HIF-1α]] to support mitochondrial respiration and inhibits [[Gluconeogenesis|gluconeogenesis]] via [[PGC-1α]]; hepatic SIRT6 loss causes steatosis and derepression of [[SREBP2]]/[[SREBP-1c|SREBP1]].
+- **Inflammation:** SIRT6 deacetylates H3K9Ac at [[NF-κB]] target promoters (via RELA/p65); RELA/p65 haploinsufficiency partially rescues SIRT6-null lethality.
+- **Cancer:** dual roles — tumor suppressor (survivin repression via H3K9Ac at its promoter; ATM-dependent p53/p73 apoptosis; HIF-1α/c-MYC suppression) and oncogene (chemoresistance in breast/prostate cancer).
+- **Cardiovascular:** SIRT6 co-represses [[c-Jun]] to inhibit IGF-AKT signaling, protecting against cardiac hypertrophy; SIRT6 is reduced in failing human hearts.
+- **Dietary restriction:** no role for SIRT6 in DR response has been identified.
+
+---
+
+## 6.6 Disease Landscape (Wu et al., 2022)
+
+Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|Sirtuins in Health and Disease]] (Wu et al., 2022, s41392-022-01257-8). SIRT6 is the nuclear/chromatin deacetylase that is **most consistently protective** across cardiovascular, respiratory, digestive, renal, and most cancers — with context-dependent dual roles only in lung cancer and HCC.
+
+### Cancer
+
+- **[[Lung Cancer]]**: **Dual** — anticarcinogenic via CHD4 coordination → chromatin relaxation/DNA repair; pro-carcinogenic via snail-dependent transrepression of KLF4 → EMT/metastasis; inhibits glycolysis → enhances radiosensitivity.
+- **[[Hepatocellular Carcinoma]]**: Expressed at higher levels; deacetylates hnRNP A1 → suppresses glycolysis/growth; USP48-stabilized SIRT6 attenuates glycolysis/metabolic reprogramming; depletion downregulates multidrug resistance protein 1 → enhanced chemosensitivity.
+- **[[Colorectal Cancer]]**: Decreased in CRC tissue; expression related to improved survival.
+- **[[Gastric Cancer]]**: Downregulated; low expression → poor prognosis; inhibits JAK2/STAT3 → suppresses growth; silencing overcomes sorafenib resistance via ferroptosis.
+- **[[Pancreatic Cancer]]**: KLF10-upregulated SIRT6 influences glycolysis, EMT, distant metastasis.
+- **[[Ovarian Cancer]]**: Decreased in OC tissue; high expression ↔ favorable survival.
+- **[[Endometrial Cancer]]**: Tumor suppressor — represses survivin → inhibits AN3CA/KLE proliferation.
+- **[[Glioma]]**: Downregulated; suppresses growth via apoptosis, oxidative-stress inhibition, JAK2/STAT3 inhibition.
+- **[[leukemia]]**: DNA-repair deficiencies synergize with NAMPT targeting in AML (promising combination therapy).
+
+### Cardiovascular
+
+- **[[Cardiac Hypertrophy]]**: Protective — inhibits isoproterenol-induced hypertrophy via autophagy (FoxO3 nuclear retention via Akt attenuation); decreases p300 → NF-κB p65 acetylation; blocks IGF–Akt signaling via c-Jun; STAT3 suppression.
+- **[[Cardiac Fibrosis]]**: Systemic KO induces fibrosis via TGF-β/Smad3 activation; prevents Ang II-mediated fibrosis via AMPK–ACE2 signaling.
+- **[[Heart Failure]]**: Decreased in chronic HF; overexpression increases survival of TAC-induced HF mice via telomerase (TERT, TRF1).
+- **[[Atherosclerosis]]**: Protects against endothelial dysfunction, VSMC senescence, atherosclerosis; reduces oxLDL uptake in RAW macrophages (scavenger receptor 1 downregulation).
+- **[[Coronary Artery Disease]]**: Genetic polymorphisms associated with CAD risk.
+- **[[Myocardial Ischemia-Reperfusion Injury]]**: Protective — FoxO3α antioxidant defense; attenuates CHMP2B accumulation.
+- **[[Hypertension]]**: Endothelial deletion → enhanced BP, cardiorenal injury via Nkx3.2–GATA5.
+
+### Respiratory
+
+- **[[COPD]]**: Reduced expression → COPD via insufficient autophagy/cellular senescence; overexpression weakens autophagy via IGF–Akt–mTOR.
+- **[[Pulmonary Fibrosis]]**: Inhibits TGF-β-induced cellular senescence; inactivates TGF-β1/Smad2; prevents myofibroblast differentiation; inhibits EMT during IPF (TGF-β1/Smad3).
+- **[[Asthma]]**: Upregulated in asthmatic bronchial epithelial cells; ameliorates airway remodeling via EMT regulation.
+- **[[Acute Lung Injury]]**: Regulates macrophage polarization → alleviates sepsis-induced ARDS (autophagy-dependent and -independent).
+
+### Digestive
+
+- **[[Non-alcoholic Fatty Liver Disease|NAFLD/NASH]]**: Hepatocyte-specific KO → elevated fibrosis/oxidative stress in NASH mice; deacetylates ChREBP/SREBP-1c; antagonizes liver fibrosis via hepatic stellate cell blockade.
+- **[[Hepatitis B|HBV]]**: Downregulated in HBV-positive patients; inhibits replication via H3K9 deacetylation on viral cccDNA.
+- **Inflammatory bowel disease**: Downregulated in IBD patients; preserves Rspo1 → intestinal epithelium injury resistance; deletion promotes inflammation via NF-κB.
+- **Intestinal ischemia/reperfusion**: Downregulation by miR-351-5p aggravates injury via oxidative stress/inflammation/apoptosis.
+
+### Nervous system
+
+- **[[Alzheimer's Disease]]**: Inverse serum/saliva relationship with AD → noninvasive diagnostic potential.
+- **[[ALS]]**: Enhanced activity abrogates ALS-linked mutant SOD1 astrocyte neurotoxicity → therapeutic target.
+- **[[Spinal Cord Injury (SCI)]]**: Upregulation alleviates inflammation/oxidative stress/apoptosis.
+
+### Endocrine
+
+- **[[Diabetes Mellitus]]**: Protective — induces PGC-1α acetylation and suppresses hepatic glucose production; cooperates with p53 to deacetylate FoxO1 → suppresses gluconeogenic genes.
+- **[[Obesity]]**: **Promotes obesity** — overexpression exacerbates diet-induced obesity by decreasing STAT3 acetylation and lowering proopiomelanocortin in hypothalamus.
+- **[[Metabolic Syndrome]] / hypercholesterolemia**: Overexpression improves hypercholesterolemia (FoxO3 recruitment to SREBP2 promoter → H3K9/H3K56 deacetylation).
+
+### Urogenital
+
+- **[[Acute Kidney Injury]]**: Protective — inhibits LPS-induced apoptosis, promotes autophagy in HK-2 cells.
+- **[[Kidney Fibrosis]]**: Proximal tubule-specific KO aggravates UUO fibrosis; MDL-800 activator mitigates.
+- **Aging-induced kidney injury**: SIRT6-deficient mice exhibit kidney hypertrophy/glomerular enlargement/proteinuria.
+- **[[Vascular Calcification]]**: Markedly downregulated in CKD/VC patients; suppresses osteogenic transdifferentiation of VSMCs via runt-related transcription factor 2; MSC exosomes inhibit high-phosphate aortic calcification via SIRT6–HMGB1 deacetylation.
+
+### Motor system
+
+- **[[Osteoarthritis]]**: Inhibits chondrocyte senescence by negatively regulating NF-κB-mediated inflammation.
+- **[[Osteoporosis]]**: Inhibits age-related bone loss by stabilizing ER alpha in preosteoblastic cells.
+- **[[Intervertebral Disc Degeneration]]**: Inhibits inflammatory response/senescence via NF-κB inhibition.
+
+### Aging
+
+- Inhibition shortens VSMC lifespan/induces senescence (telomeric H3K9 hyperacetylation, 53BP1 binding); overexpression preserves telomere integrity; deacetylates Polβ → DNA-damage resistance → prevents progeroid pathologies.
+
+---
+
+## 7. Connections
+
+- **[[SIRT7]]** — fellow Class IV sirtuin; both nuclear (SIRT6 is chromatin-bound; SIRT7 is nucleolar).
+- **[[SIRT4]]** — fellow mammalian sirtuin with primary mono-ADP-ribosyltransferase activity.
+- **[[p53]]** — interacts with and is deacetylated by SIRT6 to coordinate apoptotic responses.
+- **[[NF-κB|NF-κB]]** — transcriptional activity is repressed on chromatin by SIRT6-mediated H3K9 deacetylation.
+- **[[Aging]]** — SIRT6 is a key longevity gene and aging determinant.
+- **[[Base Excision Repair]]** — major DNA repair pathway coordinated by SIRT6.
+- **[[Nkx3.2]]** — homeobox transcription factor; SIRT6 regulates Nkx3.2 expression in chondrogenesis and bone development.
+- **[[CtIP]]** — DNA end-resection factor deacetylated by SIRT6 (with H3K9Ac/H3K56Ac and GCN5).
+- **[[GCN5]]** — acetyltransferase deacetylated by SIRT6.
+- **[[PARP1]]** — activated by SIRT6 mono-ADP-ribosylation; NAD+-consuming repair enzyme.
+- **[[TNFα]]** — pro-inflammatory cytokine whose secretion SIRT6 promotes via deacylation.
+- **[[SREBP2]]** — lipogenic transcription factor negatively regulated by SIRT6.
+- **[[c-Jun]]** — co-repressed by SIRT6 at chromatin to inhibit IGF-AKT hypertrophic signaling.
+- **[[Survivin]]** — repressed by SIRT6 (H3K9Ac deacetylation at its promoter) during cancer initiation.
+- **[[IGF1]]** — serum IGF-1 lowered by SIRT6 overexpression, underlying male-specific lifespan extension.
+- **Sex differences** — SIRT6 lifespan extension is strongest/earliest in males (Kanfi 2012) but becomes sex-independent in some backgrounds (Roichman 2021), gated by baseline IGF-1.
+- **[[SIRT3]]** — the estrogen-dependent mitochondrial sirtuin, representing the complementary female-biased arm of the sirtuin family.
+- **[[Vimentin]]** — interacts with SIRT6's C-terminal IDR; N308K mutation weakens binding, elevating SIRT6 levels.
+- **[[USP10]]** — deubiquitinating enzyme that stabilizes SIRT6; centenarian variant effect is USP10-independent.
+- **[[Fucoidan]]** — SIRT6 activator that mimics centenarian variant effects (elevates SIRT6, enhances mADPr activity).
+- **[[Centenarians]]** — centenarian-enriched SIRT6 variants (N308K/A313S) confer stress resistance.
+- **[[Progerin]]** — centenarian SIRT6 variants protect against progerin-induced senescence.
+- **[[LINE-1]]** — SIRT6 represses LINE1; centenarian variants suppress progerin-induced LINE1 derepression.
+- **[[Hutchinson-Gilford Progeria Syndrome]]** — AAV-CentSIRT6 reduces LINE1 in HGPS fibroblasts.
+- **[[Mesenchymal Stromal Cells]]** — hMSC model used to study centenarian SIRT6 variant effects on senescence.
+- **[[SASP|Senescence-Associated Secretory Phenotype]]** — SIRT6 restraint of LINE-1 curbs cGAS–STING–driven SASP.
+- **[[Epigenetic Alterations]]** — SIRT6 is a chromatin-associated epigenetic regulator of senescence.
+- **[[Cytoplasmic Chromatin Fragments]]** — SIRT6 limits cytosolic DNA sources feeding SASP.
+- **[[cGAS-STING Pathway]]** — SIRT6 repression of retroelements dampens cGAS–STING SASP.
+- **[[Inflammaging]]** — SIRT6 loss promotes inflammaging via LINE-1 derepression.
+- **[[Senescence-Associated Heterochromatin Foci]]** — SIRT6 heterochromatinization intersects SAHF organization.
+- **[[Histone Variant]]** — SIRT6 deacetylates histones at repressed LINE-1 loci.
+- **[[DNA Methylation]]** — cooperates with SIRT6 to silence LINE-1.
+- **[[RB1]]** — co-enriched with SIRT6 at LINE-1 5′UTR to enforce heterochromatin.
+- **[[KAP1]]** — SIRT6 mono-ADP-ribosylates KAP1 to recruit HP1α at LINE-1.
+- **[[HP1alpha]]** — recruited by SIRT6/KAP1 to package LINE-1 into heterochromatin.
+
+---
+
+## 8. Linking Summary
+
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NF-κB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
+- **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- **Sex-difference enrichment (2026-09-02):** added Roichman *Nat Commun* 2021 (both-sex benefit, male-strong), Hirvonen *BMC Med Genet* 2017 Finnish male polymorphism rs117385980, and the estrogen–SIRT6 cross-axes to [[SIRT1]]/[[SIRT3]].
+
+## Linking Summary (Disease Landscape)
+
+- New links added: [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Glioma]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Coronary Artery Disease]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[ALS]], [[Spinal Cord Injury (SCI)]], [[Diabetes Mellitus]], [[Obesity]], [[Metabolic Syndrome]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Vascular Calcification]], [[Osteoarthritis]], [[Osteoporosis]], [[Intervertebral Disc Degeneration]]
+- Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[leukemia]], [[Hepatitis B]]
+- Strong connections to strengthen: [[SIRT6]] ↔ [[Cardiovascular Disease]], [[SIRT6]] ↔ [[Hepatocellular Carcinoma]], [[SIRT6]] ↔ [[Vascular Calcification]], [[SIRT6]] ↔ [[Longevity]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Nuclear (Class IV): SIRT6 (chromatin-associated), SIRT7 (nucleolar). nature.com Localization can vary by cell type, Cell Cycle stage, and conditions.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - The most notable progress has been made with SIRT3 and SIRT6, while others present unique structural challenges that favor inhibition rather than activation. SIRT3 Activators (Mitochondrial Deacetylase) SIRT3 is the primary deacetylase inside the mitochondria.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Recently, however, mono-ADP-ribosyl transferase activity has been found to be the main enzymatic activity of at least two of the mammalian sirtuins, SIRT4 and SIRT6 (Figure 1), as discussed below.
+
+   - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+    - Review (Grabowska et al., Biogerontology 2017) describing the severe premature-aging phenotype of SIRT6 knockout mice, SIRT6 telomere stabilization (H3K9 deacetylation, WRN), mono-ADP-ribosylation of PARP-1 K521, and CtIP deacetylation in DNA repair.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
+
+  - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+    - Demonstrates that centenarian SIRT6 variants (N308K/A313S) elevate endogenous SIRT6 protein via weakened vimentin interaction, alter enzymatic activities (enhanced mADPr, reduced deacetylase), delay replicative senescence, and protect against progerin-induced stress. AAV-CentSIRT6 and Fucoidan-FV reduce LINE1 in HGPS fibroblasts.
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review notes SIRT6 is enriched at the 5′UTR of LINE-1 loci where it mono-ADP-ribosylates KAP1 to promote HP1α-mediated heterochromatinization; senescence-associated SIRT6 loss derepresses LINE-1, fueling cGAS–STING–driven SASP and inflammaging.
+
+  - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+    - Lists SIRT6 among chromatin modifiers (with SIRT1, HDAC1, PARP1) that relocalize to DNA damage sites during repair in the RCM framework; situates RCM within the Information Theory of Aging and the ICE mouse model.
+
+  - [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+    - Review of SIRT6 as a longevity gene: whole-body overexpression extends male mouse lifespan 14.5%/9.9% via reduced IGF-1/IIS; SIRT6 regulates H3K9Ac/H3K56Ac/CtIP/GCN5, HIF-1α, SREBP2, NF-κB, survivin, and c-Jun pathways.
+
+  - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+    - Review surveying mammalian sirtuin signaling pathways (Table 3): SIRT6 functions in aging via lifespan extension, DNA repair, genome stability, and telomere maintenance; positively regulated by Nrf2, eNOS, IGF-1/AKT, p53 and negatively by p21, NF-κB, ICAM-1, PAI-1.
+
+

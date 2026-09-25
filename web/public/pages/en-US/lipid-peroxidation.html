@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lipid Peroxidation — The Free Radical Chain Reaction That Damages Membranes</title>
+<meta name="description" content="Visual review of lipid peroxidation: the initiation–propagation–termination chain reaction on polyunsaturated fatty acids, Fenton branching, the product cascade (conjugated dienes, lipid hydroperoxides, MDA, 4-HNE, F2-isoprostanes, acrolein), enzymatic (LOX/COX) versus non-enzymatic routes, PUFA susceptibility, and the disease axis — atherosclerosis and oxLDL, ferroptosis, neurodegeneration, mitochondrial apoptosis — plus the defense network (vitamin E, ascorbate, GPX4, PON1, resveratrol, ferrostatin-1, iron chelation), the speculative adrenochrome dual-ferroptosis bridge (redox-cycling o-quinone → ROS → PUFA oxidation, plus hypothesized GPX4 selenocysteine arylation), the acid ceramidase / Lands-cycle substrate-pool axis (senescence-associated PUFA-PL loading, SASP bystander sensitization, senomorphic inhibitors), and the dietary lipophilic-defense tier ranking (buriti/red palm oil vs Queen Palm pulp oil vs standard crops). Based on the llm-wiki-jk knowledge base.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #products .tbl-wrap{
+    --tbl-col-1:"Marker"; --tbl-col-2:"Stage";
+    --tbl-col-3:"Origin"; --tbl-col-4:"Detection";
+  }
+  #defense .tbl-wrap{
+    --tbl-col-1:"Defender"; --tbl-col-2:"Mechanism"; --tbl-col-3:"Context";
+  }
+  a.badge{text-decoration:none; cursor:pointer;}
+  a.badge:hover{filter:brightness(1.15); border-color:var(--teal);}
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="Back to articles index">&#8592; Back</a>
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#chain">Chain Reaction</a>
+    <a class="n" href="#products">Products</a>
+    <a class="n" href="#pathways">Pathways</a>
+    <a class="n" href="#disease">Disease</a>
+    <a class="n" href="#adrenochrome">Adrenochrome</a>
+    <a class="n" href="#defense">Defense</a>
+    <a class="n" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Ferroptosis · Oxidative Stress · 2026</div>
+    <h1>Lipid Peroxidation — the chain reaction that rusts membranes</h1>
+    <p class="lead" style="margin-top:14px;">
+      <b style="color:var(--text)">Lipid peroxidation (LPO)</b> is a free radical chain reaction: a single
+      initiating radical abstracts a hydrogen from a <b style="color:var(--text)">polyunsaturated fatty acid</b>
+      in a membrane or lipoprotein, and the resulting carbon-centered radical sets off a self-propagating cycle
+      that converts hundreds of lipids into <b style="color:var(--text)">lipid hydroperoxides</b> and, on
+      fragmentation, into reactive aldehydes — <b style="color:var(--text)">malondialdehyde (MDA)</b> and
+      <b style="color:var(--text)">4-hydroxynonenal (4-HNE)</b>. It is the central execution pathway of oxidative
+      stress: it corrupts membrane architecture, cross-links proteins and DNA, and drives
+      <b style="color:var(--text)">atherosclerosis</b>, <b style="color:var(--text)">ferroptosis</b>, and
+      neuronal injury. The same reaction, kept below the damage threshold, doubles as redox signaling —
+      the textbook hormetic seam.
+    </p>
+    <div class="meta">
+      Sources: llm-wiki-jk vault note
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Lipid%20Peroxidation.md"><code>src/notes/oxidative-stress/Lipid Peroxidation.md</code></a>
+      · Berrougui et al., <i>Atherosclerosis</i> 2009 via vault document note
+      <code>_document_ - berrougui2009_resveratrol_as_atheroprotective_compound</code>
+      · task outputs:
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"><code>Queen Palm biochemical nutrients</code></a> (Gemini export),
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>Adrenochrome → LPO bridge</code></a> (speculative),
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md"><code>Acid ceramidase in ferroptosis</code></a> (Soriano-Castell et al. 2026)
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#overview">chemical-process</a>
+      <a class="badge" href="#chain">free-radical chain reaction</a>
+      <a class="badge red" href="#products">MDA · 4-HNE · F₂-isoprostanes · oxLDL</a>
+      <a class="badge red" href="#disease">atherosclerosis · ferroptosis · neurodegeneration</a>
+      <a class="badge amber" href="#defense">defense: vitamin E · GPX4 · PON1 · resveratrol</a>
+      <a class="badge speculative" href="#adrenochrome">speculative: adrenochrome dual-ferroptosis hypothesis</a>
+      <a class="badge teal" href="#dietary">dietary lipophilic defense · carotenoids · tocopherols</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview">
+  <div class="wrap">
+    <h2>Why one radical can ruin a membrane</h2>
+    <p class="lead">
+      Membrane phospholipids and circulating lipoproteins are packed with PUFAs whose bis-allylic methylene
+      hydrogens are unusually weak (bond dissociation energy ~75 kcal/mol). A hydroxyl radical, peroxynitrite, or
+      ferryl complex can pluck one of those hydrogens in a near-diffusion-limited encounter — and the
+      carbon-centered radical left behind is not a spent bullet. It reacts with O₂ in microseconds and becomes a
+      peroxyl radical that attacks the <i>next</i> lipid. One initiator, dozens to hundreds of oxidized lipids.
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--red);">Radical chain, not stoichiometric burn</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Initiation is rare; propagation is fast and self-sustaining (L• + O₂ at k ≈ 10⁸ M⁻¹s⁻¹).
+          Hydroperoxide decomposition via Fenton chemistry branches new chains — exponential amplification
+          until two radicals recombine or a chain-breaking antioxidant intercepts the peroxyl radical.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Substrate geometry decides vulnerability</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Susceptibility scales geometrically with double-bond count: DHA (22:6) is ~10-fold more oxidizable
+          than linoleic acid (18:2). DHA-rich neuronal membranes and arachidonate-rich signaling pools are
+          therefore the first lipids to burn.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">Products are the pathology</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          The hydroperoxides fragment into electrophilic aldehydes (MDA, 4-HNE, acrolein) that form covalent
+          adducts with protein cysteine/histidine/lysine and DNA (M₁dG lesions) — a durable molecular record
+          of the oxidative episode long after the radicals are gone.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">Biphasic chemistry</span>
+      <p>
+        At low flux, lipid hydroperoxides and 4-HNE act as second messengers — 4-HNE activates the NRF2/ARE
+        protective program. At high flux, the same species commit the membrane to damage and the cell to
+        ferroptosis or apoptosis. Dose separates signal from execution — the classic hormetic switch of
+        [[Oxidative Stress]].
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHAIN REACTION ============ -->
+<section id="chain">
+  <div class="wrap">
+    <h2>Initiation, propagation, and termination</h2>
+    <p class="lead">
+      Three classical phases govern every lipid peroxidation episode. The kinetic constants below come from the
+      vault note and the physical-organic radical literature it synthesizes.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="chainSvg" viewBox="0 0 1000 440" role="img" aria-labelledby="chainSvgTitle">
+          <title id="chainSvgTitle">Lipid peroxidation chain reaction — initiation, propagation cycle with Fenton branching, and termination</title>
+          <defs>
+            <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="arrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-teal"/>
+            </marker>
+            <marker id="arrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-amber"/>
+            </marker>
+          </defs>
+
+          <!-- lane panels -->
+          <rect x="14" y="58" width="286" height="356" rx="14" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <rect x="356" y="58" width="342" height="356" rx="14" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <rect x="754" y="58" width="232" height="356" rx="14" class="panel-f stroke-line" fill-opacity="0.55"/>
+
+          <!-- lane headers -->
+          <text x="157" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" class="s-red">INITIATION</text>
+          <text x="527" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" class="s-amber">PROPAGATION</text>
+          <text x="870" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" class="s-teal">TERMINATION</text>
+          <text x="157" y="50" text-anchor="middle" font-size="10.5" class="s-mute">rare · needs a trigger</text>
+          <text x="527" y="50" text-anchor="middle" font-size="10.5" class="s-mute">fast · self-sustaining · branching</text>
+          <text x="870" y="50" text-anchor="middle" font-size="10.5" class="s-mute">radical recombination + H-donors</text>
+
+          <!-- ================= INITIATION ================= -->
+          <text x="157" y="100" text-anchor="middle" font-size="12" class="s-text">X&#8226; &#8594; hydrogen abstraction</text>
+          <text x="157" y="124" text-anchor="middle" font-size="11.5" class="s-dim">from bis-allylic &#8211;CH&#8322;&#8211; of PUFA (LH)</text>
+          <g>
+            <rect x="54" y="150" width="206" height="44" rx="10" class="card-f stroke-line2"/>
+            <text x="157" y="169" text-anchor="middle" font-size="11.5" class="s-text">triggers: &#8226;OH &#8226; ONOO&#8315; &#8226; ferryl</text>
+            <text x="157" y="185" text-anchor="middle" font-size="11" class="s-mute">Fenton Fe&#178;&#8314; &#183; catecholamine autoxidation</text>
+          </g>
+          <line x1="157" y1="196" x2="157" y2="236" class="stroke-line2" stroke-width="1.6" marker-end="url(#arrR)"/>
+          <text x="168" y="222" font-size="11" class="s-dim">H-abstraction</text>
+          <g>
+            <rect x="54" y="240" width="206" height="52" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="54" y="240" width="206" height="52" rx="10" class="stroke-line2" fill="none"/>
+            <text x="157" y="262" text-anchor="middle" font-size="12.5" font-weight="700" class="s-red">L&#8226; carbon-centered</text>
+            <text x="157" y="280" text-anchor="middle" font-size="11" class="s-dim">resonance-stabilized by adjacent &#960; bonds</text>
+          </g>
+          <text x="157" y="330" text-anchor="middle" font-size="11.5" class="s-dim">LH + X&#8226; &#8594; L&#8226; + XH</text>
+          <text x="157" y="354" text-anchor="middle" font-size="11.5" class="s-mute">committed step &#8212; the chain clock starts</text>
+
+          <!-- ================= PROPAGATION ================= -->
+          <!-- nodes -->
+          <g>
+            <rect x="384" y="120" width="110" height="44" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="384" y="120" width="110" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="439" y="148" text-anchor="middle" font-size="14" font-weight="700" class="s-red">L&#8226;</text>
+          </g>
+          <g>
+            <rect x="552" y="120" width="118" height="44" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="552" y="120" width="118" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="611" y="148" text-anchor="middle" font-size="14" font-weight="700" class="s-red">LOO&#8226;</text>
+          </g>
+          <g>
+            <rect x="552" y="250" width="118" height="44" rx="10" class="amber-f" fill-opacity="0.16"/>
+            <rect x="552" y="250" width="118" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="611" y="272" text-anchor="middle" font-size="13" font-weight="700" class="s-amber">LOOH</text>
+            <text x="611" y="287" text-anchor="middle" font-size="10" class="s-mute">primary product</text>
+          </g>
+          <g>
+            <rect x="384" y="250" width="110" height="44" rx="10" class="red-f" fill-opacity="0.14"/>
+            <rect x="384" y="250" width="110" height="44" rx="10" class="stroke-line2" fill="none"/>
+            <text x="439" y="272" text-anchor="middle" font-size="13" font-weight="700" class="s-red">LO&#8226;</text>
+            <text x="439" y="287" text-anchor="middle" font-size="10" class="s-mute">alkoxyl</text>
+          </g>
+
+          <!-- L• + O2 -> LOO• -->
+          <line x1="496" y1="142" x2="548" y2="142" class="stroke-line2" stroke-width="1.8" marker-end="url(#arrR)"/>
+          <text x="522" y="132" text-anchor="middle" font-size="11" class="s-dim">+ O&#8322;</text>
+          <text x="522" y="172" text-anchor="middle" font-size="10" class="s-mute">k &#8776; 10&#8312; M&#8315;&#185;s&#8315;&#185;</text>
+
+          <!-- LOO• + LH -> LOOH -->
+          <line x1="611" y1="166" x2="611" y2="246" class="stroke-line2" stroke-width="1.8" marker-end="url(#arrA)"/>
+          <text x="624" y="210" font-size="11" class="s-dim">+ LH &#8594; LOOH</text>
+          <text x="624" y="226" font-size="10" class="s-mute">H-transfer: new L&#8226; born</text>
+
+          <!-- LOOH --Fenton--> LO• -->
+          <line x1="548" y1="272" x2="498" y2="272" class="stroke-line2" stroke-width="1.8" marker-end="url(#arrR)"/>
+          <text x="523" y="262" text-anchor="middle" font-size="10.5" class="s-red">+ Fe&#178;&#8314;</text>
+          <text x="523" y="310" text-anchor="middle" font-size="10" class="s-mute">Fenton: LOOH + Fe&#178;&#8314; &#8594; LO&#8226;</text>
+          <text x="523" y="324" text-anchor="middle" font-size="10" class="s-mute">+ OH&#8315; + Fe&#179;&#8314;</text>
+
+          <!-- LO• -> L•  (branching) -->
+          <path d="M 439 246 C 439 210 439 200 439 168" class="stroke-line2" stroke-width="1.6" stroke-dasharray="5 4" fill="none" marker-end="url(#arrR)"/>
+          <text x="372" y="212" font-size="10.5" class="s-red">branching</text>
+          <text x="372" y="226" font-size="10" class="s-mute">+ LH &#8594; L&#8226;</text>
+
+          <!-- recycle LOOH exit to products -->
+          <line x1="672" y1="272" x2="716" y2="272" class="stroke-line2" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrA)"/>
+          <text x="694" y="258" text-anchor="middle" font-size="10" class="s-mute">fragments</text>
+
+          <!-- cycle caption -->
+          <text x="527" y="368" text-anchor="middle" font-size="11.5" class="s-dim">each initiator oxidizes dozens&#8211;hundreds of lipids</text>
+          <text x="527" y="388" text-anchor="middle" font-size="11.5" class="s-mute">LOOH &#8594; MDA &#183; 4-HNE &#183; acrolein &#183; F&#8322;-isoprostanes</text>
+
+          <!-- ================= TERMINATION ================= -->
+          <text x="870" y="100" text-anchor="middle" font-size="11.5" class="s-dim">2 LOO&#8226; &#8594; LOOL + O&#8322;</text>
+          <text x="870" y="118" text-anchor="middle" font-size="10.5" class="s-mute">Russell mechanism</text>
+          <text x="870" y="150" text-anchor="middle" font-size="11.5" class="s-dim">L&#8226; + L&#8226; &#8594; L&#8211;L &#183; cross-linking</text>
+          <line x1="870" y1="170" x2="870" y2="196" class="stroke-line2" stroke-width="1.4" marker-end="url(#arrT)"/>
+          <g>
+            <rect x="774" y="200" width="192" height="58" rx="10" class="teal-f" fill-opacity="0.12"/>
+            <rect x="774" y="200" width="192" height="58" rx="10" class="stroke-line2" fill="none"/>
+            <text x="870" y="222" text-anchor="middle" font-size="12" font-weight="700" class="s-teal">Vitamin E&#8211;OH</text>
+            <text x="870" y="240" text-anchor="middle" font-size="10.5" class="s-dim">LOO&#8226; &#8594; LOOH + tocopheroxyl&#8226;</text>
+          </g>
+          <text x="870" y="278" text-anchor="middle" font-size="10.5" class="s-mute">k &#8776; 10&#8310; M&#8315;&#185;s&#8315;&#185; &#8212; chain-breaking H-donor</text>
+          <line x1="870" y1="292" x2="870" y2="316" class="stroke-line2" stroke-width="1.4" marker-end="url(#arrT)"/>
+          <g>
+            <rect x="774" y="320" width="192" height="48" rx="10" class="teal-f" fill-opacity="0.12"/>
+            <rect x="774" y="320" width="192" height="48" rx="10" class="stroke-line2" fill="none"/>
+            <text x="870" y="340" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">Ascorbate recycle</text>
+            <text x="870" y="357" text-anchor="middle" font-size="10.5" class="s-dim">regenerates &#945;-tocopherol at the interface</text>
+          </g>
+          <text x="870" y="396" text-anchor="middle" font-size="11" class="s-mute">GPX4 (not drawn): LOOH &#8594; LOH, GSH-coupled</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 1 — The radical chain reaction.</b>
+        Initiation (left) commits a PUFA to oxidation when a trigger radical abstracts a bis-allylic hydrogen.
+        Propagation (center) is the self-sustaining cycle L• → LOO• → LOOH + new L•; Fenton decomposition of
+        LOOH (Fe²⁺) yields alkoxyl radicals that branch additional chains — the exponential-amplification step.
+        Termination (right) is radical recombination or interception of LOO• by the vitamin E / ascorbate pair.
+        Reaction constants as cited in the vault Lipid Peroxidation note. Client-side SVG with theme-01 palette
+        classes — re-themes with the site light/dark toggle.</figcaption>
+    </figure>
+
+    <div class="callout red">
+      <span class="callout-tag">Amplification step — why iron is the accelerant</span>
+      <p>
+        LOOH is not a dead end. Via the Fenton reaction (LOOH + Fe²⁺ → LO• + OH⁻ + Fe³⁺) each hydroperoxide
+        can mint a fresh radical pool, converting linear chain propagation into exponential branching. This is
+        the mechanistic hinge of ferroptosis — iron-dependent, radical-amplifying lipid peroxidation — and the
+        reason iron chelation (deferoxamine) halts the cascade.
+      </p>
+    </div>
+
+    <div class="callout" style="margin-top:16px;">
+      <span class="callout-tag">Source: Berrougui et al., Atherosclerosis 2009</span>
+      <p>
+        Lipid peroxidation is characterized by the formation of conjugated dienes, lipid hydroperoxides, TBARS,
+        and aldehydes. In LDL, oxidation of PUFAs produces conjugated dienes (measured at 234 nm) and alters the
+        apoB protein moiety. In HDL, lipid peroxidation alters phospholipid fluidity, modifies apoprotein
+        structure, and decreases PON1 activity.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section id="products">
+  <div class="wrap">
+    <h2>Major products and reactivity</h2>
+    <p class="lead">
+      Primary products are lipid hydroperoxides. Their fragmentation and reduction give the secondary species
+      that carry the pathology — and double as the clinical biomarker panel.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:22%;">Marker</th>
+            <th style="width:16%;">Stage</th>
+            <th style="width:34%;">Origin</th>
+            <th style="width:28%;">Detection</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Conjugated dienes</b></td>
+            <td>Primary · early</td>
+            <td>Double-bond rearrangement during the first H-abstraction on PUFAs</td>
+            <td>UV absorbance at 234 nm</td>
+          </tr>
+          <tr>
+            <td><b>Lipid hydroperoxides (LOOH)</b></td>
+            <td>Primary</td>
+            <td>LOO• hydrogen transfer from an adjacent PUFA — the propagation product</td>
+            <td>FOX assay, iodometry; substrate for GPX4 and PON1</td>
+          </tr>
+          <tr>
+            <td><b>Malondialdehyde (MDA)</b></td>
+            <td>Secondary</td>
+            <td>Fragmentation of PUFAs with ≥3 double bonds; prostaglandin endoperoxide side-chemistry</td>
+            <td>TBARS assay (classic, nonspecific); HPLC; M₁dG DNA adducts</td>
+          </tr>
+          <tr>
+            <td><b>4-Hydroxynonenal (4-HNE)</b></td>
+            <td>Secondary</td>
+            <td>Fragmentation of n-6 PUFAs (arachidonic, linoleic acid)</td>
+            <td>HNE–protein adduct ELISA / mass spectrometry</td>
+          </tr>
+          <tr>
+            <td><b>F₂-Isoprostanes</b></td>
+            <td>Secondary · non-enzymatic</td>
+            <td>Free-radical peroxidation of arachidonic acid — prostaglandin-like isomers</td>
+            <td>GC-MS / LC-MS — gold-standard in vivo marker</td>
+          </tr>
+          <tr>
+            <td><b>Acrolein</b></td>
+            <td>Secondary</td>
+            <td>Amino-acid and lipid oxidation fragmentation; myeloperoxidase pathways</td>
+            <td>Protein adduct assays</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2" style="margin-top:22px;">
+      <div class="card">
+        <h3 style="color:var(--red);">Aldehydes do the lasting damage</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          4-HNE and MDA are electrophiles: they form covalent adducts with protein cysteine, histidine, and
+          lysine residues and with DNA (M₁dG lesions). Cross-linking of apoB by lipid-derived aldehydes is a
+          structural step in oxLDL formation; 4-HNE adduction of the astrocytic glutamate transporter GLT-1
+          (EAAT2) impairs glutamate clearance and opens an excitotoxic route to neuronal injury.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">Low-dose 4-HNE is a signal, not a toxin</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          At low concentrations 4-HNE activates the NRF2/ARE protective pathway — the adaptive arm that upregulates
+          glutathione synthesis, heme oxygenase-1, and the phase-II detoxification battery. The product spectrum of
+          lipid peroxidation therefore encodes dose: adaptive signaling below the threshold, proteotoxic and
+          genotoxic adduction above it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PATHWAYS ============ -->
+<section id="pathways">
+  <div class="wrap">
+    <h2>Enzymatic versus non-enzymatic routes — and why PUFA structure matters</h2>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="card">
+        <h3 style="color:var(--purple);">Enzymatic peroxidation</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Stereoselective oxidoreductases channel arachidonic acid into defined signaling products.
+          <b>Lipoxygenases (LOX)</b> insert O₂ at specific positions, producing leukotrienes and
+          hydroxyeicosatetraenoic acids (HETEs). <b>Cyclooxygenases (COX-1/COX-2)</b> perform the
+          bis-dioxygenation to prostaglandin G₂, initiating the prostanoid cascade. Products are
+          position- and stereo-defined — regulated peroxidation for signaling purposes.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--red);">Non-enzymatic peroxidation</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Unregulated radical attack produces isomeric product mixtures — the isoprostanes from arachidonic acid.
+          No enzyme controls position or stereochemistry, which is exactly what makes F₂-isoprostanes reliable
+          in vivo biomarkers of oxidative damage: their formation rate tracks radical flux, not enzyme
+          expression.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">PUFA susceptibility scales geometrically with double bonds</span>
+      <p>
+        Bis-allylic methylenes are the weak points. Arachidonic acid (20:4, n-6) and docosahexaenoic acid
+        (22:6, n-3) carry several of them; DHA, with six double bonds, is ~10-fold more oxidizable than
+        linoleic acid (18:2). Neuronal membranes are enriched in DHA — which is why neural tissue is
+        exceptionally vulnerable to lipid peroxidation cascades, and why the brain concentrates vitamin E and
+        plasmalogens as sacrificial shields.
+      </p>
+    </div>
+
+    <h3 style="margin-top:30px;">Substrate-pool control — the acid ceramidase / Lands-cycle axis</h3>
+    <p class="lead" style="margin-top:8px;">
+      Peroxidation needs substrate, and cells tune how much oxidizable PUFA is installed in membrane
+      phospholipids. A 2026 study (Soriano-Castell et al., <i>Cell Death Dis</i>) found senescent cells load
+      the membrane the wrong way: acid ceramidase (ACase / ASAH1) is overexpressed 5–20× in replicatively
+      senescent fibroblasts, and its ceramide catabolism actively feeds peroxidizable lipid into the bilayer —
+      a GPX4/GSH/iron-independent route to ferroptotic vulnerability.
+    </p>
+
+    <div class="grid g2" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--purple);">The Lands-cycle loading mechanism</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Ceramide synthesis sequesters free saturated/monounsaturated fatty acids away from phospholipid PUFA.
+          ACase cleaves ceramide (→ sphingosine + free fatty acid), and the liberated SFA/MUFA enter the Lands
+          cycle — exchanged into the <i>sn-2</i> position of membrane phospholipids, enriching PUFA-containing
+          species (all arachidonate-PLs, plus PC-LA, PC-DHA, PE-DHA, PG-DHA). The membrane becomes the preferred
+          substrate for iron-dependent lipid peroxidation. ACase knockdown or ARN14794 inhibition shrinks the
+          PL-PUFA pool and protects against RSL3-induced ferroptosis.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">Independent of the classical cast</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          After ACase knockdown cells stayed protected <i>even though</i> GPX4 protein fell, GSH rose (and
+          protection survived BSO-mediated GSH depletion), and labile iron rose alongside ferritin. ACSL4 protein
+          was unchanged despite the PL-PUFA reduction. ACase acts upstream of all of them — it sets the size of
+          the lipid-peroxidation substrate pool without engaging the GPX4/GSH/Fe²⁺ machinery.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">Bystander spread via SASP — and the senolytic paradox</span>
+      <p>
+        Senescent cells export the vulnerability: SASP cytokines IL-6 and IL-8 (recapitulated at a 2:1 ratio)
+        upregulate ACase in neighboring proliferative cells, elevating their lipid peroxidation and ferroptotic
+        sensitivity — a SASP → ACase → pro-ferroptotic lipid-profile axis that explains how a few senescent cells
+        can wound a whole tissue. Meanwhile ACase's other output, sphingosine-1-phosphate, is anti-apoptotic (a
+        senescent-cell anti-apoptotic pathway): the same metabolic shift that keeps senescent cells alive makes
+        them ferroptosis-prone. ACase inhibition (ARN14794 ~100 nM; brain-penetrant ARN14974, 79 nM; clinically
+        approved carmofur, 29 nM) therefore acts <b>senomorphically</b> — removing ferroptotic vulnerability
+        while leaving the senescence arrest and SASP intact, and potentially shielding bystander neighbors too.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISEASE ============ -->
+<section id="disease">
+  <div class="wrap">
+    <h2>Physiological and pathological consequences</h2>
+    <p class="lead">
+      Peroxidation inserts polar groups into the hydrophobic core of the bilayer: permeability rises, fluidity
+      drifts, fusion tendency increases. Downstream, the aldehyde products rewrite protein and DNA chemistry.
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--red);">Atherosclerosis</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          LDL lipid peroxidation produces <b>oxidized LDL</b>, cleared unregulated by macrophage scavenger
+          receptors (SR-A, CD36) → <b>foam cells</b>. 4-HNE-modified plaque proteins activate NF-κB, sustaining
+          vascular inflammation. HDL peroxidation impairs cholesterol efflux and drops PON1 activity — the
+          lipoprotein loses its atheroprotection. LPO markers track plaque progression.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">Mitochondria &amp; apoptosis</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Cardiolipin peroxidation — driven by ROS at Complex III — frees cytochrome c from the inner membrane
+          and commits the cell to the intrinsic apoptotic pathway. The oxidized cardiolipin signal is also a
+          mitophagy cue: damage-sensing couples membrane peroxidation to organelle clearance.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Ferroptosis</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Iron-dependent lipid peroxidation <i>is</i> the execution mechanism of ferroptosis — regulated necrotic
+          cell death blocked by radical-trapping antioxidants (ferrostatin-1, liproxstatin-1) and iron chelators,
+          not by caspase inhibitors. ACSL4/LPCAT3 install oxidizable PUFA phospholipids; GPX4 is the gatekeeper
+          that reduces them back. Substrate supply is itself regulated — the senescence-associated acid
+          ceramidase axis loads membranes with PUFA phospholipids via the Lands cycle (see Pathways).
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--blue);">Neurodegeneration</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Elevated MDA and 4-HNE in CSF and tissue of Alzheimer's, Parkinson's, and ALS mark neuronal injury.
+          4-HNE adduction of astrocytic GLT-1 (EAAT2) impairs glutamate clearance and causes excitotoxicity;
+          aldehyde adduction of tau promotes oligomerization. DHA-rich membranes explain the selective
+          vulnerability.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--red);">Catecholamine-driven myocardial LPO</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Catecholamine autoxidation is a dedicated initiating source: epinephrine oxidation yields superoxide
+          and H₂O₂ → Fenton •OH → myocardial membrane peroxidation, ion-homeostasis failure, and contractile
+          dysfunction. Aminochromes (adrenochrome) amplify the damage by redox-cycling with NADPH and consuming
+          glutathione — implicated in catecholamine-induced cardiomyopathy and Takotsubo syndrome.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--green);">Glycation crosstalk</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Lipid peroxidation-derived dicarbonyls feed the advanced glycation end-product (AGE) pool, and
+          glucose autoxidation does the reverse — peroxidation and glycation share radical and carbonyl
+          chemistry, and their products converge on RAGE-driven inflammation and protein cross-linking.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout red" style="margin-top:22px;">
+      <span class="callout-tag">Bottom line</span>
+      <p>
+        Lipid peroxidation is where oxidative stress stops being a redox ratio and becomes structural damage:
+        a membrane chemistry problem that propagates itself, writes lasting aldehyde adducts into proteins and
+        DNA, and — through oxLDL and ferroptosis — supplies the proximate execution mechanisms of the two most
+        important degenerative disease axes in the vault (atherosclerosis and iron-dependent cell death).
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ADRENOCHROME BRIDGE ============ -->
+<section id="adrenochrome">
+  <div class="wrap">
+    <h2>Speculative bridge — adrenochrome as a dual ferroptosis inducer</h2>
+    <p class="lead">
+      A task-output analysis (Research Scientist agent, 17 Jul 2026) traces a chemically direct but
+      historically underconnected route from catecholamine oxidation to lipid peroxidation — then proposes a
+      second hit: adrenochrome may also disarm GPX4. The radical chemistry below is documented in the vault;
+      the GPX4-inhibition arm is a <b style="color:var(--red)">hypothesis, not experimentally verified</b>.
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--red);">Redox-cycling <i>o</i>-quinone</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Adrenochrome shuttles adrenochrome ↔ semiquinone radical ↔ leuco-adrenochrome. At every turn the
+          semiquinone dumps an electron onto O₂ → superoxide (SOD → H₂O₂ → Fenton •OH). The cycle is
+          <b>catalytic, not stoichiometric</b>: one molecule mints many ROS equivalents while NADPH and GSH
+          keep re-reducing it — an amplification engine, not a one-off oxidant.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">The GSH feedback spiral</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Lipid-peroxidation products (4-HNE, MDA) damage mitochondria and deplete glutathione; GSH depletion
+          slows adrenochrome detoxification; more adrenochrome persists and keeps cycling → more •OH → more
+          peroxidation. The initiating source and the repair deficit feed each other — the spiral documented
+          in the vault catecholamine section.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--purple);">Dopaminochrome parallel</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Dopamine oxidation in the substantia nigra yields dopaminochrome — the same <i>o</i>-quinone redox
+          cycling — which accumulates in neuromelanin with age. The cardiac catecholamine route may mirror
+          dopaminergic neuron loss in Parkinson's disease: catecholamine <i>o</i>-quinone → lipid peroxidation
+          → cell death, in two tissues.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout red" style="margin-top:22px;">
+      <span class="callout-tag">Dual Mechanism Hypothesis — speculative</span>
+      <p>
+        Adrenochrome may induce ferroptosis in catecholamine-high cells (cardiomyocytes, dopaminergic neurons)
+        through two hits at once: (1) redox cycling supplies the lethal signal — •OH-initiated phospholipid
+        peroxidation — and (2) as an electrophilic <i>o</i>-quinone it may arylate the GPX4 selenocysteine
+        active site (analogously to RSL3), disabling the brake. In effect a catalytic ferroptosis inducer:
+        makes the fire and cuts the hose. Proposed test panel: C11-BODIPY oxidation, TBARS, recombinant GPX4
+        activity, and a rescue matrix (ferrostatin-1, liproxstatin-1, necrostatin-1, Z-VAD-FMK) to assign the
+        death modality. Clinically implicated contexts: catecholamine-induced cardiomyopathy, Takotsubo
+        syndrome, and ischemia-reperfusion injury, where myeloperoxidase released from neutrophils converts
+        locally high epinephrine to adrenochrome in the reperfused myocardium.
+      </p>
+    </div>
+
+    <div class="callout" style="margin-top:16px;">
+      <span class="callout-tag">Graph gap as a literature gap</span>
+      <p>
+        Before the bridge analysis, the wiki graph routed Adrenochrome → Lipid Peroxidation only through a
+        serendipitous 4-hop path (Compound C → AMPK → sirtuins review). The direct chemical edge — redox
+        cycling → superoxide → H₂O₂ → •OH → bis-allylic hydrogen abstraction — is documented in the vault but
+        was underconnected: an artifact of the boundary between the catecholamine-pharmacology and
+        oxidative-stress literatures, which rarely cite each other. Filling it experimentally would be novel.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEFENSE ============ -->
+<section id="defense">
+  <div class="wrap">
+    <h2>Inhibition — the defense network</h2>
+    <p class="lead">
+      Termination chemistry can be recruited. Defenses act at three levels: intercept the chain carrier (radical
+      trapping), detoxify the hydroperoxide product, and starve the Fenton accelerant.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:22%;">Defender</th>
+            <th style="width:42%;">Mechanism</th>
+            <th style="width:36%;">Context</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Vitamin E (α-tocopherol)</b></td>
+            <td>Chain-breaking H-donor: LOO• → LOOH + stable tocopheroxyl radical (k ≈ 10⁶ M⁻¹s⁻¹)</td>
+            <td>Endogenous antioxidant of lipoproteins and membranes</td>
+          </tr>
+          <tr>
+            <td><b>Ascorbic acid</b></td>
+            <td>Regenerates α-tocopherol from its tocopheroxyl radical at the membrane–water interface</td>
+            <td>Water-soluble partner of the vitamin E cycle</td>
+          </tr>
+          <tr>
+            <td><b>Glutathione peroxidase (GPX4)</b></td>
+            <td>Reduces lipid hydroperoxides (LOOH → LOH), GSH-coupled — removes the Fenton substrate</td>
+            <td>Gatekeeper of ferroptosis; its loss commits membranes to peroxidation</td>
+          </tr>
+          <tr>
+            <td><b>PON1</b></td>
+            <td>HDL-associated enzyme that hydrolyzes lipid peroxides</td>
+            <td>Preserves HDL fluidity, apoprotein structure, and cholesterol efflux</td>
+          </tr>
+          <tr>
+            <td><b>Resveratrol</b></td>
+            <td>Inhibits copper- and radical-induced lipid peroxidation in LDL and HDL</td>
+            <td>Atheroprotective polyphenol (Berrougui et al., <i>Atherosclerosis</i> 2009)</td>
+          </tr>
+          <tr>
+            <td><b>Ferrostatin-1 / liproxstatin-1</b></td>
+            <td>Membrane-embedded radical-trapping antioxidants — quench LOO• in the lipid phase</td>
+            <td>Experimental ferroptosis inhibitors; rescue markers in mechanistic studies</td>
+          </tr>
+          <tr>
+            <td><b>Deferoxamine</b></td>
+            <td>Iron chelation — blocks Fenton conversion of LOOH into LO•, collapsing chain branching</td>
+            <td>Ferroptosis blockade; therapeutic iron chelation in iron-overload states</td>
+          </tr>
+          <tr>
+            <td><b>Carotenoids (β-carotene, lutein, zeaxanthin)</b></td>
+            <td>Quench singlet oxygen (¹O₂) and dissipate excess radiant/oxidative energy within membrane lipids</td>
+            <td>Lipophilic photoprotectants of fruit-pulp and seed oils; the dietary frontline against photo-oxidation</td>
+          </tr>
+          <tr>
+            <td><b>Coenzyme Q10 (ubiquinol)</b></td>
+            <td>Regenerates oxidized vitamin E back to its active form directly within lipid membranes</td>
+            <td>Mitochondrial and lipoprotein membranes; feeds the same recycle loop as ascorbate</td>
+          </tr>
+          <tr>
+            <td><b>Acid ceramidase inhibition (ARN14794, ARN14974, carmofur)</b></td>
+            <td>Shrinks the membrane PUFA-phospholipid substrate pool — ceramide catabolism no longer feeds Lands-cycle PUFA loading</td>
+            <td>Upstream of GPX4/GSH/iron; senomorphic protection of senescent cells and SASP-exposed neighbors (Soriano-Castell et al. 2026)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 id="dietary" style="margin-top:30px;">Dietary lipophilic defense — the exogenous tier</h3>
+    <p class="lead" style="margin-top:8px;">
+      Structural protection against lipid peroxidation requires defenders that <i>live in the bilayer</i> —
+      fat-soluble compounds absorbed with dietary lipids and incorporated into membranes, where they can
+      intercept LOO• or quench ¹O₂ in the same phase the chain runs in. By that metric — lipophilic ORAC,
+      carotenoid and tocopherol density co-delivered in a functional lipid matrix — fruit-pulp oils rank very
+      differently from water-soluble antioxidant leaderboards (task output, Queen Palm biochemical profile,
+      23 Sep 2026).
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--amber);">Tier 1 · Elite / record-holders</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b>Buriti palm</b> (<i>Mauritia flexuosa</i>) — 5–10× the carotenoid density of Queen Palm pulp oil,
+          among the highest natural β-carotene levels in the plant kingdom. <b>Red palm oil</b> (<i>Elaeis
+          guineensis</i>) — tocotrienols reported at 40–60× the membrane neuroprotective efficiency of
+          standard α-tocopherol. <b>Sea buckthorn</b> — top lipophilic ORAC plus rare palmitoleic acid (omega-7).
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">Tier 2 · High-potency peers (Queen Palm ranks here)</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          <b>Queen Palm</b> (<i>Syagrus romanzoffiana</i>, jerivá) pulp oil: up to ~1,200 μg/g total carotenoids
+          (β-carotene predominant) and &gt;320 mg/kg α-tocopherol — co-delivered with oleic/linoleic vehicle
+          lipids, so the defenders are already solubilized into the membrane-targeting fraction. Peers: jelly
+          palm, rosehip, açaí (açaí leads in hydrophilic anthocyanins; Queen Palm leads it in provitamin-A
+          carotenoid protection against singlet-oxygen-driven peroxidation).
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--dim);">Tier 3 · Standard agronomic crops</h3>
+        <p style="color:var(--dim); font-size:.9rem;">
+          Carrots and sweet potatoes carry more β-carotene by weight but lack the intrinsic lipid matrix — they
+          require added dietary fat for absorption and membrane incorporation. Common cultivated fruits
+          (apples, plums, grapes) are rich in water-soluble polyphenols but thin on LOO•-trapping lipophilic
+          capacity.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout teal" style="margin-top:22px;">
+      <span class="callout-tag">What structural protection preserves</span>
+      <p>
+        Defending membrane lipids is defense-in-depth at the tissue level: intact bilayers hold the ion-pump
+        gradients (Na⁺/K⁺- and Ca²⁺-ATPase) that nerves and muscle run on; protected cardiolipin keeps
+        cristae folded and the ETC supercomplexes aligned (uncoupling and mPTP opening are the failure mode);
+        oxidized lipids and 4-HNE never become the DAMP signal that drives TLR4/NF-κB and NLRP3–IL-1β
+        inflammation; vascular membranes keep eNOS-coupled NO for vasodilation; and DHA-rich neuronal
+        membranes resist the 4-HNE adduction of amyloid-β, τ, and α-synuclein that accelerates misfolding.
+        GPX4 and vitamin E are the endogenous tier — dietary tocopherols and carotenoids extend the same
+        chemistry exogenously.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<footer id="sources">
+  <div class="wrap">
+    <h2 style="font-size:1.1rem;">Sources &amp; methods</h2>
+    <p style="margin-top:10px;">Primary source: llm-wiki-jk vault note
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Lipid%20Peroxidation.md"><code>src/notes/oxidative-stress/Lipid Peroxidation.md</code></a>
+      (chemical-process / oxidative-stress synthesis, updated 2026-09-23) · embedded source callout: Berrougui H et al.
+      <i>Resveratrol as atheroprotective compound</i>, Atherosclerosis 2009, via vault document note
+      <code>_document_ - berrougui2009_resveratrol_as_atheroprotective_compound</code>.</p>
+    <p>Task outputs woven in:
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"><code>task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md</code></a>
+      (Queen Palm biochemical nutrients profile — Gemini conversation export, 23 Sep 2026; dietary lipophilic-defense
+      tiers and structural-protection framing) ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>
+      (Adrenochrome → Lipid Peroxidation mechanistic bridge — Research Scientist agent, 17 Jul 2026; dual-ferroptosis
+      hypothesis and graph-gap analysis) ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md"><code>task_output_acid_ceramidase_27_July_2026.md</code></a>
+      (Acid ceramidase in ferroptosis &amp; cellular senescence — research synthesis of Soriano-Castell et al.,
+      <i>Cell Death Dis</i> 2026, doi:<a href="https://doi.org/10.1038/s41419-026-09108-y" target="_blank" rel="noopener">10.1038/s41419-026-09108-y</a>;
+      substrate-pool / Lands-cycle axis, SASP bystander propagation, senomorphic inhibitor panel).</p>
+    <p>Related vault notes: [[Lipid Peroxidation]], [[Oxidative Stress]], [[Hydroxyl Radicals]], [[Peroxynitrite]],
+      [[Lipid peroxyl radical]], [[Lipid hydroperoxide]], [[Polyunsaturated fatty acids]], [[Malondialdehyde]],
+      [[4-Hydroxynonenal]], [[F2-Isoprostanes]], [[Conjugated Dienes]], [[Arachidonic acid]],
+      [[Docosahexaenoic acid]], [[Vitamin E]], [[Ascorbic Acid]], [[Glutathione]], [[Coenzyme Q10]],
+      [[PON1]], [[Resveratrol]], [[Ferroptosis]], [[GPX4]], [[RSL3]], [[Ferrostatin-1]], [[Liproxstatin-1]],
+      [[Deferoxamine]], [[C11-BODIPY]], [[Oxidized LDL]], [[LDL]], [[HDL]], [[Foam Cells]], [[Macrophages]],
+      [[Cholesterol Efflux]], [[Atherosclerosis]], [[Mitochondria]], [[Apoptosis]], [[NF-κB]],
+      [[Adrenochrome]], [[Leuco-adrenochrome]], [[Epinephrine]], [[Hemoglobin]], [[Dopaminochrome]],
+      [[Dopamine]], [[Neuromelanin]], [[Catecholamine-induced cardiomyopathy]],
+      [[Takotsubo Cardiomyopathy]], [[Ischemia-reperfusion Injury]], [[Myeloperoxidase]],
+      [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]],
+      [[Acid ceramidase]], [[ASAH1]], [[Ceramide]], [[Sphingosine-1-phosphate]], [[Lands cycle]],
+      [[ACSL4]], [[Senescence]], [[SASP]], [[ARN14794]], [[ARN14974]], [[Carmofur]], [[RSL3]],
+      [[Lipoxygenases]], [[Cyclooxygenases]], [[Leukotrienes]], [[Isoprostanes]], [[Queen Palm]].</p>
+    <p>Knowledge graph: <code>graphify-out/graph.json</code> (triples) · <code>wiki-out/graph.json</code> (wikilinks) ·
+      Figure 1 is client-side SVG using theme-01 CSS variables — no external dependencies, re-themes with the
+      site light/dark toggle, works offline.</p>
+    <p style="margin-top:8px; color:var(--mute);">Informational synthesis, not medical advice. Rate constants and
+      relative oxidizability figures (DHA ~10× linoleic acid) are as cited in the vault note; the
+      initiation/propagation/termination schematic is an editorial encoding of standard radical-chain
+      chemistry, not experimental data. The adrenochrome dual-ferroptosis mechanism (GPX4 selenocysteine
+      arylation) is a <b>speculative hypothesis</b> from the bridge task output and is not experimentally
+      verified. Queen Palm nutrient figures and the lipophilic-defense tier ranking derive from a Gemini
+      conversation export (task output) — treat the numbers as indicative, not validated composition data.</p>
+  </div>
+</footer>
+
+<div id="netTip"></div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
+<script src="../themes/theme-01/context-tooltip.js"></script>
+</body>
+</html>

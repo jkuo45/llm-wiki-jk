@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-08-31
+updated: 2026-09-23
 ---
 # Sirtuins
 
@@ -30,6 +30,8 @@ updated: 2026-08-31
 | [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response\|SIRT1 Stability in DDR (Ouyang et al. 2022)]] | Int J Biol Sci: severe DNA damage triggers reciprocal SIRT1 PTMs — TRIM28 polyubiquitination and caspase cleavage at DEPDVP(704–709) (ATM–TRIM28–SIRT1 axis) — enhancing DNA-damage-induced cell death |
 | [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2\|SIRT1–14-3-3ζ–Caspase-2 (Andersen et al. 2011)]] | Mol Cell cover story: SIRT1 deacetylates 14-3-3ζ (K49) to maintain caspase-2 suppression; PPP/G6P flux gates apoptotic sensitivity; SIRT1 inhibition sensitizes breast tumor cells to paclitaxel |
 | [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart\|SIRT1 Cardiac Dose-Response (Alcendor et al. 2007)]] | *Circ Res* primary study: heart-specific Tg-Sirt1 — 2.5×/7.5× cardiac SIRT1 retards age-dependent hypertrophy/fibrosis/apoptosis and resists paraquat oxidative stress via FoxO1a→catalase; 12.5× induces cardiomyopathy via PGC-1α↓, mitochondrial dysfunction, NAD+ depletion (hormetic dose window) |
+
+| [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?\|The Sirtuin System: The Holy Grail of Resveratrol?]] | The oxidative stress theory has been associated with atherosclerosis |
 
 ## Entity Notes
 
@@ -333,3 +335,50 @@ updated: 2026-08-31
 |--------|--------------|-------------|
 | [[Sirtuin Fluorimetric Activity]] | assay | Fluor de Lys-type fluorescence assays measuring sirtuin deacetylation for HTS of inhibitors/activators; subject to fluorescent-substrate artifacts |
 | [[Kinase]] | Enzyme | Enzyme superfamily sharing an adenosine-binding site with sirtuins; kinase-inhibitor scaffolds (Ro31-8220, GW5074) were repurposed as SIRT1/SIRT2 inhibitors |
+
+### Additional Entities
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[53BP1]] | Uncategorized | 53BP1 (p53-binding protein 1) is a key DNA damage response protein that |
+| [[Allosteric Activator]] | Uncategorized | An allosteric activator is a molecule that binds to a site on a Protein |
+| [[Angiotensin II]] | Uncategorized | Angiotensin II (Ang II) is a peptide hormone central to the Renin-angiotensin |
+| [[Antagomirs]] | Uncategorized | Antagomirs are a class of chemically engineered Oligonucleotide that |
+| [[BCA3]] | Uncategorized | BCA3 (Breast Cancer Associated Protein 3, also commonly referred to as |
+| [[BDNF]] | Uncategorized | BDNF (Brain-Derived Neurotrophic Factor) is a member of the Neurotrophin |
+| [[Ca2+]] | Uncategorized | Ca2+ (calcium ion) is a ubiquitous intracellular second messenger that |
+| [[Cardiac Hypertrophy]] | Uncategorized | Cardiac Hypertrophy is an adaptive enlargement of cardiomyocytes in response |
+| [[Compound C]] | Uncategorized | Compound C (also known as Dorsomorphin or BML-275) is a potent, selective, |
+| [[Coordinated Lysosomal Expression and Regulation]] | Uncategorized | The CLEAR network, a TFEB-driven transcriptional program coordinating lysosomal biogenesis and autophagy, integrated with mTOR and sirtuin/PGC-1α quality-control pathways. |
+| [[Cytochrome P450]] | Uncategorized | Cytochrome P450 (CYP450) is a superfamily of heme-containing Enzyme |
+| [[David Sinclair]] | Uncategorized | David A. Sinclair is an Australian-American biologist and professor of genetics |
+| [[Deacetylation]] | Uncategorized | Enzymatic removal of acetyl groups from lysine residues on proteins and other molecules, principally catalyzed by NAD+-dependent sirtuin deacetylases and opposing acetyltransferases. |
+| [[FHL2]] | Uncategorized | FHL2 (Four and a Half LIM Domains Protein 2, also known as SLIM3) is |
+| [[GABARAPL1]] | Uncategorized | GABA type A receptor-associated protein-like 1, an ATG8-family ubiquitin-like protein essential for autophagosome biogenesis, LC3 lipidation, and selective autophagy. |
+| [[H3K56ac]] | Uncategorized | Acetylation of histone H3 at lysine 56 (H3K56ac) — a globular-domain mark carried on newly synthesized H3 that coordinates nucleosome assembly, DNA replication and repair, and is deacetylated by SI... |
+| [[H3K9ac]] | Uncategorized | Acetylation of histone H3 at lysine 9 (H3K9ac) — an euchromatic, transcription-permissive mark that is removed by the sirtuins SIRT1 and SIRT6 to impose gene silencing, suppress NF-κB, and facilita... |
+| [[Heparin]] | Uncategorized | Heparin is a Glycosaminoglycan Anticoagulant that potentiates Antithrombin |
+| [[IL-1R]] | Uncategorized | Interleukin-1 receptor — the receptor for IL-1 cytokines (IL-1α/IL-1β) that initiates MyD88/IRAK/TRAF6-dependent NF-κB signaling; a pro-inflammatory node modulated by sirtuins. |
+| [[Insulin Sensitivity]] | Uncategorized | Insulin Sensitivity refers to the efficiency with which cells (primarily |
+| [[K122]] | Uncategorized | K122 is an alternate designation for Lysine 122 of mitochondrial MnSOD/SOD2, the SIRT3-dependent deacetylation/activation site. See Lys122. |
+| [[Lys122]] | Uncategorized | Lysine 122 (K122) of mitochondrial MnSOD/SOD2 — a key acetylation site deacetylated and activated by SIRT3, governing mitochondrial superoxide dismutation. |
+| [[Lys68]] | Uncategorized | Lysine 68 (K68) of mitochondrial MnSOD/SOD2 — an acetylation site deacetylated and activated by SIRT3, cooperating with Lys122 to control superoxide dismutation. |
+| [[MDL-800]] | Uncategorized | MDL-800 is a highly potent, selective, and cell-permeable synthetic allosteric |
+| [[ML385]] | Uncategorized | ML385 is a selective small-molecule inhibitor of NRF2. It binds directly to the NRF2 Cap''n''collar basic-leucine zipper (bZIP) domain, blocking its heterodimerization with Small Maf proteins and p... |
+| [[Mediterranean Diet]] | Uncategorized | The Mediterranean Diet is a dietary pattern based on traditional |
+| [[MitoSOX]] | Uncategorized | MitoSOX Red — a mitochondria-targeted fluorescent probe that detects superoxide (O₂⁻) production, used as a readout of mitochondrial oxidative stress shaped by sirtuin activity. |
+| [[Nkx3.2]] | Uncategorized | Nkx3.2 (also known as Bapx1) is a homeobox-containing transcription |
+| [[PDE]] | Uncategorized | Phosphodiesterases, a superfamily of enzymes that hydrolyze the second messengers cAMP and cGMP, modulating cyclic-nucleotide signaling intersected by sirtuin and AMPK pathways. |
+| [[RNA Polymerase I]] | Uncategorized | RNA Polymerase I (Pol I) is the eukaryotic enzyme responsible for transcribing ribosomal RNA (rRNA) genes — including 18S, 5.8S, and 28S rRNA — in the nucleolus. Pol I activity is the rate-limiting... |
+| [[SIRT3-SIRT4 Ratio]] | Uncategorized | The SIRT3/SIRT4 Ratio is the quantitative balance between two opposing |
+| [[SRT1720]] | Uncategorized | SRT1720 is a synthetic small-molecule STAC (sirtuin activating compound) developed by Sirtris Pharmaceuticals as a potent SIRT1 activator. It belongs to the imidazothiazole class and is structurall... |
+| [[STACs]] | Uncategorized | Sirtuin Activating Compounds (STACs) are a structurally diverse class |
+| [[Sirtris Pharmaceuticals]] | Uncategorized | Sirtris Pharmaceuticals was a Cambridge-based biotechnology company that originated the STAC program of synthetic small-molecule sirtuin activators (SRT series), acquired by GlaxoSmithKline in 2008. |
+| [[Sirtuin Activators]] | Uncategorized | Endogenous and small-molecule agents that enhance sirtuin deacetylase activity, mimetic of calorie restriction, used to promote metabolic health, autophagy, and longevity. |
+| [[Sirtuin activating compounds]] | Uncategorized | Specific small molecules that activate sirtuin deacetylases (STACs), including polyphenols, synthetic analogs, and NAD+ precursors, catalogued as chemical entities. |
+| [[Stilbene]] | Uncategorized | Stilbenes are a class of Polyphenols organic compounds characterized |
+| [[Stilbenoid]] | Uncategorized | Class of plant polyphenols built on a stilbene scaffold (1,2-diarylethene), including resveratrol and pterostilbene, with sirtuin-activating and antioxidant activities. |
+| [[Tenovin-1 and Tenovin-6]] | drug | Small-molecule sirtuin inhibitors that block SIRT1/SIRT2 deacetylation of p53, causing p53 hyperacetylation and activation with anticancer activity. |
+| [[Tenovin-6]] | drug | A small-molecule inhibitor of the sirtuin family of NAD+-dependent deacetylases, originally identified as a p53-activating compound that blocks sirtuin-mediated deacetylation. |
+| [[Warfarin]] | Uncategorized | Warfarin (brand name Coumadin) is an oral Anticoagulant that inhibits |
+| [[γ-H2AX]] | Uncategorized | γ-H2AX is the phosphorylated form of the histone variant H2AX at serine 139 (Ser139), generated by ATM, ATR, and DNA-PK kinases in response to DNA double-strand breaks. It is the canonical molecula... |

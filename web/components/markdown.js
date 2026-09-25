@@ -4,6 +4,30 @@ export function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
+// Inverse of esc() for values read back out of the DOM (e.g. a data-wiki
+// attribute rendered from a wiki link): only the five entities esc() emits.
+export function unescapeHtml(s) {
+  return String(s).replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+}
+
+// Strip active HTML from an untrusted fragment: script pairs, active tags,
+// and on* handlers — quote-aware so an " onerror=x" inside alt text or a URL
+// path segment (/onerror=1.png) is left alone. Used by renderMarkdown's
+// figure/img passthrough and the LLM HTML-mode sinks in analysis.js.
+export function stripUnsafeHtml(s) {
+  const quotes = [];
+  const masked = String(s).replace(/("[^"]*"|'[^']*')/g, (q) => {
+    quotes.push(q);
+    return `\u0000${quotes.length - 1}\u0000`;
+  });
+  return masked
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<\/?(?:script|iframe|object|embed|link|meta|base|form)\b[^>]*>/gi, '')
+    .replace(/[/\s]on\w+\s*=\s*(?:\u0000\d+\u0000|[^\s>]+)/gi, '')
+    .replace(/\u0000(\d+)\u0000/g, (m, i) => quotes[+i]);
+}
+
 export function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -49,7 +73,7 @@ export function renderMarkdown(text, opts = {}) {
   const src = raw.replace(/^> \[!(\w+)\][ \t]*([^\n]*)\n((?:>[^\n]*\n?)*)/gm, (m, type, title, body) => {
     const inner = renderMarkdown(body.replace(/^> ?/gm, ''), opts);
     const label = title.trim() || type.charAt(0).toUpperCase() + type.slice(1);
-    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${label}</div>${inner}</div>`);
+    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${esc(label)}</div>${inner}</div>`);
     return `\u0000CALLOUT${callouts.length - 1}\u0000`;
   });
   // Fenced code blocks are extracted up front into placeholders so their real
@@ -61,15 +85,27 @@ export function renderMarkdown(text, opts = {}) {
     codeBlocks.push({ lang, code: code.trim() });
     return `\u0000CODE${codeBlocks.length - 1}\u0000`;
   });
-  let html = esc(fenced);
-  // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref
+  // Raw <figure>/<img> HTML (task outputs embed Wikimedia + ingested photos)
+  // is extracted before esc() — after code fences, so img strings inside code
+  // stay code — with stripUnsafeHtml (scripts, active tags, on* handlers);
+  // content is a local vault + ingested web docs, not arbitrary user HTML.
+  const htmlBlocks = [];
+  const withImgs = fenced.replace(/<figure>[\s\S]*?<\/figure>|<img\b[^>]*>/gi, (m) => {
+    htmlBlocks.push(stripUnsafeHtml(m));
+    return `\u0000HTML${htmlBlocks.length - 1}\u0000`;
+  });
+  let html = esc(withImgs);
+  // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref.
+  // data-wiki keeps the link TARGET (the label may be the display text, as in
+  // [[Retinoblastoma Protein|Rb]]) so tooltip/modal lookups don't key on the
+  // visible text. The source is already esc()'d above, so labels are attr-safe.
   html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, display) => {
     const label = target.trim();
     const href = opts.wikiHref ? opts.wikiHref(label) : null;
     const text = (display || label).trim();
     return href
-      ? `<a class="wikilink" href="${href}" target="_blank" rel="noopener">${text}</a>`
-      : `<span class="wikilink">${text}</span>`;
+      ? `<a class="wikilink" data-wiki="${label}" href="${href}" target="_blank" rel="noopener">${text}</a>`
+      : `<span class="wikilink" data-wiki="${label}">${text}</span>`;
   });
   // Inline code: `...`
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
@@ -135,8 +171,16 @@ export function renderMarkdown(text, opts = {}) {
     };
     return renderNodes(root.children);
   });
-  // Links: [text](url)
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  // Images: ![alt](url) — must run before the link regex or the leading "!" survives.
+  // Optional title arrives as &quot;…&quot; (text is already esc()'d); drop it.
+  html = html.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+(?:&quot;[\s\S]*?&quot;|"[^"]*"))?\)/g,
+    '<img src="$2" alt="$1" loading="lazy">');
+  // Links: [text](url). Script-ish schemes render inert — ingested docs and
+  // model output are not trusted to supply clickable URLs.
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, text, url) =>
+    /^(?:javascript|vbscript|data):/i.test(url)
+      ? text
+      : `<a href="${url}" target="_blank" rel="noopener">${text}</a>`);
   // Tables: simple pipe tables — wrapped in .tbl-wrap so wide tables scroll
   // horizontally, and tagged .md-table for vertical-expansion CSS.  A
   // <colgroup> pins column 1 to a compact width (170px) so long entity /
@@ -156,24 +200,58 @@ export function renderMarkdown(text, opts = {}) {
     const colgroup = `<colgroup><col style="width:170px">${'<col style="width:350px">'.repeat(Math.max(0, nCols - 1))}</colgroup>`;
     return `<div class="tbl-wrap"><table class="md-table">${colgroup}<thead><tr>${hCells}</tr></thead><tbody>${rows}</tbody></table></div>`;
   });
-  // Paragraphs: double newlines
-  html = html.replace(/\n\n+/g, '</p><p>');
-  // Single newlines to <br>
-  html = html.replace(/\n/g, '<br>');
-  // Wrap in paragraph
-  html = '<p>' + html + '</p>';
-  // Clean up empty paragraphs
-  html = html.replace(/<p>\s*<\/p>/g, '');
-  // Drop trailing line breaks at the end of paragraphs
-  html = html.replace(/(<br>)+<\/p>/g, '</p>');
-  // Merge adjacent blockquotes
-  html = html.replace(/<\/blockquote>\s*<blockquote>/g, '<br>');
+  // Block assembly + heading-scoped indent: force blank lines around headings
+  // and flush blocks so every segment classifies cleanly, then wrap text
+  // segments (prose, lists, blockquotes) with the current heading's indent
+  // (h3/h4 → 1/2 steps of 1.25em; h1/h2 flush). Images indent at the figure
+  // level (margin-left on <figure>/<img> itself); tables, code, callouts and
+  // hr stay full-width. Callout bodies re-enter at depth 0 (recursive
+  // renderMarkdown above).
+  // ponytail: an image sharing a line with prose indents with the paragraph;
+  // keep images on their own line for figure-level indent.
+  html = html.replace(/<\/blockquote>[ \t]*\n[ \t]*<blockquote>/g, '<br>');
+  html = html
+    .replace(/\n*(<h([1-4])[^>]*>[\s\S]*?<\/h\2>)\n*/g, '\n\n$1\n\n')
+    .replace(/\n*(\u0000(?:CODE|CALLOUT|HTML)\d+\u0000|<div class="tbl-wrap">[\s\S]*?<\/div>|<hr>)\n*/g, '\n\n$1\n\n');
+  const STEP = 1.25;
+  const indentTag = (block, css) => block.replace(/<(figure|img)\b([^>]*)>/, (m, tag, attrs) =>
+    /style="/.test(attrs)
+      ? `<${tag}${attrs.replace('style="', `style="${css};`)}>`
+      : `<${tag}${attrs} style="${css}">`);
+  let depth = 0;
+  html = html.split(/\n\n+/).map((seg) => {
+    const s = seg.trim();
+    if (!s) return '';
+    const h = s.match(/^<h([1-4])([^>]*)>[\s\S]*?<\/h\1>$/);
+    if (h) {
+      depth = Math.max(0, +h[1] - 2);
+      const pad = depth ? ` style="margin-left:${depth * STEP}em"` : '';
+      return s.replace(/^<h([1-4])([^>]*)>/, (m, lvl, attrs) => `<h${lvl}${attrs}${pad}>`);
+    }
+    const pad = depth ? `margin-left:${depth * STEP}em` : '';
+    // Raw <figure>/<img> HTML: indent the tag itself (restore is in-scope here).
+    const hp = s.match(/^\u0000HTML(\d+)\u0000$/);
+    if (hp) {
+      const raw = htmlBlocks[+hp[1]];
+      return pad ? indentTag(raw, pad) : raw;
+    }
+    if (/^\u0000(?:CODE|CALLOUT)\d+\u0000$/.test(s)
+        || s.startsWith('<div class="tbl-wrap">') || s === '<hr>') return s;
+    // Standalone markdown image: indent the <img>/<figure> tag, not a wrapper.
+    if (/^(?:<figure\b[\s\S]*<\/figure>|<img\b[^>]*>)$/.test(s)) {
+      return pad ? indentTag(s, pad) : s;
+    }
+    const body = s.replace(/\n/g, '<br>');
+    return /<(?:ul|ol|blockquote|div|pre|figure|table)\b/.test(s)
+      ? `<div class="md-seg" style="margin:8px 0${pad ? ';' + pad : ''}">${body}</div>`
+      : `<p${pad ? ` style="${pad}"` : ''}>${body}</p>`;
+  }).join('');
   // Tidy stray line breaks around block-level lists
   html = html.replace(/(<br>)+(?=<ul>|<ol>)/g, '');
   html = html.replace(/(<\/(?:ul|ol)>)(<br>)+/g, '$1');
   // Strip redundant <br> around all block-level elements (headings, hr,
   // lists, callouts, quotes...) — block margins provide the spacing.
-  const BLOCK = '(?:h[1-4]|ul|ol|table|pre|blockquote|div)';
+  const BLOCK = '(?:h[1-4]|ul|ol|table|pre|blockquote|div|figure)';
   html = html.replace(new RegExp(`(<br>)+(?=<${BLOCK}[ >]|<hr>)`, 'g'), '');
   html = html.replace(new RegExp(`(</${BLOCK}>|<hr>)((<br>)+)`, 'g'), '$1');
   // Restore extracted code blocks (unwrap placeholder-only paragraphs first).
@@ -197,6 +275,9 @@ export function renderMarkdown(text, opts = {}) {
   // Restore extracted callouts (unwrap placeholder-only paragraphs first)
   html = html.replace(/<p>\s*\u0000CALLOUT(\d+)\u0000\s*<\/p>/g, '\u0000CALLOUT$1\u0000');
   html = html.replace(/\u0000CALLOUT(\d+)\u0000/g, (m, i) => callouts[i]);
+  // Restore extracted <figure>/<img> HTML (unwrap placeholder-only paragraphs)
+  html = html.replace(/<p>\s*\u0000HTML(\d+)\u0000\s*<\/p>/g, '\u0000HTML$1\u0000');
+  html = html.replace(/\u0000HTML(\d+)\u0000/g, (m, i) => htmlBlocks[i]);
   return html;
 }
 
@@ -253,7 +334,7 @@ function ensureMermaidStyles() {
 
 async function getMermaid() {
   if (mermaidLib) return mermaidLib;
-  const mod = await import(MERMAID_CDN);
+  const mod = await import(/* @vite-ignore */ MERMAID_CDN);
   mermaidLib = mod.default;
   return mermaidLib;
 }
@@ -614,4 +695,21 @@ export async function enhanceMermaid(root = document, opts = {}) {
     }
   }
   return done;
+}
+
+// ponytail: self-check — `node web/components/markdown.js`. One smoke assert
+// per indent rule; delete once the nesting looks right in the UI.
+if (typeof process !== 'undefined' && import.meta.url.endsWith(process.argv[1]?.replace(/\\/g, '/').split('/').pop() || '\u0000')) {
+  const fail = (m) => { console.error('self-check FAIL:', m); process.exit(1); };
+  const out = renderMarkdown(
+    '# T\n\n## H2\n\npara2\n\n### H3\n\npara3\n\n![x](y.png)\n\n#### H4\n\n- li4\n\n| a |\n| - |\n| 1 |\n\n```\ncode\n```');
+  if (/<h2[^>]*style/.test(out)) fail('h2 should be flush');
+  if (!/<h3[^>]*style="margin-left:1\.25em"/.test(out)) fail('h3 one step');
+  if (!/<h4[^>]*style="margin-left:2\.5em"/.test(out)) fail('h4 two steps');
+  if (!/<p style="margin-left:1\.25em">para3/.test(out)) fail('para under h3');
+  if (!/<img src="y\.png"[^>]*style="margin-left:1\.25em"/.test(out)) fail('image under h3 indents at tag level');
+  if (!/margin-left:2\.5em[^>]*><ul><li>li4/.test(out)) fail('list under h4');
+  if (/<div class="tbl-wrap">[^]*?<p style/.test(out.split('<div class="tbl-wrap">')[1]?.slice(0, 200) || '')) fail('table not flushed');
+  if (/margin-left/.test((out.match(/<pre>[\s\S]*?<\/pre>/) || [''])[0])) fail('code not flushed');
+  console.log('self-check OK');
 }

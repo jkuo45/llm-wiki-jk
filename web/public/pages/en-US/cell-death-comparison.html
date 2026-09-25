@@ -34,7 +34,7 @@
   .toolbar .count{ font-family:var(--mono); font-size:11.5px; color:var(--mute); margin-left:auto; white-space:nowrap; }
   /* full-length table: horizontal scroll only, vertical grows with the page */
   .table-wrap{ margin-top:10px; overflow-x:auto; }
-  .table-wrap table{ font-size:13px; min-width:1380px; border-collapse:separate; border-spacing:0; }
+    .table-wrap table{ font-size:13px; min-width:1560px; border-collapse:separate; border-spacing:0; }
   .table-wrap tr:last-child th{ border-bottom:0; }
   .table-wrap thead th{ position:sticky; top:0; z-index:4; }
   .table-wrap thead th:first-child{ z-index:5; }
@@ -170,7 +170,7 @@
             <option value="rbc">RBCs (eryptosis)</option>
             <option value="neutrophil">Neutrophils (NETosis)</option>
           </select>
-          <span class="count" id="count">10 programs · 11 features</span>
+          <span class="count" id="count">10 programs · 13 features</span>
         </div>
       </div>
 
@@ -190,6 +190,8 @@
               <th scope="col">Immune</th>
               <th scope="col">Blocked by</th>
               <th scope="col">Most vulnerable / resistant</th>
+              <th scope="col">Share of deaths (est.)</th>
+              <th scope="col">Notes</th>
             </tr>
           </thead>
           <tbody>
@@ -206,6 +208,8 @@
               <td data-hl="">silent, Annexin V+</td>
               <td data-hl="">z-VAD-FMK, Bcl-2</td>
               <td data-hl=""><b>↑</b> lymphocytes, neurons, cardiomyocytes (AICD, developmental pruning, MI) — <b>↓/n-a</b> RBCs, platelets (anucleate)</td>
+              <td data-hl=""><b>~90%</b> of all cell death (steady-state default)</td>
+              <td data-hl="">default for normal turnover (gut, blood, development); ~10⁹–10¹¹ cells/day → full-body turnover ≈ 248 days (~8 months) at ~150B/day</td>
             </tr>
             <tr data-program="parthanatos">
               <th scope="row"><b>Parthanatos</b><span class="sub">regulated necrosis — PARP1 · AIF · MIF</span></th>
@@ -220,6 +224,8 @@
               <td data-hl="energy lytic">inflammatory via NAD⁺ collapse + DAMPs*</td>
               <td data-hl="dna energy">PARP inhibitors, AIF blockade, NAD⁺ preservation*</td>
               <td data-hl="dna energy"><b>↑</b> cortical neurons, astrocytes (stroke/MCAO) — <b>↓/n-a</b> RBCs (no nucleus), lymphocytes</td>
+              <td data-hl="">~5% of non-apoptotic* (≈0.5% of all)</td>
+              <td data-hl="">niche — ischemic neurons mainly (stroke); sex-split vs apoptosis per paradigm cells</td>
             </tr>
             <tr data-program="necrosis">
               <th scope="row"><b>Necrosis</b><span class="sub">accidental · passive</span></th>
@@ -234,6 +240,8 @@
               <td data-hl="lytic">highly inflammatory: HMGB1, ATP, uric acid → TLR / RAGE / NLRP3</td>
               <td data-hl="">none specific</td>
               <td data-hl="lytic"><b>↑</b> all cells under severe ATP loss; esp. cardiomyocytes, neurons, renal tubule — <b>↓</b> none (RBCs lyse as hemolysis instead)</td>
+              <td data-hl="">~40–50% of non-apoptotic* (≈4–5% of all)</td>
+              <td data-hl="">the big non-apoptotic bucket: secondary necrosis of uncleared apoptotics + injury; small at homeostasis, spikes with trauma</td>
             </tr>
             <tr data-program="necroptosis">
               <th scope="row"><b>Necroptosis</b><span class="sub">regulated necrosis</span></th>
@@ -248,6 +256,8 @@
               <td data-hl="lytic">inflammatory by design, DAMP release</td>
               <td data-hl="">Necrostatin-1, GSK'872, necrosulfonamide (human MLKL only — inactive on mouse MLKL; RIPK1 / RIPK3 / human-MLKL respectively)</td>
               <td data-hl="lytic"><b>↑</b> intestinal epithelium, renal tubule, macrophages — <b>↓/n-a</b> RBCs (no RIPK3/MLKL), resting lymphocytes</td>
+              <td data-hl="">~10–15% of non-apoptotic* (≈1–1.5% of all)</td>
+              <td data-hl="">infection, I/R, gut epithelium</td>
             </tr>
             <tr data-program="ferroptosis">
               <th scope="row"><b>Ferroptosis</b><span class="sub">iron · lipid</span></th>
@@ -262,6 +272,8 @@
               <td data-hl="iron lytic">inflammatory lipid MDA / 4-HNE</td>
               <td data-hl="iron">Ferrostatin-1, liproxstatin-1, deferoxamine</td>
               <td data-hl="iron"><b>↑</b> renal proximal tubule, neurons, hepatocytes, cardiomyocytes — <b>↓</b> glycolytic / low-PUFA cells*</td>
+              <td data-hl="">~5–10% of non-apoptotic* (≈0.5–1% of all)</td>
+              <td data-hl="">rising fast in I/R, neurodegeneration, kidney; near-zero in pure infection</td>
             </tr>
             <tr data-program="autophagy">
               <th scope="row"><b>Autophagy</b><span class="sub">survival process; death only if ATG-dependent (NCCD criteria)</span></th>
@@ -276,6 +288,8 @@
               <td data-hl="">protective, clears DAMP sources</td>
               <td data-hl="">death requires rescue by ≥2 ATG interventions (e.g. ATG5/7 KO + 3-MA/CQ); LC3/p62 alone = flux, not death; induced by rapamycin</td>
               <td data-hl=""><b>↑</b> skeletal muscle, liver, neurons (TFEB/PINK1-Parkin dependent) — <b>↓/n-a</b> RBCs (no organelles)</td>
+              <td data-hl="">~5% of non-apoptotic* (≈0.5% of all)</td>
+              <td data-hl="">rare as a pure death mode — mostly a survival process (NCCD criteria)</td>
             </tr>
             <tr data-program="pyroptosis">
               <th scope="row"><b>Pyroptosis</b><span class="sub">inflammasome · lytic</span></th>
@@ -290,6 +304,8 @@
               <td data-hl="lytic">highly inflammatory: IL-1β / IL-18 + HMGB1, IL-1α, mtDNA via pores</td>
               <td data-hl="lytic">NLRP3 inhibitors, Caspase-1 inhibitors, disulfiram / GSDMD blockade*</td>
               <td data-hl="lytic"><b>↑</b> macrophages, microglia, dendritic cells, intestinal epithelium — <b>↓/n-a</b> RBCs, platelets</td>
+              <td data-hl="">~10–15% of non-apoptotic* (≈1–1.5% of all)</td>
+              <td data-hl="">intracellular infection + inflammasome-driven sterile inflammation; dominates in sepsis share-wise</td>
             </tr>
             <tr data-program="panoptosis">
               <th scope="row"><b>PANoptosis</b><span class="sub">all-in-one · ZBP1 · non-redundant</span></th>
@@ -304,6 +320,8 @@
               <td data-hl="lytic">maximal inflammatory: IL-1β / IL-18 + DAMP storm from all three arms</td>
               <td data-hl="">upstream: ZBP1 / RIPK3 targeting; combined multi-arm blockade</td>
               <td data-hl="lytic"><b>↑</b> macrophages, lung epithelium in severe infection — <b>↓/n-a</b> RBCs, platelets</td>
+              <td data-hl="">~2–5% of non-apoptotic* (≈0.2–0.5% of all)</td>
+              <td data-hl="">severe infection only; overlaps / double-counts the pyroptosis + necroptosis + apoptosis arms</td>
             </tr>
             <tr data-program="eryptosis">
               <th scope="row"><b>Eryptosis</b><span class="sub">RBC · apoptosis-like, anucleate</span></th>
@@ -318,6 +336,8 @@
               <td data-hl="">silent, anti-inflammatory clearance (like apoptosis) unless massive hemolysis follows</td>
               <td data-hl="">Ca²⁺ chelation, calpain inhibitors, erythropoietin*</td>
               <td data-hl=""><b>↑</b> RBCs only (Ca²⁺/oxidative/osmotic stress, CKD, sepsis) — <b>n/a</b> all nucleated cells</td>
+              <td data-hl="">~1–3% of non-apoptotic* (RBC-denominator; ≈0.1–0.3% of all)</td>
+              <td data-hl="">denominator is RBCs only; rises in CKD, sepsis, oxidant/drug hemolysis</td>
             </tr>
             <tr data-program="netosis">
               <th scope="row"><b>NETosis</b><span class="sub">neutrophil · PAD4 · NET extrusion</span></th>
@@ -332,6 +352,8 @@
               <td data-hl="lytic">pro-inflammatory and pro-thrombotic: NET DNA/histones act as DAMPs</td>
               <td data-hl="lytic dna">PAD4 inhibitors (Cl-amidine), NE/MPO inhibition, DNase digestion of NETs</td>
               <td data-hl="lytic"><b>↑</b> neutrophils only (pathogens, immune complexes); vital form preserves membrane — <b>n/a</b> other leukocytes, RBCs</td>
+              <td data-hl="">~1–3% of non-apoptotic* (neutrophil-denominator; ≈0.1–0.3% of all)</td>
+              <td data-hl="">denominator is neutrophils only; spikes in sepsis, COVID, autoimmune thrombosis</td>
             </tr>
           </tbody>
         </table>
@@ -339,7 +361,8 @@
       <footer class="legend">
         <p class="tldr">Across ischemia–reperfusion models, female cells default to caspase-dependent apoptosis; male cells to PARP1–AIF parthanatos; the lytic and iron arms add context-specific exceptions.
           <span class="scope" id="scope-note">Scope: the cell-autonomous XX/XY split is established in murine ischemia–reperfusion models (MCAO stroke, neonatal HI, renal IRI) and XX/XY cultures; one human correlate — post-MI autopsy shows a ~10× higher apoptotic index in men (Biondi-Zoccai 2005). Direct human validation of the PARP1/AIF arm is still lacking. Reversal: under mitochondrial stress, fibroblasts flip the pattern — XY males show higher classical apoptosis while XX females resist via autophagy. Cell-type selector (neurons / macrophages-microglia / fibroblasts / RBCs / neutrophils) swaps Male/Female cells from per-type data (strong: neuron apoptosis/parthanatos, macrophage pyroptosis; 9 single-study; 38 no-direct-data, shown muted-italic) — "all" restores the blended defaults. Eryptosis (RBC, anucleate) and NETosis (neutrophil) are blood-cell-specific and outside the XX/XY paradigm — no cell-autonomous sex split established.</span></p>
-        <p><b>Legend</b> — <span class="sw"></span> gold cells: the central sex paradigm (XX → caspase-dependent apoptosis; XY → PARP1/AIF parthanatos). Pills: <span class="pill reg">regulated</span> <span class="pill acc">accidental</span> <span class="pill lytic">lytic</span> <span class="pill silent">non-lytic</span>. <b>*</b> = inferred from cross-program biology, not directly demonstrated in the cited sex-difference studies.</p>
+        <p><b>Legend</b> — <span class="sw"></span> gold cells: the central sex paradigm (XX → caspase-dependent apoptosis; XY → PARP1/AIF parthanatos). Pills: <span class="pill reg">regulated</span> <span class="pill acc">accidental</span> <span class="pill lytic">lytic</span> <span class="pill silent">non-lytic</span>.           <b>*</b> = inferred from cross-program biology, not directly demonstrated in the cited sex-difference studies.
+          Share column: estimates only — apoptosis ≈ 90% of all cell death in a healthy adult (steady-state turnover); the other percentages are shares of the remaining ~10% (non-apoptotic), with the ≈% of-all figure in parentheses. Blends physiology + pathology; no in-vivo census exists. PANoptosis overlaps the pyroptosis/necroptosis/apoptosis arms (double-counts); NETosis/eryptosis use cell-type-restricted denominators.</p>
       </footer>
     
     </section>
@@ -353,7 +376,6 @@
           <option value="1" selected>1× speed</option>
           <option value="2">2× speed</option>
         </select>
-        <button id="shareAnim" title="Copy reader link that opens this animations tab">🔗 Share</button>
         <span class="hint">12 s time-lapse loop · T+ clock = biological time · scroll for all 10 · 🧬 opens regulatory depth</span>
       </div>
     </div>
@@ -406,7 +428,7 @@
         }
       });
     }
-    count.textContent = vis + ' programs · 11 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
+    count.textContent = vis + ' programs · 13 features' + (needle ? ' · “' + stripe(needle) + '”' : '');
 
       // merged page: mirror the table filter onto animation cards
       document.querySelectorAll('.cell-card').forEach(function(c){
@@ -566,7 +588,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
    bioNote:'⏱ ≈3 h single-cell execution · 12 s loop (time-lapse)',
    phases:[[0,0,'death signal — caspase-8/9 ignite'],[2.5,30,'cell shrinks · chromatin condenses'],[5,75,'membrane blebbing — intact'],[7.5,140,'apoptotic bodies pinch off'],[10,170,'parcels ready for engulfment']],
-   steps:['Initiation — caspase-8/9 ignite caspase-3; PS starts flipping out (Annexin V+).','Cell shrinks; chromatin condenses then fragments into a DNA ladder.','Membrane blebs but stays sealed — PS tint marks the eat-me signal, no rupture.','Splits into sealed apoptotic bodies — no debris cloud; engulfed silently.'],
+   steps:['Initiation — caspase-8/9 ignite caspase-3; PS starts flipping out (Annexin V+).','<strong>Cell shrinks</strong>; chromatin condenses then fragments into a DNA ladder.','Membrane blebs but stays sealed — PS tint marks the eat-me signal, no rupture.','Splits into sealed <strong>apoptotic bodies</strong> — no debris cloud; engulfed silently.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
@@ -578,7 +600,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈8 h MNNG-type course · 12 s loop (time-lapse)',
    phases:[[0,0,'heavy DNA damage — PARP-1 overactivates'],[3,15,'PAR chains flood · NAD⁺ drains (cell dims)'],[5.5,120,'AIF leaves mitochondria → nucleus'],[8,300,'large-scale (~50 kbp) clumping — no ladder'],[10.3,450,'PS flips out · membrane leaks, no swelling']],
-   steps:['DNA damage hyperactivates PARP-1; PAR bursts from the nucleus.','NAD⁺/ATP drains away — whole-cell light dims; PAR binds AIF on mitochondria.','AIF streams into the nucleus; MIF nuclease follows and cuts DNA.','Nucleus clumps into ~50-kbp fragments (no ladder); PS flips out, slight leak — never swells or bursts.'],
+   steps:['DNA damage hyperactivates PARP-1; PAR bursts from the nucleus.','NAD⁺/ATP drains away — whole-cell light dims; PAR binds AIF on mitochondria.','AIF streams into the nucleus; MIF nuclease follows and cuts DNA.','Nucleus clumps into <strong>~50-kbp fragments</strong> (no ladder); PS flips out, slight leak — <strong>never swells</strong> or bursts.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -591,7 +613,7 @@ const PROGRAMS = [
    pills:'<span class="pill acc">accidental</span>',
    bioNote:'⏱ ≈20 min — fastest of the ten · 12 s loop (time-lapse)',
    phases:[[0,0,'injury — Na⁺/K⁺ pumps fail'],[2.5,4,'oncosis — water floods in, cell swells'],[5,9,'organelles swell · lysosomes leak'],[7,14,'membrane ruptures'],[8,18,'DAMP storm — HMGB1, ATP, uric acid']],
-   steps:['Na⁺/K⁺ pumps fail — oncosis balloons the cell; mitochondria swell and pop, lysosomes leak.','Membrane tears open at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
+   steps:['Na⁺/K⁺ pumps fail — <strong>oncosis balloons the cell</strong>; mitochondria swell and pop, lysosomes leak.','<strong>Membrane tears open</strong> at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
@@ -602,7 +624,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈4 h TSZ course (L929 ≈1 h → HT-29 ≈6 h) · 12 s loop (time-lapse)',
    phases:[[0,0,'TNFα signal — caspase-8 blocked'],[2.5,60,'necrosome assembles (RIPK1/RIPK3)'],[5,120,'p-MLKL rings punch membrane pores'],[7,180,'swelling through pores → rupture'],[8.5,220,'DAMP release + NLRP3 handoff']],
-   steps:['TNFα signal with caspase-8 blocked — RIPK1/RIPK3 necrosome speck assembles.','RIPK3 phosphorylates MLKL; MLKL oligomers punch membrane pores.','Ion influx swells the cell through the pore zone.','Rupture + DAMP release with NLRP3 handoff; blocked by necrostatin-1/GSK\'872 in real assays.'],
+   steps:['TNFα signal with caspase-8 blocked — RIPK1/RIPK3 necrosome speck assembles.','RIPK3 phosphorylates MLKL; MLKL oligomers punch membrane pores.','Ion influx <strong>swells the cell</strong> through the pore zone.','<strong>Rupture</strong> + DAMP release with NLRP3 handoff; blocked by necrostatin-1/GSK\'872 in real assays.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Mitochondrion', pos:()=>[1.05,-0.4,0.5], dx:36, dy:12},
@@ -613,7 +635,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈8 h erastin-type course (RSL3 ≈4–5 h) · 12 s loop (time-lapse)',
    phases:[[0,0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,120,'Fe²⁺ sparks · Fenton ROS'],[5.5,240,'lipid peroxidation spreads'],[8,360,'mitochondria shrink and condense'],[10,450,'membrane ruptures at peroxidized patch']],
-   steps:['System Xc⁻ → GSH → GPX4 fails (FSP1 backup overwhelmed) — antioxidant shield drops.','Labile Fe²⁺ drives Fenton ROS; ACSL4-loaded PUFA phospholipids peroxidize.','Lipid-ROS patches creep across the membrane (C11-BODIPY signal); mitochondria shrivel and condense.','Nucleus stays intact — no fragmentation; late rupture at the peroxidized patch.'],
+   steps:['System Xc⁻ → GSH → GPX4 fails (FSP1 backup overwhelmed) — antioxidant shield drops.','Labile Fe²⁺ drives Fenton ROS; ACSL4-loaded PUFA phospholipids peroxidize.','Lipid-ROS patches creep across the membrane (C11-BODIPY signal); <strong>mitochondria shrivel and condense</strong>.','Nucleus stays intact — <strong>no fragmentation</strong>; late rupture at the peroxidized patch.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -625,7 +647,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈2 h starvation flux · one vesicle ≈10 min · 12 s loop (time-lapse)',
    phases:[[0,0,'starvation — mTORC1 off, AMPK on'],[2.5,15,'phagophore crescents nucleate'],[5,35,'cargo engulfed — autophagosomes close'],[7.5,60,'fusion with lysosome → degrade'],[10,110,'recovery — death only if ATG blockade rescues']],
-   steps:['Starvation flips the switch — mTORC1 off, AMPK on; ULK1–FIP200 + Beclin-1–Vps34 nucleate.','Phagophore crescents grow, cup damaged cargo and close (LC3 lipidation).','Double-membrane autophagosomes ferry cargo to the lysosome.','Fusion flash — cargo degraded and recycled; cell survives unless ATG blockade rescues — score as autophagy-dependent death only then.'],
+   steps:['Starvation flips the switch — mTORC1 off, AMPK on; ULK1–FIP200 + Beclin-1–Vps34 nucleate.','Phagophore crescents grow, cup damaged cargo and close (LC3 lipidation).','<strong>Double-membrane autophagosomes</strong> ferry cargo to the lysosome.','Fusion flash — cargo degraded and recycled; cell survives unless ATG blockade rescues — score as autophagy-dependent death only then.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.7,-0.8,0]},
@@ -637,7 +659,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈45 min stimulus-to-rupture · 12 s loop (time-lapse)',
    phases:[[0,0,'PRR senses danger — inflammasome speck'],[2.5,8,'caspase-1 ignites — GSDMD cleaved'],[5,18,'10–20 nm pores ring the membrane'],[7,30,'IL-1β/IL-18 jets + swelling'],[8.5,40,'rupture — cytokine storm']],
-   steps:['PRR senses danger — inflammasome speck assembles; caspase-1 ignites, GSDMD cleaved.','GSDMD-N 10–20 nm pore-rings stud the membrane.','IL-1β/IL-18 jets fountain through the pores as the cell swells.','Rupture — cytokine storm. (Non-canonical caspase-4/5/11 and caspase-3/GSDME arms converge here.)'],
+   steps:['PRR senses danger — inflammasome speck assembles; caspase-1 ignites, GSDMD cleaved.','GSDMD-N <strong>10–20 nm pore-rings</strong> stud the membrane.','IL-1β/IL-18 jets fountain through the pores as the cell <strong>swells</strong>.','Rupture — cytokine storm. (Non-canonical caspase-4/5/11 and caspase-3/GSDME arms converge here.)'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -649,7 +671,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈12 h infection course — slowest of the ten · 12 s loop (time-lapse)',
    phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
-   steps:['ZBP1 senses (or TAK1 lost) — PANoptosome assembles: RIPK1/RIPK3/caspase-8/caspase-1 + ASC/FADD.','Three arms fire in parallel: GSDMD pores + caspase-3 activity + pMLKL.','Hybrid morphology — pores, blebs and condensation happen simultaneously.','Total rupture + DAMP/cytokine storm; single-arm drugs (z-VAD, necrostatin-1) fail — needs multi-arm blockade.'],
+   steps:['ZBP1 senses (or TAK1 lost) — PANoptosome assembles: RIPK1/RIPK3/caspase-8/caspase-1 + ASC/FADD.','Three arms fire in parallel: GSDMD pores + caspase-3 activity + pMLKL.','<strong>Hybrid morphology — pores, blebs and condensation happen simultaneously</strong>.','Total rupture + DAMP/cytokine storm; <strong>single-arm drugs (z-VAD, necrostatin-1) fail</strong> — needs multi-arm blockade.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -661,7 +683,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
    bioNote:'\u23f1 \u2248 hours (oxidative/osmotic/energy-depletion triggers) \u00b7 12 s loop (time-lapse)',
    phases:[[0,0,'trigger — Ca2+ influx, energy depletion'],[2.5,30,'cell shrinks · Ca2+ floods in'],[5,90,'PS flips out · membrane blebs'],[8,150,'shrunken PS-positive remnant — clearance'],[10.5,180,'engulfed silently — no rupture']],
-   steps:['Discocyte shrinks — Ca²⁺ floods in (oxidative/osmotic/energy-depletion/ceramide trigger); anucleate, no mitochondria.','Membrane blebs; PS-flip tint marks the eat-me signal (Annexin V+).','PS-positive remnant cleared by macrophages — hemolysis only if overwhelming.'],
+   steps:['Discocyte <strong>shrinks</strong> — Ca²⁺ floods in (oxidative/osmotic/energy-depletion/ceramide trigger); anucleate, no mitochondria.','Membrane blebs; <strong>PS-flip tint marks the eat-me signal</strong> (Annexin V+).','PS-positive remnant cleared by macrophages — hemolysis only if overwhelming.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Ca2+ influx', pos:()=>[-0.2,0.9,0.4], show:(R,t)=>t>=1.5&&t<9},
@@ -671,7 +693,7 @@ const PROGRAMS = [
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'\u23f1 \u22482-4 h suicidal (vital form \u2248 minutes, membrane kept) \u00b7 12 s loop (time-lapse)',
    phases:[[0,0,'pathogen/LPS — NADPH oxidase ROS burst'],[2.5,30,'PAD4 activates — histones citrullinated'],[5,90,'chromatin decondenses — nucleus swells'],[7.5,150,'envelope breaks — NETs extrude'],[10,210,'DNA web + elastase/MPO — pathogen trap']],
-   steps:['Pathogen/LPS trigger — NADPH-oxidase ROS burst; PAD4 citrullinates histones (cit-H3).','Lobed nucleus decondenses, swells and fills the cell — no apoptotic ladder.','Nuclear envelope breaks down — chromatin mixes with elastase/MPO granules.','Suicidal form (shown): membrane ruptures and the DNA-histone web fountains out; vital form keeps its membrane and releases NETs in minutes.'],
+   steps:['Pathogen/LPS trigger — NADPH-oxidase ROS burst; PAD4 citrullinates histones (cit-H3).','Lobed nucleus <strong>decondenses</strong>, swells and fills the cell — no apoptotic ladder.','Nuclear envelope breaks down — chromatin mixes with elastase/MPO granules.','Suicidal form (shown): membrane ruptures and the <strong>DNA-histone web fountains out</strong>; vital form keeps its membrane and releases NETs in minutes.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Lobed nucleus (decondensing)', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
@@ -1166,19 +1188,6 @@ playAll.onclick = ()=>{ running=!running; syncPlayBtn(); };
 document.getElementById('speed').onchange = e=>{ speed = parseFloat(e.target.value); };
 syncPlayBtn();
 if (!running) playAll.textContent = '▶ Play all (reduced motion)';
-// Share button: copies the graph-reader deep link so it opens inside the reader
-document.getElementById('shareAnim').onclick = async (e)=>{
-  const btn = e.currentTarget;
-  const base = /^https?:/.test(location.protocol) ? location.origin : 'https://graph.johnnykuo.com';
-  const url = base + '/#reader=cell-death-comparison&section=animations';
-  const done = (msg)=>{ const o = btn.textContent; btn.textContent = msg; setTimeout(()=>{ btn.textContent = o; }, 1600); };
-  try {
-    if (navigator.share) { await navigator.share({title: document.title, url}); return; }
-    throw 0;
-  } catch(_){ /* fall through to clipboard */ }
-  try { await navigator.clipboard.writeText(url); done('✓ Copied'); }
-  catch(_){ location.hash = '#animations'; done(url); }
-};
 </script>
 </body>
 </html>

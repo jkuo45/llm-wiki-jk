@@ -3,7 +3,7 @@ title: Adrenochrome index
 aliases: []
 description: Index of wiki notes for adrenochrome
 created: 2026-07-06
-updated: 2026-07-27
+updated: 2026-09-23
 ---
 
 # Adrenochrome
@@ -13,10 +13,34 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 - Relevance Score (1-10) 'entity_relevance_score': High for direct precursors (e.g., [[Epinephrine]]), metabolites (e.g., [[Adrenolutin]]), and central drivers of the oxidative pathway (e.g., [[Oxidative Stress]], [[Myeloperoxidase]]).
 - Sentiment Score (-1, 0, 1) 'entity_sentiment_score': Positive (1) for protective agents (e.g., [[Ascorbic Acid]]), life-saving treatments (e.g., [[EpiPen]]), and encouraged drivers of the adrenochrome pathway (e.g., [[Oxidative Stress]], [[Inflammation]]). Negative (-1) for adverse outcomes unrelated to the desired pathway (e.g., [[Cardiac arrest]], [[Anaphylaxis]]) or impurities. Neutral (0) for laboratory techniques or standard anatomical structures (e.g., [[HPLC]], [[Argon]], [[Lungs]]).
 
+## Documents
+
+| Document | Description |
+| --- | --- |
+| [[_document_ - Adrenochrome (pubchem)\|Adrenochrome]] | Adrenochrome \| C9H9NO3 \| CID 5898 - structure, chemical names, physical |
+| [[_document_ - Aminoguanidine (pubchem)\|Aminoguanidine]] | Aminoguanidine \| CH6N4 \| CID 2146 - structure, chemical names, physical |
+| [[_document_ - Dietary Advanced Glycation End Products and Aging\|Dietary Advanced Glycation End Products and Aging]] | Advanced glycation end products (AGEs) are a heterogeneous, complex group |
+| [[_document_ - Methemoglobin and Methemoglobinemia\|Grok - Methemoglobin  and Methemoglobinemia]] | Grok is a free AI assistant designed by xAI to maximize truth and objectivity. |
+| [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health\|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR): Potential Dietary Contribution to Health]] | NAD+ is a vital molecule that takes part as a redox cofactor in several metabolic reactions besides being used as a substrate in important cellular signaling in regulation pathways for energetic, g... |
+| [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses\|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]] | Nicotinamide riboside (NR) has recently become one of the most studied |
+| [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects\|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects]] | Review of Urolithin A (UA), a gut-microbiota-derived metabolite of ellagitannins, covering its dietary sources, metabolism/bioavailability, pharmacological effects (mitophagy, antioxidant, anti-inf... |
+| [[_document_ - Silver(1+) oxide\|Silver(1+) oxide]] | Silver(1+) oxide \| Ag2H2O \| CID 88641 - structure, chemical names, physical |
+| [[_document_ - The Adrenochrome Pathway\|The Adrenochrome Pathway - Its Potential Significance in Stress Induced Heart]] | 24 The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED Heart disease Stephanie B. Matthews, Royal Gwent Hospital and Anthony K. Campbell, University of Wales College of Medicine ... |
+| [[_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise\|The role of glycation in the pathogenesis of aging and its prevention through]] | Advanced glycation end products (AGEs) are non-enzymatic modifications |
+| [[_document_ - US4501923A - Process for preparing adrenochrome\|US4501923A - Process for preparing adrenochrome]] | A process is described for preparing Adrenochrome comprising oxidizing |
+| [[_document_ - as senotherapeutic agent\|Adrenochrome as a Senotherapeutic Agent — A Mechanistic Hypothesis]] | Research analysis exploring the potential of adrenochrome and aminochromes as senotherapeutic agents, examining both senolytic (ROS-driven selective apoptosis) and senomorphic (SASP modulation) mec... |
+| [[_document_ - formation, chemical stability\|Adrenochrome — Formation, Chemical Stability, and Factors Affecting Cyclization]] | Overview of the chemical mechanism of adrenochrome formation from epinephrine (catechol oxidation, o-quinone formation, intramolecular Michael addition cyclization to indoline-5,6-dione), factors t... |
+| [[_document_ - glycation, enzymatic removal\|Enzymatic Removal and Prevention of Advanced Glycation End Products (AGEs)]] | Overview of the three lines of enzymatic defense against AGE accumulation — prevention via dicarbonyl detoxification (glyoxalase system, PARK7/DJ-1, AKRs/ALDHs), reversal of early-stage glycation (... |
+| [[_document_ - glyco-oxidative modulation\|Adrenochrome Monoaminoguanidine as a Glyco-Oxidative Modulator]] | Analysis of adrenochrome monoaminoguanidine (AMM, S-Adchnon, adrenochrome guanylhydrazone) as a dual-action glyco-oxidative modulator — combining the indoline-dione core of adrenochrome with aminog... |
+| [[_document_ - intermediates, precursor, hemoglobin\|Leuco-Adrenochrome — Chemical Intermediate, Analytical Reference, and Hemoglobin Interactions]] | Overview of leuco-adrenochrome (S-1-methylindoline-3,5,6-triol), the reduced intermediate in epinephrine oxidation to adrenochrome. Covers the chemical pathway, redox cycling, historical context of... |
+| [[_document_ - molecular composition, mechanism\|Grok]] | Grok is a free AI assistant designed by xAI to maximize truth and objectivity. |
+| [[_document_ - neutrophil and erthrocyte\|adrenochrome neutrophil and erthrocyte]] | Grok is a free AI assistant designed by xAI to maximize truth and objectivity. |
+| [[_document_ - neutrophils role in adrenochrome production\|neutrophils role in adrenochrome production]] | Grok is a free AI assistant designed by xAI to maximize truth and objectivity. |
+
 ## Maintenance
 
-- Last updated: 27_July_2026 12:00 PM PDT
-- Total count of entities: 360
+- Last updated: 23_Sep_2026 12:00 PM PDT
+- Total count of entities: 238
 
 | entity                                              |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                                             |
 | :-------------------------------------------------- | :------------------: | :--------------------- | :--------------------: | :--------------------: | :-------------------------------------------------------------------------------------------------------- |
@@ -379,12 +403,38 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[isp-1]]                                           | 12_Jun_2026 10:00 AM | Gene                   |           7            |           1            | Complex III subunit gene linked to longevity.                                                             |
 | [[nuo-6]]                                           | 12_Jun_2026 10:00 AM | Gene                   |           7            |           1            | Complex I subunit gene linked to longevity.                                                               |
 | [[o-quinone]]                                       | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Crucial reactive intermediate in the catecholamine oxidation; positive driver.                            |
-|                                                     |
+
 | [[SASP-Remodeling Aminochrome Complex]] | 13_JULY_2026 12:00 PM PDT | Scientific Concept | 10 | 1 | Emerging concept linking aminochrome/adrenochrome redox state to SASP remodeling in senescence. |
 | [[Redox Optimization]] | 13_JULY_2026 12:00 PM PDT | Scientific Concept | 8 | 1 | Protocol concept for maintaining reducing potential (NAD+/NADH, glutathione) during adrenochrome handling. |
 | [[Redox Battery]] | 13_JULY_2026 12:00 PM PDT | Scientific Concept | 8 | 1 | Conceptual buffering system stabilizing transient adrenochrome in the protocol. |
 | [[Isatin]] | 13_JULY_2026 12:00 PM PDT | Chemical Compound | 7 | 1 | Indole alkaloid and MAO inhibitor structurally related to indolequinones/adrenochrome. |
 | [[Geraldol]] | 13_JULY_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Fisetin-related flavonoid with senolytic and antioxidant properties. |
+
+| [[5,6-Dihydroxyindole]] | 09_Jul_2026 | Uncategorized | 5 | 0 | The reduced indole monomer arising from dopachrome decay; the principal building block of eumelanin and a shared intermediate in neuromelanin formation. |
+| [[Adrenochrome Semiquinone Radical]] | 04_Jul_2026 | Uncategorized | 5 | 0 | The Adrenochrome semiquinone radical is a transient, highly reactive |
+| [[Atrogin-1]] | 04_Jul_2026 | Uncategorized | 5 | 0 | Atrogin-1 (also known as FBXO32 or F-box protein 32) is a muscle-specific |
+| [[CD157]] | 06_Jul_2026 | Uncategorized | 5 | 0 | CD157 (BST-1) is a GPI-anchored ectoenzyme of the ADP-ribosyl cyclase family that catalyzes the conversion of NAD+ to cyclic ADP-ribose (cADPR) and ADP-ribose, functioning as a calcium-mobilizing s... |
+| [[Cross-link Breakers]] | 09_Jul_2026 | Uncategorized | 5 | 0 | Compounds that cleave established advanced glycation end-product (AGE) and protein cross-links; relevant to glyco-oxidative proteostasis and adrenochrome-related protein damage. |
+| [[Cysteinyldopa]] | 09_Jul_2026 | Uncategorized | 5 | 0 | The thiol-adduct of dopaquinone; a major pheomelanin precursor and clinically used melanoma biomarker at the dopamine/melanin branch point. |
+| [[Dopachrome]] | 09_Jul_2026 | Uncategorized | 5 | 0 | The 2-carboxy-indolequinone intermediate formed by cyclization of dopaquinone; a key junction in eumelanin biosynthesis and the catechol-aminechrome redox cascade. |
+| [[Dopaquinone]] | 09_Jul_2026 | Uncategorized | 5 | 0 | The ortho-quinone immediately formed from L-DOPA oxidation by tyrosinase; a central branch-point electrophile in melanogenesis and the aminochrome/neuromelanin redox pathway. |
+| [[Ellagibacter isourolithinifaciens]] | 04_Jul_2026 | Uncategorized | 5 | 0 | Ellagibacter isourolithinifaciens is a human intestinal bacterium |
+| [[Ellagic acid]] | 04_Jul_2026 | Uncategorized | 5 | 0 | Ellagic acid is a natural polyphenolic compound found in numerous |
+| [[Ellagitannins]] | 04_Jul_2026 | Uncategorized | 5 | 0 | Ellagitannins are a diverse class of hydrolyzable tannins present |
+| [[Gordonibacter urolithinfaciens]] | 04_Jul_2026 | Uncategorized | 5 | 0 | Gordonibacter urolithinfaciens is a Gram-positive, anaerobic bacterium |
+| [[Intraperitoneal]] | 07_Jul_2026 | Uncategorized | 5 | 0 | Relating to or administered within the peritoneal cavity; a common route for drug delivery and injection in experimental and clinical medicine. |
+| [[Isourolithin A]] | 09_Jul_2026 | Uncategorized | 5 | 0 | Isourolithin A is a gut-microbial ellagitannin metabolite and isomer of urolithin A, sharing mitophagy-inducing and antioxidant activities. |
+| [[Leukoaminochrome]] | 09_Jul_2026 | Uncategorized | 5 | 0 | The reduced (leuco) cyclized form of the aminochrome semiquinone; the upstream precursor/intermediate in adrenochrome redox cycling and neuromelanin formation. |
+| [[Liposome Encapsulation]] | 07_Jul_2026 | Uncategorized | 5 | 0 | A drug-delivery strategy that entraps therapeutic or diagnostic agents within phospholipid bilayer vesicles (liposomes) to improve solubility, stability, targeting, and pharmacokinetics. |
+| [[MITF]] | 09_Jul_2026 | Uncategorized | 5 | 0 | Microphthalmia-associated transcription factor, a basic helix-loop-helix leucine zipper (bHLH-Zip) master regulator of melanocyte development, melanin biosynthesis, and the MiT/TFE lysosomal gene n... |
+| [[MuRF1]] | 04_Jul_2026 | Uncategorized | 5 | 0 | MuRF1 (Muscle RING Finger 1, also known as TRIM63) is a muscle-specific |
+| [[Nicotinamide]] | 05_Jul_2026 | Uncategorized | 5 | 0 | Nicotinamide (NAM), also known as niacinamide, is the amide |
+| [[Nicotinic acid]] | 06_Jul_2026 | Uncategorized | 5 | 0 | Nicotinic acid (NA), also known as niacin, is a form of vitamin B3 and a key metabolite in the Preiss-Handler pathway for NAD+ biosynthesis. |
+| [[Nitrotyrosine]] | 09_Jul_2026 | Uncategorized | 5 | 0 | 3-Nitrotyrosine, the stable end-product of tyrosine nitration; a widely used biomarker of peroxynitrite/myeloperoxidase-mediated nitrative stress. |
+| [[Protein Carbonylation]] | 09_Jul_2026 | Uncategorized | 5 | 0 | Irreversible oxidative introduction of carbonyl groups onto proteins—a stable biomarker of severe oxidative damage overlapping adrenochrome/aminochrome and metal-catalyzed oxidation pathways. |
+| [[Rossmann fold]] | 04_Jul_2026 | Uncategorized | 5 | 0 | The Rossmann fold is a highly conserved structural protein motif found |
+| [[Tyrosine Nitration]] | 09_Jul_2026 | Uncategorized | 5 | 0 | Peroxynitrite- and myeloperoxidase-dependent post-translational nitration of tyrosine residues to 3-nitrotyrosine, a marker of nitrative stress intersecting the adrenochrome/methemoglobin axis. |
+| [[Urolithins]] | 04_Jul_2026 | Uncategorized | 5 | 0 | Urolithins are a class of microbially derived metabolites produced |
 
 ## Consolidated to notes/\_link/
 

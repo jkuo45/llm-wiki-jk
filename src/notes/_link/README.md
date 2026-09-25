@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-09-18
+updated: 2026-09-24
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1583 entities** across **110 categories** and **33 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1776 entities** across **124 categories** and **33 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1576 | Categories: 110 | Documents: 33
+> `_link` index. Total entities: 1776 | Categories: 124 | Documents: 33
 >
 
 ## Documents
@@ -18,7 +18,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | Document | Description |
 | --- | --- |
 | [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9\|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]] | Cell Death Discovery review: mechanisms, inducers, and inhibitors of apoptosis, autophagy, mitophagy, necroptosis, pyroptosis, and ferroptosis, plus pairwise crosstalk — including sirtuin control of mitophagy (SIRT1/SIRT3 → PINK1/Parkin), caspase-1 cleavage of Parkin, and AMPK/SIRT1 inhibition of pyroptosis |
-
 | [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile and exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells]] | Peer-reviewed study (Cell Death and Disease, 2026) demonstrating that acid ceramidase (ASAH1) upregulation in replicatively senescent WI-38 fibroblasts drives a pro-ferroptotic lipid profile and increased ferroptosis sensitivity, independent of GPX4/GSH and iron, and is transmitted to neighboring cells via IL-6/IL-8 SASP factors. |
 | [[_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles|"Aminoguanidine: An AGE Product Inhibitor \| Antiaging Systems Articles"]] | "Aminoguanidine is a promising anti-aging therapy that acts as an Advanced Glycation End Product (AGE) inhibitor, preventing the protein cross-linking implicated in aging and diabetic complications." |
 | [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Could this enzyme help remove "zombie" cells from our tissues?]] | Salk Institute press release on acid ceramidase linking ferroptosis and senescence; senescent "zombie" cells are more vulnerable to ferroptosis and can transmit that sensitivity to neighboring cells via paracrine signaling, suggesting acid ceramidase as a senolytic target for healthy aging. |
@@ -55,7 +54,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 ## Entity Notes
 
-### Protein (320)
+### Protein (340)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -369,7 +368,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Vasopressin]] | Protein | Posterior-pituitary peptide hormone regulating water homeostasis and vasoconstriction; implicated in brain aging, redox stress, and autophagy modulation. |
 | [[VCP]] | Protein | Valosin-containing protein that induces excessive mitophagy in Huntington's disease by binding to mutant huntingtin, leading to neuronal death. |
 | [[VDAC]] | Protein | Overview: VDAC is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
-| [[VDAC|VDAC1]] | Protein | Overview: VDAC1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
 | [[VHL]] | Protein | Overview: VHL is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell ... |
 | [[Vimentin]] | Protein | Vimentin is a type III intermediate filament protein that provides structural support to the cytoskeleton and is involved in cell integrity, motility, autophagy, vesicle trafficking, and proteostasis. |
 | [[WNT16B]] | Protein | A Wnt ligand and canonical SASP factor secreted by therapy-damaged stromal cells that promotes cancer therapy resistance; its expression is suppressed by apigenin. |
@@ -379,8 +377,29 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ZBP1]] | Protein | Cytosolic Z-nucleic-acid sensor that triggers PANoptosis and cell death, including in viral encephalitis via STING/MAVS. |
 | [[ZFP36L1]] | Protein | Zinc finger protein 36 C3H1-like 1 (TTP-family RNA-binding protein) that degrades AU-rich-element mRNAs; inhibited by MK2 to stabilize SASP transcripts. |
 | [[β-Catenin]] | Protein | β-Catenin is a dual-function protein central to canonical Wnt signaling as a transcriptional coactivator and to cell adhesion as a component of adherens junctions. Its transcriptional activity is s... |
+| [[Apelin]] | Protein | Apelin is an endogenous peptide ligand of the APJ receptor (encoded by APLN) with cardiovascular, metabolic, and neuroprotective actions; treatment reversed hippocampal necroptosis and cognitive im... |
+| [[Cyclin E]] | Protein | G1/S cyclin that partners with CDK2 to drive S-phase entry; frequently amplified in cancer. |
+| [[Cyclophilin A]] | Protein | Cyclophilin A (PPIA) is a peptidyl-prolyl cis-trans isomerase and secreted pro-inflammatory factor; in parthanatos it is proposed to form an AIF-cyclophilin A-H2AX complex that degrades DNA. |
+| [[Cystatin C]] | Protein | Cysteine protease inhibitor and kidney-function biomarker integrated into GrimAge epigenetic clocks. |
+| [[DAI]] | Protein | RHIM-containing DNA sensor identical to ZBP1 that nucleates a RIPK1-independent necrosome with RIPK3. |
+| [[Flippase]] | Protein | ATP-dependent P4-ATPase lipid transporters that maintain phosphatidylserine on the inner membrane leaflet — the asymmetry keepers antagonized by scramblases in eryptosis and apoptosis. |
+| [[H1.2]] | Protein | H1.2 (HIST1H1C) is a linker histone variant that, when PARylated, carries poly(ADP-ribose) out of the nucleus during parthanatos; its PAR-dependent ubiquitination by Iduna blocks the death signal. |
+| [[IRE1]] | Protein | ER-stress sensor splicing XBP1 to launch the unfolded protein response; links proteostasis to autophagy. |
+| [[Lens Crystallins]] | Protein | Long-lived eye-lens proteins whose glycation and racemization cause age-related cataract. |
+| [[MIF]] | Protein | MIF is a moonlighting protein acting both as a pro-inflammatory cytokine and as the PAAN nuclease executing parthanatotic chromatinolysis. |
+| [[Neutrophil Elastase]] | Protein | The azurophil-granule serine protease (ELANE) that degrades chromatin packaging and decorates NETs — effector and marker of NETosis alongside MPO and cit-H3. |
+| [[PAD4]] | Protein | Peptidylarginine deiminase 4 — the calcium-dependent histone-citrullinating enzyme that drives chromatin decondensation in NETosis and marks cit-H3-positive inflammatory death. |
+| [[Protein Kinase R]] | Protein | dsRNA-activated kinase that can engage the RIPK1 necrosome and phosphorylate eIF2alpha in necroptotic contexts. |
+| [[STAT]] | Protein | Signal transducer and activator of transcription family mediating JAK-STAT signaling downstream of interferons in necroptotic inflammation. |
+| [[Scramblase]] | Protein | Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis. |
+| [[Securin]] | Protein | Separase inhibitor degraded by APC/C-CDC20 at anaphase onset to allow sister chromatid separation. |
+| [[SmgGDS]] | Protein | SmgGDS is an estradiol-induced small-GTPase regulator protecting the female heart against ferritinophagy-mediated ferroptosis. |
+| [[TRPM7]] | Protein | TRPM7 is a Mg2+/Ca2+-permeable cation channel fused to an alpha-kinase domain; it is implicated in oxidative-stress and necroptosis-associated membrane compromise, including MLKL-independent routes. |
+| [[Transferrin]] | Protein | Transferrin is the major iron-transport glycoprotein that delivers ferric iron to cells and thereby fuels the iron-dependent execution of ferroptosis. |
+| [[p22phox]] | Protein | Membrane subunit of NADPH oxidases essential for ROS production; mutated in chronic granulomatous disease. |
+| [[p47phox]] | Protein | Cytosolic organizer subunit activating NOX2 NADPH oxidase; mutated in chronic granulomatous disease. |
 
-### Enzyme (197)
+### Enzyme (225)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -416,7 +435,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Caspase-7]] | Enzyme | Executioner (effector) caspase of the apoptotic pathway; activated by initiator caspases, directly inhibited by IAPs, and subject to inhibitory phosphorylation by PAK2 in cancer. |
 | [[Caspase-8]] | Enzyme | Initiator protease of the extrinsic apoptotic pathway; activated by death receptor signaling (FasL/TRAIL) and subject to regulatory phosphorylation that switches it between pro-death and pro-surviv... |
 | [[Caspase-9]] | Enzyme | Initiator protease of the intrinsic (mitochondrial) apoptotic pathway; activated within the Apoptosome formed by Cytochrome c and Apaf-1, and inhibited by XIAP and Akt-mediated phosphorylation. |
-| [[Caspases]] | Enzyme | Caspases are a family of cysteine proteases that play essential roles in Apoptosis, Inflammation, and Pyroptosis. They are synthesized as inactive zymogens (procaspases) and activated by proteo... |
 | [[Sirtuin-Caspase Crosstalk]] | Biological Process | Bidirectional sirtuin–caspase regulatory loop: sirtuins (SIRT1/3/4/5) suppress caspase-driven apoptosis via FOXO4/p53/CypD/Cytochrome-c/14-3-3ζ axes, while caspases cleave SIRT1 at DEPDVP(704–709) and gate SIRT4 — flipping SIRT1 from survival factor to death promoter. |
 | [[MLKL]] | Protein | Mixed lineage kinase domain-like pseudokinase; RIPK3-phosphorylated executor of necroptosis that ruptures the plasma membrane, releases DAMPs, and via K⁺ efflux activates the NLRP3 inflammasome (necroptosis→pyroptosis bridge). |
 | [[PGAM5]] | Protein | Mitochondrial serine/threonine phosphatase at the mitophagy↔necroptosis hinge; stabilizes PINK1 for mitophagy yet anchors the necrosome and activates Drp1 fission for necroptotic rupture. |
@@ -472,7 +490,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Glutamate-Cysteine Ligase]] | Enzyme | Catalytic function: Glutamate-Cysteine Ligase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Glutaredoxin]] | Enzyme | Glutaredoxins (Grx) are a family of small (~9–14 kDa) glutathione-dependent thiol oxidoreductases that reduce protein disulfides and protein-glutathione mixed disulfides, using electrons from reduced glutathione instead of thioredoxin reductase; they constitute the GSH-coupled half of the cellular disulfide-reducing system that sustains ribonucleotide reductase, peroxiredoxins, and redox signaling. |
 | [[Glutathione Peroxidase]] | Enzyme | Glutathione peroxidase (GPx) is an enzyme family with peroxidase activity whose main biological role is to protect the organism from oxidative damage. |
-| [[Glutathione Peroxidase 4]] | Enzyme | Glutathione Peroxidase 4 (GPX4) is a selenium-dependent selenoenzyme that reduces phospholipid hydroperoxides in membranes using glutathione, serving as the central inhibitor of ferroptotic cell de... |
 | [[Glutathione Reductase]] | Enzyme | Catalytic function: Glutathione Reductase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Glutathione S-Transferase]] | Enzyme | A family of phase II detoxifying enzymes that conjugate glutathione to electrophilic substrates, regulated by the NRF2–ARE pathway and implicated in cellular antioxidant defense and mitophagy. |
 | [[Glutathione Synthetase]] | Enzyme | Catalytic function: Glutathione Synthetase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
@@ -502,7 +519,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[JNK]] | Enzyme | c-Jun N-terminal kinase (stress-activated protein kinase); a stress-activated MAPK that regulates apoptosis, proliferation, and inflammation by phosphorylating BAX, Bim, Mcl-1, and c-Jun, with cont... |
 | [[Kinase]] | Enzyme | Kinases are enzymes that catalyze the transfer of the gamma-phosphate of ATP to substrate hydroxyl groups (kinase activity), regulating nearly every signaling pathway. Protein kinases share an aden... |
 | [[Lipoxygenase]] | Enzyme | Lipoxygenases (LOXs) are iron-containing dioxygenases that oxidize polyunsaturated fatty acids to bioactive hydroperoxides and signaling lipids such as leukotrienes, linking lipid peroxidation to i... |
-| [[Lipoxygenases]] | Enzyme | Catalytic function: Lipoxygenases is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Malate Dehydrogenase]] | Enzyme | Enzyme catalyzing the reversible NAD+-dependent interconversion of oxaloacetate and malate in the TCA cycle and the malate-aspartate shuttle; cytosolic MDH1 loss lowers NAD+/NADH and can induce sen... |
 | [[MAPKAPK2]] | Enzyme | Mitogen-activated protein kinase-activated protein kinase 2, a key regulator of SASP mRNA stability. |
 | [[Matrix Metalloproteinase]] | Enzyme | Zinc-dependent endopeptidases (MMPs) that degrade extracellular matrix; MMP-2 and MMP-9 mediate tumor invasion, metastasis, and angiogenesis. |
@@ -593,8 +609,25 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Tyrosine Hydroxylase]] | Enzyme | Tyrosine Hydroxylase (TH) is the rate-limiting enzyme in the biosynthesis of Catecholamines, including Dopamine, Norepinephrine, and Epinephrine. |
 | [[uPA]] | Enzyme | Urokinase plasminogen activator, a serine protease of the SASP that converts plasminogen to plasmin and drives ECM remodeling and invasion. |
 | [[USP10]] | Enzyme | USP10 (Ubiquitin Specific Peptidase 10) is a deubiquitinating enzyme (DUB) that stabilizes SIRT6 by binding its C-terminal region and removing ubiquitin chains, counteracting proteasomal degradation. |
+| [[ARH1]] | Enzyme | ARH1 (ADPRH) is the Mg2+-dependent ARH-family hydrolase erasing Arg-linked MARylation |
+| [[ARH3]] | Enzyme | ARH3 (ADPRHL2) is a 39-kDa Mg2+-dependent ADP-ribosylhydrolase that |
+| [[Arginine Glycine Amidinotransferase]] | Enzyme | First committed enzyme of creatine synthesis, transferring amidino group from arginine to glycine. |
+| [[DNA Polymerase]] | Enzyme | Family of enzymes that synthesize DNA by adding deoxynucleotides to a growing strand during replication and repair. |
+| [[EP300]] | Enzyme | E1A binding protein p300, a histone acetyltransferase whose inhibition by spermidine derepresses autophagy. |
+| [[Hexokinase-1]] | Enzyme | Hexokinase-1 (HK1) is the neuronal glycolytic gate whose PAR binding |
+| [[Iduna]] | Enzyme | Iduna (RNF146) is a PAR-dependent E3 ubiquitin ligase whose WWE domain binds poly(ADP-ribose); it ubiquitinates PARylated proteins such as H1.2 for proteasomal degradation and protects against part... |
+| [[MBOAT1]] | Enzyme | MBOAT1 is an estrogen-receptor-driven lyso-phospholipid acyltransferase suppressing ferroptosis via PE-MUFA membrane remodeling. |
+| [[MBOAT2]] | Enzyme | MBOAT2 is an androgen-receptor-driven lyso-phospholipid acyltransferase suppressing ferroptosis via PE-MUFA membrane remodeling. |
+| [[ME2]] | Enzyme | Malic Enzyme 2, the mitochondrial isoform of malic enzyme that converts malate to pyruvate while generating NADPH; a SIRT3 delactylation and SIRT5 desuccinylation substrate at the nexus of tumor re... |
+| [[MacroD1]] | Enzyme | MacroD1 (LRP16) is a mitochondrial macrodomain hydrolase erasing Asp/Glu-MARylation and deacetylating OAADPr |
+| [[MacroD2]] | Enzyme | MacroD2 is a cytosolic/nuclear macrodomain hydrolase erasing Asp/Glu-MARylation and regulating DNA-damage signaling |
+| [[Nudix Hydrolases]] | Enzyme | Nudix phosphodiesterases cleave free ADP-ribose into AMP and ribose-5-phosphate, |
+| [[PARG]] | Enzyme | PARG is the primary poly(ADP-ribose) glycohydrolase erasing PAR; its dosage bidirectionally sets parthanatos and stroke outcome. |
+| [[PARG53]] | Enzyme | PARG53 is a catalytically active ~53-kDa splice isoform of PARG (exon 1–8); its existence revises the PARG55/60 annotation and helps explain discrepancies between PARG knockout and PARG inhibitor e... |
+| [[Sodium-Potassium ATPase]] | Enzyme | Sodium-Potassium ATPase is the ATP-driven Na+/K+ pump whose failure initiates oncotic swelling in necrosis. |
+| [[TARG1]] | Enzyme | TARG1 (OARD1/C6orf130) is a macrodomain ADP-ribosylhydrolase erasing Asp/Glu-MARylation and terminal PAR |
 
-### Transporter (12)
+### Transporter (15)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -610,8 +643,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[P-gp]] | Transporter | Overview: P-gp is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven ... |
 | [[SLC25A1]] | Transporter | Mitochondrial citrate carrier (CIC) that exports citrate from the mitochondrial matrix to the cytosol, where it is converted to acetyl-CoA by ACLY. Upregulated in cellular senescence; its inhibitio... |
 | [[Transferrin receptor 1]] | Transporter | Overview: Transferrin receptor 1 is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformation... |
+| [[SLC25A22]] | Transporter | SLC25A22 is a mitochondrial inner-membrane glutamate transporter that suppresses ferroptosis; it is stabilized by SIRT3-mediated deacetylation (K83), which prevents its ubiquitination and proteasom... |
+| [[SLC25A51]] | Transporter | Mitochondrial inner-membrane NAD+ importer that supplies matrix NAD+ for respiration and sirtuin activity. |
+| [[System Xc-]] | Transporter | System Xc- is a cystine/glutamate antiporter at the plasma membrane whose activity is required for glutathione synthesis and ferroptosis resistance. |
 
-### Receptor (37)
+### Receptor (38)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -652,8 +688,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TREM2]] | Receptor | Triggering receptor expressed on myeloid cells 2, a microglial immunoglobulin-superfamily receptor that gates cGAS-STING/IFN-I signaling and senescence. |
 | [[uPAR]] | Receptor | Urokinase plasminogen activator receptor (CD87), a GPI-anchored membrane protein that localizes uPA activity to the cell surface and promotes invasion |
 | [[VEGFR]] | Receptor | Vascular endothelial growth factor receptors (VEGFR-1/2/3) driving angiogenesis; TKI targets. |
+| [[TNFR]] | Receptor | Tumor necrosis factor receptor family mediating TNFR1 death-complex assembly toward necroptosis. |
 
-### Transcription Factor (11)
+### Transcription Factor (12)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -668,6 +705,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[SREBP2]] | Transcription Factor | Sterol regulatory element-binding protein 2; a basic helix-loop-helix leucine zipper transcription factor that activates genes of cholesterol biosynthesis and uptake; negatively regulated by SIRT6. |
 | [[TFEB]] | Transcription Factor | Master regulator of the autophagy-lysosome pathway coordinating lysosomal biogenesis and autophagy |
 | [[XBP1]] | Transcription Factor | X-box binding protein 1 (XBP1), especially its spliced form XBP1s, is a key unfolded-protein-response transcription factor that also regulates hepatic autophagy by activating TFEB; SIRT6 regulates ... |
+| [[T-bet]] | Transcription Factor | Master transcription factor of Th1 differentiation downstream of IL-12/STAT4; drives interferon-gamma programs. |
 
 ### Kinase (1)
 
@@ -720,7 +758,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Homocysteine]] | Biological Molecule | Biochemical properties: Homocysteine is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic... |
 | [[Humanin]] | Biological Molecule | Humanin is a 24-amino acid peptide encoded by a cryptic open reading frame within the mitochondrial 16S ribosomal RNA gene. It is considered a founding member of the class of Mitokines or mitochond... |
 | [[Interferon-gamma]] | Biological Molecule | Interferon-gamma (IFNγ) is a pro-inflammatory cytokine that plays a central role in innate and adaptive immunity, potently inducing IDO1 expression and activating macrophages. |
-| [[Isoprostanes]] | Biological Molecule | Biochemical properties: Isoprostanes is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic... |
 | [[Lactate]] | Biological Molecule | Biochemical properties: Lactate is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux... |
 | [[LDL]] | Biological Molecule | Low-density lipoprotein (LDL) is a lipoprotein particle that transports cholesterol and triglycerides from the liver to peripheral tissues. Elevated LDL is a major risk factor for Atheroscleros... |
 | [[Leptin]] | Biological Molecule | Biochemical properties: Leptin is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux ... |
@@ -759,7 +796,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Uric Acid Crystals]] | Biological Molecule | Monosodium urate (MSU) and uric acid crystals are potent NLRP3 inflammasome activators that cause gouty inflammation through lysosomal rupture and IL-1β secretion. |
 | [[Very Low Density Lipoprotein]] | Biological Molecule | Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression to... |
 
-### Chemical Compound (157)
+### Chemical Compound (164)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -779,7 +816,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Apigenin]] | Chemical Compound | A natural flavone (4',5,7-trihydroxyflavone) with CDK-inhibitory, p53-stabilizing, senomorphic/senolytic, and broad anticancer activities across human malignancies. |
 | [[ARN14794]] | Chemical Compound | A benzoxazolone carboxamide small-molecule inhibitor of acid ceramidase (ACase, ASAH1), specifically used in the 2026 Soriano-Castell study demonstrating that ACase inhibition protects cells from f... |
 | [[ARN14974]] | Chemical Compound | A potent and systemically active benzoxazolone carboxamide inhibitor of acid ceramidase (IC50 79 nM) that reduces ACase activity across multiple organs including brain; developed by Pizzirani et al... |
-| [[Ascorbic Acid]] | Chemical Compound | Ascorbic Acid, also known as Vitamin C, is a potent antioxidant and essential nutrient found in various foods and used as a dietary supplement. |
 | [[ATP]] | Chemical Compound | Adenosine triphosphate (ATP) is a nucleotide composed of adenine, ribose, and three phosphate groups that serves as the universal energy currency of living cells. Hydrolysis of ATP to ADP and P... |
 | [[Auranofin]] | Chemical Compound | Auranofin (Ridaura) is an oral gold(I) coordination compound FDA-approved for rheumatoid arthritis (1985) and repurposed as a first-in-class covalent inhibitor of the selenoprotein thioredoxin reductases (TXNRD1/TXNRD2), under clinical investigation as an anticancer, antiparasitic, and antibacterial agent. |
 | [[Bafilomycin A1]] | Chemical Compound | Chemical properties: Bafilomycin A1 is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
@@ -920,8 +956,15 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Vitamin E]] | Chemical Compound | Vitamin E is a group of eight fat-soluble compounds that include four tocopherols and four tocotrienols. It acts as a potent antioxidant. |
 | [[Z-VAD-FMK]] | Chemical Compound | A synthetic, cell-permeable pan-caspase inhibitor used to distinguish caspase-dependent apoptosis from other cell death modalities. |
 | [[α-Ketoglutarate]] | Chemical Compound | α-Ketoglutarate (α-KG) is a key TCA cycle intermediate derived from glutamine and glutamate; serves as a metabolic hub linking carbon metabolism to biosynthesis, epigenetic regulation, and signaling. |
+| [[3-Methyladenine]] | Chemical Compound | 3-Methyladenine is a class-III PI3K inhibitor blocking autophagosome nucleation, the standard autophagy-blockade tool compound. |
+| [[Cyclosporine A]] | Chemical Compound | Immunosuppressant that potently inhibits the mitochondrial permeability transition via cyclophilin D binding. |
+| [[GSK840]] | Chemical Compound | GSK840 (GSK'840) is a small-molecule RIPK3 kinase inhibitor used alongside GSK872 as a necroptosis-blocking tool compound. |
+| [[GSK872]] | Chemical Compound | GSK872 is a small-molecule RIPK3 kinase inhibitor used as a necroptosis-blocking tool compound. |
+| [[HG-9-91-01]] | Chemical Compound | HG-9-91-01 is a salt-inducible kinase (SIK) inhibitor that suppresses necroptosis by disrupting the RIPK3/MLKL interaction. |
+| [[Sanglifehrin A]] | Chemical Compound | Cyclophilin D-binding MPT inhibitor without calcineurin activity, used to dissect MPT necrosis from necroptosis. |
+| [[Zharp-99]] | Chemical Compound | Zharp-99 is a small-molecule RIPK3 inhibitor used preclinically to block necroptosis. |
 
-### Drug (20)
+### Drug (26)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -945,8 +988,14 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Tolcapone]] | Drug | A potent nitrocatechol-class COMT inhibitor that crosses the blood-brain barrier, used in Parkinson's disease. |
 | [[Valsartan]] | Drug | Valsartan, an angiotensin II receptor blocker used to treat hypertension and heart failure |
 | [[Vinblastine]] | Drug | Vinka alkaloid microtubule-targeting agent that inhibits tubulin polymerization, used as chemotherapy. |
+| [[Amiodarone]] | Drug | Iodinated antiarrhythmic for refractory arrhythmias with thyroid, lung, and liver toxicity profile. |
+| [[Artesunate]] | Drug | Artesunate is an antimalarial artemisinin derivative that exerts anti-cancer and neuroprotective effects partly by inducing ROS-dependent ferroptosis. |
+| [[Deferoxamine]] | Drug | Deferoxamine (DFO) is an iron-chelating drug that inhibits ferroptosis by depriving cells of the labile iron required for Fenton-driven lipid peroxidation. |
+| [[Mitotane]] | Drug | Mitotane is an adrenolytic agent used in adrenocortical carcinoma whose toxicity profile may be improved by ferroptosis-inducing alternatives. |
+| [[Olaparib]] | Drug | First-in-class PARP inhibitor exploiting synthetic lethality in BRCA-deficient cancers. |
+| [[Sorafenib]] | Drug | Sorafenib is a multi-kinase inhibitor used in advanced hepatocellular carcinoma whose anti-tumor effect is partly mediated by inducing ferroptosis. |
 
-### Metabolite (8)
+### Metabolite (11)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -958,6 +1007,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Oxaloacetate]] | Metabolite | The four-carbon TCA-cycle intermediate converted to malate by malate dehydrogenase; central to the oxaloacetate-malate redox couple that sets cytosolic NAD+/NADH and influences senescence. |
 | [[SAH]] | Metabolite | S-adenosylhomocysteine, the immediate product of methylation reactions and a competitive inhibitor of methyltransferases. |
 | [[TMG]] | Metabolite | Trimethylglycine (betaine), a methyl-donor osmolyte that supports methionine synthesis via betaine-homocysteine S-methyltransferase. |
+| [[24(S)-Hydroxycholesterol]] | Metabolite | Brain-derived oxysterol made by neuronal CYP46A1; LXR ligand and neurodegeneration biomarker with biphasic amyloid/necroptotic actions. |
+| [[ADP-ribose]] | Metabolite | Free ADP-ribose is the monomer cleaved from PAR/MAR by hydrolases; it gates TRPM2 calcium influx and is degraded by Nudix enzymes to AMP and ribose-5-phosphate, coupling PAR turnover to Ca2+ signal... |
+| [[PAR]] | Metabolite | PAR is the toxic poly(ADP-ribose) polymer death signal linking PARP1 hyperactivation to mitochondrial AIF release. |
 
 ### Hormone (4)
 
@@ -968,7 +1020,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[IGF1]] | Hormone | Insulin-like growth factor 1 is a hormone downstream of growth hormone that promotes cell survival, growth, and immune reconstitution while suppressing autophagy; low IGF1 signaling is associated w... |
 | [[LHRH]] | Hormone | Luteinizing hormone-releasing hormone; a hypothalamic peptide that controls gonadotropin release and is targeted by analogues for sex steroid ablation in thymic rejuvenation. |
 
-### Cytokine (16)
+### Cytokine (18)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -988,6 +1040,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Interleukin 33]] | Cytokine | Interleukin-33 is an IL-1-family alarmin and IL-1β-dependent SASP factor secreted by senescent hepatic stellate cells that promotes hepatocellular carcinoma. |
 | [[Leukemia inhibitory factor]] | Cytokine | Cytokine that maintains embryonic stem cell pluripotency and self-renewal; withheld to permit differentiation in vitro. |
 | [[Type I Interferon]] | Cytokine | Family of interferons (IFN-alpha/beta) produced downstream of innate immune sensors that drive antiviral and inflammatory transcriptional programs. |
+| [[Erythropoietin]] | Cytokine | The renal hypoxia-induced hematopoietic cytokine (EPO) driving erythropoiesis — reported protective against eryptosis, though direct anti-eryptotic action is inferred rather than demonstrated. |
+| [[IL-1alpha]] | Cytokine | IL-1alpha is a constitutively bioactive IL-1 family alarmin released passively on necrotic and pyroptotic rupture. |
 
 ### Chemokine (11)
 
@@ -1005,7 +1059,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CXCL3]] | Chemokine | C-X-C motif chemokine ligand 3, an ELR+ SASP chemokine that binds CXCR2 and recruits neutrophils, reinforcing senescence in liver and pancreas. |
 | [[CXCL5]] | Chemokine | C-X-C motif chemokine ligand 5 (ENA-78), an ELR+ SASP chemokine that binds CXCR2 and contributes to reproductive aging and neutrophil-driven inflammation. |
 
-### Growth Factor (6)
+### Growth Factor (7)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1015,8 +1069,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Keratinocyte Growth Factor]] | Growth Factor | An FGF family growth factor (FGF7) that stimulates thymic epithelial cell proliferation and differentiation; used clinically as Palifermin for thymic regeneration. |
 | [[PDGFAA]] | Growth Factor | Platelet-derived growth factor AA is a SASP growth factor that induces myofibroblast differentiation and is required for optimal wound healing. |
 | [[TGFβ]] | Growth Factor | Transforming growth factor beta is an early SASP factor that drives paracrine senescence, EMT, fibrosis, and immune suppression via TGFBR-SMAD2/3 signaling. |
+| [[FGF]] | Growth Factor | Fibroblast growth factor family of paracrine and endocrine signals driving proliferation and repair. |
 
-### Cell Type (44)
+### Cell Type (45)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1064,6 +1119,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TH17]] | Cell Type | T helper 17 cells are a CD4+ T cell subset differentiated by the SASP factors IL-6 and IL-1β in the presence of TGFβ, linking senescence to adaptive immunity. |
 | [[Th2]] | Cell Type | Type 2 helper T cells are a CD4+ T cell subset that drives humoral and anti-helminth immunity through IL-4, IL-5, and IL-13 production. |
 | [[Thymic Epithelial Cells]] | Cell Type | Stromal cells in the thymus cortex and medulla that form a supportive network essential for T cell development, selection, and tolerance induction. |
+| [[Tumor-Associated Macrophage]] | Cell Type | Tumor-associated macrophages (TAMs) are the most abundant immune cells in many tumors; their immunosuppressive M2 polarization is driven by intra-tumoral metabolic reprogramming, including a SENP1-... |
 
 ### Organism (19)
 
@@ -1211,6 +1267,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Vasoplegic Shock]] | Medical Condition | Vasoplegic shock (vasoplegia) is refractory hypotension from pathologic vasodilation, commonly after cardiopulmonary bypass or in septic/anaphylactic shock; methylene blue is an off-label rescue th... |
 | [[Ventricular Remodeling]] | Medical Condition | Etiology and pathophysiology: Ventricular Remodeling is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genet... |
 | [[Werner Syndrome]] | Medical Condition | Werner Syndrome (WS) is a rare, autosomal recessive progeroid syndrome characterized by the appearance of premature Aging. Unlike HGPS, which begins in early childhood, Werner Syndrome typicall... |
+| [[Ischemia]] | Medical Condition | Ischemia is the restriction of blood supply causing hypoxia, ATP depletion, and necrotic or regulated cell death on reperfusion. |
 
 ### Medical Product (9)
 
@@ -1226,7 +1283,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Serotonin-Norepinephrine Reuptake Inhibitors]] | Medical Product | Serotonin-norepinephrine reuptake inhibitors (SNRIs) are antidepressants raising synaptic serotonin and norepinephrine; dangerous with MAOIs. |
 | [[Tricyclic Antidepressant]] | Medical Product | Tricyclic antidepressants (TCAs) are an older antidepressant class with serotonergic and anticholinergic effects; dangerous with MAOIs. |
 
-### Biological Process (146)
+### Biological Process (148)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1376,6 +1433,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Vasodilation]] | Biological Process | Vasodilation is the widening of blood vessels via smooth-muscle relaxation, lowering vascular resistance; excessive NO-driven vasodilation underlies vasoplegic shock. |
 | [[Wnt signaling]] | Biological Process | Definition: Wnt Signaling is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and en... |
 | [[Zone 2 Cardio]] | Biological Process | Low-to-moderate aerobic training sustained in the fat-oxidation zone; builds the mitochondrial base and supports recovery on non-hormetic days. |
+| [[Ca2+ overload]] | Biological Process | Cytosolic Ca2+ overload is the calcium-flooded intermediate linking ATP collapse to calpain and mPTP execution in necrosis. |
+| [[Protein Synthesis]] | Biological Process | Ribosomal translation of mRNA into protein; highly ATP-consuming and coupled to growth signaling. |
 
 ### Chemical Process (5)
 
@@ -1509,13 +1568,15 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Ventral Tegmental Area]] | Anatomy | The Ventral Tegmental Area (VTA) is a group of neurons located close to the midline on the floor of the midbrain. It is a key component of the brain's reward and motivation system. |
 | [[VTA]] | Anatomy | The ventral tegmental area (VTA) is a midbrain nucleus located adjacent to the Substantia Nigra. It contains Dopamine, GABA, and Glutamate neurons and is a core component of the brain's Reward ... |
 
-### Pathway (3)
+### Pathway (5)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[SCAPs]] | Pathway | Senescence-cell anti-apoptotic pathways, the pro-survival network that renders senescent cells resistant to apoptosis. |
 | [[TCA cycle]] | Pathway | Tricarboxylic acid (Krebs) cycle, the central mitochondrial pathway oxidizing acetyl-CoA to CO2 while generating NADH, FADH2, and GTP. |
 | [[TNF Signaling]] | Pathway | The TNF/TNF receptor signaling pathway; a KEGG pathway significantly inhibited by apigenin in senescent cells alongside NF-κB. |
+| [[Mevalonate pathway]] | Pathway | The mevalonate pathway regulates ferroptosis by controlling selenocysteine tRNA maturation and CoQ10/isoprenoid production that modulate GPX4 and antioxidant defenses. |
+| [[Wnt-beta-catenin]] | Pathway | Canonical Wnt pathway stabilizing beta-catenin for proliferation and stemness programs. |
 
 ### Actin (1)
 
@@ -1530,12 +1591,13 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Beta-amyloid]] | Alzheimers Disease | Peptides of 36–43 amino acids that are the main component of the amyloid plaques found in the brains of people with Alzheimer's Disease. |
 | [[Tau]] | Alzheimers Disease | Microtubule-associated protein tau (MAPT) is an intrinsically disordered neuronal protein whose hyperphosphorylation and aggregation drive neurofibrillary tangle formation in Alzheimer's Disease an... |
 
-### Amino Acid (2)
+### Amino Acid (3)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Selenocysteine]] | Amino Acid | The 21st amino acid — a serine analog with selenium in place of oxygen; incorporated by UGA recoding and serving as the catalytic residue of selenoenzymes. |
 | [[Serine]] | Amino Acid | Amino acid bearing regulatory phosphorylation sites on DRP1 that govern mitochondrial fission. |
+| [[Threonine]] | Amino Acid | Essential amino acid supporting protein synthesis, mucin production, and one-carbon metabolism. |
 
 ### Analytical Technique (9)
 
@@ -1576,11 +1638,15 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[Tumor Antigen]] | Antigen | A molecule (mutated, overexpressed, differentiation, or oncofetal) expressed by tumor cells and presented by MHC that is recognized by T cells and underlies immune surveillance and cancer immunothe... |
 
-### Assay (1)
+### Assay (5)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[TBARS]] | Assay | Thiobarbituric acid reactive substances — a colorimetric assay measuring malondialdehyde as a biomarker of lipid peroxidation. |
+| [[FLICA]] | Assay | Fluorescent labeled inhibitors of caspases — cell-permeant activity probes (e.g. FAM-YVAD-FMK for caspase-1) used to report active caspase-1 in pyroptosis. |
+| [[Propidium Iodide]] | Assay | A membrane-impermeant DNA dye (PI) that marks cells with ruptured plasma membranes — the workhorse viability counterstain for lytic vs non-lytic death. |
+| [[Sytox Green]] | Assay | A membrane-impermeant cyanine DNA dye for live-cell reporting of membrane rupture and extracellular DNA — the standard NETosis imaging readout. |
+| [[TUNEL]] | Assay | Terminal deoxynucleotidyl transferase dUTP nick-end labeling — the standard in situ assay marking DNA fragmentation in apoptosis (and, less specifically, other death programs). |
 
 ### Autoimmune Disease (1)
 
@@ -1615,13 +1681,14 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[Endosymbiosis]] | Biology Concept | Theory that mitochondria descended from an ancient prokaryote engulfed by early eukaryotes. |
 
-### Biomarker (3)
+### Biomarker (4)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[hs-CRP]] | Biomarker | High-sensitivity C-reactive protein, a sensitive circulating marker of low-grade systemic inflammation and a proxy for recovery and mitohormetic status. |
 | [[sjTREC]] | Biomarker | Single joint T cell receptor excision circle; a molecular marker for recent thymic emigrants and active thymopoiesis, used to quantify thymic output. |
 | [[γH2AX]] | Biomarker | Phosphorylated histone H2AX mark of DNA double-strand breaks, used as a DNA-damage biomarker. |
+| [[cit-H3]] | Biomarker | Citrullinated histone H3 — the PAD4-generated immunodetection signature of NETosis, read together with extracellular DNA and MPO–DNA complexes. |
 
 ### Cadherin (1)
 
@@ -1661,7 +1728,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[HeLa Cells]] | Cell Line | Immortalized human cervical carcinoma epithelial cell line; widely used in molecular and virology research including miRNA biogenesis assays. |
 | [[WI-38]] | Cell Line | A diploid human fetal lung fibroblast cell line derived by Leonard Hayflick in 1962, widely used as a model for replicative senescence and aging research; the cell line in which the ACase-ferroptos... |
 
-### Chemical Class (27)
+### Chemical Class (29)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1692,14 +1759,17 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Quinone]] | Chemical Class | Quinones are a class of organic compounds derived from aromatic compounds (such as benzene or naphthalene) by conversion of an even number of -CH= groups into -C(=O)- groups, resulting in a ful... |
 | [[Rapalogs]] | Chemical Class | Rapalogs are analogs and derivatives of rapamycin (sirolimus) that inhibit mTORC1 via the FKBP12-FRB interface; used as immunosuppressants, anticancer agents, and geroprotectors, and like rapamycin... |
 | [[Selective Androgen Receptor Modulators]] | Chemical Class | Tissue-selective androgen receptor ligands that promote anabolism and muscle mass with reduced androgenic side effects versus testosterone. |
+| [[Tocopherols]] | Chemical Class | Tocopherols are the four chromanol-based forms of vitamin E (alpha, beta, gamma, delta) distinguished by methyl substitution of the chromanol ring; the principal lipid-phase chain-breaking antioxidants in membranes and lipoproteins. |
+| [[Tocotrienols]] | Chemical Class | Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties. |
 
-### Clinical Trial (3)
+### Clinical Trial (4)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[ATLAS]] | Clinical Trial | Randomized trial (n=88) showing urolithin A improves muscle strength, endurance, and mitochondrial biomarkers in middle-aged adults. |
 | [[PREMOTE]] | Clinical Trial | Multi-center trial showing berberine lowers HbA1c with gut-microbiome shifts, linking metabolic benefit to microbiome mechanisms. |
 | [[TRIAD]] | Clinical Trial | Test of Rapamycin In Aging Dogs — first rigorous pharmacologic geroscience trial with lifespan endpoints outside the lab, in any species. |
+| [[CANTOS Trial]] | Clinical Trial | Landmark trial proving IL-1beta blockade with canakinumab lowers cardiovascular events independent of lipids. |
 
 ### Cohort Study (1)
 
@@ -1720,7 +1790,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[GTP]] | Compound | Guanosine triphosphate, a purine nucleotide substrate required by cGAS to synthesize 2'3'-cGAMP. |
 | [[NB-4746]] | Compound | NB-4746 is a brain-penetrant, clinical-stage SARM1 inhibitor developed by Nura Bio for axon-degeneration disorders, including chemotherapy-induced peripheral neuropathy and traumatic brain injury. |
 
-### Concept (4)
+### Concept (5)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1728,6 +1798,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Crown-like Structures]] | Concept | Histological structures in obese adipose tissue formed by macrophages surrounding dead or dying adipocytes; hallmark of adipose tissue inflammation |
 | [[Frailty Index]] | Concept | Quantified measure of healthspan and vulnerability to adverse outcomes based on accumulated health deficits (e.g., the 31-parameter mouse clinical frailty index of Whitehead et al.). |
 | [[Metabolic Flexibility]] | Concept | The capacity of cells and organisms to switch between fuel sources (glucose vs fatty acids) in response to nutrient availability and energy demand |
+| [[Metabolic Plasticity]] | Concept | The capacity of cancer cells (and stem cells) to dynamically switch between glycolysis and oxidative phosphorylation (OXPHOS) in response to tumor type, developmental stage, and microenvironmental... |
 
 ### Cxcl12 (1)
 
@@ -1743,7 +1814,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Pulse Oximetry]] | Diagnostic Test | Pulse oximetry is non-invasive estimation of oxygen saturation; methylene blue artifactually underestimates it. |
 | [[Pulse Wave Velocity]] | Diagnostic Test | Pulse wave velocity (PWV) is the speed at which the pressure wave generated by left ventricular ejection travels along the arterial tree. It is the gold standard clinical measure of Arterial Stiffn... |
 
-### Disease (32)
+### Disease (39)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1779,6 +1850,13 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Pulmonary Fibrosis]] | Disease | A chronic, progressive lung disease characterized by scarring (fibrosis) of lung tissue |
 | [[Tauopathy]] | Disease | Neurodegenerative diseases characterized by pathological aggregation of the microtubule-associated protein tau. |
 | [[Vascular Calcification]] | Disease | Deposition of calcium phosphate minerals in the vascular wall, driving arterial stiffness and cardiovascular mortality, especially in chronic kidney disease |
+| [[Adrenocortical carcinomas]] | Disease | Adrenocortical carcinomas (ACCs) are aggressive adrenal cancers with elevated GPX4 and ferroptosis sensitivity, suggesting ferroptosis inducers may outperform mitotane. |
+| [[Clear cell renal cell carcinoma]] | Disease | Clear cell renal cell carcinoma (ccRCC) is a kidney cancer exquisitely dependent on glutathione/GPX4 defenses, making it highly sensitive to ferroptosis induction. |
+| [[Down Syndrome]] | Disease | Trisomy 21 disorder with accelerated aging, APP overdosage, and early Alzheimer pathology. |
+| [[Head and neck cancer]] | Disease | Head and neck cancer (HNC) is sensitive to ferroptosis inducers (GPX4 inhibitors, artesunate) and to CISD2 suppression that raises mitochondrial iron and lipid ROS. |
+| [[Inflammatory Diseases]] | Disease | Chronic diseases driven by unresolved inflammation, from arthritis and IBD to psoriasis and atherosclerosis. |
+| [[Systemic Inflammatory Response Syndrome]] | Disease | Sterile systemic inflammation driven by necroptotic DAMP release, as in severe pancreatitis; precursor concept to sepsis criteria. |
+| [[Zellweger Spectrum Disorders]] | Disease | Peroxisome-biogenesis disorders from PEX gene loss, ranging from Zellweger syndrome to milder variants. |
 
 ### Domain (1)
 
@@ -1811,13 +1889,14 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Mitochondrial Free Radical Theory of Aging]] | Entity Type 1 | A refinement of the free radical theory of aging proposed by Denham Harman in 1972, specifically implicating mitochondrial ROS production as the primary driver of aging through a vicious cycle of o... |
 | [[Mitochondrial Quality Control]] | Entity Type 1 | The collective cellular mechanisms that maintain mitochondrial homeostasis, including mitochondrial dynamics (fission/fusion), mitophagy, mitochondrial biogenesis, and proteostasis within the organ... |
 
-### Epigenetics (3)
+### Epigenetics (4)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[BRD4]] | Epigenetics | Bromodomain-containing protein 4, an epigenetic reader recruited to senescence-activated enhancers to promote SASP. |
 | [[KDM4]] | Epigenetics | Lysine demethylase 4 family, JmjC histone demethylases that erase H3K9me3/me2 to open chromatin and promote SASP factor expression. |
 | [[METTL14]] | Epigenetics | Methyltransferase-like 14, core subunit of the m6A writer complex (with METTL3) that also promotes SASP gene expression via enhancer–promoter looping. |
+| [[Genomic Imprinting]] | Epigenetics | Parent-of-origin gene expression controlled by germline DNA methylation at imprinting control regions. |
 
 ### Excipient (3)
 
@@ -1851,7 +1930,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[Geraldol]] | Flavonoid | A 3'-O-methylated flavonoid and COMT-generated metabolite of fisetin with uncharacterized senolytic and antioxidant pharmacology. |
 
-### Gene (12)
+### Gene (40)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -1867,6 +1946,34 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[SLC6A8]] | Gene | The gene encoding the principal creatine transporter (CT1) on chromosome Xq28; mutations cause creatine transporter deficiency, an X-linked form of cerebral creatine deficiency syndrome associated ... |
 | [[SNCA]] | Gene | Gene encoding α-synuclein, a presynaptic protein whose misfolding and aggregation is central to Parkinson's disease pathology. |
 | [[Zscan4]] | Gene | A transcription factor implicated in feedforward potentiation of the SASP during the transition from acute stress signaling to chronic senescence-associated secretion. |
+| [[AGE-1]] | Gene | C. elegans PI3K catalytic subunit downstream of DAF-2; founding longevity gene of insulin/IGF-1 signaling. |
+| [[ALOX15]] | Gene | ALOX15 (arachidonate 15-lipoxygenase) is a lipid-peroxidating enzyme that cooperates with p53/SAT1 signaling to execute ferroptosis. |
+| [[ALOX5]] | Gene | ALOX5 (5-lipoxygenase) is an arachidonate-metabolizing enzyme whose activity drives heme-induced neuronal ferroptosis in hemorrhagic stroke. |
+| [[APC]] | Gene | Tumor suppressor scaffolding the beta-catenin destruction complex; germline loss causes familial adenomatous polyposis. |
+| [[BRG1]] | Gene | ATPase subunit of SWI/SNF chromatin remodelers controlling differentiation and tumor suppression. |
+| [[CD44]] | Gene | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
+| [[CDO1]] | Gene | CDO1 (cysteine dioxygenase type 1) promotes ferroptosis in gastric cancer by competitively consuming cysteine and restricting GSH synthesis. |
+| [[CISD1]] | Gene | CISD1 (mitoNEET) is a mitochondrial outer-membrane iron-sulfur protein that protects against ferroptosis by limiting mitochondrial iron and lipid ROS. |
+| [[CISD2]] | Gene | CISD2 is a mitochondrial iron-sulfur protein that suppresses ferroptosis; its loss raises mitochondrial iron and lipid ROS, promoting ferroptosis in head and neck cancer. |
+| [[DMT1]] | Gene | DMT1 (SLC11A2) is the divalent metal-ion transporter that moves endosomal Fe2+ into the cytosol, supplying the labile iron pool that drives ferroptosis. |
+| [[DPP4]] | Gene | DPP4 (CD26) is a protease whose plasma-membrane localization promotes ferroptosis in colorectal cancer through a p53-dependent mechanism. |
+| [[Ferroportin]] | Gene | Ferroportin (FPN/SLC40A1) is the sole cellular iron exporter; its activity limits the labile iron pool and thus modulates ferroptosis sensitivity. |
+| [[LPCAT3]] | Gene | LPCAT3 is a lysophosphatidylcholine acyltransferase that remodels membrane phospholipids with polyunsaturated fatty acids, supplying ferroptosis substrates. |
+| [[MLH1]] | Gene | Core mismatch-repair gene; germline loss causes Lynch syndrome and microsatellite instability. |
+| [[MUC1]] | Gene | MUC1-C is a transmembrane oncoprotein that complexes with xCT and CD44v to maintain GSH and ferroptosis resistance in triple-negative breast cancer. |
+| [[NFS1]] | Gene | NFS1 is a mitochondrial cysteine desulfurase whose inhibition promotes iron starvation and sensitizes cells to ferroptosis under oxidative stress. |
+| [[PALB2]] | Gene | BRCA1/2 scaffold enabling homologous recombination; mutated in breast, pancreatic, and Fanconi anemia disease. |
+| [[PEX10]] | Gene | Peroxisomal RING-finger ubiquitin ligase partnering PEX2/PEX12 in receptor recycling. |
+| [[PEX12]] | Gene | Peroxisomal RING-finger ubiquitin ligase completing the PEX2/PEX10 importomer complex. |
+| [[PEX2]] | Gene | Peroxisomal RING-finger ubiquitin ligase of the importomer; mutated in Zellweger spectrum disorders. |
+| [[RAF]] | Gene | RAF kinases (ARAF, BRAF, CRAF) are central to the RAS-RAF-MEK-ERK MAPK cascade; RAF/MEK-dependent oxidative cell death connects to ferroptosis upstream pathways. |
+| [[SAT1]] | Gene | SAT1 (spermidine/spermine N1-acetyltransferase 1) is a p53-induced polyamine catabolism enzyme that promotes ferroptosis via lipid peroxidation. |
+| [[SLC1A5]] | Gene | SLC1A5 (ASCT2) is a glutamine transporter targeted by miR-137 in melanoma; it supports antioxidant defenses that modulate ferroptosis sensitivity. |
+| [[SLC3A2]] | Gene | SLC3A2 (4F2hc/CD98) is the heavy chain of the system Xc- cystine/glutamate antiporter required for trafficking and stability of the catalytic SLC7A11 subunit. |
+| [[SLC7A11]] | Gene | SLC7A11 (xCT) is the catalytic light chain of the system Xc- cystine/glutamate antiporter and a key determinant of ferroptosis susceptibility. |
+| [[STEAP3]] | Gene | STEAP3 (SIKE) is the endosomal ferrireductase that converts Fe3+ to Fe2+ for DMT1 transport, feeding the labile iron pool that drives ferroptosis. |
+| [[Sigma-1 receptor]] | Gene | Sigma-1 receptor (S1R) is an ER/chaperone protein abundantly expressed in hepatocytes; its inhibition promotes ferroptosis in hepatocellular carcinoma. |
+| [[Squalene synthase]] | Gene | Squalene synthase is the first committed enzyme of sterol biosynthesis in the mevalonate pathway and a regulator of ferroptosis sensitivity through downstream lipid products. |
 
 ### Genetic Concept (1)
 
@@ -1894,12 +2001,13 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[CpG Islands]] | Genomics | Genomic regions rich in unmethylated CpG dinucleotides; mitochondrial DNA contains unmethylated CpG islands recognized by TLR9, linking mtDNA release in senescence to innate immune SASP activation. |
 
-### Immune Checkpoint (2)
+### Immune Checkpoint (3)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Checkpoint Inhibitor]] | Immune Checkpoint | A class of cancer immunotherapeutics (notably anti-CTLA-4, anti-PD-1, anti-PD-L1 agents) that block inhibitory immune-checkpoint receptors to reinvigorate T-cell anti-tumor immunity. |
 | [[PD-1]] | Immune Checkpoint | Programmed cell death protein 1 (PD-1; CD279), an inhibitory immune-checkpoint receptor expressed on T cells that dampens effector responses upon binding PD-L1/PD-L2. |
+| [[CTLA-4]] | Immune Checkpoint | Inhibitory T-cell checkpoint competing with CD28 for CD80/CD86; target of ipilimumab immunotherapy. |
 
 ### Immunology (2)
 
@@ -1921,16 +2029,28 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[IFN-β]] | Interferon | Interferon beta is a type I interferon and a primary output of the cGAS-STING pathway in senescent cells, reinforcing arrest and driving sterile inflammaging. |
 
-### Lipid (6)
+### Lipid (9)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Ceramide]] | Lipid | A central sphingolipid composed of sphingosine linked to a fatty acid; a pro-apoptotic/senescence-associated lipid whose catabolism by acid ceramidase releases free fatty acids that feed pro-ferrop... |
 | [[Phospholipid]] | Lipid | Glycerophospholipids forming cellular membranes; their polyunsaturated fatty acid (PUFA) content at the sn-2 position determines susceptibility to lipid peroxidation and ferroptosis. |
-| [[PUFA]] | Lipid | Polyunsaturated fatty acids; long-chain fatty acids with multiple double bonds whose esterification into membrane phospholipids provides the substrates oxidized during lipid peroxidation and ferrop... |
+| [[Hydroxyeicosatetraenoic acids]] | Lipid | HETEs are monohydroxylated derivatives of arachidonic acid produced by lipoxygenases, cytochrome P450 enzymes, or non-enzymatic lipid peroxidation; bioactive oxylipins and markers of oxidative stress. |
+| [[Resolvins]] | Lipid | Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it. |
 | [[Sphingomyelin]] | Lipid | A phosphosphingolipid synthesized from ceramide; a structural component of membranes and a reservoir for ceramide generation via sphingomyelinases. |
 | [[Sphingosine]] | Lipid | An amino alcohol backbone of sphingolipids; produced by acid ceramidase-mediated cleavage of ceramide and phosphorylated to sphingosine-1-phosphate, a pro-survival signaling lipid. |
 | [[Sphingosine-1-phosphate]] | Lipid | A bioactive sphingolipid signaling lipid phosphorylated from sphingosine; generally pro-survival, pro-proliferative, and anti-apoptotic, counterbalancing ceramide. |
+| [[Phosphatidylethanolamine]] | Lipid | Phosphatidylethanolamine is a major membrane phospholipid whose polyunsaturated (arachidonate/adrenate) species are the key peroxidation substrates that execute ferroptosis. |
+
+### Eicosanoid (5)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Prostaglandins]] | Eicosanoid | Prostaglandins are lipid-derived autacoids produced from arachidonic acid via cyclooxygenase and terminal synthases; local mediators of inflammation, pain, fever, vascular tone, and platelet function. |
+| [[Prostaglandin G₂]] | Eicosanoid | Prostaglandin G2 (PGG2) is the prostaglandin endoperoxide formed by cyclooxygenase dioxygenation of arachidonic acid; the first committed intermediate of the prostanoid cascade and a potent lipid hydroperoxide. |
+| [[Prostaglandin H₂]] | Eicosanoid | Prostaglandin H2 (PGH2) is the prostaglandin endoperoxide produced by reduction of PGG2; the common precursor of all prostanoids, including prostaglandins, thromboxane A2, and prostacyclin. |
+| [[Prostacyclin]] | Eicosanoid | Prostacyclin (PGI2) is the prostaglandin produced by prostacyclin synthase in endothelium; a potent vasodilator and inhibitor of platelet aggregation that balances thromboxane A2. |
+| [[Thromboxane A₂]] | Eicosanoid | Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin. |
 
 ### Medical Treatment (1)
 
@@ -1993,11 +2113,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[Locked Nucleic Acid]] | Nucleic Acid Analog | Locked Nucleic Acid (LNA), a nucleic acid analog with a 2'-O,4'-C methylene bridge that confers high binding affinity and nuclease resistance. |
 
-### Organ (1)
+### Organ (2)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Thymus]] | Organ | Primary lymphoid organ where T cells develop, undergo selection, and are exported to the periphery; undergoes age-related involution. |
+| [[Heart]] | Organ | Muscular pump organ whose cardiomyocytes, conduction, and natriuretic signaling set systemic perfusion. |
 
 ### Organelle (2)
 
@@ -2078,7 +2199,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[RNA-Binding Proteins]] | Protein Class | A diverse protein class that binds RNA to regulate processing, and which cGAS scaffolds in the nucleus to maintain homeostasis. |
 
-### Protein Complex (6)
+### Protein Complex (7)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -2088,6 +2209,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[RISC]] | Protein Complex | RNA-induced silencing complex — the Argonaute-containing effector machinery that uses guide miRNAs/siRNAs to repress or cleave target mRNAs. |
 | [[Spliceosome]] | Protein Complex | The macromolecular machinery that catalyzes pre-mRNA splicing, recruited and regulated by noncanonical nuclear cGAS. |
 | [[SWI-SNF Complex]] | Protein Complex | A chromatin-remodeling complex recruited by noncanonical nuclear cGAS via LLPS to regulate transcription. |
+| [[PANoptosome]] | Protein Complex | The PANoptosome is the multiprotein complex that co-assembles pyroptosis, apoptosis, and necroptosis — nucleated by sensors such as ZBP1, AIM2, or loss of TAK1 — producing PANoptosis that single-pa... |
 
 ### Protein Degradation (1)
 
@@ -2182,11 +2304,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[Sex Steroid Ablation]] | Therapeutic Approach | A therapeutic approach involving removal or suppression of sex steroids to restore thymic architecture, increase thymic cellularity, and enhance thymopoiesis. |
 
-### Therapy (1)
+### Therapy (2)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[Radiation Therapy]] | Therapy | Use of ionizing radiation to kill or damage cancer cells; a cornerstone of oncology treatment. |
+| [[Immunotherapy]] | Therapy | Cancer treatment harnessing the immune system via checkpoint blockade, cell therapies, and cancer vaccines. |
 
 ### Transcription Coactivator (1)
 
@@ -2194,11 +2317,86 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[CRTC2]] | Transcription Coactivator | CREB-regulated transcriptional coactivator 2 (CRTC2, also TORC2) is a coactivator that drives hepatic gluconeogenesis; it is regulated by phosphorylation (SIK/AMPK) and by sirtuin deacetylation. |
 
-### Uncategorized (1)
+### Uncategorized (76)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[README]] | Uncategorized | index of cross-topic shared entities and documents in the _link directory |
+| [[AGO2]] | Uncategorized | Argonaute 2, the catalytic core of the RNA-induced silencing complex (RISC) that mediates microRNA- and siRNA-guided mRNA silencing; part of the SIRT3-modulated axis with cytochrome b in diabetic c... |
+| [[ATRX]] | Uncategorized | ATRX (ATRX chromatin remodeler) is an X-linked SWI/SNF family helicase |
+| [[Age-related Hearing Loss]] | Uncategorized | Progressive, cumulative hearing impairment in older adults driven by oxidative stress and mitochondrial dysfunction in cochlear hair cells; linked to caloric restriction and SIRT3-dependent antioxi... |
+| [[Annexin A1]] | Uncategorized | Anti-inflammatory phospholipid-binding protein (ANXA1) whose tripeptide mimetic Ac2-26 transcriptionally upregulates SIRT3, reducing oxidative damage and promoting mitochondrial biogenesis and mito... |
+| [[Antioxidant Supplementation Paradox]] | Uncategorized | High-dose exogenous antioxidant supplementation can increase mortality |
+| [[BIRC2]] | Uncategorized | The BIRC2 gene encoding cIAP1 — a RING E3 ubiquitin ligase that ubiquitinates RIPK1 in TNFR1 complex I and is destroyed by Smac-mimetic-induced auto-ubiquitination. |
+| [[CNKSR2]] | Uncategorized | CNKSR2 (Connector Enhancer of Kinase Suppressor of Ras 2) is an |
+| [[COL1A1]] | Uncategorized | Collagen type I alpha 1 chain gene, the principal fibrillar collagen subunit of the extracellular matrix in myocardium and other tissues; a pro-fibrotic target suppressed by SIRT3-mediated deacetyl... |
+| [[CPT2]] | Uncategorized | Carnitine palmitoyltransferase 2, a mitochondrial inner-membrane enzyme that regenerates acyl-CoA from acylcarnitine in the matrix, the second step of the carnitine shuttle enabling long-chain fatt... |
+| [[CYLD]] | Uncategorized | The K63/M1 deubiquitinase cylindromatosis that strips ubiquitin from RIPK1, TRAF2 and TRAF6 — the enzymatic switch converting TNFR1 complex I survival signaling into complex II death signaling. |
+| [[Calpain-2]] | Uncategorized | Calcium-dependent cysteine protease (CAPN2/m-calpain) recruited by the phosphorylated caspase-8 scaffold to drive focal-adhesion turnover, migration and therapy resistance. |
+| [[Chronic Lymphocytic Leukemia]] | Uncategorized | Chronic lymphocytic leukemia (CLL), the most common adult leukemia in Western populations, characterized by accumulation of mature CD5+ B cells; SIRT3-mediated ROS buffering contributes to chemores... |
+| [[Clostridium sporogenes]] | Uncategorized | Anaerobic, spore-forming gut commensal and the prototypical auxotrophic |
+| [[Cochlea]] | Uncategorized | Spiral-shaped auditory organ of the inner ear that converts sound vibrations into neural signals via hair cells; a site of cumulative oxidative damage in age-related hearing loss and a target of SI... |
+| [[Crohn's Disease]] | Uncategorized | A chronic, relapsing, transmural inflammatory bowel disease that can affect any part of the gastrointestinal tract; the intestinal pathology most closely resembling the spontaneous RIPK3-dependent... |
+| [[DACH1]] | Uncategorized | Dachshund homolog 1, a transcriptional regulator gene; a long noncoding RNA at the DACH1 locus interacts with SIRT3 to regulate mitochondrial oxidative damage and cell death in heart failure. |
+| [[DAXX]] | Uncategorized | DAXX (Death Domain Associated Protein) is the obligate H3.3 chaperone partner of ATRX for telomeric and pericentric heterochromatin deposition. |
+| [[DDX3X]] | Uncategorized | DDX3X (DEAD-box helicase 3 X-linked) is an X-linked RNA helicase involved |
+| [[DDX3Y]] | Uncategorized | DDX3Y (DEAD-box helicase 3 Y-linked) is the Y homolog of DDX3X with overlapping but non-identical RNA-helicase functions and partial tumor-suppressor compensation. |
+| [[DNA Ligase IV]] | Uncategorized | DNA ligase IV (LIG4), the ligase that seals DNA double-strand breaks in non-homologous end joining; interacts with SIRT3-associated DNA repair complexes in mitochondrial and nuclear genome maintena... |
+| [[Diabetic Cardiomyopathy]] | Uncategorized | Cardiac dysfunction occurring in diabetic patients independent of coronary artery disease and hypertension, driven by mitochondrial dysfunction, oxidative stress, and metabolic inflexibility. |
+| [[ETS1]] | Uncategorized | ETS proto-oncogene 1, a pioneer-like ETS-family transcription factor regulating invasion, angiogenesis, and immune genes; its promoter is controlled by SIRT3 via H3K27 crotonylation in metastatic c... |
+| [[EXITS]] | Uncategorized | EXITS (Escape from X-Inactivation Tumor Suppressors) is a framework |
+| [[FOS]] | Uncategorized | FOS proto-oncogene, a basic leucine zipper transcription factor that dimerizes with JUN family members to form AP-1 complexes driving proliferation, inflammation, and fibrosis genes. |
+| [[Fascia]] | Uncategorized | The continuous sheet-like connective-tissue continuum that wraps, separates, and connects muscles, bones, vessels, nerves, and organs; transmits force, senses mechanical tension, and remodels on a... |
+| [[GRP75]] | Uncategorized | Glucose-regulated protein 75 (mortalin/HSPA9), a mitochondrial Hsp70-family chaperone that bridges the VDAC1/IP3R complex at mitochondria-associated ER membranes, connecting ER calcium release to m... |
+| [[Hair Cells]] | Uncategorized | Specialized mechanosensory epithelial cells of the cochlea that transduce sound into neural signals; highly vulnerable to oxidative stress, and preserved by SIRT3-dependent antioxidant defense unde... |
+| [[Histone Crotonylation]] | Uncategorized | Reversible lysine crotonylation (Kcr) of histones, a non-acetyl acylation mark deposited on chromatin from crotonyl-CoA that regulates gene expression; targeted by SIRT3 lysine decrotonylase activity. |
+| [[Hormesis in Non-Mitochondrial Systems]] | Uncategorized | Beyond mitohormesis, many biological processes follow the same biphasic |
+| [[IGF-1]] | Uncategorized | Insulin-like growth factor 1; somatotropic peptide hormone central to growth, metabolism, and ageing, modulated by SIRT6. |
+| [[Indole-3-propionic acid]] | Uncategorized | Gut microbiota-derived tryptophan metabolite with potent antioxidant, |
+| [[Inflammatory Bowel Disease]] | Uncategorized | Chronic, relapsing inflammatory disorders of the gastrointestinal tract, principally ulcerative colitis and Crohn's disease; intestinal-epithelial necroptosis via RIPK3 contributes to pathology whe... |
+| [[Interferon]] | Uncategorized | Interferon (IFN) — family of antiviral and immunomodulatory cytokines (types I, II, III) induced downstream of TLR3/TRIF, RIG-I/MDA5, and cGAS-STING sensing. |
+| [[Intermedin]] | Uncategorized | Adrenomedullin 2 (intermedin), a calcitonin-family peptide hormone that enhances mitochondrial bioenergetics via AMPK/SIRT3-mediated cristae remodeling in vascular calcification. |
+| [[Irisin]] | Uncategorized | Exercise-induced myokine cleaved from the FNDC5 membrane protein that drives browning of white adipose tissue, promotes bone formation, enhances BDNF-dependent neuroprotection, and exerts cardiovas... |
+| [[KDM5C]] | Uncategorized | KDM5C (Lysine Demethylase 5C, also called JARID1C) is an X-linked H3K4 |
+| [[KDM6A]] | Uncategorized | KDM6A (Lysine Demethylase 6A, also called UTX) is an X-linked H3K27me3 |
+| [[Lactylation]] | Uncategorized | Lysine lactylation (Kla), a lactate-derived post-translational modification of histones and other proteins that couples metabolic state to gene expression; implicated in SIRT3-dependent ferroptosis... |
+| [[Liquiritigenin]] | Uncategorized | Flavanone from licorice (Glycyrrhiza) that induces Nrf2 translocation to potentiate SIRT3 activity, supporting mitochondrial biogenesis and suppressing apoptosis in acute kidney injury. |
+| [[Loss of Y Chromosome]] | Uncategorized | Mosaic loss of the Y chromosome in blood with age; male-specific driver of fibrosis, immune dysregulation, cancer, and cardiovascular risk. |
+| [[MAGEC3]] | Uncategorized | MAGEC3 (Melanoma-Associated Antigen Family Member C3) is an X-linked |
+| [[MIP-2]] | Uncategorized | Macrophage inflammatory protein 2 (CXCL2), a CXC chemokine that recruits neutrophils to sites of inflammation; its expression is suppressed downstream of SIRT3 activation. |
+| [[MMP-7]] | Uncategorized | Matrix metalloproteinase 7 (matrilysin), a secreted zinc-dependent endopeptidase that degrades ECM components and sheds substrates; implicated in epithelial-mesenchymal transition and renal fibrosi... |
+| [[Matrine]] | Uncategorized | Quinolizidine alkaloid from Sophora flavescens with anti-inflammatory, antioxidant, and cardiorenal protective activity; protects against cisplatin nephrotoxicity via the SIRT3/OPA1 axis. |
+| [[Meteorin-like]] | Uncategorized | Meteorin-like protein (Metrnl), an exercise- and cold-induced myokine/adipokine that activates the PGC-1alpha/SIRT3 axis to preserve mitochondrial ultrastructure and regulate energy metabolism in d... |
+| [[Mst1]] | Uncategorized | Mammalian STE20-like kinase 1 (STK4), a Hippo pathway kinase regulating apoptosis, autophagy, and cell proliferation; its phosphorylation is inhibited by melatonin to protect the diabetic heart via... |
+| [[NBS1]] | Uncategorized | Nijmegen breakage syndrome 1 protein; core subunit of the MRE11–RAD50–NBS1 (MRN) complex for DNA double-strand-break sensing, deacetylated and stabilized by SIRT1. |
+| [[NUCKS1]] | Uncategorized | Nuclear casein kinase and cyclin-dependent kinase substrate 1, an abundant intrinsically disordered nuclear phosphoprotein with HMG-box-like DNA/RNA binding that regulates chromatin organization, t... |
+| [[Non-homologous End Joining]] | Uncategorized | DNA double-strand break repair pathway that directly ligates broken ends without a homologous template; dominant repair route in G1 phase and in post-mitotic cells. |
+| [[Nucleus Pulposus]] | Uncategorized | Gelatinous inner core of the intervertebral disc, composed of notochordal-derived cells embedded in a proteoglycan-rich matrix; its degeneration is central to intervertebral disc degeneration. |
+| [[P66shc]] | Uncategorized | 66 kDa Src-homology-2-domain-containing isoform of the ShcA adaptor; a mitochondrial ROS generator and longevity regulator negatively controlled by SIRT1. |
+| [[Periodontitis]] | Uncategorized | Chronic inflammatory disease of the tooth-supporting tissues (gingiva, periodontal ligament, alveolar bone) driven by dysbiotic biofilm and host immune responses, leading to alveolar bone resorptio... |
+| [[Poricoic acid A]] | Uncategorized | Lanostane triterpenoid from Poria cocos that upregulates SIRT3 and promotes beta-catenin K49 deacetylation, attenuating renal fibroblast activation and interstitial fibrosis. |
+| [[Pregnane X Receptor]] | Uncategorized | PXR (NR1I2) is a nuclear xenobiotic receptor activated by gut microbial |
+| [[RHIM]] | Uncategorized | RIP homotypic interaction motif (RHIM) — the amyloid-forming protein interaction module that assembles RIPK1/RIPK3, ZBP1, and TRIF necrosomes in necroptosis. |
+| [[Ripoptosome]] | Uncategorized | A 2 MDa death-receptor-independent intracellular complex of RIPK1, FADD, caspase-8, caspase-10 and c-FLIP isoforms that forms when cIAPs are depleted and decides between apoptosis and necroptosis. |
+| [[SENP1]] | Uncategorized | Sentrin/SUMO-specific protease 1; cleaves SUMO from conjugated substrates (deSUMOylation), regulating protein localization, stability, and activity across stress responses. |
+| [[SHARPIN]] | Uncategorized | Component of the linear ubiquitin chain assembly complex (LUBAC) and a regulator of RIPK1-dependent signaling; spontaneous SHARPIN-deficiency causes chronic proliferative dermatitis in mice that is... |
+| [[Silybin]] | Uncategorized | Flavonolignan from milk thistle (Silybum marianum) with hepatoprotective and nephroprotective activity; attenuates cisplatin nephrotoxicity likely via SIRT3-mediated preservation of tubular integri... |
+| [[Stanniocalcin-1]] | Uncategorized | Glycoprotein hormone that orchestrates a hormetic AMPK/SIRT3 axis mitigating oxidative stress and apoptosis; inhibits BNIP3 expression to ameliorate renal injury in diabetic models. |
+| [[Succinate Dehydrogenase]] | Uncategorized | Succinate dehydrogenase (SDH, respiratory complex II), the only enzyme participating in both the TCA cycle and the electron transport chain; a key acetylation node regulated by SIRT3 in the mitocho... |
+| [[TLR6]] | Uncategorized | Toll-like receptor 6, a cell-surface innate immune receptor that heterodimerizes with TLR2 to recognize diacylated lipopeptides and lipoteichoic acid via MyD88-dependent signaling. |
+| [[TOM1]] | Uncategorized | Target of Myb1, a VHS/GAT-domain endosomal trafficking adaptor that sorts ubiquitinated membrane receptors to lysosomes, negatively regulates TLR/cytokine signaling, and participates in autophagy;... |
+| [[Type 2 Diabetes]] | Uncategorized | Chronic metabolic disorder characterized by insulin resistance and progressive pancreatic beta-cell dysfunction, driving hyperglycemia and multiorgan complications. |
+| [[Type I vs Type II Cells]] | Uncategorized | The distinction between type I cells that execute death-receptor apoptosis directly via caspase-8 to caspase-3 and type II cells that require Bid-mediated mitochondrial amplification. |
+| [[UTY]] | Uncategorized | UTY (Ubiquitously Transcribed TPR Gene on Y Chromosome) is the Y homolog of KDM6A that lacks H3K27 demethylase activity but retains non-catalytic tumor-suppressor function. |
+| [[Withaferin A]] | Uncategorized | Bioactive withanolide from Withania somnifera (ashwagandha) with anti-inflammatory, anti-fibrotic, and anti-tumor activity; exerts hepatic anti-fibrotic effects through SIRT3. |
+| [[miR-34a]] | Uncategorized | Tumor-suppressive microRNA induced by p53 that represses SIRT1 translation; a node in the p53–miR-34a–SIRT1 senescence feedback loop. |
+| [[miR-494-3p]] | Uncategorized | MicroRNA that targets SIRT3 under oxidative stress, driving a senescence feedback loop systemically and accelerating cellular senescence in small airway epithelial cells in COPD. |
+| [[p22-FLIP]] | Uncategorized | The N-terminal p22 fragment of c-FLIP generated by caspase-8 cleavage at Asp198/Asp196 — a FADD-independent DED1-DED2 module that binds NEMO/IKKgamma and potently activates NF-kB. |
+| [[p43-FLIP]] | Uncategorized | The N-terminal p43 cleavage fragment of c-FLIP long form generated by caspase-8 at Asp376 — a DISC-retained heterodimer partner that amplifies procaspase-8 recruitment and NF-kB signaling. |
+| [[ribonucleotide reductase]] | Uncategorized | Ribonucleotide reductase (RNR) is the sole enzyme that catalyzes the de novo conversion of ribonucleoside diphosphates (NDPs) into deoxyribonucleoside diphosphates (dNDPs), making it the rate-limit... |
+| [[soluble epoxide hydrolase]] | Uncategorized | Soluble epoxide hydrolase (sEH/EPHX2), a bifunctional enzyme that degrades cardioprotective epoxy-fatty acids and modulates SIRT3 protein turnover via proteolytic degradation in vascular calcificat... |
+| [[vFLIP]] | Uncategorized | Viral FLICE-inhibitory proteins — DED-containing viral mimics of c-FLIP that block death-receptor apoptosis and rewire NF-kB signaling to keep infected cells alive. |
+| [[α-tubulin]] | Uncategorized | Alpha subunit of tubulin heterodimers; principal cytoplasmic deacetylation substrate of SIRT2, linking the sirtuin to microtubule dynamics, mitosis, and the senescence marker phenotype. |
 
 ### Vaccine (1)
 
@@ -2213,3 +2411,88 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Endogenous Retrovirus]] | Virus | Endogenous retroviruses (ERVs), germline-integrated retroviral relics that are epigenetically silenced in youth and derepressed in senescence and aging to drive innate immune inflammation. |
 | [[Human Endogenous Retrovirus]] | Virus | HERV, ancient retroviral sequences constituting ~8% of the human genome that are derepressed in senescence by DNA demethylation and heterochromatin decompaction, driving SASP and paracrine senescen... |
 | [[Varicella Zoster Virus]] | Virus | Human alphaherpesvirus causing chickenpox (primary infection) and establishing lifelong latency that can reactivate as herpes zoster (shingles). |
+
+
+### Antibody (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[IgE]] | Antibody | Allergy-driving antibody isotype produced after IL-4/IL-13 class switching; triggers mast cell degranulation. |
+
+### Cell Biology (2)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Cell Migration]] | Cell Biology | Directed cell movement via actin remodeling, adhesion turnover, and growth-factor guidance. |
+| [[Chromosome]] | Cell Biology | Packaged DNA-protein structure carrying genetic information; segregated during mitosis and meiosis. |
+
+### Cell Death (2)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Eryptosis]] | Cell Death | The apoptosis-like regulated death of anucleate red blood cells — Ca2+ influx, calpain/scramblase activation, phosphatidylserine exposure — leading to silent splenic clearance. |
+| [[NETosis]] | Cell Death | Regulated neutrophil death with extrusion of neutrophil extracellular traps (NETs) — decondensed chromatin plus histones, elastase, and myeloperoxidase — via largely PAD4-mediated histone citrullin... |
+
+### Cellular Process (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Mitochondrial Permeability Transition]] | Cellular Process | Pathological increase in inner and outer mitochondrial membrane permeability causing swelling, ROS, NAD+ loss, and necrotic death. |
+
+### Chromatin (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[SWI-SNF]] | Chromatin | ATP-dependent chromatin-remodeling complex family mutated across cancers and neurodevelopmental disorders. |
+
+### Cytoskeleton (3)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Actin]] | Cytoskeleton | Cytoskeletal filament protein driving cell shape, motility, junctions, and phagocytosis. |
+| [[Cytoskeleton]] | Cytoskeleton | Actin, microtubule, and intermediate-filament networks governing shape, adhesion, and migration. |
+| [[Myosin]] | Cytoskeleton | Actin-based motor protein powering muscle contraction, cytokinesis, and vesicle transport. |
+
+### Immune Cell (2)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[CD4]] | Immune Cell | Co-receptor marking helper T cells that recognize MHC class II and orchestrate adaptive immunity. |
+| [[Regulatory T Cell]] | Immune Cell | FoxP3+ immunosuppressive T cells maintaining tolerance; induced by TGF-beta, IDO1, and AhR signaling. |
+
+### Inhibitor (2)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Cl-amidine]] | Inhibitor | A pan-peptidylarginine deiminase inhibitor that blocks PAD4-mediated histone citrullination and NET release — the pharmacological probe for PAD4-dependent NETosis. |
+| [[Q-VD-OPh]] | Inhibitor | A broad-spectrum, non-toxic caspase inhibitor (quinolyl-valyl-O-methylaspartyl-fluorophenoxy) that rescues caspase-dependent apoptosis — female-selective in ischemia models. |
+
+### miRNA (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[miR-137]] | miRNA | miR-137 is a microRNA that negatively regulates ferroptosis in melanoma by directly targeting the glutamine transporter SLC1A5. |
+
+### Oncogene (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[BCR-ABL]] | Oncogene | Oncogenic fusion kinase driving chronic myeloid leukemia; target of imatinib and successors. |
+
+### Peptide (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[ADM]] | Peptide | Adrenomedullin vasodilatory peptide; plasma aging biomarker in GrimAge clocks alongside cystatin C. |
+
+### Symptom (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Rigidity]] | Symptom | Parkinsonian motor sign of increased muscle tone from basal ganglia dopamine loss. |
+
+### Tissue (1)
+
+| Entity | entity_type_1 | Description |
+| --- | --- | --- |
+| [[Muscle]] | Tissue | Contractile tissue spanning skeletal, cardiac, and smooth types; major metabolic and creatine reservoir. |
