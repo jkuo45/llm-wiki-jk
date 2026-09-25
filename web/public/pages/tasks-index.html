@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Task Outputs — Index</title>
-<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by when they were created.">
+<meta name="description" content="Index of all task outputs in the llm-wiki-jk knowledge base, grouped by when they were created or updated.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="themes/theme-02/theme.css">
 <script src="themes/theme-02/theme.js"></script>
@@ -62,9 +62,10 @@
 
 <script>
 (function(){
-  const { esc, highlight, parseQuery, asStr, relAge, bucket, BUCKETS,
+  const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
+  const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('taskIndex');
   const emptyNote = document.getElementById('emptyNote');
   const noMatchNote = document.getElementById('noMatchNote');
@@ -115,12 +116,21 @@
       return f && Object.prototype.hasOwnProperty.call(f, 'starred')
         ? f.starred === true : t.starred === true;
     };
+    const toTime = (s) => { const t = Date.parse(s || ''); return Number.isNaN(t) ? -Infinity : t; };
     const tasks = (data.tasks || [])
       .filter(t => t.active !== false && t.id !== 'tasks-index' && t.langs && t.langs['en-US'])
       .map(t => {
         const en = t.langs['en-US'];
         const zh = t.langs['zh-TW'];
+        /* Sort/group by whichever is newer — created or updated (fall
+           back to created when an entry has no updated date).
+           Date.parse comparison (not string >) so mixed ISO formats
+           still order correctly; unparsable dates sort as oldest.
+           Task dates live under langs (no top-level dates like articles). */
+        const updated = en.updated || zh?.updated || en.created || zh?.created || '';
         const created = en.created || zh?.created || '';
+        const latest = toTime(updated) >= toTime(created) ? (updated || created) : created;
+        const isNew = toTime(created) >= toTime(updated);
         const key = taskIdOf(t);
         const starred = dbStarred(t, key);
         return {
@@ -133,11 +143,14 @@
           zhPath: zh ? zh.path : en.path,
           zhTitle: zh ? asStr(zh.title) : '',
           created,
-          age: relAge(created),
-          bucket: starred ? 0 : bucket(created),
+          updated,
+          latest,
+          verb: isNew ? 'created' : 'updated',
+          age: relAge(latest),
+          bucket: starred ? 0 : bucket(latest),
         };
       })
-      .sort((x, y) => (y.starred - x.starred) || y.created.localeCompare(x.created));
+      .sort((x, y) => (y.starred - x.starred) || (toTime(y.latest) - toTime(x.latest)));
 
       const viewerHref = (path) =>
         'md-viewer.html?kind=task&src=' + encodeURIComponent('../' + path);
@@ -160,7 +173,7 @@
               ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="task-desc">${highlight(t.desc, tokens)}</p>` : ''}
               <p class="task-meta"><code>${esc(t.file)}</code></p>
-              <p class="task-meta"><span class="${cls}">${t.age === 'today' ? 'created today' : `created ${esc(t.age)} ago`} (${esc(t.created)})</span></p>
+              <p class="task-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span></p>
             </li>`).join('');
           html += '</ul>';
         });
