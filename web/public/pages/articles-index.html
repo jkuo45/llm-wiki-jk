@@ -77,10 +77,17 @@
 
 .article-meta:last-child { margin-bottom: 0; }
 
+/* Descriptions are hidden by default (compact card list); the toggle in the
+   search row flips this class on. Search still matches desc text either way. */
+.no-desc .article-desc { display: none; }
+.article-desc { color: var(--mute); font-size: .92rem; margin: 0 0 10px; }
+
 /* Index-type entries (weight > 0 in articles.json) sit at the bottom of
    each bucket and render dimmed so real articles stay prominent. */
 .article-card.is-index { opacity: 0.72; }
 
+/* Descriptions toggle: reads as "off" when dimmed, "on" when accented */
+.desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 /* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
 .sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 
@@ -98,6 +105,7 @@
       <input type="search" id="searchBox" placeholder="search articles… / 搜尋文章" autocomplete="off">
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
       <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
+      <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
     </div>
     <div id="articleList"></div>
     <p class="empty-note" id="noMatchNote" hidden></p>
@@ -118,6 +126,12 @@
   const noMatchNote = document.getElementById('noMatchNote');
   const searchBox = document.getElementById('searchBox');
   const searchClear = document.getElementById('searchClear');
+  const descToggle = document.getElementById('descToggle');
+  const DESC_KEY = 'articles-index-desc';
+  /* Descriptions hidden by default; the ¶ toggle flips them and remembers
+     the choice for the session. */
+  let showDesc = false;
+  try { showDesc = sessionStorage.getItem(DESC_KEY) === '1'; } catch { /* storage unavailable */ }
   /* Restore the query from a previous visit so returning from an article
      keeps the active filter. */
   restoreQuery(searchBox, SEARCH_KEY);
@@ -216,12 +230,15 @@
               <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
+              ${a.desc ? `<p class="article-desc">${highlight(a.desc, tokens)}</p>` : ''}
               <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
               <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`} (${esc(a.latest || '—')})</span></p>
             </li>`).join('');
           html += '</ul>';
         });
         list.innerHTML = html;
+        list.classList.toggle('no-desc', !showDesc);
+        descToggle.setAttribute('aria-pressed', showDesc ? 'true' : 'false');
         noMatchNote.hidden = !(articles.length && !shown && tokens.length);
         noMatchNote.textContent = `No articles match “${searchBox.value.trim()}” / 沒有符合的文章`;
         persistQuery(searchBox, SEARCH_KEY);
@@ -231,6 +248,13 @@
       /* Debounced re-render on input; the query survives navigation via
          sessionStorage so returning from an article keeps the filter. */
       wireSearch(searchBox, searchClear, SEARCH_KEY, render);
+
+      descToggle.addEventListener('click', () => {
+        showDesc = !showDesc;
+        try { sessionStorage.setItem(DESC_KEY, showDesc ? '1' : '0'); }
+        catch { /* storage unavailable */ }
+        render();
+      });
 
       emptyNote.hidden = articles.length > 0;
       if (!articles.length) emptyNote.textContent = 'No active articles found.';

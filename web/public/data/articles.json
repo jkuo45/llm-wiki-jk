@@ -5,10 +5,12 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Pleiotropy in Tumor Cell Metabolism",
+                "description": "How SIRT1–SIRT7 flip between tumor-suppressive and oncogenic roles depending on compartment, tumor type, and NAD+ availability — an interactive atlas of sirtuin pleiotropy in cancer metabolism.",
                 "path": "pages/en-US/sirtuins-pleiotropic-roles.html"
             },
             "zh-TW": {
                 "title": "腫瘤細胞代謝中的多效性",
+                "description": "SIRT1–SIRT7 如何依胞器位置、腫瘤類型與 NAD+ 可用性，在腫瘤抑制與致癌角色間翻轉——癌細胞代謝中 sirtuin 多效性的互動圖譜。",
                 "path": "pages/zh-TW/sirtuins-pleiotropic-roles.html"
             }
         },
@@ -21,10 +23,12 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Disease Complications",
+                "description": "A complication-by-complication atlas of the seven sirtuins across disease states — who protects, who harms, and where tissue or genetic context flips the sign.",
                 "path": "pages/en-US/sirtuins_disease_complications.html"
             },
             "zh-TW": {
                 "title": "疾病併發症",
+                "description": "七種 sirtuin 於各疾病狀態的逐項併發症圖譜——誰具保護作用、誰造成傷害，以及組織或基因脈絡在何處翻轉其效應方向。",
                 "path": "pages/zh-TW/sirtuins_disease_complications.html"
             }
         },
@@ -37,10 +41,12 @@
         "langs": {
             "en-US": {
                 "title": "[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)",
+                "description": "Two repurposed antiparasitics with barely overlapping anticancer mechanisms — ivermectin at kinase/signalling hubs, fenbendazole at structural/metabolic machinery — charted as a candidate repositioning combination (preclinical).",
                 "path": "pages/en-US/ivermectin-fenbendazole-anticancer.html"
             },
             "zh-TW": {
                 "title": "伊維菌素 × 芬苯達唑（互補抗癌機制）",
+                "description": "兩種重定位抗寄生蟲藥具幾乎不重疊的抗癌機制——伊維菌素作用於激酶／訊號樞紐、芬苯達唑作用於結構／代謝機械——以圖表呈現此候選組合（臨床前）。",
                 "path": "pages/zh-TW/ivermectin-fenbendazole-anticancer.html"
             }
         },
@@ -53,10 +59,12 @@
         "langs": {
             "en-US": {
                 "title": "[Speculative] Adrenochrome MB/AG Protocol",
+                "description": "Speculative mitohormetic longevity stack: controlled low-level oxidative stress from adrenochrome derivatives, amplified by methylene blue and buffered by aminoguanidine, across mitochondrial dysfunction, senescence, and proteostasis.",
                 "path": "pages/en-US/adrenochrome-protocol.html"
             },
             "zh-TW": {
                 "title": "腎上腺色素 亞甲藍/銀 方案（推測性）",
+                "description": "推測性粒線體激效長壽堆疊：以腎上腺色素衍生物可控的低度氧化壓力為核心，經亞甲藍放大、氨基胍緩衝，涵蓋粒線體功能障礙、細胞衰老與蛋白質穩態。",
                 "path": "pages/zh-TW/adrenochrome-protocol.html"
             }
         },
@@ -70,10 +78,12 @@
         "langs": {
             "en-US": {
                 "title": "Sirtuins - Articles, figures, images (index)",
+                "description": "Topic index of the sirtuins wiki: 16 documents with citations plus a gallery of 44 figures from 17 open-access sources — protein structure, enzymes, pathways, and mechanisms.",
                 "path": "pages/en-US/sirtuins-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "Sirtuins — 文章中的圖像與圖表",
+                "description": "sirtuins 主題索引：16 份附引文的文件，以及來自 17 個開放取用來源的 44 張圖表圖庫——蛋白質結構、酵素、路徑與機制。",
                 "path": "pages/zh-TW/sirtuins-articles-and-figures.html"
             }
         },
@@ -87,10 +97,12 @@
         "langs": {
             "en-US": {
                 "title": "Senescence - Articles, figures, images (index)",
+                "description": "Topic index of the senescence wiki: 15 documents with citations plus a gallery of 50 figures from 19 open-access sources — SASP, cGAS-STING, and senescence biology.",
                 "path": "pages/en-US/senescence-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "細胞衰老 — 文章中的圖像與圖表",
+                "description": "細胞衰老主題索引：15 份附引文的文件，以及來自 19 個開放取用來源的 50 張圖表圖庫——SASP、cGAS-STING 與衰老生物學。",
                 "path": "pages/zh-TW/senescence-articles-and-figures.html"
             }
         },
@@ -104,10 +116,12 @@
         "langs": {
             "en-US": {
                 "title": "Cell Death - Articles, figures, images (index)",
+                "description": "Topic index of the cell-death wiki: vault documents and pending-ingestion papers with citations, plus a gallery of 45 figures from open-access sources.",
                 "path": "pages/en-US/cell-death-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "細胞死亡 — 文章中的圖像與圖表",
+                "description": "細胞死亡主題索引：vault 文件與待納入論文並附引文，以及來自開放取用來源的 45 張圖表圖庫。",
                 "path": "pages/zh-TW/cell-death-articles-and-figures.html"
             }
         },
@@ -121,10 +135,12 @@
         "langs": {
             "en-US": {
                 "title": "Hormesis - Articles, figures, images (index)",
+                "description": "Topic index of the hormesis wiki: 7 documents with citations plus a gallery of 31 figures from 7 open-access sources — the bibliometric history and biology of hormetic dose-responses.",
                 "path": "pages/en-US/hormesis-articles-and-figures.html"
             },
             "zh-TW": {
                 "title": "毒物興奮效應 — 文章中的圖像與圖表",
+                "description": "毒物興奮效應主題索引：7 份附引文的文件，以及來自 7 個開放取用來源的 31 張圖表圖庫——激效劑量反應的計量文獻史與生物學。",
                 "path": "pages/zh-TW/hormesis-articles-and-figures.html"
             }
         },
@@ -137,10 +153,12 @@
         "langs": {
             "en-US": {
                 "title": "Node-level Network Analysis for Biological Knowledge Graphs",
+                "description": "Reference for node-level analysis in a directed biological knowledge graph: the NetworkX pipeline, centrality measures, and worked prioritization examples.",
                 "path": "pages/en-US/node-analysis-examples-biology.html"
             },
             "zh-TW": {
                 "title": "用於生物學優先排序的節點層級網絡分析",
+                "description": "有向生物知識圖譜中節點層級分析的參考：管線、中心性指標，以及實作的優先排序範例。",
                 "path": "pages/zh-TW/node-analysis-examples-biology.html"
             }
         },
@@ -153,10 +171,12 @@
         "langs": {
             "en-US": {
                 "title": "[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
+                "description": "Network-trace atlas for the methylene blue + aminoguanidine adrenochrome protocol — graph paths coupling each protocol agent to sirtuins, mitohormesis, and autophagy.",
                 "path": "pages/en-US/adrenochrome-protocol-node-network-analysis.html"
             },
             "zh-TW": {
                 "title": "腎上腺素紅方案：作用劑—觸發器網絡追蹤",
+                "description": "亞甲藍＋氨基胍腎上腺色素方案的網絡追蹤圖譜——將各方案成分與 sirtuins、粒線體激效及自噬耦合的圖譜路徑。",
                 "path": "pages/zh-TW/adrenochrome-protocol-node-network-analysis.html"
             }
         },
@@ -169,10 +189,12 @@
         "langs": {
             "en-US": {
                 "title": "[index] articles",
+                "description": "Index of all articles in the reader, grouped by when they were created or updated.",
                 "path": "pages/articles-index.html"
             },
             "zh-TW": {
                 "title": "文章索引",
+                "description": "閱讀器中所有文章的索引，依建立或更新時間分組。",
                 "path": "pages/articles-index.html"
             }
         },
@@ -185,10 +207,12 @@
         "langs": {
             "en-US": {
                 "title": "Biological Processes in the Combined Knowledge Graph (wiki + triples)",
+                "description": "Biology-focused tour of the combined knowledge graph — what the union of triples and Obsidian wikilinks surfaces for biological processes.",
                 "path": "pages/en-US/wiki-and-triples-graph-biological-processes.html"
             },
             "zh-TW": {
                 "title": "合併知識圖譜中的生物過程（wiki + triples）",
+                "description": "以生物學為焦點的合併知識圖譜導覽——triples 與 Obsidian wikilinks 聯集所呈現的生物過程。",
                 "path": "pages/zh-TW/wiki-and-triples-graph-biological-processes.html"
             }
         },
@@ -201,10 +225,12 @@
         "langs": {
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
+                "description": "Multi-metric network analysis of all caspase nodes on the combined triples + wiki knowledge graph — centrality, communities, and role ranking.",
                 "path": "pages/en-US/caspase-graph-analysis-28-AUG-2026.html"
             },
             "zh-TW": {
                 "title": "Caspases — 圖譜分析（wiki + triples）",
+                "description": "在 triples＋wiki 合併知識圖譜上對全部 caspase 節點的多指標網絡分析——中心性、社群與角色排名。",
                 "path": "pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html"
             }
         },
@@ -217,10 +243,12 @@
         "langs": {
             "en-US": {
                 "title": "Neurodegeneration Compared — AD, PD, HD, and the ALS–FTD Spectrum",
+                "description": "Comparative review of Alzheimer's, Parkinson's, Huntington's, and the ALS–FTD spectrum — shared mechanisms, divergent vulnerabilities, and disease-specific pathology.",
                 "path": "pages/en-US/neurodegeneration-ad-pd-hd-als-review.html"
             },
             "zh-TW": {
                 "title": "神經退化性疾病比較 — 阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系",
+                "description": "阿茲海默症、巴金森氏症、亨丁頓氏症與 ALS–FTD 譜系的比較綜述——共享機制、分歧的脆弱性與疾病特異病理。",
                 "path": "pages/zh-TW/neurodegeneration-ad-pd-hd-als-review.html"
             }
         },
@@ -233,10 +261,12 @@
         "langs": {
             "en-US": {
                 "title": "SIRT3 — The Mitochondrial Deacetylase at the Center of Aging",
+                "description": "Deep dive into SIRT3, the mitochondrial deacetylase linked to human longevity — structure, downstream targets, and its role across aging and age-related disease.",
                 "path": "pages/en-US/sirt3-aging-aging-related-diseases.html"
             },
             "zh-TW": {
                 "title": "SIRT3 — 居於老化核心的粒線體去乙醯酶",
+                "description": "深入解析與人類壽命相關的粒線體去乙醯酶 SIRT3——結構、下游標的，以及其在老化與年齡相關疾病中的角色。",
                 "path": "pages/zh-TW/sirt3-aging-aging-related-diseases.html"
             }
         },
@@ -249,10 +279,12 @@
         "langs": {
             "en-US": {
                 "title": "Reading a Discovery Arrival — Graph Metrics and Typed Edges (Ferroptosis & COVID)",
+                "description": "How knowledge-graph metrics behave when a new discovery lands — the five-phase discovery arrival told through the ferroptosis and COVID edge records.",
                 "path": "pages/en-US/discovery-arrival-graph-metrics.html"
             },
             "zh-TW": {
                 "title": "解讀一次新發現的抵達 — 圖譜指標與型別化邊（鐵死亡與 COVID）",
+                "description": "新發現進入知識圖譜時各項指標如何變化——以鐵死亡與 COVID 的邊記錄呈現五階段「發現抵達」過程。",
                 "path": "pages/zh-TW/discovery-arrival-graph-metrics.html"
             }
         },
@@ -265,10 +297,12 @@
         "langs": {
             "en-US": {
                 "title": "Beyond Mitohormesis — 12 Overlooked Hormetic Domains",
+                "description": "Data-driven synthesis of twelve overlooked hormetic domains — where mild stressors confer benefit beyond the mitochondrial paradigm.",
                 "path": "pages/en-US/beyond-mitohormesis-overlooked-paradigms.html"
             },
             "zh-TW": {
                 "title": "超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域",
+                "description": "十二個被忽視的激效領域之數據驅動綜述——溫和壓力源帶來超越粒線體典範的益處。",
                 "path": "pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html"
             }
         },
@@ -281,10 +315,12 @@
         "langs": {
             "en-US": {
                 "title": "Hormetic Range Assessment",
+                "description": "Interactive assessment mapping where you sit on the hormetic scale across 19 overlooked biological domains — sensors, downstream effectors, and dose-response positioning.",
                 "path": "pages/en-US/hormetic-range-assessment.html"
             },
             "zh-TW": {
                 "title": "毒物興奮範圍評估 — 映射你的生物韌性",
+                "description": "互動式評估，在 19 個被忽視的生物領域中定位你在激效量表上的位置——感測器、下游效應器與劑量反應定位。",
                 "path": "pages/zh-TW/hormetic-range-assessment.html"
             }
         },
@@ -297,10 +333,12 @@
         "langs": {
             "en-US": {
                 "title": "Cell Death Comparison [table + 3d]",
+                "description": "Ten-way comparison table plus looping 3-D animations of the major cell death programs — apoptosis, necroptosis, pyroptosis, ferroptosis, and more.",
                 "path": "pages/en-US/cell-death-comparison.html"
             },
             "zh-TW": {
                 "title": "細胞死亡比較［表格＋3d］",
+                "description": "十種主要細胞死亡程式的比較表＋循環 3-D 動畫——細胞凋亡、壞死性凋亡、焦亡、鐵死亡等。",
                 "path": "pages/zh-TW/cell-death-comparison.html"
             }
         },
@@ -313,10 +351,12 @@
         "langs": {
             "en-US": {
                 "title": "Male Distributed Topology vs the Centralized Estrogen Hub",
+                "description": "Male biology as a distributed network topology — androgen receptor, PARP-1/AIF, single-X, loss of Y, SIRT6/IGF-1 — set against the centralized estrogen hub.",
                 "path": "pages/en-US/male-distributed-topology-vs-estrogen-hub.html"
             },
             "zh-TW": {
                 "title": "男性分散式拓撲 vs 集中式雌激素樞紐",
+                "description": "男性生物學即分散式網路拓撲——雄激素受體、PARP-1/AIF、單一 X、Y 染色體流失、SIRT6/IGF-1——對比集中式雌激素樞紐。",
                 "path": "pages/zh-TW/male-distributed-topology-vs-estrogen-hub.html"
             }
         },
@@ -329,10 +369,12 @@
         "langs": {
             "en-US": {
                 "title": "Inside the Human Cell [3d]",
+                "description": "Full-scale three.js human cell (1 unit = 1 µm) with labeled organelles and guided tours of vault processes.",
                 "path": "pages/en-US/inside-the-cell.html"
             },
             "zh-TW": {
                 "title": "人體細胞內部 [3d]",
+                "description": "全尺寸等比例 three.js 人類細胞（1 單位 = 1 µm），胞器皆標示，並提供知識庫過程導覽。",
                 "path": "pages/zh-TW/inside-the-cell.html"
             }
         },
@@ -345,10 +387,12 @@
         "langs": {
             "en-US": {
                 "title": "Necroptosis",
+                "description": "Minimalist three.js cell illustrating multilayered necroptosis regulation — RIPK1 integration, RIPK3 necrosome, and MLKL execution.",
                 "path": "pages/en-US/necroptosis.html"
             },
             "zh-TW": {
                 "title": "壞死性凋亡",
+                "description": "呈現壞死性凋亡多層調控的極簡 three.js 細胞——RIPK1 整合、RIPK3 死亡複合體與 MLKL 執行。",
                 "path": "pages/zh-TW/necroptosis.html"
             }
         },
@@ -361,10 +405,12 @@
         "langs": {
             "en-US": {
                 "title": "Apoptosis",
+                "description": "Minimalist three.js cell illustrating apoptosis regulation — caspase-8 initiation, mitochondrial amplification, and executioner caspases.",
                 "path": "pages/en-US/apoptosis.html"
             },
             "zh-TW": {
                 "title": "細胞凋亡",
+                "description": "呈現細胞凋亡調控的極簡 three.js 細胞——Caspase-8 啟動、粒線體放大與執行者 caspase。",
                 "path": "pages/zh-TW/apoptosis.html"
             }
         },
@@ -377,10 +423,12 @@
         "langs": {
             "en-US": {
                 "title": "Parthanatos",
+                "description": "Minimalist three.js cell illustrating parthanatos — PARP1 hyperactivation, AIF release, and large-scale chromatin condensation.",
                 "path": "pages/en-US/parthanatos.html"
             },
             "zh-TW": {
                 "title": "Parthanatos",
+                "description": "呈現 Parthanatos 的極簡 three.js 細胞——PARP1 過度活化、AIF 釋出與大規模染色質凝縮。",
                 "path": "pages/zh-TW/parthanatos.html"
             }
         },
@@ -393,10 +441,12 @@
         "langs": {
             "en-US": {
                 "title": "Necrosis",
+                "description": "Minimalist three.js cell illustrating accidental necrosis — pump failure, calcium overload, and membrane rupture.",
                 "path": "pages/en-US/necrosis.html"
             },
             "zh-TW": {
                 "title": "壞死",
+                "description": "呈現意外性壞死的極簡 three.js 細胞——幫浦失效、鈣超載與膜破裂。",
                 "path": "pages/zh-TW/necrosis.html"
             }
         },
@@ -409,10 +459,12 @@
         "langs": {
             "en-US": {
                 "title": "Ferroptosis",
+                "description": "Minimalist three.js cell illustrating ferroptosis regulation — System Xc⁻ supply, GPX4 defense, and iron-catalyzed lipid peroxidation.",
                 "path": "pages/en-US/ferroptosis.html"
             },
             "zh-TW": {
                 "title": "鐵死亡",
+                "description": "呈現鐵死亡調控的極簡 three.js 細胞——System Xc⁻ 供應、GPX4 防禦與鐵催化脂質過氧化。",
                 "path": "pages/zh-TW/ferroptosis.html"
             }
         },
@@ -425,10 +477,12 @@
         "langs": {
             "en-US": {
                 "title": "Autophagy",
+                "description": "Minimalist three.js cell illustrating autophagy regulation — mTORC1/AMPK sensing, phagophore formation, and lysosomal degradation.",
                 "path": "pages/en-US/autophagy.html"
             },
             "zh-TW": {
                 "title": "自噬",
+                "description": "呈現自噬調控的極簡 three.js 細胞——mTORC1/AMPK 感測、吞噬泡形成與溶酶體降解。",
                 "path": "pages/zh-TW/autophagy.html"
             }
         },
@@ -441,10 +495,12 @@
         "langs": {
             "en-US": {
                 "title": "Pyroptosis",
+                "description": "Minimalist three.js cell illustrating pyroptosis — inflammasome assembly, gasdermin pores, and IL-1β release.",
                 "path": "pages/en-US/pyroptosis.html"
             },
             "zh-TW": {
                 "title": "焦亡",
+                "description": "呈現焦亡的極簡 three.js 細胞——發炎小體組裝、gasdermin 孔道與 IL-1β 釋出。",
                 "path": "pages/zh-TW/pyroptosis.html"
             }
         },
@@ -457,10 +513,12 @@
         "langs": {
             "en-US": {
                 "title": "PANoptosis",
+                "description": "Minimalist three.js cell illustrating PANoptosis — ZBP1 sensing, PANoptosome assembly, and parallel apoptotic/pyroptotic execution.",
                 "path": "pages/en-US/panoptosis.html"
             },
             "zh-TW": {
                 "title": "PANoptosis",
+                "description": "呈現 PANoptosis 的極簡 three.js 細胞——ZBP1 感測、PANoptosome 組裝與凋亡／焦亡平行執行。",
                 "path": "pages/zh-TW/panoptosis.html"
             }
         },
@@ -473,10 +531,12 @@
         "langs": {
             "en-US": {
                 "title": "Eryptosis",
+                "description": "Minimalist three.js cell illustrating eryptosis in the anucleate red blood cell — calcium influx, membrane scrambling, and phosphatidylserine exposure.",
                 "path": "pages/en-US/eryptosis.html"
             },
             "zh-TW": {
                 "title": "紅血球凋亡",
+                "description": "呈現無核紅血球 eryptosis 的極簡 three.js 細胞——鈣內流、磷脂翻轉與磷脂醯絲胺酸外露。",
                 "path": "pages/zh-TW/eryptosis.html"
             }
         },
@@ -489,10 +549,12 @@
         "langs": {
             "en-US": {
                 "title": "NETosis",
+                "description": "Minimalist three.js cell illustrating NETosis — NADPH-oxidase ROS production, elastase activity, and extracellular DNA trap release.",
                 "path": "pages/en-US/netosis.html"
             },
             "zh-TW": {
                 "title": "NETosis",
+                "description": "呈現 NETosis 的極簡 three.js 細胞——NADPH 氧化酶 ROS 生成、彈性蛋白酶活性與胞外 DNA 網陷阱釋出。",
                 "path": "pages/zh-TW/netosis.html"
             }
         },
@@ -505,10 +567,12 @@
         "langs": {
             "en-US": {
                 "title": "Apoptosis vs Necrosis - Classical Dichotomy",
+                "description": "The classical Kerr–Wyllie–Currie apoptosis/necrosis dichotomy in three.js — morphological hallmarks, the signalling split, and where the boundary blurs.",
                 "path": "pages/en-US/apoptosis-vs-necrosis.html"
             },
             "zh-TW": {
                 "title": "細胞凋亡 vs 壞死 — 經典二分法",
+                "description": "以 three.js 呈現 Kerr–Wyllie–Currie 古典凋亡／壞死二分法——形態學特徵、訊號分流與邊界模糊之處。",
                 "path": "pages/zh-TW/apoptosis-vs-necrosis.html"
             }
         },
@@ -521,10 +585,12 @@
         "langs": {
             "en-US": {
                 "title": "Regulation of the SASP — Sensors, Signalling, Transcription Factors",
+                "description": "Interactive model of SASP regulation — upstream sensors such as DNA damage and cGAS-STING, signalling cascades, and the transcription factors driving the senescence-associated secretory phenotype.",
                 "path": "pages/en-US/sasp-regulation.html"
             },
             "zh-TW": {
                 "title": "SASP 的調控 — 感測器、訊號與轉錄因子",
+                "description": "SASP 調控的互動模型——上游感測器（DNA 損傷、cGAS-STING）、訊號級聯，以及驅動衰老相關分泌表型的轉錄因子。",
                 "path": "pages/zh-TW/sasp-regulation.html"
             }
         },
@@ -537,10 +603,12 @@
         "langs": {
             "en-US": {
                 "title": "Natural Bioactive Compounds — Spermidine, Fisetin, Berberine, Urolithin A, PCC1 (Dose Estimator)",
+                "description": "Dose estimator for five mechanistically complementary bioactives — spermidine, fisetin, berberine, urolithin A, and PCC1 — with rationale, dietary sources, and combination notes.",
                 "path": "pages/en-US/natural-bioactive-compounds-dosage.html"
             },
             "zh-TW": {
                 "title": "天然生物活性化合物 — 亞精胺、非瑟酮、小檗鹼、尿石素 A、PCC1（劑量估算）",
+                "description": "五種機制互補生物活性物的劑量估算——亞精胺、非瑟酮、小檗鹼、尿石素 A 與 PCC1——含依據、膳食來源與組合說明。",
                 "path": "pages/zh-TW/natural-bioactive-compounds-dosage.html"
             }
         },
@@ -553,10 +621,12 @@
         "langs": {
             "en-US": {
                 "title": "Caspases, Kinases, and Sirtuins — Molecular Control of Cell Death [3D]",
+                "description": "Interactive guide to crosstalk among caspases, kinases, and sirtuins across molecular, organelle, cellular, and tissue levels of cell-death control.",
                 "path": "pages/en-US/caspases-kinases-sirtuins-interaction.html"
             },
             "zh-TW": {
                 "title": "Caspase、激酶與 Sirtuin — 細胞死亡的分子調控",
+                "description": "caspase、激酶與 sirtuin 串擾的互動指南——涵蓋細胞死亡控制的分子、胞器、細胞與組織層級。",
                 "path": "pages/zh-TW/caspases-kinases-sirtuins-interaction.html"
             }
         },
@@ -569,10 +639,12 @@
         "langs": {
             "en-US": {
                 "title": "Lipid Peroxidation — the chain reaction that rusts membranes",
+                "description": "Visual review of lipid peroxidation — initiation, propagation, and termination of the free-radical chain reaction, its product cascade, disease axes, and the membrane defense network.",
                 "path": "pages/en-US/lipid-peroxidation.html"
             },
             "zh-TW": {
                 "title": "脂質過氧化 — 鏽蝕膜結構的自由基鏈式反應",
+                "description": "脂質過氧化視覺化綜述——自由基鏈式反應的引發、傳播與終止、產物級聯、疾病軸線與膜防禦網絡。",
                 "path": "pages/zh-TW/lipid-peroxidation.html"
             }
         },
