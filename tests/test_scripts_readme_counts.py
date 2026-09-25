@@ -198,3 +198,108 @@ class TestBuildWebTasks:
         assert not stale.exists()
         assert (args.web_tasks_dir / "en-US" / "foo.md").exists()
         assert (args.web_tasks_dir / "zh-TW" / "foo_zh-TW.md").exists()
+
+
+# ----------------------------------------------------------------------
+# build_web_wiki — scored top-N selection
+# ----------------------------------------------------------------------
+
+def wiki_args(tmp_path, **over):
+    ns = argparse.Namespace(
+        notes_dir=tmp_path / "notes",
+        web_wiki_dir=tmp_path / "web_wiki",
+        web_data_dir=tmp_path / "web_data",
+        wiki_roles=tmp_path / "node_roles.json",
+        wiki_limit=30,
+        wiki_half_life=60.0,
+        wiki_weights=(0.5, 0.35, 0.10, 0.05),
+        wiki_no_score=False,
+    )
+    for k, v in over.items():
+        setattr(ns, k, v)
+    return ns
+
+
+def write_note(args, name, *, created, updated, starred=False, words=50):
+    d = args.notes_dir / "topic"
+    d.mkdir(parents=True, exist_ok=True)
+    lines = ["---", f"title: {name}", "description: d",
+             f"created: {created}", f"updated: {updated}", "tags: [x]"]
+    if starred:
+        lines.append("starred: true")
+    lines.append("---")
+    (d / f"{name}.md").write_text(
+        "\n".join(lines) + "\n\n" + " ".join(["w"] * words) + "\n",
+        encoding="utf-8",
+    )
+
+
+def write_roles(args, nodes):
+    """nodes: {id: (pagerank, betweenness, degree)}"""
+    payload = {"nodes": [
+        {"id": i, "label": i,
+         "metrics": {"pagerank": p, "betweenness": b, "degree": d}}
+        for i, (p, b, d) in nodes.items()
+    ]}
+    args.wiki_roles.write_text(json.dumps(payload), encoding="utf-8")
+
+
+def wiki_ids(args):
+    doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+    return [g["id"] for g in doc["wiki"]]
+
+
+class TestBuildWebWikiScoring:
+    def _seed(self, tmp_path, **over):
+        from datetime import timedelta
+        args = wiki_args(tmp_path, **over)
+        today = datetime.now(timezone.utc).date()
+        write_roles(args, {
+            "hub": (0.01, 0.18, 300),       # graph-max on every metric
+            "base": (0.0001, 0.0, 2),       # low-metric baseline node
+        })
+        write_note(args, "hub", created="2026-01-01",
+                   updated=str(today - timedelta(days=30)), words=2000)
+        write_note(args, "fresh", created=str(today), updated=str(today))
+        return args
+
+    def test_default_limit_is_50(self):
+        assert rc.WIKI_LIMIT_DEFAULT == 50
+
+    def test_central_hub_beats_fresh_stub(self, tmp_path):
+        args = self._seed(tmp_path)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        ids = wiki_ids(args)
+        assert ids[0] == "wiki-index"
+        assert ids[1:3] == ["hub", "fresh"]  # pure recency would pick fresh first
+
+    def test_no_score_flag_restores_recency_order(self, tmp_path):
+        args = self._seed(tmp_path, wiki_no_score=True)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        assert wiki_ids(args)[1:3] == ["fresh", "hub"]
+
+    def test_star_is_bonus_not_pin(self, tmp_path):
+        from datetime import timedelta
+        args = self._seed(tmp_path)
+        today = datetime.now(timezone.utc).date()
+        # Two equally-old isolated notes: the starred one gets the 0.10 bonus
+        # and ranks higher, but neither outranks the hub, and with limit=1 the
+        # starred note falls out of the feed entirely (bonus, not pin).
+        write_note(args, "oldstar", created="2026-01-01",
+                   updated=str(today - timedelta(days=120)), starred=True)
+        write_note(args, "oldplain", created="2026-01-01",
+                   updated=str(today - timedelta(days=150)))
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        ids = wiki_ids(args)
+        assert ids[1] == "hub"
+        assert ids.index("oldstar") < ids.index("oldplain")
+
+        args.wiki_limit = 1
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        assert wiki_ids(args)[1] == "hub"
+
+    def test_missing_roles_falls_back_to_recency(self, tmp_path):
+        args = self._seed(tmp_path)
+        args.wiki_roles = tmp_path / "nope.json"
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        assert wiki_ids(args)[1:3] == ["fresh", "hub"]

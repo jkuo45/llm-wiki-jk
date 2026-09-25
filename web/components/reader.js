@@ -24,8 +24,8 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // never collide with article groups in the hash route. Bare snake_case ids
 // (no "task:" prefix). Legacy "task:<stem>" deep links still resolve via
 // normalizeTaskId in getArticle. Entity notes are published to the website
-// as a capped, recency-sorted wiki registry (wiki.json — the top
-// `--wiki-limit` notes by newest created/updated, emitted by readme-counts).
+// as a capped wiki registry (wiki.json — the top `--wiki-limit` notes by a
+// recency + graph-centrality score, emitted by readme-counts).
 // The source tabs (#reader-source) switch the dropdown between the three
 // registries; task and wiki options are grouped by recency of their
 // `updated` date (this week / this month / older).

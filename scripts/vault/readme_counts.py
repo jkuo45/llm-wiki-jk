@@ -1,13 +1,22 @@
 import argparse
 import glob
 import json
+import math
 import os
 import re
 import shutil
 import subprocess
+import sys
 import urllib.parse
 from collections import OrderedDict
 from datetime import datetime
+from pathlib import Path
+
+try:
+    from scripts.triples.normalize import norm  # canonical node id (stdlib-only)
+except ModuleNotFoundError:  # direct `python3 scripts/vault/readme_counts.py` run
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+    from scripts.triples.normalize import norm
 
 
 def format_number(n):
@@ -316,10 +325,11 @@ def build_web_tasks(task_data, args):
 
 
 # --- Web artifacts: wiki notes for the reader panel ---------------------------
-# Mirror of the task-output flow above, capped at --wiki-limit entries: the top
-# entity notes by newest created/updated are registered in
-# web/public/data/wiki.json and copied into web/public/wiki/en-US/ (wiped + regenerated
-# each run). web/public/wiki/zh-TW is hand-maintained (translations are stored
+# Mirror of the task-output flow above, capped at --wiki-limit entries: entity
+# notes are scored (recency + graph centrality + star + quality — see
+# score_note) and the top N are registered in web/public/data/wiki.json and
+# copied into web/public/wiki/en-US/ (wiped + regenerated each run).
+# web/public/wiki/zh-TW is hand-maintained (translations are stored
 # web-only) and must survive rebuilds, exactly like tasks zh-TW.
 # Entities only: README/index and _document_* notes are excluded from the feed.
 
@@ -403,6 +413,81 @@ def batch_git_dates(subdir, repo_root):
     return dates
 
 
+# --- Scored top-N selection for the wiki feed ---------------------------------
+# Replaces the old pure newest-first slice with a composite score so graph hubs
+# (SIRT1, SASP, ...) stay visible between bursts of note creation while fresh
+# notes still surface quickly:
+#
+#   score = 0.50*recency + 0.35*centrality + 0.10*star + 0.05*quality
+#
+# recency    exp half-life decay on days since max(created, updated)
+# centrality 0.5*log-norm(pagerank) + 0.3*log-norm(betweenness) +
+#            0.2*log-norm(degree), each divided by the graph max; missing
+#            roles file or unknown node -> 0 (recency alone still ranks it)
+# star       frontmatter `starred: true` (bonus only — can still fall out)
+# quality    norm(log(words)) so a one-line stub can't outrank a full note
+#
+# ponytail: no LLM/prompt judge here — the graph metrics already encode "which
+# entities matter". Add a prompt-pass only if editorial overrides are wanted.
+
+WIKI_LIMIT_DEFAULT = 50
+WIKI_HALF_LIFE_DAYS = 60.0
+WIKI_WEIGHTS_DEFAULT = (0.50, 0.35, 0.10, 0.05)
+
+
+def _parse_weights(s):
+    parts = tuple(float(x) for x in s.split(","))
+    if len(parts) != 4 or any(w < 0 for w in parts) or sum(parts) <= 0:
+        raise argparse.ArgumentTypeError("need 4 non-negative comma-separated floats")
+    return parts
+
+
+def load_role_metrics(path):
+    """id -> {pagerank, betweenness, degree} from node_roles.json; {} when absent."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            doc = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    out = {}
+    for n in doc.get("nodes", []):
+        if n.get("id"):
+            out[n["id"]] = n.get("metrics") or {}
+    return out
+
+
+def _log_max(metrics_by_id, key):
+    """max(log1p(metric)) over the graph — stable normalizer for one metric."""
+    vals = [math.log1p(float(m.get(key) or 0)) for m in metrics_by_id.values()]
+    return max(vals) if vals else 0.0
+
+
+def centrality_of(metrics, log_maxima):
+    """0..1 blended centrality for one node's metrics (0 when unknown)."""
+    if not metrics:
+        return 0.0
+    parts = (("pagerank", 0.5), ("betweenness", 0.3), ("degree", 0.2))
+    score = 0.0
+    for key, weight in parts:
+        hi = log_maxima.get(key, 0.0)
+        if hi > 0:
+            score += weight * min(1.0, math.log1p(float(metrics.get(key) or 0)) / hi)
+    return score
+
+
+def score_note(created_dt, updated_dt, words, starred, centrality,
+                *, half_life=WIKI_HALF_LIFE_DAYS, weights=WIKI_WEIGHTS_DEFAULT,
+                now=None):
+    """Composite 0..1 reader score for one note."""
+    now = now or datetime.now().astimezone()
+    w_rec, w_cen, w_star, w_qual = weights
+    days = max(0.0, (now - max(created_dt, updated_dt)).total_seconds() / 86400.0)
+    recency = 0.5 ** (days / half_life)
+    quality = min(1.0, math.log1p(max(0, words)) / math.log1p(5000))
+    return (w_rec * recency + w_cen * centrality
+            + w_star * (1.0 if starred else 0.0) + w_qual * quality)
+
+
 def build_web_wiki(note_rows, args, repo_root):
     """Emit web/public/data/wiki.json and copy the selected notes into web/public/wiki/en-US/."""
     en_dir = os.path.join(args.web_wiki_dir, "en-US")
@@ -437,14 +522,39 @@ def build_web_wiki(note_rows, args, repo_root):
         elif r["updated_dt"] is None:
             r["updated_dt"] = r["created_dt"]
 
-    # Rank by newest created/updated, keep the top --wiki-limit. The cap bounds
-    # the reader dropdown, the EN copies on disk, and the hand-maintained
-    # zh-TW set (translations only need to cover the same capped notes).
+    # Score + rank, keep the top --wiki-limit. The cap bounds the reader
+    # dropdown, the EN copies on disk, and the hand-maintained zh-TW set
+    # (translations only need to cover the same capped notes). --wiki-no-score
+    # restores the old pure newest-first order (weights -> recency only).
+    roles = {} if args.wiki_no_score else load_role_metrics(args.wiki_roles)
+    if not args.wiki_no_score and not roles:
+        print(f"Warning: no role metrics at {args.wiki_roles} — scoring by recency only")
+    log_maxima = {k: _log_max(roles, k) for k in ("pagerank", "betweenness", "degree")}
+    weights = (1.0, 0.0, 0.0, 0.0) if args.wiki_no_score else args.wiki_weights
+    now = datetime.now().astimezone()
+    for r in resolved:
+        fm = r["fm"]
+        stem = re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
+        # Node id comes from the graph's canonical norm(label): try the filename
+        # stem, then the frontmatter title (they normally agree).
+        metrics = roles.get(norm(stem)) or roles.get(norm(fm_text(fm.get("title"))))
+        r["score"] = score_note(
+            r["created_dt"], r["updated_dt"],
+            count_words(r["src"]["path"]),
+            str(fm.get("starred", "")).lower() == "true",
+            centrality_of(metrics, log_maxima),
+            half_life=args.wiki_half_life, weights=weights, now=now,
+        )
     ranked = sorted(
         resolved,
-        key=lambda r: max(r["created_dt"], r["updated_dt"]),
+        key=lambda r: (r["score"], max(r["created_dt"], r["updated_dt"])),
         reverse=True,
     )[: args.wiki_limit]
+    if ranked:
+        names = [re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
+                 for r in ranked[:5]]
+        top = ", ".join(f"{n}={r['score']:.3f}" for n, r in zip(names, ranked[:5]))
+        print(f"wiki score top5: {top}")
 
     groups = OrderedDict()
     ranks = {}
@@ -466,7 +576,7 @@ def build_web_wiki(note_rows, args, repo_root):
         entry["path"] = f"wiki/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
         group = groups.setdefault(stem, {"id": stem, "langs": {}})
         group["langs"]["en-US"] = entry
-        ranks[stem] = max(r["created_dt"], r["updated_dt"])
+        ranks[stem] = r["score"]
         if str(fm.get("starred", "")).lower() == "true":
             group["starred"] = True
         dest_path = os.path.join(args.web_wiki_dir, dest_rel)
@@ -501,10 +611,9 @@ def build_web_wiki(note_rows, args, repo_root):
         if str(fm.get("starred", "")).lower() == "true":
             group["starred"] = True
 
-    epoch = datetime.fromtimestamp(0).astimezone()
     ordered = sorted(
         groups.values(),
-        key=lambda g: ranks.get(g["id"], epoch),
+        key=lambda g: ranks.get(g["id"], 0.0),
         reverse=True,
     )
     n_notes = len(ordered)  # before the index pseudo-entry
@@ -603,8 +712,31 @@ def main():
     parser.add_argument(
         "--wiki-limit",
         type=int,
-        default=30,
-        help="Max wiki notes in the reader feed / translation batch (default: 30)",
+        default=WIKI_LIMIT_DEFAULT,
+        help=f"Max wiki notes in the reader feed / translation batch (default: {WIKI_LIMIT_DEFAULT})",
+    )
+    parser.add_argument(
+        "--wiki-roles",
+        default="web/public/data/node_roles.json",
+        help="node_roles.json supplying centrality for wiki scoring",
+    )
+    parser.add_argument(
+        "--wiki-half-life",
+        type=float,
+        default=WIKI_HALF_LIFE_DAYS,
+        help="Recency half-life in days (default: 60)",
+    )
+    parser.add_argument(
+        "--wiki-weights",
+        type=lambda s: _parse_weights(s),
+        default=WIKI_WEIGHTS_DEFAULT,
+        metavar="REC,CEN,STAR,QUAL",
+        help="Score weights, 4 comma-separated floats (default: 0.5,0.35,0.1,0.05)",
+    )
+    parser.add_argument(
+        "--wiki-no-score",
+        action="store_true",
+        help="Skip centrality scoring; rank by recency only (old behavior)",
     )
     parser.add_argument(
         "--skip-web",
