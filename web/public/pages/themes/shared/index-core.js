@@ -96,6 +96,32 @@ window.IndexCore = (function () {
     } catch (e) { /* standalone view — nothing to notify */ }
   }
 
+  /* Single sort-direction toggle shared by both index pages. Returns a
+     getter giving 1 (newest first, default) or -1 (oldest first) for the
+     date term of the page comparator — starred/weight ordering never
+     flips. Choice persists for the session across both pages; the button
+     paints its own glyph (↓/↑) and tooltip. */
+  function wireSort(btn, render) {
+    var asc = false;
+    try { asc = sessionStorage.getItem("index-sort-dir") === "asc"; } catch (e) { /* storage unavailable */ }
+    function paint() {
+      btn.textContent = asc ? "↑" : "↓";
+      btn.setAttribute("aria-pressed", asc ? "true" : "false");
+      btn.title = asc
+        ? "Sort: oldest first / 排序：最舊在前"
+        : "Sort: newest first / 排序：最新在前";
+    }
+    btn.addEventListener("click", function () {
+      asc = !asc;
+      try { sessionStorage.setItem("index-sort-dir", asc ? "asc" : "desc"); }
+      catch (e) { /* storage unavailable */ }
+      paint();
+      render();
+    });
+    paint();
+    return function () { return asc ? -1 : 1; };
+  }
+
   function restoreQuery(box, key) {
     try { box.value = sessionStorage.getItem(key) || ""; } catch (e) { /* storage unavailable */ }
   }
@@ -134,6 +160,7 @@ window.IndexCore = (function () {
     FLAGS_OVERLAY_ENABLED: FLAGS_OVERLAY_ENABLED,
     flagsUrl: flagsUrl,
     announceNavigate: announceNavigate,
+    wireSort: wireSort,
     restoreQuery: restoreQuery,
     persistQuery: persistQuery,
     wireSearch: wireSearch,

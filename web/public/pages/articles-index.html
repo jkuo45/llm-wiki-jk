@@ -81,6 +81,9 @@
    each bucket and render dimmed so real articles stay prominent. */
 .article-card.is-index { opacity: 0.72; }
 
+/* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
+.sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
+
 /* Badge base + fill/accent variants come from theme.css .badge.fill */
 @media (max-width: 640px) {
   .article-card { padding: 14px 14px 12px; }
@@ -94,6 +97,7 @@
     <div class="search-row" id="searchRow">
       <input type="search" id="searchBox" placeholder="search articles… / 搜尋文章" autocomplete="off">
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+      <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
     </div>
     <div id="articleList"></div>
     <p class="empty-note" id="noMatchNote" hidden></p>
@@ -104,7 +108,7 @@
 <script>
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
-    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate,
+    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
@@ -184,12 +188,19 @@
              together in the trailing Indexes section (bucket 4). */
           bucket: starred ? 0 : (weight > 0 ? BUCKETS.length - 1 : bucket(latest))
         };
-      })
-      .sort((x, y) => (Number(y.starred) - Number(x.starred)) ||
-        (x.weight - y.weight) ||
-        (toTime(y.latest) - toTime(x.latest)));
+      });
+
+      /* Sort order flips only the date term (starred first and weight
+         ascending stay fixed); newest-first is the default. */
+      const getDir = wireSort(document.getElementById('sortToggle'), render);
+      function sortArticles(){
+        articles.sort((x, y) => (Number(y.starred) - Number(x.starred)) ||
+          (x.weight - y.weight) ||
+          ((toTime(y.latest) - toTime(x.latest)) * getDir()));
+      }
 
       function render(){
+        sortArticles();
         const tokens = parseQuery(searchBox.value);
         searchClear.hidden = !searchBox.value;
         let shown = 0;

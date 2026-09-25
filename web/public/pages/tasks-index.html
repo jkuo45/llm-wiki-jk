@@ -40,6 +40,8 @@
 
 /* Descriptions toggle: reads as "off" when dimmed, "on" when accented */
 .desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
+/* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
+.sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 @media (max-width: 640px) { .task-card { padding: 14px 14px 12px; } }
 </style>
 <link rel="stylesheet" href="themes/theme-02/dark.css">
@@ -50,6 +52,7 @@
     <div class="search-row" id="searchRow">
       <input type="search" id="searchBox" placeholder="search task outputs… / 搜尋任務輸出" autocomplete="off">
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
+      <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
       <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
     </div>
     <div id="taskIndex"></div>
@@ -63,7 +66,7 @@
 <script>
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
-    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate,
+    FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort,
     restoreQuery, persistQuery, wireSearch } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('taskIndex');
@@ -149,13 +152,21 @@
           age: relAge(latest),
           bucket: starred ? 0 : bucket(latest),
         };
-      })
-      .sort((x, y) => (y.starred - x.starred) || (toTime(y.latest) - toTime(x.latest)));
+      });
+
+      /* Sort order flips only the date term (starred stays first);
+         newest-first is the default. */
+      const getDir = wireSort(document.getElementById('sortToggle'), render);
+      function sortTasks(){
+        tasks.sort((x, y) => (y.starred - x.starred) ||
+          ((toTime(y.latest) - toTime(x.latest)) * getDir()));
+      }
 
       const viewerHref = (path) =>
         'md-viewer.html?kind=task&src=' + encodeURIComponent('../' + path);
 
       function render(){
+        sortTasks();
         const tokens = parseQuery(searchBox.value);
         searchClear.hidden = !searchBox.value;
         let shown = 0;
