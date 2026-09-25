@@ -47,6 +47,10 @@
   padding-right: 160px;
 }
 .wiki-meta:last-child { margin-bottom: 0; }
+/* Card filename → note source on GitHub (dev branch). Keeps the chip look;
+   recolors + underlines on hover so it reads as a link. */
+.wiki-meta .file-link { color: inherit; text-decoration: none; }
+.wiki-meta .file-link:hover { color: var(--oxblood); text-decoration: underline; }
 /* Descriptions are hidden by default (compact card list); the toggle in the
    search row flips this class on. Search still matches desc text either way. */
 .no-desc .wiki-desc { display: none; }
@@ -157,6 +161,7 @@
           descZh: zh ? asStr(zh.description || '') : '',
           enPath: en.path,
           file: asStr(en.filename || decodeURIComponent((en.path || '').split('/').pop())),
+          github: asStr(en.github || ''),
           zhPath: zh ? zh.path : en.path,
           zhTitle: zh ? asStr(zh.title) : '',
           created,
@@ -202,7 +207,9 @@
               <p class="wiki-title"><a href="${esc(viewerHref(t.enPath))}" data-wiki-id="${esc(t.id)}">${highlight(t.display, tokens)}</a></p>
               ${t.zhTitle ? `<p class="wiki-zh"><a href="${esc(viewerHref(t.zhPath))}" data-wiki-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="wiki-desc">${highlight(t.desc, tokens)}</p>` : ''}
-              <p class="wiki-meta"><code>${esc(t.file)}</code>${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span>${statChips(t.stats)}</p>
+              <p class="wiki-meta">${t.github
+                ? `<a class="file-link" href="${esc(t.github)}" target="_blank" rel="noopener" title="View source on GitHub / 在 GitHub 檢視原始檔"><code>${esc(t.file)}</code></a>`
+                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span>${statChips(t.stats)}</p>
             </li>`).join('');
           html += '</ul>';
         });

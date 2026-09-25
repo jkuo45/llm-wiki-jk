@@ -335,3 +335,39 @@ class TestBuildWebWikiScoring:
         args.wiki_roles = tmp_path / "nope.json"
         rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
         assert wiki_ids(args)[1:3] == ["fresh", "hub"]
+
+
+class TestGithubBlob:
+    def test_url_quoting_and_guards(self):
+        from types import SimpleNamespace
+        args = SimpleNamespace(repo_url="https://github.com/x/y", branch="dev")
+        assert rc.github_blob(args, "src/notes/a b/NF-κB.md") == (
+            "https://github.com/x/y/blob/dev/src/notes/a%20b/NF-%CE%BAB.md")
+        assert rc.github_blob(args, "/abs/notes/a.md") == ""  # outside repo
+        assert rc.github_blob(
+            SimpleNamespace(repo_url="https://github.com/x/y", branch=""),
+            "src/notes/a.md",
+        ) == ""
+
+    def test_wiki_entry_carries_github(self, tmp_path, monkeypatch):
+        monkeypatch.chdir(tmp_path)  # so the fixture notes dir can be relative
+        args = wiki_args(
+            tmp_path,
+            notes_dir=Path("notes"),
+            repo_url="https://github.com/example/repo",
+            branch="dev",
+        )
+        write_note(args, "hub", created="2026-01-01", updated="2026-01-01")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        hub = next(g for g in doc["wiki"] if g["id"] == "hub")
+        assert hub["langs"]["en-US"]["github"] == (
+            "https://github.com/example/repo/blob/dev/notes/topic/hub.md")
+
+        # Without repo/branch (bare Namespace) the key is omitted entirely.
+        args2 = wiki_args(tmp_path)
+        write_note(args2, "hub", created="2026-01-01", updated="2026-01-01")
+        rc.build_web_wiki(rc.scan_notes_for_web(args2.notes_dir), args2, tmp_path)
+        doc2 = json.loads((args2.web_data_dir / "wiki.json").read_text())
+        hub2 = next(g for g in doc2["wiki"] if g["id"] == "hub")
+        assert "github" not in hub2["langs"]["en-US"]

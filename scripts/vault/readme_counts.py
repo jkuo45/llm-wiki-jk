@@ -521,6 +521,16 @@ def score_note(created_dt, updated_dt, words, starred, centrality,
             + w_star * (1.0 if starred else 0.0) + w_qual * quality)
 
 
+def github_blob(args, path):
+    """GitHub blob URL for a repo path on the configured branch; "" when the
+    repo/branch are unknown (tests) or the path is outside the repo."""
+    repo = getattr(args, "repo_url", "") or ""
+    branch = getattr(args, "branch", "") or ""
+    if not repo or not branch or os.path.isabs(path):
+        return ""
+    return f"{repo}/blob/{branch}/{urllib.parse.quote(path.replace(os.sep, '/'), safe='/')}"
+
+
 def build_web_wiki(note_rows, args, repo_root):
     """Emit web/public/data/wiki.json and copy the selected notes into web/public/wiki/en-US/."""
     en_dir = os.path.join(args.web_wiki_dir, "en-US")
@@ -607,6 +617,10 @@ def build_web_wiki(note_rows, args, repo_root):
         rel = os.path.relpath(r["src"]["path"], args.notes_dir)
         dest_rel = os.path.join("en-US", rel)
         entry["path"] = f"wiki/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
+        # Card filename links to the note's source in the repo (dev branch).
+        gh = github_blob(args, os.path.join(args.notes_dir, rel))
+        if gh:
+            entry["github"] = gh
         group = groups.setdefault(stem, {"id": stem, "langs": {}})
         group["langs"]["en-US"] = entry
         # Group-level card stats (en-US source; the zh copy mirrors it closely

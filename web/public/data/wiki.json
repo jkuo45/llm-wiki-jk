@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 12:49 PM PDT",
+  "generated": "25_SEP_2026 01:01 PM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -39,7 +39,8 @@
             "aging"
           ],
           "filename": "SASP.md",
-          "path": "wiki/en-US/senescence/SASP.md"
+          "path": "wiki/en-US/senescence/SASP.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md"
         },
         "zh-TW": {
           "title": "Senescence-Associated Secretory Phenotype",
@@ -78,7 +79,8 @@
             "deacetylase"
           ],
           "filename": "SIRT1.md",
-          "path": "wiki/en-US/sirtuins/SIRT1.md"
+          "path": "wiki/en-US/sirtuins/SIRT1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md"
         },
         "zh-TW": {
           "title": "SIRT1",
@@ -115,7 +117,8 @@
             "apoptosis"
           ],
           "filename": "Apoptosis.md",
-          "path": "wiki/en-US/cell-death/Apoptosis.md"
+          "path": "wiki/en-US/cell-death/Apoptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis.md"
         },
         "zh-TW": {
           "title": "Apoptosis",
@@ -151,7 +154,8 @@
             "degradation"
           ],
           "filename": "Autophagy.md",
-          "path": "wiki/en-US/autophagy/Autophagy.md"
+          "path": "wiki/en-US/autophagy/Autophagy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md"
         },
         "zh-TW": {
           "title": "Autophagy",
@@ -187,7 +191,8 @@
             "nad-plus"
           ],
           "filename": "NAD+.md",
-          "path": "wiki/en-US/_link/NAD%2B.md"
+          "path": "wiki/en-US/_link/NAD%2B.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAD%2B.md"
         },
         "zh-TW": {
           "title": "NAD+",
@@ -224,7 +229,8 @@
             "peptide"
           ],
           "filename": "Glutathione.md",
-          "path": "wiki/en-US/_link/Glutathione.md"
+          "path": "wiki/en-US/_link/Glutathione.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Glutathione.md"
         },
         "zh-TW": {
           "title": "Glutathione",
@@ -261,7 +267,8 @@
             "nad-plus"
           ],
           "filename": "SIRT3.md",
-          "path": "wiki/en-US/sirtuins/SIRT3.md"
+          "path": "wiki/en-US/sirtuins/SIRT3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT3.md"
         },
         "zh-TW": {
           "title": "SIRT3",
@@ -298,7 +305,8 @@
             "oxidative-stress"
           ],
           "filename": "NF-κB.md",
-          "path": "wiki/en-US/_link/NF-%CE%BAB.md"
+          "path": "wiki/en-US/_link/NF-%CE%BAB.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NF-%CE%BAB.md"
         },
         "zh-TW": {
           "title": "NF-κB",
@@ -338,7 +346,8 @@
             "atherosclerosis"
           ],
           "filename": "Lipid Peroxidation.md",
-          "path": "wiki/en-US/oxidative-stress/Lipid%20Peroxidation.md"
+          "path": "wiki/en-US/oxidative-stress/Lipid%20Peroxidation.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Lipid%20Peroxidation.md"
         },
         "zh-TW": {
           "title": "脂質過氧化",
@@ -378,7 +387,8 @@
             "regulated-cell-death"
           ],
           "filename": "Necroptosis.md",
-          "path": "wiki/en-US/cell-death/Necroptosis.md"
+          "path": "wiki/en-US/cell-death/Necroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
         },
         "zh-TW": {
           "title": "Necroptosis",
@@ -418,7 +428,8 @@
             "chromatin"
           ],
           "filename": "Senescence.md",
-          "path": "wiki/en-US/senescence/Senescence.md"
+          "path": "wiki/en-US/senescence/Senescence.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senescence.md"
         },
         "zh-TW": {
           "title": "Cellular Senescence",
@@ -455,7 +466,8 @@
             "chemical-compound"
           ],
           "filename": "Fisetin.md",
-          "path": "wiki/en-US/_link/Fisetin.md"
+          "path": "wiki/en-US/_link/Fisetin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fisetin.md"
         },
         "zh-TW": {
           "title": "Fisetin",
@@ -491,7 +503,8 @@
             "neurodegeneration"
           ],
           "filename": "Parthanatos.md",
-          "path": "wiki/en-US/cell-death/Parthanatos.md"
+          "path": "wiki/en-US/cell-death/Parthanatos.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Parthanatos.md"
         },
         "zh-TW": {
           "title": "Parthanatos",
@@ -527,7 +540,8 @@
             "chemical-compound"
           ],
           "filename": "Urolithin A.md",
-          "path": "wiki/en-US/_link/Urolithin%20A.md"
+          "path": "wiki/en-US/_link/Urolithin%20A.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Urolithin%20A.md"
         },
         "zh-TW": {
           "title": "Urolithin A",
@@ -560,7 +574,8 @@
             "chemical-compound"
           ],
           "filename": "Vitamin E.md",
-          "path": "wiki/en-US/_link/Vitamin%20E.md"
+          "path": "wiki/en-US/_link/Vitamin%20E.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Vitamin%20E.md"
         },
         "zh-TW": {
           "title": "維生素E",
@@ -595,7 +610,8 @@
             "inflammatory"
           ],
           "filename": "Lipoxygenase.md",
-          "path": "wiki/en-US/_link/Lipoxygenase.md"
+          "path": "wiki/en-US/_link/Lipoxygenase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lipoxygenase.md"
         },
         "zh-TW": {
           "title": "脂氧合酶",
@@ -631,7 +647,8 @@
             "biological-molecule"
           ],
           "filename": "Malondialdehyde.md",
-          "path": "wiki/en-US/oxidative-stress/Malondialdehyde.md"
+          "path": "wiki/en-US/oxidative-stress/Malondialdehyde.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Malondialdehyde.md"
         },
         "zh-TW": {
           "title": "Malondialdehyde",
@@ -665,7 +682,8 @@
             "chemical-compound"
           ],
           "filename": "4-Hydroxynonenal.md",
-          "path": "wiki/en-US/oxidative-stress/4-Hydroxynonenal.md"
+          "path": "wiki/en-US/oxidative-stress/4-Hydroxynonenal.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/4-Hydroxynonenal.md"
         },
         "zh-TW": {
           "title": "4-Hydroxynonenal",
@@ -699,7 +717,8 @@
             "antioxidant"
           ],
           "filename": "Antioxidants.md",
-          "path": "wiki/en-US/_link/Antioxidants.md"
+          "path": "wiki/en-US/_link/Antioxidants.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Antioxidants.md"
         },
         "zh-TW": {
           "title": "抗氧化劑",
@@ -733,7 +752,8 @@
             "chemical-class"
           ],
           "filename": "Polyphenols.md",
-          "path": "wiki/en-US/_link/Polyphenols.md"
+          "path": "wiki/en-US/_link/Polyphenols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Polyphenols.md"
         },
         "zh-TW": {
           "title": "多酚",
@@ -767,7 +787,8 @@
             "metabolism"
           ],
           "filename": "Muscle.md",
-          "path": "wiki/en-US/_link/Muscle.md"
+          "path": "wiki/en-US/_link/Muscle.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Muscle.md"
         },
         "zh-TW": {
           "title": "Muscle",
@@ -808,7 +829,8 @@
             "cancer"
           ],
           "filename": "BAX.md",
-          "path": "wiki/en-US/cell-death/BAX.md"
+          "path": "wiki/en-US/cell-death/BAX.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/BAX.md"
         },
         "zh-TW": {
           "title": "BAX",
@@ -848,7 +870,8 @@
             "biological-process"
           ],
           "filename": "Ferroptosis.md",
-          "path": "wiki/en-US/cell-death/Ferroptosis.md"
+          "path": "wiki/en-US/cell-death/Ferroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ferroptosis.md"
         },
         "zh-TW": {
           "title": "Ferroptosis",
@@ -882,7 +905,8 @@
             "oxidative-stress"
           ],
           "filename": "F2-Isoprostanes.md",
-          "path": "wiki/en-US/oxidative-stress/F2-Isoprostanes.md"
+          "path": "wiki/en-US/oxidative-stress/F2-Isoprostanes.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/F2-Isoprostanes.md"
         },
         "zh-TW": {
           "title": "F2-Isoprostanes",
@@ -918,7 +942,8 @@
             "vitamin"
           ],
           "filename": "Vitamin C.md",
-          "path": "wiki/en-US/_link/Vitamin%20C.md"
+          "path": "wiki/en-US/_link/Vitamin%20C.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Vitamin%20C.md"
         },
         "zh-TW": {
           "title": "維生素C",
@@ -953,7 +978,8 @@
             "protein"
           ],
           "filename": "RIPK3.md",
-          "path": "wiki/en-US/cell-death/RIPK3.md"
+          "path": "wiki/en-US/cell-death/RIPK3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/RIPK3.md"
         },
         "zh-TW": {
           "title": "RIPK3",
@@ -990,7 +1016,8 @@
             "ferroptosis"
           ],
           "filename": "Polyunsaturated fatty acids.md",
-          "path": "wiki/en-US/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
+          "path": "wiki/en-US/oxidative-stress/Polyunsaturated%20fatty%20acids.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Polyunsaturated%20fatty%20acids.md"
         },
         "zh-TW": {
           "title": "多元不飽和脂肪酸",
@@ -1027,7 +1054,8 @@
             "protein"
           ],
           "filename": "p53.md",
-          "path": "wiki/en-US/_link/p53.md"
+          "path": "wiki/en-US/_link/p53.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p53.md"
         },
         "zh-TW": {
           "title": "p53",
@@ -1063,7 +1091,8 @@
             "lipid"
           ],
           "filename": "Alpha-tocopherol.md",
-          "path": "wiki/en-US/comt/Alpha-tocopherol.md"
+          "path": "wiki/en-US/comt/Alpha-tocopherol.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/comt/Alpha-tocopherol.md"
         },
         "zh-TW": {
           "title": "α-生育酚",
@@ -1099,7 +1128,8 @@
             "enzyme"
           ],
           "filename": "RIPK1.md",
-          "path": "wiki/en-US/adrenochrome/RIPK1.md"
+          "path": "wiki/en-US/adrenochrome/RIPK1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md"
         },
         "zh-TW": {
           "title": "RIPK1",
@@ -1132,7 +1162,8 @@
             "enzyme"
           ],
           "filename": "PARP1.md",
-          "path": "wiki/en-US/cell-death/PARP1.md"
+          "path": "wiki/en-US/cell-death/PARP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
         },
         "zh-TW": {
           "title": "PARP1",
@@ -1168,7 +1199,8 @@
             "aldehyde"
           ],
           "filename": "Acrolein.md",
-          "path": "wiki/en-US/oxidative-stress/Acrolein.md"
+          "path": "wiki/en-US/oxidative-stress/Acrolein.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Acrolein.md"
         },
         "zh-TW": {
           "title": "丙烯醛",
@@ -1206,7 +1238,8 @@
             "inflammation"
           ],
           "filename": "Regulatory T Cell.md",
-          "path": "wiki/en-US/_link/Regulatory%20T%20Cell.md"
+          "path": "wiki/en-US/_link/Regulatory%20T%20Cell.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Regulatory%20T%20Cell.md"
         },
         "zh-TW": {
           "title": "Regulatory T Cell",
@@ -1244,7 +1277,8 @@
             "cardiovascular"
           ],
           "filename": "Thromboxane A₂.md",
-          "path": "wiki/en-US/_link/Thromboxane%20A%E2%82%82.md"
+          "path": "wiki/en-US/_link/Thromboxane%20A%E2%82%82.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Thromboxane%20A%E2%82%82.md"
         },
         "zh-TW": {
           "title": "Thromboxane A2",
@@ -1281,7 +1315,8 @@
             "protein"
           ],
           "filename": "Actin.md",
-          "path": "wiki/en-US/_link/Actin.md"
+          "path": "wiki/en-US/_link/Actin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Actin.md"
         },
         "zh-TW": {
           "title": "Actin",
@@ -1320,7 +1355,8 @@
             "sirt6-adp-ribosyl-transferase"
           ],
           "filename": "SIRT6.md",
-          "path": "wiki/en-US/sirtuins/SIRT6.md"
+          "path": "wiki/en-US/sirtuins/SIRT6.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT6.md"
         },
         "zh-TW": {
           "title": "SIRT6",
@@ -1358,7 +1394,8 @@
             "protein"
           ],
           "filename": "mTORC1.md",
-          "path": "wiki/en-US/_link/mTORC1.md"
+          "path": "wiki/en-US/_link/mTORC1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
         },
         "zh-TW": {
           "title": "mTORC1",
@@ -1395,7 +1432,8 @@
             "cell-death"
           ],
           "filename": "Apoptosis-Inducing Factor.md",
-          "path": "wiki/en-US/cell-death/Apoptosis-Inducing%20Factor.md"
+          "path": "wiki/en-US/cell-death/Apoptosis-Inducing%20Factor.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis-Inducing%20Factor.md"
         },
         "zh-TW": {
           "title": "Apoptosis-Inducing Factor",
@@ -1432,7 +1470,8 @@
             "chemical-compound"
           ],
           "filename": "Spermidine.md",
-          "path": "wiki/en-US/_link/Spermidine.md"
+          "path": "wiki/en-US/_link/Spermidine.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Spermidine.md"
         },
         "zh-TW": {
           "title": "Spermidine",
@@ -1466,7 +1505,8 @@
             "cell-biology"
           ],
           "filename": "Cytoskeleton.md",
-          "path": "wiki/en-US/_link/Cytoskeleton.md"
+          "path": "wiki/en-US/_link/Cytoskeleton.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cytoskeleton.md"
         },
         "zh-TW": {
           "title": "Cytoskeleton",
@@ -1501,7 +1541,8 @@
             "genetics"
           ],
           "filename": "Chromosome.md",
-          "path": "wiki/en-US/_link/Chromosome.md"
+          "path": "wiki/en-US/_link/Chromosome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Chromosome.md"
         },
         "zh-TW": {
           "title": "Chromosome",
@@ -1537,7 +1578,8 @@
             "genetics"
           ],
           "filename": "Zellweger Spectrum Disorders.md",
-          "path": "wiki/en-US/_link/Zellweger%20Spectrum%20Disorders.md"
+          "path": "wiki/en-US/_link/Zellweger%20Spectrum%20Disorders.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Zellweger%20Spectrum%20Disorders.md"
         },
         "zh-TW": {
           "title": "Zellweger Spectrum Disorders",
@@ -1575,7 +1617,8 @@
             "lipid"
           ],
           "filename": "Tocopherols.md",
-          "path": "wiki/en-US/_link/Tocopherols.md"
+          "path": "wiki/en-US/_link/Tocopherols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocopherols.md"
         },
         "zh-TW": {
           "title": "生育醇",
@@ -1613,7 +1656,8 @@
             "immunity"
           ],
           "filename": "Immunotherapy.md",
-          "path": "wiki/en-US/_link/Immunotherapy.md"
+          "path": "wiki/en-US/_link/Immunotherapy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Immunotherapy.md"
         },
         "zh-TW": {
           "title": "Immunotherapy",
@@ -1651,7 +1695,8 @@
             "lipid"
           ],
           "filename": "Tocotrienols.md",
-          "path": "wiki/en-US/_link/Tocotrienols.md"
+          "path": "wiki/en-US/_link/Tocotrienols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocotrienols.md"
         },
         "zh-TW": {
           "title": "生育三烯醇",
@@ -1691,7 +1736,8 @@
             "biomarker"
           ],
           "filename": "p21 CIP1.md",
-          "path": "wiki/en-US/_link/p21%20CIP1.md"
+          "path": "wiki/en-US/_link/p21%20CIP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p21%20CIP1.md"
         },
         "zh-TW": {
           "title": "p21 CIP1",
@@ -1731,7 +1777,8 @@
             "chemical-compound"
           ],
           "filename": "M₁dG.md",
-          "path": "wiki/en-US/oxidative-stress/M%E2%82%81dG.md"
+          "path": "wiki/en-US/oxidative-stress/M%E2%82%81dG.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/M%E2%82%81dG.md"
         },
         "zh-TW": {
           "title": "M1dG",
@@ -1770,7 +1817,8 @@
             "biomarker"
           ],
           "filename": "MDA-LDL.md",
-          "path": "wiki/en-US/oxidative-stress/MDA-LDL.md"
+          "path": "wiki/en-US/oxidative-stress/MDA-LDL.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/MDA-LDL.md"
         },
         "zh-TW": {
           "title": "MDA-LDL",
@@ -1807,7 +1855,8 @@
             "peroxisome"
           ],
           "filename": "PEX2.md",
-          "path": "wiki/en-US/_link/PEX2.md"
+          "path": "wiki/en-US/_link/PEX2.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PEX2.md"
         },
         "zh-TW": {
           "title": "PEX2",
@@ -1844,7 +1893,8 @@
             "signaling-molecule"
           ],
           "filename": "Hydroxyeicosatetraenoic acids.md",
-          "path": "wiki/en-US/_link/Hydroxyeicosatetraenoic%20acids.md"
+          "path": "wiki/en-US/_link/Hydroxyeicosatetraenoic%20acids.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hydroxyeicosatetraenoic%20acids.md"
         },
         "zh-TW": {
           "title": "羥基二十碳四烯酸",
