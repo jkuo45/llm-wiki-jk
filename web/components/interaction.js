@@ -76,9 +76,15 @@ function nodeTooltipHTML(nodeData) {
 
 function showNodeTooltip(nodeData, left, top) {
   tooltip.innerHTML = nodeTooltipHTML(nodeData);
-  tooltip.style.left = left + 'px';
-  tooltip.style.top = top + 'px';
   tooltip.classList.add('visible');
+  // #graph clips its overflow, so clamp inside the container instead of letting
+  // edge nodes push the tooltip off-screen (same approach as ui/Tooltip.js).
+  const w = tooltip.offsetWidth;
+  const h = tooltip.offsetHeight;
+  const cw = container.clientWidth;
+  const ch = container.clientHeight;
+  tooltip.style.left = Math.max(0, Math.min(left, cw - w - 4)) + 'px';
+  tooltip.style.top = Math.max(0, Math.min(top, ch - h - 4)) + 'px';
 }
 
 // ------------------------------------------------------------
@@ -231,7 +237,7 @@ function processHover(event) {
   }
 
   // No node selected - normal behavior (nodes first, then edges)
-  const nodeIntersects = raycaster.intersectObjects(nodeMeshes);
+  const nodeIntersects = intersectVisibleNodes();
   if (nodeIntersects.length > 0) {
     const mesh = nodeIntersects[0].object;
     if (mesh.userData.nodeData) {

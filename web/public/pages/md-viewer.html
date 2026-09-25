@@ -203,7 +203,9 @@ async function loadEntityDescriptions() {
   const byLabel = new Map();
   const byLabelZh = new Map();
   try {
-    const resp = await fetch('../data/nodes.json?v=' + Date.now());
+    // No ?v= cache-buster: the SPA already fingerprints data files via
+    // version.json, and a 4.9 MB re-download on every note view is not free.
+    const resp = await fetch('../data/nodes.json');
     const g = await resp.json();
     (Array.isArray(g) ? g : (g.nodes || [])).forEach((n) => {
       if (!n.description) return;
@@ -373,7 +375,11 @@ if (!src) {
     activeByLabelZh = entity.byLabelZh;
     activeHref = wikiHref;
     content.querySelectorAll('a.wikilink, span.wikilink').forEach((el) => {
-      const label = el.textContent.trim();
+      // data-wiki is the link target (renderMarkdown emits it), so
+      // [[Retinoblastoma Protein|Rb]] resolves on "Retinoblastoma Protein",
+      // not on the display text. Fall back to the text for legacy markup.
+      const label = el.dataset.wiki || el.textContent.trim();
+      const text = el.textContent.trim();
       const key = wikiKeyFor(label, entity.byLabel);
       const gh = wikiHref ? wikiHref(label) : '';
       // Upgrade to a tooltip span when the entity has either a stored
@@ -383,7 +389,7 @@ if (!src) {
       span.className = 'md-entity-link';
       span.dataset.wiki = key || label;
       if (gh) span.dataset.gh = gh;
-      span.textContent = label;
+      span.textContent = text;
       el.replaceWith(span);
     });
     content.addEventListener('mouseover', (e) => {

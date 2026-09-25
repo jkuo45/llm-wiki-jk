@@ -4,6 +4,13 @@ export function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
+// Inverse of esc() for values read back out of the DOM (e.g. a data-wiki
+// attribute rendered from a wiki link): only the five entities esc() emits.
+export function unescapeHtml(s) {
+  return String(s).replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+}
+
 export function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -73,14 +80,17 @@ export function renderMarkdown(text, opts = {}) {
     return `\u0000HTML${htmlBlocks.length - 1}\u0000`;
   });
   let html = esc(withImgs);
-  // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref
+  // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref.
+  // data-wiki keeps the link TARGET (the label may be the display text, as in
+  // [[Retinoblastoma Protein|Rb]]) so tooltip/modal lookups don't key on the
+  // visible text. The source is already esc()'d above, so labels are attr-safe.
   html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, display) => {
     const label = target.trim();
     const href = opts.wikiHref ? opts.wikiHref(label) : null;
     const text = (display || label).trim();
     return href
-      ? `<a class="wikilink" href="${href}" target="_blank" rel="noopener">${text}</a>`
-      : `<span class="wikilink">${text}</span>`;
+      ? `<a class="wikilink" data-wiki="${label}" href="${href}" target="_blank" rel="noopener">${text}</a>`
+      : `<span class="wikilink" data-wiki="${label}">${text}</span>`;
   });
   // Inline code: `...`
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');

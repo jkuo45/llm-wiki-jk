@@ -1053,6 +1053,19 @@ footer p {
   opacity: 1;
 }
 
+/* Wiki-link spans produced by context-tooltip.js (theme-02 has no #netTip, so
+   these carry a plain-text [data-tip] that the .tooltip above renders). */
+.wikilink {
+  color: var(--oxblood);
+  border-bottom: 1px dotted currentColor;
+  cursor: help;
+  text-decoration: none;
+}
+
+.wikilink:hover {
+  color: var(--ink);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .metric,

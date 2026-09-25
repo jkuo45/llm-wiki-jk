@@ -14,7 +14,7 @@ import {
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder, showToast } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
-import { esc, renderMarkdown, wikiExcerpt, escapeRegex } from './markdown.js';
+import { esc, unescapeHtml, renderMarkdown, wikiExcerpt, escapeRegex } from './markdown.js';
 import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
@@ -390,16 +390,32 @@ function addOpenHtmlButton(div, text, query) {
 // node has one), keyed by label so prompt [[entity]] links can show a brief
 // excerpt on hover. wiki-context.json is retired.
 
+// descByLabel is keyed by the canonical node label plus its lowercase form, so
+// [[FOXO]] / [[foxo]] / [[Foxo]] must all resolve to one canonical key. Returns
+// null when the entity has no note.
+function canonicalWikiKey(key) {
+  if (descByLabel.has(key)) return key;
+  const lower = key.toLowerCase();
+  return descByLabel.has(lower) ? lower : null;
+}
+
+// renderMarkdown already consumed the [[...]] syntax and left .wikilink spans
+// carrying the target in data-wiki, so promote those here (a second [[...]]
+// regex never matches once markdown has rendered). Unresolved entities keep
+// the inert span.
+function promoteWikiSpans(html) {
+  return html.replace(/<span class="wikilink" data-wiki="([^"]*)">([\s\S]*?)<\/span>/g,
+    (m, key, text) => {
+      const wikiKey = canonicalWikiKey(unescapeHtml(key));
+      if (!wikiKey) return m;
+      return `<span class="prompt-entity-link" data-wiki="${esc(wikiKey)}">${text}</span>`;
+    });
+}
+
 function formatBotMessage(text) {
   // Render full markdown (headers, lists, tables, code, bold, links, etc.).
   let html = renderMarkdown(text);
-  // Wiki links: [[Name]] or [[Name|Display]] -> open wiki modal on click
-  html = html.replace(/\[\[([^\]\|]+?)(?:\|([^\]]+?))?\]\]/g, (m, name, display) => {
-    const wikiBase = name.trim().replace(/\.md$/i, '');
-    if (!wikiBase || !descByLabel.has(wikiBase)) return esc(m);
-    const label = (display || name).trim();
-    return `<span class="prompt-entity-link" data-wiki="${esc(wikiBase)}">${esc(label)}</span>`;
-  });
+  html = promoteWikiSpans(html);
   // Long code blocks: collapse them so they don't dominate the response.
   html = html.replace(/<pre><code>([\s\S]*?)<\/code><\/pre>/g,
     '<details class="md-code"><summary>Code</summary><pre><code>$1</code></pre></details>');

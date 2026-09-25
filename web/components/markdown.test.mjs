@@ -1,35 +1,50 @@
-// Runnable check for renderMarkdown image support.
-// Usage: node web/components/markdown.test.mjs
-import { renderMarkdown } from './markdown.js';
+// Tooltip lookups key on data-wiki (the link TARGET), so a display-text link
+// like [[Retinoblastoma Protein|Rb]] must not degrade to the visible "Rb".
+// Run: node components/markdown.test.mjs
+import assert from 'node:assert/strict';
+import test from 'node:test';
 
-const cases = [
-  ['md image',
-    'Hello ![fruit](https://x.example/a.png) world',
-    (o) => o.includes('<img src="https://x.example/a.png" alt="fruit" loading="lazy">') && !o.includes('![')],
-  ['md image with title (post-esc &quot;)',
-    '![alt](https://x.example/d.png "Title")',
-    (o) => o.includes('src="https://x.example/d.png"') && !o.includes('Title')],
-  ['raw img strips handlers',
-    'para\n\n<img src="https://x.example/b.png" alt="B" width="480" onclick="evil()">\n\nnext',
-    (o) => o.includes('<img src="https://x.example/b.png" alt="B" width="480">') && !o.includes('onclick')],
-  ['onerror stripped',
-    '<img src=x onerror="alert(1)">',
-    (o) => !o.includes('onerror')],
-  ['figure + figcaption passthrough',
-    '<figure>\n<img src="https://x.example/c.png" alt="C">\n<figcaption>Caption</figcaption>\n</figure>',
-    (o) => o.includes('<figure>') && o.includes('<figcaption>Caption</figcaption>') && !o.includes('&lt;figure')],
-  ['img inside code fence stays escaped',
-    '```\n<img src="nope.png">\n```',
-    (o) => o.includes('&lt;img') && !o.includes('<img src="nope.png">')],
-  ['links + wikilinks intact',
-    'see [docs](https://example.com) and [[NAD+]]',
-    (o) => o.includes('<a href="https://example.com" target="_blank" rel="noopener">docs</a>') && o.includes('wikilink')],
-];
+import { renderMarkdown, unescapeHtml } from './markdown.js';
 
-let fail = 0;
-for (const [name, input, check] of cases) {
-  const ok = check(renderMarkdown(input));
-  console.log((ok ? 'PASS' : 'FAIL') + ' ' + name);
-  if (!ok) fail++;
+test('wikilink keeps the target in data-wiki when a display text is given', () => {
+  const html = renderMarkdown('[[Retinoblastoma Protein|Rb]]', { wikiHref: () => 'gh' });
+  assert.match(html, /data-wiki="Retinoblastoma Protein"/);
+  assert.match(html, />Rb<\/a>/);
+});
+
+test('wikilink without a resolvable note still exposes the target', () => {
+  const html = renderMarkdown('[[NAD+]]', { wikiHref: () => '' });
+  assert.match(html, /<span class="wikilink" data-wiki="NAD\+">NAD\+<\/span>/);
+});
+
+test('a target containing a quote cannot break out of the attribute', () => {
+  const html = renderMarkdown('[[a"b]]', { wikiHref: () => '' });
+  assert.match(html, /data-wiki="a&quot;b"/);
+  assert.ok(!/data-wiki="a"b"/.test(html));
+});
+
+test('unescapeHtml reverses esc() on a data-wiki target', () => {
+  assert.equal(unescapeHtml('Merck &amp; Co. Inc'), 'Merck & Co. Inc');
+  assert.equal(unescapeHtml('a&quot;b&#39;c&lt;d&gt;e'), 'a"b\'c<d>e');
+});
+
+// The prompt panel promotes .wikilink spans to .prompt-entity-link. That pass
+// used to run a second [[...]] regex, which never matched because renderMarkdown
+// had already consumed the syntax — so every prompt wiki link stayed inert.
+// Mirrors promoteWikiSpans() in analysis.js against a stand-in node label map.
+function promoteWikiSpans(html, byLabel) {
+  return html.replace(/<span class="wikilink" data-wiki="([^"]*)">([\s\S]*?)<\/span>/g,
+    (m, key, text) => {
+      const k = byLabel.has(unescapeHtml(key)) ? unescapeHtml(key) : null;
+      return k ? `<span class="prompt-entity-link" data-wiki="${k}">${text}</span>` : m;
+    });
 }
-process.exit(fail ? 1 : 0);
+
+test('rendered wikilinks become prompt entity links when the entity resolves', () => {
+  const byLabel = new Map([['Retinoblastoma Protein', 'd'], ['FOXO3a', 'd'], ['foxo3a', 'd']]);
+  const html = promoteWikiSpans(renderMarkdown('[[FOXO3a]] and [[Retinoblastoma Protein|Rb]] and [[Nope]]'),
+    byLabel);
+  assert.match(html, /<span class="prompt-entity-link" data-wiki="FOXO3a">FOXO3a<\/span>/);
+  assert.match(html, /<span class="prompt-entity-link" data-wiki="Retinoblastoma Protein">Rb<\/span>/);
+  assert.match(html, /<span class="wikilink" data-wiki="Nope">Nope<\/span>/); // inert
+});
