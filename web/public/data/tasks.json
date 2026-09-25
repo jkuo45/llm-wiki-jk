@@ -1,5 +1,5 @@
 {
-  "generated": "24_SEP_2026 07:31 PM PDT",
+  "generated": "24_SEP_2026 10:44 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,47 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Lipid Peroxidation and the Ascorbate–Tocopherol Relay: Biochemistry of the Membrane Antioxidant Network",
+          "description": "Task output covering the biochemistry of lipid peroxidation and the phase-partitioned antioxidant network — the vitamin C–vitamin E recycling relay, glutathione/GPX4 membrane repair, FSP1–CoQ10 parallel defense, aldehyde and DNA adduct products, and the enzymatic versus radical split in eicosanoid biology.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-c",
+            "antioxidants",
+            "ferroptosis",
+            "eicosanoids",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "脂質過氧化與抗壞血酸–生育醇接力：膜抗氧化網絡的生物化學",
+          "description": "任務輸出，涵蓋脂質過氧化與分相抗氧化網絡的生物化學——維生素 C–維生素 E 再生接力、穀胱甘肽／GPX4 膜修復、FSP1–CoQ10 平行防禦、醛類與 DNA 加合物產物，以及二十碳烯酸生物學中酵素性與自由基路徑的分流。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-c",
+            "antioxidants",
+            "ferroptosis",
+            "eicosanoids",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
         }
       }
     },
