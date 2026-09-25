@@ -48,3 +48,34 @@ test('rendered wikilinks become prompt entity links when the entity resolves', (
   assert.match(html, /<span class="prompt-entity-link" data-wiki="Retinoblastoma Protein">Rb<\/span>/);
   assert.match(html, /<span class="wikilink" data-wiki="Nope">Nope<\/span>/); // inert
 });
+
+// --- XSS regression: untrusted fragments (ingested docs, model output) ---
+
+test('callout titles are escaped', () => {
+  const html = renderMarkdown('> [!info] <img src=x onerror=alert(1)>\n> body\n');
+  assert.ok(!/<img/.test(html), 'no raw tag from the callout title');
+  assert.match(html, /&lt;img src=x/);
+});
+
+test('slash-separated handlers in figure/img HTML are stripped', () => {
+  const html = renderMarkdown('<img/onerror=alert(2) src=x>');
+  assert.ok(!/onerror/.test(html));
+});
+
+test('text inside quoted attribute values survives sanitizing', () => {
+  const html = renderMarkdown('<img src="https://x.com/a/onerror=1.png" alt="an onerror=x">');
+  assert.match(html, /src="https:\/\/x\.com\/a\/onerror=1\.png"/);
+  assert.match(html, /alt="an onerror=x"/);
+});
+
+test('javascript: links render as inert text', () => {
+  const html = renderMarkdown('[click](javascript:alert(1))');
+  assert.ok(!/<a /.test(html));
+  assert.match(html, /click/);
+});
+
+test('normal links and images still render', () => {
+  const html = renderMarkdown('![alt](https://x.com/a.png)\n\n[ok](https://x.com)');
+  assert.match(html, /<img src="https:\/\/x\.com\/a\.png"/);
+  assert.match(html, /<a href="https:\/\/x\.com"/);
+});

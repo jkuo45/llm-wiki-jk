@@ -14,7 +14,7 @@ import {
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder, showToast } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
-import { esc, unescapeHtml, renderMarkdown, wikiExcerpt, escapeRegex } from './markdown.js';
+import { esc, unescapeHtml, renderMarkdown, wikiExcerpt, escapeRegex, stripUnsafeHtml } from './markdown.js';
 import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
@@ -504,9 +504,7 @@ function collapseFencedCode(html) {
 // styles this way); they apply document-wide, which is acceptable for authored
 // response content.
 function renderInlineHtml(html) {
-  const raw = String(html || '')
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<script\b[^>]*>/gi, '');
+  const raw = stripUnsafeHtml(html || '');
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   return bodyMatch ? bodyMatch[1] : raw;
 }
@@ -537,9 +535,7 @@ function buildHtmlModeDoc(text, title) {
   // diagrams), so inject it RAW rather than through the markdown escaper (which
   // would turn <svg> into literal text). Scripts are blocked by the iframe
   // sandbox; we also strip <script> tags here as defense-in-depth.
-  const raw = String(text || '')
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<script\b[^>]*>/gi, '');
+  const raw = stripUnsafeHtml(text || '');
   const content = collapseFencedCode(raw);
   return `<!DOCTYPE html>
 <html lang="en">

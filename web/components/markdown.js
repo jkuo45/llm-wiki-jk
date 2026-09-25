@@ -11,6 +11,23 @@ export function unescapeHtml(s) {
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 }
 
+// Strip active HTML from an untrusted fragment: script pairs, active tags,
+// and on* handlers — quote-aware so an " onerror=x" inside alt text or a URL
+// path segment (/onerror=1.png) is left alone. Used by renderMarkdown's
+// figure/img passthrough and the LLM HTML-mode sinks in analysis.js.
+export function stripUnsafeHtml(s) {
+  const quotes = [];
+  const masked = String(s).replace(/("[^"]*"|'[^']*')/g, (q) => {
+    quotes.push(q);
+    return `\u0000${quotes.length - 1}\u0000`;
+  });
+  return masked
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<\/?(?:script|iframe|object|embed|link|meta|base|form)\b[^>]*>/gi, '')
+    .replace(/[/\s]on\w+\s*=\s*(?:\u0000\d+\u0000|[^\s>]+)/gi, '')
+    .replace(/\u0000(\d+)\u0000/g, (m, i) => quotes[+i]);
+}
+
 export function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -56,7 +73,7 @@ export function renderMarkdown(text, opts = {}) {
   const src = raw.replace(/^> \[!(\w+)\][ \t]*([^\n]*)\n((?:>[^\n]*\n?)*)/gm, (m, type, title, body) => {
     const inner = renderMarkdown(body.replace(/^> ?/gm, ''), opts);
     const label = title.trim() || type.charAt(0).toUpperCase() + type.slice(1);
-    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${label}</div>${inner}</div>`);
+    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${esc(label)}</div>${inner}</div>`);
     return `\u0000CALLOUT${callouts.length - 1}\u0000`;
   });
   // Fenced code blocks are extracted up front into placeholders so their real
@@ -70,13 +87,11 @@ export function renderMarkdown(text, opts = {}) {
   });
   // Raw <figure>/<img> HTML (task outputs embed Wikimedia + ingested photos)
   // is extracted before esc() — after code fences, so img strings inside code
-  // stay code — with a cheap sanitize (strip scripts + inline event handlers);
+  // stay code — with stripUnsafeHtml (scripts, active tags, on* handlers);
   // content is a local vault + ingested web docs, not arbitrary user HTML.
   const htmlBlocks = [];
   const withImgs = fenced.replace(/<figure>[\s\S]*?<\/figure>|<img\b[^>]*>/gi, (m) => {
-    htmlBlocks.push(m
-      .replace(/<\/?(?:script|iframe|object|embed|link|meta)\b[^>]*>/gi, '')
-      .replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, ''));
+    htmlBlocks.push(stripUnsafeHtml(m));
     return `\u0000HTML${htmlBlocks.length - 1}\u0000`;
   });
   let html = esc(withImgs);
@@ -160,8 +175,12 @@ export function renderMarkdown(text, opts = {}) {
   // Optional title arrives as &quot;…&quot; (text is already esc()'d); drop it.
   html = html.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+(?:&quot;[\s\S]*?&quot;|"[^"]*"))?\)/g,
     '<img src="$2" alt="$1" loading="lazy">');
-  // Links: [text](url)
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  // Links: [text](url). Script-ish schemes render inert — ingested docs and
+  // model output are not trusted to supply clickable URLs.
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, text, url) =>
+    /^(?:javascript|vbscript|data):/i.test(url)
+      ? text
+      : `<a href="${url}" target="_blank" rel="noopener">${text}</a>`);
   // Tables: simple pipe tables — wrapped in .tbl-wrap so wide tables scroll
   // horizontally, and tagged .md-table for vertical-expansion CSS.  A
   // <colgroup> pins column 1 to a compact width (170px) so long entity /

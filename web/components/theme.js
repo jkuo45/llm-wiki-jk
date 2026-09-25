@@ -53,7 +53,7 @@ function syncReaderFrame(theme) {
     if (link) link.disabled = theme !== 'light';
   } catch (err) { /* cross-origin or not yet loaded */ }
   if (readerFrame.contentWindow) {
-    readerFrame.contentWindow.postMessage({ type: 'wiki-theme', theme }, '*');
+    readerFrame.contentWindow.postMessage({ type: 'wiki-theme', theme }, window.location.origin);
   }
 }
 
