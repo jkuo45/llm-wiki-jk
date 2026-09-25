@@ -1,5 +1,5 @@
 {
-  "generated": "24_SEP_2026 10:44 PM PDT",
+  "generated": "25_SEP_2026 07:13 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -21,6 +21,47 @@
           "updated": "",
           "tags": [],
           "path": "pages/tasks-index.html"
+        }
+      }
+    },
+    {
+      "id": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondrial Fission and the Fat-Soluble Vitamins: How Vitamins A and E Set the Fission–Fusion Balance",
+          "description": "Task output covering the Drp1 fission machinery and its redox/lipid control points, where vitamin E sits in the outer mitochondrial membrane and how it defends cardiolipin and Drp1 from peroxidation-driven hyperfragmentation, and the dual-edged role of vitamin A — retinol as a PKCδ/OXPHOS cofactor versus all-trans retinoic acid as an inducer of Drp1 and fission.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "粒線體分裂與脂溶性維生素：維生素 A 與 E 如何設定分裂–融合平衡",
+          "description": "任務輸出，涵蓋 DRP1 分裂機器與其氧化還原／脂質控制點、維生素 E 在粒線體外膜中的定位及其對心磷脂與 DRP1 的防護（避免過氧化驅動的過度分裂），以及維生素 A 的雙重角色——視黃醇作為 PKCδ/OXPHOS 輔因子，相對於全反式視黃酸誘導 DRP1 與分裂。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
         }
       }
     },

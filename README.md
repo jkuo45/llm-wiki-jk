@@ -270,9 +270,10 @@ Build: 18_SEP_2026 · hash `249b929d5ee50a9f`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (120 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (121 total)</strong> — click to expand</summary>
 
-- [task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md) [[src/tasks/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md|wiki]] (24_SEP_2026 10:33 PM PDT)
+- [task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md) [[src/tasks/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md|wiki]] (24_SEP_2026 10:55 PM PDT)
+- [task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md) [[src/tasks/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md|wiki]] (24_SEP_2026 10:45 PM PDT)
 - [task_output_comt_vitamin_e_genotype_gate_24_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md) [[src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md|wiki]] (24_SEP_2026 12:56 PM PDT)
 - [task_output_queen_palm_biochemical_nutrients_23_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md) [[src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md|wiki]] (24_SEP_2026 11:20 AM PDT)
 - [task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md) [[src/tasks/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md|wiki]] (23_SEP_2026 03:42 PM PDT)
