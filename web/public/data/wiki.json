@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 08:27 PM PDT",
+  "generated": "25_SEP_2026 08:51 PM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1763,6 +1763,29 @@
       }
     },
     {
+      "id": "Inflammaging",
+      "langs": {
+        "en-US": {
+          "title": "Inflammaging",
+          "description": "Inflammaging is a state of chronic, low-grade, systemic inflammation that develops with advanced age and is a major risk factor for many age-related diseases.",
+          "created": "2026-05-29",
+          "updated": "2026-09-02",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Inflammaging.md",
+          "path": "wiki/en-US/_link/Inflammaging.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Inflammaging.md"
+        }
+      },
+      "stats": {
+        "words": 1653,
+        "images": 0,
+        "links": 160,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "M₁dG",
       "langs": {
         "en-US": {
@@ -1799,29 +1822,6 @@
         "words": 733,
         "images": 0,
         "links": 38,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Inflammaging",
-      "langs": {
-        "en-US": {
-          "title": "Inflammaging",
-          "description": "Inflammaging is a state of chronic, low-grade, systemic inflammation that develops with advanced age and is a major risk factor for many age-related diseases.",
-          "created": "2026-05-29",
-          "updated": "2026-09-02",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Inflammaging.md",
-          "path": "wiki/en-US/_link/Inflammaging.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Inflammaging.md"
-        }
-      },
-      "stats": {
-        "words": 1653,
-        "images": 0,
-        "links": 160,
         "diagrams": 0
       }
     },

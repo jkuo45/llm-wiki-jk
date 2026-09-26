@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 08:27 PM PDT",
+  "generated": "25_SEP_2026 08:51 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -219,8 +219,8 @@
       },
       "stats": {
         "words": 4547,
-        "images": 0,
-        "links": 31,
+        "images": 8,
+        "links": 38,
         "diagrams": 0
       }
     },
@@ -4647,7 +4647,7 @@
       "stats": {
         "words": 5014,
         "images": 0,
-        "links": 0,
+        "links": 106,
         "diagrams": 0
       }
     },
