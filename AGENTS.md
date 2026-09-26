@@ -59,6 +59,14 @@ offset by +1000).
   structure without enumeration — no numbered prefixes (`## 1. Foo`,
   `## Step 1`, `## I. Foo`). Add numbering only when order itself is
   meaningful (chronology, sequence, scale, ranking).
+- **Outbound links in web pages**: every cross-origin `<a href="http(s)://...">`
+  needs `target="_blank" rel="noopener noreferrer"`. Articles render inside the
+  reader iframe (no `sandbox`), so an untargeted cross-origin click navigates
+  the *iframe* and hosts that send `X-Frame-Options: deny` (github.com, doi.org,
+  pmc.ncbi.nlm.nih.gov, …) refuse to load — the click silently does nothing.
+  Same-origin `graph.johnnykuo.com` links stay untargeted: those are in-reader
+  navigation reconciled by `matchFrameArticle()` in `web/components/reader.js`.
+  Enforced by `python -m scripts check-page-links --check`.
 
 ---
 
@@ -237,6 +245,9 @@ uv run --with networkx python3 -m scripts build-combined
 uv run --with networkx python3 -m scripts analyze-nodes --graph wiki-out/graph.json --sources sirt1 --targets mtorc1
 uv run --with networkx python3 -m scripts predict-links --graph graphify-out/graph.json
 uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.json --role Spreader --top 10
+
+# Audit outbound links in web pages (lint; --fix rewrites, --strict adds rel)
+uv run python3 -m scripts check-page-links --check
 
 # GitHub repo / branch for generated links: read from repo .env
 # (GITHUB_REPO_URL, GITHUB_BRANCH). Both are required — readme-counts raises if

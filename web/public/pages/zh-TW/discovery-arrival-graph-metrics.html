@@ -52,8 +52,8 @@
     </p>
     <div class="meta">
       <p><strong>日期：</strong>2026年8月30日</p>
-      <p><strong>資料來源：</strong><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a>（triples：型別化、有向、帶信心分數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a>（wiki：共同提及 <code>links_to</code>）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併：37,318 邊 = 3,895 條型別有向邊 + 33,423 條共同提及邊）</p>
-      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
+      <p><strong>資料來源：</strong><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a>（triples：型別化、有向、帶信心分數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank" rel="noopener noreferrer"><code>wiki-out/graph.json</code></a>（wiki：共同提及 <code>links_to</code>）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank" rel="noopener noreferrer"><code>web/public/data/edges.json</code></a>（合併：37,318 邊 = 3,895 條型別有向邊 + 33,423 條共同提及邊）</p>
+      <p><strong>方法：</strong>逐年分批的反事實重播模擬（節點清空、按文獻時間線分批加邊、每批重算指標；Louvain 固定種子；400-pivot 介數）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/role_query.py</code></a> · 外部文獻（Cell、Nature、NEJM、Lancet、PNAS、eLife）</p>
       <p><strong>其他語言：</strong><a href="../en-US/discovery-arrival-graph-metrics.html">English</a></p>
     </div>
   </div>
@@ -242,7 +242,7 @@
       <p class="sec-label">實例 A</p>
       <h2>「如果現在是 2012 年？」——鐵死亡重播</h2>
       <p>
-        鐵死亡由 <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012</a> 從早已存在的詞彙中命名——
+        鐵死亡由 <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X" target="_blank" rel="noopener noreferrer">Dixon et al., Cell 2012</a> 從早已存在的詞彙中命名——
         system x꜀⁻（1980）、「oxytosis」（2001）、erastin（2003）、RSL3（2008）、GPX4、麩胱甘肽、鐵。重播把節點清空，
         再按文獻時間線分批加回邊。
       </p>
@@ -360,7 +360,7 @@
       <div class="note">
         <p><strong>臨床現實錨點。</strong>儘管累積了 8,000 多篇論文，至今沒有任何專門設計的鐵死亡藥物通過一期臨床——
         唯一候選 CNSI-Fe(II)（NCT06048367，n=19）於 2025 年 2 月完成
-        （<a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a>）。
+        （<a href="https://www.nature.com/articles/s43018-025-01037-7" target="_blank" rel="noopener noreferrer">Ubellacker &amp; Dixon, Nat Cancer 2025</a>）。
         圖譜連通性量的是想法的流動，不是臨床可及性。</p>
       </div>
     </section>
@@ -454,8 +454,8 @@
         最高品質的證據是<em>有條件的</em>：12–15 歲男性第二劑後心肌炎約 150/10⁶，且有陡峭的年齡梯度；
         IgG4 類別轉換依劑次而定，第三劑後趨於平台。單一條被平均的「疫苗→心肌炎」邊<strong>會把恰恰是臨床真相的
         異質性洗掉</strong>——圖譜需要邊屬性（劑次 × 年齡 × 性別 × 證據層級）或超邊
-        （<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">心肌炎統合分析，Epidemiol Rev 2025</a>；
-        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4，Sci Immunol 2023</a>）。</p>
+        （<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/" target="_blank" rel="noopener noreferrer">心肌炎統合分析，Epidemiol Rev 2025</a>；
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798" target="_blank" rel="noopener noreferrer">IgG4，Sci Immunol 2023</a>）。</p>
       </div>
     </section>
 
@@ -562,7 +562,7 @@
         </div>
         <figcaption>
           兩條本就存在於圖譜的型別化邊，<em>蘊含</em>了 COVID—肺—鐵死亡的連結——而實驗文獻直到 2024 年才確立它
-          （<a href="https://www.nature.com/articles/s41467-024-48055-0">致命 COVID 肺中的鐵死亡特徵</a>）。
+          （<a href="https://www.nature.com/articles/s41467-024-48055-0" target="_blank" rel="noopener noreferrer">致命 COVID 肺中的鐵死亡特徵</a>）。
           通式：<code>X --[r1]--> Y --[r2]--> cancer</code> 合成為 <code>X --[推論的 r1∘r2]--> cancer</code>——
           例如 <code>X inhibits Y</code> + <code>Y promotes cancer</code> ⇒ <code>X --[候選抑制者]--> cancer</code>。
         </figcaption>
@@ -591,7 +591,7 @@
         與 <code>mitohormesis --[protects_against]--> ferroptosis</code>（−）⇒ 預測一條
         <strong>statin↔mitohormesis 拮抗</strong>邊（CoQ10 耗竭侵蝕激效防禦）——圖譜中沒有這條邊，
         也沒有論文直接陳述它，而且它可以被檢驗。這是經典的符號化連結預測
-        （<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>）
+        （<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf" target="_blank" rel="noopener noreferrer">Leskovec et al. 2010</a>）
         移植到生物學。
       </p>
 
@@ -655,7 +655,7 @@
           <tbody>
             <tr>
               <td><strong>Baricitinib</strong></td>
-              <td>BenevolentAI 2020 年 2 月的查詢，是把型別路徑合成付諸運轉：[內吞模組]—被…抑制—[已核准藥物]—抑制—[細胞激素模組]。Baricitinib 是唯一在可達暴露量下同時橋接兩個型別化模組的已核准化合物：16 個雙重抑制劑 → 7 個通過 PK 過濾 → 1 個贏家。假說發表於 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">Lancet，2020 年 2 月 4 日</a>；FDA EUA 2020 年 11 月 19 日；COV-BARRIER 死亡率降低 38%。<strong>從圖譜假說到授權約 9.5 個月。</strong></td>
+              <td>BenevolentAI 2020 年 2 月的查詢，是把型別路徑合成付諸運轉：[內吞模組]—被…抑制—[已核准藥物]—抑制—[細胞激素模組]。Baricitinib 是唯一在可達暴露量下同時橋接兩個型別化模組的已核准化合物：16 個雙重抑制劑 → 7 個通過 PK 過濾 → 1 個贏家。假說發表於 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/" target="_blank" rel="noopener noreferrer">Lancet，2020 年 2 月 4 日</a>；FDA EUA 2020 年 11 月 19 日；COV-BARRIER 死亡率降低 38%。<strong>從圖譜假說到授權約 9.5 個月。</strong></td>
               <td>型別化合成可以做為產品運作。注意圖譜<em>沒有</em>包含什麼：藥物動力學——決定性的過濾是圖譜之外的屬性，由人來套用。</td>
             </tr>
             <tr>
@@ -687,9 +687,9 @@
           <caption>任何推論主張可引用的校準數字</caption>
           <thead><tr><th>方法</th><th>驗證方式</th><th>數字</th></tr></thead>
           <tbody>
-            <tr><td><a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al.，12 條管線，PNAS 2021</a></td><td>918 種藥物篩選</td><td>大多數管線 AUC 0.52–0.66，<strong>各自的 top 清單互不相關</strong>；共識 62% 命中 vs 無引導 0.8%</td></tr>
-            <tr><td><a href="https://elifesciences.org/articles/26726">Rephetio / Hetionet，eLife 2017</a></td><td>事後適應症／試驗</td><td>AUROC 85.5% / 70.0%（在自己的訓練集上 97.4% = 循環論證）</td></tr>
-            <tr><td><a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a></td><td>4 項鄰近性預測，2.2 億病人 EHR</td><td>4 項中 2 項獲證實</td></tr>
+            <tr><td><a href="https://www.pnas.org/doi/10.1073/pnas.2025581118" target="_blank" rel="noopener noreferrer">Gysi et al.，12 條管線，PNAS 2021</a></td><td>918 種藥物篩選</td><td>大多數管線 AUC 0.52–0.66，<strong>各自的 top 清單互不相關</strong>；共識 62% 命中 vs 無引導 0.8%</td></tr>
+            <tr><td><a href="https://elifesciences.org/articles/26726" target="_blank" rel="noopener noreferrer">Rephetio / Hetionet，eLife 2017</a></td><td>事後適應症／試驗</td><td>AUROC 85.5% / 70.0%（在自己的訓練集上 97.4% = 循環論證）</td></tr>
+            <tr><td><a href="https://www.nature.com/articles/s41467-018-05116-5" target="_blank" rel="noopener noreferrer">Cheng et al., Nat Commun 2018</a></td><td>4 項鄰近性預測，2.2 億病人 EHR</td><td>4 項中 2 項獲證實</td></tr>
             <tr><td>DRKG 嵌入（2020）</td><td>為 COVID 排序所有 FDA 藥物</td><td>dexamethasone 排名 5（獲證實）——<strong>排名 1–2 的 ribavirin/azathioprine 失敗</strong></td></tr>
             <tr><td>BenevolentAI（2020）</td><td>baricitinib 入圍名單</td><td>16 → 7（PK）→ 1 個贏家</td></tr>
             <tr><td><strong>失敗欄</strong></td><td>ivermectin、famotidine、hydroxychloroquine、azithromycin</td><td>被<em>多個</em> KG 管線排進頂端；全部無效——不論有無型別，鄰近性找到的是<em>主題式</em>鄰居，不是療效</td></tr>
@@ -739,41 +739,41 @@
     <section id="references">
       <p class="sec-label">參考文獻</p>
       <div class="refs">
-        <p><strong>本 repo 產物與工具</strong>：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a>（合併；3,895 條型別化邊）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json"><code>web/public/data/link-prediction.json</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
+        <p><strong>本 repo 產物與工具</strong>：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank" rel="noopener noreferrer"><code>wiki-out/graph.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank" rel="noopener noreferrer"><code>web/public/data/edges.json</code></a>（合併；3,895 條型別化邊）· <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json" target="_blank" rel="noopener noreferrer"><code>web/public/data/link-prediction.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/role_query.py</code></a> ·
         重播／反事實 harness（若採用可晉級至 <code>scripts/</code>）。來源任務輸出：
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
         <p><strong>型別化邊與藥物重定位方法</strong>：
-        <a href="https://elifesciences.org/articles/26726">Rephetio/Hetionet（DWPC metapaths），eLife 2017</a> ·
-        <a href="https://www.nature.com/articles/ncomms10331">Guney et al., Nat Commun 2016</a> ·
-        <a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a> ·
-        <a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al., PNAS 2021</a> ·
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/">ROBOKOP</a> ·
-        <a href="https://github.com/gnn4dr/DRKG">DRKG</a> ·
-        <a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">符號化連結預測，Leskovec et al. 2010</a></p>
+        <a href="https://elifesciences.org/articles/26726" target="_blank" rel="noopener noreferrer">Rephetio/Hetionet（DWPC metapaths），eLife 2017</a> ·
+        <a href="https://www.nature.com/articles/ncomms10331" target="_blank" rel="noopener noreferrer">Guney et al., Nat Commun 2016</a> ·
+        <a href="https://www.nature.com/articles/s41467-018-05116-5" target="_blank" rel="noopener noreferrer">Cheng et al., Nat Commun 2018</a> ·
+        <a href="https://www.pnas.org/doi/10.1073/pnas.2025581118" target="_blank" rel="noopener noreferrer">Gysi et al., PNAS 2021</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/" target="_blank" rel="noopener noreferrer">ROBOKOP</a> ·
+        <a href="https://github.com/gnn4dr/DRKG" target="_blank" rel="noopener noreferrer">DRKG</a> ·
+        <a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf" target="_blank" rel="noopener noreferrer">符號化連結預測，Leskovec et al. 2010</a></p>
         <p><strong>發現軌跡</strong>：
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">baricitinib 假說，Lancet 2020</a> ·
-        <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00331-3/fulltext">COV-BARRIER, Lancet Respir Med 2021</a> ·
-        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563">SELECT, NEJM 2023</a> ·
-        <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2403347">FLOW, NEJM 2024</a> ·
-        <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea">FDA OSA 2024</a> ·
-        <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash">FDA MASH 2025</a> ·
-        <a href="https://www.alz.org/news/2025/alzheimers-association-statement-oral-semaglutide-phase-3-topline-data-release">EVOKE 陰性，2025 年 11 月</a> ·
-        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1507524">EMPA-REG, NEJM 2015</a> ·
-        <a href="https://link.springer.com/article/10.1007/s40120-025-00832-9">SGLT2-失智症綜述 2025</a> ·
-        <a href="https://www.sciencedirect.com/science/article/pii/S2405844023061583">鐵死亡文獻計量，Heliyon 2023</a></p>
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/" target="_blank" rel="noopener noreferrer">baricitinib 假說，Lancet 2020</a> ·
+        <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00331-3/fulltext" target="_blank" rel="noopener noreferrer">COV-BARRIER, Lancet Respir Med 2021</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563" target="_blank" rel="noopener noreferrer">SELECT, NEJM 2023</a> ·
+        <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2403347" target="_blank" rel="noopener noreferrer">FLOW, NEJM 2024</a> ·
+        <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea" target="_blank" rel="noopener noreferrer">FDA OSA 2024</a> ·
+        <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash" target="_blank" rel="noopener noreferrer">FDA MASH 2025</a> ·
+        <a href="https://www.alz.org/news/2025/alzheimers-association-statement-oral-semaglutide-phase-3-topline-data-release" target="_blank" rel="noopener noreferrer">EVOKE 陰性，2025 年 11 月</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1507524" target="_blank" rel="noopener noreferrer">EMPA-REG, NEJM 2015</a> ·
+        <a href="https://link.springer.com/article/10.1007/s40120-025-00832-9" target="_blank" rel="noopener noreferrer">SGLT2-失智症綜述 2025</a> ·
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405844023061583" target="_blank" rel="noopener noreferrer">鐵死亡文獻計量，Heliyon 2023</a></p>
         <p><strong>生物學錨點</strong>：
-        <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012（鐵死亡）</a> ·
-        <a href="https://www.nature.com/articles/s41467-024-48055-0">COVID 肺鐵死亡, Nat Commun 2024</a> ·
-        <a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a> ·
-        <a href="https://www.nature.com/articles/s41586-023-06983-9">7-DHC, Nature 2024</a> ·
-        <a href="https://www.nature.com/articles/s41582-022-00771-1">deferiprone 於 PD, Nat Rev Neurol 2022</a> ·
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8805734/">CD38/NAD 於 COVID</a> ·
-        <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext">metformin 長新冠預防, Lancet ID 2023</a> ·
-        <a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">心肌炎統合分析, Epidemiol Rev 2025</a> ·
-        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4, Sci Immunol 2023</a></p>
+        <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X" target="_blank" rel="noopener noreferrer">Dixon et al., Cell 2012（鐵死亡）</a> ·
+        <a href="https://www.nature.com/articles/s41467-024-48055-0" target="_blank" rel="noopener noreferrer">COVID 肺鐵死亡, Nat Commun 2024</a> ·
+        <a href="https://www.nature.com/articles/s43018-025-01037-7" target="_blank" rel="noopener noreferrer">Ubellacker &amp; Dixon, Nat Cancer 2025</a> ·
+        <a href="https://www.nature.com/articles/s41586-023-06983-9" target="_blank" rel="noopener noreferrer">7-DHC, Nature 2024</a> ·
+        <a href="https://www.nature.com/articles/s41582-022-00771-1" target="_blank" rel="noopener noreferrer">deferiprone 於 PD, Nat Rev Neurol 2022</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8805734/" target="_blank" rel="noopener noreferrer">CD38/NAD 於 COVID</a> ·
+        <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext" target="_blank" rel="noopener noreferrer">metformin 長新冠預防, Lancet ID 2023</a> ·
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39673764/" target="_blank" rel="noopener noreferrer">心肌炎統合分析, Epidemiol Rev 2025</a> ·
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798" target="_blank" rel="noopener noreferrer">IgG4, Sci Immunol 2023</a></p>
       </div>
     </section>
 

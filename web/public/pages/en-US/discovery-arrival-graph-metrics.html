@@ -53,8 +53,8 @@
     </p>
     <div class="meta">
       <p><strong>Date:</strong> 30 August 2026</p>
-      <p><strong>Data sources:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> (triples: typed, directed, confidence-scored) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> (wiki: co-mention <code>links_to</code>) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined: 37,318 edges = 3,895 typed-directed + 33,423 co-mention)</p>
-      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
+      <p><strong>Data sources:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a> (triples: typed, directed, confidence-scored) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank" rel="noopener noreferrer"><code>wiki-out/graph.json</code></a> (wiki: co-mention <code>links_to</code>) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank" rel="noopener noreferrer"><code>web/public/data/edges.json</code></a> (combined: 37,318 edges = 3,895 typed-directed + 33,423 co-mention)</p>
+      <p><strong>Methods:</strong> staged year-by-year replay simulations (node emptied, edges added in literature-timeline batches, metrics recomputed per batch; Louvain fixed seed; 400-pivot betweenness) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/role_query.py</code></a> · external literature (Cell, Nature, NEJM, Lancet, PNAS, eLife)</p>
     </div>
   </div>
 </header>
@@ -249,7 +249,7 @@
       <p class="sec-label">Worked example A</p>
       <h2>"What if it were 2012?" — ferroptosis replayed</h2>
       <p>
-        Ferroptosis was named by <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012</a>
+        Ferroptosis was named by <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X" target="_blank" rel="noopener noreferrer">Dixon et al., Cell 2012</a>
         from vocabulary that already existed — system x꜀⁻ (1980), "oxytosis" (2001), erastin (2003), RSL3 (2008),
         GPX4, glutathione, iron. The replay empties the node and re-adds edges in literature-timeline batches.
       </p>
@@ -371,7 +371,7 @@
       <div class="note">
         <p><strong>Clinical reality anchor.</strong> Despite 8,000+ cumulative papers, no purpose-built ferroptosis drug
         has passed Phase 1 — the sole candidate, CNSI-Fe(II) (NCT06048367, n=19), completed Feb 2025
-        (<a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a>).
+        (<a href="https://www.nature.com/articles/s43018-025-01037-7" target="_blank" rel="noopener noreferrer">Ubellacker &amp; Dixon, Nat Cancer 2025</a>).
         Graph connectivity measures idea flow, not clinical tractability.</p>
       </div>
     </section>
@@ -469,8 +469,8 @@
         ~150/10⁶ second doses in males 12–15 with a steep age gradient; IgG4 class-switching is dose-count-dependent
         and plateaus after dose 3. A single averaged vaccine→myocarditis edge <strong>washes out exactly the
         heterogeneity that is the clinical truth</strong> — the graph needs edge attributes (dose × age × sex ×
-        evidence tier) or hyperedges (<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">myocarditis meta, Epidemiol Rev 2025</a>;
-        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4, Sci Immunol 2023</a>).</p>
+        evidence tier) or hyperedges (<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/" target="_blank" rel="noopener noreferrer">myocarditis meta, Epidemiol Rev 2025</a>;
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798" target="_blank" rel="noopener noreferrer">IgG4, Sci Immunol 2023</a>).</p>
       </div>
     </section>
 
@@ -581,7 +581,7 @@
         </div>
         <figcaption>
           Two typed edges that existed in the graph <em>imply</em> the COVID-lung-ferroptosis connection that the
-          experimental literature established only in 2024 (<a href="https://www.nature.com/articles/s41467-024-48055-0">ferroptosis signature in fatal COVID lungs</a>).
+          experimental literature established only in 2024 (<a href="https://www.nature.com/articles/s41467-024-48055-0" target="_blank" rel="noopener noreferrer">ferroptosis signature in fatal COVID lungs</a>).
           Generic form: <code>X --[r1]--> Y --[r2]--> cancer</code> composes to <code>X --[inferred r1∘r2]--> cancer</code> —
           e.g. <code>X inhibits Y</code> + <code>Y promotes cancer</code> ⇒ <code>X --[candidate suppressor]--> cancer</code>.
         </figcaption>
@@ -612,7 +612,7 @@
         and <code>mitohormesis --[protects_against]--> ferroptosis</code> (−) ⇒ predict a
         <strong>statin↔mitohormesis antagonism</strong> edge (CoQ10 depletion undermining the hormetic defense) — no
         such edge exists in the graph, no paper states it directly, and it is checkable. This is classic signed link
-        prediction (<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">Leskovec et al. 2010</a>)
+        prediction (<a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf" target="_blank" rel="noopener noreferrer">Leskovec et al. 2010</a>)
         transplanted to biology.
       </p>
 
@@ -679,7 +679,7 @@
           <tbody>
             <tr>
               <td><strong>Baricitinib</strong></td>
-              <td>BenevolentAI's Feb-2020 query was typed-path composition operationalized: [endocytosis module]—inhibited-by—[approved drug]—inhibits—[cytokine module]. Baricitinib was the only approved compound bridging both typed modules at achievable exposure: 16 dual-inhibitors → 7 survived the PK filter → 1 winner. Hypothesis published <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">Lancet, Feb 4 2020</a>; FDA EUA Nov 19 2020; COV-BARRIER 38% mortality reduction. <strong>~9.5 months from graph hypothesis to authorization.</strong></td>
+              <td>BenevolentAI's Feb-2020 query was typed-path composition operationalized: [endocytosis module]—inhibited-by—[approved drug]—inhibits—[cytokine module]. Baricitinib was the only approved compound bridging both typed modules at achievable exposure: 16 dual-inhibitors → 7 survived the PK filter → 1 winner. Hypothesis published <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/" target="_blank" rel="noopener noreferrer">Lancet, Feb 4 2020</a>; FDA EUA Nov 19 2020; COV-BARRIER 38% mortality reduction. <strong>~9.5 months from graph hypothesis to authorization.</strong></td>
               <td>Typed composition works as a product. Note what the graph did <em>not</em> contain: pharmacokinetics — the decisive filter was an attribute outside the graph, applied by humans.</td>
             </tr>
             <tr>
@@ -711,9 +711,9 @@
           <caption>Calibration numbers for any implication claim</caption>
           <thead><tr><th>Method</th><th>Validation</th><th>Number</th></tr></thead>
           <tbody>
-            <tr><td><a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al., 12 pipelines, PNAS 2021</a></td><td>918 drugs screened</td><td>most pipelines AUC 0.52–0.66, <strong>mutually uncorrelated top lists</strong>; consensus 62% hit vs 0.8% unguided</td></tr>
-            <tr><td><a href="https://elifesciences.org/articles/26726">Rephetio / Hetionet, eLife 2017</a></td><td>post-hoc indications / trials</td><td>AUROC 85.5% / 70.0% (97.4% on own training = circular)</td></tr>
-            <tr><td><a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a></td><td>4 proximity predictions, 220M-patient EHR</td><td>2 of 4 confirmed</td></tr>
+            <tr><td><a href="https://www.pnas.org/doi/10.1073/pnas.2025581118" target="_blank" rel="noopener noreferrer">Gysi et al., 12 pipelines, PNAS 2021</a></td><td>918 drugs screened</td><td>most pipelines AUC 0.52–0.66, <strong>mutually uncorrelated top lists</strong>; consensus 62% hit vs 0.8% unguided</td></tr>
+            <tr><td><a href="https://elifesciences.org/articles/26726" target="_blank" rel="noopener noreferrer">Rephetio / Hetionet, eLife 2017</a></td><td>post-hoc indications / trials</td><td>AUROC 85.5% / 70.0% (97.4% on own training = circular)</td></tr>
+            <tr><td><a href="https://www.nature.com/articles/s41467-018-05116-5" target="_blank" rel="noopener noreferrer">Cheng et al., Nat Commun 2018</a></td><td>4 proximity predictions, 220M-patient EHR</td><td>2 of 4 confirmed</td></tr>
             <tr><td>DRKG embeddings (2020)</td><td>all FDA drugs ranked for COVID</td><td>dexamethasone rank 5 (validated) — <strong>ribavirin/azathioprine at ranks 1–2 failed</strong></td></tr>
             <tr><td>BenevolentAI (2020)</td><td>baricitinib shortlist</td><td>16 → 7 (PK) → 1 winner</td></tr>
             <tr><td><strong>Failure column</strong></td><td>ivermectin, famotidine, hydroxychloroquine, azithromycin</td><td>top-ranked by <em>several</em> KG pipelines; all null — typed or not, proximity finds <em>thematic</em> neighbors, not efficacy</td></tr>
@@ -764,41 +764,41 @@
     <section id="references">
       <p class="sec-label">References</p>
       <div class="refs">
-        <p><strong>Repo artifacts &amp; tools</strong>: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json"><code>wiki-out/graph.json</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json"><code>web/public/data/edges.json</code></a> (combined; 3,895 typed edges) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json"><code>web/public/data/link-prediction.json</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py"><code>scripts/analysis/node_analysis.py</code></a> ·
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py"><code>scripts/analysis/role_query.py</code></a> ·
+        <p><strong>Repo artifacts &amp; tools</strong>: <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank" rel="noopener noreferrer"><code>wiki-out/graph.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank" rel="noopener noreferrer"><code>web/public/data/edges.json</code></a> (combined; 3,895 typed edges) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/link-prediction.json" target="_blank" rel="noopener noreferrer"><code>web/public/data/link-prediction.json</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a> ·
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/role_query.py</code></a> ·
         replay/counterfactual harnesses (promote to <code>scripts/</code> if adopted). Source task output:
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md</code></a></p>
         <p><strong>Typed-edge &amp; repurposing methods</strong>:
-        <a href="https://elifesciences.org/articles/26726">Rephetio/Hetionet (DWPC metapaths), eLife 2017</a> ·
-        <a href="https://www.nature.com/articles/ncomms10331">Guney et al., Nat Commun 2016</a> ·
-        <a href="https://www.nature.com/articles/s41467-018-05116-5">Cheng et al., Nat Commun 2018</a> ·
-        <a href="https://www.pnas.org/doi/10.1073/pnas.2025581118">Gysi et al., PNAS 2021</a> ·
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/">ROBOKOP</a> ·
-        <a href="https://github.com/gnn4dr/DRKG">DRKG</a> ·
-        <a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf">signed link prediction, Leskovec et al. 2010</a></p>
+        <a href="https://elifesciences.org/articles/26726" target="_blank" rel="noopener noreferrer">Rephetio/Hetionet (DWPC metapaths), eLife 2017</a> ·
+        <a href="https://www.nature.com/articles/ncomms10331" target="_blank" rel="noopener noreferrer">Guney et al., Nat Commun 2016</a> ·
+        <a href="https://www.nature.com/articles/s41467-018-05116-5" target="_blank" rel="noopener noreferrer">Cheng et al., Nat Commun 2018</a> ·
+        <a href="https://www.pnas.org/doi/10.1073/pnas.2025581118" target="_blank" rel="noopener noreferrer">Gysi et al., PNAS 2021</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6954664/" target="_blank" rel="noopener noreferrer">ROBOKOP</a> ·
+        <a href="https://github.com/gnn4dr/DRKG" target="_blank" rel="noopener noreferrer">DRKG</a> ·
+        <a href="https://cs.stanford.edu/people/jure/pubs/signpsw.pdf" target="_blank" rel="noopener noreferrer">signed link prediction, Leskovec et al. 2010</a></p>
         <p><strong>Discovery arcs</strong>:
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/">baricitinib hypothesis, Lancet 2020</a> ·
-        <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00331-3/fulltext">COV-BARRIER, Lancet Respir Med 2021</a> ·
-        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563">SELECT, NEJM 2023</a> ·
-        <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2403347">FLOW, NEJM 2024</a> ·
-        <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea">FDA OSA 2024</a> ·
-        <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash">FDA MASH 2025</a> ·
-        <a href="https://www.alz.org/news/2025/alzheimers-association-statement-oral-semaglutide-phase-3-topline-data-release">EVOKE negative, Nov 2025</a> ·
-        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1507524">EMPA-REG, NEJM 2015</a> ·
-        <a href="https://link.springer.com/article/10.1007/s40120-025-00832-9">SGLT2-dementia review 2025</a> ·
-        <a href="https://www.sciencedirect.com/science/article/pii/S2405844023061583">ferroptosis bibliometrics, Heliyon 2023</a></p>
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7137985/" target="_blank" rel="noopener noreferrer">baricitinib hypothesis, Lancet 2020</a> ·
+        <a href="https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00331-3/fulltext" target="_blank" rel="noopener noreferrer">COV-BARRIER, Lancet Respir Med 2021</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563" target="_blank" rel="noopener noreferrer">SELECT, NEJM 2023</a> ·
+        <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2403347" target="_blank" rel="noopener noreferrer">FLOW, NEJM 2024</a> ·
+        <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea" target="_blank" rel="noopener noreferrer">FDA OSA 2024</a> ·
+        <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash" target="_blank" rel="noopener noreferrer">FDA MASH 2025</a> ·
+        <a href="https://www.alz.org/news/2025/alzheimers-association-statement-oral-semaglutide-phase-3-topline-data-release" target="_blank" rel="noopener noreferrer">EVOKE negative, Nov 2025</a> ·
+        <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1507524" target="_blank" rel="noopener noreferrer">EMPA-REG, NEJM 2015</a> ·
+        <a href="https://link.springer.com/article/10.1007/s40120-025-00832-9" target="_blank" rel="noopener noreferrer">SGLT2-dementia review 2025</a> ·
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405844023061583" target="_blank" rel="noopener noreferrer">ferroptosis bibliometrics, Heliyon 2023</a></p>
         <p><strong>Biology anchors</strong>:
-        <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X">Dixon et al., Cell 2012 (ferroptosis)</a> ·
-        <a href="https://www.nature.com/articles/s41467-024-48055-0">COVID lung ferroptosis, Nat Commun 2024</a> ·
-        <a href="https://www.nature.com/articles/s43018-025-01037-7">Ubellacker &amp; Dixon, Nat Cancer 2025</a> ·
-        <a href="https://www.nature.com/articles/s41586-023-06983-9">7-DHC, Nature 2024</a> ·
-        <a href="https://www.nature.com/articles/s41582-022-00771-1">deferiprone in PD, Nat Rev Neurol 2022</a> ·
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8805734/">CD38/NAD in COVID</a> ·
-        <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext">metformin LC prevention, Lancet ID 2023</a> ·
-        <a href="https://pubmed.ncbi.nlm.nih.gov/39673764/">myocarditis meta, Epidemiol Rev 2025</a> ·
-        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798">IgG4, Sci Immunol 2023</a></p>
+        <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X" target="_blank" rel="noopener noreferrer">Dixon et al., Cell 2012 (ferroptosis)</a> ·
+        <a href="https://www.nature.com/articles/s41467-024-48055-0" target="_blank" rel="noopener noreferrer">COVID lung ferroptosis, Nat Commun 2024</a> ·
+        <a href="https://www.nature.com/articles/s43018-025-01037-7" target="_blank" rel="noopener noreferrer">Ubellacker &amp; Dixon, Nat Cancer 2025</a> ·
+        <a href="https://www.nature.com/articles/s41586-023-06983-9" target="_blank" rel="noopener noreferrer">7-DHC, Nature 2024</a> ·
+        <a href="https://www.nature.com/articles/s41582-022-00771-1" target="_blank" rel="noopener noreferrer">deferiprone in PD, Nat Rev Neurol 2022</a> ·
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8805734/" target="_blank" rel="noopener noreferrer">CD38/NAD in COVID</a> ·
+        <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext" target="_blank" rel="noopener noreferrer">metformin LC prevention, Lancet ID 2023</a> ·
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39673764/" target="_blank" rel="noopener noreferrer">myocarditis meta, Epidemiol Rev 2025</a> ·
+        <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798" target="_blank" rel="noopener noreferrer">IgG4, Sci Immunol 2023</a></p>
       </div>
     </section>
 

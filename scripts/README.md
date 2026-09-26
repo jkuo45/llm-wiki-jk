@@ -55,6 +55,7 @@ via `--graph` — no rebuild required.
 | `thumbnail` | `tools/thumbnail.py` | Generate note-page thumbnails | `pillow` |
 | `pdf-to-md` | `tools/pdf_to_md.py` | Parse a PDF to Markdown (Obsidian-friendly) | `pymupdf4llm` |
 | `sort-manifest-tags` | `tools/sort_manifest_tags.py` | Sort `src/images/manifest.json` tags by relevance | — |
+| `check-page-links` | `tools/page_links.py` | Audit/normalize outbound links in `web/public/pages` (`--check` \| `--fix` \| `--strict`) | — |
 
 ## Layout
 
