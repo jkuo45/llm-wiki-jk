@@ -796,7 +796,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Uric Acid Crystals]] | Biological Molecule | Monosodium urate (MSU) and uric acid crystals are potent NLRP3 inflammasome activators that cause gouty inflammation through lysosomal rupture and IL-1β secretion. |
 | [[Very Low Density Lipoprotein]] | Biological Molecule | Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression to... |
 
-### Chemical Compound (164)
+### Chemical Compound (165)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
@@ -948,6 +948,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Valine]] | Chemical Compound | Essential branched-chain amino acid that is fully glucogenic, entering the TCA cycle via succinyl-CoA. Valine restriction reduces body weight, improves metabolic health, reduces hepatic senescence,... |
 | [[VER155008]] | Chemical Compound | A selective HSPA8 (HSC70) inhibitor that suppresses the SASP in senescent cells, phenocopying the senomorphic effect of apigenin. |
 | [[Vincristine]] | Chemical Compound | Vincristine is a Vinca alkaloid chemotherapeutic that inhibits microtubule polymerization, arresting mitosis; dose-limiting peripheral neuropathy is characteristic. |
+| [[Vitamin A]] | Chemical Compound | The fat-soluble retinoid family — retinol, retinal, retinoic acid, retinyl esters — required for vision, epithelial integrity, and RAR/RXR gene transcription; a direct radical-trapping anti-ferroptotic nutrient whose provitamin A precursors are carotenoids. |
 | [[Vitamin B12]] | Chemical Compound | Vitamin B12 (cobalamin) is a water-soluble vitamin essential for red blood cell formation, DNA Repair, and neurological function. It is a critical cofactor in the Methylation. |
 | [[Vitamin B3]] | Chemical Compound | Vitamin B3 (niacin) encompasses Nicotinic acid and Nicotinamide (niacinamide). It is the precursor to NAD+ and NADP+, making it essential for cellular energy metabolism, DNA Repair, and Sirtuin... |
 | [[Vitamin B6]] | Chemical Compound | Vitamin B6 refers to a group of six interconvertible compounds: pyridoxine, pyridoxal, Pyridoxamine, and their phosphorylated derivatives. The active form, pyridoxal 5''-phosphate (PLP), serves ... |
@@ -1728,13 +1729,14 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[HeLa Cells]] | Cell Line | Immortalized human cervical carcinoma epithelial cell line; widely used in molecular and virology research including miRNA biogenesis assays. |
 | [[WI-38]] | Cell Line | A diploid human fetal lung fibroblast cell line derived by Leonard Hayflick in 1962, widely used as a model for replicative senescence and aging research; the cell line in which the ACase-ferroptos... |
 
-### Chemical Class (29)
+### Chemical Class (30)
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
 | [[ACE Inhibitors]] | Chemical Class | A class of antihypertensive drugs that block angiotensin-converting enzyme; discussed as conventional agents with anti-aging potential via prevention of multiple age-related diseases. |
 | [[Aminochromes]] | Chemical Class | Aminochromes are a class of deep-colored, cyclic indole-quinone compounds formed by the Oxidation of Catecholamines. They are key intermediates in the formation of melanins and are associated w... |
 | [[Branched-Chain Amino Acids]] | Chemical Class | Leucine, isoleucine, and valine — the three essential branched-chain amino acids. High circulating levels are associated with obesity, insulin resistance, and mortality; dietary restriction recapit... |
+| [[Carotenoids]] | Chemical Class | C40 isoprenoid pigments — carotenes and xanthophylls — that color plants, quench singlet oxygen and lipid radicals in membranes, and, for β-/α-carotene and β-cryptoxanthin, serve as provitamin A precursors. |
 | [[Catecholamines]] | Chemical Class | Catecholamines are a class of aromatic amines that serve as hormones and neurotransmitters. They are characterized by a catechol group (a benzene ring with two hydroxyl groups) and an amine sid... |
 | [[COMT Inhibitors]] | Chemical Class | Chemical properties: COMT Inhibitors is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[Cyclodextrins]] | Chemical Class | Cyclodextrins are cyclic oligosaccharides with a hydrophobic cavity and hydrophilic exterior that form inclusion complexes, enhancing the solubility and bioavailability of lipophilic guests such as... |

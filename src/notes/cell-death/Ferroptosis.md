@@ -4,7 +4,7 @@ description: Ferroptosis is a non-apoptotic form of regulated cell death driven 
   iron-dependent Lipid Peroxidation.
 protected: true
 created: 2024-01-01
-updated: 2026-09-03
+updated: 2026-09-26
 tags:
   - biological-process
 aliases: []
@@ -40,6 +40,26 @@ In addition to GPX4, cells deploy a **second, stand-alone ferroptosis-suppressio
 ## Sex differences
 
 Ferroptosis sensitivity is sexually dimorphic at three nodes. (1) **Hormone-gated phospholipid remodeling:** the lyso-PL acyltransferases [[MBOAT1]] and [[MBOAT2]] suppress ferroptosis GPX4- and FSP1-independently by enriching PE-MUFA at the expense of peroxidizable PE-PUFA; MBOAT1 is a direct estrogen-receptor transcriptional target (estradiol up, tamoxifen/fulvestrant down) and MBOAT2 a direct androgen-receptor target, sensitizing ER+ breast and AR+ prostate cancers to ferroptosis induction combined with hormonal blockade (*Cell* 2023, PMCID PMC10330611). (2) **Kidney:** tubule-specific Gpx4 deletion injures male but strikingly spares female kidneys; ovariectomy partially abolishes protection, and single-cell profiling identifies elevated [[NRF2]] antioxidant tone as the female resilience mechanism — NRF2 activation rescues male tubules (Ide et al., *Cell Rep* 2022;41:111610, doi:10.1016/j.celrep.2022.111610). (3) **Heart:** estradiol-driven SmgGDS induction protects females against ferritinophagy-mediated ferroptosis in isoproterenol takotsubo-like injury (ovariectomy lowers SmgGDS to male levels; replacement restores), and estradiol/2-methoxyestradiol preserve metabolic gene programs and limit doxorubicin cardiomyopathy in female rats while ovariectomy/fulvestrant worsens it (SmgGDS study 2023, PMCID PMC10719533; *Naunyn-Schmiedeberg's Arch Pharmacol* 2024). Testosterone is the dominant susceptibility factor in renal ischemia (castration protects males; testosterone-loading sensitizes females — Park et al., *J Biol Chem* 2004), a pre-ferroptosis-era result consistent with, but not itself proof of, male ferroptotic vulnerability. No verified sex-dimorphic basal FSP1/GPX4 expression was found.
+
+## The dietary radical-trapping tier: which vitamin wins
+
+Beyond the enzymatic GPX4 axis and the FSP1–CoQ10 axis, cells deploy a **lipophilic radical-trapping antioxidant tier** supplied by the diet — most of it from [[Vitamin E]] and [[Vitamin A]]. The tier matters because it acts *upstream* of the GPX4 reaction: it intercepts LOO• and LO• chains directly, so it can hold the membrane safe even when GSH synthesis or GPX4 itself is compromised (as in erastin or RSL3 treatment).
+
+**Tocotrienols ≫ tocopherols.** Yang, Ito et al. (*Sci Rep* 2026;16:4497, doi:10.1038/s41598-025-34673-1; PMID 41501350) benchmarked all nine tocochromanol analogs against RSL3, erastin, BSO, and genetic *Gpx4* deletion:
+
+| Model | Tocotrienol EC₅₀ (α/β/γ/δ) | Tocopherol EC₅₀ (α/β/γ/δ) | Trolox |
+| --- | --- | --- | --- |
+| *Gpx4* deletion (Pfa1) | **0.12 / 0.12 / 0.13 / 0.36 μM** | 2.0 / 2.1 / 2.3 / 1.0 μM | 29 μM |
+| RSL3 (HT-1080) | full protection **<1 μM** | full protection **>10 μM** | — |
+
+The ranking reproduced in cell-free liposomal autoxidation and by [[C11-BODIPY]] oxidation, implicating bilayer radical-trapping efficiency (deeper membrane integration of the farnesyl tail) rather than signaling. α-TTP actively retains α-tocopherol, so this in-vitro potency advantage does not automatically translate to superior *in-vivo* tissue protection.
+
+**Vitamin A metabolites out-trap α-tocopherol.** Retinol and all-*trans* retinal inhibit ferroptosis more potently than α-tocopherol (EC₅₀ 0.4–4.8 μM and 0.7–1.1 μM vs 7.4–36.1 μM), while all-*trans* [[Retinoic Acid]] acts chiefly by transcription (Jakaria et al. 2023, PMID 37236031; Studer et al., *Nat Commun* 2024, doi:10.1038/s41467-024-51996-1, where ATRA upregulates GPX4, FSP1, GCH1, ACSL3, SCD1, PPARα and where loss of vitamin A signaling *is* a ferroptosis phenotype in developing neurons).
+
+**Carotenoids fill the same phase.** β-/α-carotene and xanthophylls from [[Carotenoids]] quench [[Singlet Oxygen]] and trap lipid radicals in the same bilayer, and serve as the feedback-regulated, non-toxic provitamin A reservoir feeding the retinoid arm above — the composition of [[Red Palm Oil]] (~600–750 ppm carotenoids + ~70% tocotrienol vitamin E + 18–25 ppm CoQ10) is the rare single-food delivery of the whole tier.
+
+> [!info] Practical read
+> The Wiki's food-first scheduling (see [[task_output_anti_ferroptosis_intake_schedule_26_Sep_2026]]) follows directly from this ranking: prefer tocotrienol- and carotenoid-rich oils (red palm oil) over pure-α supplements, keep dosing with dietary fat, avoid antioxidant *supplements* within ~3–4 h of exercise or fasting so [[Mitohormesis]] is not blunted, and remember that iron status (ferritin, [[Iron]]) is the upstream substrate any antioxidant tier cannot substitute for.
 
 ## Key Regulators
 - **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase at the plasma membrane; uses NADPH to regenerate ubiquinol, a GPX4-independent radical trap), [[DHODH]], [[Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
@@ -79,6 +99,9 @@ List of documents that mention this entity
   - [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026|FSP1–CoQ10–NAD(P)H Ferroptosis Axis (deep dive)]]
     - Synthesis of the Doll et al. (2019) discovery that FSP1 uses NAD(P)H to regenerate CoQ10/ubiquinol at the plasma membrane, acting as a GPX4-independent parallel brake, and how MVA-pathway loss of ubiquinone converges on FSP1 to predict ferroptosis sensitivity.
 
+  - [[task_output_anti_ferroptosis_intake_schedule_26_Sep_2026|Anti-Ferroptosis Intake Schedule]]
+    - Wiki-coverage assessment plus the food-first daily schedule for vitamin E, vitamin A, and red palm oil; source of the tocotrienol-vs-tocopherol and vitamin-A potency tables now recorded in this note.
+
 
 ## Connections
 
@@ -115,6 +138,11 @@ List of documents that mention this entity
 - [[IDH2]] — Deacetylated/activated by SIRT3 to regenerate NADPH/GSH, supporting ferroptosis resistance
 - [[MTHFD2]] — NADPH-generating one-carbon enzyme in the SIRT3 ferroptosis-defense network
 - [[Catalase]] — ROS-scavenging enzyme in the SIRT3 anti-ferroptotic arm
+- [[Tocotrienols]] — Most potent dietary vitamin E class against ferroptosis (EC₅₀ 0.12–0.36 μM vs 1.0–2.3 μM for tocopherols); GPX4-independent membrane radical trap
+- [[Vitamin A]] — Retinol/retinal are direct lipid-radical traps more potent than α-tocopherol; ATRA transcriptionally upregulates GPX4, FSP1, GCH1, ACSL3
+- [[Carotenoids]] — Provitamin A precursors and ¹O₂ quenchers occupying the same bilayer as the tocochromanols
+- [[Red Palm Oil]] — Single-food co-delivery of the dietary radical-trapping tier (tocotrienols, carotenoids, CoQ10) on an oleic/palmitic vehicle
+- [[Mitohormesis]] — Why dietary antioxidant dosing is scheduled away from exercise/fasting windows
 
 ## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc-]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]], [[SLC7A11]], [[Erastin]], [[SAT1]], [[ALOX15]], [[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], [[Phosphatidylethanolamine]], [[CISD1]], [[NFS1]], [[Clear cell renal cell carcinoma]], [[Head and neck cancer]], [[Adrenocortical carcinomas]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Gastric Cancer]], [[Colorectal Cancer]], [[Lung Cancer]], [[Stroke]], [[Traumatic Brain Injury]], [[Ubiquinone]], [[NADPH]], [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026]]

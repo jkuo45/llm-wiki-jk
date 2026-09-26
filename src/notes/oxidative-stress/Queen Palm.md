@@ -2,7 +2,7 @@
 title: Queen Palm
 description: Syagrus romanzoffiana (jerivá) ornamental palm whose fruit pulp and kernel supply carotenoids, polyphenols, tocopherols and medium-chain lipids — a studied dietary source of lipophilic defense against lipid peroxidation.
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-09-26
 tags:
   - oxidative-stress
   - plant
@@ -28,7 +28,7 @@ aliases: [Syagrus romanzoffiana, jerivá, jeriva, cocos palm, pino]
 
 Structural protection against [[Lipid Peroxidation]] requires lipophilic antioxidants that embed in bilayers ([[Vitamin E]] chain-breaking LOO•, carotenoids quenching ¹O₂, [[Coenzyme Q10]] regenerating tocopherol, [[GPX4]] reducing LOOH). Against that metric the Queen Palm pulp sits in a **high-potency peer tier**, below record-holders and above standard crops:
 
-- **Tier 1 (outranks it):** Buriti (*Mauritia flexuosa*, 5–10× the carotenoid load), sea buckthorn, and red palm oil (tocotrienols).
+- **Tier 1 (outranks it):** Buriti (*Mauritia flexuosa*, 5–10× the carotenoid load), sea buckthorn, and [[Red Palm Oil|red palm oil]] (tocotrienols).
 - **Tier 2 (its tier):** comparable to or above jelly palm (*Butia capitata*) and açaí in provitamin-A carotenoid protection — açaí leads on hydrophilic anthocyanins, jerivá on lipophilic carotenoids.
 - **Tier 3 (it outranks):** carrots and sweet potatoes have more β-carotene by weight but lack the intrinsic lipid matrix for direct membrane delivery; common fruits are hydrophilic-polyphenol dominated.
 
