@@ -192,7 +192,7 @@
               ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="task-desc">${highlight(t.desc, tokens)}</p>` : ''}
               <p class="task-meta"><code>${esc(t.file)}</code></p>
-              <p class="task-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span></p>
+              <p class="task-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`}</span></p>
             </li>`).join('');
           html += '</ul>';
         });

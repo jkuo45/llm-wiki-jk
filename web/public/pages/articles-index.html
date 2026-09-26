@@ -240,7 +240,7 @@
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
               ${a.desc ? `<p class="article-desc">${highlight(a.desc, tokens)}</p>` : ''}
               <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-              <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`} (${esc(a.latest || '—')})</span></p>
+              <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`}</span></p>
             </li>`).join('');
           html += '</ul>';
         });

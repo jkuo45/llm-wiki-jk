@@ -209,7 +209,7 @@
               ${t.desc ? `<p class="wiki-desc">${highlight(t.desc, tokens)}</p>` : ''}
               <p class="wiki-meta">${t.github
                 ? `<a class="file-link" href="${esc(t.github)}" target="_blank" rel="noopener" title="View source on GitHub / 在 GitHub 檢視原始檔"><code>${esc(t.file)}</code></a>`
-                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`} (${esc(t.latest || '—')})</span>${statChips(t.stats)}</p>
+                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`}</span>${statChips(t.stats)}</p>
             </li>`).join('');
           html += '</ul>';
         });
