@@ -40,9 +40,6 @@
   font-size: 12px;
   color: var(--faint);
   margin: 0 0 4px;
-  /* Reserve room for the absolutely-positioned corner chips (index.css
-     .stat-chips) so long filenames/dates never run under them. */
-  padding-right: 160px;
 }
 .task-meta:last-child { margin-bottom: 0; }
 /* Filename chip links to the source document on GitHub (baked into
@@ -58,11 +55,7 @@
 .desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 /* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
 .sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
-@media (max-width: 640px) {
-  .task-card { padding: 14px 14px 12px; }
-  /* Chips fall back to the meta row below 640px — no corner reservation. */
-  .task-meta { padding-right: 0; }
-}
+@media (max-width: 640px) { .task-card { padding: 14px 14px 12px; } }
 </style>
 <link rel="stylesheet" href="themes/theme-02/dark.css">
 </head>
@@ -221,7 +214,8 @@
               ${tagPills(t.tags, searchBox.value.trim())}
               <p class="task-meta">${t.github
                 ? `<a class="task-file" href="${esc(t.github)}" target="_blank" rel="noopener" title="View source on GitHub / 原始檔"><code>${esc(t.file)}</code></a>`
-                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`}</span>${statChips(t.stats)}</p>
+                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}</p>
+              <p class="task-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`}</span>${statChips(t.stats)}</p>
             </li>`).join('');
           html += '</ul>';
         });

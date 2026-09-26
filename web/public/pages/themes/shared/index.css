@@ -37,22 +37,15 @@
   margin-left: 6px;
 }
 
-/* Trello-style stat chips: small SVG icon + count, pinned to the card's
-   bottom-right corner (index-core statChips builds the markup; the card's
-   position: relative is the anchor, so this holds wherever the markup
-   sits). Falls back to the inline end of the meta row below 640px, where
-   the corner would crowd the text. */
+/* Trello-style stat chips: small SVG icon + count, riding the right end
+   of the date row (index-core statChips builds the markup; margin-left:
+   auto pushes them right inside the row's flex). */
 .stat-chips {
-  position: absolute;
-  right: 20px;
-  bottom: 13px;
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-}
-@media (max-width: 640px) {
-  .stat-chips { position: static; margin-left: auto; }
+  margin-left: auto;
 }
 .stat {
   display: inline-flex;
@@ -69,8 +62,6 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.meta-sep { color: var(--rule); }
-
 /* Tag pills (expanded cards): click sets the search filter (index-core
    wireTagPills). Outline pill in theme-02 badge geometry but sentence-case
    mono — kebab slugs stay readable; distinct from the icon .stat chips.
