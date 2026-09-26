@@ -6,25 +6,33 @@
 // backticks inside the double-quoted echo trigger bash command substitution,
 // which both corrupts tool output and silently executes the very graphify
 // command we are only suggesting. Plain words render fine in opencode's TUI.
-import { existsSync } from "fs";
-import { join } from "path";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
+import { Plugin } from "@opencode/plugin";
 
-export const GraphifyPlugin = async ({ directory }) => {
-  let reminded = false;
+const REMINDER =
+  "[graphify] knowledge graph at graphify-out/. For focused questions, run graphify query with your question (scoped subgraph, usually much smaller than GRAPH_REPORT.md) instead of grepping raw files. Read GRAPH_REPORT.md only for broad architecture context.";
 
-  return {
-    "tool.execute.before": async (input, output) => {
+export default Plugin.define({
+  id: "graphify",
+  async setup(ctx) {
+    let reminded = false;
+
+    // Skip registration entirely when the graph has not been built yet.
+    if (!existsSync(join(ctx.location.directory, "graphify-out", "graph.json"))) return;
+
+    await ctx.tool.hook("execute.before", (event) => {
       if (reminded) return;
-      if (!existsSync(join(directory, "graphify-out", "graph.json"))) return;
+      if (event.tool !== "bash") return;
 
-      if (input.tool === "bash") {
-        // ';' not '&&' — Windows PowerShell 5.1 rejects '&&' as a statement
-        // separator, breaking the first bash command of the session (#1646).
-        output.args.command =
-          'echo "[graphify] knowledge graph at graphify-out/. For focused questions, run graphify query with your question (scoped subgraph, usually much smaller than GRAPH_REPORT.md) instead of grepping raw files. Read GRAPH_REPORT.md only for broad architecture context." ; ' +
-          output.args.command;
-        reminded = true;
-      }
-    },
-  };
-};
+      /** @type {{ command?: string } | undefined} */
+      const input = event.input;
+      if (!input?.command) return;
+
+      // ';' not '&&' — Windows PowerShell 5.1 rejects '&&' as a statement
+      // separator, breaking the first bash command of the session (#1646).
+      input.command = `echo "${REMINDER}" ; ` + input.command;
+      reminded = true;
+    });
+  },
+});
