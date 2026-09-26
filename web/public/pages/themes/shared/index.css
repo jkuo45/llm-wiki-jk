@@ -125,9 +125,11 @@ mark.search-hit { background: transparent; color: var(--oxblood); }
 
 /* Mobile: keep the bar in normal flow so opening the keyboard doesn't
    snap the viewport — sticky elements re-anchor when the visual viewport
-   resizes for the on-screen keyboard. */
+   resizes for the on-screen keyboard. Input font goes to 16px: iOS/Safari
+   auto-zooms focused inputs under 16px, which yanks the page around. */
 @media (max-width: 640px) {
   .search-row { position: static; padding-top: 8px; }
+  .search-row input { font-size: 16px; }
 }
 
 .empty-note {
