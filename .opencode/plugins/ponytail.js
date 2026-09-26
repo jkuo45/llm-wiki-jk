@@ -17,6 +17,11 @@
 //                                        command transform is the documented
 //                                        destination; there is no global
 //                                        command.execute.before hook in V2)
+//   skills/ auto-discovery            -> ctx.skill.transform (V1 relied on
+//                                        OpenCode finding `skills/` on disk;
+//                                        V2 only scans configured directories,
+//                                        so the package's skills are registered
+//                                        explicitly)
 //
 // The persisted mode stays in the package's own flag file rather than
 // ctx.storage, because ponytail's Claude Code / pi hooks and statusline read
@@ -26,6 +31,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { createRequire } from "node:module";
+import { parse as parseYaml } from "yaml";
 import { Plugin } from "@opencode/plugin";
 
 // The package's helpers are CommonJS, and its `exports` map only exposes "." and
@@ -39,6 +45,7 @@ const { getDefaultMode, normalizePersistedMode, VALID_MODES } = require(
 );
 
 const commandDir = path.join(packageDir, ".opencode", "command");
+const skillDir = path.join(packageDir, "skills");
 
 // OpenCode has no flag-file convention of its own; keep mode beside its config.
 const statePath = path.join(
@@ -66,6 +73,17 @@ function parseCommandFile(filePath) {
   if (!match) return null;
   const description = match[1].match(/description:\s*(.+)/)?.[1]?.trim();
   return { description, template: match[2].trim() };
+}
+
+// Same frontmatter split as parseCommandFile, but the skill bodies use folded
+// YAML descriptions, so the frontmatter goes through a real parser.
+function parseSkillFile(filePath) {
+  const raw = fs.readFileSync(filePath, "utf8");
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!match) return null;
+  const meta = parseYaml(match[1]) ?? {};
+  if (!meta.name) return null;
+  return { name: String(meta.name), description: meta.description, content: match[2] };
 }
 
 export default Plugin.define({
@@ -108,6 +126,35 @@ export default Plugin.define({
 
             await ctx.session.prompt({ ...prompt, sessionID, delivery });
           },
+        });
+      }
+    });
+
+    // Register the package's skills (ponytail, ponytail-review, ponytail-audit,
+    // ponytail-debt, ponytail-help) so the `skill` tool can load them. Without
+    // this only the slash commands exist — V2 has no implicit skill discovery
+    // for npm-installed packages, the way V1 read `skills/` from disk.
+    await ctx.skill.transform((editor) => {
+      let files = [];
+      try {
+        files = fs
+          .readdirSync(skillDir, { withFileTypes: true })
+          .filter((entry) => entry.isDirectory())
+          .map((entry) => path.join(skillDir, entry.name, "SKILL.md"))
+          .filter((file) => fs.existsSync(file));
+      } catch {
+        return;
+      }
+
+      for (const file of files) {
+        const parsed = parseSkillFile(file);
+        if (!parsed) continue;
+        editor.add({
+          id: parsed.name,
+          name: parsed.name,
+          description: parsed.description,
+          path: file,
+          content: parsed.content,
         });
       }
     });

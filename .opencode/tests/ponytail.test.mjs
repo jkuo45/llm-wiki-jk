@@ -15,14 +15,17 @@ const shim = (await import(fileURLToPath(new URL("../plugins/ponytail.js", impor
 // Stub V2 context: records command registrations, system pushes, and prompts.
 function makeCtx() {
   const commands = new Map();
+  const skills = new Map();
   const hooks = [];
   const prompts = [];
   return {
     commands,
+    skills,
     hooks,
     prompts,
     ctx: {
       command: { transform: async (cb) => cb({ add: (d) => commands.set(d.name, d) }) },
+      skill: { transform: async (cb) => cb({ add: (d) => skills.set(d.name, d) }) },
       session: {
         hook: async (_kind, cb) => {
           hooks.push(cb);
@@ -46,6 +49,21 @@ assert.deepEqual([...t.commands.keys()].sort(), [
   "ponytail-review",
 ]);
 console.log("ok  5 commands registered");
+
+// Skills registered from the package skills dir, with folded descriptions.
+assert.deepEqual([...t.skills.keys()].sort(), [
+  "ponytail",
+  "ponytail-audit",
+  "ponytail-debt",
+  "ponytail-help",
+  "ponytail-review",
+]);
+const review = t.skills.get("ponytail-review");
+assert.equal(review.id, "ponytail-review");
+assert.ok(review.path.endsWith("skills/ponytail-review/SKILL.md"));
+assert.match(review.description, /over-engineering/);
+assert.match(review.content, /\S/);
+console.log("ok  5 skills registered with descriptions and content");
 
 const statePath = path.join(
   process.env.XDG_CONFIG_HOME || path.join(os.homedir(), ".config"),
