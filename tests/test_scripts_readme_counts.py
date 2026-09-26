@@ -99,6 +99,24 @@ class TestHtmlContentStats:
             "words": 0, "images": 0, "links": 0, "diagrams": 0,
         }
 
+    def test_counts_svg_figures_not_ui_icons(self, tmp_path):
+        # Articles carry inline <svg role="img"> diagrams alongside
+        # 24x24 toolbar icon SVGs — only role="img" ones are diagrams;
+        # <canvas> scenes (three.js / 2-D) count too, but JS-created
+        # canvases inside stripped <script> blocks don't.
+        f = tmp_path / "b.html"
+        f.write_text(
+            "<svg viewBox='0 0 24 24' stroke='currentColor'></svg>"
+            "<svg id='d1' viewBox='0 0 1000 400' role='img' "
+            "aria-label='relay diagram'></svg>"
+            "<canvas id='stage' aria-label='3-D cell'></canvas>"
+            "<script>const c = document.createElement('canvas');</script>"
+            "<div class='mermaid'>graph</div>",
+            encoding="utf-8",
+        )
+        s = rc.html_content_stats(f)
+        assert s["diagrams"] == 3   # svg role=img + canvas + mermaid div
+
 
 class TestBuildArticlesStats:
     def test_sidecar_keyed_by_id_en_path_wins(self, tmp_path):

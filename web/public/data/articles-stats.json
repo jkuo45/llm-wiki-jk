@@ -1,29 +1,29 @@
 {
-  "generated": "25_SEP_2026 08:51 PM PDT",
+  "generated": "25_SEP_2026 09:49 PM PDT",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2318,
       "images": 0,
       "links": 13,
-      "diagrams": 0
+      "diagrams": 5
     },
     "sirtuin-disease-complications": {
       "words": 2971,
       "images": 0,
       "links": 13,
-      "diagrams": 0
+      "diagrams": 3
     },
     "ivermectin-fenbendazole-anticancer": {
       "words": 2533,
       "images": 0,
       "links": 15,
-      "diagrams": 0
+      "diagrams": 5
     },
     "adrenochrome-protocol": {
       "words": 3339,
       "images": 0,
       "links": 28,
-      "diagrams": 0
+      "diagrams": 6
     },
     "sirtuins-articles-and-figures": {
       "words": 6411,
@@ -53,13 +53,13 @@
       "words": 5255,
       "images": 0,
       "links": 32,
-      "diagrams": 0
+      "diagrams": 1
     },
     "adrenochrome-protocol-node-network-analysis": {
       "words": 4306,
       "images": 0,
       "links": 76,
-      "diagrams": 0
+      "diagrams": 1
     },
     "articles-index": {
       "words": 3,
@@ -71,31 +71,31 @@
       "words": 3640,
       "images": 0,
       "links": 35,
-      "diagrams": 0
+      "diagrams": 2
     },
     "caspase-graph-analysis": {
       "words": 4106,
       "images": 0,
       "links": 34,
-      "diagrams": 0
+      "diagrams": 1
     },
     "neurodegeneration-ad-pd-hd-als-review": {
       "words": 4421,
       "images": 0,
       "links": 25,
-      "diagrams": 0
+      "diagrams": 6
     },
     "sirt3-aging-aging-related-diseases": {
       "words": 3263,
       "images": 4,
       "links": 23,
-      "diagrams": 0
+      "diagrams": 5
     },
     "discovery-arrival-graph-metrics": {
       "words": 4206,
       "images": 0,
       "links": 68,
-      "diagrams": 0
+      "diagrams": 6
     },
     "beyond-mitohormesis-overlooked-paradigms": {
       "words": 4349,
@@ -107,7 +107,7 @@
       "words": 2549,
       "images": 0,
       "links": 15,
-      "diagrams": 0
+      "diagrams": 2
     },
     "cell-death-comparison": {
       "words": 2258,
@@ -119,103 +119,103 @@
       "words": 3044,
       "images": 0,
       "links": 17,
-      "diagrams": 0
+      "diagrams": 6
     },
     "inside-the-cell": {
       "words": 363,
       "images": 0,
       "links": 15,
-      "diagrams": 0
+      "diagrams": 1
     },
     "necroptosis": {
       "words": 322,
       "images": 0,
       "links": 2,
-      "diagrams": 0
+      "diagrams": 1
     },
     "apoptosis": {
       "words": 261,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "parthanatos": {
       "words": 262,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "necrosis": {
       "words": 243,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "ferroptosis": {
       "words": 258,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "autophagy": {
       "words": 235,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "pyroptosis": {
       "words": 249,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "panoptosis": {
       "words": 248,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "eryptosis": {
       "words": 210,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "netosis": {
       "words": 252,
       "images": 0,
       "links": 1,
-      "diagrams": 0
+      "diagrams": 1
     },
     "apoptosis-vs-necrosis-dichotomy": {
       "words": 567,
       "images": 0,
       "links": 16,
-      "diagrams": 0
+      "diagrams": 1
     },
     "sasp-regulation": {
       "words": 1126,
       "images": 1,
       "links": 8,
-      "diagrams": 0
+      "diagrams": 1
     },
     "natural-bioactive-compounds-dosage": {
       "words": 1846,
       "images": 1,
       "links": 20,
-      "diagrams": 0
+      "diagrams": 2
     },
     "caspases-kinases-sirtuins-interaction": {
       "words": 2220,
       "images": 0,
       "links": 15,
-      "diagrams": 0
+      "diagrams": 2
     },
     "lipid-peroxidation": {
       "words": 3563,
       "images": 0,
       "links": 25,
-      "diagrams": 0
+      "diagrams": 1
     }
   }
 }

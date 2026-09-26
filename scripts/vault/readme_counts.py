@@ -77,6 +77,13 @@ HTML_TAG_RE = re.compile(r"<[^>]+>")
 HTML_IMG_RE = re.compile(r"<img\b", re.IGNORECASE)
 HTML_LINK_RE = re.compile(r"<a\b[^>]*href\s*=", re.IGNORECASE)
 MERMAID_CLASS_RE = re.compile(r"class=[\"'][^\"]*mermaid", re.IGNORECASE)
+# Real diagram SVGs carry role="img" (+aria-label); the 24x24 toolbar icons
+# and the per-page 100x100 logo SVG don't, so role discriminates cleanly.
+SVG_DIAG_RE = re.compile(r"<svg\b[^>]*\brole\s*=\s*[\"']img[\"']", re.IGNORECASE)
+# Interactive figures (three.js scenes, canvas charts) render via a static
+# <canvas> tag; counted after script stripping, so JS-created canvases
+# (createElement('canvas')) don't match.
+HTML_CANVAS_RE = re.compile(r"<canvas\b", re.IGNORECASE)
 
 
 def _word_count(text):
@@ -115,8 +122,10 @@ def content_stats(filepath):
 
 def html_content_stats(filepath):
     """Same card stats for one static HTML article page: <img> images,
-    <a href> links, class=...mermaid diagrams, words from visible text
-    (script/style stripped first, then remaining tags). Missing = zeros.
+    <a href> links, diagrams = class=...mermaid blocks + inline <svg
+    role="img"> figures + <canvas> scenes (three.js / 2-D canvas figures;
+    UI icon SVGs excluded), words from visible text (script/style stripped
+    first, then remaining tags). Missing = zeros.
     """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
@@ -126,7 +135,9 @@ def html_content_stats(filepath):
     text = HTML_SCRIPT_RE.sub(" ", text)
     images = len(HTML_IMG_RE.findall(text))
     links = len(HTML_LINK_RE.findall(text))
-    diagrams = len(MERMAID_CLASS_RE.findall(text))
+    diagrams = (len(MERMAID_CLASS_RE.findall(text))
+                + len(SVG_DIAG_RE.findall(text))
+                + len(HTML_CANVAS_RE.findall(text)))
     words = _word_count(HTML_TAG_RE.sub(" ", text))
     return _stats(words, images, links, diagrams)
 
