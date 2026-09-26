@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>個體生物標記關卡（硬編碼）</title>
+<meta name="description" content="決定治療反應的離散、 largely immutable 個體數值（COMT rs4680、尿石素代謝型、NQO1 C609T、CYP3A5、HFE C282Y、APOE ε4、MC1R、核型）。含可記錄已測數值與現行治療的個人檔案工具、各干預措施的後果對照表、族群曝露比例估計，以及最低檢測組合。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/hard-coded-biomarker-gates.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hard-coded-biomarker-gates.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hard-coded-biomarker-gates.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hard-coded-biomarker-gates.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* ---- gate severity palette (theme tokens, both modes) ---- */
+  :root {
+    --sev-harm: var(--oxblood);
+    --sev-blind: var(--gold);
+    --sev-under: var(--slate);
+    --sev-miss: var(--forest);
+    --sev-ok: var(--forest-soft);
+    --sev-neutral: var(--mute);
+    --sev-unknown: var(--periphery);
+  }
+
+  .h1-sub { font-weight: 400; color: var(--mute); }
+
+  /* Hero: source documents as one running paragraph. Sans at reading size with
+     mono filenames, so the links read as citations rather than as a list. */
+  .src-docs {
+    font-family: var(--sans);
+    font-size: 13px;
+    line-height: 1.85;
+    color: var(--mute);
+    margin: 20px 0 0;
+    max-width: 78ch;
+  }
+  .src-docs strong { color: var(--ink-soft); font-weight: 600; }
+  .src-docs code { font-size: 12px; word-break: break-word; }
+  .src-docs a { color: var(--slate); }
+  .src-docs a:hover { color: var(--ink); }
+
+  .callout {
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--slate);
+    background: color-mix(in srgb, var(--slate) 6%, var(--sheet));
+    padding: 12px 16px;
+    margin: 16px 0 22px;
+    font-family: var(--sans);
+    font-size: 14.5px;
+    line-height: 1.75;
+  }
+  .callout.warn { border-left-color: var(--oxblood); background: color-mix(in srgb, var(--oxblood) 6%, var(--sheet)); }
+  .callout.gold { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, var(--sheet)); }
+  .callout p:last-child { margin-bottom: 0; }
+
+  .btn {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink-soft);
+    padding: 7px 13px;
+    cursor: pointer;
+    border-radius: var(--radius);
+  }
+  .btn:hover { border-color: var(--ink); color: var(--ink); }
+  .btn.primary { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+
+  /* ---- tracker: gate cards ---- */
+  .tracker-bar {
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    font-family: var(--sans); font-size: 13px;
+    border: 1px solid var(--rule); background: var(--sheet);
+    padding: 12px 14px; margin: 16px 0 18px;
+  }
+  .tracker-bar label { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); }
+  .tracker-bar select {
+    font-family: var(--sans); font-size: 13px; padding: 5px 8px;
+    border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--ink);
+    border-radius: var(--radius);
+  }
+  .tracker-bar .stat { margin-left: auto; font-family: var(--mono); font-size: 12.5px; color: var(--mute); }
+  .tracker-bar .stat b { color: var(--ink); }
+
+  fieldset.gate {
+    border: 1px solid var(--rule);
+    background: var(--sheet);
+    margin: 0 0 10px;
+    padding: 12px 14px 14px;
+  }
+  fieldset.gate.is-set { border-color: var(--rule-strong); }
+  fieldset.gate > legend {
+    font-family: var(--sans); font-size: 10.5px; font-weight: 600;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
+    padding: 0 6px;
+  }
+  .gate-head {
+    display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+    font-family: var(--sans); margin-bottom: 2px;
+  }
+  .gate-head h4 { margin: 0; font-size: 1rem; font-weight: 600; }
+  .gate-head code { font-family: var(--mono); font-size: 11.5px; color: var(--mute); }
+  .gbadge {
+    font-family: var(--mono); font-size: 10px; font-weight: 500;
+    border: 1px solid currentColor; border-radius: 2px; padding: 1px 6px;
+  }
+  .gbadge.A { color: var(--forest); }
+  .gbadge.B { color: var(--slate); }
+  .gbadge.C { color: var(--gold); }
+  .gbadge.D { color: var(--periphery); }
+  .gate-why { font-family: var(--sans); font-size: 13.5px; line-height: 1.7; color: var(--ink-soft); margin: 2px 0 10px; }
+  .gate-topics { font-family: var(--sans); font-size: 12.5px; color: var(--mute); margin: 0 0 10px; }
+
+  .opts { display: flex; flex-wrap: wrap; gap: 6px; }
+  .opts label { position: relative; }
+  .opts input { position: absolute; opacity: 0; width: 0; height: 0; }
+  .opts span {
+    display: flex; flex-direction: column; gap: 1px;
+    font-family: var(--sans); font-size: 13px; line-height: 1.3;
+    border: 1px solid var(--rule-strong); border-radius: var(--radius);
+    padding: 6px 10px; cursor: pointer; background: transparent; color: var(--ink-soft);
+    min-width: 84px;
+  }
+  .opts span em { font-style: normal; font-family: var(--mono); font-size: 10.5px; color: var(--faint); }
+  .opts input:checked + span { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+  .opts input:checked + span em { color: var(--sheet); opacity: .7; }
+  .opts input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .opts label:hover span { border-color: var(--ink); }
+
+  .rx-list { display: grid; grid-template-columns: 1fr; gap: 6px; }
+  @media (min-width: 720px) { .rx-list { grid-template-columns: 1fr 1fr; } }
+  .rx-list label {
+    display: flex; gap: 8px; align-items: flex-start;
+    font-family: var(--sans); font-size: 13.5px; line-height: 1.55;
+    border: 1px solid var(--rule); background: var(--sheet);
+    padding: 8px 10px; cursor: pointer; border-radius: var(--radius);
+  }
+  .rx-list label:hover { border-color: var(--rule-strong); }
+  .rx-list input { margin-top: 3px; }
+  .rx-list .dom { font-family: var(--mono); font-size: 10.5px; color: var(--faint); display: block; }
+
+  /* ---- action output ---- */
+  .sev {
+    display: inline-block; font-family: var(--mono); font-size: 10.5px;
+    letter-spacing: .06em; text-transform: uppercase;
+    border: 1px solid currentColor; border-radius: 2px; padding: 1px 6px;
+    white-space: nowrap;
+  }
+  .sev-harm { color: var(--sev-harm); }
+  .sev-blind { color: var(--sev-blind); }
+  .sev-under { color: var(--sev-under); }
+  .sev-miss, .sev-benefit { color: var(--sev-miss); }
+  .sev-neutral { color: var(--mute); }
+  .sev-unknown { color: var(--sev-unknown); }
+
+  .action {
+    border: 1px solid var(--rule); border-left: 3px solid var(--sev-unknown);
+    background: var(--sheet); padding: 11px 14px; margin: 0 0 8px;
+  }
+  .action.s-harm { border-left-color: var(--sev-harm); }
+  .action.s-blind { border-left-color: var(--sev-blind); }
+  .action.s-under { border-left-color: var(--sev-under); }
+  .action.s-miss, .action.s-benefit { border-left-color: var(--sev-miss); }
+  .action h4 { margin: 0 0 4px; font-family: var(--sans); font-size: 15px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .action p { margin: 0; font-family: var(--sans); font-size: 13.5px; line-height: 1.65; color: var(--ink-soft); }
+  .action .gate-ref { font-family: var(--mono); font-size: 11.5px; color: var(--faint); }
+  .empty { font-family: var(--sans); font-size: 13.5px; color: var(--mute); border: 1px dashed var(--rule-strong); padding: 14px; }
+
+  .tally { display: flex; flex-wrap: wrap; gap: 8px 18px; font-family: var(--mono); font-size: 12px; color: var(--mute); margin: 10px 0 14px; }
+  .tally span b { color: var(--ink); }
+
+  /* ---- register table ---- */
+  .tbl-note { font-family: var(--sans); font-size: 12.5px; color: var(--faint); margin: 6px 0 0; }
+  table td .sev { margin: 0; }
+
+  .rank-list { margin: 0; padding: 0; list-style: none; font-family: var(--sans); }
+  .rank-list li { display: flex; gap: 12px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 14.5px; line-height: 1.7; }
+  .rank-list li:last-child { border-bottom: 0; }
+  .rank-list .k { font-family: var(--mono); font-size: 11px; color: var(--faint); min-width: 26px; }
+  .rank-list b { font-weight: 600; }
+
+  .refs-list { font-family: var(--sans); font-size: 13.5px; line-height: 1.7; }
+  .refs-list li { margin-bottom: 8px; }
+  .refs-list a { word-break: break-word; }
+
+  .page-footer {
+    font-family: var(--mono); font-size: 11px; color: var(--faint);
+    padding: 18px 0 32px; border-top: 1px solid var(--rule); margin-top: 28px;
+  }
+  .page-footer a { color: var(--mute); }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳至內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#problem">依據</a>
+      <a href="#definition">定義</a>
+      <a href="#tracker">個人檔案工具</a>
+      <a href="#dangers">未測量的關卡</a>
+      <a href="#mechanisms">四個實例</a>
+      <a href="#panel">最低檢測組合</a>
+      <a href="#limits">限制</a>
+      <a href="#refs">參考文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">生物標記 · 藥物基因體學 · 2026 年 9 月</p>
+    <h1>個體生物標記關卡 <span class="h1-sub">（硬編碼）</span></h1>
+    <p class="lede">
+      機轉文獻可確立化合物的作用，但很少確立該作用是否出現在特定個體。本頁彙整決定治療反應的離散、
+      大致不可變的個體數值，量化各數值下處於不利側的曝露患者比例，並提供可將已測數值與現行治療並列
+      記錄的個人檔案工具。
+    </p>
+    <p class="src-docs"><strong>本知識庫來源文件：</strong>
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md</code></a>、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md</code></a>、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md</code></a>、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md</code></a>、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_sex_dimorphic_cell_death_05_Sep_2026.md</code></a>，以及
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md</code></a>。</p>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="本頁目錄">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#problem">依據</a></li>
+      <li><a href="#definition">定義</a></li>
+      <li><a href="#tracker">個人檔案工具</a></li>
+      <li><a href="#dangers">未測量的關卡</a></li>
+      <li><a href="#mechanisms">四個實例</a></li>
+      <li><a href="#panel">最低檢測組合</a></li>
+      <li><a href="#limits">限制</a></li>
+      <li><a href="#refs">參考文獻</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== RATIONALE ==================== -->
+    <section id="problem">
+      <p class="sec-label">依據</p>
+      <h2>治療反應是化合物與宿主的共同性質</h2>
+      <p class="drop">
+        來源知識庫以機轉為主軸組織：毒物興奮、sirtuin、自噬、細胞衰老、氧化壓力、表觀遺傳、細胞死亡，
+        以及兒茶酚胺氧化。知識庫收錄 3,174 筆筆記、涵蓋 12 個主題領域。在該範圍內，治療主張中的
+        <em>適用於何人</em>——即決定哪些患者會反應的分層變數——僅在三處獲得明確處理。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1 · 機轉與分層變數</span></div>
+        <div class="fig-canvas fig-svg" id="figGate"></div>
+        <figcaption>
+          <strong>圖 1. 僅當分層變數已知時，機轉推論才成立。</strong>
+          左：標準機轉鏈，個體間不變——化合物 → 標的 → 效應。右：同一條鏈，但在標的與效應之間插入
+          一個離散的個體數值（基因型、代謝型或核型）。當該數值未測量時，特定患者的效應無法確定：
+          可能不變、可能消失、可能反向。僅有中間結果能由機轉鏈推得。
+        </figcaption>
+      </figure>
+
+      <h3>知識庫中已確立的三個關卡</h3>
+      <ol class="rank-list">
+        <li>
+          <span class="k">01</span>
+          <span><b>COMT Val158Met（rs4680）。</b>在兩項隨機對照試驗（WGHS、ATBC）中，α-生育酚
+          補充與 Val/Val 帶因者的癌症發生率增加相關（HR 1.18，95% CI 1.06–1.31），與 Met/Met
+          帶因者的發生率降低相關（HR 0.88）。Val/Val 在歐洲族群約占 29%，在漢族約占 52%。參見
+          <code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code>。</span>
+        </li>
+        <li>
+          <span class="k">02</span>
+          <span><b>尿石素代謝型 A／B／0。</b>此為微生物表現型而非胚系基因型。飲食中的鞣花酸轉為
+          [[Urolithin A]] 需具備相應菌群的定殖能力；在受測的檢驗族群中，約 50% 未產生可偵測的
+          尿石素，約 10% 則轉而產生異尿石素 A。</span>
+        </li>
+        <li>
+          <span class="k">03</span>
+          <span><b>核型（XX／XY）。</b>[[Estrogen]] 是 sirtuin 與 NAD<sup>+</sup> 軸的主要介質。
+          XX 與 XY 神經元受到相同傷害時，啟動不同的死亡機轉（caspase-8/3 對 [[PARP1]]／AIF）；
+          [[SIRT6]] 過量表現僅延長雄性壽命；熱量限制與 rapamycin 的壽命延長效果分別在雄性與雌性較大。
+          參見 <code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code>。</span>
+        </li>
+      </ol>
+
+      <div class="callout">
+        <p>
+          <strong>詮釋。</strong>上述結果並不表示 α-生育酚不宜作為一類使用。它表示在約四分之一的
+          使用者中，預期的效應方向相反，且此情形可在曝露之前被偵測。合理的因應是在治療前進行測量，
+          而非修正機轉層面的解釋。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== DEFINITION ==================== -->
+    <section id="definition">
+      <p class="sec-label">定義</p>
+      <h2>硬編碼關卡的判定條件</h2>
+      <p>
+        <strong>硬編碼個體生物標記</strong>指在生命早期即被賦值、並於數十年間維持穩定的數值：
+        胚系基因型、體細胞失功能等位基因、微生物功能表現型，或核型。此類須與
+        <strong>連續性實驗室數值</strong>（鐵蛋白、hs-CRP、空腹血糖、游離 Klotho）區別，後者反映的是
+        可被改變的當下生理狀態。
+      </p>
+      <p>
+        此項區分的臨床意義在於，硬編碼數值<strong>可在曝露前確定</strong>。連續性數值描述的是測量當下
+        的病人，會隨時間改變；硬編碼關卡則可在第一個劑量之前確立，而不必在治療失敗後回溯推論。由於這類
+        數值無法透過行為介入改變，未被辨識的關卡會在整個治療期間持續未被辨識。
+      </p>
+
+      <h3>證據分級</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>等級</th><th>判定標準</th><th>可支持的行動</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="gbadge A">A</span></td>
+              <td>於兩項以上獨立的人體檢驗群體重複，或機轉資料與人體藥物基因體結果一致</td>
+              <td>足以在曝露前影響治療選擇</td>
+            </tr>
+            <tr>
+              <td><span class="gbadge B">B</span></td>
+              <td>單一強大人體檢驗群體，或具機轉支持且一致的人體資料；尚未重複驗證</td>
+              <td>足以支持進行測量；不足以改變治療</td>
+            </tr>
+            <tr>
+              <td><span class="gbadge C">C</span></td>
+              <td>僅有關聯、族群背景造成混淆，或基因型與表現型不一致已有文獻記載</td>
+              <td>直接測定酵素活性；將基因型視為弱先驗</td>
+            </tr>
+            <tr>
+              <td><span class="gbadge D">D</span></td>
+              <td>機轉上合理，但缺乏人體結果資料</td>
+              <td>僅列為研究優先項目。例行測量的缺席本身即為發現</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout gold">
+        <p>
+          <strong>基因型與表現型的一致程度決定檢測方式的選擇。</strong>若同一基因型類別內的個體其實測
+          酵素活性相差超過兩倍，基因型僅提供弱先驗，具資訊量的測量為酵素活性檢測。PON1 的
+          diazoxonase 活性在基因型類別內的變異大於類別間（Jarvik 2000）；SOD2 rs4880 對 MnSOD
+          活性的影響方向在各原始研究間並不一致。[[Val158Met]] 之所以特別可靠，是因為 COMT 活性由
+          rs4680 緊密決定（可區分 3–4 倍，類別內變異小），但這種一致程度並不常見。基因型能預測功能
+          時，基因型即已足夠；不能預測時，應測定酵素本身。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== TRACKER ==================== -->
+    <section id="tracker">
+      <p class="sec-label">個人檔案工具</p>
+      <h2>將已測數值與現行治療並列記錄</h2>
+      <p>
+        請輸入已測得的數值。未填列的項目會記為
+        <span class="sev sev-unknown">未測量</span>，此對應臨床上的常見狀況。再選取目前正在使用或
+        考慮採用的治療措施，輸出結果會指出其中哪些措施所依賴的分層數值尚未確立。
+      </p>
+
+      <div class="tracker-bar">
+        <label for="popSel">參考族群</label>
+        <select id="popSel">
+          <option value="eur">歐洲族群</option>
+          <option value="eas">東亞族群</option>
+          <option value="blk">黑人／非洲族群</option>
+          <option value="oth">其他或混合族群</option>
+        </select>
+        <span class="stat" id="gateStat">—</span>
+      </div>
+      <p class="tbl-note">
+        族群比例為引用文獻所據檢驗群體的近似值，且在不同族群間差異顯著。部分關卡在最初被描述的族群中
+        罕見，卻在其他族群中常見——例如 NQO1 T/T 在歐洲與黑人族群為 2–5%，在亞洲族群約為 20%。此處比例
+        用以呈現族群層級的曝露規模，不應套用於個別患者。
+      </p>
+
+      <div id="gates"></div>
+
+      <h3>現行與計畫中的治療</h3>
+      <p>
+        選取所有適用的介入措施與處方。
+      </p>
+      <div class="rx-list" id="rxList"></div>
+
+      <div class="btn-row">
+        <button class="btn primary" type="button" id="exportBtn">匯出檔案（JSON）</button>
+        <button class="btn" type="button" id="resetBtn">重設檔案</button>
+        <button class="btn" type="button" id="clearRxBtn">清除治療清單</button>
+        <button class="btn" type="button" onclick="window.print()">列印／PDF</button>
+      </div>
+      <p class="tbl-note">
+        本頁不儲存任何資料：關閉頁面後即清除。若需保留請使用匯出功能。數值為自行填報，並未與
+        實驗室報告核對；填報錯誤將在無警示的情況下產生錯誤輸出。
+      </p>
+
+      <div class="tally" id="tally"></div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 2 · 已選治療的分層數值涵蓋率</span></div>
+        <div class="fig-canvas fig-svg" id="figCov"></div>
+        <figcaption>
+          <strong>圖 2. 已選介入措施中，分層數值已確立者所占比例。</strong>
+          上方量表顯示已填入分層數值的介入措施比例；下方長條依後果類別分割同一組措施。分類為
+          <span class="sev sev-harm">風險增加</span>者，應在持續曝露前重新評估。
+          <span class="sev sev-unknown">未測量</span>一類代表常見狀態，亦為本分析的主要發現。
+        </figcaption>
+      </figure>
+
+      <h3>檔案詮釋結果</h3>
+      <div id="actions" aria-live="polite"></div>
+
+      <div class="callout warn">
+        <p>
+          <strong>請先判讀證據等級，再看輸出結果。</strong>等級 A 表示關卡與治療的關係已獲重複驗證，
+          並不構成開始或停止治療的指示。等級 D 項目（mtDNA 單倍群、作為劑量變數的 KEAP1／NRF2
+          單倍型、X 染色體失活偏移）屬研究優先項目。本頁任何內容均非處方，亦不能取代臨床評估、
+          實驗室報告或對照試驗資料。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== UNMEASURED GATES ==================== -->
+    <section id="dangers">
+      <p class="sec-label">未測量的關卡</p>
+      <h2>在未測量分層數值的情況下進行治療</h2>
+      <p>
+        下圖就知識庫中的每項介入措施，列出其分層數值使患者落入具後果狀態的概略比例，以及該後果的
+        性質。具後果的狀態包括：預期效應方向反轉、機轉第一個步驟無法進行、曝露量不足卻被記錄為無反應，
+        以及應施行而未施行的介入措施。數值達 60% 表示約六成的使用者，其分層數值尚未確立，且依族群
+        頻率推估，預期會改變結果。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 3 · 各介入措施的曝露患者後果比例</span></div>
+        <div class="fig-canvas fig-svg" id="figMass"></div>
+        <figcaption>
+          <strong>圖 3. 各介入措施使用者的關卡值分布，並標示具後果的狀態。</strong>
+          每條長條顯示所選參考族群下完整的關卡值分布，依關卡值排序；未著色部分為關卡不具後果的類別。
+          著色區段：<span style="color:var(--sev-harm)">風險增加</span>、
+          <span style="color:var(--sev-blind)">預期無效</span>、
+          <span style="color:var(--sev-under)">曝露不足</span>、
+          <span style="color:var(--sev-miss)">應施行而未施行</span>。右側數值為具後果狀態的總比例。
+          將滑鼠移至區段上可顯示關卡、數值與後果。切換參考族群會重新調整所有比例；rapamycin、
+          α-生育酚與醌類氧化還原方案對族群最為敏感。
+        </figcaption>
+      </figure>
+
+      <h3>後果分類</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>類別</th><th>定義</th><th>臨床表現</th><th>舉例</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="sev sev-harm">風險增加</span></td>
+              <td>分層數值使治療效應的方向反轉。</td>
+              <td>無急性不良事件。額外風險僅能在族群尺度、以數年為單位被偵測。</td>
+              <td>Val/Val COMT 帶因者使用 α-生育酚</td>
+            </tr>
+            <tr>
+              <td><span class="sev sev-blind">預期無效</span></td>
+              <td>機轉的起始步驟缺席或被替代，下游反應不會發生。</td>
+              <td>被記錄為無反應者遭排除於試驗之外，機轉則被歸因為無效。</td>
+              <td>代謝型 0 個體使用飲食性鞣花酸</td>
+            </tr>
+            <tr>
+              <td><span class="sev sev-under">曝露不足</span></td>
+              <td>藥物存在但濃度不當；表面上的無反應屬藥物動力學問題。</td>
+              <td>在適當曝露下有效的藥物被歸類為無反應。</td>
+              <td>CYP3A5 表現型者以固定低劑量使用 rapamycin</td>
+            </tr>
+            <tr>
+              <td><span class="sev sev-miss">應施行而未施行</span></td>
+              <td>因數值未知而未提供有適應症的治療，或給予不適當的治療。</td>
+              <td>標準照護未針對需要修正的次族群進行調整。</td>
+              <td>C282Y 同型合子者的鐵質管理；停經前期 XX 個體的荷爾蒙補充</td>
+            </tr>
+            <tr>
+              <td><span class="sev sev-unknown">未測量</span></td>
+              <td>該患者從未測量此數值。</td>
+              <td>在生物標記、試驗或結果事件出現之前，無法與有利的數值區分。</td>
+              <td>大多數患者與大多數介入措施</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>未測量關卡登錄表</h3>
+      <p>
+        各列列出知識庫中的一項介入措施、其分層數值、落入具後果狀態的概略比例、主要後果與證據等級。
+        各列依具後果比例排序。
+      </p>
+      <div class="table-wrap">
+        <table id="gapTable">
+          <thead>
+            <tr>
+              <th>介入措施／方案</th>
+              <th>分層數值</th>
+              <th>具後果比例</th>
+              <th>主要後果</th>
+              <th>等級</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="tbl-note">
+        數值為產生具後果狀態之關卡類別的族群比例總和，取決於所選參考族群。若例行臨床尚無經驗證的
+        檢測方式，該列代表尚待釐清的問題，而非篩檢建議。
+      </p>
+
+      <h3>五項結構性缺失</h3>
+      <ol class="rank-list">
+        <li>
+          <span class="k">01</span>
+          <span><b>文獻集中於機轉，而非個體差異。</b>COMT 專題目錄含 46 筆筆記，並納入知識庫中
+          唯一專門的基因型筆記；共享實體池則含 1,812 筆筆記。機轉層面的覆蓋相當完整，個體分層則
+          大體缺席。</span>
+        </li>
+        <li>
+          <span class="k">02</span>
+          <span><b>微生物表現型的研究程度低於胚系基因型。</b>尿石素代謝型已有完整描述，TMAO 產生者
+          狀態則尚未描述。此點之所以重要，是因為 spermidine、fisetin、berberine、quercetin、
+          resveratrol 與 urolithin 均有部分作用經由微生物群，因此代謝型錯誤會使該介入無效，與劑量無關。</span>
+        </li>
+        <li>
+          <span class="k">03</span>
+          <span><b>反應者分析未依性別分層報告。</b>性別差異已在路徑層級獲得記載，但未延伸至治療反應。
+          SIRT3 rs11555236 在某一檢驗群體中與雄性的長壽相關，在另一檢驗群體中則僅在雌性顯著，
+          這只有在兩項變數合併考量時才可詮釋。</span>
+        </li>
+        <li>
+          <span class="k">04</span>
+          <span><b>「代謝型」一詞同時用於兩種不同的對象</b>——胚系基因型（分子層次、不可變）與
+          微生物轉換能力（生態層次、可由益生元、次世代益生菌或抗生素改變）。兩者在穩定性、測量方式
+          與可修改性上均不相同。</span>
+        </li>
+        <li>
+          <span class="k">05</span>
+          <span><b>臨床試驗極少依這些數值分層。</b>知識庫中沒有任何 senolytic 試驗報告依 COMT
+          基因型分層的反應者分析，也沒有任何細胞衰老或鐵死亡誘導試驗報告依性別分層的反應者分析。
+          Fisetin 為已獲驗證的 COMT 受質抑制劑（IC<sub>50</sub> 2.6–5.8 µM）；在 3–4 倍的活性跨度下，
+          這意味慢代謝者的 senolytic 曝露約為兩倍，快代謝者約為一半。此項尚未被測量。</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ==================== WORKED EXAMPLES ==================== -->
+    <section id="mechanisms">
+      <p class="sec-label">實例</p>
+      <h2>四個關卡的詳細說明</h2>
+      <p>
+        以下四例中，分層數值決定的是機轉能否被啟動，而非調節其強度。這四項關係改變的是某項介入措施
+        是否適當，而非其劑量。
+      </p>
+
+      <h3>尿石素代謝型</h3>
+      <p>
+        來自石榴、核桃與草莓的飲食性鞣花酸並非 [[Urolithin A]]。它們是一種受質，僅部分族群的腸道菌叢
+        可將其轉為終產物 UA，此轉換需具備 <em>Gordonibacter urolithinfaciens</em> 定殖。另有兩種
+        代謝型：類型 B 經由 <em>Ellagibacter isourolithinifaciens</em> 與 <em>Enterocloster</em>
+        產生異尿石素 A；類型 0 則未偵測到任何尿石素。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 4 · 尿石素代謝型</span></div>
+        <div class="fig-canvas fig-svg" id="figUro"></div>
+        <figcaption>
+          <strong>圖 4. 標準化鞣花酸負荷在不同尿石素代謝型之間的分布，以及繞過轉換步驟的效果。</strong>
+          上方長條：標準化負荷下依代謝型的分布——約 40% 類型 A、10% 類型 B、50% 未產生可偵測的
+          尿石素。下方長條：直接給予 UA，此途徑不依賴轉換步驟，因此適用於所有代謝型。同一批
+          100 人美國檢驗群體中，挑戰試驗盛行率為 40%，而基期盛行率僅 12%，差異反映測量方式：
+          基期尿液尿石素 A 葡萄糖醛酸苷反映近期飲食攝取量，攝取量較低當日被檢測的產生者會被歸類為
+          非產生者。
+        </figcaption>
+      </figure>
+
+      <h3>COMT 基因型與 α-生育酚</h3>
+      <p>
+        兩項隨機對照試驗（WGHS、ATBC）報告 COMT 基因型與 α-生育酚補充之間的基因劑量交互作用：
+        每個 Val 等位基因在補充組為 HR 1.11、對照組為 0.95，P<sub>interaction</sub> &lt; .001，
+        且在姊妹 SNP rs4818 有一致結果（G/G HR 1.29）。在 50 IU/日與 600 IU 隔日兩種劑量下均可
+        觀察到與發生率增加的關聯，表示常見建議的 400 IU/日上限<strong>並不能減輕此類群體的效應</strong>。
+        Val/Val 在歐洲族群約占 29%，在漢族約占 52%。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 5 · COMT 基因型與 α-生育酚</span></div>
+        <div class="fig-canvas fig-svg" id="figComt"></div>
+        <figcaption>
+          <strong>圖 5. α-生育酚組中，依 COMT 基因型劃分的癌症發生危害比。</strong>
+          點為 WGHS 與 ATBC 合併分析所得的危害比，含 95% 信賴區間；虛線標示 HR 1.0，其右側數值
+          表示風險增加。三種基因型間呈單調梯度，且在兩項獨立試驗間一致。此效應在常見引用的
+          400 IU/日門檻以下即已存在，因此將劑量降至該水準對 Val/Val 帶因者並非有效的緩解方式。
+        </figcaption>
+      </figure>
+
+      <h3>NQO1 C609T 與醌類氧化還原訊號的清除</h3>
+      <p>
+        NQO1 決定醌類的代謝命運。酵素存在時，醌類經<strong>二電子</strong>還原為穩定且可被去毒化的
+        氫醌。酵素功能缺失時，醌類改由 CYP450／b5 還原酶系統經<strong>一電子</strong>途徑還原，生成
+        可進行氧化還原循環並產生超氧陰離子的半醌自由基。因此效應的方向由基因型決定：同一曝露在某一
+        族群構成適應性氧化還原訊號，在另一族群則構成氧化循環負荷。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 6 · NQO1 狀態與醌類代謝</span></div>
+        <div class="fig-canvas fig-svg" id="figNqo1"></div>
+        <figcaption>
+          <strong>圖 6. 同一醌類的兩條代謝途徑，由單一胺基酸替換（C609T，Pro187Ser）決定。</strong>
+          C/C 與 C/T 個體的醌類被還原為穩定氫醌，氧化還原訊號因而可給予亦可終止。T/T 個體在功能上
+          為 NQO1 缺失，在唾液、骨髓、肺上皮與內皮中均偵測不到 NQO1 蛋白（Siegel 1999），其醌類
+          改以一電子途徑還原。因此，以 methylene blue 或 carbazochrome 作為訊號給予者、並以
+          aminoguanidine 作為終止者的方案，預設了此族群所不具備的受質清除能力。
+        </figcaption>
+      </figure>
+
+      <h3>Rapamycin 劑量與 CYP3A5、FKBP1A</h3>
+      <p>
+        20% 至 40% 的 off-label rapamycin 使用者反映無效。其中相當大一部分可歸因於藥物動力學變異。
+        Sirolimus 的 AUC 個體間變異係數超過 40%。CYP3A5 <code>*1</code> 表現型者（占歐洲族群
+        15–25%、非洲族群 60–70%）清除 sirolimus 的速度快 40–60%。在 Mannick 的劑量遞增研究中，維持
+        2 mg 每週者有 22% 的谷濃度低於 1 ng/mL。在缺乏全血谷濃度與 p70S6K1 Thr389 抑制量測的情況下
+        將此類患者歸類為無反應者，無法區分藥理學上的無反應與曝露量不足。
+      </p>
+      <p>
+        FKBP12 失功能變異屬於另一類且無法以劑量校正的狀況：FKBP12–rapamycin 複合體無法形成，機轉在
+        任何劑量下皆未啟動。起始步驟的缺陷不能以劑量遞增補償。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 7 · 依 CYP3A5 狀態劃分的 sirolimus 曝露</span></div>
+        <div class="fig-canvas fig-svg" id="figRap"></div>
+        <figcaption>
+          <strong>圖 7. 固定 2 mg 每週劑量下，依 CYP3A5 狀態劃分的 sirolimus 谷濃度示意曲線。</strong>
+          陰影帶表示與標的結合相關的曝露範圍。表現型曲線於給藥間隔的大部分時間低於此範圍；此類
+          患者隨後被歸類為 mTORC1 無反應者，對一個未達充分曝露的個體而言屬錯誤歸因。第三條曲線
+          代表 FKBP12 失功能，其谷濃度在任何劑量下皆不進入標的範圍，因複合體無法形成。曲線為示意
+          圖，依個體間 AUC 變異與 22% 低於 1 ng/mL 的報告結果繪製，並非源自單一藥物動力學資料集。
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ==================== PANEL ==================== -->
+    <section id="panel">
+      <p class="sec-label">建議檢測</p>
+      <h2>最低檢測組合</h2>
+      <p>
+        三項檢測涵蓋了本分析中最大比例的具後果曝露。合而言，三者分別處理一項在部分使用者中會
+        增加風險的介入措施、一項在多數使用者中無效的介入措施，以及一項表面無反應實際上源於
+        曝露不足的介入措施。
+      </p>
+
+      <div class="note forest">
+        <h4>最低三項檢測組合</h4>
+        <p>
+          <strong>COMT rs4680</strong>、<strong>尿石素代謝型</strong>與 <strong>CYP3A5 狀態</strong>，
+          並以全血 sirolimus 谷濃度與 p70S6K1 Thr389 作為藥效學讀值。第一項可將有害的介入措施與適當的
+          介入措施區分開來，第二項可區分無效的給藥途徑與有效的給藥途徑，第三項則可區分藥理學上的
+          無反應與曝露量不足。
+        </p>
+      </div>
+
+      <h3>十六項延伸檢測</h3>
+      <p>
+        依曝露族群規模與證據強度之乘積排序，條件為：數值離散、可在曝露前確定、且改變的是介入措施
+        的適當性而非其強度。
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>#</th><th>檢測</th><th>離散數值</th><th>改變的內容</th><th>等級</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>核型與生殖階段</td><td>XX 停經前 · XX 停經前後 · XY · 其他</td><td>決定 [[Estrogen]] 相關治療是否有適應症；為判讀細胞死亡與 mTOR 結果所必需</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>2</td><td>COMT rs4680</td><td>Val/Val · Val/Met · Met/Met</td><td>決定高劑量 [[Alpha-tocopherol]] 為保護性（HR 0.88）或有害（HR 1.18）</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>3</td><td>尿石素代謝型</td><td>A · B · 0</td><td>決定飲食性鞣花酸是否被轉換，或須改為直接給予 UA</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>4</td><td>MC1R 變異類別</td><td>R 類 · r 類 · 野生型</td><td>黑色素合成造成的基期氧化負荷；與 UV 無關的黑色素瘤風險（帶兩個以上變異者 OR 2.13）</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>5</td><td>NQO1 rs1800566</td><td>C/C · C/T · T/T（缺失）</td><td>決定醌類氧化還原訊號可被清除，或進入氧化還原循環</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>6</td><td>CYP3A5（搭配 CYP3A4、ABCB1）與 FKBP1A</td><td>表現型／非表現型 · 失功能帶因</td><td>區分 sirolimus 曝露不足與藥理學上的無反應</td><td><span class="gbadge B">B</span></td></tr>
+            <tr><td>7</td><td>HFE C282Y／H63D，搭配鐵蛋白與轉鐵蛋白飽和度</td><td>四種基因型類別搭配生化值</td><td>決定是否已存在鐵質管理的適應症；改變鐵死亡誘導的閾值</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>8</td><td>SOD2 rs4880<strong>搭配實測 MnSOD 活性</strong></td><td>Ala/Ala · Ala/Val · Val/Val</td><td>校準 [[SIRT3-SIRT4 Ratio]]，並藉此校準毒物興奮介入的劑量範圍</td><td><span class="gbadge C">C</span></td></tr>
+            <tr><td>9</td><td>TMAO 產生者狀態</td><td>高 · 低 · 非產生者</td><td>決定富含膽鹼或肉鹼的飲食型態是否造成可觀的 TMAO 曝露</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>10</td><td>APOE ε4 劑量</td><td>ε2/ε3 · ε3/ε3 · ε3/ε4 · ε4/ε4</td><td>為 cGAS–STING 標的試驗所必需的分層；改增生酮與飽和脂肪飲食介入的預期效應</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>11</td><td>KL-VS 單倍型搭配游離 Klotho</td><td>異合 · 非帶因 · （罕見）同合</td><td>神經發炎表現型；游離 Klotho 同時是生物標記與可量測的運動因子反應</td><td><span class="gbadge B">B</span></td></tr>
+            <tr><td>12</td><td>TERT rs2853669 搭配端粒長度</td><td>A/A · G/G 搭配實測端粒長度</td><td>複製餘裕；體細胞 TERT 啟動子突變癌症的預後修正因子</td><td><span class="gbadge B">B</span></td></tr>
+            <tr><td>13</td><td>SIRT3 rs11555236 · SIRT6 rs117385980／rs9997679</td><td>基因型類別</td><td>必須與核型合併詮釋；sirtuin 長壽關聯具性別特異性</td><td><span class="gbadge B">B</span></td></tr>
+            <tr><td>14</td><td>CYP2C9/VKORC1 · CYP2D6 · CYP1A2+ADORA2A · SLCO1B1</td><td>代謝者表現型類別</td><td>已具臨床驗證（CPIC 層級）、適用於已在使用之藥物的藥物基因體決定因子</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>15</td><td>PON1 基因型<strong>搭配 diazoxonase 活性</strong></td><td>Q192R × L55M 搭配實測活性</td><td>說明在活性於基因型類別內變異較大時，基因型本身為何不足</td><td><span class="gbadge A">A</span></td></tr>
+            <tr><td>16</td><td>mtDNA 單倍群</td><td>單倍群分派</td><td>以粒線體為主的知識庫中的基期 ROS 產生與抗氧化反應</td><td><span class="gbadge D">D</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>已決定適應性的關卡</h3>
+      <p>
+        少數數值已決定某項介入措施是否可施行，而非其劑量為何。[[G6PD deficiency]] 是
+        [[Methylene blue]] 已有記載的禁忌症：在酵素缺失的個體中進行氧化劑挑戰並非劑量可調的問題。
+        轉鐵蛋白飽和度超過 45%，且男性與停經後女性的鐵蛋白超過 300 ng/mL、停經前女性超過
+        200 ng/mL，即為已確立的放血療法門檻。達此門檻的 C282Y 同型合子已有鐵質導向介入的適應症，
+        而僅使用抗氧化劑的方案處理的是結果而非根本的鐵蓄積。鐵負荷過重在男性較停經前女性常見，
+        因為月經失血本身即為鐵的排除途徑；此點將 HFE 關卡與核型關卡連結起來。
+      </p>
+    </section>
+
+    <!-- ==================== LIMITS ==================== -->
+    <section id="limits">
+      <p class="sec-label">限制</p>
+      <h2>範圍與限制</h2>
+      <ul>
+        <li>
+          <strong>任何項目均不構成治療建議。</strong>部分關係——Val/Val COMT 帶因者的 α-生育酚，
+          以及 NQO1 缺失個體的醌類氧化還原方案——具備足夠的機轉與觀察性支持而值得警示，但尚不構成
+          已驗證的臨床規則。
+        </li>
+        <li>
+          <strong>發現不跨族群推廣。</strong>COMT 與 α-生育酚的交互作用在兩項歐洲族群檢驗群體中確立，
+          而 Val/Val 在歐洲族群約占 29%、在漢族約占 52%。NQO1 T/T 在歐洲與黑人族群為 2–5%，
+          在亞洲族群約 20%。在該關係所建立的族群之外套用任何檢測組合皆屬外推。
+        </li>
+        <li>
+          <strong>所見問題為數值未測量，而非基因決定論。</strong>參見<a href="#problem">依據</a>。
+        </li>
+        <li>
+          <strong>連續性生物標記按設計排除。</strong>空腹血糖、hs-CRP、游離 Klotho、鐵蛋白與表觀遺傳
+          時鐘適合作為藥效學監測指標，不適合作為分層變數，因此未納入個人檔案工具的輸入項。
+        </li>
+        <li>
+          <strong>等級 D 項目為研究優先順序。</strong>mtDNA 單倍群、作為劑量變數的 KEAP1／NRF2
+          單倍型、X 染色體失活偏移之所以列入，是因為例行測量缺席，而非因為可據以訂定方案。
+        </li>
+        <li>
+          <strong>已記載的陰性結果予以保留。</strong>GPX1 Pro200Leu 並不顯著改變硒補充後全血 GPx 的
+          反應（Miller 2012）。經檢驗後未能有效分層反應的候選關卡，仍屬於證據基礎的一部分。
+        </li>
+      </ul>
+    </section>
+
+    <!-- ==================== REFS ==================== -->
+    <section id="refs">
+      <p class="sec-label">參考文獻</p>
+      <h2>主要文獻</h2>
+      <ol class="refs-list">
+        <li>Hall KT et al. <em>JNCI</em> 111(7):684–694, 2019 — COMT × α-生育酚，WGHS + ATBC。<a href="https://doi.org/10.1093/jnci/djy204" target="_blank" rel="noopener noreferrer">doi:10.1093/jnci/djy204</a>（PMID 30624689）</li>
+        <li>Hall KT et al. <em>ATVB</em> 34(9):2160–2167, 2014 — COMT × aspirin、β-carotene。</li>
+        <li>Lajin N et al. <em>Br J Cancer</em>, 2013 — NQO1 C609T 統合分析；T 等位基因 MAF 亞洲族群的族群 &gt;35%，白人族群 &lt;20%。<a href="https://www.nature.com/articles/bjc2013357" target="_blank" rel="noopener noreferrer">nature.com/articles/bjc2013357</a></li>
+        <li>Siegel D et al. <em>Pharmacogenetics</em> 9(1):113–121, 1999 — 人體組織中的 NQO1 C609T 基因型—表現型關係（T/T 個體無可偵測的 NQO1 蛋白）。</li>
+        <li>Beaumont YA et al. <em>Hum Mol Genet</em> 16(18):2249–2260, 2007 — 九種 MC1R 等位基因的系統性體外功能分析。<a href="https://doi.org/10.1093/hmg/ddm177" target="_blank" rel="noopener noreferrer">doi:10.1093/hmg/ddm177</a></li>
+        <li>Wendt AK et al. <em>JAMA Dermatol</em>, 2016 — 與 UV 無關的 MC1R 黑色素瘤風險。</li>
+        <li>Jarvik GP et al. <em>ATVB</em> 20(11):2441–2447, 2000 — PON1 表現型變異大於基因型。</li>
+        <li>Selma MV et al. <em>Clin Nutr</em> 37(3):897–905, 2018 — 各檢驗群體的尿石素代謝型（A/B/0）盛行率。</li>
+        <li>Singh R et al. <em>JAMA Netw Open</em>, 2021 — 直接補充 UA 可克服個體腸道菌叢的限制（N=100；基期可偵測 UA 葡萄糖醛酸苷者 12%；石榴負荷後轉換者約 40%）。<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8821002" target="_blank" rel="noopener noreferrer">PMC8821002</a></li>
+        <li>Andreux PA et al. <em>Nat Metab</em> 1(6):595–603, 2019 — urolithin A 人體隨機對照試驗。</li>
+        <li>Taub H et al.（PEARL）／Mannick JB et al. — sirolimus 劑量遞增、谷濃度、PD-1。</li>
+        <li>Diederichsen M et al. <em>PLoS One</em>, 2013 — APOE × KL-VS，AD 風險富集檢驗群體的腦脊髓液生物標記。</li>
+        <li>Adams PC et al. <em>Haematologica</em>, 2017 — Hemochromatosis International 治療建議（TSAT／鐵蛋白門檻）。</li>
+        <li>Kanfi S et al. <em>Nature</em> 2012 — SIRT6 專一於雄性的壽命延長。</li>
+        <li>Roichman R et al. <em>Nat Commun</em> 2021, PMID 34050173 — 兩性中的 SIRT6、肝臟 NAD+。</li>
+        <li>Hirvonen M et al. 2017 — SIRT6 rs117385980，芬蘭男性；Goronzy JJ et al. <em>Trends Genet</em> 2014 — sirtuin 長壽 SNP。</li>
+        <li>Giunco S et al. <em>Oncotarget</em> 2017 — TERT 啟動子 rs2853669 統合分析（屬修正因子，非風險基因）。</li>
+        <li>Krikorian D et al. <em>Nutr Metab</em> 6:31, 2009 — TRIAD AC-1202，MCT 依 APOE 基因型。</li>
+        <li>Miller JC et al. <em>Am J Clin Nutr</em> 2012 — GPX1 Pro200Leu 與硒反應（已記載的陰性結果）。</li>
+        <li>Adam-Vizi V &amp; Tretter L. — ALDH2 對乙醛的 Km 超過可用細胞 NAD+ 約 15 倍。</li>
+        <li>Tennent W et al. <em>J Caffeine Adenosine Res</em> 10(4):371–381, 2020 — CYP1A2／ADORA2A／AHR。</li>
+      </ol>
+    </section>
+
+    <footer class="page-footer">
+      <p>2026 年 9 月 · <a href="../index.html">全部文章</a> ·
+         <a href="https://github.com/jkuo45/llm-wiki-jk" target="_blank" rel="noopener noreferrer">程式碼倉庫</a></p>
+      <p>僅供研究與教育用途。非醫療建議，非診斷工具，非處方。</p>
+    </footer>
+  </main>
+</div>
+
+<script>
+/* ============================================================
+   GATE DATA
+   Each gate: discrete values with an approximate population
+   share per ancestry group. Shares are for scale, taken from
+   the cohorts cited in each row; they are not individual
+   inference and they do not generalise across ancestries.
+   ============================================================ */
+var POPS = { eur: "歐洲族群", eas: "東亞族群", blk: "黑人／非洲族群", oth: "其他或混合族群" };
+
+var GATES = [
+  {
+    id: "sex", name: "核型與生殖階段", code: "46,XX / 46,XY / 45,X / 47,XXY", grade: "A",
+    assay: "核型搭配月經狀態或雄性素阻斷狀態",
+    why: "Estrogen 是 sirtuin、NAD+、毒物興奮、自噬與細胞死亡路徑的主要介質。停經轉換伴隨 SIRT3、SIRT1 與 MnSOD 活性同時下降。與年齡相關的心臟變化有性別差異的報告：SIRT1、SIRT3 與 SOD2 下降，伴隨 NF-κB 活化與巨噬細胞累積，見於老年女性心室而未見於老年男性心室（Aging, 2019; PMC6503880）。",
+    topics: "Sirtuins · NAD+ · SIRT3-SIRT4 Ratio · 自噬／mTORC1 · 細胞凋亡與壞死 · SASP／發炎老化 · 端粒 · p53",
+    vals: [
+      { v: "xxpre", l: "XX", s: "停經前", prev: { eur: .24, eas: .25, blk: .24, oth: .24 } },
+      { v: "xxpost", l: "XX", s: "停經前後", prev: { eur: .27, eas: .25, blk: .27, oth: .27 } },
+      { v: "xy", l: "XY", s: "性腺功能正常", prev: { eur: .48, eas: .48, blk: .48, oth: .48 } },
+      { v: "other", l: "45,X / 47,XXY", s: "其他核型", prev: { eur: .01, eas: .01, blk: .01, oth: .01 } }
+    ]
+  },
+  {
+    id: "comt", name: "COMT Val158Met", code: "rs4680", grade: "A",
+    assay: "唾液 DNA 單點型或口腔黏膜拭子",
+    why: "三種基因型間的酵素活性相差 3–4 倍且類別內變異小，此情形不常見，使基因型可作為活性的可靠替代指標。此數值決定 α-生育酚效應的方向、甲基供應者的耐受性，以及——由於 fisetin 為已驗證的 COMT 受質抑制劑（IC₅₀ 2.6–5.8 µM）——senolytic 的曝露量。",
+    topics: "Dopamine · 前額葉皮質 · Alpha-tocopherol · Aspirin · Fisetin／Quercetin／EGCG · 甲硫胺酸循環 · Modafinil",
+    vals: [
+      { v: "VV", l: "Val/Val", s: "快", prev: { eur: .29, eas: .52, blk: .43, oth: .35 } },
+      { v: "VM", l: "Val/Met", s: "中間", prev: { eur: .47, eas: .44, blk: .45, oth: .48 } },
+      { v: "MM", l: "Met/Met", s: "慢", prev: { eur: .24, eas: .04, blk: .12, oth: .17 } }
+    ]
+  },
+  {
+    id: "urolithin", name: "尿石素代謝型", code: "UM-A / UM-B / UM-0", grade: "A",
+    assay: "標準化石榴挑戰後的尿液尿石素 A 葡萄糖醛酸苷",
+    why: "此為微生物表現型而非胚系基因型，因此是本組數值中唯一具有可修改潛力者。此表現型已由三個研究群體於獨立檢驗群體中重現。",
+    topics: "粒線體自噬 · AMPK／mTORC1／PGC-1α · 氧化壓力 · NAD+ · 代謝症候群 · 癌症預防",
+    vals: [
+      { v: "A", l: "代謝型 A", s: "產生 UA", prev: { eur: .40, eas: .40, blk: .40, oth: .40 } },
+      { v: "B", l: "代謝型 B", s: "產生異尿石素 A", prev: { eur: .10, eas: .10, blk: .10, oth: .10 } },
+      { v: "0", l: "代謝型 0", s: "不產生尿石素", prev: { eur: .50, eas: .50, blk: .50, oth: .50 } }
+    ]
+  },
+  {
+    id: "mc1r", name: "MC1R 變異類別", code: "R 類 / r 類 / 野生型", grade: "A",
+    assay: "MC1R 定序（或以表現型判斷：紅髮、雀斑、(always burn 皮膚型態）",
+    why: "黑色素在合成過程中產生活性氧並耗 glutathione，因此 R 類等位基因帶因者的基期氧化負荷較高，該負荷來自色素生合成路徑；同時其黑色素瘤風險約為兩倍，且與 UV 曝露無關。",
+    topics: "MC1R · 黑色素／神經黑色素 · 黑色素與酪胺酸酶 · 帕金森氏症 · 黑色素瘤 · 氧化壓力",
+    vals: [
+      { v: "R", l: "R 類", s: "功能異常", prev: { eur: .14, eas: .05, blk: .08, oth: .10 } },
+      { v: "r", l: "r 類", s: "功能降低", prev: { eur: .29, eas: .17, blk: .24, oth: .24 } },
+      { v: "wt", l: "野生型", s: "正常", prev: { eur: .57, eas: .78, blk: .68, oth: .66 } }
+    ]
+  },
+  {
+    id: "nqo1", name: "NQO1 C609T", code: "rs1800566（Pro187Ser）", grade: "A",
+    assay: "唾液 DNA 單點型，或唾液／活體檢體的 NQO1 活性",
+    why: "決定醌類是經二電子還原為穩定且可去毒化的氫醌，還是經一電子還原為可進行氧化還原循環的半醌。因此基因型決定的是效應方向而非幅度。T/T 在功能上為缺失型，在唾液、骨髓、肺上皮與內皮中均無可偵測的 NQO1 蛋白。",
+    topics: "NQO1 · 氧化壓力 · 腎上腺素紅／醌類 · 毒物興奮 · 癌症／p53",
+    vals: [
+      { v: "CC", l: "C/C", s: "完整活性", prev: { eur: .66, eas: .48, blk: .70, oth: .62 } },
+      { v: "CT", l: "C/T", s: "約降低三倍", prev: { eur: .31, eas: .35, blk: .27, oth: .30 } },
+      { v: "TT", l: "T/T", s: "NQO1 缺失", prev: { eur: .03, eas: .17, blk: .03, oth: .08 } }
+    ]
+  },
+  {
+    id: "cyp3a5", name: "CYP3A5 狀態", code: "*1 表現型／非表現型；FKBP1A 失功能", grade: "B",
+    assay: "CYP3A5 *1／*3 基因分型（搭配 FKBP1A 定序；以全血 sirolimus 谷濃度作藥效學核對）",
+    why: "表面上的 rapamycin 無反應有相當大一部分屬藥物動力學問題：個體間 AUC 變異超過 40%，表現型清除速度快 40–60%，且 Mannick 劑量遞增檢驗群體中維持 2 mg 每週者有 22% 谷濃度低於 1 ng/mL。FKBP12 失功能屬另一類且無法以劑量校正的狀況。",
+    topics: "mTORC1 · 自噬 · mTOR 病變 · AMPK · IRS1",
+    vals: [
+      { v: "exp", l: "*1 表現型", s: "清除快", prev: { eur: .20, eas: .15, blk: .65, oth: .22 } },
+      { v: "nonexp", l: "非表現型", s: "*3／*6／*26", prev: { eur: .79, eas: .83, blk: .34, oth: .75 } },
+      { v: "lof", l: "FKBP1A 失功能", s: "無法形成複合體", prev: { eur: .01, eas: .01, blk: .01, oth: .01 } }
+    ]
+  },
+  {
+    id: "hfe", name: "HFE C282Y／H63D", code: "rs1800562 / rs1799943", grade: "A",
+    assay: "HFE 基因分型搭配鐵蛋白與轉鐵蛋白飽和度",
+    why: "鐵負荷過重是帶因率 1–3% 的孟德爾遺傳疾病，而知識庫的鐵死亡內容（GPX4、ACSL4、FSP1、鐵）並未提及。C282Y 同型合子會造成慢性擴大的活性鐵池，降低鐵死亡誘導的閾值。轉鐵蛋白飽和度超過 45%，且鐵蛋白超過 300 ng/mL（男性、停經後）或 200 ng/mL（停經前），即為已確立的放血療法門檻。",
+    topics: "鐵蛋白 · GPX4 · 鐵死亡 · 脂質過氧化 · 氧化壓力 · 癌症",
+    vals: [
+      { v: "cc", l: "C/C", s: "野生型", prev: { eur: .86, eas: .95, blk: .80, oth: .88 } },
+      { v: "het", l: "C282Y 異合", s: "輕度", prev: { eur: .13, eas: .04, blk: .19, oth: .11 } },
+      { v: "hh", l: "C282Y 同合", s: "同型合子", prev: { eur: .005, eas: .002, blk: .002, oth: .004 } },
+      { v: "comp", l: "C282Y/H63D", s: "複合異合", prev: { eur: .005, eas: .008, blk: .008, oth: .006 } }
+    ]
+  },
+  {
+    id: "sod2", name: "SOD2 Ala16Val", code: "rs4880", grade: "C",
+    assay: "單點型，<strong>加上</strong>實測 MnSOD 活性（不可僅憑單點型）",
+    why: "rs4880 使 MnSOD 輸入效率改變 30–40%。Lys68／Lys122 的乙醯化是 SIRT3／SIRT4 比值的可行動讀值，因此此酵素 30–40% 的變動等同於毒物興奮範圍 30–40% 的變動。基因型與表現型的關係方向在各原始研究間不一致，故應直接測定活性。",
+    topics: "MnSOD · SIRT3-SIRT4 Ratio · 氧化壓力 · 腎上腺素紅 · 毒物興奮範圍寬度",
+    vals: [
+      { v: "AA", l: "Ala/Ala", s: "實測活性", prev: { eur: .34, eas: .30, blk: .40, oth: .35 } },
+      { v: "AV", l: "Ala/Val", s: "實測活性", prev: { eur: .49, eas: .48, blk: .47, oth: .48 } },
+      { v: "VV", l: "Val/Val", s: "實測活性", prev: { eur: .17, eas: .22, blk: .13, oth: .17 } }
+    ]
+  },
+  {
+    id: "tmao", name: "TMAO 產生者狀態", code: "微生物 TMA／TMAO", grade: "A",
+    assay: "標準化膽鹼／肉鹼挑戰後的尿液 TMAO",
+    why: "這是第二個微生物產生者表現型，知識庫的 TMAO 筆記雖記載此現象，但未附帶對應的分層邏輯。高產生者自富含膽鹼、肉鹼或紅肉的飲食取得遠高於低產生者的 TMAO 曝露，然而兩者獲得的飲食建議相同。",
+    topics: "氧化三甲胺 · SIRT1 · 氧化壓力 · 發炎老化 · 細胞衰老 · 動脈粥樣硬化",
+    vals: [
+      { v: "high", l: "高產生者", s: "挑戰後上升", prev: { eur: .30, eas: .30, blk: .30, oth: .30 } },
+      { v: "low", l: "低產生者", s: "輕微上升", prev: { eur: .40, eas: .40, blk: .40, oth: .40 } },
+      { v: "none", l: "非產生者", s: "具 TMA 還原菌叢", prev: { eur: .30, eas: .30, blk: .30, oth: .30 } }
+    ]
+  },
+  {
+    id: "apoe", name: "APOE ε 型別劑量", code: "ε2 / ε3 / ε4", grade: "A",
+    assay: "APOE 基因分型",
+    why: "至少有三項治療關係取決於此數值：cGAS–STING／IFN-I 微膠細胞致敏（提高 cGAP 抑制的預期上限，並稀釋未分層的試驗）；飲食介入方面，隨機對照的人體資料不支持生酮途徑，而小鼠結果具雌性特異性；以及阿茲海默氏症風險劑量（ε4/ε4 約十倍，單一等位基因約三倍）。",
+    topics: "APOE4 · APOE3 Christchurch · cGAS-STING／IFN-I · SASP · 微膠細胞粒線體 · 發炎老化",
+    vals: [
+      { v: "e23", l: "ε2/ε3", s: "一個 ε2", prev: { eur: .08, eas: .05, blk: .16, oth: .10 } },
+      { v: "e33", l: "ε3/ε3", s: "無 ε4", prev: { eur: .62, eas: .70, blk: .40, oth: .62 } },
+      { v: "e34", l: "ε3/ε4", s: "一個 ε4", prev: { eur: .27, eas: .23, blk: .34, oth: .24 } },
+      { v: "e44", l: "ε4/ε4", s: "兩個 ε4", prev: { eur: .03, eas: .02, blk: .06, oth: .03 } }
+    ]
+  },
+  {
+    id: "aldh2", name: "ALDH2 Glu487Lys", code: "rs671（*1／*2）", grade: "B",
+    assay: "唾液 DNA 單點型",
+    why: "ALDH2 在粒線體密度高的組織中清除脂質過氧化醛（主要為 4-HNE）。其對乙醛的 Km 超過可用細胞 NAD+ 約 15 倍；在 *2 帶因者中，清除醛的能力與補充所欲提升的 NAD+ 可用性因而呈相反方向。*2 亦是壓力耐受性下降最明確的基因型。",
+    topics: "氧化壓力（4-HNE）· 腎上腺素紅清除 · 老化 · 毒物興奮",
+    vals: [
+      { v: "11", l: "*1/*1", s: "正常", prev: { eur: .92, eas: .58, blk: .78, oth: .85 } },
+      { v: "12", l: "*1/*2", s: "異合", prev: { eur: .07, eas: .35, blk: .20, oth: .13 } },
+      { v: "22", l: "*2/*2", s: "活性約 5–20%", prev: { eur: .01, eas: .07, blk: .02, oth: .02 } }
+    ]
+  },
+  {
+    id: "cyp1a2", name: "CYP1A2／ADORA2A", code: "rs762551 + rs5751876", grade: "A",
+    assay: "唾液 DNA 單點型；表現型：咖啡因半衰期、午後給藥後的睡眠 disruption",
+    why: "CYP1A2 慢代謝者的咖啡因半衰期有 2–12 小時的差距，因此感知到的效果不足與午後給藥後的睡眠干擾源自同一決定因子。CYP1A2 快代謝者在運動效能效果相當的前提下獲得較大的認知效果（反應時間 −18 對 −1.0 毫秒），且咖啡與帕金森氏症的關聯在慢代謝者中最強。",
+    topics: "綠茶／EGCG · Dopamine · 前額葉皮質 · 焦慮 · 運動毒物興奮",
+    vals: [
+      { v: "AA", l: "CYP1A2 A/A", s: "快", prev: { eur: .43, eas: .50, blk: .40, oth: .45 } },
+      { v: "AC", l: "A/C", s: "中間", prev: { eur: .43, eas: .38, blk: .45, oth: .41 } },
+      { v: "CC", l: "C/C", s: "慢", prev: { eur: .14, eas: .12, blk: .15, oth: .14 } }
+    ]
+  },
+  {
+    id: "pon1", name: "PON1 Q192R／L55M", code: "rs662 + rs854560", grade: "A",
+    assay: "單點型<strong>加上</strong> diazoxonase 活性檢測",
+    why: "活性排序為 RR > QR > QQ 與 LL > LM > MM，但 Jarvik（2000）發現類別內的變異大於類別間的變異；某一位 MM 個體可能高於某一位 LL 個體。活性偏低是冠狀動脈事件的獨立風險因子，且直接涉及脂質過氧化與維生素 E 路徑群。",
+    topics: "PON1 · 氧化 LDL · 脂質過氧化 · 氧化壓力 · 老化",
+    vals: [
+      { v: "QQ", l: "192QQ", s: "最低", prev: { eur: .33, eas: .42, blk: .55, oth: .40 } },
+      { v: "QR", l: "192QR", s: "中間", prev: { eur: .43, eas: .41, blk: .34, oth: .41 } },
+      { v: "RR", l: "192RR", s: "最高", prev: { eur: .24, eas: .17, blk: .11, oth: .19 } }
+    ]
+  },
+  {
+    id: "klotho", name: "KLOTHO KL-VS 單倍型", code: "rs9536314 + rs9527025", grade: "B",
+    assay: "基因分型搭配游離 Klotho（作為對應的運動因子讀值）",
+    why: "KL-VS 異合性可減輕與年齡相關的神經發炎與神經退化，且在 AD 風險富集的檢驗群體中效應較大，顯示其與 APOE ε4 交互作用，而非獨立作用。游離 Klotho 為運動可提高的運動因子（12 項隨機對照試驗，N=621，Hedges' g 1.3），因此生物標記與藥效學讀值為同一分析物。",
+    topics: "Klotho · 老化 · APOE4 交互作用 · cGAS／STING · 發炎老化 · 神經發炎",
+    vals: [
+      { v: "het", l: "KL-VS 異合", s: "有利", prev: { eur: .02, eas: .04, blk: .02, oth: .03 } },
+      { v: "nc", l: "非帶因", s: "對照", prev: { eur: .979, eas: .959, blk: .979, oth: .969 } },
+      { v: "homo", l: "KL-VS 同合", s: "罕見，klotho 較低", prev: { eur: .001, eas: .001, blk: .001, oth: .001 } }
+    ]
+  },
+  {
+    id: "tert", name: "TERT 啟動子基因型", code: "rs2853669 + 體細胞 TERTp", grade: "B",
+    assay: "胚系 rs2853669 基因分型；體細胞 TERTp −124／−146 C>T 狀態（取自腫瘤定序）；實測端粒長度",
+    why: "在個體一生中設定 TERT 啟動子的轉錄。rs2853669 的 G 等位基因破壞轉錄起始點上游的 ETS／TCF 結合位點。在已帶有體細胞 TERT 啟動子突變的患者中，胚系狀態與存活相關，屬於胚系與體細胞的交互作用。TERT 活化是複製性永生的速率限制步驟，因此此數值構成不以 NMN、rapamycin 或行為介入改變的複製餘裕上限。",
+    topics: "端粒／端粒耗損 · 複製性衰老 · p53／p16 · 癌症 · 壽命",
+    vals: [
+      { v: "AA", l: "A/A", s: "完整 TERT 轉錄", prev: { eur: .42, eas: .55, blk: .55, oth: .48 } },
+      { v: "AG", l: "A/G", s: "異合", prev: { eur: .44, eas: .37, blk: .37, oth: .40 } },
+      { v: "GG", l: "G/G", s: "位點被破壞", prev: { eur: .14, eas: .08, blk: .08, oth: .12 } }
+    ]
+  },
+  {
+    id: "sirt", name: "SIRT3／SIRT6 長壽變異", code: "rs11555236, rs4980329, rs117385980, rs9997679", grade: "B",
+    assay: "SNP 基因分型",
+    why: "知識庫中最重複驗證的人類 sirtuin 長壽發現，在不同研究間方向不一：rs11555236 在一項義大利檢驗群體中與雄性長壽相關，在合併檢驗群體中未能重現，在 TRELONG 中則僅在雌性顯著。SIRT6 過量表現僅在雄性延長壽命，芬蘭的長壽關聯亦見於芬蘭男性。此類結果必須與核型合併判讀。",
+    topics: "SIRT3 · SIRT6 · MnSOD · 百歲人瑞 · 細胞衰老",
+    vals: [
+      { v: "common", l: "常見等位基因", s: "對照", prev: { eur: .78, eas: .72, blk: .76, oth: .77 } },
+      { v: "s3het", l: "SIRT3 rs11555236 G", s: "SIRT3 表現上升", prev: { eur: .19, eas: .24, blk: .21, oth: .20 } },
+      { v: "s6var", l: "SIRT6 N308K／A313S", s: "SIRT6 活性上升", prev: { eur: .03, eas: .04, blk: .03, oth: .03 } }
+    ]
+  },
+  {
+    id: "mtdna", name: "mtDNA 單倍群", code: "H / J / T / U / K / rCRS", grade: "D",
+    assay: "mtDNA 定序或單倍群檢測套組",
+    why: "單倍群之間在基期 ROS 產生、脫偶聯能力與抗氧化反應上有所差異。由於 mtDNA 為母系遺傳，觀察性研究中的單倍群與母系背景因子共變，此點可解釋多數結果不一致的情形。列入本表是為了記錄測量的缺席，而非支持劑量規則。",
+    topics: "mtDNA · 氧化磷酸化 · 毒物興奮 · 基期 ROS",
+    vals: [
+      { v: "H", l: "H／rCRS", s: "低基期 ROS", prev: { eur: .40, eas: .05, blk: .30, oth: .30 } },
+      { v: "macro", l: "J／T／U／K", s: "高基期 ROS", prev: { eur: .20, eas: .40, blk: .20, oth: .24 } },
+      { v: "other", l: "其他", s: "此處未分類", prev: { eur: .40, eas: .55, blk: .50, oth: .46 } }
+    ]
+  }
+];
+
+/* ============================================================
+   THERAPY × GATE MAP
+   map[value] = [severity, consequence text]
+   severity: harm | blind | under | miss | benefit | neutral
+   Omitted keys fall back to _default, then to "neutral".
+   ============================================================ */
+var SEV = {
+  harm:    { l: "風險增加",      v: "var(--sev-harm)" },
+  blind:   { l: "預期無效",      v: "var(--sev-blind)" },
+  under:   { l: "曝露不足",      v: "var(--sev-under)" },
+  miss:    { l: "應施行未施行",  v: "var(--sev-miss)" },
+  benefit: { l: "有支持",        v: "var(--sev-ok)" },
+  neutral: { l: "無關聯",        v: "var(--sev-neutral)" },
+  unknown: { l: "未測量",        v: "var(--sev-unknown)" }
+};
+var CONSEQUENTIAL = { harm: 1, blind: 1, under: 1, miss: 1 };
+
+var THERAPIES = [
+  {
+    id: "vite", dom: "抗氧化劑組合", name: "高劑量 α-生育酚（維生素 E）", gate: "comt", grade: "A",
+    map: {
+      VV: ["harm", "在 50 IU/日與 600 IU 隔日兩種劑量下均與癌症發生率增加相關（HR 1.18，95% CI 1.06–1.31）。此關聯在 400 IU/日門檻以下即已存在，因此將劑量降至該水準並不能減輕。rs4818 G/G 有一致結果（HR 1.29）。"],
+      VM: ["neutral", "在合併的基因劑量分析中無顯著交互作用。"],
+      MM: ["benefit", "發生率降低約 12%（HR 0.88）。Aspirin 的心血管保護亦集中於此族群。"]
+    }
+  },
+  {
+    id: "ellagitannin", dom: "粒線體組合", name: "飲食性鞣花酸（石榴、核桃、草莓）", gate: "urolithin", grade: "A",
+    map: {
+      A: ["benefit", "受質被轉換為尿石素 A，即已發表試驗所使用的代謝物。飲食途徑有效。"],
+      B: ["blind", "產生的是異尿石素 A 與 uro-B。此為與已發表試驗所用代謝物不同的化合物，其藥理學特性大多尚未描述。"],
+      "0": ["blind", "不產生任何尿石素。無論劑量、來源或依從性，飲食性鞣花酸皆無效。僅直接給予尿石素 A 方為適用。"]
+    }
+  },
+  {
+    id: "rapamycin", dom: "mTOR／自噬", name: "Rapamycin（sirolimus）或 mTORC1 導向組合", gate: "cyp3a5", grade: "B",
+    map: {
+      exp: ["under", "在固定低劑量下清除迅速，給藥間隔的大部分時間低於與標的結合相關的曝露。此類患者會被記錄為某個在充分曝露下有效之藥物的無反應者。此為藥物動力學而非藥理學的發現。"],
+      nonexp: ["benefit", "曝露量符合預期。在將患者歸類為無反應者之前，仍應測量谷濃度與 p70S6K1 Thr389 抑制量。"],
+      lof: ["blind", "FKBP12 失功能使 FKBP12–rapamycin 複合體無法形成，機轉未啟動。劑量遞增無法校正。"]
+    }
+  },
+  {
+    id: "mrr", dom: "氧化還原方案", name: "醌類氧化還原方案（methylene blue 加 carbazochrome，以 aminoguanidine 終止）", gate: "nqo1", grade: "A",
+    map: {
+      CC: ["benefit", "經二電子還原為穩定氫醌。氧化還原訊號可依設計給予並終止。"],
+      CT: ["benefit", "活性約降低三倍但路徑完整；同一途徑以較小幅度運作。"],
+      TT: ["harm", "功能上為 NQO1 缺失。醌類經 CYP450／b5 還原酶的一電子途徑還原為可進行氧化還原循環的半醌。此族群最可能將原定的適應反應轉為氧化傷害。此為適應與否的決定因子，而非劑量因素。"]
+    }
+  },
+  {
+    id: "estrogen", dom: "內分泌", name: "全身性荷爾蒙補充療法，或 SIRT3 導向的心臟／粒線體介入", gate: "sex", grade: "A",
+    map: {
+      xxpre: ["neutral", "Estrogen 維持於生理濃度。需考量的是預期的停經軌跡，而非當下的補充。"],
+      xxpost: ["miss", "停經造成的 estrogen 下降伴隨 SIRT3、SIRT1 與 MnSOD 活性同時降低，並有具性別特異性的心臟老化表現（老年女性心室的 SIRT1、SIRT3、SOD2 下降，伴 NF-κB 活化與巨噬細胞累積）。無傳統適應症的停經後 XX 個體並未被納入 SIRT3 導向介入的常規考量。"],
+      xy: ["neutral", "上述表現型不適用於此族群。男性的對應情況為雄性素阻斷後的睪固酮抑制，而非停經轉換。"],
+      other: ["under", "45,X 與 47,XXY 核型帶有獨特的 SIRT 與 NAD+ 表現型，現行方案未加以處理。"],
+      _default: ["neutral", "此狀態未定義對應的方案分支。"]
+    }
+  },
+  {
+    id: "sun", dom: "曝露／預防", name: "日曬與日光浴決策，或 MC1R 促效神經保護", gate: "mc1r", grade: "A",
+    map: {
+      R: ["harm", "黑色素在合成時產生活性氧並耗 glutathione，因此在任何 UV 曝露之前基期氧化負荷即已升高。僅依據皮膚型態給予的建議，低估了約兩倍的與 UV 無關風險（帶兩個以上變異者 OR 2.13）。"],
+      r: ["neutral", "受體功能降低，但未伴隨 R 類等位基因的氧化產物增加。"],
+      wt: ["neutral", "在此族群中，Fitzpatrick 皮膚型態足以作為 UV 易感受性的替代指標。"]
+    }
+  },
+  {
+    id: "iron", dom: "鐵死亡／氧化還原", name: "僅使用抗氧化劑的方案，或與鐵死亡相關的方案", gate: "hfe", grade: "A",
+    map: {
+      cc: ["neutral", "仍應直接測量鐵狀態。此族群沒有孟德爾遺傳學上的理由預期鐵死亡閾值改變。"],
+      het: ["neutral", "單一異合基因型：鐵處理多在正常範圍內。"],
+      hh: ["miss", "轉鐵蛋白飽和度超過 45%，且鐵蛋白超過 300 ng/mL（男性、停經後）或 200 ng/mL（停經前），即為已確立的放血療法門檻，因此已有鐵質導向介入的適應症。僅使用抗氧化劑的方案處理的是下游結果，而非鐵蓄積本身。"],
+      comp: ["miss", "多數指引對複合異合子與同型合子採取相同的管理路徑。此類別不應比照單一異合基因型處理。"]
+    }
+  },
+  {
+    id: "keto", dom: "飲食／認知", name: "以生酮或 MCT／飽和脂肪飲食策略改善認知", gate: "apoe", grade: "B",
+    map: {
+      e23: ["neutral", "此介入措施不受 ε4 相關的限制。"],
+      e33: ["benefit", "在 TRIAD AC-1202 中，MCT 與酮類補充在非 ε4 帶因者的效果可量測地較佳。"],
+      e34: ["blind", "隨機對照的人體資料與範圍綜述均發現生酮類製劑在 ε4 帶因者無效，且高飽和脂肪攝取的危害尤其明顯。2025 年的範例綜述中，僅地中海飲食型態未被列入此結論。"],
+      e44: ["blind", "同一關係但 ε4 劑量更高。APOE4 小鼠的生酮飲食認知效益具雌性特異性，且未轉譯至人體資料。"]
+    }
+  },
+  {
+    id: "fisetin", dom: "Senolytics", name: "Fisetin（senolytic）", gate: "comt", grade: "B",
+    map: {
+      VV: ["under", "Fisetin 為已驗證的 COMT 受質抑制劑（IC₅₀ 2.6–5.8 µM）。在 3–4 倍的活性跨度下，快代謝者的 senolytic 曝露約減半，因此相同的名目劑量對應不同的實際曝露。"],
+      VM: ["neutral", "曝露的對照類別。"],
+      MM: ["harm", "曝露量約為快代謝者的兩倍，並額外消耗 SAME。目前沒有任何 senolytic 試驗依 COMT 基因型分層，因此此族群的劑量是否充足尚未獲得評估。"],
+      _default: ["neutral", "任何基因型類別皆無 COMT 分層的 senolytic 曝露資料。"]
+    }
+  },
+  {
+    id: "methyl", dom: "甲基化", name: "甲基供應者（methylfolate、methylB12、SAMe、betaine）", gate: "comt", grade: "B",
+    map: {
+      VV: ["neutral", "在此途徑中 COMT 並非速率限制酵素；耐受性取決於下游甲基化能力。"],
+      VM: ["neutral", "中間活性。"],
+      MM: ["harm", "COMT 活性降低加上甲基供應者補充，與焦慮及失眠相關。Folinic acid 可跳過甲基化步驟，是標準的替代作法。"]
+    }
+  },
+  {
+    id: "tmaoDiet", dom: "飲食／血管", name: "富含膽鹼或肉鹼、以紅肉為主的飲食型態", gate: "tmao", grade: "B",
+    map: {
+      high: ["harm", "腸道菌叢會以高效率將此飲食型態轉為 TMAO，而相同的飲食建議卻同時提供給低產生者。TMAO 加速細胞衰老，以及血管平滑肌的 SIRT1 介導衰減，皆屬下游結果。"],
+      low: ["neutral", "TMAO 生成量有限，該飲食型態並非主要曝露來源。"],
+      none: ["benefit", "具 TMA 還原菌叢（Lactobacillus、Eubacterium limosum）。標準飲食建議正是以此族群為基準。"]
+    }
+  },
+  {
+    id: "cgas", dom: "神經發炎", name: "cGAS／STING 標的或微膠細胞導向介入", gate: "apoe", grade: "A",
+    map: {
+      e23: ["neutral", "對照類別。"],
+      e33: ["neutral", "對照類別。"],
+      e34: ["miss", "ε4 帶因者的微膠細胞已處於致敏狀態並放大第一型干擾素訊號，因而提高 cGAS 抑制的預期上限。未分層的試驗會因同時納入帶因者與非帶因者而被稀釋。此族群是某項目前未被試驗的介入措施的候對象。"],
+      e44: ["miss", "微膠細胞致敏程度最高，cGAS 抑制的預期上限最高，且在未分層試驗中最容易被稀釋。"]
+    }
+  },
+  {
+    id: "quinoneChemo", dom: "腫瘤學", name: "NQO1 活化的醌類化學治療（如 mitomycin、膀胱灌注）", gate: "nqo1", grade: "C",
+    map: {
+      CC: ["benefit", "生物活化可進行；NQO1 活性即為細胞毒殺機轉，而非旁觀者效應。"],
+      CT: ["neutral", "活化與旁觀者放大均減少。"],
+      TT: ["blind", "功能上為缺失型。藥物的生物活化機轉缺席，因此無法產生細胞毒殺，而旁觀者效應仍持續。"],
+      _default: ["neutral", "此途徑的基因型尚未確定。"]
+    }
+  },
+  {
+    id: "ethanol", dom: "異種毒物興奮", name: "以乙醇作為毒物興奮曝露", gate: "aldh2", grade: "B",
+    map: {
+      "11": ["neutral", "乙醛清除在正常範圍內。"],
+      "12": ["under", "在攝取量相同的情況下酵素能力降低。潮紅反應即為乙醛清除較慢的表徵。"],
+      "22": ["harm", "對乙醛的 Km 超過可用細胞 NAD+ 約 15 倍。此族群的醛類清除能力與 NAD+ 可用性呈相反方向，亦與壓力耐受性下降相關。"],
+      _default: ["neutral", "未帶有 *2 等位基因。"]
+    }
+  },
+  {
+    id: "caffeine", dom: "認知／運動", name: "咖啡因或綠茶 EGCG 運動前劑量", gate: "cyp1a2", grade: "A",
+    map: {
+      AA: ["benefit", "清除迅速。認知效果較大（反應時間 −18 對 −1.0 毫秒），午後給藥的代價較低。"],
+      AC: ["neutral", "中間活性。"],
+      CC: ["harm", "CYP1A2 慢代謝者：半衰期有 2–12 小時的差距。清晨有效的劑量可能在當晚干擾睡眠，而睡眠不足本身即與壓力適應相關。感知到的效果降低往往反映睡眠干擾。"],
+      _default: ["neutral", "CYP1A2 狀態尚未確定。"]
+    }
+  },
+  {
+    id: "oxldl", dom: "脂質過氧化", name: "氧化 LDL／脂質過氧化防禦方案", gate: "pon1", grade: "C",
+    map: {
+      QQ: ["harm", "paraoxonase 與 diazoxonase 活性最低，因此水解氧化脂質的能力最弱。活性偏低是冠狀動脈事件的獨立風險因子。"],
+      QR: ["neutral", "中間活性。"],
+      RR: ["benefit", "各基因型類別中活性最高。仍以直接測定活性為佳，因同一類別內個體間的差異大於類別間的差異。"]
+    }
+  },
+  {
+    id: "telo", dom: "細胞衰老", name: "複製性衰老／端粒導向方案", gate: "tert", grade: "D",
+    map: {
+      AA: ["neutral", "TERT 轉錄未受限制，複製餘裕為本組中最高。"],
+      AG: ["neutral", "中間。"],
+      GG: ["miss", "rs2853669 的 G 等位基因破壞 TERT 轉錄起始點上游的 ETS／TCF 結合位點，使轉錄終生降低。由於 TERT 活化是複製性永生的速率限制步驟，此為不以 NMN、rapamycin 或行為介入改變的複製餘裕上限。在存在體細胞 TERT 啟動子突變時，此基因型另與較差的存活相關。"],
+      _default: ["neutral", "rs2853669 狀態尚未確定。"]
+    }
+  },
+  {
+    id: "sirtuin", dom: "長壽組合", name: "SIRT 導向長壽組合", gate: "sirt", grade: "B",
+    map: {
+      common: ["neutral", "對照類別；尚未確立長壽關聯。"],
+      s3het: ["under", "rs11555236 在一項義大利檢驗群體中與雄性長壽相關，在合併檢驗群體中未能重現，在 TRELONG 中僅在雌性顯著。此為修正因子，應與核型合併判讀。"],
+      s6var: ["miss", "N308K 與 A313S 可提高 SIRT6 活性並延後細胞衰老。SIRT6 過量表現的壽命效應僅見於雄性，因此相關證據並不延伸至雌性的高活性等位基因。"],
+      _default: ["neutral", "對照類別。"]
+    }
+  },
+  {
+    id: "klothoStack", dom: "長壽組合", name: "游離 Klotho／運動因子導向組合", gate: "klotho", grade: "B",
+    map: {
+      het: ["miss", "KL-VS 異合性可減輕腦脊髓液中的 IL-6、S100B、α-synuclein 與 NfL，且在 AD 風險富集的檢驗群體中效應較大，顯示與 APOE ε4 交互作用。運動可提高游離 Klotho，因此此數值支持將運動處方與可量測的藥效學讀值搭配使用。"],
+      nc: ["neutral", "對照類別。"],
+      homo: ["harm", "罕見基因型，與較低的 klotho 濃度、較短的壽命及較差的認知表現相關。效應方向與異合性相反。"],
+      _default: ["neutral", "對照類別。"]
+    }
+  }
+];
+
+/* ============================================================
+   STATE
+   ------------------------------------------------------------
+   In-memory only. Nothing is persisted: closing the page discards
+   the profile. Export writes a JSON file if a copy is needed.
+   ============================================================ */
+var state = { pop: "eur", gates: {}, rx: [] };
+
+var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead;
+
+/* CJK-aware text measurement and wrapping. T2.wrapText assumes 0.58em per
+   character, which under-measures full-width glyphs (~1em) and pushes wrapped
+   Chinese text past the right edge of the canvas, so this page measures and
+   wraps its own. Latin runs (gene symbols, "ng/mL", "HR 1.18") keep the 0.55
+   factor; CJK, kana, and full-width punctuation count as 1em. */
+function charW(c) {
+  var n = c.charCodeAt(0);
+  return ((n >= 0x1100 && n <= 0x115f) || (n >= 0x2e80 && n <= 0xa4cf) ||
+          (n >= 0xac00 && n <= 0xd7a3) || (n >= 0xf900 && n <= 0xfaff) ||
+          (n >= 0xfe30 && n <= 0xfe6f) || (n >= 0xff00 && n <= 0xff60) ||
+          (n >= 0xffe0 && n <= 0xffe6)) ? 1.0 : 0.55;
+}
+function textW(str, size) {
+  var w = 0;
+  for (var i = 0; i < str.length; i++) w += charW(str.charAt(i));
+  return w * size;
+}
+/* Greedy wrap, same shape as T2.wrapText: no break inside a space-delimited
+   token, which keeps Latin gene symbols and units intact. */
+function wrapTokens(value, maxW, size) {
+  var words = String(value).split(" "), line = "", lines = [];
+  words.forEach(function (w) {
+    var test = line ? line + " " + w : w;
+    if (line && textW(test, size) > maxW) { lines.push(line); line = w; }
+    else { line = test; }
+  });
+  if (line) lines.push(line);
+  return lines.length ? lines : [""];
+}
+function nLines(value, maxW, size) { return wrapTokens(value, maxW, size).length; }
+function wrapText(svg, x, y, value, maxW, size) {
+  var lines = wrapTokens(value, maxW, size), dy = 0;
+  lines.forEach(function (l) {
+    text(svg, x, y + dy, l, { size: size, fill: "var(--mute)" });
+    dy += size + 4;
+  });
+  return dy;
+}
+
+function byId(id) {
+  for (var i = 0; i < GATES.length; i++) if (GATES[i].id === id) return GATES[i];
+  return null;
+}
+function gateLabel(g, v) {
+  for (var i = 0; i < g.vals.length; i++) if (g.vals[i].v === v) return g.vals[i].l + "（" + g.vals[i].s + "）";
+  return v;
+}
+function share(g, v) {
+  for (var i = 0; i < g.vals.length; i++) if (g.vals[i].v === v) return (g.vals[i].prev && g.vals[i].prev[state.pop] != null) ? g.vals[i].prev[state.pop] : null;
+  return null;
+}
+function outcome(t) {
+  var g = byId(t.gate);
+  var v = state.gates[t.gate];
+  if (!g || !v) return { sev: "unknown", txt: "該分層數值尚未測量。在測量之前，無法將此介入措施與給予有類別患者的措施區分開來，而這正是臨床上的常見狀況。" };
+  var m = t.map[v] || t.map._default || ["neutral", "此數值無已報告的交互作用。"];
+  return { sev: m[0], txt: m[1] };
+}
+/* Share of a population in a consequential state for a therapy. */
+function wrongSide(t) {
+  var g = byId(t.gate);
+  if (!g) return 0;
+  var total = 0, known = 0;
+  g.vals.forEach(function (val) {
+    var s = share(g, val.v);
+    if (s == null) return;
+    var m = t.map[val.v] || t.map._default;
+    known += s;
+    if (m && CONSEQUENTIAL[m[0]]) total += s;
+  });
+  return known > 0 ? total / known : 0;
+}
+
+/* ============================================================
+   TRACKER RENDER
+   ============================================================ */
+function buildGates() {
+  var host = document.getElementById("gates");
+  // Rebuilt on ancestry change and on reset, so clear first — appending to a
+  // non-empty host would duplicate every card.
+  host.innerHTML = "";
+  GATES.forEach(function (g) {
+    var fs = document.createElement("fieldset");
+    fs.className = "gate";
+    fs.id = "gate-" + g.id;
+    var lg = document.createElement("legend");
+    lg.textContent = g.code;
+    fs.appendChild(lg);
+
+    var head = document.createElement("div");
+    head.className = "gate-head";
+    head.innerHTML = "<h4>" + g.name + '</h4><span class="gbadge ' + g.grade + '">等級 ' + g.grade + "</span>";
+    fs.appendChild(head);
+
+    var why = document.createElement("p");
+    why.className = "gate-why";
+    why.innerHTML = g.why;
+    fs.appendChild(why);
+
+    var top = document.createElement("p");
+    top.className = "gate-topics";
+    top.innerHTML = "關聯路徑：" + g.topics + " &nbsp;·&nbsp; <b>檢測方式：</b> " + g.assay;
+    fs.appendChild(top);
+
+    var opts = document.createElement("div");
+    opts.className = "opts";
+    g.vals.forEach(function (val) {
+      var lab = document.createElement("label");
+      var inp = document.createElement("input");
+      inp.type = "radio";
+      inp.name = "gate-" + g.id;
+      inp.value = val.v;
+      inp.setAttribute("data-gate", g.id);
+      if (state.gates[g.id] === val.v) inp.checked = true;
+      var sp = document.createElement("span");
+      var s = share(g, val.v);
+      sp.innerHTML = val.l + " <em>" + val.s + (s == null ? "" : " · 約 " + Math.round(s * 100) + "%") + "</em>";
+      sp.title = val.s + " — 約 " + (s == null ? "無檢驗群體估計值" : Math.round(s * 100) + "% 的" + POPS[state.pop]) + "。" + g.assay;
+      lab.appendChild(inp);
+      lab.appendChild(sp);
+      opts.appendChild(lab);
+    });
+    fs.appendChild(opts);
+    host.appendChild(fs);
+  });
+
+  if (host.dataset.bound) return; // delegated listener is already attached
+  host.dataset.bound = "1";
+  host.addEventListener("change", function (e) {
+    var id = e.target.getAttribute("data-gate");
+    if (!id) return;
+    state.gates[id] = e.target.value;
+    render();
+  });
+}
+
+function buildRx() {
+  var host = document.getElementById("rxList");
+  host.innerHTML = ""; // rebuilt on reset — clear first
+  THERAPIES.forEach(function (t) {
+    var lab = document.createElement("label");
+    var inp = document.createElement("input");
+    inp.type = "checkbox";
+    inp.value = t.id;
+    if (state.rx.indexOf(t.id) !== -1) inp.checked = true;
+    var sp = document.createElement("span");
+    sp.innerHTML = t.name + '<span class="dom">' + t.dom + " · 等級 " + t.grade + "</span>";
+    lab.appendChild(inp);
+    lab.appendChild(sp);
+    host.appendChild(lab);
+  });
+  if (host.dataset.bound) return;
+  host.dataset.bound = "1";
+  host.addEventListener("change", function (e) {
+    if (e.target.type !== "checkbox") return;
+    var id = e.target.value;
+    var i = state.rx.indexOf(id);
+    if (e.target.checked && i === -1) state.rx.push(id);
+    if (!e.target.checked && i !== -1) state.rx.splice(i, 1);
+    render();
+  });
+}
+
+function activeTherapies() {
+  return THERAPIES.filter(function (t) { return state.rx.indexOf(t.id) !== -1; });
+}
+
+function renderTally() {
+  var set = GATES.filter(function (g) { return state.gates[g.id]; });
+  document.getElementById("gateStat").innerHTML =
+    "已填列 <b>" + set.length + "</b> / " + GATES.length + " 項數值";
+  document.getElementById("popSel").value = state.pop;
+
+  var act = activeTherapies();
+  var counts = {};
+  act.forEach(function (t) { var s = outcome(t).sev; counts[s] = (counts[s] || 0) + 1; });
+  var resolved = act.filter(function (t) { return outcome(t).sev !== "unknown"; }).length;
+  var html = "已選 <b>" + act.length + "</b> 項介入措施" +
+             "，其中 <b>" + resolved + "</b> 項的分層數值已確立";
+  ["harm", "blind", "under", "miss", "benefit", "unknown", "neutral"].forEach(function (s) {
+    if (counts[s]) html += ' <span class="sev sev-' + s + '">' + counts[s] + " " + SEV[s].l + "</span>";
+  });
+  document.getElementById("tally").innerHTML = html;
+}
+
+function renderActions() {
+  var host = document.getElementById("actions");
+  var act = activeTherapies();
+  if (!act.length) {
+    host.innerHTML = '<p class="empty">尚未選取任何介入措施。請自上方選取，即可產生詮釋結果。</p>';
+    return;
+  }
+  var order = { harm: 0, under: 1, blind: 2, miss: 3, unknown: 4, benefit: 5, neutral: 6 };
+  act = act.slice().sort(function (a, b) { return order[outcome(a).sev] - order[outcome(b).sev]; });
+  host.innerHTML = act.map(function (t) {
+    var o = outcome(t);
+    var g = byId(t.gate);
+    return '<div class="action s-' + o.sev + '">' +
+      "<h4><span class=\"sev sev-" + o.sev + '">' + SEV[o.sev].l + "</span>" + t.name + "</h4>" +
+      "<p>" + o.txt + "</p>" +
+      '<p class="gate-ref">分層數值：' + (g ? g.name + " · " + g.code : t.gate) +
+      " · " + (state.gates[t.gate] ? gateLabel(g, state.gates[t.gate]) : "未填列") +
+      " · 證據等級 " + t.grade + "</p></div>";
+  }).join("");
+}
+
+function render() {
+  GATES.forEach(function (g) {
+    var fs = document.getElementById("gate-" + g.id);
+    if (fs) fs.classList.toggle("is-set", !!state.gates[g.id]);
+  });
+  renderTally();
+  renderActions();
+  drawCoverage();
+  drawMass();
+}
+
+/* ============================================================
+   FIGURE 2 — coverage meters (live)
+   ============================================================ */
+function drawCoverage() {
+  var W = 840, H = 224, host = document.getElementById("figCov");
+  var svg = svgRoot(host, W, H, "已選介入措施的分層數值涵蓋率");
+  var act = activeTherapies();
+  var resolved = act.filter(function (t) { return outcome(t).sev !== "unknown"; }).length;
+  var pct = act.length ? resolved / act.length : 0;
+  var gateSet = GATES.filter(function (g) { return state.gates[g.id]; }).length;
+
+  var bw = W - 300, x0 = 260, y = 34;
+  text(svg, x0, y - 12, "分層數值已確立的已選介入措施比例", { size: 12, weight: 600 });
+  el("rect", { x: x0, y: y, width: bw, height: 22, fill: "none", stroke: "var(--rule-strong)" }, svg);
+  el("rect", { x: x0, y: y, width: bw * pct, height: 22, fill: pct ? "var(--forest)" : "var(--rule)" }, svg);
+  text(svg, x0 - 12, y + 16, act.length ? resolved + " / " + act.length : "0 / 0", { size: 14, weight: 600, anchor: "end", mono: true });
+  text(svg, x0 + bw, y + 40, "占已選介入措施 " + Math.round(pct * 100) + "%", { size: 11, fill: "var(--mute)", anchor: "end" });
+
+  var counts = {};
+  act.forEach(function (t) { var s = outcome(t).sev; counts[s] = (counts[s] || 0) + 1; });
+  var keys = ["harm", "blind", "under", "miss", "benefit", "unknown", "neutral"].filter(function (s) { return counts[s]; });
+  text(svg, x0, y + 76, "依後果類別分布", { size: 12, weight: 600 });
+  if (!keys.length) {
+    text(svg, x0, y + 100, "尚未選取任何介入措施。", { size: 12, fill: "var(--mute)" });
+  } else {
+    var total = act.length || 1, cx = x0;
+    keys.forEach(function (s) {
+      var w = (counts[s] / total) * bw;
+      el("rect", { x: cx, y: y + 88, width: w, height: 20, fill: SEV[s].v, opacity: 0.85 }, svg);
+      if (w > 40) {
+        text(svg, cx + w / 2, y + 102, String(counts[s]), { size: 11, weight: 600, anchor: "middle", fill: "var(--sheet)" });
+      }
+      cx += w;
+    });
+    var lx = x0;
+    keys.forEach(function (s) {
+      el("rect", { x: lx, y: y + 126, width: 9, height: 9, fill: SEV[s].v }, svg);
+      text(svg, lx + 14, y + 134, counts[s] + " " + SEV[s].l, { size: 10.5, fill: "var(--mute)" });
+      lx += 24 + textW(counts[s] + " " + SEV[s].l, 10.5) + 14;
+    });
+  }
+
+  text(svg, x0, H - 14, "已填列 " + gateSet + " / " + GATES.length + " 項數值 · " + POPS[state.pop] + "參考頻率",
+    { size: 11, fill: "var(--faint)", mono: true });
+}
+
+/* ============================================================
+   FIGURE 3 — consequential proportion by intervention
+   ============================================================ */
+function drawMass() {
+  var rows = THERAPIES.map(function (t) { return { t: t, w: wrongSide(t) }; })
+    .sort(function (a, b) { return b.w - a.w; });
+  var rowH = 30, W = 840, H = 52 + rows.length * rowH + 34;
+  var host = document.getElementById("figMass");
+  var svg = svgRoot(host, W, H, "各介入措施的具後果比例");
+  var labelW = 320, barW = W - labelW - 110, x0 = labelW + 12;
+
+  [0, 0.25, 0.5, 0.75, 1].forEach(function (f) {
+    var x = x0 + barW * f;
+    el("line", { x1: x, y1: 38, x2: x, y2: 38 + rows.length * rowH, stroke: "var(--rule)", "stroke-width": 1 }, svg);
+    text(svg, x, 30, Math.round(f * 100) + "%", { size: 10, fill: "var(--faint)", anchor: "middle", mono: true });
+  });
+
+  rows.forEach(function (r, i) {
+    var y = 46 + i * rowH;
+    // Labels are measured and truncated to the gutter, so long CJK
+    // intervention names cannot run into the bars. The ellipsis counts
+    // toward the budget, hence measuring lbl + "…" rather than lbl.
+    var lbl = r.t.name;
+    while (lbl.length > 1 && textW(lbl + "…", 11) > labelW) lbl = lbl.slice(0, -1);
+    if (lbl !== r.t.name) lbl += "…";
+    text(svg, labelW, y + 13, lbl, { size: 11, anchor: "end" });
+    var g = byId(r.t.gate), cx = x0;
+    el("rect", { x: x0, y: y + 3, width: barW, height: 9, fill: "var(--rule)", opacity: 0.5 }, svg);
+    g.vals.forEach(function (val) {
+      var s = share(g, val.v);
+      if (s == null) return;
+      var w = s * barW;
+      var m = r.t.map[val.v] || r.t.map._default;
+      if (m && CONSEQUENTIAL[m[0]] && w > 0) {
+        var seg = el("rect", { x: cx, y: y, width: w, height: 15, fill: SEV[m[0]].v, opacity: 0.9 }, svg);
+        seg.setAttribute("data-tip", r.t.name + " — " + gateLabel(g, val.v) + "：" + SEV[m[0]].l + "（約占" + POPS[state.pop] + "的 " + Math.round(s * 100) + "%）。" + m[1]);
+        if (w > 44) text(svg, cx + w / 2, y + 11, Math.round(s * 100) + "%", { size: 9.5, anchor: "middle", fill: "var(--sheet)", weight: 600 });
+      }
+      cx += w;
+    });
+    text(svg, x0 + barW + 8, y + 12, Math.round(r.w * 100) + "%", { size: 10.5, mono: true, fill: "var(--mute)" });
+  });
+
+  var ly = 38 + rows.length * rowH + 22, lx = x0;
+  ["harm", "blind", "under", "miss"].forEach(function (s) {
+    el("rect", { x: lx, y: ly, width: 10, height: 10, fill: SEV[s].v }, svg);
+    text(svg, lx + 15, ly + 9, SEV[s].l, { size: 10.5, fill: "var(--mute)" });
+    lx += 26 + textW(SEV[s].l, 10.5) + 12;
+  });
+  text(svg, x0 + barW + 8, ly + 9, "合計", { size: 10, fill: "var(--faint)" });
+}
+
+/* ============================================================
+   FIGURE 1 — mechanism and the stratifying variable
+   ============================================================ */
+function drawGate() {
+  var W = 840, H = 320, host = document.getElementById("figGate");
+  var svg = svgRoot(host, W, H, "機轉推論與分層變數");
+  arrowHead(svg, "ahGate", "var(--rule-strong)");
+
+  function panel(x, title) {
+    el("rect", { x: x, y: 40, width: 350, height: 236, fill: "none", stroke: "var(--rule)" }, svg);
+    text(svg, x + 16, 64, title, { size: 11, weight: 600, fill: "var(--oxblood)", mono: true });
+  }
+  /* Accent on stroke + label, sheet fill — default-ink text on a saturated
+     fill fails contrast in light mode. */
+  function box(x, y, w, h, label, sub, accent) {
+    el("rect", { x: x, y: y, width: w, height: h, fill: "var(--sheet)", stroke: accent || "var(--rule-strong)", "stroke-width": accent ? 2 : 1 }, svg);
+    text(svg, x + w / 2, y + (sub ? h / 2 - 4 : h / 2 + 4), label, { size: 12.5, weight: 600, anchor: "middle", fill: accent || "var(--ink)" });
+    if (sub) text(svg, x + w / 2, y + h / 2 + 13, sub, { size: 10, anchor: "middle", fill: "var(--mute)" });
+  }
+  function arrow(x1, y1, x2, y2) {
+    el("line", { x1: x1, y1: y1, x2: x2, y2: y2, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahGate)" }, svg);
+  }
+
+  panel(24, "機轉 — 族群層次");
+  box(48, 92, 300, 46, "化合物", "例如多酚、senolytic、氧化還原試劑");
+  box(48, 168, 300, 46, "分子標的", "AMPK · SIRT3 · NQO1 · CYP3A5");
+  arrow(198, 138, 198, 166);
+  text(svg, 198, 244, "所有個體共用的單一預測結果", { size: 11, anchor: "middle", fill: "var(--mute)" });
+
+  panel(466, "個體 — 測量之後");
+  box(490, 80, 300, 40, "化合物", null);
+  box(490, 136, 300, 40, "個別數值", "rs4680 · UM-A/B/0 · 核型 · *1 對 *3");
+  box(490, 202, 88, 44, "不變", "預期效應", null);
+  box(590, 202, 88, 44, "消失", "無效應", "var(--gold)");
+  box(690, 202, 88, 44, "反向", "風險增加", "var(--oxblood)");
+  arrow(640, 120, 640, 134);
+  el("line", { x1: 640, y1: 176, x2: 534, y2: 200, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahGate)" }, svg);
+  el("line", { x1: 640, y1: 176, x2: 634, y2: 200, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahGate)" }, svg);
+  el("line", { x1: 640, y1: 176, x2: 734, y2: 200, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahGate)" }, svg);
+  text(svg, 640, 290, "未測量：三種結果皆可能", { size: 11, anchor: "middle", fill: "var(--mute)" });
+
+  el("line", { x1: 398, y1: 150, x2: 442, y2: 150, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahGate)" }, svg);
+  text(svg, 420, 138, "單一", { size: 10, anchor: "middle", fill: "var(--faint)" });
+  text(svg, 420, 170, "數值", { size: 10, anchor: "middle", fill: "var(--faint)" });
+  text(svg, W / 2, 26, "機轉界定了化合物；個體數值決定結果，且該數值可在曝露前測得。",
+    { size: 12.5, anchor: "middle", weight: 600 });
+}
+
+/* ============================================================
+   FIGURE 4 — urolithin metabotype
+   ============================================================ */
+function drawUro() {
+  var W = 840, H = 430, host = document.getElementById("figUro");
+  var svg = svgRoot(host, W, H, "尿石素代謝型");
+  var x0 = 40, bw = W - 80;
+
+  text(svg, x0, 34, "標準化鞣花酸負荷（石榴／核桃／草莓）", { size: 12, weight: 600 });
+  var segs = [
+    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → 尿石素 A，即已發表試驗所用的代謝物。飲食途徑有效。" },
+    { w: .10, f: "var(--gold)", t: "UM-B · 10%", d: "Ellagibacter／Enterocloster → 異尿石素 A。此為不同化合物，其藥理學特性大多尚未描述。" },
+    { w: .50, f: "var(--oxblood)", t: "UM-0 · 50%", d: "未偵測到尿石素。飲食性鞣花酸在任何劑量或依從性下皆無效。" }
+  ];
+  var cx = x0;
+  segs.forEach(function (s) {
+    var w = s.w * bw;
+    var r = el("rect", { x: cx, y: 44, width: w, height: 40, fill: s.f, opacity: 0.9 }, svg);
+    r.setAttribute("data-tip", s.d);
+    if (w > 70) text(svg, cx + w / 2, 69, s.t, { size: 12, anchor: "middle", fill: "var(--sheet)", weight: 600 });
+    cx += w;
+  });
+  wrapText(svg, x0, 106, "在參考族群中，約 60% 攝取富含鞣花酸製劑的個體不產生尿石素，約 10% 產生的是具有不同藥理特性另一種代謝物。", bw, 11);
+
+  text(svg, x0, 160, "直接給予尿石素 A", { size: 12, weight: 600 });
+  var r2 = el("rect", { x: x0, y: 170, width: bw, height: 40, fill: "var(--slate)", opacity: 0.9 }, svg);
+  r2.setAttribute("data-tip", "轉換步驟被繞過，因此給藥不依賴個體的菌叢。這是約 60% 不產生尿石素者所適用的途徑。");
+  text(svg, x0 + bw / 2, 195, "適用於所有代謝型 — 轉換步驟被繞過", { size: 12, anchor: "middle", fill: "var(--sheet)", weight: 600 });
+
+  text(svg, x0, 244, "已報告的盛行率數值", { size: 12, weight: 600 });
+  var yU = 266;
+  [
+    "在標準化石榴挑戰後，約 40% 產生者被轉換（N=100）— 此為挑戰試驗所得的盛行率。",
+    "同一批 100 人美國檢驗群體中，基期可偵測尿石素 A 葡萄糖醛酸苷者為 12% — 此為空腹測定，攝取量較低當日的產生者會被歸類為非產生者。",
+    "第三批檢驗群體中非產生者約 10%。血清值反映的是前一餐，表現型則需以挑戰試驗確認。"
+  ].forEach(function (t) {
+    el("circle", { cx: x0 + 4, cy: yU - 3, r: 2.5, fill: "var(--mute)" }, svg);
+    yU += wrapText(svg, x0 + 14, yU, t, bw - 14, 10.5) + 6;
+  });
+}
+
+/* ============================================================
+   FIGURE 5 — COMT forest plot
+   ============================================================ */
+function drawComt() {
+  var W = 840, host = document.getElementById("figComt");
+  var x0 = 250, bw = 400, lo = 0.6, hi = 1.45;
+  // Vertical rhythm: 32px row pitch against 12px labels. Footer height is
+  // derived from the wrapped line count so the note cannot clip itself.
+  var PITCH = 32, ROW0 = 70, PLOT_TOP = 52, PLOT_BOT = 216;
+  var BULLETS = [
+    "於兩項獨立隨機對照試驗重複驗證（WGHS、ATBC）。",
+    "三種基因型間呈單調的基因劑量梯度。",
+    "效應在 400 IU/日以下即已存在，該門檻並不具保護作用。"
+  ];
+  var BULLET_PITCH = 22, FOOT_TOP = 310;
+  var H = FOOT_TOP + BULLETS.reduce(function (a, t) { return a + nLines(t, bw + 20, 10.5) * BULLET_PITCH + 8; }, 0);
+  var svg = svgRoot(host, W, H, "依 COMT 基因型劃分的癌症危害比");
+  function X(v) { return x0 + ((v - lo) / (hi - lo)) * bw; }
+
+  text(svg, W / 2, 32, "癌症發生 — α-生育酚組，危害比（95% CI）", { size: 13, anchor: "middle", weight: 600 });
+  [0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4].forEach(function (t) {
+    el("line", { x1: X(t), y1: PLOT_TOP, x2: X(t), y2: PLOT_BOT, stroke: t === 1 ? "var(--oxblood)" : "var(--rule)", "stroke-width": t === 1 ? 1.6 : 1, "stroke-dasharray": t === 1 ? "4 3" : null }, svg);
+    text(svg, X(t), PLOT_BOT + 24, t.toFixed(1), { size: 11, anchor: "middle", fill: t === 1 ? "var(--oxblood)" : "var(--faint)", mono: true });
+  });
+  // sits on the tick row, left of the first tick, so it cannot run off the canvas
+  text(svg, 2, PLOT_BOT + 24, "1.0 右側為風險增加", { size: 10.5, fill: "var(--oxblood)" });
+
+  var rows = [
+    { l: "Val/Val（快）— 補充組", hr: 1.18, lo: 1.06, hi: 1.31, c: "var(--oxblood)", t: "HR 1.18（1.06–1.31）。占歐洲族群約 29%、漢族約 52%。在 50 IU/日與 600 IU 隔日兩種劑量下均可見關聯，即低於 400 IU/日門檻。" },
+    { l: "Val/Met（中間）", hr: 1.00, lo: 0.94, hi: 1.07, c: "var(--mute)", t: "在合併的基因劑量分析中無顯著交互作用。" },
+    { l: "Met/Met（慢）", hr: 0.88, lo: 0.82, hi: 0.95, c: "var(--forest)", t: "HR 0.88，降幅約 12%。Aspirin 的心血管保護亦集中於此族群。" },
+    { l: "每個 Val 等位基因，補充組", hr: 1.11, lo: 1.05, hi: 1.18, c: "var(--oxblood)", t: "基因劑量關係：補充組 1.11，對照組 0.95，P interaction < .001。" },
+    { l: "姊妹 SNP rs4818 G/G", hr: 1.29, lo: 1.14, hi: 1.46, c: "var(--oxblood)", t: "在 COMT 第二個位點上有一致結果。" }
+  ];
+  rows.forEach(function (r, i) {
+    var y = ROW0 + i * PITCH;
+    text(svg, x0 - 14, y + 4, r.l, { size: 12, anchor: "end" });
+    var g = el("g", null, svg);
+    g.setAttribute("data-tip", r.l + " — " + r.t);
+    el("line", { x1: X(r.lo), y1: y, x2: X(r.hi), y2: y, stroke: r.c, "stroke-width": 2 }, g);
+    el("line", { x1: X(r.lo), y1: y - 5.5, x2: X(r.lo), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
+    el("line", { x1: X(r.hi), y1: y - 5.5, x2: X(r.hi), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
+    el("rect", { x: X(r.hr) - 5.5, y: y - 5.5, width: 11, height: 11, fill: r.c }, g);
+    text(svg, X(r.hi) + 14, y + 4, r.hr.toFixed(2), { size: 11, mono: true, fill: "var(--mute)" });
+  });
+
+  el("rect", { x: x0 - 8, y: 264, width: bw + 16, height: 1, fill: "var(--rule)" }, svg);
+  text(svg, x0, 288, "等級 A 的判定依據", { size: 12.5, weight: 600 });
+  var yTop = FOOT_TOP;
+  BULLETS.forEach(function (t) {
+    el("circle", { cx: x0 - 2, cy: yTop - 3, r: 2.5, fill: "var(--mute)" }, svg);
+    yTop += wrapText(svg, x0 + 8, yTop, t, bw + 20, 10.5) + 8;
+  });
+}
+
+/* ============================================================
+   FIGURE 6 — quinone metabolic routes
+   ============================================================ */
+function drawNqo1() {
+  var W = 840, H = 400, host = document.getElementById("figNqo1");
+  var svg = svgRoot(host, W, H, "依 NQO1 狀態劃分的醌類代謝");
+  arrowHead(svg, "ahQ", "var(--rule-strong)");
+
+  /* Accent is carried by the stroke and the label, not by a saturated fill:
+     dark text on --forest/--oxblood fails contrast in light mode, and light
+     text on those fills fails in dark mode. Sheet fill + accent text works in
+     both. */
+  function box(x, y, w, h, label, sub, accent) {
+    el("rect", { x: x, y: y, width: w, height: h, fill: "var(--sheet)", stroke: accent, "stroke-width": 2 }, svg);
+    text(svg, x + w / 2, y + (sub ? h / 2 - 5 : h / 2 + 4), label, { size: 12.5, weight: 600, anchor: "middle", fill: accent });
+    if (sub) text(svg, x + w / 2, y + h / 2 + 12, sub, { size: 10, anchor: "middle", fill: "var(--mute)" });
+  }
+  function arrow(x1, y1, x2, y2) {
+    el("line", { x1: x1, y1: y1, x2: x2, y2: y2, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahQ)" }, svg);
+  }
+
+  text(svg, W / 2, 26, "同一醌類的兩條代謝途徑，由單一胺基酸替換（Pro187Ser）決定", { size: 12.5, anchor: "middle", weight: 600 });
+  box(W / 2 - 95, 44, 190, 44, "醌類受質", "腎上腺素紅／醌類", "var(--slate)");
+
+  // upper path
+  arrow(W / 2, 88, W / 2, 108);
+  text(svg, W / 2 - 10, 102, "NQO1 存在", { size: 10, anchor: "end", fill: "var(--forest)", mono: true });
+  box(70, 112, 320, 44, "二電子還原", "NQO1 + NADPH", "var(--forest)");
+  arrow(390, 134, 470, 134);
+  box(470, 112, 300, 44, "穩定氫醌", "可去毒化，訊號可終止", "var(--forest)");
+  text(svg, 70, 178, "C/C 與 C/T：兩者皆可進行二電子還原，C/T 的活性約低三倍。",
+    { size: 10.5, fill: "var(--mute)" });
+  text(svg, 70, 196, "氧化還原訊號可依設計給予並終止。", { size: 11, fill: "var(--ink-soft)" });
+
+  // lower path
+  arrow(W / 2, 88, W / 2, 216);
+  text(svg, W / 2 + 10, 162, "NQO1 缺失", { size: 10, fill: "var(--oxblood)", mono: true });
+  box(70, 216, 320, 44, "一電子還原", "改由 CYP450／b5 還原酶", "var(--oxblood)");
+  arrow(390, 238, 470, 238);
+  box(470, 216, 300, 44, "半醌自由基", "氧化還原循環 → 超氧陰離子", "var(--oxblood)");
+  text(svg, 70, 282, "T/T：功能上缺失，在唾液、骨髓、肺上皮與內皮中均無可偵測的 NQO1 蛋白。",
+    { size: 10.5, fill: "var(--mute)" });
+  text(svg, 70, 300, "產生氧化還原循環與超氧陰離子，而非給予訊號。", { size: 11, fill: "var(--ink-soft)" });
+
+  el("rect", { x: 70, y: 318, width: 700, height: 1, fill: "var(--rule)" }, svg);
+  wrapText(svg, 70, 340, "意涵：以 methylene blue 或 carbazochrome 為訊號給予者、並以 aminoguanidine 為終止者的方案，預設了受質清除能力，而此能力在約 3% 的歐洲族群與 17% 的東亞族群中並不存在。此為適應與否的決定因子，而非劑量因素。", 700, 10.5);
+}
+
+/* ============================================================
+   FIGURE 7 — sirolimus exposure by CYP3A5
+   ============================================================ */
+function drawRap() {
+  var W = 840, host = document.getElementById("figRap");
+  var x0 = 70, x1 = 760, yTop = 56, yBot = 248;
+  // Trace labels moved out of the plot into a legend: at 0–20 ng/mL the
+  // inline labels collided with the target band and with the curve tails.
+  var LEGEND = [
+    { c: "var(--forest)", dash: null, l: "CYP3A5 非表現型", s: "給藥間隔的大部分時間位於標的範圍內 — 歐洲族群約 79%" },
+    { c: "var(--slate)", dash: "6 3", l: "CYP3A5 *1 表現型", s: "大部分時間低於標的範圍 — 歐洲族群 20%、非洲族群 65%" },
+    { c: "var(--oxblood)", dash: "2 3", l: "FKBP1A 失功能", s: "任何劑量下谷濃度皆不進入標的範圍" }
+  ];
+  var NOTES = [
+    "表現型者並非對 rapamycin 具有藥理學抗藥性；其未達到充分曝露。歸類為無反應者，是將藥物動力學的發現歸因於機轉。",
+    "若未測量谷濃度與 p70S6K1 Thr389 抑制量，無反應的分類仍屬於關於曝露的假設，而非對曝露的測量。",
+    "FKBP12 失功能所致的無反應無法以劑量校正，且可藉定序而非試驗加以辨識。"
+  ];
+  var LEG0 = yBot + 54, LEG_PITCH = 36, NOTE0 = LEG0 + LEGEND.length * LEG_PITCH + 20;
+  var H = NOTE0 + 12 + NOTES.reduce(function (a, t) { return a + nLines("— " + t, x1 - x0, 10.5) * 20 + 4; }, 0);
+  var svg = svgRoot(host, W, H, "固定每週劑量下依 CYP3A5 狀態劃分的 sirolimus 谷濃度");
+  function X(d) { return x0 + (d / 7) * (x1 - x0); }
+  function Y(v) { return yBot - (v / 20) * (yBot - yTop); }
+
+  text(svg, x0, 34, "固定每週劑量下的全血 sirolimus 谷濃度（ng/mL）", { size: 13, weight: 600 });
+  [0, 5, 10, 15, 20].forEach(function (v) {
+    el("line", { x1: x0, y1: Y(v), x2: x1, y2: Y(v), stroke: "var(--rule)" }, svg);
+    text(svg, x0 - 10, Y(v) + 4, String(v), { size: 11, anchor: "end", fill: "var(--faint)", mono: true });
+  });
+  [0, 1, 2, 3, 4, 5, 6, 7].forEach(function (d) {
+    text(svg, X(d), yBot + 24, "第 " + d + " 天", { size: 11, anchor: "middle", fill: "var(--faint)" });
+  });
+
+  // target band
+  var bandTop = Y(15), bandBot = Y(9);
+  el("rect", { x: x0, y: bandTop, width: x1 - x0, height: bandBot - bandTop, fill: "var(--forest)", opacity: 0.14 }, svg);
+  text(svg, x1, bandTop - 10, "與標的結合相關的曝露範圍", { size: 11, anchor: "end", fill: "var(--forest)" });
+
+  function trace(peak, decay, color, dash) {
+    var d = "M " + X(0) + " " + Y(1.5);
+    for (var day = 0; day <= 7; day += 0.1) {
+      d += " L " + X(day) + " " + Y(peak * Math.exp(-decay * day) + 1.2);
+    }
+    el("path", { d: d, fill: "none", stroke: color, "stroke-width": 2.4, "stroke-dasharray": dash }, svg);
+  }
+  trace(16.5, 2.6, "var(--forest)", null);
+  trace(9.5, 3.3, "var(--slate)", "6 3");
+  el("line", { x1: x0, y1: Y(0.6), x2: x1, y2: Y(0.6), stroke: "var(--oxblood)", "stroke-width": 2.4, "stroke-dasharray": "2 3" }, svg);
+  el("line", { x1: x0, y1: Y(1), x2: x1, y2: Y(1), stroke: "var(--oxblood)", "stroke-dasharray": "3 3" }, svg);
+
+  LEGEND.forEach(function (g, i) {
+    var y = LEG0 + i * LEG_PITCH;
+    el("line", { x1: x0, y1: y, x2: x0 + 26, y2: y, stroke: g.c, "stroke-width": 2.4, "stroke-dasharray": g.dash }, svg);
+    text(svg, x0 + 36, y + 4, g.l, { size: 12, weight: 600, fill: g.c });
+    text(svg, x0 + 36, y + 21, g.s, { size: 10.5, fill: "var(--mute)" });
+  });
+  text(svg, x0, NOTE0, "1 ng/mL 谷濃度下限：Mannick 2 mg 每週檢驗群體中有 22% 低於此值。",
+    { size: 10.5, fill: "var(--oxblood)" });
+
+  var yR = NOTE0 + 36;
+  text(svg, x0, yR - 24, "詮釋", { size: 12.5, weight: 600 });
+  NOTES.forEach(function (t) {
+    yR += wrapText(svg, x0, yR, "— " + t, x1 - x0, 10.5);
+  });
+}
+
+/* ============================================================
+   WIRE UP
+   ============================================================ */
+function buildGapTable() {
+  var rows = THERAPIES.map(function (t) { return { t: t, w: wrongSide(t) }; })
+    .sort(function (a, b) { return b.w - a.w; });
+  var body = document.querySelector("#gapTable tbody");
+  body.innerHTML = rows.map(function (r) {
+    var g = byId(r.t.gate);
+    var worst = "unknown", worstShare = -1;
+    g.vals.forEach(function (val) {
+      var s = share(g, val.v);
+      if (s == null || !CONSEQUENTIAL[(r.t.map[val.v] || r.t.map._default || [])[0]]) return;
+      if (s > worstShare) { worstShare = s; worst = (r.t.map[val.v] || r.t.map._default)[0]; }
+    });
+    if (worstShare < 0) { worst = "unknown"; }
+    return "<tr><td>" + r.t.name + '<br><span class="tbl-note">' + r.t.dom + "</span></td>" +
+      "<td>" + g.name + '<br><span class="tbl-note">' + g.code + "</span></td>" +
+      '<td class="num">' + Math.round(r.w * 100) + "%</td>" +
+      '<td><span class="sev sev-' + worst + '">' + SEV[worst].l + '</span><br><span class="tbl-note">' +
+      (worst === "unknown" ? "例行臨床尚無經驗證的檢測方式" : "最大單一類別：" + Math.round(worstShare * 100) + "%") +
+      "</span></td>" +
+      '<td><span class="gbadge ' + r.t.grade + '">' + r.t.grade + "</span></td></tr>";
+  }).join("");
+}
+
+function exportProfile() {
+  var out = {
+    generated: new Date().toISOString(),
+    population: POPS[state.pop],
+    gates: {},
+    therapies: {}
+  };
+  GATES.forEach(function (g) { if (state.gates[g.id]) out.gates[g.name] = gateLabel(g, state.gates[g.id]); });
+  activeTherapies().forEach(function (t) {
+    var o = outcome(t);
+    out.therapies[t.name] = { consequence: SEV[o.sev].l, detail: o.txt, gate: byId(t.gate).name, value: state.gates[t.gate] || "未填列", grade: t.grade };
+  });
+  var blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "biomarker-gate-profile.json";
+  a.click();
+  setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+}
+
+document.getElementById("popSel").addEventListener("change", function (e) {
+  state.pop = e.target.value;
+  buildGates();
+  render();
+});
+document.getElementById("exportBtn").addEventListener("click", exportProfile);
+document.getElementById("resetBtn").addEventListener("click", function () {
+  state.gates = {};
+  buildGates();
+  render();
+});
+document.getElementById("clearRxBtn").addEventListener("click", function () {
+  state.rx = [];
+  buildRx();
+  render();
+});
+
+buildGates();
+buildRx();
+buildGapTable();
+drawGate();
+drawUro();
+drawComt();
+drawNqo1();
+drawRap();
+render();
+T2.initNav();
+T2.initTooltip();
+T2.initLightbox();
+T2.initNavScrollHint();
+</script>
+
+<script src="../themes/theme-02/pages-svg.js"></script>
+<script src="../themes/theme-01/context-tooltip.js"></script>
+
+</body>
+</html>

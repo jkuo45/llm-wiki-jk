@@ -650,5 +650,23 @@
         },
         "created": "2026-09-23",
         "updated": "2026-09-23"
+    },
+    {
+        "id": "hard-coded-biomarker-gates",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Individual Biomarker Gates (hard-coded)",
+                "description": "Discrete, largely immutable individual values (COMT rs4680, urolithin metabotype, NQO1 C609T, CYP3A5, HFE C282Y, APOE e4, MC1R, karyotype) that determine treatment response, with a profile tool, a gate-by-intervention consequence table, population exposure estimates, and a minimum assay panel.",
+                "path": "pages/en-US/hard-coded-biomarker-gates.html"
+            },
+            "zh-TW": {
+                "title": "個體生物標記關卡（硬編碼）",
+                "description": "決定治療反應的離散、大致不可變的個體數值（COMT rs4680、尿石素代謝型、NQO1 C609T、CYP3A5、HFE C282Y、APOE ε4、MC1R、核型）。含可記錄已測數值與現行治療的個人檔案工具、各介入措施的後果對照表、族群曝露比例估計，以及最低檢測組合。",
+                "path": "pages/zh-TW/hard-coded-biomarker-gates.html"
+            }
+        },
+        "created": "2026-09-26",
+        "updated": "2026-09-26"
     }
 ]
