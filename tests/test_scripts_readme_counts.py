@@ -196,6 +196,8 @@ class TestBuildWebTasks:
         assert "kind" not in foo
         assert set(foo["langs"]) == {"en-US", "zh-TW"}
         assert foo["starred"] is True
+        # Group-level card stats from the en source ("body" -> 1 word).
+        assert foo["stats"] == {"words": 1, "images": 0, "links": 0, "diagrams": 0}
         en = foo["langs"]["en-US"]
         assert en["title"] == "Foo Task"
         assert en["created"] == "2026-01-01"
@@ -221,6 +223,30 @@ class TestBuildWebTasks:
         assert not stale.exists()
         assert (args.web_tasks_dir / "en-US" / "foo.md").exists()
         assert (args.web_tasks_dir / "zh-TW" / "foo_zh-TW.md").exists()
+
+    def test_github_source_baked_when_repo_configured(self, tmp_path, monkeypatch):
+        # Relative task paths (as the real scan produces) + repo/branch on
+        # args -> per-lang github blob URL; absolute tmp paths elsewhere stay
+        # link-less (github_blob returns "" outside the repo).
+        monkeypatch.chdir(tmp_path)
+        args = argparse.Namespace(
+            tasks_dir=Path("tasks"),
+            web_tasks_dir=Path("web_tasks"),
+            web_data_dir=Path("web_data"),
+            repo_url="https://github.com/acme/wiki",
+            branch="dev",
+        )
+        args.tasks_dir.mkdir()
+        (args.tasks_dir / "foo.md").write_text(
+            "---\ntitle: T\n---\nbody\n", encoding="utf-8")
+        dt = datetime(2026, 2, 1, tzinfo=timezone.utc)
+        rc.build_web_tasks(
+            [{"datetime": dt, "path": "tasks/foo.md", "words": 1}], args)
+
+        doc = json.loads((args.web_data_dir / "tasks.json").read_text())
+        foo = next(g for g in doc["tasks"] if g["id"] == "foo")
+        assert foo["langs"]["en-US"]["github"] == (
+            "https://github.com/acme/wiki/blob/dev/tasks/foo.md")
 
 
 # ----------------------------------------------------------------------

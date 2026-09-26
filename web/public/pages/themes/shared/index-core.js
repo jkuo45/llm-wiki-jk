@@ -164,6 +164,51 @@ window.IndexCore = (function () {
     return out ? '<span class="stat-chips">' + out + "</span>" : "";
   }
 
+  /* Tag pills for expanded index cards: en-first union deduped (en/zh
+     tag sets are near-identical), boilerplate 'task-output' dropped, first
+     5 shown, rest collapsed into a +N marker. Each pill is a button that
+     wireTagPills toggles as the search filter; `active` (current query)
+     paints the pressed state. Empty when nothing survives. */
+  function tagPills(tags, active) {
+    if (!Array.isArray(tags) || !tags.length) return "";
+    var seen = {}, shown = [], total = 0;
+    tags.forEach(function (raw) {
+      var t = asStr(raw).trim();
+      if (!t || t.toLowerCase() === "task-output") return;
+      var key = t.toLowerCase();
+      if (seen[key]) return;
+      seen[key] = 1;
+      total++;
+      if (shown.length < 5) shown.push(t);
+    });
+    if (!total) return "";
+    var html = shown.map(function (t) {
+      var on = active === t;
+      return '<button type="button" class="tag-pill' + (on ? " on" : "") + '" data-tag="' + esc(t) +
+        '" title="' + (on ? "Clear filter / 清除篩選" : "Filter by " + esc(t) + " / 篩選") + '">' +
+        esc(t) + "</button>";
+    }).join("");
+    if (total > shown.length) {
+      html += '<span class="tag-pill more">+' + (total - shown.length) + "</span>";
+    }
+    return '<span class="tag-row">' + html + "</span>";
+  }
+
+  /* Delegated click: a pill sets the search query and re-renders; clicking
+     the same pill again clears it (mirrors the clear button — focus the box
+     either way so typing can refine). One listener per list; pills live in
+     the same container the page already delegates other clicks from. */
+  function wireTagPills(list, searchBox, render) {
+    list.addEventListener("click", function (e) {
+      var btn = e.target.closest ? e.target.closest("button[data-tag]") : null;
+      if (!btn || !list.contains(btn)) return;
+      var tag = btn.getAttribute("data-tag") || "";
+      searchBox.value = searchBox.value.trim() === tag ? "" : tag;
+      render();
+      searchBox.focus();
+    });
+  }
+
   function restoreQuery(box, key) {
     try { box.value = sessionStorage.getItem(key) || ""; } catch (e) { /* storage unavailable */ }
   }
@@ -205,6 +250,8 @@ window.IndexCore = (function () {
     wireSort: wireSort,
     wireDescLang: wireDescLang,
     statChips: statChips,
+    tagPills: tagPills,
+    wireTagPills: wireTagPills,
     restoreQuery: restoreQuery,
     persistQuery: persistQuery,
     wireSearch: wireSearch,

@@ -71,6 +71,39 @@
 }
 .meta-sep { color: var(--rule); }
 
+/* Tag pills (expanded cards): click sets the search filter (index-core
+   wireTagPills). Outline pill in theme-02 badge geometry but sentence-case
+   mono — kebab slugs stay readable; distinct from the icon .stat chips.
+   Hidden alongside descriptions by the pages' .no-desc toggle. */
+.no-desc .tag-row { display: none; }
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 10px;
+}
+.tag-pill {
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--mute);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 1px 7px;
+  cursor: pointer;
+}
+.tag-pill:hover,
+.tag-pill.on {
+  color: var(--oxblood);
+  border-color: var(--oxblood);
+}
+.tag-pill.more {
+  color: var(--faint);
+  border-style: dashed;
+  cursor: default;
+}
+
 /* Freshness badge mirrors the reader's updated chip buckets */
 .fresh { color: #15803d; }
 .recent { color: #b45309; }

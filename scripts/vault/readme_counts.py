@@ -286,9 +286,18 @@ def build_web_tasks(task_data, args):
             rel = os.path.relpath(t["path"], args.tasks_dir)
             dest_rel = os.path.join(lang, rel)
         entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
+        # Card filename links to the source file in the repo (dev branch).
+        gh = github_blob(args, t["path"])
+        if gh:
+            entry["github"] = gh
         group = groups.setdefault(
             stem, {"id": stem, "langs": {}}
         )
+        # Group-level card stats: en-US wins (source path under src/tasks or
+        # the web copy order below), zh only fills the gap — zh-only groups
+        # never render anyway (the index requires langs['en-US']).
+        if lang == "en-US" or "stats" not in group:
+            group["stats"] = content_stats(t["path"])
         if lang not in group["langs"]:
             group["langs"][lang] = entry
         # `starred` is a group-level flag (like `active`): any language

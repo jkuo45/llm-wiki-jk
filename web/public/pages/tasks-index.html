@@ -27,12 +27,28 @@
 .task-title a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
 .task-title a:hover { color: var(--oxblood); }
 .task-card { position: relative; }
-/* Page-specific: zh subtitle + meta rows (star badge comes from index.css) */
+/* Page-specific: zh subtitle + meta rows (star + stat chips come from index.css) */
 .task-zh { font-size: .95rem; color: var(--ink-soft); margin: 0 0 10px; }
 .task-zh a { color: var(--mute); text-decoration: none; border-bottom: 1px solid var(--rule); }
 .task-zh a:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
-.task-meta { font-family: var(--mono); font-size: 12px; color: var(--faint); margin: 0 0 4px; }
+.task-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--faint);
+  margin: 0 0 4px;
+  /* Reserve room for the absolutely-positioned corner chips (index.css
+     .stat-chips) so long filenames/dates never run under them. */
+  padding-right: 160px;
+}
 .task-meta:last-child { margin-bottom: 0; }
+/* Filename chip links to the source document on GitHub (baked into
+   tasks.json by readme-counts); keeps the meta-row color, accents on hover. */
+.task-meta a { color: inherit; text-decoration: none; }
+.task-meta a:hover { color: var(--oxblood); }
 /* Descriptions are hidden by default (compact card list); the toggle in the
    search row flips this class on. Search still matches desc text either way. */
 .no-desc .task-desc { display: none; }
@@ -42,7 +58,11 @@
 .desc-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
 /* Sort toggle (index-core wireSort): accented when reversed (oldest first) */
 .sort-toggle[aria-pressed="true"] { color: var(--oxblood); border-color: var(--oxblood); }
-@media (max-width: 640px) { .task-card { padding: 14px 14px 12px; } }
+@media (max-width: 640px) {
+  .task-card { padding: 14px 14px 12px; }
+  /* Chips fall back to the meta row below 640px — no corner reservation. */
+  .task-meta { padding-right: 0; }
+}
 </style>
 <link rel="stylesheet" href="themes/theme-02/dark.css">
 </head>
@@ -67,7 +87,7 @@
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
-    restoreQuery, persistQuery, wireSearch } = window.IndexCore;
+    restoreQuery, persistQuery, wireSearch, statChips, tagPills, wireTagPills } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('taskIndex');
   const emptyNote = document.getElementById('emptyNote');
@@ -87,8 +107,10 @@
 
   function matches(t, tokens){
     if (!tokens.length) return true;
-    /* Search both language descriptions regardless of the shown one. */
-    const hay = [t.display, t.zhTitle, t.descEn, t.descZh, t.id, t.file].join('\n').toLowerCase();
+    /* Search both language descriptions regardless of the shown one.
+       Tags join the haystack so pill-filtered queries (and raw tag text)
+       match even though pills only render in expanded view. */
+    const hay = [t.display, t.zhTitle, t.descEn, t.descZh, t.id, t.file, t.tags.join(' ')].join('\n').toLowerCase();
     return tokens.every(tok => hay.includes(tok));
   }
 
@@ -137,10 +159,16 @@
         const isNew = toTime(created) >= toTime(updated);
         const key = taskIdOf(t);
         const starred = dbStarred(t, key);
+        /* en-first tag union: en/zh sets are near-identical (111/121);
+           the union covers the few zh-only stragglers. */
+        const tagSet = [...new Set([...(en.tags || []), ...(zh?.tags || [])])];
         return {
           id: t.id,
           display: asStr(en.title),
           starred,
+          stats: t.stats,
+          tags: tagSet,
+          github: asStr(en.github || ''),
           descEn: asStr(en.description || ''),
           descZh: zh ? asStr(zh.description || '') : '',
           enPath: en.path,
@@ -187,12 +215,13 @@
                   `<span class="bucket-count">${group.length}</span></h2><ul class="task-list">`;
           html += group.map(t => `
             <li class="task-card card">
-              <span class="star-badge ${t.starred ? 'on' : 'off'}" title="${t.starred ? 'Starred' : ''}">${t.starred ? '★' : '☆'}</span>
               <p class="task-title"><a href="${esc(viewerHref(t.enPath))}" data-task-id="${esc(t.id)}">${highlight(t.display, tokens)}</a></p>
               ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="task-desc">${highlight(t.desc, tokens)}</p>` : ''}
-              <p class="task-meta"><code>${esc(t.file)}</code></p>
-              <p class="task-meta"><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`}</span></p>
+              ${tagPills(t.tags, searchBox.value.trim())}
+              <p class="task-meta">${t.github
+                ? `<a class="task-file" href="${esc(t.github)}" target="_blank" rel="noopener" title="View source on GitHub / 原始檔"><code>${esc(t.file)}</code></a>`
+                : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}<span class="meta-sep"> · </span><span class="${cls}">${!t.latest ? 'date unknown' : t.age === 'today' ? `${t.verb} today` : `${t.verb} ${esc(t.age)} ago`}</span>${statChips(t.stats)}</p>
             </li>`).join('');
           html += '</ul>';
         });
@@ -209,8 +238,11 @@
       if (!tasks.length) emptyNote.textContent = 'No active task outputs found.';
 
       /* Debounced re-render on input; the query survives navigation via
-         sessionStorage so returning from an article keeps the filter. */
+         sessionStorage so returning from a task keeps the filter. */
       wireSearch(searchBox, searchClear, SEARCH_KEY, render);
+
+      /* Tag pills (expanded view) set the search filter on click. */
+      wireTagPills(list, searchBox, render);
 
       descToggle.addEventListener('click', () => {
         showDesc = !showDesc;
