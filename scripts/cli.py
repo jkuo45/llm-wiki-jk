@@ -38,7 +38,6 @@ COMMANDS: dict[str, tuple[str, str]] = {
     "thumbnail": ("scripts.tools.thumbnail", "Generate note-page thumbnails"),
     "pdf-to-md": ("scripts.tools.pdf_to_md", "Parse a PDF to Markdown (Obsidian-friendly)"),
     "sort-manifest-tags": ("scripts.tools.sort_manifest_tags", "Sort src/images/manifest.json tags by relevance"),
-    "check-page-links": ("scripts.tools.page_links", "Audit/normalize outbound links in web pages (--check | --fix)"),
 }
 
 

@@ -66,7 +66,7 @@ offset by +1000).
   pmc.ncbi.nlm.nih.gov, …) refuse to load — the click silently does nothing.
   Same-origin `graph.johnnykuo.com` links stay untargeted: those are in-reader
   navigation reconciled by `matchFrameArticle()` in `web/components/reader.js`.
-  Enforced by `python -m scripts check-page-links --check`.
+  Enforced by `tests/test_web_page_links.py`.
 
 ---
 
@@ -245,9 +245,6 @@ uv run --with networkx python3 -m scripts build-combined
 uv run --with networkx python3 -m scripts analyze-nodes --graph wiki-out/graph.json --sources sirt1 --targets mtorc1
 uv run --with networkx python3 -m scripts predict-links --graph graphify-out/graph.json
 uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.json --role Spreader --top 10
-
-# Audit outbound links in web pages (lint; --fix rewrites, --strict adds rel)
-uv run python3 -m scripts check-page-links --check
 
 # GitHub repo / branch for generated links: read from repo .env
 # (GITHUB_REPO_URL, GITHUB_BRANCH). Both are required — readme-counts raises if
