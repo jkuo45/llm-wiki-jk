@@ -583,7 +583,6 @@ body {
 .notes-card .fig-label { color: var(--teal); }
 .notes-card-title { color: var(--ink-hi); }
 .notes-card .fig-label .fig-label-date { color: var(--ink-4); }
-.notes-star { color: #5b6172; }
 .notes-star.on { color: #E0A800; }
 .notes-card .caption { color: var(--ink-4); }
 .notes-card .context { color: var(--ink-4); border-top-color: var(--line); }

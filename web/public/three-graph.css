@@ -1750,11 +1750,11 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   color: #7c7c94; font-weight: 600; letter-spacing: 0.8px; text-transform: none;
   white-space: nowrap; flex-shrink: 0;
 }
-/* Display-only star badge (mirrors the articles/tasks ★/☆ treatment).
-   pointer-events:none so it never steals the card's click (opens lightbox). */
+/* Display-only inline star: rendered only on starred cards (mirrors the
+   reader index-card ★ treatment). pointer-events:none so it never steals
+   the card's click (opens lightbox). */
 .notes-star { font-size: 11px; line-height: 1; margin-right: 5px; flex-shrink: 0; pointer-events: none; }
 .notes-star.on { color: #FFC83D; }
-.notes-star.off { color: #5b6172; }
 .notes-card-title {
   color: #e8eef7; font-size: 14px; font-weight: 600; line-height: 1.35; margin: 0;
   /* Long titles (with trailing filenames, em-dash compounds, etc.) must wrap
