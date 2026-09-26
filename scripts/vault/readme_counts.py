@@ -68,6 +68,26 @@ MERMAID_FENCE_RE = re.compile(r"^```mermaid[ \t]*\r?$", re.MULTILINE)
 MERMAID_DIV_RE = re.compile(r"<div[^>]*class=[\"'][^\"']*mermaid")
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 LATIN_WORD_RE = re.compile(r"[A-Za-z0-9]+")
+# HTML card stats: script/style carry huge irrelevant token counts (three.js
+# pages especially), so they go before tag stripping.
+HTML_SCRIPT_RE = re.compile(
+    r"<(?:script|style)[^>]*>.*?</(?:script|style)>", re.DOTALL | re.IGNORECASE
+)
+HTML_TAG_RE = re.compile(r"<[^>]+>")
+HTML_IMG_RE = re.compile(r"<img\b", re.IGNORECASE)
+HTML_LINK_RE = re.compile(r"<a\b[^>]*href\s*=", re.IGNORECASE)
+MERMAID_CLASS_RE = re.compile(r"class=[\"'][^\"]*mermaid", re.IGNORECASE)
+
+
+def _word_count(text):
+    """Raw word count shared by md/html stats: latin tokens + CJK chars."""
+    return len(CJK_RE.findall(text)) + len(
+        LATIN_WORD_RE.findall(CJK_RE.sub(" ", text))
+    )
+
+
+def _stats(words, images, links, diagrams):
+    return {"words": words, "images": images, "links": links, "diagrams": diagrams}
 
 
 def content_stats(filepath):
@@ -75,23 +95,70 @@ def content_stats(filepath):
 
     Raw word count = latin tokens + CJK characters (frontmatter stripped);
     images/links counted with image syntax removed first so an image never
-    leaks into the links total; diagrams = ```mermaid fences + <div
-    class="mermaid"> blocks. Missing files return zeros.
+    leaks into the links total. HTML embedded in markdown (`<figure><img>`,
+    `<a href>` — how task exports embed photos) counts alongside the md
+    syntax. diagrams = ```mermaid fences + <div class="mermaid"> blocks.
+    Missing files return zeros.
     """
-    zero = {"words": 0, "images": 0, "links": 0, "diagrams": 0}
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             text = f.read()
     except OSError:
-        return zero
+        return _stats(0, 0, 0, 0)
     text = FRONTMATTER_RE.sub("", text, count=1)
-    images = len(MD_IMAGE_RE.findall(text))
-    links = len(MD_LINK_RE.findall(MD_IMAGE_RE.sub("", text)))
+    images = len(MD_IMAGE_RE.findall(text)) + len(HTML_IMG_RE.findall(text))
+    links = (len(MD_LINK_RE.findall(MD_IMAGE_RE.sub("", text)))
+             + len(HTML_LINK_RE.findall(text)))
     diagrams = len(MERMAID_FENCE_RE.findall(text)) + len(MERMAID_DIV_RE.findall(text))
-    words = len(CJK_RE.findall(text)) + len(
-        LATIN_WORD_RE.findall(CJK_RE.sub(" ", text))
-    )
-    return {"words": words, "images": images, "links": links, "diagrams": diagrams}
+    return _stats(_word_count(text), images, links, diagrams)
+
+
+def html_content_stats(filepath):
+    """Same card stats for one static HTML article page: <img> images,
+    <a href> links, class=...mermaid diagrams, words from visible text
+    (script/style stripped first, then remaining tags). Missing = zeros.
+    """
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return _stats(0, 0, 0, 0)
+    text = HTML_SCRIPT_RE.sub(" ", text)
+    images = len(HTML_IMG_RE.findall(text))
+    links = len(HTML_LINK_RE.findall(text))
+    diagrams = len(MERMAID_CLASS_RE.findall(text))
+    words = _word_count(HTML_TAG_RE.sub(" ", text))
+    return _stats(words, images, links, diagrams)
+
+
+def build_articles_stats(args):
+    """Emit web/public/data/articles-stats.json keyed by article id —
+    per-card stats from the HTML pages listed in the hand-maintained
+    articles.json registry (registry itself stays hand-edited). EN page
+    wins, zh-TW fills the gap; articles without a readable page are skipped.
+    """
+    reg_path = os.path.join(args.web_data_dir, "articles.json")
+    try:
+        with open(reg_path, "r", encoding="utf-8") as f:
+            registry = json.load(f)
+    except (OSError, ValueError) as e:
+        print(f"Warning: could not read {reg_path}: {e}")
+        return
+    public_dir = os.path.dirname(os.path.abspath(args.web_data_dir))
+    stats = {}
+    for a in registry:
+        langs = a.get("langs") or {}
+        page = ((langs.get("en-US") or {}).get("path")
+                or (langs.get("zh-TW") or {}).get("path") or "")
+        if not page or not a.get("id"):
+            continue
+        stats[a["id"]] = html_content_stats(os.path.join(public_dir, page))
+    out_path = os.path.join(args.web_data_dir, "articles-stats.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"generated": get_timestamp(), "stats": stats}, f,
+                  ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"Wrote {out_path} ({len(stats)} articles)")
 
 
 MARKER_RE = re.compile(
@@ -967,6 +1034,8 @@ def main():
         # Wiki feed: top --wiki-limit entity notes -> wiki.json + en-US copies.
         # zh-TW joins via web/public/wiki/zh-TW (hand-maintained, like tasks).
         build_web_wiki(scan_notes_for_web(notes_dir), args, repo_root)
+        # Article card stats sidecar (articles.json stays hand-maintained).
+        build_articles_stats(args)
 
     # Prepare new content
     new_timestamp = get_timestamp()

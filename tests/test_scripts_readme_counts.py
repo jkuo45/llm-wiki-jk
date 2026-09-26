@@ -61,6 +61,72 @@ class TestContentStats:
             "words": 0, "images": 0, "links": 0, "diagrams": 0,
         }
 
+    def test_counts_html_embeds_in_markdown(self, tmp_path):
+        # Task exports embed photos as <figure><img> and captions as
+        # <a href> — both must count alongside md ![](…) / [[…]] syntax.
+        f = tmp_path / "note.md"
+        f.write_text(
+            "---\ntitle: X\n---\n"
+            '<figure><img src="a.jpg" alt="x"></figure>\n'
+            'Caption in <a href="https://example.com">Commons</a> — see '
+            "![](b.png) and [[Alpha]].\n",
+            encoding="utf-8",
+        )
+        s = rc.content_stats(f)
+        assert s["images"] == 2   # <img> + ![]()
+        assert s["links"] == 2    # <a href> + [[Alpha]] (image stripped first)
+
+
+class TestHtmlContentStats:
+    def test_strips_script_style_and_counts(self, tmp_path):
+        f = tmp_path / "a.html"
+        f.write_text(
+            "<html><script>const js = 'ignore me one two three';</script>"
+            "<style>.x{color:red}</style>"
+            "<p>One two <img src='i.png'> 中文測試</p>"
+            "<a href='#x'>link</a>"
+            "<div class='mermaid'>graph</div></html>",
+            encoding="utf-8",
+        )
+        s = rc.html_content_stats(f)
+        assert s == {
+            # script/style + tags stripped: One two link graph + 4 CJK chars
+            "words": 8, "images": 1, "links": 1, "diagrams": 1,
+        }
+
+    def test_missing_file_returns_zeros(self, tmp_path):
+        assert rc.html_content_stats(tmp_path / "nope.html") == {
+            "words": 0, "images": 0, "links": 0, "diagrams": 0,
+        }
+
+
+class TestBuildArticlesStats:
+    def test_sidecar_keyed_by_id_en_path_wins(self, tmp_path):
+        args = argparse.Namespace(web_data_dir=tmp_path / "data")
+        args.web_data_dir.mkdir()
+        (args.web_data_dir / "articles.json").write_text(json.dumps([
+            {"id": "a1", "langs": {"en-US": {"path": "pages/en-US/a1.html"}}},
+            {"id": "a2", "langs": {"zh-TW": {"path": "pages/zh-TW/a2.html"}}},
+            {"id": "a3", "langs": {}},
+        ]), encoding="utf-8")
+        (tmp_path / "pages" / "en-US").mkdir(parents=True)
+        (tmp_path / "pages" / "en-US" / "a1.html").write_text(
+            "<p>hi <img src=x></p>", encoding="utf-8")
+        (tmp_path / "pages" / "zh-TW").mkdir(parents=True)
+        (tmp_path / "pages" / "zh-TW" / "a2.html").write_text(
+            "<a href='#'>l</a>", encoding="utf-8")
+
+        rc.build_articles_stats(args)
+
+        doc = json.loads((args.web_data_dir / "articles-stats.json").read_text())
+        assert set(doc["stats"]) == {"a1", "a2"}  # a3 skipped: no path
+        assert doc["stats"]["a1"] == {
+            "words": 1, "images": 1, "links": 0, "diagrams": 0,
+        }
+        assert doc["stats"]["a2"] == {
+            "words": 1, "images": 0, "links": 1, "diagrams": 0,
+        }
+
 
 # ----------------------------------------------------------------------
 # Marker sections

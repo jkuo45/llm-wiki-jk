@@ -49,7 +49,7 @@
 
 .article-title a:hover { color: var(--oxblood); }
 
-/* Page-specific: zh subtitle + meta rows (star badge comes from index.css) */
+/* Page-specific: zh subtitle + meta rows (star + stat chips come from index.css) */
 
 .article-zh {
   font-size: 0.95rem;
@@ -69,6 +69,10 @@
 }
 
 .article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
   font-family: var(--mono);
   font-size: 12px;
   color: var(--faint);
@@ -117,7 +121,7 @@
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
-    restoreQuery, persistQuery, wireSearch } = window.IndexCore;
+    restoreQuery, persistQuery, wireSearch, statChips } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
   const SEARCH_KEY = 'articles-index-search';
@@ -157,8 +161,12 @@
     FLAGS_OVERLAY_ENABLED
       ? fetch(FLAGS_API).then(r => r.json()).catch(() => null)
       : Promise.resolve(null),
+    /* Generated card stats sidecar (readme-counts); missing/failed fetch
+       degrades to chip-less cards. */
+    fetch('../data/articles-stats.json').then(r => r.json()).catch(() => null),
   ])
-  .then(([data, flagData]) => {
+  .then(([data, flagData, statData]) => {
+    const statMap = (statData && statData.stats) || {};
     const dbFlags = (flagData && flagData.flags && flagData.flags.article) || {};
     const dbStarred = (a) => {
       const f = dbFlags[a.id];
@@ -189,6 +197,7 @@
           _idx: ai,
           display: asStr(en.title),
           starred,
+          stats: statMap[a.id] || null,
           weight,
           zhTitle: zh ? asStr(zh.title) : '',
           descEn: asStr(en.description || ''),
@@ -235,12 +244,11 @@
                   `<span class="bucket-count">${group.length}</span></h2><ul class="article-list">`;
           html += group.map((a) => `
             <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}${a.weight > 0 ? ' is-index' : ''}">
-              <span class="star-badge ${a.starred ? 'on' : 'off'}" title="${a.starred ? 'Starred' : ''}">${a.starred ? '★' : '☆'}</span>
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
               <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
               ${a.desc ? `<p class="article-desc">${highlight(a.desc, tokens)}</p>` : ''}
-              <p class="article-meta"><span class="badge fill">${esc(a.id)}</span></p>
-              <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`}</span></p>
+              <p class="article-meta"><span class="badge fill">${esc(a.id)}</span>${a.starred ? '<span class="card-star" title="Starred">★</span>' : ''}</p>
+              <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`}</span>${statChips(a.stats)}</p>
             </li>`).join('');
           html += '</ul>';
         });

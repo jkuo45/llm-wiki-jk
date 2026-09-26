@@ -16,20 +16,8 @@
   vertical-align: middle; margin-left: 8px;
 }
 
-/* Star badge: gray outline when not starred, filled accent when starred */
-.star-badge {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
-  font-size: 1rem;
-  line-height: 1;
-  pointer-events: none;
-}
-.star-badge.on { color: #d4a017; }
-.star-badge.off { color: var(--rule); -webkit-text-stroke: 0.5px var(--faint); }
-
-/* Inline star (wiki-index pilot): rendered only on starred cards, tucked
-   after the filename chip in the meta row. */
+/* Inline star: rendered only on starred cards, tucked after the filename
+   chip in the first meta row. */
 .card-star {
   color: #d4a017;
   font-size: .8rem;
