@@ -64,7 +64,11 @@ The ranking reproduced in cell-free liposomal autoxidation and by [[C11-BODIPY]]
 ## Key Regulators
 - **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase at the plasma membrane; uses NADPH to regenerate ubiquinol, a GPX4-independent radical trap), [[DHODH]], [[Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
 - **Positive regulators**: [[ACSL4]] (acyl-CoA synthetase that enriches membranes with oxidizable PUFAs), [[Acid ceramidase]] (ASAH1; cleaves [[Ceramide|ceramide]] to free fatty acids that feed membrane [[PUFA|PUFA]] incorporation—a GPX4/GSH/iron-independent sensitization axis in [[Senescent Cells|senescence]]), [[LPCAT3]] (remodels membrane phospholipids), [[NOX]] family NADPH oxidases, mitochondrial electron transport chain
-- **Iron regulators**: [[Transferrin receptor 1|TFR1]] (iron uptake), [[Ferritin]] (iron storage), [[NCOA4]] (ferritinophagy cargo receptor), [[HO-1]] (heme degradation liberating iron)
+- **Iron regulators**: [[Transferrin receptor 1|TFR1]] (iron uptake), [[Ferritin]] (iron storage), [[NCOA4]] (ferritinophagy cargo receptor), [[HO-1]] (heme degradation liberating iron), [[HFE]] (systemic iron absorption; C282Y homozygosity raises the labile pool from ~the third decade and is a Mendelian, pre-existing ferroptosis threshold shift)
+
+> [!warning] The iron substrate is sometimes genetic, not dietary
+> Every ferroptosis protocol in this vault is reasoned as though labile iron is a dietary or inflammatory variable. For a **C282Y/C282Y [[HFE]]** homozygote it is neither: the duodenal iron valve is constitutively open because hepcidin output is inappropriately low, so the labile pool is enlarged lifelong. Two consequences follow that no antioxidant tier can address. (a) **The individual's ferroptosis threshold is lower** — a given lipid peroxide pressure, or a given GPX4 impairment, kills sooner. (b) A redox or chelation-free protocol is treating a symptom while the upstream driver persists, and the established treatment is phlebotomy (transferrin saturation >45% with ferritin >300 male/postmenopausal, >200 premenopausal). See [[HFE]] and [[task_output_hardcoded_individual_biomarker_gates_26_Sep_2026]].
+
 ## Detection & Biomarkers
 - Loss of [[GPX4]] or [[System Xc⁻]] (SLC7A11) expression
 - Accumulation of lipid hydroperoxides ([[C11-BODIPY]] 581/591 oxidation by flow cytometry)
@@ -127,6 +131,7 @@ List of documents that mention this entity
 - [[ALOX15]] — Arachidonate lipoxygenase downstream of the [[p53]]–SAT1 axis that amplifies lipid peroxidation
 - [[SAT1]] — Polyamine-catabolism enzyme, p53 transcriptional target, engages [[ALOX15]] to drive ferroptosis
 - [[Iron]] — Redox-active Fe²⁺ fuels the [[Fenton Reaction]] that propagates lipid radical chain reactions
+- [[HFE]] — Systemic controller of iron absorption; C282Y homozygosity is a Mendelian, lifelong enlargement of the labile iron pool and therefore a pre-existing shift in the ferroptosis threshold. Untreated in a redox protocol that only addresses the antioxidant brake ([[GPX4]]) or the substrate ([[ACSL4]])
 - [[Transferrin]] — Iron-delivery protein; endocytosis via [[Transferrin receptor 1]] supplies labile iron for ferroptosis
 - [[Sorafenib]] — HCC therapy whose ferroptosis induction is enabled by [[Retinoblastoma|Rb]] loss
 - [[Artesunate]] — Anti-malarial that activates ferroptosis in pancreatic, ovarian, and HNC models
@@ -147,5 +152,6 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc-]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]], [[C11-BODIPY]], [[Adrenochrome]], [[Acid ceramidase]], [[Ceramide]], [[Sphingosine]], [[Sphingomyelin]], [[Phospholipid]], [[PUFA]], [[IL-6]], [[IL-8]], [[SASP]], [[Senescent Cells]], [[SLC7A11]], [[Erastin]], [[SAT1]], [[ALOX15]], [[Transferrin]], [[Ferroportin]], [[DMT1]], [[STEAP3]], [[Sorafenib]], [[Artesunate]], [[Mitotane]], [[Apoptosis-Inducing Factor]], [[Mevalonate pathway]], [[Phosphatidylethanolamine]], [[CISD1]], [[NFS1]], [[Clear cell renal cell carcinoma]], [[Head and neck cancer]], [[Adrenocortical carcinomas]], [[Pancreatic Cancer]], [[Ovarian Cancer]], [[Gastric Cancer]], [[Colorectal Cancer]], [[Lung Cancer]], [[Stroke]], [[Traumatic Brain Injury]], [[Ubiquinone]], [[NADPH]], [[task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026]]
   - Strong connections to strengthen: [[Ferroptosis]] ↔ Lipid Peroxidation, [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ Fenton Reaction, [[Ferroptosis]] ↔ Ferritin, [[Ferroptosis]] ↔ [[Adrenochrome]] (dual mechanism hypothesis)
+  - HFE enrichment (2026-09-26): added [[HFE]] to Key Regulators and Connections — the iron substrate is sometimes Mendelian rather than dietary. New links: [[HFE]].
   - Sex-dimorphism enrichment (2026-09-03): hormone-gated MBOAT1/2 remodeling (Cell 2023), Gpx4-KO kidney NRF2 resilience (Ide 2022), cardiac estradiol/SmgGDS and doxorubicin protection, testosterone renal context (Park 2004). New links: [[MBOAT1]], [[MBOAT2]], [[NRF2]].
 

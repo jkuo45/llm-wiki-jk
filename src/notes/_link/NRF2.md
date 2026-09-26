@@ -19,7 +19,10 @@ aliases:
 
 Nuclear factor erythroid 2-related factor 2 (Nrf2) is a cap'n'collar basic leucine zipper (CNC-bZIP) transcription factor that serves as the master regulator of cellular antioxidant and detoxification defenses. Under basal conditions Nrf2 is sequestered in the cytosol by its inhibitor [[Keap1]] (Kelch-like ECH-associated protein 1), a substrate adaptor of a Cullin-3 E3 ubiquitin ligase that continuously targets Nrf2 for proteasomal degradation. Electrophilic and oxidative insults modify cysteine residues on [[Keap1]], disrupting the Keap1–Cul3 interaction and stabilizing Nrf2, which then translocates to the nucleus, heterodimerizes with small Maf proteins, and binds antioxidant response elements (ARE/EpRE) in the promoters of target genes.
 
-Nrf2 drives expression of a broad program including glutathione biosynthetic enzymes (GCLC, GSH reductase), thioredoxin and peroxiredoxin systems, heme oxygenase-1 (HO-1), NAD(P)H:quinone oxidoreductase 1 (NQO1), and phase II detoxifying enzymes. It therefore sits at the apex of endogenous protection against [[ROS]] and [[Oxidative Stress]].
+Nrf2 drives expression of a broad program including glutathione biosynthetic enzymes (GCLC, GSH reductase), thioredoxin and peroxiredoxin systems, heme oxygenase-1 (HO-1), [[NQO1]] (NAD(P)H:quinone oxidoreductase 1), and phase II detoxifying enzymes. It therefore sits at the apex of endogenous protection against [[ROS]] and [[Oxidative Stress]].
+
+> [!important] Inducers cannot rescue a null genotype
+> [[NQO1]] is one of the most inducible ARE targets, so NRF2 activation raises it substantially in most people. **The exception matters for redox dosing:** the NQO1\*2 C609T (rs1800566) T/T genotype is functionally enzyme-null because of protein instability, not inadequate transcription, and NRF2 activation cannot restore activity. In that individual, pharmacological induction of the NRF2 program is a *partial* substitute at best — the one arm of the antioxidant program responsible for obligate two-electron quinone reduction is absent regardless of how far NRF2 is driven. Any protocol that reasons "induce NRF2 to raise NQO1" needs the genotype first. See [[NQO1]] and [[task_output_hardcoded_individual_biomarker_gates_26_Sep_2026]].
 
 > [!info] Nrf2 is a central effector of mitohormesis and xenohormesis — mild mitochondrial reactive oxygen species or phytochemical exposure triggers a hormetic adaptive response that is largely Nrf2-dependent.
 
@@ -55,5 +58,6 @@ Nrf2 intersects with longevity pathways. It is co-activated by many [[Sirtuins]]
 ## Linking Summary
 
   - New links added: [[Nrf2]], [[Keap1]], [[Mitochondria]], [[Oxidative Stress]], [[ROS]], [[Autophagy]]
+  - Added 2026-09-26: reciprocal [[NQO1]] link + callout — NRF2 induction cannot rescue the NQO1*2 C609T null genotype, because the defect is protein instability rather than inadequate transcription. New links: [[NQO1]], [[task_output_hardcoded_individual_biomarker_gates_26_Sep_2026]].
   - Suggested new entity notes to create: [[ARE Element]], [[Heme Oxygenase-1]], [[Small Maf]]
   - Strong connections to strengthen: [[Nrf2]] ↔ [[Sirtuins]]; [[Nrf2]] ↔ [[Keap1]]
