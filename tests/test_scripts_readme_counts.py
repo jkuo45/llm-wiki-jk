@@ -117,6 +117,37 @@ class TestHtmlContentStats:
         s = rc.html_content_stats(f)
         assert s["diagrams"] == 3   # svg role=img + canvas + mermaid div
 
+    def test_counts_runtime_drawn_figure_hosts_once(self, tmp_path):
+        # Two ways a figure reaches the page, and they must not double count.
+        # (a) host filled at runtime: an empty .fig-canvas div, nothing inline.
+        # (b) host containing an inline <svg role="img">: already counted by
+        #     SVG_DIAG_RE, so the host must NOT add a second count.
+        f = tmp_path / "c.html"
+        f.write_text(
+            "<div class='fig-canvas fig-svg' id='figA'></div>"
+            "<div class='fig-canvas fig-svg' id='figB'></div>"
+            "<div class='copy-host fig-canvas' id='figC'>"
+            "<svg viewBox='0 0 900 400' role='img' aria-label='inline'></svg>"
+            "</div>"
+            # a populated div that is not a figure host must not count
+            "<div class='callout'>prose</div>",
+            encoding="utf-8",
+        )
+        s = rc.html_content_stats(f)
+        # figA + figB (empty hosts) + figC (inline role=img) = 3, not 4
+        assert s["diagrams"] == 3
+
+    def test_figure_host_inside_script_is_not_counted(self, tmp_path):
+        # Script bodies are stripped before counting, so JS that merely
+        # mentions a host-shaped tag can't inflate the diagram total.
+        f = tmp_path / "d.html"
+        f.write_text(
+            "<script>var t = \"<div class='fig-canvas'></div>\";</script>"
+            "<div class='fig-canvas' id='real'></div>",
+            encoding="utf-8",
+        )
+        assert rc.html_content_stats(f)["diagrams"] == 1
+
 
 class TestBuildArticlesStats:
     def test_sidecar_keyed_by_id_en_path_wins(self, tmp_path):

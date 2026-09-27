@@ -84,6 +84,18 @@ SVG_DIAG_RE = re.compile(r"<svg\b[^>]*\brole\s*=\s*[\"']img[\"']", re.IGNORECASE
 # <canvas> tag; counted after script stripping, so JS-created canvases
 # (createElement('canvas')) don't match.
 HTML_CANVAS_RE = re.compile(r"<canvas\b", re.IGNORECASE)
+# Figures drawn at runtime: the page ships an empty
+# <div class="fig-canvas" id="..."></div> host and JS fills it via
+# svgRoot()/canvas. There is nothing inline to match, so these were
+# invisible to the counter. Requiring the host to be *empty* is what keeps
+# the rule additive: on pages that inline their <svg role="img"> inside the
+# host, the host has children and does not match, so the figure is still
+# counted exactly once by SVG_DIAG_RE. Matched after script stripping, so a
+# string literal in JS that looks like a host tag cannot inflate the total.
+FIG_HOST_RE = re.compile(
+    r"<div\b[^>]*class=[\"'][^\"']*\bfig-canvas\b[^\"']*[\"'][^>]*>\s*</div>",
+    re.IGNORECASE,
+)
 
 
 def _word_count(text):
@@ -124,7 +136,8 @@ def html_content_stats(filepath):
     """Same card stats for one static HTML article page: <img> images,
     <a href> links, diagrams = class=...mermaid blocks + inline <svg
     role="img"> figures + <canvas> scenes (three.js / 2-D canvas figures;
-    UI icon SVGs excluded), words from visible text (script/style stripped
+    UI icon SVGs excluded) + empty <div class="fig-canvas"> hosts that JS
+    fills at runtime, words from visible text (script/style stripped
     first, then remaining tags). Missing = zeros.
     """
     try:
@@ -137,7 +150,8 @@ def html_content_stats(filepath):
     links = len(HTML_LINK_RE.findall(text))
     diagrams = (len(MERMAID_CLASS_RE.findall(text))
                 + len(SVG_DIAG_RE.findall(text))
-                + len(HTML_CANVAS_RE.findall(text)))
+                + len(HTML_CANVAS_RE.findall(text))
+                + len(FIG_HOST_RE.findall(text)))
     words = _word_count(HTML_TAG_RE.sub(" ", text))
     return _stats(words, images, links, diagrams)
 
