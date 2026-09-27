@@ -28,20 +28,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "dad7f52d6f5a",
-    "subject": "Acid Ceramidase",
-    "predicate": "sensitizes_cells_to",
-    "object": "Ferroptosis",
-    "context": {
-      "en-US": "ACase overexpression creates a pro-ferroptotic membrane lipid profile independent of GPX4/GSH and iron axes, sensitizing senescent cells to ferroptotic death.",
-      "zh-TW": "ACase 過度表現產生一種不依賴 GPX4/GSH 與鐵軸的促鐵蛋白死亡（ferroptotic）膜脂質輪廓，使衰老細胞對鐵蛋白死亡敏感。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
-    "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "0fdd3023e32f",
     "subject": "Acid Ceramidase",
     "predicate": "is_overexpressed_in",
@@ -509,13 +495,13 @@
     "predicate": "stimulates",
     "object": "DRP1",
     "context": {
-      "en-US": "Cardiolipin stimulates DRP1 GTPase activity for fission AND is required for OPA1-mediated fusion — it has dual pro-fusion and pro-fission roles depending on context.",
-      "zh-TW": "Cardiolipin 刺激 DRP1 的 GTPase 活性以進行使分裂，同時也是 OPA1 介導融合所必需的——依情境不同，它具有促融合與促分裂的雙重角色。"
+      "en-US": "Cardiolipin stimulates DRP1 GTPase activity for fission AND is required for OPA1-mediated fusion — it has dual pro-fusion and pro-fission roles depending on context. A conserved WRG motif in the DRP1 variable domain intercalates into the bilayer and binds cardiolipin specifically, driving a disorder-to-order transition that relieves autoinhibition and stabilizes assembled DRP1. Because cardiolipin is externalized to the outer membrane only under stress, the interaction gates stress-induced hyperfragmentation while leaving housekeeping fission largely intact.",
+      "zh-TW": "Cardiolipin 刺激 DRP1 的 GTPase 活性以進行使分裂，同時也是 OPA1 介導融合所必需的——依情境不同，它具有促融合與促分裂的雙重角色。 DRP1 可變區中的保守 WRG 模序會插入雙層並專一結合 cardiolipin，促使無序到有序的轉換而解除自動抑制，並穩定已組裝的 DRP1。由於 cardiolipin 僅在壓力下才被外翻到外膜，此交互作用便把壓力誘發的過度碎裂設閘，而家務性分裂大致不受影響。"
     },
     "confidence": 0.85,
     "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "019b47f415f8",
@@ -635,13 +621,13 @@
     "predicate": "consumes",
     "object": "NAD+",
     "context": {
-      "en-US": "CD38 is the primary enzymatic consumer of NAD+ in mammalian tissues during aging. Chronic inflammaging causes CD38 upregulation on neutrophils and macrophages, starving sirtuins.",
-      "zh-TW": "CD38 是哺乳動物組織在老化過程中主要的 NAD+ 酵素消耗者。慢性發炎性老化造成嗜中性球與巨噬細胞上 CD38 上調，使 sirtuin 飢餓。"
+      "en-US": "CD38 is the primary enzymatic consumer of NAD+ in mammalian tissues during aging. Chronic inflammaging causes CD38 upregulation on neutrophils and macrophages, starving sirtuins. CD38 is an NADase whose activity rises with age and drives age-related NAD+ decline, with the loss expressed through reduced SIRT3 activity rather than by directly inhibiting the enzyme. Because the effect is on substrate availability, CD38 inhibitors such as 78c or apigenin raise NAD+ and thereby SIRT3 flux without ever binding SIRT3 itself.",
+      "zh-TW": "CD38 是哺乳動物組織在老化過程中主要的 NAD+ 酵素消耗者。慢性發炎性老化造成嗜中性球與巨噬細胞上 CD38 上調，使 sirtuin 飢餓。 CD38 是一種 NADase，其活性隨年齡上升並推動年齡相關的 NAD+ 下降，而這個影響是透過 SIRT3 活性降低來表現，而非直接抑制該酵素。由於作用點在受質可利用性，CD38 抑制劑如 78c 或 apigenin 可提高 NAD+，進而提高 SIRT3 的通量，全程都不需與 SIRT3 結合。"
     },
     "confidence": 0.95,
     "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "86ce1113b929",
@@ -719,27 +705,13 @@
     "predicate": "is_direct_metabolic_hub_for",
     "object": "Dopamine",
     "context": {
-      "en-US": "Graph node-analysis (networkx/scipy, 15 Aug 2026): COMT sits 1 hop from both Dopamine and Epinephrine with the highest Adamic-Adar latent pull (0.51–0.72) and #3 personalized-PageRank rank for both — the direct enzymatic gateway/hub of catecholamine handling, versus MAO which is peripheral.",
-      "zh-TW": "圖譜節點分析（networkx/scipy，2026-08-15）：COMT 距 Dopamine 與 Epinephrine 皆 1 跳，具最高的 Adamic-Adar 潛在連結拉力（0.51–0.72）與兩者皆 #3 的個人化 PageRank 排名——是兒茶酚胺處理的直接酵素樞紐/閘門，相對於周邊的 MAO。"
+      "en-US": "Graph node-analysis (networkx/scipy, 15 Aug 2026): COMT sits 1 hop from both Dopamine and Epinephrine with the highest Adamic-Adar latent pull (0.51–0.72) and #3 personalized-PageRank rank for both — the direct enzymatic gateway/hub of catecholamine handling, versus MAO which is peripheral. Graph node-analysis (combined sirtuin/catecholamine drill): COMT is the actual enzymatic gateway to Dopamine (1-hop adjacency, #3 PageRank seed at Dopamine, highest Adamic-Adar), while the sirtuins' dopamine relevance is an aging/neurodegeneration-context phenomenon.",
+      "zh-TW": "圖譜節點分析（networkx/scipy，2026-08-15）：COMT 距 Dopamine 與 Epinephrine 皆 1 跳，具最高的 Adamic-Adar 潛在連結拉力（0.51–0.72）與兩者皆 #3 的個人化 PageRank 排名——是兒茶酚胺處理的直接酵素樞紐/閘門，相對於周邊的 MAO。 圖譜節點分析（sirtuin/兒茶酚胺合併演練）：COMT 是通往 Dopamine 的真正酵素閘門（1 跳相鄰、Dopamine 種子 #3 PageRank、最高 Adamic-Adar），而 sirtuins 的多巴胺相關性是老化/神經退化脈絡現象。"
     },
     "confidence": 0.4,
     "source_document": "task_output_node_comt_mao_15_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "39eb9bbce724",
-    "subject": "COMT",
-    "predicate": "is_direct_metabolic_gateway_to",
-    "object": "Dopamine",
-    "context": {
-      "en-US": "Graph node-analysis (combined sirtuin/catecholamine drill): COMT is the actual enzymatic gateway to Dopamine (1-hop adjacency, #3 PageRank seed at Dopamine, highest Adamic-Adar), while the sirtuins' dopamine relevance is an aging/neurodegeneration-context phenomenon.",
-      "zh-TW": "圖譜節點分析（sirtuin/兒茶酚胺合併演練）：COMT 是通往 Dopamine 的真正酵素閘門（1 跳相鄰、Dopamine 種子 #3 PageRank、最高 Adamic-Adar），而 sirtuins 的多巴胺相關性是老化/神經退化脈絡現象。"
-    },
-    "confidence": 0.4,
-    "source_document": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-    "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "1333bd33247a",
@@ -1013,13 +985,13 @@
     "predicate": "inhibits",
     "object": "COMT",
     "context": {
-      "en-US": "Fisetin is a mixed-type COMT inhibitor with IC50 2.6-5.8 µM. It is also a COMT substrate — itself O-methylated to geraldol — making inhibition concentration-dependent and genotype-sensitive.",
-      "zh-TW": "Fisetin 是一種混合型 COMT 抑制劑，IC50 為 2.6–5.8 µM。它也是 COMT 受質——本身被 O-甲基化為 geraldol——使得抑制呈濃度依賴且對基因型敏感。"
+      "en-US": "Fisetin is a mixed-type COMT inhibitor with IC50 2.6-5.8 µM. It is also a COMT substrate — itself O-methylated to geraldol — making inhibition concentration-dependent and genotype-sensitive. COMT O-methylates fisetin to geraldol (Poor 2016), consuming SAMe to SAH. This reverse-direction edge complements the established fisetin-inhibits-COMT triple.",
+      "zh-TW": "Fisetin 是一種混合型 COMT 抑制劑，IC50 為 2.6–5.8 µM。它也是 COMT 受質——本身被 O-甲基化為 geraldol——使得抑制呈濃度依賴且對基因型敏感。 COMT 將 fisetin O-甲基化為 geraldol（Poor 2016），消耗 SAMe 生成 SAH。此反向邊補充已確立的 fisetin 抑制 COMT triple。"
     },
     "confidence": 0.95,
     "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "fdeb50e5eff9",
@@ -1181,13 +1153,13 @@
     "predicate": "protects_against",
     "object": "Ferroptosis",
     "context": {
-      "en-US": "GPX4 is the canonical GSH-dependent brake on ferroptosis, reducing phospholipid hydroperoxides to harmless alcohols; its inhibition (RSL3, GSH depletion) unleashes iron-dependent lipid peroxidation and ferroptotic cell death. The parallel FSP1-CoQ10 axis provides a GPX4-independent second brake.",
-      "zh-TW": "GPX4 是鐵死亡上典型的 GSH 依賴煞車，將磷脂氫過氧化物還原為無害醇類；抑制它（RSL3、GSH 耗竭）會釋放鐵依賴的脂質過氧化與鐵死亡。平行的 FSP1-CoQ10 軸提供不依賴 GPX4 的第二煞車。"
+      "en-US": "GPX4 is the canonical GSH-dependent brake on ferroptosis, reducing phospholipid hydroperoxides to harmless alcohols; its inhibition (RSL3, GSH depletion) unleashes iron-dependent lipid peroxidation and ferroptotic cell death. The parallel FSP1-CoQ10 axis provides a GPX4-independent second brake. GPX4 is the ferroptosis brake, uniquely reducing membrane phospholipid, cholesterol and cardiolipin hydroperoxides, and it depends on the catalytic selenium of glutathione-peroxidase-family chemistry. Loss of selenium availability therefore weakens GPX4 and shifts cells toward lipid-peroxidation-driven Ferroptosis, which links the Keshan disease cardiac phenotype to the same selenoprotein axis.",
+      "zh-TW": "GPX4 是鐵死亡上典型的 GSH 依賴煞車，將磷脂氫過氧化物還原為無害醇類；抑制它（RSL3、GSH 耗竭）會釋放鐵依賴的脂質過氧化與鐵死亡。平行的 FSP1-CoQ10 軸提供不依賴 GPX4 的第二煞車。 GPX4 是 Ferroptosis 的煞車，專一性地還原膜磷脂、膽固醇與心磷脂的過氧化物，且其作用依賴 glutathione peroxidase 家族的 selenium 化學。因此 selenium 可利用量不足會削弱 GPX4，把細胞推向以脂質過氧化為主的 Ferroptosis，這也把 Keshan disease 的心臟表型連結到同一條 selenoprotein 軸上。"
     },
     "confidence": 0.95,
     "source_document": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:39Z"
   },
   {
     "id": "269b63255781",
@@ -1195,13 +1167,13 @@
     "predicate": "requires",
     "object": "Glutathione",
     "context": {
-      "en-US": "GPX4 uses glutathione (reduced GSH) to convert phospholipid hydroperoxides to harmless alcohols — the canonical ferroptosis brake. System Xc- (SLC7A11) imports cystine for GSH synthesis, so cystine starvation or RSL3-style GPX4 inhibition collapses this shield and unleashes ferroptosis.",
-      "zh-TW": "GPX4 使用 glutathione（還原態 GSH）把磷脂氫過氧化物轉成無害醇類——這是鐵死亡的典型煞車。System Xc-（SLC7A11）輸入胱氨酸以合成 GSH，因此胱氨酸飢餓或 RSL3 式 GPX4 抑制會使此護盾崩潰並釋放鐵死亡。"
+      "en-US": "GPX4 uses glutathione (reduced GSH) to convert phospholipid hydroperoxides to harmless alcohols — the canonical ferroptosis brake. System Xc- (SLC7A11) imports cystine for GSH synthesis, so cystine starvation or RSL3-style GPX4 inhibition collapses this shield and unleashes ferroptosis. The GPX4 repair tier stalls whenever glutathione supply fails, because two glutathione equivalents are consumed per hydroperoxide reduced. Erastin blocks system xc- and collapses cystine uptake so that glutathione synthesis halts and GPX4's substrate vanishes, while RSL3 bypasses glutathione entirely by covalently modifying the selenocysteine. Glutathione depletion converts an aldehyde clearance pathway into a liability.",
+      "zh-TW": "GPX4 使用 glutathione（還原態 GSH）把磷脂氫過氧化物轉成無害醇類——這是鐵死亡的典型煞車。System Xc-（SLC7A11）輸入胱氨酸以合成 GSH，因此胱氨酸飢餓或 RSL3 式 GPX4 抑制會使此護盾崩潰並釋放鐵死亡。 只要 glutathione 供應中斷，GPX4 修復層就會停滯，因為每還原一個過氧化物就消耗兩個 glutathione 當量。Erastin 阻斷 system xc- 讓胱胺酸攝入崩潰，glutathione 合成因而停止、GPX4 的基質消失；而 RSL3 則繞過 glutathione，直接共價修飾 selenocysteine。Glutathione 耗竭會把原本的醛清除路徑轉為危害來源。"
     },
     "confidence": 0.92,
     "source_document": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "7298710e3935",
@@ -1293,13 +1265,13 @@
     "predicate": "induces",
     "object": "Autophagy",
     "context": {
-      "en-US": "Intermittent fasting (16:8 or 20:4) is the primary shred-phase tool to drive autophagy, with fasted training maximizing the AMPK signal. Refined sugars and alcohol shut the autophagic process down, so timing and macronutrient strategy are essential to the cleanup benefit.",
-      "zh-TW": "間歇性斷食誘導自噬，作為對其所施加的週期性營養和能量虧損的早期細胞適應。在體外，斷食模擬條件活化自噬機制並同時下調胞外核苷酸酶CD73，改變細胞外腺苷代謝。此誘導主要透過AMPK活化和mTORC1抑制介導，因為在斷食窗口期間營養和胰島素訊號下降。這種自噬的參與被認為是歸因於IF方案的許多細胞保護和抗老化效應的基礎。"
+      "en-US": "Intermittent fasting (16:8 or 20:4) is the primary shred-phase tool to drive autophagy, with fasted training maximizing the AMPK signal. Refined sugars and alcohol shut the autophagic process down, so timing and macronutrient strategy are essential to the cleanup benefit. The energy deficit of fasting is the caloric-stress hormetic signal, and the glucose-to-BHB switch is the readout that marks it. AMPK with mTORC1 inhibition, SIRT1 and TFEB then drive autophagy and mitophagy as the effectors, with BDNF-linked neurogenesis and lysosomal biogenesis downstream.",
+      "zh-TW": "間歇性斷食誘導自噬，作為對其所施加的週期性營養和能量虧損的早期細胞適應。在體外，斷食模擬條件活化自噬機制並同時下調胞外核苷酸酶CD73，改變細胞外腺苷代謝。此誘導主要透過AMPK活化和mTORC1抑制介導，因為在斷食窗口期間營養和胰島素訊號下降。這種自噬的參與被認為是歸因於IF方案的許多細胞保護和抗老化效應的基礎。 禁食造成的能量赤字是熱量壓力上的 hormetic 訊號，而葡萄糖到 BHB 的轉換則是標記它的讀值。接著 AMPK 搭配 mTORC1 抑制、SIRT1 與 TFEB 驅動自噬與粒線體自噬作為效應者，下游則連結 BDNF 相關的神經新生與溶小體生物發生。"
     },
     "confidence": 0.9,
     "source_document": "task_output_physiologist_shred_vs_bulk.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "4e0337994f02",
@@ -2077,13 +2049,13 @@
     "predicate": "drives",
     "object": "MnSOD",
     "context": {
-      "en-US": "PGC-1α drives MnSOD expression, which then feeds sirtuins. This is the SIRT3-mediated activation axis forming the enzymatic defense against adrenochrome-generated ROS.",
-      "zh-TW": "PGC-1α 驅動 MnSOD 的表現，進而供養 sirtuin。這是 SIRT3 介導的活化軸，構成對抗 adrenochrome 所產生活性氧物種的酵素防禦。"
+      "en-US": "PGC-1α drives MnSOD expression, which then feeds sirtuins. This is the SIRT3-mediated activation axis forming the enzymatic defense against adrenochrome-generated ROS. PGC-1alpha drives MnSOD expression as the mitochondrial biogenesis arm of antioxidant defense. ASCII spelling matches the existing PGC-1alpha triples to avoid a node split.",
+      "zh-TW": "PGC-1α 驅動 MnSOD 的表現，進而供養 sirtuin。這是 SIRT3 介導的活化軸，構成對抗 adrenochrome 所產生活性氧物種的酵素防禦。 PGC-1alpha 驅動 MnSOD 表現，作為抗氧化防禦的粒線體生成臂。ASCII 拼寫沿用既有 PGC-1alpha triple 以免節點分裂。"
     },
     "confidence": 0.9,
     "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "38b9b756b5ec",
@@ -2321,20 +2293,6 @@
     "confidence": 0.9,
     "source_document": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "f8afeeec0fde",
-    "subject": "SASP",
-    "predicate": "induces_upregulation_of",
-    "object": "Acid Ceramidase",
-    "context": {
-      "en-US": "SASP cytokines IL-6 and IL-8 induce ACase upregulation and ferroptotic sensitization in neighboring proliferative cells via paracrine signaling.",
-      "zh-TW": "SASP 細胞激素 IL-6 與 IL-8 透過旁分泌訊號，誘導鄰近增生細胞中 ACase 的上調與鐵蛋白死亡（ferroptosis）敏感化。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
-    "created": "2026-08-15T04:42:45Z",
     "updated": "2026-09-02T07:19:21Z"
   },
   {
@@ -3379,27 +3337,13 @@
     "predicate": "deacetylates",
     "object": "MnSOD",
     "context": {
-      "en-US": "SIRT3 deacetylates and activates MnSOD (manganese superoxide dismutase), the mitochondrial superoxide scavenger, at residues K68 and K122.",
-      "zh-TW": "SIRT3 去乙醯化並活化 MnSOD（manganese superoxide dismutase，錳超氧化物歧化酶），即粒線體超氧化物清除劑，作用位點為 K68 與 K122 殘基。"
+      "en-US": "SIRT3 deacetylates and activates MnSOD (manganese superoxide dismutase), the mitochondrial superoxide scavenger, at residues K68 and K122. SIRT3 deacetylates MnSOD at K68 and K122, dramatically increasing its ROS-scavenging activity. Honokiol enhances this deacetylation.",
+      "zh-TW": "SIRT3 去乙醯化並活化 MnSOD（manganese superoxide dismutase，錳超氧化物歧化酶），即粒線體超氧化物清除劑，作用位點為 K68 與 K122 殘基。 SIRT3 在 K68 與 K122 去乙醯化 MnSOD，大幅提升其清除 ROS 的活性。Honokiol 可增強此去乙醯化作用。"
     },
     "confidence": 0.95,
     "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "cff2dc3bac8d",
-    "subject": "SIRT3",
-    "predicate": "activates",
-    "object": "MnSOD",
-    "context": {
-      "en-US": "SIRT3 deacetylates MnSOD at K68 and K122, dramatically increasing its ROS-scavenging activity. Honokiol enhances this deacetylation.",
-      "zh-TW": "SIRT3 在 K68 與 K122 去乙醯化 MnSOD，大幅提升其清除 ROS 的活性。Honokiol 可增強此去乙醯化作用。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_sirtuins_recommendations_03_JULY_2026.md",
-    "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "d123f656cd0a",
@@ -4247,13 +4191,13 @@
     "predicate": "activates",
     "object": "NRF2",
     "context": {
-      "en-US": "Sulforaphane from broccoli sprouts is a mild electrophilic toxin that activates NRF2 at subtoxic doses, upregulating endogenous antioxidant enzymes 10-100x more effectively than dietary antioxidants — the xenohormesis principle that phytochemicals work by mild stress, not scavenging.",
-      "zh-TW": "來自青花菜苗的 Sulforaphane 是溫和親電子毒素，在亞毒性劑量活化 NRF2，使內生性抗氧化酵素提升幅度比膳食抗氧化劑有效 10–100 倍——即植物化學物質藉溫和壓力而非清除作用發揮功效的 xenohormesis 原則。"
+      "en-US": "Sulforaphane from broccoli sprouts is a mild electrophilic toxin that activates NRF2 at subtoxic doses, upregulating endogenous antioxidant enzymes 10-100x more effectively than dietary antioxidants — the xenohormesis principle that phytochemicals work by mild stress, not scavenging. For the hormesis goal itself, xenohormetins such as Sulforaphane, Curcumin and Resveratrol are preferred over antioxidant dosing, because they are mild electrophilic stressors that induce NRF2 rather than scavenge reactive species. Vitamin E is framed as situational membrane insurance rather than a longevity signal under this strategy.",
+      "zh-TW": "來自青花菜苗的 Sulforaphane 是溫和親電子毒素，在亞毒性劑量活化 NRF2，使內生性抗氧化酵素提升幅度比膳食抗氧化劑有效 10–100 倍——即植物化學物質藉溫和壓力而非清除作用發揮功效的 xenohormesis 原則。 就 hormesis 目標本身而言，Sulforaphane、Curcumin 與 Resveratrol 等 xenohormetin 優於抗氧化劑補充，因為它們是誘導 NRF2 的溫和親電壓力源，而非清除活性物質。在這個策略下，Vitamin E 被定位為情境性的膜保障，而非長壽訊號。"
     },
     "confidence": 0.9,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:39Z"
   },
   {
     "id": "08d2f1989b24",
@@ -4289,13 +4233,13 @@
     "predicate": "regenerates",
     "object": "Thioredoxin-1",
     "context": {
-      "en-US": "Thioredoxin reductase (TXNRD1/2) uses NADPH to return oxidized thioredoxin to its reduced dithiol form after each substrate-reduction cycle, sustaining the Trx-dependent redox signaling and peroxide-repair network; Auranofin blocks exactly this regeneration step.",
-      "zh-TW": "硫氧還原蛋白還原酶（TXNRD1/2）利用 NADPH 在每次受質還原循環後將氧化態硫氧還原蛋白送回還原態雙硫醇形式，維持 Trx 依賴的氧化還原訊號與過氧化物修復網絡；Auranofin 正是阻斷此再生步驟。"
+      "en-US": "Thioredoxin reductase (TXNRD1/2) uses NADPH to return oxidized thioredoxin to its reduced dithiol form after each substrate-reduction cycle, sustaining the Trx-dependent redox signaling and peroxide-repair network; Auranofin blocks exactly this regeneration step. Thioredoxin reductase passes electrons from NADPH through FAD and a selenocysteine to reduce Thioredoxin-1, which then reduces peroxiredoxins and, in its reduced form, inhibits ASK1. Because this thioredoxin system sits upstream of ASK1-MAPK signalling, restoring it with selenium lowers the peroxide load that would otherwise drive cadmium- and lead-induced MAPK activation.",
+      "zh-TW": "硫氧還原蛋白還原酶（TXNRD1/2）利用 NADPH 在每次受質還原循環後將氧化態硫氧還原蛋白送回還原態雙硫醇形式，維持 Trx 依賴的氧化還原訊號與過氧化物修復網絡；Auranofin 正是阻斷此再生步驟。 Thioredoxin reductase 將電子由 NADPH 經 FAD 與 selenocysteine 傳遞以還原 Thioredoxin-1，而還原態的 Thioredoxin-1 再還原 peroxiredoxin，並在還原態下抑制 ASK1。由於這套 thioredoxin 系統位於 ASK1-MAPK 訊息上游，補充 Selenium 以恢復其功能可降低原本會驅動鎘與鉛誘發 MAPK 活化的過氧化物負載。"
     },
     "confidence": 0.92,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:39Z"
   },
   {
     "id": "5fffa19a7518",
@@ -4625,13 +4569,13 @@
     "predicate": "inhibits",
     "object": "NLRP3",
     "context": {
-      "en-US": "SIRT3 lowers mitochondrial ROS that license NLRP3 inflammasome assembly, indirectly restraining NLRP3 activation. The effect is indirect via redox tone, so confidence is capped.",
-      "zh-TW": "SIRT3 降低許可 NLRP3 發炎體組裝的粒線體 ROS，間接抑制 NLRP3 活化。此效應經由氧化還原張力間接產生，故信度設上限。"
+      "en-US": "SIRT3 lowers mitochondrial ROS that license NLRP3 inflammasome assembly, indirectly restraining NLRP3 activation. The effect is indirect via redox tone, so confidence is capped. SIRT3 lowers mitochondrial ROS, which is the input that drives NLRP3 inflammasome assembly, so SIRT3 activity restrains inflammasome tone and pyroptosis. The same ROS elevation also triggers Caspase-1 cleavage of Parkin, which blocks mitophagy and raises mtROS further, forming a feed-forward loop into the inflammatory quadrant that SIRT3 opposes. Losing this brake converts a mild stress into a Q2-level inflammatory response rather than a silent one.",
+      "zh-TW": "SIRT3 降低許可 NLRP3 發炎體組裝的粒線體 ROS，間接抑制 NLRP3 活化。此效應經由氧化還原張力間接產生，故信度設上限。 SIRT3 降低粒線體 ROS，而粒線體 ROS 正是驅動 NLRP3 inflammasome 組裝的輸入，因此 SIRT3 活性可約束 inflammasome 張力與 pyroptosis。同一種 ROS 升高也會觸發 Caspase-1 切割 Parkin，阻斷 mitophagy 並進一步推高 mtROS，形成通往發炎象限的饋送迴路，而 SIRT3 正與此迴路相抗。失去這道煞車會讓輕微壓力轉為 Q2 層級的發炎反應，而非靜默反應。"
     },
     "confidence": 0.7,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "baee7b80e54f",
@@ -4709,13 +4653,13 @@
     "predicate": "contributes_to",
     "object": "SASP",
     "context": {
-      "en-US": "Derepressed LINE-1 retrotransposon cDNA drives interferon-mediated SASP reinforcement in deep senescence. This tasks-layer edge parallels the senescence-layer LINE-1 drive triple.",
-      "zh-TW": "去抑制的 LINE-1 逆轉錄轉座子 cDNA 在深層衰老驅動干擾素介導的 SASP 強化。此 tasks 層邊與衰老層的 LINE-1 驅動 triple 平行。"
+      "en-US": "Derepressed LINE-1 retrotransposon cDNA drives interferon-mediated SASP reinforcement in deep senescence. This tasks-layer edge parallels the senescence-layer LINE-1 drive triple. LINE-1 retroelement activity drives the deepest stage of the SASP cascade, producing a type-I interferon signature late in the senescence trajectory. Because the secretome switches from an early TGFbeta-rich immunosuppressive and profibrotic profile through a late IL-6/IL-8/MMP-rich inflammatory one to this interferon arm, temporal stage is one of the four axes that shape outcome.",
+      "zh-TW": "去抑制的 LINE-1 逆轉錄轉座子 cDNA 在深層衰老驅動干擾素介導的 SASP 強化。此 tasks 層邊與衰老層的 LINE-1 驅動 triple 平行。 LINE-1 反轉錄轉位子活性驅動衰老級聯最深的階段，在軌跡後期產生 type-I interferon 訊號特徵。由於分泌表型會從早期富含 TGFβ 的免疫抑制與促纖維輪廓，經過晚期富含 IL-6/IL-8/MMP 的發炎輪廓，再轉入這個 interferon 臂，時間階段正是塑造結果的四大軸之一。"
     },
     "confidence": 0.75,
     "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "80b85e97d70a",
@@ -5054,20 +4998,6 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "9b9e281fb069",
-    "subject": "PGC-1alpha",
-    "predicate": "activates",
-    "object": "MnSOD",
-    "context": {
-      "en-US": "PGC-1alpha drives MnSOD expression as the mitochondrial biogenesis arm of antioxidant defense. ASCII spelling matches the existing PGC-1alpha triples to avoid a node split.",
-      "zh-TW": "PGC-1alpha 驅動 MnSOD 表現，作為抗氧化防禦的粒線體生成臂。ASCII 拼寫沿用既有 PGC-1alpha triple 以免節點分裂。"
-    },
-    "confidence": 0.8,
-    "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
-    "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
-  },
-  {
     "id": "85fc611befde",
     "subject": "SIRT1",
     "predicate": "activates",
@@ -5320,20 +5250,6 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "95ae15fee99c",
-    "subject": "Acid Ceramidase",
-    "predicate": "increases",
-    "object": "Lipid Peroxidation",
-    "context": {
-      "en-US": "ACase-driven PUFA-phospholipid enrichment expands the peroxidation substrate pool and RSL3 sensitivity. This product-level output links sphingolipid remodeling to ferroptotic lethality.",
-      "zh-TW": "ACase 驅動的 PUFA-磷脂富集擴大過氧化受質池與 RSL3 敏感性。此產物層級輸出將鞘脂重塑連結到鐵死亡致死性。"
-    },
-    "confidence": 0.85,
-    "source_document": "task_output_acid_ceramidase_27_July_2026.md",
-    "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
-  },
-  {
     "id": "d69caa9a76b9",
     "subject": "ARN14974",
     "predicate": "inhibits",
@@ -5470,20 +5386,6 @@
     },
     "confidence": 0.85,
     "source_document": "task_output_caspase_01_JUN_2026.md",
-    "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
-  },
-  {
-    "id": "862297ef4199",
-    "subject": "COMT",
-    "predicate": "metabolizes",
-    "object": "Fisetin",
-    "context": {
-      "en-US": "COMT O-methylates fisetin to geraldol (Poor 2016), consuming SAMe to SAH. This reverse-direction edge complements the established fisetin-inhibits-COMT triple.",
-      "zh-TW": "COMT 將 fisetin O-甲基化為 geraldol（Poor 2016），消耗 SAMe 生成 SAH。此反向邊補充已確立的 fisetin 抑制 COMT triple。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
     "updated": "2026-09-04T16:40:50Z"
   },
@@ -6552,20 +6454,6 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "b631e71b61ba",
-    "subject": "PARP1",
-    "predicate": "leads_to",
-    "object": "Parthanatos",
-    "context": {
-      "en-US": "PARP-1 hyperactivation producing 10-500x PAR, with severity sufficient to cause sustained NAD+ and ATP fall, is the threshold that selects parthanatos over p53-driven apoptosis. The executor is PAR-mediated cleavage of AIF and MIF, and the pathway is caspase-independent and z-VAD-resistant. The diagnostic constellation is a PAR surge, nuclear AIF, roughly 50-kb DNA fragments, and NAD+/ATP decline, rescued by PARP inhibitors in males and by PARG.",
-      "zh-TW": "PARP-1 過度活化產生 10–500 倍的 PAR，且嚴重度足以造成持續的 NAD+ 與 ATP 下降，此即在 parthanatos 與 p53 驅動的 apoptosis 之間做出選擇的閾值。執行者為 PAR 介導的 AIF 與 MIF 切割，該路徑不依賴 caspase 且對 z-VAD 具抗性。診斷組合為 PAR 激增、AIF 核轉位、約 50 kb 的 DNA 片段以及 NAD+/ATP 下降，可由 PARP inhibitor（雄性）或 PARG 挽救。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_cell_death_decision_tree_11_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
     "id": "f1b6e3a14af3",
     "subject": "Ischemia",
     "predicate": "leads_to",
@@ -6839,20 +6727,6 @@
     "context": {
       "en-US": "ACSL4 overexpression resists MLKL-mediated necroptosis by maintaining the PUFA-phospholipid pool that MLKL execution depletes. This makes ACSL4 a determinant of which of the two lytic modalities a cell actually dies by, independent of its better-known role as the ferroptosis substrate enzyme. The interaction is a membrane-lipid gate: whichever process controls PUFA-phospholipid availability controls the balance between necroptosis and ferroptosis.",
       "zh-TW": "ACSL4 的過量表現可抵抗 MLKL 所介導的 necroptosis，因為它維持了 MLKL 執行時會耗盡的 PUFA 磷脂池。這使 ACSL4 成為決定細胞實際死於哪一種溶解型 modality 的因子，獨立於它較為人知的 ferroptosis 受質酵素角色。此交互作用構成一道膜脂質關卡：哪一個過程掌控 PUFA 磷脂的可得性，哪一個就掌控 necroptosis 與 ferroptosis 之間的平衡。"
-    },
-    "confidence": 0.8,
-    "source_document": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "0bdb1ef93490",
-    "subject": "SIRT3",
-    "predicate": "restrains",
-    "object": "NLRP3",
-    "context": {
-      "en-US": "SIRT3 lowers mitochondrial ROS, which is the input that drives NLRP3 inflammasome assembly, so SIRT3 activity restrains inflammasome tone and pyroptosis. The same ROS elevation also triggers Caspase-1 cleavage of Parkin, which blocks mitophagy and raises mtROS further, forming a feed-forward loop into the inflammatory quadrant that SIRT3 opposes. Losing this brake converts a mild stress into a Q2-level inflammatory response rather than a silent one.",
-      "zh-TW": "SIRT3 降低粒線體 ROS，而粒線體 ROS 正是驅動 NLRP3 inflammasome 組裝的輸入，因此 SIRT3 活性可約束 inflammasome 張力與 pyroptosis。同一種 ROS 升高也會觸發 Caspase-1 切割 Parkin，阻斷 mitophagy 並進一步推高 mtROS，形成通往發炎象限的饋送迴路，而 SIRT3 正與此迴路相抗。失去這道煞車會讓輕微壓力轉為 Q2 層級的發炎反應，而非靜默反應。"
     },
     "confidence": 0.8,
     "source_document": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
@@ -7266,20 +7140,6 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "1d05fa2e8fcf",
-    "subject": "Intermittent Fasting",
-    "predicate": "activates",
-    "object": "Autophagy",
-    "context": {
-      "en-US": "The energy deficit of fasting is the caloric-stress hormetic signal, and the glucose-to-BHB switch is the readout that marks it. AMPK with mTORC1 inhibition, SIRT1 and TFEB then drive autophagy and mitophagy as the effectors, with BDNF-linked neurogenesis and lysosomal biogenesis downstream.",
-      "zh-TW": "禁食造成的能量赤字是熱量壓力上的 hormetic 訊號，而葡萄糖到 BHB 的轉換則是標記它的讀值。接著 AMPK 搭配 mTORC1 抑制、SIRT1 與 TFEB 驅動自噬與粒線體自噬作為效應者，下游則連結 BDNF 相關的神經新生與溶小體生物發生。"
-    },
-    "confidence": 0.85,
-    "source_document": "task_output_hormetic_range_expansion_03_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
     "id": "248222d01a94",
     "subject": "HIF-1alpha",
     "predicate": "induces",
@@ -7364,20 +7224,6 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "8e15cfc3dc60",
-    "subject": "GPX4",
-    "predicate": "depends_on",
-    "object": "Glutathione",
-    "context": {
-      "en-US": "The GPX4 repair tier stalls whenever glutathione supply fails, because two glutathione equivalents are consumed per hydroperoxide reduced. Erastin blocks system xc- and collapses cystine uptake so that glutathione synthesis halts and GPX4's substrate vanishes, while RSL3 bypasses glutathione entirely by covalently modifying the selenocysteine. Glutathione depletion converts an aldehyde clearance pathway into a liability.",
-      "zh-TW": "只要 glutathione 供應中斷，GPX4 修復層就會停滯，因為每還原一個過氧化物就消耗兩個 glutathione 當量。Erastin 阻斷 system xc- 讓胱胺酸攝入崩潰，glutathione 合成因而停止、GPX4 的基質消失；而 RSL3 則繞過 glutathione，直接共價修飾 selenocysteine。Glutathione 耗竭會把原本的醛清除路徑轉為危害來源。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
     "id": "70e907c725f7",
     "subject": "Polyunsaturated fatty acids",
     "predicate": "increases_susceptibility_to",
@@ -7385,20 +7231,6 @@
     "context": {
       "en-US": "Ferroptosis sensitivity is set less by antioxidant capacity than by how much polyunsaturated fatty acid is esterified into membrane phospholipids. ACSL4 charges arachidonate and adrenate to acyl-CoA and LPCAT3 inserts them at the sn-2 position of phosphatidylethanolamines, and those oxidized PE species are the lethal substrates. Neuronal membranes, enriched in DHA, are consequently the most oxidation-fragile tissue in the body.",
       "zh-TW": "鐵死亡的易感性與其說取決於抗氧化能力，不如取決於有多少 polyunsaturated fatty acid 被酯化進膜磷脂中。ACSL4 將 arachidonate 與 adrenate 接到 acyl-CoA 上，LPCAT3 再將它們插入 phosphatidylethanolamine 的 sn-2 位，而這些被氧化的 PE 物種正是致命基質。因此富含 DHA 的神經膜是人體中最易受氧化破壞的組織。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "b26fb3b2cdd1",
-    "subject": "Acid Ceramidase",
-    "predicate": "increases_susceptibility_to",
-    "object": "Ferroptosis",
-    "context": {
-      "en-US": "Acid Ceramidase raises ferroptosis sensitivity by increasing phospholipid PUFA content through ceramide-derived free fatty acids, a mechanism that operates independently of GPX4, glutathione and iron. Less PUFA substrate means less lipid peroxidation to begin with, so knockdown protects cells without touching the antioxidant tier at all, showing that substrate availability can dominate defensive capacity.",
-      "zh-TW": "Acid Ceramidase 透過 ceramide 衍生的游離脂肪酸提高膜磷脂 PUFA 含量，進而提升鐵死亡易感性；此機制獨立於 GPX4、glutathione 與鐵。基質上的 PUFA 較少意味著起始的脂質過氧化就較少，因此敲低可在完全不動抗氧化層的情況下保護細胞，顯示基質可得性可以凌駕防禦能力。"
     },
     "confidence": 0.9,
     "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
@@ -7427,20 +7259,6 @@
     "context": {
       "en-US": "Reactive Oxygen Species in mitochondria convert the fission GTPase from a housekeeping enzyme into a stress-driven cutter by oxidizing the redox-sensitive Cys644 of DRP1. Sulfenylated DRP1 has higher GTPase activity and fragments the network, and the resulting ROS feed forward to oxidize more DRP1, a self-reinforcing loop that MitoTEMPO and mito-catalase interrupt.",
       "zh-TW": "粒線體中的 Reactive Oxygen Species 藉由氧化 DRP1 上對氧化還原敏感的 Cys644，把這個分裂 GTPase 由家務性酵素轉為壓力驅動的切割者。被 sulfenyl 化的 DRP1 GTPase 活性升高並使網絡碎裂，而產生的 ROS 又回饋氧化更多 DRP1，形成自我強化的迴路，可由 MitoTEMPO 與 mito-catalase 打断。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "58e5715b63fd",
-    "subject": "DRP1",
-    "predicate": "binds",
-    "object": "Cardiolipin",
-    "context": {
-      "en-US": "A conserved WRG motif in the DRP1 variable domain intercalates into the bilayer and binds cardiolipin specifically, driving a disorder-to-order transition that relieves autoinhibition and stabilizes assembled DRP1. Because cardiolipin is externalized to the outer membrane only under stress, the interaction gates stress-induced hyperfragmentation while leaving housekeeping fission largely intact.",
-      "zh-TW": "DRP1 可變區中的保守 WRG 模序會插入雙層並專一結合 cardiolipin，促使無序到有序的轉換而解除自動抑制，並穩定已組裝的 DRP1。由於 cardiolipin 僅在壓力下才被外翻到外膜，此交互作用便把壓力誘發的過度碎裂設閘，而家務性分裂大致不受影響。"
     },
     "confidence": 0.9,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
@@ -7588,20 +7406,6 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "b3c0f8074763",
-    "subject": "Sulforaphane",
-    "predicate": "induces",
-    "object": "NRF2",
-    "context": {
-      "en-US": "For the hormesis goal itself, xenohormetins such as Sulforaphane, Curcumin and Resveratrol are preferred over antioxidant dosing, because they are mild electrophilic stressors that induce NRF2 rather than scavenge reactive species. Vitamin E is framed as situational membrane insurance rather than a longevity signal under this strategy.",
-      "zh-TW": "就 hormesis 目標本身而言，Sulforaphane、Curcumin 與 Resveratrol 等 xenohormetin 優於抗氧化劑補充，因為它們是誘導 NRF2 的溫和親電壓力源，而非清除活性物質。在這個策略下，Vitamin E 被定位為情境性的膜保障，而非長壽訊號。"
-    },
-    "confidence": 0.8,
-    "source_document": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
     "id": "4527983201a2",
     "subject": "4-Hydroxynonenal",
     "predicate": "degrades",
@@ -7681,20 +7485,6 @@
       "zh-TW": "p53 與 p16、p21 衰老程式並列，作為 SASP 的抑制力量。當腫瘤中 p53 功能恢復時，所產生的免疫原性 SASP 可徵募巨噬細胞、NK 與 CD4/CD8 細胞並促成腫瘤退縮，這正是分泌表型急性與慢性雙面性的分子基礎。"
     },
     "confidence": 0.75,
-    "source_document": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "815656179bea",
-    "subject": "LINE-1",
-    "predicate": "drives",
-    "object": "SASP",
-    "context": {
-      "en-US": "LINE-1 retroelement activity drives the deepest stage of the SASP cascade, producing a type-I interferon signature late in the senescence trajectory. Because the secretome switches from an early TGFbeta-rich immunosuppressive and profibrotic profile through a late IL-6/IL-8/MMP-rich inflammatory one to this interferon arm, temporal stage is one of the four axes that shape outcome.",
-      "zh-TW": "LINE-1 反轉錄轉位子活性驅動衰老級聯最深的階段，在軌跡後期產生 type-I interferon 訊號特徵。由於分泌表型會從早期富含 TGFβ 的免疫抑制與促纖維輪廓，經過晚期富含 IL-6/IL-8/MMP 的發炎輪廓，再轉入這個 interferon 臂，時間階段正是塑造結果的四大軸之一。"
-    },
-    "confidence": 0.8,
     "source_document": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
     "updated": "2026-09-27T03:09:16Z"
@@ -7887,13 +7677,13 @@
     "predicate": "drives",
     "object": "Parthanatos",
     "context": {
-      "en-US": "PARP1 is the executioner node of male-dominant cell death, running nNOS to PARP activation to NAD+ depletion to AIF nuclear translocation and roughly 50-kbp DNA fragmentation. PARP-1 knockout males show markedly smaller infarcts while ovariectomized females are worsened, and delayed PARP inhibition improves stroke score mainly in males, so PARP inhibitors are male-leaning and caspase inhibitors female-leaning.",
-      "zh-TW": "PARP1 是雄性主導型細胞死亡的執行節點，訊息路徑為 nNOS 活化 PARP、消耗 NAD+、促使 AIF 轉位入核，造成約 50 kbp 的 DNA 片段化。PARP-1 敲除的雄性動物梗死體積明顯較小，而卵巢切除的雌性反而惡化；延遲給予 PARP 抑制主要改善雄性的中風評分，因此 PARP 抑制劑偏向雄性、caspase 抑制劑偏向雌性。"
+      "en-US": "PARP1 is the executioner node of male-dominant cell death, running nNOS to PARP activation to NAD+ depletion to AIF nuclear translocation and roughly 50-kbp DNA fragmentation. PARP-1 knockout males show markedly smaller infarcts while ovariectomized females are worsened, and delayed PARP inhibition improves stroke score mainly in males, so PARP inhibitors are male-leaning and caspase inhibitors female-leaning. PARP-1 hyperactivation producing 10-500x PAR, with severity sufficient to cause sustained NAD+ and ATP fall, is the threshold that selects parthanatos over p53-driven apoptosis. The executor is PAR-mediated cleavage of AIF and MIF, and the pathway is caspase-independent and z-VAD-resistant. The diagnostic constellation is a PAR surge, nuclear AIF, roughly 50-kb DNA fragments, and NAD+/ATP decline, rescued by PARP inhibitors in males and by PARG.",
+      "zh-TW": "PARP1 是雄性主導型細胞死亡的執行節點，訊息路徑為 nNOS 活化 PARP、消耗 NAD+、促使 AIF 轉位入核，造成約 50 kbp 的 DNA 片段化。PARP-1 敲除的雄性動物梗死體積明顯較小，而卵巢切除的雌性反而惡化；延遲給予 PARP 抑制主要改善雄性的中風評分，因此 PARP 抑制劑偏向雄性、caspase 抑制劑偏向雌性。 PARP-1 過度活化產生 10–500 倍的 PAR，且嚴重度足以造成持續的 NAD+ 與 ATP 下降，此即在 parthanatos 與 p53 驅動的 apoptosis 之間做出選擇的閾值。執行者為 PAR 介導的 AIF 與 MIF 切割，該路徑不依賴 caspase 且對 z-VAD 具抗性。診斷組合為 PAR 激增、AIF 核轉位、約 50 kb 的 DNA 片段以及 NAD+/ATP 下降，可由 PARP inhibitor（雄性）或 PARG 挽救。"
     },
     "confidence": 0.9,
     "source_document": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:39Z"
   },
   {
     "id": "3d05db1db721",
@@ -7999,27 +7789,13 @@
     "predicate": "is_discovered_by_proximity_to",
     "object": "EGFR",
     "context": {
-      "en-US": "Proximity-guided graph learning can recover tumour-associated antigens without targeting them directly. Anchoring on EGFR and ranking non-adjacent candidates by their co-varying proximity profiles across many experiments surfaces tumour-associated proximity antigens, and the resulting pairs are cross-validated against curated interaction databases, coessentiality data and clinical proteomics.",
-      "zh-TW": "以鄰近性引導的圖學習可以在不直接標定標的情況下找回腫瘤相關抗原。以 EGFR 為錨點、依各蛋白在多種實驗中共變的鄰近性剖面對非相鄰候選排序，即可浮現腫瘤相關的鄰近抗原，並以策展的交互作用資料庫、共必需性資料與臨床蛋白組學交叉驗證這些配對。"
+      "en-US": "Proximity-guided graph learning can recover tumour-associated antigens without targeting them directly. Anchoring on EGFR and ranking non-adjacent candidates by their co-varying proximity profiles across many experiments surfaces tumour-associated proximity antigens, and the resulting pairs are cross-validated against curated interaction databases, coessentiality data and clinical proteomics. EGFR is used as the anchor node for co-target ranking in proximity-guided antigen discovery, with graph attention and variational graph autoencoder architectures trained to rank EGFR-associated co-targets. Feature ablation shows that dropping either measured proximity or protein expression reduces precision, so proximity carries signal that is not redundant with known connectivity and abundance alone.",
+      "zh-TW": "以鄰近性引導的圖學習可以在不直接標定標的情況下找回腫瘤相關抗原。以 EGFR 為錨點、依各蛋白在多種實驗中共變的鄰近性剖面對非相鄰候選排序，即可浮現腫瘤相關的鄰近抗原，並以策展的交互作用資料庫、共必需性資料與臨床蛋白組學交叉驗證這些配對。 在鄰近性引導的抗原發現中，EGFR 被當作共同標的排序的錨點節點，並以圖注意力網路與變分圖自編碼器訓練來排序 EGFR 相關的共同標的。特徵消融實驗顯示，無論移除測得的鄰近性或蛋白質表現，準確率都會下降，表示鄰近性攜帶的訊號並非已知連結度與豐度所能取代。"
     },
     "confidence": 0.6,
     "source_document": "task_output_proximity_graph_learning_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "a5064bb00493",
-    "subject": "EGFR",
-    "predicate": "serves_as_anchor_for",
-    "object": "Tumor Antigen",
-    "context": {
-      "en-US": "EGFR is used as the anchor node for co-target ranking in proximity-guided antigen discovery, with graph attention and variational graph autoencoder architectures trained to rank EGFR-associated co-targets. Feature ablation shows that dropping either measured proximity or protein expression reduces precision, so proximity carries signal that is not redundant with known connectivity and abundance alone.",
-      "zh-TW": "在鄰近性引導的抗原發現中，EGFR 被當作共同標的排序的錨點節點，並以圖注意力網路與變分圖自編碼器訓練來排序 EGFR 相關的共同標的。特徵消融實驗顯示，無論移除測得的鄰近性或蛋白質表現，準確率都會下降，表示鄰近性攜帶的訊號並非已知連結度與豐度所能取代。"
-    },
-    "confidence": 0.6,
-    "source_document": "task_output_proximity_graph_learning_21_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "884ffb2d05e2",
@@ -8045,34 +7821,6 @@
       "zh-TW": "Selenium 是間接作用於 Necroptosis 的：它藉由恢復 GPX4 的活性發揮作用，因為 selenium 是約 25 種 selenoprotein 的催化性 selenocysteine 殘基，而 GPx 活性受 selenium 可利用量限速。鎘與鉛會降低 SOD、GPx 與 CAT 並升高丙二醛，Selenium 共同處理可逆轉此模式；不過 adequacy 以上的效益屬於藥理性的硫醇氧化作用，而非更多 GPx。"
     },
     "confidence": 0.9,
-    "source_document": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "fc1e3493a482",
-    "subject": "GPX4",
-    "predicate": "brakes",
-    "object": "Ferroptosis",
-    "context": {
-      "en-US": "GPX4 is the ferroptosis brake, uniquely reducing membrane phospholipid, cholesterol and cardiolipin hydroperoxides, and it depends on the catalytic selenium of glutathione-peroxidase-family chemistry. Loss of selenium availability therefore weakens GPX4 and shifts cells toward lipid-peroxidation-driven Ferroptosis, which links the Keshan disease cardiac phenotype to the same selenoprotein axis.",
-      "zh-TW": "GPX4 是 Ferroptosis 的煞車，專一性地還原膜磷脂、膽固醇與心磷脂的過氧化物，且其作用依賴 glutathione peroxidase 家族的 selenium 化學。因此 selenium 可利用量不足會削弱 GPX4，把細胞推向以脂質過氧化為主的 Ferroptosis，這也把 Keshan disease 的心臟表型連結到同一條 selenoprotein 軸上。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "69298db903ee",
-    "subject": "Thioredoxin reductase",
-    "predicate": "reduces",
-    "object": "Thioredoxin-1",
-    "context": {
-      "en-US": "Thioredoxin reductase passes electrons from NADPH through FAD and a selenocysteine to reduce Thioredoxin-1, which then reduces peroxiredoxins and, in its reduced form, inhibits ASK1. Because this thioredoxin system sits upstream of ASK1-MAPK signalling, restoring it with selenium lowers the peroxide load that would otherwise drive cadmium- and lead-induced MAPK activation.",
-      "zh-TW": "Thioredoxin reductase 將電子由 NADPH 經 FAD 與 selenocysteine 傳遞以還原 Thioredoxin-1，而還原態的 Thioredoxin-1 再還原 peroxiredoxin，並在還原態下抑制 ASK1。由於這套 thioredoxin 系統位於 ASK1-MAPK 訊息上游，補充 Selenium 以恢復其功能可降低原本會驅動鎘與鉛誘發 MAPK 活化的過氧化物負載。"
-    },
-    "confidence": 0.85,
     "source_document": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
     "updated": "2026-09-27T03:09:16Z"
@@ -8125,13 +7873,13 @@
     "predicate": "drives",
     "object": "Fibrosis",
     "context": {
-      "en-US": "Persistent SASP from senescent epithelial, stellate and fibroblast pools is now framed as the canonical maladaptive-repair route into Fibrosis, with TGFβ and MMPs driving fibroblast activation, collagen deposition and architecture loss across lung, kidney, liver and muscle. Transient SASP instead promotes progenitor proliferation and immune clearance, so highly regenerative organs fibrose only when the secretory phenotype persists.",
-      "zh-TW": "持續的 SASP 來自衰老的上皮、stellate 與纖維母細胞池，如今被視為通往 Fibrosis 的典型不良修復路徑，由 TGFβ 與 MMP 驅動纖維母細胞活化、膠原沉積與結構破壞，涵蓋肺、腎、肝與肌肉。短暫的 SASP 反而促進前驅細胞增殖與免疫清除，因此高再生器官只有在分泌表型持續時才會纖維化。"
+      "en-US": "Persistent SASP from senescent epithelial, stellate and fibroblast pools is now framed as the canonical maladaptive-repair route into Fibrosis, with TGFβ and MMPs driving fibroblast activation, collagen deposition and architecture loss across lung, kidney, liver and muscle. Transient SASP instead promotes progenitor proliferation and immune clearance, so highly regenerative organs fibrose only when the secretory phenotype persists. SASP factors released by accumulated senescent cells promote fibrosis in the surrounding tissue. The same secreted program also propagates senescence to bystander cells, so the fibrotic effect and the pro-senescence effect travel together. It is a downstream cost of letting turnover fall too low.",
+      "zh-TW": "持續的 SASP 來自衰老的上皮、stellate 與纖維母細胞池，如今被視為通往 Fibrosis 的典型不良修復路徑，由 TGFβ 與 MMP 驅動纖維母細胞活化、膠原沉積與結構破壞，涵蓋肺、腎、肝與肌肉。短暫的 SASP 反而促進前驅細胞增殖與免疫清除，因此高再生器官只有在分泌表型持續時才會纖維化。 累積的衰老細胞釋出的 SASP 因子會促進周圍組織的纖維化。同一套分泌程序也會把衰老傳播給旁觀細胞，因此促纖維化效應與促衰老效應是一起傳遞的。這是更新率過低時所產生的下游代價。"
     },
     "confidence": 0.85,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "652c6c9cc33b",
@@ -8316,20 +8064,6 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "61e7bfbc72f9",
-    "subject": "Estrogen",
-    "predicate": "suppresses",
-    "object": "PARP1",
-    "context": {
-      "en-US": "Estrogen feminises male cell death by suppressing PARP1 through ERα, since pharmacologic E2 dose-dependently lowers male PARP activity while inducing renal Caspase-3 and upregulating renal ERα mRNA, with females already at ceiling. Because ageing brings menopause and andropause together with rising PARP activity, both sexes drift toward male-like inflammatory PARP death and Inflammaging in old age while remaining divergent when young.",
-      "zh-TW": "Estrogen 透過 ERα 抑制 PARP1，使雄性的細胞死亡雌性化：藥理劑量的 E2 會劑量依賴性地降低雄性的 PARP 活性，同時誘發腎臟 Caspase-3 並上調腎臟 ERα mRNA，而雌性本來就已達上限。由於老化同時帶來更年期與男性更年期以及上升的 PARP 活性，兩性在老年都會漂向雄性式的發炎性 PARP 死亡與 Inflammaging，而在年輕時則維持分歧。"
-    },
-    "confidence": 0.8,
-    "source_document": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
     "id": "0f5c49899010",
     "subject": "PARP1",
     "predicate": "inhibition_protects_males_in",
@@ -8386,20 +8120,6 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "979dd4f4e44e",
-    "subject": "CD38",
-    "predicate": "degrades",
-    "object": "NAD+",
-    "context": {
-      "en-US": "CD38 is an NADase whose activity rises with age and drives age-related NAD+ decline, with the loss expressed through reduced SIRT3 activity rather than by directly inhibiting the enzyme. Because the effect is on substrate availability, CD38 inhibitors such as 78c or apigenin raise NAD+ and thereby SIRT3 flux without ever binding SIRT3 itself.",
-      "zh-TW": "CD38 是一種 NADase，其活性隨年齡上升並推動年齡相關的 NAD+ 下降，而這個影響是透過 SIRT3 活性降低來表現，而非直接抑制該酵素。由於作用點在受質可利用性，CD38 抑制劑如 78c 或 apigenin 可提高 NAD+，進而提高 SIRT3 的通量，全程都不需與 SIRT3 結合。"
-    },
-    "confidence": 0.9,
-    "source_document": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
     "id": "c4a0d6970f97",
     "subject": "NAMPT",
     "predicate": "rate_limits_salvage_of",
@@ -8419,13 +8139,13 @@
     "predicate": "raises",
     "object": "NAD+",
     "context": {
-      "en-US": "NMN raises NAD+ through supply-side kinetics rather than by binding a sirtuin, and a 2026 head-to-head study found NMN produced roughly double the whole-blood NAD+ of nicotinamide riboside at 14 days, apparently via gut microbiota conversion to nicotinamide, while NAM gave only a transient rise. Clinical derivatives such as HK-660S and MIB-626 exploit the same route to engage SIRT1 and SIRT3.",
-      "zh-TW": "NMN 透過供給端動力學而不是結合 sirtuin 來提高 NAD+，2026 年一項頭對頭研究發現 14 天時 NMN 造成的全血 NAD+ 約為 Nicotinamide Riboside 的兩倍，機制似乎是經腸道菌群轉換為 nicotinamide，而 NAM 只造成短暫上升。像 HK-660S 與 MIB-626 等臨床衍生物走的也是同一路徑，藉以接合 SIRT1 與 SIRT3。"
+      "en-US": "NMN raises NAD+ through supply-side kinetics rather than by binding a sirtuin, and a 2026 head-to-head study found NMN produced roughly double the whole-blood NAD+ of nicotinamide riboside at 14 days, apparently via gut microbiota conversion to nicotinamide, while NAM gave only a transient rise. Clinical derivatives such as HK-660S and MIB-626 exploit the same route to engage SIRT1 and SIRT3. NMN appears in the combined graph as part of the mechanistic/process vocabulary (NMN/NAD+) that the wiki corpus added and the triples extraction had under-represented, ranking among the top wiki-only nodes by degree and by PageRank. Mechanistically it sits on the NAD+ biosynthesis side, so the pair is treated as a precursor relationship rather than a flat association. Its k-core of 19 places it deep inside the union's core rather than in the periphery.",
+      "zh-TW": "NMN 透過供給端動力學而不是結合 sirtuin 來提高 NAD+，2026 年一項頭對頭研究發現 14 天時 NMN 造成的全血 NAD+ 約為 Nicotinamide Riboside 的兩倍，機制似乎是經腸道菌群轉換為 nicotinamide，而 NAM 只造成短暫上升。像 HK-660S 與 MIB-626 等臨床衍生物走的也是同一路徑，藉以接合 SIRT1 與 SIRT3。 NMN 在合併圖中屬於 wiki 語料新增、而 triples 擷取先前低估的機制／過程詞彙（NMN/NAD+），並在 wiki-only 節點中同時以節點度與 PageRank 排名前列。從機制上看，它位於 NAD+ 生合成的上游，因此這對節點被視為前驅物關係，而非單純的關聯。其 k-core 為 19，顯示它深陷聯集核心而非位於外圍。"
     },
     "confidence": 0.85,
     "source_document": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "edda717f920e",
@@ -8479,20 +8199,6 @@
       "zh-TW": "逃過清除的衰老細胞會分泌衰老相關分泌表型（SASP）。SASP 是旁分泌的傳遞載體，使少數衰老細胞得以刺激周遭組織發炎、促進纖維化，並把鄰近細胞推入衰老。這也說明造成慢性低度發炎的是衰老細胞的累積，而非細胞死亡本身。"
     },
     "confidence": 0.9,
-    "source_document": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "221b7708612d",
-    "subject": "SASP",
-    "predicate": "promotes",
-    "object": "Fibrosis",
-    "context": {
-      "en-US": "SASP factors released by accumulated senescent cells promote fibrosis in the surrounding tissue. The same secreted program also propagates senescence to bystander cells, so the fibrotic effect and the pro-senescence effect travel together. It is a downstream cost of letting turnover fall too low.",
-      "zh-TW": "累積的衰老細胞釋出的 SASP 因子會促進周圍組織的纖維化。同一套分泌程序也會把衰老傳播給旁觀細胞，因此促纖維化效應與促衰老效應是一起傳遞的。這是更新率過低時所產生的下游代價。"
-    },
-    "confidence": 0.8,
     "source_document": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
     "updated": "2026-09-27T03:09:16Z"
@@ -8559,13 +8265,13 @@
     "predicate": "promotes",
     "object": "Lipid Peroxidation",
     "context": {
-      "en-US": "Elevated acid ceramidase shifts membrane lipids toward a PUFA-rich profile, which is the substrate condition for lipid peroxidation. In the graph this appears as the labeled chain Acid Ceramidase -> Lipid Peroxidation -> Ferroptosis. Knocking the enzyme down, or inhibiting it with ARN14794, reverses the effect and protects cells, so the lipid remodeling step sits upstream of the oxidative damage.",
-      "zh-TW": "酸性神經醯胺酶（acid ceramidase）濃度上升會把膜脂質推向富含多不飽和脂肪酸（PUFA）的組成，而這正是脂質過氧化發生的底物條件。在知識圖中呈現為有標籤的鏈條：Acid Ceramidase → Lipid Peroxidation → Ferroptosis。將此酵素敲低或以 ARN14794 抑制可逆轉該效應並保護細胞，顯示脂質重塑這一步位於氧化損傷的上游。"
+      "en-US": "Elevated acid ceramidase shifts membrane lipids toward a PUFA-rich profile, which is the substrate condition for lipid peroxidation. In the graph this appears as the labeled chain Acid Ceramidase -> Lipid Peroxidation -> Ferroptosis. Knocking the enzyme down, or inhibiting it with ARN14794, reverses the effect and protects cells, so the lipid remodeling step sits upstream of the oxidative damage. ACase-driven PUFA-phospholipid enrichment expands the peroxidation substrate pool and RSL3 sensitivity. This product-level output links sphingolipid remodeling to ferroptotic lethality.",
+      "zh-TW": "酸性神經醯胺酶（acid ceramidase）濃度上升會把膜脂質推向富含多不飽和脂肪酸（PUFA）的組成，而這正是脂質過氧化發生的底物條件。在知識圖中呈現為有標籤的鏈條：Acid Ceramidase → Lipid Peroxidation → Ferroptosis。將此酵素敲低或以 ARN14794 抑制可逆轉該效應並保護細胞，顯示脂質重塑這一步位於氧化損傷的上游。 ACase 驅動的 PUFA-磷脂富集擴大過氧化受質池與 RSL3 敏感性。此產物層級輸出將鞘脂重塑連結到鐵死亡致死性。"
     },
     "confidence": 0.85,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "6124878df85d",
@@ -8587,13 +8293,13 @@
     "predicate": "promotes",
     "object": "Ferroptosis",
     "context": {
-      "en-US": "Because it sits upstream of lipid peroxidation, acid ceramidase acts as the control point through which a few senescent cells sensitize their neighbours to ferroptosis. Its unusually high out-degree in the knowledge graph is the network signature of this spreading vulnerability. That is also why the graph carries a senolytic drug target node pointing at it, making it a strong senolytic or senomorphic candidate.",
-      "zh-TW": "由於酸性神經醯胺酶位於脂質過氧化的上游，它就成為少數衰老細胞使鄰近細胞對鐵死亡敏感的調控點。它在知識圖中異常高的 out-degree 正是這種蔓延式弱點的網路特徵。這也是圖中會有一個指向它的 senolytic drug target 節點的原因，使它成為強勁的 senolytic 或 senomorphic 候選標的。"
+      "en-US": "Because it sits upstream of lipid peroxidation, acid ceramidase acts as the control point through which a few senescent cells sensitize their neighbours to ferroptosis. Its unusually high out-degree in the knowledge graph is the network signature of this spreading vulnerability. That is also why the graph carries a senolytic drug target node pointing at it, making it a strong senolytic or senomorphic candidate. ACase overexpression creates a pro-ferroptotic membrane lipid profile independent of GPX4/GSH and iron axes, sensitizing senescent cells to ferroptotic death. Acid Ceramidase raises ferroptosis sensitivity by increasing phospholipid PUFA content through ceramide-derived free fatty acids, a mechanism that operates independently of GPX4, glutathione and iron. Less PUFA substrate means less lipid peroxidation to begin with, so knockdown protects cells without touching the antioxidant tier at all, showing that substrate availability can dominate defensive capacity.",
+      "zh-TW": "由於酸性神經醯胺酶位於脂質過氧化的上游，它就成為少數衰老細胞使鄰近細胞對鐵死亡敏感的調控點。它在知識圖中異常高的 out-degree 正是這種蔓延式弱點的網路特徵。這也是圖中會有一個指向它的 senolytic drug target 節點的原因，使它成為強勁的 senolytic 或 senomorphic 候選標的。 ACase 過度表現產生一種不依賴 GPX4/GSH 與鐵軸的促鐵蛋白死亡（ferroptotic）膜脂質輪廓，使衰老細胞對鐵蛋白死亡敏感。 Acid Ceramidase 透過 ceramide 衍生的游離脂肪酸提高膜磷脂 PUFA 含量，進而提升鐵死亡易感性；此機制獨立於 GPX4、glutathione 與鐵。基質上的 PUFA 較少意味著起始的脂質過氧化就較少，因此敲低可在完全不動抗氧化層的情況下保護細胞，顯示基質可得性可以凌駕防禦能力。"
     },
     "confidence": 0.8,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "bebaf81dc867",
@@ -8601,13 +8307,13 @@
     "predicate": "induces",
     "object": "Acid Ceramidase",
     "context": {
-      "en-US": "SASP cytokines such as IL-6 and IL-8 induce acid ceramidase in bystander cells. The secretory program of senescence therefore rewires neighbouring membranes toward a pro-ferroptotic state, extending the damage beyond the cells that actually senesced. This is the paracrine route by which a small senescent population can sensitize a whole tissue.",
-      "zh-TW": "SASP 中的細胞激素（如 IL-6 與 IL-8）會在旁觀細胞中誘導酸性神經醯胺酶。衰老的分泌程序因此會把鄰近細胞的膜重新設定為促鐵死亡狀態，使損傷超出真正進入衰老的那些細胞。這是少數衰老細胞可以使整個組織敏感的旁分泌途徑。"
+      "en-US": "SASP cytokines such as IL-6 and IL-8 induce acid ceramidase in bystander cells. The secretory program of senescence therefore rewires neighbouring membranes toward a pro-ferroptotic state, extending the damage beyond the cells that actually senesced. This is the paracrine route by which a small senescent population can sensitize a whole tissue. SASP cytokines IL-6 and IL-8 induce ACase upregulation and ferroptotic sensitization in neighboring proliferative cells via paracrine signaling.",
+      "zh-TW": "SASP 中的細胞激素（如 IL-6 與 IL-8）會在旁觀細胞中誘導酸性神經醯胺酶。衰老的分泌程序因此會把鄰近細胞的膜重新設定為促鐵死亡狀態，使損傷超出真正進入衰老的那些細胞。這是少數衰老細胞可以使整個組織敏感的旁分泌途徑。 SASP 細胞激素 IL-6 與 IL-8 透過旁分泌訊號，誘導鄰近增生細胞中 ACase 的上調與鐵蛋白死亡（ferroptosis）敏感化。"
     },
     "confidence": 0.8,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "585311dbde38",
@@ -8633,20 +8339,6 @@
       "zh-TW": "cGAS-STING 軸是 wiki 語料貢獻給老化／衰老核心的機制性過程詞彙；cGAS 與 STING 都深陷在聯集圖的緻密核心中（k-core 分別為 18 與 16），而非掛在外圍。cGAS 感測細胞質中的 DNA 並透過 STING 傳遞訊號，這也是兩者會以相鄰高節點度身分出現的原因。"
     },
     "confidence": 0.75,
-    "source_document": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
-    "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
-  },
-  {
-    "id": "2cfa115da8d4",
-    "subject": "NMN",
-    "predicate": "is_a_precursor_of",
-    "object": "NAD+",
-    "context": {
-      "en-US": "NMN appears in the combined graph as part of the mechanistic/process vocabulary (NMN/NAD+) that the wiki corpus added and the triples extraction had under-represented, ranking among the top wiki-only nodes by degree and by PageRank. Mechanistically it sits on the NAD+ biosynthesis side, so the pair is treated as a precursor relationship rather than a flat association. Its k-core of 19 places it deep inside the union's core rather than in the periphery.",
-      "zh-TW": "NMN 在合併圖中屬於 wiki 語料新增、而 triples 擷取先前低估的機制／過程詞彙（NMN/NAD+），並在 wiki-only 節點中同時以節點度與 PageRank 排名前列。從機制上看，它位於 NAD+ 生合成的上游，因此這對節點被視為前驅物關係，而非單純的關聯。其 k-core 為 19，顯示它深陷聯集核心而非位於外圍。"
-    },
-    "confidence": 0.5,
     "source_document": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
     "created": "2026-09-27T03:09:16Z",
     "updated": "2026-09-27T03:09:16Z"

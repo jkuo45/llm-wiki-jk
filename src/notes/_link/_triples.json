@@ -117,27 +117,13 @@
     "predicate": "breaks_down",
     "object": "Ceramide",
     "context": {
-      "en-US": "Acid ceramidase (ACase, encoded by ASAH1) is the lysosomal enzyme that breaks down ceramide into sphingosine and free fatty acids. By controlling ceramide levels, ACase affects the abundance of many lipid species relevant to cell fate decisions, including sphingomyelin, ceramide-1-phosphate, and free fatty acids. In the context of replicative senescence, this ceramide catabolism releases free saturated and monounsaturated fatty acids that feed polyunsaturated fatty acid (PUFA) and PUFA-phospholipid synthesis, remodeling the membrane lipid profile.",
-      "zh-TW": "酸甘油酯酶 (ACase, 编码基因 ASAH1) 是一种溶酶体酶，它将甘油酯分解为神经因子和游离脂肪酸。通过控制甘油酯水平，ACase 影响了许多与细胞命运决策相关的脂质物种的丰度，包括神经因子-1-磷酸酯和游离脂肪酸。在复制性衰老的情况下，这种甘油酯分解释放出饱和和单不饱和脂肪酸，这些脂肪酸为不饱和脂肪酸 (PUFA) 和 PUFA-磷脂合成提供营养，从而重塑膜脂质谱。"
+      "en-US": "Acid ceramidase (ACase, encoded by ASAH1) is the lysosomal enzyme that breaks down ceramide into sphingosine and free fatty acids. By controlling ceramide levels, ACase affects the abundance of many lipid species relevant to cell fate decisions, including sphingomyelin, ceramide-1-phosphate, and free fatty acids. In the context of replicative senescence, this ceramide catabolism releases free saturated and monounsaturated fatty acids that feed polyunsaturated fatty acid (PUFA) and PUFA-phospholipid synthesis, remodeling the membrane lipid profile. Acid ceramidase breaks down ceramides into sphingosine and free fatty acids, reshaping membrane lipid composition. In senescent cells, progressively higher expression of this enzyme drives a pro-ferroptotic lipid profile rich in polyunsaturated fatty acids - the preferred substrates for lipid peroxidation. Salk Institute researchers studying human lung cells discovered that elevated acid ceramidase makes senescent cells more susceptible to ferroptosis and that removal of the enzyme protects both young and old cells from ferroptosis-induced death. Because acid ceramidase inhibitors already exist for other therapeutic purposes, the enzyme represents a druggable target for clearing senescent cells and supporting healthy aging.",
+      "zh-TW": "酸甘油酯酶 (ACase, 编码基因 ASAH1) 是一种溶酶体酶，它将甘油酯分解为神经因子和游离脂肪酸。通过控制甘油酯水平，ACase 影响了许多与细胞命运决策相关的脂质物种的丰度，包括神经因子-1-磷酸酯和游离脂肪酸。在复制性衰老的情况下，这种甘油酯分解释放出饱和和单不饱和脂肪酸，这些脂肪酸为不饱和脂肪酸 (PUFA) 和 PUFA-磷脂合成提供营养，从而重塑膜脂质谱。 酸陶瓷酶將絲胺類分解成腎上腺素和自由脂肪酸，重塑膜脂類組成。在老化的細胞中，這種酶的表達水平隨著時間推移而升高，導致富含不飽和脂肪酸的促進焦蛋白死亡的脂類型態 - 這是脂質過氧化反應的理想底物。沙鹿研究所研究員在研究人類肺細胞時發現，升高後的酸陶瓷酶使老化的細胞更容易受到焦蛋白死亡的影響，並且去除這種酶可以保護年輕和年老的細胞免受焦蛋白誘導的死亡。因為酸陶瓷酶抑制劑已經存在於其他治療用途中，因此這種酶是一個可藥物標靶的目標，可以用於清除老化的細胞並支持健康老齡化。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "2752181d7d42",
-    "subject": "Acid ceramidase",
-    "predicate": "hydrolyzes",
-    "object": "Ceramide",
-    "context": {
-      "en-US": "Acid ceramidase breaks down ceramides into sphingosine and free fatty acids, reshaping membrane lipid composition. In senescent cells, progressively higher expression of this enzyme drives a pro-ferroptotic lipid profile rich in polyunsaturated fatty acids - the preferred substrates for lipid peroxidation. Salk Institute researchers studying human lung cells discovered that elevated acid ceramidase makes senescent cells more susceptible to ferroptosis and that removal of the enzyme protects both young and old cells from ferroptosis-induced death. Because acid ceramidase inhibitors already exist for other therapeutic purposes, the enzyme represents a druggable target for clearing senescent cells and supporting healthy aging.",
-      "zh-TW": "酸陶瓷酶將絲胺類分解成腎上腺素和自由脂肪酸，重塑膜脂類組成。在老化的細胞中，這種酶的表達水平隨著時間推移而升高，導致富含不飽和脂肪酸的促進焦蛋白死亡的脂類型態 - 這是脂質過氧化反應的理想底物。沙鹿研究所研究員在研究人類肺細胞時發現，升高後的酸陶瓷酶使老化的細胞更容易受到焦蛋白死亡的影響，並且去除這種酶可以保護年輕和年老的細胞免受焦蛋白誘導的死亡。因為酸陶瓷酶抑制劑已經存在於其他治療用途中，因此這種酶是一個可藥物標靶的目標，可以用於清除老化的細胞並支持健康老齡化。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Could this enzyme help remove \"zombie\" cells from our tissues?.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "345bba26a7c3",
@@ -145,27 +131,13 @@
     "predicate": "promotes",
     "object": "Ferroptosis",
     "context": {
-      "en-US": "Elevated levels of acid ceramidase make senescent cells more susceptible to ferroptosis, a regulated, iron-dependent cell death pathway driven by toxic accumulation of lipid peroxides. The enzyme promotes ferroptosis by breaking down ceramides into sphingosine and free fatty acids, reshaping membrane lipid composition toward a pro-ferroptotic profile rich in polyunsaturated fatty acids, the preferred substrates for lipid peroxidation. Removing acid ceramidase from cells protected both young and old cells from induced ferroptosis. This represents a novel, GPX4/GSH-independent axis that modulates lipid metabolism rather than iron or glutathione levels, and makes acid ceramidase a promising senolytic target.",
-      "zh-TW": "酸性神經醯胺酶（acid ceramidase）濃度升高使衰老細胞更容易發生鐵依賴性細胞死亡（ferroptosis）——一種由脂質過氧化物毒性累積所驅動的受調控、鐵依賴性細胞死亡途徑。該酶透過將神經醯胺分解為鞘氨醇（sphingosine）與游離脂肪酸來促進鐵依賴性細胞死亡，重塑膜脂質組成，使其轉向富含多元不飽和脂肪酸（脂質過氧化之偏好受質）的促鐵依賴性細胞死亡特徵。從細胞中移除酸性神經醯胺酶可保護年輕與衰老細胞免受誘導性鐵依賴性細胞死亡。這代表一條新穎、獨立於GPX4/GSH的調控軸，其作用在於調節脂質代謝而非鐵或穀胱甘肽濃度，也使酸性神經醯胺酶成為具潛力的衰老細胞清除（senolytic）標靶。"
+      "en-US": "Elevated levels of acid ceramidase make senescent cells more susceptible to ferroptosis, a regulated, iron-dependent cell death pathway driven by toxic accumulation of lipid peroxides. The enzyme promotes ferroptosis by breaking down ceramides into sphingosine and free fatty acids, reshaping membrane lipid composition toward a pro-ferroptotic profile rich in polyunsaturated fatty acids, the preferred substrates for lipid peroxidation. Removing acid ceramidase from cells protected both young and old cells from induced ferroptosis. This represents a novel, GPX4/GSH-independent axis that modulates lipid metabolism rather than iron or glutathione levels, and makes acid ceramidase a promising senolytic target. Acid ceramidase (ACase) upregulation in replicatively senescent cells drives increased sensitivity to ferroptosis, an iron-dependent regulated cell death driven by lipid peroxidation. Over-expression of ACase amplifies ceramide lipolysis, releasing free saturated and monounsaturated fatty acids that are exchanged into sn-2 polyunsaturated fatty acid phospholipids (PL-PUFAs) - the substrates of lipid peroxidation - creating a pro-ferroptotic membrane lipid profile. Conversely, knockdown or chemical inhibition of ACase protects both proliferative and senescent cells against RSL3-induced ferroptosis by decreasing the PL-PUFA substrate pool.",
+      "zh-TW": "酸性神經醯胺酶（acid ceramidase）濃度升高使衰老細胞更容易發生鐵依賴性細胞死亡（ferroptosis）——一種由脂質過氧化物毒性累積所驅動的受調控、鐵依賴性細胞死亡途徑。該酶透過將神經醯胺分解為鞘氨醇（sphingosine）與游離脂肪酸來促進鐵依賴性細胞死亡，重塑膜脂質組成，使其轉向富含多元不飽和脂肪酸（脂質過氧化之偏好受質）的促鐵依賴性細胞死亡特徵。從細胞中移除酸性神經醯胺酶可保護年輕與衰老細胞免受誘導性鐵依賴性細胞死亡。這代表一條新穎、獨立於GPX4/GSH的調控軸，其作用在於調節脂質代謝而非鐵或穀胱甘肽濃度，也使酸性神經醯胺酶成為具潛力的衰老細胞清除（senolytic）標靶。 酸甘油酯酶 (ACase) 在複製衰老細胞中誘導升高，導致對鐵死亡 (ferroptosis) 的敏感度增加，鐵依賴的調節性細胞凋亡是由脂質過氧化引起的。ACase 過表達會放大甘油酯水解，釋放飽和和單不飽和脂肪酸，這些脂肪酸被轉化為 sn-2 不飽和脂肪酸磷脂 (PL-PUFAs) - 脂質過氧化物的底物，從而產生促進鐵死亡的膜脂質型態。相反地，針對 ACase 的敲低或化學抑制可以通過降低 PL-PUFAs 底物池來保護增生性和衰老細胞免受 RSL3 誘導的鐵死亡。"
     },
     "confidence": 0.92,
     "source_document": "_document_ - Could this enzyme help remove \"zombie\" cells from our tissues?.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "50d646abd6ed",
-    "subject": "Acid ceramidase",
-    "predicate": "sensitizes_to",
-    "object": "Ferroptosis",
-    "context": {
-      "en-US": "Acid ceramidase (ACase) upregulation in replicatively senescent cells drives increased sensitivity to ferroptosis, an iron-dependent regulated cell death driven by lipid peroxidation. Over-expression of ACase amplifies ceramide lipolysis, releasing free saturated and monounsaturated fatty acids that are exchanged into sn-2 polyunsaturated fatty acid phospholipids (PL-PUFAs) - the substrates of lipid peroxidation - creating a pro-ferroptotic membrane lipid profile. Conversely, knockdown or chemical inhibition of ACase protects both proliferative and senescent cells against RSL3-induced ferroptosis by decreasing the PL-PUFA substrate pool.",
-      "zh-TW": "酸甘油酯酶 (ACase) 在複製衰老細胞中誘導升高，導致對鐵死亡 (ferroptosis) 的敏感度增加，鐵依賴的調節性細胞凋亡是由脂質過氧化引起的。ACase 過表達會放大甘油酯水解，釋放飽和和單不飽和脂肪酸，這些脂肪酸被轉化為 sn-2 不飽和脂肪酸磷脂 (PL-PUFAs) - 脂質過氧化物的底物，從而產生促進鐵死亡的膜脂質型態。相反地，針對 ACase 的敲低或化學抑制可以通過降低 PL-PUFAs 底物池來保護增生性和衰老細胞免受 RSL3 誘導的鐵死亡。"
-    },
-    "confidence": 0.94,
-    "source_document": "_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "57c99cc9ce3c",
@@ -187,27 +159,13 @@
     "predicate": "acts_independently_of",
     "object": "GPX4",
     "context": {
-      "en-US": "The anti-ferroptotic protection conferred by acid ceramidase (ACase) knockdown is independent of the GPX4/glutathione (GSH) axis. Senescent cells had higher basal GSH and elevated GPX4 protein, yet ACase silencing reduced GPX4 expression while still protecting against RSL3-induced cell death. Even when GSH was depleted with buthionine sulfoximine (BSO), ACase knockdown conferred strong resistance to RSL3. The GSH/GPX4 changes therefore appear to be consequences of attenuated ferroptotic pressure rather than the protective mechanism itself, placing ACase upstream of these classic ferroptosis elements.",
-      "zh-TW": "酸性膽鹼酯酶 (ACase) 下調所提供的抗鐵滅細胞保護與 GPX4/谷胱甘鐵 (GSH) 軸無關。衰老細胞具有更高的基線 GSH 和升高的 GPX4 蛋白，但 ACase  silencing 降低了 GPX4 的表達，同時仍然保護免受 RSL3 誘導的細胞死亡。即使 GSH 被丁硫磺辛胺 (BSO) 耗盡，ACase 下調仍然能強烈抵抗 RSL3。因此，GSH/GPX4 的變化似乎是 attenuated 的鐵滅細胞壓力造成的結果，而不是保護機制本身，這表明 ACase 在這些經典鐵滅細胞元素之前。"
+      "en-US": "The anti-ferroptotic protection conferred by acid ceramidase (ACase) knockdown is independent of the GPX4/glutathione (GSH) axis. Senescent cells had higher basal GSH and elevated GPX4 protein, yet ACase silencing reduced GPX4 expression while still protecting against RSL3-induced cell death. Even when GSH was depleted with buthionine sulfoximine (BSO), ACase knockdown conferred strong resistance to RSL3. The GSH/GPX4 changes therefore appear to be consequences of attenuated ferroptotic pressure rather than the protective mechanism itself, placing ACase upstream of these classic ferroptosis elements. Acid ceramidase sensitizes cells to ferroptosis through an entirely novel pathway independent of the mechanisms usually associated with ferroptosis-induced cell death - it does not involve changes in iron or glutathione levels but instead modulates lipid metabolism. This distinguishes it from canonical ferroptosis, which is suppressed by GPX4 and glutathione. Because the acid-ceramidase axis operates through ceramide hydrolysis and membrane PUFA enrichment rather than through GPX4/GSH regulation, it opens a separate druggable route for triggering ferroptosis in senescent cells. First author David Soriano-Castell highlighted this as an entirely novel, GPX4/GSH-independent mechanism.",
+      "zh-TW": "酸性膽鹼酯酶 (ACase) 下調所提供的抗鐵滅細胞保護與 GPX4/谷胱甘鐵 (GSH) 軸無關。衰老細胞具有更高的基線 GSH 和升高的 GPX4 蛋白，但 ACase  silencing 降低了 GPX4 的表達，同時仍然保護免受 RSL3 誘導的細胞死亡。即使 GSH 被丁硫磺辛胺 (BSO) 耗盡，ACase 下調仍然能強烈抵抗 RSL3。因此，GSH/GPX4 的變化似乎是 attenuated 的鐵滅細胞壓力造成的結果，而不是保護機制本身，這表明 ACase 在這些經典鐵滅細胞元素之前。 酸陶瓷酶使細胞對焦蛋白死亡反應敏感，透過一種完全嶄新的、與焦蛋白誘導細胞死亡機制無關的途徑 - 它不涉及鐵或谷胱甘鐵的變化，而是調節脂類代謝。這與焦蛋白的經典反應有所區別，後者受 GPX4 和谷胱甘鐵抑制，因為酸陶瓷酶軸系通過絲胺類水解和膜 PUFA 濃縮而非通過 GPX4/GSH 調節而運作，這為在老化的細胞中觸發焦蛋白死亡打開了另一個可藥物標靶的途徑。第一作者大衛·索里亞諾-卡斯特列爾強調了這是一個完全嶄新、與 GPX4/GSH 無關的機制。"
     },
     "confidence": 0.93,
     "source_document": "_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "713063535502",
-    "subject": "Acid ceramidase",
-    "predicate": "bypasses",
-    "object": "GPX4",
-    "context": {
-      "en-US": "Acid ceramidase sensitizes cells to ferroptosis through an entirely novel pathway independent of the mechanisms usually associated with ferroptosis-induced cell death - it does not involve changes in iron or glutathione levels but instead modulates lipid metabolism. This distinguishes it from canonical ferroptosis, which is suppressed by GPX4 and glutathione. Because the acid-ceramidase axis operates through ceramide hydrolysis and membrane PUFA enrichment rather than through GPX4/GSH regulation, it opens a separate druggable route for triggering ferroptosis in senescent cells. First author David Soriano-Castell highlighted this as an entirely novel, GPX4/GSH-independent mechanism.",
-      "zh-TW": "酸陶瓷酶使細胞對焦蛋白死亡反應敏感，透過一種完全嶄新的、與焦蛋白誘導細胞死亡機制無關的途徑 - 它不涉及鐵或谷胱甘鐵的變化，而是調節脂類代謝。這與焦蛋白的經典反應有所區別，後者受 GPX4 和谷胱甘鐵抑制，因為酸陶瓷酶軸系通過絲胺類水解和膜 PUFA 濃縮而非通過 GPX4/GSH 調節而運作，這為在老化的細胞中觸發焦蛋白死亡打開了另一個可藥物標靶的途徑。第一作者大衛·索里亞諾-卡斯特列爾強調了這是一個完全嶄新、與 GPX4/GSH 無關的機制。"
-    },
-    "confidence": 0.85,
-    "source_document": "_document_ - Could this enzyme help remove \"zombie\" cells from our tissues?.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "cd9da1550386",
@@ -635,27 +593,13 @@
     "predicate": "improves",
     "object": "Albuminuria",
     "context": {
-      "en-US": "Trials conducted by the Alteon Corporation indicate that aminoguanidine can significantly reduce albuminuria, proteins present in urine usually as a result of kidney disease, delay the onset of end-stage renal disease, and improve the cholesterol profiles of diabetic patients. Diabetic clinical trials have also highlighted aminoguanidine's ability to prevent oxidative modification of LDL and inhibit the formation of atherosclerotic plaques. A number of studies with diabetic rats indicate that aminoguanidine-administered rats have significantly superior survival rates than untreated animals.",
-      "zh-TW": "由 Alteon Corporation 進行的臨床試驗顯示，氨基胍可以顯著降低尿素氮，這是通常由腎臟疾病引起的蛋白質，延遲末期腎臟疾病的發病，並改善糖尿病患者的膽固醇型態。糖尿病臨床試驗也突顯了氨基胍預防氧化修飾 LDL 以及抑制動脈粥樣性變性斑塊的功效。多項關於糖尿病大鼠的研究表明，給予氨基胍的實驗鼠與未經治療的動物相比，存活率顯著更高。"
+      "en-US": "Trials conducted by the Alteon Corporation indicate that aminoguanidine can significantly reduce albuminuria, proteins present in urine usually as a result of kidney disease, delay the onset of end-stage renal disease, and improve the cholesterol profiles of diabetic patients. Diabetic clinical trials have also highlighted aminoguanidine's ability to prevent oxidative modification of LDL and inhibit the formation of atherosclerotic plaques. A number of studies with diabetic rats indicate that aminoguanidine-administered rats have significantly superior survival rates than untreated animals. Trials conducted by the Alteon Corporation indicate that aminoguanidine can significantly reduce albuminuria, delay the onset of end-stage renal disease, and improve the cholesterol profiles of diabetic patients. Diabetic clinical trials have also highlighted aminoguanidine's ability to prevent oxidative modification of LDL and inhibit the formation of atherosclerotic plaques. Together these findings show aminoguanidine acts to improve heart and arterial condition not just by preventing proteins from cross-linking but also by decreasing the AGE-induced cross-linking of the extra-cellular matrix.",
+      "zh-TW": "由 Alteon Corporation 進行的臨床試驗顯示，氨基胍可以顯著降低尿素氮，這是通常由腎臟疾病引起的蛋白質，延遲末期腎臟疾病的發病，並改善糖尿病患者的膽固醇型態。糖尿病臨床試驗也突顯了氨基胍預防氧化修飾 LDL 以及抑制動脈粥樣性變性斑塊的功效。多項關於糖尿病大鼠的研究表明，給予氨基胍的實驗鼠與未經治療的動物相比，存活率顯著更高。 由 Alteon 公司的临床试验表明，氨基胍可以显著降低尿素氮，延缓终末期肾脏疾病的发生，并改善糖尿病患者的胆固醇水平。糖尿病临床试验也突出了氨基胍预防氧化修饰 LDL 的能力，并抑制动脉粥样硬性病变的形成。这些发现表明，氨基胍通过防止蛋白质的交联以及降低 AGE 诱导的细胞外基质交联来改善心脏和血管状况，不仅如此。"
     },
     "confidence": 0.93,
     "source_document": "_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T04:58:59Z"
-  },
-  {
-    "id": "eaa28e3ce430",
-    "subject": "Aminoguanidine",
-    "predicate": "prevents",
-    "object": "Albuminuria",
-    "context": {
-      "en-US": "Trials conducted by the Alteon Corporation indicate that aminoguanidine can significantly reduce albuminuria, delay the onset of end-stage renal disease, and improve the cholesterol profiles of diabetic patients. Diabetic clinical trials have also highlighted aminoguanidine's ability to prevent oxidative modification of LDL and inhibit the formation of atherosclerotic plaques. Together these findings show aminoguanidine acts to improve heart and arterial condition not just by preventing proteins from cross-linking but also by decreasing the AGE-induced cross-linking of the extra-cellular matrix.",
-      "zh-TW": "由 Alteon 公司的临床试验表明，氨基胍可以显著降低尿素氮，延缓终末期肾脏疾病的发生，并改善糖尿病患者的胆固醇水平。糖尿病临床试验也突出了氨基胍预防氧化修饰 LDL 的能力，并抑制动脉粥样硬性病变的形成。这些发现表明，氨基胍通过防止蛋白质的交联以及降低 AGE 诱导的细胞外基质交联来改善心脏和血管状况，不仅如此。"
-    },
-    "confidence": 0.92,
-    "source_document": "_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T04:58:59Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "eeacc5e9bd00",
@@ -1307,27 +1251,13 @@
     "predicate": "binds",
     "object": "PRDX6",
     "context": {
-      "en-US": "Apigenin directly binds peroxiredoxin 6 (PRDX6), identified as its bona fide molecular target through two affinity-based approaches: biotin-tagged apigenin pull-down (Bio-APIG) and drug affinity responsive target stability (DARTS). Binding was confirmed by cellular thermal shift assay, surface plasmon resonance (KD ~ 0.237 uM) and microscale thermophoresis (Kd ~ 916 nM). In silico modelling indicates direct hydrogen bonds with Cys91 and Glu210 of PRDX6; mutating either residue weakens binding ~10-fold and mutating both abolishes it. This is the primary upstream molecular interaction underlying apigenin's senomorphic activity.",
-      "zh-TW": "阿皮格寧直接與過氧化物歧化酶 6 (PRDX6) 結合，該酶已透過兩種基於親和力的方法被確認為其真實的分子靶標：標記為生物ட்டின்的阿皮格寧拉下 (Bio-APIG) 和藥物親和力反應性靶標穩定性 (DARTS)。結合已通過細胞熱變變異法、表面等離子共振 (KD ~ 0.237 uM) 和微尺度熱光學法 (Kd ~ 916 nM) 進行確認。計算機模型顯示與 PRDX6 的 Cys91 和 Glu210 之間存在直接的氫鍵；變更其中任何一個殘基會使結合力減弱約 10 倍，而變更兩個殘基則會完全消除它。這是阿皮格寧的促衰作用的主要上游分子相互作用。"
+      "en-US": "Apigenin directly binds peroxiredoxin 6 (PRDX6), identified as its bona fide molecular target through two affinity-based approaches: biotin-tagged apigenin pull-down (Bio-APIG) and drug affinity responsive target stability (DARTS). Binding was confirmed by cellular thermal shift assay, surface plasmon resonance (KD ~ 0.237 uM) and microscale thermophoresis (Kd ~ 916 nM). In silico modelling indicates direct hydrogen bonds with Cys91 and Glu210 of PRDX6; mutating either residue weakens binding ~10-fold and mutating both abolishes it. This is the primary upstream molecular interaction underlying apigenin's senomorphic activity. Among PRDX6's three enzymatic activities (peroxidase, acidic calcium-independent phospholipase A2 / aiPLA2, and lysophosphatidylcholine acyltransferase), apigenin selectively suppresses the iPLA2 activity. Unlike NAC, a selective peroxidase inhibitor (IC50 = 15.5 µM for H2O2 clearance), apigenin only modestly impairs H2O2 scavenging (IC50 = 49.5 µM), indicating its SASP-dampening effect does not depend on peroxidase function. Instead, blocking the PLA2 arm of PRDX6 curbs production of pro-inflammatory arachidonic acid and downstream signaling.",
+      "zh-TW": "阿皮格寧直接與過氧化物歧化酶 6 (PRDX6) 結合，該酶已透過兩種基於親和力的方法被確認為其真實的分子靶標：標記為生物ட்டின்的阿皮格寧拉下 (Bio-APIG) 和藥物親和力反應性靶標穩定性 (DARTS)。結合已通過細胞熱變變異法、表面等離子共振 (KD ~ 0.237 uM) 和微尺度熱光學法 (Kd ~ 916 nM) 進行確認。計算機模型顯示與 PRDX6 的 Cys91 和 Glu210 之間存在直接的氫鍵；變更其中任何一個殘基會使結合力減弱約 10 倍，而變更兩個殘基則會完全消除它。這是阿皮格寧的促衰作用的主要上游分子相互作用。 在PRDX6的三種酵素活性（過氧化物酶、酸性鈣非依賴性磷脂酶A2 / aiPLA2，以及溶血磷脂醯膽鹼醯基轉移酶）中，芹菜素選擇性地抑制iPLA2活性。不同於選擇性過氧化物酶抑制劑NAC（清除H2O2的IC50 = 15.5 µM），芹菜素僅溫和地削弱H2O2清除能力（IC50 = 49.5 µM），顯示其抑制SASP的效果並不依賴過氧化物酶功能。相反地，阻斷PRDX6的PLA2分支可抑制促發炎花生四烯酸及其下游訊息傳導的產生。"
     },
     "confidence": 0.96,
     "source_document": "_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:03:16Z"
-  },
-  {
-    "id": "7c5627245ca8",
-    "subject": "Apigenin",
-    "predicate": "inhibits_ipla2_activity_of",
-    "object": "PRDX6",
-    "context": {
-      "en-US": "Among PRDX6's three enzymatic activities (peroxidase, acidic calcium-independent phospholipase A2 / aiPLA2, and lysophosphatidylcholine acyltransferase), apigenin selectively suppresses the iPLA2 activity. Unlike NAC, a selective peroxidase inhibitor (IC50 = 15.5 µM for H2O2 clearance), apigenin only modestly impairs H2O2 scavenging (IC50 = 49.5 µM), indicating its SASP-dampening effect does not depend on peroxidase function. Instead, blocking the PLA2 arm of PRDX6 curbs production of pro-inflammatory arachidonic acid and downstream signaling.",
-      "zh-TW": "在PRDX6的三種酵素活性（過氧化物酶、酸性鈣非依賴性磷脂酶A2 / aiPLA2，以及溶血磷脂醯膽鹼醯基轉移酶）中，芹菜素選擇性地抑制iPLA2活性。不同於選擇性過氧化物酶抑制劑NAC（清除H2O2的IC50 = 15.5 µM），芹菜素僅溫和地削弱H2O2清除能力（IC50 = 49.5 µM），顯示其抑制SASP的效果並不依賴過氧化物酶功能。相反地，阻斷PRDX6的PLA2分支可抑制促發炎花生四烯酸及其下游訊息傳導的產生。"
-    },
-    "confidence": 0.93,
-    "source_document": "_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:41:58Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "832014dd4f93",
@@ -1335,27 +1265,13 @@
     "predicate": "blocks_transition_to",
     "object": "SASP",
     "context": {
-      "en-US": "Apigenin prevents progression of the acute stress-associated phenotype (ASAP) into the chronic, pro-inflammatory SASP. The ASAP is the immediate cellular reaction to genotoxic or environmental insult, characterized by ATM phosphorylation and nucleus-to-cytoplasm translocation, TRAF6 auto-ubiquitination and TAK1 activation, occurring before senescence markers become evident. Under bleomycin stress, TAK1 phosphorylation and subsequent p38 MAPK activation and PI3K/Akt/mTOR engagement normally sustain the secretory phenotype. Apigenin leaves ATM and TAK1 phosphorylation largely intact but blocks downstream transduction through HSPA8, halting the ASAP-to-SASP switch.",
-      "zh-TW": "阿皮ゲ寧可預防急性壓力相關表型 (ASAP) 轉化為慢性、促發炎的 SASP。 ASAP 是對基因毒性或環境刺激的即時細胞反應，其特徵是 ATM 磷酸化和核到細胞質的轉位、TRAF6 自體二聚化和 TAK1 活化，在衰老標誌物出現之前發生。 在 Bleomycin 壓力下， TAK1 磷酸化和隨後的 p38 MAPK 活化和 PI3K/Akt/mTOR 參與，通常維持分泌表型。 阿皮ゲ寧 讓 ATM 和 TAK1 磷酸化 largely intact，但卻阻斷通過 HSPA8 的下游轉導，從而阻止 ASAP 轉化為 SASP。"
+      "en-US": "Apigenin prevents progression of the acute stress-associated phenotype (ASAP) into the chronic, pro-inflammatory SASP. The ASAP is the immediate cellular reaction to genotoxic or environmental insult, characterized by ATM phosphorylation and nucleus-to-cytoplasm translocation, TRAF6 auto-ubiquitination and TAK1 activation, occurring before senescence markers become evident. Under bleomycin stress, TAK1 phosphorylation and subsequent p38 MAPK activation and PI3K/Akt/mTOR engagement normally sustain the secretory phenotype. Apigenin leaves ATM and TAK1 phosphorylation largely intact but blocks downstream transduction through HSPA8, halting the ASAP-to-SASP switch. At a minimally optimal concentration of 10 µM, apigenin dose-dependently decreases a broad set of canonical SASP factors including IL-6, IL-8/CXCL8, IL-1α, IL-1β, MMP1/MMP3, GM-CSF, TIMP1 and WNT16B, both at transcript and protein level across senescent PSC27, WI38 and IMR90 cells regardless of senescence-inducing modality (replicative, oncogene-induced, or therapy-induced) or organ origin. GSEA shows suppression of SASP and NF-κB signatures; KEGG analysis reveals inhibition of TNF and NF-κB signaling, cytokine-cytokine receptor interaction, and type I interferon pathways. Crucially, SA-β-Gal positivity and mitotic arrest remain unchanged, confirming SASP-selective senomorphic action.",
+      "zh-TW": "阿皮ゲ寧可預防急性壓力相關表型 (ASAP) 轉化為慢性、促發炎的 SASP。 ASAP 是對基因毒性或環境刺激的即時細胞反應，其特徵是 ATM 磷酸化和核到細胞質的轉位、TRAF6 自體二聚化和 TAK1 活化，在衰老標誌物出現之前發生。 在 Bleomycin 壓力下， TAK1 磷酸化和隨後的 p38 MAPK 活化和 PI3K/Akt/mTOR 參與，通常維持分泌表型。 阿皮ゲ寧 讓 ATM 和 TAK1 磷酸化 largely intact，但卻阻斷通過 HSPA8 的下游轉導，從而阻止 ASAP 轉化為 SASP。 在最低有效濃度10 µM下，芹菜素以劑量依賴方式降低一系列典型的SASP因子，包括IL-6、IL-8/CXCL8、IL-1α、IL-1β、MMP1/MMP3、GM-CSF、TIMP1與WNT16B，在轉錄與蛋白質層面皆然，且涵蓋衰老的PSC27、WI38與IMR90細胞，不受衰老誘導方式（複製性、致癌基因誘導或治療誘導）或器官來源影響。GSEA顯示SASP與NF-κB特徵受到抑制；KEGG分析則顯示TNF與NF-κB訊息傳導、細胞激素-細胞激素受體交互作用及第一型干擾素途徑受到抑制。關鍵的是，SA-β-Gal陽性與有絲分裂停滯保持不變，證實其為SASP選擇性的衰老形態調節作用。"
     },
     "confidence": 0.9,
     "source_document": "_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:03:16Z"
-  },
-  {
-    "id": "d945430dfa9b",
-    "subject": "Apigenin",
-    "predicate": "suppresses",
-    "object": "SASP",
-    "context": {
-      "en-US": "At a minimally optimal concentration of 10 µM, apigenin dose-dependently decreases a broad set of canonical SASP factors including IL-6, IL-8/CXCL8, IL-1α, IL-1β, MMP1/MMP3, GM-CSF, TIMP1 and WNT16B, both at transcript and protein level across senescent PSC27, WI38 and IMR90 cells regardless of senescence-inducing modality (replicative, oncogene-induced, or therapy-induced) or organ origin. GSEA shows suppression of SASP and NF-κB signatures; KEGG analysis reveals inhibition of TNF and NF-κB signaling, cytokine-cytokine receptor interaction, and type I interferon pathways. Crucially, SA-β-Gal positivity and mitotic arrest remain unchanged, confirming SASP-selective senomorphic action.",
-      "zh-TW": "在最低有效濃度10 µM下，芹菜素以劑量依賴方式降低一系列典型的SASP因子，包括IL-6、IL-8/CXCL8、IL-1α、IL-1β、MMP1/MMP3、GM-CSF、TIMP1與WNT16B，在轉錄與蛋白質層面皆然，且涵蓋衰老的PSC27、WI38與IMR90細胞，不受衰老誘導方式（複製性、致癌基因誘導或治療誘導）或器官來源影響。GSEA顯示SASP與NF-κB特徵受到抑制；KEGG分析則顯示TNF與NF-κB訊息傳導、細胞激素-細胞激素受體交互作用及第一型干擾素途徑受到抑制。關鍵的是，SA-β-Gal陽性與有絲分裂停滯保持不變，證實其為SASP選擇性的衰老形態調節作用。"
-    },
-    "confidence": 0.96,
-    "source_document": "_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:41:58Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "d822abe4bd3a",
@@ -3248,20 +3164,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "1b38e85c190e",
-    "subject": "dNTP",
-    "predicate": "is_synthesized_by",
-    "object": "Ribonucleotide Reductase",
-    "context": {
-      "en-US": "dNTPs (dATP, dGTP, dCTP, dTTP) are the four deoxyribose building blocks of DNA, produced de novo by ribonucleotide reductase via reduction of NDPs to dNDPs followed by phosphorylation. RNR is the rate-limiting, allosterically committed step of this synthesis.",
-      "zh-TW": "dNTP（dATP、dGTP、dCTP、dTTP）是 DNA 的四種去氧核糖建構單元，由核醣核苷酸還原酶將 NDP 還原為 dNDP 再經磷酸化而 de novo 合成。RNR 是此合成中速率限制、別構承諾的步驟。"
-    },
-    "confidence": 0.95,
-    "source_document": "dNTP.md",
-    "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "2bd4a9876fc5",
     "subject": "Double-Strand Break",
     "predicate": "triggers",
@@ -3631,13 +3533,13 @@
     "predicate": "increases",
     "object": "Resting Metabolic Rate",
     "context": {
-      "en-US": "Exercise causes a transient but significant elevation of resting metabolic rate that outlasts the exercise bout itself. A number of studies show RMR is increased for at least 24-48 hours following vigorous exercise, and residual increases are detectable even up to 3 days after a single session in some protocols. The elevation appears largely independent of the intensity of the exercise, with high-intensity interval exercise providing comparable post-exercise energy expenditure to continuous moderate exercise when matched for work. This post-exercise elevation is one mechanism by which physical activity raises daily energy expenditure beyond the direct cost of the exercise itself.",
-      "zh-TW": "運動會引起短暫但顯著的靜止代謝率升高，且持續時間超過運動本身。多項研究顯示，劇烈運動後至少24–48小時內RMR會升高，在某些實驗方案中，單次運動後殘餘升高甚至可偵測至3天。此升高似乎大致與運動強度無關，在總作功量匹配下，高強度間歇運動與連續中等強度運動所提供的運動後能量消耗相當。這種運動後升高是身體活動在運動本身直接成本之外提高每日能量消耗的機制之一。"
+      "en-US": "Exercise causes a transient but significant elevation of resting metabolic rate that outlasts the exercise bout itself. A number of studies show RMR is increased for at least 24-48 hours following vigorous exercise, and residual increases are detectable even up to 3 days after a single session in some protocols. The elevation appears largely independent of the intensity of the exercise, with high-intensity interval exercise providing comparable post-exercise energy expenditure to continuous moderate exercise when matched for work. This post-exercise elevation is one mechanism by which physical activity raises daily energy expenditure beyond the direct cost of the exercise itself. After a single session of aerobic exercise, resting metabolic rate remains elevated above baseline for a period of 24 to 48 hours in young individuals. Studies summarized by Speakman show that following moderate exercise, RMR increased by roughly 3-8 percent over the subsequent day, and residual effects could still be measured up to 48 hours post-exercise, in some cases lasting three days. The magnitude and duration of this elevation depend on exercise protocol and subject fitness, and it is thought to reflect recovery processes, elevated sympathetic tone, and increased substrate cycling in the post-exercise period.",
+      "zh-TW": "運動會引起短暫但顯著的靜止代謝率升高，且持續時間超過運動本身。多項研究顯示，劇烈運動後至少24–48小時內RMR會升高，在某些實驗方案中，單次運動後殘餘升高甚至可偵測至3天。此升高似乎大致與運動強度無關，在總作功量匹配下，高強度間歇運動與連續中等強度運動所提供的運動後能量消耗相當。這種運動後升高是身體活動在運動本身直接成本之外提高每日能量消耗的機制之一。 在年輕個體中，一次有氧運動後，靜息代謝率在基線以上保持升高24至48小時。Speakman總結的研究表明，在適度運動後，RMR在第二天大約增加了3-8%，殘餘效應在運動後48小時仍可測量，在某些情況下持續三天。這種升高的幅度和持續時間取決於運動方案和受試者的健康狀況，據認為反映了恢復過程、交感神經張力升高和運動後時期底物循環的增加。"
     },
     "confidence": 0.94,
     "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:46:48Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "152fb3cb040e",
@@ -3735,20 +3637,6 @@
     "confidence": 0.9,
     "source_document": "Vinblastine.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "e562495725af",
-    "subject": "Ferroptosis",
-    "predicate": "suppressed_by",
-    "object": "FSP1",
-    "context": {
-      "en-US": "Ferroptosis is held in check by two parallel systems: the canonical GPX4–glutathione axis and the GPX4-independent FSP1–CoQ10–NAD(P)H axis. FSP1 suppresses ferroptosis by maintaining a ubiquinol radical trap at the plasma membrane, so loss of FSP1 alone is survivable only if GPX4 is intact.",
-      "zh-TW": "鐵死亡受到兩個平行系統的抑制：典型的 GPX4–glutathione 軸，以及不依賴 GPX4 的 FSP1–CoQ10–NAD(P)H 軸。FSP1 透過在質膜上維持泛醇自由基陷阱來抑制鐵死亡，因此只有在 GPX4 完整時，單獨喪失 FSP1 才可存活。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-    "created": "2026-08-24T21:24:43Z",
     "updated": "2026-09-02T07:19:21Z"
   },
   {
@@ -4135,13 +4023,13 @@
     "predicate": "suppresses",
     "object": "Ferroptosis",
     "context": {
-      "en-US": "By regenerating ubiquinol (CoQ10H2) at the plasma membrane, FSP1 maintains a lipophilic radical-trapping antioxidant that halts the propagation of phospholipid peroxyl radicals, suppressing ferroptotic cell death independently of glutathione. It fully rescues lethality in GPX4-null cells.",
-      "zh-TW": "FSP1 在質膜上重新生成泛醇（CoQ10H2），維持脂溶性自由基捕獲抗氧化劑，中止磷脂過氧自由基的傳播，從而不依賴谷胱甘肽地抑制鐵死亡性細胞死亡。它在 GPX4 缺失的細胞中能完全挽救致死效應。"
+      "en-US": "By regenerating ubiquinol (CoQ10H2) at the plasma membrane, FSP1 maintains a lipophilic radical-trapping antioxidant that halts the propagation of phospholipid peroxyl radicals, suppressing ferroptotic cell death independently of glutathione. It fully rescues lethality in GPX4-null cells. Ferroptosis is held in check by two parallel systems: the canonical GPX4–glutathione axis and the GPX4-independent FSP1–CoQ10–NAD(P)H axis. FSP1 suppresses ferroptosis by maintaining a ubiquinol radical trap at the plasma membrane, so loss of FSP1 alone is survivable only if GPX4 is intact.",
+      "zh-TW": "FSP1 在質膜上重新生成泛醇（CoQ10H2），維持脂溶性自由基捕獲抗氧化劑，中止磷脂過氧自由基的傳播，從而不依賴谷胱甘肽地抑制鐵死亡性細胞死亡。它在 GPX4 缺失的細胞中能完全挽救致死效應。 鐵死亡受到兩個平行系統的抑制：典型的 GPX4–glutathione 軸，以及不依賴 GPX4 的 FSP1–CoQ10–NAD(P)H 軸。FSP1 透過在質膜上維持泛醇自由基陷阱來抑制鐵死亡，因此只有在 GPX4 完整時，單獨喪失 FSP1 才可存活。"
     },
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "a98b4f96e47e",
@@ -4165,20 +4053,6 @@
     "context": {
       "en-US": "FSP1 and GPX4 guard the same outcome — suppression of lethal lipid peroxidation — through independent chemistries and cofactor requirements. GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides; FSP1 is GSH-independent and maintains a preventive radical trap. Loss of either axis alone is survivable if the other is intact, so combined inhibition (e.g., iFSP1 + a GPX4 inhibitor) is strongly synergistic. || GPX4 and FSP1 both suppress lethal lipid peroxidation but via independent chemistries: GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides, whereas FSP1 is GSH-independent and maintains a preventive ubiquinol radical trap. Loss of either axis alone is tolerable if the other is intact, so combined inhibition is strongly synergistic.",
       "zh-TW": "FSP1 與 GPX4 守護同一結果——抑制致死的脂質過氧化——但透過各自獨立的化學機制與輔因子需求。GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物；FSP1 不依賴 GSH 並維持預防性的自由基陷阱。只要另一軸完整，單獨喪失任一軸都可存活，因此同時抑制兩者（例如 iFSP1 加上 GPX4 抑制劑）具有強烈協同效應。 || GPX4 與 FSP1 都抑制致死的脂質過氧化，但機制各自獨立：GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物，而 FSP1 不依賴 GSH 並維持預防性的泛醇自由基陷阱。只要另一軸完整，單獨喪失任一軸都可耐受，因此同時抑制兩者具有強烈協同效應。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-    "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "70d143dbc067",
-    "subject": "FSP1",
-    "predicate": "inhibited_by",
-    "object": "iFSP1",
-    "context": {
-      "en-US": "iFSP1, the first-in-class FSP1 inhibitor (IC50 ≈ 103 nM), binds human FSP1 at a pocket centered on residue F360 and blocks its NAD(P)H-dependent reduction of ubiquinone to ubiquinol, removing the GPX4-independent radical trap. Alone it is often insufficient in high-GPX4 cells but strongly synergizes with GPX4 or system Xc- inhibition to trigger ferroptosis.",
-      "zh-TW": "iFSP1 是第一個 FSP1 抑制劑（IC50 ≈ 103 nM），結合於人類 FSP1 以 F360 殘基為中心的口袋，鎖定並阻斷其依賴 NAD(P)H 將泛醌還原為泛醇的活性，移除不依賴 GPX4 的自由基陷阱。單獨使用在 GPX4 高表現細胞中往往不足，但與 GPX4 或 system Xc- 抑制劑合併時強烈協同誘發鐵死亡。"
     },
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
@@ -4228,32 +4102,18 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "cb286b9db4b7",
-    "subject": "FSP1",
-    "predicate": "is_activated_by",
-    "object": "PPARα",
-    "context": {
-      "en-US": "PPARα positively drives FSP1 expression; PPARα activators such as fenofibrate and bezafibrate raise FSP1 levels and increase ferroptosis resistance. Conversely, the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity, lowering FSP1 and sensitizing cells to ferroptosis.",
-      "zh-TW": "PPARα 正向驅動 FSP1 的表現；PPARα 活化劑如 fenofibrate 與 bezafibrate 會提升 FSP1 含量並增加鐵死亡抗性。相反地，MDM2/MDMX 複合物透過抑制 PPARα 活性來壓低 FSP1，使細胞對鐵死亡更敏感。"
-    },
-    "confidence": 0.75,
-    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-    "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "b98d3352a444",
     "subject": "FSP1",
     "predicate": "reduces_to_ubiquinol",
     "object": "Ubiquinone",
     "context": {
-      "en-US": "FSP1 catalyzes the reduction of oxidized ubiquinone (CoQ10) to ubiquinol (CoQ10H2) at the expense of NAD(P)H, regenerating the membrane-embedded radical-trapping antioxidant pool that terminates phospholipid peroxyl-radical chains during lipid peroxidation. This is mechanistically distinct from GPX4, which consumes Glutathione to repair pre-formed phospholipid hydroperoxides.",
-      "zh-TW": "FSP1 利用 NAD(P)H 將氧化的泛醌（CoQ10）還原為泛醇（CoQ10H2），重新生成膜內的自由基捕獲抗氧化劑池，終止脂質過氧化過程中的磷脂過氧自由基鏈。這在機制上不同於 GPX4——後者消耗 Glutathione 來修復已形成的磷脂氫過氧化物。"
+      "en-US": "FSP1 catalyzes the reduction of oxidized ubiquinone (CoQ10) to ubiquinol (CoQ10H2) at the expense of NAD(P)H, regenerating the membrane-embedded radical-trapping antioxidant pool that terminates phospholipid peroxyl-radical chains during lipid peroxidation. This is mechanistically distinct from GPX4, which consumes Glutathione to repair pre-formed phospholipid hydroperoxides. Ubiquinone (CoQ10, oxidized) is the direct electron acceptor for FSP1 at the plasma membrane; FSP1 reduces it to ubiquinol (CoQ10H2) using NAD(P)H. Ubiquinol then acts as the lipophilic radical-trapping antioxidant that terminates phospholipid peroxyl-radical chains, suppressing ferroptosis.",
+      "zh-TW": "FSP1 利用 NAD(P)H 將氧化的泛醌（CoQ10）還原為泛醇（CoQ10H2），重新生成膜內的自由基捕獲抗氧化劑池，終止脂質過氧化過程中的磷脂過氧自由基鏈。這在機制上不同於 GPX4——後者消耗 Glutathione 來修復已形成的磷脂氫過氧化物。 泛醌（CoQ10，氧化態）是 FSP1 在質膜上的直接電子受體；FSP1 利用 NAD(P)H 將其還原為泛醇（CoQ10H2）。隨後泛醇作為脂溶性自由基捕獲抗氧化劑，終止磷脂過氧自由基鏈，抑制鐵死亡。"
     },
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "244c9897c6a9",
@@ -4543,20 +4403,6 @@
     "context": {
       "en-US": "GPX4 (glutathione peroxidase 4) is the master negative regulator of ferroptosis: its selenium-dependent activity reduces phospholipid hydroperoxides to alcohols using Glutathione as cofactor, preventing the iron-dependent lipid peroxidation that drives ferroptotic membrane rupture. Inactivation of GPX4 (genetic, RSL3/ML162, or GSH depletion) is sufficient to trigger ferroptosis.",
       "zh-TW": "GPX4（glutathione peroxidase 4）是鐵死亡的主要負向調節因子：其依賴硒的活性利用 Glutathione 作為輔因子，將磷脂氫過氧化物還原為醇，防止驅動鐵死亡膜破裂的鐵依賴性脂質過氧化。GPX4 失活（基因缺失、RSL3/ML162、或 GSH 耗竭）即足以觸發鐵死亡。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-    "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "6b0759b481bc",
-    "subject": "GPX4",
-    "predicate": "acts_in_parallel_with",
-    "object": "FSP1",
-    "context": {
-      "en-US": "GPX4 and FSP1 both suppress lethal lipid peroxidation but via independent chemistries: GPX4 is GSH/selenium-dependent and repairs existing phospholipid hydroperoxides, whereas FSP1 is GSH-independent and maintains a preventive ubiquinol radical trap. Loss of either axis alone is tolerable if the other is intact, so combined inhibition is strongly synergistic.",
-      "zh-TW": "GPX4 與 FSP1 都抑制致死的脂質過氧化，但機制各自獨立：GPX4 依賴 GSH/硒並修復既有的磷脂氫過氧化物，而 FSP1 不依賴 GSH 並維持預防性的泛醇自由基陷阱。只要另一軸完整，單獨喪失任一軸都可耐受，因此同時抑制兩者具有強烈協同效應。"
     },
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
@@ -6109,27 +5955,13 @@
     "predicate": "catalyzes",
     "object": "Tryptophan",
     "context": {
-      "en-US": "IDO1 is a heme-containing, monomeric cytosolic enzyme (~45 kDa) encoded by the IDO1 gene on chromosome 8p11.21 that catalyzes the first and rate-limiting step in the kynurenine pathway (KP) of tryptophan catabolism. It oxidizes L-tryptophan (and other indoleamine substrates such as D-Trp, 5-hydroxy-Trp, tryptamine and serotonin) to N-formylkynurenine in an O2-dependent reaction. The mechanism involves a heme iron center that binds O2, reduction of inactive ferric heme to active ferrous form, and oxidative cleavage of the indole ring at the 2,3-position. The KP accounts for ~95% of tryptophan degradation outside protein synthesis and serotonin production.",
-      "zh-TW": "IDO1 是含血基質的單體胞質酶（約 45 kDa），由位於第 8 號染色體 8p11.21 的 IDO1 基因編碼，催化色胺酸分解代謝中犬尿胺酸途徑（KP）的第一步且為速率限制步驟。它在依賴 O2 的反應中將 L-色胺酸（及其他吲哚胺類受質，如 D-Trp、5-羥基-Trp、色胺與血清素）氧化為 N-甲醯犬尿胺酸。其機制涉及結合 O2 的血基質鐵中心、非活性三價鐵血基質還原為活性二價鐵形式，以及在 2,3 位置對吲哚環進行氧化斷裂。KP 佔蛋白質合成與血清素生成以外約 95% 的色胺酸分解。"
+      "en-US": "IDO1 is a heme-containing, monomeric cytosolic enzyme (~45 kDa) encoded by the IDO1 gene on chromosome 8p11.21 that catalyzes the first and rate-limiting step in the kynurenine pathway (KP) of tryptophan catabolism. It oxidizes L-tryptophan (and other indoleamine substrates such as D-Trp, 5-hydroxy-Trp, tryptamine and serotonin) to N-formylkynurenine in an O2-dependent reaction. The mechanism involves a heme iron center that binds O2, reduction of inactive ferric heme to active ferrous form, and oxidative cleavage of the indole ring at the 2,3-position. The KP accounts for ~95% of tryptophan degradation outside protein synthesis and serotonin production. IDO1 exerts immunosuppression through local tryptophan depletion: tryptophan is essential for T cell proliferation, and its depletion activates the GCN2 stress kinase, leading to cell cycle arrest, anergy, or apoptosis in effector T cells. This is one of the two main mechanisms of IDO1-mediated immunosuppression, the other being accumulation of kynurenine and its metabolites, which activate the aryl hydrocarbon receptor to promote regulatory T cell differentiation and suppress effector T/NK cells. Together these create an immunosuppressive microenvironment exploited in maternal-fetal tolerance, antimicrobial defense, regulation of inflammation and autoimmunity, and tumor immune escape.",
+      "zh-TW": "IDO1 是含血基質的單體胞質酶（約 45 kDa），由位於第 8 號染色體 8p11.21 的 IDO1 基因編碼，催化色胺酸分解代謝中犬尿胺酸途徑（KP）的第一步且為速率限制步驟。它在依賴 O2 的反應中將 L-色胺酸（及其他吲哚胺類受質，如 D-Trp、5-羥基-Trp、色胺與血清素）氧化為 N-甲醯犬尿胺酸。其機制涉及結合 O2 的血基質鐵中心、非活性三價鐵血基質還原為活性二價鐵形式，以及在 2,3 位置對吲哚環進行氧化斷裂。KP 佔蛋白質合成與血清素生成以外約 95% 的色胺酸分解。 IDO1 透過局部色胺酸耗竭發揮免疫抑制：色胺酸對 T 細胞增生至關重要，其耗竭會活化 GCN2 壓力激酶，導致效應 T 細胞細胞週期停滯、無反應性或細胞凋亡。這是 IDO1 媒介免疫抑制的兩個主要機制之一，另一個是犬尿胺酸及其代謝物的累積，後者活化芳香烴受體以促進調節性 T 細胞分化並抑制效應 T/NK 細胞。兩者共同創造免疫抑制微環境，被利用於母胎耐受、抗菌防禦、發炎與自體免疫的調節，以及腫瘤免疫逃逸。"
     },
     "confidence": 0.96,
     "source_document": "_document_ - IDO01, NAD+, KP Pathway, grok.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:49:31Z"
-  },
-  {
-    "id": "1842f124823d",
-    "subject": "IDO1",
-    "predicate": "depletes",
-    "object": "Tryptophan",
-    "context": {
-      "en-US": "IDO1 exerts immunosuppression through local tryptophan depletion: tryptophan is essential for T cell proliferation, and its depletion activates the GCN2 stress kinase, leading to cell cycle arrest, anergy, or apoptosis in effector T cells. This is one of the two main mechanisms of IDO1-mediated immunosuppression, the other being accumulation of kynurenine and its metabolites, which activate the aryl hydrocarbon receptor to promote regulatory T cell differentiation and suppress effector T/NK cells. Together these create an immunosuppressive microenvironment exploited in maternal-fetal tolerance, antimicrobial defense, regulation of inflammation and autoimmunity, and tumor immune escape.",
-      "zh-TW": "IDO1 透過局部色胺酸耗竭發揮免疫抑制：色胺酸對 T 細胞增生至關重要，其耗竭會活化 GCN2 壓力激酶，導致效應 T 細胞細胞週期停滯、無反應性或細胞凋亡。這是 IDO1 媒介免疫抑制的兩個主要機制之一，另一個是犬尿胺酸及其代謝物的累積，後者活化芳香烴受體以促進調節性 T 細胞分化並抑制效應 T/NK 細胞。兩者共同創造免疫抑制微環境，被利用於母胎耐受、抗菌防禦、發炎與自體免疫的調節，以及腫瘤免疫逃逸。"
-    },
-    "confidence": 0.93,
-    "source_document": "_document_ - IDO01, NAD+, KP Pathway, grok.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:49:31Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "d10cb1e178e0",
@@ -6151,13 +5983,13 @@
     "predicate": "inhibits",
     "object": "FSP1",
     "context": {
-      "en-US": "iFSP1 is the first reported small-molecule FSP1 inhibitor (IC50 ≈ 103 nM, human-specific via the F360 pocket). It blocks FSP1's NAD(P)H-dependent ubiquinone reductase activity, removing the GPX4-independent radical trap and sensitizing cells to ferroptosis, especially when combined with GPX4 inhibition.",
-      "zh-TW": "iFSP1 是第一個被報導的 FSP1 小分子抑制劑（IC50 ≈ 103 nM，透過 F360 口袋特異於人類）。它阻斷 FSP1 依賴 NAD(P)H 的泛醌還原酶活性，移除不依賴 GPX4 的自由基陷阱並使細胞對鐵死亡敏感，尤其與 GPX4 抑制合併時。"
+      "en-US": "iFSP1 is the first reported small-molecule FSP1 inhibitor (IC50 ≈ 103 nM, human-specific via the F360 pocket). It blocks FSP1's NAD(P)H-dependent ubiquinone reductase activity, removing the GPX4-independent radical trap and sensitizing cells to ferroptosis, especially when combined with GPX4 inhibition. iFSP1, the first-in-class FSP1 inhibitor (IC50 ≈ 103 nM), binds human FSP1 at a pocket centered on residue F360 and blocks its NAD(P)H-dependent reduction of ubiquinone to ubiquinol, removing the GPX4-independent radical trap. Alone it is often insufficient in high-GPX4 cells but strongly synergizes with GPX4 or system Xc- inhibition to trigger ferroptosis.",
+      "zh-TW": "iFSP1 是第一個被報導的 FSP1 小分子抑制劑（IC50 ≈ 103 nM，透過 F360 口袋特異於人類）。它阻斷 FSP1 依賴 NAD(P)H 的泛醌還原酶活性，移除不依賴 GPX4 的自由基陷阱並使細胞對鐵死亡敏感，尤其與 GPX4 抑制合併時。 iFSP1 是第一個 FSP1 抑制劑（IC50 ≈ 103 nM），結合於人類 FSP1 以 F360 殘基為中心的口袋，鎖定並阻斷其依賴 NAD(P)H 將泛醌還原為泛醇的活性，移除不依賴 GPX4 的自由基陷阱。單獨使用在 GPX4 高表現細胞中往往不足，但與 GPX4 或 system Xc- 抑制劑合併時強烈協同誘發鐵死亡。"
     },
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "77366e054358",
@@ -6459,27 +6291,13 @@
     "predicate": "enhances",
     "object": "Enzalutamide",
     "context": {
-      "en-US": "Ivermectin enhanced enzalutamide activity in LNCaP prostate cancer cells (Tang et al., 2020; PMID 32971268).",
-      "zh-TW": "Ivermectin 在 LNCaP 前列腺癌細胞中增強 enzalutamide 活性（Tang et al., 2020; PMID 32971268）。"
+      "en-US": "Ivermectin enhanced enzalutamide activity in LNCaP prostate cancer cells (Tang et al., 2020; PMID 32971268). Ivermectin restored enzalutamide sensitivity / reversed resistance in prostate cancer models (Tang 2020 review).",
+      "zh-TW": "Ivermectin 在 LNCaP 前列腺癌細胞中增強 enzalutamide 活性（Tang et al., 2020; PMID 32971268）。 Ivermectin 在前列腺癌模型中恢復 enzalutamide 敏感性/逆轉抗藥性（Tang 2020 綜述）。"
     },
     "confidence": 0.8,
     "source_document": "enzalutamide.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "0397d85cf750",
-    "subject": "Ivermectin",
-    "predicate": "reverses_resistance_to",
-    "object": "Enzalutamide",
-    "context": {
-      "en-US": "Ivermectin restored enzalutamide sensitivity / reversed resistance in prostate cancer models (Tang 2020 review).",
-      "zh-TW": "Ivermectin 在前列腺癌模型中恢復 enzalutamide 敏感性/逆轉抗藥性（Tang 2020 綜述）。"
-    },
-    "confidence": 0.75,
-    "source_document": "enzalutamide.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "5aa6377366c7",
@@ -7019,27 +6837,13 @@
     "predicate": "activates",
     "object": "Mitohormesis",
     "context": {
-      "en-US": "Metformin, a widely used anti-diabetic drug, is thought to inhibit mitochondrial function (complex I of the respiratory chain) and may exert its beneficial effects - including protection against diabetes and cancer and extension of lifespan - through hormetic mechanisms. Evidence in lower organisms and mice shows that metformin induces an increase in oxidant defenses and extends lifespan, consistent with a mild mitochondrial perturbation that generates a mitohormetic signal. Metformin may represent the first example of exploiting hormesis to treat age-related diseases and aging itself.",
-      "zh-TW": "二甲雙胍（metformin）是一種廣泛使用的抗糖尿病藥物，被認為會抑制粒線體功能（呼吸鏈複合體 I），並可能透過毒物興奮效應機制發揮其有益作用——包括預防糖尿病與癌症及延長壽命。在低等生物與小鼠中的證據顯示，二甲雙胍誘導氧化防禦增加並延長壽命，與產生粒線體毒物興奮效應訊號的輕度粒線體擾動一致。二甲雙胍可能代表利用毒物興奮效應治療年齡相關疾病及衰老本身的第一個例子。"
+      "en-US": "Metformin, a widely used anti-diabetic drug, is thought to inhibit mitochondrial function (complex I of the respiratory chain) and may exert its beneficial effects - including protection against diabetes and cancer and extension of lifespan - through hormetic mechanisms. Evidence in lower organisms and mice shows that metformin induces an increase in oxidant defenses and extends lifespan, consistent with a mild mitochondrial perturbation that generates a mitohormetic signal. Metformin may represent the first example of exploiting hormesis to treat age-related diseases and aging itself. Over 150 million people take metformin for adult-onset type II diabetes, and evidence supports mild inhibition of the mitochondrial electron transport chain as one key element of its beneficial actions, making it a clinically deployed example of mitohormesis. Metformin use correlates with a rise in circulating GDF15, a mitokine linked to the therapeutic weight loss seen in patients. Association studies suggest reduced incidence of age-related cancers and Alzheimer's disease, demonstrating the potential to exploit mitohormesis for therapeutic benefit in aging and age-related diseases.",
+      "zh-TW": "二甲雙胍（metformin）是一種廣泛使用的抗糖尿病藥物，被認為會抑制粒線體功能（呼吸鏈複合體 I），並可能透過毒物興奮效應機制發揮其有益作用——包括預防糖尿病與癌症及延長壽命。在低等生物與小鼠中的證據顯示，二甲雙胍誘導氧化防禦增加並延長壽命，與產生粒線體毒物興奮效應訊號的輕度粒線體擾動一致。二甲雙胍可能代表利用毒物興奮效應治療年齡相關疾病及衰老本身的第一個例子。 超過1.5億人服用metformin治療成人發病型第二型糖尿病，證據顯示輕度抑制粒線體電子傳遞鏈是其有益作用的關鍵元素之一，使其成為mitohormesis在臨床上應用的範例。Metformin使用與循環中GDF15增加相關，GDF15是一種與患者治療性減重相關的mitokine。關聯性研究顯示與年齡相關的癌症和阿茲海默病發生率降低，展示了利用mitohormesis在衰老和與年齡相關疾病中獲得治療益處的潛力。"
     },
     "confidence": 0.8,
     "source_document": "_document_ - Mitohormesis - 2014_FEB.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:49:31Z"
-  },
-  {
-    "id": "ab9a00fbee89",
-    "subject": "Metformin",
-    "predicate": "exploits",
-    "object": "Mitohormesis",
-    "context": {
-      "en-US": "Over 150 million people take metformin for adult-onset type II diabetes, and evidence supports mild inhibition of the mitochondrial electron transport chain as one key element of its beneficial actions, making it a clinically deployed example of mitohormesis. Metformin use correlates with a rise in circulating GDF15, a mitokine linked to the therapeutic weight loss seen in patients. Association studies suggest reduced incidence of age-related cancers and Alzheimer's disease, demonstrating the potential to exploit mitohormesis for therapeutic benefit in aging and age-related diseases.",
-      "zh-TW": "超過1.5億人服用metformin治療成人發病型第二型糖尿病，證據顯示輕度抑制粒線體電子傳遞鏈是其有益作用的關鍵元素之一，使其成為mitohormesis在臨床上應用的範例。Metformin使用與循環中GDF15增加相關，GDF15是一種與患者治療性減重相關的mitokine。關聯性研究顯示與年齡相關的癌症和阿茲海默病發生率降低，展示了利用mitohormesis在衰老和與年齡相關疾病中獲得治療益處的潛力。"
-    },
-    "confidence": 0.9,
-    "source_document": "_document_ - Mitohormesis - 2023_NOV.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:56:24Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "f2fbf12cba55",
@@ -7803,13 +7607,13 @@
     "predicate": "mediates",
     "object": "Mitochondrial Fusion",
     "context": {
-      "en-US": "MFN2 (mitofusin 2), encoded by the MFN2 gene, is an outer mitochondrial membrane GTPase that regulates mitochondrial fusion and is required for outer membrane fusion together with MFN1. Beyond fusion, MFN2 plays roles in mitophagy, mitochondrial movement and lipid transfer, and its tethering action is a vital mediator of mitochondria-endoplasmic reticulum contact sites that regulate calcium homeostasis and lipid metabolism. MFN2 can be phosphorylated by PINK1, promoting Parkin recruitment and inducing Parkin-dependent mitophagy, and heterozygous MFN2 mutations cause Charcot-Marie-Tooth disease type 2A.",
-      "zh-TW": "MFN2（mitofusin 2），由 MFN2 基因編碼，是一種外線粒體膜 GTPase，調控 mitochondrial fusion 且與 MFN1 一起 required for outer membrane fusion。除了 fusion，MFN2 在 mitophagy、mitochondrial movement 和 lipid transfer 中扮演角色，且其 tethering action 是 mitochondria-endoplasmic reticulum contact sites 的 vital mediator，調控 calcium homeostasis 和 lipid metabolism。MFN2 可被 PINK1 磷酸化，促進 Parkin recruitment 並誘導 Parkin-dependent mitophagy，且 heterozygous MFN2 mutations 導致 Charcot-Marie-Tooth 病 type 2A。"
+      "en-US": "MFN2 (mitofusin 2), encoded by the MFN2 gene, is an outer mitochondrial membrane GTPase that regulates mitochondrial fusion and is required for outer membrane fusion together with MFN1. Beyond fusion, MFN2 plays roles in mitophagy, mitochondrial movement and lipid transfer, and its tethering action is a vital mediator of mitochondria-endoplasmic reticulum contact sites that regulate calcium homeostasis and lipid metabolism. MFN2 can be phosphorylated by PINK1, promoting Parkin recruitment and inducing Parkin-dependent mitophagy, and heterozygous MFN2 mutations cause Charcot-Marie-Tooth disease type 2A. MFN2 is one of the two mitofusin GTPases that drive outer mitochondrial membrane fusion and, together with MFN1, is essential for tethering and merging adjacent mitochondria. Unlike MFN1, MFN2 additionally localizes to the endoplasmic reticulum, where it participates in tethering mitochondria to the ER and may play a role in lipid exchange. Mutations in MFN2 cause the peripheral neuropathy Charcot-Marie-Tooth disease type 2A, underscoring its physiological importance. MFN2 expression is regulated by PGC-1alpha and transcriptional co-activators, so changes in MFN2 levels couple mitochondrial fusion capacity to cellular metabolic demand.",
+      "zh-TW": "MFN2（mitofusin 2），由 MFN2 基因編碼，是一種外線粒體膜 GTPase，調控 mitochondrial fusion 且與 MFN1 一起 required for outer membrane fusion。除了 fusion，MFN2 在 mitophagy、mitochondrial movement 和 lipid transfer 中扮演角色，且其 tethering action 是 mitochondria-endoplasmic reticulum contact sites 的 vital mediator，調控 calcium homeostasis 和 lipid metabolism。MFN2 可被 PINK1 磷酸化，促進 Parkin recruitment 並誘導 Parkin-dependent mitophagy，且 heterozygous MFN2 mutations 導致 Charcot-Marie-Tooth 病 type 2A。 MFN2 是兩個驅動粒線體外膜融合的 mitofusin GTP 酶之一，與 MFN1 一起對於栓繫和融合相鄰粒線體至關重要。與 MFN1 不同，MFN2 還定位於內質網，參與將粒線體栓繫到內質網，並可能在脂質交換中扮演角色。MFN2 突變會導致周圍神經病變 Charcot-Marie-Tooth 病 type 2A，突顯其生理重要性。MFN2 表達受 PGC-1alpha 和轉錄共激活因子調節，因此 MFN2 水平的變化將粒線體融合能力與細胞代謝需求相連結。"
     },
     "confidence": 0.96,
     "source_document": "_document_ - The role of mitochondrial dynamics in disease.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "274400db67c2",
@@ -8195,27 +7999,13 @@
     "predicate": "facilitates",
     "object": "Mitophagy",
     "context": {
-      "en-US": "Mitochondrial fission (mediated by DRP1) facilitates isolation of dysfunctional mitochondrial fragments for degradation via mitophagy, an essential step in quality control. In aging cells the fission-fusion balance is disrupted, often favoring fission, producing increased fragmentation, bioenergetic failure and apoptosis. In stem/progenitor compartments, sustained fragmentation maintains stress signaling programs that erode quiescence, bias lineage decisions, and increase vulnerability to inflammatory cues.",
-      "zh-TW": "Mitochondrial fission (mediated by DRP1) facilitates isolation of dysfunctional mitochondrial fragments for degradation via mitophagy，an essential step in quality control。In aging cells the fission-fusion balance is disrupted, often favoring fission, producing increased fragmentation, bioenergetic failure and apoptosis。In stem/progenitor compartments, sustained fragmentation maintains stress signaling programs that erode quiescence, bias lineage decisions, and increase vulnerability to inflammatory cues。"
+      "en-US": "Mitochondrial fission (mediated by DRP1) facilitates isolation of dysfunctional mitochondrial fragments for degradation via mitophagy, an essential step in quality control. In aging cells the fission-fusion balance is disrupted, often favoring fission, producing increased fragmentation, bioenergetic failure and apoptosis. In stem/progenitor compartments, sustained fragmentation maintains stress signaling programs that erode quiescence, bias lineage decisions, and increase vulnerability to inflammatory cues. Mitochondrial fission is a prerequisite for mitophagy, the selective autophagic degradation of damaged mitochondria. Fission produces small, fragmented mitochondrial units that can be enveloped by autophagosomes, whereas highly fused mitochondria are largely protected from autophagy. In the canonical pathway, the serine/threonine kinase PINK1 accumulates on depolarized mitochondria and recruits the E3 ubiquitin ligase Parkin, which ubiquitinates outer membrane proteins and marks the mitochondrion for autophagic clearance. DRP1-dependent fragmentation facilitates this process, and blocking fission, for example with the DRP1 inhibitor Mdivi-1, impairs mitophagy in many cellular models, linking the fission machinery to mitochondrial quality control.",
+      "zh-TW": "Mitochondrial fission (mediated by DRP1) facilitates isolation of dysfunctional mitochondrial fragments for degradation via mitophagy，an essential step in quality control。In aging cells the fission-fusion balance is disrupted, often favoring fission, producing increased fragmentation, bioenergetic failure and apoptosis。In stem/progenitor compartments, sustained fragmentation maintains stress signaling programs that erode quiescence, bias lineage decisions, and increase vulnerability to inflammatory cues。 Mitochondrial fission is a prerequisite for mitophagy, the selective autophagic degradation of damaged mitochondria。Fission produces small, fragmented mitochondrial units that can be enveloped by autophagosomes, whereas highly fused mitochondria are largely protected from autophagy。In the canonical pathway, the serine/threonine kinase PINK1 accumulates on depolarized mitochondria and recruits the E3 ubiquitin ligase Parkin, which ubiquitinates outer membrane proteins and marks the mitochondrion for autophagic clearance。DRP1-dependent fragmentation facilitates this process, and blocking fission, for example with the DRP1 inhibitor Mdivi-1, impairs mitophagy in many cellular models, linking the fission machinery to mitochondrial quality control。"
     },
     "confidence": 0.88,
     "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "e68781179db9",
-    "subject": "Mitochondrial Fission",
-    "predicate": "is_required_for",
-    "object": "Mitophagy",
-    "context": {
-      "en-US": "Mitochondrial fission is a prerequisite for mitophagy, the selective autophagic degradation of damaged mitochondria. Fission produces small, fragmented mitochondrial units that can be enveloped by autophagosomes, whereas highly fused mitochondria are largely protected from autophagy. In the canonical pathway, the serine/threonine kinase PINK1 accumulates on depolarized mitochondria and recruits the E3 ubiquitin ligase Parkin, which ubiquitinates outer membrane proteins and marks the mitochondrion for autophagic clearance. DRP1-dependent fragmentation facilitates this process, and blocking fission, for example with the DRP1 inhibitor Mdivi-1, impairs mitophagy in many cellular models, linking the fission machinery to mitochondrial quality control.",
-      "zh-TW": "Mitochondrial fission is a prerequisite for mitophagy, the selective autophagic degradation of damaged mitochondria。Fission produces small, fragmented mitochondrial units that can be enveloped by autophagosomes, whereas highly fused mitochondria are largely protected from autophagy。In the canonical pathway, the serine/threonine kinase PINK1 accumulates on depolarized mitochondria and recruits the E3 ubiquitin ligase Parkin, which ubiquitinates outer membrane proteins and marks the mitochondrion for autophagic clearance。DRP1-dependent fragmentation facilitates this process, and blocking fission, for example with the DRP1 inhibitor Mdivi-1, impairs mitophagy in many cellular models, linking the fission machinery to mitochondrial quality control。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:00:59Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "038238308a15",
@@ -8244,20 +8034,6 @@
     "source_document": "_document_ - The role of mitochondrial dynamics in disease.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "01484b7c5c70",
-    "subject": "Mitochondrial Fusion",
-    "predicate": "is_mediated_by",
-    "object": "MFN2",
-    "context": {
-      "en-US": "MFN2 is one of the two mitofusin GTPases that drive outer mitochondrial membrane fusion and, together with MFN1, is essential for tethering and merging adjacent mitochondria. Unlike MFN1, MFN2 additionally localizes to the endoplasmic reticulum, where it participates in tethering mitochondria to the ER and may play a role in lipid exchange. Mutations in MFN2 cause the peripheral neuropathy Charcot-Marie-Tooth disease type 2A, underscoring its physiological importance. MFN2 expression is regulated by PGC-1alpha and transcriptional co-activators, so changes in MFN2 levels couple mitochondrial fusion capacity to cellular metabolic demand.",
-      "zh-TW": "MFN2 是兩個驅動粒線體外膜融合的 mitofusin GTP 酶之一，與 MFN1 一起對於栓繫和融合相鄰粒線體至關重要。與 MFN1 不同，MFN2 還定位於內質網，參與將粒線體栓繫到內質網，並可能在脂質交換中扮演角色。MFN2 突變會導致周圍神經病變 Charcot-Marie-Tooth 病 type 2A，突顯其生理重要性。MFN2 表達受 PGC-1alpha 和轉錄共激活因子調節，因此 MFN2 水平的變化將粒線體融合能力與細胞代謝需求相連結。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:05:15Z"
   },
   {
     "id": "fd9986dc8f09",
@@ -8297,20 +8073,6 @@
       "zh-TW": "粒線體融合和粒線體分裂是相互對立、持續進行的過程，共同維持粒線體網路處於稱為粒線體動力學的動態平衡狀態。融合混合粒線體內容物，稀釋受損成分，而分裂則透過粒線體自噬分離並移除功能失調的粒線體片段。這兩個過程之間的精細平衡決定了粒線體形態、能量代謝產出和品質控制。偏向融合會產生細長、互連的網路，有利於氧化磷酸化，而偏向分裂則會使網路碎片化，伴隨壓力、細胞凋亡和病理性重塑，使融合-分裂平衡成為細胞恆定性的核心。"
     },
     "confidence": 0.96,
-    "source_document": "_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:05:15Z"
-  },
-  {
-    "id": "91247a4d715e",
-    "subject": "Mitochondrial Fusion",
-    "predicate": "is_mediated_by",
-    "object": "OPA1",
-    "context": {
-      "en-US": "Inner mitochondrial membrane fusion is mediated by optic atrophy 1 (OPA1), a dynamin-related GTPase that also maintains cristae structure. OPA1 exists in long membrane-bound forms and short soluble forms generated by proteolytic cleavage; the balance of long and short OPA1 isoforms regulates inner membrane fusion and cristae remodeling. Proteolytic processing of OPA1 by the peptidases YME1L and OMA1 links fusion activity to metabolic state and cellular stress, since OMA1 cleaves OPA1 under stress or loss of the mitochondrial membrane potential. Mutations in OPA1 cause dominant optic atrophy, the most common inherited optic neuropathy.",
-      "zh-TW": "粒線體內膜融合由視神經萎縮蛋白 1（OPA1）介導，OPA1 是一種 dynamin 相關 GTP 酶，也維持嵴結構。OPA1 以長的膜結合形式和短的可溶形式存在，後者由蛋白水解切割產生；長和短 OPA1 異構體的平衡調節內膜融合和嵴重塑。OPA1 被肽酶 YME1L 和 OMA1 蛋白水解加工，將融合活性與代謝狀態和細胞壓力相連結，因為 OMA1 在壓力或粒線體膜電位喪失時切割 OPA1。OPA1 突變會導致顯性視神經萎縮，這是最常見的遺傳性視神經病變。"
-    },
-    "confidence": 0.95,
     "source_document": "_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T06:05:15Z"
@@ -8951,27 +8713,13 @@
     "predicate": "accelerates",
     "object": "Aging",
     "context": {
-      "en-US": "The mechanistic target of rapamycin (mTOR) pathway is an evolutionarily conserved metabolic signaling cascade regulating cell division, growth and survival, and there is growing evidence that its activity accelerates aging and the development of age-related diseases including cancer, atherosclerosis, diabetes, and declining immune function. mTOR pathway activity is elevated in many tissues with age and correlates with a decline in clearance of damaged proteins and organelles. Hyperactive mTOR signaling has been implicated in cancer, type 2 diabetes, neurodegeneration, and the aging process itself. This provides the rationale for mTOR inhibition as a potential mechanism to slow aging.",
-      "zh-TW": "雷帕霉素機制性靶標（mTOR）通路是一個進化保守的代謝信號級聯，調控細胞分裂、生長和存活，且有越來越多證據表明其活性加速衰老及年齡相關疾病的發展，包括癌症、動脈粥樣硬化、糖尿病和免疫功能衰退。mTOR通路活性在多種組織中隨年齡增長而升高，與受損蛋白質和細胞器的清除能力下降相關。過度活化的mTOR信號與癌症、第二型糖尿病、神經退化和衰老過程本身有關。這為mTOR抑制作為減緩衰老的潛在機制提供了理論依據。"
+      "en-US": "The mechanistic target of rapamycin (mTOR) pathway is an evolutionarily conserved metabolic signaling cascade regulating cell division, growth and survival, and there is growing evidence that its activity accelerates aging and the development of age-related diseases including cancer, atherosclerosis, diabetes, and declining immune function. mTOR pathway activity is elevated in many tissues with age and correlates with a decline in clearance of damaged proteins and organelles. Hyperactive mTOR signaling has been implicated in cancer, type 2 diabetes, neurodegeneration, and the aging process itself. This provides the rationale for mTOR inhibition as a potential mechanism to slow aging. According to the hyperfunction theory, aging is an unintended quasi-programmed continuation of the developmental growth program, driven in part by mTOR. mTOR drives geroconversion, the conversion from quiescence to senescence when the cell cycle is blocked, rendering cells hypertrophic and hyperfunctional and producing the senescence-associated secretory phenotype, which eventually leads to age-related pathologies. When over-activated by nutrients and insulin, mTOR acts via S6K1 to inhibit insulin signaling. Because aging is the sum of all age-related diseases, a drug that targets a common driver of age-related diseases is an anti-aging drug.",
+      "zh-TW": "雷帕霉素機制性靶標（mTOR）通路是一個進化保守的代謝信號級聯，調控細胞分裂、生長和存活，且有越來越多證據表明其活性加速衰老及年齡相關疾病的發展，包括癌症、動脈粥樣硬化、糖尿病和免疫功能衰退。mTOR通路活性在多種組織中隨年齡增長而升高，與受損蛋白質和細胞器的清除能力下降相關。過度活化的mTOR信號與癌症、第二型糖尿病、神經退化和衰老過程本身有關。這為mTOR抑制作為減緩衰老的潛在機制提供了理論依據。 根據功能亢進理論，衰老是發育生長程序的非預期擬程序化延續，部分由mTOR驅動。mTOR驅動geroconversion（從靜止到衰老的轉換），當細胞週期被阻斷時，使細胞肥大和功能亢進，並產生衰老相關分泌表型，最終導致年齡相關的病理變化。當被營養素和胰島素過度活化時，mTOR透過S6K1抑制胰島素信號。由於衰老是所有年齡相關疾病的總和，一種針對年齡相關疾病共同驅動因子的藥物就是抗衰老藥物。"
     },
     "confidence": 0.95,
     "source_document": "_document_ - Rapamycin for longevity the pros, the cons, and future perspectives.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:07:10Z"
-  },
-  {
-    "id": "cfdbcb396030",
-    "subject": "mTOR",
-    "predicate": "drives",
-    "object": "Aging",
-    "context": {
-      "en-US": "According to the hyperfunction theory, aging is an unintended quasi-programmed continuation of the developmental growth program, driven in part by mTOR. mTOR drives geroconversion, the conversion from quiescence to senescence when the cell cycle is blocked, rendering cells hypertrophic and hyperfunctional and producing the senescence-associated secretory phenotype, which eventually leads to age-related pathologies. When over-activated by nutrients and insulin, mTOR acts via S6K1 to inhibit insulin signaling. Because aging is the sum of all age-related diseases, a drug that targets a common driver of age-related diseases is an anti-aging drug.",
-      "zh-TW": "根據功能亢進理論，衰老是發育生長程序的非預期擬程序化延續，部分由mTOR驅動。mTOR驅動geroconversion（從靜止到衰老的轉換），當細胞週期被阻斷時，使細胞肥大和功能亢進，並產生衰老相關分泌表型，最終導致年齡相關的病理變化。當被營養素和胰島素過度活化時，mTOR透過S6K1抑制胰島素信號。由於衰老是所有年齡相關疾病的總和，一種針對年齡相關疾病共同驅動因子的藥物就是抗衰老藥物。"
-    },
-    "confidence": 0.94,
-    "source_document": "_document_ - Rapamycin for longevity opinion article.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:07:10Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "8077715e6813",
@@ -9175,27 +8923,13 @@
     "predicate": "activates",
     "object": "Sirtuins",
     "context": {
-      "en-US": "NAD+ is the essential coenzyme that sirtuins use to repair DNA damage and stimulate mitochondrial biogenesis. NAD+ levels naturally follow a circadian rhythm, peaking in the morning, so NAD+ precursors such as NMN and NR are recommended for morning intake within one hour of waking. Taking them in the evening can cause alertness or sleep disruption in some individuals, which would directly depress overnight HRV. Morning intake therefore aligns with the circadian rise of NAD+ and supports natural daytime energy cycles.",
-      "zh-TW": "NAD+是sirtuins修復DNA損傷和刺激粒線體生物合成所必需的輔酶。NAD+水平自然遵循晝夜節律，早晨達到峰值，因此建議在醒來一小時內的早晨攝入NAD+前體如NMN和NR。在晚上攝入可能導致某些個體警覺性或睡眠中斷，這會直接降低夜間心率變異性（HRV）。因此早晨攝入與NAD+的晝夜上升一致，支持自然的白天能量週期。"
+      "en-US": "NAD+ is the essential coenzyme that sirtuins use to repair DNA damage and stimulate mitochondrial biogenesis. NAD+ levels naturally follow a circadian rhythm, peaking in the morning, so NAD+ precursors such as NMN and NR are recommended for morning intake within one hour of waking. Taking them in the evening can cause alertness or sleep disruption in some individuals, which would directly depress overnight HRV. Morning intake therefore aligns with the circadian rise of NAD+ and supports natural daytime energy cycles. The progressive decline in NAD+ levels during aging is a central metabolic bottleneck compromising sirtuin-dependent resilience. Reduced NAD+ availability compromises SIRT1 and SIRT3 activity, which regulate PGC-1α, FOXO, and NRF1 transcriptional programs governing antioxidant defenses, mitochondrial biogenesis and stress adaptation. NAD+ decline arises from both reduced biosynthetic capacity and increased degradation via CD38, PARP1 and SARM1. Restoration of NAD+ enhances UPRmt activity, and PARP inhibition can promote mitonuclear communication and UPRmt activation.",
+      "zh-TW": "NAD+是sirtuins修復DNA損傷和刺激粒線體生物合成所必需的輔酶。NAD+水平自然遵循晝夜節律，早晨達到峰值，因此建議在醒來一小時內的早晨攝入NAD+前體如NMN和NR。在晚上攝入可能導致某些個體警覺性或睡眠中斷，這會直接降低夜間心率變異性（HRV）。因此早晨攝入與NAD+的晝夜上升一致，支持自然的白天能量週期。 衰老過程中NAD+水平的進行性下降是損害sirtuin依賴性恢復力的 central 代謝瓶頸。NAD+可用性降低損害SIRT1和SIRT3活性，它們調節PGC-1α、FOXO和NRF1轉錄程序， govern 抗氧化防禦、粒線體生物合成和壓力適應。NAD+下降源於生物合成能力降低以及透過CD38、PARP1和SARM1的降解增加。恢復NAD+增強UPRmt活性，而PARP抑制可促進粒線核通訊和UPRmt激活。"
     },
     "confidence": 0.92,
     "source_document": "_document_ - mitohormesis, heart rate variability.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:07:10Z"
-  },
-  {
-    "id": "1784981d040c",
-    "subject": "NAD+",
-    "predicate": "is_required_for",
-    "object": "Sirtuins",
-    "context": {
-      "en-US": "The progressive decline in NAD+ levels during aging is a central metabolic bottleneck compromising sirtuin-dependent resilience. Reduced NAD+ availability compromises SIRT1 and SIRT3 activity, which regulate PGC-1α, FOXO, and NRF1 transcriptional programs governing antioxidant defenses, mitochondrial biogenesis and stress adaptation. NAD+ decline arises from both reduced biosynthetic capacity and increased degradation via CD38, PARP1 and SARM1. Restoration of NAD+ enhances UPRmt activity, and PARP inhibition can promote mitonuclear communication and UPRmt activation.",
-      "zh-TW": "衰老過程中NAD+水平的進行性下降是損害sirtuin依賴性恢復力的 central 代謝瓶頸。NAD+可用性降低損害SIRT1和SIRT3活性，它們調節PGC-1α、FOXO和NRF1轉錄程序， govern 抗氧化防禦、粒線體生物合成和壓力適應。NAD+下降源於生物合成能力降低以及透過CD38、PARP1和SARM1的降解增加。恢復NAD+增強UPRmt活性，而PARP抑制可促進粒線核通訊和UPRmt激活。"
-    },
-    "confidence": 0.94,
-    "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "6109ad742950",
@@ -9315,13 +9049,13 @@
     "predicate": "sustains",
     "object": "SASP",
     "context": {
-      "en-US": "NF-κB is the master transcription factor that activates the acute stress-associated phenotype (ASAP) and sustains the SASP in senescent cells. Upon senescence, IκBα is degraded in the cytoplasm and NF-κB subunits p65 and p50 translocate to the nucleus, driving expression of pro-inflammatory cytokines and chemokines. Apigenin and the HSPA8 inhibitor VER155008 reverse this IκBα degradation and nuclear translocation, and GSEA confirms apigenin suppresses the NF-κB signature alongside the SASP signature.",
-      "zh-TW": "NF-κB是啟動急性壓力相關表型（ASAP）並維持衰老細胞SASP的主轉錄因子。衰老時，IκBα在細胞質中被降解，NF-κB亞基p65和p50易位至細胞核，驅動促炎細胞因子和趨化因子的表達。芹菜素和HSPA8抑制劑VER155008逆轉這種IκBα降解和核易位，GSEA證實芹菜素抑制NF-κB特徵以及SASP特徵。"
+      "en-US": "NF-κB is the master transcription factor that activates the acute stress-associated phenotype (ASAP) and sustains the SASP in senescent cells. Upon senescence, IκBα is degraded in the cytoplasm and NF-κB subunits p65 and p50 translocate to the nucleus, driving expression of pro-inflammatory cytokines and chemokines. Apigenin and the HSPA8 inhibitor VER155008 reverse this IκBα degradation and nuclear translocation, and GSEA confirms apigenin suppresses the NF-κB signature alongside the SASP signature. NF-κB is the master transcriptional regulator of the SASP, and its estrogen-driven suppression gives premenopausal females a lower SASP burden. The sex-dependent SASP burden and its role in the post-menopausal 'estrogen cliff' connect the NF-κB and SASP sex-difference frameworks.",
+      "zh-TW": "NF-κB是啟動急性壓力相關表型（ASAP）並維持衰老細胞SASP的主轉錄因子。衰老時，IκBα在細胞質中被降解，NF-κB亞基p65和p50易位至細胞核，驅動促炎細胞因子和趨化因子的表達。芹菜素和HSPA8抑制劑VER155008逆轉這種IκBα降解和核易位，GSEA證實芹菜素抑制NF-κB特徵以及SASP特徵。 NF-κB 是 SASP 的主要轉錄調控因子，其受雌激素驅動的壓抑使停經前女性具有較低的 SASP 負擔。性別依賴的 SASP 負擔及其在停經後「雌激素懸崖」中的角色，將 NF-κB 與 SASP 的性別差異架構相連結。"
     },
     "confidence": 0.92,
     "source_document": "_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:07:10Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "41261e88618b",
@@ -9497,13 +9231,13 @@
     "predicate": "mediates",
     "object": "Mitochondrial Fusion",
     "context": {
-      "en-US": "OPA1 (optic atrophy 1) is the dynamin-related GTPase that mediates inner mitochondrial membrane fusion, needed in only one of two colliding mitochondria for fusing the inner membranes. OPA1 exists as eight isoforms and is proteolytically processed by OMA1, YME1L1, PARL, paraplegin and the mAAA protease to generate long (L-OPA1) and short (S-OPA1) forms; L-OPA1 promotes fusion while S-OPA1 modulates it by forming complexes with L-OPA1. Decreased OPA1 reduces fusion and contributes to separating dysfunctional mitochondria for mitophagic removal, and OPA1 mutations cause dominant optic atrophy.",
-      "zh-TW": "OPA1（視神經萎縮1）是介導內粒線體膜融合的dynamin相關GTP酶，在兩個碰撞的粒線體中只需一個即可融合內膜。OPA1以八種異構體形式存在，並被OMA1、YME1L1、PARL、paraplegin和mAAA蛋白酶蛋白水解加工以產生長形式（L-OPA1）和短形式（S-OPA1）；L-OPA1促進融合，而S-OPA1通過與L-OPA1形成複合物來調節融合。OPA1減少降低融合並有助於分離功能異常的粒線體以進行線粒體自噬清除，OPA1突變導致顯性視神經萎縮。"
+      "en-US": "OPA1 (optic atrophy 1) is the dynamin-related GTPase that mediates inner mitochondrial membrane fusion, needed in only one of two colliding mitochondria for fusing the inner membranes. OPA1 exists as eight isoforms and is proteolytically processed by OMA1, YME1L1, PARL, paraplegin and the mAAA protease to generate long (L-OPA1) and short (S-OPA1) forms; L-OPA1 promotes fusion while S-OPA1 modulates it by forming complexes with L-OPA1. Decreased OPA1 reduces fusion and contributes to separating dysfunctional mitochondria for mitophagic removal, and OPA1 mutations cause dominant optic atrophy. Inner mitochondrial membrane fusion is mediated by optic atrophy 1 (OPA1), a dynamin-related GTPase that also maintains cristae structure. OPA1 exists in long membrane-bound forms and short soluble forms generated by proteolytic cleavage; the balance of long and short OPA1 isoforms regulates inner membrane fusion and cristae remodeling. Proteolytic processing of OPA1 by the peptidases YME1L and OMA1 links fusion activity to metabolic state and cellular stress, since OMA1 cleaves OPA1 under stress or loss of the mitochondrial membrane potential. Mutations in OPA1 cause dominant optic atrophy, the most common inherited optic neuropathy.",
+      "zh-TW": "OPA1（視神經萎縮1）是介導內粒線體膜融合的dynamin相關GTP酶，在兩個碰撞的粒線體中只需一個即可融合內膜。OPA1以八種異構體形式存在，並被OMA1、YME1L1、PARL、paraplegin和mAAA蛋白酶蛋白水解加工以產生長形式（L-OPA1）和短形式（S-OPA1）；L-OPA1促進融合，而S-OPA1通過與L-OPA1形成複合物來調節融合。OPA1減少降低融合並有助於分離功能異常的粒線體以進行線粒體自噬清除，OPA1突變導致顯性視神經萎縮。 粒線體內膜融合由視神經萎縮蛋白 1（OPA1）介導，OPA1 是一種 dynamin 相關 GTP 酶，也維持嵴結構。OPA1 以長的膜結合形式和短的可溶形式存在，後者由蛋白水解切割產生；長和短 OPA1 異構體的平衡調節內膜融合和嵴重塑。OPA1 被肽酶 YME1L 和 OMA1 蛋白水解加工，將融合活性與代謝狀態和細胞壓力相連結，因為 OMA1 在壓力或粒線體膜電位喪失時切割 OPA1。OPA1 突變會導致顯性視神經萎縮，這是最常見的遺傳性視神經病變。"
     },
     "confidence": 0.96,
     "source_document": "_document_ - The role of mitochondrial dynamics in disease.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "b5d3d4b72867",
@@ -9753,20 +9487,6 @@
       "zh-TW": "過氧化還原酶 3（PRDX3）不僅還原過氧化氫，也還原粒線體呼吸作用副產物之一的過氧亞硝酸鹽。此廣泛的解毒活性有助於保護粒線體蛋白質、DNA 與脂質免受氧化損傷。"
     },
     "confidence": 0.8,
-    "source_document": "Peroxiredoxin 3.md",
-    "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T06:31:39Z"
-  },
-  {
-    "id": "f244f1733a96",
-    "subject": "Peroxiredoxin 3",
-    "predicate": "is_reactivated_by",
-    "object": "Sulfiredoxin",
-    "context": {
-      "en-US": "Peroxiredoxin 3 (PRDX3) is reversibly inactivated when its peroxidatic cysteine is hyperoxidized to sulfinic acid during oxidative bursts. Sulfiredoxin (SRXN1) repairs this hyperoxidation in an ATP-dependent reaction, restoring PRDX3's peroxide-scavenging activity.",
-      "zh-TW": "在氧化爆發期間，過氧化還原酶 3（PRDX3）的過氧化半胱氨酸被過度氧化為亞磺酸時會可逆地失活。Sulfiredoxin（SRXN1）以 ATP 依賴的反應修復此過度氧化，恢復 PRDX3 的過氧化氫清除活性。"
-    },
-    "confidence": 0.9,
     "source_document": "Peroxiredoxin 3.md",
     "created": "2026-09-02T06:31:39Z",
     "updated": "2026-09-02T06:31:39Z"
@@ -10085,13 +9805,13 @@
     "predicate": "activates_expression_of",
     "object": "FSP1",
     "context": {
-      "en-US": "PPARα positively drives FSP1 expression. PPARα activators (fenofibrate, bezafibrate) raise FSP1 levels and increase ferroptosis resistance, whereas the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity.",
-      "zh-TW": "PPARα 正向驅動 FSP1 的表現。PPARα 活化劑（fenofibrate、bezafibrate）會提升 FSP1 含量並增加鐵死亡抗性，而 MDM2/MDMX 複合物則透過抑制 PPARα 活性來壓低 FSP1。"
+      "en-US": "PPARα positively drives FSP1 expression. PPARα activators (fenofibrate, bezafibrate) raise FSP1 levels and increase ferroptosis resistance, whereas the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity. PPARα positively drives FSP1 expression; PPARα activators such as fenofibrate and bezafibrate raise FSP1 levels and increase ferroptosis resistance. Conversely, the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity, lowering FSP1 and sensitizing cells to ferroptosis.",
+      "zh-TW": "PPARα 正向驅動 FSP1 的表現。PPARα 活化劑（fenofibrate、bezafibrate）會提升 FSP1 含量並增加鐵死亡抗性，而 MDM2/MDMX 複合物則透過抑制 PPARα 活性來壓低 FSP1。 PPARα 正向驅動 FSP1 的表現；PPARα 活化劑如 fenofibrate 與 bezafibrate 會提升 FSP1 含量並增加鐵死亡抗性。相反地，MDM2/MDMX 複合物透過抑制 PPARα 活性來壓低 FSP1，使細胞對鐵死亡更敏感。"
     },
     "confidence": 0.75,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "736b1408acfe",
@@ -10561,27 +10281,13 @@
     "predicate": "activates",
     "object": "Autophagy",
     "context": {
-      "en-US": "Autophagy is strongly regulated by the mTORC1 complex, which inhibits autophagy initiation by blocking the ULK1 complex under conditions of nutrient abundance. Rapamycin's inhibition of mTORC1 cancels this effect by activating autophagy and supporting amino acid recycling and the removal of damaged structures. With age, autophagy activity decreases, leading to accumulation of damaged mitochondria and proteins. In many model organisms from yeast to mammals, mTORC1 inhibition with rapamycin restores autophagic activity and increases lifespan, and long-term administration increases autophagy, reduces lipofuscin accumulation, and improves cardiomyocyte function.",
-      "zh-TW": "自噬受到mTORC1複合物的強烈調控，mTORC1在營養豐富的條件下透過阻斷ULK1複合物抑制自噬啟動。Rapamycin對mTORC1的抑制透過活化自噬和支持胺基酸回收及損傷結構的移除來抵消此效應。隨著年齡增長，自噬活性降低，導致受損粒線體和蛋白質的累積。在從酵母到哺乳動物的許多模式生物中，rapamycin對mTORC1的抑制恢復自噬活性並延長壽命，長期給藥增加自噬，減少脂褐素累積，並改善心肌細胞功能。"
+      "en-US": "Autophagy is strongly regulated by the mTORC1 complex, which inhibits autophagy initiation by blocking the ULK1 complex under conditions of nutrient abundance. Rapamycin's inhibition of mTORC1 cancels this effect by activating autophagy and supporting amino acid recycling and the removal of damaged structures. With age, autophagy activity decreases, leading to accumulation of damaged mitochondria and proteins. In many model organisms from yeast to mammals, mTORC1 inhibition with rapamycin restores autophagic activity and increases lifespan, and long-term administration increases autophagy, reduces lipofuscin accumulation, and improves cardiomyocyte function. Rapamycin's purported geroprotective effects are often attributed to its ability to induce autophagy, the cellular recycling process responsible for degrading protein aggregates and other damage-associated molecular patterns. mTORC1 normally inhibits autophagy by phosphorylating components of the ULK1 (Unc-51-like autophagy-activating kinase 1) complex, and its inhibition by rapamycin removes this suppression and initiates autophagosome formation. However, autophagy is context-dependent in cancer: while it may suppress tumor initiation by clearing damaged components, it can also support the survival and growth of established tumors.",
+      "zh-TW": "自噬受到mTORC1複合物的強烈調控，mTORC1在營養豐富的條件下透過阻斷ULK1複合物抑制自噬啟動。Rapamycin對mTORC1的抑制透過活化自噬和支持胺基酸回收及損傷結構的移除來抵消此效應。隨著年齡增長，自噬活性降低，導致受損粒線體和蛋白質的累積。在從酵母到哺乳動物的許多模式生物中，rapamycin對mTORC1的抑制恢復自噬活性並延長壽命，長期給藥增加自噬，減少脂褐素累積，並改善心肌細胞功能。 Rapamycin聲稱的抗老化效應通常歸因於其誘導自噬的能力，自噬是負責降解蛋白質聚集和其他損傷相關分子模式的細胞回收過程。mTORC1通常透過磷酸化ULK1（Unc-51-like autophagy-activating kinase 1）複合物的成分來抑制自噬，rapamycin對其的抑制消除了這種抑制並啟動自噬體形成。然而，自噬在癌症中是背景依賴性的：雖然它可能透過清除損傷成分來抑制腫瘤起始，但它也可以支持已建立腫瘤的存活和生長。"
     },
     "confidence": 0.96,
     "source_document": "_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:11:05Z"
-  },
-  {
-    "id": "15547349278a",
-    "subject": "Rapamycin",
-    "predicate": "induces",
-    "object": "Autophagy",
-    "context": {
-      "en-US": "Rapamycin's purported geroprotective effects are often attributed to its ability to induce autophagy, the cellular recycling process responsible for degrading protein aggregates and other damage-associated molecular patterns. mTORC1 normally inhibits autophagy by phosphorylating components of the ULK1 (Unc-51-like autophagy-activating kinase 1) complex, and its inhibition by rapamycin removes this suppression and initiates autophagosome formation. However, autophagy is context-dependent in cancer: while it may suppress tumor initiation by clearing damaged components, it can also support the survival and growth of established tumors.",
-      "zh-TW": "Rapamycin聲稱的抗老化效應通常歸因於其誘導自噬的能力，自噬是負責降解蛋白質聚集和其他損傷相關分子模式的細胞回收過程。mTORC1通常透過磷酸化ULK1（Unc-51-like autophagy-activating kinase 1）複合物的成分來抑制自噬，rapamycin對其的抑制消除了這種抑制並啟動自噬體形成。然而，自噬在癌症中是背景依賴性的：雖然它可能透過清除損傷成分來抑制腫瘤起始，但它也可以支持已建立腫瘤的存活和生長。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Rapamycin for longevity the pros, the cons, and future perspectives.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:11:05Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "5300f34bc2ef",
@@ -10799,27 +10505,13 @@
     "predicate": "extends",
     "object": "Longevity",
     "context": {
-      "en-US": "In one short-lived mutant strain of mice, the mTOR inhibitor rapamycin (known clinically as sirolimus) extends maximum life span nearly three-fold. Rapamycin also prolongs life in normal mice as well as in yeast, worms and flies, and prevents age-related conditions in rodents, dogs, nonhuman primates and humans. In two dozen studies using different strains of mice, rapamycin extended life span, starting from the thorough study by Harrison and colleagues; rapamycin and its analog everolimus are FDA-approved for human use and have been used safely for decades, and rapamycin extends lifespan even when started late in life.",
-      "zh-TW": "在一個短壽命的小鼠突變品系中，mTOR抑制劑rapamycin（臨床上稱為sirolimus）將最大壽命延長近三倍。Rapamycin也在正常小鼠以及酵母、蠕蟲和果蠅中延長壽命，並預防囓齒動物、狗、非人類靈長類動物和人類的年齡相關疾病。在使用不同小鼠品系的兩 dozen 研究中，rapamycin延長壽命，從Harrison和同事的徹底研究開始；rapamycin及其類似物everolimus已獲FDA批准用於人類，並且已安全使用數十年，即使在生命晚期開始rapamycin也能延長壽命。"
+      "en-US": "In one short-lived mutant strain of mice, the mTOR inhibitor rapamycin (known clinically as sirolimus) extends maximum life span nearly three-fold. Rapamycin also prolongs life in normal mice as well as in yeast, worms and flies, and prevents age-related conditions in rodents, dogs, nonhuman primates and humans. In two dozen studies using different strains of mice, rapamycin extended life span, starting from the thorough study by Harrison and colleagues; rapamycin and its analog everolimus are FDA-approved for human use and have been used safely for decades, and rapamycin extends lifespan even when started late in life. Inhibition of mTOR through rapamycin and its analogs (rapalogs) consistently prolongs life in numerous animal models while improving age-related physiological functions. The breakthrough occurred in 2009 when rapamycin was reported to extend the life of genetically heterogeneous mice, changing the scientific world's perception of aging. Subsequent studies showed rapamycin extends median lifespan by about 10% in UM-HET3 mice and improves glucose tolerance, frailty indicators, gait speed, liver parameters, and weight, while in Drosophila it extends lifespan through increased autophagy and decreased age-related intestinal pathologies. Rapamycin was the only drug among five tested that altered survival.",
+      "zh-TW": "在一個短壽命的小鼠突變品系中，mTOR抑制劑rapamycin（臨床上稱為sirolimus）將最大壽命延長近三倍。Rapamycin也在正常小鼠以及酵母、蠕蟲和果蠅中延長壽命，並預防囓齒動物、狗、非人類靈長類動物和人類的年齡相關疾病。在使用不同小鼠品系的兩 dozen 研究中，rapamycin延長壽命，從Harrison和同事的徹底研究開始；rapamycin及其類似物everolimus已獲FDA批准用於人類，並且已安全使用數十年，即使在生命晚期開始rapamycin也能延長壽命。 透過rapamycin及其類似物（rapalogs）對mTOR的抑制在許多動物模型中一致地延長壽命，同時改善年齡相關的生理功能。突破發生在2009年，當時報告rapamycin延長基因異質性小鼠的壽命，改變了科學界對老化的看法。後續研究顯示rapamycin在UM-HET3小鼠中將中位壽命延長約10%，並改善葡萄糖耐受性、虛弱指標、步態速度、肝臟參數和體重，而在黑腹果蠅中，它透過增加自噬和減少年齡相關的腸道病理來延長壽命。Rapamycin是測試的五種藥物中唯一改變存活率的。"
     },
     "confidence": 0.96,
     "source_document": "_document_ - Rapamycin for longevity opinion article.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:11:05Z"
-  },
-  {
-    "id": "5db4d3e31e92",
-    "subject": "Rapamycin",
-    "predicate": "extends_lifespan_in",
-    "object": "Longevity",
-    "context": {
-      "en-US": "Inhibition of mTOR through rapamycin and its analogs (rapalogs) consistently prolongs life in numerous animal models while improving age-related physiological functions. The breakthrough occurred in 2009 when rapamycin was reported to extend the life of genetically heterogeneous mice, changing the scientific world's perception of aging. Subsequent studies showed rapamycin extends median lifespan by about 10% in UM-HET3 mice and improves glucose tolerance, frailty indicators, gait speed, liver parameters, and weight, while in Drosophila it extends lifespan through increased autophagy and decreased age-related intestinal pathologies. Rapamycin was the only drug among five tested that altered survival.",
-      "zh-TW": "透過rapamycin及其類似物（rapalogs）對mTOR的抑制在許多動物模型中一致地延長壽命，同時改善年齡相關的生理功能。突破發生在2009年，當時報告rapamycin延長基因異質性小鼠的壽命，改變了科學界對老化的看法。後續研究顯示rapamycin在UM-HET3小鼠中將中位壽命延長約10%，並改善葡萄糖耐受性、虛弱指標、步態速度、肝臟參數和體重，而在黑腹果蠅中，它透過增加自噬和減少年齡相關的腸道病理來延長壽命。Rapamycin是測試的五種藥物中唯一改變存活率的。"
-    },
-    "confidence": 0.96,
-    "source_document": "_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:11:05Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "0ddb8d1f152b",
@@ -11116,20 +10808,6 @@
     "updated": "2026-08-20T06:14:36Z"
   },
   {
-    "id": "1e410fa6e220",
-    "subject": "Resting Metabolic Rate",
-    "predicate": "increases_after",
-    "object": "Exercise",
-    "context": {
-      "en-US": "After a single session of aerobic exercise, resting metabolic rate remains elevated above baseline for a period of 24 to 48 hours in young individuals. Studies summarized by Speakman show that following moderate exercise, RMR increased by roughly 3-8 percent over the subsequent day, and residual effects could still be measured up to 48 hours post-exercise, in some cases lasting three days. The magnitude and duration of this elevation depend on exercise protocol and subject fitness, and it is thought to reflect recovery processes, elevated sympathetic tone, and increased substrate cycling in the post-exercise period.",
-      "zh-TW": "在年輕個體中，一次有氧運動後，靜息代謝率在基線以上保持升高24至48小時。Speakman總結的研究表明，在適度運動後，RMR在第二天大約增加了3-8%，殘餘效應在運動後48小時仍可測量，在某些情況下持續三天。這種升高的幅度和持續時間取決於運動方案和受試者的健康狀況，據認為反映了恢復過程、交感神經張力升高和運動後時期底物循環的增加。"
-    },
-    "confidence": 0.93,
-    "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:14:36Z"
-  },
-  {
     "id": "4a270a67a0bb",
     "subject": "Resting Metabolic Rate",
     "predicate": "correlates_with",
@@ -11233,13 +10911,13 @@
     "predicate": "synthesizes",
     "object": "dNTP",
     "context": {
-      "en-US": "Ribonucleotide reductase (RNR) is the only enzyme that catalyzes the de novo conversion of ribonucleoside diphosphates (NDPs) into deoxyribonucleoside diphosphates (dNDPs), the immediate precursors of the dNTPs required for DNA replication and repair. It is the rate-limiting, allosterically regulated committed step of de novo dNTP synthesis.",
-      "zh-TW": "核醣核苷酸還原酶（RNR）是唯一能催化核醣核苷二磷酸（NDP）de novo 轉化為去氧核醣核苷二磷酸（dNDP）的酵素，dNDP 是 DNA 複製與修復所需 dNTP 的直接前驅物。它是 de novo dNTP 合成中受別構調控、速率限制的承諾步驟。"
+      "en-US": "Ribonucleotide reductase (RNR) is the only enzyme that catalyzes the de novo conversion of ribonucleoside diphosphates (NDPs) into deoxyribonucleoside diphosphates (dNDPs), the immediate precursors of the dNTPs required for DNA replication and repair. It is the rate-limiting, allosterically regulated committed step of de novo dNTP synthesis. dNTPs (dATP, dGTP, dCTP, dTTP) are the four deoxyribose building blocks of DNA, produced de novo by ribonucleotide reductase via reduction of NDPs to dNDPs followed by phosphorylation. RNR is the rate-limiting, allosterically committed step of this synthesis.",
+      "zh-TW": "核醣核苷酸還原酶（RNR）是唯一能催化核醣核苷二磷酸（NDP）de novo 轉化為去氧核醣核苷二磷酸（dNDP）的酵素，dNDP 是 DNA 複製與修復所需 dNTP 的直接前驅物。它是 de novo dNTP 合成中受別構調控、速率限制的承諾步驟。 dNTP（dATP、dGTP、dCTP、dTTP）是 DNA 的四種去氧核糖建構單元，由核醣核苷酸還原酶將 NDP 還原為 dNDP 再經磷酸化而 de novo 合成。RNR 是此合成中速率限制、別構承諾的步驟。"
     },
     "confidence": 0.98,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "eb3204bd5e64",
@@ -11275,13 +10953,13 @@
     "predicate": "has_subunit",
     "object": "RRM1",
     "context": {
-      "en-US": "Mammalian ribonucleotide reductase (RNR) assembles as an alpha2beta2 heterotetramer in which RRM1 provides the large catalytic (alpha) subunit carrying the active site and the allosteric specificity/activity sites. RRM1 assembles with either the RRM2 or RRM2B small subunit to form the active holoenzyme.",
-      "zh-TW": "哺乳類核醣核苷酸還原酶（RNR）組裝為 alpha2beta2 異四聚體，其中 RRM1 提供大型催化（alpha）次單元，帶有活性位點以及別構特異性/活性位點。RRM1 與 RRM2 或 RRM2B 小次單元組裝形成活性全酶。"
+      "en-US": "Mammalian ribonucleotide reductase (RNR) assembles as an alpha2beta2 heterotetramer in which RRM1 provides the large catalytic (alpha) subunit carrying the active site and the allosteric specificity/activity sites. RRM1 assembles with either the RRM2 or RRM2B small subunit to form the active holoenzyme. RRM1 encodes the large (alpha) catalytic subunit of human ribonucleotide reductase, which assembles with the RRM2 or RRM2B small subunit to form the active alpha2beta2 holoenzyme. It carries the active site, the allosteric specificity and activity sites, and the redox-active disulfide reduced each cycle by thioredoxin-1 or glutaredoxin.",
+      "zh-TW": "哺乳類核醣核苷酸還原酶（RNR）組裝為 alpha2beta2 異四聚體，其中 RRM1 提供大型催化（alpha）次單元，帶有活性位點以及別構特異性/活性位點。RRM1 與 RRM2 或 RRM2B 小次單元組裝形成活性全酶。 RRM1 編碼人類核醣核苷酸還原酶的大型（alpha）催化次單元，與 RRM2 或 RRM2B 小次單元組裝形成活性 alpha2beta2 全酶。它帶有活性位點、別構特異性與活性位點，以及每個循環由硫氧還蛋白-1 或 glutaredoxin 還原的氧化還原活性雙硫鍵。"
     },
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "5597a7b8a8fe",
@@ -11289,13 +10967,13 @@
     "predicate": "has_subunit",
     "object": "RRM2",
     "context": {
-      "en-US": "Mammalian ribonucleotide reductase assembles as an alpha2beta2 heterotetramer in which RRM2 provides the small (beta) subunit housing the diferric-tyrosyl radical cofactor. RRM2 is S-phase restricted and the primary target of hydroxyurea and triapine.",
-      "zh-TW": "哺乳類核醣核苷酸還原酶組裝為 alpha2beta2 異四聚體，其中 RRM2 提供容納雙鐵-酪胺醯自由基輔因子的（beta）小次單元。RRM2 局限於 S 期表現，並是 hydroxyurea 與 triapine 的主要靶點。"
+      "en-US": "Mammalian ribonucleotide reductase assembles as an alpha2beta2 heterotetramer in which RRM2 provides the small (beta) subunit housing the diferric-tyrosyl radical cofactor. RRM2 is S-phase restricted and the primary target of hydroxyurea and triapine. RRM2 encodes the small (beta) subunit of human ribonucleotide reductase that houses the diferric-tyrosyl radical cofactor driving catalysis. The radical is relayed about 32-40 A to the RRM1 active site through a proton-coupled electron-transfer pathway to form the catalytic thiyl radical.",
+      "zh-TW": "哺乳類核醣核苷酸還原酶組裝為 alpha2beta2 異四聚體，其中 RRM2 提供容納雙鐵-酪胺醯自由基輔因子的（beta）小次單元。RRM2 局限於 S 期表現，並是 hydroxyurea 與 triapine 的主要靶點。 RRM2 編碼人類核醣核苷酸還原酶的小型（beta）次單元，容納驅動催化作用的雙鐵-酪胺醯自由基輔因子。該自由基經質子耦合電子轉移途徑被中繼約 32-40 A 至 RRM1 活性位點，以形成催化性硫基自由基。"
     },
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "792ffa121166",
@@ -11303,13 +10981,13 @@
     "predicate": "has_subunit",
     "object": "RRM2B",
     "context": {
-      "en-US": "Mammalian ribonucleotide reductase assembles as an alpha2beta2 heterotetramer in which RRM2B (p53R2) provides a p53-inducible small (beta-prime) subunit that partners with RRM1 to provision dNTPs for DNA repair and mitochondrial DNA synthesis. RRM2B mutations cause mitochondrial DNA depletion syndromes.",
-      "zh-TW": "哺乳類核醣核苷酸還原酶組裝為 alpha2beta2 異四聚體，其中 RRM2B（p53R2）提供受 p53 誘導的（beta-prime）小次單元，與 RRM1 配對以供應 DNA 修復與粒線體 DNA 合成所需的 dNTP。RRM2B 突變會導致粒線體 DNA 耗竭症候群。"
+      "en-US": "Mammalian ribonucleotide reductase assembles as an alpha2beta2 heterotetramer in which RRM2B (p53R2) provides a p53-inducible small (beta-prime) subunit that partners with RRM1 to provision dNTPs for DNA repair and mitochondrial DNA synthesis. RRM2B mutations cause mitochondrial DNA depletion syndromes. RRM2B encodes p53R2, the p53-inducible small (beta-prime) subunit of human ribonucleotide reductase, which assembles with the RRM1 alpha subunit to form an active enzyme. It contains the same radical-bearing di-iron/tyrosyl cofactor as RRM2 with a Phe-for-Tyr substitution.",
+      "zh-TW": "哺乳類核醣核苷酸還原酶組裝為 alpha2beta2 異四聚體，其中 RRM2B（p53R2）提供受 p53 誘導的（beta-prime）小次單元，與 RRM1 配對以供應 DNA 修復與粒線體 DNA 合成所需的 dNTP。RRM2B 突變會導致粒線體 DNA 耗竭症候群。 RRM2B 編碼 p53R2，即人類核醣核苷酸還原酶受 p53 誘導的（beta-prime）小次單元，與 RRM1 alpha 次單元組裝形成活性酵素。它含有與 RRM2 相同的攜帶自由基的雙鐵/酪胺醯輔因子，但有一個 Phe 取代 Tyr。"
     },
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "5b45b39b1109",
@@ -11377,20 +11055,6 @@
       "zh-TW": "RRM1（alpha）次單元是核苷類似物 RNR 抑制劑的作用位點：Gemcitabine 的二磷酸（dFdCDP）不可逆地使 R1 失活，Clofarabine 的二磷酸則抑制之。因此 RRM1 上調是 Gemcitabine 抗藥性的主要機制。"
     },
     "confidence": 0.9,
-    "source_document": "RRM1.md",
-    "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "8c65222bc814",
-    "subject": "RRM1",
-    "predicate": "is_a_subunit_of",
-    "object": "Ribonucleotide Reductase",
-    "context": {
-      "en-US": "RRM1 encodes the large (alpha) catalytic subunit of human ribonucleotide reductase, which assembles with the RRM2 or RRM2B small subunit to form the active alpha2beta2 holoenzyme. It carries the active site, the allosteric specificity and activity sites, and the redox-active disulfide reduced each cycle by thioredoxin-1 or glutaredoxin.",
-      "zh-TW": "RRM1 編碼人類核醣核苷酸還原酶的大型（alpha）催化次單元，與 RRM2 或 RRM2B 小次單元組裝形成活性 alpha2beta2 全酶。它帶有活性位點、別構特異性與活性位點，以及每個循環由硫氧還蛋白-1 或 glutaredoxin 還原的氧化還原活性雙硫鍵。"
-    },
-    "confidence": 0.95,
     "source_document": "RRM1.md",
     "created": "2026-09-02T06:31:39Z",
     "updated": "2026-09-02T07:19:21Z"
@@ -11466,20 +11130,6 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "f6dafbc8d805",
-    "subject": "RRM2",
-    "predicate": "is_a_subunit_of",
-    "object": "Ribonucleotide Reductase",
-    "context": {
-      "en-US": "RRM2 encodes the small (beta) subunit of human ribonucleotide reductase that houses the diferric-tyrosyl radical cofactor driving catalysis. The radical is relayed about 32-40 A to the RRM1 active site through a proton-coupled electron-transfer pathway to form the catalytic thiyl radical.",
-      "zh-TW": "RRM2 編碼人類核醣核苷酸還原酶的小型（beta）次單元，容納驅動催化作用的雙鐵-酪胺醯自由基輔因子。該自由基經質子耦合電子轉移途徑被中繼約 32-40 A 至 RRM1 活性位點，以形成催化性硫基自由基。"
-    },
-    "confidence": 0.95,
-    "source_document": "RRM2.md",
-    "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "9ebf1e7d4f3b",
     "subject": "RRM2",
     "predicate": "is_inhibited_by",
@@ -11515,20 +11165,6 @@
     "context": {
       "en-US": "The tumor suppressor p53 transactivates RRM2B (p53R2) in response to DNA damage and replication stress. p53R2 then assembles with RRM1 to provision dNTPs for DNA repair and mitochondrial DNA synthesis in arrested or non-cycling cells.",
       "zh-TW": "腫瘤抑制子 p53 在 DNA 損傷與複製壓力下轉錄活化 RRM2B（p53R2）。接著 p53R2 與 RRM1 組裝，在停滯或非增殖細胞中供應 DNA 修復與粒線體 DNA 合成所需的 dNTP。"
-    },
-    "confidence": 0.95,
-    "source_document": "RRM2B.md",
-    "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "ee9f32221d44",
-    "subject": "RRM2B",
-    "predicate": "is_a_subunit_of",
-    "object": "Ribonucleotide Reductase",
-    "context": {
-      "en-US": "RRM2B encodes p53R2, the p53-inducible small (beta-prime) subunit of human ribonucleotide reductase, which assembles with the RRM1 alpha subunit to form an active enzyme. It contains the same radical-bearing di-iron/tyrosyl cofactor as RRM2 with a Phe-for-Tyr substitution.",
-      "zh-TW": "RRM2B 編碼 p53R2，即人類核醣核苷酸還原酶受 p53 誘導的（beta-prime）小次單元，與 RRM1 alpha 次單元組裝形成活性酵素。它含有與 RRM2 相同的攜帶自由基的雙鐵/酪胺醯輔因子，但有一個 Phe 取代 Tyr。"
     },
     "confidence": 0.95,
     "source_document": "RRM2B.md",
@@ -12465,13 +12101,13 @@
     "predicate": "repairs",
     "object": "Peroxiredoxin 3",
     "context": {
-      "en-US": "Sulfiredoxin (SRXN1) is an ATP-dependent repair enzyme that reverses the over-oxidation of typical 2-Cys peroxiredoxins, most notably peroxiredoxin 3 (PRDX3) in mitochondria. It reduces the sulfinic acid (Cys-SO2H) state back to the sulfenic/sulfhydryl state, recycling the peroxiredoxin and restoring peroxide-detoxifying capacity.",
-      "zh-TW": "Sulfiredoxin（SRXN1）是 ATP 依賴的修復酵素，可逆轉典型 2-Cys 過氧化還原酶（尤其是粒線體中的過氧化還原酶 3，PRDX3）的過度氧化。它將亞磺酸（Cys-SO2H）狀態還原回亞磺烯基/硫氫基狀態，回收過氧化還原酶並恢復過氧化物解毒能力。"
+      "en-US": "Sulfiredoxin (SRXN1) is an ATP-dependent repair enzyme that reverses the over-oxidation of typical 2-Cys peroxiredoxins, most notably peroxiredoxin 3 (PRDX3) in mitochondria. It reduces the sulfinic acid (Cys-SO2H) state back to the sulfenic/sulfhydryl state, recycling the peroxiredoxin and restoring peroxide-detoxifying capacity. Peroxiredoxin 3 (PRDX3) is reversibly inactivated when its peroxidatic cysteine is hyperoxidized to sulfinic acid during oxidative bursts. Sulfiredoxin (SRXN1) repairs this hyperoxidation in an ATP-dependent reaction, restoring PRDX3's peroxide-scavenging activity.",
+      "zh-TW": "Sulfiredoxin（SRXN1）是 ATP 依賴的修復酵素，可逆轉典型 2-Cys 過氧化還原酶（尤其是粒線體中的過氧化還原酶 3，PRDX3）的過度氧化。它將亞磺酸（Cys-SO2H）狀態還原回亞磺烯基/硫氫基狀態，回收過氧化還原酶並恢復過氧化物解毒能力。 在氧化爆發期間，過氧化還原酶 3（PRDX3）的過氧化半胱氨酸被過度氧化為亞磺酸時會可逆地失活。Sulfiredoxin（SRXN1）以 ATP 依賴的反應修復此過度氧化，恢復 PRDX3 的過氧化氫清除活性。"
     },
     "confidence": 0.95,
     "source_document": "Sulfiredoxin.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T06:31:39Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "1613a3a627d1",
@@ -13123,27 +12759,13 @@
     "predicate": "regenerates",
     "object": "Peroxiredoxin 3",
     "context": {
-      "en-US": "Mitochondrial thioredoxin-2 (Trx2) donates electrons to reduce the oxidized (disulfide) form of peroxiredoxin 3 (Prx3), restoring its peroxide-scavenging activity. Trx2 is itself recycled to the reduced form by mitochondrial thioredoxin reductase (TXNRD2) using NADPH. Because Prx3 consumes the H2O2 generated by MnSOD, the Trx2/Prx3 arm is the water-evolving half of the mitochondrial peroxide-relay and a direct functional partner of MnSOD in the matrix.",
-      "zh-TW": "粒線體 thioredoxin-2（Trx2）捐贈電子以還原 peroxiredoxin 3（Prx3）的氧化態（雙硫）形式，恢復其過氧化物清除活性。Trx2 本身再由粒線體 thioredoxin reductase（TXNRD2）以 NADPH 回收為還原形式。由於 Prx3 消耗 MnSOD 所產生的 H2O2，Trx2/Prx3 分支是粒線體過氧化物接力中產生水的半段，也是 MnSOD 在基質中的直接功能夥伴。"
+      "en-US": "Mitochondrial thioredoxin-2 (Trx2) donates electrons to reduce the oxidized (disulfide) form of peroxiredoxin 3 (Prx3), restoring its peroxide-scavenging activity. Trx2 is itself recycled to the reduced form by mitochondrial thioredoxin reductase (TXNRD2) using NADPH. Because Prx3 consumes the H2O2 generated by MnSOD, the Trx2/Prx3 arm is the water-evolving half of the mitochondrial peroxide-relay and a direct functional partner of MnSOD in the matrix. Thioredoxin-2 (Trx2) donates electrons to sustain the mitochondrial peroxide-removal cycle, and its H2O2 disposal partner peroxiredoxin 3 consumes the hydrogen peroxide produced by superoxide dismutase. Together they form the matrix peroxide-relay SOD2 to H2O to H2O.",
+      "zh-TW": "粒線體 thioredoxin-2（Trx2）捐贈電子以還原 peroxiredoxin 3（Prx3）的氧化態（雙硫）形式，恢復其過氧化物清除活性。Trx2 本身再由粒線體 thioredoxin reductase（TXNRD2）以 NADPH 回收為還原形式。由於 Prx3 消耗 MnSOD 所產生的 H2O2，Trx2/Prx3 分支是粒線體過氧化物接力中產生水的半段，也是 MnSOD 在基質中的直接功能夥伴。 Thioredoxin-2 (Trx2) 提供電子以維持粒線體過氧化氫清除循環，其 H2O2 清除夥伴過氧化還原酶 3 消耗超氧化物歧化酶所產生的過氧化氫。兩者共同構成基質過氧化物接力 SOD2 → H2O2 → H2O。"
     },
     "confidence": 0.95,
     "source_document": "Thioredoxin-2.md",
     "created": "2026-09-02T06:13:46Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "8be8d0d5a4ed",
-    "subject": "Thioredoxin-2",
-    "predicate": "provides_substrate_for",
-    "object": "Peroxiredoxin 3",
-    "context": {
-      "en-US": "Thioredoxin-2 (Trx2) donates electrons to sustain the mitochondrial peroxide-removal cycle, and its H2O2 disposal partner peroxiredoxin 3 consumes the hydrogen peroxide produced by superoxide dismutase. Together they form the matrix peroxide-relay SOD2 to H2O to H2O.",
-      "zh-TW": "Thioredoxin-2 (Trx2) 提供電子以維持粒線體過氧化氫清除循環，其 H2O2 清除夥伴過氧化還原酶 3 消耗超氧化物歧化酶所產生的過氧化氫。兩者共同構成基質過氧化物接力 SOD2 → H2O2 → H2O。"
-    },
-    "confidence": 0.9,
-    "source_document": "Thioredoxin-2.md",
-    "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "daf7f31763d4",
@@ -13510,20 +13132,6 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "3dfdfb806175",
-    "subject": "Ubiquinone",
-    "predicate": "reduced_to_ubiquinol_by",
-    "object": "FSP1",
-    "context": {
-      "en-US": "Ubiquinone (CoQ10, oxidized) is the direct electron acceptor for FSP1 at the plasma membrane; FSP1 reduces it to ubiquinol (CoQ10H2) using NAD(P)H. Ubiquinol then acts as the lipophilic radical-trapping antioxidant that terminates phospholipid peroxyl-radical chains, suppressing ferroptosis.",
-      "zh-TW": "泛醌（CoQ10，氧化態）是 FSP1 在質膜上的直接電子受體；FSP1 利用 NAD(P)H 將其還原為泛醇（CoQ10H2）。隨後泛醇作為脂溶性自由基捕獲抗氧化劑，終止磷脂過氧自由基鏈，抑制鐵死亡。"
-    },
-    "confidence": 0.95,
-    "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-    "created": "2026-08-24T21:24:43Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
     "id": "3dcae73a12f9",
     "subject": "Ubiquinone",
     "predicate": "synthesized_via",
@@ -13613,27 +13221,13 @@
     "predicate": "enhances",
     "object": "Mitophagy",
     "context": {
-      "en-US": "Urolithin A is a mitophagy-enhancing intervention that selectively removes damaged mitochondria, improving muscle health in aged models. It represents one of the leading mitochondria-targeted anti-aging strategies, alongside NAD+ repletion (nicotinamide riboside, NMN), mitochondrial biogenesis activation (AMPK activators, PGC-1α pathway), mitochondrial transplantation (nMITO bioengineered mitochondria), mtDNA editing (mitoTALENs, mitoZFNs), and scalable mitochondrial transfer platforms.",
-      "zh-TW": "尿石素 A 是一種增強線粒體自噬的干預措施，選擇性地清除受損線粒體，改善老化模型中的肌肉健康。它代表了領先的線粒體靶向抗衰老策略之一，與 NAD+ 補充（菸鹼胺核苷、NMN）、線粒體生物發生啟動（AMPK 啟動劑、PGC-1α 通路）、線粒體移植（nMITO 生物工程線粒體）、mtDNA 編輯（mitoTALENs、mitoZFNs）和可擴展的線粒體轉移平台並列。"
+      "en-US": "Urolithin A is a mitophagy-enhancing intervention that selectively removes damaged mitochondria, improving muscle health in aged models. It represents one of the leading mitochondria-targeted anti-aging strategies, alongside NAD+ repletion (nicotinamide riboside, NMN), mitochondrial biogenesis activation (AMPK activators, PGC-1α pathway), mitochondrial transplantation (nMITO bioengineered mitochondria), mtDNA editing (mitoTALENs, mitoZFNs), and scalable mitochondrial transfer platforms. Urolithin A is a potent inducer of mitophagy, the clean-up process that recycles old, damaged mitochondria so new ones can take their place, and is described as a core mitohormetic mechanism. It is recommended to be taken with the first fat-containing meal of the day, as co-ingesting with healthy fats such as eggs, avocado, or yogurt can enhance its absorption. By supporting mitochondrial recycling, Urolithin A complements the energy production and renewal pathways targeted by the overall mitohormesis protocol. Rzeski 2026 adds the molecular anchor: PINK1 stabilization on depolarized mitochondria with Parkin-mediated ubiquitination, extending C. elegans median lifespan 45.4% via dct-1/bec-1-dependent mitophagy (Ryu 2016).",
+      "zh-TW": "尿石素 A 是一種增強線粒體自噬的干預措施，選擇性地清除受損線粒體，改善老化模型中的肌肉健康。它代表了領先的線粒體靶向抗衰老策略之一，與 NAD+ 補充（菸鹼胺核苷、NMN）、線粒體生物發生啟動（AMPK 啟動劑、PGC-1α 通路）、線粒體移植（nMITO 生物工程線粒體）、mtDNA 編輯（mitoTALENs、mitoZFNs）和可擴展的線粒體轉移平台並列。 尿石素 A 是一種有效的線粒體自噬誘導劑，該清理過程回收老舊受損的線粒體以便新線粒體取而代之，被描述為核心的 mitohormetic 機制。建議在一天中第一頓含脂肪的餐食中服用，因為與健康脂肪（如雞蛋、酪梨或優格）一起攝入可以增強其吸收。通過支持線粒體回收，尿石素 A 補充了整體 mitohormesis 方案所靶向的能量產生和更新通路。Rzeski 2026 補充分子機制：PINK1 穩定化與 Parkin 泛素化，線蟲中位壽命延長 45.4%（Ryu 2016）。"
     },
     "confidence": 0.88,
     "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
-  },
-  {
-    "id": "cbd5e94b0ba2",
-    "subject": "Urolithin A",
-    "predicate": "induces",
-    "object": "Mitophagy",
-    "context": {
-      "en-US": "Urolithin A is a potent inducer of mitophagy, the clean-up process that recycles old, damaged mitochondria so new ones can take their place, and is described as a core mitohormetic mechanism. It is recommended to be taken with the first fat-containing meal of the day, as co-ingesting with healthy fats such as eggs, avocado, or yogurt can enhance its absorption. By supporting mitochondrial recycling, Urolithin A complements the energy production and renewal pathways targeted by the overall mitohormesis protocol. Rzeski 2026 adds the molecular anchor: PINK1 stabilization on depolarized mitochondria with Parkin-mediated ubiquitination, extending C. elegans median lifespan 45.4% via dct-1/bec-1-dependent mitophagy (Ryu 2016).",
-      "zh-TW": "尿石素 A 是一種有效的線粒體自噬誘導劑，該清理過程回收老舊受損的線粒體以便新線粒體取而代之，被描述為核心的 mitohormetic 機制。建議在一天中第一頓含脂肪的餐食中服用，因為與健康脂肪（如雞蛋、酪梨或優格）一起攝入可以增強其吸收。通過支持線粒體回收，尿石素 A 補充了整體 mitohormesis 方案所靶向的能量產生和更新通路。Rzeski 2026 補充分子機制：PINK1 穩定化與 Parkin 泛素化，線蟲中位壽命延長 45.4%（Ryu 2016）。"
-    },
-    "confidence": 0.91,
-    "source_document": "_document_ - mitohormesis, heart rate variability.md",
-    "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-17T08:00:00Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "224b90152556",
@@ -14049,20 +13643,6 @@
     "context": {
       "en-US": "Estrogen acts as an endogenous NF-κB suppressant through a bimodal ERβ mechanism: it enhances IκBα expression (sequestering NF-κB in the cytoplasm) and reduces p65/RelA binding to pro-inflammatory promoters (Giroux et al., PLoS ONE 2012). In situ, the MyD88/methylated-ERα complex required for NF-κB activity is found in 35/35 testicular and 3/11 post-menopausal ovarian samples but 0/29 pre-menopausal ovaries. Loss of estrogen at menopause derepresses NF-κB (the 'estrogen cliff').",
       "zh-TW": "雌激素透過雙模 ERβ 機制作為內源性 NF-κB 抑制劑：提高 IκBα 表現（將 NF-κB 隔離於細胞質）並降低 p65/RelA 對促發炎啟動子的結合（Giroux 等，PLoS ONE 2012）。原位證據顯示，NF-κB 活性所需的 MyD88/甲基化 ERα 複合體存在於 35/35 睪丸與 3/11 停經後卵巢樣本，但在 0/29 停經前卵巢樣本中。停經後雌激素喪失會解除對 NF-κB 的壓抑（「雌激素懸崖」）。"
-    },
-    "confidence": 0.85,
-    "source_document": "NF-κB.md",
-    "created": "2026-09-02T06:00:00Z",
-    "updated": "2026-09-02T06:00:00Z"
-  },
-  {
-    "id": "87769420e914",
-    "subject": "NF-κB",
-    "predicate": "drives",
-    "object": "SASP",
-    "context": {
-      "en-US": "NF-κB is the master transcriptional regulator of the SASP, and its estrogen-driven suppression gives premenopausal females a lower SASP burden. The sex-dependent SASP burden and its role in the post-menopausal 'estrogen cliff' connect the NF-κB and SASP sex-difference frameworks.",
-      "zh-TW": "NF-κB 是 SASP 的主要轉錄調控因子，其受雌激素驅動的壓抑使停經前女性具有較低的 SASP 負擔。性別依賴的 SASP 負擔及其在停經後「雌激素懸崖」中的角色，將 NF-κB 與 SASP 的性別差異架構相連結。"
     },
     "confidence": 0.85,
     "source_document": "NF-κB.md",
@@ -15377,13 +14957,13 @@
     "predicate": "activates",
     "object": "RIPK3",
     "context": {
-      "en-US": "ZBP1 senses Z-nucleic acids and activates RIPK3 through RHIM interactions, bypassing RIPK1 to trigger necroptosis directly downstream of viral or endogenous Z-RNA/DNA.",
-      "zh-TW": "ZBP1 感測 Z-核酸，透過 RHIM 相互作用活化 RIPK3，繞過 RIPK1，在病毒或內源 Z-RNA/DNA 下游直接觸發 necroptosis。"
+      "en-US": "ZBP1 senses Z-nucleic acids and activates RIPK3 through RHIM interactions, bypassing RIPK1 to trigger necroptosis directly downstream of viral or endogenous Z-RNA/DNA. ZBP1 senses viral z-RNA and recruits RIPK3 through RHIM-RHIM interaction, forming a RIPK1-independent necrosome that drives MLKL phosphorylation.",
+      "zh-TW": "ZBP1 感測 Z-核酸，透過 RHIM 相互作用活化 RIPK3，繞過 RIPK1，在病毒或內源 Z-RNA/DNA 下游直接觸發 necroptosis。 ZBP1 senses viral z-RNA and recruits RIPK3 through RHIM-RHIM interaction, forming a RIPK1-independent necrosome that drives MLKL phosphorylation."
     },
     "confidence": 0.85,
     "source_document": "ZBP1.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "61be38fa84a7",
@@ -15391,13 +14971,13 @@
     "predicate": "activates",
     "object": "RIPK3",
     "context": {
-      "en-US": "TRIF relays TLR3/TLR4 signals to RIPK3 via its RHIM domain, providing a Caspase-8-independent bypass into the necrosome when death-receptor signaling is blocked.",
-      "zh-TW": "TRIF 透過其 RHIM 結構域將 TLR3/TLR4 訊號傳遞至 RIPK3，在死亡受體訊號受阻時提供不經 Caspase-8 的 necrosome 旁路。"
+      "en-US": "TRIF relays TLR3/TLR4 signals to RIPK3 via its RHIM domain, providing a Caspase-8-independent bypass into the necrosome when death-receptor signaling is blocked. TLR3/TLR4-activated TRIF binds RIPK3 directly through RHIM-RHIM interaction, assembling a non-classical necrosome without RIPK1 and splitting signaling into IFN and necroptosis arms.",
+      "zh-TW": "TRIF 透過其 RHIM 結構域將 TLR3/TLR4 訊號傳遞至 RIPK3，在死亡受體訊號受阻時提供不經 Caspase-8 的 necrosome 旁路。 TLR3/TLR4-activated TRIF binds RIPK3 directly through RHIM-RHIM interaction, assembling a non-classical necrosome without RIPK1 and splitting signaling into IFN and necroptosis arms."
     },
     "confidence": 0.8,
     "source_document": "TRIF.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "d4898857f0fa",
@@ -15547,34 +15127,6 @@
     "context": {
       "en-US": "RHIM-RHIM contacts between RIPK1/RIPK3 (classical TNFR1 necrosome) and ZBP1/TRIF-RIPK3 (non-classical, RIPK1-independent) nucleate the amyloid-like necrosome; caspase-8 cleavage of RHIM carriers dissolves the scaffold.",
       "zh-TW": "RHIM-RHIM contacts between RIPK1/RIPK3 (classical TNFR1 necrosome) and ZBP1/TRIF-RIPK3 (non-classical, RIPK1-independent) nucleate the amyloid-like necrosome; caspase-8 cleavage of RHIM carriers dissolves the scaffold."
-    },
-    "confidence": 0.9,
-    "source_document": "RHIM.md",
-    "created": "2026-09-10T19:38:48Z",
-    "updated": "2026-09-10T19:38:48Z"
-  },
-  {
-    "id": "1c4d8a7c719a",
-    "subject": "TRIF",
-    "predicate": "recruits via RHIM",
-    "object": "RIPK3",
-    "context": {
-      "en-US": "TLR3/TLR4-activated TRIF binds RIPK3 directly through RHIM-RHIM interaction, assembling a non-classical necrosome without RIPK1 and splitting signaling into IFN and necroptosis arms.",
-      "zh-TW": "TLR3/TLR4-activated TRIF binds RIPK3 directly through RHIM-RHIM interaction, assembling a non-classical necrosome without RIPK1 and splitting signaling into IFN and necroptosis arms."
-    },
-    "confidence": 0.9,
-    "source_document": "RHIM.md",
-    "created": "2026-09-10T19:38:48Z",
-    "updated": "2026-09-10T19:38:48Z"
-  },
-  {
-    "id": "f8ce85bed44a",
-    "subject": "ZBP1",
-    "predicate": "recruits via RHIM",
-    "object": "RIPK3",
-    "context": {
-      "en-US": "ZBP1 senses viral z-RNA and recruits RIPK3 through RHIM-RHIM interaction, forming a RIPK1-independent necrosome that drives MLKL phosphorylation.",
-      "zh-TW": "ZBP1 senses viral z-RNA and recruits RIPK3 through RHIM-RHIM interaction, forming a RIPK1-independent necrosome that drives MLKL phosphorylation."
     },
     "confidence": 0.9,
     "source_document": "RHIM.md",
@@ -17659,13 +17211,13 @@
     "predicate": "causes",
     "object": "Zellweger Spectrum Disorders",
     "context": {
-      "en-US": "PEX2 encodes a RING-finger ubiquitin ligase of the peroxisomal importomer that, with PEX10 and PEX12, ubiquitinates the PEX5 import receptor to recycle it after cargo delivery. Biallelic loss of PEX2 abolishes this receptor-recycling step and produces the Zellweger spectrum disorder phenotype with defective peroxisomal matrix protein import; milder variants retain residual import capacity and present as infantile Refsum or Heimler syndrome.",
-      "zh-TW": "PEX2 編碼過氧化體體（importomer）的 RING 指狀泛素連接酶，與 PEX10、PEX12 共同將 PEX5 輸入受體泛素化，以便在貨運送達後回收受體。PEX2 的雙等位基因缺失會使此受體回收步驟失效，造成過氧化體基質蛋白輸入缺陷，並產生 Zellweger 譜系疾病的表型；較輕的變異仍保有部分輸入功能，表現為嬰兒型 Refsum 症候群或 Heimler 症候群。"
+      "en-US": "PEX2 encodes a RING-finger ubiquitin ligase of the peroxisomal importomer that, with PEX10 and PEX12, ubiquitinates the PEX5 import receptor to recycle it after cargo delivery. Biallelic loss of PEX2 abolishes this receptor-recycling step and produces the Zellweger spectrum disorder phenotype with defective peroxisomal matrix protein import; milder variants retain residual import capacity and present as infantile Refsum or Heimler syndrome. Zellweger spectrum disorders are autosomal-recessive peroxisome-biogenesis disorders caused by biallelic loss of PEX genes, and PEX2 is one of these causative genes. Its loss abolishes peroxisomal import, producing the severe Zellweger syndrome end of the spectrum (hypotonia, seizures, liver dysfunction, early lethality) or milder infantile Refsum and Heimler phenotypes when residual import function remains.",
+      "zh-TW": "PEX2 編碼過氧化體體（importomer）的 RING 指狀泛素連接酶，與 PEX10、PEX12 共同將 PEX5 輸入受體泛素化，以便在貨運送達後回收受體。PEX2 的雙等位基因缺失會使此受體回收步驟失效，造成過氧化體基質蛋白輸入缺陷，並產生 Zellweger 譜系疾病的表型；較輕的變異仍保有部分輸入功能，表現為嬰兒型 Refsum 症候群或 Heimler 症候群。 Zellweger 譜系疾病是一類由 PEX 基因雙等位基因缺失造成的體染色體隱性過氧化體生物合成疾病，PEX2 正是其中的致病基因之一。其缺失會使過氧化體輸入喪失，造成譜系中嚴重端的 Zellweger 症候群（肌張力低下、抽搐、肝功能異常、早期死亡）；若仍保有部分輸入功能，則呈現較輕的嬰兒型 Refsum 與 Heimler 表型。"
     },
     "confidence": 0.93,
     "source_document": "PEX2.md",
     "created": "2026-09-27T03:37:54Z",
-    "updated": "2026-09-27T03:37:54Z"
+    "updated": "2026-09-27T03:43:23Z"
   },
   {
     "id": "ee795f62829a",
@@ -17748,20 +17300,6 @@
     },
     "confidence": 0.88,
     "source_document": "PEX12.md",
-    "created": "2026-09-27T03:37:54Z",
-    "updated": "2026-09-27T03:37:54Z"
-  },
-  {
-    "id": "064bf710cdc4",
-    "subject": "PEX2",
-    "predicate": "is_required_for",
-    "object": "Zellweger Spectrum Disorders",
-    "context": {
-      "en-US": "Zellweger spectrum disorders are autosomal-recessive peroxisome-biogenesis disorders caused by biallelic loss of PEX genes, and PEX2 is one of these causative genes. Its loss abolishes peroxisomal import, producing the severe Zellweger syndrome end of the spectrum (hypotonia, seizures, liver dysfunction, early lethality) or milder infantile Refsum and Heimler phenotypes when residual import function remains.",
-      "zh-TW": "Zellweger 譜系疾病是一類由 PEX 基因雙等位基因缺失造成的體染色體隱性過氧化體生物合成疾病，PEX2 正是其中的致病基因之一。其缺失會使過氧化體輸入喪失，造成譜系中嚴重端的 Zellweger 症候群（肌張力低下、抽搐、肝功能異常、早期死亡）；若仍保有部分輸入功能，則呈現較輕的嬰兒型 Refsum 與 Heimler 表型。"
-    },
-    "confidence": 0.9,
-    "source_document": "Zellweger Spectrum Disorders.md",
     "created": "2026-09-27T03:37:54Z",
     "updated": "2026-09-27T03:37:54Z"
   },
