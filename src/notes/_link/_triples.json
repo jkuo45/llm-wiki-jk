@@ -16392,5 +16392,2875 @@
     "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
     "created": "2026-09-18T17:50:24Z",
     "updated": "2026-09-18T17:50:24Z"
+  },
+  {
+    "id": "16b5e5679219",
+    "subject": "Red Palm Oil",
+    "predicate": "contains",
+    "object": "Carotenoids",
+    "context": {
+      "en-US": "Red Palm Oil is the richest common food matrix for lipophilic carotenoids, carrying roughly 600-750 ppm total (about 665 ppm average), of which ~41% is beta-carotene and ~41% alpha-carotene plus lycopene, phytoene and phytofluene. One tablespoon (~13 g) delivers ~8.7 mg total carotenoids, roughly 400-500 ug RAE of provitamin A. The oil's lipid vehicle solubilizes the carotenoids into mixed micelles, which is why carotenoid absorption from red palm oil far exceeds that from fat-free vegetables, and the serum-retinol response saturates at <=8 g/day.",
+      "zh-TW": "Red Palm Oil 是脂溶性類胡蘿蔔素最豐富的常見食物基質，總含量約 600-750 ppm（平均約 665 ppm），其中約 41% 為 β-carotene、約 41% 為 α-carotene，並含有 lycopene、phytoene 與 phytofluene。一大匙（約 13 g）可提供約 8.7 mg 總類胡蘿蔔素，約合 400-500 ug RAE 的 provitamin A。油脂載體可將類胡蘿蔔素溶入混合微膠粒，因此其吸收率遠高於無脂蔬菜；而血清 retinol 反應在每日 ≤8 g 時即達飽和。"
+    },
+    "confidence": 0.95,
+    "source_document": "Red Palm Oil.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "6492a1fc3e94",
+    "subject": "Red Palm Oil",
+    "predicate": "contains",
+    "object": "Tocotrienols",
+    "context": {
+      "en-US": "About 70% of red palm oil's total tocochromanol pool (717-863 ppm vitamin E) is tocotrienols rather than tocopherols - alpha-tocotrienol 29%, gamma-tocotrienol 41%, delta-tocotrienol 10% - with alpha-tocopherol supplying the remaining 19%. Because tocotrienols are an order of magnitude more potent than tocopherols at suppressing ferroptosis, this tocotrienol fraction is what places red palm oil at the top of the Tier-1 dietary lipophilic-defender ranking rather than mid-pack.",
+      "zh-TW": "Red Palm Oil 的 tocochromanol 總量（717-863 ppm vitamin E）中約 70% 是 tocotrienol 而非 tocopherol——α-tocotrienol 29%、γ-tocotrienol 41%、δ-tocotrienol 10%，α-tocopherol 佔剩餘 19%。由於 tocotrienol 抑制 Ferroptosis 的效力比 tocopherol 高一個數量級，正是這個 tocotrienol 比例讓 red palm oil 排在 Tier-1 膳食脂溶性防禦者的首位，而不是中段。"
+    },
+    "confidence": 0.95,
+    "source_document": "Red Palm Oil.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "1ab46333a441",
+    "subject": "Red Palm Oil",
+    "predicate": "contains",
+    "object": "Coenzyme Q10",
+    "context": {
+      "en-US": "Red palm oil supplies 18-25 ppm of Coenzyme Q10 (ubiquinones), a modest but real dietary source of the radical-trap substrate for the GPX4-independent FSP1 ferroptosis axis. Ubiquinol also regenerates tocopheroxyl radicals, so CoQ10 in the same oil acts synergistically with the tocotrienol fraction rather than as an isolated additive. The same oil additionally carries squalene (14-15 ppm) and phytosterols (235-365 ppm) that stabilize bilayer packing.",
+      "zh-TW": "Red palm oil 提供 18-25 ppm 的 Coenzyme Q10（ubiquinones），是 GPX9 非依賴型 FSP1 ferroptosis 軸之自由基捕捉受體的適量但真實的膳食來源。Ubiquinol 亦可再生 tocopheroxyl 自由基，因此油中的 CoQ10 與 tocotrienol 組分是協同作用，而非孤立的添加物。同一油品還含有 squalene（14-15 ppm）與 phytosterols（235-365 ppm），有助於穩定雙層膜的堆積。"
+    },
+    "confidence": 0.9,
+    "source_document": "Red Palm Oil.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "62935199ff27",
+    "subject": "Red Palm Oil",
+    "predicate": "contains",
+    "object": "Vitamin E",
+    "context": {
+      "en-US": "Red palm oil delivers 717-863 ppm of Vitamin E, roughly 10 mg per tablespoon, which is the same order as the 15 mg adult RDA. Unlike fully bleached and deodorized palm olein, low-temperature molecular distillation preserves about 80% of the crude oil's carotenoids and vitamin E. Heavy refining destroys 50-80% of the tocopherols and essentially all carotenoids, so minimally refined red palm oil is the nutritionally meaningful form and refined palm olein is not a comparable source.",
+      "zh-TW": "Red palm oil 提供 717-863 ppm 的 Vitamin E，每一大匙約 10 mg，與成人 RDA 15 mg 屬同一量級。與完全漂白、脫臭的 palm olein 不同，低溫分子蒸餾可保留原油中約 80% 的類胡蘿蔔素與 vitamin E。重度精煉會破壞 50-80% 的 tocopherols，並幾乎摧毁所有類胡蘿蔔素，因此 minimally refined 的 red palm oil 才是有營養意義的形式，refined palm olein 並非等效來源。"
+    },
+    "confidence": 0.95,
+    "source_document": "Red Palm Oil.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b030f630aa2d",
+    "subject": "Red Palm Oil",
+    "predicate": "is_ranked_above",
+    "object": "Queen Palm",
+    "context": {
+      "en-US": "Among dietary lipophilic membrane defenders, red palm oil sits in Tier 1 alongside buriti and sea buckthorn, above Queen Palm pulp oil in Tier 2. The ranking rests on two compositional metrics: red palm oil's tocotrienol fraction (~70% of its vitamin E) and its total carotenoid load (600-750 ppm), both of which outrank the palm-family competition. Queen Palm pulp instead leads on polyphenol content, so the two foods are complementary rather than redundant.",
+      "zh-TW": "在膳食脂溶性膜防禦物中，red palm oil 與 buriti、sea buckthorn 同列 Tier 1，高於 Tier 2 的 Queen Palm 果肉油。此排名依據兩項成分指標：red palm oil 的 tocotrienol 比例（約佔其 vitamin E 的 70%）與總類胡蘿蔔素量（600-750 ppm），兩者都勝過棕櫚科的競爭者。Queen Palm 果肉則以多酚含量見長，因此兩者是互補而非重複。"
+    },
+    "confidence": 0.85,
+    "source_document": "Red Palm Oil.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ee1ae125d439",
+    "subject": "Tocotrienols",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Head-to-head against pharmacological and genetic ferroptosis models, tocotrienols suppress ferroptosis roughly ten times more potently than the corresponding tocopherols. In Gpx4-deleted Pfa1 fibroblasts the EC50 values were 0.12 uM (alpha), 0.12 uM (beta), 0.13 uM (gamma) and 0.36 uM (delta) versus 2.0-2.3 uM for alpha-/beta-/gamma-tocopherol; in RSL3-treated HT-1080 cells tocotrienols gave complete protection below 1 uM where tocopherols required more than 10 uM. The advantage tracks radical-trapping efficiency in bilayers rather than a signaling effect.",
+      "zh-TW": "在藥理學與基因型 ferroptosis 模型中頭對頭比較，tocotrienol 抑制 ferroptosis 的效力約比相應的 tocopherol 高十倍。在 Gpx4 缺失的 Pfa1 纖維母細胞中，α/β/γ/δ-tocotrienol 的 EC50 分別為 0.12、0.12、0.13、0.36 uM，而 α/β/γ-tocopherol 為 2.0-2.3 uM；在 RSL3 處理的 HT-1080 細胞中，tocotrienol 於 <1 uM 即完全保護，tocopherol 則需 >10 uM。此優勢對應的是雙層膜中的自由基捕捉效率，而非訊息傳遞作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Red Palm Oil.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "39e8f41d92d5",
+    "subject": "HFE",
+    "predicate": "regulates",
+    "object": "Ferroportin",
+    "context": {
+      "en-US": "HFE acts upstream of the iron-export valve Ferroportin. Normally the liver senses body iron and secretes hepcidin, which binds Ferroportin on the enterocyte and macrophage surface and triggers its internalization and degradation, closing the iron-export gate. HFE is required for that hepcidin upregulation; without it, hepcidin output stays inappropriately low and Ferroportin remains on the surface, leaving a duodenal iron valve stuck open. SLC40A1 gain-of-function inverts the phenotype, producing hepcidin-resistant, macrophage-predominant iron loading.",
+      "zh-TW": "HFE 作用於鐵輸出閘門 Ferroportin 的上游。正常情況下肝臟感知體內鐵儲量並分泌 hepcidin，hepcidin 與腸細胞及巨噬細胞表面的 Ferroportin 結合，觸發其內吞與降解，關閉鐵輸出通道。HFE 是此 hepcidin 上調所必需；缺乏 HFE 時 hepcidin 輸出維持在不應有的低量，Ferroportin 仍留在細胞表面，使十二指腸的「鐵閥門」卡在開啟狀態。SLC40A1 的功能增益則顛覆此表型，造成 hepcidin 抗性、以巨噬細胞為主的鐵負荷。"
+    },
+    "confidence": 0.9,
+    "source_document": "HFE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "0ff4c9c0fe68",
+    "subject": "HFE",
+    "predicate": "regulates",
+    "object": "Iron",
+    "context": {
+      "en-US": "HFE is a structural chaperone, not an enzyme or transporter, and its whole function is to set the right size of the body iron pool. Loss of HFE function makes the liver under-read its own iron stores, so duodenal iron absorption proceeds regardless of body stores and reticuloendothelial recycling efficiency falls. Iron then accumulates preferentially in parenchyma - liver, heart, pancreas, skin, pituitary, joints - rather than in the safer reticuloendothelial sequestration seen in secondary overload. A C282Y homozygote is effectively iron-loaded from roughly the third decade without any dietary contribution.",
+      "zh-TW": "HFE 是結構性陪伴蛋白（chaperone），不是酵素或運輸蛋白，其全部功能在於設定體內鐵儲存的正確規模。HFE 功能喪失使肝臟低估自身的鐵儲量，十二指腸的鐵吸收不論體內儲量皆持續進行，且網狀內皮系統的鐵回收效率下降。鐵因而優先累積於臟器實質——肝、心、胰、皮膚、腦下垂體、關節——而非次級鐵負荷中較安全的網狀內皮隔離。C282Y 同型合子個體自約第三個十年起即已處於鐵負荷狀態，與飲食攝取無關。"
+    },
+    "confidence": 0.9,
+    "source_document": "HFE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ff516fef2f4e",
+    "subject": "HFE",
+    "predicate": "increases_susceptibility_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "HFE variants fix the labile iron pool for life, and that pool is the substrate of Fenton Reaction chemistry, so a chronically enlarged labile pool lowers the threshold for iron-dependent death. Ferroptosis needs redox-active Fe2+ to generate hydroxyl radicals that initiate phospholipid peroxidation; with a larger labile pool, a given peroxide pressure or a given GPX4 impairment produces death sooner. The inference chain - HFE loss, hepcidin under-response, raised labile pool, earlier ferroptosis at identical peroxide pressure - is well supported at each step, but has not been tested in a genotype-stratified human trial.",
+      "zh-TW": "HFE 變異會終生固定 labile iron pool 的規模，而該池正是 Fenton Reaction 化學的受質，因此長期偏高的 labile pool 會降低鐵依賴性細胞死亡的閾值。Ferroptosis 需還原態 Fe2+ 產生羥基自由基以啟動磷脂過氧化；labile pool 越大，同樣的過氧化物壓力或同樣的 GPX4 損傷就會更早導致死亡。這條推論鏈——HFE 喪失、hepcidin 應答不足、labile pool 升高、在相同過氧化物壓力下更早發生 ferroptosis——每一步都有充分支持，但尚未在分基因型的人體試驗中檢驗。"
+    },
+    "confidence": 0.7,
+    "source_document": "HFE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "657d2bd64e6e",
+    "subject": "HFE",
+    "predicate": "is_associated_with",
+    "object": "Diabetes",
+    "context": {
+      "en-US": "Pancreatic iron deposition is the endocrine lesion behind the classical 'bronze diabetes' of hereditary hemochromatosis, together with skin hyperpigmentation and hypogonadism; all three are late-disease findings. Earlier and more common presentations are fatigue, arthralgia of the 2nd and 3rd metacarpophalangeal joints, and elevated ALT. Because iron is deposited in islets as well as liver, glucose handling degrades alongside hepatic architecture, which is why the endocrine phenotype is inseparable from the hepatic one.",
+      "zh-TW": "胰臟的鐵沉積是遺傳性血鐵質沉著症「 bronzed diabetes（bronze diabetes）」的內分泌病灶，與皮膚色素沉著、性腺功能低下並列，但三者皆屬晚期表現。更早且更常見的表現為疲勞、第 2 與第 3 掌指關節的關節痛，以及 ALT 升高。由於鐵同時沉積於胰島與肝臟，葡萄糖處理能力會隨肝臟結構退化而惡化，這也是為何內分泌表型與肝臟表型無法分離。"
+    },
+    "confidence": 0.85,
+    "source_document": "HFE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f15f88482eba",
+    "subject": "HFE",
+    "predicate": "is_associated_with",
+    "object": "Hepatocellular Carcinoma",
+    "context": {
+      "en-US": "Progressive iron overload in hereditary hemochromatosis is associated with substantially elevated Hepatocellular Carcinoma risk once fibrosis or cirrhosis is established, making iron a clear co-carcinogen rather than an inert trace element. This is a genotype-level exception to the usual 'iron is not a carcinogen' framing. Cardiac involvement is likewise a leading cause of death in iron overload, with iron deposition in cardiomyocytes driving dilated cardiomyopathy and Arrhythmias independent of any other risk factor.",
+      "zh-TW": "遺傳性血鐵質沉著症中的進行性鐵負荷，在纖維化或肝硬化確立之後，與顯著升高的 Hepatocellular Carcinoma 風險相關，使鐵成為明確的共同致癌因子而非惰性微量元素。這是基因型層次上對「鐵不是致癌物」的一般論述的例外。鐵負荷中的心臟侵犯同樣是主要死因，心肌細胞的鐵沉積可在不依賴其他危險因子的情况下造成擴張型心肌病變與 Arrhythmias。"
+    },
+    "confidence": 0.8,
+    "source_document": "HFE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "37f8f58ec462",
+    "subject": "NRF2",
+    "predicate": "upregulates",
+    "object": "Ferritin",
+    "context": {
+      "en-US": "NRF2 induces ferritin together with glutathione-linked defences, and NCOA4-mediated ferritinophagy then liberates stored iron back into the labile pool. This cell-autonomous inducible sequestration is the counterpart of the systemic HFE defect: a genetically iron-loaded individual must mount this adaptive response lifelong, since the same labile iron pool that HFE loss enlarges is the substrate for Fenton Reaction chemistry. Ferritin abundance therefore controls how much iron is immediately available for radical generation.",
+      "zh-TW": "NRF2 會誘導 Ferritin 與 glutathione 連結的防禦系統，而 NCOA4 介導的 ferritinophagy 隨後將儲存的鐵釋放回 labile pool。這種細胞自主、可誘發的隔離作用正是全身性 HFE 缺陷的對應面：遺傳性鐵負荷個體必須終生啟動此適應反應，因為 HFE 喪失所擴大的正是同一個 labile iron pool，也是 Fenton Reaction 化學的受質。因此 Ferritin 的含量決定了多少鐵可立即用於自由基生成。"
+    },
+    "confidence": 0.85,
+    "source_document": "HFE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "04244d016d01",
+    "subject": "Carotenoids",
+    "predicate": "is_metabolized_to",
+    "object": "Vitamin A",
+    "context": {
+      "en-US": "Of more than 600 described carotenoids, only three - alpha-carotene, beta-carotene and beta-cryptoxanthin - carry provitamin A activity, because only they can be cleaved asymmetrically to retinal. Central (BCO1) cleavage of beta-carotene yields two retinal molecules, which are reduced to retinol and esterified to retinyl palmitate; eccentric (BCO2) cleavage instead yields apocarotenoids such as beta-apo-8'-lycopene that act as retinoid-like nuclear receptor ligands. Alpha-carotene and beta-cryptoxanthin yield one retinal each. Conversion is feedback-regulated, which is why provitamin A carotenoids have no upper level.",
+      "zh-TW": "在已描述的 600 多種類胡蘿蔔素中，只有三種——α-carotene、β-carotene 與 β-cryptoxanthin——具有 provitamin A 活性，因為只有它們能被不對稱地切割生成 retinal。β-carotene 的中央（BCO1）切割產生兩個 retinal 分子，之後被還原為 retinol 並酯化成 retinyl palmitate；偏心（BCO2）切割則產生 apocarotenoids（如 beta-apo-8'-lycopene），作為類維生素 A 樣的核受體配體。α-carotene 與 β-cryptoxanthin 各產生一個 retinal。此轉換受回饋調控，因此 provitamin A 類胡蘿蔔素沒有上限。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "4f1901027e44",
+    "subject": "Vitamin A",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Retinol, retinal and all-trans retinoic acid are direct suppressors of Ferroptosis through two distinct arms: non-genomic lipid-radical trapping and transcriptional induction of the GPX4/FSP1 defense modules. In erastin and RSL3 models, retinol (EC50 0.4-4.8 uM) and all-trans retinal (0.7-1.1 uM) inhibited ferroptosis more potently than alpha-tocopherol (7.4-36.1 uM), placing vitamin A metabolites above tocopherols in the dietary radical-trapping tier. The nutritional arm therefore acts as defense while pharmacologic retinoid dosing, where the pro-oxidant arm dominates, acts as stress.",
+      "zh-TW": "Retinol、retinal 與 all-trans retinoic acid 透過兩條不同途徑直接抑制 Ferroptosis：非基因體的脂質自由基捕捉，以及 GPX4/FSP1 防禦模組的轉錄誘導。在 erastin 與 RSL3 模型中，retinol（EC50 0.4-4.8 uM）與 all-trans retinal（0.7-1.1 uM）抑制 ferroptosis 的效力高於 α-tocopherol（7.4-36.1 uM），使 vitamin A 代謝物在膳食自由基捕捉層級中排在 tocopherols 之上。因此營養劑量的途徑是防禦，而藥理劑量（pro-oxidant 途徑主導）則是壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "80cbf409c9d2",
+    "subject": "Retinoic Acid",
+    "predicate": "upregulates",
+    "object": "GPX4",
+    "context": {
+      "en-US": "All-trans retinoic acid, the transcriptionally active endpoint of the retinoid pathway, heterodimerizes retinoic acid receptors (RARalpha/beta/gamma) with retinoid X receptors on retinoic acid response elements and drives a redox-defense gene program. Among the induced targets are GPX4, FSP1, GCH1 (for BH4 synthesis), ACSL3, SCD1 and PPARalpha - the transcriptional anti-ferroptotic module described by Studer et al. 2024. GPX4 is the enzymatic brake that reduces phospholipid hydroperoxides, so its induction raises the threshold for iron-dependent death.",
+      "zh-TW": "All-trans retinoic acid 是類維生素 A 途徑中具轉錄活性的終點，它與 retinoic acid receptors（RARalpha/beta/gamma）及 retinoid X receptors 在 retinoic acid response elements 上形成異二聚體，啟動紅氧防禦基因程式。被誘導的標的包括 GPX4、FSP1、GCH1（BH4 合成）、ACSL3、SCD1 與 PPARalpha——即 Studer 等人 2024 年所述的轉錄性抗 ferroptosis 模組。GPX4 是還原磷脂過氧化氫物的酵素煞車，因此其誘導會提高鐵依賴性細胞死亡的閾值。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "509c3cf812e0",
+    "subject": "Retinoic Acid",
+    "predicate": "upregulates",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Retinoic acid signaling raises FSP1 transcription alongside GPX4, adding a GPX4-independent radical-trapping brake to the same anti-ferroptotic program. FSP1 acts at the outer leaflet of the plasma membrane using NAD(P)H-dependent reduction of Coenzyme Q10 to ubiquinol, so induction of FSP1 by retinoic acid extends the transcriptional defense to a different membrane compartment than the enzymatic GPX4 axis. This is why coQ10, tocopherols and retinoids sit at adjacent rungs of the same dietary defense tier.",
+      "zh-TW": "Retinoic acid 訊號在提升 GPX4 的同時也提高 FSP1 的轉錄，為同一套抗 ferroptosis 程式補上一個 GPX9 非依賴型的自由基捕捉煞車。FSP1 作用於細胞膜外葉，藉由 NAD(P)H 依賴方式將 Coenzyme Q10 還原為 ubiquinol，因此 retinoic acid 誘導的 FSP1 會把轉錄性防禦延伸至與 GPX4 酵素軸不同的膜區室。這也是為何 coQ10、tocopherols 與 retinoids 會位於同一膳食防禦層級的相鄰階梯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "9284fcb538f7",
+    "subject": "Vitamin A",
+    "predicate": "converts_to",
+    "object": "Retinoic Acid",
+    "context": {
+      "en-US": "The retinoid pathway is a one-way ratchet toward transcriptional activity: as the polar group oxidizes, retinol becomes retinal and then retinoic acid, with each step making the molecule less storable and better able to bind nuclear receptors. Retinoic acid is the irreversible endpoint, catabolized by CYP26, and it no longer carries provitamin A activity. Retinyl esters are the storage branch, and 11-cis-retinal is diverted into the visual cycle as the chromophore of rhodopsin.",
+      "zh-TW": "類維生素 A 途徑是朝向轉錄活性的單向棘輪：隨著極性基團被氧化，retinol 變成 retinal 再變成 retinoic acid，每一步都使分子更難儲存且更善於結合核受體。Retinoic acid 是不可逆的終點，由 CYP26 分解，且不再具有 provitamin A 活性。Retinyl esters 屬於儲存分支，而 11-cis-retinal 則被分流進入視覺循環，作為 rhodopsin 的發色團。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "e4f65b6dd30a",
+    "subject": "Vitamin A",
+    "predicate": "is_stored_in",
+    "object": "Hepatic Stellate Cells",
+    "context": {
+      "en-US": "Roughly 50-80% of the body's vitamin A sits in hepatic stellate cells as retinyl esters, which is why loss of these cells in hepatic injury can precipitate deficiency. The liver monitors supply, converting retinol to retinyl esters via lecithin:retinol acyltransferase when supply is ample and mobilizing them when needed. Because retinoids do not circulate appreciably in free form - retinol travels bound to retinol-binding protein 4 with transthyretin - tissue delivery is tightly buffered rather than responsive to acute intake.",
+      "zh-TW": "體內約 50-80% 的 vitamin A 以 retinyl esters 形式儲存在 Hepatic Stellate Cells，這也是肝臟損傷造成這些細胞喪失時可能引發缺乏的原因。肝臟負責監測供應，供應充足時經 lecithin:retinol acyltransferase 將 retinol 轉為 retinyl esters，需要時再動員。由於類維生素 A 在游離型態下循環量極低——retinol 與 retinol-binding protein 4 及 transthyretin 結合運送——組織供應是受到嚴格緩衝，而非對急性攝取迅速反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3bc44e3cdf34",
+    "subject": "Vitamin A",
+    "predicate": "induces",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "All-trans retinoic acid drives Drp1 induction and mitochondrial fission, a transcriptional arm that opposes retinol's non-genomic role as a cofactor for mitochondrial PKCdelta in the pyruvate dehydrogenase and oxidative-phosphorylation axis. Retinol deficiency lowers complex I activity and raises mitochondrial ROS, whereas excess retinoid produces mitochondrial swelling, permeability transition and ROS-driven lipid peroxidation. Membrane-phase vitamin E holds this fission response in check, which is the core of the 'too much retinoid is pro-oxidant' caveat.",
+      "zh-TW": "All-trans retinoic acid 會誘導 Drp1 與粒線體分裂，這是一條轉錄性途徑，與 retinol 作為粒線體 PKCdelta 共因子、參與 pyruvate dehydrogenase 與氧化磷酸化軸的非基因體角色相互對抗。Retinol 缺乏會降低 complex I 活性並提高粒線體 ROS；相反地，類維生素 A 過量會造成粒線體膨脹、permeability transition 與 ROS 驅動的脂質過氧化。膜相的 vitamin E 會抑制此分裂反應，這正是「類維生素 A 過量具 pro-oxidant 作用」此一警示的核心。"
+    },
+    "confidence": 0.7,
+    "source_document": "Vitamin A.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "fe84c55b56a1",
+    "subject": "Carotenoids",
+    "predicate": "quenches",
+    "object": "Singlet Oxygen",
+    "context": {
+      "en-US": "Carotenoids quench singlet oxygen by physical energy transfer from the triplet state of the sensitizer, a capacity that requires at least nine conjugated double bonds - which excludes phytoene and phytofluene. This is a non-radical antioxidant route distinct from radical trapping: carotenoids do not donate hydrogen to lipid peroxyl radicals the way tocopherols do, they physically deactivate an excited sensitizer. Within membrane lipid domains, beta-carotene, alpha-carotene and lycopene in the orange pericarp of Queen Palm and the mesocarp of Red Palm Oil act as direct singlet-oxygen quenchers.",
+      "zh-TW": "Carotenoids 透過從敏化劑三重態進行物理能量轉移來 quench Singlet Oxygen，此能力需要至少九個共軛雙鍵，因此 phytoene 與 phytofluene 不具此能力。這是一條與自由基捕捉不同的非自由基抗氧路徑：類胡蘿蔔素不像 tocopherols 那樣把氫原子 donate 給脂質過氧自由基，而是物理性地去活化一個受激的敏化劑。在膜脂質區域中，Queen Palm 的橙色果皮與 Red Palm Oil 的中果皮所含的 beta-carotene、alpha-carotene 與 lycopene 都是直接的 singlet-oxygen quenchers。"
+    },
+    "confidence": 0.95,
+    "source_document": "Carotenoids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d6c15ac73aa6",
+    "subject": "Carotenoids",
+    "predicate": "interrupts",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Carotenoids form the non-tocopherol radical-trapping tier in membranes, sitting beside tocopherols as the second line of bilayer defense. Their conjugated polyene chains delocalize the unpaired electron of an intercepted peroxyl radical and terminate it, and they also quench singlet oxygen, so they block the propagation step of Lipid Peroxidation from two directions. In the radical-trapping hierarchy relevant to ferroptosis, however, tocotrienols are the more potent traps, and carotenoids contribute mainly non-radical quenching plus conversion to retinol and retinal, which are themselves direct lipid-radical traps.",
+      "zh-TW": "Carotenoids 構成膜中非 tocopherol 的自由基捕捉層級，與 tocopherols 並列為雙層膜防禦的第二道防線。其共軛多烯鏈可將所截獲過氧自由基的未成對電子去定域化並終止之，同時也能 quench Singlet Oxygen，因此從兩個方向阻斷 Lipid Peroxidation 的傳播步驟。不過在與 ferroptosis 相關的自由基捕捉層級中，tocotrienols 才是較強的捕捉者；類胡蘿蔔素主要貢獻非自由基的 quenching，以及轉換為同樣是直接脂質自由基捕捉者的 retinol 與 retinal。"
+    },
+    "confidence": 0.9,
+    "source_document": "Carotenoids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a5796baea9b9",
+    "subject": "Carotenoids",
+    "predicate": "localized_to",
+    "object": "Cell Membranes",
+    "context": {
+      "en-US": "The hydrophobic polyene anchor lets carotenoids partition into lipid droplets, lipoproteins and cell membranes, where they are positioned to intercept radicals in the bilayer itself. Xanthophylls carrying hydroxyl groups flip to sit at the polar interface instead, which is why lutein and zeaxanthin concentrate in the lens and macula as a blue-light filter. Uptake requires dietary fat: micelle formation with bile salts, entry into enterocytes via SR-BI, CD36 and NPC1L1, packaging into chylomicrons, and re-export in VLDL and LDL.",
+      "zh-TW": "疏水性多烯錨定基使類胡蘿蔔素能分配進脂滴、脂蛋白與 Cell Membranes，位於可在雙層膜內部截攔自由基的位置。帶有羥基的 xanthophylls 則轉而位於極性介面上，這正是 lutein 與 zeaxanthin 會在水晶體與黃斑中濃縮並作為藍光濾光片的原因。吸收需要飲食脂肪：與膽鹽形成微膠粒，經 SR-BI、CD36 與 NPC1L1 進入腸細胞，包裝成 chylomicrons，再以 VLDL 與 LDL 重新輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Carotenoids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c9003d9c6331",
+    "subject": "Carotenoids",
+    "predicate": "is_associated_with",
+    "object": "Macular Degeneration",
+    "context": {
+      "en-US": "Lutein and zeaxanthin concentrate in the macula and lens as a blue-light filter, and macular pigment density is the modifiable risk variable in Macular Degeneration. The visual cycle sits downstream of vitamin A status: 11-cis-retinal is the chromophore of rhodopsin and its regeneration depends on the retinal pigment epithelium retinoid cycle fed by dietary vitamin A and its provitamin A precursors. Carotenoid intake is therefore a modifiable input to both the visual pathway and the macular pigment pool.",
+      "zh-TW": "Lutein 與 zeaxanthin 在黃斑與水晶體中濃縮作為藍光濾光片，而黃斑色素密度是 Macular Degeneration 中可改變的危險變數。視覺循環位於 vitamin A 狀態的下游：11-cis-retinal 是 rhodopsin 的發色團，其再生依賴由飲食性 vitamin A 與其 provitamin A 前驅物供應的 retinal pigment epithelium 類維生素 A 循環。因此類胡蘿蔔素攝取量同時是視覺途徑與黃斑色素池的可改變輸入。"
+    },
+    "confidence": 0.7,
+    "source_document": "Carotenoids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "8c3a2de604e6",
+    "subject": "MDA-LDL",
+    "predicate": "is_a_type_of",
+    "object": "Oxidized LDL",
+    "context": {
+      "en-US": "MDA-LDL is one of the two major immunologically defined forms of oxidatively modified LDL, the other being Oxidized LDL, but it is the narrower entity. Oxidized LDL denotes the full spectrum of oxidatively modified particles - lipid peroxides, oxidized phospholipids, fragmented apoB - detected by antibodies against oxidized phospholipid epitopes such as E06, whereas MDA-LDL reports only the aldehyde-adducted fraction. The two correlate but are not interchangeable, and their relative abundance shifts with the type of oxidative insult.",
+      "zh-TW": "MDA-LDL 是氧化修飾 LDL 的兩大免疫學定義形式之一，另一者是 Oxidized LDL，但 MDA-LDL 範圍更窄。Oxidized LDL 指的是所有氧化修飾顆粒的完整光譜——脂質過氧化物、氧化磷脂、碎裂的 apoB——以針對氧化磷脂表位（如 E06）的抗體偵測；MDA-LDL 則僅回報醛類加合的部分。兩者相關但不可互換，且其相對比例會隨氧化傷害的類型而改變。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "849819896271",
+    "subject": "MDA-LDL",
+    "predicate": "is_formed_from",
+    "object": "LDL",
+    "context": {
+      "en-US": "MDA-LDL is LDL whose apolipoprotein B-100 has been modified by malondialdehyde, the bifunctional dialdehyde end-product of Lipid Peroxidation, which cross-links lysine epsilon-amino groups into Schiff-base (imine) and more stable enamine adducts. The apoB-100 particle normally presents about 200 lysine residues whose positive charge mediates electrostatic binding to the LDL receptor; MDA neutralizes those charges, blocking receptor-mediated uptake, prolonging particle residence in the intima, and creating neo-epitopes recognized by scavenger receptors such as the CD36 Receptor and SR-A on Macrophages.",
+      "zh-TW": "MDA-LDL 是 apolipoprotein B-100 被 malondialdehyde 修飾後的 LDL；malondialdehyde 是 Lipid Peroxidation 的雙功能二醛終產物，會將 lysine 的 ε-胺基基團交聯成 Schiff base（imine）與更穩定的 enamine 加合物。ApoB-100 顆粒正常呈現約 200 個 lysine 殘基，其正電荷負責與 LDL 受體的靜電結合；MDA 中和了這些電荷，因而阻斷受體媒介的攝取、延長顆粒在 intima 的停留，並創造出可被 Macrophages 上 CD36 Receptor 與 SR-A 等 scavenger receptor 辨識的新抗原決定位。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "249eec5e9254",
+    "subject": "Malondialdehyde",
+    "predicate": "is_produced_by",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Malondialdehyde is generated during the propagation phase of Lipid Peroxidation, when hydroperoxides of PUFAs with three or more double bonds - arachidonic, adrenic and docosahexaenoic acid - undergo beta-scission. Because MDA is a bifunctional dialdehyde it can cross-link two lysine residues intra- or intermolecularly, producing the fluorescent Schiff-base adducts classically measured as TBARS. It is one of two major aldehyde end-products of the process, the other being 4-Hydroxynonenal.",
+      "zh-TW": "Malondialdehyde 在 Lipid Peroxidation 的傳播期產生，來自具有三個以上雙鍵的 PUFA（arachidonic、adrenic 與 docosahexaenoic acid）過氧化物的 β-scission。由於 MDA 是雙功能二醛，它可在分子內或分子間交聯兩個 lysine 殘基，形成經典上以 TBARS 測量的螢光性 Schiff base 加合物。它是此過程的兩大醛類終產物之一，另一者是 4-Hydroxynonenal。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "2f922f554ca1",
+    "subject": "MDA-LDL",
+    "predicate": "upregulates",
+    "object": "VCAM-1",
+    "context": {
+      "en-US": "MDA-LDL is immunogenic and pro-inflammatory rather than inert debris. In endothelial cells it upregulates VCAM-1 and MCP-1 and activates NF-κB signaling, and uptake of the particle through scavenger receptors delivers a lipid load that inflames Macrophages and accelerates plaque growth. It also promotes platelet aggregation and tissue factor expression. IgG anti-MDA-LDL titers correlate with carotid intima-media thickness and predict cardiovascular events in several cohorts, though less consistently than oxidized phospholipid markers.",
+      "zh-TW": "MDA-LDL 具有免疫原性與促發炎作用，並非惰性碎屑。在內皮細胞中它會上調 VCAM-1 與 MCP-1 並活化 NF-κB 訊號；顆粒經 scavenger receptor 攝入後，會向 Macrophages 輸送脂質負荷，使細胞發炎並加速斑塊生長。它也促進血小板聚集與 tissue factor 表現。IgG anti-MDA-LDL 抗體效價與頸動脈中膜內膜厚度相關，並在數個世代研究中預測心血管事件，但一致性不如氧化磷脂標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a24f0ee93ce4",
+    "subject": "MDA-LDL",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "MDA-LDL activates NF-κB signaling in vascular cells, which is the transcriptional step linking aldehyde-modified lipoprotein to the endothelial adhesion molecules and chemokines it induces. This is one axis of the mechanistic bridge between systemic Lipid Peroxidation and Atherosclerosis: MDA accumulates in human atherosclerotic lesions, and the same aldehyde chemistry that reports peroxidation also drives the inflammatory transcriptional program.",
+      "zh-TW": "MDA-LDL 在血管細胞中活化 NF-κB 訊號，這是把醛類修飾的脂蛋白與其誘發的內皮黏附分子及趨化因子連結起來的轉錄步驟。這是全身性 Lipid Peroxidation 與 Atherosclerosis 之間機制橋接的軸之一：MDA 累積於人類動脈粥樣硬化病灶中，而回報過氧化的同一套醛類化學，同時驅動發炎性的轉錄程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ff48c7ac851c",
+    "subject": "MDA-LDL",
+    "predicate": "promotes",
+    "object": "Foam Cells",
+    "context": {
+      "en-US": "Foam cell formation is the downstream consequence of scavenger-receptor uptake of MDA-LDL. Because MDA modification neutralizes the apoB-100 lysine charges that normally target the particle to the LDL receptor, uptake instead proceeds through unregulated scavenger receptors including the CD36 Receptor and SR-A on Macrophages. The result is foam-cell accumulation in the intima, the defining lesion of Atherosclerosis, and MDA-LDL accumulates in human plaque.",
+      "zh-TW": "Foam cell 的形成是 MDA-LDL 經 scavenger receptor 攝取後的下游結果。由於 MDA 修飾中和了原本將顆粒導向 LDL 受體的 apoB-100 lysine 電荷，攝取反而改由 Macrophages 上的 CD36 Receptor 與 SR-A 等不受調控的 scavenger receptor 進行。結果是 intima 內 foam cell 的累積，即 Atherosclerosis 的定義性病灶，而 MDA-LDL 會累積於人類斑塊中。"
+    },
+    "confidence": 0.85,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ac693f496d5a",
+    "subject": "TBARS",
+    "predicate": "measures",
+    "object": "Malondialdehyde",
+    "context": {
+      "en-US": "The TBARS assay is the colorimetric method classically used to measure Malondialdehyde: it detects free MDA plus any MDA-reactive substances in a sample, relying on the thiobarbituric acid reaction with the aldehyde and the resulting pink chromophore. Because it is not adduct-specific, TBARS is distinct from MDA-LDL quantification by sandwich ELISA or LC-MS/MS of MDA-lysine adducts, and an elevated TBARS value can reflect any source of thiobarbituric-acid-reactive material.",
+      "zh-TW": "TBARS assay 是經典用來測量 Malondialdehyde 的比色方法：它偵測樣本中的游離 MDA 以及任何 MDA 反應性物質 relying 於硫代巴比妥酸與醛基的反應及其產生的粉紅色色素。由於它並非加合物專一性，TBARS 與以 sandwich ELISA 或 MDA-lysine 加合物 LC-MS/MS 進行的 MDA-LDL 定量不同；TBABS 數值升高可能來自任何硫代巴比妥酸反應性物質的來源。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDA-LDL.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "7986db6fe936",
+    "subject": "Acrolein",
+    "predicate": "is_produced_by",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Acrolein (CH2=CH-CHO, 2-propenal) is the simplest alpha,beta-unsaturated aldehyde and one of the most electrophilic products of Lipid Peroxidation. It arises from beta-scission of PUFA hydroperoxides, notably omega-3 species such as Docosahexaenoic acid, whose chain length and double-bond placement favor release of a three-carbon fragment. Because its vinyl group flanks a carbonyl, it is a potent Michael acceptor that modifies protein cysteine, histidine and lysine residues and forms DNA adducts at concentrations well below those required for Malondialdehyde or 4-Hydroxynonenal.",
+      "zh-TW": "Acrolein（CH2=CH-CHO，2-propenal）是最簡單的 α,β-不飽和醛，也是 Lipid Peroxidation 最具親電性的產物之一。它來自 PUFA 過氧化物的 β-scission，尤其是 Docosahexaenoic acid 等 omega-3 脂肪酸，其鏈長與雙鍵位置有利於釋出三碳片段。由於其乙烯基緊鄰羰基，它是強效的 Michael 受體，可在遠低於 Malondialdehyde 或 4-Hydroxynonenal 所需的濃度下修飾蛋白質的 cysteine、histidine 與 lysine 殘基並形成 DNA 加合物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a492b08e97b5",
+    "subject": "Acrolein",
+    "predicate": "is_produced_by",
+    "object": "Docosahexaenoic acid",
+    "context": {
+      "en-US": "Acrolein is the characteristic aldehyde of omega-3 membrane oxidation. Beta-scission of Docosahexaenoic acid hydroperoxides releases a three-carbon fragment preferentially because of that fatty acid's chain length and double-bond placement, so acrolein reports n-3-rich membrane oxidation whereas 4-Hydroxynonenal reports n-6 oxidation. The two alkenals are therefore complementary readouts of which PUFA pool the tissue was oxidizing.",
+      "zh-TW": "Acrolein 是 omega-3 膜氧化的特徵性醛。Docosahexaenoic acid 過氧化物的 β-scission 會因該脂肪酸的鏈長與雙鍵位置而優先釋出三碳片段，因此 acrolein 回報的是富含 n-3 的膜氧化，而 4-Hydroxynonenal 回報的是 n-6 氧化。兩種 alkenal 因而是組織正在氧化哪一個 PUFA 池的互補讀值。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "80bcf5da2069",
+    "subject": "Acrolein",
+    "predicate": "is_detoxified_by",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Acrolein's second-order rate constant with glutathione exceeds those of malondialdehyde and 4-hydroxynonenal, so its clearance is largely thiol-dependent. Glutathione S-transferases, notably GSTP1 and GSTA4, form GSH-acrolein conjugates that are exported via MRP transporters, while aldo-keto reductases (AKR1A1, AKR7A2) reduce acrolein to allyl alcohol and aldehyde dehydrogenases (ALDH3A1, ALDH2) oxidize it to acrylic acid. Because depletion of glutathione converts a clearance pathway into a liability, glutathione status is the variable that decides whether acrolein stays a transient signal or becomes a cross-linker.",
+      "zh-TW": "Acrolein 與 glutathione 的二級反應速率常數高於 malondialdehyde 與 4-Hydroxynonenal，因此其清除高度依賴巰基。Glutathione S-transferases（尤其 GSTP1 與 GSTA4）形成 GSH-acrolein 結合物並經 MRP 運輸蛋白輸出；同時 aldo-keto reductases（AKR1A1、AKR7A2）將 acrolein 還原為 allyl alcohol，aldehyde dehydrogenases（ALDH3A1、ALDH2）則將其氧化為 acrylic acid。由於 glutathione 耗竭會把清除途徑轉為負債，glutathione 狀態便是決定 acrolein 停留在短暫訊號或變成交聯劑的關鍵變數。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "6d61d84b59de",
+    "subject": "Cyclophosphamide",
+    "predicate": "is_metabolized_to",
+    "object": "Acrolein",
+    "context": {
+      "en-US": "Cyclophosphamide is an alkylating prodrug whose hepatic CYP2B6 and CYP3A4 activation yields phosphoramide mustard together with Acrolein, the urotoxic byproduct. Acrolein accumulates in the bladder and causes hemorrhagic cystitis, which is the reason MESNA (sodium 2-mercaptoethane sulfonate) is co-administered as a thiol scavenger. The related oxazaphosphorines ifosfamide and trofosfamide generate acrolein by the same route, so the urotoxicity is a class property of this prodrug family.",
+      "zh-TW": "Cyclophosphamide 是烷基化前驅藥，經肝臟 CYP2B6 與 CYP3A4 活化後產生 phosphoramide mustard，並同時產生具泌尿道毒性的副產物 Acrolein。Acrolein 在膀胱累積並造成出血性膀胱炎，這正是需合併給予 MESNA（sodium 2-mercaptoethane sulfonate）作為巰基清除劑的原因。同屬 oxazaphosphorines 的 ifosfamide 與 trofosfamide 以相同途徑產生 acrolein，因此此泌尿道毒性是該前驅藥家族的類別性質。"
+    },
+    "confidence": 0.95,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "e88f327a7270",
+    "subject": "Myeloperoxidase",
+    "predicate": "produces",
+    "object": "Acrolein",
+    "context": {
+      "en-US": "Myeloperoxidase/H2O2/Cl- systems oxidize threonine and other amino acids to Acrolein at inflammatory sites, which makes neutrophil-rich inflammatory locations a major source of the aldehyde independent of membrane lipid peroxidation. Urinary acrolein adducts such as 3-HPMA and 3-HMPR are therefore used as integrated exposure biomarkers, since they capture both endogenous generation and exogenous intake from cigarette smoke, automotive exhaust and high-temperature frying.",
+      "zh-TW": "Myeloperoxidase/H2O2/Cl- 系統會在發炎部位將 threonine 等胺基酸氧化成 Acrolein，使富含嗜中性球的发炎位置成為該醛的重要來源，且此途徑獨立於膜脂質過氧化。因此尿液中的 acrolein 加合物（如 3-HPMA 與 3-HMPR）被用作整合性暴露生物標記，因為它同時反映內源性生成與來自香菸煙、汽車廢氣及高溫油炸的外源性攝取。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "874d0a321f70",
+    "subject": "Acrolein",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "At subtoxic flux, acrolein's Michael adducts are reversible, undergoing retro-Michael release, so the electrophile behaves as a transient signal and activates the ARE/Keap1 protective response through NRF2. At high flux the same chemistry becomes an irreversible protein and DNA cross-linker. This dual behavior is the mechanistic basis of acrolein's hormetic effect and the reason electrophilic dose, rather than bulk concentration, determines whether the response is adaptive or cytotoxic.",
+      "zh-TW": "在次毒性通量下，acrolein 的 Michael 加合物是可逆的，會進行 retro-Michael 釋放，因此此親電分子表現為短暫訊號，透過 NRF2 活化 ARE/Keap1 防禦反應；在高通量下，同一套化學則成為蛋白質與 DNA 的不可逆交聯劑。這種雙重行為是 acrolein hormetic 作用的機制基礎，也意味著是親電劑量而非總濃度決定了反應是適應性或細胞毒性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "afa987cfdcf4",
+    "subject": "Acrolein",
+    "predicate": "upregulates",
+    "object": "VCAM-1",
+    "context": {
+      "en-US": "Acrolein impairs endothelium-dependent vasodilation and promotes VCAM-1 expression in the vasculature, and acrolein-modified LDL is recognized by scavenger receptors, contributing to foam-cell formation alongside Oxidized LDL. These vascular actions link a lipid-peroxidation product to endothelial activation and plaque biology, and elevated urinary 3-HPMA correlates with coronary risk.",
+      "zh-TW": "Acrolein 會損害內皮依賴性的血管擴張並促進血管壁的 VCAM-1 表現；此外，acrolein 修飾的 LDL 會被 scavenger receptor 辨識，與 Oxidized LDL 一同促成 foam cell 形成。這些血管作用把脂質過氧化產物與內皮活化及斑塊生物學連結起來，而尿液 3-HPMA 升高則與冠狀動脈風險相關。"
+    },
+    "confidence": 0.8,
+    "source_document": "Acrolein.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a9f4551acfc8",
+    "subject": "Tocotrienols",
+    "predicate": "is_a_type_of",
+    "object": "Vitamin E",
+    "context": {
+      "en-US": "Tocotrienols are the four unsaturated forms of Vitamin E - alpha, beta, gamma and delta - sharing the chromanol head with Tocopherols but carrying a 16-carbon farnesyl tail with three trans double bonds instead of a saturated phytyl chain. Ring methylation defines the alpha/beta/gamma/delta designation exactly as in tocopherols. Together the two families make up the eight vitamers of vitamin E, with tocotrienols contributing only about 30% of alpha-tocopherol activity in historical IU units - a figure derived from rat reproductive assays rather than antioxidant capacity.",
+      "zh-TW": "Tocotrienols 是 Vitamin E 的四種不飽和形式——alpha、beta、gamma 與 delta——它與 Tocopherols 共用 chromanol 頭部，但帶有含三個 trans 雙鍵的 16 碳 farnesyl 尾，而非飽和的 phytyl 鏈。環上的甲基化模式與 tocopherols 完全相同地定義 alpha/beta/gamma/delta 的名稱。兩大家族合計構成 vitamin E 的八種 vitamer；依歷史 IU 單位，tocotrienol 只計入 alpha-tocopherol 活性的約 30%，而該數字來自大鼠生殖終點測試而非抗氧化能力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "767d33541752",
+    "subject": "Tocotrienols",
+    "predicate": "terminates",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Tocotrienols donate the chromanol phenolic hydrogen to lipid peroxyl radicals with rate constants comparable to or exceeding those of the corresponding Tocopherols in phospholipid bilayers, terminating the chain reaction at its propagation step. The unsaturated farnesyl tail makes the molecule more planar and more mobile within the bilayer, so it intercepts radicals over a wider lateral radius; the same advantage showed up in cell-free liposomal autoxidation (FENIX) and BODIPY 581/591 assays, indicating it tracks radical-trapping efficiency rather than a signaling effect.",
+      "zh-TW": "Tocotrienols 將 chromanol 的酚羥基氫原子 donate 給脂質過氧自由基，在磷脂雙層中的速率常數與相應 Tocopherols 相當或更高，因而在傳播步驟終止鏈式反應。不飽和的 farnesyl 尾使分子在雙層中更平面、更易移動，因此能在更廣的橫向半徑內截攔自由基；同一優勢也出現在無細胞的脂質體自氧化（FENIX）與 BODIPY 581/591 檢測中，顯示它反映的是自由基捕捉效率而非訊號作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "97f8f257e4f3",
+    "subject": "Tocotrienols",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Tocotrienols inhibit IκB kinase activation and STAT3 phosphorylation, reducing transcription of pro-inflammatory genes including TNF-alpha, IL-6, VCAM-1 and COX-2, with delta-tocotrienol the most potent isoform in most of these assays. This non-antioxidant arm is mechanistically distinct from radical trapping: it is transcriptional, downstream of inflammatory signaling, and explains how a lipid-phase vitamin can also act on endothelial inflammatory phenotypes such as the VCAM-1 induction seen with 12-HETE.",
+      "zh-TW": "Tocotrienols 抑制 IκB kinase 的活化與 STAT3 的磷酸化，降低 TNF-alpha、IL-6、VCAM-1 與 COX-2 等發炎基因的轉錄，且在多數檢測中 delta-tocotrienol 為最強的異構型。這條非抗氧途徑與自由基捕捉在機制上不同：它屬於轉錄層次，位於發炎訊號下游，並解釋了為何一種膜相的維生素也能作用於內皮發炎表型，例如 12-HETE 誘發的 VCAM-1 誘導。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "81c052649371",
+    "subject": "Tocotrienols",
+    "predicate": "is_associated_with",
+    "object": "Statins",
+    "context": {
+      "en-US": "Tocotrienols and Statins converge on the same rate-limiting enzyme of cholesterol biosynthesis, HMG-CoA reductase, but by different mechanisms. Statins inhibit the enzyme catalytically, whereas tocotrienols suppress cholesterol biosynthesis independently of their antioxidant function by accelerating degradation of HMG-CoA reductase - a post-transcriptional mechanism that operates at physiological concentrations and is more pronounced for gamma- and delta-tocotrienol than for alpha-tocopherol. Consistently, 150-300 mg/day of tocotrienols lowers LDL cholesterol and triglycerides in randomized trials.",
+      "zh-TW": "Tocotrienols 與 Statins 作用於膽固醇合成中同一個速率限制酵素 HMG-CoA reductase，但機制不同。Statins 以催化方式抑制該酵素；tocotrienols 則獨立於其抗氧功能，透過加速 HMG-CoA reductase 的降解來抑制膽固醇合成——這是可在生理濃度下作用的轉錄後機制，且 gamma- 與 delta-tocotrienol 的效果比 alpha-tocopherol 更明顯。一致地，每日 150-300 mg 的 tocotrienols 在隨機試驗中可降低 LDL 膽固醇與三酸甘油酯。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "69f4597d86f5",
+    "subject": "Tocotrienols",
+    "predicate": "reduces",
+    "object": "Oxidized LDL",
+    "context": {
+      "en-US": "Tocotrienol supplementation reduces LDL oxidizability and the formation of Oxidized LDL, consistent with their membrane-integrated radical-trapping activity in lipoprotein particles. In the same preclinical tier they also improve insulin sensitivity, reduce hepatic steatosis through AMPK activation and reduced SREBP-1c-driven lipogenesis, and lower markers of Cellular Senescence and the SASP in endothelial and fibroblast models.",
+      "zh-TW": "Tocotrienol 補充可降低 LDL 的氧化傾向並減少 Oxidized LDL 的形成，與其在脂蛋白顆粒中整合於膜的自由基捕捉活性一致。在同一前臨床層級中，它們也改善胰島素敏感性、透過 AMPK 活化與降低 SREBP-1c 驅動的脂肪生成而減少肝臟脂肪變性，並在內皮與纖維母細胞模型中降低 Cellular Senescence 與 SASP 的標記。"
+    },
+    "confidence": 0.8,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "e617e5524f79",
+    "subject": "Tocotrienols",
+    "predicate": "downregulates",
+    "object": "VCAM-1",
+    "context": {
+      "en-US": "By suppressing NF-κB-dependent transcription, Tocotrienols downregulate VCAM-1 on endothelium along with other inflammatory genes. The effect is strongest for delta-tocotrienol and operates independently of their radical-trapping chemistry, so the class contributes to endothelial protection in two ways: membrane defense against peroxidation and transcriptional dampening of the adhesion program that recruits leukocytes.",
+      "zh-TW": "藉由抑制 NF-κB 依賴性的轉錄，Tocotrienols 會下調內皮的 VCAM-1 表現以及其他發炎基因。此效應以 delta-tocotrienol 為最強，且獨立於其自由基捕捉化學運作，因此這一類別以兩種方式貢獻內皮保護：對過氧化的膜層防禦，以及對招募白血球之黏附程式的轉錄性抑制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ad949053b2de",
+    "subject": "Tocotrienols",
+    "predicate": "reduces",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "Tocotrienols reduce markers of Cellular Senescence and the SASP in endothelial and fibroblast models. Because senescence is driven substantially by mitochondrial ROS and lipid peroxide accumulation, the radical-trapping and anti-inflammatory arms of tocotrienols both bear on the phenotype, and the class is used as a comparator for the mixed results of high-dose alpha-tocopherol trials, which it does not share.",
+      "zh-TW": "Tocotrienols 在內皮與纖維母細胞模型中降低 Cellular Senescence 與 SASP 的標記。由於細胞衰老相當程度上由粒線體 ROS 與脂質過氧化物累積驅動，tocotrienols 的自由基捕捉與抗發炎兩條途徑都與此表型相關；此類別也可作為高劑量 alpha-tocopherol 試驗結果不一致的對照組，而它並不共享那些問題。"
+    },
+    "confidence": 0.8,
+    "source_document": "Tocotrienols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "1f08baf4bffb",
+    "subject": "Tocopherols",
+    "predicate": "is_a_type_of",
+    "object": "Vitamin E",
+    "context": {
+      "en-US": "Tocopherols are the four naturally occurring forms of Vitamin E - alpha, beta, gamma and delta - sharing the chroman-6-ol core but carrying a saturated 16-carbon phytyl tail, and differing only in chromanol ring methylation. Along with the unsaturated Tocotrienols they make up the eight vitamers of vitamin E. The phenolic hydroxyl is the hydrogen donor that terminates Lipid Peroxidation, while the lipophilic tail anchors the molecule in the lipid bilayer or lipoprotein core.",
+      "zh-TW": "Tocopherols 是 Vitamin E 的四種天然存在形式——alpha、beta、gamma 與 delta——共用 chroman-6-ol 核心，但帶有飽和的 16 碳 phytyl 尾，差異僅在 chromanol 環的甲基化。它們與不飽和的 Tocotrienols 合計構成 vitamin E 的八種 vitamer。酚羥基是終止 Lipid Peroxidation 的氫原子提供者，而親脂性尾部則把分子錨定在脂質雙層或脂蛋白核心中。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "077afc960be2",
+    "subject": "Alpha-tocopherol",
+    "predicate": "is_a_type_of",
+    "object": "Tocopherols",
+    "context": {
+      "en-US": "Alpha-tocopherol is the 5,7,8-trimethyl vitamer of Tocopherols and the reference form for vitamin E activity, supplying about 90% of plasma vitamin E. Its selective retention is kinetic rather than nutritional: alpha-tocopherol transfer protein binds the alpha form and resecretes it in VLDL while other vitamers are preferentially omega-hydroxylated by CYP4F2 and excreted in bile. Because the more highly methylated ring raises electron density on the phenolic oxygen and speeds H-atom transfer to a lipid peroxyl radical, alpha-tocopherol is both the most potent radical trap and the best alpha-TTP ligand.",
+      "zh-TW": "Alpha-tocopherol 是 Tocopherols 中 5,7,8-三甲基的 vitamer，也是 vitamin E 活性的參考形式，約供應血漿中 90% 的 vitamin E。其選擇性保留是動力學而非營養學現象：alpha-tocopherol transfer protein 專一結合 alpha 型並以 VLDL 重新分泌，其他 vitamer 則主要被 CYP4F2 ω-羥化後經膽汁排出。由於環上甲基化程度越高，酚羥基氧的電子密度越大、對脂質過氧自由基的氫原子轉移越快，alpha-tocopherol 既是最強的自由基捕捉者，也是最好的 alpha-TTP 配體。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "489b4dbece74",
+    "subject": "Tocopherols",
+    "predicate": "terminates",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Tocopherols are chain-breaking antioxidants: in the propagation phase of Lipid Peroxidation a lipid peroxyl radical (LOO.) abstracts the phenolic hydrogen with a rate constant near 10^6 M^-1s^-1, forming a lipid hydroperoxide and a resonance-stabilized tocopheroxyl radical too unreactive to abstract hydrogen from a neighboring PUFA, so the chain terminates. Tocopherols also physically quench Singlet Oxygen and can act as pro-oxidants at high local concentration, reducing transition metals and generating tocopherol-mediated peroxidation - a dual behavior that partly explains the mixed results of high-dose vitamin E trials.",
+      "zh-TW": "Tocopherols 是鏈式終斷抗氧劑：在 Lipid Peroxidation 的傳播期，脂質過氧自由基（LOO.）以接近 10^6 M^-1s^-1 的速率常數夺取酚羥基的氫原子，生成脂質過氧化氫物與一個共振穩定的 tocopheroxyl 自由基；後者反應性不足以從鄰近 PUFA 夺取氫原子，因此鏈反應終止。Tocopherols 亦能物理性 quench Singlet Oxygen，並在高局部濃度下作為 pro-oxidant，還原過渡金屬並產生 tocopherol-mediated peroxidation——這種雙重行為部分是高劑量 vitamin E 試驗結果不一致的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "bbb81919db47",
+    "subject": "Tocopherols",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "By scavenging lipid peroxyl radicals in the membrane, Tocopherols act as radical-trapping antioxidants parallel to the GPX4/Glutathione axis; Ferrostatin-1 and Liproxstatin-1 are synthetic analogs of this chemistry, and Coenzyme Q10 is the other major lipid-phase trap. Tocopherols are weaker than Tocotrienols and far weaker than retinol or all-trans retinal on a per-molecule basis, so their contribution to ferroptosis defense is real but bounded, and familial vitamin E deficiency shows what happens when the trap is absent entirely.",
+      "zh-TW": "藉由在膜中清除脂質過氧自由基，Tocopherols 作為與 GPX4/Glutathione 軸平行的自由基捕捉抗氧劑；Ferrostatin-1 與 Liproxstatin-1 是此化學的合成類似物，而 Coenzyme Q10 則是另一個主要的膜相捕捉者。以每分子效力比較，Tocopherols 弱於 Tocotrienols，更遠弱於 retinol 或 all-trans retinal，因此其對 ferroptosis 防禦的貢獻真實但有上限；而家族性 vitamin E 缺乏正好顯示完全失去此捕捉者時的後果。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b71a4404b411",
+    "subject": "Vitamin C",
+    "predicate": "regenerates",
+    "object": "Alpha-tocopherol",
+    "context": {
+      "en-US": "Ascorbate regenerates alpha-tocopherol from its tocopheroxyl radical at the membrane-water interface, which is why tocopherols are not consumed stoichiometrically and a single vitamin E molecule can trap many peroxyl radicals. Vitamin C is itself regenerated by Glutathione, which is maintained by NADPH-dependent Glutathione Reductase, and glutathione in turn is regenerated by the pentose phosphate pathway. This tocopherol-ascorbate-glutathione network is the recycling infrastructure that makes the chain-breaking mechanism scalable.",
+      "zh-TW": "Ascorbate 在膜-水介面處由 tocopheroxyl 自由基再生 alpha-tocopherol，因此 tocopherols 不會被化學計量地消耗，單一 vitamin E 分子即可捕捉多個過氧自由基。Vitamin C 本身則由 Glutathione 再生，而 glutathione 靠 NADPH 依賴性的 Glutathione Reductase 維持，glutathione 又由磷酸戊糖途徑再生。此 tocopherol-ascorbate-glutathione 網絡是使鏈式終斷機制得以規模化的回收基礎設施。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3c180a2820c9",
+    "subject": "Glutathione",
+    "predicate": "regenerates",
+    "object": "Vitamin C",
+    "context": {
+      "en-US": "Glutathione is the terminal reductant of the tocopherol-ascorbate-glutathione antioxidant network: it reduces dehydroascorbate back to ascorbate, so it stands downstream of Vitamin C exactly as Vitamin C stands downstream of tocopherols. It is maintained in reduced form by NADPH-dependent Glutathione Reductase using glutathione supplied by the pentose phosphate pathway. This is also the same pool that GPX4 consumes when reducing phospholipid hydroperoxides, which is why glutathione depletion simultaneously weakens radical recycling and the enzymatic antioxidant axis.",
+      "zh-TW": "Glutathione 是 tocopherol-ascorbate-glutathione 抗氧網絡的終端還原劑：它將去氫抗壞血酸還原回 ascorbate，因此其位置在 Vitamin C 下游，正如 Vitamin C 位於 tocopherols 下游。它由 NADPH 依賴性的 Glutathione Reductase 維持還原態，所需的 glutathione 則來自磷酸戊糖途徑。這也正是 GPX4 還原磷脂過氧化氫物時所消耗的同一儲備，因此 glutathione 耗竭會同時削弱自由基回收與酵素性抗氧軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3a805a2967e6",
+    "subject": "Tocopherols",
+    "predicate": "quenches",
+    "object": "Singlet Oxygen",
+    "context": {
+      "en-US": "Beyond radical trapping, Tocopherols inhibit non-radical oxidants such as Singlet Oxygen and quench it physically. Tocopherols are therefore not purely chain-breaking agents, and at high local concentration they can instead reduce transition metals and generate tocopherol-mediated peroxidation, i.e. act as pro-oxidants. This dual behavior is a mechanistic candidate explanation for the failed high-dose vitamin E supplementation trials, where the same compound acts as defense at nutritional doses and as a promoter of oxidation at pharmacologic ones.",
+      "zh-TW": "除了自由基捕捉之外，Tocopherols 也會抑制 Singlet Oxygen 等非自由基氧化劑，並以物理方式 quench 它。因此 tocopherols 並非純粹的鏈式終斷劑；在高局部濃度下它們反而會還原過渡金屬並產生 tocopherol-mediated peroxidation，即作為 pro-oxidant。這種雙重行為是高劑量 vitamin E 補充試驗失敗的一個機制性解釋：同一化合物在營養劑量下是防禦，在藥理劑量下則促進氧化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "df040d154cab",
+    "subject": "Tocopherols",
+    "predicate": "protects",
+    "object": "LDL",
+    "context": {
+      "en-US": "Tocopherols are the dominant radical trap in LDL, and LDL oxidizability is inversely related to its alpha-tocopherol content. Because peroxidation of LDL is a key step in Atherosclerosis, tocopherol content determines a particle's susceptibility to oxidative modification - the flip side being that high-dose alpha-tocopherol can displace other antioxidants and regenerate oxidized LDL under iron or copper load, converting a protector into a promoter.",
+      "zh-TW": "Tocopherols 是 LDL 中占主導地位的自由基捕捉者，而 LDL 的氧化傾向與其 alpha-tocopherol 含量呈反比。由於 LDL 的過氧化是 Atherosclerosis 的關鍵步驟，tocopherol 含量決定了顆粒對氧化修飾的易感性——反面則是高劑量 alpha-tocopherol 可置換其他抗氧劑，並在鐵或銅負荷下再生已氧化的 LDL，使保護者轉為促進者。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tocopherols.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "77315156a0d7",
+    "subject": "Resolvins",
+    "predicate": "is_produced_by",
+    "object": "Lipoxygenase",
+    "context": {
+      "en-US": "Resolvins are generated by the sequential action of 5-, 12- and 15-lipoxygenase, and sometimes cyclooxygenase-2, acting on EPA or DHA, producing distinct series: E-series resolvins (RvE1-RvE3) from EPA via 18S-HEPE; D-series resolvins (RvD1-RvD6) from DHA via 17S-HDHA; and aspirin-triggered resolvins, because aspirin-acetylated COX-2 generates 17R-HDHA precursors yielding AT-RvD1 epimers with prolonged half-life. This enzymatic, stereospecific oxygenation is what distinguishes resolvins from the non-enzymatic products of radical attack.",
+      "zh-TW": "Resolvins 由 5-、12- 與 15-Lipoxygenase（有時加上 cyclooxygenase-2）依次作用於 EPA 或 DHA 產生，形成不同系列：由 EPA 經 18S-HEPE 生成的 E 系列 resolvins（RvE1-RvE3）、由 DHA 經 17S-HDHA 生成的 D 系列 resolvins（RvD1-RvD6），以及 aspirin-triggered resolvins——因為 aspirin 乙醯化的 COX-2 會產生 17R-HDHA 前驅物，yield 半衰期較長的 AT-RvD1 差向異構物。這種酵素性、立體專一性的氧化正是 resolvins 與自由基進攻的非酵素產物之區別所在。"
+    },
+    "confidence": 0.95,
+    "source_document": "Resolvins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "74f660c31dd0",
+    "subject": "Resolvins",
+    "predicate": "is_derived_from",
+    "object": "Docosahexaenoic acid",
+    "context": {
+      "en-US": "Docosahexaenoic acid is the parent lipid of the D-series resolvins (RvD1-RvD6) and of the structurally related protectins/neuroprotectins and maresins, which are often grouped with resolvins under the specialized pro-resolving mediator umbrella. The D-series arise through 17S-HDHA and 5/12-lipoxygenase, and neuroprotectin D1 is specifically reduced in Alzheimer's Disease brain, where it protects retinal and neural tissue against oxidative injury.",
+      "zh-TW": "Docosahexaenoic acid 是 D 系列 resolvins（RvD1-RvD6）以及結構相關的 protectins/neuroprotectins 與 maresins 的母體脂質，後者常與 resolvins 一同歸入 specialized pro-resolving mediator 的傘下。D 系列經由 17S-HDHA 與 5/12-lipoxygenase 生成；而 neuroprotectin D1 在 Alzheimer's Disease 腦中特別減少，在該處它保護視網膜與神經組織免受氧化傷害。"
+    },
+    "confidence": 0.9,
+    "source_document": "Resolvins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a9e5cc5cb929",
+    "subject": "Resolvins",
+    "predicate": "is_derived_from",
+    "object": "Polyunsaturated fatty acids",
+    "context": {
+      "en-US": "Resolvins are specialized pro-resolving lipid mediators derived from the omega-3 PUFAs eicosapentaenoic acid and Docosahexaenoic acid. Because the same PUFAs are the substrate for non-enzymatic Lipid Peroxidation, omega-3 status raises the potential for both outcomes at once: the outcome depends on oxidative context, with adequate Vitamin E, GPX4 and Glutathione channeling oxygenation through lipoxygenase into resolvins, and with failed defenses producing 4-Hydroxynonenal, Acrolein and F2-Isoprostanes instead.",
+      "zh-TW": "Resolvins 是源自 omega-3 PUFA（eicosapentaenoic acid 與 Docosahexaenoic acid）的 specialized pro-resolving lipid mediators。由於同一批 PUFA 也是非酵素性 Lipid Peroxidation 的受質，omega-3 狀態會同時提升兩種結果的可能性：實際結果取決於氧化情境——當 Vitamin E、GPX4 與 Glutathione 充足時，氧化被導向經 lipoxygenase 生成 resolvins；當防禦失效時，則產生 4-Hydroxynonenal、Acrolein 與 F2-Isoprostanes。"
+    },
+    "confidence": 0.9,
+    "source_document": "Resolvins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "0e3590b1e21e",
+    "subject": "Resolvins",
+    "predicate": "terminates",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Resolvins are the active termination signal of Inflammation, not merely its dampener. Acting through G-protein-coupled receptors at nanomolar concentrations - RvE1 at ChemR23/CMKLR1 and BLT1 where it antagonizes leukotriene B4 signaling, RvD1 at ALX/FPR2 and GPR32, RvD2 at GPR18 - they stop neutrophil infiltration, promote non-phlogistic monocyte recruitment, enhance macrophage efferocytosis of apoptotic cells and stimulate tissue repair. Their deficiency prolongs inflammation and contributes to chronic inflammatory disease, so resolution is a regulated program rather than passive decay.",
+      "zh-TW": "Resolvins 是 Inflammation 的主動終止訊號，而不單只是抑制劑。它們在奈莫耳濃度下透過 G 蛋白偶聯受體作用——RvE1 作用於 ChemR23/CMKLR1 與 BLT1 並拮抗 leukotriene B4 訊號，RvD1 作用於 ALX/FPR2 與 GPR32，RvD2 作用於 GPR18——阻止嗜中性球浸潤、促進非 phlogistic 的單核球招募、增強巨噬細胞對凋亡細胞的 efferocytosis，並刺激組織修復。其缺乏會延長發炎並促成慢性發炎性疾病，因此發炎消退是一套受調控的程式，而非被動衰退。"
+    },
+    "confidence": 0.95,
+    "source_document": "Resolvins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "98b83455c034",
+    "subject": "Resolvins",
+    "predicate": "competes_with",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Resolvins and the products of Lipid Peroxidation occupy the same chemical real estate because they share the same substrates, but their formation routes are mutually exclusive. Under tight enzymatic control DHA and EPA are oxygenated by lipoxygenase into resolvin series; under unregulated radical attack the same lipids yield cytotoxic aldehydes such as 4-Hydroxynonenal and Acrolein plus F2-Isoprostanes. The shared intermediate is the lipid hydroperoxide, and the branch point is the adequacy of the antioxidant defense.",
+      "zh-TW": "Resolvins 與 Lipid Peroxidation 的產物佔據同一化學領域，因為它們共用相同的受質，但兩者的形成途徑互斥。在嚴密的酵素控制下，DHA 與 EPA 會被 lipoxygenase 氧化成各系列 resolvin；在不受調控的自由基進攻下，同樣的脂質則產生 4-Hydroxynonenal、Acrolein 等細胞毒性醛類與 F2-Isoprostanes。兩者的共同中間物是脂質過氧化氫物，分岔點則在抗氧防禦是否充足。"
+    },
+    "confidence": 0.85,
+    "source_document": "Resolvins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "2556014e72f1",
+    "subject": "Resolvins",
+    "predicate": "is_associated_with",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "RvE1 and RvD1 limit atherosclerotic plaque inflammation and improve plaque stability, so resolvin biosynthesis capacity - set by omega-3 status, lipoxygenase activity and Aspirin use - is a variable in vascular disease. In obesity models they also improve insulin sensitivity and resolve adipose-tissue inflammation, and in infection they enhance bacterial clearance while damping collateral tissue damage.",
+      "zh-TW": "RvE1 與 RvD1 可限制動脈粥樣硬化斑塊中的發炎並改善斑塊穩定性，因此 resolvin 的生合成能力——由 omega-3 狀態、lipoxygenase 活性與 Aspirin 使用決定——是血管疾病中的一個變數。在肥胖模型中，它們也能改善胰島素敏感性並消退脂肪組織發炎；在感染中則增強細菌清除同時抑制伴隨的組織傷害。"
+    },
+    "confidence": 0.8,
+    "source_document": "Resolvins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "30cef9704373",
+    "subject": "Prostaglandins",
+    "predicate": "is_derived_from",
+    "object": "Arachidonic acid",
+    "context": {
+      "en-US": "Prostaglandins are 20-carbon lipid autacoids derived from Arachidonic acid released from membrane phospholipids by cytosolic phospholipase A2, then oxidized in two steps by COX-1 or COX-2 to Prostaglandin G2 and the reduced endoperoxide Prostaglandin H2. PGH2 is the common precursor converted by terminal synthases into PGE2, PGD2, PGF2alpha, Prostacyclin and Thromboxane A2, giving the family its roles in pain, fever, vascular tone, gastric protection and platelet function.",
+      "zh-TW": "Prostaglandins 是 20 碳脂質 autacoids，源自由 cytosolic phospholipase A2 從膜磷脂釋出的 Arachidonic acid，再由 COX-1 或 COX-2 兩步氧化成 Prostaglandin G2 與還原後的 endoperoxide Prostaglandin H2。PGH2 是共同前驅物，經末端合成酶轉為 PGE2、PGD2、PGF2alpha、Prostacyclin 與 Thromboxane A2，使這一族在疼痛、發燒、血管張力、胃黏膜保護與血小板功能中扮演角色。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "2cc06437615d",
+    "subject": "Cyclooxygenases",
+    "predicate": "synthesizes",
+    "object": "Prostaglandin G₂",
+    "context": {
+      "en-US": "COX-1 and COX-2 catalyze the two-step oxygenation of Arachidonic acid to Prostaglandin G2, the bis-dioxygenation product bearing a C15 hydroperoxide, and then to Prostaglandin H2. The two isoforms divide labor: COX-1 is constitutive and maintains gastric mucosa, renal perfusion and platelet function, whereas COX-2 is inducible at inflammatory sites and in vascular endothelium. This split is why nonselective NSAIDs cause gastropathy and why selective COX-2 inhibitors relieve inflammation while raising thrombotic risk.",
+      "zh-TW": "COX-1 與 COX-2 催化 Arachidonic acid 的兩步氧化，生成帶有 C15 過氧基的雙氧化產物 Prostaglandin G2，隨後生成 Prostaglandin H2。兩種異構型分工不同：COX-1 為組成型，維持胃黏膜、腎灌流與血小板功能；COX-2 則在發炎部位與血管內皮被誘發。這種分工正是非選擇性 NSAID 造成胃病變、以及選擇性 COX-2 抑制劑雖緩解發炎卻提高血栓風險的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "72c61e5ce9b0",
+    "subject": "Prostaglandins",
+    "predicate": "mediates",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "PGE2 is the dominant prostaglandin of acute Inflammation, sensitizing nociceptors to bradykinin and histamine and driving pain, fever, vasodilation and mucosal protection. Prostaglandins are the principal lipid mediators of acute inflammation, which is why NSAID inhibition of the cyclooxygenase oxygenase site is analgesic and antipyretic, and why COX-2 overexpression with elevated PGE2 characterizes colorectal, breast and lung tumors, where PGE2 promotes angiogenesis, immune evasion and cell survival.",
+      "zh-TW": "PGE2 是急性 Inflammation 中占主導地位的 prostaglandin，可使 nociceptor 對 bradykinin 與 histamine 敏感，並造成疼痛、發燒、血管擴張與黏膜保護。Prostaglandins 是急性發炎的主要脂質介質，因此以 NSAID 抑制 cyclooxygenase 的 oxygenase 位點可產生止痛與退熱作用；而 COX-2 過度表現伴隨 PGE2 升高正是結直腸癌、乳腺癌與肺癌的特徵，在腫瘤中 PGE2 促進血管新生、免疫逃脫與細胞存活。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "92f3d6e4d01d",
+    "subject": "Prostaglandins",
+    "predicate": "is_associated_with",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "The COX pathway is enzymatic and stereospecific, unlike the free-radical route that produces F2-Isoprostanes, but its peroxidase cycle requires a hydroperoxide activator and generates high-valent iron-oxo intermediates that can leak and oxidize nearby PUFAs - coupling prostanoid synthesis to local Lipid Peroxidation. Under Glutathione depletion this coupling strengthens, which is why inflamed tissue shows both elevated prostaglandins and elevated oxidative damage markers. Measuring both separates the two: rising prostaglandins with stable F2-Isoprostanes points to inflammation rather than oxidative stress.",
+      "zh-TW": "COX 途徑是酵素性且立體專一的，與產生 F2-Isoprostanes 的自由基途徑不同；但其 peroxidase 循環需要過氧化物活化劑，並生成高價鐵氧中間物，可外漏並氧化附近的 PUFAs——將 prostanoid 合成與局部 Lipid Peroxidation 耦合。在 Glutathione 耗竭下此耦合增強，因此發炎組織同時呈現升高的 prostaglandins 與升高的氧化傷害標記。同時測量兩者可加以區分：prostaglandins 上升而 F2-Isoprostanes 穩定，指向發炎而非氧化壓力。"
+    },
+    "confidence": 0.8,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "31a01e854ea7",
+    "subject": "Glutathione",
+    "predicate": "inhibits",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Glutathione availability sets the strength of the coupling between COX peroxidase chemistry and local Lipid Peroxidation. When glutathione is depleted, the high-valent iron-oxo intermediates of the cyclooxygenase cycle leak more readily and oxidize surrounding PUFAs, so inflamed tissue shows elevated prostaglandins together with elevated oxidative damage markers. This makes glutathione status a shared variable in the eicosanoid and oxidative arms of stress, and depletion an amplifier of both.",
+      "zh-TW": "Glutathione 的可得性決定了 COX peroxidase 化學與局部 Lipid Peroxidation 之間耦合的強度。當 glutathione 耗竭時，cyclooxygenase 循環的高價鐵氧中間物更容易外漏並氧化周圍的 PUFAs，因此發炎組織會同時出現升高的 prostaglandins 與升高的氧化傷害標記。這使 glutathione 狀態成為壓力反應中 eicosanoid 途徑與氧化途徑共用的變數，而其耗竭是兩者的放大因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "7cec4b0f1369",
+    "subject": "F2-Isoprostanes",
+    "predicate": "marks",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "F2-Isoprostanes are the marker of the radical rather than the enzymatic oxygenation route, distinguishing non-enzymatic free-radical oxidation of arachidonic acid from lipoxygenase- and cyclooxygenase-mediated synthesis. Because prostaglandin flux reports inflammatory enzymatic activity while F2-Isoprostanes report radical oxidative damage, measuring both separates inflammation from oxidative stress, and the relative abundance of 8-HETE versus 15S-HETE further resolves the radical component by stereochemistry.",
+      "zh-TW": "F2-Isoprostanes 是自由基途徑而非酵素性氧化途徑的標記，用以區分 arachidonic acid 的非酵素性自由基氧化與 lipoxygenase、cyclooxygenase 介導的合成。由於 prostaglandin 通量回報發炎性的酵素活性，而 F2-Isoprostanes 回報自由基氧化傷害，兩者同時測量即可區分發炎與氧化壓力；而 8-HETE 與 15S-HETE 相對含量之比更能以立體化學進一步解析其中的自由基成分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "595629a8c662",
+    "subject": "Aspirin",
+    "predicate": "inhibits",
+    "object": "Cyclooxygenases",
+    "context": {
+      "en-US": "Aspirin irreversibly acetylates COX-1 Ser530. Because platelets are nucleate-free and cannot resynthesize COX, low-dose aspirin suppresses platelet Thromboxane A2 for the platelet's roughly 10-day lifespan, while nucleate endothelium largely escapes by resynthesizing the enzyme. This selectivity is the mechanistic basis of low-dose aspirin prophylaxis in Atherosclerosis and vascular events, and the same balance is why nonselective NSAIDs and COX-2 inhibitors shift the vessel toward thrombosis.",
+      "zh-TW": "Aspirin 不可逆地乙醯化 COX-1 的 Ser530。由於血小板無細胞核、無法重新合成 COX，低劑量 aspirin 會在血小板約 10 天的生命期中抑制其 Thromboxane A2；而有細胞核的內皮則可藉重新合成酵素而大致逃脫。此選擇性正是低劑量 aspirin 預防 Atherosclerosis 與血管事件預防的機制基礎，也是非選擇性 NSAID 與 COX-2 抑制劑會把血管推向血栓的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostaglandins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "8fed06b0d683",
+    "subject": "Prostacyclin",
+    "predicate": "is_a_type_of",
+    "object": "Prostaglandins",
+    "context": {
+      "en-US": "Prostacyclin (PGI2) is the prostaglandin produced from Prostaglandin H2 by prostacyclin synthase, a cytochrome P450-type enzyme that isomerizes the endoperoxide bridge to an enol ether bridge. It is chemically unstable and hydrolyzes to 6-keto-PGF1alpha within minutes at physiological pH, the stable metabolite measured in clinical samples. Its synthesis is concentrated in endothelial cells lining the vascular wall, where prostacyclin synthase is physically coupled to COX-2.",
+      "zh-TW": "Prostacyclin（PGI2）是由 prostacyclin synthase 從 Prostaglandin H2 生成的 prostaglandin；該酵素為 cytochrome P450 型，會將 endoperoxide 鍵異構化為 enol ether 鍵。它在化學上不穩定，在生理 pH 下數分鐘內即水解為 6-keto-PGF1alpha，也就是臨床樣本中測量的穩定代謝物。其合成集中於襯覆血管壁的內皮細胞，prostacyclin synthase 在該處與 COX-2 物理偶聯。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostacyclin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cb0df3063f98",
+    "subject": "Prostacyclin",
+    "predicate": "competes_with",
+    "object": "Thromboxane A₂",
+    "context": {
+      "en-US": "Prostacyclin and Thromboxane A2 are made from the same Prostaglandin H2 pool and act on opposing receptors - IP (Gs-coupled, raising cAMP, inhibiting platelet activation and relaxing smooth muscle) versus TP (promoting aggregation and vasoconstriction). The PGI2/TXA2 ratio at the vessel wall is therefore the key determinant of thrombotic tendency. In pulmonary arterial hypertension prostacyclin deficiency is central to pathogenesis, which is why prostacyclin analogues are mainstay therapy.",
+      "zh-TW": "Prostacyclin 與 Thromboxane A2 由同一個 Prostaglandin H2 池生成，卻作用於相反的受體——IP（Gs 偶聯、升高 cAMP、抑制血小板活化並放鬆平滑肌）對上 TP（促進聚集與血管收縮）。因此血管壁的 PGI2/TXA2 比值是血栓傾向的關鍵決定因素。在肺動脈高壓中，prostacyclin 缺乏是致病機制的核心，因此 prostacyclin 類似物為主線治療。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostacyclin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "0d864833e7a8",
+    "subject": "Prostacyclin",
+    "predicate": "is_inhibited_by",
+    "object": "Oxidized LDL",
+    "context": {
+      "en-US": "Oxidized LDL and lipid peroxides inhibit prostacyclin synthase, lowering endothelial PGI2 output and shifting the PGI2/TXA2 balance toward thrombosis. This is a direct mechanistic link between Lipid Peroxidation and thrombotic risk, and it explains why reduced PGI2 accompanies plaque progression in Atherosclerosis: the oxidative lesion and the prothrombotic shift are two faces of the same chemistry.",
+      "zh-TW": "Oxidized LDL 與脂質過氧化物會抑制 prostacyclin synthase，降低內皮的 PGI2 產量，並把 PGI2/TXA2 平衡推向血栓。這是 Lipid Peroxidation 與血栓風險之間直接的機制連結，也解釋了為何 PGI2 降低會伴隨 Atherosclerosis 中的斑塊進展：氧化病灶與促血栓轉向是同一套化學的兩面。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prostacyclin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "5ec55d968191",
+    "subject": "Lipid Peroxidation",
+    "predicate": "inhibits",
+    "object": "Prostacyclin",
+    "context": {
+      "en-US": "Lipid peroxides inhibit prostacyclin synthase, so the products of oxidative damage directly suppress the vasodilator, anti-aggregatory arm of the prostanoid system. Because Prostacyclin and Thromboxane A2 arise from the same precursor pool, peroxide-driven synthase inhibition lowers PGI2 while leaving thromboxane output comparatively intact, tipping the vessel toward thrombosis. This is why oxidative burden and prothrombotic tendency covary in Atherosclerosis.",
+      "zh-TW": "脂質過氧化物會抑制 prostacyclin synthase，因此氧化傷害的產物直接壓制 prostanoid 系統中促進血管擴張與抗聚集的那一臂。由於 Prostacyclin 與 Thromboxane A2 來自同一前驅物池，過氧化物驅動的 synthase 抑制會降低 PGI2，而 thromboxane 的產量相對不受影響，因而把血管推向血栓。這也是為何氧化負荷與促血栓傾向在 Atherosclerosis 中共同變動。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prostacyclin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "16fa9e34ab82",
+    "subject": "Aspirin",
+    "predicate": "inhibits",
+    "object": "Thromboxane A₂",
+    "context": {
+      "en-US": "Low-dose aspirin irreversibly acetylates COX-1 in platelets, suppressing Thromboxane A2 for the platelet's roughly 10-day lifespan. Endothelial Prostacyclin is largely spared because endothelium is nucleate and can resynthesize COX, and because low dose preferentially hits the platelet enzyme pool. This selectivity is the mechanistic basis of prophylaxis, and its loss with nonselective NSAIDs and COX-2 inhibitors is why those agents carry cardiovascular risk.",
+      "zh-TW": "低劑量 aspirin 不可逆地乙醯化血小板中的 COX-1，在血小板約 10 天的生命期中抑制 Thromboxane A2。內皮的 Prostacyclin 則大致被保留，因為內皮具有細胞核、可重新合成 COX，且低劑量優先作用於血小板的酵素儲備池。此選擇性是預防作用的機制基礎；而非選擇性 NSAID 與 COX-2 抑制劑喪失了這種選擇性，正是它們帶有心血管風險的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostacyclin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "498ea7a1235d",
+    "subject": "Prostacyclin",
+    "predicate": "is_associated_with",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Reduced PGI2 accompanies plaque progression in Atherosclerosis, for two reasons: endothelium produces less prostacyclin as it becomes dysfunctional, and oxidized LDL plus lipid peroxides inhibit prostacyclin synthase directly. Because PGI2 is the dominant endogenous restraint on platelet aggregation in intact vessels, its loss is a pro-thrombotic shift at the vessel wall, and its release during ischaemia normally limits platelet deposition and microvascular occlusion during reperfusion.",
+      "zh-TW": "在 Atherosclerosis 中，PGI2 減少會伴隨斑塊進展，原因有二：內皮功能失調後製造的 prostacyclin 變少；以及 Oxidized LDL 與脂質過氧化物直接抑制 prostacyclin synthase。由於 PGI2 是完整血管中對血小板聚集的主要內生限制因子，其喪失即代表血管壁層次的促血栓轉向；而缺血時 PGI2 的釋放通常可在再灌流期間限制血小板沉積與微血管阻塞。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prostacyclin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "8f17b6266ac8",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "is_derived_from",
+    "object": "Arachidonic acid",
+    "context": {
+      "en-US": "Hydroxyeicosatetraenoic acids are monohydroxylated metabolites of Arachidonic acid, formed by addition of a single hydroxyl group at defined positions along the carbon chain. They are the hydroxy counterparts of the hydroperoxy intermediates (HPETEs) generated during Lipid Peroxidation and by lipoxygenase catalysis. Of the family, 5-HETE is the committed precursor of Leukotrienes, 15-HETE feeds lipoxin A4, and 20-HETE is a CYP4A/CYP4F product that constricts renal and cerebral arterioles.",
+      "zh-TW": "Hydroxyeicosatetraenoic acids 是 Arachidonic acid 的單羥化代謝物，由在碳鏈上特定位置加上一個羥基而形成。它們是 Lipid Peroxidation 與 lipoxygenase 催化過程中所產生過氧中間物（HPETEs）的羥基對應物。在這一族中，5-HETE 是 Leukotrienes 的承诺前驅物，15-HETE 通往 lipoxin A4，而 20-HETE 則為 CYP4A/CYP4F 產物，可收縮腎臟與腦動脈小動脈。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f55bc8bf10d8",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "is_produced_by",
+    "object": "Lipoxygenase",
+    "context": {
+      "en-US": "5-, 12- and 15-Lipoxygenase insert molecular oxygen at C5, C12 or C15 of Arachidonic acid to yield the corresponding HPETEs, which peroxidases then reduce to 5-, 12- and 15-HETE. This route is stereospecific: LOX-derived HETEs are predominantly the S enantiomer, for example 15S-HETE from 15-lipoxygenase. Chiral lipidomics can therefore separate enzyme-derived 15S-HETE from the 15R-HETE plus racemate produced by free radicals, which is what makes the class a fingerprint of enzymatic versus radical oxidation.",
+      "zh-TW": "5-、12- 與 15-Lipoxygenase 在 Arachidonic acid 的 C5、C12 或 C15 位置插入分子氧，生成相應的 HPETEs，再由 peroxidases 還原為 5-、12- 與 15-HETE。此途徑具立體專一性：LOX 衍生的 HETE 以 S 對映體為主，例如來自 15-lipoxygenase 的 15S-HETE。因此手性脂質體學可將酵素衍生的 15S-HETE 與自由基產生的 15R-HETE 加外消旋體分開，這正是這一族能作為酵素性氧化與自由基氧化指紋的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "395fa484c102",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "is_produced_by",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Non-enzymatic, radical-mediated Lipid Peroxidation of Arachidonic acid yields a mixture of regioisomeric HETEs - 5-, 8-, 9-, 11-, 12- and 15-HETE - in non-stereoselective, largely racemic ratios. The loss of stereospecificity is the diagnostic feature separating free-radical peroxidation from enzymatic synthesis, and it is why GPX4 matters here: by reducing the phospholipid hydroperoxides that would otherwise fragment into HETEs, GPX4 controls how much of the HETE pool is oxidative rather than signaling in origin.",
+      "zh-TW": "非酵素性、由自由基媒介的 Arachidonic acid 過氧化會產生多種位置異構的 HETE 混合物——5-、8-、9-、11-、12- 與 15-HETE——比例不具立體專一性且大致為外消旋。立體專一性的喪失正是區別自由基過氧化與酵素性合成的診斷特徵；GPX4 在此之所以重要，正是因為它還原了原本會碎裂成 HETE 的磷脂過氧化氫物，因而控制了 HETE 池中有多少屬氧化來源而非訊號來源。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "9b1910b300eb",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "is_converted_to",
+    "object": "Leukotrienes",
+    "context": {
+      "en-US": "5-HETE is the committed precursor of the leukotriene cascade: LTA4 synthase acts on it to generate LTA4, which is then converted to leukotriene B4 and the cysteinyl leukotrienes. 5-HETE is also a neutrophil chemoattractant and is elevated in asthma, Atherosclerosis and psoriasis, which is why 5-lipoxygenase inhibitors such as zileuton and leukotriene receptor antagonists target this axis for bronchoconstriction and eosinophil recruitment.",
+      "zh-TW": "5-HETE 是 leukotriane 級聯反應的承诺前驅物：LTA4 synthase 作用於它生成 LTA4，後者再被轉為 leukotriene B4 與半胱氨酰 leukotrienes。5-HETE 同時是嗜中性球的趨化因子，並在氣喘、Atherosclerosis 與牛皮癬中升高，因此 5-lipoxygenase 抑制劑如 zileuton 以及 leukotriene 受體拮抗劑會針對此軸處理支氣管收縮與嗜酸性球招募。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "983b62851ffd",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "upregulates",
+    "object": "VCAM-1",
+    "context": {
+      "en-US": "12-HETE, produced by platelet-type 12-lipoxygenase and 12/15-lipoxygenase, promotes angiogenesis, tumor cell adhesion and VCAM-1 expression in endothelium, and 12- and 15-HETE correlate with atherosclerotic burden while 12-HETE promotes metastatic seeding. This places the lipoxygenase branch of arachidonic acid metabolism on the same endothelial-activation axis as the radical-derived aldehydes, and links it to both Atherosclerosis and cancer progression.",
+      "zh-TW": "由血小板型 12-lipoxygenase 與 12/15-lipoxygenase 產生的 12-HETE 會促進血管新生、腫瘤細胞黏附與內皮的 VCAM-1 表現；而 12- 與 15-HETE 與動脈粥樣硬化負荷相關，12-HETE 並促進轉移性定植。這使 arachidonic acid 代謝的 lipoxygenase 分支與自由基衍生醛類落在同一條內皮活化軸上，並與 Atherosclerosis 及癌症進展相連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d0d6f54615c1",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "is_associated_with",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "12/15-lipoxygenase-derived HETEs contribute to excitotoxic and ferroptotic injury in neural tissue, linking this oxylipin class to Ferroptosis. Because HETEs are oxygenated fatty acids they are themselves substrates for further peroxidation, so they feed back into the Lipid Peroxidation chain when antioxidant defenses (Vitamin E, the GPX4/Glutathione axis) are saturated - the same saturation that determines whether LOX chemistry stays enzymatic or turns destructive.",
+      "zh-TW": "12/15-lipoxygenase 衍生的 HETE 參與神經組織的興奮性毒性與 ferroptotic 傷害，將這類 oxylipin 與 Ferroptosis 連結起來。由於 HETE 本身是含氧脂肪酸，它們也是進一步過氧化的受質，因此當抗氧防禦（Vitamin E、GPX4/Glutathione 軸）飽和時，會回饋進入 Lipid Peroxidation 鏈——正是這種飽和決定了 LOX 化學是維持酵素性還是轉為破壞性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c06b700f14c7",
+    "subject": "Hydroxyeicosatetraenoic acids",
+    "predicate": "correlates_with",
+    "object": "F2-Isoprostanes",
+    "context": {
+      "en-US": "8-HETE, being predominantly non-enzymatic, is often quantified alongside F2-Isoprostanes as an in vivo index of oxidative stress, and total HETE profiles in plasma, urine and tissue are measured by LC-MS/MS to gauge enzymatic versus radical lipid oxidation of Arachidonic acid. The pairing works because both derive from the same non-stereoselective peroxidation route, so their co-elevation indicates radical chemistry rather than lipoxygenase signaling.",
+      "zh-TW": "8-HETE 主要屬非酵素性產物，因此常與 F2-Isoprostanes 一同被定量，作為體內氧化壓力的指標；而血漿、尿液與組織中的總 HETE 圖譜則以 LC-MS/MS 測量，用以評估 Arachidonic acid 的酵素性氧化與自由基氧化比例。此配對之所以有效，是因為兩者皆來自同一條非立體專一的過氧化途徑，因此共同升高指示自由基化學而非 lipoxygenase 訊號。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hydroxyeicosatetraenoic acids.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "72ad623ddbe1",
+    "subject": "Queen Palm",
+    "predicate": "contains",
+    "object": "Carotenoids",
+    "context": {
+      "en-US": "Queen Palm (Syagrus romanzoffiana, jeriva) fruit carries beta-carotene and alpha-carotene as the dominant pigments of the orange pericarp, both provitamin A species that quench Singlet Oxygen, plus lutein and zeaxanthin as membrane-integrated photoprotectants. Pulp oil extracts reach about 1,200 ug/g total carotenoids, a load comparable to jelly palm and acai and below Tier-1 record-holders such as buriti at 5-10 times the carotenoid load. The combination of carotenoids and a lipid vehicle in one fruit is what makes it a useful food-source test case for structural protection against Lipid Peroxidation.",
+      "zh-TW": "Queen Palm（Syagrus romanzoffiana，jerivá）果實以 beta-carotene 與 alpha-carotene 為橙色果皮中的主要色素，兩者皆為 provitamin A 物種且能 quench Singlet Oxygen，並含 lutein 與 zeaxanthin 作為整合於膜的光保護物。果肉油萃取物可達約 1,200 ug/g 的總類胡蘿蔔素，其量級與 jelly palm、acai 相當，則低於 Tier-1 紀錄保持者 buriti（其類胡蘿蔔素量為 5-10 倍）。同一果實中同時具備類胡蘿蔔素與脂質載體，使其成為結構性防禦 Lipid Peroxidation 的食物來源測試案例。"
+    },
+    "confidence": 0.9,
+    "source_document": "Queen Palm.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "922b27ef4ca8",
+    "subject": "Queen Palm",
+    "predicate": "contains",
+    "object": "Vitamin E",
+    "context": {
+      "en-US": "Queen Palm pulp oil carries more than 320 mg/kg of alpha-tocopherol, making the fruit a concentrated natural tocopherol carrier that is synergistic with its carotenoids. The Vitamin E pool rides on the same triglycerides that feed membrane pools: pulp oil is unsaturated (oleic C18:1, linoleic C18:2) while kernel oil is medium-chain saturated (lauric C12:0 at 30-40%). Because tocopherols terminate LOO. chains within bilayers, the co-occurrence of tocopherol, carotenoid and lipid vehicle in the same tissue is the feature that matters for peroxidation defense.",
+      "zh-TW": "Queen Palm 果肉油含有超過 320 mg/kg 的 alpha-tocopherol，使該果實成為與其類胡蘿蔔素協同作用的濃縮天然 tocopherol 載體。Vitamin E 儲備與供應膜池的同一批三酸甘油酯同行：果肉油為不飽和（oleic C18:1、linoleic C18:2），核油則為中鏈飽和（lauric C12:0 佔 30-40%）。由於 tocopherols 能在雙層膜內終止 LOO. 鏈，tocopherol、類胡蘿蔔素與脂質載體在同一組織中共存，才是過氧化防禦上真正要點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Queen Palm.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "33fec06c82b5",
+    "subject": "Queen Palm",
+    "predicate": "contains",
+    "object": "Polyphenols",
+    "context": {
+      "en-US": "Queen Palm mature fruit yields about 590-1,100 mg GAE/100 g of extractable polyphenols, dominated by hydroxycinnamic acids (ferulic and caffeic conjugates) and flavonols including Quercetin and Kaempferol glycosides, with high DPPH, ABTS and ORAC radical-scavenging activity. Vitamin C is low, so the fruit's antioxidant capacity runs through polyphenols and carotenoids rather than ascorbate. This makes it a clean example of the non-enzymatic, lipophilic dietary arm of antioxidant defence, sitting in the same radical-trapping paradigm that positions GPX4 and vitamin E as terminal defences against iron-driven lipid peroxide accumulation.",
+      "zh-TW": "Queen Palm 成熟果實可萃出約 590-1,100 mg GAE/100 g 的多酚，以 hydroxycinnamic acids（ferulic 與 caffeic 結合型）及包括 Quercetin 與 Kaempferol 配糖體在內的 flavonols 為主，並具高 DPPH、ABTS 與 ORAC 自由基清除活性。Vitamin C 含量低，因此該果實的抗氧能力主要來自多酚與類胡蘿蔔素而非 ascorbate。這使它成為抗氧防禦中非酵素性、親脂性膳食分支的清楚範例，與將 GPX4 與 vitamin E 定位為對抗鐵驅動脂質過氧化物累積之終端防禦的同一自由基捕捉範式相符。"
+    },
+    "confidence": 0.9,
+    "source_document": "Queen Palm.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "9e3334868120",
+    "subject": "Queen Palm",
+    "predicate": "is_ranked_below",
+    "object": "Red Palm Oil",
+    "context": {
+      "en-US": "Against the metric that matters for structural protection against Lipid Peroxidation - lipophilic antioxidants embedded in bilayers - Queen Palm pulp sits in a high-potency peer tier below the Tier-1 record-holders. Tier 1 is buriti, sea buckthorn and Red Palm Oil; Queen Palm's own tier is comparable to or above jelly palm and acai, where acai leads on hydrophilic anthocyanins and jeriva on lipophilic carotenoids. It outranks Tier-3 crops such as carrots and sweet potatoes, which have more beta-carotene by weight but lack the intrinsic lipid matrix for direct membrane delivery. The rankings are in vitro food-chemistry measurements; human clinical trials are essentially absent.",
+      "zh-TW": "以結構性防禦 Lipid Peroxidation 所真正重要的指標——嵌入雙層膜中的親脂性抗氧物——來衡量，Queen Palm 果肉位於高效力同儕層級，低於 Tier-1 紀錄保持者。Tier 1 為 buriti、sea buckthorn 與 Red Palm Oil；Queen Palm 所屬層級則與 jelly palm 及 acai 相當或更高，其中 acai 領先於親水性花青素，jerivá 則領先於親脂性類胡蘿蔔素。它又勝過 Tier-3 作物如胡蘿蔿與甘藷——後者以重量計的 β-carotene 更多，卻缺乏直接運送至膜的內在脂質基質。這些排名屬體外食品化學測量，人體臨床試驗基本上並不存在。"
+    },
+    "confidence": 0.85,
+    "source_document": "Queen Palm.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cf42ecb243b8",
+    "subject": "Queen Palm",
+    "predicate": "contains",
+    "object": "Quercetin",
+    "context": {
+      "en-US": "Queen Palm's polyphenol fraction includes Quercetin glucosides alongside Kaempferol derivatives, and these flavonols contribute to the extract's high DPPH/ABTS/ORAC radical-scavenging activity independently of vitamin C. Because the fruit's antioxidant suite is almost entirely lipophilic and non-enzymatic, with negligible ascorbate, it exemplifies the exogenous dietary counterweight to endogenous ROS production described by the oxidative-stress balance.",
+      "zh-TW": "Queen Palm 的多酚部分包含 Quercetin 配糖體與 Kaempferol 衍生物，這些 flavonol 獨立於 vitamin C 貢獻了萃取物的高 DPPH/ABTS/ORAC 自由基清除活性。由於該果實的抗氧套組幾乎完全為親脂性且非酵素性，ascorbate 含量極低，因此它例示了氧化壓力平衡中所描述、對抗內源性 ROS 生成的外源性膳食對沖力量。"
+    },
+    "confidence": 0.8,
+    "source_document": "Queen Palm.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "fe45021261ad",
+    "subject": "p47phox",
+    "predicate": "activates",
+    "object": "NADPH Oxidase",
+    "context": {
+      "en-US": "p47phox (NCF1) is the cytosolic organizer of the NOX2 NADPH Oxidase: upon phosphorylation it translocates to the membrane together with p67phox and p40phox to join cytochrome b558 (p22phox/gp91phox), triggering the respiratory burst. Its role is organizational rather than catalytic - p47phox is a scaffold that brings the cytosolic subunits into contact with the membrane catalytic subunit, which is why its loss abolishes oxidase activation and why NCF1 mutations are the commonest autosomal-recessive cause of Chronic Granulomatous Disease.",
+      "zh-TW": "p47phox（NCF1）是 NOX2 NADPH Oxidase 的細胞質組織次單元：磷酸化後，它與 p67phox 及 p40phox 一同轉位至膜，與 cytochrome b558（p22phox/gp91phox）結合，觸發呼吸爆發。其角色是組織性而非催化性——p47phox 是將細胞質次單元帶到膜上催化次單元附近的支架，因此其喪失會使氧化酶活化消失，而 NCF1 突變是 Chronic Granulomatous Disease 最常見的體染色體隱性病因。"
+    },
+    "confidence": 0.95,
+    "source_document": "p47phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "95b4e930e8c6",
+    "subject": "p47phox",
+    "predicate": "interacts_with",
+    "object": "p22phox",
+    "context": {
+      "en-US": "p47phox docks with the membrane subunit p22phox as the assembled NOX2 complex. p47phox arrives phosphorylated and brings p67phox and p40phox, whereas p22phox is already resident in the membrane as part of cytochrome b558 with gp91phox; the physical contact between the cytosolic organizer and this membrane anchor is what switches the oxidase on. Loss-of-function mutations in either subunit produce the same clinical phenotype of defective respiratory-burst microbial killing in Chronic Granulomatous Disease.",
+      "zh-TW": "p47phox 在組裝完成的 NOX2 複合體中與膜次單元 p22phox 對接。p47phox 以磷酸化態抵達並帶來 p67phox 與 p40phox，而 p22phox 已作為 cytochrome b558 的一部分與 gp91phox 駐留於膜上；正是這個細胞質組織蛋白與膜錨定蛋白之間的物理接觸，開啟了氧化酶。無效突變發生在任一次單元，都會在 Chronic Granulomatous Disease 中產生相同的呼吸爆發殺微生物缺陷表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "p47phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "213c78e0cd20",
+    "subject": "p47phox",
+    "predicate": "is_associated_with",
+    "object": "Chronic Granulomatous Disease",
+    "context": {
+      "en-US": "NCF1 mutations are the commonest autosomal-recessive cause of Chronic Granulomatous Disease, because loss of the p47phox organizer abolishes NADPH oxidase activation in phagocytes and with it the respiratory burst needed to kill catalase-positive organisms. The disease is a direct experimental demonstration that the oxidase-derived superoxide is functionally required for host defense, and it separates the oxidase's antimicrobial role from its parallel role as a source of Oxidative Stress in tissue.",
+      "zh-TW": "NCF1 突變是 Chronic Granulomatous Disease 最常見的體染色體隱性病因，因為 p47phox 組織蛋白的喪失會使吞噬細胞中的 NADPH oxidase 無法活化，連同殺死過氧化氫酶陽性微生物所需的呼吸爆發一併消失。此疾病直接實驗性地證明氧化酶衍生的 superoxide 對宿主防禦具有功能必要性，並把氧化酶的抗微生物角色與其作為組織 Oxidative Stress 來源的平行角色區分開來。"
+    },
+    "confidence": 0.9,
+    "source_document": "p47phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cffd8fcebabd",
+    "subject": "NADPH Oxidase",
+    "predicate": "promotes",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "NADPH oxidases are the deliberate, enzymatic source of superoxide, distinct from the accidental radical leak of mitochondrial electron transport: p47phox-organized NOX2 in phagocytes produces the respiratory burst, and p22phox-stabilized NOX1, NOX2 and NOX4 produce superoxide in vascular and other tissues. Because p22phox polymorphisms modulate vascular Oxidative Stress and Atherosclerosis risk, oxidase output is a genetically variable input to redox tone rather than a fixed background.",
+      "zh-TW": "NADPH oxidases 是 superoxide 的刻意、酵素性來源，與粒線體電子傳遞的意外自由基外漏不同：由 p47phox 組織的吞噬細胞 NOX2 產生呼吸爆發，而由 p22phox 穩定化的 NOX1、NOX2 與 NOX4 則在血管及其他組織產生 superoxide。由於 p22phox 多型性會調節血管 Oxidative Stress 與 Atherosclerosis 風險，氧化酶的輸出是紅氧狀態中具遺傳變異的輸入，而非固定背景。"
+    },
+    "confidence": 0.9,
+    "source_document": "p47phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "20b23744b1f9",
+    "subject": "p22phox",
+    "predicate": "stabilizes",
+    "object": "NOX2",
+    "context": {
+      "en-US": "p22phox (CYBA) is the obligate membrane partner that stabilizes the catalytic subunit for superoxide generation in NOX2 and the other NOX1-4 NADPH oxidases. In the phagocyte oxidase it forms cytochrome b558 together with gp91phox and anchors the membrane half of the complex, while the cytosolic organizer p47phox supplies the activating half. Loss-of-function mutations cause autosomal Chronic Granulomatous Disease with defective microbial killing, and in NOX4 it forms a constitutively active heterodimer.",
+      "zh-TW": "p22phox（CYBA）是穩定催化次單元以產生 superoxide 的必需膜上搭檔，存在於 NOX2 及其他 NOX1-4 NADPH oxidases 中。在吞噬細胞氧化酶中，它與 gp91phox 一同構成 cytochrome b558，並錨定複合體的膜側一半，而細胞質的組織蛋白 p47phox 提供活化側的一半。無效突變會造成體染色體型 Chronic Granulomatous Disease 與微生物殺傷缺陷；在 NOX4 中，它則形成組成型活性的異二聚體。"
+    },
+    "confidence": 0.9,
+    "source_document": "p22phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "796986375436",
+    "subject": "p22phox",
+    "predicate": "is_associated_with",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "p22phox (CYBA) polymorphisms modulate vascular Oxidative Stress and Atherosclerosis risk, which makes p22phox a genetically variable determinant of superoxide tone in the vessel wall rather than a structural afterthought. Because p22phox is shared by NOX1, NOX2 and NOX4, its level sets the ceiling on oxidase-derived superoxide across phagocyte and vascular sources alike, and it is this coupling between oxidase output and endothelial redox state that transmits oxidative stress into plaque initiation.",
+      "zh-TW": "p22phox（CYBA）多型性會調節血管 Oxidative Stress 與 Atherosclerosis 風險，使 p22phox 成為血管壁 superoxide 張力的遺傳可變決定因子，而非只是結構上的附屬物。由於 p22phox 為 NOX1、NOX2 與 NOX4 共用，其含量設定了無論吞噬細胞或血管來源之氧化酶衍生 superoxide 的上限；而正是這種氧化酶輸出與內皮紅氧狀態之間的耦合，把氧化壓力傳遞至斑塊的起始。"
+    },
+    "confidence": 0.85,
+    "source_document": "p22phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "958b970ab714",
+    "subject": "p22phox",
+    "predicate": "is_associated_with",
+    "object": "Chronic Granulomatous Disease",
+    "context": {
+      "en-US": "Loss-of-function mutations in CYBA cause an autosomal form of Chronic Granulomatous Disease. The mechanism is loss of oxidase activity rather than loss of an antioxidant: without a stable cytochrome b558, the phagocyte respiratory burst fails and catalase-positive organisms survive, so the disease is a state of deficient antimicrobial Oxidative Stress generation. It is functionally indistinguishable from the p47phox form, which is why CGD is diagnosed by respiratory-burst assay rather than by subunit.",
+      "zh-TW": "CYBA 的無效突變會造成體染色體型的 Chronic Granulomatous Disease。其機制是氧化酶活性喪失而非抗氧劑喪失：缺少穩定的 cytochrome b558，吞噬細胞的呼吸爆發便告失敗，過氧化氫酶陽性微生物得以存活，因此此疾病是抗微生物 Oxidative Stress 生成不足的狀態。它與 p47phox 型在功能上無法區分，這也是 CGD 靠呼吸爆發檢驗而非靠次單元來診斷的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "p22phox.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "6e19b5e87b39",
+    "subject": "PEX2",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "PEX2 encodes a RING-finger ubiquitin ligase of the peroxisomal importomer that, with PEX10 and PEX12, ubiquitinates the PEX5 import receptor to recycle it after cargo delivery. Biallelic loss of PEX2 abolishes this receptor-recycling step and produces the Zellweger spectrum disorder phenotype with defective peroxisomal matrix protein import; milder variants retain residual import capacity and present as infantile Refsum or Heimler syndrome.",
+      "zh-TW": "PEX2 編碼過氧化體體（importomer）的 RING 指狀泛素連接酶，與 PEX10、PEX12 共同將 PEX5 輸入受體泛素化，以便在貨運送達後回收受體。PEX2 的雙等位基因缺失會使此受體回收步驟失效，造成過氧化體基質蛋白輸入缺陷，並產生 Zellweger 譜系疾病的表型；較輕的變異仍保有部分輸入功能，表現為嬰兒型 Refsum 症候群或 Heimler 症候群。"
+    },
+    "confidence": 0.93,
+    "source_document": "PEX2.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ee795f62829a",
+    "subject": "PEX2",
+    "predicate": "ubiquitinates",
+    "object": "PEX5",
+    "context": {
+      "en-US": "PEX2, together with its RING-complex partners PEX10 and PEX12, ubiquitinates the PEX5 cargo receptor at the peroxisomal membrane. This ubiquitination licenses the receptor to be unloaded and recycled into the cytosol after its cargo has been delivered, making PEX2 an essential component of the ubiquitin-dependent receptor-recycling step of peroxisomal import.",
+      "zh-TW": "PEX2 與其 RING 複合體的夥伴 PEX10、PEX12 一起，在過氧化體膜上將 PEX5 貨運受體泛素化。這項泛素化使受體在貨運送達後得以卸載並回收至細胞質，因此 PEX2 是過氧化體輸入過程中泛素依賴性受體回收步驟的必要元件。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX2.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d73b64c34122",
+    "subject": "PEX2",
+    "predicate": "cooperates_with",
+    "object": "PEX10",
+    "context": {
+      "en-US": "PEX2 and PEX10 form the core of the peroxisomal importomer RING complex, which acts together to ubiquitinate the PEX5 import receptor. Neither subunit is functional alone in receptor recycling, so mutations in either PEX2 or PEX10 converge on the same Zellweger spectrum disorder phenotype of failed peroxisomal matrix import.",
+      "zh-TW": "PEX2 與 PEX10 構成過氧化體 importomer RING 複合體的核心，兩者共同作用以泛素化 PEX5 輸入受體。在受體回收上，兩個次單元單獨存在皆無作用，因此 PEX2 或 PEX10 的突變都會匯聚到相同的 Zellweger 譜系疾病表型，即過氧化體基質輸入失敗。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX2.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "4c48a028f8ea",
+    "subject": "PEX10",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Biallelic PEX10 variants cause Zellweger spectrum disorders. PEX10 supplies the RING-finger ubiquitin-ligase activity of the peroxisomal importomer that recycles the PEX5 receptor after cargo import; loss of this activity collapses peroxisomal matrix protein import and yields the severe Zellweger phenotype or milder variants depending on residual function.",
+      "zh-TW": "PEX10 的雙等位基因變異會造成 Zellweger 譜系疾病。PEX10 提供過氧化體 importomer 的 RING 指狀泛素連接酶活性，負責在貨運輸入後回收 PEX5 受體；此活性喪失會使過氧化體基質蛋白輸入崩潰，依殘餘功能產生嚴重的 Zellweger 表型或較輕的變異。"
+    },
+    "confidence": 0.93,
+    "source_document": "PEX10.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a24e19b034ee",
+    "subject": "PEX10",
+    "predicate": "ubiquitinates",
+    "object": "PEX5",
+    "context": {
+      "en-US": "As part of the importomer RING complex with PEX2 and PEX12, PEX10 ubiquitinates the PEX5 import receptor so that it can be recycled after peroxisomal cargo delivery. PEX10 therefore acts downstream of docking and cargo translocation, at the step that terminates each import cycle and returns the receptor to the cytosol.",
+      "zh-TW": "PEX10 作為與 PEX2、PEX12 組成的 importomer RING 複合體成員，將 PEX5 輸入受體泛素化，使其在過氧化體貨運送達後得以回收。因此 PEX10 作用於對接與貨運轉位之後，負責終止每一輪輸入循環並將受體送回細胞質。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX10.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f4b231d2d626",
+    "subject": "PEX12",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Biallelic PEX12 loss produces Zellweger spectrum disorders with essentially absent peroxisomal import. PEX12 is the third RING-finger subunit of the importomer, completing the PEX2/PEX10 RING complex; without it the PEX5 receptor cannot be recycled by ubiquitination, so peroxisomal matrix enzymes fail to reach the organelle.",
+      "zh-TW": "PEX12 的雙等位基因缺失會造成 Zellweger 譜系疾病，過氧化體輸入幾乎完全消失。PEX12 是 importomer 的第三個 RING 指狀次單元，補足 PEX2/PEX10 RING 複合體；缺少它，PEX5 受體便無法藉由泛素化回收，過氧化體基質酵素因而無法送達胞器。"
+    },
+    "confidence": 0.93,
+    "source_document": "PEX12.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "e485aa1cdcb0",
+    "subject": "PEX12",
+    "predicate": "ubiquitinates",
+    "object": "PEX5",
+    "context": {
+      "en-US": "PEX12 provides the RING-finger ligase activity that ubiquitinates and thereby recycles the PEX5 import receptor at the peroxisomal membrane. It acts upstream of cargo release together with the PEX13 docking component, linking docking, translocation, and receptor recycling into one ubiquitin-dependent importomer cycle.",
+      "zh-TW": "PEX12 提供 RING 指狀連接酶活性，在過氧化體膜上將 PEX5 輸入受體泛素化並使其回收。它與 PEX13 對接元件共同作用於貨運釋放之前，把對接、轉位與受體回收串成同一個泛素依賴的 importomer 循環。"
+    },
+    "confidence": 0.88,
+    "source_document": "PEX12.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "064bf710cdc4",
+    "subject": "PEX2",
+    "predicate": "is_required_for",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Zellweger spectrum disorders are autosomal-recessive peroxisome-biogenesis disorders caused by biallelic loss of PEX genes, and PEX2 is one of these causative genes. Its loss abolishes peroxisomal import, producing the severe Zellweger syndrome end of the spectrum (hypotonia, seizures, liver dysfunction, early lethality) or milder infantile Refsum and Heimler phenotypes when residual import function remains.",
+      "zh-TW": "Zellweger 譜系疾病是一類由 PEX 基因雙等位基因缺失造成的體染色體隱性過氧化體生物合成疾病，PEX2 正是其中的致病基因之一。其缺失會使過氧化體輸入喪失，造成譜系中嚴重端的 Zellweger 症候群（肌張力低下、抽搐、肝功能異常、早期死亡）；若仍保有部分輸入功能，則呈現較輕的嬰兒型 Refsum 與 Heimler 表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Zellweger Spectrum Disorders.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cc1ec3b8b2fb",
+    "subject": "Wnt-beta-catenin",
+    "predicate": "stabilizes",
+    "object": "β-Catenin",
+    "context": {
+      "en-US": "Canonical Wnt/β-catenin signaling stabilizes β-catenin: Wnt ligand binding Frizzled/LRP receptors inhibits the β-catenin destruction complex, allowing β-catenin to accumulate and translocate to the nucleus, where TCF/LEF transcription factors turn it into a transcriptional activator. This stabilization sustains stemness, proliferation, and fate decisions in the responding cells.",
+      "zh-TW": "典型 Wnt/β-catenin 訊號可穩定 β-catenin：Wnt 配體結合 Frizzled/LRP 受體後抑制 β-catenin 破壞複合體，使 β-catenin 得以累積並轉位進入細胞核，由 TCF/LEF 轉錄因子將其轉化為轉錄活化因子。這種穩定化維持了受應細胞的幹性、增殖與命運決定。"
+    },
+    "confidence": 0.95,
+    "source_document": "Wnt-beta-catenin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "813c59e2d82f",
+    "subject": "APC",
+    "predicate": "inhibits",
+    "object": "Wnt-beta-catenin",
+    "context": {
+      "en-US": "APC restrains the Wnt-beta-catenin pathway as part of the β-catenin destruction complex that continuously phosphorylates β-catenin, marking it for ubiquitination and proteasomal degradation. Without this brake, β-catenin accumulates and the pathway becomes hyperactive — the initiating event in colorectal cancer and the mechanism sustaining cancer stem cells.",
+      "zh-TW": "APC 是 Wnt-beta-catenin 途徑的煞車，屬於 β-catenin 破壞複合體的一部分，持續將 β-catenin 磷酸化，使其被泛素化並經由蛋白酶體降解。若缺少此煞車，β-catenin 便會累積、途徑過度活化——這正是大腸癌的起始事件，也是維持癌症幹細胞的機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Wnt-beta-catenin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b9a3eba3824e",
+    "subject": "Wnt-beta-catenin",
+    "predicate": "is_a_type_of",
+    "object": "Wnt signaling",
+    "context": {
+      "en-US": "The canonical Wnt/β-catenin arm is the β-catenin-stabilizing branch of the wider Wnt signaling family, transducing Wnt ligand binding through Frizzled/LRP receptors into β-catenin stabilization and TCF/LEF-dependent transcription. Distinguishing it from non-canonical Wnt branches matters because the canonical arm drives proliferative, stemness, and developmental fate programs.",
+      "zh-TW": "典型 Wnt/β-catenin 分支是廣義 Wnt 訊號家族中穩定 β-catenin 的分支，透過 Frizzled/LRP 受體把 Wnt 配體結合傳遞為 β-catenin 穩定化與 TCF/LEF 依賴的轉錄。將它與非典型 Wnt 分支區分開來很重要，因為典型分支驅動增殖、幹性與發育命運等程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Wnt-beta-catenin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "64d2f30d200b",
+    "subject": "Wnt-beta-catenin",
+    "predicate": "interacts_with",
+    "object": "E-cadherin",
+    "context": {
+      "en-US": "Wnt/β-catenin signaling crosstalks with E-cadherin at adherens junctions through shared β-catenin pools. Cadherin-based junctions sequester β-catenin to build adherens junctions, while free, signaling-competent β-catenin enters the nucleus; the two fates of the same protein couple cell-cell adhesion to proliferative and stemness transcription.",
+      "zh-TW": "Wnt/β-catenin 訊號透過共享的 β-catenin 池，在黏著連結處與 E-cadherin 交互作用。基於鈣黏蛋白的連結會扣留 β-catenin 以建構黏著連結，而游離且具訊號功能的 β-catenin 則進入細胞核；同一蛋白的兩種命運，把細胞間黏附與增殖、幹性轉錄連結在一起。"
+    },
+    "confidence": 0.82,
+    "source_document": "Wnt-beta-catenin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ee6d17c9f48a",
+    "subject": "FRAT2",
+    "predicate": "amplifies",
+    "object": "Wnt-beta-catenin",
+    "context": {
+      "en-US": "FRAT2 amplifies Wnt/β-catenin signaling by binding to components of the β-catenin destruction complex and dissociating it, which protects β-catenin from phosphorylation and degradation. In this way FRAT2 raises the effective β-catenin pool that can reach the nucleus and activate TCF/LEF-dependent transcription.",
+      "zh-TW": "FRAT2 藉由與 β-catenin 破壞複合體的組成成分結合並使其解離，保護 β-catenin 不被磷酸化與降解，進而放大 Wnt/β-catenin 訊號。如此一來，FRAT2 提高可進入細胞核並活化 TCF/LEF 依賴轉錄的有效 β-catenin 池。"
+    },
+    "confidence": 0.8,
+    "source_document": "Wnt-beta-catenin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cfb1762a680d",
+    "subject": "Threonine",
+    "predicate": "is_a",
+    "object": "Essential Amino Acids",
+    "context": {
+      "en-US": "Threonine is one of the nine essential amino acids that humans cannot synthesize de novo and must obtain from the diet. Beyond its role as a protein-building block, it supports gut mucin barrier integrity and is catabolized by threonine dehydrogenase to glycine and acetyl-CoA, feeding one-carbon metabolism.",
+      "zh-TW": "Threonine（蘇胺酸）是人類無法自行從頭合成、必須由飲食取得的九種必需胺基酸之一。除了作為蛋白質的建構單元外，它還支持腸道黏液屏障的完整性，並由 threonine dehydrogenase 分解為 glycine 與 acetyl-CoA，供應一碳代謝。"
+    },
+    "confidence": 0.93,
+    "source_document": "Threonine.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "75ee245dbed7",
+    "subject": "Threonine",
+    "predicate": "is_required_for",
+    "object": "Protein Synthesis",
+    "context": {
+      "en-US": "Threonine is consumed directly as a substrate during protein synthesis, one of the essential amino acids that must be supplied to sustain translation. Because it is not synthesized de novo, its availability becomes a limiting input for ribosomal peptide-bond formation alongside the other essential amino acids and ATP.",
+      "zh-TW": "Threonine 在蛋白質合成過程中直接作為受質被消耗，是維持轉譯所必需的必需胺基酸之一。由於無法自行從頭合成，其供應量會與其他必需胺基酸及 ATP 一樣，成為核糖體形成肽鍵的限制性投入。"
+    },
+    "confidence": 0.9,
+    "source_document": "Threonine.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "295472a94051",
+    "subject": "Methylglyoxal",
+    "predicate": "modifies",
+    "object": "Threonine",
+    "context": {
+      "en-US": "Methylglyoxal, a reactive dicarbonyl, glycates threonine residues (alongside arginine and lysine) in long-lived proteins. Such methylglyoxal-derived adducts accumulate in aging tissues, so threonine residues serve as a chemically labile site where dicarbonyl stress leaves a covalent footprint on protein structure and function.",
+      "zh-TW": "Methylglyoxal 是一種反應性二羰基，會在長壽命蛋白質中使 threonine 殘基（以及 arginine 與 lysine 殘基）糖基化。此類 Methylglyoxal 衍生的加合物在老化組織中累積，因此 threonine 殘基成為二羰基壓力在蛋白質結構與功能上留下共價印記的化學脆弱點。"
+    },
+    "confidence": 0.85,
+    "source_document": "Threonine.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "0ca10bbfdef9",
+    "subject": "T-bet",
+    "predicate": "is_induced_by",
+    "object": "IL-12",
+    "context": {
+      "en-US": "IL-12 signaling through STAT4 induces T-bet (TBX21) in naive CD4+ T cells, committing them to the Th1 lineage. T-bet then drives interferon-gamma production while suppressing the competing Th2 (GATA3) and Th17 fates, so IL-12 upstream sets the balance between defense against intracellular pathogens and allergic responses.",
+      "zh-TW": "IL-12 透過 STAT4 的訊號會在初始 CD4+ T 細胞中誘導 T-bet（TBX21），使其承諾走向 Th1 譜系。之後 T-bet 驅動 interferon-gamma 的產生，同時抑制競爭性的 Th2（GATA3）與 Th17 命運，因此上游的 IL-12 決定了對抗細胞內病原體與過敏反應之間的平衡。"
+    },
+    "confidence": 0.94,
+    "source_document": "T-bet.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "9e1131c8095d",
+    "subject": "T-bet",
+    "predicate": "suppresses",
+    "object": "Th2",
+    "context": {
+      "en-US": "T-bet suppresses the Th2 fate defined by GATA3, antagonizing the IL-4/STAT6 axis that would otherwise drive type-2 immunity. T-bet is therefore a determinant of whether a CD4+ T cell mounts a type-1 interferon-gamma response or a type-2 allergic/eosinophilic program, and its dysregulation skews this balance.",
+      "zh-TW": "T-bet 抑制由 GATA3 定義的 Th2 命運，與本會驅動第二型免疫的 IL-4/STAT6 軸相拮抗。因此 T-bet 決定了 CD4+ T 細胞會啟動第一型 interferon-gamma 反應，還是第二型過敏/嗜酸性反應程式；其失調會使此平衡偏移。"
+    },
+    "confidence": 0.9,
+    "source_document": "T-bet.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "58abd0e547b3",
+    "subject": "T-bet",
+    "predicate": "is_expressed_in",
+    "object": "Th1",
+    "context": {
+      "en-US": "T-bet is the lineage-defining transcription factor of Th1 cells, whose sustained expression is the defining molecular signature of the lineage. It activates interferon-gamma transcription and represses GATA3-dependent Th2 and Th17 programs, and it additionally programs NK cell cytotoxicity and CD8 effector function, extending its role beyond CD4 helper cells.",
+      "zh-TW": "T-bet 是 Th1 細胞的譜系定義轉錄因子，其持續表現即是該譜系的分子標誌。它活化 interferon-gamma 轉錄、抑制 GATA3 依賴的 Th2 與 Th17 程式，並額外編程 NK 細胞的細胞毒殺與 CD8 效應功能，使它的角色不侷限於 CD4 輔助細胞。"
+    },
+    "confidence": 0.92,
+    "source_document": "T-bet.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3b2f857a20fc",
+    "subject": "IL-4",
+    "predicate": "suppresses",
+    "object": "T-bet",
+    "context": {
+      "en-US": "IL-4 signaling acts through STAT6 and GATA3 to suppress T-bet expression and thereby block Th1 differentiation. Because T-bet represses the GATA3-driven Th2 program, IL-4 and T-bet sit in reciprocal opposition: IL-4 reinforces type-2 immunity while T-bet enforces type-1 immunity, and the balance between them shapes allergy versus intracellular-pathogen defense.",
+      "zh-TW": "IL-4 的訊號經由 STAT6 與 GATA3 抑制 T-bet 的表現，進而阻斷 Th1 分化。由於 T-bet 會壓抑 GATA3 驅動的 Th2 程式，IL-4 與 T-bet 處於互相對抗的位置：IL-4 強化第二型免疫，T-bet 則強制第一型免疫，兩者的平衡塑造了過敏與對抗細胞內病原體之間的取捨。"
+    },
+    "confidence": 0.85,
+    "source_document": "T-bet.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "fa9164f32bf8",
+    "subject": "Securin",
+    "predicate": "is_degraded_by",
+    "object": "Anaphase Promoting Complex-Cyclosome",
+    "context": {
+      "en-US": "At anaphase onset the anaphase promoting complex-cyclosome, activated by CDC20, ubiquitinates securin and targets it for proteasomal destruction. Degrading securin frees the protease separase, which then cleaves cohesin to allow sister chromatid separation; a non-degradable securin mutant blocks anaphase entirely, showing that securin turnover is the licensing step for chromosome segregation.",
+      "zh-TW": "在後期起始時，由 CDC20 活化的後期促進複合體會將 securin 泛素化並標記其進行蛋白酶體降解。Securin 被降解後釋出蛋白酶 separase，後者再切割 cohesin，使姐妹染色分體得以分離；不可降解的 securin 突變會完全阻斷後期，顯示 securin 的周轉是染色體分離的許可步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "Securin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "65b9f61cde2c",
+    "subject": "CDC20",
+    "predicate": "activates",
+    "object": "Securin",
+    "context": {
+      "en-US": "CDC20 is the co-activator that licenses APC/C to ubiquitinate securin (and cyclin B1) at anaphase onset. Through securin degradation, CDC20 activation converts the destruction-complex state into a permissive one: separase becomes active, cohesin is cleaved, and sister chromatids are released — a switch frequently mis-set in cancer, where securin overexpression is common in pituitary, thyroid, and colorectal tumors.",
+      "zh-TW": "CDC20 是使 APC/C 得以在後期起始時將 securin（以及 cyclin B1）泛素化的共同活化因子。透過 securin 的降解，CDC20 的活化把破壞複合體狀態轉為允許狀態：separase 變得活化、cohesin 被切割、姐妹染色分體被釋放——這個開關在癌症中常被誤設，因為 pituitary、thyroid 與大腸癌腫瘤中常見 securine 過度表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Securin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "346470c47f26",
+    "subject": "SWI-SNF",
+    "predicate": "is_required_for",
+    "object": "Nucleosome Remodeling",
+    "context": {
+      "en-US": "SWI/SNF (mammalian BAF) complexes perform ATP-dependent nucleosome remodeling using their BRG1/BRM ATPase subunits. The ATPase hydrolyzes energy to slide, reposition, or evict nucleosomes, opening promoters and enhancers to control access of transcriptional machinery — making SWI-SNF the catalytic engine of nucleosome remodeling rather than merely a structural component.",
+      "zh-TW": "SWI/SNF（哺乳類 BAF）複合體以其 BRG1/BRM ATPase 次單元執行 ATP 依賴性的核小體重塑。ATPase 水解能量以滑動、重新定位或驅逐核小體，開放 promoter 與 enhancer，控制轉錄機器的可及性——因此 SWI-SNF 是核小體重塑的催化引擎，而不只是結構性成分。"
+    },
+    "confidence": 0.93,
+    "source_document": "SWI-SNF.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f216e719df50",
+    "subject": "SWI-SNF",
+    "predicate": "regulates",
+    "object": "Gene Expression",
+    "context": {
+      "en-US": "By remodeling nucleosomes at promoters and enhancers, SWI/SNF acts as a gatekeeper of transcriptional access and thereby regulates gene expression, differentiation, and DNA repair. Its mutants — including SMARCB1 in rhabdoid tumors and ARID1A in ovarian clear-cell carcinoma, in roughly 20% of cancers overall, plus Coffin-Siris neurodevelopmental syndrome — make it a major cancer and developmental gene.",
+      "zh-TW": "SWI/SNF 藉由在 promoter 與 enhancer 上重塑核小體，扮演轉錄可及性的守門人，進而調節基因表現、分化與 DNA 修復。它的突變——包括 rhabdoid 腫瘤中的 SMARCB1 與卵巢透明細胞癌中的 ARID1A（整體約見於 20% 的癌症），以及 Coffin-Siris 神經發育症候群——使它成為主要的癌症與發育相關基因。"
+    },
+    "confidence": 0.92,
+    "source_document": "SWI-SNF.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f735cb7fa0e5",
+    "subject": "BRG1",
+    "predicate": "is_a_component_of",
+    "object": "SWI-SNF",
+    "context": {
+      "en-US": "BRG1 is the catalytic ATPase subunit of the mammalian SWI/SNF (BAF) remodeling complexes, providing the energy that slides and evicts nucleosomes. The related BRM ATPase can substitute in specific complex variants, so BRG1 supplies the hydrolysis step that lets SWI-SNF reshape chromatin and expose regulatory DNA.",
+      "zh-TW": "BRG1 是哺乳類 SWI/SNF（BAF）重塑複合體的催化 ATPase 次單元，提供滑動與驅逐核小體所需的能量。相關的 BRM ATPase 可在特定複合體變體中取代其角色，因此 BRG1 提供了讓 SWI-SNF 重塑染色質、暴露調控性 DNA 的水解步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "SWI-SNF.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "eea0f5a26450",
+    "subject": "Rigidity",
+    "predicate": "is_associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Rigidity is a cardinal motor sign of Parkinson's disease, alongside bradykinesia and rest tremor. It is velocity-independent resistance to passive movement — lead-pipe rigidity, becoming cogwheel rigidity when tremor superimposes — and it responds to dopaminergic therapy and deep brain stimulation, distinguishing it from spasticity as a velocity-dependent, upper-motor-neuron phenomenon.",
+      "zh-TW": "Rigidity 是 Parkinson's disease 的主要運動徵狀之一，與 bradykinesia 及靜止性震顫並列。它是與速度無關的被動運動阻力——lead-pipe rigidity，當震顫疊加其上時則成為 cogwheel rigidity——並可對多巴胺能治療與深部腦刺激產生反應，此點使它有別於屬於上運動神經元、與速度相關的 spasticity。"
+    },
+    "confidence": 0.93,
+    "source_document": "Rigidity.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d303fe9123d4",
+    "subject": "Dopamine",
+    "predicate": "causes",
+    "object": "Rigidity",
+    "context": {
+      "en-US": "Rigidity is produced by loss of dopamine: basal-ganglia dopamine depletion disrupts the balance of the direct and indirect pathways at striatal synapses, raising motor output tone and producing velocity-independent resistance to passive movement. Supplying dopamine pharmacologically or by deep brain stimulation reverses the rigid tone, which is why rigidity responds to dopaminergic therapy.",
+      "zh-TW": "Rigidity 由多巴胺喪失所產生：基底核多巴胺耗竭使紋狀體突觸處直接路徑與間接路徑的平衡被破壞，運動輸出張力上升，形成與速度無關的被動運動阻力。以藥物補充多巴胺或深部腦刺激可逆轉僵硬張力，這也是 rigidity 對多巴胺能治療有反應的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rigidity.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3a0811471b41",
+    "subject": "Rigidity",
+    "predicate": "is_expressed_in",
+    "object": "Muscle",
+    "context": {
+      "en-US": "Rigidity is expressed in muscle as an increased, velocity-independent tone that resists passive movement, in contrast to the velocity-dependent catch of upper-motor-neuron spasticity. Because the excess tone originates in basal-ganglia circuit dysfunction rather than in the muscle itself, rigidity is a sign expressed through muscle that points upstream to striatal dopamine signaling.",
+      "zh-TW": "Rigidity 表現在肌肉上，表現為張力增加且與速度無關、能抵抗被動運動，這與上運動神經元 spasticity 那種與速度相關的阻力不同。由於這種張力過多源自基底核迴路失調而非肌肉本身，rigidity 是經由肌肉表現、卻指向上游紋狀體多巴胺訊號的徵狀。"
+    },
+    "confidence": 0.82,
+    "source_document": "Rigidity.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "618e5ce17cc3",
+    "subject": "Regulatory T Cell",
+    "predicate": "is_induced_by",
+    "object": "TGF-beta1",
+    "context": {
+      "en-US": "TGF-beta1 is the canonical inducer of FoxP3+ regulatory T cell differentiation. In combination with IL-2 it drives the TGF-beta1 pathway's Smad/FoxP3 program toward a suppressive phenotype, which is why regulatory T cells are classed with TGF-beta1 as central to maintaining self-tolerance — and why tumors and senescent niches actively recruit them to evade immune attack.",
+      "zh-TW": "TGF-beta1 是 FoxP3+ 調節性 T 細胞分化的標準誘導因子。它與 IL-2 協同推動 TGF-beta1 途徑的 Smad/FoxP3 程式走向抑制性表型，因此調節性 T 細胞與 TGF-beta1 同為維持自身耐受的核心；這也是腫瘤與老化 niche 會主動招募它們以逃避免疫攻擊的原因。"
+    },
+    "confidence": 0.92,
+    "source_document": "Regulatory T Cell.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c9f7d5778ad1",
+    "subject": "IDO1",
+    "predicate": "induces",
+    "object": "Regulatory T Cell",
+    "context": {
+      "en-US": "IDO1 depletes tryptophan and diverts it into the kynurenine pathway, which induces regulatory T cell differentiation. Two downstream routes converge on the same outcome: tryptophan scarcity activates the GCN2 amino-acid sensor, while kynurenine-pathway metabolites such as kynurenine ligate the aryl hydrocarbon receptor. This makes IDO1 an upstream immunosuppressive enzyme that promotes tolerance rather than effector immunity.",
+      "zh-TW": "IDO1 會耗竭 tryptophan 並將其導入 kynurenine 途徑，進而誘導調節性 T 細胞分化。兩條下游路徑匯聚到相同結果：tryptophan 缺乏活化 GCN2 胺基酸感測器，而 kynurenine 途徑的代謝物（如 kynurenine）則結合 aryl hydrocarbon receptor。這使 IDO1 成為促進耐受而非效應免疫的上游抑制性酵素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Regulatory T Cell.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "68fe906964f6",
+    "subject": "GCN2",
+    "predicate": "drives",
+    "object": "Regulatory T Cell",
+    "context": {
+      "en-US": "GCN2 is the amino-acid sensor that translates IDO1-mediated tryptophan depletion into regulatory T cell differentiation and T-cell anergy. Sensing reduced available amino acids, GCN2 activates a nutrient-stress response that biases T cells toward a suppressive FoxP3+ phenotype, linking tryptophan catabolism to peripheral tolerance.",
+      "zh-TW": "GCN2 是將 IDO1 所致的 tryptophan 耗竭轉譯為調節性 T 細胞分化與 T 細胞無反應的胺基酸感測器。在感知可利用胺基酸減少後，GCN2 啟動營養壓力反應，使 T 細胞偏向抑制性的 FoxP3+ 表型，將 tryptophan 分解代謝與周邊耐受連結起來。"
+    },
+    "confidence": 0.88,
+    "source_document": "Regulatory T Cell.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a36537867bcf",
+    "subject": "Regulatory T Cell",
+    "predicate": "suppresses",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "FoxP3+ regulatory T cells suppress effector immunity and thereby limit inflammation to maintain self-tolerance. Tumors and senescent niches exploit this suppressive function by recruiting regulatory T cells for immune evasion, so the same cell type that restrains inflammatory damage in healthy tissue can be co-opted to protect malignant or senescent cells from immune clearance.",
+      "zh-TW": "FoxP3+ 調節性 T 細胞抑制效應免疫，藉此限制發炎以維持自身耐受。腫瘤與老化 niche 會利用這項抑制功能，招募調節性 T 細胞進行免疫逃脫，因此這個在健康組織中限制發炎傷害的細胞類型，也可能被腫瘤或老化細胞徵用來保護自身免於免疫清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Regulatory T Cell.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "e49c4187cbee",
+    "subject": "Aryl Hydrocarbon Receptor",
+    "predicate": "induces",
+    "object": "Regulatory T Cell",
+    "context": {
+      "en-US": "Aryl hydrocarbon receptor ligands such as kynurenine-pathway metabolites promote FoxP3+ regulatory T cell differentiation. Because IDO1 generates exactly these metabolites, the aryl hydrocarbon receptor is the receptor-level effector of IDO1 activity: IDO1-driven tryptophan catabolism reaches the nucleus through this receptor to install a regulatory T cell program.",
+      "zh-TW": "Aryl hydrocarbon receptor 的配體（例如 kynurenine 途徑的代謝物）會促進 FoxP3+ 調節性 T 細胞分化。由於 IDO1 正是產生這些代謝物者，aryl hydrocarbon receptor 就是 IDO1 活性的受體層級效應者：IDO1 驅動的 tryptophan 分解代謝經由這個受體進入細胞核，安裝調節性 T 細胞程式。"
+    },
+    "confidence": 0.86,
+    "source_document": "Regulatory T Cell.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cd622d7eef5b",
+    "subject": "Protein Synthesis",
+    "predicate": "consumes",
+    "object": "ATP",
+    "context": {
+      "en-US": "Protein synthesis (translation) costs roughly 4 ATP equivalents per peptide bond formed on the ribosome, making it one of the largest items in the cellular energy budget. This energetic cost is why growth signaling, nutrient status, and stress kinases all gate translation: cells spend ATP to build protein and cut synthesis when energy or substrates are scarce.",
+      "zh-TW": "蛋白質合成（轉譯）每形成一個肽鍵約需消耗 4 個 ATP 當量，使其成為細胞能量預算中最大的支出項目之一。這也是生長訊號、營養狀態與壓力激酶全都對轉譯設下閘門的原因：細胞需花費 ATP 來建構蛋白，並在能量或受質不足時削減合成。"
+    },
+    "confidence": 0.93,
+    "source_document": "Protein Synthesis.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "69ccece251b8",
+    "subject": "mTORC1",
+    "predicate": "upregulates",
+    "object": "Protein Synthesis",
+    "context": {
+      "en-US": "Growth signaling through mTORC1 licenses ribosome biogenesis and translation initiation, raising the capacity for protein synthesis. mTORC1 therefore acts as the growth-state gatekeeper of protein production: with nutrients and growth factors abundant it promotes initiation and ribosome assembly, and its suppression is a major route by which stress and starvation reduce synthesis.",
+      "zh-TW": "透過 mTORC1 的生長訊號可許可核糖體生成與轉譯起始，提升蛋白質合成的能力。因此 mTORC1 是蛋白質產量的生長狀態守門人：當養分與生長因子充足時，它促進起始與核糖體組裝；而抑制 mTORC1 也是壓力與飢餓降低蛋白質合成的主要途徑之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Synthesis.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "0a201f8072c6",
+    "subject": "GCN2",
+    "predicate": "inhibits",
+    "object": "Protein Synthesis",
+    "context": {
+      "en-US": "GCN2, a stress kinase activated by amino-acid scarcity, brakes global protein synthesis. Unlike a blanket shutdown, this response is selective: bulk translation is suppressed while ATF4 translation is permitted, so cells conserve energy and still mount a transcriptional stress response. PERK acts similarly under ER stress.",
+      "zh-TW": "GCN2 是由胺基酸缺乏活化的壓力激酶，會抑制整體蛋白質合成。與全面停產不同，這項反應具有選擇性：大部分轉譯被壓抑，但 ATF4 的轉譯仍被允許，因此細胞在節省能量的同時仍能啟動轉錄性的壓力反應。PERK 在內質網壓力下的作用亦然。"
+    },
+    "confidence": 0.88,
+    "source_document": "Protein Synthesis.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "965821f84838",
+    "subject": "Translation",
+    "predicate": "is_a",
+    "object": "Protein Synthesis",
+    "context": {
+      "en-US": "Translation is the ribosomal mechanism by which protein synthesis is executed: mRNA is decoded on the ribosome and amino acids are joined into chains. It is the mechanistic counterpart of protein synthesis rather than a separate process — regulation of translation (initiation, elongation, termination) is how cells control their overall rate of protein production.",
+      "zh-TW": "Translation 是蛋白質合成得以執行的核糖體機制：mRNA 在核糖體上被解讀，胺基酸被連接成鏈。它是蛋白質合成的機制對應物而非另一個獨立過程——對轉譯的調控（起始、延長、終止），正是細胞控制整體蛋白質產量速率的方式。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Synthesis.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b2cd5a47d220",
+    "subject": "Essential Amino Acids",
+    "predicate": "is_required_for",
+    "object": "Protein Synthesis",
+    "context": {
+      "en-US": "Sustained protein synthesis requires a continuous dietary supply of essential amino acids, which humans cannot synthesize de novo. Because the ribosome cannot substitute nonessential residues, availability of these nine amino acids is a hard substrate constraint on translation, and inadequate intake limits synthesis regardless of energy status.",
+      "zh-TW": "持續的蛋白質合成需要膳食持續供應必需胺基酸，而人類無法自行從頭合成它們。由於核糖體無法以非必需胺基酸替代，這九種胺基酸的供應量就構成轉譯的硬性受質限制；攝取不足時，無論能量狀態如何，合成都會受限。"
+    },
+    "confidence": 0.88,
+    "source_document": "Protein Synthesis.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "95a8a0915254",
+    "subject": "PREMOTE",
+    "predicate": "evaluates",
+    "object": "Berberine",
+    "context": {
+      "en-US": "PREMOTE is a multi-center randomized controlled trial in roughly 400 newly diagnosed type 2 diabetes mellitus patients that evaluates berberine (with probiotics) against glycemic control and the gut microbiome. It produced about a 1% HbA1c reduction at 12 weeks alongside measurable shifts in microbial composition and metabolites, making it the first human trial to link berberine's clinical metabolic benefit directly to microbiome-mediated mechanisms.",
+      "zh-TW": "PREMOTE 是一項多中心隨機對照試驗，納入約 400 名新診斷的 type 2 diabetes mellitus 患者，評估 Berberine（搭配益生菌）對血糖控制與腸道微生物群的影響。試驗在 12 週時達到約 1% 的 HbA1c 下降，並伴隨可測量的微生物組成與代謝物改變，使其成為第一個將 Berberine 的臨床代謝效益直接連結到微生物群介導機制的人體試驗。"
+    },
+    "confidence": 0.93,
+    "source_document": "PREMOTE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b6b95f89209a",
+    "subject": "PREMOTE",
+    "predicate": "is_mediated_by",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "In PREMOTE the gut microbiome mediates the observed metabolic benefit: berberine's roughly 1% HbA1c reduction tracked with compositional and metabolite changes, and the enriched taxa included Akkermansia muciniphila, Bifidobacterium, and SCFA-producing Lactobacillus. This supports berberine's high-intraluminal-exposure model, in which activity resides in the gut lumen independently of systemic absorption.",
+      "zh-TW": "在 PREMOTE 試驗中，腸道微生物群是所觀察到代謝效益的介導者：Berberine 約 1% 的 HbA1c 下降與微生物組成及代謝物的改變相對應，被富集的類群包括 Akkermansia muciniphila、Bifidobacterium 以及產 SCFA 的 Lactobacillus。這支持 Berberine 的高腸腔暴露模型——其活性存在於腸道管腔內，獨立於全身吸收而作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "PREMOTE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "1d659b6de609",
+    "subject": "PREMOTE",
+    "predicate": "is_studied_in",
+    "object": "Type 2 Diabetes Mellitus",
+    "context": {
+      "en-US": "PREMOTE enrolled approximately 400 newly diagnosed type 2 diabetes mellitus patients across multiple centers, so the trial's population is defined by early-stage metabolic disease rather than long-standing, treated diabetes. That design choice makes the observed ~1% HbA1c reduction informative about berberine's effect in metabolically naive patients.",
+      "zh-TW": "PREMOTE 在多個中心收納約 400 名新診斷的 type 2 diabetes mellitus 患者，因此試驗族群是由早期代謝疾病而非長期治療過的糖尿病所界定。這項設計選擇使所觀察到的約 1% HbA1c 下降，能說明 Berberine 對代謝上未受干預患者的效力。"
+    },
+    "confidence": 0.88,
+    "source_document": "PREMOTE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "85f627ef3987",
+    "subject": "PALB2",
+    "predicate": "binds",
+    "object": "BRCA2",
+    "context": {
+      "en-US": "PALB2 (Partner and Localizer of BRCA2) bridges BRCA1 to BRCA2, enabling the BRCA complex to load RAD51 onto resected double-strand breaks during homologous recombination. Because PALB2 is the physical scaffold of the loadase, its loss cripples strand exchange; biallelic loss causes Fanconi anemia (FANCN) and monoallelic variants confer high risk of breast, pancreatic, and ovarian cancer.",
+      "zh-TW": "PALB2（Partner and Localizer of BRCA2）將 BRCA1 與 BRCA2 橋接起來，使 BRCA 複合體能在同源重組過程中將 RAD51 載上經切除的雙股斷端。由於 PALB2 是此載入機制的物理支架，其缺失會使股交換功能癱瘓；雙等位基因缺失造成 Fanconi 貧血（FANCN），單等位基因變異則帶來高度的乳癌、胰臟癌與卵巢癌風險。"
+    },
+    "confidence": 0.94,
+    "source_document": "PALB2.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "60ee159052df",
+    "subject": "PALB2",
+    "predicate": "is_required_for",
+    "object": "Homologous recombination repair",
+    "context": {
+      "en-US": "The PALB2-BRCA1-BRCA2-RAD51 axis mediates strand exchange at resected DNA breaks, which is what homologous recombination repair depends on to restore broken chromosomes accurately. PALB2 therefore sits inside the DNA repair pathway as an enabling scaffold: its loss produces both Fanconi anemia phenotype and the PARP-inhibitor sensitivity characteristic of BRCA deficiency.",
+      "zh-TW": "PALB2-BRCA1-BRCA2-RAD51 軸在經切除的 DNA 斷端上執行股交換，而同源重組修復正是依靠此機制準確修復受損染色體。因此 PALB2 位於 DNA 修復途徑之內，作為一個必要的支架：其缺失同時造成 Fanconi 貧血表型，以及 BRCA 缺失所特有的 PARP 抑制劑敏感性。"
+    },
+    "confidence": 0.92,
+    "source_document": "PALB2.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d8c9e70cf1a2",
+    "subject": "PALB2",
+    "predicate": "is_associated_with",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "Monoallelic pathogenic PALB2 variants confer high risk of pancreatic cancer along with breast and ovarian cancer, and PALB2 variants are enriched in pancreatic ductal adenocarcinoma (PDA) tumors that show homologous-recombination deficiency. Because PALB2-deficient tumors cannot perform homologous recombination, they show PARP-inhibitor sensitivity akin to BRCA1/2 deficiency — the basis for treating PALB2 loss as a BRCA-like synthetic-lethal indication.",
+      "zh-TW": "PALB2 的單等位基因致病變異會帶來胰臟癌高度風險（並伴隨乳癌與卵巢癌），且在呈現同源重組缺陷的 pancreatic ductal adenocarcinoma（PDA）腫瘤中特別富集。由於 PALB2 缺失的腫瘤無法進行同源重組，因此呈現類似 BRCA1/2 缺失的 PARP 抑制劑敏感性——這就是把 PALB2 缺失視為 BRCA 類合成致命指徵的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "PALB2.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "410dd516c2ca",
+    "subject": "Olaparib",
+    "predicate": "inhibits",
+    "object": "PARP1",
+    "context": {
+      "en-US": "Olaparib inhibits PARP1 and PARP2 by trapping the enzyme on DNA breaks rather than by purely catalytic inhibition. The trapped PARP complex occupies the damaged site, blocks base-excision repair, and converts a single-strand nick into a lethal replication-associated double-strand break — which is why PARP inhibition becomes selectively toxic to homologous-recombination-deficient tumors.",
+      "zh-TW": "Olaparib 抑制 PARP1 與 PARP2 的方式，是將酵素困在 DNA 斷端上，而不只是純粹的催化抑制。被困住的 PARP 複合體占據受損位點，阻斷鹼基切除修復，並將單股缺口轉化為與複製相關、可致死的雙股斷端——這正是 PARP 抑制對同源重組缺陷腫瘤具有選擇性毒性的原因。"
+    },
+    "confidence": 0.94,
+    "source_document": "Olaparib.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "97555f72879b",
+    "subject": "Olaparib",
+    "predicate": "is_synthetic_lethal_with",
+    "object": "PALB2",
+    "context": {
+      "en-US": "Loss of PALB2 makes tumors synthetically lethal with olaparib: because PALB2 loss removes homologous-recombination competence, the DNA breaks created by trapped PARP cannot be repaired and the cells die. BRCA1/2 and ATM loss act the same way, and this synthetic lethality between PARP trapping and repair deficiency is what lets olaparib treat BRCA-mutated breast, ovarian, pancreatic, and prostate cancers.",
+      "zh-TW": "PALB2 的缺失使腫瘤與 olaparib 形成合成致命關係：因為 PALB2 缺失移除了同源重組能力，被困住的 PARP 所造成的 DNA 斷端無法修復，細胞因而死亡。BRCA1/2 與 ATM 缺失具有相同作用，而正是這種 PARP 困陷與修復缺陷之間的合成致命性，讓 olaparib 能治療 BRCA 突變的乳癌、卵巢癌、胰臟癌與攝護腺癌。"
+    },
+    "confidence": 0.9,
+    "source_document": "Olaparib.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "eff37bf6288a",
+    "subject": "Olaparib",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "In homologous-recombination-deficient tumors, olaparib-driven trapped-PARP damage converts unrepaired breaks into lethal lesions, and cells die by apoptosis. This is the downstream execution step of the synthetic-lethal mechanism: PARP trapping loads the damage, the missing repair pathway prevents its resolution, and apoptosis removes the cells that cannot survive the replication-associated lesions.",
+      "zh-TW": "在同源重組缺陷的腫瘤中，olaparib 造成的 PARP 困陷損傷會把未修復的斷端轉化為致死性損傷，細胞隨之以凋亡死亡。這是合成致命機制的下游執行步驟：PARP 困陷載入損傷、缺失的修復途徑阻止其被解決，而凋亡則清除無法存活於複製相關損傷的細胞。"
+    },
+    "confidence": 0.85,
+    "source_document": "Olaparib.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "bf7fb37811d4",
+    "subject": "Olaparib",
+    "predicate": "treats",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "Pancreatic cancer is one of olaparib's approved indications, alongside BRCA-mutated breast, ovarian, and prostate cancers, on the basis of olaparib's exploitation of synthetic lethality in homologous-recombination-deficient tumors. ATM-deficient tumors are selectively vulnerable to PARP inhibitors including olaparib, and show heightened vulnerability when PARP inhibition is combined with ATR inhibition.",
+      "zh-TW": "胰臟癌是 olaparib 的核准適應症之一，與 BRCA 突變的乳癌、卵巢癌及攝護腺癌並列，其依據是 olaparib 對同源重組缺陷腫瘤之合成致命性的利用。ATM 缺失的腫瘤對包括 olaparib 在內的 PARP 抑制劑具有選擇性脆弱性，且在 PARP 抑制合併 ATR 抑制時更為明顯。"
+    },
+    "confidence": 0.88,
+    "source_document": "Olaparib.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "58b1186da010",
+    "subject": "Myosin",
+    "predicate": "powers",
+    "object": "Muscle",
+    "context": {
+      "en-US": "Myosin motors walk along Actin filaments and convert ATP hydrolysis into mechanical force. Sarcomeric myosin II drives Muscle contraction in Cardiomyocytes, and myosin light-chain phosphorylation tunes contractility in smooth muscle and endothelium.",
+      "zh-TW": "Myosin 馬達蛋白沿著 Actin（肌動蛋白）絲移動，將 ATP 水解轉換為機械力。肌節型 myosin II 驅動 Cardiomyocytes（心肌細胞）中的 Muscle（肌肉）收縮，而 myosin 輕鏈磷酸化則調節平滑肌與內皮細胞的收縮力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Myosin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3b3f8dda00f7",
+    "subject": "Myosin",
+    "predicate": "binds",
+    "object": "Actin",
+    "context": {
+      "en-US": "Myosin motors operate on Actin filaments as tracks, forming actin-myosin crossbridges whose ATPase cycling couples ATP hydrolysis to the power stroke. In muscle this actin-myosin machinery underlies force generation; in non-muscle cells it drives cytokinesis, adhesion turnover, and motility.",
+      "zh-TW": "Myosin 馬達蛋白以 Actin（肌動蛋白）絲作為軌道，形成 actin-myosin 交叉橋，其 ATPase 循環將 ATP 水解與動力衝程耦合。在肌肉中，這套 actin-myosin 機制構成力量產生的基礎；在非肌肉細胞中則驅動細胞分裂、黏附周轉與運動。"
+    },
+    "confidence": 0.95,
+    "source_document": "Myosin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "8e6e4eeabae9",
+    "subject": "Myosin",
+    "predicate": "drives",
+    "object": "Cell Migration",
+    "context": {
+      "en-US": "Non-muscle myosin II generates the contractile forces needed for Cell Migration: it drives protrusion retraction, rear-end detachment, and adhesion turnover at the trailing edge, all on Cytoskeleton-resident Actin tracks.",
+      "zh-TW": "非肌肉型 myosin II 產生 Cell Migration（細胞遷移）所需的收縮力：驅動前緣的伸縮、尾端分離，以及後緣的黏附周轉—all 皆在 Cytoskeleton（細胞骨架）中的 Actin 軌道上進行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myosin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d78379e0650d",
+    "subject": "Myosin",
+    "predicate": "expressed_in",
+    "object": "Cardiomyocytes",
+    "context": {
+      "en-US": "Cardiomyocytes express sarcomeric myosin II, which forms the contractile filaments of the sarcomere and generates the force underlying cardiomyocyte contraction in Heart and Muscle tissue.",
+      "zh-TW": "Cardiomyocytes（心肌細胞）表現肌節型 myosin II，其構成肌節的收縮絲，產生 Heart（心臟）與 Muscle（肌肉）組織中驅動心肌細胞收縮的力量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myosin.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "101890f5106f",
+    "subject": "Muscle",
+    "predicate": "uses",
+    "object": "Myosin",
+    "context": {
+      "en-US": "Muscle converts ATP into force via actin-Myosin crossbridges. Skeletal muscle drives locomotion, cardiac Muscle in the Heart drives perfusion, and smooth Muscle sets vascular tone — all through the same Myosin ATPase motor.",
+      "zh-TW": "Muscle（肌肉）透過 actin-Myosin 交叉橋將 ATP 轉換為力量。骨骼肌驅動移動，Heart（心臟）中的心肌驅動灌流，平滑肌調節血管張力——三者皆仰賴同一個 Myosin ATPase 馬達。"
+    },
+    "confidence": 0.95,
+    "source_document": "Muscle.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "12691f8222e7",
+    "subject": "Muscle",
+    "predicate": "stores",
+    "object": "Creatine",
+    "context": {
+      "en-US": "As the largest creatine-storage tissue, Muscle holds the body's Creatine pool, buffered above the ~20 mM saturation point by creatine synthesis and import through Creatine Transporters (CRTR)/SLC6A8. This reservoir supports ATP resynthesis during contraction.",
+      "zh-TW": "作為最大的肌酸儲存組織，Muscle（肌肉）維持體內的 Creatine（肌酸）儲備，並透過 Creatine Transporters (CRTR)/SLC6A8 的合成與輸入維持在約 20 mM 飽和點以上。這個儲備池支持收縮期間的 ATP 再合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Muscle.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "87cf4d064ea6",
+    "subject": "Muscle",
+    "predicate": "regulates",
+    "object": "Metabolism",
+    "context": {
+      "en-US": "Muscle is the largest glucose-disposal tissue and the major metabolic reservoir, so it dominates whole-body Metabolism. Because the dose that benefits muscle is well tolerated, Muscle also defines the practical hormetic exercise dosing used in Hormetic Window concepts.",
+      "zh-TW": "Muscle（肌肉）是最大的葡萄糖處置組織與主要代謝儲備池，因此在全身 Metabolism（代謝）中居於主導地位。由於對肌肉有益的劑量耐受性良好，Muscle 也實際上定義了 Hormetic Window（荷爾蒙.window 概念）所用的 hormetic 運動劑量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Muscle.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "d0c5b9c898ca",
+    "subject": "Heart",
+    "predicate": "is_a_type_of",
+    "object": "Muscle",
+    "context": {
+      "en-US": "Heart is a muscular pump organ whose force-generating output is delivered by cardiac Muscle built from Myosin-expressing cardiomyocytes. Like all Muscle, it converts ATP into work — here to propel systemic circulation.",
+      "zh-TW": "Heart（心臟）是一個肌肉幫浦器官，其產生力量的功能由表現 Myosin 的心肌細胞所構成的心肌 Muscle 執行。與所有 Muscle 相同，它將 ATP 轉換為功——在此用於推動全身循環。"
+    },
+    "confidence": 0.8,
+    "source_document": "Muscle.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "1a6ccbfb6595",
+    "subject": "Creatine Transporters (CRTR)",
+    "predicate": "transports",
+    "object": "Creatine",
+    "context": {
+      "en-US": "SLC6A8-encoded Creatine Transporters (CRTR) imports Creatine into Muscle, Heart, and brain against steep concentration gradients, making carrier-mediated uptake the rate-limiting step for tissue Creatine loading.",
+      "zh-TW": "由 SLC6A8 編碼的 Creatine Transporters (CRTR) 逆著陡峭的濃度梯度將 Creatine（肌酸）輸入 Muscle（肌肉）、Heart（心臟）與腦部，使載體介導的攝取成為組織 Creatine 載入的限速步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Muscle.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b75a6771b51b",
+    "subject": "MLH1",
+    "predicate": "is_a",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "MLH1 is a tumor suppressor of the repair-pathway class: germline loss causes Lynch syndrome, while somatic MLH1 promoter methylation produces microsatellite instability in sporadic colorectal and endometrial cancers.",
+      "zh-TW": "MLH1 屬於修復途徑類的腫瘤抑制基因：生殖系突變流失會造成 Lynch 症候群（遺傳性非息肉病大腸癌），而體細胞性 MLH1 啟動子甲基化則在散發性大腸癌與子宮內膜癌中產生微衛星不穩定。"
+    },
+    "confidence": 0.95,
+    "source_document": "MLH1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "dcabf2d3835f",
+    "subject": "MLH1",
+    "predicate": "contributes_to",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "MLH1 pairs with PMS2 as the MutLα mismatch-repair complex, excising base mismatches and insertion/deletion loops left by DNA Polymerase during replication. Its loss disables the DNA Repair branch that corrects these errors.",
+      "zh-TW": "MLH1 與 PMS2 組成 MutLα 錯配修復複合體，切除複製過程中由 DNA Polymerase 留下的鹼基錯配與插入／缺失環。MLH1 流失會使負責修正這些錯誤的 DNA Repair 分支失效。"
+    },
+    "confidence": 0.95,
+    "source_document": "MLH1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "63cf13dd4720",
+    "subject": "MLH1",
+    "predicate": "repairs",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "MLH1 is part of the MSH2/MSH6/MLH1/PMS2/EXO1 mismatch-repair machinery that corrects DNA Damage in the form of base-base mismatches and small insertion/deletion loops, the lesions that give rise to microsatellite instability when repair fails.",
+      "zh-TW": "MLH1 是 MSH2/MSH6/MLH1/PMS2/EXO1 錯配修復機制的一部分，可修正鹼基間錯配與小的插入／缺失環形式的 DNA Damage；當修復失效時，這些病灶即導致微衛星不穩定。"
+    },
+    "confidence": 0.9,
+    "source_document": "MLH1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "62697dea2814",
+    "subject": "Decitabine",
+    "predicate": "upregulates",
+    "object": "MLH1",
+    "context": {
+      "en-US": "Decitabine is a hypomethylating agent that can reactivate epigenetically silenced MLH1 by demethylating its promoter, restoring mismatch repair in tumors that lost MLH1 expression epigenetically rather than genetically.",
+      "zh-TW": "Decitabine 是一種去甲基化藥物，可透過使啟動子去甲基化而重新活化受到表觀遺傳沉默的 MLH1，讓以表觀遺傳（而非遺傳）方式喪失 MLH1 表現的腫瘤恢復錯配修復。"
+    },
+    "confidence": 0.9,
+    "source_document": "MLH1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "0069fdbc101d",
+    "subject": "DNA Polymerase",
+    "predicate": "generates",
+    "object": "MLH1",
+    "context": {
+      "en-US": "MLH1 exists to clean up after DNA Polymerase: replicative polymerases leave base mismatches and insertion/deletion loops, and the MutLα complex removes these errors before they become fixed mutations.",
+      "zh-TW": "MLH1 的存在正是為了清理 DNA Polymerase（DNA 聚合酶）留下的痕跡：複製型聚合酶會產生鹼基錯配與插入／缺失環，而 MutLα 複合體在這些錯誤固定為突變之前將其移除。"
+    },
+    "confidence": 0.75,
+    "source_document": "MLH1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "61dbbebae9f0",
+    "subject": "Lens Crystallins",
+    "predicate": "undergoes",
+    "object": "Glycation",
+    "context": {
+      "en-US": "Lens Crystallins have negligible turnover, so glycation adducts accumulate over decades. This makes them one of the canonical long-lived proteins carrying old AGE modifications, and the resulting opacity reads out whole-body long-lived-protein aging.",
+      "zh-TW": "Lens Crystallins（水晶蛋白）的周轉率極低，因此糖化加合物會在數十年內累積。這使它們成為帶有陳年 AGE 修飾的典型長壽蛋白，其 resulting 混濁可作為全身長壽蛋白老化的讀值。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lens Crystallins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3cc00e21f762",
+    "subject": "Lens Crystallins",
+    "predicate": "undergoes",
+    "object": "Racemization",
+    "context": {
+      "en-US": "Because Lens Crystallins are effectively permanent, their residues spontaneously racemize over decades. This non-enzymatic Racemization is a pure chemical clock on protein age that is independent of any enzymatic turnover.",
+      "zh-TW": "由於 Lens Crystallins（水晶蛋白）實質上是永久性的，其殘基會在數十年內自發地發生外消旋。這種非酵素性的 Racemization（外消旋）是獨立於任何酵素周轉的純化學蛋白年齡時鐘。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lens Crystallins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "51b804164ae9",
+    "subject": "Maillard Reaction",
+    "predicate": "modifies",
+    "object": "Lens Crystallins",
+    "context": {
+      "en-US": "Maillard Reaction browning chemistry progressively modifies Lens Crystallins with age, generating brown pigment and protein cross-links in the lens core. Together with Glycation adducts, this is the chemical driver of Lens Crystallins aggregation and cataract.",
+      "zh-TW": "Maillard Reaction（梅納反應／褐變化學）會隨年齡逐步修飾 Lens Crystallins（水晶蛋白），在晶狀體核心產生褐色色素與蛋白質交聯。與 Glycation（糖化）加合物共同構成 Lens Crystallins 聚集與白內障的化學驅動力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lens Crystallins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ee3da4f7f357",
+    "subject": "Lens Crystallins",
+    "predicate": "marks",
+    "object": "Aging",
+    "context": {
+      "en-US": "Lens Crystallins serve as a readout of Aging in long-lived proteins: with no meaningful turnover they integrate every modification over a lifetime, so failure of chaperone function and their precipitation into cataract report on cumulative protein damage. Oxidative Stress is a co-driver of that damage.",
+      "zh-TW": "Lens Crystallins（水晶蛋白）可作為長壽蛋白層次的 Aging（老化）讀值：由於沒有實質周轉，它們整合了一生中所有的修飾，因此伴護蛋白（chaperone）功能喪失及其凝聚形成白內障，即反映累積的蛋白損傷。Oxidative Stress（氧化壓力）是該損傷的共同驅動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lens Crystallins.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "4d56bf9dc5f7",
+    "subject": "Inflammatory Diseases",
+    "predicate": "is_driven_by",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Inflammatory Diseases such as Rheumatoid Arthritis, Inflammatory Bowel Disease, psoriasis, and Atherosclerosis arise when unresolved Inflammation persists — that is, when NF-κB-driven cytokine circuits fail to terminate.",
+      "zh-TW": "像 Rheumatoid Arthritis（類風濕性關節炎）、Inflammatory Bowel Disease（發炎性腸道疾病）、psoriasis（銀屑病）與 Atherosclerosis（動脈粥狀硬化）等 Inflammatory Diseases（發炎性疾病），都是當未解炎的 Inflammation（發炎）持續存在時產生——也就是當 NF-κB 驅動的細胞激素迴路無法終止時。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inflammatory Diseases.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a8b3b6dfec85",
+    "subject": "IKKbeta",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "IKKbeta is the kinase that activates NF-κB by phosphorylating its inhibitory IκB proteins, licensing their degradation and nuclear translocation. Inhibiting IKKbeta therefore blocks pro-inflammatory cytokine production in arthritis, IBD, and psoriasis, making it a therapeutic target in Inflammatory Diseases.",
+      "zh-TW": "IKKbeta 是透過磷酸化 NF-κB 的抑制性 IκB 蛋白（使其降解並可轉位入核）來活化 NF-κB 的激酶。因此抑制 IKKbeta 可阻斷類風濕性關節炎、IBD 與 psoriasis 中的促發炎細胞激素生成，使其成為 Inflammatory Diseases（發炎性疾病）的治療標的。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inflammatory Diseases.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a4c021e81c79",
+    "subject": "Selenium",
+    "predicate": "modulates",
+    "object": "Inflammatory Diseases",
+    "context": {
+      "en-US": "Selenium status modulates the oxidative inflammation that drives Inflammatory Diseases. As a cofactor for glutathione peroxidases, selenium availability changes how much oxidative damage inflammatory circuits sustain, and thereby modulates disease activity.",
+      "zh-TW": "Selenium（硒）的狀態會調節驅動 Inflammatory Diseases（發炎性疾病）的氧化性發炎。作為穀胱甘肽過氧化酶的輔因子，硒的可利用性會改變發炎迴路承受的氧化損傷程度，進而調節疾病活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inflammatory Diseases.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "daed4afcc2a9",
+    "subject": "Atherosclerosis",
+    "predicate": "is_a_type_of",
+    "object": "Inflammatory Diseases",
+    "context": {
+      "en-US": "Atherosclerosis is included among Inflammatory Diseases because arterial plaque initiation and progression are driven by inflammation rather than by lipid accumulation alone, making it a canonical example of an inflammation-driven chronic disease.",
+      "zh-TW": "Atherosclerosis（動脈粥狀硬化）被列為 Inflammatory Diseases（發炎性疾病）之一，因為動脈斑塊的起始與進展是由發炎驅動，而非單純由脂質堆積所致，因此它是發炎驅動的慢性疾病的典型例子。"
+    },
+    "confidence": 0.85,
+    "source_document": "Inflammatory Diseases.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "642664cb8663",
+    "subject": "Immunotherapy",
+    "predicate": "treats",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Immunotherapy treats Cancer by activating anti-tumor immunity rather than by directly killing tumor cells. Its modalities include checkpoint blockade (CTLA-4, PD-1/PD-L1), CAR-T and TIL cell therapies, bispecific engagers, and therapeutic vaccines.",
+      "zh-TW": "Immunotherapy（免疫療法）藉由活化抗腫瘤免疫而非直接殺傷腫瘤細胞來治療 Cancer（癌症）。其手段包含檢查點阻斷（CTLA-4、PD-1/PD-L1）、CAR-T 與 TIL 細胞療法、雙特異性接合分子，以及治療性疫苗。"
+    },
+    "confidence": 0.95,
+    "source_document": "Immunotherapy.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "e5678567138e",
+    "subject": "Immunotherapy",
+    "predicate": "uses",
+    "object": "Checkpoint Inhibitor",
+    "context": {
+      "en-US": "Checkpoint Inhibitors are the core modality of Immunotherapy: they release CTLA-4 and PD-1/PD-L1 brake signaling that suppresses antitumor T-cell activity, converting a chronically inflamed but immune-excluded tumor into one the immune system can clear.",
+      "zh-TW": "Checkpoint Inhibitor（檢查點抑制劑）是 Immunotherapy（免疫療法）的核心手段：它們解除抑制抗腫瘤 T 細胞活性的 CTLA-4 與 PD-1/PD-L1 煞車訊號，使長期發炎但免疫排斥的腫瘤轉為免疫系統可清除的腫瘤。"
+    },
+    "confidence": 0.95,
+    "source_document": "Immunotherapy.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b47c62ff9744",
+    "subject": "Immunotherapy",
+    "predicate": "combines_with",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "Immunotherapy is routinely combined with Chemotherapy, radiotherapy, and targeted agents. Chemotherapy supplies cytolytic tumor killing and antigen release, while chemotherapy-driven NAD+ loss shifts the metabolic context that influences treatment response.",
+      "zh-TW": "Immunotherapy（免疫療法）常與 Chemotherapy（化學治療）、放射治療與標靶藥物合併使用。化療提供細胞溶解性的腫瘤殺傷與抗原釋放，而化療造成的 NAD+ 流失則改變影響治療反應的代謝背景。"
+    },
+    "confidence": 0.9,
+    "source_document": "Immunotherapy.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "2f74118c6525",
+    "subject": "Checkpoint Inhibitor",
+    "predicate": "targets",
+    "object": "CTLA-4",
+    "context": {
+      "en-US": "CTLA-4 is one of the two checkpoint targets used by Immunotherapy. Antibody blockade of CTLA-4 removes inhibitory signaling from activated T cells at priming, and alongside PD-1/PD-L1 blockade it defines current checkpoint inhibitor therapy.",
+      "zh-TW": "CTLA-4 是 Immunotherapy（免疫療法）所使用的兩個檢查點標的之一。以抗體阻斷 CTLA-4 可移除活化的 T 細胞在活化階段的抑制訊號，並與 PD-1/PD-L1 阻斷共同構成現行檢查點抑制劑療法的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Immunotherapy.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c251c9accaec",
+    "subject": "Th2",
+    "predicate": "upregulates",
+    "object": "IgE",
+    "context": {
+      "en-US": "Th2-polarized CD4+ T cells produce the IL-4 and IL-13 signals that drive B-cell class switching to IgE. Without this Th2 instruction, allergy-driving IgE production collapses, which is why Th2 cells are the therapeutic target in IgE-mediated disease.",
+      "zh-TW": "Th2 極化的 CD4+ T 細胞產生 IL-4 與 IL-13 訊號，驅動 B 細胞進行 IgE 類別轉換。若缺乏這道 Th2 指令，造成過敏的 IgE 生產便會崩潰，因此 Th2 細胞是 IgE 媒介疾病中的治療標的。"
+    },
+    "confidence": 0.95,
+    "source_document": "IgE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "830a4a6ca673",
+    "subject": "IL-13",
+    "predicate": "promotes",
+    "object": "IgE",
+    "context": {
+      "en-US": "IL-13 promotes IgE class switching in B Cell alongside M2 macrophage polarization, linking type-2 immune programs to both humoral allergy and tissue repair.",
+      "zh-TW": "IL-13 與 M2 巨噬細胞極化並肩，促進 B Cell（細胞）進行 IgE 類別轉換，將第二型免疫程序同時連結至體液性過敏與組織修復。"
+    },
+    "confidence": 0.9,
+    "source_document": "IgE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c475e621661e",
+    "subject": "STAT6",
+    "predicate": "promotes",
+    "object": "IgE",
+    "context": {
+      "en-US": "STAT6 is the transcription factor that transduces IL-4/IL-13 receptor signaling toward IgE production, binding the switch region during class switching together with the Th2 lineage regulator GATA3.",
+      "zh-TW": "STAT6 是將 IL-4/IL-13 受體訊號傳遞至 IgE 生產的轉錄因子，在類別轉換期間與 Th2 譜系調節因子 GATA3 一起結合轉換區（switch region）。"
+    },
+    "confidence": 0.9,
+    "source_document": "IgE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "6968c2878426",
+    "subject": "IgE",
+    "predicate": "activates",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "IgE mediates allergy and anti-parasite immunity: it arms mast cells and basophils through FcεRI, and allergen crosslinking of receptor-bound IgE triggers histamine release and the allergic inflammation cascade.",
+      "zh-TW": "IgE 媒介過敏與抗寄生蟲免疫：它透過 FcεRI 為肥大細胞與嗜鹼性球武裝，而受體結合的 IgE 被過敏原交聯時，即觸發組織胺釋放與過敏性發炎級聯反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "IgE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "42b69a76db3e",
+    "subject": "B Cell",
+    "predicate": "produces",
+    "object": "IgE",
+    "context": {
+      "en-US": "IgE is the antibody isotype that B Cell produce after IL-4/IL-13-driven class switching; this irreversible switch commits the B cell line to allergy-mediating antibody output.",
+      "zh-TW": "IgE 是 B Cell（B 細胞）在 IL-4/IL-13 驅動類別轉換後所產生的抗體同型；這個不可逆的轉換使該 B 細胞系專職製造媒介過敏的抗體。"
+    },
+    "confidence": 0.9,
+    "source_document": "IgE.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "44bf50be9586",
+    "subject": "IRE1",
+    "predicate": "splices",
+    "object": "XBP1",
+    "context": {
+      "en-US": "IRE1 uses its RNase domain to splice XBP1 mRNA, producing the XBP1s transcription factor that expands ER folding capacity. It is one of three proximal UPR sensors, alongside PERK and ATF6.",
+      "zh-TW": "IRE1 利用其 RNase 結構域剪接 XBP1 mRNA，產生可擴大內質網摺疊能力的 XBP1s 轉錄因子。它是三個近端 UPR 感測器之一，與 PERK 及 ATF6 並列。"
+    },
+    "confidence": 0.95,
+    "source_document": "IRE1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "63b3994b1044",
+    "subject": "IRE1",
+    "predicate": "is_induced_by",
+    "object": "ER Stress",
+    "context": {
+      "en-US": "IRE1 is activated by ER Stress: accumulation of unfolded proteins in the lumen triggers its kinase/RNase activity, launching the unfolded protein response branch that restores proteostasis. IRE1α, PERK, and ATF6 branches are also engaged as hormetic proteostasis responses.",
+      "zh-TW": "IRE1 由 ER Stress（內質網壓力）活化：腔內未摺疊蛋白累積會觸發其激酶／RNase 活性，啟動恢復蛋白質穩定性的未摺疊蛋白反應分支。IRE1α、PERK 與 ATF6 分支也會作為 hormetic 蛋白穩定性反應而被啟動。"
+    },
+    "confidence": 0.9,
+    "source_document": "IRE1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "4afd86a61566",
+    "subject": "IRE1",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "When ER stress is unresolved, persistent IRE1 signaling flips toward Apoptosis via JNK. IRE1 therefore acts as the switch between adaptive UPR restoration and pro-death signaling.",
+      "zh-TW": "當內質網壓力未解時，持續的 IRE1 訊號會經由 JNK 轉向 Apoptosis（細胞凋亡）。因此 IRE1 扮演了適應性 UPR 修復與促死亡訊號之間的轉換開關。"
+    },
+    "confidence": 0.85,
+    "source_document": "IRE1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "9deb5221a00b",
+    "subject": "IRE1",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "The PERK/ATF6/IRE1 triad couples ER Stress to Autophagy induction, so IRE1 is part of the link between proteostasis sensing and the autophagic clearance arm of the stress response.",
+      "zh-TW": "PERK/ATF6/IRE1 三聯體將 ER Stress（內質網壓力）與 Autophagy（自噬）的啟動耦合，因此 IRE1 是蛋白穩定性感測與壓力反應中自噬清除分支之間的連結之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "IRE1.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "2ab12e2f529a",
+    "subject": "Cardiomyocytes",
+    "predicate": "is_a_type_of",
+    "object": "Muscle",
+    "context": {
+      "en-US": "Cardiomyocytes are the contractile Muscle cells of the Heart, expressing sarcomeric myosin II and generating the force that propels circulation under autonomic and hormonal control.",
+      "zh-TW": "Cardiomyocytes（心肌細胞）是 Heart（心臟）中具收縮功能的 Muscle（肌肉）細胞，表現肌節型 myosin II，在自主神經與荷爾蒙調控下產生推動循環的力量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heart.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "6cbe9e790c6c",
+    "subject": "Heart",
+    "predicate": "contains",
+    "object": "Cardiomyocytes",
+    "context": {
+      "en-US": "Heart propels circulation via atrial and ventricular Cardiomyocytes under autonomic and hormonal control. These Myosin-expressing contractile cells are the structural and functional core of the organ.",
+      "zh-TW": "Heart（心臟）透過心房與心室的 Cardiomyocytes（心肌細胞）在自主神經與荷爾蒙調控下推動循環。這些表現 Myosin 的收縮細胞構成了該器官的結構與功能核心。"
+    },
+    "confidence": 0.95,
+    "source_document": "Heart.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b6e4e8a0b867",
+    "subject": "Heart",
+    "predicate": "produces",
+    "object": "Atrial natriuretic peptide",
+    "context": {
+      "en-US": "Heart releases Atrial natriuretic peptide when atrial cardiomyocytes are stretched. ANP acts through cGMP signaling to unload volume, providing a hormonal counterweight to the sympathetic drive on the Heart.",
+      "zh-TW": "當心房心肌細胞受到牽張時，Heart（心臟）會釋放 Atrial natriuretic peptide（心房利鈉胜肽）。ANP 透過 cGMP 訊號卸除體液量，對心臟的交感神經驅動形成荷爾蒙層面的對沖。"
+    },
+    "confidence": 0.95,
+    "source_document": "Heart.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "9912915d7e99",
+    "subject": "Heart",
+    "predicate": "has",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "Heart is assigned a moderate Hormetic Window: cardiac mitochondria and high SIRT3 set a mid-range dose-response, but because Heart is a low-regeneration tissue comparable to Brain, its preconditioning dosing window is narrow.",
+      "zh-TW": "Heart（心臟）被賦予一個中等程度的 Hormetic Window（hormesis 劑量窗口）：心臟粒線體與高量 SIRT3 設定了中等範圍的劑量反應，但由於心臟是與 Brain（腦）相當的低再生組織，其預適應（preconditioning）劑量窗口很窄。"
+    },
+    "confidence": 0.85,
+    "source_document": "Heart.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b6df6fd2046e",
+    "subject": "Heart",
+    "predicate": "requires",
+    "object": "Metabolism",
+    "context": {
+      "en-US": "Heart function depends on continuous oxidative Metabolism, since cardiomyocytes have negligible glycogen reserve and must extract ATP from circulating fuels in every contraction cycle. Metabolic failure, as in Cardiac arrest, is therefore immediately lethal.",
+      "zh-TW": "Heart（心臟）功能仰賴持續的氧化性 Metabolism（代謝），因為心肌細胞的肝醣儲備微乎其微，必須在每個收縮週期中從循環中的燃料萃取 ATP。因此代謝失敗（如 Cardiac arrest 心跳驟停）會立即致命。"
+    },
+    "confidence": 0.85,
+    "source_document": "Heart.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ab340dff5bcc",
+    "subject": "DNMT1",
+    "predicate": "maintains",
+    "object": "Genomic Imprinting",
+    "context": {
+      "en-US": "DNMT1 is the maintenance methyltransferase that copies parental-origin methylation at imprinting control regions through mitosis, preserving Genomic Imprinting marks in every daughter cell.",
+      "zh-TW": "DNMT1 是維持型甲基轉移酶，透過有絲分裂複製親代來源在 imprinting 控制區（ICR）的甲基化，在每個子細胞中保存 Genomic Imprinting（基因組印記）標記。"
+    },
+    "confidence": 0.95,
+    "source_document": "Genomic Imprinting.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "a095e7dd3ff5",
+    "subject": "Genomic Imprinting",
+    "predicate": "is_mediated_by",
+    "object": "DNA Methylation",
+    "context": {
+      "en-US": "Genomic Imprinting silences one parental allele through germline DNA Methylation at imprinting control regions, producing parent-of-origin-specific expression from IGF2/H19 and 15q11-q13 clusters.",
+      "zh-TW": "Genomic Imprinting（基因組印記）透過在 imprinting 控制區（ICR）進行生殖系 DNA Methylation（DNA 甲基化）來沉默其中一個親代等位基因，使 IGF2/H19 與 15q11-q13 叢集呈現親代來源特異性的表現。"
+    },
+    "confidence": 0.95,
+    "source_document": "Genomic Imprinting.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f08f1a8f6b2b",
+    "subject": "Genomic Imprinting",
+    "predicate": "is_maintained_by",
+    "object": "Histone Deacetylase",
+    "context": {
+      "en-US": "Histone Deacetylase cooperates with DNA Methylation to maintain imprinted silencing, providing the chromatin arm that reinforces parent-of-origin-specific repression after the imprint is set.",
+      "zh-TW": "Histone Deacetylase（組蛋白去乙醯化酶）與 DNA Methylation 協同維持印記沉默，提供染色質層面的機制，在印記設定後強化親代來源特異性的抑制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Genomic Imprinting.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "fd893789f3ae",
+    "subject": "Genomic Imprinting",
+    "predicate": "regulates",
+    "object": "miR-543",
+    "context": {
+      "en-US": "Genomic Imprinting governs miR-543 and other noncoding RNAs at the DLK1-DIO3 locus, which are expressed exclusively from one parental allele, making their abundance a readout of imprinting integrity.",
+      "zh-TW": "Genomic Imprinting（基因組印記）調控 DLK1-DIO3 位點的 miR-543 及其他非編碼 RNA，它們僅由其中一個親代等位基因表現，因此其含量可作為印記完整性的讀值。"
+    },
+    "confidence": 0.85,
+    "source_document": "Genomic Imprinting.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "dd6f32b1382b",
+    "subject": "FGF",
+    "predicate": "is_a_type_of",
+    "object": "Growth Factor",
+    "context": {
+      "en-US": "FGF is one of the major growth factor families (with EGF, PDGF, VEGF, IGF, HGF, TGFβ). Its 22 members signal through FGFR tyrosine kinases to activate RAS/MAPK cascades driving proliferation, Cell Migration, and tissue repair.",
+      "zh-TW": "FGF（纖維母細胞生長因子）是主要生長因子家族之一（與 EGF、PDGF、VEGF、IGF、HGF、TGFβ 並列）。其 22 個成員透過 FGFR 酪胺酸激酶傳遞訊號，啟動 RAS/MAPK 級聯以驅動增殖、Cell Migration（細胞遷移）與組織修復。"
+    },
+    "confidence": 0.95,
+    "source_document": "FGF.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "7f3d84d75874",
+    "subject": "FGF",
+    "predicate": "drives",
+    "object": "Cell Migration",
+    "context": {
+      "en-US": "FGF gradients drive Cell Migration: FGFR signaling establishes polarity and traction in migratory cells, and in stem-cell niches within the Basal Lamina FGF gradients are what retain progenitors in place.",
+      "zh-TW": "FGF 梯度驅動 Cell Migration（細胞遷移）：FGFR 訊號在移動細胞中建立極性與牽引力，而在 Basal Lamina（基底板）內的幹細胞 niche 中，FGF 梯度正是將前驅細胞留在原處的力量。"
+    },
+    "confidence": 0.9,
+    "source_document": "FGF.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "680fcd4fec87",
+    "subject": "FGF21",
+    "predicate": "is_a_type_of",
+    "object": "FGF",
+    "context": {
+      "en-US": "FGF21 is a member of the FGF19 subfamily whose canonical FGFs act locally in paracrine fashion, whereas FGF21 functions as an endocrine hormone regulating metabolism and acting as a mitokine in mitochondrial stress.",
+      "zh-TW": "FGF21 是 FGF（纖維母細胞生長因子）FGF19 次家族的成員；典型 FGF 以旁分泌方式在局部作用，而 FGF21 則作為內分泌激素調節代謝，並在粒線體壓力下作為促分裂激素（mitokine）作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "FGF.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c3d67bab054c",
+    "subject": "Enterocloster",
+    "predicate": "is_a_type_of",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "Enterocloster is a genus of anaerobic gut bacteria and thus a member of the Gut Microbiome. Which species are present determines which ellagitannin-to-urolithin conversion steps can occur, underpinning metabotype A, B, and 0 variability.",
+      "zh-TW": "Enterocloster 是厭氧腸道菌的一個屬，因此是 Gut Microbiome（腸道菌群）的成員。存在哪些菌種決定了哪些 ellagitannin 轉為 urolithin 的步驟能夠發生，構成 metabotype A、B 與 0 變異的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Enterocloster.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "6fcd268732d7",
+    "subject": "Enterocloster",
+    "predicate": "converts_to",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Select Enterocloster species contribute to the multi-step conversion of dietary Ellagic acid toward Urolithin A, working alongside the principal converters Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens.",
+      "zh-TW": "部分 Enterocloster 菌種參與將膳食 Ellagic acid（鞣花酸）轉為 Urolithin A（尿脂素 A）的多步驟轉換，與主要轉換菌 Gordonibacter urolithinfaciens 及 Ellagibacter isourolithinifaciens 共同作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Enterocloster.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b642f883f516",
+    "subject": "Enterocloster",
+    "predicate": "cooperates_with",
+    "object": "Gordonibacter urolithinfaciens",
+    "context": {
+      "en-US": "Gordonibacter urolithinfaciens is the principal converter in the urolithin A pathway, and Enterocloster supplies complementary metabolic steps. Neither organism alone completes the ellagitannin-to-Urolithin A route, which is why both must be present.",
+      "zh-TW": "Gordonibacter urolithinfaciens 是尿脂素 A 途徑中的主要轉換菌，而 Enterocloster 提供互補的代謝步驟。兩者單獨皆無法完成由 ellagitannin 到 Urolithin A 的路徑，因此兩者都必須存在。"
+    },
+    "confidence": 0.85,
+    "source_document": "Enterocloster.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "5d3a8e44488f",
+    "subject": "Enterocloster",
+    "predicate": "cooperates_with",
+    "object": "Ellagibacter isourolithinifaciens",
+    "context": {
+      "en-US": "Ellagibacter isourolithinifaciens is a principal urolithin A converter whose steps complement those supplied by Enterocloster species; together their activity determines the rate at which Ellagic acid becomes Urolithin A.",
+      "zh-TW": "Ellagibacter isourolithinifaciens 是主要的尿脂素 A 轉換菌，其步驟與 Enterocloster 菌種提供的步驟互補；兩者的活性共同決定 Ellagic acid 轉為 Urolithin A 的速率。"
+    },
+    "confidence": 0.85,
+    "source_document": "Enterocloster.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "ed71ddbf6e48",
+    "subject": "EP300",
+    "predicate": "is_a",
+    "object": "Histone Acetyltransferase",
+    "context": {
+      "en-US": "EP300 (E1A binding protein p300) is a histone acetyltransferase and transcriptional coactivator encoded by the EP300 gene. It acetylates H3K9ac-marked chromatin and is recruited by p53, NF-kB, and nuclear receptors to activate transcription.",
+      "zh-TW": "EP300（E1A 結合蛋白 p300）是由 EP300 基因編碼的 Histone Acetyltransferase（組蛋白乙醯化轉移酶）與轉錄共同活化因子。它乙醯化帶有 H3K9ac 標記的染色質，並由 p53、NF-kB 與核受體招募以活化轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "EP300.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "3eaf7fc054e7",
+    "subject": "EP300",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "EP300 normally keeps cytoplasmic Autophagy-related proteins — ATG5, ATG7, ATG12, and LC3 — acetylated and inactive. Removing that acetyl brake (as Spermidine does) drives mTOR-independent autophagic flux.",
+      "zh-TW": "EP300 正常情況下會讓細胞質中的 Autophagy（自噬）相關蛋白——ATG5、ATG7、ATG12 與 LC3——維持乙醯化而不活化。移除此乙醯化煞車（如 Spermidine 所做）即可驅動不依賴 mTOR 的自噬通量。"
+    },
+    "confidence": 0.9,
+    "source_document": "EP300.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "8e14c366f684",
+    "subject": "EP300",
+    "predicate": "acetylates",
+    "object": "LC3",
+    "context": {
+      "en-US": "EP300 acetylates non-histone substrates including LC3, p53, and ATG proteins. Acetylated LC3 is functionally inactive, so LC3 hypoacetylation is the direct readout of EP300 inhibition and the proximal event that permits autophagosome formation.",
+      "zh-TW": "EP300 會乙醯化包括 LC3、p53 與 ATG 蛋白在內的非組蛋白受質。乙醯化的 LC3 在功能上不活化，因此 LC3 低乙醯化是 EP300 抑制的直接讀值，也是允許自噬體形成的近端事件。"
+    },
+    "confidence": 0.9,
+    "source_document": "EP300.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "83b57429cc31",
+    "subject": "EP300",
+    "predicate": "competes_with",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "EP300 functionally opposes SIRT1 at shared promoters (AR, BRCA1, EZH2 loci), where EP300 writes acetyl marks and SIRT1 removes them. The acetylation state of those loci therefore integrates nutrient and NAD+ status with transcription.",
+      "zh-TW": "EP300 在共享的啟動子（AR、BRCA1、EZH2 位點）上與 SIRT1 功能上相互對抗：EP300 寫入乙醯化標記，SIRT1 則將其移除。這些位點的乙醯化狀態因此整合了營養與 NAD+ 狀態與轉錄調控。"
+    },
+    "confidence": 0.85,
+    "source_document": "EP300.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "17dd1d630773",
+    "subject": "EP300",
+    "predicate": "acetylates",
+    "object": "p53",
+    "context": {
+      "en-US": "Beyond chromatin, EP300 acetylates p53 as a non-histone substrate, tuning apoptosis and senescence decisions; it is also functionally opposed by deacetylases such as SIRT1 at loci it coactivates.",
+      "zh-TW": "除了染色質之外，EP300 也將 p53 作為非組蛋白受質進行乙醯化，藉此調節細胞凋亡與細胞衰老（senescence）的決策；它也會在自身共同活化的位點上與 SIRT1 等去乙醯化酶功能上對抗。"
+    },
+    "confidence": 0.9,
+    "source_document": "EP300.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "7465ec036c73",
+    "subject": "Down Syndrome",
+    "predicate": "is_a_type_of",
+    "object": "Trisomy",
+    "context": {
+      "en-US": "Down Syndrome is trisomy 21, a numerical chromosomal abnormality produced when meiotic nondisjunction adds a third copy of Chromosome 21. The extra gene dosage, not any point mutation, underlies the phenotype.",
+      "zh-TW": "Down Syndrome（唐氏症）是三染色體 21，一種數目性的染色體異常，由減數分裂時的不分離（nondisjunction）加入第三份 Chromosome（染色體）21 所造成。其表型基礎是基因劑量增加，而非任何點突變。"
+    },
+    "confidence": 0.95,
+    "source_document": "Down Syndrome.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c2fa379c639d",
+    "subject": "APP",
+    "predicate": "produces",
+    "object": "Beta-amyloid",
+    "context": {
+      "en-US": "APP is the amyloid precursor protein whose processing yields Beta-amyloid. Because Down Syndrome carries a third APP copy, APP is overexpressed roughly 1.5-fold, producing lifelong Beta-amyloid overproduction and Alzheimer-type pathology by age 40.",
+      "zh-TW": "APP 是類澱粉前驅蛋白，其切割會產生 Beta-amyloid（β-類澱粉蛋白）。由於 Down Syndrome 多一份 APP 副本，APP 的表現量約增加 1.5 倍，造成終生的 Beta-amyloid 過度生成，並在 40 歲前出現類阿茲海默病理。"
+    },
+    "confidence": 0.9,
+    "source_document": "Down Syndrome.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "8c6034f8402e",
+    "subject": "APP",
+    "predicate": "is_overexpressed_in",
+    "object": "Down Syndrome",
+    "context": {
+      "en-US": "APP is overexpressed in Down Syndrome at roughly 1.5-fold because of gene triplication, causing third-decade Beta-amyloid accumulation. This makes Down Syndrome a natural experiment in accelerated Aβ-driven neurodegeneration.",
+      "zh-TW": "APP 在 Down Syndrome（唐氏症）中因基因三倍化而約以 1.5 倍量過度表現，導致第三個十年便出現 Beta-amyloid（β-類澱粉蛋白）累積。這使 Down Syndrome 成為 Aβ 驅動神經退化加速的一個自然實驗。"
+    },
+    "confidence": 0.9,
+    "source_document": "Down Syndrome.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "77cad349f07b",
+    "subject": "Down Syndrome",
+    "predicate": "accelerates",
+    "object": "Epigenetic Aging",
+    "context": {
+      "en-US": "Down Syndrome is a natural model of segmental progeria: alongside early Senescence and immune dysregulation, epigenetic age acceleration is well documented, driven by the same Aβ burden that produces its Alzheimer pathology.",
+      "zh-TW": "Down Syndrome（唐氏症）是節段性早老症（segmental progeria）的天然模型：除了提早出現 Senescence（細胞衰老）與免疫失調之外，其表觀遺傳年齡加速亦已有充分文獻支持，並由與其阿茲海默病理相同的 Aβ 負擔所驅動。"
+    },
+    "confidence": 0.85,
+    "source_document": "Down Syndrome.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "c226467a28b8",
+    "subject": "Down Syndrome",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Down Syndrome tissues display premature Senescence alongside immune dysregulation and early aging phenotypes, so the disorder is used as a human model of accelerated aging rather than merely of neurodegeneration.",
+      "zh-TW": "Down Syndrome（唐氏症）的組織會出現早發的 Senescence（細胞衰老），並伴隨免疫失調與提早老化表型，因此此疾病被當作加速老化的人類模型，而不只是神經退化的模型。"
+    },
+    "confidence": 0.85,
+    "source_document": "Down Syndrome.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "594abc7c1b8c",
+    "subject": "BrdU",
+    "predicate": "is_incorporated_by",
+    "object": "DNA Polymerase",
+    "context": {
+      "en-US": "BrdU is a thymidine analog that competes with endogenous thymidine for incorporation by DNA Polymerase during replicative synthesis. Because it is only incorporated into actively dividing cells, it is the basis of proliferation labeling.",
+      "zh-TW": "BrdU 是胸腺嘧啶核苷類似物，在複製合成過程中與內源性胸腺嘧啶核苷競爭 DNA Polymerase（DNA 聚合酶）的Incorporation（摻入）。由於它只會被摻入正在分裂的細胞，因此成為細胞增殖標定的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Polymerase.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "f5ba49b3d078",
+    "subject": "Clofarabine",
+    "predicate": "inhibits",
+    "object": "DNA Polymerase",
+    "context": {
+      "en-US": "Clofarabine poisons DNA Polymerase: the nucleoside analog incorporates into DNA and then terminates chain elongation, giving a triple threat on DNA metabolism together with ribonucleotide reductase inhibition and direct incorporation.",
+      "zh-TW": "Clofarabine 會毒害 DNA Polymerase（DNA 聚合酶）：此核苷類似物摻入 DNA 後即終止鏈延長，與抑制核糖核苷酸還原酶及直接摻入共同構成對 DNA 代謝的三重打擊。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Polymerase.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b80444302ac2",
+    "subject": "Hydroxyurea",
+    "predicate": "inhibits",
+    "object": "DNA Polymerase",
+    "context": {
+      "en-US": "Hydroxyurea stalls DNA Polymerase indirectly: by inhibiting ribonucleotide reductase it depletes dNTP pools, so replicative synthesis halts at replication forks. This indirect route makes it a mechanistic probe of nucleotide supply.",
+      "zh-TW": "Hydroxyurea（羥基脲）以間接方式使 DNA Polymerase（DNA 聚合酶）停滯：它抑制核糖核苷酸還原酶而耗盡 dNTP 池，使複製合成在複製叉處停止。這條間接途徑使其成為研究核苷酸供應的機制探針。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Polymerase.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "b1485abab85d",
+    "subject": "ribonucleotide reductase",
+    "predicate": "is_required_for",
+    "object": "DNA Polymerase",
+    "context": {
+      "en-US": "ribonucleotide reductase supplies the deoxynucleotide triphosphates that DNA Polymerase consumes during synthesis, so it sets the rate of replicative DNA production. Inhibiting it, as Hydroxyurea does, stalls every DNA Polymerase at its fork.",
+      "zh-TW": "ribonucleotide reductase（核糖核苷酸還原酶）供應 DNA Polymerase（DNA 聚合酶）在合成過程中消耗的去氧核苷三磷酸，因此它決定了複製性 DNA 產生的速率。抑制它（如 Hydroxyurea 所做）會使每個 DNA Polymerase 都在複製叉處停滯。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Polymerase.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "cf0fbd9c6dd0",
+    "subject": "DNA Polymerase",
+    "predicate": "is_required_for",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "Specialized DNA Polymerases carry out repair synthesis: Pol β fills single-strand breaks, while Pol γ replicates mitochondrial DNA and dedicated polymerases perform translesion synthesis across damaged bases. Mismatch repair such as MLH1 removes the errors polymerases leave behind.",
+      "zh-TW": "專一的 DNA Polymerase（DNA 聚合酶）負責修復合成：Pol β 填補單股斷裂，Pol γ 複製粒線體 DNA，另有專門聚合酶在受損鹼基上進行跨損傷合成（translesion synthesis）。而像 MLH1 這類的錯配修復則移除聚合酶留下的錯誤。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Polymerase.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
+  },
+  {
+    "id": "825e143b3479",
+    "subject": "S Phase",
+    "predicate": "requires",
+    "object": "DNA Polymerase",
+    "context": {
+      "en-US": "S Phase is defined by replicative DNA synthesis, carried out by Pol δ and Pol ε in eukaryotes. Because DNA Polymerase only works during this window, thymidine analogs like BrdU mark proliferating cells.",
+      "zh-TW": "S Phase（合成期）以複製性 DNA 合成為定義，在真核生物中由 Pol δ 與 Pol ε 執行。由於 DNA Polymerase 只在此窗口作用，類似 BrdU 的胸腺嘧啶核苷類似物才可標記增殖中的細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Polymerase.md",
+    "created": "2026-09-27T03:37:54Z",
+    "updated": "2026-09-27T03:37:54Z"
   }
 ]
