@@ -28,6 +28,22 @@
 
   .h1-sub { font-weight: 400; color: var(--mute); }
 
+  /* ---- card icons (24x24 stroke, matching pages-svg.js house style) ---- */
+  .ico {
+    width: 18px; height: 18px; flex: 0 0 auto;
+    fill: none; stroke: currentColor; stroke-width: 1.6;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
+  .gate-head .ico { width: 19px; height: 19px; color: var(--oxblood); align-self: center; }
+  .rx-list .ico { width: 17px; height: 17px; margin-top: 1px; color: var(--slate); }
+  .action .ico { width: 18px; height: 18px; align-self: center; }
+  .action.s-harm .ico { color: var(--sev-harm); }
+  .action.s-blind .ico { color: var(--sev-blind); }
+  .action.s-under .ico { color: var(--sev-under); }
+  .action.s-miss .ico, .action.s-benefit .ico { color: var(--sev-miss); }
+  .action.s-neutral .ico { color: var(--mute); }
+  .action.s-unknown .ico { color: var(--sev-unknown); }
+
   /* Hero: source documents as one running paragraph. Sans at reading size with
      mono filenames, so the links read as citations rather than as a list. */
   .src-docs {
@@ -1017,7 +1033,7 @@ var CONSEQUENTIAL = { harm: 1, blind: 1, under: 1, miss: 1 };
 
 var THERAPIES = [
   {
-    id: "vite", dom: "抗氧化劑組合", name: "高劑量 α-生育酚（維生素 E）", gate: "comt", grade: "A",
+    id: "vite", ico: "d_antiox", dom: "抗氧化劑組合", name: "高劑量 α-生育酚（維生素 E）", gate: "comt", grade: "A",
     map: {
       VV: ["harm", "在 50 IU/日與 600 IU 隔日兩種劑量下均與癌症發生率增加相關（HR 1.18，95% CI 1.06–1.31）。此關聯在 400 IU/日門檻以下即已存在，因此將劑量降至該水準並不能減輕。rs4818 G/G 有一致結果（HR 1.29）。"],
       VM: ["neutral", "在合併的基因劑量分析中無顯著交互作用。"],
@@ -1025,7 +1041,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "ellagitannin", dom: "粒線體組合", name: "飲食性鞣花酸（石榴、核桃、草莓）", gate: "urolithin", grade: "A",
+    id: "ellagitannin", ico: "d_mito", dom: "粒線體組合", name: "飲食性鞣花酸（石榴、核桃、草莓）", gate: "urolithin", grade: "A",
     map: {
       A: ["benefit", "受質被轉換為尿石素 A，即已發表試驗所使用的代謝物。飲食途徑有效。"],
       B: ["blind", "產生的是異尿石素 A 與 uro-B。此為與已發表試驗所用代謝物不同的化合物，其藥理學特性大多尚未描述。"],
@@ -1033,7 +1049,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "rapamycin", dom: "mTOR／自噬", name: "Rapamycin（sirolimus）或 mTORC1 導向組合", gate: "cyp3a5", grade: "B",
+    id: "rapamycin", ico: "d_mtor", dom: "mTOR／自噬", name: "Rapamycin（sirolimus）或 mTORC1 導向組合", gate: "cyp3a5", grade: "B",
     map: {
       exp: ["under", "在固定低劑量下清除迅速，給藥間隔的大部分時間低於與標的結合相關的曝露。此類患者會被記錄為某個在充分曝露下有效之藥物的無反應者。此為藥物動力學而非藥理學的發現。"],
       nonexp: ["benefit", "曝露量符合預期。在將患者歸類為無反應者之前，仍應測量谷濃度與 p70S6K1 Thr389 抑制量。"],
@@ -1041,7 +1057,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "mrr", dom: "氧化還原方案", name: "醌類氧化還原方案（methylene blue 加 carbazochrome，以 aminoguanidine 終止）", gate: "nqo1", grade: "A",
+    id: "mrr", ico: "d_redox", dom: "氧化還原方案", name: "醌類氧化還原方案（methylene blue 加 carbazochrome，以 aminoguanidine 終止）", gate: "nqo1", grade: "A",
     map: {
       CC: ["benefit", "經二電子還原為穩定氫醌。氧化還原訊號可依設計給予並終止。"],
       CT: ["benefit", "活性約降低三倍但路徑完整；同一途徑以較小幅度運作。"],
@@ -1049,7 +1065,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "estrogen", dom: "內分泌", name: "全身性荷爾蒙補充療法，或 SIRT3 導向的心臟／粒線體介入", gate: "sex", grade: "A",
+    id: "estrogen", ico: "d_endo", dom: "內分泌", name: "全身性荷爾蒙補充療法，或 SIRT3 導向的心臟／粒線體介入", gate: "sex", grade: "A",
     map: {
       xxpre: ["neutral", "Estrogen 維持於生理濃度。需考量的是預期的停經軌跡，而非當下的補充。"],
       xxpost: ["miss", "停經造成的 estrogen 下降伴隨 SIRT3、SIRT1 與 MnSOD 活性同時降低，並有具性別特異性的心臟老化表現（老年女性心室的 SIRT1、SIRT3、SOD2 下降，伴 NF-κB 活化與巨噬細胞累積）。無傳統適應症的停經後 XX 個體並未被納入 SIRT3 導向介入的常規考量。"],
@@ -1059,7 +1075,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "sun", dom: "曝露／預防", name: "日曬與日光浴決策，或 MC1R 促效神經保護", gate: "mc1r", grade: "A",
+    id: "sun", ico: "d_expo", dom: "曝露／預防", name: "日曬與日光浴決策，或 MC1R 促效神經保護", gate: "mc1r", grade: "A",
     map: {
       R: ["harm", "黑色素在合成時產生活性氧並耗 glutathione，因此在任何 UV 曝露之前基期氧化負荷即已升高。僅依據皮膚型態給予的建議，低估了約兩倍的與 UV 無關風險（帶兩個以上變異者 OR 2.13）。"],
       r: ["neutral", "受體功能降低，但未伴隨 R 類等位基因的氧化產物增加。"],
@@ -1067,7 +1083,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "iron", dom: "鐵死亡／氧化還原", name: "僅使用抗氧化劑的方案，或與鐵死亡相關的方案", gate: "hfe", grade: "A",
+    id: "iron", ico: "d_ferro", dom: "鐵死亡／氧化還原", name: "僅使用抗氧化劑的方案，或與鐵死亡相關的方案", gate: "hfe", grade: "A",
     map: {
       cc: ["neutral", "仍應直接測量鐵狀態。此族群沒有孟德爾遺傳學上的理由預期鐵死亡閾值改變。"],
       het: ["neutral", "單一異合基因型：鐵處理多在正常範圍內。"],
@@ -1076,7 +1092,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "keto", dom: "飲食／認知", name: "以生酮或 MCT／飽和脂肪飲食策略改善認知", gate: "apoe", grade: "B",
+    id: "keto", ico: "d_dietcog", dom: "飲食／認知", name: "以生酮或 MCT／飽和脂肪飲食策略改善認知", gate: "apoe", grade: "B",
     map: {
       e23: ["neutral", "此介入措施不受 ε4 相關的限制。"],
       e33: ["benefit", "在 TRIAD AC-1202 中，MCT 與酮類補充在非 ε4 帶因者的效果可量測地較佳。"],
@@ -1085,7 +1101,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "fisetin", dom: "Senolytics", name: "Fisetin（senolytic）", gate: "comt", grade: "B",
+    id: "fisetin", ico: "d_senolytic", dom: "Senolytics", name: "Fisetin（senolytic）", gate: "comt", grade: "B",
     map: {
       VV: ["under", "Fisetin 為已驗證的 COMT 受質抑制劑（IC₅₀ 2.6–5.8 µM）。在 3–4 倍的活性跨度下，快代謝者的 senolytic 曝露約減半，因此相同的名目劑量對應不同的實際曝露。"],
       VM: ["neutral", "曝露的對照類別。"],
@@ -1094,7 +1110,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "methyl", dom: "甲基化", name: "甲基供應者（methylfolate、methylB12、SAMe、betaine）", gate: "comt", grade: "B",
+    id: "methyl", ico: "d_methyl", dom: "甲基化", name: "甲基供應者（methylfolate、methylB12、SAMe、betaine）", gate: "comt", grade: "B",
     map: {
       VV: ["neutral", "在此途徑中 COMT 並非速率限制酵素；耐受性取決於下游甲基化能力。"],
       VM: ["neutral", "中間活性。"],
@@ -1102,7 +1118,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "tmaoDiet", dom: "飲食／血管", name: "富含膽鹼或肉鹼、以紅肉為主的飲食型態", gate: "tmao", grade: "B",
+    id: "tmaoDiet", ico: "d_dietvasc", dom: "飲食／血管", name: "富含膽鹼或肉鹼、以紅肉為主的飲食型態", gate: "tmao", grade: "B",
     map: {
       high: ["harm", "腸道菌叢會以高效率將此飲食型態轉為 TMAO，而相同的飲食建議卻同時提供給低產生者。TMAO 加速細胞衰老，以及血管平滑肌的 SIRT1 介導衰減，皆屬下游結果。"],
       low: ["neutral", "TMAO 生成量有限，該飲食型態並非主要曝露來源。"],
@@ -1110,7 +1126,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "cgas", dom: "神經發炎", name: "cGAS／STING 標的或微膠細胞導向介入", gate: "apoe", grade: "A",
+    id: "cgas", ico: "d_neuro", dom: "神經發炎", name: "cGAS／STING 標的或微膠細胞導向介入", gate: "apoe", grade: "A",
     map: {
       e23: ["neutral", "對照類別。"],
       e33: ["neutral", "對照類別。"],
@@ -1119,7 +1135,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "quinoneChemo", dom: "腫瘤學", name: "NQO1 活化的醌類化學治療（如 mitomycin、膀胱灌注）", gate: "nqo1", grade: "C",
+    id: "quinoneChemo", ico: "d_onco", dom: "腫瘤學", name: "NQO1 活化的醌類化學治療（如 mitomycin、膀胱灌注）", gate: "nqo1", grade: "C",
     map: {
       CC: ["benefit", "生物活化可進行；NQO1 活性即為細胞毒殺機轉，而非旁觀者效應。"],
       CT: ["neutral", "活化與旁觀者放大均減少。"],
@@ -1128,7 +1144,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "ethanol", dom: "異種毒物興奮", name: "以乙醇作為毒物興奮曝露", gate: "aldh2", grade: "B",
+    id: "ethanol", ico: "d_xeno", dom: "異種毒物興奮", name: "以乙醇作為毒物興奮曝露", gate: "aldh2", grade: "B",
     map: {
       "11": ["neutral", "乙醛清除在正常範圍內。"],
       "12": ["under", "在攝取量相同的情況下酵素能力降低。潮紅反應即為乙醛清除較慢的表徵。"],
@@ -1137,7 +1153,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "caffeine", dom: "認知／運動", name: "咖啡因或綠茶 EGCG 運動前劑量", gate: "cyp1a2", grade: "A",
+    id: "caffeine", ico: "d_cogex", dom: "認知／運動", name: "咖啡因或綠茶 EGCG 運動前劑量", gate: "cyp1a2", grade: "A",
     map: {
       AA: ["benefit", "清除迅速。認知效果較大（反應時間 −18 對 −1.0 毫秒），午後給藥的代價較低。"],
       AC: ["neutral", "中間活性。"],
@@ -1146,7 +1162,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "oxldl", dom: "脂質過氧化", name: "氧化 LDL／脂質過氧化防禦方案", gate: "pon1", grade: "C",
+    id: "oxldl", ico: "d_lipid", dom: "脂質過氧化", name: "氧化 LDL／脂質過氧化防禦方案", gate: "pon1", grade: "C",
     map: {
       QQ: ["harm", "paraoxonase 與 diazoxonase 活性最低，因此水解氧化脂質的能力最弱。活性偏低是冠狀動脈事件的獨立風險因子。"],
       QR: ["neutral", "中間活性。"],
@@ -1154,7 +1170,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "telo", dom: "細胞衰老", name: "複製性衰老／端粒導向方案", gate: "tert", grade: "D",
+    id: "telo", ico: "d_senes", dom: "細胞衰老", name: "複製性衰老／端粒導向方案", gate: "tert", grade: "D",
     map: {
       AA: ["neutral", "TERT 轉錄未受限制，複製餘裕為本組中最高。"],
       AG: ["neutral", "中間。"],
@@ -1163,7 +1179,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "sirtuin", dom: "長壽組合", name: "SIRT 導向長壽組合", gate: "sirt", grade: "B",
+    id: "sirtuin", ico: "d_senes", dom: "長壽組合", name: "SIRT 導向長壽組合", gate: "sirt", grade: "B",
     map: {
       common: ["neutral", "對照類別；尚未確立長壽關聯。"],
       s3het: ["under", "rs11555236 在一項義大利檢驗群體中與雄性長壽相關，在合併檢驗群體中未能重現，在 TRELONG 中僅在雌性顯著。此為修正因子，應與核型合併判讀。"],
@@ -1172,7 +1188,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "klothoStack", dom: "長壽組合", name: "游離 Klotho／運動因子導向組合", gate: "klotho", grade: "B",
+    id: "klothoStack", ico: "d_senes", dom: "長壽組合", name: "游離 Klotho／運動因子導向組合", gate: "klotho", grade: "B",
     map: {
       het: ["miss", "KL-VS 異合性可減輕腦脊髓液中的 IL-6、S100B、α-synuclein 與 NfL，且在 AD 風險富集的檢驗群體中效應較大，顯示與 APOE ε4 交互作用。運動可提高游離 Klotho，因此此數值支持將運動處方與可量測的藥效學讀值搭配使用。"],
       nc: ["neutral", "對照類別。"],
@@ -1181,6 +1197,67 @@ var THERAPIES = [
     }
   }
 ];
+
+/* ============================================================
+
+/* ============================================================
+   CARD ICONS
+   24x24 stroke paths, matching the icon house style used by
+   themes/theme-02/pages-svg.js. Paths only, so this block is identical
+   in the en-US and zh-TW builds.
+   ============================================================ */
+var ICONS = {
+  /* gates */
+  sex:    '<circle cx="7.5" cy="12" r="4.5"/><circle cx="16.5" cy="12" r="4.5"/><path d="M7.5 7.5 16.5 16.5"/>',
+  comt:   '<path d="M3 12h4l2.5-6 4 12L16 12h5"/>',
+  urolithin:'<path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/>',
+  mc1r:   '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/>',
+  nqo1:   '<path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 7.3-7.5 8.8-4.4-1.5-7.5-4.2-7.5-8.8V5.8L12 3z"/><path d="M9 12l2 2 4-4"/>',
+  cyp3a5: '<path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l3.5-5.5"/><circle cx="12" cy="18" r="1.2"/>',
+  hfe:    '<path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/><path d="M9.5 15h5"/>',
+  sod2:   '<path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 7.3-7.5 8.8-4.4-1.5-7.5-4.2-7.5-8.8V5.8L12 3z"/><path d="M12 9v6M9 12h6"/>',
+  tmao:   '<path d="M3 9c1.8-1.8 3.6-1.8 5.4 0s3.6 1.8 5.4 0 3.6-1.8 5.4 0"/><path d="M3 15c1.8-1.8 3.6-1.8 5.4 0s3.6 1.8 5.4 0 3.6-1.8 5.4 0"/>',
+  apoe:   '<path d="M12 3.5l8.5 14.5h-17L12 3.5z"/><circle cx="12" cy="12" r="2.6"/>',
+  aldh2:  '<path d="M9.5 3h5M10.5 3v6L6.5 17a2 2 0 0 0 1.8 3h7.4a2 2 0 0 0 1.8-3l-4-8V3"/>',
+  cyp1a2: '<path d="M4 8h12v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8z"/><path d="M16 10h3a2 2 0 0 1 0 4h-3"/><path d="M6 3v2M10 3v2M13 3v2"/>',
+  pon1:   '<circle cx="6" cy="6" r="2.4"/><circle cx="6" cy="18" r="2.4"/><path d="m8.2 7.4 11.8 10M8.2 16.6 20 6.6"/>',
+  klotho: '<path d="M7 3h10M7 21h10M8 3v3.5L12 12l-4 5.5V21M16 3v3.5L12 12l4 5.5V21"/>',
+  tert:   '<circle cx="12" cy="12" r="8"/><path d="M12 7v5.2l3.2 1.9"/>',
+  sirt:   '<circle cx="12" cy="5" r="2"/><circle cx="5" cy="18.5" r="2"/><circle cx="19" cy="18.5" r="2"/><path d="M10.8 6.8 6 16.6M13.2 6.8 18 16.6M7 18.5h10"/>',
+  mtdna:  '<path d="M8 3c0 6 8 6 8 12M16 3c0 6-8 6-8 12M8 3h8M8 21h8"/><path d="M9.5 8h5M9.5 16h5"/>',
+  /* intervention domains */
+  d_antiox:   '<path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 7.3-7.5 8.8-4.4-1.5-7.5-4.2-7.5-8.8V5.8L12 3z"/>',
+  d_mito:     '<path d="M4 12c0-3.9 3.6-7 8-7s8 3.1 8 7-3.6 7-8 7-8-3.1-8-7z"/><path d="M8.5 10v4M12 9v6M15.5 10v4"/>',
+  d_mtor:     '<path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1"/><path d="M20.5 3.5v4.5H16"/>',
+  d_redox:    '<path d="M13 2.5 4.5 14H11l-1 7.5 8.5-11.5H12l1-7.5z"/>',
+  d_endo:     '<circle cx="12" cy="7.5" r="3.4"/><path d="M5 20.5c0-4 3.1-6.6 7-6.6s7 2.6 7 6.6"/>',
+  d_expo:     '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+  d_ferro:    '<path d="M6 4v8a6 6 0 0 0 12 0V4"/><path d="M6 9.5h4M14 9.5h4"/>',
+  d_dietcog:  '<path d="M9 4.5a3 3 0 0 0-3 3 3 3 0 0 0-.8 5.2A3 3 0 0 0 9 15.7V4.5zM15 4.5a3 3 0 0 1 3 3 3 3 0 0 1 .8 5.2 3 3 0 0 1-3.8 3V4.5z"/>',
+  d_senolytic:'<path d="M11 20.5A7.5 7.5 0 0 1 3.5 13c0-6.2 5.3-9.5 17-9.5 0 11.7-4.3 17-9.5 17z"/><path d="m4 20.5 10-10"/>',
+  d_methyl:   '<path d="M4 20V4l8 8 8-8v16"/>',
+  d_dietvasc: '<path d="M7 3v7a4 4 0 0 0 8 0V3M11 10v11M7 3v4M15 3v4"/>',
+  d_neuro:    '<path d="M12 2.5v5M12 16.5v5M2.5 12h5M16.5 12h5M5.2 5.2l3.4 3.4M15.4 15.4l3.4 3.4M18.8 5.2l-3.4 3.4M8.6 15.4l-3.4 3.4"/><circle cx="12" cy="12" r="2.6"/>',
+  d_onco:     '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.8"/><path d="M12 2.5V6M12 18v3.5M2.5 12H6M18 12h3.5"/>',
+  d_xeno:     '<path d="M5 3h14l-7 8.5V19h3.5v2.5h-7V19H12v-7.5L5 3z"/>',
+  d_cogex:    '<path d="M21.5 12h-4L14 8.5 9.5 3.5 7 6l5 4.5-3 3-4.5-5L2 11v2h2l3.5 4.5-2 2.5 2.5 2.5 2.5-2L15 17l-1.5 3.5h4v-2.5L21 12z"/>',
+  d_lipid:    '<path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="m3 14 9 5 9-5"/>',
+  d_senes:    '<path d="M7 3h10M7 21h10M8 3v3.5L12 12l-4 5.5V21M16 3v3.5L12 12l4 5.5V21"/>',
+  /* severity */
+  sev_harm:    '<path d="M12 3.5 22 20H2L12 3.5z"/><path d="M12 10v4.5M12 17.5v.5"/>',
+  sev_blind:   '<circle cx="12" cy="12" r="8.5"/><path d="m6 6 12 12"/>',
+  sev_under:   '<path d="M3 7l6.5 6.5 3.5-3.5L21 18"/><path d="M15 18h6v-6"/>',
+  sev_miss:    '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8v.4"/>',
+  sev_benefit: '<path d="M20 6.5 9.5 17 4 11.5"/>',
+  sev_neutral: '<path d="M6 12h12"/>',
+  sev_unknown: '<circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.2 2.4c-.6.2-.8.7-.8 1.2v.6M12 16.6v.4"/>'
+};
+
+function icon(key, alt) {
+  var body = ICONS[key];
+  if (!body) return "";
+  return '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + body + "</svg>";
+}
 
 /* ============================================================
    STATE
@@ -1283,7 +1360,7 @@ function buildGates() {
 
     var head = document.createElement("div");
     head.className = "gate-head";
-    head.innerHTML = "<h4>" + g.name + '</h4><span class="gbadge ' + g.grade + '">等級 ' + g.grade + "</span>";
+    head.innerHTML = icon(g.id) + "<h4>" + g.name + '</h4><span class="gbadge ' + g.grade + '">等級 ' + g.grade + "</span>";
     fs.appendChild(head);
 
     var why = document.createElement("p");
@@ -1338,7 +1415,7 @@ function buildRx() {
     inp.value = t.id;
     if (state.rx.indexOf(t.id) !== -1) inp.checked = true;
     var sp = document.createElement("span");
-    sp.innerHTML = t.name + '<span class="dom">' + t.dom + " · 等級 " + t.grade + "</span>";
+    sp.innerHTML = icon(t.ico) + t.name + '<span class="dom">' + t.dom + " · 等級 " + t.grade + "</span>";
     lab.appendChild(inp);
     lab.appendChild(sp);
     host.appendChild(lab);
@@ -1390,7 +1467,7 @@ function renderActions() {
     var o = outcome(t);
     var g = byId(t.gate);
     return '<div class="action s-' + o.sev + '">' +
-      "<h4><span class=\"sev sev-" + o.sev + '">' + SEV[o.sev].l + "</span>" + t.name + "</h4>" +
+      "<h4>" + icon("sev_" + o.sev) + "<span class=\"sev sev-" + o.sev + '">' + SEV[o.sev].l + "</span>" + t.name + "</h4>" +
       "<p>" + o.txt + "</p>" +
       '<p class="gate-ref">分層數值：' + (g ? g.name + " · " + g.code : t.gate) +
       " · " + (state.gates[t.gate] ? gateLabel(g, state.gates[t.gate]) : "未填列") +
@@ -1461,11 +1538,22 @@ function drawCoverage() {
 function drawMass() {
   var rows = THERAPIES.map(function (t) { return { t: t, w: wrongSide(t) }; })
     .sort(function (a, b) { return b.w - a.w; });
-  var rowH = 30, W = 840, H = 52 + rows.length * rowH + 34;
+  var rowH = 30, W = 840;
+    var labelW = 320, barW = W - labelW - 110, x0 = labelW + 12;
+  // Legend keys are measured and wrapped to a second row when needed: the
+  // labels differ in length per language, so a fixed per-character
+  // advance ran the last key into the total column.
+  var LEGEND = ["harm", "blind", "under", "miss"], LEG_GAP = 16;
+  function legW(k) { return 15 + textW(SEV[k].l, 10.5) + LEG_GAP; }
+  var legLimit = x0 + barW - 26, legRows = 1, legAcc = x0;
+  LEGEND.forEach(function (k) {
+    if (legAcc > x0 && legAcc + legW(k) > legLimit) { legRows++; legAcc = x0; }
+    legAcc += legW(k);
+  });
+  var legTop = 38 + rows.length * rowH + 20;
+  var H = legTop + (legRows - 1) * 18 + 26;
   var host = document.getElementById("figMass");
   var svg = svgRoot(host, W, H, "各介入措施的具後果比例");
-  var labelW = 320, barW = W - labelW - 110, x0 = labelW + 12;
-
   [0, 0.25, 0.5, 0.75, 1].forEach(function (f) {
     var x = x0 + barW * f;
     el("line", { x1: x, y1: 38, x2: x, y2: 38 + rows.length * rowH, stroke: "var(--rule)", "stroke-width": 1 }, svg);
@@ -1490,7 +1578,12 @@ function drawMass() {
       var m = r.t.map[val.v] || r.t.map._default;
       if (m && CONSEQUENTIAL[m[0]] && w > 0) {
         var seg = el("rect", { x: cx, y: y, width: w, height: 15, fill: SEV[m[0]].v, opacity: 0.9 }, svg);
-        seg.setAttribute("data-tip", r.t.name + " — " + gateLabel(g, val.v) + "：" + SEV[m[0]].l + "（約占" + POPS[state.pop] + "的 " + Math.round(s * 100) + "%）。" + m[1]);
+        // 工具提示僅承載識別資訊。完整後果說明見登錄表與檔案卡片；
+        // 若一併嵌入，提示方塊的高度會覆蓋圖表下方的圖說。
+        var nm = r.t.name.length > 16 ? r.t.name.slice(0, 15) + "\u2026" : r.t.name;
+        // 參考族群已於上方控制項選定，此處不再重複，以維持兩行以內。
+        seg.setAttribute("data-tip", nm + " \u00b7 " + gateLabel(g, val.v) + " \u00b7 "
+          + SEV[m[0]].l + " ~" + Math.round(s * 100) + "%");
         if (w > 44) text(svg, cx + w / 2, y + 11, Math.round(s * 100) + "%", { size: 9.5, anchor: "middle", fill: "var(--sheet)", weight: 600 });
       }
       cx += w;
@@ -1498,11 +1591,12 @@ function drawMass() {
     text(svg, x0 + barW + 8, y + 12, Math.round(r.w * 100) + "%", { size: 10.5, mono: true, fill: "var(--mute)" });
   });
 
-  var ly = 38 + rows.length * rowH + 22, lx = x0;
-  ["harm", "blind", "under", "miss"].forEach(function (s) {
+  var ly = legTop, lx = x0;
+  LEGEND.forEach(function (s) {
+    if (lx > x0 && lx + legW(s) > legLimit) { ly += 18; lx = x0; }
     el("rect", { x: lx, y: ly, width: 10, height: 10, fill: SEV[s].v }, svg);
     text(svg, lx + 15, ly + 9, SEV[s].l, { size: 10.5, fill: "var(--mute)" });
-    lx += 26 + textW(SEV[s].l, 10.5) + 12;
+    lx += legW(s);
   });
   text(svg, x0 + barW + 8, ly + 9, "合計", { size: 10, fill: "var(--faint)" });
 }
@@ -1565,8 +1659,8 @@ function drawUro() {
 
   text(svg, x0, 34, "標準化鞣花酸負荷（石榴／核桃／草莓）", { size: 12, weight: 600 });
   var segs = [
-    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → 尿石素 A，即已發表試驗所用的代謝物。飲食途徑有效。" },
-    { w: .10, f: "var(--gold)", t: "UM-B · 10%", d: "Ellagibacter／Enterocloster → 異尿石素 A。此為不同化合物，其藥理學特性大多尚未描述。" },
+    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → 尿石素 A，已發表試驗所用的代謝物。飲食途徑有效。" },
+    { w: .10, f: "var(--gold)", t: "UM-B · 10%", d: "Ellagibacter／Enterocloster → 異尿石素 A。不同化合物，藥理學特性大多尚未描述。" },
     { w: .50, f: "var(--oxblood)", t: "UM-0 · 50%", d: "未偵測到尿石素。飲食性鞣花酸在任何劑量或依從性下皆無效。" }
   ];
   var cx = x0;
@@ -1581,7 +1675,7 @@ function drawUro() {
 
   text(svg, x0, 160, "直接給予尿石素 A", { size: 12, weight: 600 });
   var r2 = el("rect", { x: x0, y: 170, width: bw, height: 40, fill: "var(--slate)", opacity: 0.9 }, svg);
-  r2.setAttribute("data-tip", "轉換步驟被繞過，因此給藥不依賴個體的菌叢。這是約 60% 不產生尿石素者所適用的途徑。");
+  r2.setAttribute("data-tip", "轉換步驟被繞過，給藥不依賴個體菌叢。為約 60% 不產生尿石素者適用的途徑。");
   text(svg, x0 + bw / 2, 195, "適用於所有代謝型 — 轉換步驟被繞過", { size: 12, anchor: "middle", fill: "var(--sheet)", weight: 600 });
 
   text(svg, x0, 244, "已報告的盛行率數值", { size: 12, weight: 600 });
@@ -1624,17 +1718,17 @@ function drawComt() {
   text(svg, 2, PLOT_BOT + 24, "1.0 右側為風險增加", { size: 10.5, fill: "var(--oxblood)" });
 
   var rows = [
-    { l: "Val/Val（快）— 補充組", hr: 1.18, lo: 1.06, hi: 1.31, c: "var(--oxblood)", t: "HR 1.18（1.06–1.31）。占歐洲族群約 29%、漢族約 52%。在 50 IU/日與 600 IU 隔日兩種劑量下均可見關聯，即低於 400 IU/日門檻。" },
+    { l: "Val/Val（快）— 補充組", hr: 1.18, lo: 1.06, hi: 1.31, c: "var(--oxblood)", t: "HR 1.18（1.06–1.31）。歐洲族群約 29%、漢族約 52%。50 IU/日與 600 IU 隔日皆有關聯，即低於 400 IU/日。" },
     { l: "Val/Met（中間）", hr: 1.00, lo: 0.94, hi: 1.07, c: "var(--mute)", t: "在合併的基因劑量分析中無顯著交互作用。" },
     { l: "Met/Met（慢）", hr: 0.88, lo: 0.82, hi: 0.95, c: "var(--forest)", t: "HR 0.88，降幅約 12%。Aspirin 的心血管保護亦集中於此族群。" },
-    { l: "每個 Val 等位基因，補充組", hr: 1.11, lo: 1.05, hi: 1.18, c: "var(--oxblood)", t: "基因劑量關係：補充組 1.11，對照組 0.95，P interaction < .001。" },
+    { l: "每個 Val 等位基因，補充組", hr: 1.11, lo: 1.05, hi: 1.18, c: "var(--oxblood)", t: "基因劑量：補充組 1.11、對照組 0.95，P interaction < .001。" },
     { l: "姊妹 SNP rs4818 G/G", hr: 1.29, lo: 1.14, hi: 1.46, c: "var(--oxblood)", t: "在 COMT 第二個位點上有一致結果。" }
   ];
   rows.forEach(function (r, i) {
     var y = ROW0 + i * PITCH;
     text(svg, x0 - 14, y + 4, r.l, { size: 12, anchor: "end" });
     var g = el("g", null, svg);
-    g.setAttribute("data-tip", r.l + " — " + r.t);
+    g.setAttribute("data-tip", r.t); // 列標籤已位於資料點左側
     el("line", { x1: X(r.lo), y1: y, x2: X(r.hi), y2: y, stroke: r.c, "stroke-width": 2 }, g);
     el("line", { x1: X(r.lo), y1: y - 5.5, x2: X(r.lo), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
     el("line", { x1: X(r.hi), y1: y - 5.5, x2: X(r.hi), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);

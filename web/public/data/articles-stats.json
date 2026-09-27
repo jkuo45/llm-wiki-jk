@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 09:49 PM PDT",
+  "generated": "27_SEP_2026 11:32 AM PDT",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2318,
@@ -53,13 +53,13 @@
       "words": 5255,
       "images": 0,
       "links": 32,
-      "diagrams": 1
+      "diagrams": 8
     },
     "adrenochrome-protocol-node-network-analysis": {
       "words": 4306,
       "images": 0,
       "links": 76,
-      "diagrams": 1
+      "diagrams": 7
     },
     "articles-index": {
       "words": 3,
@@ -101,7 +101,7 @@
       "words": 4349,
       "images": 0,
       "links": 36,
-      "diagrams": 0
+      "diagrams": 5
     },
     "hormetic-range-assessment": {
       "words": 2549,
@@ -216,6 +216,12 @@
       "images": 0,
       "links": 25,
       "diagrams": 1
+    },
+    "hard-coded-biomarker-gates": {
+      "words": 4138,
+      "images": 0,
+      "links": 31,
+      "diagrams": 7
     }
   }
 }

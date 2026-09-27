@@ -28,6 +28,22 @@
 
   .h1-sub { font-weight: 400; color: var(--mute); }
 
+  /* ---- card icons (24x24 stroke, matching pages-svg.js house style) ---- */
+  .ico {
+    width: 18px; height: 18px; flex: 0 0 auto;
+    fill: none; stroke: currentColor; stroke-width: 1.6;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
+  .gate-head .ico { width: 19px; height: 19px; color: var(--oxblood); align-self: center; }
+  .rx-list .ico { width: 17px; height: 17px; margin-top: 1px; color: var(--slate); }
+  .action .ico { width: 18px; height: 18px; align-self: center; }
+  .action.s-harm .ico { color: var(--sev-harm); }
+  .action.s-blind .ico { color: var(--sev-blind); }
+  .action.s-under .ico { color: var(--sev-under); }
+  .action.s-miss .ico, .action.s-benefit .ico { color: var(--sev-miss); }
+  .action.s-neutral .ico { color: var(--mute); }
+  .action.s-unknown .ico { color: var(--sev-unknown); }
+
   /* Hero: source documents as one running paragraph. Sans at reading size with
      mono filenames, so the links read as citations rather than as a list. */
   .src-docs {
@@ -1103,7 +1119,7 @@ var CONSEQUENTIAL = { harm: 1, blind: 1, under: 1, miss: 1 };
 
 var THERAPIES = [
   {
-    id: "vite", dom: "Antioxidant stack", name: "High-dose α-tocopherol (vitamin E)", gate: "comt", grade: "A",
+    id: "vite", ico: "d_antiox", dom: "Antioxidant stack", name: "High-dose α-tocopherol (vitamin E)", gate: "comt", grade: "A",
     map: {
       VV: ["harm", "Increased incident cancer at both 50 IU/day and 600 IU alternate-day (HR 1.18, 95% CI 1.06–1.31). The association is present below the 400 IU/day threshold, so dose reduction to that level does not mitigate it. Concordant at rs4818 G/G (HR 1.29)."],
       VM: ["neutral", "No significant interaction in the pooled gene-dose analysis."],
@@ -1111,7 +1127,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "ellagitannin", dom: "Mitochondrial stack", name: "Dietary ellagitannins (pomegranate, walnut, strawberry)", gate: "urolithin", grade: "A",
+    id: "ellagitannin", ico: "d_mito", dom: "Mitochondrial stack", name: "Dietary ellagitannins (pomegranate, walnut, strawberry)", gate: "urolithin", grade: "A",
     map: {
       A: ["benefit", "The substrate is converted to urolithin A, the metabolite used in published trials. Dietary administration is effective."],
       B: ["blind", "Produces isourolithin A and uro-B. These are distinct compounds whose pharmacology is largely uncharacterised, so the metabolite used in published trials is not obtained."],
@@ -1119,7 +1135,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "rapamycin", dom: "mTOR / autophagy", name: "Rapamycin (sirolimus) or an mTORC1-directed stack", gate: "cyp3a5", grade: "B",
+    id: "rapamycin", ico: "d_mtor", dom: "mTOR / autophagy", name: "Rapamycin (sirolimus) or an mTORC1-directed stack", gate: "cyp3a5", grade: "B",
     map: {
       exp: ["under", "Rapid clearance at a fixed low dose leaves most of the dosing interval below the exposure associated with target engagement. Such patients are recorded as non-responders to an agent that is effective at adequate exposure. This is a pharmacokinetic rather than a pharmacological finding."],
       nonexp: ["benefit", "Exposure is in the expected range. Trough concentration and p70S6K1 Thr389 suppression should still be measured before classifying a patient as a non-responder."],
@@ -1127,7 +1143,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "mrr", dom: "Redox protocol", name: "Quinone redox protocol (methylene blue + carbazochrome, terminated with aminoguanidine)", gate: "nqo1", grade: "A",
+    id: "mrr", ico: "d_redox", dom: "Redox protocol", name: "Quinone redox protocol (methylene blue + carbazochrome, terminated with aminoguanidine)", gate: "nqo1", grade: "A",
     map: {
       CC: ["benefit", "Two-electron reduction to a stable hydroquinone. The redox signal is deliverable and terminable as intended."],
       CT: ["benefit", "Activity is approximately three-fold lower but the pathway is intact; the same route operates at reduced amplitude."],
@@ -1135,7 +1151,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "estrogen", dom: "Endocrine", name: "Systemic hormone replacement, or a SIRT3-targeted cardiac/mitochondrial intervention", gate: "sex", grade: "A",
+    id: "estrogen", ico: "d_endo", dom: "Endocrine", name: "Systemic hormone replacement, or a SIRT3-targeted cardiac/mitochondrial intervention", gate: "sex", grade: "A",
     map: {
       xxpre: ["neutral", "Estrogen is at physiological levels. The relevant consideration is the anticipated perimenopausal trajectory rather than current replacement."],
       xxpost: ["miss", "The menopausal loss of estrogen is accompanied by a simultaneous reduction in SIRT3, SIRT1, and MnSOD activity, together with the sex-specific cardiac ageing phenotype (reduced SIRT1, SIRT3, and SOD2 with NF-κB activation and macrophage accumulation, described in aged female ventricles). Postmenopausal XX individuals without a conventional indication are not routinely considered for SIRT3-directed intervention."],
@@ -1145,7 +1161,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "sun", dom: "Exposure / prevention", name: "Sun and solarium exposure decisions, or MC1R-agonist neuroprotection", gate: "mc1r", grade: "A",
+    id: "sun", ico: "d_expo", dom: "Exposure / prevention", name: "Sun and solarium exposure decisions, or MC1R-agonist neuroprotection", gate: "mc1r", grade: "A",
     map: {
       R: ["harm", "Pheomelanin synthesis generates reactive oxygen species and depletes glutathione, so baseline oxidant load is increased before any UV exposure. Advice based on skin phototype alone understates a UV-independent risk of approximately two-fold (OR 2.13 with two or more variants)."],
       r: ["neutral", "Reduced receptor function without the increased oxidant production associated with R-class alleles."],
@@ -1153,7 +1169,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "iron", dom: "Ferroptosis / redox", name: "An antioxidant-only or ferroptosis-adjacent protocol", gate: "hfe", grade: "A",
+    id: "iron", ico: "d_ferro", dom: "Ferroptosis / redox", name: "An antioxidant-only or ferroptosis-adjacent protocol", gate: "hfe", grade: "A",
     map: {
       cc: ["neutral", "Iron status should still be measured directly. There is no Mendelian basis for expecting an altered ferroptosis threshold."],
       het: ["neutral", "Simple heterozygote: iron handling is usually within the normal range."],
@@ -1162,7 +1178,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "keto", dom: "Diet / cognition", name: "Ketogenic or MCT/saturated-fat dietary strategy for cognition", gate: "apoe", grade: "B",
+    id: "keto", ico: "d_dietcog", dom: "Diet / cognition", name: "Ketogenic or MCT/saturated-fat dietary strategy for cognition", gate: "apoe", grade: "B",
     map: {
       e23: ["neutral", "No ε4-associated limitation applies to this intervention."],
       e33: ["benefit", "In TRIAD AC-1202, MCT and ketone supplementation was measurably more effective in non-ε4 carriers."],
@@ -1171,7 +1187,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "fisetin", dom: "Senolytics", name: "Fisetin senolytic", gate: "comt", grade: "B",
+    id: "fisetin", ico: "d_senolytic", dom: "Senolytics", name: "Fisetin senolytic", gate: "comt", grade: "B",
     map: {
       VV: ["under", "Fisetin is a validated COMT substrate inhibitor (IC₅₀ 2.6–5.8 µM). Against a 3–4-fold activity span, senolytic exposure is approximately halved in fast metabolisers, so an identical nominal dose produces a different exposure."],
       VM: ["neutral", "Reference category for exposure."],
@@ -1180,7 +1196,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "methyl", dom: "Methylation", name: "Methyl donors (methylfolate, methylB12, SAMe, betaine)", gate: "comt", grade: "B",
+    id: "methyl", ico: "d_methyl", dom: "Methylation", name: "Methyl donors (methylfolate, methylB12, SAMe, betaine)", gate: "comt", grade: "B",
     map: {
       VV: ["neutral", "COMT is not rate-limiting in this pathway; downstream methylation capacity determines tolerance."],
       VM: ["neutral", "Intermediate activity."],
@@ -1188,7 +1204,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "tmaoDiet", dom: "Diet / vascular", name: "A choline- or carnitine-heavy, red-meat-forward dietary pattern", gate: "tmao", grade: "B",
+    id: "tmaoDiet", ico: "d_dietvasc", dom: "Diet / vascular", name: "A choline- or carnitine-heavy, red-meat-forward dietary pattern", gate: "tmao", grade: "B",
     map: {
       high: ["harm", "The intestinal flora converts this dietary pattern to TMAO at a high rate, while the same dietary advice is issued to low producers. TMAO-accelerated senescence and SIRT1-mediated attenuation in vascular smooth muscle are downstream consequences."],
       low: ["neutral", "TMAO generation is modest and the dietary pattern is not the dominant source of exposure."],
@@ -1196,7 +1212,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "cgas", dom: "Neuroinflammation", name: "A cGAS / STING-targeting or microglia-directed intervention", gate: "apoe", grade: "A",
+    id: "cgas", ico: "d_neuro", dom: "Neuroinflammation", name: "A cGAS / STING-targeting or microglia-directed intervention", gate: "apoe", grade: "A",
     map: {
       e23: ["neutral", "Reference category."],
       e33: ["neutral", "Reference category."],
@@ -1205,7 +1221,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "quinoneChemo", dom: "Oncology", name: "NQO1-bioactivated quinone chemotherapy (e.g. mitomycin, intravesical)", gate: "nqo1", grade: "C",
+    id: "quinoneChemo", ico: "d_onco", dom: "Oncology", name: "NQO1-bioactivated quinone chemotherapy (e.g. mitomycin, intravesical)", gate: "nqo1", grade: "C",
     map: {
       CC: ["benefit", "Bioactivation proceeds; NQO1 activity is the cytotoxic mechanism rather than a bystander effect."],
       CT: ["neutral", "Both activation and bystander amplification are reduced."],
@@ -1214,7 +1230,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "ethanol", dom: "Xenohormesis", name: "Ethanol as a hormetic exposure", gate: "aldh2", grade: "B",
+    id: "ethanol", ico: "d_xeno", dom: "Xenohormesis", name: "Ethanol as a hormetic exposure", gate: "aldh2", grade: "B",
     map: {
       "11": ["neutral", "Acetaldehyde clearance is within the normal range."],
       "12": ["under", "Enzyme capacity is reduced at equivalent intake. The flushing response indicates slower acetaldehyde clearance."],
@@ -1223,7 +1239,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "caffeine", dom: "Cognitive / exercise", name: "Caffeine or green-tea EGCG pre-workout dosing", gate: "cyp1a2", grade: "A",
+    id: "caffeine", ico: "d_cogex", dom: "Cognitive / exercise", name: "Caffeine or green-tea EGCG pre-workout dosing", gate: "cyp1a2", grade: "A",
     map: {
       AA: ["benefit", "Rapid clearance. The cognitive effect is larger (reaction time −18 against −1.0 ms) and afternoon dosing carries less penalty."],
       AC: ["neutral", "Intermediate."],
@@ -1232,7 +1248,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "oxldl", dom: "Lipid peroxidation", name: "An oxidized-LDL / lipid-peroxidation defence protocol", gate: "pon1", grade: "C",
+    id: "oxldl", ico: "d_lipid", dom: "Lipid peroxidation", name: "An oxidized-LDL / lipid-peroxidation defence protocol", gate: "pon1", grade: "C",
     map: {
       QQ: ["harm", "Lowest paraoxonase and diazoxonase activity, and therefore the least capacity to hydrolyse oxidised lipids. Low activity is an independent risk factor for coronary events."],
       QR: ["neutral", "Intermediate activity."],
@@ -1240,7 +1256,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "telo", dom: "Senescence", name: "A replicative-senescence / telomere-targeted protocol", gate: "tert", grade: "D",
+    id: "telo", ico: "d_senes", dom: "Senescence", name: "A replicative-senescence / telomere-targeted protocol", gate: "tert", grade: "D",
     map: {
       AA: ["neutral", "Unrestricted TERT transcription and the highest replicative reserve in this set."],
       AG: ["neutral", "Intermediate."],
@@ -1249,7 +1265,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "sirtuin", dom: "Longevity stack", name: "SIRT-targeted longevity stacking", gate: "sirt", grade: "B",
+    id: "sirtuin", ico: "d_senes", dom: "Longevity stack", name: "SIRT-targeted longevity stacking", gate: "sirt", grade: "B",
     map: {
       common: ["neutral", "Reference category; no longevity association has been established."],
       s3het: ["under", "rs11555236 was associated with longevity in males in an Italian cohort, was not replicated in a pooled cohort, and was significant in females only in TRELONG. This is a modifier and should be interpreted jointly with karyotype."],
@@ -1258,7 +1274,7 @@ var THERAPIES = [
     }
   },
   {
-    id: "klothoStack", dom: "Longevity stack", name: "Soluble-Klotho / exerkine-oriented stacking", gate: "klotho", grade: "B",
+    id: "klothoStack", ico: "d_senes", dom: "Longevity stack", name: "Soluble-Klotho / exerkine-oriented stacking", gate: "klotho", grade: "B",
     map: {
       het: ["miss", "KL-VS heterozygosity attenuates CSF IL-6, S100B, α-synuclein, and NfL, with a larger effect in an AD-risk-enriched cohort, indicating interaction with APOE ε4. Soluble Klotho is raised by exercise, so this value supports the use of an exercise prescription with an objective pharmacodynamic readout."],
       nc: ["neutral", "Reference category."],
@@ -1267,6 +1283,67 @@ var THERAPIES = [
     }
   }
 ];
+
+/* ============================================================
+
+/* ============================================================
+   CARD ICONS
+   24x24 stroke paths, matching the icon house style used by
+   themes/theme-02/pages-svg.js. Paths only, so this block is identical
+   in the en-US and zh-TW builds.
+   ============================================================ */
+var ICONS = {
+  /* gates */
+  sex:    '<circle cx="7.5" cy="12" r="4.5"/><circle cx="16.5" cy="12" r="4.5"/><path d="M7.5 7.5 16.5 16.5"/>',
+  comt:   '<path d="M3 12h4l2.5-6 4 12L16 12h5"/>',
+  urolithin:'<path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/>',
+  mc1r:   '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/>',
+  nqo1:   '<path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 7.3-7.5 8.8-4.4-1.5-7.5-4.2-7.5-8.8V5.8L12 3z"/><path d="M9 12l2 2 4-4"/>',
+  cyp3a5: '<path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l3.5-5.5"/><circle cx="12" cy="18" r="1.2"/>',
+  hfe:    '<path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/><path d="M9.5 15h5"/>',
+  sod2:   '<path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 7.3-7.5 8.8-4.4-1.5-7.5-4.2-7.5-8.8V5.8L12 3z"/><path d="M12 9v6M9 12h6"/>',
+  tmao:   '<path d="M3 9c1.8-1.8 3.6-1.8 5.4 0s3.6 1.8 5.4 0 3.6-1.8 5.4 0"/><path d="M3 15c1.8-1.8 3.6-1.8 5.4 0s3.6 1.8 5.4 0 3.6-1.8 5.4 0"/>',
+  apoe:   '<path d="M12 3.5l8.5 14.5h-17L12 3.5z"/><circle cx="12" cy="12" r="2.6"/>',
+  aldh2:  '<path d="M9.5 3h5M10.5 3v6L6.5 17a2 2 0 0 0 1.8 3h7.4a2 2 0 0 0 1.8-3l-4-8V3"/>',
+  cyp1a2: '<path d="M4 8h12v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8z"/><path d="M16 10h3a2 2 0 0 1 0 4h-3"/><path d="M6 3v2M10 3v2M13 3v2"/>',
+  pon1:   '<circle cx="6" cy="6" r="2.4"/><circle cx="6" cy="18" r="2.4"/><path d="m8.2 7.4 11.8 10M8.2 16.6 20 6.6"/>',
+  klotho: '<path d="M7 3h10M7 21h10M8 3v3.5L12 12l-4 5.5V21M16 3v3.5L12 12l4 5.5V21"/>',
+  tert:   '<circle cx="12" cy="12" r="8"/><path d="M12 7v5.2l3.2 1.9"/>',
+  sirt:   '<circle cx="12" cy="5" r="2"/><circle cx="5" cy="18.5" r="2"/><circle cx="19" cy="18.5" r="2"/><path d="M10.8 6.8 6 16.6M13.2 6.8 18 16.6M7 18.5h10"/>',
+  mtdna:  '<path d="M8 3c0 6 8 6 8 12M16 3c0 6-8 6-8 12M8 3h8M8 21h8"/><path d="M9.5 8h5M9.5 16h5"/>',
+  /* intervention domains */
+  d_antiox:   '<path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 7.3-7.5 8.8-4.4-1.5-7.5-4.2-7.5-8.8V5.8L12 3z"/>',
+  d_mito:     '<path d="M4 12c0-3.9 3.6-7 8-7s8 3.1 8 7-3.6 7-8 7-8-3.1-8-7z"/><path d="M8.5 10v4M12 9v6M15.5 10v4"/>',
+  d_mtor:     '<path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1"/><path d="M20.5 3.5v4.5H16"/>',
+  d_redox:    '<path d="M13 2.5 4.5 14H11l-1 7.5 8.5-11.5H12l1-7.5z"/>',
+  d_endo:     '<circle cx="12" cy="7.5" r="3.4"/><path d="M5 20.5c0-4 3.1-6.6 7-6.6s7 2.6 7 6.6"/>',
+  d_expo:     '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+  d_ferro:    '<path d="M6 4v8a6 6 0 0 0 12 0V4"/><path d="M6 9.5h4M14 9.5h4"/>',
+  d_dietcog:  '<path d="M9 4.5a3 3 0 0 0-3 3 3 3 0 0 0-.8 5.2A3 3 0 0 0 9 15.7V4.5zM15 4.5a3 3 0 0 1 3 3 3 3 0 0 1 .8 5.2 3 3 0 0 1-3.8 3V4.5z"/>',
+  d_senolytic:'<path d="M11 20.5A7.5 7.5 0 0 1 3.5 13c0-6.2 5.3-9.5 17-9.5 0 11.7-4.3 17-9.5 17z"/><path d="m4 20.5 10-10"/>',
+  d_methyl:   '<path d="M4 20V4l8 8 8-8v16"/>',
+  d_dietvasc: '<path d="M7 3v7a4 4 0 0 0 8 0V3M11 10v11M7 3v4M15 3v4"/>',
+  d_neuro:    '<path d="M12 2.5v5M12 16.5v5M2.5 12h5M16.5 12h5M5.2 5.2l3.4 3.4M15.4 15.4l3.4 3.4M18.8 5.2l-3.4 3.4M8.6 15.4l-3.4 3.4"/><circle cx="12" cy="12" r="2.6"/>',
+  d_onco:     '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.8"/><path d="M12 2.5V6M12 18v3.5M2.5 12H6M18 12h3.5"/>',
+  d_xeno:     '<path d="M5 3h14l-7 8.5V19h3.5v2.5h-7V19H12v-7.5L5 3z"/>',
+  d_cogex:    '<path d="M21.5 12h-4L14 8.5 9.5 3.5 7 6l5 4.5-3 3-4.5-5L2 11v2h2l3.5 4.5-2 2.5 2.5 2.5 2.5-2L15 17l-1.5 3.5h4v-2.5L21 12z"/>',
+  d_lipid:    '<path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="m3 14 9 5 9-5"/>',
+  d_senes:    '<path d="M7 3h10M7 21h10M8 3v3.5L12 12l-4 5.5V21M16 3v3.5L12 12l4 5.5V21"/>',
+  /* severity */
+  sev_harm:    '<path d="M12 3.5 22 20H2L12 3.5z"/><path d="M12 10v4.5M12 17.5v.5"/>',
+  sev_blind:   '<circle cx="12" cy="12" r="8.5"/><path d="m6 6 12 12"/>',
+  sev_under:   '<path d="M3 7l6.5 6.5 3.5-3.5L21 18"/><path d="M15 18h6v-6"/>',
+  sev_miss:    '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8v.4"/>',
+  sev_benefit: '<path d="M20 6.5 9.5 17 4 11.5"/>',
+  sev_neutral: '<path d="M6 12h12"/>',
+  sev_unknown: '<circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.2 2.4c-.6.2-.8.7-.8 1.2v.6M12 16.6v.4"/>'
+};
+
+function icon(key, alt) {
+  var body = ICONS[key];
+  if (!body) return "";
+  return '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + body + "</svg>";
+}
 
 /* ============================================================
    STATE
@@ -1341,7 +1418,7 @@ function buildGates() {
 
     var head = document.createElement("div");
     head.className = "gate-head";
-    head.innerHTML = "<h4>" + g.name + '</h4><span class="gbadge ' + g.grade + '">Grade ' + g.grade + "</span>";
+    head.innerHTML = icon(g.id) + "<h4>" + g.name + '</h4><span class="gbadge ' + g.grade + '">Grade ' + g.grade + "</span>";
     fs.appendChild(head);
 
     var why = document.createElement("p");
@@ -1396,7 +1473,7 @@ function buildRx() {
     inp.value = t.id;
     if (state.rx.indexOf(t.id) !== -1) inp.checked = true;
     var sp = document.createElement("span");
-    sp.innerHTML = t.name + '<span class="dom">' + t.dom + " · grade " + t.grade + "</span>";
+    sp.innerHTML = icon(t.ico) + t.name + '<span class="dom">' + t.dom + " · grade " + t.grade + "</span>";
     lab.appendChild(inp);
     lab.appendChild(sp);
     host.appendChild(lab);
@@ -1448,7 +1525,7 @@ function renderActions() {
     var o = outcome(t);
     var g = byId(t.gate);
     return '<div class="action s-' + o.sev + '">' +
-      "<h4><span class=\"sev sev-" + o.sev + '">' + SEV[o.sev].l + "</span>" + t.name + "</h4>" +
+      "<h4>" + icon("sev_" + o.sev) + "<span class=\"sev sev-" + o.sev + '">' + SEV[o.sev].l + "</span>" + t.name + "</h4>" +
       "<p>" + o.txt + "</p>" +
       '<p class="gate-ref">stratifier: ' + (g ? g.name + " · " + g.code : t.gate) +
       " · " + (state.gates[t.gate] ? gateLabel(g, state.gates[t.gate]) : "unassigned") +
@@ -1519,11 +1596,22 @@ function drawCoverage() {
 function drawMass() {
   var rows = THERAPIES.map(function (t) { return { t: t, w: wrongSide(t) }; })
     .sort(function (a, b) { return b.w - a.w; });
-  var rowH = 26, W = 840, H = 46 + rows.length * rowH + 30;
+  var rowH = 26, W = 840;
+    var labelW = 300, barW = W - labelW - 96, x0 = labelW + 10;
+  // Legend keys are measured and wrapped to a second row when needed: the
+  // labels differ in length per language, so a fixed per-character
+  // advance ran the last key into the total column.
+  var LEGEND = ["harm", "blind", "under", "miss"], LEG_GAP = 16;
+  function legW(k) { return 15 + textW(SEV[k].l, 10.5) + LEG_GAP; }
+  var legLimit = x0 + barW - 26, legRows = 1, legAcc = x0;
+  LEGEND.forEach(function (k) {
+    if (legAcc > x0 && legAcc + legW(k) > legLimit) { legRows++; legAcc = x0; }
+    legAcc += legW(k);
+  });
+  var legTop = 34 + rows.length * rowH + 20;
+  var H = legTop + (legRows - 1) * 18 + 26;
   var host = document.getElementById("figMass");
   var svg = svgRoot(host, W, H, "Consequential proportion by intervention");
-  var labelW = 300, barW = W - labelW - 96, x0 = labelW + 10;
-
   [0, 0.25, 0.5, 0.75, 1].forEach(function (f) {
     var x = x0 + barW * f;
     el("line", { x1: x, y1: 34, x2: x, y2: 34 + rows.length * rowH, stroke: "var(--rule)", "stroke-width": 1 }, svg);
@@ -1546,7 +1634,14 @@ function drawMass() {
       var m = r.t.map[val.v] || r.t.map._default;
       if (m && CONSEQUENTIAL[m[0]] && w > 0) {
         var seg = el("rect", { x: cx, y: y, width: w, height: 15, fill: SEV[m[0]].v, opacity: 0.9 }, svg);
-        seg.setAttribute("data-tip", r.t.name + " — " + gateLabel(g, val.v) + ": " + SEV[m[0]].l + " (~" + Math.round(s * 100) + "% of " + POPS[state.pop] + "). " + m[1]);
+        // Tooltip carries identification only. The full consequence text is in the
+        // register table and the profile cards; embedding it here made the tooltip
+        // tall enough to cover the caption below the chart.
+        var nm = r.t.name.length > 30 ? r.t.name.slice(0, 29) + "\u2026" : r.t.name;
+        // The reference population is already selected in the control above, so it
+        // is not repeated here — that keeps the tip to two lines.
+        seg.setAttribute("data-tip", nm + " \u00b7 " + gateLabel(g, val.v) + " \u00b7 "
+          + SEV[m[0]].l + " ~" + Math.round(s * 100) + "%");
         if (w > 40) text(svg, cx + w / 2, y + 11, Math.round(s * 100) + "%", { size: 9.5, anchor: "middle", fill: "var(--sheet)", weight: 600 });
       }
       cx += w;
@@ -1554,11 +1649,12 @@ function drawMass() {
     text(svg, x0 + barW + 8, y + 12, Math.round(r.w * 100) + "%", { size: 10.5, mono: true, fill: "var(--mute)" });
   });
 
-  var ly = 34 + rows.length * rowH + 18, lx = x0;
-  ["harm", "blind", "under", "miss"].forEach(function (s) {
+  var ly = legTop, lx = x0;
+  LEGEND.forEach(function (s) {
+    if (lx > x0 && lx + legW(s) > legLimit) { ly += 18; lx = x0; }
     el("rect", { x: lx, y: ly, width: 10, height: 10, fill: SEV[s].v }, svg);
     text(svg, lx + 15, ly + 9, SEV[s].l, { size: 10.5, fill: "var(--mute)" });
-    lx += 26 + SEV[s].l.length * 6.3;
+    lx += legW(s);
   });
   text(svg, x0 + barW + 8, ly + 9, "total", { size: 10, fill: "var(--faint)", mono: true });
 }
@@ -1622,9 +1718,9 @@ function drawUro() {
 
   text(svg, x0, 34, "Dietary ellagitannin load (pomegranate / walnut / strawberry)", { size: 12, weight: 600 });
   var segs = [
-    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → urolithin A, the metabolite used in published trials. Dietary administration is effective." },
-    { w: .10, f: "var(--gold)", t: "UM-B · 10%", d: "Ellagibacter / Enterocloster → isourolithin A. A distinct compound whose pharmacology is largely uncharacterised." },
-    { w: .50, f: "var(--oxblood)", t: "UM-0 · 50%", d: "No detectable urolithin. Dietary ellagitannins have no effect at any dose or with any adherence." }
+    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → urolithin A, the metabolite used in published trials. Dietary route effective." },
+    { w: .10, f: "var(--gold)", t: "UM-B · 10%", d: "Ellagibacter / Enterocloster → isourolithin A. A distinct compound, pharmacology largely uncharacterised." },
+    { w: .50, f: "var(--oxblood)", t: "UM-0 · 50%", d: "No detectable urolithin. Dietary ellagitannins have no effect at any dose or adherence." }
   ];
   var cx = x0;
   segs.forEach(function (s) {
@@ -1638,7 +1734,7 @@ function drawUro() {
 
   text(svg, x0, 158, "Direct urolithin A administration", { size: 12, weight: 600 });
   var r2 = el("rect", { x: x0, y: 168, width: bw, height: 40, fill: "var(--slate)", opacity: 0.9 }, svg);
-  r2.setAttribute("data-tip", "The conversion step is bypassed, so administration does not depend on the individual's flora. This is the applicable route for the approximately 60% who do not produce urolithin.");
+  r2.setAttribute("data-tip", "Conversion bypassed, so administration does not depend on flora. Applicable route for the ~60% who do not produce urolithin.");
   text(svg, x0 + bw / 2, 193, "applies to all metabotypes — the conversion step is bypassed", { size: 12, anchor: "middle", fill: "var(--sheet)", weight: 600 });
 
   text(svg, x0, 242, "Reported prevalence values", { size: 12, weight: 600 });
@@ -1682,17 +1778,17 @@ function drawComt() {
   text(svg, 2, PLOT_BOT + 24, "values right of 1.0 indicate increased risk", { size: 10.5, fill: "var(--oxblood)" });
 
   var rows = [
-    { l: "Val/Val (fast) \u2014 supplement", hr: 1.18, lo: 1.06, hi: 1.31, c: "var(--oxblood)", t: "HR 1.18 (1.06\u20131.31). Present in approximately 29% of European-ancestry and 52% of Han Chinese individuals. Association present at both 50 IU/day and 600 IU alternate-day, i.e. below the 400 IU/day threshold." },
+    { l: "Val/Val (fast) \u2014 supplement", hr: 1.18, lo: 1.06, hi: 1.31, c: "var(--oxblood)", t: "HR 1.18 (1.06\u20131.31). ~29% of European-ancestry, ~52% of Han Chinese. Present at 50 IU/day and 600 IU alternate-day, i.e. below 400 IU/day." },
     { l: "Val/Met (intermediate)", hr: 1.00, lo: 0.94, hi: 1.07, c: "var(--mute)", t: "No significant interaction in the pooled gene-dose analysis." },
-    { l: "Met/Met (slow)", hr: 0.88, lo: 0.82, hi: 0.95, c: "var(--forest)", t: "HR 0.88, an approximately 12% reduction. Aspirin cardiovascular protection is also concentrated in this group." },
-    { l: "Per Val allele, supplement", hr: 1.11, lo: 1.05, hi: 1.18, c: "var(--oxblood)", t: "Gene-dose relationship: 1.11 on supplement against 0.95 on placebo, P interaction < .001." },
+    { l: "Met/Met (slow)", hr: 0.88, lo: 0.82, hi: 0.95, c: "var(--forest)", t: "HR 0.88 \u2014 ~12% reduction. Aspirin cardiovascular protection is also concentrated here." },
+    { l: "Per Val allele, supplement", hr: 1.11, lo: 1.05, hi: 1.18, c: "var(--oxblood)", t: "Gene-dose: 1.11 on supplement vs 0.95 on placebo, P interaction < .001." },
     { l: "Sister SNP rs4818 G/G", hr: 1.29, lo: 1.14, hi: 1.46, c: "var(--oxblood)", t: "Concordant result at a second COMT locus." }
   ];
   rows.forEach(function (r, i) {
     var y = ROW0 + i * PITCH;
     text(svg, x0 - 14, y + 4, r.l, { size: 12, anchor: "end" });
     var g = el("g", null, svg);
-    g.setAttribute("data-tip", r.l + " \u2014 " + r.t);
+    g.setAttribute("data-tip", r.t); // row label is already beside the point
     el("line", { x1: X(r.lo), y1: y, x2: X(r.hi), y2: y, stroke: r.c, "stroke-width": 2 }, g);
     el("line", { x1: X(r.lo), y1: y - 5.5, x2: X(r.lo), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
     el("line", { x1: X(r.hi), y1: y - 5.5, x2: X(r.hi), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
