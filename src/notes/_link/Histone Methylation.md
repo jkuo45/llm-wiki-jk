@@ -17,7 +17,7 @@ aliases: []
 
 ## Mechanism of Action & Pathways
 
-- **Writers:** [[Histone Methyltransferase]] enzymes deposit marks using [[S-adenosylmethionine]] (SAM) as the methyl donor. Lysine methyltransferases (e.g. [[SUV39H1]], [[EZH2]], [[DOT1L]]) and PRMTs (arginine) show high residue specificity.
+- **Writers:** [[Histone Methyltransferase]] enzymes deposit marks using [[SAMe]] (SAM) as the methyl donor. Lysine methyltransferases (e.g. [[SUV39H1]], [[EZH2]], [[DOT1L]]) and PRMTs (arginine) show high residue specificity.
 - **Erasers:** demethylases such as [[KDM4]] and [[JMJD3]] remove marks, making methylation dynamic and reversible.
 - **Activating vs. repressive marks:** [[H3K4me3]] and [[H3K36me3]] associate with active transcription, whereas [[H3K27me3]] (Polycomb, via [[EZH2]]) and H3K9me3 mark repressed [[Heterochromatin]].
 
@@ -40,10 +40,10 @@ aliases: []
   - [[Histone Modification]]: Broader class of post-translational histone marks.
   - [[Heterochromatin]]: Compacted chromatin maintained by repressive methylation.
   - [[Histone Acetylation]]: Complementary, often antagonistic mark.
-  - [[S-adenosylmethionine]]: Universal methyl donor.
+  - [[SAMe]]: Universal methyl donor.
   - [[Epigenetic Alterations]]: Hallmark of aging affected by methylation drift.
 
 ## Linking Summary
 
-  - New links added: [[Histone Methyltransferase]], [[Epigenetics]], [[Histone Modification]], [[Heterochromatin]], [[S-adenosylmethionine]], [[SUV39H1]], [[EZH2]], [[DOT1L]], [[KDM4]], [[JMJD3]], [[H3K4me3]], [[H3K36me3]], [[H3K27me3]], [[Histone Acetylation]], [[Transposable Elements]], [[Epigenetic Alterations]]
+  - New links added: [[Histone Methyltransferase]], [[Epigenetics]], [[Histone Modification]], [[Heterochromatin]], [[SAMe]], [[SUV39H1]], [[EZH2]], [[DOT1L]], [[KDM4]], [[JMJD3]], [[H3K4me3]], [[H3K36me3]], [[H3K27me3]], [[Histone Acetylation]], [[Transposable Elements]], [[Epigenetic Alterations]]
   - Strong connections to strengthen: Histone Methylation ↔ Histone Methyltransferase; Histone Methylation ↔ Heterochromatin; Histone Methylation ↔ Epigenetic Alterations

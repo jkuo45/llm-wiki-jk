@@ -19,7 +19,7 @@ aliases:
 
 ## Overview
 
-Methionine is the precursor of [[S-adenosylmethionine]] (SAM), the universal [[Methyl Donor|methyl donor]]. Dietary methionine deprivation may impact physiology through changes in [[Histone Methylation]] due to decreased availability of methyl donors. Cells can preserve heterochromatic stability through upregulation of [[H3K9me3|H3K9 mono-methylation]] in the liver, and most MR studies require cysteine depletion (cysteine can be synthesized from methionine) for the metabolic benefits to be observed.
+Methionine is the precursor of [[SAMe]] (SAM), the universal [[Methyl Donor|methyl donor]]. Dietary methionine deprivation may impact physiology through changes in [[Histone Methylation]] due to decreased availability of methyl donors. Cells can preserve heterochromatic stability through upregulation of [[H3K9me3|H3K9 mono-methylation]] in the liver, and most MR studies require cysteine depletion (cysteine can be synthesized from methionine) for the metabolic benefits to be observed.
 
 ## Mechanisms
 
@@ -51,7 +51,7 @@ In humans, sulfur amino acid restriction increased FGF21, reduced leptin, and re
 - [[Methionine]] — The sulfur-containing essential amino acid subject to restriction
 - [[FGF21]] — Partially mediates the metabolic response to MR
 - [[mTORC1]] — Inhibited by MR
-- [[S-adenosylmethionine]] — Universal methyl donor derived from methionine; links MR to the epigenome
+- [[SAMe]] — Universal methyl donor derived from methionine; links MR to the epigenome
 - [[Histone Methylation]] — Altered by MR through reduced methyl-donor availability
 - [[Protein Restriction]] — MR recapitulates many PR benefits
 - [[Cysteine]] — Most MR studies require cysteine depletion for benefits
@@ -63,5 +63,5 @@ In humans, sulfur amino acid restriction increased FGF21, reduced leptin, and re
 - New links added: [[Essential Amino Acids]], [[Methyl Donor]]
 - Suggested new entity notes to create: [[Essential Amino Acids]], [[Methyl Donor]]
 - Strong connections to strengthen:
-    - [[Methionine Restriction]] ↔ [[S-adenosylmethionine]]
+    - [[Methionine Restriction]] ↔ [[SAMe]]
     - [[Methionine Restriction]] ↔ [[FGF21]]

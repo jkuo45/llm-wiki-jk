@@ -2366,10 +2366,10 @@
     "updated": "2026-08-20T06:56:15Z"
   },
   {
-    "id": "fdafbb3e3db2",
+    "id": "5b5da65ce9a4",
     "subject": "COMT",
     "predicate": "uses",
-    "object": "S-adenosylmethionine",
+    "object": "SAMe",
     "context": {
       "en-US": "Catechol-O-methyltransferase (COMT) methylates the catechol ring of catecholamines using S-adenosylmethionine (SAM) as the methyl donor. In this reaction SAM transfers a methyl group to one of the adjacent hydroxyl groups of epinephrine, producing metanephrine and S-adenosylhomocysteine. COMT-mediated methylation is one of the dominant routes for terminating adrenaline and dopamine signaling. COMT inhibition can raise SAM levels while MAO inhibition may lower them, and the balance of these effects depends on the specific inhibitors used. This methylation pathway keeps adrenochrome formation a minor route under normal metabolic conditions.",
       "zh-TW": "Catechol-O-methyltransferase（COMT）使用 S-adenosylmethionine（SAM）作為甲基供體，甲基化兒茶酚胺的兒茶酚環。在此反應中，SAM 將一個甲基轉移至 epinephrine 的相鄰羥基之一，產生 metanephrine 與 S-adenosylhomocysteine。COMT 介導的甲基化是終止 adrenaline 與多巴胺訊號的主要途徑之一。COMT 抑制可升高 SAM 濃度，而 MAO 抑制可能降低之，這些效應的平衡取決於所使用的特定抑制劑。此甲基化途徑在正常代謝條件下使 adrenochrome 形成維持為次要路線。"
@@ -2377,7 +2377,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T17:48:42Z"
   },
   {
     "id": "f1d8cdccaa70",

@@ -17,7 +17,7 @@ aliases: [Metadrenaline]
 
 ## Biochemistry & Pathway
 
-- **Formation:** [[COMT]] transfers a methyl group from [[S-adenosylmethionine]] to the 3-hydroxyl of epinephrine's catechol ring, yielding metanephrine. This O-methylation is a principal route of catecholamine inactivation, working in parallel with oxidative deamination by [[Monoamine oxidase|MAO]].
+- **Formation:** [[COMT]] transfers a methyl group from [[SAMe]] to the 3-hydroxyl of epinephrine's catechol ring, yielding metanephrine. This O-methylation is a principal route of catecholamine inactivation, working in parallel with oxidative deamination by [[Monoamine oxidase|MAO]].
 - **Downstream fate:** metanephrine is further deaminated and oxidized to vanillylmandelic acid (VMA), the terminal urinary catecholamine metabolite.
 - **Localization:** much metanephrine is produced continuously within [[Chromaffin cells]] of the [[Adrenal medulla]], independent of catecholamine release.
 
@@ -45,6 +45,6 @@ Metanephrine represents the **non-oxidative** branch of [[Epinephrine]] disposal
 
 ## Linking Summary
 
-  - New links added: [[Epinephrine]], [[COMT]], [[Norepinephrine]], [[S-adenosylmethionine]], [[Monoamine oxidase]], [[Chromaffin cells]], [[Adrenal medulla]], [[Adrenochrome]], [[Aminochromes]], [[Reactive Oxygen Species]]
+  - New links added: [[Epinephrine]], [[COMT]], [[Norepinephrine]], [[SAMe]], [[Monoamine oxidase]], [[Chromaffin cells]], [[Adrenal medulla]], [[Adrenochrome]], [[Aminochromes]], [[Reactive Oxygen Species]]
   - Suggested new entity notes to create: [[Val158Met]]
   - Strong connections to strengthen: Metanephrine ↔ COMT; Metanephrine ↔ Epinephrine

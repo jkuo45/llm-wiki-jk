@@ -6902,10 +6902,10 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "6a272f6e1470",
+    "id": "cb7c4a0660c0",
     "subject": "Methionine",
     "predicate": "is_precursor_of",
-    "object": "S-adenosylmethionine",
+    "object": "SAMe",
     "context": {
       "en-US": "Methionine is the precursor of S-adenosyl-L-methionine (SAMe), the universal methyl donor used in methylation reactions throughout the body, including DNA and histone methylation. Dietary methionine deprivation may therefore impact physiology through changes in histone methylation resulting from decreased availability of methyl donors, providing a direct mechanistic link between dietary amino acid intake and the epigenome. Cells can preserve heterochromatic stability through upregulation of H3K9 methylation in the liver in response to methionine restriction. This methyl-donor pathway is a core mechanism by which methionine restriction recapitulates the benefits of protein restriction on metabolic health, frailty, and lifespan.",
       "zh-TW": "Methionine是S-adenosyl-L-methionine (SAMe)的前體，SAMe是全身甲基化反應中使用的通用甲基供體，包括DNA和組蛋白甲基化。因此，飲食中methionine缺乏可能通過甲基供體可用性減少導致的組蛋白甲基化變化來影響生理功能，提供飲食氨基酸攝入與表觀基因組之間的直接機制聯繫。細胞可以通過在肝臟中上調H3K9甲基化來應對methionine限制，從而保持異染色質穩定性。這種甲基供體路徑是methionine限制重現蛋白質限制對代謝健康、虛弱和壽命益處的核心機制。"
@@ -6913,7 +6913,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The-hallmarks-of-protein-and-amino-acid-restriction.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T17:48:42Z"
   },
   {
     "id": "033b277f1908",
@@ -71078,10 +71078,10 @@
     "updated": "2026-09-29T17:27:20Z"
   },
   {
-    "id": "f70875191eff",
+    "id": "4c5ddf146c2e",
     "subject": "Methionine",
     "predicate": "is_a_precursor_of",
-    "object": "S-adenosylmethionine",
+    "object": "SAMe",
     "context": {
       "en-US": "Methionine is one of the nine essential amino acids and the only sulfur-containing essential amino acid in mammals. It is adenylated to form S-adenosylmethionine (SAM), the universal Methyl Donor used by DNA and histone methyltransferases, which places methionine at the interface of diet, one-carbon metabolism, and the Epigenome. Dietary methionine deprivation therefore reduces methyl-donor availability and shifts DNA and Histone Methylation programs.",
       "zh-TW": "Methionine 是九種必需胺基酸之一，也是哺乳動物中唯一含硫的必需胺基酸。它經腺苷酸化形成 S-adenosylmethionine（SAM），即供 DNA 與組蛋白甲基轉移酶使用的通用 Methyl Donor，使甲硫胺酸位於飲食、單碳代謝與 Epigenome 的交界處。因此飲食中甲硫胺酸缺乏會降低甲基供體可用性，並改變 DNA 與 Histone Methylation 程序。"
@@ -71089,7 +71089,7 @@
     "confidence": 0.95,
     "source_document": "Methionine.md",
     "created": "2026-09-29T17:27:20Z",
-    "updated": "2026-09-29T17:27:20Z"
+    "updated": "2026-09-29T17:48:42Z"
   },
   {
     "id": "d2a187d42111",

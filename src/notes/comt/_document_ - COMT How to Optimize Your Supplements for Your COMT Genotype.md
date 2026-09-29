@@ -144,7 +144,7 @@ The reasoning for this is that suddenly adding a bunch of **[[Methyl Donor|methy
 - [[Methylfolate]]
 - [[Methylcobalamin]] ([[MethylB12]])
 - [[TMG]]/[[Betaine|betaine]]
-- [[SAMe]] ([[S-adenosylmethionine]])
+- [[SAMe]] ([[SAMe]])
 
 Without clinical trials on this interaction with [[Methyl Donor|methyl donors]], the need to limit this is something that may be unique to an individual. It may also depend on your [[MTHFR]] variants or other genes.
 
@@ -233,6 +233,6 @@ Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety fro
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- New links added: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[SAMe]], [[TMG]], [[Betaine]], [[Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
 - Suggested new entity notes to create: [[COMT]], [[COMT|Catechol-O-methyltransferase]], [[Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
 - Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[Dopamine]].

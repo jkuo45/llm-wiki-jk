@@ -28,7 +28,7 @@ Established and maintained by [[DNA Methyltransferase]] (DNMTs):
 The biochemical cycle involves the transfer of methyl groups for various cellular functions.
 ### Key Components
 - **Enzymes**: [[MTHFR]], [[MTRR]], [[MTHFD1]], [[COMT]].
-- **Nutrients/Substrates**: [[Folate]], [[Vitamin B12]], [[SAMe]] ([[S-adenosylmethionine]]), [[TMG]].
+- **Nutrients/Substrates**: [[Folate]], [[Vitamin B12]], [[SAMe]] ([[SAMe]]), [[TMG]].
 ### Role in [[COMT]] Function
 [[COMT]] requires a methyl group from [[SAMe]] to metabolize catechols like [[Dopamine]], [[Norepinephrine]], and [[Estrogen]]. 
 - Individuals with slow [[COMT]] variants may be sensitive to [[Methyl Donor]] supplements (e.g., [[Methylfolate]], [[MethylB12]]), which can affect neurotransmitter levels.
