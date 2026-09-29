@@ -30980,5 +30980,1321 @@
     "source_document": "siRNA.md",
     "created": "2026-09-29T14:40:23Z",
     "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "54c325225942",
+    "subject": "Oxfendazole",
+    "predicate": "is_derived_from",
+    "object": "Fenbendazole",
+    "context": {
+      "en-US": "Oxfendazole (fenbendazole sulfoxide) is the primary active sulfoxide metabolite of Fenbendazole, oxidized from the parent drug in the liver and reducible back to it, so the two form a reversible hepatic redox pair that is further metabolized to fenbendazole sulfone.",
+      "zh-TW": "Oxfendazole（fenbendazole sulfoxide）是 Fenbendazole 的主要活性硫氧化物代謝物，在肝臟中由母藥氧化而得，並可被還原回去，因此兩者形成可逆的肝臟氧化還原配對，之後進一步被代謝為 fenbendazole sulfone。"
+    },
+    "confidence": 0.95,
+    "source_document": "Oxfendazole.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "532981ebab20",
+    "subject": "Oxfendazole",
+    "predicate": "is_a_type_of",
+    "object": "Benzimidazole",
+    "context": {
+      "en-US": "Oxfendazole is a benzimidazole anthelmintic, sitting alongside the sister benzimidazoles Albendazole and Mebendazole, and is handled by the same class of hepatic metabolizing enzymes, which is why it shares their drug-interaction and toxicology profile.",
+      "zh-TW": "Oxfendazole 是 benzimidazole 類的驅蟲藥，與姊妹藥 Albendazole 及 Mebendazole 同屬此類，並由同一類肝臟代謝酵素處理，因此共享其藥物交互作用與毒理學特性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Oxfendazole.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "144b0a605cd0",
+    "subject": "Oxfendazole",
+    "predicate": "binds",
+    "object": "Tubulin",
+    "context": {
+      "en-US": "Tubulin is the direct molecular target of Oxfendazole: the drug binds beta-tubulin and prevents it from assembling into microtubules, which in helminths paralyzes glucose uptake and in rapidly dividing tumor cells disrupts the mitotic spindle, arresting cells in metaphase and triggering mitotic catastrophe and Apoptosis.",
+      "zh-TW": "Tubulin 是 Oxfendazole 的直接分子標的：該藥與 beta-tubulin 結合並阻止其組裝成 microtubule，在蠕蟲中使葡萄糖攝取麻痺，在快速分裂的腫瘤細胞中則破壞紡錘體，使細胞停滯於中期，誘發有絲分裂災難與 Apoptosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Oxfendazole.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "b6461ec0356f",
+    "subject": "Oxfendazole",
+    "predicate": "inhibits",
+    "object": "Microtubule",
+    "context": {
+      "en-US": "By inhibiting Microtubule polymerization, Oxfendazole reproduces the mechanism of clinically used tubulin-binding chemotherapy such as taxanes and vinca alkaloids, which is what makes it a low-cost candidate for repurposing as an anticancer agent in tumors with high proliferative index.",
+      "zh-TW": "藉由抑制 Microtubule 聚合，Oxfendazole 重現了 taxanes 與 vinca alkaloids 等臨床抗微管化療藥的機制，這正是它作為抗癌藥再定位候選、成本低廉的原因，尤其適用於增殖指數高的腫瘤。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxfendazole.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "011aac4b0c78",
+    "subject": "Oxfendazole",
+    "predicate": "is_metabolized_by",
+    "object": "Cytochrome P450",
+    "context": {
+      "en-US": "Like other benzimidazoles, Oxfendazole is metabolized by Cytochrome P450 enzymes including CYP2C19 and the cardiac isoform CYP2J2, which shapes drug exposure and the potential for drug-drug interactions during repurposing trials.",
+      "zh-TW": "與其他 benzimidazole 類藥物相同，Oxfendazole 由包括 CYP2C19 與心臟型 CYP2J2 在內的 Cytochrome P450 酵素代謝，這會影響藥物暴露量以及再定位試驗中的潛在藥物交互作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oxfendazole.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "17f77713cfbe",
+    "subject": "TLR4",
+    "predicate": "binds",
+    "object": "PAMP",
+    "context": {
+      "en-US": "TLR4 is a pattern recognition receptor of the Innate Immune System that specifically recognizes the PAMP LPS from Gram-negative bacteria; the same receptor also senses host-derived DAMPs such as ATP, HMGB1 and uric acid, blurring the PAMP-versus-DAMP boundary.",
+      "zh-TW": "TLR4 是 Innate Immune System 的模式辨識受體，專一性辨識來自革蘭氏陰性菌的 PAMP——LPS；同一受體也能感知宿主來源的 DAMP，例如 ATP、HMGB1 與尿酸，模糊了 PAMP 與 DAMP 的界線。"
+    },
+    "confidence": 0.95,
+    "source_document": "PAMP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "0e9c73d30996",
+    "subject": "RIG-I",
+    "predicate": "binds",
+    "object": "PAMP",
+    "context": {
+      "en-US": "RIG-I, together with MDA5, is a cytosolic pattern recognition receptor that detects PAMP in the form of viral RNA, contributing to type I interferon induction; by contrast, cGAS senses cytosolic DNA of microbial origin.",
+      "zh-TW": "RIG-I 與 MDA5 一起作為胞質內的模式辨識受體，偵測以病毒 RNA 形式存在的 PAMP，參與第一型干擾素的誘導；相對地，cGAS 則偵測微生物來源的胞質 DNA。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAMP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "4b7b9f476483",
+    "subject": "PAMP",
+    "predicate": "activates",
+    "object": "Innate Immune System",
+    "context": {
+      "en-US": "PAMP are conserved microbial motifs absent from host cells; their engagement of pattern recognition receptors such as TLRs, NOD-like receptors and RLRs is what activates the Innate Immune System and triggers an inflammatory response.",
+      "zh-TW": "PAMP 是微生物特有、宿主細胞不具的保守分子基序；它們與 TLR、NOD-like receptors、RLR 等模式辨識受體結合，正是啟動 Innate Immune System 並引發發炎反應的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "PAMP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "33dc64ae9719",
+    "subject": "PAMP",
+    "predicate": "causes",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Inflammation is the direct downstream consequence of PAMP recognition: PRR signalling sets in motion NF-κB-driven cytokine release, and chronic infection-driven inflammation sustained by PAMP signalling is a documented contributor to Tumorigenesis in H. pylori-associated gastric cancer, HPV-associated cervical cancer and HBV/HCV-associated hepatocellular carcinoma.",
+      "zh-TW": "Inflammation 是 PAMP 辨識後的直接下游結果：PRR 訊號啟動 NF-κB 驅動的細胞激素釋放，而由 PAMP 訊號維持的慢性感染發炎，則是 H. pylori 相關胃癌、HPV 相關子宮頸癌與 HBV/HCV 相關肝細胞癌中已被記錄的 Tumorigenesis 促成因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAMP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "459f75a67b50",
+    "subject": "cGAS",
+    "predicate": "binds",
+    "object": "PAMP",
+    "context": {
+      "en-US": "cGAS senses cytosolic DNA and does not distinguish its origin: microbial DNA functions as a PAMP while host-derived cytosolic DNA functions as a DAMP, so cGAS is a shared node for both branches of the cGAS-STING pathway.",
+      "zh-TW": "cGAS 偵測胞質 DNA 且不區分其來源：微生物 DNA 扮演 PAMP，宿主來源的胞質 DNA 則扮演 DAMP，因此 cGAS 是 cGAS-STING 訊號路徑兩條分支的共同節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "PAMP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "4971cb148108",
+    "subject": "PKA",
+    "predicate": "phosphorylates",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "PKA phosphorylates the initiator Caspase-9 at Ser99, Ser183 and Ser195, modulating its stability and activity so as to dampen the intrinsic apoptotic program. This survival-toned phosphorylation can protect normal cells under stress but also supports Cancer cell survival and resistance to cell death.",
+      "zh-TW": "PKA 會在 Ser99、Ser183 與 Ser195 磷酸化起始型 Caspase-9，調節其穩定性與活性，從而抑制內在性凋亡程式。這種偏向存活的磷酸化可保護受壓的正常細胞，但也能支持 Cancer 細胞存活與對細胞死亡的抵抗。"
+    },
+    "confidence": 0.9,
+    "source_document": "PKA.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "170e24cd0949",
+    "subject": "PKA",
+    "predicate": "phosphorylates",
+    "object": "Bim",
+    "context": {
+      "en-US": "Bim is a pro-apoptotic Bcl-2 family member whose stability and activity are modulated by PKA phosphorylation. By phosphorylating Bim and other pro-apoptotic effectors, PKA reduces the apoptotic set-point of the cell, which is a mechanism tumors exploit to survive.",
+      "zh-TW": "Bim 是促凋亡的 Bcl-2 家族成員，其穩定性與活性受 PKA 磷酸化調節。PKA 藉由磷酸化 Bim 及其他促凋亡效應蛋白，降低細胞的凋亡設定點，而腫瘤正是利用此機制得以存活。"
+    },
+    "confidence": 0.85,
+    "source_document": "PKA.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "006a259dd82b",
+    "subject": "PKA",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "PKA inhibits Apoptosis by phosphorylating pro-apoptotic Bcl-2 family members such as Bad and Bim and the apoptotic executioner Caspase-9. Dysregulation of this cAMP/PKA axis is implicated in endocrine tumors, leukemias and other malignancies, and blocking it is explored to sensitize tumors to Chemotherapy.",
+      "zh-TW": "PKA 藉由磷酸化促凋亡的 Bcl-2 家族成員（如 Bad 與 Bim）以及凋亡執行者 Caspase-9 而抑制 Apoptosis。此 cAMP/PKA 軸的失調與內分泌腫瘤、白血病及其他惡性腫瘤有關，抑制此軸正被探索以提高腫瘤對 Chemotherapy 的敏感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "PKA.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "cfe71e0e84ce",
+    "subject": "PP1",
+    "predicate": "counteracts",
+    "object": "CaMKII",
+    "context": {
+      "en-US": "PP1 counteracts CaMKII in death signaling: by dephosphorylating serines and threonines on Caspase-2 that CaMKII had activated, PP1 sets the threshold for PIDDosome-dependent Apoptosis downstream of DNA damage. CaMKII places the mark, PP1 removes it, and the balance between the two sets the apoptotic set-point.",
+      "zh-TW": "在死亡訊號中 PP1 與 CaMKII 相互對抗：PP1 將 CaMKII 活化的 Caspase-2 上的絲胺酸與蘇胺酸去磷酸化，因而設定 DNA 損傷下游 PIDDosome 依賴性 Apoptosis 的閾值。由 CaMKIA 加上標記、PP1 移除標記，兩者的平衡決定凋亡設定點。"
+    },
+    "confidence": 0.95,
+    "source_document": "PP1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "6a1dfbfcfa3c",
+    "subject": "PP1",
+    "predicate": "regulates",
+    "object": "Caspase-2",
+    "context": {
+      "en-US": "PP1 regulates Caspase-2 by reversing phosphorylation, so in Cancer, where PP1 activity is frequently altered, both loss of tumor-suppressive dephosphorylation and ectopic activity that dampens apoptotic priming have been described. Substrate specificity is conferred by regulatory subunits such as spinophilin and inhibitor-1 rather than by the promiscuous catalytic core.",
+      "zh-TW": "PP1 藉由逆轉磷酸化來調節 Caspase-2；在 Cancer 中 PP1 活性經常改變，無論是腫瘤抑制型去磷酸化的喪失，還是抑制凋亡預備狀態的異位活性，都已被描述。PP1 的受質專一性由 spinophilin 與 inhibitor-1 等調節次單元賦予，而非由本身具多效性的催化核心賦予。"
+    },
+    "confidence": 0.9,
+    "source_document": "PP1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "5b99b0027a87",
+    "subject": "PP1",
+    "predicate": "regulates",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Because PP1 integrates cAMP, calcium and stress signalling to maintain homeostasis, its activity levels directly shift the balance between survival and Apoptosis, a node that maps onto evasion of cell death among the Hallmarks of Cancer. Calyculin A and okadaic acid are research inhibitors; targeting specific PP1 holoenzymes would offer selectivity that catalytic inhibition cannot.",
+      "zh-TW": "由於 PP1 整合 cAMP、鈣離子與壓力訊號以維持恆定，其活性 level 直接左右存活與 Apoptosis 的平衡，此節點對應 Hallmarks of Cancer 中的細胞死亡逃逸。Calyculin A 與 okadaic acid 是研究用抑制劑；若能針對特定 PP1 全酵素，將可獲得催化抑制所沒有的選擇性。"
+    },
+    "confidence": 0.85,
+    "source_document": "PP1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "309f70b3f46f",
+    "subject": "PP1α",
+    "predicate": "is_a_type_of",
+    "object": "PP1",
+    "context": {
+      "en-US": "PP1α is the alpha catalytic isoform of PP1, encoded by PPP1CA. Like all PP1 isoforms it carries the conserved PP1 catalytic fold with a beta12-alphaC loop binding two Mn2+/Fe2+ ions, but its substrate specificity comes from associated regulatory proteins recognizing RVxF motifs rather than from the catalytic core itself.",
+      "zh-TW": "PP1α 是 PP1 的 alpha 催化異型，由 PPP1CA 編碼。與所有 PP1 異型相同，它帶有保守的 PP1 催化摺疊，其 beta12-alphaC 迴圈結合兩個 Mn2+/Fe2+ 離子；但其受質專一性來自辨識 RVxF 基序的結合調節蛋白，而非催化核心本身。"
+    },
+    "confidence": 0.95,
+    "source_document": "PP1α.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "d72925869fab",
+    "subject": "PP1α",
+    "predicate": "activates",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "PP1α activates Caspase-9 by removing the inhibitory phosphate from Thr125 in the caspase-9 prodomain, a mark placed by survival kinases such as Akt and Rsk. Relieving that inhibition permits apoptosome-driven activation, making PP1α a pro-death phosphatase in the intrinsic apoptosis pathway.",
+      "zh-TW": "PP1α 藉由移除 caspase-9 前結構域上 Thr125 的抑制性磷酸基（由 Akt 與 Rsk 等存活激酶加上）而活化 Caspase-9。解除該抑制後即可進行 apoptosome 驅動的活化，使 PP1α 在內在性凋亡路徑中成為促死亡的磷酸酶。"
+    },
+    "confidence": 0.95,
+    "source_document": "PP1α.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "10e9cddd0606",
+    "subject": "PP1α",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Through Caspase-9 activation, PP1α promotes Apoptosis. In Cancer, reduced PP1α access to Caspase-9, whether through scaffold competition or inhibitory phosphorylation of PP1α itself, blocks apoptosis and thereby supports evasion of cell death; enhancing PP1α activity is therefore proposed as a way to overcome Chemotherapy resistance.",
+      "zh-TW": "PP1α 透過活化 Caspase-9 促進 Apoptosis。在 Cancer 中，PP1α 對 Caspase-9 的可及性下降——無論是支架競爭還是 PP1α 本身被抑制性磷酸化——都會阻斷凋亡並助長細胞死亡逃逸；因此提升 PP1α 活性被提出作為克服 Chemotherapy 抗藥性的方法。"
+    },
+    "confidence": 0.9,
+    "source_document": "PP1α.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "3452a4e901cb",
+    "subject": "PP1α",
+    "predicate": "is_opposed_by",
+    "object": "Akt",
+    "context": {
+      "en-US": "Akt and PP1α act on the same Caspase-9 residue from opposite directions: Akt phosphorylates Thr125 and suppresses initiator caspase activity, whereas PP1α dephosphorylates that same site and releases the inhibition. The resulting balance determines apoptotic priming in tumor cells.",
+      "zh-TW": "Akt 與 PP1α 從相反方向作用於 Caspase-9 的同一殘基：Akt 磷酸化 Thr125 並抑制起始型 caspase 活性，而 PP1α 則將同一位置去磷酸化並解除抑制。兩者的平衡決定腫瘤細胞的凋亡預備狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "PP1α.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "7cb61bbfe0d7",
+    "subject": "PTPN2",
+    "predicate": "is_a_member_of",
+    "object": "PTPN family",
+    "context": {
+      "en-US": "PTPN2 (TC-PTP) is a ubiquitously expressed non-receptor protein tyrosine phosphatase belonging to the PTPN family, distinguished by an N-terminal catalytic domain with the conserved HCxxR motif and a C-terminal tail that directs nuclear/cytoplasmic localization and substrate engagement.",
+      "zh-TW": "PTPN2（TC-PTP）是廣泛表現的非受體型蛋白酪胺酸磷酸酶，屬於 PTPN family，其特徵為帶有保守 HCxxR 基序的 N 端催化區，以及負責核質定位與受質招募的 C 端尾部。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "d022cdd2134e",
+    "subject": "PTPN family",
+    "predicate": "dephosphorylates",
+    "object": "BAK",
+    "context": {
+      "en-US": "Members of the PTPN family, including PTPN2, PTPN5 and PTPN23, are required for the dephosphorylation and inactivation of BAK at Tyr108 during anoikis in fibrosarcoma and Colon Cancer cells. BAK dephosphorylation is therefore a checkpoint that keeps unattached, damaged cells from committing to mitochondrial death.",
+      "zh-TW": "PTPN family 的成員（包括 PTPN2、PTPN5 與 PTPN23）在纖維肉瘤與 Colon Cancer 細胞的失巢凋亡過程中，是 BAK 於 Tyr108 被去磷酸化並失活所必需。BAK 的去磷酸化因此成為一道檢查點，防止脫落且受損的細胞提交線粒體死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTPN family.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "d92353028bed",
+    "subject": "PTPN23",
+    "predicate": "is_a_member_of",
+    "object": "PTPN family",
+    "context": {
+      "en-US": "PTPN23 (HD-PTP) is a PTPN family member distinguished from other members by an N-terminal Bro1 domain that links it to CHMP proteins of the ESCRT-III complex and to ubiquitinated cargo, allowing the phosphatase domain to couple death signalling to endosomal sorting.",
+      "zh-TW": "PTPN23（HD-PTP）是 PTPN family 的成員，與其他成員不同的是它帶有 N 端 Bro1 結構域，可連結 ESCRT-III 複合體的 CHMP 蛋白與泛素化貨載，使磷酸酶區域能把死亡訊號與內體分選串接起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN23.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "1fcb8b9018f5",
+    "subject": "PTPN family",
+    "predicate": "is_associated_with",
+    "object": "Colon Cancer",
+    "context": {
+      "en-US": "The Colon Cancer context is where PTPN family phosphatase activity was characterized mechanistically: PTPN2, PTPN5 and PTPN23 were identified as the phosphatases required for BAK inactivation in fibrosarcoma and Colon Cancer cells, tying this family to evasion of apoptosis as a cancer hallmark.",
+      "zh-TW": "PTPN family 磷酸酶活性在機轉上被確認的背景正是 Colon Cancer：PTPN2、PTPN5 與 PTPN23 被確認為纖維肉瘤與 Colon Cancer 細胞中 BAK 失活所必需的磷酸酶，將此家族與作為癌症特徵的凋亡逃逸連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "PTPN family.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "e8781c6b2ab9",
+    "subject": "PTPN2",
+    "predicate": "dephosphorylates",
+    "object": "JAK2",
+    "context": {
+      "en-US": "PTPN2 dephosphorylates JAK2 and STAT3, removing activating phosphotyrosines and thereby terminating cytokine and growth-factor signalling. Loss of PTPN2, frequent in colorectal, breast and leukemia contexts, permits sustained JAK/STAT and MAPK signalling that supports the Hallmarks of Cancer.",
+      "zh-TW": "PTPN2 會將 JAK2 與 STAT3 去磷酸化，移除其活化性磷酸酪胺酸，藉此終止細胞激素與生長因子訊號。PTPN2 的喪失在結直腸癌、乳癌與白血病情境中相當常見，使 JAK/STAT 與 MAPK 訊號持續活化，支撐 Hallmarks of Cancer。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "78377ca4158f",
+    "subject": "PTPN2",
+    "predicate": "dephosphorylates",
+    "object": "STAT3",
+    "context": {
+      "en-US": "STAT3 is a principal substrate of PTPN2, whose dephosphorylation restrains cytokine-driven transcription. Because PTPN2 also acts on the pro-apoptotic Bcl-2 family protein BAK, it links growth signalling to Apoptosis, and its deletion both sustains signalling and impairs cytotoxic T-cell priming in the tumor microenvironment, enabling Immune Evasion.",
+      "zh-TW": "STAT3 是 PTPN2 的主要受質，被其去磷酸化後可抑制細胞激素驅動的轉錄。由於 PTPN2 也作用於促凋亡的 Bcl-2 家族蛋白 BAK，它把生長訊號與 Apoptosis 連結起來；其缺失不僅維持訊號活化，也損害腫瘤微環境中細胞毒性 T 細胞的起始，促成 Immune Evasion。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTPN2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "be15f0788be1",
+    "subject": "PTPN2",
+    "predicate": "suppresses",
+    "object": "Immune Evasion",
+    "context": {
+      "en-US": "Intact PTPN2 suppresses Immune Evasion by permitting cytotoxic T-cell priming within the tumor; conversely, PTPN2 deletion or downregulation lets tumor cells escape immune killing. Pharmacologic inhibition (e.g. lictrestivint) is being explored to reverse this, enhancing checkpoint-blockade efficacy.",
+      "zh-TW": "完整的 PTPN2 藉由容許腫瘤內細胞毒性 T 細胞的起始而抑制 Immune Evasion；反之，PTPN2 的缺失或下調則讓腫瘤細胞逃過免疫殺傷。藥理抑制（如 lictrestivint）正被探索用來逆轉此現象以提升檢查點阻斷療法的效力。"
+    },
+    "confidence": 0.85,
+    "source_document": "PTPN2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "4b8c33a49dc0",
+    "subject": "PTPN2",
+    "predicate": "dephosphorylates",
+    "object": "BAK",
+    "context": {
+      "en-US": "PTPN2 dephosphorylates the pro-apoptotic Bcl-2 family protein BAK, modulating its activation and thereby influencing Apoptosis. Because it is required for BAK inactivation at Tyr108, PTPN2 is positioned to dampen mitochondrial death commitment, which is why BAK-targeted death sensitization is often limited when PTPN2 is intact.",
+      "zh-TW": "PTPN2 會將促凋亡的 Bcl-2 家族蛋白 BAK 去磷酸化，調節其活化程度，進而影響 Apoptosis。由於它是 BAK 於 Tyr108 失活所必需的酵素，PTPN2 得以抑制線粒體死亡承諾；這也是為何當 PTPN2 完整存在時，以 BAK 為標的的死亡致敏策略常受侷限。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTPN2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "778d7a6358c8",
+    "subject": "PTPN2",
+    "predicate": "dephosphorylates",
+    "object": "ERK",
+    "context": {
+      "en-US": "Alongside JAK2 and STAT3, ERK is one of the signalling nodes whose activating phosphotyrosines PTPN2 removes, terminating proliferative and survival output. This makes PTPN2 a broad brake on oncogenic cascades rather than a pathway-specific inhibitor.",
+      "zh-TW": "與 JAK2、STAT3 並列，ERK 也是 PTPN2 移除其活化性磷酸酪胺酸以終止增殖與存活輸出的訊號節點。這使 PTPN2 成為癌化訊號級聯的廣泛煞車，而非路徑專一性抑制劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTPN2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "f8eba52d6058",
+    "subject": "PTPN23",
+    "predicate": "dephosphorylates",
+    "object": "BAK",
+    "context": {
+      "en-US": "PTPN23 dephosphorylates and regulates the pro-apoptotic protein BAK, connecting trafficking control to mitochondrial death commitment. This Bak-regulating activity is required during anoikis in fibrosarcoma and Colon Cancer cells, where loss of PTPN23 permits survival of detached cells and evasion of Apoptosis.",
+      "zh-TW": "PTPN23 會將促凋亡蛋白 BAK 去磷酸化並加以調節，把運輸調控與線粒體死亡承諾連結起來。這項 Bak 調節活性在纖維肉瘤與 Colon Cancer 細胞的失巢凋亡期間是必需的；PTPN23 喪失時，脫落的細胞得以存活並逃過 Apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTPN23.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "3c4bda379ecb",
+    "subject": "PTPN23",
+    "predicate": "is_a_type_of",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "PTPN23 acts as a Tumor Suppressor Gene: by promoting lysosomal degradation of oncogenic receptor tyrosine kinases such as EGFR and restraining survival signalling, it suppresses proliferation and supports the death of damaged cells. Reduced PTPN23 expression is associated with aggressive disease and loss of apoptosis.",
+      "zh-TW": "PTPN23 扮演 Tumor Suppressor Gene 的角色：藉由促進 EGFR 等致癌受體酪胺酸激酶的溶酶體降解並抑制存活訊號，它抑制增殖並支持受損細胞死亡。PTPN23 表現降低與侵襲性疾病及凋亡喪失相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTPN23.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "6166f8607e18",
+    "subject": "PTPN23",
+    "predicate": "mediates_degradation_of",
+    "object": "EGFR",
+    "context": {
+      "en-US": "Through its Bro1 domain, PTPN23 participates in multivesicular body biogenesis and lysosomal degradation of EGFR, downregulating the receptor and blunting the survival signalling it emits. Loss of this function lets EGFR signalling persist and contributes to the Hallmarks of Cancer.",
+      "zh-TW": "PTPN23 透過其 Bro1 結構域參與多囊泡體生成與 EGFR 的溶酶體降解，使該受體下調並削弱其發出的存活訊號。此功能喪失時 EGFR 訊號得以持續，助長 Hallmarks of Cancer。"
+    },
+    "confidence": 0.85,
+    "source_document": "PTPN23.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "ebafa7a4b019",
+    "subject": "Pancreatic Beta Cells",
+    "predicate": "produces",
+    "object": "Insulin",
+    "context": {
+      "en-US": "Pancreatic Beta Cells are the endocrine cells of the islets of Langerhans that synthesize and secrete Insulin in response to glucose. Glucose-stimulated insulin secretion couples glycolytic flux to granule exocytosis and requires intact mitochondrial function plus coordinated ERK and STAT3 signalling.",
+      "zh-TW": "Pancreatic Beta Cells 是 Langerhans 島中負責合成並分泌 Insulin 的內分泌細胞。葡萄糖刺激的胰島素分泌將糖解通量與顆粒胞吐耦合，並需要完整的粒線體功能以及協調的 ERK 與 STAT3 訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pancreatic Beta Cells.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "0ad7a971b7e2",
+    "subject": "Humanin",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Humanin inhibits Apoptosis in beta cells, and the protective effect is transduced in an ERK- and STAT3-dependent manner. This links mitochondrial-derived peptide signalling to cytokine resistance, opposing the IL-1beta, TNFalpha and Interferon-gamma driven cell death triggered by infiltrating Lymphocytes and activated Macrophages in type 1 diabetes.",
+      "zh-TW": "Humanin 在 beta 細胞中抑制 Apoptosis，且其保護作用經由 ERK 與 STAT3 依賴的方式傳遞。這把粒線體衍生胜肽訊號與細胞激素抗性連結起來，對抗第一型糖尿病中浸潤的 Lymphocytes 與活化的 Macrophages 所釋放 IL-1β、TNFα 與 Interferon-gamma 引發的細胞死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Beta Cells.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "3b5127073661",
+    "subject": "IL-1β",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "In the islet, IL-1β released by infiltrating Lymphocytes and activated Macrophages induces Apoptosis in Pancreatic Beta Cells, alongside TNFalpha and Interferon-gamma. Progressive lymphocyte accumulation and beta-cell destruction are the central lesions of type 1 diabetes, and Humanin counteracts this cytokine-driven death.",
+      "zh-TW": "在胰島中，浸潤的 Lymphocytes 與活化的 Macrophages 釋放的 IL-1β 與 TNFα、Interferon-gamma 一同誘發 Pancreatic Beta Cells 的 Apoptosis。淋巴球逐漸累積與 beta 細胞破壞是第一型糖尿病的核心病灶，而 Humanin 可對抗這種細胞激素驅動的死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Beta Cells.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "09bb990644af",
+    "subject": "Humanin",
+    "predicate": "requires",
+    "object": "STAT3",
+    "context": {
+      "en-US": "The beta-cell survival signal delivered by Humanin requires both ERK and STAT3. Downstream of these kinases the mitochondrial-derived peptide connects peptide signalling to islet preservation, which is why MEK/ERK or STAT3 inhibition would be expected to blunt the protective effect.",
+      "zh-TW": "Humanin 傳遞的 beta 細胞存活訊號同時需要 ERK 與 STAT3。在這兩個激酶下游，這個粒線體衍生胜肽把胜肽訊號與胰島保存連結起來，因此抑制 MEK/ERK 或 STAT3 預期會削弱其保護作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "Pancreatic Beta Cells.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "5d9f1087a6e2",
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Pediculosis",
+    "context": {
+      "en-US": "Ivermectin treats Pediculosis: topical 0.5% lotion or oral ivermectin at 200 micrograms/kg repeated in 7-10 days are used for pubic lice, and the drug is an alternative when permethrin resistance or poor compliance complicates head-lice treatment.",
+      "zh-TW": "Ivermectin 可治療 Pediculosis：0.5% 外用洗劑或每公斤 200 微克、7 至 10 天後重複的口服 ivermectin 可用於陰蝨，而當 permethrin 抗藥性或依從性不佳使頭蝨治療複雜化時，此藥為替代選擇。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pediculosis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "16bc03b64a80",
+    "subject": "Pediculosis",
+    "predicate": "causes",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Pediculosis is driven by a hypersensitivity reaction to louse saliva, and the intense pruritus that follows causes persistent scratching, excoriations and secondary bacterial impetiginization with cervical or occipital lymphadenopathy. These lesions reflect local Inflammation around the feeding sites.",
+      "zh-TW": "Pediculosis 由對蝨唾液的過敏反應驅動，隨後的劇烈搔癢造成持續抓破、擦傷與繼發性細菌膿皰病，並可伴隨頸部或枕部淋巴結腫大。這些病灶反映了叮咬處的局部 Inflammation。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pediculosis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "ce1b9908ab90",
+    "subject": "Pediculosis",
+    "predicate": "is_associated_with",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Pediculosis carries a substantial infectious-disease burden because body lice transmit Rickettsia prowazekii (epidemic typhus), Bartonella quintana (trench fever) and Borrelia recurrentis (relapsing fever). These louse-borne diseases flourish under war, disaster, displacement and homelessness, making epidemic typhus a re-emerging threat.",
+      "zh-TW": "Pediculosis 帶有相當的傳染病負擔，因為體蝨會傳播 Rickettsia prowazekii（流行性斑疹傷寒）、Bartonella quintana（戰壕熱）與 Borrelia recurrentis（回歸熱）。這些蝨媒疾病在戰爭、災害、流離失所與無家可歸情境下盛行，使流行性斑疹傷寒成為重新興起的威脅。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pediculosis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "7a3d409842ba",
+    "subject": "Polo kinase 3",
+    "predicate": "phosphorylates",
+    "object": "Bcl-xL",
+    "context": {
+      "en-US": "Polo kinase 3 phosphorylates the anti-apoptotic protein Bcl-xL at Ser49 during cell cycle progression and at checkpoint states, altering Bcl-xL's capacity to restrain Apoptosis and tipping damaged cells toward mitochondrial death. The site is distinct from the Ser62 targeted by PLK1, marking Plk3 as a stress-coupled rather than mitotic-execution kinase.",
+      "zh-TW": "Polo kinase 3 在細胞週期推進與檢查點狀態下於 Ser49 磷酸化抗凋亡蛋白 Bcl-xL，改變 Bcl-xL 抑制 Apoptosis 的能力，使受損細胞倒向線粒體死亡。此位點與 PLK1 所標的的 Ser62 不同，標示出 Plk3 是與壓力偶聯的激酶，而非執行有絲分裂者。"
+    },
+    "confidence": 0.95,
+    "source_document": "Polo kinase 3.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "5b097f38b93d",
+    "subject": "Polo kinase 3",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Polo kinase 3 promotes Apoptosis indirectly: Plk3 is induced by genotoxic and oxidative stress, activated through stress-kinase cascades, and its phosphorylation of Bcl-xL enforces the checkpoint by eliminating cells with unresolved damage. Loss or silencing of Plk3 in Cancer lets stressed cells survive, contributing to evasion of apoptosis and genomic instability.",
+      "zh-TW": "Polo kinase 3 間接促進 Apoptosis：Plk3 由基因毒與氧化壓力誘導，經壓力激酶級聯活化，並藉由磷酸化 Bcl-xL 強制執行檢查點，淘汰損傷未解決的細胞。Plk3 在 Cancer 中喪失或被靜默時，受壓細胞得以存活，促成凋亡逃逸與基因體不穩定。"
+    },
+    "confidence": 0.9,
+    "source_document": "Polo kinase 3.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "afbb455a2b52",
+    "subject": "Polo kinase 3",
+    "predicate": "is_distinct_from",
+    "object": "PLK1",
+    "context": {
+      "en-US": "Polo kinase 3 is distinct from PLK1 despite family membership: PLK1 is the oncogenic mitotic execution kinase that phosphorylates Bcl-xL at Ser62, whereas Plk3 is a tumor-suppressive stress sensor acting at Ser49. Care is needed not to conflate the two when interpreting polo-kinase biology.",
+      "zh-TW": "Polo kinase 3 雖同屬家族，卻與 PLK1 明顯不同：PLK1 是致癌的有絲分裂執行激酶，作用於 Bcl-xL 的 Ser62；而 Plk3 則是作用於 Ser49 的腫瘤抑制性壓力感測器。解讀 polo 激酶生物學時須注意不可將兩者混為一談。"
+    },
+    "confidence": 0.9,
+    "source_document": "Polo kinase 3.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "dbffafab2892",
+    "subject": "Propolis",
+    "predicate": "is_produced_by",
+    "object": "Honeybee",
+    "context": {
+      "en-US": "Propolis is produced by the Honeybee (Apis mellifera) by mixing plant exudates with beeswax and salivary enzymes, and is used inside the hive as a sealant and antimicrobial barrier. Its composition varies with geographic and plant source, yielding distinct types such as Brazilian green and European poplar propolis.",
+      "zh-TW": "Propolis 由 Honeybee（Apis mellifera）將植物分泌物與蜂蠟、唾液酵素混合製成，在蜂巢內作為封閉劑與抗菌屏障使用。其成分隨地理與植物來源而異，形成巴西綠蜂膠與歐洲楊樹蜂膠等不同類型。"
+    },
+    "confidence": 0.95,
+    "source_document": "Propolis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "0312ccb83ddd",
+    "subject": "Propolis",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Propolis inhibits NF-κB, with its caffeic acid phenethyl ester (CAPE) acting as a potent inhibitor of NF-κB and of COX-2. This transcription-factor suppression is the shared mechanistic basis for both the anti-inflammatory and the anti-cancer activity attributed to propolis extracts.",
+      "zh-TW": "Propolis 抑制 NF-κB，其中咖啡酸苯乙酯（CAPE）是 NF-κB 與 COX-2 的強效抑制劑。這種轉錄因子抑制，是 propolis 萃取物同時具有抗發炎與抗癌活性的共同機轉基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Propolis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "7c4c696d5e9f",
+    "subject": "Propolis",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Propolis induces Apoptosis in tumor models, with its phenolic component CAPE directly inducing apoptosis and inhibiting NF-κB. Combined with cell cycle arrest and modulation of PI3K/Akt and Wnt/beta-catenin signalling, this underlies the observed antiproliferative activity in Breast Cancer, Prostate Cancer, Colorectal Cancer, Melanoma and Glioblastoma cell lines.",
+      "zh-TW": "Propolis 在腫瘤模型中誘發 Apoptosis，其酚類成分 CAPE 可直接誘發凋亡並抑制 NF-κB。搭配細胞週期停滯以及 PI3K/Akt 與 Wnt/β-catenin 訊號的調節，這構成了其在 Breast Cancer、Prostate Cancer、Colorectal Cancer、Melanoma 與 Glioblastoma 細胞株中所觀察到的抗增殖活性基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Propolis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "f19e984e4993",
+    "subject": "Quercetin",
+    "predicate": "is_a_component_of",
+    "object": "Propolis",
+    "context": {
+      "en-US": "Quercetin is a member of the flavonoid fraction of Propolis alongside Chrysin, Galangin, Pinocembrin and Apigenin. Flavonoids are the major bioactive class in propolis, and quercetin in particular is independently studied as a Senolytic.",
+      "zh-TW": "Quercetin 與 Chrysin、Galangin、Pinocembrin 及 Apigenin 同屬 Propolis 的黃酮類成分。Flavonoids 是蜂膠中主要的活性化合物類別，而 quercetin 本身也被獨立研究為 Senolytic。"
+    },
+    "confidence": 0.9,
+    "source_document": "Propolis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "977fb4b54ac0",
+    "subject": "Propolis",
+    "predicate": "reduces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Propolis reduces Inflammation by lowering IL-6, TNF-alpha and IL-1beta production in activated macrophages and through its antioxidant activity. This anti-inflammatory arm runs parallel to the antiproliferative arm in the traditional-medicine use of bee glue.",
+      "zh-TW": "Propolis 藉由降低活化巨噬細胞中 IL-6、TNF-α 與 IL-1β 的產生，並透過其抗氧化活性來減少 Inflammation。這條抗發炎路徑與傳統醫學使用蜂膠時的抗增殖路徑並行。"
+    },
+    "confidence": 0.85,
+    "source_document": "Propolis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "b30fc798f074",
+    "subject": "R-CHOP",
+    "predicate": "treats",
+    "object": "Diffuse large B-cell lymphoma",
+    "context": {
+      "en-US": "R-CHOP is the standard first-line regimen for Diffuse large B-cell lymphoma, combining the anti-CD20 antibody rituximab with cyclophosphamide, doxorubicin, Vincristine and prednisone. It serves as the conventional comparator against which alternative or repurposed approaches are framed.",
+      "zh-TW": "R-CHOP 是 Diffuse large B-cell lymphoma 的標準一線治療方案，將抗 CD20 抗體 rituximab 與 cyclophosphamide、doxorubicin、Vincristine 及 prednisone 合併。它也是評估替代或再定位療法時的常規對照基準。"
+    },
+    "confidence": 0.95,
+    "source_document": "R-CHOP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "d37c6902c582",
+    "subject": "R-CHOP",
+    "predicate": "contains",
+    "object": "Vincristine",
+    "context": {
+      "en-US": "Vincristine is the microtubule-targeting constituent of R-CHOP, a vinca alkaloid that disrupts the mitotic spindle in dividing cells. Its inclusion links the regimen to the same microtubule-disrupting logic exploited by microtubule-targeted repurposing candidates such as Fenbendazole.",
+      "zh-TW": "Vincristine 是 R-CHOP 中作用於微管的成分，屬於 vinca alkaloid 類，能破壞分裂細胞的有絲分裂紡錘體。其納入使該方案與 Fenbendazole 等作用於微管再定位候選藥所利用的同一套微管破壞邏輯相連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "R-CHOP.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "468dd9e02426",
+    "subject": "RGD peptide",
+    "predicate": "binds",
+    "object": "Integrins",
+    "context": {
+      "en-US": "RGD peptide is the minimal, most widespread cell-adhesion motif recognized by a subset of Integrins (alpha-v-beta-3, alpha-v-beta-5, alpha-5-beta-1). It adopts a loop conformation that fits the integrin ligand-binding pocket, mediating cell-ECM adhesion, cytoskeletal organization, survival and migration.",
+      "zh-TW": "RGD peptide 是被部分 Integrins（αvβ3、αvβ5、α5β1）辨識的最小且最普遍的細胞黏附基序。它採取能嵌入 integrin 配體結合口袋的環狀構形，介導細胞－細胞外基質黏附、細胞骨架組織、存活與移行。"
+    },
+    "confidence": 0.95,
+    "source_document": "RGD peptide.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "c4823e31764d",
+    "subject": "RGD peptide",
+    "predicate": "inhibits",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "RGD peptide inhibits Angiogenesis when mimetics competitively block integrin engagement: alpha-v-beta-3 and alpha-v-beta-5 are markedly upregulated on tumor vasculature, and blocking their adhesion disrupts focal adhesions, reduces neovascularization and reduces Metastasis in preclinical models. Cilengitide carried this concept into glioblastoma trials.",
+      "zh-TW": "當模擬物以競爭性方式阻斷 integrin 結合時，RGD peptide 會抑制 Angiogenesis：αvβ3 與 αvβ5 在腫瘤血管上顯著上調，封鎖其黏附可破壞焦點黏著、減少新生血管形成並在臨床前模型中降低 Metastasis。Cilengitide 已將此概念帶入 glioblastoma 臨床試驗。"
+    },
+    "confidence": 0.9,
+    "source_document": "RGD peptide.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "b01e8c370684",
+    "subject": "RGD peptide",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "RGD-containing peptides are pro-apoptotic: competitive blockade of integrin-mediated adhesion by RGD mimetics induces anoikis, the detachment-induced Apoptosis of endothelial and tumor cells. Some of these peptides are additionally able to induce auto-activation of proCaspase-3 directly.",
+      "zh-TW": "含 RGD 的胜肽具有促凋亡作用：RGD 模擬物競爭性阻斷 integrin 介導的黏附，會誘發失巢凋亡，即內皮與腫瘤細胞脫落誘發的 Apoptosis。部分此類胜肽更能直接誘導 proCaspase-3 的自我活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "RGD peptide.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "9d403cea4c63",
+    "subject": "RGD peptide",
+    "predicate": "contributes_to",
+    "object": "Metastasis",
+    "context": {
+      "en-US": "RGD peptide contributes to Metastasis in reverse: integrin signalling through RGD sites on extracellular matrix proteins such as Fibronectin, Vitronectin and Fibrinogen enables sustained survival, Angiogenesis and invasion, supporting the Hallmarks of Cancer. Blocking the motif therefore reduces dissemination.",
+      "zh-TW": "RGD peptide 在反方向上促成 Metastasis：透過 Fibronectin、Vitronectin 與 Fibrinogen 等細胞外基質蛋白上的 RGD 位點所進行的 integrin 訊號，能提供持續存活、Angiogenesis 與侵襲，支撐 Hallmarks of Cancer。因此封鎖此基序可減少散布。"
+    },
+    "confidence": 0.85,
+    "source_document": "RGD peptide.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "b1735ab95df8",
+    "subject": "SLC19A1",
+    "predicate": "transports",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "SLC19A1 (Reduced Folate Carrier 1) transports the cyclic dinucleotide cGAMP into the cell. When one cell's cGAS produces cGAMP and it is exported, neighbouring cells import it through SLC19A1, propagating the paracrine type I interferon response and amplifying the Senescence-Associated Secretory Phenotype in the Tumor Microenvironment.",
+      "zh-TW": "SLC19A1（Reduced Folate Carrier 1）將環狀二核苷酸 cGAMP 運入細胞。當某細胞的 cGAS 產生 cGAMP 並被輸出後，鄰近細胞可經 SLC19A1 攝入它，傳播旁分泌性的第一型干擾素反應，並放大 Tumor Microenvironment 中的 Senescence-Associated Secretory Phenotype。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC19A1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "8bd6331c7b72",
+    "subject": "SLC19A1",
+    "predicate": "amplifies",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "SLC19A1 amplifies the cGAS-STING Pathway in a paracrine manner by importing extracellular cGAMP, allowing STING activation signals to be transferred between cells. Expression of SLC19A1 may therefore predict response to STING agonists, since import is the rate-limiting step in signal spread.",
+      "zh-TW": "SLC19A1 藉由攝入細胞外 cGAMP，以旁分泌方式放大 cGAS-STING Pathway，使 STING 活化訊號能在細胞之間傳遞。因此 SLC19A1 的表現可能預測對 STING 致效劑的反應，因為攝入是訊號擴散的限速步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC19A1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "36d6d5da7563",
+    "subject": "SLC19A1",
+    "predicate": "transports",
+    "object": "Folate",
+    "context": {
+      "en-US": "Folate and its reduced forms are the endogenous substrates of SLC19A1, the primary importer of 5-methyltetrahydrofolate, the major circulating folate form. The same transporter moves antifolate drugs into cells, which is why reduced SLC19A1 expression is a well-recognized mechanism of methotrexate resistance in leukemia and other cancers.",
+      "zh-TW": "Folate 及其還原態是 SLC19A1 的內源性受質，該運輸蛋白是主要循環形態 5-甲基四氫葉酸的主要輸入者。同一運輸蛋白也將抗葉酸藥物運入細胞，因此 SLC19A1 表現降低是白血病及其他癌症中公認的 methotrexate 抗藥性機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC19A1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "b614166cb31c",
+    "subject": "SV40",
+    "predicate": "inactivates",
+    "object": "p53",
+    "context": {
+      "en-US": "The SV40 Large T antigen inactivates p53, a Tumor Suppressor Gene product, thereby blocking p53-dependent Apoptosis and cell-cycle arrest. In permissive models, expression of the T antigens is sufficient to immortalize cultured cells and drive tumor formation, making SV40 a classic tool for studying viral oncogenesis.",
+      "zh-TW": "SV40 的 Large T antigen 使 p53 失活；p53 是 Tumor Suppressor Gene 產物，此舉阻斷 p53 依賴性的 Apoptosis 與細胞週期停滯。在許可性模型中，T antigen 的表現即足以使培養細胞永生化並誘發腫瘤形成，因此 SV40 是研究病毒致癌作用的經典工具。"
+    },
+    "confidence": 0.95,
+    "source_document": "SV40.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "b5159d08b185",
+    "subject": "SV40",
+    "predicate": "inactivates",
+    "object": "Rb",
+    "context": {
+      "en-US": "SV40 Large T antigen binds and inactivates Rb, the retinoblastoma protein, releasing E2F to force S-phase entry. The virus acts on both arms of the p53 and Rb tumor-suppressor axis simultaneously, which is why the association of SV40 with human mesothelioma, Brain Cancer and osteosarcoma remains vigorously contested.",
+      "zh-TW": "SV40 的 Large T antigen 與 Rb（視網膜母細胞瘤蛋白）結合並使其失活，釋放 E2F 強迫細胞進入 S 期。該病毒同時作用於 p53 與 Rb 兩條腫瘤抑制軸，這也是 SV40 與人類間皮瘤、Brain Cancer 及骨肉瘤之間的關聯仍受激烈爭議的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "SV40.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "7237183e2ba7",
+    "subject": "SV40",
+    "predicate": "modulates",
+    "object": "PP2A",
+    "context": {
+      "en-US": "SV40 Small t antigen perturbs PP2A, deregulating proliferative signalling alongside the Large T antigen's action on p53 and Rb. PP2A is one of the major cellular serine/threonine phosphatases, so its subversion is a classic route by which viral oncoproteins sustain proliferation.",
+      "zh-TW": "SV40 的 Small t antigen 擾動 PP2A，與 Large T antigen 對 p53 與 Rb 的作用一起使增殖訊號失調。PP2A 是主要的細胞內絲胺酸/蘇胺酸磷酸酶之一，因此其被顛覆是病毒致癌蛋白維持增殖的典型途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "SV40.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "0046e8af8aa3",
+    "subject": "SV40",
+    "predicate": "is_a_type_of",
+    "object": "Oncogene",
+    "context": {
+      "en-US": "SV40 is a classic Oncogene model: its alternatively spliced early region encodes Large T and Small t antigens, whose experimental transformation activity is robust even though natural human infection appears to play at most a minor or unproven role in malignancy.",
+      "zh-TW": "SV40 是典型的 Oncogene 模型：其選擇性剪接的早期區編碼 Large T 與 Small t antigen，這些蛋白在實驗中的轉化活性十分強健，儘管自然感染在人類中至多只扮演次要或未證實的角色。"
+    },
+    "confidence": 0.7,
+    "source_document": "SV40.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "c91b9ce0a9c4",
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Scabies",
+    "context": {
+      "en-US": "Ivermectin treats Scabies orally at 200 micrograms/kg repeated after 7-14 days, and is the cornerstone of crusted (Norwegian) scabies, where combination therapy uses ivermectin on days 1, 2, 8, 9 and 15 together with topical permethrin and keratolytics to strip hyperkeratotic crusts and reduce mite burden.",
+      "zh-TW": "Ivermectin 以每公斤 200 微克口服、7 至 14 天後重複的方式治療 Scabies，並是結痂型（Norwegian）scabies 的核心用藥；此型以聯合療法處理，在第 1、2、8、9、15 天給予 ivermectin，並搭配外用 permethrin 與角質溶解劑以去除角化過度結痂、降低蟎數。"
+    },
+    "confidence": 0.95,
+    "source_document": "Scabies.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "de2eec69c41d",
+    "subject": "Scabies",
+    "predicate": "causes",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Scabies produces a delayed type IV hypersensitivity reaction to mite feces, eggs and saliva, manifesting as nocturnal pruritus, inflammatory papules, nodules and excoriations. Transmission requires prolonged skin-to-skin contact, and mites surviving 24-36 hours off the host permit fomite spread via bedding and clothing.",
+      "zh-TW": "Scabies 會對蟎的糞便、卵與唾液產生第四型遲發性過敏反應，表現為夜間劇癢、發炎性丘疹、結節與抓痕。傳播需要長時間的皮膚直接接觸，而蟎在離開宿主後可存活 24 至 36 小時，故可經寢具與衣物造成媒介散布。"
+    },
+    "confidence": 0.9,
+    "source_document": "Scabies.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "f036b3f6cd29",
+    "subject": "HIV",
+    "predicate": "increases_susceptibility_to",
+    "object": "Scabies",
+    "context": {
+      "en-US": "HIV and other immunocompromising states predispose to crusted (Norwegian) Scabies, in which patients harbour thousands to millions of mites under thick hyperkeratotic crusts. The resulting high mite load makes the form extremely contagious and a source of institutional outbreaks.",
+      "zh-TW": "HIV 與其他免疫功能受損狀態會使人易患結痂型（Norwegian）Scabies，此時患者在厚厚的角化過度結痂下寄居數千至數百萬隻蟎。極高的蟎數使此型傳染性極強，並成為機構內群聚爆發的來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "Scabies.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "1ae2f6dd304b",
+    "subject": "Selamectin",
+    "predicate": "is_a_type_of",
+    "object": "Avermectin",
+    "context": {
+      "en-US": "Selamectin is a semi-synthetic Avermectin (25-cyclohexyl-5-deoxy-22,23-dihydro-5-hydroxyiminoavermectin B1) whose mono-saccharide 5-oxime structure, formed by removing one oleandrose sugar, reduces oral absorption and makes it a topical spot-on endectocide absorbed transdermally.",
+      "zh-TW": "Selamectin 是半合成的 Avermectin（25-cyclohexyl-5-deoxy-22,23-dihydro-5-hydroxyiminoavermectin B1）；其單醣 5-oxime 結構由去除一個 oleandrose 糖而得，降低了口服吸收，因此被做成經皮吸收的外用 spot-on 內外寄生蟲防治劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Selamectin.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "448f3f42f31c",
+    "subject": "Selamectin",
+    "predicate": "is_a_structural_analog_of",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "Selamectin is the closest veterinary structural analog of Ivermectin, sharing the macrocyclic lactone core, the same opening of invertebrate glutamate- and GABA-gated chloride channels, and overlapping spectrum. It is formulated for young puppies and kittens and adds flea, ear-mite and sarcoptic mange coverage that ivermectin does not provide topically.",
+      "zh-TW": "Selamectin 是 Ivermectin 最接近的獸用結構類似物，共用巨環內酯核心、同樣藉由開啟無脊椎動物的麩胺酸與 GABA 門控氯離子通道發揮作用，且光譜重疊。它被配製給幼犬幼貓使用，並額外提供 ivermectin 外用時所沒有的跳蚤、耳螨與疥癬 coverage。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selamectin.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "8d12dce5326d",
+    "subject": "Selamectin",
+    "predicate": "binds",
+    "object": "P-gp",
+    "context": {
+      "en-US": "Selamectin is a P-gp (MDR1/ABCB1) substrate, and the transporter-mediated restriction is what keeps its brain concentrations low. Substantially lower CNS penetration than Ivermectin, demonstrated even in P-glycoprotein-deficient Mdr1a/b and Bcrp knockout mice, gives Selamectin a wider safety margin in collie-type dogs homozygous for the ABCB1-1delta deletion.",
+      "zh-TW": "Selamectin 是 P-gp（MDR1/ABCB1）的受質，正是這種運輸蛋白介導的限制使其腦中濃度維持低檔。與 Ivermectin 相比更低的腦部穿透，即使在缺乏 P 醣蛋白的 Mdr1a/b 與 Bcrp 剔除小鼠中也已證實，使 Selamectin 對帶有 ABCB1-1Δ 缺失同型合子的柯利牧羊犬有更寬的安全餘裕。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selamectin.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "11317c478d07",
+    "subject": "Selamectin",
+    "predicate": "competes_with",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "Selamectin competes with Ivermectin for the same veterinary indication, monthly heartworm prevention, but with a longer duration of action than Moxidectin and Doramectin in some labels. Unlike Fenbendazole, selamectin is the lactone option that also covers heartworm, while remaining inactive against ticks and tapeworms.",
+      "zh-TW": "Selamectin 在獸用適應症上與 Ivermectin 競爭同一每月心絲蟲預防用途，但在部分標籤中其作用時間比 Moxidectin 與 Doramectin 更長。與 Fenbendazole 不同，selamectin 是兼具心絲蟲覆蓋的內酯類選擇，但對蜱與絛蟲無效。"
+    },
+    "confidence": 0.7,
+    "source_document": "Selamectin.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "436ff5a91fde",
+    "subject": "Simulium",
+    "predicate": "transmits",
+    "object": "Onchocerca volvulus",
+    "context": {
+      "en-US": "Simulium (blackflies) are the exclusive biological vectors of Onchocerca volvulus. Infective L3 larvae develop in the fly midgut and thoracic muscles over 6-12 days, migrate to the proboscis, and are injected into a new human host at the next blood meal; without the blackfly vector the parasite cannot complete its life cycle.",
+      "zh-TW": "Simulium（黑蠅）是 Onchocerca volvulus 唯一的生物性媒介。具感染力的 L3 幼蟲在 6 至 12 天內於蠅的中腸與胸部肌肉發育，遷移至口喙，並在下次吸血時注入新宿主人體；若無黑蠅媒介，該寄生蟲便無法完成生活史。"
+    },
+    "confidence": 0.95,
+    "source_document": "Simulium.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "abb2b51fcb0f",
+    "subject": "Ivermectin",
+    "predicate": "suppresses",
+    "object": "Microfilariae",
+    "context": {
+      "en-US": "Community-directed distribution of Ivermectin suppresses skin Microfilariae and thereby interrupts transmission of Onchocerca volvulus, complementing larviciding of Simulium breeding rivers. Because Microfilariae are the stage picked up by the fly, lowering their skin density removes the vector's infectious source.",
+      "zh-TW": "以社區為導向的 Ivermectin 發放可抑制皮膚中的 Microfilariae，藉此阻斷 Onchocerca volvulus 的傳播，與對 Simulium 孳生河流的殺幼蟲措施互補。由於 Microfilariae 正是被黑蠅吸入的階段，降低其皮膚密度等於移除病媒的感染來源。"
+    },
+    "confidence": 0.9,
+    "source_document": "Simulium.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "f3aa93908732",
+    "subject": "Simulium",
+    "predicate": "is_associated_with",
+    "object": "TDR",
+    "context": {
+      "en-US": "Simulium ecology and vector distribution are research priorities for TDR, the WHO-coordinated Special Programme for Research and Training in Tropical Diseases that supported vector-ecology work under the Onchocerciasis Control Programme in West Africa.",
+      "zh-TW": "Simulium 的生態與病媒分布是 TDR 的研究重點；TDR 是由 WHO 協調的「熱帶疾病研究與培訓特別方案」，曾支持西非 Onchocerciasis Control Programme 下的病媒生態研究。"
+    },
+    "confidence": 0.8,
+    "source_document": "Simulium.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "6e7dfc48a5d9",
+    "subject": "Strongyloides",
+    "predicate": "causes",
+    "object": "Strongyloidiasis",
+    "context": {
+      "en-US": "Strongyloides, principally S. stercoralis, causes Strongyloidiasis. It is exceptional among parasitic nematodes in completing both a host-dependent and a free-living cycle and in producing autoinfective filariform larvae within the host, allowing chronic infection to persist for decades without exogenous re-exposure.",
+      "zh-TW": "Strongyloides（以 S. stercoralis 為主）造成 Strongyloidiasis。它在寄生線蟲中相當特殊，既能完成宿主依賴型與自由生活型兩種生活史，又能在宿主體內產生自傳染性的絲狀幼蟲，使慢性感染在無外源性再暴露的情況下仍可持續數十年。"
+    },
+    "confidence": 0.95,
+    "source_document": "Strongyloides.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "a2e867cd6ded",
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Strongyloidiasis",
+    "context": {
+      "en-US": "Ivermectin is the preferred therapy for Strongyloidiasis, superior to Albendazole for both acute and prophylactic use, and is also given prophylactically to immunocompromised patients at risk. Repeated courses may be needed, and eradication must be confirmed because autoinfection precludes natural clearance.",
+      "zh-TW": "Ivermectin 是 Strongyloidiasis 的首選療法，在急性治療與預防性使用上均優於 Albendazole，也用於給予有風險的免疫功能低下患者作為預防。可能需要重複療程，且必須確認根除，因為自傳染使自然清除不可能發生。"
+    },
+    "confidence": 0.95,
+    "source_document": "Strongyloides.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "113263ad894a",
+    "subject": "Albendazole",
+    "predicate": "treats",
+    "object": "Strongyloidiasis",
+    "context": {
+      "en-US": "Albendazole is the secondary anthelmintic option for Strongyloidiasis when Ivermectin is unavailable or contraindicated. It is a benzimidazole that, like oxfendazole, acts on parasite tubulin, and its lower cure rates mean eradication should be documented serologically and parasitologically.",
+      "zh-TW": "當 Ivermectin 無法取得或禁忌時，Albendazole 是 Strongyloidiasis 的次選驅蟲藥。它屬於 benzimidazole 類，與 oxfendazole 相同作用於寄生蟲 tubulin；由於根除率較低，應以血清學與寄生蟲學方法確認根除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Strongyloides.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "42f1ab2a8379",
+    "subject": "Eosinophils",
+    "predicate": "restrain",
+    "object": "Strongyloides",
+    "context": {
+      "en-US": "In immunocompetent hosts, a Th2 milieu with Eosinophils, IgE and IL-5 normally restrains Strongyloides larval burden and keeps chronic Strongyloidiasis asymptomatic. Glucocorticoids and other cancer therapies suppress this control, permitting uncontrolled larval proliferation, hyperinfection and disseminated disease.",
+      "zh-TW": "在免疫健全宿主中，含有 Eosinophils、IgE 與 IL-5 的 Th2 環境通常會抑制 Strongyloides 的幼蟲負荷，使慢性 Strongyloidiasis 保持無症狀。糖皮質激素與其他癌症療法會抑制此控制作用，讓幼蟲不受限制地增殖，導致過度感染與播散性疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Strongyloidiasis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "e4f4bbd74d86",
+    "subject": "Chemotherapy",
+    "predicate": "increases_susceptibility_to",
+    "object": "Strongyloidiasis",
+    "context": {
+      "en-US": "Chemotherapy, long-term steroids, hematopoietic stem-cell transplant and checkpoint inhibitors such as anti-CTLA-4 or anti-PD-1 therapy for Cancer all increase susceptibility to Strongyloidiasis hyperinfection syndrome, which presents with enterocolitis, paralytic ileus, pulmonary infiltrates and gram-negative sepsis at high mortality. Screening endemic patients before immunosuppression is standard of care.",
+      "zh-TW": "Chemotherapy、長期糖皮質激素、骨髓造血幹細胞移植，以及用於 Cancer 的 anti-CTLA-4 或 anti-PD-1 等檢查點抑制劑，都會提高 Strongyloidiasis 過度感染症候群的易感性；該症候群表現為腸結腸炎、麻痺性腸阻塞、肺部浸潤與高死亡率的革蘭氏陰性菌敗血症。在免疫抑制前篩檢流行地區患者屬標準照護。"
+    },
+    "confidence": 0.9,
+    "source_document": "Strongyloidiasis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "6acb63c33787",
+    "subject": "CTLA-4",
+    "predicate": "increases_susceptibility_to",
+    "object": "Strongyloidiasis",
+    "context": {
+      "en-US": "CTLA-4 checkpoint blockade, including anti-PD-1 combinations, is a recognized trigger of disseminated Strongyloidiasis in carriers of latent infection. The mechanism is the same as for steroids: relief of the Th2/eosinophil brake allows autoinfective larvae to amplify, so steroid-refractory or atypical presentations should raise suspicion.",
+      "zh-TW": "CTLA-4 檢查點阻斷（含與 anti-PD-1 的聯合）是潛伏感染者發生播散性 Strongyloidiasis 的公認誘發因素。其機轉與糖皮質激素相同：解除 Th2／嗜酸性球煞車後，自傳染性幼蟲得以大量增殖，因此對類固醇無反應或表現不典型時應提高懷疑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Strongyloidiasis.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "8dcb7ce9ca59",
+    "subject": "TAT",
+    "predicate": "is_derived_from",
+    "object": "HIV-1",
+    "context": {
+      "en-US": "TAT (Transactivator of transcription) is encoded by the tat gene of HIV-1. In virology it is essential for replication, binding the TAR RNA element in nascent transcripts and recruiting host P-TEFb to boost transcription elongation; the 11-residue basic domain YGRKKRRQRRR is what makes it useful as a cell-penetrating peptide.",
+      "zh-TW": "TAT（transactivator of transcription）由 HIV-1 的 tat 基因編碼。在病毒學上它對複製不可或缺，會結合新生轉錄本中的 TAR RNA 元素並招募宿主 P-TEFb 以促進轉錄延長；正是這 11 殘基的鹼性區 YGRKKRRQRRR 使它可作為穿透細胞的胜肽使用。"
+    },
+    "confidence": 0.95,
+    "source_document": "TAT.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "5cc3cd21f685",
+    "subject": "TAT",
+    "predicate": "enhances",
+    "object": "melittin",
+    "context": {
+      "en-US": "Grafting a positively charged TAT sequence to the C-terminus of the negatively charged DEDE-melittin mutant restored membrane association and rescued its tumor-lytic anticancer activity. The example shows rational design in which a viral cell-penetrating peptide compensates for charge-driven loss of lytic function.",
+      "zh-TW": "將帶正電的 TAT 序列接植到帶負電的 DEDE-melittin 突變株 C 端，恢復了膜結合能力並救回其腫瘤溶解性抗癌活性。這個例子顯示了理性設計：病毒來源的穿膜胜肽補償了因電荷改變而喪失的溶解功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "TAT.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "0586b1be17f3",
+    "subject": "TAT",
+    "predicate": "transports",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "TAT is exploited to improve intracellular uptake of otherwise impermeant agents, including cytotoxic peptides, contrast agents and siRNA, and is used experimentally to enhance Chemotherapy delivery. Its limitations are endosomal trapping, low tumor specificity and rapid clearance, which motivate tumor-selective ligands such as trastuzumab.",
+      "zh-TW": "TAT 被用來改善原本無法穿透細胞的藥物之胞內攝入，包括細胞毒性胜肽、顯影劑與 siRNA，並在實驗上用於強化 Chemotherapy 的遞送。其限制為內體滯留、腫瘤專一性低與快速清除，因此促使人們尋找如 trastuzumab 等腫瘤選擇性配體。"
+    },
+    "confidence": 0.75,
+    "source_document": "TAT.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "f4e587caf5ad",
+    "subject": "TDR",
+    "predicate": "is_a_component_of",
+    "object": "World Health Organization",
+    "context": {
+      "en-US": "TDR is a component_of the World Health Organization system: it was established in 1975 and is co-sponsored by WHO together with UNICEF, UNDP, the World Bank and formerly the Rockefeller Foundation, with the mandate of building an evidence base for control, elimination and eradication of neglected tropical diseases.",
+      "zh-TW": "TDR 是 World Health Organization 體系的一環：它成立於 1975 年，由 WHO 與 UNICEF、UNDP、世界銀行及（前）洛克菲勒基金會共同資助，使命是為熱帶疾病的控制、消除與根除建立證據基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "TDR.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "490149b9e64a",
+    "subject": "TDR",
+    "predicate": "targets",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "Onchocerciasis is a core disease in the TDR portfolio, addressed through operational research on how to deliver Ivermectin mass drug administration effectively, monitor drug resistance and measure progress toward elimination targets, together with mapping of Simulium vector distributions.",
+      "zh-TW": "Onchocerciasis 是 TDR 疾病組合中的核心項目，其工作包含研究如何有效執行 Ivermectin 大規模藥物投予、監測抗藥性與衡量朝向根除目標的進度，以及 Simulium 病媒分布的製圖。"
+    },
+    "confidence": 0.9,
+    "source_document": "TDR.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "50fe4e0efdce",
+    "subject": "TDR",
+    "predicate": "targets",
+    "object": "Lymphatic Filariasis",
+    "context": {
+      "en-US": "Lymphatic Filariasis is a TDR elimination target supported through mapping of mosquito vector distributions, pharmacovigilance for antiparasitic drugs and co-morbidity management strategies, in collaboration with the WHO NTD Roadmap and the Global Programme to Eliminate Lymphatic Filariasis.",
+      "zh-TW": "Lymphatic Filariasis 是 TDR 的根除目標，工作包含蚊媒分布製圖、抗寄生蟲藥物的藥物流行病學監測與共病管理策略，並與 WHO NTD Roadmap 及全球消除 Lymphatic Filariasis 計畫合作。"
+    },
+    "confidence": 0.9,
+    "source_document": "TDR.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "0537dd8b5a9f",
+    "subject": "TDR",
+    "predicate": "supports",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "TDR supports the deployment research of Ivermectin, emphasizing implementation science and pharmacovigilance, and TDR's training component strengthens the careers of researchers from disease-endemic nations. The drug itself originated from Streptomyces in work recognized by the Nobel Prize to William C. Campbell.",
+      "zh-TW": "TDR 支持 Ivermectin 的投放研究，強調實施科學與藥物警戒，其培訓部分則培植來自疾病流行國家的研究人員。該藥本身源自 Streptomyces，其相關研究由 William C. Campbell 獲得諾貝爾獎肯定。"
+    },
+    "confidence": 0.85,
+    "source_document": "TDR.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "55b618806d68",
+    "subject": "William C. Campbell",
+    "predicate": "is_associated_with",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "William C. Campbell is the discoverer of the antiparasitic avermectin class to which Ivermectin belongs, work recognized by the Nobel Prize. TDR notes this as the clearest translational bridge between tropical-disease biology and cancer pharmacology, since avermectins later entered drug-repurposing oncology research.",
+      "zh-TW": "William C. Campbell 是 Ivermectin 所屬抗寄生蟲 avermectin 類的發現者，其研究獲諾貝爾獎肯定。TDR 指出這是熱帶疾病生物學與癌症藥理學之間最清楚的轉譯橋樑，因為 avermectins 之後進入了藥物再定位的腫瘤學研究。"
+    },
+    "confidence": 0.85,
+    "source_document": "TDR.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "2a580531324c",
+    "subject": "TRIM2",
+    "predicate": "ubiquitinates",
+    "object": "Bim",
+    "context": {
+      "en-US": "TRIM2 ubiquitinates the pro-apoptotic BH3-only protein Bim: its RING domain recruits an E2 ubiquitin-conjugating enzyme while coiled-coil and NHL repeat domains confer substrate specificity, attaching ubiquitin chains to Bim lysines that mark it for 26S proteasome destruction. This degradative route is a post-translational safeguard against Apoptosis, distinct from ERK/RSK-mediated transcriptional suppression of Bim.",
+      "zh-TW": "TRIM2 會對促凋亡的 BH3-only 蛋白 Bim 進行泛素化：其 RING 結構域招募 E2 泛素連接酵素，coiled-coil 與 NHL repeat 結構域賦予受質專一性，把泛素鏈接到 Bim 的離胺酸上，使其被標記並由 26S 蛋白酶體分解。這條降解途徑是對抗 Apoptosis 的轉譯後防線，與 ERK/RSK 對 Bim 的轉錄抑制不同。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRIM2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "9c34618ed4f0",
+    "subject": "TRIM2",
+    "predicate": "is_activated_by",
+    "object": "ERK",
+    "context": {
+      "en-US": "ERK licenses TRIM2-mediated ubiquitylation of Bim: growth-factor signalling through the ERK/MAPK cascade activates kinases such as RSK that prime Bim, enhancing its recognition by TRIM2. Loss of TRIM2 therefore sensitizes cells to apoptosis, whereas TRIM2 activity promotes survival, especially in neurons.",
+      "zh-TW": "ERK 為 TRIM2 介導的 Bim 泛素化提供許可：透過 ERK/MAPK 級聯的生長因子訊號活化 RSK 等激酶以預備 Bim，提高其被 TRIM2 辨識的效率。因此 TRIM2 喪失會使細胞對凋亡敏感，而 TRIM2 活性則促進存活，在神經元中尤其明顯。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRIM2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "4446f8cf884c",
+    "subject": "TRIM2",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "TRIM2 inhibits Apoptosis by eliminating Bim, a potent initiator of mitochondrial outer membrane permeabilization. Because the removal of Bim blunts chemotherapy-induced death, aberrant TRIM2 expression can confer resistance to apoptosis-inducing Chemotherapy and to targeted agents that rely on Bim upregulation.",
+      "zh-TW": "TRIM2 藉由清除 Bim 這個線粒體外膜通透化作用的強效啟動者而抑制 Apoptosis。由於 Bim 被清除會削弱化療引發的死亡，TRIM2 的異常表現可使細胞對誘發凋亡的 Chemotherapy 以及依賴 Bim 上調的標靶藥物產生抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRIM2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "fd96a54884df",
+    "subject": "TRIM2",
+    "predicate": "is_opposed_by",
+    "object": "Trim17",
+    "context": {
+      "en-US": "TRIM2 is opposed by the related TRIM E3 ligase Trim17, which has the opposite substrate preference: instead of degrading pro-apoptotic Bim, Trim17 degrades the anti-apoptotic Mcl-1 to promote death. The TRIM2-Bim and Trim17-Mcl-1 axes therefore push the apoptotic threshold in opposite directions.",
+      "zh-TW": "TRIM2 受到相關 TRIM E3 泛素連接酵素 Trim17 的對抗；Trim17 的受質偏好正好相反：它不是降解促凋亡的 Bim，而是降解抗凋亡的 Mcl-1 以促進死亡。因此 TRIM2–Bim 與 Trim17–Mcl-1 兩條軸把凋亡閾值推向相反方向。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRIM2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "a1b1229e9bc9",
+    "subject": "Trim17",
+    "predicate": "degrades",
+    "object": "Mcl-1",
+    "context": {
+      "en-US": "Trim17 degrades the anti-apoptotic protein Mcl-1, removing a brake on mitochondrial apoptosis and thereby promoting cell death. As a pro-death E3 ligase it stands in contrast to TRIM2, and the pair illustrates how TRIM-family ubiquitin ligases set apoptotic thresholds through substrate choice.",
+      "zh-TW": "Trim17 會降解抗凋亡蛋白 Mcl-1，移除線粒體凋亡上的一個煞車，藉此促進細胞死亡。作為促死亡的 E3 泛素連接酵素，它與 TRIM2 形成對比；這對酵素說明 TRIM 家族泛素連接酵素如何藉由受質選擇設定凋亡閾值。"
+    },
+    "confidence": 0.85,
+    "source_document": "TRIM2.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "09d0a2ccff01",
+    "subject": "Thrombospondin-1",
+    "predicate": "binds",
+    "object": "CD36",
+    "context": {
+      "en-US": "Thrombospondin-1 (TSP-1, THBS1) is a large matricellular glycoprotein secreted by platelets, endothelial cells and Macrophages that binds CD36. Binding of this ligand to the receptor is what initiates TSP-1 signalling, expanding CD36's role beyond lipid uptake to adhesion, survival and inflammation.",
+      "zh-TW": "Thrombospondin-1（TSP-1、THBS1）是由血小板、內皮細胞與 Macrophages 分泌的大型基質細胞糖蛋白，可與 CD36 結合。正是這種配體與受體的結合啟動了 TSP-1 訊號，將 CD36 的角色從脂質攝取擴展到黏附、存活與發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thrombospondin-1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "29130d9a71ec",
+    "subject": "CD36",
+    "predicate": "activates",
+    "object": "FYN",
+    "context": {
+      "en-US": "CD36 activates FYN kinase downstream of Thrombospondin-1 binding; the Src-family kinase is the first intracellular signalling step of the TSP-1-CD36 axis, which then engages p38 MAPK to influence Macrophages adhesion, survival, phagocytosis and inflammatory behaviour.",
+      "zh-TW": "在 Thrombospondin-1 結合之後，CD36 會活化 FYN 激酶；這Src 家族激酶是 TSP-1–CD36 軸的第一個胞內訊號步驟，接著啟動 p38 MAPK，影響 Macrophages 的黏附、存活、吞噬與發炎行為。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thrombospondin-1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "434df5887cf9",
+    "subject": "CD36",
+    "predicate": "activates",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "CD36 activates p38 MAPK as part of TSP-1-CD36 signalling, shaping Macrophages behaviour and linking the CD36 receptor to Inflammation. Because Thrombospondin-1 has many other receptors such as Integrins, CD36 is one node in a broader network rather than the sole mediator of TSP-1 function.",
+      "zh-TW": "CD36 在 TSP-1–CD36 訊號中活化 p38 MAPK，藉此塑造 Macrophages 行為並把 CD36 受體與 Inflammation 連結起來。由於 Thrombospondin-1 還有 Integrins 等其他受體，CD36 只是更廣泛網絡中的一個節點，而非 TSP-1 功能的唯一介導者。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thrombospondin-1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "dcfd3575e19d",
+    "subject": "Thrombospondin-1",
+    "predicate": "inhibits",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "Thrombospondin-1 inhibits Angiogenesis and is a major anti-angiogenic factor in the tumor microenvironment. The same glycoprotein also influences platelet function, wound healing, thrombosis and age-related Inflammation, so its net effect on new vessel growth is suppressive rather than permissive.",
+      "zh-TW": "Thrombospondin-1 抑制 Angiogenesis，是腫瘤微環境中主要的抗血管新生因子。同一糖蛋白也影響血小板功能、傷口癒合、血栓形成與年齡相關的 Inflammation，因此其對新生血管生長的淨效應是抑制而非促進。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thrombospondin-1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "358dc32a34b2",
+    "subject": "Thrombospondin-1",
+    "predicate": "binds",
+    "object": "Integrins",
+    "context": {
+      "en-US": "Integrins are alternative receptors for Thrombospondin-1 alongside CD36, contacted through the glycoprotein procollagen-like and EGF-like repeats. The receptor promiscuity of TSP-1 means that blocking CD36 alone leaves parallel integrin-mediated signalling intact.",
+      "zh-TW": "Integrins 是 Thrombospondin-1 除 CD36 外的替代受體，透過該糖蛋白的類膠原與 EGF 樣重複區與其接觸。TSP-1 的受體多樣性意味著單獨封鎖 CD36 時， integrin 介導的平行訊號仍然存在。"
+    },
+    "confidence": 0.85,
+    "source_document": "Thrombospondin-1.md",
+    "created": "2026-09-29T14:41:21Z",
+    "updated": "2026-09-29T14:41:21Z"
   }
 ]
