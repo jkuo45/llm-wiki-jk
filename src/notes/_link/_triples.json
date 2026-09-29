@@ -89388,5 +89388,901 @@
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
     "updated": "2026-09-29T18:00:01Z"
+  },
+  {
+    "id": "3bec5f9358f9",
+    "subject": "Uric Acid",
+    "predicate": "is_produced_by",
+    "object": "Xanthine Oxidase",
+    "context": {
+      "en-US": "Uric acid (UA) is the terminal end-product of human purine catabolism. Xanthine Oxidase catalyzes the final two oxidations of the pathway, converting hypoxanthine to xanthine and xanthine to urate, which is why inhibiting this enzyme with allopurinol is the standard way to lower uric acid in gout.",
+      "zh-TW": "Uric acid (UA) 是人類嘌呤分解代謝的最終產物。Xanthine Oxidase 催化途徑中最後兩次氧化，將 hypoxanthine 氧化為 xanthine，再將 xanthine 氧化為 urate；因此以 allopurinol 抑制此酵素是降低 gout 中 uric acid 的標準作法。"
+    },
+    "confidence": 0.95,
+    "source_document": "Uric Acid.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "0d25fc534be2",
+    "subject": "Uric Acid",
+    "predicate": "scavenges",
+    "object": "Peroxynitrite",
+    "context": {
+      "en-US": "Uric acid is a hydrophilic plasma antioxidant that accounts for up to 60% of human plasma antioxidant capacity, directly quenching singlet oxygen, hydroxyl radicals, peroxynitrite and hypochlorous acid at diffusion-limited rates, and chelating Fe2+/Cu+ to limit Fenton Reaction chemistry.",
+      "zh-TW": "Uric acid 是血漿中的親水性抗氧化物，佔人類血漿總抗氧化能力最高達 60%，能以擴散受限速率直接清除 singlet oxygen、hydroxyl radicals、peroxynitrite 與 hypochlorous acid，並螯合 Fe2+/Cu+ 以限制 Fenton Reaction 的化學反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Uric Acid.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "531c05f4c505",
+    "subject": "Uric Acid",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "At elevated concentrations above roughly 6 mg/dL, uric acid shifts from antioxidant to pro-oxidant: urate radicals generated during its antioxidant reactions oxidize LDL and other lipids, and crystallization of monosodium urate activates the NLRP3 Inflammasome, driving Inflammation and the acute arthritis of gout.",
+      "zh-TW": "當濃度升高至約 6 mg/dL 以上時，uric acid 會由抗氧化物轉為促氧化劑：其抗氧化反應中產生的 urate free radical 會氧化 LDL 與其他脂質，而 monosodium urate 的結晶化會活化 NLRP3 Inflammasome，驅動 Inflammation 與 gout 的急性關節炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Uric Acid.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "b63e78032d29",
+    "subject": "Uric Acid",
+    "predicate": "is_inhibited_by",
+    "object": "Allopurinol",
+    "context": {
+      "en-US": "Hyperuricemia is clinically lowered by blocking its source enzyme rather than the urate itself: Allopurinol is a xanthine oxidase inhibitor that reduces urate production in gout, while Rasburicase (recombinant urate oxidase) directly converts uric acid to more soluble allantoin, as used in Tumor Lysis Syndrome prophylaxis.",
+      "zh-TW": "高尿酸血症的臨床控制是藉由阻斷其來源酵素而非 urate 本身：Allopurinol 是 xanthine oxidase 抑制劑，在 gout 中降低 urate 生成；而 Rasburicase（重組 urate oxidase）則直接將 uric acid 轉為溶解度更佳的 allantoin，用於 Tumor Lysis Syndrome 的預防。"
+    },
+    "confidence": 0.85,
+    "source_document": "Uric Acid.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "a7b892c3fba8",
+    "subject": "Uric Acid",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Elevated uric acid is an independent risk factor for hypertension, coronary artery disease and stroke, and hyperuricemia correlates with obesity, insulin resistance and dyslipidemia in Metabolic Syndrome — plausibly through urate-driven oxidative and inflammatory signaling rather than a purely hemodynamic effect.",
+      "zh-TW": "升高的 uric acid 是 hypertension、coronary artery disease 與 stroke 的獨立危險因子，且 hyperuricemia 與 obesity、insulin resistance 及 Metabolic Syndrome 中的 dyslipidemia 相關——其機制可能來自 urate 引發的氧化與發炎訊號，而非單純的血動力學效應。"
+    },
+    "confidence": 0.8,
+    "source_document": "Uric Acid.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "cbd5e94b0ba2",
+    "subject": "Urolithin A",
+    "predicate": "induces",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Urolithin A is the most potent known natural mitophagy inducer. By depolarizing the Mitochondrial Membrane Potential it stabilizes PINK1 on the outer mitochondrial membrane; PINK1 recruits the E3 ligase Parkin, which ubiquitinates MFN1/MFN2/VDAC1 and targets the organelle for autophagic degradation via the LC3–p62 machinery.",
+      "zh-TW": "Urolithin A 是已知最強的天然 mitophagy 誘導劑。它藉由去極化 Mitochondrial Membrane Potential 使 PINK1 穩定於粒線體外膜；PINK1 招募 E3 ligase Parkin，Parkin 泛素化 MFN1/MFN2/VDAC1，並經由 LC3–p62 機制將該胞器標記進行自噬降解。"
+    },
+    "confidence": 0.95,
+    "source_document": "Urolithin A.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "9353c41dfed6",
+    "subject": "Urolithin A",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Alongside mitophagy, Urolithin A promotes autophagy through a second route: it directly inhibits mTORC1 signaling and activates AMPK, both converging on ULK1 activation. It also attenuates mitochondrial ROS production, which buffers the pro-oxidant side of mitohormetic protocols.",
+      "zh-TW": "除了 mitophagy 之外，Urolithin A 還透過第二條途徑促進自噬：它直接抑制 mTORC1 訊號並活化 AMPK，兩者皆收斂於 ULK1 的活化。它同時減少粒線體 ROS 生成，可緩衝 mitohormetic 方案的促氧化面。"
+    },
+    "confidence": 0.85,
+    "source_document": "Urolithin A.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "dab5fc1fa890",
+    "subject": "Urolithin A",
+    "predicate": "is_derived_from",
+    "object": "Ellagitannins",
+    "context": {
+      "en-US": "Urolithin A is a postbiotic produced from dietary Ellagitannins (pomegranates, raspberries, walnuts, strawberries). Gut bacteria hydrolyze ellagitannins to ellagic acid, then sequentially dehydroxylate it through urolithin M5, D and C to urolithin A. Conversion efficiency depends on microbiome composition, so metabotype 0 non-producers (~20% of people) get no benefit from whole foods.",
+      "zh-TW": "Urolithin A 是由膳食 Ellagitannins（pomegranates、raspberries、walnuts、strawberries）經腸道菌群產生的 postbiotic。腸道菌先將 ellagitannins 水解為 ellagic acid，再依序去羥基化經 urolithin M5、D、C 生成 urolithin A。轉換效率取決於菌群組成，因此 metabotype 0 非產生者（約 20% 人口）無法從全食物獲得效益。"
+    },
+    "confidence": 0.9,
+    "source_document": "Urolithin A.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "efecebea21a3",
+    "subject": "Urolithin A",
+    "predicate": "rescues",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "In cellular models of Parkinson's Disease, Urolithin A rescues PINK1 mutant phenotypes and protects against MPTP-induced dopaminergic neuron loss; in C. elegans it extends lifespan ~20% through a PINK1-dependent mechanism, and in humans it reduced plasma acylcarnitines and improved muscle endurance in Phase I/II trials.",
+      "zh-TW": "在 Parkinson's Disease 的細胞模型中，Urolithin A 可救援 PINK1 突變表型並防止 MPTP 誘發的多巴胺神經元死亡；在 C. elegans 中它透過 PINK1 相依機制延長約 20% 壽命；在人類 Phase I/II 試驗中則降低血漿 acylcarnitines 並改善肌耐力。"
+    },
+    "confidence": 0.8,
+    "source_document": "Urolithin A.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "fe94e8f2560b",
+    "subject": "VCP",
+    "predicate": "binds_to",
+    "object": "Huntingtin",
+    "context": {
+      "en-US": "VCP (valosin-containing protein, p97/Cdc48), an AAA ATPase, accumulates in Huntington's Disease tissue and binds mutant huntingtin (mHtt). This VCP–mHtt interaction is the link between the AAA ATPase and the excessive-mitophagy arm of HD pathology.",
+      "zh-TW": "VCP（valosin-containing protein，p97/Cdc48）為 AAA ATPase，在 Huntington's Disease 組織中累積並與突變型 huntingtin（mHtt）結合。VCP–mHtt 的交互作用是將此 AAA ATPase 連結至 HD 病理中「過度 mitophagy」那一環的關鍵。"
+    },
+    "confidence": 0.9,
+    "source_document": "VCP.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "20e59c26af73",
+    "subject": "VCP",
+    "predicate": "induces",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Through its interaction with mutant huntingtin, VCP drives excessive mitophagy that contributes to striatal cell death in Huntington's Disease. This frames mitophagy as dual-edged in HD: both insufficient clearance (impaired autophagosome formation) and excessive VCP/NIX-dependent mitophagy are pathological.",
+      "zh-TW": "透過與突變型 huntingtin 的交互作用，VCP 驅動過度的 mitophagy，促成 Huntington's Disease 中 striatal 細胞死亡。這顯示 mitophagy 在 HD 中具有雙刃特性：清除不足（autophagosome 形成受損）與 VCP/NIX 相依的過度 mitophagy 皆屬病理。"
+    },
+    "confidence": 0.9,
+    "source_document": "VCP.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c1a5c6d4d545",
+    "subject": "VCP",
+    "predicate": "is_implicated_in",
+    "object": "Huntington's Disease",
+    "context": {
+      "en-US": "VCP accumulation is a characteristic feature of Huntington's Disease: as an AAA ATPase it binds mutant huntingtin and, together with BNIP3L/NIX, pushes mitophagy past the protective range into a lethal regime, contributing to neuronal death in the striatum.",
+      "zh-TW": "VCP 的累積是 Huntington's Disease 的特徵之一：此 AAA ATPase 與突變型 huntingtin 結合，並與 BNIP3L/NIX 一起將 mitophagy 推過保護範圍而進入致死區間，促成 striatum 的神經元死亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "VCP.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "828c4f2ed399",
+    "subject": "VEGFR",
+    "predicate": "drives",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "The VEGFR family (VEGFR-1/2/3) comprises receptor tyrosine kinases activated by VEGF ligands. Among them VEGFR-2 is the principal driver of tumor Angiogenesis, which is why the pathway is a standard antiangiogenic target.",
+      "zh-TW": "VEGFR 家族（VEGFR-1/2/3）為由 VEGF ligand 活化的受體酪胺酸激酶。其中 VEGFR-2 是腫瘤 Angiogenesis 的主要驅動因子，因此此途徑是標準的抗血管新生標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "VEGFR.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "850ce50e5429",
+    "subject": "VEGFR",
+    "predicate": "is_inhibited_by",
+    "object": "Pazopanib",
+    "context": {
+      "en-US": "Pazopanib is a multi-targeted tyrosine-kinase inhibitor that blocks VEGFR signaling (alongside PDGFR and c-KIT) and is used as antiangiogenic therapy. It is cited as the VEGFR-directed agent in fenbendazole cancer case-report contexts.",
+      "zh-TW": "Pazopanib 是多標的酪胺酸激酶抑制劑，可阻斷 VEGFR 訊號（並同時作用於 PDGFR 與 c-KIT），用作抗血管新生治療。在 fenbendazole 癌症個案報告的脈絡中，它是所引用的 VEGFR 標的藥物。"
+    },
+    "confidence": 0.85,
+    "source_document": "VEGFR.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "841b69a8e5c1",
+    "subject": "VER155008",
+    "predicate": "inhibits",
+    "object": "HSPA8",
+    "context": {
+      "en-US": "VER155008 is a selective small-molecule inhibitor of HSPA8 (HSC70), the constitutive member of the HSP70 family. Disrupting HSPA8 is sufficient to suppress the senomorphic output in senescent cells, independent of senolysis.",
+      "zh-TW": "VER155008 是 HSPA8（HSC70）的選擇性小分子抑制劑，HSC70 為 HSP70 家族的組成型表現成員。破壞 HSPA8 足以抑制衰老細胞的 senomorphic 效應，且此作用獨立於 senolysis。"
+    },
+    "confidence": 0.9,
+    "source_document": "VER155008.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "eabe4ccc165a",
+    "subject": "VER155008",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescent PSC27 cells, VER155008 concentration-dependently dampens canonical SASP factors and suppresses the p38 MAPK and PI3K/Akt/mTOR cascade triggered by genotoxic stress, phenocopying the senomorphic effect of Apigenin.",
+      "zh-TW": "在衰老的 PSC27 細胞中，VER155008 以濃度依賴方式抑制標準 SASP 因子，並壓低由基因毒性壓力觸發的 p38 MAPK 與 PI3K/Akt/mTOR 級聯反應，重現 Apigenin 的 senomorphic 效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "VER155008.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c81b82d3f063",
+    "subject": "VER155008",
+    "predicate": "mimics",
+    "object": "Apigenin",
+    "context": {
+      "en-US": "VER155008 phenocopies the natural senomorphic Apigenin: both reverse IκBα degradation and NF-κB (p65/p50) nuclear translocation, converging on the same HSPA8-disrupting phenotypic output rather than on direct target identity.",
+      "zh-TW": "VER155008 重現天然 senomorphic 分子 Apigenin 的效應：兩者皆可逆轉 IκBα 的降解與 NF-κB（p65/p50）的核轉位，收斂於相同的 HSPA8 破壞型表型輸出，而非直接標的同一性。"
+    },
+    "confidence": 0.85,
+    "source_document": "VER155008.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "0c5a90c5a3bf",
+    "subject": "VTA",
+    "predicate": "projects_to",
+    "object": "Nucleus Accumbens",
+    "context": {
+      "en-US": "VTA dopaminergic neurons project to the Nucleus Accumbens via the mesolimbic pathway, where they mediate reward, motivation and reinforcement. This projection is the principal route by which phasic VTA dopamine encodes reward prediction error.",
+      "zh-TW": "VTA 的多巴胺神經元經 mesolimbic 途徑投射至 Nucleus Accumbens，在該處中介 reward、motivation 與 reinforcement。這條投射是 phasic VTA dopamine 編碼 reward prediction error 的主要路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "VTA.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "8805ffde32a9",
+    "subject": "VTA",
+    "predicate": "projects_to",
+    "object": "Prefrontal Cortex",
+    "context": {
+      "en-US": "VTA dopamine neurons also project to the Prefrontal Cortex via the mesocortical pathway, regulating executive function, working memory and attention. Dysregulation of this mesocortical branch is implicated in schizophrenia and in the anhedonia of depression.",
+      "zh-TW": "VTA 的多巴胺神經元亦經 mesocortical 途徑投射至 Prefrontal Cortex，調控 executive function、working memory 與 attention。此 mesocortical 分支的失調與 schizophrenia 及 depression 中的 anhedonia 皆有關。"
+    },
+    "confidence": 0.9,
+    "source_document": "VTA.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "0fc12c5572cf",
+    "subject": "VTA",
+    "predicate": "is_a_component_of",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "The ventral tegmental area is the central node of the brain's reward circuitry, containing dopaminergic, GABAergic and glutamatergic neurons. Phasic VTA dopamine release is the common target of addictive drugs, and reduced VTA dopamine signaling contributes to anhedonia in depression.",
+      "zh-TW": "ventral tegmental area 是腦部 reward 迴路的中樞節點，內含 dopaminergic、GABAergic 與 glutamatergic 神經元。Phasic VTA dopamine 釋放是成癮藥物的共同標的，而 VTA dopamine 訊號下降則促成 depression 的 anhedonia。"
+    },
+    "confidence": 0.7,
+    "source_document": "VTA.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "02ee75587f97",
+    "subject": "VTA",
+    "predicate": "degenerates_in",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "In Parkinson's Disease the VTA degenerates later than the adjacent Substantia Nigra (SNc), but its progressive loss still contributes to non-motor symptoms such as depression and anhedonia, distinguishing central from peripheral dopamine pathology.",
+      "zh-TW": "在 Parkinson's Disease 中，VTA 的退化時間晚於鄰近的 Substantia Nigra（SNc），但其逐步流失仍會造成 depression 與 anhedonia 等非運動症狀，這使中樞與周邊 dopamine 病理得以區分。"
+    },
+    "confidence": 0.8,
+    "source_document": "VTA.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "f1092bd58293",
+    "subject": "Valine",
+    "predicate": "is_converted_to",
+    "object": "TCA cycle",
+    "context": {
+      "en-US": "Valine is one of the three Branched-Chain Amino Acids and, unlike leucine and isoleucine, is fully glucogenic: its carbon skeleton is routed exclusively to succinyl-CoA, which enters the TCA cycle to make ATP and support hepatic gluconeogenesis.",
+      "zh-TW": "Valine 是三大 Branched-Chain Amino Acids 之一，且與 leucine、isoleucine 不同，屬完全生糖性：其碳骨架專一地流向 succinyl-CoA，後者進入 TCA cycle 產生 ATP 並支持肝臟的 gluconeogenesis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Valine.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "88b3a5e4fb9d",
+    "subject": "Valine",
+    "predicate": "contributes_to",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Dysregulated valine catabolism is linked to systemic metabolic dysfunction: the incomplete-oxidation intermediate 3-hydroxyisobutyrate (3-HIB), produced mainly in skeletal muscle, promotes muscle insulin resistance in diabetic rats, linking high valine intake to impaired glucose handling.",
+      "zh-TW": "Valine 分解代謝失調與全身代謝功能障礙相關：不完全氧化中間產物 3-hydroxyisobutyrate（3-HIB，主要在骨骼肌生成）在糖尿病大鼠中促進肌肉 insulin resistance，將高 valine 攝取與葡萄糖處理受損連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Valine.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "afe64023abcb",
+    "subject": "Valine",
+    "predicate": "reduces",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "Restricting dietary valine alone (~66% reduction) recapitulates many benefits of Protein Restriction: reduced body weight, reduced hepatic Cellular Senescence, and ~23% lifespan extension in male C57BL/6J mice, with protective effects on Alzheimer's Disease progression in females.",
+      "zh-TW": "單獨限制膳食 valine（約減少 66%）可重現 Protein Restriction 的多項效益：體重下降、肝臟 Cellular Senescence 減少，以及雄性 C57BL/6J 小鼠約 23% 的壽命延長；對雌性小鼠的 Alzheimer's Disease 進展亦具保護作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Valine.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "f787f3100272",
+    "subject": "Valsartan",
+    "predicate": "treats",
+    "object": "Hypertension",
+    "context": {
+      "en-US": "Valsartan is an angiotensin II receptor blocker (ARB) that blocks AT1 receptors, reducing vasoconstriction, aldosterone secretion and sympathetic activation. It is first-line antihypertensive therapy and is used with sacubitril (LCZ696/Entresto) in heart failure with reduced ejection fraction.",
+      "zh-TW": "Valsartan 是 angiotensin II 受體阻斷劑（ARB），藉阻斷 AT1 受體降低 vasoconstriction、aldosterone 分泌與交感神經活化。它是第一線降血壓療法，並與 sacubitril 併用（LCZ696/Entresto）治療射血分數降低的心衰竭。"
+    },
+    "confidence": 0.9,
+    "source_document": "Valsartan.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "17f77a8c545b",
+    "subject": "Valsartan",
+    "predicate": "inhibits",
+    "object": "Parkin",
+    "context": {
+      "en-US": "Beyond its hemodynamic action, valsartan modulates mitochondrial dynamics by inhibiting Parkin activity or mitophagy, which contributes to cardiac protection. Notably it suppresses excessive mitophagy that would deplete mitochondrial populations rather than blocking mitophagy wholesale.",
+      "zh-TW": "除了血流動力學作用外，valsartan 透過抑制 Parkin 活性或 mitophagy 來調節粒線體動態，這有助於心臟保護。值得注意的是，它選擇性壓低會耗竭粒線體族群的過度 mitophagy，而非全面阻斷 mitophagy。"
+    },
+    "confidence": 0.8,
+    "source_document": "Valsartan.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "6b95c2d70ecb",
+    "subject": "Valsartan",
+    "predicate": "alleviates",
+    "object": "Left Ventricular Hypertrophy",
+    "context": {
+      "en-US": "Valsartan alleviates Left Ventricular Hypertrophy through both hemodynamic effects (reduced afterload) and direct cardiac actions, and it limits adverse cardiac remodeling after myocardial infarction.",
+      "zh-TW": "Valsartan 同時透過血流動力學效應（降低 afterload）與直接心臟作用緩解 Left Ventricular Hypertrophy，並限制心肌梗塞後的不利心臟重塑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Valsartan.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "3df2741e49a1",
+    "subject": "Vasoconstriction",
+    "predicate": "opposes",
+    "object": "Vasodilation",
+    "context": {
+      "en-US": "Vasoconstriction and Vasodilation are physiological opposites. Contraction of vascular smooth muscle narrows the lumen and raises systemic vascular resistance and arterial pressure; relaxation of the same muscle widens vessels, lowers resistance and increases local flow.",
+      "zh-TW": "Vasoconstriction 與 Vasodilation 為生理上的相反過程。血管平滑肌收縮使管腔變窄、升高全身血管阻力與動脈壓；同一平滑肌的放鬆則使血管擴張、降低阻力並增加局部血流。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasoconstriction.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "2cadcab83cbb",
+    "subject": "Nitric Oxide",
+    "predicate": "opposes",
+    "object": "Vasoconstriction",
+    "context": {
+      "en-US": "Basal endothelial Nitric Oxide (NO) opposes vasoconstriction via the NO → Soluble Guanylyl Cyclase → cGMP relaxation pathway. When this cascade is blocked — as with methylene blue in vasoplegia — net vasoconstriction and a rise in blood pressure result.",
+      "zh-TW": "基礎狀態下的內皮 Nitric Oxide（NO）經由 NO → Soluble Guanylyl Cyclase → cGMP 的放鬆途徑對抗 vasoconstriction。當此級聯被阻斷（例如 vasoplegia 中使用 methylene blue），便會造成淨 vasoconstriction 與血壓上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasoconstriction.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "333c99adfd6a",
+    "subject": "Norepinephrine",
+    "predicate": "induces",
+    "object": "Vasoconstriction",
+    "context": {
+      "en-US": "Vasoconstriction is triggered by neuronal and humoral signals: Norepinephrine and Epinephrine acting on α1-adrenergic receptors raise intracellular calcium, activate myosin light-chain kinase and drive actin–myosin cross-bridge cycling; angiotensin II, endothelin-1 and vasopressors act similarly.",
+      "zh-TW": "Vasoconstriction 由神經與體液訊號觸發：Norepinephrine 與 Epinephrine 作用於 α1-adrenergic receptors，使細胞內 calcium 上升、活化 myosin light-chain kinase 並驅動 actin–myosin 橫橋循環；angiotensin II、endothelin-1 與 vasopressors 的作用亦然。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vasoconstriction.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "034690c1ca14",
+    "subject": "Methylene blue",
+    "predicate": "induces",
+    "object": "Vasoconstriction",
+    "context": {
+      "en-US": "In Vasoplegic Shock and Septic Shock, pathologic NO overproduction causes refractory hypotension. Methylene blue restores vascular tone therapeutically by inhibiting both nitric oxide synthase and Soluble Guanylyl Cyclase, lowering cGMP and thereby producing vasoconstriction as rescue when catecholamine Vasopressors fail.",
+      "zh-TW": "在 Vasoplegic Shock 與 Septic Shock 中，病理性 NO 過量製造造成 refractory hypotension。Methylene blue 藉由抑制 nitric oxide synthase 與 Soluble Guanylyl Cyclase 降低 cGMP，恢復血管張力並產生治療性的 vasoconstriction，作為 catecholamine 類 Vasopressors 失效時的救援療法。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasoconstriction.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "0c75be31e595",
+    "subject": "Vasodilation",
+    "predicate": "is_driven_by",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "Endothelium-dependent vasodilation runs through Nitric Oxide: shear stress and agonists activate endothelial nitric oxide synthase (eNOS) to produce NO, which diffuses to smooth muscle and activates Soluble Guanylyl Cyclase, raising cGMP, lowering intracellular calcium and driving relaxation. Nitrates, PDE5 Inhibitors and calcium-channel blockers exploit this pathway therapeutically.",
+      "zh-TW": "內皮依賴性的 vasodilation 透過 Nitric Oxide 進行：剪力與致效劑活化內皮 nitric oxide synthase（eNOS）產生 NO，NO 擴散至平滑肌並活化 Soluble Guanylyl Cyclase，使 cGMP 上升、細胞內 calcium 下降而促成放鬆。Nitrates、PDE5 Inhibitors 與 calcium-channel blockers 即以此途徑作為治療機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasodilation.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "00d37239ea11",
+    "subject": "Vasodilation",
+    "predicate": "underlies",
+    "object": "Vasoplegic Shock",
+    "context": {
+      "en-US": "Excessive cytokine- and NO-driven vasodilation produces refractory hypotension in Vasoplegic Shock and Septic Shock. Inducible nitric oxide synthase generates massive Nitric Oxide, overactivating the guanylyl cyclase cascade beyond the point where vascular smooth muscle can respond.",
+      "zh-TW": "過度、由 cytokine 與 NO 驅動的 vasodilation 會在 Vasoplegic Shock 與 Septic Shock 中造成 refractory hypotension。Inducible nitric oxide synthase 製造大量 Nitric Oxide，使 guanylyl cyclase 級聯過度活化，超出血管平滑肌可回應的範圍。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasodilation.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "5bd50c2477e7",
+    "subject": "Vasoplegic Shock",
+    "predicate": "occurs_in",
+    "object": "Septic Shock",
+    "context": {
+      "en-US": "Vasoplegic Shock (vasoplegia) is refractory hypotension driven by excessive vasodilation, most often encountered after cardiopulmonary bypass in cardiac surgery, and in Septic Shock or anaphylactic shock. It is characterized by low systemic vascular resistance unresponsive to standard vasopressors such as Norepinephrine.",
+      "zh-TW": "Vasoplegic Shock（vasoplegia）是由過度 vasodilation 引起的 refractory hypotension，最常見於心臟手術的 cardiopulmonary bypass 之後，以及 Septic Shock 或過敏性休克中。其特徵為全身血管阻力偏低，且對 Norepinephrine 等標準 Vasopressors 無反應。"
+    },
+    "confidence": 0.8,
+    "source_document": "Vasoplegic Shock.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "071a13d4f100",
+    "subject": "Vasopressin",
+    "predicate": "induces",
+    "object": "Vasoconstriction",
+    "context": {
+      "en-US": "Vasopressin (antidiuretic hormone, AVP) is a posterior-pituitary nonapeptide that acts on Gq-coupled V1a receptors to mobilize calcium and activate MAPK and PKC, producing vasoconstriction; via Gs-coupled V2 receptors it instead raises cAMP and inserts aquaporins to conserve water.",
+      "zh-TW": "Vasopressin（antidiuretic hormone，AVP）是腦下垂體後葉的九胜肽，透過 Gq-coupled V1a 受體動員 calcium 並活化 MAPK 與 PKC 而產生 vasoconstriction；經 Gs-coupled V2 受體則提高 cAMP 並插入 aquaporin 以保存水分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasopressin.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "95f7be789911",
+    "subject": "Vasopressin",
+    "predicate": "modulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Beyond fluid balance, vasopressin signaling intersects with mTOR and Autophagy pathways relevant to Aging and healthspan. Its vasoconstrictive action can worsen ischemia–reperfusion and Oxidative Stress when dysregulated, while balanced tone supports mitochondrial resilience.",
+      "zh-TW": "除了體液平衡之外，vasopressin 訊號與 mTOR 及 Autophagy 途徑交會，與 Aging 及 healthspan 相關。其血管收縮作用在失調時可能加重 ischemia–reperfusion 與 Oxidative Stress，而平衡的張力則支持粒線體的韌性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Vasopressin.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "11f94a921ded",
+    "subject": "Vasopressin",
+    "predicate": "declines_with_age",
+    "object": "Aging",
+    "context": {
+      "en-US": "Aging is associated with declining vasopressin neurons and disrupted circadian secretion. Because AVP influences cognition and central arousal, its loss in aging may contribute to neurodegeneration and cognitive decline, making vasopressin a candidate node for redox and longevity interventions.",
+      "zh-TW": "Aging 伴隨 vasopressin 神經元數量下降與晝夜分泌失調。由於 AVP 影響 cognition 與中樞覺醒，其在老化中的流失可能促成 neurodegeneration 與認知衰退，使 vasopressin 成為 redox 與 longevity 介入的候選節點。"
+    },
+    "confidence": 0.75,
+    "source_document": "Vasopressin.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "af91c6f591d0",
+    "subject": "Vasopressors",
+    "predicate": "act_through",
+    "object": "Vasoconstriction",
+    "context": {
+      "en-US": "Vasopressors raise arterial blood pressure to restore organ perfusion in shock, acting primarily through Vasoconstriction (increased systemic vascular resistance) or by increasing myocardial contractility. Many are endogenous Catecholamines or analogs; excessive vasoconstriction risks distal ischemia and lactic acidosis.",
+      "zh-TW": "Vasopressors 藉由提升動脈血壓以恢復休克中的器官灌流，主要透過 Vasoconstriction（增加全身血管阻力）或提高心肌收縮力作用。許多是內源性 Catecholamines 或其類似物；過度的 vasoconstriction 則有造成遠端缺血與乳酸中毒的風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasopressors.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "129d6037a837",
+    "subject": "Norepinephrine",
+    "predicate": "is_first_line_for",
+    "object": "Septic Shock",
+    "context": {
+      "en-US": "Norepinephrine, an α1-adrenergic agonist raising vascular tone with modest β1-mediated inotropy, is the prototypical first-line vasopressor for Septic Shock and most distributive shocks. Dopamine is now reserved for selected cases because of arrhythmogenic risk; Epinephrine is preferred in refractory hypotension and anaphylactic shock; Angiotensin II acts via the renin–angiotensin system as a rescue agent.",
+      "zh-TW": "Norepinephrine 為 α1-adrenergic agonist，兼具提升血管張力與溫和的 β1 正性肌力作用，是 Septic Shock 與多數 distributive shock 的典型第一線 Vasopressor。Dopamine 因心律不整風險現僅保留於特定情境；Epinephrine 則用於 refractory hypotension 與過敏性休克；Angiotensin II 經 renin–angiotensin system 作用，作為救援藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasopressors.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "f65144562fa2",
+    "subject": "Vasopressors",
+    "predicate": "fail_in",
+    "object": "Vasoplegic Shock",
+    "context": {
+      "en-US": "In Vasoplegic Shock, standard vasopressors may fail because low systemic vascular resistance plus nitric-oxide–mediated vascular hyporesponsivity leaves vessels unresponsive even to high-dose catecholamines. Rescue strategies target the NO axis instead, e.g. methylene blue inhibiting soluble guanylyl cyclase to restore vascular tone.",
+      "zh-TW": "在 Vasoplegic Shock 中，標準 Vasopressors 可能失效，因為全身血管阻力偏低加上 nitric-oxide 介導的血管低反應性，使血管即使面對高劑量 catecholamines 也無反應。救援策略因此轉向 NO 軸，例如 methylene blue 抑制 soluble guanylyl cyclase 以恢復血管張力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vasopressors.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c7ddc684f20f",
+    "subject": "Verrucomicrobia",
+    "predicate": "is_a_member_of",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "Verrucomicrobia is a bacterial phylum ubiquitous in soil and water that appears in the human Gut Microbiome as a consistent but low-abundance component, represented primarily by the genus Akkermansia. Their relevance to human health is mediated mainly through that genus and its effects on the gut barrier and host metabolism.",
+      "zh-TW": "Verrucomicrobia 是一個廣泛存在於土壤與水中的細菌門，在人類 Gut Microbiome 中為一致但低豐度的成員，主要由 Akkermansia 屬代表。其與人體健康的關聯主要透過該屬對腸道屏障與宿主代謝的影響而中介。"
+    },
+    "confidence": 0.85,
+    "source_document": "Verrucomicrobia.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "8c894cc5f18d",
+    "subject": "Akkermansia",
+    "predicate": "is_depleted_in",
+    "object": "Obesity",
+    "context": {
+      "en-US": "Higher abundance of Akkermansia muciniphila is consistently associated with metabolic health, whereas depletion is observed in Obesity, Type 2 Diabetes Mellitus and Metabolic Syndrome. As a mucin-degrading organism occupying the inner mucus layer, it regulates mucus thickness and preserves barrier integrity.",
+      "zh-TW": "較高的 Akkermansia muciniphila 豐度與代謝健康一致相關，而其耗竭則見於 Obesity、Type 2 Diabetes Mellitus 與 Metabolic Syndrome。作為佔據內層黏液層的 mucin 降解菌，它調節黏液厚度並維持屏障完整性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Verrucomicrobia.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "e3c93924baed",
+    "subject": "Akkermansia",
+    "predicate": "is_supported_by",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Akkermansia muciniphila consumes host-derived mucus glycoproteins and is supported by Short-chain Fatty Acids and other microbial metabolites, so host SCFA production and mucus availability jointly determine its colonization level.",
+      "zh-TW": "Akkermansia muciniphila 消耗宿主來源的黏液醣蛋白，並由 Short-chain Fatty Acids 及其他微生物代謝物支持，因此宿主 SCFA 生成量與黏液可供性共同決定其定殖程度。"
+    },
+    "confidence": 0.8,
+    "source_document": "Verrucomicrobia.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "a245ffb092b3",
+    "subject": "Very Low Density Lipoprotein",
+    "predicate": "is_converted_to",
+    "object": "Low-Density Lipoprotein",
+    "context": {
+      "en-US": "Very Low Density Lipoprotein (VLDL) is a liver-synthesized, triglyceride-rich particle that transports endogenous lipids to peripheral tissue. Sequential lipolysis of VLDL yields intermediate-density lipoproteins and then Low-Density Lipoprotein, the atherogenic product directly implicated in plaque formation.",
+      "zh-TW": "Very Low Density Lipoprotein（VLDL）是由肝臟合成、富含三酸甘油酯的顆粒，負責將內源性脂質運送至周邊組織。VLDL 經序列脂解產生 intermediate-density lipoprotein，進而形成 Low-Density Lipoprotein——即直接參與斑塊形成的致粥樣硬化產物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Very Low Density Lipoprotein.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "090cd41aab2b",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "increases_adhesion_of",
+    "object": "Very Low Density Lipoprotein",
+    "context": {
+      "en-US": "Glycated and AGE-modified VLDL shows enhanced binding to blood-vessel wall proteins such as collagen, promoting subendothelial retention. This adhesion also amplifies platelet coagulability, so AGE modification is what converts VLDL from a circulating lipid carrier into a plaque-promoting particle.",
+      "zh-TW": "經 glycation 與 AGE 修飾的 VLDL 對血管壁蛋白（如 collagen）的結合力增強，促進內皮下滯留。這種附著同時放大血小板的凝固傾向，因此 AGE 修飾正是把 VLDL 從循環中的脂質載體轉為促斑塊顆粒的關鍵。"
+    },
+    "confidence": 0.85,
+    "source_document": "Very Low Density Lipoprotein.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c88f54fd8257",
+    "subject": "Aminoguanidine",
+    "predicate": "reduces_adhesion_of",
+    "object": "Very Low Density Lipoprotein",
+    "context": {
+      "en-US": "As an AGE-product inhibitor, Aminoguanidine reduces the ability of VLDL to bind to blood-vessel walls in animal models. Lower vessel-wall binding is expected to reduce platelet coagulation and clot risk, and aminoguanidine is also studied as a selective iNOS inhibitor for vasoplegic shock models.",
+      "zh-TW": "作為 AGE 產物抑制劑，Aminoguanidine 在動物模型中降低 VLDL 與血管壁的結合能力。較低的血管壁結合被認為可減少血小板凝固與血栓風險；aminoguanidine 亦被作為選擇性 iNOS 抑制劑研究於 vasoplegic shock 模型中。"
+    },
+    "confidence": 0.8,
+    "source_document": "Very Low Density Lipoprotein.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "ef5b8564f5fb",
+    "subject": "Vimentin",
+    "predicate": "binds_to",
+    "object": "SIRT6",
+    "context": {
+      "en-US": "Vimentin binds the C-terminal intrinsically disordered region (amino acids 298–355) of SIRT6. The centenarian SIRT6 N308K mutation weakens this interaction, which elevates SIRT6 protein levels — a mechanism distinct from, and independent of, USP10-mediated SIRT6 stabilization.",
+      "zh-TW": "Vimentin 會結合 SIRT6 的 C 端 intrinsically disordered region（第 298–355 個胺基酸）。Centenarian SIRT6 的 N308K 突變削弱此交互作用，進而提升 SIRT6 蛋白量——此機制與 USP10 介導的 SIRT6 穩定化途徑不同且互不相依。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vimentin.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c975c6eb03f1",
+    "subject": "Vimentin",
+    "predicate": "is_a_marker_of",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "Vimentin is the canonical marker of Epithelial-to-mesenchymal transition: a type III intermediate filament expressed in mesenchymal cells, it is upregulated during EMT and overexpressed in aggressive cancers, where its levels correlate with invasiveness and metastasis.",
+      "zh-TW": "Vimentin 是 Epithelial-to-mesenchymal transition 的典型標記：作為間質細胞表現的第三型中間絲蛋白，它在 EMT 期間被上調，並在侵襲性強的癌症中過度表現，其水平與侵襲性及轉移相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vimentin.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c40bfd0cd7f6",
+    "subject": "Vimentin",
+    "predicate": "is_a_biomarker_for",
+    "object": "Rheumatoid Arthritis",
+    "context": {
+      "en-US": "Vimentin is a target of citrullination in Rheumatoid Arthritis, where citrullinated vimentin serves as a biomarker for anti-citrullinated protein antibodies (ACPA). Beyond this autoimmune role, vimentin participates in autophagy, vesicle trafficking and proteostasis, and its IDRs drive liquid–liquid phase separation.",
+      "zh-TW": "Vimentin 是 Rheumatoid Arthritis 中被 citrullination 的標的，citrullinated vimentin 可作為 anti-citrullinated protein antibodies（ACPA）的 biomarker。除此自體免疫角色外，vimentin 還參與 autophagy、囊泡運輸與 proteostasis，其 IDR 並驅動 liquid–liquid phase separation。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vimentin.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "a285df6a9d6c",
+    "subject": "Vincristine",
+    "predicate": "binds_to",
+    "object": "Tubulin",
+    "context": {
+      "en-US": "Vincristine, a Vinca alkaloid from Catharanthus roseus, is a microtubule-targeting agent that binds β-tubulin at the vinca domain, inhibiting microtubule polymerization and destabilizing the mitotic spindle. It is the opposite mechanistic pole from taxanes, which stabilize microtubules.",
+      "zh-TW": "Vincristine 是來自 Catharanthus roseus 的 Vinca alkaloid，屬微管標的藥物，會在 vinca domain 結合 β-tubulin，抑制微管聚合並使有絲分裂紡錘體不穩定。它與 taxanes 作用機制相反——後者是穩定微管。"
+    },
+    "confidence": 0.95,
+    "source_document": "Vincristine.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "c4ee6c4b7d5b",
+    "subject": "Vincristine",
+    "predicate": "arrests",
+    "object": "Mitosis",
+    "context": {
+      "en-US": "By destabilizing the mitotic spindle, Vincristine arrests cells at the metaphase–anaphase transition of Mitosis (M-phase block), causing rapidly dividing cells to undergo Apoptosis. It is a cornerstone of curative combination regimens such as CHOP/R-CHOP for lymphoma, VAD, and childhood acute lymphoblastic leukemia protocols.",
+      "zh-TW": "藉由使有絲分裂紡錘體不穩定，Vincristine 將細胞阻滯於 Mitosis 的 metaphase–anaphase 轉換點（M-phase block），使快速分裂的細胞發生 Apoptosis。它是 CHOP/R-CHOP（淋巴瘤）、VAD 及兒童急性淋巴性白血病方案等根治性聯合化療的支柱。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vincristine.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "4efea3612d3e",
+    "subject": "Vincristine",
+    "predicate": "confers_resistance_via",
+    "object": "P-gp",
+    "context": {
+      "en-US": "Resistance to Vincristine is classically mediated by the P-gp efflux transporter, which pumps the drug out of cells; it is used as the reference comparator when discussing multidrug resistance in repurposed anticancer agents. Its hallmark toxicity is instead cumulative dose-limiting peripheral neuropathy, since axonal transport depends on microtubules.",
+      "zh-TW": "對 Vincristine 的抗藥性典型上由 P-gp 幫浦運輸蛋白中介，它會將藥物排出細胞；在討論再用抗癌藥物的多重抗藥性時，Vincristine 被用作參考比較基準。其特徵性毒性反而是累積性、劑量限制性的周邊神經病變，因為軸突運輸依賴微管。"
+    },
+    "confidence": 0.8,
+    "source_document": "Vincristine.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "d430bd53fe45",
+    "subject": "Vitamin B12",
+    "predicate": "is_a_cofactor_of",
+    "object": "Methylation",
+    "context": {
+      "en-US": "Vitamin B12 (cobalamin) is a critical cofactor in the methylation cycle: as Methylcobalamin it serves as cofactor for methionine synthase, converting Homocysteine to Methionine, and MTRR is required to regenerate the active methylcobalamin form. Deficiency elevates homocysteine and impairs SAMe production, with knock-on effects for COMT-dependent dopamine and estrogen metabolism.",
+      "zh-TW": "Vitamin B12（cobalamin）是 methylation 循環的關鍵輔因子：以 Methylcobalamin 形式作為 methionine synthase 的輔因子，將 Homocysteine 轉為 Methionine；並需 MTRR 再生活性 methylcobalamin 形式。缺乏會使 homocysteine 上升並損害 SAMe 生成，進而影響 COMT 相依的 dopamine 與 estrogen 代謝。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin B12.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "56075c3a280b",
+    "subject": "Vitamin B12",
+    "predicate": "is_required_for",
+    "object": "MTRR",
+    "context": {
+      "en-US": "MTRR (methionine synthase reductase) uses Vitamin B12 to regenerate active methylcobalamin, coupling reductive flavoprotein activity to the methionine synthase cycle. Without adequate B12 the methylation cycle stalls, homocysteine accumulates, and DNA synthesis and neurological function are impaired.",
+      "zh-TW": "MTRR（methionine synthase reductase）利用 Vitamin B12 再生活性 methylcobalamin，將還原型黃素蛋白活性與 methionine synthase 循環偶聯。B12 不足時 methylation 循環停滯、homocysteine 累積，並損害 DNA 合成與神經功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vitamin B12.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "13496f62f1ba",
+    "subject": "Vitamin B3",
+    "predicate": "is_a_precursor_of",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Vitamin B3 (niacin) — nicotinic acid and nicotinamide — is the primary substrate for NAD+ biosynthesis via the Preiss-Handler and salvage pathways. Nicotinamide Riboside and Nicotinamide Mononucleotide are more bioavailable NAD+ precursors. Because NAD+ levels decline with age, adequate B3 intake supports the NAD+-dependent activity of SIRT1 and mitochondrial function.",
+      "zh-TW": "Vitamin B3（niacin，含 nicotinic acid 與 nicotinamide）是 NAD+ 經 Preiss-Handler 與 salvage 途徑生合成的主要受質。Nicotinamide Riboside 與 Nicotinamide Mononucleotide 則是生物利用度更高的 NAD+ 前驅物。由於 NAD+ 水平隨老化下降，充足的 B3 攝取可支持 SIRT1 的 NAD+ 相依活性與粒線體功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "Vitamin B3.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "d3eac091cb2e",
+    "subject": "Vitamin B3",
+    "predicate": "is_required_for",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "SIRT1 is an NAD+-dependent deacetylase, so its activity depends on maintaining the NAD+ pool that Vitamin B3 feeds. Age-related NAD+ decline therefore blunts SIRT1 activity, linking B3 status to the sirtuin arm of the redox and longevity axis.",
+      "zh-TW": "SIRT1 是 NAD+ 相依的去乙醯化酶，因此其活性仰賴由 Vitamin B3 供應的 NAD+ 存量。老化相關的 NAD+ 下降會削弱 SIRT1 活性，將 B3 狀態與 redox 及 longevity 軸線的 sirtuin 分支連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vitamin B3.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "ad184680a811",
+    "subject": "Vitamin B6",
+    "predicate": "is_a_cofactor_of",
+    "object": "Aromatic L-amino acid decarboxylase",
+    "context": {
+      "en-US": "Its active form, pyridoxal 5'-phosphate (PLP), is a cofactor for over 140 enzymatic reactions. As cofactor of Aromatic L-amino acid decarboxylase it enables synthesis of Dopamine, Serotonin and Norepinephrine; it is also required for homocysteine metabolism via cystathionine beta-synthase and serves as a cofactor for serine hydroxymethyltransferase in the methylation cycle.",
+      "zh-TW": "其活性形式 pyridoxal 5'-phosphate（PLP）是超過 140 種酵素反應的輔因子。作為 Aromatic L-amino acid decarboxylase 的輔因子，它使 Dopamine、Serotonin 與 Norepinephrine 的合成得以進行；同時也透過 cystathionine beta-synthase 參與 homocysteine 代謝，並在 methylation 循環中作為 serine hydroxymethyltransferase 的輔因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin B6.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "593c13c827c5",
+    "subject": "Vitamin B6",
+    "predicate": "is_associated_with",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Vitamin B6 modulates Inflammation by regulating NF-κB signaling, and B6 deficiency is implicated in COMT dysfunction, Depression, Cardiovascular Disease via elevated homocysteine, and Neuroinflammation — making B6 status a cofactor-level input to the inflammatory axis rather than a standalone anti-inflammatory agent.",
+      "zh-TW": "Vitamin B6 藉由調節 NF-κB 訊號來調節 Inflammation；B6 缺乏則與 COMT 功能障礙、Depression、經由 homocysteine 升高的 Cardiovascular Disease，以及 Neuroinflammation 相關——使 B6 狀態成為發炎軸線的輔因子層級輸入，而非獨立的抗發炎藥物。"
+    },
+    "confidence": 0.8,
+    "source_document": "Vitamin B6.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "12987188255c",
+    "subject": "Vitamin C",
+    "predicate": "regenerates",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Ascorbate regenerates Glutathione from its oxidized form GSSG via dehydroascorbate reductase and the glutaredoxin system, so ascorbate status and GSH status are coupled. It also keeps the GPX4 system running, which is why ascorbate deficiency amplifies lipid peroxidation indirectly: unrecycled tocopheroxyl radical lets membrane PUFA chains run to completion, accumulating Malondialdehyde, 4-Hydroxynonenal and Acrolein.",
+      "zh-TW": "Ascorbate 透過 dehydroascorbate reductase 與 glutaredoxin 系統，將 Glutathione 從其氧化態 GSSG 再生，因此 ascorbate 狀態與 GSH 狀態彼此耦聯。它同時維持 GPX4 系統運作；這也是 ascorbate 缺乏間接放大 lipid peroxidation 的原因——未被再生的 tocopheroxyl radical 讓膜上 PUFA 鏈一路氧化到底，累積 Malondialdehyde、4-Hydroxynonenal 與 Acrolein。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin C.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "57be3f291942",
+    "subject": "Vitamin C",
+    "predicate": "prevents_oxidation_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Ascorbate co-localizes with catecholamines in secretory vesicles and prevents their auto-oxidation: it donates electrons back to the reactive o-quinone intermediate, converting it back to stable epinephrine and blocking formation of Adrenochrome and its downstream aminochromes. VMAT2 loads both ascorbate and catecholamine into the same granule, so ascorbate depletion shifts the balance toward quinone formation.",
+      "zh-TW": "Ascorbate 與 catecholamines 共定位於分泌囊泡中並阻止其自體氧化：它將電子回贈給具反應性的 o-quinone 中間產物，把它還原回穩定的 epinephrine，並阻斷 Adrenochrome 及其下游 aminochrome 的形成。VMAT2 將 ascorbate 與 catecholamine 裝入同一顆粒，因此 ascorbate 耗竭會使平衡偏向 quinone 形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vitamin C.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "1940f86bb4bc",
+    "subject": "Vitamin C",
+    "predicate": "is_an_obligate_cofactor_of",
+    "object": "Collagen",
+    "context": {
+      "en-US": "Ascorbate maintains iron and copper in the reduced state required by prolyl and lysyl hydroxylases in Collagen synthesis. This is the basis of scurvy, where underhydroxylated collagen fails to cross-link and connective tissue fragments. Ascorbate is likewise required for dopamine beta-hydroxylase (dopamine to norepinephrine) and for carnitine biosynthesis.",
+      "zh-TW": "Ascorbate 將鐵與銅維持在 prolyl 與 lysyl hydroxylases 進行 Collagen 合成所需的還原態。這是 scurvy 的成因基礎：未充分羥化的 collagen 無法交聯，結締組織因而碎裂。Ascorbate 同樣是 dopamine beta-hydroxylase（dopamine 轉為 norepinephrine）與 carnitine 生物合成所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin C.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "b15c3ba9e144",
+    "subject": "Vitamin C",
+    "predicate": "drives_fenton_reaction_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "At pharmacological, millimolar plasma concentrations and in the presence of free transition metals, vitamin C becomes a pro-oxidant via the Fenton Reaction (Fe3+/Fe2+ cycling with H2O2 to •OH). This is the rationale for high-dose intravenous ascorbate in Cancer therapy: millimolar ascorbate generates Hydroxyl Radicals preferentially in tumor tissue, which has high labile iron and low catalase. Physiological dietary intake does not produce this effect.",
+      "zh-TW": "在藥理濃度（血漿毫莫耳級）且存在游離轉移金屬的情況下，vitamin C 會透過 Fenton Reaction（Fe3+/Fe2+ 與 H2O2 循環產生 •OH）轉為促氧化劑。這正是 Cancer 治療中高劑量靜脈 ascorbate 的依據：毫莫耳級 ascorbate 會優先在具有高 labile iron 與低 catalase 的腫瘤組織中生成 Hydroxyl Radicals。生理性膳食攝取並不會產生此效應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vitamin C.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "70cbb371e95f",
+    "subject": "Vitamin D",
+    "predicate": "increases_absorption_of",
+    "object": "Calcium",
+    "context": {
+      "en-US": "Vitamin D is a group of fat-soluble secosteroids (vitamin D2 ergocalciferol and vitamin D3 cholecalciferol) responsible for increasing intestinal absorption of calcium, magnesium and phosphate, thereby regulating calcium and phosphate homeostasis. In humans it is a vitamin because the skin cannot synthesize it without UV exposure.",
+      "zh-TW": "Vitamin D 是一組脂溶性 secosteroid（vitamin D2 ergocalciferol 與 vitamin D3 cholecalciferol），負責增加腸道對 calcium、magnesium 與 phosphate 的吸收，藉此調節 calcium 與 phosphate 的恆定。在人類而言它之所以是維生素，是因為皮膚若無 UV 曝曬便無法自行合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin D.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "0bd6a82805bd",
+    "subject": "Vitamin D",
+    "predicate": "modulates",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Vitamin D exerts anti-inflammatory effects relevant to Inflammation and Autoimmunity through the vitamin D receptor (VDR), and also influences mitochondrial function and oxidative stress responses. Vitamin D status correlates with asthma severity, while deficiency is associated with increased Cardiovascular Disease, Diabetes Mellitus, infection and neurodegenerative disease risk.",
+      "zh-TW": "Vitamin D 透過 vitamin D receptor（VDR）展現與 Inflammation 及 Autoimmunity 相關的抗發炎效應，並影響粒線體功能與 oxidative stress 反應。Vitamin D 狀態與 asthma 嚴重度相關，而缺乏則與 Cardiovascular Disease、Diabetes Mellitus、感染及神經退化性疾病風險上升相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vitamin D.md",
+    "created": "2026-09-29T18:04:22Z",
+    "updated": "2026-09-29T18:04:22Z"
   }
 ]
