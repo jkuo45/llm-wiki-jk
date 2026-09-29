@@ -70,5 +70,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Neurodegenerative Diseases]], [[Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[Autophagy]], [[mTOR]], [[AMPK]], [[HDAC]], [[Alzheimer's Disease]], [[SIRT1]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
-- Suggested new entity notes to create: [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]
+- Suggested new entity notes to create: [[Amyloid Beta]], [[Tau]], [[Synaptic plasticity]]
   - Strong connections to strengthen: Neurodegenerative Diseases ↔ [[Aging]], Neurodegenerative Diseases ↔ Alzheimer's Disease, Induced Pluripotent Stem Cells ↔ Neurodegenerative Diseases

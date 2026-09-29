@@ -73,7 +73,7 @@ List of documents that mention this entity
 - [[MUL1]] — Parallel/compensatory E3 ligase when Parkin function is impaired
 - [[SHP2]] — Phosphatase that activates Parkin via Tyr143 dephosphorylation
 - [[Lovastatin]] — SHP2 agonist that promotes Parkin activation
-- [[Tau Protein]] — N-terminal tau fragments cause aberrant Parkin recruitment to mitochondria in AD
+- [[Tau]] — N-terminal tau fragments cause aberrant Parkin recruitment to mitochondria in AD
 - [[Cancer]] — Parkin expression lost in breast, lung, ovarian, bladder cancers; tumor-suppressive role
 - [[Heart Failure]] — Mild Parkin-mediated mitophagy prevents HF development
 ## Linking Summary

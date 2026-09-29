@@ -35,5 +35,5 @@ The tracer's neuromelanin binding is a double-edged finding. On one hand it prov
 
 ## Linking Summary
 - New links added: [[Neuromelanin]], [[Substantia Nigra]], [[Locus Coeruleus]], [[Parkinson's Disease]], [[Lewy Bodies]], [[Positron Emission Tomography]], [[Iron]].
-- Suggested new entity notes to create: [[Tau Protein]], [[AV-1451]], [[PET Radiotracer]].
+- Suggested new entity notes to create: [[Tau]], [[AV-1451]], [[PET Radiotracer]].
 - Strong connections to strengthen: [[Flortaucipir]] ↔ [[Neuromelanin]]; [[Flortaucipir]] ↔ [[Parkinson's Disease]].

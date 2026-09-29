@@ -22,7 +22,7 @@ protected: true
 
 ## Biological Targets
 
-- **Proteins**: 4-HNE forms covalent Michael adducts with cysteine (Cys), histidine (His), and lysine (Lys) residues via the C=C bond, and Schiff bases via its aldehyde group. These modifications can inactivate enzymes (e.g., [[GLUT4]], [[GAPDH]], [[Sodium Potassium ATPase]]), alter receptor function, and trigger protein aggregation. 4-HNE modification of [[Tau Protein]] promotes Tau oligomerization and is implicated in [[Alzheimer's Disease]].
+- **Proteins**: 4-HNE forms covalent Michael adducts with cysteine (Cys), histidine (His), and lysine (Lys) residues via the C=C bond, and Schiff bases via its aldehyde group. These modifications can inactivate enzymes (e.g., [[GLUT4]], [[GAPDH]], [[Sodium Potassium ATPase]]), alter receptor function, and trigger protein aggregation. 4-HNE modification of [[Tau]] promotes Tau oligomerization and is implicated in [[Alzheimer's Disease]].
 - **DNA**: 4-HNE forms etheno-DNA adducts (e.g., 1,N⁶-etheno-dA, 3,N⁴-etheno-dC), which are mutagenic and linked to genomic instability and [[Cancer]].
 - **Signaling**: At low concentrations, 4-HNE acts as a signaling molecule, activating stress-responsive transcription factors including [[NRF2]] (via KEAP1 modification), [[NF-κB]], and [[AP-1]], and inducing phase II detoxification enzymes as part of a hormetic adaptive response.
 
@@ -57,7 +57,7 @@ Elevated 4-HNE levels are detected in [[Oxidative Stress|oxidative stress]]-asso
 - [[GLUT4]]: Inactivated by 4-HNE Michael adduction.
 - [[GAPDH]]: Inactivated by 4-HNE adduction; a glycolytic casualty of lipid peroxidation.
 - [[Sodium Potassium ATPase]]: Membrane pump inhibited by 4-HNE modification.
-- [[Tau Protein]]: 4-HNE modification promotes tau oligomerization.
+- [[Tau]]: 4-HNE modification promotes tau oligomerization.
 - [[Alzheimer's Disease]]: Elevated 4-HNE adducts in affected brain tissue.
 - [[Parkinson's Disease]]: Elevated 4-HNE in substantia nigra and plasma.
 - [[Amyotrophic Lateral Sclerosis]]: 4-HNE adducts mark motor-neuron oxidative injury.
@@ -77,6 +77,6 @@ Elevated 4-HNE levels are detected in [[Oxidative Stress|oxidative stress]]-asso
 
 ## Linking Summary
 
-- New links added: [[AP-1]], [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Cardiovascular Disease]], [[Chronic Obstructive Pulmonary Disease]], [[Diabetes Mellitus]], [[GAPDH]], [[GLUT4]], [[Lipid Peroxidation]], [[Multiple Sclerosis]], [[NF-κB]], [[NRF2]], [[Neurodegeneration]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Rheumatoid Arthritis]], [[Sodium Potassium ATPase]], [[Tau Protein]], [[Glutathione]], [[Glutathione S-Transferase]], [[Acrolein]], [[Malondialdehyde]], [[Lipid hydroperoxide]], [[Polyunsaturated fatty acids]], [[Vitamin E]], [[GPX4]]
+- New links added: [[AP-1]], [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Cardiovascular Disease]], [[Chronic Obstructive Pulmonary Disease]], [[Diabetes Mellitus]], [[GAPDH]], [[GLUT4]], [[Lipid Peroxidation]], [[Multiple Sclerosis]], [[NF-κB]], [[NRF2]], [[Neurodegeneration]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Rheumatoid Arthritis]], [[Sodium Potassium ATPase]], [[Tau]], [[Glutathione]], [[Glutathione S-Transferase]], [[Acrolein]], [[Malondialdehyde]], [[Lipid hydroperoxide]], [[Polyunsaturated fatty acids]], [[Vitamin E]], [[GPX4]]
 - Suggested new entity notes to create: [[GLT-1]], [[4-HNE-mercapturic acid]]
 - Strong connections to strengthen: [[4-Hydroxynonenal]] ↔ [[Lipid Peroxidation]], [[4-Hydroxynonenal]] ↔ [[Glutathione]], [[4-Hydroxynonenal]] ↔ [[NRF2]]

@@ -64,7 +64,7 @@ Aβ aggregates are recognized by pattern recognition receptors on [[Microglia]] 
 
 ### Tau Pathology
 
-Aβ oligomers activate several kinases that phosphorylate [[Tau Protein|tau]], including [[GSK3β]] (glycogen synthase kinase 3β) and [[CDK5]] (cyclin-dependent kinase 5). Hyperphosphorylated tau detaches from microtubules, disrupts axonal transport, and forms neurofibrillary tangles (NFTs) — the second pathological hallmark of [[Alzheimer's Disease]]. Aβ and tau pathology are synergistic: Aβ drives tau spreading, while tau is required for Aβ-mediated neuronal death.
+Aβ oligomers activate several kinases that phosphorylate [[Tau|tau]], including [[GSK3β]] (glycogen synthase kinase 3β) and [[CDK5]] (cyclin-dependent kinase 5). Hyperphosphorylated tau detaches from microtubules, disrupts axonal transport, and forms neurofibrillary tangles (NFTs) — the second pathological hallmark of [[Alzheimer's Disease]]. Aβ and tau pathology are synergistic: Aβ drives tau spreading, while tau is required for Aβ-mediated neuronal death.
 
 ### Autophagy & Proteostasis Impairment
 
@@ -134,7 +134,7 @@ List of documents that mention this entity
 - [[APP]] — transmembrane precursor protein cleaved by secretases to produce Aβ
 - [[BACE1]] — β-secretase; rate-limiting enzyme in Aβ production
 - [[Presenilin]] — catalytic subunit of γ-secretase complex; mutations cause familial Alzheimer's Disease
-- [[Tau Protein]] — microtubule-associated protein; hyperphosphorylation and tangle formation are synergistic with Aβ pathology
+- [[Tau]] — microtubule-associated protein; hyperphosphorylation and tangle formation are synergistic with Aβ pathology
 - [[GSK3β]] — kinase that phosphorylates tau; activated by Aβ oligomers
 - [[CDK5]] — kinase that contributes to tau hyperphosphorylation in Alzheimer's Disease
 - [[Prion Protein|PrPC]] — high-affinity receptor for Aβ oligomers on neurons
@@ -165,7 +165,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[APP]], [[BACE1]], [[Presenilin]], [[Tau Protein]], [[GSK3β]], [[CDK5]], [[Prion Protein|PrPC]], [[NMDA Receptor]], [[Microglia]], [[Astrocytes]], [[Neprilysin]], [[Insulin-Degrading Enzyme|IDE]], [[Reactive Oxygen Species|ROS]], [[Autophagy]], [[TFEB]], [[Cerebral Amyloid Angiopathy]], [[Sleep]], [[Down Syndrome]], [[APOE4]], [[TNF-alpha|TNF-α]], [[IL-1β|IL-1β]], [[TLR2]], [[TLR4]], [[RAGE]], [[Insulin Receptor]], [[IGF-1 Receptor|IGF-1]], [[LAMP-2A]], [[Calpain]], [[Caspase-9]], [[Bcl-2]], [[Cholesterol]]
+- New links added: [[APP]], [[BACE1]], [[Presenilin]], [[Tau]], [[GSK3β]], [[CDK5]], [[Prion Protein|PrPC]], [[NMDA Receptor]], [[Microglia]], [[Astrocytes]], [[Neprilysin]], [[Insulin-Degrading Enzyme|IDE]], [[Reactive Oxygen Species|ROS]], [[Autophagy]], [[TFEB]], [[Cerebral Amyloid Angiopathy]], [[Sleep]], [[Down Syndrome]], [[APOE4]], [[TNF-alpha|TNF-α]], [[IL-1β|IL-1β]], [[TLR2]], [[TLR4]], [[RAGE]], [[Insulin Receptor]], [[IGF-1 Receptor|IGF-1]], [[LAMP-2A]], [[Calpain]], [[Caspase-9]], [[Bcl-2]], [[Cholesterol]]
 - Existing links retained: [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[BACE1]], [[Presenilin]], [[IGF-1 Receptor]], [[mGluR5]], [[EphB2]], [[p75NTR]], [[TREM2]], [[SCARA1]], [[CD36]], [[LRP1]]
   - Strong connections to strengthen: [[Beta-amyloid]] ↔ [[APP]], [[Beta-amyloid]] ↔ Alzheimer's Disease, [[Beta-amyloid]] ↔ Tau Protein, [[Beta-amyloid]] ↔ [[Microglia]]

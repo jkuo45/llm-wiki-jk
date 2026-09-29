@@ -14420,10 +14420,10 @@
     "updated": "2026-09-04T17:05:28Z"
   },
   {
-    "id": "b88cf819aef9",
+    "id": "5b95a709652c",
     "subject": "Alzheimer's Disease",
     "predicate": "involves",
-    "object": "Tau Protein",
+    "object": "Tau",
     "context": {
       "en-US": "Neurofibrillary tangles co-define Alzheimer pathology with amyloid. Involvement records the second lesion.",
       "zh-TW": "神經纖維纏結與類澱粉共同定義阿茲海默病理。涉及記錄第二病灶。"
@@ -14431,7 +14431,7 @@
     "confidence": 0.93,
     "source_document": "Alzheimer's Disease.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
     "id": "1254a4a5ef01",
@@ -48454,10 +48454,10 @@
     "updated": "2026-09-29T15:47:57Z"
   },
   {
-    "id": "17ec4fd62e79",
+    "id": "acc987111284",
     "subject": "CDK5",
     "predicate": "phosphorylates",
-    "object": "Tau Protein",
+    "object": "Tau",
     "context": {
       "en-US": "CDK5 is a proline-directed serine/threonine kinase that, despite its name, is not primarily involved in cell cycle regulation. Activated by p35 or p39, it plays critical roles in neuronal development, synaptic plasticity and Tau phosphorylation, and its hyperphosphorylation of Tau is implicated in Alzheimer's Disease and other neurodegenerative diseases.",
       "zh-TW": "CDK5 是一種脯胺酸導向的絲胺酸/蘇胺酸激酶，雖名為細胞週期依賴性激酶，卻主要不參與細胞週期調控。它由 p35 或 p39 活化，在神經元發育、突觸可塑性與 Tau 磷酸化上扮演關鍵角色，而其對 Tau 的過度磷酸化與 Alzheimer's Disease 及其他神經退化疾病有關。"
@@ -48465,7 +48465,7 @@
     "confidence": 0.9,
     "source_document": "CDK5.md",
     "created": "2026-09-29T15:47:57Z",
-    "updated": "2026-09-29T15:47:57Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
     "id": "373eff9e15b7",
@@ -89306,8 +89306,8 @@
     "updated": "2026-09-29T17:59:45Z"
   },
   {
-    "id": "1dd758c3d849",
-    "subject": "Tau Protein",
+    "id": "cbfa37ee719e",
+    "subject": "Tau",
     "predicate": "is_associated_with",
     "object": "Oxidative Stress",
     "context": {
@@ -89317,13 +89317,13 @@
     "confidence": 0.9,
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
-    "updated": "2026-09-29T17:59:45Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
-    "id": "95a175b7fd2e",
+    "id": "153e4ec00f3d",
     "subject": "4-Hydroxynonenal",
     "predicate": "modifies",
-    "object": "Tau Protein",
+    "object": "Tau",
     "context": {
       "en-US": "The lipid peroxidation product 4-Hydroxynonenal (4-HNE) forms covalent Michael adducts with Tau Protein's cysteine and lysine residues, promoting tau oligomerization and inhibiting proteasomal degradation. 4-HNE-modified tau accumulates in Neurofibrillary tangles in Alzheimer's Disease, directly linking lipid peroxidation to tau pathology.",
       "zh-TW": "脂質過氧化產物 4-Hydroxynonenal (4-HNE) 會與 Tau Protein 的半胱胺酸與離胺酸殘基形成共價的 Michael 加合物，促進 tau 寡聚化並抑制蛋白酶體降解。經 4-HNE 修飾的 tau 累積於 Alzheimer's Disease 的 Neurofibrillary tangles 中，直接將脂質過氧化與 tau 病變連結起來。"
@@ -89331,13 +89331,13 @@
     "confidence": 0.9,
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
-    "updated": "2026-09-29T17:59:45Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
-    "id": "0e7d30a196df",
+    "id": "5a9bcce7ed92",
     "subject": "Peroxynitrite",
     "predicate": "modifies",
-    "object": "Tau Protein",
+    "object": "Tau",
     "context": {
       "en-US": "Peroxynitrite (ONOO⁻) nitrates Tau Protein at Tyr18, Tyr29, and Tyr394, generating 3-Nitrotyrosine. Tyrosine nitration impairs tau-microtubule interaction and enhances PHF formation, so peroxynitrite is a direct oxidative post-translational route from Reactive Oxygen Species to tau aggregation.",
       "zh-TW": "Peroxynitrite (ONOO⁻) 會在 Tau Protein 的 Tyr18、Tyr29 與 Tyr394 位置進行硝基化，生成 3-Nitrotyrosine。酪胺酸硝基化會損害 tau 與微管的交互作用並促進 PHF 形成，因此 peroxynitrite 是由 Reactive Oxygen Species 通往 tau 聚集的直接氧化後修飾途徑。"
@@ -89345,11 +89345,11 @@
     "confidence": 0.88,
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
-    "updated": "2026-09-29T17:59:45Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
-    "id": "59241a1bf3ef",
-    "subject": "Tau Protein",
+    "id": "218c74bcad4e",
+    "subject": "Tau",
     "predicate": "impairs",
     "object": "Mitochondria",
     "context": {
@@ -89359,13 +89359,13 @@
     "confidence": 0.9,
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
-    "updated": "2026-09-29T17:59:45Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
-    "id": "3b95ba6e5d9b",
+    "id": "726e621cfda7",
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "Tau Protein",
+    "object": "Tau",
     "context": {
       "en-US": "Tau acetylation at Lys residues (particularly Lys174, Lys274, Lys280, Lys281), mediated by P300/CBP acetyltransferases, is elevated in Alzheimer's Disease and promotes tau aggregation by neutralizing positive charges in the microtubule-binding region. The NAD+-dependent deacetylase SIRT1 removes tau acetylation; however, SIRT1 activity is reduced under oxidative conditions due to NAD+ depletion and direct ROS-mediated inhibition.",
       "zh-TW": "Tau Protein 在離胺酸殘基（尤其是 Lys174、Lys274、Lys280、Lys281）的乙醯化由 P300/CBP 乙醯轉移酶媒介，在 Alzheimer's Disease 中升高，並藉由中和微管結合區的正電荷而促進 tau 聚集。依賴 NAD+ 的去乙醯酶 SIRT1 可移除 tau 的乙醯化；然而在氧化條件下，由於 NAD+ 耗竭與 ROS 直接抑制，SIRT1 活性會下降。"
@@ -89373,13 +89373,13 @@
     "confidence": 0.88,
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
-    "updated": "2026-09-29T17:59:45Z"
+    "updated": "2026-09-29T18:00:01Z"
   },
   {
-    "id": "4be3d95bc0e6",
+    "id": "ea8653cded86",
     "subject": "Glutathione",
     "predicate": "inhibits",
-    "object": "Tau Protein",
+    "object": "Tau",
     "context": {
       "en-US": "Tau contains two cysteine residues (Cys291 and Cys322); under oxidizing conditions intermolecular disulfide bridge formation between Cys322 residues promotes tau dimerization, a critical nucleation step for aggregation. In the reducing environment maintained by Glutathione, Cys residues are kept reduced, preventing dimerization — so Glutathione repletion (e.g. via N-acetylcysteine) blocks this oxidative aggregation route.",
       "zh-TW": "Tau 含有兩個半胱胺酸殘基（Cys291 與 Cys322）；在氧化條件下，Cys322 之間形成的分子間雙硫鍵會促進 tau 二聚化，而這是聚集的關鍵成核步驟。在 Glutathione 維持的還原環境中，Cys 殘基保持還原態而阻止二聚化——因此補充 Glutathione（例如透過 N-acetylcysteine）可阻斷這條氧化性聚集途徑。"
@@ -89387,6 +89387,6 @@
     "confidence": 0.88,
     "source_document": "Tau Protein.md",
     "created": "2026-09-29T17:59:45Z",
-    "updated": "2026-09-29T17:59:45Z"
+    "updated": "2026-09-29T18:00:01Z"
   }
 ]
