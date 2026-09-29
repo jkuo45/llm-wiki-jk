@@ -55,6 +55,6 @@ HSC70 also has a specific role in degrading protein aggregates: it mediates the 
 - [[Aging]] — total HSC70 levels are broadly stable with age, but HSC70's *functional* capacity falls with age through post-translational modification, notably S-nitrosylation and S-glutathionylation, which impair its ATPase and substrate-binding domains. This decouples "chaperone levels are normal" from "chaperone function is normal".
 
 ## Linking Summary
-- New links added: [[HSF1]], [[LAMP-2A]], [[Alpha-synuclein]], [[Parkinson's Disease]], [[TLR2]], [[TLR4]], [[Androgen Receptor]], [[Estrogen Receptor]], [[HSP40]], [[S-nitrosylation]], [[Celastrol]], [[HSPA1]]
+- New links added: [[HSF1]], [[LAMP-2A]], [[Alpha-synuclein]], [[Parkinson's Disease]], [[TLR2]], [[TLR4]], [[Androgen Receptor]], [[Estrogen Receptor]], [[Celastrol]], [[Exosomes]]
 - Suggested notes to create: [[KFERQ Motif]], [[LAMP2]], [[BAG3]], [[Nucleotide Exchange Factor]], [[DNAJC3]], [[CHIP]], [[HSP70 Inhibitor]], [[HSPA8 mRNA]]
 - Strong connections to strengthen: [[HSC70]] ↔ [[Chaperone-Mediated Autophagy]], [[HSC70]] ↔ [[LAMP-2A]], [[HSC70]] ↔ [[HSP70]]
