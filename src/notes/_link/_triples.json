@@ -77068,5 +77068,845 @@
     "source_document": "Osteoporosis.md",
     "created": "2026-09-29T17:36:49Z",
     "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "9a969aad074d",
+    "subject": "NDP52",
+    "predicate": "binds",
+    "object": "LC3",
+    "context": {
+      "en-US": "NDP52 (CALCOCO2) is a primary autophagy receptor of the PINK1/Parkin mitophagy pathway. Through its LC3-interacting region (LIR) motif it binds LC3 proteins on the expanding phagophore, guiding the isolation membrane to enwrap ubiquitin-coated damaged mitochondria. NDP52 therefore bridges ubiquitin-tagged mitochondrial cargo to the autophagosome.",
+      "zh-TW": "NDP52（CALCOCO2）是 PINK1/Parkin 介導的 mitophagy 主要自噬受體。NDP52 透過其 LIR motif 與 phagophore 上的 LC3 蛋白結合，引導分離膜包覆被泛素標記的受損粒線體。NDP52 因此將泛素標記的粒線體貨載與自噬體連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "NDP52.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "9164db094b44",
+    "subject": "TBK1",
+    "predicate": "phosphorylates",
+    "object": "NDP52",
+    "context": {
+      "en-US": "TBK1 phosphorylates the autophagy receptor NDP52, which significantly enhances NDP52's affinity for ubiquitin chains on damaged mitochondria. This phosphorylation-dependent boost creates a positive feedback loop that accelerates mitochondrial engulfment by the phagophore, and the same kinase also phosphorylates the partner receptor OPTN.",
+      "zh-TW": "TBK1 會磷酸化自噬受體 NDP52，显著提升 NDP52 對受損粒線體上泛素鏈的親和力。這種依賴磷酸化增強的機制形成正向回饋迴圈，加速 phagophore 對粒線體的吞噬；同一激酶也會磷酸化搭檔受體 OPTN。"
+    },
+    "confidence": 0.9,
+    "source_document": "NDP52.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "2518a177c31e",
+    "subject": "NDP52",
+    "predicate": "is_required_for",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "NDP52 is recruited to the outer mitochondrial membrane after Parkin ubiquitinates OMM proteins, making it necessary and sufficient for efficient mitophagic engulfment in the PINK1/Parkin pathway. Ubiquitin chain recognition alone is not sufficient: a downstream receptor such as NDP52 must read those chains and engage LC3. NDP52-mediated mitophagy maintains mitochondrial quality control in neurons, and pathway defects contribute to neurodegenerative disease.",
+      "zh-TW": "在 Parkin 泛素化 OMM 蛋白後，NDP52 會被招募至粒線體外膜，因此在 PINK1/Parkin 路徑中，它對有效的 mitophagy 包覆是必要且充分的。單純辨識泛素鏈並不足夠：像 NDP52 這樣的下游受體必須讀取這些鏈並與 LC3 結合。NDP52 介導的 mitophagy 維持神經元的粒線體品質管制，其路徑缺陷會促成神經退化性疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "NDP52.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "86f070f9374f",
+    "subject": "NDP52",
+    "predicate": "cooperates_with",
+    "object": "OPTN",
+    "context": {
+      "en-US": "NDP52 and OPTN act redundantly as the two primary autophagy receptors of the PINK1/Parkin mitophagy pathway. Both are phosphorylated by TBK1 and both bind ubiquitin chains on damaged mitochondria, so functional loss of one receptor is buffered by the other and mitophagic clearance remains robust.",
+      "zh-TW": "NDP52 與 OPTN 以功能冗餘的方式作為 PINK1/Parkin mitophagy 路徑的兩大主要自噬受體。兩者皆由 TBK1 磷酸化，也都會結合受損粒線體上的泛素鏈，因此其中一個受體功能喪失時可由另一個補償，使 mitophagy 清除仍維持穩健。"
+    },
+    "confidence": 0.85,
+    "source_document": "NDP52.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "c79231e2513d",
+    "subject": "NDUFA10",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondrial Complex I",
+    "context": {
+      "en-US": "NDUFA10 is a structural subunit of Mitochondrial Complex I (NADH:ubiquinone oxidoreductase), the first and largest complex of the oxidative phosphorylation electron transport chain. Complex I transfers electrons from NADH to ubiquinone while pumping protons across the inner mitochondrial membrane to build the gradient that drives ATP synthesis.",
+      "zh-TW": "NDUFA10 是 Mitochondrial Complex I（NADH:ubiquinone oxidoreductase）的結構次單元，而 Complex I 是 oxidative phosphorylation 電子傳遞鏈中第一且最大的複合體。Complex I 將電子由 NADH 傳遞給 ubiquinone，同時在粒線體內膜泵出質子以建立驅動 ATP 合成的電化學梯度。"
+    },
+    "confidence": 0.95,
+    "source_document": "NDUFA10.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "7f9886a3f999",
+    "subject": "PINK1",
+    "predicate": "phosphorylates",
+    "object": "NDUFA10",
+    "context": {
+      "en-US": "Beyond its canonical role of recruiting Parkin for mitophagy, PINK1 phosphorylates the Complex I subunit NDUFA10 and thereby regulates the bioenergetic efficiency of the respiratory chain. NDUFA10 acts as a downstream effector that lets PINK1 couple mitochondrial quality-control signaling to cellular energy metabolism, fine-tuning redox state and ATP output under mitochondrial stress.",
+      "zh-TW": "除了招募 Parkin 進行 mitophagy 的典型功能之外，PINK1 也會磷酸化 Complex I 次單元 NDUFA10，藉此調節呼吸鏈的生物能效率。NDUFA10 作為下游效應器，使 PINK1 能將粒線體品質管制訊號與細胞能量代謝耦合，在粒線體壓力下微調氧化還原狀態與 ATP 產量。"
+    },
+    "confidence": 0.9,
+    "source_document": "NDUFA10.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "df0a2df4ebfa",
+    "subject": "Mitochondrial Complex I",
+    "predicate": "is_a_component_of",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Mitochondrial Complex I is the first and largest complex of the oxidative phosphorylation electron transport chain. It couples NADH oxidation and electron transfer to ubiquinone with proton pumping across the inner mitochondrial membrane, establishing the electrochemical gradient that ATP synthase uses to make ATP.",
+      "zh-TW": "Mitochondrial Complex I 是 oxidative phosphorylation 電子傳遞鏈中第一且最大的複合體。它將 NADH 氧化與電子傳遞給 ubiquinone 的過程，與跨越粒線體內膜的質子泵浦相耦合，建立 ATP synthase 用來製造 ATP 的電化學梯度。"
+    },
+    "confidence": 0.95,
+    "source_document": "NDUFA10.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "5ce24ebe037b",
+    "subject": "NETosis",
+    "predicate": "activates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "Neutrophil extracellular traps released during NETosis license NLRP3 inflammasome activation in macrophages, linking neutrophil death programs to the pyroptotic inflammatory response. The resulting IL-1beta-driven inflammation is a major driver of immunothrombosis, so NETosis feeds directly into inflammasome-dependent pathology.",
+      "zh-TW": "NETosis 釋放的 neutrophil extracellular traps 可「授權」巨噬細胞中的 NLRP3 inflammasome 活化，將嗜中性球死亡程序與 pyroptosis 發炎反應連結起來。由此產生的 IL-1beta 驅動發炎是 immunothrombosis 的主要成因，因此 NETosis 直接促成依賴 inflammasome 的病理。"
+    },
+    "confidence": 0.8,
+    "source_document": "NETosis.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "19b1b96e3375",
+    "subject": "NETosis",
+    "predicate": "is_associated_with",
+    "object": "Sepsis",
+    "context": {
+      "en-US": "NETosis is the major pathological neutrophil death program in sepsis, where the resulting NET burden tracks immunothrombosis. Because NETs present decondensed chromatin, histones, neutrophil elastase and Myeloperoxidase, they amplify microvascular clotting and tissue injury — which is why PAD4 inhibition and DNase digestion of NETs are explored as therapeutic interventions in septic patients.",
+      "zh-TW": "NETosis 是 sepsis 中主要的病理性嗜中性球死亡程序，其釋出的 NET 負荷與 immunothrombosis 同步變化。由於 NET 呈現去凝聚染色質、組蛋白、neutrophil elastase 與 Myeloperoxidase，會放大微血管栓塞與組織損傷——因此 PAD4 抑制劑與 NET 的 DNase 消化被探索作為敗血患者的治療介入。"
+    },
+    "confidence": 0.85,
+    "source_document": "NETosis.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "74efb5ee107a",
+    "subject": "NFS1",
+    "predicate": "metabolizes",
+    "object": "Cysteine",
+    "context": {
+      "en-US": "NFS1 is a pyridoxal-phosphate-dependent mitochondrial cysteine desulfurase in the matrix that converts cysteine to alanine and elemental sulfur. The sulfur it liberates feeds the ISCU/ISCA iron-sulfur cluster assembly machinery, so NFS1 is essential for the maturation of iron-sulfur proteins used in respiration and iron metabolism.",
+      "zh-TW": "NFS1 是位於粒線體基質、依賴磷酸吡哆醛的 cysteine desulfurase，將 cysteine 轉換為 alanine 與元素硫。它釋出的硫會供應 ISCU/ISCA 的鐵硫簇組裝機器，因此 NFS1 對呼吸作用與鐵代謝所仰賴的鐵硫蛋白成熟不可或缺。"
+    },
+    "confidence": 0.9,
+    "source_document": "NFS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "b3ab5581a61f",
+    "subject": "NFS1",
+    "predicate": "is_overexpressed_in",
+    "object": "Lung Cancer",
+    "context": {
+      "en-US": "NFS1 is abundantly expressed in highly differentiated lung adenocarcinomas, where it maintains iron-sulfur cluster homeostasis. This high expression marks the tumor as dependent on desulfurase activity for cluster supply, and it is why NFS1 has been proposed as a combinatorial therapeutic target in lung adenocarcinoma.",
+      "zh-TW": "NFS1 在高度分化的肺腺癌中高度表現，藉此維持鐵硫簇恆定。這樣的高度表現標示出腫瘤依賴 desulfurase 活性來供應鐵硫簇，也是 NFS1 被提出作為肺腺癌合併治療標的的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "NFS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "4342d7606a98",
+    "subject": "NFS1",
+    "predicate": "reduces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "NFS1 acts as a ferroptosis modifier rather than a trigger: suppressing NFS1 alone does not induce ferroptosis, but the resulting iron starvation sensitizes cells so that pre-existing ROS tip them into lipid-peroxidation-driven ferroptotic death. This places NFS1 at the intersection of iron metabolism and oxidative stress, and explains why pairing NFS1 inhibition with ROS inducers or GPX4 inhibitors could selectively kill lung adenocarcinoma.",
+      "zh-TW": "NFS1 的作用是 ferroptosis 修飾因子而非觸發因子：單獨抑制 NFS1 並不會誘發 ferroptosis，但由此造成的 iron starvation 會使細胞敏感化，讓既有的 ROS 將其推向以脂質過氧化為特徵的 ferroptosis 死亡。這使 NFS1 處於鐵代謝與氧化壓力的交會處，也解釋了為何將 NFS1 抑制與 ROS 誘導劑或 GPX4 抑制劑併用，可能選擇性地殺死肺腺癌。"
+    },
+    "confidence": 0.85,
+    "source_document": "NFS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "1229e3e949bd",
+    "subject": "NIX",
+    "predicate": "binds",
+    "object": "LC3",
+    "context": {
+      "en-US": "NIX (BNIP3L) is a BH3-only outer mitochondrial membrane protein that functions as a mitophagy receptor by binding LC3/GABARAP family proteins directly through its LIR motif. This route bypasses the PINK1–Parkin ubiquitin cascade, so NIX can target damaged mitochondria for autophagic degradation independently of Parkin.",
+      "zh-TW": "NIX（BNIP3L）是 BH3-only 的粒線體外膜蛋白，作為 mitophagy 受體，透過其 LIR motif 直接結合 LC3/GABARAP 家族蛋白。這條途徑繞過 PINK1–Parkin 的泛素級聯，因此 NIX 能獨立於 Parkin 將受損粒線體標記給自噬降解。"
+    },
+    "confidence": 0.95,
+    "source_document": "NIX.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "9776b1ccd16a",
+    "subject": "HIF-1α",
+    "predicate": "upregulates",
+    "object": "NIX",
+    "context": {
+      "en-US": "Under hypoxic conditions HIF-1α transcriptionally upregulates NIX expression. Increased NIX protein then recruits LC3 to hypoxic mitochondria via its LIR motif, promoting mitochondrial clearance. This transcriptional arm is what makes NIX a physiologically relevant Parkin-independent mitophagy receptor during hypoxia and in the mitochondria remnants eliminated during reticulocyte maturation.",
+      "zh-TW": "在缺氧條件下，HIF-1α 會在轉錄層級上調 NIX 的表現。增加的 NIX 蛋白再透過其 LIR motif 將 LC3 招募至缺氧的粒線體，促進粒線體清除。這條轉錄調控途徑使 NIX 成為缺氧期間以及網狀紅血球成熟時清除粒線體殘體時具生理意義的、獨立於 Parkin 的 mitophagy 受體。"
+    },
+    "confidence": 0.9,
+    "source_document": "NIX.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "25568ffe2a89",
+    "subject": "NIX",
+    "predicate": "is_required_for",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "NIX is a BH3-only homologue of BNIP3 that anchors to the outer mitochondrial membrane and drives Parkin-independent mitophagy. Because it engages LC3 directly rather than reading ubiquitin chains, NIX-mediated mitochondrial clearance proceeds under hypoxia and during reticulocyte maturation, complementing rather than duplicating the PINK1–Parkin route.",
+      "zh-TW": "NIX 是 BNIP3 的 BH3-only 同源蛋白，錨定於粒線體外膜並驅動獨立於 Parkin 的 mitophagy。由於它直接與 LC3 結合而非辨識泛素鏈，NIX 介導的粒線體清除可在缺氧與網狀紅血球成熟時進行，與 PINK1–Parkin 路徑互補而非重複。"
+    },
+    "confidence": 0.9,
+    "source_document": "NIX.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "b04022fcc956",
+    "subject": "NIX",
+    "predicate": "cooperates_with",
+    "object": "FUNDC1",
+    "context": {
+      "en-US": "NIX cooperates with the outer mitochondrial membrane receptor FUNDC1 to coordinate hypoxia-induced mitophagy. Both receptors are BH3-domain-bearing OMM proteins whose hypoxia-stabilized expression couples mitophagy capacity to oxygen availability, allowing cells to clear damaged mitochondria when oxidative phosphorylation is compromised.",
+      "zh-TW": "NIX 與粒線體外膜受體 FUNDC1 協同協調缺氧誘發的 mitophagy。兩者都是帶有 BH3 domain 的 OMM 蛋白，其在缺氧下穩定的表現使 mitophagy 容量與氧氣可得性耦合，讓細胞能在 oxidative phosphorylation 受損時清除受損粒線體。"
+    },
+    "confidence": 0.85,
+    "source_document": "NIX.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "718561e0d61d",
+    "subject": "NKG2A",
+    "predicate": "binds",
+    "object": "HLA-E",
+    "context": {
+      "en-US": "NKG2A is an inhibitory C-type lectin-like receptor encoded by KLRC1 that pairs with CD94 on NK cells and a subset of CD8+ T cells to recognize HLA-E, the non-classical MHC class Ib molecule presenting leader peptides from classical HLA-A/B/C. Because HLA-E is stabilized by peptides from other HLA molecules, its surface level reports the overall HLA-I expression of a target cell, so missing-self cells escape NKG2A inhibition.",
+      "zh-TW": "NKG2A 是由 KLRC1 編碼的抑制性 C 型凝集素類受體，與 CD94 形成異源二聚體表現在 NK 細胞與部分 CD8+ T 細胞上，負責辨識 HLA-E——即呈現源自典型 HLA-A/B/C leader peptide 的非典型 MHC class Ib 分子。由於 HLA-E 由其他 HLA 分子的 peptide 穩定，其表面量等同於回報標的細胞的整體 HLA-I 表現，因此「missing-self」的細胞便能逃過 NKG2A 的抑制。"
+    },
+    "confidence": 0.95,
+    "source_document": "NKG2A.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "e0b656ca555b",
+    "subject": "HLA-E",
+    "predicate": "causes",
+    "object": "Immune Evasion",
+    "context": {
+      "en-US": "Up-regulation of HLA-E on senescent and malignant cells is a recurring immune-escape strategy: elevated HLA-E engages CD94/NKG2A on NK cells and CD8+ T cells and blunts their cytotoxic function, making such cells invisible to NKG2A-positive killers. This HLA-E/NKG2A axis operates in parallel with PD-1/PD-L1 checkpoint engagement, so blocking NKG2A (e.g., with monalizumab) is being explored in combination immunotherapy.",
+      "zh-TW": "衰老細胞與惡性腫瘤細胞上調 HLA-E 是反覆出現的免疫逃脫策略：升高的 HLA-E 與 NK 細胞及 CD8+ T 細胞上的 CD94/NKG2A 結合，削弱其細胞毒殺功能，使這些細胞對 NKG2A 陽性的殺手不可見。這條 HLA-E/NKG2A 軸與 PD-1/PD-L1 checkpoint 的作用平行，因此阻斷 NKG2A（例如使用 monalizumab）正被探索作為合併免疫療法。"
+    },
+    "confidence": 0.9,
+    "source_document": "NKG2A.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "5bec1d899070",
+    "subject": "NKG2A",
+    "predicate": "is_associated_with",
+    "object": "PD-1",
+    "context": {
+      "en-US": "NKG2A and PD-1 are independent inhibitory circuits that can be co-expressed on exhausted CD8+ T cells. Because they act through separate receptors yet converge on the same suppression of T-cell effector function, combinatorial anti-NKG2A plus anti-PD-1 blockade produces synergistic reinvigoration of exhausted T cells in preclinical models.",
+      "zh-TW": "NKG2A 與 PD-1 是彼此獨立的抑制迴路，可在耗竭的 CD8+ T 細胞上共同表現。由於兩者經由不同的受體作用，卻收斂到對 T 細胞效應功能的相同抑制，因此 anti-NKG2A 加上 anti-PD-1 的合併阻斷在臨床前模型中對耗竭 T 細胞產生協同的再活化效果。"
+    },
+    "confidence": 0.85,
+    "source_document": "NKG2A.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "bdd2dc57f394",
+    "subject": "NMDA receptor",
+    "predicate": "is_activated_by",
+    "object": "Glutamate",
+    "context": {
+      "en-US": "The NMDA receptor is a heterotetrameric glutamate-gated ion channel built from GluN1, GluN2 and GluN3 subunits. It requires co-agonism by glutamate and glycine or D-serine plus postsynaptic depolarization to relieve its Mg2+ block; only then can the pore pass current, which is what gives the receptor its role in coincident detection and Hebbian plasticity.",
+      "zh-TW": "NMDA receptor 是由 GluN1、GluN2 與 GluN3 次單元組成的異四聚體 glutamatergic 離子通道。它需要 glutamate 與 glycine 或 D-serine 共同作用，並需突觸後去極化以解除 Mg2+ 封阻；只有在這些條件下孔道才可通過電流，這正是該受體在 coincidence detection 與 Hebbian 可塑性中角色的來源。"
+    },
+    "confidence": 0.95,
+    "source_document": "NMDA receptor.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "33ecb81b54e2",
+    "subject": "NMDA receptor",
+    "predicate": "transports",
+    "object": "Calcium",
+    "context": {
+      "en-US": "Once unblocked by depolarization, the NMDA receptor is highly permeable to Ca2+, and the resulting calcium influx drives both synaptic plasticity and, when excessive, excitotoxicity. This dual coupling to Ca2+ signaling is why the receptor sits at the intersection of learning and memory on one hand and stroke, traumatic brain injury and epilepsy pathology on the other.",
+      "zh-TW": "在去極化解除封阻後，NMDA receptor 對 Ca2+ 具有高度通透性，而由此產生的鈣離子內流既驅動突觸可塑性，過量時也造成 excitotoxicity。這種與 Ca2+ 訊號的雙重耦合，正是該受體一方面位於學習記憶核心、另一方面位於 stroke、traumatic brain injury 與 epilepsy 病理交會點的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "NMDA receptor.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "d51ae821b909",
+    "subject": "NMDA receptor",
+    "predicate": "causes",
+    "object": "Excitotoxicity",
+    "context": {
+      "en-US": "Pathological overactivation of the NMDA receptor produces excitotoxicity, the Ca2+-dependent neuronal death that underlies ischemic injury in stroke, traumatic brain injury and the seizure propagation of epilepsy. Antagonists such as memantine are therefore used in neurodegeneration, while honokiol represents a multitarget natural-product modulator with both antiseizure and neuroprotective profiles.",
+      "zh-TW": "NMDA receptor 的病理性過度活化會造成 excitotoxicity，即依賴 Ca2+ 的神經元死亡，也是 stroke、traumatic brain injury 的缺血性損傷與 epilepsy 的 seizure 傳播之基礎。因此 memantine 等拮抗劑被用於神經退化疾病治療，而 Honokiol 則是兼具抗發作與神經保護的多標的天然產物調節劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "NMDA receptor.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "2d61d97ea52a",
+    "subject": "NMN",
+    "predicate": "is_precursor_of",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NMN is an endogenous nucleotide derived from vitamin B3 and the direct biosynthetic precursor of NAD+. It is converted to NAD+ by NMNAT in the salvage pathway, so raising NMN availability raises cellular NAD+ and, because every mammalian sirtuin requires NAD+ as an obligate co-substrate, potentiates the whole sirtuin family without NMN binding any sirtuin directly.",
+      "zh-TW": "NMN 是源自維生素 B3 的內源性核苷酸，也是 NAD+ 的直接生合成前驅物。它在 salvage pathway 中由 NMNAT 轉換為 NAD+，因此提高 NMN 的可得性便會提高細胞 NAD+，而由於所有哺乳類 sirtuin 都以 NAD+ 為必要共同受質，這會在不直接結合任何 sirtuin 的情況下增強整個 sirtuin 家族的活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "NMN.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "97fa0efeace8",
+    "subject": "CD38",
+    "predicate": "degrades",
+    "object": "NMN",
+    "context": {
+      "en-US": "Orally administered NMN is rapidly degraded in the gut by the enzyme CD38 (and by intestinal alkaline phosphatase), which is why oral bioavailability is low. Strategies that raise effective NMN exposure include enteric-coated formulations, liposomal encapsulation and co-administration with CD38 inhibitors, all of which preserve the precursor long enough to enter the NAD+ pool.",
+      "zh-TW": "口服 NMN 會在腸道中被酵素 CD38（以及腸道鹼性磷酸酶）迅速降解，因此口服生體可用性偏低。提高 NMN 有效暴露量的策略包括腸衣製劑、脂雙層包封，以及與 CD38 抑制劑併用，這些方法都能讓前驅物存活夠久以進入 NAD+ 庫。"
+    },
+    "confidence": 0.85,
+    "source_document": "NMN.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "3ff6ac4a0f30",
+    "subject": "NMN",
+    "predicate": "activates",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "NMN does not directly bind or activate any individual sirtuin; it acts as a universal indirect pan-sirtuin activator by raising cellular NAD+ concentrations. Because SIRT1 through SIRT7 all require NAD+ as an obligate co-substrate for their deacetylase and deacylase activities, NMN supplementation potentiates the entire family, reproducing many of the NAD+-dependent benefits of Caloric Restriction including improved insulin sensitivity, mitochondrial function and vascular function in aged models.",
+      "zh-TW": "NMN 並不直接結合或活化任何單一 sirtuin；它是藉由提高細胞 NAD+ 濃度而作為普遍、間接的 pan-sirtuin 活化劑。由於 SIRT1 到 SIRT7 的 deacetylase 與 deacylase 活性全都以 NAD+ 為必要共同受質，補充 NMN 便可增強整個家族，並重現 Caloric Restriction 許多依賴 NAD+ 的效益，包括在老化模型中改善胰島素敏感性、粒線體功能與血管功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "NMN.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "6bfca18c75e2",
+    "subject": "NMNAT",
+    "predicate": "produces",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NMNAT (nicotinamide mononucleotide adenylyltransferase) catalyzes the final committed step in NAD+ biosynthesis, transferring an AMP moiety from ATP onto NMN (or NaMN) to yield NAD+ (or NAAD). All three mammalian NAD+ routes — de novo from Tryptophan, the NAMPT-driven salvage pathway, and the Preiss-Handler pathway — converge on this single NMNAT-catalyzed step.",
+      "zh-TW": "NMNAT（nicotinamide mononucleotide adenylyltransferase）催化 NAD+ 生合成的最後定案步驟，將 ATP 的 AMP 基團轉移至 NMN（或 NaMN）上以生成 NAD+（或 NAAD）。哺乳類三條 NAD+ 途徑——由 Tryptophan 起始的 de novo 合成、NAMPT 驅動的 salvage pathway，以及 Preiss-Handler pathway——全都收斂於這一個 NMNAT 催化的步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "NMNAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "3e600531ef01",
+    "subject": "NMNAT2",
+    "predicate": "is_a_type_of",
+    "object": "NMNAT",
+    "context": {
+      "en-US": "NMNAT2 is the neuronal member of the three mammalian NMNAT isoforms (NMNAT1 nuclear, NMNAT2 Golgi/cytoplasmic, NMNAT3 mitochondrial), distinguished by an N-terminal myristoylation motif that anchors it to the Golgi membrane. It is the rate-limiting NAD+ synthesis enzyme for axons and the isoform most relevant to neuronal survival.",
+      "zh-TW": "NMNAT2 是哺乳類三種 NMNAT 異構型（NMNAT1 位於細胞核、NMNAT2 位於高基氏體／細胞質、NMNAT3 位於粒線體）中的神經元成員，其鑑別特徵是 N 端 myristoylation motif 將其錨定於高基氏體膜。它是軸突 NAD+ 合成的速率限制酵素，也是與神經元存活最相關的異構型。"
+    },
+    "confidence": 0.95,
+    "source_document": "NMNAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "29cbf27113b0",
+    "subject": "NMNAT2",
+    "predicate": "protects_against",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Beyond NAD+ synthesis, NMNAT2 functions as a molecular chaperone that binds misfolded proteins and blocks their aggregation — an activity independent of ATP hydrolysis and NAD+ production. NMNAT2 binds polyglutamine-expanded huntingtin in Huntington's Disease, protects dopaminergic neurons from α-synuclein in Parkinson's Disease, and reduces tau and amyloid-β toxicity in Alzheimer's Disease models; its expression falls roughly 50% in the aging human brain.",
+      "zh-TW": "除了 NAD+ 合成之外，NMNAT2 還作為分子伴護蛋白結合錯誤折疊蛋白並阻止其聚集——此活性不依賴 ATP 水解或 NAD+ 生成。NMNAT2 在 Huntington's Disease 中結合多麩醯胺酸擴張的 huntingtin，在 Parkinson's Disease 中保護多巴胺神經元免受 α-synuclein 傷害，並在 Alzheimer's Disease 模型中降低 tau 與 amyloid-β 毒性；其在老化人腦中的表現下降約 50%。"
+    },
+    "confidence": 0.9,
+    "source_document": "NMNAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "8a073d402548",
+    "subject": "PARP",
+    "predicate": "competes_with",
+    "object": "NMNAT",
+    "context": {
+      "en-US": "PARP, activated by DNA damage, and SIRT1, activated by metabolic stress, are NAD+-consuming enzymes whose activity releases nicotinamide and thereby increases demand on the NMNAT-dependent salvage pathway. Because NMNAT commits that recycled nicotinamide to NAD+, PARP-driven consumption competes with sirtuins for the same salvage flux, and any age-related decline in NMNAT makes the cell unable to compensate.",
+      "zh-TW": "PARP（由 DNA damage 活化）與 SIRT1（由代謝壓力活化）都是消耗 NAD+ 的酵素，其活性釋出 nicotinamide，因而提高對 NMNAT 依賴的 salvage pathway 的需求。由於 NMNAT 將回收的 nicotinamide 定案為 NAD+，PARP 驅動的消耗便與 sirtuin 競爭相同的 salvage 流量；而任何與老化相關的 NMNAT 衰退都會使細胞無法補償。"
+    },
+    "confidence": 0.8,
+    "source_document": "NMNAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "88ee04a08852",
+    "subject": "NMNAT2",
+    "predicate": "inhibits",
+    "object": "SARM1",
+    "context": {
+      "en-US": "NMNAT2 maintains axonal NAD+ at roughly 400 μM by converting NMN to NAD+, which keeps the NADase SARM1 in its autoinhibited state. Because NMNAT2 has a ~30-minute half-life and is degraded by the proteasome after axonal injury, NMNAT2-derived NAD+ is the dominant brake on SARM1 — and its decline is both necessary and sufficient to license SARM1 activation.",
+      "zh-TW": "NMNAT2 藉由將 NMN 轉換為 NAD+，把軸突 NAD+ 維持在約 400 μM，使 NADase SARM1 處於自抑制狀態。由於 NMNAT2 半衰期約 30 分鐘，且在軸突受損後遭蛋白酶體降解，NMNAT2 產生的 NAD+ 是抑制 SARM1 的主要煞車——其衰退既是 SARM1 活化的必要條件，也足以促成 SARM1 活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "NMNAT2.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "a4cc86407efc",
+    "subject": "NMNAT2",
+    "predicate": "protects_against",
+    "object": "Wallerian Degeneration",
+    "context": {
+      "en-US": "NMNAT2 protects against Wallerian Degeneration by keeping the axonal NMN/NAD+ ratio low; its injury-dependent proteasomal loss causes NMN accumulation, and that rising ratio is the primary metabolic trigger that relieves SARM1 autoinhibition and initiates the NAD+ catastrophe. Restoring NMNAT2 levels, or bypassing it with NAD+ precursors such as NMN or NR, delays or prevents axonal loss.",
+      "zh-TW": "NMNAT2 藉由維持軸突中較低的 NMN/NAD+ 比例來防止 Wallerian Degeneration；其受損後的蛋白酶體降解造成 NMN 累積，而上升的 NMN/NAD+ 比例是解除 SARM1 自抑制、啟動 NAD+ 災難的主要代謝觸發因素。恢復 NMNAT2 濃度，或以 NMN、NR 等 NAD+ 前驅物加以繞過，都可延緩或避免軸突喪失。"
+    },
+    "confidence": 0.9,
+    "source_document": "NMNAT2.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "d9253a2dac8f",
+    "subject": "NMRK1",
+    "predicate": "produces",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "NMRK1 (NRK1) is a nicotinamide riboside kinase that directly phosphorylates Nicotinamide Riboside to NMN. Because this route does not require NAMPT, NMRK1 provides a bypass around the rate-limiting salvage enzyme, allowing Nicotinamide Riboside to enter the NAD+ pool even when NAMPT-dependent recycling is compromised.",
+      "zh-TW": "NMRK1（NRK1）是 nicotinamide riboside kinase，可直接將 Nicotinamide Riboside 磷酸化為 NMN。由於這條途徑不需要 NAMPT，NMRK1 提供了繞過速率限制 salvage 酵素的替代路徑，使 Nicotinamide Riboside 即使在 NAMPT 依賴的回收受損時仍能進入 NAD+ 庫。"
+    },
+    "confidence": 0.9,
+    "source_document": "NMRK1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "536a30247d62",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "is_precursor_of",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "Nicotinamide Riboside enters NAD+ metabolism through phosphorylation to NMN by the two nicotinamide riboside kinases NMRK1 and NMRK2. This direct route bypasses the NAMPT requirement of the conventional salvage pathway, which is why NMRK1/NMRK2 are described as bypassing that step on the way to NAD+.",
+      "zh-TW": "Nicotinamide Riboside 經由兩種 nicotinamide riboside kinase——NMRK1 與 NMRK2——磷酸化為 NMN 而進入 NAD+ 代謝。這條直接途徑繞過了傳統 salvage pathway 對 NAMPT 的需求，因此 NMRK1/NMRK2 被描述為在通往 NAD+ 的路上繞過該步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "NMRK1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "b4076f099b93",
+    "subject": "NMRK2",
+    "predicate": "produces",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "NMRK2 (NRK2) is a nicotinamide riboside kinase predominantly expressed in cardiac and skeletal muscle that converts Nicotinamide Riboside to NMN. Because it is abundant in these high-energy tissues, NMRK2 activity is an adaptive mechanism in failing hearts where NAD+ levels are low, coupling nicotinamide riboside supplementation to cardiac bioenergetics.",
+      "zh-TW": "NMRK2（NRK2）是主要表現在心肌與骨骼肌中的 nicotinamide riboside kinase，將 Nicotinamide Riboside 轉換為 NMN。由於它在這些高能量組織中含量豐富，NMRK2 活性成為衰竭心臟中 NAD+ 濃度偏低時的適應機制，把 Nicotinamide Riboside 補充與心臟生物能代謝連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "NMRK2.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "52a224ccf0f4",
+    "subject": "NMRK2",
+    "predicate": "is_expressed_in",
+    "object": "Heart",
+    "context": {
+      "en-US": "NMRK2 (NRK2) is expressed predominantly in cardiac and skeletal muscle. In the failing heart, where NAD+ levels fall, NMRK2-dependent conversion of Nicotinamide Riboside to NMN acts as an adaptive rescue pathway that restores NAD+ availability to support contractile bioenergetics.",
+      "zh-TW": "NMRK2（NRK2）主要表現在心肌與骨骼肌中。在 NAD+ 濃度下降的衰竭心臟裡，NMRK2 依賴的 Nicotinamide Riboside → NMN 轉換扮演適應性的救援途徑，恢復 NAD+ 的可得性以支撐收縮功能的生物能代謝。"
+    },
+    "confidence": 0.85,
+    "source_document": "NMRK2.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "153cb2b36f5f",
+    "subject": "NNMT",
+    "predicate": "produces",
+    "object": "1-Methylnicotinamide",
+    "context": {
+      "en-US": "NNMT is a cytosolic, S-adenosylmethionine-dependent methyltransferase that converts Nicotinamide into 1-Methylnicotinamide (1-MNA) and S-adenosylhomocysteine. By methylating the nicotinamide released by NAD+-consuming enzymes, NNMT acts as the major catabolic sink for this salvage substrate and thereby limits how much NAD+ can be rebuilt.",
+      "zh-TW": "NNMT 是細胞質中依賴 S-adenosylmethionine 的 methyltransferase，將 Nicotinamide 轉換為 1-Methylnicotinamide（1-MNA）與 S-adenosylhomocysteine。藉由甲基化 NAD+ 消耗酵素所釋出的 nicotinamide，NNMT 成為此 salvage 底物的主要分解匯，因而限制可重建的 NAD+ 總量。"
+    },
+    "confidence": 0.9,
+    "source_document": "NNMT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "a9c03175ee90",
+    "subject": "NNMT",
+    "predicate": "competes_with",
+    "object": "NAD+ Salvage Pathway",
+    "context": {
+      "en-US": "NNMT competes with the NAD+ Salvage Pathway for nicotinamide. NAMPT is the rate-limiting salvage enzyme that recycles nicotinamide into NMN, while NNMT methylates the same substrate into 1-Methylnicotinamide; high NNMT flux therefore diverts precursor away from NAD+ synthesis rather than adding a parallel route to it.",
+      "zh-TW": "NNMT 與 NAD+ Salvage Pathway 競爭 nicotinamide。NAMPT 是將 nicotinamide 回收成 NMN 的速率限制 salvage 酵素，而 NNMT 則把同一底物甲基化為 1-Methylnicotinamide；因此高的 NNMT 流量會把前驅物從 NAD+ 合成引開，而非為其增加一條平行途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "NNMT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "c3caa0022975",
+    "subject": "NNMT",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Because NNMT withdraws nicotinamide from salvage, high NNMT expression lowers intracellular NAD+ precursor flux and thus depletes the NAD+ pool. Since every sirtuin requires NAD+ as an obligate co-substrate, this places NNMT upstream of sirtuin network activity; dysregulated NNMT is consequently implicated in obesity, metabolic syndrome, multiple cancers and cardiovascular disease.",
+      "zh-TW": "由於 NNMT 把 nicotinamide 從 salvage 中抽走，NNMT 高度表現會降低細胞內 NAD+ 前驅物流量，進而耗竭 NAD+ 庫。由於所有 sirtuin 都以 NAD+ 為必要共同受質，這使 NNMT 處於 sirtuin 網絡活性的上游；因此 NNMT 失調與肥胖、代謝症候群、多種癌症及心血管疾病相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "NNMT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "e71769791870",
+    "subject": "NNMT",
+    "predicate": "inhibits",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "NNMT restrains sirtuin activity indirectly rather than enzymatically: by methylating nicotinamide it shrinks the precursor pool feeding the NAD+ Salvage Pathway, and the resulting lower NAD+ availability limits the NAD+-dependent deacetylase activity of Sirtuins. NNMT therefore acts as an upstream modulator of sirtuin signaling through metabolic control.",
+      "zh-TW": "NNMT 是以代謝控制而非直接酵素作用間接限制 sirtuin 活性：它甲基化 nicotinamide，縮小供應 NAD+ Salvage Pathway 的前驅物庫，隨之降低的 NAD+ 可得性便限制 Sirtuins 的 NAD+ 依賴型 deacetylase 活性。因此 NNMT 透過代謝調控充當 sirtuin 訊號的上游調節因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "NNMT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "c9adbd4856db",
+    "subject": "NPAT",
+    "predicate": "activates",
+    "object": "Histone",
+    "context": {
+      "en-US": "NPAT is a transcription factor that, once phosphorylated by the cyclin E/CDK2 complex at the G1/S transition, activates transcription of the replication-dependent H2A, H2B, H3 and H4 histone gene clusters. This couples histone production tightly to DNA replication and licenses the massive, S-phase-restricted burst of canonical histone mRNA needed to package newly replicated DNA.",
+      "zh-TW": "NPAT 是一項轉錄因子，一旦在 G1/S 轉換時被 cyclin E/CDK2 複合體磷酸化，就會活化複製依賴型 H2A、H2B、H3 與 H4 組蛋白基因群的轉錄。這使組蛋白的產生與 DNA 複製緊密耦合，並授權細胞在 S 期產生封裝新生複製 DNA 所需的大量、限於 S 期的典型組蛋白 mRNA。"
+    },
+    "confidence": 0.9,
+    "source_document": "NPAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "a88d09aecfc3",
+    "subject": "Cyclin E",
+    "predicate": "phosphorylates",
+    "object": "NPAT",
+    "context": {
+      "en-US": "NPAT is gated by cell-cycle kinases: cyclin E/CDK2 phosphorylation at the G1/S transition licenses NPAT to drive replication-dependent histone gene transcription. In quiescence or senescence cyclin E/CDK2 activity falls, NPAT is dephosphorylated, and the replication-dependent histone genes are silenced — which is why NPAT disengagement is a principal cause of the canonical histone collapse seen in senescent cells.",
+      "zh-TW": "NPAT 受細胞週期激酶調控：在 G1/S 轉換時 cyclin E/CDK2 的磷酸化授權 NPAT 驅動複製依賴型組蛋白基因的轉錄。在靜止或衰老時 cyclin E/CDK2 活性下降，NPAT 被去磷酸化，複製依賴型組蛋白基因因而沉默——這正是 NPAT 失去作用成為衰老細胞典型組蛋白崩潰主因的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "NPAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "a8df4a516e1c",
+    "subject": "NPAT",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "NPAT inactivation in permanently arrested senescent cells silences replication-dependent histone genes, producing the canonical histone loss that correlates with chromatin decompaction and SASP upregulation. Because SASP loci need repressive chromatin to stay quiet, NPAT-dependent histone supply acts as an indirect brake on the inflammatory SASP program even though NPAT is not itself a SASP transcription factor.",
+      "zh-TW": "在永久停滯的衰老細胞中，NPAT 失活會使複製依賴型組蛋白基因沉默，造成與染色質去壓實及 SASP 上調相關的典型組蛋白流失。由於 SASP 基因座需要抑制性的染色質才能保持沉默，NPAT 依賴的組蛋白供應便對發炎性 SASP 程序構成間接煞車，儘管 NPAT 本身並非 SASP 的轉錄因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "NPAT.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "2d429b356fd7",
+    "subject": "NPC1",
+    "predicate": "is_localized_to",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "NPC1 is a late-endosomal/lysosomal membrane protein essential for intracellular cholesterol trafficking; loss-of-function mutations cause Niemann-Pick disease type C, a lethal storage disorder with cholesterol accumulation and progressive neurodegeneration. Because its home is the endolysosomal compartment, NPC1 loss is a direct source of endolysosomal stress.",
+      "zh-TW": "NPC1 是晚期内體／溶酶體膜蛋白，對細胞內膽固醇運輸不可或缺；其功能喪失突變會造成 Niemann-Pick disease type C——一種伴隨膽固醇堆積與進行性神經退化的致命儲積症。由於其所在位置就是內體溶酶體區室，NPC1 缺失直接造成內體溶酶體壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "NPC1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "084506b6a253",
+    "subject": "NPC1",
+    "predicate": "inhibits",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "NPC1 acts as a checkpoint that restrains cGAS-STING signaling under homeostatic conditions. NPC1 deficiency disrupts endolysosomal trafficking, impairs STING degradation and prolongs signaling at the ER and nuclear envelope, producing constitutive STING overactivation and sustained Type I Interferon production — a cGAS-independent route by which organelle stress alone can drive interferon signaling.",
+      "zh-TW": "NPC1 是在穩態下抑制 cGAS-STING 訊號的檢查點。NPC1 缺失會破壞內體溶酶體運輸、損害 STING 降解並延長其在 ER 與核膜的訊號傳遞，造成 STING 過度活化與持續的 Type I Interferon 生成——這是一條不依賴 cGAS、單靠胞器壓力即可驅動干擾素訊號的途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "NPC1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "d68c958ad40b",
+    "subject": "NPC1",
+    "predicate": "promotes",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "Because lysosomal dysfunction is a shared feature of many neurodegenerative diseases, NPC1-dependent STING activation bridges endolysosomal stress to chronic Neuroinflammation. NPC1 deficiency drives sustained Type I Interferon and Interferon-Stimulated Genes expression in the CNS, mirroring the maladaptive innate immune activation seen across proteinopathies.",
+      "zh-TW": "由於溶酶體功能障礙是多種神經退化疾病的共同特徵，NPC1 依賴的 STING 活化便把內體溶酶體壓力與慢性 Neuroinflammation 連結起來。NPC1 缺失在 CNS 驅動持續的 Type I Interferon 與 Interferon-Stimulated Genes 表現，與蛋白病中常見的失調先天免疫活化如出一轍。"
+    },
+    "confidence": 0.8,
+    "source_document": "NPC1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "0395c47fe494",
+    "subject": "NPM1",
+    "predicate": "interacts_with",
+    "object": "ATM",
+    "context": {
+      "en-US": "NPM1 (nucleophosmin, B23) is a multifunctional nucleolar chaperone that Co-IP confirmed can interact with phosphorylated ATM in senescent cells. In a proteome-wide interactor screen it was one of only 19 molecules shared by both ATM and p38 MAPK, marking NPM1 as a convergent node of the two stress kinases — but unlike HSPA8, that interaction is not attenuated by Apigenin.",
+      "zh-TW": "NPM1（nucleophosmin，B23）是多功能的核仁伴護蛋白，Co-IP 證實其可與衰老細胞中的磷酸化 ATM 交互作用。在全蛋白組交互作用篩選中，它是 ATM 與 p38 MAPK 唯一共有的 19 個分子之一，標示 NPM1 為這兩個壓力激酶的收斂節點——但與 HSPA8 不同，該交互作用不會被 Apigenin 削弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "NPM1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "6738ca0aad2c",
+    "subject": "NPM1",
+    "predicate": "interacts_with",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "NPM1 binds both ATM and p38 MAPK in senescent cells, making it a shared interactor of the two SASP-relevant stress kinases. This dual engagement is apigenin-insensitive, which is what distinguishes NPM1 from HSPA8 as the apigenin-sensitive node responsible for SASP suppression.",
+      "zh-TW": "NPM1 在衰老細胞中同時結合 ATM 與 p38 MAPK，因此是這兩個與 SASP 相關壓力激酶的共同交互蛋白。這種雙重結合不受 apigenin 影響，正是 NPM1 與 HSPA8 的差別——後者才是負責 SASP 抑制的 apigenin 敏感節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "NPM1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "6cbd5840182d",
+    "subject": "CK2",
+    "predicate": "phosphorylates",
+    "object": "NUCKS1",
+    "context": {
+      "en-US": "NUCKS1 is named for being a substrate of CK2 and cyclin-dependent kinases, and it is hyperphosphorylated at multiple Ser/Thr residues. Its acidic, intrinsically disordered C-terminal tail is a phosphorylation-rich platform for chromatin remodelers, transcription factors and DNA-repair proteins, and its acetylation/deacetylation balance further modulates chromatin occupancy.",
+      "zh-TW": "NUCKS1 因其為 CK2 與 cyclin-dependent kinases 的受質而得名，並在多個 Ser/Thr 殘基上被高度磷酸化。其酸性、內在無序的 C 端尾部是富含磷酸化、可供染色質重塑蛋白、轉錄因子與 DNA 修復蛋白停靠的平台；其乙醯化／去乙醯化平衡進一步調節染色質佔有率。"
+    },
+    "confidence": 0.9,
+    "source_document": "NUCKS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "06576c19be66",
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "NUCKS1",
+    "context": {
+      "en-US": "NUCKS1 carries acetylation sites whose state is reversed by SIRT7 deacetylase activity, and that balance modulates how much NUCKS1 occupies chromatin. The SIRT7–NUCKS1 axis has been implicated in senescence-associated chromatin reorganization and SASP regulation, including at rDNA loci where the two partners meet in nucleolus-associated regulation.",
+      "zh-TW": "NUCKS1 帶有可被 SIRT7 去乙醯化酵素活性逆轉的乙醯化位點，而該平衡決定 NUCKS1 佔據染色質的程度。SIRT7–NUCKS1 軸已被認為參與衰老相關的染色質重組與 SASP 調控，包括在這兩個搭檔於核仁相關調控中相遇的 rDNA 基因座上。"
+    },
+    "confidence": 0.85,
+    "source_document": "NUCKS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "27ca4875feed",
+    "subject": "NUCKS1",
+    "predicate": "protects_against",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "NUCKS1 sustains proliferative chromatin programs, so its depletion in cancer cell lines triggers Cellular Senescence and apoptosis through the p53/p21 pathway. This makes NUCKS1 loss both a growth-arrest trigger and a therapeutic vulnerability: NUCKS1 is overexpressed in breast, hepatocellular, gastric, colorectal and lung malignancies, where high expression correlates with proliferation, metastasis and poor prognosis.",
+      "zh-TW": "NUCKS1 維持增殖性的染色質程序，因此在癌症細胞株中敲低 NUCKS1 會透過 p53/p21 路徑誘發 Cellular Senescence 與凋亡。這使 NUCKS1 流失既是生長停滞的觸發因子，也是治療弱點：NUCKS1 在乳癌、肝細胞癌、胃癌、大腸癌與肺癌中過度表現，高表現與增殖、轉移及不良預後相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "NUCKS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "a449bd783977",
+    "subject": "NUCKS1",
+    "predicate": "contributes_to",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "NUCKS1 is recruited to sites of DNA Damage and has been implicated in homologous-recombination repair through interaction with repair proteins such as BRCA1. By supporting double-strand-break repair, NUCKS1 protects proliferating cells from genomic instability, and it also associates with chromatin bearing the repressive H3K9me3 mark to modulate proliferation- and metabolism-associated gene expression.",
+      "zh-TW": "NUCKS1 會被招募至 DNA Damage 位點，並透過與 BRCA1 等修復蛋白的交互作用參與同源重組修復。藉由支援雙股斷裂修復，NUCKS1 保護增殖細胞免於 genomic instability；它也會與帶有抑制性 H3K9me3 標記的染色質結合，以調節增殖與代謝相關基因的表現。"
+    },
+    "confidence": 0.85,
+    "source_document": "NUCKS1.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "ca941ca2471d",
+    "subject": "NUMTs",
+    "predicate": "is_derived_from",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "NUMTs (nuclear insertions of mitochondrial origin) are copies of mtDNA that integrated into the nuclear genome during evolution; roughly 755 such insertions are dispersed through the human nuclear genome, mostly under 500 bp, with a mean sequence identity to mtDNA of 79.2%. They are generally considered pseudogenes and molecular fossils of the endosymbiotic transfer of genetic material from mitochondria to the nucleus.",
+      "zh-TW": "NUMTs（nuclear insertions of mitochondrial origin）是演化過程中整合進核基因體的 mtDNA 拷貝；人類核基因體中估計散布著 755 個此類插入片段，多數小於 500 bp，與 mtDNA 的平均序列一致性為 79.2%。它們一般被視為偽基因，也是粒線體向細胞核內共生轉移遺傳物質的分子化石。"
+    },
+    "confidence": 0.95,
+    "source_document": "NUMTs.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "a86b83bce672",
+    "subject": "NUMTs",
+    "predicate": "is_associated_with",
+    "object": "Humanin",
+    "context": {
+      "en-US": "The mitochondrial origin of Humanin remains debated in part because NUMT sequences reflecting humanin are found across chromosomes 1–13 with varying homology, yet none is fully identical to the original Alzheimer's Disease brain cDNA clone. Evidence for mitochondrial origin includes 100% identity of that clone to mitochondrial 16S rRNA and formylated humanin's enhanced FPRL1 binding; a NUMT-derived humanin has not been formally ruled out.",
+      "zh-TW": "Humanin 的粒線體來源仍有爭議，部分原因是反映 humanin 的 NUMT 序列存在於第 1–13 號染色體且同源性不一，但沒有一個與原始 Alzheimer Disease 腦部 cDNA 選殖完全相同。支持粒線體來源的證據包括該選殖與粒線體 16S rRNA 完全一致，以及 formylated humanin 增強 FPRL1 結合；然而 NUMT 衍生的 humanin 尚未被正式排除。"
+    },
+    "confidence": 0.7,
+    "source_document": "NUMTs.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "50132594e942",
+    "subject": "Naked Mole Rat",
+    "predicate": "suppresses",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Naked mole rats maintain high genomic instability yet keep cGAS-STING Pathway output muted. Unlike human cGAS, which is anchored to nucleosomes and restrained to prevent aberrant activation, naked mole rat cGAS exhibits prolonged retention on chromatin and enhances DNA Repair — an evolutionary rewiring in which nuclear cGAS is co-opted toward genome maintenance rather than inflammatory signaling, damping Type I Interferon and inflammation.",
+      "zh-TW": "裸鼢鼠保有高度的 genomic instability，卻使 cGAS-STING Pathway 的輸出維持低弱。與錨定於 nucleosome 並受抑制以避免異常活化的人類 cGAS 不同，裸鼢鼠 cGAS 在 chromatin 上保留時間更長且強化 DNA Repair——這是一種演化上的重新佈線，使核內 cGAS 轉向基因體維護而非發炎訊號，因而抑制 Type I Interferon 與 inflammation。"
+    },
+    "confidence": 0.85,
+    "source_document": "Naked Mole Rat.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "db4ce376e1a3",
+    "subject": "Naked Mole Rat",
+    "predicate": "protects_against",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Naked mole rats display remarkable resistance to cancer alongside extraordinary longevity, which is what makes them a premier comparative model for Senescence, genomic stability and innate immunity. Their muted neuroinflammation despite genomic instability suggests that longevity in this species is not bought by avoiding DNA damage but by tolerating it without destructive inflammatory output.",
+      "zh-TW": "裸鼢鼠在極長壽命的同時展現出非凡的癌症抵抗性，使其成為研究 Senescence、genomic stability 與先天免疫的首要比較模型。它們在 genomic instability 下仍抑制 neuroinflammation，表示該物種的長壽並非靠避免 DNA damage 取得，而是靠容忍 DNA damage 而不產生破壞性的發炎輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "Naked Mole Rat.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "b05d972235cd",
+    "subject": "Nanocrystals",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Nanocrystals are pure, carrier-free drug particles below 1 µm dispersed with a stabilizer into a nanosuspension. Because they contain no matrix material — only active compound — reducing particle size into the nanorange increases surface area and dissolution velocity (Noyes–Whitney), improving gastrointestinal absorption and Bioavailability of poorly soluble drugs such as Fisetin.",
+      "zh-TW": "Nanocrystals 是純粹的無載體藥物顆粒，粒徑小於 1 µm，並與穩定劑一起分散成 nanosuspension。由於不含任何基質材料——只有活性成分——將顆粒縮小至奈米尺度會增加表面積與溶解速率（Noyes–Whitney），從而改善 Fisetin 等難溶性藥物的腸胃吸收與 Bioavailability。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nanocrystals.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "4d29e32af0de",
+    "subject": "Nanocrystals",
+    "predicate": "increases",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Fisetin nanocrystals prepared by bottom-up solvent/antisolvent methods yielded 134.9–148.6 nm poloxamer-coated crystals that increased Apoptosis in EA.hy926 endothelial cells, lowering IC85 4.8- to 5.6-fold and enhancing the anti-Angiogenesis effect. Because the carrier-free platform has high drug loading and no inert carrier mass, it was the most cytotoxic formulation tested in the reviewed in vitro panel.",
+      "zh-TW": "以自下而上溶劑／反溶劑法製備的 Fisetin nanocrystals 得到 134.9–148.6 nm 的 poloxamer 包覆晶體，使 EA.hy926 內皮細胞的 Apoptosis 增加，IC85 下降 4.8 至 5.6 倍並增強抗 Angiogenesis 效果。由於無載體平台載藥量高且不含惰性載體質量，它在所審閱的體外測試panel中是最具細胞毒性的配方。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nanocrystals.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "c4deb3e2957c",
+    "subject": "Nanoemulsions",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Nanoemulsions are colloidal dispersions of two immiscible liquids stabilized by surfactants with 20–200 nm droplets. Their large interfacial area increases dissolution rate and intestinal absorption, raising Bioavailability of poorly soluble drugs: conventional intraperitoneal Fisetin nanoemulsions produced a 24-fold Bioavailability increase and 53% tumor-size reduction in Lewis lung carcinoma, while Fisetin-SNEDDS raised Cmax 3.7-fold and AUC 1.5-fold after oral dosing in rats.",
+      "zh-TW": "Nanoemulsions 是由界面活性劑穩定、粒徑 20–200 nm 的兩種互不相溶液體的膠體分散系。其巨大的界面面積提高溶解速率與腸道吸收，提升難溶性藥物的 Bioavailability：傳統腹腔注射 Fisetin nanoemulsions 在 Lewis lung carcinoma 中使 Bioavailability 提高 24 倍、腫瘤體積縮小 53%，而 Fisetin-SNEDDS 在大鼠口服後使 Cmax 提高 3.7 倍、AUC 提高 1.5 倍。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nanoemulsions.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "02095367b03a",
+    "subject": "SNEDDS",
+    "predicate": "produces",
+    "object": "Nanoemulsions",
+    "context": {
+      "en-US": "SNEDDS (self-nanoemulsifying drug delivery systems) are anhydrous preconcentrates of oil, surfactant, co-surfactant and drug that self-emulsify into an oil-in-water Nanoemulsions upon aqueous dilution in the stomach. Fisetin-SNEDDS at 154 nm droplet size gave 11.0-, 3.6- and 7.9-fold higher dissolution in water, pH 1.2 and pH 6.8 media respectively, and provided neuroprotection in rotenone-induced Parkinson's Disease rats.",
+      "zh-TW": "SNEDDS（self-nanoemulsifying drug delivery systems）是由油、界面活性劑、輔助界面活性劑與藥物组成的無水預濃縮物，在胃中遇水稀釋時自乳化形成油-in-水型 Nanoemulsions。粒徑 154 nm 的 Fisetin-SNEDDS 在水、pH 1.2 與 pH 6.8 媒體中的溶解度分別提高 11.0、3.6 與 7.9 倍，並在 rotenone 誘發的 Parkinson's Disease 大鼠中提供神經保護。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nanoemulsions.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "672f08123689",
+    "subject": "Nanoemulsions",
+    "predicate": "protects_against",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Fisetin-SNEDDS nanoemulsions showed neuroprotection in rotenone-induced Parkinson's Disease rats, reducing TNFα and IL-6 while raising Glutathione, Superoxide Dismutase and Catalase. By delivering the poorly soluble fisetin efficiently, the nanoemulsion converts an oral antioxidant into a bioavailable neuroprotective agent that restores antioxidant capacity in the injured brain.",
+      "zh-TW": "Fisetin-SNEDDS nanoemulsions 在 rotenone 誘發的 Parkinson's Disease 大鼠中展現神經保護，降低 TNFα 與 IL-6，同時提升 Glutathione、Superoxide Dismutase 與 Catalase。藉由有效遞送難溶的 fisetin，nanoemulsion 把一種口服抗氧化劑轉化為具生體可用性的神經保護藥物，恢復受損腦部的抗氧化能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nanoemulsions.md",
+    "created": "2026-09-29T17:40:30Z",
+    "updated": "2026-09-29T17:40:30Z"
   }
 ]
